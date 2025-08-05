@@ -94,282 +94,143 @@ Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi 
 
 Sebelum memulai kursus SCU202, saya ingin mengulas secara singkat konsep-konsep mendasar yang dibahas dalam kursus sebelumnya ("SCU101") di bab ini.
 
-Selain itu, jika Anda masih pemula dalam bidang komputer dan belum pernah mengambil SCU101, saya sangat menyarankan Anda untuk memulai dengan kursus pertama sebelum melanjutkan ke kursus ini. Dasar-dasar yang tercakup dalam SCU101 tidak akan diulang di sini. Oleh karena itu, saya tidak akan kembali ke praktik keamanan dasar, atau penggunaan VPN, pengelola kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini sangat penting untuk dikuasai sebelum beralih ke penggunaan yang lebih lanjut, yang akan kita bahas di bab-bab berikutnya.
+Selain itu, jika Anda masih pemula dalam bidang komputer dan belum mengambil SCU101, saya sangat menyarankan untuk memulai dengan kursus pertama itu sebelum melanjutkan ke kursus ini. Dasar-dasar yang dibahas di SCU101 tidak akan diulangi di sini. Oleh karena itu, saya tidak akan kembali membahas praktik keamanan dasar, penggunaan VPN, manajer kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini penting untuk dikuasai sebelum beralih ke penggunaan yang lebih lanjut, yang akan kita bahas di bab-bab berikutnya.
 
-Selain itu, jika Anda masih pemula dalam bidang komputer dan belum mengambil SCU101, saya sangat menyarankan untuk memulai dengan kursus pertama itu sebelum melanjutkan ke kursus ini. Dasar-dasar yang dibahas di SCU101 tidak akan diulangi di sini. Oleh karena itu, saya tidak akan kembali membahas praktik keamanan dasar, penggunaan VPN, manajer kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini penting untuk dikuasai sebelum beralih ke penggunaan yang lebih maju, yang akan kita bahas di bab-bab berikutnya.
-
-Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam kebersihan digital untuk pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan, privasi, dan kedaulatan digital sehari-hari.
-
-
+Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam praktek digital yang aman bagi pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan sehari-hari, privasi, dan kedaulatan digital.
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Penjelajahan online yang aman
 
+Penjelajahan internet sering kali menjadi titik masuk utama untuk ancaman keamanan siber. Dalam SCU101, kita melihat pentingnya untuk tetap waspada, terutama terkait dengan unduhan. Unduhlah file hanya dari sumber yang dapat dipercaya, dan utamakan perangkat lunak open-source, yang sering kali mendapatkan manfaat dari transparansi dan kontrol komunitas yang lebih besar.
 
+Perilaku baik lain yang dibahas dalam kursus ini melibatkan cookies, yaitu file-file kecil yang disimpan di komputer Anda saat Anda mengunjungi situs web. Anda harus secara teratur menghapus atau membatasinya untuk melindungi privasi Anda.
 
-Penjelajahan internet sering kali menjadi pintu masuk utama bagi ancaman keamanan siber. Di SCU101, kami melihat bahwa penting untuk tetap waspada, terutama dalam hal pengunduhan. Unduh hanya file dari sumber yang dapat diandalkan, dan lebih memilih perangkat lunak sumber terbuka, yang sering kali mendapat manfaat dari transparansi dan kontrol komunitas yang lebih besar.
-
-
-
-Praktik baik lainnya yang dibahas dalam kursus ini adalah cookie, file-file kecil yang tersimpan di komputer Anda ketika Anda mengunjungi situs web. Anda harus secara teratur menghapus atau membatasinya untuk melindungi privasi Anda.
-
-
-
-Secara umum, penjelajahan yang aman membutuhkan sejumlah kehati-hatian: hindari mengklik tautan yang tidak dikenal, hindari situs yang mencurigakan, dan gunakan peramban yang aman dan terbaru.
-
-
+Secara umum, penjelajahan yang aman memerlukan kehati-hatian tertentu: hindari mengklik tautan yang tidak dikenal, hindari situs yang mencurigakan, dan gunakan browser yang aman serta selalu diperbarui.
 
 ![Image](assets/fr/268.webp)
 
-
-
 ### Memahami VPN dan mengamankan koneksi Internet Anda
 
+SCU101 memperkenalkan Anda pada konsep VPN (Virtual Private Network). Secara praktis, VPN mengenkripsi lalu lintas internet Anda dengan membuat saluran aman antara perangkat Anda dan server jarak jauh. Namun, tidak semua VPN sama: utamakan penyedia yang transparan, dapat diandalkan, dan memungkinkan pendaftaran anonim, seperti Mullvad, ProtonVPN, atau IVPN. VPN ini memastikan privasi optimal tanpa mengumpulkan data pribadi Anda secara tidak perlu.
 
-
-SCU101 memperkenalkan Anda pada konsep VPN (Virtual Private Network). Secara praktis, VPN mengenkripsi lalu lintas internet Anda dengan membuat terowongan yang aman antara perangkat Anda dan server jarak jauh. Namun, tidak semua VPN sama: prioritaskan penyedia yang transparan dan andal yang mengizinkan pendaftaran anonim, seperti Mullvad, ProtonVPN, atau IVPN. VPN-VPN ini memastikan Anda mendapatkan privasi optimal tanpa mengumpulkan data pribadi Anda secara tidak perlu.
-
-
-
-Selain itu, kami telah melihat bahwa pada jaringan Wi-Fi publik, koneksi sangat terbuka. Itulah mengapa menggunakan VPN sangat penting. Jika Anda tidak dapat menggunakannya, sambungkan hanya ke situs-situs HTTPS untuk melindungi pertukaran data Anda.
-
-
+Selain itu, kita telah melihat bahwa pada jaringan Wi-Fi publik, koneksi sangat rentan. Itulah mengapa penggunaan VPN sangat penting. Jika Anda tidak dapat menggunakannya, sambungkan hanya ke situs HTTPS untuk melindungi pertukaran data Anda.
 
 ![Image](assets/fr/269.webp)
 
-
-
 ### Menggunakan komputer Anda dengan hati-hati
 
-
-
-Keamanan juga berarti mengetahui sistem operasi (OS) Anda. Anda telah menjelajahi tiga OS utama: Windows, macOS, dan Linux, masing-masing dengan fitur keamanannya sendiri. Khususnya di Windows, antivirus yang mutakhir sangat penting untuk mendeteksi dan memblokir malware.
-
-
+Keamanan juga berarti mengenal sistem operasi (OS) Anda. Anda telah mendalami 3 OS utama: Windows, macOS, dan Linux, masing-masing dengan fitur keamanannya sendiri. Khususnya pada Windows, antivirus yang selalu diperbarui sangat penting untuk mendeteksi dan memblokir *malware*.
 
 ![Image](assets/fr/270.webp)
 
-
-
-SCU101 juga memperingatkan Anda untuk tidak pernah mencolokkan drive USB yang tidak dikenal ke komputer, karena drive tersebut mungkin berisi malware yang dapat menginfeksi sistem Anda.
-
-
+SCU101 juga memperingatkan Anda untuk tidak pernah mencolokkan USB drive yang tidak dikenal ke komputer Anda, karena mungkin mengandung *malware* yang dapat menginfeksi sistem Anda.
 
 ### Melindungi dari serangan siber dan mengelola cadangan
 
+Bagian penting dari pelatihan SCU101 adalah memahami serangan siber. Virus tidak muncul dengan sendirinya: biasanya membutuhkan intervensi yang tidak disengaja dari Anda, seperti mengunduh file yang terinfeksi atau membuka tautan penipuan di email.
 
+Salah satu serangan yang paling umum adalah phishing, di mana pesan penipuan dikirim untuk mendorong Anda membocorkan data sensitif. Saat menghadapi serangan ini, periksa pengirimnya secara sistematis, dan hindari mengklik tautan atau membuka lampiran dari sumber yang tidak dikenal atau mencurigakan.
 
-Bagian penting dari pelatihan SCU101 adalah memahami serangan cyber. Virus tidak muncul dengan sendirinya: virus biasanya membutuhkan campur tangan Anda yang tidak disengaja, seperti mengunduh file yang terinfeksi atau membuka tautan palsu dalam email.
-
-
-
-Salah satu serangan yang paling umum adalah phishing, di mana pesan-pesan palsu dikirim untuk mendorong Anda mengungkapkan data sensitif. Saat menghadapi serangan ini, periksa pengirim secara sistematis, dan hindari mengklik tautan atau membuka lampiran dari sumber yang tidak dikenal atau mencurigakan.
-
-
-
-Ancaman utama lainnya adalah ransomware, yang memblokir data Anda dengan mengenkripsinya dan meminta tebusan. Untuk menanggulangi hal ini, pencadangan data Anda secara teratur sangatlah penting.
-
-
+Ancaman besar lainnya adalah _ransomware_, yang memblokir data Anda dengan mengenkripsinya dan menuntut uang tebusan. Untuk menghadapi ini, pencadangan data Anda secara rutin sangatlah penting.
 
 ![Image](assets/fr/271.webp)
 
-
-
 ### Amankan kotak surat Anda secara efektif
 
+SCU101 secara khusus menekankan pentingnya mengamankan email Anda, yang merupakan pintu gerbang ke semua akun online Anda yang lain. Kotak masuk yang disusupi memungkinkan peretas untuk mengatur ulang kata sandi hampir semua akun Anda melalui prosedur pemulihan email yang biasa.
 
-
-SCU101 secara khusus menekankan pentingnya mengamankan email Anda, pintu gerbang ke semua akun online Anda yang lain. Kotak surat yang disusupi memungkinkan para peretas mengatur ulang kata sandi hampir semua akun Anda melalui prosedur pemulihan email yang biasa.
-
-
-
-Jadi, Anda telah melihat pentingnya membuat alamat email khusus yang aman. Sebaiknya Anda memiliki email khusus Address yang dicadangkan untuk pemulihan akun, terpisah dari Address utama Anda.
-
-
+Jadi, Anda telah melihat pentingnya membuat alamat email khusus yang aman. Sebaiknya memiliki alamat email khusus yang dicadangkan untuk pemulihan akun, yang terpisah dari alamat utama Anda.
 
 ![Image](assets/fr/272.webp)
 
-
-
 ### Pentingnya pengelola kata sandi
 
-
-
-Keamanan digital sangat bergantung pada kualitas kata sandi Anda. SCU101 menjelaskan mengapa menggunakan pengelola kata sandi sangat penting: alat ini memungkinkan Anda untuk membuat dan menyimpan kata sandi yang rumit, unik, dan acak untuk setiap layanan yang Anda gunakan.
-
-
+Keamanan digital sangat bergantung pada kualitas kata sandi Anda. SCU101 menjelaskan mengapa penggunaan pengelola kata sandi sangat penting: aplikasi ini memungkinkan Anda untuk membuat dan menyimpan kata sandi yang rumit, unik, dan acak untuk setiap layanan yang Anda gunakan.
 
 Pengelola kata sandi sangat menyederhanakan tugas Anda, karena Anda hanya perlu mengingat satu kata sandi utama untuk semua kata sandi lainnya.
 
-
-
 ![Image](assets/fr/273.webp)
-
-
 
 ### Autentikasi dua faktor (2FA)
 
+Terakhir, SCU101 memperkenalkan Anda pada autentikasi dua faktor (2FA). Prinsipnya adalah melakukan autentikasi dalam dua langkah terpisah: kata sandi biasa Anda dan faktor kedua, seperti kode sementara yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy, atau _hardware key_ seperti YubiKey.
 
-
-Terakhir, SCU101 memperkenalkan Anda pada autentikasi dua faktor (2FA). Prinsipnya terdiri dari melakukan autentikasi dalam dua langkah terpisah: kata sandi Anda yang biasa dan faktor kedua, seperti kode sementara yang dibuat oleh aplikasi seperti Google Authenticator atau Authy, atau kunci perangkat keras seperti YubiKey.
-
-
-
-2FA melindungi akun Anda dengan jauh lebih baik: meskipun kata sandi Anda dibobol, akses tetap tidak dapat dilakukan tanpa faktor kedua. Perlu diketahui bahwa kode yang dikirim melalui SMS atau email kurang aman, karena dapat disadap atau dialihkan.
-
-
+2FA melindungi akun Anda secara jauh lebih baik: bahkan jika kata sandi Anda dibobol, akses tetap tidak mungkin tanpa faktor kedua. Perlu diketahui bahwa kode yang dikirim melalui SMS atau email kurang aman, karena dapat dicegat atau dialihkan.
 
 ___
 
-
-
-Pengingat dasar-dasar ini akan berfungsi sebagai dasar untuk kursus SCU202, di mana kita akan membahas lebih dalam tentang penguasaan teknik keamanan siber, untuk melindungi kedaulatan pribadi Anda, privasi Anda, dan data pribadi Anda secara keseluruhan.
-
-
+Pengingat tentang dasar-dasar ini akan menjadi dasar untuk kursus SCU202 kita, di mana kita akan mendalami penguasaan teknik keamanan siber secara lebih dalam, untuk melindungi kedaulatan pribadi, privasi, dan data pribadi Anda secara keseluruhan.
 
 # Dari klik ke terminal: menguasai Linux
 
-
 <partId>e28895b3-2b09-4811-8031-5abc1f14fde2</partId>
-
-
 
 ## Linux, Windows, macOS: mana yang tepat untuk Anda?
 
-
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
 
+Mari kita mulai kursus SCU202 ini  dengan hal yang paling dasar: sistem operasi (OS) komputer Anda. Sistem operasi tidak hanya menentukan pilihan perangkat keras Anda, tetapi juga keamanan, kemudahan penggunaan, dan kemampuan untuk menyesuaikan komputer Anda.
 
-
-Mari kita mulai kursus SCU202 ini dengan hal yang paling dasar: sistem operasi (OS) komputer Anda. OS tidak hanya menentukan pilihan perangkat keras Anda, tetapi juga keamanan, kemudahan penggunaan, dan kemampuan Anda untuk menyesuaikan mesin Anda.
-
-
-
-Sebelum membahas detail teknis Linux di bab-bab berikutnya, penting untuk memahami perbedaan utama antara tiga sistem yang paling umum: Windows, macOS, dan GNU/Linux. Dalam bab ini, kita akan mempelajari setiap solusi, mengidentifikasi kekuatan dan keterbatasannya, dan kemudian membuat pilihan berdasarkan informasi yang tepat untuk kebutuhan Anda.
-
-
+Sebelum masuk ke detail teknis Linux di bab-bab berikutnya, penting untuk memahami perbedaan utama antara 3 sistem yang paling umum: Windows, macOS, dan GNU/Linux. Dalam bab ini, kita akan mempelajari setiap solusi, mengidentifikasi kekuatan dan keterbatasannya, lalu membuat pilihan yang tepat dan sesuai dengan kebutuhan Anda.
 
 ### Apa yang dimaksud dengan sistem operasi?
 
+Sistem operasi adalah sekumpulan program utama yang bertindak sebagai perantara antara pengguna, aplikasi (yang juga merupakan perangkat lunak), dan perangkat keras, yaitu komputer Anda. Ini adalah lapisan perangkat lunak dasar yang memungkinkan penggunaan sumber daya perangkat keras komputer (prosesor, memori, disk, periferal, dll.).
 
-
-Sistem operasi adalah sekumpulan program pusat yang bertindak sebagai perantara antara pengguna, aplikasi (yang juga merupakan perangkat lunak) dan perangkat keras, yaitu komputer Anda. Ini adalah perangkat lunak dasar Layer yang memungkinkan penggunaan sumber daya perangkat keras komputer (prosesor, memori, disk, periferal, dll.).
-
-
-
-Secara konkret, sistem operasi menerima, memproses, dan kemudian merespons permintaan dari perangkat lunak Anda, menggunakan sumber daya komputer seefisien mungkin. Sistem operasi mengelola eksekusi beberapa program secara simultan, mengontrol komponen PC, mengelola koneksi, memungkinkan manajemen file, dan memastikan keamanan data melalui mekanisme otorisasi dan autentikasi.
-
-
+Secara nyata, sistem operasi menerima, memproses, dan kemudian menanggapi permintaan dari perangkat lunak Anda, menggunakan sumber daya komputer seefisien mungkin. Ia mengelola eksekusi beberapa program secara bersamaan, mengontrol komponen PC, mengelola koneksi, memungkinkan manajemen file, dan memastikan keamanan data melalui mekanisme otorisasi dan autentikasi.
 
 ![Image](assets/fr/001.webp)
 
+Tanpa sistem operasi, setiap program perangkat lunak harus menyertakan caranya sendiri untuk berkomunikasi dengan perangkat keras, membuat interaksi antara program yang berbeda hampir tidak mungkin. Oleh karena itu, perannya sangat penting.
 
-
-Tanpa sistem operasi, setiap program perangkat lunak harus menyertakan caranya sendiri untuk berkomunikasi dengan perangkat keras, sehingga interaksi antara program yang berbeda hampir tidak mungkin terjadi. Oleh karena itu, perannya sangat penting.
-
-
-
-Begitulah cara komputer awal beroperasi. Sistem operasi pertama, GM-NAA I/O, baru muncul pada tahun 1956.  Sistem operasi ini membawa pemrosesan batch, yang mengotomatiskan manajemen tugas. Tahun 1960-an melihat munculnya multi-pemrograman dan pembagian waktu dengan CTSS (1961) dan Multics (1969), yang memungkinkan beberapa pengguna berinteraksi secara bersamaan dengan sistem yang sama. Kemudian, pada tahun 1970-an, penemuan Unix merevolusi komputasi dengan portabilitas, manajemen multitasking, dan kesederhanaannya.
-
-
+Itulah cara kerja komputer-komputer terdahulu. Sistem operasi pertama, GM-NAA I/O, baru muncul pada tahun 1956. Ia membawa pemrosesan batch, yang mengotomatiskan manajemen tugas. Tahun 1960-an menyaksikan kemunculan _pemograman ganda (multi-programming)_ dan _pembagian waktu (time-sharing)_ dengan CTSS (1961) dan Multics (1969), yang memungkinkan beberapa pengguna untuk berinteraksi secara bersamaan dengan sistem yang sama. Kemudian, pada tahun 1970-an, penemuan Unix merevolusi komputasi dengan portabilitas, manajemen multitasking, dan kesederhanaannya.
 
 ![Image](assets/fr/004.webp)
 
-
-
 ### Sistem operasi utama dan pangsa pasarnya
 
+Saat ini, pasar sistem operasi didominasi oleh 3 kelompok besar: **Windows, MacOS dan GNU/Linux**.
 
+Berdasarkan statistik saat ini, Windows masih memegang mayoritas instalasi pada komputer pribadi, dengan pangsa pasar sekitar 71%. Dominasi ini disebabkan oleh kombinasi faktor historis, ekonomi, dan teknis:
 
-Saat ini, pasar sistem operasi didominasi oleh tiga keluarga besar: **Windows, MacOS dan GNU/Linux**.
+-  Sejak tahun 1990-an, Windows telah dipasang secara default di sebagian besar komputer yang dijual, menciptakan keakraban masif di kalangan publik. Microsoft dengan cepat membuat sejumlah besar perjanjian OEM (kontrak di mana produsen PC menginstal Windows di awal), sehingga menciptakan ketergantungan yang sulit untuk dihentikan.
 
+- Meskipun tren ini berkembang lambat, Windows memantapkan dirinya sebagai standar di dunia profesional sejak awal. Selain sektor-sektor tertentu seperti teknologi, hampir semua bisnis masih beroperasi dengan komputer berbasis Windows.
 
+- Basis pengguna yang luas telah mendorong para pengembang untuk memprioritaskan pembuatan perangkat lunak mereka untuk Windows, untuk menjangkau orang sebanyak mungkin. Sebagai imbalannya, ekosistem aplikasi yang berkembang menarik pengguna baru, menciptakan lingkaran yang baik.
 
-Menurut statistik saat ini, Windows masih memegang mayoritas instalasi pada komputer pribadi, dengan pangsa pasar sekitar 71%. Dominasi ini disebabkan oleh kombinasi faktor historis, ekonomi, dan teknis:
+-  Akhirnya, dominasi ini juga diperkuat oleh citra yang melekat pada sistem pesaing: Linux sering dianggap terlalu teknis untuk masyarakat umum (dan tetap tidak dikenal oleh mayoritas), sementara macOS, yang terikat secara eksklusif pada produk Apple, sering dianggap mahal.
 
+Sementara itu, macOS memiliki pangsa pasar sekitar 16%, dan umumnya dipilih karena integrasi optimalnya dengan perangkat keras Apple. Pilihan sistem operasi ini telah diperkuat dalam beberapa tahun terakhir oleh kinerja Mac, berkat pengenalan chip Apple Silicon. Titik balik besar ini menandai ditinggalkannya prosesor Intel x86 demi arsitektur ARM, yang lebih efisien dalam hal kinerja dan konsumsi energi.
 
-
-
-
-- Sejak tahun 1990-an, Windows telah terinstal secara default pada sebagian besar komputer yang dijual, sehingga menimbulkan keakraban yang sangat besar di kalangan masyarakat. Microsoft dengan cepat membuat sejumlah besar perjanjian OEM (kontrak di mana produsen PC melakukan pra-instalasi Windows), sehingga menciptakan kelembaman yang sulit untuk dikekang.
-
-
-
-
-
-- Meskipun tren ini berkembang secara perlahan, Windows memantapkan dirinya sebagai standar di dunia profesional sejak awal. Terlepas dari sektor tertentu seperti teknologi, hampir semua bisnis masih menggunakan komputer berbasis Windows.
-
-
-
-
-
-- Basis pengguna yang luas telah mendorong para pengembang untuk memprioritaskan pembuatan perangkat lunak mereka untuk Windows, untuk menjangkau lebih banyak orang. Sebagai imbalannya, ekosistem aplikasi yang terus berkembang menarik pengguna baru, menciptakan lingkaran yang baik.
-
-
-
-
-
-- Akhirnya, dominasi ini juga diperkuat oleh citra yang dirasakan dari sistem yang bersaing: Linux sering dianggap terlalu teknis untuk masyarakat umum (dan masih belum dikenal oleh mayoritas orang), sementara macOS, yang secara eksklusif dikaitkan dengan produk Apple, sering dianggap mahal.
-
-
-
-sementara itu, macOS memiliki pangsa pasar sekitar 16%, dan umumnya dipilih karena integrasinya yang optimal dengan perangkat keras Apple. Pilihan sistem operasi ini telah diperkuat dalam beberapa tahun terakhir oleh kinerja Mac, berkat pengenalan chip Apple Silicon. Titik balik utama ini menandai ditinggalkannya prosesor Intel x86 dan beralih ke arsitektur ARM, yang lebih efisien dalam hal kinerja dan konsumsi energi.
-
-
-
-Linux masih menjadi minoritas di komputer pribadi (sekitar 4%), tetapi mendominasi server (sekitar 63%) dan superkomputer (100%), berkat stabilitas dan kinerjanya.
-
-
+Linux tetap minoritas di komputer pribadi (sekitar 4%), tetapi mendominasi server (sekitar 63%) dan supercomputer (100%), berkat stabilitas dan kinerjanya.
 
 ![Image](assets/fr/002.webp)
 
-
-
 *Sumber April 2025: [Statistik Global StatCounter - Pangsa Pasar OS](https://gs.statcounter.com/os-market-share/desktop/worldwide)*
 
+Linux juga terintegrasi secara masif ke dalam perangkat tertanam (embedded devices) seperti router, TV pintar, smartphone (Android didasarkan pada kernel Linux) dan bahkan dalam industri otomotif. Windows mempertahankan kehadirannya yang kuat dalam bisnis, sementara macOS disukai oleh para profesional di bidang tertentu.
 
-
-Linux juga diintegrasikan secara besar-besaran ke dalam perangkat yang disematkan seperti router, TV yang terhubung, ponsel pintar (Android didasarkan pada kernel Linux) dan bahkan dalam industri otomotif. Windows mempertahankan kehadiran yang kuat dalam bisnis, sementara macOS disukai oleh para profesional di bidang-bidang tertentu.
-
-
-
-
-→ **Penting:** Kernel adalah komponen utama dari sistem operasi: kernel mengatur akses ke perangkat keras (prosesor, memori, periferal), mengatur eksekusi proses secara simultan, menerapkan kebijakan keamanan dan menawarkan Interface yang seragam untuk program yang menutupi kompleksitas sirkuit elektronik. Dengan kata lain, ini bertindak sebagai jembatan antara lingkungan perangkat lunak (perpustakaan, driver, shell, layanan, alat administrasi, Interface grafis, dll.) Dan perangkat keras.
-
-
+→ **Penting**: Kernel adalah komponen utama dari sistem operasi: kernel mengelola akses ke perangkat keras (prosesor, memori, periferal), menengahi eksekusi proses secara bersamaan, menerapkan kebijakan keamanan, dan menawarkan Interface yang seragam untuk program yang menyembunyikan kerumitan sirkuit elektronik. Dengan kata lain, ia bertindak sebagai jembatan antara kumpulan perangkat lunak (pustaka, driver, shell, layanan, alat administrasi, antarmuka grafis, dll.) dan perangkat keras.
 
 ### Windows: kemudahan penggunaan dan kompatibilitas
 
+Windows adalah sistem operasi proprietary (berpemilik) yang dikembangkan oleh Microsoft. Sistem ini terpasang di sebagian besar komputer pribadi di seluruh dunia. Secara historis, Windows dihargai karena Interface yang mudah digunakan dan intuitif. Namun, keuntungan tersebut kini dipertanyakan: Interface macOS juga sangat mudah diakses, dan banyak distribusi Linux memiliki Interface yang cocok untuk masyarakat umum (kita akan kembali membahas ini di bab-bab berikutnya).
 
-
-Windows adalah sistem operasi berpemilik yang dikembangkan oleh Microsoft. Sistem operasi ini diinstal pada sebagian besar komputer pribadi di dunia. Secara historis, sistem operasi ini dihargai karena Interface yang mudah digunakan dan intuitif. Namun, keunggulan itu dipertanyakan sekarang: Interface macOS juga sangat mudah diakses, dan banyak distribusi Linux memiliki Interface yang cocok untuk masyarakat umum (kita akan kembali ke hal ini di bab-bab berikutnya).
-
-
-
-Untuk pengguna yang belum berpengalaman atau mereka yang memiliki kebutuhan terbatas (pekerjaan kantor, multimedia, penjelajahan web), Windows dapat menjadi titik masuk yang sederhana, dengan memanfaatkan dokumentasi yang ekstensif dan kurva pembelajaran yang cepat. Namun pada kenyataannya, satu-satunya bidang di mana Windows jelas mengungguli macOS dan Linux adalah video game.
-
-
+Bagi pengguna yang tidak berpengalaman atau yang memiliki kebutuhan terbatas (pekerjaan kantor, multimedia, penjelajahan web), Windows bisa menjadi titik masuk yang sederhana, mendapatkan manfaat dari dokumentasi yang luas dan waktu belajar yang cepat. Namun, pada kenyataannya, satu-satunya bidang di mana Windows secara jelas mengungguli macOS dan Linux adalah video game.
 
 ![Image](assets/fr/005.webp)
 
-
-
-Salah satu kekuatan utama Windows adalah kekayaan ekosistem perangkat lunaknya: hampir semua program komersial (paket perkantoran, perangkat lunak profesional, permainan video, dan driver perangkat keras) kompatibel dengan Windows. Bagi pengguna yang mencari solusi siap pakai dengan konfigurasi minimal, ini bisa menjadi pilihan yang logis.
-
-
+Salah satu kekuatan utama Windows adalah kekayaan ekosistem perangkat lunaknya: hampir semua program komersial (office suites, perangkat lunak profesional, video game, dan driver perangkat keras) kompatibel dengan Windows. Bagi pengguna yang mencari solusi siap pakai dengan konfigurasi minimal, ini bisa menjadi pilihan yang logis. 
 
 Namun, aksesibilitas ini ada harganya. Windows adalah sistem berpemilik dan terpusat tanpa kode sumber publik. Tidak ada verifikasi independen yang dimungkinkan, yang memberikan batasan yang jelas dalam hal transparansi dan keamanan. Selain itu, pengumpulan data (telemetri) tersebar luas di Windows dan sering kali diaktifkan secara default, tanpa persetujuan atau kemungkinan kontrol yang nyata.
 
+Namun, aksesibilitas ini datang dengan konsekuensi. Windows adalah sistem yang bersifat proprietary dan terpusat, _tanpa source code_ publik. Verifikasi independen tidak mungkin dilakukan, yang menimbulkan batasan jelas dalam hal transparansi dan keamanan. Lebih lanjut, pengumpulan data (telemetri) tersebar luas di Windows dan sering diaktifkan secara default, tanpa persetujuan yang benar-benar terinformasi atau dapat dikendalikan.
 
-
-Dalam hal keamanan, Windows adalah target utama untuk malware. Popularitasnya dan kelemahan struktural historis tertentu sebagian menjelaskan situasi ini. Upaya-upaya tentu saja telah dilakukan dalam beberapa tahun terakhir (terutama dengan Windows Defender dan UAC), tetapi secara keseluruhan tetap dirancang lebih untuk kemudahan penggunaan daripada ketahanan dan kontrol pengguna.
-
-
+Dalam hal keamanan, Windows adalah target utama untuk *malware*. Popularitas dan beberapa masalah struktural yang sudah ada sejak lama memperjelas situasi ini. Banyak upaya telah dilakukan dalam beberapa tahun terakhir (terutama dengan Windows Defender dan UAC), tetapi secara keseluruhan sistem ini tetap dirancang lebih untuk kemudahan penggunaan daripada ketahanan dan kontrol pengguna.
 
 ![Image](assets/fr/007.webp)
-
-
 
 Menurut pendapat saya, Windows menempati posisi sentral yang tidak tegas: bisa aman, tetapi kurang aman daripada Linux dan macOS; memungkinkan sejumlah kontrol, tetapi jauh lebih sedikit daripada Linux; tidak sekuat macOS, atau sesederhana Chrome OS atau sistem Linux yang ramah bagi pemula. Rata-rata dalam semua aspek, tanpa benar-benar buruk di bidang apa pun (kecuali privasi, secara default).
 
@@ -431,7 +292,7 @@ GNU/Linux sangat membedakan dirinya dari dua sistem operasi sebelumnya dengan mo
 
 
 
-Aset utama Linux adalah ketangguhan, stabilitas, dan tingkat keamanannya yang tinggi. Karena bersifat open source, kodenya dapat diaudit oleh pengguna atau organisasi mana pun, yang sangat membatasi risiko malware atau pintu belakang. Linux sangat kuat, umumnya mengonsumsi sumber daya yang lebih sedikit daripada Windows, dan sangat cocok untuk konfigurasi perangkat keras yang sederhana atau penggunaan intensif seperti komputasi, administrasi server, atau keamanan siber.
+Aset utama Linux adalah ketangguhan, stabilitas, dan tingkat keamanannya yang tinggi. Karena bersifat open source, kodenya dapat diaudit oleh pengguna atau organisasi mana pun, yang sangat membatasi risiko *malware* atau pintu belakang. Linux sangat kuat, umumnya mengonsumsi sumber daya yang lebih sedikit daripada Windows, dan sangat cocok untuk konfigurasi perangkat keras yang sederhana atau penggunaan intensif seperti komputasi, administrasi server, atau keamanan siber.
 
 
 
@@ -3174,7 +3035,7 @@ Secara default, akses ke pengaturan ini tidak terlindungi. Seorang penyerang den
 
 - Mengubah urutan boot untuk memaksa peluncuran sistem eksternal dari kunci USB
 - Menonaktifkan mekanisme keamanan seperti Boot Aman
-- Menginstal malware di firmware komputer Anda...
+- Menginstal *malware* di firmware komputer Anda...
 
 
 
@@ -3203,7 +3064,7 @@ Untuk mengaktifkannya, ini akan tergantung pada model motherboard Anda, tetapi u
 
 
 
-Selain itu, aktifkan fitur "Boot Aman" jika tersedia dan belum aktif. Mekanisme ini mencegah kode yang tidak ditandatangani atau diubah agar tidak dieksekusi pada saat boot. Ini dirancang untuk memblokir bootkit dan rootkit, jenis malware yang menginfeksi boot komputer, bahkan sebelum OS dijalankan.
+Selain itu, aktifkan fitur "Boot Aman" jika tersedia dan belum aktif. Mekanisme ini mencegah kode yang tidak ditandatangani atau diubah agar tidak dieksekusi pada saat boot. Ini dirancang untuk memblokir bootkit dan rootkit, jenis *malware* yang menginfeksi boot komputer, bahkan sebelum OS dijalankan.
 
 
 
@@ -3317,7 +3178,7 @@ Sebagai contoh, Anda dapat menyusun sesi Anda sebagai berikut:
 
 
 
-Ada beberapa keuntungan dalam mengadopsi pendekatan ini. Pertama, aplikasi yang diinstal dalam sebuah sesi tidak dapat mengganggu sesi lain (kecuali dalam kasus peningkatan hak istimewa). Kedua, jika sebuah sesi disusupi, misalnya melalui malware yang diunduh, dampaknya umumnya berada dalam batas-batas akun tersebut. Ini berarti bahwa dokumen bisnis atau portofolio Bitcoin Anda tidak akan dapat diakses oleh malware jika disimpan di sesi lain yang terisolasi dengan baik.
+Ada beberapa keuntungan dalam mengadopsi pendekatan ini. Pertama, aplikasi yang diinstal dalam sebuah sesi tidak dapat mengganggu sesi lain (kecuali dalam kasus peningkatan hak istimewa). Kedua, jika sebuah sesi disusupi, misalnya melalui *malware* yang diunduh, dampaknya umumnya berada dalam batas-batas akun tersebut. Ini berarti bahwa dokumen bisnis atau portofolio Bitcoin Anda tidak akan dapat diakses oleh *malware* jika disimpan di sesi lain yang terisolasi dengan baik.
 
 
 
@@ -3354,7 +3215,7 @@ Teknologi ini didasarkan pada hypervisor, sebuah program perangkat lunak yang me
 
 https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-Dalam hal keamanan TI, salah satu keuntungan besar dari mesin virtual adalah kemampuannya untuk mengkotak-kotakkan. VM tidak berbagi file, proses, atau akses jaringan dengan sistem host, kecuali jika Anda secara eksplisit mengonfigurasi pertukaran ini. Jadi, jika VM terinfeksi malware, atau jika Anda menguji perangkat lunak sensitif di dalamnya, dampaknya tetap terbatas pada mesin virtual tersebut: sistem utama Anda tetap utuh, asalkan parameter isolasi dipatuhi (tidak ada direktori bersama, tidak ada perangkat USB yang diteruskan ke VM...).
+Dalam hal keamanan TI, salah satu keuntungan besar dari mesin virtual adalah kemampuannya untuk mengkotak-kotakkan. VM tidak berbagi file, proses, atau akses jaringan dengan sistem host, kecuali jika Anda secara eksplisit mengonfigurasi pertukaran ini. Jadi, jika VM terinfeksi *malware*, atau jika Anda menguji perangkat lunak sensitif di dalamnya, dampaknya tetap terbatas pada mesin virtual tersebut: sistem utama Anda tetap utuh, asalkan parameter isolasi dipatuhi (tidak ada direktori bersama, tidak ada perangkat USB yang diteruskan ke VM...).
 
 
 
@@ -3607,7 +3468,7 @@ Beberapa perangkat lunak lebih sensitif daripada yang lain, karena berinteraksi 
 
 
 
-- Antivirus, firewall, dan solusi deteksi lainnya*: perangkat-perangkat ini umumnya memiliki hak istimewa yang lebih tinggi, karena mereka secara terus-menerus memindai file, proses, dan koneksi jaringan Anda. Basis tanda tangan yang ketinggalan zaman, konfigurasi yang buruk, atau kerentanan pada perangkat lunak itu sendiri dapat membuat malware tidak terdeteksi, atau bahkan mendapatkan hak istimewa yang lebih tinggi.
+- Antivirus, firewall, dan solusi deteksi lainnya*: perangkat-perangkat ini umumnya memiliki hak istimewa yang lebih tinggi, karena mereka secara terus-menerus memindai file, proses, dan koneksi jaringan Anda. Basis tanda tangan yang ketinggalan zaman, konfigurasi yang buruk, atau kerentanan pada perangkat lunak itu sendiri dapat membuat *malware* tidak terdeteksi, atau bahkan mendapatkan hak istimewa yang lebih tinggi.
 
 
 
@@ -3814,7 +3675,7 @@ Keamanan siber juga melibatkan pemantauan aktivitas sistem. Pendekatan proaktif 
 
 
 
-Jika Anda menyiapkan rutinitas audit (bahkan yang paling dasar sekalipun), Anda bisa mendeteksi keberadaan malware, Trojan tidur, atau spyware pada tahap awal. Pemantauan semacam itu dapat dilakukan dengan menggunakan alat khusus.
+Jika Anda menyiapkan rutinitas audit (bahkan yang paling dasar sekalipun), Anda bisa mendeteksi keberadaan *malware*, Trojan tidur, atau spyware pada tahap awal. Pemantauan semacam itu dapat dilakukan dengan menggunakan alat khusus.
 
 
 
@@ -3840,7 +3701,7 @@ Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rent
 
 - Sysinternals Suite*: ini adalah seperangkat alat yang jauh lebih canggih yang ditawarkan oleh Microsoft untuk mendiagnosis, memantau, dan memecahkan masalah Windows. Berikut adalah alat utama dalam rangkaian ini:
     - Process Monitor*: memungkinkan Anda mengamati proses aktif, akses file, register, dll. secara real time;
-    - Autoruns*: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi dengan cepat malware atau aplikasi yang tidak seharusnya berjalan;
+    - Autoruns*: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi dengan cepat *malware* atau aplikasi yang tidak seharusnya berjalan;
     - Process Explorer*: memantau proses dan mendeteksi perilaku yang mencurigakan;
     - TCPView*: memvisualisasikan koneksi jaringan yang aktif (deteksi koneksi yang tidak normal);
     - Sigcheck*: memeriksa tanda tangan digital pada file untuk mengetahui adanya kode berbahaya.
@@ -3916,7 +3777,7 @@ Keamanan komputer yang optimal tidak dapat dicapai dengan menginstal alat terten
 
 
 
-Di bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari pemasangan malware dalam praktiknya, dengan mempelajari cara memeriksa integritas dan keaslian file yang Anda unduh ke komputer Anda.
+Di bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari pemasangan *malware* dalam praktiknya, dengan mempelajari cara memeriksa integritas dan keaslian file yang Anda unduh ke komputer Anda.
 
 
 
@@ -3928,7 +3789,7 @@ Di bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari pemasangan
 
 
 
-Menginstal perangkat lunak di komputer Anda mungkin tampak seperti operasi yang sepele, tetapi pada kenyataannya hal ini memiliki potensi risiko yang sangat serius terhadap keamanan komputer Anda. Faktanya, perangkat lunak yang diunduh dapat diubah atau terinfeksi oleh penyerang, yang memanfaatkan kesempatan ini untuk menyuntikkan virus, Trojan, dan jenis malware lainnya ke dalam sistem Anda.
+Menginstal perangkat lunak di komputer Anda mungkin tampak seperti operasi yang sepele, tetapi pada kenyataannya hal ini memiliki potensi risiko yang sangat serius terhadap keamanan komputer Anda. Faktanya, perangkat lunak yang diunduh dapat diubah atau terinfeksi oleh penyerang, yang memanfaatkan kesempatan ini untuk menyuntikkan virus, Trojan, dan jenis *malware* lainnya ke dalam sistem Anda.
 
 
 
@@ -4346,7 +4207,7 @@ Mencadangkan data pribadi atau bisnis Anda secara teratur adalah langkah keamana
 
 
 
-- Serangan komputer: beberapa malware, terutama ransomware, mengenkripsi file Anda secara lokal dan meminta tebusan dalam bentuk Exchange untuk kunci dekripsi. Tanpa cadangan independen, Anda berada di bawah kendali mereka.
+- Serangan komputer: beberapa *malware*, terutama ransomware, mengenkripsi file Anda secara lokal dan meminta tebusan dalam bentuk Exchange untuk kunci dekripsi. Tanpa cadangan independen, Anda berada di bawah kendali mereka.
 
 
 
@@ -6031,7 +5892,7 @@ Di sisi lain, berlawanan dengan kepercayaan populer, VPN tidak menyediakan anoni
 
 
 
-Terlebih lagi, VPN tidak menawarkan proteksi terhadap malware, pelacakan JavaScript, atau kuki pihak ketiga. Jika Anda masuk ke akun Google atau Facebook Anda, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak memfilter konten, dan tidak akan mencegah halaman jebakan menyerang Anda melalui kerentanan peramban.
+Terlebih lagi, VPN tidak menawarkan proteksi terhadap *malware*, pelacakan JavaScript, atau kuki pihak ketiga. Jika Anda masuk ke akun Google atau Facebook Anda, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak memfilter konten, dan tidak akan mencegah halaman jebakan menyerang Anda melalui kerentanan peramban.
 
 
 
@@ -6332,7 +6193,7 @@ Secara konkret, situs yang mendukung HTTPS ditandai dengan gembok tertutup pada 
 
 
 
-Sebaliknya, jika situs masih menggunakan HTTP (tanpa "S"), koneksi tidak terenkripsi. Informasi apa pun yang dimasukkan kemudian dapat dicegat oleh aktor jahat yang berada di antara Anda dan situs tersebut: operator jaringan, penyedia akses, hotspot Wi-Fi jebakan, malware lokal, dll.
+Sebaliknya, jika situs masih menggunakan HTTP (tanpa "S"), koneksi tidak terenkripsi. Informasi apa pun yang dimasukkan kemudian dapat dicegat oleh aktor jahat yang berada di antara Anda dan situs tersebut: operator jaringan, penyedia akses, hotspot Wi-Fi jebakan, *malware* lokal, dll.
 
 
 
@@ -6682,7 +6543,7 @@ Namun, beberapa merek memiliki dukungan perangkat lunak yang sangat baik, teruta
 #### Gunakan toko aplikasi yang andal
 
 
-Aplikasi seluler merupakan sumber risiko utama: Melalui aplikasi inilah sebagian besar malware Android modern masuk. Menginstal aplikasi melalui file `.apk` yang diterima dari situs yang tidak dikenal, atau dari toko yang tidak bersertifikat, berarti mengambil risiko menginstal program yang sengaja dibuat jahat, atau dimodifikasi untuk menyertakan fungsi mata-mata atau pencurian data.
+Aplikasi seluler merupakan sumber risiko utama: Melalui aplikasi inilah sebagian besar *malware* Android modern masuk. Menginstal aplikasi melalui file `.apk` yang diterima dari situs yang tidak dikenal, atau dari toko yang tidak bersertifikat, berarti mengambil risiko menginstal program yang sengaja dibuat jahat, atau dimodifikasi untuk menyertakan fungsi mata-mata atau pencurian data.
 
 
 Bahkan di toko resmi seperti Google Play Store atau Apple App Store, Anda harus tetap waspada. Meskipun ada mekanisme penyaringan, aplikasi berbahaya sering kali berhasil menyelinap masuk. Sebagai contoh, aplikasi "Sparrow wallet" kadang-kadang dapat dilihat di Play Store, meskipun perangkat lunak ini hanya ada di PC: Tidak diragukan lagi, ini adalah aplikasi palsu.
@@ -7961,7 +7822,7 @@ Aplikasi ini juga mengintegrasikan timer dan stopwatch, dengan perekaman putaran
 ___
 
 
-⚠️ ***Perhatian**: Meskipun alternatif yang disajikan dalam bab ini sebagian besar merupakan sumber terbuka dan berorientasi pada privasi, namun bukan berarti tanpa keterbatasan atau risiko. Beberapa mungkin tidak lagi dipelihara, memiliki kerentanan yang belum ditambal, menjadi hak milik atau bahkan, berpotensi menjadi malware. Beberapa mungkin juga ilegal di yurisdiksi lokal Anda. Saya telah menulis bab ini pada bulan Juni 2025, tetapi situasi untuk aplikasi-aplikasi ini mungkin telah berubah sejak saat itu.*
+⚠️ ***Perhatian**: Meskipun alternatif yang disajikan dalam bab ini sebagian besar merupakan sumber terbuka dan berorientasi pada privasi, namun bukan berarti tanpa keterbatasan atau risiko. Beberapa mungkin tidak lagi dipelihara, memiliki kerentanan yang belum ditambal, menjadi hak milik atau bahkan, berpotensi menjadi *malware*. Beberapa mungkin juga ilegal di yurisdiksi lokal Anda. Saya telah menulis bab ini pada bulan Juni 2025, tetapi situasi untuk aplikasi-aplikasi ini mungkin telah berubah sejak saat itu.*
 
 
 Selain itu, saya secara pribadi belum mengaudit kode semua alat yang disebutkan, dan rekomendasi saya sama sekali tidak boleh dilihat sebagai jaminan mutlak. Oleh karena itu, penting bagi setiap orang untuk melakukan penelitian sendiri sebelum menggunakan aplikasi-aplikasi ini.
@@ -8334,7 +8195,7 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 - Protokol yang sudah usang atau tidak aman**:
 
 
-Nonaktifkan layanan administrasi apa pun yang menggunakan protokol teks biasa seperti Telnet, FTP, HTTP yang tidak dienkripsi, atau SMBv1. Protokol-protokol ini tidak menjamin kerahasiaan maupun integritas data yang dipertukarkan, dan sering kali menjadi sasaran malware. Jika Anda membutuhkan akses lokal atau jarak jauh, hanya gunakan koneksi melalui HTTPS (terenkripsi Interface), SSH atau SFTP, yang sesuai.
+Nonaktifkan layanan administrasi apa pun yang menggunakan protokol teks biasa seperti Telnet, FTP, HTTP yang tidak dienkripsi, atau SMBv1. Protokol-protokol ini tidak menjamin kerahasiaan maupun integritas data yang dipertukarkan, dan sering kali menjadi sasaran *malware*. Jika Anda membutuhkan akses lokal atau jarak jauh, hanya gunakan koneksi melalui HTTPS (terenkripsi Interface), SSH atau SFTP, yang sesuai.
 
 
 

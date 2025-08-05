@@ -30,7 +30,7 @@ In this tutorial, we'll concentrate solely on creating a watch-only wallet. To e
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Installing and configuring the Blockstream Green application
 
@@ -122,4 +122,5 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green application to set up a hot wallet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

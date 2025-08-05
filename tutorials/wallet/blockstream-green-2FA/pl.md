@@ -4,12 +4,15 @@ description: Konfiguracja Multisig 2/2 na Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Uwaga:** Od maja 2025 roku nie będzie już możliwe aktywowanie nowych kont chronionych uwierzytelnianiem dwuskładnikowym (2FA). Funkcja ta jest dostępna wyłącznie dla użytkowników, którzy wcześniej aktywowali ten typ konta.*
+
+___
 
 Software Wallet to aplikacja instalowana na komputerze, smartfonie lub innym urządzeniu podłączonym do Internetu, umożliwiająca zarządzanie i zabezpieczanie kluczy Bitcoin Wallet. W przeciwieństwie do portfeli sprzętowych, które izolują klucze prywatne, portfele "Hot" działają zatem w środowisku potencjalnie narażonym na ataki cybernetyczne, zwiększając ryzyko piractwa i kradzieży.
 
-
 Portfele programowe powinny być używane do zarządzania rozsądnymi ilościami bitcoinów, zwłaszcza do codziennych transakcji. Mogą być również interesującą opcją dla osób z ograniczonymi aktywami Bitcoin, dla których inwestycja w Hardware Wallet może wydawać się nieproporcjonalna. Jednak ich stała ekspozycja na Internet sprawia, że są one mniej bezpieczne do przechowywania długoterminowych oszczędności lub dużych funduszy. W tym drugim przypadku najlepiej zdecydować się na bezpieczniejsze rozwiązania, takie jak portfele sprzętowe.
-
 
 W tym samouczku pokażę, jak poprawić bezpieczeństwo Hot Wallet za pomocą opcji "*2FA*" na Blockstream Green.
 

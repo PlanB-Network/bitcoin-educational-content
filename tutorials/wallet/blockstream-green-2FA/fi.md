@@ -4,6 +4,12 @@ description: 2/2 multisigin perustaminen vihreään lompakkoon
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Huomautus:** Toukokuusta 2025 alkaen ei ole enää mahdollista aktivoida uusia tilejä, jotka on suojattu kaksivaiheisella todennuksella (2FA). Tämä toiminto on käytettävissä vain käyttäjille, jotka olivat aiemmin aktivoineet tämän tyyppisen tilin.*
+
+___
+
 Ohjelmistolompakko on tietokoneeseen, älypuhelimeen tai muuhun Internet-yhteydellä varustettuun laitteeseen asennettu sovellus, jonka avulla voit hallita ja suojata Bitcoin-lompakon avaimia. Toisin kuin laitteistolompakot, jotka eristävät yksityiset avaimet, "kuumat" lompakot toimivat ympäristössä, joka voi olla alttiina verkkohyökkäyksille, mikä lisää piratismin ja varkauksien riskiä.
 
 Ohjelmistolompakoita tulisi käyttää kohtuullisten bitcoin-määrien hallintaan, erityisesti jokapäiväisissä transaktioissa. Ne voivat myös olla kiinnostava vaihtoehto ihmisille, joilla on vain vähän bitcoin-varoja ja joille investointi laitteistolompakkoon voi tuntua suhteettomalta. Niiden jatkuva altistuminen Internetille tekee niistä kuitenkin vähemmän turvallisia pitkäaikaisten säästöjen tai suurten varojen säilyttämiseen. Jälkimmäisiä varten on parasta valita turvallisempia ratkaisuja, kuten laitteistolompakot.

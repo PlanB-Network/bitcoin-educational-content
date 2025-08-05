@@ -870,7 +870,7 @@ Du finner detaljerte veiledninger om de anbefalte lommebøkene og grunnleggende 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1370,6 +1370,7 @@ Til slutt, uansett om du er en liten næringsdrivende eller en mer etablert virk
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

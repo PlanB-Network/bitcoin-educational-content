@@ -4,6 +4,12 @@ description: Impostazione di un multisig 2/2 su Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Nota:** A partire da maggio 2025, non sarà più possibile attivare nuovi account protetti dall'autenticazione a due fattori (2FA). Questa funzionalità è disponibile solo per gli utenti che avevano già attivato questo tipo di account in precedenza.*
+
+___
+
 Un portafoglio software è un'applicazione installata su un computer, uno smartphone o un altro dispositivo connesso a Internet, che consente di gestire e proteggere le chiavi del portafoglio Bitcoin. A differenza dei portafogli hardware, che isolano le chiavi private, i portafogli "caldi" operano in un ambiente potenzialmente esposto agli attacchi informatici, aumentando il rischio di pirateria e furto.
 
 I portafogli software dovrebbero essere utilizzati per gestire quantità ragionevoli di bitcoin, soprattutto per le transazioni quotidiane. Possono anche essere un'opzione interessante per le persone con un patrimonio limitato di bitcoin, per le quali l'investimento in un portafoglio hardware può sembrare sproporzionato. Tuttavia, la loro costante esposizione a Internet li rende meno sicuri per la conservazione di risparmi a lungo termine o di grandi fondi. Per questi ultimi, è meglio optare per soluzioni più sicure, come i portafogli hardware.

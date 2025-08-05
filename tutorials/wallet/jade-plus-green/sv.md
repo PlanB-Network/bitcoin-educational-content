@@ -170,7 +170,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 För instruktioner om hur du installerar och konfigurerar Blockstream Green-programmet, se första delen av denna andra handledning:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 När du är i applikationen Blockstream Green klickar du på knappen "*Konfigurera en ny Wallet*".
 

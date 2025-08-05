@@ -26,7 +26,7 @@ Green ni programu ambayo ni rahisi sana kutumia, na kuifanya ifae haswa kwa wana
 Katika somo hili, tutazingatia tu kutumia programu kwenye kompyuta. Ili kuchunguza matumizi mengine ya Green, tafadhali soma mafunzo yetu mengine maalum:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -216,4 +216,4 @@ Iwapo umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gu
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina kwenye programu ya simu ya Blockstream Green ya kusanidi Hot Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

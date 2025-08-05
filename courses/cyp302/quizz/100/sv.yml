@@ -1,0 +1,9 @@
+question: Vilken roll har en Nonce i ett autentiserat krypteringssystem?
+answer: Se till att varje meddelande har en unik etikett för att förhindra upprepningar
+wrong_answers:
+  - Identifiera avsändaren av meddelandet
+  - Skapa en tillfällig dekrypteringsnyckel
+  - Lägg till ytterligare en Layer kryptering
+explanation: |
+  I ett autentiserat krypteringssystem används en Nonce för att säkerställa att varje meddelande har en unik tagg, vilket ökar säkerheten genom att förhindra upprepningar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad heter den första skriftliga kodifieringen av romersk rätt?
+answer: Lagen om de tolv tabellerna
+wrong_answers:
+  - Hammurabis lagbok
+  - Sammanfattningen
+  - Justinianus påbud
+explanation: |
+  De tolv tabellernas lag är den första skriftliga kodifieringen av romersk rätt och skapades för att formalisera lagarna och säkerställa rättslig jämlikhet mellan medborgarna genom att göra lagen tillgänglig för alla.
+reviewed: true

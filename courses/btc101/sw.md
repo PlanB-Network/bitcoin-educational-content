@@ -21,17 +21,17 @@ Hauhitaji maarifa yoyote maalum ili kuanza. Kwa hakika, maudhui yafuatayo yanawe
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Kuruka kwenye Yasiyojulikana
+## Muhtasari wa kozi
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Karibu kwenye dhana mpya ya kifedha na kiteknolojia.
+### Karibu kwenye kozi ya BTC101!
 
 Bitcoin ni mapinduzi ya kiteknolojia na ya fedha, yenye uwezo wa kutufanya tutilie shaka uhusiano wetu kwa pesa na jamii. Kwa hakika, Bitcoin (inayojulikana kama BTC) ni sarafu **isiyofungamana** na **iliyogatuliwa**, ambayo ina maana kwamba haidhibitiwi na huluki au taasisi yoyote. Ni uvumbuzi ambao unapita zaidi ya "sarafu ya mtandao" tu: ni itifaki ya kompyuta (Bitcoin) na kitengo cha fedha (Bitcoin).
 
 Itifaki hutumia teknolojia za msingi kama vile kriptografia, mawasiliano ya mtandao, na "Blockchain" maarufu, wakati kitengo cha Bitcoin hutumika kama sarafu inayohitajika kwa utendakazi mzuri wa itifaki hii. Katika maisha ya kila siku, watu wa Salvadorian na bitcoiners kote ulimwenguni hutumia sarafu ya Bitcoin kununua, kuuza bidhaa na huduma, wakitegemea teknolojia hii kufanya maisha yao kuwa bora.
 
-### Mtaala mpana lakini unaoweza kufikiwa
+### Mtaala wa kina lakini unaoweza kufikiwa
 
 Katika kozi hii, tutajadili baadhi ya vipengele vya fedha vya Bitcoin, ikiwa ni pamoja na jinsi ya kununua na kuuza bitcoins, kuzihifadhi kwa usalama katika pochi za kidijitali, na kuzitumia kwa miamala. Pia tutachunguza jukumu la wachimbaji, ambao ni muhimu kwa kuunda bitcoins mpya na kupata mtandao wa Bitcoin. Hatimaye, tutachunguza mustakabali wa Bitcoin na jinsi teknolojia ya Lightning Network inavyoweza kuboresha miamala ya Bitcoin.
 
@@ -136,7 +136,7 @@ Walakini, Bitcoin ilikuwa zaidi ya hiyo tu: iliwakilisha kufikiwa kwa maadili ya
 
 ### Hitimisho
 
-Historia ya awali ya Bitcoin imekita mizizi katika harakati za Cypherpunk na jitihada za pamoja za kupata uhuru zaidi katika enzi za kidijitali. Kwa kuchanganya kanuni za usimbaji fiche, ugatuaji na uadilifu, Bitcoin imekuwa zaidi ya sarafu. Kwa hakika, ni zao la mapinduzi ya kifalsafa na kiteknolojia yanayoendelea kutengeneza upya ulimwengu wetu.
+Historia ya awali ya Bitcoin imekita mizizi katika harakati za Cypherpunk na jitihada za pamoja za kupata uhuru zaidi katika enzi za kidijitali. Kwa kuchanganya kanuni za usimbaji fiche (cryptography), ugatuaji na uadilifu, Bitcoin imekuwa zaidi ya sarafu. Kwa hakika, ni zao la mapinduzi ya kifalsafa na kiteknolojia yanayoendelea kutengeneza upya ulimwengu wetu.
 
 Kwa hivyo, Bitcoin ni itifaki inayoenea kwa muda mrefu, na inatuhimiza kuhoji uhusiano wetu na nishati, wakati na pesa.
 
@@ -179,8 +179,8 @@ Kwa sababu hizi, dhahabu kama pesa ni matokeo ya miaka 4,000 ya imani ya Darwin 
 
 
 - **Hifadhi ya thamani**: pesa inaweza kutumika kuhamisha nguvu za ununuzi katika siku zijazo, kwa hiyo inahitaji kuwa nyenzo ya kudumu;
-- **Kati ya kubadilishana**: pesa inaweza kutumika kubadilishana kwa bidhaa na huduma,badala ya kubadilishana bidhaa kwa bidhaa, hivyo kuepuka sadfa ya kutaka ya wafanyabiashara;
-- **Kitengo cha akaunti**: pesa pia huturuhusu kulinganisha thamani za bidhaa mbalimbali ili kuelewa vyema manufaa yake.
+- **Njia ya kubadilishana thamani**: pesa inaweza kutumika kubadilishana kwa bidhaa na huduma,badala ya kubadilishana bidhaa kwa bidhaa, hivyo kuepuka sadfa ya kutaka ya wafanyabiashara;
+- **Kipimo cha thamani**: pesa pia huturuhusu kulinganisha thamani za bidhaa mbalimbali ili kuelewa vyema manufaa yake.
 
 ![image](assets/en/08.webp)
 
@@ -199,9 +199,9 @@ Ili kuelezea dhana hii vyema, tutachunguza sifa za sarafu inayofaa:
 ![image](assets/en/11.webp)
 
 
-- **Fungibility**, ikimaanisha kuwa inaweza kubadilishana na kitengo kingine cha aina sawa bila upotezaji wa thamani;
+- **Fungibility (Ubadilishaji sawia) **, ikimaanisha kuwa inaweza kubadilishana na kitengo kingine cha aina sawa bila upotezaji wa thamani;
 - **Mgawanyiko**, kwani inaweza kugawanywa katika vitengo vidogo ili kuwezesha shughuli za viwango tofauti;
-- **Liquidity**, ambayo ina maana kwamba inaweza kubadilishwa kwa urahisi kuwa bidhaa au huduma.
+- **Ukwasi**, yaani uwezo wa kubadilishwa kwa urahisi kuwa bidhaa au huduma
 
 Ili kufikia vigezo hivi, sarafu imebadilika kihistoria kwa kuchukua hatua tofauti:
 
@@ -212,13 +212,15 @@ Ili kufikia vigezo hivi, sarafu imebadilika kihistoria kwa kuchukua hatua tofaut
 
 Sarafu bado zinaendelea kubadilika hadi leo, kurekebisha fomu zao ili kukidhi hali tofauti za utumiaji. Kama tulivyosema, wakati dhahabu ni ghala bora la thamani, haifai tena kwa uchumi wa sasa wa utandawazi. Vile vile, sarafu aminifu kama vile dola na euro ni Liquid sana na zinaweza kusafirishwa kwa urahisi kwa sababu nyingi ni za kidijitali, lakini thamani yake hupunguzwa kila mara na mfumuko wa bei wa fedha.
 
-Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambazaji wenye kikomo, huifanya kuwa duka bora la thamani. Zaidi ya hayo, kama sarafu isiyoegemea upande wowote ya mtandao, inatumika kama **kati ya Exchange** inayoweza kutumika inayovuka mipaka. Hata hivyo, bado haikubaliwi sana katika biashara leo, licha ya [kupitishwa mara kwa mara](https://btcmap.org/map).
+Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambazaji wenye kikomo, huifanya kuwa duka bora la thamani. Zaidi ya hayo, kama sarafu isiyoegemea upande wowote ya mtandao, inatumika kama *Medium of exchange** inayoweza kutumika inayovuka mipaka. Hata hivyo, bado haikubaliwi sana katika biashara leo, licha ya [kupitishwa mara kwa mara](https://btcmap.org/map).
 
-## Fiduciary sarafu
+## Sarafu za imani (fiduciary currencies)
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 > "Wale ambao hawawezi kukumbuka yaliyopita wanahukumiwa kurudia" alisema George Santayana.
+
+
 Ukweli ambao unasikika vyema linapokuja suala la mfumo wa kisasa wa fedha.
 
 ### Fiduciary = Kuaminiana
@@ -306,7 +308,7 @@ Awamu ya 2 - Kuporomoka kwa sarafu na ongezeko la bei
 
 - Huku serikali zikipoteza udhibiti wa uaminifu, watu binafsi huanza kutumia ubadilishanaji wa sarafu yao kwa sarafu iliyo imara zaidi, kama ilivyotokea Venezuela na dola ya Marekani. Hali hii husababisha kupanda kwa bei, na hivyo kutengeneza mduara mbaya ambapo bidhaa na huduma zinazidi kuwa ghali. Ili kukidhi mahitaji haya na kusahihisha sera za fedha, serikali huchapisha pesa zaidi, na hivyo kusababisha mfumuko mkubwa wa bei.
 
-Awamu ya 3 - Mduara mbaya wa uchapishaji wa pesa
+Awamu ya 3 - Mzunguko Katili wa Uchapishaji wa Pesa
 
 
 - Kwa hivyo, bili zaidi na zaidi zinahitajika kununua bidhaa, ambayo husababisha uhaba wa pesa za karatasi. Kwa kujibu, serikali zinaamua kuchapisha bili zaidi, ambayo inachochea mfumuko wa bei hata zaidi.
@@ -386,49 +388,28 @@ Uundaji wa bitcoins mpya ni matokeo ya mchakato wa uchimbaji. Kwa kifupi, wachim
 
 Baada ya kufanya kazi hii kwa ufanisi, wachimbaji wanapata thawabu kwa utoaji wa bitcoins mpya kila dakika kumi. Zawadi hii imepangwa kupunguzwa kwa nusu kila vitalu 210,000, ambayo ni takriban kila baada ya miaka minne (tukio linalojulikana kama "Halving"), na kutoa mkondo wa utoaji wa fedha umbo kama ngazi. Kwa sababu ya utaratibu huu, inaweza kutabiriwa kihisabati kuwa uundaji wa bitcoins mpya utakoma mwaka wa 2140, wakati idadi ya jumla inafikia kikomo chake cha milioni 21.
 
-| Nambari ya Halving | Urefu wa kuzuia | Tuzo la BTC Baada ya Halving | BTC iliyokadiriwa katika Mzunguko Baada ya Halving |
-
-| -------------- | ------------ | ------------------------- | ----------------------------------------- |
-
-| 1 | 210,000 | 25 BTC | 10,500,000 BTC |
-
-| 2 | 420,000 | 12.5 BTC | 15,750,000 BTC |
-
-| 3 | 630,000 | 6.25 BTC | 18,375,000 BTC |
-
-| 4 | 840,000 | 3.125 BTC | 19,687,500 BTC |
-
-| 5 | 1,050,000 | 1.5625 BTC | 20,343,750 BTC |
-
-| 6 | 1,260,000 | 0.78125 BTC | 20,671,875 BTC |
-
-| 7 | 1,470,000 | 0.390625 BTC | 20,835,937.5 BTC |
-
-| 8 | 1,680,000 | 0.1953125 BTC | 20,917,968.75 BTC |
-
-| 9 | 1,890,000 | 0.09765625 BTC | 20,958,984.375 BTC |
-
-| 10 | 2,100,000 | 0.048828125 BTC | 20,979,492.188 BTC |
-
-| 11 | 2,310,000 | 0.0244140625 BTC | 20,989,746.094 BTC |
-
-| 12 | 2,520,000 | 0.01220703125 BTC | 20,994,873.047 BTC |
-
-| 13 | 2,730,000 | 0.006103515625 BTC | 20,997,436.523 BTC |
-
-| 14 | 2,940,000 | 0.0030517578125 BTC | 20,998,718.262 BTC |
-
-| 15 | 3,150,000 | 0.00152587890625 BTC | 20,999,359.131 BTC |
-
-| 16 | 3,360,000 | 0.000762939453125 BTC | 20,999,679.566 BTC |
-
-| 17 | 3,570,000 | 0.0003814697265625 BTC | 20,999,839.783 BTC |
-
-| 18 | 3,780,000 | 0.00019073486328125 BTC | 20,999,919.892 BTC |
-
-| 19 | 3,990,000 | 0.000095367431640625 BTC | 20,999,959.946 BTC |
-
-| 20 | 4,200,000 | 0.0000476837158203125 BTC | 20,999,979.973 BTC |
+| Nambari ya Halving | Urefu wa kuzuia| Tuzo la BTC Baada ya Halving  | BTC iliyokadiriwa katika Mzunguko Baada ya Halving |
+| -------------- | ------------ | ------------------------- | ------------------------------------------ |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Tutatazama upya dhana ya uchimbaji kwa maelezo zaidi katika [sura ya Miner](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9fdfd1b).
 
@@ -522,19 +503,19 @@ Ufunguo huu lazima uhifadhiwe kwa siri na ulindwe vizuri, kwani unafungua bahati
 
 Ufunguo wa umma unatolewa kutoka kwa ufunguo wa faragha uliounganishwa nao. Kushiriki ufunguo wa umma huleta hatari kwa faragha (kwa sababu watumiaji wengine wanaweza kuona salio lako) lakini si kwa usalama (kwa sababu hawawezi kutumia pesa zako bila kuwa na ufunguo wa faragha). Kwa upande wake, ufunguo wa umma hutumiwa kuunda anwani za Bitcoin, na hivyo kupokea pesa.
 
-Anwani hizi zinaundwa kiotomatiki na pochi yako na zinaweza kushirikishwa kwa usalama. Ili kuongeza faragha yako, unashauriwa kuzitumia mara moja tu.
+Anwani hizi zinaundwa kiotomatiki na wallet yako na zinaweza kushirikishwa kwa usalama. Ili kuongeza faragha yako, unashauriwa kuzitumia mara moja tu.
 
 Kwa muhtasari, teknolojia hii hutuwezesha kupokea bitcoins bila kumwezesha mpokeaji kuiba pesa zetu! Sanduku la barua linaweza kuwa sitiari inayofaa: watu wanaweza kuweka pesa ndani yake, lakini ni wewe pekee unayeweza kulifungua.
 
 ![image](assets/en/27.webp)
 
-### Je, bitcoins kwenye Wallet?
+### Je, kuna bitcoins kwenye Wallet?
 
-Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na pochi lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
+Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika (P2P) wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na wallet lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
 
 ![image](assets/en/28.webp)
 
-Kwa bahati nzuri, tangu 2017, ufunguo wa kibinafsi unaweza kuwakilishwa na orodha rahisi ya maneno 12 au 24, inayojulikana kama maneno ya 'Mnemonic, ambayo ni rahisi sana kuhifadhi. Maneno haya hutumika kama hifadhi ya pesa zako na hukuruhusu kuunda upya pochi lako kwa kutumia programu yoyote ya Bitcoin Wallet. Kwa hiyo, mtu yeyote anayepata orodha hii ya maneno anaweza kufikia bitcoins zako.
+Kwa bahati nzuri, tangu 2017, ufunguo wa kibinafsi unaweza kuwakilishwa na orodha rahisi ya maneno 12 au 24, inayojulikana kama maneno ya 'Mnemonic, ambayo ni rahisi sana kuhifadhi. Maneno haya hutumika kama hifadhi ya pesa zako na hukuruhusu kuunda upya wallet lako kwa kutumia programu yoyote ya Bitcoin Wallet. Kwa hiyo, mtu yeyote anayepata orodha hii ya maneno anaweza kufikia bitcoins zako.
 
 ### Vipi kuhusu wadukuzi?
 
@@ -544,11 +525,12 @@ Je, ikiwa mtu atakisia orodha yetu ya maneno 12 au 24 kwa bahati mbaya? Jibu fup
 
 Kwa hivyo, uwezekano wa kuvamia Bitcoin Wallet yako ni mdogo sana ikiwa utafuata mbinu bora za usalama ambazo tutazieleza kwa undani katika sehemu inayofuata.
 
-Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata pochi tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/wallet).
+Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata wallet tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/wallet).
 
-Ikiwa, wakati wa safari yako chini ya shimo la sungura, unataka kujifunza zaidi kuhusu kujenga Bitcoin Wallet, kutoka entropy hadi anwani za kupokea, tunapendekeza kozi ya CYP 201 iliyotolewa kwa mada hii:
+Ikiwa katika safari yako ya kuelewa Bitcoin kwa undani utataka kujifunza zaidi kuhusu jinsi ya kutengeneza wallet ya Bitcoin, kuanzia na entropy hadi kwenye anuani za kupokea pesa, tunapendekeza kozi ya CYP 201 inayozungumzia mada hii kwa kina
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 ## Pochi za Bitcoin na Usalama
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -567,7 +549,7 @@ Kwa kweli hakuna jibu au suluhisho la jumla, kwa hivyo chukua muda kujibu maswal
 
 ![image](assets/en/30.webp)
 
-### Kufikiria juu ya pochi za Bitcoin kwa suala la ugumu
+### Kufikiria juu ya wallets za Bitcoin kwa suala la ugumu
 
 Hapa chini, tutafafanua viwango kadhaa vya usalama:
 
@@ -601,7 +583,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ![image](assets/en/33.webp)
 
 
-- **Kiwango cha 4**, unatumia seti ya pochi kuunda "Multisig" Wallet, ambayo ina maana kwamba sahihi nyingi zinahitajika kufanya shughuli. Katika kesi hii, fahamu kwamba kila sehemu ya Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Mbinu hii mara nyingi inachukuliwa kuwa matumizi ya hali ya juu ya Bitcoin, haswa kwa kudhibiti kiasi kikubwa na kwa madhumuni ya ushirika.
+- **Kiwango cha 4**, unatumia seti ya wallet kuunda "Multisig" Wallet, ambayo ina maana kwamba sahihi nyingi zinahitajika kufanya shughuli. Katika kesi hii, fahamu kwamba kila sehemu ya Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Mbinu hii mara nyingi inachukuliwa kuwa matumizi ya hali ya juu ya Bitcoin, haswa kwa kudhibiti kiasi kikubwa na kwa madhumuni ya ushirika.
 
 ![image](assets/en/34.webp)
 
@@ -694,9 +676,9 @@ Vile vile, epuka kushiriki hadharani maelezo kuhusu mfumo wako wa usalama wakati
 Pochi za Bitcoin ni vipande vya programu vinavyokuwezesha kuhifadhi bitcoins na kufanya miamala. Kuna aina kadhaa:
 
 
-- pochi za rununu au PC, rahisi kwa kiasi kidogo na / au gharama za kawaida;
-- pochi za kimwili, zinazofaa zaidi kwa kuhifadhi bitcoins kwa muda wa kati na mrefu;
-- Pochi za Multisig, ambazo ni ngumu zaidi kudhibiti na zinahitaji sahihi nyingi ili kufanya miamala.
+- wallet za rununu au PC, rahisi kwa kiasi kidogo na / au gharama za kawaida;
+- wallet za kimwili, zinazofaa zaidi kwa kuhifadhi bitcoins kwa muda wa kati na mrefu;
+- wallet za Multisig, ambazo ni ngumu zaidi kudhibiti na zinahitaji sahihi nyingi ili kufanya miamala.
 
 Wakati wa kuunda Wallet, lazima kwanza uhifadhi orodha yako ya maneno 12 au 24 kwenye kipande cha karatasi au sahani ya chuma. Kifungu hiki cha maneno kinachojulikana kama Mnemonic hukuruhusu kurejesha pochi lako kupitia programu yoyote ya Bitcoin Wallet. Fahamu kuwa mtu yeyote anayepata ufikiaji wa orodha hii pia anapata ufikiaji wa pesa zako.
 
@@ -707,7 +689,7 @@ Katika ulimwengu wa Bitcoin, mamlaka ya kifedha yanahusishwa kwa karibu na wajib
 - Epuka kuacha Bitcoins zako kwenye majukwaa ya kubadilishana kwani zinaweza kushambuliwa na wadukuzi.
 - Badilisha kiwango chako cha usalama kulingana na mahitaji yako na kesi za matumizi, ili kuchagua vyema kati ya pochi tofauti za Bitcoin zinazopatikana.
 
-Kwa kuwa sasa tumeshughulikia misingi ya pochi za Bitcoin na mbinu bora zaidi za kuzilinda, katika sura inayofuata tutachunguza vipengele vya kiufundi vya Bitcoin. Kwa mara nyingine tena, kuelewa misingi ya itifaki ya Bitcoin kutaongeza ufahamu wako wa jinsi inavyofanya kazi, na kukupa uwezo wa kuitumia vyema.
+Kwa kuwa sasa tumeshughulikia misingi ya wallets za Bitcoin na mbinu bora zaidi za kuzilinda, katika sura inayofuata tutachunguza vipengele vya kiufundi vya Bitcoin. Kwa mara nyingine tena, kuelewa misingi ya itifaki ya Bitcoin kutaongeza ufahamu wako wa jinsi inavyofanya kazi, na kukupa uwezo wa kuitumia vyema.
 
 # Vipengele vya Kiufundi vya Bitcoin.
 
@@ -723,11 +705,11 @@ Kwa kuwa sasa tumeshughulikia misingi ya pochi za Bitcoin na mbinu bora zaidi za
 
 Tarehe 31 Oktoba 2008 inaashiria kuzaliwa kwa teknolojia mpya ya kifedha ambayo ni Bitcoin. Siku hii, Satoshi Nakamoto ambaye jina lake halijulikani aliwasilisha ubunifu wake kwa ulimwengu kupitia barua pepe iliyotumwa kwa orodha ya cypherpunks, jumuiya ya wapenzi wa cryptography iliyojitolea kukuza faragha kwenye mtandao. Barua pepe hii ilikuwa na hati inayoitwa "White Paper", ambayo iliwasilisha jinsi Bitcoin ilivyofanya kazi.
 
-Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushindwa hapo awali katika majaribio ya kuunda mifumo ya fedha za kidigitali. Hata hivyo, Karatasi hii Nyeupe hatimaye ikawa rejeleo la watumiaji wa Bitcoin na imekuwa mada ya mijadala mingi katika mfumo wa ikolojia wa Bitcoin kwa miaka mingi.
+Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushindwa hapo awali katika majaribio ya kuunda mifumo ya fedha za kidigitali. Hata hivyo, Karatasi hii Nyeupe (Whitepaper) hatimaye ikawa rejeleo la watumiaji wa Bitcoin na imekuwa mada ya mijadala mingi katika mfumo wa ikolojia wa Bitcoin kwa miaka mingi.
 
 ![image](assets/en/40.webp)
 
-Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda block ya kwanza, inayojulikana pia kama "Genesis block", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
+Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda bloku ya kwanza, inayojulikana pia kama "Genesis block", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
 
 ![image](assets/en/41.webp)
 
@@ -795,31 +777,31 @@ Katika hatua hii, muamala umeundwa na pochi ya Bob itashiriki na mtandao wa Bitc
 
 Kwa wakati huu, ingawa muamala huu unajulikana kwa kila mtu (kupitia chombo kinachoitwa Mempool), hauwezi kuchukuliwa kuwa umethibitishwa hadi uingizwe kwenye kizuizi na mchimbaji, ambaye ndiye pekee anayeidhinisha miamala kwa kuwajumuisha kwenye Blockchain.
 
-Kwa kweli, wachimbaji madini wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye kizuizi. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "Proof of Work" ili kizuizi chao kiwe kinachofuata katika Bitcoin Blockchain.
+Kwa kweli, wachimbaji  wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye bloku. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "Proof of Work" ili bloku yao iwe inachofuata katika Bitcoin Blockchain.
 
 ![image](assets/en/48.webp)
 
-### Hatua ya 3: Muamala unachimbwa kwenye kizuizi na Miner.
+### Hatua ya 3: Muamala unachimbwa kwenye bloku na Miner.
 
-Mfumo wa Proof of Work unahitaji kupata "Hash" halali kwa kizuizi kinachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na kizuizi, kinachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata kizuizi halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, kizuizi kipya halali kinaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
+Mfumo wa Proof of Work unahitaji kupata "Hash" halali kwa bloku inachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na bloku, inachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata bloku halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, bloku ipya halali inaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
 
 ![image](assets/en/49.webp)
 
-### Hatua ya 4: Kizuizi ni halali na kuthibitishwa na nodi rejea ya Alice.
+### Hatua ya 4: Bloku ni halali na kuthibitishwa na nodi rejea ya Alice.
 
-Katika hatua hii, shughuli hiyo inachukuliwa kuwa halali: mchimbaji ataeneza kizuizi kipya kwenye mtandao kupitia nodi yao, na pochi ya Alice itasasishwa.
+Katika hatua hii, shughuli hiyo inachukuliwa kuwa halali: mchimbaji ataeneza bloku ipya kwenye mtandao kupitia nodi yao, na pochi ya Alice itasasishwa.
 
 ![image](assets/en/50.webp)
 
-**Kumbuka:** Hata kama Alice ataarifiwa kwamba amepokea bitcoins katika mojawapo ya anwani zake, inapendekezwa kuzingatia muamala usiobadilika baada tu ya kupokea uthibitisho **sita**. Hii ina maana kwamba vitalu sita vya ziada vinapaswa kuchimbwa juu ya kizuizi kilicho na shughuli ya Bob. Kwa maneno mengine, jinsi shughuli ya zamani inavyokuwa kwenye Blockchain, ndivyo inavyobadilika zaidi.
+**Kumbuka:** Hata kama Alice ataarifiwa kwamba amepokea bitcoins katika mojawapo ya anwani zake, inapendekezwa kuzingatia muamala usiobadilika baada tu ya kupokea uthibitisho **sita**. Hii ina maana kwamba bloku sita za ziada zinapaswa kuchimbwa juu ya bloku iliyo na shughuli ya Bob. Kwa maneno mengine, jinsi shughuli ya zamani inavyokuwa kwenye Blockchain, ndivyo inavyobadilika zaidi.
 
 ### Je, ni umuhimu gani wa mchakato huu?
 
 Mfumo wa muamala wa Bitcoin umegatuliwa na hufanya kazi katika-rika, bila wapatanishi wanaoaminika.
 
-Bob hutuma muamala wake kwa mtandao wa Bitcoin, na Mchimbaji anapochapisha kizuizi halali kilicho na shughuli ya Bob, Alice anaweza kuanza kuzingatia kwamba bitcoins ni zake. Uaminifu hauhitajiki katika hatua yoyote ya uhamishaji wa umiliki wa Bitcoin: sheria za itifaki na vivutio vya kiuchumi pekee hufanya iwe ghali sana kutenda kwa nia mbaya ndani ya mfumo wa Bitcoin.
+Bob hutuma muamala wake kwa mtandao wa Bitcoin, na Mchimbaji anapochapisha bloku halali iliyo na muamala wa Bob, Alice anaweza kuanza kuzingatia kwamba bitcoins ni zake. Uaminifu hauhitajiki katika hatua yoyote ya uhamishaji wa umiliki wa Bitcoin: sheria za itifaki na vivutio vya kiuchumi pekee hufanya iwe ghali sana kutenda kwa nia mbaya ndani ya mfumo wa Bitcoin.
 
-Kwa hakika, watumiaji huhamisha umilikisho wa fedha zao kwa kutia sahihi shughuli kidigitali na funguo zao za kibinafsi. Kwa upande mwingine, wachimbaji wana nguvu ndogo, na watumiaji hudumisha udhibiti mkubwa kwa kutumia nodi za Bitcoin ili kuthibitisha vitalu vipya na shughuli zilizojumuishwa. Kila nodi ina nakala kamili au sehemu ya Ledger, kwa hivyo mtandao unaoundwa na nodi za Bitcoin hufanya mfumo kugatuliwa kweli.
+Kwa hakika, watumiaji huhamisha umilikisho wa fedha zao kwa kutia sahihi shughuli kidigitali na funguo zao za kibinafsi. Kwa upande mwingine, wachimbaji wana nguvu ndogo, na watumiaji hudumisha udhibiti mkubwa kwa kutumia nodi za Bitcoin ili kuthibitisha bloku mppya na miamala zilizojumuishwa. Kila nodi ina nakala kamili au sehemu ya Ledger, kwa hivyo mtandao unaoundwa na nodi za Bitcoin hufanya mfumo kugatuliwa kweli.
 
 Kama matokeo, ili mtandao wa Bitcoin uharibiwe kabisa, kila nakala ya Blockchain kwenye nodi zote za Bitcoin ingehitaji kuondolewa, ambayo ni kazi isiyowezekana kwa sababu ya usambazaji wa kijiografia wa nodi hizi na ugumu wa kuzikamata.
 
@@ -845,7 +827,7 @@ Kwa hivyo, kifaa chochote kinachotumia kipande cha programu ya Bitcoin, kinachoi
 
 Kila nodi ina nakala ya Blockchain, ambayo inaruhusu uthibitishaji wa shughuli na kuzuia jaribio lolote la ulaghai. Hali ya mtandao iliyogatuliwa inaipa Bitcoin uthabiti na uimara wa kipekee. Kwa hakika, ili kusimamisha itifaki ya Bitcoin, nodi zote duniani zingelazimika kufungwa. Kwa taarifa yako, kufikia Septemba 2023 kulikuwa na takriban [nodi 45,000](https://bitnodes.io/nodes/all/) zilizosambazwa kote ulimwenguni.
 
-Nodi zina uwezo wa kuthibitisha uhalali wa vitalu na shughuli kwa sababu zinafuata sheria za makubaliano ya Bitcoin. Sheria hizi zinaanzisha sera za fedha za Bitcoin, kama vile kiasi cha malipo ya wachimbaji (ambacho tutajadili kwa undani zaidi katika sehemu inayofuata) na kiasi cha Bitcoin katika mzunguko. Kwa njia fulani, nodi hufanya kama mfumo wa kisheria wa mtandao kwa sababu washiriki wote wa mtandao hufuata sheria sawa kwa sababu yao, kwa hivyo wanahakikisha kutoegemea upande wowote kwa itifaki ya Bitcoin. Sheria za makubaliano hazitofautiani, ikiwa ni, kwa sababu kufanya mabadiliko, idhini ya nodi zote inahitajika.
+Nodi zina uwezo wa kuthibitisha uhalali wa bloku na muamala kwa sababu zinafuata sheria za makubaliano ya Bitcoin. Sheria hizi zinaanzisha sera za fedha za Bitcoin, kama vile kiasi cha malipo ya wachimbaji (ambacho tutajadili kwa undani zaidi katika sehemu inayofuata) na kiasi cha Bitcoin katika mzunguko. Kwa njia fulani, nodi hufanya kama mfumo wa kisheria wa mtandao kwa sababu washiriki wote wa mtandao hufuata sheria sawa kwa sababu yao, kwa hivyo wanahakikisha kutoegemea upande wowote kwa itifaki ya Bitcoin. Sheria za makubaliano hazitofautiani, ikiwa ni, kwa sababu kufanya mabadiliko, idhini ya nodi zote inahitajika.
 
 ![image](assets/en/52.webp)
 
@@ -853,13 +835,13 @@ Utawala ndani ya itifaki ni zaidi ya upeo wa kozi hii ya msingi, lakini ni muhim
 
 ### Je! nodi inaonekana kama nini?
 
-Kuna chaguzi kadhaa zinazopatikana unapotaka kusakinisha nodi yako mwenyewe, na gharama tofauti za matengenezo. Unaweza tu kuendesha programu ya Bitcoin Core kwenye tarakilishi yako, lakini itahitaji kiasi kikubwa cha nafasi ya kuhifadhi, kwani Blockchain ni takriban ~500GB. Ili kuondokana na kikwazo hiki, unaweza kuchagua kuweka tu vizuizi vya N mwisho kwenye kumbukumbu kwa kuunda "nodi iliyokatwa". Kwa suluhisho hili la pili, gharama ni kidogo kwa sababu nodi inafanya kazi tu wakati unahitaji.
+Kuna chaguzi kadhaa zinazopatikana unapotaka kusakinisha nodi yako mwenyewe, na gharama tofauti za matengenezo. Unaweza tu kuendesha programu ya Bitcoin Core kwenye tarakilishi yako, lakini itahitaji kiasi kikubwa cha nafasi ya kuhifadhi, kwani Blockchain ni takriban ~500GB. Ili kuondokana na kikwazo hiki, unaweza kuchagua kuweka tu bloku za  mwisho kwenye kumbukumbu kwa kuunda "nodi iliyokatwa". Kwa suluhisho hili la pili, gharama ni kidogo kwa sababu nodi inafanya kazi tu wakati unahitaji.
 
 ![image](assets/en/53.webp)
 
 Chaguo la pili ni kutumia kipande maalum cha vifaa kwa kusudi hili, kama vile Raspberry Pi 4 iliyo na SSD kubwa ya kutosha (kuhusu ~ 2TB). Chaguo hili lingine ni ghali zaidi ikiwa unapaswa kununua vifaa, lakini inawakilisha kidogo chini ya € 10,00 kwa mwaka kwa suala la matumizi ya umeme.
 
-Kwa mtazamo wa kipimo data, ukizingatia block 1 ya MB 1 kila dakika 10, inalingana na takriban 5GB kwa mwezi.
+Kwa mtazamo wa kipimo data, ukizingatia bloku 1 ya MB 1 kila dakika 10, inalingana na takriban 5GB kwa mwezi.
 
 ### Nodi lazima zibaki kufikiwa na kila mtu!
 
@@ -869,7 +851,7 @@ Hakika, kila mtu ana sababu nzuri ya kuendesha nodi! Gharama na juhudi ni ndogo 
 
 ![image](assets/en/54.webp)
 
-Kinyume chake, ikiwa vitalu vingekuwa vizito mara 100, bila shaka tungeweza kufanya miamala mara 100 zaidi kila baada ya dakika 10, lakini kuendesha nodi za Bitcoin kungehitaji diski ya 50TB Hard, kipimo data cha zaidi ya 500GB/mwezi, na kipande cha maunzi chenye uwezo wa kuthibitisha mamia ya maelfu ya chini ya dakika 10 za shughuli. Katika hali hii ya dhahania yenye vizuizi vikubwa mara 100, kuendesha nodi za Bitcoin hazingefikiwa na mtu wa kawaida, ambayo ingeathiri ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli na sheria za makubaliano.
+Kinyume chake, ikiwa bloku zingekua nzito mara 100, bila shaka tungeweza kufanya miamala mara 100 zaidi kila baada ya dakika 10, lakini kuendesha nodi za Bitcoin kungehitaji diski ya 50TB Hard, kipimo data cha zaidi ya 500GB/mwezi, na kipande cha maunzi chenye uwezo wa kuthibitisha mamia ya maelfu ya chini ya dakika 10 za shughuli. Katika hali hii ya dhahania yenye Bloku kubwa mara 100, kuendesha nodi za Bitcoin hazingefikiwa na mtu wa kawaida, ambayo ingeathiri ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli na sheria za makubaliano.
 
 Kwa hivyo, vikwazo vya itifaki vimeundwa ili kuwezesha watu wengi iwezekanavyo kuendesha nodi zao za Bitcoin. Kwa hakika, mwaka wa 2017 ulikuwa na utata mkali unaojulikana kama "block size war". Mgogoro huu uliwashindanisha wale waliotaka kurekebisha Bitcoin kwa kuongeza ukubwa wa kuzuia ili kuongeza uwezo wa kufanya miamala (wachimba madini, majukwaa ya ubadilishanaji, na taasisi) dhidi ya wale waliotaka kuhifadhi uhuru na uwezo wa watumiaji (nodi na watumiaji). Mwishowe, chama cha pili kilishinda.
 
@@ -879,7 +861,7 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Wachimbaji hulinda mtandao na kuongeza miamala kwenye vizuizi. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
+**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
 
 ![image](assets/en/55.webp)
 
@@ -887,15 +869,15 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 "Proof of Work" (POW) ni utaratibu wa makubaliano ya usalama wa itifaki ya Bitcoin. Ni msingi wa kila kitu na ina jukumu muhimu katika nadharia ya mchezo ya Bitcoin.
 
-Ili kueleza jinsi inavyofanya kazi, fikiria bahati nasibu ya ulimwengu wote ambapo kila mtu anaweza kushiriki. Lengo ni kutafuta nambari mahususi inayomwezesha mshindi kusaini kizuizi halali, na kupata zawadi katika Bitcoin. Nambari hii ni rahisi sana kuthibitisha kwa kutumia chaguo la kukokotoa la SHA-256 Hash, lakini ni vigumu kuipata: washiriki (wachimba madini) watajaribu mabilioni kwa mabilioni ya uwezekano, kama vile 1, 52, 2648, 26874615, 15344854131318631, na kadhalika hadi wagundue haki hiyo.
+Ili kueleza jinsi inavyofanya kazi, fikiria bahati nasibu ya ulimwengu wote ambapo kila mtu anaweza kushiriki. Lengo ni kutafuta nambari mahususi inayomwezesha mshindi kusaini bloku halali, na kupata zawadi katika Bitcoin. Nambari hii ni rahisi sana kuthibitisha kwa kutumia chaguo la kukokotoa la SHA-256 Hash, lakini ni vigumu kuipata: washiriki (wachimba madini) watajaribu mabilioni kwa mabilioni ya uwezekano, kama vile 1, 52, 2648, 26874615, 15344854131318631, na kadhalika hadi wagundue haki hiyo.
 
 Ikiwa nambari iliyochaguliwa ni sahihi: Jackpot! Vinginevyo, utafutaji unaendelea.
 
 Ili kuongeza idadi ya majaribio, watatumia mashine maalum zinazoitwa ASICs, ambazo zina jukumu la pekee la kuhesabu mabilioni ya uwezekano kwa sekunde (jumla ya idadi ya majaribio inaitwa "Hashrate"). Ili kuendesha mashine hizi, kiasi kikubwa cha umeme kinapaswa kutumiwa. Kwa hivyo, POW hubadilisha nishati kuwa sarafu, kuunganisha ulimwengu halisi na ulimwengu wa kidigitali ili kuunda sarafu ya kwanza inayotegemea nishati.
 
-Mashine hufanya kazi kwa kuendelea, na baada ya wastani wa dakika 10, mshindi anaibuka: mshiriki huyu amefanikiwa kupata Hash sahihi ambayo iko chini ya kizingiti cha ugumu. Mshindi mkuu na pekee atatia saini kizuizi kipya cha seva ya muhuri wa wakati, akiiongeza kwa Blockchain. Wanapokea thawabu zao na kurudi kujaribu bahati yao kwenye kuchimba block inayofuata. Mchakato huu umekuwa ukiendelea kwa zaidi ya miaka kumi, huku mshindi akithibitisha miamala ya Bitcoin kila baada ya dakika 10 huku pia akilinda miamala ya awali, na hivyo kufanya Bitcoin Blockchain kuwa imara na salama zaidi.
+Mashine hufanya kazi kwa kuendelea, na baada ya wastani wa dakika 10, mshindi anaibuka: mshiriki huyu amefanikiwa kupata Hash sahihi ambayo iko chini ya kizingiti cha ugumu. Mshindi mkuu na pekee atatia saini bloku mpya ya seva ya muhuri wa wakati, akiiongeza kwa Blockchain. Wanapokea thawabu zao na kurudi kujaribu bahati yao kwenye kuchimba block inayofuata. Mchakato huu umekuwa ukiendelea kwa zaidi ya miaka kumi, huku mshindi akithibitisha miamala ya Bitcoin kila baada ya dakika 10 huku pia akilinda miamala ya awali, na hivyo kufanya Bitcoin Blockchain kuwa imara na salama zaidi.
 
-Baada ya 2016 (takriban kila baada ya wiki mbili), **marekebisho ya matatizo** husawazisha mchezo wa kimataifa wa uchimbaji kulingana na idadi ya washiriki. Marekebisho haya ni muhimu kwa sababu idadi ya wachimbaji na nguvu zao za pamoja za tarakilishi zinaweza kutofautiana sana kwa wakati. Ili kudumisha muda wa kuzuia lengo, mtandao hurekebisha kiwango cha ugumu kulingana na jinsi vitalu vya mwisho vya 2016 vilichimbwa haraka. Ikiwa walichimbwa haraka sana, ugumu huongezeka, na kuifanya iwe ngumu kupata Hash sahihi. Kinyume chake, ikiwa walichimbwa polepole sana, ugumu hupungua, na kuifanya iwe rahisi.
+Baada ya 2016 (takriban kila baada ya wiki mbili), **marekebisho ya matatizo** husawazisha mchezo wa kimataifa wa uchimbaji kulingana na idadi ya washiriki. Marekebisho haya ni muhimu kwa sababu idadi ya wachimbaji na nguvu zao za pamoja za tarakilishi zinaweza kutofautiana sana kwa wakati. Ili kudumisha muda wa kuzuia lengo, mtandao hurekebisha kiwango cha ugumu kulingana na jinsi block za mwisho za 2016 zilichimbwa haraka. Ikiwa walichimbwa haraka sana, ugumu huongezeka, na kuifanya iwe ngumu kupata Hash sahihi. Kinyume chake, ikiwa walichimbwa polepole sana, ugumu hupungua, na kuifanya iwe rahisi.
 
 ![image](assets/en/24.webp)
 
@@ -917,7 +899,7 @@ Kijajuu cha kuzuia kina vipengele kadhaa kama vile saa, lengo la ugumu, nambari 
 
 ### Fidia ya wachimbaji
 
-Hapo awali, Mchimbaji inalipwa wakati wanapata kizuizi halali. Kwa usahihi zaidi, wanalipwa kwa njia mbili:
+Hapo awali, Mchimbaji inalipwa wakati wanapata block halali. Kwa usahihi zaidi, wanalipwa kwa njia mbili:
 
 
 - kupitia ruzuku (bitcoins mpya iliyotengenezwa) iliyojumuishwa kwenye kizuizi;
@@ -925,15 +907,15 @@ Hapo awali, Mchimbaji inalipwa wakati wanapata kizuizi halali. Kwa usahihi zaidi
 
 Kiasi cha ruzuku kinafafanuliwa na sheria za makubaliano na inategemea Epoch: **Block reward = ruzuku ya kuzuia + ada za muamala**.
 
-Hakika, kwa vitalu vya kwanza, ruzuku ya kuzuia ilikuwa bitcoins 50. Kila vitalu 210,000 (takriban kila baada ya miaka 4), kiasi hiki ni nusu. Leo (mnamo 2024), tuko katika Epoch ya 5, ambayo ina maana kwamba ruzuku ni bitcoins 3.125. Kwa kifupi, huu ni utaratibu wa moja kwa moja ambao hutoa bitcoins mpya katika mfumo. Ruzuku inapungua kwa muda, hadi inakidhi kikomo cha utoaji wa bitcoins milioni 21. Tayari kuna zaidi ya bitcoins milioni 19.4 katika mzunguko, ambayo ni zaidi ya 92%.
+Hakika, kwa block za kwanza, ruzuku ya kuzuia ilikuwa bitcoins 50. Kila vitalu 210,000 (takriban kila baada ya miaka 4), kiasi hiki ni nusu. Leo (mnamo 2024), tuko katika Epoch ya 5, ambayo ina maana kwamba ruzuku ni bitcoins 3.125. Kwa kifupi, huu ni utaratibu wa moja kwa moja ambao hutoa bitcoins mpya katika mfumo. Ruzuku inapungua kwa muda, hadi inakidhi kikomo cha utoaji wa bitcoins milioni 21. Tayari kuna zaidi ya bitcoins milioni 19.4 katika mzunguko, ambayo ni zaidi ya 92%.
 
 ![image](assets/en/58.webp)
 
-Njia ya pili ya fidia inafafanuliwa na kiasi kilichochaguliwa na watumiaji kwa ada za ununuzi, ambazo zinaonyesha uharaka wa mtumiaji kujumuisha shughuli zao kwenye kizuizi kinachofuata. Kwa kuwa wachimbaji wanataka kuongeza mapato yao, wataelekea kuweka kipaumbele katika shughuli na ada za juu za miamala.
+Njia ya pili ya fidia inafafanuliwa na kiasi kilichochaguliwa na watumiaji kwa ada za ununuzi, ambazo zinaonyesha uharaka wa mtumiaji kujumuisha shughuli zao kwenye block inayofuata. Kwa kuwa wachimbaji wanataka kuongeza mapato yao, wataelekea kuweka kipaumbele katika shughuli na ada za juu za miamala.
 
 ![image](assets/en/59.webp)
 
-Ili kuleta utulivu wa mtindo wao wa biashara, ambao unategemea malipo wanayopokea kwa kila kizuizi halali, wachimbaji mara nyingi huunda vikundi kupitia "mabwawa ya Mining", ambapo huunganisha rasilimali zao za tarakilishi.
+Ili kuleta utulivu wa mtindo wao wa biashara, ambao unategemea malipo wanayopokea kwa kila block halali, wachimbaji mara nyingi huunda vikundi kupitia "mabwawa ya Mining", ambapo huunganisha rasilimali zao za tarakilishi.
 
 ### Kwa nini ujisumbue kufanya haya yote?
 
@@ -943,9 +925,9 @@ Lakini hii inawezaje kufanywa bila mpatanishi anayeaminika? Tatizo hili linaelez
 
 ![image](assets/en/60.webp)
 
-Kwa hivyo Bitcoin ni aina ya suluhisho la kutatua suala hili, au angalau kulifanyia kazi. "Jenerali" wa Bitcoin, au wachimbaji, hutoa vitalu (vya habari) na nodi za Bitcoin huthibitisha miamala ya kifedha kwa kutumia sheria za makubaliano ili kuhakikisha ukweli wa habari. pogo katika gharama ya nishati kati ya uzalishaji wa habari na uthibitishaji huhakikisha kuaminika kwa habari, bila mtu wa tatu anayeaminika.
+Kwa hivyo Bitcoin ni aina ya suluhisho la kutatua suala hili, au angalau kulifanyia kazi. "Jenerali" wa Bitcoin, au wachimbaji, hutoa block (vya habari) na nodi za Bitcoin huthibitisha miamala ya kifedha kwa kutumia sheria za makubaliano ili kuhakikisha ukweli wa habari. pogo katika gharama ya nishati kati ya uzalishaji wa habari na uthibitishaji huhakikisha kuaminika kwa habari, bila mtu wa tatu anayeaminika.
 
-Wachimbaji ni wajenzi wa usalama wa mtandao wa Bitcoin. Kwa kutumia nishati kuzalisha heshi, wanajenga ukuta ambao hufanya iwe ghali sana kwa wakala hasidi kuandika upya historia ya muamala, na kikwazo hiki cha kiuchumi kinawazuia wengine kutotenda kwa uaminifu.
+Wachimbaji ni wajenzi wa usalama wa mtandao wa Bitcoin. Kwa kutumia nishati kuzalisha hash, wanajenga ukuta ambao hufanya iwe ghali sana kwa wakala hasidi kuandika upya historia ya muamala, na kikwazo hiki cha kiuchumi kinawazuia wengine kutotenda kwa uaminifu.
 
 Hata katika kesi ya shambulio la 51%, ambapo wakala angemiliki zaidi ya nusu ya Hashrate, mtandao utaendelea kuwa salama kwa sababu mshambuliaji lazima atumie nguvu nyingi kama wachimbaji wote kwa pamoja kujaribu kurekebisha Blockchain. Utaratibu huu wa Proof-of-Work unaotumia nishati nyingi ndio unaohakikisha usalama wa mtandao.
 
@@ -1273,9 +1255,9 @@ Tatizo la kuongezeka linarejelea changamoto ya kutekeleza mfumo wa fedha wenye u
 
 Kulingana na hayo, itifaki kulingana na Blockchain inaweza kukidhi sifa mbili kati ya hizi tatu. Ndani ya itifaki ya Bitcoin, wasanidi wamefanya chaguo kupendelea ugatuaji na usalama. Kwa upande mmoja, ukubwa wa block ya 1MB na muda kati ya vitalu viwili (kwa wastani wa dakika 10) huruhusu kuendesha nodi ya Bitcoin kwa gharama ya chini, ikipendelea ugatuaji. Kwa upande mwingine, utengenezaji wa vitalu kupitia Proof-of-Work hufanya ulaghai ndani ya itifaki kuwa ghali sana, huku kuwezesha uthibitishaji na nodi za mtandao na kupendelea usalama. Hata hivyo, chaguo hizi huweka kikomo kwa wastani wa idadi ya miamala katika block, takribani inayolingana na miamala michache kwa sekunde. Nambari hii ni ya kichekesho ikilinganishwa na uwezo wa kukokotoa kwa vichakataji malipo kama vile VISA (1700/s), lakini kikomo hiki ni muhimu ili kufanya miamala na Bitcoin kwa njia inayostahimili udhibiti na Trustless. Walakini, wale wanaokua kwenye Bitcoin wamekuwa wakifikiria juu ya shida hii tangu mwanzo.
 
-### Umeme kama safu juu
+### Lightning kama safu juu
 
-Baada ya miaka ya kuzingatia na majaribio mengi, itifaki ya Umeme iliibuka. Kwa kutumia idadi fulani ya vipimo, itifaki hii huunda mtandao wa malipo wa kati-kwa-rika kwa kutumia usalama na upangaji wa itifaki ya shughuli ya Bitcoin. Lightning Network hufanya kama mtandao wa njia za malipo, kuwezesha miamala ya papo hapo na ada za chini kwa mtumaji, na hata huunda njia za ubadilishanaji kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+Baada ya miaka ya kuzingatia na majaribio mengi, itifaki ya Lightning iliibuka. Kwa kutumia idadi fulani ya vipimo, itifaki hii huunda mtandao wa malipo wa kati-kwa-rika kwa kutumia usalama na upangaji wa itifaki ya shughuli ya Bitcoin. Lightning Network hufanya kama mtandao wa njia za malipo, kuwezesha miamala ya papo hapo na ada za chini kwa mtumaji, na hata huunda njia za ubadilishanaji kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
 
 ![image](assets/en/80.webp)
 
@@ -1297,10 +1279,9 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Kama ambavyo tumeona hivi punde, itifaki ya Bitcoin, ingawa ni ya kimapinduzi, inakabiliwa na changamoto kubwa katika suala la hatari linalohitajika kushughulikia shughuli zetu zote za kila siku. Ili kutatua matatizo haya, Lightning Network ilipendekezwa na tangu wakati huo imeendelezwa katika utekelezaji kadhaa tofauti, ambao wote unashirikiana:
 
 
-- Umeme wa msingi na Blockstream
+- lightning ya msingi na Blockstream
 - Eclair na Acinq
-- LND kwa mgomo wa umeme
-
+- LND kwa mgomo wa lightning 
 Mtandao huu wa kati-kwa-rika unalenga kuwezesha miamala midogo (yenye thamani ya chini sana) ambayo isingewezekana kutokana na ada ya juu na muda mrefu wa uthibitishaji kwenye Bitcoin Blockchain.
 
 ### Ni kesi gani za matumizi ya mtandao?
@@ -1327,7 +1308,7 @@ Kwa kumalizia, Lightning Network inafungua matukio mengi ya kusisimua ya matumiz
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Kama Morpheus alivyomwambia Neo: "Unachukua kidonge cha bluu, hadithi inaisha, unaamka kitandani mwako, na unaamini chochote unachotaka kuamini. Unachukua kidonge chekundu, unakaa Wonderland, na ninakuonyesha jinsi shimo la sungura linavyoenda." Je, uko tayari kuchunguza shimo la sungura la Bitcoin? Kuwa mwangalifu, kwani unaweza kugundua tena uhuru wako wa kifedha!
+Kama Morpheus alivyomwambia Neo: "Unachukua kidonge cha bluu, hadithi inaisha, unaamka kitandani mwako, na unaamini chochote unachotaka kuamini. Unachukua kidonge chekundu, unakaa Wonderland, na ninakuonyesha jinsi shimo la sungura linavyoenda." Je, Uko tayari kuchunguza undani wa Bitcoin? Kuwa mwangalifu, kwani unaweza kugundua tena uhuru wako wa kifedha!
 
 ### Wakati ujao wa kiteknolojia na athari zake
 
@@ -1361,7 +1342,7 @@ Mazingatio haya pia yanazua maswali kuhusu ni nani anayefaa kushikilia, kuidhini
 - Je, fedha ni aina ya mali binafsi?
 - Je, akaunti za waandamanaji zinaweza kuzuiwa bila amri ya Mahakama ya Juu?
 - Nani anahakikisha mfumo wa fedha?
-- Je, mtu binafsi anawezaje kuwa na mamlaka juu ya pesa zake na kumtegemea mtu wa tatu anayeaminika?
+- Mtu anawezaje kuwa na udhibiti kamili wa fedha zake huku bado akimtegemea mtu wa tatu anayeaminika?
 - Je, pesa zinaweza kutumwa kwa upande mwingine wa dunia bila ada au wasuluhishi?
 
 Kukubali teknolojia hizi mpya kunaweza kuwa na uchumi mkubwa wa uzalishaji duniani kote. Je, turuhusu mtiririko huru wa mtiririko wa mtaji? Vizuizi vya kimataifa vina athari ya kiuchumi na kisiasa. Je, ni sawa kutumia waamuzi wa kifedha kama Western Union, ambao wakati mwingine hutoza hadi 25% ya ada? Tunaamini kuwa katika ulimwengu unaozidi kuwa wa kidijitali, pesa zinapaswa kuwekwa kidemokrasia na kuzingatiwa kuwa mali ya watu wote badala ya serikali au mashirika ya kifedha ambayo hayajui.
@@ -1380,7 +1361,7 @@ Tunaamini kwa dhati kwamba kuvumilia udhibiti kunaweza kuharibu uhuru wa kujiele
 
 Kuna watu bilioni 2.4 duniani wasio na akaunti ya benki, jambo ambalo huleta tofauti za kijiografia. Kwa upande mwingine, Bitcoin inatoa usawa wa miamala, bila kujali hali yako ya kijamii au nafasi yako ya kisiasa. Itifaki hiyo ni ya kisiasa na haitoi upendeleo maalum kwa viongozi au watu wengine wenye ushawishi, kuhakikisha kuwa kila mtu anapata fursa sawa za kusukuma maendeleo mbele, badala ya kuruhusu wachache kubaki kileleni huku wengine wakiachwa nyuma. Je, kila mtu anapaswa kufikia sarafu sawa, bila kujali hali yake ya kijamii? Ni muhimu kuzingatia ulimwengu tunaotaka kuwaachia watoto wetu, na tunatamani kuunda ulimwengu wazi ambapo wako huru kudhibiti pesa zao wapendavyo.
 
-Bitcoin ni muhimu na haipaswi kuchukuliwa kuwa mchezo wa kubahatisha tu, kwa hivyo ni muhimu kuendelea kuuliza maswali kuhusu Bitcoin na matokeo yake duniani.
+Bitcoin ni muhimu na haipaswi kuchukuliwa kama mchezo wa kubahatisha tu. Ni muhimu kuendelea kuuliza maswali kuhusu Bitcoin na athari zake kwa dunia.
 
 ### Bitcoin: itifaki ya mapinduzi
 
@@ -1388,11 +1369,11 @@ Kama tulivyoona katika sura iliyotangulia, itifaki ya Bitcoin haina upande wowot
 
 Bitcoin ina sifa zote zinazohitajika ili kuwa sarafu bora na yenye afya: inayoweza kugawanywa, kusafirishwa papo hapo, isiyokaguliwa, gharama za uthibitishaji zisizo na maana, na sera ya fedha ambayo tayari imewekwa kuwa vitengo milioni 21 kwa karne nyingi zijazo. Bitcoin ni jina bandia na inaweza kubadilishwa popote duniani bila idhini yoyote kutoka kwa huluki yoyote. Unahitaji tu kushikilia funguo zako za kibinafsi na kukumbuka msemo "Sio funguo zako, sio bitcoins zako".
 
-Inakubaliwa na vikundi tofauti vya watu, kutoka kwa waandishi wa maandishi, hadi libertarians, biashara za jadi, na hata nchi nzima. Hata hivyo, Bitcoin ni ya kila mtu, na kadiri idadi ya watumiaji inavyoongezeka, ndivyo pia idadi ya nodi za Bitcoin ambazo hutumika kama walezi wa historia ya shughuli, kuhakikisha ugatuaji wake unaongezeka.
+Bitcoin inakubalika na makundi mbalimbali ya watu—kuanzia waandishi wa kazi za kifalsafa, wanaharakati wa uhuru wa kifedha (libertarians), wafanyabiashara wa kawaida, hadi mataifa yote. Hata hivyo, Bitcoin ni mali ya kila mtu; na kadiri idadi ya watumiaji inavyoongezeka, ndivyo pia nodi za Bitcoin huzidi kuongezeka, zikichukua jukumu la kulinda historia ya miamala na kuimarisha ugatuaji wake.
 
 Bitcoin haiwezi kusimamishwa na haiwezi kukaguliwa tena. Ni mapinduzi ya amani ambayo hubadilisha mfumo wa fedha na kuwezesha ushirikishwaji wa kifedha. Watumiaji wanaweza kupata bitcoins kwa kuzikubali kwa biashara zao au kwa kuzinunua kupitia mifumo iliyodhibitiwa au isiyodhibitiwa. Wanaweza kuhifadhi pesa kwenye pochi zao, programu za rununu, au vifaa halisi, bila kuhitaji wapatanishi wanaoaminika. Bitcoin inatetea uwazi, uhuru, na wajibu wa mtu binafsi: kama msemo unavyosema "Usiamini, Thibitisha".
 
-Satoshi aliunda Bitcoin mwaka 2008 ili kupendekeza mabadiliko ya mfumo wa fedha, kupitia mabadiliko ya sarafu, kwa sababu alijua kwamba kupata pesa rahisi na "kichawi" huleta kwa urahisi rushwa. Kwa hivyo Bitcoin ni njia mbadala ya kujenga mfumo mpya wa fedha usioegemea upande wowote, kwani inaruhusu ukombozi kutoka kwa mfumo wa benki. Hatimaye, ni jambo la kijamii linalotuhimiza kushiriki katika mapinduzi ya amani.
+Satoshi aliunda Bitcoin mwaka 2008 ili kupendekeza mabadiliko ya mfumo wa fedha, kupitia mabadiliko ya sarafu, kwa sababu alijua kwamba kupata pesa rahisi na "kichawi" huleta kwa urahisi rushwa. Kwa hivyo, Bitcoin ni njia mbadala ya kujenga mfumo mpya wa fedha usioegemea upande wowote, kwani inaruhusu ukombozi kutoka kwa mfumo wa benki. Hatimaye, ni jambo la kijamii linalotuhimiza kushiriki katika mapinduzi ya amani.
 
 Je, uko tayari kujiunga?
 

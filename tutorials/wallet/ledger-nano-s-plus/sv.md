@@ -70,19 +70,19 @@ Vid öppnandet bör du hitta följande föremål i lådan:
 - Kort för att skriva ner din Mnemonic-fras.
 
 
-För denna handledning behöver du 2 programvaruapplikationer: Ledger Live för att initiera Ledger, och Sparrow Wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live] (https://www.Ledger.com/Ledger-live) och [Sparrow Wallet] (https://sparrowwallet.com/download/) från deras officiella webbplatser.
+För denna handledning behöver du 2 programvaruapplikationer: Ledger Live för att initiera Ledger, och Sparrow wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live] (https://www.Ledger.com/Ledger-live) och [Sparrow wallet] (https://sparrowwallet.com/download/) från deras officiella webbplatser.
 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 
-För dessa två program rekommenderar jag starkt att du kontrollerar både deras äkthet (med GnuPG) och deras integritet (via Hash) innan du installerar dem på din maskin. Om du inte är säker på hur du gör det kan du följa den här andra handledningen:
+För dessa två program rekommenderar jag starkt att du kontrollerar både deras äkthet (med GnuPG) och deras integritet (via Hash) innan du installerar dem på din dator. Om du inte är säker på hur du gör det kan du följa den här andra handledningen:
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Hur initialiserar man en Ledger Nano?
 
 
-Anslut din Nano till din dator där Ledger Live och Sparrow Wallet är installerade. För att navigera på din Ledger använder du vänsterknappen för att gå till vänster och högerknappen för att gå till höger. För att välja eller bekräfta ett alternativ trycker du på båda knapparna samtidigt.
+Anslut din Nano till din dator där Ledger Live och Sparrow wallet är installerade. För att navigera på din Ledger använder du vänsterknappen för att gå till vänster och högerknappen för att gå till höger. För att välja eller bekräfta ett alternativ trycker du på båda knapparna samtidigt.
 
 
 ![NANO S PLUS LEDGER](assets/notext/04.webp)
@@ -100,13 +100,13 @@ Välj alternativet "*Setup as a new device*".
 ![NANO S PLUS LEDGER](assets/notext/06.webp)
 
 
-Välj den PIN-kod som ska användas för att låsa upp din Ledger. Detta är därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod spelar ingen roll vid härledningen av din Wallet:s kryptografiska nycklar. Även utan tillgång till denna PIN-kod kan du alltså få tillgång till dina bitcoins om du har din Mnemonic-fras på 24 ord.
+Välj den PIN-kod som ska användas för att låsa upp din Ledger. Detta är därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod spelar ingen roll vid härledningen av din Wallet:s kryptografiska nycklar. Även utan tillgång till denna PIN-kod kan du alltså få tillgång till dina bitcoins om du har din Mnemonic-fras med 24 ord.
 
 
 ![NANO S PLUS LEDGER](assets/notext/07.webp)
 
 
-Vi rekommenderar att du väljer en 8-siffrig PIN-kod som är så slumpmässig som möjligt. Se också till att spara den här koden på en annan plats än där din Ledger Nano S Plus lagras (till exempel i en lösenordshanterare).
+Vi rekommenderar att du väljer en 8-siffrig PIN-kod som är så slumpmässig som möjligt. Se också till att spara den här koden på en annan plats än där din Ledger Nano S Plus lagras (t.ex. i en lösenordshanterare).
 
 
 Använd knapparna för att flytta över siffrorna och välj sedan varje siffra genom att klicka på båda knapparna samtidigt.
@@ -124,7 +124,7 @@ Ange din PIN-kod en gång till för att bekräfta den.
 Din Nano innehåller instruktioner om hur du hanterar din återställningsfras.
 
 
-**Den här Mnemonic-frasen ger full och obegränsad tillgång till alla dina bitcoins**. Alla som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Ledger. Med 24-ordsfrasen kan du återställa åtkomsten till dina bitcoins i händelse av förlust, stöld eller skada på din Ledger Nano. Det är därför mycket viktigt att du sparar och förvarar den på ett säkert ställe.
+**Den här Mnemonic-frasen ger full och obegränsad tillgång till alla dina bitcoins**. Alla som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Ledger. Med 24-ordsfrasen kan du återställa åtkomsten till dina bitcoins i händelse av förlust, stöld eller skada på din Ledger Nano. Det är därför mycket viktigt att spara och förvara den på ett säkert ställe.
 
 
 Du kan skriva ner det på pappret som medföljer din Ledger, eller för mer säkerhet rekommenderar jag att du graverar det på ett medium av rostfritt stål för att skydda mot risker för bränder, översvämningar eller kollapser.
@@ -167,7 +167,7 @@ Om den fras du bekräftar matchar exakt den som Ledger gav dig i föregående st
 ![NANO S PLUS LEDGER](assets/notext/15.webp)
 
 
-Och där har du det, din seed har skapats korrekt på din Ledger Nano S Plus. Innan vi fortsätter att skapa en ny Bitcoin Wallet från denna seed, låt oss utforska enhetens inställningar tillsammans.
+Och där har du det, din seed har skapats korrekt på din Ledger Nano S Plus. Innan du fortsätter att skapa en ny Bitcoin Wallet från denna seed, låt oss utforska enhetens inställningar tillsammans.
 
 
 ## Hur ändrar jag inställningarna för din Ledger?
@@ -213,24 +213,24 @@ med "*Change PIN*" kan du ändra din PIN-kod.
 
 ![NANO S PLUS LEDGER](assets/notext/22.webp)
 
-"*passphrase*" gör att du kan konfigurera en BIP39 passphrase. passphrase är ett valfritt lösenord som, i kombination med din återställningsfras, ger ytterligare Layer i säkerhet för din Wallet.
+"*passphrase*" gör att du kan ställa in en BIP39 passphrase. passphrase är ett valfritt lösenord som, i kombination med din återställningsfras, ger ytterligare en Layer säkerhet för din Wallet.
 
 
 ![NANO S PLUS LEDGER](assets/notext/23.webp)
 
 
-För närvarande genereras din Wallet från en Mnemonic-fras som består av 24 ord. Denna återställningsfras är mycket viktig eftersom den gör det möjligt för dig att återställa alla nycklar i din Wallet om den skulle gå förlorad. Den utgör dock en single point of failure (SPOF). Om den äventyras är dina bitcoins i fara. Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord, som du kan välja godtyckligt, som läggs till Mnemonic-frasen för att förbättra Wallet:s säkerhet.
+För närvarande genereras din Wallet från en Mnemonic-fras som består av 24 ord. Denna återställningsfras är mycket viktig eftersom den gör det möjligt för dig att återställa alla nycklar i din Wallet om den skulle gå förlorad. Den utgör dock en enda punkt av misslyckande (SPOF). Om den äventyras är dina bitcoins i fara. Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord, som du kan välja godtyckligt, som läggs till Mnemonic-frasen för att förbättra Wallet:s säkerhet.
 
 
-passphrase ska inte förväxlas med PIN-koden. Den spelar en roll i härledningen av dina kryptografiska nycklar. Den fungerar tillsammans med Mnemonic-frasen och ändrar seed som nycklarna genereras från. Även om någon får tag på din 24-ordsfras kan de alltså inte komma åt dina pengar utan passphrase. Genom att använda en passphrase skapas i princip en ny Wallet med distinkta nycklar. Om passphrase modifieras (även något) kommer generate att bli en annan Wallet.
+passphrase ska inte förväxlas med PIN-koden. Den spelar en roll i härledningen av dina kryptografiska nycklar. Den fungerar tillsammans med Mnemonic-frasen och ändrar seed som nycklarna genereras från. Även om någon får tag på din 24-ordsfras, utan passphrase, kan de således inte komma åt dina pengar. Genom att använda en passphrase skapas i princip en ny Wallet med distinkta nycklar. Om passphrase modifieras (även något) kommer generate att bli en annan Wallet.
 
 
-passphrase är ett mycket kraftfullt verktyg för att förbättra säkerheten för dina bitcoins. Det är dock mycket viktigt att förstå hur det fungerar innan du implementerar det för att undvika att förlora åtkomst till din Wallet. Det är därför jag råder dig att konsultera denna andra handledning dedikerad om du vill ställa in en passphrase på din Ledger:
+passphrase är ett mycket kraftfullt verktyg för att förbättra säkerheten för dina bitcoins. Det är dock mycket viktigt att förstå hur det fungerar innan du implementerar det, för att undvika att förlora åtkomsten till din Wallet. Det är därför jag råder dig att konsultera den här andra handledningen om du vill ställa in en passphrase på din Ledger:
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
-I menyn "*PIN-lås*" kan du konfigurera och aktivera automatisk låsning av din Ledger efter en viss tid av inaktivitet.
+I menyn "*PIN lock*" kan du konfigurera och aktivera automatisk låsning av din Ledger efter en bestämd tid av inaktivitet.
 
 
 ![NANO S PLUS LEDGER](assets/notext/24.webp)
@@ -242,7 +242,7 @@ I menyn "*Skärmsläckare*" kan du justera viloläget för din Ledger Nano. Obse
 ![NANO S PLUS LEDGER](assets/notext/25.webp)
 
 
-Slutligen kan du återställa din Ledger med hjälp av menyn "*Reset device*". Fortsätt bara med denna återställning om du är säker på att den inte innehåller några nycklar som säkrar bitcoins, eftersom du permanent kan förlora tillgången till dina medel. Det här alternativet kan vara användbart för att utföra ett tomt återställningstest, men jag kommer att prata om detta lite mer senare.
+Slutligen kan du i menyn "*Reset device*" återställa din Ledger. Fortsätt endast med denna återställning om du är säker på att den inte innehåller några nycklar som säkrar bitcoins, eftersom du permanent kan förlora tillgången till dina pengar. Det här alternativet kan vara användbart för att utföra ett tomt återställningstest, men jag kommer att prata om detta lite mer senare.
 
 
 ![NANO S PLUS LEDGER](assets/notext/26.webp)
@@ -250,7 +250,7 @@ Slutligen kan du återställa din Ledger med hjälp av menyn "*Reset device*". F
 ## Hur installerar man Bitcoin-applikationen?
 
 
-Börja med att starta programvaran Ledger Live på din dator, anslut sedan och lås upp din Ledger Nano. I Ledger Live går du till menyn "*Min Ledger*". Du kommer att bli ombedd att godkänna åtkomst till din Nano.
+Börja med att starta programvaran Ledger Live på din dator, anslut sedan och lås upp din Ledger Nano. I Ledger Live, gå till menyn "*My Ledger*". Du kommer att bli ombedd att godkänna åtkomst till din Nano.
 
 
 ![NANO S PLUS LEDGER](assets/notext/27.webp)
@@ -262,13 +262,13 @@ Bekräfta åtkomst på din Ledger genom att klicka på de två knapparna.
 ![NANO S PLUS LEDGER](assets/notext/28.webp)
 
 
-Först, på Ledger Live, se till att "*Äkta kontroll*" visas. Detta bekräftar att din enhet är äkta.
+Först, på Ledger Live, se till att "*Äkthetskontroll*" visas. Detta bekräftar att din enhet är äkta.
 
 
 ![NANO S PLUS LEDGER](assets/notext/29.webp)
 
 
-Om den fasta programvaran för din Ledger Nano inte är uppdaterad, kommer Ledger Live automatiskt att erbjuda dig att uppdatera den. Om nödvändigt, klicka på "*Uppdatera firmware*", sedan på "*Installera uppdatering*" för att starta installationen. På din Ledger klickar du på de två knapparna för att bekräfta och väntar sedan under installationen.
+Om den fasta programvaran för din Ledger Nano inte är uppdaterad kommer Ledger Live automatiskt att erbjuda dig att uppdatera den. Om det behövs, klicka på "*Uppdatera firmware*", sedan på "*Installera uppdatering*" för att starta installationen. På din Ledger klickar du på de två knapparna för att bekräfta och väntar sedan under installationen.
 
 
 Slutligen kommer vi att lägga till Bitcoin-applikationen. För att göra detta, på Ledger Live, klicka på knappen "*Install*" bredvid "*Bitcoin (BTC)*".
@@ -283,7 +283,7 @@ Programmet kommer att installeras på din Nano.
 ![NANO S PLUS LEDGER](assets/notext/31.webp)
 
 
-Från och med nu behöver du inte längre programvaran Ledger Live för den regelbundna hanteringen av din Wallet. Du kan ibland återvända till den för att uppdatera den fasta programvaran när nya versioner finns tillgängliga. För allt annat kommer vi att använda Sparrow Wallet, som är ett mycket mer omfattande verktyg för att effektivt hantera en Bitcoin Wallet.
+Från och med nu behöver du inte längre programvaran Ledger Live för den regelbundna hanteringen av din Wallet. Du kan ibland återvända till den för att uppdatera den fasta programvaran när nya versioner finns tillgängliga. För allt annat kommer vi att använda Sparrow wallet, som är ett mycket mer omfattande verktyg för att effektivt hantera en Bitcoin Wallet.
 
 
 ![NANO S PLUS LEDGER](assets/notext/32.webp)
@@ -292,7 +292,7 @@ Från och med nu behöver du inte längre programvaran Ledger Live för den rege
 ## Hur ställer man in en ny Bitcoin Wallet med Sparrow?
 
 
-Öppna Sparrow Wallet och hoppa över introduktionssidorna för att komma till startskärmen. Kontrollera att du är korrekt ansluten till en nod genom att titta på omkopplaren längst ned till höger på skärmen.
+Öppna Sparrow wallet och hoppa över introduktionssidorna för att komma till startskärmen. Kontrollera att du är korrekt ansluten till en nod genom att titta på omkopplaren längst ned till höger på skärmen.
 
 
 ![NANO S PLUS LEDGER](assets/notext/33.webp)
@@ -350,7 +350,7 @@ Du kan nu se detaljerna för din Wallet, inklusive den utökade publika nyckeln 
 ![NANO S PLUS LEDGER](assets/notext/41.webp)
 
 
-Välj ett starkt lösenord för att säkra åtkomsten till Sparrow Wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina publika nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord säkerställer åtkomsten till dina Wallet-data på Sparrow, vilket hjälper till att skydda dina offentliga nycklar, adresser, etiketter och transaktionshistorik mot obehörig åtkomst.
 
 
 Jag råder dig att spara det här lösenordet i en lösenordshanterare så att du inte glömmer det.
@@ -365,7 +365,7 @@ Och där har du det, din Wallet är nu skapad!
 ![NANO S PLUS LEDGER](assets/notext/43.webp)
 
 
-Innan du tar emot dina första bitcoins i din Wallet, **råder jag dig starkt att utföra ett återställningstest**. Anteckna en referensinformation, t.ex. din xpub, och återställ sedan din Ledger Nano medan Wallet fortfarande är tom. Försök därefter att återställa din Wallet på Ledger med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du tar emot dina första bitcoins i din Wallet, **råder jag dig starkt att utföra ett återställningstest**. Anteckna en referensinformation, t.ex. din xpub, och återställ sedan din Ledger Nano medan Wallet fortfarande är tom. Försök sedan att återställa din Wallet på Ledger med hjälp av dina pappersbackuper. Kontrollera att den xpub som genereras efter återställningen matchar den som du ursprungligen noterade. Om så är fallet kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
 
 Om du vill veta mer om hur du utför ett återställningstest rekommenderar jag att du läser den här andra handledningen:
@@ -387,15 +387,15 @@ Anslut din Ledger Nano S Plus till datorn, lås upp den med din PIN-kod och öpp
 
 ![NANO S PLUS LEDGER](assets/notext/45.webp)
 
-Innan du använder den Address som tillhandahålls av Sparrow Wallet ska du verifiera den på din Ledger:s skärm. På så sätt kan du bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som krävs för att spendera de bitcoins som säkrats med denna Address senare. Detta hjälper dig att undvika flera typer av attacker.
+Innan du använder den Address som tillhandahålls av Sparrow wallet, verifiera den på din Ledger:s skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som krävs för att spendera de bitcoins som säkrats med denna Address senare. Detta hjälper dig att undvika flera typer av attacker.
 
-För att utföra denna kontroll klickar du på knappen "*Display Address*".
+För att utföra denna verifiering klickar du på knappen "*Display Address*".
 
 
 ![NANO S PLUS LEDGER](assets/notext/46.webp)
 
 
-Kontrollera att den Address som visas på din Ledger stämmer överens med den som anges på Sparrow Wallet. Vi rekommenderar också att du utför denna verifiering precis innan du ger din Address till avsändaren, för att vara säker på att den är giltig. Du kan använda knapparna för att visa hela Address.
+Kontrollera att den Address som visas på din Ledger stämmer överens med den som anges på Sparrow wallet. Vi rekommenderar också att du utför denna verifiering precis innan du ger din Address till avsändaren, för att vara säker på att den är giltig. Du kan använda knapparna för att visa hela Address.
 
 
 ![NANO S PLUS LEDGER](assets/notext/47.webp)
@@ -427,7 +427,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 ## Hur skickar man bitcoins med Ledger Nano?
 
 
-Nu när du har fått din första Sats i din Wallet säkrad med Nano S Plus, kan du också spendera dem! Anslut din Ledger till din dator, lås upp den, starta Sparrow Wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
+Nu när du har fått din första Sats i din Wallet säkrad med Nano S Plus, kan du också spendera dem! Anslut din Ledger till din dator, lås upp den, starta Sparrow wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
 
 
 ![NANO S PLUS LEDGER](assets/notext/51.webp)
@@ -485,7 +485,7 @@ Klicka på "*Sign*" bredvid din Ledger Nano S Plus.
 ![NANO S PLUS LEDGER](assets/notext/60.webp)
 
 
-Kontrollera transaktionsinställningarna på skärmen i din Ledger, inklusive mottagarens mottagande Address, det skickade beloppet och avgiftsbeloppet.
+Kontrollera transaktionsinställningarna på skärmen på din Ledger, inklusive mottagarens mottagande Address, det skickade beloppet och avgiftsbeloppet.
 
 
 ![NANO S PLUS LEDGER](assets/notext/61.webp)
@@ -503,13 +503,13 @@ Din transaktion är nu signerad. Dubbelkolla att allt ser bra ut för dig och kl
 ![NANO S PLUS LEDGER](assets/notext/63.webp)
 
 
-Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den under fliken "*Transaktioner*" i Sparrow wallet.
 
 
 ![NANO S PLUS LEDGER](assets/notext/64.webp)
 
 
-Grattis, du är nu uppdaterad om den grundläggande användningen av Ledger Nano S Plus med Sparrow Wallet! I en framtida handledning kommer vi att se hur man använder Ledger med Liana för att utnyttja Miniscript.
+Grattis, nu har du fått koll på den grundläggande användningen av Ledger Nano S Plus med Sparrow wallet! I en framtida handledning kommer vi att se hur man använder Ledger med Liana för att utnyttja Miniscript.
 
 
 Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om du kunde lämna tummen upp nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

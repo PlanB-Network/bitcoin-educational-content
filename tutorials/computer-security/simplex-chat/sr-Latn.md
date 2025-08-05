@@ -10,7 +10,7 @@ Pokrenut 2021. godine, SimpleX je besplatna aplikacija za instant poruke sa radi
 
 
 
-Za razliku od većine aplikacija koje zahtevaju nalog ili broj telefona, SimpleX vam omogućava da započnete razgovore deljenjem linka ili efemernog QR koda. Svaki link kreira jedinstveni enkriptovani kanal, a kontakti ne mogu pronaći ili ponovo kontaktirati pošiljaoca bez eksplicitnog Exchange. Poruke su enkriptovane od kraja do kraja i prolaze kroz relej servere koji ih brišu nakon slanja, i ne vide ni pošiljaoca ni primaoca, niti njihove ključeve.
+Za razliku od većine aplikacija koje zahtevaju nalog ili broj telefona, SimpleX vam omogućava da započnete razgovore deljenjem linka ili efemernog QR koda. Svaki link kreira jedinstveni enkriptovani kanal, a kontakti ne mogu pronaći ili ponovo kontaktirati pošiljaoca bez eksplicitne razmene. Poruke su enkriptovane od kraja do kraja i prolaze kroz relej servere koji ih brišu nakon slanja, i ne vide ni pošiljaoca ni primaoca, niti njihove ključeve.
 
 
 
@@ -30,25 +30,27 @@ SimpleX integriše sve klasične funkcije aplikacija za razmenu poruka. Međutim
 
 
 
-| Aplikacija           | E2EE 1:1       | E2EE grupe     | Anonimna registracija | Licenca klijenta open-source | Licenca servera open-source | Decentralizovani server      | Godina kreiranja  |
-| -------------------- | -------------- | -------------- | --------------------- | ---------------------------- | --------------------------- | ---------------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2009              |
-| WeChat               | ❌              | ❌              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcionalno) | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Telegram             | 🟡 (opcionalno) | ❌              | 🟡                    | ✅                            | ❌                           | ❌                            | 2013              |
-| LINE                 | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Signal               | ✅              | ✅              | ❌                     | ✅                            | ✅                           | ❌                            | 2014              |
-| Threema              | ✅              | ✅              | ✅                     | ✅                            | ❌                           | ❌                            | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                     | ✅                            | N/A                         | 🟡 (preko email-a)          | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2014              |
-| Session              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2021              |
-| Olvid                | ✅              | ✅              | ✅                     | ✅                            | ❌                           | 🟡(nema direktorijuma)      | 2019              |
-| Keet                 | ✅              | ✅              | ✅                     | ❌                            | N/A                         | ✅                            | 2022              |
-| Jami                 | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2005              |
-| Briar                | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2018              |
-| Tox                  | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2013              |
+
+| Aplikacija          | E2EE 1:1       | E2EE grupe    | Anonimna prijava | Licenca otvorenog koda klijenta | Licenca otvorenog koda servera | Decentralizovani server|Godina kreiranja |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opciono) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opciono) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (preko emaila)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| **SimpleX**          | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | 🟡(nema direktorijuma)               | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
 
 *E2EE = Šifrovanje od kraja do kraja*
 
@@ -101,7 +103,7 @@ Izaberite korisničko ime, koje može biti vaše pravo ime ili pseudonim, zatim 
 
 
 
-Zatim, postavite učestalost kojom će aplikacija proveravati nove poruke. Ako trajanje baterije vašeg telefona nije problem, izaberite "*Instant*" da biste primali poruke u realnom vremenu. Ako želite da uštedite bateriju i sprečite aplikaciju da radi u pozadini, izaberite "*Kada je aplikacija pokrenuta*": tada ćete primati poruke samo kada je aplikacija otvorena. Mogući kompromis je da se odlučite za periodičnu proveru svakih 10 minuta.
+Zatim, postavite učestalost kojom će aplikacija proveravati nove poruke. Ako trajanje baterije vašeg telefona nije problem, izaberite "*Instant*" da biste primali poruke u realnom vremenu. Ako želite da uštedite bateriju i sprečite aplikaciju da radi u pozadini, izaberite "*When app is running (prevod: Kada je aplikacija pokrenuta)*": tada ćete primati poruke samo kada je aplikacija otvorena. Mogući kompromis je da se odlučite za periodičnu proveru svakih 10 minuta.
 
 
 
@@ -149,7 +151,7 @@ Takođe možete modifikovati passphrase koji se koristi za šifrovanje ove baze 
 
 
 
-Takođe preporučujem da odete u meni "*Privatnost i bezbednost*", gde možete aktivirati opciju "*SimpleX Lock*". Ovo štiti pristup aplikaciji pomoću koda za zaključavanje.
+Takođe preporučujem da odete u meni "*Privacy & security (prevod: Privatnost i bezbednost)*", gde možete aktivirati opciju "*SimpleX Lock*". Ovo štiti pristup aplikaciji pomoću koda za zaključavanje.
 
 
 
@@ -175,23 +177,23 @@ Da biste se povezali sa drugom osobom na SimpleX-u, imate dve opcije:
 
 
 - Koristite jednokratni link;
-- Koristite višekratni statički Address.
+- Koristite višekratnu statičku adresu.
 
 
 
-Statični Address omogućava svakome ko ga zna da vas kontaktira na SimpleX-u. To je postojani Address, koji može biti korišćen više puta, od strane različitih ljudi, bez vremenskog ograničenja. Upravo ta postojanost ga čini podložnijim spamu. Međutim, za razliku od drugih aplikacija za razmenu poruka, brisanje vašeg SimpleX Address je dovoljno da zaustavi sav spam, bez uticaja na postojeće razgovore. Zapravo, ovaj Address se koristi samo za uspostavljanje početne veze, i više nije potreban kada Exchange započne.
+Statička adresa omogućava svakome ko ga zna da vas kontaktira na SimpleX-u. To je postojana adresa, koja može biti korišćen više puta, od strane različitih ljudi, bez vremenskog ograničenja. Upravo ta postojanost je čini podložnijom spamu. Međutim, za razliku od drugih aplikacija za razmenu poruka, brisanjem vaše SimpleX adrese je dovoljno da zaustavi sav spam, bez uticaja na postojeće razgovore. Zapravo, ova adresa se koristi samo za uspostavljanje početne veze, i više nije potreban kada razmena započne.
 
 
 
-Linkovi za jednokratnu upotrebu, s druge strane, mogu se koristiti samo jednom, od strane bilo kog korisnika. Kada ga kontakt iskoristi, link postaje nevažeći. Moraćete da generate novi za svaku novu vezu.
+Linkovi za jednokratnu upotrebu, s druge strane, mogu se koristiti samo jednom, od strane bilo kog korisnika. Kada ga kontakt iskoristi, link postaje nevažeći. Moraćete generisati novi za svaku novu vezu.
 
 
 
-### Sa statičkim Address
+### Sa statičkim adresama
 
 
 
-Ako želite da koristite Address, kliknite na svoju profilnu sliku u donjem levom uglu Interface, zatim izaberite "*Create SimpleX Address*". Zatim ponovo kliknite na "*Create SimpleX Address*".
+Ako želite da koristite adresu, kliknite na svoju profilnu sliku u donjem levom uglu interfejsa, zatim izaberite "*Create SimpleX Address*". Zatim ponovo kliknite na "*Create SimpleX Address*".
 
 
 
@@ -199,7 +201,7 @@ Ako želite da koristite Address, kliknite na svoju profilnu sliku u donjem levo
 
 
 
-Vaš višekratni Address je sada kreiran. Možete ga podeliti sa ljudima koji žele da stupe u kontakt sa vama, bilo prikazivanjem QR koda ili slanjem linka.
+Vaš višekratna adresa je sada kreirana. Možete je podeliti sa ljudima koji žele da stupe u kontakt sa vama, bilo prikazivanjem QR koda ili slanjem linka.
 
 
 
@@ -207,11 +209,11 @@ Vaš višekratni Address je sada kreiran. Možete ga podeliti sa ljudima koji ž
 
 
 
-Kliknite na dugme "*Address settings*". Ovde možete konfigurisati dozvole povezane sa vašim Address. Opcija "*Share with contacts*" čini vaš Address vidljivim na vašem SimpleX profilu. Vaši kontakti će tada moći da ga pregledaju i proslede drugim osobama koje žele da vas kontaktiraju.
+Kliknite na dugme "*Address settings*". Ovde možete konfigurisati dozvole povezane sa vašom adresom. Opcija "*Share with contacts*" čini vaš adresu vidljivom na vašem SimpleX profilu. Vaši kontakti će tada moći da ga pregledaju i proslede drugim osobama koje žele da vas kontaktiraju.
 
 
 
-Opcija "*Auto-accept*" automatski prihvata dolazne veze putem vašeg Address. To znači da će svako ko ima vaš Address moći da vidi vaš profil i pošalje vam poruku, osim ako ne aktivirate opciju "*Accept incognito*". Ovo sakriva vaše ime i profilnu fotografiju kada se uspostavi nova veza, zamenjujući ih nasumičnim pseudonimom, različitim za svakog sagovornika.
+Opcija "*Auto-accept*" automatski prihvata dolazne veze putem vaše adrese. To znači da će svako ko ima vašu adresu moći da vidi vaš profil i pošalje vam poruku, osim ako ne aktivirate opciju "*Accept incognito*". Ovo sakriva vaše ime i profilnu fotografiju kada se uspostavi nova veza, zamenjujući ih nasumičnim pseudonimom, različitim za svakog sagovornika.
 
 
 
@@ -223,11 +225,11 @@ Opcija "*Auto-accept*" automatski prihvata dolazne veze putem vašeg Address. To
 
 
 
-Drugi način povezivanja sa osobom je kreiranje jednokratnog linka. Da biste to uradili, kliknite na ikonu olovke u donjem desnom uglu Interface, zatim izaberite "*Create 1-time link*".
+Drugi način povezivanja sa osobom je kreiranje jednokratnog linka. Da biste to uradili, kliknite na ikonu olovke u donjem desnom uglu interfejsa, zatim izaberite "*Create 1-time link*".
 
 
 
-Ako vam je kontakt poslao link, kliknite na "*Skeniraj / Zalepi link*" da biste ga skenirali ili zalepili.
+Ako vam je kontakt poslao link, kliknite na "*Scan / Paste link (prevod: Skeniraj / Zalepi link)*" da biste ga skenirali ili zalepili.
 
 
 
@@ -235,7 +237,7 @@ Ako vam je kontakt poslao link, kliknite na "*Skeniraj / Zalepi link*" da biste 
 
 
 
-SimpleX zatim generiše jednokratni link. Možete ga proslediti svom kontaktu na bilo koji način: fizički Exchange, druge poruke, itd.
+SimpleX zatim generiše jednokratni link. Možete ga proslediti svom kontaktu na bilo koji način: fizička razmena, druge poruke, itd.
 
 
 
@@ -277,7 +279,7 @@ Da bismo to uradili, proverićemo naš sigurnosni link **van aplikacije**. Ovo j
 
 
 
-U ćaskanju, klikni na Bobovu fotografiju, zatim na "*Verifikuj sigurnosni kod*". Bob treba da uradi isto sa svoje strane.
+U ćaskanju, klikni na Bobovu fotografiju, zatim na "*Verify security code (prevod: Verifikuj sigurnosni kod)*". Bob treba da uradi isto sa svoje strane.
 
 
 
@@ -285,7 +287,7 @@ U ćaskanju, klikni na Bobovu fotografiju, zatim na "*Verifikuj sigurnosni kod*"
 
 
 
-Ako radite na daljinu, uporedite kodove na drugom sigurnom sistemu za razmenu poruka (moraju biti identični). Ili još bolje, ako možete da se sretnete lično, skenirajte QR kod vašeg kontakta klikom na "*Skeniraj kod*".
+Ako radite na daljinu, uporedite kodove na drugom sigurnom sistemu za razmenu poruka (moraju biti identični). Ili još bolje, ako možete da se sretnete lično, skenirajte QR kod vašeg kontakta klikom na "*Scan code (prevod: Skeniraj kod)*".
 
 
 
@@ -293,7 +295,7 @@ Ako radite na daljinu, uporedite kodove na drugom sigurnom sistemu za razmenu po
 
 
 
-Ako je verifikacija uspešna, ikonica štita sa oznakom za proveru će se pojaviti pored imena vašeg kontakta. Ovo je vaša garancija da razmenjujete sa Bobom. Ako verifikacija nije uspešna, pojaviće se upozorenje "*Pogrešan sigurnosni kod!*".
+Ako je verifikacija uspešna, ikonica štita sa oznakom za proveru će se pojaviti pored imena vašeg kontakta. Ovo je vaša garancija da razmenjujete poruke sa Bobom. Ako verifikacija nije uspešna, pojaviće se upozorenje "*Incorrect security code! (prevod: Pogrešan sigurnosni kod!)*".
 
 
 
@@ -301,7 +303,7 @@ Ako je verifikacija uspešna, ikonica štita sa oznakom za proveru će se pojavi
 
 
 
-Sada možete slobodno Exchange poruke, pozive i datoteke sa Bobom, u zavisnosti od dozvola koje ste postavili za ovaj razgovor.
+Sada možete slobodno razmenjivati poruke, pozive i datoteke sa Bobom, u zavisnosti od dozvola koje ste postavili za ovaj razgovor.
 
 
 
@@ -341,7 +343,7 @@ Zatim kliknem na svoju profilnu fotografiju da je promenim i dodam novu.
 
 
 
-Da biste dodali druge profile, kliknite na meni "*Profili vaših ćaskanja*".
+Da biste dodali druge profile, kliknite na meni "*Your chats profiles (prevod: Profili vaših ćaskanja)*".
 
 
 
@@ -349,7 +351,7 @@ Da biste dodali druge profile, kliknite na meni "*Profili vaših ćaskanja*".
 
 
 
-Ovde ćete videti sve vaše profile. Kliknite na "*Dodaj profil*" da kreirate novi.
+Ovde ćete videti sve vaše profile. Kliknite na "*Add profile (prevod: Dodaj profil)*" da kreirate novi.
 
 
 
@@ -365,7 +367,7 @@ Zatim izaberite informacije za svoj novi profil: ime, fotografiju, itd. Ovde kor
 
 
 
-Držanjem prsta na profilu možete ga sakriti. Ovo će ga učiniti nevidljivim u aplikaciji, zajedno sa svim povezanim razgovorima. Takođe možete odabrati opciju "*Utišaj*" da prestanete primati obaveštenja.
+Držanjem prsta na profilu možete ga sakriti. Ovo će ga učiniti nevidljivim u aplikaciji, zajedno sa svim povezanim razgovorima. Takođe možete odabrati opciju "*Mute (prevod: Utišaj)*" da prestanete primati obaveštenja.
 
 
 
@@ -381,7 +383,7 @@ Jednom kada kreirate svoje profile, možete ih upravljati nezavisno. Sa početne
 
 
 
-Kada kreirate pozivni link ili statički Address, sada možete izabrati koji profil želite da povežete sa njim. Na primer, ako izaberem profil "*Satoshi Nakamoto*" da generate link i pošaljem ga Alisi, ona će videti samo moj pseudonimni identitet "*Satoshi Nakamoto*", bez ikakvog saznanja o mom pravom identitetu "*Loïc Morel*". Obrnuto, ako joj dam link sa mog pravog profila, neće imati način da ga poveže sa mojim pseudonimnim profilom.
+Kada kreirate pozivni link ili statičku adresu, sada možete izabrati koji profil želite da povežete sa njim. Na primer, ako izaberem profil "*Satoshi Nakamoto*" generišem link i pošaljem ga Alisi, ona će videti samo moj pseudonimni identitet "*Satoshi Nakamoto*", bez ikakvog saznanja o mom pravom identitetu "*Loïc Morel*". Obrnuto, ako joj dam link sa mog pravog profila, neće imati način da ga poveže sa mojim pseudonimnim profilom.
 
 
 

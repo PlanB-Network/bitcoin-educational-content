@@ -197,7 +197,7 @@ Jag skrev 192.168.0.1 i webbläsaren (instruktioner som följde med min router),
 Att hitta IP är avgörande.
 
 
-**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Resultatet är inte lika snyggt som det som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.
+**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Utmatningen är inte lika vacker som den som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.
 
 
 ## Steg 7: SSH till Pi
@@ -214,7 +214,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-För Windows måste du installera putty för att ssh:a in i Pi. Skriv samma kommando som ovan.
+För Windows måste du installera putty för att kunna ssh:a in i Pi. Skriv samma kommando som ovan.
 
 
 Första gången du gör detta, eller när du byter operativsystem på Pi genom att byta SD-kort, kan du få det här felet eller inte..
@@ -256,7 +256,7 @@ Det enkla men långsammare sättet är att ladda ner hela kedjan från början..
 ![image](assets/19.webp)
 
 
-Massor av text blinkar över terminalskärmen. Du kanske misstar det för processen för nedladdning av Blockchain, men för mig ser det ut som att den genererar en privat nyckel för kommunikation.
+Massor av text blinkar över terminalskärmen. Du kanske misstar det för processen för nedladdning av Blockchain, men för mig ser det ut som om den genererar en privat nyckel för kommunikation.
 
 
 Då visas blixtalternativ.

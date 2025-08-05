@@ -1541,11 +1541,6 @@ Kwa Hayek, kuyumba kwa uchumi wa soko huko nyuma kunatokana na ukweli kwamba mdh
 
 Hayek aliamini kuwa soko huria la sarafu za kibinafsi lingesababisha utulivu mkubwa wa kifedha. Takriban miaka 50 baadaye, sarafu-fiche kama Bitcoin inajumuisha maono ya ushindani ya Hayek kwa kutoa njia mbadala iliyogatuliwa kwa mfumo wa ukiritimba wa benki kuu. Bitcoin, ikiwa na kikomo chake cha utoaji wa vitengo milioni 21, ni dhamana dhidi ya mfumuko wa bei na uholela wa vidhibiti.
 
-## Ukaguzi na Ukadiriaji
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 ## Hitimisho: nguvu ya mawazo
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

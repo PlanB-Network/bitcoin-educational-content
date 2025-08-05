@@ -1,0 +1,25 @@
+id: d183ada9-6654-438c-9c82-079b53723c60
+start_date: 2025-12-01 05:00:00
+end_date: 2025-12-01 15:00:00
+timezone: Indian/Mauritius
+address_city_country: Port Louis, Mauritius
+name: Btrust Developer Day
+type: workshop
+description: |
+  The Btrust Developer Day is back, and this year we’re heading to
+  Mauritius 🇲🇺. Taking place just ahead of the Africa Bitcoin Conference, this
+  one-day technical event is designed for Bitcoin developers, builders, and
+  open-source contributors across Africa and beyond.​The event dives deep into
+  the technical side of Bitcoin, from protocol upgrades and privacy tools to
+  layer 2 innovations and open-source contribution.​ The Developer Day is your
+  space to learn and connect. ​Join us as we spotlight African Bitcoin
+  innovation, elevate local talent, and build the future of Bitcoin open-source,
+  together.
+language:
+  - en
+links:
+  website: https://clooza.com/events/BTRUSTDEVELOPERDAY
+tags:
+  - development
+  - software
+  - technical-analysis

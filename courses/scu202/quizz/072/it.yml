@@ -1,0 +1,9 @@
+question: Come si installa una ROM alternativa su uno smartphone Android?
+answer: Sblocco del bootloader
+wrong_answers:
+  - Creare un account Apple
+  - Installazione di una scheda SIM speciale
+  - Attivare la modalità sviluppatore su iOS
+explanation: |
+  Lo sblocco del bootloader è essenziale per scrivere una nuova immagine di sistema su uno smartphone Android.
+reviewed: false

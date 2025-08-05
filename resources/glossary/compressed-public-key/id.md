@@ -2,7 +2,7 @@
 term: KUNCI PUBLIK TERKOMPRESI
 
 ---
-Kunci publik digunakan dalam skrip (baik secara langsung dalam bentuk kunci publik atau sebagai alamat) untuk menerima dan mengamankan bitcoin. Sebuah kunci publik mentah diwakili oleh sebuah titik pada kurva elips, yang terdiri dari dua koordinat (`x, y`) yang masing-masing terdiri dari 256 bit. Dalam format mentah, kunci publik berukuran 512 bit, tidak termasuk byte tambahan untuk mengidentifikasi format. Kunci publik terkompresi, di sisi lain, adalah bentuk representasi kunci publik yang lebih ringkas. Kunci publik ini hanya menggunakan koordinat `x` dan sebuah awalan (`02` atau `03`) yang mengindikasikan paritas dari koordinat `y` (genap atau ganjil).
+Kunci publik yang digunakan dalam skrip (baik secara langsung dalam bentuk kunci publik atau sebagai alamat) untuk menerima dan mengamankan bitcoin. Sebuah kunci publik mentah diwakili oleh sebuah titik pada kurva elips, yang terdiri dari dua koordinat (`x, y`) yang nilainya masing-masing terdiri dari 256 bit. Dalam format mentah, kunci publik berukuran 512 bit, tidak termasuk byte tambahan untuk mengidentifikasi format. Kunci publik terkompresi, di sisi lain, adalah bentuk representasi kunci publik yang lebih ringkas. Kunci publik ini hanya menggunakan koordinat `x` dan sebuah awalan (`02` atau `03`) yang mengindikasikan paritas dari koordinat `y` (genap atau ganjil).
 
 Jika kita menyederhanakan hal ini ke dalam bidang bilangan real, karena kurva elips simetris terhadap sumbu x, maka untuk setiap titik $P$ (`x, y`) pada kurva tersebut, terdapat titik $P'$ (`x, -y`) yang juga berada pada kurva yang sama. Ini berarti bahwa untuk setiap `x`, hanya ada dua kemungkinan nilai `y`, positif dan negatif. Sebagai contoh, untuk absis `x` yang diberikan, akan ada dua titik $P1$ dan $P2$ pada kurva elips, berbagi absis yang sama tetapi dengan ordinat yang berlawanan:
 
@@ -12,7 +12,7 @@ Untuk memilih di antara dua titik potensial pada kurva, sebuah awalan yang menen
 
 Akan tetapi, dalam konteks kriptografi kurva elips, kita tidak menggunakan bilangan real, tetapi menggunakan sebuah bidang terbatas dengan orde `p` (bilangan prima). Dalam konteks ini, "tanda" dari `y` ditentukan oleh paritasnya, yaitu apakah `y` genap atau ganjil. Awalan `0x02` kemudian menunjukkan `y` genap, sedangkan `x03` menunjukkan `y` ganjil.
 
-Pertimbangkan contoh kunci publik mentah (titik pada kurva elips) dalam heksadesimal berikut ini:
+Sebagai contoh, perhatikan kunci publik mentah (titik pada kurva elips) dalam heksadesimal berikut ini:
 
 ```plaintext
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f

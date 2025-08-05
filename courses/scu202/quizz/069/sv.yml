@@ -1,0 +1,9 @@
+question: Vad är det främsta skälet till att det är viktigt att hålla din webbläsare uppdaterad?
+answer: Korrigera kritiska säkerhetsbrister
+wrong_answers:
+  - Förbättra sidans laddningshastighet
+  - Förhindra nätfiske
+  - Optimera minnesförbrukningen
+explanation: |
+  Uppdateringar prioriterar säkerhetsproblem som kan göra det möjligt för en angripare att kompromissa med ditt system.
+reviewed: false

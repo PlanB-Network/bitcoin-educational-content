@@ -1,0 +1,9 @@
+question: 應該啟動哪一種通訊協定，才能在區域網路規模上加密 DNS 請求？
+answer: 衞生署
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) 和 DoT (DNS over TLS) 可加密 DNS 請求，防止其被截取。
+reviewed: false

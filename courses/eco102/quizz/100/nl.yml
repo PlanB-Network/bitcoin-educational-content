@@ -1,0 +1,9 @@
+question: Wie onderhoudt volgens Bastiat het levensonderhoud van de staat?
+answer: Het zijn de burgers die de staat in stand houden
+wrong_answers:
+  - Het zijn de burgers die leven van de staat
+  - Het is de staat die de natie in stand houdt
+  - Het zijn de belangengroepen die de staat in stand houden
+explanation: |
+  Bastiat beweert dat het de burgers zijn die de staat ondersteunen door welvaart te creëren en niet andersom.
+reviewed: false

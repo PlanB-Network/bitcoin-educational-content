@@ -32,7 +32,7 @@ Syftet med sidokedjor är att erbjuda ytterligare funktioner eller tekniska för
 ## Vad är Liquid?
 
 
-Liquid är en federerad Sidechain-överlagring för Bitcoin, utvecklad av Blockstream för att förbättra transaktionshastighet, sekretess och funktionalitet. Den använder en bilateral förankringsmekanism som etablerats på en federation för att låsa bitcoins på huvudkedjan och skapa Liquid-bitcoins (L-BTC) i gengäld, tokens som cirkulerar på Liquid medan de fortfarande backas upp av de ursprungliga bitcoins.
+Liquid är en federerad Sidechain-överlagring för Bitcoin, utvecklad av Blockstream för att förbättra transaktionshastighet, integritet och funktionalitet. Den använder en bilateral förankringsmekanism etablerad på en federation för att låsa bitcoins på huvudkedjan och skapa Liquid-bitcoins (L-BTC) i gengäld, tokens som cirkulerar på Liquid medan de förblir uppbackade av de ursprungliga bitcoins.
 
 
 ![AQUA](assets/fr/02.webp)

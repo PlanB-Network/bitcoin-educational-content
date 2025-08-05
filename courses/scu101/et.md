@@ -323,7 +323,9 @@ Kahefaktoriline autentimine (2FA) on lisakiht turvalisuse tagamiseks, et veendud
 - Ajutine kood, mis saadetakse SMS-i teel.
 - Rakenduse, nagu Google Authenticator või Authy, genereeritud kood.
 - Füüsiline turvavõti, mida sisestate oma arvutisse.
+
   ![](assets/notext/19.webp)
+
   2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
 
 ### Millist varianti valida?
@@ -335,6 +337,8 @@ Erinevad tugeva autentimise valikud pakuvad erinevat turvalisuse taset.
 - Riistvaralised tokenid, nagu USB-võtmed või nutikaardid, pakuvad optimaalset turvalisust, genereerides iga saidi jaoks unikaalse privaatvõtme ja kontrollides URL-i enne ühenduse lubamist.
 
 Optimaalse turvalisuse saavutamiseks tugeva autentimisega on soovitatav kasutada turvalist e-posti aadressi, turvalist paroolihaldurit ja kasutusele võtta 2FA, kasutades YubiKey'sid. Samuti on soovitatav soetada kaks YubiKey'd, et ette näha kaotust või vargust, näiteks hoides varukoopiaid nii kodus kui ka endaga kaasas.
+
+Seoses SIM-kaardi kahefaasilise autentimise (2FA) võimalike ohtudega on tavaline näide SIM-kaardi vahetuse rünnak, kus ründaja varastab kasutaja telefoninumbri, sidudes selle ründaja kontrolli all oleva SIM-kaardiga. Ründajal on mitmeid viise, kuidas rünnakut teostada; siiski on see oht tavaliselt suur probleem ainult kõrge profiiliga isikutele ja huvipakkuvatele inimestele.
 
 Biomeetria võib olla asendus, kuid see on vähem turvaline kui teadmiste ja valduse kombinatsioon. Biomeetrilised andmed peaksid jääma autentimisseadmesse ja neid ei tohiks veebis avaldada. On oluline kaaluda erinevate autentimismeetoditega seotud ohumudeleid ja vastavalt kohandada praktikaid.
 

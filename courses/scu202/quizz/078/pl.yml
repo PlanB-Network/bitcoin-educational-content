@@ -1,0 +1,9 @@
+question: Jaka jest najlepsza zalecana metoda blokowania ekranu smartfona?
+answer: Hasło alfanumeryczne
+wrong_answers:
+  - Schemat graficzny
+  - Rozpoznawanie twarzy
+  - Brak blokady
+explanation: |
+  Hasła alfanumeryczne oferują najlepszą odporność na próby nieautoryzowanego dostępu, w przeciwieństwie do schematów graficznych lub biometrycznych.
+reviewed: false

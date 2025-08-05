@@ -143,7 +143,7 @@ Om du föredrar att göra det manuellt följer du dessa steg :
 - Lägg till följande objekt i den här katalogen:
     - En undermapp med namnet `assets` som innehåller :
         - Två `.webp`-bilder:
-            - `logo.webp`: Logotypen för handledningen (fyrkantigt format med bakgrund). Denna logotyp måste representera den programvara eller det verktyg som presenteras. Om handledningen inte är specifik för ett verktyg (t.ex. en allmän guide för att generera en Mnemonic-fras) kan du välja en lämplig bild (t.ex. en generisk ikon).
+            - `logo.webp`: Handledningens logotyp (fyrkantigt format med bakgrund). Denna logotyp måste representera den programvara eller det verktyg som presenteras. Om handledningen inte är specifik för ett verktyg (t.ex. en allmän guide för att generera en Mnemonic-fras) kan du välja en lämplig bild (t.ex. en generisk ikon).
             - `omslag.webp`: En omslagsbild som visas i början av handledningen.
         - En undermapp med koden för handledningens originalspråk. Om handledningen t.ex. är skriven på engelska ska denna undermapp heta "en". Placera alla handledningens visuella element (diagram, bilder, skärmdumpar etc.) i denna mapp.
     - En `tutorial.yml`-fil som innehåller metadata (författare, taggar, kategori, svårighetsgrad etc.).
@@ -375,7 +375,7 @@ print("Hello, Bitcoin!")
 
 
 - Illustrationer och diagram** :
-    - Alla bilder måste vara i WebP-format. Använd det här gratisverktyget för att konvertera dem om det behövs: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - Alla bilder måste vara i WebP-format. Använd det här gratisverktyget för att konvertera dem om det behövs: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
     - Namnge bilderna med 2 eller 3 siffror (t.ex. `001.webp`, `002.webp`).
     - Använd mock-ups för handledning om mobiler eller Hardware Wallet.
     - Använd endast egenhändigt skapade eller royaltyfria bilder.

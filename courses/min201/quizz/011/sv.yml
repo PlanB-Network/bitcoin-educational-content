@@ -1,0 +1,12 @@
+question: Vilka strategier har diskuterats för att bekämpa Mining-centralisering i Bitcoin?
+answer: Strategier som diskuteras för att bekämpa Mining-centralisering i Bitcoin inkluderar Home Mining, Stratum V2-protokollet, open-sourcing Mining-programvara samt diversifiering av aktörer och geografi.
+wrong_answers:
+  - Strategier som diskuteras för att bekämpa Mining-centraliseringen i Bitcoin inkluderar att öka blockstorleken, implementera proof of stake och skapa en central myndighet för att övervaka Mining.
+  - Strategier som diskuteras för att bekämpa Mining-centralisering i Bitcoin inkluderar att sänka Block reward, införa en transaktionsavgift och skapa en Mining-skatt.
+  - Strategier som diskuteras för att bekämpa Mining-centralisering i Bitcoin inkluderar att öka svårigheten med Mining, implementera ett Mining-lock och skapa ett Mining-lotteri.
+explanation: |
+  I kapitlet diskuteras flera strategier för att bekämpa Mining
+  centralisering i Bitcoin, inklusive Home Mining, Stratum
+  Stratum V2-protokollet, öppen källkod för Mining-mjukvara och
+  diversifiering av aktörer och geografi.
+reviewed: true

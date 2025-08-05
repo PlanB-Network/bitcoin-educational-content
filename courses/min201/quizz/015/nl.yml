@@ -1,0 +1,12 @@
+question: Wat is het principe waarop Bitcoin Mining werkt?
+answer: Bitcoin Mining werkt op een loterijprincipe, waarbij de kans om elke tien minuten een blok (en dus de Bitcoin beloning) te winnen extreem klein is voor een individuele kleine Miner.
+wrong_answers:
+  - Bitcoin Mining werkt volgens het 'wie het eerst komt, het eerst maalt'-principe, waarbij de eerste Miner die een complex wiskundig probleem oplost, de Bitcoin beloning krijgt.
+  - Bitcoin Mining werkt volgens een biedprincipe, waarbij de Miner die het hoogste biedt de Bitcoin beloning krijgt.
+  - Bitcoin Mining werkt volgens een rotatieprincipe, waarbij elke Miner een beurt krijgt om een blok te delven en de Bitcoin beloning te ontvangen.
+explanation: |
+  Het hoofdstuk legt uit dat Bitcoin Mining werkt volgens het loterijprincipe
+  principe, waarbij de kans op het winnen van een blok (en
+  en dus de Bitcoin beloning) elke tien minuten
+  extreem laag is voor een individuele kleine Miner.
+reviewed: true

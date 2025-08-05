@@ -18,7 +18,7 @@ Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將
 為了翻譯教育內容，我們使用 [人工智慧](https://github.com/Asi0Flammeus/LLM-Translator)。然後，為了糾正這些檔案中的最終錯誤，我們邀請校對人員貢獻心力。如果您希望校對某些內容，請參閱下列教學：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 另一方面，如果您有興趣翻譯網站的靜態 Elements（不包括教育內容），您就找對地方了！為了有效翻譯前端內容，我們使用 Weblate 工具，此工具使用起來非常簡單，並有助於翻譯的方法。
 

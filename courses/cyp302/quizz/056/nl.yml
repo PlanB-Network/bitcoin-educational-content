@@ -1,0 +1,9 @@
+question: Welk type algebraïsche structuur is de basis van abstracte algebra?
+answer: Groep
+wrong_answers:
+  - Veld
+  - Ring
+  - Matrix
+explanation: |
+  De groep is de fundamentele algebraïsche structuur waarop de abstracte algebra gebaseerd is, gedefinieerd door een verzameling Elements en een binaire operatie die bepaalde eigenschappen respecteert.
+reviewed: false

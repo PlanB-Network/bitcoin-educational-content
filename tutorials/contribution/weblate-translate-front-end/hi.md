@@ -18,7 +18,7 @@ Plan ₿ Network का मिशन Bitcoin पर प्रथम श्रे
 शैक्षिक सामग्री का अनुवाद करने के लिए, हम [कृत्रिम बुद्धिमत्ता](https://github.com/Asi0Flammeus/LLM-Translator) का उपयोग करते हैं। फिर, इन फ़ाइलों में संभावित गलतियों को ठीक करने के लिए, हम प्रूफ़रीडर को योगदान देने के लिए आमंत्रित करते हैं। यदि आप कुछ सामग्री का प्रूफ़रीड करना चाहते हैं, तो निम्न ट्यूटोरियल देखें:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 दूसरी ओर, यदि आप वेबसाइट के स्थिर Elements (शैक्षणिक सामग्री को छोड़कर) का अनुवाद करने में रुचि रखते हैं, तो आप सही जगह पर हैं! फ्रंटएंड को प्रभावी ढंग से अनुवाद करने के लिए, हम वेबलेट टूल का उपयोग करते हैं, जो उपयोग करने में बहुत सरल है और अनुवाद के दृष्टिकोण को सुविधाजनक बनाता है।
 

@@ -1,0 +1,12 @@
+question: Vad är en av konsekvenserna av dollarisering?
+answer: Förlust av självständig penningpolitik
+wrong_answers:
+  - Ökad inflation
+  - Ökning i pengar Supply
+  - Minskat förtroende hos allmänheten
+explanation: |
+  Dollarisering kan stoppa hyperinflation, men det innebär andra ekonomiska
+  utmaningar. En av konsekvenserna är förlusten av en självständig penningpolitik. Utan en egen
+  egen valuta kan ett land inte justera sin penningpolitik för att svara på interna ekonomiska
+  interna ekonomiska chocker.
+reviewed: false

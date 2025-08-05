@@ -30,25 +30,25 @@ Det finns också en dedikerad affärsversion som heter "*Threema Work*". I den h
 
 
 
-| Applikation          | E2EE 1:1       | E2EE grupper   | Anonym registrering | Öppen källkod klient-licens | Öppen källkod server-licens | Decentraliserad server   | Skapandeår        |
-| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | ------------------------ | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (valfri)    | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Telegram             | 🟡 (valfri)    | ❌              | 🟡                  | ✅                           | ❌                           | ❌                        | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                        | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                         | 🟡 (via e-post)         | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                           | 🟡(ingen katalog)       | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                         | ✅                        | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2013              |
+| Application          | E2EE 1:1       | E2EE groups    | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation  |
+| -------------------- | -------------- | -------------- | ---------------------- | -------------------------- | -------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optional) | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Telegram             | 🟡 (optional) | ❌              | 🟡                     | ✅                          | ❌                          | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                      | ✅                          | ✅                          | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                      | ✅                          | ❌                          | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                      | ✅                          | N/A                        | 🟡 (via email)      | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2014              |
+| Session              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                      | ✅                          | ❌                          | 🟡(no directory)     | 2019              |
+| Keet                 | ✅              | ✅              | ✅                      | ❌                          | N/A                        | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2013              |
 
 *E2EE = End-to-end-kryptering*
 
@@ -126,7 +126,7 @@ Du måste sedan skicka det angivna beloppet till Bitcoin Address som tillhandah�
 
 
 
-Du kommer då att få tillgång till din licensnyckel. Observera: Om du inte har angett ett e-postmeddelande Address visas denna nyckel endast här. Kom ihåg att spara webbadressen till sidan så att du kan komma åt den senare om det behövs.
+Du kommer då att få tillgång till din licensnyckel. Observera: Om du inte har angett ett e-postmeddelande Address visas nyckeln endast här. Kom ihåg att spara webbadressen till sidan så att du kan komma åt den senare om det behövs.
 
 
 

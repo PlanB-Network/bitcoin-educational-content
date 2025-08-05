@@ -1,0 +1,9 @@
+question: Milline renderdusmootor on tänapäeval kõige levinum ja toetab enamikku kaasaegseid brausereid?
+answer: Vilkumine
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Google'i poolt WebKit Fork-st välja töötatud Blink on tänapäeval domineeriv renderdusmootor, mis toetab Chrome'i, Edge'i, Opera, Brave'i, Vivaldi ja teisi.
+reviewed: false

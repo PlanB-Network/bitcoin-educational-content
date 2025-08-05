@@ -1,0 +1,9 @@
+question: Varför är det svårt att konstruera en blockkryptering från ett streamchiffer?
+answer: Eftersom stream ciphers bearbetar data kontinuerligt
+wrong_answers:
+  - Eftersom strömchiffer inte använder privata nycklar
+  - Eftersom blocklägen kräver längre nycklar
+  - Eftersom strömchiffer alltid är långsammare
+explanation: |
+  Stream ciphers är utformade för att kryptera data kontinuerligt (bit för bit eller byte för byte), vilket gör det svårt att använda dem i blockläge som kräver bearbetning i block med fast storlek.
+reviewed: false

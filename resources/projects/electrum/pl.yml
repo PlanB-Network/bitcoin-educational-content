@@ -1,0 +1,4 @@
+description: |
+  Electrum to wszechstronny Bitcoin Wallet, który priorytetowo traktuje bezpieczeństwo użytkownika i elastyczność.
+  
+  Obsługuje wiele platform, w tym mobilne, stacjonarne i interfejsy wiersza poleceń. Klucze prywatne są szyfrowane i przechowywane na urządzeniu, dzięki czemu nigdy nie zostaną ujawnione. Ponadto Electrum wykorzystuje tajną frazę, aby umożliwić odzyskanie środków i zapewnia szybki dostęp do Bitcoin Blockchain za pośrednictwem sieci serwerów. Obsługuje przechowywanie offline "Cold" w celu zapewnienia bezpieczeństwa kluczy prywatnych i oferuje funkcje Multisig do dzielenia uprawnień do wydawania monet. Electrum weryfikuje również wszystkie transakcje w historii użytkownika za pomocą uproszczonej weryfikacji płatności (SPV) i umożliwia integrację wtyczek innych firm, takich jak usługi Multisig i portfele sprzętowe.

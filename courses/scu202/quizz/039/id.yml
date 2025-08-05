@@ -1,0 +1,9 @@
+question: Setelah menginstal pembaruan OS yang penting, apa yang sering kali perlu Anda lakukan untuk menerapkan patch sepenuhnya?
+answer: Nyalakan ulang komputer
+wrong_answers:
+  - Atur ulang kata sandi
+  - Memutuskan sambungan jaringan Wi-Fi
+  - Menghapus file sementara
+explanation: |
+  Beberapa pembaruan sistem operasi, seperti pembaruan untuk kernel atau pustaka penting, hanya berlaku setelah mesin di-boot ulang.
+reviewed: false

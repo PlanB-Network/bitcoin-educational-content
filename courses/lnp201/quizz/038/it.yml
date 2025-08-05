@@ -1,9 +1,9 @@
-question: Quale ruolo svolge il timelock nel funzionamento degli HTLC?
-answer: Fornisce un lasso di tempo per completare il pagamento prima della cancellazione
+question: Quale ruolo svolge il timelock nel meccanismo degli HTLC?
+answer: Fornisce un lasso di tempo per completare il pagamento prima che venga annullato
 wrong_answers:
   - Aumenta la capacità del canale utilizzato
   - Aggiunge un livello di privacy alla transazione
-  - Applica tariffe aggiuntive per ogni nodo intermediario
+  - Applica fee aggiuntive per ogni nodo intermediario
 explanation: |
-  Il timelock impone un lasso di tempo per completare un HTLC, il che permette il recupero dei fondi se la transazione non ha successo, cancellando il pagamento dopo questo periodo.
-reviewed: false
+  Il timelock impone un lasso di tempo per completare un HTLC, il che permette il recupero dei fondi se la transazione non ha successo, annullando il pagamento dopo questo periodo.
+reviewed: true

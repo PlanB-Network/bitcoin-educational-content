@@ -56,7 +56,7 @@ Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 The Lightning Network is a network of payment channels built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It allows the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without having to record each transaction individually on the blockchain. Thus, the Lightning Network seeks to improve Bitcoin's scalability and make it usable for low-value payments.
@@ -87,7 +87,7 @@ Let's take an example of a Lightning transaction. If Alice wants to send 40,000 
 
 The **channel capacity**, at 130,000 satoshis, remains constant. What changes is the allocation of funds. This system does not allow sending more funds than one possesses. For example, if Bob wanted to send back 80,000 satoshis to Alice, he could not, because he only has 70,000.
 
-Another way to imagine the allocation of funds is to think of a **slider** that indicates where the funds are in the channel. Initially, with 100,000 satoshis for Alice and 30,000 for Bob, the slider is logically on Alice's side. After the transaction of 40,000 satoshis, the slider will move slightly towards Bob's side, who now has 70,000 satoshis.
+Another way to imagine the allocation of funds is to picture a **cursor** that indicates where the funds are within the channel. Initially, with 100,000 satoshis for Alice and 30,000 for Bob, the cursor is more on Bob’s side, since Alice has far more funds. After the transaction of 40,000 satoshis, the cursor will shift slightly towards Alice, who now holds 60,000 satoshis.
 
 ![LNP201](assets/en/04.webp)
 

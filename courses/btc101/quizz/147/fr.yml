@@ -5,5 +5,5 @@ wrong_answers:
   - La capacité de transaction du réseau diminuerait.
   - La récompense de bloc pour les mineurs augmenterait.
 explanation: |
-  Si les blocs étaient 100 fois plus lourds, faire fonctionner un nœud Bitcoin nécessiterait un disque dur de 50TB, une bande passante de plus de 500GB/mois, et un matériel capable de valider des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exploitation d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus.
+  Si les blocs étaient 100 fois plus lourds, faire fonctionner un nœud Bitcoin nécessiterait un disque dur de 70TB, une bande passante de plus de 500GB/mois, et un matériel capable de valider des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exploitation d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus.
 reviewed: true

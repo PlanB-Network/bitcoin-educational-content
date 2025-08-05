@@ -1,0 +1,9 @@
+question: Vad är enligt Bastiat följden av att staten i alltför hög grad ingriper i individens ansvar?
+answer: Det förstör ansvarstagande genom att skydda individer från konsekvenserna av deras handlingar
+wrong_answers:
+  - Det individuella ansvaret stärks genom att fler regler fastställs
+  - Den uppmuntrar medborgarna att aktivt delta i det offentliga livet
+  - Det garanterar en mer rättvis social rättvisa
+explanation: |
+  Bastiat anser att ett alltför stort statligt ingripande fråntar individerna möjligheten att fullt ut ta konsekvenserna av sina handlingar, vilket försvagar deras ansvarskänsla.
+reviewed: false

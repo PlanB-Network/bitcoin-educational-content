@@ -1,0 +1,9 @@
+question: Která aplikace s otevřeným zdrojovým kódem se doporučuje pro skenování potravinářských výrobků s databází pro spolupráci?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts je bezplatný, komunitní projekt, který je transparentní, pokud jde o jeho data, zatímco Yuka je založena na neprůhledném modelu bez otevřeného zdrojového kódu.
+reviewed: false

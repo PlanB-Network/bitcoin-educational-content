@@ -1,0 +1,9 @@
+question: Hvilket grafisk verktøy i Ubuntu gjør det enkelt å administrere brannmurregler?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptisk
+explanation: |
+  GUFW er en grafisk Interface for UFW-brannmuren, som gjør det mulig å aktivere, deaktivere og konfigurere regler uten å gå via terminalen.
+reviewed: false

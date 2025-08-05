@@ -1,0 +1,9 @@
+question: Bij welke berichtendienst kun je je volledig anoniem registreren, zonder telefoonnummer of permanente login?
+answer: SimpelX chatten
+wrong_answers:
+  - Signaal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat maakt korte metten met het idee van een unieke identificatie: contacten worden toegevoegd via tijdelijke links of QR-codes en er zijn geen persoonlijke gegevens nodig.
+reviewed: false

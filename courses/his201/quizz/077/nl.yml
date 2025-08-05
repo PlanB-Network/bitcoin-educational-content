@@ -1,0 +1,9 @@
+question: Op welke datum werd de Bitcoin-ontwikkelings-mailinglijst aangemaakt?
+answer: 12 juni 2011
+wrong_answers:
+  - 13 januari 2011
+  - 7 maart 2011
+  - 19 september 2011
+explanation: |
+  Het werd gemaakt door ontwikkelaar Jeff Garzik en maakte formele discussies mogelijk over veranderingen aan Bitcoin.
+reviewed: true

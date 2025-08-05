@@ -1,0 +1,9 @@
+question: Qui a dit « Le mal n'est rien » ?
+answer: Socrate.
+wrong_answers:
+- Leibnitz.
+- Spinoza.
+- Descartes.
+explanation: |
+  'Le mal n'est rien' est une idée attribuée à Socrate et reprise dans la tradition philosophique. Pour Socrate, le mal vient de l'ignorance ; personne ne fait le mal volontairement s'il connaît vraiment le bien.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat was de hoogste prijs die Bitcoin bereikte in juni 2011?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Op 8 juni bereikte de prijs van Bitcoin een historisch hoogtepunt van $32 op Mt. Gox. Daarna daalde de prijs echter snel.
+reviewed: true

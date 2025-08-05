@@ -1,0 +1,9 @@
+question: Công cụ kết xuất nào được tạo ra từ Fork của KHTML để trang bị cho Safari?
+answer: WebKit
+wrong_answers:
+  - Cây đinh ba
+  - Thằn lằn
+  - Chớp mắt
+explanation: |
+  WebKit là Fork của KHTML, được Apple lựa chọn cho Safari từ năm 2003 trở đi và sau đó được nhiều trình duyệt áp dụng.
+reviewed: false

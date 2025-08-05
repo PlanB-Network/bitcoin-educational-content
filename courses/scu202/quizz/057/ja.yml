@@ -1,0 +1,9 @@
+question: 1995年にJavaScriptを導入したブラウザは？
+answer: ネットスケープ・ナビゲーター
+wrong_answers:
+  - インターネットエクスプローラ
+  - ファイアフォックス
+  - サファリ
+explanation: |
+  Netscape Navigatorは、1995年にBrendan Eichによって開発されたJavaScript言語を統合し、ウェブページ上でダイナミックなインタラクティブ性を実現しました。
+reviewed: false

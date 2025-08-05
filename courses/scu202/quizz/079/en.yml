@@ -1,0 +1,9 @@
+question: What is the main risk of an un-updated smartphone?
+answer: It becomes vulnerable to known vulnerabilities
+wrong_answers:
+  - It uses more battery power
+  - He loses his Wi-Fi connection
+  - It becomes more vulnerable to phishing
+explanation: |
+  An unupdated smartphone is exposed to publicly corrected vulnerabilities that can easily be exploited by attackers.
+reviewed: false

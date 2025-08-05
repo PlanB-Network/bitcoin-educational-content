@@ -1,0 +1,13 @@
+question: Waarom werd goud het standaardmedium van Exchange?
+answer: Vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid.
+wrong_answers:
+  - Vanwege de overvloed, duurzaamheid en ondeelbaarheid.
+  - Vanwege de zeldzaamheid, bederfelijkheid en deelbaarheid.
+  - Vanwege de overvloed, bederfelijkheid en ondeelbaarheid.
+explanation: |
+  Goud werd het standaardmedium van Exchange vanwege zijn
+  zeldzaamheid, duurzaamheid en deelbaarheid: de zeldzaamheid voorkwam
+  devaluatie door productie; de duurzaamheid
+  zorgde ervoor dat het na verloop van tijd niet zou eroderen, en de deelbaarheid
+  maakte het gebruik in transacties van verschillende grootte mogelijk.
+reviewed: true

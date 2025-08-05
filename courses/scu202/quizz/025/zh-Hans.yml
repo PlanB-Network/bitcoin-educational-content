@@ -1,0 +1,9 @@
+question: Canonical 开发了什么软件包格式来隔离应用程序及其依赖关系？
+answer: 卡扣
+wrong_answers:
+  - 应用程序图像
+  - 波尔图
+  - 转速
+explanation: |
+  Snap 格式由 Canonical 开发，可安装独立软件，与系统隔离，独立更新。
+reviewed: false

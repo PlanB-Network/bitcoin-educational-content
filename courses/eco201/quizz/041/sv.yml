@@ -1,0 +1,12 @@
+question: Vilken roll spelar banksektorn när det gäller att utlösa en lågkonjunktur enligt den österrikiska teorin om konjunkturcykeln?
+answer: Banksektorn utlöser en recession när den beslutar sig för att minska sin risk och därför minskar kreditflödet.
+wrong_answers:
+  - Banksektorn utlöser en recession när den beslutar sig för att öka sin risk och därmed ökar kreditflödet.
+  - Banksektorn utlöser en recession när den beslutar sig för att bibehålla sin risk och därför bibehåller kreditflödet.
+  - Banksektorn har ingen roll när det gäller att utlösa en recession enligt den österrikiska teorin om konjunkturcykeln.
+explanation: |
+  Enligt den österrikiska teorin om konjunkturcykeln utlöser banksektorn en lågkonjunktur
+  en recession när den beslutar sig för att minska sin risk och därför minskar
+  kreditflödet. Detta leder till många konkurser, kreditåtstramningar, minskad
+  tillgänglig köpkraft och finansiella härdsmältor.
+reviewed: true

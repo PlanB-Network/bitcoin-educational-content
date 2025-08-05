@@ -1,0 +1,9 @@
+question: 哪个浏览器在 1995 年引入了 JavaScript？
+answer: 网景导航仪
+wrong_answers:
+  - Internet Explorer
+  - 火狐浏览器
+  - 野生动物园
+explanation: |
+  Netscape Navigator 集成了 Brendan Eich 于 1995 年开发的 JavaScript 语言，可在网页上实现动态交互。
+reviewed: false

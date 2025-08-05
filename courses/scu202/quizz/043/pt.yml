@@ -1,0 +1,9 @@
+question: Qual é a vantagem de verificar uma assinatura PGP num ficheiro Hash ou num manifesto de software?
+answer: Garante que o ficheiro provém da fonte oficial
+wrong_answers:
+  - Garante a instalação de software sem erros
+  - Garante actualizações automáticas do programa
+  - Garante que o ficheiro está completo e não foi modificado
+explanation: |
+  A assinatura PGP, validada utilizando a chave pública do programador, garante que o ficheiro autenticado provém da fonte original.
+reviewed: false

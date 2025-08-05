@@ -1,0 +1,9 @@
+question: 哪些本地資料可讓廣告商追蹤您在多個網站的瀏覽習慣？
+answer: 第三方 cookie
+wrong_answers:
+  - JavaScript 程式碼
+  - 當地歷史
+  - SSL 憑證
+explanation: |
+  第三方 Cookie 由外部廣告公司放置，用於追蹤使用者在不同網站的活動，並建立廣告檔案。
+reviewed: false

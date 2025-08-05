@@ -1,0 +1,9 @@
+question: Wat zijn de voordelen van het gebruik van Passkeys als alternatief voor traditionele wachtwoorden?
+answer: Ze bieden versleutelde willekeurige sleutels gecombineerd met een lokale factor. De sleutels worden gehost door een provider maar blijven buiten hun bereik.
+wrong_answers:
+  - Ze zijn gemakkelijker te onthouden dan traditionele wachtwoorden.
+  - Ze vereisen geen extra verificatiefactoren.
+  - Ze kunnen op alle websites worden gebruikt zonder updates.
+explanation: |
+  Passkeys bieden versleutelde willekeurige sleutels gecombineerd met een lokale factor (biometrie of PIN) die een provider host. De sleutels blijven echter buiten hun bereik. Deze aanpak maakt wachtwoorden overbodig en biedt dus een hoog beveiligingsniveau zonder de beperkingen die traditionele wachtwoorden met zich meebrengen.
+reviewed: true

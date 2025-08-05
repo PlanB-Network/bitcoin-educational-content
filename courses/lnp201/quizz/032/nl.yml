@@ -1,0 +1,9 @@
+question: Wat is de rol van routeringsvergoedingen in de Lightning Network?
+answer: Intermediaire knooppunten stimuleren om hun liquiditeit beschikbaar te stellen voor de overdracht van betalingen
+wrong_answers:
+  - Het aantal transacties op het netwerk beperken
+  - Ervoor zorgen dat elk kanaal over voldoende middelen beschikt
+  - Om automatisch het kortste pad te berekenen
+explanation: |
+  Routing fees worden gebruikt om intermediaire nodes te compenseren die betalingen doorgeven door hun liquiditeit aan te bieden om de overdracht van fondsen doorheen het netwerk mogelijk te maken.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč byste měli vždy kontrolovat integritu a pravost softwaru staženého z internetu?
+answer: Jak se vyhnout instalaci škodlivého softwaru
+wrong_answers:
+  - Zlepšení výkonu systému
+  - Úspora šířky pásma
+  - Urychlení instalace
+explanation: |
+  Ověřování integrity a pravosti pomáhá zabránit instalaci poškozeného, infikovaného nebo nelegitimního softwaru.
+reviewed: false

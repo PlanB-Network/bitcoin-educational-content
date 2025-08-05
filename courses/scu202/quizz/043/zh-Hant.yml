@@ -1,0 +1,9 @@
+question: 在 Hash 檔案或軟體清單上驗證 PGP 簽署有什麼好處？
+answer: 它保證檔案來自官方來源
+wrong_answers:
+  - 保證軟體安裝無錯誤
+  - 保證程式自動更新
+  - 它保證檔案完整且未被修改
+explanation: |
+  PGP 簽署使用開發人員的公開金鑰進行驗證，可確保經驗證的檔案來自原始來源。
+reviewed: false

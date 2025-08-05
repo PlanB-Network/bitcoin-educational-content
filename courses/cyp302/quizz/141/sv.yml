@@ -1,0 +1,9 @@
+question: Varför anses faktorisering av en produkt av två mycket stora primtal vara ett svårt problem?
+answer: Eftersom det kräver en oöverkomlig mängd beräkningstid även för superdatorer.
+wrong_answers:
+  - Eftersom det krävs en publik nyckel för varje faktor.
+  - Eftersom det bara handlar om grundläggande beräkningsoperationer.
+  - Eftersom det beror på multiplikation och inte på division.
+explanation: |
+  Att faktorisera ett stort tal, produkten av två stora primtal, kräver en beräkningskraft som överstiger kapaciteten hos dagens datorer, vilket gör uppgiften praktiskt ogenomförbar.
+reviewed: false

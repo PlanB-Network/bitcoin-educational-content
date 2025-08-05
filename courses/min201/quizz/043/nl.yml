@@ -1,0 +1,14 @@
+question: Wat is de betekenis van het gezegde Niet je Hashrate, niet je beloning in de context van Bitcoin Mining?
+answer: Als je de Hashrate niet controleert, controleer je de Mining beloningen niet.
+wrong_answers:
+  - Als je geen hoge Hashrate hebt, krijg je geen beloningen.
+  - Als je geen Bitcoin bezit, krijg je geen beloningen.
+  - Als je geen Mining machine hebt, krijg je geen beloningen.
+explanation: |
+  Het adagium Niet je Hashrate, niet je beloning lijkt op
+  met het bekende adagium in de wereld van cryptocurrencies,
+  Niet je sleutels, niet je Bitcoins. Het betekent dat als je
+  geen controle hebt over de Hashrate, je ook geen controle hebt over de Mining
+  beloningen. Dit komt omdat de beloningen van Mining
+  recht evenredig zijn met de Hashrate.
+reviewed: true

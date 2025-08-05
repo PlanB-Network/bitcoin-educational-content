@@ -1,0 +1,9 @@
+question: Welke rol speelt een Schema in RGB?
+answer: Contract variabelen, regels en Business Logic definiëren
+wrong_answers:
+  - Tussen deelnemers uitgewisselde winkelzendingen
+  - Pedersen-verbintenissen valideren op Bitcoin transacties
+  - Seal definities maken voor elke UTXO
+explanation: |
+  De Schema structureert de toestand van de Contract en bepaalt de toegestane overgangen en validatievoorwaarden.
+reviewed: false

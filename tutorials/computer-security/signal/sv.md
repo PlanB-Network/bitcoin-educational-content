@@ -6,7 +6,7 @@ description: Uttryck dig fritt
 
 
 
-Signal är en krypterad meddelandeapplikation som är utformad för att erbjuda god sekretess som standard. Varje meddelande, samtal och fil skyddas av Signal-protokollet, som är erkänt som ett av de mest robusta meddelandeprotokollen. Det återanvänds av många andra applikationer, inklusive WathsApp, Facebook Messenger, Skype och Google Messages för RCS-kommunikation.
+Signal är en krypterad meddelandeapplikation som är utformad för att erbjuda god integritet som standard. Varje meddelande, samtal och fil skyddas av Signal-protokollet, som är erkänt som ett av de mest robusta meddelandeprotokollen. Det återanvänds av många andra applikationer, inklusive WathsApp, Facebook Messenger, Skype och Google Messages för RCS-kommunikation.
 
 
 
@@ -18,33 +18,33 @@ Signal lanserades 2014 av Moxie Marlinspike (pseudonym) och utvecklas sedan 2018
 
 
 
-Jämfört med WhatsApp utmärker sig Signal genom sin transparens: applikationens kod, både på klient- och serversidan, är helt öppen källkod. Detta gör det möjligt för vem som helst att granska den, och i synnerhet att kontrollera att kryptering tillämpas som utlovat.
+Jämfört med WhatsApp utmärker sig Signal genom sin transparens: applikationens kod, både på klient- och serversidan, är helt öppen källkod. Detta gör det möjligt för vem som helst att granska den, och i synnerhet att kontrollera att kryptering tillämpas som annonserat.
 
 
 
-Signal förlitar sig dock på användningen av ett telefonnummer, vilket är dess största svaghet när det gäller anonymitet jämfört med andra lösningar. Trots detta är applikationen enligt min mening en av de mest tillförlitliga när det gäller säkerhet och sekretess, tack vare sin helt öppna arkitektur och ett allmänt antaget krypteringsprotokoll, och därför testad och granskad, till skillnad från andra mer marginella applikationer.
+Signal förlitar sig dock på användningen av ett telefonnummer, vilket är dess största svaghet när det gäller anonymitet jämfört med andra lösningar. Trots detta är applikationen enligt min mening en av de mest tillförlitliga när det gäller säkerhet och integritet, tack vare sin helt öppna arkitektur och ett allmänt antaget krypteringsprotokoll, och därför testad och granskad, till skillnad från andra mer marginella applikationer.
 
 
 
-| Applikation          | E2EE 1:1       | E2EE grupper   | Anonym registrering | Öppen källkod klient-licens | Öppen källkod server-licens | Decentraliserad server   | Skapandeår        |
-| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | ------------------------ | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (valfri)    | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Telegram             | 🟡 (valfri)    | ❌              | 🟡                  | ✅                           | ❌                           | ❌                        | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                        | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                         | 🟡 (via e-post)         | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                           | 🟡(ingen katalog)       | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                         | ✅                        | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2013              |
+| Application          | E2EE 1:1       | E2EE groups    | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation  |
+| -------------------- | -------------- | -------------- | ---------------------- | -------------------------- | -------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optional) | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Telegram             | 🟡 (optional) | ❌              | 🟡                     | ✅                          | ❌                          | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                      | ✅                          | ✅                          | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                      | ✅                          | ❌                          | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                      | ✅                          | N/A                        | 🟡 (via email)      | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2014              |
+| Session              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                      | ✅                          | ❌                          | 🟡(no directory)     | 2019              |
+| Keet                 | ✅              | ✅              | ✅                      | ❌                          | N/A                        | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2013              |
 
 *E2EE = End-to-end-kryptering*
 

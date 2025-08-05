@@ -1,0 +1,9 @@
+question: Hva er en Linux-distribusjon?
+answer: Et komplett operativsystem bygget rundt Linux-kjernen
+wrong_answers:
+  - En pakkebehandler
+  - Et Linux-skrivebordsmiljø
+  - Et skript for automatisk installasjon av Linux-operativsystemet
+explanation: |
+  En Linux-distribusjon integrerer kjernen, systemverktøyene, programvaren, bootloaderen og pakkehåndteringen for å gi et system som er klart til bruk.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name : Blitz Wallet
+name: Blitz Wallet
 description: Le portefeuille Bitcoin le plus simple.
 ---
 ![cover](assets/cover.webp)

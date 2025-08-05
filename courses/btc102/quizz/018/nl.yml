@@ -1,0 +1,9 @@
+question: In welk jaar werd het Genesis blok van Bitcoin gemaakt?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Het Genesis blok, het eerste blok van de Blockchain, werd ontgonnen in januari 2009.
+reviewed: false

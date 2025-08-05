@@ -1,0 +1,11 @@
+question: Det finns ett historiskt exempel på en daglig inflationstakt motsvarande 100%; var och när inträffade det?
+answer: I Zimbabwe, 2007.
+wrong_answers:
+  - I Ungern, 1945.
+  - I Kina, 1940.
+  - Detta är faktiskt ett orealistiskt fall som inte kan inträffa.
+explanation: |
+  En inflationstakt på 100% per dag är ett realistiskt scenario som
+  zimbabwe 2007, där penningvärdet i stort sett fördubblades
+  fördubblades varje 24 timmar.
+reviewed: true

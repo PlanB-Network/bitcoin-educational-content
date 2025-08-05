@@ -1,0 +1,9 @@
+question: Quando si automatizzano i backup, quali precauzioni essenziali devono essere prese regolarmente?
+answer: Test di restauro
+wrong_answers:
+  - Cambiare il provider di servizi Internet
+  - Disattivare i backup delle vacanze
+  - Verifica della crittografia
+explanation: |
+  È importante ripristinare regolarmente un backup per garantire che i file non siano danneggiati o inaccessibili in caso di necessità.
+reviewed: false

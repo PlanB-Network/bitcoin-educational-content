@@ -183,7 +183,6 @@ A especulação cerca do uso futuro do espaço de blocos, mas é geralmente acei
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 O papel dos mineradores na rede Bitcoin foi um tópico de debate intenso durante a guerra dos blocos. Embora sejam essenciais para a segurança e a funcionalidade da rede, os mineradores não necessariamente detêm o poder supremo no ecossistema Bitcoin. O equilíbrio entre os mineradores, os nós e os usuários finais garante a integridade e a distribuição da rede.
 
@@ -224,7 +223,6 @@ Para recapitular, os mineradores fortalecem a rede Bitcoin contra a censura usan
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Preço e Rentabilidade
 
@@ -289,13 +287,6 @@ Diante de campanhas como as da Greenpeace e dos números frequentemente enganoso
 
 Em conclusão, apesar do risco regulatório e da possibilidade de uma proibição da mineração na Europa, a arma mais poderosa continua sendo a educação e a informação. A compreensão clara e precisa da mineração, seu funcionamento e seu impacto pode ajudar a desmistificar a indústria e combater a desinformação, oferecendo assim uma melhor resistência às regulamentações potencialmente prejudiciais. A iniciativa de formar e informar as pessoas sobre a mineração, como faz esta discussão, é um passo na direção certa para garantir a sustentabilidade e o crescimento da mineração na Europa e em todo o mundo. Os esforços contínuos para educar e informar são essenciais para assegurar um futuro seguro e próspero para a indústria de mineração de Bitcoin.
 
-## Entrevista com um profissional da indústria de mineração
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Bastidores da mineração industrial - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Mineração doméstica e reutilização de calor
 

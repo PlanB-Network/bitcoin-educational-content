@@ -1,12 +1,12 @@
 ---
 name: Threema
-description: Sigurno, anonimno instant poručivanje
+description: Sigurno, anonimno dopisivanje u realnom vremenu
 ---
 ![cover](assets/cover.webp)
 
 
 
-Osnovan 2012. godine u Švajcarskoj, Threema je aplikacija za instant poruke dizajnirana da garantuje privatnost i sigurnost. Za razliku od WhatsApp-a, Telegram-a ili Signal-a, Threema ne zahteva broj telefona ili e-mail Address za kreiranje naloga. Svaki korisnik ima jedinstveni identifikator, omogućavajući potpuno anonimnu registraciju.
+Osnovan 2012. godine u Švajcarskoj, Threema je aplikacija za instant poruke dizajnirana da garantuje privatnost i sigurnost. Za razliku od WhatsApp-a, Telegram-a ili Signal-a, Threema ne zahteva broj telefona ili e-mail adresu za kreiranje naloga. Svaki korisnik ima jedinstveni identifikator, omogućavajući potpuno anonimnu registraciju.
 
 
 
@@ -30,31 +30,32 @@ Postoji i posebna poslovna verzija pod nazivom "*Threema Work*". U ovom vodiču,
 
 
 
-| Aplikacija           | E2EE 1:1       | E2EE grupe     | Anonimna registracija | Licenca klijenta open-source | Licenca servera open-source | Decentralizovani server      | Godina kreiranja  |
-| -------------------- | -------------- | -------------- | --------------------- | ---------------------------- | --------------------------- | ---------------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2009              |
-| WeChat               | ❌              | ❌              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcionalno) | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Telegram             | 🟡 (opcionalno) | ❌              | 🟡                    | ✅                            | ❌                           | ❌                            | 2013              |
-| LINE                 | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Signal               | ✅              | ✅              | ❌                     | ✅                            | ✅                           | ❌                            | 2014              |
-| Threema              | ✅              | ✅              | ✅                     | ✅                            | ❌                           | ❌                            | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                     | ✅                            | N/A                         | 🟡 (preko email-a)          | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2014              |
-| Session              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2021              |
-| Olvid                | ✅              | ✅              | ✅                     | ✅                            | ❌                           | 🟡(nema direktorijuma)      | 2019              |
-| Keet                 | ✅              | ✅              | ✅                     | ❌                            | N/A                         | ✅                            | 2022              |
-| Jami                 | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2005              |
-| Briar                | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2018              |
-| Tox                  | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2013              |
+| Aplikacija          | E2EE 1:1       | E2EE grupe   | Anonimna prijava | Licenca otvorenog koda klijenta | Licenca otvorenog koda servera | Decentralizovan server | Godina kreiranja |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opciono) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opciono) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| **Threema**          | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2012**              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (preko emaila)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | ✅          | ✅          | ✅               | ✅                      | ❌                       |🟡(nema direktorijuma)                | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
 
 *E2EE = Šifrovanje od kraja do kraja*
 
 
 
-## Instalirajte aplikaciju Threema
+## Instalirajte Threema aplikaciju
 
 
 
@@ -86,7 +87,7 @@ Jednom kada instalirate aplikaciju, ako ste išli direktno preko prodavnice apli
 
 
 
-[Idite na "*Threema Shop*"(https://shop.threema.ch/) i kliknite na dugme "*Buy Threema for Android*".
+[Idite na "*Threema Shop*"](https://shop.threema.ch/) i kliknite na dugme "*Buy Threema for Android*".
 
 
 
@@ -94,7 +95,7 @@ Jednom kada instalirate aplikaciju, ako ste išli direktno preko prodavnice apli
 
 
 
-Odaberite broj licenci koje želite da kupite (samo jednu ako je samo za vas), izaberite valutu i odaberite način isporuke licence. Možete izabrati da primite licencu putem e-pošte ili direktno na sajtu ako želite da ostanete anonimni. Zatim kliknite na "*Nastavi na plaćanje*".
+Odaberite broj licenci koje želite da kupite (samo jednu ako je samo za vas), izaberite valutu i odaberite način isporuke licence. Možete izabrati da primite licencu putem e-pošte ili direktno na sajtu ako želite da ostanete anonimni. Zatim kliknite na "*Proceed to payment (prevod: Nastavi na plaćanje)*".
 
 
 
@@ -110,11 +111,11 @@ Izaberite svoj način plaćanja. U mom slučaju, platiću u bitkoinima, što vam
 
 
 
-Ako vam nije potreban Invoice, kliknite na "*Dalje*" ponovo bez unosa bilo kakvih ličnih podataka.
+Ako vam nije potrebna faktura, kliknite na "*Next*" ponovo bez unosa bilo kakvih ličnih podataka.
 
 
 
-Zatim potvrdite kupovinu klikom na "*Potvrdi plaćanje*".
+Zatim potvrdite kupovinu klikom na "*Confirm payment (Potvrdi plaćanje)*".
 
 
 
@@ -122,11 +123,11 @@ Zatim potvrdite kupovinu klikom na "*Potvrdi plaćanje*".
 
 
 
-Zatim ćete morati poslati naznačeni iznos na dati Bitcoin Address (nažalost, Lightning još nije podržan). Kada transakcija bude potvrđena na Blockchain, kliknite na "*Close*" pored Invoice.
+Zatim ćete morati poslati naznačeni iznos na datu Bitcoin adresu (nažalost, Lightning još nije podržan). Kada transakcija bude potvrđena na Blockchain-u, kliknite na "*Close*" pored fakture.
 
 
 
-Zatim ćete imati pristup svom licencnom ključu. Napomena: ako niste uneli e-mail Address, ovaj ključ će biti prikazan samo ovde. Zapamtite da sačuvate URL stranice kako biste joj kasnije mogli pristupiti ako bude potrebno.
+Zatim ćete imati pristup svom licencnom ključu. Napomena: ako niste uneli e-mail, ovaj ključ će biti prikazan samo ovde. Zapamtite da sačuvate URL stranice kako biste joj kasnije mogli pristupiti ako bude potrebno.
 
 
 
@@ -154,7 +155,7 @@ Zatim kliknite na dugme "*Set up now*".
 
 
 
-Pomeri prst preko ekrana do generate izvora entropije, potrebnog za kreiranje tvog "*Threema ID*".
+Pomerajte prst po ekranu kako biste generisali izvor entropije, neophodan za kreiranje vašeg "*Threema ID-a*".
 
 
 
@@ -186,7 +187,7 @@ Zatim izaberite korisničko ime, koje može biti vaše pravo ime ili pseudonim.
 
 
 
-Zatim možete povezati svoj Threema ID sa svojim brojem telefona. Ovo vam olakšava pretragu kroz kontakte, ali ako koristite Threema, to je takođe da biste sačuvali svoju anonimnost: stoga je najbolje da ga ne povezujete. Kliknite na "*Dalje*".
+Zatim možete povezati svoj Threema ID sa svojim brojem telefona. Ovo vam olakšava pretragu kroz kontakte, ali ako koristite Threema, to je takođe da biste sačuvali svoju anonimnost: stoga je najbolje da ga ne povezujete. Kliknite na "*Next*".
 
 
 
@@ -222,7 +223,7 @@ Prvo pristupite podešavanjima klikom na tri male tačke u gornjem desnom uglu, 
 
 
 
-Na kartici "*Privatnost*", pronaći ćete nekoliko opcija koje možete prilagoditi svojim potrebama:
+Na kartici "*Privacy*", pronaći ćete nekoliko opcija koje možete prilagoditi svojim potrebama:
 
 
 
@@ -258,7 +259,7 @@ Slobodno istražite ostale delove podešavanja kako biste prilagodili aplikaciju
 
 
 
-Pre nego što počnete da razmenjujete poruke, važno je da isplanirate način oporavka svog naloga, posebno ako promenite ili izgubite telefon. Da biste to uradili, kliknite na tri tačke u gornjem desnom uglu Interface, zatim pristupite meniju "*Backups*".
+Pre nego što počnete da razmenjujete poruke, važno je da isplanirate način oporavka svog naloga, posebno ako promenite ili izgubite telefon. Da biste to uradili, kliknite na tri tačke u gornjem desnom uglu interfesja, zatim pristupite meniju "*Backups*".
 
 
 
@@ -276,7 +277,7 @@ Ovde ćete pronaći dve opcije za pravljenje rezervne kopije vaših podataka:
 
 
 
-"Threema Safe* čuva sve informacije o vašem nalogu, osim vaših razgovora, na Threema serverima. Ovi podaci su šifrovani lozinkom koju ste odabrali prilikom kreiranja naloga, osiguravajući da Threema nema pristup njima. Bekapi se prave automatski i redovno.
+"*Threema Safe*" čuva sve informacije o vašem nalogu, osim vaših razgovora, na Threema serverima. Ovi podaci su šifrovani lozinkom koju ste odabrali prilikom kreiranja naloga, osiguravajući da Threema nema pristup njima. Bekapi se prave automatski i redovno.
 
 
 
@@ -304,7 +305,7 @@ Pošto je ova rezervna kopija samo lokalna, potrebno je redovno kopirati je na e
 
 
 
-Imajte na umu: "*Backup podataka*" funkcioniše samo ako koristite isti operativni sistem. Nećete ga moći koristiti, na primer, za migraciju sa Samsunga na iPhone.
+Imajte na umu: "*Data Backup*" funkcioniše samo ako koristite isti operativni sistem. Nećete ga moći koristiti, na primer, za migraciju sa Samsunga na iPhone.
 
 
 
@@ -312,7 +313,7 @@ Imajte na umu: "*Backup podataka*" funkcioniše samo ako koristite isti operativ
 
 
 
-U gornjem levom uglu Interface, kliknite na svoju profilnu sliku, a zatim izaberite "*Moj profil*".
+U gornjem levom uglu interfejsa, kliknite na svoju profilnu sliku, a zatim izaberite "*My Profile*".
 
 
 
@@ -320,7 +321,7 @@ U gornjem levom uglu Interface, kliknite na svoju profilnu sliku, a zatim izaber
 
 
 
-Ovde možete prilagoditi svoj profil: dodajte fotografiju, izaberite ko može da je vidi ili pogledajte svoj Threema prijavljivanje.
+Ovde možete prilagoditi svoj profil: dodajte fotografiju, izaberite ko može da je vidi ili pogledajte svoje Threema prijavljivanje.
 
 
 
@@ -328,7 +329,7 @@ Ovde možete prilagoditi svoj profil: dodajte fotografiju, izaberite ko može da
 
 
 
-## Sinhronizujte softver za PC
+## Sinhronizujte softver sa PC-ijem
 
 
 
@@ -340,7 +341,7 @@ Ako želite da pristupite svojim razgovorima na računaru, možete da sinhronizu
 
 
 
-Na vašem telefonu kliknite na tri tačke u gornjem desnom uglu, zatim otvorite meni "*Threema 2.0 za Desktop*".
+Na vašem telefonu kliknite na tri tačke u gornjem desnom uglu, zatim otvorite meni "*Threema 2.0 for Desktop*".
 
 
 
@@ -424,7 +425,7 @@ Pošalji prvu poruku svom dopisniku.
 
 
 
-Kada vaš dopisnik odgovori, veza će biti uspostavljena i moći ćete da vidite njegovo ili njeno ime i profilnu fotografiju. Zatim možete Exchange poruke, multimedijalne datoteke, pa čak i obavljati pozive.
+Kada vaš dopisnik odgovori, veza će biti uspostavljena i moći ćete da vidite njegovo ili njeno ime i profilnu fotografiju. Zatim možete razmenjivati poruke, multimedijalne datoteke, pa čak i obavljati pozive.
 
 
 
@@ -432,7 +433,7 @@ Kada vaš dopisnik odgovori, veza će biti uspostavljena i moći ćete da vidite
 
 
 
-Čestitamo, sada ste u toku sa korišćenjem Threema poruka, odlične alternative za WathsApp! Ako ste smatrali da je ovaj vodič koristan, bio bih veoma zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
+Čestitamo, sada ste u toku sa korišćenjem Threema poruka, odlične alternative za WathsApp! Ako ste smatrali da je ovaj vodič koristan, bio bih veoma zahvalan ako biste kliknuli na zeleni palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
 
 
 

@@ -30,7 +30,7 @@ Tässä oppaassa keskitymme pelkästään pelkän kellosalkun luomiseen. Jos hal
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Blockstream Green -sovelluksen asentaminen ja määrittäminen
 
@@ -122,4 +122,5 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan oppaaseen, joka koskee Blockstream Green -sovellusta kuuman lompakon perustamiseksi:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

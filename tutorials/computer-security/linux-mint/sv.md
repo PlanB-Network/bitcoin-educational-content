@@ -22,7 +22,7 @@ En dator infekterad med skadlig kod kan läsa dina Bitcoin-adresser och avslöja
 ## Vad är lösningen?
 
 
-Jag uppmuntrar de flesta Bitcoin-användare att använda en dedikerad dator utan skadlig kod (med internetåtkomst) för att göra Bitcoin-transaktioner. Jag föreslår att folk använder ett operativsystem med öppen källkod som Linux Mint, men använd Windows eller Mac om du måste - det är bättre än att använda en vanlig, välanvänd dator som alltid har skadlig kod gömd i den.
+Jag uppmuntrar de flesta Bitcoinanvändare att använda en dedikerad dator utan skadlig kod (med internetåtkomst) för att göra Bitcoin-transaktioner. Jag föreslår att folk använder ett operativsystem med öppen källkod som Linux Mint, men använd Windows eller Mac om du måste - det är bättre än att använda en vanlig, välanvänd dator som alltid har skadlig kod gömd i den.
 
 
 Ett hinder som folk stöter på är att installera ett nytt operativsystem på sådana datorer. Den här guiden är till för att hjälpa till med det.
@@ -198,7 +198,7 @@ När du kommer till följande skärm väljer du "OEM-installation (för tillverk
 ![image](assets/10.webp)
 
 
-Du kommer att ledas genom en grafisk guide som ställer ett antal frågor som bör vara enkla att besvara. En fråga gäller språkinställningar och en annan gäller anslutning till och lösenord för ditt hemnätverk. Om du uppmanas att installera ytterligare programvara, avvisa den. När du kommer till frågan om installationstyp kanske en del tvekar - du måste välja "Radera disken och installera Linux Mint". Kryptera inte heller enheten och välj inte LVM.
+Du kommer att ledas genom en grafisk guide som ställer ett antal frågor som bör vara enkla att besvara. En fråga gäller språkinställningar och en annan gäller anslutning till och lösenord för ditt hemmanätverk. Om du uppmanas att installera ytterligare programvara, avvisa den. När du kommer till frågan om installationstyp kanske en del tvekar - du måste välja "Radera disken och installera Linux Mint". Kryptera inte heller enheten och välj inte LVM.
 
 
 Så småningom kommer du till skrivbordet. Vid den här tidpunkten är du inte riktigt klar. Du agerar faktiskt som tillverkaren (dvs. någon som bygger en dator och installerar Linux åt kunden). Du måste dubbelklicka på skrivbordsikonen, "Installera Linux Mint", för att slutföra det.

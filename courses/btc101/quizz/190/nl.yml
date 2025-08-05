@@ -1,0 +1,11 @@
+question: Wat is de AMF?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Amerikaans Monetair Fonds.
+  - Vereniging van Mining voorzieningen.
+  - Geautomatiseerde geldstroom.
+explanation: |
+  De AMF, of Autorité des Marchés Financiers, is een Franse
+  organisatie die de platforms reguleert waar bitcoins kunnen worden
+  gekocht.
+reviewed: true

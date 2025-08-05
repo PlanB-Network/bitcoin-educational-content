@@ -1,0 +1,9 @@
+question: Dans le modèle TCP/IP, à quoi servent les primitives de service ?
+answer: À gérer les échanges entre les couches
+wrong_answers:
+  - À chiffrer les messages réseau automatiquement
+  - À distribuer les adresses IP aux hôtes distants
+  - À vérifier la longueur totale des paquets IP
+explanation: |
+  Les primitives de service assurent l’interface de communication entre les différentes couches, ce qui permet d’établir, maintenir ou terminer les échanges réseau.
+reviewed: false

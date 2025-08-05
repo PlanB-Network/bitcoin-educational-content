@@ -30,7 +30,7 @@ Selles õpetuses keskendume ainult ainult kellade portfelli loomisele. Green'i m
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Blockstream Green rakenduse paigaldamine ja konfigureerimine
 
@@ -122,4 +122,5 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green rakenduse kohta, et luua kuum rahakott:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

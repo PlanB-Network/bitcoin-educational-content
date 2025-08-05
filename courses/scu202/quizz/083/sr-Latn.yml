@@ -1,0 +1,9 @@
+question: Koja usluga za razmenu poruka omogućava potpunu anonimnu registraciju, bez telefonskog broja ili stalne prijave?
+answer: SimpleX Chat
+wrong_answers:
+  - Signal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat odbacuje pojam jedinstvenog identifikatora: kontakti se dodaju putem efemernih linkova ili QR kodova, i nisu potrebni lični podaci.
+reviewed: false

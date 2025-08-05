@@ -1,0 +1,12 @@
+question: Wat is geen Mnemonic zin in de context van Bitcoin?
+answer: Een wachtwoord voor je Bitcoin Wallet.
+wrong_answers:
+  - Een lijst van 12 woorden uit een specifiek woordenboek.
+  - Een lijst van 24 woorden uit een specifiek woordenboek.
+  - Het geheim om toegang te krijgen tot je Bitcoin fonds.
+explanation: |
+  Een Mnemonic zin in de context van Bitcoin is een lijst van 12
+  of 24 woorden waarmee je je Wallet kunt herstellen op elke
+  Bitcoin Wallet toepassing. Iedereen met toegang tot deze lijst
+  heeft ook toegang tot je bitcoins.
+reviewed: true

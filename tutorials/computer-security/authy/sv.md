@@ -99,7 +99,7 @@ Du hittar vanligtvis detta 2FA-alternativ i inställningarna för ditt konto, of
 
 ![AUTHY 2FA](assets/notext/14.webp)
 
-När du aktiverar det här alternativet på ditt Proton-mailkonto visas en QR-kod för dig. Du måste sedan skanna denna QR-kod med din Authy-app.
+När du aktiverar det här alternativet på ditt Proton-mailkonto får du en QR-kod. Du måste sedan skanna denna QR-kod med din Authy-app.
 
 ![AUTHY 2FA](assets/notext/15.webp)
 

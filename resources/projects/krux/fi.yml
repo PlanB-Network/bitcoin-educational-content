@@ -1,0 +1,6 @@
+description: |
+  Krux on avoimen lähdekoodin laiteohjelmisto, joka muuntaa Kendryte K210 -laitteet, kuten Maix Amigo, M5StickV ja muut, monipuolisiksi Bitcoin-tapahtumien allekirjoittajiksi. Ydintoimintojensa lisäksi Krux on joustava alusta, joka voi mukautua eri muotokertoimilla varustettuihin laitteisiin ja joka tarjoaa joukon työkaluja, jotka auttavat Mnemonic-varmistusten luomisessa ja palauttamisessa, ja joihinkin niistä sisältyy salausvaihtoehtoja turvallisuuden parantamiseksi.
+  
+  Laitteet, kuten Maix Amigo, Yahboom tai WonderMV, ovat käyttövalmiita, ja niiden suuret kosketusnäytöt tekevät käytöstä helppoa ja käyttäjäystävällistä. Nämä laitteet ovat ihanteellisia niille, jotka etsivät plug-and-play-ratkaisua. Toisaalta Krux tukee myös kehityslevypaketteja, jotka sopivat täydellisesti DIY-harrastajille, jotka nauttivat omien laitteistokokoonpanojensa muokkaamisesta ja rakentamisesta.
+  
+  Käyttäjäystävällinen laiteohjelmisto, joka toimii saumattomasti vuorovaikutuksessa johtavien koordinaattorilompakoiden kanssa QR-koodien, SD-korttien ja jopa lämpökirjoittimien kautta, tarjoaa ainutlaatuisia ominaisuuksia, jotka tukevat transaktioita ja Mnemonic-varmuuskopioita offline-ympäristössä.

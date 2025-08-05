@@ -23,25 +23,25 @@ För närvarande (april 2025) är Keet inte helt öppen källkod. En del av käl
 
 
 
-| Applikation          | E2EE 1:1       | E2EE grupper   | Anonym registrering | Öppen källkod klient-licens | Öppen källkod server-licens | Decentraliserad server   | Skapandeår        |
-| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | ------------------------ | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (valfri)    | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Telegram             | 🟡 (valfri)    | ❌              | 🟡                  | ✅                           | ❌                           | ❌                        | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                        | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                        | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                         | 🟡 (via e-post)         | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federerad)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                           | 🟡(ingen katalog)       | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                         | ✅                        | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                        | 2013              |
+| Application          | E2EE 1:1       | E2EE groups    | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation  |
+| -------------------- | -------------- | -------------- | ---------------------- | -------------------------- | -------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optional) | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Telegram             | 🟡 (optional) | ❌              | 🟡                     | ✅                          | ❌                          | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                      | ❌                          | ❌                          | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                      | ✅                          | ✅                          | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                      | ✅                          | ❌                          | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                      | ✅                          | N/A                        | 🟡 (via email)      | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                      | ✅                          | ✅                          | 🟡 (federated)      | 2014              |
+| Session              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                      | ✅                          | ✅                          | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                      | ✅                          | ❌                          | 🟡(no directory)     | 2019              |
+| Keet                 | ✅              | ✅              | ✅                      | ❌                          | N/A                        | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                      | ✅                          | N/A                        | ✅                    | 2013              |
 
 *E2EE = End-to-end-kryptering*
 
@@ -269,7 +269,7 @@ Gå sedan till menyn "*Mina enheter*".
 
 
 
-Klicka på "*Lägg till enhet*". Keet kommer att generate en länk för att synkronisera en ny enhet. Kopiera den här länken.
+Klicka på "*Lägg till enhet*". Keet kommer generate en länk för att synkronisera en ny enhet. Kopiera den här länken.
 
 
 

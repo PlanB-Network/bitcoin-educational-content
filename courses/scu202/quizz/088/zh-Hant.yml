@@ -1,0 +1,9 @@
+question: 哪種開放原始碼密碼管理器可讓您在本機儲存憑證而不需要雲端？
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - 北歐通
+  - Google 密碼管理器
+explanation: |
+  KeePassDX 以加密的本機檔案為基礎運作，無需使用雲端或訂閱集中式服務。
+reviewed: false

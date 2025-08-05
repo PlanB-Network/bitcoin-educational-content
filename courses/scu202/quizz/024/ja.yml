@@ -1,0 +1,9 @@
+question: Linuxデスクトップ環境の主な役割は？
+answer: Interfaceのグラフィックを提供する
+wrong_answers:
+  - システム起動の管理
+  - Linuxカーネルのコンパイル
+  - ウイルスからの保護
+explanation: |
+  デスクトップ環境は、ビジュアルでインタラクティブなElements（ウィンドウ、メニュー、アイコン、パネルなど）をグループ化し、ユーザーがグラフィカルにシステムと対話できるようにする。
+reviewed: false

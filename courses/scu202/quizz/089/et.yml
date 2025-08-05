@@ -1,0 +1,9 @@
+question: Milline kaardistamisteenus võimaldab täiesti offline kasutamist ja ei sisalda reklaami jälgimist?
+answer: Orgaanilised kaardid
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps on OpenStreetMapil põhinev avatud lähtekoodiga rakendus, mis erinevalt patenteeritud alternatiividest töötab võrguühenduseta, ilma jälgimisseadmete või andmekogumiseta.
+reviewed: false

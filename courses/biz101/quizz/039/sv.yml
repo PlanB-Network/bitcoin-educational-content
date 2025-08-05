@@ -1,0 +1,9 @@
+question: Vilken är den största skillnaden mellan att behandla Bitcoin som en digital tillgång och att behandla den som en valuta i redovisningen?
+answer: Som en digital tillgång måste varje transaktions kostnadsbas och vinster/förluster spåras, medan omvärderingar skulle vara enklare och mindre frekventa om den behandlades som en valuta.
+wrong_answers:
+  - När den behandlas som en digital tillgång är den helt befriad från alla skatter.
+  - När den behandlas som en valuta behövs inga uppgifter om transaktioner.
+  - För att behandla den som en valuta krävs ett omedelbart byte till ett nytt redovisningsprogram.
+explanation: |
+  Behandling av digitala tillgångar innebär vanligtvis att man beräknar kapitalvinster eller förluster för varje transaktion, vilket ökar komplexiteten. Om Bitcoin redovisades som en valuta skulle det vara enklare; det är bara att uppdatera fiat-värdet med jämna mellanrum, som man gör med andra valutor.
+reviewed: false

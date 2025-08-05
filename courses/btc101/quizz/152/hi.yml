@@ -1,0 +1,8 @@
+question: Hashrate क्या है?
+answer: Hash गणनाओं की वह संख्या जो Mining उपकरण Proof of Work को हल करने के लिए प्रति सेकंड कर सकता है।
+wrong_answers:
+  - वह गति जिस पर Mining डिवाइस Proof of Work को हल कर सकती है।
+  - Bitcoin नेटवर्क में खनिकों की कुल संख्या.
+  - Proof of Work को हल करने के लिए प्रति सेकंड एक निश्चित संख्या में प्रयास करने पर खनन किए गए बिटकॉइन की कुल मात्रा।
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: In welk jaar werd het eCash-concept van David Chaum geïmplementeerd?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Het werd voor het eerst geïmplementeerd door de cypherpunks in februari en Digicash testte het in oktober door CyberBucks uit te geven.
+reviewed: true

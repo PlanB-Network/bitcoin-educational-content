@@ -1,0 +1,9 @@
+question: Welke toevoeging in de zomer van 2010 maakte vervolgens Soft vorken in Bitcoin mogelijk?
+answer: De OP_NOP operatiecodes
+wrong_answers:
+  - Het waarschuwingssysteem
+  - De limiet voor blokgrootte
+  - Het standaard transactieformaat
+explanation: |
+  Dit waren no-op instructies die het script niet ongeldig maakten als ze werden uitgevoerd. Ze maakten de toevoeging van OP_CHECKLOCKTIMEVERIFY en OP_CHECKSEQUENCEVERIFY aan het protocol in 2015/2016 mogelijk.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vilka ekonomiska principer ansluter sig Bitcoin till?
+answer: Principer för österrikisk ekonomi.
+wrong_answers:
+  - Principer för keynesiansk ekonomi.
+  - Principer för marxistisk ekonomi.
+  - Principer för neoklassisk ekonomi.
+explanation: |
+  Bitcoin är i linje med principerna för österrikisk ekonomi.
+  Dess begränsade kvantitet och avsaknad av en central enhet skyddar den
+  från de inneboende riskerna för inflation som ses i traditionella
+  traditionella valutor.
+reviewed: true

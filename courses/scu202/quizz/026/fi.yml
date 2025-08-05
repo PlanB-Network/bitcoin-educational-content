@@ -1,0 +1,9 @@
+question: Mikä komento näyttää kansion yksityiskohtaisen sisällön, mukaan lukien piilotetut tiedostot?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" näyttää tiedostot ja kansiot yksityiskohtaisesti, mukaan lukien piilotetut tiedostot (jotka alkavat pisteellä).
+reviewed: false

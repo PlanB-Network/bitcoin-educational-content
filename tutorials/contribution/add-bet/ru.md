@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Заполните этот файл информацией, относящейся к вашему контенту, используя этот шаблон:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -47,11 +47,11 @@ contributors:
 ```
 
 Вот детали, которые нужно заполнить для каждого поля:
-- **`builder`**: Укажите идентификатор вашей организации в сети PlanB. Если у вашей компании еще нет идентификатора "builder", вы можете создать его, следуя этому руководству.
+- **`project`**: Укажите идентификатор вашей организации в сети PlanB. Если у вашей компании еще нет идентификатора "project", вы можете создать его, следуя этому руководству.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Если у вас его нет, вы можете просто использовать ваше имя, псевдоним или название вашей компании, не создавая профиль builder.
+ Если у вас его нет, вы можете просто использовать ваше имя, псевдоним или название вашей компании, не создавая профиль project.
 - **`type`**: Выберите характер вашего контента из следующих двух вариантов:
 	- `Educational Content` для образовательного контента.
 	- `Visual Content` для других типов разнообразного контента.
@@ -74,7 +74,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Например, ваш YAML-файл может выглядеть так:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -200,3 +200,4 @@ https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resource
 Обязательно следите за прогрессом вашего PR. Администратор может оставить комментарий с просьбой предоставить дополнительную информацию. Пока ваш PR не будет подтвержден, вы можете просматривать его во вкладке Pull requests на GitHub репозитории сети PlanB:
 ![событие](assets/56.webp)
 Большое спасибо за ваш ценный вклад! :)
+

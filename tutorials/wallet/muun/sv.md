@@ -81,7 +81,7 @@ Fliken "Säkerhet" visar nu att du har en grundläggande säkerhetskopia. Du kan
 ![image](assets/9.webp)
 
 
-Muuns alternativ "alternativ säkerhetskopiering" liknar Mnemonic-frasen som används av flera Wallet-applikationer som många Bitcoin-användare känner till. Tryck på "Start" för att visa din återställningskod och skriv ner den på ett papper (programmet censurerar skärmdumpen på den sida som visar koden). När du har noterat den ska du jämföra den med koden som visas på skärmen eftersom du måste skriva in den på nytt i programmet för att bekräfta att den är giltig.
+Muuns alternativ "alternativ säkerhetskopiering" liknar Mnemonic-frasen som används av flera Wallet-applikationer som många Bitcoin-användare känner till. Tryck på "Start" för att visa din återställningskod och skriv ner den på ett papper (programmet censurerar skärmdumpen på sidan som visar koden). När du har noterat den ska du jämföra den med koden som visas på skärmen eftersom du måste skriva in den på nytt i programmet för att bekräfta att den är giltig.
 
 
 Återigen ber Muun dig att bekräfta att du har förstått problemet, vilket är att du kommer att behöva denna 32-teckens kod om du förlorar ditt tidigare fastställda lösenord.
@@ -125,7 +125,7 @@ Wallet Återvinning
 ![image](assets/14.webp)
 
 
-Det finns många scenarier där en användare tillfälligt kan förlora åtkomsten till sin Wallet och sina pengar; förlust av enhet, avinstallerad/ saknad applikation, glömt personligt identifikationsnummer, Wallet frånkoppling, etc. Det är därför absolut nödvändigt att veta hur man återfår denna åtkomst. När du återställer via Muun-applikationen, tryck på alternativet "Jag har redan en Wallet" på öppningsskärmen.
+Det finns många scenarier där en användare tillfälligt kan förlora åtkomsten till sin Wallet och sina pengar; förlust av enhet, avinstallerad/ saknad applikation, glömt personligt identifikationsnummer, Wallet frånkopplad, etc. Det är därför absolut nödvändigt att veta hur man återfår denna åtkomst. När du återställer via Muun-applikationen, tryck på alternativet "Jag har redan en Wallet" på öppningsskärmen.
 
 
 ![image](assets/15.webp)
@@ -134,7 +134,7 @@ Det finns många scenarier där en användare tillfälligt kan förlora åtkomst
 ### Återställning med e-post Address
 
 
-Om du använde Muuns backup-alternativ #1, ange den e-post Address som valdes vid det tillfället. Eftersom detta alternativ är valfritt kan du också välja att fortsätta istället med återställningskoden, vilket råkar vara alternativ # 2 som erbjuds av Muun. Låt oss först gå igenom e-postalternativet.
+Om du använde Muuns backup-alternativ #1, ange den e-post Address som valdes vid det tillfället. Eftersom det här alternativet är valfritt kan du också välja att fortsätta istället med återställningskoden, vilket råkar vara alternativ 2 som erbjuds av Muun. Låt oss först gå igenom e-postalternativet.
 
 
 ![image](assets/15.webp)
@@ -221,7 +221,7 @@ Vi kommer nu att gå igenom "Receive"-delen av Muun Wallet och dess olika funkti
 ![image](assets/22.webp)
 
 
-På den här sidan kan du välja att ta emot en transaktion i både Bitcoin- och Lightning-nätverken. En ny Address (och den tillhörande QR-koden) som motsvarar det önskade nätverket kommer att visas. Som standard visas en Bitcoin Address när du kommer till skärmen "Receive". Genom att trycka på QR-koden kopieras Address till din enhets urklipp. Du kan enkelt dela Address direkt till andra applikationer med knappen "Share", och du kan också kopiera Address med knappen "Copy". Om du trycker på ögonikonen i slutet av Address visas den fullständiga Address, så att du kan jämföra den med den som kopierats till urklippet under delningen.
+På den här sidan kan du välja att ta emot en transaktion i både Bitcoin- och Lightning-nätverken. En ny Address (och den tillhörande QR-koden) som motsvarar det önskade nätverket kommer att visas. Som standard visas en Bitcoin Address när du kommer till skärmen "Receive". Genom att trycka på QR-koden kopieras Address till din enhets urklipp. Du kan enkelt dela Address direkt till andra applikationer med knappen "Share", och du kan också kopiera Address med knappen "Copy". Genom att trycka på ögonikonen i slutet av Address visas den fullständiga Address, så att du kan jämföra den med den som kopierats till urklippet under delningen.
 
 
 ![image](assets/23.webp)

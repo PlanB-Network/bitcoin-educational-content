@@ -1,0 +1,9 @@
+question: Hvilken VPN-applikasjon med åpen kildekode tillater anonym kontooppretting uten e-post og godtar Bitcoin-betalinger?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN skiller seg ut ved at det er helt anonymt å opprette kontoer, uten krav til e-post eller passord, og aksepterer betaling i Bitcoin eller kontanter.
+reviewed: false

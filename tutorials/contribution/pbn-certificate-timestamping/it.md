@@ -1,5 +1,5 @@
 ---
-name: Marcatura temporale di certificati e diplomi di Plan ₿ Network
+name: Marcatura temporale dei diplomi Plan ₿ Network
 description: Comprendi come Plan ₿ Network rilascia una prova verificabile per i tuoi certificati e diplomi
 ---
 
@@ -80,7 +80,7 @@ gpg:               importate: 1
 NOTA: se vedi che 1 chiave è stata elaborata e 0 sono state importate, molto probabilmente hai già importato precedentemente la stessa chiave ed è tutto a posto.
 
 2. Verifica la firma del certificato o diploma con il seguente comando:
-   
+
 *Assicurati di essere nella stessa directory nel quale hai salvato i file al punto 1.*
 
 ```bash

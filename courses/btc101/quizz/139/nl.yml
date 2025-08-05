@@ -1,0 +1,8 @@
+question: Wat is het geschatte aantal nodes verspreid over de wereld vanaf september 2023?
+answer: 45.000 knooppunten.
+wrong_answers:
+  - 10.000 knooppunten.
+  - 100.000 knooppunten.
+  - 500.000 knooppunten.
+explanation: >-
+reviewed: true

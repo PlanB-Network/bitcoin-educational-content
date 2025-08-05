@@ -1,0 +1,9 @@
+question: Om vi observerar en transaktion med 6 UTXO som ingångar och endast en UTXO som utgång, vilken sannolik tolkning kan vi då göra?
+answer: Alla UTXO:er i ingångarna tillhörde samma användare, och denna användare har fortfarande UTXO i utgången.
+wrong_answers:
+  - De inmatade UTXO:erna kom från olika användare som samarbetade för en enda transaktion.
+  - Alla UTXO:er i ingångarna tillhörde samma användare, och den i utgången tillhör nu en annan användare.
+  - UTXO:erna i ingångarna kom från 2 olika användare, och den i utgången tillhör fortfarande dessa 2 användare.
+explanation: |
+  Vi är sannolikt i närvaro av en konsolidering. Därför finns det en gemensam Ownership för ingångar och utgångar.
+reviewed: false

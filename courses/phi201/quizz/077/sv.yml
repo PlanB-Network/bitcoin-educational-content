@@ -1,0 +1,9 @@
+question: Vad är titeln på Thomas Paines bok?
+answer: Sunt förnuft.
+wrong_answers:
+  - Den unika känslan.
+  - Det gemensamma bästa.
+  - Inget av ovanstående svar är korrekt.
+explanation: |
+  Thomas Paines bok, med titeln Common Sense (Le sens commun på franska), är en inflytelserik pamflett som argumenterade för amerikansk självständighet och fördömde brittiskt tyranni, och spelade en nyckelroll i mobiliseringen av kolonisterna.
+reviewed: true

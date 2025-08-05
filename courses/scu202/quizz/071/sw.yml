@@ -1,0 +1,9 @@
+question: Kwa nini vifaa vingi vya Android huja na Huduma za Simu ya Google zilizosakinishwa mapema?
+answer: Watengenezaji lazima watie sahihi makubaliano ya leseni na Google
+wrong_answers:
+  - Huduma zinazohitajika na sheria za Ulaya
+  - Msimbo wa chanzo wa GMS ni bure
+  - GMS ni ya lazima kwenye vifaa vyote vya Linux
+explanation: |
+  Ili kunufaika na programu maarufu (Duka la Google Play, Ramani, n.k.), ni lazima watengenezaji waunganishe GMS, ambayo ina maana ya kusaini makubaliano madhubuti ya leseni na Google.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vilket är det maximala antalet Bitcoin-enheter som någonsin kan existera?
+answer: 21 miljoner.
+wrong_answers:
+  - 3 biljoner kronor.
+  - 100 miljoner.
+  - Det finns ingen gräns.
+explanation: |
+  Den totala Supply för Bitcoin är begränsad till 21 miljoner enheter.
+  Detta är en viktig egenskap hos Bitcoin som skiljer den
+  från förvaltarvalutor, som kan tryckas i obegränsade
+  obegränsade kvantiteter av centralbanker.
+reviewed: true

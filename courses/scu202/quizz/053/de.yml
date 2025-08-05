@@ -1,0 +1,9 @@
+question: Welche Plattform löscht automatisch die Metadaten, wenn ein Foto hochgeladen wird?
+answer: Signal
+wrong_answers:
+  - Google Mail
+  - Ausblick
+  - Ihr Blog
+explanation: |
+  Signal bereinigt (wie auch Session und andere sichere Messaging-Dienste) die Metadaten der freigegebenen Bilder, um die Privatsphäre der Nutzer zu schützen.
+reviewed: false

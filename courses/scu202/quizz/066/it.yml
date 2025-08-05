@@ -1,0 +1,9 @@
+question: Quali dati locali permettono agli inserzionisti di tracciare le vostre abitudini di navigazione su più siti?
+answer: Cookie di terze parti
+wrong_answers:
+  - Codice JavaScript
+  - Storia locale
+  - Il certificato SSL
+explanation: |
+  I cookie di terze parti, inseriti da agenzie pubblicitarie esterne, vengono utilizzati per tracciare l'attività dell'utente su diversi siti e stabilire un profilo pubblicitario.
+reviewed: false

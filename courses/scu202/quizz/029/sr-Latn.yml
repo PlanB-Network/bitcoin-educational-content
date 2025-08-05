@@ -1,0 +1,9 @@
+question: Koja verzija Ubuntu-a se preporučuje za početnike zbog svoje stabilnosti i dužine podrške?
+answer: LTS (Long Term Support)
+wrong_answers:
+  - Rolling Release
+  - Prva verzija
+  - Alpha Release
+explanation: |
+  LTS verzija Ubuntu-a održava se pet godina i nudi veću stabilnost, što je čini idealnom za početnike.
+reviewed: false

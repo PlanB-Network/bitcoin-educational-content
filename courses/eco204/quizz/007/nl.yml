@@ -1,0 +1,13 @@
+question: Wat is het fundamentele verschil tussen prijsstijging en inflatie?
+answer: Prijsstijgingen kunnen sectorspecifiek zijn en door verschillende factoren veroorzaakt worden, terwijl inflatie gedefinieerd wordt als een algemene prijsstijging voor een reeks goederen en diensten.
+wrong_answers:
+  - Een prijsstijging is een algemene prijsstijging voor een reeks goederen en diensten, terwijl inflatie sectorspecifiek is en door verschillende factoren wordt veroorzaakt.
+  - Prijsstijging en inflatie zijn hetzelfde, beide verwijzen naar een algemene prijsstijging van een reeks goederen en diensten.
+  - Prijsstijging verwijst naar een daling van de prijzen, terwijl inflatie verwijst naar een stijging van de prijzen.
+explanation: |
+  Het hoofdstuk legt uit dat een prijsstijging sectorspecifiek kan zijn en
+  veroorzaakt door verschillende factoren, zoals een daling van de OPEC-productie voor olie of ongunstige
+  weersomstandigheden voor tarwe. Inflatie, aan de andere kant, wordt gedefinieerd door een veralgemeende
+  prijsstijging van een reeks goederen en diensten, niet alleen in een specifieke sector
+  sector.
+reviewed: false

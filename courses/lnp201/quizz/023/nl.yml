@@ -1,0 +1,9 @@
+question: Waarom hebben Alice en Bob Exchange hun geheimen voor eerdere Commitment transacties?
+answer: Om ieder zichzelf te laten beschermen als de ander een oude transactie publiceert
+wrong_answers:
+  - De capaciteit van het kanaal vergroten
+  - Elkaars toegang tot de fondsen blokkeren
+  - De fondsen gelijk verdelen
+explanation: |
+  Het uitwisselen van geheimen voor eerdere transacties stelt elke deelnemer in staat om de ander te straffen in het geval van een poging om vals te spelen door een oude transactie te publiceren.
+reviewed: false

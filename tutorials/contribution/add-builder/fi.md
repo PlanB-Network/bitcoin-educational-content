@@ -2,31 +2,31 @@
 name: Lisäämässä Rakentajaa
 description: Kuinka ehdottaa uuden rakentajan lisäämistä PlanB-verkkoon?
 ---
-![builder](assets/cover.webp)
+![project](assets/cover.webp)
 
 PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdollisimman monella kielellä. Kaikki sivustolla julkaistu sisältö on avoimen lähdekoodin ja isännöity GitHubissa, mikä mahdollistaa kenen tahansa osallistumisen alustan rikastuttamiseen.
 
 Haluatko lisätä uuden Bitcoin "rakentajan" PlanB-verkon sivustolle ja antaa näkyvyyttä yrityksellesi tai ohjelmistollesi, mutta et tiedä miten? Tämä opas on sinua varten!
-![builder](assets/01.webp)
+![project](assets/01.webp)
 - Ensimmäiseksi sinulla täytyy olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) `resources/builder/` osiossa:
-![builder](assets/02.webp)
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) `resources/project/` osiossa:
+![project](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:
-![builder](assets/03.webp)
+![project](assets/03.webp)
 - Jos et ole aiemmin osallistunut PlanB-verkon sisältöön, sinun täytyy luoda oma haarasi alkuperäisestä repositoriosta. Repositorion haarauttaminen tarkoittaa sen kopion luomista omalle GitHub-tilillesi, mikä mahdollistaa projektissa työskentelyn alkuperäistä repositoriota muuttamatta. Klikkaa `Fork this repository` -nappia:
-![builder](assets/04.webp)
+![project](assets/04.webp)
 - Tämän jälkeen saavut GitHubin muokkaussivulle:
-![builder](assets/05.webp)
+![project](assets/05.webp)
 - Luo kansio yrityksellesi. Tee tämä kirjoittamalla `Name your file...` -kenttään yrityksesi nimi pienillä kirjaimilla ja väliviivat välilyöntien sijaan. Esimerkiksi, jos yrityksesi on nimeltään "Bitcoin Baguette", sinun tulisi kirjoittaa `bitcoin-baguette`:
-![builder](assets/06.webp)
+![project](assets/06.webp)
 - Kansion luomisen vahvistamiseksi lisää vain kauttaviiva nimesi perään samassa kentässä, esimerkiksi: `bitcoin-baguette/`. Kauttaviivan lisääminen luo automaattisesti kansion tiedoston sijaan:
-![builder](assets/07.webp)
-- Tässä kansiossa luot ensimmäisen YAML-tiedoston nimeltä `builder.yml`:
-![builder](assets/08.webp)
+![project](assets/07.webp)
+- Tässä kansiossa luot ensimmäisen YAML-tiedoston nimeltä `project.yml`:
+![project](assets/08.webp)
 - Täytä tämä tiedosto yrityksesi tiedoilla käyttäen tätä mallia:
 
 ```yaml
@@ -116,7 +116,7 @@ kategoria: koulutus
 ![rakentaja](assets/16.webp)
 - Olet nyt työhaarassasi (**varmista, että olet samalla haaralla kuin aiemmat muutoksesi, tämä on tärkeää!**):
 ![rakentaja](assets/17.webp)
-- Palaa takaisin `resources/builders/`-kansioon ja valitse yrityksesi kansio, jonka loit edellisessä commitissa:
+- Palaa takaisin `resources/projects/`-kansioon ja valitse yrityksesi kansio, jonka loit edellisessä commitissa:
 ![rakentaja](assets/18.webp)
 - Yrityksesi kansiosta, napsauta `Add file` -painiketta, sitten `Create new file`:
 ![rakentaja](assets/19.webp)
@@ -141,18 +141,18 @@ kategoria: koulutus
 - Ole varovainen, kuvan tulee olla neliön muotoinen, sen tulee olla nimetty `logo`, ja sen tulee olla `.webp`-muodossa. Täydellinen tiedostonimi olisi siis: `logo.webp`:
 ![rakentaja](assets/29.webp)
 - Palaa takaisin `assets`-kansioosi ja napsauta `.gitkeep`-väliketiedostoa:
-![builder](assets/30.webp)- Kun olet tiedostossa, klikkaa oikeassa yläkulmassa olevia kolmea pientä pistettä ja sen jälkeen `Delete file`:
-![builder](assets/31.webp)
+![project](assets/30.webp)- Kun olet tiedostossa, klikkaa oikeassa yläkulmassa olevia kolmea pientä pistettä ja sen jälkeen `Delete file`:
+![project](assets/31.webp)
 - Varmista, että olet edelleen samalla työhaaralla, ja klikkaa sitten `Commit changes` -nappia:
-![builder](assets/32.webp)
+![project](assets/32.webp)
 - Lisää otsikko ja kuvaus commitillesi, ja klikkaa sitten `Commit changes`:
-![builder](assets/33.webp)
+![project](assets/33.webp)
 - Palaa takaisin yrityksesi kansioon:
-![builder](assets/34.webp)
+![project](assets/34.webp)
 - Klikkaa `Add file` -nappia, ja sen jälkeen `Create new file`:
-![builder](assets/35.webp)
+![project](assets/35.webp)
 - Luo uusi YAML-tiedosto nimetäksesi sen äidinkielesi indikaattorilla. Tätä tiedostoa käytetään rakentajan kuvaukseen. Esimerkiksi, jos haluan kirjoittaa kuvaukseni englanniksi, nimenän tämän tiedoston `en.yml`:
-![builder](assets/36.webp)
+![project](assets/36.webp)
 - Täytä tämä YAML-tiedosto käyttäen tätä mallia:
 ```yaml
 description: |
@@ -170,23 +170,24 @@ Perustettu vuonna 2017, Bitcoin Baguette on Pariisissa toimiva yhdistys, joka on
 contributors:
 - 
 ```
-![builder](assets/37.webp)
+![project](assets/37.webp)
 - Klikkaa `Commit changes` -nappia:
-![builder](assets/38.webp)
+![project](assets/38.webp)
 - Varmista, että `Commit directly to the patch-1 branch` -ruutu on valittu, lisää otsikko, ja klikkaa sitten `Commit changes`:
-![builder](assets/39.webp)
+![project](assets/39.webp)
 - Yrityksesi kansio pitäisi nyt näyttää tältä:
-![builder](assets/40.webp)
+![project](assets/40.webp)
 - Jos kaikki on mielestäsi kunnossa, palaa takaisin haarasi juureen:
-![builder](assets/41.webp)
+![project](assets/41.webp)
 - Sinun pitäisi nähdä viesti, joka ilmoittaa, että haarassasi on tapahtunut muutoksia. Klikkaa `Compare & pull request` -nappia:
-![builder](assets/42.webp)
+![project](assets/42.webp)
 - Lisää selkeä otsikko ja kuvaus PR:ääsi:
-![builder](assets/43.webp)
+![project](assets/43.webp)
 - Klikkaa `Create pull request` -nappia:
-![builder](assets/44.webp)
+![project](assets/44.webp)
 Onnittelut! PR:äsi on luotu onnistuneesti. Ylläpitäjä tarkistaa sen nyt ja, jos kaikki on kunnossa, integroi sen PlanB-verkoston päärepositoryyn. Rakentajaprofiilisi pitäisi ilmestyä verkkosivustolle muutaman päivän kuluttua.
 
 Varmista, että seuraat PR:äsi edistymistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:äsi ei ole vahvistettu, voit tarkastella sitä `Pull requests`-välilehdessä PlanB-verkoston GitHub-repositoryssa:
-![builder](assets/45.webp)
+![project](assets/45.webp)
 Suurkiitokset arvokkaasta panoksestasi! :)
+

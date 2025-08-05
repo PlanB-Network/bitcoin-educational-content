@@ -1,0 +1,9 @@
+question: Quelle est la taille de bloc IPv6 généralement attribuée par l’IANA à chaque registre régional (RIR) ?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Depuis 2006, chaque RIR reçoit typiquement un bloc /12 d’IPv6, ce qui offre une réserve très large pour l’allocation régionale.
+reviewed: false

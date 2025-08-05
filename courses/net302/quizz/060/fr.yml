@@ -1,0 +1,9 @@
+question: Quelle est l’adresse IPv6 de loopback, équivalente à 127.0.0.1 en IPv4 ?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  L’adresse "::1/128" est utilisée pour le loopback, pour les tests internes à la machine.
+reviewed: false

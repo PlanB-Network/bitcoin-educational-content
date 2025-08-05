@@ -1,0 +1,12 @@
+question: Wat is het Blockchain trilemma op het gebied van cryptocurrencies?
+answer: De afweging tussen schaalbaarheid, veiligheid en decentralisatie in cryptocurrencies
+wrong_answers:
+  - Een kenmerk van Bitcoin dat decentralisatie en veiligheid boven schaalbaarheid stelt
+  - De moeilijkheid om het traject en de waarden van cryptocurrencies te bepalen
+  - De beperking van de Bitcoin-technologie in vergelijking met andere cryptocurrencies
+explanation: |
+  Het concept van het Blockchain trilemma is het idee dat cryptocurrencies
+  prioriteit moeten geven aan twee van de drie belangrijke kenmerken: schaalbaarheid,
+  veiligheid en decentralisatie. Bitcoin geeft prioriteit aan decentralisatie en veiligheid,
+  wat zijn schaalbaarheid beïnvloedt, maar het bereikt dit nog steeds met alternatieve middelen.
+reviewed: true

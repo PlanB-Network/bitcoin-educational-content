@@ -1,0 +1,9 @@
+question: 什么是安卓版 Shelter 应用程序？
+answer: 创建隔离配置文件以分区使用
+wrong_answers:
+  - 自动加密所有手机数据
+  - 阻止骚扰电话
+  - 在 Play Store 以外安装应用程序
+explanation: |
+  Shelter 可让你使用 "工作配置文件 "功能，将应用程序和数据隔离在一个独立的空间内。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que distribuição é considerada a mais antiga ainda em vigor?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  O Slackware, criado em 1993 por Patrick Volkerding, é a distribuição Linux mais antiga ainda em atividade.
+reviewed: false

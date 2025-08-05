@@ -1,0 +1,9 @@
+question: Mis on operatsioonisüsteemi peamine roll?
+answer: Vahendaja riistvara, kasutaja ja rakenduste vahel
+wrong_answers:
+  - Integreeritud viirusetõrje
+  - Graafikatarkvara
+  - Kiirsõnumite server
+explanation: |
+  Operatsioonisüsteem toimib keskse tarkvarana Layer, mis võimaldab rakendustele ja kasutajale juurdepääsu riistvarale ja selle juhtimist.
+reviewed: false

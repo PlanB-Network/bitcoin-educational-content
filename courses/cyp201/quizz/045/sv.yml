@@ -1,0 +1,9 @@
+question: Vad är Hash-funktionen som används för att beräkna kontrollsumman för en Mnemonic-fras?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Kontrollsumman för en Mnemonic-fras beräknas genom att tillämpa en enkel SHA256 Hash på entropin.
+reviewed: false

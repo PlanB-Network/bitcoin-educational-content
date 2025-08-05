@@ -109,7 +109,7 @@ Klicka på den här grenen och klicka sedan på knappen "Ny gren":
 Se till att den nya grenen är baserad på källarkivet, nämligen `PlanB-Network/Bitcoin-educational-content`.
 
 
-Namnge din gren på ett sätt som gör att titeln tydligt visar dess syfte och använd bindestreck för att separera varje ord. Låt oss till exempel säga att vårt mål är att skriva en handledning om hur man använder programvaran Sparrow Wallet. I det här fallet kan arbetsgrenen som är avsedd för att skriva denna handledning få namnet: `tuto-sparrow-Wallet-loic`. När du har angett rätt namn klickar du på `Create branch` för att bekräfta skapandet av grenen:
+Namnge din gren på ett sätt som gör att titeln tydligt visar dess syfte, och använd bindestreck för att separera varje ord. Låt oss till exempel säga att vårt mål är att skriva en handledning om hur man använder programvaran Sparrow wallet. I det här fallet kan arbetsgrenen som är avsedd för att skriva denna handledning få namnet: `tuto-Sparrow-Wallet-loic`. När du har angett rätt namn klickar du på `Create branch` för att bekräfta skapandet av grenen:
 
 
 ![TUTO](assets/fr/09.webp)
@@ -119,7 +119,7 @@ Klicka nu på knappen `Publish branch` för att spara din nya arbetsgren till di
 
 ![TUTORIAL](assets/fr/10.webp)
 
-Nu, på GitHub Desktop, bör du befinna dig på din nya gren. Detta innebär att alla ändringar som görs lokalt på din dator kommer att sparas uteslutande på denna specifika gren. Så länge den här grenen är vald på GitHub Desktop kommer de filer som är synliga lokalt på din dator att motsvara filerna i den här grenen (`tuto-sparrow-Wallet-loic`), och inte filerna i huvudgrenen (`dev`).
+Nu, på GitHub Desktop, bör du befinna dig på din nya gren. Detta innebär att alla ändringar som görs lokalt på din dator kommer att sparas uteslutande på denna specifika gren. Så länge den här grenen är vald på GitHub Desktop kommer de filer som är synliga lokalt på din dator att motsvara filerna i den här grenen (`tuto-Sparrow-Wallet-loic`), och inte filerna i huvudgrenen (`dev`).
 
 
 ![TUTORIAL](assets/fr/11.webp)
@@ -162,7 +162,7 @@ python3 main.py
 ```
 
 
-Ett GUI (Graphical User Interface) öppnas. Första gången måste du ange all nödvändig information, men vid senare användning kommer skriptet att komma ihåg din personliga information, så att du inte behöver ange den igen.
+Ett grafiskt användargränssnitt Interface (GUI) öppnas. Första gången måste du ange all nödvändig information, men vid senare användning kommer skriptet att komma ihåg din personliga information, så att du inte behöver ange den igen.
 
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
@@ -229,7 +229,7 @@ Välj ett namn för den katalog som skapats specifikt för din handledning. Namn
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` är UUID för företaget eller organisationen bakom det verktyg som behandlas i handledningen, tillgängligt [i listan över projekt](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Till exempel, för en handledning om Sparrow Wallet, kan du hitta dess `project_id` i filen: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över företag och organisationer som är aktiva i Bitcoin eller relaterade projekt. Genom att lägga till det associerade `project_id` länkar du ditt innehåll till den relevanta enheten.
+`project_id` är UUID för företaget eller organisationen bakom det verktyg som behandlas i handledningen, tillgängligt [i listan över projekt](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Till exempel, för en handledning om Sparrow wallet, kan du hitta dess `project_id` i filen: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Denna information läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över företag och organisationer som är aktiva i Bitcoin eller relaterade projekt. Genom att lägga till det associerade `project_id` länkar du ditt innehåll till den relevanta enheten.
 
 
 ***Uppdatering:*** I den nya versionen av skriptet behöver du inte längre ange `project_id` manuellt. En sökfunktion har lagts till för att hitta projektet efter namn och automatiskt hämta motsvarande `project_id`. Skriv början av projektets namn i fältet "Project Name" för att söka efter det och välj sedan önskat företag i rullgardinsmenyn. "Project_id" fylls automatiskt i i fältet nedan. Du kan också ange det manuellt om det behövs.
@@ -238,7 +238,7 @@ Välj ett namn för den katalog som skapats specifikt för din handledning. Namn
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-För taggar väljer du 2 eller 3 relevanta nyckelord som är relaterade till innehållet i din handledning och väljer uteslutande från [Plan ₿ Network tagglistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaran innehåller också en sökfunktion för nyckelord med en rullgardinslista.
+För taggar väljer du 2 eller 3 relevanta nyckelord som är relaterade till innehållet i din handledning och väljer uteslutande från [Plan ₿ Network tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaran innehåller också en sökfunktion för nyckelord med en rullgardinslista.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,13 +262,13 @@ För mer information om detta Python-skript kan du också läsa [README] (https:
 Öppna din filhanterare och navigera till mappen `Bitcoin-educational-content`, som representerar den lokala klonen av ditt arkiv. Du hittar den vanligtvis under `Documents\GitHub\Bitcoin-educational-content`.
 
 
-I den här katalogen måste du hitta den lämpliga undermappen för att placera din handledning. Mapporganisationen återspeglar de olika avsnitten på Plan ₿ Network-webbplatsen. I vårt exempel, eftersom vi vill lägga till en handledning om Sparrow Wallet, ska vi navigera till följande sökväg: `Bitcoin-educational-content\tutorials\Wallet`, vilket motsvarar avsnittet `Wallet` på webbplatsen:
+I den här katalogen måste du hitta den lämpliga undermappen för att placera din handledning. Mapporganisationen återspeglar de olika avsnitten på Plan ₿ Network-webbplatsen. I vårt exempel, eftersom vi vill lägga till en handledning om Sparrow wallet, ska vi navigera till följande sökväg: `Bitcoin-educational-content\tutorials\Wallet`, vilket motsvarar avsnittet `Wallet` på webbplatsen:
 
 
 ![TUTO](assets/fr/12.webp)
 
 
-I mappen `Wallet` måste du skapa en ny katalog som är särskilt avsedd för din handledning. Namnet på den här mappen ska påminna om den programvara som behandlas i handledningen och se till att binda samman ord med bindestreck. I mitt exempel kommer mappen att heta `sparrow-Wallet`:
+I mappen `Wallet` måste du skapa en ny katalog som är särskilt avsedd för din handledning. Namnet på den här mappen ska påminna om den programvara som behandlas i handledningen och se till att koppla samman ord med bindestreck. I mitt exempel kommer mappen att heta `Sparrow-Wallet`:
 
 
 ![TUTO](assets/fr/13.webp)
@@ -344,7 +344,7 @@ Här är de obligatoriska fälten:
 
 
 
-- projekt_id** : UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- projekt_id** : UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
@@ -528,7 +528,7 @@ Om du vill skapa dina egna diagram, se till att följa Plan ₿ Network:s grafis
  - Vit: #FFFFFF
 
 
-**Det är absolut nödvändigt att alla bilder som integreras i dina självstudier är fria från rättigheter eller respekterar källfilens licens**. Alla diagram som publiceras på Plan ₿ Network görs också tillgängliga under CC-BY-SA-licensen, på samma sätt som texten.
+**Det är absolut nödvändigt att alla bilder som integreras i dina handledningar är fria från rättigheter eller respekterar källfilens licens**. Alla diagram som publiceras på Plan ₿ Network görs också tillgängliga under CC-BY-SA-licensen, på samma sätt som texten.
 
 **-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort onödiga metadata. Detta kan innehålla känslig information, som platsdata, skapandedatum eller detaljer om författaren. För att skydda din integritet är det lämpligt att radera dessa metadata. För att förenkla denna process kan du använda specialiserade verktyg som [Exif Cleaner] (https://exifcleaner.com/), som gör det möjligt att rengöra ett dokuments metadata genom en enkel dra-och-släpp-funktion.
 
@@ -538,7 +538,7 @@ Om du vill skapa dina egna diagram, se till att följa Plan ₿ Network:s grafis
 När du är klar med att skriva din handledning på det språk du vill, är nästa steg att skicka in en **Pull Request**. Administratören kommer sedan att lägga till alla saknade översättningar av din handledning, tack vare vår automatiserade översättningsmetod med mänsklig granskning.
 
 
-För att fortsätta med Pull Request öppnar du programvaran GitHub Desktop. Programvaran bör automatiskt upptäcka de ändringar du har gjort lokalt på din gren jämfört med det ursprungliga arkivet. Innan du fortsätter, kontrollera noggrant på vänster sida av Interface att dessa ändringar matchar vad du förväntade dig:
+För att fortsätta med Pull Request öppnar du programvaran GitHub Desktop. Programvaran bör automatiskt upptäcka de ändringar du har gjort lokalt på din gren jämfört med det ursprungliga förvaret. Innan du fortsätter, kontrollera noggrant på vänster sida av Interface att dessa ändringar matchar vad du förväntade dig:
 
 
 ![TUTO](assets/fr/28.webp)
@@ -550,7 +550,7 @@ Lägg till en titel för din commit och klicka sedan på den blå knappen `Commi
 ![TUTO](assets/fr/29.webp)
 
 
-En commit är ett sparande av de ändringar som gjorts i grenen, tillsammans med ett beskrivande meddelande, vilket gör det möjligt att följa utvecklingen av ett projekt över tid. Det är en slags mellanliggande kontrollpunkt.
+En commit är en lagring av de ändringar som gjorts i grenen, tillsammans med ett beskrivande meddelande, vilket gör det möjligt att följa utvecklingen av ett projekt över tid. Det är en slags mellanliggande kontrollpunkt.
 
 
 Klicka sedan på knappen `Push origin`. Detta kommer att skicka din commit till din Fork:
@@ -571,7 +571,7 @@ Du kan kontrollera en sista gång att dina ändringar är korrekta och sedan kli
 ![TUTO](assets/fr/32.webp)
 
 
-En Pull Request är en begäran om att integrera ändringarna från din gren till huvudgrenen i Plan ₿ Network-arkivet, vilket gör det möjligt att granska och diskutera ändringarna innan de slås samman.
+En Pull Request är en begäran som görs för att integrera ändringarna från din gren till huvudgrenen i Plan ₿ Network-arkivet, vilket möjliggör granskning och diskussion av ändringarna innan de slås samman.
 
 
 Du kommer automatiskt att omdirigeras till din webbläsare på GitHub till förberedelsesidan för din Pull Request:
@@ -584,13 +584,13 @@ Ange en titel som kort sammanfattar de ändringar som du vill slå samman med k�
 ![TUTO](assets/fr/34.webp)
 
 
-Din PR kommer då att synas på fliken `Pull Request` i Plan ₿ Network:s huvudarkiv. Allt du behöver göra är att vänta tills en administratör kontaktar dig för att bekräfta sammanslagningen av ditt bidrag eller för att begära ytterligare ändringar.
+Din PR kommer sedan att synas på fliken "Pull Request" i Plan ₿ Network:s huvudarkiv. Allt du behöver göra är att vänta tills en administratör kontaktar dig för att bekräfta sammanslagningen av ditt bidrag eller för att begära ytterligare ändringar.
 
 
 ![TUTO](assets/fr/35.webp)
 
 
-Efter att din PR har slagits samman med huvudgrenen rekommenderas det att du tar bort din arbetsgren (`tuto-sparrow-Wallet`) för att upprätthålla en ren historik på din Fork. GitHub kommer automatiskt att erbjuda dig detta alternativ på din PR-sida:
+Efter att din PR har slagits samman med huvudgrenen rekommenderas det att du tar bort din arbetsgren (`tuto-Sparrow-Wallet`) för att upprätthålla en ren historik på din Fork. GitHub kommer automatiskt att erbjuda dig detta alternativ på din PR-sida:
 
 
 ![TUTO](assets/fr/36.webp)

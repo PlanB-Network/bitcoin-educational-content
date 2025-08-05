@@ -1,0 +1,9 @@
+question: Wat is volgens de stelling van Euler het resultaat van de exponentiatie a^ϕ(N) mod N voor twee gehele getallen a en N die coprime zijn?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  De stelling van Euler stelt dat voor twee gehele getallen a en N die coprime zijn, de exponentiatie a^ϕ(N) mod N altijd gelijk is aan 1 mod N, een eigenschap die gebruikt wordt in cryptografie.
+reviewed: false

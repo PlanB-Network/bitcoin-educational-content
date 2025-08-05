@@ -109,7 +109,7 @@ Jedna od posebnih karakteristika Blitz Wallet je da podržava različite mreže 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Podrazumevano, sve vaše transakcije će biti na Liquid Network, ali Blitz vam omogućava da definišete mrežu na kojoj želite da primate satoshije klikom na dugme **Choose format**.
 
@@ -270,3 +270,4 @@ If this tutorial helped you get to grips with Blitz, we're sure you'll enjoy the
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

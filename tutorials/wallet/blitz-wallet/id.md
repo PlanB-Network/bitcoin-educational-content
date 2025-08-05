@@ -109,7 +109,7 @@ Salah satu fitur khusus Blitz Wallet adalah mendukung jaringan dan saluran yang 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Secara default, semua transaksi Anda akan menggunakan Liquid Network, tetapi Blitz memungkinkan Anda menentukan jaringan tempat Anda ingin menerima satoshi dengan mengeklik tombol **Pilih format**.
 
@@ -270,3 +270,4 @@ Jika tutorial ini membantu Anda memahami Blitz, kami yakin Anda akan menikmati t
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

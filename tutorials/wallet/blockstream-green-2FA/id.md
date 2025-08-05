@@ -26,7 +26,7 @@ Green merupakan aplikasi yang sangat mudah digunakan, yang membuatnya menarik un
 
 Blockstream Green juga mendukung jaringan Liquid, sebuah sidechain Bitcoin yang dikembangkan oleh Blockstream untuk transaksi yang cepat dan rahasia di luar blockchain utama. Dalam tutorial ini, kami fokus secara eksklusif pada Bitcoin, tetapi saya juga telah membuat tutorial lain untuk mempelajari cara menggunakan Liquid di Green:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## opsi multisig 2/2 (2FA)
 
@@ -46,7 +46,7 @@ Kerugian lain dari metode keamanan ini adalah Anda harus menggunakan skrip skrip
 
 Jika Anda memilih untuk tidak menggunakan opsi 2FA dan hanya ingin membuat dompet "*singlesig*" di Green, saya mengundang Anda untuk membaca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Menginstal dan mengonfigurasi perangkat lunak Blockstream Green
 
@@ -270,4 +270,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan dompet Liquid:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

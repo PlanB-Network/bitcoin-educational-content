@@ -2,7 +2,7 @@
 name: Frédéric Bastiat, Vita, Influenze e Pensiero Economico
 goal: Acquisire una profonda comprensione della vita, delle influenze, degli avversari e delle teorie economiche di Frédéric Bastiat, economista e pensatore francese del XIX secolo.
 objectives:
-  - Imparare sulla vita e il contesto storico di Frédéric Bastiat.
+  - Conoscere la vita e il contesto storico di Frédéric Bastiat.
   - Comprendere le influenze intellettuali su Bastiat.
   - Esaminare gli avversari ideologici di Bastiat.
   - Analizzare i sofismi economici secondo Bastiat.

@@ -12,113 +12,61 @@ objectives:
 
 
 ---
-
 # Selangkah lebih dekat menuju kedaulatan digital
 
+Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI (teknologi informasi) Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan rumah Anda, setiap elemen ini dapat menjadi pintu gerbang potensial bagi privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
 
+Ini bukan hanya tentang mengetahui praktik terbaik: ini tentang memahami apa yang Anda gunakan, bagaimana Anda menggunakannya, dan apa artinya bagi keamanan Anda. Kursus SCU202 ini memberikan pengantar mendalam tentang dasar-dasar teknis sistem operasi, memperkenalkan Anda pada penggunaan praktis Linux, dan memandu Anda dalam menyiapkan lingkungan kerja yang stabil, fungsional, dan tangguh.
 
-Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan rumah Anda, masing-masing Elements ini dapat menjadi pintu gerbang potensial untuk privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
+Sepanjang modul kursus, Anda akan menemukan cara memverifikasi integritas perangkat lunak yang Anda instal, mengenkripsi data Anda secara efektif, menggunakan browser dan ponsel Anda dengan kebocoran data yang minimum, dan memperkuat keamanan jaringan rumah Anda.
 
-
-
-Ini bukan hanya tentang mengetahui praktik terbaik: ini tentang memahami apa yang Anda gunakan, bagaimana Anda menggunakannya, dan apa artinya bagi keamanan Anda. Kursus SCU202 ini memberikan pengenalan mendalam tentang dasar-dasar teknis sistem operasi, memperkenalkan Anda pada penggunaan praktis Linux, dan memandu Anda dalam menyiapkan lingkungan kerja yang stabil, fungsional, dan tangguh.
-
-
-
-Di sepanjang modul kursus ini, Anda akan menemukan cara memverifikasi integritas perangkat lunak yang Anda instal, mengenkripsi data secara efektif, menggunakan peramban dan telepon dengan kebocoran data minimum, dan memperkuat keamanan jaringan rumah Anda.
-
-
-
-Kursus ini menargetkan pengguna tingkat menengah yang ingin melangkah lebih jauh dalam menguasai alat digital mereka. Kursus ini didasarkan pada pendekatan praktis, yang berfokus pada otonomi dan kedaulatan, untuk membangun kebiasaan TI sehari-hari yang lebih aman dan lebih sadar, mengikuti moto "*Jangan Percaya, Verifikasi*".
-
-
+Kursus ini menargetkan pengguna tingkat menengah yang ingin lebih jauh menguasai perangkat digital mereka. Kursus ini didasarkan pada pendekatan praktis, berfokus pada otonomi dan kedaulatan, untuk membangun kebiasaan TI (teknologi informasi) sehari-hari yang lebih aman dan lebih sadar, mengikuti moto “_Jangan Percaya, Verifikasi_”.
 
 +++
 
 # Pendahuluan
 
-
 <partId>8b696bba-e6f6-47d9-ba30-fe4b75636b88</partId>
-
-
 
 ## Gambaran umum kursus
 
-
 <chapterId>7bf90137-7387-462d-884f-fe48e812b739</chapterId>
 
-
-
-Selamat datang di kursus SCU202, kelanjutan dari kursus SCU101, yang akan membawa Anda lebih jauh dalam penguasaan keamanan TI dengan menekankan kedaulatan individu, perlindungan privasi, dan pengelolaan data pribadi Anda yang aman. Berikut ini adalah gambaran umum tentang apa yang akan Anda temukan di seluruh kursus SCU202.
-
-
+Selamat datang di kursus SCU202, kelanjutan dari kursus SCU101, yang akan membawa Anda lebih jauh dalam penguasaan keamanan TI (teknologi informasi) dengan menekankan kedaulatan individu, perlindungan privasi, dan pengelolaan data pribadi Anda yang aman. Berikut ini adalah gambaran umum tentang apa yang akan Anda temukan di seluruh kursus SCU202.
 
 ### Bagian 1 - Pendahuluan
 
-
-
-Kursus ini dimulai dengan tinjauan singkat tentang konsep-konsep yang tercakup dalam SCU101 yang akan memastikan bahwa Anda sepenuhnya mengetahui prinsip-prinsip dasar yang diperlukan untuk melakukan pendekatan yang tepat terhadap materi selanjutnya.
-
-
+Kursus dimulai dengan tinjauan singkat tentang konsep-konsep yang dibahas dalam SCU101 yang akan memastikan Anda sepenuhnya memahami prinsip-prinsip mendasar yang diperlukan untuk mempelajari materi selanjutnya dengan baik.
 
 ### Bagian 2 - Dari klik ke terminal: menguasai Linux
 
+Bagian ini memperkenalkan sistem GNU/Linux, sebuah dasar kedaulatan digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah menarik dari Linux dan perangkat lunak gratis, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
 
-
-Bagian ini memperkenalkan sistem GNU/Linux, pilar kedaulatan digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah Linux dan perangkat lunak bebas yang menarik, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
-
-
-
-Selanjutnya, Anda akan belajar cara memilih distribusi Linux yang paling sesuai dengan kebutuhan dan lingkungan desktop Anda. Terakhir, Anda akan mengambil langkah pertama dengan Ubuntu melalui panduan instalasi dan konfigurasi yang terperinci.
-
-
+Selanjutnya, Anda akan belajar cara memilih distribusi Linux yang paling sesuai dengan kebutuhan dan lingkungan desktop Anda. Akhirnya, Anda akan mengambil langkah pertama dengan Ubuntu melalui panduan instalasi dan konfigurasi yang terperinci.
 
 ![Image](assets/fr/064.webp)
 
-
-
 ### Bagian 3 - Mengamankan komputer Anda
 
+Pada bagian ini, Anda akan belajar cara memperkuat keamanan komputer Anda. Kami akan membahas metode-metode untuk secara efektif melindungi akses Anda dan memisahkan penggunaan Anda. Anda akan memahami pentingnya pembaruan sistem dan perangkat lunak secara berkala untuk meminimalkan potensi kerentanan.
 
-Pada bagian ini, Anda akan mempelajari cara memperkuat keamanan komputer Anda. Kami akan membahas metode-metode untuk melindungi akses Anda secara efektif dan memisahkan penggunaan Anda. Anda akan memahami pentingnya pembaruan sistem dan perangkat lunak secara teratur untuk meminimalkan potensi kerentanan.
-
-
-
-Kamu juga akan dilatih untuk memverifikasi integritas dan keaslian perangkat lunak yang diunduh untuk menghindari infeksi atau kompromi, serta menggunakan enkripsi secara efektif untuk mengamankan data pribadi dan cadangan. Terakhir, kamu akan mengetahui mengapa dan bagaimana cara membersihkan metadata file kamu untuk melindungi privasimu secara online.
-
-
+Anda juga akan dilatih untuk memverifikasi integritas dan keaslian perangkat lunak yang diunduh untuk menghindari perusakan atau disusupi, serta menggunakan enkripsi secara efektif untuk mengamankan data pribadi dan cadangan Anda. Akhirnya, Anda akan menemukan mengapa dan bagaimana cara membersihkan file metadata  Anda untuk melindungi privasi Anda secara online.
 
 ![Image](assets/fr/235.webp)
 
-
-
 ### Bagian 4 - Browser: OS di dalam OS
-
-
 
 Saat ini, peramban web ada di mana-mana dalam kehidupan digital kita sehari-hari, dan sering kali menjadi target utama serangan siber. Pada bagian ini, kami menelusuri kembali sejarah peramban web dan evolusinya.
 
-
-
 Anda kemudian akan menemukan gambaran umum tentang mesin rendering dan peramban saat ini, pro dan kontra mereka, bersama dengan praktik terbaik yang konkret untuk mengamankan penjelajahan Anda semaksimal mungkin.
-
-
 
 ![Image](assets/fr/098.webp)
 
-
-
 ### Bagian 5 - Mengambil kembali kendali ponsel Anda
-
-
 
 Saat ini, ponsel cerdas kita merupakan perpanjangan dari kehidupan pribadi dan profesional kita, sehingga sangat penting untuk mengontrol keamanannya. Kami akan menjelajahi secara detail berbagai sistem operasi seluler, kelebihan dan keterbatasannya, sambil menemukan alternatif sumber terbuka untuk mendapatkan kembali kedaulatan penuh atas perangkat Anda.
 
-
-
 Kemudian, Anda akan mempelajari praktik terbaik untuk keamanan sehari-hari, mulai dari pembaruan hingga memisahkan data pribadi dan profesional. Terakhir, Anda akan menemukan alat komunikasi yang aman dan aplikasi sumber terbuka alternatif untuk meningkatkan privasi dan keamanan ponsel Anda.
-
-
 
 ![Image](assets/fr/142.webp)
 

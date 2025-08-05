@@ -4,6 +4,12 @@ description: Setting up a 2/2 multisig on Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Note:** As of May 2025, it will no longer be possible to activate new accounts protected by two-factor authentication (2FA). This feature is only available to users who had previously activated this type of account.*
+
+___
+
 A software wallet is an application installed on a computer, smartphone or other Internet-connected device, enabling you to manage and secure your Bitcoin wallet keys. Unlike hardware wallets, which isolate private keys, "hot" wallets therefore operate in an environment potentially exposed to cyber-attacks, increasing the risk of piracy and theft.
 
 Software wallets should be used to manage reasonable amounts of bitcoins, especially for everyday transactions. They can also be an interesting option for people with limited bitcoin assets, for whom investment in a hardware wallet may seem disproportionate. However, their constant exposure to the Internet makes them less secure for storing your long-term savings or large funds. For the latter, it's best to opt for more secure solutions, such as hardware wallets.

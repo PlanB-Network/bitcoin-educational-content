@@ -1,0 +1,10 @@
+question: Parmi les économistes autrichiens, quel est celui qui parle de planisme
+  ?
+answer: Hayek.
+wrong_answers:
+- Menger.
+- Mises.
+- Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) est l'économiste autrichien qui parle de 'planisme' pour désigner la planification économique centralisée. Il critique cette approche dans 'La Route de la servitude'.
+reviewed: false

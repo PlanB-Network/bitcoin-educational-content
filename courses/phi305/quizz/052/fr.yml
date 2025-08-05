@@ -1,0 +1,9 @@
+question: Qui est l'auteur du manifeste du cypherpunk ?
+answer: Eric Hughes.
+wrong_answers:
+- Timothy May.
+- Satoshi Nakamoto.
+- Milton Friedman.
+explanation: |
+  Eric Hughes est l'auteur du Manifeste du Cypherpunk (1993). Ce texte fondateur défend l'usage de la cryptographie pour protéger la vie privée dans l'ère numérique.
+reviewed: false

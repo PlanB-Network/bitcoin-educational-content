@@ -5,7 +5,6 @@ wrong_answers:
   - Le nombre d'utilisateurs sur la plateforme.
   - L'âge de la plateforme.
 explanation: |
-  Ce texte de cours mentionne que lors du choix d'une
-  plateforme DCA, le bon choix dépendra davantage de sa
+  Lors du choix d'une plateforme DCA, le bon choix dépendra davantage de sa
   disponibilité dans votre pays.
 reviewed: true

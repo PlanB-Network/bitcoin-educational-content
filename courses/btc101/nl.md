@@ -499,7 +499,7 @@ Wat als iemand per ongeluk onze lijst van 12 of 24 woorden raadt? Het korte antw
 
 De kans dat je Bitcoin wallet gehackt wordt is dus astronomisch klein als je de goede beveiligingspraktijken volgt die we in het volgende hoofdstuk zullen beschrijven.
 
-Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.network/tutorials/Wallet).
+Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.network/tutorials/wallet).
 
 Als je tijdens je reis door het konijnenhol meer wilt leren over het bouwen van een Bitcoin wallet, van entropie tot het ontvangstaddressen, raden we je de CYP 201 cursus aan die aan dit onderwerp is gewijd:
 
@@ -625,7 +625,7 @@ Zoals elke vorm van rijkdom, moeten je bitcoins beschermd worden tegen verlies, 
 
 Een methode om je bitcoins op de lange termijn te beveiligen is om je mnemonische zin te graveren op een extreem duurzaam materiaal zoals staal. Hierdoor creëer je een fysieke back-up van je sleutels die bestand is tegen water- en brandschade.
 
-Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.network/en/tutorials/Wallet) sectie van onze academie.
+Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.network/en/tutorials/wallet) sectie van onze academie.
 
 ![image](assets/en/37.webp)
 
@@ -1108,7 +1108,7 @@ Deze geleidelijke strategie bestaat uit periodiek aankopen, wat betekent dat je 
 
 **Pas op voor UTXO's**: Vergeet niet om je UTXO's in je wallet van tijd tot tijd te consolideren. Deze praktijk is essentieel voor het effectief beheren van je bitcoins en het vermijden van onnodige kosten tijdens transacties.
 
-Een [UTXO](https://planb.network/en/resources/glossary/UTXO) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
+Een [UTXO](https://planb.network/en/resources/glossary/utxo) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
 
 - Spontane aankoop
 
@@ -1122,7 +1122,7 @@ Er zijn verschillende manieren om bitcoins aan te schaffen, elke manier is onder
 
 - DCA-platforms
 
-Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.network/tutorials/Exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
+Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.network/tutorials/exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
 
 Tegenwoordig zijn bijna alle DCA-oplossingen relatief efficiënt en hebben ze bijna dezelfde tarieven, dus de keuze zal meer afhangen van de beschikbaarheid in jouw land.
 
@@ -1147,7 +1147,7 @@ Het is essentieel om te erkennen dat KYC een belangrijk onderwerp van discussie 
 
 ### Niet-KYC-oplossingen
 
-Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/Exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
+Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
 
 - Bitcoin geldautomaten
 - Fysieke ontmoetingen met andere Bitcoin enthousiastelingen

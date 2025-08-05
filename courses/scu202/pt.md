@@ -1062,7 +1062,7 @@ Desenvolvido pela Canonical e lançado em 2004, o Ubuntu é uma das distribuiç�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Lançado em 2006, o Linux Mint é uma distribuição derivada do Ubuntu, concebi
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 O Mint destaca-se pela sua simplicidade, a presença por defeito de codecs multimédia e uma ferramenta de atualização bem concebida. Por outro lado, depende fortemente da infraestrutura do Ubuntu, o que o torna dependente das escolhas técnicas do Ubuntu (particularmente ao nível do kernel e do repositório). O Mint é particularmente adequado para utilizadores não técnicos, ou para aqueles que querem um sistema pronto a usar que não requer muita aprendizagem.
 
@@ -1246,7 +1246,7 @@ Tails é uma distribuição live baseada em Debian, focada na privacidade. Tudo 
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → Uma distribuição live é um sistema operativo Linux que pode ser utilizado diretamente a partir de uma pen USB ou CD, sem instalação no disco Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS não integra nenhum componente proprietário. Você é livre para adi
 O Graphene só é compatível com os recentes Google Pixels (Pixel 6, 7, 8 e 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

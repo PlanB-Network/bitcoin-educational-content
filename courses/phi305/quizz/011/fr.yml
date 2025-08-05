@@ -1,0 +1,9 @@
+question: Que pense Spinoza du hasard ?
+answer: Il n'existe pas.
+wrong_answers:
+- Il existe.
+- Il l'assimile au fatalisme.
+- Il le considère comme de la superstition.
+explanation: |
+  Pour Spinoza, le hasard n'existe pas. Tout dans l'univers suit des lois nécessaires et déterminées. Ce qui nous apparaît comme du hasard n'est que le résultat de notre ignorance des causes véritables.
+reviewed: false

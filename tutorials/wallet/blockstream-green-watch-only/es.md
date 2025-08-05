@@ -30,7 +30,7 @@ En este tutorial, nos centraremos únicamente en la creación de una cartera só
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Instalación y configuración de la aplicación Blockstream Green
 
@@ -122,4 +122,5 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que eches un vistazo a este otro tutorial completo sobre la aplicación Blockstream Green para configurar un monedero caliente:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

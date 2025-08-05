@@ -5,5 +5,5 @@ wrong_answers:
   - Pour empêcher vos bitcoins d'être volés.
   - Pour garantir que vos bitcoins sont toujours disponibles.
 explanation: >-
-  Le texte mentionne que consolider vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
+  Consolider vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
 reviewed: true

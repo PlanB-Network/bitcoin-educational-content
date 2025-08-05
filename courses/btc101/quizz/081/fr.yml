@@ -5,8 +5,8 @@ wrong_answers:
   - Le portefeuille permet-il de recevoir et d'envoyer des bitcoins ?
   - Puis-je partager mon portefeuille avec une autre personne ?
 explanation: |
-  Lors du choix d'un portefeuille Bitcoin, la question centrale est:
+  Lors du choix d'un portefeuille Bitcoin, la question centrale est :
   êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de
   votre argent à un tiers ? Cela est dû au fait que le détenteur de
-  la clé privée est le propriétaire des Bitcoins.
+  la clé privée est le propriétaire des bitcoins.
 reviewed: true

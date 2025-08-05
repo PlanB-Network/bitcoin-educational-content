@@ -1436,10 +1436,6 @@ Bagi Hayek, ketidakstabilan ekonomi pasar masa lalu berasal dari fakta bahwa reg
 ![image](assets/6/img-006.webp)
 Hayek percaya bahwa pasar bebas mata uang privat akan mengarah pada stabilitas moneter yang lebih besar. Hampir 50 tahun kemudian, sebuah cryptocurrency seperti Bitcoin mewujudkan visi kompetitif Hayek dengan menawarkan alternatif terdesentralisasi terhadap sistem monopoli bank sentral. Bitcoin, dengan batas emisi 21 juta unit, adalah jaminan terhadap inflasi dan sewenang-wenang regulator.
 
-## Ulasan & Penilaian
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-<isCourseReview>true</isCourseReview>
 
 ## Kesimpulan: kekuatan ide
 

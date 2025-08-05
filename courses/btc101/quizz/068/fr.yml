@@ -6,6 +6,6 @@ wrong_answers:
   - Tous les 2 100 000 blocs.
 explanation: |
   La récompense pour le minage est programmée pour être divisée par deux tous les 210 000
-  blocs, ce qui correspond à peu près à tous les quatre ans: un événement
+  blocs, ce qui correspond à peu près à tous les quatre ans : un événement
   connu sous le nom de halving.
 reviewed: true

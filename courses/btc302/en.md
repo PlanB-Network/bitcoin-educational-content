@@ -194,7 +194,7 @@ In this sense, the organization of meet-ups can be much more convivial than audi
 Bitcoin meet-ups can therefore be a time **for discussion of technical subjects or projects in development**; and for "bitcoiners in the making", to **level off little by little into the world of Bitcoin**.
 
 
-These events can also be used to announce new projects, exchange materials or books, preview a documentary or hold a conference or workshop on a given topic. We'll be talking about these in more detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279).
+These events can also be used to announce new projects, exchange materials or books, preview a documentary or hold a conference or workshop on a given topic. We'll be talking about these in more detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -282,7 +282,7 @@ In this sense, **setting concrete objectives and projects seems necessary**.
 If you want to give your community a physical dimension, your first event will certainly be a meet-up. Its objective will undoubtedly be to meet bitcoiners living near you.
 
 
-However, as we'll see later in the section [Examples of projects and initiatives](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many different ways, with many different objectives**.
+However, as we'll see later in the section [Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many different ways, with many different objectives**.
 
 It can be an opportunity to **combine the discovery of new people with an educational presentation on a specific Bitcoin concept, or a professional presentation of Bitcoin solutions with a debate on a local merchant orange-pilling strategy, etc**. It's up to each meet-up organizer to position himself according to the pre-established objectives.
 
@@ -647,7 +647,7 @@ For the following tutorials, we'll be using the "Telegram+" APK application, whi
 
 If you want to create a place where your members can talk to each other directly, respond to each other, etc., then a Telegram channel is definitely not the way to go!
 
-Go directly to the next section, entitled [Create a Telegram group](https://planb.network/fr/courses/btc302/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Go directly to the next section, entitled [Create a Telegram group](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 Indeed, **a Telegram channel is just a showcase for information posted by administrators, in which members won't be able to do much more than add emojis**.
@@ -944,7 +944,7 @@ Very simple to use, Twitter is a social network that requires you to modify cert
 
 1/ **the @ Twitter**, which defines your identity and makes you easy to find. If your community's name is "Bitcoin [CITY]", it's a good idea to choose "@Bitcoin[CITY]";
 
-2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.network/fr/courses/btc302/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 3/ **the description**, which will allow you to give important information about your community in a few hundred characters. This could be, for example:
 
@@ -1203,7 +1203,7 @@ In the latter case, a second event in the month can be used to **address a speci
 ![image](assets/fr/031.webp)
 
 
-Bear in mind, however, that **this requires a lot more organization; and will therefore take up more of your time**. But fortunately, in [part 6/8 of this course](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279), you'll be offered a number of reusable open-source resources.
+Bear in mind, however, that **this requires a lot more organization; and will therefore take up more of your time**. But fortunately, in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), you'll be offered a number of reusable open-source resources.
 
 
 In any case, it all depends on the short-, medium- and long-term action plan you (or your community) set for yourself.
@@ -1257,7 +1257,7 @@ Planning to organize a meet-up in the next few weeks? The following steps can he
 
 1/ **get in touch with the venue** in which you will be holding your event, in order to **validate a reservation** for a given number of people;
 
-2/ **advertise your event on social networks and other communication channels, clearly stating the date, time and location** and adding a registration link if necessary. For this communication, a specific visual can be created (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.network/fr/courses/btc302/b48a18cc-afdf-5216-802c-32647b5cd8a3)"). What's more, to ensure that as many people as possible can see this announcement, it can be **pinned on Telegram and Twitter**, and can also contain a **"@everyone" on Discord**. It's also a good idea to **post these announcements 1 week to ten days before the event date**, so that everyone can plan ahead;
+2/ **advertise your event on social networks and other communication channels, clearly stating the date, time and location** and adding a registration link if necessary. For this communication, a specific visual can be created (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)"). What's more, to ensure that as many people as possible can see this announcement, it can be **pinned on Telegram and Twitter**, and can also contain a **"@everyone" on Discord**. It's also a good idea to **post these announcements 1 week to ten days before the event date**, so that everyone can plan ahead;
 
 
 ![image](assets/fr/033.webp)
@@ -1342,7 +1342,7 @@ The city of Rome wasn't built in a day, and neither will your community. This me
 To do this, one thing is essential: **engage your event participants**.
 
 
-It can start with a small group of die-hard bitcoiners, whose aim is to get together regularly to talk Bitcoin. As the weeks go by, and depending on the time and sensitivity of each member, there's nothing to stop you from **sharing certain organizational tasks** with your community, or even **proposing to these involved bitcoiners to carry out a given project**. This could be specific to your community, your meet-ups or even your town; or it could be based on one of the many initiatives proposed in [part 6/8 of this course](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279). **This would encourage the core members of your community to get involved, and thus help it to flourish**.
+It can start with a small group of die-hard bitcoiners, whose aim is to get together regularly to talk Bitcoin. As the weeks go by, and depending on the time and sensitivity of each member, there's nothing to stop you from **sharing certain organizational tasks** with your community, or even **proposing to these involved bitcoiners to carry out a given project**. This could be specific to your community, your meet-ups or even your town; or it could be based on one of the many initiatives proposed in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **This would encourage the core members of your community to get involved, and thus help it to flourish**.
 
 
 **New faces will then join you as the meet-ups progress**. These may be people who have bought BTC and/or alt/shitcoins in previous cycles, people with a more "tech" profile wishing to go further in their understanding of Bitcoin and its ecosystem; but also novices, gleaning their first information on this new electronic payment system that is incensurable, decentralized, transparent, fair, usable unconditionally and without a trusted third party.
@@ -1782,7 +1782,7 @@ Some of the best-known video platforms include:
 - [**peertube**](https://joinpeertube.org/fr_FR), which lets you create your own video platform. It's probably a level above in terms of set-up.
 
 
-Depending on your wishes and needs, you'll obviously need to **create visuals specific to this platform**; to make your video channel visually appealing. On the plus side, with **Canva**, which we talked about in [part 2/8 of this course](https://planb.network/fr/courses/btc302/3470a31f-0190-5e87-8af0-6a00e79267ef), there's a "YouTube Thumbnail" category with pre-designed, easily modifiable visuals.
+Depending on your wishes and needs, you'll obviously need to **create visuals specific to this platform**; to make your video channel visually appealing. On the plus side, with **Canva**, which we talked about in [part 2/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), there's a "YouTube Thumbnail" category with pre-designed, easily modifiable visuals.
 
 
 ![image](assets/fr/051.webp)

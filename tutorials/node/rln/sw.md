@@ -104,7 +104,7 @@ Kila mfano wa RLN utahitaji kuwasiliana na `bitcoind` ili kutangaza na kufuatili
 
 
 
-- Kielelezo** (Electrum au Esplora)
+- **Kielelezo** (Electrum au Esplora)
 
 
 daemon lazima iweze kuorodhesha na kuchunguza miamala ya On-Chain, hasa kupata UTXO ambayo mali imewekewa nanga. Utahitaji kubainisha URL ya seva yako ya Electrum au Esplora.
@@ -112,7 +112,7 @@ daemon lazima iweze kuorodhesha na kuchunguza miamala ya On-Chain, hasa kupata U
 
 
 
-- Wakala wa RGB**
+- **Wakala wa RGB**
 
 
 Seva ya proksi ni sehemu (ya hiari, lakini inapendekezwa sana) ili kurahisisha Exchange ya RGB *shehena* kati ya programu zingine za Lightning. Kwa mara nyingine tena, ni lazima URL ibainishwe.

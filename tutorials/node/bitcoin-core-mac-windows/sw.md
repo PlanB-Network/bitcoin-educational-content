@@ -21,7 +21,7 @@ Unaweza kufuta kabisa kompyuta ya zamani, na uitumie kama kompyuta maalum ya Bit
 ## Hifadhi ya Hard
 
 
-Bitcoin Core itachukua takriban gigabaiti 400 za data kwenye hifadhi yako, na itaendelea kukua. Unaweza kutumia kiendeshi chako cha ndani, lakini pia unaweza ambatisha kiendeshi cha nje cha Hard. Nitaelezea chaguzi zote mbili. Kwa kweli, unapaswa kutumia gari la hali ngumu. Ikiwa una kompyuta ya zamani, labda haina moja ya hizi ndani. Nunua tu SSD ya nje ya terabyte 1 au 2 na utumie hiyo. Hifadhi ya kawaida labda itafanya kazi, lakini unaweza kuishia kuwa na maswala na itakuwa polepole zaidi.
+Bitcoin Core itachukua takriban gigabaiti 400 za data kwenye hifadhi yako, na itaendelea kukua. Unaweza kutumia kiendeshi chako cha ndani, lakini pia unaweza ambatisha kiendeshi cha nje cha Hard. Nitaelezea chaguzi zote mbili. Kwa kweli, unapaswa kutumia gari la hali ngumu. Ikiwa una kompyuta ya zamani, labda haina moja ya hizi ndani. Nunua tu SSD ya nje ya terabyte 1 au 2 na utumie hiyo. Hifadhi ya kawaida labda itafanya kazi, lakini unaweza kuishia kuwa na masuala na itakuwa polepole zaidi.
 
 
 ![image](assets/1.webp)
@@ -84,7 +84,7 @@ Utapata pato la Hash. Iandike, na uilinganishe na Hash iliyo katika faili ya SHA
 Ikiwa matokeo yanafanana, basi umethibitisha kuwa hakuna data iliyoingiliwa... karibu. Bado tunahitaji kuhakikisha kuwa faili ya SHA256SUMS si hasidi.
 
 
-Ili kuendelea na hatua inayofuata, lazima tuwe na gpg iliyosakinishwa kwenye kompyuta yetu.
+Ili kuendelea na hatua itakayofuata, lazima tuwe na gpg iliyosakinishwa kwenye kompyuta yetu.
 
 
 Ili kufanya hivyo, angalia mwongozo wangu wa SHA256/gpg, na usogeze karibu nusu ya sehemu ya "Pakua gpg", na utafute kichwa kidogo cha mfumo wako wa kufanya kazi. Kisha urudi hapa.
@@ -206,7 +206,7 @@ Bitcoin Core inapaswa kupakia na utawasilishwa na chaguzi kadhaa:
 Hapa unaweza kuchagua kutumia njia chaguo-msingi ambapo Blockchain itapakuliwa, au unaweza kuchagua hifadhi yako ya nje. Ninapendekeza usibadilishe njia chaguo-msingi ikiwa utatumia hifadhi ya ndani, hurahisisha mambo kusanidi unaposakinisha programu nyingine ili kuwasiliana na Bitcoin Core.
 
 
-Unaweza kuchagua kuendesha nodi iliyokatwa, inaokoa nafasi, lakini inapunguza kile unachoweza kufanya na nodi yako. Vyovyote vile, utakuwa unapakua Blockchain nzima na kuithibitisha hata hivyo, kwa hivyo ikiwa una nafasi, weka ulichopakua, na usikate ikiwa unaweza kuiepuka.
+Unaweza kuchagua kuendesha nodi iliyokatwa, inaokoa nafasi, lakini inapunguza kile utakachoweza kufanya na nodi yako. Vyovyote vile, utakuwa unapakua Blockchain nzima na kuithibitisha hata hivyo, kwa hivyo ikiwa una nafasi, weka ulichopakua, na usikate ikiwa unaweza kuiepuka.
 
 
 Baada ya kuthibitisha, Blockchain itaanza kupakua. Itachukua siku nyingi.

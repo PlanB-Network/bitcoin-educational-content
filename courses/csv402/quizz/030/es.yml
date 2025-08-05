@@ -1,9 +1,9 @@
-question: ¿Cuáles son los componentes de un envío RGB que Bob (destinatario) recibe por un contrato?
-answer: Génesis, esquema, interfaz e implementación de la interfaz
+question: ¿Cuáles son los componentes de un consignment RGB que Bob (destinatario) recibe por un contrato?
+answer: Genesis, Schema, Interface e Interface Implementation
 wrong_answers:
-  - Génesis, esquema, transición y ampliación
-  - Esquema, interfaz, firma y PSBT
-  - Génesis, Interfaz, PSBT e Historia
+  - Genesis, Schema, Transition y Extension
+  - Schema, Interface, Signature y PSBT
+  - Genesis, Interface, PSBT e Historia
 explanation: |
-  El envío de un contrato RGB incluye la Génesis, el Esquema, la Interfaz y la Implementación de la Interfaz, que proporcionan todos los datos necesarios para validar el contrato.
+  El envío de un contrato RGB incluye el Genesis, el Schema, la Interface y la Interface Implementation, que proporcionan todos los datos necesarios para validar el contrato.
 reviewed: false

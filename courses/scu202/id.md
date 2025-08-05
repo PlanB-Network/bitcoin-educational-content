@@ -14,11 +14,11 @@ objectives:
 ---
 # Selangkah lebih dekat menuju kedaulatan digital
 
-Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI (teknologi informasi) Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan rumah Anda, setiap elemen ini dapat menjadi pintu gerbang potensial bagi privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
+Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI (teknologi informasi) Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan lokal Anda, setiap elemen ini dapat menjadi pintu gerbang potensial bagi privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
 
 Ini bukan hanya tentang mengetahui praktik terbaik: ini tentang memahami apa yang Anda gunakan, bagaimana Anda menggunakannya, dan apa artinya bagi keamanan Anda. Kursus SCU202 ini memberikan pengantar mendalam tentang dasar-dasar teknis sistem operasi, memperkenalkan Anda pada penggunaan praktis Linux, dan memandu Anda dalam menyiapkan lingkungan kerja yang stabil, fungsional, dan tangguh.
 
-Sepanjang modul kursus, Anda akan menemukan cara memverifikasi integritas perangkat lunak yang Anda instal, mengenkripsi data Anda secara efektif, menggunakan browser dan ponsel Anda dengan kebocoran data yang minimum, dan memperkuat keamanan jaringan rumah Anda.
+Sepanjang modul kursus, Anda akan menemukan cara memverifikasi integritas perangkat lunak yang Anda instal, mengenkripsi data Anda secara efektif, menggunakan browser dan ponsel Anda dengan kebocoran data yang minimum, dan memperkuat keamanan jaringan lokal Anda.
 
 Kursus ini menargetkan pengguna tingkat menengah yang ingin lebih jauh menguasai perangkat digital mereka. Kursus ini didasarkan pada pendekatan praktis, berfokus pada otonomi dan kedaulatan, untuk membangun kebiasaan TI (teknologi informasi) sehari-hari yang lebih aman dan lebih sadar, mengikuti moto “_Jangan Percaya, Verifikasi_”.
 
@@ -56,72 +56,47 @@ Anda juga akan dilatih untuk memverifikasi integritas dan keaslian perangkat lun
 
 ### Bagian 4 - Browser: OS di dalam OS
 
-Saat ini, peramban web ada di mana-mana dalam kehidupan digital kita sehari-hari, dan sering kali menjadi target utama serangan siber. Pada bagian ini, kami menelusuri kembali sejarah peramban web dan evolusinya.
+Saat ini, browser web ada di mana-mana dalam kehidupan digital kita sehari-hari, dan seringkali menjadi target utama serangan siber. Di bagian ini, kita akan menelusuri kembali sejarah browser dan evolusinya.
 
-Anda kemudian akan menemukan gambaran umum tentang mesin rendering dan peramban saat ini, pro dan kontra mereka, bersama dengan praktik terbaik yang konkret untuk mengamankan penjelajahan Anda semaksimal mungkin.
+Kemudian, Anda akan menemukan gambaran umum tentang _rendering engine_ dan browser saat ini, kelebihan dan kekurangannya, serta praktik terbaik yang nyata untuk mengamankan penjelajahan web Anda semaksimal mungkin.
 
 ![Image](assets/fr/098.webp)
 
 ### Bagian 5 - Mengambil kembali kendali ponsel Anda
 
-Saat ini, ponsel cerdas kita merupakan perpanjangan dari kehidupan pribadi dan profesional kita, sehingga sangat penting untuk mengontrol keamanannya. Kami akan menjelajahi secara detail berbagai sistem operasi seluler, kelebihan dan keterbatasannya, sambil menemukan alternatif sumber terbuka untuk mendapatkan kembali kedaulatan penuh atas perangkat Anda.
+Saat ini, smartphone kita adalah perpanjangan dari kehidupan pribadi maupun profesional kita, membuatnya sangat penting untuk mengontrol keamanannya. Kita akan mendalami secara rinci berbagai sistem operasi seluler, kelebihan dan kekurangannya, sambil menemukan alternatif open source untuk mendapatkan kembali kedaulatan penuh atas perangkat Anda.
 
-Kemudian, Anda akan mempelajari praktik terbaik untuk keamanan sehari-hari, mulai dari pembaruan hingga memisahkan data pribadi dan profesional. Terakhir, Anda akan menemukan alat komunikasi yang aman dan aplikasi sumber terbuka alternatif untuk meningkatkan privasi dan keamanan ponsel Anda.
+Anda kemudian akan mempelajari praktik terbaik untuk keamanan sehari-hari, mulai dari pembaruan hingga pemisahan data pribadi dan profesional Anda. Terakhir, Anda akan menemukan perangkat komunikasi yang aman dan aplikasi alternatif open source untuk meningkatkan privasi dan keamanan ponsel Anda.
 
 ![Image](assets/fr/142.webp)
 
-
-
 ### Bagian 6 - Mengamankan jaringan lokal Anda
 
+Jaringan lokal Anda adalah titik kritis penting dalam hal keamanan. Kami akan mulai dengan melihat cara kerja jaringan lokal, sebelum beralih ke langkah-langkah praktis yang terlibat dalam mengamankannya secara efektif.
 
-
-Jaringan rumah Anda adalah titik kritis yang penting dalam hal keamanan. Kita akan mulai dengan melihat cara kerja jaringan lokal, sebelum beralih ke langkah-langkah praktis dalam mengamankannya secara efektif.
-
-
-
-Anda akan belajar cara memilih dan mengonfigurasi router yang aman, melakukan segmentasi jaringan, memperkuat jaringan Wi-Fi, dan menggunakan alat pemantau untuk mendeteksi anomali dengan cepat.
-
-
+Anda akan belajar cara memilih dan mengonfigurasi router yang aman, melakukan segmentasi jaringan Anda, memperkuat jaringan Wi-Fi Anda, dan menggunakan perangkat pemantauan untuk mendeteksi anomali apa pun dengan cepat.
 
 ![Image](assets/fr/193.webp)
 
-
-
 ### Bagian 7 - Bagian akhir
 
-
-
-Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapatkan sertifikat dan memverifikasi pemahaman Anda tentang topik-topik yang dibahas.
-
-
+Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapatkan sertifikat dan memverifikasi pemahaman Anda tentang topik-topik yang telah dibahas.
 
 ![Image](assets/fr/274.webp)
 
+Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi informasi) Anda, memperkuat kedaulatan individu Anda, dan menjamin privasi online Anda? Ayo mulai!
 
-
-Apakah Anda siap untuk sepenuhnya mengendalikan keamanan TI Anda, memperkuat kedaulatan individu Anda dan menjamin privasi online Anda? Ayo mulai!
-
-
-
-*N.B.: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya
-
-
+*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya
 
 ## Rekapitulasi penting dari SCU101
 
-
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 
-
-
-Sebelum memulai mata kuliah SCU202, saya ingin mengulas secara singkat konsep-konsep dasar yang tercakup dalam mata kuliah sebelumnya ("SCU101") dalam bab ini.
-
-
+Sebelum memulai kursus SCU202, saya ingin mengulas secara singkat konsep-konsep mendasar yang dibahas dalam kursus sebelumnya ("SCU101") di bab ini.
 
 Selain itu, jika Anda masih pemula dalam bidang komputer dan belum pernah mengambil SCU101, saya sangat menyarankan Anda untuk memulai dengan kursus pertama sebelum melanjutkan ke kursus ini. Dasar-dasar yang tercakup dalam SCU101 tidak akan diulang di sini. Oleh karena itu, saya tidak akan kembali ke praktik keamanan dasar, atau penggunaan VPN, pengelola kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini sangat penting untuk dikuasai sebelum beralih ke penggunaan yang lebih lanjut, yang akan kita bahas di bab-bab berikutnya.
 
-
+Selain itu, jika Anda masih pemula dalam bidang komputer dan belum mengambil SCU101, saya sangat menyarankan untuk memulai dengan kursus pertama itu sebelum melanjutkan ke kursus ini. Dasar-dasar yang dibahas di SCU101 tidak akan diulangi di sini. Oleh karena itu, saya tidak akan kembali membahas praktik keamanan dasar, penggunaan VPN, manajer kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini penting untuk dikuasai sebelum beralih ke penggunaan yang lebih maju, yang akan kita bahas di bab-bab berikutnya.
 
 Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam kebersihan digital untuk pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan, privasi, dan kedaulatan digital sehari-hari.
 

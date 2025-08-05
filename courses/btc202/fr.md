@@ -611,7 +611,7 @@ Par défaut, la valeur de Bitcoin Core est de 450 MiB, ce qui équivaut à envir
 
 Attention également à ne pas mettre ce paramètre trop haut, car votre noeud pourrait crash si jamais la RAM disponible pour UmbrelOS n'est plus suffisante, et dans ce cas, votre IBD serait intérompue et devrait être relancée manuellement, ce qui peut vous faire perdre beaucoup de temps.
 
-
+Voir : https://blog.lopp.net/effects-dbcache-size-bitcoin-node-sync-speed/
 
 
 

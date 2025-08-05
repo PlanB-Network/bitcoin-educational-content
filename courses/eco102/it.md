@@ -56,12 +56,15 @@ Pronto a scoprire come le idee di Frédéric Bastiat possano ancora risuonare og
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
 Questo corso è un'introduzione a Frédéric Bastiat, un genio non riconosciuto e un faro per i nostri tempi. In questa breve introduzione, cercherò di aiutarvi a scoprire chi era Frédéric Bastiat e quali sono i temi principali che tratteremo durante questa serie.
+
 ![image](assets/en/001.webp)
 
 Infatti, Frédéric Bastiat, nato nel 1801 e vissuto durante la prima metà del XIX secolo, è rimasto per qualche tempo un autore importante. E poi, gradualmente, è scomparso e oggi, nessuno parla di lui, nessuno sa chi sia. Eppure, paradossalmente, questo autore è stato tradotto in molte lingue, inclusi l'italiano, il russo, lo spagnolo e l'inglese.
 
 ![image](assets/en/002.webp)
+
 Si scopre che dopo la Seconda Guerra Mondiale, uno dei suoi libri fu pubblicato negli Stati Uniti. Divenne molto famoso, tanto che lo stesso Ronald Reagan disse che era il suo libro preferito, e questo piccolo libro si chiama "La Legge". Bastiat è così uno dei due autori francesi più famosi negli Stati Uniti, l'altro essendo ben noto anche in Francia, Alexis de Tocqueville.
+
 ![image](assets/en/003.webp)
 
 _(Mercato a Mugron nelle Landes, la città di Bastiat)_
@@ -71,7 +74,20 @@ Quindi, un genio non riconosciuto ma anche una luce per i nostri tempi. Infatti,
 ![image](assets/en/004.webp)
 
 Era anche un filosofo e un pensatore riguardo la società, l'ordine sociale, la giustizia, la legge, un pensatore dei diritti. E a questo proposito, possiamo dire che Bastiat è una luce per i nostri tempi. E vorrei concludere con questo. È qualcuno che ha cercato di comprendere il funzionamento del mercato politico. Naturalmente, è anche un difensore dell'economia di mercato, per il quale in ultima analisi l'economia di mercato è il modo migliore per creare ricchezza. Ma oltre a ciò, e qui è dove non è riconosciuto, ha compreso i meccanismi del mercato politico.
+
+![image](assets/en/005.webp)
+
 Quando fu eletto deputato, fu durante la Seconda Repubblica, e da quel momento in poi, furono le persone a fare le leggi. In quel periodo, Bastiat assistette a una sorta di inflazione di leggi in tutte le direzioni, inclusa la creazione di servizi pubblici, diritti sociali, tasse, ecc.
+
+![image](assets/en/006.webp)
+
+>**LABORATORI NAZIONALI**  
+>**AGENDA.**
+>Considerando che i lavoratori iscritti ai laboratori nazionali hanno giustamente chiesto che i lavori disponibili siano distribuiti tra di loro il più equamente possibile;
+>Considerando che il lavoro esiste solo per 16.000 uomini, e il numero di uomini iscritti supera i 50.000;
+>È convenuto che, fino ad un ulteriore avviso e in attesa di migliori accordi, ogni società lavora due giorni alla settimana a partire da lunedì 17.
+>_Il Commissario della Repubblica, Direttore dei laboratori nazionali,_
+>**Émile THOMAS.**
 
 E si rese conto che, fondamentalmente, nulla era davvero cambiato. Le persone disponevano della proprietà altrui attraverso il voto e la legge, quello che lui chiamava saccheggio legale. Questo fenomeno del saccheggio legale era al centro del suo lavoro, specialmente in questo breve testo che scrisse verso la fine della sua vita, "La Legge", dove contrappone il saccheggio legale alla proprietà, il diritto alla proprietà. Mostra che, fondamentalmente, la vera soluzione al problema sociale è la libertà, cioè la proprietà, il controllo su se stessi e sui frutti del proprio lavoro.
 
@@ -84,6 +100,7 @@ In questo corso, viaggeremo insieme attraverso il pensiero di Frédéric Bastiat
 Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver soggiornato a Madrid, Siviglia, Cadice e Lisbona, decise di imbarcarsi per Southampton e di visitare l'Inghilterra. A Londra, ebbe l'opportunità di partecipare agli incontri della Anti-Corn Law League, il cui lavoro aveva seguito da lontano. Incontrò i principali leader di questa Associazione, inclusi Richard Cobden, che sarebbe diventato suo amico.
 
 ![image](assets/en/007.webp)
+
 Fu lì che il corso della sua vita cambiò radicalmente. Egli stesso racconta che in quel momento fu decisa la sua vocazione come economista. Al ritorno in Francia, aveva solo un'idea in mente: far conoscere alla Francia il movimento liberale che agitava l'Inghilterra. Frédéric Bastiat nacque a Bayonne il 30 giugno 1801. Orfano all'età di 9 anni, proseguì i suoi studi al collegio cattolico di Sorèze. Era dotato per le lingue, imparando l'inglese, lo spagnolo e persino il basco. Tuttavia, non era motivato dai suoi studi e decise di non prendere il Baccalaureato, scegliendo invece di lavorare nell'azienda di import-export di suo zio a Bayonne.
 
 Nel 1825, ereditò una tenuta agricola dal suo nonno, che gestì come un "gentiluomo-contadino", con le sue parole. Fu allora che incontrò direttamente i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.

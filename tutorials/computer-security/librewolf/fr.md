@@ -43,7 +43,7 @@ Dès le premier lancement, LibreWolf offre un ensemble de fonctionnalités orien
 
 **Moteur de recherche privé par défaut :** LibreWolf propose par défaut DuckDuckGo comme moteur de recherche initial, qui ne conserve aucun historique de vos requêtes. D'autres alternatives axées sur la vie privée (Searx, Qwant, Whoogle) sont également disponibles.
 
-**Protection anti-fingerprint renforcée :** L'empreinte numérique permet d'identifier un navigateur de façon unique via sa configuration, même sans cookies. Pour contrer cela, LibreWolf active la technologie RFP (Resist Fingerprinting) issue du projet Tor, afin de rendre votre navigateur le plus générique possible. Des tests montrent qu'un Firefox standard est unique à ~90% sur des outils comme coveryourtracks.eff.org, contre seulement ~10-20% pour LibreWolf.
+**Protection anti-fingerprint renforcée :** L'empreinte numérique permet d'identifier un navigateur de façon unique via sa configuration, même sans cookies. Pour contrer cela, LibreWolf active la technologie RFP (Resist Fingerprinting) issue du projet Tor, afin de rendre votre navigateur le plus générique possible. Des tests montrent qu'un Firefox standard est unique à ~90% sur des outils comme coveryourtracks.eff.org, contre seulement ~10-20% pour LibreWolf (ces chiffres restent indicatifs et peuvent varier selon la configuration logicielle, matérielle et les extensions installées).
 
 ![LIBREWOLF](assets/fr/07.webp)
 *Page de test [Cover Your Tracks](https://coveryourtracks.eff.org/) de l'EFF avec le bouton TEST YOUR BROWSER. Cette page permet d'évaluer la protection contre les traqueurs et le fingerprinting.*
@@ -51,7 +51,7 @@ Dès le premier lancement, LibreWolf offre un ensemble de fonctionnalités orien
 ![LIBREWOLF](assets/fr/08.webp)
 *Résultat du test Cover Your Tracks. Le message "you have strong protection against Web tracking" s'affiche, montrant l'efficacité des protections de LibreWolf.*
 
-**Durcissement des réglages de sécurité :** LibreWolf active par défaut des paramètres de sécurité stricts. La Protection Renforcée contre le Pistage de Firefox est poussée au niveau Strict pour bloquer des milliers de traqueurs, cookies tiers et contenus malveillants. Il active également l'isolement des sites et des cookies (Total Cookie Protection) pour cloisonner les données de chaque domaine, et désactive WebRTC afin d'éviter les fuites d'adresse IP.
+**Durcissement des réglages de sécurité :** LibreWolf active par défaut des paramètres de sécurité stricts. La Protection Renforcée contre le Pistage de Firefox est poussée au niveau Strict pour bloquer des milliers de traqueurs, cookies tiers et contenus malveillants. Il active également l'isolement des sites et des cookies (*Total Cookie Protection*) pour cloisonner les données de chaque domaine, et restreint WebRTC (limitation des *ICE candidates* et routage via proxy lorsqu’un proxy est présent) afin de réduire les risques de fuite d’adresse IP.
 
 **Mises à jour rapides du moteur :** Le projet suit de très près les évolutions de Firefox : LibreWolf est toujours basé sur la dernière version stable de Firefox, et les mainteneurs s'efforcent de publier une nouvelle version dans les 24 à 72 heures suivant chaque sortie officielle de Firefox.
 

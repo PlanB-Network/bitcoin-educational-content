@@ -393,9 +393,9 @@ Deze twee vormen van kapitaal mogen nooit met elkaar worden verward, maar binnen
 
 **Het belangrijkste probleem met Keynesianisme**
 
-Keynesiaans beleid, dat op grote schaal wordt toegepast door mondiale elites, manipuleert rentetarieven en stimuleert de vraag via schulden. Dit moedigt middelen aan om naar kortlopende, niet-duurzame projecten te gaan, waardoor economische cycli worden versterkt en echte groei, die is geworteld in gezonde besparingen en productieve investeringen, wordt vertraagd. Bedrijfsleiders zien dit schadelijke beleid met eigen ogen als gezonde bedrijven worden gedwongen tot overgewaardeerde acquisities in een streven naar opgeblazen opbrengsten, waardoor organische en duurzame groei wordt ondermijnd.
+Keynesiaans beleid, dat wereldwijd breed wordt omarmd door elites, manipuleert rentetarieven en stimuleert vraag via schulden. Dit moedigt aan dat middelen vloeien naar kortetermijnprojecten die niet duurzaam zijn, wat economische cycli versterkt en echte groei, gebaseerd op gezonde besparingen en productieve investeringen, vertraagt. Zakelijke leiders ervaren deze schadelijke beleidskeuzes uit eerste hand, aangezien gezonde bedrijven worden gedwongen tot overgewaardeerde overnames in een zoektocht naar kunstmatig opgeblazen rendementen, wat organische en duurzame groei ondermijnt.
 
-Hoe kan in zo'n omgeving "gezond" kapitaal - zorgvuldig gespaard door ondernemers - concurreren met kunstmatig gecreëerd "ongezond" kapitaal? Bovendien erodeert de eenzijdige uitbreiding van het geld Supply de koopkracht van gezond kapitaal, wat de economische desoriëntatie en maatschappelijke ontevredenheid verergert.
+Hoe kan "gezond" kapitaal in zo'n omgeving - zorgvuldig gespaard door ondernemers - concurreren met kunstmatig gecreëerd "ongezond" kapitaal? Bovendien erodeert de eenzijdige uitbreiding van de geldvoorraad de koopkracht van gezond kapitaal, wat de economische desoriëntatie en maatschappelijke ontevredenheid verergert.
 
 **Een sprankje hoop: Bitcoin**
 
@@ -405,25 +405,25 @@ Bitcoin biedt een manier om kapitaal te accumuleren en op lange termijn te behou
 
 De **Oostenrijkse Economische School** is een traditie van economisch denken die waarde hecht aan vrije markten, individuele vrijheid en het belang van menselijk handelen in economische processen. De school bekritiseert staatsinterventie, vooral in geld en markten, en stelt dat individuen, geleid door hun subjectieve voorkeuren, het beste hun eigen belangen kunnen beoordelen.
 
-**Sleutelfiguren van de Oostenrijkse School**
+**Sleutelfiguren van de Oostenrijkse economische school**
 
-- **Carl Menger**: De oprichter van de Oostenrijkse School, Menger ontwikkelde de theorie van subjectieve waarde, die stelt dat de waarde van goederen afhangt van individuele voorkeuren in plaats van productiekosten.
+- **Carl Menger**: De oprichter van de Oostenrijkse school, Menger ontwikkelde de theorie van subjectieve waarde, die stelt dat de waarde van goederen afhangt van individuele voorkeuren in plaats van productiekosten.
 
-- **Ludwig von Mises**: Als hoeksteen van de Oostenrijkse School introduceerde Mises de praxeologie (de theorie van menselijk handelen) en schreef hij _Human Action_, een diepgaande kritiek op socialisme en centrale planning.
+- **Ludwig von Mises**: Als hoeksteen van de Oostenrijkse school introduceerde Mises de praxeologie (de theorie van menselijk handelen) en schreef hij _Human Action_, een diepgaande kritiek op socialisme en centrale planning.
 
 - **Friedrich Hayek**: Hayek, een student van Mises, won in 1974 de Nobelprijs voor Economie voor zijn werk over gedecentraliseerde kennis en spontane marktwerking. In zijn boek _The Road to Serfdom_ uitte hij felle kritiek op gecentraliseerde controle.
 
-- **Murray Rothbard**: Een leerling van Mises en een fervent voorstander van het libertarisme. Rothbard ontwikkelde de theorie van het anarcho-kapitalisme, waarin hij een staatloze maatschappij voorstond die geregeerd werd door vrijwillige contracten. Zijn boek _Man, Economy, and State_ is een baanbrekend werk in de Oostenrijkse economie.
+- **Murray Rothbard**: Een leerling van Mises en een fervent voorstander van het libertarisme. Rothbard ontwikkelde de theorie van het anarcho-kapitalisme, waarin hij een staatloze maatschappij voorstond die geregeerd werd door vrijwillige contracten. Zijn boek _Man, Economy, and State_ is een baanbrekend werk binnen de Oostenrijkse economische school.
 
 **Andere invloedrijke economen**
 
 - **Milton Friedman**: Hoewel niet direct geassocieerd met de Oostenrijkse School, steunde Friedman veel pro-markt en liberale ideeën. Zijn monetaristische beleid verschilt van het Oostenrijkse gedachtegoed, maar deelt hun kritiek op overmatige staatsinterventie in de economie.
 
-- **Frédéric Bastiat**: Bastiat, een 19e-eeuwse Franse econoom, beïnvloedde de Oostenrijkse School met zijn werk over vrije handel en de onzichtbare gevolgen van economisch beleid. Zijn essay _What Is Seen and What Is Not Seen_ is een fundamentele tekst van het economisch liberalisme.
+- **Frédéric Bastiat**: Bastiat, een 19e-eeuwse Franse econoom, beïnvloedde de Oostenrijkse economische school met zijn werk over vrije handel en de onzichtbare gevolgen van economisch beleid. Zijn essay _What Is Seen and What Is Not Seen_ is een fundamentele tekst van het economisch liberalisme.
 
 ![BIZ101](assets/en/06.webp)
 
-*Naamsvermelding: Het Ludwig von Mises Instituut*
+*Bronvermelding: The Ludwig von Mises Institute*
 
 **Kernbijdragen en ideeën**
 
@@ -438,35 +438,34 @@ https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoin in kas houden
-
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
-### De uitdagingen van de treasury van een bedrijf
+### De uitdagingen van de bedrijfskas (treasury)
 
-Een schatkist is de plaats waar men kostbare zaken opbergt. Een gezond bedrijf is goed gekapitaliseerd, zodat het toekomstige onzekerheid kan opvangen en investeringen kan plannen. Tegenwoordig wordt een deel van de overtollige schatkist geplaatst in financiële activa die bekend staan als zeer "Liquid", zoals obligaties, termijndeposito's, enzovoort.
+Een schatkist is de aangewezen plek waar men kostbare zaken opbergt. Een gezond bedrijf is goed gekapitaliseerd, zodat het toekomstige onzekerheid kan opvangen en investeringen kan plannen. Tegenwoordig wordt een deel van de overtollige schatkist geplaatst in financiële activa die bekend staan als zeer "liquide", zoals obligaties, termijndeposito's, enzovoort.
 
 Voor een zeer lange horizon gebruiken sommige bedrijven illiquide activa zoals onroerend goed zonder zich bewust te zijn van bepaalde gevaren:
 
 - Illiquiditeit in het geval van een crisis
 - Uiteindelijk vrij lage rendementen als de kosten eenmaal zijn afgetrokken
-- Een rendement dat niet hoger is dan de reële inflatie, dat van het geld Supply (~7% per jaar, zie hieronder)
+- Een rendement dat niet hoger is dan de reële inflatie, dat van de geldvoorraad (~7% per jaar, zie hieronder)
 - Het verborgen risico dat onroerend goed een deel van zijn "spaarfunctie" verliest ten gunste van activa zoals Bitcoin. Als gevolg daarvan zou het weer dichter bij zijn "gebruikswaarde" kunnen komen: het bieden van onderdak.
 
 Laten we snel de omgeving bekijken waarin bedrijven opereren.
 
-**Echte inflatie**: Tot groot ongenoegen van hun mandaat streven centrale banken naar 2% jaarlijkse inflatie, wat een waardeverlies van 40% van de valuta betekent over 20 jaar. Als we daar perioden van meer uitgesproken inflatie aan toevoegen, wordt het duidelijk dat bedrijven valuta niet alleen kunnen gebruiken om de vruchten van hun arbeid op te slaan. Ze moeten complexe financiële strategieën implementeren, die noodzakelijkerwijs gepaard gaan met een reeks risico's. Deze strategieën zijn uiteraard **onbereikbaar voor zeer kleine bedrijven**, die al druk bezig zijn met hun kernactiviteiten.
+**Echte inflatie**: Tot groot ongenoegen van hun mandaat streven centrale banken naar 2% jaarlijkse inflatie, wat een waardeverlies van 40% van de valuta betekent over 20 jaar. Als we daar perioden van meer uitgesproken inflatie aan toevoegen, wordt het duidelijk dat bedrijven geld niet alleen kunnen gebruiken om de vruchten van hun arbeid op te slaan. Ze moeten complexe financiële strategieën implementeren, die noodzakelijkerwijs gepaard gaan met een reeks risico's. Deze strategieën zijn uiteraard **onbereikbaar voor zeer kleine bedrijven**, die al druk bezig zijn met hun kernactiviteiten.
 
-**verborgen inflatie**: In een op schulden gebaseerd, fractioneel-reserve monetair systeem dat wordt ondersteund door centrale banken, groeit het totale geld Supply gemiddeld met ongeveer 7% per jaar** (bijv. M1 in de Eurozone of de VS). Dit betekent dat jouw "deel van de taart" in slechts een paar jaar tijd gehalveerd wordt - tenzij je bevoorrechte toegang hebt tot de financiële kraan en kunt blijven groeien door je hefboomwerking aan te wenden en snel activa te kopen tegen "oude prijzen" voordat het nieuw gecreëerde geld ze omhoog stuwt. Dit is het Cantillon-effect, dat deels de overdracht van rijkdom naar de meer welgestelden verklaart, terwijl "kapitaal" ten onrechte de schuld krijgt (zie onze inleiding over kapitaal hierboven).
+**Verborgen inflatie**: In een op schulden gebaseerd monetair systeem met fractionele reserves dat wordt ondersteund door centrale banken, **groeit de totale geldhoeveelheid gemiddeld met ongeveer 7% per jaar** (bijv. M1 in de Eurozone of de VS). Dit betekent dat jouw "deel van de taart" in slechts een paar jaar tijd gehalveerd wordt - tenzij je bevoorrechte toegang hebt tot de financiële kraan en kunt blijven groeien door je hefboomwerking aan te wenden en snel activa te kopen tegen "oude prijzen" voordat het nieuw gecreëerde geld de waarde ervan omhoog stuwt. Dit is het Cantillon-effect, dat deels de overdracht van rijkdom naar de meer welgestelden verklaart, terwijl "kapitaal" ten onrechte de schuld krijgt (zie onze inleiding over kapitaal hierboven).
 
-**Tegenpartijrisico's**: Het huidige financiële systeem is riskant en je hebt misschien niet altijd toegang tot "jouw geld" Zonder het beeld van een kaartenhuis op te roepen, moet erkend worden dat financiële instellingen winsten privatiseren en verliezen socialiseren bij de minste crisis. In een systeem van "giraal" geld (geld vastgelegd in een Ledger), is het geld in de bank slechts een "claim"; je bezit het niet echt, en de banken zelf "hebben het niet" (fractionele reserves). Dit geld is in zekere zin echt magisch. Sommige prestigieuze banken die ooit de spot dreven met Bitcoin bestaan vandaag de dag niet meer, zoals Credit Suisse.
+**Tegenpartijrisico's**: Het huidige financiële systeem is riskant en je hebt misschien niet altijd toegang tot "jouw geld". Zonder het beeld van een kaartenhuis op te roepen, moet erkend worden dat financiële instellingen winsten privatiseren en verliezen socialiseren bij de minste crisis. In een systeem van "giraal" geld (geld vastgelegd in een grootboek), is het geld in de bank slechts een "claim"; je bezit het niet echt, en de banken zelf "hebben het niet" (fractionele reserves). Dit geld is in zekere zin echt magisch. Sommige prestigieuze banken die ooit de spot dreven met Bitcoin bestaan vandaag de dag niet meer, zoals Credit Suisse.
 
-Dit gebrek aan vertrouwen zorgt voor een heropleving van "activa aan toonder" zoals goud (ook al is het ingewikkeld om te beveiligen, transporteren, verdelen, etc.) en natuurlijk Bitcoin, de nieuwkomer.
+Dit gebrek aan vertrouwen zorgt voor een heropleving van "activa aan toonder (bearer asset)" zoals goud (ook al is het ingewikkeld om te beveiligen, transporteren, verdelen, etc.) en natuurlijk Bitcoin, de nieuwkomer.
 
 ### Bitcoin als financieel actief
 
 Bitcoin biedt een radicaal alternatief. Het is **een activum aan toonder, zonder centrale uitgever**, is bijna onmogelijk in beslag te nemen en profiteert van netwerkeffecten. "Echte" Bitcoin gebruikers kiezen ervoor om de vruchten van hun arbeid op te slaan, omdat het gezien wordt als een opslagplaats van waarde die bestand is tegen zowel censuur als inflatie. Dankzij het netwerkeffect, geïllustreerd door de Wet van Metcalfe, verhoogt elke nieuwe overtuigde gebruiker de waarde van het netwerk; als het aantal deelnemers groeit, stijgt het nut van Bitcoin exponentieel. Dit model maakt het een onderscheidende en veelbelovende vorm van kapitaal, gebouwd op gebruikersadoptie en vertrouwen.
 
-Bitcoin is de **meest Liquid activa ter wereld** en werkt 24/7 zonder onderbreking, in tegenstelling tot traditionele financiële markten die sluitingsuren en "stroomonderbrekers" hebben Dankzij deze liquiditeit kunnen gebruikers op elk moment bitcoins kopen of verkopen, zowel in reactie op goed als slecht nieuws (bijv. raketlanceringen, oorlogen, enz.).
+Bitcoin is de **meest liquide activa ter wereld** en werkt 24/7 zonder onderbreking, in tegenstelling tot traditionele financiële markten die sluitingsuren en "stroomonderbrekers" hebben. Dankzij deze liquiditeit kunnen gebruikers op elk moment bitcoins kopen of verkopen, zowel in reactie op goed als slecht nieuws (bijv. raketlanceringen, oorlogen, enz.).
 
 In tien jaar tijd heeft Bitcoin een gemiddelde jaarlijkse groei van meer dan 60% laten zien. Dankzij deze unieke prestatie konden houders op lange termijn hun startkapitaal behouden, in tegenstelling tot andere instrumenten.
 
@@ -482,19 +481,19 @@ Ten tweede heeft Bitcoin tot nu toe **4-jarige cycli** doorlopen, wat betekent d
 
 Daarnaast is het raadzaam om de blootstelling aan Bitcoin **proportioneel** te houden ten opzichte van het begripsniveau. Het is ook belangrijk om geen haast te hebben of te proberen de markt perfect te timen.
 
-Ten slotte wordt Bitcoin beschouwd als **volatiel**. Om precies te zijn, de prijs uitgedrukt in eenheden van fiatgeld is dat. Een deel van deze volatiliteit is natuurlijk voor een nog jong activum, maar het wordt ook versterkt door de aanwezigheid van speculanten die het niet gebruiken als een lange-termijn opslagplaats van waarde, maar in plaats daarvan op zoek zijn naar snelle winsten. Bovendien accentueert leveraged trading (het gebruik van geleend geld om handelsposities te vergroten) zowel opwaartse als neerwaartse prijsbewegingen, waardoor Bitcoin geen rechtlijnig stijgend pad volgt. Dit leidt tot meer uitgesproken schommelingen, maar na verloop van tijd, naarmate de basis van toegewijde gebruikers groeit, lijkt deze volatiliteit zich te stabiliseren. Samenvattend is het **onmogelijk om een actief te hebben dat zo goed presteert als Bitcoin zonder volatiliteit**, maar je kunt zeker veel minder goed presterende activa hebben met minder volatiliteit.
+Ten slotte wordt Bitcoin beschouwd als **volatiel**. Om precies te zijn, de prijs uitgedrukt in eenheden van fiatgeld is volatiel. Een deel van deze volatiliteit is normaal en natuurlijk voor een jong activum, maar het wordt deels versterkt door de aanwezigheid van speculanten die het niet gebruiken als waardeopslagmiddel voor de lange termijn, maar in plaats daarvan op zoek zijn naar snelle winsten. Bovendien accentueert leveraged trading (het gebruik van geleend geld om handelsposities te vergroten) zowel opwaartse als neerwaartse prijsbewegingen, waardoor Bitcoin geen rechtlijnig stijgend pad volgt. Dit leidt tot meer uitgesproken schommelingen, maar na verloop van tijd, naarmate de basis van toegewijde gebruikers groeit, lijkt deze volatiliteit zich te stabiliseren. Samenvattend is het **onmogelijk om een actief te hebben dat zo goed presteert als Bitcoin zonder volatiliteit**, maar je kunt wel een minder goed presterende activa hebben met minder volatiliteit.
 
-### Bitcoin aangenomen door Wall Street
+### Wall Street adopteert Bitcoin
 
 Het gebruik van Bitcoin door financiële instellingen versterkt zijn positie op de wereldmarkt nog verder.
 
-Recente verklaringen van **BlackRock** benadrukken het potentieel van Bitcoin als waardeopslagmedium en diversificatie-instrument voor portefeuilles. De wereldwijde institutionele reus suggereerde onlangs dat de gebruikersgroei van Bitcoin die van het internet** of mobiele telefoons overtreft, met name gedreven door **demografische en generatieverschuivingen**, evenals een toenemend wantrouwen ten opzichte van traditionele financiële instellingen (!). Door zijn schaarse, niet-soevereine en gedecentraliseerde aard zien sommige investeerders Bitcoin als een veilige optie **in tijden van fiscale en monetaire instabiliteit**, angst of verstorende geopolitieke gebeurtenissen.
+Recente verklaringen van **BlackRock** benadrukken het potentieel van Bitcoin als waardeopslagmiddel en diversificatie-instrument voor portefeuilles. De wereldwijde institutionele reus suggereerde onlangs dat **de gebruikersgroei van Bitcoin die van het internet** of mobiele telefoons overtreft, met name gedreven door **demografische en generatieverschuivingen**, evenals een toenemend wantrouwen ten opzichte van traditionele financiële instellingen (!). Door zijn schaarse, niet-soevereine en gedecentraliseerde aard zien sommige investeerders Bitcoin als een veilige optie **in tijden van fiscale en monetaire instabiliteit**, angst of verstorende geopolitieke gebeurtenissen.
 
-De **Spot Bitcoin ETF's**, gelanceerd in januari 2024, hebben een fenomenaal succes gekend - de **meest succesvolle** ETF-lancering in de geschiedenis - met een netto-instroom van bijna $ 20 miljard van januari tot november. Dat is ongeveer vier keer beter dan de op één na beste ETF-introductie, de Nasdaq-100 QQQ. Deze ETF's bieden eenvoudigere en meer gereguleerde toegang tot Bitcoin, wat het fonds **verder heeft gelegitimeerd** en een aanzienlijke instroom van institutioneel kapitaal heeft aangetrokken.
+De **Spot Bitcoin ETF's**, gelanceerd in januari 2024, hebben een fenomenaal succes gekend - het is de **meest succesvolle** ETF-lancering in de geschiedenis - met een netto-instroom van bijna $ 20 miljard van januari tot november. Dat is ongeveer vier keer beter dan de op één na beste ETF-introductie, de Nasdaq-100 QQQ. Deze ETF's bieden eenvoudigere en meer gereguleerde toegang tot Bitcoin, wat het **nog meer heeft gelegitimeerd** en een aanzienlijke instroom van institutioneel kapitaal heeft aangetrokken.
 
-Bitcoin ETF's leiden met een ruime marge in termen van **institutionele adoptie** - en overtreffen daarmee de top tien snelst groeiende ETF's - of het nu gaat om het aantal betrokken instellingen of de omvang van het beheerd vermogen (AUM). Het succes van deze Bitcoin ETF's onderstreept de groeiende vraag naar investeringsvehikels die gekoppeld zijn aan digitale activa en verstevigt daarmee de plaats van Bitcoin in het traditionele financiële landschap.
+Bitcoin ETF's leiden met een ruime marge in termen van **institutionele adoptie** - en overtreffen daarmee de top tien snelst groeiende ETF's - of het nu gaat om het aantal betrokken instellingen of de omvang van het beheerd vermogen (AUM). Het succes van deze Bitcoin ETF's onderstreept de groeiende vraag naar investeringsmiddelen die gekoppeld zijn aan digitale activa en verstevigt daarmee de plaats van Bitcoin in het traditionele financiële landschap.
 
-Bitcoin speelt nu in de "waardeopslag"-markt**. Het vertegenwoordigt slechts een druppel in de emmer in termen van schaal: slechts ongeveer $ 1.800 miljard vergeleken met de $ 18.000 miljard van goud of de $ 500.000 miljard van onroerend goed. Maar het marktaandeel van ongeveer 0,1% geeft het een enorme ruimte voor groei, zeker gezien het feit dat de concurrenten moeite hebben om nieuwe gebruikers aan te trekken.
+Bitcoin speelt nu in de **markt** voor "waardeopslag". Het vertegenwoordigt slechts een druppel in de emmer in termen van schaal: slechts ongeveer $ 1.800 miljard vergeleken met de $ 18.000 miljard van goud of de $ 500.000 miljard van onroerend goed. Maar het marktaandeel van ongeveer 0,1% geeft het een enorme ruimte voor groei, zeker gezien het feit dat de concurrenten moeite hebben om nieuwe gebruikers aan te trekken.
 
 | Ticker  | 1D Flow (M USD) | 1W Flow (M USD) | 1M Flow (M USD) | 3M Flow (M USD) | YTD Flow (M USD) |
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
@@ -515,7 +514,7 @@ Bitcoin speelt nu in de "waardeopslag"-markt**. Het vertegenwoordigt slechts een
 
 *$20 miljard in 10 maanden: Bitcoin ETF's bereikten in minder dan een jaar waar goud ETF's 5 jaar over deden. Bron: Investeringsstromen van fondsen in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
-### Bitcoin in de bedrijfsgereedschapskist
+### Bitcoin in de toolkit van bedrijven
 
 De groeiende acceptatie van Bitcoin in de Verenigde Staten beïnvloedt ook de denkwijze elders in de wereld, met name onder vermogensbeheerders die het zich niet langer kunnen veroorloven om het niet op te nemen in hun assortiment - vooral nu traditionele financiële producten slecht presteren of moeilijke periodes doormaken. Alleen traditionele banken lijken het zich nog te kunnen veroorloven het te negeren.
 

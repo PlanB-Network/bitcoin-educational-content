@@ -676,20 +676,20 @@ Muhimu zaidi kuliko idadi kamili ya sarafu katika mzunguko ni jinsi kikomo cha S
 
 > Kwa hivyo jibu ni kwamba sio lazima kumwamini mtu ili asiongeze Supply. Lazima tu utekeleze nambari fulani ambayo itathibitisha kuwa haijafanya.
 
-Hata kama baadhi ya nodi kamili zitageukia upande wa giza na kuamua kukubali vitalu vilivyo na miamala ya thamani ya juu ya coinbase, nodi zote zilizosalia zitazipuuza tu na kuendelea kufanya biashara kama kawaida. Baadhi ya nodi kamili zinaweza, kwa kukusudia au bila kukusudia, kuendesha programu mbovu, lakini kundi litalinda kwa uthabiti Blockchain. Kwa kumalizia, unaweza kuchagua kuamini mfumo bila kulazimika kumwamini mtu yeyote.
+Hata kama baadhi ya  full node  zitageukia upande wa giza na kuamua kukubali vitalu vilivyo na miamala ya thamani ya juu ya coinbase, node zote zilizosalia zitazipuuza tu na kuendelea kufanya biashara kama kawaida. Baadhi ya nodi kamili zinaweza, kwa kukusudia au bila kukusudia, kuendesha programu mbovu, lakini kundi litalinda kwa uthabiti Blockchain. Kwa kumalizia, unaweza kuchagua kuamini mfumo bila kulazimika kumwamini mtu yeyote.
 
 
 ### Zuia ruzuku na ada za muamala
 
 
 
-Block reward inaundwa na ruzuku ya kuzuia pamoja na ada za miamala. Block reward inahitaji kulipia gharama za usalama za Bitcoin. Tunaweza kusema kwa uhakika kwamba chini ya masharti ya leo kuhusu ruzuku ya kuzuia, ada za miamala, bei ya Bitcoin, saizi ya Mempool, nguvu ya Hash, kiwango cha ugatuaji n.k., motisha kwa kila mchezaji kucheza kulingana na sheria ni kubwa vya kutosha kuhifadhi mfumo salama wa pesa.
+Block reward inaundwa na ruzuku ya block pamoja na ada za miamala. Block reward inahitaji kulipia gharama za usalama za Bitcoin. Tunaweza kusema kwa uhakika kwamba chini ya masharti ya leo kuhusu ruzuku ya block, ada za miamala, bei ya Bitcoin, saizi ya Mempool, nguvu ya Hash, kiwango cha ugatuaji n.k., motisha kwa kila mchezaji kucheza kulingana na sheria ni kubwa vya kutosha kuhifadhi mfumo salama wa pesa.
 
 
 Ni nini hufanyika wakati ruzuku ya block inakaribia sifuri? Ili kuweka mambo rahisi, hebu tuchukulie kuwa ni sawa na sifuri. Katika hatua hii, gharama ya usalama ya mfumo inalipwa kupitia ada za muamala pekee. Nini wakati ujao unatuwekea wakati hii itatokea, hatuwezi kujua. Sababu za kutokuwa na uhakika ni nyingi na tumeachwa kwenye uvumi. Kwa mfano, mchango wa Paul Sztorc kwa mada [katika blogu yake ya Truthcoin](https://www.truthcoin.info/blog/security-budget/) mara nyingi ni uvumi, lakini ana angalau nukta moja thabiti (tafadhali kumbuka kuwa M2, kama inavyorejelewa na Sztorc, ni kipimo cha pesa Supply):
 
 
-> Ingawa hizi mbili zimechanganywa katika "bajeti ya usalama", ruzuku ya kuzuia na ada za txn ni tofauti kabisa. Ni tofauti kutoka kwa kila mmoja, kwani "jumla ya faida ya VISA mnamo 2017" ni kutoka kwa "ongezeko la jumla la M2 mnamo 2017".
+> Ingawa hizi mbili zimechanganywa katika "bajeti ya usalama", ruzuku ya block na ada za txn ni tofauti kabisa. Ni tofauti kutoka kwa kila mmoja, kwani "jumla ya faida ya VISA mnamo 2017" ni kutoka kwa "ongezeko la jumla la M2 mnamo 2017".
 
 Leo, ni wamiliki ambao hulipa usalama (kupitia mfumuko wa bei wa fedha). Kesho itakuwa zamu ya watumiaji kubeba mzigo huu kwa namna fulani, kama inavyoonyeshwa hapa chini.
 
@@ -703,15 +703,15 @@ Kadiri muda unavyosonga, gharama za usalama zitabadilika kutoka kwa wamiliki had
 Wakati ada za ununuzi ndio motisha kuu ya Mining, motisha hubadilika. Hasa zaidi, ikiwa Mempool ya Miner haina ada za kutosha za muamala, inaweza kuwa faida zaidi kwa hiyo Miner kuandika upya historia ya Bitcoin badala ya kuirefusha. Bitcoin Optech ina [sehemu ya tabia hii] mahususi(https://bitcoinops.org/en/topics/fee-sniping/), inayoitwa *fee sniping*, iliyoandikwa na David Harding:
 
 
-> Ubaguzi wa ada ni tatizo ambalo linaweza kutokea huku ruzuku ya Bitcoin ikiendelea kupungua na ada za miamala kuanza kutawala zawadi za kuzuia za Bitcoin. Iwapo ada za muamala ndizo zote muhimu, basi Miner yenye `x` asilimia ya kiwango cha Hash ina nafasi `x` asilimia ya Mining kizuizi kinachofuata, kwa hivyo thamani inayotarajiwa kwao ya Mining ni asilimia `x` ya [seti bora zaidi ya feerate ya miamala](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) katika Mempool yao.
+> Ubaguzi wa ada ni tatizo ambalo linaweza kutokea huku ruzuku ya Bitcoin ikiendelea kupungua na ada za miamala kuanza kutawala zawadi za block za Bitcoin. Iwapo ada za muamala ndizo zote muhimu, basi Miner yenye `x` asilimia ya kiwango cha Hash ina nafasi `x` asilimia ya Mining kizuizi kinachofuata, kwa hivyo thamani inayotarajiwa kwao ya Mining ni asilimia `x` ya [seti bora zaidi ya feerate ya miamala](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) katika Mempool yao.
 >
 
-> Vinginevyo, Miner inaweza kujaribu kwa uaminifu kuchimba tena kizuizi kilichopita pamoja na kizuizi kipya kabisa ili kupanua mnyororo. Tabia hii inajulikana kama udukuzi wa ada, na nafasi isiyo ya uaminifu ya Miner ya kufaulu ikiwa kila Miner nyingine ni mwaminifu ni `(x/(1-x))^2`. Ijapokuwa udukuzi wa ada una uwezekano mdogo wa kufaulu kuliko Mining ya uaminifu, kujaribu Mining isiyo ya uaminifu inaweza kuwa chaguo la faida zaidi ikiwa miamala katika block iliyotangulia ililipa ada ya juu zaidi kuliko miamala ya sasa katika Mempool-nafasi ndogo kwa kiwango kikubwa inaweza kuwa ya thamani zaidi ya nafasi kubwa kwa kiwango kidogo.
+> Vinginevyo, Miner inaweza kujaribu kwa uaminifu kumine tena block iliyopitea pamoja na block mpya kabisa ili kupanua chain. Tabia hii inajulikana kama udukuzi wa ada, na nafasi isiyo ya uaminifu ya Miner ya kufaulu ikiwa kila Miner nyingine ni mwaminifu ni `(x/(1-x))^2`. Ijapokuwa udukuzi wa ada una uwezekano mdogo wa kufaulu kuliko Mining ya uaminifu, kujaribu Mining isiyo ya uaminifu inaweza kuwa chaguo la faida zaidi ikiwa miamala katika block iliyotangulia ililipa ada ya juu zaidi kuliko miamala ya sasa katika Mempool-nafasi ndogo kwa kiwango kikubwa inaweza kuwa ya thamani zaidi ya nafasi kubwa kwa kiwango kidogo.
 
-Kutupa blanketi lenye unyevunyevu juu ya matumaini yetu ya siku zijazo ni ukweli kwamba ikiwa wachimbaji wataanza kufanya ubadhirifu wa ada, hii itawapa wengine motisha kufanya vivyo hivyo, na kuwaacha wachimba migodi wachache waaminifu. Hii inaweza kuathiri vibaya usalama wa jumla wa Bitcoin. Harding anaendelea kuorodhesha hatua chache za kukabiliana na ambazo zinaweza kuchukuliwa, kama vile kutegemea kufuli za muda wa muamala kuweka vikwazo ambapo katika Blockchain muamala unaweza kuonekana.
+Kutupa blanketi lenye unyevunyevu juu ya matumaini yetu ya siku zijazo ni ukweli kwamba ikiwa miners wataanza kufanya ubadhirifu wa ada, hii itawapa wengine motisha kufanya vivyo hivyo, na kuwaacha wachimba migodi wachache waaminifu. Hii inaweza kuathiri vibaya usalama wa jumla wa Bitcoin. Harding anaendelea kuorodhesha hatua chache za kukabiliana na ambazo zinaweza kuchukuliwa, kama vile kutegemea kufuli za muda wa muamala kuweka vikwazo ambapo katika Blockchain muamala unaweza kuonekana.
 
 
-Kwa hivyo, ikizingatiwa kuwa maafikiano kuhusu Supply ya mwisho yamesalia, ruzuku ya kuzuia - shukrani kwa [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) ambayo ilirekebisha hitilafu ya mfumuko wa bei ya muda mrefu - itafikia sifuri karibu mwaka wa 2140. Je!
+Kwa hivyo, ikizingatiwa kuwa maafikiano kuhusu Supply ya mwisho yamesalia, ruzuku ya block - shukrani kwa [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) ambayo ilirekebisha hitilafu ya mfumuko wa bei ya muda mrefu - itafikia sifuri karibu mwaka wa 2140. Je!
 
 
 Haiwezekani kusema, lakini tunajua mambo machache:
@@ -719,7 +719,7 @@ Haiwezekani kusema, lakini tunajua mambo machache:
 
 - Karne ni *muda mrefu* kutoka kwa mtazamo wa Bitcoin. Ikiwa bado iko karibu, labda itakuwa imebadilika sana.
 - Iwapo walio wengi wa kiuchumi wataona ni muhimu kubadilisha sheria na kuanzisha kwa mfano mfumuko wa bei wa kila mwaka wa 0.1% au 1% wa kila mwaka, Supply ya Bitcoin haitakuwa na kikomo tena.
-- Kwa ruzuku ya vitalu sifuri na Mempool tupu au karibu tupu, mambo yanaweza kutetereka kwa sababu ya udukuzi wa ada.
+- Kwa ruzuku ya blocks sifuri na Mempool tupu au karibu tupu, mambo yanaweza kutetereka kwa sababu ya udukuzi wa ada.
 
 
 Kwa kuwa mabadiliko ya kwenda kwa Block reward ya ada tu ni ya sasa katika siku zijazo, inaweza kuwa busara kutofikia hitimisho na kujaribu kurekebisha masuala yanayoweza kutokea wakati tunaweza. Kwa mfano, Peter Todd anadhani kuna hatari halisi kwamba bajeti ya usalama ya Bitcoin haitatosha katika siku zijazo, na kwa hivyo anabishana kuhusu mfumuko mdogo wa kudumu wa bei katika Bitcoin. Walakini, pia anadhani sio wazo zuri kujadili suala kama hilo kwa wakati huu, kama [alisema kwenye podcast ya Nini Bitcoin Ilifanya](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):

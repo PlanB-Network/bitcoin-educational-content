@@ -175,7 +175,7 @@ Quello che Adam Smith dimostra è che si può servire il proprio interesse solo 
 
 ---
 
-“Lo sforzo naturale di ogni individuo per migliorare la propria condizione... è così potente, che da solo, e senza alcuna assistenza, non è solo capace di portare nella società ricchezza e prosperità, ma di superare un centinaio di ostruzioni impertinenti con cui la follia delle leggi umane troppo spesso incide sulle sue operazioni. ”
+>“Lo sforzo naturale di ogni individuo per migliorare la propria condizione... è così potente, che da solo, e senza alcuna assistenza, non è solo capace di portare nella società ricchezza e prosperità, ma di superare un centinaio di ostruzioni impertinenti con cui la follia delle leggi umane troppo spesso incide sulle sue operazioni. ”
 >_La ricchezza delle nazioni_
 >_Libro IV, capitolo V_
 

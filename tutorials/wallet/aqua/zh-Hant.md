@@ -284,4 +284,4 @@ Aqua 隨後會向您顯示交易摘要。確保所有資訊正確無誤，包括
 我也建議您看看 Blockstream Green 手機應用程式的其他全面教學，這是設定 Liquid Wallet 的另一個有趣解決方案：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

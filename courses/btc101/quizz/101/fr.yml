@@ -5,7 +5,7 @@ wrong_answers:
   - Écrire votre phrase mnémonique sur un tableau blanc.
   - Partager votre phrase mnémonique avec un ami de confiance.
 explanation: |
-  La méthode standard de sauvegarde de la clé privée dans un
+  La méthode standard pour récupérer la clé privée d'un
   portefeuille Bitcoin consiste à saisir votre phrase mnémonique dans n'importe
   quel logiciel de portefeuille. Cela vous permet de restaurer votre portefeuille.
-reviewed: false
+reviewed: true

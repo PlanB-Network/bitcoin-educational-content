@@ -107,7 +107,7 @@ Jednou ze zvláštností systému Blitz Wallet je, že podporuje různé sítě 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Ve výchozím nastavení budou všechny vaše transakce probíhat v síti Liquid Network, ale ve službě Blitz můžete kliknutím na tlačítko **Vyberte si formát** určit síť, ve které chcete satoshi přijímat.
 
@@ -268,3 +268,4 @@ Pokud vám tento návod pomohl s ovládáním hry Blitz, jsme si jisti, že se v
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

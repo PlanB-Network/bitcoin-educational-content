@@ -26,7 +26,7 @@ Green - особенно простое в использовании прило
 
 Blockstream Green также поддерживает сеть Liquid - сайдчейн биткоина, разработанный компанией Blockstream для быстрых и конфиденциальных транзакций вне основного блокчейна. В этом руководстве мы сосредоточимся исключительно на Биткойне, но я также сделал еще одно руководство, чтобы узнать, как использовать Liquid на Green:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## опция 2/2 мультисиг (2FA)
 
@@ -46,7 +46,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 
 Если вы предпочитаете не использовать опцию 2FA и просто хотите создать кошелек "*singlesig*" на Green, я приглашаю вас ознакомиться с другим руководством:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Установка и настройка программного обеспечения Blockstream Green
 
@@ -270,4 +270,5 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 Я также рекомендую вам ознакомиться с другим исчерпывающим руководством по настройке мобильного приложения Blockstream Green для создания кошелька Liquid:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

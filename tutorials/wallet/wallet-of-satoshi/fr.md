@@ -1,18 +1,17 @@
 ---
-name: Wallet de Satoshi
+name: Wallet of Satoshi
 description: La Wallet la plus simple pour démarrer
 ---
 ![cover](assets/cover.webp)
 
-ce tutoriel a été rédigé par_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+Ce tutoriel a été rédigé par [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+
+## Téléchargement, configuration et utilisation de Wallet of Satoshi
 
 
-## Téléchargement, configuration et utilisation de Wallet de Satoshi
+Wallet of Satoshi est un Lightning Network Wallet, de garde, et très simple d'utilisation.
 
-
-Wallet de Satoshi est un Lightning Network Wallet, de garde, et très simple d'utilisation.
-
-Dans le cadre du cours [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), il est utilisé pour les bons Redeem Lightning Network.
+Dans le cadre du cours [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), il est utilisé pour les bons Redeem Lightning Network.
 
 
 **N'oubliez jamais** : _pas vos clés, pas vos pièces_
@@ -29,7 +28,7 @@ Le Wallet of Satoshi (WoS) est un produit de conservation, mais il jouit d'une c
 **WARNING⚠️ : Il est recommandé de lire le tutoriel dans son intégralité avant de poursuivre**
 
 
-### Téléchargement de Wallet de Satoshi
+### Téléchargement de Wallet of Satoshi
 
 
 Allez sur le Play Store et téléchargez WoS
@@ -44,7 +43,7 @@ Allez sur le Play Store et téléchargez WoS
 ![image](assets/it/02.webp)
 
 
-Wallet de Satoshi s'ouvre avec l'écran suivant, et il faut cliquer sur _Start_
+Wallet of Satoshi s'ouvre avec l'écran suivant, et il faut cliquer sur _Start_
 
 
 ![image](assets/it/03.webp)
@@ -59,7 +58,7 @@ A ce stade, le Wallet est déjà opérationnel, mais pour plus de sécurité, no
 ![image](assets/it/04.webp)
 
 
-Toute la fenêtre de menu s'ouvre, dans laquelle vous devez exclusivement définir la devise (Wallet de Satoshi présente par défaut le dollar US comme devise de référence) et la couleur du thème (clair/foncé), selon votre goût. N'utilisez pas les autres commandes.
+Toute la fenêtre de menu s'ouvre, dans laquelle vous devez exclusivement définir la devise (Wallet of Satoshi présente par défaut le dollar US comme devise de référence) et la couleur du thème (clair/foncé), selon votre goût. N'utilisez pas les autres commandes.
 
 
 Le WoS étant un outil de conservation, nous ne pouvons pas sauvegarder le Wallet avec la phrase Mnemonic, mais nous pouvons permettre au WoS de récupérer nos fonds, en cas de perte ou de non-utilisation de l'appareil mobile, en cliquant sur _Login/Register_
@@ -70,7 +69,7 @@ Une fenêtre apparaît nous demandant d'entrer un email Address. Il peut s'agir 
 ![image](assets/it/08.webp)
 
 
-Wallet de Satoshi a envoyé un message à la boîte aux lettres électronique indiquée.
+Wallet of Satoshi a envoyé un message à la boîte aux lettres électronique indiquée.
 
 
 ![image](assets/it/09.webp)
@@ -155,7 +154,7 @@ pour ensuite recevoir le paiement de la Invoice. Le paiement reçu se présente 
 ### Collecte auprès du TPV
 
 
-La Wallet de la Satoshi possède une caractéristique par défaut qui la rend particulièrement adaptée aux commerçants : le point de vente. Voyons comment l'activer.
+Wallet of la Satoshi possède une caractéristique par défaut qui la rend particulièrement adaptée aux commerçants : le point de vente. Voyons comment l'activer.
 
 
 Dans l'écran principal, sélectionnez le menu en haut à droite.

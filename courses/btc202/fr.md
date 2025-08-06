@@ -364,7 +364,6 @@ Introduction à Umbrel comme solution accessible et tout-en-un pour les débutan
 ## Installation d’un nœud complet avec Umbrel
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
-
 Maintenant que nous disposons de toutes les informations nécessaires, il est temps de passer à la pratique. Dans ce tutoriel, nous allons découvrir comment installer un nœud complet Bitcoin à l’aide d’UmbrelOS.
 
 ### Matériel nécessaire
@@ -427,9 +426,9 @@ Une fois l’opération terminée, vous disposerez d’une clé USB bootable con
 
 ### Étape 3 : Démarrer l'ordinateur depuis la clé USB
 
-Maintenant que votre clé USB bootable contenant UmbrelOS est prête, vous allez pouvoir démarrer votre ordinateur dessus pour lancer l’installation du système. Débranchez la clé USB de votre ordinateur principal et insérez-la dans l’appareil sur lequel vous souhaitez installer Umbrel.
+Maintenant que votre clé USB bootable contenant UmbrelOS est prête, vous allez pouvoir démarrer votre ordinateur dessus pour lancer l’installation du système. Débranchez la clé USB de votre ordinateur principal et insérez-la dans l’appareil sur lequel vous souhaitez installer Umbrel et votre nœud Bitcoin.
 
-Comme expliqué au début de ce chapitre, pour effectuer l’installation, vous aurez besoin d’un affichage et d’un périphérique d’entrée. Branchez un écran via HDMI (ou autre port en fonction de votre PC) et connectez un clavier en USB à votre machine. Ces périphériphériques sont uniquementn nécessaires pour l'instlation, vous n'en n'aurez plus besoin après puisque nous nous connecterons à Umbrel à distance depuis un autre PC. Branchez ces 2 périphériques à votre PC.
+Comme expliqué au début de ce chapitre, pour effectuer l’installation, vous aurez besoin d’un périphérique d'affichage et d’un périphérique d’entrée. Branchez un écran via HDMI (ou autre port en fonction de votre PC) et connectez un clavier en USB à votre machine. Ces périphériques ne sont requis que pour l’installation ; vous n’en aurez plus besoin par la suite, puisque l’accès à Umbrel se fera à distance depuis un autre ordinateur. Branchez donc ces deux périphériques à votre PC.
 
 **Conseil :** Si vous ne disposez pas d'écran périphérique chez vous, vous pouvez utiliser votre téléviseur. Avec son entrée HDMI (ou autre), il peut parfaitement faire office d’écran temporaire le temps d'installer le système d’exploitation.
 
@@ -449,7 +448,7 @@ L’écran qui s’affiche liste tous les périphériques de stockage internes d
 
 007
 
-Une fois que vous avez identifié le bon disque (normalement, c'est celui qui dispose de la plus grande capacité pour accueillir la blockchain), notez le chiffre qui lui est associé. Par exemple, si le disque que vous avez choisi est listé sous le numéro `2`, tapez simplement `2`, puis appuyez sur la touche `Enter` du clavier.
+Une fois le bon disque identifié (généralement celui offrant la plus grande capacité, afin d’héberger la blockchain), notez le numéro qui lui est attribué. Par exemple, si le disque retenu apparaît sous le numéro `2`, il vous suffit de saisir `2`, puis d’appuyer sur la touche `Enter` du clavier.
 
 008
 
@@ -461,7 +460,7 @@ Lorsque l’installation est terminée, un message vous invite à éteindre l’
 
 010
 
-Vous pouvez maintenant retirer la clé USB, le clavier et l’écran. Vous n’en aurez plus besoin pour utiliser Umbrel. Votre noeud ne doit donc avoir en connexion plus que l'alimentation électrique et le cable ethernet RJ45.
+Vous pouvez à présent retirer la clé USB, le clavier et l’écran ; ils ne sont plus nécessaires pour l’utilisation de votre Umbrel. Votre nœud ne doit donc rester connecté qu’à l’alimentation électrique et au câble Ethernet RJ45.
 
 011
 
@@ -486,17 +485,17 @@ Si l’adresse `http://umbrel.local` ne fonctionne pas sur votre navigateur apr�
 http://umbrel
 ```
 
-Si cela ne fonctionne toujours pas, vous pouvez entrer l’adresse IP locale de votre Umbrel directement dans le navigateur, par exemple (remplacez `42` par le numéro de votre machine qui héberge Umbrel sur votre réseau local) :
+Si cela ne fonctionne toujours pas, saisissez directement l’adresse IP locale de votre Umbrel dans le navigateur. Par exemple : (remplacez `42` par le numéro de votre machine hébergeant Umbrel sur le réseau local) :
 
 ```
 http://192.168.1.42
 ```
 
-Pour trouver l'adresse IP de votre Umbrel, il y a plusieurs solutions (de la plus simple à la plus complexe) :
+Pour identifier l’adresse IP de votre Umbrel, il y a plusieurs méthodes, de la plus simple à la plus avancée :
 
-- Ouvrir l’interface d’administration de votre routeur et chercher l’adresse IP de l’appareil Umbrel sur le réseau local.
+- Accédez à l’interface d’administration de votre routeur et recherchez l’adresse IP de l’appareil Umbrel sur le réseau local.
 
-- Utiliser un logiciel de scan réseau comme Angry IP Scanner pour détecter les appareils connectés au réseau et trouver l'adresse IP de votre Umbrel.
+- Utilisez un logiciel de scan réseau tel qu’Angry IP Scanner pour détecter les appareils connectés et repérer l’adresse IP de votre Umbrel.
 
 012
 
@@ -518,9 +517,9 @@ Pour commencer la configuration de votre Umbrel, cliquez sur le bouton "*Start*"
 
 #### Créer un compte
 
-Choisissez un pseudo ou bien renseignez votre nom, puis choisissez un mot de passe fort. Attention, ce mot de passe est le seul rempart bloquant l'accès à votre Umbrel depuis votre réseau (et donc potentiellement à vos bitcoins si vous utilisez un noeud Lightning). Il bloque également l'accès à distance via Tor ou VPN si activé.
+Choisissez un pseudonyme ou indiquez votre nom, puis définissez un mot de passe fort. Soyez vigilant : ce mot de passe constitue la seule barrière protégeant l’accès à votre Umbrel depuis votre réseau (et donc, potentiellement, à vos bitcoins si vous faites tourner un nœud Lightning sur Umbrel). Il protège également l’accès à distance via Tor ou VPN, si ces services sont activés.
 
-Choisissez donc un mot de passe fort, et surtout, faites en une ou plusieurs sauvegardes (gestionnaire de mot de passe).
+Sélectionnez donc un mot de passe fort, et, surtout, veillez à en conserver une ou plusieurs sauvegardes (gestionnaire de mots de passe recommandé).
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -536,117 +535,89 @@ La configuration de votre Umbrel est terminée.
 
 #### Découverte de l'interface
 
-L'interface d'Umbrel est relativement simple :
+L’interface d’Umbrel est assez intuitive :
 
-- Sur la page d'accueil, vous trouverez vos applications installées et vos widgets ;
+- Sur la page d’accueil, vous visualisez vos applications installées ainsi que vos widgets ;
 
 016
 
-- L'"*App Store*" vous permet d'installer de nouvelles applications ;
+- L’"*App Store*" permet d’installer de nouvelles applications ;
 
 017
 
-- Dans le menu "*Files*", vous retrouverez tous les documents stockés sur votre Umbrel ;
+- Le menu "*Files*" centralise tous les documents stockés sur votre Umbrel ;
 
 018
 
-- Le menu "*Settings*" vous permet de modifier les paramètres de votre Umbrel et de voir ses informations, notamment :
-	- Mettre à jour, Redémarrer ou arrêter Umbrel ;
-	- Voir le stockage disponible, l'utilisaiotn de la RAM ou encore la température du processeur ;
-	- Changer le fond d'écran ;
-	- Vous pouvez également gérer ici l'accès à distance via Tor, activer le Wi-Fi ou encore activer le 2FA.
+- Le menu "*Settings*" vous permet de modifier les paramètres de votre Umbrel et d’accéder à ses informations, notamment :
+    - Mettre à jour, redémarrer ou arrêter votre machine ;
+    - Consulter l’espace de stockage disponible, l’utilisation de la RAM ou encore la température du processeur ;
+    - Changer le fond d’écran ;
+    - Gérer l’accès à distance via Tor, activer le Wi-Fi ou le 2FA.
 
 019
 
 #### Paramètres de sécurité et de connexion
 
-Avant de commencer, je vous conseille fortement d'activer le 2FA. Cela vous permettra d'ajouter une couche supplémentaire de sécurité en plus de votre mot de passe. Cette étape est presque indispensable si vous prévoyez d'utiliser votre Umbrel pour stocker des fichiers personnels, pour faire tourner un noeud Lightning, ou toute autre utilisation sensible.
+Avant toute chose, je vous recommande vivement d’activer le 2FA. Cette mesure ajoute une couche supplémentaire de sécurité à votre mot de passe. Elle s’avère quasi indispensable si vous envisagez d’utiliser votre Umbrel pour stocker des fichiers personnels, exécuter un nœud Lightning ou toute autre activité sensible.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Pour ce faire, cliquez sur la coche correspodnante dans les apramètres.
+Pour cela, cliquez sur la case correspondante dans les paramètres.
 
 020
 
-Puis scannez le QR code affiché à l'aide de votre application. Enfin, renseignez le code dynamique à 6 chiffres dans les cases correpsodnantes sur votre Umbrel.
+Scannez ensuite le QR code affiché à l’aide de votre application d’authentification. Saisissez enfin le code dynamique à 6 chiffres dans le champs prévu à cet effet sur votre Umbrel.
 
-Dorénavant, à chaque nouvelle connexion à votre Umbrel, vous devrez renseigner à la fois le mot de passe et le code à 6 chiffres affiché sur votre application de 2FA.
+Désormais, chaque nouvelle connexion à votre Umbrel nécessitera à la fois le mot de passe et le code à 6 chiffres généré par votre application 2FA.
 
 021
 
-Ensuite, en ce qui concerne l'accès à distance via Tor, si vous n'en n'avez pas besoin, je vous conseille de le laisser désactiver pour réduire la surface d'attaque de votre Umbrel. En effet, pour le moment, votre noeud est uniquement accessible via une machine connectée au même réseau. Activer l'accès via Tor vous permet de gérer votre Umbrel si vous êtes en déplacement.
+En ce qui concerne l’accès à distance via Tor, si vous n’en avez pas l’utilité, je vous recommande de laisser cette option désactivée afin de limiter la surface d’attaque de votre Umbrel. Par défaut, votre nœud n’est accessible que depuis une machine connectée au même réseau local. Activer l’accès via Tor vous permettra néanmoins de gérer votre Umbrel en déplacement.
 
-Si vous activez cette option, il sera possible pour n'importe quelle machine dans le monde de tenter de se connecter à votre noeud, pourvue qu'elle connaisse l'adresse Tor, mais vous serez toujours protégé par votre mot de passe et votre 2FA.
+Si vous activez cette fonctionnalité, il devient théoriquement possible pour toute machine dans le monde de tenter une connexion à votre nœud, à condition de connaître l’adresse Tor. Toutefois, la protection reste assurée par votre mot de passe et votre 2FA.
 
-Si vous activez cette option, vérifiez que vous avez bien activé le 2FA, que vous disposez d'un mot de passe fort, et ne divulguez à personne l'adresse Tor de connexion.
+En cas d’activation de cette option, veillez à avoir le 2FA activé, un mot de passe fort, et à ne jamais divulguer l’adresse Tor de connexion.
 
-Ensuite, il vous suffira de rentrez l'adresse Tor de connexion sur Tor Browser, et vous pourrez accéder à votre interface Umbrel depuis n'importe quel réseau.
+Il vous suffira alors de saisir cette adresse Tor dans le navigateur Tor pour accéder à l’interface d’Umbrel depuis n’importe quel réseau.
 
-.... Image Tor + conneixon wifi
+026
 
+Enfin, sur cette page de paramètres, vous avez également la possibilité d’activer la connexion Wi-Fi. Si votre machine hébergeant Umbrel dispose d’une carte réseau Wi-Fi ou d’un dongle Wi-Fi, cela permet d’accéder à Internet sans utiliser le câble RJ45. Toutefois, selon votre configuration, cette solution risque de ralentir la connexion, ce qui peut affecter la synchronisation initiale (IBD) et l’utilisation future du nœud (par exemple pour des transactions Lightning). À titre personnel, je ne recommande pas cette option, car un nœud n’a pas vocation à être utilisé en mobilité : on y accède toujours à distance, donc autant le laisser branché.
 
 ### Étape 6 : installer un nœud Bitcoin sur Umbrel
 
-MAintenant qu'UmbrelOS est bien installé et configuré sur votre machine, vous allez pouvoir installer votre noeud Bitcoin. Pour ce faire, c'est très simple, rendez-vous sur l'App Store, dans le menu "*Bitcoin*", et cliquez sur l'application "*Bitcoin Node*" (qui en réalité est Bitcoin Core).
+Maintenant qu’UmbrelOS est correctement installé et configuré sur votre machine, vous pouvez procéder à l’installation de votre nœud Bitcoin. Pour cela, rien de plus simple : rendez-vous dans l’App Store, ouvrez la catégorie "*Bitcoin*", puis sélectionnez l’application "*Bitcoin Node*" (il s’agit en réalité de Bitcoin Core).
 
 022
 
-Puis, cliquez sur le bouton "*Install*".
+Cliquez ensuite sur le bouton "*Install*".
 
 023
 
-Une fois l'instaltion terminée, votre noeud Bitcoin va commencer son IBD (*Initial Block Download*), c'est à dire qu'il va télécharger et vérifier toutes les transactions et tous les blocks depuis le lancement de Bitcoin en 2009.
+Une fois l’installation achevée, votre nœud Bitcoin lancera son IBD (*Initial Block Download*) : il va télécharger et valider l’ensemble des transactions et des blocs depuis la création de Bitcoin en 2009.
 
 024
 
-Cette étape est très longue. Sa durée va dépendre de plusieurs paramètres, notamment la RAM que vous allouez au cache du noeud, la vitesse de votre disque, votre connexion internet ou encore la performance de votre processeur. La fourchette est donc très large. Si vous avez un PC très performant avec un SSD NVMe 32 Go de RAM et un CPU puissant, l'IBD peut se faire en une grosse dizaine d'heure. Si vous avez un vieux processeur peu performant, peu de RAM, ou encore pire, un HDD (vivement déconseillé) cela peut prendre plusieurs semaines.
+Cette étape est particulièrement longue : sa durée dépend de plusieurs facteurs, notamment la quantité de RAM allouée au cache du nœud, la rapidité du disque, la vitesse de la connexion Internet et la puissance du processeur. La fourchette de durée est donc très large en fonction des configurations. Avec un PC très performant (SSD NVMe, +32 Go de RAM, processeur puissant et bonne connexion internet) l’IBD peut s’achever en une dizaine d’heures. À l’inverse, un vieux processeur, peu de RAM ou, encore pire, un disque dur mécanique (fortement déconseillé) peuvent allonger cette opération à plusieurs semaines.
 
-Si comme moi, vous avez juste un PC normal, avec un processeur pas trop vieux mais pas ultra puissant, 8 à 16 Go de RAM et un SSD, comptez environ 3 à 7 jours.
+Avec un PC de configuration normale (processeur correct, 8 à 16 Go de RAM, SSD), prévoyez environ 2 à 7 jours.
 
-Si vous souhaitez accélérer légèrement l'IBD et que vous avez suffisament de RAM, vous pouvez allouer plus de RAM au cache de votre noeud (notamment l'UTXO set), via le paramètre `dbcache`. Sur Umbrel pour le modifier, il suffit de se rendre dans les apramètre du noeud dans l'onglet "Optimization".
+Pour accélérer légèrement l’IBD, vous pouvez augmenter la RAM allouée au cache du nœud (utilisé notamment pour l’UTXO set, mais nous y reviendrons plus loin dans la formation), via le paramètre `dbcache`. Sur Umbrel, cette modification s’effectue dans les paramètres de votre nœud, dans l'onglet "*Optimization*".
 
 025
 
-Par défaut, la valeur de Bitcoin Core est de 450 MiB, ce qui équivaut à environ 472 Mo. En augmentant cette valeur, vous pouvez légèrement accélérer l'IBD. Toutefois, je ne vous conseille pas forcément de le faire, car même en passant ce paramètre à 4 Go, la synchronisation serait seulement 10% plus rapide, mais cela peut vous faire perdre plus de temps en cas d'intéruption durant l'IBD.
+Par défaut, la valeur du paramètre `dbcache` dans Bitcoin Core est fixée à 450 MiB, soit environ 472 Mo. En augmentant cette valeur, vous pouvez accélérer légèrement l’IBD. Toutefois, je ne recommande pas forcément de pousser ce paramètre à des niveaux trop élevés : même en le réglant à 4 GiB, la synchronisation ne sera qu’environ 10 % plus rapide, et cela peut vous faire perdre du temps en cas d’interruption durant l’IBD.
 
-Attention également à ne pas mettre ce paramètre trop haut, car votre noeud pourrait crash si jamais la RAM disponible pour UmbrelOS n'est plus suffisante, et dans ce cas, votre IBD serait intérompue et devrait être relancée manuellement, ce qui peut vous faire perdre beaucoup de temps.
+Veillez aussi à ne pas allouer une valeur trop importante pour votre machine : si la RAM disponible pour UmbrelOS vient à manquer, votre nœud risque de s’arrêter brutalement, ce qui interromprait l’IBD et nécessiterait de la relancer manuellement, occasionnant une perte de temps considérable.
 
-Voir : https://blog.lopp.net/effects-dbcache-size-bitcoin-node-sync-speed/
+Pour approfondir l’impact du paramètre `dbcache` sur la synchronisation initiale, je vous recommande cette analyse de Jameson Lopp : [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-bitcoin-node-sync-speed/) 
 
+Une fois l’IBD de votre nœud terminée (synchronisation à 100 %), vous disposez désormais d’un nœud complet Bitcoin pleinement opérationnel. Félicitations, vous faites désormais partie intégrante du réseau Bitcoin !
 
+027
 
-
-
-
-
-
-
-
-
-
-
-
-## Tour d’horizon des applications disponibles
-<chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
-
-Présentation des principales applications qu’on peut ajouter à Umbrel dans le cadre de Bitcoin : Mempool, Lightning, Nostr, BTCPay, Tailscale... Introduction rapide à leurs fonctions + liens vers tutos. Ouverture sur les indexeurs.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dans la prochaine partie, nous aborderons l’utilisation concrète de votre nouveau nœud : comment y connecter votre portefeuille et quelles applications installer pour devenir un bitcoiner souverain ?
 
 
 
@@ -666,7 +637,10 @@ Tutoriel de connexion entre un portefeuille personnel (sûrement Sparrow) et son
 
 
 
+## Tour d’horizon des applications disponibles
+<chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
 
+Présentation des principales applications qu’on peut ajouter à Umbrel dans le cadre de Bitcoin : Mempool, Lightning, Nostr, BTCPay, Tailscale... Introduction rapide à leurs fonctions + liens vers tutos. 
 
 
 

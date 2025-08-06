@@ -266,111 +266,62 @@ Keunggulan utama Linux adalah ketangguhan, stabilitas, dan tingkat keamanannya y
 
 ![Image](assets/fr/010.webp)
 
-Namun, Linux juga menghadirkan kerumitan tertentu bagi pemula. Banyaknya distribusi Linux yang tersedia dapat membingungkan bagi pengguna yang belum berpengalaman. Demikian pula, penanganan awal sistem, meskipun disederhanakan oleh beberapa distribusi, mungkin memerlukan pembelajaran sebelumnya untuk menguasainya dengan benar, terutama mengingat penggunaan terminal (baris perintah) secara teratur. Dan itulah yang akan dibahas dalam bagian pertama dari kursus SCU202 ini!
-
+Namun, Linux juga menghadirkan kerumitan tertentu bagi pemula. Banyaknya distribusi Linux yang tersedia bisa membingungkan pengguna yang belum terbiasa. Demikian pula, penanganan awal sistem, meskipun telah disederhanakan oleh beberapa distribusi, mungkin memerlukan pembelajaran sebelumnya untuk menguasainya dengan benar, terutama mengingat penggunaan terminal (_command line_) yang sering. Dan, inilah yang akan kita pelajari di bagian pertama kursus SCU202 ini!
 
 
 ### Sistem operasi mana yang harus Anda pilih?
 
+Pilihan Anda akan sangat bergantung pada kebutuhan dan ekspektasi Anda:
 
+-Jika Anda mencari kesederhanaan, kompatibilitas perangkat keras dan lunak yang luas (terutama untuk video game), serta penggunaan serbaguna, Windows bisa menjadi pilihan yang baik. Namun, Anda perlu menyadari keterbatasannya dalam hal performa, keamanan, dan privasi;
+- Jika Anda mencari integrasi optimal antara perangkat keras dan sistem Anda, Interface yang rapi dan mudah digunakan, serta keamanan yang cukup baik tanpa perlu konfigurasi lebih lanjut, dan Anda sudah memiliki atau ingin mengadopsi ekosistem Apple, macOS adalah pilihan yang tepat;
+- Terakhir, jika Anda mencari keamanan, stabilitas, dan performa di atas segalanya, dan Anda juga ingin mengendalikan lingkungan digital Anda secara mendalam, sambil siap menginvestasikan waktu untuk mempelajari cara menggunakan sistem operasi Anda, Linux adalah opsi yang sangat baik. Terutama dalam konteks di mana otonomi teknis dan kemandirian digital menjadi prioritas.
 
-Pilihan Anda akan bergantung pada kebutuhan dan harapan Anda:
-
-
-
-
-- Jika Anda mencari kesederhanaan, kompatibilitas perangkat keras dan perangkat lunak yang luas (terutama untuk permainan video), serta penggunaan tujuan umum, Windows mungkin merupakan pilihan yang baik. Namun, Anda harus menyadari keterbatasannya dalam hal kinerja, keamanan, dan privasi;
-- Jika Anda mencari integrasi optimal antara perangkat keras dan sistem Anda, Interface yang disempurnakan dan mudah digunakan serta keamanan yang relatif baik tanpa perlu konfigurasi tingkat lanjut, dan Anda sudah memiliki atau ingin mengadopsi ekosistem Apple, macOS adalah pilihan yang tepat;
-- Terakhir, jika Anda mencari keamanan, stabilitas, dan kinerja di atas segalanya dan Anda juga ingin mengontrol lingkungan digital Anda secara mendalam, sambil siap menginvestasikan waktu untuk mempelajari cara menggunakan sistem operasi Anda, Linux adalah pilihan yang sangat baik, terutama dalam konteks di mana otonomi teknis dan kedaulatan digital menjadi prioritas.
-
-
-
-Pada bab-bab berikutnya dari bagian sistem operasi ini, saya akan membawa Anda lebih dalam ke Linux, tepatnya karena Linux memungkinkan peningkatan kontrol atas lingkungan digital pribadi Anda.
-
-
+Pada bab-bab selanjutnya di bagian sistem operasi ini, saya akan membawa Anda lebih dalam ke Linux, justru karena sistem ini memungkinkan peningkatan kendali atas lingkungan digital pribadi Anda.
 
 ## Asal-usul GNU/Linux
 
-
 <chapterId>9dbf749d-daae-493b-ab96-93a322df011d</chapterId>
-
-
 
 Sebelum melihat distribusi GNU/Linux dan posisi sistem ini dalam komputasi kontemporer, penting untuk menelusuri asal-usulnya untuk memahami apa yang diwakilinya. Pada bab ini, kita akan melihat kembali akar sejarah, filosofi, dan teknis GNU/Linux, melalui warisan Unix, Genesis dari proyek GNU, pembuatan kernel Linux, dan kemunculan gerakan perangkat lunak bebas.
 
-
+Sebelum kita melihat lebih jauh mengenai distribusi GNU/Linux dan posisi sistem ini dalam dunia komputasi kontemporer, penting untuk menelusuri asal-usulnya agar dapat memahami makna yang sesungguhnya. Pada bab ini, kita akan meninjau kembali akar sejarah, filosofi, dan teknis GNU/Linux, melalui warisan Unix, awal mula proyek GNU, penciptaan kernel Linux, dan munculnya gerakan _free software_.
 
 ### Warisan Unix
 
-
-
-Kelahiran Linux tidak dapat dipahami tanpa menyebutkan nenek moyang langsungnya: Unix. Diciptakan pada akhir tahun 1960-an dan awal 1970-an oleh Ken Thompson, Dennis Ritchie, dan rekan-rekan mereka di AT&T Bell Labs, Unix menandai titik balik utama dalam sejarah sistem operasi. Awalnya dikembangkan dalam *Assembler*, kemudian ditulis ulang dalam *C* oleh Dennis Ritchie pada tahun 1973, Unix meletakkan dasar bagi model OS yang sangat baru berdasarkan modularitas dan kesederhanaan.
-
-
+Kelahiran Linux tidak dapat dipahami tanpa menyebut pendahulunya secara langsung: Unix. Dibuat pada akhir tahun 1960-an dan awal 1970-an oleh Ken Thompson, Dennis Ritchie, dan rekan-rekan mereka di AT&T Bell Labs, Unix menandai titik balik penting dalam sejarah sistem operasi. Awalnya dikembangkan dalam bahasa *Assembler*, kemudian ditulis ulang dalam bahasa *C* oleh Dennis Ritchie pada tahun 1973, Unix meletakkan dasar bagi model OS yang benar-benar baru, yang didasarkan pada modularitas dan kesederhanaan.
 
 ![Image](assets/fr/011.webp)
 
-
-
-Pendekatan ini tercermin dalam prinsip pendirian yang diartikulasikan oleh Doug McIlroy:
-
-
+Pendekatan ini tercermin dalam prinsip dasar yang diutarakan oleh Doug McIlroy:
 
 > Lakukan satu hal dan lakukan dengan baik.
 
-Unix dapat dilihat sebagai evolusi dari, dan reaksi terhadap, sistem operasi Multics, yang arsitekturnya diadopsi. Multics adalah sebuah proyek yang dimulai pada tahun 1964, hasil kolaborasi antara MIT, General Electric, dan AT&T Bell Laboratories. Ken Thompson dan Dennis Ritchie (pencipta UNIX) terus mengawasi proyek Multics hingga tahun 1969, ketika perusahaan mereka menarik diri dari pengembangan.
+Unix dapat dipandang sebagai evolusi sekaligus reaksi terhadap sistem operasi Multics, yang arsitekturnya diadaptasi. Multics adalah proyek yang dimulai pada tahun 1964, hasil kolaborasi antara MIT, General Electric, dan AT&T Bell Laboratories. Ken Thompson dan Dennis Ritchie (pencipta UNIX) memantau erat proyek Multics hingga tahun 1969, ketika perusahaan mereka mundur dari pengembangan.
 
+Pada saat itulah Unix muncul, awalnya dinamai "*UNICS*" singkatan dari "*UNiplexed Information and Computing Service*", yang secara langsung berlawanan dengan "*MULTiplexed Information and Computing Service*", singkatan untuk Multics. Pendekatan baru ini mengedepankan kesederhanaan, modularitas, dan efisiensi, berbeda dengan Multics dengan kompleksitas yang terlalu rumit.
 
-
-Pada titik inilah Unix muncul, yang pada awalnya dinamai "*UNICS*" untuk "*UNiplexed Information and Computing Service*", yang berlawanan dengan "*MULTiplexed Information and Computing Service*", singkatan dari Multics. Pendekatan baru ini menganjurkan kesederhanaan, modularitas, dan efisiensi, berbeda dengan Multics yang terlalu rumit.
-
-
-
-Sejak tahun 1970-an dan seterusnya, Unix dikembangkan dalam konteks penelitian, sebelum didistribusikan secara luas di universitas-universitas dari tahun 1975 dan seterusnya, terutama karena adanya pembatasan antimonopoli yang diberlakukan pada AT&T. Hal ini mendukung pengadopsiannya di banyak laboratorium, seperti Berkeley, di mana cabang BSD (*Berkeley Software Distribution*) lahir. Pada saat yang sama, AT&T mulai memasarkan Unix pada tahun 1980-an, yang mengarah pada proliferasi versi proprietary yang tidak kompatibel (System V, Xenix, SunOS, AIX, Solaris, HP-UX, dll.).
-
-
+Sejak tahun 1970-an, Unix berkembang dalam konteks penelitian, sebelum didistribusikan secara luas di universitas-universitas mulai tahun 1975. Hal ini tidak lepas dari pembatasan antimonopoli yang diberlakukan pada AT&T, yang mendukung adopsinya di banyak laboratorium, seperti di Berkeley, tempat cabang BSD (_Berkeley Software Distribution_) lahir. Pada saat yang sama, AT&T mulai memasarkan Unix pada tahun 1980-an, yang menyebabkan penyebaran yang masif versi paten yang tidak kompatibel (System V, Xenix, SunOS, AIX, Solaris, HP-UX, dll.).
 
 ![Image](assets/fr/012.webp)
 
-
-
 *Sumber: Unix history-simple, oleh Eraserhead1, Infinity0 dan Sav_vas, gambar yang diambil dari diagram Unix History oleh Éric Lévenez, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unix_history-simple.svg).*
 
-
-
-Fragmentasi yang berkembang di antara cabang-cabang ini (BSD di sisi akademis, dan System V khususnya di sisi industri) menciptakan kebingungan yang cukup besar dan interoperabilitas sistem yang terbatas. Untuk menemukan padanan Unix yang stabil, portabel, dan bebas royalti, komunitas meluncurkan beberapa inisiatif, termasuk proyek GNU pada tahun 1983, diikuti dengan pengembangan kernel Linux pada tahun 1991, yang mengisi kekosongan yang ditinggalkan oleh ketiadaan kernel bebas dalam ekosistem GNU. Ini merupakan titik awal dari sistem GNU/Linux.
-
-
+Fragmentasi yang kian melebar antara cabang-cabang ini (BSD di sisi akademis, dan System V khususnya di sisi industri) menciptakan kebingungan yang signifikan dan membatasi interoperabilitas sistem. Untuk menemukan sistem Unix yang stabil, portabel, dan bebas royalti, komunitas meluncurkan beberapa inisiatif, termasuk proyek GNU pada tahun 1983, yang kemudian diikuti oleh pengembangan kernel Linux pada tahun 1991. Kernel ini mengisi kekosongan yang ada karena tidak adanya kernel bebas dalam ekosistem GNU. Momen inilah yang menjadi titik awal sistem GNU/Linux.
 
 ### Proyek GNU
 
-
-
-Proyek GNU (akronim rekursif untuk "*GNU's Not Unix*") secara resmi diumumkan oleh Richard Stallman pada tanggal 27 September 1983, di newsgroup khusus. Pada saat itu, Stallman masih bekerja di Laboratorium Kecerdasan Buatan MIT. Pada tanggal 5 Januari 1984, dia secara sukarela mengundurkan diri dari posisinya untuk memastikan bahwa kode yang akan dia tulis tidak dapat diklaim oleh atasannya. Dia kemudian memulai pengembangan GNU, dengan tujuan menciptakan sistem operasi yang sepenuhnya bebas, yaitu sistem operasi yang menghormati empat kebebasan mendasar: eksekusi bebas, studi bebas, modifikasi bebas, dan distribusi ulang bebas.
-
-
+Proyek GNU (akronim rekursif dari "*GNU's Not Unix*") secara resmi diumumkan oleh Richard Stallman pada 27 September 1983, di grup berita khusus. Saat itu, Stallman masih bekerja di Laboratorium Kecerdasan Buatan MIT. Pada 5 Januari 1984, ia mengundurkan diri secara sukarela dari posisinya untuk memastikan bahwa kode yang akan ia tulis tidak dapat diklaim oleh perusahaannya. Ia kemudian memulai pengembangan GNU, dengan tujuan menciptakan sistem operasi yang sepenuhnya bebas, yaitu sistem yang menghormati empat kebebasan fundamental: kebebasan untuk menjalankan, mempelajari, memodifikasi, dan mendistribusikan ulang secara bebas.
 
 ![Image](assets/fr/013.webp)
 
+Di luar aspek teknisnya, proyek GNU merupakan bagian dari filosofi yang diwarisi dari budaya hacker tahun 1970-an: sebuah budaya yang didasarkan pada berbagi pengetahuan, kerja sama antar-sesama, dan akses bebas ke source code. Richard Stallman ingin melestarikan semangat kolaborasi yang mendominasi masa-masa awal komputasi, saat produsen masih secara bebas mendistribusikan source code sistem mereka. Proyek GNU bertujuan tidak hanya untuk menawarkan sistem operasi bebas, tetapi juga untuk mempertahankan visi politik dan etis dari dunia komputasi: yaitu pengetahuan yang dapat diakses oleh semua orang, tanpa monopoli atau ketergantungan pada perangkat lunak berlisensi. Tujuannya adalah untuk mencegah pengguna menjadi tawanan perangkat lunak yang tidak dapat mereka pahami atau modifikasi, serta untuk mempromosikan komputasi yang membebaskan.
 
-
-Di luar aspek teknisnya, proyek GNU merupakan bagian dari filosofi yang diwarisi dari budaya peretas pada tahun 1970-an: budaya yang didasarkan pada berbagi pengetahuan, kerja sama antar sesama, dan akses bebas ke kode sumber. Richard Stallman ingin melestarikan semangat kolaborasi yang mendominasi masa-masa awal komputasi, ketika para produsen masih mendistribusikan kode sumber sistem mereka secara bebas. Proyek GNU tidak hanya bertujuan untuk menawarkan sistem operasi gratis, tetapi juga untuk mempertahankan visi politik dan etika komputasi: yaitu pengetahuan yang dapat diakses oleh semua orang, tanpa monopoli atau penguncian hak milik. Tujuannya adalah untuk mencegah pengguna menjadi tawanan perangkat lunak yang tidak dapat mereka pahami atau modifikasi, dan untuk mempromosikan komputasi emansipatoris.
-
-
-
-Dengan pemikiran ini, Stallman mendirikan *Free Software Foundation* (FSF) pada tahun 1985, sebuah organisasi yang didedikasikan untuk mendorong dan mempromosikan penggunaan dan pembuatan perangkat lunak bebas.
-
-
+Dengan pemikiran ini, Stallman mendirikan *Free Software Foundation* (FSF) pada tahun 1985, sebuah organisasi yang didedikasikan untuk mendorong dan mempromosikan penggunaan serta penciptaan perangkat lunak bebas.
 
 ![Image](assets/fr/014.webp)
 
-
-
 GNU dengan cepat menyediakan serangkaian alat bantu penting untuk sistemnya:
-
-
-
-
 - GCC (kompiler C)
 - glibc (pustaka C standar)
 - coreutils (perintah dasar)
@@ -378,27 +329,15 @@ GNU dengan cepat menyediakan serangkaian alat bantu penting untuk sistemnya:
 - bash (penerjemah baris perintah)
 - GDB (Debugger)
 
-
-
 ![Image](assets/fr/018.webp)
 
-
-
-Beberapa bata eksternal juga diintegrasikan, seperti X Window System, mesin komposisi TeX dan mikrokernel Mach, yang digunakan dengan paket server GNU Hurd (bersama-sama, Mach dan Hurd memenuhi peran yang sama dengan kernel Unix klasik, tetapi dalam arsitektur mikrokernel + server). Proyek penggantian kernel ini sangat ambisius tetapi sangat kompleks. Proyek ini tidak akan pernah berfungsi penuh, menyisakan ruang untuk kernel Linux.
-
-
+Ada juga beberapa elemen eksternal yang diintegrasikan, seperti X Window System, mesin komposisi TeX, dan microkernel Mach, yang digunakan bersama paket server GNU Hurd. (Secara bersamaan, Mach dan Hurd menjalankan peran yang sama dengan kernel Unix klasik, tetapi dalam arsitektur microkernel + server). Proyek penggantian kernel ini ambisius tetapi sangat kompleks. Proyek ini tidak pernah berfungsi sepenuhnya, memberikan ruang bagi kehadiran kernel Linux.
 
 ![Image](assets/fr/019.webp)
 
+Sebagian besar GNU dikembangkan oleh para sukarelawan, beberapa di waktu luang mereka, sementara yang lain didanai secara ad hoc oleh perusahaan, universitas, atau asosiasi. Pada akhir tahun 1980-an, FSF mulai merekrut pengembang untuk mempercepat pekerjaan. Beberapa perusahaan, seperti Cygnus Solutions (yang kemudian menjadi bagian dari Red Hat), berperan aktif dalam memelihara dan memasarkan Perangkat Lunak Bebas GNU.
 
-
-Sebagian besar GNU dikembangkan oleh sukarelawan, beberapa di waktu luang mereka, yang lain didanai secara ad hoc oleh perusahaan, universitas, atau asosiasi. Pada akhir tahun 1980-an, FSF mulai mempekerjakan pengembang untuk mempercepat pekerjaan. Beberapa perusahaan, seperti Cygnus Solutions (yang kemudian menjadi bagian dari Red Hat), berperan aktif dalam memelihara dan memasarkan Perangkat Lunak Bebas GNU.
-
-
-
-Ketika Linus Torvalds mempublikasikan kernel Linux pada tahun 1991, kernel ini sangat cocok dengan lingkungan yang telah diciptakan oleh GNU, dan terbukti jauh lebih relevan daripada kernel Mach + Hurd. Kombinasi GNU dan Linux memungkinkan untuk pertama kalinya memiliki sistem operasi yang lengkap, bebas, dan fungsional: **GNU/Linux**, realisasi praktis dari proyek yang diluncurkan oleh Stallman hampir satu dekade sebelumnya.
-
-
+Ketika Linus Torvalds menerbitkan kernel Linux pada tahun 1991, ia sangat pas dengan lingkungan yang sudah dibuat oleh GNU, dan terbukti jauh lebih relevan daripada kernel Mach + Hurd. Kombinasi GNU dan Linux memungkinkan terciptanya sistem operasi lengkap, bebas, dan fungsional untuk pertama kalinya: **GNU/Linux**, realisasi nyata dari proyek yang diluncurkan oleh Stallman hampir satu dekade sebelumnya.
 
 ### Kelahiran kernel Linux
 

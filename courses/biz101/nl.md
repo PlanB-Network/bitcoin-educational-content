@@ -191,35 +191,35 @@ Net zoals we zijn overgestapt van het betalen per minuut voor telefoongesprekken
 
 **WAT IS BITCOIN?**
 
-Bitcoin is een **peer-to-peer digitaal geld Exchange systeem** (elektronisch geld). De term "Bitcoin" verwijst naar de volgende componenten:
+Bitcoin is een **peer-to-peer digitaal geldwisselsysteem** (elektronisch contact geld). De term "Bitcoin" verwijst naar de volgende componenten:
 
-- **Een computerprotocol** dat waarde Exchange op het internet mogelijk maakt zonder tussenpersonen, zonder toestemming en pseudoniem. Het maakt gebruik van geavanceerde cryptografische principes.
-- **Een fysiek netwerk** van machines verbonden met het internet (nodes, miners, enz.), beheerd door particulieren en bedrijven, dat een gedecentraliseerd systeem vormt (zonder centrale autoriteit of centraal controlepunt).
-- **De rekeneenheid** binnen het systeem. Er zullen nooit meer dan 21 miljoen bitcoins bestaan. Elke Bitcoin is deelbaar in 100 miljoen eenheden die "satoshis" worden genoemd, ter ere van de anonieme maker.
+- **Een computerprotocol** dat waarde-uitwisseling op het internet mogelijk maakt zonder tussenpersonen, zonder toestemming en pseudoniem. Het maakt gebruik van geavanceerde cryptografische principes.
+- **Een fysiek netwerk** van met het internet verbonden machines (nodes, miners, enz.), beheerd door individuen en bedrijven, dat samen een gedecentraliseerd systeem vormt (zonder centrale autoriteit of centraal controlepunt).
+- **De rekeneenheid** binnen het systeem. Er zullen nooit meer dan 21 miljoen bitcoins bestaan. Elke bitcoin is deelbaar in 100 miljoen eenheden, "satoshis" genoemd, ter ere van de anonieme bedenker.
 
-Samen maken ze van Bitcoin een **bearer asset** en een digitale valuta **zonder uitgever**. Ownership wordt alleen beveiligd door het bezit van de **private cryptografische sleutel**, die volledige controle geeft **zonder tussenpersonen of vertrouwde derden**. Bij overdracht is Ownership onmiddellijk **eigenaar**: de nieuwe houder bezit het volledig zonder afhankelijk te zijn van een centrale autoriteit voor bescherming of converteerbaarheid. Transacties zijn onveranderlijk** - eenmaal vastgelegd op de Blockchain, kunnen ze niet meer veranderd of verwijderd worden.
+Samen maken deze componenten van Bitcoin een **toonderactief (bearer asset)** en een digitale valuta **zonder uitgever**. Eigendom wordt uitsluitend beveiligd door het bezit van de **cryptografische privésleutel**, wat volledige controle biedt **zonder tussenpersonen of vertrouwde derden**. Bij overdracht is het eigendom onmiddellijk **definitief**: de nieuwe houder bezit het volledig zonder afhankelijk te zijn van een centrale autoriteit voor bescherming of inwisselbaarheid. Transacties zijn **onveranderlijk** - eenmaal vastgelegd op de blockchain, kunnen ze niet meer worden aangepast of verwijderd.
 
 ![BIZ101](assets/en/11.webp)
 
-Bitcoin heeft een vast monetair beleid, met een **cap van 21 miljoen bitcoins**, waarvan er al ~19,8 miljoen zijn gedistribueerd. Dit maakt het **deflatoir**, waarbij de waarde in de loop van de tijd stijgt als gebruikers er spaargeld en productiviteitswinsten in opslaan.
+Bitcoin heeft een vast monetair beleid, met een **maximum van 21 miljoen bitcoins**, waarvan er al ~19,8 miljoen zijn uitgegeven. Dit maakt het **deflatoir**, waarbij de waarde in de loop van de tijd stijgt als gebruikers er spaargeld en productiviteitswinsten in opslaan.
 
 De technische eigenschappen overtreffen die van goud en de dollar samen, waardoor het de hardste financiële activa ooit is. Bitcoin is zowel een opslagplaats van waarde als een medium van Exchange, een valuta in wording. Stelt u zich eens voor: een snelle waardeoverdracht van de kas van een bedrijf naar een ander, zonder tussenpersonen, tegen minimale kosten, zonder fraude, 24 uur per dag, 7 dagen per week en zonder tussenkomst van derden.
 
 ![BIZ101](assets/en/03.webp)
 
-Bitcoin behoudt effectief zijn waarde omdat het Ledger fraudebestendig is. De waarde stijgt door het zeldzame en beperkte Supply in combinatie met het groeiende aantal Exchange mogelijkheden, gedreven door het toenemende aantal gebruikers.
+Bitcoin behoudt effectief waarde omdat het grootboek (de ledger) niet te manipuleren is is. De waarde stijgt door het zeldzame en beperkte aanbod in combinatie met het groeiende aantal uitwisselingsmogelijkheden, gedreven door het toenemende aantal gebruikers.
 
-Bitcoin is ontwrichtend omdat het ons stimuleert om concepten in wiskunde, cryptografie, economie en geschiedenis te leren die we nooit geleerd hebben. Hoewel het vaak als complex wordt gezien, is het in feite een innovatie die toegankelijk is door oefening en experimenteren.
+Bitcoin is ontwrichtend omdat het ons stimuleert om concepten in wiskunde, cryptografie, economie en geschiedenis te leren die we op school nooit hebben meegekregen. Hoewel het vaak als complex wordt gezien, is het in werkelijkheid een innovatie die toegankelijk is door oefening en experimentatie.
 
-Bitcoin daagt ons uit om de aard van geld te heroverwegen. Kun je uitleggen wat geld echt is? Een werknemer of ondernemer in loondienst besteedt misschien 50.000 tot 100.000 uur van zijn leven aan het verdienen van geld, maar hoeveel **besteden er zelfs maar 100 uur aan om het beter te begrijpen** en het te behouden? Bitcoin moedigt ons aan om de fundamentele redenen achter onze behoefte aan geld en ons tijdsperspectief in vraag te stellen. Is geld voor onmiddellijke luxe of voor veerkracht op lange termijn? Als we een waardevermeerderend bezit hadden, waardoor we aankopen konden uitstellen, welke keuzes zouden we dan maken? Welke gesprekken zouden we over 20 of 30 jaar met onszelf willen voeren?
+Bitcoin daagt ons uit om de aard van geld zelf opnieuw te overdenken. Kun jij uitleggen wat geld echt is? Een werknemer of ondernemer in loondienst besteedt misschien 50.000 tot 100.000 uur van zijn leven aan het verdienen van geld, maar hoeveel mensen **besteden zelfs maar 100 uur aan het beter begrijpen en behouden ervan**? Bitcoin moedigt ons aan om na te denken over de fundamentele redenen achter onze behoefte aan geld en onze kijk op tijd. Is geld voor directe luxe of voor veerkracht en weerbaarheid op lange termijn? Als we een waardevast actief hadden dat ons in staat stelde aankopen uit te stellen, welke keuzes zouden we dan maken. Welke gesprekken zouden we over 20 of 30 jaar met onszelf willen voeren?
 
-**Bitcoin IDENTITEITSKAART**
+**BITCOIN IDENTITEITSKAART**
 
 - **Leeftijd:** 15 jaar (3 januari 2009)
-- **Dagelijkse Exchange waarde:** $10 miljard (> CAC40)
+- **Dagelijkse uitwisselingswaarde:** $10 miljard (> CAC40)
 - **Marktkapitalisatie:** $1,8 biljoen (> Meta, Visa, Zilver ; < Apple, Google, Goud)
 - **Gebruikers:** ~100 tot 200 miljoen (1-2% van de wereldbevolking)
-- **Volatiliteit:** Intrinsiek geen (1 Bitcoin = 1 Bitcoin), extern zeer hoog (op fiatvaluta beurzen)
+- **Volatiliteit:** Intrinsiek geen (1 Bitcoin = 1 Bitcoin), extern zeer hoog (in fiat-omwisselingen)
 - **Prestaties:** Eerste transactie op $0,0009; nu $100.000 (x100 miljoen)
 - **Netwerkbeschikbaarheid (uptime):** 100% sinds 2013
 - **Doodverklaard of bekritiseerd:** Eens per maand
@@ -229,39 +229,38 @@ Bitcoin daagt ons uit om de aard van geld te heroverwegen. Kun je uitleggen wat 
 - Volledig **open-source**
 - **Rechtspersoon:** Geen
 - **CEO:** Geen
-- **Risicokapitaalinvestering:** Geen
+- **Durfkapitaalinvestering:** Geen
 - **Marketing:** Geen
-- **R&D:** Vrijwilligerswerk
-- **Beheer:** Door de gebruikers
-- **Innovatief economisch model:** Het aanmaken van blokken wordt gesubsidieerd door transactievergoedingen (op basis van veilingen)
+- **R&D:** Door vrijwilligers
+- **Bestuur:** Door de gebruikers
+- **Innovatief economisch model:** Blokcreatie wordt gesubsidieerd door transactiekosten (via een veilingsysteem)
 
 Voor meer informatie over Bitcoin, de geschiedenis, de werking en het gebruik ervan, raad ik ook aan deze andere uitgebreide cursus te volgen:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-## Inleiding tot de Lightning Network
+## Inleiding tot het Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
 **WAT IS LIGHTNING?
 
-Het Lightning Network is **een protocol en een netwerk** dat Bitcoin transacties faciliteert met minimale interactie met Bitcoin's hoofd Blockchain. Dit is hoe het werkt:
+Het Lightning Network is **een protocol en een netwerk** dat Bitcoin transacties mogelijke maakt met minimale interactie met Bitcoin's hoofdblockchain. Zo werkt het:
 
-- **Initiële instelling:** Gelden worden vergrendeld (geblokkeerd) op de hoofd-Blockchain om een betalingskanaal tussen 2 partijen tot stand te brengen.
-- **Betalingsnetwerk:** Een web van betalingskanalen tussen meerdere partijen vormt een betalingsnetwerk (routing en interconnectie).
-- **Off-chain transacties:** Transacties vinden plaats tussen partijen, maar worden **niet onmiddellijk gepubliceerd** op Bitcoin's hoofd Blockchain (**"off-chain"**).
-- **On-Chain settlements:** Alleen **het eindsaldo** van de transacties van een kanaal wordt gepubliceerd op de Bitcoin hoofd Blockchain (**"On-Chain**"), waardoor in de tussentijd meerdere transacties kunnen plaatsvinden. Dit bundelen van meerdere betalingen vermindert de congestie en verlaagt dus de kosten in vergelijking met het maken van veel On-Chain transacties.
-- **Kanaalsluiting:** Een gebruiker kan op elk moment zijn kanaal sluiten en zijn Bitcoin terugvorderen door de laatste transactiestatus te publiceren. Dit is het principe van transacties die **"publiceerbaar" zijn op elk moment, maar "ongepubliceerd"** tot het nodig is. De uitgang (kanaalsluiting) kan unilateraal zijn (besloten door elk van de 2 partijen op elk moment) of wederzijds besloten (resulterend in lagere On-Chain vergoedingen)
+- **Initiële opzet:** Gelden worden vastgezet (in escrow) op de hoofdblockchain om een betalingskanaal tussen twee partijen te openen.
+- **Betalingsnetwerk:** Een web van betalingskanalen tussen meerdere partijen vormt een betalingsnetwerk (voor routing en onderlinge connectie).
+- **Off-chain transacties:** Transacties vinden plaats tussen partijen, maar worden **niet onmiddellijk gepubliceerd** op de hoofdblockchain van Bitcoin (**"off-chain"**).
+- **On-chain afwikkeling:** Alleen **het eindsaldo** van de transacties van een kanaal wordt gepubliceerd op de Bitcoin blockchain (**"on-chain**"), waardoor in de tussentijd talrijke transacties kunnen plaatsvinden. Deze bundeling vermindert congestie en verlaagt zo de kosten in vergelijking met vele afzonderlijke on-chain transacties.
+- **Kanaalsluiting:** Een gebruiker kan op elk moment zijn kanaal sluiten en zijn Bitcoin terugvorderen door de laatste transactiestatus te publiceren. Dit is het principe van transacties die **"publiceerbaar" zijn op elk moment, maar "ongepubliceerd" blijven tot nodig**. Het sluiten van een kanaal kan eenzijdig (door een van de twee partijen op elk moment of in onderling overleg (wat lagere on-chain kosten oplevert).
 
 ![BIZ101](assets/en/04.webp)
 
-Deze benadering vermijdt de traagheid en complexiteit van het direct uitvoeren van elke transactie op Bitcoin's hoofd Blockchain, waarbij alleen eindsaldi worden geregistreerd en de veiligheid behouden blijft. De Lightning Network is een Layer "bovenop" de Bitcoin, maar blijft eraan verankerd.
+Deze benadering vermijdt de traagheid en complexiteit van het direct uitvoeren van elke transactie op de hoofdblockchain, waarbij alleen eindsaldi worden geregistreerd en de veiligheid behouden blijft. Het Lightning Network is een laag "bovenop" Bitcoin, maar blijft eraan verankerd.
 
 **Een wereldwijd betaalnetwerk**
+Het protocol creëert een **netwerk** van machines waar kanalen een universeel betalingssysteem vormen. Deze nodes ("knooppunten") kunnen vrij worden beheerd door individuen of bedrijven, waardoor het een volledig open netwerk is.
 
-Het protocol creëert een **netwerk** van machines waar kanalen een universeel betalingssysteem vormen. Deze knooppunten kunnen vrij worden beheerd door individuen of bedrijven, waardoor het een volledig open netwerk wordt.
-
-De Lightning Network maakt onmiddellijke waarde Exchange mogelijk met de snelheid van het licht. Het is als een e-mailprotocol toegepast op betalingen: een betalingsnetwerk van de volgende generatie. Het verandert de manier waarop "geld" beweegt radicaal, waardoor het net zo gratis en snel wordt als datatransmissie op het internet.
+De Lightning Network maakt onmiddellijke waarde-uitwisseling mogelijk met de snelheid van het licht. Het is als een e-mailprotocol maar dan toegepast op betalingen: een betalingsnetwerk van de volgende generatie. De manier waarop "geld" beweegt veranderd radicaal, waardoor het net zo goedkoop en snel wordt als datatransmissie op het internet.
 
 ![BIZ101](assets/en/12.webp)
 
@@ -271,34 +270,32 @@ De Lightning Network maakt onmiddellijke waarde Exchange mogelijk met de snelhei
 - **Lage kosten:** Veel lagere kosten in vergelijking met traditionele banknetwerken.
 - **Gebruiksgemak:** Bedrijven kunnen Lightning-betalingen snel accepteren via een smartphone-app of een betaalknop op hun website.
 
-De Lightning-infrastructuur presteert beter dan traditionele betalingssystemen op het gebied van snelheid, kosten en energie-efficiëntie. Met de toenemende adoptie door handelaren zal het momentum versnellen: als betalingen het gebonden interbancaire netwerk kunnen omzeilen, waarom dan nog een aanzienlijk percentage van de inkomsten opgeven aan de huidige tussenpersonen?
+De Lightning-infrastructuur presteert beter dan traditionele betalingssystemen op het gebied van snelheid, kosten en energie-efficiëntie. Naarmate meer handelaren en winkeliers het systeem accepteren, zal de adoptie versnellen: als betalingen het gesloten interbancaire netwerk kunnen omzeilen, waarom zouden we dan nog een aanzienlijk deel van de inkomsten afstaan aan de tussenpersonen van vandaag?
 
-**Oneindige gebruikssituaties:**
+**Oneindig aantal toepassingen:**
 
-De toepassingen van Lightning gaan veel verder dan lage kosten en snelheid. Door een volledig gratis en direct betaalsysteem aan te bieden, opent het enorme mogelijkheden in de hele economie.
+De toepassingen van Lightning gaan veel verder dan lage kosten en snelheid. Door een volledig gratis en direct betaalsysteem aan te bieden, opent het enorme mogelijkheden voor de hele economie.
 
-**De Exchange-mogelijkheden van Bitcoin verbeteren:**
+**De uitwisselingsmogelijkheden van Bitcoin verbeteren:**
+Lightning versterkt de rol van Bitcoin als "ruilmiddel (medium of exchange)." Door de frequentie en vrijheid van transacties te vergroten, versterkt het de primaire functie van geld: het faciliteren van economische uitwisselingen en waardecreatie voor alle deelnemers.
 
-Bliksem versterkt de rol van Bitcoin als "medium van Exchange." Door de frequentie en vrijheid van transacties te vergroten, versterkt het de primaire functie van geld: het faciliteren van economische uitwisselingen en waardecreatie voor alle deelnemers.
+De toekomstige opkomst van de "slimme machine-economie" vereist een ultrasnel, hoogfrequent betalingssysteem, een technische standaard waaraan alleen Lightning kan voldoen. Dit maakt de creatie van meer goederen en diensten mogelijk. Omdat Bitcoin's voorraad beperkt blijft, zal de koopkracht van elke eenheid toenemen. Bitcoin en Lightning worden samen sterker naarmate hun netwerken zich uitbreiden.
 
-De toekomstige opkomst van de "slimme machine-economie" vereist een ultrasnel, hoogfrequent betalingssysteem, een technische standaard waaraan alleen Lightning kan voldoen. Dit maakt de creatie van meer goederen en diensten mogelijk. Omdat Bitcoin's Supply beperkt blijft, zal de koopkracht van elke eenheid toenemen. Bitcoin en Lightning worden samen sterker naarmate hun netwerken zich uitbreiden.
+Lightning biedt een blik in een toekomst waarin alle internetbedrijven ook Bitcoin-bedrijven zullen worden.
 
-Lightning biedt een blik in een toekomst waarin alle bedrijven die internet-gebaseerd zijn, ook Bitcoin-gebaseerd zullen worden.
-
-**Bitcoin Betalingen op Lightning: Een typisch geval voor verkopers**
-
+**Bitcoin betalingen op Lightning: Een typische usecase voor verkopers**
 De Lightning Network is ideaal voor Bitcoin betalingen in fysieke of online winkels vanwege de snelheid en finaliteit van de betaling.
 
-- Snelheid:** Lightning (~500ms tot een paar seconden) is aanzienlijk sneller dan het Bitcoin hoofdnetwerk, waar het ongeveer 30 minuten kan duren voordat transacties bevestigd zijn. Voor grote aankopen (meer dan $1.000) kan het Bitcoin hoofdnetwerk nog steeds de voorkeur genieten, omdat snelheid minder belangrijk is. Deze details zijn echter vaak verborgen voor de gemiddelde gebruiker, omdat applicaties deze beslissingen naadloos op de achtergrond afhandelen.
-- Finaliteit:** Zodra een betaling is gedaan op Lightning, is deze definitief. Er is geen mogelijkheid voor terugboekingen door derden of fraudegerelateerde geschillen.
-- Kosten:** Transactiekosten op de Lightning Network zijn minimaal en worden betaald door de gebruiker, niet door de handelaar. Merchants betalen alleen kosten als ze hun Bitcoin later moeten overzetten naar een ander netwerk of een andere dienst.
+- **Snelheid:** Lightning (~500ms tot een paar seconden) is aanzienlijk sneller dan het hoofdnetwerk van Bitcoin, waar het ongeveer 30 minuten kan duren voordat transacties bevestigd zijn. Voor grote aankopen (meer dan $1.000) kan het Bitcoin hoofdnetwerk nog steeds de voorkeur genieten, omdat snelheid minder belangrijk is. Deze details zijn echter vaak verborgen voor de gemiddelde gebruiker, omdat applicaties deze beslissingen naadloos op de achtergrond afhandelen.
+- **Finaliteit:** Zodra een betaling is gedaan op Lightning, is deze definitief. Er is geen mogelijkheid voor terugboekingen door derden of fraudegerelateerde geschillen.
+- **Kosten:** Transactiekosten op het Lightning Network zijn minimaal en worden betaald door de gebruiker, niet door de handelaar of winkelier. Handelaren betalen alleen kosten als ze hun Bitcoin later moeten overzetten naar een ander netwerk of een andere dienst.
 
 **LIGHTNING IDENTITEITSKAART**
 
 - **Uitvinding:** 2015
 - **Lancering:** 2016
 - **Leeftijd:** 7 jaar (eerste transactie: 28 december 2017)
-- **Technische capaciteit van het netwerk:** Op schaal kan het 1000 keer meer directe transacties verwerken dan traditionele systemen.
+- **Technische capaciteit van het netwerk:** Opgeschaald kan het 1000 keer meer directe transacties verwerken dan traditionele systemen.
 - **Transactiegroottes:** Variërend van even groot tot 1000 keer kleiner dan traditionele systemen.
 - **Transactiesnelheid:** Tot 100 keer sneller.
 - **Kosten:** Tot 90% lager.
@@ -313,11 +310,11 @@ De Lightning Network is ideaal voor Bitcoin betalingen in fysieke of online wink
     - Hoge beschikbaarheid (uitstekende uptime)
     - Controleerbaar en aanpasbaar
 
-Voor meer informatie over de technische werking van de Lightning Network, raad ik je ook aan deze andere uitgebreide cursus te volgen:
+Voor meer informatie over de technische werking van het Lightning Network, raad ik je ook aan deze andere uitgebreide cursus te volgen:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-# Bitcoin in kas
+# Bitcoin in kas (treasury)
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
 
@@ -327,11 +324,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Een gezond bedrijf
 
-**De toekomst is onzeker** en bedrijven moeten zich door deze onzekerheid navigeren met een duidelijke focus op het maken van winst en het behouden van kapitaal. Volgens de Oostenrijkse economie is **winst het ultieme signaal van de gezondheid van een bedrijf** - het laat zien dat het bedrijf efficiënt in de behoeften van de consument voorziet. Zonder winst kan een bedrijf zichzelf niet in stand houden, laat staan groeien. Om gezond te blijven, moet een bedrijf niet alleen generate winst maken, maar ook vooruit denken, **kapitaal bewaren voor toekomstige investeringen en uitdagingen**.
+**De toekomst is onzeker** en bedrijven moeten zich door deze onzekerheid navigeren met een duidelijke focus op het maken van winst en het behouden van kapitaal. Volgens de Oostenrijkse economische school is **winst het ultieme signaal van de gezondheid van een bedrijf** - het laat zien dat het bedrijf efficiënt in de behoeften van de consument voorziet. Zonder winst kan een bedrijf zichzelf niet in stand houden, laat staan groeien. Om gezond te blijven, moet een bedrijf niet alleen winst maken, maar ook vooruit denken, **kapitaal bewaren voor toekomstige investeringen en uitdagingen**.
 
-**Kapitaalbehoud** is essentieel omdat het bedrijven in staat stelt zich aan te passen en kansen te grijpen in een onvoorspelbare markt. Dit houdt in dat er een balans moet worden gevonden tussen het herinvesteren van winst om te groeien en het aanhouden van een financiële buffer om potentiële neergangen te doorstaan. De Oostenrijkse economie benadrukt het belang van **"tijdsvoorkeur"**, wat betekent dat bedrijven zorgvuldig moeten beslissen hoeveel prioriteit ze geven aan onmiddellijk rendement versus investeren voor succes op lange termijn. Een gezond bedrijf houdt zijn financiële basis sterk en zorgt voor flexibiliteit in zowel goede als slechte tijden.
+**Kapitaalbehoud** is essentieel omdat het bedrijven in staat stelt zich aan te passen en kansen aan te grijpen in een onvoorspelbare markt. Dit houdt in dat er een balans moet worden gevonden tussen het herinvesteren van winst om te groeien en het aanhouden van een financiële buffer om potentiële neergangen te doorstaan. De Oostenrijkse school benadrukt het belang van **"tijdsvoorkeur"**, wat betekent dat bedrijven zorgvuldig moeten beslissen hoeveel prioriteit ze geven aan onmiddellijk rendement versus investeren voor succes op lange termijn. Een gezond bedrijf houdt zijn financiële basis sterk en zorgt voor flexibiliteit in zowel goede als slechte tijden.
 
-Marktsignalen zoals prijzen en concurrentie helpen bedrijven om slimme beslissingen te nemen over de toewijzing van middelen. Door naar deze signalen te luisteren, kunnen bedrijven de valkuil vermijden om te veel uit te geven of slechte investeringen te doen - vooral als deze beïnvloed worden door kunstmatige factoren zoals gemakkelijk krediet. Het verkeerd toewijzen van middelen brengt niet alleen de gezondheid van het bedrijf in gevaar, maar vermindert ook het vermogen om klanten effectief te bedienen.
+Marktsignalen zoals prijzen en concurrentie helpen bedrijven om slimme beslissingen te nemen rondom het toewijzen van middelen. Door naar deze signalen te luisteren, kunnen bedrijven de valkuil vermijden om te veel uit te geven of slechte investeringen te doen - vooral als deze beïnvloed worden door kunstmatige factoren zoals gemakkelijk krediet. Het verkeerd toewijzen van middelen brengt niet alleen de gezondheid van het bedrijf in gevaar, maar vermindert ook het vermogen om klanten effectief te bedienen.
 
 Uiteindelijk betekent het handhaven van een gezond bedrijf dat je je aanpast, verstandige financiële keuzes maakt en altijd de toekomst in het oog houdt. **Door te focussen op winst, kapitaal te behouden en te reageren op marktsignalen kunnen bedrijven - groot of klein - zelfs gedijen bij onzekerheid**.
 
@@ -346,18 +343,13 @@ In de traditionele economische theorie (Keynesiaans) wordt kapitaal vaak in vere
 "Kapitaal" wordt vaak afgeschilderd als een instrument van uitbuiting, en dit perspectief heeft veel invloed gehad op verschillende bewegingen die kapitaal zien als inherent tegengesteld aan de belangen van arbeiders. Maar is dit waar? Of kan deze perceptie vertekend zijn door:
 
 1. Een gebrek aan begrip van economische mechanismen (ook door economen zelf)?
-
 2. Overheidsbemoeienis en marktmanipulatie?
-
 3. Verwarring tussen vriendjeskapitalisme en vrijemarktkapitalisme?
-
 4. Hoe framen de media economische crises?
-
 5. Een verlangen naar snelle oplossingen en onmiddellijke sociale rechtvaardigheid?
-
 6. De culturele normalisering van antikapitalistische retoriek?
 
-Gelukkig dwingt Bitcoin ons om alles opnieuw te bekijken en deze vooroordelen in twijfel te trekken. Er bestaat een denkschool - de Oostenrijkse economische school - die licht kan werpen op deze kwesties en ons kan helpen de ware aard van kapitaal te heroverwegen.
+Gelukkig dwingt Bitcoin ons om alles opnieuw te bekijken en deze vooroordelen in twijfel te trekken. Er bestaat een economische stroming - de Oostenrijkse economische school - die licht kan werpen op deze kwesties en ons kan helpen de ware aard van kapitaal te heroverwegen.
 
 **Er was eens**
 
@@ -365,9 +357,9 @@ Laten we beginnen met een kort verhaal:
 
 "Op een klein verlaten eiland woont een eenzame visser. Elke dag besteedt hij uren aan het vangen van vis met zijn blote handen, een activiteit die veel van zijn tijd en energie opslokt. Op een dag heeft hij een idee: een speer bouwen waarmee hij efficiënter kan vissen. Maar hij weet dat dit een opoffering zal vergen.
 
-Voordat hij begint met het maken van de speer, besluit de visser wat vis opzij te leggen om zichzelf tijdens het bouwproces in leven te houden. Hij eet een paar dagen minder dan normaal, zodat hij genoeg vis overhoudt om zich op zijn project te concentreren. Deze gespaarde vis vertegenwoordigt zijn **kapitaal**, een kleine reserve waarmee hij zijn doel kan nastreven.
+Voordat hij begint met het maken van de speer, besluit de visser wat vis opzij te leggen om zichzelf tijdens het bouwproces in leven te houden. Hij eet een paar dagen minder dan normaal, zodat hij genoeg vis overhoudt om zich op zijn project te concentreren. De opgespaarde vis vertegenwoordigt zijn **kapitaal**, een kleine reserve waarmee hij zijn doel kan nastreven.
 
-Terwijl hij zijn tijd besteedt aan het bouwen van de speer, vertrouwt hij op zijn reserves en stelt hij bereidwillig een deel van zijn directe comfort uit (een weerspiegeling van zijn **tijdvoorkeur**). Na enkele dagen Hard werk heeft hij een stevige speer af.
+Terwijl hij zijn tijd besteedt aan het bouwen van de speer, vertrouwt hij op zijn reserves en stelt hij bereidwillig een deel van zijn directe comfort uit (een weerspiegeling van zijn **tijdvoorkeur**). Na enkele dagen hard werk heeft hij een stevige speer af.
 
 ![BIZ101](assets/en/05.webp)
 
@@ -377,15 +369,15 @@ Dit verhaal illustreert de fundamentele rol van kapitaal, geduld en vooruitziend
 
 ### De Oostenrijkse economische school en haar visie op kapitaal
 
-De Austrian School of Economics is vernoemd naar de oprichters en vroege bijdragers, die oorspronkelijk uit Oostenrijk kwamen. De naam is blijven hangen en de school wordt sindsdien nauw geassocieerd met het klassieke liberale gedachtegoed, dat de nadruk legt op individuele vrijheid, vrije markten en minimale staatsinterventie.
+De Oostenrijkse economische school is vernoemd naar de oprichters en vroege bijdragers, die oorspronkelijk uit Oostenrijk kwamen. De naam is blijven hangen en de school wordt sindsdien nauw geassocieerd met het klassieke liberale gedachtegoed, dat de nadruk legt op individuele vrijheid, vrije markten en minimale staatsinterventie.
 
 **Het Oostenrijkse perspectief op kapitaal**
 
-In de Oostenrijkse visie is kapitaal nauw verbonden met het idee van het uitstellen van consumptie om gereedschappen of productieve middelen te bouwen die de toekomstige productie verbeteren. Dit proces, bekend als kapitaalaccumulatie, staat centraal in de Oostenrijkse economische theorie. De belangrijkste Elements van dit perspectief zijn:
+De Oostenrijkse visie op kapitaal is nauw verbonden met het idee van het uitstellen van consumptie om gereedschappen of productieve middelen te bouwen die toekomstige productie verbeteren. Dit proces, bekend als kapitaalaccumulatie, staat centraal in de Oostenrijkse economische theorie. De belangrijkste elementen van dit perspectief zijn:
 
-- **Tijdsvoorkeur en uitgestelde consumptie**: Individuen consumeren van nature liever nu dan later, maar ze kunnen ervoor kiezen om consumptie uit te stellen als ze in de toekomst grotere beloningen verwachten. Door vandaag te sparen, kunnen middelen worden geïnvesteerd in kapitaalgoederen (gereedschap, machines, infrastructuur) die de productiviteit na verloop van tijd verbeteren. Samenlevingen of individuen met een lagere tijdsvoorkeur sparen meer en investeren in langetermijnprojecten, wat duurzame groei bevordert.
+- **Tijdsvoorkeur en uitgestelde consumptie**: Individuen consumeren van nature liever nu dan later, maar ze kunnen ervoor kiezen om consumptie uit te stellen als ze in de toekomst grotere beloningen verwachten. Door vandaag te sparen, kunnen middelen worden geïnvesteerd in kapitaalgoederen (gereedschap, machines, infrastructuur) die de productiviteit na verloop van tijd verbeteren. Samenlevingen en individuen met een lagere tijdsvoorkeur sparen meer en investeren in langetermijnprojecten, wat duurzame groei bevordert.
 
-- **Kapitaal als motor van toekomstige productie**: Kapitaalgoederen worden gezien als intermediaire instrumenten die worden gebruikt om consumptiegoederen te produceren. Door kapitaal te accumuleren kunnen ondernemers hun productiviteit verhogen en meer welvaart creëren in de toekomst. In plaats van onmiddellijk consumptiegoederen te produceren, kunnen middelen bijvoorbeeld worden gebruikt om fabrieken of machines te bouwen. Hoewel dit de consumptie op korte termijn vermindert, zorgt de resulterende efficiëntie voor een grotere productie en welvaart later.
+- **Kapitaal als motor van toekomstige productie**: Kapitaalgoederen worden gezien als intermediaire instrumenten die gebruikt worden om consumptiegoederen te produceren. Door kapitaal te accumuleren kunnen ondernemers hun productiviteit verhogen en meer welvaart creëren in de toekomst. In plaats van onmiddellijk consumptiegoederen te produceren, kunnen middelen bijvoorbeeld worden gebruikt om fabrieken of machines te bouwen. Hoewel dit de consumptie op korte termijn vermindert, zorgt de resulterende efficiëntie voor een grotere productie en welvaart later.
 
 - **Indirecte productie en efficiëntie**: Oostenrijkse economen, zoals Eugen Böhm-Bawerk, benadrukten het idee van indirecte productie - langere en complexere productieprocessen die uit meerdere fasen bestaan. Hoewel deze processen tijd kosten, leveren ze uiteindelijk efficiëntere en productievere resultaten op, zoals het bouwen van een zagerij om hout te verwerken in plaats van het handmatig verzamelen van boomstammen.
 
@@ -393,13 +385,13 @@ In de Oostenrijkse visie is kapitaal nauw verbonden met het idee van het uitstel
 
 **Twee vormen van kapitaal in moderne economieën**
 
-Binnen het kader van het op schulden gebaseerde monetaire systeem waarin wij opereren, **bestaat er een tweede type kapitaal**: kapitaal dat ogenblikkelijk wordt gegenereerd wanneer een bank een lening creëert via een eenvoudig kredietmechanisme. Dit houdt de creatie van liquiditeit ex nihilo in, waarbij de bank geld uitleent dat ze niet van tevoren in bezit heeft, maar in plaats daarvan creëert op basis van een belofte van terugbetaling.
+Binnen het kader van het op schulden gebaseerde monetaire systeem waarin wij opereren, **bestaat er een tweede type kapitaal**: kapitaal dat ogenblikkelijk wordt gegenereerd wanneer een bank een lening creëert via een eenvoudig kredietmechanisme. Dit houdt de creatie van liquiditeit ex nihilo (uit het niets) in, waarbij de bank geld uitleent dat ze niet van tevoren in bezit heeft, maar in plaats daarvan creëert op basis van een belofte van terugbetaling.
 
-Enerzijds is "Oostenrijks" kapitaal het resultaat van echte besparingen, een proces dat doordachte economische beslissingen en nauwgezette opofferingen met zich meebrengt. Aan de andere kant is het kapitaal dat wordt gegenereerd door de creatie van geld op basis van schulden een onmiddellijke en kunstmatige constructie. Deze twee soorten kapitaal, hoewel **oppervlakkig gelijk in hun gebruik om projecten te financieren, zijn fundamenteel verschillend van aard**.
+Enerzijds is "Oostenrijks" kapitaal het resultaat van echte besparingen, een proces dat doordachte economische beslissingen en nauwgezette opofferingen met zich meebrengt. Aan de andere kant is het kapitaal dat wordt gegenereerd door de creatie van geld op basis van schulden een directe en kunstmatige constructie. Deze twee soorten kapitaal, hoewel **oppervlakkig gelijk in hun gebruik om projecten te financieren, zijn fundamenteel verschillend van aard**.
 
-Deze twee vormen van kapitaal mogen nooit met elkaar worden verward, maar binnen een op schulden gebaseerd systeem gebeurt dat vaak wel, waardoor economische signalen worden verstoord** en er vaak sprake is van verkeerde investeringen. Dit misverstand verklaart waarom het kapitalisme vaak onterechte kritiek krijgt..
+Deze twee vormen van kapitaal mogen nooit met elkaar worden verward, maar binnen een op schulden gebaseerd systeem gebeurt dat vaak wel, waardoor **economische signalen worden verstoord** en er vaak sprake is van verkeerde investeringen. Dit misverstand draagt bij aan de onterechte kritiek dat kapitalisme vaak krijgt..
 
-**Het belangrijkste probleem met keynesianisme**
+**Het belangrijkste probleem met Keynesianisme**
 
 Keynesiaans beleid, dat op grote schaal wordt toegepast door mondiale elites, manipuleert rentetarieven en stimuleert de vraag via schulden. Dit moedigt middelen aan om naar kortlopende, niet-duurzame projecten te gaan, waardoor economische cycli worden versterkt en echte groei, die is geworteld in gezonde besparingen en productieve investeringen, wordt vertraagd. Bedrijfsleiders zien dit schadelijke beleid met eigen ogen als gezonde bedrijven worden gedwongen tot overgewaardeerde acquisities in een streven naar opgeblazen opbrengsten, waardoor organische en duurzame groei wordt ondermijnd.
 

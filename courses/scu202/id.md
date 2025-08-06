@@ -12,7 +12,7 @@ objectives:
 
 
 ---
-# Selangkah lebih dekat menuju kedaulatan digital
+# Selangkah lebih dekat menuju kemandirian digital
 
 Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI (teknologi informasi) Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan lokal Anda, setiap elemen ini dapat menjadi pintu gerbang potensial bagi privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
 
@@ -20,7 +20,7 @@ Ini bukan hanya tentang mengetahui praktik terbaik: ini tentang memahami apa yan
 
 Sepanjang modul kursus, Anda akan menemukan cara memverifikasi integritas perangkat lunak yang Anda instal, mengenkripsi data Anda secara efektif, menggunakan browser dan ponsel Anda dengan kebocoran data yang minimum, dan memperkuat keamanan jaringan lokal Anda.
 
-Kursus ini menargetkan pengguna tingkat menengah yang ingin lebih jauh menguasai perangkat digital mereka. Kursus ini didasarkan pada pendekatan praktis, berfokus pada otonomi dan kedaulatan, untuk membangun kebiasaan TI (teknologi informasi) sehari-hari yang lebih aman dan lebih sadar, mengikuti moto “_Jangan Percaya, Verifikasi_”.
+Kursus ini menargetkan pengguna tingkat menengah yang ingin lebih jauh menguasai perangkat digital mereka. Kursus ini didasarkan pada pendekatan praktis, berfokus pada otonomi dan kemandirian, untuk membangun kebiasaan TI (teknologi informasi) sehari-hari yang lebih aman dan lebih sadar, mengikuti moto “_Jangan Percaya, Verifikasi_”.
 
 +++
 
@@ -40,7 +40,7 @@ Kursus dimulai dengan tinjauan singkat tentang konsep-konsep yang dibahas dalam 
 
 ### Bagian 2 - Dari klik ke terminal: menguasai Linux
 
-Bagian ini memperkenalkan sistem GNU/Linux, sebuah dasar kedaulatan digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah menarik dari Linux dan perangkat lunak gratis, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
+Bagian ini memperkenalkan sistem GNU/Linux, sebuah dasar kemandirian digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah menarik dari Linux dan perangkat lunak gratis, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
 
 Selanjutnya, Anda akan belajar cara memilih distribusi Linux yang paling sesuai dengan kebutuhan dan lingkungan desktop Anda. Akhirnya, Anda akan mengambil langkah pertama dengan Ubuntu melalui panduan instalasi dan konfigurasi yang terperinci.
 
@@ -96,7 +96,7 @@ Sebelum memulai kursus SCU202, saya ingin mengulas secara singkat konsep-konsep 
 
 Selain itu, jika Anda masih pemula dalam bidang komputer dan belum mengambil SCU101, saya sangat menyarankan untuk memulai dengan kursus pertama itu sebelum melanjutkan ke kursus ini. Dasar-dasar yang dibahas di SCU101 tidak akan diulangi di sini. Oleh karena itu, saya tidak akan kembali membahas praktik keamanan dasar, penggunaan VPN, manajer kata sandi, atau autentikasi dua faktor. Namun, semua konsep ini penting untuk dikuasai sebelum beralih ke penggunaan yang lebih lanjut, yang akan kita bahas di bab-bab berikutnya.
 
-Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam praktek digital yang aman bagi pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan sehari-hari, privasi, dan kedaulatan digital.
+Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam praktek digital yang aman bagi pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan sehari-hari, privasi, dan kemandirian digital.
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
@@ -232,73 +232,39 @@ Dalam hal keamanan, Windows adalah target utama untuk *malware*. Popularitas dan
 
 ![Image](assets/fr/007.webp)
 
-Menurut pendapat saya, Windows menempati posisi sentral yang tidak tegas: bisa aman, tetapi kurang aman daripada Linux dan macOS; memungkinkan sejumlah kontrol, tetapi jauh lebih sedikit daripada Linux; tidak sekuat macOS, atau sesederhana Chrome OS atau sistem Linux yang ramah bagi pemula. Rata-rata dalam semua aspek, tanpa benar-benar buruk di bidang apa pun (kecuali privasi, secara default).
-
-
+Menurut pendapat saya, Windows menempati posisi sentral yang tidak tegas: Windows bisa aman, tetapi tidak seaman Linux dan macOS; ini memungkinkan tingkat kontrol tertentu, tetapi jauh lebih sedikit daripada Linux; Windows tidak sekuat macOS, juga tidak sesederhana Chrome OS atau beberapa sistem Linux yang ramah bagi pemula. Rata-rata di semua aspek, tanpa benar-benar buruk di area mana pun (kecuali privasi, secara default).
 
 ![Image](assets/fr/006.webp)
 
+Dalam hal kedaulatan digital dan penguasaan teknis, Windows dengan cepat menunjukkan keterbatasannya. Modelnya didasarkan pada hubungan yang tidak seimbang antara pengguna dan pengembang, di mana pengembang lebih diuntungkan. Bagi mereka yang sangat ingin memahami, mempersonalisasi, dan mengamankan komputer mereka, Windows bukanlah sistem operasi yang sangat cocok. Oleh karena itu, kita tidak akan membahas lebih jauh tentang Windows dalam kursus SCU202.
 
+### macOS: integrasi dan optimasi
 
-Dalam hal kedaulatan digital dan penguasaan teknis, Windows dengan cepat menunjukkan keterbatasannya. Modelnya didasarkan pada hubungan yang tidak seimbang antara pengguna dan penerbit, demi keuntungan penerbit. Bagi mereka yang sangat ingin memahami, mempersonalisasi, dan mengamankan komputer mereka, ini bukanlah sistem operasi yang sangat cocok, oleh karena itu kami tidak akan membahas lebih lanjut tentang Windows di SCU202.
-
-
-
-### macOS: integrasi dan pengoptimalan
-
-
-
-macOS adalah sistem operasi yang dikembangkan oleh Apple untuk komputer Mac, sistem yang mewarisi Unix, melalui sistem NeXTSTEP, yang diakuisisi oleh Apple pada tahun 1997. macOS didasarkan pada kernel yang disebut "*XNU*", yang menggabungkan Elements dari BSD (*Berkeley Software Distribution*) dan mikrokernel Mach.
-
-
+macOS adalah sistem operasi yang dikembangkan oleh Apple untuk komputer Mac-nya. Sistem ini mewarisi dari Unix, melalui sistem NeXTSTEP, yang diakuisisi oleh Apple pada tahun 1997. macOS didasarkan pada kernel yang disebut "*XNU*", yang menggabungkan elemen-elemen dari BSD (*Berkeley Software Distribution*) dan *microkernel Mach*.
 
 ![Image](assets/fr/008.webp)
 
-
-
-Fondasi yang kokoh ini memberikan stabilitas yang baik, manajemen sumber daya yang efisien, dan arsitektur yang relatif aman secara default. Ditambah lagi dengan grafis Interface yang sangat halus, yang dirancang untuk pengalaman pengguna yang mulus.
-
-
+Dasar yang kuat ini menghasilkan stabilitas yang tinggi, manajemen sumber daya yang efektif, dan desain arsitektur yang secara bawaan cukup aman. Selain itu, macOS juga dilengkapi dengan Interface grafis yang sangat rapi, yang dibuat untuk memberikan pengalaman pengguna yang nyaman dan lancar.
 
 ![Image](assets/fr/003.webp)
 
+Salah satu kekuatan utama macOS terletak pada integrasi vertikal perangkat keras dan perangkat lunak. Apple mengendalikan seluruh rantai produksi, mulai dari desain prosesor hingga detail terkecil pada Interface. Hasilnya adalah sebuah sistem yang handal secara umum, dengan sedikit kesalahan pada perangkat keras dan optimasi untuk performa yang maksimal.
 
-
-Salah satu kekuatan utama macOS terletak pada integrasi vertikal perangkat keras dan perangkat lunak. Apple mengontrol seluruh rantai, dari desain prosesor hingga detail terkecil Interface. Hasilnya adalah sistem yang secara umum dapat diandalkan, dengan sedikit bug perangkat keras dan dioptimalkan untuk kinerja.
-
-
-
-Namun, integrasi ini memiliki kelemahan karena semakin terkunci ke dalam ekosistem Apple. macOS adalah sistem yang sebagiannya merupakan sistem berpemilik (dengan sebagian besar kode sumber tertutup) yang hanya berjalan pada perangkat keras yang diproduksi oleh Apple. Pengguna hanya memiliki sedikit kendali atas pembaruan, opsi konfigurasi sistem tingkat lanjut, atau pilihan komponen perangkat keras. Perangkat keras sulit dimodifikasi atau diperbaiki, dan sering kali terkunci secara perangkat lunak.
-
-
+Namun, integrasi ini memiliki kelemahan, yaitu semakin mengunci pengguna di dalam ekosistem Apple. macOS adalah sistem yang sebagian bersifat proprietary (dengan source code yang sebagian besar tertutup) dan hanya bisa dijalankan pada perangkat keras yang diproduksi oleh Apple. Pengguna memiliki sedikit kendali atas pembaruan, opsi konfigurasi sistem yang mendalam, atau pilihan komponen perangkat keras. Perangkat kerasnya sulit dimodifikasi atau diperbaiki, dan sering kali terkunci oleh perangkat lunak.
 
 ![Image](assets/fr/009.webp)
 
+Dalam hal privasi, meskipun macOS tidak serentan Windows, macOS tetap terikat pada logika pengumpulan data, sinkronisasi cloud, dan ketergantungan pada layanan terpusat. Sebagian besar fungsi canggih sistem ini mengandalkan koneksi permanen ke ekosistem Apple (iCloud, App Store, Siri...), yang membatasi kemandirian pengguna.
 
-
-Dalam hal privasi, meskipun macOS tidak terlalu mengganggu dibandingkan Windows, macOS tetap terikat pada logika pengumpulan data, sinkronisasi cloud, dan ketergantungan pada layanan terpusat. Sebagian besar fungsi lanjutan sistem bergantung pada koneksi permanen ke ekosistem Apple (iCloud, App Store, Siri...), yang membatasi kemandirian pengguna.
-
-
-
-macOS mungkin cocok untuk pengguna yang menghargai kinerja, stabilitas, dan kenyamanan sistem yang terintegrasi dengan baik, tanpa harus menyelami detail teknis. Di sisi lain, dalam hal kedaulatan digital dan kontrol lingkungan TI Anda, sistem operasi ini terlalu tertutup, terlalu bergantung pada satu perusahaan, dan tidak kondusif untuk penyesuaian yang baik. Itulah mengapa kami tidak akan membahasnya lebih lanjut dalam kursus ini.
-
-
+macOS mungkin cocok untuk pengguna yang menghargai performa, stabilitas, dan kenyamanan dari sistem yang terintegrasi dengan baik, tanpa harus mendalami detail teknis. Namun, jika menyangkut kemandirian digital dan kontrol atas lingkungan TI Anda, sistem ini terlalu tertutup, terlalu bergantung pada satu perusahaan, dan tidak kondusif untuk penyesuaian yang mendalam. Itulah sebabnya kami tidak akan membahasnya lebih jauh dalam kursus SCU202 ini.
 
 ### GNU/Linux: kebebasan, kendali, dan keamanan
 
+GNU/Linux membedakan dirinya secara nyata dari dua sistem sebelumnya melalui model yang gratis dan open-source. Tidak seperti Windows atau macOS, Linux tidak dikembangkan oleh satu perusahaan, melainkan oleh komunitas pengembang di seluruh dunia. Model berbasis komunitas ini menjamin transparansi, keamanan, dan fleksibilitas. Linux menawarkan kendali penuh kepada penggunanya, yang memungkinkan penyesuaian lingkungan kerja secara menyeluruh. Hal ini sangat menarik bagi pengguna tingkat lanjut, pengembang, atau siapa pun yang ingin menguasai lingkungan digital mereka sepenuhnya.
 
-
-GNU/Linux sangat membedakan dirinya dari dua sistem operasi sebelumnya dengan modelnya yang bebas dan sumber terbuka. Tidak seperti Windows atau macOS, Linux tidak dikembangkan oleh satu perusahaan, tetapi oleh komunitas pengembang di seluruh dunia. Model komunitas ini menjamin transparansi, keamanan, dan fleksibilitas. Linux menawarkan kontrol penuh kepada penggunanya, yang memungkinkan personalisasi lingkungan kerja yang lengkap. Hal ini sangat menarik bagi pengguna tingkat lanjut, pengembang, atau mereka yang ingin menguasai lingkungan digital mereka dengan sempurna.
-
-
-
-Aset utama Linux adalah ketangguhan, stabilitas, dan tingkat keamanannya yang tinggi. Karena bersifat open source, kodenya dapat diaudit oleh pengguna atau organisasi mana pun, yang sangat membatasi risiko *malware* atau pintu belakang. Linux sangat kuat, umumnya mengonsumsi sumber daya yang lebih sedikit daripada Windows, dan sangat cocok untuk konfigurasi perangkat keras yang sederhana atau penggunaan intensif seperti komputasi, administrasi server, atau keamanan siber.
-
-
+Keunggulan utama Linux adalah ketangguhan, stabilitas, dan tingkat keamanannya yang tinggi. Karena bersifat open-source, kodenya dapat diaudit oleh pengguna atau organisasi mana pun, yang secara signifikan membatasi risiko _malware_ atau _backdoor_. Linux sangat bertenaga, umumnya mengonsumsi lebih sedikit sumber daya daripada Windows, dan sangat cocok untuk konfigurasi perangkat keras yang sederhana atau penggunaan intensif seperti komputasi, administrasi server, atau keamanan siber.
 
 ![Image](assets/fr/010.webp)
-
-
 
 Namun, Linux juga menghadirkan kerumitan tertentu bagi pemula. Banyaknya distribusi Linux yang tersedia dapat membingungkan bagi pengguna yang belum berpengalaman. Demikian pula, penanganan awal sistem, meskipun disederhanakan oleh beberapa distribusi, mungkin memerlukan pembelajaran sebelumnya untuk menguasainya dengan benar, terutama mengingat penggunaan terminal (baris perintah) secara teratur. Dan itulah yang akan dibahas dalam bagian pertama dari kursus SCU202 ini!
 

@@ -398,7 +398,7 @@ Toutefois, les déboires de l'application ne s'arrêtent pas là. Le 29 juillet,
 
 Annonce de Tom Williams du 4 août 2011 (source : [Bitcoin Wiki](https://en.bitcoin.it/wiki/MyBitcoin))
 
-Certaines pertes individuelles sont [élevées](https://bitcointalk.org/index.php?topic=33389.msg417455#msg417455). En particulier, Bruce Wagner est touché : il [affirme](https://www.youtube.com/watch?v=4FZldY-ZBBE&t=88s) avoir perdu, avec son conjoint, plus de 25 000 bitcoins, soit plus de 300 000 $ au moment de la fermeture. Il réalise une série d'émissions consacrées à cet évènement.
+Certaines pertes individuelles sont [élevées](https://bitcointalk.org/index.php?topic=33389.msg417455#msg417455). En particulier, Bruce Wagner est touché : il [affirme](https://www.youtube.com/watch?v=4FZldY-ZBBE&t=88s) avoir perdu, avec son conjoint, plus de 25 000 bitcoins, soit plus de 300 000 $ au moment de la fermeture. Il réalise une série d'émissions consacrées à cet évènement. De plus, le fait que Bruce Wagner a conseillé son utilisation ternit sa réputation, si bien que le *Bitcoin Show* finira par s'arrêter quelques mois plus tard.
 
 Malgré cette chute de confiance, les portefeuilles dépositaires continuent d'avoir du succès. C'est le cas d'Instawallet, qui [existe](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) depuis avril. Par réaction, la Bitcoin Consultancy [lance](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) son propre service, Vibanko, en août.
 
@@ -1310,24 +1310,16 @@ Ainsi, l'année 2011 a été marquée par l'apparition des cryptomonnaies altern
 
 Cette première vague des cryptomonnaies alternatives a posé les bases pour ce qui s'est passé par la suite, en 2013 et après. Elle a encouragé la refonte du projet Ripple avec son unité numérique propre. Elle a ouvert la voie à un mouvement voulant améliorer Bitcoin, appelé « Bitcoin 2.0 », qui déboucherait sur la création d'Ethereum en 2014–2015. Et enfin, elle a fait émerger les prémices d'un mouvement de rejet, qui deviendrait le maximalisme en novembre 2014.
 
-## L'essor commercial (avril–sept. 2012)
+## L'essor commercial (févr.–sept. 2012)
 
-L'année 2012 est une année assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période d'essor pour l'activité économique réelle.
+L'année 2012 est une année assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période d'essor pour l'activité économique réelle. Bitcoin est en effet un moyen de paiement.
 
 https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
 
-Développement des processeurs de paiement
-
-2011 :
-
-- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)
-- Jeremy West (jeremy.west), Spend Bitcoins, [19 mai 2011](https://bitcointalk.org/index.php?topic=8864.msg128629#msg128629), cartes-cadeaux Amazon, Fishpond, New Egg https://bitcointalk.org/index.php?topic=24653.msg306101#msg306101 https://web.archive.org/web/20110603145425/https://spendbitcoins.com/
-- Chris Brunner de Trucoin (entreprise), BitcoinDeals.com, "over 1,000,000 items", juillet–août 2011 sur invitation (https://bitcointalk.org/index.php?topic=16701.msg217120#msg217120), [Bitcoin Show](https://www.youtube.com/watch?v=UjqJGkuTUpw) présence à la conférence fin août, [lancement](https://web.archive.org/web/20111222184030/http://www.bitcoindeals.com/) plus complet en décembre, [« maintenance »](https://web.archive.org/web/20120901131133/http://www.bitcoindeals.com/) en août 2012, [we "ran Bitcoindeals.com for a year"](https://99bitcoins.com/coinbrief/bitcoin/trucoin-chris-and-brent/) ; ["BitcoinDeals.com is launched!"](https://web.archive.org/web/20120201230557/http://www.trucoin.com/)
 
 
-- Joerg Platzer, Room77 : https://bitcointalk.org/index.php?topic=27191.msg342337#msg342337 https://web.archive.org/web/20121118214011/http://www.room77.de/ https://www.youtube.com/watch?v=rzKdW-au110
 
-- O'Crepes, restaurant à NYC, [juillet 2011]( https://www.youtube.com/watch?v=nXs7ZhVb2aI)
+
 
 Spéculation (article JDC Gox) : L'année 2012 est une année assez plate du point de vue spéculatif. Du moins, pour le bitcoin. Bien que le prix augmente, il ne fait que doubler en un an, ce qui, pour le bitcoin de cette époque, est peu. Mais cela permet à Mt. Gox de se stabiliser et de redonner confiance à ses utilisateurs après les incidents de 2011.
 
@@ -1361,29 +1353,129 @@ explosive growth, nov. 2012: https://antilop.cc/sr/users/dpr/threads/20121102-00
 
 Source : https://journalducoin.com/analyses/silk-road-lentreprise-qui-brassait-des-milliers-de-bitcoins/
 
-### BitPay
+### Le développement du commerce légal
 
-En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade
+Développement des processeurs de paiement
 
-BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399), aperçu en févr. 2012 https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/ ; interview dans le Bitcoin Show : https://www.youtube.com/watch?v=UZAnM4FjTOg
+2011 :
 
-« l'une des innovations les plus importantes pour les entreprises du secteur du bitcoin » — "One of the most significant innovations for Bitcoin businesses is services like BitPay. BitPay functions as a fully fledged merchant system for Bitcoin, and markets itself specifically as a substitute for credit cards and PayPal. It's most important innovation, however, is instantly converting BTC received from customers into conventional currencies, effectively insulating vendors from the chaos of the Bitcoin exchange rate, making Bitcoin attractive to them despite its current instability." (Vitalik Buterin, [16/7](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii))
+- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)
+- Jeremy West (jeremy.west), Spend Bitcoins, [19 mai 2011](https://bitcointalk.org/index.php?topic=8864.msg128629#msg128629), cartes-cadeaux Amazon, Fishpond, New Egg https://bitcointalk.org/index.php?topic=24653.msg306101#msg306101 https://web.archive.org/web/20110603145425/https://spendbitcoins.com/
+- Chris Brunner de Trucoin (entreprise), BitcoinDeals.com, "over 1,000,000 items", juillet–août 2011 sur invitation (https://bitcointalk.org/index.php?topic=16701.msg217120#msg217120), [Bitcoin Show](https://www.youtube.com/watch?v=UjqJGkuTUpw) présence à la conférence fin août, [lancement](https://web.archive.org/web/20111222184030/http://www.bitcoindeals.com/) plus complet en décembre, [« maintenance »](https://web.archive.org/web/20120901131133/http://www.bitcoindeals.com/) en août 2012, [we "ran Bitcoindeals.com for a year"](https://99bitcoins.com/coinbrief/bitcoin/trucoin-chris-and-brent/) ; ["BitcoinDeals.com is launched!"](https://web.archive.org/web/20120201230557/http://www.trucoin.com/)
+
+- Joerg Platzer, Room77 : https://bitcointalk.org/index.php?topic=27191.msg342337#msg342337 https://web.archive.org/web/20121118214011/http://www.room77.de/ https://www.youtube.com/watch?v=rzKdW-au110
+
+- O'Crepes, restaurant à NYC, [juillet 2011](https://www.youtube.com/watch?v=nXs7ZhVb2aI)
+
+"2012 has been an exciting year for Bitcoin. We have seen BitPay grow from near-irrelevance to processing transactions for over 2000 merchants around the world, Coinabul expand its gold-selling business from nothing in October 2011 to over 120,000 BTC of gold sold this year, entirely new Bitcoin-accepting businesses like Coindl and the Bitcoin Store open their doors, and hundreds more innovative services, of which there are unfortunately far too many to mention." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
+
+Bitcoin Businesses and Developers, Let's Get Started! June 21, 2011, 12:51:28 AM : https://bitcointalk.org/index.php?topic=20292.msg254010#msg254010
+
+
+Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
+
+En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade https://web.archive.org/web/20120106203422/https://en.bitcoin.it/wiki/Trade
+
+
+WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour sa vidéo de présentation. Guide de minage : https://bitcointalk.org/index.php?topic=4938.msg72112#msg72112 https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php ; "Getting Started" : https://bitcointalk.org/index.php?topic=29016.msg365385#msg365385 [05/2011](https://web.archive.org/web/20110325025457/http://www.weusecoins.com/getting-started.php) [07/2011](https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php) ; Q&A : [forum déc. 2011](https://bitcointalk.org/index.php?topic=53924.msg642909#msg642909) [capture 01/2012](https://web.archive.org/web/20120107201808/http://www.weusecoins.com/questions.php) ; "Bitcoin for Merchants" : [23/9/2011](https://web.archive.org/web/20110923184030/http://www.weusecoins.com/merchant-tools.php) [07/01/2012](https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php)
+
+CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
+
+- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
+
+Quickco.in ?
 
 Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
 
-- Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
+"State of TradeHill Bitcoin.com Announcement", [18/8/2011](https://web.archive.org/web/20110831095458/http://tradehillblog.com/2011/08/18/state-of-tradehill/), [BitcoinTalk](https://bitcointalk.org/index.php?topic=37883.0)
+
+Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
+
+Le commerce se fait simplement. L'utilisation d'un smartphone et la lecture d'un code QR g^race à l'appariel photo de celui-ci permet de payer sans souci.
+
+Bitcoin URI scheme ? [proposé] dès février 2010 ; "URI Scheme" ([BIP 21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)), 2012-01-29, Nils Schneider, Matt Corallo, variante de la proposition de Luke-Jr. `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`
+
+> « Ce serait pratique au moment de payer \[ou: pour les points de vente\]. La caisse enregistreuse affiche un code QR contenant une adresse bitcoin et un montant sur un écran, et l'acheteur le prend en photo avec son téléphone portable. »
+>
+> original: "That would be nice at point-of-sale.  The cash register displays a QR-code encoding a bitcoin address and amount on a screen and you photo it with your mobile."
+
+
+
+Ce serait pratique au moment de payer.  La caisse enregistreuse affiche un code QR contenant une adresse Bitcoin et le montant sur un écran, et vous le photographiez avec votre téléphone portable.
+
+
+### Le premier processeur de paiement : BitPay
+
+
+Stephen Pair : https://www.youtube.com/watch?v=G7mD4SgY7wA
+
+Le premier processeur de paiement appelé BitPay est créé par Stephen Pair et Tony Gallippi.
+
+Stephen Pair ([Steve](https://bitcointalk.org/index.php?action=profile;u=4399)). Diplômé en informatique de l'Institut de technologie de Géorgie en 1994, il a travaillé pour IBM en tant qu'ingénieur logiciel et responsable du développement. Passionné par la cryptographie, il s'est intéressé pour le modèle eCash de David Chaum dans les années 90, puis pour les Linden Dollars et Ripple. Il s'est enthouasiasmé pour Bitcoin au début de l'année 2011. Il a [miné](https://bitcointalk.org/index.php?topic=4209.msg60980#msg60980) des bitcoins avec ses cartes graphiques avant de se rendre compte qu'il aurait été plus rentable de les acheter.
+
+Tony Gallippi ([tonygal](https://bitcointalk.org/index.php?action=profile;u=16035), [BitPay Business Solutions](https://bitcointalk.org/index.php?action=profile;u=31293)) est un ancien ami d'université de Stephen. Diplômé en ingénierie mécanique, il a exercé la vente et le marketing dans les secteurs de la robotique et de la finance. En 2011, il [édite](https://bitcointalk.org/index.php?topic=44076.msg526713#msg526713) une revue de charme en ligne appelée STARE Magazine. Stephen lui parle de Bitcoin en février et il [cherche](https://bitcointalk.org/index.php?topic=10636.msg152388#msg152388) à accepter le bitcoin en mai. Ensemble, ils mettent au point BitPay (initialement orthographié Bit-Pay), Stephen s'occupant du côté technique. Ils [testent](https://bitcointalk.org/index.php?topic=25375.msg315757#msg315757) le produit début juillet, en l'utilisant avec le STARE Magazine.
+
+![L'équipe de BitPay en 2012, de gauche à droite : Stephanie Wargo, Tony Gallippi, Stephen Pair, Alison Skipper](assets/en/bitpay-team-stephanie-tony-steve-allison-2012-bitpay-com-about-us.webp)
+
+L'équipe de BitPay en 2012, de gauche à droite : Stephanie Wargo, Tony Gallippi, Stephen Pair, Alison Skipper (source : [archive](https://web.archive.org/web/20120513020703/https://bit-pay.com/aboutUs.html) du site de BitPay)
+
+Le principe de BitPay est de donner aux commerçants la possibilité d'accepter les paiements en bitcoins et de les convertissant instantanément en dollars, afin qu'ils puissent se prémunir contre la volatilité. Le modèle économique est ainsi opposé à BitInstant : BitPay avance les dollars à leurs clients contre une commission (les frais de traitement sont de 1 % au total), et se charge de vendre les bitcoins plus tard. Le but de ses fondateurs est de [faciliter](https://bitcointalk.org/index.php?topic=25665.msg319196#msg319196) l'utilisation de Bitcoin comme moyen de paiement pour [contrecarrer](https://bitcointalk.org/index.php?topic=36729.msg454397#msg454397) l'oligopole des réseaux Visa et Mastercard. Les avantages, [listés](https://web.archive.org/web/20120210233724/https://bit-pay.com/) début 2012 sur le site de l'entreprise, sont les suivants : « AUCUN RISQUE de rétrofacturation ou d'usurpation d'identité. AUCUNE COMPLICATION liée à la norme de sécurité PCI. AUCUNE FRONTIÈRE : acceptez les paiements provenant de N'IMPORTE QUEL pays. » (original: "NO RISK of Chargebacks or Indentity Theft. NO HASSLE of PCI Compliance. NO BORDERS Accept a payment from ANY country.") Vitalik Buterin [qualifie](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii) BitPay de « l'une des innovations les plus importantes pour les entreprises utilisant Bitcoin » (original: "\[o\]ne of the most significant innovations for Bitcoin businesses").
+
+![Demande de paiement via BitPay en juillet 2011](assets/en/bitpay-invoice-20110727-bitcoin-show.webp)
+
+Demande de paiement via BitPay en juillet 2011 (source : [Bitcoin Show](https://www.youtube.com/watch?v=UZAnM4FjTOg) sur Youtube)
+
+Stephen Pair et Tony Gallippi [lancent](https://bitcointalk.org/index.php?topic=32467.msg405469#msg405469) leur service en version bêta à la fin du mois de juillet, et commencent à en faire la promotion, de manière plutôt agressive ! Ils [passent](https://www.youtube.com/watch?v=UZAnM4FjTOg) dans le *Bitcoin Show* de Bruce Wagner le 27 juillet, et se [rendent](https://bitcointalk.org/index.php?topic=32791.msg409542#msg409542) à la conférence de New York à la fin du mois d'août. À partir de septembre, ils réalisent des vidéos promotionnelles, dont [la première](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE) est un pastiche d'une publicité de PayPal avec des femmes séduisantes. Tony Gallippi réalise une [présentation](https://web.archive.org/web/20140522091140/https://www.youtube.com/watch?v=cTX5yY0DozQ) sur l'adoption de Bitcoin à la conférence de Prague en novembre. En décembre, ils [lancent](https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819) une initiative appelée LoveBitcoin.org, qui consiste à « faire la publicité de l'*utilité* des Bitcoins comme alternative à PayPal, aux cartes de débit, à Western Union et aux virements bancaires ». (original: "advertising the *usability* of Bitcoins as an alternative to PayPal, debit cards, Western Union, and wire transfers."). À partir de décembre, Tony Gallippi [organise](https://bitcointalk.org/index.php?topic=55419.msg659429#msg659429) une réunion mensuelle à Orlando en Floride, là où il habite.
+
+En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver.
+
+Tout au long de l'année
+
+---
+
+Lire: https://bitcointalk.org/index.php?action=profile;u=31293;sa=showPosts;start=580
+
+La promotion de BitPay et de Bitcoin est agressive !
+
+[vidéo promo, sept. 2011](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE)
+
+Initiative LoveBitcoin.org (BitPay), 3 décembre 2011 : https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819
+
+Meetup Orlando [déc. 2011](https://bitcointalk.org/index.php?topic=55419.msg659429#msg659429)
+
+Participation au *Consumer Electronics Show* à Las Vegas (8 au 13 janvier 2012), le plus important salon consacré à l'innovation technologique en électronique grand public. Réservation d'un stand, avec Roger Ver. [annonce](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586)
+
+deposit card : annonce, [9/1/2012](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) : "lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins." ; "In January, BitPay released a plastic card which one can carry to allow anyone to pay them simply by scanning the card with a smartphone Bitcoin wallet, while BitPay's back-end automatically converts the bitcoins and immediately deposits money into the owner's bank account." [Vitalik](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248)
+
+LIMOCOIN, "a bitcoin payment system designed for limousine and taxi drivers and businesses" : https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514
+
+BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399), aperçu en févr. 2012 https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/
+
+
+
+Le logo est conçu par Erik Voorhees.
+
 
 15 décembre 2012 : East Coast Bitcoin Summit, Philadelphia, [Tony Gallippi](https://www.youtube.com/watch?v=hH4rH6wu25U) (BitPay)
 
 Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
 
+Plus de mille commerçants en septembre 2012 (source : https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248)
+
+"Since the November 2012 WordPress deal, BitPay has seen new merchants increase by nearly 50% to over 2,000."  [7/1/2013](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
+
 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
 
 
+wallet BitPay (basé sur InstaWallet ?) https://github.com/warpi/BitPay
+
+Concurrents : WalletBit https://walletbit.com/ Paysius http://paysius.com/ ; AcceptBit http://acceptbit.com/
 
 ### Coinbase & la Silicon Valley
 
 Article de Wired : https://web.archive.org/web/20140326204316/https://www.wired.com/wiredenterprise/2014/03/what-is-bitcoin/ https://www.wired.com/2014/03/what-is-bitcoin/
+
+https://www.youtube.com/watch?v=TB0yceuXmrI
 
 Coinbase, dont le nom est tiré du nom de la transaction de récompense et signifiant « base de pièce ».
 
@@ -1394,6 +1486,8 @@ Brian Armstrong. Né en 1983 à San José, en plein cœur de la Silicon Valley, 
 Il lit le livre blanc de Bitcoin en 2010.
 
 "Later, as a coder at Airbnb, Armstrong had his crypto epiphany. His employer was sending money to landlords in Latin America. He describes the process this way: 'High fees ... long delays ... opaque. We'd try sending money to somebody in Uruguay and didn't know how much would show up on the other side.'" [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/coinbase-billionaire-brian-armstrongs-plan-to-make-bitcoin-ethereum-xrp-safe-for-all/#6b85aa39345b)
+
+Il [met au point](https://bitcointalk.org/index.php?topic=26684.msg334880#msg334880) un portefeuille pour Android en juillet 2011, hautement expérimental puisqu'il réalise le téléchargement initial de la chaine de blocs. Démo : https://www.youtube.com/watch?v=W6EucS5RS24
 
 Mars 2012 : "Armstrong had a prototype, 'PayPal for bitcoin,' an open-source Android wallet called Bitbank that let users send bitcoin via email addresses. Y Combinator showed interest, Armstrong said, but he'd deferred the meeting until he'd found a ride-or-die co-founder." [Blockworks](https://blockworks.co/news/coinbase-bitbank-history-gamestop-bitcoin-gridless-kenya)
 
@@ -1409,27 +1503,14 @@ Conflit avec Ben Reeves.
 
 Coinbase embauchera Charlie Lee en juillet 2013, [30/7/2013](https://web.archive.org/web/20130802015101/http://blog.coinbase.com/post/56906034176/welcome-charlie-lee-creator-of-litecoin-to-the-team) , Lee quittera Google pour travailler pour Coinbase.
 
+Mais Coinbase n'est pas la seule société qui reçoit des fonds...
+
 
 - CoinLab, incubateur dans le secteur de Bitcoin, Peter Vessenes, Mike Koss, fondé en septembre 2011, levée de fonds en avril 2012 (Tim Draper) : https://www.geekwire.com/2011/coinlab-center-bitcoin-projects-created-seattle/ https://gavinthink.blogspot.com/2012/04/coinlab-and-bitcoin.html https://www.geekwire.com/2012/bitcoin-startup-coinlab-lands-funding-tim-draper-monetize-games/
 
-
-### Commerce
-
-"2012 has been an exciting year for Bitcoin. We have seen BitPay grow from near-irrelevance to processing transactions for over 2000 merchants around the world, Coinabul expand its gold-selling business from nothing in October 2011 to over 120,000 BTC of gold sold this year, entirely new Bitcoin-accepting businesses like Coindl and the Bitcoin Store open their doors, and hundreds more innovative services, of which there are unfortunately far too many to mention." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
+- BitPay, 2013 : "Investors participating in the seed round include SecondMarket founder Barry Silbert, Spotify investor Shakil Khan, Jimmy Furland, Roger Ver, and other Internet entrepreneurs. Specific terms of the deal were not disclosed but co-founders Anthony Gallippi and Stephen Pair will retain majority ownership. Investors Silbert and Ver also participated in the April 2012 funding round for mining pool operator CoinLab." [Matonis](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
 
 
-
-
-
-Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
-
-WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour sa vidéo de présentation. Guide de minage : https://bitcointalk.org/index.php?topic=4938.msg72112#msg72112 https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php ; "Getting Started" : https://bitcointalk.org/index.php?topic=29016.msg365385#msg365385 [05/2011](https://web.archive.org/web/20110325025457/http://www.weusecoins.com/getting-started.php) [07/2011](https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php) ; Q&A : [forum déc. 2011](https://bitcointalk.org/index.php?topic=53924.msg642909#msg642909) [capture 01/2012](https://web.archive.org/web/20120107201808/http://www.weusecoins.com/questions.php) ; "Bitcoin for Merchants" : [23/9/2011](https://web.archive.org/web/20110923184030/http://www.weusecoins.com/merchant-tools.php) [07/01/2012](https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php)
-
-CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
-
-- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
-
-Quickco.in ?
 
 
 
@@ -1517,7 +1598,9 @@ Coinapult, avec Ira Miller, envoyer des bitcoins par courriel (et SMS), [13 avr.
 
 ### La prostitution
 
-- Prostitution : Girls Gone Bitcoin
+- PIMPCOIN : https://bitcointalk.org/index.php?topic=57260.0
+
+- Girls Gone Bitcoin
 
 Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
 
@@ -1559,7 +1642,11 @@ Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.p
 
 ### La première pyramide de Ponzi : Bitcoin Savings & Trust
 
-**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
+**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40, pirate@40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
+
+Annonce, nov. 2011 : https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752 ; update, jan. 2012 : https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957
+
+[Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.")
 
 Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
 

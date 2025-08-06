@@ -956,31 +956,31 @@ Etant donné les problèmes rencontrés avec les récents forks Soft, SegWit et 
 ### Risques
 
 
-Lors de l'activation d'une Fork, qu'il s'agisse d'une Hard ou d'une Soft, d'une Miner activée ou d'une activation par l'utilisateur, il existe un risque de rupture durable de la chaîne. Une scission qui dure plus de quelques blocs peut causer de graves dommages au sentiment autour de la Bitcoin ainsi qu'à son prix. Mais surtout, il en résulterait une grande confusion sur ce qu'est la Bitcoin. La Bitcoin est-elle cette chaîne ou cette chaîne ?
+Lors de l'activation d'un Fork, qu'il s'agisse d'un Hard ou d'ue Soft, d'un activé par mineurs ou d'un activé par l'utilisateur, il existe un risque de rupture durable de la chaîne. Une scission qui dure plus de quelques blocs peut causer de graves dommages au sentiment autour du Bitcoin ainsi qu'à son prix. Mais surtout, il en résulterait une grande confusion sur ce qu'est Bitcoin. Bitcoin est-il cette chaîne ou cette chaîne ?
 
 
-Le risque d'une Soft Fork activée par l'utilisateur est que les nouvelles règles soient activées même si la majorité du pouvoir Hash ne les soutient pas. Ce scénario entraînerait une rupture durable de la chaîne, qui persisterait jusqu'à ce que la majorité de la puissance Hash adopte les nouvelles règles. Il pourrait être particulièrement intéressant pour la Hard d'inciter les mineurs à passer à la nouvelle chaîne s'ils ont déjà extrait des blocs après la scission sur l'ancienne chaîne, car en changeant de branche, ils abandonneraient les récompenses de leurs propres blocs. Toutefois, il convient de mentionner un épisode remarquable : en mars 2013, une scission de longue durée s'est produite en raison d'une Hard Fork involontaire et, contrairement à cette incitation, deux grands pools Mining ont pris la décision d'abandonner leur branche de la scission afin de rétablir le consensus.
+Le risque d'un Soft Fork activé par l'utilisateur est que les nouvelles règles soient activées même si la majorité de la puissance de hashage ne les soutient pas. Ce scénario entraînerait une rupture durable de la chaîne, qui persisterait jusqu'à ce que la majorité de la puissance de hashage adopte les nouvelles règles. Il pourrait être particulièrement difficile d'inciter les mineurs à passer à la nouvelle chaîne s'ils ont déjà extrait des blocs après la scission sur l'ancienne chaîne, car en changeant de branche, ils abandonneraient les récompenses de leurs propres blocs. Toutefois, il convient de mentionner un épisode remarquable : en mars 2013, une scission de longue durée s'est produite en raison d'un Hard Fork involontaire et, contrairement à cette incitation, deux grands pools de minage ont pris la décision d'abandonner leur branche de la scission afin de rétablir le consensus.
 
 
-D'autre part, le risque d'une Miner activée Soft Fork est dû au fait que les mineurs peuvent émettre de faux signaux, ce qui signifie que la part réelle de la puissance Hash qui soutient le changement pourrait être plus petite qu'il n'y paraît. Si le soutien réel ne représente pas une majorité de la puissance de la Hash, nous assisterons probablement à une scission en chaîne durable similaire à celle décrite dans le paragraphe précédent. Ce problème, ou du moins un problème similaire, s'est déjà produit dans la réalité lorsque le BIP66 a été déployé, mais il a été résolu en l'espace de 6 blocs environ.
+D'autre part, le risque d'un Soft Fork activé par mineurs est dû au fait que les mineurs peuvent émettre de faux signaux, ce qui signifie que la part réelle de la puissance de hashage qui soutient le changement pourrait être plus petite qu'il n'y paraît. Si le soutien réel ne représente pas une majorité de la puissance de hashage, nous assisterons probablement à une scission en chaîne durable similaire à celle décrite dans le paragraphe précédent. Ce problème, ou du moins un problème similaire, s'est déjà produit dans la réalité lorsque le BIP66 a été déployé, mais il a été résolu en l'espace de 6 blocs environ.
 
 
 #### Coûts d'une scission
 
 
 
-Jimmy Song [a parlé des coûts associés aux fourches Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) lors du Breaking Bitcoin à Paris, mais une grande partie de ce qu'il a dit s'applique également à une rupture de chaîne due à une Soft Fork défaillante. Il a parlé des *externalités négatives* et les a définies comme le prix que quelqu'un d'autre doit payer pour vos propres actions :
+Jimmy Song [a parlé des coûts associés aux fourches Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) lors du Breaking Bitcoin à Paris, mais une grande partie de ce qu'il a dit s'applique également à une rupture de chaîne due à un Soft Fork défaillant. Il a parlé des *externalités négatives* et les a définies comme le prix que quelqu'un d'autre doit payer pour vos propres actions :
 
 
 > L'exemple classique d'une externalité négative est celui d'une usine. Il s'agit peut-être d'une raffinerie de pétrole qui produit un bien qui est bon pour l'économie, mais qui produit également quelque chose qui constitue une externalité négative, comme la pollution. Ce n'est pas seulement quelque chose que tout le monde doit payer, nettoyer ou subir. Mais il y a aussi des effets de deuxième et troisième ordre, comme l'augmentation de la circulation vers l'usine en raison de l'augmentation du nombre de travailleurs qui doivent s'y rendre. Il se peut aussi que vous mettiez en danger la faune et la flore des environs. Ce n'est pas tout le monde qui doit payer pour les externalités négatives, il peut s'agir de personnes spécifiques, comme les personnes qui utilisaient auparavant cette route ou les animaux qui se trouvaient à proximité de l'usine, et qui paient également pour le coût de l'usine.
 
-Dans le contexte de la Bitcoin, il illustre les externalités négatives en utilisant Bitcoin Cash (bcash), qui est une Hard Fork de la Bitcoin créée peu avant cette conférence en 2017. Il classe les externalités négatives d'une Hard Fork en coûts ponctuels et en coûts permanents.
+Dans le contexte de Bitcoin, il illustre les externalités négatives en utilisant Bitcoin Cash (bcash), qui est un Hard Fork de Bitcoin crée peu avant cette conférence en 2017. Il classe les externalités négatives d'un Hard Fork en coûts ponctuels et en coûts permanents.
 
 
-Parmi les nombreux exemples de coûts non récurrents, il cite ceux encourus par les échanges :
+Parmi les nombreux exemples de coûts non récurrents, il cite ceux encourus par les plateformes d'échanges :
 
 
-> Nous avons donc un certain nombre d'échanges et ils ont dû faire face à de nombreux coûts ponctuels. La première chose qui s'est produite, c'est que les dépôts et les retraits ont dû être interrompus pendant un jour ou deux pour ces bourses parce qu'elles ne savaient pas ce qui allait se passer. Nombre de ces bourses ont dû puiser dans les réserves de Cold parce que leurs utilisateurs demandaient de la bcash. Cela fait partie de leurs obligations fiduciaires. Il faut également auditer le nouveau logiciel. C'est quelque chose que nous avons dû faire chez itbit. Nous voulons dépenser de l'argent liquide - comment faire ? Nous devons télécharger electron cash ? Y a-t-il des logiciels malveillants ? Nous devons procéder à un audit. Nous avons eu environ 10 jours pour déterminer si c'était bon ou pas. Ensuite, il faut décider si l'on va se contenter d'autoriser un retrait unique ou si l'on va inscrire cette nouvelle pièce sur la liste Il n'est pas facile pour une Exchange d'inscrire une nouvelle pièce, il y a toutes sortes de nouvelles procédures pour le stockage, la signature, les dépôts et les retraits de la Cold. On peut aussi se contenter d'un événement ponctuel où l'on donne la monnaie à un moment donné et où l'on n'y pense plus. Mais cela pose aussi des problèmes. Enfin, quelle que soit la façon dont vous procédez, retrait ou inscription, vous aurez besoin d'une nouvelle infrastructure pour travailler avec cette token, même s'il s'agit d'un retrait unique. Vous avez besoin d'un moyen de donner ces jetons à vos utilisateurs. Encore une fois, le préavis est court. C'est ça ? Pas le temps de faire ça, il faut faire vite.
+> Nous avons donc un certain nombre de plateformes d'échanges et ils ont dû faire face à de nombreux coûts ponctuels. La première chose qui s'est produite, c'est que les dépôts et les retraits ont dû être interrompus pendant un jour ou deux pour ces plateformes d'échanges parce qu'elles ne savaient pas ce qui allait se passer. Nombre de ces plateformes d'échanges ont dû puiser dans les Cold storage parce que leurs utilisateurs demandaient du bcash. Cela fait partie de leurs obligations fiduciaires. Il faut également auditer le nouveau logiciel. C'est quelque chose que nous avons dû faire chez itbit. Nous voulons dépenser de l'argent liquide, comment faire ? Nous devons télécharger electron cash ? Y a-t-il des logiciels malveillants ? Nous devons procéder à un audit. Nous avons eu environ 10 jours pour déterminer si c'était bon ou pas. Ensuite, il faut décider si l'on va se contenter d'autoriser un retrait unique ou si l'on va inscrire cette nouvelle pièce sur la liste Il n'est pas facile pour une plateforme d'échange d'inscrire une nouvelle pièce, il y a toutes sortes de nouvelles procédures pour le stockage, la signature, les dépôts et les retraits du Cold storage. On peut aussi se contenter d'un événement ponctuel où l'on donne la monnaie à un moment donné et où l'on n'y pense plus. Mais cela pose aussi des problèmes. Enfin, quelle que soit la façon dont vous procédez, retrait ou inscription, vous aurez besoin d'une nouvelle infrastructure pour travailler avec ce token, même s'il s'agit d'un retrait unique. Vous avez besoin d'un moyen de donner ces jetons à vos utilisateurs. Encore une fois, le préavis est court. C'est ça ? Pas le temps de faire ça, il faut faire vite.
 
 Il énumère également les coûts ponctuels supportés par les commerçants, les processeurs de paiement, les portefeuilles, les mineurs et les utilisateurs, ainsi que certains coûts permanents, tels que la perte de confidentialité et le risque accru de refonte.
 
@@ -994,7 +994,7 @@ En effet, lorsqu'une scission se produit et que la chaîne qui applique les règ
 Bitcoin grandit et évolue avec le temps. Différents mécanismes de mise à niveau ont été utilisés au fil des ans et la courbe d'apprentissage est raide. Des méthodes de plus en plus sophistiquées et robustes sont inventées au fur et à mesure que nous en apprenons davantage sur la façon dont le réseau réagit.
 
 
-Pour préserver l'harmonie de Bitcoin, les fourches Soft se sont avérées être la voie à suivre, mais la grande question n'a pas encore trouvé de réponse : comment déployer en toute sécurité les fourches Soft sans provoquer de discorde ?
+Pour préserver l'harmonie de Bitcoin, les Soft forks se sont avérées être la voie à suivre, mais la grande question n'a pas encore trouvé de réponse : comment déployer en toute sécurité les fourches Soft sans provoquer de discorde ?
 
 
 ## Pensée contradictoire
@@ -1005,13 +1005,13 @@ Pour préserver l'harmonie de Bitcoin, les fourches Soft se sont avérées être
 ![](assets/adversarialthinking-banner.webp)
 
 
-Ce chapitre traite de la *pensée contradictoire*, un état d'esprit qui se concentre sur ce qui pourrait mal tourner et sur la façon dont les adversaires pourraient agir. Nous commençons par discuter des hypothèses et du modèle de sécurité de Bitcoin, après quoi nous expliquons comment les utilisateurs ordinaires peuvent améliorer leur souveraineté personnelle et la décentralisation noeud complet de Bitcoin en pensant de manière contradictoire. Ensuite, nous examinons quelques menaces réelles pour Bitcoin ainsi que l'esprit de l'adversaire. Enfin, nous parlerons de l'"axiome de résistance" qui peut vous aider à comprendre pourquoi les gens travaillent sur Bitcoin en premier lieu.
+Ce chapitre traite de la *pensée contradictoire*, un état d'esprit qui se concentre sur ce qui pourrait mal tourner et sur la façon dont les adversaires pourraient agir. Nous commençons par discuter des hypothèses et du modèle de sécurité de Bitcoin, après quoi nous expliquons comment les utilisateurs ordinaires peuvent améliorer leur souveraineté personnelle et la décentralisation d'un noeud complet de Bitcoin en pensant de manière contradictoire. Ensuite, nous examinons quelques menaces réelles pour Bitcoin ainsi que l'esprit de l'adversaire. Enfin, nous parlerons de l'"axiome de résistance" qui peut vous aider à comprendre pourquoi les gens travaillent sur Bitcoin en premier lieu.
 
 
-Lorsque l'on discute de la sécurité dans différents systèmes, il est important de comprendre quelles sont les hypothèses de sécurité. Une hypothèse de sécurité typique dans Bitcoin est que "le problème du logarithme discret est Hard à résoudre", ce qui, en termes simples, signifie qu'il est pratiquement impossible de trouver une clé privée qui corresponde à une clé publique particulière. Une autre hypothèse de sécurité assez forte est qu'une majorité de la puissance du réseau est honnête, ce qui signifie qu'elle respecte les règles. Si ces hypothèses s'avèrent fausses, Bitcoin est en difficulté.
+Lorsque l'on discute de la sécurité dans différents systèmes, il est important de comprendre quelles sont les hypothèses de sécurité. Une hypothèse de sécurité typique dans Bitcoin est que "le problème du logarithme discret est difficile à résoudre", ce qui, en termes simples, signifie qu'il est pratiquement impossible de trouver une clé privée qui corresponde à une clé publique particulière. Une autre hypothèse de sécurité assez forte est qu'une majorité de la puissance du réseau est honnête, ce qui signifie qu'elle respecte les règles. Si ces hypothèses s'avèrent fausses, Bitcoin est en difficulté.
 
 
-En 2015, Andrew Poelstra [a donné une conférence](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) lors de la conférence Scaling Bitcoin à Hong Kong, au cours de laquelle il a analysé les hypothèses de sécurité de Bitcoin. Il commence par remarquer que de nombreux systèmes ne tiennent pas compte des adversaires dans une certaine mesure ; par exemple, il est vraiment Hard de protéger un bâtiment contre tous les types d'événements adverses. Au lieu de cela, nous acceptons généralement la possibilité que quelqu'un mette le feu au bâtiment et, dans une certaine mesure, nous prévenons cette éventualité et d'autres comportements adverses par le biais de l'application de la loi, etc.
+En 2015, Andrew Poelstra [a donné une conférence](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) lors de la conférence Scaling Bitcoin à Hong Kong, au cours de laquelle il a analysé les hypothèses de sécurité de Bitcoin. Il commence par remarquer que de nombreux systèmes ne tiennent pas compte des adversaires dans une certaine mesure ; par exemple, il est vraiment difficile de protéger un bâtiment contre tous les types d'événements adverses. Au lieu de cela, nous acceptons généralement la possibilité que quelqu'un mette le feu au bâtiment et, dans une certaine mesure, nous prévenons cette éventualité et d'autres comportements adverses par le biais de l'application de la loi, etc.
 
 
 Voir l'analogie du bâtiment de Greg Maxwell :
@@ -1025,10 +1025,10 @@ Mais en ligne, les choses sont différentes :
 
 > Cependant, en ligne, ce n'est pas le cas. Nous avons des comportements pseudonymes et anonymes, n'importe qui peut se connecter à n'importe qui et nuire au système. S'il est possible de nuire au système de manière contradictoire, ils le feront. Nous ne pouvons pas supposer qu'ils seront visibles et qu'ils se feront prendre.
 
-La conséquence est que toutes les faiblesses connues de la Bitcoin doivent être corrigées d'une manière ou d'une autre, sinon elles seront exploitées. Après tout, Bitcoin est le plus grand pot de miel du monde.
+La conséquence est que toutes les faiblesses connues de Bitcoin doivent être corrigées d'une manière ou d'une autre, sinon elles seront exploitées. Après tout, Bitcoin est le plus grand pot de miel du monde.
 
 
-M. Poelstra poursuit en indiquant que le Bitcoin est un nouveau type de système ; il est plus nébuleux que, par exemple, un protocole de signature qui repose sur des hypothèses de sécurité très claires.
+M. Poelstra poursuit en indiquant que Bitcoin est un nouveau type de système ; il est plus nébuleux que, par exemple, un protocole de signature qui repose sur des hypothèses de sécurité très claires.
 
 
 Sur son blog personnel, l'ingénieur en logiciel Jameson Lopp [se penche sur la question](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/) :
@@ -1036,9 +1036,7 @@ Sur son blog personnel, l'ingénieur en logiciel Jameson Lopp [se penche sur la 
 
 > En réalité, le protocole Bitcoin a été et continue d'être construit sans spécification ni modèle de sécurité formellement définis. Le mieux que nous puissions faire est d'étudier les motivations et le comportement des acteurs au sein du système afin de mieux le comprendre et de tenter de le décrire.
 
-Nous avons donc un système qui semble fonctionner dans la pratique, mais dont nous ne pouvons pas prouver formellement qu'il est sûr. Une preuve n'est probablement pas possible pour les raisons suivantes
-
-la complexité du système lui-même.
+Nous avons donc un système qui semble fonctionner dans la pratique, mais dont nous ne pouvons pas prouver formellement qu'il est sûr. Une preuve n'est probablement pas possible à cause de la complexité de ce système.
 
 
 ### Pas seulement pour les experts Bitcoin
@@ -1050,16 +1048,14 @@ L'importance de la pensée contradictoire s'étend également aux utilisateurs q
 
 > Pour rendre Bitcoin et nous-mêmes plus forts, nous devons penser comme les ingénieurs logiciels qui contribuent à Bitcoin. Ils procèdent à une évaluation par les pairs, cherchant impitoyablement les failles. Lors de leurs événements techniques, ils parlent de toutes les façons dont une proposition peut échouer. Ils pensent de manière contradictoire. Ils sont conservateurs
 
-Il qualifie ces récits simplistes de monomanies. Par cette définition, il veut dire qu'en se concentrant sur une seule chose - par exemple, "juste HODL" - on risque de négliger des choses sans doute plus importantes, comme de garder sa Bitcoin en sécurité ou de faire de son mieux pour utiliser la Bitcoin d'une manière qui soit conforme à la Trustless.
+Il qualifie ces récits simplistes de monomanies. Par cette définition, il veut dire qu'en se concentrant sur une seule chose, par exemple, "juste HODL", on risque de négliger des choses sans doute plus importantes, comme de garder son Bitcoin en sécurité ou de faire de son mieux pour utiliser Bitcoin d'une manière qui soit conforme à la Trustless.
 
 
 ### Menaces
 
 
 
-Il y a beaucoup de faiblesses connues dans Bitcoin, et beaucoup d'entre elles sont activement exploitées. Pour s'en rendre compte, il suffit de consulter la [page des faiblesses](https://en.Bitcoin.it/wiki/Weaknesses) sur le wiki Bitcoin. Il y est fait mention d'une grande variété de problèmes, tels que
-
-Wallet vol et attaques par déni de service :
+Il y a beaucoup de faiblesses connues dans Bitcoin, et beaucoup d'entre elles sont activement exploitées. Pour s'en rendre compte, il suffit de consulter la [page des faiblesses](https://en.Bitcoin.it/wiki/Weaknesses) sur le wiki Bitcoin. Il y est fait mention d'une grande variété de problèmes, tels que le vol de Wallet et les attaques par déni de service :
 
 
 > Si un attaquant tente de remplir le réseau avec des clients qu'il contrôle, il est fort probable que vous ne vous connectiez qu'aux nœuds de l'attaquant. Bien que Bitcoin n'utilise jamais un nombre de nœuds pour quoi que ce soit, isoler complètement un nœud du réseau honnête peut être utile pour l'exécution d'autres attaques.
@@ -1067,7 +1063,7 @@ Wallet vol et attaques par déni de service :
 Ce type d'attaque est appelé *attaque Sybil* et se produit lorsqu'une seule entité contrôle plusieurs nœuds dans un réseau et les utilise pour se faire passer pour plusieurs entités.
 
 
-Comme le mentionne également la citation, l'attaque Sybil n'est pas efficace sur le réseau Bitcoin parce qu'il n'y a pas de vote par nœuds ou autres entités numériques, mais plutôt par puissance de calcul. Néanmoins, cette structure plate rend le système vulnérable à d'autres attaques. La page wiki Bitcoin décrit également d'autres attaques possibles, telles que la dissimulation d'informations (souvent appelée *attaque par éclipse*), et la façon dont le Bitcoin Core met en œuvre des contre-mesures heuristiques contre de telles attaques.
+Comme le mentionne également la citation, l'attaque Sybil n'est pas efficace sur le réseau Bitcoin parce qu'il n'y a pas de vote par nœuds ou autres entités numériques, mais plutôt par puissance de calcul. Néanmoins, cette structure plate rend le système vulnérable à d'autres attaques. La page wiki Bitcoin décrit également d'autres attaques possibles, telles que la dissimulation d'informations (souvent appelée *attaque par éclipse*), et la façon dont Bitcoin Core met en œuvre des contre-mesures heuristiques contre de telles attaques.
 
 
 Les exemples ci-dessus sont des menaces réelles auxquelles il faut faire face.
@@ -1082,15 +1078,13 @@ Les exemples ci-dessus sont des menaces réelles auxquelles il faut faire face.
 Extrait du Simple Sabotage Field Manual (Manuel de terrain du sabotage simple)
 
 
-Pour mieux comprendre l'esprit de l'adversaire, il peut être utile d'avoir un aperçu de son mode de fonctionnement. Un organisme gouvernemental américain appelé Office of Strategic Services, qui opérait pendant la Seconde Guerre mondiale et dont l'un des objectifs était de mener des activités d'espionnage, de sabotage et de propagande, a publié un [manuel](https://www.gutenberg.org/ebooks/26184) à l'intention de son personnel sur la manière de saboter correctement l'ennemi. Intitulé "Simple Sabotage Field Manual", il contient des conseils concrets pour infiltrer l'ennemi et lui rendre la vie impossible (Hard). Les conseils vont de l'incendie d'entrepôts à l'usure d'exercices afin de réduire la résistance de l'ennemi
-
-l'efficacité.
+Pour mieux comprendre l'esprit de l'adversaire, il peut être utile d'avoir un aperçu de son mode de fonctionnement. Un organisme gouvernemental américain appelé Office of Strategic Services, qui opérait pendant la Seconde Guerre mondiale et dont l'un des objectifs était de mener des activités d'espionnage, de sabotage et de propagande, a publié un [manuel](https://www.gutenberg.org/ebooks/26184) à l'intention de son personnel sur la manière de saboter correctement l'ennemi. Intitulé "Simple Sabotage Field Manual", il contient des conseils concrets pour infiltrer l'ennemi et lui rendre la vie impossible. Les astuces vont de l'incendie d'entrepôts à l'usure des forets, dans le but de réduire l'efficacité de l'ennemi.
 
 
 Par exemple, une section traite de la manière dont un infiltré peut perturber les organisations. Il n'est pas difficile de voir comment de telles tactiques pourraient être utilisées pour cibler le processus de développement Bitcoin, auquel tout le monde peut participer. Un attaquant dévoué peut continuer à bloquer les progrès par des préoccupations interminables sur des questions non pertinentes, des marchandages sur des formulations précises et des tentatives de réitérer des discussions qui ont déjà été abordées de manière exhaustive. L'attaquant peut également engager une armée de trolls pour multiplier sa propre efficacité ; c'est ce que l'on appelle une attaque par Sybille sociale. Grâce à cette attaque, il peut faire croire que la résistance à un changement proposé est plus forte qu'elle ne l'est en réalité.
 
 
-Cela montre qu'un État déterminé peut faire et fera tout ce qui est en son pouvoir pour détruire l'ennemi, y compris le briser de l'intérieur. Étant donné que la Bitcoin est une forme de monnaie qui entre en concurrence avec les monnaies fiduciaires établies, il y a de fortes chances que les États considèrent la Bitcoin comme un ennemi.
+Cela montre qu'un État déterminé peut faire et fera tout ce qui est en son pouvoir pour détruire l'ennemi, y compris le briser de l'intérieur. Étant donné que Bitcoin est une forme de monnaie qui entre en concurrence avec les monnaies fiduciaires établies, il y a de fortes chances que les États considèrent Bitcoin comme un ennemi.
 
 
 ### Axiome de la résistance
@@ -1102,7 +1096,7 @@ Eric Voskuil [écrit sur sa page wiki Cryptoeconomics](https://github.com/libbit
 > En d'autres termes, on suppose qu'il est possible pour un système de résister au contrôle de l'État. Cette hypothèse n'est pas acceptée comme un fait, mais est considérée comme une hypothèse raisonnable, en raison de l'étude empirique du comportement de systèmes similaires, sur laquelle le système est basé.
 >
 
-> Celui qui n'accepte pas l'axiome de la résistance envisage un système entièrement différent de Bitcoin. Si l'on suppose qu'il n'est pas possible pour un système de résister aux contrôles de l'État, les conclusions n'ont pas de sens dans le contexte de Bitcoin - tout comme les conclusions de la géométrie sphérique contredisent celles de la géométrie euclidienne. Comment Bitcoin peut-il être sans permission ou résistant à la censure sans l'axiome ? La contradiction conduit à commettre des erreurs évidentes pour tenter de rationaliser le conflit.
+> Celui qui n'accepte pas l'axiome de la résistance envisage un système entièrement différent de Bitcoin. Si l'on suppose qu'il n'est pas possible pour un système de résister aux contrôles de l'État, les conclusions n'ont pas de sens dans le contexte de Bitcoin, tout comme les conclusions de la géométrie sphérique contredisent celles de la géométrie euclidienne. Comment Bitcoin peut-il être sans permission ou résistant à la censure sans l'axiome ? La contradiction conduit à commettre des erreurs évidentes pour tenter de rationaliser le conflit.
 
 
 Ce qu'il dit essentiellement, c'est que ce n'est que lorsqu'on suppose qu'il est possible de créer un système que les États ne peuvent pas contrôler qu'il est utile d'essayer.
@@ -1139,7 +1133,7 @@ La plupart des logiciels Bitcoin, et en particulier Bitcoin Core, sont des logic
 > Redistribution gratuite : La licence n'empêche pas une partie de vendre ou de donner le logiciel en tant que composant d'une distribution globale de logiciels contenant des programmes provenant de plusieurs sources différentes. La licence n'exige pas de redevance ou d'autres droits pour une telle vente.
 >
 
-> Code source : Le programme doit inclure le code source et doit permettre la distribution du code source et de la version compilée. Lorsqu'une forme de produit n'est pas distribuée avec le code source, il doit exister un moyen bien connu d'obtenir le code source pour un coût de reproduction raisonnable, de préférence en le téléchargeant gratuitement sur l'internet. Le code source doit être la forme préférée sous laquelle un programmeur modifierait le programme. Le code source délibérément obscurci n'est pas autorisé. Les formes intermédiaires telles que la sortie d'un préprocesseur ou d'un traducteur ne sont pas autorisées.
+> Code source : Le programme doit inclure le code source et doit permettre la distribution du code source et de la version compilée. Lorsqu'une forme de produit n'est pas distribuée avec le code source, il doit exister un moyen bien connu d'obtenir le code source pour un coût de reproduction raisonnable, de préférence en le téléchargeant gratuitement sur internet. Le code source doit être la forme préférée sous laquelle un programmeur modifierait le programme. Le code source délibérément obscurci n'est pas autorisé. Les formes intermédiaires telles que la sortie d'un préprocesseur ou d'un traducteur ne sont pas autorisées.
 >
 
 > Travaux dérivés : La licence doit autoriser les modifications et les travaux dérivés, et doit permettre leur distribution dans les mêmes conditions que la licence du logiciel original.
@@ -1175,7 +1169,7 @@ Le code source de Bitcoin Core est maintenu dans un dépôt Git hébergé sur [G
 Jameson Lopp, expert en Bitcoin et en sécurité, l'explique très bien dans un [billet de blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) intitulé "Who Controls Bitcoin Core ?" (Qui contrôle le noyau Bitcoin ?):
 
 
-> Bitcoin Core est un point focal pour le développement du protocole Bitcoin plutôt qu'un point de commande et de contrôle. S'il cessait d'exister pour quelque raison que ce soit, un nouveau point focal émergerait - la plateforme de communication technique sur laquelle il est basé (actuellement le dépôt GitHub) est une question de commodité plutôt qu'une question de définition / intégrité du projet. En fait, nous avons déjà vu le point focal de Bitcoin pour le développement changer de plateforme et même de nom !
+> Bitcoin Core est un point focal pour le développement du protocole Bitcoin plutôt qu'un point de commande et de contrôle. S'il cessait d'exister pour quelque raison que ce soit, un nouveau point focal émergerait, la plateforme de communication technique sur laquelle il est basé (actuellement le dépôt GitHub) est une question de commodité plutôt qu'une question de définition / intégrité du projet. En fait, nous avons déjà vu le point central du développement de Bitcoin changer de plateforme, voire même de nom !
 
 Il explique ensuite comment le logiciel de Bitcoin Core est maintenu et protégé contre les modifications de code malveillantes. La conclusion générale de cet article complet est résumée à la toute fin :
 
@@ -1203,7 +1197,7 @@ Lombrozo parle également du processus qui entoure les changements de consensus,
 
 
 
-Nous avons établi que n'importe qui peut écrire du code pour Bitcoin Core sans demander de permission, mais pas nécessairement le faire fusionner dans le dépôt Git principal. Ceci affecte toute modification, depuis le changement des couleurs de l'utilisateur graphique Interface, jusqu'à la façon dont les messages pair-à-pair sont formatés, et même les règles de consensus, c'est-à-dire l'ensemble des règles qui définissent un Blockchain valide.
+Nous avons établi que n'importe qui peut écrire du code pour Bitcoin Core sans demander de permission, mais pas nécessairement le faire fusionner dans le dépôt Git principal. Ceci affecte toute modification, depuis le changement des couleurs de l'interface de l'utilisateur graphique, jusqu'à la façon dont les messages pair-à-pair sont formatés, et même les règles de consensus, c'est-à-dire l'ensemble des règles qui définissent une Blockchain valide.
 
 
 Il est probablement tout aussi important que les utilisateurs soient libres de développer des systèmes à partir de Bitcoin, sans demander aucune permission. Nous avons vu d'innombrables projets logiciels réussis qui ont été construits sur la base de Bitcoin, tels que :

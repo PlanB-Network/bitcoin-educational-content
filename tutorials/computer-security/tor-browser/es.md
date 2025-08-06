@@ -8,7 +8,7 @@ Como su nombre sugiere, un navegador es un software utilizado para navegar por I
 
 Ten cuidado de no confundir el navegador con el motor de búsqueda. El navegador es el software que usas para acceder a Internet (como Chrome o Firefox), mientras que el motor de búsqueda es un servicio, como Google o Bing, por ejemplo, que te ayuda a encontrar información en línea.
 
-Hoy en día, Google Chrome es, con diferencia, el navegador más utilizado. Representa alrededor del 65% del mercado global en 2024. Chrome es apreciado por su velocidad y rendimiento, pero no necesariamente es la mejor opción para todos, especialmente si la privacidad es una prioridad para ti. Chrome pertenece a Google, una compañía conocida por recopilar y analizar enormes cantidades de datos sobre sus usuarios. Y de hecho, su navegador propio está en el corazón de su estrategia de vigilancia. Este software es un componente central en la mayoría de tus interacciones en línea. Dominar la recopilación de datos en tu navegador es un tema importante para Google.
+Hoy en día, Google Chrome es, por mucho, el navegador más utilizado. Representa alrededor del 65% del mercado global en 2024. Chrome es apreciado por su velocidad y rendimiento, pero no necesariamente es la mejor opción para todos, especialmente si la privacidad es una prioridad para ti. Chrome pertenece a Google, una compañía conocida por recopilar y analizar enormes cantidades de datos sobre sus usuarios. Y de hecho, su navegador propio está en el corazón de su estrategia de vigilancia. Este software es un componente central en la mayoría de tus interacciones en línea. Dominar la recopilación de datos en tu navegador es un tema importante para Google.
 ![TOR BROWSER](assets/notext/01.webp)
 *Fuente: [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
@@ -18,7 +18,7 @@ Safari, el navegador de Apple, utiliza WebKit, que también proviene de KHTML.
 
 Por otro lado, navegadores como Mozilla Firefox, LibreWolf y Tor Browser se basan en Gecko, un motor de renderizado diferente, originalmente del navegador Netscape.
 
-Elegir el navegador adecuado depende de tus necesidades. Pero si te preocupa al menos tu privacidad, y por lo tanto tu seguridad, recomiendo optar por Firefox para uso general y Tor Browser para aún más privacidad. En este tutorial, te mostraré cómo empezar fácilmente con el Navegador Tor.
+Elegir el navegador adecuado depende de tus necesidades. Pero si te preocupa al menos tu privacidad, y por lo tanto tu seguridad, recomiendamos optar por Firefox para uso general y Tor Browser para aún más privacidad. En este tutorial, te mostraremos cómo empezar fácilmente con el Navegador Tor.
 ![TOR BROWSER](assets/notext/02.webp)
 
 ## Introducción al Navegador Tor
@@ -32,7 +32,7 @@ También puedes usar el Navegador Tor para acceder a servicios ocultos (direccio
 
 ## ¿Cuál es la diferencia entre la red Tor y el navegador Tor?
 
-La red Tor y el navegador Tor son dos cosas distintas que no deben confundirse, pero son complementarias. La red Tor es una infraestructura global de servidores de relevo, operada por usuarios, que anonimiza el tráfico de Internet al pasarlo a través de varios nodos antes de dirigirlo a su destino final. Este es el famoso enrutamiento de cebolla.
+La red Tor y el navegador Tor son dos cosas distintas que no deben confundirse, pero son complementarias. La red Tor es una infraestructura global de servidores de retransmisión, operada por usuarios, que anonimiza el tráfico de Internet al pasarlo a través de varios nodos antes de dirigirlo a su destino final. Este es el famoso enrutamiento de cebolla.
 
 El navegador Tor, por otro lado, es un navegador específico diseñado para facilitar el acceso a esta red de manera simple. Integra por defecto todas las configuraciones necesarias para conectarse a la red Tor y utiliza una versión modificada de Firefox para proporcionar una experiencia de navegación familiar mientras maximiza la privacidad y la seguridad.
 
@@ -108,6 +108,6 @@ A continuación, en la pestaña "*Privacidad y seguridad*", encontrarás todas l
 Tienes la opción de mantener o eliminar tu historial de navegación.
 ![TOR BROWSER](assets/notext/34.webp) También puedes gestionar los permisos de acceso que otorgas a diferentes sitios web.
 ![TOR BROWSER](assets/notext/35.webp)
-Para la seguridad general de tu navegador, los modos "*Safer*" y "*Safest*" te permiten ajustar las funcionalidades web y los scripts ejecutados por los sitios que visitas. Esto minimiza los riesgos de explotación de vulnerabilidades, pero también afectará la visualización e interactividad de los sitios en retorno. ![TOR BROWSER](assets/notext/36.webp) Encontrarás otras opciones de seguridad, incluyendo un bloqueador de contenido peligroso y el modo solo HTTPS, que asegura que las conexiones con los sitios respeten consistentemente este protocolo. ![TOR BROWSER](assets/notext/37.webp) Finalmente, en la pestaña de "*Connection*", encontrarás todos los ajustes relacionados con la conexión a la red Tor. Aquí es donde puedes configurar un puente para acceder a Tor desde regiones donde su acceso podría estar censurado. ![TOR BROWSER](assets/notext/38.webp) ¡Y eso es todo, ahora estás listo para navegar por Internet de una manera más segura y privada! Si el tema de la privacidad en línea te interesa, también te recomiendo descubrir este otro tutorial sobre Mullvad VPN:
+Para la seguridad general de tu navegador, los modos "*Safer*" y "*Safest*" te permiten ajustar las funcionalidades web y los scripts ejecutados por los sitios que visitas. Esto minimiza los riesgos de explotación de vulnerabilidades, pero también afectará la visualización e interactividad de los sitios en retorno. ![TOR BROWSER](assets/notext/36.webp) Encontrarás otras opciones de seguridad, incluyendo un bloqueador de contenido peligroso y el modo solo HTTPS, que asegura que las conexiones con los sitios respeten consistentemente este protocolo. ![TOR BROWSER](assets/notext/37.webp) Finalmente, en la pestaña de "*Connection*", encontrarás todos los ajustes relacionados con la conexión a la red Tor. Aquí es donde puedes configurar un puente para acceder a Tor desde regiones donde su acceso podría estar censurado. ![TOR BROWSER](assets/notext/38.webp) ¡Y eso es todo, ahora estás listo para navegar por Internet de una manera más segura y privada! Si el tema de la privacidad en línea te interesa, también te recomendamos descubrir este otro tutorial sobre Mullvad VPN:
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

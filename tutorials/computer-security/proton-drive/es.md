@@ -6,7 +6,7 @@ description: Implementación de Copias de Seguridad
 
 Hoy en día, es crucial establecer una estrategia para asegurar la accesibilidad, seguridad y copia de seguridad de tus archivos personales, como tus documentos personales, fotos o proyectos importantes. Perder estos datos puede ser catastrófico.
 
-Para prevenir estos problemas, aconsejo mantener múltiples copias de seguridad de tus archivos en diferentes medios. Una estrategia comúnmente utilizada en informática es la estrategia de copia de seguridad "3-2-1", que asegura la protección de tus archivos:
+Para prevenir estos problemas, aconsejamos mantener múltiples copias de seguridad de tus archivos en diferentes medios. Una estrategia comúnmente utilizada en informática es la estrategia de copia de seguridad "3-2-1", que asegura la protección de tus archivos:
 - **3** copias de tus archivos;
 - Guardadas en al menos **2** tipos diferentes de medios;
 - Con al menos **1** copia mantenida fuera del sitio.
@@ -17,18 +17,18 @@ Para facilitar la implementación de la estrategia de copia de seguridad 3-2-1, 
 
 Muchas personas utilizan las soluciones de almacenamiento de grandes compañías digitales: Google Drive, Microsoft OneDrive o Apple iCloud.
 ![PROTON DRIVE](assets/notext/01.webp)
-Estas soluciones son convenientes para el uso diario y aseguran la accesibilidad de tus datos, pero no garantizan la confidencialidad. En este tutorial, propongo descubrir otra solución, tan fácil de usar como las herramientas de almacenamiento de Big Tech, pero con medidas adicionales para proteger tu privacidad. Esta solución es Proton Drive, la herramienta de almacenamiento en línea de la compañía suiza Proton. También veremos cómo implementar fácilmente una estrategia 3-2-1 adecuada para el uso diario.
+Estas soluciones son convenientes para el uso diario y aseguran la accesibilidad de tus datos, pero no garantizan la confidencialidad. En este tutorial, proponemos descubrir otra solución, tan fácil de usar como las herramientas de almacenamiento de Big Tech, pero con medidas adicionales para proteger tu privacidad. Esta solución es Proton Drive, la herramienta de almacenamiento en línea de la compañía suiza Proton. También veremos cómo implementar fácilmente una estrategia 3-2-1 adecuada para el uso diario.
 
 ## Introducción a Proton Drive
 Proton Drive es una solución intrigante para el almacenamiento en línea porque combina facilidad de uso con seguridad para tus archivos. A diferencia de los servicios tradicionales de nube de los gigantes tecnológicos, Proton Drive implementa medidas para proteger tu privacidad. Asegura el cifrado de extremo a extremo para todos tus archivos, lo que significa que incluso los equipos de Proton no pueden acceder a tus datos. Además, Proton Drive es de código abierto, lo que permite a expertos independientes auditar libremente el código del software.
 ![PROTON DRIVE](assets/notext/02.webp)
-El modelo de negocio de Proton se basa en un sistema de suscripción, lo cual es tranquilizador ya que indica que la compañía se financia sin necesariamente explotar los datos de sus usuarios. En este tutorial, explicaré cómo usar la versión gratuita de Proton Drive, pero también hay varios niveles de suscripción que ofrecen más características. Este modelo de negocio es preferible a un sistema gratuito al estilo de Big Tech, lo que podría llevar a uno a preguntarse si nuestros datos personales se están utilizando para obtener beneficios. Esto no parece ser el caso con Proton.
+El modelo de negocio de Proton se basa en un sistema de suscripción, lo cual es tranquilizador ya que indica que la compañía se financia sin necesariamente explotar los datos de sus usuarios. En este tutorial, explicaremos cómo usar la versión gratuita de Proton Drive, pero también hay varios niveles de suscripción que ofrecen más características. Este modelo de negocio es preferible a un sistema gratuito al estilo de Big Tech, lo que podría llevar a uno a preguntarse si nuestros datos personales se están utilizando para obtener beneficios. Esto no parece ser el caso con Proton.
 
 Proton Drive ofrece mucho más que simples opciones de almacenamiento; también permite compartir, editar y colaborar en documentos en línea con herramientas de edición, similar a la suite de software de Google.
 En cuanto a [precios](https://proton.me/pricing), la versión gratuita ofrece hasta 5 GB de almacenamiento e incluye características esenciales. Para extender las capacidades a 200 GB de almacenamiento, está disponible una suscripción específica a Proton Drive por 4 € al mes. Por otro lado, el paquete Proton Unlimited ofrece por 10 € al mes un espacio de almacenamiento de hasta 500 GB en Proton Drive, además de incluir todos los servicios pagos de Proton, como la VPN y el gestor de contraseñas, así como beneficios adicionales en herramientas gratuitas (correo electrónico y calendario). ![PROTON DRIVE](assets/notext/03.webp)
 ## ¿Cómo crear una cuenta de Proton?
 
-Si aún no tienes una cuenta de Proton, necesitarás crear una. Te remito a nuestro tutorial de Proton Mail en el que explicamos detalladamente cómo crear una cuenta gratuita de Proton y configurarla:
+Si aún no tienes una cuenta de Proton, necesitarás crear una. Visita nuestro tutorial de Proton Mail en el que explicamos detalladamente cómo crear una cuenta gratuita de Proton y configurarla:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -63,7 +63,7 @@ Así, todos tus archivos están respaldados y sincronizados tanto localmente en 
 ## ¿Cómo hacer una copia de seguridad de Proton Drive?
 
 Si has seguido los pasos anteriores, ahora tienes 2 ubicaciones de respaldo distintas para tus archivos importantes. Para completar nuestra estrategia de respaldo 3-2-1, necesitamos agregar una tercera copia.
-Te sugiero realizar este respaldo adicional en un medio externo, como un disco duro externo o una memoria USB, por ejemplo. Dependiendo de la intensidad de tu uso, establece una frecuencia de actualización de respaldo apropiada (semanal, mensual, semestral...). En cada intervalo elegido, necesitarás descargar la totalidad de tu Proton Drive para respaldar los datos en el medio externo elegido. De esta manera, incluso en el evento de robo de tu computadora y la destrucción simultánea de los servidores de Proton, aún mantendrás acceso seguro a tus archivos gracias a la copia en la memoria USB.
+Te sugerimos realizar este respaldo adicional en un medio externo, como un disco duro externo o una memoria USB, por ejemplo. Dependiendo de la intensidad de tu uso, establece una frecuencia de actualización de respaldo apropiada (semanal, mensual, semestral...). En cada intervalo elegido, necesitarás descargar la totalidad de tu Proton Drive para respaldar los datos en el medio externo elegido. De esta manera, incluso en el evento de robo de tu computadora y la destrucción simultánea de los servidores de Proton, aún mantendrás acceso seguro a tus archivos gracias a la copia en la memoria USB.
 
 Para hacer esto, ve a tu Proton Drive.
 ![PROTON DRIVE](assets/notext/31.webp)
@@ -79,6 +79,6 @@ Si te preocupa que esta memoria USB pueda ser robada, considera encriptarla con 
 
 Felicidades, ahora tienes una estrategia de respaldo 3-2-1 muy robusta, que te permite reducir drásticamente el riesgo de perder acceso a tus documentos personales, cualquiera que sea la circunstancia. Al elegir Proton Drive para tus respaldos en línea, también te beneficias de la encriptación de extremo a extremo, que garantiza la protección de tu privacidad.
 
-Para aprender más sobre cómo asegurar tu presencia en línea y evitar el hacking, también recomiendo consultar nuestro tutorial detallado sobre el gestor de contraseñas Bitwarden:
+Para aprender más sobre cómo asegurar tu presencia en línea y evitar el hacking, recomendamos también consultar nuestro tutorial detallado sobre el gestor de contraseñas Bitwarden:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

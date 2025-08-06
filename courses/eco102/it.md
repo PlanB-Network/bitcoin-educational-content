@@ -153,11 +153,17 @@ Morì a Roma nel 1850, a causa della tubercolosi. È sepolto nella Chiesa di San
 
 In economia, Bastiat ha sempre riconosciuto il suo debito verso Adam Smith e Jean-Baptiste Say. A 26 anni, scrisse a uno dei suoi amici: "Non ho mai letto su questi argomenti se non queste quattro opere, Smith, Say, Destutt e il Censore."
 
+![image](assets/en/014.webp)
 _(Jean-Baptiste Say e Adam Smith)_
-L'economia politica, così come concepita da Adam Smith e J.-B. Say, è racchiusa in una sola parola: libertà. Libertà di commercio, libertà individuale, libero scambio e libera iniziativa. Il libero scambio fu difeso per primo dai fisiocratici, come François Quesnay e Vincent de Gournay, e poi da Adam Smith che sintetizzò le loro idee con le proprie osservazioni. Infine, alla fine del XVIII secolo, Jean-Baptiste Say chiarì e corresse alcuni punti della dottrina del suo maestro Adam Smith nel suo magistrale Trattato di Economia Politica.
 
+L'economia politica, così come concepita da Adam Smith e J.-B. Say, è racchiusa in una sola parola: libertà. Libertà di commercio, libertà individuale, libero scambio e libera iniziativa. Il libero scambio fu difeso per primo dai fisiocratici, come François Quesnay e Vincent de Gournay, e poi da Adam Smith che sintetizzò le loro idee con le proprie osservazioni. Infine, alla fine del XVIII secolo, Jean-Baptiste Say chiarì e corresse alcuni punti della dottrina del suo maestro Adam Smith nel suo magistrale _Trattato di Economia Politica_.
+
+![image](assets/en/015.webp)
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_
+
 Adam Smith era interessato alla prosperità, non come fine a sé stessa, ma come mezzo per l'elevazione morale degli individui. Per lui, la ricchezza delle nazioni consiste nella ricchezza degli individui. Se vuoi una nazione prospera, dice Adam Smith, lascia che gli individui agiscano liberamente. E il mercato funziona perché permette a tutti di esprimere le proprie preferenze e perseguire il proprio interesse.
+
+![image](assets/en/016.webp)
 
 La grande novità degli economisti moderni all'alba del XVIII secolo è che si interessano a ogni individuo con la volontà di ripristinare la loro capacità di agire pensando contemporaneamente a come contenere passioni e conflitti. L'uomo vuole naturalmente migliorare la propria sorte e quella dei propri cari attraverso lo scambio di beni e servizi.
 
@@ -165,21 +171,37 @@ Quello che Adam Smith dimostra è che si può servire il proprio interesse solo 
 
 > Dammi ciò di cui ho bisogno, e avrai da me ciò di cui hai bisogno tu stesso. (...) Non è dalla benevolenza del macellaio, del birraio o del fornaio che ci aspettiamo la nostra cena, ma dal loro riguardo per il proprio interesse.
 
+![image](assets/en/017.webp)
+
+---
+
+“Lo sforzo naturale di ogni individuo per migliorare la propria condizione... è così potente, che da solo, e senza alcuna assistenza, non è solo capace di portare nella società ricchezza e prosperità, ma di superare un centinaio di ostruzioni impertinenti con cui la follia delle leggi umane troppo spesso incide sulle sue operazioni. ”
+>_La ricchezza delle nazioni_
+>_Libro IV, capitolo V_
+
+---
+
 Lo scambio è un gioco a somma positiva. Ciò che uno guadagna, guadagna anche l'altro. Si differenzia così dalla redistribuzione politica dove c'è sempre un vincitore e un perdente. Se consideriamo la scuola inglese, per Smith, per Ricardo e per Locke prima di loro, il valore è legato al lavoro. Per Marx, è lo stesso.
+
+![image](assets/en/018.webp)
+_(Marx, Ricardo, Smith, Locke)_
 
 D'altra parte, Bastiat ammetterà con Jean-Baptiste Say che l'utilità è il vero fondamento del valore. Il lavoro non crea valore. Nemmeno la scarsità. Tutto deriva dall'utilità. Infatti, nessuno accetta di pagare per un servizio a meno che non lo ritenga utile. Si produce sempre e solo utilità.
 Ma Bastiat ha anche sfumato Say su questo punto. Non si tratta dell'utilità che è nelle cose, si tratta dell'utilità relativa dei servizi. "Il valore è il rapporto di due servizi scambiati," secondo le sue stesse parole. Pertanto, il valore è soggettivo, e l'unico modo per cogliere le preferenze degli individui è osservare il loro comportamento in un mercato libero. Il mercato rivela le preferenze individuali ed è il grande regolatore della società attraverso lo scambio.
 
 L'economia obbedisce a una serie di leggi semplici derivate dal comportamento umano. Una di queste, chiamata "Legge di Say," è la seguente: "Prodotti e servizi sono scambiati per prodotti e servizi." La sua idea è che le nazioni e gli individui traggono beneficio da un aumento del livello di produzione perché offre maggiori opportunità per scambi reciprocamente vantaggiosi.
 
-Infatti, i prodotti sono acquistati solo in previsione dei servizi che l'acquirente si aspetta: compro un disco per la musica che ascolterò, compro un biglietto del cinema per il film che vedrò. E in uno scambio, ogni parte decide perché giudica che può derivare più servizi da ciò che acquisisce rispetto a ciò che cede. In questo contesto, il denaro è solo una merce intermediaria, compensa per un servizio reso e apre ad altri servizi.
+![image](assets/en/019.webp)
+
+Infatti, i prodotti sono acquistati solo in previsione dei servizi che l'acquirente si aspetta: compro un disco per la musica che ascolterò, compro un biglietto del cinema per il film che vedrò. E in uno scambio, ogni parte decide perché giudica che può derivare un migliore servizio da ciò che acquisisce rispetto a ciò che cede. In questo contesto, il denaro è solo una merce intermediaria, compensa per un servizio reso e apre ad altri servizi.
 
 Per Bastiat, l'economia degli scambi, cioè dei servizi reciproci liberamente offerti e accettati, è ciò che sottende la pace e la prosperità, consentendo l'armonia degli interessi.
 
 Ma da Jean-Baptiste Say, Frédéric Bastiat eredita anche un concetto chiave, quello del saccheggio. Perché, dice, facendo eco alle parole di Say:
 
 > Ci sono solo due modi per acquisire le cose necessarie per la conservazione, l'abbellimento e il miglioramento della vita: la produzione e il saccheggio.
-> I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentre i predatori ricorrono alla forza e all'inganno. Spetta quindi alla legge sopprimere il saccheggio e garantire la sicurezza del lavoro così come della proprietà. Come già affermato da Adam Smith, garantire la sicurezza dei cittadini è la principale missione dell'autorità pubblica, ed è questo che legittima l'imposizione delle tasse.
+
+I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentre i predatori ricorrono alla forza e all'inganno. Spetta quindi alla legge sopprimere il saccheggio e garantire la sicurezza del lavoro così come della proprietà. Come già affermato da Adam Smith, garantire la sicurezza dei cittadini è la principale missione dell'autorità pubblica, ed è questo che legittima l'imposizione delle tasse.
 
 ![image](assets/en/020.webp)
 

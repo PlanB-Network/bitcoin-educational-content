@@ -81,6 +81,8 @@ Quando fu eletto deputato, fu durante la Seconda Repubblica, e da quel momento i
 
 ![image](assets/en/006.webp)
 
+---
+
 >**LABORATORI NAZIONALI**  
 >**AGENDA.**
 >Considerando che i lavoratori iscritti ai laboratori nazionali hanno giustamente chiesto che i lavori disponibili siano distribuiti tra di loro il più equamente possibile;
@@ -88,6 +90,8 @@ Quando fu eletto deputato, fu durante la Seconda Repubblica, e da quel momento i
 >È convenuto che, fino ad un ulteriore avviso e in attesa di migliori accordi, ogni società lavora due giorni alla settimana a partire da lunedì 17.
 >_Il Commissario della Repubblica, Direttore dei laboratori nazionali,_
 >**Émile THOMAS.**
+
+---
 
 E si rese conto che, fondamentalmente, nulla era davvero cambiato. Le persone disponevano della proprietà altrui attraverso il voto e la legge, quello che lui chiamava saccheggio legale. Questo fenomeno del saccheggio legale era al centro del suo lavoro, specialmente in questo breve testo che scrisse verso la fine della sua vita, "La Legge", dove contrappone il saccheggio legale alla proprietà, il diritto alla proprietà. Mostra che, fondamentalmente, la vera soluzione al problema sociale è la libertà, cioè la proprietà, il controllo su se stessi e sui frutti del proprio lavoro.
 
@@ -103,28 +107,41 @@ Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver
 
 Fu lì che il corso della sua vita cambiò radicalmente. Egli stesso racconta che in quel momento fu decisa la sua vocazione come economista. Al ritorno in Francia, aveva solo un'idea in mente: far conoscere alla Francia il movimento liberale che agitava l'Inghilterra. Frédéric Bastiat nacque a Bayonne il 30 giugno 1801. Orfano all'età di 9 anni, proseguì i suoi studi al collegio cattolico di Sorèze. Era dotato per le lingue, imparando l'inglese, lo spagnolo e persino il basco. Tuttavia, non era motivato dai suoi studi e decise di non prendere il Baccalaureato, scegliendo invece di lavorare nell'azienda di import-export di suo zio a Bayonne.
 
-Nel 1825, ereditò una tenuta agricola dal suo nonno, che gestì come un "gentiluomo-contadino", con le sue parole. Fu allora che incontrò direttamente i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.
+Nel 1825, ereditò una tenuta agricola da suo nonno, che gestì come un "gentiluomo-contadino", con parole sue. Fu allora che incontrò direttamente i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.
+
+![image](assets/en/008.webp)
 
 Sviluppò rapidamente una passione per l'economia politica e studiò le opere di Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Leggeva giornali inglesi, e fu lì che apprese dell'esistenza di una lega inglese per il libero scambio.
 
+![image](assets/en/009.webp)
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
 Al suo ritorno dall'Inghilterra, scrisse un articolo intitolato: "Sull'influenza dei dazi inglesi e francesi sul futuro dei due popoli", che inviò al Journal des Économistes a Parigi. L'articolo apparve nel numero di ottobre 1844, e fu un completo successo. Tutti ammiravano la sua argomentazione potente e incisiva, il suo stile sobrio ed elegante.
 
-Il Journal des Économistes gli chiese quindi altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, lo congratularono, incoraggiandolo a continuare con loro nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
+![image](assets/en/010.webp)
+
+Il Journal des Économistes gli chiese quindi altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, si congratularono, incoraggiandolo a continuare insieme a loro nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
 
 Pubblicò inizialmente la serie iniziale di Sofismi economici, in cui attaccava i protezionisti con audacia e ironia. A Parigi, iniziò anche un corso di economia politica in una sala privata, frequentato con entusiasmo dall'élite studentesca.
 
+![image](assets/en/011.webp)
+
 L'anno seguente, fondò l'"Associazione per il Libero Scambio" in Francia e si gettò nella lotta contro il protezionismo in Francia. Raccolse fondi, creò una rivista settimanale e tenne conferenze in tutto il paese.
-Il primo incontro si è svolto a Bordeaux il 23 febbraio 1846, durante il quale fu fondata l'Associazione Bordolese per il Libero Scambio. Ben presto, il movimento si diffuse in tutta la Francia. A Parigi, un nucleo iniziale si formò tra i membri della Società degli Economisti, ai quali si unirono deputati, industriali e commercianti. Gruppi significativi si formarono anche a Marsiglia, Lione e Le Havre.
+Il primo incontro si svolse a Bordeaux il 23 febbraio 1846, durante il quale fu fondata l'Associazione Bordolese per il Libero Scambio. Ben presto, il movimento si diffuse in tutta la Francia. A Parigi, un nucleo iniziale si formò tra i membri della Società degli Economisti, ai quali si unirono deputati, industriali e commercianti. Gruppi significativi si formarono anche a Marsiglia, Lione e Le Havre.
+
+![image](assets/en/005.webp)
 
 La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, provenissero dalla destra o dalla sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
 
 > Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
 
-Quasi tutti i suoi libri e saggi furono scritti negli ultimi sei anni della sua vita, dal 1844 al 1850. Nel 1850, Bastiat scrisse due delle sue opere più famose: La Legge e una serie di opuscoli intitolati Ciò che si vede e ciò che non si vede. La Legge è stata tradotta in molte lingue straniere, tra cui inglese, tedesco, spagnolo, russo e italiano.
+Quasi tutti i suoi libri e saggi furono scritti negli ultimi sei anni della sua vita, dal 1844 al 1850. Nel 1850, Bastiat scrisse due delle sue opere più famose: _La Legge_ e una serie di opuscoli intitolati _Ciò che si vede e ciò che non si vede_. La Legge è stata tradotta in molte lingue straniere, tra cui inglese, tedesco, spagnolo, russo e italiano.
+
+![image](assets/en/012.webp)
 
 Morì a Roma nel 1850, a causa della tubercolosi. È sepolto nella Chiesa di San Luigi dei Francesi a Roma.
+
+![image](assets/en/013.webp)
 
 # Influenze
 

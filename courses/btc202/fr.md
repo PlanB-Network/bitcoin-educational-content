@@ -627,7 +627,83 @@ Dans la prochaine partie, nous aborderons l’utilisation concrète de votre nou
 ## Les indexeurs : rôle, fonctionnement et solutions
 <chapterId>4f93c07a-f0cb-435f-8b68-162f316d7039</chapterId>
 
-Explication de la nécessité d’un indexeur pour les portefeuilles. Présentation de celui de base sur Core, d’Electrs et de Fulcrum : avantages et inconvénients.
+
+Si vous avez fait quelques recherches sur les noeuds Bitcoin avant de lire cette formation, vous avez peut être déjà croisé le terme "indexeur". Ce sont des outils comme Electrs ou bien Fulcrum qui peuevent être ajoutés à un noeud Bitcoin Core. Mais quel est précisément le rôle de ces logiciels, comment foncitonnent-ils concrètement et est-ce que vous devriez en installer un sur votre nouveau noeud Bitcoin ? C'est ce que nous allons voir dans ce chapitre.
+
+### Qu'est-ce qu'un indexeur ?
+
+De manière générale en informatique, un indexeur est un programme qui lit une masse de données brutes, en extrait des clés pertinentes (mots, identifiants, adresses...) et construit un fichier auxiliaire (qu'on appelle l’index) où chaque clé pointe vers l’emplacement exact de la donnée dans le corpus. C'est une étape de pré-traitement qui coûte du temps CPU et un peu d’espace disque, mais elle évite ensuite de parcourir tout le corpus à chaque requête sur la base de donnée : on interroge l’index et la réponse est quasi instantanée.
+
+Pour vulgariser, on peut dire que c’est un peu le même principe qu’un index sur un livre : vous recherchez une information que vous savez présente dans un livre, au lieu de relire l'intégralité du livre à la recherche de cette information, vous consulter l'index pour savoir précisément sur quelle page se trouve l'information que vous recherchez.
+
+Dans un nœud Bitcoin comme Bitcoin Core, les données de la blockchain sont stockées sous une forme brute et chronologique. Chaque bloc contient des transactions, qui elles-mêmes contiennent des entrées et des sorties, sans aucun classement particulier par adresse, identifiant ou portefeuille. Cette organisation linéaire est optimisée pour la validation des blocs, mais très peu adaptée à des recherches ciblées. Par exemple, si vous souhaitez retrouver toutes les transactions liées à une adresse spécifique dans un nœud non indexé, vous devriez parcourir manuellement l’ensemble de la blockchain, bloc par bloc, transaction par transaction. C’est précisément là qu’intervient l'indexeur sur votre nœud Bitcoin.
+
+Un indexeur est un logiciel spécialisé qui va analyser cette masse de données brutes (la blockchain, la mempool, l'UTXO set…) et en extraire des clés : identifiants de transaction, adresses, hauteurs de blocs... À partir de ces clés, il construit son index qui associe chaque clé à l’endroit exact où se trouve l’information dans le stockage du nœud.
+
+L’indexation rend donc les recherches d'informations sur votre nœud rapides, ciblées et efficaces. Par exemple, lorsqu’un logiciel de gestion de portefeuille comme Sparrow est connecté à votre nœud, il vous affiche rapidement le solde d’une adresse. Pour ce faire, il interroge l’indexeur en lui demandant : "_Quels UTXOs sont associés à ce script-hash ?_" L’indexeur lui répond presque immédiatement, sans avoir besoin de relire toute la blockchain, car il a déjà référencé cette information.
+
+### Est-ce que Bitcoin Core dispose d'un indexeur ?
+
+Sans ajout de logiciel supplémentaire, Bitcoin Core ne dispose pas, à proprement parler, d’un indexeur complet d'adresses comparable à ceux que l’on retrouve dans des logiciels comme Electrs ou Fulcrum. Néanmoins, il intègre plusieurs mécanismes d’indexation internes, ainsi que des options facultatives permettant d’étendre ses capacités d’interrogation. Pour bien comprendre la situation, il  faut faire un détour par l’histoire du projet.
+
+Jusqu’à la version 0.8.0 de Bitcoin Core, la validation des transactions reposait sur un index global des transactions : le fameux `txindex`. Ce dernier référençait toutes les transactions de la blockchain ainsi que leurs sorties. Lorsqu’un nœud recevait une nouvelle transaction, il consultait cet index pour vérifier que les sorties consommées (en inputs) existaient bien, et qu’elles n’avaient pas déjà été dépensées. `txindex` était donc à l’époque indispensable à la validation des transactions.
+
+Mais cette approche présentait des limites : lenteur, coût en terme de stockage, redondance d’informations. Pour y remédier, la version 0.8.0 introduit une refonte du modèle de validation appelée ***Ultraprune***. Ce changement inaugure notamment l’architecture actuelle : au lieu de tout stocker sous forme d'index de transactions, Bitcoin Core maintient une simple base de données dédiée aux seuls UTXOs, appelée `chainstate` (c'est que l'on appelle dans le langage courant "UTXO set"), et actualise au fur et à mesure sa liste en fonction des sorties consommées et créées.
+
+Cette méthode est bien plus rapide, et elle permet de ne stocker que l’état actuel du registre, ce qui rend l'indexeur `txindex` inutile. Cependant, au lieu de supprimer le code de `txindex`, les développeurs ont choisi de conserver cette fonctionnalité derrière un simple paramètre (`txindex=1`). En activant cette option sur votre nœud, vous pouvez donc interroger n’importe quelle transaction à partir de son `txid`.
+
+Contrairement à ce que l’on pourrait penser, Bitcoin Core ne propose pas d’indexation par adresse comme pourraient le faire Electrs ou Fulcrum. Plusieurs raisons expliquent ce choix :
+
+- Le rôle de Bitcoin Core n’est pas de devenir un explorateur de blocs complet, ni de fournir une API taillée pour chaque usage. Intégrer un index par adresse impliquerait un engagement de maintenance à long terme, qui va au-delà du périmètre initial du logiciel ;
+
+- La plupart des cas d’usage peuvent déjà être couverts autrement. Par exemple, pour estimer le solde d’une adresse, il est possible d’utiliser la commande `scantxoutset`, qui interroge directement l'UTXO set sans nécessiter d’index complet.
+
+- Chaque logiciel a des exigences spécifiques sur le format ou le type de données à indexer (adresse, script-hash, tag propriétaire…). Il est plus souple et plus logique de laisser ces logiciels construire leurs propres index sur mesure plutôt que de figer une solution générique dans Bitcoin Core.
+
+Bitcoin Core dispose bien en option d’un indexeur de transactions (`txindex`), vestige de son fonctionnement historique, mais il ne fournit aucun index par adresse, ni d’interface directe pour faire des recherches complexes. Il peut donc être utile dans certains cas d'ajouter un logiciel indexeur externe.
+
+### Faut-il ajouter un indexeur d'adresses sur son nœud ?
+
+
+
+
+
+
+
+Deux logiciels sont largement utilisés pour construire ce type d’index et le rendre accessible : **Electrs** et **Fulcrum**. Ces serveurs indexent la blockchain selon les `script-hash`, puis exposent une interface standardisée, le **protocole Electrum**, utilisée par de nombreux portefeuilles légers comme Electrum Wallet, Sparrow, ou BlueWallet.
+
+
+
+
+### Comment installer un indexeur sur Umbrel ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Comment connecter son portefeuille à son nœud Bitcoin ?

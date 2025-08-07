@@ -596,672 +596,338 @@ Podrás:
 
 ### Informes y exportación
 
-Para acceder a las estadísticas de ventas y pagos
-:
+Para acceder a las estadísticas de ventas y pagos:
 administrador > Configuración > Informes
 
 ![reporting](assets/fr/035.webp)
 
-Aquí encontrará una visión general de su negocio, en forma de **informes mensuales y anuales**.
-
-
+Aquí encontrarás una visión general de tu negocio, en forma de **informes mensuales y anuales**.
 
 #### Contenido del informe
 
-
-
 Los informes se dividen en secciones:
 
-
-
-
-
-- Detalle del pedido**: número de pedidos, estado (confirmado, cancelado, pendiente), evolución
-- Detalle del producto**: productos vendidos, cantidades, productos populares
-- Detalle de los pagos**: importes cobrados, desglose por forma de pago
-
-
+- **Detalle del pedido**: Número de pedidos, estado (confirmado, cancelado, pendiente), evolución
+- **Detalle del producto**: Productos vendidos, cantidades, productos populares
+- **Detalle de los pagos**: Importes cobrados, desglose por forma de pago
 
 #### Exportación de datos
 
-
-
-Cada sección incluye un botón **Exportar CSV**, que permite :
-
-
-
-
+Cada sección incluye un botón **Exportar CSV**, que permite:
 
 - Descargar datos en formato CSV
 - Ábrelos en Excel, Google Sheets, etc.
 - Archivado para uso administrativo o contable
-- Utilícelos para informes internos
+- Utilízalos para informes internos
 
-
-
-**Nota:** ideal para el seguimiento del rendimiento, la contabilidad y las presentaciones.
-
-
+**Nota:** Ideal para el seguimiento del rendimiento, la contabilidad y las presentaciones.
 
 ## Configuración de Nostr Messaging (opcional)
 
-
-
 ![nostr-config](assets/fr/036.webp)
-
-
 
 La plataforma es compatible con el protocolo **Nostr** para determinadas funciones avanzadas:
 
-
-
-
-
 - Notificaciones descentralizadas
 - Iniciar sesión sin contraseña
-- Interface administración ligera
-
-
+- Interfaz de administración ligera
 
 ### Generar y añadir la clave privada de Nostr
 
-
-
-Ir a :
-
-
+Ir a:
 admin > Gestión de nodos > Nostr
 
-
-
-
-
 - Haz clic en **Crear nsec** si no tienes uno.
-- El sistema puede generate automáticamente.
-- También puede utilizar una llave existente (por ejemplo, de Damus o Amatista).
-
-
+- El sistema puede generarla automáticamente.
+- También puedes utilizar una llave existente (por ejemplo, de Damus o Amethist).
 
 Siguiente:
 
-
-
-
-
-- Copiar la clave `nsec
-- Añádalo a su archivo `.env.local` (o `.env`): ```env NOSTR_PRIVATE_KEY=TuNsecIciKey
-
-
+- Copia la clave `nsec
+- Añádela a tu archivo `.env.local` (o `.env`): ```env NOSTR_PRIVATE_KEY=TuNsecIciKey
 
 ### Funciones activadas con Nostr
 
-
-
-Una vez configurado, dispone de varias funciones:
-
-
+Una vez configurado, dispones de varias funciones:
 
 **Notificaciones a través de Nostr**
-
-
-
-
 
 - Enviar alertas de pedidos, pagos o eventos del sistema
 - Para administradores o usuarios
 
-
-
-**Interface administración ligera**
-
-
-
-
+**Interfaz de administración ligera**
 
 - Accesible a través de un cliente Nostr
 - Permite una gestión rápida y móvil
 
-
-
 **Conexión sin contraseña**
-
-
-
-
 
 - Inicio de sesión mediante enlace seguro (enviado a través de Nostr)
 - Mayor seguridad y fluidez para el usuario
 
-
-
 ## Diseño y personalización de temas
 
-
-
-Para adaptar la apariencia de su tienda a su carta gráfica, vaya a: `Admin > Merch > Theme`
-
-
+Para adaptar la apariencia de tu tienda a tu imagen corporative, ve a: `Admin > Merch > Theme`
 
 Aquí encontrarás todas las opciones para **crear** y **configurar** un tema personalizado.
 
-
-
 ### Crear un tema
-
-
 
 ![theme](assets/fr/037.webp)
 
+Al crear o modificar un tema, puedes definir:
 
-
-Al crear o modificar un tema, puede definir :
-
-
-
-
-
-- Colores**: para botones, fondos, texto, enlaces, etc.
-- Tipos de letra**: elección de tipos de letra para títulos, párrafos y menús
-- Estilos gráficos**: bordes, márgenes, espaciado, formas de bloque
-
-
+- **Colores**: Ppara botones, fondos, texto, enlaces, etc.
+- **Tipos de letra**: Elección de tipos de letra para títulos, párrafos y menús
+- **Estilos gráficos**: Bordes, márgenes, espaciado, formas de bloque
 
 ### Secciones personalizables
 
-
-
 Cada parte del sitio puede ajustarse de forma independiente:
 
+- **Cabecera**: Barra de navegación superior
+- **Cuerpo**: Ccontenido principal
+- **Pie de página**: Parte inferior de la página
 
-
-
-
-- Cabecera**: barra de navegación superior
-- Cuerpo**: contenido principal
-- Pie de página** : parte inferior de la página
-
-
-
-**Nota:** esta granularidad garantiza la coherencia entre los elementos visuales del sitio y la identidad de su marca.
-
-
+**Nota:** esta granularidad garantiza la coherencia entre los elementos visuales del sitio y la identidad de tu marca.
 
 ### Activación del tema
 
+Una vez configurado el tema:
 
-
-Una vez configurado el tema :
-
-
-
-
-
-- Haga clic en **Guardar**
-- Activarlo como **tema principal** de la tienda
-
-
+- Haz clic en **Guardar**
+- Actívalo como **tema principal** de la tienda
 
 **Nota:** el tema activo es el que será visible para los visitantes.
 
-
-
 ## Configuración de plantillas de correo electrónico
 
-
-
-La plataforma permite personalizar los correos electrónicos que se envían automáticamente a los usuarios. Vaya a: `Admin > Configuración > Plantillas`
-
-
+La plataforma permite personalizar los correos electrónicos que se envían automáticamente a los usuarios. Dirígete a: `Admin > Configuración > Plantillas`
 
 ![emails-templates](assets/fr/038.webp)
 
-
-
 ### Creación / edición de plantillas
 
+Cada correo electrónico (confirmación de pedido, contraseña olvidada, etc.) tiene:
 
-
-Cada correo electrónico (confirmación de pedido, contraseña olvidada, etc.) tiene :
-
-
-
-
-
-- Asunto**: el asunto del correo electrónico (por ejemplo, "Su pedido ha sido validado")
-- Cuerpo HTML**: Contenido HTML mostrado en el correo electrónico
-
-
+- **Asunto**: el asunto del correo electrónico (por ejemplo, "Su pedido ha sido validado")
+- **Cuerpo HTML**: Contenido HTML mostrado en el correo electrónico
 
 **Nota:** puede insertar texto, imágenes, enlaces, etc., según sea necesario.
 
-
-
 ### Uso de variables dinámicas
 
-
-
-Para que los correos electrónicos sean dinámicos, inserte variables como :
-
-
-
-
+Para que los correos electrónicos sean dinámicos, inserte variables como:
 
 - `{orderNumber}}` : sustituido por el número de pedido real
 - `{invoiceLink}}` : enlace a la Invoice
 - `{websiteLink}}`: URL de su sitio web
 
-
-
 **Nota:** estas etiquetas se sustituyen automáticamente cuando se envían.
-
-
 
 ### Consejos avanzados
 
-
-
-
-
 - Crear mensajes de correo electrónico **responsivos** para facilitar su lectura en dispositivos móviles
 - Añadir **botones de acción** (pago, descarga, seguimiento del pedido)
-- Pruebe sus correos enviándoselos a sí mismo antes de publicarlos
-
-
+- Prueba los correos enviándotelos a tí mismo antes de publicarlos
 
 ## Configuración de etiquetas y widgets específicos
 
-
-
 ### Gestión de etiquetas
-
-
 
 Las etiquetas permiten estructurar y enriquecer los contenidos. Para acceder a ellas: `Admin > Widgets > Etiqueta`
 
-
-
 ![tags-config](assets/fr/039.webp)
-
-
 
 ### Crear una etiqueta
 
+Rellena los siguientes campos:
 
-
-Rellene los siguientes campos:
-
-
-
-
-
-- Nombre de la etiqueta**: nombre de la etiqueta mostrada
-- Slug**: identificador único (sin espacios ni acentos)
-- Familia de etiquetas**: agrupa las etiquetas por categorías
-
-
+- **Nombre de la etiqueta**: nombre de la etiqueta mostrada
+- **Slug**: identificador único (sin espacios ni acentos)
+- **Familia de etiquetas**: agrupa las etiquetas por categorías
 
 ![targsconfig](assets/fr/040.webp)
 
+#### Familias disponibles:
 
-
-#### Familias disponibles :
-
-
-
-
-
-- creadores`: autores o productores
-- minoristas: vendedores o puntos de venta
-- `Temporal`: periodos o fechas
-- eventos: eventos asociados
-
-
+- `Creadores`: Autores o productores
+- `Minoristas`: Vendedores o puntos de venta
+- `Temporal`: Periodos o fechas
+- `Eventos`: Eventos asociados
 
 ### Campos opcionales
 
-
-
 Estos campos pueden utilizarse para enriquecer una etiqueta como si fuera una página de contenido:
-
-
-
-
 
 - Título
 - Subtítulo
 - Contenidos breves
-- Contenido completo** (en francés)
-- CTA** (botones de acción)
-
-
+- **Contenido completo**
+- **CTA** (botones de acción)
 
 ### Uso de etiquetas
 
-
-
 Las etiquetas pueden ser :
 
-
-
-
-
-- Asignado a productos
-- Integrado en páginas CMS con una etiqueta: [Tag=slug?display=var-1]
-
-
+- Asignadas a productos
+- Integradas en páginas CMS con una etiqueta: [Tag=slug?display=var-1]
 
 ## Configuración de archivos descargables
 
-
-
-Para ofrecer documentos descargables a sus clientes: `Admin > Merch > Files`
-
-
+Para ofrecer documentos descargables a tus clientes: `Admin > Merch > Files`
 
 ### Añadir un archivo
 
+1. Haz clic en **Nuevo archivo**
+2. Ingresa:
 
-
-1. Haga clic en **Nuevo archivo**
-
-
-2. Inform :
-
-
-
-
-   - Nombre del archivo** (por ejemplo, *Guía de instalación*)
-   - Archivo a cargar** (PDF, imagen, Word...)
-
-
+   - **Nombre del archivo** (por ejemplo, *Guía de instalación*)
+   - **Archivo a cargar** (PDF, imagen, Word...)
 
 **Nota:** una vez añadido, la plataforma genera automáticamente un **enlace permanente**.
 
-
-
 ### A través del enlace
 
+Este enlace puede insertarse en:
 
-
-Este enlace puede insertarse en :
-
-
-
-
-
-- Página CMS** (como enlace de texto o botón)
+- **Página CMS** (como enlace de texto o botón)
 - Un **cliente de correo electrónico** (a través de una plantilla)
 - Una **hoja de producto** (por ejemplo, descarga del manual)
 
-
-
 Es ideal para proporcionar *manuales de usuario, guías técnicas, fichas de producto...* sin necesidad de alojamiento externo.
-
-
 
 ## Nostr-bot
 
-
-
 La plataforma ofrece integración avanzada con el protocolo **Nostr**, a través de un bot automatizado.
 
-
-
-Vaya a : nodo Gestión > Nostr
-
-
+Vw a: nodo Gestión > Nostr
 
 ### Características principales
 
-
-
 #### Gestión de relés
-
-
-
-
 
 - Añadir o eliminar **relés** utilizados por el bot
 - Optimizar el **alcance** y la **fiabilidad** de los mensajes enviados
 
-
-
 #### Mensaje automático de introducción
 
-
-
-
-
 - Activar un mensaje automático en **primera interacción del usuario**
-- Ideal para :
-  - Presentar su servicio
+- Ideal para:
+  - Presentar tu servicio
   - Enviar un enlace útil (por ejemplo, FAQ, contacto, pedido)
-
-
 
 #### Certificación de su `pub
 
-
-
-
-
 - Añade un **logotipo** y un **nombre público**
 - Enlace a un **dominio web verificado**
-- Aumenta la credibilidad y el reconocimiento de su identidad Nostr
-
-
+- Aumenta la credibilidad y el reconocimiento de tu identidad en Nostr
 
 ### Casos de uso de Nostr-bot
 
-
-
-
-
-- Le enviamos **confirmaciones de pedido**
+- Enviar **confirmaciones de pedido**
 - Respuesta automática a **eventos (por ejemplo, un nuevo pedido)**
 - Crear una **interacción descentralizada con el cliente**
 
-
-
 ## Sobrecarga de etiquetas de traducción
-
-
 
 be-BOP es multilingüe (FR, EN, ES...), pero puede adaptar las traducciones a sus necesidades.
 
-
-
-Para ello, vaya a: `Configuración > Idioma`
-
-
+Para ello, ve a: `Configuración > Idioma`
 
 ### Carga y edición
 
+Los archivos de traducción están en JSON. Podrás:
 
+- **Descargar** archivos de idioma
+- **Modificar** textos existentes
+- **Añadir** tus propias traducciones
 
-Los archivos de traducción están en JSON. Puede :
-
-
-
-
-
-- Descargar** archivos de idioma
-- Modificar** textos existentes
-- Añade** tus propias traducciones
-
-
-
-Enlace a los archivos originales :
-
+Enlace a los archivos originales:
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
-
-
 **Ejemplo:** sustituye `Add to cart` por `Ajouter au panier` o `Acheter`.
-
-
 
 ## Trabajo en equipo y punto de venta (TPV)
 
-
-
 ### Gestión de usuarios y derechos de acceso
-
-
 
 #### Creación de roles
 
+Ve a: `Admin > Configuración > ARM`
+Haz clic en **Crear un rol** para crear un rol (por ejemplo, `Super Admin`, `POS`, `Ticket checker`).
 
+Cada rol contiene:
 
-Vaya a: `Admin > Configuración > ARM`
-
-
-
-Haga clic en **Crear un rol** para crear un rol (por ejemplo, `Super Admin`, `POS`, `Ticket checker`).
-
-
-
-Cada rol contiene :
-
-
-
-
-
-- acceso de escritura**: acceso de escritura
-- acceso de lectura**: acceso de lectura
-- acceso prohibido**: secciones interdites
-
-
+- **Acceso de escritura**: Acceso de escritura
+- **Acceso de lectura**: Acceso de lectura
+- **Acceso prohibido**: Secciones restringidas
 
 #### Creación de usuarios
 
+En el mismo menú `Admin > Configuración > ARM`, añada un usuario con:
 
-
-En el mismo menú `Admin > Configuración > ARM`, añada un usuario con :
-
-
-
-
-
-- inicio de sesión
-- alias
-- recuperación de correo electrónico
+- Inicio de sesión
+- Alias
+- Recuperación de correo electrónico
 - (opcional) `recovery npub` para conexión vía Nostr
-
-
 
 Asignar un rol previamente definido.
 
-
-
 ![pos-users](assets/fr/045.webp)
 
-
-
-Los usuarios de sólo lectura** verán los menús en *itálica* y no podrán modificar el contenido.
-
-
+**Los usuarios de sólo lectura** verán los menús en *itálica* y no podrán modificar el contenido.
 
 ## Configuración del punto de venta (TPV)
 
-
-
 ### Asignación del rol POS
 
+Para dar acceso a un usuario al TPV, asigna el rol `Punto de Venta (TPV)` en: `Admin > Config > ARM`
 
-
-Para dar acceso a un usuario al TPV, asigne el rol `Punto de Venta (TPV)` en: `Admin > Config > ARM`
-
-
-
-Puede conectarse a través de la URL segura `/pos` o `/pos/touch`
-
-
+Puedes conectarte a través de la URL segura `/pos` o `/pos/touch`
 
 ### Funciones específicas para TPV
 
-
-
-Be-BOP ofrece una Interface dedicada a las ventas físicas (tienda, evento, etc.).
-
-
+Be-BOP ofrece una interfaz dedicada a las ventas físicas (tienda, evento, etc.).
 
 #### Adición rápida mediante alias
 
-
-
 En `/cart`, un campo permite añadir un producto:
-
-
-
 
 
 - Escaneando un **código de barras** (ISBN, EAN13)
 - Introduciendo un **alias de producto** manualmente
 
-
-
 **Nota:** el producto se añade automáticamente a la cesta.
-
-
 
 #### Medios de pago
 
-
-
 POS soporta :
-
-
-
-
 
 - Especie
 - Tarjeta de crédito
-- Lightning Network (criptografía)
+- Lightning Network (criptomoneda)
 - Otros según configuración
-
-
 
 Existen dos opciones avanzadas:
 
-
-
-
-
-- Exención del IVA** : aplicable a la justificación (ONG, extranjeros...)
-- Descuento regalo**: descuento excepcional con comentario obligatorio
-
-
+- **Exención del IVA**: aplicable a la justificación (ONG, extranjeros...)
+- **Descuento regalo**: descuento excepcional con comentario obligatorio
 
 #### Visualización en el cliente
 
-
-
 La URL `/pos/session` está destinada a una **pantalla secundaria** (HDMI, tableta...):
 
-
-
-Cartel:
-
-
-
-
-
+Muestra:
 - Productos en curso
 - Importe total
 - Forma de pago
 - Descuentos aplicados
 
-
-
 **Nota:** el cliente sigue el pedido en directo, mientras que el vendedor lo registra en `/pos`.
 
-
-
 ### Resumen del TPV
-
-
 
 | Fonction                         | Description                                             |
 |----------------------------------|---------------------------------------------------------|

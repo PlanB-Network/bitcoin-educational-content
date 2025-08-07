@@ -20,7 +20,7 @@ In diesem Lernprogramm konzentrieren wir uns ausschließlich auf die Verwendung 
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Installieren und Konfigurieren der Blockstream Green Software
 
@@ -147,4 +147,5 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial über die Blockstream Green Mobile App zur Einrichtung einer Hot Wallet:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 

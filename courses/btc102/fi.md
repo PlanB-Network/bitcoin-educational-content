@@ -2350,7 +2350,7 @@ Muutamia parhaita käytäntöjä:
 Jos haluat valvoa omistuksiasi vaarantamatta yksityisiä avaimiasi, harkitse Watch-only wallet:n käyttöä. Sen avulla voit seurata saldoja ja tapahtumia vain julkisten avainten avulla.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlerin strategia on yksinkertainen mutta tehokas: osta, varmista ja unohda. Todellinen haaste ei ole tekninen vaan psykologinen. Vaikeinta on vastustaa halua myydä liian aikaisin tai panikoida hinnanlaskun aikana. Mutta jos pysyt kurinalaisena ja ajattelet pitkäjänteisesti, hodling on osoittautunut luotettavaksi tavaksi säilyttää arvo ja kartuttaa varallisuutta ajan mittaan.
 
@@ -2551,7 +2551,7 @@ Tärkeimmät tavat:
 Jos haluat helpottaa seurantaa turvallisuudesta tinkimättä, voit määrittää Watch-only wallet:n seuraamaan saldoja julkisen avaimen avulla.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Arvioi pinoamisprofiilisi
 
@@ -3617,6 +3617,7 @@ Vielä kerran, onnittelut siitä, miten pitkälle olet päässyt. Ja muistakaa, 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

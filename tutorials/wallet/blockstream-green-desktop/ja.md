@@ -20,7 +20,7 @@ Greenは非常に使いやすいアプリケーションで、特に初心者に
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Blockstream Green ソフトウェアのインストールと設定
 
@@ -147,4 +147,5 @@ Greenがポートフォリオ情報をインポートするまでお待ちくだ
 また、ホットウォレットを設定するためのBlockstream Greenモバイルアプリの包括的なチュートリアルをチェックすることをお勧めします：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 

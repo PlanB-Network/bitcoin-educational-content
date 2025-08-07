@@ -1595,7 +1595,7 @@ Een paar best practices:
 
 Om je bezittingen in de gaten te houden zonder je privésleutels in gevaar te brengen, kun je overwegen om een alleen kijken (watch-only) wallet te gebruiken. Hiermee kun je saldi en transacties bijhouden met alleen je publieke sleutels.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 De strategie van de hodler is eenvoudig maar krachtig: kopen, beveiligen en vergeten. De echte uitdaging is niet technisch, maar psychologisch. Het moeilijkste is om de drang te weerstaan om te vroeg te verkopen of in paniek te raken tijdens prijsdalingen. Maar als je gedisciplineerd blijft en op lange termijn denkt, heeft hodling bewezen een betrouwbare manier te zijn om waarde te behouden en op termijn rijkdom op te bouwen.
 
@@ -1746,7 +1746,7 @@ Belangrijkste gewoonten:
 
 Voor eenvoudige controle zonder de veiligheid in gevaar te brengen, stel je een watch-only wallet in om saldi bij te houden met behulp van de openbare sleutel.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Evalueer je stapelaarprofiel
 
@@ -2528,4 +2528,5 @@ Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel z
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

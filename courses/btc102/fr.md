@@ -1460,7 +1460,7 @@ Quelques recommandations :
 
 Pour suivre plus facilement l'évolution de votre portefeuille Bitcoin, il existe des outils permettant de mettre en place un wallet "watch-only". Cela vous permet, grâce aux clés publiques de votre portefeuille, de surveiller vos transactions et vos soldes, par exemple via une application mobile, sans compromettre la sécurité de vos clés privées qui restent stockées exclusivement sur votre hardware wallet.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Le plan d’investissement du hodler repose donc sur une stratégie simple mais rigoureuse : acheter, sécuriser, oublier. Son principal défi n’est pas technique, puisque la configuration d'un portefeuille est assez simple, mais psychologique : résister à la tentation de vendre trop tôt et ne pas se laisser influencer par la volatilité du marché.
 
@@ -1617,7 +1617,7 @@ Quelques recommandations :
 
 Pour suivre plus facilement l'évolution de vos portefeuilles Bitcoin, il existe des outils permettant de mettre en place un wallet "watch-only". Cela vous permet, grâce aux clés publiques de votre portefeuille, de surveiller vos transactions et vos soldes, par exemple via une application mobile, sans compromettre la sécurité de vos clés privées qui restent stockées exclusivement sur votre hardware wallet.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Évaluer votre profil de stacker
 
@@ -2392,6 +2392,7 @@ Bonne continuation dans votre aventure avec Bitcoin !
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

@@ -20,7 +20,7 @@ Dalam tutorial ini, kita hanya akan berkonsentrasi pada penggunaan perangkat lun
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Menginstal dan mengonfigurasi perangkat lunak Blockstream Green
 
@@ -147,4 +147,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan hot wallet:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 

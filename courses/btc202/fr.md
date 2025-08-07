@@ -679,7 +679,7 @@ Pour faire simple, Electrs est assez comapct : il indexe plus rapidement la bl
 
 Pour un usage individuel, je recommande plutôt Electrs : il consomme moins d’espace, il est bien maintenu et, malgré une légère lenteur sur certaines requêtes par rapport à Fulcrum, il reste largement suffisant pour un usage courant. Si vous disposez de temps et d’espace disque, vous pouvez également tester Fulcrum.
 
-Concrètement, en termes de besoins de stockage, en août 2025, Electrs requiert environ 60 Go, contre environ 140 Go pour Fulcrum. Le choix de votre indexeur dépend donc aussi de votre capacité de stockage :
+Concrètement, en termes de besoins de stockage, en août 2025, Electrs requiert environ 56 Go, contre environ 140 Go pour Fulcrum. Le choix de votre indexeur dépend donc aussi de votre capacité de stockage :
 - Si votre espace disque est très limité, contentez-vous de Bitcoin Core sans indexeur d’adresses externe ;
 - Si vous souhaitez utiliser un indexeur, mais restez contraint par la capacité, optez pour Electrs ;
 - Si vous disposez d’un espace disque confortable, Fulcrum peut s’avérer intéressant.
@@ -730,8 +730,82 @@ Une fois la synchronisation terminée, vous pourrez connecter vos logiciels de p
 ## Comment connecter son portefeuille à son nœud Bitcoin ?
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
-Tutoriel de connexion entre un portefeuille personnel (sûrement Sparrow) et son nœud, via plusieurs options : Core RPC, Tor Electrs et Tailscale.
+Maintenant que vous disposez d’un nœud complet Bitcoin, il est temps de le mettre à profit ! Dans le prochain chapitre, nous aborderons d’autres usages possibles sur votre instance Umbrel, mais commençons par l’essentiel : connecter votre logiciel de portefeuille afin d'utiliser les informations de votre propre blockchain et de diffuser vos transactions via votre propre nœud.
 
+Comme mentionné précédemment, il existe principalement deux interfaces de connexion :
+- La connexion directe à Bitcoin Core via RPC ;
+- Ou bien la connexion à un serveur Electrum (Electrs ou Fulcrum).
+
+Dans ce tutoriel, nous nous concentrerons sur la connexion à votre nœud via Tor, car c'est une solution à la fois simple et sécurisée pour les débutants. Je vous déconseille fortement d’exposer le port RPC de votre nœud en clair : une mauvaise configuration représente un risque majeur pour la sécurité et la confidentialité de vos données. Le principal inconvénient des communications via Tor reste leur lenteur. Nous verrons donc, dans le chapitre suivant, une alternative rapide et sécurisée à Tor pour accéder à distance à votre nœud : le VPN.
+
+Nous prendrons l’exemple de Sparrow dans ce chapitre, mais la procédure est identique pour tous les autres logiciels de gestion de portefeuille acceptant les connexions aux serveurs Electrum. Il vous suffira de repérer, dans les paramètres de votre application, l’emplacement du réglage correspondant (généralement dans "*Server*", "*Network*", "*Node*"...).
+
+Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "Settings".
+
+030
+
+Cliquez ensuite sur "*Server*" pour accéder aux paramètres de connexion.
+
+031
+
+Vous découvrirez alors trois options pour relier votre logiciel à un nœud Bitcoin :
+- *Public Server* (jaune) : par défaut, si vous ne possédez pas de nœud Bitcoin, cette option vous connecte à un nœud public ne vous appartenant pas (généralement celui d'une entreprise). Cette option n’est pas pertinente ici, puisque vous avez votre propre nœud sur Umbrel ;
+- *Bitcoin Core* (vert) : cette option correspond à la connexion via l’interface RPC, c’est-à-dire directement à Bitcoin Core ;
+- *Private Electrum* (bleu) : cette option permet de se connecter via l’interface Electrum Server de votre indexeur (Electrs ou Fulcrum).
+
+### Connexion à Bitcoin Core RPC
+
+Si votre nœud Umbrel ne dispose pas d’un indexeur, cette option est celle que vous devez sélectionner. Sur Sparrow, cliquez sur "*Bitcoin Core*".
+
+032
+
+Vous devrez alors saisir plusieurs informations afin d’établir la connexion à votre nœud. Toutes ces données sont accessibles depuis l’application "*Bitcoin Node*" sur Umbrel, en cliquant sur le bouton "*Connect*" situé en haut à droite de l’interface.
+
+033
+
+L’onglet "*RPC Details*" présente l’ensemble des informations nécessaires à la connexion. Choisissez la connexion via l'adresse Tor (en `.onion`).
+
+034
+
+Renseignez ces éléments dans les champs correspondants sur Sparrow Wallet, puis cliquez sur le bouton "*Test Connection*".
+
+035
+
+Si la connexion s’établit correctement, une coche verte accompagnée d’un message de confirmation apparaîtra.
+
+036
+
+La coche située en bas à droite de l’interface Sparrow Wallet sera désormais verte (indiquant une connexion directe à Bitcoin Core).
+
+**Remarque :** Pour que la connexion aboutisse, votre nœud doit impérativement être synchronisé à 100 %. Dans le cas contraire, patientez jusqu’à la fin de l’IBD.
+
+### Connexion à Electrs
+
+Si votre nœud dispose d'un indexeur, il est préférable de vous y connecter plutôt que d’utiliser directement Bitcoin Core, car vos requêtes seront traitées plus rapidement.
+
+Sur Sparrow, rendez-vous dans l’onglet "*Private Electrum*".
+
+037
+
+Vous devrez alors saisir plusieurs informations afin d’établir la connexion avec votre indexeur. Vous trouverez ces données dans l’application "*Electrs*" (ou, le cas échéant, "*Fulcrum*") sur Umbrel.
+
+Sélectionnez l’onglet "*Tor*" pour obtenir l’adresse de connexion en `.onion`.
+
+038
+
+Renseignez simplement l’adresse Tor de votre serveur Electrum dans le champ "*URL*", puis cliquez sur le bouton "*Test Connection*".
+
+039
+
+Si la connexion s’établit correctement, une coche et un message de confirmation s’afficheront.
+
+040
+
+La coche située en bas à droite de l’interface Sparrow Wallet deviendra bleue (couleur associée à la connexion à un serveur Electrum).
+
+**Remarque :** Pour que la connexion fonctionne, votre indexeur doit être synchronisé à 100 %. Si ce n’est pas le cas, attendez la fin du processus d’indexation.
+
+Vous savez désormais comment relier votre logiciel de gestion de portefeuille à votre nœud Bitcoin ! Dans le chapitre suivant, je vous présenterai plusieurs applications complémentaires disponibles sur Umbrel, que j’affectionne particulièrement et qui vous permettront d'améliorer votre usage de Bitcoin au quotidien grâce à votre nœud.
 
 
 ## Tour d’horizon des applications disponibles

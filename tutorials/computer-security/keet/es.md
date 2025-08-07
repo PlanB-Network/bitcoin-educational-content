@@ -27,13 +27,13 @@ Por el momento (abril de 2025), Keet no es totalmente de código abierto. Parte 
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ----------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                            | ❌                             | ❌                        | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional)   | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
+| Telegram             | 🟡 (opcional)   | ❌              | 🟡                   | ✅                            | ❌                             | ❌                        | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                             | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                             | ❌                        | 2012              |
 | Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                           | 🟡 (vía email)          | 2017              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                            | 🟡 (vía email)          | 2017              |
 | Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2021              |
@@ -51,7 +51,7 @@ Por el momento (abril de 2025), Keet no es totalmente de código abierto. Parte 
 
 
 
-Keet está disponible en todas las plataformas. Puede descargar la aplicación directamente desde la tienda de aplicaciones de su teléfono:
+Keet está disponible en todas las plataformas. Puedes descargar la aplicación directamente desde la tienda de aplicaciones de tu teléfono:
 
 
 
@@ -73,7 +73,7 @@ En este tutorial, nos centraremos en la versión móvil, pero ten en cuenta que 
 
 
 
-En el primer lanzamiento, puedes ignorar las pantallas de presentación.
+Al abrirlo por primera vez, puedes ignorar las pantallas de presentación.
 
 
 
@@ -193,7 +193,7 @@ Elige un nombre y una descripción para tu "*Sala*" y haz clic en "*Crear chat d
 
 
 
-Su "*Sala*" ya está creada. Haga clic en el icono "*+*" de la parte superior derecha para invitar a los participantes.
+Tu "*Sala*" ya está creada. Haz clic en el icono "*+*" de la parte superior derecha para invitar a los participantes.
 
 
 
@@ -201,7 +201,7 @@ Su "*Sala*" ya está creada. Haga clic en el icono "*+*" de la parte superior de
 
 
 
-Defina los derechos que concede a los nuevos miembros a través del enlace de invitación, así como la duración de la validez del enlace. A continuación, haga clic en "*generate invitar*".
+Define los derechos que concederás a los nuevos miembros a través del enlace de invitación, así como la duración de la validez del enlace. A continuación, haz clic en "*generate invitar*".
 
 
 
@@ -209,7 +209,7 @@ Defina los derechos que concede a los nuevos miembros a través del enlace de in
 
 
 
-Keet enviará a generate un enlace para unirse a tu "*Sala*". Puedes copiarlo y compartirlo, o hacer que las personas a las que quieras invitar escaneen su código QR.
+Keet creará un enlace para unirse a tu "*Sala*". Puedes copiarlo y compartirlo, o hacer que las personas a las que quieras invitar escaneen tu código QR.
 
 
 
@@ -225,7 +225,7 @@ Ya puedes empezar a intercambiar mensajes y archivos multimedia. Para iniciar un
 
 
 
-Desde este grupo también puedes enviar mensajes privados a un miembro concreto. Haga clic en la imagen de perfil del grupo y, a continuación, seleccione el miembro deseado en la sección "*Miembros*".
+Desde este grupo también puedes enviar mensajes privados a un miembro concreto. Haz clic en la imagen de perfil del grupo y, a continuación, selecciona el miembro deseado en la sección "*Miembros*".
 
 
 
@@ -325,11 +325,11 @@ Ahora puedes acceder a todas tus "*Salas*" y conversaciones desde este nuevo dis
 
 
 
-Enhorabuena, ya estás al día en el uso de la mensajería Keet, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
+Enhorabuena, ya estás al día en el uso de la mensajería Keet, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradeceríamos que dejaras un pulgar arriba a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
 
 
 
-También te recomiendo este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
 
 
 

@@ -1,7 +1,7 @@
-question: Ni somo gani kuu la kujifunza kutoka kwa mfano wa penseli?
+question: Ni somo lipi kuu la kujifunza kutoka kwa mfano wa penseli?
 answer: Jukumu la uratibu wa hiari katika uchumi
 wrong_answers:
-  - Ugumu wa uzalishaji wa viwandani
+  - Ugumu wa uzalishaji wa viwanda
   - Umuhimu wa kujua jinsi ya kuandika
   - Umuhimu wa mipango ya kati
 explanation: |

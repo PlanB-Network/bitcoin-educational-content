@@ -5,12 +5,12 @@ description: Configurar un buzón seguro
 ![cover](assets/cover.webp)
 
 
+Para garantizar la seguridad de tu buzón de correo electrónico, es importante adoptar algunas buenas prácticas simples que estudiamos en este tutorial dirigido a principiantes en informática. También es importante elegir un proveedor de correo electrónico seguro que ofrezca opciones de protección avanzadas y una política robusta de protección de la privacidad. Es por eso que recomendamos en este tutorial descubrir ProtonMail. Incluso si prefieres no usar este proveedor, las buenas prácticas presentadas aquí se pueden aplicar a cualquier buzón de correo electrónico para mejorar su seguridad.
 
 El buzón de correo es fundamental para su actividad en línea y a menudo desempeña un papel crucial en su seguridad informática. Si un atacante consigue comprometer su buzón de correo, obtendrá fácil acceso a sus otras cuentas a través de la función "*forgot password*". Esto puede permitirle controlar sus redes sociales, cuentas bancarias y otros servicios en línea, ya que hoy en día, el correo electrónico Address se utiliza a menudo como identificador único de su identidad en línea. Por lo tanto, asegurar su buzón de correo es muy importante para protegerse de los ataques.
 
 
 
-Para garantizar la seguridad de tu buzón, es importante adoptar unas sencillas buenas prácticas, que exploramos en este tutorial para principiantes. También es importante elegir un proveedor de correo electrónico seguro que ofrezca opciones de protección avanzadas y una sólida política de privacidad. Por eso recomiendo ProtonMail en este tutorial. Incluso si prefieres no utilizar este proveedor, las mejores prácticas presentadas aquí pueden aplicarse a cualquier buzón de correo para mejorar su seguridad.
 
 
 

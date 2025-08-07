@@ -22,7 +22,7 @@ Ecco, in questo tutorial cercheremo di far leva su quella molto ridotta minoranz
 
 ## Proposte
 
-Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo due: una politica **a sconto fisso** ed una a prezzo **_all time high_**.
+Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo tre: una politica **a sconto fisso**, una a prezzo **_all time high_** ed una **offerta addizionale**.
 
 ### Politica a sconto fisso
 
@@ -52,9 +52,15 @@ Nella Politica "All Time High" il commerciante accetta pagamenti in bitcoin, e p
 
 Questa politica è generalmente impiegata nel commercio al dettaglio online. Lo svantaggio è che la maggior parte dei commercianti non ha un proprio sito web per acquistare online, sarà quindi necessario affidarsi ad una piattaforma che lo consenta.
 
+### Politica Offerta Addizionale
+
+In questa politica il negoziante concede un beneficio in natura quando il cliente paga uno specifico bene o servizio. Invece di offrire uno sconto il negoziante concede al cliente qualcosa in più, a parità di spesa sostenuta da quest'ultimo.
+
+Ad esempio, nel caso di un'attività che vende biglietti di ingresso, il negoziante offre in omaggio un servizio aggiuntivo che il cliente avrebbe potuto potenzialmente acquistare successivamente all'ingresso.
+
 ## Informare la clientela
 
-Bisogna informare la clientela, la modalità è lasciata al negoziante ma brevemente queste sono le possibilità:
+Ovviamente creare queste politiche non è sufficiente, bisogna anche informare la clientela, la modalità nel dettaglio è lasciata al negoziante ma brevemente queste sono le possibili opzioni:
 - 
 
 ### BTC Map

@@ -1053,7 +1053,7 @@ Wizi wa Wallet na mashambulizi ya kunyimwa huduma:
 Aina hii ya shambulio huitwa *Sybil attack*, na hutokea wakati wowote huluki moja inapodhibiti node nyingi kwenye mtandao na kuzitumia kuonekana kama huluki nyingi.
 
 
-Kama vile nukuu inavyotaja pia, shambulio la Sybil halifai kwenye mtandao wa Bitcoin kwa sababu hakuna upigaji kura kupitia node au vyombo vingine vinavyoweza kuhesabika, bali kupitia nguvu za kompyuta. Walakini, muundo huu wa gorofa huacha mfumo kushambuliwa na mashambulizi mengine. Ukurasa wa Bitcoin wiki pia unaangazia mashambulizi mengine yanayoweza kutokea, kama vile kuficha taarifa (mara nyingi hujulikana kama *eclipse attack*., na jinsi Bitcoin Core inavyotekeleza baadhi ya hatua za kukabiliana na mashambulizi hayo.
+Kama vile nukuu inavyotaja pia,  Sybil attack halifai kwenye mtandao wa Bitcoin kwa sababu hakuna upigaji kura kupitia node au vyombo vingine vinavyoweza kuhesabika, bali kupitia nguvu za kompyuta. Walakini, muundo huu wa gorofa huacha mfumo kushambuliwa na mashambulizi mengine. Ukurasa wa Bitcoin wiki pia unaangazia mashambulizi mengine yanayoweza kutokea, kama vile kuficha taarifa (mara nyingi hujulikana kama *eclipse attack*., na jinsi Bitcoin Core inavyotekeleza baadhi ya hatua za kukabiliana na mashambulizi hayo.
 
 
 Ya hapo juu ni mifano ya vitisho vya kweli ambavyo vinahitaji kutunzwa.
@@ -1161,7 +1161,7 @@ Msimbo wa chanzo wa Bitcoin Core hudumishwa katika hazina ya Git iliyopangishwa 
 Bitcoin na mtaalamu wa usalama Jameson Lopp anaelezea hili vizuri sana katika [chapisho la blogu](https://blog.lopp.net/who-controls-Bitcoin-core-/) yenye kichwa "Nani Anayedhibiti Bitcoin Core?":
 
 
-> Bitcoin Core ni kitovu cha ukuzaji wa itifaki ya Bitcoin badala ya hatua ya amri na udhibiti. Iwapo itakoma kuwepo kwa sababu yoyote ile, msingi mpya ungeibuka — jukwaa la mawasiliano ya kiufundi ambalo limeegemezwa (kwa sasa ni hazina ya GitHub) ni suala la urahisi badala ya kufafanua/uadilifu wa mradi. Kwa kweli, tayari tumeona kitovu cha Bitcoin cha majukwaa ya mabadiliko ya maendeleo na hata majina!
+> Bitcoin Core ni kitovu cha ukuzaji wa protocol ya Bitcoin badala ya hatua ya amri na udhibiti. Iwapo itakoma kuwepo kwa sababu yoyote ile, msingi mpya ungeibuka — jukwaa la mawasiliano ya kiufundi ambalo limeegemezwa (kwa sasa ni hazina ya GitHub) ni suala la urahisi badala ya kufafanua/uadilifu wa mradi. Kwa kweli, tayari tumeona kitovu cha Bitcoin cha majukwaa ya mabadiliko ya maendeleo na hata majina!
 
 Anaendelea kueleza jinsi programu ya Bitcoin Core inavyodumishwa na kulindwa dhidi ya mabadiliko mabaya ya msimbo. Muhtasari wa jumla kutoka kwa nakala hii kamili ni muhtasari wa mwisho wake:
 
@@ -1560,7 +1560,7 @@ Laini tofauti zinawakilisha matoleo tofauti ya Bitcoin Core. Laini ya kushoto ka
 Maboresho yanaweza kuainishwa kama kuokoa nafasi (RAM, diski, kipimo data, n.k.) au kuokoa nishati ya kukokotoa. Kategoria zote mbili zinachangia uboreshaji katika mchoro hapo juu.
 
 
-Mfano mzuri wa uboreshaji wa hesabu unaweza kupatikana katika maktaba ya [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), ambayo, miongoni mwa mambo mengine, hutekeleza kanuni za awali za kriptografia zinazohitajika kutengeneza na kuthibitisha sahihi za kidijitali. Pieter Wuille ni mmoja wa wachangiaji wa maktaba hii, na aliandika [nyuzi ya Twitter](https://twitter.com/pwuille/status/1450471673321381896) inayoonyesha maboresho ya utendakazi yaliyopatikana kupitia maombi mbalimbali ya kuvuta.
+Mfano mzuri wa uboreshaji wa hesabu unaweza kupatikana katika maktaba ya [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), ambayo, miongoni mwa mambo mengine, hutekeleza kanuni za awali za cryptography zinazohitajika kutengeneza na kuthibitisha sahihi za kidijitali. Pieter Wuille ni mmoja wa wachangiaji wa maktaba hii, na aliandika [nyuzi ya Twitter](https://twitter.com/pwuille/status/1450471673321381896) inayoonyesha maboresho ya utendakazi yaliyopatikana kupitia maombi mbalimbali ya kuvuta.
 
 
 ![](assets/libsecp256k1speedups.webp)
@@ -1574,7 +1574,7 @@ Grafu inaonyesha mwelekeo wa aina mbili tofauti za 64-bit CPU, ambazo ni ARM na 
 
 Pia kuna mifano kadhaa mizuri ya maboresho ya kuokoa nafasi ambayo yalichangia uboreshaji wa utendakazi. Katika a
 
-[Chapisho la kati la blogu](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) kuhusu mchango wa Taproot katika kuokoa nafasi, mtumiaji Murch analinganisha ni nafasi ngapi ya kuzuia ambayo 2-of-3 itahitaji kiwango cha juu cha 3 kama vile bila kutumia njia mbalimbali katika GW-5 inavyohitaji.
+[Chapisho la kati la blogu](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) kuhusu mchango wa Taproot katika kuokoa nafasi, mtumiaji Murch analinganisha ni nafasi ngapi ya block ambayo 2 kati ya 3 itahitaji kiwango cha juu cha 3 kama vile bila kutumia njia mbalimbali katika GW-5 inavyohitaji.
 
 
 ![](assets/murch-taproot.webp)

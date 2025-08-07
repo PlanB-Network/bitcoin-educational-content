@@ -259,26 +259,48 @@ In conclusione, gli Ideologi hanno avuto un'intuizione profonda, ossia che la pr
 
 La storia di tutte le civiltà è la storia della lotta tra le classi predatrici e le classi produttive. Questo è il credo dei due autori di cui andremo a discutere. Sono gli iniziatori di una teoria liberale della lotta di classe che ha ispirato tanto Frédéric Bastiat quanto Karl Marx, anche se quest'ultimo l'ha distorta.
 
+![image](assets/en/029.webp)
+
 Per Comte e Dunoyer, il saccheggio, inteso come tutte le forme di violenza esercitate nella società dai forti sui deboli, è la grande chiave per comprendere la storia umana. È all'origine di tutti i fenomeni di sfruttamento di una classe da parte di un'altra.
+
+
+![image](assets/en/030.webp)
+
 Se Frédéric Bastiat deve la sua formazione economica a Smith, Destutt de Tracy e Say, deve la sua educazione politica ai leader del giornale Le Censeur, Charles Comte e Charles Dunoyer. Questa rivista (1814-1819), rinominata Le Censeur européen dopo i Cento Giorni, diffondeva le idee liberali che trionfarono nel 1830 con l'insurrezione dei Tre Gloriosi Giorni e l'ascesa al potere del Duca di Orléans, Louis-Philippe I.
+
+![image](assets/en/031.webp)
+
+![image](assets/en/032.webp)
 
 Charles Comte, cugino di Auguste Comte e genero di Say, è il fondatore della rivista. Fu presto raggiunto da Charles Dunoyer, un giurista come lui, e poi da un giovane storico, Augustin Thierry, ex segretario di Saint Simon. Il loro motto sulla prima pagina di ogni numero della rivista era "Pace e Libertà".
 
 Qual è l'obiettivo della rivista? Il titolo parla da sé: censurare il governo. Combattere l'arbitrarietà del potere illuminando l'opinione pubblica, difendere la libertà di stampa.
 
-Adottano da Benjamin Constant la distinzione tra gli Antichi e i Moderni, caratterizzati da un lato dalla guerra, e dall'altro dal commercio e dall'industria. Ma aggiungono con Say che l'economia politica fornisce la migliore spiegazione dei fenomeni sociali. Comprendono in particolare che le nazioni raggiungono la pace e la prosperità quando sono rispettati i diritti di proprietà e il libero scambio. Da ora in poi, per loro, l'economia politica è il vero e unico fondamento della politica. Alla filosofia, che si limita alla critica astratta delle forme di governo, deve essere sostituita una teoria basata sulla conoscenza degli interessi economici. L'economia politica, dimostrando come i popoli prosperano e declinano, ha posto le vere fondamenta della politica.
+![image](assets/en/033.webp)
+_(Benjamin Constant)_
 
-> Dunoyer
+Adottano da Benjamin Constant la distinzione tra gli Antichi e i Moderni, caratterizzati da un lato dalla guerra, e dall'altro dal commercio e dall'industria. Ma aggiungono con Say che l'economia politica fornisce la migliore spiegazione dei fenomeni sociali. Comprendono in particolare che le nazioni raggiungono la pace e la prosperità quando sono rispettati i diritti di proprietà e il libero scambio. Da ora in poi, per loro, l'economia politica è il vero e unico fondamento della politica. Alla filosofia, che si limita alla critica astratta delle forme di governo, deve essere sostituita una teoria basata sulla conoscenza degli interessi economici.
+
+>L'economia politica, dimostrando come i popoli prosperano e declinano, ha posto le vere fondamenta della politica.
+>
+>Dunoyer
+
+![image](assets/en/034.webp)
 
 Questa nuova teoria sociale contiene uno degli elementi che diventerà la pietra angolare del socialismo scientifico di Marx ed Engels: la lotta di classe. Ma in cosa consiste la teoria liberale della lotta di classe, e in che modo differisce dal marxismo?
 
 Parte dall'individuo che agisce per soddisfare i propri bisogni e desideri. Dal momento in cui si crea, ovvero si aumenta l'utilità delle cose, valorizzandone il valore, ci si impegna nell'industria. Qui, un industriale non è un proprietario di industria, come il linguaggio corrente potrebbe suggerire, ma un produttore, indipendentemente dal campo in cui lavora. Ecco perché la loro teoria è chiamata industrialismo. Postula che l'obiettivo della società sia la creazione di utilità in senso lato, ovvero beni e servizi utili agli esseri umani.
 
 Su questo punto, gli individui si trovano di fronte a due alternative fondamentali: possono saccheggiare la ricchezza prodotta da altri, oppure possono lavorare per produrre ricchezza da sé. In ogni società, si può chiaramente distinguere chi vive di saccheggio da chi vive di produzione. Sotto l'Ancien Régime, la nobiltà attaccava direttamente i più industriosi per vivere di una nuova forma di tributo: la tassa. La nobiltà rapace fu succeduta da orde di burocrati, non meno rapaci.
+
+![image](assets/en/035.webp)
+
 Mentre per Marx, l'antagonismo di classe si situa all'interno dell'attività produttiva stessa, tra dipendenti e datori di lavoro, per Comte e Dunoyer, le classi in conflitto sono, da un lato, i produttori della società, che pagano le tasse (inclusi capitalisti, lavoratori, contadini, studiosi, ecc.) e dall'altro, i non-produttori, che vivono di rendite finanziate dalle tasse, "la classe oziosa e divorante" (burocrati, funzionari, politici, beneficiari di sussidi o protezioni).
+
 Quindi, a differenza di Marx, gli autori del Censeur Européen non sostengono la lotta di classe. Invece, fanno campagna per la pace sociale. E questo, secondo loro, può essere raggiunto solo attraverso la depoliticizzazione della società. A tal fine, è importante ridurre prima il prestigio e i benefici delle cariche pubbliche. È poi importante dare influenza nel corpo politico ai produttori.
 
 ![immagine](assets/en/036.webp)
+
 Infine, l'unico modo per liberare il mondo dallo sfruttamento di una classe da parte di un'altra è distruggere il meccanismo stesso che rende possibile questo sfruttamento: il potere dello Stato di distribuire e controllare la proprietà e l'allocazione dei benefici ad essa correlati (le "posizioni").
 
 Le loro idee, profondamente innovative, avrebbero segnato per sempre Frédéric Bastiat, che sarebbe a sua volta diventato un profondo pensatore sulle crisi politiche.

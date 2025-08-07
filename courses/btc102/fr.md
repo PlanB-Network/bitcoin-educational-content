@@ -151,7 +151,7 @@ Parfois, ces escroqueries peuvent également prendre la forme d'une arnaque aux 
 
 #### Shitcoins et cryptomonnaies offertes
 
-Des projets de crypto-monnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
+Des projets de cryptomonnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
 
 #### Usurpation d’identité et phishing
 
@@ -187,7 +187,7 @@ Face à cette réalité, voici quelques bonnes pratiques à adopter pour éviter
 - **Soyez extrêmement prudent vis-à-vis de toute recommandation d’achat d’une cryptomonnaie**. Une personne honnête et compétente ne vous incitera jamais à acheter précipitamment un actif sans vous encourager à faire vos propres recherches ;
 - **Les formations payantes en trading ou en investissement ne sont pas nécessairement synonymes de qualité**. Souvent, elles présentent des techniques risquées ou simplistes, disponibles gratuitement ailleurs sur internet ;
 - **Gardez à l’esprit qu’il n’existe aucune méthode miracle** pour copier facilement les transactions d'un tiers et obtenir exactement les mêmes résultats. Chaque stratégie d’investissement dépend du contexte personnel, des connaissances spécifiques, du timing et d’une multitude d’autres facteurs qu’il est impossible de reproduire à l’identique ;
-- **Soyez particulièrement vigilant face aux recommandations qui semblent trop belles** pour être vraies. Les promesses irréalistes ou les garanties de gains immédiats sont presque systématiquement des signes de manipulation. Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
+- **Soyez particulièrement vigilant face aux recommandations qui semblent trop belles pour être vraies**. Les promesses irréalistes ou les garanties de gains immédiats sont presque systématiquement des signes de manipulation. Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
 
 Enfin, souvenez-vous que chaque personne que vous rencontrez dans l'écosystème Bitcoin ou crypto a nécessairement un agenda personnel, explicite ou implicite, et qu'il n’y a pas d’information totalement neutre. Même ce cours BTC102 que vous suivez actuellement poursuit l’objectif clair de promouvoir une meilleure compréhension de Bitcoin. Soyez donc attentif aux motivations réelles derrière chaque contenu auquel vous êtes exposé. Gardez toujours à l’esprit ce principe essentiel : Si un produit ou un service semble gratuit, c'est probablement que c'est vous le produit.
 
@@ -230,7 +230,7 @@ De plus, l’attrait économique de Bitcoin en fait une cible de choix pour des 
 
 Un point souvent négligé est la mise à jour régulière de vos logiciels et de votre système d’exploitation. Certaines mises à jour corrigent des failles de sécurité susceptibles d’être exploitées par des pirates. Beaucoup hésitent à les installer, de crainte que leur machine devienne plus lente ; en réalité, ne pas mettre à jour son PC vous expose à des vulnérabilités documentées et déjà corrigées.
 
-De même, l’utilisation d’un antivirus fiable est vivement recommandée. Sur Windows, Windows Defender (installé par défaut) peut convenir aux utilisateurs ordinaires ; si vous le souhaitez, vous pouvez opter pour un antivirus commercial (comme Kaspersky, par exemple). Sur Mac, la menace de malware est historiquement moindre, mais reste possible : il est toujours bon de prendre des précautions.
+De même, l’utilisation d’un antivirus fiable est vivement recommandée. Sur Windows, Windows Defender (installé par défaut) peut convenir aux utilisateurs ordinaires ; si vous le souhaitez, vous pouvez opter pour un antivirus commercial (comme Kaspersky, par exemple). Sur Mac, la menace de malware est historiquement moindre, **mais reste possible** : il est toujours bon de prendre des précautions.
 
 ![BTC102-Bitcoin](assets/fr/012.webp)
 
@@ -291,7 +291,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 La protection de la vie privée et la cybersécurité sont étroitement liées : plus vous laissez d’informations en libre accès, plus vous risquez de devenir une cible.
 
-Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur Internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement du service en BTC et qui ne conserve pas de journaux d’activité.
+Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement du service en BTC et qui ne conserve pas de journaux d’activité.
 
 ![BTC102-Bitcoin](assets/fr/015.webp)
 
@@ -410,7 +410,7 @@ Dès lors, la règle d’or sur Bitcoin est : "***Not your keys, not your coin
 
 ![BTC102-Bitcoin](assets/fr/024.webp)
 
-Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à Internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
+Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
 
 Si vous souhaitez approfondir vos connaissances sur la sécurisation de votre phrase mnémonique, je vous recommande de consulter cet article. Il détaille les risques encourus et les bonnes pratiques à adopter pour les éviter :
 
@@ -509,7 +509,7 @@ C’est dans ce contexte qu’est publié, fin 2008, le **White Paper de Bitcoin
 
 ![BTC102-Bitcoin](assets/fr/035.webp)
 
-Les Cypherpunks sont une communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur Internet. Les cypherpunks défendent le droit fondamental pour l'individu de protéger sa vie privée, en particulier dans un contexte d'augmentation de la surveillance étatique et d'exploitation des données par des entités privées.
+Les Cypherpunks sont une communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur internet. Les cypherpunks défendent le droit fondamental pour l'individu de protéger sa vie privée, en particulier dans un contexte d'augmentation de la surveillance étatique et d'exploitation des données par des entités privées.
 
 Le mouvement des cypherpunks remonte au début des années 1990, lorsque des groupes de cryptographes, de programmeurs et de libertariens ont commencé à discuter des implications politiques de la cryptographie au cours de leurs premières réunions dans la Silicon Valley. La personnalité principale au sein de la communauté était Tim May, qui avait écrit le *Crypto Anarchist Manifesto* en 1988, texte fondateur du mouvement. Parmi les moments clés de l'histoire des cypherpunks, il y a la fondation, en 1992, de la *Cypherpunks mailing list*, une liste de diffusion de courrier électronique qui a servi pour ces discussions. La publication par Eric Hughes en 1993 du *Cypherpunk's Manifesto*, document exposant les objectifs et les actions des cypherpunks, a également été un moment important.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer et absence d’organe central
 
-Bitcoin se définit comme un "**Un système de cash électronique pair-à-pair**" : tout utilisateur peut se connecter au réseau à l’aide du logiciel approprié (un nœud Bitcoin) et communiquer directement avec les autres utilisateurs, sans passer par un serveur central unique. Cette décentralisation vise à éviter qu’une entité quelconque (banque, État, grande société...) puisse contrôler, censurer ou arrêter le système. Bitcoin est un **système d’échange de valeur** qui fonctionne 24 heures sur 24, 7 jours sur 7, partout sur la planète, accessible à tous sans condition.
+Bitcoin se définit comme un "**système de cash électronique pair-à-pair**" : tout utilisateur peut se connecter au réseau à l’aide du logiciel approprié (un nœud Bitcoin) et communiquer directement avec les autres utilisateurs, sans passer par un serveur central unique. Cette décentralisation vise à éviter qu’une entité quelconque (banque, État, grande société...) puisse contrôler, censurer ou arrêter le système. Bitcoin est un **système d’échange de valeur** qui fonctionne 24 heures sur 24, 7 jours sur 7, partout sur la planète, accessible à tous sans condition.
 
 ![BTC102-Bitcoin](assets/fr/036.webp)
 
@@ -646,7 +646,7 @@ Barack Obama a un jour qualifié Bitcoin de "*banque suisse dans votre poche*". 
 - Accessibilité pour tous, sans distinction d'âge, de genre, de religion, de pays ou de niveau de revenu.
 - Confidentialité et transparence à la demande.
 - Absence d'intermédiaires ou de frais cachés.
-- Bitcoin est natif d'Internet, ce qui le rend accessible à quiconque a accès au web.
+- Bitcoin est natif d'internet, ce qui le rend accessible à quiconque a accès au web.
 
 ![BTC102-Bitcoin](assets/fr/037.webp)
 
@@ -727,7 +727,7 @@ Si vous avez de l’argent sur un compte bancaire, sachez qu’il ne vous appart
 
 Bitcoin, en revanche, est un système ouvert, neutre et incorruptible. Ses règles sont fixées une fois pour toutes par le consensus et s’appliquent de manière uniforme à tous les participants du réseau.
 
-C’est là qu’intervient le principe fondamental : "***Pas vos clés, pas vos bitcoins***".Si vous ne possédez pas les clés privées permettant de déverrouiller vos bitcoins, alors ces bitcoins ne sont pas réellement les vôtres. Ils sont sous le contrôle d’un tiers, exactement comme l’argent placé dans une banque. En revanche, si vous détenez votre clé privée, vous seul avez le pouvoir absolu sur vos fonds. Aucune autorité, aucune institution ne peut les saisir ou en limiter l’usage. C’est cette souveraineté monétaire qui fait de Bitcoin une alternative puissante face aux dérives du système financier traditionnel.
+C’est là qu’intervient le principe fondamental : "***Pas vos clés, pas vos bitcoins***". Si vous ne possédez pas les clés privées permettant de déverrouiller vos bitcoins, alors ces bitcoins ne sont pas réellement les vôtres. Ils sont sous le contrôle d’un tiers, exactement comme l’argent placé dans une banque. En revanche, si vous détenez votre clé privée, vous seul avez le pouvoir absolu sur vos fonds. Aucune autorité, aucune institution ne peut les saisir ou en limiter l’usage. C’est cette souveraineté monétaire qui fait de Bitcoin une alternative puissante face aux dérives du système financier traditionnel.
 
 ### Bitcoin, un mouvement politique ?
 
@@ -921,10 +921,10 @@ La règle d’or est simple : **si vous ne détenez pas vos clés privées, vous
 Les bitcoins sont sécurisés avec ce que l’on appelle un portefeuille, un logiciel spécialisé qui conserve et gère les clés privées permettant de débloquer les bitcoins d'un utilisateur. Il peut s’agir d’un appareil matériel dédié, d’un logiciel installé sur un ordinateur ou un smartphone, ou même d’un simple morceau de papier sur lequel est inscrite une clé. Ces portefeuilles assurent le lien entre vos bitcoins et le monde extérieur, afin de faciliter leur utilisation au quotidien.
 
 Chaque portefeuille présente des caractéristiques propres qui influencent son niveau de sécurité et son usage :
-- confidentialité ;
-- sécurité ;
-- facilité d’utilisation ;
-- coût.
+- Confidentialité ;
+- Sécurité ;
+- Facilité d’utilisation ;
+- Coût.
 
 L’industrie des portefeuilles Bitcoin est structurée en plusieurs catégories distinctes :
 
@@ -932,7 +932,7 @@ L’industrie des portefeuilles Bitcoin est structurée en plusieurs catégories
 
 - Les créateurs de software wallets. Il s’agit de sociétés ou de développeurs indépendants qui conçoivent des portefeuilles logiciels pour mobiles et ordinateurs. Ces solutions varient en termes de sécurité et de facilité d’utilisation. Quelques exemples : Sparrow, Wizard Sardine, Galoy, Synonyme, Blockstream...
 
-- Les portefeuilles DIY (*Do It Yourself*). Ces solutions open-source permettent aux utilisateurs avancés de créer leur propre portefeuille, réduisant ainsi leur dépendance aux fournisseurs tiers et minimisant les risques liés à la confiance dans un acteur externe. Quelques exemple : Seedsigner, Specter DIY...
+- Les portefeuilles DIY (*Do It Yourself*). Ces solutions open-source permettent aux utilisateurs avancés de créer leur propre portefeuille, réduisant ainsi leur dépendance aux fournisseurs tiers et minimisant les risques liés à la confiance dans un acteur externe. Quelques exemples : Seedsigner, Specter DIY...
 
 Les portefeuilles sont un élément important de Bitcoin et feront l’objet d’une étude approfondie dans les prochaines sections de cette formation.
 
@@ -944,9 +944,9 @@ Dans les premiers jours de Bitcoin, le minage était une activité individuelle,
 
 L’industrie du minage se divise en plusieurs catégories d’acteurs :
 
-- **Les constructeurs de matériel de minage** (par exemple : Bitmain). Ces entreprises conçoivent et produisent les ASIC (*Application-Specific Integrated Circuits*), des puces ultra-spécialisées dédiées au minage de Bitcoin ;
-- **Les pools de minage**. C'est un regroupement de mineurs qui mettent en commun leur puissance de calcul pour augmenter leurs chances de valider des blocs. Face à la difficulté croissante du minage, cette collaboration permet de rendre les récompenses plus régulières et prévisibles. Lorsqu'un bloc est trouvé, la récompense (bitcoins minés et frais de transaction) est répartie entre les membres en fonction de leur contribution. Ce système réduit la variance des gains et assure une meilleure stabilité financière aux mineurs. Quelques exemple : Foundry USA, AntPool, F2Pool, MARA Pool, Braiins Pool...
-- **Les mineurs**. Ce sont les opérateurs qui utilisent les machines et les logiciels pour sécuriser le réseau et générer des blocs. On distingue les petits mineurs indépendants, qui utilisent du matériel comme des S9, et les grandes fermes industrielles, comme Galaxy, qui disposent d’immenses infrastructures dédiées.
+- **Les constructeurs de matériel de minage** (par exemple Bitmain) : Ces entreprises conçoivent et produisent les ASIC (*Application-Specific Integrated Circuits*), des puces ultra-spécialisées dédiées au minage de Bitcoin ;
+- **Les pools de minage** : C'est un regroupement de mineurs qui mettent en commun leur puissance de calcul pour augmenter leurs chances de valider des blocs. Face à la difficulté croissante du minage, cette collaboration permet de rendre les récompenses plus régulières et prévisibles. Lorsqu'un bloc est trouvé, la récompense (bitcoins minés et frais de transaction) est répartie entre les membres en fonction de leur contribution. Ce système réduit la variance des gains et assure une meilleure stabilité financière aux mineurs. Quelques exemples : Foundry USA, AntPool, F2Pool, MARA Pool, Braiins Pool...
+- **Les mineurs** : Ce sont les opérateurs qui utilisent les machines et les logiciels pour sécuriser le réseau et générer des blocs. On distingue les petits mineurs indépendants, qui utilisent du matériel comme des S9, et les grandes fermes industrielles, comme Galaxy, qui disposent d’immenses infrastructures dédiées.
 
 Le minage est un domaine à part entière, qui soulève des questions techniques, économiques et énergétiques complexes. Pour ceux qui souhaitent approfondir cet aspect, notre formation MIN201 propose une étude détaillée du sujet :
 
@@ -981,7 +981,7 @@ Bitcoin est un système ouvert conçu pour être minimaliste, robuste et sécuri
 
 ### L'extension de Bitcoin par couches additionnelles
 
-L’approche en couches permet d’améliorer Bitcoin sans modifier directement son protocole de base, ce qui garantie la stabilité et la sécurité du système principal. Cette méthode est similaire à celle utilisée pour Internet, où plusieurs protocoles s’empilent pour offrir des fonctionnalités distinctes tout en maintenant une interopérabilité fluide.
+L’approche en couches permet d’améliorer Bitcoin sans modifier directement son protocole de base, ce qui garantie la stabilité et la sécurité du système principal. Cette méthode est similaire à celle utilisée pour internet, où plusieurs protocoles s’empilent pour offrir des fonctionnalités distinctes tout en maintenant une interopérabilité fluide.
 
 Parmi les principaux système de surcouches qui enrichissent l'écosystème Bitcoin, on retrouve :
 
@@ -1182,13 +1182,13 @@ La sécurisation de vos clé privées donnant accès à vos bitcoins est l'élé
 
 #### Hot wallet
 
-Les portefeuilles chauds sont des logiciels connectés à Internet, permettant d’envoyer et de recevoir des bitcoins. Ils stockent vos clés privées directement sur la machine où est installé le logiciel. Ils sont souvent utilisés pour les transactions quotidiennes ou pour de petites réserves de bitcoins. Exemples : Blue Wallet, Green Wallet, Sparrow Wallet...
+Les portefeuilles chauds sont des logiciels connectés à internet, permettant d’envoyer et de recevoir des bitcoins. Ils stockent vos clés privées directement sur la machine où est installé le logiciel. Ils sont souvent utilisés pour les transactions quotidiennes ou pour de petites réserves de bitcoins. Exemples : Blue Wallet, Green Wallet, Sparrow Wallet...
 
 Parmi ces solutions, on peut également inclure les portefeuilles qui prennent en charge le Lightning Network, par exemple : BitKit, Phoenix, Wallet of Satoshi...
 
 **Avantages** :
 - Facilité d’utilisation et accès rapide aux fonds pour les paiements courants ou une utilisation mobile ;
-- Intégration avec le Lightning Network pour des transactions rapides et peu coûteuses
+- Intégration avec le Lightning Network pour des transactions rapides et peu coûteuses.
 
 **Inconvénients** :
 - Exposition au risque de piratage, car les clés privées sont stockées sur un appareil connecté à internet et avec une très grande surface d'attaque.
@@ -1273,7 +1273,7 @@ Les plateformes réglementées exigent généralement une vérification d’iden
 - Liquidité élevée et faible écart entre les prix d’achat et de vente.
 
 **Inconvénients** :
-- Peut couter cher en frais pour les conversion et les retraits ;
+- Peut coûter cher en frais pour les conversions et les retraits ;
 - Certaines plateformes sont assez compliquées à utiliser et peuvent vous perdre au milieu des foncitonnalités de trading avancées et les shitcoins ;
 - Approche très problématique pour votre confidentialité.
 
@@ -1294,7 +1294,7 @@ L’achat de bitcoins sans divulguer son identité est une alternative pour ceux
 - **Les distributeurs automatiques de bitcoins (ATM)** : Certains guichets permettent d’acheter des bitcoins en espèces, bien que les frais soient généralement élevés et que certains imposent une identification au-delà d’un certain montant.
 - **Les plateformes d'échange sans KYC** : Certaines plateformes, notamment en Suisse, permettent l'achat de petites quantités de bitcoins sans nécessiter de vérification d'identité.
 - **Le minage** : Il est tout à fait possible pour un individu de participer au minage de Bitcoin. Des machines plus anciennes ou plus petites sont accessibles et peuvent offrir une méthode non conventionnelle pour acquérir des bitcoins sans passer par un KYC. En rejoignant un pool de minage, vous pouvez obtenir des revenus réguliers, même avec un équipement limité. Pour plus d'informations, [consultez nos tutoriels sur le minage](https://planb.network/tutorials/mining).
-- **Les paiements / Le salaire en bitcoins** : Si vous dirigez une entreprise, vous pouvez accepter des paiements en bitcoins. Si vous êtes salarié, selon la juridiction et le type d'entreprise où vous travaillez, il peut être envisageable de demander à être rémunéré en bitcoins. Ces options permettent d'acquérir des bitcoins sans KYC.
+- **Les paiements / le salaire en bitcoins** : Si vous dirigez une entreprise, vous pouvez accepter des paiements en bitcoins. Si vous êtes salarié, selon la juridiction et le type d'entreprise où vous travaillez, il peut être envisageable de demander à être rémunéré en bitcoins. Ces options permettent d'acquérir des bitcoins sans KYC.
 
 **Avantages** :
 - Selon la méthode choisie, protège plus ou moins votre confidentialité en limitant les liens possibles entre votre identité et votre activité sur Bitcoin ;
@@ -1435,7 +1435,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 
 ![BTC102-Bitcoin](assets/fr/074.webp)
 
-Le hodler peut également adopter un profil hybride avec le stacker. Au lieu de se limiter à des achats ponctuels, il pourrait aussi effectuer de petits achats réguliers. Dans ce cas, il pourrait mettre en place une stratégie d'acquisition en *Dollar Cost Averaging* (DCA).
+Le hodler peut également adopter un profil hybride avec le stacker. Au lieu de se limiter à des achats ponctuels, il pourrait aussi effectuer de petits achats réguliers. Dans ce cas, il pourrait mettre en place une stratégie d'acquisition en *Dollar-Cost Averaging* (DCA).
 
 #### 3. Mettre en place un plan de succession
 
@@ -1567,7 +1567,7 @@ Ensuite, pour effectuer votre DCA, vous avez deux options : l'automatiser ou non
 
 ![BTC102-Bitcoin](assets/fr/078.webp)
 
-Voici des exemple de plateformes spécialisées dans le DCA :
+Voici des exemples de plateformes spécialisées dans le DCA :
 
 https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
@@ -1770,7 +1770,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-- Acquisition non-KYC via des solutions peer-to-peer comme Peach, Robosats ou encore les ATM Bitcoin, permettant d’alimenter son portefeuille sans divulguer d’informations personnelles ;
+- Acquisition non-KYC via des solutions pair-à-pair comme Peach, Robosats ou encore les ATM Bitcoin, permettant d’alimenter son portefeuille sans divulguer d’informations personnelles ;
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
@@ -1782,7 +1782,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-- Paiement en bitcoins pour ses revenus : Être un utilisateur actif de Bitcoin ne se limite pas seulement à dépenser des bitcoins, mais également à en gagner en échange de son travail. Si vous êtes dirigeant d'une entreprise, vous pouvez choisir d'accepter le bitcoin comme moyen de paiement. Si vous êtes salarié, vous pouvez envisager de recevoir tout ou partie de votre salaire en BTC si votre entreprise le propose.
+- Paiement en bitcoins pour ses revenus : Être un utilisateur actif de Bitcoin ne se limite pas seulement à dépenser des bitcoins, mais également à en gagner en échange de son travail. Si vous êtes dirigeant d'une entreprise, vous pouvez choisir d'accepter le bitcoin comme moyen de paiement. Si vous êtes salarié, vous pouvez envisager de recevoir tout ou une partie de votre salaire en BTC si votre entreprise le propose.
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
@@ -1967,7 +1967,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 L’un des objectifs majeurs du paranoïaque est d’acquérir ses bitcoins sans passer par une plateforme KYC, afin d’éviter toute liaison entre son identité et ses activités onchain. Pour cela, il privilégie plusieurs solutions :
 
-- Les plateformes d'achat en P2P telles que Bisq, Robosat, LNP2PBot, Peach, Hodl Hodl, etc. ;
+- Les plateformes d'achat en P2P telles que Bisq, Robosats, LNP2PBot, Peach, Hodl Hodl, etc. ;
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
@@ -2125,7 +2125,7 @@ Beaucoup de personnes repoussent cette étape en raison de fausses croyances qui
 
 - **"*Mes héritiers découvriront tout par eux-mêmes.*"** → **Faux**. Bitcoin n’est pas un compte bancaire classique. Sans instructions précises, vos proches risquent de ne jamais retrouver l’accès à vos fonds, ou de n'en trouver qu'une partie. À la différence des comptes bancaires, pour lesquels les institutions financières ou les notaires contactent les proches en cas de décès, aucun intermédiaire ne notifiera votre famille de l'existence de votre portefeuille Bitcoin. Il vous revient, par conséquent, de le mentionner explicitement dans votre plan d'héritage ;
 
-- **"*Un contrat intelligent peut tout gérer.*"** → **Faux**. Un smart contract comme un portefeuille multisig avec timelock peut être une pièce du puzzle, mais il ne remplacera jamais une planification bien structurée, surtout pour des personnes non familières avec Bitcoin. Les deux sont sont complémentaires.
+- **"*Un contrat intelligent peut tout gérer.*"** → **Faux**. Un smart contract comme un portefeuille multisig avec timelock peut être une pièce du puzzle, mais il ne remplacera jamais une planification bien structurée, surtout pour des personnes non familières avec Bitcoin. Les deux sont complémentaires.
 
 Il est temps d’agir. Prenez ces 30 minutes et mettez en place votre plan d’héritage. C’est une démarche simple, mais qui peut faire toute la différence pour vos proches.
 
@@ -2168,7 +2168,7 @@ Utilisez un tableau pour structurer cet inventaire. L’idée n’est pas de sto
 
 | Général               | Type de stockage | Actifs détenus | Localisation                      | Sauvegarde de la phrase mnémonique                                       | Mot de passe (PIN, passphrase...)                                                               | Notes                                                                                                           |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Plateforme d’échange  | Bitfinex         | BTC & Euros    | Accessible en ligne               | Aucune (plateforme custodiale)                                           | Gestionnaire de mots de passe Bitwarden & 2FA avec l'application Authy sur mon téléphone        | J’ai acheté mes BTC ici. Les fonds doivent être retirés après achat.                                            |
+| Plateforme d’échange  | Bitfinex         | BTC & Euros    | Accessible en ligne               | Aucune (plateforme custodiale)                                           | Gestionnaire de mots de passe Bitwarden & 2FA avec l'application Authy sur mon téléphone.        | J’ai acheté mes BTC ici. Les fonds doivent être retirés après achat.                                            |
 | Portefeuille physique | Jade Plus        | BTC            | Coffre-fort personnel au domicile | Copie chez mon oncle Bob et dans un coffre de banque chez la BNP Paribas | Passphrase stockée chez ma mère. Code PIN stocké sur le gestionnaire de mot de passe Bitwarden. | J’utilise 2 portefeuilles distincts : un normal avec uniquement la phrase mnémonique et un avec une passphrase. |
 | Portefeuille mobile   | Green Wallet     | BTC            | Sur mon téléphone Iphone 15       | Copie de la seed dans mon coffre au domicile                             | Code PIN stocké sur le gestionnaire de mot de passe Bitwarden.                                  | L’application est en mode caché.                                                                                |
 

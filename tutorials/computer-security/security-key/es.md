@@ -8,7 +8,7 @@ Hoy en día, la autenticación de dos factores (2FA) se ha vuelto esencial para 
 
 2FA introduce una capa adicional de seguridad al requerir una segunda forma de autenticación además de la contraseña tradicional. Esta verificación puede tomar varias formas, como un código enviado vía SMS, un código dinámico generado por una aplicación dedicada, o el uso de una llave de seguridad física. El uso de 2FA reduce significativamente los riesgos de que tus cuentas sean comprometidas, incluso en el caso de que tu contraseña sea robada.
 
-En otro tutorial, expliqué cómo configurar y usar una aplicación 2FA TOTP:
+En otro tutorial, explicamos cómo configurar y usar una aplicación 2FA TOTP:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -27,16 +27,16 @@ Sin embargo, este método 2FA también tiene desventajas. En primer lugar, siemp
 ## ¿Qué llave de seguridad física elegir?
 
 Para elegir tu llave de seguridad, se deben tener en cuenta varios criterios.
-En primer lugar, necesitas verificar los protocolos que el dispositivo soporta. Como mínimo, te aconsejo elegir una llave que soporte OTP, FIDO2 y U2F. Estos detalles suelen ser destacados por los fabricantes en las descripciones de los productos. Para verificar la compatibilidad de cada llave, también puedes visitar [dongleauth.com](https://www.dongleauth.com/dongles/).
+En primer lugar, necesitas verificar los protocolos que el dispositivo soporta. Como mínimo, te aconsejamos elegir una llave que soporte OTP, FIDO2 y U2F. Estos detalles suelen ser destacados por los fabricantes en las descripciones de los productos. Para verificar la compatibilidad de cada llave, también puedes visitar [dongleauth.com](https://www.dongleauth.com/dongles/).
 Además, asegúrate de que la llave sea compatible con tu sistema operativo, aunque marcas bien conocidas como Yubikey generalmente soportan todos los sistemas ampliamente utilizados.
 
 También deberías seleccionar la llave basándote en el tipo de puertos disponibles en tu computadora o smartphone. Por ejemplo, si tu computadora solo tiene puertos USB-C, elige una llave con conector USB-C. Algunas llaves también ofrecen opciones de conexión vía Bluetooth o NFC.
 ![SECURITY KEY 2FA](assets/notext/02.webp)
 También puedes comparar dispositivos basándote en sus características adicionales como resistencia al agua y al polvo, así como la forma y tamaño de la llave.
-En cuanto a marcas de llaves de seguridad, Yubico es la más conocida con sus [dispositivos YubiKey](https://www.yubico.com/), los cuales uso personalmente y recomiendo. Google también ofrece un dispositivo con la [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Para alternativas de código abierto, [SoloKeys](https://solokeys.com/) (no OTP) y [NitroKey](https://www.nitrokey.com/products/nitrokeys) son opciones interesantes, pero nunca he tenido la oportunidad de probarlas.
+En cuanto a marcas de llaves de seguridad, Yubico es la más conocida con sus [dispositivos YubiKey](https://www.yubico.com/), los cuales usamos y recomendamos. Google también ofrece un dispositivo con la [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Para alternativas de código abierto, [SoloKeys](https://solokeys.com/) (no OTP) y [NitroKey](https://www.nitrokey.com/products/nitrokeys) son opciones interesantes, pero nunca hemos tenido la oportunidad de probarlas.
 ## ¿Cómo usar una llave de seguridad física?
 
-Una vez que hayas recibido tu llave de seguridad, no se requiere ninguna configuración específica. La llave normalmente está lista para usar al recibirla. Puedes usarla inmediatamente para asegurar tus cuentas en línea que soportan este tipo de autenticación. Por ejemplo, te mostraré cómo asegurar mi cuenta de Proton mail con esta llave de seguridad física.
+Una vez que hayas recibido tu llave de seguridad, no se requiere ninguna configuración específica. La llave normalmente está lista para usar al recibirla. Puedes usarla inmediatamente para asegurar tus cuentas en línea que soportan este tipo de autenticación. Por ejemplo, te mostraremos cómo asegurar una cuenta de Proton mail con esta llave de seguridad física.
 ![SECURITY KEY 2FA](assets/notext/03.webp)
 Encontrarás la opción para activar 2FA en la configuración de tu cuenta, a menudo bajo la sección "*Contraseña*" o "*Seguridad*". Haz clic en la casilla o botón que te permite activar 2FA con una llave física.
 ![SECURITY KEY 2FA](assets/notext/04.webp)
@@ -48,10 +48,10 @@ Ingresa un nombre para recordar qué llave usaste.
 ![SECURITY KEY 2FA](assets/notext/07.webp)
 Y ahí lo tienes, tu llave de seguridad ha sido agregada exitosamente para la autenticación 2FA de tu cuenta.
 ![SECURITY KEY 2FA](assets/notext/08.webp)
-En mi ejemplo, si intento reconectar a mi cuenta de Proton mail, primero se me pedirá que ingrese mi contraseña junto con mi nombre de usuario. Este es el primer factor de autenticación.
+En este ejemplo, si intentamos reconectar a la cuenta de Proton mail, primero se me pedirá que ingrese la contraseña junto con el nombre de usuario. Este es el primer factor de autenticación.
 ![SECURITY KEY 2FA](assets/notext/09.webp)
-Luego, se me pide que conecte mi llave de seguridad para el segundo factor de autenticación.
+Luego, nos pide que conectemos la llave de seguridad para el segundo factor de autenticación.
 ![SECURITY KEY 2FA](assets/notext/10.webp)
-A continuación, necesito tocar el botón en la llave física para validar la autenticación, y me reconecto a mi cuenta de Proton mail.
+A continuación, es necesario tocar el botón en la llave física para validar la autenticación, y se reconecta a la cuenta de Proton mail.
 ![SECURITY KEY 2FA](assets/notext/11.webp)
 Repite esta operación para todas las cuentas en línea que desees asegurar de esta manera, especialmente para cuentas críticas como tus cuentas de correo electrónico, tus gestores de contraseñas, tus servicios de almacenamiento en la nube y en línea, o tus cuentas financieras.

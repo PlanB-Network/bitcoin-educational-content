@@ -18,7 +18,7 @@ description:
 - **Entreprises et commerces** : 
 	- Suivre ses transactions pour des besoins comptables sans exposer ses clés privées.
 	- Vérifier les transactions reçues sans saisir leurs clés privées dans des systèmes de paiement en ligne.
-	- Permettre aux employés de générer de nouvelles adresses de réception sans qu'ils disposent des clefs privées.
+	- Permettre aux employés de générer de nouvelles adresses de réception sans qu'ils disposent des clés privées.
 - **Organisations et crowdfunding** : Afficher le solde de manière transparente aux donateurs sans permettre l’accès aux fonds.
 
 ### 1.3. Présentation de la fonctionnalité Watch-Only
@@ -54,7 +54,7 @@ Une **clé publique étendue** (xpub, zpub, ypub, etc.) est une donnée dérivé
 
 **Recommandation** : Protégez votre clé publique étendue comme une information sensible.
 
-Plus d'information : voir en annexes. [Cours sur les clefs publiques étendues](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/les-cles-etendues-8dcffce1-31bd-5e0b-965b-735f5f9e4602)
+Plus d'information : voir en annexes.
 
 ### 1.5. Rappels sur les hot wallets
 
@@ -133,11 +133,11 @@ Plus d'information : voir en annexes. [Cours sur les clefs publiques étendues](
 
 ## 4. Créer un portefeuille Bitcoin "Watch-only"
 
-### 4.1. Récupérer la clef publique étendue
+### 4.1. Récupérer la clé publique étendue
 
 Pour configurer un portefeuille Watch-Only, vous devez d’abord obtenir la clé publique étendue (xpub, ypub, zpub, etc.) du portefeuille à surveiller. Cette information est généralement disponible dans les paramètres ou la section « informations du portefeuille » de votre logiciel ou hardware wallet. 
 
-- Exemple avec Blockstream App : Depuis l’écran d’accueil du portefeuille, allez dans "Paramètres", puis "Wallet Details", et copiez la zpub : ([clé publique étendue](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+- Exemple avec Blockstream App : Depuis l’écran d’accueil du portefeuille, allez dans "Paramètres", puis "Wallet Details", et copiez la zpub :
 
 ![image](assets/fr/09.webp)
 
@@ -147,7 +147,7 @@ Pour configurer un portefeuille Watch-Only, vous devez d’abord obtenir la clé
 ### 4.2. Importer le wallet Watch-only
 
 - **Précaution** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
-- Depuis l’écran d’accueil, cliquez sur "Configurer un nouveau porte-feuille" puis sur "Get Started" :
+- Depuis l’écran d’accueil, cliquez sur "Configurer un nouveau portefeuille" puis sur "Get Started" :
 
 ![image](assets/fr/04.webp)
 
@@ -164,7 +164,7 @@ Pour configurer un portefeuille Watch-Only, vous devez d’abord obtenir la clé
 
 ![image](assets/fr/12.webp)
 
-- Collez la clé publique étendue (xpub, ypub, zpub, etc.), scannez le QR code correspondant, ou entrez un Output Descriptor. Même si l'application spécifie "xpub", les clefs ypub, zpub, ... sont également autorisées. Puis cliquez sur "Se connecter" : 
+- Collez la clé publique étendue (xpub, ypub, zpub, etc.), scannez le QR code correspondant, ou entrez un Output Descriptor. Même si l'application spécifie "xpub", les clés ypub, zpub, ... sont également autorisées. Puis cliquez sur "Se connecter" : 
 
 ![image](assets/fr/13.webp)
 
@@ -184,7 +184,7 @@ Une fois importé, le portefeuille Watch-Only affiche le solde total et l’hist
 - **Envoyer des fonds** : Cliquez sur **"Transact"**, puis **"Envoyer"**. Vous pouvez renseigner :
 	- L’adresse du destinataire. 
 	- Le montant de la transaction.
-	- Les frais de transaction. Cependant, comme le portefeuille Watch-Only ne détient pas les clés privées, vous devrez **signer la transaction** avec votre hardware wallet ou scanner un QR code généré par celui-ci :
+	- Les frais de transaction. Cependant, comme le portefeuille Watch-Only ne détient pas les clés privées, vous ne pouvez pas envoyer de fonds directement. Pour signer la transaction, connectez votre hardware wallet ou scannez un QR code généré par celui-ci :
 
 ![image](assets/fr/16.webp)
 
@@ -209,67 +209,67 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
-### A.2 Clefs publiques étendues
+### A2. Clés publiques étendues
 
 - Glossaire :
-	- [clefs publiques étendues](https://planb.network/fr/resources/glossary/extended-key)
+	- [Clés publiques étendues](https://planb.network/fr/resources/glossary/extended-key)
 	-  [xpub](https://planb.network/fr/resources/glossary/xpub)
 	- [ypub](https://planb.network/fr/resources/glossary/ypub) 
-	- [zpub](https://planb.network/fr/resources/glossary/zpub
+	- [zpub](https://planb.network/fr/resources/glossary/zpub)
 - Cours :
-	- [Les clefs publiques étendues](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/les-cles-etendues-8dcffce1-31bd-5e0b-965b-735f5f9e4602)
+	- [Les clés publiques étendues](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/les-cles-etendues-8dcffce1-31bd-5e0b-965b-735f5f9e4602)
 
 
 ### A3. Bonnes pratiques
 
 Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
-* **Sécurisez votre phrase de récupération** :
-	* Tutoriel : Sauvegarder sa phrase mnémonique
+- **Sécurisez votre phrase de récupération** :
+	- Tutoriel : Sauvegarder sa phrase mnémonique
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-* **Utilisez l’authentification sécurisée** : 
-	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
-	* Ne partagez jamais votre PIN ou vos données biométriques.
+- **Utilisez l’authentification sécurisée** : 
+	- Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
+	- Ne partagez jamais votre PIN ou vos données biométriques.
 
 - **Protégez votre confidentialité** : 
 	- Générez une nouvelle adresse pour chaque réception onchain ou Liquid afin de limiter le traçage sur la blockchain.
 	- Activez les fonctions "Confidentialité renforcée", "Tor", et "SPV".
 	- Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum au lieu d’utiliser le nœud public 
 
-* **Choisissez le réseau adapté à vos besoins** : 
-	* **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
-	* **Liquid** : Utilisez pour des transferts rapides, à faible coût et avec une confidentialité renforcée.
-	* **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. 
+- **Choisissez le réseau adapté à vos besoins** : 
+	- **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
+	- **Liquid** : Utilisez pour des transferts rapides, à faible coût et avec une confidentialité renforcée.
+	- **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. 
   
-* **Vérifiez toujours les adresses d'envoi** :
-	* Avant d’envoyer des fonds, vérifiez soigneusement l’adresse. Les fonds envoyés à une mauvaise adresse sont perdus à jamais. Utilisez un copier/coller ou le scan de QR code, ne recopiez / modifiez jamais une adresse à la main. 
+- **Vérifiez toujours les adresses d'envoi** :
+	- Avant d’envoyer des fonds, vérifiez soigneusement l’adresse. Les fonds envoyés à une mauvaise adresse sont perdus à jamais. Utilisez un copier/coller ou le scan de QR code, ne recopiez / modifiez jamais une adresse à la main. 
 
-* **Optimisez les frais** :
-	* Pour les transactions onchain, choisissez des frais adaptés (lente, moyenne, rapide) en fonction de l’urgence et de la congestion du réseau.
-	* Utilisez Liquid, ou Lightning pour les petits montants.
+- **Optimisez les frais** :
+	- Pour les transactions onchain, choisissez des frais adaptés (lente, moyenne, rapide) en fonction de l’urgence et de la congestion du réseau.
+	- Utilisez Liquid, ou Lightning pour les petits montants.
 
-* **Tenez l'application à jour**
+- **Tenez l'application à jour**
 
 
 ### A4. Ressources supplémentaires
 
-* **Liens officiels :** 
-	* **[Site officiel](https://blockstream.com/)**
-	* **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
+- **Liens officiels Blockstream :** 
+	- **[Site officiel](https://blockstream.com/)**
+	- **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
 	- **[GitHub](https://github.com/Blockstream/green_android)**
 
-* **Explorateurs de blocs :**
-	* On chain : **[Mempool.space](https://mempool.space/)**
-	* Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
-	* Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
+- **Explorateurs de blocs :**
+	- Onchain : **[Mempool.space](https://mempool.space/)**
+	- Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
+	- Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
-* **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
-	* **Sécuriser sa phrase de récupération**
+ - **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
+	 - **Sécuriser sa phrase de récupération**
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 

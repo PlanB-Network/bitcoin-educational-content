@@ -44,7 +44,7 @@ Théo; bijdrage
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Doel: Werk je beveiligingsvaardigheden bij !**
+**Doel: Werk je beveiligingsvaardigheden bij!**
 
 
 Welkom bij dit educatieve programma over digitale beveiliging. Deze training is voor iedereen toegankelijk, dus voorkennis van informatica is niet vereist. Ons belangrijkste doel is om je de kennis en vaardigheden bij te brengen die je nodig hebt om veiliger door de digitale wereld te navigeren.

@@ -627,20 +627,19 @@ Dans la prochaine partie, nous aborderons l’utilisation concrète de votre nou
 ## Les indexeurs : rôle, fonctionnement et solutions
 <chapterId>4f93c07a-f0cb-435f-8b68-162f316d7039</chapterId>
 
-
-Si vous avez fait quelques recherches sur les noeuds Bitcoin avant de lire cette formation, vous avez peut être déjà croisé le terme "indexeur". Ce sont des outils comme Electrs ou bien Fulcrum qui peuevent être ajoutés à un noeud Bitcoin Core. Mais quel est précisément le rôle de ces logiciels, comment foncitonnent-ils concrètement et est-ce que vous devriez en installer un sur votre nouveau noeud Bitcoin ? C'est ce que nous allons voir dans ce chapitre.
+Si vous vous êtes déjà renseigné sur les nœuds Bitcoin avant de suivre cette formation, il est possible que vous ayez rencontré le terme "indexeur". Il s’agit d’outils comme Electrs ou Fulcrum, que l’on peut ajouter à un nœud Bitcoin Core. Mais quel est exactement le rôle de ces logiciels ? Comment fonctionnent-ils concrètement ? Et devez-vous en installer un sur votre nouveau nœud Bitcoin ? C’est ce que nous allons explorer dans ce chapitre.
 
 ### Qu'est-ce qu'un indexeur ?
 
-De manière générale en informatique, un indexeur est un programme qui lit une masse de données brutes, en extrait des clés pertinentes (mots, identifiants, adresses...) et construit un fichier auxiliaire (qu'on appelle l’index) où chaque clé pointe vers l’emplacement exact de la donnée dans le corpus. C'est une étape de pré-traitement qui coûte du temps CPU et un peu d’espace disque, mais elle évite ensuite de parcourir tout le corpus à chaque requête sur la base de donnée : on interroge l’index et la réponse est quasi instantanée.
+De façon générale en informatique, un indexeur est un programme qui parcourt un ensemble de données brutes, en extrait des clés pertinentes (mots, identifiants, adresses…) et construit un fichier auxiliaire, appelé "index", où chaque clé renvoie à l’emplacement exact de la donnée dans le corpus. Cette phase de prétraitement mobilise du temps CPU et requiert un peu d’espace disque, mais elle évite par la suite de devoir parcourir tout le corpus à chaque requête sur la base de données : il suffit d’interroger l’index pour obtenir une réponse quasi immédiate.
 
-Pour vulgariser, on peut dire que c’est un peu le même principe qu’un index sur un livre : vous recherchez une information que vous savez présente dans un livre, au lieu de relire l'intégralité du livre à la recherche de cette information, vous consulter l'index pour savoir précisément sur quelle page se trouve l'information que vous recherchez.
+Pour vulgariser, c’est le même principe qu’un index dans un livre : si vous cherchez une information précise, plutôt que de relire tout le livre, vous consultez l’index afin de trouver directement la page où figure l’information recherchée.
 
 Dans un nœud Bitcoin comme Bitcoin Core, les données de la blockchain sont stockées sous une forme brute et chronologique. Chaque bloc contient des transactions, qui elles-mêmes contiennent des entrées et des sorties, sans aucun classement particulier par adresse, identifiant ou portefeuille. Cette organisation linéaire est optimisée pour la validation des blocs, mais très peu adaptée à des recherches ciblées. Par exemple, si vous souhaitez retrouver toutes les transactions liées à une adresse spécifique dans un nœud non indexé, vous devriez parcourir manuellement l’ensemble de la blockchain, bloc par bloc, transaction par transaction. C’est précisément là qu’intervient l'indexeur sur votre nœud Bitcoin.
 
 Un indexeur est un logiciel spécialisé qui va analyser cette masse de données brutes (la blockchain, la mempool, l'UTXO set…) et en extraire des clés : identifiants de transaction, adresses, hauteurs de blocs... À partir de ces clés, il construit son index qui associe chaque clé à l’endroit exact où se trouve l’information dans le stockage du nœud.
 
-L’indexation rend donc les recherches d'informations sur votre nœud rapides, ciblées et efficaces. Par exemple, lorsqu’un logiciel de gestion de portefeuille comme Sparrow est connecté à votre nœud, il vous affiche rapidement le solde d’une adresse. Pour ce faire, il interroge l’indexeur en lui demandant : "_Quels UTXOs sont associés à ce script-hash ?_" L’indexeur lui répond presque immédiatement, sans avoir besoin de relire toute la blockchain, car il a déjà référencé cette information.
+L’indexation permet ainsi d’effectuer des recherches d’informations sur votre nœud de manière rapide, ciblée et efficace. Par exemple, lorsque vous connectez un portefeuille comme Sparrow à votre nœud, il peut afficher presque instantanément le solde d’une adresse. Concrètement, il interroge l’indexeur avec une requête du type : "_Quels UTXOs sont associés à ce script-hash ?_" L’indexeur répond presque aussitôt, sans avoir à relire l’ensemble de la blockchain, car cette donnée est déjà répertoriée dans sa base.
 
 ### Est-ce que Bitcoin Core dispose d'un indexeur ?
 
@@ -648,7 +647,7 @@ Sans ajout de logiciel supplémentaire, Bitcoin Core ne dispose pas, à propreme
 
 Jusqu’à la version 0.8.0 de Bitcoin Core, la validation des transactions reposait sur un index global des transactions : le fameux `txindex`. Ce dernier référençait toutes les transactions de la blockchain ainsi que leurs sorties. Lorsqu’un nœud recevait une nouvelle transaction, il consultait cet index pour vérifier que les sorties consommées (en inputs) existaient bien, et qu’elles n’avaient pas déjà été dépensées. `txindex` était donc à l’époque indispensable à la validation des transactions.
 
-Mais cette approche présentait des limites : lenteur, coût en terme de stockage, redondance d’informations. Pour y remédier, la version 0.8.0 introduit une refonte du modèle de validation appelée ***Ultraprune***. Ce changement inaugure notamment l’architecture actuelle : au lieu de tout stocker sous forme d'index de transactions, Bitcoin Core maintient une simple base de données dédiée aux seuls UTXOs, appelée `chainstate` (c'est que l'on appelle dans le langage courant "UTXO set"), et actualise au fur et à mesure sa liste en fonction des sorties consommées et créées.
+Mais cette approche présentait des limites : lenteur, coût en terme de stockage, redondance d’informations. Pour y remédier, la version 0.8.0 introduit une refonte du modèle de validation appelée ***Ultraprune***. Ce changement inaugure notamment l’architecture actuelle : au lieu de tout stocker sous forme d'index de transactions, Bitcoin Core maintient une simple base de données dédiée aux seuls UTXOs, appelée `chainstate` (c'est que l'on appelle dans le langage courant "UTXO set"), et actualise au fur et à mesure sa liste en fonction des output consommés et créés.
 
 Cette méthode est bien plus rapide, et elle permet de ne stocker que l’état actuel du registre, ce qui rend l'indexeur `txindex` inutile. Cependant, au lieu de supprimer le code de `txindex`, les développeurs ont choisi de conserver cette fonctionnalité derrière un simple paramètre (`txindex=1`). En activant cette option sur votre nœud, vous pouvez donc interroger n’importe quelle transaction à partir de son `txid`.
 
@@ -664,18 +663,40 @@ Bitcoin Core dispose bien en option d’un indexeur de transactions (`txindex`),
 
 ### Faut-il ajouter un indexeur d'adresses sur son nœud ?
 
+Ajouter un indexeur d’adresses comme Electrs ou Fulcrum n’est en rien obligatoire ; tout dépend de vos besoins.
 
+Si vous souhaitez simplement connecter un portefeuille comme Sparrow à votre nœud pour consulter le solde et diffuser des transactions, cela est tout à fait possible directement via l’interface RPC de Bitcoin Core, en local ou à distance via Tor.
 
+En revanche, pour utiliser des logiciels plus avancés, comme faire tourner un explorateur de bloc mempool.space en local, l’installation d’un indexeur d’adresses devient indispensable.
 
+L’indexeur nécessite un certain temps de synchronisation (inférieur à celui de l’IBD) et occupera un espace supplémentaire sur votre disque. Si votre SSD dispose encore d’assez d’espace libre une fois la blockchain téléchargée, vous pouvez sans problème ajouter un indexeur.
 
+### Quel indexeur choisir ?
 
+Deux logiciels sont couramment utilisés pour construire ce type d’index d’adresses et le rendre accessible : **Electrs** et **Fulcrum**. Ces outils indexent la blockchain selon les script-hash (adresses), puis proposent une interface standardisée (le protocole Electrum), à laquelle se connectent de nombreux portefeuilles tels qu’Electrum Wallet, Sparrow ou encore Phoenix.
 
-Deux logiciels sont largement utilisés pour construire ce type d’index et le rendre accessible : **Electrs** et **Fulcrum**. Ces serveurs indexent la blockchain selon les `script-hash`, puis exposent une interface standardisée, le **protocole Electrum**, utilisée par de nombreux portefeuilles légers comme Electrum Wallet, Sparrow, ou BlueWallet.
+Pour faire simple, Electrs est assez comapct : il indexe plus rapidement la blockchain et occupe moins d’espace disque, mais il est légèrement moins performant que Fulcrum lors des requêtes. À l’inverse, Fulcrum consomme davantage d’espace disque et requiert plus de temps pour l’indexation, mais il offre des performances supérieures lors des requêtes.
 
+Pour un usage individuel, je recommande plutôt Electrs : il consomme moins d’espace, il est bien maintenu et, malgré une légère lenteur sur certaines requêtes par rapport à Fulcrum, il reste largement suffisant pour un usage courant. Si vous disposez de temps et d’espace disque, vous pouvez également tester Fulcrum.
 
+Concrètement, en termes de besoins de stockage, en août 2025, Electrs requiert environ 60 Go, contre environ 140 Go pour Fulcrum. Le choix de votre indexeur dépend donc aussi de votre capacité de stockage :
+- Si votre espace disque est très limité, contentez-vous de Bitcoin Core sans indexeur d’adresses externe ;
+- Si vous souhaitez utiliser un indexeur, mais restez contraint par la capacité, optez pour Electrs ;
+- Si vous disposez d’un espace disque confortable, Fulcrum peut s’avérer intéressant.
 
+Pour la suite de cette formation BTC 202, j’utiliserai Electrs, mais vous pouvez sans difficulté suivre avec Fulcrum : la procédure d’installation est identique, tout comme l’interface de connexion aux logiciels de portefeuille, puisque les deux exposent un serveur Electrum.
 
 ### Comment installer un indexeur sur Umbrel ?
+
+Pour installer Electrs (ou Fulcrum) sur votre Umbrel, la procédure est très simple : rendez-vous sur l’App Store, recherchez l’application concernée (elle figure dans l’onglet Bitcoin), puis cliquez sur le bouton "*Install*".
+
+028
+
+Une fois l’installation terminée, Electrs procédera à une phase de synchronisation (indexation), qui peut durer plusieurs heures.
+
+029
+
+Une fois la synchronisation terminée, vous pourrez connecter vos logiciels de portefeuille à votre serveur Electrum hébergé sur Umbrel.
 
 
 

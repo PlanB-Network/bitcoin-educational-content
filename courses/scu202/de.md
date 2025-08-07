@@ -1062,7 +1062,7 @@ Das von Canonical entwickelte und 2004 eingeführte Ubuntu ist eine der weltweit
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint wurde 2006 eingeführt und ist eine von Ubuntu abgeleitete Distributi
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint zeichnet sich durch seine Einfachheit, das standardmäßige Vorhandensein von Multimedia-Codecs und ein gut durchdachtes Update-Tool aus. Andererseits stützt es sich stark auf die Infrastruktur von Ubuntu, was es von den technischen Entscheidungen von Ubuntu abhängig macht (insbesondere auf Kernel- und Repository-Ebene). Mint eignet sich besonders gut für technisch nicht versierte Benutzer oder für diejenigen, die ein sofort einsatzbereites System wünschen, das nicht allzu viel Lernaufwand erfordert.
 
@@ -1246,7 +1246,7 @@ Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im V
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Hinweis:** Eine Live-Distribution ist ein Linux-Betriebssystem, das direkt von einem USB-Stick oder einer CD verwendet werden kann, ohne dass eine Installation auf der Hard-Platte erforderlich ist.
 
@@ -6659,7 +6659,7 @@ GrapheneOS integriert keine proprietären Komponenten. Es steht Ihnen frei, Goog
 Graphene ist nur mit aktuellen Google Pixeln (Pixel 6, 7, 8 und 9) kompatibel.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

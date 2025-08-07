@@ -1,7 +1,6 @@
 ---
 name: Electrum
-
-description: Panduan Lengkap Electrum, dari pemula hingga mahir
+description: Panduan Lengkap dari Dasar hingga Tingkat Lanjut
 ---
 
 ![cover](assets/cover.webp)
@@ -22,54 +21,59 @@ Postingan asli:
 
 ## Mengapa Electrum?
 
-Ini adalah panduan terperinci tentang cara menggunakan Electrum Bitcoin Wallet, dengan solusi untuk semua jebakan dan keanehannya - sesuatu yang saya kembangkan setelah beberapa tahun penggunaan, dan mengajar siswa tentang keamanan/privasi Bitcoin. Electrum bukanlah dompet Bitcoin terbaik bagi orang yang ingin menjaga segalanya semudah mungkin, dan lebih memilih untuk tetap pada level pemula. Sebaliknya, ini untuk orang yang adalah, atau bercita-cita menjadi, pengguna "power".
+Ini panduan lengkap cara pakai Electrum Bitcoin Wallet, termasuk solusi buat semua jebakan dan keanehan yang mungkin kamu temui—semua ini aku susun berdasarkan pengalaman pribadi selama beberapa tahun pakai Electrum dan ngajarin orang lain soal keamanan dan privasi di dunia Bitcoin.
 
-Untuk Bitcoiner baru, ini sangat baik hanya jika di bawah pengawasan pengguna berpengalaman untuk menunjukkan jalan. Jika belajar menggunakannya sendiri, itu akan aman asalkan mereka meluangkan waktu dan menggunakannya dalam lingkungan pengujian dengan hanya sejumlah kecil sats pada awalnya. Panduan ini mendukung upaya tersebut, tetapi ini juga merupakan referensi yang baik untuk siapa saja.
+Electrum bukan dompet Bitcoin yang cocok buat orang yang pengen segalanya serba gampang atau cuma mau main di level pemula. Sebaliknya, dompet ini emang didesain buat orang yang udah paham atau pengen naik level jadi pengguna “power user”.
 
-> Peringatan: Panduan ini besar. Jangan mencoba melakukan semua ini dalam satu hari. Lebih baik untuk menyimpan panduan dan mengikisnya dari waktu ke waktu.
+Buat Bitcoiner baru, Electrum ini bisa jadi pilihan oke asal ada pengguna yang lebih berpengalaman yang bisa bantu ngarahin dan nunjukin jalannya. Tapi kalau kamu mau belajar sendiri pun tetap aman kok—selama kamu sabar, luangin waktu, dan nyobainnya dulu di lingkungan yang aman (testing), cuma pake sedikit sats di awal. Panduan ini dibuat buat membantu proses itu. Tapi lebih dari itu, panduan ini juga cocok banget dijadiin referensi buat siapa pun yang pengen ngerti Electrum lebih dalam.
+
+> Peringatan: Panduan ini cukup panjang dan padat. Nggak perlu maksa buat ngerjain semuanya dalam sehari. Lebih baik simpan aja dulu, lalu pelajari sedikit demi sedikit seiring waktu.
 
 ## Mengunduh Electrum
 
-Idealnya, gunakan komputer Bitcoin khusus untuk transaksi Bitcoin Anda (Panduan saya untuk ini https://armantheparman.com/mint/) _(JUGA tersedia di bagian privasi)_. Tidak masalah untuk berlatih dengan jumlah kecil pada komputer "kotor" ketika Anda pertama kali belajar (siapa tahu berapa banyak malware tersembunyi yang telah terakumulasi di komputer reguler Anda selama bertahun-tahun - Anda tidak ingin memaparkan dompet Bitcoin Anda kepada mereka).
+Idealnya, kamu pakai komputer khusus cuma buat urusan Bitcoin—semacam "komputer Bitcoin" pribadi (aku juga punya panduannya di sini: [https://armantheparman.com/mint/], dan bisa kamu temuin juga di bagian privasi). Tapi nggak apa-apa kok kalau di awal kamu mau coba-coba dulu pakai komputer biasa, asal jumlah Bitcoinnya kecil. Soalnya, siapa yang tahu berapa banyak malware yang mungkin udah numpuk di laptop kamu selama bertahun-tahun? Kamu nggak mau kan dompet Bitcoin kamu terekspos sama ancaman-ancaman kayak gitu?
 
 Dapatkan Electrum dari https://electrum.org/.
 
 Klik tab Unduh di bagian atas.
 
-Klik pada tautan unduhan yang sesuai dengan komputer Anda. Komputer Linux atau Mac dapat menggunakan tautan Python (lingkaran merah). Komputer Linux dengan chip Intel atau AMD dapat menggunakan Appimage (lingkaran hijau; ini seperti file eksekusi Windows). Perangkat Raspberry Pi memiliki mikroprosesor ARM dan hanya dapat menggunakan versi Python (lingkaran merah), bukan Appimage, meskipun Pi menjalankan Linux. Lingkaran biru untuk Windows dan lingkaran hitam untuk Mac.
+Klik tautan unduhan yang sesuai dengan komputer kamu. Kalau kamu pakai Linux atau Mac, kamu bisa menggunakan versi Python (ditandai dengan lingkaran merah). Untuk pengguna Linux yang memiliki komputer dengan chip Intel atau AMD, kamu juga bisa pilih AppImage (lingkaran hijau), yang fungsinya mirip seperti file eksekusi di Windows. Kalau kamu pakai Raspberry Pi, karena prosesornya ARM, kamu hanya bisa menggunakan versi Python (lingkaran merah), meskipun sistem operasinya juga Linux. Sementara itu, lingkaran biru ditujukan untuk pengguna Windows, dan lingkaran hitam untuk pengguna Mac.
 
 ![image](assets/1.webp)
 
 ## Memverifikasi Electrum
 
-Tujuan dari "memverifikasi" unduhan adalah untuk memastikan tidak satu bit data pun yang telah diubah. Ini mencegah Anda menggunakan versi perangkat lunak "diretas" yang berbahaya. Tidak masalah untuk melewatkan ini asalkan Anda hanya menggunakan salinan yang diunduh untuk berlatih, yaitu jangan gunakan dompet yang menyimpan uang serius. Kemudian, setelah Anda siap menggunakan Electrum untuk dana nyata Anda, Anda harus menghapus salinan Anda dan memulai dari awal, kali ini memverifikasi unduhan Anda.
-Untuk melakukan ini, kami menggunakan alat kriptografi kunci publik/privat – gpg, yang telah kami tulis panduannya di sini (https://armantheparman.com/gpg/). Alat gpg tersedia di semua sistem operasi Linux. Untuk Mac dan Windows, lihat link gpg untuk instruksi pengunduhan.
+Tujuan dari proses "verifikasi" saat mengunduh adalah untuk memastikan tidak ada satu bit pun data yang berubah. Ini penting agar kamu nggak tanpa sadar menjalankan versi software yang sudah diretas dan bisa membahayakan. Tapi, kalau kamu cuma mau latihan dan belum menyimpan Bitcoin beneran, kamu bisa lewati proses ini dulu—asal pastikan kamu nggak pakai dompet itu untuk menyimpan dana serius.
 
-Selain mengunduh perangkat lunak Electrum, untuk keamanan, Anda juga memerlukan TANDA TANGAN digital dari perangkat lunak tersebut. Ini adalah rangkaian teks (sebenarnya adalah angka yang dikodekan menggunakan teks) yang dihasilkan oleh pengembang dengan kunci gpg PRIVAT-nya. Menggunakan program gpg, kita kemudian dapat "menguji" TANDA TANGAN tersebut terhadap kunci PUBLIK-nya (dibuat dari kunci privat pengembang) yang dapat diakses oleh semua orang, dibandingkan dengan FILE unduhan.
+Nanti, kalau kamu sudah siap pakai Electrum untuk menyimpan Bitcoin sungguhan, hapus dulu salinan lamamu dan mulai dari awal lagi—kali ini pastikan kamu memverifikasi unduhannya.
+
+Untuk melakukan verifikasi ini, kita pakai alat kriptografi kunci publik dan privat yang disebut gpg. Panduan lengkapnya bisa kamu baca di sini: [https://armantheparman.com/gpg/]. Alat gpg biasanya sudah tersedia di semua sistem operasi Linux. Untuk pengguna Mac dan Windows, kamu bisa cek link tersebut juga untuk cara download dan instalasinya.
+
+Selain mengunduh perangkat lunak Electrum, demi keamanan kamu juga perlu mengunduh TANDA TANGAN digital dari perangkat lunak itu. Tanda tangan ini sebenarnya adalah rangkaian teks—yang isinya angka-angka terenkripsi—yang dibuat oleh si pengembang menggunakan kunci gpg privat miliknya. Dengan bantuan program gpg, kita bisa "mengujinya" atau memverifikasi tanda tangan tersebut dengan mencocokkannya terhadap kunci publik si pengembang (yang berasal dari kunci privat tadi, dan bisa diakses siapa pun). Proses ini akan membandingkan tanda tangan digital dengan file unduhan untuk memastikan bahwa file yang kamu dapat benar-benar asli dan belum dimodifikasi.
 
 Dengan kata lain, dengan tiga input (tanda tangan, kunci publik, dan file data), kita mendapatkan output benar atau salah untuk mengonfirmasi bahwa file tersebut tidak telah diubah.
 
-Untuk mendapatkan tanda tangan, klik pada link yang sesuai dengan file yang Anda unduh (lihat panah berwarna):
+Untuk mendapatkan tanda tangan, klik pada link yang sesuai dengan file yang kamu unduh (lihat panah berwarna):
 
 ![image](assets/2.webp)
 
-Mengklik link mungkin secara otomatis mengunduh file ke folder unduhan Anda, atau mungkin terbuka di browser. Jika terbuka di browser, Anda perlu menyimpan file tersebut. Anda dapat klik kanan dan pilih "simpan sebagai". Tergantung pada sistem operasi atau browser, Anda mungkin perlu klik kanan pada area ruang putih, bukan teksnya.
+Saat kamu mengklik link, file-nya bisa langsung terunduh ke folder unduhan, atau justru terbuka di browser. Kalau terbuka di browser, kamu perlu menyimpannya secara manual—caranya klik kanan lalu pilih “Simpan sebagai”. Perlu dicatat, tergantung sistem operasi atau browser yang kamu pakai, kadang kamu harus klik kanan di area kosong (bukan di teksnya) supaya opsi itu muncul.
 
-Berikut adalah tampilan teks yang diunduh. Anda dapat melihat ada beberapa tanda tangan – ini adalah tanda tangan oleh orang yang berbeda. Anda dapat memverifikasi masing-masing atau salah satunya. Saya akan menunjukkan kepada Anda cara memverifikasi hanya tanda tangan pengembang.
+Setelah file diunduh, tampilannya akan seperti ini. Kamu akan melihat ada beberapa tanda tangan—itu artinya file tersebut telah ditandatangani oleh beberapa orang yang berbeda. Kamu bisa memilih untuk memverifikasi semuanya, atau cukup salah satunya saja. Di panduan ini, saya akan tunjukkan cara memverifikasi tanda tangan milik pengembang saja.
 
 ![image](assets/3.webp)
 
-Selanjutnya, Anda perlu mendapatkan kunci publik ThomasV – dia adalah pengembang utama. Anda bisa mendapatkannya langsung dari dia, akun Keybase-nya, Github, atau orang lain, dari keyserver, atau dari situs web Electrum.
+Selanjutnya, kamu perlu mendapatkan kunci publik milik ThomasV—dia adalah pengembang utama Electrum. Kunci ini bisa kamu dapatkan langsung dari dia, lewat akun Keybase-nya, dari GitHub, melalui orang lain, dari keyserver, atau dari situs resmi Electrum.
 
-Mendapatkannya dari situs web Electrum sebenarnya adalah cara yang paling tidak aman, karena jika situs web ini berbahaya (hal yang sedang kita periksa) mengapa kita mendapatkan kunci publik dari sana (kunci publik bisa palsu)?
+Mendapatkan kunci publik dari situs web Electrum sebenarnya adalah cara yang paling tidak aman. Soalnya, kalau kita sedang memverifikasi apakah situs itu aman atau tidak, justru jadi kontradiktif kalau kita mengambil kunci publik dari sana—karena kunci publiknya bisa saja palsu kalau situsnya memang sudah disusupi.
 
-Untuk menjaga agar hal ini sederhana untuk sekarang, saya akan menunjukkan kepada Anda cara mendapatkannya dari situs web tersebut, tetapi ingatlah hal ini. Berikut adalah salinannya (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc ) di GitHub yang dapat Anda bandingkan.
+Untuk sekarang, supaya tetap sederhana, saya akan tunjukkan cara mendapatkan kunci publiknya dari situs web Electrum. Tapi ingat, cara ini bukan yang paling aman—jadi tetap waspada. Sebagai perbandingan, kamu juga bisa cek salinan kunci yang sama di GitHub lewat tautan ini: https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc.
 
-Gulir ke bawah halaman sedikit untuk menemukan link ke kunci publik ThomasV (lingkaran merah di bawah). Klik dan unduh, atau jika membuka beberapa teks di browser, klik kanan untuk menyimpan.
+Scroll sedikit ke bawah halaman sampai kamu menemukan link menuju kunci publik ThomasV, yang ditandai dengan lingkaran merah di bawah ini. Klik link tersebut untuk mengunduh, atau jika tampilannya langsung terbuka sebagai teks di browser, klik kanan dan pilih “Simpan sebagai” untuk menyimpan file-nya.
 
 ![image](assets/4.webp)
 
-Anda sekarang memiliki 3 file baru, mungkin semuanya ada di folder unduhan. Tidak masalah di mana mereka berada, tetapi prosesnya menjadi lebih mudah jika Anda menaruh semuanya dalam folder yang sama.
+Sekarang kamu sudah punya tiga file baru, yang kemungkinan semuanya ada di folder unduhan. Sebenarnya tidak masalah di mana file-file itu disimpan, tapi akan jauh lebih praktis kalau kamu memindahkannya ke dalam satu folder yang sama—biar proses selanjutnya jadi lebih mudah dan rapi.
 
 Ketiga file tersebut:
 
@@ -79,15 +83,19 @@ Ketiga file tersebut:
 
 Buka terminal di Mac atau Linux, atau command prompt (CMD) di Windows.
 
-Navigasikan ke direktori Downloads (atau di mana pun Anda menaruh ketiga file tersebut). Jika Anda tidak tahu apa maksudnya, pelajari dari video singkat ini untuk Linux/Mac (https://www.youtube.com/watch?v=AO0jzD1hpXc) dan ini untuk Windows (https://www.youtube.com/watch?v=9zMWXD-xoxc). Ingat bahwa pada komputer Linux, nama direktori peka terhadap huruf besar-kecil.
-Di terminal, ketik ini untuk mengimpor kunci publik ThomasV ke dalam "keyring" komputer Anda (keyring adalah konsep abstrak - sebenarnya hanya sebuah file di komputer Anda):
+Sekarang, navigasikan ke folder Downloads (atau ke mana pun kamu menyimpan ketiga file tadi). Kalau kamu belum familiar dengan istilah “navigasi ke direktori”, kamu bisa pelajari dulu lewat video singkat ini untuk Linux/Mac: https://www.youtube.com/watch?v=AO0jzD1hpXc, dan ini untuk Windows: https://www.youtube.com/watch?v=9zMWXD-xoxc. Jangan lupa, kalau kamu pakai Linux, nama direktori itu peka terhadap huruf besar dan kecil—jadi pastikan penulisannya benar.
+Di terminal, ketik ini untuk mengimpor kunci publik ThomasV ke dalam "keyring" komputermu (keyring adalah konsep abstrak - sebenarnya hanya sebuah file di komputermu):
 ```bash
 gpg --import ThomasV.asc
 ```
 
-Pastikan nama file sesuai dengan yang telah Anda unduh. Perhatikan juga bahwa itu adalah tanda strip ganda bukan strip tunggal. Catat juga ada spasi sebelum dan setelah "--import". Kemudian tekan <enter>.
+Pastikan nama file sesuai dengan yang telah kamu unduh. Perhatikan juga bahwa itu adalah tanda strip ganda bukan strip tunggal. Catat juga ada spasi sebelum dan setelah "--import". Kemudian tekan <enter>.
 
-File seharusnya terimpor. Jika Anda mendapatkan kesalahan, periksa apakah Anda berada di direktori tempat file tersebut benar-benar ada. Untuk memeriksa direktori mana Anda berada (di Mac atau Linux), ketik pwd. Untuk melihat file apa saja yang ada di direktori tempat Anda berada (di Mac atau Linux), ketik ls. Anda seharusnya melihat file teks "ThomasV.asc" terdaftar, mungkin di antara file lainnya.
+Kalau prosesnya berjalan lancar, file seharusnya berhasil diimpor. Tapi kalau muncul error, kemungkinan besar kamu tidak berada di direktori tempat file itu sebenarnya disimpan.
+
+Untuk memastikan lokasi kamu saat ini di Mac atau Linux, ketik pwd. Ini akan menunjukkan direktori aktifmu sekarang. Lalu untuk melihat daftar file yang ada di situ, ketik ls.
+
+Kalau semuanya benar, kamu seharusnya bisa melihat file teks bernama ThomasV.asc muncul di daftar, mungkin bersama file lainnya.
 
 Kemudian kita menjalankan perintah untuk memverifikasi tanda tangan.
 
@@ -104,9 +112,9 @@ Perhatikan ada 4 "elemen" di sini, masing-masing dipisahkan oleh spasi. Saya tel
 
 Yang menarik, terkadang Anda bisa meninggalkan elemen ke-4 dan komputer menebak apa yang Anda maksud. Saya tidak yakin, tetapi saya percaya ini hanya berfungsi jika nama file hanya berbeda oleh "asc" di akhir.
 
-Jangan hanya menyalin nama file yang telah saya tunjukkan di sini - pastikan mereka cocok dengan nama file apa yang Anda miliki di sistem Anda.
+Jangan hanya menyalin nama file yang telah kita tunjukkan di sini - pastikan mereka cocok dengan nama file apa yang kamu miliki di sistem kamu.
 
-Tekan <enter> untuk menjalankan perintah. Anda seharusnya melihat "good signature from ThomasV" untuk menunjukkan keberhasilan. Akan ada beberapa kesalahan karena kita tidak memiliki kunci publik untuk tanda tangan orang lain yang terkandung dalam file tanda tangan (sistem menggabungkan tanda tangan dalam satu file mungkin berubah dalam versi selanjutnya). Juga, ada peringatan di bagian bawah yang bisa kita abaikan (ini memberi tahu kita bahwa kita belum secara eksplisit memberitahu komputer bahwa kita mempercayai kunci publik ThomasV).
+Tekan <enter> untuk menjalankan perintah. Kalau berhasil, kamu akan melihat tulisan “good signature from ThomasV” sebagai tanda verifikasi sukses. Mungkin akan muncul beberapa pesan error—itu wajar, karena kita belum punya kunci publik dari orang lain yang juga ikut menandatangani file tersebut (sistem tanda tangan gabungan dalam satu file ini bisa saja berubah di versi mendatang). Selain itu, akan ada peringatan di bagian bawah yang bisa kamu abaikan. Peringatan itu cuma bilang kalau kamu belum secara eksplisit menyatakan bahwa kamu “memercayai” kunci publik milik ThomasV—dan itu tidak jadi masalah untuk sekarang.
 
 Sekarang kita memiliki salinan Electrum yang telah diverifikasi dan aman untuk digunakan.
 
@@ -114,7 +122,7 @@ Sekarang kita memiliki salinan Electrum yang telah diverifikasi dan aman untuk d
 
 ### Menjalankan Electrum jika menggunakan Python
 
-Jika Anda mengunduh versi Python, inilah cara membuatnya bekerja. Anda akan melihat di halaman unduhan ini:
+Kalau kamu mengunduh versi Python, inilah cara membuatnya bekerja. Kamu akan melihat di halaman unduhan ini:
 
 ![image](assets/5.webp)
 
@@ -125,9 +133,9 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Salin teks kuning yang disorot, tempelkan ke terminal, dan tekan <enter>. Anda akan diminta kata sandi Anda, mungkin konfirmasi untuk melanjutkan, dan kemudian itu akan menginstal file-file tersebut ("dependencies").
+Salin teks kuning yang disorot, tempelkan ke terminal, dan tekan <enter>. Kamu akan diminta kata sandimu, mungkin konfirmasi untuk melanjutkan, dan setelahnya, proses menginstal file-file tersebut ("dependencies") dimulai.
 
-Anda juga perlu mengekstrak file yang dikompres ke direktori pilihan Anda. Anda dapat melakukan ini dengan antarmuka pengguna grafis, atau dari baris perintah (perintah yang disorot pink) - ingat nama file Anda mungkin berbeda. (Perhatikan bahwa ketika kita memverifikasi unduhan di bagian sebelumnya, itu adalah file zip yang kita verifikasi, bukan direktori yang diekstrak.)
+Setelah itu, kamu juga perlu mengekstrak file zip yang tadi kamu unduh ke folder pilihanmu. Ini bisa kamu lakukan lewat antarmuka grafis (tinggal klik kanan lalu pilih "Extract"), atau lewat baris perintah menggunakan perintah yang ditandai warna pink—ingat, nama file kamu bisa saja berbeda tergantung versi yang diunduh. Perlu diingat juga, yang kita verifikasi sebelumnya adalah file zip-nya, bukan folder hasil ekstraknya. Jadi pastikan kamu mengekstrak dari file zip yang sudah diverifikasi tadi.
 
 Ada opsi untuk "menginstal" menggunakan program PIP, tetapi ini tidak perlu, dan menambahkan langkah ekstra serta instalasi file. Cukup jalankan program menggunakan terminal untuk melewati semua itu.
 
@@ -147,7 +155,7 @@ Setelah Electrum berjalan, jendela terminal akan tetap terbuka. Jika Anda menutu
 
 ### Menjalankan Electrum dengan Appimage
 
-Ini sedikit lebih mudah, tapi tidak se-mudah file executable Windows. Tergantung pada versi Linux yang Anda gunakan, secara default, file Appimage mungkin memiliki atribut yang diset sehingga eksekusi tidak diizinkan oleh sistem. Kita harus mengubah ini. Jika Appimage Anda berfungsi, Anda dapat melewati langkah ini. Navigasikan ke tempat file berada, menggunakan terminal, lalu jalankan perintah ini:
+Langkah ini memang sedikit lebih mudah dibanding instalasi biasa, tapi tetap nggak semudah menjalankan file executable di Windows. Tergantung pada versi Linux yang kamu pakai, kadang file AppImage secara default tidak diizinkan untuk dieksekusi karena sistem belum memberikan izin. Nah, kita perlu mengubah pengaturannya dulu. Kalau AppImage-mu sudah bisa dijalankan, kamu bisa lewati langkah ini. Tapi kalau belum, navigasikan dulu ke folder tempat file AppImage itu berada lewat terminal, lalu jalankan perintah berikut:
 
 ```bash
 sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
@@ -161,7 +169,7 @@ Kemudian, Electrum akan berjalan dengan mengklik dua kali ikon Appimage.
 
 ### Menjalankan Electrum dengan Mac
 
-Cukup klik dua kali file yang diunduh (itu adalah “drive”). Sebuah jendela akan terbuka. Seret ikon Electrum di jendela ke desktop Anda, atau ke mana pun Anda ingin menyimpan program tersebut. Anda kemudian dapat “mengeluarkan” drive, dan menghapus drive (file yang diunduh).
+Cukup klik dua kali file yang diunduh (itu adalah “drive”). Sebuah jendela akan terbuka. Seret ikon Electrum di jendela ke desktopmu, atau ke mana pun kamu ingin menyimpan program tersebut. Setelah itu, kamu dapat “mengeluarkan” drive, dan menghapus drive (file yang diunduh).
 
 Untuk menjalankan program, cukup klik dua kali. Anda mungkin mendapatkan beberapa kesalahan spesifik Mac yang perlu dilewati.
 
@@ -171,15 +179,17 @@ Meskipun saya paling tidak suka Windows, ini adalah metode paling sederhana. Cuk
 
 ## Mulai dengan dompet dummy
 
-Ketika Anda pertama kali memuat Electrum, sebuah jendela akan terbuka seperti ini:
+Ketika kamu pertama kali memuat Electrum, sebuah jendela akan terbuka seperti ini:
 
 ![image](assets/6.webp)
 
-Kita akan memilih server Anda secara manual nanti, tetapi untuk sekarang, biarkan default dan auto-connect.
+Kita akan memilih servermu secara manual nanti, tetapi untuk sekarang, biarkan default dan auto-connect.
 
-Selanjutnya, buat dompet dummy – jangan pernah memasukkan dana ke dalam dompet ini. Tujuan dari dompet dummy ini adalah untuk melanjutkan melalui perangkat lunak dan memastikan semuanya berfungsi dengan baik sebelum Anda memuat dompet asli Anda. Kita mencoba menghindari secara tidak sengaja memberikan privasi dengan dompet asli. Jika Anda hanya berlatih, dompet yang Anda buat dapat dianggap sebagai dompet dummy.
+Selanjutnya, buatlah dompet dummy—ingat, jangan pernah memasukkan dana sungguhan ke dalam dompet ini. Tujuan dari dompet dummy adalah untuk sekadar mencoba-coba dan memastikan semua fitur di aplikasi berjalan lancar sebelum kamu benar-benar memuat dompet aslimu.
 
-Anda dapat membiarkan nama sebagai “default_wallet” atau mengubahnya sesuai yang Anda suka, dan klik next. Nanti, jika Anda memiliki beberapa dompet, Anda dapat menemukan dan membukanya pada tahap ini dengan pertama kali mengklik “Choose…”
+Kita sedang berusaha mencegah risiko privasi bocor secara nggak sengaja dari dompet utama. Jadi selama kamu masih dalam tahap latihan, dompet yang kamu buat bisa dianggap sebagai dompet dummy.
+
+Kamu bisa membiarkan nama dompet tetap sebagai “default_wallet”, atau menggantinya sesuai keinginan, lalu klik Next. Nantinya, kalau kamu punya beberapa dompet, kamu bisa memilih dan membukanya di tahap ini dengan mengklik tombol “Choose…” terlebih dahulu.
 
 ![image](assets/7.webp)
 
@@ -187,7 +197,7 @@ Pilih “Standard wallet” dan <Next>:
 
 ![image](assets/8.webp)
 
-Kemudian, pilih “I already have a seed”. Saya tidak ingin Anda terbiasa membuat seed Electrum, karena menggunakan protokolnya sendiri yang tidak kompatibel dengan dompet lain – inilah mengapa kita tidak mengklik “new seed”.
+Kemudian, pilih “I already have a seed”. Saya tidak ingin terbiasa membuat seed Electrum, karena menggunakan protokolnya sendiri yang tidak kompatibel dengan dompet lain – inilah mengapa kita tidak mengklik “new seed”.
 
 ![image](assets/9.webp)
 
@@ -202,52 +212,53 @@ Kemudian tempelkan kata-kata ke dalam Electrum. Berikut adalah contohnya:
 Electrum akan mencari kata-kata yang cocok dengan protokolnya sendiri. Kita harus melewati itu. Klik opsi, dan pilih BIP39 Seed:
 
 ![image](assets/12.webp)
-Benih kemudian menjadi valid. (Sebelum melakukan ini, Electrum mengharapkan sebuah benih Electrum sehingga benih ini dianggap tidak valid). Sebelum Anda klik lanjut, perhatikan teks yang mengatakan "Checksum OK". Ini penting (untuk dompet nyata yang mungkin Anda gunakan nanti) bahwa Anda melihat ini sebelum melanjutkan, karena ini mengonfirmasi validitas benih yang Anda masukkan. Peringatan di dekat bagian bawah dapat diabaikan, itu adalah keluhan pengembang Electrum tentang BIP39 dan klaim "FUD" mereka bahwa versi mereka (yang tidak kompatibel dengan dompet lain) lebih unggul.
+Setelah itu, seed yang kamu masukkan akan dianggap valid. (Sebelumnya, Electrum menganggap seed-nya tidak valid karena masih menunggu format seed milik Electrum sendiri.) Sebelum kamu lanjut ke langkah berikutnya, perhatikan baik-baik tulisan “Checksum OK”. Ini penting banget—terutama nanti kalau kamu pakai dompet sungguhan—karena tulisan itu menandakan bahwa seed yang kamu masukkan benar dan valid. Kalau kamu melihat peringatan di bagian bawah layar, nggak usah panik—itu cuma keluhan dari pengembang Electrum tentang standar BIP39. Mereka sering menganggap standar lain itu “FUD” dan merasa bahwa sistem mereka (yang memang tidak kompatibel dengan banyak dompet lain) lebih unggul. Tapi untuk saat ini, kamu bisa abaikan saja.
 
-> Sebuah penyimpangan cepat untuk peringatan penting. Tujuan dari checksum adalah untuk memastikan Anda memasukkan benih Anda tanpa kesalahan ketik. Checksum adalah bagian akhir dari benih (kata ke-12 menjadi kata checksum) yang secara matematis ditentukan oleh bagian awal dari benih (11 kata). Jika Anda mengetik sesuatu yang salah di awal, kata checksum tidak akan cocok secara matematis, dan perangkat lunak dompet akan memberi tahu Anda dengan peringatan. Ini tidak berarti bahwa benih tidak dapat digunakan untuk membuat Dompet Bitcoin yang fungsional. Bayangkan membuat dompet dengan kesalahan ketik, memuat dompet dengan bitcoin, kemudian suatu hari Anda mungkin perlu mengembalikan dompet, tetapi ketika Anda melakukannya, Anda tidak mereproduksi kesalahan ketik - Anda akan mengembalikan dompet yang salah! Sangat berbahaya bahwa Electrum akan membiarkan Anda melanjutkan membuat dompet jika checksum Anda tidak valid, jadi diingatkan, itu tanggung jawab Anda untuk memastikan. Dompet lain tidak akan membiarkan Anda melanjutkan, yang jauh lebih aman. Ini adalah salah satu hal yang saya maksud ketika saya mengatakan Electrum baik untuk digunakan, setelah Anda belajar menggunakannya dengan benar (pengembang Electrum harus memperbaiki ini).
+> Sedikit penyimpangan sebentar untuk membahas peringatan penting. Tujuan dari checksum adalah untuk memastikan kamu tidak salah ketik saat memasukkan seed. Jadi begini: kata terakhir dari seed (biasanya kata ke-12) adalah hasil checksum—ia dihitung secara matematis dari 11 kata sebelumnya. Kalau kamu salah ketik satu huruf atau satu kata saja di awal, maka kata terakhir tidak akan cocok secara matematis, dan dompet akan memperingatkan kamu. Tapi hati-hati, ini tidak berarti seed itu tidak bisa digunakan untuk membuat dompet Bitcoin yang berfungsi. Justru itu masalahnya: bayangkan kamu bikin dompet dengan seed yang salah ketik, lalu kamu isi dengan Bitcoin. Suatu hari kamu coba pulihkan dompet itu, tapi kamu lupa bahwa dulu pernah salah ketik—hasilnya kamu malah pulihkan dompet yang berbeda, dan dana kamu bisa hilang selamanya. Sayangnya, Electrum tidak memaksa kamu berhenti kalau seed yang kamu masukkan tidak lolos checksum. Ini sangat berbahaya, jadi kamu sendiri yang harus ekstra hati-hati. Dompet lain biasanya akan langsung menghentikan kamu jika seed salah—dan itu jauh lebih aman. Inilah salah satu alasan kenapa saya bilang Electrum adalah dompet yang bagus, tapi hanya setelah kamu benar-benar paham cara menggunakannya. Pengembang Electrum seharusnya memperbaiki hal ini, tapi sampai saat itu, tanggung jawabnya ada di tangan kamu.
 
-Perhatikan bahwa jika Anda ingin menambahkan passphrase, kesempatan untuk memilih itu ada di jendela opsi ini, tepat di bagian atas.
+Perlu kamu tahu, kalau kamu ingin menambahkan passphrase tambahan untuk memperkuat keamanan dompet, pilihan itu tersedia di jendela opsi ini—letaknya ada di bagian paling atas. Jadi jangan sampai kelewat kalau kamu memang berniat menggunakannya.
 
-Setelah mengklik OK, Anda akan dibawa kembali ke tempat Anda mengetik frasa benih. Jika Anda memilih opsi passphrase, Anda TIDAK memasukkannya dengan kata-kata benih (permintaan untuk itu datang selanjutnya).
+Setelah kamu klik OK, kamu akan dibawa kembali ke layar tempat kamu mengetik frasa seed tadi.
 
-Jika Anda tidak meminta passphrase, Anda akan melihat layar ini selanjutnya - lebih banyak opsi untuk tipe skrip dompet Anda dan jalur derivasi yang dapat Anda pelajari di sini (https://armantheparman.com/public-and-private-keys/), tetapi cukup biarkan default dan lanjutkan.
+Kalau sebelumnya kamu memilih untuk menambahkan passphrase, jangan bingung—passphrase tidak dimasukkan bersama dengan kata-kata seed. Permintaan untuk mengetik passphrase-nya akan muncul setelah langkah ini.
+
+Kalau kamu tidak memilih untuk menambahkan passphrase, maka layar berikutnya yang akan muncul adalah pengaturan lanjutan—berisi opsi tipe skrip dompet dan jalur derivasi. Kamu bisa pelajari lebih dalam soal itu di sini: https://armantheparman.com/public-and-private-keys/.
+
+Tapi untuk sekarang, cukup biarkan pengaturannya tetap default dan lanjutkan saja ke langkah berikutnya.
 
 ![image](assets/13.webp)
 
-> Untuk info tambahan: Opsi pertama memungkinkan Anda memilih antara legacy (alamat yang dimulai dengan “1”), pay-to-script-hash (alamat yang dimulai dengan “3”), atau bech32/native segwit (alamat yang dimulai dengan “bc1q”). Saat penulisan, Electrum belum mendukung taproot (alamat yang dimulai dengan “bc1p”). Opsi kedua di jendela ini memungkinkan Anda untuk memodifikasi jalur derivasi. Saya sarankan Anda tidak pernah memodifikasinya, terutama sebelum memahami apa artinya. Orang akan menekankan pentingnya menuliskan jalur derivasi sehingga Anda dapat memulihkan dompet Anda jika diperlukan, tetapi jika Anda meninggalkannya sebagai default, Anda mungkin akan baik-baik saja, jadi jangan panik - tetapi masih merupakan praktik yang baik untuk menuliskan jalur derivasi.
+> Sebagai tambahan informasi: pilihan pertama di jendela ini memungkinkan kamu memilih jenis alamat Bitcoin—bisa legacy (yang diawali “1”), P2SH (diawali “3”), atau Bech32/Native Segwit (yang mulai dengan “bc1q”). Sampai panduan ini ditulis, Electrum belum mendukung jenis alamat Taproot (yang biasanya dimulai dengan “bc1p”). Pilihan kedua memungkinkan kamu mengatur jalur derivasi, tapi sebaiknya jangan diubah dulu, apalagi kalau kamu belum ngerti fungsinya. Banyak orang bilang penting untuk mencatat jalur ini supaya kalau suatu saat perlu memulihkan dompet, kamu bisa akses lagi dengan benar. Tapi kalau kamu biarkan tetap default, biasanya sudah cukup aman—jadi nggak perlu khawatir, meskipun tetap bagus kalau kamu mencatatnya.
 
-Selanjutnya, Anda akan diberi opsi untuk menambahkan PASSWORD. Ini tidak boleh disamakan dengan “PASSPHRASE”. Password mengunci file di komputer Anda. Passphrase adalah bagian dari pembuatan kunci pribadi. Karena ini adalah dompet palsu, Anda dapat meninggalkan password kosong dan melanjutkan.
+Setelah itu, kamu akan diminta untuk membuat password. Jangan bingung, ini beda dengan passphrase. Password digunakan untuk mengunci file dompet di komputer kamu, sedangkan passphrase adalah bagian dari proses pembentukan kunci pribadi. Karena ini cuma dompet latihan, kamu bisa lewati bagian ini dan lanjut tanpa mengisi password.
 
 ![image](assets/14.webp)
-Anda akan mendapatkan pop-up tentang notifikasi versi baru (Saya sarankan Anda memilih tidak). Dompet tersebut kemudian akan menghasilkan dirinya sendiri dan siap digunakan (tetapi ingat, dompet ini ditujukan untuk dihapus, ini hanya dompet palsu).
+Setelah itu, akan muncul pop-up yang memberi tahu kalau ada versi baru dari Electrum—saran saya, pilih saja “tidak” dulu. Setelah itu, dompet akan selesai dibuat dan siap dipakai, tapi ingat, ini cuma dompet latihan yang nantinya akan dihapus.
 ![image](assets/15.webp)
 
-Ada beberapa hal yang saya sarankan Anda lakukan untuk menyiapkan lingkungan perangkat lunak (hanya diperlukan sekali):
+Ada beberapa hal yang saya sarankan untuk kamu lakukan demi menyiapkan lingkungan software dengan benar—cukup dilakukan sekali saja di awal.
 
 ### Ubah unit menjadi BTC
 
-Pergi ke menu atas, alat –> preferensi electrum, dan di sana di bawah tab umum, Anda akan menemukan opsi untuk mengubah "unit dasar" menjadi BTC.
-Aktifkan tab Alamat dan Koin
-
-Pergi ke menu atas, tampilan, dan pilih "tampilkan alamat". Kemudian kembali ke tampilan dan pilih "tampilkan koin".
+Buka menu di bagian atas, lalu pilih Alat → Preferensi Electrum. Di tab Umum, ubah "unit dasar" menjadi BTC supaya lebih familiar. Setelah itu, aktifkan tab Alamat dan Koin dengan cara masuk ke menu Tampilan, lalu klik “Tampilkan Alamat” dan lanjutkan dengan “Tampilkan Koin”.
 
 ### Aktifkan Oneserver
 
 Secara default, Electrum terhubung ke node acak. Ini juga terhubung ke banyak node sekunder lainnya. Saya tidak yakin data apa yang ditukar dengan node sekunder tersebut, tetapi kita tidak ingin itu terjadi, demi privasi. Bahkan jika Anda menentukan node, misalnya node Anda sendiri, node lainnya juga akan terhubung, dan saya tidak yakin informasi apa yang dibagikan. Bagaimanapun, mudah untuk mencegahnya. Sebelum saya menunjukkan cara menentukan node Anda sendiri, kami akan memaksa Electrum untuk hanya terhubung ke satu server pada satu waktu.
 
-> Ada cara untuk melakukan ini dengan menentukan "oneserver" dari baris perintah, tetapi saya tidak menyarankan cara ini. Saya akan menunjukkan alternatif yang menurut saya lebih mudah dalam jangka panjang, dan lebih mungkin tidak membiarkan Anda secara tidak sengaja terhubung ke node lain.
+> Sebenarnya ada cara untuk melakukan ini lewat baris perintah dengan menambahkan opsi "oneserver", tapi saya tidak menyarankan metode itu. Sebagai gantinya, saya akan tunjukkan cara lain yang menurut saya lebih simpel untuk jangka panjang dan juga lebih aman karena kecil kemungkinan kamu tanpa sengaja tersambung ke node lain.
 
-Alasan kami menggunakan dompet palsu adalah jika kami telah memuat dompet nyata kami, dengan bitcoin nyata kami, kami akan telah terhubung secara tidak sengaja ke node acak sekarang (bahkan jika kami memilih "atur server secara manual" di awal, itu masih terhubung ke node sekunder lainnya karena alasan tertentu (hei pengembang Electrum, Anda harus memperbaiki ini). Jika dompet kami bersifat pribadi, ini akan menjadi bencana.
+Alasan kenapa kita pakai dompet palsu dulu adalah karena kalau kita langsung pakai dompet asli yang berisi bitcoin beneran, maka saat pertama kali dibuka, Electrum bisa aja langsung nyambung ke node acak—meskipun kita udah pilih “atur server secara manual” sebelumnya. Entah kenapa, dia tetap bisa terhubung ke node-node lain di latar belakang (ya, ini salah satu hal yang seharusnya dibenahi oleh pengembang Electrum). Kalau dompet kita menyimpan informasi pribadi, ini bisa jadi masalah besar.
 
-Kami juga tidak dapat melakukan langkah-langkah yang akan saya tunjukkan di bawah ini tanpa terlebih dahulu memuat beberapa jenis dompet. (Kami akan mengedit file konfigurasi yang hanya terisi dan siap untuk diedit setelah dompet dimuat).
+Kita juga nggak bisa langsung melakukan langkah-langkah selanjutnya tanpa lebih dulu memuat semacam dompet, karena file konfigurasi yang akan kita edit nantinya baru terbentuk dan bisa diakses setelah ada dompet yang dibuka.
 
-**Tutup Electrum (PENTING, jika Anda tidak melakukan ini, perubahan berikut yang Anda buat akan terhapus).**
+**Tutup Electrum (PENTING, jika kamu tidak melakukan ini, perubahan berikut yang kamu buat akan terhapus).**
 
 ### File Konfigurasi LINUX/MAC
 
 Buka terminal di Linux atau Mac (instruksi Windows nanti):
 
-Anda seharusnya secara otomatis berada di folder home. Dari sana, navigasikan ke folder pengaturan electrum tersembunyi (ini berbeda dengan tempat aplikasi berada).
+Secara default, kamu akan langsung berada di folder home. Dari situ, lanjutkan dengan masuk ke folder pengaturan Electrum yang tersembunyi—ini bukan folder tempat aplikasinya, tapi tempat di mana semua data konfigurasi Electrum disimpan.
 
 ```bash
 cd .electrum
@@ -275,7 +286,7 @@ Ubah "false" menjadi "true"; dan jangan mengganggu sintaksnya (jangan menghapus 
 
 Tekan <ctrl> x, untuk keluar, kemudian "y" untuk menyimpan, kemudian <enter> yang mengonfirmasi perubahan tanpa mengedit nama file.
 Sekarang jalankan Electrum lagi. Kemudian klik lingkaran di pojok kanan bawah, yang akan membuka pengaturan jaringan. Lalu, dekat bagian atas di tab overview, Anda akan melihat "terhubung ke 1 node" - ini menunjukkan keberhasilan.
-Tepat di bawah itu, Anda akan melihat sebuah bidang teks dan alamat server ada di sana. Anda saat ini terhubung ke node acak tersebut. Lebih lanjut tentang menghubungkan ke sebuah node di bagian selanjutnya.
+Tepat di bawah itu, kamu akan melihat sebuah bidang teks dan alamat server ada di sana. Anda saat ini terhubung ke node acak tersebut. Lebih lanjut tentang menghubungkan ke sebuah node di bagian selanjutnya.
 
 ### Berkas Konfigurasi Windows
 
@@ -301,21 +312,21 @@ Selanjutnya, kita ingin menghubungkan dompet dummy kita ke node pilihan kita. Ji
 2. Terhubung ke node perusahaan terpercaya
 3. Terhubung ke node acak (tidak disarankan).
 
-Ngomong-ngomong, berikut adalah instruksi untuk menjalankan node Anda sendiri, dan ini adalah alasan mengapa Anda harus melakukannya. (semua tutorial di bagian Node atau di kursus gratis kami)
+Ngomong-ngomong, berikut adalah instruksi untuk menjalankan node-mu sendiri, dan ini adalah alasan mengapa kamu harus melakukannya. (semua tutorial di bagian Node atau di kursus gratis kami)
 
 ### Terhubung ke node teman melalui Tor (Panduan segera hadir.)
 
 ### Terhubung ke node perusahaan terpercaya
 
-Alasan untuk melakukan ini adalah jika Anda harus mengakses blockchain dan Anda tidak memiliki node Anda sendiri yang tersedia (atau node teman).
+Alasan kenapa langkah ini penting adalah karena suatu saat kamu mungkin perlu mengakses blockchain, tapi nggak punya node sendiri yang aktif, atau nggak bisa pinjam node milik teman. Jadi, ini semacam langkah cadangan biar kamu tetap bisa jalan meski dalam kondisi darurat.
 
-Mari terhubung ke node Bitaroo - Kami diberitahu bahwa mereka tidak mengumpulkan data. Mereka adalah pertukaran Bitcoin Only, dijalankan oleh seorang Bitcoiner yang bersemangat. Terhubung dengan mereka melibatkan sedikit kepercayaan, tetapi itu lebih baik daripada terhubung ke node acak, yang bisa jadi adalah perusahaan pengawasan.
+Sekarang mari kita hubungkan Electrum ke node Bitaroo. Mereka mengklaim tidak mengumpulkan data apa pun, dan sebagai exchange khusus Bitcoin yang dijalankan oleh Bitcoiner sejati, tingkat kepercayaannya jauh lebih tinggi. Memang masih ada sedikit elemen kepercayaan di sini, tapi itu jauh lebih aman dibanding terhubung ke node acak yang bisa saja dimiliki perusahaan pengawasan.
 
 Dapatkan ke Pengaturan Jaringan dengan mengklik lingkaran di bagian kanan bawah jendela Dompet (merah menunjukkan tidak terhubung, hijau menunjukkan terhubung, dan biru menunjukkan terhubung melalui Tor).
 
 ![image](assets/16.webp)
 
-Setelah Anda mengklik ikon lingkaran, sebuah jendela pop-up akan muncul: Dompet Anda akan menunjukkan "terhubung ke 1 node" karena kita telah memaksa itu sebelumnya.
+Begitu kamu klik ikon lingkaran di pojok kanan bawah, akan muncul jendela pop-up. Karena sebelumnya kita sudah atur Electrum supaya hanya terhubung ke satu server, maka dompetmu akan menampilkan status “terhubung ke 1 node”.
 
 Hilangkan tanda centang pada kotak "pilih server secara otomatis", lalu di Bidang Server, ketik detail Bitaroo seperti yang ditunjukkan:
 
@@ -323,16 +334,16 @@ Hilangkan tanda centang pada kotak "pilih server secara otomatis", lalu di Bidan
 
 Tutup jendela, dan sekarang kita seharusnya terhubung ke node Bitaroo. Untuk mengonfirmasi, lingkaran harus berwarna hijau. Klik lagi dan periksa bahwa detail server tidak berubah kembali ke node acak.
 
-### Terhubung ke node Anda sendiri
+### Terhubung ke node-mu sendiri
 
-Jika Anda memiliki node Anda sendiri itu bagus. Jika Anda hanya memiliki Bitcoin Core, dan bukan Electrum SERVER juga, Anda belum akan dapat menghubungkan Electrum WALLET ke node Anda.
+Kalau kamu sudah punya node sendiri, itu langkah yang bagus. Tapi kalau yang kamu punya baru sebatas Bitcoin Core saja, tanpa Electrum Server, maka kamu belum bisa menghubungkan dompet Electrum ke node tersebut.
 
-> Catatan: Electrum Server dan Electrum Wallet adalah hal yang berbeda. Server adalah perangkat lunak yang diperlukan agar Electrum Wallet dapat berkomunikasi dengan blockchain Bitcoin - Saya tidak tahu mengapa ini dirancang seperti itu - mungkin untuk kecepatan tetapi saya bisa salah.
-Jika Anda menjalankan paket perangkat lunak node seperti MyNode (yang saya rekomendasikan untuk pemula), Raspiblitz (direkomendasikan saat Anda menjadi lebih mahir), atau Umbrel (saya pribadi belum merekomendasikannya karena saya mengalami terlalu banyak masalah), maka Anda akan dapat menghubungkan dompet Anda hanya dengan memasukkan alamat IP dari komputer (Raspberry Pi) yang menjalankan node, ditambah dengan titik dua, dan 50002, seperti yang ditunjukkan pada gambar di bagian sebelumnya. (Lebih lanjut saya akan menunjukkan cara menemukan alamat IP node Anda).
+> Catatan penting: Electrum Server dan Electrum Wallet itu dua hal yang berbeda. Server adalah perangkat lunak tambahan yang dibutuhkan supaya dompet Electrum bisa terhubung dan berkomunikasi dengan blockchain Bitcoin. Kenapa harus ada pemisahan seperti ini, saya juga kurang tahu pasti—mungkin tujuannya biar performa lebih cepat, tapi bisa saja alasan sebenarnya berbeda.
+Kalau kamu menjalankan node Bitcoin pakai software seperti MyNode (yang saya rekomendasikan untuk pemula), Raspiblitz (cocok saat kamu mulai lebih mahir), atau Umbrel (jujur aja, saya belum bisa rekomendasikan karena saya sering nemu masalah), kamu bisa langsung hubungkan dompet Electrum-mu dengan cukup memasukkan alamat IP dari komputer atau Raspberry Pi yang menjalankan node itu, ditambah titik dua dan angka 50002. Contohnya seperti: 192.168.1.10:50002. Nanti saya juga akan tunjukkan gimana cara cari alamat IP node kamu.
 
 Buka pengaturan Jaringan (klik lingkaran hijau atau merah di pojok kanan bawah). Hilangkan tanda centang pada kotak "pilih server secara otomatis", kemudian masukkan alamat IP Anda seperti yang telah saya lakukan, alamat IP Anda akan berbeda, tetapi titik dua dan "50002" harus sama.
 
-Tutup jendela, dan sekarang kita seharusnya terhubung ke node Anda. Untuk mengonfirmasi, klik lingkaran lagi dan periksa bahwa detail server tidak berubah kembali ke node acak.
+Tutup jendela, dan sekarang kita seharusnya terhubung ke node yang kamu punya. Untuk mengonfirmasi, klik lingkaran lagi dan periksa bahwa detail server tidak berubah kembali ke node acak.
 
 Terkadang, meskipun melakukan segalanya dengan benar, tampaknya itu menolak untuk terhubung. Berikut adalah hal-hal yang dapat dicoba...
 
@@ -344,31 +355,31 @@ Terkadang, meskipun melakukan segalanya dengan benar, tampaknya itu menolak untu
 
 ## MENEMUKAN ALAMAT IP NODE ANDA
 
-Alamat IP bukanlah sesuatu yang biasanya diketahui dan digunakan oleh pengguna reguler. Saya telah membantu banyak orang menjalankan node, dan kemudian menghubungkan dompet mereka ke node – sebuah hambatan yang sering tampaknya adalah menemukan alamat IP-nya.
+Alamat IP memang bukan sesuatu yang biasa diketahui atau digunakan oleh pengguna pada umumnya. Dari pengalaman saya membantu banyak orang menyiapkan node dan menghubungkannya ke dompet, salah satu kendala paling umum justru ada di langkah sederhana ini—menemukan alamat IP dari node mereka.
 
-Untuk MyNode, Anda dapat mengetik di jendela browser: `mynode.local`
+Untuk MyNode, kamu bisa mengetik di jendela browser: `mynode.local`
 
-Terkadang, “mynode.local” tidak berfungsi (pastikan Anda tidak mengetiknya di bilah pencarian Google. Untuk memaksa bilah navigasi mengenali teks Anda sebagai alamat dan bukan pencarian, awali teks dengan `http://` seperti ini: `http://mynode.local`. Jika itu tidak berhasil, coba dengan "s", seperti ini: `https://mynode.local`.
+Kadang, alamat seperti “mynode.local” nggak langsung bisa diakses (dan pastikan juga kamu nggak ngetiknya di kolom pencarian Google). Supaya browser mengenali itu sebagai alamat web dan bukan kata kunci pencarian, tambahkan http:// di depannya, jadi jadi http://mynode.local. Kalau itu tetap nggak berhasil, coba versi dengan “s” di depannya: https://mynode.local.
 
-Ini akan mengakses perangkat, dan Anda dapat mengklik tautan pengaturan (lihat "lingkaran" biru saya di bawah) untuk menampilkan layar ini di mana alamat IP terletak:
+Langkah ini akan mengarahkan kamu ke antarmuka perangkat node-mu. Setelah masuk, cari dan klik bagian pengaturan—di sana biasanya ada tampilan seperti yang saya lingkari biru di gambar sebelumnya. Di layar itu, kamu bisa menemukan alamat IP dari perangkat node-mu.
 
-Halaman ini akan dimuat dan Anda akan melihat alamat IP node (lingkaran "biru")
+Halaman ini akan dimuat dan kamu akan melihat alamat IP node (lingkaran "biru")
 
-Kemudian, di masa depan, Anda dapat mengetik 192.168.0.150, atau http://192.168.0.150 ke dalam browser Anda.
+Kemudian, di masa depan, kamu dapat mengetik 192.168.0.150, atau http://192.168.0.150 ke dalam browsermu.
 
 Untuk Raspiblitz (ketika tidak menghubungkan layar), Anda memerlukan metode berbeda (yang juga berfungsi untuk MyNode):
 
-Login ke halaman web router Anda – di sini kita akan menemukan alamat IP dari semua perangkat yang terhubung. Halaman web router akan berupa alamat IP yang Anda masukkan ke dalam browser web. Tampilan saya adalah:
+Login ke halaman web router kamu – di sini kita akan menemukan alamat IP dari semua perangkat yang terhubung. Halaman web router akan berupa alamat IP yang kamu masukkan ke dalam browser web. Tampilannya seperti ini:
 
     http://192.168.0.1
 
-Untuk mendapatkan kredensial login ke router, Anda dapat mencarinya di manual pengguna atau terkadang bahkan pada stiker di router itu sendiri. Cari nama pengguna dan kata sandi. Jika Anda tidak dapat menemukannya, coba User: “admin” Password: “password”
+Kalau kamu butuh login ke router, coba cek dulu manual pengguna atau lihat stiker yang biasanya ditempel di bagian bawah atau belakang router—di situ sering ada info login. Kalau nggak ketemu juga, kamu bisa coba kredensial default yang umum dipakai: nama pengguna “admin” dan kata sandi “password”.
 
-Jika Anda berhasil login, Anda akan melihat perangkat yang terhubung dan dari nama-nama mereka, mungkin jelas mana yang node Anda. Alamat IP akan ada di sana.
+Jika sudah berhasil login, kamu akan melihat perangkat yang terhubung dan dari nama-nama mereka, mungkin jelas mana yang node milikmu. Alamat IP akan ada di sana.
 ### Jika dua metode pertama gagal, metode terakhir akan berhasil tetapi itu melelahkan:
 Pertama, temukan alamat IP dari perangkat apa pun di jaringan Anda (komputer saat ini sudah cukup).
 
-Di Mac, Anda akan menemukannya di preferensi Jaringan:
+Di Mac, kamu akan menemukannya di preferensi Jaringan:
 
 ![image](assets/21.webp)
 
@@ -380,7 +391,7 @@ Untuk Linux, gunakan baris perintah:
 ifconfig | grep inet
 ```
 
-Garis vertikal itu adalah simbol "pipe" dan Anda akan menemukannya di bawah tombol <delete>. Anda akan melihat beberapa output dan sebuah alamat IP. (Abaikan 127.0.0.1 itu bukan itu, dan abaikan netmask)
+Garis vertikal itu adalah simbol "pipe" dan kamu akan menemukannya di bawah tombol <delete>. Disitu, akan terlihat beberapa output dan sebuah alamat IP. (Abaikan 127.0.0.1 itu bukan itu, dan abaikan netmask)
 
 Untuk Windows, buka prompt perintah (cmd) dan ketik:
 
@@ -390,53 +401,52 @@ ipconfig/all
 
 dan tekan Enter. Alamat IP dapat ditemukan di output.
 
-Itu adalah bagian yang mudah. Bagian yang sulit sekarang adalah menemukan alamat IP node Anda – kita perlu menebak secara brute-force. Misalkan misalnya alamat IP komputer Anda dimulai dengan 192.168.0.xxx, maka untuk node Anda, di browser, coba: `https://192.168.0.2`
+Itu bagian mudahnya. Sekarang masuk ke bagian yang agak tricky: menemukan alamat IP node-mu. Kita harus mencarinya secara manual, atau istilah kasarnya, "brute-force". Misalnya, kalau alamat IP komputer kamu dimulai dengan 192.168.0.xxx, maka node kamu kemungkinan besar juga pakai awalan yang sama. Jadi, kamu bisa coba buka browser dan ketik alamat seperti https://192.168.0.2, lalu coba naikkan angkanya satu per satu (192.168.0.3, 192.168.0.4, dan seterusnya) sampai kamu menemukan tampilan antarmuka node-mu.
 
-Nomor terkecil yang mungkin adalah 2 (0 berarti perangkat apa pun, dan 1 milik router) dan yang tertinggi, saya percaya adalah 255 (ini kebetulan adalah 11111111 dalam biner, angka terbesar yang dipegang oleh 1 byte).
+Nomor IP terkecil yang mungkin kamu coba adalah 2, karena `0` biasanya dipakai untuk menunjuk semua perangkat dalam jaringan, dan `1` biasanya sudah dipakai oleh router. Nomor tertingginya adalah `255`, yang secara teknis adalah angka maksimum dari 1 byte (karena 255 = 11111111 dalam biner). Jadi rentang alamat IP yang bisa kamu “brute-force” coba adalah dari `192.168.x.2` sampai `192.168.x.255`, tergantung subnet jaringanmu.
 
-Satu per satu, bekerja jalan Anda naik menuju 255. Akhirnya, Anda akan berhenti pada nomor yang benar yang memuat halaman MyNode Anda (atau halaman RaspiBlitz). Kemudian Anda akan tahu nomor apa yang harus dimasukkan dalam pengaturan jaringan Electrum Anda untuk terhubung ke node Anda.
+Lakukan pencarian alamat IP satu per satu, naikkan angkanya perlahan sampai maksimal 255. Nanti kamu akan menemukan satu alamat yang ketika dibuka di browser akan menampilkan halaman MyNode atau RaspiBlitz kamu. Nah, begitu halaman itu muncul, berarti kamu sudah menemukan alamat IP node-mu. Alamat inilah yang nanti harus kamu masukkan ke pengaturan jaringan di Electrum agar bisa terhubung langsung ke node milikmu sendiri.
 
-Ini akan terlihat seperti ini (pastikan Anda menyertakan titik dua dan nomor setelahnya):
+Ini akan terlihat seperti ini (pastikan kamu menyertakan titik dua dan nomor setelahnya):
 
 ![image](assets/22.webp)
 
-> Penting untuk diketahui bahwa alamat IP ini adalah INTERNAL untuk jaringan rumah Anda. Tidak ada orang di luar yang bisa melihatnya dan mereka tidak sensitif. Mereka seperti ekstensi telepon dalam organisasi besar yang mengarahkan Anda ke telepon yang berbeda.
+> Penting untuk kamu pahami bahwa alamat IP ini bersifat internal, hanya berlaku di dalam jaringan rumahmu. Jadi orang dari luar internet nggak bisa mengaksesnya. Anggap saja ini seperti nomor ekstensi di kantor—misalnya kamu tekan 101 untuk menelepon meja bagian keuangan. Sama halnya, alamat IP ini hanya membantu perangkat-perangkat dalam jaringan yang sama saling menemukan dan berkomunikasi. Jadi nggak perlu khawatir, alamat ini nggak sensitif dan nggak membahayakan privasi.
 
 ## Hapus dompet palsu
 
-Sekarang kita telah berhasil terhubung ke satu dan hanya satu node. Inilah cara Electrum akan dimuat secara default dari sekarang. Anda sekarang harus menghapus dompet palsu (Menu: file –> delete), jika Anda secara tidak sengaja mengirim dana ke dompet tidak aman ini (Ini tidak aman karena kita tidak membuatnya dengan cara yang aman).
+Sekarang setelah Electrum berhasil terhubung ke satu node saja (dan bukan acak node di jaringan), mulai sekarang ia akan selalu dimuat dengan cara ini secara default. Langkah selanjutnya: hapus dompet palsu yang tadi kamu buat. Caranya, buka menu File lalu pilih Delete. Ini penting banget, apalagi kalau kamu tanpa sengaja sempat mengirim dana ke dompet ini—karena dompet tadi dibuat hanya untuk latihan, tanpa prosedur keamanan yang layak, jadi jangan pernah menyimpannya untuk penggunaan sungguhan.
 
 ## Buat dompet latihan
 
-Setelah menghapus dompet palsu, mulai lagi dan buat yang baru, dengan cara yang sama, hanya kali ini, tulis kata-kata benih dan simpan dengan cukup aman.
+Setelah kamu menghapus dompet palsu tadi, sekarang saatnya mulai dari awal lagi dan buat dompet baru—caranya sama seperti sebelumnya. Tapi kali ini, tulislah seed phrase-nya (kata-kata benih) dan simpan dengan benar-benar aman. Ini bukan lagi sesi latihan, jadi jangan cuma copy-paste ke komputer atau foto pakai HP. Gunakan metode yang aman, seperti menulis di kertas tahan air atau logam, dan simpan di tempat yang tidak mudah diakses orang lain. Ingat, siapa pun yang punya akses ke seed ini bisa mengambil seluruh isi dompetmu.
 
-Ini adalah ide yang baik untuk belajar bagaimana Electrum bekerja dengan dompet latihan ini, tanpa dompet keras yang merepotkan (diperlukan untuk keamanan tinggi). Hanya masukkan sejumlah kecil bitcoin ke dalam dompet ini – Anggap Anda akan kehilangan uang ini. Setelah mahir, kemudian pelajari cara menggunakan Electrum dengan dompet keras.
+Ini adalah langkah bijak: gunakan dompet latihan tanpa hardware wallet lebih dulu agar kamu bisa belajar memahami cara kerja Electrum tanpa ribet. Kirimkan hanya sedikit bitcoin ke dompet ini—anggap saja ini uang yang siap hilang demi belajar. Setelah kamu terbiasa dan paham cara menggunakannya dengan benar, barulah lanjut ke tahap berikutnya: menghubungkan Electrum ke hardware wallet untuk tingkat keamanan yang jauh lebih tinggi.
 
-Di dompet baru yang Anda buat, Anda akan melihat daftar alamat. Yang hijau disebut "alamat penerima". Mereka adalah produk dari 3 hal:
+Di dompet baru yang dibuat, kamu akan melihat daftar alamat. Yang hijau disebut "alamat penerima". Mereka adalah produk dari 3 hal:
 
-- Frasa benih
+- Seed phrase
 - Frasa sandi
 - Jalur derivasi
 
-Dompet baru Anda memiliki satu set alamat penerima yang dapat secara matematis dan dapat direproduksi dibuat oleh dompet perangkat lunak apa pun yang memiliki benih, frasa sandi, dan jalur derivasi. Ada 4,3 miliar dari mereka! Lebih dari yang Anda butuhkan. Electrum hanya menunjukkan 20 pertama, dan kemudian lebih banyak saat Anda menggunakan yang pertama.
-Informasi lebih lanjut tentang kunci privat Bitcoin dapat ditemukan dalam panduan ini.
+Dompet baru yang kamu buat akan otomatis memiliki daftar alamat penerima Bitcoin—jumlahnya sangat banyak, bahkan mencapai lebih dari 4,3 miliar! Semua alamat itu bisa direkonstruksi ulang kapan saja, selama kamu punya seed phrase, passphrase (jika ada), dan jalur derivasinya. Electrum sendiri hanya menampilkan 20 alamat pertama secara default, dan akan menampilkan lebih banyak jika kamu mulai menggunakannya. Kalau kamu ingin memahami lebih dalam soal bagaimana kunci privat bekerja di balik layar, kamu bisa cek panduan khusus tentang itu.
 ![image](assets/23.webp)
 
 Ini sangat berbeda dengan beberapa dompet lain yang hanya menampilkan 1 alamat pada satu waktu.
 
-Karena Anda memasukkan frasa benih saat membuat dompet ini, Electrum memiliki kunci privat untuk setiap alamat, dan memungkinkan untuk melakukan pengeluaran dari alamat-alamat tersebut.
+Karena kamu memasukkan seed phrase saat membuat dompet ini, Electrum secara otomatis menghasilkan kunci privat untuk setiap alamat yang dibuat dalam dompet itu. Artinya, kamu punya kendali penuh atas dana yang masuk ke alamat-alamat tersebut, dan kamu bisa dengan bebas mengirimkannya kapan saja—Electrum sudah memiliki semua yang dibutuhkan untuk menandatangani transaksi.
 
-Perhatikan juga bahwa ada alamat-alamat kuning, yang disebut "alamat-alamat kembalian" – Ini hanyalah satu set alamat lain dari cabang matematika yang berbeda (ada 4,3 miliar lagi dari ini). Dompet menggunakan alamat-alamat ini untuk secara otomatis mengirimkan dana berlebih kembali ke dalam dompet sebagai kembalian. Misalnya, jika Anda mengambil 1,5 bitcoin dan menghabiskan 0,5 untuk pedagang, sisa 1,0 perlu ditempatkan di suatu tempat. Dompet Anda akan menghabiskannya ke alamat kembalian kuning kosong berikutnya – jika tidak, itu akan pergi ke penambang! Untuk informasi lebih lanjut tentang ini (UTXOs) lihat panduan ini. (https://armantheparman.com/utxo/)
+Perhatikan juga bahwa beberapa alamat dalam dompetmu ditandai dengan warna kuning—ini disebut “alamat kembalian”. Alamat-alamat ini berasal dari jalur matematika yang berbeda, tapi masih bagian dari dompetmu dan bisa ada hingga 4,3 miliar juga. Mereka dipakai secara otomatis saat kamu melakukan transaksi. Misalnya, kalau kamu kirim 0,5 BTC ke seseorang dari saldo 1,5 BTC, maka sisa 1,0 BTC akan dikirim balik ke dompetmu—bukan ke alamat awal, tapi ke salah satu alamat kembalian kuning ini. Kalau tidak, sisa uangmu bisa hilang ke penambang! Kalau kamu penasaran soal bagaimana sistem ini bekerja di balik layar (terutama tentang UTXO), kamu bisa baca lebih dalam lewat panduan ini: https://armantheparman.com/utxo/.
 
-Selanjutnya, kembali ke situs kunci privat Ian Colman dan masukkan benih (alih-alih menghasilkan satu). Anda akan melihat di bawah bahwa informasi kunci privat dan publik berubah; semuanya bergantung pada hal-hal di atas di halaman.
+Langkah selanjutnya, buka kembali situs Ian Colman yang digunakan untuk mengelola seed phrase, lalu masukkan seed yang sudah kamu punya (jangan buat seed baru). Setelah kamu tempelkan seed-nya, kamu akan lihat informasi di bagian bawah halaman—termasuk kunci privat dan kunci publik—akan otomatis berubah. Semua informasi ini dihitung berdasarkan data yang kamu masukkan di bagian atas halaman, seperti seed phrase, jalur derivasi, dan tipe alamat.
 
-> Ingat, Anda seharusnya "tidak pernah" memasukkan benih pada komputer untuk dompet Bitcoin Anda yang sebenarnya – malware dapat mencurinya. Kita hanya menggunakan dompet latihan, untuk tujuan belajar, jadi tidak apa-apa untuk sekarang.
+> Ingat baik-baik: jangan pernah memasukkan seed phrase dompet Bitcoin asli kamu ke komputer—terutama kalau komputer itu dipakai sehari-hari dan berisiko terinfeksi malware. Seed itu kunci utama ke seluruh saldo Bitcoin-mu, dan kalau sampai dicuri, nggak ada cara untuk mengembalikannya. Tapi karena kita lagi latihan dan hanya pakai dompet dummy (tanpa dana asli), nggak masalah untuk sekarang. Tetap waspada, karena kebiasaan kecil ini bisa menentukan keamanan keuanganmu di masa depan.
 
-Gulir ke bawah dan ubah jalur derivasi menjadi BIP84 (segwit) untuk mencocokkan dompet Electrum Anda dengan mengklik tab BIP84.
+Scroll ke bawah dan ubah jalur derivasi menjadi BIP84 (segwit) untuk mencocokkan dompet Electrum kamu dengan mengklik tab BIP84.
 
 ![image](assets/24.webp)
 
-Di bawah itu, Anda akan melihat kunci privat ekstensi akun dan kunci publik ekstensi akun:
+Di bawah itu, kamu akan melihat kunci privat ekstensi akun dan kunci publik ekstensi akun:
 
 ![image](assets/25.webp)
 
@@ -460,17 +470,17 @@ Sekarang kita akan memeriksa alamat-alamat kembalian. Gulir sedikit ke atas ke j
 
 ![image](assets/29.webp)
 
-Sekarang gulir ke bawah dan bandingkan alamat-alamatnya cocok dengan alamat-alamat kuning di Electrum
+Sekarang scroll ke bawah dan bandingkan alamat-alamatnya cocok dengan alamat-alamat kuning di Electrum
 
 Mengapa kita melakukan semua ini?
 
-Kita mengambil kata-kata benih dan memasukkannya melalui dua program perangkat lunak independen yang berbeda untuk memastikan mereka memberi kita informasi yang sama. Ini secara signifikan mengurangi risiko bahwa kode jahat bersembunyi di dalam dan memberi kita kunci privat atau publik palsu, atau alamat-alamat.
+Intinya, kita menggunakan dua program berbeda untuk memproses seed phrase yang sama, lalu kita bandingkan hasilnya—apakah alamat, kunci privat, atau xpub yang dihasilkan cocok semua. Ini penting karena kalau dua software yang terpisah menghasilkan output identik, maka kemungkinan besar datanya benar dan tidak dimanipulasi oleh malware tersembunyi. Cara ini membantu mengurangi risiko “disabotase diam-diam” oleh perangkat lunak palsu.
 
 Langkah selanjutnya adalah menerima tes kecil dan menghabiskannya dalam dompet dari satu alamat ke alamat lain.
 
-## Menguji Dompet (Belajar menggunakannya)
+## Menguji Wallet (Belajar Cara Menggunakannya)
 
-Di sini saya akan menunjukkan kepada Anda cara menerima UTXO ke dompet Anda dan kemudian memindahkannya (menghabiskannya) ke alamat lain dalam dompet. Ini adalah jumlah yang sangat kecil yang tidak akan kita keberatan kehilangan.
+Di bagian ini, saya akan menunjukkan langkah-langkah untuk menerima sejumlah kecil Bitcoin (UTXO) ke dalam dompet dummy kita, lalu mengirimkannya kembali ke alamat lain dalam dompet yang sama. Karena jumlahnya sangat kecil, kita tidak akan khawatir jika hilang—tujuan utamanya hanya untuk latihan, agar kamu bisa memahami alur transaksi secara nyata tanpa risiko.
 
 Ini memiliki sejumlah tujuan.
 
@@ -480,9 +490,9 @@ Ini memiliki sejumlah tujuan.
 Buka dompet Electrum uji Anda dan klik tab Alamat, kemudian klik kanan pada alamat pertama dan pilih Salin –> Alamat:
 ![image](assets/30.webp)
 
-Alamat sekarang berada dalam memori komputer Anda.
+Alamat sekarang berada dalam memori komputermu.
 
-Sekarang pergi ke bursa tempat Anda memiliki beberapa bitcoin, dan mari kita tarik sejumlah kecil ke alamat ini, katakanlah 50.000 sats. Saya akan menggunakan Coinbase sebagai contoh karena ini adalah bursa yang paling sering digunakan, meskipun mereka adalah musuh dari Bitcoin, dan saya merasa jijik untuk masuk ke akun lama yang terlantar untuk tujuan ini.
+Sekarang buka akun di bursa tempat kamu punya sedikit Bitcoin—dan mari kita tarik sejumlah kecil, misalnya 50.000 sats, ke alamat dompet dummy yang sudah kamu buat tadi. Di sini saya akan pakai Coinbase sebagai contoh, karena memang banyak orang yang pakai. Walaupun begitu, secara pribadi saya kurang suka Coinbase karena mereka dianggap berseberangan dengan prinsip dasar Bitcoin. Tapi demi latihan, kita anggap ini sekadar contoh teknis.
 
 Masuk, dan klik tombol Kirim/Terima, yang per hari ini berada di pojok kanan atas halaman web.
 
@@ -492,36 +502,35 @@ Saya jelas tidak memiliki dana dengan Coinbase, tetapi bayangkan saja ada dana d
 
 ![image](assets/32.webp)
 
-Tergantung pada bursa, Anda mungkin melihat sats di dompet Anda segera, atau beberapa penundaan jam/hari.
+Tergantung pada exchange atau bursa, Anda mungkin melihat sats di dompet Anda segera, atau beberapa penundaan jam/hari.
 
-Perhatikan bahwa Electrum akan menunjukkan Anda menerima koin bahkan jika mereka belum dikonfirmasi di blockchain. Koin yang Anda miliki dibaca dari daftar tunggu Node Bitcoin, atau “mempool”. Ketika masuk ke blok, Anda akan melihat dana sebagai terkonfirmasi.
+Perlu kamu tahu, Electrum akan langsung menampilkan koin sebagai "diterima" begitu transaksi masuk ke mempool—yaitu daftar transaksi yang menunggu untuk dimasukkan ke dalam blok oleh para penambang. Jadi, meskipun koin belum benar-benar tercatat di blockchain (alias belum terkonfirmasi), kamu tetap bisa melihatnya muncul di dompet. Setelah transaksi benar-benar masuk ke blok, statusnya akan berubah menjadi "terkonfirmasi", artinya dana tersebut sudah resmi aman di jaringan..
 
-Sekarang setelah kita memiliki UTXO di dompet kita, kita harus memberi label padanya. Hanya kita yang bisa melihat label ini, ini tidak ada hubungannya dengan buku besar publik. Semua Label Electrum kita hanya terlihat di komputer yang kita gunakan. Kita sebenarnya bisa menyimpan file dan menggunakannya untuk mengembalikan semua label kita ke komputer lain yang menjalankan dompet yang sama.
+Sekarang setelah ada UTXO (koin yang belum terpakai) di dalam dompet, kita bisa mulai memberi label pada koin tersebut. Label ini bersifat pribadi dan hanya terlihat oleh kita di komputer yang sedang kita gunakan—tidak akan muncul di blockchain atau buku besar publik. Electrum menyimpan semua label ini secara lokal. Jika suatu saat kamu pindah ke komputer lain tapi masih menggunakan dompet yang sama, kamu bisa memindahkan file label ini agar semua catatan tetap utuh dan sinkron.
 
 ### Membuat label untuk UTXO
 
-Saya membutuhkan donasi ke dompet uji ini, terima kasih kepada @Sathoarder yang telah memberi saya UTXO langsung (10.000 sats), dan orang lain (anon) menyumbang ke alamat yang sama (5000 sats). Perhatikan ada 15.000 sats di saldo alamat pertama, dan total 2 transaksi (kolom paling kanan). Di bagian bawah, Saldo adalah 10.000 sats terkonfirmasi, dan 5.000 sats lainnya belum terkonfirmasi (masih di mempool).
+Saya sedang mencoba menerima donasi ke dompet uji ini. Terima kasih kepada @Sathoarder yang sudah langsung mengirimkan UTXO sebesar 10.000 sats, dan juga kepada seseorang yang anonim yang ikut menyumbang 5.000 sats ke alamat yang sama. Kalau kamu perhatikan, total saldo di alamat pertama sekarang jadi 15.000 sats, dengan dua transaksi yang tercatat di kolom paling kanan. Tapi lihat juga bagian bawah aplikasi: 10.000 sats sudah terkonfirmasi di blockchain, sedangkan 5.000 sats lainnya masih tertahan di mempool, jadi belum dianggap final.
 
 ![image](assets/33.webp)
 
-Sekarang, jika kita menuju ke tab Koin, kita bisa melihat dua “koin yang diterima” atau UTXO. Keduanya berada di alamat yang sama.
+Sekarang, kalau kita buka tab Koin di Electrum, kita akan melihat dua entri UTXO alias “koin yang diterima”. Keduanya berasal dari alamat yang sama, tapi masing-masing mewakili transaksi yang berbeda—yang satu sudah dikonfirmasi, satunya belum..
 
 ![image](assets/34.webp)
 
-Kembali ke tab alamat, jika Anda mengklik dua kali pada area “label” di sebelah alamat, Anda akan dapat memasukkan beberapa teks, kemudian tekan <enter> untuk menyimpan:
+Kalau kamu kembali ke tab Alamat, coba klik dua kali di kolom “Label” di samping salah satu alamat. Kamu bisa langsung mengetikkan teks apa pun sebagai label—misalnya untuk mencatat siapa yang mengirim, atau dari mana dana itu berasal—lalu tekan <enter> untuk menyimpannya.
 
 ![image](assets/35.webp)
 
-Ini adalah praktik yang baik sehingga Anda dapat melacak dari mana koin Anda berasal, apakah mereka bebas dari KYC atau tidak, dan berapa biaya setiap UTXO untuk Anda (dalam kasus Anda perlu menjual dan menghitung pajak yang akan diambil dari Anda oleh pemerintah Anda).
-Idealnya, Anda seharusnya menghindari mengumpulkan banyak koin dalam satu alamat yang sama. Jika Anda memutuskan untuk melakukannya (sebaiknya tidak), Anda dapat memberi label pada setiap koin alih-alih memberi label yang sama pada semuanya dengan menggunakan metode alamat. Anda sebenarnya tidak bisa pergi ke tab "koin" dan mengedit label di sana (tidak, itu akan terlalu intuitif!). Anda harus pergi ke tab Riwayat, temukan transaksi, beri label pada itu, dan kemudian Anda akan melihat label di bagian koin. Semua label yang Anda lihat di bagian koin berasal dari label Alamat ATAU label riwayat, tetapi label riwayat apa pun menggantikan label alamat apa pun. Untuk mencadangkan label Anda ke dalam file, Anda dapat mengekspornya dari menu di atas, dompet–>label–>ekspor.
+Memberi label pada koin yang masuk ke dompetmu itu penting agar kamu bisa tahu asal-usul setiap koin—apakah koin itu bebas dari KYC (Know Your Customer) atau justru bisa dilacak balik ke identitasmu, serta untuk membantu kamu menghitung pajak kalau suatu saat harus menjualnya. Sebaiknya jangan gabungkan banyak koin ke dalam satu alamat, karena bisa bikin pelacakan dan privasi jadi lebih rumit. Tapi kalau kamu tetap memilih cara itu, kamu bisa kasih label satu per satu berdasarkan transaksinya, bukan cuma alamatnya. Caranya bukan di tab "Coins" (padahal itu yang paling logis), tapi kamu harus buka tab "Riwayat", cari transaksinya, dan kasih label di sana. Nanti label itu bakal muncul juga di tab "Coins". Perlu dicatat juga, label yang dibuat di riwayat akan menggantikan label dari alamatnya. Dan supaya data label ini nggak hilang, kamu bisa simpan dengan cara ekspor lewat menu Wallet → Labels → Export.
 
-Selanjutnya, mari kita habiskan koin dari alamat pertama ke alamat kedua. Klik kanan pada alamat pertama dan pilih "habiskan dari" (Ini sebenarnya tidak perlu dalam skenario ini, tetapi bayangkan kita memiliki banyak koin di banyak alamat; dengan menggunakan fitur ini, kita dapat memaksa dompet untuk hanya menghabiskan koin yang kita inginkan. Jika kita ingin memilih beberapa koin di beberapa alamat, kita dapat memilih alamat dengan klik kiri sambil menahan tombol perintah, kemudian klik kanan, dan pilih "habiskan dari":
+Selanjutnya, kita akan mengirim koin dari alamat pertama ke alamat kedua. Klik kanan pada alamat pertama lalu pilih “habiskan dari”. Meskipun di contoh ini langkah ini tidak benar-benar diperlukan, bayangkan saja kalau kita punya banyak koin tersebar di berbagai alamat—fitur ini sangat berguna untuk memastikan kita hanya menggunakan koin tertentu saja. Kalau ingin memilih beberapa alamat sekaligus, kamu bisa klik kiri sambil menahan tombol Command (atau Ctrl di Windows), lalu klik kanan dan pilih “habiskan dari”.
 
 ![image](assets/36.webp)
 
-Setelah Anda melakukan itu, akan ada bar hijau di bagian bawah jendela dompet yang menunjukkan jumlah koin yang telah Anda pilih dan total yang tersedia untuk dihabiskan.
+Setelah kamu melakukan langkah tersebut, akan muncul bar berwarna hijau di bagian bawah jendela dompet yang menunjukkan berapa banyak koin yang sudah kamu pilih dan berapa total saldo yang tersedia untuk dibelanjakan.
 
-Anda juga dapat menghabiskan koin individu dalam satu alamat dan mengecualikan yang lain di alamat yang sama, tetapi ini tidak disarankan karena Anda meninggalkan koin di alamat yang telah dilemahkan secara kriptografis karena pengeluaran salah satu koin (alasan lain untuk tidak menaruh banyak koin dalam satu alamat, selain alasan privasi, adalah bahwa mengingat Anda seharusnya menghabiskan semuanya jika Anda menghabiskan satu, ini menjadi mahal secara tidak perlu). Begini cara memilih satu koin dari alamat bersama, tetapi jangan lakukan itu:
+Kita memang bisa memilih satu koin (UTXO) dari sebuah alamat dan membiarkan koin lainnya tidak digunakan, tapi ini sangat tidak disarankan. Ketika Anda membelanjakan sebagian dari koin di suatu alamat, tanda tangan digital milikmu membocorkan informasi kriptografis yang dapat digunakan untuk melemahkan keamanan alamat tersebut. Itu sebabnya, secara praktik terbaik, sebaiknya habiskan semua koin dari satu alamat sekaligus, lalu kirim kembalian ke alamat baru yang masih belum digunakan. Ini juga alasan mengapa menyimpan banyak koin di satu alamat bukan ide yang bagus—selain menurunkan privasi, ini juga berisiko dan bisa membuat biaya transaksi menjadi lebih mahal jika ingin memindahkan semuanya nanti. Namun, jika kamu tetap ingin tahu caranya, bisa langsung membuka tab “Coins” (Koin), lalu pilih UTXO tertentu dari daftar, klik kanan, dan pilih “Spend”. Tapi ingat, ini hanya untuk tujuan pembelajaran—jangan gunakan cara ini untuk transaksi sungguhan.
 
 ![image](assets/37.webp)
 
@@ -529,7 +538,7 @@ Sekarang, kita memiliki dua koin yang dipilih untuk dihabiskan. Selanjutnya, kit
 
 ![image](assets/38.webp)
 
-Kemudian pergi ke tab "Kirim", dan tempel alamat kedua di bidang "bayar ke". Tidak perlu menambahkan deskripsi; Anda bisa, tetapi Anda dapat melakukannya nanti dengan mengedit label. Untuk jumlahnya, pilih "Max" untuk menghabiskan semua koin yang kita pilih. Kemudian klik "Bayar", dan kemudian klik tombol "lanjutan" pada pop-up yang muncul.
+Kemudian pergi ke tab "Kirim", dan tempel alamat kedua di bidang "bayar ke". Tidak perlu menambahkan deskripsi; Kamu bisa, tetapi dapat melakukannya nanti dengan mengedit label. Untuk jumlahnya, pilih "Max" untuk menghabiskan semua koin yang kita pilih. Kemudian klik "Bayar", dan kemudian klik tombol "lanjutan" pada pop-up yang muncul.
 
 ![image](assets/39.webp)
 
@@ -540,9 +549,9 @@ Selalu klik "lanjutan" pada tahap ini agar kita bisa mendapatkan kontrol yang le
 Kita melihat dua kotak/jendela putih internal. Yang atas adalah jendela input (koin mana yang dihabiskan), dan yang bawah adalah output (kemana koin itu pergi).
 
 Perhatikan, status (kiri atas) adalah "belum ditandatangani" untuk saat ini. "Jumlah yang dikirim" adalah 0 karena koin sedang ditransfer dalam dompet. Biayanya adalah 481 sats. Perhatikan bahwa jika itu adalah 480 sats, nol terakhir akan dihilangkan, seperti ini, 0.0000048 dan bagi mata yang lelah, ini bisa terlihat seperti 48 sats – berhati-hatilah (sesuatu yang seharusnya diperbaiki oleh pengembang Electrum).
-Ukuran transaksi merujuk pada ukuran data dalam byte, bukan jumlah bitcoin. "Ganti dengan biaya" diaktifkan secara default, dan ini memungkinkan Anda untuk mengirim ulang transaksi dengan biaya yang lebih tinggi jika diperlukan. LockTime memungkinkan Anda untuk menyesuaikan kapan transaksi tersebut valid - Saya belum mencoba itu, tetapi menyarankan agar tidak menggunakannya kecuali Anda benar-benar memahami apa yang Anda lakukan dan telah berlatih dengan jumlah kecil.
+Ukuran transaksi merujuk pada ukuran data dalam byte, bukan jumlah bitcoin. "Ganti dengan biaya" diaktifkan secara default, dan ini memungkinkanmu untuk mengirim ulang transaksi dengan biaya yang lebih tinggi jika diperlukan. LockTime memungkinkan kita untuk menyesuaikan kapan transaksi tersebut valid - Saya belum mencoba itu, tetapi menyarankan agar tidak menggunakannya kecuali Anda benar-benar memahami apa yang kau lakukan dan telah berlatih dengan jumlah kecil.
 
-Di bagian bawah, kita memiliki beberapa alat penyesuaian biaya penambangan yang canggih. Yang perlu Anda lakukan untuk transfer internal adalah mengaturnya ke biaya minimum 1 sat/byte. Cukup ketikkan angka tersebut secara manual di kolom Target fee. Untuk memeriksa biaya yang sesuai untuk pembayaran eksternal, Anda dapat berkonsultasi dengan https://mempool.space untuk melihat seberapa sibuk mempool tersebut, dan beberapa biaya yang disarankan ditampilkan.
+Di bagian bawah, kita memiliki beberapa alat penyesuaian biaya penambangan yang canggih. Yang perlu kita lakukan untuk transfer internal adalah mengaturnya ke biaya minimum 1 sat/byte. Cukup ketikkan angka tersebut secara manual di kolom Target fee. Untuk memeriksa biaya yang sesuai untuk pembayaran eksternal, kamu dapat berkonsultasi dengan https://mempool.space untuk melihat seberapa sibuk mempool tersebut, dan beberapa biaya yang disarankan ditampilkan.
 
 ![image](assets/41.webp)
 
@@ -558,21 +567,21 @@ Di jendela bawah, kita melihat alamat kita. Perhatikan total bitcoin dari input 
 
 Jika kita menyesuaikan biaya penambangan, nilai output akan secara otomatis berubah.
 
-> Penting untuk diperhatikan di sini: Perhatikan warna alamat di jendela transaksi. Ingat bahwa alamat hijau terdaftar di tab alamat Anda. Jika sebuah alamat disorot hijau (atau kuning) di jendela transaksi, maka Electrum telah mengenali alamat tersebut sebagai miliknya. Jika alamat tidak memiliki sorotan, maka itu adalah alamat eksternal (eksternal ke dompet yang saat ini terbuka), dan Anda harus memeriksanya dengan lebih hati-hati.
+> Penting untuk diperhatikan di sini: Perhatikan warna alamat di jendela transaksi. Ingat bahwa alamat hijau terdaftar di tab alamatmu. Jika sebuah alamat disorot hijau (atau kuning) di jendela transaksi, maka Electrum telah mengenali alamat tersebut sebagai miliknya. Jika alamat tidak memiliki sorotan, maka itu adalah alamat eksternal (eksternal ke dompet yang saat ini terbuka), dan kamu harus memeriksanya dengan lebih hati-hati.
 
-Setelah Anda memeriksa semua dalam transaksi dan yakin Anda senang dengan koin mana yang Anda belanjakan, dan kemana koin tersebut akan pergi, Anda dapat klik "finalise."
+Setelah memeriksa semua dalam transaksi dan senang dengan koin mana yang dibelanjakan, dan kemana koin tersebut akan pergi, Anda dapat klik "finalise."
 
 ![image](assets/42.webp)
 
-Setelah Anda klik "finalise", Anda tidak dapat lagi melakukan pengeditan - Jika Anda perlu, Anda harus menutup ini dan memulai lagi. Perhatikan tombol "finalise" telah berubah menjadi "export", dan tombol baru muncul: "save", "combine", "sign" dan "broadcast". Tombol "broadcast" tidak aktif karena transaksi belum ditandatangani dan sehingga tidak valid pada tahap ini.
+Setelah klik "finalise", kamu tidak dapat lagi melakukan pengeditan - Jika perlu, kamu harus menutup ini dan memulai lagi. Perhatikan tombol "finalise" telah berubah menjadi "export", dan tombol baru muncul: "save", "combine", "sign" dan "broadcast". Tombol "broadcast" tidak aktif karena transaksi belum ditandatangani dan sehingga tidak valid pada tahap ini.
 
-Setelah Anda klik sign, jika Anda memiliki password untuk dompet Anda akan diminta untuk itu, dan kemudian status (kanan atas) akan berubah dari "Unsigned" menjadi "Signed". Kemudian tombol "Broadcast" akan tersedia.
-Setelah Anda menyiarkan, Anda dapat menutup jendela transaksi. Jika Anda pergi ke tab alamat, Anda akan melihat alamat pertama kosong, dan alamat kedua memiliki 1 UTXO.
-Catatan: Anda akan melihat semua perubahan ini bahkan sebelum transaksi ditambang ke dalam blok, atau "dikonfirmasi". Ini karena Electrum memperbarui saldo/transaksi berdasarkan tidak hanya data blockchain, tetapi juga data mempool. Tidak semua dompet melakukan ini.
+Setelah klik sign, jika kamu memiliki password untuk dompet Anda akan diminta untuk itu, dan kemudian status (kanan atas) akan berubah dari "Unsigned" menjadi "Signed". Kemudian tombol "Broadcast" akan tersedia.
+Setelah menyiarkan, kamu dapat menutup jendela transaksi. Jika pergi ke tab alamat, kamu akan melihat alamat pertama kosong, dan alamat kedua memiliki 1 UTXO.
+Catatan: Kita akan melihat semua perubahan ini bahkan sebelum transaksi ditambang ke dalam blok, atau "dikonfirmasi". Ini karena Electrum memperbarui saldo/transaksi berdasarkan tidak hanya data blockchain, tetapi juga data mempool. Tidak semua dompet melakukan ini.
 
 Satu hal yang perlu diperhatikan adalah bahwa alih-alih menyiarkan, kita dapat menyimpan transaksi untuk nanti. Transaksi dapat disimpan baik dalam keadaan belum ditandatangani maupun sudah ditandatangani.
 
-Klik tombol "export" (paradoksnya, JANGAN klik tombol "save"), dan Anda akan melihat beberapa opsi. Transaksi dikodekan dengan teks, dan oleh karena itu dapat disimpan dalam beberapa cara.
+Klik tombol "export" (paradoksnya, JANGAN klik tombol "save"), dan kamu akan melihat beberapa opsi. Transaksi dikodekan dengan teks, dan oleh karena itu dapat disimpan dalam beberapa cara.
 
 ![image](assets/43.webp)
 
@@ -588,35 +597,35 @@ Ini akan memuat kamera komputer Anda. Anda kemudian menunjukkan kamera foto kode
 
 Tidak intuitif bagaimana cara memuat transaksi yang disimpan, jadi perhatikan khusus. Memuat transaksi bukanlah "tool" tetapi opsi tersebut tersembunyi di menu tools (hal lain yang harus diperbaiki oleh pengembang Electrum).
 
-Proses serupa dimungkinkan dengan transaksi yang disimpan sebagai file. Cobalah berlatih dengan salah satu metode, dalam dompet yang sama. Saya tidak akan membahasnya di sini tetapi Anda dapat menggunakan fitur ini untuk memindahkan transaksi antara dompet yang sama di komputer yang berbeda, antara dompet multisignature, dan ke dan dari dompet hardware. Berikut adalah beberapa instruksi.
+Proses serupa dimungkinkan dengan transaksi yang disimpan sebagai file. Cobalah berlatih dengan salah satu metode, dalam dompet yang sama. Saya tidak akan membahasnya di sini tetapi kamu dapat menggunakan fitur ini untuk memindahkan transaksi antara dompet yang sama di komputer yang berbeda, antara dompet multisignature, dan ke dan dari dompet hardware. Berikut adalah beberapa instruksi.
 
-Sekarang, kembali ke tombol "save" – ini bukan cara untuk menyimpan teks transaksi. Yang sebenarnya dilakukan adalah memberitahu dompet Electrum untuk mengenali transaksi ini di komputer lokal sebagai pembayaran yang diajukan. Jika Anda melakukannya secara tidak sengaja, Anda akan melihat transaksi dengan ikon komputer kecil. Anda dapat klik kanan dan menghapus transaksi – jangan khawatir, Anda tidak dapat menghapus bitcoin dengan cara ini. Electrum kemudian akan melupakan bahwa transaksi ini pernah terjadi, dan akan "mengembalikan" sats kembali dan menampilkan sats di lokasi yang benar di mana mereka sebenarnya ada.
+Ketika Anda mengklik tombol “save” setelah membuat transaksi, sebenarnya Anda tidak sedang menyimpan file teks atau dokumen biasa. Yang dilakukan Electrum adalah menyimpan transaksi tersebut sebagai proposed transaction (pembayaran yang diajukan) secara lokal di komputer Anda. Artinya, Electrum akan menganggap transaksi itu seperti sudah “dalam proses”, meskipun belum benar-benar dikirim ke jaringan Bitcoin. Jika Anda melakukannya tanpa sengaja, transaksi itu akan muncul di daftar riwayat dengan ikon kecil bergambar komputer. Jangan panik—Anda bisa menghapusnya dengan klik kanan pada transaksi tersebut dan memilih “delete”. Ini tidak akan menghapus bitcoin Anda. Electrum hanya akan “melupakan” bahwa transaksi itu pernah dibuat dan secara otomatis memperbarui saldo, menampilkan kembali sats Anda di tempat yang seharusnya.
 
 ### Alamat Perubahan
 
-Alamat perubahan itu menarik. Anda perlu memahami UTXO untuk memahami penjelasan ini. Jika Anda menghabiskan ke alamat jumlah yang lebih kecil dari UTXO, maka bitcoin yang tersisa akan pergi ke penambang kecuali output perubahan ditentukan.
+Alamat perubahan itu menarik. kamu perlu memahami UTXO untuk memahami penjelasan ini. Jika kamu menghabiskan ke alamat jumlah yang lebih kecil dari UTXO, maka bitcoin yang tersisa akan pergi ke penambang kecuali output perubahan ditentukan.
 
-Anda mungkin memiliki UTXO bitcoin 6.15 dan ingin menghabiskan 0.15 bitcoin untuk mendonasikan kepada beberapa pengunjuk rasa yang tertindas oleh pemerintah "demokratis" tirani di suatu tempat di dunia. Anda kemudian akan mengambil 6.15 bitcoin (menggunakan fungsi "spend from" di Electrum), dan memasukkannya dalam sebuah transaksi.
+Kamu mungkin memiliki UTXO bitcoin 6.15 dan ingin menghabiskan 0.15 bitcoin untuk mendonasikan kepada beberapa pengunjuk rasa yang tertindas oleh pemerintah "demokratis" tirani di suatu tempat di dunia. Kemudian, kamu akan mengambil 6.15 bitcoin (menggunakan fungsi "spend from" di Electrum), dan memasukkannya dalam sebuah transaksi.
 
-Anda akan menempelkan alamat para pengunjuk rasa di bidang "pay to", mungkin Anda akan menempatkan "EndTheFed & WEF" di bidang "description", dan untuk jumlahnya, Anda akan memasukkan 0.15 bitcoin dan klik "pay", lalu "advanced".
-Di layar transaksi, untuk jendela input, Anda akan melihat UTXO bitcoin sebesar 6.15. Untuk jendela output, Anda akan melihat sebuah alamat tanpa penyorotan (ini adalah alamat para pengunjuk rasa) dengan 0.15 bitcoin di sampingnya. Anda juga akan melihat alamat berwarna kuning dengan jumlah bitcoin sedikit kurang dari 6.0. Ini adalah alamat kembalian yang secara otomatis dipilih oleh dompet dari salah satu alamat kembalian kuning miliknya. Tujuan dari alamat kembalian adalah agar dompet dapat menaruh koin kembalian di dalamnya tanpa mengacaukan ketersediaan alamat penerima yang mungkin Anda rencanakan untuk digunakan, atau telah mengirimkan faktur untuknya. Jika mereka akan digunakan nanti oleh pelanggan, misalnya, Anda tidak ingin dompet Anda secara otomatis menggunakannya dan mengisinya. Ini berantakan dan buruk untuk privasi.
+Kamu akan menempelkan alamat para pengunjuk rasa di kolom "pay to", mungkin kamu akan menulis "EndTheFed & WEF" di kolom "description", lalu masukkan jumlahnya 0.15 bitcoin dan klik "pay", kemudian pilih "advanced".
+Di layar transaksi, untuk jendela input, kamu akan melihat UTXO bitcoin sebesar 6.15. Di jendela output, akan terlihat satu alamat tanpa sorotan (alamat para pengunjuk rasa) dengan 0.15 bitcoin di sampingnya. Lalu, ada satu alamat berwarna kuning dengan jumlah sedikit kurang dari 6.0 bitcoin. Itu adalah alamat kembalian yang secara otomatis dipilih oleh dompet dari daftar alamat kembalian miliknya sendiri. Alamat kembalian digunakan agar koin yang tersisa tidak masuk ke alamat penerima, yang mungkin akan digunakan lagi oleh orang lain atau untuk keperluan faktur. Ini penting agar tidak mengacaukan sistem dan menjaga privasi tetap terjaga.
 Perhatikan bahwa saat Anda menyesuaikan biaya penambangan, jumlah output kembalian akan secara otomatis menyesuaikan, bukan jumlah pembayaran.
 
 ### Perubahan manual atau bayar ke banyak
 
-Ini adalah fitur yang sangat menarik dari Electrum. Anda mengaksesnya seperti ini.
+Ini adalah fitur yang sangat menarik dari Electrum. Cara mengaksesnya seperti ini.
 
 ![image](assets/46.webp)
 
-Anda kemudian dapat memasukkan beberapa tujuan untuk saldo UTXO yang Anda belanjakan, seperti ini:
+Anda kemudian dapat memasukkan beberapa tujuan untuk saldo UTXO yang akan dibelanjakan, seperti ini:
 
 ![image](assets/47.webp)
 
-Tempel alamatnya, ketik koma, lalu spasi, lalu jumlahnya, lalu <enter>, lalu lakukan lagi. JANGAN MEMASUKKAN JUMLAH DALAM JENDELA “JUMLAH” – Electrum akan mengisi total di sini saat Anda mengetik jumlah individu di jendela “Bayar ke”.
+Tempel alamatnya, ketik koma, lalu spasi, lalu jumlahnya, lalu <enter>, lalu lakukan lagi. JANGAN MEMASUKKAN JUMLAH DALAM JENDELA “JUMLAH” – Electrum akan mengisi total di sini saat kamu mengetik jumlah individu di jendela “Bayar ke”.
 
-Ini memungkinkan Anda untuk secara manual menentukan kemana kembalian pergi (misalnya alamat tertentu di dompet Anda, atau dompet lain), atau Anda dapat membayar banyak orang sekaligus. Jika total Anda tidak cukup tinggi untuk mencocokkan ukuran UTXO, Electrum masih akan membuat output kembalian tambahan untuk Anda.
+Ini memungkinkanmu untuk secara manual menentukan kemana kembalian pergi (misalnya alamat tertentu di dompetmu, atau dompet lain), atau kamu dapat membayar banyak orang sekaligus. Jika totalnya tidak cukup tinggi untuk mencocokkan ukuran UTXO, Electrum masih akan membuat output kembalian tambahan untukmu.
 
-Fitur Bayar ke Banyak juga memungkinkan kemungkinan untuk membuat "PayJoins" atau "CoinJoins" Anda sendiri – di luar cakupan artikel ini, tetapi saya memiliki panduan di sini. (https://armantheparman.com/cj/)
+Fitur Bayar ke Banyak juga memungkinkan kemungkinan untuk membuat "PayJoins" atau "CoinJoins" punyamu sendiri – di luar cakupan artikel ini, tetapi saya memiliki panduan di sini. (https://armantheparman.com/cj/)
 
 ## Dompet
 
@@ -630,13 +639,13 @@ Tipe mana yang dimaksud seseorang saat menggunakan kata “dompet” jelas dalam
 
 ## Dompet Hanya Menonton – sebuah latihan
 
-Tidak sepenuhnya jelas apa guna dompet hanya menonton, tetapi saya akan mulai dengan menjelaskan apa itu, bagaimana membuat satu untuk latihan, dan kemudian kita akan kembali ke tujuannya nanti saat saya menjelaskan lebih lanjut tentang dompet perangkat keras. (Untuk ulasan mendalam tentang cara menggunakan dompet perangkat keras, dan berbagai merek spesifik, lihat di sini.)
-Kita akan membuat dompet reguler dummy (kali ini menambahkan sedikit lebih kompleksitas dengan passphrase), dan kemudian dompet pengamatannya. Jika Anda mau, Anda bisa menyalin yang saya buat persis, atau membuat milik Anda sendiri – dompet ini akan dibuang; jangan benar-benar menggunakannya. Mulailah dengan menghasilkan seed 12 kata menggunakan situs web Ian Coleman.
+Dompet hanya menonton adalah dompet yang tidak menyimpan kunci privat, sehingga tidak bisa mengirim Bitcoin, tapi tetap bisa melihat saldo, melacak transaksi, dan menerima pembayaran. Anda bisa membuatnya di Electrum dengan memilih opsi "watch-only" dan memasukkan kunci publik atau alamat. Dompet ini berguna untuk memantau dana tanpa risiko pencurian, dan akan lebih relevan saat kita membahas dompet perangkat keras nanti.
+Kita akan membuat dompet reguler dummy, kali ini dengan sedikit tambahan kompleksitas berupa passphrase, lalu kita buat dompet hanya-menonton dari sana. Anda bisa mengikuti langkah-langkah persis seperti saya, atau buat versi Anda sendiri—ingat, ini hanya latihan, jadi dompetnya akan dibuang dan jangan digunakan untuk menyimpan dana sungguhan. Langkah pertama: buka situs web Ian Coleman dan hasilkan seed 12 kata.
 Perhatikan 12 kata acak di tangkapan layar di bawah ini, dan bahwa saya telah memasukkan passphrase di bidang passphrase:
 
 PASSPHRASE: “Craig Wright adalah pembohong dan penipu dan layak berada di penjara. Juga, Ross Ulbricht seharusnya dibebaskan dari penjara segera.”
 
-Passphrase bisa sampai 100 karakter panjangnya, dan idealnya harus tidak ambigu dan tidak terlalu pendek – Yang saya gunakan hanya untuk bersenang-senang – Saya umumnya menyarankan menghindari huruf besar dan simbol hanya untuk mengurangi stres Anda dalam mencoba kombinasi jika Anda pernah memiliki masalah dengan mengingat passphrase Anda.
+Passphrase dapat terdiri hingga 100 karakter, dan sebaiknya tidak terlalu pendek maupun membingungkan. Gunakan kombinasi kata yang mudah Anda ingat, hindari huruf besar dan simbol agar lebih mudah diingat dan mengurangi stres jika suatu saat Anda perlu mengingatnya tanpa mencatat.
 
 ![image](assets/48.webp)
 
@@ -662,9 +671,9 @@ Kunci privat dan publik yang diperluas ada tepat di bawah, dan mereka berubah ke
 
 ![image](assets/51.webp)
 
-Anda juga akan melihat “BIP32 extended private/public” keys – ini untuk diabaikan untuk saat ini.
+Kamu juga akan melihat “BIP32 extended private/public” keys – ini untuk diabaikan untuk saat ini.
 
-Kunci privat diperluas akun dapat digunakan untuk sepenuhnya meregenerasi dompet Anda. Kunci publik diperluas akun, bagaimanapun, hanya dapat menghasilkan versi terbatas dari dompet yang sama (dompet pengamat) – Jika Anda memasukkan kunci ini di Electrum, itu masih akan menghasilkan semua 8,6 miliar alamat yang akan dihasilkan oleh seed atau kunci privat diperluas, tetapi tidak akan ada kunci privat yang tersedia untuk Electrum, jadi tidak ada pengeluaran yang mungkin. Mari kita lakukan sekarang untuk menunjukkan poinnya:
+Kunci privat diperluas memungkinkan regenerasi penuh dompet beserta kemampuan mengakses dan membelanjakan dana, sedangkan kunci publik diperluas hanya memungkinkan pembuatan dompet versi pengamat—tanpa akses untuk membelanjakan dana. Meski Electrum bisa menghasilkan seluruh alamat dari kunci publik diperluas, kunci privat tetap tak tersedia, jadi transaksi keluar tak dapat dilakukan. Sekarang, mari kita praktikkan untuk memperjelas hal ini.
 
 Salin “account extended public key” ke clipboard.
 
@@ -677,10 +686,9 @@ Kemudian pergi ke Electrum, biarkan dompet yang kita buat terbuka, dan pergi ke 
 - Tidak perlu memasukkan semantik skrip dan jalur derivasi
 - Tidak perlu menambahkan password (mengunci dompet)
 
-Ketika dompet dimuat, Anda seharusnya memperhatikan bahwa alamat yang sama persis dimuat seperti sebelumnya ketika seed dimasukkan. Anda juga seharusnya memperhatikan di bagian atas di bilah judul, tertulis “watching wallet”. Dompet ini dapat menunjukkan kepada Anda alamat Anda, dan saldo (dengan memeriksa saldo melalui node), tetapi Anda tidak dapat MENANDATANGANI transaksi (karena dompet pengamat tidak memiliki kunci privat).
-Lalu apa gunanya?
+Dompet hanya pengamat adalah jenis dompet yang memungkinkan pengguna memantau saldo dan aktivitas transaksi tanpa memiliki akses untuk membelanjakan dana, karena tidak menyimpan kunci privat. Dompet ini berguna untuk mengecek aktivitas dompet utama dari perangkat terpisah, mempermudah akuntansi atau audit, dan menerima dana secara aman tanpa risiko pencurian aset.
 
-Salah satu alasan, dan bukan alasan utama, adalah Anda dapat mengamati dompet dan saldo Anda di komputer tanpa mengungkapkan kunci privat Anda kepada malware apa pun di komputer tersebut.
+Salah satu alasan, dan bukan alasan utama, adalah dapat mengamati dompet dan saldo milikmu di komputer tanpa mengungkapkan kunci privatmu kepada malware apa pun di komputer tersebut.
 
 Alasan lainnya adalah hal tersebut DIPERLUKAN untuk melakukan pembayaran jika Anda memilih untuk menyimpan kunci privat Anda di luar komputer; saya akan menjelaskan:
 
@@ -763,16 +771,16 @@ sudo groupadd plugdev
 sudo usermod -aG plugdev $(whoami)
 sudo udevadm control –reload-rules && sudo udevadm trigger
 ```
-Jika Anda mendapatkan pesan "group plugdev" sudah ada, itu tidak masalah, lanjutkan saja. Setelah perintah kedua, Anda tidak akan mendapatkan umpan balik/balasan, langsung saja lanjutkan ke perintah ketiga.
-Anda mungkin perlu memutuskan dan kemudian menyambungkan kembali ColdCard ke komputer.
+Jika kamu mendapatkan pesan "group plugdev" sudah ada, itu tidak masalah, lanjutkan saja. Setelah perintah kedua, kamu tidak akan mendapatkan umpan balik/balasan, langsung saja lanjutkan ke perintah ketiga.
+Kamu mungkin perlu memutuskan dan kemudian menyambungkan kembali ColdCard ke komputer.
 
-Jika setelah semua ini Anda masih tidak dapat menyambungkan ColdCard, saya akan mencoba memperbarui firmware (panduan segera, tapi untuk saat ini, Anda dapat menemukan instruksi di situs web produsen).
+Jika setelah semua ini masih tidak dapat menyambungkan ColdCard, saya akan mencoba memperbarui firmware (panduan segera, tapi untuk saat ini, Anda dapat menemukan instruksi di situs web produsen).
 
 Selanjutnya, buat dompet baru:
 
 - Dompet standar
 - Gunakan perangkat keras
-- Ini akan memindai dan mendeteksi ColdCard Anda. Lanjutkan.
+- Ini akan memindai dan mendeteksi ColdCard milikmu. Lanjutkan.
 - Pilih semantik skrip dan jalur derivasi
 - Putuskan apakah file dompet harus dienkripsi (disarankan)
 
@@ -780,49 +788,50 @@ Selanjutnya, buat dompet baru:
 
 Dengan kabel terhubung, transaksi menjadi mudah. Menandatangani transaksi akan lancar.
 
-Jika menggunakan perangkat dalam cara yang terisolasi dari jaringan, Anda harus secara manual memindahkan transaksi yang disimpan antar perangkat menggunakan kartu microSD. Ada beberapa trik.
+Jika menggunakan perangkat dalam cara yang terisolasi dari jaringan, kamu harus secara manual memindahkan transaksi yang disimpan antar perangkat menggunakan kartu microSD. Ada beberapa trik.
 
-Setelah membuat transaksi dan menyelesaikannya, Anda perlu mengklik tombol ekspor di sudut kiri bawah. Anda akan melihat "simpan ke file" yang secara kontraintuitif, bukan yang kita inginkan. Anda sebenarnya harus terlebih dahulu pergi ke opsi menu terakhir yang mengatakan "untuk dompet perangkat keras", dan kemudian, dari dalam pilihan itu, temukan "simpan ke file" lainnya dan pilih itu. Kemudian simpan file ke microSD, keluarkan kartu dan masukkan ke ColdCard. Ingat bahwa Anda mungkin perlu menerapkan passphrase untuk memilih dompet yang benar. Layar akan mengatakan siap untuk menandatangani. Klik tanda centang, periksa transaksi, dan lanjutkan dengan mengonfirmasi dengan tanda centang. Setelah selesai, keluarkan kartu, dan masukkan kembali ke komputer.
+Setelah membuat transaksi dan menyelesaikannya, kamu perlu mengklik tombol ekspor di sudut kiri bawah. Anda akan melihat "simpan ke file" yang secara kontraintuitif, bukan yang kita inginkan. Sebenarnya, kamu harus terlebih dahulu pergi ke opsi menu terakhir yang mengatakan "untuk dompet perangkat keras", dan kemudian, dari dalam pilihan itu, temukan "simpan ke file" lainnya dan pilih itu. Kemudian simpan file ke microSD, keluarkan kartu dan masukkan ke ColdCard. Ingat bahwa Anda mungkin perlu menerapkan passphrase untuk memilih dompet yang benar. Layar akan mengatakan siap untuk menandatangani. Klik tanda centang, periksa transaksi, dan lanjutkan dengan mengonfirmasi dengan tanda centang. Setelah selesai, keluarkan kartu, dan masukkan kembali ke komputer.
 
-Kemudian kita perlu membuka transaksi menggunakan electrum. Fungsinya tersembunyi di menu alat –> muat transaksi. Navigasikan sistem file dan temukan file tersebut. Akan ada tiga file setiap kali Anda menandatangani. File asli yang disimpan oleh Watching Wallet, dan dua yang dibuat oleh ColdCard (saya tidak tahu mengapa ini terjadi). Satu akan mengatakan "ditandatangani" dan satu akan mengatakan "final". Ini tidak intuitif tetapi yang "ditandatangani" tidak berguna, kita perlu membuka transaksi "final".
+Kemudian kita perlu membuka transaksi menggunakan electrum. Fungsinya tersembunyi di menu alat –> muat transaksi. Navigasikan sistem file dan temukan file tersebut. Akan ada tiga file setiap kali kamu menandatangani. File asli yang disimpan oleh Watching Wallet, dan dua yang dibuat oleh ColdCard (saya tidak tahu mengapa ini terjadi). Satu akan mengatakan "ditandatangani" dan satu akan mengatakan "final". Ini tidak intuitif tetapi yang "ditandatangani" tidak berguna, kita perlu membuka transaksi "final".
 
-Setelah Anda memuat itu, Anda dapat mengklik "siarkan" dan pembayaran akan dilakukan.
+Setelah termuat, kamu dapat mengklik "siarkan" dan pembayaran akan dilakukan.
 
 ## Memperbarui Electrum dan Direktori Tersembunyi ".electrum"
 
-Electrum berada di komputer Anda di dua tempat. Ada aplikasinya sendiri, dan ada folder konfigurasi tersembunyi. Folder tersebut berada di tempat yang berbeda tergantung pada sistem operasi Anda:
+Electrum berada di komputermu di dua tempat. Ada aplikasinya sendiri, dan ada folder konfigurasi tersembunyi. Folder tersebut berada di tempat yang berbeda tergantung pada sistem operasi komputermu:
 
 Windows:
 
-> C:/Users/nama_pengguna_anda_di_sini/AppData/Roaming/Electrum
+> C:/Users/nama_pengguna_di_sini/AppData/Roaming/Electrum
 
 Mac:
 
-> /Users/nama_pengguna_anda_di_sini/.electrum
+> /Users/nama_pengguna_di_sini/.electrum
 
 Linux:
 
-> /home/nama_pengguna_anda_di_sini/.electrum
+> /home/nama_pengguna_di_sini/.electrum
 
-Perhatikan bahwa “.” sebelum “electrum” di Linux dan Mac – itu menunjukkan direktori tersebut tersembunyi. Juga, perhatikan bahwa direktori ini hanya dibuat (secara otomatis) setelah Anda menjalankan Electrum untuk pertama kalinya. Direktori berisi file konfigurasi electrum dan juga direktori yang menyimpan dompet yang telah Anda simpan.
+Perhatikan bahwa “.” sebelum “electrum” di Linux dan Mac – itu menunjukkan direktori tersebut tersembunyi. Juga, perhatikan bahwa direktori ini hanya dibuat (secara otomatis) setelah menjalankan Electrum untuk pertama kalinya. Arahan berisi file konfigurasi electrum dan juga direktori yang menyimpan dompet yang telah Anda simpan.
 
-Jika Anda menghapus program Electrum dari komputer Anda, direktori tersembunyi akan tetap ada, kecuali Anda secara aktif menghapus itu juga.
-Untuk meningkatkan Electrum, Anda mengikuti prosedur yang sama seperti yang saya jelaskan di awal untuk mengunduh dan memverifikasi. Anda kemudian akan memiliki dua salinan program di komputer Anda, dan Anda dapat menjalankan salah satu dari mereka – setiap program akan mengakses folder electrum tersembunyi yang sama untuk konfigurasi dan akses dompetnya. Semua hal yang kita simpan, seperti unit dasar, node default untuk terhubung, preferensi lainnya, dan akses ke dompet, akan tetap ada karena semua itu disimpan di folder tersebut.
-### Memindahkan Electrum dan Dompet Anda ke komputer lain
+Jika perlu menghapus program Electrum dari komputermu, direktori tersembunyi akan tetap ada, kecuali jika secara aktif menghapus itu juga.
+Untuk meningkatkan Electrum, kita mengikuti prosedur yang sama seperti yang saya jelaskan di awal untuk mengunduh dan memverifikasi. Anda kemudian akan memiliki dua salinan program di komputer Anda, dan Anda dapat menjalankan salah satu dari mereka – setiap program akan mengakses folder electrum tersembunyi yang sama untuk konfigurasi dan akses dompetnya. Semua hal yang kita simpan, seperti unit dasar, node default untuk terhubung, preferensi lainnya, dan akses ke dompet, akan tetap ada karena semua itu disimpan di folder tersebut.
 
-Untuk melakukan ini, Anda dapat menyalin file program ke drive USB, dan juga menyalin direktori .electrum. Kemudian salin atau pindahkan ke komputer baru. Anda tidak perlu memverifikasi program lagi. Pastikan untuk menyalin direktori .electrum ke lokasi default (ingat untuk menyalinnya SEBELUM menjalankan Electrum untuk pertama kalinya di komputer tersebut, jika tidak, folder .electrum default yang kosong akan terisi, dan Anda mungkin akan bingung).
+### Memindahkan Electrum dan Dompet ke komputer lain
+
+Untuk melakukan ini, kita dapat menyalin file program ke drive USB, dan juga menyalin direktori .electrum. Kemudian salin atau pindahkan ke komputer baru. Nah, kita tidak perlu memverifikasi program lagi. Tapi pastikan untuk menyalin direktori .electrum ke lokasi default (ingat untuk menyalinnya SEBELUM menjalankan Electrum untuk pertama kalinya di komputer tersebut, jika tidak, folder .electrum default yang kosong akan terisi, dan kamu mungkin akan bingung).
 
 ## Label
 
-Seperti yang saya jelaskan sebelumnya, pada tab alamat, ada kolom label. Anda dapat mengklik dua kali di sana dan memasukkan catatan untuk diri Anda sendiri (hanya di komputer Anda, tidak publik, dan tidak di blockchain).
+Seperti yang saya jelaskan sebelumnya, pada tab alamat, ada kolom label. kamu dapat mengklik dua kali di sana dan memasukkan catatan untuk dirimu sendiri (hanya di komputer milikmu, tidak publik, dan tidak di blockchain).
 
 ![image](assets/54.webp)
 
-Ketika memindahkan dompet Electrum Anda ke komputer lain, Anda mungkin tidak ingin kehilangan semua catatan ini. Anda dapat mencadangkannya ke file menggunakan menu, dompet–> label –> ekspor, dan kemudian di komputer baru, gunakan dompet–>label–>impor.
+Ketika memindahkan dompet Electrum milikmu ke komputer lain, kamu mungkin tidak ingin kehilangan semua catatan ini. Kamu dapat mencadangkannya ke file menggunakan menu, dompet–> label –> ekspor, dan kemudian di komputer baru, gunakan dompet–>label–>impor.
 
 ## Tips:
 
-Jika Anda merasa sumber daya ini berguna, dan Anda ingin mendukung apa yang saya lakukan untuk Bitcoin, Anda dapat menyumbangkan beberapa sats di sini:
+Jika kalian merasa sumber daya ini berguna, dan ingin mendukung apa yang kami lakukan untuk Bitcoin, bisa menyumbangkan beberapa sats di sini:
 
 Alamat Lightning Statis: dandysack84@walletofsatoshi.com
 https://armantheparman.com/electrum/

@@ -1062,7 +1062,7 @@ Canonicali poolt välja töötatud ja 2004. aastal käivitatud Ubuntu on üks ma
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint paistab silma oma lihtsuse, multimeediakoodekite vaikimisi olemasolu ja hästi kujundatud uuendustööriista poolest. Teisest küljest tugineb see suuresti Ubuntu infrastruktuurile, mistõttu sõltub see Ubuntu tehnilistest valikutest (eriti tuuma ja repositooriumi tasandil). Mint sobib eriti hästi mitte-tehnilistele kasutajatele või neile, kes soovivad kasutusvalmis süsteemi, mis ei nõua liiga palju õppimist.
 
@@ -1246,7 +1246,7 @@ Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Märkus:** Live-distributsioon on Linuxi operatsioonisüsteem, mida saab kasutada otse USB-pulgalt või CD-lt, ilma Hard kettale installeerimata.
 
@@ -6659,7 +6659,7 @@ GrapheneOS ei sisalda ühtegi patenteeritud komponenti. Te võite vabalt lisada 
 Graphene ühildub ainult hiljutiste Google Pixeli mudelitega (Pixel 6, 7, 8 ja 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

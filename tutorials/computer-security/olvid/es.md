@@ -6,7 +6,7 @@ description: Mensajería privada para todos
 
 
 
-Olvid es una aplicación francesa de mensajería instantánea lanzada en 2019, diseñada para ofrecer un alto nivel de seguridad, sin comprometer la privacidad. A diferencia de WhatsApp o Signal, Olvid no pide datos personales al registrarse: ni número de teléfono, ni correo electrónico, nada. La identificación entre usuarios se basa en un Exchange de claves, sin servidor de directorio ni libro Address compartido.
+Olvid es una aplicación francesa de mensajería instantánea lanzada en 2019, diseñada para ofrecer un alto nivel de seguridad, sin comprometer la privacidad. A diferencia de WhatsApp o Signal, Olvid no pide datos personales al registrarse: ni número de teléfono, ni correo electrónico, nada. La identificación entre usuarios se basa en un Exchange de claves, sin servidor de directorio ni libro de direcciones compartido.
 
 
 
@@ -102,7 +102,7 @@ Añade una foto de perfil.
 
 
 
-Su cuenta ya está creada.
+Tu cuenta ya está creada.
 
 
 
@@ -112,7 +112,7 @@ Su cuenta ya está creada.
 
 Para evitar cualquier pérdida de acceso a tu cuenta de Olvid, te recomendamos que configures copias de seguridad automáticas. Para ello, abre la configuración haciendo clic en los tres puntos de la parte superior derecha de Interface y, a continuación, selecciona "*Configuración*".
 
-⚠️ **Atención**: desde la versión 3.7 de Olvid, el procedimiento para respaldar sus perfiles y contactos ha sido reemplazado por uno nuevo. Este tutorial aún presenta la versión antigua. Puede descubrir la nueva versión en su FAQ: [💾 Respaldar sus perfiles](https://www.olvid.io/faq/sauvegarder-vos-profils/)
+⚠️ **Atención**: desde la versión 3.7 de Olvid, el procedimiento para respaldar sus perfiles y contactos ha sido reemplazado por uno nuevo. Este tutorial aún presenta la versión antigua. Puedes descubrir la nueva versión en su FAQ: [💾 Respaldar sus perfiles](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 
@@ -182,7 +182,7 @@ A continuación, Olvid muestra tu ID de usuario. A continuación, puedes pasárs
 
 
 
-Para añadir a una persona, escanea su DNI con la cámara o pégalo manualmente haciendo clic en los tres puntitos de la esquina superior derecha.
+Para añadir a una persona, escanea su ID con la cámara o pégalo manualmente haciendo clic en los tres puntitos de la esquina superior derecha.
 
 
 
@@ -238,11 +238,11 @@ También puedes crear debates en grupo.
 
 
 
-Enhorabuena, ya estás al día en el uso de la mensajería Olvid, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
+Enhorabuena, ya estás al día en el uso de la mensajería Olvid, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradeceríamos que dejaras un pulgar verde a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
 
 
 
-También te recomiendo este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presentamos Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
 
 
 

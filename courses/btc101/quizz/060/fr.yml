@@ -1,4 +1,4 @@
-question: Quel est le processus qui vérifie les transactions sur le réseau Bitcoin appelé ?
+question: Quel est le processus qui vérifie les transactions sur le réseau Bitcoin ?
 answer: Minage
 wrong_answers:
   - Fouille

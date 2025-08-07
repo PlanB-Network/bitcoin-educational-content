@@ -54,7 +54,7 @@ psk="password"
 
 #### 5. Muunganisho
 
-Kisha, tunaingiza kadi ya SD kwenye Raspberry Pi na kuunganisha Pi kwenye chanzo cha nguvu ili kuanza mfumo wa uendeshaji. Tunahitaji kuitambua kwenye mtandao, na itifaki ya mDNS itawezekana kuipa jina raspberrypi.local kwake. Wacha tujaribu kuunganishwa kupitia SSH.
+Kisha, tunaingiza kadi ya SD kwenye Raspberry Pi na kuunganisha Pi kwenye chanzo cha nguvu ili kuanza mfumo wa uendeshaji. Tunahitaji kuitambua kwenye mtandao, na itifaki ya mDNS itakayowezekana kuipa jina raspberrypi.local kwake. Wacha tujaribu kuunganishwa kupitia SSH.
 
 ```
 $ ssh pi@raspberrypi.local

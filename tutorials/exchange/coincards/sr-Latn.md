@@ -67,7 +67,7 @@ Ovo je prilika da podsetimo one koji bi želeli da plate svoje poklon kartice u 
 
 
 
-Izbor tutorijala o glavnim Lightning portfolijima (Phoenix, Breez, BitKit, Zeus...) možete pronaći ovde: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Izbor tutorijala o glavnim Lightning portfolijima (Phoenix, Breez, BitKit, Zeus...) možete pronaći ovde: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

@@ -17,11 +17,13 @@ Le cours établit ensuite les parallèles fascinants entre cette révolution cop
 
 +++
 
-# Intoduction 
+# Introduction 
 <partId>80b76189-afab-5295-a8d3-ba8f6fe7a5e8</partId>
 
 ## Introduction du cours
 <chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
+
+:::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
 
 Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du 17e siècle considéré comme le père de la philosophie rationnelle des Lumières. 
 
@@ -73,8 +75,10 @@ Et c’est ainsi que nous pouvons comprendre qu’un fondamentaliste religieux n
 Même si, vous le savez, les choses sont actuellement en train d’évoluer dans le bon sens.
 
 
-## Présentation de Baruch de  Spinoza.
+## Présentation de Baruch de Spinoza
 <chapterId>f53a9cfd-326e-5b73-a766-3ef2f07c5a49</chapterId>
+
+:::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
 
 Qui est donc Baruch de Spinoza ? Eh bien il s’agit d’un philosophe hollandais né en 1632 et mort à l’âge de 45 ans, en 1677. 
 
@@ -122,13 +126,15 @@ Un monde, pourtant, dans lequel tous les moyens sont utiles pour nous en sortir,
 Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, et c’est ce que nous verrons par la suite, cet outil de liberté qu’est Bitcoin. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
 
 
-# Part 2
+# Les œuvres majeures, Éthique et politique
 <partId>d7d7e9a1-005b-519c-b587-137435e46344</partId>
+
 ## L’Éthique et la recherche de la liberté
 <chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
 
+:::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
 
-Je vous propose dans ce cours de découvrir à présent l’œuvre majeure de Spinoza, intitulée Éthique, publiée à titre posthume, en 1677.
+Je vous propose dans ce chapitre de découvrir à présent l’œuvre majeure de Spinoza, intitulée Éthique, publiée à titre posthume, en 1677.
 
 ![image](./assets/fr/2.1.1.webp)
 
@@ -179,8 +185,11 @@ Autrement dit, « à lutter pour leur servitude comme s’ils luttaient pour l
 ## Le Traité Théologico-politique
 <chapterId>84b0187e-1050-5d44-a536-80554896e828</chapterId>
 
+:::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
 
-Après l’Éthique, je souhaite dans cette vidéo vous présenter une autre œuvre majeure pour comprendre toute l’influence philosophique et politique de Spinoza, notamment sur les Lumières à venir et sur les courants libéraux et, pour ce qui nous concerne, libertariens. 
+
+Après l’Éthique, je souhaite dans ce chapitre vous présenter une autre œuvre majeure pour comprendre toute l’influence philosophique et politique de Spinoza, notamment sur les Lumières à venir et sur les courants libéraux et, pour ce qui nous concerne, libertariens. 
+
 Il s’agit du Traité théologico-politique, dit le TTP, publié anonymement en 1670. 
 
 ![image](./assets/fr/2.2.1.webp)
@@ -226,14 +235,15 @@ Et bien au-delà d’accabler la main de Dieu, Jean-Jacques Rousseau (1712-1778)
 Et s’il ne s’agissait bien sûr pas d’empêcher les tremblements de terre qui sont encore aujourd’hui non seulement imprévisibles mais aussi tout à fait incontrôlables, il s’agissait plutôt de faire en sorte que, par exemple, les habitations soient construites pour pouvoir y résister. 
 C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
 
-# Part 3
+# La révolution spinoziste, les trois illusions
 <partId>f5d45c2b-28da-527a-ab20-dd255e9a9e0d</partId>
 
 ## Une nouvelle définition de la Nature et de l’être humain
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
 
-Je vous propose à présent dans cette vidéo de faire un peu d’histoire des idées et de comprendre pourquoi le spinozisme est considéré comme une véritable révolution copernicienne des idées.
+Je vous propose à présent dans ce chapitre de faire un peu d’histoire des idées et de comprendre pourquoi le spinozisme est considéré comme une véritable révolution copernicienne des idées.
 
 Grâce à ce nouveau mode de compréhension de Dieu, autrement dit de la Nature, que lui offraient les mathématiques et dont la pensée enthousiaste est au fond le résultat de son époque, Spinoza (1632-1670) a établi un profond changement de paradigme, de modèle, avec des implications indirectes sur la vision religieuse du monde et la place de l’homme dans celui-ci. 
 
@@ -277,6 +287,7 @@ Autrement dit qu’ils seraient doués du libre arbitre, une croyance illusoire 
 ## L’illusion du Libre arbitre
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
 
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
 
 Dans ce cours, nous allons à présent évoquer la question délicate du libre arbitre afin de mieux saisir ce qu’est la liberté pour Spinoza, pour les Lumières et les premiers philosophes libéraux.
 
@@ -334,14 +345,14 @@ Pour finir, il faut préciser que si le courant libertarien que  nous allons bie
 
 Mais la réalité est tout autre, et la confusion vient plutôt d’un problème sémantique car en reconnaissant aux hommes la capacité d’agir, et de faire des choix, tout en reconnaissant le déterminisme logique dont ils sont l’objet, les premiers libertariens sont, en réalité, eux aussi des héritiers de Spinoza. Ils ont avec lui le point commun de considérer que l’homme n’est pas au-dessus de la nature. Qu’il est bel et bien le résultat d’une évolution qui l’inscrit dans un déterminisme, dans une histoire qui le dépasse et qui fait, en grande partie, ce qu’il est et ce qu’il fait.
 
-Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans la prochaine vidéo.
+Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
 
-## L’illusion des causes finales.
+## L’illusion des causes finales
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
 
-Bonjour,
+:::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
 
-Nous avons vu dans la précédente vidéo que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
+Nous avons vu dans le précédant chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
 
 Mais pour Spinoza (1632-1677), l’homme n’est pas « un empire dans un empire », c’est-à-dire qu’il n’est pas, contrairement à ce qu’établissait Descartes (1596-1650), une exception dans la nature et qu’il n’est jamais exonéré du prolongement de l’enchaînement déterministe des causes et des effets. 
 
@@ -385,16 +396,15 @@ Car si certains effets de Bitcoin peuvent certainement être critiquables, à ca
 
 Or, il apparaît très clairement qu’à partir du moment où un religieux ou un banquier central fait preuve d’entendement, de curiosité et de bonne volonté et qu’ils s’intéressent à un concept en cherchant d’abord à le comprendre plutôt qu’en en jugeant les effets pour faire correspondre leur opinion à leurs attentes, ils seront alors certainement en mesure d’y adhérer. 
 
-Merci de votre attention et je vous retrouve dans la prochaine vidéo.
-
-
+Merci de votre attention et je vous retrouve dans le prochain chapitre.
 
 
 ## L’illusion théologique
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
-Dans cette dernière vidéo sur la nouvelle vision copernicienne des idées que nous offre le spinozisme, nous allons enfin évoquer la troisième illusion que présente Spinoza (1632-1677) dans son œuvre, l’Éthique.
+Dans ce dernier chapitre sur la nouvelle vision copernicienne des idées que nous offre le spinozisme, nous allons enfin évoquer la troisième illusion que présente Spinoza (1632-1677) dans son œuvre, l’Éthique.
 
 ![image](./assets/fr/3.4.1.webp)
 
@@ -444,17 +454,17 @@ Autrement dit, l’État aurait en fait bien plus à craindre de la censure ou d
 
 Pour Spinoza, un État démocratique qui permet la liberté de penser est donc la meilleure garantie pour que les hommes vivent en paix et, grâce à l’exercice de la raison, qu’ils soient non seulement libres de penser et d’agir mais soient aussi capables de comprendre les servitudes qui les contraignent afin de s’en extraire. 
 
-Merci de votre attention et je vous retrouve dans la prochaine vidéo.
 
 
 
-# Part 4
+# De la théorie des affects à Bitcoin
 <partId>82e69d4f-a94f-5978-bcb8-8a7b4651bcca</partId>
 
-## La question du mal chez Spinoza.
+## La question du mal chez Spinoza
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
 
-Bonjour.
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 Je souhaite à présent évoquer avec vous la question du mal, tel que Spinoza (1632-1677) l’expose dans ses œuvres et dans sa correspondance.
 Mais attention, c’est un sujet complexe et controversé et il ne s’agit ici que de comprendre, encore une fois, sa manière de réfléchir afin de mieux saisir ce qui le guide, c’est-à-dire la recherche de la liberté.
 
@@ -482,9 +492,9 @@ Spinoza reprend donc cette idée selon laquelle le mal n’existe pas dans la na
 Et c’est pourquoi il parle d’éthique plutôt que de morale en ne réfléchissant pas sur ce qui est bien ou mal puisque ce sont des notions toutes relatives et subjectives, mais plutôt en fonction de ce qui est « bon » ou « mauvais » pour notre nécessité naturelle à « persévérer dans notre être » dit-il. En d’autres termes à vivre et à grandir. À nous épanouir en tant qu’êtres humains.
 En outre, en ce qui concerne la responsabilité des hommes qui se comporteraient donc mal, en commettant par exemple un crime, nous avons déjà vu que, pour Spinoza, cette manière de penser ne vise évidemment pas à les excuser.  Car les hommes, même s’ils ne connaissent pas les vraies causes qui les déterminent à commettre un crime, sont toujours conscients de ce qu’ils font et sont donc, à ce titre, responsables devant la morale et la Loi.
 Il est évident que les actions, par exemple d’un criminel, sont toujours liées à un déterminisme, familial, social, économique, voire médical si ses crimes s’expliquent par une pathologie physique ou mentale. Et c’est d’ailleurs le rôle de la justice qui, au-delà du droit pénal, prend en compte le fait que certains crimes ne doivent pas seulement être punis mais aussi faire l’objet de soins, compte tenu du passé familial, social et psychologique du délinquant.
-C’est la raison pour laquelle le spinoziste Gilles Deleuze (1925-1995) (image 4.1.5) explique que l’éthique est en quelque sorte une éthologie, c’est-à-dire une science pratique des manières d’être, ou dit-il encore, « l’art de faire de bonnes rencontres ». 
+C’est la raison pour laquelle le spinoziste Gilles Deleuze (1925-1995) explique que l’éthique est en quelque sorte une éthologie, c’est-à-dire une science pratique des manières d’être, ou dit-il encore, « l’art de faire de bonnes rencontres ». 
 
-![image](./assets/fr/4.1.5.webp)
+![image](./assets/fr/2.1.5.webp)
 
 Autrement dit, la liberté, selon Spinoza, consiste donc à orienter notre existence vers ce qui « accroît notre puissance d’agir » et, en se tournant toujours vers l’avenir avec optimisme, de regarder le monde tel qu’il est plutôt que de l’imaginer tel qu’on aimerait le voir. 
 Et c’est là tout le génie de la démonstration de Spinoza qui lutte contre les docteurs de l’ignorance et contre tous ceux qui affirment qu’il est bon d’ignorer. 
@@ -496,7 +506,7 @@ Merci de votre attention et je vous retrouve dans la prochaine vidéo.
 ## La théorie des affects
 <chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
 
-Bonjour,
+:::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
 
 Selon Spinoza, la liberté est donc un concept à découvrir, un chemin pour nous mener vers une vie meilleure, plus puissante. Plus libre. Un chemin qui passe par la reconnaissance du déterminisme absolu et du lien de causalité rationnelle des choses.
 
@@ -555,23 +565,48 @@ Et c’est la raison pour laquelle on dit souvent du spinozisme qu’elle est «
 
 <chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
 
+:::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
+
 
 Vous le savez maintenant, la liberté selon Spinoza est donc une prise de conscience de notre déterminisme. Sous la conduite de la raison et grâce à notre capacité d’agir, nous pouvons ainsi comprendre le mécanisme causal des servitudes afin de lutter contre elles, ne plus les subir, et ne plus agir contre nos propres intérêts. 
-Cette lucidité consiste finalement à ne plus vivre dans le nihilisme que décrira plus tard Friedrich Nietzsche (1844-1900) (image 4.3.1) pour qui les hommes se perdent dans des idéaux idéologiques, c’est-à-dire des fictions politiques ou religieuses, à cause desquelles ils nient le réel, s’infantilisent et se rendent malheureux. 
-C’est précisément le propos de la philosophie rationnelle des Lumières, et notamment grâce à Emmanuel Kant (1724-1804) (image 4.3.2) pour qui seul un individu éduqué, sous la conduite de la raison, peut penser par lui-même et déterminer, dans une démarche éthique, ce qui est « vrai », ou « bon », et ce qui est toxique. 
+
+Cette lucidité consiste finalement à ne plus vivre dans le nihilisme que décrira plus tard Friedrich Nietzsche (1844-1900) pour qui les hommes se perdent dans des idéaux idéologiques, c’est-à-dire des fictions politiques ou religieuses, à cause desquelles ils nient le réel, s’infantilisent et se rendent malheureux. 
+
+![image](./assets/fr/4.3.1.webp)
+
+C’est précisément le propos de la philosophie rationnelle des Lumières, et notamment grâce à Emmanuel Kant (1724-1804) pour qui seul un individu éduqué, sous la conduite de la raison, peut penser par lui-même et déterminer, dans une démarche éthique, ce qui est « vrai », ou « bon », et ce qui est toxique. 
+
+![image](./assets/fr/4.3.2.webp)
+
 En d’autres termes, dit-il, si nous pensons par nous-mêmes, si nous raisonnons en adulte rationnel et si nous nous évertuons, de ce fait, à nous attacher aux liens de causalité des choses, nous n’aurons plus besoin d'une autorité morale pour nous enseigner, par exemple, les vraies vertus de la religion ou les vraies valeurs éthiques dans les domaines politiques et économiques. 
-Un raisonnement qui fera le lien avec l’école d’économie libérale autrichienne née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. 
-Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) (image 4.3.3) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des cypherpunks à venir. Et donc de la création de Bitcoin.
-Menger et Mises établissent par exemple que toute connaissance doit se construire en fonction du lien de causalité des choses et ils proposent ainsi une nouvelle conception causale de l’économie. Notamment inspirés par l’esprit libéral développé quelques années auparavant par l’économiste français Frédéric Bastiat (1801-1850) (image 4.3.4). 
+Un raisonnement qui fera le lien avec l’école d’économie libérale autrichienne née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des cypherpunks à venir. Et donc de la création de Bitcoin.
+
+![image](./assets/fr/4.3.3.webp)
+
+Menger et Mises établissent par exemple que toute connaissance doit se construire en fonction du lien de causalité des choses et ils proposent ainsi une nouvelle conception causale de l’économie. Notamment inspirés par l’esprit libéral développé quelques années auparavant par l’économiste français Frédéric Bastiat (1801-1850). 
+
+![image](./assets/fr/4.3.4.webp)
+
 Hayek, lui, considère que toutes décisions économiques expriment toujours une forme d’incertitude et d’ignorance et que le fait de ne pas la subir à cause de la morale, de croyances, de préjugés ou d’idéologies politiques, permet d’analyser correctement le comportement économique et, par extension, d’envisager ce qui est bon pour les individus, pour la société et pour l’État. 
 C’est ainsi que ces économistes autrichiens libéraux vont critiquer fermement toute idée socialiste, Hayek parle de « planisme », et toutes politiques morales qui s’en inspirent et ne conduisent, selon lui, qu’à la ruine. Donner le pouvoir économique aux gouvernements, forcément en retard d’informations et en décalage sur ce qu’il faut faire, ou pas est voué, selon eux, à l’échec.
 Par exemple, les Autrichiens considèrent que quand un État se donne, par la contrainte, le pouvoir de créer de l’argent pour gérer l’économie et résoudre les crises, le risque est qu’il n’est dès lors jamais plus capable de ne pas abuser de ce pouvoir. 
+
 Pourquoi ? Parce qu’il se retrouve alors toujours  dans une forme de servitude qui l’en empêche et le pousse donc, dirait Spinoza « à voir le meilleur, à l’approuver… mais à faire le pire ».
-Or, en bon spinoziste, Hayek explique justement dans une vidéo que « comme ce pouvoir ne peut lui être retiré sans violence, tout ce que l’on peut, c’est le faire grâce à une astuce et introduire un nouveau concept de monnaie que les gouvernements ne pourraient plus arrêter ». Un argument que reprendra Milton Friedman (1912-2006) (image 4.3.5) dans une interview dans laquelle il évoque à son tour cette nouvelle forme de monnaie numérique dans le contexte de l’internet naissant.
-Et ce sont bien ces arguments politiques et économiques défendus par les premiers cypherpunks, Eric Hughes (1953-), dans son « manifeste du cypherpunk », ou encore Timothy May (1951-2018) dans son « manifeste crypto anarchiste » (image 4.3.6) et que va reprendre Satoshi Nakamoto. Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinbase du bloc genesis de la Blockchain Bitcoin (image 4.3.7) pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
+Or, en bon spinoziste, Hayek explique justement dans une vidéo que « comme ce pouvoir ne peut lui être retiré sans violence, tout ce que l’on peut, c’est le faire grâce à une astuce et introduire un nouveau concept de monnaie que les gouvernements ne pourraient plus arrêter ». Un argument que reprendra Milton Friedman (1912-2006) dans une interview dans laquelle il évoque à son tour cette nouvelle forme de monnaie numérique dans le contexte de l’internet naissant.
+
+![image](./assets/fr/4.3.5.webp)
+
+Et ce sont bien ces arguments politiques et économiques défendus par les premiers cypherpunks, Eric Hughes (1953-), dans son « manifeste du cypherpunk », ou encore Timothy May (1951-2018) dans son « manifeste crypto anarchiste » et que va reprendre Satoshi Nakamoto. 
+
+![image](./assets/fr/4.3.6.webp)
+
+Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinbase du bloc genesis de la Blockchain Bitcoin pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
+
+![image](./assets/fr/4.3.7.webp)
+
 Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
-Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer.
-Et de façon pacifique, sans contrainte et donc sans prosélytisme.
+Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
+
 C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et Bitcoin pour montrer qu’il ne sert à rien de convaincre quiconque n’adhère pas à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
 
 À rien et surtout pas par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait pas en leurs idées et en leurs démonstrations. 

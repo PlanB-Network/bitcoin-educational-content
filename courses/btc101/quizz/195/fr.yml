@@ -2,7 +2,7 @@ question: Parmi les actions suivantes, lesquelles peuvent aider ceux qui souhait
 answer: Avoir une liste de tous les commerçants qui acceptent Bitcoin.
 wrong_answers:
   - Augmenter le prix du Bitcoin.
-  - Diminuer le nombre de Bitcoins.
+  - Diminuer le nombre de bitcoins.
   - Limiter l'utilisation du Bitcoin.
 explanation: >-
   Une manière de faciliter l'utilisation du Bitcoin dans les transactions quotidiennes est

@@ -129,7 +129,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Инструкции по установке и настройке приложения Blockstream Green приведены в первой части этого руководства:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Оказавшись в приложении Blockstream Green, нажмите на кнопку "*Сконфигурировать новый портфель*".
 
@@ -300,3 +300,4 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 Чтобы сделать еще один шаг вперед, я рекомендую этот учебник по Jade Plus, где мы настраиваем его с помощью программного обеспечения Sparrow Wallet в режиме QR. Вы также узнаете, как использовать расширенные настройки аппаратного кошелька:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

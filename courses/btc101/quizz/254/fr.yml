@@ -1,11 +1,11 @@
-question: Quel est un moyen pratique d'obtenir des Bitcoins ?
+question: Quel est un moyen pratique d'obtenir des bitcoins ?
 answer: Les acheter via des plateformes régulées ou non régulées.
 wrong_answers:
   - Les miner avec un ordinateur portable.
   - Les trouver dans le monde physique.
   - Les créer en utilisant un logiciel spécial.
 explanation: |
-  Le texte mentionne que les utilisateurs peuvent obtenir des Bitcoins en
+  Les utilisateurs peuvent obtenir des bitcoins en
   les acceptant en échange ou en les achetant via des plateformes
   régulées ou non régulées.
 reviewed: true

@@ -26,9 +26,9 @@ Green 是一款非常易用的應用程式，特別適合初學者使用。它�
 在本教程中，我們將僅專注於在電腦上使用該軟體。若要探索 Green 的其他用途，請參閱我們的其他專用教學：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## 安裝和設定 Blockstream Green 軟體
 
@@ -216,4 +216,5 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3b
 我也建議您參閱 Blockstream Green 手機應用程式設定 Hot Wallet 的其他綜合教學：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

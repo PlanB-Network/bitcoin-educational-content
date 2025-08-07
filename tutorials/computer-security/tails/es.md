@@ -39,11 +39,11 @@ Siempre hay un grado de confianza en el uso de software, pero esta no tiene por 
 
 ## Guía de instalación y uso
 
-Esta guía de instalación tiene como objetivo guiarte en cada paso de la instalación, no describiremos más acciones de las que se encuentran en la guía oficial, pero te señalaremos en la dirección correcta y te daremos consejos y trucos.
+Esta guía de instalación tiene como objetivo guiarte en cada paso de la instalación, no describiremos más acciones de las que se encuentran en la guía oficial, te guiaremos en la dirección correcta y te daremos consejos y trucos.
 
 Por razones de experiencia práctica, estos consejos se centrarán en las plataformas de macOS y Linux.
 🛠️
-Antes de comenzar este procedimiento, asegúrese de tener en su posesión una memoria USB con una velocidad de lectura de al menos 150 MB/s y un tamaño de al menos 8 GB, idealmente de tipo USB 3.0.
+Antes de comenzar este procedimiento, asegúrate de tener en tu posesión una memoria USB con una velocidad de lectura de al menos 150 MB/s y un tamaño de al menos 8 GB, idealmente de tipo USB 3.0.
 
 ## Requisitos previos
 
@@ -51,44 +51,44 @@ Antes de comenzar este procedimiento, asegúrese de tener en su posesión una me
 - Un ordenador conectado a Internet con Linux, macOS (o Windows)
 - Aproximadamente una hora de tiempo total, dependiendo de la velocidad de su conexión a Internet, incluyendo media hora para la instalación (archivo para descargar de 1.3 GB)
 
-## Paso 1: Descargar Tails desde su ordenador
+## Paso 1: Descargar Tails desde tu ordenador
 
 ![imagen](assets/1.webp)
 
 > 🔗 Sección oficial de Tails: https://tails.boum.org/install/linux/index.fr.html#download
 
-Descargar el archivo de instalación con la extensión img puede llevar algún tiempo dependiendo de la velocidad de descarga de su Internet, así que asegúrese de hacerlo con anticipación. Con una línea moderna y rápida, esto tomará menos de 5 minutos.
+Descargar el archivo de instalación con la extensión img puede llevar algún tiempo dependiendo de la velocidad de descarga de tu Internet, así que asegúrate de hacerlo con anticipación. Con una línea moderna y rápida, esto tomará menos de 5 minutos.
 
-Guarde el archivo en una carpeta conocida, como "Descargas", ya que será necesario para pasar al siguiente paso.
+Guarda el archivo en una carpeta conocida, como "Descargas", ya que será necesario para pasar al siguiente paso.
 
-## Paso 2: Verificar su descarga
+## Paso 2: Verificar la descarga
 
 ![imagen](assets/2.webp)
 
 > 🔗 Sección oficial de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
-Verificar la descarga le permite asegurarse de que proviene de los desarrolladores de Tails y que no ha sido corrompida o interceptada durante la descarga.
+Verificar la descarga permite asegurarte de que proviene de los desarrolladores de Tails y que no ha sido corrompida o interceptada durante la descarga.
 
-Es posible verificar manualmente que el archivo que acaba de descargar es el correcto utilizando PGP, pero sin conocimientos avanzados, esta verificación ofrece el mismo nivel de seguridad que la verificación JavaScript en la página de descarga, aunque es mucho más complicada y propensa a errores.
+Es posible verificar manualmente que el archivo que acabas de descargar es el correcto utilizando PGP, pero sin conocimientos avanzados, esta verificación ofrece el mismo nivel de seguridad que la verificación JavaScript en la página de descarga, aunque es mucho más complicada y propensa a errores.
 
-¡Para verificar el archivo, utilice el botón "Seleccionar su descarga..." proporcionado en la sección oficial!
+¡Para verificar el archivo, utiliza el botón "Seleccionar su descarga..." proporcionado en la sección oficial!
 
-## Paso 3: Instalar Tails en su memoria USB
+## Paso 3: Instalar Tails en tu memoria USB
 
 ![imagen](assets/3.webp)
 
 > 🔗 Sección oficial de Tails:
 >
 > - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher y https://tails.boum.org/install/mac/index.fr.html#install
+> - MacOS: https://tails.boum.org/install/mac/index.fr.html#etcher y https://tails.boum.org/install/mac/index.fr.html#install
 
-Este paso de instalación de Tails en su memoria USB es el más difícil de toda la guía, especialmente si nunca lo ha hecho antes. El punto más importante es elegir correctamente el procedimiento en la sección oficial para su sistema operativo: Linux o macOS.
+Este paso de instalación de Tails en tu memoria USB es el más difícil de toda la guía, especialmente si nunca lo has hecho antes. El punto más importante es elegir correctamente el procedimiento en la sección oficial para tu sistema operativo: Linux o MacOS.
 
-Una vez que haya instalado y preparado las herramientas como se recomienda, podrá copiar el archivo con la extensión img en su memoria USB (borrando todos los datos existentes) para que sea "arrancable" de forma independiente.
+Una vez que hayas instalado y preparado las herramientas como se recomienda, podrás copiar el archivo con la extensión img en la memoria USB (borrando todos los datos existentes) para que sea "arrancable" de forma independiente.
 
 ¡Buena suerte! Nos vemos en el paso 4.
 
-## Paso 4: Reiniciar con su memoria USB Tails
+## Paso 4: Reiniciar con la memoria USB Tails
 
 ![imagen](assets/4.webp)
 
@@ -148,4 +148,4 @@ Puedes comenzar a navegar de forma anónima, explorar las opciones y los program
 Una vez que hayas experimentado un poco más con tu propio USB de Tails, exploraremos otros temas más avanzados en otro artículo, como:
 
 > Actualizar una clave con la última versión de Tails; Configurar y utilizar el almacenamiento persistente; Instalar software adicional.
-> D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
+> Hasta luego, como siempre, si tienes alguna pregunta no dudes en compartirla con la comunidad de Agora256, ¡Estamos aprendiendo juntos para ser mejores mañana de lo que somos hoy!

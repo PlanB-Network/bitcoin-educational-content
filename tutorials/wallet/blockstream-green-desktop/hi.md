@@ -18,8 +18,8 @@ Green एक बहुत ही आसान उपयोग करने व�
 
 इस ट्यूटोरियल में, हम केवल कंप्यूटर पर सॉफ्टवेयर के उपयोग पर ध्यान केंद्रित करेंगे। Green के अन्य उपयोगों को जानने के लिए, कृपया हमारे अन्य विशेष ट्यूटोरियल देखें।
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Blockstream Green सॉफ़्टवेयर को इंस्टॉल और कॉन्फ़िगर करना
 
 सबसे पहले अपने कंप्यूटर पर Blockstream Green सॉफ्टवेयर इंस्टॉल करें। [आधिकारिक वेबसाइट](https://blockstream.com/Green/) पर जाएं और "*Download Now*" बटन पर क्लिक करें। फिर अपने ऑपरेटिंग सिस्टम के अनुसार इंस्टॉलेशन प्रक्रिया का पालन करें।
@@ -144,4 +144,5 @@ Wallet की जानकारी को Green में आयात कर�
 
 मैं आपको यह सलाह देता हूँ कि आप Blockstream Green मोबाइल ऐप पर Hot और Wallet सेटअप करने के लिए इस अन्य विस्तृत ट्यूटोरियल को भी देखें।
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

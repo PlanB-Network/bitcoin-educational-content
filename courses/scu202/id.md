@@ -40,7 +40,7 @@ Kursus dimulai dengan tinjauan singkat tentang konsep-konsep yang dibahas dalam 
 
 ### Bagian 2 - Dari klik ke terminal: menguasai Linux
 
-Bagian ini memperkenalkan sistem GNU/Linux, sebuah dasar kemandirian digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah menarik dari Linux dan perangkat lunak gratis, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
+Bagian ini memperkenalkan sistem GNU/Linux, sebuah dasar kemandirian digital. Anda akan menjelajahi perbedaan antara Linux, Windows, dan macOS, menemukan sejarah menarik dari Linux dan free software, serta memahami mengapa Linux sering kali identik dengan keamanan dan kebebasan.
 
 Selanjutnya, Anda akan belajar cara memilih distribusi Linux yang paling sesuai dengan kebutuhan dan lingkungan desktop Anda. Akhirnya, Anda akan mengambil langkah pertama dengan Ubuntu melalui panduan instalasi dan konfigurasi yang terperinci.
 
@@ -317,7 +317,7 @@ Proyek GNU (akronim rekursif dari "*GNU's Not Unix*") secara resmi diumumkan ole
 
 Di luar aspek teknisnya, proyek GNU merupakan bagian dari filosofi yang diwarisi dari budaya hacker tahun 1970-an: sebuah budaya yang didasarkan pada berbagi pengetahuan, kerja sama antar-sesama, dan akses bebas ke source code. Richard Stallman ingin melestarikan semangat kolaborasi yang mendominasi masa-masa awal komputasi, saat produsen masih secara bebas mendistribusikan source code sistem mereka. Proyek GNU bertujuan tidak hanya untuk menawarkan sistem operasi bebas, tetapi juga untuk mempertahankan visi politik dan etis dari dunia komputasi: yaitu pengetahuan yang dapat diakses oleh semua orang, tanpa monopoli atau ketergantungan pada perangkat lunak berlisensi. Tujuannya adalah untuk mencegah pengguna menjadi tawanan perangkat lunak yang tidak dapat mereka pahami atau modifikasi, serta untuk mempromosikan komputasi yang membebaskan.
 
-Dengan pemikiran ini, Stallman mendirikan *Free Software Foundation* (FSF) pada tahun 1985, sebuah organisasi yang didedikasikan untuk mendorong dan mempromosikan penggunaan serta penciptaan perangkat lunak bebas.
+Dengan pemikiran ini, Stallman mendirikan *Free Software Foundation* (FSF) pada tahun 1985, sebuah organisasi yang didedikasikan untuk mendorong dan mempromosikan penggunaan serta penciptaan free software.
 
 ![Image](assets/fr/014.webp)
 
@@ -335,89 +335,49 @@ Ada juga beberapa elemen eksternal yang diintegrasikan, seperti X Window System,
 
 ![Image](assets/fr/019.webp)
 
-Sebagian besar GNU dikembangkan oleh para sukarelawan, beberapa di waktu luang mereka, sementara yang lain didanai secara ad hoc oleh perusahaan, universitas, atau asosiasi. Pada akhir tahun 1980-an, FSF mulai merekrut pengembang untuk mempercepat pekerjaan. Beberapa perusahaan, seperti Cygnus Solutions (yang kemudian menjadi bagian dari Red Hat), berperan aktif dalam memelihara dan memasarkan Perangkat Lunak Bebas GNU.
+Sebagian besar GNU dikembangkan oleh para sukarelawan, beberapa di waktu luang mereka, sementara yang lain didanai secara ad hoc oleh perusahaan, universitas, atau asosiasi. Pada akhir tahun 1980-an, FSF mulai merekrut pengembang untuk mempercepat pekerjaan. Beberapa perusahaan, seperti Cygnus Solutions (yang kemudian menjadi bagian dari Red Hat), berperan aktif dalam memelihara dan memasarkan GNU free software.
 
 Ketika Linus Torvalds menerbitkan kernel Linux pada tahun 1991, ia sangat pas dengan lingkungan yang sudah dibuat oleh GNU, dan terbukti jauh lebih relevan daripada kernel Mach + Hurd. Kombinasi GNU dan Linux memungkinkan terciptanya sistem operasi lengkap, bebas, dan fungsional untuk pertama kalinya: **GNU/Linux**, realisasi nyata dari proyek yang diluncurkan oleh Stallman hampir satu dekade sebelumnya.
 
 ### Kelahiran kernel Linux
 
-
-
-Kisah kernel Linux dimulai pada tahun 1991, dengan Linus Torvalds, yang saat itu adalah seorang mahasiswa ilmu komputer di Universitas Helsinki, Finlandia. Tidak puas dengan keterbatasan Minix, sebuah sistem operasi Unix minimalis yang dirancang oleh Andrew S. Tanenbaum untuk tujuan pendidikan, Torvalds mulai mengembangkan kernelnya sendiri untuk komputer pribadinya, hanya dengan tujuan untuk belajar sambil melakukan. Pada tanggal 25 Agustus 1991, ia mengumumkan proyeknya di forum Usenet, dengan rendah hati menyatakan bahwa proyek ini masih belum sempurna dan masih bersifat eksperimental. Pada awal tahun 1992, versi 0.12 dari proyek ini dirilis di bawah lisensi bebas GNU GPL.
-
-
+Kisah kernel Linux dimulai pada tahun 1991, dengan Linus Torvalds, seorang mahasiswa ilmu komputer di Universitas Helsinki, Finlandia. Merasa tidak puas dengan keterbatasan Minix, sebuah sistem operasi Unix minimalis yang dirancang oleh Andrew S. Tanenbaum untuk tujuan pendidikan, Torvalds mulai mengembangkan kernel-nya sendiri untuk komputer pribadinya, dengan tujuan sederhana yaitu belajar sambil mencoba. Pada 25 Agustus 1991, ia mengumumkan proyeknya secara publik di forum Usenet, dengan sederhana menyatakan bahwa proyek itu masih mentah dan bersifat eksperimental. Di awal tahun 1992, versi 0.12 dari proyek ini dirilis di bawah lisensi bebas GNU GPL.
 
 ![Image](assets/fr/016.webp)
 
-
-
-Kernel ini, yang awalnya bernama Freax dan kemudian berganti nama menjadi Linux (singkatan dari "Linus" dan "Unix"), segera menarik perhatian para pengembang yang bersemangat. Sebuah komunitas internasional secara spontan muncul untuk berkontribusi pada kode sumber yang dapat diakses secara bebas. Tidak seperti GNU, Linux pada awalnya hanyalah sebuah kernel: komponen perangkat lunak yang bertanggung jawab untuk mengelola sumber daya perangkat keras mesin. Dikombinasikan dengan alat dan aplikasi yang telah dikembangkan oleh proyek GNU, kernel ini akhirnya menyediakan sistem operasi yang sepenuhnya gratis dan fungsional. Kombinasi ini disebut sebagai "GNU/Linux" untuk menekankan sinergi antara kedua proyek tersebut. Namun, dalam bahasa umum, sistem operasi ini umumnya disebut sebagai "Linux".
-
-
+Kernel ini, yang awalnya dinamai Freax dan kemudian berganti nama menjadi Linux (gabungan dari "Linus" dan "Unix"), segera menarik perhatian pengembang lain yang bersemangat. Sebuah komunitas internasional secara spontan muncul untuk berkontribusi pada source code yang dapat diakses secara bebas. Berbeda dengan GNU, Linux pada awalnya hanyalah sebuah kernel: komponen perangkat lunak yang bertanggung jawab mengelola sumber daya perangkat keras mesin. Dikombinasikan dengan alat dan aplikasi yang sudah dikembangkan oleh proyek GNU, kernel ini akhirnya menyediakan sistem operasi yang sepenuhnya gratis dan fungsional. Kombinasi ini disebut sebagai "GNU/Linux" untuk menekankan sinergi antara kedua proyek. Namun, dalam bahasa umum, sistem operasi ini umumnya disebut "Linux" saja.
 
 ![Image](assets/fr/017.webp)
 
-
-
 → ***Tux***: maskot dan logo kernel Linux, dibuat pada tahun 1996 oleh Larry Ewing dengan menggunakan perangkat lunak GIMP.
 
+### Filosofi open source dan free software
 
+Seiring dengan meningkatnya popularitas Linux pada tahun 1990-an, sebuah perdebatan ideologis muncul seputar istilah "free software" dan "open source", terutama karena makna ganda dari istilah "*bebas / free*".
 
-### Filosofi sumber terbuka dan perangkat lunak bebas
+Sementara Richard Stallman dan FSF sangat menganjurkan gagasan free software yang didasarkan pada prinsip etika ("_bebas seperti dalam kebebasan / free as in freedom_"), pihak lain lebih menyukai pendekatan yang lebih pragmatis dan berorientasi pada teknis, yang berfokus pada transparansi dan efisiensi teknis dari model terbuka. Pada tahun 1998, Open Source Initiative (OSI) didirikan, memperkenalkan istilah "open source" untuk menarik lebih banyak sektor korporat, dengan menekankan manfaat ekonomi dan teknis, bukan pertimbangan ideologis.
 
-
-
-Ketika Linux semakin populer di tahun 1990-an, muncul perdebatan ideologis seputar istilah "perangkat lunak bebas" dan "sumber terbuka", terutama karena makna ganda dari istilah "*bebas*".
-
-
-
-Sementara Richard Stallman dan FSF sangat mendukung gagasan perangkat lunak bebas berdasarkan prinsip-prinsip etika ("*bebas seperti dalam kebebasan*"), pemain lain lebih menyukai pendekatan yang lebih pragmatis dan berorientasi pada rekayasa yang berfokus pada transparansi dan efisiensi teknis dari model terbuka. Pada tahun 1998, Open Source Initiative (OSI) dibentuk, memperkenalkan istilah "open source" untuk lebih menarik sektor korporat, dengan menekankan pada manfaat ekonomi dan teknis daripada pertimbangan ideologis.
-
-
-
-Richard Stallman secara terbuka mengkritik penggunaan istilah "open source", menganggapnya terlalu netral, bahkan terdepolitisasi. Dia bersikeras menggunakan istilah "perangkat lunak bebas" untuk menekankan bahwa masalah utamanya bukanlah masalah teknis, melainkan masalah sosial: masalah kebebasan pengguna.
-
-
+Richard Stallman secara terbuka mengkritik penggunaan istilah "open source", menilainya terlalu netral, bahkan terdepolitisasi. Ia bersikeras menggunakan istilah "free software" untuk menekankan bahwa isu utamanya bukan teknis, melainkan sosial: yaitu kebebasan para pengguna.
 
 ![Image](assets/fr/015.webp)
 
-
-
 *Sumber: Nathaniel Welch
 
+Perbedaan filosofis antara kedua istilah tersebut terletak pada motivasi yang mendasarinya: gerakan free software pada dasarnya mempromosikan filosofi kebebasan individu dan kolektif terhadap perangkat lunak, sementara open source terutama menghargai efisiensi teknis, transparansi, dan kolaborasi sebagai sarana untuk menghasilkan produk yang lebih baik.
 
-
-Oleh karena itu, perbedaan antara kedua istilah tersebut terletak pada motivasi yang mendasarinya: gerakan perangkat lunak bebas terutama mempromosikan filosofi kebebasan individu dan kolektif terkait perangkat lunak, sementara open source terutama menghargai efisiensi teknis, transparansi, dan kolaborasi sebagai sarana menuju produk yang lebih baik.
-
-
-
-Terlepas dari perbedaan filosofisnya, kedua aliran ini memiliki nilai-nilai yang sama seperti transparansi, kemampuan audit kode sumber, independensi vendor, dan kemampuan pengguna akhir untuk memahami, memodifikasi, dan meningkatkan perangkat lunak mereka. Bahkan saat ini, perbedaan ini secara teratur memicu perdebatan dan refleksi dalam komunitas teknis, terutama Bitcoin.
-
-
+Meskipun memiliki perbedaan filosofis, kedua aliran ini berbagi nilai-nilai yang sama seperti transparansi, kemampuan audit source code, kemandirian dari vendor, dan kemampuan pengguna akhir untuk memahami, memodifikasi, serta meningkatkan perangkat lunak mereka. Bahkan hingga saat ini, perbedaan-perbedaan ini secara rutin memicu perdebatan dan refleksi di dalam komunitas teknis, termasuk Bitcoin.
 
 ### Dampak budaya dan sosial
 
+GNU dan Linux bukan hanya kisah sukses secara teknis: dampak budaya dan sosialnya sama pentingnya. Penyebaran awalnya terutama melalui internet, lewat forum teknis dan milis, kemudian dengan cepat melalui distribusi, yaitu kumpulan perangkat lunak yang sudah dikonfigurasi di sekitar kernel Linux. Sejak awal tahun 1993, distribusi pionir seperti Slackware dan Debian diciptakan untuk membuat sistem operasi GNU/Linux lebih mudah diakses oleh publik yang lebih luas.
 
+Pendekatan berbasis komunitas yang terbuka dan kolaboratif ini memungkinkan Linux berkembang pesat, secara terdesentralisasi dan partisipatif. Setiap pengguna dapat berkontribusi pada proyek, baik dengan melakukan _coding_ , mendokumentasikan, maupun menguji. Dinamika kolaborasi masif ini mewakili inovasi sosial yang besar dalam dunia komputasi.
 
-GNU dan Linux bukan hanya sebuah kisah sukses teknis: dampak budaya dan sosialnya juga sama pentingnya. Penyebaran awalnya terutama melalui Internet, melalui forum teknis dan milis, kemudian dengan cepat melalui distribusi, yaitu kumpulan perangkat lunak yang telah dikonfigurasi sebelumnya di sekitar kernel Linux. Pada awal tahun 1993, distribusi perintis seperti Slackware dan Debian diciptakan untuk membuat sistem operasi GNU/Linux lebih mudah diakses oleh publik yang lebih luas.
+Seperti yang telah kita lihat di bab sebelumnya, warisan Linux saat ini melampaui sekadar komputer pribadi: ia mendominasi pasar server internet, menggerakkan superkomputer, membentuk dasar teknis sistem Android yang menggerakkan miliaran smartphone di seluruh dunia, dan bahkan menjadi inti dari perangkat elektronik sehari-hari yang tak terhitung jumlahnya (router, TV pintar, alat-alat yang saling terhubung, dll.).
 
+GNU/Linux jauh lebih dari sekadar sistem operasi: ia adalah sebuah filosofi, sebuah pendekatan teknologi, budaya, dan sosial yang didirikan di atas keterbukaan, kolaborasi, dan kebebasan digital. Nilai-nilai ini terus secara mendalam memengaruhi cara kita memahami, menggunakan, dan berbagi teknologi saat ini.
 
-
-Pendekatan berbasis komunitas, terbuka dan kolaboratif ini memungkinkan Linux berkembang dengan cepat, dengan cara yang terdesentralisasi dan partisipatif. Setiap pengguna dapat berkontribusi pada proyek, baik dengan membuat kode, mendokumentasikan, atau menguji. Dinamika kolaboratif yang sangat besar ini merupakan inovasi sosial yang besar dalam dunia komputasi.
-
-
-
-Seperti yang telah kita lihat pada bab sebelumnya, warisan Linux saat ini jauh melampaui komputer pribadi yang sederhana: Linux mendominasi pasar server Internet, mendukung superkomputer, membentuk dasar teknis sistem Android yang mendukung miliaran ponsel pintar di seluruh dunia, dan bahkan menjadi inti dari perangkat elektronik sehari-hari yang tak terhitung jumlahnya (router, TV pintar, benda-benda yang terhubung, dll.).
-
-
-
-GNU/Linux lebih dari sekadar sistem operasi: GNU/Linux adalah sebuah filosofi, pendekatan teknologi, budaya, dan sosial yang dibangun di atas keterbukaan, kolaborasi, dan kebebasan digital. Nilai-nilai ini terus memengaruhi cara kita memahami, menggunakan, dan berbagi teknologi saat ini.
-
-
-
-Berdasarkan warisan teknis ini, sekarang kita dapat melihat secara konkret bagaimana prinsip-prinsip ini terwujud dalam ekosistem komputer pribadi saat ini. Untuk itu, kami akan menjelajahi lanskap distribusi Linux (atau GNU/Linux) yang sangat luas, untuk memahami evolusi dan kasus penggunaannya, serta membantu Anda memilih distribusi yang paling sesuai dengan kebutuhan Anda.
-
-
+Berdasarkan warisan teknis ini, kini kita dapat menguji secara nyata bagaimana prinsip-prinsip ini terwujud dalam ekosistem komputer pribadi saat ini. Untuk tujuan ini, kita akan menjelajahi pandangan luas distribusi Linux (atau GNU/Linux), untuk memahami evolusi dan kasus penggunaannya, serta membantu Anda memilih yang paling sesuai dengan kebutuhan Anda.
 
 ## Gambaran umum tentang distribusi Linux
 

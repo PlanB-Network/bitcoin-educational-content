@@ -234,11 +234,16 @@ Per ideologia, Tracy intendeva semplicemente la scienza che si occupa dello stud
 Dominò il periodo rivoluzionario ed era diretto da Jean-Baptiste Say. Destutt de Tracy fu eletto membro dell'Accademia Francese nel 1808 e dell'Accademia delle Scienze Morali e Politiche nel 1832. Sua figlia sposò Georges Washington de La Fayette (il figlio del primo presidente americano) nel 1802, il che mostra la stretta vicinanza che ancora esisteva tra la Francia e la giovane America in quel periodo.
 
 ![image](assets/en/026.webp)
-Lo scopo del suo Trattato di Economia Politica è "esaminare il modo migliore per impiegare tutte le nostre facoltà fisiche e intellettuali per soddisfare i nostri vari bisogni". La sua idea è che il commercio sia la fonte di tutto il bene umano; è la forza civilizzatrice, razionalizzatrice e pacificatrice del mondo. La grande massima dell'economia politica è formulata da lui come segue: "il commercio è l'intera società, così come il lavoro è l'intera ricchezza". Infatti, egli vede la società come "una continua serie di scambi in cui entrambi i contraenti guadagnano sempre". Pertanto, il mercato è l'opposto della predazione. Arricchisce alcuni senza impoverire altri. Come verrà detto in seguito, non è un "gioco a somma zero", ma un gioco a somma positiva.
+
+Lo scopo del suo Trattato di Economia Politica è "esaminare il modo migliore per impiegare tutte le nostre facoltà fisiche e intellettuali per soddisfare i nostri vari bisogni". La sua idea è che il commercio sia la fonte di tutto il bene umano; è la forza civilizzatrice, razionalizzatrice e pacificatrice del mondo. La grande massima dell'economia politica è formulata da lui come segue: "Il commercio è l'intera società, così come il lavoro è l'intera ricchezza". Infatti, egli vede la società come "una continua serie di scambi in cui entrambi i contraenti guadagnano sempre". Pertanto, il mercato è l'opposto della predazione. Arricchisce alcuni senza impoverire altri. Come verrà detto in seguito, non è un "gioco a somma zero", ma un gioco a somma positiva.
 
 Il nostro autore non arriva fino a definire l'economia politica come la scienza degli scambi. Ma questo stesso ragionamento sarà ripreso e portato avanti da Bastiat. Vendere è uno scambio di oggetti, affittare è uno scambio di servizi e prestare è semplicemente uno scambio differito. L'economia politica diventa così per Bastiat "la teoria dello scambio".
 
+![image](assets/en/027.webp)
+
 Secondo Destutt de Tracy, la proprietà deriva necessariamente dalla nostra natura, dalla nostra facoltà di desiderio. Se l'uomo non desiderasse nulla, non avrebbe né diritti né doveri. Per soddisfare i suoi bisogni e adempiere ai suoi doveri, l'uomo deve impiegare mezzi che acquisisce attraverso il suo lavoro. E la forma di organizzazione sociale che si conforma a questo fine è la proprietà privata. Ecco perché l'unico oggetto del governo è proteggere la proprietà e permettere lo scambio pacifico.
+
+![image](assets/en/028.webp)
 
 Per lui, le migliori tasse sono quelle più moderate, e desidera che le spese dello stato siano il più possibile limitate. Condanna il saccheggio della ricchezza della società da parte del governo sotto forma di debito pubblico, tasse, monopoli bancari e spese. Ancora una volta, la legge dovrebbe servire solo a proteggere la libertà; non dovrebbe mai saccheggiare.
 

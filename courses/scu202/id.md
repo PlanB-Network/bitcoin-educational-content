@@ -212,7 +212,7 @@ Linux tetap minoritas di komputer pribadi (sekitar 4%), tetapi mendominasi serve
 
 Linux juga terintegrasi secara masif ke dalam perangkat tertanam (embedded devices) seperti router, TV pintar, smartphone (Android didasarkan pada kernel Linux) dan bahkan dalam industri otomotif. Windows mempertahankan kehadirannya yang kuat dalam bisnis, sementara macOS disukai oleh para profesional di bidang tertentu.
 
-→ **Penting**: Kernel adalah komponen utama dari sistem operasi: kernel mengelola akses ke perangkat keras (prosesor, memori, periferal), menengahi eksekusi proses secara bersamaan, menerapkan kebijakan keamanan, dan menawarkan Interface yang seragam untuk program yang menyembunyikan kerumitan sirkuit elektronik. Dengan kata lain, ia bertindak sebagai jembatan antara kumpulan perangkat lunak (pustaka, driver, shell, layanan, alat administrasi, antarmuka grafis, dll.) dan perangkat keras.
+→ **Penting**: Kernel adalah komponen utama dari sistem operasi: kernel mengelola akses ke perangkat keras (prosesor, memori, periferal), menengahi eksekusi proses secara bersamaan, menerapkan kebijakan keamanan, dan menawarkan Interface yang seragam untuk program yang menyembunyikan kerumitan sirkuit elektronik. Dengan kata lain, ia bertindak sebagai jembatan antara kumpulan perangkat lunak (pustaka, driver, shell, layanan, program administrasi, antarmuka grafis, dll.) dan perangkat keras.
 
 ### Windows: kemudahan penggunaan dan kompatibilitas
 
@@ -321,7 +321,7 @@ Dengan pemikiran ini, Stallman mendirikan *Free Software Foundation* (FSF) pada 
 
 ![Image](assets/fr/014.webp)
 
-GNU dengan cepat menyediakan serangkaian alat bantu penting untuk sistemnya:
+GNU dengan cepat menyediakan serangkaian program bantu penting untuk sistemnya:
 - GCC (kompiler C)
 - glibc (pustaka C standar)
 - coreutils (perintah dasar)
@@ -345,7 +345,7 @@ Kisah kernel Linux dimulai pada tahun 1991, dengan Linus Torvalds, seorang mahas
 
 ![Image](assets/fr/016.webp)
 
-Kernel ini, yang awalnya dinamai Freax dan kemudian berganti nama menjadi Linux (gabungan dari "Linus" dan "Unix"), segera menarik perhatian pengembang lain yang bersemangat. Sebuah komunitas internasional secara spontan muncul untuk berkontribusi pada source code yang dapat diakses secara bebas. Berbeda dengan GNU, Linux pada awalnya hanyalah sebuah kernel: komponen perangkat lunak yang bertanggung jawab mengelola sumber daya perangkat keras mesin. Dikombinasikan dengan alat dan aplikasi yang sudah dikembangkan oleh proyek GNU, kernel ini akhirnya menyediakan sistem operasi yang sepenuhnya gratis dan fungsional. Kombinasi ini disebut sebagai "GNU/Linux" untuk menekankan sinergi antara kedua proyek. Namun, dalam bahasa umum, sistem operasi ini umumnya disebut "Linux" saja.
+Kernel ini, yang awalnya dinamai Freax dan kemudian berganti nama menjadi Linux (gabungan dari "Linus" dan "Unix"), segera menarik perhatian pengembang lain yang bersemangat. Sebuah komunitas internasional secara spontan muncul untuk berkontribusi pada source code yang dapat diakses secara bebas. Berbeda dengan GNU, Linux pada awalnya hanyalah sebuah kernel: komponen perangkat lunak yang bertanggung jawab mengelola sumber daya perangkat keras mesin. Dikombinasikan dengan program dan aplikasi yang sudah dikembangkan oleh proyek GNU, kernel ini akhirnya menyediakan sistem operasi yang sepenuhnya gratis dan fungsional. Kombinasi ini disebut sebagai "GNU/Linux" untuk menekankan sinergi antara kedua proyek. Namun, dalam bahasa umum, sistem operasi ini umumnya disebut "Linux" saja.
 
 ![Image](assets/fr/017.webp)
 
@@ -381,101 +381,53 @@ Berdasarkan warisan teknis ini, kini kita dapat menguji secara nyata bagaimana p
 
 ## Gambaran umum tentang distribusi Linux
 
-
 <chapterId>868f44d7-69ce-4493-b65e-daff00f3eb54</chapterId>
 
+Sebuah distribusi Linux (sering disingkat "*distro*") adalah sistem operasi lengkap yang dibangun dari kernel Linux (dan sering kali dengan elemen-elemen GNU), ditambah dengan serangkaian perangkat lunak, library, skrip inisialisasi, dan program manajemen yang koheren, untuk membentuk lingkungan yang siap digunakan. Oleh karena itu, sebuah distribusi Linux tidak terbatas pada kernel saja, melainkan merepresentasikan integrasi komprehensif dari komponen perangkat lunak yang dibutuhkan untuk menjalankan dan menggunakan komputer (atau perangkat komputasi lainnya).
 
-
-Distribusi Linux (sering disingkat "*distro*") adalah sebuah sistem operasi lengkap yang dibangun dari kernel Linux (dan sering kali dengan Elements dari GNU), ditambah dengan sekumpulan perangkat lunak, pustaka, skrip inisialisasi, dan alat manajemen yang koheren, untuk membentuk sebuah lingkungan yang siap digunakan. Oleh karena itu, distribusi Linux tidak terbatas pada kernel, tetapi merupakan integrasi komprehensif dari komponen perangkat lunak yang diperlukan untuk menjalankan dan menggunakan komputer (atau perangkat komputasi lainnya).
-
-
-
-Setiap distribusi Linux menyertakan file :
-
-
-
-
+Setiap distribusi Linux berisi file :
 - kernel **Linux**, yang berkomunikasi dengan perangkat keras dan mengelola sumber daya sistem (CPU, memori, disk, dll.)
-- **bootloader**, seperti *GRUB*, untuk mem-boot sistem
+- **bootloader**, seperti *GRUB*, untuk memulai sistem
 - sistem inisialisasi yang memungkinkan layanan dijalankan pada saat boot: *systemd*, *OpenRC*, *SysV init*, atau *runit*, tergantung pada pilihan filosofis distribusi
 - sebuah **sistem manajemen paket**, yang memungkinkan Anda menginstal, memperbarui, dan menghapus perangkat lunak. Yang paling umum adalah *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) atau *APK* (Alpine)
 - repositori **perangkat lunak online**, yang memusatkan versi tervalidasi dari aplikasi yang tersedia
-- sekumpulan alat bantu sistem (shell, editor, kompiler, antarmuka jaringan, dll.) dan sering kali lingkungan desktop yang telah dikonfigurasi sebelumnya (*GNOME*, *KDE Plasma*, *XFCE*, dll.)
+- sekumpulan program bantu sistem (shell, editor, kompiler, Interface jaringan, dll.) dan sering kali lingkungan desktop yang telah dikonfigurasi sebelumnya (*GNOME*, *KDE Plasma*, *XFCE*, dll.)
 - skrip konfigurasi, dokumentasi dan, dalam beberapa kasus, layanan dukungan
-
-
 
 ![Image](assets/fr/050.webp)
 
+Pekerjaan perakitan ini bersifat spesifik untuk setiap distribusi, yang memilih komponennya sesuai dengan filosofi mereka (kesederhanaan, keringanan, keamanan, stabilitas, inovasi, dll.), audiens target (pemula, bisnis, server, workstation, embedded machine, dll.), dan siklus pengembangannya (_rolling release_ atau _stable_). Misalnya, Arch Linux berfokus pada kesederhanaan struktural dan transparansi teknis, sementara Ubuntu berkonsentrasi pada pengalaman pengguna dan kompatibilitas yang umum (tetapi kita akan kembali membahas ini di bagian akhir bab ini).
 
+→ **Catatan:**: Distribusi *rolling release* mengintegrasikan versi perangkat lunak terbaru segera setelah tersedia, menghasilkan sistem yang selalu terbarui tetapi berpotensi kurang stabil. Sebaliknya, distribusi _stable_ merilis versi perangkat lunak ketika versi utama dirilis, menjamin keandalan yang lebih besar dengan mengorbankan hal-hal baru.
 
-Pekerjaan perakitan ini spesifik untuk setiap distribusi, yang memilih komponennya sesuai dengan filosofi (kesederhanaan, ringan, keamanan, stabilitas, inovasi, dan lain-lain), target audiens (pemula, bisnis, server, workstation, mesin embedded, dan lain-lain), dan siklus pengembangannya (*rolling release* atau *stable*). Sebagai contoh, Arch Linux berfokus pada kesederhanaan struktural dan transparansi teknis, sementara Ubuntu berkonsentrasi pada pengalaman pengguna dan kompatibilitas arus utama (tetapi kita akan kembali ke hal ini di bagian akhir bab ini).
+Keberadaan distribusi memungkinkan pengguna untuk mendapatkan manfaat dari sistem Linux yang siap pakai, tanpa harus secara manual membangun kembali setiap komponen perangkat lunak. Ini merupakan keuntungan besar dalam hal waktu, konsistensi, dan keamanan. Selain itu, dalam hal arsitektur, distribusi memanfaatkan lapisan abstraksi perangkat keras yang disediakan oleh kernel Linux. Lapisan ini memungkinkan sistem operasi untuk kompatibel dengan berbagai perangkat keras yang berbeda, tanpa perlu menyesuaikan perangkat lunak untuk setiap komponen spesifik. Modularitas ini juga mempermudah modifikasi atau penggantian komponen sistem tanpa harus membangun kembali seluruh sistem.
 
-
-
-→ **Catatan:** Distribusi *rolling release* mengintegrasikan versi perangkat lunak terbaru segera setelah tersedia, sehingga menghasilkan sistem yang selalu mutakhir tetapi berpotensi kurang stabil. Sebaliknya, distribusi *stable* mengirimkan versi perangkat lunak ketika versi utama dirilis, sehingga menjamin keandalan yang lebih besar dengan mengorbankan hal yang baru.
-
-
-
-Keberadaan distribusi memungkinkan pengguna untuk mendapatkan keuntungan dari sistem Linux yang siap pakai, tanpa harus membangun ulang setiap komponen perangkat lunak secara manual. Ini merupakan keuntungan besar dalam hal waktu, konsistensi, dan keamanan. Selain itu, dalam hal arsitektur, distribusi memanfaatkan abstraksi perangkat keras Layer yang disediakan oleh kernel Linux. Layer ini memungkinkan sistem operasi kompatibel dengan berbagai macam perangkat keras yang berbeda, tanpa perlu mengadaptasikan perangkat lunak untuk setiap komponen tertentu. Modularitas ini juga memudahkan untuk memodifikasi atau mengganti komponen sistem tanpa harus membangun ulang seluruh sistem.
-
-
-
-Oleh karena itu, memahami perbedaan antara distribusi Linux merupakan langkah penting dalam memilih distribusi yang tepat untuk kebutuhan, keterampilan, dan persyaratan Anda. Itulah yang akan kita bahas dalam bab ini.
-
-
+Oleh karena itu, memahami perbedaan antara distribusi Linux merupakan langkah penting dalam memilih yang tepat untuk kebutuhan, keterampilan, dan persyaratan Anda. Itulah yang akan kita lihat di bab ini.
 
 ### Asal-usul sejarah distribusi Linux
 
+Distribusi Linux pertama kali muncul segera setelah Linus Torvalds menerbitkan kernel Linux pada September 1991. Pada saat itu, Linux hanyalah sebuah kernel: untuk mendapatkan sistem yang lengkap, pengguna harus secara manual merakit berbagai komponen yang dibutuhkan (sering kali diambil dari proyek GNU), yang memerlukan tingkat keahlian teknis yang tinggi. Menginstal sistem berarti mengompilasi kernel sendiri, mengonfigurasi partisi, memilih program, mengelola dependensi perangkat lunak... Singkatnya, ini adalah proses yang rumit, yang hanya dikuasai oleh para ahli.
+
+Untuk membuat Linux lebih mudah diakses, beberapa proyek dengan cepat muncul, dengan gagasan merakit sistem yang siap digunakan dari kernel Linux dan satu set seperangkat lunak yang koheren.
+
+Upaya awal inilah yang menandai kelahiran distribusi Linux:
+
+- **Februari 1992: MCC Interim Linux**
+  
+Dikembangkan di University of Manchester, MCC Interim Linux dianggap sebagai distribusi Linux pertama. Tujuannya adalah untuk menyederhanakan instalasi sistem pada PC standar. Ia hadir dalam bentuk beberapa disket dan berisi seperangkat program minimal agar Linux dapat berjalan dengan cepat.
 
 
-Distribusi Linux pertama muncul segera setelah Linus Torvalds mempublikasikan kernel Linux pada bulan September 1991. Pada saat itu, Linux hanyalah sebuah kernel: untuk mendapatkan sebuah sistem yang lengkap, pengguna harus merakit sendiri berbagai komponen yang dibutuhkan (sering kali diambil dari proyek GNU), yang membutuhkan keahlian teknis tingkat tinggi. Menginstal sistem berarti mengkompilasi kernel sendiri, mengkonfigurasi partisi, memilih alat, mengelola ketergantungan perangkat lunak... Singkatnya, sebuah proses yang rumit, diperuntukkan bagi mereka yang sudah berpengalaman.
+- **Mei 1992: Softlanding Linux System (SLS)**
 
-
-
-Untuk membuat Linux lebih mudah diakses, beberapa proyek bermunculan dengan cepat, dengan ide untuk merakit sistem siap pakai dari kernel Linux dan seperangkat perangkat lunak yang koheren.
-
-
-
-Upaya-upaya awal ini menandai lahirnya distribusi Linux:
-
-
-
-
-
-- Februari 1992: Linux Sementara PKS ** Linux Interim
-
-
-
-Dikembangkan di Universitas Manchester, MCC Interim Linux dianggap sebagai distribusi Linux pertama. Tujuannya adalah untuk menyederhanakan instalasi sistem pada PC standar. Distribusi ini hadir dalam bentuk beberapa disket dan berisi seperangkat alat minimal untuk menjalankan Linux dengan cepat.
-
-
-
-
-
-- Mei 1992: Softlanding Linux System (SLS)**
-
-
-
-Distribusi SLS merupakan distribusi pertama yang menawarkan instalasi yang lebih lengkap dengan sistem windowing (X Window), shell, kompiler dan alat bantu lain yang telah dikonfigurasi sebelumnya. Tujuannya adalah untuk menyediakan sistem seperti Unix yang dapat digunakan oleh masyarakat umum.
-
-
+Distribusi SLS adalah yang pertama menawarkan instalasi yang lebih lengkap dengan sistem jendela (X Window), shell, kompiler, dan program lain yang sudah dikonfigurasi sebelumnya. Tujuannya adalah untuk menyediakan sistem mirip Unix yang dapat digunakan oleh masyarakat umum.
 
 ![Image](assets/fr/049.webp)
 
+Pada masa awalnya, SLS meraih sukses besar, tetapi pengguna segera menyuarakan kritik terhadap ketidakstabilan dan beberapa keputusan pemeliharaannya. Hal ini mendorong beberapa pengembang untuk meluncurkan proyek paralel, baik untuk meningkatkan SLS maupun untuk menggantikannya. Demikianlah dimulainya pohon besar distribusi Linux dan segmentasinya ke dalam berbagai kelompok.
 
+SLS kini tidak lagi ada. Versi terakhir yang diketahui berasal dari akhir tahun 1994.
 
-Pada masa-masa awalnya, SLS sukses besar, tetapi para pengguna segera menyuarakan kritik atas ketidakstabilan dan keputusan pemeliharaan tertentu. Hal ini mendorong beberapa pengembang untuk meluncurkan proyek paralel, baik untuk memperbaiki SLS atau menggantikannya. Dengan demikian, dimulailah pohon besar distribusi Linux dan segmentasi mereka ke dalam beberapa keluarga.
-
-
-
-SLS sudah tidak ada lagi. Versi terakhirnya yang diketahui berasal dari akhir tahun 1994.
-
-
-
-
-
-- Juli 1993: Perangkat lunak yang tidak dapat digunakan**
+- **Juli 1993: Slackware**
 
 
 

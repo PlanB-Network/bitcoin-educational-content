@@ -4,7 +4,7 @@ name: Zaprite Tutorial
 description: How to use Zaprite as a Merchant and Customer
 ---
 
-![cover](assets/cover.webp)
+![Zaprite Splash Logo - Green Background with Zaprite name front and center](assets/cover.webp)
 
 Zaprite is a premier invoicing and business payments solution. Easily accept payments via Bitcoin, Lightning and Liquid Networks, and any legacy fiat payment rails including Card Payments and Bank Transfers.
 
@@ -12,15 +12,13 @@ This tutorial will guide you through all of their many features and prepare you 
 
 ## Free Trial
 
-![Zaprite 30 Day Free Trial Offer](assets/en/01.webp)
+![Splash page for Zaprite 30 Day Free Trial Offer - Learn key benefits, Preview the Customer Experience, and Sign Up](assets/en/01.webp)
 
 To get started accepting payments, they have an extremely gracious trial period available to new users.
 
 All you need is an email to get started. If you prefer, you can also enable Single-Sign-On (SSO) with an existing Google account.
 
 ## Business Details
-
-
 
 ### Orders
 
@@ -30,7 +28,7 @@ All you need is an email to get started. If you prefer, you can also enable Sing
 
 ### Connections
 
-![Connections](assets/en/03.webp)
+![Preview the Connections page where you can connect Zaprite to a plethora of payment types and payment methods](assets/en/03.webp)
 
 For our first stop, let's configure our payment methods. This is where you configure the ways that people can pay you.
 
@@ -119,18 +117,18 @@ There is a preview section available to verify that your selections are meeting 
 
 ##### Billing
 
-Keep track of your Zaprite subscription with the Your Plan section
+Keep track of your Zaprite subscription with the Your Plan section where you can see how long your current cycle will last and the due date for your next payment.
 
-Set your payment interval to be monthly or yearly, for a discount
+Set your payment interval to either be monthly or yearly, for a 20% discount.
 
-View your Payment History at a glance or download receipts
+View your Payment History at a glance and download receipts if need be.
 
-If business isn't going well, you can always choose to Cancel Subscription
+If business isn't going well, you can always choose to Cancel Subscription.
 
 
 ##### Team
 
-As admin, you'll be able to invite additional team members to login to Zaprite and manage your organization.
+As admin, you'll be able to manage team access. You can invite additional team members to login to Zaprite and manage your organization.
 
 ##### API
 
@@ -140,11 +138,11 @@ Request access to the API for custom integrations.
 
 ### Checkout
 
-![](assets/en/)
+![Choose your payment methods that your customers can use. Choose Discounts/Premiums for Fiat or Bitcoin Methods](assets/en/04.webp)
 
 #### Premiums/Discounts for Varying Money Types (Bitcoin vs Fiat)
 
-![](assets/en/)
+![Preview the Checkout Experience You've Configured](assets/en/05.webp)
 
 
 ### Invoices

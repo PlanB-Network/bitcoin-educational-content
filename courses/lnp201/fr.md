@@ -710,7 +710,7 @@ Enfin, en cas de fermeture coopérative du canal alors qu'un HTLC est actif, Ali
 Les HTLC permettent d’acheminer des paiements Lightning par plusieurs nœuds sans avoir à leur faire confiance. Voici les points clés à retenir :
 
 - Les HTLC garantissent la sécurité des paiements via un secret (préimage) et un délai d’expiration.
-- La résolution ou l'expiration des HTLC suit un ordre spécifique : puis la destination vers la source, afin de protéger chaque nœud.
+- La résolution ou l'expiration des HTLC suit un ordre spécifique : de la destination vers la source, afin de protéger chaque nœud.
 - Tant qu'un HTLC n'est ni résolu ni expiré, il est maintenu comme output dans les transactions d'engagement les plus récentes.
 
 Dans le chapitre suivant, nous allons découvrir comment un nœud émetteur d'une transaction Lightning trouve et sélectionne des routes pour que son paiement atteigne le nœud destinataire.
@@ -1007,7 +1007,7 @@ Le but de cette formation était de vous fournir une compréhension globale et t
 
 Dans les premiers chapitres, nous avons vu comment deux parties, en ouvrant un canal de paiement, peuvent réaliser des transactions en dehors de la blockchain Bitcoin. Voici les étapes abordées :
 
-- **Ouverture du canal** : La création du canal se fait via une transaction Bitcoin qui verouille les fonds sur une adresse multisignature 2/2. Ce dépôt est la représentation du canal Lightning sur la blockchain.
+- **Ouverture du canal** : La création du canal se fait via une transaction Bitcoin qui verrouille les fonds sur une adresse multisignature 2/2. Ce dépôt est la représentation du canal Lightning sur la blockchain.
 
 ![LNP201](assets/fr/76.webp)
 

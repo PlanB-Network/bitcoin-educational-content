@@ -6,7 +6,7 @@ description: Mensajería instantánea segura y anónima
 
 
 
-Fundada en 2012 en Suiza, Threema es una app de mensajería instantánea diseñada para garantizar la privacidad y la seguridad. A diferencia de WhatsApp, Telegram o Signal, Threema no requiere número de teléfono ni correo electrónico Address para crear una cuenta. Cada usuario tiene un identificador único, lo que permite un registro completamente anónimo.
+Fundada en 2012 en Suiza, Threema es una app de mensajería instantánea diseñada para garantizar la privacidad y la seguridad. A diferencia de WhatsApp, Telegram o Signal, Threema no requiere número de teléfono ni dirección de correo electrónico para crear una cuenta. Cada usuario tiene un identificador único, lo que permite un registro completamente anónimo.
 
 
 
@@ -22,7 +22,7 @@ Threema dispone de clientes básicos para Android e iOS. También hay una aplica
 
 
 
-La aplicación Threema no es gratuita. Funciona con un modelo de compra única: 5,99 euros para usar la aplicación de por vida (o 4,99 euros si la compras directamente). Para utilizar realmente Threema de forma anónima, el pago también tiene que ser anónimo. Por eso puedes comprar una clave de activación en bitcoins o en efectivo en la "*Threema Shop*" para activar la versión de Android. En iOS, en cambio, la compra debe realizarse a través de la App Store, debido a las restricciones de Apple sobre la monetización de aplicaciones.
+La aplicación Threema no es gratuita. Funciona con un modelo de compra única: 5,99 Euros para usar la aplicación de por vida (o 4,99 euros si la compras directamente). Para utilizar realmente Threema de forma anónima, el pago también tiene que ser anónimo. Por eso puedes comprar una clave de activación en Bitcoin o en efectivo en la "*Threema Shop*" para activar la versión de Android. En iOS, en cambio, la compra debe realizarse a través de la App Store, debido a las restricciones de Apple sobre la monetización de aplicaciones.
 
 
 
@@ -34,8 +34,8 @@ También existe una versión para empresas llamada "*Threema Work*". En este tut
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ----------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                            | ❌                             | ❌                        | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional)   | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
+| Telegram             | 🟡 (opcional)   | ❌              | 🟡                  | ✅                            | ❌                             | ❌                        | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                             | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                             | ❌                        | 2012              |
@@ -74,7 +74,7 @@ En Android, también es posible [instalar vía APK](https://shop.threema.ch/en/d
 
 
 
-También existen [versiones para ordenador](https://threema.ch/download) (MacOS, Linux y Windows). Este tutorial le mostrará cómo sincronizarlas.
+También existen [versiones para ordenador](https://threema.ch/download) (MacOS, Linux y Windows). Este tutorial te mostrará cómo sincronizarlas.
 
 
 
@@ -94,7 +94,7 @@ Una vez instalada la aplicación, si has ido directamente a través de una tiend
 
 
 
-Seleccione el número de licencias que desea comprar (sólo una si es sólo para usted), elija la moneda y seleccione el método de entrega de la licencia. Puede elegir recibir la licencia por correo electrónico, o directamente en el sitio si desea permanecer en el anonimato. A continuación, haga clic en "*Proceder al pago*".
+Selecciona el número de licencias que deseas comprar (sólo una si es sólo para ti), elije la moneda y selecciona el método de entrega de la licencia. Puedes elegir recibir la licencia por correo electrónico, o directamente en el sitio si deseas permanecer en el anonimato. A continuación, haz clic en "*Proceder al pago*".
 
 
 
@@ -102,7 +102,7 @@ Seleccione el número de licencias que desea comprar (sólo una si es sólo para
 
 
 
-Elige tu método de pago. En mi caso, voy a pagar en bitcoins, lo que también te recomiendo que hagas, ya que te permite permanecer en el anonimato (siempre que utilices Bitcoin adecuadamente) y es mucho más cómodo que un pago en efectivo a distancia. A continuación, haz clic en "*Siguiente*".
+Elige tu método de pago. En nuestro caso, vamos a pagar en Bitcoin, lo que también te recomiendo que hagas, ya que te permite permanecer en el anonimato (siempre que utilices Bitcoin adecuadamente) y es mucho más cómodo que un pago en efectivo a distancia. A continuación, haz clic en "*Siguiente*".
 
 
 
@@ -110,11 +110,11 @@ Elige tu método de pago. En mi caso, voy a pagar en bitcoins, lo que también t
 
 
 
-Si no necesita una Invoice, vuelva a hacer clic en "*Siguiente*" sin introducir ningún dato personal.
+Si no necesitas una factura, vuelve a hacer clic en "*Siguiente*" sin introducir ningún dato personal.
 
 
 
-A continuación, confirme su compra haciendo clic en "*Confirmar pago*".
+A continuación, confirma tu compra haciendo clic en "*Confirmar pago*".
 
 
 
@@ -122,11 +122,11 @@ A continuación, confirme su compra haciendo clic en "*Confirmar pago*".
 
 
 
-A continuación, deberá enviar el importe indicado a la Bitcoin Address proporcionada (lamentablemente, Lightning aún no es compatible). Una vez confirmada la transacción en la Blockchain, haga clic en "*Cerrar*" junto a la Invoice.
+A continuación, deberás enviar el importe indicado a la dirección Bitcoin proporcionada (lamentablemente, Lightning aún no es compatible). Una vez confirmada la transacción en la Blockchain, haz clic en "*Cerrar*" junto al recibo.
 
 
 
-A continuación, tendrá acceso a su clave de licencia. Atención: si no ha introducido un correo electrónico Address, esta clave sólo se mostrará aquí. No olvide guardar la URL de la página para poder acceder a ella más tarde en caso necesario.
+A continuación, tendrás acceso a tu clave de licencia. Atención: Si no has introducido un correo electrónico, esta clave sólo se mostrará aquí. No olvides guardar la URL de la página para poder acceder a ella más tarde en caso necesario.
 
 
 
@@ -138,7 +138,7 @@ A continuación, tendrá acceso a su clave de licencia. Atención: si no ha intr
 
 
 
-Ahora que tiene su clave de licencia, puede finalmente iniciar la aplicación. En el primer inicio, si no has comprado Threema a través de una tienda de aplicaciones, se te pedirá que introduzcas tu clave de licencia, adquirida en el sitio.
+Ahora que tienes tu clave de licencia, puedes finalmente iniciar la aplicación. En el primer inicio, si no has comprado Threema a través de una tienda de aplicaciones, se te pedirá que introduzcas tu clave de licencia, adquirida en el sitio.
 
 
 
@@ -170,7 +170,7 @@ Aparecerá entonces tu "*ID de Treema*". Te permitirá contactar con otros usuar
 
 
 
-Elija una contraseña. Te permitirá restablecer el acceso a tu cuenta en caso de necesidad. Haz que tu contraseña sea lo más larga y aleatoria posible, y guarda una copia segura de ella, por ejemplo en un gestor de contraseñas.
+Elije una contraseña. Te permitirá restablecer el acceso a tu cuenta en caso de necesidad. Haz que tu contraseña sea lo más larga y aleatoria posible, y guarda una copia segura de ella, por ejemplo en un gestor de contraseñas.
 
 
 
@@ -194,7 +194,7 @@ A continuación, puedes vincular tu Threema ID a tu número de teléfono. Esto t
 
 
 
-Una vez completado este paso, haga clic en "*Finalizar*".
+Una vez completado este paso, haz clic en "*Finalizar*".
 
 
 
@@ -238,7 +238,7 @@ En la pestaña "*Privacidad*" encontrarás varias opciones que podrás ajustar a
 
 
 
-En la pestaña "*Seguridad*", recomiendo activar la opción "*Mecanismo de bloqueo*" para proteger el acceso a la aplicación. También es aconsejable activar passphrase para proteger las copias de seguridad locales.
+En la pestaña "*Seguridad*", recomendamos activar la opción "*Mecanismo de bloqueo*" para proteger el acceso a la aplicación. También es aconsejable activar passphrase para proteger las copias de seguridad locales.
 
 
 
@@ -258,7 +258,7 @@ No dudes en explorar las demás secciones de la configuración para personalizar
 
 
 
-Antes de empezar a intercambiar mensajes, es importante planificar una forma de recuperar tu cuenta, sobre todo si cambias de teléfono o lo pierdes. Para ello, haz clic en los tres puntos de la parte superior derecha de Interface y, a continuación, accede al menú "*Copias de seguridad*".
+Antes de empezar a intercambiar mensajes, es importante planificar una forma de recuperar tu cuenta, sobre todo si cambias de teléfono o lo pierdes. Para ello, haz clic en los tres puntos de la parte superior derecha de la Interfaz y, a continuación, accede al menú "*Copias de seguridad*".
 
 
 
@@ -272,11 +272,11 @@ Aquí encontrarás dos opciones para hacer copias de seguridad de tus datos:
 
 
 - "*Threema Safe*";
-- "Copia de seguridad de datos".
+- "*Copia de seguridad de datos*".
 
 
 
-"Threema Safe*" guarda toda la información de tu cuenta, excepto tus conversaciones, en los servidores de Threema. Estos datos se cifran con la contraseña que elegiste al crear tu cuenta, lo que garantiza que Threema no tenga acceso a ellos. Las copias de seguridad se realizan de forma automática y periódica.
+"*Threema Safe*" guarda toda la información de tu cuenta, excepto tus conversaciones, en los servidores de Threema. Estos datos se cifran con la contraseña que elegiste al crear tu cuenta, lo que garantiza que Threema no tenga acceso a ellos. Las copias de seguridad se realizan de forma automática y periódica.
 
 
 
@@ -312,7 +312,7 @@ Nota: "*Copia de seguridad de datos*" sólo funciona si utilizas el mismo sistem
 
 
 
-En la esquina superior izquierda de Interface, haz clic en tu foto de perfil y selecciona "*Mi perfil*".
+En la esquina superior izquierda de la Interfaz, haz clic en tu foto de perfil y selecciona "*Mi perfil*".
 
 
 
@@ -320,7 +320,7 @@ En la esquina superior izquierda de Interface, haz clic en tu foto de perfil y s
 
 
 
-Aquí puedes personalizar tu perfil: añadir una foto, elegir quién puede verlo o ver tus datos de acceso a Threema.
+Aquí puedes personalizar tu perfil: Añadir una foto, elegir quién puede verlo o ver tus datos de acceso a Threema.
 
 
 
@@ -356,7 +356,7 @@ Haz clic en "*Añadir dispositivo*" y, a continuación, utiliza tu teléfono par
 
 
 
-Para confirmar la sincronización, haz clic en el grupo emoji que aparece en el software.
+Para confirmar la sincronización, haz clic en el grupo de emojis que aparece en el software.
 
 
 
@@ -364,7 +364,7 @@ Para confirmar la sincronización, haz clic en el grupo emoji que aparece en el 
 
 
 
-En su ordenador, inicie sesión con su contraseña.
+En tu ordenador, inicia sesión con su contraseña.
 
 
 
@@ -372,7 +372,7 @@ En su ordenador, inicie sesión con su contraseña.
 
 
 
-Además de la aplicación móvil, ahora puede acceder a su cuenta Threema directamente desde su ordenador.
+Además de la aplicación móvil, ahora puedes acceder a tu cuenta Threema directamente desde tu ordenador.
 
 
 
@@ -400,7 +400,7 @@ Seleccione "*Nuevo contacto*".
 
 
 
-Introduzca o escanee el "*ID de Treema*" de su corresponsal.
+Introduce o escanea el "*ID de Treema*" de tu corresponsal.
 
 
 
@@ -416,7 +416,7 @@ Haz clic en el icono de mensaje.
 
 
 
-Envíe un primer mensaje a su corresponsal.
+Envía un primer mensaje a tu corresponsal.
 
 
 
@@ -424,7 +424,7 @@ Envíe un primer mensaje a su corresponsal.
 
 
 
-Cuando tu interlocutor responda, se establecerá la conexión y podrás ver su nombre y su foto de perfil. A continuación podrás Exchange mensajes, archivos multimedia e incluso hacer llamadas.
+Cuando tu interlocutor responda, se establecerá la conexión y podrás ver su nombre y su foto de perfil. A continuación podrás intercambiar mensajes, archivos multimedia e incluso hacer llamadas.
 
 
 
@@ -432,11 +432,11 @@ Cuando tu interlocutor responda, se establecerá la conexión y podrás ver su n
 
 
 
-Enhorabuena, ya estás al día en el uso de la mensajería Threema, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
+Enhorabuena, ya estás al día en el uso de la mensajería Threema, ¡una gran alternativa a WhatsApp! Si este tutorial te ha resultado útil, te agradeceríamos que dejaras un pulgar verde a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
 
 
 
-También te recomiendo este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presentamos Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
 
 
 

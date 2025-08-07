@@ -1,12 +1,12 @@
 ---
-name: Señal
+name: Signal
 description: Exprésate libremente
 ---
 ![cover](assets/cover.webp)
 
 
 
-Signal es una aplicación de mensajería cifrada de extremo a extremo, diseñada para ofrecer una buena confidencialidad por defecto. Cada mensaje, llamada y archivo está protegido por el protocolo Signal, reconocido como uno de los protocolos de mensajería más robustos. Es reutilizado por muchas otras aplicaciones, como WathsApp, Facebook Messenger, Skype y Google Messages para comunicaciones RCS.
+Signal es una aplicación de mensajería cifrada de extremo a extremo, diseñada para ofrecer una buena confidencialidad por defecto. Cada mensaje, llamada y archivo está protegido por el protocolo Signal, reconocido como uno de los protocolos de mensajería más robustos. Es reutilizado por muchas otras aplicaciones, como WhatsApp, Facebook Messenger, Skype y Google Messages para comunicaciones RCS.
 
 
 
@@ -22,7 +22,7 @@ En comparación con WhatsApp, Signal destaca por su transparencia: el código de
 
 
 
-Sin embargo, Signal se basa en el uso de un número de teléfono, lo que constituye su principal punto débil en materia de anonimato en comparación con otras soluciones. A pesar de ello, la aplicación es, en mi opinión, una de las más fiables en términos de seguridad y confidencialidad, gracias a su arquitectura totalmente abierta y a un protocolo de cifrado ampliamente adoptado y, por tanto, probado y auditado, a diferencia de otras aplicaciones más marginales.
+Sin embargo, Signal se basa en el uso de un número de teléfono, lo que constituye su principal punto débil en materia de anonimato en comparación con otras soluciones. A pesar de ello, la aplicación es, en nuestra opinión, una de las más fiables en términos de seguridad y confidencialidad, gracias a su arquitectura totalmente abierta y a un protocolo de cifrado ampliamente adoptado y, por tanto, probado y auditado, a diferencia de otras aplicaciones más marginales.
 
 
 
@@ -30,13 +30,13 @@ Sin embargo, Signal se basa en el uso de un número de teléfono, lo que constit
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ----------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                            | ❌                             | ❌                        | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional)   | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
+| Telegram             | 🟡 (opcional)   | ❌              | 🟡                   | ✅                            | ❌                             | ❌                        | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                             | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                             | ❌                        | 2012              |
 | Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                           | 🟡 (vía email)          | 2017              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                             | 🟡 (vía email)          | 2017              |
 | Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2021              |
@@ -77,7 +77,7 @@ En este tutorial nos centraremos en la versión móvil, pero ten en cuenta que [
 
 
 
-Cuando inicie la aplicación por primera vez, pulse el botón "*Continuar*".
+Cuando inicies la aplicación por primera vez, pulsa el botón "*Continuar*".
 
 
 
@@ -85,7 +85,7 @@ Cuando inicie la aplicación por primera vez, pulse el botón "*Continuar*".
 
 
 
-Introduzca su número de teléfono y pulse "*Siguiente*".
+Introduce tu número de teléfono y pulsa "*Siguiente*".
 
 
 
@@ -109,7 +109,7 @@ Elige un código PIN para proteger tu cuenta Signal. Este código encripta tus d
 
 
 
-Confirme este código PIN por segunda vez.
+Confirma este código PIN por segunda vez.
 
 
 
@@ -125,7 +125,7 @@ Ahora puedes personalizar tu perfil de usuario. Elige una foto, introduce tu nom
 
 
 
-Ya estás conectado a Signal y listo para enviar mensajes Exchange.
+Ya estás conectado a Signal y listo para intercambiar mensajes.
 
 
 
@@ -145,7 +145,7 @@ Haz clic en tu foto de perfil en la esquina superior izquierda para acceder a lo
 
 
 
-El menú "*Cuenta*" te permite gestionar la configuración de tu perfil. Te aconsejo que mantengas la configuración por defecto. También puedes activar la opción "*Bloqueo de registro*", que protege tu cuenta contra determinados tipos de ataques. Este menú también contiene las opciones que necesitas para transferir tu cuenta a un nuevo dispositivo.
+El menú "*Cuenta*" te permite gestionar la configuración de tu perfil. Te aconsejamos que mantengas la configuración por defecto. También puedes activar la opción "*Bloqueo de registro*", que protege tu cuenta contra determinados tipos de ataques. Este menú también contiene las opciones que necesitas para transferir tu cuenta a un nuevo dispositivo.
 
 
 
@@ -153,7 +153,7 @@ El menú "*Cuenta*" te permite gestionar la configuración de tu perfil. Te acon
 
 
 
-Si vuelves a hacer clic en tu foto de perfil en los ajustes, accederás a las opciones para personalizar tu perfil. Te recomiendo que pongas un "*Nombre de usuario*": así podrás ponerte en contacto con otras personas sin exponer tu número de teléfono.
+Si vuelves a hacer clic en tu foto de perfil en los ajustes, accederás a las opciones para personalizar tu perfil. Te recomendamos que pongas un "*Nombre de usuario*": así podrás ponerte en contacto con otras personas sin exponer tu número de teléfono.
 
 
 
@@ -177,7 +177,7 @@ El menú "*Privacidad*" es especialmente importante. Aquí encontrarás opciones
 
 
 
-Y no dudes en explorar los menús "*Apariencia*", "*Chats*" y "*Notificaciones*" para adaptar Interface y el funcionamiento de la aplicación a tus necesidades personales.
+Y no dudes en explorar los menús "*Apariencia*", "*Chats*" y "*Notificaciones*" para adaptar la interfaz y el funcionamiento de la aplicación a tus necesidades personales.
 
 
 
@@ -201,7 +201,7 @@ Haz clic en el botón "*Enlazar un nuevo dispositivo*".
 
 
 
-En su ordenador, inicie el software y, a continuación, escanee el código QR que aparece en la pantalla con su teléfono. Si deseas importar tus conversaciones, selecciona la opción "*Transferir historial de mensajes*".
+En tu ordenador, inicia el software y, a continuación, escanea el código QR que aparece en la pantalla de tu teléfono. Si deseas importar tus conversaciones, selecciona la opción "*Transferir historial de mensajes*".
 
 
 
@@ -221,11 +221,11 @@ Tus dispositivos ya están totalmente sincronizados.
 
 
 
-Para comunicarte con alguien en Signal, primero tienes que añadirlo como contacto. Hay varias opciones: puedes añadirlos a través de su número de teléfono (si la persona ha activado la opción de ser encontrada por este medio), o utilizar su ID de Signal.
+Para comunicarte con alguien en Signal, primero tienes que añadirlo como contacto. Hay varias opciones: Puedes añadirlos a través de su número de teléfono (si la persona ha activado la opción de ser encontrada por este medio), o utilizar su ID de Signal.
 
 
 
-Haga clic en el icono del lápiz situado en la esquina inferior derecha de Interface.
+Haz clic en el icono del lápiz situado en la esquina inferior derecha de la interfaz.
 
 
 
@@ -233,7 +233,7 @@ Haga clic en el icono del lápiz situado en la esquina inferior derecha de Inter
 
 
 
-En mi caso, quiero añadir a la persona por nombre de usuario. Así que hago clic en "*Buscar por nombre de usuario*".
+En este caso, queremos añadir a la persona por nombre de usuario. Así que hacemos clic en "*Buscar por nombre de usuario*".
 
 
 
@@ -241,7 +241,7 @@ En mi caso, quiero añadir a la persona por nombre de usuario. Así que hago cli
 
 
 
-A continuación, puede pegar su nombre de usuario o escanear su código QR.
+A continuación, pega el nombre de usuario o escanea su código QR.
 
 
 
@@ -265,11 +265,11 @@ La conversación aparecerá entonces en la página de inicio. Si la persona acep
 
 
 
-Enhorabuena, ya estás al día en el uso de la mensajería Signal, ¡una gran alternativa a WathsApp! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
+Enhorabuena, ya estás al día en el uso de la mensajería Signal, ¡una gran alternativa a WhatsApp! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar verde a continuación. No dudes en compartir este tutorial en tus redes sociales. ¡Muchas gracias!
 
 
 
-También te recomiendo este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presentamos Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
 
 
 

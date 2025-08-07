@@ -1204,13 +1204,13 @@ Il est probablement tout aussi important que les utilisateurs soient libres de d
 
 
 
-- Lightning Network : Un réseau de paiement qui permet le paiement rapide de très petits montants. Il nécessite très peu de On-Chain Bitcoin transactions. Il existe plusieurs implémentations interopérables, telles que [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) et [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin : Plusieurs parties collaborent pour combiner leurs paiements en une seule transaction afin de rendre le Address clustering plus difficile. Il existe plusieurs implémentations.
-- Chaînes latérales : Ce système peut verrouiller une pièce sur la Blockchain de la Bitcoin afin de la déverrouiller sur une autre Blockchain. Cela permet de déplacer des bitcoins vers une autre Blockchain, à savoir une Sidechain, afin d'utiliser les fonctionnalités disponibles sur cette Sidechain. Parmi les exemples, on peut citer [la Elements de Blockstream](https://github.com/ElementsProject/Elements).
+- Lightning Network : Un réseau de paiement qui permet le paiement rapide de très petits montants. Il nécessite très peu de transactions On-Chain. Il existe plusieurs implémentations interopérables, telles que [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) et [Lightning Dev Kit](https://github.com/lightningdevkit).
+- CoinJoin : Plusieurs parties collaborent pour combiner leurs paiements en une seule transaction afin de rendre le regroupement d'adresse plus difficile. Il existe plusieurs implémentations.
+- Chaînes latérales : Ce système peut verrouiller une pièce sur la Blockchain de Bitcoin afin de la déverrouiller sur une autre Blockchain. Cela permet de déplacer des bitcoins vers une autre Blockchain, à savoir une Sidechain, afin d'utiliser les fonctionnalités disponibles sur cette Sidechain. Parmi les exemples, on peut citer [la Elements de Blockstream](https://github.com/ElementsProject/Elements).
 - OpenTimestamps : il vous permet de [Timestamp un document](https://opentimestamps.org/) sur la Blockchain de Bitcoin de manière privée. Vous pouvez ensuite utiliser cette Timestamp pour prouver qu'un document a dû exister avant une certaine date.
 
 
-Sans le développement sans permission, beaucoup de ces projets n'auraient pas été possibles. Comme indiqué dans le chapitre sur la neutralité, si les développeurs devaient demander l'autorisation de créer des protocoles sur la base de Bitcoin, seuls les protocoles autorisés par le comité central d'octroi de licences aux développeurs seraient développés.
+Sans développement libre et ouvert, beaucoup de ces projets n’auraient pas été possibles. Comme indiqué dans le chapitre sur la neutralité, si les développeurs devaient demander l'autorisation de créer des protocoles sur la base de Bitcoin, seuls les protocoles autorisés par le comité central d'octroi de licences aux développeurs seraient développés.
 
 
 Il est courant que des systèmes tels que ceux énumérés ci-dessus soient eux-mêmes sous licence de logiciel libre, ce qui permet aux gens de contribuer, de réutiliser ou de réviser leur code sans demander d'autorisation. L'open source est devenu l'étalon-or des licences de logiciels Bitcoin.
@@ -1232,8 +1232,7 @@ De nombreux développeurs choisissent cette option en opérant sous un pseudonym
 > Je comprends que les humains désirent instinctivement connaître mon identité. Cependant, je pense que mon identité est largement immatérielle et je préfère être jugé sur mon travail.
 >
 
-> Si vous vous demandez si vous devez faire un don ou non, et si vous vous interrogez sur mon coût de la vie ou mes revenus, sachez qu'à proprement parler, vous devez me faire un don en fonction de l'utilité que vous trouvez à mon travail
-et mon travail sur le Bitcoin et le Lightning Network.
+> Si vous vous demandez si vous devez faire un don ou non, et si vous vous interrogez sur mon coût de la vie ou mes revenus, sachez qu'à proprement parler, vous devez me faire un don en fonction de l'utilité que vous trouvez à mon travail sur Bitcoin et le Lightning Network.
 
 
 Dans son cas, la raison de l'utilisation d'un pseudonyme doit être jugée sur ses mérites et non sur l'identité de la personne ou des personnes qui se cachent derrière le pseudonyme. Il est intéressant de noter qu'il a révélé dans un [article sur CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que le pseudonyme a été créé pour une raison différente.
@@ -1248,8 +1247,8 @@ Le pseudonyme le plus connu de Bitcoin est sans doute Satoshi Nakamoto. Les rais
 
 
 - Comme de nombreuses personnes pensent que Nakamoto possède beaucoup de Bitcoin, il est impératif pour sa sécurité financière et personnelle de ne pas dévoiler son identité.
-- Son identité étant inconnue, il n'est pas possible de poursuivre qui que ce soit, ce qui donne aux différentes autorités gouvernementales un délai Hard.
-- Il n'y a pas de personne autoritaire sur laquelle s'appuyer, ce qui rend la Bitcoin plus méritocratique et plus résistante au chantage.
+- Son identité étant inconnue, il n'est pas possible de poursuivre qui que ce soit, ce qui cause beaucoup de difficultés à diverses autorités gouvernementales.
+- Il n'y a pas de personne autoritaire sur laquelle s'appuyer, ce qui rend le Bitcoin plus méritocratique et plus résistante au chantage.
 
 
 Notez que ces points ne s'appliquent pas seulement à Satoshi Nakamoto, mais à toute personne travaillant dans Bitcoin ou détenant des quantités significatives de la monnaie, à des degrés divers.
@@ -1285,7 +1284,7 @@ Il présente ensuite le terme "cryptographie de sélection", qui désigne l'art 
 Bien qu'il ne s'agisse pas d'un guide ultime pour réussir, il peut être très utile de passer en revue ces points lorsque l'on fait de la cryptographie de sélection.
 
 
-En raison des problèmes mentionnés ci-dessus par Maxwell, Bitcoin Core essaie vraiment Hard de [minimiser son exposition aux bibliothèques tierces](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Bien sûr, vous ne pouvez pas éradiquer toutes les dépendances externes, sinon vous devriez tout écrire vous-même, du rendu des polices à l'implémentation des appels système.
+En raison des problèmes mentionnés ci-dessus par Maxwell, Bitcoin Core fait de gros efforts pour [minimiser son exposition aux bibliothèques tierces](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Bien sûr, vous ne pouvez pas éradiquer toutes les dépendances externes, sinon vous devriez tout écrire vous-même, du rendu des polices à l'implémentation des appels système.
 
 
 ### Révision
@@ -1300,7 +1299,7 @@ Sur le chemin de l'adoption finale, une idée passe généralement par plusieurs
 
 
 - Une idée est postée sur la liste de diffusion Bitcoin-dev
-- L'idée est formalisée dans une proposition d'amélioration de la Bitcoin (BIP)
+- L'idée est formalisée dans une proposition d'amélioration de Bitcoin (BIP)
 - Le BIP est mis en œuvre dans une demande d'extension (pull request, PR) à Bitcoin Core
 - Les mécanismes de déploiement sont examinés
 - Certains mécanismes de déploiement concurrents sont mis en œuvre dans des demandes d'extension de Bitcoin Core
@@ -1330,13 +1329,10 @@ La seconde moitié du billet consiste en des conseils techniques pratiques utile
 Gloria Zhao, développeuse Bitcoin Core et examinatrice de code, a écrit [un article](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) contenant les questions qu'elle se pose habituellement lors d'un examen. Elle indique également ce qu'elle considère comme une bonne évaluation :
 
 
-> Personnellement, je pense qu'une bonne évaluation est une évaluation dans laquelle je me suis posé un grand nombre de questions précises sur le PR et où j'ai été satisfait des réponses
-à ces questions. [Naturellement, je commence par des questions conceptuelles, puis des questions relatives à l'approche et enfin des questions relatives à la mise en œuvre. En général, je pense personnellement qu'il est inutile de laisser des commentaires relatifs à la syntaxe du C++ sur un projet de PR, et je me sentirais mal à l'aise de revenir à "est-ce que cela a du sens" après que l'auteur a répondu à plus de 20 de mes suggestions sur l'organisation du code.
+> Personnellement, je pense qu'une bonne évaluation est une évaluation dans laquelle je me suis posé un grand nombre de questions précises sur le PR et où j'ai été satisfait des réponses à ces questions. [...] Naturellement, je commence par des questions conceptuelles, puis des questions relatives à l'approche et enfin des questions relatives à la mise en œuvre. En général, je pense personnellement qu'il est inutile de laisser des commentaires relatifs à la syntaxe du C++ sur un projet de PR, et je me sentirais mal à l'aise de revenir à "est-ce que cela a du sens" après que l'auteur a répondu à plus de 20 de mes suggestions sur l'organisation du code.
 
 
-Son idée qu'un bon examen doit se concentrer sur ce qui est le plus nécessaire à un moment donné s'aligne bien sur les conseils de Jon Atack. Elle
-
-propose une liste de questions que vous pouvez vous poser à différents niveaux du processus de révision, mais insiste sur le fait que cette liste n'est en aucun cas exhaustive ni ne constitue une recette pure et simple. La liste est illustrée par des exemples concrets tirés de GitHub.
+Son idée qu'un bon examen doit se concentrer sur ce qui est le plus nécessaire à un moment donné s'aligne bien sur les conseils de Jon Atack. Elle propose une liste de questions que vous pouvez vous poser à différents niveaux du processus de révision, mais insiste sur le fait que cette liste n'est en aucun cas exhaustive ni ne constitue une recette pure et simple. La liste est illustrée par des exemples concrets tirés de GitHub.
 
 
 ### Financement
@@ -1359,12 +1355,12 @@ Les gens ont parfois l'impression que les développeurs de Bitcoin se livrent à
 Par exemple, le mécanisme de déploiement du Taproot a fait l'objet de longues discussions au cours desquelles deux "camps" se sont formés. L'un voulait faire "échouer" la mise à jour si les mineurs n'avaient pas voté massivement pour les nouvelles règles après un certain moment, tandis que l'autre voulait appliquer les règles après ce moment, quoi qu'il arrive. Michael Folkson résume les arguments des deux camps dans un [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) envoyé à la liste de diffusion Bitcoin-dev.
 
 
-Le débat a duré apparemment indéfiniment, et il était vraiment Hard impossible de voir un consensus se former à ce sujet dans un avenir proche. Les gens se sont donc sentis frustrés et le débat s'est intensifié. Gregory Maxwell (en tant qu'utilisateur nullc) s'est inquiété [sur Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) que les longues discussions rendent la mise à jour moins sûre :
+Le débat a semblé durer une éternité, et il était vraiment difficile de voir un consensus se former à ce sujet dans un avenir proche. Les gens se sont donc sentis frustrés et le débat s'est intensifié. Gregory Maxwell (en tant qu'utilisateur nullc) s'est inquiété [sur Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) que les longues discussions rendent la mise à jour moins sûre :
 
 
 > À ce stade, une attente supplémentaire n'apporte pas plus d'examen et de certitude. Au contraire, un délai supplémentaire sape l'inertie et augmente potentiellement le risque, car les gens commencent à oublier des détails, à retarder le travail sur l'utilisation en aval (comme la prise en charge du Wallet) et à ne pas investir autant d'efforts de révision supplémentaires qu'ils le feraient s'ils avaient confiance dans le délai d'activation.
 
-Finalement, ce différend a été résolu grâce à une nouvelle proposition de David Harding et Russel O'Connor appelée Speedy Trial, qui impliquait une période de signalisation comparativement plus courte pour les mineurs afin de verrouiller l'activation du Taproot, ou fail fast. S'ils l'activent pendant cette période, le Taproot sera déployé environ 6 mois plus tard.
+Finalement, ce différend a été résolu grâce à une nouvelle proposition de David Harding et Russel O'Connor appelée Speedy Trial, qui impliquait une période de signalisation comparativement plus courte pour les mineurs afin de verrouiller l'activation du Taproot, ou échouer rapidement. S'ils l'activent pendant cette période, le Taproot sera déployé environ 6 mois plus tard.
 
 
 Quelqu'un qui n'est pas habitué au processus de développement de Bitcoin penserait probablement que ces débats houleux ont l'air terriblement mauvais, voire toxiques. Il y a au moins deux facteurs qui les rendent mauvais, aux yeux de certaines personnes :
@@ -1381,14 +1377,10 @@ La plupart des développeurs de Bitcoin soutiendraient que cette ouverture crée
 Comme indiqué dans le chapitre Menace, le deuxième point ci-dessus peut être très bénéfique, mais il comporte un inconvénient. Un attaquant pourrait utiliser des tactiques dilatoires, comme celles décrites dans le [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), pour fausser le processus de prise de décision et de développement.
 
 
-Une autre chose qui mérite d'être mentionnée est que, puisque le Bitcoin est de l'argent et que le Bitcoin Core sécurise des quantités insondables d'argent, la sécurité dans ce contexte n'est pas prise à la légère. C'est la raison pour laquelle le Bitcoin Core
-
-les développeurs peuvent paraître très "Hard-headed", ce qui est généralement justifié. En effet, une fonctionnalité dont la justification est faible ne sera pas acceptée. Il en irait de même si elle rompait le
-
-reproductibles, ajoutait de nouvelles dépendances, ou si le code ne suivait pas les [meilleures pratiques] de Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
+Une autre chose qui mérite d'être mentionnée est que, puisque Bitcoin est de l'argent et que Bitcoin Core sécurise des quantités insondables d'argent, la sécurité dans ce contexte n'est pas prise à la légère. C’est pourquoi les développeurs expérimentés de Bitcoin Core peuvent parfois sembler très têtus, une attitude qui est généralement justifiée. En effet, une fonctionnalité dont la justification est faible ne sera pas acceptée. Il en irait de même si cela cassait les builds reproductibles, ajoutait de nouvelles dépendances, ou si le code ne suivait pas les [meilleures pratiques] de Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Les nouveaux (et anciens) développeurs peuvent être frustrés par cela. Mais, comme il est d'usage dans les logiciels libres, vous pouvez toujours Fork consulter le dépôt, fusionner ce que vous voulez dans votre propre Fork, et construire et exécuter votre propre binaire.
+Les nouveaux (et anciens) développeurs peuvent être frustrés par cela. Mais, comme il est d'usage dans les logiciels libres, vous pouvez toujours Fork le dépôt, fusionner ce que vous voulez dans votre propre Fork, et construire et exécuter votre propre binaire.
 
 
 ### Conclusion sur l'Open Source

@@ -7,7 +7,7 @@ description:
 ### 1.1. Objectif du tutoriel
 
 - Ce tutoriel explique comment configurer et utiliser la fonctionnalité **Watch-Only** de l'application mobile **Blockstream App** pour surveiller un portefeuille Bitcoin sans accéder à ses clés privées.
-- Il couvre les étapes d'installation, de configuration initiale, d'importation d'une clé publique étendue (xpub, zpub, etc.), et l'utilisation pour suivre les soldes et générer des adresses de réception.
+- Il couvre les étapes d'installation, de configuration initiale, d'importation d'une clé publique étendue, et l'utilisation pour suivre les soldes et générer des adresses de réception.
 - Note : D'autres tutoriels, fournis en annexe, couvrent les fonctionnalités Onchain, Liquid, et la version desktop.
 
 ### 1.2. Public cible
@@ -23,22 +23,22 @@ description:
 
 ### 1.3. Présentation de la fonctionnalité Watch-Only
 
-Un portefeuille **Watch-Only** (en lecture seule) permet de surveiller les transactions et le solde d’un portefeuille Bitcoin sans avoir accès aux clés privées. Contrairement à un portefeuille classique, il ne stocke que les données publiques, comme la **clé publique étendue** (xpub, zpub, etc.), qui permet de dériver les adresses de réception et de suivre l’historique des transactions sur la blockchain Bitcoin. Cela rend impossible toute dépense des fonds depuis l’application, garantissant une sécurité accrue.
+Un portefeuille **Watch-Only** (en lecture seule) permet de surveiller les transactions et le solde d’un portefeuille Bitcoin sans avoir accès aux clés privées. Contrairement à un portefeuille classique, il ne stocke que les données publiques, comme la **clé publique étendue** (en anglais "E**x**tended **pub**lic key", ce qui a donné "**xpub**", puis "zpub", "ypub", etc.), qui lui permet d'obtenir les adresses de réception et de suivre l’historique des transactions sur la blockchain Bitcoin. L'absence des clés privées rend impossible toute dépense des fonds depuis l’application, garantissant une sécurité accrue.
 
 ![image](assets/fr/10.webp)
 
 **Pourquoi utiliser un portefeuille Watch-Only ?**
 
-- **Sécurité** : Idéal pour surveiller un portefeuille sécurisé par un **hardware wallet** (comme **Blockstream Jade**) sans exposer les clés privées sur un appareil connecté.
+- **Sécurité** : Idéal pour surveiller un portefeuille sécurisé par un **hardware wallet** sans exposer les clés privées sur un appareil connecté.
 - **Praticité** : Permet de vérifier le solde et de générer de nouvelles adresses de réception sans connecter le hardware wallet.
 - **Confidentialité** : Compatible avec des options comme **Tor** ou **SPV** pour limiter la dépendance aux serveurs tiers.
 - **Cas d’usage** : Suivi des fonds en déplacement, génération d’adresses pour recevoir des paiements, ou vérification de transactions sans risque pour les clés privées.
 
 ### 1.4. Clés publiques étendues
 
-Une **clé publique étendue** (xpub, zpub, ypub, etc.) est une donnée dérivée d’un portefeuille Bitcoin qui permet de générer toutes les clés publiques enfants et les adresses de réception associées, sans donner accès aux clés privées. Elle est utilisée dans un portefeuille Watch-Only pour suivre les transactions et les soldes sur la blockchain Bitcoin.
+Une **clé publique étendue** (xpub, ypub, zpub, etc.) est une donnée dérivée d’un portefeuille Bitcoin qui permet de générer toutes les clés publiques enfants et leurs adresses de réception associées, sans donner accès aux clés privées.
 
-- **Fonctionnement** : La clé publique étendue est générée à partir de la **seed phrase** d’un portefeuille via un processus déterministe (BIP-32). Elle permet de dériver un arbre hiérarchique d’adresses publiques, chacune pouvant être utilisée pour recevoir des fonds.
+- **Fonctionnement** : La clé publique étendue est générée à partir de la seed phrase via un processus déterministe (BIP-32). Elle permet de créer un arbre hiérarchique de clés publiques enfants, chacune pouvant être convertie en une adresse de réception. En utilisant le même chemin de dérivation (par exemple, m/44'/0'/0') que le portefeuille surveillé, le portefeuille Watch-Only génère les mêmes adresses, permettant ainsi de suivre les fonds et de créer de nouvelles adresses de réception.
 
 ![image](assets/fr/11.webp)
 

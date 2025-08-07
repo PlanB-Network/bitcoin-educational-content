@@ -1215,7 +1215,7 @@ Ni kawaida kwa mifumo kama ile iliyoorodheshwa hapo juu kujipatia leseni yenyewe
 Kutolazimika kuomba ruhusa ya kutengeneza programu ya Bitcoin huleta chaguo la kuvutia na muhimu kwenye jedwali: unaweza kuandika na kuchapisha msimbo, katika Bitcoin Core au mradi wowote wa chanzo huria, bila kufichua utambulisho wako.
 
 
-Wasanidi wengi huchagua chaguo hili kwa kufanya kazi chini ya jina bandia na kujaribu kuliweka mbali na utambulisho wao wa kweli. Sababu za kufanya hivi zinaweza kutofautiana kutoka kwa msanidi programu hadi msanidi programu. Mtumiaji mmoja asiyejulikana ni ZmnSCPxj. Miongoni mwa miradi mingine, anachangia Bitcoin Core na Core Lightning, mojawapo ya utekelezaji kadhaa wa Lightning Network. [Anaandika](https://zmnscpxj.github.io/about.html) kwenye ukurasa wake wa wavuti:
+Wasanidi wengi huchagua chaguo hili kwa kufanya kazi chini ya jina bandia na kujaribu kuliweka mbali na utambulisho wao wa kweli. Sababu za kufanya hivi zinaweza kutofautiana kutoka kwa msanidi programu hadi msanidi programu. Mtumiaji mmoja asiyejulikana ni ZmnSCPxj. Miongoni mwa miradi mingine, anachangia Bitcoin Core na Core Lightning, mojawapo ya utekelezaji kadhaa wa Lightning Network. [Anaandika](https://zmnscpxj.github.io/about.html) kwenye ukurasa wake wa 0v:
 
 
 > Mimi ni ZmnSCPxj, ​​mtu wa Intaneti aliyezalishwa bila mpangilio. Viwakilishi vyangu ni yeye/wake.
@@ -1370,12 +1370,12 @@ Mtu ambaye hajazoea mchakato wa ukuzaji wa Bitcoin anaweza kufikiria kuwa mijada
 Watengenezaji wengi wa Bitcoin wangesema kwamba uwazi huu huleta mazingira mazuri na yenye afya, na hata kwamba ni muhimu kwa ajili ya kutoa matokeo bora.
 
 
-Kama ilivyodokezwa katika sura ya Tishio, risasi ya pili hapo juu inaweza kuwa ya manufaa sana lakini inakuja na upande mbaya. Mshambulizi anaweza kutumia mbinu za kukwama, kama zile zilizoainishwa katika [Mwongozo wa Uga Rahisi wa Uharibifu](https://www.gutenberg.org/ebooks/26184), ili kupotosha mchakato wa kufanya maamuzi na maendeleo.
+Kama ilivyodokezwa katika sura ya Tishio, bullet ya pili hapo juu inaweza kuwa ya manufaa sana lakini inakuja na upande mbaya. Mshambulizi anaweza kutumia mbinu za kukwama, kama zile zilizoainishwa katika [Mwongozo wa Uga Rahisi wa Uharibifu](https://www.gutenberg.org/ebooks/26184), ili kupotosha mchakato wa kufanya maamuzi na maendeleo.
 
 
 Jambo lingine linalofaa kutajwa ni kwamba, kwa kuwa Bitcoin ni pesa na Bitcoin Core inalinda kiasi cha pesa kisichoeleweka, usalama katika muktadha huu hauchukuliwi kirahisi. Ndio maana Bitcoin Core ya msimu
 
-watengenezaji wanaweza kuonekana wanaongozwa sana na Hard, mtazamo ambao kwa kawaida unakubalika. Hakika, kipengele chenye mantiki dhaifu nyuma yake hakitakubaliwa. Vile vile ingetokea ikiwa itavunja
+watengenezaji wanaweza kuonekana wanaongozwa sana na nguvu, mtazamo ambao kwa kawaida unakubalika. Hakika, kipengele chenye mantiki dhaifu nyuma yake hakitakubaliwa. Vile vile ingetokea ikiwa itavunja
 
 miundo inayoweza kuzalishwa, kuongeza vitegemezi vipya, au ikiwa msimbo haukufuata [mbinu bora] za Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
@@ -1418,8 +1418,8 @@ aina ya mabadiliko, kwa mfano:
 
 - Kufanya pembejeo za muamala tumia baiti chache
 - Kuboresha utendakazi wa uthibitishaji wa sahihi
-- Kufanya mtandao wa rika-kwa-rika kutumia kipimo data kidogo
-- Muamala batching
+- Kufanya mtandao wa Peer-to-peer kutumia kipimo data kidogo
+- Batching ya Muamala 
 - Usanifu wa tabaka
 
 
@@ -1430,7 +1430,7 @@ Hivi karibuni tutaingia katika mbinu tofauti za kuongeza ukubwa, lakini wacha tu
 
 
 
-Kuongeza imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kwa kujibu tangazo la Satoshi la karatasi nyeupe ya Bitcoin kwenye orodha ya barua pepe ya Crystalgraphy kwa hakika ilikuwa inahusu kuongeza:
+Kuongeza imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kwa kujibu tangazo la Satoshi la whitepaper Bitcoin kwenye orodha ya barua pepe ya Crystalgraphy kwa hakika ilikuwa inahusu kuongeza:
 
 
 > Satoshi Nakamoto aliandika:
@@ -1444,7 +1444,7 @@ Kuongeza imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kw
 Mazungumzo yenyewe yanaweza yasiwe ya kuvutia sana au sahihi, lakini inaonyesha kuwa kuongeza imekuwa jambo la wasiwasi tangu mwanzo.
 
 
-Majadiliano juu ya kuongeza kiwango yalifikia kilele chao cha kupendeza mnamo 2015-2017, wakati kulikuwa na maoni mengi tofauti kuhusu ikiwa na jinsi ya kuongeza kikomo cha ukubwa wa block. Huo ulikuwa mjadala usiovutia kuhusu kubadilisha kigezo katika msimbo wa chanzo, mabadiliko ambayo kimsingi hayakusuluhisha chochote lakini yalisukuma tatizo la kuongeza zaidi katika siku zijazo, kujenga deni la kiufundi.
+Majadiliano juu ya kuongeza kiwango yalifikia kilele chao cha kupendeza mnamo 2015-2017, wakati kulikuwa na maoni mengi tofauti kuhusu ikiwa na jinsi ya kuongeza kikomo cha block Size. Huo ulikuwa mjadala usiovutia kuhusu kubadilisha kigezo katika msimbo wa chanzo, mabadiliko ambayo kimsingi hayakusuluhisha chochote lakini yalisukuma tatizo la kuongeza zaidi katika siku zijazo, kujenga deni la kiufundi.
 
 
 Mnamo mwaka wa 2015, mkutano uitwao [Scaling Bitcoin](https://scalingbitcoin.org/) ulifanyika Montreal, na mkutano wa kufuatilia miezi sita baadaye huko Hong Kong na baadaye katika maeneo kadhaa ulimwenguni. Lengo lilikuwa hasa jinsi ya kuongeza Address. Watengenezaji wengi wa Bitcoin na wapenda shauku wengine walikusanyika katika mikutano hii ili kujadili masuala na mapendekezo mbalimbali ya kuongeza viwango. Mengi ya majadiliano haya hayakuhusu ongezeko la ukubwa wa vitalu lakini kwenye suluhu za muda mrefu zaidi.
@@ -1455,7 +1455,7 @@ Baada ya mkutano wa Hong Kong mnamo Desemba 2015, Gregory Maxwell [alifupisha ma
 
 > Kwa teknolojia inayopatikana, kuna mabadilishano ya kimsingi kati ya kiwango na ugatuaji. Ikiwa mfumo ni wa gharama kubwa sana watu watalazimika kuamini watu wengine badala ya kutekeleza kwa uhuru sheria za mfumo. Iwapo matumizi ya rasilimali ya Bitcoin Blockchain, ikilinganishwa na teknolojia inayopatikana, ni kubwa mno, Bitcoin inapoteza manufaa yake ya kiushindani ikilinganishwa na mifumo ya zamani kwa sababu uthibitishaji utakuwa wa gharama kubwa sana (kuondoa watumiaji wengi), na kulazimisha uaminifu kwenye mfumo.  Ikiwa uwezo ni mdogo sana na mbinu zetu za kufanya miamala hazifai, ufikiaji wa msururu wa utatuzi wa mizozo utakuwa wa gharama kubwa sana, tena kurudisha uaminifu kwenye mfumo.
 
-Anazungumza juu ya biashara kati ya matokeo na ugatuzi. Ukiruhusu vizuizi vikubwa zaidi, utawasukuma watu wengine kutoka kwenye mtandao kwa sababu hawatakuwa na nyenzo za kuhalalisha vizuizi tena. Lakini kwa upande mwingine, ikiwa ufikiaji wa nafasi ya vizuizi utakuwa ghali zaidi, watu wachache wataweza kumudu kuitumia kama njia ya kutatua mizozo. Katika visa vyote viwili, watumiaji wanasukumwa kuelekea huduma zinazoaminika.
+Anazungumza juu ya biashara kati ya matokeo na ugatuzi. Ukiruhusu blocks kubwa zaidi, utawasukuma watu wengine kutoka kwenye mtandao kwa sababu hawatakuwa na nyenzo za kuhalalisha blocks tena. Lakini kwa upande mwingine, ikiwa ufikiaji wa nafasi ya blocks utakuwa ghali zaidi, watu wachache wataweza kumudu kuitumia kama njia ya kutatua mizozo. Katika visa vyote viwili, watumiaji wanasukumwa kuelekea huduma zinazoaminika.
 
 
 Anaendelea kwa muhtasari wa mbinu nyingi za kuongeza viwango vilivyowasilishwa kwenye mkutano huo. Miongoni mwao ni uthibitishaji wa sahihi zaidi wa kimahesabu, *shahidi aliyetenganishwa* ikiwa ni pamoja na mabadiliko ya kikomo cha ukubwa wa vitalu, utaratibu wa uenezi wa vitalu unaotumia nafasi kwa ufanisi zaidi, na itifaki za ujenzi juu ya Bitcoin katika tabaka. Mengi ya haya
@@ -1467,7 +1467,7 @@ mbinu zimetekelezwa.
 
 
 
-Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza kikomo cha ukubwa wa kizuizi au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
+Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza kikomo cha ukubwa wa block au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
 
 
 #### Kuongeza wima
@@ -1477,39 +1477,39 @@ Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza kiko
 Kuongeza wima ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa nodi kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
 
 
-Mbinu inayojadiliwa zaidi ya kuongeza wima katika Bitcoin ni ongezeko la kikomo cha ukubwa wa block. Hii itahitaji nodi zingine kamili ili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Upande wa chini ni kwamba hutokea kwa gharama ya centralization.
+Mbinu inayojadiliwa zaidi ya kuongeza wima katika Bitcoin ni ongezeko la kikomo cha Blocksize. Hii itahitaji nodi zingine kamili ili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Upande wa chini ni kwamba hutokea kwa gharama ya centralization.
 
 
-Kando na athari hasi kwenye ugatuaji wa Full node, kuongeza wima kunaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin ya Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi wachimbaji "wanapaswa" kufanya kazi. Sema mgodi wa Miner block katika urefu wa 7 na uchapishe kizuizi hicho kwenye mtandao wa Bitcoin. Itachukua muda kwa kizuizi hiki kufikia kukubalika kwa upana, ambayo ni kwa sababu ya sababu mbili:
+Kando na athari hasi kwenye ugatuaji wa Full node, kuongeza wima kunaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin ya Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi miners "wanapaswa" kufanya kazi. Sema mgodi wa Miner block katika urefu wa 7 na uchapishe block hiyo kwenye mtandao wa Bitcoin. Itachukua muda kwa block hii kufikia kukubalika kwa upana, ambayo ni kwa sababu ya sababu mbili:
 
 
-- Uhamisho wa kizuizi kati ya wenzao huchukua muda kwa sababu ya mapungufu ya bandwidth.
-- Uthibitishaji wa kizuizi huchukua muda.
+- Uhamisho wa block kati ya wenzao huchukua muda kwa sababu ya mapungufu ya bandwidth.
+- Uthibitishaji wa block huchukua muda.
 
 
-Wakati block 7 inaenezwa kupitia mtandao, wachimbaji wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata kizuizi kipya kwa urefu wa 7, kutakuwa na vitalu viwili vinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
+Wakati block 7 inaenezwa kupitia mtandao, miners wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata kizuizi kipya kwa urefu wa 7, kutakuwa na blocks mbili zinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
 
 
-Kwa kifupi, vitalu vilivyochakaa hutokea kwa sababu inachukua muda kwa kila kizuizi kueneza, na jinsi uenezi unavyochukua muda, ndivyo uwezekano wa vitalu vilivyochakaa unavyoongezeka.
+Kwa kifupi, blocks zilivyochakaa hutokea kwa sababu inachukua muda kwa kila block kueneza, na jinsi uenezi unavyochukua muda, ndivyo uwezekano wa vitalu vilivyochakaa unavyoongezeka.
 
 
-Tuseme kwamba kikomo cha ukubwa wa block kimeondolewa na kwamba ukubwa wa wastani wa block huongezeka sana. Vitalu basi vitaenea polepole kwenye mtandao kutokana na vikwazo vya kipimo data na muda wa uthibitishaji. Kuongezeka kwa wakati wa uenezi pia kutaongeza nafasi za vitalu vya zamani.
+Tuseme kwamba kikomo cha Blocksize kimeondolewa na kwamba ukubwa wa wastani wa block huongezeka sana. blocks basi zitaenea polepole kwenye mtandao kutokana na vikwazo vya kipimo data na muda wa uthibitishaji. Kuongezeka kwa wakati wa uenezi pia kutaongeza nafasi za vitalu vya zamani.
 
 
-Wachimba migodi hawapendi kuzuiwa kwa vitalu vyao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
+Miners hawapendi kuzuiwa kwa blocks zao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
 
 mazingira. Hatua wanazoweza kuchukua ni pamoja na:
 
 
 
-- Kuahirisha uthibitishaji wa kizuizi kinachoingia, pia kinachojulikana kama *Mining* isiyothibitishwa. Wachimbaji wanaweza tu kuangalia Proof-of-Work ya kichwa cha block na yangu juu yake, wakati huo huo wanapakua kizuizi kamili na kuhalalisha.
+- Kuahirisha uthibitishaji wa block inayoingia, pia kinachojulikana kama *Mining* isiyothibitishwa. Miners wanaweza tu kuangalia Proof-of-Work ya kichwa cha block na yangu juu yake, wakati huo huo wanapakua block kamili na kuhalalisha.
 - Inaunganisha kwa Mining pool yenye kipimo data na muunganisho mkubwa zaidi.
 
 
-Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa Full node, kwani Miner inakimbilia kuamini vitalu vinavyoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa kwenye Blockchain batili, badala ya kujenga kwenye mnyororo thabiti na halali.
+Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa Full node, kwani Miner anakimbilia kuamini blocks zinavyoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa kwenye Blockchain batili, badala ya kujenga kwenye mnyororo thabiti na halali.
 
 
-Nukta ya pili ya risasi ina athari mbaya kwa ugatuaji wa Miner, kwa sababu kwa kawaida madimbwi yaliyo na muunganisho bora wa mtandao na kipimo data pia ni kikubwa zaidi, na kusababisha wachimbaji kushawishika kuelekea madimbwi machache makubwa.
+Nukta ya pili ya bullet ina athari mbaya kwa ugatuaji wa Miner, kwa sababu kwa kawaida pools zilizo na muunganisho bora wa mtandao na kipimo data pia ni kikubwa zaidi, na kusababisha miners kushawishika kuelekea pools chache kubwa.
 
 
 #### Kuongeza usawa
@@ -1522,7 +1522,7 @@ Kuongeza mlalo hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi
 Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama *sharding*. Kimsingi, inajumuisha kuruhusu kila Full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
 
 
-> Katika mifumo iliyopigwa "Full node ulinzi" haifanyi kazi, angalau moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, kwa hiyo unapaswa kuamua nini kinatokea wakati haipatikani.
+> Katika mifumo iliyopigwa "Full node security" haifanyi kazi, angalau moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, kwa hiyo unapaswa kuamua nini kinatokea wakati haipatikani.
 
 Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au kuongeza usawa. Kuelekea mwisho wa chapisho anahitimisha:
 
@@ -1532,7 +1532,7 @@ Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au
 
 > Kwa upande mwingine, ugatuaji sio nafuu: kutumia PayPal ni amri moja au mbili za ukubwa rahisi zaidi kuliko itifaki ya Bitcoin.
 
-Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa Hard kuwashawishi kutumia kitu ngumu zaidi.
+Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa nguvu kuwashawishi kutumia kitu ngumu zaidi.
 
 
 #### Kuongezeka kwa ndani
@@ -1551,7 +1551,7 @@ Maboresho ambayo yamepatikana kupitia upanuzi wa ndani ni ya kuvutia, kusema mdo
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
 
 
-Utendaji wa awali wa upakuaji wa kuzuia wa matoleo mbalimbali ya Bitcoin Core. Kwenye mhimili wa Y kuna urefu wa kizuizi uliosawazishwa na kwenye mhimili wa X ndio wakati uliochukua kusawazisha kwa urefu huo.
+Utendaji wa awali wa upakuaji wa block wa matoleo mbalimbali ya Bitcoin Core. Kwenye mhimili wa Y kuna urefu wa block uliosawazishwa na kwenye mhimili wa X ndio wakati uliochukua kusawazisha kwa urefu huo.
 
 
 Laini tofauti zinawakilisha matoleo tofauti ya Bitcoin Core. Laini ya kushoto kabisa ndiyo ya hivi punde zaidi, yaani, toleo la 0.22, ambalo lilitolewa Septemba 2021 na kuchukua dakika 396 kusawazisha kikamilifu. La kulia kabisa ni toleo la 0.8 kutoka Novemba 2013, ambalo lilichukua dakika 3452. Haya yote - takriban 10x - uboreshaji ni kwa sababu ya kuongeza ndani.

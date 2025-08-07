@@ -58,6 +58,7 @@ En plus des sources directes archivées sur Internet, nous nous basons sur les o
 Articles :
 
 - [The Battle For P2SH: The Untold Story Of The First Bitcoin War](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) écrit par Aaron van Wirdum et Pete Rizzo en 2020.
+- Les articles de Vitalik Buterin, pour [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) et [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin)
 
 Documentaires :
 
@@ -1383,6 +1384,9 @@ CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis
 
 - Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
 
+- 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+
+
 Quickco.in ?
 
 Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
@@ -1395,14 +1399,15 @@ Le commerce se fait simplement. L'utilisation d'un smartphone et la lecture d'un
 
 Bitcoin URI scheme ? [proposé] dès février 2010 ; "URI Scheme" ([BIP 21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)), 2012-01-29, Nils Schneider, Matt Corallo, variante de la proposition de Luke-Jr. `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`
 
+Satoshi :
+
 > « Ce serait pratique au moment de payer \[ou: pour les points de vente\]. La caisse enregistreuse affiche un code QR contenant une adresse bitcoin et un montant sur un écran, et l'acheteur le prend en photo avec son téléphone portable. »
 >
 > original: "That would be nice at point-of-sale.  The cash register displays a QR-code encoding a bitcoin address and amount on a screen and you photo it with your mobile."
 
+BitPay intègre ce standard en juin 2012 : https://bitcointalk.org/index.php?topic=88969.msg981026#msg981026
 
-
-Ce serait pratique au moment de payer.  La caisse enregistreuse affiche un code QR contenant une adresse Bitcoin et le montant sur un écran, et vous le photographiez avec votre téléphone portable.
-
+Enregistré auprès de l'Internet Assigned Numbers Authority (IANA) par Dave Thaler (architecte logiciel pour Microsoft Research) en septembre 2012 : https://www.iana.org/assignments/uri-schemes/prov/bitcoin
 
 ### Le premier processeur de paiement : BitPay
 
@@ -1415,9 +1420,9 @@ Stephen Pair ([Steve](https://bitcointalk.org/index.php?action=profile;u=4399)).
 
 Tony Gallippi ([tonygal](https://bitcointalk.org/index.php?action=profile;u=16035), [BitPay Business Solutions](https://bitcointalk.org/index.php?action=profile;u=31293)) est un ancien ami d'université de Stephen. Diplômé en ingénierie mécanique, il a exercé la vente et le marketing dans les secteurs de la robotique et de la finance. En 2011, il [édite](https://bitcointalk.org/index.php?topic=44076.msg526713#msg526713) une revue de charme en ligne appelée STARE Magazine. Stephen lui parle de Bitcoin en février et il [cherche](https://bitcointalk.org/index.php?topic=10636.msg152388#msg152388) à accepter le bitcoin en mai. Ensemble, ils mettent au point BitPay (initialement orthographié Bit-Pay), Stephen s'occupant du côté technique. Ils [testent](https://bitcointalk.org/index.php?topic=25375.msg315757#msg315757) le produit début juillet, en l'utilisant avec le STARE Magazine.
 
-![L'équipe de BitPay en 2012, de gauche à droite : Stephanie Wargo, Tony Gallippi, Stephen Pair, Alison Skipper](assets/en/bitpay-team-stephanie-tony-steve-allison-2012-bitpay-com-about-us.webp)
+![L'équipe de BitPay au CES de Las Vegas en janvier 2012, de gauche à droite : Stephanie, Tony Gallippi, Stephen Pair, Alison Skipper](assets/en/bitpay-team-stephanie-tony-steve-alison-2012-bitpay-com-about-us.webp)
 
-L'équipe de BitPay en 2012, de gauche à droite : Stephanie Wargo, Tony Gallippi, Stephen Pair, Alison Skipper (source : [archive](https://web.archive.org/web/20120513020703/https://bit-pay.com/aboutUs.html) du site de BitPay)
+L'équipe de BitPay au CES de Las Vegas en janvier 2012, de gauche à droite : Stephanie, Tony Gallippi, Stephen Pair, Alison Skipper (source : [archive](https://web.archive.org/web/20120513020703/https://bit-pay.com/aboutUs.html) du site de BitPay)
 
 Le principe de BitPay est de donner aux commerçants la possibilité d'accepter les paiements en bitcoins et de les convertissant instantanément en dollars, afin qu'ils puissent se prémunir contre la volatilité. Le modèle économique est ainsi opposé à BitInstant : BitPay avance les dollars à leurs clients contre une commission (les frais de traitement sont de 1 % au total), et se charge de vendre les bitcoins plus tard. Le but de ses fondateurs est de [faciliter](https://bitcointalk.org/index.php?topic=25665.msg319196#msg319196) l'utilisation de Bitcoin comme moyen de paiement pour [contrecarrer](https://bitcointalk.org/index.php?topic=36729.msg454397#msg454397) l'oligopole des réseaux Visa et Mastercard. Les avantages, [listés](https://web.archive.org/web/20120210233724/https://bit-pay.com/) début 2012 sur le site de l'entreprise, sont les suivants : « AUCUN RISQUE de rétrofacturation ou d'usurpation d'identité. AUCUNE COMPLICATION liée à la norme de sécurité PCI. AUCUNE FRONTIÈRE : acceptez les paiements provenant de N'IMPORTE QUEL pays. » (original: "NO RISK of Chargebacks or Indentity Theft. NO HASSLE of PCI Compliance. NO BORDERS Accept a payment from ANY country.") Vitalik Buterin [qualifie](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii) BitPay de « l'une des innovations les plus importantes pour les entreprises utilisant Bitcoin » (original: "\[o\]ne of the most significant innovations for Bitcoin businesses").
 
@@ -1427,49 +1432,9 @@ Demande de paiement via BitPay en juillet 2011 (source : [Bitcoin Show](https:/
 
 Stephen Pair et Tony Gallippi [lancent](https://bitcointalk.org/index.php?topic=32467.msg405469#msg405469) leur service en version bêta à la fin du mois de juillet, et commencent à en faire la promotion, de manière plutôt agressive ! Ils [passent](https://www.youtube.com/watch?v=UZAnM4FjTOg) dans le *Bitcoin Show* de Bruce Wagner le 27 juillet, et se [rendent](https://bitcointalk.org/index.php?topic=32791.msg409542#msg409542) à la conférence de New York à la fin du mois d'août. À partir de septembre, ils réalisent des vidéos promotionnelles, dont [la première](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE) est un pastiche d'une publicité de PayPal avec des femmes séduisantes. Tony Gallippi réalise une [présentation](https://web.archive.org/web/20140522091140/https://www.youtube.com/watch?v=cTX5yY0DozQ) sur l'adoption de Bitcoin à la conférence de Prague en novembre. En décembre, ils [lancent](https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819) une initiative appelée LoveBitcoin.org, qui consiste à « faire la publicité de l'*utilité* des Bitcoins comme alternative à PayPal, aux cartes de débit, à Western Union et aux virements bancaires ». (original: "advertising the *usability* of Bitcoins as an alternative to PayPal, debit cards, Western Union, and wire transfers."). À partir de décembre, Tony Gallippi [organise](https://bitcointalk.org/index.php?topic=55419.msg659429#msg659429) une réunion mensuelle à Orlando en Floride, là où il habite.
 
-En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver.
+En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver. Ils lancent aussi de nouveaux produits, comme la [carte de dépôt](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) qui « permet à n'importe qui de *recevoir* des bitcoins sans avoir besoin d'un portefeuille ou de connaissances particulières sur le sujet », les fonds reçus étant instantanément convertis en dollars par BitPay. (original: "It lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins.") ; ou bien [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), « un système de paiement en bitcoins conçu pour les chauffeurs et les entreprises de limousines et de taxis » (original: "a bitcoin payment system designed for limousine and taxi drivers and businesses").
 
-Tout au long de l'année
-
----
-
-Lire: https://bitcointalk.org/index.php?action=profile;u=31293;sa=showPosts;start=580
-
-La promotion de BitPay et de Bitcoin est agressive !
-
-[vidéo promo, sept. 2011](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE)
-
-Initiative LoveBitcoin.org (BitPay), 3 décembre 2011 : https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819
-
-Meetup Orlando [déc. 2011](https://bitcointalk.org/index.php?topic=55419.msg659429#msg659429)
-
-Participation au *Consumer Electronics Show* à Las Vegas (8 au 13 janvier 2012), le plus important salon consacré à l'innovation technologique en électronique grand public. Réservation d'un stand, avec Roger Ver. [annonce](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586)
-
-deposit card : annonce, [9/1/2012](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) : "lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins." ; "In January, BitPay released a plastic card which one can carry to allow anyone to pay them simply by scanning the card with a smartphone Bitcoin wallet, while BitPay's back-end automatically converts the bitcoins and immediately deposits money into the owner's bank account." [Vitalik](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248)
-
-LIMOCOIN, "a bitcoin payment system designed for limousine and taxi drivers and businesses" : https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514
-
-BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399), aperçu en févr. 2012 https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/
-
-
-
-Le logo est conçu par Erik Voorhees.
-
-
-15 décembre 2012 : East Coast Bitcoin Summit, Philadelphia, [Tony Gallippi](https://www.youtube.com/watch?v=hH4rH6wu25U) (BitPay)
-
-Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
-
-Plus de mille commerçants en septembre 2012 (source : https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248)
-
-"Since the November 2012 WordPress deal, BitPay has seen new merchants increase by nearly 50% to over 2,000."  [7/1/2013](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
-
-12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
-
-
-wallet BitPay (basé sur InstaWallet ?) https://github.com/warpi/BitPay
-
-Concurrents : WalletBit https://walletbit.com/ Paysius http://paysius.com/ ; AcceptBit http://acceptbit.com/
+Tout au long de l'année, leur service croit. Il s'étend à l'international, en [Amérique du Nord](https://bitcointalk.org/index.php?topic=69425.msg809043#msg809043) et en [Europe](https://bitcointalk.org/index.php?topic=76562.msg849944#msg849944). Le nombre de commerçants inscrits sur la plateforme [passe](https://web.archive.org/web/20120928213117/http://www.economist.com/node/21563752) de 100 en mars à plus de 1 000 en septembre. Le volume transactionnel mensuel [passe](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248) de 10 000 $ en mars à 550 000 $ en septembre, avec une pointe journalière à 250 000 $ le 24 juin grâce à la prévente d'ASIC de Butterfly Labs. Ce succès [fait](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) des émules, avec l'apparition des processeurs de paiement WalletBit, Paysius et AcceptBit.
 
 ### Coinbase & la Silicon Valley
 
@@ -1517,10 +1482,15 @@ Mais Coinbase n'est pas la seule société qui reçoit des fonds...
 
 ### Services de change P2P
 
-Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/),
-jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
+Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/), jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
 
-BitInstant ? Cash in the mail. BTCKing ?
+Jeremias Kangas, Stefan Thomas, http://acceptbit.com/ (https://bitcointalk.org/index.php?topic=134239.msg1429619#msg1429619), tire profit de la clé publique étendue
+
+BitInstant ? Cash deposit.
+
+https://www.youtube.com/watch?v=VKEk7b2vfoQ
+
+ZhouTonged [*Why Wait? (Bitinstant Official Theme)*](https://www.youtube.com/watch?v=NG1qooBzE2w), 1er avril 2012
 
 En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
 
@@ -1532,6 +1502,8 @@ Robert Faiella se présente comme revendeur (de bitcoins).
 >
 > original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
 
+BitFloor, service similaire : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
+
 ### PorcFest 2012
 
 18–24 juin 2012
@@ -1540,13 +1512,19 @@ Robert Faiella se présente comme revendeur (de bitcoins).
 
 Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
 
+- Paul Festival, 24–26 août 2012 : "BitPay is proud to sponsor this event and setup a 'Bitcoin' booth. The PAUL Festival is a large, Libertarian event taking place this week in Tampa" https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865
+
+en hommage à Ron Paul , quelques jours avant la *Republican National Convention*
+
 ### Un mouvement vers le commerce plus légitime
 
 "Also, in the last two months alone, Bitcoin has gained a large amount of public legitimacy, as popular services like WordPress and 4Chan began accepting it, and Bitcoin Central partnered with a licensed payment services provider in France to integrate its exchange accounts directly into the traditional banking system. And, last but not least, the Bitcoin price itself increased from $4.72 on Jan 1 to $13.51 on Dec 31, a 186% increase." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
 
 BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366)
 
-15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/
+15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/ https://web.archive.org/web/20130510175220/https://bitcointalk.org/index.php?topic=124482.0
+
+"Since the November 2012 WordPress deal, BitPay has seen new merchants increase by nearly 50% to over 2,000."  [7/1/2013](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
 
 13 décembre 2012 : 4chan accepte les paiements en bitcoins via Coinbase, annonce de Corbin Fraser https://web.archive.org/web/20130107221636/http://www.bitcointrading.com/forum/talk-bitcoin/4chan-now-accepts-bitcoin-for-premium-membership/
 
@@ -1600,7 +1578,7 @@ Coinapult, avec Ira Miller, envoyer des bitcoins par courriel (et SMS), [13 avr.
 
 - PIMPCOIN : https://bitcointalk.org/index.php?topic=57260.0
 
-- Girls Gone Bitcoin
+- Girls Gone Bitcoin : [Bitcointalk, 23/03/2012](https://bitcointalk.org/index.php?topic=73666.msg816065#msg816065)
 
 Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
 

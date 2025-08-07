@@ -1,6 +1,6 @@
 ---
 name: Zen Browser
-description: Comment utiliser Zen Browser pour une navigation productive et confidentielle
+description: Comment utiliser Zen Browser pour une navigation productive et confidentielle ?
 ---
 
 ![cover](assets/cover.webp)
@@ -19,7 +19,7 @@ Dans ce tutoriel, nous découvrirons comment Zen Browser peut transformer votre 
 
 ### Téléchargement officiel
 
-Zen Browser est disponible sur Windows, macOS et Linux. Rendez-vous sur le site officiel : **zen-browser.app/download**
+Zen Browser est disponible sur Windows, macOS et Linux. Rendez-vous sur le site officiel : zen-browser.app/download
 
 ![Site officiel Zen Browser](assets/fr/02.webp)
 

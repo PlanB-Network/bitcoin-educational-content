@@ -84,9 +84,9 @@ Het Bitcoin ecosysteem en zijn omgeving zijn nog relatief jong en losjes geregul
 
 Voordat we verder gaan, is het belangrijk om een duidelijk onderscheid te maken tussen twee fundamenteel verschillende werelden:
 
-- Het Bitcoin ecosysteem** is gecentreerd rond het idee van gezond geld, gebouwd op sterke decentralisatie, lange termijn veerkracht, privacy en individuele soevereiniteit. Sinds de lancering in 2009 heeft Bitcoin betrouwbaar en veilig gefunctioneerd, ondersteund door een wereldwijde, toegewijde gemeenschap van ontwikkelaars. Het is geen voorbijgaande trend, maar een stabiel en goed gevestigd protocol, ontworpen om waarde over de loop van tijd te behouden.
+- **Het Bitcoin ecosysteem** is gecentreerd rond het idee van gezond geld, gebouwd op sterke decentralisatie, lange termijn veerkracht, privacy en individuele soevereiniteit. Sinds de lancering in 2009 heeft Bitcoin betrouwbaar en veilig gefunctioneerd, ondersteund door een wereldwijde, toegewijde gemeenschap van ontwikkelaars. Het is geen voorbijgaande trend, maar een stabiel en goed gevestigd protocol, ontworpen om waarde over de loop van tijd te behouden.
 
-- De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
+- **De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
@@ -108,7 +108,7 @@ Dit zijn enkele van de meest voorkomende zwendelpraktijken in de cryptowereld. I
 
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
-Deze vormen van oplichting hebben meestal :
+Deze vormen van oplichting hebben meestal:
 
 - Onrealistische beloften van gegarandeerd rendement (bijv. 20% gegarandeerd rendement);
 - Vertragingen of problemen bij het opnemen van je belegde geld;
@@ -383,7 +383,7 @@ Dit zijn de belangrijkste punten die we samen zullen bespreken:
 - Wees je bewust van de **belastingimplicaties** van je beleggingen;
 - Bescherm je **herstelzin** zorgvuldig;
 - Blijf nederig en houd een **laag profiel** (discretie is onderdeel van veiligheid);
-- Denk op lange termijn**, zoom uit en wees geduldig (zie het als een marathon, niet als een sprint).
+- **Denk op lange termijn**, zoom uit en wees geduldig (zie het als een marathon, niet als een sprint).
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
 
@@ -491,7 +491,7 @@ Voordat je belangrijke transacties doet, is het sterk aan te raden om een belast
 
 Bitcoin wordt vaak omgeven door populaire misvattingen; een van de meest voorkomende is het idee dat het een snelle weg is om rijk te worden door te handelen. Maar het is belangrijk om het duidelijke onderscheid te begrijpen tussen traden, investeren en vasthouden, omdat elke benadering gepaard gaat met zijn eigen mindset, vaardigheden en risiconiveau.
 
-- **Traden :**
+- **Traden:**
 
 Laten we eerlijk zijn: **je zou waarschijnlijk niet moeten handelen.**
 Handelen is speculeren op korte termijn (soms met een hefboom) met als doel te profiteren van de prijsschommelingen van Bitcoin. Hoewel het aantrekkelijk klinkt, vereist succesvol handelen geavanceerde technische kennis (zoals grafiekanalyse en risicobeheer), emotionele discipline en constante aandacht voor de markt. Het is mentaal belastend en tijdrovend, en de harde waarheid is dat **de meeste beginners geld verliezen** omdat ze onderschatten hoe veeleisend het daadwerkelijk is.
@@ -504,7 +504,7 @@ Bitcoin is geen programma om snel rijk te worden.
 
 Investeerders kijken naar de middellange tot lange termijn en kopen Bitcoin in de overtuiging dat de waarde in de loop van de tijd zal groeien (maanden, jaren of zelfs decennia). Er is natuurlijk nog steeds een risico, omdat de prijs van Bitcoin aanzienlijk kan fluctueren. Maar deze aanpak is over het algemeen rustiger en veel praktischer voor de meeste mensen, vooral voor degenen die niet elke dag urenlang aan de grafieken gekluisterd willen zitten.
 
-- Vasthouden (HODL) :**
+- **Vasthouden (HODL):**
 
 "HODL' begon als een typfout voor 'hold' en werd al snel onderdeel van de Bitcoin cultuur. Tegenwoordig is het een ereteken.
 Hodlers doen het voor de zeer lange termijn, soms wel tien jaar of meer. Ze slaan hun Bitcoin veilig op en wachten gewoon af, gedreven door een sterke overtuiging in het potentieel van Bitcoin op de lange termijn. Ze laten zich niet afschrikken door dagelijkse prijsschommelingen of dalende markten. Hun mentaliteit is eenvoudig: verzamelen, veiligstellen en wachten.
@@ -968,7 +968,7 @@ Er zijn echter alternatieven om bitcoins te verwerven zonder KYC:
 
 Er zijn verschillende soorten platforms, elk geschikt voor specifieke toepassingen:
 
-- Peer-to-peer koop- en verkoopplatformen (P2P)**
+- **Peer-to-peer koop- en verkoopplatformen (P2P)**
 
 Op deze platformen kunnen gebruikers bitcoins rechtstreeks met elkaar kopen en verkopen, zonder een gecentraliseerde tussenpersoon. Ze bieden meer privacy, vooral omdat ze zonder KYC werken. Je kunt lokale verkopers vinden met wie je in persoon transacties kunt uitvoeren of verschillende online betalingsmethoden kunt gebruiken (SEPA, Revolut, Wise, enz.).
 
@@ -984,7 +984,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-- Alleen-Bitcoin beurzen**
+- **Alleen-Bitcoin beurzen**
 
 Deze platformen zijn gebruiksvriendelijk en bieden een eenvoudige, transparante service. Ze zijn Bitcoin-only. Ze implementeren vaak oplossingen voor de aankoop van bitcoins via Dollar-Cost Averaging (DCA) en bieden automatische opnames naar een persoonlijke wallet. Ze zijn vooral geschikt voor beginners die op een progressieve en veilige manier bitcoins willen verzamelen. Voorbeelden: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
@@ -996,7 +996,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-- Exchange platformen voor algemene doeleinden of met focus op trading**
+- **Exchange platformen voor algemene doeleinden of met focus op trading**
 
 Deze platforms bieden geavanceerde functies die verder gaan dan alleen het kopen van Bitcoin, waaronder leverage en derivaten. Wij raden traden echter sterk af. In plaats daarvan raden we aan Bitcoin te kopen en het naar je eigen wallet te verplaatsen. Handelen is een activiteit met een hoog risico en over het algemeen niet geschikt voor mensen die zich richten op accumulatie op de lange termijn. Wegblijven uit trading is vaak de slimmere weg.
 
@@ -1102,7 +1102,7 @@ Als je meer wilt weten over hoe Lightning werkt, bieden we een uitstekende tweed
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-- Sidechains** :
+- **Sidechains**:
 
 Sidechains zijn blockchains die parallel lopen aan de hoofdblockchain van Bitcoin. Ze zijn verbonden via een tweezijdige koppeling, die ervoor zorgt dat de activa die tussen de ketens bewegen dezelfde waarde behouden, wat betekent dat een Bitcoin op de sidechain nog steeds één Bitcoin op de hoofdketen waard is. Elke sidechain heeft zijn eigen consensusmechanisme, dat volledig gescheiden kan zijn of gedeeltelijk afhankelijk van dat van Bitcoin.
 
@@ -1114,7 +1114,7 @@ Als je Liquid verder wilt uitdiepen, bieden we een gevorderde derdejaarscursus o
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
-- RGB** :
+- **RGB**:
 
 RGB is een gedecentraliseerd en privacy-gericht smart contract systeem, ontworpen om bovenop Bitcoin en het Lightning Network te werken. In tegenstelling tot traditionele smart contract platformen, gebruikt RGB een client-side validatie model (wat betekent dat de volledige contract status off-chain wordt opgeslagen en dat alleen cryptografische verplichtingen Bitcoin blockchain worden gepubliceerd). Dit ontwerp verbetert zowel de schaalbaarheid als de privacy. Met RGB kunnen gebruikers geavanceerde smart contracts maken voor het uitgeven van tokens, NFT's, gedecentraliseerde identiteiten of zelfs DeFi applicaties, direct op Bitcoin of Lightning.
 
@@ -1245,7 +1245,7 @@ Om je kwetsbaarheden beter te begrijpen, kun je elk van deze risico's beoordelen
 
 Je dagelijkse leven speelt ook een grote rol in hoe je je bitcoins beheert. Als je een setup kiest die bij je levensstijl past, wordt alles gemakkelijker en voorkom je onnodige wrijving.
 
-**Kies voor eenvoudige, geautomatiseerde oplossingen, zoals geplande aankopen die automatisch worden overgezet naar een beveiligde opslag.
+**Kies voor eenvoudige**, geautomatiseerde oplossingen, zoals geplande aankopen die automatisch worden overgezet naar een beveiligde opslag.
 
 **Tech-savvy of hands-on?** Je geeft misschien de voorkeur aan meer geavanceerde oplossingen zoals multisig wallets die meer controle en veiligheid bieden.
 
@@ -1286,13 +1286,13 @@ Hot wallets zijn apps of software die verbonden zijn met het internet. Ze slaan 
 Voorbeelden: Blue Wallet, Green Wallet, Sparrow Wallet
 Met ondersteuning voor Lightning: Phoenix, Wallet of Satoshi, BitKit
 
-**Voordelen** :
+**Voordelen**:
 
 - Gebruiksvriendelijk en snel toegang tot je tegoeden.
 - Geweldig voor kleine betalingen en dagelijks gebruik.
 - Sommigen ondersteunen het Lightning Network voor snelle en goedkope transacties.
 
-**Nadelen** :
+**Nadelen**:
 
 - Minder veilig: je sleutels staan op een apparaat dat verbonden is met het internet, waardoor het risico op hacks toeneemt.
 - Niet geschikt om grote hoeveelheden langdurig op te slaan.
@@ -1305,12 +1305,12 @@ Hardware wallets zijn fysieke apparaten die je privésleutels volledig offline o
 
 Voorbeelden: Ledger, Trezor, Coldcard, Jade, BitBox
 
-**Voordelen** :
+**Voordelen**:
 
 - Sleutels zijn offline = veel moeilijker toegankelijk voor hackers.
 - Speciaal ontworpen voor beveiliging.
 
-**Nadelen** :
+**Nadelen**:
 
 - Langzamer in gebruik, je moet het apparaat aansluiten en transacties fysiek bevestigen.
 - Je moet het apparaat kopen, wat je een behoorlijke som geld kan kosten.
@@ -1323,13 +1323,13 @@ Multisig(multi-handtekening) wallets hebben meer dan één sleutel nodig om een 
 
 Voorbeelden: Liana, Casa, Specter, Sparrow
 
-**Voordelen** :
+**Voordelen**:
 
 - Zeer sterke bescherming; als één sleutel is gecompromitteerd, zijn je tegoeden nog steeds veilig.
 - Kan risico's van diefstal, verlies of dwang verminderen.
 - Je kunt sleutels verdelen tussen mensen of locaties.
 
-**Nadelen** :
+**Nadelen**:
 
 - Complexer om in te stellen en te beheren.
 - Kan coördinatie tussen meerdere mensen/apparaten vereisen.
@@ -1344,12 +1344,12 @@ Sommige mensen kiezen ervoor om bitcoin op te slaan bij diensten van derden, zoa
 
 Voorbeelden: Beurzen zoals Coinbase of Binance, financiële producten zoals BlackRock's Bitcoin ETF.
 
-**Voordelen** :
+**Voordelen**:
 
 - Eenvoudig in gebruik; je hoeft niet zelf met sleutels of wallets om te gaan.
 - Handig voor mensen die alleen de investering willen zien en bitcoin niet direct willen gebruiken.
 
-**Nadelen** :
+**Nadelen**:
 
 - Jij bent niet echt eigenaar van je bitcoin, dat is de custodian. Als zij failliet gaan, kan jouw geld dat ook zijn (vraag maar aan gebruikers van Mt. Gox of FTX).
 - Potentieel hogere kosten en minder privacy.
@@ -1385,14 +1385,14 @@ Er zijn verschillende manieren om bitcoins te verwerven, afhankelijk van hoeveel
 
 Gereguleerde platforms vereisen meestal dat je je identiteit verifieert voordat je bitcoin koopt. Dit betekent dat je officiële documenten moet overhandigen (paspoort, ID, bewijs van woonadres, etc.) om een account aan te maken en toegang te krijgen tot koop- en verkoopdiensten.
 
-**Voordelen** :
+**Voordelen**:
 
 - Eenvoudig aankoopproces, vaak geschikt voor beginners;
 - Mogelijkheid om grote hoeveelheden tegelijk te kopen;
 - Toegang tot extra diensten (DCA, automatische conversie, eenvoudig opnemen van fiat);
 - Hoge liquiditeit met een klein verschil tussen de koop- en verkoopprijzen.
 
-**Nadelen** :
+**Nadelen**:
 
 - Hoge kosten voor conversies en opnames;
 - Sommige platforms zijn ingewikkeld en kunnen je overweldigen met geavanceerde handelsfuncties of altcoins;
@@ -1417,13 +1417,13 @@ Bitcoin kopen zonder je identiteit bekend te maken is een optie voor diegenen di
 - **Mining**: Particulieren kunnen Bitcoin minen. Oudere of kleinere machines zijn toegankelijk, wat een niet-traditionele manier biedt om Bitcoin te verwerven zonder KYC. Door lid te worden van een mining pool, kun je regelmatige uitbetalingen verdienen, zelfs met basisuitrusting. Voor meer informatie, [bekijk onze mining tutorials](https://planb.network/tutorials/Mining).
 - **Betalingen / Salaris in bitcoins**: Als je een bedrijf hebt, kun je Bitcoin accepteren als betalingsmethode. Als je in loondienst bent, kun je, afhankelijk van je jurisdictie, vragen om betaald te worden in Bitcoin. Met deze methoden kun je Bitcoin verkrijgen zonder KYC.
 
-**Voordelen** :
+**Voordelen**:
 
 - Afhankelijk van de methode helpt het je privacy te beschermen door verbanden tussen je identiteit en je Bitcoin activiteit te beperken.
 - Vermindert het risico op censuur, het bevriezen van tegoeden of staatsinmenging.
 - Maakt toegang tot Bitcoin mogelijk, zelfs in sterk gereguleerde omgevingen.
 
-**Nadelen** :
+**Nadelen**:
 
 - Meestal ingewikkelder dan KYC-platforms.
 - Lagere liquiditeit en minder transacties.
@@ -1438,7 +1438,7 @@ Op basis van de criteria die we hebben besproken, kunnen we verschillende typisc
 
 De hodler is een investeerder die Bitcoin koopt met een langetermijnvisie en niet van plan is om het de komende jaren aan te raken. In tegenstelling tot de stapelaar, die in de loop van de tijd regelmatig koopt, doet de hodler meestal grotere, incidentele aankopen en houdt dan gewoon vast aan zijn Bitcoin.
 
-Voorkeursstrategie :
+Voorkeursstrategie:
 - Kopen via een KYC- of niet-KYC-platform, afhankelijk van hun privacybehoeften.
 - Opslag op een hardware wallet of met een oplossing met meerdere handtekeningen (multisig) voor extra beveiliging.
 - Zeldzame transacties, waardoor de interactie met het Bitcoin ecosysteem minimaal is.
@@ -1449,7 +1449,7 @@ De hodler ziet Bitcoin als een waardeopslagmiddel (store of value), vergelijkbaa
 
 De stapelaar is iemand die voor een meer geleidelijke, consistente aanpak kiest. Zij kopen regelmatig Bitcoin, vaak via een Dollar-Cost Averaging (DCA) strategie. Hun doel is om hun aankoopprijs te spreiden over de tijd en de impact van de volatiliteit van Bitcoin te verminderen.
 
-Voorkeursstrategie :
+Voorkeursstrategie:
 
 - Gebruik geautomatiseerde inkoop via een KYC-platform dat DCA biedt.
 - Regelmatige overdracht van tegoeden naar een hardware wallet voor veilige opslag.
@@ -1461,7 +1461,7 @@ De stapelaar richt zich niet op kortetermijnspeculatie of het veelvuldig gebruik
 
 De actieve gebruiker ziet Bitcoin vooral als een Exchange middel en niet zozeer als een opslagplaats van waarde. Ze gebruiken het regelmatig voor transacties, betalingen of als onderdeel van een circulaire economie.
 
-Voorkeursstrategie :
+Voorkeursstrategie:
 
 - Gebruik een hot wallet op mobiel of desktop voor dagelijkse transacties.
 - Gebruik het Lightning Network voor snelle en goedkope betalingen.
@@ -1473,7 +1473,7 @@ De actieve gebruiker kan een ondernemer, freelancer of iemand die in een Bitcoin
 #### 4. De paranoïde
 De paranoïde gebruiker is een geavanceerd individu dat privacy en veiligheid hoog in het vaandel heeft staan. Ze zien Bitcoin als een hulpmiddel voor persoonlijke vrijheid en willen zo min mogelijk worden blootgesteld aan vertrouwen en regelgeving van derden.
 
-Voorkeursstrategie :
+Voorkeursstrategie:
 
 - Bitcoin alleen verkrijgen via niet-KYC kanalen.
 - Gebruik wallets verbeterd met BIP39 wachtzinnen en multi-handtekening setups.
@@ -1632,11 +1632,11 @@ Het idee is eenvoudig: er zullen ooit maar ongeveer 21 miljoen bitcoins zijn, en
 
 Stacking is een zeer effectieve beleggingsstrategie voor diegenen die hun blootstelling aan marktvolatiliteit willen verminderen terwijl ze geleidelijk een Bitcoin positie opbouwen. In tegenstelling tot forfaitaire (lump-sum) investeringen of speculatieve markttiming, gebruiken stackers meestal een techniek genaamd Dollar-Cost Averaging (DCA), ze investeren een vast bedrag met regelmatige tussenpozen (dagelijks, wekelijks, maandelijks...), ongeacht de huidige prijs van Bitcoin.
 
-De voordelen van stapelen :
+De voordelen van stapelen:
 
 - **Verminderde volatiliteit**: Regelmatige aankopen helpen prijsschommelingen af te vlakken, omdat je meer sats koopt als de prijzen laag zijn en minder als ze hoog zijn, zo middel je je kostenbasis uit en verminder je emotionele stress.
 - **Toegankelijkheid**: Je hebt geen groot startkapitaal nodig. Je kunt beginnen met slechts €10 per maand en je DCA-bedrag na verloop van tijd verhogen.
-- **Discipline en automatisering** : Stapelaars vermijden emotionele beslissingen. Geautomatiseerde terugkerende aankopen zorgen voor consistentie en verminderen het risico op impulsieve bewegingen.
+- **Discipline en automatisering**: Stapelaars vermijden emotionele beslissingen. Geautomatiseerde terugkerende aankopen zorgen voor consistentie en verminderen het risico op impulsieve bewegingen.
 - **Strategie op lange termijn**: Geleidelijk beleggen vergroot de kans om te profiteren van stijgende markten terwijl het risico tijdens dalende markten wordt beperkt.
 
 Deze methode is vooral **goed geschikt voor beginners**, het neemt de druk weg van het timen van de markt en maakt een gestage, hands-off accumulatie mogelijk.
@@ -1782,7 +1782,7 @@ Dagelijks gebruik van Bitcoin biedt zowel individuele als collectieve voordelen:
 
 Elke transactie versterkt de legitimiteit van Bitcoin als valuta en moedigt meer winkeliers en diensten aan om het te accepteren. Het gebruik van Bitcoin is een stem voor zijn gebruikswaarde. Geld ontleent zijn waarde aan het vermogen om handel te faciliteren, niet aan directe ruilhandel (barter). Als geen enkele handelaar een valuta accepteert, heeft het geen objectieve waarde. Hoe meer goederen en diensten je ermee kunt kopen, hoe nuttiger het wordt. Door in Bitcoin te betalen, stuur je waarde naar winkeliers en handelaren die het accepteren. Dit verhoogt hun winsten en kan na verloop van tijd de winsten van concurrenten verminderen die bitcoin weigeren. Binnen een gemeenschap kan deze dynamiek een bredere acceptatie van Bitcoin stimuleren en bijdragen aan een opwaartse spiraal van adoptie.
 
-- **Profiteer van de unieke functies van de Bitcoin** :
+- **Profiteer van de unieke functies van de Bitcoin**:
 
 Bitcoin biedt verschillende krachtige functies, zoals snelle transacties via het Lightning Network en vrijheid van censuur, financieel toezicht en seigniorage. De kernwaarde ligt in het wegnemen van overheidscontrole over de geldhoeveelheid en het mogelijk maken van niet-censureerbare transacties. Als deze voordelen overeenkomen met je persoonlijke behoeften en waarden, zul je merken dat het profiel van de actieve gebruiker goed bij je past.
 

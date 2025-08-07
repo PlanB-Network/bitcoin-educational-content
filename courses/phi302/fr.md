@@ -1395,7 +1395,7 @@ L'open source permet un développement sans permission dans et au-dessus de Bitc
 Le processus de développement de Bitcoin est radicalement ouvert, ce qui peut donner l'impression que Bitcoin est un lieu toxique et inefficace, mais c'est ce qui permet à Bitcoin de résister aux acteurs malveillants.
 
 
-## Mise à l'échelle
+## Scalabilité
 
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
@@ -1405,15 +1405,13 @@ Le processus de développement de Bitcoin est radicalement ouvert, ce qui peut d
 
 
 
-Dans ce chapitre, nous examinons comment Bitcoin peut ou ne peut pas être mis à l'échelle. Nous commençons par examiner comment les gens ont raisonné sur la mise à l'échelle dans le passé. Ensuite, la majeure partie de ce chapitre explique diverses approches de la mise à l'échelle de Bitcoin, en particulier la mise à l'échelle verticale, horizontale, vers l'intérieur et en couches. Chaque description est suivie de considérations sur la question de savoir si l'approche interfère avec la proposition de valeur de Bitcoin.
+Dans ce chapitre, nous examinons comment Bitcoin peut ou ne peut pas être scalable. Nous commençons par examiner comment les gens ont raisonné sur la scalabilité dans le passé. Ensuite, la majeure partie de ce chapitre explique diverses approches de la scalabilité de Bitcoin, en particulier la scalabilité verticale, horizontale, vers l'intérieur et en couches. Chaque description est suivie de considérations sur la question de savoir si l'approche interfère avec la proposition de valeur de Bitcoin.
 
 
-Dans l'espace Bitcoin, les définitions du mot "échelle" varient d'une personne à l'autre. Certains le conçoivent comme l'augmentation de la capacité de transaction du Blockchain, d'autres pensent qu'il équivaut à une utilisation plus efficace du Blockchain, et d'autres encore le voient comme le développement de systèmes au-dessus du Bitcoin.
+Dans l'espace Bitcoin, les définitions du mot "scalabilité" varient d'une personne à l'autre. Certains la conçoivent comme l'augmentation de la capacité de transaction de la Blockchain, d'autres pensent qu'elle équivaut à une utilisation plus efficace de la Blockchain, et d'autres encore la voient comme le développement de systèmes au-dessus de Bitcoin.
 
 
-Dans le contexte de Bitcoin, et pour les besoins de cet ouvrage, nous définissons la mise à l'échelle comme *l'augmentation de la capacité d'utilisation de Bitcoin sans compromettre sa résistance à la censure*. Cette définition englobe plusieurs
-
-les changements peuvent être de plusieurs ordres, par exemple :
+Dans le contexte de Bitcoin, et pour les besoins de cet ouvrage, nous définissons la scalabilité comme *l'augmentation de la capacité d'utilisation de Bitcoin sans compromettre sa résistance à la censure*. Cette définition englobe plusieurs types de changements, par exemple :
 
 
 - Réduire le nombre d'octets utilisés pour les entrées de transaction
@@ -1423,14 +1421,14 @@ les changements peuvent être de plusieurs ordres, par exemple :
 - Architecture en couches
 
 
-Nous nous pencherons bientôt sur les différentes approches de la mise à l'échelle, mais commençons par un bref aperçu de l'histoire de Bitcoin dans le contexte de la mise à l'échelle.
+Nous nous pencherons bientôt sur les différentes approches de la scalabilité, mais commençons par un bref aperçu de l'histoire de Bitcoin dans le contexte de la scalabilité.
 
 
-### Histoire de la mise à l'échelle
+### Histoire de la scalabilité
 
 
 
-La mise à l'échelle a été un point central de discussion depuis la Genesis de la Bitcoin. La toute première phrase du [tout premier courriel](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) en réponse à l'annonce par Satoshi du livre blanc Bitcoin sur la liste de diffusion Cryptographie concernait en effet la mise à l'échelle :
+La scalabilité a été un point central de discussion depuis la Genesis de Bitcoin. La toute première phrase du [tout premier courriel](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) en réponse à l'annonce par Satoshi du livre blanc de Bitcoin sur la liste de diffusion Cryptographie concernait en effet la scalabilité :
 
 
 > Satoshi Nakamoto a écrit :
@@ -1441,53 +1439,51 @@ La mise à l'échelle a été un point central de discussion depuis la Genesis d
 
 > Nous avons vraiment besoin d'un tel système, mais d'après ce que je comprends de votre proposition, il ne semble pas pouvoir s'adapter à la taille requise.
 
-La conversation en elle-même n'est peut-être pas très intéressante ni exacte, mais elle montre que la mise à l'échelle a été une préoccupation dès le début.
+La conversation en elle-même n'est peut-être pas très intéressante ni exacte, mais elle montre que la scalabilité a été une préoccupation dès le début.
 
 
-Les discussions sur la mise à l'échelle ont atteint leur pic d'intérêt vers 2015-2017, lorsque de nombreuses idées différentes circulaient sur la question de savoir s'il fallait augmenter la limite maximale de la taille des blocs et comment. Il s'agissait d'une discussion plutôt inintéressante sur la modification d'un paramètre dans le code source, une modification qui ne résolvait rien fondamentalement mais qui repoussait le problème de la mise à l'échelle plus loin dans le futur, créant ainsi une dette technique.
+Les discussions sur la scalabilité ont atteint leur pic d'intérêt vers 2015-2017, lorsque de nombreuses idées différentes circulaient sur la question de savoir s'il fallait augmenter la limite maximale de la taille des blocs et comment. Il s'agissait d'une discussion plutôt inintéressante sur la modification d'un paramètre dans le code source, une modification qui ne résolvait rien fondamentalement mais qui repoussait le problème de la scalabilité plus loin dans le futur, créant ainsi une dette technique.
 
 
-En 2015, une conférence intitulée [Scaling Bitcoin](https://scalingbitcoin.org/) s'est tenue à Montréal, avec une conférence de suivi six mois plus tard à Hong Kong et, par la suite, dans un certain nombre d'autres endroits dans le monde. L'accent a été mis précisément sur la manière de mettre à l'échelle Address. De nombreux développeurs Bitcoin et d'autres enthousiastes se sont réunis lors de ces conférences pour discuter de diverses questions et propositions relatives à la mise à l'échelle. La plupart de ces discussions ne portaient pas sur l'augmentation de la taille des blocs, mais sur des solutions à plus long terme.
+En 2015, une conférence intitulée [Scaling Bitcoin](https://scalingbitcoin.org/) s'est tenue à Montréal, avec une conférence de suivi six mois plus tard à Hong Kong et, par la suite, dans un certain nombre d'autres endroits dans le monde. L'accent a été mis précisément sur la manière de traiter la scalabilité. De nombreux développeurs Bitcoin et d'autres enthousiastes se sont réunis lors de ces conférences pour discuter de diverses questions et propositions relatives à la scalabilité. La plupart de ces discussions ne portaient pas sur l'augmentation de la taille des blocs, mais sur des solutions à plus long terme.
 
 
-Après la conférence de Hong Kong en décembre 2015, Gregory Maxwell [a résumé son point de vue](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) sur de nombreuses questions qui ont été débattues, en commençant par une philosophie générale de la mise à l'échelle :
+Après la conférence de Hong Kong en décembre 2015, Gregory Maxwell [a résumé son point de vue](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) sur de nombreuses questions qui ont été débattues, en commençant par une philosophie générale de la scalabilité :
 
 
-> Avec la technologie disponible, il existe des compromis fondamentaux entre l'échelle et la décentralisation. Si le système est trop coûteux, les gens seront obligés de faire confiance à des tiers plutôt que d'appliquer les règles du système de manière indépendante. Si l'utilisation des ressources du Bitcoin Blockchain, par rapport à la technologie disponible, est trop importante, le Bitcoin perd ses avantages concurrentiels par rapport aux anciens systèmes parce que la validation sera trop coûteuse (excluant de nombreux utilisateurs), ce qui obligera à rétablir la confiance dans le système.  Si la capacité est trop faible et nos méthodes de transaction trop inefficaces, l'accès à la chaîne pour la résolution des litiges sera trop coûteux, ce qui ramènera à nouveau la confiance dans le système.
+> Avec la technologie disponible, il existe des compromis fondamentaux entre la scalabilité et la décentralisation. Si le système est trop coûteux, les gens seront obligés de faire confiance à des tiers plutôt que d'appliquer les règles du système de manière indépendante. Si l'utilisation des ressources de la Blockchain Bitcoin, par rapport à la technologie disponible, est trop importante, le Bitcoin perd ses avantages concurrentiels par rapport aux anciens systèmes parce que la validation sera trop coûteuse (excluant de nombreux utilisateurs), ce qui obligera à rétablir la confiance dans le système.  Si la capacité est trop faible et nos méthodes de transaction trop inefficaces, l'accès à la chaîne pour la résolution des litiges sera trop coûteux, ce qui ramènera à nouveau la confiance dans le système.
 
 Il parle du compromis entre le débit et la décentralisation. Si vous autorisez des blocs plus grands, vous pousserez certaines personnes hors du réseau parce qu'elles n'auront plus les ressources nécessaires pour valider les blocs. Mais d'un autre côté, si l'accès à l'espace des blocs devient plus cher, moins de personnes pourront se permettre de l'utiliser comme mécanisme de résolution des conflits. Dans les deux cas, les utilisateurs sont poussés vers des services de confiance.
 
 
-Il poursuit en résumant les nombreuses approches de la mise à l'échelle présentées lors de la conférence. Parmi celles-ci figurent des vérifications de signatures plus efficaces en termes de calcul, des *témoins séparés*, y compris une modification de la taille limite des blocs, un mécanisme de propagation des blocs plus efficace en termes d'espace, et la construction de protocoles en couches au-dessus du Bitcoin. Bon nombre de ces
-
-ont été mises en œuvre depuis.
+Il poursuit en résumant les nombreuses approches de la mise à la scalabilité présentées lors de la conférence. Parmi celles-ci figurent des vérifications de signatures plus efficaces en termes de calcul, des *témoins séparés*, y compris une modification de la taille limite des blocs, un mécanisme de propagation des blocs plus efficace en termes d'espace, et la construction de protocoles en couches au-dessus de Bitcoin. Bon nombre de ces approches ont depuis été mises en œuvre.
 
 
-### Méthodes de mise à l'échelle
+### Méthodes de la scalabilité
 
 
 
-Comme nous l'avons suggéré plus haut, la mise à l'échelle de Bitcoin ne doit pas nécessairement consister à augmenter la taille limite des blocs ou d'autres limites. Nous allons maintenant passer en revue quelques approches générales de la mise à l'échelle, dont certaines ne souffrent pas du compromis débit-décentralisation mentionné dans la section précédente.
+Comme nous l'avons suggéré plus haut, la scalabilité de Bitcoin ne doit pas nécessairement consister à augmenter la taille limite des blocs ou d'autres limites. Nous allons maintenant passer en revue quelques approches générales de la scalabilité, dont certaines ne souffrent pas du compromis débit-décentralisation mentionné dans la section précédente.
 
 
-#### Mise à l'échelle verticale
+#### La scalabilité verticale
 
 
 
-La mise à l'échelle verticale est le processus d'augmentation des ressources informatiques des machines qui traitent les données. Dans le contexte de la Bitcoin, ces dernières seraient les nœuds complets, à savoir les machines qui valident la Blockchain pour le compte de leurs utilisateurs.
+La scalabilité verticale est le processus d'augmentation des ressources informatiques des machines qui traitent les données. Dans le contexte de Bitcoin, ces dernières seraient les nœuds complets, à savoir les machines qui valident la Blockchain pour le compte de leurs utilisateurs.
 
 
-La technique la plus couramment évoquée pour la mise à l'échelle verticale dans le Bitcoin est l'augmentation de la taille limite des blocs. Cela nécessiterait que certains nœuds complets mettent à niveau leur matériel pour répondre à l'augmentation des demandes de calcul. L'inconvénient est que cela se fait au détriment de la centralisation.
+La technique la plus couramment évoquée pour la scalabilité verticale pour Bitcoin est l'augmentation de la taille limite des blocs. Cela nécessiterait que certains nœuds complets mettent à niveau leur matériel pour répondre à l'augmentation des demandes de calcul. L'inconvénient est que cela se fait au détriment de la centralisation.
 
 
-Outre les effets négatifs sur la décentralisation noeud complet, la mise à l'échelle verticale pourrait également avoir un impact négatif sur la décentralisation et la sécurité Mining de Bitcoin de manière moins évidente. Voyons comment les mineurs "devraient" fonctionner. Supposons qu'un Miner mine un bloc à la hauteur 7 et publie ce bloc sur le réseau Bitcoin. Il faudra un certain temps pour que ce bloc soit largement accepté, ce qui est principalement dû à deux facteurs :
+Outre les effets négatifs sur la décentralisation des noeuds complets, la scalabilité verticale pourrait également avoir un impact négatif sur la décentralisation et la sécurité du minage de Bitcoin de manière moins évidente. Voyons comment les mineurs "devraient" fonctionner. Supposons qu'un mineur mine un bloc à la hauteur 7 et publie ce bloc sur le réseau Bitcoin. Il faudra un certain temps pour que ce bloc soit largement accepté, ce qui est principalement dû à deux facteurs :
 
 
 - Le transfert du bloc entre les pairs prend du temps en raison des limitations de la bande passante.
 - La validation du bloc prend du temps.
 
 
-Pendant que le bloc 7 se propage dans le réseau, de nombreux mineurs sont encore en train de fabriquer des Mining sur le bloc 6 parce qu'ils n'ont pas encore reçu et validé le bloc 7. Pendant ce temps, si l'un de ces mineurs trouve un nouveau bloc à la hauteur 7, il y aura deux blocs concurrents à cette hauteur. Il ne peut y avoir qu'un seul bloc à la hauteur 7 (ou à toute autre hauteur), ce qui signifie que l'un des deux candidats doit devenir périmé.
+Pendant que le bloc 7 se propage dans le réseau, de nombreux mineurs minent encore le bloc 6 parce qu'ils n'ont pas encore reçu et validé le bloc 7. Pendant ce temps, si l'un de ces mineurs trouve un nouveau bloc à la hauteur 7, il y aura deux blocs concurrents à cette hauteur. Il ne peut y avoir qu'un seul bloc à la hauteur 7 (ou à toute autre hauteur), ce qui signifie que l'un des deux candidats doit devenir périmé.
 
 
 En bref, les blocs périmés se produisent parce qu'il faut du temps pour que chaque bloc se propage, et plus la propagation est longue, plus la probabilité de blocs périmés est élevée.
@@ -1496,23 +1492,20 @@ En bref, les blocs périmés se produisent parce qu'il faut du temps pour que ch
 Supposons que la limite de taille des blocs soit levée et que la taille moyenne des blocs augmente considérablement. Les blocs se propageraient alors plus lentement sur le réseau en raison des limitations de la bande passante et du temps de vérification. L'augmentation du temps de propagation accroît également les risques de blocs périmés.
 
 
-Les mineurs n'aiment pas que leurs blocs soient bloqués parce qu'ils perdent leur Block reward, et ils font donc tout ce qu'ils peuvent pour éviter cela
-
-scénario. Les mesures qu'ils peuvent prendre sont les suivantes :
+Les mineurs n'aiment pas que leurs blocs soient bloqués parce qu'ils perdent les récompenses de blocs. Ils feront donc tout leur possible pour éviter ce scénario. Les mesures qu’ils peuvent prendre incluent :
 
 
-
-- Report de la validation d'un bloc entrant, également connu sous le nom de *validationless Mining*. Les mineurs peuvent simplement vérifier la Proof-of-Work de l'en-tête du bloc et miner par-dessus, tout en téléchargeant le bloc complet et en le validant.
-- Connexion à un Mining pool avec une plus grande largeur de bande et une meilleure connectivité.
-
-
-La Mining sans validation affaiblit encore la décentralisation de la noeud complet, car la Miner se contente de faire confiance aux blocs entrants, au moins temporairement. Elle nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
+- Report de la validation d'un bloc entrant, également connu sous le nom de *validationless Mining*. Les mineurs peuvent simplement vérifier la preuve de travail de l'en-tête du bloc et miner par-dessus, tout en téléchargeant le bloc complet et en le validant.
+- Connexion à un pool de minage avec une plus grande largeur de bande et une meilleure connectivité.
 
 
-Le deuxième point a un effet négatif sur la décentralisation de Miner, car les pools disposant de la meilleure connectivité réseau et de la meilleure bande passante sont aussi les plus grands, ce qui incite les mineurs à graviter autour de quelques grands pools.
+Le minage sans validation affaiblit encore la décentralisation des noeuds complets, car le mineur se contente de faire confiance aux blocs entrants, au moins temporairement. Elle nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
 
 
-#### Mise à l'échelle horizontale
+Le deuxième point a un effet négatif sur la décentralisation du minage, car les pools disposant de la meilleure connectivité réseau et de la meilleure bande passante sont aussi les plus grands, ce qui incite les mineurs à graviter autour de quelques grands pools.
+
+
+#### La scalabilité horizontale
 
 
 

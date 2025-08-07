@@ -42,6 +42,7 @@ Ce cours a été sponsorisé par TETHER.
 ## Aperçu du cours
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+
 Bienvenue dans le cours ECO104 !
 
 **Nous vivons dans un monde où :**
@@ -50,11 +51,12 @@ Bienvenue dans le cours ECO104 !
 
 ● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) milliard d'adultes dans le monde restent non bancarisés, tandis que d'innombrables autres sont limités à des services bancaires restreints.
 
-● À la fin de [2022](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/), près de la moitié du monde faisait face à des taux d'inflation à deux chiffres, érodant la valeur de l'argent durement gagné. Pour mettre cela en perspective, avec un taux d'inflation de 10% sur une décennie, vous perdriez une stupéfiante 65% de votre pouvoir d'achat.
+● À la fin de l'année [2022](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/), près de la moitié du monde faisait face à des taux d'inflation à deux chiffres, érodant la valeur de l'argent durement gagné. Pour mettre cela en perspective, avec un taux d'inflation de 10% sur une décennie, vous perdriez 65% de votre pouvoir d'achat, ce qui est stupéfiant.
 
-● Et même sans périodes soutenues d'une telle inflation, le USD, considéré comme la monnaie globale la plus forte, a assisté à une perte de [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) de son pouvoir d'achat au cours du dernier siècle.
+● Et même sans périodes soutenues d'une telle inflation, le USD, considéré comme la monnaie globale la plus forte, a subi une perte de [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) de son pouvoir d'achat au cours du dernier siècle.
 
 Ce sont quelques-unes des dures vérités de notre environnement économique mondial. Nos systèmes financiers sont loin de répondre aux besoins de la majorité de la population. Ces systèmes perpétuent l'inégalité, excluent beaucoup et dépossèdent des milliards de personnes à l'échelle mondiale.
+
 Si vous vous trouvez accablé par les pressions incessantes de la hausse des prix ou par le manque d'inclusion financière dans notre système actuel, sachez, pour vous consoler, que vous n'êtes pas seul. Ce sont les sous-produits de notre système monétaire actuel.
 
 Malgré notre perspective apparemment sombre, notre objectif avec ce cours n'est pas de nous fixer sur les défis de nos circonstances actuelles. Au contraire, nous voulons rediriger notre attention vers l'obtention de la libération et de l'autonomisation financière.
@@ -66,15 +68,19 @@ Dans cet esprit, notre mission est de vous amener à l'avant-garde du changement
 **À quoi s'attendre :**
 
 **Module 1 : Le Prix du Progrès - Un Regard Approfondi sur Notre Système Financier**
+
 Nous commençons notre exploration en jetant un coup d'œil derrière les rideaux de notre système financier actuel, où la censure financière, l'inégalité de richesse et l'inflation affligent notre quotidien. À travers une brève histoire de l'argent, nous examinerons comment nous nous sommes retrouvés là où nous sommes, en mettant en lumière certains des principaux points douloureux que nous vivons tous.
 
 **Module 2 : Libération Financière - Une Introduction à Bitcoin**
+
 Ce module va démystifier Bitcoin, transcendant le jargon pour vous aider à comprendre ce qui différencie Bitcoin des monnaies fiduciaires traditionnelles. De son fonctionnement à son utilisation, nous vous guidons à travers la fonctionnalité et les moyens d'interagir avec Bitcoin.
 
 **Module 3 : Stabilité au Milieu du Chaos - Une Introduction à Tether & le Monde des Stablecoins**
+
 Dans ce module, nous jetons un coup d'œil sous le capot du stablecoin leader, Tether, explorant comment cette monnaie numérique maintient sa valeur et a le potentiel de donner la liberté à ceux qui font face à un gouvernement oppressant, à un manque de services financiers ou à une inflation galopante.
 
 **Module 4 : Surmonter les Doutes - Démystifier les Idées Reçues & Cas d'Usage Réels**
+
 Pour finir, nous allons contester les idées reçues courantes entourant Bitcoin et les stablecoins et offrir des cas d'usage réels d'individus qui ont déjà adopté et bénéficient de ces technologies.
 
 À la fin de ce cours, vous n'aurez pas seulement acquis des connaissances puissantes et des outils inestimables pour naviguer dans notre paysage financier complexe, mais vous comprendrez également mieux comment Bitcoin et les stablecoins, tels que Tether, donnent du pouvoir aux utilisateurs en leur permettant d'opter pour un système monétaire alternatif - un qui privilégie l'individu, offrant à chacun un plus grand contrôle de sa situation financière. Avec cette compréhension, vous serez mieux équipé pour poursuivre la liberté financière, l'autonomisation personnelle et la libération.
@@ -90,7 +96,9 @@ Nous sommes ravis de vous avoir avec nous dans ce voyage dans les profondeurs de
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
 L'argent est une partie fascinante et essentielle de notre vie quotidienne. Nous l'utilisons tous les jours pour acheter des courses, payer des factures et effectuer d'innombrables transactions. Mais qu'est-ce que l'argent, réellement ? Au fond, l'argent est simplement un moyen d'échange, un outil qui nous permet de commercer des biens et des services les uns avec les autres. C'est un concept abstrait que nous tenons pour acquis, mais il est fondamental à notre système économique.
+
 Mais toutes les monnaies ne se valent pas. Certaines formes de monnaie sont meilleures que d'autres, selon leur capacité à servir de réserve de valeur, de moyen d'échange et d'unité de compte. L'or, par exemple, est hautement valorisé depuis des milliers d'années en raison de sa durabilité et de sa rareté. D'autre part, l'argent papier n'est aussi précieux que la confiance que nous plaçons dans les institutions qui l'émettent.
+
 Dans ce module, nous explorerons les différentes fonctions et caractéristiques de l'argent et ce qui constitue une bonne monnaie. Que vous soyez un citoyen lambda, un chef d'entreprise, un investisseur ou simplement curieux du monde de la finance, notre objectif est de vous aider à acquérir une compréhension plus profonde de ce concept abstrait mais essentiel qui touche toutes nos vies. Alors plongeons…
 
 ### Qu'est-ce que l'argent ?
@@ -99,7 +107,7 @@ Dans sa forme la plus simple, l'argent peut être compris comme le moyen par leq
 
 L'argent nous permet d'échanger nos ressources ou services contre une réserve de valeur, que nous ayons ou non une utilisation immédiate de cette valeur stockée. Cela a permis à notre civilisation de s'étendre et de croître beaucoup plus efficacement que si nous avions continué à nous appuyer sur des pratiques telles que le troc.
 
-Pour la personne moyenne, l'argent conserve sa valeur car il n'y a que deux méthodes pour obtenir de l'argent :
+Pour la personne moyenne, l'argent conserve sa valeur car il n'y a que deux méthodes pour en obtenir :
 
 1. Nous devons dépenser du temps et de l'énergie en retour de l'argent (c'est-à-dire travail, labeur, services).
 2. Nous devons échanger des biens ou des ressources en retour de l'argent.
@@ -112,22 +120,23 @@ En considérant l'argent comme une réserve de temps et d'énergie, métaphoriqu
 
 ### Qu'est-ce qui fait une excellente monnaie ?
 
-En lisant l'introduction, vous avez peut-être remarqué trois termes importants : réserve de valeur, moyen d'échange et unité de compte. Ne vous inquiétez pas si vous n'êtes pas familier avec ce jargon. Ces trois fonctions sont essentielles pour que l'argent apporte de la valeur à son détenteur et sont communément appelées les fonctions de l'argent.
+En lisant l'introduction, vous avez peut-être remarqué trois termes importants : réserve de valeur, moyen d'échange et unité de compte. Ne vous inquiétez pas si vous n'êtes pas familier avec ce jargon. Ces trois fonctions sont essentielles pour que l'argent apporte de la valeur à son détenteur et sont communément appelées les fonctions de la monnaie.
 
 Examinons chacune d'elles :
 
-1. **Réserve de Valeur :** L'argent sert de moyen de stocker de la valeur pour une utilisation future, permettant au détenteur de préserver son pouvoir d'achat dans le temps. Ce faisant, il offre au détenteur la possibilité d'économiser et de planifier pour l'avenir. L'or sert d'exemple parfait de cette réserve de valeur, car il a pu acheter un costume décent avec juste une once pendant des siècles.
-2. **Moyen d'Échange :** Pour que l'argent serve de moyen d'échange viable pour les biens et services, il doit être facilement échangeable. Bien que tout actif puisse techniquement être utilisé comme argent, les actifs plus grands et immobiles comme les maisons ne sont pas pratiques pour être utilisés comme moyen d'échange.
-3. **Unité de Compte :** Enfin, l'argent devrait fonctionner comme une unité de mesure standard pour les prix des biens et services. Cela signifie que les articles sont tarifés et évalués en termes de cet argent, permettant une comparaison facile de la valeur relative de différents produits et services.
-   Lorsque ces trois fonctions essentielles de l'argent sont remplies dans leur intégralité, cet argent a la capacité de répondre aux exigences rigoureuses du commerce. Sans ces fonctions, l'argent est beaucoup moins fiable et digne de confiance, conduisant à l'insécurité et à l'incertitude dans le commerce, ce qui peut avoir des effets dommageables tant sur le plan personnel que national.
+1. **Réserve de Valeur :** La monnaie sert de moyen de stocker de la valeur pour une utilisation future, permettant au détenteur de préserver son pouvoir d'achat dans le temps. Ce faisant, elle offre au détenteur la possibilité d'économiser et de planifier pour l'avenir. L'or sert d'exemple parfait de cette réserve de valeur, car il a pu acheter un costume décent avec juste une once pendant des siècles.
+2. **Moyen d'Échange :** Pour que la monnaie serve de moyen d'échange viable pour les biens et services, elle doit être facilement échangeable. Bien que tout actif puisse techniquement être utilisé comme monnaie, les actifs plus grands et immobiles comme les maisons ne sont pas pratiques pour être utilisés comme moyen d'échange.
+3. **Unité de Compte :** Enfin, la monnaie devrait fonctionner comme une unité de mesure standard pour les prix des biens et services. Cela signifie que les articles sont tarifés et évalués en termes de cette monnaie, permettant une comparaison facile de la valeur relative de différents produits et services.
+
+Lorsque ces trois fonctions essentielles de la monnaie sont remplies dans leur intégralité, cet argent a la capacité de répondre aux exigences rigoureuses du commerce. Sans ces fonctions, l'argent est beaucoup moins fiable et digne de confiance, conduisant à l'insécurité et à l'incertitude dans le commerce, ce qui peut avoir des effets dommageables tant sur le plan personnel que national.
 
 Avec cela à l'esprit, lorsque l'argent que nous utilisons nous offre un moyen fiable de stocker de la valeur, une méthode efficace pour faciliter les transactions, et une mesure commune de la valeur, il nous permet d'économiser et de construire de la richesse, de commercer en toute confiance et de transiger avec aisance. Ces fonctions ensemble nous assistent non seulement dans notre capacité à commercer et à économiser, mais elles posent également les bases d'un système économique stable et efficace, favorisant une plus grande croissance économique et prospérité pour les individus et les sociétés.
 
-Vous pensez probablement, "Ok, je comprends que pour que l'argent offre de la valeur, il doit répondre aux fonctions de l'argent énoncées ci-dessus, mais comment fait-il cela ?"
+Vous pensez probablement, "Ok, je comprends que pour que l'argent offre de la valeur, il doit répondre aux fonctions de la monnaie énoncées ci-dessus, mais comment fait-il cela ?"
 
 Bonne question...
 
-Le concept d'un bon argent peut sembler compliqué, mais à sa base, il est défini par certaines caractéristiques essentielles qui lui permettent de fonctionner comme un moyen de stockage de valeur fiable et efficace, un moyen d'échange, et une unité de compte. Ces éléments sont collectivement connus sous le nom de caractéristiques de l'argent. En comprenant les liens entre les caractéristiques de l'argent et ses fonctions, nous pouvons développer une compréhension plus profonde de pourquoi certain argent est préférable à d'autres.
+Le concept d'un bon argent peut sembler compliqué, mais à sa base, il est défini par certaines caractéristiques essentielles qui lui permettent de fonctionner comme un moyen de stockage de valeur fiable et efficace, un moyen d'échange, et une unité de compte. Ces éléments sont collectivement connus sous le nom de caractéristiques de l'argent. En comprenant les liens entre les caractéristiques de l'argent et ses fonctions, nous pouvons développer une compréhension plus profonde de pourquoi certaines monnaies sont préférables à d'autres.
 
 ### Caractéristiques de l'Argent
 
@@ -144,7 +153,8 @@ Pour que l'argent maintienne son pouvoir d'achat au fil du temps, il doit être 
 #### Moyen d'Échange
 
 Pour que l'argent soit un intermédiaire efficace pour acheter et vendre des biens et services, il doit être :
-**Portable :** Lorsque nous parlons d'argent comme étant "portable", nous entendons par là qu'il est facile à transporter d'un endroit à un autre. C'est une caractéristique importante d'un moyen d'échange car cela nous permet d'utiliser l'argent pour acheter et vendre des biens et services dans différents lieux. Par exemple, si vous vouliez acheter un café dans un café, vous pourriez utiliser votre argent portable (tel que de l'espèce ou une carte de crédit) pour payer, peu importe où vous êtes. En revanche, si vous deviez transporter de grands objets lourds comme moyen d'échange, il serait beaucoup plus difficile de les utiliser dans les transactions.
+
+**Portable :** Lorsque nous parlons d'argent comme étant "portable", nous entendons par là qu'il est facile à transporter d'un endroit à un autre. C'est une caractéristique importante d'un moyen d'échange car cela nous permet d'utiliser l'argent pour acheter et vendre des biens et services dans différents lieux. Par exemple, si vous vouliez acheter un café dans un bar, vous pourriez utiliser votre argent portable (tel que de l'espèce ou une carte de crédit) pour payer, peu importe où vous êtes. En revanche, si vous deviez transporter de grands objets lourds comme moyen d'échange, il serait beaucoup plus difficile de les utiliser dans les transactions.
 
 **Divisible :** C'est une caractéristique cruciale d'un bon moyen d'échange, qui fait référence à la capacité de l'argent à être divisé en unités plus petites pour faciliter les transactions de différentes tailles. Par exemple, effectuer de petits achats serait difficile si nous n'avions que de grandes coupures d'argent. La divisibilité nous permet de faire des paiements exacts, quelle que soit la taille de la transaction, rendant l'argent plus utile et pratique dans la vie quotidienne. Essentiellement, plus une monnaie est divisible, plus il est pratique pour les individus de l'utiliser et de réaliser des transactions.
 
@@ -167,7 +177,10 @@ De l'échange de biens à l'invention des pièces et des billets de banque, l'ar
 ## Un Examen de Comment Nous Sommes Arrivés Ici
 
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+
+
 Des jours du troc aux ères modernes des monnaies numériques, l'argent a subi une évolution fascinante. Nos ancêtres utilisaient des coquillages, des perles, et même du bétail comme moyen d'échange. Aujourd'hui, nous disposons de portefeuilles virtuels et de paiements sans contact. C'est un voyage remarquable qui a connu d'innombrables itérations, compromis et adaptations pour répondre aux besoins sans cesse changeants de la société.
+
 Mais comment l'argent que nous utilisons a-t-il évolué pour devenir la partie indispensable de nos vies qu'il est aujourd'hui ? Dans cette section, nous explorerons l'évolution de l'argent, de ses formes les plus anciennes aux monnaies numériques modernes que nous utilisons aujourd'hui. Nous examinerons chaque grande itération de l'argent, en regardant comment elles ont aidé à façonner notre société moderne.
 
 _**Une note rapide :** Il est important de souligner que cette section n'est pas nécessairement un compte rendu chronologique de l'évolution de l'argent. Au lieu de cela, c'est plutôt un voyage éducatif sur l'ascension et la chute de différentes formes d'argent. Beaucoup de ces moyens d'échange ont existé simultanément, et certains existent encore aujourd'hui sous une forme ou une autre._
@@ -196,7 +209,9 @@ Le troc ! C'est un concept simple : vous échangez quelque chose que vous avez c
 Mais est-ce pratique ?
 
 Le problème avec le troc est qu'il peut être difficile de trouver quelqu'un qui veut ce que vous avez et qui a ce que vous voulez. Par exemple, imaginez que vous êtes un agriculteur de blé ayant besoin d'une nouvelle chemise. Vous pourriez devoir chercher loin et large pour trouver un fabricant de chemises disposé à échanger une chemise contre votre blé. Mais que se passe-t-il si le fabricant de chemises ne veut pas de votre blé ? Ce problème est connu sous le nom de double coïncidence des besoins. Une transaction réussie nécessite une double coïncidence des besoins, ce qui signifie que les deux parties doivent avoir quelque chose que l'autre souhaite échanger.
+
 Un autre problème avec le troc est qu'il peut être peu pratique pour certains objets. Comment diviseriez-vous une vache vivante pour échanger contre une paire de chaussures ? Et sans une unité de compte standardisée, comparer la valeur des biens et des services est difficile. Une vache vaut-elle plus ou moins que dix sacs de blé ou deux rouleaux de tissu ?
+
 De plus, de nombreux biens et services sont périssables et perdent de la valeur avec le temps. Donc, si vous comptez sur le troc comme moyen d'échange, vous devez continuellement échanger et consommer vos biens et services pour éviter une perte de valeur.
 
 Malgré ces défis, le troc est encore utilisé dans certaines situations. Vous verrez souvent le troc utilisé lors de transactions sur des marchés en ligne, ou dans des pays où la monnaie a échoué à offrir une réserve de valeur, les gens cherchent à stocker de la valeur dans des biens. Cela dit, il n'est pas largement accepté.
@@ -211,20 +226,23 @@ L'avantage de sélectionner un moyen d'échange pré-défini était que les comm
 
 Cependant, à mesure que les voyages devenaient plus faciles, le monde commençait à s'ouvrir, et les gens reconnaissaient que les ressources rares dans une région étaient abondantes dans d'autres. Cela a conduit à l'exploitation, à la dilution de l'offre, et a déclenché des événements comme la traite des esclaves. Par exemple, les colons européens explorant l'Afrique ont vu que les communautés locales utilisaient les perles de verre comme forme d'argent. Déconcertés, en raison de la facilité de production du verre en Europe, les colons apportaient de grandes quantités de ces perles en Afrique, diluant leur valeur. Certains pourraient même arguer que cette dilution était l'un des déclencheurs qui ont allumé la [traite des esclaves](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), contribuant à l'effondrement de l'économie africaine.
 
-Dans l'ensemble, l'argent-marchandise a joué un rôle essentiel dans le développement du commerce et du commerce, car il fournissait un moyen d'échange standardisé largement accepté. Cependant, à mesure que les sociétés devenaient plus avancées, d'autres formes d'argent plus pratiques et divisibles ont commencé à émerger.
+Dans l'ensemble, l'argent-marchandise a joué un rôle essentiel dans le développement du commerce et des transactions, car il fournissait un moyen d'échange standardisé largement accepté. Cependant, à mesure que les sociétés devenaient plus avancées, d'autres formes d'argent plus pratiques et divisibles ont commencé à émerger.
 
 Pour résoudre ces problèmes, les gens ont commencé à rechercher des marchandises qui avaient une rareté reconnue mondialement, ce qui a donné naissance à l'utilisation des métaux précieux comme moyen d'échange.
 
 ### Monnaie Frappée
 
 Tout en étant techniquement encore de l'argent-marchandise, alors que les humains continuaient leur quête pour un argent supérieur, ils sont tombés sur un héros inattendu : les métaux précieux. Non seulement ces métaux étaient beaux et convoités pour leur utilisation dans les bijoux, mais ils cochaient également de nombreuses cases pour ce qui fait un excellent actif monétaire. Leur rareté globalisée dans la nature et l'investissement significatif requis pour les extraire, les raffiner et les stocker leur donnaient une prime au-dessus des autres formes précédentes d'argent.
-De plus, des métaux tels que l'or étaient parmi les éléments les plus inertes du tableau périodique, ce qui les rendait extrêmement durables et résistants à la corrosion. Avec l'avancement de la technologie, l'or et l'argent ont subi un processus de transformation, étant fondus, façonnés et estampillés en pièces, facilitant ainsi les échanges. La valeur standardisée et les marquages sur ces pièces ont notablement diminué les coûts associés à la vérification du poids et de la pureté des métaux précieux. Mais, comme c'est souvent le cas avec les bonnes choses, quelqu'un trouve toujours un moyen d'en tirer avantage. Le rognage des pièces est devenu monnaie courante, avec des individus et des gouvernements coupant des portions des pièces pour réduire leur poids en métal précieux tout en tentant de conserver leur valeur nominale originale. Cela a conduit à la première forme de dévaluation monétaire, entraînant de l'inflation.
+
+De plus, des métaux tels que l'or étaient parmi les éléments les plus inertes du tableau périodique, ce qui les rendait extrêmement durables et résistants à la corrosion. 
+
+Avec l'avancement de la technologie, l'or et l'argent ont subi un processus de transformation, étant fondus, façonnés et estampillés en pièces, facilitant ainsi les échanges. La valeur standardisée et les marquages sur ces pièces ont notablement diminué les coûts associés à la vérification du poids et de la pureté des métaux précieux. Mais, comme c'est souvent le cas avec les bonnes choses, quelqu'un trouve toujours un moyen d'en tirer avantage. Le rognage des pièces est devenu monnaie courante, avec des individus et des gouvernements coupant des portions des pièces pour réduire leur poids en métal précieux tout en tentant de conserver leur valeur nominale originale. Cela a conduit à la première forme de dévaluation monétaire, entraînant de l'inflation.
 
 Pour aggraver les choses, à mesure que le monde devenait plus global, l'or et l'argent devenaient de plus en plus encombrants à transporter et à transiger, surtout pour les marins.
 
 ### Monnaie Papier Adossée aux Métaux
 
-Entrez la monnaie papier adossée aux métaux, une solution aux coûts considérables de transport et aux risques de perte associés aux métaux précieux. Mais, comme nous le verrons, cette solution avait ses propres défis à surmonter.
+Entrez de la monnaie papier adossée aux métaux, une solution aux coûts considérables de transport et aux risques de perte associés aux métaux précieux. Mais, comme nous le verrons, cette solution avait ses propres défis à surmonter.
 
 Nous avons parcouru un long chemin depuis les jours du troc et du commerce de biens. Avec l'avènement des métaux monétaires, nous avions enfin une réserve de valeur stable qui pouvait être utilisée universellement. Mais c'était l'introduction de la monnaie papier adossée aux métaux qui a vraiment révolutionné la manière dont nous effectuons des transactions.
 
@@ -241,17 +259,18 @@ Bien que la monnaie papier adossée aux métaux ait eu son lot de problèmes, sa
 ### Monnaie Fiat
 
 Les monnaies fiat sont la base de notre système monétaire depuis des décennies. Le terme "fiat" est latin pour "qu'il en soit ainsi" et fait référence à l'autorité de l'État pour déclarer une monnaie comme moyen de paiement légal. Contrairement aux monnaies autrefois soutenues par l'or ou d'autres objets de valeur, la valeur fiat provient de la promesse du gouvernement que quelqu'un l'acceptera en échange de biens et services.
+
 Les monnaies fiduciaires sont apparues alors que les pays exprimaient leur frustration vis-à-vis des devises papier adossées à des métaux – les gouvernements devaient obtenir plus d'or pour imprimer plus de billets. Cela représentait un obstacle, donc chaque fois qu'un pays avait besoin de capital, il abandonnait temporairement cette parité et augmentait son offre monétaire. Cette nouvelle devise n'était soutenue que par la confiance dans le gouvernement, du fait qu'elle était considérée comme monnaie légale. Non seulement cela, mais cette nouvelle monnaie dévaluait la monnaie restante en circulation en gonflant l'offre de monnaie, et avec plus de dollars pourchassant la même quantité de biens, les prix augmentaient.
 
 La fin de la monnaie papier adossée à des métaux a commencé à la fin de la Seconde Guerre mondiale. Ayant beaucoup de confiance dans les États-Unis, les leaders mondiaux se sont rencontrés à Bretton Woods, New Hampshire, et ont déterminé que les États-Unis fixeraient leur dollar à l'or et que le reste du monde fixerait sa monnaie au dollar. Cela signifiait que la majeure partie de l'or mondial affluait aux États-Unis pour être conservée en sécurité, épuisant de nombreux pays de leurs réserves d'or domestiques.
 
 En avançant rapidement jusqu'à la fin des années 60 et au début des années 70, les États-Unis, se sentant restreints par leur adossement à l'or, ont commencé à augmenter leur offre monétaire pour financer la guerre au Vietnam. La France n'était pas contente de cela et a exigé son or en retour. Cela a provoqué une ruée vers l'or, et comme les États-Unis avaient imprimé significativement plus de dollars que l'or disponible, ils ont rapidement abandonné cette parité. Cet événement, connu sous le nom de Choc Nixon, signifiait que les individus et les pays ne pouvaient plus échanger leurs dollars contre de l'or. À partir de ce jour, nous avons assisté à la prolifération des monnaies fiduciaires – une monnaie qui n'est soutenue que par la dette et notre confiance dans le gouvernement.
 
-Cependant, l'évolution monétaire ne s'est pas arrêtée là. Avec les progrès de la technologie, la monnaie fiduciaire a continué à évoluer. Aujourd'hui, les transactions numériques sont devenues de plus en plus courantes, avec l'internet banking et les systèmes de paiement numérique comme Visa, Mastercard, Paypal, Square et Venmo devenant la norme.
+Cependant, l'évolution monétaire ne s'est pas arrêtée là. Avec les progrès de la technologie, la monnaie fiduciaire a continué à évoluer. Aujourd'hui, les transactions numériques sont devenues de plus en plus courantes, avec les services bancaires en ligne et les systèmes de paiement numérique comme Visa, Mastercard, Paypal, Square et Venmo devenant la norme.
 
 Et ces dernières années, nous avons assisté à une discussion accrue autour des monnaies numériques de banque centrale (CBDCs), la dernière itération de la monnaie fiduciaire, offrant une version entièrement centralisée et programmable de nos monnaies fiduciaires traditionnelles.
 
-Les CBDCs diffèrent des monnaies fiduciaires auxquelles nous sommes habitués car elles donnent à l'émetteur une visibilité totale sur toutes les transactions et la capacité de décider qui peut et ne peut pas utiliser la monnaie. Les gouvernements et les banques centrales ont été vocaux sur leurs ambitions d'introduire des CBDCs, citant des avantages tels que le contrôle centralisé, l'amélioration de l'efficacité des transactions et la capacité de déposer rapidement des chèques de stimulation.
+Les CBDCs diffèrent des monnaies fiduciaires auxquelles nous sommes habitués car elles donnent à l'émetteur une visibilité totale sur toutes les transactions et la capacité de décider qui peut et ne peut pas utiliser la monnaie. Les gouvernements et les banques centrales ont clairement exprimé leurs ambitions d'introduire des CBDCs, citant des avantages tels que le contrôle centralisé, l'amélioration de l'efficacité des transactions et la capacité de déposer rapidement des chèques de relance.
 
 Bien que les CBDCs offrent de nombreux avantages, ils comportent également certains inconvénients sérieux. Par exemple, les gouvernements pourraient être en mesure de geler arbitrairement des comptes bancaires, de mettre des limites de temps sur notre argent pour promouvoir la consommation et de restreindre avec qui nous pouvons et ne pouvons pas effectuer des transactions.
 
@@ -265,7 +284,8 @@ Dans cet esprit, les individus qui ont assisté à l'érosion du pouvoir d'achat
 
 ### Cryptomonnaies
 
-Imaginez un monde où votre argent pourrait être stocké et échangé numériquement sans aucun besoin d'intermédiaires ou de tiers de confiance. Un monde où l'offre d'argent serait inviolable, rare et entre les mains de la communauté plutôt que des gouvernements ou des banques. C'est le monde que la principale cryptomonnaie, Bitcoin, a créé depuis sa création en 2009.
+Imaginez un monde où votre argent pourrait être stocké et échangé numériquement sans aucun besoin d'intermédiaires ou de tiers de confiance. Un monde où l'offre d'argent serait inviolable, rare et entre les mains de la communauté plutôt que des gouvernements ou des banques. C'est le monde que la principale cryptomonnaie, Bitcoin, a créé depuis son lancement en 2009.
+
 Bitcoin est né de la quête d'un cryptographe pour créer une version nouvelle et améliorée de nos métaux monétaires bien-aimés. Ils recherchaient de l'or numérique, un actif monétaire qui pourrait stocker de la valeur, offrir de la durabilité et être utilisé pour des transactions numériques. Ainsi, Bitcoin est apparu comme le premier actif monétaire numérique, natif et rare à réussir.
 
 Ce qui rend Bitcoin véritablement unique, c'est qu'il s'agit d'un instrument porteur numérique, ce qui signifie qu'il n'y a pas besoin d'intermédiaires ou de tiers de confiance. La politique monétaire est contrôlée par ceux qui participent à l'écosystème, rendant impossible la dilution ou la falsification de la même manière que cela était endémique dans les formes précédentes d'argent. Et comme Bitcoin existe en dehors du contrôle des gouvernements et des banques centrales, il est rapidement adopté comme un système monétaire alternatif car il ne peut pas être manipulé.
@@ -289,7 +309,9 @@ Après avoir examiné les différentes formes d'argent à travers l'histoire, ce
 Tout au long de ce voyage, nous avons exploré l'évolution fascinante de l'argent, retraçant son évolution du troc à notre ère numérique actuelle. Nous avons vu diverses monnaies naître et disparaître, des coquillages et des perles aux métaux précieux et à l'argent fiduciaire.
 
 Cependant, comme nous l'avons vu, le chemin de l'évolution monétaire n'a pas été sans ses défis. La montée du rognage des pièces et de la manipulation des devises, le mouvement vers la centralisation et l'éloignement d'un moyen d'échange généralement accepté ne sont que quelques exemples des obstacles que nous avons rencontrés en cours de route.
+
 Alors que nous avançons vers l'avenir, nous devons nous demander, **comment la manipulation monétaire continuera-t-elle d'affecter notre bien-être financier ?**
+
 Et, bien qu'il soit clair que nous avons privilégié la facilité d'utilisation en passant du troc aux commodités puis aux monnaies numérisées, **devrions-nous repenser les caractéristiques que nous valorisons le plus dans la forme parfaite de l'argent ?**
 
 Ce sont des questions complexes qui nécessitent une considération et une réflexion attentives. Cependant, une chose est claire - l'avenir de l'argent est entre nos mains. Nous avons le pouvoir de façonner notre argent, en garantissant qu'il serve les besoins de la société plutôt que simplement ceux de l'émetteur ou de nos gouvernements.
@@ -317,6 +339,7 @@ Lorsque nous imprimons plus d'argent, nous dévaluons l'argent qui existe déjà
 Pour que les banques centrales renflouent un secteur de l'économie, elles doivent prendre à un autre. Donc, il n'y a pas de déjeuner gratuit.
 
 Et avec l'argent n'étant plus lié à une marchandise telle que l'or, il y a moins de contrôles et d'équilibres que le gouvernement doit suivre, leur donnant plus de pouvoir pour intervenir chaque fois qu'ils le jugent nécessaire. Par exemple, lors de ralentissements économiques comme ceux que nous avons affrontés en 2000, 2008 et 2020, les banques centrales ont pu intervenir à des niveaux jamais vus auparavant. Injectant des billions de dollars frais dans l'économie dans une tentative de stabiliser les marchés financiers.
+
 Cette intervention a coûté cher aux petites entreprises, aux salariés et à la stabilité à long terme de l'économie, car cette augmentation des interventions a conduit à un gonflement de la dette nationale et à une inflation croissante. Ceci, comme vous pouvez l'imaginer, a entraîné une hausse du coût de la vie, rendant plus difficile pour les individus et les familles de se permettre les nécessités de base.
 
 Globalement, la nature centralisée de l'argent aujourd'hui a donné aux banques centrales un degré de pouvoir sans précédent pour intervenir dans l'économie. Bien que cela puisse sembler bénéfique en période de difficultés économiques, cela peut également entraîner des inconvénients significatifs tels que l'augmentation de la dette et de l'inflation. Avec cela à l'esprit, jetons un coup d'œil sous le capot à ces termes apparemment innocents, la dette et l'inflation, et examinons certains de leurs sous-produits.

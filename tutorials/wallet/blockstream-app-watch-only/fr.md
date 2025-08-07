@@ -1,7 +1,8 @@
 ---
-name: 
-description: 
+name: Blockstream App - Watch-Only
+description: Comment configurer un watch-only wallet sur Blockstream App ?
 ---
+
 ![cover](assets/cover.webp)
 ## 1. Introduction
 ### 1.1. Objectif du tutoriel
@@ -23,7 +24,7 @@ description:
 
 ### 1.3. Présentation de la fonctionnalité Watch-Only
 
-Un portefeuille **Watch-Only** (en lecture seule) permet de surveiller les transactions et le solde d’un portefeuille Bitcoin sans avoir accès aux clés privées. Contrairement à un portefeuille classique, il ne stocke que les données publiques, comme la **clé publique étendue** (en anglais "E**x**tended **pub**lic key", ce qui a donné "**xpub**", puis "zpub", "ypub", etc.), qui lui permet d'obtenir les adresses de réception et de suivre l’historique des transactions sur la blockchain Bitcoin. L'absence des clés privées rend impossible toute dépense des fonds depuis l’application, garantissant une sécurité accrue.
+Un portefeuille **Watch-Only** (en lecture seule) permet de surveiller les transactions et le solde d’un portefeuille Bitcoin sans avoir accès aux clés privées. Contrairement à un portefeuille classique, il ne stocke que les données publiques, comme la **clé publique étendue** (en anglais "Extended **public key**", ce qui a donné "**xpub**", puis "zpub", "ypub", etc.), qui lui permet d'obtenir les adresses de réception et de suivre l’historique des transactions sur la blockchain Bitcoin. L'absence des clés privées rend impossible toute dépense des fonds depuis l’application, garantissant une sécurité accrue.
 
 ![image](assets/fr/10.webp)
 
@@ -34,27 +35,29 @@ Un portefeuille **Watch-Only** (en lecture seule) permet de surveiller les trans
 - **Confidentialité** : Compatible avec des options comme **Tor** ou **SPV** pour limiter la dépendance aux serveurs tiers.
 - **Cas d’usage** : Suivi des fonds en déplacement, génération d’adresses pour recevoir des paiements, ou vérification de transactions sans risque pour les clés privées.
 
+![image](assets/fr/01.webp)
+
 ### 1.4. Clés publiques étendues
 
 Une **clé publique étendue** (xpub, ypub, zpub, etc.) est une donnée dérivée d’un portefeuille Bitcoin qui permet de générer toutes les clés publiques enfants et leurs adresses de réception associées, sans donner accès aux clés privées.
 
-- **Fonctionnement** : La clé publique étendue est générée à partir de la seed phrase via un processus déterministe (BIP-32). Elle permet de créer un arbre hiérarchique de clés publiques enfants, chacune pouvant être convertie en une adresse de réception. En utilisant le même chemin de dérivation (par exemple, m/44'/0'/0') que le portefeuille surveillé, le portefeuille Watch-Only génère les mêmes adresses, permettant ainsi de suivre les fonds et de créer de nouvelles adresses de réception.
+- **Fonctionnement** : La clé publique étendue est générée à partir de la seed phrase via un processus déterministe (BIP-32). Elle permet de créer un arbre hiérarchique de clés publiques enfants, chacune pouvant être convertie en une adresse de réception. En utilisant le même chemin de dérivation (par exemple, `m/44'/0'/0'`) que le portefeuille surveillé, le portefeuille Watch-Only génère les mêmes adresses, permettant ainsi de suivre les fonds et de créer de nouvelles adresses de réception.
 
 ![image](assets/fr/11.webp)
 
 - **Types de clés publiques étendues**
-	- **xpub** : Utilisée pour les portefeuilles Legacy (adresses commençant par "1", BIP-44). Compatible avec les anciens portefeuilles Bitcoin.
-	- **ypub** : Conçue pour les portefeuilles SegWit compatibles (adresses commençant par "3", BIP-49). Offre une compatibilité avec les scripts multi-signatures.
-	- **zpub** : Associée aux portefeuilles SegWit natifs (adresses commençant par "bc1", BIP-84). Optimisée pour des frais réduits et une meilleure efficacité.
+	- **xpub** : Utilisée pour les portefeuilles Legacy (adresses commençant par "1", BIP-44) et pour les portefeuilles Taproot (adresses commençant par "bc1p", BIP-86).
+	- **ypub** : Conçue pour les portefeuilles SegWit compatibles (adresses commençant par "3", BIP-49).
+	- **zpub** : Associée aux portefeuilles SegWit natifs (adresses commençant par "bc1q", BIP-84).
 	- **Autres (tpub, upub, vpub, etc.)** : Utilisées pour des réseaux alternatifs (comme Testnet) ou des standards spécifiques. Par exemple, tpub est pour le réseau Testnet.
 
-- **Distinction** : Le choix entre xpub, ypub, ou zpub dépend du type d’adresses (legacy, SegWit, ou native SegWit) et du standard BIP utilisé par le portefeuille. Vérifiez le format requis par votre portefeuille source pour garantir la compatibilité avec Blockstream App.
+- **Distinction** : Le choix entre xpub, ypub, ou zpub dépend du type d’adresses (legacy, SegWit, Taproot ou nested SegWit) et du standard BIP utilisé par le portefeuille. Vérifiez le format requis par votre portefeuille source pour garantir la compatibilité avec Blockstream App.
 
 - **Sécurité et confidentialité** : La clé publique étendue n’est pas sensible en termes de sécurité, car elle ne permet pas de dépenser les fonds (aucun accès aux clés privées). Cependant, elle est sensible pour la confidentialité, car elle révèle toutes les adresses publiques et l’historique des transactions associées.
 
 **Recommandation** : Protégez votre clé publique étendue comme une information sensible.
 
-Plus d'information : voir en annexes.
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Rappels sur les hot wallets
 
@@ -135,7 +138,7 @@ Plus d'information : voir en annexes.
 
 ### 4.1. Récupérer la clé publique étendue
 
-Pour configurer un portefeuille Watch-Only, vous devez d’abord obtenir la clé publique étendue (xpub, ypub, zpub, etc.) du portefeuille à surveiller. Cette information est généralement disponible dans les paramètres ou la section « informations du portefeuille » de votre logiciel ou hardware wallet. 
+Pour configurer un portefeuille Watch-Only, vous devez d’abord obtenir la clé publique étendue (xpub, ypub, zpub, etc.) du portefeuille à surveiller. Cette information est généralement disponible dans les paramètres ou la section "informations du portefeuille" de votre logiciel ou hardware wallet. 
 
 - Exemple avec Blockstream App : Depuis l’écran d’accueil du portefeuille, allez dans "Paramètres", puis "Wallet Details", et copiez la zpub :
 
@@ -184,12 +187,13 @@ Une fois importé, le portefeuille Watch-Only affiche le solde total et l’hist
 - **Envoyer des fonds** : Cliquez sur **"Transact"**, puis **"Envoyer"**. Vous pouvez renseigner :
 	- L’adresse du destinataire. 
 	- Le montant de la transaction.
-	- Les frais de transaction. Cependant, comme le portefeuille Watch-Only ne détient pas les clés privées, vous ne pouvez pas envoyer de fonds directement. Pour signer la transaction, connectez votre hardware wallet ou scannez un QR code généré par celui-ci :
+	- Les frais de transaction.
+
+Cependant, comme le portefeuille Watch-Only ne détient pas les clés privées, vous ne pouvez pas envoyer de fonds directement. Pour signer la transaction, connectez votre hardware wallet ou réalisez l'échange de PSBT en scannant les QR codes (option par exemple disponible sur la Coldcard Q).
 
 ![image](assets/fr/16.webp)
 
 - **Note** : Vérifiez toujours l’adresse de réception et les détails de la transaction pour éviter les erreurs. Les fonds envoyés à une mauvaise adresse sont irrécupérables.
-
 
 
 ## Annexes

@@ -1326,36 +1326,23 @@ Whonix yhdistää Debianin ja Tor-verkon kahden VM:n arkkitehtuurissa (yhdyskäy
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Tämä yleiskuva antaa sinulle yleiskuvan nykyisestä Linux-jakelujen ekosysteemistä, jonka avulla voit valita tekniseen profiiliisi ja tavoitteisiisi parhaiten sopivan jakelun.
-
-
 
 SCU202:n seuraavassa luvussa tarkastelemme lähemmin käytännön Linux-ympäristöä, alkaen graafisista ympäristöistä, jotka muodostavat perustan päivittäiselle vuorovaikutukselle järjestelmän kanssa.
 
-
-
 ## Linux-työpöytäympäristöt
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linux-järjestelmässä työpöytäympäristöllä on yksi tärkeimmistä rooleista käyttäjäkokemuksen kannalta. Se on graafinen Layer, joka mahdollistaa vuorovaikutuksen järjestelmän kanssa ja perustuu tuttuihin visuaalisiin esityksiin: ikkunoihin, valikoihin, kuvakkeisiin, paneeleihin ja esiasennettuihin sovelluksiin.
-
-
 
 Tässä luvussa tarkastelen työpöytäympäristön rakennetta ja roolia, sen tyypillisiä komponentteja, tärkeimpiä saatavilla olevia perheitä, valintaperusteita ja niiden integrointia suosituimpiin Linux-jakeluihin.
 
-
-
 ### Mikä on toimistoympäristö?
 
-
-
 Työpöytäympäristöllä (tai *DE*, *Desktop Environment*) tarkoitetaan ohjelmia, jotka muodostavat käyttöjärjestelmän koko graafisen Interface:n. Windowsissa ja macOS:ssä tarjotaan oletusarvoisesti yksi työpöytäympäristö, joka on integroitu järjestelmään, eikä sitä ole mahdollista muuttaa kokonaan (vain tietyillä kuorilla on mahdollista muuttaa Interface:ää osittain). Linux-järjestelmät sen sijaan ovat paljon modulaarisempia, ja niissä työpöytäympäristöä pidetään itsenäisenä komponenttina, joka voidaan vaihtaa vapaasti.
-
-
 
 Linuxissa on tärkeää erottaa selvästi toisistaan kaikki kerrokset: ydin (joka hallinnoi vuorovaikutusta laitteiston kanssa), näyttöpalvelin (joka toimii välittäjänä sovellusten, grafiikka-ajurien ja laitteiston välillä ytimen kautta) ja lopuksi itse työpöytäympäristö, joka tukeutuu tähän infrastruktuuriin tarjotakseen käyttäjälle johdonmukaisen graafisen Interface:n. Tämä infrastruktuuri on myös tärkeä osa työpöytäympäristöä. Tämä ero voi joskus olla epäselvä, sillä monissa Linux-jakeluissa on esiasennettu työpöytäympäristö, joka joskus sisältää oman Wayland-sävellystoiminnon, joka toimii näyttöpalvelimena.
 

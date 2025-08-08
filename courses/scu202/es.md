@@ -1326,36 +1326,23 @@ Whonix combina Debian con la red Tor en una arquitectura de dos VM (pasarela + e
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Este panorama le ofrece una visión general del ecosistema actual de distribuciones Linux, lo que le permitirá seleccionar la distribución que mejor se adapte a su perfil técnico y a sus objetivos.
-
-
 
 En el próximo capítulo de SCU202, echaremos un vistazo más de cerca al entorno Linux práctico, empezando por los entornos gráficos que forman la base de tus interacciones diarias con el sistema.
 
-
-
 ## Entornos de escritorio Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es el Layer gráfico que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
-
-
 
 En este capítulo, exploraré la estructura y el papel de un entorno de escritorio, sus componentes típicos, las principales familias disponibles, los criterios de selección y su integración en las distribuciones Linux más populares.
 
-
-
 ### ¿Qué es un entorno de oficina?
 
-
-
 Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el Interface gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
-
-
 
 En Linux, es importante distinguir claramente entre todas las capas: el núcleo (que gestiona la interacción con el hardware), el servidor de pantalla (que actúa como intermediario entre las aplicaciones, los controladores gráficos y el hardware a través del núcleo) y, por último, el propio entorno de escritorio, que se basa en esta infraestructura para ofrecer un Interface gráfico coherente al usuario. Esta distinción a veces puede ser menos clara, ya que muchas distribuciones de Linux vienen con un entorno de escritorio preinstalado que a veces incluye su propio compositor Wayland, que luego actúa como servidor de pantalla.
 

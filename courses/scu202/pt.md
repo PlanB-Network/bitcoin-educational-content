@@ -1326,36 +1326,23 @@ O Whonix combina o Debian com a rede Tor em uma arquitetura de duas VMs (gateway
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Este panorama dá-lhe uma visão geral do atual ecossistema de distribuições Linux, permitindo-lhe selecionar a distribuição mais adequada ao seu perfil técnico e aos seus objectivos.
-
-
 
 No próximo capítulo do SCU202, vamos analisar mais de perto o ambiente prático do Linux, começando pelos ambientes gráficos que formam a base das suas interações diárias com o sistema.
 
-
-
 ## Ambientes de ambiente de trabalho Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Num sistema GNU/Linux, o ambiente de trabalho desempenha um dos papéis mais importantes na sua experiência de utilizador. É o Layer gráfico que permite a interação com o sistema, baseado em representações visuais familiares: janelas, menus, ícones, painéis e aplicações pré-instaladas.
-
-
 
 Neste capítulo, vou explorar a estrutura e o papel de um ambiente de trabalho, os seus componentes típicos, as principais famílias disponíveis, os critérios de seleção e a sua integração nas distribuições Linux mais populares.
 
-
-
 ### O que é um ambiente de escritório?
 
-
-
 Um ambiente de trabalho (ou "*DE*" para *Desktop Environment*) refere-se ao conjunto de programas que constituem o Interface gráfico completo de um sistema operativo. No Windows e no macOS, um único ambiente de trabalho é oferecido por padrão, integrado ao sistema, sem possibilidade de modificá-lo totalmente (existem apenas alguns shells para modificar parcialmente o Interface). Os sistemas Linux, por outro lado, são muito mais modulares, tratando o ambiente de trabalho como um componente independente que pode ser livremente substituído.
-
-
 
 No Linux, é importante distinguir claramente entre todas as camadas: o kernel (que gere a interação com o hardware), o servidor de visualização (que actua como intermediário entre aplicações, controladores gráficos e hardware através do kernel) e, finalmente, o próprio ambiente de trabalho, que se baseia nesta infraestrutura para fornecer um Interface gráfico coerente ao utilizador. Esta distinção pode, por vezes, ser menos clara, uma vez que muitas distribuições Linux vêm com um ambiente de trabalho pré-instalado que, por vezes, inclui o seu próprio compositor Wayland, que actua como um servidor de visualização.
 

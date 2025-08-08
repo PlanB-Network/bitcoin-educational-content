@@ -658,6 +658,8 @@ Whonix combine Debian avec le réseau Tor dans une architecture en deux VM (pass
 
 ![Image](assets/fr/037.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes.
 
 Dans le prochain chapitre de SCU 202, nous allons étudier plus précisément l’environnement pratique de Linux, en commençant par les environnements graphiques qui représentent la base de vos interactions quotidiennes avec le système.

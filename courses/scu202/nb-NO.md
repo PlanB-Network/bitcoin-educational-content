@@ -1326,36 +1326,23 @@ Whonix kombinerer Debian med Tor-nettverket i en to-VM-arkitektur (gateway + arb
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dette panoramaet gir deg en oversikt over det nåværende økosystemet for Linux-distribusjoner, slik at du kan velge den distribusjonen som passer best til din tekniske profil og dine mål.
-
-
 
 I neste kapittel av SCU202 skal vi se nærmere på det praktiske Linux-miljøet, og vi begynner med de grafiske miljøene som danner grunnlaget for den daglige interaksjonen med systemet.
 
-
-
 ## Linux-skrivebordsmiljøer
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 I et GNU/Linux-system spiller skrivebordsmiljøet en av de viktigste rollene i brukeropplevelsen. Det er det grafiske Layer som muliggjør interaksjon med systemet, basert på kjente visuelle representasjoner: vinduer, menyer, ikoner, paneler og forhåndsinstallerte programmer.
-
-
 
 I dette kapittelet skal jeg se nærmere på strukturen og rollen til et skrivebordsmiljø, dets typiske komponenter, de viktigste tilgjengelige familiene, utvalgskriterier og integrasjon i de mest populære Linux-distribusjonene.
 
-
-
 ### Hva er et kontormiljø?
 
-
-
 Et skrivebordsmiljø (eller "*DE*" for *Desktop Environment*) refererer til det settet av programmer som utgjør den komplette grafiske Interface i et operativsystem. I Windows og macOS tilbys ett enkelt skrivebordsmiljø som standard, integrert i systemet, uten mulighet til å endre det helt (det finnes bare visse skall som delvis kan endre Interface). Linux-systemer er derimot langt mer modulære, og behandler skrivebordsmiljøet som en uavhengig komponent som fritt kan byttes ut.
-
-
 
 I Linux er det viktig å skille tydelig mellom alle lagene: kjernen (som håndterer interaksjonen med maskinvaren), skjermserveren (som fungerer som et mellomledd mellom applikasjoner, grafikkdrivere og maskinvare via kjernen), og til slutt selve skrivebordsmiljøet, som er avhengig av denne infrastrukturen for å levere en sammenhengende grafisk Interface til brukeren. Dette skillet kan noen ganger være mindre klart, ettersom mange Linux-distribusjoner leveres med et forhåndsinstallert skrivebordsmiljø som noen ganger inkluderer sin egen Wayland-kompositor, som da fungerer som en skjermserver.
 

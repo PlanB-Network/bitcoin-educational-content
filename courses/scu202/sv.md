@@ -1326,36 +1326,23 @@ Whonix kombinerar Debian med Tor-nätverket i en två-VM-arkitektur (gateway + a
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Detta panorama ger dig en överblick över det nuvarande ekosystemet för Linux-distributioner, så att du kan välja den distribution som passar bäst för din tekniska profil och dina mål.
-
-
 
 I nästa kapitel av SCU202 tittar vi närmare på den praktiska Linux-miljön, och börjar med de grafiska miljöer som utgör grunden för din dagliga interaktion med systemet.
 
-
-
 ## Linux skrivbordsmiljöer
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 I ett GNU/Linux-system spelar skrivbordsmiljön en av de viktigaste rollerna i din användarupplevelse. Det är den grafiska Layer som gör det möjligt att interagera med systemet, baserat på välbekanta visuella representationer: fönster, menyer, ikoner, paneler och förinstallerade program.
-
-
 
 I det här kapitlet går jag igenom skrivbordsmiljöns struktur och roll, dess typiska komponenter, de viktigaste tillgängliga familjerna, urvalskriterier och hur de integreras i de mest populära Linux-distributionerna.
 
-
-
 ### Vad är en kontorsmiljö?
 
-
-
 En skrivbordsmiljö (eller "*DE*" för *Desktop Environment*) avser den uppsättning program som utgör den kompletta grafiska Interface i ett operativsystem. I Windows och macOS erbjuds en enda skrivbordsmiljö som standard, integrerad i systemet, utan möjlighet att ändra den helt och hållet (endast vissa skal finns för att delvis ändra Interface). Linux-system är å andra sidan mycket mer modulära och behandlar skrivbordsmiljön som en oberoende komponent som fritt kan bytas ut.
-
-
 
 I Linux är det viktigt att tydligt skilja mellan alla lager: kärnan (som hanterar interaktionen med hårdvaran), displayservern (som fungerar som en mellanhand mellan applikationer, grafikdrivrutiner och hårdvara via kärnan) och slutligen själva skrivbordsmiljön, som förlitar sig på denna infrastruktur för att leverera en sammanhängande grafisk Interface till användaren. Denna distinktion kan ibland vara mindre tydlig, eftersom många Linux-distributioner levereras med en förinstallerad skrivbordsmiljö som ibland innehåller sin egen Wayland-kompositör, som sedan fungerar som en displayserver.
 

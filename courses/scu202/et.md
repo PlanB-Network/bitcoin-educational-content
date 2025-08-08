@@ -1326,36 +1326,23 @@ Whonix kombineerib Debianit ja Tor-võrku kahe VM-i arhitektuuris (värav + tö�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 See panoraam annab teile ülevaate praegusest Linuxi distributsioonide ökosüsteemist, mis võimaldab teil valida oma tehnilisele profiilile ja eesmärkidele kõige paremini sobivaima distributsiooni.
-
-
 
 SCU202 järgmises peatükis vaatleme lähemalt praktilist Linuxi keskkonda, alustades graafilistest keskkondadest, mis on teie igapäevase suhtluse aluseks.
 
-
-
 ## Linuxi töölauakeskkonnad
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linuxi süsteemis mängib töölauakeskkond kasutajakogemuses üht kõige olulisemat rolli. See on graafiline Layer, mis võimaldab süsteemiga suhtlemist, mis põhineb tuttavatel visuaalsetel kujutistel: aknad, menüüd, ikoonid, paneelid ja eelinstalleeritud rakendused.
-
-
 
 Selles peatükis uurin töölauakeskkonna struktuuri ja rolli, selle tüüpilisi komponente, peamisi olemasolevaid perekondi, valikukriteeriume ja nende integreerimist kõige populaarsematesse Linuxi distributsioonidesse.
 
-
-
 ### Mis on kontorikeskkond?
 
-
-
 Töölauakeskkond (või "*DE*" nagu *Desktop Environment*) viitab programmide kogumile, mis moodustab operatsioonisüsteemi täieliku graafilise Interface. Windowsis ja macOSis pakutakse vaikimisi ühte töölauakeskkonda, mis on integreeritud süsteemi, ilma et seda saaks täielikult muuta (ainult teatud kestad on olemas Interface osaliseks muutmiseks). Linuxi süsteemid seevastu on palju modulaarsemad, käsitledes töölauakeskkonda iseseisva komponendina, mida saab vabalt asendada.
-
-
 
 Linuxi puhul on oluline selgelt eristada kõiki kihte: tuuma (mis haldab suhtlust riistvaraga), kuvaserverit (mis toimib vahendajana rakenduste, graafikadraiverite ja riistvara vahel tuuma kaudu) ja lõpuks töölaua keskkonda ennast, mis tugineb sellele infrastruktuurile, et pakkuda kasutajale ühtset graafilist Interface. See eristamine võib mõnikord olla vähem selge, kuna paljud Linuxi distributsioonid tulevad koos eelinstalleeritud töölauakeskkonnaga, mis mõnikord sisaldab oma Wayland kompositori, mis siis tegutseb kuvaserverina.
 

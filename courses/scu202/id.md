@@ -1326,36 +1326,23 @@ Whonix menggabungkan Debian dengan jaringan Tor dalam arsitektur dua-VM (gateway
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Panorama ini memberikan gambaran umum tentang ekosistem distribusi Linux saat ini, sehingga Anda dapat memilih distribusi yang paling sesuai dengan profil teknis dan tujuan Anda.
-
-
 
 Pada bab berikutnya dari SCU202, kita akan melihat lebih dekat pada lingkungan Linux yang praktis, dimulai dengan lingkungan grafis yang menjadi dasar interaksi Anda sehari-hari dengan sistem.
 
-
-
 ## Lingkungan desktop Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Dalam sistem GNU/Linux, lingkungan desktop memainkan salah satu peran terpenting dalam pengalaman pengguna Anda. Ini adalah Layer grafis yang memungkinkan interaksi dengan sistem, berdasarkan representasi visual yang sudah dikenal: jendela, menu, ikon, panel, dan aplikasi yang sudah terinstal.
-
-
 
 Pada bab ini, saya akan menjelajahi struktur dan peran lingkungan desktop, komponen-komponennya yang khas, keluarga utama yang tersedia, kriteria pemilihan, dan integrasinya ke dalam distribusi Linux yang paling populer.
 
-
-
 ### Apa yang dimaksud dengan lingkungan kantor?
 
-
-
 Lingkungan desktop (atau "*DE*" untuk *Desktop Environment*) mengacu pada sekumpulan program yang membentuk Interface grafis lengkap dari sebuah sistem operasi. Pada Windows dan macOS, satu lingkungan desktop ditawarkan secara default, terintegrasi ke dalam sistem, tanpa kemungkinan untuk memodifikasinya secara keseluruhan (hanya shell tertentu yang dapat memodifikasi sebagian Interface). Sistem Linux, di sisi lain, jauh lebih modular, memperlakukan lingkungan desktop sebagai komponen independen yang dapat diganti secara bebas.
-
-
 
 Di Linux, penting untuk membedakan dengan jelas antara semua lapisan: kernel (yang mengelola interaksi dengan perangkat keras), server tampilan (yang bertindak sebagai perantara antara aplikasi, driver grafis, dan perangkat keras melalui kernel), dan akhirnya lingkungan desktop itu sendiri, yang mengandalkan infrastruktur ini untuk memberikan Interface grafis yang koheren kepada pengguna. Perbedaan ini terkadang kurang jelas, karena banyak distribusi Linux yang dilengkapi dengan lingkungan desktop yang sudah terinstal yang terkadang menyertakan komposer Wayland-nya sendiri, yang kemudian bertindak sebagai server tampilan.
 

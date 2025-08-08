@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workst
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ova panorama vam daje pregled trenutnog ekosistema Linux distribucija, omogućavajući vam da odaberete distribuciju koja najbolje odgovara vašem tehničkom profilu i ciljevima.
-
-
 
 U sledećem poglavlju SCU202, detaljnije ćemo razmotriti praktično Linux okruženje, počevši od grafičkih okruženja koja čine osnovu vaših svakodnevnih interakcija sa sistemom.
 
-
-
 ## Linux desktop okruženja
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički Layer koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
-
-
 
 U ovom poglavlju istražujem strukturu i ulogu desktop okruženja, njegove tipične komponente, glavne dostupne porodice, kriterijume za odabir i njihovu integraciju u najpopularnije Linux distribucije.
 
-
-
 ### Šta je kancelarijsko okruženje?
 
-
-
 Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički Interface operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske za delimičnu modifikaciju Interface). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
-
-
 
 U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera preko kernela), i na kraju sam desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički Interface. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
 

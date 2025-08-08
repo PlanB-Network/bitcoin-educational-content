@@ -1326,36 +1326,23 @@ Whonix inachanganya Debian na mtandao wa Tor katika usanifu wa VM mbili (lango +
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Panorama hii inakupa muhtasari wa mfumo wa sasa wa usambazaji wa Linux, kukuwezesha kuchagua usambazaji unaofaa zaidi kwa wasifu na malengo yako ya kiufundi.
-
-
 
 Katika sura inayofuata ya SCU202, tutaangalia kwa karibu zaidi mazingira ya vitendo ya Linux, tukianza na mazingira ya picha ambayo yanaunda msingi wa mwingiliano wako wa kila siku na mfumo.
 
-
-
 ## Mazingira ya eneo-kazi la Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Katika mfumo wa GNU/Linux, mazingira ya eneo-kazi hucheza mojawapo ya majukumu muhimu katika matumizi yako ya mtumiaji. Ni mchoro wa Layer unaowezesha mwingiliano na mfumo, kulingana na uwakilishi unaoonekana unaojulikana: madirisha, menyu, ikoni, paneli na programu zilizosakinishwa awali.
-
-
 
 Katika sura hii, nitakuwa nikichunguza muundo na jukumu la mazingira ya eneo-kazi, vipengele vyake vya kawaida, familia kuu zinazopatikana, vigezo vya uteuzi na ushirikiano wao katika usambazaji maarufu zaidi wa Linux.
 
-
-
 ### Mazingira ya ofisi ni nini?
 
-
-
 Mazingira ya eneo-kazi (au "*DE*" kwa *Mazingira ya Eneo-kazi*) hurejelea seti ya programu zinazounda kielelezo kamili cha Interface cha mfumo wa uendeshaji. Kwenye Windows na macOS, mazingira ya eneo-kazi moja hutolewa kwa chaguo-msingi, kuunganishwa kwenye mfumo, bila uwezekano wa kurekebisha kabisa (tu shells fulani zipo ili kurekebisha sehemu ya Interface). Mifumo ya Linux, kwa upande mwingine, ni ya kawaida zaidi, ikichukulia mazingira ya eneo-kazi kama sehemu inayojitegemea ambayo inaweza kubadilishwa kwa uhuru.
-
-
 
 Katika Linux, ni muhimu kutofautisha kwa uwazi kati ya tabaka zote: kernel (ambayo inasimamia mwingiliano na maunzi), seva ya kuonyesha (ambayo hufanya kazi kama mpatanishi kati ya programu, viendeshi vya michoro, na maunzi kupitia kernel), na hatimaye mazingira ya eneo-kazi yenyewe, ambayo inategemea miundombinu hii kutoa mchoro madhubuti wa Interface kwa mtumiaji. Tofauti hii wakati mwingine inaweza kuwa wazi kidogo, kwani usambazaji mwingi wa Linux huja na mazingira ya eneo-kazi yaliyosakinishwa awali ambayo wakati mwingine hujumuisha mtunzi wake wa Wayland, ambaye kisha hufanya kama seva ya kuonyesha.
 

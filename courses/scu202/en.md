@@ -990,28 +990,23 @@ Whonix combines Debian with the Tor network in a two-VM architecture (gateway + 
 ![Image](assets/fr/037.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 This panorama gives you an overview of the current Linux distribution ecosystem, enabling you to select the distribution best suited to your technical profile and objectives.
 
-
 In the next chapter of SCU202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
-
 
 ## Linux desktop environments
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
 In a GNU/Linux system, the desktop environment plays one of the most important roles in your user experience. It is the graphical layer that enables interaction with the system, based on familiar visual representations: windows, menus, icons, panels and pre-installed applications.
-
 
 In this chapter, I'll be exploring the structure and role of a desktop environment, its typical components, the main families available, selection criteria and their integration into the most popular Linux distributions.
 
-
 ### What's an office environment?
 
-
 A desktop environment (or "*DE*" for *Desktop Environment*) refers to the set of programs that make up the complete graphical interface of an operating system. On Windows and macOS, a single desktop environment is offered by default, integrated into the system, with no possibility of modifying it entirely (only certain shells exist to partially modify the interface). Linux systems, on the other hand, are far more modular, treating the desktop environment as an independent component that can be freely replaced.
-
 
 In Linux, it's important to clearly distinguish between all the layers: the kernel (which manages interaction with the hardware), the display server (which acts as an intermediary between applications, graphics drivers, and hardware via the kernel), and finally the desktop environment itself, which relies on this infrastructure to deliver a coherent graphical interface to the user. This distinction can sometimes be less clear, as many Linux distributions come with a pre-installed desktop environment that sometimes includes its own Wayland compositor, which then acts as a display server.
 

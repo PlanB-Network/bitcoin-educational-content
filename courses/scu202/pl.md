@@ -1326,36 +1326,23 @@ Whonix łączy Debiana z siecią Tor w architekturze dwóch maszyn wirtualnych (
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ta panorama daje przegląd obecnego ekosystemu dystrybucji Linuksa, umożliwiając wybór dystrybucji najlepiej dopasowanej do profilu technicznego i celów.
-
-
 
 W następnym rozdziale SCU202 przyjrzymy się bliżej praktycznemu środowisku Linuksa, zaczynając od środowisk graficznych, które stanowią podstawę codziennych interakcji z systemem.
 
-
-
 ## Środowiska graficzne Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 W systemie GNU/Linux środowisko graficzne odgrywa jedną z najważniejszych ról w doświadczeniu użytkownika. Jest to graficzny Layer, który umożliwia interakcję z systemem, w oparciu o znane wizualne reprezentacje: okna, menu, ikony, panele i preinstalowane aplikacje.
-
-
 
 W tym rozdziale zbadam strukturę i rolę środowiska graficznego, jego typowe komponenty, główne dostępne rodziny, kryteria wyboru i ich integrację z najpopularniejszymi dystrybucjami Linuksa.
 
-
-
 ### Co to jest środowisko biurowe?
 
-
-
 Środowisko graficzne (lub "*DE*" od *Desktop Environment*) odnosi się do zestawu programów, które tworzą kompletny graficzny Interface systemu operacyjnego. W systemach Windows i macOS domyślnie oferowane jest jedno środowisko graficzne, zintegrowane z systemem, bez możliwości jego całkowitej modyfikacji (istnieją tylko niektóre powłoki do częściowej modyfikacji Interface). Z drugiej strony systemy Linux są znacznie bardziej modułowe, traktując środowisko graficzne jako niezależny komponent, który można dowolnie wymieniać.
-
-
 
 W Linuksie ważne jest wyraźne rozróżnienie między wszystkimi warstwami: jądrem (które zarządza interakcją ze sprzętem), serwerem wyświetlania (który działa jako pośrednik między aplikacjami, sterownikami graficznymi i sprzętem za pośrednictwem jądra), a wreszcie samym środowiskiem graficznym, które opiera się na tej infrastrukturze, aby zapewnić użytkownikowi spójny graficzny Interface. Rozróżnienie to może być czasami mniej wyraźne, ponieważ wiele dystrybucji Linuksa jest dostarczanych z preinstalowanym środowiskiem graficznym, które czasami zawiera własny kompozytor Wayland, który następnie działa jako serwer wyświetlania.
 

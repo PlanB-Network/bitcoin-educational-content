@@ -1326,36 +1326,23 @@ Whonix kombiniert Debian mit dem Tor-Netzwerk in einer Zwei-VM-Architektur (Gate
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dieses Panorama gibt Ihnen einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es Ihnen, die für Ihr technisches Profil und Ihre Ziele am besten geeignete Distribution auszuwählen.
-
-
 
 Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für Ihre täglichen Interaktionen mit dem System bilden.
 
-
-
 ## Linux-Desktop-Umgebungen
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In einem GNU/Linux-System spielt die Desktop-Umgebung eine der wichtigsten Rollen in Ihrem Benutzererlebnis. Sie ist die grafische Layer, die die Interaktion mit dem System auf der Grundlage vertrauter visueller Darstellungen ermöglicht: Fenster, Menüs, Symbole, Bedienfelder und vorinstallierte Anwendungen.
-
-
 
 In diesem Kapitel werde ich den Aufbau und die Rolle einer Desktop-Umgebung, ihre typischen Komponenten, die wichtigsten verfügbaren Familien, Auswahlkriterien und ihre Integration in die beliebtesten Linux-Distributionen untersuchen.
 
-
-
 ### Was ist eine Büroumgebung?
 
-
-
 Eine Desktop-Umgebung (oder "*DE*" für *Desktop Environment*) bezieht sich auf den Satz von Programmen, die die vollständige grafische Interface eines Betriebssystems bilden. Unter Windows und macOS wird standardmäßig eine einzige Desktop-Umgebung angeboten, die in das System integriert ist und nicht vollständig verändert werden kann (es gibt nur bestimmte Shells, um den Interface teilweise zu verändern). Linux-Systeme hingegen sind weitaus modularer und behandeln die Desktop-Umgebung als unabhängige Komponente, die frei ersetzt werden kann.
-
-
 
 Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Kernel (der die Interaktion mit der Hardware verwaltet), dem Anzeigeserver (der über den Kernel als Vermittler zwischen Anwendungen, Grafiktreibern und Hardware fungiert) und schließlich der Desktop-Umgebung selbst, die sich auf diese Infrastruktur stützt, um dem Benutzer eine kohärente grafische Interface zu liefern. Diese Unterscheidung kann manchmal weniger klar sein, da viele Linux-Distributionen mit einer vorinstallierten Desktop-Umgebung geliefert werden, die manchmal ihren eigenen Wayland-Compositor enthält, der dann als Display-Server fungiert.
 

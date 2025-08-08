@@ -1326,36 +1326,23 @@ Whonix combina Debian con la rete Tor in un'architettura a due VM (gateway + wor
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Questo panorama offre una panoramica dell'attuale ecosistema delle distribuzioni Linux, consentendovi di scegliere la distribuzione più adatta al vostro profilo tecnico e ai vostri obiettivi.
-
-
 
 Nel prossimo capitolo di SCU202, daremo un'occhiata più da vicino all'ambiente pratico di Linux, iniziando dagli ambienti grafici che costituiscono la base delle interazioni quotidiane con il sistema.
 
-
-
 ## Ambienti desktop Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In un sistema GNU/Linux, l'ambiente desktop svolge uno dei ruoli più importanti nell'esperienza dell'utente. È la Layer grafica che consente l'interazione con il sistema, basata su rappresentazioni visive familiari: finestre, menu, icone, pannelli e applicazioni preinstallate.
-
-
 
 In questo capitolo esplorerò la struttura e il ruolo di un ambiente desktop, i suoi componenti tipici, le principali famiglie disponibili, i criteri di scelta e la loro integrazione nelle distribuzioni Linux più diffuse.
 
-
-
 ### Cos'è un ambiente d'ufficio?
 
-
-
 Un ambiente desktop (o "*DE*" per *Desktop Environment*) si riferisce all'insieme di programmi che costituiscono l'intera Interface grafica di un sistema operativo. Su Windows e macOS viene offerto di default un unico ambiente desktop, integrato nel sistema, senza possibilità di modificarlo interamente (esistono solo alcune shell per modificare parzialmente il Interface). I sistemi Linux, invece, sono molto più modulari e trattano l'ambiente desktop come un componente indipendente che può essere liberamente sostituito.
-
-
 
 In Linux è importante distinguere chiaramente tra tutti i livelli: il kernel (che gestisce l'interazione con l'hardware), il display server (che funge da intermediario tra le applicazioni, i driver grafici e l'hardware attraverso il kernel) e infine l'ambiente desktop stesso, che si basa su questa infrastruttura per offrire all'utente un Interface grafico coerente. Questa distinzione a volte può essere meno chiara, in quanto molte distribuzioni Linux sono dotate di un ambiente desktop preinstallato che a volte include il proprio compositor Wayland, che agisce quindi come display server.
 

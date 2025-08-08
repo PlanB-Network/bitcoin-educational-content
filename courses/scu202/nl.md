@@ -1326,36 +1326,23 @@ Whonix combineert Debian met het Tor netwerk in een twee-VM architectuur (gatewa
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dit panorama geeft je een overzicht van het huidige ecosysteem van Linux-distributies, zodat je de distributie kunt kiezen die het beste past bij je technische profiel en doelstellingen.
-
-
 
 In het volgende hoofdstuk van SCU202 gaan we dieper in op de praktische Linux-omgeving, te beginnen met de grafische omgevingen die de basis vormen van je dagelijkse interacties met het systeem.
 
-
-
 ## Linux bureaubladomgevingen
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In een GNU/Linux systeem speelt de bureaubladomgeving een van de belangrijkste rollen in je gebruikerservaring. Het is de grafische Layer die interactie met het systeem mogelijk maakt, gebaseerd op bekende visuele representaties: vensters, menu's, pictogrammen, panelen en voorgeïnstalleerde applicaties.
-
-
 
 In dit hoofdstuk verken ik de structuur en rol van een desktopomgeving, de typische componenten, de belangrijkste beschikbare families, selectiecriteria en hun integratie in de populairste Linux distributies.
 
-
-
 ### Wat is een kantooromgeving?
 
-
-
 Een desktopomgeving (of "*DE*" voor *Desktop Environment*) verwijst naar de verzameling programma's die de volledige grafische Interface van een besturingssysteem vormen. Op Windows en macOS wordt standaard een enkele desktopomgeving aangeboden, geïntegreerd in het systeem, zonder mogelijkheid om deze volledig aan te passen (alleen bepaalde shells bestaan om de Interface gedeeltelijk aan te passen). Linux systemen zijn daarentegen veel modulairder en behandelen de desktopomgeving als een onafhankelijke component die vrij kan worden vervangen.
-
-
 
 In Linux is het belangrijk om een duidelijk onderscheid te maken tussen alle lagen: de kernel (die de interactie met de hardware beheert), de displayserver (die als tussenpersoon fungeert tussen applicaties, grafische stuurprogramma's en hardware via de kernel) en tot slot de desktopomgeving zelf, die op deze infrastructuur vertrouwt om een samenhangende grafische Interface aan de gebruiker te leveren. Dit onderscheid kan soms minder duidelijk zijn, omdat veel Linux distributies geleverd worden met een voorgeïnstalleerde desktop omgeving die soms zijn eigen Wayland compositor bevat, die dan als een display server fungeert.
 

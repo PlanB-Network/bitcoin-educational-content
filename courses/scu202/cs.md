@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian se sítí Tor v architektuře dvou virtuálních počít
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toto panorama vám poskytne přehled o současném ekosystému linuxových distribucí a umožní vám vybrat si distribuci, která nejlépe vyhovuje vašemu technickému profilu a cílům.
-
-
 
 V další kapitole SCU202 se blíže podíváme na praktické prostředí systému Linux, počínaje grafickými prostředími, která tvoří základ každodenní interakce se systémem.
 
-
-
 ## Prostředí Linuxu
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 V systému GNU/Linux hraje prostředí pracovní plochy jednu z nejdůležitějších rolí v uživatelském prostředí. Je to grafické prostředí Layer, které umožňuje interakci se systémem na základě známých vizuálních reprezentací: oken, nabídek, ikon, panelů a předinstalovaných aplikací.
-
-
 
 V této kapitole se budu zabývat strukturou a úlohou desktopového prostředí, jeho typickými součástmi, hlavními dostupnými rodinami, kritérii výběru a jejich integrací do nejoblíbenějších linuxových distribucí.
 
-
-
 ### Co je to kancelářské prostředí?
 
-
-
 Prostředí pracovní plochy (nebo "*DE*" jako *Prostředí pracovní plochy*) označuje sadu programů, které tvoří kompletní grafické prostředí Interface operačního systému. V systémech Windows a macOS je ve výchozím nastavení nabízeno jediné desktopové prostředí integrované do systému bez možnosti jej zcela upravit (existují pouze určité shelly, které umožňují částečnou úpravu Interface). Naproti tomu systémy Linux jsou mnohem modulárnější a považují desktopové prostředí za nezávislou součást, kterou lze libovolně vyměňovat.
-
-
 
 V Linuxu je důležité jasně rozlišovat mezi všemi vrstvami: jádrem (které spravuje interakci s hardwarem), zobrazovacím serverem (který funguje jako prostředník mezi aplikacemi, grafickými ovladači a hardwarem prostřednictvím jádra) a nakonec samotným grafickým prostředím, které se spoléhá na tuto infrastrukturu a poskytuje uživateli ucelenou grafickou aplikaci Interface. Toto rozlišení může být někdy méně jasné, protože mnoho linuxových distribucí je dodáváno s předinstalovaným desktopovým prostředím, které někdy obsahuje vlastní kompozitor Wayland, který pak funguje jako zobrazovací server.
 

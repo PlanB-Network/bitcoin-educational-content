@@ -1326,36 +1326,23 @@ Whonix kết hợp Debian với mạng Tor trong kiến trúc hai máy ảo (gat
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toàn cảnh này cung cấp cho bạn cái nhìn tổng quan về hệ sinh thái phân phối Linux hiện tại, cho phép bạn lựa chọn bản phân phối phù hợp nhất với mục tiêu và hồ sơ kỹ thuật của mình.
-
-
 
 Trong chương tiếp theo của SCU202, chúng ta sẽ xem xét kỹ hơn môi trường Linux thực tế, bắt đầu với môi trường đồ họa tạo thành nền tảng cho các tương tác hàng ngày của bạn với hệ thống.
 
-
-
 ## Môi trường máy tính để bàn Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Trong hệ thống GNU/Linux, môi trường desktop đóng một trong những vai trò quan trọng nhất trong trải nghiệm người dùng. Chính Layer đồ họa cho phép tương tác với hệ thống, dựa trên các biểu diễn trực quan quen thuộc: cửa sổ, menu, biểu tượng, bảng điều khiển và các ứng dụng được cài đặt sẵn.
-
-
 
 Trong chương này, tôi sẽ khám phá cấu trúc và vai trò của môi trường máy tính để bàn, các thành phần điển hình, các họ chính có sẵn, tiêu chí lựa chọn và cách tích hợp chúng vào các bản phân phối Linux phổ biến nhất.
 
-
-
 ### Môi trường văn phòng là gì?
 
-
-
 Môi trường máy tính để bàn (hay "*DE*" viết tắt của *Môi trường Máy tính để bàn*) là tập hợp các chương trình tạo nên Interface đồ họa hoàn chỉnh của một hệ điều hành. Trên Windows và macOS, một môi trường máy tính để bàn duy nhất được cung cấp theo mặc định, được tích hợp vào hệ thống, không có khả năng chỉnh sửa toàn bộ (chỉ có một số shell nhất định có thể chỉnh sửa một phần Interface). Mặt khác, các hệ thống Linux mang tính mô-đun hơn nhiều, coi môi trường máy tính để bàn như một thành phần độc lập có thể được thay thế tự do.
-
-
 
 Trong Linux, điều quan trọng là phải phân biệt rõ ràng giữa tất cả các lớp: nhân (quản lý tương tác với phần cứng), máy chủ hiển thị (đóng vai trò trung gian giữa các ứng dụng, trình điều khiển đồ họa và phần cứng thông qua nhân), và cuối cùng là môi trường máy tính để bàn, dựa trên cơ sở hạ tầng này để cung cấp giao diện đồ họa Interface nhất quán cho người dùng. Sự phân biệt này đôi khi có thể không rõ ràng, vì nhiều bản phân phối Linux được cài đặt sẵn một môi trường máy tính để bàn, đôi khi bao gồm cả trình soạn thảo Wayland riêng, sau đó hoạt động như một máy chủ hiển thị.
 

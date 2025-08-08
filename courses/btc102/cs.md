@@ -2350,7 +2350,7 @@ Několik osvědčených postupů:
 Chcete-li sledovat své majetky, aniž byste ohrozili své soukromé klíče, zvažte použití zařízení Watch-only wallet. Umožňuje sledovat zůstatky a transakce pouze pomocí vašich veřejných klíčů.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlerova strategie je jednoduchá, ale účinná: koupit, zajistit a zapomenout. Skutečná výzva není technická, ale psychologická. Nejtěžší je odolat nutkání prodávat příliš brzy nebo panikařit při poklesu cen. Pokud však zůstanete disciplinovaní a budete myslet dlouhodobě, hodling se ukázal jako spolehlivý způsob, jak uchovat hodnotu a dlouhodobě budovat bohatství.
 
@@ -2551,7 +2551,7 @@ Klíčové návyky:
 Chcete-li snadno sledovat zůstatky, aniž byste ohrozili zabezpečení, nastavte systém Watch-only wallet pro sledování zůstatků pomocí veřejného klíče.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Vyhodnocení profilu zakladače
 
@@ -3617,6 +3617,7 @@ Ještě jednou vám blahopřeji k tomu, jak daleko jste došli. A nezapomeňte, 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

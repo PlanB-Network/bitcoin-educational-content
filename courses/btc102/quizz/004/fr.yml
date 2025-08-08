@@ -6,4 +6,4 @@ wrong_answers:
   - Les gains sont générés par des contrats intelligents sur la blockchain
 explanation: |
   Dans un système de Ponzi, aucun produit réel n'est créé et les paiements dépendent uniquement de l'arrivée de nouveaux participants.
-reviewed: false
+reviewed: true 

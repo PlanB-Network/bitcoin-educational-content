@@ -2372,7 +2372,7 @@ Några exempel på bästa praxis:
 För att övervaka dina innehav utan att kompromissa med dina privata nycklar kan du överväga att använda en Watch-only wallet. Med den kan du spåra saldon och transaktioner endast med hjälp av dina publika nycklar.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlers strategi är enkel men kraftfull: köp, säkra och glöm. Den verkliga utmaningen är inte teknisk, den är psykologisk. Det svåraste är att motstå impulsen att sälja för tidigt eller få panik vid prisfall. Men om man håller sig disciplinerad och tänker långsiktigt har hodling visat sig vara ett pålitligt sätt att bevara värde och bygga förmögenhet över tid.
 
@@ -2576,7 +2576,7 @@ Viktiga vanor:
 För enkel övervakning utan att kompromissa med säkerheten kan du konfigurera en Watch-only wallet för att spåra saldon med hjälp av en offentlig nyckel.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Utvärdera din staplarprofil
 
@@ -3654,6 +3654,7 @@ Jag hoppas att vi snart ses igen i en annan kurs på Plan ₿ Network; oavsett o
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

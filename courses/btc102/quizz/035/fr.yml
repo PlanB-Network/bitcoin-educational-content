@@ -6,4 +6,4 @@ wrong_answers:
   - Un paper wallet
 explanation: |
   Le hodler, qui conserve ses bitcoins sur le long terme, doit utiliser un hardware wallet pour maximiser la sécurité.
-reviewed: false
+reviewed: true 

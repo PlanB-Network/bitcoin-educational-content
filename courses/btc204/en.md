@@ -1687,9 +1687,9 @@ Let's take Alice's example. She wants to send around 100,000 sats to her sister 
 
 ![BTC204](assets/fr/110.webp)
 
-In this case, Alice has used the coinjoin technique to increase confidentiality with regard to retrospective analysis. In effect, Alice is protecting herself against a possible analysis by Eve, who would start from a specific transaction and work backwards through the history of the UTXO. This protection against analysis from the present to the past is known as retrospective anonset. We'll look at this concept in more detail in the final chapters of this section.
+In this case, Alice has used the coinjoin technique to increase confidentiality with regard to retrospective analysis. In effect, Alice is protecting herself against a possible analysis by Eve, who would start from a specific transaction and work backwards through the history of the UTXO. This protection against analysis from the present to the past is known as backward anonset. We'll look at this concept in more detail in the final chapters of this section.
 
-However, coinjoin also offers the possibility of reinforcing confidentiality in the face of an analysis from the past to the present, known as prospective anonset. Let's go back to our example where Alice sent Eve 98,000 sats for her birthday, but with the roles reversed. Now let's imagine that it's Eve who's worried about her privacy. Indeed, Alice might be tempted to track the coin she sent Eve in order to extract information from it. Eve could well consolidate this UTXO she has just received with all her other UTXOs, which could reveal to Alice the amount of bitcoins she has in her wallet. To avoid this, Eve can also break the history of the coin she has just received:
+However, coinjoin also offers the possibility of reinforcing confidentiality in the face of an analysis from the past to the present, known as forward anonset. Let's go back to our example where Alice sent Eve 98,000 sats for her birthday, but with the roles reversed. Now let's imagine that it's Eve who's worried about her privacy. Indeed, Alice might be tempted to track the coin she sent Eve in order to extract information from it. Eve could well consolidate this UTXO she has just received with all her other UTXOs, which could reveal to Alice the amount of bitcoins she has in her wallet. To avoid this, Eve can also break the history of the coin she has just received:
 
 
 - Eve, Grace, Mallory, Oscar and Victor each put in a UTXO of 98,000 sats as input to a Bitcoin transaction:
@@ -1800,7 +1800,7 @@ The coinjoin transaction construction process involves 3 main stages: input regi
 
 In this system, the coordinator is unable to link an input to a specific output. What's more, he can't appropriate participants' funds, as he never has access to the private keys needed to unlock their UTXOs. Throughout the process, until the end of step 3, he also has no access to the signatures. When Alice and the other participants sign the global transaction, after checking that everything is correct, the coordinator can no longer modify the transaction, including the outputs, without invalidating it. This prevents the coordinator from stealing bitcoins.
 
-Finally, when registering his output in the transaction, the coinjoin user wishes to have guarantees similar to those of a citizen voting in an election. There is a duality between the public and private aspects of these actions. On the one hand, there's what you want to keep private: for the voter, he doesn't want his ballot to be linked to his identity; for the coinjoin user, he doesn't want his output to be associated with his input. Indeed, if the coordinator, or any other party, manages to establish a link between an input and an output, the coinjoin loses all interest. As explained above, the coinjoin must function as a break in the history of a coin. This stop occurs precisely because of the impossibility of associating a specific input with a specific output in the coinjoin transaction (prospective anonset) and vice versa (retrospective anonset).
+Finally, when registering his output in the transaction, the coinjoin user wishes to have guarantees similar to those of a citizen voting in an election. There is a duality between the public and private aspects of these actions. On the one hand, there's what you want to keep private: for the voter, he doesn't want his ballot to be linked to his identity; for the coinjoin user, he doesn't want his output to be associated with his input. Indeed, if the coordinator, or any other party, manages to establish a link between an input and an output, the coinjoin loses all interest. As explained above, the coinjoin must function as a break in the history of a coin. This stop occurs precisely because of the impossibility of associating a specific input with a specific output in the coinjoin transaction (forward anonset) and vice versa (backward anonset).
 
 On the other hand, there's the public aspect: the voter wants to be sure that his ballot is included in the ballot box; similarly, the coinjoin user wants to be sure that his output is included in the coinjoin transaction. Indeed, coinjoin participants absolutely must be able to verify the presence of their output before signing the transaction, otherwise the coordinator could steal the funds.
 
@@ -2188,10 +2188,10 @@ If necessary, anonsets can be used to judge the quality of coinjoins. A large an
 2 types of anonsets exist:
 
 
-- The prospective anonset;**
-- Retrospective anonset.**
+- The forward anonset;**
+- backward anonset.**
 
-### The prospective anonset
+### The forward anonset
 
 The forward-looking anonset indicates the size of the group among which the UTXO studied at the end of the cycle is hidden, given the UTXO at the start, i.e. the number of indistinguishable UTXOs present within this group. The name of this indicator is "forward-looking metrics".
 
@@ -2201,25 +2201,25 @@ This indicator measures the resistance of the room's confidentiality to a past-t
 
 This metric is used to estimate the extent to which your UTXO is protected against attempts to reconstruct its history from its point of entry to its point of exit in the coinjoin process.
 
-For example, if your transaction has participated in its first coinjoin cycle and two further descending cycles have been completed, your coin's prospective anonset would be `13`:
+For example, if your transaction has participated in its first coinjoin cycle and two further descending cycles have been completed, your coin's forward anonset would be `13`:
 
 ![BTC204](assets/fr/153.webp)
 
-For example, let's imagine that our coin at the start of the coinjoin cycle has a prospective anonset of `86,871`. In practical terms, this means that it is hidden among `86,871` indistinguishable UTXOs. For an outside observer who knows this coin at the start of the coinjoin cycles and tries to trace its exit, he will be confronted with `86,871` possible UTXOs, each with an identical probability of being the coin he is looking for.
+For example, let's imagine that our coin at the start of the coinjoin cycle has a forward anonset of `86,871`. In practical terms, this means that it is hidden among `86,871` indistinguishable UTXOs. For an outside observer who knows this coin at the start of the coinjoin cycles and tries to trace its exit, he will be confronted with `86,871` possible UTXOs, each with an identical probability of being the coin he is looking for.
 
 ![BTC204](assets/fr/154.webp)
 
-### The retrospective anonset
+### The backward anonset
 
-The retrospective anonset indicates the number of possible sources for a given UTXO, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the UTXO's confidentiality to a present-to-past (output-to-input) analysis, i.e. how difficult it is for an analyst to trace your UTXO back to its origin, before the coinjoin cycles. The name of this indicator is "backward anonset", or "backward-looking metrics".
+The backward anonset indicates the number of possible sources for a given UTXO, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the UTXO's confidentiality to a present-to-past (output-to-input) analysis, i.e. how difficult it is for an analyst to trace your UTXO back to its origin, before the coinjoin cycles. The name of this indicator is "backward anonset", or "backward-looking metrics".
 
 ![BTC204](assets/fr/155.webp)
 
-By knowing your UTXO at the exit of the cycles, the retrospective anonset determines the number of potential Tx0 transactions that could have constituted your entry into the coinjoin cycles. In the diagram below, this corresponds to the sum of all the orange bubbles.
+By knowing your UTXO at the exit of the cycles, the backward anonset determines the number of potential Tx0 transactions that could have constituted your entry into the coinjoin cycles. In the diagram below, this corresponds to the sum of all the orange bubbles.
 
 ![BTC204](assets/fr/156.webp)
 
-For example, let's imagine that our coinjoin UTXO has a retrospective anonset of `42,185`. In practical terms, this means that there are `42,185` potential sources for this UTXO. If an external observer identifies this coin at the end of the cycles and seeks to trace its origin, he or she will be faced with `42,185` possible sources, all with equal probability of being the origin sought.
+For example, let's imagine that our coinjoin UTXO has a backward anonset of `42,185`. In practical terms, this means that there are `42,185` potential sources for this UTXO. If an external observer identifies this coin at the end of the cycles and seeks to trace its origin, he or she will be faced with `42,185` possible sources, all with equal probability of being the origin sought.
 
 ![BTC204](assets/fr/157.webp)
 

@@ -2350,7 +2350,7 @@ Mõned parimad tavad:
 Et jälgida oma varusid ilma oma isiklikke võtmeid ohustamata, kaaluge Watch-only wallet kasutamist. See võimaldab teil jälgida saldosid ja tehinguid ainult oma avalike võtmete abil.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodleri strateegia on lihtne, kuid võimas: osta, kinnita ja unusta. Tegelik väljakutse ei ole tehniline, vaid psühholoogiline. Kõige raskem on vastu seista tungile müüa liiga vara või paanikasse sattuda hinnalanguse ajal. Kuid kui püsite distsiplineeritult ja mõtlete pikaajaliselt, on hodlerlus osutunud usaldusväärseks viisiks väärtuse säilitamiseks ja jõukuse kasvatamiseks aja jooksul.
 
@@ -2551,7 +2551,7 @@ Peamised harjumused:
 Lihtsaks jälgimiseks ilma turvalisust ohustamata seadistage Watch-only wallet saldode jälgimiseks avaliku võtme abil.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Hinnake oma virnastaja profiili
 
@@ -3617,6 +3617,7 @@ Veel kord, õnnitlen teid selle puhul, kui kaugele te olete jõudnud. Ja pidage 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

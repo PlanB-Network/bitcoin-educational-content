@@ -2346,7 +2346,7 @@ Ein paar bewährte Praktiken:
 Um deine Bestände zu überwachen, ohne deine privaten Schlüssel zu gefährden, solltest du ein 'Watch-only' Wallet verwenden. Damit kannst du Salden und Transaktionen nur mit deinen öffentlichen Schlüsseln verfolgen.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Die Strategie von Hodlern ist einfach, aber wirkungsvoll: kaufen, sichern und vergessen. Die eigentliche Herausforderung ist nicht technischer Natur, sondern psychologischer Natur. Am schwierigsten ist es, dem Drang zu widerstehen, zu früh zu verkaufen oder bei Kursrückgängen in Panik zu geraten. Aber wenn man diszipliniert bleibt und langfristig denkt, hat sich Hodling als zuverlässiger Weg erwiesen, Werte zu erhalten und langfristig Vermögen aufzubauen.
 
@@ -2547,7 +2547,7 @@ Wichtige Gewohnheiten:
 Um die Überwachung zu erleichtern, ohne die Sicherheit zu beeinträchtigen, kannst du ein 'Watch-only' Wallet einrichten, um die Salden mit einem öffentlichen Schlüssel zu verfolgen.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Bewerte dein Staplerprofil
 
@@ -3613,6 +3613,7 @@ So vielen Menschen wie möglich durch Bitcoin zu finanzieller Souveränität zu 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

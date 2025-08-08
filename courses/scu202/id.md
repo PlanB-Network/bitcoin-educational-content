@@ -429,33 +429,17 @@ SLS kini tidak lagi ada. Versi terakhir yang diketahui berasal dari akhir tahun 
 
 - **Juli 1993: Slackware**
 
-
-
-Patrick Volkerding meluncurkan Slackware secara tidak sengaja, memperbaiki dan meningkatkan bug pada SLS sebagai bagian dari proyek sekolah di Minnesota State University. Melalui berbagai modifikasi dan optimasi, versi SLS yang dimodifikasinya akhirnya menjadi distribusi Linux yang benar-benar independen, yang cenderung menarik bagi publik yang kecewa dengan keterbatasan SLS. Setelah mendapatkan persetujuan dari universitasnya, ia menerbitkan versi pertama distribusinya dengan nama Slackware pada tanggal 17 Juli 1993.
-
-
+Patrick Volkerding meluncurkan Slackware, bisa dibilang, secara tidak sengaja. Ia memperbaiki dan meningkatkan *bug* pada SLS sebagai bagian dari proyek sekolahnya di Minnesota State University. Melalui berbagai modifikasi dan optimalisasi, versi SLS yang telah ia perbaiki akhirnya menjadi distribusi Linux yang benar-benar independen, dan kemungkinan besar menarik perhatian publik yang kecewa dengan keterbatasan SLS. Setelah mendapat persetujuan dari universitasnya, ia menerbitkan versi pertama dari distribusinya dengan nama Slackware pada 17 Juli 1993.
 
 ![Image](assets/fr/048.webp)
 
+Slackware dengan cepat menjadi distribusi Linux yang paling banyak digunakan di tahun 1990-an. Arsitekturnya yang sederhana, skrip shell untuk konfigurasi, disamakan pada standar Unix, dan tidak adanya abstraksi membuatnya menjadi tolok ukur bagi pengguna tingkat lanjut yang mencari sistem yang minimalis dan transparan.
 
+Slackware masih dipertahankan hingga saat ini, menjadikannya distribusi Linux tertua yang masih digunakan. Slackware juga merupakan asal-usul dari berbagai distribusi turunan, membentuk kelompok besar pertama dari distribusi Linux: Slackware.
 
-Slackware dengan cepat menjadi distribusi Linux yang paling banyak digunakan pada tahun 1990-an. Arsitekturnya yang sederhana, skrip shell konfigurasi, penghormatan terhadap standar Unix, dan kurangnya abstraksi membuatnya menjadi tolok ukur bagi pengguna tingkat lanjut yang mencari sistem yang minimalis dan transparan.
+- **Agustus 1993: Debian**
 
-
-
-Slackware masih dipertahankan hingga saat ini, menjadikannya distribusi Linux tertua yang masih digunakan. Distribusi ini juga merupakan cikal bakal dari berbagai distribusi turunan, membentuk keluarga besar distribusi Linux yang pertama: Slackware.
-
-
-
-
-
-- Agustus 1993: Debian**
-
-
-
-Sekitar waktu yang sama, Ian Murdock meluncurkan distribusi Debian, dengan semangat yang sangat berbeda dengan praktik-praktik yang ada pada waktu itu, terutama yang diwujudkan oleh distribusi seperti SLS, yang seringkali dikelola oleh satu orang. Murdock memahami Debian sebagai sebuah proyek komunitas yang terstruktur, dikembangkan secara terbuka, dengan semangat perangkat lunak bebas dan proyek GNU. Tidak seperti distribusi Linux lainnya, Debian adalah distribusi non-komersial.
-
-
+Pada saat yang hampir bersamaan, Ian Murdock meluncurkan distribusi Debian, dengan semangat yang sangat berbeda dari praktik pada masa itu, terutama yang diwujudkan oleh distribusi seperti SLS yang sering kali hanya dikelola oleh satu orang. Murdock mengkonsepkan Debian sebagai proyek komunitas yang terstruktur, dikembangkan secara terbuka, dalam semangat free software dan proyek GNU. Berbeda dengan banyak distribusi Linux lainnya, Debian adalah distribusi non-komersial.
 
 ![Image](assets/fr/047.webp)
 
@@ -464,126 +448,67 @@ Sekitar waktu yang sama, Ian Murdock meluncurkan distribusi Debian, dengan seman
 *Ian Murdock. Sumber: [Ilya Schurov CC BY-SA 2.0](https://www.flickr.com/photos/ivoyager/2398462112/).*
 
 
-
-Dari sudut pandang teknis, Debian membedakan dirinya sejak awal dengan kualitas sistem pengemasannya, penelusuran pembaruan, dan terutama dengan diperkenalkannya manajer paket berkinerja tinggi, *dpkg*, yang dengan cepat dilengkapi dengan *APT* pada tahun 1998, yang memungkinkan pengelolaan dependensi perangkat lunak secara otomatis dan andal.
-
-
+Dari sudut pandang teknis, Debian sejak awal sudah menonjol karena kualitas sistem pengemasannya, penelusuran pembaruannya, dan yang terpenting, dengan memperkenalkan manajer paket berkinerja tinggi, *dpkg*, yang dengan cepat dilengkapi oleh *APT* pada tahun 1998, yang memungkinkan manajemen dependensi perangkat lunak secara otomatis dan andal.
 
 ![Image](assets/fr/046.webp)
 
-
-
 *Debian 1.3 (1997). Sumber: Arsip Distribusi Linux*
 
+Sejak awal, proyek ini meresmikan komitmen etisnya dengan menerbitkan *Debian Social Contract* dan  _Debian Social Contract and the Debian Free Software Guidelines (DFSG)_, untuk menetapkan piagam yang jelas tentang kebebasan dan transparansi kode. Setelah beberapa waktu disponsori oleh Free Software Foundation, Debian kemudian menjadi independen secara hukum dengan mendirikan organisasi nirlaba bernama Software in the Public Interest (SPI) pada tahun 1997.
 
+Dengan demikian, Debian menjadi salah satu pilar teknis dan ideologis dunia GNU/Linux, fondasi dari mana puluhan distribusi besar lahir, termasuk Ubuntu, Linux Mint, Kali Linux, dan Raspberry Pi OS.
 
-Pada awalnya, proyek ini meresmikan komitmen etisnya dengan menerbitkan *Debian Social Contract* dan Pedoman Perangkat Lunak Bebas Debian (DFSG), untuk membuat piagam yang jelas mengenai kebebasan dan transparansi kode. Disponsori oleh Free Software Foundation, Debian kemudian menjadi independen secara hukum dengan mendirikan organisasi nirlaba Software for the Public Interest (SPI) pada tahun 1997.
+- **1994: Red Hat Linux**
 
+Marc Ewing menerbitkan versi pertama Red Hat Linux pada tahun 1994. Ini menandai lahirnya sebuah distribusi yang akan memainkan peran sentral dalam profesionalisasi Linux. Terpesona oleh dunia Unix, Ewing menciptakan versi Linux yang terstruktur dan mudah diakses, yang menggabungkan program penting: Red Hat Package Manager (RPM). RPM ini menstandarisasi format paket perangkat lunak dan memfasilitasi instalasi, pembaruan, dan penghapusannya, terutama di lingkungan profesional. Format ini kemudian menjadi standar yang diadopsi secara luas.
 
-
-Dengan demikian, Debian menjadi salah satu pilar teknis dan ideologis dunia GNU/Linux, sebuah fondasi yang menjadi tempat lahirnya lusinan distribusi utama, termasuk Ubuntu, Linux Mint, Kali Linux, dan Raspberry Pi OS.
-
-
-
-
-
-- 1994: Red Hat Linux**
-
-
-
-Marc Ewing menerbitkan versi pertama Red Hat Linux pada tahun 1994. Ini menandai lahirnya sebuah distribusi yang akan memainkan peran sentral dalam profesionalisasi Linux. Terpesona oleh dunia Unix, Ewing menciptakan versi Linux yang terstruktur dan mudah diakses, dengan menyertakan sebuah alat yang penting: *Red Hat Package Manager* (RPM), yang menstandarkan format paket perangkat lunak dan memfasilitasi instalasi, pembaruan, dan penghapusan, terutama di lingkungan profesional. Format ini kemudian menjadi standar yang diadopsi secara luas.
-
-
-
-Pada tahun 1995, Bob Young, pendiri AAC Corporation yang mengkhususkan diri pada aksesoris perangkat lunak Linux, membeli perusahaan Marc Ewing. Penggabungan kedua entitas tersebut melahirkan Red Hat Software. Bersama-sama, mereka mengembangkan model bisnis yang orisinil: distribusi perangkat lunak sumber terbuka yang digabungkan dengan layanan dukungan dan sertifikasi untuk bisnis. Model bisnis ini menjadi tolok ukur, dan dapat ditemukan di banyak proyek dalam ekosistem Bitcoin.
-
-
+Pada tahun 1995, Bob Young, pendiri AAC Corporation yang berspesialisasi dalam aksesori perangkat lunak Linux, membeli perusahaan Marc Ewing. Penggabungan kedua entitas ini melahirkan Red Hat Software. Bersama-sama, mereka mengembangkan model bisnis yang orisinal: distribusi perangkat lunak open source yang digabungkan dengan layanan dukungan dan sertifikasi untuk perusahaan. Model bisnis ini menjadi tolok ukur, dan dapat ditemukan di banyak proyek dalam ekosistem Bitcoin.
 
 ![Image](assets/fr/045.webp)
 
-
-
 *Bob Young dan Marc Ewing. Fotografer: Candice C Cusic/AP*
 
+Pada tahun 2003, Red Hat melakukan pemisahan strategis: cabang komunitasnya menjadi Fedora, sebuah laboratorium inovasi dengan siklus pengembangan yang cepat, sementara cabang komersialnya diubah menjadi Red Hat Enterprise Linux (RHEL), sebuah distribusi yang tersertifikasi, stabil, dan dirancang untuk infrastruktur penting bagi bisnis dalam jangka panjang. Sejak itu, Fedora digunakan sebagai tempat uji coba untuk teknologi-teknologi yang nantinya akan diintegrasikan secara lebih ketat ke dalam RHEL. Dengan organisasi ini, Red Hat berhasil mendamaikan kelincahan komunitas dan ketelitian industri.
 
-
-Pada tahun 2003, Red Hat melakukan pemisahan strategis: cabang komunitas menjadi Fedora, sebuah laboratorium inovasi dengan siklus pengembangan yang cepat, sementara cabang komersial diubah menjadi Red Hat Enterprise Linux (RHEL), distribusi bersertifikat, stabil, dan berjangka panjang yang didesain untuk infrastruktur bisnis yang penting. Sejak saat itu, Fedora telah digunakan sebagai tempat uji coba untuk teknologi yang nantinya akan diintegrasikan secara lebih ketat ke dalam RHEL. Dengan organisasi ini, Red Hat telah berhasil mendamaikan kelincahan komunitas dan ketelitian industri.
-
-
-
-Distribusi perintis ini membentuk keluarga besar Linux saat ini, yang masing-masing telah mengembangkan pendekatan teknis dan filosofisnya sendiri.
-
+Distribusi-distribusi pionir ini telah membentuk keluarga Linux utama saat ini, yang masing-masing telah mengembangkan pendekatan teknis dan filosofisnya sendiri.
 
 
 ### Keluarga distribusi Linux utama saat ini
-
-
-
 #### Keluarga Debian
 
-
-
-Keluarga ini dibangun di sekitar manajer paket APT dan format paket `.deb`. Debian menonjol karena pendekatannya yang ketat terhadap perangkat lunak bebas dan sistem manajemen ketergantungannya yang kuat.
-
-
+Keluarga ini dibangun di sekitar manajer paket APT dan format paket `.deb`. Debian menonjol karena pendekatannya yang ketat terhadap free software dan sistem manajemen dependensinya yang tangguh.
 
 ![Image](assets/fr/044.webp)
 
-
-
-Ubuntu, yang diturunkan langsung dari Debian, mempopulerkan Linux melalui kemudahan instalasi dan penggunaannya. Ubuntu memiliki banyak varian resmi, seperti Kubuntu (lingkungan KDE) dan Xubuntu (XFCE). Distribusi berbasis Debian lainnya yang penting adalah Linux Mint (juga berasal dari Ubuntu), Kali Linux (keamanan komputer), dan Raspberry Pi OS untuk mikrokomputer Raspberry Pi.
-
-
+Ubuntu, yang diturunkan langsung dari Debian, mempopulerkan Linux melalui kemudahan instalasi dan penggunaannya. Ubuntu memiliki banyak varian resmi, seperti Kubuntu (lingkungan KDE) dan Xubuntu (XFCE). Distribusi penting lain yang berbasis Debian adalah Linux Mint (juga turunan dari Ubuntu), Kali Linux (untuk keamanan komputer), dan Raspberry Pi OS untuk mikrokomputer Raspberry Pi.
 
 Keluarga inilah yang akan kita bahas selanjutnya, karena keluarga ini menyatukan beberapa distribusi Linux yang paling konsisten dan populer untuk digunakan pada komputer pribadi.
 
-
-
 #### Keluarga Red Hat
 
-
-
-Berpusat pada format RPM (*Red Hat Package Manager*), keluarga ini mencakup Fedora, distribusi komunitas inovatif yang berfungsi sebagai dasar teknis untuk Red Hat Enterprise Linux (RHEL), sebuah distribusi komersial yang ditujukan untuk perusahaan dan terkenal karena stabilitas jangka panjangnya.
-
-
+Berpusat pada format RPM (*Red Hat Package Manager*), keluarga ini mencakup Fedora, yaitu distribusi komunitas yang inovatif yang berfungsi sebagai dasar teknis untuk Red Hat Enterprise Linux (RHEL). RHEL sendiri adalah distribusi komersial yang ditujukan untuk perusahaan dan dikenal karena stabilitas jangka panjangnya.
 
 ![Image](assets/fr/043.webp)
 
+Beberapa distribusi utama secara langsung diturunkan dari RHEL, dengan tujuan menawarkan alternatif gratis dan kompatibel, tanpa biaya dukungan komersial. Di antaranya, CentOS telah lama memegang posisi penting sebagai tiruan komunitas dari RHEL, hingga Red Hat mengubah sifatnya pada tahun 2020 menjadi CentOS Stream, sebuah versi menengah antara Fedora dan RHEL. Keputusan ini memicu terciptanya _fork_ baru seperti AlmaLinux dan Rocky Linux.
 
-
-Beberapa distribusi utama secara langsung diturunkan dari RHEL, dengan tujuan menawarkan alternatif yang gratis dan kompatibel, tanpa mengorbankan dukungan komersial. Di antara mereka, CentOS telah lama memegang tempat penting sebagai tiruan komunitas RHEL, sampai Red Hat mengubah sifatnya pada tahun 2020 menjadi CentOS Stream, versi perantara antara Fedora dan RHEL. Keputusan ini menyebabkan terciptanya garpu baru seperti AlmaLinux dan Rocky Linux.
-
-
-
-Distribusi penting lainnya dari keluarga ini termasuk Oracle Linux, dengan pengoptimalan khusus untuk lingkungan cloud, dan ClearOS, sebuah distribusi berorientasi SMB dengan server siap pakai dan fitur firewall.
-
-
+Distribusi penting lainnya dari keluarga ini termasuk Oracle Linux, dengan optimasi khusus untuk lingkungan cloud, dan ClearOS, distribusi berorientasi UKM (Usaha Kecil dan Menengah) dengan fitur server dan firewall siap pakai.
 
 #### Keluarga Arch Linux
 
-
-
-Keluarga Arch Linux dibedakan oleh filosofi yang secara radikal berlawanan dengan distribusi yang tersedia di pasaran. Mereka minimalis, dan dirancang sesuai dengan prinsip "*KISS*" ("*Keep It Simple, Stupid*"). Arch Linux menyediakan sistem dasar yang rapi, yang harus dibangun sendiri oleh pengguna sesuai dengan kebutuhannya.
-
-
+Keluarga Arch Linux dibedakan oleh filosofi yang secara radikal berlawanan dengan distribusi siap pakai. Mereka minimalis, dan dirancang sesuai dengan prinsip "_KISS_" (_Keep It Simple, Stupid_). Arch Linux menyediakan sistem dasar yang rapi, yang harus dibangun secara manual oleh pengguna sesuai dengan kebutuhannya.
 
 ![Image](assets/fr/041.webp)
 
+Pendekatan ini didasarkan pada model _rolling release_, di mana paket-paket diperbarui secara terus-menerus, tanpa perlu menginstal ulang sistem setiap kali ada rilis utama. Manajer paket Pacman cepat dan ringan, memudahkan instalasi dan pembaruan perangkat lunak, dan AUR (_Arch User Repository_), sebuah repositori komunitas, menyediakan akses ke beragam paket tidak resmi dan paket pengembangan.
 
-
-Pendekatan ini didasarkan pada model *rolling release*, di mana paket-paket diperbarui secara terus menerus, tanpa perlu menginstal ulang sistem pada setiap rilis utama. Manajer paket Pacman cepat dan ringan, membuatnya mudah untuk menginstal dan memperbarui perangkat lunak, dan AUR (*Arch User Repository*), sebuah repositori komunitas, menyediakan akses ke berbagai macam paket tidak resmi dan paket pengembangan.
-
-Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, sambil menerima kerumitan tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah menyebabkan munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
+Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, dengan menerima kompleksitas tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah memicu munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
 
 https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
-Yang paling terkenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang telah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
-
-
+Yang paling dikenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang sudah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
 
 ![Image](assets/fr/042.webp)
-
-
 
 #### Keluarga Slackware
 

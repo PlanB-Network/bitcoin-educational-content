@@ -10,7 +10,7 @@ description: Breve tutorial per incentivare i clienti del proprio negozio a spen
 
 Hai finalmente deciso di accettare bitcoin nel tuo esercizio commerciale, è ormai tutto pronto: il wallet Lightning Network in ricezione, i tuoi dipendenti sanno usare la versione del wallet in sola lettura per ricevere i pagamenti al posto tuo, il PoS è stato configurato con i prodotti del negozio ed è aggiornato mensilmente, e sai già come gestire la contabilità dei bitcoin che riceverai dai clienti. Se non sai farlo, guarda il seguente tutorial:
 
-https://planb.network/en/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Il Problema
 
@@ -22,19 +22,19 @@ Ecco, in questo tutorial cercheremo di far leva su quella molto ridotta minoranz
 
 ## Proposte
 
-Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo tre: una politica **a sconto fisso**, una a prezzo **_all time high_** ed una **offerta addizionale**.
+Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo tre: una politica **a sconto fisso**, una a prezzo **_all time high_** ed infine una politica a **offerta addizionale**.
 
 ### Politica a sconto fisso
 
-Il negoziante offre uno sconto fisso pari ad una percetuale fissa del valore di tutta la merce in vendita, o di un insieme di essa. Lo sconto può essere di due tipi:
+Il negoziante offre uno sconto fisso pari ad una percetuale fissa del valore di tutta la merce in vendita, o di un insieme di essa. Questa politica può essere implementata in due varianti principali:
 
 #### Sconto sul valore nominale della merce
 
-È uno sconto fissato arbitrariamente sul valore della merce esposta. Supponiamo che lo sconto applicato sia pari al 10%; se un paio di pantaloni costa 50 USD pagando con carta di debito, il prezzo in bitcoin sarà pari a ```50 - (50 × 0,1)``` cioè 45 USD. 
+È uno sconto fissato arbitrariamente sul valore della merce esposta, è la forma di sconto più semplice e diretta. Lo sconto sarà applicabile se e solo se il pagamento avviene in bitcoin. Supponiamo che lo sconto applicato sia pari al 10%; se un paio di pantaloni costa 50 USD pagando con carta di debito, il prezzo in bitcoin sarà pari a ```50 - (50 × 0,1)``` cioè 45 USD.
 
 #### Riduzione di una quantità finita
 
-Il caso di riduzione di una quantità finita rispetto al valore della merce. Di solito si tratta di una tassa o un'imposta che il cliente è solito pagare e che sarà scorporata dal prezzo. Il cliente finale, che conosce bene l'impatto sul prezzo di questa imposizione, comprenderà molto bene la politica di sconto e potrebbe essere più incentivato a completare l'acquisto spendendo bitcoin.
+In questo caso L'idea è scorporare dal prezzo una tassa o un costo esterno che normalmente è incluso nel prezzo finale, ma che non si applica o non si vuole applicare ai pagamenti in bitcoin. Di solito il cliente è solito pagare questa tassa o un'imposta: conosce bene l'impatto sul prezzo di questa imposizione e comprenderà ugualmente bene la politica di sconto. Potrebbe essere proprio questa politica ad incentivarlo a completare l'acquisto in bitcoin.
 
 Questa politica di sconto è molto più efficace nel caso di negozi fisici, e di prodotti soggetti ad alte imposizioni fiscali; con `alta imposizione` si può intendere un'aliquota superiore al 10% da aggiungere al costo nominale del bene. Nel caso di aliquote inferiori e prodotti semplici ed economici difficilmente il cliente noterà la differenza, pertanto la probabilità che spenda bitcoin sarà inferiore.
 
@@ -54,26 +54,48 @@ Questa politica è generalmente impiegata nel commercio al dettaglio online. Lo 
 
 ### Politica Offerta Addizionale
 
-In questa politica il negoziante concede un beneficio in natura quando il cliente paga uno specifico bene o servizio. Invece di offrire uno sconto il negoziante concede al cliente qualcosa in più, a parità di spesa sostenuta da quest'ultimo.
+In questa politica, invece di applicare uno sconto, il commerciante offre un beneficio extra quando il cliente paga in bitcoin. Il prezzo rimane lo stesso, ma il valore percepito dall'acquisto aumenta. È una strategia utile nei casi in cui:
+- non si vuole modificare il listino prezzi,
+- si vogliono evitare complicazioni contabili legate agli sconti,
+- si vuole rendere l’incentivo più emozionale che numerico.
 
-Ad esempio, nel caso di un'attività che vende biglietti di ingresso, il negoziante offre in omaggio un servizio aggiuntivo che il cliente avrebbe potuto potenzialmente acquistare successivamente all'ingresso.
+Alcuni esempi:
+- Un negozio di alimentari può aggiungere un prodotto omaggio (es. una lattina o uno snack).
+- Un centro estetico può offrire un piccolo servizio gratuito aggiuntivo.
+- Un cinema può regalare un gadget, una bevanda o un upgrade del posto.
+- Un negozio di elettronica può aggiungere un accessorio al prodotto principale.
+
+Il principio è semplice: a parità di prezzo, il cliente che paga in bitcoin riceve di più. Di solito il cliente potrebbe comunque acquistare quel qualcosa in più in un secondo momento. Questo approccio può essere molto efficace per fidelizzare chi ha già bitcoin e dare un messaggio positivo senza dover ridurre i margini.
 
 ## Informare la clientela
 
-Ovviamente creare queste politiche non è sufficiente, bisogna anche informare la clientela, la modalità nel dettaglio è lasciata al negoziante ma brevemente queste sono le possibili opzioni:
-- 
+Ovviamente creare le politiche non è sufficiente, bisogna anche informare la clientela. Se i tuoi clienti non sanno che possono pagare in bitcoin, o non percepiscono un chiaro vantaggio nel farlo, difficilmente sceglieranno questa opzione. L’obiettivo è far sapere ai clienti giusti che il momento di usare bitcoin è adesso, e nel tuo negozio.
+
+Comunicare in modo efficace significa prima di tutto essere visibili: l'informazione deve essere chiara, semplice e presente ovunque abbia senso — sul punto vendita, sul sito web, sui social, nei canali di comunicazione diretta con i clienti. Anche il personale dev’essere preparato a spiegare, con tono amichevole, che pagare in bitcoin è possibile e vantaggioso.
+
+Ogni politica adottata (sconto, offerta, vantaggio sul cambio) andrebbe presentata come un’opportunità per il cliente, non come un dettaglio tecnico. Il messaggio deve essere immediato: “Paga in bitcoin e ottieni di più.”
+
+La modalità nel dettaglio è lasciata al negoziante, ma brevemente queste sono alcune delle opzioni disponibili:
+- Cartellonistica in negozio (vetrina, cassa, scaffali)
+- Adesivi, etichette per vetri simili al famoso esempio “Bitcoin accepted here”
+- Notifiche nei canali social, newsletter, sito web
+- Dialogo diretto con il cliente, ove possibile
+- Pubblicità da parte di influencer del mondo bitcoin, che parlano stessa lingua dei tuoi clienti
 
 ### BTC Map
 
 In ogni caso, è sempre una buona pratica assicurarsi che la propria attività commerciale, se dotata di sede fisica, sia presente e aggiornata su [BTC Map](https://btcmap.org/map). Infatti la maggioranza dei bitcoiner conosce questo tool, quasi tutti coloro che hanno speso bitcoin in negozi fisici hanno controllato almeno una volta i locali che lo accettassero. Se vuoi imparare ad aggiungere su BTC Map il tuo negozio, o se vuoi saperne di più, guarda questo tutorial:
 
-https://planb.network/en/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Gestire la contabilità
 
 Se ti stai chiedendo come fare per gestire la contabilità dei bitcoin appena guadagnati, sia che tu abbia applicato una delle politiche di sconto appena viste o meno, questo è il tutorial che fa per te:
 
-https://planb.network/en/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusione
 
+Le politiche che abbiamo visto — sconto fisso, prezzo all-time high, offerta addizionale — sono solo alcune delle strategie possibili, tutte danno un valore concreto a chi sceglie di pagare in bitcoin. Incentivarne l’uso vuol dire contribuire alla costruzione di un'economia più libera, trasparente e resiliente.
+
+Infine, mantieni aperto il dialogo con i tuoi clienti: ascolta i feedback, osserva cosa funziona e cosa no, e adatta le tue politiche nel tempo. Con il giusto approccio, attirerai più clienti disposti a pagare in bitcoin. Buona fortuna!

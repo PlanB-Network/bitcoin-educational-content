@@ -22,7 +22,7 @@ Ecco, in questo tutorial cercheremo di far leva su quella molto ridotta minoranz
 
 ## Proposte
 
-Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo tre: una politica **a sconto fisso**, una a prezzo **_all time high_** ed infine una politica a **offerta addizionale**.
+Esploriamo ora alcune possibilità che potrebbero favorire la spesa in bitcoin da parte dei clienti, ne illustreremo tre: una politica **a sconto fisso**, una a prezzo **_all time high_** ed infine una politica a **offerta aggiuntiva**.
 
 ### Politica a sconto fisso
 
@@ -34,9 +34,9 @@ Il negoziante offre uno sconto fisso pari ad una percetuale fissa del valore di 
 
 #### Riduzione di una quantità finita
 
-In questo caso L'idea è scorporare dal prezzo una tassa o un costo esterno che normalmente è incluso nel prezzo finale, ma che non si applica o non si vuole applicare ai pagamenti in bitcoin. Di solito il cliente è solito pagare questa tassa o un'imposta: conosce bene l'impatto sul prezzo di questa imposizione e comprenderà ugualmente bene la politica di sconto. Potrebbe essere proprio questa politica ad incentivarlo a completare l'acquisto in bitcoin.
+In questo caso L'idea è scorporare dal prezzo una tassa o un costo esterno che normalmente è incluso nel prezzo finale, ma che non si applica o non si vuole applicare ai pagamenti in bitcoin. Di solito il cliente è solito pagare questa tassa o imposta: conosce bene l'impatto sul prezzo di questa imposizione e comprenderà la politica di sconto. Potrebbe essere proprio una tale politica ad incentivarlo a completare l'acquisto in bitcoin.
 
-Questa politica di sconto è molto più efficace nel caso di negozi fisici, e di prodotti soggetti ad alte imposizioni fiscali; con `alta imposizione` si può intendere un'aliquota superiore al 10% da aggiungere al costo nominale del bene. Nel caso di aliquote inferiori e prodotti semplici ed economici difficilmente il cliente noterà la differenza, pertanto la probabilità che spenda bitcoin sarà inferiore.
+Questa politica di sconto è molto più efficace nel caso di negozi fisici, e di prodotti soggetti ad alte imposizioni fiscali; con `alta imposizione` si può intendere un'aliquota superiore al 10% da aggiungere al costo nominale del bene. Nel caso di aliquote inferiori e prodotti semplici ed economici difficilmente il cliente noterà la differenza, pertanto la probabilità che spenda bitcoin sarà inferiore rispetto al caso di un'alta imposizione.
 
 ##### Un esempio
 
@@ -48,11 +48,11 @@ Il negoziante potrebbe applicare uno sconto pari all'aliquota VAT per i pagament
 
 ### Politica "All Time High"
 
-Nella Politica "All Time High" il commerciante accetta pagamenti in bitcoin, e per incentivare la spesa in bitcoin è offerto al cliente il più alto cambio di sempre tra bitcoin ed una certa valuta, di solito USD o EUR. È importante precisare che nulla vieta di usare il cambio della tua valuta locale, se diversa da quelle più comuni.
+Nella Politica "All Time High" il commerciante accetta pagamenti in bitcoin, e per incentivare la spesa in bitcoin è offerto al cliente il più alto cambio di sempre tra bitcoin ed una certa valuta, di solito USD o EUR. È importante precisare che nulla vieta di usare il cambio della tua valuta locale, anche se diversa dalle due nominate.
 
-Questa politica è generalmente impiegata nel commercio al dettaglio online. Lo svantaggio è che la maggior parte dei commercianti non ha un proprio sito web per acquistare online, sarà quindi necessario affidarsi ad una piattaforma che lo consenta.
+Questa politica è generalmente impiegata nel commercio al dettaglio online. Lo svantaggio è che la maggior parte dei commercianti non ha un proprio sito web per vendere i beni online, sarà quindi necessario affidarsi ad una piattaforma di commercio online che supporti questa politica.
 
-### Politica Offerta Addizionale
+### Politica Offerta Aggiuntiva
 
 In questa politica, invece di applicare uno sconto, il commerciante offre un beneficio extra quando il cliente paga in bitcoin. Il prezzo rimane lo stesso, ma il valore percepito dall'acquisto aumenta. È una strategia utile nei casi in cui:
 - non si vuole modificare il listino prezzi,
@@ -60,12 +60,12 @@ In questa politica, invece di applicare uno sconto, il commerciante offre un ben
 - si vuole rendere l’incentivo più emozionale che numerico.
 
 Alcuni esempi:
-- Un negozio di alimentari può aggiungere un prodotto omaggio (es. una lattina o uno snack).
+- Un negozio di alimentari può aggiungere un prodotto omaggio (e.g. una lattina o uno snack).
 - Un centro estetico può offrire un piccolo servizio gratuito aggiuntivo.
 - Un cinema può regalare un gadget, una bevanda o un upgrade del posto.
 - Un negozio di elettronica può aggiungere un accessorio al prodotto principale.
 
-Il principio è semplice: a parità di prezzo, il cliente che paga in bitcoin riceve di più. Di solito il cliente potrebbe comunque acquistare quel qualcosa in più in un secondo momento. Questo approccio può essere molto efficace per fidelizzare chi ha già bitcoin e dare un messaggio positivo senza dover ridurre i margini.
+Il principio è semplice: a parità di prezzo, il cliente che paga in bitcoin riceve di più. Di solito, il cliente potrebbe comunque acquistare quel qualcosa in più in un secondo momento, ma il beneficio extra in regalo potrebbe anche essere un oggetto unico non acquistabile altrimenti. Questo approccio può essere molto efficace per fidelizzare chi ha già bitcoin e dare un messaggio positivo senza dover ridurre i margini, come invece potrebbe accadere più facilmente nelle altre forme di sconto presentate.
 
 ## Informare la clientela
 
@@ -77,14 +77,14 @@ Ogni politica adottata (sconto, offerta, vantaggio sul cambio) andrebbe presenta
 
 La modalità nel dettaglio è lasciata al negoziante, ma brevemente queste sono alcune delle opzioni disponibili:
 - Cartellonistica in negozio (vetrina, cassa, scaffali)
-- Adesivi, etichette per vetri simili al famoso esempio “Bitcoin accepted here”
+- Adesivi, etichette per vetri: simili al famoso esempio “Bitcoin accepted here”
 - Notifiche nei canali social, newsletter, sito web
 - Dialogo diretto con il cliente, ove possibile
-- Pubblicità da parte di influencer del mondo bitcoin, che parlano stessa lingua dei tuoi clienti
+- Pubblicità da parte di influencer del mondo bitcoin, che parlano stessa lingua dei clienti che ragionevolmente raggiungerai
 
 ### BTC Map
 
-In ogni caso, è sempre una buona pratica assicurarsi che la propria attività commerciale, se dotata di sede fisica, sia presente e aggiornata su [BTC Map](https://btcmap.org/map). Infatti la maggioranza dei bitcoiner conosce questo tool, quasi tutti coloro che hanno speso bitcoin in negozi fisici hanno controllato almeno una volta i locali che lo accettassero. Se vuoi imparare ad aggiungere su BTC Map il tuo negozio, o se vuoi saperne di più, guarda questo tutorial:
+In ogni caso, è sempre una buona pratica assicurarsi che la propria attività commerciale, se dotata di sede fisica, sia presente e aggiornata su [BTC Map](https://btcmap.org/map). Infatti la maggioranza dei bitcoiner conosce questo tool, quasi tutti coloro che hanno speso bitcoin in negozi fisici hanno controllato almeno una volta lì i locali che lo accettassero. Se vuoi imparare ad aggiungere su BTC Map il tuo negozio, o se vuoi saperne di più, guarda questo tutorial:
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 

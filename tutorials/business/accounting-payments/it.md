@@ -28,15 +28,16 @@ Dopo aver seguito la guida sarai pronto per accettare bitcoin come metodo di pag
 
 ### Configurazione avanzata
 
-Una configurazione leggermente più avanzata è usare la funzione Point of Sale di Wallet of Satoshi, accessibile dall'app cliccando sul menù ad hamburger in alto a destra (clicca dove vedi il segno rosso):
+Una configurazione leggermente più avanzata è usare la funzione Point of Sale di Wallet of Satoshi, accessibile dall'app cliccando sul menù ad hamburger in alto a destra (clicca dove indica la freccia):
 
 ![image](assets/en/01.webp)
 
-clicca poi sul bottone `Point of Sale` (sottolineato in rosso)
+clicca poi sul bottone `Point of Sale` indicato dalla freccia, nell'immagine di destra.
 
-![image](assets/en/02.webp)
-
-Questo è uno dei due modi per accedere alla funzione Point of Sale di Wallet of Satoshi, il secondo metodo è tramite l'app dedicata [Wallet of Satoshi PoS](https://www.walletofsatoshi.com/pos). Il vantaggio dell'app dedicata è la funzionalità di sola ricezione, quindi perfetta per permettere ai propri dipendenti di collezionare i pagamenti dei clenti.
+Questo è uno dei due modi per accedere alla funzione Point of Sale di Wallet of Satoshi, il secondo metodo è tramite l'app dedicata [Wallet of Satoshi PoS](https://www.walletofsatoshi.com/pos). I vantaggi della funzione Point of Sale sono tre:
+- la funzionalità di sola ricezione: perfetta per lasciare i propri dipendenti collezionare i pagamenti dei clienti, evitando che possano spendere quei fondi;
+- permettere di creare un elenco di prezzi e prodotti per il proprio negozio, così da creare invoice Lightning selezionando i prodotti comprati;
+- scaricare i report di vendita in formato CSV.
 
 Per saperne di più, ecco il tutorial dedicato a Wallet of Satoshi - Point of Sale:
 

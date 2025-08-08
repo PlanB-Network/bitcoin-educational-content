@@ -1300,9 +1300,9 @@ PureOS je distribucija izvedena iz Debiana koju razvija Purism, potpuno besplatn
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi mikroračunare. Bazirana je na Debianu, sa paketima rekompajliranim za ARM arhitekturu. Može se koristiti za obrazovne projekte, elektronsko testiranje ili male lične servere.
 

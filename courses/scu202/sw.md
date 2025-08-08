@@ -1300,9 +1300,9 @@ PureOS ni usambazaji unaotokana na Debian uliotengenezwa na Purism, bila malipo 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (zamani Raspbian) ni usambazaji ulioboreshwa kwa kompyuta ndogo za Raspberry Pi. Inategemea Debian, na vifurushi vilivyokusanywa tena kwa usanifu wa ARM. Inaweza kutumika kwa miradi ya elimu, upimaji wa elektroniki au seva ndogo za kibinafsi.
 

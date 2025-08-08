@@ -1300,9 +1300,9 @@ PureOS là một bản phân phối dựa trên Debian do Purism phát triển, 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Hệ điều hành Raspberry Pi**:
-
-
 
 Raspberry Pi OS (trước đây là Raspbian) là một bản phân phối được tối ưu hóa cho máy vi tính Raspberry Pi. Hệ điều hành này dựa trên Debian, với các gói được biên dịch lại cho kiến trúc ARM. Nó có thể được sử dụng cho các dự án giáo dục, thử nghiệm điện tử hoặc máy chủ cá nhân nhỏ.
 

@@ -1300,9 +1300,9 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - سیستم‌عامل Raspberry Pi**:
-
-
 
 سیستم‌عامل Raspberry Pi (که قبلاً به نام Raspbian شناخته می‌شد) یک توزیع بهینه‌سازی شده برای میکروکامپیوترهای Raspberry Pi است. این سیستم‌عامل بر پایه Debian است و بسته‌های آن برای معماری ARM بازکامپایل شده‌اند. می‌توان از آن برای پروژه‌های آموزشی، تست‌های الکترونیکی یا سرورهای شخصی کوچک استفاده کرد.
 

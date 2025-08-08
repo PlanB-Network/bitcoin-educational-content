@@ -1300,9 +1300,9 @@ PureOS on Purismin kehittämä Debianista johdettu jakelu, täysin ilmainen (FSF
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (aiemmin Raspbian) on Raspberry Pi -mikrotietokoneille optimoitu jakelu. Se perustuu Debianiin, ja paketit on käännetty uudelleen ARM-arkkitehtuuria varten. Sitä voidaan käyttää koulutusprojekteihin, elektroniikan testaukseen tai pieniin henkilökohtaisiin palvelimiin.
 

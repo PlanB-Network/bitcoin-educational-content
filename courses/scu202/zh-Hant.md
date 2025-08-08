@@ -1300,9 +1300,9 @@ PureOS 是 Purism 所開發的 Debian 衍生發行版，完全免費 (FSF 核准
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**：
-
-
 
 Raspberry Pi OS（前身為 Raspbian）是專為 Raspberry Pi 微型電腦最佳化的發行版。它以 Debian 為基礎，並針對 ARM 架構重新編譯套件。它可用於教育專案、電子測試或小型個人伺服器。
 

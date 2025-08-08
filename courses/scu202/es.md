@@ -1300,9 +1300,9 @@ PureOS es una distribución derivada de Debian desarrollada por Purism, totalmen
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (antes Raspbian) es una distribución optimizada para los microordenadores Raspberry Pi. Está basada en Debian, con paquetes recompilados para la arquitectura ARM. Puede utilizarse para proyectos educativos, pruebas electrónicas o pequeños servidores personales.
 

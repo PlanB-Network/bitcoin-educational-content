@@ -1300,9 +1300,9 @@ PureOS は Purism によって開発された Debian 由来のディストリビ
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**：
-
-
 
 Raspberry Pi OS（旧Raspbian）は、Raspberry Piマイクロコンピュータ用に最適化されたディストリビューションです。Debianをベースに、ARMアーキテクチャ向けに再コンパイルされたパッケージが含まれています。教育プロジェクトや電子テスト、小規模な個人サーバーなどに利用できます。
 

@@ -1300,9 +1300,9 @@ PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, benar-ben
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini didasarkan pada Debian, dengan paket-paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek pendidikan, pengujian elektronik, atau server pribadi kecil.
 

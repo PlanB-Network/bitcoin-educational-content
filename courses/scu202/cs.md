@@ -1300,9 +1300,9 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Operační systém Raspberry Pi**:
-
-
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 

@@ -1300,9 +1300,9 @@ PureOS - это производный от Debian дистрибутив, ра�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (ранее Raspbian) - дистрибутив, оптимизированный для микрокомпьютеров Raspberry Pi. Он основан на Debian, а пакеты перекомпилированы для архитектуры ARM. Он может использоваться для образовательных проектов, тестирования электроники или небольших персональных серверов.
 

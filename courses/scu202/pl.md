@@ -1300,9 +1300,9 @@ PureOS to dystrybucja wywodząca się z Debiana, opracowana przez Purism, całko
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (dawniej Raspbian) to dystrybucja zoptymalizowana dla mikrokomputerów Raspberry Pi. Opiera się na Debianie, z pakietami przekompilowanymi dla architektury ARM. Może być używana do projektów edukacyjnych, testów elektronicznych lub małych serwerów osobistych.
 

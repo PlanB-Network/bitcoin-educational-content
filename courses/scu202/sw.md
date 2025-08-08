@@ -5774,15 +5774,11 @@ Upande mbaya ni kupungua kwa utendakazi (kuchelewa kwa juu) na utangamano mdogo 
 
 #### Kivinjari cha Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) ni matokeo ya ushirikiano kati ya Tor Foundation na Mullvad VPN. Inategemea kivinjari cha Tor, ambayo yenyewe imetokana na Firefox ESR. Kivinjari cha Mullvad kimeundwa ili kuongeza ufaragha wa mtumiaji. Kwa chaguo-msingi, inajumuisha ulinzi wa hali ya juu dhidi ya alama za vidole, vifuatiliaji na hati za wahusika wengine.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ina vipengele vingi vya usalama na faragha vinavyotolewa na Tor Browser, na tofauti moja: haielekezi trafiki kupitia mtandao wa Tor. Ili kuepuka uvujaji wa IP Address, unaweza kuitumia pamoja na VPN (bora, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

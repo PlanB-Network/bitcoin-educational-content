@@ -5774,15 +5774,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### मुल्वाड ब्राउज़र
 
-
-
 [मुलवड ब्राउज़र](https://mullvad.net/en/browser) टोर फ़ाउंडेशन और मुलवड वीपीएन के बीच सहयोग का परिणाम है। यह टोर ब्राउज़र पर आधारित है, जो स्वयं फ़ायरफ़ॉक्स ईएसआर से लिया गया है। मुलवड ब्राउज़र को उपयोगकर्ता की गोपनीयता को अधिकतम करने के लिए डिज़ाइन किया गया है। डिफ़ॉल्ट रूप से, इसमें फ़िंगरप्रिंटिंग, ट्रैकर्स और तृतीय-पक्ष स्क्रिप्ट के विरुद्ध उन्नत सुरक्षा शामिल है।
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 इसमें टोर ब्राउज़र द्वारा प्रदान की जाने वाली अधिकांश सुरक्षा और गोपनीयता सुविधाएँ हैं, बस एक अंतर है: यह ट्रैफ़िक को टोर नेटवर्क के माध्यम से पुनर्निर्देशित नहीं करता है। IP Address लीक से बचने के लिए, आप इसे VPN (आदर्श रूप से, Mullvad VPN) के साथ संयोजन में उपयोग कर सकते हैं।
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

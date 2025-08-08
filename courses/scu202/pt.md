@@ -5774,15 +5774,11 @@ A desvantagem é uma redução significativa do desempenho (alta latência) e um
 
 #### Navegador Mullvad
 
-
-
 o [Mullvad Browser](https://mullvad.net/en/browser) é o resultado da colaboração entre a Fundação Tor e a Mullvad VPN. É baseado no navegador Tor, que por sua vez é derivado do Firefox ESR. O Mullvad Browser foi concebido para maximizar a privacidade do utilizador. Por defeito, inclui proteção avançada contra impressões digitais, localizadores e scripts de terceiros.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tem a maioria das caraterísticas de segurança e privacidade oferecidas pelo Navegador Tor, com uma diferença: não redirecciona o tráfego através da rede Tor. Para evitar fugas de IP Address, pode utilizá-lo em combinação com uma VPN (idealmente, a VPN Mullvad).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

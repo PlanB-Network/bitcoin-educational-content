@@ -5774,15 +5774,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

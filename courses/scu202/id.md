@@ -5774,15 +5774,11 @@ Kelemahannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompa
 
 #### Browser Mullvad
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. Peramban ini didasarkan pada peramban Tor, yang merupakan turunan dari Firefox ESR. Peramban Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 VPN ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: VPN ini tidak mengalihkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran IP Address, Anda bisa menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

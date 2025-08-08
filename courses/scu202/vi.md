@@ -5774,15 +5774,11 @@ Nhược điểm là hiệu suất giảm đáng kể (độ trễ cao) và kh�
 
 #### Trình duyệt Mullvad
 
-
-
 [Trình duyệt Mullvad](https://mullvad.net/en/browser) là kết quả hợp tác giữa Tor Foundation và Mullvad VPN. Trình duyệt này dựa trên trình duyệt Tor, vốn cũng được phát triển từ Firefox ESR. Mullvad Browser được thiết kế để tối đa hóa quyền riêng tư của người dùng. Theo mặc định, trình duyệt này bao gồm các tính năng bảo vệ nâng cao chống lại dấu vân tay, trình theo dõi và tập lệnh của bên thứ ba.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Trình duyệt này sở hữu hầu hết các tính năng bảo mật và quyền riêng tư mà Tor Browser cung cấp, với một điểm khác biệt: nó không chuyển hướng lưu lượng truy cập qua mạng Tor. Để tránh rò rỉ IP Address, bạn có thể sử dụng kết hợp với VPN (lý tưởng nhất là Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

@@ -5774,15 +5774,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvadブラウザ
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser)はTor FoundationとMullvad VPNのコラボレーションの成果です。Firefox ESRから派生したTorブラウザをベースにしています。Mullvad Browserはユーザーのプライバシーを最大化するように設計されています。デフォルトでは、フィンガープリンティング、トラッカー、サードパーティスクリプトに対する高度な保護が含まれています。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tor Browserが提供するセキュリティとプライバシー機能のほとんどを備えていますが、1つ違う点があります: Torネットワーク経由でトラフィックをリダイレクトしないことです。IP Addressのリークを避けるには、VPN（理想的にはMullvad VPN）と組み合わせて使用することができます。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

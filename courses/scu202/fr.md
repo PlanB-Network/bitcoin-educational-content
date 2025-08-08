@@ -2971,6 +2971,8 @@ La contrepartie est une réduction importante des performances (latence élevée
 
 [Mullvad Browser](https://mullvad.net/en/browser) est le fruit d’une collaboration entre la Fondation Tor et Mullvad VPN. Il repose sur la base du navigateur Tor, lui-même dérivé de Firefox ESR. Mullvad Browser est conçu pour maximiser la confidentialité de l'utilisateur. Il intègre par défaut des protections avancées contre le fingerprinting, les trackers et les scripts tiers.
 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+
 Il reprend l’essentiel des fonctionnalités de sécurité et de respect de la vie privée offertes par Tor Browser, à une différence près : il ne redirige pas le trafic via le réseau Tor. Pour éviter toute fuite d’adresse IP, vous pouvez l'utiliser en combinaison avec un VPN (idéalement, Mullvad VPN).
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

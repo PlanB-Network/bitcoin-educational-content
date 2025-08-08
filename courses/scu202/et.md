@@ -5774,15 +5774,11 @@ Miinuseks on jõudluse märkimisväärne vähenemine (suur latentsus) ja piiratu
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor Foundationi ja Mullvad VPN-i koostöö tulemus. See põhineb Tori brauseril, mis omakorda on tuletatud Firefox ESRist. Mullvad Browser on loodud selleks, et maksimeerida kasutaja privaatsust. Vaikimisi sisaldab see täiustatud kaitset sõrmejälgede, jälgijate ja kolmandate osapoolte skriptide vastu.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Sellel on enamik Tor Browser'i pakutavaid turva- ja privaatsusfunktsioone, ühe erinevusega: see ei suunata liiklust Tor-võrgu kaudu ümber. IP Address lekete vältimiseks saate seda kasutada koos VPNiga (ideaalis Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

@@ -5774,15 +5774,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### مرورگر مولود
 
-
-
 [مرورگر Mullvad](https://mullvad.net/en/browser) نتیجه همکاری بین بنیاد Tor و Mullvad VPN است. این مرورگر بر اساس مرورگر Tor ساخته شده که خود از Firefox ESR مشتق شده است. مرورگر Mullvad برای حداکثر کردن حریم خصوصی کاربران طراحی شده است. به‌طور پیش‌فرض، شامل حفاظت پیشرفته در برابر اثر انگشت دیجیتال، ردیاب‌ها و اسکریپت‌های شخص ثالث است.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 این دارای بیشتر ویژگی‌های امنیتی و حریم خصوصی ارائه شده توسط مرورگر Tor است، با یک تفاوت: ترافیک را از طریق شبکه Tor هدایت نمی‌کند. برای جلوگیری از نشت IP Address، می‌توانید آن را به همراه یک VPN (ترجیحاً Mullvad VPN) استفاده کنید.
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

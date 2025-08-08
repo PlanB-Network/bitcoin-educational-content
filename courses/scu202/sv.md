@@ -5774,15 +5774,11 @@ Nackdelen är en betydande prestandaförsämring (hög latens) och begränsad ko
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) är resultatet av ett samarbete mellan Tor Foundation och Mullvad VPN. Den är baserad på Tor-webbläsaren, som i sin tur är hämtad från Firefox ESR. Mullvad Browser är utformad för att maximera användarnas integritet. Som standard innehåller den avancerat skydd mot fingeravtryck, spårare och skript från tredje part.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de flesta av de säkerhets- och sekretessfunktioner som Tor Browser erbjuder, med en skillnad: den omdirigerar inte trafik via Tor-nätverket. För att undvika IP Address-läckor kan du använda den i kombination med ett VPN (helst Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

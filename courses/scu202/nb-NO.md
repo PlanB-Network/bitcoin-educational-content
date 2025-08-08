@@ -5774,15 +5774,11 @@ Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatib
 
 #### Mullvad nettleser
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) er resultatet av et samarbeid mellom Tor Foundation og Mullvad VPN. Den er basert på Tor-nettleseren, som i sin tur er avledet fra Firefox ESR. Mullvad Browser er utviklet for å maksimere brukernes personvern. Som standard inkluderer den avansert beskyttelse mot fingeravtrykk, sporere og tredjepartsskript.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de fleste av sikkerhets- og personvernfunksjonene som Tor Browser tilbyr, med én forskjell: Den omdirigerer ikke trafikk via Tor-nettverket. For å unngå IP Address-lekkasjer kan du bruke den i kombinasjon med et VPN (ideelt sett Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

@@ -5774,15 +5774,11 @@ Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja raj
 
 #### Mullvad selain
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor-säätiön ja Mullvad VPN:n yhteistyön tulos. Se perustuu Tor-selaimeen, joka on puolestaan johdettu Firefox ESR:stä. Mullvad Browser on suunniteltu maksimoimaan käyttäjän yksityisyys. Se sisältää oletusarvoisesti kehittyneen suojan sormenjälkiä, seurantalaitteita ja kolmannen osapuolen skriptejä vastaan.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Siinä on suurin osa Tor Browserin tarjoamista turvallisuus- ja yksityisyysominaisuuksista yhdellä erolla: se ei ohjaa liikennettä Tor-verkon kautta. Jos haluat välttää IP Address -vuodot, voit käyttää sitä yhdessä VPN:n kanssa (mieluiten Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 

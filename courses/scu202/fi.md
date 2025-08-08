@@ -5811,6 +5811,8 @@ Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty ko
 
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### WebKit-pohjaiset selaimet
 
 #### Safari

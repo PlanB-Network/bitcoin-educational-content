@@ -5811,6 +5811,8 @@ Zen также поддерживает расширения Firefox, а так�
 
 Zen Browser - интересная альтернатива, если вы ищете свободную, инновационную, незагроможденную и уважающую вашу конфиденциальность среду просмотра Gecko.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Браузеры на базе WebKit
 
 #### Сафари

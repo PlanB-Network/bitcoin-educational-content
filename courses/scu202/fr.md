@@ -3010,6 +3010,8 @@ D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des
 
 Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Navigateurs basés sur WebKit
 
 #### Safari

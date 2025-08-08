@@ -5811,6 +5811,8 @@ Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování s
 
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Prohlížeče založené na WebKitu
 
 #### Safari

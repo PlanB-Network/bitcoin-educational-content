@@ -5811,6 +5811,8 @@ Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pel
 
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Browser berbasis WebKit
 
 #### Safari

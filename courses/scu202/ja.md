@@ -5811,6 +5811,8 @@ ZenはFirefoxの拡張機能もサポートしており、Mozillaアカウント
 
 Zen Browserは、自由で、革新的で、すっきりしていて、プライバシーを尊重するGeckoブラウジング環境を探しているなら、興味深い選択肢です。
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### WebKitベースのブラウザ
 
 #### サファリ

@@ -5811,6 +5811,8 @@ Về mặt bảo mật và quyền riêng tư, Zen có tính năng chặn trình
 
 Zen Browser là một lựa chọn thay thế thú vị nếu bạn đang tìm kiếm một môi trường duyệt web Gecko miễn phí, sáng tạo, gọn gàng và tôn trọng quyền riêng tư của bạn.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Trình duyệt dựa trên WebKit
 
 #### Cuộc đi săn

@@ -4408,6 +4408,8 @@ From a security and privacy point of view, Zen features native blocking of third
 
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### WebKit-based browsers
 
 #### Safari

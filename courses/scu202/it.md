@@ -5811,6 +5811,8 @@ Dal punto di vista della sicurezza e della privacy, Zen è dotato di un blocco n
 
 Zen Browser è un'alternativa interessante se siete alla ricerca di un ambiente di navigazione Gecko libero, innovativo, ordinato e rispettoso della vostra privacy.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Browser basati su WebKit
 
 #### Safari

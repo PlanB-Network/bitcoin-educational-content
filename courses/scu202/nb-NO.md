@@ -5811,6 +5811,8 @@ Når det gjelder sikkerhet og personvern, har Zen innebygd blokkering av tredjep
 
 Zen Browser er et interessant alternativ hvis du er på utkikk etter et Gecko-nettlesingsmiljø som er gratis, innovativt, ryddig og som respekterer personvernet ditt.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### WebKit-baserte nettlesere
 
 #### Safari

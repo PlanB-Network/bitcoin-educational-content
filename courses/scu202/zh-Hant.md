@@ -5811,6 +5811,8 @@ Zen 也支援 Firefox 擴充套件，以及透過 Mozilla 帳戶進行同步處�
 
 如果您正在尋找一個免費、創新、不雜亂且尊重您隱私的 Gecko 瀏覽環境，Zen Browser 是一個有趣的選擇。
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### 基於 WebKit 的瀏覽器
 
 #### 野生動物園

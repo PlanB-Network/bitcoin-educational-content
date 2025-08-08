@@ -5811,6 +5811,8 @@ Zen 还支持 Firefox 扩展，以及通过 Mozilla 账户进行同步。
 
 如果你正在寻找一个自由、创新、简洁、尊重隐私的 Gecko 浏览环境，Zen 浏览器是一个有趣的替代选择。
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### 基于 WebKit 的浏览器
 
 #### 野生动物园

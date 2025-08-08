@@ -5811,6 +5811,8 @@ Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih s
 
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+
 ### Pregledači zasnovani na WebKit-u
 
 #### Safari

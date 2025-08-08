@@ -100,7 +100,7 @@ Questo modello differisce profondamente dai sistemi bancari tradizionali, che si
 
 Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità monetarie non sono gestite attraverso i saldi, ma attraverso gli UTXO. Un UTXO rappresenta una quantità specifica di bitcoin non ancora spesi, formando così un "pezzo di bitcoin", che può essere grande o piccolo. Ad esempio, un UTXO può valere `500 BTC` o semplicemente `700 SATS`.
 
-**> Il satoshi, spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute fiat.
+**Ricorda:** Il satoshi, spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute fiat.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità
 
 Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "polvere", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
 
-**> Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Lo sapevi?** Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO e condizioni di spesa
 
@@ -148,7 +148,7 @@ Ogni transazione Bitcoin è quindi composta da uno o più ingressi e da una o pi
 
 ![BTC204](assets/fr/011.webp)
 
-**> In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del blocco.
+**Lo sapevi?** In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del blocco.
 
 Ogni input in una transazione Bitcoin si riferisce a un precedente UTXO non speso. Per utilizzare un UTXO come input, il suo titolare deve dimostrare di esserne il legittimo proprietario convalidando la scrittura associata, cioè soddisfacendo la condizione di spesa imposta. In generale, ciò significa fornire una firma digitale prodotta con la chiave privata corrispondente alla chiave pubblica che ha garantito inizialmente questo UTXO. La scrittura consiste quindi nel verificare che la firma corrisponda alla chiave pubblica utilizzata al momento della ricezione dei fondi.
 
@@ -211,7 +211,7 @@ I bitcoin sovvenzionati in blocco sono nuovi BTC creati da zero, secondo un prog
 
 Per quanto riguarda le commissioni di transazione, sebbene anch'esse rappresentino BTC creati ex novo, non devono superare la differenza tra gli input e gli output totali di tutte le transazioni in un blocco. Abbiamo visto in precedenza che queste commissioni rappresentano la parte di input che non viene utilizzata nelle transazioni in uscita. Questa parte è tecnicamente "persa" durante la transazione e il miner ha il diritto di ricreare questo valore sotto forma di uno o più nuovi UTXO. Si tratta di un trasferimento di valore tra l'emittente della transazione e il miner che la aggiunge alla blockchain.
 
-**> I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturità di 100 blocchi, durante il quale non possono essere spesi dal miner. Questa regola è stata pensata per evitare complicazioni legate all'utilizzo di bitcoin appena creati su una catena che potrebbe in seguito essere resa obsoleta.
+**Lo sapevi?** I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturità di 100 blocchi, durante il quale non possono essere spesi dal miner. Questa regola è stata pensata per evitare complicazioni legate all'utilizzo di bitcoin appena creati su una catena che potrebbe in seguito essere resa obsoleta.
 
 ### Le implicazioni del modello UTXO
 
@@ -235,10 +235,8 @@ Ecco perché usiamo il denaro per spostare il valore sia nello spazio che nel te
 ![BTC204](assets/fr/018.webp)
 
 Affinché la moneta risolva questo problema, è essenziale che la parte che fornisce un bene o un servizio sia convinta della sua capacità di spendere quella somma in un momento successivo. Pertanto, qualsiasi individuo razionale che desideri accettare una moneta, sia essa digitale o fisica, si assicurerà che essa soddisfi due criteri fondamentali:
-
-
-- Il pezzo deve avere integrità e autenticità ;**
-- e non deve essere speso due volte.**
+- **Il pezzo deve avere integrità e autenticità ;**
+- **e non deve essere speso due volte.**
 
 Se si utilizza una moneta fisica, la prima caratteristica è la più complessa da affermare. In diversi periodi storici, l'integrità delle monete metalliche è stata spesso compromessa da pratiche come la rifilatura o la foratura. Nell'antica Roma, ad esempio, era pratica comune per i cittadini raschiare i bordi delle monete d'oro per raccogliere un po' di metallo prezioso, conservandolo per future transazioni. In questo modo il valore intrinseco della moneta veniva ridotto, ma il suo valore nominale rimaneva invariato. Questo è uno dei motivi per cui il bordo della moneta è stato successivamente scanalato.
 
@@ -302,12 +300,9 @@ Tuttavia, poiché le transazioni Bitcoin sono rese pubbliche, è comunque possib
 L'analisi della catena di bit è la pratica di tracciare il flusso di bitcoin sulla catena di bit. In generale, l'analisi della catena si basa sull'osservazione di caratteristiche in campioni di transazioni precedenti. Consiste quindi nell'identificare queste stesse caratteristiche in una transazione che si desidera analizzare e nel dedurre da esse interpretazioni plausibili. Questo metodo di risoluzione dei problemi, basato su un approccio pratico per trovare una soluzione sufficientemente buona, è noto come "euristica".
 
 In parole povere, l'analisi della catena si articola in tre fasi principali:
-
 1. **Osservare la blockchain ;**
-
 2. **L'identificazione di caratteristiche note ;**
-
-3. **La deduzione di ipotesi
+3. **La deduzione di ipotesi**
 
 ![BTC204](assets/fr/026.webp)
 

@@ -5806,52 +5806,31 @@ Podrazumevano, LibreWolf aktivira napredna sigurnosna podešavanja Firefoxa (kao
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je besplatan i otvoren izvorni pregledač zasnovan na Firefoxu (Gecko engine), pokrenut 2024. godine. Njegov cilj je da ponudi moderno, elegantno, visoko prilagodljivo i pre svega iskustvo pregledanja usmereno na privatnost, bez oslanjanja na Chromium.
 
-
-
 Zen se ističe svojim radikalnim pristupom Interface i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko endžinom. Uključuje :
-
-
-
 
 - Minimalistički, modularni Interface, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
 - Sistem prilagodljivih Interface šablona (*Zen Mods*) koji se mogu koristiti za duboku izmenu izgleda pregledača;
 - Originalna funkcija pod nazivom *Glance*, koja otvara link u laganom privremenom prozoru, izbegavajući nered sa karticama...
 
-
-
 Zen takođe podržava ekstenzije za Firefox, kao i sinhronizaciju putem Mozilla naloga.
-
-
 
 Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih strana koje prate korisnike. Pregledač sam po sebi ne prikuplja nikakve podatke, a takođe omogućava da se onemogući Mozilla telemetrija. Takođe automatski odbacuje zastarele ili neusklađene SSL sertifikate.
 
-
-
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
-
-
 
 ### Pregledači zasnovani na WebKit-u
 
-
-
 #### Safari
-
-
 
 Glavni pregledač koji još uvek koristi WebKit rendering engine (nije Fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
 
-
-
 Međutim, Safari ostaje zatvoren, ograničen na macOS za svoju desktop verziju, i zavisan od Apple ekosistema. Iako Apple ima snažnu politiku privatnosti, sa poslovnim modelom koji se prvenstveno zasniva na prodaji hardvera, a ne na oglašavanju, ostaje nejasno u vezi sa određenim internim praksama.
-
-
 
 Ovde se fokusiramo na desktop pregledače, ali je važno napomenuti da na iOS-u, Apple zahteva da svi pregledači koriste WebKit rendering engine (ograničenje koje bi se, međutim, uskoro moglo promeniti kao rezultat određenih evropskih regulativa). To znači da pregledači kao što su Chrome, Firefox ili Brave moraju, na iOS-u, ponuditi aplikaciju zasnovanu na WebKit-u, a ne na njihovom uobičajenom rendering engine-u.
 

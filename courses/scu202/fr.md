@@ -2991,6 +2991,8 @@ LibreWolf active par défaut les paramètres de sécurité avancés de Firefox (
 
 ![Image](assets/fr/115.webp)
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) est un navigateur libre et open source basé sur Firefox (moteur Gecko), lancé en 2024. Son objectif est de proposer une expérience de navigation moderne, élégante, très personnalisable, et surtout centrée sur la vie privée, sans dépendance à Chromium.

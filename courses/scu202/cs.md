@@ -5806,52 +5806,31 @@ Ve výchozím nastavení LibreWolf aktivuje pokročilá nastavení zabezpečení
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Prohlížeč Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je svobodný prohlížeč s otevřeným zdrojovým kódem založený na prohlížeči Firefox (engine Gecko), který byl uveden na trh v roce 2024. Jeho cílem je nabídnout moderní, elegantní, vysoce přizpůsobitelné a především na soukromí zaměřené prohlížení bez závislosti na Chromu.
 
-
-
 Zen vyniká svým radikálním přístupem k Interface a použitelnosti, který je do značné míry inspirován prohlížečem Arc, od něhož se však osvobozuje díky své otevřenosti a enginu Gecko. Obsahuje :
-
-
-
 
 - Minimalistický modulární nástroj Interface se svislým postranním panelem pro karty, rozděleným zobrazením a systémem *workspace* pro seskupování sad karet podle projektů;
 - Systém přizpůsobitelných šablon Interface (*Zen Mods*), které lze použít k hlubokým úpravám vzhledu prohlížeče;
 - Originální funkce *Glance*, která otevře odkaz v lehkém dočasném okně, čímž se vyhne nepřehledným záložkám...
 
-
-
 Zen podporuje také rozšíření Firefoxu a synchronizaci prostřednictvím účtu Mozilla.
-
-
 
 Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování sledovacích zařízení třetích stran. Prohlížeč sám neshromažďuje žádná data a umožňuje také vypnout telemetrii Mozilla. Automaticky také odmítá zastaralé nebo nevyhovující certifikáty SSL.
 
-
-
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
-
-
 
 ### Prohlížeče založené na WebKitu
 
-
-
 #### Safari
-
-
 
 Hlavním prohlížečem, který stále používá vykreslovací jádro WebKit (nikoli Fork jako Blink), je Safari. [Safari](https://www.apple.com/safari/) je exkluzivní prohlížeč společnosti Apple pro systém macOS. Nabízí vynikající integraci s ekosystémem Apple, vysoký výkon a nyní obsahuje silnější ochranu proti sledování a snímání otisků prstů.
 
-
-
 Safari však zůstává uzavřený, omezený na macOS pro desktopovou verzi a závislý na ekosystému Apple. Ačkoli společnost Apple uplatňuje přísnou politiku ochrany osobních údajů a její obchodní model je založen především na prodeji hardwaru, nikoli na reklamě, zůstávají některé interní postupy nejasné.
-
-
 
 Zde se zaměřujeme na prohlížeče pro stolní počítače, ale je důležité poznamenat, že v systému iOS vyžaduje společnost Apple, aby všechny prohlížeče používaly vykreslovací jádro WebKit (toto omezení se však může brzy změnit v důsledku určitých evropských předpisů). To znamená, že prohlížeče jako Chrome, Firefox nebo Brave musí v systému iOS nabízet aplikaci založenou na WebKitu, a nikoli na svém obvyklém vykreslovacím jádře.
 

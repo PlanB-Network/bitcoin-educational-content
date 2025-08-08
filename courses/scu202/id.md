@@ -5806,52 +5806,31 @@ Secara default, LibreWolf mengaktifkan pengaturan keamanan tingkat lanjut Firefo
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Browser Zen
-
-
 
 [Zen Browser] (https://zen-browser.app/) adalah peramban sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
 
-
-
 Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh peramban Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
-
-
-
 
 - Interface modular yang minimalis, dengan bilah sisi vertikal untuk tab, tampilan terpisah, dan sistem *ruang kerja* untuk mengelompokkan kumpulan tab berdasarkan proyek;
 - Sistem templat Interface yang dapat disesuaikan (*Zen Mods*) yang dapat digunakan untuk memodifikasi tampilan browser secara mendalam;
 - Fungsi orisinal yang disebut *Glance*, yang membuka tautan di jendela sementara yang ringan, menghindari kekacauan tab...
 
-
-
 Zen juga mendukung ekstensi Firefox, serta sinkronisasi melalui akun Mozilla.
-
-
 
 Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. Peramban ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. Peramban ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
 
-
-
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
-
-
 
 ### Browser berbasis WebKit
 
-
-
 #### Safari
-
-
 
 Peramban utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah peramban eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
 
-
-
 Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktopnya, dan bergantung pada ekosistem Apple. Meskipun Apple memiliki kebijakan privasi yang kuat, dengan model bisnisnya yang terutama didasarkan pada penjualan perangkat keras dan bukannya iklan, namun masih belum jelas tentang praktik internal tertentu.
-
-
 
 Di sini, kami berfokus pada peramban desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua peramban untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
 

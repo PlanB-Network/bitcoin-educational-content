@@ -5806,52 +5806,31 @@ Domyślnie LibreWolf aktywuje zaawansowane ustawienia bezpieczeństwa Firefoksa 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Przeglądarka Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) to darmowa i otwarta przeglądarka oparta na Firefoksie (silnik Gecko), uruchomiona w 2024 roku. Jej celem jest oferowanie nowoczesnego, eleganckiego, wysoce konfigurowalnego, a przede wszystkim zorientowanego na prywatność przeglądania, bez zależności od Chromium.
 
-
-
 Zen wyróżnia się radykalnym podejściem do Interface i użyteczności, w dużej mierze inspirowanym przeglądarką Arc, ale wyemancypowanym z niej dzięki otwartemu oprogramowaniu i silnikowi Gecko. Zawiera :
-
-
-
 
 - Minimalistyczny, modułowy Interface, z pionowym paskiem bocznym dla zakładek, podzielonym widokiem i systemem *workspace* do grupowania zestawów zakładek według projektów;
 - System konfigurowalnych szablonów Interface (*Zen Mods*), które można wykorzystać do głębokiej modyfikacji wyglądu przeglądarki;
 - Oryginalna funkcja o nazwie *Glance*, która otwiera link w lekkim oknie tymczasowym, unikając bałaganu zakładek...
 
-
-
 Zen obsługuje również rozszerzenia Firefoksa, a także synchronizację za pośrednictwem konta Mozilla.
-
-
 
 Z punktu widzenia bezpieczeństwa i prywatności, Zen oferuje natywne blokowanie trackerów stron trzecich. Przeglądarka sama nie gromadzi żadnych danych, a także umożliwia wyłączenie telemetrii Mozilli. Automatycznie odrzuca również przestarzałe lub niezgodne certyfikaty SSL.
 
-
-
 Zen Browser to interesująca alternatywa, jeśli szukasz środowiska przeglądania Gecko, które jest bezpłatne, innowacyjne, przejrzyste i szanuje Twoją prywatność.
-
-
 
 ### Przeglądarki oparte na WebKit
 
-
-
 #### Safari
-
-
 
 Główną przeglądarką nadal korzystającą z silnika renderującego WebKit (nie Fork jak Blink) jest Safari. [Safari](https://www.apple.com/safari/) jest wyłączną przeglądarką Apple dla macOS. Oferuje doskonałą integrację z ekosystemem Apple, wysoką wydajność, a teraz zawiera silniejsze zabezpieczenia przed śledzeniem i odciskami palców.
 
-
-
 Safari pozostaje jednak zamknięte, ograniczone do macOS w wersji na komputery stacjonarne i zależne od ekosystemu Apple. Chociaż Apple ma silną politykę prywatności, a jego model biznesowy opiera się głównie na sprzedaży sprzętu, a nie na reklamach, pozostaje niejasny co do niektórych wewnętrznych praktyk.
-
-
 
 Tutaj skupiamy się na przeglądarkach desktopowych, ale ważne jest, aby pamiętać, że na iOS Apple wymaga, aby wszystkie przeglądarki korzystały z silnika renderującego WebKit (ograniczenie, które może jednak wkrótce ulec zmianie w wyniku pewnych europejskich przepisów). Oznacza to, że przeglądarki takie jak Chrome, Firefox czy Brave muszą na iOS oferować aplikację opartą na WebKit, a nie na ich zwykłym silniku renderującym.
 

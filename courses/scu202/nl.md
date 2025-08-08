@@ -5806,52 +5806,31 @@ Standaard activeert LibreWolf de geavanceerde beveiligingsinstellingen van Firef
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-browser
-
-
 
 [Zen Browser](https://zen-browser.app/) is een gratis en open source browser gebaseerd op Firefox (Gecko engine), gelanceerd in 2024. Het doel is om een moderne, elegante, zeer aanpasbare en vooral privacy-gerichte browse-ervaring te bieden, zonder afhankelijk te zijn van Chromium.
 
-
-
 Zen onderscheidt zich door zijn radicale benadering van Interface en bruikbaarheid, grotendeels geïnspireerd door de Arc browser, maar er toch van geëmancipeerd door zijn open-source karakter en Gecko engine. Het bevat :
-
-
-
 
 - Een minimalistische, modulaire Interface, met een verticale zijbalk voor tabbladen, een gesplitste weergave en een *werkruimte* systeem voor het groeperen van sets tabbladen per project;
 - Een systeem van aanpasbare Interface sjablonen (*Zen Mods*) die gebruikt kunnen worden om het uiterlijk van de browser diepgaand te wijzigen;
 - Een originele functie genaamd *Glance*, die een link opent in een lichtgewicht tijdelijk venster, waardoor de rommel van tabbladen wordt vermeden...
 
-
-
 Zen ondersteunt ook Firefox-extensies en synchronisatie via een Mozilla-account.
-
-
 
 Vanuit het oogpunt van beveiliging en privacy beschikt Zen over een ingebouwde blokkering van trackers van derden. De browser verzamelt zelf geen gegevens en het is ook mogelijk om Mozilla telemetrie uit te schakelen. Ook worden verouderde of niet-conforme SSL-certificaten automatisch geweigerd.
 
-
-
 Zen Browser is een interessant alternatief als je op zoek bent naar een Gecko-browseromgeving die gratis, innovatief, overzichtelijk en privacyvriendelijk is.
-
-
 
 ### WebKit-gebaseerde browsers
 
-
-
 #### Safari
-
-
 
 De belangrijkste browser die nog steeds de WebKit rendering engine gebruikt (geen Fork zoals Blink) is Safari. [Safari](https://www.apple.com/safari/) is de exclusieve browser van Apple voor macOS. Het biedt uitstekende integratie met het Apple ecosysteem, hoge prestaties en bevat nu sterkere bescherming tegen tracking en fingerprinting.
 
-
-
 Safari blijft echter gesloten, beperkt tot macOS voor de desktopversie en afhankelijk van het Apple ecosysteem. Hoewel Apple een sterk privacybeleid heeft en zijn bedrijfsmodel voornamelijk is gebaseerd op de verkoop van hardware in plaats van reclame, blijft het onduidelijk over bepaalde interne praktijken.
-
-
 
 Hier richten we ons op desktopbrowsers, maar het is belangrijk om op te merken dat Apple op iOS vereist dat alle browsers de WebKit rendering engine gebruiken (een beperking die echter binnenkort kan veranderen als gevolg van bepaalde Europese regelgeving). Dit betekent dat browsers zoals Chrome, Firefox of Brave op iOS een toepassing moeten aanbieden die is gebaseerd op WebKit, en niet op hun gebruikelijke rendering engine.
 

@@ -5806,52 +5806,31 @@ Som standard aktiverer LibreWolf Firefox' avanserte sikkerhetsinnstillinger (for
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-nettleser
-
-
 
 [Zen Browser] (https://zen-browser.app/) er en gratis nettleser med åpen kildekode basert på Firefox (Gecko-motor), lansert i 2024. Målet er å tilby en moderne, elegant, svært tilpasningsdyktig og fremfor alt personvernsentrert nettleseropplevelse, uten avhengighet av Chromium.
 
-
-
 Zen skiller seg ut med sin radikale tilnærming til Interface og brukervennlighet, i stor grad inspirert av Arc-nettleseren, men frigjort fra den ved hjelp av åpen kildekode og Gecko-motoren. Den inkluderer :
-
-
-
 
 - En minimalistisk, modulær Interface, med et vertikalt sidefelt for faner, en delt visning og et *arbeidsområde*-system for gruppering av fanesett etter prosjekt;
 - Et system med tilpassbare Interface-maler (*Zen Mods*) som kan brukes til å endre nettleserens utseende;
 - En original funksjon kalt *Glance*, som åpner en lenke i et lett, midlertidig vindu, slik at du slipper å bruke faner...
 
-
-
 Zen støtter også Firefox-utvidelser, samt synkronisering via en Mozilla-konto.
-
-
 
 Når det gjelder sikkerhet og personvern, har Zen innebygd blokkering av tredjepartssporere. Nettleseren samler ikke inn data selv, og den gjør det også mulig å deaktivere Mozilla-telemetri. Den avviser også automatisk foreldede eller ikke-kompatible SSL-sertifikater.
 
-
-
 Zen Browser er et interessant alternativ hvis du er på utkikk etter et Gecko-nettlesingsmiljø som er gratis, innovativt, ryddig og som respekterer personvernet ditt.
-
-
 
 ### WebKit-baserte nettlesere
 
-
-
 #### Safari
-
-
 
 Den viktigste nettleseren som fortsatt bruker WebKit-gjengivelsesmotoren (ikke en Fork som Blink), er Safari. [Safari](https://www.apple.com/safari/) er Apples eksklusive nettleser for macOS. Den tilbyr utmerket integrasjon med Apples økosystem, høy ytelse og inkluderer nå sterkere beskyttelse mot sporing og fingeravtrykk.
 
-
-
 Safari er imidlertid fortsatt lukket, begrenset til macOS for desktop-versjonen, og avhengig av Apples økosystem. Selv om Apple har en sterk personvernpolicy, med en forretningsmodell som først og fremst er basert på salg av maskinvare i stedet for reklame, er det fortsatt uklart om visse interne praksiser.
-
-
 
 Her fokuserer vi på nettlesere på datamaskiner, men det er viktig å merke seg at Apple krever at alle nettlesere på iOS bruker WebKit-gjengivelsesmotoren (en begrensning som imidlertid snart kan endre seg som følge av visse europeiske forskrifter). Dette betyr at nettlesere som Chrome, Firefox eller Brave på iOS må tilby en applikasjon basert på WebKit, og ikke på deres vanlige gjengivelsesmotor.
 

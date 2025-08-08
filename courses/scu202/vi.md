@@ -5806,52 +5806,31 @@ Theo mặc định, LibreWolf kích hoạt các thiết lập bảo mật nâng 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Trình duyệt Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) là trình duyệt mã nguồn mở miễn phí dựa trên Firefox (công cụ Gecko), ra mắt vào năm 2024. Mục tiêu của trình duyệt này là mang đến trải nghiệm duyệt web hiện đại, thanh lịch, có khả năng tùy chỉnh cao và trên hết là chú trọng đến quyền riêng tư mà không phụ thuộc vào Chromium.
 
-
-
 Zen nổi bật với cách tiếp cận triệt để đối với Interface và khả năng sử dụng, phần lớn lấy cảm hứng từ trình duyệt Arc, nhưng được tách biệt khỏi trình duyệt này nhờ bản chất mã nguồn mở và công cụ Gecko. Zen bao gồm:
-
-
-
 
 - Một Interface tối giản, dạng mô-đun, có thanh bên dọc cho các tab, chế độ xem chia đôi và hệ thống *không gian làm việc* để nhóm các tập hợp tab theo dự án;
 - Một hệ thống các mẫu Interface có thể tùy chỉnh (*Zen Mods*) có thể được sử dụng để sửa đổi sâu sắc giao diện của trình duyệt;
 - Một chức năng gốc có tên là *Glance*, mở liên kết trong một cửa sổ tạm thời nhẹ, tránh sự lộn xộn của các tab...
 
-
-
 Zen cũng hỗ trợ tiện ích mở rộng của Firefox cũng như đồng bộ hóa thông qua tài khoản Mozilla.
-
-
 
 Về mặt bảo mật và quyền riêng tư, Zen có tính năng chặn trình theo dõi của bên thứ ba. Trình duyệt không tự thu thập bất kỳ dữ liệu nào và cũng cho phép tắt tính năng đo từ xa của Mozilla. Nó cũng tự động từ chối các chứng chỉ SSL lỗi thời hoặc không tuân thủ.
 
-
-
 Zen Browser là một lựa chọn thay thế thú vị nếu bạn đang tìm kiếm một môi trường duyệt web Gecko miễn phí, sáng tạo, gọn gàng và tôn trọng quyền riêng tư của bạn.
-
-
 
 ### Trình duyệt dựa trên WebKit
 
-
-
 #### Cuộc đi săn
-
-
 
 Trình duyệt chính vẫn sử dụng công cụ kết xuất WebKit (không phải Fork như Blink) là Safari. [Safari](https://www.apple.com/safari/) là trình duyệt độc quyền của Apple dành cho macOS. Nó tích hợp tuyệt vời với hệ sinh thái Apple, hiệu suất cao và hiện được trang bị khả năng bảo vệ mạnh mẽ hơn chống lại việc theo dõi và lấy dấu vân tay.
 
-
-
 Tuy nhiên, Safari vẫn đóng, chỉ giới hạn ở macOS cho phiên bản máy tính để bàn và phụ thuộc vào hệ sinh thái Apple. Mặc dù Apple có chính sách bảo mật chặt chẽ, với mô hình kinh doanh chủ yếu dựa vào bán phần cứng hơn là quảng cáo, nhưng vẫn chưa rõ ràng về một số hoạt động nội bộ.
-
-
 
 Ở đây, chúng tôi tập trung vào các trình duyệt máy tính để bàn, nhưng điều quan trọng cần lưu ý là trên iOS, Apple yêu cầu tất cả các trình duyệt phải sử dụng công cụ kết xuất WebKit (tuy nhiên, một hạn chế có thể sớm thay đổi do một số quy định của châu Âu). Điều này có nghĩa là các trình duyệt như Chrome, Firefox hoặc Brave trên iOS phải cung cấp ứng dụng dựa trên WebKit, chứ không phải công cụ kết xuất thông thường của chúng.
 

@@ -5806,52 +5806,31 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### 禅宗浏览器
-
-
 
 [Zen 浏览器](https://zen-browser.app/) 是一款基于 Firefox（Gecko 引擎）的免费开源浏览器，于 2024 年推出。它的目标是提供现代、优雅、高度可定制且最重要的是以隐私为中心的浏览体验，而不依赖 Chromium。
 
-
-
 Zen 在 Interface 和可用性方面采用了激进的方法，主要受到 Arc 浏览器的启发，但又通过其开源性质和 Gecko 引擎从 Arc 浏览器中解放出来。它包括 ：
-
-
-
 
 - 这是一款极简的模块化 Interface，具有垂直侧边栏标签、分割视图和按项目分组标签的*工作区*系统；
 - 可定制的 Interface 模板系统（*Zen Mods*），可用于深度修改浏览器的外观；
 - 一个名为 *Glance* 的原创功能，可在轻量级临时窗口中打开链接，避免标签页的杂乱无章...
 
-
-
 Zen 还支持 Firefox 扩展，以及通过 Mozilla 账户进行同步。
-
-
 
 从安全和隐私的角度来看，Zen 浏览器具有本地阻止第三方跟踪器的功能。该浏览器本身不收集任何数据，还允许禁用 Mozilla 遥测技术。它还能自动拒绝过时或不合规的 SSL 证书。
 
-
-
 如果你正在寻找一个自由、创新、简洁、尊重隐私的 Gecko 浏览环境，Zen 浏览器是一个有趣的替代选择。
-
-
 
 ### 基于 WebKit 的浏览器
 
-
-
 #### 野生动物园
-
-
 
 目前仍在使用 WebKit 渲染引擎（而非 Blink 那样的 Fork）的主要浏览器是 Safari。[Safari](https://www.apple.com/safari/)是苹果为 macOS 提供的专属浏览器。它与苹果生态系统的集成度极高，性能卓越，现在还包括更强大的跟踪和指纹识别保护功能。
 
-
-
 然而，Safari 仍然是封闭的，其桌面版本仅限于 macOS，并且依赖于苹果生态系统。虽然苹果公司有严格的隐私政策，其商业模式主要基于硬件销售而非广告，但它对某些内部做法仍不清楚。
-
-
 
 在这里，我们重点讨论的是桌面浏览器，但需要注意的是，在 iOS 上，苹果要求所有浏览器都使用 WebKit 渲染引擎（不过，由于欧洲的某些规定，这一限制可能很快就会改变）。这意味着在 iOS 上，Chrome、Firefox 或 Brave 等浏览器必须提供基于 WebKit 的应用程序，而不是它们常用的呈现引擎。
 

@@ -5806,52 +5806,31 @@ Oletusarvoisesti LibreWolf aktivoi Firefoxin kehittyneet tietoturva-asetukset (k
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-selain
-
-
 
 [Zen Browser] (https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
 
-
-
 Zen erottuu edukseen radikaalin Interface- ja käytettävyyslähestymistapansa vuoksi, joka on pitkälti Arc-selaimen innoittama, mutta vapautuu siitä avoimen lähdekoodin ja Gecko-moottorin ansiosta. Se sisältää :
-
-
-
 
 - Minimalistinen, modulaarinen Interface, jossa on pystysuora sivupalkki välilehtiä varten, jaettu näkymä ja *työtila*-järjestelmä välilehtien ryhmittelyyn projekteittain;
 - Muokattavien Interface-mallien (*Zen Mods*) järjestelmä, jonka avulla selaimen ulkoasua voidaan muokata perusteellisesti;
 - Alkuperäinen toiminto nimeltä *Glance*, joka avaa linkin kevyeen väliaikaiseen ikkunaan, välttäen välilehtien sekamelskaa....
 
-
-
 Zen tukee myös Firefox-laajennuksia sekä synkronointia Mozilla-tilin kautta.
-
-
 
 Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty kolmannen osapuolen seurantalaitteet. Selain ei kerää itse mitään tietoja, ja se mahdollistaa myös Mozillan telemetrian poistamisen käytöstä. Se myös hylkää automaattisesti vanhentuneet tai vaatimustenvastaiset SSL-varmenteet.
 
-
-
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
-
-
 
 ### WebKit-pohjaiset selaimet
 
-
-
 #### Safari
-
-
 
 Tärkein selain, joka käyttää edelleen WebKit-selainta (ei Fork:ää kuten Blink), on Safari. [Safari](https://www.apple.com/safari/) on Applen yksinomainen selain macOS:lle. Se integroituu erinomaisesti Applen ekosysteemiin, on erittäin suorituskykyinen ja sisältää nyt vahvemmat suojaukset jäljittämistä ja sormenjälkiä vastaan.
 
-
-
 Safari on kuitenkin edelleen suljettu, sen työpöytäversio on rajoitettu macOS-käyttöjärjestelmään ja se on riippuvainen Applen ekosysteemistä. Vaikka Applella on vahva tietosuojakäytäntö, ja sen liiketoimintamalli perustuu ensisijaisesti laitteistomyyntiin eikä mainontaan, sen tietyt sisäiset käytännöt ovat edelleen epäselviä.
-
-
 
 Tässä keskitymme työpöytäselaimiin, mutta on tärkeää huomata, että iOS:ssä Apple edellyttää, että kaikki selaimet käyttävät WebKit-selainta (tämä rajoitus saattaa kuitenkin pian muuttua tiettyjen eurooppalaisten säädösten vuoksi). Tämä tarkoittaa, että Chrome-, Firefox- tai Brave-selaimien kaltaisten selainten on iOS:ssä tarjottava WebKitiin perustuva sovellus eikä niiden tavanomaiseen renderöintimoottoriin perustuvaa sovellusta.
 

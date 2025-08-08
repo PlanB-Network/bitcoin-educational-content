@@ -5806,52 +5806,31 @@ Por defeito, o LibreWolf ativa as definições de segurança avançadas do Firef
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Navegador Zen
-
-
 
 o [Zen Browser](https://zen-browser.app/) é um navegador gratuito e de código aberto baseado no Firefox (motor Gecko), lançado em 2024. O seu objetivo é oferecer uma experiência de navegação moderna, elegante, altamente personalizável e, acima de tudo, centrada na privacidade, sem depender do Chromium.
 
-
-
 O Zen distingue-se pela sua abordagem radical ao Interface e à usabilidade, largamente inspirada no navegador Arc, mas emancipada deste pela sua natureza de código aberto e pelo motor Gecko. Inclui :
-
-
-
 
 - Um Interface minimalista e modular, com uma barra lateral vertical para separadores, uma vista dividida e um sistema de *espaço de trabalho* para agrupar conjuntos de separadores por projeto;
 - Um sistema de modelos Interface personalizáveis (*Zen Mods*) que podem ser usados para modificar profundamente a aparência do navegador;
 - Uma função original chamada *Glance*, que abre uma ligação numa janela temporária leve, evitando a confusão dos separadores...
 
-
-
 O Zen também suporta extensões do Firefox, bem como a sincronização através de uma conta Mozilla.
-
-
 
 Do ponto de vista da segurança e da privacidade, o Zen inclui o bloqueio nativo de rastreadores de terceiros. O navegador não recolhe quaisquer dados e também permite desativar a telemetria Mozilla. Também rejeita automaticamente certificados SSL obsoletos ou não conformes.
 
-
-
 O Zen Browser é uma alternativa interessante se estiver à procura de um ambiente de navegação Gecko que seja gratuito, inovador, organizado e que respeite a sua privacidade.
-
-
 
 ### Navegadores baseados no WebKit
 
-
-
 #### Safari
-
-
 
 O principal navegador que ainda utiliza o motor de renderização WebKit (e não um Fork como o Blink) é o Safari. o [Safari](https://www.apple.com/safari/) é o navegador exclusivo da Apple para o macOS. Oferece uma excelente integração com o ecossistema Apple, um elevado desempenho e inclui agora protecções mais fortes contra o rastreio e a recolha de impressões digitais.
 
-
-
 No entanto, o Safari continua fechado, limitado ao macOS para a sua versão desktop e dependente do ecossistema Apple. Embora a Apple tenha uma política de privacidade sólida, com o seu modelo de negócio baseado principalmente na venda de hardware e não em publicidade, continua a não ser clara relativamente a determinadas práticas internas.
-
-
 
 Aqui, concentramo-nos nos navegadores de computador, mas é importante notar que, no iOS, a Apple exige que todos os navegadores utilizem o motor de renderização WebKit (uma restrição que pode, no entanto, mudar em breve, em resultado de determinados regulamentos europeus). Isto significa que navegadores como o Chrome, o Firefox ou o Brave devem, no iOS, oferecer uma aplicação baseada no WebKit, e não no seu motor de renderização habitual.
 

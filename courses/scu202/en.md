@@ -4395,40 +4395,31 @@ By default, LibreWolf activates Firefox's advanced security settings (such as st
 ![Image](assets/fr/115.webp)
 
 
-#### Zen Browser
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
+#### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) is a free and open source browser based on Firefox (Gecko engine), launched in 2024. Its aim is to offer a modern, elegant, highly customizable and above all privacy-centric browsing experience, without dependence on Chromium.
 
-
 Zen stands out for its radical approach to interface and usability, largely inspired by the Arc browser, yet emancipated from it by its open-source nature and Gecko engine. It includes :
-
 
 - A minimalist, modular interface, with a vertical sidebar for tabs, a split view, and a *workspace* system for grouping sets of tabs by project;
 - A system of customizable interface templates (*Zen Mods*) that can be used to deeply modify the browser's appearance;
 - An original function called *Glance*, which opens a link in a lightweight temporary window, avoiding the clutter of tabs...
 
-
 Zen also supports Firefox extensions, as well as synchronization via a Mozilla account.
-
 
 From a security and privacy point of view, Zen features native blocking of third-party trackers. The browser does not collect any data itself, and it also allows Mozilla telemetry to be disabled. It also automatically rejects obsolete or non-compliant SSL certificates.
 
-
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
-
 
 ### WebKit-based browsers
 
-
 #### Safari
-
 
 The main browser still using the WebKit rendering engine (not a fork like Blink) is Safari. [Safari](https://www.apple.com/safari/) is Apple's exclusive browser for macOS. It offers excellent integration with the Apple ecosystem, high performance, and now includes stronger protections against tracking and fingerprinting.
 
-
 However, Safari remains closed, limited to macOS for its desktop version, and dependent on the Apple ecosystem. While Apple has a strong privacy policy, with its business model based primarily on hardware sales rather than advertising, it remains unclear about certain internal practices.
-
 
 Here, we're focusing on desktop browsers, but it's important to note that on iOS, Apple requires all browsers to use the WebKit rendering engine (a constraint that may soon change, however, as a result of certain European regulations). This means that browsers such as Chrome, Firefox or Brave must, on iOS, offer an application based on WebKit, and not on their usual rendering engine.
 

@@ -5806,52 +5806,31 @@ Kwa chaguo-msingi, LibreWolf huwasha mipangilio ya hali ya juu ya usalama ya Fir
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Kivinjari cha Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) ni kivinjari chanzo huria na huria kulingana na Firefox (Gecko engine), iliyozinduliwa mwaka wa 2024. Lengo lake ni kutoa utumiaji wa kisasa, maridadi, unaoweza kugeuzwa kukufaa zaidi na zaidi ya utumizi wa kuvinjari unaozingatia faragha, bila kutegemea Chromium.
 
-
-
 Zen inajitokeza kwa mtazamo wake mkali wa Interface na utumiaji, uliochochewa zaidi na kivinjari cha Arc, lakini imejikomboa kutoka kwayo kwa asili yake ya chanzo-wazi na injini ya Gecko. Inajumuisha:
-
-
-
 
 - Interface ya kiwango cha chini kabisa, yenye utepe wa wima wa vichupo, mwonekano uliogawanyika, na mfumo wa *nafasi ya kazi* wa kupanga seti za vichupo kulingana na mradi;
 - Mfumo wa violezo vya Interface vinavyoweza kugeuzwa kukufaa (*Zen Mods*) ambavyo vinaweza kutumika kurekebisha kwa kina mwonekano wa kivinjari;
 - Chaguo asilia inayoitwa *Glance*, ambayo hufungua kiungo katika dirisha jepesi kwa muda, kuepuka msongamano wa vichupo...
 
-
-
 Zen pia inasaidia viendelezi vya Firefox, pamoja na ulandanishi kupitia akaunti ya Mozilla.
-
-
 
 Kwa mtazamo wa usalama na faragha, Zen inaangazia uzuiaji asilia wa wafuatiliaji wa watu wengine. Kivinjari hakikusanyi data yoyote yenyewe, na pia inaruhusu telemetry ya Mozilla kuzimwa. Pia hukataa otomatiki vyeti vya SSL vilivyopitwa na wakati au visivyotii masharti.
 
-
-
 Kivinjari cha Zen ni mbadala wa kuvutia ikiwa unatafuta mazingira ya kuvinjari ya Gecko ambayo ni ya bure, ya kibunifu, yasiyo na vitu vingi na yanayoheshimu faragha yako.
-
-
 
 ### Vivinjari vinavyotegemea WebKit
 
-
-
 #### Safari
-
-
 
 Kivinjari kikuu bado kinatumia injini ya utoaji ya WebKit (sio Fork kama Blink) ni Safari. [Safari](https://www.apple.com/safari/) ni kivinjari cha kipekee cha Apple cha macOS. Inatoa muunganisho bora na mfumo ikolojia wa Apple, utendakazi wa hali ya juu, na sasa inajumuisha ulinzi thabiti dhidi ya ufuatiliaji na uchapaji vidole.
 
-
-
 Walakini, Safari bado imefungwa, iliyopunguzwa kwa macOS kwa toleo lake la eneo-kazi, na inategemea mfumo wa ikolojia wa Apple. Ingawa Apple ina sera dhabiti ya faragha, na mtindo wake wa biashara unategemea mauzo ya maunzi badala ya utangazaji, bado haijulikani wazi kuhusu mazoea fulani ya ndani.
-
-
 
 Hapa, tunazingatia vivinjari vya eneo-kazi, lakini ni muhimu kutambua kwamba kwenye iOS, Apple inahitaji vivinjari vyote kutumia injini ya utoaji wa WebKit (kizuizi ambacho kinaweza kubadilika hivi karibuni, hata hivyo, kutokana na kanuni fulani za Ulaya). Hii inamaanisha kuwa vivinjari kama vile Chrome, Firefox au Brave lazima, kwenye iOS, vitoe programu kulingana na WebKit, na si kwa injini yao ya kawaida ya uwasilishaji.
 

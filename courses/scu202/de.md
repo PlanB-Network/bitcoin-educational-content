@@ -5806,52 +5806,31 @@ Standardmäßig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-Browser
-
-
 
 [Zen Browser] (https://zen-browser.app/) ist ein freier und quelloffener Browser, der auf Firefox (Gecko-Engine) basiert und 2024 auf den Markt kam. Sein Ziel ist es, ein modernes, elegantes, hochgradig anpassbares und vor allem datenschutzfreundliches Browsing-Erlebnis zu bieten, ohne von Chromium abhängig zu sein.
 
-
-
 Zen zeichnet sich durch seine radikale Herangehensweise an Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
-
-
-
 
 - Ein minimalistisches, modulares Interface, mit einer vertikalen Seitenleiste für Registerkarten, einer geteilten Ansicht und einem *Arbeitsbereich*-System zur Gruppierung von Registerkarten nach Projekten;
 - Ein System von anpassbaren Interface-Vorlagen (*Zen Mods*), mit denen das Aussehen des Browsers tiefgreifend verändert werden kann;
 - Eine originelle Funktion namens *Glance*, die einen Link in einem leichtgewichtigen temporären Fenster öffnet und so das Durcheinander der Tabs vermeidet...
 
-
-
 Zen unterstützt auch Firefox-Erweiterungen sowie die Synchronisierung über ein Mozilla-Konto.
-
-
 
 Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierung von Trackern Dritter. Der Browser sammelt selbst keine Daten und erlaubt auch die Deaktivierung der Mozilla-Telemetrie. Außerdem lehnt er veraltete oder nicht konforme SSL-Zertifikate automatisch ab.
 
-
-
 Zen Browser ist eine interessante Alternative, wenn Sie eine Gecko-Browsing-Umgebung suchen, die kostenlos, innovativ und übersichtlich ist und Ihre Privatsphäre respektiert.
-
-
 
 ### WebKit-basierte Browser
 
-
-
 #### Safari
-
-
 
 Der Hauptbrowser, der noch die WebKit-Rendering-Engine verwendet (und nicht eine Fork wie Blink), ist Safari. [Safari](https://www.apple.com/safari/) ist Apples exklusiver Browser für macOS. Er bietet eine hervorragende Integration in das Apple-Ökosystem, eine hohe Leistung und umfasst jetzt einen stärkeren Schutz gegen Tracking und Fingerabdrücke.
 
-
-
 Safari ist jedoch nach wie vor geschlossen, in seiner Desktop-Version auf macOS beschränkt und vom Apple-Ökosystem abhängig. Apple hat zwar eine strenge Datenschutzpolitik, da sein Geschäftsmodell in erster Linie auf Hardware-Verkäufen und nicht auf Werbung basiert, aber bestimmte interne Praktiken bleiben unklar.
-
-
 
 Wir konzentrieren uns hier auf Desktop-Browser, aber es ist wichtig zu wissen, dass Apple unter iOS von allen Browsern verlangt, die WebKit-Rendering-Engine zu verwenden (eine Einschränkung, die sich jedoch aufgrund bestimmter europäischer Vorschriften bald ändern könnte). Das bedeutet, dass Browser wie Chrome, Firefox oder Brave auf iOS eine Anwendung anbieten müssen, die auf WebKit und nicht auf ihrer üblichen Rendering-Engine basiert.
 

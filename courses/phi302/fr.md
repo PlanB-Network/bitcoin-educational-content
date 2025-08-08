@@ -1509,36 +1509,36 @@ Le deuxième point a un effet négatif sur la décentralisation du minage, car l
 
 
 
-La mise à l'échelle horizontale fait référence aux techniques qui divisent la charge de travail entre plusieurs machines. Bien qu'il s'agisse d'une approche de mise à l'échelle très répandue sur les sites web et les bases de données populaires, elle n'est pas facile à mettre en œuvre dans Bitcoin.
+La scalabilité horizontale fait référence aux techniques qui divisent la charge de travail entre plusieurs machines. Bien qu'il s'agisse d'une approche de scalabilité très répandue sur les sites web et les bases de données populaires, elle n'est pas facile à mettre en œuvre dans Bitcoin.
 
 
-De nombreuses personnes appellent cette approche de mise à l'échelle du Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque noeud complet vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
+De nombreuses personnes appellent cette approche de scalabilité de Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque noeud complet vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
 
 
-> Dans les systèmes partagés, la "défense noeud complet" ne fonctionne pas, du moins directement. L'idée est que tout le monde ne dispose pas de toutes les données, et qu'il faut donc décider de ce qui se passe lorsqu'elles ne sont pas disponibles.
+> Dans les systèmes partagés, la "défense des noeuds complets" ne fonctionne pas, du moins directement. L'idée est que tout le monde ne dispose pas de toutes les données, et qu'il faut donc décider de ce qui se passe lorsqu'elles ne sont pas disponibles.
 
-Il présente ensuite plusieurs idées sur la manière d'aborder le sharding, ou la mise à l'échelle horizontale. Vers la fin de son billet, il conclut :
+Il présente ensuite plusieurs idées sur la manière d'aborder le sharding, ou la scalabilité horizontale. Vers la fin de son billet, il conclut :
 
 
-> Mais il y a un gros problème : ce qui précède est sacrément complexe par rapport à Bitcoin ! Même la version "enfant" du sharding - mon schéma de linéarisation plutôt que zk-SNARKS - est probablement un ou deux ordres de grandeur plus complexe que l'utilisation du protocole Bitcoin à l'heure actuelle, et pourtant un énorme % des entreprises dans cet espace semblent avoir jeté leurs mains en l'air et utilisé des fournisseurs d'API centralisés à la place. Il ne sera pas facile de mettre en œuvre ce qui précède et de le mettre entre les mains des utilisateurs finaux.
+> Mais il y a un gros problème : ce qui précède est sacrément complexe par rapport à Bitcoin ! Même la version "enfant" du sharding, mon schéma de linéarisation plutôt que zk-SNARKS, est probablement un ou deux ordres de grandeur plus complexe que l'utilisation du protocole Bitcoin à l'heure actuelle, et pourtant un énorme % des entreprises dans cet espace semblent avoir jeté leurs mains en l'air et utilisé des fournisseurs d'API centralisés à la place. Il ne sera pas facile de mettre en œuvre ce qui précède et de le mettre entre les mains des utilisateurs finaux.
 >
 
 > D'autre part, la décentralisation n'est pas bon marché : l'utilisation de PayPal est un ou deux ordres de grandeur plus simple que le protocole Bitcoin.
 
-La conclusion qu'il en tire est que le sharding *pourrait* être techniquement possible, mais au prix d'une énorme complexité. Étant donné que de nombreux utilisateurs trouvent déjà Bitcoin trop complexe et préfèrent utiliser des services centralisés, il faudra Hard pour les convaincre d'utiliser quelque chose d'encore plus complexe.
+La conclusion qu'il en tire est que le sharding *pourrait* être techniquement possible, mais au prix d'une énorme complexité. Étant donné que de nombreux utilisateurs trouvent déjà Bitcoin trop complexe et préfèrent utiliser des services centralisés, il sera difficile de les convaincre d’adopter quelque chose d’encore plus complexe.
 
 
-#### Mise à l'échelle vers l'intérieur
+#### La scalabilité vers l'intérieur
 
 
 
-Alors que les échelles horizontale et verticale ont toujours bien fonctionné dans les systèmes centralisés tels que les bases de données et les serveurs web, elles ne semblent pas convenir à un réseau décentralisé tel que Bitcoin en raison de leurs effets centralisateurs.
+Alors que la scalabilité horizontale et verticale ont toujours bien fonctionné dans les systèmes centralisés tels que les bases de données et les serveurs web, elles ne semblent pas convenir à un réseau décentralisé tel que Bitcoin en raison de leurs effets centralisateurs.
 
 
 Une approche qui n'est pas assez appréciée est ce que l'on peut appeler *inward scaling*, qui se traduit par "faire plus avec moins". Il s'agit du travail permanent effectué par de nombreux développeurs pour optimiser les algorithmes déjà en place, afin que nous puissions faire plus dans les limites existantes du système.
 
 
-Les améliorations obtenues grâce à l'échelonnement vers l'intérieur sont impressionnantes, c'est le moins que l'on puisse dire. Pour vous donner une idée générale des améliorations apportées au fil des ans, Jameson Lopp [a effectué des tests de référence](https://blog.lopp.net/Bitcoin-core-performance-evolution/) sur la synchronisation Blockchain, en comparant de nombreuses versions différentes de Bitcoin Core en remontant jusqu'à la version 0.8.
+Les améliorations obtenues grâce à l'échelonnement vers l'intérieur sont impressionnantes, c'est le moins que l'on puisse dire. Pour vous donner une idée générale des améliorations apportées au fil des ans, Jameson Lopp [a effectué des tests de référence](https://blog.lopp.net/Bitcoin-core-performance-evolution/) sur la synchronisation de la Blockchain, en comparant de nombreuses versions différentes de Bitcoin Core en remontant jusqu'à la version 0.8.
 
 
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
@@ -1547,7 +1547,7 @@ Les améliorations obtenues grâce à l'échelonnement vers l'intérieur sont im
 Performances de téléchargement des blocs initiaux de différentes versions de Bitcoin Core. L'axe des ordonnées indique la hauteur du bloc synchronisé et l'axe des abscisses indique le temps qu'il a fallu pour synchroniser à cette hauteur
 
 
-Les différentes lignes représentent les différentes versions de Bitcoin Core. La ligne la plus à gauche est la plus récente, c'est-à-dire la version 0.22, qui a été publiée en septembre 2021 et a pris 396 minutes pour se synchroniser complètement. La ligne la plus à droite est la version 0.8 de novembre 2013, qui a pris 3452 minutes. Toute cette amélioration - environ 10x - est due à une mise à l'échelle vers l'intérieur.
+Les différentes lignes représentent les différentes versions de Bitcoin Core. La ligne la plus à gauche est la plus récente, c'est-à-dire la version 0.22, qui a été publiée en septembre 2021 et a pris 396 minutes pour se synchroniser complètement. La ligne la plus à droite est la version 0.8 de novembre 2013, qui a pris 3452 minutes. Toute cette amélioration, environ 10x, est due à une scalabilité vers l'intérieur.
 
 
 Les améliorations peuvent être classées comme suit : économie d'espace (RAM, disque, bande passante, etc.) ou économie de puissance de calcul. Ces deux catégories contribuent aux améliorations présentées dans le diagramme ci-dessus.
@@ -1565,9 +1565,7 @@ Performance de la vérification des signatures au fil du temps, avec les demande
 Le graphique montre la tendance pour deux types de CPU 64 bits différents, à savoir ARM et x86. La différence de performance est due aux instructions plus spécialisées disponibles sur x86 par rapport à l'architecture ARM, qui dispose d'instructions moins nombreuses et plus génériques. Cependant, la tendance générale est la même pour les deux architectures. Notez que l'axe des ordonnées est logarithmique, ce qui rend les améliorations moins impressionnantes qu'elles ne le sont en réalité.
 
 
-Il existe également plusieurs bons exemples d'améliorations permettant d'économiser de l'espace et contribuant à l'amélioration des performances. Dans un
-
-[Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) sur la contribution de Taproot à l'économie d'espace, l'utilisateur Murch compare l'espace de bloc nécessaire à une signature à seuil 2 sur 3, en utilisant Taproot de différentes manières et en ne l'utilisant pas du tout.
+Il existe également plusieurs bons exemples d'améliorations permettant d'économiser de l'espace et contribuant à l'amélioration des performances. Dans un [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) sur la contribution de Taproot à l'économie d'espace, l'utilisateur Murch compare l'espace de bloc nécessaire à une signature à seuil 2 sur 3, en utilisant Taproot de différentes manières et en ne l'utilisant pas du tout.
 
 
 ![](assets/murch-taproot.webp)
@@ -1576,10 +1574,10 @@ Il existe également plusieurs bons exemples d'améliorations permettant d'écon
 Gain de place pour les différents types de dépenses, Taproot et anciennes versions.
 
 
-Une Multisig 2 sur 3 utilisant la SegWit native nécessiterait un total de 104,5+43 vB = 147,5 vB, alors que l'utilisation la plus prudente de la Taproot ne nécessiterait que 57,5+43 vB = 100,5 vB dans le cas d'utilisation standard. Dans le pire des cas et dans des cas rares, comme lorsqu'un signataire standard n'est pas disponible pour une raison quelconque, Taproot utiliserait 107,5+43 vB = 150,5 vB. Il n'est pas nécessaire de comprendre tous les détails, mais cela devrait vous donner une idée de la façon dont les développeurs pensent à économiser de l'espace - chaque petit octet compte.
+Un dispositif multisignatures 2 sur 3 utilisant SegWit nativement nécessiterait un total de 104,5+43 vB = 147,5 vB, alors que l'utilisation la plus prudente de Taproot ne nécessiterait que 57,5+43 vB = 100,5 vB dans le cas d'utilisation standard. Dans le pire des cas et dans des cas rares, comme lorsqu'un signataire standard n'est pas disponible pour une raison quelconque, Taproot utiliserait 107,5+43 vB = 150,5 vB. Il n'est pas nécessaire de comprendre tous les détails, mais cela devrait vous donner une idée de la façon dont les développeurs pensent à économiser de l'espace, chaque petit octet compte.
 
 
-Outre l'élargissement vers l'intérieur du logiciel Bitcoin, les utilisateurs peuvent également contribuer à l'élargissement vers l'intérieur de certaines manières. Ils peuvent effectuer leurs transactions de manière plus intelligente afin d'économiser les frais de transaction tout en réduisant leur empreinte sur les exigences de la noeud complet. Deux techniques couramment utilisées pour atteindre cet objectif sont la mise en lots des transactions et la consolidation des sorties.
+Outre l'élargissement vers l'intérieur du logiciel Bitcoin, les utilisateurs peuvent également contribuer à l'élargissement vers l'intérieur de certaines manières. Ils peuvent effectuer leurs transactions de manière plus intelligente afin d'économiser les frais de transaction tout en réduisant leur empreinte sur les exigences des noeuds complets. Deux techniques couramment utilisées pour atteindre cet objectif sont la mise en lots des transactions et la consolidation des sorties.
 
 
 L'idée de la mise en lot des transactions est de combiner plusieurs paiements en une seule transaction, au lieu d'effectuer une transaction par paiement. Cela peut vous permettre d'économiser beaucoup de frais, tout en réduisant la charge de l'espace de bloc.
@@ -1600,71 +1598,71 @@ La consolidation des sorties consiste à profiter des périodes de faible demand
 Consolidation des sorties : Faites fondre vos pièces en une seule lorsque les frais sont peu élevés afin d'économiser des frais par la suite.
 
 
-Il n'est peut-être pas évident de comprendre comment la consolidation des sorties contribue à la mise à l'échelle vers l'intérieur. Après tout, la quantité totale de données Blockchain est même légèrement augmentée avec cette méthode. Néanmoins, l'ensemble UTXO, c'est-à-dire la base de données qui permet de savoir qui possède quelles pièces, diminue car vous dépensez plus d'UTXO que vous n'en créez. Cela allège le fardeau des nœuds complets qui doivent maintenir leurs ensembles UTXO.
+Il n'est peut-être pas évident de comprendre comment la consolidation des sorties contribue à la scalabilité vers l'intérieur. Après tout, la quantité totale des données de la Blockchain est même légèrement augmentée avec cette méthode. Néanmoins, l'ensemble UTXO, c'est-à-dire la base de données qui permet de savoir qui possède quelles pièces, diminue car vous dépensez plus d'UTXO que vous n'en créez. Cela allège le fardeau des nœuds complets qui doivent maintenir leurs ensembles UTXO.
 
 
-Malheureusement, ces deux techniques de gestion *UTXO* peuvent être néfastes pour votre vie privée ou celle de vos bénéficiaires. Dans le cas de la mise en lots, chaque bénéficiaire saura que toutes les sorties mises en lots proviennent de vous et sont destinées à d'autres bénéficiaires (à l'exception, éventuellement, de la modification). Dans le cas de la consolidation de la UTXO, vous révélerez que les sorties que vous consolidez appartiennent à la même Wallet. Il se peut donc que vous deviez faire un compromis entre la rentabilité et le respect de la vie privée.
+Malheureusement, ces deux techniques de gestion *UTXO* peuvent être néfastes pour votre vie privée ou celle de vos bénéficiaires. Dans le cas de la mise en lots, chaque bénéficiaire saura que toutes les sorties mises en lots proviennent de vous et sont destinées à d'autres bénéficiaires (à l'exception, éventuellement, de la modification). Dans le cas de la consolidation de la UTXO, vous révélerez que les sorties que vous consolidez appartiennent au même Wallet. Il se peut donc que vous deviez faire un compromis entre la rentabilité et le respect de la vie privée.
 
 
-#### Mise à l'échelle en couches
+#### La scalabilité en couches
 
 
 
-L'approche la plus efficace de la mise à l'échelle est probablement la superposition. L'idée générale de la superposition est qu'un protocole peut régler les paiements entre les utilisateurs sans ajouter de transactions au Blockchain.
+L'approche la plus efficace de la scalabilité est probablement la superposition. L'idée générale de la superposition est qu'un protocole peut régler les paiements entre les utilisateurs sans ajouter de transactions à la Blockchain.
 
 
-Un protocole à plusieurs niveaux commence par l'accord de deux personnes ou plus sur une transaction de départ qui est placée sur le Blockchain, comme illustré dans la figure ci-dessous.
+Un protocole à plusieurs niveaux commence par l'accord de deux personnes ou plus sur une transaction de départ qui est placée sur la Blockchain, comme illustré dans la figure ci-dessous.
 
 
 ![](assets/scaling-layer.webp)
 
-Un protocole Layer 2 typique au-dessus de Bitcoin, Layer 1.
+Un protocole de couche 2 typique au-dessus de Bitcoin, couche 1.
 
 
-La manière dont cette transaction de démarrage est créée varie d'un protocole à l'autre, mais un thème commun est que les participants créent une transaction de démarrage non signée et un certain nombre de transactions de punition pré-signées, qui dépensent la sortie de la transaction de démarrage de diverses manières. Par la suite, la transaction de départ est entièrement signée et publiée sur le Blockchain, et les transactions de punition peuvent être entièrement signées et publiées pour punir une partie qui s'est mal comportée. Cela incite les participants à tenir leurs promesses afin que le protocole puisse fonctionner de manière Trustless.
+La manière dont cette transaction de démarrage est créée varie d'un protocole à l'autre, mais un thème commun est que les participants créent une transaction de démarrage non signée et un certain nombre de transactions de punition pré-signées, qui dépensent la sortie de la transaction de démarrage de diverses manières. Par la suite, la transaction de départ est entièrement signée et publiée sur la Blockchain, et les transactions de punition peuvent être entièrement signées et publiées pour punir une partie qui s'est mal comportée. Cela incite les participants à tenir leurs promesses afin que le protocole puisse fonctionner de manière Trustless.
 
 
-Une fois que la transaction de départ est sur le Blockchain, le protocole peut faire ce qu'il est censé faire. Par exemple, il peut effectuer des paiements ultra-rapides entre les participants, mettre en œuvre des techniques d'amélioration de la confidentialité ou utiliser des scripts plus avancés qui ne seraient pas pris en charge par le Bitcoin Blockchain.
+Une fois que la transaction de départ est sur la Blockchain, le protocole peut faire ce qu'il est censé faire. Par exemple, il peut effectuer des paiements ultra-rapides entre les participants, mettre en œuvre des techniques d'amélioration de la confidentialité ou utiliser des scripts plus avancés qui ne seraient pas pris en charge par la Blockchain Bitcoin.
 
 
-Nous ne détaillerons pas le fonctionnement des protocoles spécifiques, mais comme vous pouvez le voir dans la figure précédente, le Blockchain est rarement utilisé pendant le cycle de vie du protocole. Toute l'action juteuse se déroule *off-chain*. Nous avons vu comment cela peut être une victoire pour la vie privée si c'est bien fait, mais cela peut aussi être un avantage pour l'évolutivité.
+Nous ne détaillerons pas le fonctionnement des protocoles spécifiques, mais comme vous pouvez le voir dans la figure précédente, la Blockchain est rarement utilisé pendant le cycle de vie du protocole. Toute l'action juteuse se déroule *hors chaîne*. Nous avons vu comment cela peut être une victoire pour la vie privée si c'est bien fait, mais cela peut aussi être un avantage pour l'évolutivité.
 
 
 Dans un [post Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) intitulé "Un voyage sur la lune nécessite une fusée à plusieurs étages, sinon l'équation de la fusée vous mangera le déjeuner... entasser tout le monde dans une voiture de clown dans un trébuchet et espérer le succès est à proscrire", Gregory Maxwell explique pourquoi la superposition est notre meilleure chance de faire évoluer Bitcoin de plusieurs ordres de grandeur.
 
 
-Il commence par souligner qu'il est faux de considérer Visa ou Mastercard comme les principaux concurrents du Bitcoin et que l'augmentation de la taille maximale des blocs est une mauvaise approche pour faire face à cette concurrence. Il explique ensuite comment faire une réelle différence en utilisant des couches :
+Il commence par souligner qu'il est faux de considérer Visa ou Mastercard comme les principaux concurrents de Bitcoin et que l'augmentation de la taille maximale des blocs est une mauvaise approche pour faire face à cette concurrence. Il explique ensuite comment faire une réelle différence en utilisant des couches :
 
 
 > Cela signifie-t-il que le Bitcoin ne peut pas être une technologie de paiement gagnante ? Non. Mais pour atteindre le niveau de capacité requis pour répondre aux besoins du monde en matière de paiements, nous devons travailler plus intelligemment.
 >
 
-> Dès le début, Bitcoin a été conçu pour incorporer des couches de manière sécurisée grâce à sa capacité de contrats intelligents (Quoi, vous pensez que cela a été mis là juste pour que les gens puissent faire de la philosophie sur des "DAO" sans signification ?) En fait, nous utiliserons le système Bitcoin comme un juge robotique très accessible et parfaitement digne de confiance, et nous mènerons la plupart de nos affaires en dehors de la salle d'audience - mais nous ferons des transactions de telle sorte que si quelque chose tourne mal, nous aurons toutes les preuves et tous les accords établis, de sorte que nous pourrons être sûrs que le tribunal robotique fera ce qu'il faut pour régler le problème. (Aparté geek : si cela vous semble impossible, lisez cet ancien article sur la transparence des transactions)
+> Dès le début, Bitcoin a été conçu pour incorporer des couches de manière sécurisée grâce à sa capacité de contrats intelligents (Quoi, vous pensez que cela a été mis là juste pour que les gens puissent faire de la philosophie sur des "DAO" sans signification ?) En fait, nous utiliserons le système Bitcoin comme un juge robotique très accessible et parfaitement digne de confiance, et nous mènerons la plupart de nos affaires en dehors de la salle d'audience, mais nous ferons des transactions de telle sorte que si quelque chose tourne mal, nous aurons toutes les preuves et tous les accords établis, de sorte que nous pourrons être sûrs que le tribunal robotique fera ce qu'il faut pour régler le problème. (Aparté geek : si cela vous semble impossible, lisez cet ancien article sur la transparence des transactions)
 >
 
-> Cela est possible précisément en raison des propriétés fondamentales du Bitcoin. Un système de base censurable ou réversible n'est pas très approprié pour construire un puissant traitement de transaction Layer supérieur... et si l'actif sous-jacent n'est pas sain, il n'y a pas vraiment d'intérêt à effectuer des transactions avec lui.
+> Cela est possible précisément en raison des propriétés fondamentales de Bitcoin. Un système de base censurable ou réversible se prête mal à la construction de couches supérieures performantes pour le traitement des transactions… et si l’actif sous-jacent n’est pas sain, il n’y a guère d’intérêt à l’utiliser pour des transactions.
 
-L'analogie avec le juge illustre bien le fonctionnement de la stratification : ce juge doit être incorruptible et ne jamais changer d'avis, sinon les couches au-dessus de la base Bitcoin Layer ne fonctionneront pas de manière fiable.
-
-
-Il poursuit en évoquant les services centralisés. Il n'y a généralement aucun problème à faire confiance à un serveur central doté de quantités triviales de Bitcoin pour accomplir les tâches : il s'agit également d'une mise à l'échelle en couches.
+L'analogie avec le juge illustre bien le fonctionnement de la stratification : ce juge doit être incorruptible et ne jamais changer d'avis, sinon les couches construites au-dessus de la couche de base de Bitcoin ne fonctionneront pas de manière fiable.
 
 
-De nombreuses années se sont écoulées depuis que Maxwell a écrit l'article ci-dessus, et ses propos sont toujours d'actualité. Le succès du Lightning Network prouve que la superposition est en effet un moyen d'accroître l'utilité du Bitcoin.
+Il poursuit en évoquant les services centralisés. Il n'y a généralement aucun problème à faire confiance à un serveur central doté de quantités triviales de Bitcoin pour accomplir les tâches : il s'agit également d'une scalabilité en couches.
 
 
-
-### Conclusion sur la mise à l'échelle
+De nombreuses années se sont écoulées depuis que Maxwell a écrit l'article ci-dessus, et ses propos sont toujours d'actualité. Le succès du Lightning Network prouve que la superposition est en effet un moyen d'accroître l'utilité de Bitcoin.
 
 
 
-Nous avons discuté des différentes façons de faire évoluer Bitcoin, d'augmenter la capacité d'utilisation de Bitcoin. La mise à l'échelle a été une préoccupation de Bitcoin depuis ses tout premiers jours.
+### Conclusion sur la scalabilité
+
+
+
+Nous avons discuté des différentes façons de faire évoluer Bitcoin, d'augmenter la capacité d'utilisation de Bitcoin. La scalabilité a été une préoccupation de Bitcoin depuis ses tout premiers jours.
 
 
 Nous savons aujourd'hui que Bitcoin ne s'adapte pas bien verticalement ("acheter du matériel plus grand") ou horizontalement ("ne vérifier que certaines parties des données"), mais plutôt vers l'intérieur ("faire plus avec moins") et en couches ("construire des protocoles au-dessus de Bitcoin").
 
 
-## Quand la merde s'abat sur le ventilateur
+## Quand tout dérape
 
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
@@ -1672,7 +1670,7 @@ Nous savons aujourd'hui que Bitcoin ne s'adapte pas bien verticalement ("acheter
 
 ![](assets/shtf-banner.webp)
 
-Bitcoin est construit par des personnes. Ce sont eux qui écrivent le logiciel, et ce sont eux qui l'exécutent. Lorsqu'une faille de sécurité ou un bogue grave est découvert - y a-t-il vraiment une distinction entre les deux ? - ce sont toujours des personnes, en chair et en os, qui les découvrent. Ce chapitre examine ce que les gens font, devraient faire et ne devraient pas faire quand la merde frappe le ventilateur. La première section explique le terme "divulgation responsable", qui fait référence à la façon dont une personne qui découvre une vulnérabilité peut agir de manière responsable pour aider à minimiser les dommages causés par cette vulnérabilité. Le reste du chapitre vous emmène à la découverte de quelques-unes des vulnérabilités les plus graves découvertes au fil des ans, et de la manière dont elles ont été traitées par les développeurs, les mineurs et les utilisateurs. Les choses n'étaient pas aussi rigoureuses dans la petite enfance de Bitcoin qu'elles le sont aujourd'hui.
+Bitcoin est construit par des personnes. Ce sont eux qui écrivent le logiciel, et ce sont eux qui l'exécutent. Lorsqu'une faille de sécurité ou un bogue grave est découvert, y a-t-il vraiment une distinction entre les deux ?, ce sont toujours des personnes, en chair et en os, qui les découvrent. Ce chapitre examine ce que les gens font, devraient faire et ne devraient pas faire quand tout dérape. La première section explique le terme "divulgation responsable", qui fait référence à la façon dont une personne qui découvre une vulnérabilité peut agir de manière responsable pour aider à minimiser les dommages causés par cette vulnérabilité. Le reste du chapitre vous emmène à la découverte de quelques-unes des vulnérabilités les plus graves découvertes au fil des ans, et de la manière dont elles ont été traitées par les développeurs, les mineurs et les utilisateurs. Les choses n'étaient pas aussi rigoureuses dans la petite enfance de Bitcoin qu'elles le sont aujourd'hui.
 
 
 ### Divulgation responsable
@@ -1685,11 +1683,10 @@ Imaginez que vous découvriez un bogue dans Bitcoin Core, un bogue qui permet à
 Lorsqu'un problème de sécurité est découvert, la personne qui le découvre doit recourir à la _divulgation responsable_, un terme souvent utilisé par les développeurs de Bitcoin. Ce terme est [expliqué sur Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure) :
 
 
-> Les développeurs de matériel et de logiciels ont souvent besoin de temps et de ressources pour réparer leurs erreurs. Souvent, ce sont des pirates éthiques qui trouvent ces
-les vulnérabilités. Les pirates informatiques et les spécialistes de la sécurité informatique estiment qu'il est de leur responsabilité sociale de sensibiliser le public aux vulnérabilités. Le fait de cacher les problèmes pourrait créer un sentiment de fausse sécurité. Pour éviter cela, les parties concernées se coordonnent et négocient un délai raisonnable pour réparer la vulnérabilité. En fonction de l'impact potentiel de la vulnérabilité, du temps nécessaire à la mise au point et à l'application d'un correctif d'urgence ou d'une solution de contournement et d'autres facteurs, ce délai peut varier de quelques jours à plusieurs mois.
+> Les développeurs de matériel et de logiciels ont souvent besoin de temps et de ressources pour réparer leurs erreurs. Souvent, ce sont des pirates éthiques qui trouvent ces vulnérabilités. Les pirates informatiques et les spécialistes de la sécurité informatique estiment qu'il est de leur responsabilité sociale de sensibiliser le public aux vulnérabilités. Le fait de cacher les problèmes pourrait créer un sentiment de fausse sécurité. Pour éviter cela, les parties concernées se coordonnent et négocient un délai raisonnable pour réparer la vulnérabilité. En fonction de l'impact potentiel de la vulnérabilité, du temps nécessaire à la mise au point et à l'application d'un correctif d'urgence ou d'une solution de contournement et d'autres facteurs, ce délai peut varier de quelques jours à plusieurs mois.
 
 
-Cela signifie que si vous trouvez un problème de sécurité, vous devez le signaler à l'équipe responsable du système. Mais qu'est-ce que cela signifie dans le contexte de Bitcoin ? Personne ne contrôle Bitcoin, mais il y a actuellement un point central pour le développement de Bitcoin, à savoir le [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). Les mainteneurs de ce dépôt sont responsables du code qu'il contient, mais ils ne sont pas responsables du système dans son ensemble - personne ne l'est. Néanmoins, la meilleure pratique générale est d'envoyer un courriel à security@bitcoincore.org.
+Cela signifie que si vous trouvez un problème de sécurité, vous devez le signaler à l'équipe responsable du système. Mais qu'est-ce que cela signifie dans le contexte de Bitcoin ? Personne ne contrôle Bitcoin, mais il y a actuellement un point central pour le développement de Bitcoin, à savoir le [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). Les mainteneurs de ce dépôt sont responsables du code qu'il contient, mais ils ne sont pas responsables du système dans son ensemble, personne ne l'est. Néanmoins, la meilleure pratique générale est d'envoyer un courriel à security@bitcoincore.org.
 
 
 Dans un [fil de discussion](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) intitulé "Responsible disclosure of bugs" datant de 2017, Anthony Towns a tenté de résumer ce qu'il percevait comme étant les meilleures pratiques actuelles. Il avait recueilli des informations auprès de plusieurs sources et de différentes personnes pour éclairer son point de vue sur le sujet.
@@ -1697,7 +1694,7 @@ Dans un [fil de discussion](https://lists.linuxfoundation.org/pipermail/Bitcoin-
 
 
 
-- Les vulnérabilités doivent être signalées via security at bitcoincore.org
+- Les vulnérabilités doivent être signalées via l'adresse suivante : security@bitcoincore.org.
 - Un problème critique (qui peut être exploité immédiatement ou qui l'est déjà et qui cause un préjudice important) sera traité de la manière suivante :
   - un correctif publié le plus rapidement possible
   - une large notification de la nécessité de mettre à niveau (ou de désactiver les systèmes concernés)
@@ -1705,14 +1702,14 @@ Dans un [fil de discussion](https://lists.linuxfoundation.org/pipermail/Bitcoin-
 - Une vulnérabilité non critique (parce qu'elle est difficile ou coûteuse à exploiter) sera traitée de la manière suivante :
   - la correction et l'examen entrepris dans le cours normal du développement
   - rétroportage d'un correctif ou d'une solution de contournement du master vers la version publiée actuelle
-- Les développeurs tenteront de s'assurer que la publication du correctif ne révèle pas la nature de la vulnérabilité en fournissant le correctif proposé aux développeurs expérimentés qui n'ont pas été informés de la vulnérabilité, en leur disant qu'il corrige une vulnérabilité et en leur demandant d'identifier la vulnérabilité.
+- Les développeurs tenteront de s'assurer que la publication du correctif ne révèle pas la nature de la vulnérabilité en fournissant le correctif proposé aux développeurs expérimentés qui n'ont pas été informés de la vulnérabilité, en leur disant qu'il corrige une vulnérabilité et en leur demandant d'identifier cette vulnérabilité.
 - Les développeurs peuvent recommander à d'autres implémentations de Bitcoin d'adopter des corrections de vulnérabilité avant que la correction ne soit publiée et largement déployée, s'ils peuvent le faire sans révéler la vulnérabilité ; par exemple, si la correction présente des avantages significatifs en termes de performances qui justifieraient son inclusion.
-- Avant qu'une vulnérabilité ne soit rendue publique, les développeurs recommandent généralement aux développeurs Altcoin amis de rattraper les corrections. Mais ce n'est qu'après que les correctifs aient été largement déployés dans le réseau Bitcoin.
-- Les développeurs ne notifieront généralement pas les développeurs Altcoin qui se sont comportés de manière hostile (par exemple, en utilisant des vulnérabilités pour attaquer d'autres personnes, ou en violant des embargos).
+- Avant qu'une vulnérabilité ne soit rendue publique, les développeurs recommandent généralement aux développeurs d'Altcoins amicaux de rattraper les corrections. Mais ce n'est qu'après que les correctifs aient été largement déployés dans le réseau Bitcoin.
+- Les développeurs ne notifieront généralement pas les développeurs d'Altcoins qui se sont comportés de manière hostile (par exemple, en utilisant des vulnérabilités pour attaquer d'autres personnes, ou en violant des embargos).
 - Les développeurs de Bitcoin ne divulgueront pas les détails des vulnérabilités jusqu'à ce que >80% des nœuds Bitcoin aient déployé les correctifs. Les découvreurs de vulnérabilités sont encouragés et priés de suivre la même politique. [1] [6]
 
 
-Cette liste montre à quel point il faut être prudent lorsqu'on publie des correctifs pour Bitcoin, car le correctif lui-même peut révéler la vulnérabilité. Le quatrième point est particulièrement intéressant car il explique comment tester si un correctif a été suffisamment bien déguisé. En effet, si quelques développeurs vraiment expérimentés ne peuvent pas repérer la vulnérabilité même en sachant que le correctif en corrige une, il sera probablement vraiment Hard difficile pour les autres de la découvrir.
+Cette liste montre à quel point il faut être prudent lorsqu'on publie des correctifs pour Bitcoin, car le correctif lui-même peut révéler la vulnérabilité. Le quatrième point est particulièrement intéressant car il explique comment tester si un correctif a été suffisamment bien déguisé. En effet, si quelques développeurs vraiment expérimentés ne peuvent pas repérer la vulnérabilité même en sachant que le correctif en corrige une, il sera probablement vraiment difficile pour les autres de la découvrir.
 
 
 Le fil de discussion qui a conduit à ce courriel portait sur la question de savoir si, quand et comment divulguer les vulnérabilités des altcoins et d'autres implémentations de Bitcoin. Il n'y a pas de réponse claire à ce sujet. "Aider les gentils semble être la chose à faire, mais qui décide de qui ils sont et où se situe la limite ? Bryan Bishop [a soutenu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) qu'aider les altcoins et même les scamcoins à se défendre contre les exploits de sécurité était un devoir moral :
@@ -1723,18 +1720,18 @@ Le fil de discussion qui a conduit à ce courriel portait sur la question de sav
 Un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) de Gregory Maxwell, dans lequel il affirme que les failles de sécurité peuvent être plus graves qu'il n'y paraît, a également conduit à l'envoi de l'e-mail de M. Town ci-dessus :
 
 
-> J'ai vu à plusieurs reprises un problème Hard à exploiter se révéler trivial lorsque l'on trouve la bonne astuce, ou un problème de dos mineur se révéler bien plus grave.
+> J'ai vu à plusieurs reprises un problème difficile à exploiter se révéler trivial lorsque l'on trouve la bonne astuce, ou un problème de déni de service mineur se révéler bien plus grave.
 >
 
-> De simples bogues de performance, déployés de manière experte, peuvent potentiellement être utilisés pour découper le réseau - Miner A et Exchange B vont dans une partition, tous les autres dans une autre... et doublependent.
+> De simples bogues de performance, déployés de manière experte, peuvent potentiellement être utilisés pour découper le réseau, le mineur A et l'échange B vont dans une partition, tous les autres dans une autre... ce qui permet une double dépense.
 >
 
 > Et ainsi de suite.  Ainsi, bien que je sois tout à fait d'accord sur le fait que différentes choses devraient et peuvent être traitées différemment, ce n'est pas toujours aussi clair. Il est prudent de considérer les choses comme plus graves que ce que l'on sait.
 
-Ainsi, même si une vulnérabilité semble Hard à exploiter, il est préférable de supposer qu'elle est facilement exploitable et que vous n'avez pas encore trouvé comment.
+Ainsi, même si une vulnérabilité semble difficile à exploiter, il est préférable de supposer qu'elle est facilement exploitable et que vous n'avez pas encore trouvé comment.
 
 
-Il mentionne également qu'"il est quelque peu erroné d'appeler ce fil de discussion un sujet relatif à la divulgation, ce fil de discussion ne concerne pas la divulgation. La divulgation consiste à informer le vendeur.  Ce fil traite de la publication et cela a des implications très différentes. La publication est le moment où l'on est sûr d'avoir informé les attaquants potentiels". Cette dernière observation concernant la distinction entre divulgation et publication est importante. La partie facile est la divulgation responsable ; la partie Hard est la publication raisonnable.
+Il mentionne également qu'"il est quelque peu erroné d'appeler ce fil de discussion un sujet relatif à la divulgation, ce fil de discussion ne concerne pas la divulgation. La divulgation consiste à informer le vendeur.  Ce fil traite de la publication et cela a des implications très différentes. La publication est le moment où l'on est sûr d'avoir informé les attaquants potentiels". Cette dernière observation concernant la distinction entre divulgation et publication est importante. La partie facile est la divulgation responsable ; la partie difficile est la publication raisonnable.
 
 
 ### L'enfance traumatisante de Bitcoin
@@ -1824,10 +1821,10 @@ Et 35 minutes plus tard, [il écrit](https://bitcointalk.org/index.php?topic=626
 Notez la différence dans la caractérisation du problème par rapport au premier message : "pourrait être affiché comme accepté" vs "pourrait être accepté". Peut-être que Satoshi a minimisé la gravité du bogue dans sa communication afin de ne pas attirer trop d'attention sur le problème réel. Quoi qu'il en soit, les gens sont passés à la version 0.3.6 et cela a fonctionné comme prévu. Ce problème particulier a été résolu, étonnamment, sans aucune perte pour Bitcoin.
 
 
-Le message de Satoshi décrivait également une optimisation des performances pour Mining. La raison pour laquelle cela a été inclus dans un correctif de sécurité critique n'est pas claire, il est possible que le but était d'obscurcir le vrai problème. Cependant, il semble plus probable qu'il ait simplement publié ce qui se trouvait en tête de la branche de développement du dépôt Subversion, avec le correctif de sécurité ajouté.
+Le message de Satoshi décrivait également une optimisation des performances pour le minage. La raison pour laquelle cela a été inclus dans un correctif de sécurité critique n'est pas claire, il est possible que le but était d'obscurcir le vrai problème. Cependant, il semble plus probable qu'il ait simplement publié ce qui se trouvait en tête de la branche de développement du dépôt Subversion, avec le correctif de sécurité ajouté.
 
 
-À l'époque, il n'y avait pas autant d'utilisateurs qu'aujourd'hui, et la valeur de Bitcoin était proche de zéro. Si cette réponse au bug avait lieu aujourd'hui, elle serait considérée comme un véritable spectacle de merde pour de multiples raisons :
+À l'époque, il n'y avait pas autant d'utilisateurs qu'aujourd'hui, et la valeur de Bitcoin était proche de zéro. Si cette réponse au bug avait lieu aujourd'hui, elle serait considérée comme un vrai fiasco pour plusieurs raisons :
 
 
 
@@ -1843,9 +1840,7 @@ Un autre point discutable est de savoir s'il est bon ou mauvais que les utilisat
 
 
 
-À la mi-août 2010, l'utilisateur du forum Bitcointalk jgarzik, alias Jeff Garzik,
-
-[découvert que](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) une certaine transaction à la hauteur du bloc 74638 avait deux sorties d'une valeur anormalement élevée :
+À la mi-août 2010, l'utilisateur du forum Bitcointalk jgarzik, alias Jeff Garzik, [découvert que](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) une certaine transaction à la hauteur du bloc 74638 avait deux sorties d'une valeur anormalement élevée :
 
 
 ```
@@ -1870,13 +1865,13 @@ Un autre point discutable est de savoir s'il est bon ou mauvais que les utilisat
 Il y avait vraisemblablement un bogue qui faisait que la somme des sorties de deux int64 (et non uint64, comme Garzik l'a supposé) débordait pour atteindre une valeur négative de -0,00997538 BTC. Quelle que soit la somme des entrées, la "somme" des sorties serait plus petite, ce qui rendrait cette transaction acceptable selon le code de l'époque.
 
 
-Dans ce cas, le bogue avait été divulgué et publié par le biais d'un exploit réel. Malheureusement, environ 2 x 92 milliards de Bitcoin ont été créés, ce qui a fortement dilué la monnaie Supply d'environ 3,7 millions de pièces qui existait à l'époque.
+Dans ce cas, le bogue avait été divulgué et publié par le biais d'un exploit réel. Malheureusement, environ 2 x 92 milliards de Bitcoin ont été créés, ce qui a fortement dilué l'offre monétaire d'environ 3,7 millions de pièces qui existait à l'époque.
 
 
-Dans un fil de discussion connexe, [Satoshi a posté](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) qu'il apprécierait que les gens arrêtent Mining (ou *generating*, comme ils l'appelaient à l'époque) :
+Dans un fil de discussion connexe, [Satoshi a posté](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) qu'il apprécierait que les gens arrêtent de miner (ou *generating*, comme ils l'appelaient à l'époque) :
 
 
-> Il serait utile que les gens arrêtent de générer.  Nous devrons probablement refaire une branche autour de la branche actuelle, et moins il y aura de generate, plus ce sera rapide.
+> Il serait utile que les gens arrêtent de générer.  Nous devrons probablement refaire une branche autour de la branche actuelle, et moins vous générez, plus ce sera rapide.
 >
 
 > Un premier patch sera dans le SVN rev 132.  Il n'est pas encore téléchargé.  Je pousse d'abord d'autres changements divers, puis je mettrai en ligne le correctif pour ceci.
@@ -1899,13 +1894,13 @@ Son plan consistait à créer un Soft Fork pour invalider les transactions comme
 
 > Je construirai des versions sous peu.
 
-Il voulait que les gens téléchargent les données en bloc d'un utilisateur spécifique, à savoir knightmb, qui avait publié son Blockchain tel qu'il apparaissait sur son disque, les fichiers blkXXXX.dat et blkindex.dat. La raison du téléchargement des données Blockchain de cette manière, par opposition à une synchronisation à partir de zéro, était de réduire les goulets d'étranglement de la bande passante du réseau.
+Il voulait que les gens téléchargent les données en bloc d'un utilisateur spécifique, à savoir knightmb, qui avait publié sa Blockchain tel qu'elle apparaissait sur son disque, les fichiers blkXXXX.dat et blkindex.dat. La raison du téléchargement des données Blockchain de cette manière, par opposition à une synchronisation à partir de zéro, était de réduire les goulets d'étranglement de la bande passante du réseau.
 
 
 Il y avait un gros problème : les données que les utilisateurs téléchargeaient de knightmb [n'étaient pas vérifiées par le logiciel Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) au démarrage. Le fichier blkindex.dat contenait l'ensemble UTXO, et le logiciel acceptait toutes les données qu'il contenait comme s'il les avait déjà vérifiées. knightmb aurait pu manipuler les données pour se donner ou donner à quelqu'un d'autre quelques bitcoins.
 
 
-Une fois de plus, les gens ont semblé être d'accord, et l'inversion du bloc invalide et de ses successeurs a été couronnée de succès. Les mineurs ont commencé à travailler sur un nouveau successeur au bloc [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) et, selon le Timestamp du bloc, un successeur est apparu à 23:53 UTC, environ 6 heures après la découverte du problème. À 8 h 10 le lendemain, le 16 août, autour du bloc 74689, la nouvelle chaîne avait dépassé l'ancienne, et tous les nœuds non mis à niveau se sont donc réorganisés pour suivre la nouvelle chaîne. Il s'agit de la réorganisation la plus profonde - 52 blocs - de l'histoire de Bitcoin.
+Une fois de plus, les gens ont semblé être d'accord, et l'inversion du bloc invalide et de ses successeurs a été couronnée de succès. Les mineurs ont commencé à travailler sur un nouveau successeur au bloc [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) et, selon l’horodatage du bloc, un successeur est apparu à 23:53 UTC, environ 6 heures après la découverte du problème. À 8 h 10 le lendemain, le 16 août, autour du bloc 74689, la nouvelle chaîne avait dépassé l'ancienne, et tous les nœuds non mis à niveau se sont donc réorganisés pour suivre la nouvelle chaîne. Il s'agit de la réorganisation la plus profonde, 52 blocs, de l'histoire de Bitcoin.
 
 
 Comparé au problème de la OP_RETURN, ce problème a été traité d'une manière un peu plus propre :
@@ -1916,10 +1911,10 @@ Comparé au problème de la OP_RETURN, ce problème a été traité d'une maniè
 - Non Hard Fork
 
 
-Il a également été demandé aux utilisateurs d'arrêter les Mining pendant cette période. Nous pouvons débattre de la question de savoir si c'est une bonne idée ou non, mais imaginez que vous êtes un Miner et que vous êtes convaincu que tous les blocs situés au-dessus du mauvais bloc seront finalement effacés lors d'une profonde réorganisation : pourquoi gaspilleriez-vous des ressources sur des blocs Mining condamnés ?
+Il a également été demandé aux utilisateurs d'arrêter le miange pendant cette période. Nous pouvons débattre de la question de savoir si c'est une bonne idée ou non, mais imaginez que vous êtes un mineur et que vous êtes convaincu que tous les blocs situés au-dessus du mauvais bloc seront finalement effacés lors d'une profonde réorganisation : pourquoi gaspilleriez-vous des ressources à miner des blocs condamnés ?
 
 
-Vous pourriez également penser qu'il est un peu louche de faire ce que suggère Nakamoto et de télécharger le Blockchain, y compris l'ensemble UTXO, à partir du disque Hard d'un inconnu. Si c'est le cas, vous avez raison : c'est louche. Mais, compte tenu des circonstances, cette réaction d'urgence était judicieuse.
+Vous pourriez également penser qu'il est un peu louche de faire ce que suggère Nakamoto et de télécharger la Blockchain, y compris l'ensemble UTXO, à partir du disque dur d'un inconnu. Si c'est le cas, vous avez raison : c'est louche. Mais, compte tenu des circonstances, cette réaction d'urgence était judicieuse.
 
 
 Il existe une différence importante entre ce cas et le cas précédent OP_RETURN : ce problème a été exploité dans la nature, et la correction a donc pu être faite plus simplement. Dans le cas de OP_RETURN, il a fallu obscurcir la correction et faire des déclarations publiques qui ne révélaient pas directement la nature du problème.
@@ -1929,25 +1924,24 @@ Il existe une différence importante entre ce cas et le cas précédent OP_RETUR
 
 
 
-Un problème très intéressant et très instructif est apparu en mars 2013. Il est apparu que le Blockchain s'était divisé (bien que le mot "Fork" soit utilisé dans la citation ci-dessous) après le bloc 225429. Les détails de cet incident ont été [rapportés dans le BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Le résumé dit :
+Un problème très intéressant et très instructif est apparu en mars 2013. Il est apparu que la Blockchain s'était divisé (bien que le mot "Fork" soit utilisé dans la citation ci-dessous) après le bloc 225429. Les détails de cet incident ont été [rapportés dans le BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Le résumé dit :
 
 
-> Un bloc contenant un plus grand nombre d'entrées de transactions que précédemment a été miné et diffusé. Les nœuds Bitcoin 0.8 ont pu le gérer, mais certains nœuds Bitcoin pré-0.8 l'ont rejeté, provoquant une Fork inattendue de la Blockchain. La chaîne incompatible pré-0.8 (ci-après, la chaîne 0.8) disposait alors d'environ 60 % de la puissance Mining Hash, ce qui a permis de ne pas résoudre automatiquement la scission (comme cela aurait été le cas si la chaîne pré-0.8 avait dépassé la chaîne 0.8 en termes de travail total, obligeant les nœuds 0.8 à se réorganiser en faveur de la chaîne pré-0.8).
+> Un bloc contenant un plus grand nombre d'entrées de transactions que précédemment a été miné et diffusé. Les nœuds Bitcoin 0.8 ont pu le gérer, mais certains nœuds Bitcoin pré-0.8 l'ont rejeté, provoquant un Fork inattendue de la Blockchain. La chaîne incompatible pré-0.8 (ci-après, la chaîne 0.8) disposait alors d'environ 60 % de la puissance de hashage, ce qui a permis de ne pas résoudre automatiquement la scission (comme cela aurait été le cas si la chaîne pré-0.8 avait dépassé la chaîne 0.8 en termes de travail total, obligeant les nœuds 0.8 à se réorganiser en faveur de la chaîne pré-0.8).
 >
 
 > Afin de rétablir une chaîne canonique le plus rapidement possible, BTCGuild et Slush ont rétrogradé leurs nœuds Bitcoin 0.8 en 0.7 afin que leurs pools rejettent également le bloc le plus important. Cela a placé la majorité de la puissance de hachage sur la chaîne sans le bloc plus grand, ce qui a finalement conduit les nœuds 0.8 à se réorganiser vers la chaîne pré-0.8.
 
-L'action rapide des pools Mining BTCGuild et Slush a été impérative dans cette situation d'urgence. Ils ont été capables de faire basculer la majorité de la puissance du Hash vers la branche pré-0.8 du split, et ainsi aider à restaurer le consensus. Cela a donné aux développeurs le temps de trouver une solution durable.
+L'action rapide des pools de minage BTCGuild et Slush a été impérative dans cette situation d'urgence. Ils ont été capables de faire basculer la majorité de la puissance du Hash vers la branche pré-0.8 du split, et ainsi aider à restaurer le consensus. Cela a donné aux développeurs le temps de trouver une solution durable.
 
 
 Ce qui est également très intéressant dans ce problème, c'est que la version 0.7.2 était incompatible avec elle-même, comme c'était le cas pour les versions précédentes. Ceci est expliqué dans la [section Cause première du BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) :
 
 
-> Avec la configuration de verrouillage BDB insuffisamment élevée, il était implicitement devenu une règle de consensus du réseau déterminant la validité du bloc (bien qu'une règle de consensus de la BDB)
-règle incohérente et peu sûre, puisque l'utilisation du verrou peut varier d'un nœud à l'autre).
+> Avec une configuration de verrous BDB insuffisamment élevée, cela était devenu implicitement une règle de consensus du réseau déterminant la validité des blocs (bien qu’il s’agisse d’une règle incohérente et non sécurisée, puisque l’utilisation des verrous pouvait varier d’un nœud à l’autre).
 
 
-En bref, le problème est que le nombre de verrous de base de données dont le logiciel Bitcoin Core a besoin pour vérifier un bloc n'est pas déterministe. Un nœud peut avoir besoin de X verrous tandis qu'un autre nœud peut avoir besoin de X+1 verrous. Les nœuds ont également une limite sur le nombre de verrous que Bitcoin peut prendre. Si le nombre de verrous nécessaires dépasse la limite, le bloc sera considéré comme invalide. Ainsi, si X+1 dépasse la limite mais pas X, les deux nœuds diviseront le Blockchain et ne seront pas d'accord sur la branche qui est valide.
+En bref, le problème est que le nombre de verrous de base de données dont le logiciel Bitcoin Core a besoin pour vérifier un bloc n'est pas déterministe. Un nœud peut avoir besoin de X verrous tandis qu'un autre nœud peut avoir besoin de X+1 verrous. Les nœuds ont également une limite sur le nombre de verrous que Bitcoin peut prendre. Si le nombre de verrous nécessaires dépasse la limite, le bloc sera considéré comme invalide. Ainsi, si X+1 dépasse la limite mais pas X, les deux nœuds diviseront la Blockchain et ne seront pas d'accord sur la branche qui est valide.
 
 
 La solution retenue, outre les mesures immédiates prises par les deux pools pour rétablir le consensus, a été la suivante
@@ -1961,10 +1955,10 @@ La solution retenue, outre les mesures immédiates prises par les deux pools pou
 À l'exception de l'augmentation de la limite de verrouillage global mentionnée au deuxième point, ces règles ont été mises en œuvre temporairement pour une durée prédéterminée. Il était prévu de supprimer ces limites une fois que la plupart des nœuds auraient été mis à niveau.
 
 
-Cette Soft Fork a considérablement réduit le risque d'échec du consensus et, quelques mois plus tard, le 15 mai, les règles temporaires ont été désactivées de concert sur l'ensemble du réseau. Il convient de noter que cette désactivation était en fait une Hard Fork, mais qu'elle n'était pas litigieuse. En outre, elle a été publiée en même temps que la Soft Fork précédente, de sorte que les personnes utilisant le logiciel Soft-forked savaient parfaitement qu'une Hard Fork suivrait. Par conséquent, la grande majorité des nœuds sont restés dans le consensus lorsque la Hard Fork a été activée. Malheureusement, quelques nœuds qui n'ont pas été mis à niveau ont été perdus dans le processus.
+Cette Soft Fork a considérablement réduit le risque d'échec du consensus et, quelques mois plus tard, le 15 mai, les règles temporaires ont été désactivées de concert sur l'ensemble du réseau. Il convient de noter que cette désactivation était en fait un Hard Fork, mais qu'elle n'était pas litigieuse. En outre, elle a été publiée en même temps que le Soft Fork précédent, de sorte que les personnes utilisant le logiciel qui a été Soft-fork savaient parfaitement qu'un Hard Fork suivrait. Par conséquent, la grande majorité des nœuds sont restés dans le consensus lorsque le Hard Fork a été activé. Malheureusement, quelques nœuds qui n'ont pas été mis à jour ont été perdus dans le processus.
 
 
-On peut se demander si cela serait possible aujourd'hui. Le paysage Mining est plus complexe aujourd'hui et, en fonction de la puissance Hash de chaque côté de la scission, il pourrait être Hard de déployer assez rapidement un correctif tel que celui du BIP50. Il serait probablement Hard de convaincre les mineurs de la "mauvaise" branche de renoncer à leurs récompenses de bloc.
+On peut se demander si cela serait possible aujourd'hui. Le paysage du minage est plus complexe aujourd'hui et, en fonction de la puissance de Hash de chaque côté de la scission, il pourrait être difficile de déployer assez rapidement un correctif tel que celui du BIP50. Il serait probablement difficile de convaincre les mineurs de la "mauvaise" branche de renoncer à leurs récompenses de bloc.
 
 
 #### BIP66
@@ -1978,7 +1972,7 @@ Le BIP66 est intéressant parce qu'il souligne l'importance de :
 - bonne sélection cryptographie
 - divulgation responsable
 - déploiement sans révéler la vulnérabilité
-- Mining au sommet des blocs vérifiés
+- minage au sommet des blocs vérifiés
 
 
 BIP66 était une proposition visant à renforcer les règles relatives aux encodages de signature dans le script Bitcoin. La [motivation](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) était de pouvoir analyser les signatures avec des logiciels ou des bibliothèques autres qu'OpenSSL et même des versions récentes d'OpenSSL. OpenSSL est une bibliothèque de cryptographie générale que Bitcoin Core utilisait à l'époque.
@@ -2025,7 +2019,7 @@ Chronologie des événements entourant le BIP66. Les éléments en noir ont ét�
 
 
 
-Sans que personne ne soit au courant de ce problème, il aurait pu être résolu par la BIP62, qui était une proposition visant à réduire les possibilités de malléabilité des transactions. Parmi les changements proposés dans le BIP62 figurait le renforcement des règles de consensus pour l'encodage des signatures, ou "encodage DER strict". Pieter Wuille a proposé quelques modifications au BIP en juillet 2014, qui auraient permis de résoudre le problème :
+Sans que personne ne soit au courant de ce problème, il aurait pu être résolu par le BIP62, qui était une proposition visant à réduire les possibilités de malléabilité des transactions. Parmi les changements proposés dans le BIP62 figurait le renforcement des règles de consensus pour l'encodage des signatures, ou "encodage DER strict". Pieter Wuille a proposé quelques modifications au BIP en juillet 2014, qui auraient permis de résoudre le problème :
 
 
 > 2014-Jul-18 : Afin que les règles d'encodage de signature de Bitcoin ne dépendent pas de l'analyseur spécifique d'OpenSSL, j'ai modifié la proposition BIP62 pour que son exigence stricte de signatures DER s'applique également aux transactions de la version 1. À l'époque, plus aucune signature non DER n'était extraite des blocs, de sorte que l'on a supposé que cela n'aurait aucun impact. Voir https://github.com/Bitcoin/bips/pull/90 et http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Inconnu à l'époque, mais s'il avait été déployé, il aurait permis de résoudre la vulnérabilité.
@@ -2050,7 +2044,7 @@ Il souligne que l'utilisation d'un code qui n'est pas destiné à être utilisé
 Ces événements pourraient vous donner l'impression que Gregory Maxwell connaissait la vulnérabilité que Pieter Wuille a publiée plus tard, mais qu'il a voulu aider à introduire en douce un correctif déguisé en mesure de précaution, sans trop attirer l'attention sur le problème réel. C'est peut-être le cas, mais il s'agit d'une pure spéculation.
 
 
-Ensuite, comme l'a proposé Maxwell, le BIP66 a été créé comme un sous-ensemble du BIP62 qui ne spécifiait que l'encodage DER strict. Ce BIP a apparemment été largement accepté et déployé en juillet, bien que deux scissions de Blockchain se soient ironiquement produites en raison de *Mining sans validation*. Ces scissions sont discutées dans la section suivante.
+Ensuite, comme l'a proposé Maxwell, le BIP66 a été créé comme un sous-ensemble du BIP62 qui ne spécifiait que l'encodage DER strict. Ce BIP a apparemment été largement accepté et déployé en juillet, bien que deux scissions de Blockchain se soient ironiquement produites en raison de *minage sans validation*. Ces scissions sont discutées dans la section suivante.
 
 
 ![](assets/bip66-timeline-2.webp)
@@ -2059,14 +2053,14 @@ Ensuite, comme l'a proposé Maxwell, le BIP66 a été créé comme un sous-ensem
 Il en ressort que les BIP doivent être plus ou moins *atomiques*, c'est-à-dire qu'ils doivent être suffisamment complets pour fournir quelque chose d'utile ou résoudre un problème spécifique, mais suffisamment petits pour permettre un large soutien de la part des utilisateurs. Plus vous mettez de choses dans un BIP, plus les chances qu'il soit accepté sont faibles.
 
 
-##### Séparations dues à la validation sans validation Mining
+##### Séparations dues à la non validation par minage
 
 
 
-Malheureusement, l'histoire du BIP66 ne s'est pas arrêtée là. Lorsque le BIP66 a été activé, il s'est avéré assez désordonné parce que certains mineurs n'ont pas vérifié les blocs qu'ils essayaient d'étendre. C'est ce qu'on appelle la Mining sans validation, ou SPV-Mining (Simplified Payment Verification). Un message d'alerte a été envoyé aux nœuds Bitcoin avec un lien vers [une page web décrivant le problème](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) :
+Malheureusement, l'histoire du BIP66 ne s'est pas arrêtée là. Lorsque le BIP66 a été activé, il s'est avéré assez désordonné parce que certains mineurs n'ont pas vérifié les blocs qu'ils essayaient d'étendre. C'est ce qu'on appelle le minage sans validation, ou SPV-Mining (Simplified Payment Verification). Un message d'alerte a été envoyé aux nœuds Bitcoin avec un lien vers [une page web décrivant le problème](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) :
 
 
-> Tôt dans la matinée du 4 juillet 2015, le seuil de 950/1000 (95 %) a été atteint. Peu de temps après, un petit Miner (faisant partie des 5 % non améliorés) a miné un bloc invalide - ce qui était prévisible. Malheureusement, il s'est avéré qu'environ la moitié du taux Hash du réseau était Mining sans validation complète des blocs (appelé SPV Mining), et a construit de nouveaux blocs au-dessus de ce bloc invalide.
+> Tôt dans la matinée du 4 juillet 2015, le seuil de 950/1000 (95 %) a été atteint. Peu de temps après, un petit mineur (faisant partie des 5 % non améliorés) a miné un bloc invalide, ce qui était prévisible. Malheureusement, il s'est avéré qu'environ la moitié du taux de hashage du réseau minait sans validation complète des blocs (appelé SPV Mining), et a construit de nouveaux blocs au-dessus de ce bloc invalide.
 
 La page d'alerte demandait aux utilisateurs d'attendre 30 confirmations supplémentaires au cas où ils utiliseraient des versions plus anciennes de Bitcoin Core.
 
@@ -2076,22 +2070,22 @@ La scission mentionnée ci-dessus s'est produite le 2015-07-04 à 02:10 UTC apr�
 
 ![](assets/bip66-timeline-3.webp)
 
-Les événements qui ont conduit à BIP66, son déploiement et ses conséquences constituent une très bonne étude de cas qui montre à quel point les développeurs de Bitcoin doivent être prudents. Quelques éléments clés à retenir de BIP66 :
+Les événements qui ont conduit à BIP66, son déploiement et ses conséquences constituent un très bon étude de cas qui montre à quel point les développeurs de Bitcoin doivent être prudents. Quelques éléments clés à retenir de BIP66 :
 
 
 
 - L'équilibre entre l'ouverture et le fait de ne pas publier une vulnérabilité est délicat à trouver.
-- Le déploiement de correctifs pour les vulnérabilités non publiées est un jeu délicat.
-- Le consensus de maintien est le Hard.
+- Le déploiement de correctifs pour les vulnérabilités non publiées est délicat.
+- Le consensus de maintien est difficile.
 - Les logiciels qui ne sont pas destinés aux systèmes consensuels sont généralement risqués.
 - Les BIP devraient être quelque peu atomiques.
 
 
-### Conclusion à propos de When Shit Hits The Fan
+### Conclusion à propos de "Quand tout dérape"
 
 
 
-Bitcoin a des bugs. Les personnes qui découvrent des bogues sont encouragées à les divulguer de manière responsable aux développeurs de Bitcoin, afin qu'ils puissent corriger le bogue sans le révéler publiquement. Idéalement, la correction du bogue peut être déguisée en amélioration des performances, ou en un autre écran de fumée.
+Bitcoin a des bugs. Les personnes qui découvrent des bugs sont encouragées à les divulguer de manière responsable aux développeurs de Bitcoin, afin qu'ils puissent corriger le bug sans le révéler publiquement. Idéalement, la correction du bug peut être déguisée en amélioration des performances, ou en un autre écran de fumée.
 
 
 Nous avons examiné certains des problèmes les plus graves qui sont apparus au fil des ans et la manière dont ils ont été traités. Certains ont été découverts publiquement grâce à des exploits, tandis que d'autres ont été divulgués de manière responsable et ont pu être corrigés avant que des acteurs malveillants n'aient la possibilité de les exploiter.
@@ -2112,10 +2106,10 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 
-- La décentralisation est Hard. Pourquoi se donner tant de mal pour la faire fonctionner ? Pourrions-nous opter pour une approche hybride, où certaines parties sont centralisées et d'autres non ?
+- La décentralisation est difficile. Pourquoi se donner tant de mal pour la faire fonctionner ? Pourrions-nous opter pour une approche hybride, où certaines parties sont centralisées et d'autres non ?
 - La décentralisation introduit-elle le problème de la double dépense ou le problème de la double dépense nécessite-t-il la décentralisation ? Comment Satoshi a-t-il résolu le problème de la double dépense ?
 - Dans quels domaines Bitcoin est-il encore le plus sujet à la censure, et pourquoi la censure est-elle une si mauvaise chose ? Existe-t-il des arguments en faveur de la censure ?
-- Il est indiqué que le Bitcoin n'est pas autorisé. Existe-t-il d'autres méthodes de paiement que l'on pourrait considérer comme sans autorisation ?
+- Il est indiqué que le Bitcoin ne necessite pas de permission. Existe-t-il d'autres méthodes de paiement que l'on pourrait considérer comme sans permission ?
 
 
 
@@ -2124,9 +2118,9 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 
-- L'absence de confiance est souvent un spectre, et non une brique. Quels sont les aspects de Bitcoin qui sont plutôt Trustless, et quels sont ceux qui impliquent généralement un niveau de confiance plus élevé ? Peut-on les atténuer ?
-- Vous souhaitez exécuter un noeud complet pour pouvoir valider entièrement toutes les transactions. Vous téléchargez Bitcoin Core à partir de https://Bitcoin.org/en/download. Où avez-vous placé votre confiance et où en êtes-vous avec Trustless ?
-- Est-il possible de construire un système Trustless au-dessus d'un système de confiance ?
+- L'absence de confiance est souvent un spectre, et non une brique. Quels sont les aspects de Bitcoin qui sont plutôt sans confiance, et quels sont ceux qui impliquent généralement un niveau de confiance plus élevé ? Peut-on les atténuer ?
+- Vous souhaitez exécuter un noeud complet pour pouvoir valider entièrement toutes les transactions. Vous téléchargez Bitcoin Core à partir de https://Bitcoin.org/en/download. Où avez-vous placé votre confiance et où en êtes-vous avec l'abscence de confiance ?
+- Est-il possible de construire un système sans confiance au-dessus d'un système de confiance ?
 
 
 
@@ -2141,17 +2135,17 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 
-#### Fini Supply
+#### Quantité finie
 
 
 
 
-- Quelle est la relation entre la Bitcoin finie et la Supply et son émission de pièces par le biais de la Coinbase Transaction ? Quelle est la relation entre l'émission de pièces et le budget de sécurité, et comment s'opposent-ils ?
-- Quels paramètres Satoshi aurait-il pu modifier pour changer le plafond Bitcoin de la Supply ? Qu'est-ce qui changerait s'il avait décidé de plafonner la Supply à 1 million ? Qu'en serait-il d'un trillion ?
-- Pourquoi certaines personnes préconisent-elles une augmentation de Bitcoin Supply ? Pensez-vous que cela se produira ?
+- Quelle est la relation entre la quantité finie de Bitcoin et son émission de pièces par le biais de la Coinbase Transaction ? Quelle est la relation entre l'émission de pièces et le budget de sécurité, et comment s'opposent-ils ?
+- Quels paramètres Satoshi aurait-il pu modifier pour changer le plafond de la quantité de Bitcoin ? Qu'est-ce qui changerait s'il avait décidé de plafonner la quantité à 1 million ? Qu'en serait-il d'un trillion ?
+- Pourquoi certaines personnes préconisent-elles une augmentation de la quantité de Bitcoin ? Pensez-vous que cela se produira ?
 
 
-#### Mise à niveau
+#### Mise à jour
 
 
 
@@ -2166,33 +2160,33 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 - Qu'est-ce qu'une attaque de type "sybil" et pourquoi un réseau décentralisé y est-il si vulnérable ?
-- Pourquoi est-il important que tous les acteurs du réseau Bitcoin - et pas seulement les développeurs - pensent de manière contradictoire ?
+- Pourquoi est-il important que tous les acteurs du réseau Bitcoin, et pas seulement les développeurs, pensent de manière contradictoire ?
 
 
 
-#### Source ouverte
+#### Open Source
 
 
 
 
 - Seule une poignée de mainteneurs ont les permissions GitHub nécessaires pour fusionner le code dans le dépôt [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Cela ne va-t-il pas à l'encontre d'un réseau sans permission ?
-- Le processus de développement des logiciels libres est-il susceptible de faire l'objet d'une attaque de type "sybil" ? Dans l'affirmative, comment y remédier ?
+- Le processus de développement des logiciels libres est-il susceptible de faire l'objet d'une attaque de type "sybil" ? Si oui, comment y remédier ?
 - Quels sont les avantages et les inconvénients de s'appuyer sur des bibliothèques open source tierces, et quelle est l'approche adoptée avec Bitcoin Core ?
 - De quelle manière avons-nous besoin d'un examen plus approfondi que l'examen du code ? Comment déterminer quelle quantité de révision est suffisante ?
 - Comment s'assurer qu'il y aura toujours suffisamment de personnes compétentes pour travailler sur Bitcoin ? Que se passe-t-il lorsqu'il n'y en a pas, et comment évaluer leur intégrité et leurs intentions ?
 
 
 
-#### Mise à l'échelle
+#### Scalabilité
 
 
 
 
-- L'argument avancé est que le sharding offre des avantages en termes d'échelle au prix de la complexité. Pourquoi devrions-nous ou ne devrions-nous pas adopter des améliorations technologiques parce qu'elles sont difficiles à comprendre, même si elles semblent technologiquement valables ?
-- Quels sont les exemples de méthodes d'échelonnement vers l'intérieur introduites dans Bitcoin ?
-- Pourquoi l'extension verticale est-elle beaucoup plus difficile dans un système décentralisé ? Qu'en est-il de la mise à l'échelle horizontale ?
-- Il semble que nous ne soyons pas près de parvenir à un consensus sur la manière dont nous pourrions embarquer le monde entier sur Bitcoin. Satoshi n'aurait-elle pas dû au moins réfléchir à un moyen d'y parvenir, avant Mining, le premier bloc de 2009 ?
-- Comment classeriez-vous (verticalement, horizontalement, vers l'intérieur ou pas une technique de mise à l'échelle) chacun des éléments suivants : sharding, augmentation de la taille des blocs, SegWit, nœuds SPV, échanges centralisés, Lightning Network, diminution de l'intervalle entre les blocs, Taproot, sidechains
+- L'argument avancé est que le sharding offre des avantages en termes de scalabilité au détriment de la complexité. Pourquoi devrions-nous ou ne devrions-nous pas adopter des améliorations technologiques parce qu'elles sont difficiles à comprendre, même si elles semblent technologiquement valables ?
+- Quels sont les exemples de méthodes de scalabilité vers l'intérieur introduites dans Bitcoin ?
+- Pourquoi l'extension verticale est-elle beaucoup plus difficile dans un système décentralisé ? Qu'en est-il de la scalabilité horizontale ?
+- Il semble que nous ne soyons pas près de parvenir à un consensus sur la manière dont nous pourrions embarquer le monde entier sur Bitcoin. Satoshi n'aurait-il pas dû au moins réfléchir à un moyen d'y parvenir, avant de miner le premier bloc de 2009 ?
+- Comment classeriez-vous (verticalement, horizontalement, vers l'intérieur ou pas une technique de scalabilité) chacun des éléments suivants : sharding, augmentation de la taille des blocs, SegWit, nœuds SPV, échanges centralisés, Lightning Network, diminution de l'intervalle entre les blocs, Taproot, sidechains
 
 
 

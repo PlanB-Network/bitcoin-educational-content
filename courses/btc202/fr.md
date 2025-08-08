@@ -789,7 +789,7 @@ Sur Sparrow, rendez-vous dans l’onglet "*Private Electrum*".
 
 Vous devrez alors saisir plusieurs informations afin d’établir la connexion avec votre indexeur. Vous trouverez ces données dans l’application "*Electrs*" (ou, le cas échéant, "*Fulcrum*") sur Umbrel.
 
-Sélectionnez l’onglet "*Tor*" pour obtenir l’adresse de connexion en `.onion`.
+Sélectionnez l’onglet "*Tor*" pour obtenir l’adresse de connexion en `.onion`. Si vous souhaitez connecter un logiciel de portefeuille sur mobile, vous pouvez également scanner directement le QR code.
 
 038
 
@@ -811,7 +811,51 @@ Vous savez désormais comment relier votre logiciel de gestion de portefeuille �
 ## Tour d’horizon des applications disponibles
 <chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
 
-Présentation des principales applications qu’on peut ajouter à Umbrel dans le cadre de Bitcoin : Mempool, Lightning, Nostr, BTCPay, Tailscale... Introduction rapide à leurs fonctions + liens vers tutos. 
+Présentation des principales applications qu’on peut ajouter à Umbrel dans le cadre de Bitcoin : Mempool, Lightning, Nostr, BTCPay, Tailscale... Introduction rapide à leurs fonctions + liens vers tutos.
+
+
+
+
+
+
+
+
+Umbrel propose un vaste magasin d’applications. Comme vous pourrez le constater, on y trouve de nombreux outils liés à Bitcoin, mais également une grande variété d’applications dans des domaines très différents : solutions d’auto-hébergement de services et de fichiers, applications de productivité, outils financiers plus généraux, gestion de médias, sécurité et administration réseau, développement, intelligence artificielle, réseaux sociaux ou encore domotique.
+
+Dans le cadre de cette formation BTC 202, nous nous concentrerons exclusivement sur les applications en rapport avec Bitcoin. Toutefois, n’hésitez pas à explorer le reste du catalogue pour y dénicher des outils pouvant vous être utiles.
+
+Évidemment, il serait impossible de vous présenter ici toutes les applications Bitcoin tant elles sont nombreuses. Je vous propose donc, dans ce chapitre, de découvrir celles que je considère comme essentielles pour faciliter et enrichir votre utilisation quotidienne de Bitcoin.
+
+### Mempool.space
+
+Dans l’usage quotidien de Bitcoin, s’il est un outil véritablement incontournable, c’est bien l’explorateur de blocs. Qu’il soit accessible en ligne ou installé en local, il permet de transformer les données brutes de la blockchain en un format structuré, clair et facilement lisible. Il intègre également un moteur de recherche pour retrouver rapidement un bloc, une transaction ou une adresse spécifique.
+
+Concrètement, l’explorateur vous permet d’estimer les frais nécessaires pour que votre transaction soit incluse dans un bloc, puis de suivre son évolution : savoir si elle est susceptible d’être intégrée prochainement en fonction du marché des frais, et enfin confirmer qu’elle a bien été incluse dans un bloc. Il offre aussi la possibilité d’analyser vos transactions passées et d’en consulter l’historique. En bref, c’est le véritable couteau suisse du bitcoiner.
+
+Comme indiqué précédemment, un explorateur peut être hébergé en ligne sur un site web ou exécuté localement sur votre machine. L’inconvénient majeur d’un service en ligne est qu’il peut compromettre votre confidentialité. Sans VPN ni Tor, le serveur hébergeant l’explorateur peut relier votre adresse IP aux transactions que vous consultez, ce qui peut constituer un point d’entrée idéal pour une analyse de chaîne.
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+De plus, votre fournisseur d’accès à Internet (ISP) peut savoir que vous consultez telle ou telle transaction via le site de l’explorateur de blocs. Cela soulève également une question de confiance : vous devez vous en remettre au service en ligne pour obtenir des informations exactes sur vos transactions, sans pouvoir en vérifier la véracité par vous-même.
+
+C’est pourquoi il est toujours préférable d’utiliser son propre explorateur de blocs en local. De cette manière, aucune donnée liée à votre activité de recherche ne fuitera, puisque toutes les requêtes sont traitées directement sur une machine que vous contrôlez, sans passage par Internet. De plus, un explorateur local s’appuie sur les données de votre propre nœud Bitcoin, que vous avez validées vous-même, selon vos propres règles, et en lesquelles vous pouvez avoir confiance.
+
+Sur Umbrel, plusieurs explorateurs de blocs sont disponibles :
+- Mempool.space  
+- Bitfeed  
+- BTC RPC Explorer
+
+Pour ma part, j’apprécie particulièrement Mempool.space, que j’ai donc installé sur mon nœud. Attention toutefois : pour utiliser la plupart des explorateurs de blocs sur Umbrel, un indexeur d’adresses est nécessaire. Vous devez donc disposer de l’application Bitcoin Node (ou Bitcoin Knots) avec une blockchain synchronisée à 100 %, ainsi que d’un indexeur tel qu’Electrs ou Fulcrum, également synchronisé à 100 %.
+
+Une fois l’application installée, il vous suffit de l’ouvrir pour accéder à votre propre explorateur.
+
+041
+
+Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
+
+https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+
+
 
 
 

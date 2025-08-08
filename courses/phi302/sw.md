@@ -1395,7 +1395,7 @@ Chanzo huria huruhusu maendeleo bila ruhusa ndani, na juu ya Bitcoin. Ikiwa unaa
 Mchakato wa uundaji karibu na Bitcoin umefunguliwa kwa kiasi kikubwa, ambayo inaweza kufanya Bitcoin ionekane kama mahali pa sumu na isiyofaa, lakini hiyo ndiyo inaifanya Bitcoin kustahimili ustahimilivu dhidi ya watendaji hasidi.
 
 
-## Kuongeza
+## Scaling 
 
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
@@ -1426,11 +1426,11 @@ aina ya mabadiliko, kwa mfano:
 Hivi karibuni tutaingia katika mbinu tofauti za kuongeza ukubwa, lakini wacha tuanze na muhtasari mfupi wa historia ya Bitcoin katika muktadha wa kuongeza kiwango.
 
 
-### Historia ya Kuongeza
+### Historia ya Scaling 
 
 
 
-Kuongeza imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kwa kujibu tangazo la Satoshi la whitepaper Bitcoin kwenye orodha ya barua pepe ya Crystalgraphy kwa hakika ilikuwa inahusu kuongeza:
+Scaling imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kwa kujibu tangazo la Satoshi la whitepaper Bitcoin kwenye orodha ya barua pepe ya Crystalgraphy kwa hakika ilikuwa inahusu kuongeza:
 
 
 > Satoshi Nakamoto aliandika:
@@ -1467,27 +1467,27 @@ mbinu zimetekelezwa.
 
 
 
-Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza kikomo cha ukubwa wa block au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
+Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supply ya  blocksize au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
 
 
-#### Kuongeza wima
+#### vertical scaling
 
 
 
-Kuongeza wima ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa nodi kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
+Vertical scaling ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa node kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
 
 
-Mbinu inayojadiliwa zaidi ya kuongeza wima katika Bitcoin ni ongezeko la kikomo cha Blocksize. Hii itahitaji nodi zingine kamili ili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Upande wa chini ni kwamba hutokea kwa gharama ya centralization.
+Mbinu inayojadiliwa zaidi ya vertical scaling katika Bitcoin ni ongezeko la kikomo cha block size. Hii itahitaji node zingine kamili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Hasara yake ni kwamba hutokea kwa gharama ya centralization.
 
 
-Kando na athari hasi kwenye ugatuaji wa Full node, kuongeza wima kunaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin ya Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi miners "wanapaswa" kufanya kazi. Sema mgodi wa Miner block katika urefu wa 7 na uchapishe block hiyo kwenye mtandao wa Bitcoin. Itachukua muda kwa block hii kufikia kukubalika kwa upana, ambayo ni kwa sababu ya sababu mbili:
+Kando na athari hasi kwenye ugatuaji wa full node, vertical scaling inaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi miners “wanapaswa” kufanya kazi. Tuseme miner anachimba block katika urefu wa 7 na kuchapisha block hiyo kwenye mtandao wa Bitcoin. Itachukua muda kwa block hii kufikia kukubalika kwa upana, na hii ni kwa sababu ya sababu mbili:
 
 
 - Uhamisho wa block kati ya wenzao huchukua muda kwa sababu ya mapungufu ya bandwidth.
 - Uthibitishaji wa block huchukua muda.
 
 
-Wakati block 7 inaenezwa kupitia mtandao, miners wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata kizuizi kipya kwa urefu wa 7, kutakuwa na blocks mbili zinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
+Wakati block 7 inaenezwa kupitia mtandao, miners wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata block mpya kwa urefu wa 7, kutakuwa na blocks mbili zinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
 
 
 Kwa kifupi, blocks zilivyochakaa hutokea kwa sababu inachukua muda kwa kila block kueneza, na jinsi uenezi unavyochukua muda, ndivyo uwezekano wa vitalu vilivyochakaa unavyoongezeka.
@@ -1498,6 +1498,7 @@ Tuseme kwamba kikomo cha Blocksize kimeondolewa na kwamba ukubwa wa wastani wa b
 
 Miners hawapendi kuzuiwa kwa blocks zao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
 
+
 mazingira. Hatua wanazoweza kuchukua ni pamoja na:
 
 
@@ -1506,20 +1507,20 @@ mazingira. Hatua wanazoweza kuchukua ni pamoja na:
 - Inaunganisha kwa Mining pool yenye kipimo data na muunganisho mkubwa zaidi.
 
 
-Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa Full node, kwani Miner anakimbilia kuamini blocks zinavyoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa kwenye Blockchain batili, badala ya kujenga kwenye mnyororo thabiti na halali.
+Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa Full node, kwani Miner anakimbilia kuamine blocks zinavyoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa kwenye Blockchain batili, badala ya kujenga kwenye mnyororo thabiti na halali.
 
 
-Nukta ya pili ya bullet ina athari mbaya kwa ugatuaji wa Miner, kwa sababu kwa kawaida pools zilizo na muunganisho bora wa mtandao na kipimo data pia ni kikubwa zaidi, na kusababisha miners kushawishika kuelekea pools chache kubwa.
+Nukta ya pili ya alama ya nukta ina athari mbaya kwa ugatuaji wa Miner, kwa sababu kwa kawaida pools zilizo na muunganisho bora wa mtandao na kipimo data pia ni kikubwa zaidi, na kusababisha miners kushawishika kuelekea pools chache kubwa.
 
 
-#### Kuongeza usawa
+#### Horizontal scaling
 
 
 
-Kuongeza mlalo hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi. Ingawa hii ni mbinu iliyoenea ya kuongeza alama kati ya tovuti na hifadhidata maarufu, haifanywi kwa urahisi katika Bitcoin.
+Horizontal scaling hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi. Ingawa hii ni mbinu iliyoenea ya kuongeza scalability kati ya tovuti na hifadhidata maarufu, haifanywi kwa urahisi katika Bitcoin.
 
 
-Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama *sharding*. Kimsingi, inajumuisha kuruhusu kila Full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
+Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama sharding. Kimsingi, inajumuisha kuruhusu kila full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
 
 
 > Katika mifumo iliyopigwa "Full node security" haifanyi kazi, angalau moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, kwa hiyo unapaswa kuamua nini kinatokea wakati haipatikani.
@@ -1535,17 +1536,16 @@ Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au
 Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa nguvu kuwashawishi kutumia kitu ngumu zaidi.
 
 
-#### Kuongezeka kwa ndani
+#### Inward scaling 
 
 
-
-Ingawa upimaji mlalo na wima umefanya vyema kihistoria katika mifumo ya kati kama hifadhidata na seva za wavuti, haionekani kufaa kwa mtandao uliogatuliwa kama Bitcoin kutokana na athari zao za kujumuisha.
+Ingawa horizontal na vertical scaling zimefanya vyema kihistoria katika mifumo ya kati kama hifadhidata na seva za wavuti, haionekani kufaa kwa mtandao uliogatuliwa kama Bitcoin kutokana na athari zao za kuleta centralization.
 
 
 Mbinu ambayo inapata shukrani ndogo sana ndiyo tunaweza kuita *internal scaling*, ambayo hutafsiriwa kuwa "fanya zaidi kwa kidogo". Inarejelea kazi inayoendelea kufanywa kila mara na wasanidi programu wengi ili kuboresha algoriti ambazo tayari zimetumika, ili tuweze kufanya mengi ndani ya mipaka iliyopo ya mfumo.
 
 
-Maboresho ambayo yamepatikana kupitia upanuzi wa ndani ni ya kuvutia, kusema mdogo. Ili kukupa wazo la jumla la maboresho kwa miaka mingi, Jameson Lopp [amefanya majaribio ya msingi](https://blog.lopp.net/Bitcoin-core-performance-evolution/) kuhusu usawazishaji wa Blockchain, akilinganisha matoleo mengi tofauti ya Bitcoin Core kurudi kwenye toleo la 0.8.
+Maboresho ambayo yamepatikana kupitia inward scaling ni ya kuvutia, kusema kidogo. Ili kukupa wazo la jumla la maboresho kwa miaka mingi, Jameson Lopp [amefanya majaribio ya msingi](https://blog.lopp.net/Bitcoin-core-performance-evolution/) kuhusu usawazishaji wa Blockchain, akilinganisha matoleo mengi tofauti ya Bitcoin Core kurudi kwenye toleo la 0.8.
 
 
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
@@ -1583,10 +1583,10 @@ Pia kuna mifano kadhaa mizuri ya maboresho ya kuokoa nafasi ambayo yalichangia u
 Uokoaji wa nafasi kwa aina tofauti za matumizi, Taproot na matoleo ya zamani.
 
 
-Multisig ya 2 kati ya 3 kwa kutumia asili ya SegWit ingehitaji jumla ya 104.5+43 vB = 147.5 vB, ilhali matumizi ya Taproot ya kihafidhina zaidi yangehitaji 57.5+43 vB = 100.5 vB pekee katika hali ya matumizi ya kawaida. Katika hali mbaya zaidi na katika hali nadra, kama vile mtu anayetia sahihi wa kawaida hayupo kwa sababu fulani, Taproot ingetumia 107.5+43 vB = 150.5 vB. Sio lazima uelewe maelezo yote, lakini hii inapaswa kukupa wazo la jinsi watengenezaji wanafikiria juu ya kuhifadhi nafasi - kila baiti inahesabiwa.
+Multisig ya 2 kati ya 3 kwa kutumia native SegWit ingehitaji jumla ya 104.5+43 vB = 147.5 vB, ilhali matumizi ya Taproot ya kihafidhina zaidi yangehitaji 57.5+43 vB = 100.5 vB pekee katika matumizi ya kawaida. Katika hali nadra na mbaya zaidi, kama msaini wa kawaida hayupo kwa sababu fulani, Taproot ingetumia 107.5+43 vB = 150.5 vB. Si lazima uelewe maelezo yote, lakini hii inakupa wazo la jinsi watengenezaji wanafikiria kuhusu kuokoa nafasi—kila byte inahesabika.
 
 
-Kando na kuongeza kiwango cha ndani katika programu ya Bitcoin, kuna baadhi ya njia ambazo watumiaji wanaweza kuchangia kuongeza kiwango cha ndani, pia. Wanaweza kufanya miamala yao kwa akili zaidi ili kuokoa ada za miamala huku wakipunguza nyayo zao kwa mahitaji ya Full node kwa wakati mmoja. Mbinu mbili zinazotumiwa kwa kawaida kuelekea lengo kama hilo huitwa uunganishaji wa shughuli na ujumuishaji wa matokeo.
+Kando na inward scaling katika programu ya Bitcoin, kuna baadhi ya njia ambazo watumiaji wanaweza kuchangia kwenye inward scaling pia. Wanaweza kufanya miamala yao kwa akili zaidi ili kuokoa ada za muamala huku wakipunguza athari zao kwa mahitaji ya full node kwa wakati mmoja. Mbinu mbili zinazotumiwa kwa kawaida kuelekea lengo hili huitwa transaction batching na output consolidation.
 
 
 Wazo la batching ya miamala ni kuchanganya malipo mengi katika muamala mmoja, badala ya kufanya muamala mmoja kwa kila malipo. Hii inaweza kukuokoa ada nyingi, na wakati huo huo kupunguza mzigo wa nafasi ya kuzuia.
@@ -1613,14 +1613,14 @@ Huenda isiwe dhahiri jinsi ujumuishaji wa pato unavyochangia kuongeza kiwango ch
 Kwa bahati mbaya, hata hivyo, mbinu hizi mbili za usimamizi wa *UTXO* zinaweza kuwa mbaya kwa faragha yako au ya wanaolipwa`'. Katika kesi ya batching, kila mlipaji atajua kuwa matokeo yote yaliyopangwa ni kutoka kwako hadi kwa wanaolipwa wengine (isipokuwa labda mabadiliko). Katika kesi ya ujumuishaji ya UTXO, utafichua kuwa matokeo unayounganisha ni ya Wallet sawa. Kwa hivyo unaweza kulazimika kufanya biashara kati ya ufanisi wa gharama na faragha.
 
 
-#### Kuongeza tabaka
+#### layer scaling
 
 
 
-Njia yenye athari zaidi ya kuongeza labda ni kuweka tabaka. Wazo la jumla la kuweka tabaka ni kwamba itifaki inaweza kusuluhisha malipo kati ya watumiaji bila kuongeza miamala kwenye Blockchain.
+Njia yenye athari zaidi ya kuongeza labda ni kuweka tabaka. Wazo la jumla la kuweka tabaka ni kwamba protocol inaweza kusuluhisha malipo kati ya watumiaji bila kuongeza miamala kwenye Blockchain.
 
 
-Itifaki ya safu huanza na watu wawili au zaidi kukubaliana juu ya shughuli ya kuanza ambayo imewekwa kwenye Blockchain, kama inavyoonyeshwa kwenye takwimu hapa chini.
+protocol ya safu huanza na watu wawili au zaidi kukubaliana juu ya shughuli ya kuanza ambayo imewekwa kwenye Blockchain, kama inavyoonyeshwa kwenye takwimu hapa chini.
 
 
 ![](assets/scaling-layer.webp)
@@ -1631,7 +1631,7 @@ Itifaki ya kawaida ya Layer 2 juu ya Bitcoin, Layer 1.
 Jinsi muamala huu wa kuanza unavyoundwa hutofautiana kati ya itifaki, lakini mada ya kawaida ni kwamba washiriki huunda muamala wa kuanza ambao haujatiwa saini na idadi ya miamala ya adhabu iliyotiwa saini awali, ambayo hutumia matokeo ya muamala wa kuanza kwa njia mbalimbali. Baadaye, shughuli ya kuanza itatiwa saini kikamilifu na kuchapishwa kwa Blockchain, na miamala ya adhabu inaweza kusainiwa kikamilifu na kuchapishwa ili kuadhibu mhusika. Hii inawapa motisha washiriki kutimiza ahadi zao ili itifaki ifanye kazi kwa njia ya Trustless.
 
 
-Mara tu shughuli ya kuanza iko kwenye Blockchain, itifaki inaweza kufanya kile inachopaswa kufanya. Kwa mfano, inaweza kufanya malipo ya haraka sana kati ya washiriki, kutekeleza baadhi ya mbinu za kuimarisha faragha, au kufanya uandishi wa hali ya juu zaidi ambao hautaauniwa na Bitcoin Blockchain.
+Mara tu muamala wa kuanza uko kwenye Blockchain, protol inaweza kufanya kile inachopaswa kufanya. Kwa mfano, inaweza kufanya malipo ya haraka sana kati ya washiriki, kutekeleza baadhi ya mbinu za kuimarisha faragha, au kufanya uandishi wa hali ya juu zaidi ambao hautaauniwa na Bitcoin Blockchain.
 
 
 Hatutaelezea kwa undani jinsi itifaki maalum hufanya kazi, lakini kama unavyoona katika takwimu iliyotangulia, Blockchain haitumiki sana wakati wa mzunguko wa maisha wa itifaki. Hatua zote za juicy hutokea *off-chain*. Tumeona jinsi hii inaweza kuwa ushindi kwa faragha ikiwa itafanywa vizuri, lakini pia inaweza kuwa faida kwa uboreshaji.
@@ -1661,7 +1661,7 @@ Miaka mingi imepita tangu Maxwell aandike kipande hicho hapo juu, na maneno yake
 
 
 
-### Hitimisho kuhusu Kuongeza
+### Hitimisho kuhusu scaling 
 
 
 
@@ -1671,7 +1671,7 @@ Tumejadili njia mbalimbali ambazo mtu anaweza kutaka kuongeza Bitcoin, kuongeza 
 Tunajua leo kwamba Bitcoin haina kiwango vizuri kiwima ("kununua maunzi makubwa") au kwa mlalo ("thibitisha sehemu tu za data"), lakini badala ya ndani ("fanya zaidi kwa kidogo") na katika tabaka ("unda itifaki juu ya Bitcoin").
 
 
-## Wakati shit inapiga shabiki
+## Wakati hali inageuka kuwa mbaya sana
 
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
@@ -1686,7 +1686,7 @@ Bitcoin inajengwa na watu. Watu huandika programu, na watu huendesha programu hi
 
 
 
-Hebu fikiria ukigundua hitilafu katika Bitcoin Core, hitilafu ambayo inaruhusu mtu yeyote kuzima nodi ya Bitcoin kwa mbali kwa kutumia baadhi ya ujumbe wa mtandao ulioundwa mahususi. Fikiria pia huna nia mbaya na ungependa suala hili libaki bila kutumiwa. Unafanya nini? Ukikaa kimya kulihusu, huenda mtu mwingine atagundua suala hilo, na huwezi kuwa na uhakika kwamba mtu huyo hatakuwa na nia mbaya.
+Hebu fikiria ukigundua hitilafu katika Bitcoin Core, hitilafu ambayo inaruhusu mtu yeyote kuzima node ya Bitcoin kwa mbali kwa kutumia baadhi ya ujumbe wa mtandao ulioundwa mahususi. Fikiria pia huna nia mbaya na ungependa suala hili libaki bila kutumiwa. Unafanya nini? Ukikaa kimya kulihusu, huenda mtu mwingine atagundua suala hilo, na huwezi kuwa na uhakika kwamba mtu huyo hatakuwa na nia mbaya.
 
 
 Suala la usalama linapogunduliwa, mtu anayeligundua anapaswa kuajiri _responsible disclosure_ ambalo ni neno linalotumiwa mara nyingi miongoni mwa wasanidi wa Bitcoin. Neno hili [limefafanuliwa kwenye Wikipedia]( https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure ):
@@ -2075,12 +2075,12 @@ Jambo kuu la kuchukua kutoka kwa hili ni kwamba BIPs zinapaswa kuwa zaidi au chi
 Kwa bahati mbaya, hadithi ya BIP66 haikuishia hapo. BIP66 ilipoamilishwa, iliharibika sana kwa sababu baadhi ya miners hawakuthibitisha blocks walivyokuwa wakijaribu kupanua. Hii inaitwa Mining isiyo na uhalali, au SPV-Mining (kama ilivyo katika Uthibitishaji wa Malipo Uliorahisishwa). Ujumbe wa tahadhari ulitumwa kwa node za Bitcoin na kiungo cha [ukurasa wa wavuti unaoelezea suala hilo](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
 
-> Mapema asubuhi tarehe 4 Julai 2015, kiwango cha 950/1000 (95%) kilifikiwa. Muda mfupi baadaye, Miner ndogo (sehemu ya asilimia 5 isiyoboreshwa ilichimba kizuizi batili–kama tukio lililotarajiwa. Kwa bahati mbaya, ikawa kwamba takriban nusu ya kiwango cha mtandao cha Hash kilikuwa Mining bila vitalu vya kuthibitisha kikamilifu (kinachoitwa SPV Mining), na kujenga vitalu vipya juu ya block hiyo isiyo sahihi.
+> Mapema asubuhi tarehe 4 Julai 2015, kiwango cha 950/1000 (95%) kilifikiwa. Muda mfupi baadaye, miner ndogo (sehemu ya asilimia 5 isiyoboreshwa) ilichimba block batili – kama tukio lililotarajiwa. Kwa bahati mbaya, ikawa kwamba takriban nusu ya kiwango cha mtandao cha hash kilikuwa Mining bila blocks za kuthibitisha kikamilifu (kinachoitwa SPV Mining), na kujenga blocks mpya juu ya block hiyo isiyo sahihi.
 
 Ukurasa wa arifa uliwaagiza watu wangojee uthibitisho 30 zaidi kuliko kawaida ikiwa wanatumia matoleo ya zamani ya Bitcoin Core.
 
 
-Mgawanyiko uliotajwa hapo juu ulitokea mnamo 2015-07-04 saa 02:10 UTC baada ya urefu wa kizuizi [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5a5a7a5a7a5a7a5a7a5a75a5a75a5a7a5a7575a759). Suala hili lilitatuliwa saa 03:50 siku hiyo hiyo, baada ya vitalu 6 batili kuchimbwa. Kwa bahati mbaya, suala kama hilo lilitokea tena siku iliyofuata, i.e. mnamo 2015-07-05 saa 21:50, lakini wakati huu tawi batili lilidumu vitalu 3 tu.
+Mgawanyiko uliotajwa hapo juu ulitokea mnamo 2015-07-04 saa 02:10 UTC baada ya urefu wa block [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5a5a7a5a7a5a7a5a7a5a75a5a75a5a7a5a7575a759). Suala hili lilitatuliwa saa 03:50 siku hiyo hiyo, baada ya blocks 6 batili kuminiwa. Kwa bahati mbaya, suala kama hilo lilitokea tena siku iliyofuata, i.e. mnamo 2015-07-05 saa 21:50, lakini wakati huu tawi batili lilidumu blocks 3 tu.
 
 
 ![](assets/bip66-timeline-3.webp)
@@ -2091,7 +2091,7 @@ Matukio ambayo yalisababisha BIP66, kupelekwa kwake, na matokeo yake ni uchunguz
 
 - Usawa kati ya uwazi na kutochapisha athari ni nyeti.
 - Kupeleka marekebisho kwa udhaifu ambao haujachapishwa ni mchezo mgumu kucheza.
-- Makubaliano ya kubakiza ni Hard.
+- Makubaliano ya kubakiza ni ngumu.
 - Programu isiyokusudiwa kwa mifumo ya makubaliano kwa ujumla ni hatari.
 - BIP zinapaswa kuwa za atomiki kwa kiasi fulani.
 
@@ -2121,20 +2121,20 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 
 
 
-- Ugatuaji ni Hard. Kwa nini tunapitia shida hizi zote ili kuifanya ifanyike? Je, tunaweza kuchagua mbinu ya mseto, ambapo baadhi ya sehemu zimewekwa kati na nyingine hazipo?
+- Ugatuaji ni ngumu. Kwa nini tunapitia shida hizi zote ili kuifanya ifanyike? Je, tunaweza kuchagua mbinu ya mseto, ambapo baadhi ya sehemu zimewekwa kati na nyingine hazipo?
 - Je, ugatuaji unaleta tatizo la matumizi maradufu, au tatizo la matumizi maradufu linahitaji ugatuzi? Je, Satoshi ilitatuaje tatizo la matumizi maradufu?
 - Je, Bitcoin bado inaweza kukabiliwa na udhibiti katika nyanja zipi, na kwa nini udhibiti ni jambo baya sana? Je, kuna hoja zozote zinazounga mkono udhibiti?
 - Imeelezwa kuwa Bitcoin haina ruhusa. Je, kuna njia zingine za malipo unazoweza kufikiria kuwa hazina ruhusa?
 
 
 
-#### Kutoaminika
+#### Trustless 
 
 
 
 
-- Kutoaminika mara nyingi ni wigo, sio binary. Ni vipengele vipi vya Bitcoin ambavyo ni vya Trustless, na ambavyo kwa kawaida vinahusisha kiwango cha juu cha uaminifu? Je, zinaweza kupunguzwa?
-- Unataka kuendesha Full node ili kuweza kuthibitisha shughuli zote kikamilifu. Unapakua Bitcoin Core kutoka https://Bitcoin.org/en/download. Uliamini wapi, na uko wapi kikamilifu Trustless?
+- Trustless mara nyingi ni wigo, sio binary. Ni Elements zipi za Bitcoin ambavyo ni vya Trustless, na ambavyo kwa kawaida vinahusisha kiwango cha juu cha uaminifu? Je, zinaweza kupunguzwa?
+- Unataka kuendesha Full node ili kuweza kuthibitisha miamala zote kikamilifu. Unapakua Bitcoin Core kutoka https://Bitcoin.org/en/download. Uliamini wapi, na uko wapi kikamilifu Trustless?
 - Je, unaweza kujenga mfumo wa Trustless juu ya mfumo unaoaminika?
 
 
@@ -2145,7 +2145,7 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 
 
 - Je, ni baadhi ya manufaa gani muhimu anayopata mtumiaji anapodumisha faragha nzuri anapotumia Bitcoin? Je, ni baadhi ya manufaa gani ya mtandao kwa ajili ya kujitolea?
-- Je, kutumia tena anwani kunaathiri vipi faragha yako?
+- Je, kutumia tena address kunaathiri vipi faragha yako?
 - Bitcoin hutumia modeli ya UTXO, ilhali baadhi ya fedha mbadala za cryptocurrency hutumia muundo wa akaunti. Je, ni nini athari za chaguo hili kwenye faragha?
 
 
@@ -2155,8 +2155,8 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 
 
 
-- Kuna uhusiano gani kati ya Supply isiyo na kikomo ya Supply na utoaji wake wa sarafu kupitia Coinbase Transaction? Kuna uhusiano gani kati ya utoaji wa sarafu na bajeti ya usalama, na zinatofautiana vipi?
-- Je, ni vigezo gani ambavyo Satoshi vinaweza kubadilisha ili kubadilisha kofia ya Bitcoin ya Supply? Ni nini kingebadilika ikiwa angeamua kuweka Supply hadi milioni 1? Vipi kuhusu trilioni 1?
+- Kuna uhusiano gani kati ya finite Supply  na utoaji wake wa sarafu kupitia Coinbase Transaction? Kuna uhusiano gani kati ya utoaji wa sarafu na bajeti ya usalama, na zinatofautiana vipi?
+- Je, ni vigezo gani ambavyo Satoshi anaweza kubadilisha ili kubadilisha kofia ya Bitcoin ya Supply? Ni nini kingebadilika ikiwa angeamua kuweka Supply hadi milioni 1? Vipi kuhusu trilioni 1?
 - Kwa nini baadhi ya watu wanatetea ongezeko la Bitcoin Supply? Je, unadhani hili litatokea?
 
 
@@ -2165,40 +2165,40 @@ Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtub
 
 
 - Jaribio la Haraka ni nini na kwa nini ilikuwa muhimu kuwezesha Taproot?
-- Kwa nini tunahitaji asilimia kubwa ya wachimbaji ili kuboresha uma laini? Kwa nini kizingiti sio 51% tu?
+- Kwa nini tunahitaji asilimia kubwa ya miners ili kuboresha uma laini? Kwa nini kizingiti sio 51% tu?
 
 
 
-#### Mawazo ya adui
+#### Mtazamo wa kiadui
 
 
 
 
-- Shambulio la sybil ni nini, na ni nini hufanya mtandao uliogawanyika kukabiliwa na hilo?
+- Sybil attack ni nini, na ni nini hufanya mtandao uliogawanyika kukabiliwa na hilo?
 - Kwa nini ni muhimu kwamba wachezaji wote katika mtandao wa Bitcoin - na sio watengenezaji tu - wafikirie vibaya?
 
 
 
-#### Chanzo wazi
+#### Open source 
 
 
 
 
 - Ni watunzaji wachache pekee walio na ruhusa zinazohitajika za GitHub za kuunganisha msimbo kwenye hazina ya [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Je, hiyo si inapingana na mtandao usio na ruhusa?
-- Je, mchakato wa ukuzaji wa chanzo huria unaweza kukabiliwa na shambulio la sybil? Ikiwa ndivyo, ungepingaje hilo?
+- Je, mchakato wa ukuzaji wa chanzo huria unaweza kukabiliwa na Sybil attack? Ikiwa ndivyo, ungepingaje hilo?
 - Je, ni faida na hasara gani za kutegemea maktaba za chanzo huria za watu wengine, na ni mbinu gani inayochukuliwa na Bitcoin Core?
 - Je, ni kwa njia zipi tunahitaji ukaguzi zaidi ya ukaguzi wa msimbo tu? Jinsi ya kuamua ni hakiki ngapi inatosha?
 - Je, tunahakikishaje kwamba daima kutakuwa na watu wa kutosha wenye ujuzi wanaofanya kazi kwenye Bitcoin? Ni nini hufanyika wakati hakuna, na jinsi gani sisi kutathmini uadilifu wao na nia?
 
 
 
-#### Kuongeza
+#### Scaling 
 
 
 
 
-- Inasemekana kuwa sharding inatoa faida za kuongeza kwa gharama ya ugumu. Kwa nini sisi au tusikubali uboreshaji wa kiteknolojia kwa sababu ni vigumu kuelewa, hata kama yanaonekana kuwa sawa kiteknolojia?
-- Je, ni baadhi ya mifano gani ya mbinu za kuongeza ukubwa wa ndani zilizoletwa katika Bitcoin?
-- Kwa nini kuongeza wima ni ngumu zaidi katika mfumo wa madaraka? Vipi kuhusu kuongeza mlalo?
-- Hatuonekani kuwa karibu kuwa na makubaliano kuhusu jinsi tunavyoweza kuabiri dunia nzima kwenye Bitcoin. Satoshi haipaswi kufikiria angalau njia ya kufika huko, kabla ya Mining kizuizi cha kwanza mnamo 2009?
-- Unawezaje kuainisha (wima, mlalo, mbinu ya ndani, au isiyo ya kuongeza) kila mojawapo ya yafuatayo: kugawanyika, ongezeko la ukubwa wa blocksize, SegWit, nodi za SPV, ubadilishanaji wa kati, Lightning Network, kupungua kwa muda wa kuzuia, Taproot, minyororo ya kando
+- Inasemekana kwamba sharding inatoa faida za kuongeza uwezo wa mfumo kwa gharama ya kuongeza ugumu. Kwa nini tunapaswa au tusipaswe kukubali maboresho ya kiteknolojia kwa sababu tu ni magumu kuyaelewa, hata kama yanaonekana kuwa sahihi kiteknolojia?
+- Je,Ni mifano gani ya mbinu za inward scaling zilizowahi kuanzishwa kwenye Bitcoin?
+- Kwa nini kuongeza wima ni ngumu zaidi katika mfumo wa madaraka? Vipi kuhusu horizontal scaling?
+- Hatuonekani kuwa karibu kuwa na makubaliano kuhusu jinsi tunavyoweza kuabiri dunia nzima kwenye Bitcoin. Satoshi hapaswi kufikiria angalau njia ya kufika huko, kabla ya kumine block ya kwanza mnamo 2009?
+- Unawezaje kuainisha (wima, mlalo, mbinu ya ndani, au isiyo ya kuongeza) kila mojawapo ya yafuatayo: kugawanyika, ongezeko la ukubwa wa blocksize, SegWit, node za SPV, centralized exchanges, Lightning Network, block interval decrease, Taproot, Sidechain 

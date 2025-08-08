@@ -512,8 +512,6 @@ Yang paling dikenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil
 
 #### Keluarga Slackware
 
-
-
 Slackware tetap setia pada prinsip-prinsip Unix yang bersejarah, dengan penekanan pada kesederhanaan, transparansi, dan stabilitas. Tidak seperti distribusi modern yang mengotomatiskan manajemen perangkat lunak, Slackware bergantung pada sistem paket `.tgz` tanpa resolusi ketergantungan otomatis, sehingga membutuhkan pengetahuan yang baik tentang lingkungan dan komponen perangkat lunaknya.
 
 

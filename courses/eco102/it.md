@@ -325,36 +325,45 @@ Questa battaglia economica per il libero scambio avrebbe occupato tutta l'Inghil
 
 Fu questa campagna di agitazione per il libero scambio, in tutto il regno, con decine di migliaia di membri, a infiammare la penna di Bastiat e a cambiare radicalmente e definitivamente il corso della sua vita.
 
-La Lega può essere paragonata a un'università itinerante, che educava economicamente coloro che partecipavano ai suoi incontri in tutto il paese—gente comune, industriali, coltivatori e agricoltori, tutti coloro che la Lega aveva preso sotto la sua ala e i cui interessi erano oppressi dalle leggi sui cereali. Richard Cobden era l'anima del movimento e un agitatore eccezionale.
+La Lega può essere paragonata a un'università itinerante, che educava economicamente coloro che partecipavano ai suoi incontri in tutto il paese di gente comune, industriali, coltivatori e agricoltori, tutti coloro che la Lega aveva preso sotto la sua ala e i cui interessi erano oppressi dalle leggi sui cereali. Richard Cobden era l'anima del movimento e un agitatore eccezionale.
+
+![image](assets/en/040.webp)
+
 Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare frasi incisive e concise, lontane dai discorsi astratti degli economisti.
 
-> Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
+> Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro che questo. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
+
+![image](assets/en/041.webp)
 
 Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue traduzioni accompagnate da commenti. Il libro si apre con un'introduzione sulla situazione economica dell'Inghilterra, sulla storia dell'origine e del progresso della Lega. Dal 1815, il protezionismo era molto sviluppato in Inghilterra. Vi erano, in particolare, leggi che limitavano l'importazione di grano che avevano conseguenze molto dure per il popolo. Infatti, il grano era necessario per fare il pane, una merce vitale all'epoca. Inoltre, questo sistema favoriva l'aristocrazia, cioè i grandi proprietari terrieri, che ne ricavavano rendite.
+
+![image](assets/en/042.webp)
 
 > Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per concludere l'opulenza dei primi e la miseria degli ultimi.
 
 L'obiettivo della Lega era mobilitare l'opinione pubblica per fare pressione sul parlamento affinché abrogasse la legge sul grano. A lungo termine, Cobden e i suoi amici speravano di:
 
-- Aumentare gli sbocchi industriali
-- Incrementare l'occupazione
-- Ridurre il prezzo del pane
-- Rendere più efficienti l'agricoltura e l'industria attraverso la concorrenza
-- Promuovere la pace tra le nazioni
+- Aumentare gli sbocchi industriali;
+- Incrementare l'occupazione;
+- Ridurre il prezzo del pane;
+- Rendere più efficienti l'agricoltura e l'industria attraverso la concorrenza;
+- Promuovere la pace tra le nazioni.
 
+![image](assets/en/043.webp)
 _(Jeremy Bentham)_
 
 Discepolo dell'utilitarismo di Bentham, la convinzione di Cobden era che la libertà di lavoro e di commercio servisse direttamente l'interesse delle masse più numerose, più povere e più sofferenti della società. Al contrario, le dogane come strumento di proibizioni arbitrarie e privilegi potevano beneficiare solo certe industrie più potenti.
 
 Nelle elezioni del 1841, cinque membri della lega, inclusi Cobden, furono eletti al parlamento. Il 26 maggio 1846, il libero scambio unilaterale divenne legge del regno. Da allora, il Regno Unito avrebbe vissuto un brillante periodo di libertà e prosperità.
 Ciò che è interessante è che Bastiat si appropriò di una parte del loro metodo; assimilò il loro linguaggio e lo traspose nel contesto francese. Il libro su Cobden e la Lega divenne rapidamente un successo, e Bastiat fece un ingresso sensazionale nel mondo degli economisti. Fondò un'associazione a Bordeaux a favore del libero scambio e poi la trasferì a Parigi. Gli fu offerta la direzione del Journal des Économistes. Il movimento era nato e continuò fino al 1848.
+
 ![immagine](assets/en/044.webp)
 
 Solo dopo la morte di Bastiat, nel 1866, Napoleone III avrebbe firmato un trattato di libero scambio con l'Inghilterra, una sorta di vittoria postuma per l'uomo che aveva dedicato gli ultimi sei anni della sua breve vita a questa grande idea.
 
 ![immagine](assets/en/045.webp)
-
 _(Michel Chevalier)_
+
 La questione del libero scambio continua ad essere rilevante oggi. I libri di testo di geografia nelle scuole affermano che la globalizzazione è la causa e che i paesi poveri hanno bisogno dell'aiuto occidentale per sopravvivere. Eppure, l'estrema povertà è stata dimezzata in 20 anni. Scegliendo l'apertura, paesi come l'India, la Cina o Taiwan sono stati in grado di uscire dalla povertà, mentre la stagnazione caratterizza paesi chiusi come la Corea del Nord o il Venezuela. Secondo l'ONU, il 36% dell'umanità viveva in totale indigenza nel 1990. Ora sono "solo" il 18% nel 2010. L'estrema povertà rimane una grande sfida, ma è in regressione.
 
 # Gli Oppositori

@@ -133,7 +133,7 @@ Il primo incontro si svolse a Bordeaux il 23 febbraio 1846, durante il quale fu 
 
 La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, provenissero dalla destra o dalla sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
 
-> Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
+>Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
 
 Quasi tutti i suoi libri e saggi furono scritti negli ultimi sei anni della sua vita, dal 1844 al 1850. Nel 1850, Bastiat scrisse due delle sue opere più famose: _La Legge_ e una serie di opuscoli intitolati _Ciò che si vede e ciò che non si vede_. La Legge è stata tradotta in molte lingue straniere, tra cui inglese, tedesco, spagnolo, russo e italiano.
 
@@ -169,7 +169,7 @@ La grande novità degli economisti moderni all'alba del XVIII secolo è che si i
 
 Quello che Adam Smith dimostra è che si può servire il proprio interesse solo servendo l'interesse degli altri.
 
-> Dammi ciò di cui ho bisogno, e avrai da me ciò di cui hai bisogno tu stesso. (...) Non è dalla benevolenza del macellaio, del birraio o del fornaio che ci aspettiamo la nostra cena, ma dal loro riguardo per il proprio interesse.
+>Dammi ciò di cui ho bisogno, e avrai da me ciò di cui hai bisogno tu stesso. (...) Non è dalla benevolenza del macellaio, del birraio o del fornaio che ci aspettiamo la nostra cena, ma dal loro riguardo per il proprio interesse.
 
 ![image](assets/en/017.webp)
 
@@ -199,7 +199,7 @@ Per Bastiat, l'economia degli scambi, cioè dei servizi reciproci liberamente of
 
 Ma da Jean-Baptiste Say, Frédéric Bastiat eredita anche un concetto chiave, quello del saccheggio. Perché, dice, facendo eco alle parole di Say:
 
-> Ci sono solo due modi per acquisire le cose necessarie per la conservazione, l'abbellimento e il miglioramento della vita: la produzione e il saccheggio.
+>Ci sono solo due modi per acquisire le cose necessarie per la conservazione, l'abbellimento e il miglioramento della vita: la produzione e il saccheggio.
 
 I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentre i predatori ricorrono alla forza e all'inganno. Spetta quindi alla legge sopprimere il saccheggio e garantire la sicurezza del lavoro così come della proprietà. Come già affermato da Adam Smith, garantire la sicurezza dei cittadini è la principale missione dell'autorità pubblica, ed è questo che legittima l'imposizione delle tasse.
 
@@ -211,9 +211,9 @@ I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentr
 
 È poco noto, ma Destutt de Tracy ebbe un'influenza decisiva sul futuro Presidente degli Stati Uniti, Thomas Jefferson, mentre era ambasciatore a Parigi negli anni '80 del 1700.
 
-> "Per ogni uomo, la sua prima patria è la sua terra natale, e la seconda è la Francia" & "La tirannia è quando il popolo teme il suo governo; la libertà è quando il governo teme il popolo."
+>"Per ogni uomo, la sua prima patria è la sua terra natale, e la seconda è la Francia" & "La tirannia è quando il popolo teme il suo governo; la libertà è quando il governo teme il popolo."
 >
-> Thomas Jefferson
+>Thomas Jefferson
 
 ![image](assets/en/021.webp)
 
@@ -249,7 +249,7 @@ Per lui, le migliori tasse sono quelle più moderate, e desidera che le spese de
 
 Infine, aggiunge questa raccomandazione, che non ha perso la sua rilevanza:
 
-> Non permettiamo che il governo faccia e possa fare debiti che impegnano le generazioni future e portano sempre gli stati alla loro rovina.
+>Non permettiamo che il governo faccia e possa fare debiti che impegnano le generazioni future e portano sempre gli stati alla loro rovina.
 
 In conclusione, gli Ideologi hanno avuto un'intuizione profonda, ossia che la produzione e gli scambi sono la vera soluzione ai problemi politici e la vera alternativa alle guerre. Le guerre sono sempre predatorie, sia che siano interne, come durante la Rivoluzione, sia che siano esterne, come quelle combattute dagli antichi re e da Napoleone.
 
@@ -262,7 +262,6 @@ La storia di tutte le civiltà è la storia della lotta tra le classi predatrici
 ![image](assets/en/029.webp)
 
 Per Comte e Dunoyer, il saccheggio, inteso come tutte le forme di violenza esercitate nella società dai forti sui deboli, è la grande chiave per comprendere la storia umana. È all'origine di tutti i fenomeni di sfruttamento di una classe da parte di un'altra.
-
 
 ![image](assets/en/030.webp)
 
@@ -313,7 +312,7 @@ Siamo nel 1838, a Manchester, un piccolo numero di uomini, fino ad allora poco c
 
 ![immagine](assets/en/037.webp)
 
-> Senza spargimento di sangue, per il solo potere dell'opinione, una rivoluzione tanto profonda, forse più profonda di quella che i nostri padri realizzarono nel 1789.
+>Senza spargimento di sangue, per il solo potere dell'opinione, una rivoluzione tanto profonda, forse più profonda di quella che i nostri padri realizzarono nel 1789.
 
 Da questo incontro sarebbe emersa la Lega contro le leggi sul grano, o le leggi sui cereali, come le avrebbe chiamate Bastiat. Ma molto rapidamente, questo obiettivo diventerebbe quello dell'abolizione totale e unilaterale del protezionismo.
 
@@ -331,7 +330,7 @@ La Lega può essere paragonata a un'università itinerante, che educava economic
 
 Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare frasi incisive e concise, lontane dai discorsi astratti degli economisti.
 
-> Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro che questo. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
+>Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro che questo. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
 
 ![image](assets/en/041.webp)
 
@@ -339,7 +338,7 @@ Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue t
 
 ![image](assets/en/042.webp)
 
-> Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per concludere l'opulenza dei primi e la miseria degli ultimi.
+>Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per concludere l'opulenza dei primi e la miseria degli ultimi.
 
 L'obiettivo della Lega era mobilitare l'opinione pubblica per fare pressione sul parlamento affinché abrogasse la legge sul grano. A lungo termine, Cobden e i suoi amici speravano di:
 
@@ -379,8 +378,8 @@ Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazi
 Per loro, l'idea era semplice: più le idee possono essere espresse, più la verità progredisce e più facilmente gli errori vengono confutati. La scienza progredisce sempre in questo modo.
 
 ![image](assets/en/046.webp)
-
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
+
 Al contrario, in pochi hanno capito che ciò che era vero per le idee era vero anche per beni e servizi. La libertà di commerciare con gli altri ha infatti due virtù: essere efficiente e portare a una distribuzione più equa. Non solo Rousseau non ha capito questo, ma ha anche combattuto contro questa libertà in nome di una falsa idea di legge e diritto. Una delle principali fonti del socialismo, nota Bastiat, è l'opinione di Rousseau secondo cui l'intero ordine sociale deriva dalla legge.
 
 Bastiat considera infatti Rousseau il vero precursore del socialismo e del collettivismo. Nell'autore del Contratto Sociale, c'è una frase che riassume abbastanza bene la sua filosofia: "cominciamo ad essere uomini solo dopo essere stati cittadini".
@@ -399,6 +398,7 @@ Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolat
 ---
 
 Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
+
 È quindi perfettamente legittimo, secondo Rousseau, costringere gli uomini in nome di un fine che essi stessi, se fossero stati più illuminati, avrebbero perseguito, ma che non perseguono perché sono ciechi, ignoranti o corrotti. La società è fondata per costringerli a fare ciò che dovrebbero desiderare spontaneamente se fossero illuminati. E facendo ciò, non si fa violenza a loro poiché li si porta ad essere "liberi", cioè a fare le scelte giuste, scelte che sono in linea con il loro vero sé.
 
 ![image](assets/en/049.webp)
@@ -406,7 +406,7 @@ Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che 
 Convinto che la buona società sia una creazione della legge, Rousseau concede quindi potere illimitato al legislatore. Spetta a lui trasformare gli individui in uomini compiuti, in cittadini.
 Ma, spetta anche alla legge far esistere la proprietà. Secondo Rousseau, la proprietà può essere legittima solo se è regolata dal legislatore. Infatti, il male risiede nella disuguaglianza e nella servitù, entrambi derivanti dalla proprietà. È un'invenzione dei forti che ha portato alla cattiva società, alla società borghese, alle relazioni di dominio. Nel suo Discorso sull'origine e i fondamenti della disuguaglianza, scrive questo famoso passaggio:
 
-> La prima persona che, avendo recintato un pezzo di terra, disse: Questo è mio, e trovò persone abbastanza semplici da credergli, fu il vero fondatore della società civile. Quanti crimini, guerre, omicidi, quanta miseria e orrore sarebbero stati risparmiati al genere umano da colui che, estirpando le paletti o riempiendo il fossato, avesse gridato ai suoi simili: "Attenti a non ascoltare questo impostore; siete perduti se dimenticate che i frutti appartengono a tutti e la terra a nessuno!"
+>La prima persona che, avendo recintato un pezzo di terra, disse: Questo è mio, e trovò persone abbastanza semplici da credergli, fu il vero fondatore della società civile. Quanti crimini, guerre, omicidi, quanta miseria e orrore sarebbero stati risparmiati al genere umano da colui che, estirpando i paletti o riempiendo il fossato, avesse gridato ai suoi simili: "Attenti a non ascoltare questo impostore; siete perduti se dimenticate che i frutti appartengono a tutti e la terra a nessuno!"
 
 ![image](assets/en/050.webp)
 

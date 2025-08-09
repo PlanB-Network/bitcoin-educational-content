@@ -507,7 +507,7 @@ Ira Miller en novembre 2011 (source : [Bitcoin Show](https://www.youtube.com/wa
 
 Avec Bitcoin, Ira Miller souhaite « construire des systèmes alternatifs, pour concurrencer le statu quo effroyablement corrompu » (original: "to build alternate systems, to compete with the horrifically corrupt status quo"). En 2011, il joint le geste à la parole. En mai, il lance [BitMunchies](https://bitcointalk.org/index.php?topic=7078.msg103566#msg103566), un magasin en ligne spécialisé dans la nourriture (*the munchies* est un terme d'argot signifiant « la dalle » en anglais). Pendant l'été, il développe aussi [BTCinch](https://bitcointalk.org/index.php?topic=40088.msg488726#msg488726), un processeur de paiement permettant aux commerçants de convertir leurs bitcoins en dollars et inversement.
 
-Les deux hommes s'entendent très bien et leurs compétences sont complémentaires. Erik Voorhees cherche un programmeur pour développer une idée qu'il a eu et Ira accepte. Il s'agit de FeedZeBirds (littéralement « nourrissez les oiseaux »), une plateforme publicitaire permettant de payer pour mettre en avant un contenu sur Twitter en achetant des retweets, qu'ils [lancent](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) le 23 novembre. C'est une utilisation limite (Twitter n'encourage certainement pas ce type d'exploitation) profitant de la résistance à la censure de Bitcoin et de l'absence de frais de transaction. Le 28 novembre, les deux associés [passent](https://www.youtube.com/watch?v=VuLAhZsFc1A) dans le *Bitcoin Show* pour promouvoir leur produit.
+Les deux hommes s'entendent très bien et leurs compétences sont complémentaires. Erik Voorhees cherche un programmeur pour développer une idée qu'il a eu et Ira accepte. Il s'agit de FeedZeBirds (littéralement « nourrissez les oiseaux »), une plateforme publicitaire permettant de payer pour mettre en avant un contenu sur Twitter en achetant des retweets, qu'ils [lancent](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) le 23 novembre. C'est une utilisation limite (Twitter n'encourage certainement pas ce type d'exploitation) profitant de la résistance à la censure de Bitcoin et de l'absence de frais de transaction. Le 28 novembre, les deux associés [passent](https://www.youtube.com/watch?v=VuLAhZsFc1A) dans le *Bitcoin Show* pour promouvoir leur produit. Par la suite, ils développeront également le processeur de paiement Paysius et le service d'envoi de fonds par e-mail Coinapult.
 
 ### Le Free State Project
 
@@ -1313,26 +1313,24 @@ Cette première vague des cryptomonnaies alternatives a posé les bases pour ce 
 
 ## L'essor commercial (févr.–sept. 2012)
 
-L'année 2012 est une année assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période d'essor pour l'activité économique réelle. Bitcoin est en effet un moyen de paiement.
+La première partie de l'année 2012 est assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période de construction pour l'activité économique réelle.
+
+Bitcoin est en effet un moyen de paiement : le but affiché dans le livre blanc est de résoudre le problème des paiements en ligne. C'est pourquoi un effort considérable est réalisé entre 2011 et 2012 pour améliorer les façons d'accepter le dollar.
+
+L'année 2012 est également florissante pour Silk Road, la place de marché du dark web. Silk Road représente le gros de l'activité économique de l'année.
 
 https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
 
-
-
-
-
-
 Spéculation (article JDC Gox) : L'année 2012 est une année assez plate du point de vue spéculatif. Du moins, pour le bitcoin. Bien que le prix augmente, il ne fait que doubler en un an, ce qui, pour le bitcoin de cette époque, est peu. Mais cela permet à Mt. Gox de se stabiliser et de redonner confiance à ses utilisateurs après les incidents de 2011.
-
-
-
 
 
 - TradeHill : [8 juin 2011](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776)–[13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/), relancement en [mars 2013](https://bitcoinmagazine.com/markets/prime-tradehill-comes-back-to-bitcoin-1364507082), fermeture définitive le [30 août 2013](https://bitcoinmagazine.com/business/tradehill-confirms-trading-suspension-1377854467)
 
 
 
-### Silk Road : mouvement politique
+### Silk Road : mouvement politique et grande entreprise
+
+Silk Road devient rentable...
 
 Développement de la communauté, ouverture du forum de Silk Road le 18 juin 2011, où les vendeurs peuvent notamment faire leur promotion, partager leurs expériences et se donner des conseils
 
@@ -1342,17 +1340,44 @@ Dread Pirate Roberts https://antilop.cc/sr/users/dpr/threads/20120205-0102-The_N
 
 Vitalik : https://bitcoinmagazine.com/culture/the-silk-road-report https://bitcoinmagazine.com/culture/the-silk-road-report-part-ii-1344540669
 
-### Silk Road, une grande entreprise
+Autre : https://web.archive.org/web/20120427051617/http://www.theage.com.au/victoria/the-drugs-in-the-mail-20120426-1xnth.html
 
 ![](assets/en/silk-road-economic-volume-chainalysis.webp)
 
 source : [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/), 2020
 
-"Study estimates $2 million a month in Bitcoin drug sales", août 2012 : https://arstechnica.com/tech-policy/2012/08/study-estimates-2-million-a-month-in-bitcoin-drug-sales/
+Août 2012, étude de Nicolas Christin, chercheur à l'université Carnegie-Mellon : https://arxiv.org/pdf/1207.7139v1
+
+- "Study estimates $2 million a month in Bitcoin drug sales", août 2012 : https://arstechnica.com/tech-policy/2012/08/study-estimates-2-million-a-month-in-bitcoin-drug-sales/
+- "Black Market Drug Site 'Silk Road' Booming: $22 Million In Annual Sales" Andy Greenberg, [août 2012](https://www.forbes.com/sites/andygreenberg/2012/08/06/black-market-drug-site-silk-road-booming-22-million-in-annual-mostly-illegal-sales/)
+
 
 explosive growth, nov. 2012: https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html
 
 Source : https://journalducoin.com/analyses/silk-road-lentreprise-qui-brassait-des-milliers-de-bitcoins/
+
+### Le change en espèces
+
+BitInstant ? Cash deposit.
+
+ZhouTonged [*Why Wait? (Bitinstant Official Theme)*](https://www.youtube.com/watch?v=VKEk7b2vfoQ), 1er avril 2012
+
+En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
+
+Robert Faiella se présente comme revendeur (de bitcoins).
+
+[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
+
+> « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
+>
+> original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
+
+BitFloor, service similaire : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
+
+Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/), jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
+
+Jeremias Kangas, Stefan Thomas, http://acceptbit.com/ (https://bitcointalk.org/index.php?topic=134239.msg1429619#msg1429619), tire profit de la clé publique étendue
+
 
 ### Le développement du commerce légal
 
@@ -1384,7 +1409,7 @@ CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis
 
 - Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
 
-- 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+- 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666 ; Critique de Mt. Gox, 19 déc. 2012 (Brewster Kahle, Internet Archive cofounder) : https://blog.archive.org/2012/12/19/i-donated-bitcoins-to-the-internet-archive/
 
 
 Quickco.in ?
@@ -1434,75 +1459,10 @@ Stephen Pair et Tony Gallippi [lancent](https://bitcointalk.org/index.php?topic=
 
 En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver. Ils lancent aussi de nouveaux produits, comme la [carte de dépôt](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) qui « permet à n'importe qui de *recevoir* des bitcoins sans avoir besoin d'un portefeuille ou de connaissances particulières sur le sujet », les fonds reçus étant instantanément convertis en dollars par BitPay. (original: "It lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins.") ; ou bien [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), « un système de paiement en bitcoins conçu pour les chauffeurs et les entreprises de limousines et de taxis » (original: "a bitcoin payment system designed for limousine and taxi drivers and businesses").
 
-Tout au long de l'année, leur service croit. Il s'étend à l'international, en [Amérique du Nord](https://bitcointalk.org/index.php?topic=69425.msg809043#msg809043) et en [Europe](https://bitcointalk.org/index.php?topic=76562.msg849944#msg849944). Le nombre de commerçants inscrits sur la plateforme [passe](https://web.archive.org/web/20120928213117/http://www.economist.com/node/21563752) de 100 en mars à plus de 1 000 en septembre. Le volume transactionnel mensuel [passe](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248) de 10 000 $ en mars à 550 000 $ en septembre, avec une pointe journalière à 250 000 $ le 24 juin grâce à la prévente d'ASIC de Butterfly Labs. Ce succès [fait](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) des émules, avec l'apparition des processeurs de paiement WalletBit, Paysius et AcceptBit.
+Tout au long de l'année, leur service croit. Il s'étend à l'international, en [Amérique du Nord](https://bitcointalk.org/index.php?topic=69425.msg809043#msg809043) et en [Europe](https://bitcointalk.org/index.php?topic=76562.msg849944#msg849944). Le nombre de commerçants inscrits sur la plateforme [passe](https://web.archive.org/web/20120928213117/http://www.economist.com/node/21563752) de 100 en mars à plus de 1 000 en septembre. Le volume transactionnel mensuel [passe](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248) de 10 000 $ en mars à 550 000 $ en septembre, avec une pointe journalière à 250 000 $ le 24 juin grâce à la prévente d'ASIC de Butterfly Labs.
 
-### Coinbase & la Silicon Valley
+Le succès de BitPay [fait](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) des émules, avec l'apparition des processeurs de paiement WalletBit, Paysius et AcceptBit. Mais surtout il sera surtout concurrencé par le service Coinbase, lancé au cours de l'année 2012 par un certain Brian Armstrong.
 
-Article de Wired : https://web.archive.org/web/20140326204316/https://www.wired.com/wiredenterprise/2014/03/what-is-bitcoin/ https://www.wired.com/2014/03/what-is-bitcoin/
-
-https://www.youtube.com/watch?v=TB0yceuXmrI
-
-Coinbase, dont le nom est tiré du nom de la transaction de récompense et signifiant « base de pièce ».
-
-EDB: C'est le cas de Coinbase, fondé en mai 2012 par Brian Armstrong et Fred Ehrsam, qui se développe initialement comme un « portefeuille Bitcoin hébergé ». Coinbase intégrera progressivement les fonctionnalités d'une plateforme de change classique au fil des années.
-
-Brian Armstrong. Né en 1983 à San José, en plein cœur de la Silicon Valley, il a passé une partie de sa jeunesse en Amérique du Sud où il a pu constater les effets de l'hyeprinflation. Il a travaillé pour IBM en tant que développeur, comme consultant pour Deloitte, et, à partir de 2011, comme ingénieur informatique pour AirBNB.
-
-Il lit le livre blanc de Bitcoin en 2010.
-
-"Later, as a coder at Airbnb, Armstrong had his crypto epiphany. His employer was sending money to landlords in Latin America. He describes the process this way: 'High fees ... long delays ... opaque. We'd try sending money to somebody in Uruguay and didn't know how much would show up on the other side.'" [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/coinbase-billionaire-brian-armstrongs-plan-to-make-bitcoin-ethereum-xrp-safe-for-all/#6b85aa39345b)
-
-Il [met au point](https://bitcointalk.org/index.php?topic=26684.msg334880#msg334880) un portefeuille pour Android en juillet 2011, hautement expérimental puisqu'il réalise le téléchargement initial de la chaine de blocs. Démo : https://www.youtube.com/watch?v=W6EucS5RS24
-
-Mars 2012 : "Armstrong had a prototype, 'PayPal for bitcoin,' an open-source Android wallet called Bitbank that let users send bitcoin via email addresses. Y Combinator showed interest, Armstrong said, but he'd deferred the meeting until he'd found a ride-or-die co-founder." [Blockworks](https://blockworks.co/news/coinbase-bitbank-history-gamestop-bitcoin-gridless-kenya)
-
-Il a profité d'un investissement de 150 000 $ venant de l'incubateur Y Combinator pour lancer Coinbase.
-
-Conflit avec Ben Reeves.
-
-"Fred Ehrsam, a Goldman Sachs alum, joined the venture and gave Coinbase credibility with the banks that would be wiring money to it." [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/coinbase-billionaire-brian-armstrongs-plan-to-make-bitcoin-ethereum-xrp-safe-for-all/#6b85aa39345b)
-
-[Wiki](https://en.bitcoin.it/wiki/Coinbase_(business)): The service was announced on June 29, 2012 and received seed funding from Paul Graham after going through the startup incubator Y-Combinator. On October 26, 2012, the service launched its method to buy and sell bitcoins using a linked bank account. On December 5, 2012, Coinbase launched its Merchant Tools. On May 7, 2013, Coinbase announced that it had received five million dollars in funding led by the venture capital firm Union Square Ventures. It was the largest funding round to date for a bitcoin company. On July 11, 2013, Coinbase launched instant buys for fully verified users. On December 12, 2013, Coinbase announced Series B funding of $25 million dollars led by the venture capital firm Andreessen Horowitz. It is the largest round of funding received by a bitcoin company. On February 27, 2014, Coinbase announced that 1 Million consumer wallet accounts have been opened on their platform.
-
-5 décembre 2012 : "How To Accept Bitcoin On Your Website" https://www.coinbase.com/blog/how-to-accept-bitcoin-on-your-website
-
-Coinbase embauchera Charlie Lee en juillet 2013, [30/7/2013](https://web.archive.org/web/20130802015101/http://blog.coinbase.com/post/56906034176/welcome-charlie-lee-creator-of-litecoin-to-the-team) , Lee quittera Google pour travailler pour Coinbase.
-
-Mais Coinbase n'est pas la seule société qui reçoit des fonds...
-
-
-- CoinLab, incubateur dans le secteur de Bitcoin, Peter Vessenes, Mike Koss, fondé en septembre 2011, levée de fonds en avril 2012 (Tim Draper) : https://www.geekwire.com/2011/coinlab-center-bitcoin-projects-created-seattle/ https://gavinthink.blogspot.com/2012/04/coinlab-and-bitcoin.html https://www.geekwire.com/2012/bitcoin-startup-coinlab-lands-funding-tim-draper-monetize-games/
-
-- BitPay, 2013 : "Investors participating in the seed round include SecondMarket founder Barry Silbert, Spotify investor Shakil Khan, Jimmy Furland, Roger Ver, and other Internet entrepreneurs. Specific terms of the deal were not disclosed but co-founders Anthony Gallippi and Stephen Pair will retain majority ownership. Investors Silbert and Ver also participated in the April 2012 funding round for mining pool operator CoinLab." [Matonis](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
-
-
-
-
-
-
-### Services de change P2P
-
-Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/), jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
-
-Jeremias Kangas, Stefan Thomas, http://acceptbit.com/ (https://bitcointalk.org/index.php?topic=134239.msg1429619#msg1429619), tire profit de la clé publique étendue
-
-BitInstant ? Cash deposit.
-
-https://www.youtube.com/watch?v=VKEk7b2vfoQ
-
-ZhouTonged [*Why Wait? (Bitinstant Official Theme)*](https://www.youtube.com/watch?v=NG1qooBzE2w), 1er avril 2012
-
-En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
-
-Robert Faiella se présente comme revendeur (de bitcoins).
-
-[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
-
-> « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
->
-> original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
-
-BitFloor, service similaire : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
 
 ### PorcFest 2012
 
@@ -1512,15 +1472,15 @@ BitFloor, service similaire : https://bitcointalk.org/index.php?topic=94993.msg
 
 Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
 
-- Paul Festival, 24–26 août 2012 : "BitPay is proud to sponsor this event and setup a 'Bitcoin' booth. The PAUL Festival is a large, Libertarian event taking place this week in Tampa" https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865
-
-en hommage à Ron Paul , quelques jours avant la *Republican National Convention*
+- Paul Festival, 24–26 août 2012 : "BitPay is proud to sponsor this event and setup a 'Bitcoin' booth. The PAUL Festival is a large, Libertarian event taking place this week in Tampa" https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865 ; en hommage à Ron Paul , quelques jours avant la *Republican National Convention*
 
 ### Un mouvement vers le commerce plus légitime
 
 "Also, in the last two months alone, Bitcoin has gained a large amount of public legitimacy, as popular services like WordPress and 4Chan began accepting it, and Bitcoin Central partnered with a licensed payment services provider in France to integrate its exchange accounts directly into the traditional banking system. And, last but not least, the Bitcoin price itself increased from $4.72 on Jan 1 to $13.51 on Dec 31, a 186% increase." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
 
 BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366)
+
+En novembre, Wordpress l'hébergeur de sites web se met à accepter les paiements en bitcoins via BitPay. En décembre, la forume en ligne 4chan...
 
 15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/ https://web.archive.org/web/20130510175220/https://bitcointalk.org/index.php?topic=124482.0
 
@@ -1572,7 +1532,7 @@ Bitzino, "provably fair", par libertaad, [8/6](https://www.reddit.com/r/Bitcoin/
 
 Chiffres : https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/
 
-Coinapult, avec Ira Miller, envoyer des bitcoins par courriel (et SMS), [13 avr. 2012](https://bitcointalk.org/index.php?topic=76493.msg849026#msg849026)
+
 
 ### La prostitution
 

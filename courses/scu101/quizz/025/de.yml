@@ -1,9 +1,9 @@
 question: Was ist die empfohlene Vorgehensweise zur Speicherung des Passworts für die Datenverschlüsselung?
-answer: Schreiben Sie das Passwort auf ein Papier, das an einem sicheren Ort aufbewahrt wird.
+answer: Schreibe das Passwort auf ein Papier, das an einem sicheren Ort aufbewahrt wird.
 wrong_answers:
-  - Speichern Sie das Passwort in einer Textdatei auf dem Computer.
-  - Teilen Sie das Passwort mit vertrauenswürdigen Freunden.
-  - Verwenden Sie ein gängiges Passwort, das leicht zu merken ist.
+  - Speichere das Passwort in einer Textdatei auf dem Computer.
+  - Teile das Passwort mit vertrauenswürdigen Freunden.
+  - Verwende ein gängiges Passwort, das leicht zu merken ist.
 explanation: |
   Es wird empfohlen, das Passwort für die Datenverschlüsselung
   auf ein Papier zu schreiben und es an einem sicheren Ort

@@ -1,7 +1,7 @@
 question: Benötigen Linux und Mac oft ein Antivirusprogramm?
-answer: Das ist falsch.
+answer: Nein.
 wrong_answers:
-  - Das ist richtig.
+  - Ja.
   - Nur Linux benötigt ein Antivirusprogramm.
   - Nur Mac benötigt ein Antivirusprogramm.
 explanation: |

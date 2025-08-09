@@ -1,11 +1,11 @@
 question: Was ist die goldene Regel, um sich vor betrügerischen E-Mails zu schützen?
-answer: Überprüfen Sie sorgfältig den vollständigen Namen des Absenders sowie die Herkunft der E-Mail.
+answer: Überprüfe sorgfältig den vollständigen Namen des Absenders sowie die Herkunft der E-Mail.
 wrong_answers:
-  - Antworten Sie immer auf verdächtige E-Mails.
-  - Öffnen Sie alle E-Mail-Anhänge, um ihren Inhalt zu überprüfen.
-  - Teilen Sie Ihre persönlichen Informationen nur mit bekannten Absendern.
+  - Antworte immer auf verdächtige E-Mails.
+  - Öffne alle E-Mail-Anhänge, um ihren Inhalt zu überprüfen.
+  - Teile deine persönlichen Informationen nur mit bekannten Absendern.
 explanation: |
   Die goldene Regel, um sich vor betrügerischen E-Mails zu schützen,
   ist, den vollständigen Namen des Absenders sowie die Herkunft der E-Mail
-  sorgfältig zu überprüfen. Im Zweifel, löschen Sie sie!
+  sorgfältig zu überprüfen. Im Zweifel, lösche sie!
 reviewed: true

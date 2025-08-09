@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   Privates Surfen ist eine Funktion, die verhindert, dass Internetbrowser
   Browserverlauf, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern.
-  Es versteckt jedoch nicht das Surfen vor Ihrem Internetdienstanbieter. Andererseits bietet das TOR-Netzwerk
+  Es versteckt jedoch nicht das Surfen vor deinem Internetdienstanbieter. Demgegenüber bietet das TOR-Netzwerk
   Anonymität, indem es die IP-Adresse des Benutzers verschleiert und Zugang zum Darknet ermöglicht.
 reviewed: true

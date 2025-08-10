@@ -518,75 +518,40 @@ Pendekatan minimalis ini, digabungkan dengan stabilitas tinggi, menjadikan Slack
 
 ![Image](assets/fr/040.webp)
 
-
-
 Slackware telah melahirkan sejumlah distribusi turunan, beberapa di antaranya berusaha memodernisasi penggunaannya sambil mempertahankan semangatnya: Salix, Porteus, Slackel...
 
-
-
-Meskipun komunitasnya lebih kecil daripada Debian atau Red Hat, keluarga Slackware tetap menjadi referensi historis dan teknis di jagat GNU/Linux.
-
-
+Meskipun komunitasnya lebih kecil daripada Debian atau Red Hat, keluarga Slackware tetap menjadi referensi historis dan teknis dalam dunia GNU/Linux.
 
 #### Keluarga Gentoo
 
-
-
-Sebagai cabang dari proyek Enoch Linux yang dibuat pada tahun 1999, Gentoo diciptakan oleh Daniel Robbins dengan tujuan merancang distribusi yang sangat mudah dikustomisasi, tanpa binari yang telah dikompilasi sebelumnya, dan dioptimalkan untuk perangkat keras pengguna. Dinamai Gentoo (diambil dari nama penguin Papua, salah satu penguin tercepat), distribusi ini didasarkan pada kompilasi paket dari sumbernya, sehingga memungkinkan pengoptimalan yang sangat baik berkat penggunaan *Portage*, sebuah sistem manajemen paket yang terinspirasi dari porta BSD. Gentoo ditujukan untuk pengguna berpengalaman yang mencari kinerja, kontrol, dan ringan, dengan harga waktu instalasi dan pemeliharaan yang lebih lama.
-
-
+Proyek turunan dari Enoch Linux yang dibuat pada tahun 1999, Gentoo, diciptakan oleh Daniel Robbins dengan tujuan merancang distribusi yang sangat mudah disesuaikan, tanpa file biner prakompilasi, dan dioptimalkan untuk perangkat keras pengguna. Dinamai Gentoo (mengambil nama penguin Papua, salah satu penguin tercepat), distribusi ini didasarkan pada kompilasi paket dari source code, yang memungkinkan optimasi yang sangat mendalam berkat penggunaan *Portage*, sebuah sistem manajemen paket yang terinspirasi oleh port BSD. Gentoo ditujukan untuk pengguna berpengalaman yang mencari performa, kendali, dan ringan, dengan konsekuensi waktu instalasi dan pemeliharaan yang lebih lama.
 
 ![Image](assets/fr/038.webp)
 
+Beberapa turunannya telah dibuat untuk memperluas penggunaannya: Funtoo, Redcore Linux (Sabayon), Calculate Linux, Pentoo, dll.
 
-
-Beberapa turunan telah dibuat untuk memperluas penggunaannya: Funtoo, Redcore Linux (Sabayon), Calculate Linux, Pentoo, dll.
-
-
-
-Terakhir, ChromeOS, sistem operasi yang dikembangkan oleh Google untuk Chromebook-nya, pada awalnya berasal dari Gentoo, meskipun sejak itu sudah sangat jauh berbeda.
-
-
+Terakhir, ChromeOS, sistem operasi yang dikembangkan oleh Google untuk Chromebook-nya, awalnya merupakan turunan dari Gentoo, meskipun sejak itu telah banyak menyimpang darinya.
 
 ![Image](assets/fr/039.webp)
 
-
-
-Untuk mengetahui lebih lanjut tentang keluarga distribusi Linux dan memvisualisasikan cabang-cabang dari masing-masing distribusi, saya sarankan Anda membaca diagram yang sangat bagus dan sangat komprehensif di Wikimedia: [*Linux Distribution Timeline*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
-
-
+Untuk mengetahui lebih lanjut tentang keluarga distribusi Linux dan memvisualisasikan cabangnya, saya sarankan Anda melihat diagram yang sangat bagus dan komprehensif ini di Wikimedia:[*Linux Distribution Timeline*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 ### Distribusi Linux mana yang harus dipilih?
 
-
-
-Pilihan distribusi Linux tergantung pada kebutuhan spesifik Anda, tingkat teknis dan tujuan penggunaan Anda. Berikut ini adalah pilihan distribusi yang paling banyak digunakan atau yang terspesialisasi, dengan kelebihan dan kekurangan utamanya.
-
+Pilihan distribusi Linux bergantung pada kebutuhan spesifik, tingkat keahlian teknis, dan tujuan penggunaan Anda. Berikut adalah pilihan praktis dari distribusi yang paling banyak digunakan atau terspesialisasi, beserta kelebihan dan kekurangan utamanya.
 
 
 #### Distribusi umum dan mudah diakses
 
+- **Ubuntu**:
 
-
-
-
-- Ubuntu**:
-
-
-
-Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah satu distribusi paling populer di dunia. Berbasis Debian, ia menawarkan siklus rilis reguler, dengan versi LTS (*Long Term Support*) yang stabil yang dipertahankan selama lima tahun. Ubuntu menonjol karena kompatibilitas perangkat kerasnya yang sangat baik, komunitas yang besar, dan dokumentasi yang berlimpah, menjadikannya pilihan yang sangat aman untuk pemula. Faktanya, kita akan menggunakan Ubuntu selama sisa kursus pelatihan SCU202, karena Ubuntu merupakan titik masuk yang solid ke dunia GNU/Linux. Ubuntu mengintegrasikan lingkungan desktop GNOME secara default, dengan beberapa penyesuaian khusus.
-
-
+Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah satu distribusi yang paling populer di dunia. Berbasis Debian, ia menawarkan siklus rilis yang teratur, dengan versi LTS (_Long Term Support_) yang stabil dan didukung selama lima tahun. Ubuntu menonjol karena kompatibilitas perangkat kerasnya yang sangat baik, komunitas yang besar, dan dokumentasi yang melimpah, menjadikannya pilihan yang sangat aman bagi pemula. Faktanya, kita akan menggunakan Ubuntu untuk sisa pelatihan SCU202 ini, karena ia adalah titik masuk yang solid ke dunia GNU/Linux. Ubuntu mengintegrasikan lingkungan desktop GNOME secara default, dengan beberapa penyesuaian khusus.
 
 ![Image](assets/fr/020.webp)
 
-
-
 https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
-
-
-- Linux Mint**:
+- **Linux Mint**:
 
 
 

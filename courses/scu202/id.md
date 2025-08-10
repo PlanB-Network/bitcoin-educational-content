@@ -383,7 +383,7 @@ Berdasarkan warisan teknis ini, kini kita dapat menguji secara nyata bagaimana p
 
 <chapterId>868f44d7-69ce-4493-b65e-daff00f3eb54</chapterId>
 
-Sebuah distribusi Linux (sering disingkat "*distro*") adalah sistem operasi lengkap yang dibangun dari kernel Linux (dan sering kali dengan elemen-elemen GNU), ditambah dengan serangkaian perangkat lunak, library, skrip inisialisasi, dan program manajemen yang koheren, untuk membentuk lingkungan yang siap digunakan. Oleh karena itu, sebuah distribusi Linux tidak terbatas pada kernel saja, melainkan merepresentasikan integrasi komprehensif dari komponen perangkat lunak yang dibutuhkan untuk menjalankan dan menggunakan komputer (atau perangkat komputasi lainnya).
+Sebuah distribusi Linux (sering disingkat "*distro*") adalah sistem operasi lengkap yang dibangun dari kernel Linux (dan sering kali dengan elemen-elemen GNU), ditambah dengan serangkaian perangkat lunak, library, skrip inisialisasi, dan program manajemen yang serasi, untuk membentuk lingkungan yang siap digunakan. Oleh karena itu, sebuah distribusi Linux tidak terbatas pada kernel saja, melainkan merepresentasikan integrasi komprehensif dari komponen perangkat lunak yang dibutuhkan untuk menjalankan dan menggunakan komputer (atau perangkat komputasi lainnya).
 
 Setiap distribusi Linux berisi file :
 - kernel **Linux**, yang berkomunikasi dengan perangkat keras dan mengelola sumber daya sistem (CPU, memori, disk, dll.)
@@ -408,7 +408,7 @@ Oleh karena itu, memahami perbedaan antara distribusi Linux merupakan langkah pe
 
 Distribusi Linux pertama kali muncul segera setelah Linus Torvalds menerbitkan kernel Linux pada September 1991. Pada saat itu, Linux hanyalah sebuah kernel: untuk mendapatkan sistem yang lengkap, pengguna harus secara manual merakit berbagai komponen yang dibutuhkan (sering kali diambil dari proyek GNU), yang memerlukan tingkat keahlian teknis yang tinggi. Menginstal sistem berarti mengompilasi kernel sendiri, mengonfigurasi partisi, memilih program, mengelola dependensi perangkat lunak... Singkatnya, ini adalah proses yang rumit, yang hanya dikuasai oleh para ahli.
 
-Untuk membuat Linux lebih mudah diakses, beberapa proyek dengan cepat muncul, dengan gagasan merakit sistem yang siap digunakan dari kernel Linux dan satu set seperangkat lunak yang koheren.
+Untuk membuat Linux lebih mudah diakses, beberapa proyek dengan cepat muncul, dengan gagasan merakit sistem yang siap digunakan dari kernel Linux dan satu set seperangkat lunak yang serasi.
 
 Upaya awal inilah yang menandai kelahiran distribusi Linux:
 
@@ -553,382 +553,186 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 
 - **Linux Mint**:
 
-
-
-Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, yang dirancang untuk menawarkan alternatif yang lebih intuitif, lebih dekat dengan ergonomi Windows. Linux ini menawarkan beberapa lingkungan desktop, termasuk Cinnamon, sebuah Fork dari GNOME yang dirancang khusus oleh tim Mint, yang menyediakan tampilan Interface yang jernih, klasik, dan langsung familiar.
-
-
+Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, yang dirancang untuk menawarkan alternatif yang lebih intuitif dan lebih dekat dengan ergonomi Windows. Versi ini menawarkan beberapa lingkungan desktop, termasuk Cinnamon, sebuah fork dari GNOME yang dirancang khusus oleh tim Mint, yang menyediakan Interface yang jelas, klasik, dan terasa akrab.
 
 https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-Mint menonjol karena kesederhanaannya, kehadiran codec multimedia secara default dan alat pembaruan yang dirancang dengan baik. Di sisi lain, Mint sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak membutuhkan banyak pembelajaran.
-
-
+Mint menonjol karena kesederhanaannya, keberadaan codec multimedia secara default, dan alat pembaruan yang dirancang dengan baik. Di sisi lain, ia sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak memerlukan banyak pembelajaran.
 
 ![Image](assets/fr/021.webp)
 
+- **Zorin OS**:
 
+Dibuat pada tahun 2008 oleh tim dari Irlandia, Zorin OS secara eksplisit menargetkan pengguna Windows dan macOS yang mencari transisi yang mulus ke Linux. Ia didasarkan pada Ubuntu LTS dan menawarkan Interface yang dapat disesuaikan untuk meniru Windows atau macOS sesuai preferensi.
 
-
-
-- Zorin OS**:
-
-
-
-Dibuat pada tahun 2008 oleh sebuah tim dari Irlandia, Zorin OS secara eksplisit menargetkan pengguna Windows dan macOS yang mencari transisi yang mulus ke Linux. Sistem operasi ini didasarkan pada Ubuntu LTS dan menawarkan Interface yang disesuaikan yang dapat meniru Windows atau macOS sesuai dengan preferensi.
-
-
-
-Pemasangannya lancar, perangkat lunak penting sudah terinstal sebelumnya, dan versi "Lite" memungkinkan Anda menjalankan sistem pada mesin yang lebih tua. Beberapa edisi, seperti "Pro", tidak gratis (sekitar €50), tetapi versi gratisnya masih berfungsi penuh. Zorin OS adalah pilihan yang baik bagi mereka yang mencari lingkungan yang akrab secara visual dan terintegrasi dengan baik tanpa konfigurasi manual.
-
-
+Instalasinya mudah, perangkat lunak esensial sudah terinstal di awal, dan versi "Lite" memungkinkan Anda menjalankan sistem pada komputer yang lebih lama. Beberapa edisi, seperti "Pro", tidak gratis (sekitar €50), tetapi versi gratisnya tetap berfungsi penuh. Zorin OS adalah pilihan yang baik bagi mereka yang mencari lingkungan yang akrab secara visual, terintegrasi dengan baik, dan tanpa konfigurasi manual.
 
 ![Image](assets/fr/022.webp)
 
+- **elementary OS:**
 
-
-
-
-- oS dasar**:
-
-Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, minimalis, elegan, dan lancar. Namun, sistem ini masih kurang dapat dikustomisasi dibandingkan distribusi lainnya, dan beberapa pengguna tingkat lanjut mungkin merasa dibatasi oleh pilihan Interface dan strukturnya yang sengaja dikunci. Distribusi ini sangat cocok untuk pengguna yang sensitif secara estetika yang mencari sistem yang sederhana dan koheren untuk penggunaan sehari-hari.
+Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus terutama pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, bersifat minimalis, elegan, dan lancar. Namun, sistem ini kurang dapat disesuaikan dibandingkan dengan distribusi lain, dan beberapa pengguna tingkat lanjut mungkin merasa terbatas oleh pilihan Interface serta strukturnya yang sengaja dikunci. Sistem ini sangat cocok untuk pengguna yang sensitif terhadap estetika dan mencari sistem yang sederhana dan serasi untuk penggunaan sehari-hari.
 
 https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
-
-
 ![Image](assets/fr/023.webp)
 
-
-
-
-
-- Pop!OS**:
-
-
+- **Pop!OS**:
 
 Dikembangkan oleh perusahaan Amerika System76, Pop!OS juga berbasis Ubuntu. Sistem operasi ini menargetkan pengguna desktop dan pengembang, dengan Interface GNOME yang dimodifikasi (dan baru-baru ini sebuah lingkungan internal yang disebut COSMIC). Pop!OS mengintegrasikan pengoptimalan untuk GPU NVIDIA secara default, dan memiliki mode manajemen jendela mosaik. Sistem ini tetap mudah digunakan, tetapi juga menawarkan fungsionalitas yang canggih. Sistem ini ditujukan untuk pengguna tingkat menengah, pelajar atau profesional yang menginginkan sistem yang efisien tanpa harus mengonfigurasi lingkungan mereka secara manual.
 
-
+Dikembangkan oleh perusahaan Amerika System76, Pop!OS juga berbasis Ubuntu. OS ini menargetkan pengguna desktop maupun pengembang, dengan Interface GNOME yang dimodifikasi (dan baru-baru ini lingkungan internal yang disebut COSMIC). Pop!OS mengintegrasikan optimasi untuk GPU NVIDIA secara default, dan memiliki mode manajemen jendela mosaik. Sistem ini tetap mudah digunakan, tetapi juga menawarkan fungsionalitas tingkat lanjut yang siap pakai. Sistem ini ditujukan untuk pengguna menengah, mahasiswa, atau profesional yang menginginkan sistem yang efisien tanpa harus mengonfigurasi lingkungannya secara manual.
 
 ![Image](assets/fr/024.webp)
 
-
-
 *Sumber: [Oleh Allman - Karya sendiri, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=114760696).*
-
-
 
 #### Distribusi kinerja menengah dan tinggi
 
+- **Fedora**: (Workstation atau KDE Plasma):
 
-
-
-
-- Fedora** (Workstation atau KDE Plasma):
-
-
-
-Fedora adalah distribusi yang didukung oleh Red Hat, yang berorientasi pada teknologi terbaru (Wayland, PipeWire, Flatpak...). Ia menggunakan format RPM dan manajer paket `dnf`. Siklus rilisnya yang cepat berarti bahwa sistem Anda selalu mutakhir, tetapi Anda harus mengikuti pembaruan rutin. Ini adalah distribusi yang ideal untuk pengembang atau pengguna teknis yang mencari sistem modern.
-
-
+Fedora adalah distribusi yang didukung oleh Red Hat, berorientasi pada teknologi terkini (Wayland, PipeWire, Flatpak...). Fedora menggunakan format RPM dan manajer paket `dnf`. Siklus rilisnya yang cepat berarti sistem Anda selalu terbarui, tetapi Anda perlu mengikuti pembaruan rutin. Ini adalah distribusi ideal untuk pengembang atau pengguna teknis yang mencari sistem modern.
 
 ![Image](assets/fr/025.webp)
 
-
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
+- **openSUSE**: (Tumbleweed atau Leap):
 
-- openSUSE** (Tumbleweed atau Leap):
-
-
-
-openSUSE tersedia sebagai rilis bergulir atau distribusi stabil. Distribusi ini dilengkapi dengan alat YaST untuk konfigurasi sistem, dan memungkinkan penggunaan serbaguna dengan beberapa lingkungan grafis. Distribusi ini membutuhkan sedikit lebih banyak pengalaman, tetapi tetap tangguh untuk penggunaan sehari-hari.
-
-
+openSUSE tersedia sebagai distribusi _rolling release_ atau _stable_. openSUSE dilengkapi dengan program YaST untuk konfigurasi sistem, dan memungkinkan penggunaan serbaguna dengan beberapa lingkungan grafis. openSUSE memerlukan sedikit lebih banyak pengalaman, tetapi tetap tangguh untuk penggunaan sehari-hari.
 
 ![Image](assets/fr/026.webp)
 
+- **Debian**:
 
-
-
-
-- Debian**:
-
-
-
-Debian ada dalam beberapa cabang, termasuk *Stable* (sangat andal, tetapi perangkat lunak yang lebih tua) dan *Testing* (lebih mutakhir, tetapi sedikit kurang terbukti). Debian menggunakan `apt` dan dikenal dengan ketelitian, filosofi bebas, dan kompatibilitasnya yang tinggi. Debian adalah pilihan yang baik untuk pengguna yang mencari stabilitas, administrator sistem...
-
-
+Debian hadir dalam beberapa cabang, termasuk *Stable* (sangat andal, tetapi perangkat lunak lebih lama) dan *Testing* (lebih up-to-date, tetapi sedikit kurang teruji). Debian menggunakan `apt` dan dikenal karena ketelitiannya, filosofi bebas, serta kompatibilitas tinggi. Debian adalah pilihan yang baik untuk pengguna yang mencari stabilitas, administrator sistem...
 
 ![Image](assets/fr/027.webp)
 
-
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
+- **Manjaro**:
 
-- Manjaro**:
-
-
-
-Berbasiskan Arch, Manjaro membuat Arch Linux dapat diakses. Distribusi ini menawarkan instalasi grafis, alat bantu internal, dan dukungan perangkat keras yang baik. Pembaruan ditangguhkan untuk stabilitas yang lebih baik. Manjaro cocok untuk pengguna tingkat menengah yang mencari distribusi Arch Linux modern, tanpa harus mengonfigurasi semuanya secara manual.
-
-
+Berbasis Arch, Manjaro membuat Arch Linux lebih mudah diakses. Distribusi ini menawarkan instalasi grafis, program internal, dan dukungan perangkat keras yang baik. Pembaruan ditunda untuk stabilitas yang lebih besar. Manjaro cocok untuk pengguna menengah yang mencari distribusi Arch Linux modern, tanpa harus mengonfigurasi semuanya secara manual.
 
 ![Image](assets/fr/028.webp)
 
+- **Arch Linux**:
 
-
-
-
-- Arch Linux**:
-
-
-
-Arch Linux adalah distribusi minimalis yang dapat diperbarui secara terus-menerus, yang disajikan tanpa Interface atau perangkat lunak yang berlebihan. Distribusi ini membutuhkan instalasi manual, tetapi menawarkan kontrol penuh dan dokumentasi yang sangat baik (Arch Wiki). Distribusi ini direkomendasikan untuk pengguna tingkat lanjut yang ingin menguasai segalanya.
-
-
+Arch Linux adalah distribusi minimalis yang dapat diperbarui terus-menerus, dipasarkan tanpa Interface atau perangkat lunak yang tidak diperlukan. Arch Linux instalasi manual, tetapi menawarkan kendali penuh dan dokumentasi yang sangat baik (Arch Wiki). Distribusi ini direkomendasikan untuk pengguna tingkat lanjut yang ingin menguasai segalanya.
 
 ![Image](assets/fr/029.webp)
-
-
 
 https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Distribusi khusus
 
-- Kali Linux**:
+- **Kali Linux**:
 
-Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini mencakup ratusan alat pentest. Distribusi ini tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
-
-
+Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini menyertakan ratusan program _pentest (penetration testing)_. Namun, Kali Linux tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
 
 ![Image](assets/fr/030.webp)
 
+- **Parrot OS**:
 
-
-
-
-- Parrot OS**:
-
-
-
-Parrot OS juga berasal dari Debian. Menawarkan lingkungan untuk pentesting, keamanan ofensif, dan perlindungan privasi. Lebih serbaguna daripada Kali, distribusi ini juga cocok untuk penggunaan sehari-hari yang ringan, dengan alat keamanan yang sudah terintegrasi.
-
-
+Parrot OS juga merupakan turunan dari Debian. Parrot OS menawarkan lingkungan untuk _pentest (penetration testing)_, keamanan ofensif, dan perlindungan privasi. Lebih serbaguna daripada Kali, distribusi ini juga cocok untuk penggunaan harian yang ringan, dengan program keamanan yang sudah terintegrasi sebelumnya.
 
 ![Image](assets/fr/031.webp)
 
+- **Tails**:
 
-
-
-
-- Ekor**:
-
-
-
-Tails adalah distribusi langsung berbasis Debian yang berfokus pada privasi. Semuanya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi yang ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, generasi seed Bitcoin...).
-
-
+Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan seed Bitcoin...).
 
 https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Catatan:** Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari stik USB atau CD, tanpa instalasi pada disk Hard.
-
-
+→ **Catatan**: Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari flash drive USB atau CD, tanpa instalasi pada hard disk.
 
 ![Image](assets/fr/032.webp)
 
+- **Qubes OS**:
 
-
-
-
-- Qubes OS**:
-
-
-
-Qubes OS didasarkan pada Fedora dan menggunakan sistem virtualisasi Xen untuk mengkotak-kotakkan penggunaan. Setiap aplikasi berjalan dalam mesin virtual yang terisolasi. Ini adalah arsitektur yang sangat aman, tetapi intensif sumber daya dan agak sulit untuk dipahami.
-
-
+Qubes OS berbasis Fedora dan menggunakan sistem virtualisasi Xen untuk mengelompokkan penggunaan. Setiap aplikasi berjalan di dalam mesin virtual yang terisolasi. Ini adalah arsitektur yang sangat aman, tetapi padat sumber daya dan cukup sulit untuk dikuasai.
 
 ![Image](assets/fr/033.webp)
 
-
-
-
-
-- BlackArch**:
-
-
+- **BlackArch**:
 
 BlackArch adalah ekstensi berorientasi pentest untuk Arch Linux (seperti Kali di Debian). Distribusi ini menyediakan lebih dari 2800 alat keamanan. Distribusi ini sangat lengkap, tetapi diperuntukkan bagi pengguna tingkat lanjut yang sudah terbiasa dengan dunia Arch, dan yang membutuhkan alat khusus ini (peneliti keamanan, pentest...).
 
-
+BlackArch adalah ekstensi Arch Linux yang berorientasi pada pentest (seperti Kali di Debian). BlackArch menyediakan lebih dari 2800 program keamanan. Ini adalah distribusi yang sangat lengkap, tetapi dikhususkan untuk pengguna tingkat lanjut yang sudah akrab dengan dunia Arch, dan yang membutuhkan program-program khusus ini (peneliti keamanan, pentesters...).
 
 ![Image](assets/fr/034.webp)
 
-
-
-
-
-- PureOS**:
-
-
-
-PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, benar-benar gratis (persetujuan FSF). Distribusi ini berfokus pada privasi, dengan perangkat lunak bebas saja dan tidak adanya gumpalan kepemilikan.
-
-
+- **PureOS**:
+- 
+PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, yang sepenuhnya bebas (disetujui oleh FSF). PureOS berfokus pada privasi, dengan hanya menggunakan free software dan tidak ada modul yang paten sama sekali.
 
 ![Image](assets/fr/035.webp)
 
+- **Raspberry Pi OS**:
 
-
-
-
-- Raspberry Pi OS**:
-
-
-
-Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini didasarkan pada Debian, dengan paket-paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek pendidikan, pengujian elektronik, atau server pribadi kecil.
-
-
+Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini berbasis Debian, dengan paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek-proyek pendidikan, pengujian elektronik, atau server pribadi skala kecil.
 
 ![Image](assets/fr/036.webp)
 
+- **Whonix**:
 
-
-
-
-- Whonix**:
-
-
-
-Whonix menggabungkan Debian dengan jaringan Tor dalam arsitektur dua-VM (gateway + workstation). Distribusi ini berorientasi pada keamanan, tetapi bergantung pada virtualisasi. Direkomendasikan bagi mereka yang benar-benar membutuhkan privasi.
-
-
+Whonix menggabungkan Debian dengan jaringan Tor dalam arsitektur dua VM (gateway + workstation). Distribusi ini adalah distribusi yang berorientasi pada keamanan, tetapi bergantung pada virtualisasi. Direkomendasikan untuk mereka yang benar-benar membutuhkan privasi.
 
 ![Image](assets/fr/037.webp)
 
+Gambaran umum ini memberikan Anda wawasan tentang ekosistem distribusi Linux saat ini, memungkinkan Anda untuk memilih distribusi yang paling sesuai dengan profil teknis dan tujuan Anda.
 
-
-Panorama ini memberikan gambaran umum tentang ekosistem distribusi Linux saat ini, sehingga Anda dapat memilih distribusi yang paling sesuai dengan profil teknis dan tujuan Anda.
-
-
-
-Pada bab berikutnya dari SCU202, kita akan melihat lebih dekat pada lingkungan Linux yang praktis, dimulai dengan lingkungan grafis yang menjadi dasar interaksi Anda sehari-hari dengan sistem.
-
-
+Di bab selanjutnya dari SCU202, kita akan melihat lebih dekat lingkungan praktis Linux, dimulai dengan lingkungan grafis yang menjadi dasar interaksi sehari-hari Anda dengan sistem.
 
 ## Lingkungan desktop Linux
 
-
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
+Pada sistem GNU/Linux, lingkungan desktop memegang salah satu peran terpenting dalam pengalaman pengguna Anda. Ia adalah lapisan grafis yang memungkinkan interaksi dengan sistem, berdasarkan representasi visual yang sudah dikenal: jendela, menu, ikon, panel, dan aplikasi yang sudah terinstal.
 
+Dalam bab ini, saya akan mengeksplorasi struktur dan peran lingkungan desktop, komponen-komponen utamanya, kelompok utama yang tersedia, kriteria pemilihan, dan integrasinya ke dalam distribusi Linux yang paling populer.
 
-Dalam sistem GNU/Linux, lingkungan desktop memainkan salah satu peran terpenting dalam pengalaman pengguna Anda. Ini adalah Layer grafis yang memungkinkan interaksi dengan sistem, berdasarkan representasi visual yang sudah dikenal: jendela, menu, ikon, panel, dan aplikasi yang sudah terinstal.
+### Apa yang dimaksud dengan lingkungan desktop?
 
+Lingkungan desktop (atau "*DE*" singkatan dari *Desktop Environment*) mengacu pada serangkaian program yang membentuk Interface grafis lengkap dari sebuah sistem operasi. Di Windows dan macOS, hanya satu lingkungan desktop yang ditawarkan secara default, yang terintegrasi ke dalam sistem, tanpa kemungkinan untuk memodifikasinya secara keseluruhan (hanya shell tertentu yang ada untuk memodifikasi Interface secara parsial). Sistem Linux, di sisi lain, jauh lebih modular, memperlakukan lingkungan desktop sebagai komponen independen yang dapat diganti secara bebas.
 
-
-Pada bab ini, saya akan menjelajahi struktur dan peran lingkungan desktop, komponen-komponennya yang khas, keluarga utama yang tersedia, kriteria pemilihan, dan integrasinya ke dalam distribusi Linux yang paling populer.
-
-
-
-### Apa yang dimaksud dengan lingkungan kantor?
-
-
-
-Lingkungan desktop (atau "*DE*" untuk *Desktop Environment*) mengacu pada sekumpulan program yang membentuk Interface grafis lengkap dari sebuah sistem operasi. Pada Windows dan macOS, satu lingkungan desktop ditawarkan secara default, terintegrasi ke dalam sistem, tanpa kemungkinan untuk memodifikasinya secara keseluruhan (hanya shell tertentu yang dapat memodifikasi sebagian Interface). Sistem Linux, di sisi lain, jauh lebih modular, memperlakukan lingkungan desktop sebagai komponen independen yang dapat diganti secara bebas.
-
-
-
-Di Linux, penting untuk membedakan dengan jelas antara semua lapisan: kernel (yang mengelola interaksi dengan perangkat keras), server tampilan (yang bertindak sebagai perantara antara aplikasi, driver grafis, dan perangkat keras melalui kernel), dan akhirnya lingkungan desktop itu sendiri, yang mengandalkan infrastruktur ini untuk memberikan Interface grafis yang koheren kepada pengguna. Perbedaan ini terkadang kurang jelas, karena banyak distribusi Linux yang dilengkapi dengan lingkungan desktop yang sudah terinstal yang terkadang menyertakan komposer Wayland-nya sendiri, yang kemudian bertindak sebagai server tampilan.
-
-
+Di Linux, penting untuk membedakan dengan jelas antara semua lapisan: kernel (yang mengelola interaksi dengan perangkat keras), server tampilan (yang bertindak sebagai perantara antara aplikasi, driver grafis, dan perangkat keras melalui kernel), dan akhirnya lingkungan desktop itu sendiri, yang mengandalkan infrastruktur ini untuk memberikan Interface grafis yang serasi kepada pengguna. Perbedaan ini terkadang bisa menjadi kurang jelas, karena banyak distribusi Linux yang hadir dengan lingkungan desktop yang sudah terinstal sebelumnya dan terkadang menyertakan komposer Wayland-nya sendiri, yang kemudian bertindak sebagai server tampilan.
 
 ![Image](assets/fr/052.webp)
 
+### Komponen khas lingkungan desktop
 
+Lingkungan desktop dalam distribusi Linux bukanlah sebuah aplikasi tunggal, melainkan serangkaian komponen perangkat lunak yang terpadu yang menyediakan Interface grafis lengkap untuk berinteraksi dengan sistem operasi. Komponen-komponen ini didasarkan pada beberapa lapisan perangkat lunak, yang terstruktur sebagai berikut:
 
-### Komponen khas lingkungan kantor
+- **Manajer window**: Menggambar batas window, mengelola penempatan, mengubah ukuran, dan efek transisi... Sebagai contoh: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
+- **Manajer file**: Memungkinkan Anda menavigasi melalui struktur direktori, menyalin, memindahkan, atau menghapus file secara visual. Contoh: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
+- **Pusat konfigurasi**: Ini adalah serangkaian program yang memungkinkan pengguna memodifikasi parameter sistem tanpa melalui _command line_: tampilan, wallpaper, manajemen pengguna, jaringan, periferal, dll.
 
-Lingkungan desktop dalam distribusi Linux bukanlah sebuah aplikasi tunggal, tetapi sekumpulan komponen perangkat lunak yang koheren yang menyediakan Interface grafis yang lengkap untuk berinteraksi dengan sistem operasi. Komponen-komponen ini didasarkan pada beberapa lapisan perangkat lunak, yang terstruktur sebagai berikut:
+- **Applet sistem**: Ini adalah ikon-ikon kecil dan modul interaktif di taskbar (atau "panel"), seperti kontrol suara, level baterai, koneksi jaringan, jam, dll.
 
+- **Panel atau dasbor**: Bilah yang terlihat, sering kali di bagian atas atau bawah layar, berisi menu utama, applet sistem, pintasan, zona notifikasi, dll.
 
+- **Manajer sesi**: Berjalan saat startup, menampilkan layar masuk, dan meluncurkan sesi grafis yang dipilih. Contoh: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
+- **Pengelola notifikasi**: Mengelola tampilan notifikasi sistem (pesan, peringatan, pembaruan, dll.). Contoh: dunst, Plasma-notifier, xfce4-notifyd.
 
-
-- Manajer jendela**: menggambar batas jendela, mengelola penempatan, mengubah ukuran, dan efek transisi... Sebagai contoh: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
-
-
-
-
-
-- Manajer file**: memungkinkan Anda menavigasi pohon direktori, menyalin, memindahkan, atau menghapus file secara visual. Contoh: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
-
-
-
-
-
-- Pusat konfigurasi**: ini adalah seperangkat alat bantu yang memungkinkan pengguna memodifikasi parameter sistem tanpa melalui baris perintah: tampilan, wallpaper, manajemen pengguna, jaringan, periferal...
+- **Compositor X11 (opsional)**: Menambahkan efek visual (bayangan, transparansi, animasi) di lingkungan di mana manajer jendela tidak mendukung penggabungan elemen visual. Contoh: compton, picom.
 
 
 
+- **Display server**: Ini adalah perangkat lunak yang menangani komunikasi antara sistem (melalui kernel dan driver grafis) dan aplikasi grafis. Perangkat lunak ini menampilkan jendela di layar dan mengelola masukan dari keyboard dan mouse. Display server sering kali merupakan komponen yang berbeda dari lingkungan desktop, tetapi semakin banyak sistem yang mengadopsi Wayland, sebuah protokol modern di mana peran display server dapat diambil alih langsung oleh manajer window (misalnya Mutter pada GNOME atau KWin pada KDE). Hal ini kemudian disebut sebagai "Wayland compositing".
 
+Semua elemen ini didasarkan pada toolkit grafis, yaitu pustaka perangkat lunak yang menyediakan komponen dasar untuk membuat Interface grafis: tombol, menu, kolom teks... Dua toolkit Linux utama adalah:
 
-- Applet sistem**: ini adalah ikon kecil dan modul interaktif di bilah tugas (atau "panel"), seperti kontrol suara, level baterai, koneksi jaringan, jam...
-
-
-
-
-
-- Panel atau dasbor**: bilah yang terlihat, biasanya di bagian atas atau bawah layar, yang berisi menu utama, applet sistem, pintasan, zona notifikasi, dll.
-
-
-
-
-
-- Manajer sesi**: berjalan pada saat pengaktifan, menampilkan layar masuk dan meluncurkan sesi grafis yang dipilih. Sebagai contoh: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
-
-
-
-
-
-- Pengelola notifikasi**: mengelola tampilan notifikasi sistem (pesan, peringatan, pembaruan, dll.). Misalnya: dunst, Plasma-notifier, xfce4-notifyd.
-
-
-
-
-
-- X11 compositor (opsional)**: menambahkan efek visual (bayangan, transparansi, animasi) di lingkungan di mana window manager tidak mendukung penyusunan komposit. Misalnya: compton, picom.
-
-
-
-
-
-- Server tampilan**: ini adalah perangkat lunak yang menangani komunikasi antara sistem (melalui kernel dan driver grafis) dan aplikasi grafis. Perangkat lunak ini menampilkan jendela pada layar dan mengelola input keyboard dan mouse. Display server sering kali merupakan komponen yang berbeda dari lingkungan desktop, tetapi semakin banyak sistem yang mengadopsi Wayland, protokol modern di mana peran display server dapat diambil alih secara langsung oleh window manager (misalnya Mutter di bawah GNOME atau KWin di bawah KDE). Hal ini kemudian disebut sebagai "penggabungan Wayland".
-
-
-
-Semua Elements ini didasarkan pada toolkit grafis, yaitu perpustakaan perangkat lunak yang menyediakan komponen dasar untuk membuat antarmuka grafis: tombol, menu, bidang teks... Dua toolkit Linux yang utama adalah:
-
-
-
-
-- GTK (*GIMP Toolkit*): digunakan oleh GNOME, XFCE, Cinnamon, MATE...
-- Qt: digunakan oleh KDE Plasma, LXQt...
-
-
+- GTK (GIMP Toolkit): Digunakan oleh GNOME, XFCE, Cinnamon, MATE...
+- Qt: Digunakan oleh KDE Plasma, LXQt...
 
 ![Image](assets/fr/054.webp)
 
-
-
 ### Gambaran umum lingkungan desktop Linux utama
-
-
 
 ![Image](assets/fr/053.webp)
 
@@ -4854,7 +4658,7 @@ Chrome telah mendefinisikan ulang kinerja, keamanan, dan standar ergonomis brows
 
 
 
-Mesin rendering adalah komponen inti dari browser web. Peran utamanya adalah untuk menafsirkan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font...) ke generate grafis interaktif Interface. Mesin rendering seperti penerjemah antara bahasa web dan layar Anda, menerjemahkan baris kode ke dalam halaman yang koheren secara visual, interaktif, dan fungsional.
+Mesin rendering adalah komponen inti dari browser web. Peran utamanya adalah untuk menafsirkan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font...) ke generate grafis interaktif Interface. Mesin rendering seperti penerjemah antara bahasa web dan layar Anda, menerjemahkan baris kode ke dalam halaman yang serasi secara visual, interaktif, dan fungsional.
 
 
 

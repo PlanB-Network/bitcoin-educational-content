@@ -1519,19 +1519,19 @@ Alternatively, a more DIY option is to make a stencil from a large piece of card
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
 
-Another unique project is the **creation of personalized NFC cards for Lightning payment** (in line with the BoltCard standard). For this, **Swiss Bitcoin Pay** is a first-rate partner.
+Another original project idea is to create personalized NFC cards for Lightning payments (compatible with the BoltCard standard). For this, Swiss Bitcoin Pay is a great partner.
 
-Currently, [on their website](https://swiss-Bitcoin-pay.ch/cards), there are four basic designs.
+[Their website](https://swiss-Bitcoin-pay.ch/cards) currently offers four standard designs.
 
-However, if you would like to order **more than 50 NFC cards, you can contact the company on its official website (or on [Twitter](https://twitter.com/SwissBitcoinPay)) and propose a customized** design for the front of the card. The reverse side is standardized.
+If you want to order more than 50 NFC cards, you can contact the company via its official website or [Twitter](https://twitter.com/SwissBitcoinPay) to propose a custom design for the front of the card. The reverse side will remain standardized.
 
 
 ![image](assets/fr/050.webp)
 
 
-For example, in 2023, the French association Bitcoin Lille (https://twitter.com/BitcoinLille) ordered a series of NFC cards with a customized design. So, throughout the year, **every new member of the association received a customized NFC card in their welcome pack**. This idea can of course be taken up and improved as you wish.
+For example, in 2023, the French association [Bitcoin Lille](https://twitter.com/BitcoinLille) ordered a batch of NFC cards with a custom design. Each new member received one in their welcome pack during the year. This idea can easily be adapted and personalized for your own community.
 
-The unit price of these cards ranges from €2.50 to €5**, although it changes regularly and decreases according to the quantity ordered.
+The unit price for these cards typically ranges from 2.50€ to 5€, depending on order size and market conditions, with lower prices for larger quantities.
 
 
 ## Create a website
@@ -1539,23 +1539,18 @@ The unit price of these cards ranges from €2.50 to €5**, although it changes
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
 
-With the aim of providing a showcase for your community, your meet-ups, your events and your educational documents, it may be relevant at a certain stage of development to **have a website**.
+At a certain stage in your community's growth, it can be valuable to have a website that serves as a showcase for your group, meetups, events, and educational content.
 
-However, **it takes a lot of time to design**.
-
-To simplify the creation process, the tutorial below takes you through the half-hour steps involved in creating **a free website on the WordPress platform**. This will enable you to **have a customizable home page, publish articles, integrate media (youtube videos, images, pdf)**, and so on.
-
-You can then purchase your own domain name, or even host your website on your own server.
+Building a website takes time, but the tutorial below shows you how to create a free WordPress site in just 30 minutes. You'll be able to set up a customizable homepage, publish articles, and embed media such as YouTube videos, images, or PDFs.
+Later, you can purchase your own domain name or even host the site on your own server.
 
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 
-Other CMS or platforms can also be used to create websites. Although some are simpler in terms of their Interface friendliness, the resulting websites are also far less customizable. *so *WordPress seems to be the best choice for getting started**.
+While other CMS platforms exist, some with simpler, more beginner-friendly interfaces, they're usually far less customizable. That's why WordPress is generally the best starting point.
 
-What's more, it allows you to **integrate plug-ins** (some of which are fee-paying, but of a high quality), enabling you to go much further in the creation of your website, without needing to code.
-
-The [paid plug-in "Uncode"](https://undsgn.com/uncode/) is one of them.
+WordPress also supports a wide range of plug-ins (some paid but high quality) that can significantly expand your site's capabilities without requiring coding skills. One example is the [premium "Uncode" theme](https://undsgn.com/uncode/)
 
 
 ## Create a video channel (Youtube or Odyssee)
@@ -1563,32 +1558,28 @@ The [paid plug-in "Uncode"](https://undsgn.com/uncode/) is one of them.
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
 
-Some of your community members may be interested in **creating multimedia content**, such as tutorial videos.
+Some members of your community might want to create multimedia content, such as tutorial videos.
+You may also give presentations at meet-ups or even universities.
 
-At the same time, you may one day be giving presentations at your meet-ups, or even at universities.
+**When that time comes, a dedicated video channel will let you publish and centralize all your content in one place.**
 
-**When the need arises, it may be a good idea to set up a video channel so that you can post all your content online**.
+Popular platforms include:
+- [**YouTube**](https://www.youtube.com/), widely used but not censorship-resistant.
+- [**Odyssee**](https://odysee.com/), less popular but decentralized through peer-to-peer technology.
+- [**peertube**](https://joinpeertube.org/fr_FR), lets you host your own video platform, though it's more complex to set up.
 
-Some of the best-known video platforms include:
-- [**YouTube**](https://www.youtube.com/), which has the defect of **not being censorship-resistant**;
-- [**Odyssee**](https://odysee.com/), which is relatively little used but is **decentralized** due to its peer-to-peer operation;
-- [**peertube**](https://joinpeertube.org/fr_FR), which lets you create your own video platform. It's probably a level above in terms of set-up.
-
-Depending on your wishes and needs, you'll obviously need to **create visuals specific to this platform**; to make your video channel visually appealing. On the plus side, with **Canva**, which we talked about in [part 2/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), there's a "YouTube Thumbnail" category with pre-designed, easily modifiable visuals.
+Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
 
 
 ![image](assets/fr/051.webp)
 
 
-If you want to **record yourself on your computer, software such as [Streamlabs](https://streamlabs.com/fr-fr) will do the trick**. It's free, has a wide range of settings and lets you make scene transitions.
+For **recording** from your computer, [Streamlabs](https://streamlabs.com/fr-fr) is free, feature-rich, and supports scene transitions.
+For **video editing**, [Wondershare Filmora](https://filmora.wondershare.fr/) (about 45€/year) is simple to use and produces professional results quickly.
 
-As for **video editing** (if there is such a thing), you'll need the appropriate software.
+For your **video's intro and outro**, you can easily find suitable templates on Canva. Customize the design to your taste, download it, and add it to your editing software.
 
-Although it costs €45 per year, [Wondershare Filmora](https://filmora.wondershare.fr/) is particularly efficient and easy to use, allowing you to produce quality montages in just a few minutes.
-
-Finally, when it comes to the **intro and outro** of your video, a well-informed search on **Canva** will enable you to find what you're looking for, modify the rendering to your liking, download it and all that's left to do is integrate it into your editing software.
-
-Note: if Bitcoin is ever banned or censored, it's a good idea to always **keep a local copy of any videos** you post on a hard disk.
+Tip: If Bitcoin is ever banned or censored, always keep a local backup of your videos on a hard drive.
 
 
 ## Create an audio podcast
@@ -1596,30 +1587,27 @@ Note: if Bitcoin is ever banned or censored, it's a good idea to always **keep a
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
 
 
-Creating an audio podcast can also be an interesting initiative. However, as with creating a video channel, don't expect to get thousands of views quickly.
+An audio podcast is another great way to share ideas. Like video channels, it takes time to build an audience.
 
-Some of the best-known podcast platforms include:
-- [**Fountain**](https://www.fountain.fm/), which is particularly interesting as it allows Lightning donations to be received;
+Popular podcast platforms include:
+- [**Fountain**](https://www.fountain.fm/), supports Lightning donations.
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
 - [**Google podcast**](https://podcasts.google.com/).
 
-The big problem, however, is that **each of these platforms has a very specific audience**. So, to reach as many people as possible, you'll need to be present just about everywhere.
+Each platform has its own audience, so being present on several will broaden your reach. **[Spotify for podcasters](https://podcasters.spotify.com/) makes this easy by letting you upload your podcast once and generate an RSS feed for other platforms**.
+So, once the work is done on "Spotify for Podcasters," all that's left is to format your content for the other platforms, a process that's relatively quick.
 
-Fortunately, the **[Spotify for podcasters](https://podcasters.spotify.com/) platform allows you to import your podcast file once, then generate an RSS feed that can be copied and pasted onto any of the above-mentioned platforms**.
+For recording, [Audacity](https://www.audacityteam.org/) is free and lets you adjust audio levels, add effects like fades, and enhance clarity during editing. It's straightforward to record your voice and create a professional-quality podcast.
 
-So, once you've done the work on "Spotify for podcasters", all you have to do is format your other platforms, which is relatively quick.
-
-From a sound recording point of view, if you want to **record yourself on your computer, free software like [Audacity](https://www.audacityteam.org/) does the trick**. It allows you to adjust numerous parameters, crescendos and even improve the sharpness of the sound when editing. So recording your voice and then editing your audio podcast should be easy enough.
-
-Here's a short 10-minute tutorial on the main features you need to know to create a podcast with Audacity.
+Here's a short 10 minutes tutorial covering the essentials for podcast creation with Audacity:
 
 
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 
-Note: as mentioned above, should Bitcoin ever be banned or censored, it's a good idea to always **keep a local copy of any podcasts** you post on a hard disk.
+Tip: Just as with videos, keep a local backup of all podcasts in case of future censorship.
 
 
 ## Create a badge for your events
@@ -1627,41 +1615,37 @@ Note: as mentioned above, should Bitcoin ever be banned or censored, it's a good
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
 
-At your meet-ups and events, a little incentive can be put in place: event badges. The idea is to **create a kind of badge that can only be obtained at the event in question**. This exists under the name of "POAP" ("Proof Of Attendance Protocol") on other blockchains. However, there is currently no free way of implementing this on Bitcoin.
+At your meet-ups and events, a little incentive can be introduced: event badges. The idea is to **create a badge that can only be obtained at that specific event**. This concept exists on other blockchains under the name of "POAP" ("Proof Of Attendance Protocol"). However, there is currently no free way of implementing this on Bitcoin.
 
-The idea is that this initiative could also be used to **reward the most committed members of your community, for example by setting up an annual tombola**, in which a badge earned would correspond to a participation ticket. A member present at 12 meet-ups during the year would then have 12 tickets for this annual tombola.
+Such a system could also be used to reward your community's most active members. For example, you could organize an annual raffle in which each badge collected equals one entry ticket. A member who attends all 12 meet-ups in a year would have 12 tickets for the raffle.
 
-In parallel, and in a completely different register, it is also possible **at each event to ask participants to write their first name or pseudonym on a badge**. The reason for their presence can also be requested.
+In another, more traditional approach, you could simply ask participants at each event to write their first name or nickname on a badge, along with the reason they're attending.
+While a bit formal, this can help members find common interests and conversation topics more easily, and it also makes it easier for newcomers to spot the organizers (or official community/association members).
 
-This initiative, though a little formal, can help members **find common ground and topics of conversation more easily**; while also making it **easier for newcomers to spot the organizers** (or even official members of the community/association).
-
-Several of the models used by the Bitcoin Lille association are [available in open-source on Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Several badge templates used by the Bitcoin Lille association are [available in open-source on Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 ![image](assets/fr/052.webp)
 
 
-## Thinking about the handover in the event of death
+## Planning for handover in the event of death
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
 
-On a completely different note, I'd like to comment on the **death of a member of the Bitcoin community**.
+On a completely different note, let's address a sensitive topic: the passing of a member of your Bitcoin community.
 
-The day will certainly come when, unfortunately, the family of one of your former members will contact you to tell you that this person has passed away. They will then explain that **this person left instructions**, one of which was to **get in touch with your community / meet-up / association**.
+One day, you may be contacted by the family of a former member, informing you of their death. They might explain that the deceased left instructions, including getting in touch with your community, meet-up, or association.
 
-This person will then probably explain that they **need help recovering the funds**, as they are the beneficiary of this former member's inheritance.
+In some cases, the family may also seek help recovering funds as beneficiaries of the inheritance.
 
-Faced with this demand, it can be very useful to **have already thought through a procedure with your community**, for a number of reasons.
+It's wise to work with your community to establish a clear procedure for such situations in advance, ensuring that:
+- The deceased has already advised their family **never to share private keys or bring physical wallets to a meet-up**.
+- The family understands that the purpose of their visit is educational : to learn how Bitcoin works, so they can later take sovereign control of the funds.
+- The family is aware of the relevant laws in their country regarding gifts, inheritance, and converting Bitcoin to fiat.
 
-On the one hand:
-- so that the deceased can **warn his family never to divulge his private keys, and never to bring his physical wallets** to a meet-up;
-- to make sure the family understands that **their visit is to learn Bitcoin**, so that they can later become sovereigns of the deceased's funds;
-- so that **the family is aware of the laws that apply in the country in the case of gifts, inheritance and conversion into cash**;
-
-At the same time, thinking through a common procedure in advance ensures that no one, whether a member of the meet-up or just a guest, can take advantage of such a situation to steal funds.
-
-**A "working group" can then be set up to work on this procedure to be adopted in the event of death**. The Bitcoin Lille association has already started work on this, and will be sharing its final working document (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) open-source within the next few months.
+AHaving a standard protocol also prevents anyone, member or guest, from taking advantage of the situation to steal funds.
+You could form a dedicated working group to define this process. The Bitcoin Lille association is already working on such a [document](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), which they plan to release as open-source in the coming months. 
 
 
 ## Give lectures at schools and universities

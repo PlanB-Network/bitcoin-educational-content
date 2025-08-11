@@ -11,12 +11,12 @@ from mdtxupdater.prompt import generate_llm_prompt
 class App(tk.Tk):
     """
     Minimal cross-platform GUI using Tkinter (no external deps).
-    Now includes:
+    Includes:
       - Source paragraph input used directly in the LLM prompt.
       - "Copy LLM Prompt" button: copies prompt to clipboard (no popup window).
-      - Smaller JSON box, larger Log box, highlighted Log frame.
+      - Smaller JSON box, larger Log box (standard layout, no colored frame).
       - Clearer instructions for the paragraph number field.
-      - Highlighted "Run Update" button.
+      - Run Update button styled in red with hover effect.
     """
 
     def __init__(self) -> None:
@@ -24,33 +24,14 @@ class App(tk.Tk):
         self.title("Markdown Translation Updater")
         self.geometry("960x720")
         self.minsize(900, 680)
+        self.after(0, lambda: self.state('zoomed'))
 
         self.engine = MarkdownTranslationUpdater()
         self.files_map = {}
 
-        # Basic accent style for the Run button (best effort across themes)
-        self._init_styles()
-
         self._build_widgets()
 
     # ---------------------------- UI Building -----------------------------
-
-    def _init_styles(self) -> None:
-        """Define a simple accent style for emphasis."""
-        try:
-            style = ttk.Style(self)
-            # Do not force a theme; configure a custom style instead.
-            style.configure("Accent.TButton", foreground="white")
-            style.map(
-                "Accent.TButton",
-                background=[
-                    ("!disabled", "#1E88E5"),  # blue
-                    ("active", "#1976D2"),
-                    ("pressed", "#1565C0"),
-                ],
-            )
-        except tk.TclError:
-            pass  # Fallback silently if theme does not allow styling
 
     def _build_widgets(self) -> None:
         pad = {"padx": 8, "pady": 6}
@@ -64,7 +45,10 @@ class App(tk.Tk):
         ttk.Entry(top, textvariable=self.dir_var, width=70).pack(side="left", padx=6)
         ttk.Button(top, text="Browse…", command=self._choose_dir).pack(side="left")
 
-        ttk.Label(top, text="  Reference language (used for preview & source label):").pack(side="left", padx=(12, 4))
+        ttk.Label(
+            top,
+            text="  Reference language (used for preview & source label):"
+        ).pack(side="left", padx=(12, 4))
         self.ref_lang_var = tk.StringVar(value="en")
         ttk.Combobox(
             top,
@@ -83,7 +67,7 @@ class App(tk.Tk):
         ttk.Radiobutton(mode_frame, text="Replace", variable=self.mode_var, value="replace").pack(side="left")
         ttk.Radiobutton(mode_frame, text="Append", variable=self.mode_var, value="append").pack(side="left", padx=(4, 0))
 
-        # Clearer instructions for the paragraph number
+        # Clear instructions for the paragraph number
         ttk.Label(
             mode_frame,
             text="  Paragraph number (count non-empty lines INSIDE the bounded section; 1 = first non-empty line):"
@@ -106,7 +90,10 @@ class App(tk.Tk):
         self.upper_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
         # Source paragraph used in the LLM prompt
-        src_frame = ttk.LabelFrame(self, text="Original paragraph to translate (this exact text will be placed in the LLM prompt)")
+        src_frame = ttk.LabelFrame(
+            self,
+            text="Original paragraph to translate (this exact text will be placed in the LLM prompt)"
+        )
         src_frame.pack(fill="both", expand=False, **pad)
         self.src_paragraph_txt = tk.Text(src_frame, height=6, wrap="word")
         self.src_paragraph_txt.pack(fill="both", expand=True, padx=6, pady=6)
@@ -117,19 +104,40 @@ class App(tk.Tk):
         self.json_txt = tk.Text(json_frame, height=5, wrap="word")
         self.json_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
-        # Buttons
+        # Buttons row
         btns = ttk.Frame(self)
         btns.pack(fill="x", **pad)
         ttk.Button(btns, text="Load files", command=self._load_files).pack(side="left")
         ttk.Button(btns, text="Preview", command=self._preview).pack(side="left", padx=4)
         ttk.Button(btns, text="Copy LLM Prompt", command=self._copy_prompt).pack(side="left", padx=4)
-        ttk.Button(btns, text="Run Update", command=self._run_update, style="Accent.TButton").pack(side="left", padx=4)
 
-        # Highlighted Log area: colored outer frame working as a border
-        log_outer = tk.Frame(self, background="#FFD166")  # amber-like accent
-        log_outer.pack(fill="both", expand=True, padx=8, pady=(0, 8))
-        log_frame = ttk.LabelFrame(log_outer, text="Log")
-        log_frame.pack(fill="both", expand=True, padx=3, pady=3)
+        # Custom red "Run Update" button (tk.Button for reliable colors across themes)
+        self.run_btn = tk.Button(
+            btns,
+            text="Run Update",
+            command=self._run_update,
+            bg="#D32F2F",          # base red
+            fg="white",            # white text
+            activebackground="#B71C1C",
+            activeforeground="white",
+            relief="raised",
+            bd=2,
+            highlightthickness=0,
+            cursor="hand2",
+            padx=12,
+            pady=6,
+        )
+        self.run_btn.pack(side="left", padx=4)
+
+        # Hover effect for the red button
+        self.run_btn_default_bg = "#D32F2F"
+        self.run_btn_hover_bg = "#C62828"
+        self.run_btn.bind("<Enter>", lambda e: self.run_btn.configure(bg=self.run_btn_hover_bg))
+        self.run_btn.bind("<Leave>", lambda e: self.run_btn.configure(bg=self.run_btn_default_bg))
+
+        # Log area (standard look, no colored frame)
+        log_frame = ttk.LabelFrame(self, text="Log")
+        log_frame.pack(fill="both", expand=True, **pad)
 
         # Larger log box to use the space gained by shrinking the JSON box
         self.log_txt = tk.Text(log_frame, height=14, wrap="word", state="disabled")
@@ -214,7 +222,9 @@ class App(tk.Tk):
             success = 0
             for lang, path in self.files_map.items():
                 if lang in data["translations"]:
-                    ok = self.engine.update_file(path, lower_raw, upper_raw, paragraph_num, data["translations"][lang], insert_mode)
+                    ok = self.engine.update_file(
+                        path, lower_raw, upper_raw, paragraph_num, data["translations"][lang], insert_mode
+                    )
                     if ok:
                         self._log(f"✓ {Path(path).name} updated")
                         success += 1

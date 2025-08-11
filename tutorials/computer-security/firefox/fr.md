@@ -7,13 +7,27 @@ description: Comment configurer Firefox pour protéger sa vie privée
 
 ## Introduction
 
-On passe tous des heures en ligne, souvent sans se rendre compte de ce que notre navigateur révèle sur nous. Bonne nouvelle: avec quelques réglages bien choisis, **Firefox** peut devenir un compagnon discret, efficace et agréable au quotidien. Ce guide vous accompagne pas à pas, du plus simple au plus avancé, pour trouver **votre** équilibre entre confort et confidentialité.
+On passe tous des heures en ligne, souvent sans se rendre compte de ce que notre navigateur révèle sur nous. Chaque clic, chaque recherche, chaque site visité alimente une industrie massive de collecte de données personnelles.
 
 ![Statistiques navigateurs 2024](assets/fr/01.webp)
+*Parts de marché des navigateurs web : Chrome domine avec 65% du marché, suivi de Safari et Edge. Source : [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
-- **Pas de recette universelle**: plus vous modifiez, plus vous risquez de vous démarquer (fingerprinting). L’objectif est d’être mieux protégé sans sortir de la foule.
-- **Allez-y par étapes**: changez un réglage, testez 1–2 sites que vous utilisez souvent, puis continuez.
-- Pourquoi Firefox? Libre et open‑source (moteur Gecko), développé par une **organisation à but non lucratif**. Protections natives: **Enhanced Tracking Protection (ETP)**, **Total Cookie Protection (TCP)**, **State Partitioning**, **HTTPS‑only**, **DoH**.
+Comme le montre ce graphique, Google Chrome domine massivement avec plus de 65% d'utilisation mondiale. Cette hégémonie signifie que la majorité des internautes confient leurs données de navigation à Google, une entreprise dont le modèle économique repose sur la publicité ciblée. Firefox, avec seulement 3% du marché, représente une alternative développée par Mozilla, une organisation à but non lucratif sans intérêt commercial à exploiter vos données.
+
+Mais choisir Firefox n'est que la première étape. Par défaut, même Firefox nécessite des ajustements pour maximiser votre protection. Ce guide vous accompagne pas à pas, du plus simple au plus avancé, pour transformer Firefox en véritable bouclier contre le pistage tout en préservant une expérience de navigation agréable.
+
+### Pourquoi Firefox ?
+
+- **Libre et open-source** (moteur Gecko) : code auditable et transparent
+- **Organisation à but non lucratif** : Mozilla Foundation, mission d'intérêt général
+- **Protections natives intégrées** : Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, mode HTTPS-only, DNS over HTTPS (DoH)
+- **Personnalisation poussée** : contrairement à Chrome, Firefox permet de modifier en profondeur son comportement
+
+### Principes importants avant de commencer
+
+- **Pas de recette universelle** : Plus vous modifiez, plus vous risquez de vous démarquer (fingerprinting). L'objectif est d'être mieux protégé sans sortir de la foule.
+- **Progression par étapes** : Changez un réglage, testez vos sites habituels, puis continuez. Inutile de tout bouleverser d'un coup.
+- **Équilibre personnel** : Trouvez VOTRE compromis entre confidentialité et confort d'utilisation.
 
 ## Déjà activé par défaut (rassurant)
 

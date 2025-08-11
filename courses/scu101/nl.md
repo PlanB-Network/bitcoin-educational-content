@@ -463,30 +463,24 @@ Met een wachtwoordmanager hoeft u zich geen zorgen meer te maken dat u uw wachtw
 
 ![](assets/notext/18.webp)
 
-(Opmerking: De keuze tussen een dienst van derden of een zelf gehoste dienst hangt af van je niveau van technologisch comfort en hoe je controle tegenover gemak stelt. Diensten van derden zijn over het algemeen handiger voor de meeste mensen, terwijl zelf hosten meer technische kennis vereist maar meer controle en gemoedsrust kan bieden op het gebied van beveiliging)
+Voor zelfgehoste oplossingen zoals KeePass is het mogelijk om uw database te synchroniseren tussen meerdere apparaten zonder gebruik te maken van gecentraliseerde diensten van derden. Hulpmiddelen zoals **Syncthing** maken versleutelde en gedecentraliseerde synchronisatie rechtstreeks tussen uw apparaten mogelijk. Deze aanpak houdt uw gegevens onder uw controle en zorgt tegelijkertijd voor beschikbaarheid op al uw apparaten.
 
+(Opmerking: De keuze tussen een dienst van derden of een zelf gehoste dienst hangt af van je niveau van technologisch comfort en hoe je controle tegenover gemak stelt. Diensten van derden zijn over het algemeen handiger voor de meeste mensen, terwijl zelf hosten meer technische kennis vereist maar meer controle en gemoedsrust kan bieden op het gebied van beveiliging)
 
 ### Wat is een goed wachtwoord?
 
-
 Een goed wachtwoord is over het algemeen:
-
-
 
 - Lang: minstens 12 tekens.
 - Complex: een mix van hoofdletters en kleine letters, cijfers en symbolen.
 - Uniek: gebruik hetzelfde wachtwoord niet opnieuw voor verschillende accounts.
 - Niet gebaseerd op persoonlijke informatie: vermijd geboortedata, namen, enz.
 
-
 Om de veiligheid van je account te garanderen, is het cruciaal om sterke en veilige wachtwoorden te maken. De lengte van het wachtwoord is niet genoeg om de veiligheid te garanderen. De tekens moeten volledig willekeurig zijn om brute force aanvallen te weerstaan. De onafhankelijkheid van gebeurtenissen is ook belangrijk om de meest waarschijnlijke combinaties te vermijden. Veelgebruikte wachtwoorden zoals "wachtwoord" worden gemakkelijk gecompromitteerd.
-
 
 Om een sterk wachtwoord te maken, wordt het aanbevolen om een groot aantal willekeurige tekens te gebruiken, zonder voorspelbare woorden of patronen te gebruiken. Het is ook essentieel om cijfers en speciale tekens te gebruiken. Het is echter de moeite waard om op te merken dat sommige websites het gebruik van bepaalde speciale tekens kunnen beperken. Wachtwoorden die niet willekeurig worden gegenereerd, zijn gemakkelijk te raden. Variaties of toevoegingen aan wachtwoorden zijn niet veilig. Websites kunnen de veiligheid van wachtwoorden die door gebruikers zijn gekozen niet garanderen.
 
-
 Willekeurig gegenereerde wachtwoorden bieden een hoger beveiligingsniveau, hoewel ze moeilijker te onthouden kunnen zijn. Wachtwoordbeheerders kunnen veiligere willekeurige wachtwoorden ontwikkelen. Door een wachtwoordmanager te gebruiken, hoeft u niet al uw wachtwoorden te onthouden. Het is essentieel om geleidelijk je oude wachtwoorden te vervangen door wachtwoorden die zijn gegenereerd door de manager, omdat ze sterker en veiliger zijn. Zorg ervoor dat het hoofdwachtwoord van uw wachtwoordmanager ook sterk en veilig is.
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -494,19 +488,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Authenticatie met twee factoren
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
-
 
 ### Waarom 2FA implementeren
 
-
 Tweefactorauthenticatie (2FA) is een extra Layer van beveiliging die ervoor zorgt dat de persoon die toegang probeert te krijgen tot een online account, is wie hij/zij beweert te zijn. In plaats van alleen een gebruikersnaam en wachtwoord in te voeren, vereist 2FA een extra vorm van verificatie.
 
-
 Deze tweede stap kan zijn:
-
-
 
 - Een tijdelijke code die via sms wordt verzonden.
 - Een code gegenereerd door een applicatie zoals Google Authenticator of Authy.

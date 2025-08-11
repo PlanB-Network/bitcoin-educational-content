@@ -300,7 +300,10 @@ With a password manager, you no longer have to worry about forgetting your passw
 
 - KeePass: It is an open-source solution that is primarily intended for self-hosting. Your data is stored locally by default, but you can synchronize the password database using different methods if you wish. KeePass is widely recognized for its security and flexibility, although it may be slightly less user-friendly for beginners.
   ![](assets/notext/18.webp)
-  (Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
+
+For self-hosted solutions like KeePass, it is possible to synchronize your database between multiple devices without using centralized third-party services. Tools like **Syncthing** enable encrypted and decentralized synchronization directly between your devices. This approach keeps your data under your control while ensuring its availability across all your devices.
+
+(Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
 
 ### What makes a good password:
 

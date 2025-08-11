@@ -334,12 +334,13 @@ Ukiwa na kidhibiti cha nenosiri, huhitaji tena kuwa na wasiwasi kuhusu kusahau m
 
 ![](assets/notext/18.webp)
 
+Kwa suluhisho zinazojiendesha kama KeePass, inawezekana kulandanisha hifadhidata yako kati ya vifaa vingi bila kutumia huduma za kati za wahusika wengine. Zana kama **Syncthing** zinawezesha ulandanishaji uliofichwa na usio na kituo moja kwa moja kati ya vifaa vyako. Mbinu hii huweka data zako chini ya udhibiti wako huku ikihakikisha upatikanaji wake katika vifaa vyako vyote.
+
 (Kumbuka: Kuchagua kati ya huduma ya wengine au huduma inayojiendesha hutegemea kiwango chako cha faraja ya kiteknolojia na jinsi unavyotanguliza udhibiti dhidi ya urahisishaji. Huduma za watu wengine kwa ujumla zinafaa zaidi kwa watu wengi, ilhali upangishaji wa kibinafsi unahitaji maarifa zaidi ya kiufundi lakini unaweza kutoa udhibiti zaidi na amani ya akili katika suala la usalama.)
 
 ### Ni nini hufanya nenosiri zuri:
 
 Nenosiri zuri kwa ujumla ni:
-
 
 - Muda mrefu: angalau herufi 12.
 - Changamano: mchanganyiko wa herufi kubwa na ndogo, nambari na alama.
@@ -364,7 +365,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Uthibitishaji wa vipengele viwili (2FA) ni Layer ya ziada ya usalama inayotumiwa kuhakikisha kuwa watu wanaojaribu kufikia akaunti ya mtandaoni ni wale wanaodai kuwa. Badala ya kuingiza jina la mtumiaji na nenosiri, 2FA inahitaji uthibitishaji wa pili.
 
 Hatua hii ya pili inaweza kuwa:
-
 
 - Nambari ya kuthibitisha ya muda iliyotumwa kupitia SMS.
 - Msimbo unaozalishwa na programu kama vile Kithibitishaji cha Google au Authy.

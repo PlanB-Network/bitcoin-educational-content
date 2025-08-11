@@ -302,8 +302,12 @@ Mit einem Passwort-Manager musst du dir keine Sorgen mehr machen, deine Passwör
 - Bitwarden: Dies ist ein Open-Source-Tool. Das bedeutet, dass du den Code überprüfen kannst, um seine Sicherheit zu überprüfen. Obwohl Bitwarden einen gehosteten Dienst anbietet, ermöglicht es Benutzern auch, selbst zu hosten, was bedeutet, dass du entscheiden kannst, wo deine Passwörter gespeichert werden, was potenziell mehr Sicherheit und Kontrolle bietet.
 
 - KeePass: Dies ist eine Open-Source-Lösung, die hauptsächlich für das Self-hosting gedacht ist. Deine Daten werden standardmäßig lokal gespeichert, aber du kannst die Passwortdatenbank mit verschiedenen Methoden synchronisieren, wenn du möchtest. KeePass ist weithin anerkannt für seine Sicherheit und Flexibilität, obwohl es für Anfänger etwas weniger benutzerfreundlich sein kann.
-  ![](assets/notext/18.webp)
-  (Hinweis: Die Wahl zwischen einem Drittanbieterdienst und einem selbst gehosteten Dienst hängt von dem Grad deines technischen KnowHows ab und davon, wie du Kontrolle gegenüber Bequemlichkeit priorisierst. Drittanbieterdienste sind in der Regel bequemer für die meisten Menschen, während das Self-hosting mehr technisches Wissen erfordert, aber mehr Kontrolle und Sicherheit bieten kann.)
+
+![](assets/notext/18.webp)
+
+Für selbstgehostete Lösungen wie KeePass ist es möglich, Ihre Datenbank zwischen mehreren Geräten zu synchronisieren, ohne zentrale Dienste Dritter zu nutzen. Tools wie **Syncthing** ermöglichen eine verschlüsselte und dezentrale Synchronisierung direkt zwischen Ihren Geräten. Dieser Ansatz bewahrt Ihre Daten unter Ihrer Kontrolle und stellt gleichzeitig deren Verfügbarkeit auf all Ihren Geräten sicher.
+
+(Hinweis: Die Wahl zwischen einem Drittanbieterdienst und einem selbst gehosteten Dienst hängt von dem Grad deines technischen KnowHows ab und davon, wie du Kontrolle gegenüber Bequemlichkeit priorisierst. Drittanbieterdienste sind in der Regel bequemer für die meisten Menschen, während das Self-hosting mehr technisches Wissen erfordert, aber mehr Kontrolle und Sicherheit bieten kann.)
 
 ### Was macht ein gutes Passwort aus?
 

@@ -309,8 +309,11 @@ Con un gestore di password, non è più necessario preoccuparsi di dimenticare l
 - Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di selh-hostare la propria istanza, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
 
 - KeePass: È una soluzione open source che è principalmente destinata al self-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
-  ![](assets/notext/18.webp)
-  (Nota: La scelta tra un servizio di terze parti o un servizio di slef-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre il self-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
+
+![](assets/notext/18.webp)
+Per soluzioni self-hosted come KeePass, è possibile sincronizzare il database tra più dispositivi senza utilizzare servizi centralizzati di terze parti. Strumenti come **Syncthing** consentono una sincronizzazione crittografata e decentralizzata direttamente tra i dispositivi. Questo approccio mantiene i dati sotto il tuo controllo garantendone al contempo la disponibilità su tutti i tuoi dispositivi.
+
+(Nota: La scelta tra un servizio di terze parti o un servizio di slef-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre il self-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
 
 ### Cosa è una buona password:
 

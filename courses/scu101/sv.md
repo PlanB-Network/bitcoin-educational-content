@@ -463,30 +463,24 @@ Med en lösenordshanterare behöver du inte längre oroa dig för att glömma bo
 
 ![](assets/notext/18.webp)
 
-(Obs: Valet mellan en tredjepartstjänst eller en självhanterad tjänst beror på hur tekniskt bekväm du är och hur du prioriterar kontroll kontra bekvämlighet. Tredjepartstjänster är i allmänhet bekvämare för de flesta människor, medan självhosting kräver mer teknisk kunskap men kan erbjuda mer kontroll och sinnesro när det gäller säkerhet)
+För självhostade lösningar som KeePass är det möjligt att synkronisera din databas mellan flera enheter utan att använda centraliserade tredjepartstjänster. Verktyg som **Syncthing** möjliggör krypterad och decentraliserad synkronisering direkt mellan dina enheter. Detta tillvägagångssätt håller dina data under din kontroll samtidigt som det säkerställer att de är tillgängliga på alla dina enheter.
 
+(Obs: Valet mellan en tredjepartstjänst eller en självhanterad tjänst beror på hur tekniskt bekväm du är och hur du prioriterar kontroll kontra bekvämlighet. Tredjepartstjänster är i allmänhet bekvämare för de flesta människor, medan självhosting kräver mer teknisk kunskap men kan erbjuda mer kontroll och sinnesro när det gäller säkerhet)
 
 ### Vad gör ett bra lösenord:
 
-
 Ett bra lösenord är i allmänhet:
-
-
 
 - Långt: minst 12 tecken.
 - Komplex: en blandning av stora och små bokstäver, siffror och symboler.
 - Unikt: använd inte samma lösenord för olika konton.
 - Inte baserad på personlig information: undvik födelsedatum, namn etc.
 
-
 För att garantera säkerheten för ditt konto är det viktigt att skapa starka och säkra lösenord. Längden på lösenordet räcker inte för att garantera dess säkerhet. Tecknen måste vara helt slumpmässiga för att motstå brute force-attacker. Det är också viktigt att händelserna är oberoende av varandra för att undvika de mest sannolika kombinationerna. Vanliga lösenord som "lösenord" är lätta att kompromissa med.
-
 
 För att skapa ett starkt lösenord rekommenderas att du använder ett stort antal slumpmässiga tecken utan att använda förutsägbara ord eller mönster. Det är också viktigt att inkludera siffror och specialtecken. Det är dock värt att notera att vissa webbplatser kan begränsa användningen av vissa specialtecken. Lösenord som inte genereras slumpmässigt är lätta att gissa sig till. Variationer av eller tillägg till lösenord är inte säkra. Webbplatserna kan inte garantera säkerheten för de lösenord som användarna väljer.
 
-
 Slumpmässigt genererade lösenord erbjuder en högre säkerhetsnivå, även om de kan vara svårare att komma ihåg. Lösenordshanterare kan ta fram säkrare slumpmässiga lösenord. Genom att använda en lösenordshanterare behöver du inte memorera alla dina lösenord. Det är viktigt att du gradvis ersätter dina gamla lösenord med de som genereras av lösenordshanteraren, eftersom de är starkare och säkrare. Se till att huvudlösenordet för din lösenordshanterare också är starkt och säkert.
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -494,19 +488,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Tvåfaktorsautentisering
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
-
 
 ### Varför implementera 2FA
 
-
 Tvåfaktorsautentisering (2FA) är en ytterligare Layer av säkerhet som säkerställer att den person som försöker komma åt ett onlinekonto är den som de påstår sig vara. Istället för att bara ange ett användarnamn och lösenord kräver 2FA ytterligare en form av verifiering.
 
-
 Detta andra steg kan vara:
-
-
 
 - En tillfällig kod som skickas via SMS.
 - En kod som genereras av ett program som Google Authenticator eller Authy.

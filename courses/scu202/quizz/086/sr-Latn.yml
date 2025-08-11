@@ -1,0 +1,9 @@
+question: Koja aplikacija za prevođenje otvorenog koda radi sa različitim motorima i ne prikuplja vaše prevedene tekstove?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou deluje kao Interface za nekoliko pretraživača, bez praćenja ili prikupljanja ličnih podataka, za razliku od vlasničkih usluga.
+reviewed: false

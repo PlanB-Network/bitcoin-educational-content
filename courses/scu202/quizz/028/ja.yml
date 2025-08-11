@@ -1,0 +1,9 @@
+question: Ubuntuの公式リポジトリからソフトウェアをインストールするには、どのコマンドを使用できますか？
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - ソフトウェアのインストール
+explanation: |
+  sudo apt install」コマンドは、Ubuntuのネイティブな方法であるAPTパッケージマネージャ経由でソフトウェアパッケージをインストールする。
+reviewed: false

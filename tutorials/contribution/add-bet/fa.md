@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ contributors:
 
 
 
-- `builder`**: شناسه سازمان خود را در شبکه PlanB مشخص کنید. اگر هنوز شناسه "builder" برای شرکت خود ندارید، می‌توانید با دنبال کردن این آموزش یکی ایجاد کنید.
+- `project`**: شناسه سازمان خود را در شبکه PlanB مشخص کنید. اگر هنوز شناسه "project" برای شرکت خود ندارید، می‌توانید با دنبال کردن این آموزش یکی ایجاد کنید.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

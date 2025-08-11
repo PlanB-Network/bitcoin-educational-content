@@ -1,0 +1,9 @@
+question: What operation ensures that downloaded software has not been modified since its official publication?
+answer: Integrity verification via Hash
+wrong_answers:
+  - Verification of authenticity via the developer's signature
+  - Software analysis via a firewall
+  - Running the program in safe mode
+explanation: |
+  Integrity checking is based on comparing the Hash of the downloaded file with that published by the developer. Any modification to the file modifies this Hash.
+reviewed: false

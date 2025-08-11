@@ -1,0 +1,9 @@
+question: CalyxOSに統合されたMicroGとは何ですか？
+answer: Googleのサービスを無料で再実装
+wrong_answers:
+  - パーミッションマネージャー
+  - Android用オープンソースVPN
+  - グーグル独自のアンチウイルス
+explanation: |
+  MicroGは、公式バイナリをインストールすることなくGoogle API依存のアプリケーションを実行できるオープンソースの代替ツールである。
+reviewed: false

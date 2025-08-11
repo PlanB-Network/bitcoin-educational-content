@@ -1,0 +1,9 @@
+question: Waarom wordt het afgeraden om ontvangstadressen op sociale media te plaatsen?
+answer: Omdat ze kunnen worden gebruikt om onchain-activiteiten te koppelen aan een echte identiteit.
+wrong_answers:
+  - Omdat ze gemakkelijk gehackt kunnen worden door kwaadwillende hackers.
+  - Omdat ze frauduleuze aanbiedingen kunnen aantrekken en je kunnen blootstellen aan phishing-campagnes.
+  - Omdat ze de toepassing van gemeenschappelijke input Ownership heuristiek mogelijk maken.
+explanation: |
+  Het delen van Bitcoin ontvangstadressen op het internet kan gebruikt worden als ingang voor ketenanalyse door een identiteit (echt of pseudoniem) te koppelen aan activiteit op de keten.
+reviewed: false

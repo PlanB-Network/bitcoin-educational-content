@@ -1,0 +1,9 @@
+question: Which platform automatically deletes metadata when a photo is uploaded?
+answer: Signal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Your blog
+explanation: |
+  Signal (like Session and other secure messaging services) cleans the metadata of shared images to protect users' privacy.
+reviewed: false

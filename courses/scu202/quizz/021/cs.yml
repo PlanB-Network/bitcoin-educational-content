@@ -1,0 +1,9 @@
+question: Která součást prostředí pracovní plochy slouží k vizuální navigaci po souborech a složkách?
+answer: Správce souborů
+wrong_answers:
+  - Správce relací
+  - Composer X11
+  - Správce balíčků
+explanation: |
+  Správce souborů (jako Nautilus, Dolphin, Thunar) umožňuje uživateli spravovat soubory a složky pomocí grafického nástroje Interface.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quali sono i principali limiti delle applicazioni antivirus per dispositivi mobili?
+answer: Sono limitati di fronte a minacce reali
+wrong_answers:
+  - Rendono il telefono incompatibile con le reti mobili
+  - Rimuovono le applicazioni di messaggistica
+  - Aumentano la durata della batteria
+explanation: |
+  Il software antivirus per dispositivi mobili non offre alcuna protezione contro il phishing o le autorizzazioni errate, e solo una sicurezza limitata contro le principali minacce.
+reviewed: false

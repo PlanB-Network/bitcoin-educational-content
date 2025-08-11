@@ -1,0 +1,9 @@
+question: ¿Qué norma de ciberseguridad recomienda limitar los derechos de cada usuario o software a lo estrictamente necesario?
+answer: El principio del menor privilegio
+wrong_answers:
+  - Doble autenticación
+  - Política de contraseñas seguras
+  - Copia de seguridad periódica
+explanation: |
+  El principio del menor privilegio significa conceder sólo los derechos necesarios para cada tarea, reduciendo así el riesgo de compromiso.
+reviewed: false

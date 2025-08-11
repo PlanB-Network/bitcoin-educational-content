@@ -1,0 +1,11 @@
+question: Welke schadelijke inhoud kunnen e-mailbijlagen en afbeeldingen bevatten?
+answer: Malware
+wrong_answers:
+  - Spam
+  - Advertenties
+  - Promotionele inhoud
+explanation: |
+  E-mailbijlagen en afbeeldingen kunnen malware bevatten.
+  Download of open daarom geen bijlagen van
+  onbekende of verdachte afzenders.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat staat de sighash vlag SIGHASH_NONE toe?
+answer: De uitvoer wijzigen na ondertekening
+wrong_answers:
+  - De invoer wijzigen na ondertekening
+  - Omvat alle in- en uitgangen
+  - Wijzigingen beperken tot slechts één uitvoer
+explanation: |
+  SIGHASH_NONE heeft alleen betrekking op de invoer, maar laat de uitvoer aanpasbaar na ondertekening.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-nimi : Blitz Wallet
+name: Blitz Wallet
 
 
 description: Kõige lihtsam Bitcoin portfell.
@@ -109,7 +109,7 @@ Blitz Wallet üks eripära on see, et see toetab erinevaid võrke ja kanaleid v�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Vaikimisi toimuvad kõik teie tehingud Liquid Network-s, kuid Blitz võimaldab teil määrata võrgu, milles soovite satoshisid vastu võtta, klõpsates nupul **Valige vorming**.
 
@@ -270,3 +270,4 @@ Kui see õpetus aitas teil Blitziga hakkama saada, siis oleme kindlad, et teile 
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van de kernel in een besturingssysteem?
+answer: Toegang tot apparatuur beheren
+wrong_answers:
+  - Advertenties tonen
+  - Gebruikersaccounts beheren
+  - Toepassingen automatisch installeren
+explanation: |
+  De kernel regelt hardwaretoegang, gelijktijdige procesuitvoering en beveiliging, terwijl de complexiteit van het circuit voor de gebruiker verborgen blijft.
+reviewed: false

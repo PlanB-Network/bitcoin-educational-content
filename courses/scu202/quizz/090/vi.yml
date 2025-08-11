@@ -1,0 +1,9 @@
+question: Cổng mạng nào được sử dụng theo mặc định cho các kết nối P2P trên mạng chính Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Cổng 8333 là cổng chuẩn được các nút Bitcoin sử dụng cho các kết nối ngang hàng với Mainnet.
+reviewed: false

@@ -2111,7 +2111,7 @@ KYC एक्सचेंज का सबसे बड़ा नुकसान
 - P2P प्लेटफ़ॉर्म**: बिस्क, रोबोसैट और पीच जैसे प्लेटफ़ॉर्म पहचान सत्यापन की आवश्यकता के बिना निजी व्यक्तियों के बीच लेन-देन की सुविधा प्रदान करते हैं, लेनदेन को सुरक्षित करने के लिए एस्क्रो सिस्टम का उपयोग करते हैं। यदि दूसरा पक्ष सहयोग नहीं करता है तो इन प्लेटफ़ॉर्म में अभी भी चोरी का जोखिम है, लेकिन एस्क्रो सेवाओं द्वारा जोखिम को कम किया जाता है।
 - Bitcoin स्वचालित टेलर मशीनें (एटीएम)**: कुछ एटीएम (कियोस्क) आपको नकदी के साथ Bitcoin खरीदने की अनुमति देते हैं, हालांकि शुल्क अधिक होता है, और कुछ में बड़े लेनदेन के लिए आईडी सत्यापन की आवश्यकता होती है।
 - केवाईसी-मुक्त Exchange प्लेटफॉर्म**: कुछ प्लेटफॉर्म, विशेष रूप से स्विट्जरलैंड में, आपको आईडी सत्यापन की आवश्यकता के बिना Bitcoin की छोटी मात्रा खरीदने की अनुमति देते हैं।
-- Mining**: व्यक्ति Bitcoin का खनन कर सकते हैं। पुरानी या छोटी मशीनें सुलभ हैं, जो KYC के बिना Bitcoin प्राप्त करने का एक गैर-पारंपरिक तरीका प्रदान करती हैं। Mining pool में शामिल होकर, आप बुनियादी उपकरणों के साथ भी नियमित भुगतान कमा सकते हैं। अधिक जानकारी के लिए, [हमारे Mining ट्यूटोरियल देखें](https://planb.network/tutorials/Mining)।
+- Mining**: व्यक्ति Bitcoin का खनन कर सकते हैं। पुरानी या छोटी मशीनें सुलभ हैं, जो KYC के बिना Bitcoin प्राप्त करने का एक गैर-पारंपरिक तरीका प्रदान करती हैं। Mining pool में शामिल होकर, आप बुनियादी उपकरणों के साथ भी नियमित भुगतान कमा सकते हैं। अधिक जानकारी के लिए, [हमारे Mining ट्यूटोरियल देखें](https://planb.network/tutorials/mining)।
 - बिटकॉइन में भुगतान / वेतन**: यदि आप कोई व्यवसाय चलाते हैं, तो आप भुगतान के रूप में Bitcoin स्वीकार कर सकते हैं। यदि आप नौकरीपेशा हैं, तो आपके अधिकार क्षेत्र के आधार पर, आप Bitcoin में भुगतान मांग सकते हैं। ये तरीके आपको KYC के बिना Bitcoin प्राप्त करने की अनुमति देते हैं।
 
 
@@ -2372,7 +2372,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 अपनी निजी कुंजियों से समझौता किए बिना अपनी होल्डिंग्स की निगरानी करने के लिए, Watch-only wallet का उपयोग करने पर विचार करें। यह आपको केवल अपनी सार्वजनिक कुंजियों का उपयोग करके शेष राशि और लेनदेन को ट्रैक करने देता है।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 होडलर की रणनीति सरल लेकिन शक्तिशाली है: खरीदें, सुरक्षित करें और भूल जाएं। असली चुनौती तकनीकी नहीं है; यह मनोवैज्ञानिक है। सबसे कठिन हिस्सा बहुत जल्दी बेचने या कीमत गिरने के दौरान घबराने की इच्छा का विरोध करना है। लेकिन अगर आप अनुशासित रहते हैं और दीर्घकालिक सोचते हैं, तो होडलिंग समय के साथ मूल्य को संरक्षित करने और धन बनाने का एक विश्वसनीय तरीका साबित हुआ है।
 
@@ -2459,9 +2459,9 @@ Bitcoin पारिस्थितिकी तंत्र में, स्�
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
@@ -2576,7 +2576,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 सुरक्षा से समझौता किए बिना आसान निगरानी के लिए, सार्वजनिक कुंजी का उपयोग करके शेष राशि पर नज़र रखने के लिए Watch-only wallet सेट करें।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### अपने स्टेकर प्रोफ़ाइल का मूल्यांकन करें
 
@@ -2694,13 +2694,13 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -3059,7 +3059,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
@@ -3654,3 +3654,7 @@ BTC102 कोर्स लेने के लिए आपका बहुत �
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+
+

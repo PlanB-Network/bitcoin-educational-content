@@ -1,0 +1,9 @@
+question: 如何在 Android 智慧型手機上安裝替代 ROM？
+answer: 解鎖開機載入程式
+wrong_answers:
+  - 建立 Apple 帳戶
+  - 安裝特殊 SIM 卡
+  - 在 iOS 上啟動開發者模式
+explanation: |
+  要將新系統映像寫入 Android 智慧型手機，解鎖開機載入程式是不可或缺的。
+reviewed: false

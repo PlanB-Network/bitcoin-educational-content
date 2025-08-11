@@ -1,0 +1,10 @@
+question: Wat is een ricochet in de context van Bitcoin?
+answer: Een techniek waarbij je meerdere transacties naar jezelf maakt
+wrong_answers:
+  - Een gezamenlijke transactie met meerdere deelnemers
+  - Een methode om bitcoins te mengen om de verwachte anonimiteit te vergroten
+  - Een type CoinJoin specifiek voor bepaalde Exchange platforms
+explanation: |
+  Een ricochet is een techniek waarbij je meerdere fictieve transacties naar jezelf maakt (vegen).
+  
+reviewed: false

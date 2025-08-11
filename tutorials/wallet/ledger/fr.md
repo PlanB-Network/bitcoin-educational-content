@@ -6,6 +6,10 @@ description: Comment configurer votre appareil Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger a annoncé la fin du support logiciel pour le Nano S classique à compter du 25 juin 2025 : cet appareil ne recevra plus de mises à jour de sécurité et ne sera plus compatible avec les nouvelles fonctionnalités, ce qui expose ses utilisateurs à des risques de failles et d’incompatibilité à terme. Toutefois, les fonds restent accessibles grâce à la phrase mnémonique, mais il est fortement recommandé de migrer vers un modèle plus récent pour garantir la sécurité et la pérennité de l’accès à vos bitcoins. Attention, il s’agit ici de l’**ancien Nano S**, et non du **Nano S Plus** qui, lui, continue de bénéficier d’un support.*
+
+___
+
 Portefeuille physique à froid - 60 € - Débutant - Pour sécuriser de 2 000 € à 50 000 €
 
 Ledger est la solution française pour sécuriser les bitcoins de manière simple.

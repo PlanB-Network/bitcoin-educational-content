@@ -1,0 +1,10 @@
+question: Wat is het hoofddoel van de cursus?
+answer: De cursus is gericht op het verkennen van de fundamentele concepten van de Oostenrijkse economie.
+wrong_answers:
+  - De cursus wil de Keynesiaanse doctrine promoten.
+  - De cursus is bedoeld om de werking van centrale banken uit te leggen.
+  - De cursus is gericht op het bevorderen van de centralisatie van monetaire macht.
+explanation: |
+  Het hoofdstuk vermeldt dat de cursus gericht is op het verkennen van de
+  fundamentele concepten van de Oostenrijkse economie.
+reviewed: true

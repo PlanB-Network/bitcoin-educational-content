@@ -1,0 +1,9 @@
+question: 哪種開放原始碼 VPN 應用程式可讓您不需透過電子郵件建立匿名帳號，並接受 Bitcoin 付款？
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN 的突出之處在於其完全匿名的帳戶建立方式，不需要電子郵件或密碼，並接受 Bitcoin 或現金付款。
+reviewed: false

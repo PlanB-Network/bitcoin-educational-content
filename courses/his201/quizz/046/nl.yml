@@ -1,0 +1,9 @@
+question: Welk softwareversienummer stond in juli 2010 op Slashdot?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  De release van deze versie, lang voorbereid door Satoshi en Martti, markeerde een nieuwe inspanning in communicatie.
+reviewed: true

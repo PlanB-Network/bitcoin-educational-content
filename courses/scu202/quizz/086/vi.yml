@@ -1,0 +1,9 @@
+question: Ứng dụng dịch thuật nguồn mở nào hoạt động với nhiều công cụ dịch thuật khác nhau và không thu thập văn bản đã dịch của bạn?
+answer: Dịch bạn
+wrong_answers:
+  - Google Dịch
+  - DeepL
+  - Trình dịch Microsoft
+explanation: |
+  TranslateYou hoạt động như Interface cho một số công cụ tìm kiếm, không theo dõi hoặc thu thập dữ liệu cá nhân, không giống như các dịch vụ độc quyền.
+reviewed: false

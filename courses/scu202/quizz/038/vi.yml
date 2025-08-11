@@ -1,0 +1,9 @@
+question: Lệnh nào có thể được sử dụng để cập nhật tất cả các gói trên bản phân phối Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf nâng cấp
+  - sudo cập nhật tất cả
+explanation: |
+  Trên Ubuntu (và Debian), lệnh "sudo apt update && sudo apt upgrade" sẽ đồng bộ hóa danh sách gói và cài đặt tất cả các bản cập nhật có sẵn.
+reviewed: false

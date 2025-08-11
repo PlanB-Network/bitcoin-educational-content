@@ -6,7 +6,7 @@ description: Mwongozo wa kusanidi RaspiBlitz yako
 ![image](assets/0.webp)
 
 
-RaspiBlitz ni Njia ya Umeme ya kufanya-wewe-mwenyewe (LND na/au Umeme wa Msingi) inayoendesha pamoja na Bitcoin-Fullnode kwenye RaspberryPi (1TB SSD) na onyesho zuri kwa usanidi na ufuatiliaji kwa urahisi.
+RaspiBlitz ni Njia ya Umeme ya kukufanya-wewe-mwenyewe (LND na/au Umeme wa Msingi) inayoendesha pamoja na Bitcoin-Fullnode kwenye RaspberryPi (1TB SSD) na onyesho zuri kwa usanidi na ufuatiliaji kwa urahisi.
 
 
 RaspiBlitz inalengwa hasa kwa kujifunza jinsi ya kuendesha nodi yako mwenyewe iliyogatuliwa kutoka nyumbani - kwa sababu: Si Njia yako, Si Kanuni zako. Gundua na uendeleze mfumo wa ikolojia unaokua wa Lightning Network kwa kuwa sehemu yake kamili. Ijenge kama sehemu ya warsha au kama mradi wa wikendi wewe mwenyewe.
@@ -20,16 +20,16 @@ RASPIBLITZ - Jinsi ya Kuendesha Umeme na Bitcoin Full node kwa kipindi cha BTC
 # Mwongozo wa Kuweka Raspiblitz wa Parman
 
 
-Raspiblitz ni mfumo bora wa kuendesha Njia ya Bitcoin na programu zinazohusiana. Ninapendekeza hii na nodi ya Nodi Yangu kwa watumiaji wengi (Kuwa na nodi mbili za upunguzaji kwa njia bora.) Faida moja kuu ni kwamba nodi ya Raspiblitz ni "Programu ya Bure ya Open Source", tofauti na MyNode au Umbrel. Kwa nini hilo ni muhimu? Vlad Costa anaelezea. Unaweza pia kuendesha RaspbiBlitz kwa muunganisho wa WiFi badala ya ethernet - huu ni mwongozo wa ziada kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
+Raspiblitz ni mfumo bora wa kuendesha Njia ya Bitcoin na programu zinazohusiana. Ninapendekeza hii ya Nodi Yangu kwa watumiaji wengi (Kuwa na nodi mbili za upunguzaji kwa njia bora.) Faida moja kuu ni kwamba nodi ya Raspiblitz ni "Programu ya Bure ya Open Source", tofauti na MyNode au Umbrel. Kwa nini hilo ni muhimu? Vlad Costa anaelezea. Unaweza pia kuendesha RaspbiBlitz kwa muunganisho wa WiFi badala ya ethernet - huu ni mwongozo wa ziada kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
 
 
 Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaweza kuijenga mwenyewe (huhitaji skrini).
 
 
-Mwongozo kwenye ukurasa wa github ni bora, lakini ikiwezekana ni wa kina sana kwa mtumiaji mwenye uzoefu wa wastani. Maagizo yangu yatakuwa mafupi zaidi na tunatumahi kuwa rahisi kufuata.
+Mwongozo kwenye ukurasa wa github ni bora, lakini ikiwezekana ni wa kina sana kwa mtumiaji mwenye uzoefu wa wastani. Maagizo yangu yatakuwa mafupi zaidi na tunatumahi kuwa rahisi kuyafuata.
 
 
-Kimsingi, mchakato huo unafanana sana na mchakato wa kuanzisha node ya MyNode na Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza kununua kufuatilia, lakini kwa kweli huhitaji moja, na singependekeza. Huhitaji hata kibodi au panya ya ziada. Fikia tu menyu ya terminal ya kifaa kupitia kompyuta kwenye mtandao huo wa nyumbani, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana kwa Linux/Mac (rahisi) na ngumu kidogo na Windows.
+Kimsingi, mchakato huo unafanana sana na mchakato wa kuanzisha node ya MyNode na Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza kununua na kufuatilia, lakini kwa kweli huhitaji moja, na singependekeza. Huhitaji hata kibodi au panya ya ziada. Fikia tu menyu ya terminal ya kifaa kupitia kompyuta kwenye mtandao huo wa nyumbani, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana kwa Linux/Mac (rahisi) na ngumu kidogo na Windows.
 
 
 ## Hatua ya 1: Nunua vifaa.
@@ -271,7 +271,7 @@ Tengeneza nenosiri jipya ili kufunga mwanga wako wa Wallet, kisha Wallet mpya it
 ![image](assets/21.webp)
 
 
-Hakikisha umeiandika na kuiweka salama. Nilisikia mtu mmoja ambaye hakufanya hivyo kwa sababu hakuwa na mipango ya kutumia umeme, lakini mwaka mmoja baadaye aliamua kuitumia, na kufungua njia. Kisha kutambua maneno yake hayakuwa yameungwa mkono, na nakumbuka haikuwezekana kutoa maneno tena kutoka kwenye kifaa, ilibidi afunge chaneli zake zote na kuanza tena. Aliondoka nayo, lakini wengine wanaweza wasiwe na bahati sana.
+Hakikisha umeiandika na kuiweka salama. Nilisikia mtu mmoja ambaye hakufanya hivyo kwa sababu hakuwa na mipango ya kutumia umeme, lakini mwaka mmoja baadaye aliamua kuutumia, na kufungua njia. Kisha kutambua maneno yake hayakuwa yameungwa mkono, na nakumbuka haikuwezekana kutoa maneno tena kutoka kwenye kifaa, ilibidi afunge chaneli zake zote na kuanza tena. Aliondoka nayo, lakini wengine wanaweza wasiwe na bahati sana.
 
 
 Kufuatia hili, dakika chache za maandishi husonga chini ya dirisha la terminal. Kisha…

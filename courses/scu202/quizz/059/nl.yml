@@ -1,0 +1,9 @@
+question: Wie vond het World Wide Web uit en ontwikkelde de allereerste webbrowser?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee is de uitvinder van het World Wide Web en ontwikkelde in 1990 de eerste browser, WorldWideWeb (nu Nexus).
+reviewed: false

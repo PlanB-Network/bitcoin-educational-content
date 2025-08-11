@@ -4,6 +4,12 @@ description: Impostazione di un multisig 2/2 su Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Nota:** A partire da maggio 2025, non sarà più possibile attivare nuovi account protetti dall'autenticazione a due fattori (2FA). Questa funzionalità è disponibile solo per gli utenti che avevano già attivato questo tipo di account in precedenza.*
+
+___
+
 Un portafoglio software è un'applicazione installata su un computer, uno smartphone o un altro dispositivo connesso a Internet, che consente di gestire e proteggere le chiavi del portafoglio Bitcoin. A differenza dei portafogli hardware, che isolano le chiavi private, i portafogli "caldi" operano in un ambiente potenzialmente esposto agli attacchi informatici, aumentando il rischio di pirateria e furto.
 
 I portafogli software dovrebbero essere utilizzati per gestire quantità ragionevoli di bitcoin, soprattutto per le transazioni quotidiane. Possono anche essere un'opzione interessante per le persone con un patrimonio limitato di bitcoin, per le quali l'investimento in un portafoglio hardware può sembrare sproporzionato. Tuttavia, la loro costante esposizione a Internet li rende meno sicuri per la conservazione di risparmi a lungo termine o di grandi fondi. Per questi ultimi, è meglio optare per soluzioni più sicure, come i portafogli hardware.
@@ -20,7 +26,7 @@ Green è un'applicazione particolarmente facile da usare, il che la rende intere
 
 Blockstream Green supporta anche la rete Liquid, una sidechain di Bitcoin sviluppata da Blockstream per transazioni veloci e riservate al di fuori della blockchain principale. In questo tutorial ci concentriamo esclusivamente su Bitcoin, ma ho realizzato anche un altro tutorial per imparare a usare Liquid su Green:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## opzione 2/2 multisig (2FA)
 
@@ -40,7 +46,7 @@ Un altro svantaggio di questo metodo di sicurezza è che dovrete utilizzare mode
 
 Se preferite non utilizzare l'opzione 2FA e desiderate semplicemente impostare un portafoglio "*singlesig*" su Green, vi invito a consultare quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installazione e configurazione del software Blockstream Green
 
@@ -264,4 +270,5 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green per configurare un portafoglio Liquid:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

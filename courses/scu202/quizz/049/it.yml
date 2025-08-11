@@ -1,0 +1,9 @@
+question: Qual è la regola di backup consigliata per garantire la resilienza dei dati in caso di disastro?
+answer: Disporre di 3 copie, su 2 supporti diversi, di cui 1 fuori sede
+wrong_answers:
+  - 10 copie, su 5 supporti diversi, di cui 3 fuori sede
+  - 2 copie, su 2 supporti diversi, di cui 2 fuori sede
+  - 4 copie, su 4 supporti diversi, di cui 2 fuori sede
+explanation: |
+  La regola del 3-2-1 prevede il mantenimento di tre copie dei dati, su almeno due supporti diversi, di cui uno situato fuori sede, per proteggersi da perdite, furti o danneggiamenti dei dati.
+reviewed: false

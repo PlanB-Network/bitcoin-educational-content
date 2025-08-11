@@ -1,5 +1,5 @@
 ---
-name: Sellado de tiempo de certificados y diplomas en Plan ₿ Network
+name: Sellado de tiempo de diplomas en Plan ₿ Network
 description: Comprende cómo Plan ₿ Network emite pruebas verificables para tu certificado y diplomas
 ---
 
@@ -147,4 +147,3 @@ Nota que la verificación es exitosa si se muestran **ambos** mensajes siguiente
 2. La verificación de OpenTimestamps muestra un timestamp específico de un bloque de Bitcoin e informa **"¡Éxito! El bloque de Bitcoin [altura del bloque] atestigua que los datos existían a partir de [timestamp]"**
 
 Ahora que sabes cómo Plan ₿ Network emite prueba verificable para cualquier Certificado de Bitcoin y Diploma de Finalización de Curso, puedes verificar fácilmente la integridad de este.
-

@@ -1,0 +1,9 @@
+question: Hvilket prosjekt ble startet i 1983 for å lage et helt fritt operativsystem?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System-prosjektet
+  - Initiativ for åpen kildekode
+explanation: |
+  Richard Stallman startet GNU-prosjektet i 1983 for å utvikle et helt fritt operativsystem.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken enhet fungerar som gräns mellan Internet och ditt privata hemnätverk?
+answer: Modem-router
+wrong_answers:
+  - Ethernet-switch
+  - NAS-server
+  - USB-hubb
+explanation: |
+  Modemroutern ansluter ISP-nätverket till ditt lokala nätverk och hanterar tilldelningen av lokala IP-adresser.
+reviewed: false

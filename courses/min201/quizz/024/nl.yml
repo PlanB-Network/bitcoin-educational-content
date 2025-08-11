@@ -1,0 +1,10 @@
+question: Hoe heet de gebeurtenis wanneer de beloning voor Mining Bitcoin transacties wordt gehalveerd?
+answer: Halving
+wrong_answers:
+  - Verdubbeling
+  - Inkwartiering
+  - Verdrievoudiging
+explanation: |
+  De geprogrammeerde vermindering van Mining beloningen, Halving elke
+  vier jaar, is een gebeurtenis die bekend staat als Halving.
+reviewed: true

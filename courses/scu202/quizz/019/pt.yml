@@ -1,0 +1,9 @@
+question: O que é uma distribuição Linux?
+answer: Um sistema operativo completo construído em torno do kernel Linux
+wrong_answers:
+  - Um gestor de pacotes
+  - Um ambiente de trabalho Linux
+  - Um script de instalação automatizado para o sistema operativo Linux
+explanation: |
+  Uma distribuição Linux integra o kernel, as ferramentas de sistema, o software, o gestor de arranque e a gestão de pacotes para fornecer um sistema pronto a utilizar.
+reviewed: false

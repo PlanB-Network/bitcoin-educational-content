@@ -1,0 +1,9 @@
+question: ¿Cuáles son las principales limitaciones de las aplicaciones antivirus para móviles?
+answer: Son limitados frente a amenazas reales
+wrong_answers:
+  - Hacen que el teléfono sea incompatible con las redes móviles
+  - Eliminan las aplicaciones de mensajería
+  - Aumentan la duración de la batería
+explanation: |
+  El software antivirus para móviles no ofrece protección contra el phishing o las autorizaciones incorrectas, y sólo una seguridad limitada contra las principales amenazas.
+reviewed: false

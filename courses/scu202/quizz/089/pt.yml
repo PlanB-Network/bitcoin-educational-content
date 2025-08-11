@@ -1,0 +1,9 @@
+question: Que serviço de cartografia permite uma utilização totalmente offline e não inclui rastreio de anúncios?
+answer: Mapas orgânicos
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Mapa da cidade
+explanation: |
+  Organic Maps é uma aplicação de código aberto baseada no OpenStreetMap que funciona offline, sem localizadores ou recolha de dados, ao contrário das alternativas proprietárias.
+reviewed: false

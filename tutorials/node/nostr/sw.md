@@ -4,7 +4,7 @@ name: NOSTR
 description: Gundua na anza kutumia NOSTR
 ---
 
-Mwishoni mwa mwongozo huu, utaelewa nini Nostr ni, utakuwa umeunda akaunti, na utaweza kuitumia.
+Mwishoni mwa mwongozo huu, utaelewa nini Nostr, utakuwa umeunda akaunti, na utaweza kuitumia.
 
 
 ![A new challenger has arrived](assets/1.webp)
@@ -34,7 +34,7 @@ Ili kufikia mtandao, unahitaji kutumia programu ya mteja na kuunganisha kwenye r
 ## 1. Funguo za Cryptographic
 
 
-Tofauti na Facebook au Twitter, ambapo watumiaji wanapaswa kutoa barua pepe Address na habari nyingi kwa kampuni ya kibinafsi, Nostr hufanya kazi bila mamlaka kuu. Watumiaji generate jozi ya vitufe vya kriptografia, ufunguo wa siri (pia unajulikana kama ufunguo wa faragha), na ufunguo wa umma.
+Tofauti na Facebook au Twitter, ambapo watumiaji wanapaswa kutoa barua pepe Address na habari nyingi kwa kampuni ya kibinafsi, Nostr hufanya kazi bila mamlaka kuu. Watumiaji hugenerate jozi la vitufe vya kriptografia, ufunguo wa siri (pia unajulikana kama ufunguo wa faragha), na ufunguo wa umma.
 
 
 Ufunguo wa siri, nsec, unaojulikana tu kwa mtumiaji, hutumiwa kwa uthibitishaji na uchapishaji wa maudhui.
@@ -55,7 +55,7 @@ Wateja ni programu ambayo inaruhusu mwingiliano na Nostr. Wateja wakuu ni:
 - Mtandao: iris.to; koroma.kijamii; astral.ninja
 
 
-Wateja huruhusu watumiaji generate jozi mpya ya funguo (sawa na kuunda akaunti) au kuthibitisha kwa kutumia jozi za funguo zilizopo.
+Wateja huruhusu watumiaji kugenerate jozi mpya ya funguo (sawa na kuunda akaunti) au kuthibitisha kwa kutumia jozi za funguo zilizopo.
 
 
 ## 3. Relay
@@ -85,7 +85,7 @@ ris itakuundia seti ya funguo bila wewe kufanya chochote zaidi ya kuingiza jina 
 ![Main menu](assets/3.webp)
 
 
-⚠️ **Tahadhari!** Utahitaji kufuatilia funguo zako ikiwa ungependa kuweza kufikia wasifu wako tena kipindi chako kitakapofungwa. Nitakuonyesha jinsi ya kufanya hivi mwishoni kabisa mwa mwongozo huu.
+⚠️ **Tahadhari!** Utahitaji kufuatilia funguo zako ikiwa ungependa kuweza kufikia wasifu wako tena kipindi chako kitakapofungwa. Nitakuonyesha jinsi ya kufanya hivyo mwishoni kabisa mwa mwongozo huu.
 
 
 ## Hatua ya 2: Chapisha maudhui
@@ -115,7 +115,7 @@ npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 kwenye upau wa k
 ![My profile](assets/6.webp)
 
 
-Bofya kwenye "fuata" na baada ya siku chache zaidi, nitafuatilia pia mipasho yako. Tutakuwa marafiki. Nitafurahi pia kusoma ujumbe wako ikiwa ungependa kuniandikia moja.
+Bofya kwenye "fuata" na baada ya siku chache zaidi, nitafuatilia pia mipasho yako. Tutakuwa marafiki. Nitafurahi pia kusoma ujumbe wako ikiwa ungependa kuniandikia mmoja.
 
 
 Hatimaye, hakikisha kuwa umejiandikisha pia kwa mpasho wa Agora256 ili kupokea dokezo kila wakati tunapochapisha kitu kipya: npub1ag0rawstycy7nanuc6sz4v287rneen2yapcq3fd06972f8ncrhzqx
@@ -139,7 +139,7 @@ Unachohitajika kufanya sasa ni kumwambia iris mahali pa kupata picha yako na ban
 Ikiwa ungependa, unaweza pia kupakia picha, zitahifadhiwa kwako na iris kwenye nostr.build, huduma ya bure ya upangishaji wa maudhui ya kuona kwa Nostr.
 
 
-Kama unavyoona, unaweza pia kusanidi mteja wako aweze kupokea na kutuma Sats. Kwa njia hii, unaweza kuwazawadia waandishi wa maudhui uliyopenda au, bora zaidi, kujilimbikiza Sats kwa maudhui mazuri utakayochapisha.
+Kama unavyoona, unaweza pia kusanidi mteja wako aweze kupokea na kutuma Sats. Kwa njia hii, unaweza kuwazawadia waandishi wa maudhui uliyoyapenda au, bora zaidi, kujilimbikiza Sats kwa maudhui mazuri utakayochapisha.
 
 
 ## Hatua ya 5: Hifadhi nakala ya jozi muhimu
@@ -152,7 +152,7 @@ Kwanza, bofya kwenye ikoni ya "mipangilio" inayowakilishwa na gia
 ![Setting](assets/9.webp)
 
 
-Kisha, nakili na ubandike moja baada ya nyingine npub yako, npub hex, nsec, na nsec hex kwenye faili ya maandishi ambayo utaiweka salama. Ninapendekeza usimbue faili hii ikiwa unajua jinsi ya kuifanya.
+Kisha, nakili na ubandike moja baada ya nyingine npub yako, npub hex, nsec, na nsec hex kwenye faili ya maandishi ambayo utayaweka salama. Ninapendekeza usimbue faili hii ikiwa unajua jinsi ya kuifanya.
 
 
 ![Key](assets/10.webp)

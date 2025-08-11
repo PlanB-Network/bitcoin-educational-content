@@ -1,0 +1,9 @@
+question: Který nástroj příkazového řádku je doporučen pro Linux k odstranění všech metadat z obrázku nebo souboru PDF?
+answer: exiftool
+wrong_answers:
+  - poznámkový blok
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool je výkonný nástroj pro zobrazování a odstraňování metadat z nejrůznějších souborů (obrázky, PDF, zvukové soubory atd.).
+reviewed: false

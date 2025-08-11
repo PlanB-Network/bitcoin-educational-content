@@ -1,0 +1,9 @@
+question: La scolastique est-elle  ?
+answer: Une philosophie du Moyen-Âge.
+wrong_answers:
+- Une philosophie de l'époque moderne.
+- Une philosophie antique.
+- Une philosophie athée.
+explanation: |
+  La scolastique est une philosophie du Moyen-Âge qui cherchait à concilier la foi chrétienne avec la philosophie aristotélicienne. Elle dominait les universités européennes avant l'émergence de la philosophie moderne.
+reviewed: false

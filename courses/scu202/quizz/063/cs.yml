@@ -1,0 +1,9 @@
+question: Který textový prohlížeč bez podpory grafiky Interface a JavaScriptu je nejstarší z dosud udržovaných?
+answer: Lynx
+wrong_answers:
+  - Prohlížeč Mullvad
+  - Polypan
+  - Vivaldi
+explanation: |
+  Lynx, který se objevil v roce 1992, pracuje v textovém režimu, nepodporuje JavaScript a stále se používá pro velmi specifické účely.
+reviewed: false

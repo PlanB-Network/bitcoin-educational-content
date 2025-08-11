@@ -1,0 +1,9 @@
+question: Vilket kommando kan användas för att uppdatera alla paket på en Ubuntu-distribution?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf uppgradering
+  - sudo uppdatering-alla
+explanation: |
+  På Ubuntu (och Debian) synkroniserar kommandot "sudo apt update && sudo apt upgrade" paketlistan och installerar alla tillgängliga uppdateringar.
+reviewed: false

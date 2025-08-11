@@ -1,0 +1,9 @@
+question: Minkä avoimen lähdekoodin salasanahallintaohjelman avulla voit tallentaa tunnistetietosi paikallisesti ilman pilvipalvelua?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX toimii salattujen paikallisten tiedostojen perusteella ilman pilvipalvelua tai keskitetyn palvelun tilausta.
+reviewed: false

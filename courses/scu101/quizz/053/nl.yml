@@ -1,0 +1,12 @@
+question: Waarom worden biometrische gegevens als minder veilig beschouwd dan de combinatie van kennis en bezit voor 2FA?
+answer: Biometrische gegevens moeten op het verificatieapparaat blijven en mogen niet online worden vrijgegeven.
+wrong_answers:
+  - Biometrische gegevens zijn gemakkelijker te extraheren, zelfs als ze offline op het verificatieapparaat worden bewaard.
+  - Biometrische gegevens zijn zowel moeilijker te onthouden als te gebruiken wanneer je een authenticatiemiddel gebruikt.
+  - Hulpmiddelen voor biometrische gegevens zijn duurder om te implementeren en daarom niet kosteneffectief in vergelijking met andere oplossingen.
+explanation: |
+  Biometrische gegevens zijn minder veilig omdat ze op het
+  op het verificatieapparaat moeten blijven en niet online openbaar mogen worden gemaakt. Als
+  online openbaar worden gemaakt, kunnen ze worden gestolen en gebruikt voor
+  onbevoegde toegang.
+reviewed: true

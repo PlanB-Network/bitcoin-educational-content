@@ -1,0 +1,9 @@
+question: ¿Qué aplicación de traducción de código abierto funciona con distintos motores y no recopila tus textos traducidos?
+answer: TraducirUsted
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Traductor de Microsoft
+explanation: |
+  TranslateYou actúa como Interface para varios motores, sin rastrear ni recopilar datos personales, a diferencia de los servicios propietarios.
+reviewed: false

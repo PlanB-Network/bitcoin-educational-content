@@ -1,0 +1,9 @@
+question: Dịch vụ nhắn tin nào cho phép bạn đăng ký hoàn toàn ẩn danh, không cần số điện thoại hoặc thông tin đăng nhập cố định?
+answer: Trò chuyện SimpleX
+wrong_answers:
+  - Tín hiệu
+  - Điện tín
+  - WhatsApp
+explanation: |
+  SimpleX Chat không còn khái niệm về mã định danh duy nhất: danh bạ được thêm vào thông qua liên kết tạm thời hoặc mã QR và không yêu cầu dữ liệu cá nhân.
+reviewed: false

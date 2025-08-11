@@ -1,0 +1,10 @@
+question: In hoeveel landen ter wereld mogen vrouwen geen bankrekening openen op hun eigen naam?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  In 72 landen over de hele wereld mogen vrouwen geen
+  bankrekeningen op hun eigen naam te openen.
+reviewed: true

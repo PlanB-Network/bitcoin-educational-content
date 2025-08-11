@@ -1,0 +1,9 @@
+question: Wat onthult het tweede Beale-bericht na ontcijfering?
+answer: De lijst van begraven schatten (goud, zilver en juwelen)
+wrong_answers:
+  - De exacte locatie waar de schat begraven is
+  - De datum van Beale's terugkeer
+  - De handtekening van Beale en die van zijn medewerkers
+explanation: |
+  Na ontcijfering beschrijft het tweede bericht de inhoud van de schat, bestaande uit goud, zilver en juwelen.
+reviewed: false

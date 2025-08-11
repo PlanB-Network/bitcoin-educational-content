@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen phusis en nomos?
+answer: Phusis is de wet van de natuur, nomos is de menselijke wet.
+wrong_answers:
+  - Phusis is de wet van de goden, nomos is de wet van de mensen.
+  - Phusis is de wet van de zwakken, nomos is de wet van de sterken.
+  - Phusis is de wet van de oudheid, nomos is de wet van de moderne tijd.
+explanation: |
+  In de Griekse filosofie verwijst phusis naar natuurwetten of wetten die inherent zijn aan de natuur, onafhankelijk van menselijke handelingen, terwijl nomos verwijst naar menselijke wetten, gecreëerd door samenlevingen om het leven in gemeenschap te reguleren.
+reviewed: true

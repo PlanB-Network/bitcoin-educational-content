@@ -322,7 +322,9 @@ Tento druhý krok může být:
 - Dočasný kód poslaný prostřednictvím SMS.
 - Kód generovaný aplikací jako Google Authenticator nebo Authy.
 - Fyzický bezpečnostní klíč, který vložíte do počítače.
+
   ![](assets/notext/19.webp)
+
   S 2FA, i když hacker získá vaše heslo, nebude schopen přistupovat k vašemu účtu bez tohoto druhého ověřovacího faktoru. To činí 2FA nezbytným pro ochranu vašich online účtů proti neautorizovanému přístupu.
 
 ### Kterou možnost si vybrat?
@@ -334,6 +336,8 @@ Různé možnosti silného ověření nabízejí různé úrovně zabezpečení.
 - Hardware tokeny, jako jsou USB klíče nebo chytré karty, nabízejí optimální zabezpečení generováním jedinečného soukromého klíče pro každý web a ověřováním URL před povolením připojení.
 
 Pro optimální zabezpečení silným ověřením se doporučuje používat bezpečnou e-mailovou adresu, bezpečný správce hesel a adoptovat 2FA pomocí YubiKeys. Doporučuje se také zakoupit dva YubiKeys, aby se předvídala ztráta nebo krádež, například uchováním záložní kopie doma a u sebe.
+
+Pokud jde o potenciální hrozby pro dvoufaktorovou autentizaci pomocí SIM karty, běžným příkladem je útok na výměnu SIM karty, při kterém útočník ukradne telefonní číslo uživatele tím, že je propojí s SIM kartou, kterou ovládá. Existuje několik způsobů, jak může útočník útok provést; tato hrozba je však obvykle hlavním problémem pouze pro vysoce postavené jednotlivce a osoby, které jsou v centru zájmu.
 
 Biometriku lze použít jako náhradu, ale není to tak bezpečné jako kombinace znalostí a vlastnictví. Biometrická data by měla zůstat na ověřovacím zařízení a neměla by být zveřejňována online. Je důležité zvážit model hrozby spojený s různými metodami ověřování a přizpůsobit postupy podle toho.
 

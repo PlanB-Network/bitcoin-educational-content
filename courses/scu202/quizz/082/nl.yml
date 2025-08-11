@@ -1,0 +1,9 @@
+question: Welke applicatie biedt een radicaal gedecentraliseerde architectuur zonder centrale server voor het routeren van berichten?
+answer: Keet
+wrong_answers:
+  - Telegram
+  - Signaal
+  - Threema
+explanation: |
+  Keet is gebaseerd op een peer-to-peer model waarin alle communicatie rechtstreeks tussen gebruikers plaatsvindt, zonder een centrale server, waardoor een hoge veerkracht en vertrouwelijkheid worden gegarandeerd.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the main function of the kernel in an operating system?
+answer: Manage access to equipment
+wrong_answers:
+  - Show ads
+  - Manage user accounts
+  - Install applications automatically
+explanation: |
+  The kernel orchestrates hardware access, concurrent process execution and security, while hiding circuit complexity from the user.
+reviewed: false

@@ -1,0 +1,9 @@
+question: کدام ابزار خط فرمان برای لینوکس توصیه می‌شود تا تمام فراداده‌ها را از یک تصویر یا فایل PDF حذف کند؟
+answer: exiftool
+wrong_answers:
+  - دفترچه یادداشت
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool یک ابزار قدرتمند برای نمایش و حذف فراداده از انواع مختلف فایل‌ها (تصاویر، PDFها، صداها و غیره) است.
+reviewed: false

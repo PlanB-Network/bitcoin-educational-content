@@ -5,6 +5,6 @@ wrong_answers:
   - Un compte en banque.
   - Une carte de crédit.
 explanation: |
-  Le texte du cours mentionne qu'avant d'acheter du Bitcoin, vous
-  devriez avoir un portefeuille sécurisé où vous stockerez vos clés.
+  Avant d'acheter du Bitcoin, vous devriez avoir un portefeuille 
+  sécurisé où vous stockerez vos clés.
 reviewed: true

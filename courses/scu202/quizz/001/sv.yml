@@ -1,0 +1,9 @@
+question: Vilka metoder är viktiga för att begränsa exponeringen av dina uppgifter när du surfar på Internet?
+answer: Ta bort cookies regelbundet
+wrong_answers:
+  - Behåll alla cookies
+  - Inaktivera webbläsarens privata läge
+  - Använda en föråldrad webbläsare
+explanation: |
+  Att radera eller begränsa cookies minskar spårningen av reklam och bevarar integriteten när du surfar på webben.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke aspecten van netwerkkennis zijn nodig in cyberbeveiliging?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Het hoofdstuk noemt TCP/IP, VPN en firewall als enkele aspecten van netwerkkennis die nodig zijn bij cyberbeveiliging.
+reviewed: true

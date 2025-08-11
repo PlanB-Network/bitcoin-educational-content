@@ -1,5 +1,5 @@
 ---
-नाम : ब्लिट्ज़ Wallet
+name: ब्लिट्ज़ Wallet
 
 
 description: सबसे सरल Bitcoin पोर्टफोलियो.
@@ -109,7 +109,7 @@ Wallet मेनू में, आपके पास एक न्यूनत�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 डिफ़ॉल्ट रूप से, आपके सभी लेनदेन Liquid Network पर होंगे, लेकिन ब्लिट्ज़ आपको **प्रारूप चुनें** बटन पर क्लिक करके उस नेटवर्क को परिभाषित करने देता है जिस पर आप सातोशी प्राप्त करना चाहते हैं।
 
@@ -270,3 +270,4 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

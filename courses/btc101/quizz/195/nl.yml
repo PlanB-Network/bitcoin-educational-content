@@ -1,0 +1,8 @@
+question: Welke van de volgende acties kunnen mensen helpen die Bitcoin in het dagelijks leven willen gebruiken?
+answer: Zorg voor een lijst van alle winkeliers die Bitcoin accepteren.
+wrong_answers:
+  - Verhoog de prijs van Bitcoin.
+  - Verlaag het aantal Bitcoins.
+  - Beperk het gebruik van Bitcoin.
+explanation: >-
+reviewed: true

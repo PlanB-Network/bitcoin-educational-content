@@ -1,0 +1,9 @@
+question: In welke religieuze context werd het kapitalisme geboren?
+answer: In de context van het christendom.
+wrong_answers:
+  - In de context van de islam.
+  - In de context van het Jodendom.
+  - In de context van het heidendom.
+explanation: |
+  Kapitalisme ontstond in de context van het middeleeuwse christendom in Europa, waar koopmanssteden en economische praktijken zich ontwikkelden ondanks religieuze beperkingen op rentedragende leningen en woeker.
+reviewed: true

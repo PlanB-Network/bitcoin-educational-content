@@ -1,0 +1,9 @@
+question: 必須在 UEFI 中啟用什麼機制，才能防止在開機時執行未簽署的程式碼？
+answer: 安全開機
+wrong_answers:
+  - 快速開機
+  - 快速啟動
+  - 可信平台模組 (TPM)
+explanation: |
+  Secure Boot 可確保只有經過認證的軟體才能啟動系統，從而限制 Bootkit/rootkit 感染的風險。
+reviewed: false

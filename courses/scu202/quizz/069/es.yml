@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que es esencial mantener el navegador actualizado?
+answer: Corregir las vulnerabilidades críticas de seguridad
+wrong_answers:
+  - Mejorar la velocidad de carga de las páginas
+  - Evitar el phishing
+  - Optimización del consumo de memoria
+explanation: |
+  Las actualizaciones dan prioridad a las vulnerabilidades de seguridad que podrían permitir a un atacante poner en peligro su sistema.
+reviewed: false

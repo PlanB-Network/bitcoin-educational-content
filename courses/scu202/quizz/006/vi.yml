@@ -1,0 +1,9 @@
+question: Chức năng chính của hạt nhân trong hệ điều hành là gì?
+answer: Quản lý quyền truy cập vào thiết bị
+wrong_answers:
+  - Hiển thị quảng cáo
+  - Quản lý tài khoản người dùng
+  - Cài đặt ứng dụng tự động
+explanation: |
+  Hạt nhân điều phối việc truy cập phần cứng, thực thi quy trình đồng thời và bảo mật, đồng thời ẩn sự phức tạp của mạch khỏi người dùng.
+reviewed: false

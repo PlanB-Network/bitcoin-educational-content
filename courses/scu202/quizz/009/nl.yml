@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van een besturingssysteem?
+answer: Intermediair tussen hardware, gebruiker en applicaties
+wrong_answers:
+  - Geïntegreerd antivirusprogramma
+  - Grafische software
+  - Instant messaging server
+explanation: |
+  Het besturingssysteem fungeert als een centrale software Layer die applicaties en de gebruiker toegang geeft tot en controle geeft over de hardware.
+reviewed: false

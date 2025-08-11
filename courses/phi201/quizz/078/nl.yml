@@ -1,0 +1,9 @@
+question: Wat is de bekendste bijdrage van Adam Smith aan de economie?
+answer: Hij ontwikkelde de theorie van de onzichtbare hand.
+wrong_answers:
+  - Hij ontwikkelde de theorie van de zichtbare vinger.
+  - Hij ontwikkelde de theorie van de onzichtbare vinger.
+  - Hij ontwikkelde de theorie van de zichtbare hand.
+explanation: |
+  Adam Smith staat bekend om zijn theorie van de onzichtbare hand, die stelt dat individuele acties gemotiveerd door eigenbelang onbedoeld bijdragen aan het algemene economische welzijn van de samenleving.
+reviewed: true

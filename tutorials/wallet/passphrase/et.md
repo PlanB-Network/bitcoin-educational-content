@@ -29,6 +29,10 @@ Lõpuks on paroolilause kasutamine huvitav, kui soovitakse kontrollida HD rahako
 ## Kuidas valida hea paroolilause?
 Et paroolilause oleks efektiivne, peab see olema piisavalt pikk ja juhuslik. Nagu tugeva parooli puhul, soovitan valida paroolilause, mis on võimalikult pikk ja juhuslik, sisaldades erinevaid tähti, numbreid ja sümboleid, et muuta mis tahes jõuga ründamine võimatuks.
 
+[Trezori 2019. aasta uuringu](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) kohaselt võiks ründaja, kellel on ligipääs teie seemnfraasile ja kes kasutab AWS-is renditud tippklassi GPU-d (NVIDIA Tesla V100), testida 1 dollari eest ligi 620 miljonit parooli. Võrdluseks: 2019. aasta võimekuse juures maksaks 12 juhusliku väiketähega parooli murdmine keskmiselt **77 miljonit dollarit**.
+
+Soovitan siiski mitte piirduda 12 tähemärgiga. Selle asemel püüdke järgida tugeva parooli praeguseid standardeid: 2025. aastal kasutage vähemalt 13 juhuslikku tähemärki, mis sisaldavad numbreid, väikeseid ja suuri tähti ning sümboleid; või 14 tähemärki, kui kasutate ainult väikeseid ja suuri tähti. Loomulikult soovitan minna veel kaugemale ja kasutada näiteks 20 tähemärgi pikkust pääsõna koos sümbolitega, et olla valmis tulevaste arengute jaoks ja arvestada inimlike riskidega, mida nendes uuringutes ei käsitleta.
+
 On ka oluline korralikult salvestada see paroolilause, samamoodi nagu mnemoonilise fraasi puhul. **Selle kaotamine tähendab juurdepääsu kaotamist teie bitcoine'idele**. Ma soovitan tungivalt mitte jätta seda ainult oma peaga meelde, kuna see suurendab mõttetult kaotuse riski. Ideaalne on kirjutada see füüsilisele kandjale (paberile või metallile) eraldi mnemoonilisest fraasist. See varukoopia peab ilmselgelt olema hoitud erinevas kohas, kus teie mnemooniline fraas on, et vältida mõlema samaaegset kompromiteerimist.
 
 ## Õpetused

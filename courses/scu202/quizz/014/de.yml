@@ -1,0 +1,9 @@
+question: Wer waren die beiden Hauptentwickler von Unix?
+answer: Ken Thompson und Dennis Ritchie
+wrong_answers:
+  - Richard Stallman und Linus Torvalds
+  - Andrew S. Tanenbaum und Larry Ewing
+  - Steve Jobs und Bill Gates
+explanation: |
+  Unix wurde in den späten 1960er und frühen 1970er Jahren von Ken Thompson und Dennis Ritchie in den AT&T Bell Labs entwickelt.
+reviewed: false

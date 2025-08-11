@@ -337,8 +337,10 @@ Dieser zweite Schritt kann sein:
 - Ein temporärer Code, der per SMS gesendet wird.
 - Ein von einer Anwendung wie Google Authenticator oder Authy generierter Code.
 - Ein physischer Sicherheitsschlüssel, den du in deinen Computer einsteckst.
-  ![](assets/notext/19.webp)
-  Mit 2FA kann ein Hacker selbst dann nicht auf dein Konto zugreifen, wenn er dein Passwort hat, solange er diesen zweiten Verifizierungsfaktor nicht hat. Dies macht 2FA unerlässlich, um deine Online-Konten vor unbefugtem Zugriff zu schützen.
+
+![](assets/notext/19.webp)
+
+Mit 2FA kann ein Hacker selbst dann nicht auf dein Konto zugreifen, wenn er dein Passwort hat, solange er diesen zweiten Verifizierungsfaktor nicht hat. Dies macht 2FA unerlässlich, um deine Online-Konten vor unbefugtem Zugriff zu schützen.
 
 ### Welche Option wählen?
 

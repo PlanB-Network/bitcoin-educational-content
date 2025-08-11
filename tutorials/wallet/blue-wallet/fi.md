@@ -11,7 +11,7 @@ Bitcoin:n käytön aloittaminen näyttää olevan suuri haaste ihmisille, jotka 
 
 
 
-Tässä opetusohjelmassa tutustumme Blue Wallet:een, yksinkertaiseen mutta erittäin tehokkaaseen Bitcoin Wallet:een, jonka avulla voit hallita bitcoinejasi henkilökohtaisesti ja myös luoda [Multisig](https://planb.network/resources/glossary/Multisig) -periaatteeseen perustuvia hallinto-osuuskuntia (älä huoli, palaamme siihen vielä).
+Tässä opetusohjelmassa tutustumme Blue Wallet:een, yksinkertaiseen mutta erittäin tehokkaaseen Bitcoin Wallet:een, jonka avulla voit hallita bitcoinejasi henkilökohtaisesti ja myös luoda [Multisig](https://planb.network/resources/glossary/multisig) -periaatteeseen perustuvia hallinto-osuuskuntia (älä huoli, palaamme siihen vielä).
 
 
 
@@ -264,7 +264,7 @@ Kun vahvistat tapahtuman, tarvitset toisen allekirjoituksen, jolla hyväksyt bit
 
 
 
-Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman] (https://planb.network/resources/glossary/PSBT) QR-koodin.
+Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman] (https://planb.network/resources/glossary/psbt) QR-koodin.
 
 
 

@@ -1,0 +1,9 @@
+question: Hoe kan een blokcijfer worden getransformeerd in een streamcijfer?
+answer: Door modi zoals OFB te gebruiken die generate een sleutelstroom van het blokcijfer
+wrong_answers:
+  - Door de platte tekst in bytes te verdelen en deze één voor één te versleutelen
+  - Door opvulling toe te passen op berichten vóór encryptie
+  - Door de sleutellengte voor elk versleuteld blok te vergroten
+explanation: |
+  Met modi zoals OFB kan een blokcijfer werken als een streamcijfer door een sleutelstroom te genereren, die vervolgens wordt gebruikt voor elk deel van de platte tekst.
+reviewed: false

@@ -8,14 +8,14 @@ Hoy en día, la autenticación de dos factores (2FA) se ha vuelto esencial para 
 
 ## 2FA a través de Aplicaciones de Autenticación
 
-Exploraremos otras soluciones como las llaves de seguridad físicas en otros tutoriales, pero en este, propongo discutir específicamente sobre aplicaciones de 2FA. El funcionamiento de estas aplicaciones es bastante simple: cuando 2FA está activado en una cuenta, en cada inicio de sesión, se te pedirá no solo tu contraseña habitual sino también un código de 6 dígitos. Este código es generado por tu aplicación de 2FA. Una característica importante de este código de 6 dígitos es que no es estático; una nueva clave es generada por la aplicación cada 30 segundos.
+Exploraremos otras soluciones como las llaves de seguridad físicas en otros tutoriales, pero en este, proponemos discutir específicamente sobre aplicaciones de 2FA. El funcionamiento de estas aplicaciones es bastante simple: cuando 2FA está activado en una cuenta, en cada inicio de sesión, se te pedirá no solo tu contraseña habitual sino también un código de 6 dígitos. Este código es generado por tu aplicación de 2FA. Una característica importante de este código de 6 dígitos es que no es estático; una nueva clave es generada por la aplicación cada 30 segundos.
 ![AUTHY 2FA](assets/notext/01.webp)
 La renovación del código cada 30 segundos hace que sea muy difícil para un atacante acceder a tu cuenta. Este sistema impide que los atacantes reutilicen un código robado o interceptado, ya que expira rápidamente. Así, incluso si un atacante logra obtener el código, solo podrá usarlo durante una ventana de tiempo muy corta antes de que se requiera un nuevo código. Además, el hecho de que el código cambie tan frecuentemente reduce significativamente el tiempo disponible para un hacker que intenta adivinar el código mediante fuerza bruta.
 
 2FA a través de aplicaciones de autenticación representa así un método fácil de usar y gratuito para mejorar significativamente la seguridad de tus cuentas en línea.
 
-Hay numerosas aplicaciones para configurar 2FA, entre las cuales Google Authenticator y Microsoft Authenticator son las más conocidas. Sin embargo, en este tutorial, deseo presentarte otra solución menos conocida llamada Authy. Todas estas aplicaciones operan usando el mismo protocolo TOTP (*Time based One Time Password*), haciendo su uso bastante similar.
-Authy ofrece varias ventajas sobre otras soluciones de las grandes compañías tecnológicas. En primer lugar, te permite sincronizar tus tokens de 2FA en múltiples dispositivos, lo cual puede ser útil en caso de pérdida o cambio de teléfono. Authy también te permite generar una copia de seguridad cifrada y almacenarla en línea, asegurando que nunca pierdas acceso a tus tokens, incluso si pierdes tu dispositivo principal. Desde una perspectiva de interfaz de usuario, personalmente encuentro que Authy también ofrece una experiencia más agradable e intuitiva que sus alternativas.
+Hay numerosas aplicaciones para configurar 2FA, entre las cuales Google Authenticator y Microsoft Authenticator son las más conocidas. Sin embargo, en este tutorial, deseamos presentarte otra solución menos conocida llamada Authy. Todas estas aplicaciones operan usando el mismo protocolo TOTP (*Time based One Time Password*), haciendo su uso bastante similar.
+Authy ofrece varias ventajas sobre otras soluciones de las grandes compañías tecnológicas. En primer lugar, te permite sincronizar tus tokens de 2FA en múltiples dispositivos, lo cual puede ser útil en caso de pérdida o cambio de teléfono. Authy también te permite generar una copia de seguridad cifrada y almacenarla en línea, asegurando que nunca pierdas acceso a tus tokens, incluso si pierdes tu dispositivo principal. Desde una perspectiva de interfaz de usuario, personalmente encontramos que Authy también ofrece una experiencia más agradable e intuitiva que sus alternativas.
 
 ## ¿Cómo instalar Authy?
 
@@ -39,18 +39,18 @@ Para empezar, ve a la configuración de la aplicación haciendo clic en los tres
 ![AUTHY 2FA](assets/notext/08.webp)
 Luego haz clic en "*Settings*" (Configuración).
 ![AUTHY 2FA](assets/notext/09.webp)
-En la pestaña "*My Account*" (Mi Cuenta), tienes la opción de modificar tu cuenta. Recomiendo agregar un código PIN a la aplicación seleccionando "*App Protection*" (Protección de la Aplicación). Esto añade una capa extra de seguridad para acceder a tu aplicación.
+En la pestaña "*My Account*" (Mi Cuenta), tienes la opción de modificar tu cuenta. Recomendamos agregar un código PIN a la aplicación seleccionando "*App Protection*" (Protección de la Aplicación). Esto añade una capa extra de seguridad para acceder a tu aplicación.
 ![AUTHY 2FA](assets/notext/10.webp)
 En la pestaña "*Accounts*" (Cuentas), puedes configurar una copia de seguridad para tus tokens. Esta copia de seguridad permite la recuperación de tus códigos en caso de un problema. Está cifrada usando una contraseña que debes definir. Es importante que esta contraseña sea fuerte y se guarde en un lugar seguro. Configurar esta copia de seguridad no es necesariamente obligatorio si tienes otros métodos de recuperación, como un segundo dispositivo con la misma cuenta de Authy, por ejemplo.
 ![AUTHY 2FA](assets/notext/11.webp)En la pestaña "*Devices*" (Dispositivos), puedes ver todos los dispositivos sincronizados con tu cuenta de Authy. Tienes la opción de deshabilitar el uso de múltiples dispositivos, lo que restringe el acceso a tu cuenta solo a ese dispositivo. Si usas solo un dispositivo, esto puede aumentar la seguridad de tu cuenta, pero asegúrate de tener otro método de respaldo en caso de que pierdas ese dispositivo.
 
-Si prefieres permitir la adición de otros dispositivos, te aconsejo activar la opción que requiere confirmación de los dispositivos actualmente autorizados en tu cuenta de Authy antes de agregar un nuevo dispositivo.
+Si prefieres permitir la adición de otros dispositivos, te aconsejamos activar la opción que requiere confirmación de los dispositivos actualmente autorizados en tu cuenta de Authy antes de agregar un nuevo dispositivo.
 ![AUTHY 2FA](assets/notext/12.webp)
 Para agregar un nuevo dispositivo, simplemente repite el proceso de instalación presentado en la parte anterior usando las mismas credenciales. Luego se te pedirá confirmar este nuevo acceso desde tu dispositivo principal.
 
 ## ¿Cómo configurar 2FA en una cuenta?
 
-Para configurar un código de autenticación 2FA a través de una aplicación como Authy en una cuenta, la cuenta debe admitir esta característica. Hoy en día, la mayoría de los servicios en línea ofrecen esta opción de 2FA, pero no siempre es el caso. Tomemos el ejemplo de la cuenta de Proton Mail que presenté en otro tutorial:
+Para configurar un código de autenticación 2FA a través de una aplicación como Authy en una cuenta, la cuenta debe admitir esta característica. Hoy en día, la mayoría de los servicios en línea ofrecen esta opción de 2FA, pero no siempre es el caso. Tomemos el ejemplo de la cuenta de Proton Mail que presentamos en éste otro tutorial:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -67,11 +67,11 @@ Authy mostrará entonces tu código dinámico de 6 dígitos específico para esa
 ![AUTHY 2FA](assets/notext/19.webp)
 Introduce este código en el sitio web para finalizar la configuración de 2FA.
 ![AUTHY 2FA](assets/notext/20.webp)
-Algunos sitios también te proporcionarán códigos de recuperación después de activar el 2FA. Estos códigos te permiten acceder a tu cuenta si pierdes el acceso a tu aplicación Authy. Recomiendo guardarlos en un lugar seguro.
+Algunos sitios también te proporcionarán códigos de recuperación después de activar el 2FA. Estos códigos te permiten acceder a tu cuenta si pierdes el acceso a tu aplicación Authy. Recomendamos guardarlos en un lugar seguro.
 ![AUTHY 2FA](assets/notext/21.webp)Tu cuenta ahora está asegurada con autenticación de dos factores a través de la aplicación Authy.
 ![AUTHY 2FA](assets/notext/22.webp)
 Cada vez que inicies sesión en la cuenta, necesitarás proporcionar el código dinámico generado por Authy. Ahora puedes asegurar todas tus cuentas compatibles con este método de 2FA. Para agregar una nueva cuenta en Authy, haz clic en los tres pequeños puntos en la parte superior derecha de la aplicación.
 ![AUTHY 2FA](assets/notext/23.webp)
 Luego haz clic en "*Add Account*".
 ![AUTHY 2FA](assets/notext/24.webp)
-Sigue los mismos pasos que los utilizados para la primera cuenta. Tus diversos códigos dinámicos serán visibles en la página de inicio de Authy.
+Sigue los mismos pasos que los utilizados para la primera cuenta. Todos tus códigos dinámicos serán visibles en la página de inicio de Authy.

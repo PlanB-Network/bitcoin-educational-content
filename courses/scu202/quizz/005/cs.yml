@@ -1,0 +1,9 @@
+question: Který operační systém dominuje dnešnímu trhu s osobními počítači?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Systém Windows má 71% podíl na trhu osobních počítačů díky své výchozí instalaci a rozsáhlému softwarovému ekosystému.
+reviewed: false

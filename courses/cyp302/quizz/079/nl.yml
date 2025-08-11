@@ -1,0 +1,9 @@
+question: Waarom is shift-encryptie kwetsbaar voor brute force-aanvallen?
+answer: Omdat het maar 26 mogelijke sleutels heeft
+wrong_answers:
+  - Omdat het een openbare sleutel gebruikt
+  - Omdat het gebaseerd is op symmetrische encryptie
+  - Omdat het willekeurige getallen gebruikt
+explanation: |
+  Shift vercijfering is gemakkelijk vatbaar voor brute force aanvallen omdat het slechts 26 mogelijke sleutels heeft, van 0 tot 25, door het gebruik van modulo 26 dat zelf afhangt van de grootte van het alfabet. Je kunt geen grotere geldige sleutels gebruiken, omdat die in ieder geval gelijk zouden zijn aan een sleutel tussen 0 en 25. Daarom is het voldoende om elke sleutel te testen. Daarom is het voldoende om elke sleutel te testen om het bericht te vinden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja platforma automatski briše metapodatke kada se fotografija otpremi?
+answer: Signal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Vaš blog
+explanation: |
+  Signal (kao što su Session i druge sigurne usluge razmene poruka) čisti metapodatke deljenih slika kako bi zaštitio privatnost korisnika.
+reviewed: false

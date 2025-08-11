@@ -1,11 +1,11 @@
 id: f5aec001-fb05-4e89-b3b2-a31abec1253c
 
+project_id: 9c8ef98b-a33c-4ccc-8d72-43299a47887b
 
 level: intermediate
 
 category: hardware
 
-professor:
 professor_id: 81a4b427-8d2a-4e50-b5b6-7e08bbf2d9d7
 
 tags:
@@ -20,7 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Finalstepbitcoin
-    reward: 1
+    reward: 1.35
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -116,3 +116,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.44
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57

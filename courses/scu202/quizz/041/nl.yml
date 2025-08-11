@@ -1,0 +1,9 @@
+question: Welk document, vaak SHA256SUMS of MANIFEST genoemd, is nodig om de integriteit van gedownloade software te verifiëren?
+answer: Het bestand met de software footprints
+wrong_answers:
+  - De gebruikershandleiding
+  - Het bestand met de handtekeningen van ontwikkelaars
+  - De volledige broncode van het project
+explanation: |
+  Het manifest of SHA256SUMS-bestand bevat de Hash van elk bestand dat door het project wordt verspreid en maakt het mogelijk om hun integriteit te controleren.
+reviewed: false

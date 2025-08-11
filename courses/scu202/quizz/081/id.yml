@@ -1,0 +1,9 @@
+question: Apa batasan utama Telegram dalam hal kerahasiaan pesan?
+answer: Hanya bursa rahasia yang dienkripsi end-to-end secara default
+wrong_answers:
+  - Ini memberlakukan biaya pendaftaran anonim
+  - Tidak menjamin keaslian file yang diterima
+  - Tidak ada klien sumber terbuka yang tersedia
+explanation: |
+  Secara default, pesan Telegram disimpan di server perusahaan, dengan hanya obrolan rahasia yang mendapat manfaat dari enkripsi end-to-end.
+reviewed: false

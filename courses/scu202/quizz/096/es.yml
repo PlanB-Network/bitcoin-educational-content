@@ -1,0 +1,9 @@
+question: ¿Qué tipo de protocolo debe activarse para cifrar las peticiones DNS a escala de red local?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS sobre HTTPS) y DoT (DNS sobre TLS) cifran las peticiones DNS, impidiendo que sean interceptadas.
+reviewed: false

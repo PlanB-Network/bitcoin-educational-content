@@ -1,0 +1,9 @@
+question: Welke rendering engine is vandaag de dag het meest wijdverspreid en stuurt de meeste moderne browsers aan?
+answer: Knipperen
+wrong_answers:
+  - Gekko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, ontwikkeld vanuit een WebKit Fork door Google, is vandaag de dag de dominante renderengine die Chrome, Edge, Opera, Brave, Vivaldi en meer aanstuurt.
+reviewed: false

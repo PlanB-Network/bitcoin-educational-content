@@ -1,0 +1,9 @@
+question: Które narzędzie macOS umożliwia pełne szyfrowanie dysku systemowego?
+answer: FileVault
+wrong_answers:
+  - Narzędzie dyskowe
+  - pęk kluczy iCloud
+  - BitLocker
+explanation: |
+  FileVault to natywne rozwiązanie do szyfrowania dysków zintegrowane z systemem macOS.
+reviewed: false

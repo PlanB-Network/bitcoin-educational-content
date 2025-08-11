@@ -240,13 +240,13 @@ Cette base solide lui donne une bonne stabilité, une gestion efficace des resso
 
 L’un des atouts majeurs de macOS réside dans l’intégration verticale du matériel et du logiciel. Apple contrôle toute la chaîne, de la conception des processeurs aux moindres détails de l’interface. Résultat : un système globalement fiable, avec peu de bugs matériels, et optimisé pour les performances.
 
-Cependant, cette intégration a pour inconvénient un enfermement croissant dans l’écosystème Apple. macOS est un système en partie propriétaire (dont le code source est majoritairement fermé) et qui ne fonctionne que sur les machines fabriquées par Apple. L’utilisateur n’a que peu de contrôle sur les mises à jour, les options de configuration système avancées ou le choix de ses composants matériels. Le matériel est difficilement modifiable ou réparable, souvent verrouillé logiciellement.
+Cependant, cette intégration a pour inconvénient un enfermement croissant dans l’écosystème Apple. MacOS est un système en partie propriétaire (dont le code source est majoritairement fermé) et qui ne fonctionne que sur les machines fabriquées par Apple. L’utilisateur n’a que peu de contrôle sur les mises à jour, les options de configuration système avancées ou le choix de ses composants matériels. Le matériel est difficilement modifiable ou réparable, souvent verrouillé logiciellement.
 
 ![Image](assets/fr/009.webp)
 
 Côté respect de la vie privée, bien que macOS soit moins intrusif que Windows, il reste lié à une logique de collecte de données, de synchronisation cloud, et de dépendance à des services centralisés. La plupart des fonctions avancées du système reposent sur une connexion permanente à l’écosystème Apple (iCloud, App Store, Siri…), ce qui limite l’indépendance de l’utilisateur.
 
-macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 202.
+MacOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 202.
 
 ### GNU/Linux : liberté, contrôle et sécurité
 
@@ -280,7 +280,7 @@ La naissance de Linux ne peut être comprise sans évoquer son ancêtre direct :
 
 Cette approche se traduit par le principe fondateur formulé par Doug McIlroy : 
 
-> Do one thing and do it well.
+> Fais une seule chose, mais fais-la bien.
 
 Unix peut être considéré comme une évolution et une réaction au système d’exploitation Multics, dont il adopte une architecture radicalement opposée. Multics est un projet initié en 1964, fruit d’une collaboration entre le MIT, General Electric et les laboratoires Bell d’AT&T. Ken Thompson et Dennis Ritchie (les créateurs d'UNIX) ont donc pu suivre de près ce projet Multics jusqu’en 1969, date à laquelle leur entreprise se retire du développement.
 

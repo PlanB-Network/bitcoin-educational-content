@@ -21,7 +21,7 @@ class App(tk.Tk):
 
     def __init__(self) -> None:
         super().__init__()
-        self.title("Markdown Translation Updater")
+        self.title("Polyglotter")
         self.geometry("960x720")
         self.minsize(900, 680)
         self.after(0, lambda: self.state('zoomed'))

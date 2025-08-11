@@ -1,0 +1,9 @@
+question: Which university operating system facilitated the spread of TCP/IP protocols in the academic world?
+answer: Unix BSD
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, developed at Berkeley, was one of the first to integrate TCP/IP protocols and distribute them to the academic world.
+reviewed: false

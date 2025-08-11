@@ -29,30 +29,41 @@ Mais choisir Firefox n'est que la première étape. Par défaut, même Firefox n
 - **Progression par étapes** : Changez un réglage, testez vos sites habituels, puis continuez. Inutile de tout bouleverser d'un coup.
 - **Équilibre personnel** : Trouvez VOTRE compromis entre confidentialité et confort d'utilisation.
 
-## Déjà activé par défaut (rassurant)
-
-- **Isolation de site (Fission)**: activée par défaut. Chaque site s’exécute dans un processus séparé, ce qui empêche un onglet malveillant d’accéder aux données d’un autre et améliore la robustesse (mitige certaines fuites inter‑sites). Vérifiez via `about:support` (rechercher « Fission »).
-- **Total Cookie Protection (TCP)**: actif par défaut. Les cookies et autres stockages sont confinés au site de première partie (un « bocal » par site), ce qui neutralise le pistage intersites. Des exceptions temporaires existent via la Storage Access API quand c’est nécessaire (boutons de connexion intégrés).
-- **Bounce/Redirect Tracking Protection**: Firefox détecte et nettoie automatiquement les cookies laissés par les sites de rebond (liens qui vous redirigent via un traqueur avant la destination), réduisant ce canal de pistage sans action de votre part.
-
 ## Installation rapide
 
 ![Téléchargement Firefox](assets/fr/02.webp)
 
-- **Windows**: téléchargez depuis `https://www.mozilla.org` (ou Microsoft Store), lancez l'installeur.
-- **macOS**: ouvrez le `.dmg` et glissez l'app dans Applications.
-- **Linux**: via gestionnaire de paquets (apt, dnf, pacman), Flatpak (Flathub) ou Snap. Préférez les sources officielles.
-- Astuce: Aide → **À propos de Firefox** pour vérifier les mises à jour (correctifs sécurité et privacy).
+**Téléchargement officiel :** Rendez-vous sur [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). Sur cette page, sélectionnez votre système d'exploitation (Windows, macOS, Linux) pour accéder à la page de téléchargement adaptée avec les instructions d'installation spécifiques.
+
+- **Windows**: téléchargez l'installeur `.exe`, double-cliquez et suivez l'assistant d'installation
+- **macOS**: téléchargez le fichier `.dmg`, ouvrez-le et glissez Firefox dans le dossier Applications
+- **Linux**: plusieurs options disponibles - paquet `.deb`/`.rpm`, Flatpak (Flathub), Snap, ou via gestionnaire de paquets (apt, dnf, pacman). Préférez les sources officielles Mozilla.
+
+**Astuce :** Une fois installé, vérifiez les mises à jour via Aide → **À propos de Firefox** (important pour les correctifs de sécurité).
 
 ![Configuration initiale Firefox](assets/fr/03.webp)
+*Premier écran au lancement de Firefox : possibilité de définir Firefox comme navigateur par défaut, l'ajouter aux raccourcis, puis cliquer sur "Enregistrer et continuer"*
 
----
+![Création compte Firefox](assets/fr/04.webp)
+*Étape optionnelle : création ou connexion à un compte Firefox. Vous pouvez ignorer cette étape en cliquant sur "Pas maintenant" en bas à droite*
+
+![Page d'accueil Firefox](assets/fr/05.webp)
+*Écran d'accueil Firefox une fois la configuration terminée. Notez le menu ☰ en haut à droite qui donne accès aux Paramètres et aux Extensions pour personnaliser Firefox*
+
+## Protections déjà activées par défaut (rassurant)
+
+- **Isolation de site (Fission)**: en déploiement progressif. Cette fonctionnalité exécute chaque site dans un processus séparé pour empêcher un onglet malveillant d'accéder aux données d'un autre. Vérifiez son statut via `about:support` (rechercher « Fission »). Si pas activée, vous pouvez l'activer manuellement dans `about:config` avec `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: actif par défaut. Les cookies et autres stockages sont confinés au site de première partie (un « bocal » par site), ce qui neutralise le pistage inter-sites. Des exceptions temporaires existent via la Storage Access API quand c'est nécessaire (boutons de connexion intégrés).
+- **Bounce/Redirect Tracking Protection**: Firefox détecte et nettoie automatiquement les cookies laissés par les sites de rebond (liens qui vous redirigent via un traqueur avant la destination), réduisant ce canal de pistage sans action de votre part.
 
 ## Niveau 1 — Essentiel (≤ 10 minutes)
 
 Objectif: gros gain de confidentialité sans casser le web. Pour 90% des utilisateurs.
 
-![Page d'accueil Firefox](assets/fr/05.webp)
+Pour accéder aux paramètres, cliquez sur le menu ☰ en haut à droite puis **"Paramètres"** :
+
+![Paramètres généraux](assets/fr/07.webp)
+*Page des paramètres Firefox - onglet "Général". C'est ici que vous configurerez la plupart des options de confidentialité*
 
 **Protection contre le pistage (ETP)**
 - Passez **ETP** en **Strict**. Vous bloquez davantage de traqueurs (cookies inter‑sites, fingerprinting, cryptomineurs, widgets sociaux…).
@@ -72,25 +83,23 @@ Voici les différents niveau de sécurité ETP :
 
 **Cookies et données de site**
 - Activez **« Supprimer les cookies et données des sites à la fermeture »** pour repartir proprement à chaque redémarrage.
-- Ajoutez des **Exceptions** pour 2–3 sites indispensables (messagerie, banque).
-
-![Paramètres cookies et mots de passe](assets/fr/08.webp)
-
-**HTTPS uniquement**
-- Activez **« Mode HTTPS uniquement dans toutes les fenêtres »**.
-
-**Télémétrie et mesures publicitaires**
-- Dans « Collecte de données par Firefox », **décochez tout**.
-- Désactivez **« Mesures publicitaires respectueuses de la vie privée »** (PPA).
-- **Safe Browsing**: gardez‑le activé (vérifications locales + requêtes hachées) pour une meilleure sécurité à faible coût privacy.
-
+- Ajoutez des **Exceptions** pour 2–3 sites indispensables si vous le souhaitez (messagerie, banque).
 **Saisie automatique, suggestions et page d'accueil**
 - Désactivez l’**auto‑remplissage** (identifiants, adresses, cartes). Préférez un gestionnaire de mots de passe.
 - **Recherche**: désactivez **« Afficher des suggestions de recherche »**.
 - **Barre d’adresse**: coupez **« Suggestions sponsorisées »** et **« Suggestions contextuelles »**.
 - **Accueil**: désactivez **Pocket** et le **contenu sponsorisé**.
 
-![Paramètres généraux](assets/fr/07.webp)
+![Paramètres cookies et mots de passe](assets/fr/08.webp)
+
+**HTTPS uniquement**
+- Activez **« Mode HTTPS uniquement dans toutes les fenêtres »**.
+![Configuration DNS over HTTPS](assets/fr/09.webp)
+
+**Télémétrie et mesures publicitaires**
+- Dans « Collecte de données par Firefox », **décochez tout**.
+- Désactivez **« Mesures publicitaires respectueuses de la vie privée »** (PPA).
+- **Safe Browsing**: gardez‑le activé (recommandé). Firefox vérifie les sites contre des listes de menaces via des requêtes hachées et des vérifications locales, protégeant contre le phishing et malware avec un impact privacy minimal.
 
 **Global Privacy Control (optionnel)**
 - Activez le **GPC** pour signaler votre refus de vente/partage de données.
@@ -119,12 +128,11 @@ Voici les différents niveau de sécurité ETP :
 Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 **DNS over HTTPS (DoH)**
-- Paramètres → Général → Paramètres réseau → **Activer DoH** → **Cloudflare** ou **Quad9** → **Protection maximale**.
+- **Statut par défaut** : Activé automatiquement dans certaines régions (États-Unis, Canada, Russie, Ukraine). Ailleurs, nécessite activation manuelle.
+- **Configuration** : Paramètres → Général → Paramètres réseau → **Activer DoH** → **Cloudflare** ou **Quad9** → **Protection maximale**.
 - **Protection maximale = TRR‑only** (pas de repli sur le DNS système). Si un réseau d'entreprise/hôtel bloque, revenez en **Standard** ou désactivez DoH.
-- Si vous utilisez déjà un **VPN de confiance** ou vos **propres DNS**, DoH peut être redondant.
-- Test: `https://www.dnsleaktest.com/` doit n'afficher que le fournisseur DoH choisi.
-
-![Configuration DNS over HTTPS](assets/fr/09.webp)
+- **Redondance** : Si vous utilisez déjà un VPN de confiance avec ses propres DNS sécurisés, DoH peut être redondant.
+- **Test de vérification** : `https://www.dnsleaktest.com/` doit n'afficher que le fournisseur DoH choisi.
 
 ![Sélection fournisseur DNS Cloudflare](assets/fr/10.webp)
 
@@ -145,8 +153,6 @@ Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 **Mobile (Android)**
 - **Firefox Android + uBlock Origin**: protection similaire en mobilité.
-
----
 
 ## Niveau 3 — Expert (about:config & Arkenfox)
 
@@ -227,7 +233,11 @@ Installation (idéalement sur un **profil dédié**)
 Mises à jour
 - Suivez les releases Arkenfox (alignées ESR), remplacez le `user.js`, relancez Firefox; lisez les notes de version.
 
-Overrides utiles (exemples)
+**Personnalisation via Overrides**
+
+Arkenfox est volontairement restrictif par défaut. Pour adapter certains réglages à vos besoins (streaming, visio, sites spécifiques), vous pouvez créer un fichier `user-overrides.js` dans le même dossier que `user.js`. Ce fichier permet de "surcharger" certaines préférences Arkenfox sans modifier le fichier principal.
+
+Créez `user-overrides.js` et ajoutez-y vos personnalisations :
 ```javascript
 // DRM/streaming
 user_pref("media.eme.enabled", true);
@@ -256,16 +266,6 @@ Bonnes pratiques
 - Ajoutez des exceptions site‑par‑site (bouclier 🛡️, uBO, NoScript si utilisé) quand nécessaire.
 - Testez après chaque changement: fuites WebRTC/DNS, Cover Your Tracks, CreepJS.
 
----
-
-## Tests & Validation
-
-- **Empreinte/trackers**: EFF Cover Your Tracks, Am I Unique, PrivacyTests.org, **CreepJS** (fingerprinting avancé).
-- **Fuites**: WebRTC `https://browserleaks.com/webrtc`, DNS `https://www.dnsleaktest.com/`, IP `https://ipleak.net/`, **1.1.1.1/help** (état DoH/HTTP3/ECH).
-- **Sécurité**: `https://badssl.com/`.
-
-Critères de succès: **pas de fuites IP/DNS**, grands traqueurs bloqués, vos sites essentiels fonctionnent.
-
 ## Bonnes pratiques
 
 - **Mises à jour**: Firefox et extensions à jour.
@@ -278,14 +278,27 @@ Critères de succès: **pas de fuites IP/DNS**, grands traqueurs bloqués, vos s
 
 - Un navigateur durci ≠ anonymat réseau: sans **VPN**, votre IP reste visible; même avec, la corrélation reste possible.
 - Trop modifier peut vous rendre **unique**. **RFP** standardise; des outils de randomisation (ex. Chameleon) peuvent… vous distinguer. Testez, comparez, ajustez.
-- Alternatives/compléments: **Tor Browser** (anonymat réseau via Tor; plus lent), **Mullvad Browser** (« Tor sans Tor », à combiner avec VPN; empreinte standardisée).
+- Alternatives/compléments: 
+	- **Tor Browser : anonymat réseau via Tor; plus lent. Consultez notre guide complet pour l'installation et la configuration** :
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+	- **Mullvad Browser : « Tor sans Tor », à combiner avec VPN; empreinte standardisée. Découvrez son installation dans notre tutoriel dédié** : 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 - Combinaisons conseillées: Firefox (Niveau 2) + VPN au quotidien; Tor/Mullvad pour activités sensibles; profils séparés pour compartimenter.
 
 ## Conclusion
 
-Avec ces réglages par niveaux, **Firefox devient un allié discret**: pistage publicitaire largement freiné, cookies compartimentés, fuites WebRTC/DNS évitées, télémétrie coupée, surface d’attaque réduite — sans sacrifier le confort. Continuez par petites touches, testez de temps en temps: la confidentialité est un **processus**, pas un interrupteur.
+En suivant ce guide par étapes, vous avez transformé Firefox en véritable rempart contre la surveillance numérique. Des réglages essentiels du Niveau 1 jusqu'aux configurations avancées d'Arkenfox, chaque modification renforce votre confidentialité sans compromettre votre expérience de navigation.
+
+**Votre vie privée est maintenant mieux protégée** : traqueurs publicitaires bloqués, cookies compartimentés, fuites d'adresse IP neutralisées, télémétrie désactivée. Firefox n'est plus un simple navigateur, mais un outil de résistance numérique adapté à vos besoins.
+
+**Rappelez-vous** : la confidentialité n'est jamais acquise définitivement. Testez régulièrement vos protections, mettez à jour vos paramètres, et n'hésitez pas à ajuster votre configuration selon l'évolution de vos habitudes. Votre anonymat en ligne dépend autant de vos outils que de vos pratiques.
 
 ## Ressources
+
+### Plan ₿ Network
+- **SCU 202 - Améliorer sa sécurité numérique personnelle : Pour approfondir les concepts de sécurité numérique abordés dans ce tutoriel**
+
+https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentation Mozilla
 - [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Guide officiel de la protection renforcée contre le pistage

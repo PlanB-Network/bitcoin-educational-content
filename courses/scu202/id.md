@@ -736,475 +736,205 @@ Semua elemen ini didasarkan pada toolkit grafis, yaitu pustaka perangkat lunak y
 
 ![Image](assets/fr/053.webp)
 
-
-
 #### GNOME
 
-
-
-Diluncurkan pada tahun 1997 dan pertama kali dipublikasikan pada tahun 1999, GNOME ("*GNU Network Object Model Environment*") didasarkan pada pustaka GTK dan bertujuan untuk meminimalisir gesekan antara pengguna dengan Interface melalui pengorganisasian yang sangat sederhana. Sejak GNOME 3, intinya, GNOME Shell, telah meninggalkan metafora tradisional desktop dengan ikon: alih-alih menyulap beberapa ruang kerja yang terlihat secara bersamaan, pengguna beralih ke satu pemilih aktivitas di mana mereka mengelola jendela, desktop virtual, dan peluncur aplikasi.
-
-
+Dirilis pada tahun 1997 dan pertama kali diterbitkan pada tahun 1999, GNOME ("_GNU Network Object Model Environment_") berbasis pada _GTK Library_ dan bertujuan untuk meminimalkan friksi antara pengguna dan Interface melalui organisasi yang sangat sederhana. Sejak GNOME 3, intinya, GNOME Shell, telah meninggalkan metafora desktop tradisional yang dipenuhi ikon: alih-alih menyulap beberapa ruang kerja yang terlihat secara bersamaan, pengguna beralih ke satu pemilih aktivitas di mana mereka mengelola jendela, desktop virtual, dan peluncur aplikasi.
 
 ![Image](assets/fr/051.webp)
 
+Secara teknis, _compositor Mutter_ menggabungkan manajemen window dan tumpukan Wayland, sambil tetap kompatibel dengan X11 berkat XWayland. Secara default, lingkungan ini menyediakan Nautilus untuk penelusuran file, GNOME Terminal untuk command line, dan panel pengaturan terpusat. Opsi kustomisasi GNOME pada dasarnya terbatas.
 
-
-Secara teknis, komposer Mutter menggabungkan manajemen jendela dan tumpukan Wayland, namun tetap kompatibel dengan X11 berkat XWayland. Secara default, lingkungan ini menyediakan Nautilus untuk penelusuran berkas, Terminal GNOME untuk baris perintah, dan panel pengaturan terpusat. Opsi kustomisasi GNOME pada dasarnya terbatas.
-
-
-
-Ini adalah lingkungan default untuk Fedora Workstation, Ubuntu, dan banyak distribusi berorientasi desktop lainnya.
-
-
+GNOME adalah lingkungan default untuk Fedora Workstation, Ubuntu, dan banyak distribusi berorientasi desktop lainnya.
 
 #### KDE Plasma
 
+Proyek KDE diluncurkan pada tahun 1996, dengan versi pertama lingkungan desktop-nya dirilis pada tahun 1998. Pada tahun 2014, sebuah perbedaan dibuat antara lingkungan desktop dan komponen lain dari proyek. Lingkungan desktop tersebut kemudian dinamai "Plasma".
 
-
-Proyek KDE diluncurkan pada tahun 1996, dengan versi pertama dari lingkungan desktop yang dirilis pada tahun 1998. Pada tahun 2014, sebuah perbedaan dibuat antara lingkungan desktop dan komponen lain dari proyek ini. Lingkungan desktop kemudian diberi nama "Plasma".
-
-
-
-KDE Plasma didasarkan pada Qt 6, sebuah kerangka kerja C++ lintas platform, dan pada KDE Frameworks, sebuah koleksi pustaka modular yang memfasilitasi pengembangan aplikasi terintegrasi. Window manager-nya, KWin, juga bertindak sebagai komposer Wayland yang lengkap: menangani efek visual (blur, transparansi, transisi), pemisahan layar dengan akselerasi GPU, dan gerakan multi-sentuh melalui libinput.
-
-
+KDE Plasma berbasis pada Qt 6, sebuah framework C++ lintas platform, dan pada KDE Frameworks, sebuah koleksi library modular yang memfasilitasi pengembangan aplikasi terintegrasi. Manajer window-nya, KWin, juga berfungsi sebagai compositor Wayland yang lengkap: menangani efek visual (blur, transparansi, transisi), pembagian layar dengan akselerasi GPU, dan gerakan multi-touch melalui libinput.
 
 ![Image](assets/fr/055.webp)
 
+Salah satu poin pembeda KDE Plasma adalah pusat konfigurasinya yang terpadu, yang menampilkan Interface grafis untuk hampir semua pengaturan: cara kerja desktop virtual, pintasan umum, kehalusan animasi, manajemen daya, konfigurasi jaringan, tampilan batas window... Tidak ada file konfigurasi teks yang perlu diedit secara manual, membuat lingkungan desktop ini mudah disesuaikan.
 
-
-Salah satu hal yang membedakan KDE Plasma adalah pusat konfigurasi terpadu, yang menampilkan Interface grafis untuk hampir semua pengaturan: perilaku desktop virtual, pintasan global, kelancaran animasi, manajemen daya, konfigurasi jaringan, tampilan batas jendela... Tidak ada file konfigurasi teks yang perlu diedit secara manual, sehingga lingkungan desktop mudah dikustomisasi.
-
-
-
-KDE Plasma digunakan pada banyak distribusi, termasuk Kubuntu, openSUSE Tumbleweed, Fedora KDE Spin dan Manjaro KDE.
-
-
+KDE Plasma digunakan di banyak distribusi, termasuk Kubuntu, openSUSE Tumbleweed, Fedora KDE Spin, dan Manjaro KDE.
 
 #### Xfce
 
+Xfce adalah lingkungan desktop bebas dan open-source yang dibuat pada tahun 1996 oleh Olivier Fourdan. Tujuan awalnya, yang masih berlaku hingga saat ini, adalah untuk menyediakan alternatif yang sederhana, ringan, dan cepat untuk lingkungan desktop yang lebih berat seperti GNOME atau KDE. Secara teknis, Xfce berbasis pada toolkit GTK, yang membuatnya lebih dekat dengan GNOME dalam beberapa hal, tetapi juga membedakannya dalam filosofinya.
 
-
-Xfce adalah sebuah lingkungan desktop sumber terbuka gratis yang dibuat pada tahun 1996 oleh Olivier Fourdan. Tujuan awalnya, yang masih berlaku sampai sekarang, adalah untuk menyediakan alternatif yang sederhana, ringan, dan cepat untuk lingkungan desktop yang lebih berat seperti GNOME atau KDE. Secara teknis, Xfce didasarkan pada toolkit GTK, yang membuatnya lebih dekat dengan GNOME dalam beberapa hal, tetapi juga membedakannya dalam filosofi.
-
-
-
-Xfce mengambil pendekatan grafis tradisional Interface, menampilkan desktop berbasis ikon, menu aplikasi, bilah tugas, dan panel yang dapat dikonfigurasi. Seluruh paket ini dirancang agar hemat sumber daya, baik dalam hal RAM maupun daya prosesor. Hal ini menjadikannya solusi ideal untuk komputer yang lebih tua dan kurang bertenaga, atau hanya untuk pengguna yang mencari sistem yang lancar, stabil, dan responsif.
-
-
+Xfce mengambil pendekatan Interface grafis tradisional, menampilkan desktop yang digerakkan oleh ikon, menu aplikasi, taskbar, dan panel yang dapat dikonfigurasi. Seluruh paket dirancang agar efisien sumber daya, baik dari segi RAM maupun daya prosesor. Ini menjadikannya solusi ideal untuk komputer lama, yang kurang bertenaga, atau hanya untuk pengguna yang mencari sistem yang lancar, stabil, dan responsif.
 
 ![Image](assets/fr/056.webp)
 
-
-
 #### LXQt
 
+LXQt adalah lingkungan desktop ringan yang dirancang untuk memberikan Interface grafis penuh dengan konsumsi sumber daya sistem minimalis. Ini sangat cocok untuk perangkat lama atau yang kurang bertenaga.
 
-
-LXQt adalah lingkungan desktop ringan yang dirancang untuk menghadirkan Interface grafis penuh dengan sumber daya sistem yang minimal. Lingkungan ini sangat cocok untuk mesin yang lebih tua atau kurang bertenaga.
-
-
-
-LXQt adalah hasil penggabungan dua proyek yang terpisah pada tahun 2013: LXDE (awalnya dikembangkan dengan pustaka GTK+) dan Razor-qt (lingkungan berbasis Qt yang serupa). Penggabungan ini melahirkan LXQt, dengan tujuan menyatukan upaya sambil memanfaatkan kekuatan dan modernitas kerangka kerja Qt, yang lebih cocok untuk evolusi sistem Linux daripada GTK+ 2, yang digunakan oleh LXDE.
-
-
+LXQt adalah hasil dari penggabungan dua proyek terpisah pada tahun 2013: LXDE (awalnya dikembangkan dengan pustaka GTK+) dan Razor-qt (lingkungan serupa berbasis Qt). Penggabungan ini melahirkan LXQt, dengan tujuan menyatukan upaya sambil mendapatkan manfaat dari kekuatan dan modernitas framework Qt, yang lebih cocok untuk evolusi sistem Linux daripada GTK+ 2, yang digunakan oleh LXDE.
 
 ![Image](assets/fr/057.webp)
 
+#### Cinnamon
 
+Cinnamon adalah lingkungan desktop modern yang dikembangkan dan dikelola oleh tim distribusi Linux Mint. Yang diluncurkan pada tahun 2011 sebagai respons langsung terhadap perubahan radikal yang diperkenalkan oleh GNOME 3, yang dianggap terlalu mengganggu oleh sebagian komunitas.
 
-#### Kayu manis
+Awalnya, Cinnamon adalah fork sederhana dari GNOME Shell, tetapi secara bertahap membebaskan dirinya dari GNOME untuk menjadi lingkungan desktop yang lengkap, sambil terus mengandalkan GTK library (terutama GTK 3).
 
-
-
-Cinnamon adalah lingkungan desktop modern yang dikembangkan dan dikelola oleh tim distribusi Linux Mint. Diluncurkan pada tahun 2011 sebagai tanggapan langsung terhadap perubahan radikal yang diperkenalkan oleh GNOME 3, yang dianggap terlalu mengganggu oleh beberapa orang di komunitas.
-
-
-
-Pada awalnya, Cinnamon adalah Fork sederhana dari GNOME Shell, tetapi secara bertahap melepaskan diri dari GNOME untuk menjadi lingkungan desktop yang lengkap, sambil tetap mengandalkan pustaka GTK (terutama GTK 3).
-
-
-
-Tujuan utamanya adalah menawarkan Interface yang klasik dan intuitif, dalam kesinambungan GNOME 2 dan Windows: menu aplikasi di kiri bawah, bilah tugas, zona notifikasi, dan desktop yang mudah diatur. Pendekatan konservatif ini sangat menarik bagi pengguna pemula atau mereka yang berasal dari Windows, yang akan dengan cepat menemukan arahnya.
-
-
+Tujuan utamanya adalah untuk menawarkan Interface yang klasik dan intuitif, dalam kesinambungan dari GNOME 2 dan Windows: menu aplikasi di kiri bawah, taskbar, area notifikasi, dan desktop yang dapat dikelola. Pendekatan konservatif ini sangat menarik bagi pengguna pemula atau mereka yang datang dari Windows, yang akan dengan cepat menemukan arahnya.
 
 ![Image](assets/fr/058.webp)
 
-
-
 #### MATE
 
+MATE adalah fork dari GNOME 2, yang diluncurkan pada tahun 2011, menyusul kedatangan GNOME 3 dan Interface yang secara signifikan berbeda (GNOME Shell). MATE lahir dari keinginan untuk melestarikan pendekatan klasik dari lingkungan GNOME 2, sambil memelihara dan memodernisasinya.
 
+Secara teknis, MATE berbasis pada GTK 3 library (setelah lama menggunakan GTK 2), dan mempertahankan struktur modular: manajer file (Caja), panel kontrol, terminal, editor teks... Semua komponen ini adalah fork dari perangkat GNOME 2, yang terus diperbarui agar tetap kompatibel dengan sistem modern.
 
-MATE adalah Fork dari GNOME 2, diluncurkan pada tahun 2011, menyusul kehadiran GNOME 3 dan Interface (GNOME Shell) yang sangat berbeda. MATE lahir dari keinginan untuk melestarikan pendekatan klasik lingkungan GNOME 2, sambil mempertahankan dan memodernisasinya.
-
-
-
-Secara teknis, MATE didasarkan pada pustaka GTK 3 (setelah lama menggunakan GTK 2), dan mempertahankan struktur modular: pengelola berkas (Caja), panel kontrol, terminal, editor teks... Semua komponen ini merupakan cabang dari perangkat GNOME 2, yang terus diperbarui agar tetap kompatibel dengan sistem modern.
-
-
-
-Interface didasarkan pada logika desktop tradisional: satu atau dua panel (menu, area peluncuran cepat, jam, area notifikasi), desktop dengan ikon, dan organisasi jendela mengambang.
-
-
+Interface didasarkan pada logika desktop tradisional: satu atau dua panel (menu, area peluncuran cepat, jam, area notifikasi), desktop dengan ikon, dan organisasi window mengambang.
 
 ![Image](assets/fr/059.webp)
 
-
-
 ### Kriteria seleksi
 
-
-
-Memilih lingkungan desktop GNU/Linux bukanlah hal yang sepele: hal ini menentukan pengalaman pengguna, kinerja sistem, dan kompatibilitas perangkat lunak. Setiap DE didasarkan pada pilihan teknis (pustaka, arsitektur, window manager...) yang mempengaruhi tampilan, perilaku, kinerja, dan bahkan kebutuhan perangkat keras. Berikut adalah kriteria utama yang perlu dipertimbangkan ketika membuat pilihan.
-
+Memilih lingkungan desktop GNU/Linux bukanlah hal yang sepele, karena pilihan tersebut menentukan pengalaman pengguna, performa sistem, dan kompatibilitas perangkat lunak. Setiap DE (_desktop environment_) didasarkan pada pilihan teknis (library, arsitektur, manajer window...) yang memengaruhi tampilan, cara kerja, performa, bahkan persyaratan perangkat kerasnya. Berikut adalah kriteria utama yang perlu dipertimbangkan untuk membuat pilihan yang tepat.
 
 
 #### Kinerja perangkat keras
 
+Setiap lingkungan desktop memiliki dampak pada sumber daya yang berbeda. Ini diukur dalam hal konsumsi RAM, penggunaan CPU, dan waktu startup:
 
-
-Setiap lingkungan desktop memiliki jejak sumber daya yang berbeda. Hal ini diukur dalam hal konsumsi RAM, penggunaan CPU, dan waktu start-up:
-
-
-
-
-- Pada mesin yang lebih tua atau kurang bertenaga (CPU inti tunggal, RAM kurang dari 2 GB...), saya merekomendasikan lingkungan yang sangat ringan seperti LXQt, LXDE atau Xfce. Mereka menawarkan Interface grafis penuh, tetapi tanpa efek visual atau ketergantungan yang berat;
-- Lingkungan menengah, seperti MATE atau Cinnamon, memerlukan perangkat keras yang sedikit lebih baru (RAM 4 hingga 6 GB direkomendasikan), tetapi tetap masuk akal;
-- Lingkungan modern dan kaya seperti GNOME atau KDE Plasma sangat lengkap, tetapi membutuhkan lebih banyak sumber daya, terutama jika efek grafis diaktifkan. Lingkungan ini cocok untuk mesin-mesin terbaru.
-
-
+- Pada mesin lama atau kurang bertenaga (CPU single-core, RAM kurang dari 2 GB...), saya merekomendasikan lingkungan yang sangat ringan seperti LXQt, LXDE, atau Xfce. Lingkungan ini menawarkan Interface grafis seluruhnya, tetapi tanpa efek visual atau ketergantungan yang berat;
+- Lingkungan menengah, seperti MATE atau Cinnamon, membutuhkan perangkat keras yang sedikit lebih baru (direkomendasikan RAM 4 hingga 6 GB), tetapi tetap wajar;
+- Lingkungan modern dan kaya fitur seperti GNOME atau KDE Plasma sangat lengkap, tetapi membutuhkan lebih banyak sumber daya, terutama jika efek grafis diaktifkan. Keduanya cocok untuk perangkat-perangkat yang baru.
 
 #### Preferensi estetika dan ergonomis
 
-
-
 Setiap DE menawarkan filosofi Interface yang berbeda:
 
-
-
-
-- GNOME mendukung kesederhanaan penggunaan, dengan Interface yang ramping, tanpa desktop atau ikon klasik, dan alur kerja berorientasi produktivitas yang dapat membingungkan bagi pemula
-- KDE Plasma sangat mudah dikustomisasi, hingga ke detail terkecil. Ia menampilkan tampilan modern, animasi, dan Interface default yang lebih mirip dengan Windows
-- Cinnamon dan MATE menawarkan pengalaman klasik: menu di kiri bawah, bilah tugas, ikon desktop. Cinnamon lebih modern secara visual, MATE lebih ringan
-- Xfce dan LXQt bertujuan untuk kesederhanaan dan kinerja, dengan estetika yang lebih terkendali namun dapat dikonfigurasi
-
-
+- GNOME mengutamakan kesederhanaan penggunaan, dengan Interface yang ramping, tanpa desktop atau ikon klasik, dan alur kerja berorientasi produktivitas yang bisa membingungkan bagi pemula.
+- KDE Plasma sangat dapat disesuaikan, hingga detail terkecil. Yang menampilkan tampilan modern, animasi, dan Interface default yang lebih mirip Windows.
+- Cinnamon dan MATE menawarkan pengalaman klasik: menu di kiri bawah, taskbar, ikon desktop. Cinnamon lebih modern secara visual, sedangkan MATE lebih ringan.
+- Xfce dan LXQt bertujuan untuk kesederhanaan dan performa, dengan estetika yang lebih sederhana namun tetap dapat dikonfigurasi.
 
 #### Tujuan penggunaan
 
-
-
 Penggunaan utama komputer juga akan memengaruhi pilihan Anda:
 
-
-
-
-- Untuk penggunaan di kantor dan multimedia, semua lingkungan cocok
-- Untuk sebuah workstation pengembangan, preferensi berbeda-beda: beberapa pengembang menghargai ketenangan Xfce, yang lain lebih menyukai alat integrasi yang ditawarkan oleh KDE
-- Untuk aplikasi tertanam atau server dengan Interface minimal, atau pada mesin yang sangat tua, LXQt, LXDE, atau Xfce sering kali merupakan satu-satunya pilihan yang layak
-
-
+- Untuk penggunaan perkantoran dan multimedia, semua lingkungan cocok.
+- Untuk pengembang workstation , preferensinya bervariasi: beberapa pengembang menghargai kesederhanaan Xfce, yang lain lebih menyukai program integrasi yang ditawarkan oleh KDE.
+- Untuk aplikasi tertanam atau server dengan Interface minimal, atau pada perangkat yang sangat tua, LXQt, LXDE, atau Xfce sering kali merupakan satu-satunya pilihan yang layak.
 
 #### Kompatibilitas dengan distribusi yang dipilih
 
+Setiap distribusi GNU/Linux memilih lingkungan desktop bawaan, yang sering kali terintegrasi dengan lebih baik, teruji dengan optimal, dilengkapi dengan program-program khusus, dan diinstal secara default. Meskipun selalu memungkinkan untuk menginstal lingkungan desktop lain, hal ini dapat menyebabkan duplikasi perangkat lunak, konflik konfigurasi, atau pengalaman pengguna yang kurang konsisten. Oleh karena itu, pilihan lingkungan desktop Anda mungkin dipengaruhi oleh distribusi Linux yang Anda pilih, atau sebaliknya, preferensi Anda terhadap lingkungan desktop tertentu dapat memandu pilihan distribusi Anda.
 
-
-Setiap distribusi GNU/Linux lebih menyukai lingkungan desktop default, yang sering kali terintegrasi lebih baik, teruji lebih baik, dilengkapi dengan alat khusus, dan terinstal secara default. Anda selalu dapat menginstal lingkungan desktop lain, tetapi hal ini dapat menyebabkan duplikasi perangkat lunak, konflik konfigurasi, atau pengalaman pengguna yang kurang konsisten. Oleh karena itu, pilihan lingkungan desktop Anda dapat dipengaruhi oleh distribusi Linux Anda, atau sebaliknya, preferensi Anda terhadap lingkungan desktop tertentu dapat memandu pilihan distribusi Anda.
-
-
-
-Harap diperhatikan bahwa beberapa distribusi, baik yang dikelola oleh tim proyek maupun kontributor eksternal, menyertakan lingkungan desktop yang berbeda dengan lingkungan desktop default (misalnya Kubuntu, Lubuntu, Xubuntu...).
-
-
+Perlu diperhatikan bahwa beberapa distribusi, baik yang dikelola oleh tim proyek maupun oleh kontributor eksternal, menyertakan lingkungan desktop yang berbeda dari default-nya (contohnya Kubuntu, Lubuntu, Xubuntu...).
 
 Berikut ini adalah lingkungan desktop dari distribusi utama:
 
-
-
-
-
 - Ubuntu → GNOME
-
-
-
-
-
 - Kubuntu → KDE Plasma
-
-
-
-
-
 - Xubuntu → Xfce
-
-
-
-
-
 - Lubuntu → LXQt
-
-
-
-
-
 - Linux Mint → Cinnamon (edisi utama), tetapi juga MATE dan Xfce
-
-
-
-
-
 - Fedora → GNOME (edisi utama), tetapi menawarkan beberapa Spin resmi:
- - Fedora KDE Spin → KDE Plasma
- - Fedora Xfce Spin → Xfce
- - Fedora LXQt Spin → LXQt
- - Fedora Cinnamon Spin → Kayu Manis
- - Fedora MATE-Compiz Spin → MATE
- - Fedora SoaS, i3, dll. → lingkungan tertentu
-
-
-
-
-
+   - Fedora KDE Spin → KDE Plasma
+   - Fedora Xfce Spin → Xfce
+   - Fedora LXQt Spin → LXQt
+   - Fedora Cinnamon Spin → Kayu Manis
+   - Fedora MATE-Compiz Spin → MATE
+   - Fedora SoaS, i3, dll. → lingkungan tertentu
 - Debian → GNOME (default), pilihan KDE, Xfce, LXQt, Cinnamon, MATE selama instalasi
-
-
-
-
-
 - Manjaro → KDE Plasma, GNOME atau Xfce tergantung pada edisi; edisi komunitas tersedia dengan Cinnamon, MATE, LXQt, i3, dll.
-
-
-
-
-
 - Zorin OS → Zorin Desktop, berdasarkan GNOME (versi Core) dan Xfce (versi Lite)
-
-
-
-
-
 - oS SD → Pantheon, lingkungan berbasis GTK milik SD sendiri
-
-
-
-
-
 - Pop! OS → GNOME dimodifikasi dengan Interface COSMIC, segera digantikan oleh versi Rust
-
-
-
-
-
 - openSUSE → pilih pada saat instalasi antara KDE Plasma (edisi paling terintegrasi), GNOME, Xfce, MATE, dll.
-
-
-
-
-
 - Arch Linux → tidak menyediakan lingkungan default, jadi Anda perlu menginstal salah satu pilihan Anda
-
-
-
-
-
 - Kali Linux → Xfce (default sejak 2019), juga menawarkan KDE, GNOME, i3, MATE, dll.
-
-
-
-
-
 - Parrot OS → MATE (default), versi alternatif dengan KDE Plasma
-
-
-
-
-
-- Ekor → GNOME
-
-
-
-
-
+- Tails  → GNOME
 - Qubes OS → Xfce
-
-
-
-
-
-- BlackArch → manajer jendela i3 (bukan lingkungan desktop yang lengkap)
-
-
-
-
-
+- BlackArch → manajer window i3 (bukan lingkungan desktop yang lengkap)
 - PureOS → GNOME
-
-
-
-
-
 - Whonix → KDE Plasma (versi utama), alternatif tersedia dengan Xfce
 
+Sebagai kesimpulan, tidak ada satu lingkungan desktop terbaik, melainkan yang paling sesuai dengan peralatan, penggunaan, dan preferensi Anda. Sangat umum untuk menguji beberapa DE sebelum menemukan yang menawarkan keseimbangan terbaik antara estetika, ergonomi, dan performa.
 
-
-Kesimpulannya, tidak ada satu pun lingkungan desktop yang terbaik, hanya satu yang paling sesuai dengan peralatan, penggunaan, dan preferensi Anda. Bahkan sudah umum untuk menguji beberapa DE sebelum menemukan yang menawarkan kompromi yang tepat antara estetika, ergonomi, dan kinerja.
-
-
-
-Bab ini akan memberi Anda pemahaman yang lebih baik tentang apa itu lingkungan desktop, komponen-komponen utamanya, perbedaan di antara solusi-solusi utama yang tersedia, dan kriteria penting untuk menentukan pilihan Anda. Pada bab berikutnya, Anda akan dapat mengambil langkah pertama dengan Ubuntu, distribusi serbaguna untuk masyarakat umum.
-
-
+Bab ini telah memberikan Anda pemahaman yang lebih baik tentang apa itu lingkungan desktop, komponen utamanya, perbedaan antara solusi utama yang tersedia, dan kriteria penting untuk membuat pilihan Anda. Pada bab selanjutnya, Anda akan dapat mengambil langkah-langkah pertama Anda dengan Ubuntu, distribusi serbaguna untuk masyarakat umum.
 
 ## Memulai dengan Ubuntu: semua yang perlu Anda ketahui
 
-
 <chapterId>7cea476d-f759-4c7e-8ca5-8b35bc79c682</chapterId>
 
+Saat ini, Ubuntu adalah salah satu pintu gerbang paling mudah diakses ke GNU/Linux: lingkungan GNOME yang rapi, repositori yang luas, pembaruan keamanan yang responsif, dan komunitas yang besar. Itulah mengapa saya memilih untuk menyajikan distribusi ini.
 
-
-Saat ini, Ubuntu adalah salah satu gerbang yang paling mudah diakses ke GNU/Linux: lingkungan GNOME yang telah dipoles, repositori yang luas, pembaruan keamanan yang responsif, dan komunitas yang besar. Itulah mengapa saya memilih untuk menyajikan distribusi ini.
-
-
-
-Namun, untuk menguasai instalasi desktop, Anda perlu memahami mekanisme dasar sistem: manajemen paket, baris perintah, keamanan dasar, dan praktik terbaik sehari-hari. Dalam bab ini, saya akan memandu Anda langkah demi langkah, mulai dari konfigurasi awal hingga instalasi alat produktivitas dan pengembangan, untuk memastikan Anda memiliki desktop yang lengkap, aman, dan efisien.
-
-
+Namun, menguasai instalasi desktop Anda membutuhkan pemahaman tentang mekanisme dasar sistem: manajemen paket, command line, keamanan dasar, dan praktik terbaik sehari-hari. Dalam bab ini, saya akan membawa Anda selangkah demi selangkah, dari konfigurasi awal hingga instalasi program-program produktivitas dan pengembangan, untuk memastikan Anda memiliki desktop yang lengkap, aman, dan efisien.
 
 ### Menginstal distribusi Ubuntu
 
-
-
-Sebelum Anda bisa menggunakan Ubuntu, Anda harus menginstalnya pada komputer Anda. Langkah ini mungkin tampak menakutkan jika Anda belum pernah melakukannya, tetapi sekarang ini sangat mudah dilakukan.
-
-
+Sebelum Anda dapat menggunakan Ubuntu, Anda harus menginstalnya di komputer Anda. Langkah ini mungkin tampak menakutkan jika Anda belum pernah melakukannya sebelumnya, tetapi saat ini hal itu sangat mudah dilakukan.
 
 Beberapa skenario dapat dilakukan, tergantung pada kondisi komputer Anda saat ini:
+- Jika Anda memiliki komputer dengan Windows yang sudah terinstal, Anda bisa menginstal Ubuntu di samping Windows ("_dual boot_"), atau mengganti seluruh sistem Anda saat ini. Jika Anda memilih _dual boot_, Anda bisa memilih sistem operasi mana yang akan dijalankan di setiap booting. Ini adalah solusi pilihan jika Anda hanya ingin mencoba Ubuntu sambil tetap memiliki akses ke Windows.
+- Jika Anda memiliki mesin baru tanpa sistem operasi, Anda bisa menginstal Ubuntu secara langsung sebagai sistem utama.
 
-
-
-
-- Jika Anda memiliki komputer dengan Windows yang sudah terinstal, Anda dapat menginstal Ubuntu bersamaan dengan Windows (*"dual boot "*), atau mengganti sistem yang ada saat ini. Jika Anda memilih *dual boot*, Anda dapat memilih sistem operasi mana yang akan dijalankan pada setiap kali boot. Ini adalah solusi pilihan jika Anda hanya ingin menguji Ubuntu sambil tetap memiliki akses ke Windows
-- Jika Anda memiliki mesin baru tanpa sistem operasi, Anda dapat menginstal Ubuntu secara langsung sebagai sistem utama
-
-
-
-Dalam semua kasus, proses instalasi mengikuti prinsip-prinsip teknis yang sama, yang akan kita temukan.
-
-
+Dalam semua kasus, proses instalasi mengikuti prinsip teknis yang sama, yang akan segera kita temukan.
 
 #### Unduh Ubuntu
 
-
-
 File instalasi Ubuntu hadir dalam bentuk image ISO, sebuah file yang berisi semua yang Anda perlukan untuk mem-boot dan menginstal sistem. Untuk mendapatkannya, [kunjungi situs web resminya](https://ubuntu.com/download/desktop).
-
-
 
 ![Image](assets/fr/060.webp)
 
-
-
 Ada 2 versi Ubuntu Desktop:
-
-
-
 
 - LTS (*Dukungan Jangka Panjang*)
 - Versi terbaru
 
+Perbedaan utama antara versi LTS (Long Term Support) dan versi non-LTS dari Ubuntu adalah durasi dukungan dan stabilitas. Versi LTS didukung selama lima tahun. Sebaliknya, versi non-LTS hanya didukung selama 9 bulan, jadi Anda perlu memperbarui sistem Anda secara rutin. Di sisi lain, versi non-LTS terbaru menyertakan semua fitur baru. Saya merekomendasikan versi LTS jika Anda baru memulai, karena lebih stabil dan membutuhkan lebih sedikit pembaruan besar. Namun, Anda bisa memilih versi non-LTS terbaru jika Anda mau: tidak akan berdampak pada program lainnya.
 
+Cukup klik pada tombol "*Download*" untuk mengunduh image ISO Ubuntu.
 
-Perbedaan utama antara versi LTS dan versi non-LTS dari Ubuntu adalah durasi dukungan dan stabilitas. Versi LTS didukung selama 5 tahun. Sebaliknya, versi non-LTS hanya didukung selama 9 bulan, jadi Anda perlu meng-upgrade sistem Anda secara teratur. Di sisi lain, versi non-LTS terbaru menyertakan semua fitur baru. Saya merekomendasikan versi LTS jika Anda baru memulai, karena lebih stabil dan membutuhkan lebih sedikit pembaruan besar. Namun, Anda bisa memilih versi non-LTS terbaru jika Anda mau: tidak akan berdampak pada program lainnya.
+#### Membuat Flash Drive USB yang Dapat Booting
 
+Untuk menginstal Ubuntu di komputer Anda, Anda perlu membuat file image ISO dapat di-boot dari sebuah flash drive USB. Flash drive ini akan berfungsi sebagai media instalasi.
 
-
-Cukup klik pada tombol "*Download*" untuk mengunduh citra ISO Ubuntu.
-
-
-
-#### Membuat kunci USB yang dapat di-boot
-
-
-
-Untuk menginstal Ubuntu di komputer Anda, Anda perlu membuat citra ISO yang dapat di-booting dari kunci USB. Kunci ini akan berfungsi sebagai media instalasi.
-
-
-
-Colokkan USB flash drive minimal 8 GB (hati-hati, isinya akan terhapus), kemudian gunakan alat seperti [BalenaEtcher] (https://www.balena.io/etcher) untuk membuat media yang dapat di-booting dari image ISO. Cukup pilih file ISO, kunci USB, dan klik "*Flash*".
-
-
+Pasang sebuah flash drive USB dengan kapasitas minimal 8 GB (hati-hati, isinya akan terhapus), lalu gunakan program seperti [BalenaEtcher](https://www.balena.io/etcher) untuk membuat media bootable dari image ISO tersebut. Cukup pilih file ISO, flash drive USB, lalu klik "*Flash*".
 
 ![Image](assets/fr/061.webp)
 
+#### Boot dari Flash Drive USB
 
+Sekarang, Anda perlu mem-boot komputer Anda bukan dari hard disk, melainkan dari flash drive USB. Mulailah dengan me-restart komputer Anda dan mengakses menu boot atau BIOS/UEFI. Ini biasanya dilakukan dengan menekan sebuah tombol tepat setelah komputer melakukan booting (biasanya `F2`, `F10`, `F12`, `DEL`, `ESC`). Pastikan untuk memeriksa cara mengakses menu ini pada komputer Anda.
 
-#### Boot dari kunci USB
-
-
-
-Sekarang Anda perlu mem-boot komputer Anda bukan dari disk Hard, tetapi dari kunci USB. Nyalakan kembali komputer Anda dan akses menu boot atau BIOS/UEFI. Hal ini biasanya dilakukan dengan menekan sebuah tombol sesaat setelah komputer melakukan booting (biasanya `F2`, `F10`, `F12`, `DEL`, `ESC`). Lihat cara mengakses menu ini pada mesin Anda.
-
-
-
-Pada menu boot, pilih kunci USB (mungkin akan muncul di bawah nama produsen kunci atau sebagai "USB"). Kemudian pilih "*Coba atau Instal Ubuntu*". Komputer kemudian akan boot ke Ubuntu dalam mode "live": ini memungkinkan Anda menguji sistem tanpa memodifikasi apa pun, atau meluncurkan penginstal secara langsung.
-
-
+Pada menu boot, pilih flash drive USB (mungkin muncul di bawah nama produsen flash drive atau sebagai "USB"). Kemudian pilih "_Coba atau Instal Ubuntu (Try or Install Ubuntu)_". Komputer akan mem-boot ke Ubuntu dalam mode "live": ini memungkinkan Anda menguji sistem tanpa memodifikasi apa pun, atau meluncurkan penginstal secara langsung.
 
 #### Pengaturan awal
 
-
-
 Penginstal akan menyarankan:
 
-
-
-
-- pilih bahasa dan zona waktu Anda
-- tersambung ke jaringan Wi-Fi
-- pilih jenis instalasi (default atau diperpanjang) tergantung pada apakah Anda menginginkan sistem minimal atau sistem dengan banyak aplikasi yang sudah terinstal sebelumnya
-- apakah akan menginstal perangkat lunak pihak ketiga (driver grafis, codec, dll.) atau tidak
-
-
+- Memilih bahasa dan zona waktu Anda.
+- Terhubung ke jaringan Wi-Fi.
+- Memilih jenis instalasi (standar atau tambahan) tergantung pada apakah Anda ingin sistem minimal atau sistem dengan banyak aplikasi yang sudah terinstal.
+- Memilih apakah akan menginstal perangkat lunak pihak ketiga (driver grafis, codec, dll) atau tidak.
 
 #### Pilih jenis instalasi
 
+Setelah Anda meluncurkan Ubuntu, wizard instalasi akan memandu Anda langkah demi langkah. Ikuti setiap langkah dan pilih opsi yang paling cocok untuk Anda. Langkah yang paling penting berkaitan dengan jenis instalasi. Tergantung pada situasi Anda, ada tiga kemungkinan kasus:
 
+1. **Instalasi bersama Windows (*dual boot*)**
+   
+Jika komputer Anda sudah berisi Windows, Ubuntu akan secara otomatis mendeteksi instalasi ini dan menyarankan pengaturan dual-boot untuk kedua sistem operasi tersebut:
+  - Penginstal akan mengecilkan partisi Windows untuk mengosongkan ruang.
+  - Ubuntu akan diinstal di ruang kosong ini, dengan partisinya sendiri.
+  - Pengelola boot (GRUB) akan diinstal, memungkinkan Anda memilih antara Windows dan Ubuntu setiap kali komputer booting.
 
-Setelah Anda meluncurkan Ubuntu, wizard instalasi akan memandu Anda langkah demi langkah. Ikuti setiap langkah dan pilih opsi yang paling sesuai untuk Anda. Langkah yang paling penting adalah menentukan jenis instalasi. Tergantung pada situasi Anda, ada tiga kemungkinan:
+Pilih opsi ini jika Anda ingin tetap menggunakan Windows untuk aplikasi perangkat lunak tertentu (misalnya, video game) sambil menjelajahi Linux.
 
+Untuk melakukan ini dengan benar, saya sarankan Anda membuat partisi yang belum dialokasikan terlebih dahulu pada disk pilihan Anda di Windows, lalu secara manual memilih partisi ini saat menginstal Ubuntu. Untuk melakukannya, buka Disk Manager di Windows, klik kanan pada disk yang dimaksud, dan pilih "*Reduce Volume*". Kemudian, tentukan ukuran yang ingin Anda cadangkan untuk Ubuntu (saya merekomendasikan minimal 80 GB untuk penggunaan yang nyaman).
 
-
-
-
-- Instalasi bersama Windows (*boot ganda*)**
-
-
-
-Jika komputer Anda sudah berisi Windows, Ubuntu akan secara otomatis mendeteksi instalasi ini dan menyarankan pengaturan dual-boot untuk 2 sistem operasi:
-
-
-
-
-- Penginstal akan mengurangi partisi Windows untuk mengosongkan ruang
-- Ubuntu akan terinstal di ruang kosong ini, dengan partisinya sendiri
-- Boot manager (GRUB) akan terinstal, sehingga Anda dapat memilih antara Windows dan Ubuntu setiap kali komputer melakukan booting
-
-
-
-Pilih opsi ini jika Anda ingin tetap menggunakan Windows untuk aplikasi perangkat lunak tertentu (misalnya video game) sambil mempelajari Linux.
-
-
-
-Untuk melakukan hal ini dengan benar, saya sarankan Anda untuk terlebih dahulu membuat partisi yang tidak terisi pada disk pilihan Anda di Windows, kemudian secara manual memilih partisi ini saat menginstal Ubuntu. Untuk melakukannya, buka Disk Manager di Windows, klik kanan pada disk yang dimaksud dan pilih "*Reduce Volume*". Kemudian tentukan ukuran yang Anda inginkan untuk cadangan Ubuntu (saya sarankan minimal 80 GB agar nyaman digunakan).
-
-
-
-
-
-- Penggantian Windows secara lengkap**
+- **Penggantian Windows secara lengkap**
 
 
 
@@ -1220,7 +950,11 @@ Jika Anda hanya ingin menggunakan Ubuntu, Anda dapat memilih untuk menghapus dis
 
 Pilih opsi ini hanya jika Anda ingin beralih 100% ke GNU/Linux. Ingatlah untuk mencadangkan data Windows Anda sebelum menghapusnya sepenuhnya.
 
+Jika Anda ingin menggunakan Ubuntu saja, Anda dapat memilih untuk menghapus disk sepenuhnya:
+- Opsi ini menghapus semua data yang ada, termasuk Windows.
+- Ubuntu kemudian akan menjadi satu-satunya sistem yang terinstal di mesin.
 
+Pilih opsi ini hanya jika Anda ingin beralih 100% ke GNU/Linux. Ingatlah untuk mencadangkan data Windows Anda sebelum menghapusnya sepenuhnya.
 
 
 

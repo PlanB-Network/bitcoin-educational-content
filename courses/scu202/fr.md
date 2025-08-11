@@ -17,7 +17,7 @@ L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’a
 
 Au fil des modules, vous découvrirez comment vérifier l’intégrité des logiciels que vous installez, chiffrer efficacement vos données, utiliser votre navigateur et votre téléphone avec un minimum de fuite de données, et renforcer la sécurité de votre réseau domestique.
 
-Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Don't Trust, Verify*".
+Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Ne fais pas confiance, vérifie*".
 
 +++
 
@@ -81,7 +81,7 @@ Pour clôturer ce cours, vous pourrez tenter d'avoir votre diplôme en passant l
 
 Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité en ligne ? Allons-y !
 
-*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
+*P.S. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
 
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
@@ -194,7 +194,7 @@ Selon les statistiques actuelles, Windows représente toujours la majorité des 
 
 - Enfin, cette hégémonie est également renforcée par l’image perçue des systèmes concurrents : Linux reste souvent considéré comme trop technique pour le grand public (et reste méconnu de la majorité), tandis que macOS, lié exclusivement aux produits Apple, est souvent perçu comme onéreux.
 
-macOS, quant à lui, se situe autour de 16 % de parts de marché et est généralement choisi pour son intégration optimale avec le matériel Apple. Le choix de ce système d’exploitation est d’ailleurs renforcé depuis quelques années par les performances des Mac, grâce à l’introduction des puces Apple Silicon. Ce tournant majeur a marqué l’abandon des processeurs Intel x86 au profit d’une architecture ARM, plus efficace en matière de performance et de consommation énergétique.
+MacOS, quant à lui, se situe autour de 16 % de parts de marché et est généralement choisi pour son intégration optimale avec le matériel Apple. Le choix de ce système d’exploitation est d’ailleurs renforcé depuis quelques années par les performances des Mac, grâce à l’introduction des puces Apple Silicon. Ce tournant majeur a marqué l’abandon des processeurs Intel x86 au profit d’une architecture ARM, plus efficace en matière de performance et de consommation énergétique.
 
 Linux reste minoritaire sur les ordinateurs personnels (environ 4 %), mais domine largement les serveurs (environ 63 %) et les supercalculateurs (100 %), grâce à sa stabilité et à ses performances.
 
@@ -222,15 +222,15 @@ Sur le plan de la sécurité, Windows est une cible privilégiée pour les logic
 
 ![Image](assets/fr/007.webp)
 
-Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen en tout, sans être véritablement mauvais dans aucun domaine (sauf la confidentialité, par défaut).
+Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen dans tous les domaines, sans être vraiment mauvais dans aucun (sauf en matière de confidentialité, par défaut).
 
 ![Image](assets/fr/006.webp)
 
 Dans une démarche de souveraineté numérique et de maîtrise technique, Windows montre rapidement ses limites. Son modèle repose sur une relation déséquilibrée entre l’utilisateur et l’éditeur, au profit de ce dernier. Pour ceux qui souhaitent comprendre, personnaliser et sécuriser en profondeur leur ordinateur, c'est un système d'exploitation peu adapté. C’est pourquoi nous ne nous attarderons pas davantage sur Windows dans SCU 202.
 
-### macOS : intégration et optimisation
+### MacOS : intégration et optimisation
 
-macOS est le système d’exploitation développé par Apple pour ses ordinateurs Mac. C'est un système héritier d’Unix, via le système NeXTSTEP, qui a été racheté par Apple en 1997. macOS repose sur un noyau appelé "*XNU*", qui combine des éléments de BSD (*Berkeley Software Distribution*) et un micro-noyau Mach.
+MacOS est le système d’exploitation développé par Apple pour ses ordinateurs Mac. C'est un système héritier d’Unix, via le système NeXTSTEP, qui a été racheté par Apple en 1997. MacOS repose sur un noyau appelé "*XNU*", qui combine des éléments de BSD (*Berkeley Software Distribution*) et un micro-noyau Mach.
 
 ![Image](assets/fr/008.webp)
 

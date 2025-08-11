@@ -422,6 +422,7 @@ Secondo Bastiat, la società, le persone e le proprietà esistono prima delle le
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 Il 24 febbraio 1848, dopo tre giorni di sommosse a Parigi, il re Luigi Filippo I abdicò al suo potere. Questo segnò la nascita della Seconda Repubblica.
+
 ![image](assets/en/052.webp)
 
 Bastiat si trovava a Parigi, testimone degli eventi in prima persona. Più tardi, avrebbe scritto:
@@ -443,17 +444,18 @@ Avevano infatti una definizione empirica della proprietà, "jus utendi et abuten
 
 > Pertanto, non dobbiamo sorprenderci, conclude Bastiat, di vedere l'idea romana che la proprietà sia un fatto convenzionale e di istituzione legale riemergere nel diciottesimo secolo; che, lungi dall'essere la Legge un corollario della Proprietà, è la Proprietà che è un corollario della Legge.
 
-Infatti, Rousseau condivide questa comune idea legale di basare la proprietà sulla legge. Rousseau attribuisce alla legge, e di conseguenza al popolo, potere assoluto sugli individui e sulle proprietà.
-
-E in questa concezione, che costituisce l'idea stessa della repubblica dalla Rivoluzione Francese, il legislatore deve organizzare la società, come un architetto sociale, come un meccanico che inventa una macchina da materia inerte, o come un vasaio che modella l'argilla. Il legislatore si pone così al di fuori dell'umanità, al di sopra di essa, per disporla a suo piacimento, secondo piani concepiti dalla sua luminosa intelligenza.
+Infatti, Rousseau condivide questa comune idea legale di basare la proprietà sulla legge. Rousseau attribuisce alla legge, e di conseguenza al popolo, potere assoluto sugli individui e sulle proprietà. E in questa concezione, che costituisce l'idea stessa della repubblica dalla Rivoluzione Francese, il legislatore deve organizzare la società, come un architetto sociale, come un meccanico che inventa una macchina da materia inerte, o come un vasaio che modella l'argilla. Il legislatore si pone così al di fuori dell'umanità, al di sopra di essa, per disporla a suo piacimento, secondo piani concepiti dalla sua luminosa intelligenza.
 
 ![image](assets/en/055.webp)
-Al contrario, per Bastiat, il diritto di proprietà è anteriore alla legge. Questo è ciò che egli chiama il principio degli economisti, in opposizione al principio dei giuristi. Mentre "il principio dei giuristi contiene virtualmente la schiavitù", dice Bastiat, "quello degli economisti contiene la libertà.
+
+Al contrario, per Bastiat, il diritto di proprietà è anteriore alla legge. Questo è ciò che egli chiama il principio degli economisti, in opposizione al principio dei giuristi. Mentre "il principio dei giuristi contiene virtualmente la schiavitù", dice Bastiat, "quello degli economisti contiene la libertà".
+
 Cos'è quindi la libertà? È la proprietà, il diritto di godere dei frutti del proprio lavoro, il diritto di lavorare, di svilupparsi, di esercitare le proprie facoltà, come si ritiene opportuno, senza che lo Stato intervenga altrimenti che con la sua azione protettiva.
 
 È triste pensare che la nostra filosofia sociale e politica sia rimasta bloccata sull'idea che la soluzione a tutti i nostri problemi dovesse venire dall'alto, dalla legge, dallo Stato. Ma questo è spiegabile. Queste idee vengono instillate ogni giorno nei giovani nelle scuole e nelle università, attraverso il monopolio dell'educazione.
 
 ![immagine](assets/en/056.webp)
+_un esempio di tale agente monopolistico potrebbe essere un'istituzione governativa_
 
 Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 

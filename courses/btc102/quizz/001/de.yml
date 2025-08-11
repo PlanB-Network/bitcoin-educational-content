@@ -3,7 +3,7 @@ answer: Überprüfen Sie die Identität des Absenders
 wrong_answers:
   - Klicken Sie nur auf Links, die Sie in der E-Mail erhalten haben
   - Teilen Sie Ihre privaten Schlüssel zur Bestätigung der Authentizität
-  - Verlassen Sie sich in E-Mails ausschließlich auf Logos und Bilder
+  - Verlassen Sie sich in E-Mails ausschliesslich auf Logos und Bilder
 explanation: |
-  Vergewissern Sie sich stets, dass Sie mit der richtigen Person kommunizieren, und verwenden Sie niemals in E-Mails enthaltene Links. Rufen Sie die Website stattdessen manuell auf, indem Sie Ihre Browser-Lesezeichen verwenden.
+  Vergewissern Sie sich stets, dass Sie mit der richtigen Person kommunizieren, und klicken Sie niemals auf die in E-Mails enthaltenen Links. Rufen Sie die Website stattdessen manuell auf, indem Sie Ihre Browser-Lesezeichen verwenden.
 reviewed: false

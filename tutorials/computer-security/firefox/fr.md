@@ -116,7 +116,16 @@ Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 Objectif: durcissement poussé avec compromis assumés. Recommandé sur un **profil séparé**.
 
-### about:config (barre d’adresse → `about:config`)
+Choisissez une seule des deux approches suivantes :
+
+**Approche A - Modifications manuelles** : Quelques ajustements ciblés via `about:config` (plus simple, contrôle précis)
+**Approche B - Arkenfox user.js** : Configuration complète automatisée (plus complexe, protection maximale)
+
+➡️ **Arkenfox inclut déjà TOUTES les modifications about:config mentionnées ci-dessous** + des centaines d'autres. Si vous choisissez Arkenfox, ignorez la section about:config.
+
+### Approche A : Modifications manuelles via about:config
+
+Tapez `about:config` dans la barre d'adresse → Accepter le risque.
 
 - Résistance au fingerprinting (héritée de Tor Browser)
 ```text
@@ -153,7 +162,7 @@ network.http.speculative-parallel-limit = 0
 
 Règle d’or: si quelque chose casse, revenez sur le dernier changement.
 
-### Arkenfox user.js
+### Approche B : Arkenfox user.js (Configuration complète automatisée)
 
 Le projet **Arkenfox** fournit un fichier `user.js` maintenu par la communauté qui applique automatiquement des centaines de préférences Firefox orientées confidentialité et sécurité. Au redémarrage, Firefox lit ce fichier présent dans votre profil et applique ces réglages.
 
@@ -236,23 +245,24 @@ Avec ces réglages par niveaux, **Firefox devient un allié discret**: pistage p
 
 ## Ressources
 
-Documentation Mozilla
-- Enhanced Tracking Protection: `https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop`
-- State Partitioning: `https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning`
-- MDN Web Security: `https://developer.mozilla.org/docs/Web/Security`
+### Documentation Mozilla
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Guide officiel de la protection renforcée contre le pistage
+- [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning) : Documentation technique sur le cloisonnement d'état
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Référence complète sur la sécurité web
 
-Arkenfox
-- Wiki et guide d’installation: `https://github.com/arkenfox/user.js/wiki`
-- Dépôt et releases: `https://github.com/arkenfox/user.js`
+### Arkenfox
+- [Wiki et guide d'installation](https://github.com/arkenfox/user.js/wiki) : Documentation complète du projet Arkenfox
+- [Dépôt et releases](https://github.com/arkenfox/user.js) : Téléchargement du fichier user.js et suivi des mises à jour
 
-Guides & communautés
-- PrivacyGuides (navigateurs desktop): `https://www.privacyguides.org/en/desktop-browsers/`
-- r/firefox, r/privacy, forum PrivacyGuides
+### Guides & communautés
+- [PrivacyGuides - Navigateurs desktop](https://www.privacyguides.org/en/desktop-browsers/) : Recommandations et comparatifs de navigateurs
+- **Reddit** : r/firefox, r/privacy pour retours d'expérience et entraide
+- **Forum PrivacyGuides** : Discussions techniques approfondies
 
-Outils de test
-- Cover Your Tracks (EFF): `https://coveryourtracks.eff.org/`
-- DNS Leak Test: `https://www.dnsleaktest.com/`
-- BrowserLeaks: `https://browserleaks.com/`
-- BadSSL: `https://badssl.com/`
-- CreepJS: `https://abrahamjuliot.github.io/creepjs/`
-- 1.1.1.1/help: `https://1.1.1.1/help`
+### Outils de test
+- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) : Test d'empreinte numérique et efficacité anti-pistage
+- [DNS Leak Test](https://www.dnsleaktest.com/) : Vérification des fuites DNS et efficacité DoH
+- [BrowserLeaks](https://browserleaks.com/) : Suite complète de tests (WebRTC, Canvas, Fonts, etc.)
+- [BadSSL](https://badssl.com/) : Tests de validation des certificats SSL/TLS
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/) : Analyse poussée de 50+ vecteurs de fingerprinting
+- [Cloudflare DNS Test](https://1.1.1.1/help) : Vérification du bon fonctionnement de DoH Cloudflare

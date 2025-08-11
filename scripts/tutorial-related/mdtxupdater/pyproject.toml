@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdtxupdater"
+version = "0.1"
+description = "Update localized Markdown files using JSON translations LLM with anchors and preview."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Loic" }]
+
+[project.scripts]
+mdtxupdater-gui = "mdtxupdater.gui:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -2655,7 +2655,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 
-Następnie notacja `/<0;1>/*` określa, że deskryptor może zawierać adresy generate z zewnętrznego łańcucha (`0`) i wewnętrznego łańcucha (`1`), z symbolem wieloznacznym (`*`) pozwalającym na sekwencyjne wyprowadzanie wielu adresów w konfigurowalny sposób, podobny do zarządzania "limitem luk" w tradycyjnym oprogramowaniu Wallet.
+Notacja `/<0;1>/*` wskazuje, że deskryptor może generować adresy zarówno z łańcucha zewnętrznego (`0`), jak i wewnętrznego (`1`). Symbol wieloznaczny (`*`) na końcu ścieżki oznacza, że z tej pozycji można sekwencyjnie wyprowadzać wszystkie nieutwardzone („*unhardened*”) klucze podrzędne, niezależnie od tego, czy są to adresy zewnętrzne czy wewnętrzne. Ta składnia nie implikuje bezpośrednio pojęcia *gap limit*, które należy do mechanizmu specyficznego dla portfeli w celu wykrywania adresów, ale służy tutaj jedynie do wskazania, że wszystkie możliwe pochodne w tym miejscu są brane pod uwagę.
 
 
 Wreszcie, `#jy0l7nr4` reprezentuje sumę kontrolną w celu weryfikacji integralności deskryptora.

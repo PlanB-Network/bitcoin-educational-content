@@ -2655,7 +2655,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 
-Vervolgens specificeert de notatie `/<0;1>/*` dat de descriptor generate adressen van de externe keten (`0`) en interne keten (`1`) kan gebruiken, met een jokerteken (`*`) dat de opeenvolgende afleiding van meerdere adressen op een configureerbare manier toestaat, vergelijkbaar met het beheren van een "gap limit" op traditionele Wallet software.
+De notatie `/<0;1>/*` geeft aan dat de descriptor adressen kan genereren uit zowel de externe keten (`0`) als de interne keten (`1`). Het jokerteken (`*`) aan het einde van het pad betekent dat vanaf deze positie alle niet-versterkte (“*unhardened*”) subkeys sequentieel kunnen worden afgeleid, of het nu gaat om externe of interne adressen. Deze syntaxis impliceert niet direct het concept van *gap limit*, dat onderdeel is van een wallets-specifiek mechanisme voor adresdetectie, maar dient hier alleen om aan te geven dat alle mogelijke afleidingen op deze locatie in aanmerking worden genomen.
 
 
 Tenslotte vertegenwoordigt `#jy0l7nr4` de controlesom om de integriteit van de descriptor te verifiëren.

@@ -2654,7 +2654,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 
-Zatim, notacija `/<0;1>/*` označava da deskriptor može generisati adrese iz spoljašnjeg lanca (`0`) i unutrašnjeg lanca (`1`), sa džoker znakom (`*`) koji omogućava sekvencijalnu derivaciju više adresa na konfigurisani način, slično upravljanju "gap limitom" na tradicionalnom novčanik softveru.
+Notacija `/<0;1>/*` označava da deskriptor može generisati adrese iz spoljnog lanca (`0`) i iz unutrašnjeg lanca (`1`). Džoker znak (`*`) na kraju putanje znači da se sa ove pozicije mogu sekvencijalno izvesti svi neojačani („*unhardened*“) podključevI, bilo da su to spoljne ili unutrašnje adrese. Ova sintaksa ne podrazumeva direktno pojam *gap limit*, koji pripada mehanizmu specifičnom za novčanike za detekciju adresa, već ovde služi samo da pokaže da se sve moguće derivacije na ovoj poziciji uzimaju u obzir.
 
 
 Konačno, `#jy0l7nr4` predstavlja kontrolni zbir za verifikaciju integriteta deskriptora.

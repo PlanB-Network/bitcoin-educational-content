@@ -936,170 +936,87 @@ Untuk melakukan ini dengan benar, saya sarankan Anda membuat partisi yang belum 
 
 - **Penggantian Windows secara lengkap**
 
-
-
-Jika Anda hanya ingin menggunakan Ubuntu, Anda dapat memilih untuk menghapus disk sepenuhnya:
-
-
-
-
-- Opsi ini menghapus semua data yang ada, termasuk Windows
-- Ubuntu kemudian akan menjadi satu-satunya sistem yang terinstal pada mesin
-
-
-
-Pilih opsi ini hanya jika Anda ingin beralih 100% ke GNU/Linux. Ingatlah untuk mencadangkan data Windows Anda sebelum menghapusnya sepenuhnya.
-
 Jika Anda ingin menggunakan Ubuntu saja, Anda dapat memilih untuk menghapus disk sepenuhnya:
 - Opsi ini menghapus semua data yang ada, termasuk Windows.
-- Ubuntu kemudian akan menjadi satu-satunya sistem yang terinstal di mesin.
+- Ubuntu kemudian akan menjadi satu-satunya sistem yang terinstal di komputer.
 
 Pilih opsi ini hanya jika Anda ingin beralih 100% ke GNU/Linux. Ingatlah untuk mencadangkan data Windows Anda sebelum menghapusnya sepenuhnya.
 
+- **Pemasangan pada komputer kosong**
 
+Jika komputer Anda sama sekali tidak berisi sistem, atau jika Anda telah menghapus disk sebelumnya, instalasi akan berjalan seperti kasus sebelumnya. Ubuntu akan menginstal dirinya sendiri sebagai sistem utama dan secara otomatis mengonfigurasi partisi yang diperlukan.
 
-- Pemasangan pada komputer kosong
-
-
-
-Jika komputer Anda tidak memiliki sistem sama sekali, atau jika Anda telah menghapus disk sebelumnya, instalasi dilanjutkan seperti pada kasus sebelumnya. Ubuntu akan menginstal sendiri sebagai sistem utama dan secara otomatis mengkonfigurasi partisi yang diperlukan.
-
-
-
-Anda kemudian akan diminta untuk membuat akun pengguna (nama, kata sandi, nama mesin). Pilih kata sandi yang kuat: kata sandi ini akan memungkinkan Anda untuk masuk ke sistem, menginstal perangkat lunak, atau mengubah pengaturan penting
-
-
+Anda kemudian akan diminta untuk menyiapkan akun pengguna (nama, kata sandi, nama komputer). Pilih kata sandi yang kuat: kata sandi itu akan memungkinkan Anda untuk masuk ke sistem, menginstal perangkat lunak, atau mengubah pengaturan penting.
 
 Untuk informasi lebih lanjut tentang penginstal Ubuntu, Anda juga dapat membaca tutorial ini:
 
-
-
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
-Setelah instalasi selesai, lepaskan kunci USB saat diminta, lalu boot ulang. Ubuntu sekarang akan terinstal dan siap digunakan di komputer Anda.
+Setelah instalasi selesai, lepaskan flash drive USB saat diminta, lalu reboot. Ubuntu kini akan terinstal dan siap digunakan di komputer Anda.
 
-
-
-Selamat, Anda sekarang memiliki sistem GNU/Linux yang lengkap!
-
-
+Selamat, kini Anda memiliki sistem GNU/Linux yang lengkap!
 
 ![Image](assets/fr/062.webp)
 
-
-
 ### Konfigurasi sistem awal
 
-
-
 Segera setelah wizard instalasi selesai, masuk dengan pengguna baru dan buka terminal:
-
-
 
 ```bash
 Ctrl+Alt+T
 ```
 
-
-
 ![Image](assets/fr/063.webp)
-
-
 
 #### Memperbarui
 
-
-
-Gambar ISO berisi paket beku beberapa minggu sebelum rilis, jadi selalu sinkronkan indeks dan terapkan patch terlebih dahulu:
-
-
+File ISO berisi paket-paket yang sudah terkunci beberapa minggu sebelum dirilis. Oleh karena itu, selalu sinkronkan indeks dan terapkan pembaruan terlebih dahulu.
 
 ```bash
 sudo apt update && sudo apt full-upgrade
 sudo apt autoremove --purge
 ```
 
-
-
-Perintah pertama memperbarui daftar paket lokal, mengunduh versi baru, dan menginstalnya; perintah kedua membersihkan semua dependensi yang tidak lagi diperlukan.
-
-
+Perintah pertama memperbarui daftar paket lokal, mengunduh versi baru, dan menginstalnya; perintah kedua membersihkan dependensi yang sudah tidak diperlukan.
 
 → Perintah `sudo` mengeksekusi tindakan dengan hak administrator dan meminta kata sandi Anda untuk mengonfirmasi.
 
-
-
 ![Image](assets/fr/064.webp)
 
-
-
 Anda kemudian dapat menghidupkan ulang komputer Anda:
-
-
 
 ```bash
 sudo reboot
 ```
 
-
-
 #### Repositori dan saluran perangkat lunak: memahami dari mana perangkat lunak berasal
 
-
-
-Di bawah Ubuntu, perangkat lunak diinstal dan diperbarui melalui sistem repositori resmi. Repositori adalah sebuah server yang berisi ribuan paket perangkat lunak (program, pustaka, driver...), semuanya diatur menurut aturan yang tepat. Paket-paket ini diverifikasi, ditandatangani, dan didistribusikan secara otomatis melalui manajer paket `apt`.
-
-
+Di Ubuntu, perangkat lunak diinstal dan diperbarui melalui sistem repositori resmi. Repositori adalah server yang berisi ribuan paket perangkat lunak (program, library, driver, dll.), semuanya diatur sesuai dengan aturan yang tepat. Paket-paket ini diverifikasi, ditandatangani, dan didistribusikan secara otomatis melalui manajer paket `apt`.
 
 Setiap repositori dibagi menjadi beberapa bagian. Secara default, Ubuntu mengaktifkan empat bagian utama:
+- **main**: free software yang secara resmi dikelola oleh Canonical. Contoh: Firefox, LibreOffice, bash
+- **restricted**: non-free software yang penting agar perangkat keras dapat berfungsi dengan baik. Contoh: Driver NVIDIA, firmware Wi-Fi, codec eksklusif
+- **semesta**: free software yang dikelola oleh komunitas. Contoh: GIMP, Inkscape, Audacity
+- **multiverse**: perangkat lunak yang tunduk pada batasan hukum (paten, lisensi tidak bebas). Ketersediaannya mungkin berbeda di setiap negara. Contoh: codec audio/video tertentu, Steam
 
-
-
-
-- main**: perangkat lunak bebas yang secara resmi dikelola oleh Canonical. Contoh: Firefox, LibreOffice, bash
-- dibatasi**: perangkat lunak tidak bebas yang penting agar perangkat keras dapat berfungsi dengan baik. Contoh: Driver NVIDIA, firmware Wi-Fi, codec eksklusif
-- semesta**: perangkat lunak bebas yang dikelola oleh komunitas. Contoh: GIMP, Inkscape, Audacity
-- multiverse**: perangkat lunak yang tunduk pada pembatasan hukum (paten, lisensi tidak bebas). Ketersediaannya mungkin berbeda di setiap negara. Contoh: codec audio/video tertentu, Steam
-
-
-
-Setiap komponen kemudian dapat dipecah menjadi beberapa saluran atau cabang: `rilis`, `keamanan`, `pembaruan`, `pendukung`, dan lain-lain, sesuai dengan sifat pembaruan.
-
+Setiap komponen kemudian dapat dipecah menjadi beberapa saluran atau cabang: `rilis`, `keamanan`, `pembaruan`, `pendukung`, dll, yang sesuai dengan sifat pembaruannya.
 
 
 ### Langkah pertama pada baris perintah
 
+Meskipun Interface grafis membuat penggunaan Ubuntu menjadi intuitif, untuk tugas-tugas administrasi tertentu, terminal tetap menjadi program yang paling efisien dan kuat. Di Ubuntu, shell bawaannya adalah **Bash** (*Bourne Again SHell*), sebuah free shell lanjutan dari Unix.
 
-
-Interface grafis membuat penggunaan Ubuntu menjadi intuitif, tetapi untuk tugas-tugas administrasi tertentu, terminal tetap merupakan alat yang paling efisien dan kuat. Pada Ubuntu, shell defaultnya adalah **Bash** (*Bourne Again SHell*), sebuah shell gratis dari tradisi Unix.
-
-
-
-Dengan menggunakan terminal, Anda dapat memanipulasi file secara langsung, mengonfigurasi sistem secara tepat, mengelola paket, mengotomatisasi tugas, atau mendiagnosis masalah. Berikut ini adalah pilihan perintah penting yang Anda perlukan untuk memulai.
-
-
-
-
+Menggunakan terminal memungkinkan Anda untuk memanipulasi file secara langsung, mengonfigurasi sistem dengan tepat, mengelola paket, mengotomatisasi tugas, atau mendiagnosis masalah. Berikut adalah pilihan perintah-perintah penting yang Anda butuhkan untuk memulai.
 
 - Tampilkan direktori saat ini:
-
-
 
 ```bash
 pwd
 ```
 
-
-
-Perintah ini menampilkan jalur absolut direktori tempat Anda berada saat ini. Sangat berguna jika Anda ingin melacak lokasi Anda dalam pohon direktori.
-
-
+Perintah ini menampilkan jalur tetap dari direktori tempat Anda berada saat ini. Perintah ini sangat berguna jika Anda ingin terus melacak lokasi Anda dalam struktur direktori.
 
 ![Image](assets/fr/065.webp)
-
-
-
-
 
 - Membuat daftar isi direktori
 

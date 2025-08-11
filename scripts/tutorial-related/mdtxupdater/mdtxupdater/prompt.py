@@ -19,20 +19,20 @@ ORDERED_CODES: List[str] = [
 ]
 
 
-def generate_llm_prompt(source_lang: str) -> str:
+def generate_llm_prompt(source_lang: str, original_text: str) -> str:
     """
-    Generate an English prompt instructing a professional translation into all
-    supported languages, with strict formatting and JSON output.
-    The source language phrase is adapted based on `source_lang`.
+    Build an English prompt for translating the provided `original_text` from `source_lang`
+    into all supported target languages, with strict formatting rules and JSON-only output.
     """
     src_name = SOURCE_LANG_NAMES_EN.get(source_lang, "French")
-    # Build the LANGUAGES section
+
+    # Build the LANGUAGES section (human-readable list)
     lang_lines = []
     for code in ORDERED_CODES:
         name = LANGUAGE_NAMES_EN.get(code, code)
         lang_lines.append(f"- {code} : {name}")
 
-    # Build the JSON skeleton
+    # Build the JSON skeleton (to shape the model's response)
     json_lines = []
     json_lines.append('{')
     json_lines.append('  "source_text": "[original source text]",')
@@ -45,6 +45,7 @@ def generate_llm_prompt(source_lang: str) -> str:
     json_lines.append('}')
     json_block = "\n".join(json_lines)
 
+    # Note: double braces to keep {{ }} literal in f-string
     prompt = f"""You are a professional translator. I will provide you with a text in {src_name} that you must translate into ALL the languages listed below.
 
 CRITICAL INSTRUCTIONS:
@@ -67,6 +68,6 @@ Return ONLY a valid JSON:
 {json_block}
 
 TEXT TO TRANSLATE:
-[PASTE YOUR TEXT HERE]
+{original_text}
 """
     return prompt

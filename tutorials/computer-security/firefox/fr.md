@@ -280,9 +280,13 @@ Bonnes pratiques
 - Trop modifier peut vous rendre **unique**. **RFP** standardise; des outils de randomisation (ex. Chameleon) peuvent… vous distinguer. Testez, comparez, ajustez.
 - Alternatives/compléments: 
 	- **Tor Browser : anonymat réseau via Tor; plus lent. Consultez notre guide complet pour l'installation et la configuration** :
+
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 	- **Mullvad Browser : « Tor sans Tor », à combiner avec VPN; empreinte standardisée. Découvrez son installation dans notre tutoriel dédié** : 
+
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+
 - Combinaisons conseillées: Firefox (Niveau 2) + VPN au quotidien; Tor/Mullvad pour activités sensibles; profils séparés pour compartimenter.
 
 ## Conclusion

@@ -2,7 +2,7 @@
 term: ADDRESS REUSE
 ---
 
-Address reuse refers to the practice of using the same receiving address to lock multiple UTXOs, sometimes across different transactions. Bitcoins are typically locked using a cryptographic key pair corresponding to a unique address. Since the blockchain is public, it is easy to see which addresses are associated with how many bitcoins. If the same address is reused for multiple payments, one can reasonably assume that all associated UTXOs belong to the same entity. This presents a privacy issue, as it allows deterministic links to be made between multiple transactions and UTXOs, enabling on-chain fund tracing. Satoshi Nakamoto already mentioned this problem in the Bitcoin White Paper:
+Address reuse refers to the practice of using the same receiving address to lock multiple UTXOs, sometimes across different transactions. Bitcoins are typically locked using a cryptographic key pair corresponding to a unique address. Since the blockchain is public, it is easy to see which addresses are associated with how many bitcoins. If the same address is reused for multiple payments, one can reasonably assume that all associated UTXOs belong to the same entity. This fact presents a privacy issue, as it allows deterministic links to be made between multiple transactions and UTXOs, enabling on-chain fund tracing. Satoshi Nakamoto already mentioned this problem in the Bitcoin White Paper:
 
 > "*As an additional firewall, a new pair of keys could be used for each transaction to keep them from being linked to a common owner.*" - Nakamoto, S. (2008). "Bitcoin: A Peer-to-Peer Electronic Cash System". Consulted at https://bitcoin.org/bitcoin.pdf.
 

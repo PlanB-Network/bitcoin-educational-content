@@ -14,9 +14,10 @@ class App(tk.Tk):
     Includes:
       - Source paragraph input used directly in the LLM prompt.
       - "Copy LLM Prompt" button: copies prompt to clipboard (no popup window).
-      - Smaller JSON box, larger Log box (standard layout, no colored frame).
+      - Smaller JSON box, larger Log box (standard layout).
       - Clearer instructions for the paragraph number field.
       - Run Update button styled in red with hover effect.
+      - Preview language selector (choose which .md file to preview on).
     """
 
     def __init__(self) -> None:
@@ -24,10 +25,12 @@ class App(tk.Tk):
         self.title("Polyglotter")
         self.geometry("960x720")
         self.minsize(900, 680)
+        # Fullscreen/zoom on start (Windows zoomed, okay cross-platform)
         self.after(0, lambda: self.state('zoomed'))
 
         self.engine = MarkdownTranslationUpdater()
-        self.files_map = {}
+        self.files_map = {}            # languages to update (limited set)
+        self.preview_files_map = {}    # all *.md files detected for preview
 
         self._build_widgets()
 
@@ -50,13 +53,16 @@ class App(tk.Tk):
             text="  Reference language (used for preview & source label):"
         ).pack(side="left", padx=(12, 4))
         self.ref_lang_var = tk.StringVar(value="en")
-        ttk.Combobox(
+        self.ref_lang_combo = ttk.Combobox(
             top,
             textvariable=self.ref_lang_var,
             values=self.engine.REF_LANG_CHOICES,
             state="readonly",
             width=6,
-        ).pack(side="left")
+        )
+        self.ref_lang_combo.pack(side="left")
+        # When reference language changes, refresh preview language choices
+        self.ref_lang_combo.bind("<<ComboboxSelected>>", lambda e: self._refresh_preview_langs())
 
         # Mode + paragraph
         mode_frame = ttk.Frame(self)
@@ -67,7 +73,6 @@ class App(tk.Tk):
         ttk.Radiobutton(mode_frame, text="Replace", variable=self.mode_var, value="replace").pack(side="left")
         ttk.Radiobutton(mode_frame, text="Append", variable=self.mode_var, value="append").pack(side="left", padx=(4, 0))
 
-        # Clear instructions for the paragraph number
         ttk.Label(
             mode_frame,
             text="  Paragraph number (count non-empty lines INSIDE the bounded section; 1 = first non-empty line):"
@@ -104,10 +109,23 @@ class App(tk.Tk):
         self.json_txt = tk.Text(json_frame, height=5, wrap="word")
         self.json_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
-        # Buttons row
+        # Buttons + Preview language selector
         btns = ttk.Frame(self)
         btns.pack(fill="x", **pad)
         ttk.Button(btns, text="Load files", command=self._load_files).pack(side="left")
+
+        # Preview language selector (populated after loading files)
+        ttk.Label(btns, text="  Preview on:").pack(side="left", padx=(10, 4))
+        self.preview_lang_var = tk.StringVar(value="")
+        self.preview_lang_combo = ttk.Combobox(
+            btns,
+            textvariable=self.preview_lang_var,
+            values=[],  # will be filled after loading files
+            state="readonly",
+            width=8,
+        )
+        self.preview_lang_combo.pack(side="left")
+
         ttk.Button(btns, text="Preview", command=self._preview).pack(side="left", padx=4)
         ttk.Button(btns, text="Copy LLM Prompt", command=self._copy_prompt).pack(side="left", padx=4)
 
@@ -128,18 +146,15 @@ class App(tk.Tk):
             pady=6,
         )
         self.run_btn.pack(side="left", padx=4)
-
         # Hover effect for the red button
         self.run_btn_default_bg = "#D32F2F"
         self.run_btn_hover_bg = "#C62828"
         self.run_btn.bind("<Enter>", lambda e: self.run_btn.configure(bg=self.run_btn_hover_bg))
         self.run_btn.bind("<Leave>", lambda e: self.run_btn.configure(bg=self.run_btn_default_bg))
 
-        # Log area (standard look, no colored frame)
+        # Log area
         log_frame = ttk.LabelFrame(self, text="Log")
         log_frame.pack(fill="both", expand=True, **pad)
-
-        # Larger log box to use the space gained by shrinking the JSON box
         self.log_txt = tk.Text(log_frame, height=14, wrap="word", state="disabled")
         self.log_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
@@ -152,30 +167,104 @@ class App(tk.Tk):
         if d:
             self.dir_var.set(d)
 
+    def _scan_preview_files(self, directory: str) -> dict:
+        """
+        Scan all *.md files in directory for preview purposes.
+        Returns {lang_code: absolute_path}. The lang code is the file stem.
+        """
+        out = {}
+        p = Path(directory)
+        if not p.exists():
+            return out
+        for md in p.glob("*.md"):
+            out[md.stem] = str(md)
+        return out
+
+    def _refresh_preview_langs(self) -> None:
+        """
+        Rebuild preview language list from all *.md files, excluding the selected reference language.
+        Default selection: 'en' (if available and != ref), else 'fr' (if available and != ref), else first available.
+        """
+        directory = self.dir_var.get().strip()
+        if not directory:
+            return
+
+        # Preserve current selection if possible
+        previous = self.preview_lang_var.get()
+
+        # Re-scan all md files for preview map
+        self.preview_files_map = self._scan_preview_files(directory)
+
+        # Build choices excluding the reference language
+        ref_lang = self.ref_lang_var.get().strip()
+        choices = [c for c in sorted(self.preview_files_map.keys()) if c != ref_lang]
+
+        # Choose default
+        default = ""
+        if "en" in choices and ref_lang != "en":
+            default = "en"
+        elif "fr" in choices and ref_lang != "fr":
+            default = "fr"
+        elif choices:
+            default = choices[0]
+
+        # If previous selection is still valid, keep it; else apply default
+        sel = previous if previous in choices else default
+
+        # Update UI
+        self.preview_lang_combo.configure(values=choices)
+        if sel:
+            self.preview_lang_var.set(sel)
+        elif choices:
+            self.preview_lang_var.set(choices[0])
+        else:
+            self.preview_lang_var.set("")
+
     def _load_files(self) -> None:
         try:
-            self.files_map = self.engine.find_markdown_files(self.dir_var.get().strip())
+            directory = self.dir_var.get().strip()
+            self.files_map = self.engine.find_markdown_files(directory)
             self._log(f"Found {len(self.files_map)} translation files.")
+            # Refresh preview choices now that a folder is known
+            self._refresh_preview_langs()
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
     def _preview(self) -> None:
+        # Ensure files are loaded
         if not self.files_map:
             self._load_files()
             if not self.files_map:
                 return
+
+        # Ensure preview list is ready
+        if not self.preview_files_map:
+            self._refresh_preview_langs()
+            if not self.preview_files_map:
+                messagebox.showwarning("Preview", "No Markdown files found for preview.")
+                return
+
+        # Determine which file to preview on
+        sel_lang = self.preview_lang_var.get().strip()
+        ref_path = None
+        if sel_lang and sel_lang in self.preview_files_map:
+            ref_path = self.preview_files_map[sel_lang]
+        else:
+            # Fallback to engine's pick (rare)
+            ref_path = self.engine.pick_reference_file(self.preview_files_map, self.ref_lang_var.get())
+
         try:
-            ref_file = self.engine.pick_reference_file(self.files_map, self.ref_lang_var.get())
             insert_mode = (self.mode_var.get() == "append")
             paragraph_num = int(self.par_num.get())
             lower_raw = self.lower_txt.get("1.0", "end").strip()
             upper_raw = self.upper_txt.get("1.0", "end").strip()
-            a, b = self.engine.preview_context(ref_file, lower_raw, upper_raw, paragraph_num, insert_mode)
+
+            a, b = self.engine.preview_context(ref_path, lower_raw, upper_raw, paragraph_num, insert_mode)
             if insert_mode:
-                self._log("Preview (APPEND):\n- Above: " + a + "\n- Below: " + b)
+                self._log(f"Preview on {Path(ref_path).name} (APPEND):\n- Above: {a}\n- Below: {b}")
             else:
-                self._log("Preview (REPLACE):\n- Start: " + a + "\n- End: " + b)
-            messagebox.showinfo("Preview", "Check the Log panel for preview context.")
+                self._log(f"Preview on {Path(ref_path).name} (REPLACE):\n- Start: {a}\n- End: {b}")
+            messagebox.showinfo("Preview", f"Preview computed on {Path(ref_path).name}. Check the Log panel.")
         except Exception as e:
             messagebox.showerror("Preview error", str(e))
 
@@ -190,8 +279,7 @@ class App(tk.Tk):
         try:
             self.clipboard_clear()
             self.clipboard_append(prompt)
-            # Ensure clipboard is populated even if the app closes quickly
-            self.update()
+            self.update()  # ensure clipboard is populated
             self._log("LLM prompt copied to clipboard.")
             messagebox.showinfo("Copied", "LLM prompt has been copied to your clipboard.")
         except Exception as e:

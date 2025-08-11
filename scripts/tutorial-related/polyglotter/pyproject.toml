@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mdtxupdater"
+name = "polyglotter"
 version = "0.1"
 description = "Update localized Markdown files using JSON translations LLM with anchors and preview."
 readme = "README.md"

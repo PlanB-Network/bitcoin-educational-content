@@ -1,4 +1,4 @@
-# Markdown Translation Updater
+# Polyglotter
 
 This Python app with a GUI allows you to modify or add paragraphs in all translations of a specific piece of content (course or tutorial) in a markdown file, based on a source language that has been updated, using a translation JSON in conjunction with an LLM:
 * flexible bounds to locate the paragraph (START/END, `.webp` image, `<chapterId>…</chapterId>` tag, code block),

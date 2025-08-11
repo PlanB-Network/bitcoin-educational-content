@@ -10,7 +10,7 @@ SRC_DIR = os.path.join(BASE_DIR, "src")
 if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
-from mdtxupdater.gui import main  # or from md_i18n_updater.gui import main if you renamed the package
+from mdtxupdater.gui import main
 
 if __name__ == "__main__":
     main()

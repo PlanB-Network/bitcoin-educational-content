@@ -1,6 +1,6 @@
 ---
 name: Firefox
-description: Comment configurer Firefox pour protéger sa vie privée
+description: Comment configurer Firefox pour protéger sa vie privée ?
 ---
 
 ![cover](assets/cover.webp)

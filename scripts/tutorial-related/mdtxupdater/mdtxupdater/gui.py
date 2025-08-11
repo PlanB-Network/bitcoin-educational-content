@@ -10,9 +10,13 @@ from mdtxupdater.prompt import generate_llm_prompt
 
 class App(tk.Tk):
     """
-    Minimal cross-platform GUI using Tkinter (no external dependencies).
-    Provides fields for all inputs, a preview action, LLM prompt generation,
-    and update execution with a simple log area.
+    Minimal cross-platform GUI using Tkinter (no external deps).
+    Now includes:
+      - Source paragraph input used directly in the LLM prompt.
+      - "Copy LLM Prompt" button: copies prompt to clipboard (no popup window).
+      - Smaller JSON box, larger Log box, highlighted Log frame.
+      - Clearer instructions for the paragraph number field.
+      - Highlighted "Run Update" button.
     """
 
     def __init__(self) -> None:
@@ -24,9 +28,29 @@ class App(tk.Tk):
         self.engine = MarkdownTranslationUpdater()
         self.files_map = {}
 
+        # Basic accent style for the Run button (best effort across themes)
+        self._init_styles()
+
         self._build_widgets()
 
     # ---------------------------- UI Building -----------------------------
+
+    def _init_styles(self) -> None:
+        """Define a simple accent style for emphasis."""
+        try:
+            style = ttk.Style(self)
+            # Do not force a theme; configure a custom style instead.
+            style.configure("Accent.TButton", foreground="white")
+            style.map(
+                "Accent.TButton",
+                background=[
+                    ("!disabled", "#1E88E5"),  # blue
+                    ("active", "#1976D2"),
+                    ("pressed", "#1565C0"),
+                ],
+            )
+        except tk.TclError:
+            pass  # Fallback silently if theme does not allow styling
 
     def _build_widgets(self) -> None:
         pad = {"padx": 8, "pady": 6}
@@ -40,7 +64,7 @@ class App(tk.Tk):
         ttk.Entry(top, textvariable=self.dir_var, width=70).pack(side="left", padx=6)
         ttk.Button(top, text="Browse…", command=self._choose_dir).pack(side="left")
 
-        ttk.Label(top, text="  Reference language:").pack(side="left", padx=(12, 4))
+        ttk.Label(top, text="  Reference language (used for preview & source label):").pack(side="left", padx=(12, 4))
         self.ref_lang_var = tk.StringVar(value="en")
         ttk.Combobox(
             top,
@@ -59,7 +83,11 @@ class App(tk.Tk):
         ttk.Radiobutton(mode_frame, text="Replace", variable=self.mode_var, value="replace").pack(side="left")
         ttk.Radiobutton(mode_frame, text="Append", variable=self.mode_var, value="append").pack(side="left", padx=(4, 0))
 
-        ttk.Label(mode_frame, text="  Paragraph number:").pack(side="left", padx=(12, 4))
+        # Clearer instructions for the paragraph number
+        ttk.Label(
+            mode_frame,
+            text="  Paragraph number (count non-empty lines INSIDE the bounded section; 1 = first non-empty line):"
+        ).pack(side="left", padx=(12, 4))
         self.par_num = tk.Spinbox(mode_frame, from_=1, to=9999, width=6)
         self.par_num.pack(side="left")
 
@@ -77,10 +105,16 @@ class App(tk.Tk):
         self.lower_txt.pack(fill="both", expand=True, padx=6, pady=6)
         self.upper_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
-        # JSON area
+        # Source paragraph used in the LLM prompt
+        src_frame = ttk.LabelFrame(self, text="Original paragraph to translate (this exact text will be placed in the LLM prompt)")
+        src_frame.pack(fill="both", expand=False, **pad)
+        self.src_paragraph_txt = tk.Text(src_frame, height=6, wrap="word")
+        self.src_paragraph_txt.pack(fill="both", expand=True, padx=6, pady=6)
+
+        # JSON area (reduced height ~60%)
         json_frame = ttk.LabelFrame(self, text="Translations JSON (must contain 'translations')")
-        json_frame.pack(fill="both", expand=True, **pad)
-        self.json_txt = tk.Text(json_frame, height=12, wrap="word")
+        json_frame.pack(fill="both", expand=False, **pad)
+        self.json_txt = tk.Text(json_frame, height=5, wrap="word")
         self.json_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
         # Buttons
@@ -88,13 +122,17 @@ class App(tk.Tk):
         btns.pack(fill="x", **pad)
         ttk.Button(btns, text="Load files", command=self._load_files).pack(side="left")
         ttk.Button(btns, text="Preview", command=self._preview).pack(side="left", padx=4)
-        ttk.Button(btns, text="Generate LLM Prompt", command=self._generate_prompt).pack(side="left", padx=4)
-        ttk.Button(btns, text="Run Update", command=self._run_update).pack(side="left", padx=4)
+        ttk.Button(btns, text="Copy LLM Prompt", command=self._copy_prompt).pack(side="left", padx=4)
+        ttk.Button(btns, text="Run Update", command=self._run_update, style="Accent.TButton").pack(side="left", padx=4)
 
-        # Log area
-        log_frame = ttk.LabelFrame(self, text="Log")
-        log_frame.pack(fill="both", expand=True, **pad)
-        self.log_txt = tk.Text(log_frame, height=10, wrap="word", state="disabled")
+        # Highlighted Log area: colored outer frame working as a border
+        log_outer = tk.Frame(self, background="#FFD166")  # amber-like accent
+        log_outer.pack(fill="both", expand=True, padx=8, pady=(0, 8))
+        log_frame = ttk.LabelFrame(log_outer, text="Log")
+        log_frame.pack(fill="both", expand=True, padx=3, pady=3)
+
+        # Larger log box to use the space gained by shrinking the JSON box
+        self.log_txt = tk.Text(log_frame, height=14, wrap="word", state="disabled")
         self.log_txt.pack(fill="both", expand=True, padx=6, pady=6)
 
         self._log("Ready.")
@@ -133,16 +171,23 @@ class App(tk.Tk):
         except Exception as e:
             messagebox.showerror("Preview error", str(e))
 
-    def _generate_prompt(self) -> None:
-        src = self.ref_lang_var.get()
-        prompt = generate_llm_prompt(src)
-        # Show in a separate window for easy copy
-        win = tk.Toplevel(self)
-        win.title("LLM Prompt (copy & paste)")
-        win.geometry("800x600")
-        txt = tk.Text(win, wrap="word")
-        txt.pack(fill="both", expand=True)
-        txt.insert("1.0", prompt)
+    def _copy_prompt(self) -> None:
+        """Build and copy the LLM prompt directly to clipboard."""
+        src_lang = self.ref_lang_var.get()
+        original = self.src_paragraph_txt.get("1.0", "end").strip()
+        if not original:
+            messagebox.showwarning("Missing text", "Please paste the original paragraph to translate.")
+            return
+        prompt = generate_llm_prompt(src_lang, original)
+        try:
+            self.clipboard_clear()
+            self.clipboard_append(prompt)
+            # Ensure clipboard is populated even if the app closes quickly
+            self.update()
+            self._log("LLM prompt copied to clipboard.")
+            messagebox.showinfo("Copied", "LLM prompt has been copied to your clipboard.")
+        except Exception as e:
+            messagebox.showerror("Clipboard error", str(e))
 
     def _run_update(self) -> None:
         if not self.files_map:

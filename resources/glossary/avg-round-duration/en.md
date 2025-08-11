@@ -14,5 +14,5 @@ Assuming that, on average, it takes 1 million shares to find a valid block, the 
 1,000,000 / 800 = 1,250
 ```
 
-This means that, on average, the pool is expected to find one block every 21 minutes. This indicator fluctuates depending on changes in the pool's hashrate: a hashrate increase reduces the *Avg. Round Duration*, while a decrease extends it. It will also fluctuate with each periodic adjustment of the Bitcoin difficulty target (every 2016 blocks). This measureonly reflects the internal performance of the specific pool and does not account for blocks found by other pools.
+It means that, on average, the pool is expected to find one block every 21 minutes. This indicator fluctuates depending on changes in the pool's hashrate: a hashrate increase reduces the *Avg. Round Duration*, while a decrease extends it. It will also fluctuate with each periodic adjustment of the Bitcoin difficulty target (every 2016 blocks). This measure only reflects the internal performance of the specific pool and does not account for blocks found by other pools.
 

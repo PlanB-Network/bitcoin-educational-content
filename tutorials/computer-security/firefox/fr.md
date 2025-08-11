@@ -9,6 +9,8 @@ description: Comment configurer Firefox pour protéger sa vie privée
 
 On passe tous des heures en ligne, souvent sans se rendre compte de ce que notre navigateur révèle sur nous. Bonne nouvelle: avec quelques réglages bien choisis, **Firefox** peut devenir un compagnon discret, efficace et agréable au quotidien. Ce guide vous accompagne pas à pas, du plus simple au plus avancé, pour trouver **votre** équilibre entre confort et confidentialité.
 
+![Statistiques navigateurs 2024](assets/fr/01.webp)
+
 - **Pas de recette universelle**: plus vous modifiez, plus vous risquez de vous démarquer (fingerprinting). L’objectif est d’être mieux protégé sans sortir de la foule.
 - **Allez-y par étapes**: changez un réglage, testez 1–2 sites que vous utilisez souvent, puis continuez.
 - Pourquoi Firefox? Libre et open‑source (moteur Gecko), développé par une **organisation à but non lucratif**. Protections natives: **Enhanced Tracking Protection (ETP)**, **Total Cookie Protection (TCP)**, **State Partitioning**, **HTTPS‑only**, **DoH**.
@@ -21,16 +23,22 @@ On passe tous des heures en ligne, souvent sans se rendre compte de ce que notre
 
 ## Installation rapide
 
-- **Windows**: téléchargez depuis `https://www.mozilla.org` (ou Microsoft Store), lancez l’installeur.
-- **macOS**: ouvrez le `.dmg` et glissez l’app dans Applications.
+![Téléchargement Firefox](assets/fr/02.webp)
+
+- **Windows**: téléchargez depuis `https://www.mozilla.org` (ou Microsoft Store), lancez l'installeur.
+- **macOS**: ouvrez le `.dmg` et glissez l'app dans Applications.
 - **Linux**: via gestionnaire de paquets (apt, dnf, pacman), Flatpak (Flathub) ou Snap. Préférez les sources officielles.
 - Astuce: Aide → **À propos de Firefox** pour vérifier les mises à jour (correctifs sécurité et privacy).
+
+![Configuration initiale Firefox](assets/fr/03.webp)
 
 ---
 
 ## Niveau 1 — Essentiel (≤ 10 minutes)
 
 Objectif: gros gain de confidentialité sans casser le web. Pour 90% des utilisateurs.
+
+![Page d'accueil Firefox](assets/fr/05.webp)
 
 **Protection contre le pistage (ETP)**
 - Passez **ETP** en **Strict**. Vous bloquez davantage de traqueurs (cookies inter‑sites, fingerprinting, cryptomineurs, widgets sociaux…).
@@ -46,9 +54,13 @@ Voici les différents niveau de sécurité ETP :
 - **Personnalisée** (avancé)
   - Choix fin: cookies, contenu de pistage, mineurs, fingerprinting (connu/suspect).
 
+![Paramètres protection contre le pistage](assets/fr/06.webp)
+
 **Cookies et données de site**
 - Activez **« Supprimer les cookies et données des sites à la fermeture »** pour repartir proprement à chaque redémarrage.
 - Ajoutez des **Exceptions** pour 2–3 sites indispensables (messagerie, banque).
+
+![Paramètres cookies et mots de passe](assets/fr/08.webp)
 
 **HTTPS uniquement**
 - Activez **« Mode HTTPS uniquement dans toutes les fenêtres »**.
@@ -64,11 +76,15 @@ Voici les différents niveau de sécurité ETP :
 - **Barre d’adresse**: coupez **« Suggestions sponsorisées »** et **« Suggestions contextuelles »**.
 - **Accueil**: désactivez **Pocket** et le **contenu sponsorisé**.
 
+![Paramètres généraux](assets/fr/07.webp)
+
 **Global Privacy Control (optionnel)**
 - Activez le **GPC** pour signaler votre refus de vente/partage de données.
 
 **Moteur de recherche**
 - Passez à **DuckDuckGo**, **Startpage**, **Qwant** ou **Brave Search** (Paramètres → Recherche).
+
+![Configuration moteur de recherche DuckDuckGo](assets/fr/11.webp)
 
 **Navigation privée**
 - Fenêtres privées (Ctrl/Cmd+Maj+P) pour des sessions ponctuelles (cadeaux, comptes secondaires…). Évitez le mode « toujours privé »: extensions parfois inactives et exceptions cookies moins utiles.
@@ -79,6 +95,8 @@ Voici les différents niveau de sécurité ETP :
 - **ClearURLs** (optionnel): Firefox (ETP Strict) et uBO nettoient déjà beaucoup; gardez‑le si vous voyez encore des URLs « sales » (utm, fbclid).
 - **Firefox Multi‑Account Containers**: **isole cookies/sessions et stockage par conteneur; multi‑comptes en parallèle; moins de suivi intersites**. Extension officielle: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
+![Extension Multi-Account Containers](assets/fr/12.webp)
+
 **Mots de passe et 2FA**
 - **Privilégiez un gestionnaire dédié** (Bitwarden, KeePassXC). **Évitez** de stocker vos mots de passe dans le navigateur. **Activez la 2FA** partout où c’est possible.
 
@@ -88,9 +106,13 @@ Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 **DNS over HTTPS (DoH)**
 - Paramètres → Général → Paramètres réseau → **Activer DoH** → **Cloudflare** ou **Quad9** → **Protection maximale**.
-- **Protection maximale = TRR‑only** (pas de repli sur le DNS système). Si un réseau d’entreprise/hôtel bloque, revenez en **Standard** ou désactivez DoH.
+- **Protection maximale = TRR‑only** (pas de repli sur le DNS système). Si un réseau d'entreprise/hôtel bloque, revenez en **Standard** ou désactivez DoH.
 - Si vous utilisez déjà un **VPN de confiance** ou vos **propres DNS**, DoH peut être redondant.
-- Test: `https://www.dnsleaktest.com/` doit n’afficher que le fournisseur DoH choisi.
+- Test: `https://www.dnsleaktest.com/` doit n'afficher que le fournisseur DoH choisi.
+
+![Configuration DNS over HTTPS](assets/fr/09.webp)
+
+![Sélection fournisseur DNS Cloudflare](assets/fr/10.webp)
 
 **Compartimentage avec conteneurs et profils**
 - **Multi‑Account Containers**: créez des espaces (Personnel, Travail, Finance, Réseaux sociaux, Shopping, Jetable). Configurez **« Toujours ouvrir dans ce conteneur »** pour vos sites récurrents. Extension officielle: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
@@ -126,6 +148,12 @@ Choisissez une seule des deux approches suivantes :
 ### Approche A : Modifications manuelles via about:config
 
 Tapez `about:config` dans la barre d'adresse → Accepter le risque.
+
+![Avertissement about:config](assets/fr/13.webp)
+
+![Interface about:config](assets/fr/14.webp)
+
+![Préférences about:config](assets/fr/15.webp)
 
 - Résistance au fingerprinting (héritée de Tor Browser)
 ```text

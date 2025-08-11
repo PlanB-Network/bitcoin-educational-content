@@ -1300,9 +1300,9 @@ PureOS is een van Debian afgeleide distributie ontwikkeld door Purism, volledig 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (voorheen Raspbian) is een distributie geoptimaliseerd voor Raspberry Pi microcomputers. Het is gebaseerd op Debian, met pakketten opnieuw gecompileerd voor de ARM-architectuur. Het kan worden gebruikt voor educatieve projecten, elektronisch testen of kleine persoonlijke servers.
 
@@ -1326,36 +1326,23 @@ Whonix combineert Debian met het Tor netwerk in een twee-VM architectuur (gatewa
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dit panorama geeft je een overzicht van het huidige ecosysteem van Linux-distributies, zodat je de distributie kunt kiezen die het beste past bij je technische profiel en doelstellingen.
-
-
 
 In het volgende hoofdstuk van SCU202 gaan we dieper in op de praktische Linux-omgeving, te beginnen met de grafische omgevingen die de basis vormen van je dagelijkse interacties met het systeem.
 
-
-
 ## Linux bureaubladomgevingen
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In een GNU/Linux systeem speelt de bureaubladomgeving een van de belangrijkste rollen in je gebruikerservaring. Het is de grafische Layer die interactie met het systeem mogelijk maakt, gebaseerd op bekende visuele representaties: vensters, menu's, pictogrammen, panelen en voorgeïnstalleerde applicaties.
-
-
 
 In dit hoofdstuk verken ik de structuur en rol van een desktopomgeving, de typische componenten, de belangrijkste beschikbare families, selectiecriteria en hun integratie in de populairste Linux distributies.
 
-
-
 ### Wat is een kantooromgeving?
 
-
-
 Een desktopomgeving (of "*DE*" voor *Desktop Environment*) verwijst naar de verzameling programma's die de volledige grafische Interface van een besturingssysteem vormen. Op Windows en macOS wordt standaard een enkele desktopomgeving aangeboden, geïntegreerd in het systeem, zonder mogelijkheid om deze volledig aan te passen (alleen bepaalde shells bestaan om de Interface gedeeltelijk aan te passen). Linux systemen zijn daarentegen veel modulairder en behandelen de desktopomgeving als een onafhankelijke component die vrij kan worden vervangen.
-
-
 
 In Linux is het belangrijk om een duidelijk onderscheid te maken tussen alle lagen: de kernel (die de interactie met de hardware beheert), de displayserver (die als tussenpersoon fungeert tussen applicaties, grafische stuurprogramma's en hardware via de kernel) en tot slot de desktopomgeving zelf, die op deze infrastructuur vertrouwt om een samenhangende grafische Interface aan de gebruiker te leveren. Dit onderscheid kan soms minder duidelijk zijn, omdat veel Linux distributies geleverd worden met een voorgeïnstalleerde desktop omgeving die soms zijn eigen Wayland compositor bevat, die dan als een display server fungeert.
 
@@ -5774,15 +5761,11 @@ Het nadeel is een aanzienlijke prestatievermindering (hoge latentie) en beperkte
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) is het resultaat van de samenwerking tussen de Tor Foundation en Mullvad VPN. Het is gebaseerd op de Tor browser, die zelf is afgeleid van Firefox ESR. Mullvad Browser is ontworpen om de privacy van de gebruiker te maximaliseren. Standaard bevat het geavanceerde bescherming tegen fingerprinting, trackers en scripts van derden.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Het heeft de meeste beveiligings- en privacyfuncties van Tor Browser, met één verschil: het leidt het verkeer niet om via het Tor netwerk. Om IP Address lekken te voorkomen, kun je het gebruiken in combinatie met een VPN (idealiter Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Standaard activeert LibreWolf de geavanceerde beveiligingsinstellingen van Firef
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-browser
-
-
 
 [Zen Browser](https://zen-browser.app/) is een gratis en open source browser gebaseerd op Firefox (Gecko engine), gelanceerd in 2024. Het doel is om een moderne, elegante, zeer aanpasbare en vooral privacy-gerichte browse-ervaring te bieden, zonder afhankelijk te zijn van Chromium.
 
-
-
 Zen onderscheidt zich door zijn radicale benadering van Interface en bruikbaarheid, grotendeels geïnspireerd door de Arc browser, maar er toch van geëmancipeerd door zijn open-source karakter en Gecko engine. Het bevat :
-
-
-
 
 - Een minimalistische, modulaire Interface, met een verticale zijbalk voor tabbladen, een gesplitste weergave en een *werkruimte* systeem voor het groeperen van sets tabbladen per project;
 - Een systeem van aanpasbare Interface sjablonen (*Zen Mods*) die gebruikt kunnen worden om het uiterlijk van de browser diepgaand te wijzigen;
 - Een originele functie genaamd *Glance*, die een link opent in een lichtgewicht tijdelijk venster, waardoor de rommel van tabbladen wordt vermeden...
 
-
-
 Zen ondersteunt ook Firefox-extensies en synchronisatie via een Mozilla-account.
-
-
 
 Vanuit het oogpunt van beveiliging en privacy beschikt Zen over een ingebouwde blokkering van trackers van derden. De browser verzamelt zelf geen gegevens en het is ook mogelijk om Mozilla telemetrie uit te schakelen. Ook worden verouderde of niet-conforme SSL-certificaten automatisch geweigerd.
 
-
-
 Zen Browser is een interessant alternatief als je op zoek bent naar een Gecko-browseromgeving die gratis, innovatief, overzichtelijk en privacyvriendelijk is.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-gebaseerde browsers
 
-
-
 #### Safari
-
-
 
 De belangrijkste browser die nog steeds de WebKit rendering engine gebruikt (geen Fork zoals Blink) is Safari. [Safari](https://www.apple.com/safari/) is de exclusieve browser van Apple voor macOS. Het biedt uitstekende integratie met het Apple ecosysteem, hoge prestaties en bevat nu sterkere bescherming tegen tracking en fingerprinting.
 
-
-
 Safari blijft echter gesloten, beperkt tot macOS voor de desktopversie en afhankelijk van het Apple ecosysteem. Hoewel Apple een sterk privacybeleid heeft en zijn bedrijfsmodel voornamelijk is gebaseerd op de verkoop van hardware in plaats van reclame, blijft het onduidelijk over bepaalde interne praktijken.
-
-
 
 Hier richten we ons op desktopbrowsers, maar het is belangrijk om op te merken dat Apple op iOS vereist dat alle browsers de WebKit rendering engine gebruiken (een beperking die echter binnenkort kan veranderen als gevolg van bepaalde Europese regelgeving). Dit betekent dat browsers zoals Chrome, Firefox of Brave op iOS een toepassing moeten aanbieden die is gebaseerd op WebKit, en niet op hun gebruikelijke rendering engine.
 

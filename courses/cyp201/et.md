@@ -1816,7 +1816,7 @@ Kirjeldus sisaldab ka selles rahakotis kasutatavat laiendatud avalikku võtit:
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Järgmine märge `/<0;1>/*` täpsustab, et kirjeldus võib genereerida aadresse väliselt ketilt (`0`) ja sisemiselt ketilt (`1`), kasutades metamärki (`*`), mis võimaldab mitme aadressi järjestikust tuletamist konfigureeritaval viisil, sarnaselt traditsioonilise rahakotitarkvara "gap limit" haldamisega.
+Märgend `/<0;1>/*` näitab, et kirjeldaja võib luua aadresse nii välisest ahelast (`0`) kui ka sisemisest ahelast (`1`). Lõpus olev metamärk (`*`) tähendab, et sellest positsioonist saab järjestikku tuletada kõik karmistamata („*unhardened*“) alamvõtmed, olenemata sellest, kas tegemist on väliste või sisemiste aadressidega. See süntaks ei viita otseselt *gap limit* mõistele, mis on rahakottidele omane aadresside tuvastamise mehhanism, vaid näitab ainult, et kõik võimalikud tuletised selles asukohas võetakse arvesse.
 Lõpuks tähistab `#jy0l7nr4` kontrollsummat, mis kinnitab kirjelduse terviklikkust.
 Nüüd teate kõike HD rahakoti toimimisest Bitcoinis ja võtmepaaride tuletamise protsessist. Siiski viimastes peatükkides piirdusime privaat- ja avalike võtmete genereerimisega, jättes käsitlemata vastuvõtu aadresside konstrueerimise. Just see saab olema järgmise peatüki teema!
 

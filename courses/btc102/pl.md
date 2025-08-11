@@ -2350,7 +2350,7 @@ Kilka najlepszych praktyk:
 Aby monitorować swoje zasoby bez narażania kluczy prywatnych, warto rozważyć użycie Watch-only wallet. Umożliwia on śledzenie sald i transakcji wyłącznie przy użyciu kluczy publicznych.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Strategia hodlera jest prosta, ale potężna: kup, zabezpiecz i zapomnij. Prawdziwym wyzwaniem nie są kwestie techniczne, lecz psychologiczne. Najtrudniej jest oprzeć się chęci sprzedaży zbyt wcześnie lub paniki podczas spadków cen. Jeśli jednak zachowasz dyscyplinę i myślisz długoterminowo, hodling okazał się niezawodnym sposobem na zachowanie wartości i budowanie bogactwa w czasie.
 
@@ -2551,7 +2551,7 @@ Kluczowe nawyki:
 Aby ułatwić monitorowanie bez narażania bezpieczeństwa, skonfiguruj Watch-only wallet do śledzenia sald przy użyciu klucza publicznego.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Ocena profilu układarki
 
@@ -3617,6 +3617,7 @@ Jeszcze raz gratuluję tego, jak daleko zaszedłeś. I pamiętaj: mój główny 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

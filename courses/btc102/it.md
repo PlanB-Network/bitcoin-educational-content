@@ -2350,7 +2350,7 @@ Alcune buone pratiche:
 Per monitorare le vostre partecipazioni senza compromettere le vostre chiavi private, prendete in considerazione l'utilizzo di un Watch-only wallet. Questo strumento consente di monitorare i saldi e le transazioni utilizzando esclusivamente le chiavi pubbliche.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 La strategia di Hodler è semplice ma potente: acquistare, proteggere e dimenticare. La vera sfida non è tecnica, ma psicologica. La parte più difficile è resistere all'impulso di vendere troppo presto o di farsi prendere dal panico durante i cali di prezzo. Ma se si rimane disciplinati e si pensa a lungo termine, l'hodling si è dimostrato un modo affidabile per preservare il valore e costruire ricchezza nel tempo.
 
@@ -2551,7 +2551,7 @@ Abitudini chiave:
 Per facilitare il monitoraggio senza compromettere la sicurezza, impostare un Watch-only wallet per monitorare i saldi utilizzando la chiave pubblica.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Valutare il profilo dell'accatastatore
 
@@ -3617,6 +3617,7 @@ Ancora una volta, complimenti per i progressi fatti. E ricordate: il mio obietti
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

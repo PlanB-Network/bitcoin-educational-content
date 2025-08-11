@@ -2350,7 +2350,7 @@ Hodling 意味著玩長線遊戲。無論是在價格暴跌還是欣欣向榮的
 若要在不損害私人金鑰的情況下監控您的持有量，請考慮使用 Watch-only wallet。它可以讓您只使用公開金鑰追蹤餘額和交易。
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 hodler 的策略簡單但強大：購買、安全、忘記。真正的挑戰不是技術上的，而是心理上的。最難的部分是要克制過早賣出或在價格下跌時恐慌的衝動。但是，如果您能保持紀律，並從長遠角度考慮，囤積已被證明是一種可靠的保值方式，並可長期累積財富。
 
@@ -2551,7 +2551,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 為了方便監控而不影響安全性，請設定 Watch-only wallet 使用公開金鑰追蹤餘額。
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### 評估您的堆高機配置文件
 
@@ -3617,6 +3617,7 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

@@ -1788,7 +1788,7 @@ Beskrivelsen inkluderer også den utvidede offentlige nøkkelen brukt i denne lo
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Deretter spesifiserer notasjonen `/<0;1>/*` at beskrivelsen kan generere adresser fra den eksterne kjeden (`0`) og den interne kjeden (`1`), med et jokertegn (`*`) som tillater sekvensiell avledning av flere adresser på en konfigurerbar måte, lik håndtering av en "gap-grense" på tradisjonell lommebokprogramvare.
+Notasjonen `/<0;1>/*` indikerer at deskriptoren kan generere adresser fra både den eksterne kjeden (`0`) og den interne kjeden (`1`). Jokertegnet (`*`) på slutten av stien betyr at man sekvensielt kan derivere alle ikke-forsterkede («*unhardened*») undernøkler fra denne posisjonen, enten det gjelder eksterne eller interne adresser. Denne syntaksen innebærer ikke direkte konseptet *gap limit*, som er en del av en lommebokspesifikk mekanisme for adressegjenkjenning, men brukes her kun til å indikere at alle mulige derivasjoner på dette stedet tas med i betraktningen.
 Til slutt representerer `#jy0l7nr4` sjekksummen for å verifisere integriteten til beskrivelsen.
 Du vet nå alt om driften av HD-lommeboken på Bitcoin og prosessen med å avlede nøkkelpar. Imidlertid begrenset vi oss i de siste kapitlene til generering av private og offentlige nøkler, uten å adressere konstruksjonen av mottaksadresser. Dette vil nettopp være temaet for neste kapittel!
 

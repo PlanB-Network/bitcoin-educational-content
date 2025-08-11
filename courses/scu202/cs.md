@@ -1300,9 +1300,9 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Operační systém Raspberry Pi**:
-
-
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 
@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian se sítí Tor v architektuře dvou virtuálních počít
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toto panorama vám poskytne přehled o současném ekosystému linuxových distribucí a umožní vám vybrat si distribuci, která nejlépe vyhovuje vašemu technickému profilu a cílům.
-
-
 
 V další kapitole SCU202 se blíže podíváme na praktické prostředí systému Linux, počínaje grafickými prostředími, která tvoří základ každodenní interakce se systémem.
 
-
-
 ## Prostředí Linuxu
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 V systému GNU/Linux hraje prostředí pracovní plochy jednu z nejdůležitějších rolí v uživatelském prostředí. Je to grafické prostředí Layer, které umožňuje interakci se systémem na základě známých vizuálních reprezentací: oken, nabídek, ikon, panelů a předinstalovaných aplikací.
-
-
 
 V této kapitole se budu zabývat strukturou a úlohou desktopového prostředí, jeho typickými součástmi, hlavními dostupnými rodinami, kritérii výběru a jejich integrací do nejoblíbenějších linuxových distribucí.
 
-
-
 ### Co je to kancelářské prostředí?
 
-
-
 Prostředí pracovní plochy (nebo "*DE*" jako *Prostředí pracovní plochy*) označuje sadu programů, které tvoří kompletní grafické prostředí Interface operačního systému. V systémech Windows a macOS je ve výchozím nastavení nabízeno jediné desktopové prostředí integrované do systému bez možnosti jej zcela upravit (existují pouze určité shelly, které umožňují částečnou úpravu Interface). Naproti tomu systémy Linux jsou mnohem modulárnější a považují desktopové prostředí za nezávislou součást, kterou lze libovolně vyměňovat.
-
-
 
 V Linuxu je důležité jasně rozlišovat mezi všemi vrstvami: jádrem (které spravuje interakci s hardwarem), zobrazovacím serverem (který funguje jako prostředník mezi aplikacemi, grafickými ovladači a hardwarem prostřednictvím jádra) a nakonec samotným grafickým prostředím, které se spoléhá na tuto infrastrukturu a poskytuje uživateli ucelenou grafickou aplikaci Interface. Toto rozlišení může být někdy méně jasné, protože mnoho linuxových distribucí je dodáváno s předinstalovaným desktopovým prostředím, které někdy obsahuje vlastní kompozitor Wayland, který pak funguje jako zobrazovací server.
 
@@ -5774,15 +5761,11 @@ Nevýhodou je výrazné snížení výkonu (vysoká latence) a omezená kompatib
 
 #### Prohlížeč Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je výsledkem spolupráce mezi Tor Foundation a Mullvad VPN. Je založen na prohlížeči Tor, který je sám odvozen od Firefoxu ESR. Mullvad Browser je navržen tak, aby maximalizoval soukromí uživatelů. Ve výchozím nastavení obsahuje pokročilou ochranu proti otiskům prstů, sledovacím zařízením a skriptům třetích stran.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Má většinu funkcí zabezpečení a ochrany soukromí, které nabízí Tor Browser, s jedním rozdílem: nepřesměrovává provoz přes síť Tor. Chcete-li se vyhnout únikům IP Address, můžete jej používat v kombinaci s VPN (ideálně Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Ve výchozím nastavení LibreWolf aktivuje pokročilá nastavení zabezpečení
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Prohlížeč Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je svobodný prohlížeč s otevřeným zdrojovým kódem založený na prohlížeči Firefox (engine Gecko), který byl uveden na trh v roce 2024. Jeho cílem je nabídnout moderní, elegantní, vysoce přizpůsobitelné a především na soukromí zaměřené prohlížení bez závislosti na Chromu.
 
-
-
 Zen vyniká svým radikálním přístupem k Interface a použitelnosti, který je do značné míry inspirován prohlížečem Arc, od něhož se však osvobozuje díky své otevřenosti a enginu Gecko. Obsahuje :
-
-
-
 
 - Minimalistický modulární nástroj Interface se svislým postranním panelem pro karty, rozděleným zobrazením a systémem *workspace* pro seskupování sad karet podle projektů;
 - Systém přizpůsobitelných šablon Interface (*Zen Mods*), které lze použít k hlubokým úpravám vzhledu prohlížeče;
 - Originální funkce *Glance*, která otevře odkaz v lehkém dočasném okně, čímž se vyhne nepřehledným záložkám...
 
-
-
 Zen podporuje také rozšíření Firefoxu a synchronizaci prostřednictvím účtu Mozilla.
-
-
 
 Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování sledovacích zařízení třetích stran. Prohlížeč sám neshromažďuje žádná data a umožňuje také vypnout telemetrii Mozilla. Automaticky také odmítá zastaralé nebo nevyhovující certifikáty SSL.
 
-
-
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Prohlížeče založené na WebKitu
 
-
-
 #### Safari
-
-
 
 Hlavním prohlížečem, který stále používá vykreslovací jádro WebKit (nikoli Fork jako Blink), je Safari. [Safari](https://www.apple.com/safari/) je exkluzivní prohlížeč společnosti Apple pro systém macOS. Nabízí vynikající integraci s ekosystémem Apple, vysoký výkon a nyní obsahuje silnější ochranu proti sledování a snímání otisků prstů.
 
-
-
 Safari však zůstává uzavřený, omezený na macOS pro desktopovou verzi a závislý na ekosystému Apple. Ačkoli společnost Apple uplatňuje přísnou politiku ochrany osobních údajů a její obchodní model je založen především na prodeji hardwaru, nikoli na reklamě, zůstávají některé interní postupy nejasné.
-
-
 
 Zde se zaměřujeme na prohlížeče pro stolní počítače, ale je důležité poznamenat, že v systému iOS vyžaduje společnost Apple, aby všechny prohlížeče používaly vykreslovací jádro WebKit (toto omezení se však může brzy změnit v důsledku určitých evropských předpisů). To znamená, že prohlížeče jako Chrome, Firefox nebo Brave musí v systému iOS nabízet aplikaci založenou na WebKitu, a nikoli na svém obvyklém vykreslovacím jádře.
 

@@ -20,7 +20,7 @@ En este tutorial, nos centraremos únicamente en el uso del programa en el orden
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Instalación y configuración del software Blockstream Green
 
@@ -147,4 +147,5 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 También te recomiendo que eches un vistazo a este otro tutorial completo sobre la aplicación móvil Blockstream Green para configurar un monedero caliente:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 

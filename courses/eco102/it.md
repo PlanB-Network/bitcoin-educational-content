@@ -596,7 +596,7 @@ In questo capitolo, svelerò una tecnologia completamente nuova, una tecnologia 
 ![image](assets/en/074.webp)
 
 L'inventore del primo prototipo di questi occhiali fu Frédéric Bastiat nel 1850 in un famoso opuscolo: Ciò che si vede e ciò che non si vede. Questi sono gli occhiali dell'economista. Permettono di misurare le conseguenze delle decisioni prese dalle autorità sulle nostre vite. Sono gli occhiali che "ci permettono di vedere ciò che non vediamo": la distruzione causata dalle politiche clientelari e dalle false teorie economiche. Spesso non vediamo le loro vittime, né i loro beneficiari, in breve, i loro effetti reali rispetto alle affermazioni fatte nei discorsi ufficiali, ciò che Bastiat chiama "Sofismi Economici".
-Il buon economista, secondo Bastiat, deve descrivere gli effetti delle decisioni politiche sulla società. Tuttavia, devono prestare attenzione, non ai loro effetti a breve termine su un gruppo particolare, ma piuttosto alle loro conseguenze a lungo termine per la società nel suo insieme. Chi sono le vittime e chi sono i beneficiari di queste politiche? Quali sono i costi nascosti di una certa legge o decisione politica? Cosa avrebbero fatto i contribuenti invece del governo con i soldi che sono stati presi loro in tasse? Queste sono le domande poste dal buon economista secondo Bastiat.
+Il buon economista, secondo Bastiat, deve descrivere gli effetti delle decisioni politiche sulla società. Tuttavia, devono prestare attenzione, non ai loro effetti a breve termine su un gruppo particolare, ma piuttosto alle loro conseguenze a lungo termine per la società nel suo insieme. Chi sono le vittime e chi sono i beneficiari di queste politiche? Quali sono i costi nascosti di una certa legge o decisione politica? Cosa avrebbero fatto i contribuenti invece del governo con i soldi che sono stati presi loro con le tasse? Queste sono le domande poste dal buon economista secondo Bastiat.
 
 Così, in Opere Pubbliche, Bastiat scrive:
 
@@ -612,6 +612,8 @@ Ma ciò che non si vede è ciò che il proprietario avrebbe comprato con quei so
 
 Così, non ci sarà più "stimolazione" dell'economia con la rottura della finestra di quanto non ce ne sarebbe senza. Tuttavia, ci sarà stata una perdita netta nel primo caso: il valore della finestra.
 
+![image](assets/en/075.webp)
+
 La prima lezione da imparare è che una decisione o una politica "buona" è quella che costa alla società meno di quanto avrebbe potuto costare un'altra allocazione delle risorse. L'efficacia di una politica dovrebbe essere giudicata non solo in base ai suoi effetti, ma anche sulla base delle alternative che avrebbero potuto verificarsi. Questo è il concetto di "costo opportunità", caro a Bastiat.
 
 La seconda lezione è che la distruzione non stimola l'economia come pensano i keynesiani, ma porta all'impoverimento. La distruzione di beni materiali non ha un effetto positivo sull'economia, contrariamente alla credenza popolare. Per usare le parole conclusive del testo di Frédéric Bastiat: "la società perde il valore degli oggetti inutilmente distrutti."
@@ -621,6 +623,8 @@ Prendiamo un esempio attuale. Non appena l'industria automobilistica è in diffi
 Ma ci sono altri modi per stimolare l'economia. Se lo Stato si impegna in grandi progetti o investe fondi in certi settori industriali per sostenere l'occupazione, non è forse una buona notizia per la crescita? Non più, risponderebbe Bastiat. Perché con cosa sarebbe finanziata la spesa pubblica? Aumentando le tasse o con il debito, cioè con costi invisibili ma molto reali, che impatteranno sulla crescita. Inoltre, il governo non produce nulla; semplicemente devia le risorse dal loro uso privato. E ciò che non vediamo sono le molte cose che avrebbero potuto essere prodotte se il capitale non fosse stato ritirato dal settore privato per finanziare programmi governativi.
 
 Infine, quasi un secolo prima di Keynes, possiamo dire che Bastiat ha confutato i sofismi keynesiani che sostengono che l'indebitamento dello stato incoraggi l'economia e che la spesa pubblica produca crescita.
+
+![image](assets/en/076.webp)
 
 La grande lezione da questa serie di testi è che l'intervento dello stato ha effetti perversi che non si vedono. Solo un buon economista è capace di prevederli. La politica è ciò che vediamo. L'economia è ciò che non vediamo.
 

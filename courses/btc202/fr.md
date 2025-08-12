@@ -932,7 +932,71 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 ## Comprendre l’IBD et le processus de découverte des pairs
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
-Description du processus de synchronisation initiale (Initial Block Download), ses contraintes et les moyens de l’optimiser (assumevalid, assumeutxo...). Explication du mécanisme de découverte des pairs dans le réseau Bitcoin.
+Votre nœud Bitcoin démarre sans aucune connaissance préalable de l’historique des transactions. Au départ, ce n’est qu’un ordinateur équipé d’un logiciel (Bitcoin Core ou autre). Pour devenir un nœud Bitcoin pleinement synchronisé et opérationnel, il doit reconstruire localement l’état du registre en vérifiant l’intégralité des blocs publiés depuis le bloc de Genèse (bloc 0, publié par Satoshi Nakamoto le 3 janvier 2009). Cette étape est appelée **IBD (_Initial Block Download_)**.
+
+L’IBD consiste à télécharger et à vérifier un par un chaque bloc et chaque transaction, en appliquant les règles de consensus, pour construire sa propre version de la blockchain. L’objectif n’est pas simplement de récupérer une copie de données non vérifiées, mais bien d’aboutir, de façon totalement indépendante, à la même conclusion que la majorité honnête du réseau.
+
+### Les grandes étapes de l’IBD
+
+La synchronisation débute par l’étape _**headers-first**_. Votre nœud demande à plusieurs pairs la suite des en-têtes de blocs et, pour chacun d’eux, vérifie la preuve de travail, l’ajustement de la difficulté, la syntaxe, ainsi que les règles relatives aux horodatages et aux numéros de version. En résumé, il s’assure que chaque en-tête reçu respecte bien les règles de consensus.
+
+Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une liste de transactions. L’empreinte du bloc est obtenue en appliquant un double hachage SHA-256 sur cet en-tête, lequel regroupe 6 champs :
+- version
+- hachage du bloc précédent
+- racine de Merkle des transactions
+- horodatage (supérieur au temps médian des 11 blocs précédents)
+- cible de difficulté
+- nonce
+
+Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. SegWit a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
+
+Cette étape _**headers-first**_ permet au nœud d’identifier la branche cumulant le plus de travail (indépendamment de son nombre de blocs), qui est la branche sur laquelle les nœuds Bitcoin se synchronisent. Une fois cette branche repérée, le nœud télécharge le contenu des blocs en parallèle depuis plusieurs connexions, puis valide chaque transaction : format, validité des scripts (sauf `assumevalid=1`), montants et absence de double dépense. À chaque vérification réussie, l’état courant des pièces non dépensées (UTXO set) est mis à jour dans la base de données `chainstate/` : les sorties dépensées sont retirées, tandis que les nouvelles sorties valides sont ajoutées.
+
+La mempool, quant à elle, n’intervient qu’à l’approche de la pointe de la chaîne : tant que le nœud reste en retard, il n’a aucune transaction en attente à stocker.
+
+Une fois l’IBD achevée, le nœud entre en phase normale : il valide les nouveaux blocs à mesure qu’ils sont publiés, maintient sa mempool avec les transactions en attente selon ses règles de relais, relaie transactions et blocs, et gère les éventuelles réorganisations de la chaîne.
+
+### AssumeValid
+
+Bitcoin Core intègre un mécanisme destiné à réduire le temps nécessaire avant qu’un nœud soit pleinement opérationnel, tout en conservant l’essentiel du principe de vérification autonome : AssumeValid.
+
+Le paramètre `assumevalid` repose sur un bloc de référence passé, dont le hachage est intégré dans chaque version du logiciel. Durant l’IBD, si votre nœud constate que ce bloc se trouve bien sur la branche cumulant le plus de travail, il peut alors ignorer la vérification des scripts pour toutes les transactions antérieures à ce point.
+
+Les autres règles (structure des blocs, preuve de travail, limites de taille, montants des transactions, UTXOs...) restent intégralement vérifiées. Seul le calcul des scripts antérieurs à ce bloc de référence est ignoré. Le gain en performance est important sur l'IBD, car la vérification des signatures représente une part importante de la charge CPU. Au-delà de ce bloc de référence, la vérification redevient complète et normale.
+
+Vous pouvez forcer la validation intégrale de tous les scripts en désactivant ce mécanisme, au prix d’une IBD beaucoup plus longue, grâce au paramètre `assumevalid=0` dans le fichier `bitcoin.conf`.
+
+### AssumeUTXO
+
+`assumeutxo` est un autre paramètre existant, mais, contrairement à `assumevalid`, il n’est pas activé par défaut. Ce mécanisme permet au logiciel de charger un instantané de l’UTXO set, accompagné de ses métadonnées, et de le considérer provisoirement comme état de référence, après avoir vérifié que les en-têtes mènent bien à la blockchain avec le plus de travail.
+
+Le nœud devient ainsi rapidement opérationnel pour des usages courants (RPC, connexion de portefeuilles, indexation externe...), tout en lançant, en arrière-plan, la reconstruction complète et vérifiée de son propre UTXO set. Une fois cette étape terminée, l’instantané initial est remplacé par l’état reconstitué localement. Cette approche dissocie la mise à disposition rapide du nœud et la vérification intégrale, sans pour autant sacrifier cette dernière.
+
+### Découverte des pairs : comment votre nœud trouve-t-il le réseau Bitcoin ?
+
+Lors de son premier démarrage, un nœud ne connaît encore aucun pair. Pourtant, il doit impérativement trouver d’autres nœuds Bitcoin sur internet pour leur demander les en-têtes, puis les blocs, et ainsi réaliser son IBD. Pour amorcer ces connexions, Bitcoin Core suit une logique avec un ordre de priorité.
+
+Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par consulter son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ce fichier est vide, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
+
+Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs maintenus par des développeurs reconnus de l’écosystème](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp), qui renvoient une liste d’adresses IP de nœuds présumés actifs. Ces adresses permettent au nouveau nœud d’initier ses premières connexions et de réclamer les données nécessaires à l’IBD. Voici la liste des *DNS seeds* actifs à ce jour (août 2025) :
+- Pieter Wuille : `seed.bitcoin.sipa.be.`  
+- Matt Corallo : `dnsseed.bluematt.me.`  
+- Luke Dashjr : `dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us.`  
+- Jonas Schnelli : `seed.bitcoin.jonasschnelli.ch.`  
+- Peter Todd : `seed.btc.petertodd.net.`  
+- Sjors Provoost : `seed.bitcoin.sprovoost.nl.`  
+- Stephan Oeste : `dnsseed.emzy.de.`  
+- Jason Maurice : `seed.bitcoin.wiz.biz.`  
+- Ava Chow : `seed.mainnet.achownodes.xyz.`
+
+Dans la grande majorité des cas, l’étape des *DNS seeds* suffit à établir les premières connexions avec d’autres nœuds. Si, exceptionnellement, ces serveurs ne répondent pas dans un délai de 60 secondes, le nœud passe à une autre méthode : [une liste statique de plus de 1 000 adresses](https://github.com/bitcoin/bitcoin/blob/master/src/chainparamsseeds.h) de _seed nodes_ est intégrée au code de Bitcoin Core et régulièrement mise à jour. Si les deux premières méthodes pour obtenir des adresses IP échouent, cette dernière solution permet d'établir une première connexion, à partir de laquelle le nœud pourra ensuite demander de nouvelles adresses IP.
+
+En ultime recours, il est possible de fournir manuellement des adresses IP via le fichier `peers.dat` afin de forcer des connexions spécifiques.
+
+Une fois l’amorçage effectué, le gestionnaire interne d’adresses veille à diversifier les sources (réseaux autonomes distincts, clearnet et Tor, zones géographiques variées...) pour réduire le risque d’isolement topologique. Le nœud établit ces connexions sortantes (connexions qu’il sélectionne lui-même, donc plus sûres).
+
+Si votre nœud écoute sur un port ouvert (8333 par défaut), il accepte des connexions entrantes. Celles-ci renforcent la résilience globale du réseau en offrant un point de contact pour les nouveaux nœuds, sans apporter d’avantage particulier à votre propre IBD. Si votre nœud fonctionne sur Tor, la logique reste identique, mais les adresses utilisées sont alors des services `.onion`.
+
 
 ## Comprendre le stockage du nœud : blockchain, UTXO set et mempool
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>

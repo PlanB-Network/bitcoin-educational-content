@@ -145,6 +145,12 @@
       "code_translator": "Thai"
     },
     {
+      "code": "tr",
+      "name": "Turkish",
+      "translator": "deepl",
+      "code_translator": "TR"
+    },
+    {
       "code": "vi",
       "name": "Vietnamese",
       "translator": "google",

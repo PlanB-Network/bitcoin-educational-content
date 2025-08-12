@@ -533,23 +533,45 @@ Per concludere, protezionisti e socialisti condividono un punto comune, secondo 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
 Pierre-Joseph Proudhon è uno dei principali rappresentanti del socialismo francese a metà del XIX secolo. È particolarmente famoso per questa affermazione: "La proprietà è furto" in "Che cos'è la proprietà?" nel 1840.
+
+![image](assets/en/064.webp)
+![image](assets/en/065.webp)
+
+
 C'è qualcosa di logicamente assurdo in questa affermazione. Infatti, se non esistesse una proprietà acquisita legittimamente, logicamente non potrebbe esistere un atto come il furto. Ecco perché Proudhon avrebbe poi chiarito che è la distribuzione attuale della proprietà che considera furto, non la proprietà in sé, che descrive come una forza rivoluzionaria fondamentale per la società anarchica.
+
+![image](assets/en/066.webp)
 
 Ma Proudhon è un anarchico individualista. Non vede il proletariato, né lo stato, come fonti legittime di potere. Critica duramente il comunismo e sostiene il mutualismo operaio, una forma di solidarietà cooperativa strutturata, che si baserebbe sulla raccolta volontaria di risorse per l'aiuto reciproco. È meno noto, ma Bastiat non era affatto contrario a questa idea in principio. Temeva semplicemente che lo stato la trasformasse in un servizio pubblico monopolistico de facto. La storia gli avrebbe dato ragione.
 
+![image](assets/en/067.webp)
+
 D'altra parte, è ben noto che in "La miseria della filosofia", Marx avrebbe attaccato violentemente Proudhon e il suo socialismo, che chiamava "utopico", a favore di un cosiddetto socialismo "scientifico".
+
+![image](assets/en/068.webp)
 
 Nel giugno del 1848, Proudhon fu eletto all'Assemblea Nazionale, insieme a Bastiat. Erano conoscenti e si tenevano in alta considerazione. Tuttavia, nel 1849, in una controversia clamorosa, Bastiat scambiò quattordici lettere con lui sulle colonne de La Voix du Peuple. In questo scambio vigoroso, chiarì la sua posizione su questioni monetarie e bancarie. La disputa si ridusse alla seguente alternativa: credito gratuito o libertà di credito?
 
+![image](assets/en/069.webp)
+
 Proudhon vedeva negli interessi sul capitale la causa iniziale del pauperismo e della disuguaglianza di condizioni. Sosteneva la creazione monetaria illimitata da parte di una banca statale (la Banca di Scambio o Banca del Popolo) e vedeva nel "credito gratuito" la soluzione al problema sociale. D'altra parte, Bastiat era un sostenitore della libertà delle banche, nel senso della regolamentazione della circolazione monetaria attraverso la libertà di accesso alla professione, accoppiata con una necessaria responsabilità sui propri fondi, e la libertà di concorrenza.
 
+![image](assets/en/070.webp)
+
 Bastiat confutò il suo avversario in diverse fasi. Prima, analizzò gli effetti perversi del credito gratuito e della creazione monetaria. Un tale sistema potrebbe solo incoraggiare le azioni più rischiose e sconsiderate da parte delle banche e degli attori privati perché sanno di essere coperti dallo stato, cioè dai soldi dei contribuenti: "È una questione seria mettere tutti gli uomini in una situazione in cui dicono: Proviamo la nostra fortuna con la proprietà di qualcun altro; se riesco, tanto meglio per me; se fallisco, troppo male per gli altri." Una dichiarazione preveggente poiché potrebbe applicarsi alla nostra era.
+
+![image](assets/en/071.webp)
 
 La politica dei tassi di interesse bassi praticata dalle banche centrali è un modo per creare denaro artificialmente. E le successive crisi del sistema finanziario nell'ultimo secolo, con l'indebitamento degli stati, sono le sue dirette conseguenze.
 
 Poi Bastiat mostra che è possibile migliorare il potere d'acquisto delle classi lavoratrici, ma con altri mezzi, più giusti ed efficaci. Per lui, la riduzione dei tassi di interesse è anche l'obiettivo di una politica liberale. Ma è attraverso la liberazione e l'accumulazione di capitale che ciò viene raggiunto, non con l'abolizione degli interessi, cioè il credito gratuito.
-Infatti, secondo Bastiat, il progresso dell'umanità coincide con la formazione del capitale. Nel suo opuscolo intitolato Capitale e Renta, Bastiat ci fa comprendere ciò con l'esempio di Robinson Crusoe sulla sua isola.
+
+![image](assets/en/072.webp)
+
+Infatti, secondo Bastiat, il progresso dell'umanità coincide con la formazione del capitale. Nel suo opuscolo intitolato Capitale e Prestito, Bastiat ci fa comprendere ciò con l'esempio di Robinson Crusoe sulla sua isola.
+
 ![image](assets/en/073.webp)
+
 Senza un capitale accumulato o materiali, Robinson sarebbe destinato alla morte. Spiega poi che il capitale arricchisce il lavoratore in due modi:
 
 - Aumenta la produzione, diminuendo così il prezzo dei beni di consumo
@@ -557,7 +579,7 @@ Senza un capitale accumulato o materiali, Robinson sarebbe destinato alla morte.
 
 Nella società moderna, il capitale agisce come una forza equalizzatrice. Infatti, Bastiat afferma:
 
-> "quando il capitale aumenta, compete con se stesso; la sua remunerazione diminuisce, o, in altre parole, il tasso di interesse cala."
+> "Quando il capitale aumenta, compete con se stesso; la sua remunerazione diminuisce, o, in altre parole, il tasso di interesse cala."
 
 In conclusione, sia Proudhon che Bastiat riconobbero l'importanza dell'accumulazione del capitale e la tendenza di alcuni uomini a sfruttare gli altri. Tuttavia, non trassero le stesse conclusioni. Proudhon, come Marx, anticipò un impoverimento crescente delle masse nei paesi capitalisti. Bastiat credeva che il capitalismo avrebbe portato a una prosperità senza precedenti in tutte le classi, e allo sviluppo di una classe media sempre più significativa. Questo è effettivamente ciò che è accaduto.
 

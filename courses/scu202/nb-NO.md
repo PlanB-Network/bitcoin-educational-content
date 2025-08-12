@@ -1300,9 +1300,9 @@ PureOS er en Debian-avledet distribusjon utviklet av Purism, helt fri (FSF-godkj
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (tidligere Raspbian) er en distribusjon optimalisert for Raspberry Pi-mikrodatamaskiner. Den er basert på Debian, med pakker som er rekompilert for ARM-arkitekturen. Den kan brukes til utdanningsprosjekter, elektronisk testing eller små personlige servere.
 
@@ -1326,36 +1326,23 @@ Whonix kombinerer Debian med Tor-nettverket i en to-VM-arkitektur (gateway + arb
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dette panoramaet gir deg en oversikt over det nåværende økosystemet for Linux-distribusjoner, slik at du kan velge den distribusjonen som passer best til din tekniske profil og dine mål.
-
-
 
 I neste kapittel av SCU202 skal vi se nærmere på det praktiske Linux-miljøet, og vi begynner med de grafiske miljøene som danner grunnlaget for den daglige interaksjonen med systemet.
 
-
-
 ## Linux-skrivebordsmiljøer
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 I et GNU/Linux-system spiller skrivebordsmiljøet en av de viktigste rollene i brukeropplevelsen. Det er det grafiske Layer som muliggjør interaksjon med systemet, basert på kjente visuelle representasjoner: vinduer, menyer, ikoner, paneler og forhåndsinstallerte programmer.
-
-
 
 I dette kapittelet skal jeg se nærmere på strukturen og rollen til et skrivebordsmiljø, dets typiske komponenter, de viktigste tilgjengelige familiene, utvalgskriterier og integrasjon i de mest populære Linux-distribusjonene.
 
-
-
 ### Hva er et kontormiljø?
 
-
-
 Et skrivebordsmiljø (eller "*DE*" for *Desktop Environment*) refererer til det settet av programmer som utgjør den komplette grafiske Interface i et operativsystem. I Windows og macOS tilbys ett enkelt skrivebordsmiljø som standard, integrert i systemet, uten mulighet til å endre det helt (det finnes bare visse skall som delvis kan endre Interface). Linux-systemer er derimot langt mer modulære, og behandler skrivebordsmiljøet som en uavhengig komponent som fritt kan byttes ut.
-
-
 
 I Linux er det viktig å skille tydelig mellom alle lagene: kjernen (som håndterer interaksjonen med maskinvaren), skjermserveren (som fungerer som et mellomledd mellom applikasjoner, grafikkdrivere og maskinvare via kjernen), og til slutt selve skrivebordsmiljøet, som er avhengig av denne infrastrukturen for å levere en sammenhengende grafisk Interface til brukeren. Dette skillet kan noen ganger være mindre klart, ettersom mange Linux-distribusjoner leveres med et forhåndsinstallert skrivebordsmiljø som noen ganger inkluderer sin egen Wayland-kompositor, som da fungerer som en skjermserver.
 
@@ -5774,15 +5761,11 @@ Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatib
 
 #### Mullvad nettleser
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) er resultatet av et samarbeid mellom Tor Foundation og Mullvad VPN. Den er basert på Tor-nettleseren, som i sin tur er avledet fra Firefox ESR. Mullvad Browser er utviklet for å maksimere brukernes personvern. Som standard inkluderer den avansert beskyttelse mot fingeravtrykk, sporere og tredjepartsskript.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de fleste av sikkerhets- og personvernfunksjonene som Tor Browser tilbyr, med én forskjell: Den omdirigerer ikke trafikk via Tor-nettverket. For å unngå IP Address-lekkasjer kan du bruke den i kombinasjon med et VPN (ideelt sett Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Som standard aktiverer LibreWolf Firefox' avanserte sikkerhetsinnstillinger (for
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-nettleser
-
-
 
 [Zen Browser] (https://zen-browser.app/) er en gratis nettleser med åpen kildekode basert på Firefox (Gecko-motor), lansert i 2024. Målet er å tilby en moderne, elegant, svært tilpasningsdyktig og fremfor alt personvernsentrert nettleseropplevelse, uten avhengighet av Chromium.
 
-
-
 Zen skiller seg ut med sin radikale tilnærming til Interface og brukervennlighet, i stor grad inspirert av Arc-nettleseren, men frigjort fra den ved hjelp av åpen kildekode og Gecko-motoren. Den inkluderer :
-
-
-
 
 - En minimalistisk, modulær Interface, med et vertikalt sidefelt for faner, en delt visning og et *arbeidsområde*-system for gruppering av fanesett etter prosjekt;
 - Et system med tilpassbare Interface-maler (*Zen Mods*) som kan brukes til å endre nettleserens utseende;
 - En original funksjon kalt *Glance*, som åpner en lenke i et lett, midlertidig vindu, slik at du slipper å bruke faner...
 
-
-
 Zen støtter også Firefox-utvidelser, samt synkronisering via en Mozilla-konto.
-
-
 
 Når det gjelder sikkerhet og personvern, har Zen innebygd blokkering av tredjepartssporere. Nettleseren samler ikke inn data selv, og den gjør det også mulig å deaktivere Mozilla-telemetri. Den avviser også automatisk foreldede eller ikke-kompatible SSL-sertifikater.
 
-
-
 Zen Browser er et interessant alternativ hvis du er på utkikk etter et Gecko-nettlesingsmiljø som er gratis, innovativt, ryddig og som respekterer personvernet ditt.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserte nettlesere
 
-
-
 #### Safari
-
-
 
 Den viktigste nettleseren som fortsatt bruker WebKit-gjengivelsesmotoren (ikke en Fork som Blink), er Safari. [Safari](https://www.apple.com/safari/) er Apples eksklusive nettleser for macOS. Den tilbyr utmerket integrasjon med Apples økosystem, høy ytelse og inkluderer nå sterkere beskyttelse mot sporing og fingeravtrykk.
 
-
-
 Safari er imidlertid fortsatt lukket, begrenset til macOS for desktop-versjonen, og avhengig av Apples økosystem. Selv om Apple har en sterk personvernpolicy, med en forretningsmodell som først og fremst er basert på salg av maskinvare i stedet for reklame, er det fortsatt uklart om visse interne praksiser.
-
-
 
 Her fokuserer vi på nettlesere på datamaskiner, men det er viktig å merke seg at Apple krever at alle nettlesere på iOS bruker WebKit-gjengivelsesmotoren (en begrensning som imidlertid snart kan endre seg som følge av visse europeiske forskrifter). Dette betyr at nettlesere som Chrome, Firefox eller Brave på iOS må tilby en applikasjon basert på WebKit, og ikke på deres vanlige gjengivelsesmotor.
 

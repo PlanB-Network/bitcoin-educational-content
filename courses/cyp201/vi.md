@@ -1831,7 +1831,7 @@ Mô tả cũng bao gồm khóa công khai mở rộng được sử dụng trong
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Tiếp theo, ký hiệu `/<0;1>/*` chỉ ra rằng mô tả có thể tạo ra địa chỉ từ chuỗi bên ngoài (`0`) và chuỗi bên trong (`1`), với một ký tự đại diện (`*`) cho phép phái sinh tuần tự nhiều địa chỉ theo cách có thể cấu hình, tương tự như quản lý "giới hạn khoảng trống" trên phần mềm ví truyền thống.
+Ký hiệu `/<0;1>/*` cho biết rằng bộ mô tả có thể tạo địa chỉ từ cả chuỗi bên ngoài (`0`) và chuỗi bên trong (`1`). Ký tự đại diện (`*`) ở cuối đường dẫn có nghĩa là có thể tuần tự dẫn xuất tất cả các khóa con không được làm cứng (“*unhardened*”) từ vị trí này, dù đó là địa chỉ bên ngoài hay bên trong. Cú pháp này không trực tiếp ngụ ý khái niệm *gap limit*, vốn là một phần của cơ chế cụ thể của ví để phát hiện địa chỉ, mà ở đây chỉ nhằm chỉ ra rằng tất cả các dẫn xuất có thể tại vị trí này đều được tính đến.
 Cuối cùng, `#jy0l7nr4` đại diện cho checksum để xác minh tính toàn vẹn của mô tả.
 Bây giờ bạn đã biết mọi thứ về hoạt động của ví HD trên Bitcoin và quá trình phái sinh cặp khóa. Tuy nhiên, trong những chương cuối, chúng tôi chỉ giới hạn ở việc tạo ra khóa riêng và khóa công khai, mà không đề cập đến việc xây dựng địa chỉ nhận. Đây chính xác sẽ là chủ đề của chương tiếp theo!
 

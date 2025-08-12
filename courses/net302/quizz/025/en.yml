@@ -1,0 +1,9 @@
+question: What are reserved ports used for in the TCP/IP model?
+answer: Listen to requests for specific services
+wrong_answers:
+  - Generate automatic datagram encapsulation
+  - Physical routing of network frames
+  - Control UDP packet fragmentation
+explanation: |
+  Ports are logical listening points that enable network applications to distinguish between different services on the same host.
+reviewed: false

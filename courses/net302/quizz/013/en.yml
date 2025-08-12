@@ -1,0 +1,9 @@
+question: Which organization assigns IP protocol version numbers?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  The Internet Assigned Numbers Authority (IANA) manages the allocation of IP protocol version numbers and the distribution of protocol ranges.
+reviewed: false

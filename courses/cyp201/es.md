@@ -1860,7 +1860,7 @@ El descriptor también incluye la clave pública extendida utilizada en esta car
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-A continuación, la notación `/<0;1>/*` especifica que el descriptor puede generar direcciones de la cadena externa (`0`) y de la cadena interna (`1`), con un asterisco (`*`) que permite la derivación secuencial de múltiples direcciones de manera configurable, similar a la gestión de un "límite de brecha" en el software de cartera tradicional.
+La notación `/<0;1>/*` indica que el descriptor puede generar direcciones tanto de la cadena externa (`0`) como de la cadena interna (`1`). El carácter comodín (`*`) al final de la ruta significa que se pueden derivar secuencialmente todas las claves hijas no reforzadas (“*unhardened*”) desde esta posición, ya sean direcciones externas o internas. Esta sintaxis no implica directamente el concepto de *gap limit*, que pertenece a un mecanismo específico de las carteras para la detección de direcciones, sino que aquí solo sirve para indicar que se consideran todas las derivaciones posibles en esta ubicación.
 
 Finalmente, `#jy0l7nr4` representa la suma de comprobación para verificar la integridad del descriptor.
 

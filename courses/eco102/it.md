@@ -464,7 +464,6 @@ Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![immagine](assets/en/057.webp)
-
 _(Richard Cobden)_
 
 Come abbiamo già visto, fu prima di tutto la lotta di Cobden contro il protezionismo con la lega inglese per l'abolizione delle Corn Laws che portò Bastiat a scrivere articoli e poi libri.
@@ -472,12 +471,21 @@ Come abbiamo già visto, fu prima di tutto la lotta di Cobden contro il protezio
 Il protezionismo è, in realtà, una forma di nazionalismo economico. Mira ad eliminare la concorrenza straniera fingendo di "difendere gli interessi nazionali". Si cerca quindi di far accettare alle autorità pubbliche un insieme di menzogne puramente demagogiche, presentate come virtuose: la difesa dei posti di lavoro, la competitività, ecc. Naturalmente, gli eletti cedono alla pressione dei produttori, perché per loro è un'occasione d'oro per consolidare la loro clientela ed espandere il loro potere.
 
 ![immagine](assets/en/058.webp)
+_un esempio di pubblicità promozionale di un frullatore prodotto in Francia_
+
+---
+
+> Il nostro incontro con Arnaud Montebourg
+> Fatto in France,
+> credeteci, lo abbiamo testato
+
+---
 
 L'argomento della protezione dei posti di lavoro è ciò che Bastiat chiama una fallacia. Perché in realtà, equivale a una tassa. Ha l'effetto di rendere i prodotti più costosi. Prendiamo l'esempio dato dallo stesso Bastiat.
 
-Immaginate un coltello inglese che si vende nel nostro paese per 2 euro, e un coltello prodotto in Francia costa 3. Se lasciamo che il consumatore acquisti liberamente il coltello che desidera, risparmia un franco, che può investire altrove (in un libro, o una matita).
+Immaginate un coltello inglese che si vende nel nostro paese per 2 euro, e un coltello prodotto in Francia invece ne costa 3€. Se lasciamo che il consumatore acquisti liberamente il coltello che desidera, risparmia un euro, che può investire altrove (in un libro, o una matita).
 
-Se vietiamo il prodotto inglese, il consumatore pagherà un franco in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende due felici vincitori.
+Se vietiamo il prodotto inglese, il consumatore pagherà un euro in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende due felici vincitori.
 
 ![immagine](assets/en/059.webp)
 
@@ -486,18 +494,35 @@ Il protezionismo è anche una forma di lotta di classe. Secondo Bastiat, è un s
 ![immagine](assets/en/060.webp)
 
 Bastiat si schiera fermamente con i consumatori. Contro l'interesse di classe, egli pone l'interesse generale, che è l'interesse del consumatore, cioè l'interesse di tutti. È sempre dal punto di vista del consumatore che lo Stato dovrebbe posizionarsi quando agisce.
-Con la rivoluzione di febbraio 1848 e le sue barricate, emerse un nemico più formidabile del protezionismo, uno con cui condivide molte affinità: il socialismo. Cos'è? È un movimento politico che richiede l'organizzazione del lavoro per legge, la nazionalizzazione delle industrie e delle banche, e la redistribuzione della ricchezza tramite tassazione. Bastiat avrebbe ora dedicato tutta la sua energia, talento e scritti contro questa nuova dottrina, che poteva solo portare alla crescita esponenziale del potere e alla lotta di classe perpetua. Così, fin dai primi giorni della rivoluzione, contribuì a un giornale di breve durata chiamato "La République Française", che divenne rapidamente noto come un giornale controrivoluzionario. Questo fu il periodo in cui scrisse i suoi opuscoli sulla proprietà, lo stato, il saccheggio e la legge.
+
+Con la rivoluzione di febbraio 1848 e le sue barricate, emerse un nemico più formidabile del protezionismo, uno con cui condivide molte affinità: il socialismo.
+
+![image](assets/en/061.webp)
+
+Cos'è? È un movimento politico che richiede l'organizzazione del lavoro per legge, la nazionalizzazione delle industrie e delle banche, e la redistribuzione della ricchezza tramite tassazione. Bastiat avrebbe ora dedicato tutta la sua energia, talento e scritti contro questa nuova dottrina, che poteva solo portare alla crescita esponenziale del potere e alla lotta di classe perpetua. Così, fin dai primi giorni della rivoluzione, contribuì a un giornale di breve durata chiamato "La République Française", che divenne rapidamente noto come un giornale controrivoluzionario. Questo fu il periodo in cui scrisse i suoi opuscoli sulla proprietà, lo stato, il saccheggio e la legge.
+
 Il 27 giugno 1848, il giorno dopo una nuova insurrezione sanguinosa a Parigi, in una lunga lettera a Richard Cobden, rifletté sulle cause che avrebbero potuto portare a questi eventi.
 
 - 1° La prima di queste cause è l'ignoranza economica. È questa che prepara le menti ad abbracciare le utopie del socialismo e del falso repubblicanesimo. Mi riferisco al video precedente sulle tendenze dell'educazione classica e universitaria su questo punto.
 
 - 2° La nazione si innamorò dell'idea che fraternità e solidarietà potessero essere introdotte nella legge. Ovvero, essa esigeva che lo stato creasse direttamente la felicità per i suoi cittadini. Qui Bastiat vede gli inizi dello stato sociale.
 
+![image](assets/en/062.webp)
+
 E avrebbe continuato ad analizzarne gli effetti perversi in seguito. Ecco un esempio, citato nella lettera a Cobden:
 
 > In virtù delle inclinazioni naturali del cuore umano, tutti cominciarono a richiedere dallo stato, per sé stessi, una maggiore quota di benessere. Ovvero, lo stato o il tesoro pubblico furono messi a saccheggio. Tutte le classi richiedevano dallo stato, come se fosse un diritto, i mezzi di esistenza. Gli sforzi compiuti in questa direzione dallo stato portarono solo a tasse e ostacoli, e all'aumento della miseria.
 
 - 3° Bastiat aggiunge che, a suo avviso, il protezionismo fu la prima manifestazione di questo disordine. I capitalisti iniziarono chiedendo l'intervento della legge per aumentare la loro quota di ricchezza. Inevitabilmente, i lavoratori vollero fare lo stesso.
+
+![image](assets/en/063.webp)
+
+---
+
+>PER IL SUCCESSO  
+>VOTA SOCIALISMO SFIO
+
+---
 
 Per concludere, protezionisti e socialisti condividono un punto comune, secondo Bastiat: ciò che cercano dalla legge non è assicurare a tutti il libero esercizio delle proprie facoltà e la giusta ricompensa per i loro sforzi, ma piuttosto favorire lo sfruttamento più o meno completo di una classe di cittadini da parte di un'altra. Con il protezionismo, è la minoranza che sfrutta la maggioranza. Con il socialismo, è la maggioranza che sfrutta la minoranza. In entrambi i casi, la giustizia è violata e l'interesse generale è compromesso. Bastiat li contrappone l'uno all'altro.
 

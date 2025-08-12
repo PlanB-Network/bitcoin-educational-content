@@ -1,0 +1,8 @@
+question: Bitcoin Mining'in çevresel maliyetine ilişkin temel endişe nedir?
+answer: Enerji tüketimi.
+wrong_answers:
+  - ASIC'lerin üretimi.
+  - ASIC'lerin geri dönüşümü.
+  - Elektrik maliyeti.
+explanation: >-
+reviewed: true

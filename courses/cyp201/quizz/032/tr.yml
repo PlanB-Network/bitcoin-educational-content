@@ -1,0 +1,9 @@
+question: Hangi sighash bayrağı tek bir girdi ve tüm çıktıları kapsayarak kitlesel fonlamaya izin verir?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL, SIGHASH_ANYONECANPAY ile birlikte çıkışları değiştirmeden girişlerin eklenmesini sağlar.
+reviewed: false

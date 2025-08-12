@@ -1,0 +1,9 @@
+question: Hangi hizmet On-Chain fonlarını geri alırken likiditenin bir kanalın karşı tarafına taşınmasına izin verir?
+answer: Döngü Çıkışı
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Lightning Labs'in Loop Out hizmeti, fonların bir Lightning kanalından On-Chain Blockchain'ye aktarılmasını sağlayarak ana zincirdeki bitcoinleri geri alırken alım kapasitesini optimize eder.
+reviewed: false

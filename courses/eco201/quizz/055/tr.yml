@@ -1,0 +1,10 @@
+question: Avusturya ekonomik mantığında aksiyomların rolü nedir?
+answer: Aksiyomlar, mantıksal çıkarımların yapılabileceği temel Elements'dır.
+wrong_answers:
+  - Aksiyomlar, Avusturyacı ekonomik akıl yürütmede önemsizdir.
+  - Aksiyomlar, ampirik verilere dayalı olarak değişkenler arasında ilişki kurmak için kullanılır.
+  - Aksiyomlar, geçici deneyler yoluyla hipotezleri doğrulamak veya çürütmek için kullanılır.
+explanation: |
+  Avusturya ekonomik düşüncesinde aksiyomlar çok önemli bir rol oynamaktadır. Bunlar
+  mantıksal çıkarımların yapılabileceği temel Elements.
+reviewed: true

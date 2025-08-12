@@ -1,0 +1,11 @@
+question: Bitcoin güvenliği bağlamında Blockmit nedir?
+answer: Mnemonic ifadenizi bir parça çelik üzerine kazımak için düşük maliyetli bir çözüm.
+wrong_answers:
+  - Aynı anda birden fazla işlemi imzalamak için bir tür Bitcoin Wallet.
+  - Evde bitcoin madenciliği yapmak için düşük maliyetli bir çözüm.
+  - UTXO'ları harcamak için birden fazla imza gerektiren bir Bitcoin Wallet türü.
+explanation: |
+  Blockmit, ürünlerinizi kazımak için düşük maliyetli bir çözümdür
+  Çelik gibi dayanıklı bir malzeme üzerinde Mnemonic ibaresi, böylece
+  bitcoinlerinizi uzun vadede güvence altına almak.
+reviewed: true

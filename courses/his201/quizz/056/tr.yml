@@ -1,0 +1,9 @@
+question: Eylül 2010'da yazılım tarafından tanınan standart komut dosyası çıktı kalıpları nelerdi?
+answer: Bir açık anahtar tarafından alınma (P2PK) ve bir Address tarafından alınma (P2PKH)
+wrong_answers:
+  - Bir Address (P2PKH) tarafından alındı ve bir çoklu imza betiği (P2MS) tarafından alındı
+  - Bir Address (P2PKH) tarafından alındı ve bir komut dosyası (P2SH) tarafından alındı
+  - Bir açık anahtar (P2PK) tarafından alındı ve bir komut dosyası (P2SH) tarafından alındı
+explanation: |
+  Bunlar Bitcoin'in başlangıcından beri kullanılan iki tipti. P2MS tipi Mart 2012'de standart hale getirildi ve P2SH tipi Nisan 2012'de protokole eklendi.
+reviewed: true

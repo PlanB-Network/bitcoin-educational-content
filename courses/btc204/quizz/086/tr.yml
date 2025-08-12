@@ -1,0 +1,10 @@
+question: Bu 3 protokol arasında hangisi CoinJoin'ın bir uygulaması değildir?
+answer: Zincirleme analiz.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis, bir Blockchain analiz şirketi olduğu için CoinJoin'ün bir uygulaması değildir.
+  
+reviewed: false

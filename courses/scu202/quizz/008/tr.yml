@@ -1,0 +1,9 @@
+question: MacOS ekosisteminin en büyük dezavantajı nedir?
+answer: Hapsedilme ve Apple'a bağımlılık
+wrong_answers:
+  - Çok fazla yazılım açıklığı
+  - Zayıf grafik optimizasyonu
+  - Güncelleme eksikliği
+explanation: |
+  MacOS'un Apple donanımıyla sıkı entegrasyonu, markanın tescilli ekosistemine bağımlılığa ve kilitlenmeye yol açıyor.
+reviewed: false

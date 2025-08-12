@@ -1,0 +1,11 @@
+question: Siber güvenliğin altın kuralı nedir?
+answer: Siber güvenlik, öğrenme yolculuğunuza uyum sağlayacak hareketli bir hedeftir.
+wrong_answers:
+  - Siber güvenlik tek seferlik bir kurulumdur
+  - Kişisel hesaplar için siber güvenlik gerekli değildir
+  - Siber güvenlik yalnızca teknoloji meraklıları içindir
+explanation: |
+  Siber güvenlik hareketli bir hedeftir çünkü tehditler ve
+  güvenlik önlemleri sürekli olarak gelişmektedir. Bu önemli
+  öğrenmeye ve uygulamalarınızı uyarlamaya devam etmek.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kimyacılar neden grup teorisini kullanır?
+answer: Moleküllerin şekillerini sınıflandırmak
+wrong_answers:
+  - Kimyasal bağları analiz etmek
+  - Moleküler kütleyi hesaplamak için
+  - Kimyasal reaksiyonları tahmin etmek
+explanation: |
+  Grup teorisi, kimyacıların moleküler şekilleri simetrilerine göre sınıflandırmalarına olanak tanıyarak yapısal özelliklerinin anlaşılmasına yardımcı olur.
+reviewed: false

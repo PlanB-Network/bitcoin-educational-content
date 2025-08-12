@@ -1,0 +1,9 @@
+question: Hangi ekonomist 1999 yılında eksik olan tek şeyin güvenilir elektronik para olduğunu ve bunun da yakında geliştirileceğini söylemiştir?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Ekonomi alanında Nobel Ödülü sahibi ve Chicago Okulu'nun kurucusu, Ulusal Vergi Mükellefleri Birliği Vakfı'nın mikrofonuna bu öngörüyü yaptı. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: true

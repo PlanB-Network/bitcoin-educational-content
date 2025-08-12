@@ -1,0 +1,9 @@
+question: Debian ve Ubuntu tarafından kullanılan paket yöneticisi nedir?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian ve Ubuntu, yazılım kurulumunu ve güncellemesini yönetmek için .deb formatını temel alan APT paket yöneticisini kullanır.
+reviewed: false

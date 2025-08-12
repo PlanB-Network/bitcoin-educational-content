@@ -1,0 +1,10 @@
+question: Wabisabi katılımcıların anonslarını artırmak için hangi stratejiyi kullanıyor?
+answer: Birkaç çok büyük işlemle.
+wrong_answers:
+  - Çok sayıda küçük işlemle.
+  - Tek bir küçük işlemle.
+  - Hiçbir işlem yapmadan.
+explanation: |
+  Katılımcıların anonsetlerini artırmak için Wabisabi, düzinelerce katılımcıyı bir araya getiren çok büyük CoinJoin işlemleri kullanır.
+  
+reviewed: false

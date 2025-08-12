@@ -1,0 +1,9 @@
+question: Bastiat mülkiyetin iyi bir tanımını nasıl değerlendiriyor?
+answer: Sebepleri dikkate almalıdır
+wrong_answers:
+  - Etkileri dikkate almalıdır
+  - Yasayı dikkate almalıdır
+  - Sosyal tanınırlığa dayanmalıdır
+explanation: |
+  Bastiat, mülkiyetin salt yasal bir yapı olarak değil, emek ve kişisel çaba gibi nedenlere dayalı olarak tanımlanması gerektiğine inanmaktadır.
+reviewed: false

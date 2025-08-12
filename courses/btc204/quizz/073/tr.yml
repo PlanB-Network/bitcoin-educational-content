@@ -1,0 +1,10 @@
+question: Aşağıdaki cevaplardan hangisi zincir analizi sezgisellerini aldatmaya izin vermez?
+answer: Her zaman aynı alıcı Address'ı kullanıyor.
+wrong_answers:
+  - Değeri ödemeye yakın olan bir değişiklik oluşturmak.
+  - Düzensiz, yuvarlak olmayan miktarların çıktılarının alınması.
+  - İşlemlerin gün boyunca dağıtılması.
+explanation: |
+  Özellikle bir alıcı Address birden fazla kez kullanılmamalıdır. Diğer tüm cevaplar, zincir analizi sezgisel yöntemlerinden kaçınmaya izin verir.
+  
+reviewed: false

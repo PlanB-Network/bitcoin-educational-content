@@ -1,0 +1,9 @@
+question: Kasım 2008'de beyaz kitabın yayınlanmasına olumlu tepki veren kişi kimdir?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  7 Kasım'da listeye Bitcoin'ın çok umut verici bir fikir olduğunu [yazdı]. Diğerleri ise daha şüpheciydi. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: true

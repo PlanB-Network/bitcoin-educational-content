@@ -1,0 +1,10 @@
+question: Address'ın Bitcoin üzerindeki genel yeniden kullanım oranı yaklaşık olarak hangi düzeydedir?
+answer: Yaklaşık %50
+wrong_answers:
+  - Yaklaşık %5
+  - Yaklaşık %15
+  - Yaklaşık %40
+explanation: |
+  2010'ların başından bu yana, Address'nin Bitcoin üzerindeki genel yeniden kullanım oranı %50 civarında dalgalanmıştır.
+  
+reviewed: false

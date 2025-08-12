@@ -1,0 +1,11 @@
+question: Siber güvenlikte kullanılan kriptografinin bazı yönleri nelerdir?
+answer: SSL/TLS, simetrik/asimetrik şifreleme
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  Bu bölümde SSL/TLS ve simetrik/asimetrik
+  kullanılan kriptografinin bazı yönleri olarak şifreleme
+  siber güvenlik.
+reviewed: true

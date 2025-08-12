@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet'deki Mnemonic ifadesinin amacı nedir?
+answer: Tüm anahtarları deterministik olarak türetmek için
+wrong_answers:
+  - İşlemleri doğrudan imzalamak için
+  - Bitcoin adreslerini şifrelemek için
+  - UTXO'lar için generate a Hash'e
+explanation: |
+  Mnemonic ifadesi, bir Wallet'deki tüm özel ve açık anahtarların türetilmesine izin verir, böylece yedekleme ve kurtarmayı kolaylaştırır.
+reviewed: false

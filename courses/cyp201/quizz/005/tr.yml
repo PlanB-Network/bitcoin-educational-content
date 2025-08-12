@@ -1,0 +1,9 @@
+question: SHA256'da geri döndürülemezlik neden sağlanır?
+answer: Kullanılan işlemler bilgiyi kaldırır ve tek yönlüdür
+wrong_answers:
+  - Mesajlar hashing işleminden önce şifrelenir
+  - Bitler rastgele yeniden düzenlenir
+  - Her Hash bir veritabanında saklanır
+explanation: |
+  ShR ve XOR gibi işlemler başlangıç durumuna dönmeyi imkansız hale getirerek geri döndürülemezliği sağlar.
+reviewed: false

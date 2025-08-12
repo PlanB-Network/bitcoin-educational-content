@@ -1,0 +1,12 @@
+question: KYC düzenlemelerinin amacı nedir?
+answer: Terörizmin finansmanı, vergi kaçakçılığı ve kara para aklama ile mücadele etmek.
+wrong_answers:
+  - Bitcoin'ın fiyatını artırmak ve kullanıcının daha fazla vergi ödemesini sağlamak.
+  - Bitcoin'in Supply'sini kontrol etmek için.
+  - İnsanların Bitcoin satın almasını önlemek için.
+explanation: |
+  Kurs metni Müşterinizi Tanıyın (KYC) konusunu açıklamaktadır
+  yönetmelikler, kullanıcıların aşağıdakilere kimlik sağlamasını gerektirir
+  terörizmin finansmanı, vergi kaçakçılığı ve kara para ile mücadele
+  aklama.
+reviewed: true

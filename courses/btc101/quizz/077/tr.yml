@@ -1,0 +1,12 @@
+question: Bir Bitcoin Wallet'in açık anahtarını paylaşmanın riski nedir?
+answer: Mahremiyeti kaybetmek.
+wrong_answers:
+  - Bitcoin Wallet yok ediliyor.
+  - Bitcoinleri kaybetmek.
+  - Bitcoin Wallet'i hacklemek.
+explanation: |
+  Açık anahtarın paylaşılması gizlilik için riskler içerir, ancak
+  güvenlik için. Bunun nedeni, açık anahtarın aşağıdakiler için kullanılmasıdır
+  generate Bitcoin adresleri ve dolayısıyla para almak, ancak
+  bitcoins'in Ownership'sını temsil etmemektedir.
+reviewed: true

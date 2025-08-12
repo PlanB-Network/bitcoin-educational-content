@@ -1,0 +1,8 @@
+question: Bu yazarlardan hangisi Gournay çevresine ait değildir?
+answer: Dupont de Nemours
+wrong_answers:
+  - Véron de Forbonnais
+  - Turgot
+  - Adam Smith
+explanation: |
+  Dupont de Nemours bir fizyokrattı, Gournay çevresinin bir üyesi değildi. Fizyokratlar, Gournay çevresinin fikirlerine yakın fikirlere sahipti, ancak ayrı bir grup oluşturuyorlardı.

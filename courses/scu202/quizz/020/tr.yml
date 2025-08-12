@@ -1,0 +1,9 @@
+question: Bu masaüstü ortamlarından hangisi özellikle eski veya daha az güçlü makineler için önerilir?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Tarçın
+  - KDE Plazma
+explanation: |
+  LXQt, Xfce gibi az kaynak tüketir ve düşük performanslı donanımlarda verimli çalışacak şekilde tasarlanmıştır.
+reviewed: false

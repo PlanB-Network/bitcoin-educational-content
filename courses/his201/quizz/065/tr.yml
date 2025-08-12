@@ -1,0 +1,9 @@
+question: Kasım 2010'da ilk Block explorer'ı kim yarattı?
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  Bu Bitcoin Block explorer, kullanıcıların bir web tarayıcısı aracılığıyla bloklar, adresler ve işlemler hakkında ayrıntılı bilgileri görüntülemesini sağlar.
+reviewed: true

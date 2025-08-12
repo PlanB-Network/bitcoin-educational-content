@@ -1,0 +1,9 @@
+question: Haziran 2010'da Gavin Andresen tarafından yaratılan Bitcoin Faucet ne sunuyordu?
+answer: Bitcoins
+wrong_answers:
+  - Alışveriş kuponları
+  - Bitcoin Pazarı için ücret indirimleri
+  - Bir blok çıkarma şansı
+explanation: |
+  Bu hizmet başlangıçta insanların sistemi denemeleri için talep başına beş bitcoin dağıtmıştır. Bu miktar zamanla azaltıldı ve Faucet 2012 yılında kapatıldı.
+reviewed: true

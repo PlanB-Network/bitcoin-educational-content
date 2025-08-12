@@ -1,0 +1,9 @@
+question: Sayı teorisi açık anahtar kriptografisinde neden özellikle önemlidir?
+answer: Şifreleme ve şifre çözme işlemleri için gerekli matematiksel temelleri sağlar.
+wrong_answers:
+  - Hash işlemleri için gerekli matematiksel temelleri sağlar.
+  - Sinir ağlarının oluşturulması için gereklidir.
+  - İşlemlerin yalnızca ikili olarak hesaplanmasına izin verir.
+explanation: |
+  Sayı teorisi açık anahtar kriptografisinde çok önemlidir çünkü tam sayıların özelliklerine dayalı algoritmaların yapılandırılmasına yardımcı olarak şifreleme ve şifre çözme işlemlerini kolaylaştırır.
+reviewed: false

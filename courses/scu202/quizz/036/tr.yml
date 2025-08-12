@@ -1,0 +1,9 @@
+question: Kullanılmayan veya eski yazılımları bilgisayarınızdan kaldırmanız neden tavsiye edilir?
+answer: Saldırı yüzeyini azaltmak için
+wrong_answers:
+  - İnternet bağlantınızı hızlandırmak için
+  - Koruyucu vektörleri geliştirmek için
+  - Pil ömrünü artırmak için
+explanation: |
+  Ne kadar az yazılım yüklenirse, saldırganlar tarafından istismar edilebilecek potansiyel güvenlik açıkları o kadar az olur.
+reviewed: false

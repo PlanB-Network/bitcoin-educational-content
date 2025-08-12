@@ -1,0 +1,12 @@
+question: Carl Menger'e göre, iki birey arasında gönüllü Exchange neden gerçekleşir?
+answer: Her iki taraf da bunun kendi öznel faydalarını artıracağına inanmaktadır.
+wrong_answers:
+  - Her iki taraf da bunun kendi öznel faydalarını azaltacağına inanmaktadır.
+  - Her bir taraf kendi öznel faydasını koruyacağına inanmaktadır.
+  - Her iki taraf da bunun kendi öznel faydaları üzerinde hiçbir etkisi olmayacağına inanmaktadır.
+explanation: |
+  Menger, iki ülke arasındaki gönüllü Exchange'in
+  bireyler gerçekleşir çünkü her iki taraf da
+  öznel faydalarını artırmak. Bu, her birinin
+  parti Exchange'den sonra daha iyi durumda olacaklarına inanmaktadır.
+reviewed: true

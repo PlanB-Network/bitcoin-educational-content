@@ -1,0 +1,10 @@
+question: Address'ın yeniden kullanımı ile ilgili ana tehdit nedir?
+answer: Farklı işlemler ve ilgili UTXO'ların ortak bir Ownership'i arasında deterministik bağlantılar kurulmasına izin verir.
+wrong_answers:
+  - İşlem doğrulama sırasında kullanıcının IP Address'sini diğer ağ katılımcılarına gösterir.
+  - Dijital imza mekanizmalarının etkinliğini azaltır, bu da işlemlerin güvenliğini zayıflatır.
+  - Address'ün yeniden kullanımından kaynaklanan tıkanıklık nedeniyle işlem ücretlerinde artışa yol açar.
+explanation: |
+  Aynı Address birden fazla işlem için kullanılırsa, bu Address ile ilişkili tüm bitcoinlerin aynı kişiye ait olduğu sonucuna varmak mümkün hale gelir.
+  
+reviewed: false

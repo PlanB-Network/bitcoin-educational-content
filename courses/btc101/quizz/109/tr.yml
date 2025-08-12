@@ -1,0 +1,11 @@
+question: Bitcoin'da bireysel sorumluluğun önemi nedir?
+answer: Bu çok önemlidir çünkü yedeklemelerden siz sorumlusunuz.
+wrong_answers:
+  - Bu çok önemlidir çünkü bitcoin madenciliği yapmanız gerekir.
+  - Bitcoin satın almak çok önemlidir.
+  - Bu çok önemli çünkü Wallet temasından siz sorumlusunuz.
+explanation: |
+  KİS-2'de mali egemenlik, aşağıdakilerle el ele gider
+  bireysel sorumluluk, çünkü kendi gözetiminizi kendiniz yapmalısınız
+  önerilen yedekleme prosedürlerini takip ederek fonlarınızı koruyun.
+reviewed: true

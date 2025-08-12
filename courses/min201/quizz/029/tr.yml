@@ -1,0 +1,12 @@
+question: Madencilerin Bitcoin ağındaki rolü nedir?
+answer: Madenciler blokların doğrulanması ve oluşturulmasında önemli bir rol oynar.
+wrong_answers:
+  - Madenciler yalnızca işlemleri doğrular.
+  - Madenciler Bitcoin'in fiyatını kontrol ediyor.
+  - Madencilerin Bitcoin ağında hiçbir rolü yoktur.
+explanation: |
+  Madenciler Bitcoin ağında önemli bir rol oynayarak
+  doğrulama ve blok oluşturma. Ağı güçlendirirler
+  hesaplamak için elektrik kullanarak sansüre karşı
+  Bitcoin için Proof of Work.
+reviewed: true

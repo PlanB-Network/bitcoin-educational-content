@@ -1,0 +1,9 @@
+question: Bir ödeme kanalında, kanalın kapasitesi nedir?
+answer: İki katılımcının Exchange yapabileceği toplam fon miktarı
+wrong_answers:
+  - Kanalın açık kalabileceği süre sınırı
+  - Bir katılımcının tek bir işlemde gönderebileceği maksimum tutar
+  - Bir kanalın günlük destekleyebileceği işlem sayısı
+explanation: |
+  Kanalın kapasitesi iki katılımcının toplam fonlarına karşılık gelir ve olası değiş tokuşları belirlemek için sabit kalır.
+reviewed: false

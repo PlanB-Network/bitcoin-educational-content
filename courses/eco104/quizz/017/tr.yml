@@ -1,0 +1,14 @@
+question: Metinde bahsedilen başlıca sabit coin türleri nelerdir?
+answer: Fiat destekli, emtia destekli ve algoritmik sabit coinler.
+wrong_answers:
+  - Dijital ve fiziksel sabit paralar
+  - Merkezi ve merkezi olmayan sabit coinler
+  - Bankalar tarafından desteklenen stabilcoinler ve bireyler tarafından desteklenen stabilcoinler
+explanation: |
+  Önceki bölümlerde üç ana sabit coin türü gördük;
+  geleneksel para birimleri tarafından desteklenen fiat destekli sabit paralar
+  aBD doları gibi; emtia destekli sabit paralar, ki bunlar
+  altın veya petrol gibi emtialar; ve algoritmik sabit paralar, ki bunlar
+  değerlerini korumak için bir dizi kural veya algoritmaya bağlıdır. Ancak,
+  başarılı algoritmik sabit coinlerin henüz piyasaya çıkmadığını belirtiyor.
+reviewed: true

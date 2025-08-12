@@ -1,0 +1,9 @@
+question: Hangi dağıtım varsayılan olarak Cinnamon masaüstü ortamını kullanır?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon, Windows'a yakın, modern ve klasik bir Interface sunmak için Linux Mint ekibi tarafından geliştirilmiştir.
+reviewed: false

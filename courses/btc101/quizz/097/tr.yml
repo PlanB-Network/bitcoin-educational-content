@@ -1,0 +1,11 @@
+question: Özel anahtarınız üçüncü bir tarafa ifşa edilirse ne olur?
+answer: Üçüncü taraf bitcoinlerinizi harcayabilir.
+wrong_answers:
+  - Üçüncü taraf yalnızca işlem geçmişinizi görüntüleyebilir.
+  - Üçüncü taraf özel anahtarınızı değiştirebilir.
+  - Üçüncü taraf kişisel bilgilerinize erişebilir.
+explanation: |
+  Özel anahtarınız üçüncü bir tarafa ifşa edilirse
+  ilgili fonlar artık güvenli değildir, çünkü özel sektör
+  anahtarı fonlarınıza erişmelerini sağlar.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre toplumsal örgütlenmenin itici gücü nedir?
+answer: Pazar
+wrong_answers:
+  - Devlet
+  - Din
+  - Gelenek
+explanation: |
+  Bastiat, serbest piyasanın toplumsal örgütlenmenin gerçek itici gücü olduğuna, çünkü bireyler arasında kendiliğinden ve etkin bir koordinasyona olanak sağladığına inanmaktadır.
+reviewed: false

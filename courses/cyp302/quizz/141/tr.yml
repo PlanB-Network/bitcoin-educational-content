@@ -1,0 +1,9 @@
+question: İki çok büyük asal sayının çarpımını çarpanlarına ayırmak neden zor bir problem olarak kabul edilir?
+answer: Çünkü süper bilgisayarlar için bile engelleyici miktarda hesaplama süresi gerektirir.
+wrong_answers:
+  - Çünkü her faktör için bir açık anahtar gerektirir.
+  - Çünkü hesaplamada sadece temel işlemleri içerir.
+  - Çünkü bölme işlemine değil çarpma işlemine bağlıdır.
+explanation: |
+  İki büyük asal sayının çarpımı gibi büyük bir sayının çarpanlarına ayrılması, mevcut bilgisayarların kapasitesini aşan hesaplama güçleri gerektirir ve bu görevi pratik olarak imkansız hale getirir.
+reviewed: false

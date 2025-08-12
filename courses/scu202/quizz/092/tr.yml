@@ -1,0 +1,9 @@
+question: Hangi cihaz İnternet ile özel ev ağınız arasında sınır görevi görür?
+answer: Modem yönlendirici
+wrong_answers:
+  - Ethernet anahtarı
+  - NAS sunucusu
+  - USB hub
+explanation: |
+  Modem yönlendirici ISP ağını yerel ağınıza bağlar ve yerel IP adreslerinin tahsisini yönetir.
+reviewed: false

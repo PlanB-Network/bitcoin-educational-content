@@ -1,0 +1,9 @@
+question: Aralık 2010'da Bitcoin.it vikisini kim oluşturdu?
+answer: Mark Karpelès (MagicalTux)
+wrong_answers:
+  - Michael Marquardt (Theymos)
+  - Martti Malmi (sirius-m)
+  - Amir Taaki (genjix)
+explanation: |
+  Fikir [şuydu] (https: //buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) daha az resmi ve daha topluluk odaklı bir wiki geliştirmek.
+reviewed: true

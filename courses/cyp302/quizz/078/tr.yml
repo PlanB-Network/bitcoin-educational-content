@@ -1,0 +1,9 @@
+question: Kaba kuvvet saldırısı ne anlama gelir?
+answer: Doğru anahtar bulunana kadar tüm olası anahtarların denenmesi
+wrong_answers:
+  - Metni anlaşılmaz hale getirmek için değiştirmek
+  - Mesajın şifresini çözmek için açık anahtar kullanma
+  - Gizli anahtarı vermeye zorlamak için bilgisayara çok Hard vurmak
+explanation: |
+  Kaba kuvvet saldırısı, şifrelenmiş bir mesajın şifresini çözmek için olası tüm anahtarların sistematik olarak test edilmesini içerir.
+reviewed: false

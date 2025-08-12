@@ -1,0 +1,9 @@
+question: SegWit ile hangi ECDSA imza açığı düzeltildi?
+answer: İşlenebilirlik
+wrong_answers:
+  - Toplu doğrulama
+  - Birleştirme eksikliği
+  - İmzaların aşırı büyüklüğü
+explanation: |
+  SegWit, ECDSA imzalarının değiştirilebilirliğini düzelterek Lightning Network gibi kullanımları mümkün kılmıştır.
+reviewed: false

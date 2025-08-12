@@ -1,0 +1,9 @@
+question: Satoshi Temmuz 2010'daki iletişiminde Bitcoin'ın hangi yönünü küçümsemek istemiştir?
+answer: İşlemlerin anonimliği
+wrong_answers:
+  - Para politikası
+  - E-ticaret
+  - Programlanabilirlik
+explanation: |
+  Slashdot için taslak sunumla ilgili olarak, anonim yönünü vurgulamak istemediğini belirtti. Nedenlerini Martti Malmi'ye [özel olarak] açıkladı (https: //mmalmi.github.io/Satoshi/#email-197).
+reviewed: true

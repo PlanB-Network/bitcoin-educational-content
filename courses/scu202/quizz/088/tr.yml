@@ -1,0 +1,9 @@
+question: Hangi açık kaynaklı parola yöneticisi kimlik bilgilerinizi buluta ihtiyaç duymadan yerel olarak saklamanıza olanak tanır?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Şifre Yöneticisi
+explanation: |
+  KeePassDX, bir buluta veya merkezi bir hizmete aboneliğe ihtiyaç duymadan şifrelenmiş yerel dosyalar temelinde çalışır.
+reviewed: false

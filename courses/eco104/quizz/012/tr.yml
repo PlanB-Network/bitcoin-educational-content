@@ -1,0 +1,12 @@
+question: Bitcoin'ın ağı geleneksel finansal sistemlere göre ne gibi avantajlar sunuyor?
+answer: Yerinden yönetim ve güvenlik
+wrong_answers:
+  - Artan enflasyon oranları
+  - Aracılara bağımlılık
+  - İşlemler üzerinde merkezi kontrol
+explanation: |
+  Bitcoin'in merkezi olmayan ağı, aşağıdakiler için güvenli ve verimli bir yol sağlar
+  aracılara veya üçüncü taraflara ihtiyaç duymadan işlem yapabilir. Bu
+  sansür ve işlemlerde yetkisiz değişiklik riskini azaltır,
+  hem de mahremiyeti artırır.
+reviewed: true

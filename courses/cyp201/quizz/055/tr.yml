@@ -1,0 +1,9 @@
+question: seed'a uygulanan HMAC-SHA512 işlevinin çıktısı kaç parçaya bölünmüştür?
+answer: 256 bitlik iki parça
+wrong_answers:
+  - 512 bitlik tek bir parça
+  - 170 bitlik üç parça
+  - 128 bitlik dört parça
+explanation: |
+  HMAC-SHA512 çıktısı iki bölüme ayrılır: ana özel anahtar (256 bit) ve ana chain code (256 bit).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Turgot'nun dini hakikate karşı tutumu neydi?
+answer: Dini hakikat bireysel bir vicdan meselesidir ve herhangi bir otorite tarafından dayatılamaz.
+wrong_answers:
+  - Dini hakikat görecelidir ve kişinin içinde yaşadığı kültüre ve çağa bağlıdır.
+  - Dini hakikat insan için erişilemezdir ve herhangi bir kesinliğin konusu olamaz.
+  - Dini hakikat siyasi iktidar tarafından belirlenmeli ve tüm vatandaşlara dayatılmalıdır.
+explanation: |
+  Turgot, dini hakikati bireysel vicdanla ilgili kişisel bir mesele olarak görmüş ve otoritenin bireylere dini inançları empoze etme hakkına sahip olmadığını ileri sürmüştür.
+reviewed: true

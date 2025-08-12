@@ -1,0 +1,9 @@
+question: BTC Pay Server Profesyonel bir ortamda nasıl dağıtılabilir?
+answer: Şirket içi veya bulut barındırma yoluyla
+wrong_answers:
+  - Yalnızca özel donanım cihazlarında
+  - Tamamen dış kaynaklı bir üçüncü taraf hizmeti aracılığıyla
+  - Mobil uygulama olarak
+explanation: |
+  BTC Pay Server'ı şirket içinde veya bulutta dağıtma esnekliği, işletmelerin operasyonel ihtiyaçlarına en uygun kurulumu seçmelerine olanak tanır.
+reviewed: false

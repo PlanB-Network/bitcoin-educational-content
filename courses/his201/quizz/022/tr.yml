@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun Ağustos 2008'de iletişime geçtiği ilk kişi kimdi?
+answer: Adam Back
+wrong_answers:
+  - Wei Dai
+  - Hal Finney
+  - James A. Donald
+explanation: |
+  Adam Back 20 Ağustos'ta onunla temasa geçerek Hashcash makalesine beyaz kitapta atıfta bulunacağını bildirdi. Adam Back yanıt verdikten sonra onu Wei Dai'ye (b-para kavramı için) yönlendirdi ve Satoshi bu kişiyle iki gün sonra iletişim kurdu.
+reviewed: true

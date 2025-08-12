@@ -1,0 +1,13 @@
+question: Mevcut finansal sistemin siyasi aktörler üzerindeki potansiyel etkisi nedir?
+answer: Radikal değişiklikler yapmaya teşvik edilmiyorlar ve sistemin olası bir patlamaya kadar yoluna devam etmesine izin veriyorlar.
+wrong_answers:
+  - Olası bir patlamayı önlemek için radikal değişiklikler yapmaya teşvik ediliyorlar.
+  - Kendi zenginliklerini güvence altına almak için statükoyu korumaya teşvik edilmezler.
+  - Uzun vadeli düşünmeye teşvik edilirler.
+explanation: |
+  Siyasi aktörler mevcut finansal krizden yararlandıkça
+  sistemde radikal değişiklikler yapmaya teşvik edilmemektedirler.
+  Bu durum, sistemin bir
+  sistem düzenlendiğinden olası bir patlama ve
+  kendi çöküşünü önlemek için sınırlandırılmıştır.
+reviewed: true

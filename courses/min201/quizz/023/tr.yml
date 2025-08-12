@@ -1,0 +1,10 @@
+question: Oluşturulabilecek maksimum bitcoin sayısı nedir?
+answer: yaklaşık 21 milyon adet
+wrong_answers:
+  - aşağı yukarı 18 milyon adet
+  - yaklaşık 25 milyon adet
+  - yaklaşık 30 milyon adet
+explanation: |
+  Bitcoin'ın oluşturulması, sabit bir üst sınır ile karakterize edilir
+  21 milyon adet.
+reviewed: true

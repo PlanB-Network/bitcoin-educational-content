@@ -1,0 +1,9 @@
+question: Asimetrik kriptografi bağlamında dijital imza nedir?
+answer: Özel anahtarı kullanarak bir mesajın gerçekliğini doğrulamak için bir mekanizma
+wrong_answers:
+  - Mesajı daha güçlü bir şekilde şifrelemek için bir süreç
+  - Şifrelenmiş bir mesajı doğrulamak için ek bir açık anahtar
+  - El yazısı imzanın dijital kopyası
+explanation: |
+  Dijital imza, bir mesajın gerçekten ilgili özel anahtarın sahibi tarafından oluşturulduğunu kanıtlayan ve böylece gerçekliğini sağlayan bir kriptografik tekniktir.
+reviewed: false

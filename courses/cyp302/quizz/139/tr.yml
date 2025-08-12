@@ -1,0 +1,9 @@
+question: Bir kriptografik Hash fonksiyonunun temel özelliği nedir?
+answer: Boyutuna bakılmaksızın herhangi bir girdi için sabit uzunlukta bir çıktı üretir.
+wrong_answers:
+  - Simetrik bir anahtar kullanarak verileri şifreler.
+  - Girdinin uzunluğuna bağlı olarak değişken bir çıktı üretir.
+  - Açık bir anahtar kullanarak mesajların şifresini çözer.
+explanation: |
+  Bir Hash işlevi, girdinin boyutu ne olursa olsun sabit uzunlukta bir Hash üretir.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Bir Bitcoin düğümünde dolaşımdaki bitcoin miktarını doğrulamak için komut nedir?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  Bitcoins miktarını doğrulama komutu
+  gW-7 düğümündeki dolaşım bitcoin-cli'dır
+  gettxoutsetinfo. Bu komut şeffaflık sağlar ve
+  doğrulanabilirlik, Bitcoin sistemine olan güveni güçlendirir.
+reviewed: true

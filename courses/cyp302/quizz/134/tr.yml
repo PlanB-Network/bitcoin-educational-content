@@ -1,0 +1,9 @@
+question: Alice ve Bob arasındaki iletişim bağlamında asimetrik kriptografinin temel amacı nedir?
+answer: Bob'ün açık anahtarını kullanarak Alice'ye gizli bir mesaj iletmesine izin vermek için
+wrong_answers:
+  - Bob'ün ortak anahtar olmadan mesajları şifrelemesine ve şifrelerini çözmesine izin vermek için
+  - Alice'in Bob'nın mesajlarının şifresini çözmesini önlemek için
+  - Alice'nin bütünlüğünü doğrulamak için mesajı şifrelemesine izin vermek için
+explanation: |
+  Asimetrik kriptografide, Alice'in açık anahtarı Bob'un yalnızca kendisinin şifresini çözebileceği şifreli bir mesaj göndermesini sağlar ve böylece mesajın gizliliğini garanti eder.
+reviewed: false

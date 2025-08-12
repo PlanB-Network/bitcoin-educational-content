@@ -1,0 +1,9 @@
+question: Temmuz 2010'da Bitcoin forumunun İngilizce olmayan ilk alt forumu hangi dile ayrılmıştı?
+answer: Rusça
+wrong_answers:
+  - Fransızca
+  - Alman
+  - İtalyan
+explanation: |
+  Martti Malmi tarafından 28 Temmuz'da [kurulmuştur](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241). Sonraki aylarda diğer diller de eklendi.
+reviewed: true

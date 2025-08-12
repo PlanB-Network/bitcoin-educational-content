@@ -1,0 +1,9 @@
+question: Bastiat, Rousseau'yu hangi siyasi hareketin öncüsü olarak görmektedir?
+answer: Sosyalizm
+wrong_answers:
+  - Komünizm
+  - Karşılıklılık
+  - Anarşizm
+explanation: |
+  Bastiat, Rousseau'yu, bireyin genel iradeye boyun eğmesi gereken topluma kolektif yaklaşımı nedeniyle sosyalizmin öncüsü olarak görür.
+reviewed: false

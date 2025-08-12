@@ -1,0 +1,10 @@
+question: JoinMarket'te yapımcılara nasıl ödeme yapılır?
+answer: Alıcılar tarafından ödenen ücretler aracılığıyla.
+wrong_answers:
+  - Mining ücretleri aracılığıyla.
+  - Alıcılardan gelen gönüllü bağışlar aracılığıyla.
+  - Bitcoin topluluğundan gelen hibeler aracılığıyla.
+explanation: |
+  Yapıcılar bitcoinlerini alıcılar için hazır bırakır ve hizmetleri karşılığında ücret alırlar. Alıcılar da kendi CoinJoin işlemlerini gerçekleştirmek için üreticilerin bitcoinlerini kullanmak üzere ödeme yaparlar.
+  
+reviewed: false

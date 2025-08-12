@@ -1,0 +1,8 @@
+question: Bir Miner için tipik maliyetler nelerdir?
+answer: Elektrik tüketimi ve donanım satın alımı.
+wrong_answers:
+  - Sadece donanım alımı.
+  - İşlem ücretleri.
+  - Elektrik tüketimi ve işlem ücretleri.
+explanation: >-
+reviewed: false

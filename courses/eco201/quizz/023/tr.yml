@@ -1,0 +1,14 @@
+question: İşbölümünde koordinasyon sorunu neden daha büyük topluluklarda yeniden ortaya çıkıyor?
+answer: Çünkü insanlar bilişsel kapasiteleri ile sınırlıdır ve Exchange'daki katkıların değerinin sosyal olarak kabul edilen ölçümü önemsiz olmayan bir sorundur.
+wrong_answers:
+  - Çünkü insanlar büyük gruplarla çalışmakla ilgilenmezler ve daha küçük toplulukları tercih ederler.
+  - Çünkü daha büyük topluluklar daha fazla kaynağa sahiptir ve bu da iş bölümüne daha az ihtiyaç duyulmasına neden olur.
+  - Çünkü daha büyük topluluklarda daha fazla çatışma yaşanır ve bu da koordinasyonu zorlaştırır.
+explanation: |
+  Daha büyük topluluklarda, bir kişinin
+  daha fazla kişiyle istikrarlı sosyal ilişkiler sürdürmek ve hatırlamak
+  150'den fazla kişi, bir itibar sistemi oluşturuyor
+  ölçekte mahkum ikileminin üstesinden gelmek için yetersizdir.
+  Ayrıca, Exchange'deki katkıların değerini değerlendirmek
+  daha büyük topluluklarda karmaşık bir sorundur.
+reviewed: true

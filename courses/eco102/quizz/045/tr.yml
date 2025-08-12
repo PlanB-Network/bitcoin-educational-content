@@ -1,0 +1,9 @@
+question: Bastiat'ya göre merkez bankaları tarafından yürütülen düşük faiz politikasının doğrudan sonucu nedir?
+answer: Riskli yatırımlarda ve finansal istikrarsızlıkta artış
+wrong_answers:
+  - Çalışan sınıfların satın alma gücünde artış
+  - Tüketim mallarının maliyetinde düşüş
+  - Sosyal eşitsizliklerde azalma
+explanation: |
+  Bastiat düşük faiz politikasını, sağlıklı bir ekonomiye zarar verecek şekilde riskli yatırımları ve spekülasyonu teşvik eden finansal istikrar üzerindeki olumsuz etkisi nedeniyle eleştirmektedir.
+reviewed: false

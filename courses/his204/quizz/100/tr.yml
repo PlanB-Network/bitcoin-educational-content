@@ -1,0 +1,8 @@
+question: Dupont de Nemours'un karşı çıktığı 1789'da yapılan seçimlerin nihai sonucu hangi bankacılık kuruluşudur?
+answer: Banque de France
+wrong_answers:
+  - Tasarruf Bankası
+  - Crédit Agricole
+  - Avrupa Merkez Bankası
+explanation: |
+  Banque de France, Dupont de Nemours'un mali gücün aşırı merkezileşmesine ve ekonomide aşırı devlet müdahalesine yol açtığı için eleştirdiği 1789'da yapılan seçimlerin bir sonucudur.

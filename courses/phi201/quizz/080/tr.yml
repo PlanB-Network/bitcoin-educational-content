@@ -1,0 +1,9 @@
+question: Locke ve Rousseau'nun egemenlik teorileri arasındaki temel fark nedir?
+answer: Locke egemenliğin doğal haklarla sınırlı olduğuna inanırken, Rousseau sınırsız olduğuna inanıyordu.
+wrong_answers:
+  - Locke egemenliğin hükümdara ait olduğuna inanırken, Rousseau bunun halka ait olduğuna inanıyordu.
+  - Locke en iyi yönetim biçiminin demokrasi olduğuna inanırken, Rousseau en iyi yönetim biçiminin cumhuriyet olduğuna inanıyordu.
+  - Diğer tüm cevaplar doğrudur.
+explanation: |
+  Locke, devletin egemenliğinin bireylerin doğal hakları ile sınırlandırıldığını savunmuştur. Buna karşılık Rousseau, genel egemenliğin kolektif irade adına sınırsız olarak kullanılabileceğini düşünmüştür.
+reviewed: true

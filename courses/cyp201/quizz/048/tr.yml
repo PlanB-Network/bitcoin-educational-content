@@ -1,0 +1,9 @@
+question: Neden 24 kelimelik bir Mnemonic ifadesi genellikle bir Bitcoin Wallet için gereksiz kabul edilir?
+answer: Türetilen anahtarlar yalnızca 128 bit güvenlik sunar
+wrong_answers:
+  - Yazılım 24 kelimelik ifadeleri desteklemez
+  - Açık anahtarların türetilmesine izin vermez
+  - Daha kısa ifadeler standartlaştırılmamıştır
+explanation: |
+  Her ne kadar 24 kelimelik bir ifade 256 bit güvenlik sağlasa da, türetilen Bitcoin özel anahtarları yalnızca 128 bit güvenlik sağlayarak fazlalığı gereksiz kılmaktadır.
+reviewed: false

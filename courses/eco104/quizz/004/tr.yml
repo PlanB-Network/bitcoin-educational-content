@@ -1,0 +1,11 @@
+question: İtibari paranın merkezi kontrole yol açmasının bir nedeni nedir?
+answer: Hükümetlerin Supply parasını ve faiz oranlarını kontrol etmesini sağlar.
+wrong_answers:
+  - Altın ve gümüş gibi fiziksel emtialarla desteklenir.
+  - Enflasyona karşı dayanıklıdır.
+  - Merkezi olmayan finansal sistemleri teşvik eder.
+explanation: |
+  İtibari para birimi hükümetlere parayı kontrol etme gücü verir Supply ve
+  faiz oranlarını etkileyerek ekonomik faaliyeti ve bunun sonucunda
+  merkezi kontrolde.
+reviewed: true

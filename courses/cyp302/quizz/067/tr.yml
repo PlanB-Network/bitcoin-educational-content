@@ -1,0 +1,9 @@
+question: Bir saldırgan iyi bir simetrik şifreleme şemasında şifrelenmiş bir mesajı ele geçirirse ne olur?
+answer: Orijinal mesaj hakkında önemli bir şey öğrenmemelidirler
+wrong_answers:
+  - Anahtar olmadan mesajın şifresini her zaman çözebilirler
+  - Açık bir anahtarla şifresini çözebilmeleri gerekir
+  - Mesajın içeriğini tahmin edebilmelidirler
+explanation: |
+  İyi tasarlanmış bir simetrik şifreleme şemasında, şifrelenmiş bir mesajı ele geçiren bir saldırgan, şifre çözme anahtarı olmadan mesajın içeriği hakkında ilgili bilgileri çıkaramamalıdır.
+reviewed: false

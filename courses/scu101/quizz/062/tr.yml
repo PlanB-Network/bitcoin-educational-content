@@ -1,0 +1,9 @@
+question: Siber güvenlikte ağ bilgisinin hangi yönlerine ihtiyaç vardır?
+answer: TCP/IP, VPN, güvenlik duvarı
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Bu bölümde TCP/IP, VPN ve güvenlik duvarından siber güvenlikte ihtiyaç duyulan ağ bilgisinin bazı yönleri olarak bahsedilmektedir.
+reviewed: true

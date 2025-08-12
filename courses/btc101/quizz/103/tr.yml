@@ -1,0 +1,13 @@
+question: Bitcoinleriniz için bir miras planı oluşturmanın amacı nedir?
+answer: Ölümünüzden sonra bitcoinlerinizin düzgün bir şekilde yönetileceğinden emin olmak için.
+wrong_answers:
+  - Bitcoinlerinizden vergi almamak için.
+  - Bitcoinlerinizin değerini düşürmek için.
+  - Bitcoinlerinizin çalınmasını önlemek için.
+explanation: |
+  Bir miras planı, bitcoinlerinizin
+  ölümünüzden sonra düzgün bir şekilde yönetilir. Şunları içerebilir
+  varlıklarınızı ve erişimlerini detaylandıran el yazısı mektup
+  yöntemleri ve güvenilir kişilerin iletişim bilgileri
+  iletişime geçilecek.
+reviewed: true

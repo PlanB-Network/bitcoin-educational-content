@@ -1,0 +1,13 @@
+question: Küreselleşmiş ve dijital bir dünyada altın neden iyi performans gösteremiyor?
+answer: Çünkü bölünebilir ve kolayca değiştirilebilir olması için merkezi bir varlığa ihtiyacı vardır.
+wrong_answers:
+  - Çünkü yeterince değerli değil.
+  - Çünkü yeterince nadir değil.
+  - Çünkü zamanla aşınıyor.
+explanation: |
+  Altın küreselleşen ve dijitalleşen dünyaya ayak uyduramıyor
+  çünkü bölünebilir olması için merkezi bir varlığa ihtiyaç duyar ve
+  kolayca değiştirilebilir. Bu da onu şu alanlarda kullanmayı daha az pratik hale getirir
+  işlemlerin giderek dijitalleştiği bir dünya ve
+  merkezi olmayan.
+reviewed: true

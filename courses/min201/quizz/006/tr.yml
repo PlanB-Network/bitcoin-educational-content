@@ -1,0 +1,14 @@
+question: Bitcoin ağındaki madencilerin ana görevi nedir?
+answer: Dijital bir bulmacayı çözmek ve yeni bir bloğu doğrulamak için
+wrong_answers:
+  - Yeni bitcoinler oluşturmak için
+  - Bitcoin'in fiyatını kontrol etmek için
+  - Bitcoin kullanıcılarının kimliğini doğrulamak için
+explanation: |
+  Bitcoin Mining bağlamında, madenciler hızlı bir şekilde
+  dijital bir bulmacayı çözmek. Bulmacayı çözen ilk Miner
+  çözümlerini tüm ağa sunar ve bu da
+  daha sonra geçerliliğini kolayca doğrulayabilir. Bu başarılı
+  doğrulama, Miner'in yeni bir bloğu doğrulamasına ve
+  gW-3 Zaman Zincirine ekleyin.
+reviewed: true

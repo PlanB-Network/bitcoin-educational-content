@@ -1,0 +1,9 @@
+question: Sağlama toplamı 128 bitlik bir entropi için kaç bittir?
+answer: 4 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 6 bit
+explanation: |
+  Sağlama toplamının uzunluğu CS = ENT / 32 formülü kullanılarak hesaplanır, bu da 128 bitlik bir entropi için 4 bite eşittir.
+reviewed: false

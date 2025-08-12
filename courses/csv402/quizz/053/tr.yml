@@ -1,0 +1,9 @@
+question: RGB, DEX Layer-2'nin önünü nasıl açıyor?
+answer: Lightning kanalları ve atomik takaslar aracılığıyla off-chain varlıklarının Exchange'ünü etkinleştirerek
+wrong_answers:
+  - Tüm RGB işlemleri için merkezi bir Exchange kullanılmasını sağlayarak
+  - Exchange akıllı sözleşmeleri aracılığıyla varlıkların On-Chain'sini etkinleştirerek
+  - Atomik takaslar yoluyla Blockchain varlıkları arası Exchange'u etkinleştirerek
+explanation: |
+  Lightning kanalları aracılığıyla atomik takas ve değişimlerin gerçekleştirilebilmesi, On-Chain borsalarının dezavantajları olmaksızın merkezi olmayan DEX'ler oluşturma imkanı sunmaktadır.
+reviewed: false

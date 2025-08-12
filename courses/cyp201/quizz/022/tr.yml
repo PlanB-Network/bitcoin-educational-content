@@ -1,0 +1,9 @@
+question: Bir özel anahtardan bir açık anahtar nasıl hesaplanır?
+answer: Eliptik eğri üzerinde skaler çarpma kullanarak
+wrong_answers:
+  - Özel anahtara bir Hash uygulayarak
+  - Asimetrik şifreleme sayesinde
+  - Sayısal değerlerin tekrar tekrar eklenmesi ile
+explanation: |
+  Açık anahtar, özel anahtarın eliptik eğri üzerindeki G üreteç noktası ile skaler çarpımıyla elde edilir.
+reviewed: false

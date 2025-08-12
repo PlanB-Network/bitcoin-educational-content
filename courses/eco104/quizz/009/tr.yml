@@ -1,0 +1,11 @@
+question: The Times 03/Jan/2009 Chancellor on brink of second bailout for banks in the first Bitcoin block alıntısının önemi nedir?
+answer: Finansal sistemimizin kayıpları toplumsallaştırma yeteneğini vurguluyor
+wrong_answers:
+  - Satoshi'in The Times gazetesine verdiği değeri gösterir
+  - Kurtarmaların toplumumuza nasıl fayda sağladığına dair harika bir örnek veriyor
+  - Bu bize Bitcoin'ün mesajları Blockchain'de saklayabildiğini gösteriyor
+explanation: |
+  Bu, Times gazetesinin [https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h] Satoshi'ün
+  bankaların riskli davranışlarda bulunduğuna dair endişeler, çok az
+  ve kayıpların para sahipleri arasında paylaşılacağını belirtmiştir.
+reviewed: true

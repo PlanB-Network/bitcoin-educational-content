@@ -1,0 +1,9 @@
+question: Hangi RGB mekanizması çifte harcamaya karşı direnç sağlar?
+answer: Single-Use Seal
+wrong_answers:
+  - Çok kullanımlı Seal
+  - Çift imza
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal, bir UTXO'ün yalnızca bir kez harcanabileceği gerçeğinden yararlanarak RGB akıllı sözleşmelerinde çifte harcamaya karşı direnç sağlar.
+reviewed: false

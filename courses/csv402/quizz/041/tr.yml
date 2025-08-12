@@ -1,0 +1,9 @@
+question: RGB varlıklarını taşıyan bir Lightning kanalı oluşturmak için hangi Elements gereklidir?
+answer: Bitcoin cinsinden fonlama ve RGB varlıkları cinsinden fonlama
+wrong_answers:
+  - Başlangıç için yalnızca Bitcoin finansmanı
+  - Başlangıç için sadece RGB finansmanı
+  - Finansman gerekmiyor
+explanation: |
+  Kanal, 2/2 Multisig üzerinde hem Bitcoin finansmanı hem de aynı kanaldaki varlıkları tahsis etmek için RGB varlık finansmanı gerektirir.
+reviewed: false

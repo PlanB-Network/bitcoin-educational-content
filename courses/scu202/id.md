@@ -1215,123 +1215,72 @@ sudo apt upgrade
 
 #### Snap: paket kontainer dari Canonical
 
+Snap adalah format paket universal yang dikembangkan oleh Canonical. Paket ini dirancang untuk bekerja secara luas, terisolasi dari sistem utama. Setiap paket Snap berisi semua dependensi yang dibutuhkan dan berjalan di dalam lingkungan sandbox.
 
+Hal ini memungkinkan perangkat lunak untuk selalu diperbarui secara independen dari sistem operasi, dan dapat berjalan di semua distribusi Linux yang mendukung Snap. Namun, ada beberapa kelemahannya: waktu startup yang lebih lama, potensi penumpukan dependensi yang tidak perlu, dan integrasi desktop yang terkadang kurang lancar.
 
-Snap adalah format paket yang dikembangkan oleh Canonical, yang didesain untuk menjadi universal, terisolasi dari sistem utama dan mandiri. Ini berarti bahwa setiap snap menyematkan ketergantungannya sendiri dan berjalan di lingkungan kotak pasir.
-
-
-
-Hal ini memungkinkan untuk menjaga perangkat lunak tetap mutakhir secara independen dari sistem, dan bekerja pada semua distribusi Linux yang mendukung Snap. Di sisi lain, dibutuhkan waktu lebih lama untuk memulai, dapat menyebabkan penumpukan dependensi yang tidak perlu, dan integrasi desktop terkadang kurang lancar.
-
-
-
-Untuk mencari paket Snap di Snap Store (di sini untuk perangkat lunak Spotify):
-
-
+Untuk mencari paket Snap di Snap Store (contoh untuk perangkat lunak Spotify):
 
 ```bash
 snap find spotify
 ```
 
-
-
 ![Image](assets/fr/078.webp)
 
-
-
 Untuk menginstal paket:
-
-
 
 ```bash
 sudo snap install spotify
 ```
 
-
-
-Setelah instalasi selesai, Anda akan menemukan file yang dapat dieksekusi di menu aplikasi Ubuntu, yang terletak di bagian kiri bawah Interface. Atau, yang lebih sederhana lagi: Anda dapat mengetikkan nama perangkat lunak secara langsung di terminal (dalam hal ini, "spotify") untuk membukanya.
-
-
+Setelah instalasi selesai, Anda dapat menemukan perangkat lunak tersebut di menu aplikasi Ubuntu yang terletak di kiri bawah Interface. Atau, cara yang lebih mudah lagi: Anda bisa langsung mengetik nama perangkat lunak tersebut (dalam hal ini, "spotify") di terminal untuk membukanya.
 
 ![Image](assets/fr/079.webp)
 
-
-
 Untuk memperbarui semua paket Snap yang diinstal:
-
-
 
 ```bash
 sudo snap refresh
 ```
 
-
-
 Untuk menghapus aplikasi:
-
-
 
 ```bash
 sudo snap remove spotify
 ```
 
-
-
 ![Image](assets/fr/080.webp)
-
-
 
 → Aplikasi Snap diinstal di direktori `/var/snap` dan dipasang sebagai sistem file terpisah.
 
 
-
 #### Flatpak: alternatif modular
 
-
-
-Flatpak adalah format paket universal lainnya, yang dikembangkan oleh komunitas (Red Hat, GNOME...). Format ini bertujuan untuk mengatasi keterbatasan format tradisional, sambil menawarkan manajemen perizinan yang lebih baik daripada Snap. Setiap aplikasi beroperasi di dalam kotak pasir, tetapi dengan perincian kontrol yang lebih baik.
-
-
+Flatpak adalah format paket universal lainnya yang dikembangkan oleh komunitas (Red Hat, GNOME...) untuk mengatasi keterbatasan format tradisional. Flatpak juga menawarkan manajemen perizinan yang lebih baik daripada Snap. Setiap aplikasi beroperasi di dalam lingkungan sandbox dengan kontrol yang lebih terperinci.
 
 Untuk menginstal Flatpak dan integrasi grafisnya:
-
-
 
 ```bash
 sudo apt install flatpak gnome-software-plugin-flatpak
 ```
 
-
-
 Untuk menambahkan repositori komunitas utama (Flathub):
-
-
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-
-
 Untuk menginstal aplikasi melalui Flatpak, gunakan perintah berikut (dalam contoh ini, untuk menginstal perangkat lunak VLC):
-
-
 
 ```bash
 flatpak install flathub org.videolan.VLC
 ```
 
-
-
 ![Image](assets/fr/081.webp)
-
-
 
 Singkatnya:
 
-
-
-| Format       | Origin       | Isolation | Size | Performance | Permission Control |
+| Format       | Pembuat       | Tingkat Isolasi | Ukuran | Performa | Kontrol Perizinan|
 | ------------ | ------------- | --------- | ------ | ------------ | ------------------- |
 | APT / `.deb` | Debian        | ❌         | ✅      | ✅            | 🟡                  |
 | Snap         | Canonical     | 🟡        | ❌      | ❌            | 🟡                  |
@@ -1343,257 +1292,144 @@ Singkatnya:
 
 Ubuntu menyertakan sebuah aplikasi yang disebut *App Center*, yang berfungsi sebagai Interface grafis untuk mencari, menginstal, dan menghapus aplikasi dengan mudah, tanpa menggunakan baris perintah seperti yang baru saja kita lihat. Secara teknis, App Center bertindak sebagai hamparan untuk manajer paket. Oleh karena itu, ia dapat:
 
-
-
+Aplikasi *App Center* yang terdapat di Ubuntu berfungsi sebagai Interface grafis untuk memfasilitasi pengguna dalam mencari, menginstal, dan menghapus aplikasi tanpa perlu menggunakan perintah baris. Secara teknis, *App Center* bertindak sebagai lapisan Interface yang mengintegrasikan beberapa manajer paket. Oleh karena itu, App Center dapat:
 
 - Instal paket .deb menggunakan APT
 - Instal paket Snap dari Snap Store
 
-
-
-Jadi, App Center store bukanlah sebuah sistem instalasi yang berdiri sendiri, tetapi sebuah Interface yang menyatukan dan menyatukan beberapa sumber perangkat lunak, dengan mesin pencari, informasi deskriptif, dan tombol-tombol instalasi yang mudah digunakan oleh pemula.
-
-
+Jadi, App Center stor bukanlah sebuah sistem instalasi tersendiri, melainkan sebuah Interface yang menyatukan berbagai sumber perangkat lunak. Interface ini dilengkapi dengan mesin pencari, informasi deskriptif, dan tombol instalasi yang mudah untuk pengguna pemula.
 
 ![Image](assets/fr/082.webp)
 
-
-
 ### Pemeliharaan dan pembaruan
 
-
-
-Untuk memastikan stabilitas dan keamanan sistem Anda, Ubuntu secara otomatis menerapkan pembaruan penting melalui layanan yang disebut `upgrade tanpa pengawasan`. Layanan ini berjalan di latar belakang dan menginstal patch keamanan yang dirilis oleh distribusi, tanpa campur tangan Anda.
-
-
+Untuk menjamin stabilitas dan keamanan sistem, Ubuntu secara otomatis menerapkan pembaruan penting melalui layanan bernama `unattended-upgrades`. Layanan ini berjalan di latar belakang dan menginstal patch keamanan yang dirilis oleh distribusi tanpa memerlukan intervensi dari pengguna.
 
 #### Memeriksa status layanan otomatis
 
-
-
 Untuk memastikan mekanisme ini aktif:
-
-
 
 ```bash
 sudo systemctl status unattended-upgrades
 ```
 
-
-
-Anda akan melihat output yang menunjukkan bahwa layanan ini `aktif (berjalan).
-
-
+Anda akan melihat output yang menunjukkan bahwa layanan ini `active (berjalan)`.
 
 ![Image](assets/fr/083.webp)
 
-
-
 Jika tidak demikian, Anda dapat mengaktifkannya secara manual:
-
-
 
 ```bash
 sudo systemctl enable --now unattended-upgrades
 ```
 
+Layanan ini berfungsi untuk melindungi sistem Anda dari kerentanan yang baru ditemukan tanpa perlu memeriksa pembaruan secara manual setiap hari. Hal ini sangat berguna pada workstation yang tidak selalu diawasi, seperti komputer pribadi, karena menjamin pembaruan keamanan dasar.
 
-
-Layanan ini melindungi sistem Anda dari kerentanan yang baru ditemukan, tanpa perlu memeriksa pembaruan secara manual setiap hari. Layanan ini sangat berguna pada workstation yang tidak diawasi secara ketat, seperti komputer pribadi, karena layanan ini menjamin pembaruan keamanan secara berkala.
-
-
-
-→ **Harap diperhatikan:** `pemutakhiran tanpa pengawasan` terbatas pada paket keamanan dari repositori `keamanan`. Oleh karena itu, ia tidak menerapkan pembaruan perangkat lunak standar, yang harus Anda lakukan secara manual.
-
-
+→ **Harap diperhatikan:** `unattended-upgrades` terbatas pada paket keamanan dari repositori `security`. Layanan ini tidak akan menerapkan pembaruan perangkat lunak standar, yang harus Anda lakukan secara manual.
 
 #### Memperbarui seluruh sistem secara manual
 
-
-
-Meskipun patch penting diinstal secara otomatis, penting untuk menjalankan pembaruan manual secara teratur untuk mendapatkan manfaat dari versi terbaru perangkat lunak dan komponen yang tidak tercakup dalam `upgrade tanpa pengawasan`. Untuk melakukan ini, jalankan perintah:
-
-
+Meskipun patch penting sudah terinstal secara otomatis, penting untuk secara rutin melakukan pembaruan manual agar Anda juga mendapatkan manfaat dari versi terbaru dari perangkat lunak dan komponen lain yang tidak dicakup oleh layanan `unattended-upgrades`. Untuk melakukan hal ini, jalankan perintah berikut:
 
 ```bash
 sudo apt update && sudo apt full-upgrade
 ```
 
-
-
-
-
 - `apt update` menyinkronkan daftar paket yang tersedia
 - `apt full-upgrade` menginstal versi baru, bahkan jika ini berarti memodifikasi dependensi tertentu (tidak seperti `upgrade`, yang lebih konservatif)
 
-
-
 ![Image](assets/fr/084.webp)
 
-
-
 Setelah pembaruan, Anda dapat membersihkan file yang tidak diperlukan:
-
-
 
 ```bash
 sudo apt autoremove --purge
 ```
 
-
-
-Perintah ini menghapus paket yang sudah usang dan file konfigurasi terkait.
-
-
+Perintah ini menghapus paket yang sudah lama dan file konfigurasi terkait.
 
 Jika Anda telah menginstal perangkat lunak melalui manajer paket Snap atau Flatpak, Anda dapat menggunakan kedua perintah ini untuk memperbaruinya juga:
-
-
 
 ```bash
 sudo snap refresh
 flatpak update
 ```
 
-
-
 #### Mulai ulang setelah pembaruan tertentu
 
-
-
-Beberapa pembaruan penting, seperti untuk kernel Linux atau libc (pustaka bahasa C standar yang digunakan oleh sebagian besar program), hanya berlaku setelah mesin Anda di-boot ulang. Untuk mengetahui apakah reboot disarankan, instal alat `needrestart`:
-
-
+Beberapa pembaruan penting, seperti untuk kernel Linux atau libc (library bahasa C standar yang digunakan oleh sebagian besar program), hanya berlaku setelah komputer Anda reboot. Untuk mengetahui apakah reboot disarankan, instal program `needrestart`:
 
 ```bash
 sudo apt install needrestart
 ```
 
-
-
-Lalu lari:
-
-
+Lalu jalankan:
 
 ```bash
 sudo needrestart
 ```
 
-
-
-Program ini akan menganalisis layanan atau proses apa pun yang masih menjalankan pustaka atau kernel versi lama, dan memberi tahu Anda apakah diperlukan reboot untuk menerapkan pembaruan.
-
-
+Program ini akan menganalisis layanan atau proses yang masih menjalankan versi lama dari library atau kernel, dan memberitahukan apakah reboot diperlukan untuk menerapkan pembaruan tersebut.
 
 ![Image](assets/fr/085.webp)
 
-
-
-Menjaga sistem dan perangkat lunak Anda tetap mutakhir adalah refleks yang penting dalam hal keamanan komputer. Memiliki sistem Linux yang mutakhir adalah jaminan stabilitas, keamanan, dan kinerja.
-
-
+Menjaga sistem dan perangkat lunak Anda tetap mutakhir adalah tindakan penting dalam hal keamanan komputer. Memiliki sistem Linux yang terbaru adalah jaminan stabilitas, keamanan, dan performa.
 
 ### Firewall dan pengerasan jaringan
 
+Firewall adalah sebuah perangkat keamanan yang berfungsi untuk mengendalikan koneksi jaringan yang masuk dan keluar dari sebuah komputer. Pada Ubuntu, Anda akan menggunakannya untuk menyaring lalu lintas data, mengotorisasi komunikasi yang sah, dan memblokir komunikasi yang berpotensi berbahaya. Hal ini bertujuan untuk mencegah gangguan eksternal yang tidak diinginkan demi melindungi data dan sistem Anda.
 
-
-Firewall adalah alat keamanan yang mengontrol koneksi jaringan yang masuk dan keluar dari komputer. Di Ubuntu, Anda akan menggunakannya untuk menyaring lalu lintas untuk mengesahkan hanya komunikasi yang sah dan memblokir komunikasi yang berpotensi berbahaya. Hal ini mencegah gangguan eksternal yang tidak diinginkan, misalnya, untuk lebih melindungi data dan sistem Anda.
-
-
-
-Segera setelah Anda menginstal Ubuntu, mengamankan komunikasi jaringan komputer Anda adalah langkah penting. Ubuntu menyertakan firewall standar: UFW (*Firewall yang Tidak Rumit*). Ini memungkinkan Anda untuk mengelola koneksi masuk dan keluar dengan kontrol yang halus, tanpa harus menulis aturan yang rumit secara manual.
-
-
+Segera setelah instalasi Ubuntu, mengamankan komunikasi jaringan pada mesin Anda adalah langkah yang penting. Ubuntu menyertakan sebuah firewall standar bernama UFW (*Firewall yang Tidak Rumit*). Firewall ini memungkinkan Anda mengelola koneksi masuk dan keluar dengan kontrol yang terperinci, tanpa perlu menulis aturan yang rumit secara manual.
 
 #### Aktifkan firewall
 
-
-
 Secara default, UFW sudah terinstal, tetapi tidak aktif. Untuk mengaktifkannya:
-
-
 
 ```bash
 sudo ufw enable
 ```
 
-
-
 ![Image](assets/fr/086.webp)
 
-
-
 Setelah diaktifkan, Anda dapat memeriksa status dan aturan saat ini dengan:
-
-
 
 ```bash
 sudo ufw status verbose
 ```
 
-
-
 ![Image](assets/fr/087.webp)
 
-
-
-Secara default, UFW mengadopsi strategi menolak koneksi masuk yang tidak diminta sementara mengizinkan lalu lintas keluar, yang merupakan kompromi keamanan/fungsionalitas yang baik untuk mesin pribadi tujuan umum.
-
-
+Secara default, UFW mengadopsi strategi menolak koneksi masuk yang tidak diminta, sambil tetap mengizinkan lalu lintas keluar. Pendekatan ini merupakan keseimbangan yang baik antara keamanan dan fungsionalitas untuk pengunaan umum pada komputer pribadi.
 
 #### Mengesahkan layanan
 
-
-
-Jika Anda perlu membuat layanan dapat diakses dari jarak jauh (seperti server SSH), Anda harus secara eksplisit mengizinkannya:
-
-
+Jika Anda perlu membuat sebuah layanan dapat diakses dari jarak jauh (seperti server SSH), Anda harus memberikan otorisasi secara eksplisit:
 
 ```bash
 sudo ufw allow 22/tcp comment 'SSH'
 ```
 
-
-
-
-
 - `22` adalah port default untuk layanan SSH
 - `tcp` adalah protokol yang digunakan
-- Opsi `komentar` memungkinkan Anda menambahkan anotasi yang dapat dibaca untuk mempermudah penafsiran aturan di kemudian hari
-
-
+- Opsi `komentar / comment` memungkinkan Anda menambahkan anotasi yang dapat dibaca untuk mempermudah penafsiran aturan di kemudian hari
 
 Anda dapat memeriksa aturan dengan:
-
-
 
 ```bash
 sudo ufw status numbered
 ```
 
-
-
 ![Image](assets/fr/088.webp)
 
-
-
-#### Menetapkan aturan berdasarkan rentang IP (penggunaan lokal)
-
-
+#### Menetapkan aturan berdasarkan berbagai IP (penggunaan lokal)
 
 Dimungkinkan untuk membatasi akses ke layanan tertentu ke berbagai alamat IP, yang dapat berguna dalam jaringan area lokal (LAN):
-
-
 
 ```bash
 sudo ufw allow from 192.168.1.0/24 to any port 6881 proto tcp
 ```
 
-
-
 Hal ini memungkinkan koneksi TCP pada port 6881 hanya dari subnet `192.168.1.0/24` (biasanya jaringan Wi-Fi rumah Anda).
-
-
 
 #### Grafis Interface: GUFW
 

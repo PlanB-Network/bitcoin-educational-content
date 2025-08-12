@@ -677,9 +677,9 @@ Deux logiciels sont couramment utilisés pour construire ce type d’index d’a
 
 Pour faire simple, Electrs est assez comapct : il indexe plus rapidement la blockchain et occupe moins d’espace disque, mais il est légèrement moins performant que Fulcrum lors des requêtes. À l’inverse, Fulcrum consomme davantage d’espace disque et requiert plus de temps pour l’indexation, mais il offre des performances supérieures lors des requêtes.
 
-Pour un usage individuel, je recommande plutôt Electrs : il consomme moins d’espace, il est bien maintenu et, malgré une légère lenteur sur certaines requêtes par rapport à Fulcrum, il reste largement suffisant pour un usage courant. Si vous disposez de temps et d’espace disque, vous pouvez également tester Fulcrum.
+Pour un usage individuel, je recommande plutôt Electrs : il consomme moins d’espace, il est bien maintenu et, malgré une légère lenteur sur certaines requêtes par rapport à Fulcrum, il reste largement suffisant pour un usage courant. Si vous disposez de temps et d’espace disque, vous pouvez également tester Fulcrum, qui sera bien plus performant notamment sur les wallets avec de nombreuses adresses à vérifier.
 
-Concrètement, en termes de besoins de stockage, en août 2025, Electrs requiert environ 56 Go, contre environ 140 Go pour Fulcrum. Le choix de votre indexeur dépend donc aussi de votre capacité de stockage :
+Concrètement, en termes de besoins de stockage, en août 2025, Electrs requiert environ 56 Go, contre environ 178 Go pour Fulcrum. Le choix de votre indexeur dépend donc aussi de votre capacité de stockage :
 - Si votre espace disque est très limité, contentez-vous de Bitcoin Core sans indexeur d’adresses externe ;
 - Si vous souhaitez utiliser un indexeur, mais restez contraint par la capacité, optez pour Electrs ;
 - Si vous disposez d’un espace disque confortable, Fulcrum peut s’avérer intéressant.
@@ -811,15 +811,6 @@ Vous savez désormais comment relier votre logiciel de gestion de portefeuille �
 ## Tour d’horizon des applications disponibles
 <chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
 
-Présentation des principales applications qu’on peut ajouter à Umbrel dans le cadre de Bitcoin : Mempool, Lightning, Nostr, BTCPay, Tailscale... Introduction rapide à leurs fonctions + liens vers tutos.
-
-
-
-
-
-
-
-
 Umbrel propose un vaste magasin d’applications. Comme vous pourrez le constater, on y trouve de nombreux outils liés à Bitcoin, mais également une grande variété d’applications dans des domaines très différents : solutions d’auto-hébergement de services et de fichiers, applications de productivité, outils financiers plus généraux, gestion de médias, sécurité et administration réseau, développement, intelligence artificielle, réseaux sociaux ou encore domotique.
 
 Dans le cadre de cette formation BTC 202, nous nous concentrerons exclusivement sur les applications en rapport avec Bitcoin. Toutefois, n’hésitez pas à explorer le reste du catalogue pour y dénicher des outils pouvant vous être utiles.
@@ -855,14 +846,83 @@ Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recomma
 
 https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
+### Nœud Lightning
 
+Maintenant que vous possédez votre propre nœud Bitcoin, vous pouvez également mettre en place votre propre nœud Lightning afin d’effectuer des transactions off-chain, sans dépendre d’une infrastructure tierce.
 
+Umbrel propose de nombreuses applications pour vous aider à faire fonctionner votre nœud Lightning. Vous pouvez déjà choisir entre deux principales implémentations :
+- LND, via l’application *Lightning Node* ;
+- Core Lightning.
 
+https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
+Vous pouvez ensuite administrer votre nœud depuis l’interface principale, ou bien, pour bénéficier de davantage de fonctionnalités et d’options avancées, installer *Ride The Lightning* ou *ThunderHub*. Ces outils vous offriront une interface web de gestion bien plus complète pour votre nœud.
 
+https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
+https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
+Enfin, je vous recommande l’application *Lightning Network+*, qui permet de trouver des pairs avec qui ouvrir des canaux, afin de disposer à la fois de liquidités sortantes et entrantes.
 
+Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement simplifiée, mais elle demeure malgré tout relativement complexe. C’est pourquoi nous aborderons ce sujet en profondeur dans un prochain cours entièrement consacré à cet usage.
+
+### Tailscale
+
+Une autre application que j'apprécie particulièrement sur Umbrel est Tailscale. C'est une application de VPN conçue pour simplifier la création de réseaux sécurisés entre plusieurs appareils, où qu’ils se trouvent dans le monde. Contrairement aux VPN traditionnels, qui reposent sur des serveurs centralisés, Tailscale s’appuie sur le protocole WireGuard pour établir des connexions chiffrées de bout en bout entre vos différentes machines. Cela vous permet de déployer un VPN fonctionnel en quelques minutes, sans manipulations réseau compliquées.
+
+Sur Umbrel, l’installation de Tailscale permet de connecter votre nœud Bitcoin à votre propre réseau privé virtuel. Une fois configuré, votre nœud obtient une adresse IP privée Tailscale, accessible uniquement depuis vos autres appareils reliés au même réseau Tailscale (ordinateur, smartphone, tablette...). Cette connexion est chiffrée de bout en bout et ne transite pas par le réseau public non protégé, ce qui renforce considérablement la sécurité par rapport à une connexion en clair.
+
+Concrètement, pour l'utilisation de votre Umbrel, Tailscale vous apporte plusieurs avantages :
+
+- Vous pouvez administrer l’interface Umbrel ou accéder aux applications liées à votre nœud (comme Mempool, Ride The Lightning, ThunderHub...) depuis n’importe où, comme si vous étiez sur le même réseau local, sans exposer de ports sur Internet et sans passer par Tor qui est très lent ;
+
+- Vous pouvez vous connecter à votre serveur Electrum (Electrs ou Fulcrum) ou directement à Bitcoin Core via votre VPN, sans passer par Tor. Cela vous offre une connexion sécurisée, comparable à l’utilisation de Tor, mais avec une vitesse bien plus élevée et une latence réduite. En résumé, vous conservez les avantages de Tor en matière de confidentialité et de sécurité, tout en bénéficiant de la rapidité d’une connexion en Clearnet. Pour un portefeuille on-chain, ce gain peut sembler marginal, mais si vous envisagez ultérieurement de mettre en place votre propre nœud Lightning, la différence est considérable. En effet, effectuer des paiements via votre nœud en déplacement sur Tor est extrêmement lent en raison des nombreux échanges requis, tandis qu’avec Tailscale, cela fonctionne parfaitement.
+
+- Pas besoin de configurer des règles NAT, d’ouvrir des ports ou de mettre en place un serveur VPN classique. Une fois l’application installée sur Umbrel et vos appareils, le réseau est automatiquement établi.
+
+Tailscale sur Umbrel est donc une solution très intéressante si vous souhaitez accéder à votre nœud depuis n’importe où dans le monde de manière sécurisée, performante et facile à configurer, sans sacrifier la confidentialité ou la sécurité.
+
+Pour installer et configurer Tailscale sur votre Umbrel, consultez ce tutoriel, section 4 : "*Utilisation de Tailscale sur Umbrel*" :
+
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+### Nostr
+
+Nostr, acronyme de "*Notes and Other Stuff Transmitted by Relays*", est un protocole ouvert et décentralisé conçu pour permettre la publication et l’échange de messages sur Internet sans dépendre d’une plateforme centralisée. Chaque utilisateur dispose d’une paire de clés cryptographiques : la clé publique (`npub`) qui sert d’identifiant, et la clé privée (`nsec`) qui permet de signer les messages et d’en garantir l’authenticité.
+
+Les messages sont transmis à travers un réseau de relais indépendants. Cette architecture distribuée rend Nostr résistant à la censure : aucun serveur unique ne contrôle l’accès ou la diffusion, et un utilisateur peut se connecter à autant de relais qu’il le souhaite.
+
+Ce protocole est très populaire au sein de la communauté Bitcoin, car, à l’instar de Bitcoin, Nostr répond à des enjeux de souveraineté numérique et de maîtrise des données. Son créateur, Fiatjaf, est un développeur qui était déjà reconnu dans l’écosystème pour ses nombreuses contributions.
+
+Grâce à votre Umbrel, vous pouvez optimiser votre utilisaiton de Nostr. En installant l’application ***Nostr Relay***, vous pouvez héberger votre propre relais privé directement sur votre machine, ce qui garantit que toutes vos publications et interactions sur Nostr sont sauvegardées localement, et ne peuvent pas être perdues suite à une suppression par des relais publics.
+
+Les clients Nostr ***noStrudel*** ou ***Snort*** sont également disponibles sur Umbrel. Grâce à ces applications, il est possible de publier, lire, rechercher des profils et interagir avec l’écosystème Nostr directement depuis l’interface web de son Umbrel.
+
+Enfin, il y a l'application ***Nostr Wallet Connect*** sur Umbrel, qui permet de faire des paiements Lightning natifs dans Nostr. Concrètement, vous pouvez relier votre futur nœud Lightning à vos clients Nostr pour envoyer des micro-paiements, appelés "*zaps*", afin de récompenser un contenu ou interagir de manière monétisée, sans passer par un service tiers. Ces paiements partent directement de votre nœud personnel via vos canaux.
+
+Pour savoir comment utiliser toutes ces applications, je vous conseille de découvrir ce tutoriel complet :
+
+https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+
+### BTCPay Server
+
+BTCPay Server est un processeur de paiement libre et open-source permettant d’accepter des paiements via Bitcoin et le Lightning Network sans intermédiaire, en conservant la self-custody des fonds.
+
+L’architecture de BTCPay Server repose sur un nœud Bitcoin et, pour Lightning, sur une implémentation compatible (LND, Core Lightning…), ce qui en fait une des seules solutions de PoS totalement non custodiales. C'est également le logiciel le plus complet pour le suivi et la comptabilité.
+
+Si vous possédez un commerce et souhaitez accepter les paiements en bitcoins directement via votre nœud Umbrel, l’application BTCPay Server est idéale pour vous. Pour en savoir plus à ce sujet, je vous recommande de consulter les ressources suivantes :
+
+- Le cours BIZ 101 sur l'utilisation de Bitcoin dans votre entreprise :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+- Le cours POS 305 sur l'utilisation de BTCPay Server :
+
+https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
+- Le tutoriel sur BTCPay Server :
+
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Concepts avancés et bonnes pratiques

@@ -1019,369 +1019,199 @@ Perintah ini menampilkan jalur tetap dari direktori tempat Anda berada saat ini.
 ![Image](assets/fr/065.webp)
 
 - Membuat daftar isi direktori
-
-
-
+  
 ```bash
 ls -lah
 ```
 
-
-
 Perintah ini mencantumkan file dan direktori dalam direktori saat ini dalam format yang terperinci:
-
-
-
 
 - `-l`: mode "*long*", yang menampilkan izin, ukuran, pengguna, tanggal...
 - `-a`: juga menampilkan file tersembunyi (yang diawali dengan titik).
 - `-h`: "*dapat dibaca manusia*", menampilkan ukuran dalam format yang dapat dibaca (KB, MB...).
 
-
-
 ![Image](assets/fr/066.webp)
 
-
-
 Varian:
-
-
 
 ```bash
 lsblk
 ```
 
-
-
-Menampilkan struktur pohon disk dan partisi yang tersambung ke sistem Anda. Hal ini sangat berguna untuk mengidentifikasi drive USB, misalnya.
-
-
-
-
+Menampilkan struktur hierarki  dari disk dan partisi yang terhubung ke sistem Anda. Ini sangat berguna untuk mengidentifikasi flash drive USB, misalnya.
 
 - Ubah direktori:
-
-
 
 ```bash
 cd /path/to/directory
 ```
 
-
-
-`cd` adalah singkatan dari "*ubah direktori*". Hal ini memungkinkan Anda untuk berpindah-pindah di dalam pohon file. Sebagai contoh, dengan perintah `cd Music`, Anda akan berada di direktori `/Music`.
-
-
+`cd` adalah singkatan dari "*change directory*". Hal ini memungkinkan Anda untuk berpindah-pindah di dalam struktur file. Sebagai contoh, dengan perintah `cd Music`, Anda akan berada di direktori `/Music`.
 
 ![Image](assets/fr/067.webp)
-
-
-
-
 
 - `cd ~`: kembali ke direktori home.
 - `cd -`: kembali ke direktori sebelumnya.
 
-
-
-
-
 - Membuat direktori
 
-
-
 Untuk membuat direktori baru di dalam direktori yang ada saat ini, gunakan perintah:
-
-
 
 ```bash
 mkdir name
 ```
 
-
-
 Cukup ubah "nama" menjadi nama direktori baru Anda.
-
-
 
 ![Image](assets/fr/068.webp)
 
-
-
-
-
 - Menyalin file:
 
-
-
-Untuk menyalin sebuah file, gunakan perintah `cp`, diikuti dengan nama file (Anda harus berada di direktori di mana file tersebut berada), lalu jalur ke direktori tujuan.
-
-
+Untuk menyalin sebuah file, gunakan perintah `cp`, diikuti dengan nama file (Anda harus berada di direktori di mana file tersebut berada), lalu arahkan ke direktori tujuan.
 
 ```bash
 cp file.txt destination
 ```
 
-
-
 ![Image](assets/fr/069.webp)
 
-
-
-
-
 - Memindahkan atau mengganti nama file:
-
-
 
 ```bash
 mv file.txt /new/directory/
 ```
 
-
-
 Perintah `mv` memungkinkan Anda untuk memindahkan atau mengganti nama file atau direktori. Jika Anda menentukan jalur ke direktori lain setelah nama file, maka file akan dipindahkan. Jika Anda menentukan nama baru di direktori yang sama, file akan diganti namanya.
-
-
 
 ![Image](assets/fr/070.webp)
 
-
-
-
-
 - Menghapus file atau direktori:
-
-
 
 ```bash
 rm file.txt
 ```
 
-
-
 Peringatan: perintah ini tidak memindahkan file ke tempat sampah.
 
-
-
 ![Image](assets/fr/071.webp)
-
-
-
-
 
 - `-r`: penghapusan rekursif (untuk direktori).
 - `-f`: memaksa penghapusan tanpa konfirmasi (berbahaya).
 
-
-
 Untuk menghindari kesalahan dengan perintah ini, saya sarankan untuk menambahkan prompt konfirmasi secara default. Cukup jalankan di terminal Anda:
-
-
 
 ```bash
 echo "alias rm='rm -i'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-
-
 Anda akan diminta untuk mengonfirmasi sebelum setiap penghapusan.
-
-
-
-
 
 - Mengosongkan terminal
 
-
-
 Untuk mengosongkan terminal dan memulai dengan layar kosong, ketik:
-
-
 
 ```bash
 clear
 ```
 
-
-
-
-
 - Menjalankan perintah sebagai administrator:
-
-
 
 ```bash
 sudo command
 ```
 
-
-
-Kata kunci `sudo` (*superuser do*) memungkinkan Anda untuk menjalankan perintah sementara dengan hak istimewa *root* (administrator sistem). Anda akan diminta kata sandi untuk mengonfirmasi tindakan ini. Hati-hati: jangan pernah menggunakan `sudo` tanpa memahami apa yang dilakukan oleh perintah tersebut.
-
-
+Kata kunci `sudo` (*superuser do*) memungkinkan Anda untuk sementara waktu menjalankan sebuah perintah dengan hak istimewa *root* (administrator sistem). Anda akan dimintai kata sandi untuk mengonfirmasi tindakan ini. Berhati-hatilah: jangan pernah menggunakan `sudo` tanpa memahami fungsi perintah yang akan dijalankan.
 
 Tips: untuk beralih ke shell root (sesi administrator), ketik:
-
-
 
 ```bash
 sudo -i
 ```
 
+Ini akan membuka terminal lengkap dengan hak istimewa root. Gunakan dengan hati-hati dan jangan pernah untuk jangka waktu yang lama.
 
-
-Ini akan membuka terminal penuh dengan hak akses root. Gunakan dengan hati-hati dan jangan pernah dalam jangka waktu yang lama.
-
-
-
-
-
-- Melihat bantuan perintah:
-
-
+- Melihat penjelasan perintah:
 
 ```bash
 man command_name
 ```
 
-
-
 Perintah `man` (*manual*) akan membuka dokumentasi lengkap dari suatu perintah. Navigasi dengan tombol panah dan keluar dengan `q`.
 
-
-
 Contoh:
-
-
 
 ```bash
 man cp
 ```
 
-
-
 Untuk ringkasan singkat, gunakan:
-
-
 
 ```bash
 cp --help
 ```
 
+Perintah-perintah awal ini adalah semua yang Anda butuhkan untuk melakukan sebagian besar operasi dasar di terminal. Dengan sedikit latihan, Anda akan memperoleh kemandirian dan kecepatan.
 
-
-Perintah awal ini adalah semua yang Anda perlukan untuk melakukan sebagian besar operasi dasar di terminal Anda. Dengan sedikit latihan, Anda akan mendapatkan otonomi dan kecepatan.
-
-
-
-Pada bagian berikut, kita akan melihat lebih dekat cara menggunakan terminal untuk mengelola sistem, paket, dan alat keamanan.
-
-
+Di bagian berikut, kita akan melihat lebih dekat cara menggunakan terminal untuk mengelola sistem, paket, dan program keamanan.
 
 ### Manajemen paket: APT, Snap dan Flatpak
 
-
-
-Pada sistem GNU/Linux seperti Ubuntu, instalasi perangkat lunak, pembaruan, dan penghapusan dipusatkan melalui sistem manajemen paket. Tidak seperti Windows, di mana Anda mengunduh file `.exe' atau `.msi', Ubuntu menggunakan alat bantu seperti APT, Snap, atau Flatpak untuk mengotomatiskan operasi ini, sehingga menjamin konsistensi sistem.
-
-
+Pada sistem GNU/Linux seperti Ubuntu, instalasi, pembaruan, dan penghapusan perangkat lunak dikelola secara terpusat melalui sistem manajemen paket. Berbeda dengan Windows di mana Anda mengunduh file `.exe` atau `.msi`, Ubuntu menggunakan program bantu seperti APT, Snap, atau Flatpak untuk mengotomatiskan operasi ini sehingga menjamin konsistensi sistem.
 
 #### APT: Metode asli Debian
 
-
-
-APT (*Advanced Package Tool*) adalah pengelola paket utama Ubuntu. APT menangani paket dalam format `.deb`, dari repositori resmi. Setiap paket berisi perangkat lunak, ketergantungan, dan metadata. Mari kita lihat beberapa perintah dasar, dengan menggunakan editor gambar GIMP sebagai contoh.
-
-
+APT (*Advanced Package Tool*) adalah manajer paket utama Ubuntu yang mengelola paket dalam format `.deb` dari repositori resmi. Setiap paket terdiri dari perangkat lunak, dependensi, dan metadata yang diperlukan. Mari kita lihat beberapa perintah dasar menggunakan editor gambar GIMP sebagai contoh.
 
 Untuk mencari paket yang tersedia di repositori (tentu saja Anda harus mengganti "gimp" dengan nama perangkat lunak yang diinginkan):
-
 
 
 ```bash
 apt search gimp
 ```
 
-
-
 ![Image](assets/fr/072.webp)
 
-
-
 Untuk menginstal paket dan semua ketergantungannya:
-
-
 
 ```bash
 sudo apt install gimp
 ```
 
-
-
 ![Image](assets/fr/073.webp)
-
-
 
 Setelah instalasi selesai, Anda akan menemukan file executable di menu aplikasi Ubuntu, yang terletak di bagian kiri bawah Interface.
 
-
-
 ![Image](assets/fr/074.webp)
-
-
 
 Lebih sederhana lagi: Anda juga bisa mengetikkan nama perangkat lunak secara langsung ke dalam terminal (dalam kasus ini, "gimp") untuk membukanya.
 
-
-
 ![Image](assets/fr/075.webp)
 
-
-
 Untuk menghapus perangkat lunak, Anda dapat menggunakan perintah berikut (ganti "gimp" dengan nama perangkat lunak yang ingin Anda hapus instalasinya):
-
-
 
 ```bash
 sudo apt remove gimp
 ```
 
-
-
 Anda juga dapat menambahkan `--purge` pada perintah untuk menghapus file konfigurasi yang terkait dengan perangkat lunak:
-
-
 
 ```bash
 sudo apt remove --purge gimp
 ```
 
-
-
 ![Image](assets/fr/076.webp)
 
-
-
-Untuk memperbarui basis data paket yang tersedia (`update`) dan menginstal versi terbaru (`upgrade`), Anda dapat menjalankan dua perintah berikut:
-
-
+Untuk memperbarui database paket yang tersedia (`update`) dan menginstal versi terbaru (`upgrade`), Anda dapat menjalankan dua perintah berikut:
 
 ```bash
 sudo apt update
 sudo apt upgrade
 ```
 
-
-
 ![Image](assets/fr/077.webp)
 
-
-
-→ APT cepat, ringan, dan terintegrasi dengan sangat baik ke dalam Ubuntu. Untuk semua perangkat lunak yang tersedia di repositori resmi, ini adalah metode yang lebih disukai.
-
-
+→ APT cepat, ringan, dan terintegrasi dengan sangat baik ke dalam Ubuntu. Untuk semua perangkat lunak yang tersedia di repositori resmi, ini adalah metode yang lebih direkomendasikan.
 
 #### Snap: paket kontainer dari Canonical
 

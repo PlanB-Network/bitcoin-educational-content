@@ -207,7 +207,7 @@ Comme nous l’aborderons plus loin dans ce cours, ce sont les nœuds, en foncti
 
 
 
-# Pourquoi devenir un bitcoiner souverain ?
+# Devenir un bitcoiner souverain
 <partId>df64cad2-e92d-4949-9cca-14394aad0bc6</partId>
 
 
@@ -356,7 +356,7 @@ Présentation des options matérielles adaptées : ordinateurs classiques, mini-
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
 
 
-## Umbrel : un nœud Bitcoin plug-and-play
+## Umbrel : bien plus qu'un nœud Bitcoin
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
 Introduction à Umbrel comme solution accessible et tout-en-un pour les débutants. Umbrel home + UmbrelOS. Cas d'usages.
@@ -998,10 +998,107 @@ Une fois l’amorçage effectué, le gestionnaire interne d’adresses veille à
 Si votre nœud écoute sur un port ouvert (8333 par défaut), il accepte des connexions entrantes. Celles-ci renforcent la résilience globale du réseau en offrant un point de contact pour les nouveaux nœuds, sans apporter d’avantage particulier à votre propre IBD. Si votre nœud fonctionne sur Tor, la logique reste identique, mais les adresses utilisées sont alors des services `.onion`.
 
 
-## Comprendre le stockage du nœud : blockchain, UTXO set et mempool
+## Anatomie de votre nœud Bitcoin
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
 Explication du modèle de données local d’un nœud : stockage des blocs (expliquer comment ça fonctionne concrètement, ou le trouver...), gestion de l'UTXO set et de la mempool.
+
+
+
+
+
+
+Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. 3 briques principales sont essentielles sur un nœud :
+- les **blocs** de la blockchain stockés sur disque,
+- l’**UTXO set** maintenu en base de données clé-valeur,
+- et la **mempool** conservée en mémoire vive et périodiquement sérialisée.
+
+À cela s’ajoutent quelques fichiers auxiliaires (peers, estimations de frais, listes d’exclusion, portefeuilles...) qui complètent l’ensemble. Découvrons ensemble le rôle de tous ces fichiers.
+
+### Où se trouvent concrètement les données du nœud ?
+
+Par défaut, Bitcoin Core enregistre ses données dans un répertoire de travail spécifique. Sous GNU/Linux, il se trouve généralement dans `~/.bitcoin/`, sous Windows dans `%APPDATA%\Bitcoin\`, et sous macOS dans `~/Library/Application Support/Bitcoin/`. Si vous utilisez une solution packagée (par exemple au sein d’une distribution de nœud), ce répertoire peut être monté ailleurs mais sa structure reste la même. Les sous-dossiers et fichiers importants décrits ci-dessous s’y trouvent toujours.
+
+### Les blocs
+
+La blockchain est donc un ensemble de blocs. Un nœud complet conserve ces blocs sous forme de fichiers plats séquentiels et maintient en parallèle un index pour les retrouver rapidement. En cas de besoin (réorganisation, rescan de portefeuille, service aux pairs), ces données sont relues telles quelles.
+
+**Note :** Une réorganisation ou resynchronisation, est un phénomène dans lequel la blockchain subit une modification de sa structure à cause de l'existence de blocs concurrents à une même hauteur. Cela survient lorsqu'une portion de la chaîne de blocs est remplacée par une autre chaîne ayant une quantité de travail accumulé plus importante. Ces resynchronisations font partie du fonctionnement naturel de Bitcoin, où différents mineurs peuvent trouver de nouveaux blocs presque simultanément, venant ainsi couper le réseau Bitcoin en deux. Dans de tels cas, le réseau peut se diviser temporairement en chaînes concurrentes. Finalement, lorsque l'une de ces chaînes accumule plus de travail, les autres chaînes sont abandonnées par les nœuds, et leurs blocs deviennent ce que l'on appelle des "blocs obsolètes" ou "blocs orphelins". Ce processus de remplacement d'une chaîne par une autre est la resynchronisation.
+
+#### Fichiers blk*.dat (données brutes des blocs)
+
+Les blocs reçus et validés sont écrits dans des conteneurs séquentiels nommés `blkNNNNN.dat`, stockés dans le dossier `blocks/`. Chaque fichier est rempli à la suite jusqu’à atteindre une taille maximale d’environ 128 Mio, puis Core ouvre le fichier suivant. À l’intérieur, chaque bloc est sérialisé en format réseau, précédé d’un identifiant magique et d’une longueur. Cette organisation permet une écriture rapide sur disque et facilite le service de blocs aux pairs qui se synchronisent.
+
+En mode élagué, le nœud conserve uniquement une fenêtre récente de ces fichiers pour limiter l’empreinte disque. Il supprime les plus anciens conteneurs `blk*.dat` dès que l’objectif d’espace configuré est atteint, tout en conservant suffisamment d’historique pour rester cohérent avec la meilleure chaîne connue. L’index et l’UTXO set restent normaux, ce qui permet la validation des prochaines transactions et des prochains blocs.
+
+#### Fichiers rev*.dat (données d’annulation)
+
+Pour pouvoir revenir en arrière lors d’une réorganisation, Core enregistre, parallèlement à chaque fichier `blk`, un fichier `revNNNNN.dat` dans `blocks/`. Ce fichier contient les informations nécessaires pour défaire l’effet d’un bloc sur l’UTXO set : pour chaque sortie consommée par le bloc, on stocke l’état antérieur de l’UTXO correspondant (montant, script, hauteur...). En cas d’abandon de blocs, le nœud peut ainsi reconstituer l’état précédent rapidement sans rescanner toute la chaîne.
+
+#### Index des blocs (blocks/index)
+
+Rechercher un bloc directement dans les fichiers plats serait trop long. Core maintient donc une base de données LevelDB dans `blocks/index/` qui répertorie, pour chaque bloc connu, des métadonnées comme le hash, la hauteur, le statut de validation, le fichier `blk` et l’offset où il se trouve. Lorsqu’un pair demande un bloc, ou lorsqu’un composant interne doit accéder à un bloc précis, cet index permet un accès rapide. Sans cet index, cela demanderai bien trop d'opérations.
+
+#### Index facultatifs (indexes/)
+
+Certains index sont optionnels et désactivés par défaut, car ils augmentent l’empreinte disque :
+- `indexes/txindex/`, dont nous avons déjà parlé, qui fournit une table de correspondance transaction → emplacement, permettant de retrouver n’importe quelle transaction confirmée sans connaître le bloc qui la contient. C'est utile pour des requêtes RPC de type `getrawtransaction` hors portefeuille, mais c'est assez coûteux.
+- `indexes/blockfilter/` qui peut contenir des filtres compacts de blocs (BIP157/158) destinés aux clients légers. Ces structures accélèrent la vérification côté client au prix d’un stockage supplémentaire sur le nœud indexeur.
+
+### L’UTXO set (chainstate)
+
+Le modèle UTXO (*Unspent Transaction Output*) est la représentation comptable de Bitcoin : chaque sortie non dépensée est une "pièce" disponible qui pourra servir d’entrée à une future transaction. L’ensemble de toutes ces pièces à un instant T constitue l’UTXO set : une grosse liste de toutes les pièces disponibles maintenant. C’est cet état que le nœud consulte pour décider si une transaction dépense des unités légitimes et non déjà utilisées dans une transaction antérieure (pour éviter la double dépense).
+
+L’UTXO set est conservé dans le dossier `chainstate/` sous la forme d’une base LevelDB compacte. Chaque pièce associe une clé dérivée du hash de la transaction et de l’index de sortie, à une valeur contenant : le montant, le `scriptPubKey` de verrouillage, la hauteur du bloc de création et un indicateur coinbase.
+
+Le nœud maintient un cache mémoire au-dessus de LevelDB afin d’absorber les lectures/écritures fréquentes. Le paramètre `dbcache` permet de modifier la taille de ce cache : plus il est grand, plus l’IBD et la validation courante bénéficient d’accès mémoire, au prix d’une consommation RAM plus grande. Lorsqu'un nouveau bloc est trouvé par un mineur, le nœud supprime de l'UTXO set les sorties dépensées (consommées) par les transactions incluses dans le bloc et ajoute les sorties nouvellement créées.
+
+Théoriquement, on pourrait valider une transaction en rescannant l’historique des blocs pour vérifier qu’une sortie n’a jamais été dépensée. Mais en pratique, ce serait beaucoup trop long, car il faudrait scanner toute la blockchain à chaque nouvelle transaction. L’UTXO set fournit ainsi la vue minimale suffisante pour prouver localement, et en temps raisonnable, l’absence de double dépense.
+
+Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du réseau : plus il y a d’utilisateurs, plus la demande en UTXOs est importante. La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.network/resources/glossary/utreexo).
+
+### La mempool
+
+La mempool est l’ensemble local des transactions valides reçues, mais pas encore confirmées. Pour rappel, une "transaction confirmée" est une transaction qui a été incluse dans un bloc valide. Chaque nœud maintient sa propre mempool, qui peut différer de celle des autres nœuds du réseau en fonction de :
+- la taille allouée à la mempool via le paramètre `maxmempool` : un nœud disposant d’une mempool plus grande pourra contenir davantage de transactions qu’un nœud dont la mempool est plus limitée (sauf si cette dernière se vide) ;
+- les règles de mempool : elles constituent un sous-ensemble des règles de relais du nœud et définissent les caractéristiques qu’une transaction non confirmée doit respecter pour être acceptée dans la mempool ;
+- la percolation des transactions : en raison de divers facteurs, une transaction donnée peut avoir été diffusée à une partie du réseau, mais ne pas avoir encore atteint une autre partie.
+
+Il est important de noter que les mempools des nœuds n’ont aucune valeur de consensus. Bitcoin fonctionne parfaitement même si chaque nœud possède une mempool différente. Au final, ce qui fait autorité reste toujours les blocs ajoutés à la blockchain. Par exemple, même si un nœud refuse initialement une transaction donnée dans sa mempool (valide selon les règles de consensus), il sera obligé de l’accepter si celle-ci est finalement incluse dans un bloc disposant d’une preuve de travail valide. S’il ne le faisait pas et rejetait ce bloc pourtant conforme aux règles de consensus, il provoquerait un hardfork, c’est-à-dire la création d’un nouveau Bitcoin distinct sur lequel il serait seul.
+
+#### Politique et gestion de la mémoire
+
+À la réception d’une transaction, Core donc applique une série de vérifications des règles de consensus (syntaxe, scripts valides, pas de double dépense...) et des règles de mempool, qui sont une politique locale (RBF, seuils de frais minimaux, limite de la data dans les `OP_RETURN`...). Si la transaction respecte ces règles, elle est insérée en mémoire.
+
+La taille de la mempool est bornée par le paramètre `maxmempool` dans le fichier `bitcoin.conf` (nous en parlerons dans le prochain chapitre). Par défaut, la limite est de 300 Mo. Lorsqu’elle est pleine, le nœud relève dynamiquement son seuil de frais minimal et expulse en priorité les transactions les moins rémunératrices (c'est-à-dire les transactions qui devraient être minées en premières). Les transactions trop anciennes peuvent également expirer après un délai configuré.
+
+#### Persistance de la mempool sur disque
+
+Pour accélérer les redémarrages, Core sérialise périodiquement l’état de la mempool dans le fichier `mempool.dat` à l’arrêt du nœud. En plus de la mempool réelle qui reste donc en mémoire, Core conserve ce fichier `mempool.dat` sur le disque. Au lancement suivant, il recharge ce snapshot et élimine ce qui n’est plus valide vis-à-vis de la blockchain actuelle.
+
+### Fichiers et bases auxiliaires
+
+Plusieurs autres fichiers au même niveau que `blocks/`, `chainstate/` et `indexes/` participent au bon fonctionnement du nœud :
+- `peers.dat` conserve un carnet d’adresses IP de pairs potentiels, alimenté par la découverte DNS initiale, les échanges réseau et les ajouts manuels. Lors de son démarrage, le nœud peut piocher dans ce fichier si besoin pour établir ses connexions sortantes ;
+- `anchors.dat` enregistre, à l’extinction du nœud, les adresses de pairs sortants afin de tenter de les recontacter rapidement au prochain démarrage ;
+- `banlist.json` contient les bannissements locaux décidés par l’opérateur ou par le nœud (comportements invalides répétés), afin d'empêcher le nœud de se reconnecter ou d'accepter des connexions de ces pairs spécifiques ;
+- `fee_estimates.dat` stocke des statistiques d’horizon temporel sur les confirmations observées, utilisées par l’estimateur de frais pour proposer des taux de frais cohérents avec les objectifs de délai choisis lors de la création d'une transaction ;
+- `bitcoin.conf` contient les paramètres de configuration de votre nœud. C’est notamment dans ce fichier que l’on peut ajuster les règles de relais. Je vous en parlerai plus en détail dans le prochain chapitre ;
+- `settings.json` contient d'autres paramètres supplémentaires au `bitcoin.conf` ;
+- `debug.log` est le journal texte de diagnostic, qui peut servir pour comprendre l’activité du nœud en cas de bug ;
+
+
+
+
+
+
+
+
+
 
 ## Comprendre le fichier bitcoin.conf
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>

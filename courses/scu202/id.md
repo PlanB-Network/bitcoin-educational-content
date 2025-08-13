@@ -1663,7 +1663,7 @@ Keamanan komputer Anda tidak dimulai setelah sistem operasi diluncurkan, melaink
 
 BIOS (*Basic Input/Output System*) adalah pendahulu UEFI (*Unified Extensible Firmware Interface*). Saat ini, UEFI adalah standar pada semua komputer modern.
 
-Secara default, akses ke pengaturan ini tidak terlindungi. Penyerang dengan akses fisik ke komputer Anda (di ruang bersama, dalam kasus pencurian, atau bahkan sementara tanpa sepengetahuan Anda) dapat masuk ke Interface UEFI dan memodifikasi pengaturan krusial. Sebagai contoh, ia dapat:
+Secara default, akses ke pengaturan ini tidak terlindungi. Penyerang dengan akses fisik ke komputer Anda (di ruang publik, dalam kasus pencurian, atau bahkan sementara tanpa sepengetahuan Anda) dapat masuk ke Interface UEFI dan memodifikasi pengaturan krusial. Sebagai contoh, ia dapat:
 - Mengubah urutan boot untuk memaksa peluncuran sistem eksternal dari kunci USB
 - Menonaktifkan mekanisme keamanan seperti Boot Aman
 - Menginstal *malware* di firmware komputer Anda...
@@ -1681,77 +1681,43 @@ Untuk mengaktifkannya, ini akan tergantung pada model motherboard Anda, tetapi u
 
 **Peringatan:** jika Anda kehilangan kata sandi ini, Anda akan diblokir dan harus mengatur ulang motherboard. Jadi, pastikan untuk menyimpan kata sandi ini di pengelola kata sandi atau di lokasi fisik yang aman.
 
+Selain itu, aktifkan fitur "Secure Boot / Boot Aman" jika tersedia dan belum aktif. Mekanisme ini mencegah eksekusi kode yang tidak ditandai atau diubah saat proses boot. Fitur ini dirancang untuk memblokir bootkit dan rootkit, yaitu jenis malware yang menginfeksi proses boot komputer bahkan sebelum sistem operasi dimulai.
 
-
-Selain itu, aktifkan fitur "Boot Aman" jika tersedia dan belum aktif. Mekanisme ini mencegah kode yang tidak ditandatangani atau diubah agar tidak dieksekusi pada saat boot. Ini dirancang untuk memblokir bootkit dan rootkit, jenis *malware* yang menginfeksi boot komputer, bahkan sebelum OS dijalankan.
-
-
-
-Mengamankan UEFI adalah tindakan yang sering diabaikan tetapi sangat penting untuk melindungi mesin Anda dari serangan tingkat lanjut. Ini adalah salah satu dari sedikit benteng pertahanan terhadap gangguan fisik atau manipulasi pra-sistem.
-
-
+Mengamankan UEFI adalah tindakan yang sering diabaikan, namun sangat krusial untuk melindungi komputer Anda dari serangan lanjutan. Ini adalah salah satu dari sedikit benteng pertahanan terhadap intrusi fisik atau manipulasi pra-sistem.
 
 #### Mengamankan akses fisik ke komputer
 
+Mengamankan workstation tidak terbatas pada perlindungan perangkat lunak: jika seseorang yang berniat jahat mendapatkan akses fisik ke komputer Anda, mereka dapat melewati banyak penghalang atau menyusupi sistem tanpa sepengetahuan Anda. Hal ini terutama berlaku untuk laptop, yang mudah dibawa, namun juga untuk perangkat apa pun yang ditinggalkan di ruang publik, terbuka untuk publik, atau bahkan hanya dapat diakses oleh orang lain.
 
+Salah satu risiko yang paling umum (namun diremehkan) adalah meninggalkan komputer tanpa pengawasan, bahkan hanya beberapa menit, di tempat umum seperti perpustakaan, konferensi, ruang terbuka, dan lobi hotel. Ini bukan hanya risiko pencurian: dalam hitungan detik, orang jahat dapat menyambungkan flash drive USB berbahaya, menginstal spyware, memodifikasi parameter boot untuk memaksa boot eksternal, atau mengambil kredensial dengan menyuntikkan keylogger perangkat keras.
 
-Mengamankan stasiun kerja tidak terbatas pada perlindungan perangkat lunak: jika seseorang yang berniat jahat mendapatkan akses fisik ke mesin Anda, mereka bisa menerobos banyak penghalang atau mengkompromikan sistem tanpa sepengetahuan Anda. Hal ini terutama berlaku untuk laptop, yang mudah dibawa-bawa, tetapi juga untuk semua perangkat yang ditinggalkan di ruang bersama, terbuka untuk umum, atau bahkan mudah diakses oleh orang lain.
+Dengan alur pemikiran yang sama, saya menyarankan untuk tidak menggunakan aksesori atau periferal eksternal yang tidak Anda kendalikan. Hindari memasukkan flash drive USB, hard drive eksternal, pengisi daya, atau dongle ke komputer Anda jika asal-usul benda-benda ini tidak diketahui (misalnya, baru atau milik orang yang tidak Anda percaya). Beberapa aksesori yang tampak tidak berbahaya mungkin mengandung program yang mampu mengeksekusi perintah jahat segera setelah dicolokkan. Sebaliknya, jangan pinjamkan aksesori Anda sendiri atau tinggalkan tanpa pengawasan di tempat yang dapat diakses: aksesori tersebut dapat ditukar dengan versi yang telah disusupi.
 
-
-
-Salah satu risiko yang paling umum (tetapi diremehkan) adalah meninggalkan komputer tanpa pengawasan, bahkan untuk beberapa menit, di tempat umum seperti perpustakaan, konferensi, ruang terbuka, dan lobi hotel. Ini bukan hanya risiko pencurian: dalam hitungan detik, orang jahat bisa menyambungkan stik USB berbahaya, memasang spyware, memodifikasi parameter boot untuk memaksa boot eksternal, atau mengambil kredensial dengan menyuntikkan keylogger perangkat keras.
-
-
-
-Dengan nada yang sama, saya menyarankan agar Anda tidak menggunakan aksesori atau periferal eksternal yang tidak Anda kendalikan. Hindari memasukkan stik USB, drive Hard eksternal, pengisi daya, atau dongle ke dalam komputer Anda jika asal usul benda-benda ini tidak diketahui (baru atau dimiliki oleh orang yang tepercaya). Beberapa aksesori yang tampaknya tidak berbahaya mungkin mengandung sirkuit yang mampu menjalankan perintah berbahaya segera setelah dicolokkan. Sebaliknya, jangan meminjamkan aksesori Anda sendiri atau meninggalkannya tanpa pengawasan di tempat yang mudah dijangkau: aksesori tersebut dapat ditukar dengan versi yang telah disusupi.
-
-
-
-Untuk membatasi risiko pencurian fisik, Anda dapat melengkapi PC desktop dengan sistem penguncian fisik. Sebagian besar PC profesional dilengkapi port keamanan Kensington, sehingga memungkinkan kabel baja dipasang ke perabot tetap. Varian juga tersedia untuk laptop. Perangkat ini tentu saja tidak menawarkan perlindungan mutlak terhadap pencurian, tetapi cukup untuk menghalangi serangan oportunistik.
-
-
+Untuk membatasi risiko pencurian fisik, Anda dapat melengkapi PC desktop dengan sistem penguncian fisik. Sebagian besar PC profesional memiliki port keamanan Kensington, yang memungkinkan kabel baja dipasang ke perabot yang tetap. Varian juga tersedia untuk laptop. Perangkat ini tentu saja tidak menawarkan perlindungan absolut terhadap pencurian, tetapi sudah cukup untuk mencegah serangan saat kita lengah.
 
 ![Image](assets/fr/202.webp)
 
+Selain itu, selalu matikan komputer Anda saat Anda tidak berada di dekatnya, terutama di lingkungan yang tidak aman. Berbeda dengan mode standby saja, mematikan total mencegah sistem operasi dimuat dan melindungi dari serangan tertentu yang menargetkan RAM. Ini juga mengaktifkan keamanan BIOS/UEFI Anda.
 
-
-Selain itu, selalu matikan mesin Anda ketika Anda sedang tidak berada di tempat, terutama di lingkungan yang tidak aman. Tidak seperti siaga sederhana, pematian total mencegah OS memuat, dan melindungi dari serangan tertentu yang menargetkan RAM. Hal ini juga mengaktifkan keamanan BIOS/UEFI Anda.
-
-
-
-Terakhir, salah satu langkah paling penting yang dapat Anda ambil untuk melindungi diri Anda dari pencurian adalah dengan mengaktifkan enkripsi disk penuh. Hal ini melindungi data Anda dengan membuatnya tidak dapat diakses tanpa kata sandi, bahkan jika disk diekstraksi dan disambungkan ke mesin lain. Pada beberapa sistem, enkripsi ini diaktifkan secara default:
-
-
-
+Terakhir, salah satu tindakan paling penting yang dapat Anda ambil untuk melindungi diri dari pencurian adalah mengaktifkan enkripsi disk penuh. Ini melindungi data Anda dengan membuatnya tidak dapat diakses tanpa kata sandi, bahkan jika disk diekstrak dan dicolokkan ke komputer lain. Pada beberapa sistem, enkripsi ini diaktifkan secara default:
 
 - macOS menggunakan FileVault
-- Windows menggunakan BitLocker, tetapi aktivasinya bergantung pada mesin dan versi OS
+- Windows menggunakan BitLocker, tetapi aktivasinya bergantung pada komputer dan versi OS
 - Distribusi Linux tidak secara otomatis mengenkripsi disk, kecuali jika pilihan ini dipilih pada saat instalasi. Anda dapat menggunakan LUKS untuk mengenkripsi disk
-
 
 https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Dalam semua kasus, kata sandi dekripsi harus kuat, berbeda dengan kata sandi sistem, dan disimpan di pengelola kata sandi yang aman. Jika Anda menggunakan disk eksternal atau kunci USB yang berisi data sensitif, pertimbangkan juga untuk mengenkripsinya satu per satu dengan alat bantu seperti VeraCrypt.
-
-
+Dalam semua kasus, kata sandi dekripsi harus kuat, berbeda dari kata sandi sistem, dan disimpan dalam manajer kata sandi yang aman. Jika Anda menggunakan disk eksternal atau flash drive USB yang berisi data sensitif, pertimbangkan juga untuk mengenkripsinya secara individual dengan program seperti VeraCrypt.
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Prinsip keistimewaan yang paling sedikit
 
+Prinsip otoritas terbatas (least privilege) adalah aturan fundamental dalam keamanan siber, di mana setiap entitas (pengguna manusia, program perangkat lunak, proses sistem, dll.) seharusnya hanya memiliki hak yang benar-benar diperlukan untuk menyelesaikan tugasnya. Dengan kata lain, jangan pernah memberikan otorisasi lebih dari yang diperlukan, karena setiap izin tambahan meningkatkan serangan di lapisan luar sistem.
 
+Secara nyata, pada komputer pribadi Anda, ini berarti akun pengguna utama Anda tidak boleh memiliki hak administrator untuk aktivitas sehari-hari, seperti penjelajahan web, memeriksa email, atau pekerjaan kantor. Memang, jika perangkat lunak berbahaya dieksekusi oleh akun dengan hak yang ditingkatkan, ia akan dapat memodifikasi file sistem, menginstal layanan yang berjalan di latar belakang, atau menonaktifkan perlindungan keamanan. Sebaliknya, jika dijalankan dalam lingkungan yang dibatasi, kemampuannya untuk menyebabkan kerusakan akan terbatas.
 
-Prinsip hak yang paling sedikit adalah aturan mendasar dalam keamanan siber, yang menyatakan bahwa setiap entitas (pengguna manusia, program perangkat lunak, proses sistem, dan lain-lain) hanya boleh memiliki hak yang benar-benar diperlukan untuk menyelesaikan tugasnya. Dengan kata lain, jangan pernah memberikan otorisasi lebih dari yang diperlukan, karena setiap izin tambahan akan meningkatkan permukaan serangan sistem.
-
-
-
-Secara konkret, pada komputer pribadi Anda, ini berarti bahwa akun pengguna utama Anda tidak boleh memiliki hak administrator untuk aktivitas sehari-hari: menjelajah web, memeriksa email, pekerjaan kantor, dll. Memang, jika perangkat lunak berbahaya dijalankan oleh akun dengan hak yang lebih tinggi, dia akan dapat memodifikasi file sistem, menginstal layanan yang terus-menerus, atau menonaktifkan perlindungan keamanan. Sebaliknya, jika dijalankan di lingkungan yang terbatas, kemampuannya untuk menyebabkan kerusakan akan terbatas.
-
-
-
-Pada Windows, sebagian besar pengguna memiliki akun administrator secara default, meskipun ini adalah praktik yang buruk. Saya sarankan Anda membuat akun pengguna standar untuk penggunaan sehari-hari, dan meninggalkan akun administrator untuk operasi yang benar-benar membutuhkannya. Ketika Anda mencoba melakukan tugas yang membutuhkan hak istimewa, Windows hanya akan meminta Anda memasukkan kata sandi administrator, bukan hanya mengklik tombol "*YES".
-
-
+Pada Windows, sebagian besar pengguna memiliki akun administrator secara default, meskipun ini merupakan praktik yang buruk. Saya merekomendasikan Anda untuk membuat akun pengguna standar untuk penggunaan sehari-hari, dan menyisakan akun administrator untuk operasi yang benar-benar membutuhkannya. Saat Anda mencoba melakukan tugas yang memerlukan hak istimewa yang ditingkatkan, Windows akan meminta Anda untuk memasukkan kata sandi administrator, bukan sekadar mengklik tombol "YA".
 
 ![Image](assets/fr/204.webp)
 

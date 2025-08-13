@@ -13,7 +13,7 @@ Per gestire offline le chiavi private, dunque, serve un dispositivo perennemente
 Come fare se, ad esempio, non si ha la possibilità di acquistare hardware che svolga solo questo compito, ma non si vuole rinunciare a questo step di sicurezza?
 
 ## La Soluzione
-Se ti dicessi che puoi realizzare un dispositivo offline, sotto forma di computer airgap che ha le dimensioni e il peso di una chiavetta USB e costa 35,00 euro? Non ci credi?
+Se ti dicessi che puoi realizzare un dispositivo offline, sotto forma di computer airgap che ha le dimensioni e il peso di una chiavetta USB e costa 35 euro? Non ci credi?
 
 Continua a leggere. 
 
@@ -21,39 +21,33 @@ Ti dirò di più: leggi fino in fondo. La soluzione proposta è economica, ma no
 
 ## Requisiti
 
-1. Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/).
-La PI Zero (senza alcuna sigla al seguito) è la base per realizzare un computer dalle prestazioni minime, ma è soprattutto priva delle schede Wi-Fi e Bluetooth, requisiti indispensabili per lo scopo di questa esercitazione.
+1. Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): la PI Zero (senza alcuna sigla al seguito) è la base per realizzare un computer dalle prestazioni minime, ma è soprattutto priva delle schede Wi-Fi e Bluetooth, requisiti indispensabili per lo scopo di questa esercitazione.
 
-- **Costo: circa 15,00 euro al momento della stesura di questo tutorial**.
-- **Continuità di produzione: Raspberry garantisce la produzione fino a gennaio 2030**.
+- **Costo**: circa 15,00 euro al momento della stesura di questo tutorial (agosto 2025).
+- **Continuità di produzione**: Raspberry garantisce la produzione fino a gennaio 2030.
 
-Le PI Zero senza Wi-Fi e Bluetooth, sono purtroppo diventate praticamente introvabili. Potresti trovare più agevolmente le alternative PI Zero W e PI Zero 2W. In questo caso, potrai disabilitare le funzioni di connessione cambiando il file config, una volta installato il sistema operativo.
+Le PI Zero senza Wi-Fi e Bluetooth, sono purtroppo diventate praticamente introvabili. Potresti trovare più agevolmente le alternative PI Zero W e PI Zero 2W. In questo caso, potrai disabilitare le funzioni di connessione cambiando il file config. Dopo aver installato il sistema operativo, dovrai aggiungere queste voci alla configurazione:
 
-``` Usando
+``` 
 dtoverlay=disable-wifi
 dtoverlay=disable-bt
-
-una sezione di questa guida ti mostrerà come e dove farlo
 ```
 
-Se sei proprio paranoico, puoi trovare sul web diversi tutorial per eliminare il chip Wi-Fi con una piccola tronchesina, di quelle adatte alla lavorazione sulle schede elettroniche.
+una sezione di questa guida ti mostrerà come e dove farlo. Comunque, se vuoi proprio essere sicuro, puoi trovare sul web diversi tutorial per eliminare il chip Wi-Fi con una piccola tronchesina, di quelle adatte alla lavorazione sulle schede elettroniche.
 
-2. Uno _starter kit_ per Raspberry PI Zero
-La PI Zero, come è prassi per il mondo Raspberry, è nuda e cruda, senza case esterno. Inoltre, le limitate risorse di una scheda così piccola, condizionano le possibilità di connessione con l'esterno.
+2. Uno _starter kit_ per Raspberry PI Zero: come è prassi per il mondo Raspberry, nudo e crudo, senza case esterno. Inoltre, le limitate risorse di una scheda così piccola, condizionano le possibilità di connessione con l'esterno.
 
 Quando ho deciso di procedere, ho trovato [questo kit](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) pieno di accessori, per sfruttare appieno tutte le potenzialità della PI Zero. Il kit contiene, infatti, un alimentatore USB A -> micro USB, un piccolo hub USB, un adattatore mini-HDMI -> HDMI, un dissipatore in rame e un case esterno in alluminio. Insieme al kit sono fornite anche le viti e la brugola necessarie per mettere la PI Zero nel nuovo case.
 
-- **Costo: 19,99 euro**.
+- **Costo**: 19,99 euro.
 
 3. Questo tutorial non prevede che tu spenda grandi budget per la realizzazione del computer airgap. Devi però sapere che ti serviranno una tastiera e un mouse USB (rigorosamente via cavo, evita il Bluetooth) e un monitor. A seconda dell'ingresso al tuo monitor, potrebbe servirti un adattatore da mini-HDMI, l'unica uscita disponibile sulla PI Zero. Infine, cerca bene che in casa, da qualche parte, abbiamo tutti una tastiera e un mouse non-wireless: è arrivato il momento di rispolverarli.
 
 ## Extra Budget
+
 4. Puoi procurarti l'alimentatore originale da Raspberry, del costo di circa 15,00 euro.
-
 5. Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA -> miniUSB cosiddetto `no data`, del costo di 3,70 euro.
-
 6. Una scheda micro SD, per avere un minimo di memoria di massa almeno da 32 GB; se di qualit/livello industriale è meglio.
-
 7. Ti servirà un sistema, un adattatore da USB a micro SD, come quello che vedi in foto. Il sistema operativo della tua PI Zero e la sua memoria, infatti, lavoreranno su tale supporto.
 
 ![img](assets/it/06.webp)
@@ -86,11 +80,12 @@ Infine, esegui il comando `sha256sum` del file e confronta l'hash con quello for
 
 ![img](assets/it/21.webp)
 
-Oppure, se hai Windows, apri la Power Shell e digita il comando:
+Oppure, se hai Windows, apri la Power Shell e digita il seguente comando:
 
 ``` 
 Get-FileHash -Path <yourpath>\imager-1.9.6.exe
 ```
+
 ![img](assets/it/04.webp)
 
 Otterrai l'hash che deve coincidere con quello pubblicato sul Github di Raspberry.
@@ -99,17 +94,17 @@ Una volta verificato il download, puoi installare Imager sul tuo computer quotid
 
 Il procedimento è estremamente semplice: scegli innanzitutto il dispositivo Raspberry che andrai ad utilizzare (pertanto presta attenzione al **tuo modello** di Raspi Zero), poi la versione del sistema operativo e infine il mount point della  scheda micro SD su cui flashare il S.O.
 
-## 1
+### Primo Step
 
 ![img](assets/it/03.webp)
 
-## 2
+### Secondo Step
 
 ![img](assets/it/07.webp)
 
-**N.B. Scegli `PI OS a 32 bit`, l'unico che funziona con la PI Zero**.
+**Nota bene**: scegli `PI OS a 32 bit`, l'unico che funziona con la PI Zero.
 
-## 3
+### Terzo Step
 
 ![img](assets/it/08.webp)
 
@@ -197,17 +192,17 @@ All'accensione vedrai una breve schermata coi colori dell'arcobaleno, seguita da
 
 Quando compare il desktop di PI OS, apri il terminale e digita:
 
-``` Copia
+```bash
 uname -a
 ```
-- per rivelare il kernel.
+Questo comando ti mostrerà a schermo la versione del kernel attualmente in uso, più altre informazioni.
 
 ![img](assets/it/26.webp)
 
 Puoi anche vedere informazioni su CPU e hardware digitando:
 
-``` Copia
- # lscpu
+```bash
+lscpu
 ```
 
 ![img](assets/it/27.webp)
@@ -218,7 +213,7 @@ E anche vedere `proc/mem/info`.
 
 Per conoscere la versione di Debian e il codename della release:
 
-``` Copia
+``` bash
 lsb_release -a
 ```
 
@@ -226,20 +221,20 @@ lsb_release -a
 
 Infine, due comandi per controllare la memoria di massa e i dischi:
 
-``` Copia
+``` bash
 fdisk -l
 ```
 
 ![img](assets/it/31.webp)
 
-``` Copia
+``` bash
 df
 ```
 ![img](assets/it/30.webp)
 
 Per controllare come lavora la CPU:
 
-``` Copia
+``` bash
 top
 ```
 
@@ -248,20 +243,20 @@ top
 ## Utilizzo
 Nonostante le prestazioni sembrino limitate (sulla carta e rispetto alla potenza delle macchine odierne) la PI Zero è prestante, soprattutto da terminale.
 
-- Innanzitutto puoi andare nei menu principali e farti ispirare dal pannello _Add/Remove software_, dove troverai una serie di utility per programmare ed esercitarti. Ricorda che puoi farlo anche da terminale, ma sempre con i privilegi di `root`.
+- Per prima cosa puoi andare nei menu principali e farti ispirare dal pannello _Add/Remove software_, dove troverai una serie di utility per programmare ed esercitarti. Ricorda che puoi farlo anche da terminale, ma sempre con i privilegi di `root`.
 
 ![img](assets/it/33.webp)
 
 - Puoi "adottare" questo dispositivo offline per memorizzare una serie di documenti riservati, che resteranno accessibili all'occorrenza, senza mai essere esposti alla rete Internet.
-
 - Puoi utilizzare questa configurazione per generare le tue chiavi GPG in modo sicuro.
+- Potresti, addirittura, sfruttare questo nuovo "giocattolino" come dispositivo di firma airgap, [seguendo i consigli di Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0).
 
-- Potresti, addirittura, sfruttare questo nuovo "giocattolino" come dispositivo di firma airgap, [seguendo i consigli di Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0). Tra i wallet che conosco bene, l'unico che prevede una release a 32 bit è Electrum. Ebbene: la PI Zero così come l'abbiamo preparata in questo tutorial, ti permetterebbe di tenere le chiavi private offline,  usando questo set up per wallet airgap:
+Tra i wallet che conosco bene, l'unico che prevede una release a 32 bit è Electrum. Ebbene: la PI Zero così come l'abbiamo preparata in questo tutorial, ti permetterebbe di tenere le chiavi private offline il set up per wallet airgap che abbiamo trattato in questo tutorial:
 
 https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusioni
-La configurazione ha, probabilmente, un grande punto debole: la micro SD è un supporto che potrebbe dare problemi. È vulnerabile all'uso intensivo (magari hai già esperienza di questo, dall'uso con il tuo telefono). Dopo aver installato tutti i software che vorrai usare sulla PI Zero airgap, fai un buon backup della preziosa micro SD, utilizzando il tool di Raspi OS che hai a disposizione.
+La configurazione ha, probabilmente, un grande punto debole: la micro SD è un supporto che potrebbe dare problemi. È vulnerabile all'uso intensivo; magari hai già esperienza di questo, dall'uso con il tuo telefono. Dopo aver installato tutti i software che vorrai usare sulla PI Zero airgap, fai un buon backup della preziosa micro SD, utilizzando il tool di Raspi OS che hai a disposizione.
 
 ![img](assets/it/34.webp)
 

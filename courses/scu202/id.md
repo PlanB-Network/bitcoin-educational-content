@@ -1731,136 +1731,70 @@ Pengelompokan ini tidak terbatas pada pengguna manusia. Banyak aplikasi memerluk
 
 ### Multisesi: lingkungan yang terpisah
 
+Selain memisahkan akun administrator dari akun standar, kebiasaan baik yang melengkapi hal tersebut adalah membuat beberapa sesi pengguna yang berbeda pada satu komputer untuk mempartisi penggunaan sesuai dengan sifatnya. Pendekatan ini didasarkan pada logika sederhana: dengan membedakan aktivitas Anda ke dalam lingkungan yang terpisah, Anda mengurangi serangan pada lapisan luar setiap lingkungan dan membatasi konsekuensi dari insiden keamanan apa pun.
 
-
-Selain memisahkan akun administrator dari akun standar, praktik terbaik pelengkap adalah membuat beberapa sesi pengguna yang berbeda pada komputer yang sama untuk mempartisi penggunaan menurut sifatnya. Pendekatan ini didasarkan pada logika sederhana: dengan mengkotak-kotakkan aktivitas Anda ke dalam lingkungan yang terpisah, Anda mengurangi permukaan serangan pada setiap lingkungan dan membatasi konsekuensi dari insiden keamanan.
-
-
-
-Semua sistem operasi modern memungkinkan beberapa akun pengguna dibuat pada satu mesin. Masing-masing akun ini memiliki ruang pribadi mereka sendiri: file, aplikasi, pengaturan, dan sesi jaringan tidak dibagikan di antara mereka, kecuali jika secara eksplisit diotorisasi.
-
-
+Semua sistem operasi modern memungkinkan pembuatan beberapa akun pengguna pada satu perangkat. Setiap akun ini memiliki ruang pribadi tersendiri: file, aplikasi, pengaturan, dan sesi jaringan tidak dibagi di antara mereka, kecuali jika diotorisasi secara eksplisit.
 
 Sebagai contoh, Anda dapat menyusun sesi Anda sebagai berikut:
 
-
-
-
-- Akun yang didedikasikan untuk aktivitas profesional Anda, di mana Anda hanya menginstal perangkat lunak yang benar-benar Anda perlukan (office suite, alat kolaborasi, perpesanan profesional...). Sesi ini tidak boleh digunakan untuk menjelajah web gratis atau pengujian perangkat lunak;
-- Akun untuk penggunaan pribadi, yang digunakan untuk menjelajah web sehari-hari, jejaring sosial, streaming, atau menginstal aplikasi konsumen. Sesi ini biasanya merupakan sesi yang paling rentan terhadap serangan peramban atau unduhan yang mencurigakan;
+- Akun yang didedikasikan untuk aktivitas profesional Anda, di mana Anda hanya menginstal perangkat lunak yang benar-benar Anda perlukan (office suite, program kolaborasi, perpesanan profesional...). Sesi ini tidak boleh digunakan untuk menjelajah web sembarangan atau pengujian perangkat lunak;
+- Akun untuk penggunaan pribadi, yang digunakan untuk menjelajah web sehari-hari, jejaring sosial, streaming, atau menginstal aplikasi pribadi. Sesi ini biasanya merupakan sesi yang paling rentan terhadap serangan browser atau unduhan yang mencurigakan;
 - Akun yang disediakan untuk aktivitas sensitif, seperti berkonsultasi dengan rekening bank, mengelola portofolio Bitcoin Anda, atau penggunaan lain yang membutuhkan keamanan tingkat tinggi. Akun ini harus digunakan secara eksklusif untuk tugas-tugas ini, dengan perangkat lunak yang diinstal terbatas pada apa yang benar-benar diperlukan, dan dengan konfigurasi jaringan yang lebih ketat;
 - Akun tamu atau akun yang sangat terbatas, yang ditujukan khusus untuk penggunaan sesekali oleh anggota keluarga, misalnya. Akun ini jelas tidak boleh memiliki hak administrator dan akses terbatas.
 
+Ada beberapa keuntungan dalam mengadopsi pendekatan ini. Pertama, aplikasi yang diinstal dalam satu sesi tidak dapat mengganggu aplikasi dari sesi lain (kecuali dalam kasus peningkatan hak istimewa). Kedua, jika sebuah sesi disusupi, misalnya melalui *malware* yang diunduh, dampaknya umumnya terkandung dalam batasan akun tersebut. Ini berarti dokumen bisnis atau portofolio Bitcoin Anda akan tetap tidak dapat diakses oleh malware jika disimpan dalam sesi lain yang terisolasi dengan benar.
 
-
-Ada beberapa keuntungan dalam mengadopsi pendekatan ini. Pertama, aplikasi yang diinstal dalam sebuah sesi tidak dapat mengganggu sesi lain (kecuali dalam kasus peningkatan hak istimewa). Kedua, jika sebuah sesi disusupi, misalnya melalui *malware* yang diunduh, dampaknya umumnya berada dalam batas-batas akun tersebut. Ini berarti bahwa dokumen bisnis atau portofolio Bitcoin Anda tidak akan dapat diakses oleh *malware* jika disimpan di sesi lain yang terisolasi dengan baik.
-
-
-
-Pada Linux, pemisahan ini dapat diperkuat dengan mekanisme seperti AppArmor atau SELinux, yang dapat digunakan untuk membatasi hak akses lebih lanjut untuk setiap sesi.
-
-
+Pada Linux, pemisahan ini dapat diperkuat oleh mekanisme seperti AppArmor atau SELinux, yang dapat digunakan untuk lebih membatasi hak akses untuk setiap sesi.
 
 ![Image](assets/fr/205.webp)
 
+Penting untuk dicatat bahwa penggunaan multisession tidak menggantikan penggunaan akun non-administrator, maupun penerapan prinsip otoritas terbatas. Fitur ini melengkapinya dengan menambahkan lapisan tettutup secara logis yang mudah diatur dan sangat efektif untuk penggunaan hibrida (keluarga atau profesional).
 
-
-Penting untuk dicatat bahwa multisesi tidak menggantikan penggunaan akun non-administrator, atau penerapan prinsip hak istimewa yang paling sedikit. Ini melengkapinya dengan menambahkan Layer isolasi logis, yang mudah diatur dan sangat efektif untuk penggunaan hibrida keluarga atau profesional.
-
-
-
-Terakhir, pendekatan lain yang lebih radikal namun sangat efektif adalah mendedikasikan komputer terpisah untuk setiap penggunaan, misalnya: satu laptop didedikasikan khusus untuk aktivitas profesional, laptop lainnya untuk penggunaan pribadi, dan laptop ketiga yang sederhana dengan keamanan yang baik untuk aktivitas sensitif.
-
-
+Terakhir, ada pendekatan lain yang lebih radikal namun sangat efektif, yaitu mendedikasikan komputer terpisah untuk setiap penggunaan, misalnya: satu laptop khusus untuk aktivitas profesional, satu lagi untuk penggunaan pribadi, dan yang ketiga yang sederhana dan aman untuk aktivitas sensitif.
 
 ### Mesin virtual
 
+Mesin virtual (atau "VM") memungkinkan Anda menciptakan lingkungan yang sepenuhnya terisolasi di dalam komputer Anda. Sebuah VM mensimulasikan komputer independen dengan sistem operasi, aplikasi, dan pengaturannya sendiri, namun pada kenyataannya berfungsi sebagai program yang berjalan di komputer utama Anda.
 
-
-Mesin virtual (atau "VM") memungkinkan Anda membuat lingkungan yang sepenuhnya terisolasi di dalam komputer Anda. VM mensimulasikan komputer independen dengan sistem operasi, aplikasi, dan pengaturannya sendiri, tetapi berfungsi sebagai program yang berjalan di mesin utama Anda.
-
-
-
-Teknologi ini didasarkan pada hypervisor, sebuah program perangkat lunak yang mengelola pembuatan dan eksekusi VM. Solusi yang paling terkenal adalah VirtualBox, sebuah paket perangkat lunak lintas platform yang bersifat sumber terbuka. Ini memudahkan untuk membuat VM hanya dengan beberapa klik, dengan mengalokasikan sumber daya khusus untuk itu.
-
-
+Teknologi ini didasarkan pada hypervisor, sebuah program perangkat lunak yang mengelola pembuatan dan eksekusi VM. Solusi yang paling dikenal adalah VirtualBox, sebuah paket perangkat lunak open source dan lintas-platform. Dengan VirtualBox, Anda dapat dengan mudah membuat VM hanya dengan beberapa klik, dengan mengalokasikan sumber daya spesifik untuknya.
 
 ![Image](assets/fr/206.webp)
 
-
 https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-Dalam hal keamanan TI, salah satu keuntungan besar dari mesin virtual adalah kemampuannya untuk mengkotak-kotakkan. VM tidak berbagi file, proses, atau akses jaringan dengan sistem host, kecuali jika Anda secara eksplisit mengonfigurasi pertukaran ini. Jadi, jika VM terinfeksi *malware*, atau jika Anda menguji perangkat lunak sensitif di dalamnya, dampaknya tetap terbatas pada mesin virtual tersebut: sistem utama Anda tetap utuh, asalkan parameter isolasi dipatuhi (tidak ada direktori bersama, tidak ada perangkat USB yang diteruskan ke VM...).
+Dari segi keamanan TI, salah satu keuntungan besar dari mesin virtual adalah kemampuannya untuk mengkompartementalisasi. Sebuah VM tidak berbagi file, proses, atau akses jaringan dengan sistem host (utama), kecuali jika Anda secara eksplisit mengonfigurasi pertukaran ini. Jadi, jika sebuah VM terinfeksi *malware*, atau jika Anda menguji perangkat lunak sensitif di dalamnya, dampaknya akan tetap terbatas pada mesin virtual tersebut: sistem utama Anda akan tetap utuh, asalkan parameter isolasi dihormati (tidak ada direktori yang dibagikan, tidak ada perangkat USB yang diteruskan ke VM, dll.).
 
+Sebuah VM dapat memungkinkan Anda menguji perangkat lunak yang mencurigakan: jika Anda mengunduh program dari sumber yang tidak tepercaya atau situs yang meragukan, Anda bisa menjalankannya terlebih dahulu di dalam VM untuk mengamati perilakunya dengan aman. Ini juga bisa berguna saat menjelajahi situs berisiko: Anda dapat mendedikasikan VM untuk konsultasi konten web yang sensitif atau tidak dikenal, yang mengurangi kemungkinan serangan skrip berbahaya atau eksploitasi kerentanan browser. Singkatnya: menggunakan VM memungkinkan Anda dengan mudah mengisolasi penggunaan spesifik dari bagian lain sistem Anda.
 
+Terakhir, penting untuk dipahami bahwa keamanan yang disediakan oleh VM bergantung pada konfigurasi yang benar. Secara default, beberapa hypervisor mengizinkan pertukaran file antara host dan VM, atau mengizinkan akses ke periferal USB. Fungsi-fungsi ini harus dinonaktifkan untuk memaksimalkan isolasi.
 
-VM dapat memungkinkan Anda menguji perangkat lunak yang mencurigakan: jika Anda mengunduh program dari sumber yang tidak dapat diandalkan atau situs yang meragukan, Anda dapat menjalankannya terlebih dahulu di VM untuk mengamati perilakunya dengan aman. Ini juga dapat berguna saat menjelajahi situs berisiko: Anda dapat mendedikasikan VM untuk konsultasi konten web yang sensitif atau tidak dikenal, yang mengurangi kemungkinan serangan skrip berbahaya atau eksploitasi kerentanan browser. Singkatnya: menggunakan VM memungkinkan Anda untuk dengan mudah mengisolasi penggunaan tertentu dari seluruh sistem Anda.
+### Sandbox
 
+Sandboxing adalah metode keamanan komputer yang melibatkan eksekusi aplikasi atau proses dalam lingkungan yang terisolasi dan sangat terbatas. Tujuannya adalah untuk secara ketat membatasi interaksi aplikasi dengan seluruh sistem. Jika muncul ancaman, dampaknya biasanya terbatas di dalam batas ini.
 
+Tidak seperti mesin virtual, yang mensimulasikan sistem operasi lengkap dengan sumber dayanya sendiri, sandboxing lebih ringan, lebih cepat diterapkan, dan membutuhkan sumber daya yang lebih sedikit. Metode ini mengandalkan mekanisme pembatasan hak akses ke memori, file, jaringan, periferal, dan lain-lain. Sebagai contoh, aplikasi yang di-sandbox dapat membaca file sementara, tetapi tidak akan dapat mengakses direktori pribadi atau sistem file Anda.
 
-Terakhir, penting untuk memahami bahwa keamanan yang disediakan oleh VM bergantung pada konfigurasi yang benar. Secara default, beberapa hypervisor mengizinkan pertukaran file antara host dan VM, atau mengizinkan akses ke periferal USB. Fungsi-fungsi ini harus dinonaktifkan untuk memaksimalkan isolasi.
+Berikut ini adalah beberapa solusi nyata untuk sandboxing, tergantung pada OS Anda:
 
-
-
-### Kotak pasir
-
-
-
-Sandboxing adalah metode keamanan komputer yang melibatkan menjalankan aplikasi atau proses dalam lingkungan yang terisolasi dan sangat terbatas. Tujuannya adalah untuk membatasi interaksi aplikasi dengan seluruh sistem secara ketat. Jika ada ancaman yang muncul, efeknya biasanya terkandung di dalam batas ini.
-
-
-
-Tidak seperti mesin virtual, yang mensimulasikan sistem operasi lengkap dengan sumber dayanya sendiri, sandboxing lebih ringan, lebih cepat digunakan, dan tidak terlalu boros sumber daya. Sandboxing bergantung pada mekanisme untuk membatasi hak akses: ke memori, file, jaringan, periferal... Aplikasi sandbox dapat, misalnya, membaca file sementara tetapi tidak pernah mengakses direktori pribadi atau sistem file Anda.
-
-
-
-Berikut ini adalah beberapa solusi konkret untuk sandboxing, tergantung pada OS Anda:
-
-
-
-**Jendela**
-
-
-
-
+**Windows**
 - Windows Sandbox (hanya tersedia di Windows 10/11 Pro dan Enterprise);
-- Sandboxie Plus (sumber terbuka).
-
-
+- Sandboxie Plus (open source).
 
 **Linux**
-
-
-
-
-- Firejail: alat yang kuat dan ringan yang mengisolasi aplikasi menggunakan profil yang telah ditentukan. Alat ini bekerja dengan baik dengan berbagai aplikasi, termasuk Firefox, VLC, dan Telegram;
-- Flatpak: seperti yang telah kita lihat, ini bukanlah perangkat lunak sanboxing, tetapi sebuah manajer paket perangkat lunak yang mengintegrasikan sandboxing: setiap aplikasi yang diinstal melalui Flatpak diisolasi dari sistem host secara default, dengan kontrol perizinan yang sangat halus (akses ke mikrofon, kamera, jaringan, dan lain-lain).
-
-
+- Firejail: program yang kuat dan ringan yang mengisolasi aplikasi menggunakan profil yang telah ditentukan. Program ini bekerja dengan baik dengan berbagai aplikasi, termasuk Firefox, VLC, dan Telegram;
+- Flatpak: Seperti yang telah kita lihat, ini bukanlah perangkat lunak sandboxing itu sendiri, melainkan manajer paket perangkat lunak yang mengintegrasikan sandboxing. Setiap aplikasi yang diinstal melalui Flatpak diisolasi dari sistem host secara default, dengan kontrol izin yang terperinci (akses ke mikrofon, kamera, jaringan, dll.).
 
 **macOS**
+- Pada macOS, sandboxing adalah fitur bawaan yang terintegrasi ke dalam kernel, tetapi hanya diaktifkan jika ditentukan oleh pengembang perangkat lunak. Aplikasi dari App Store di-sandbox secara otomatis, tetapi yang diinstal dari web (atau dari baris perintah) tidak di-sandbox secara default.
 
 
+Terakhir, meskipun sandboxing menawarkan lapisan perlindungan yang efektif, penting untuk dipahami bahwa ini bukanlah pengganti total untuk mesin virtual (VM) atau sistem yang dipartisi dengan baik.
 
-
-- Di macOS, sandboxing adalah fitur asli yang ada di dalam kernel, tetapi hanya diaktifkan jika ditentukan oleh pengembang perangkat lunak. Aplikasi App Store secara otomatis di-sandbox, tetapi aplikasi yang diinstal dari web (atau dari baris perintah) tidak di-sandbox secara default.
-
-
-
-Terakhir, meskipun sandboxing menawarkan perlindungan Layer yang efektif, penting untuk dipahami bahwa sandboxing bukanlah pengganti yang sempurna untuk VM atau sistem yang dipartisi dengan baik.
-
-
-
-Setelah kita membahas keamanan komputer Anda melalui autentikasi dan kompartementalisasi, pada bab berikutnya kita akan melihat praktik pemeliharaan yang baik untuk lebih meningkatkan keamanannya.
-
-
+Setelah kita membahas keamanan komputer Anda melalui otentikasi dan kompartementalisasi, pada bab berikutnya kita akan melihat praktik pemeliharaan yang baik untuk lebih meningkatkan keamanannya.
 
 ## Mengurangi kesalahan melalui pemeliharaan
 
-
 <chapterId>71d7fd95-ce1d-43d8-9a66-be7b425857fc</chapterId>
-
-
 
 Banyak orang berpikir bahwa memasang perangkat lunak antivirus atau memilih kata sandi yang tepat sudah cukup untuk melindungi komputer mereka. Namun, ada lebih banyak hal dalam keamanan komputer daripada konfigurasi satu kali saja. Kenyataannya jauh lebih kompleks: sebagian besar serangan dunia maya memanfaatkan kerentanan dalam sistem dan perangkat lunak yang sudah ketinggalan zaman. Dengan kata lain, keamanan komputer juga melibatkan pemeliharaan rutin mesin Anda.
 

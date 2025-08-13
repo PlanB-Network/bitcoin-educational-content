@@ -175,128 +175,137 @@ Pochi giorni prima della sua morte a Roma nel 1850, Bastiat confidò al suo amic
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
-È noto, la storia è scritta dai vincitori. L'attenzione è spesso focalizzata sulla conquista del potere, sulla vita dei leader al potere e sui conflitti che li oppongono a coloro che desiderano prendere il loro posto.
+Come è noto, la storia è scritta dai vincitori. L'attenzione è spesso focalizzata sulla conquista del potere, sulla vita dei leader al potere e sui conflitti che li oppongono a coloro che desiderano prendere il loro posto.
 
 ![image](assets/1/img-023.webp)
 
 Questo è particolarmente vero per i libri di testo destinati alle scuole pubbliche e scritti da professori impiegati dallo Stato.
-Questo non vale per un'opera in due volumi scritta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della Libertà nell'Antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e il suo impegno per la libertà e la responsabilità individuale rimane rilevante oggi.
+Questo non vale per un'opera in due volumi scritta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della Libertà nell'Antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e la sua difesa della libertà e della responsabilità individuale rimane attuale ancora oggi.
 
 Questo autore è meglio conosciuto per il suo aforisma: "Il potere tende a corrompere, e il potere assoluto corrompe assolutamente." Una formula che fa eco a quella di Montesquieu ne [_Lo spirito delle leggi_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
 > È un'esperienza eterna che ogni uomo che ha il potere è tentato di abusarne.
 
-### La Tesi di Acton
+### La tesi di Acton
 
 ![immagine](assets/1/img-029.webp)
 
-Per Acton, il conflitto tra libertà e potere è il tema centrale della storia umana, e la libertà è la forza motrice del progresso e dell'evoluzione delle società. Acton cercava di comprendere i fattori che hanno contribuito all'ascesa della libertà in Occidente. Il suo obiettivo era identificare le condizioni necessarie per la sua conservazione e sviluppo. Ha studiato idee filosofiche, strutture sociali e contesti politici che hanno favorito la sua emergenza nel tempo.
+Per Acton, il conflitto tra libertà e potere è il tema centrale della storia umana, e la libertà è la forza motrice del progresso e dell'evoluzione delle società. Acton cercava di comprendere i fattori che hanno contribuito all'ascesa della libertà in Occidente. Il suo obiettivo era identificare le condizioni necessarie per la sua conservazione e il suo sviluppo. Ha studiato idee filosofiche, strutture sociali e contesti politici che hanno favorito la sua emergenza nel tempo.
 
-La sua tesi centrale è che "la libertà è stabilita dal conflitto dei poteri." Secondo Acton, per secoli dopo la caduta dell'Impero Romano d'Occidente, la Chiesa Cattolica fu l'unica forza capace di sfidare l'autorità dei signori feudali, dei monarchi e degli imperatori. Questa lotta di potere tra la Chiesa e lo Stato si rivelò cruciale per l'ascesa della libertà. L'Europa aveva un Dio forte e un potere debole, a causa della continua contesa, nel Medioevo, tra papi e re. Al contrario, la Cina aveva una divinità debole e un forte potere burocratico.
+La sua tesi centrale è che "la libertà è stabilita dal conflitto dei poteri." Secondo Acton, per secoli dopo la caduta dell'Impero Romano d'Occidente, la Chiesa Cattolica fu l'unica forza capace di sfidare l'autorità dei signori feudali, dei monarchi e degli imperatori. Questa lotta di potere tra la Chiesa e lo Stato si rivelò cruciale per l'ascesa della libertà. L'Europa aveva una Chiesa forte e uno Stato debole, a causa delle continue dispute medievali tra papi e re. Al contrario, la Cina aveva una divinità debole e un forte potere burocratico.
 
-> Per libertà, intendo la garanzia che ogni uomo sarà protetto, quando fa ciò che ritiene essere il suo dovere, contro l'influenza dell'autorità e delle maggioranze, del costume e dell'opinione. Lo Stato è competente a stabilire doveri e a distinguere tra bene e male solo nella sua sfera immediata.
->
-> (Lord Acton)
-> In altre parole, la libertà è il diritto degli individui di seguire la propria coscienza, e non è compito dello stato dettare la condotta di una persona in questioni filosofiche, morali e religiose.
-> Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pelerin la "Società Acton-Tocqueville", in tributo a due pensatori che ammirava profondamente: Lord Acton e Alexis de Tocqueville. Alla fine, fu scelto il nome del luogo in cui si tenne il primo incontro della Società, Mont Pelerin in Svizzera.
+> Per libertà, intendo la garanzia che ogni uomo sarà protetto, quando fa ciò che ritiene essere il suo dovere, contro l'influenza dell'autorità e delle maggioranze, del costume e dell'opinione. Lo Stato è competente a stabilire doveri e a distinguere tra bene e male solo nella sua sfera immediata. (Lord Acton)
+
+In altre parole, la libertà è il diritto degli individui di seguire la propria coscienza, e non è compito dello stato dettare la condotta di una persona in questioni filosofiche, morali e religiose.
+
+Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pelerin la "Società Acton-Tocqueville", in tributo a due pensatori che ammirava profondamente: Lord Acton e Alexis de Tocqueville. Alla fine, fu scelto il nome del luogo in cui si tenne il primo incontro della Società, Mont Pelerin in Svizzera.
 
 ### Voltaire e Condorcet
 
 Ma l'idea che la libertà in Europa sia nata da lotte interne tra vari pretendenti al potere, impedendo l'instaurazione di un dominio assoluto, non è unica di Acton. Si può già trovare in pensatori come Voltaire e Condorcet.
 
 Così, Voltaire, nelle sue [_Lettere Filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E nota:
-Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità. ([Sui Presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+
+> "Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità." ([Sui Presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+
 ![immagine](assets/1/img-105.webp)
 
 Condorcet, nel suo [_Abbozzo di un quadro storico dei progressi dello spirito umano_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), attribuisce la struttura di potere decentrata in Italia alla rivalità tra il papa e l'imperatore, che ha permesso a molte città-stato indipendenti di sopravvivere.
 
 Questa tesi si ritrova anche in un'opera monumentale datata 1983: _Diritto e Rivoluzione: La formazione della tradizione giuridica occidentale_, di Harold J. Berman ([traduzione francese di Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), pubblicata dalla Libreria dell'Università di Aix en Provence nel 2002). L'analisi di Berman evidenzia il ruolo cruciale del pluralismo giuridico nella storia dell'Occidente. Questo sistema, lungi dall'essere una mera fonte di complessità, è stato un motore di sviluppo, libertà e innovazione, plasmando in modo duraturo le tradizioni giuridiche occidentali.
 
-## Marx: La storia come lotta di classe
+## Marx: la storia come lotta di classe
 
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 
-Esiste tuttavia un'altra prospettiva sulla storia. Questa ha avuto un notevole successo e ha goduto a lungo del sostegno degli intellettuali occidentali e dei rappresentanti del Sud globale. Si tratta della visione socialista e marxista della storia.
+Esiste tuttavia un'altra prospettiva sulla storia. Questa ha avuto un notevole successo e ha goduto a lungo del sostegno degli intellettuali occidentali e dei rappresentanti del sud globale. Si tratta della visione socialista e marxista della storia.
+
 ![immagine](assets/1/img-024.webp)
 
-Spiega la straordinaria crescita dell'Europa principalmente attraverso il progresso tecnologico combinato con l'"accumulazione primitiva" di capitale, derivante dall'imperialismo, dalla schiavitù, dal commercio triangolare, dall'espropriazione dei piccoli contadini e dall'esploito della classe operaia. La conclusione è chiara. Questa eccezionale crescita europea è stata ottenuta a spese di milioni e milioni di schiavi e individui oppressi.
+Spiega la straordinaria crescita dell'Europa principalmente attraverso il progresso tecnologico combinato con l'"accumulazione primitiva" di capitale, derivante dall'imperialismo, dalla schiavitù, dal commercio triangolare, dall'espropriazione dei piccoli contadini e dallo dfruttamento della classe operaia. La conclusione è chiara. Questa eccezionale crescita europea è stata ottenuta a spese di milioni e milioni di schiavi e individui oppressi.
 
-Inizialmente, Marx ha ragione su una cosa: la storia è la storia delle lotte di classe e dell'esploito. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del Partito Comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
+Inizialmente, Marx ha ragione su una cosa: la storia è la storia delle lotte di classe e dello sfruttamento. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del Partito Comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
 
-> Non mi attribuisco il merito di aver scoperto le classi e le lotte di classe nella società moderna. Ben prima di me, storici borghesi avevano descritto lo sviluppo storico di questa lotta di classe e economisti borghesi l'anatomia economica delle classi.
+> Non mi attribuisco il merito di aver scoperto le classi e le lotte di classe nella società moderna. Ben prima di me, storici borghesi avevano descritto lo sviluppo storico di questa lotta di classe ed economisti borghesi l'anatomia economica delle classi.
 >
 > (_Lettera a J. Weydemeyer_, 5 marzo 1852).
 
 Ma si sbaglia su un punto fondamentale riguardo alla classe operaia: non è il capitale che produce lo sfruttamento. In altre parole, la lotta di classe non si svolge all'interno della produzione, ma tra chi paga le tasse e chi le riscuote.
 
 Secondo Marx, lo sfruttamento è un processo che consiste nell'estrarre una parte del valore creato dal lavoratore senza pagarlo, il che permette ai capitalisti di realizzare un profitto. In altre parole, lo sfruttamento sarebbe un meccanismo che permette ai capitalisti di arricchirsi rubando il lavoro del proletariato.
-Questa analisi riflette un'incomprensione del valore aggiunto e della natura cooperativa e dinamica della vita economica. Infatti, il profitto che l'imprenditore riceve è una compensazione per il rischio che assume, e il lavoratore o l'impiegato non è uno schiavo. In una situazione competitiva, possono accettare o rifiutare un contratto con il loro datore di lavoro. Fanno una scelta che riflette un'analisi costi-benefici.
+Questa analisi riflette un'incomprensione del valore aggiunto e della natura cooperativa e dinamica della vita economica. Infatti, il profitto che l'imprenditore riceve è una compensazione per il rischio che assume più il lavoro svolto dal lavoratore o dall'impiegato che non sono schiavi. In una situazione competitiva, possono accettare o rifiutare un contratto con il loro datore di lavoro. Fanno una scelta che riflette un'analisi costi-benefici.
 
-### La Rivoluzione Industriale in Discussione
+### La Rivoluzione Industriale in discussione
 
-In realtà, l'analisi marxista distorce la realtà storica della Rivoluzione Industriale. Ludwig von Mises ha chiarito questa questione nel suo trattato di economia [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vedi in particolare il capitolo intitolato [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) così come in una serie di lezioni pubblicate sotto il titolo: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Vale anche la pena leggere, The Anti-Capitalistic Mentality [qui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [qui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In realtà, l'analisi marxista distorce la realtà storica della Rivoluzione Industriale. Ludwig von Mises ha chiarito tale questione nel suo trattato di economia [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vedi in particolare il capitolo intitolato [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) così come in una serie di lezioni pubblicate sotto il titolo: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Vale anche la pena leggere, The Anti-Capitalistic Mentality [qui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [qui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![immagine](assets/1/img-030.webp)
 
 Mises spiega che i lavori nelle fabbriche, sebbene miserabili secondo i nostri standard, rappresentavano la migliore opportunità possibile per i lavoratori dell'epoca.
 
 Leggiamo un estratto da _Human Action_:
 
-> Nei primi decenni della rivoluzione industriale, il tenore di vita dei lavoratori delle fabbriche era scandalosamente basso rispetto alle condizioni dei loro contemporanei delle classi superiori, e rispetto alla situazione attuale delle folle industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei laboratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Ma resta il fatto che, per la popolazione eccedente che l'appropriazione dei pascoli comuni (enclosures) aveva ridotto alla peggior miseria, e per la quale letteralmente non c'era posto all'interno del sistema produttivo regnante, il lavoro in fabbrica era la salvezza. Queste persone affluivano ai laboratori, per l'unico motivo che avevano assolutamente bisogno di migliorare il loro tenore di vita.
+> Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei laboratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Gli orari di lavoro erano lunghi e le condizioni igieniche delle officine erano deplorevoli. La capacità lavorativa dei singoli si esauriva rapidamente. Ma resta il fatto che per la popolazione in eccesso, l'appropriazione dei pascoli comunali (recinti) li aveva ridotti alla peggiore miseria. Per coloro che non trovavano posto nel sistema produttivo dominante, il lavoro in fabbrica rappresentava la salvezza. Queste persone accorrevano in massa nelle officine solo perché avevano bisogno di migliorare il proprio tenore di vita.
 
 Mises aggiunge che il miglioramento della condizione umana è stato reso possibile dall'accumulo di capitale:
 
-> Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali materiali aggiuntivi richiesti per l'uso pratico delle nuove invenzioni non fossero stati resi fattibili dal risparmio preventivo.
-> Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) e al suo capitolo intitolato "History and Politics". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
+> Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali richiesti per l'uso pratico delle nuove invenzioni non fossero stati realizzati dal risparmio preventivo.
+
+Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) e al suo capitolo intitolato "History and Politics". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
+
 > La vera storia della connessione tra capitalismo e l'ascesa del proletariato è quasi l'opposto di quello che queste teorie dell'espropriazione delle masse suggeriscono.
 > Prima della Rivoluzione Industriale, la maggior parte delle persone viveva in società rurali e dipendeva dall'agricoltura per la propria sopravvivenza. Avevano poco da vendere sul mercato, il che limitava le loro opportunità e il loro tenore di vita. Tutti si aspettavano di vivere in assoluta povertà e immaginavano un destino simile per i loro discendenti. Nessuno si indignava per una situazione che sembrava inevitabile.
 
 Con l'avvento dell'industrializzazione, emersero nuove opportunità, creando una crescente domanda di lavoro. Per la prima volta, le persone senza terra o risorse significative potevano vendere il loro lavoro a fabbriche e manifatture in cambio di uno stipendio, garantendo sicurezza per il futuro.
 
-Questo nuovo accesso al reddito consentiva loro di nutrirsi e alloggiare, anche nelle città in rapida espansione. Così, la Rivoluzione Industriale favorì un'esplosione demografica che non sarebbe stata possibile nelle condizioni di stagnazione economica dell'era pre-industriale.
+Questo nuovo accesso al reddito consentiva loro di mangiare e vivere anche nelle città che erano in rapida espansione. Così, la Rivoluzione Industriale favorì un'esplosione demografica che non sarebbe stata possibile nelle condizioni di stagnazione economica dell'era pre-industriale.
 
-Ecco come, osserva Hayek, "la sofferenza economica divenne sia più visibile sia sembrò meno giustificata, perché la ricchezza generale aumentava più rapidamente che mai."
+Ecco come, osserva Hayek, "la sofferenza economica divenne più visibile e meno giustificata, dato che la ricchezza generale aumentava più rapidamente che mai."
 
 Pertanto, il lavoratore non era sfruttato, anche se i salari erano bassi, a causa dell'abbondanza di manodopera in fuga dalle campagne.
 
-In realtà, lo sfruttamento ha senso solo come aggressione contro la proprietà privata. In questo senso, lo sfruttamento è sempre atto dello Stato. Poiché lo Stato è l'unica istituzione che ottiene le sue entrate attraverso la coercizione, cioè con la forza. Così, il vero sfruttamento, come abbiamo visto con Bastiat, è quello delle classi produttive da parte della classe dei funzionari statali. Sarebbe più accurato dire che la storia di tutta la società fino ai nostri giorni non è altro che la storia della lotta tra predatori e classi produttive.
+In realtà, lo sfruttamento ha senso solo come aggressione contro la proprietà privata. In questo senso, lo sfruttamento è sempre attuato dallo Stato. Poiché lo Stato è l'unica istituzione che ottiene le sue entrate attraverso la coercizione, cioè con la forza. Così, il vero sfruttamento, come abbiamo visto con Bastiat, è quello delle classi produttive da parte della classe dei funzionari statali. Sarebbe più accurato dire che la storia di tutta la società fino ai nostri giorni non è altro che la storia della lotta tra predatori e classi produttive.
 
-### Il "Miracolo Europeo"
+### Il "miracolo europeo"
 
 Successivamente, un'analisi storica più sfumata di quella di Marx ci permette di mettere in discussione l'idea di un'Europa predatrice, che deve il suo successo esclusivamente all'imperialismo e alla schiavitù. Approfondendo la storia economica comparata, alcuni storici contemporanei hanno cercato le origini dello sviluppo dell'Europa in ciò che la distingueva dalle altre grandi civiltà, in particolare quelle della Cina, dell'India e dell'Islam. Queste caratteristiche sono state esplorate da [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) e [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Questi ricercatori hanno tentato di comprendere ciò che viene definito il "miracolo europeo". Hanno focalizzato la loro attenzione sul fatto che l'Europa era un mosaico di giurisdizioni divise e in competizione, dove, dopo la caduta di Roma, nessun potere politico centrale era in grado di imporre la propria volontà.
 
 Come dice Jean Baechler, membro dell'Accademia delle Scienze Morali e Politiche, in _Le origini del capitalismo_ (1971):
 
-> La prima condizione per la massimizzazione dell'efficienza economica è la liberazione della società civile dallo Stato (...) L'espansione del capitalismo deve la sua origine e ragion d'essere all'anarchia politica.
+> "La prima condizione per la massimizzazione dell'efficienza economica è la liberazione della società civile dallo Stato (...) L'espansione del capitalismo deve la sua origine e ragion d'essere all'anarchia politica."
 
 In altre parole, il grande "non-evento" che ha dominato il destino dell'Europa è stata l'assenza di un impero egemonico, come quello che dominava la Cina.
-Questa Europa radicalmente decentralizzata ha prodotto parlamenti, diete e Stati Generali. Ha dato vita a carte come la famosa Magna Carta degli inglesi, ma ha anche prodotto le città libere del Nord Italia e delle Fiandre: Venezia, Firenze, Genova, Amsterdam, Gand e Bruges. Infine, ha sviluppato il concetto di diritto naturale, così come il principio che anche il Principe non è al di sopra della legge, una dottrina radicata nelle università medievali di Bologna, Oxford e Parigi, estendendosi a Vienna e Cracovia. In conclusione di questo capitolo, il decollo economico e culturale dell'Europa non è stato dovuto alla conquista e allo sfruttamento del resto del mondo. Ha dominato il mondo grazie al suo progresso economico. Quello che è stato chiamato "imperialismo" è la conseguenza, non la causa, del progresso economico dell'Europa. Ma per tornare a Lord Acton, ciò che distingue ancora di più la civiltà occidentale da tutte le altre è la sua affermazione del valore dell'individuo. In questo senso, la libertà di coscienza, specialmente in materia religiosa, è stata un pilastro fondamentale di questa civiltà. Torneremo su questo nella sezione seguente.
+Questa Europa radicalmente decentralizzata ha prodotto parlamenti e Stati Generali. Ha dato vita a carte come la famosa Magna Carta degli inglesi, ma ha anche prodotto le città libere del Nord Italia e delle Fiandre: Venezia, Firenze, Genova, Amsterdam, Gand e Bruges. Infine, ha sviluppato il concetto di diritto naturale, così come il principio che anche il Principe non è al di sopra della legge, una dottrina radicata nelle università medievali di Bologna, Oxford e Parigi, estendendosi a Vienna e Cracovia. 
 
-## Murray Rothbard: Stato contro Società
+In conclusione di questo capitolo, il decollo economico e culturale dell'Europa non è stato dovuto alla conquista e allo sfruttamento del resto del mondo. Ha dominato il mondo grazie al suo progresso economico. Quello che è stato chiamato "imperialismo" è la conseguenza, non la causa, del progresso economico dell'Europa. Ma per tornare a Lord Acton, ciò che distingue ancora di più la civiltà occidentale da tutte le altre è la sua affermazione del valore dell'individuo. In questo senso, la libertà di coscienza, specialmente in materia religiosa, è stata un pilastro fondamentale di questa civiltà. Torneremo su questo nella sezione seguente.
+
+## Murray Rothbard: Stato contro società
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
-Nell'ultimo capitolo di _Anatomia dello Stato_ (tradotto in francese come _L’anatomie de l’État_, dalle edizioni Résurgence), Murray Rothbard propone una teoria della storia. Questo capitolo molto breve è intitolato: Storia, una corsa tra il potere dello stato e il potere sociale. Secondo Rothbard, la storia può essere intesa come un conflitto perpetuo tra due principi fondamentali:
+Nell'ultimo capitolo di _Anatomia dello Stato_ (tradotto in francese come _L’anatomie de l’État_, dalle edizioni Résurgence), Murray Rothbard propone una teoria della storia. Questo capitolo molto breve è intitolato: Storia, una corsa tra il potere dello Stato e il potere sociale. Secondo Rothbard, la storia può essere intesa come un conflitto perpetuo tra due principi fondamentali:
 
 - Cooperazione pacifica e produzione, che rappresentano lo scambio volontario e la creazione di ricchezza attraverso il lavoro e l'innovazione.
 - Sfruttamento coercitivo e predazione, incarnati dalla dominazione dello Stato, che si appropria dei frutti del lavoro degli individui con la forza.
 
-Facendo riferimento ad Albert J. Nock, Rothbard usa i termini "potere sociale" e "potere dello stato" per designare queste due forze opposte:
+Facendo riferimento ad Albert J. Nock, Rothbard usa i termini "potere sociale" e "potere dello Stato" per designare queste due forze opposte:
 
 - Potere sociale: emerge dalla cooperazione e dall'ingegnosità degli individui liberi, portando a progresso economico e prosperità. È un potere sulla natura, la capacità creativa dell'uomo di trasformare la natura in risorse e conoscenza, per il bene collettivo della società.
-- Potere dello stato: è imposto attraverso coercizione e violenza, cercando di controllare e sfruttare la società per il proprio beneficio. È un potere esercitato sull'uomo. Consiste nel "drenare i frutti della società a vantaggio di leader non produttivi (in realtà, anti-produttivi)."
+- Potere dello Stato: è imposto attraverso coercizione e violenza, cercando di controllare e sfruttare la società per il proprio beneficio. È un potere esercitato sull'uomo. Consiste nel "drenare i frutti della società a vantaggio di leader non produttivi (in realtà, anti-produttivi)."
 
-### Lo Stato come Parassita
+### Lo Stato come parassita
 
 Rothbard considera lo Stato come un parassita che vive a spese della società produttiva. Si impadronisce di "posti di comando" strategicamente per appropriarsi di ricchezza e potere. Monopolio della forza, giustizia, educazione, infrastrutture. E aggiunge, "Nell'economia moderna, il denaro è il posto di comando essenziale."
 Per Rothbard, il principio della libertà dovrebbe applicarsi anche al denaro. Se siamo a favore della libertà in altri settori, se vogliamo proteggere la proprietà e la persona contro l'intrusione dello Stato, il nostro compito più urgente deve essere esplorare la possibilità di un mercato libero per il denaro. (Vedi a questo proposito il suo saggio: _Stato, cosa hai fatto con il nostro denaro?_ Traduzione di Stéphane Couvreur per l'Institut Coppet, 2011).
 
-### Il Fallimento dei Tentativi di Limitare lo Stato
+### Il fallimento dei tentativi di limitare lo Stato
 
-Rothbard mette in guardia contro l'idea che le costituzioni scritte, di per sé, potrebbero garantire la libertà e la limitazione del potere:
-Negli ultimi secoli sono stati tempi in cui gli uomini hanno cercato di imporre limiti costituzionali e altri allo Stato, solo per scoprire che tali limiti, come tutti gli altri tentativi, erano falliti. Di tutte le molteplici forme che i regimi hanno assunto nel corso dei secoli, di tutti i concetti e le istituzioni che sono stati provati, nessuno è riuscito a mantenere lo Stato sotto controllo.
+Rothbard mette in guardia dall'idea che le costituzioni scritte, di per sé, possano garantire la libertà e la limitazione del potere:
+
+> "Gli ultimi secoli sono stati un periodo in cui gli uomini hanno cercato di imporre limiti costituzionali e di altro tipo allo Stato, solo per scoprire che tali limiti, come tutti gli altri tentativi, erano falliti. Di tutte le numerose forme che i regimi hanno assunto nel corso dei secoli, di tutti i concetti e le istituzioni sperimentati, nessuno è riuscito a tenere lo Stato sotto controllo."
+
 Una costituzione scritta ha certamente molti vantaggi, ma è un grave errore presumere che sarebbe sufficiente. Infatti, il partito di maggioranza, con il suo potere, può adottare un'interpretazione estensiva per aumentare il suo potere. Senza meccanismi concreti per far rispettare i diritti, e di fronte a un partito dominante determinato ad estendere il suo potere, le costituzioni rischiano di diventare strumenti inefficaci e fuorvianti.
 
-### Il XX secolo: Un secolo di ritirata
+### Il XX secolo: un secolo in ritirata
 
 ![immagine](assets/1/img-012.webp)
 
@@ -307,24 +316,24 @@ Secondo Rothbard, la storia non è un processo lineare, ma piuttosto un'oscillaz
 
 Dal XVII secolo al XIX secolo, in molti paesi occidentali, ci sono stati periodi di accelerazione del potere sociale e un corrispondente aumento della libertà, della pace e del benessere materiale. Ma Rothbard ci ricorda che il XX secolo è stato segnato da una rinascita del potere dello Stato, con gravi conseguenze: un aumento della schiavitù, della guerra e della distruzione:
 
-> Durante questo secolo, la razza umana si trova, ancora una volta, sotto il regno virulento dello Stato; lo Stato ora armato con il potere creativo dell'uomo, confiscato e pervertito per i propri fini.
+> Durante questo secolo, la razza umana si trova, ancora una volta, sotto il regno virulento dello Stato; lo Stato ora armato con il potere creativo dell'uomo, confiscato e pervertito per i suoi fini.
+> Cos'è, dopo tutto, una società libera? È una società senza monopolio. Nella sua opera di filosofia politica, _Etica della Libertà_ (1982), Rothbard risponde: "una società in cui non esiste la possibilità legale di aggressione coercitiva contro la persona o la proprietà di un individuo." Ecco perché, secondo lui, la filosofia politica, che deve definire i principi di una società giusta, si riduce a una sola domanda: "Chi possiede legittimamente cosa?"
 
-Cos'è, dopo tutto, una società libera? È una società senza monopolio. Nella sua opera di filosofia politica, _Etica della Libertà_ (1982), Rothbard risponde: "una società in cui non esiste la possibilità legale di aggressione coercitiva contro la persona o la proprietà di un individuo." Ecco perché, secondo lui, la filosofia politica, che deve definire i principi di una società giusta, si riduce a una sola domanda: "Chi possiede legittimamente cosa?"
 ![immagine](assets/1/img-029.webp)
 
 Per Rothbard, l'ordine sociale può prevalere se è il prodotto della generalizzazione delle procedure contrattuali per il libero scambio di diritti di proprietà, privatizzando tutte le attività economiche e persino le funzioni sovrane (banca centrale, tribunali) e ricorrendo alla concorrenza tra agenzie di protezione.
 
 E aggiunge:
 
-> Abbiamo ora assaggiato tutte le varianti dello statismo, e tutte sono fallite. Ovunque nel mondo occidentale all'inizio del XX secolo, leader aziendali, politici e intellettuali avevano iniziato a chiamare per un sistema di economia mista "nuovo", di dominazione statale, in luogo del relativo laissez-faire del secolo precedente. Nuove panacee, attraenti a prima vista, come il socialismo, lo stato corporativo, lo stato di Welfare-Warfare, ecc., sono state provate e tutte hanno manifestamente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come suppliche per un sistema vecchio, esausto e fallito. Cosa resta da provare se non la libertà?
+> "Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
 >
 > (_Etica della Libertà_)
 
-# Le origini della libertà: Antichità
+# Le origini della libertà: antichità
 
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
 
-## L'invenzione della razionalità critica dai Greci
+## L'invenzione della razionalità critica da parte dei Greci
 
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 

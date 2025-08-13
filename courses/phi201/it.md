@@ -347,23 +347,24 @@ La democrazia ateniese rappresenta una rottura significativa con le tradizioni p
 
 Lo storico Jean-Pierre Vernant scrive:
 
-> L'emergere della polis costituisce, nella storia del pensiero greco, un evento decisivo. Certamente, in termini di sviluppo intellettuale e nel regno delle istituzioni, le sue piene conseguenze sarebbero state realizzate solo a lungo termine; la polis avrebbe attraversato molteplici fasi, varie forme. Tuttavia, fin dal suo avvento, che può essere collocato tra l'VIII e il VII secolo, segna un inizio, una vera invenzione; attraverso di essa, la vita sociale e le relazioni tra gli uomini assumono una nuova forma, la cui originalità i Greci avrebbero pienamente percepito. (...) Ciò che il sistema della polis implica prima di tutto è una straordinaria preminenza della parola su tutti gli altri strumenti di potere. Diventa lo strumento politico per eccellenza, la chiave di tutta l'autorità nello stato, il mezzo di comando e dominio sugli altri. (...) Una seconda caratteristica della polis è la natura di piena pubblicità data alle manifestazioni più importanti della vita sociale. Si potrebbe persino dire che la polis esiste solo nella misura in cui è emerso un dominio pubblico, in due sensi del termine diversi, ma interconnessi: un settore di interesse comune, in opposizione agli affari privati; pratiche aperte, stabilite alla luce del giorno, in opposizione a procedure segrete. (...) D'ora in poi, discussione, argomentazione, controversia diventano le regole del gioco intellettuale, così come del gioco politico. Il controllo costante della comunità è esercitato sulle creazioni della mente così come sulle magistrature dello stato.
+> L'emergere della polis costituisce, nella storia del pensiero greco, un evento decisivo. Certamente, in termini di sviluppo intellettuale e di sviluppo istituzionale, le sue piene conseguenze si sarebbero realizzate solo a lungo termine; la polis avrebbe attraversato molteplici fasi e assunto varie forme. Tuttavia, fin dal suo avvento, collocabile tra l'VIII e il VII secolo, essa segna un inizio, una vera e propria invenzione; attraverso di essa, la vita sociale e le relazioni tra gli uomini assumono una forma nuova, la cui originalità i Greci avrebbero pienamente percepito. (...) Ciò che il sistema della polis implica, in primo luogo, è una straordinaria preminenza della parola su tutti gli altri strumenti di potere. Essa diventa lo strumento politico per eccellenza, la chiave di ogni autorità nello Stato, il mezzo di comando e di dominio sugli altri. (...) Una seconda caratteristica della polis è la natura della piena pubblicità data alle manifestazioni più importanti della vita sociale. Si potrebbe addirittura dire che la polis esiste solo nella misura in cui è emerso un dominio pubblico, in due sensi diversi ma interconnessi del termine: un settore di interesse comune, in contrapposizione agli affari privati, e pratiche aperte, stabilite alla luce del sole, in contrapposizione alle procedure segrete. (...) D'ora in poi, discussione, argomentazione e controversia diventano le regole sia del gioco intellettuale che di quello politico. La comunità esercita un controllo costante sulle creazioni della mente, così come sulle magistrature dello Stato.
 >
 > (Jean Pierre Vernant, _Le origini del pensiero greco_, Parigi, P.U.F, 1962)
 
-La parola greca "polis", che dà "politica" in francese, significa città-stato. Quando Aristotele scrive che "l'uomo è per natura un animale politico", non significa che è fatto per il potere. Con politica, si riferisce alla facoltà che gli uomini hanno di deliberare nella piazza pubblica per determinare ciò che è giusto e ingiusto.
+La parola greca "polis", da cui deriva il termine italiano "politica", si riferisce a una città-stato. Quando Aristotele scrive che "l'uomo è per natura un animale politico", non significa che è fatto per il potere. Con politica, si riferisce alla facoltà che gli uomini hanno di deliberare nella piazza pubblica per determinare ciò che è giusto e ingiusto.
 
 Questa novità si basa sulla distinzione fondamentale tra due termini nella lingua greca, "phusis" e "nomos", che designano due tipi di leggi:
 
-- _Phusis_ è la legge della natura (che dà la parola "fisica" in francese).
+- La _Phusis_ è la legge della natura (da cui deriva la parola "fisica" in francese).
 - _Nomos_ è la legge umana (un termine trovato nella parola "autonomia", che significa "obbedire alla propria legge").
   La Città emerge con l'idea che la legge (nomos) sia di origine umana, che possa essere liberamente modificata dagli umani, a differenza della natura, e possa applicarsi a tutti. I Greci diventano quindi consapevoli dell'autonomia dell'ordine sociale e politico rispetto all'ordine naturale.
   Questo segna l'apparizione della politica: la discussione continua sulle stesse regole della vita sociale. D'ora in poi, i problemi saranno risolti attraverso un'azione concertata e non da un ordine sacro immutabile.
-  E Jean-Pierre Vernant aggiunge:
+
+E Jean-Pierre Vernant aggiunge:
 
 > La ragione greca è quella che, in modo positivo, riflessivo, metodico, ci permette di agire sugli uomini, non di trasformare la natura. Nei suoi limiti come nelle sue innovazioni, è figlia della città.
 
-### L'Idea di Libertà sotto la Legge
+### L'Idea di libertà sotto la legge
 
 L'armonia sociale non è prodotta dall'azione intenzionale degli dei, ma dall'obbedienza di tutti i cittadini alla stessa legge impersonale. Il potere non è più affare dei sacerdoti, è diventato affare di tutti. Così emerge la nozione di uguaglianza davanti alla legge: "_isonomia_", ma anche la retorica. La padronanza del discorso era essenziale per convincere i propri concittadini nelle assemblee e nei tribunali.
 
@@ -371,7 +372,7 @@ L'armonia sociale non è prodotta dall'azione intenzionale degli dei, ma dall'ob
 
 Per Aristotele, la tirannia è l'obbedienza a un uomo, e la libertà è l'obbedienza alla legge. Gli viene attribuita questa citazione:
 
-> Desiderare il regno della legge è desiderare il regno esclusivo della ragione. Desiderare invece il regno di un uomo è aggiungere quello di una bestia selvaggia, poiché il desiderio e la rabbia distorcono il giudizio dei governanti, anche se sono i migliori degli uomini.
+> Desiderare lo stato di diritto significa aspettarsi il regno esclusivo della ragione. Scegliere invece il governo di un uomo significa aggiungere quello di una bestia feroce, poiché il desiderio e la rabbia distorcono il giudizio dei governanti, anche se sono i migliori tra gli uomini.
 
 Secondo lui, le leggi, essendo impersonali e permanenti, garantiscono giustizia e uguaglianza per tutti i cittadini.
 
@@ -384,29 +385,32 @@ Aristotele avrebbe usato il termine repubblica per designare la costituzione giu
 
 L'idea di libertà sotto la legge si ritrova anche nel termine anglosassone "Rule of Law".
 
-### Libertà Politica
+### Libertà politica
 
 Si può dire che i Greci abbiano inventato il concetto di libertà politica, in opposizione al dominio tirannico. I Greci di quell'epoca consideravano la schiavitù un'istituzione naturale e che gli schiavi non avessero lo stesso status dei cittadini. Questo può sembrare contraddittorio all'idea di libertà, ma per loro, la libertà era legata alla cittadinanza e non all'assenza di schiavitù.
 
 Erodoto, in _Historia_ e Eschilo nella sua tragedia _I Persiani_, illustrano brillantemente il contrasto tra la monarchia assoluta e tirannica di Serse e lo spirito di libertà dei Greci. Questo popolo, caratterizzato dall'assenza di padroni e dal rifiuto di sottomettersi alla schiavitù da parte dei barbari, per quanto numerosi, trova la sua forza nella legge, il "nomos", il suo vero padrone che garantisce la sua libertà. E questa legge emana dalla volontà di tutti.
 
 Secondo Jacqueline de Romilly:
+
 Gli stessi Greci sembrano essersi misurati con questa originalità e ne sono diventati consapevoli all'inizio del V secolo, nello shock che li oppose agli invasori persiani. E il primo fatto che li colpì fu che esisteva una differenza politica tra loro e i loro avversari, che comandava tutto il resto. I Persiani obbedivano a un sovrano assoluto, che era il loro padrone, che temevano e davanti al quale si prostravano: queste pratiche non erano comuni in Grecia. C'è un dialogo sorprendente in Erodoto, che contrappone Serse a un ex re di Sparta. Questo re annuncia a Serse che i Greci non cederanno perché la Grecia combatte sempre contro la schiavitù a un padrone. Combatterà, non importa il numero dei suoi avversari. Perché, se i Greci sono liberi, "non sono liberi in tutto: hanno un padrone, la legge, che temono ancora di più di quanto i tuoi sudditi temano te."
 (_Antica Grecia alla Scoperta della Libertà, Parigi, Edizioni de Fallois, 1989_)
 
 Erodoto è convinto che un popolo di uomini liberi è un popolo che obbedisce a una legge e non a un padrone, come nell'impero persiano dove solo un uomo è libero e tutti gli altri sono schiavi. Questo è vero per Atene, una democrazia, ma è vero anche per Sparta. Il re non crea la legge, non impone la sua volontà. Egli assicura il rispetto della legge, è al suo servizio e muore, se necessario, per difenderla.
 
-### La Ricerca della Verità e del Pluralismo
+### La ricerca della verità e del pluralismo
 
 Allontanandosi dal pensiero mitologico, Talete, Anassimandro, Anassimene e, più tardi, Democrito ed Empedocle, furono i primi a cercare di comprendere la phusis (natura) attraverso la ragione e non attraverso entità soprannaturali.
 
 Il principio fondamentale posto da questi primi filosofi presocratici è che gli elementi del kosmos (l'universo) si mantengono in posizione perché sono tutti ugualmente soggetti alla stessa "legge della natura" (phusis) che può essere enunciata in modo universale e necessario. L'universo è razionale, costituisce un tutto strutturato, che l'uomo può scoprire con la sua ragione (il "logos" in opposizione al "mutos", il mito).
 
 Secondo Karl Popper, dobbiamo ai filosofi dell'antica Grecia, in particolare ai Presocratici, l'invenzione del razionalismo critico, ovvero la tradizione occidentale della discussione critica, fonte del pensiero scientifico e del pluralismo. Lo spiega in un capitolo di _Congetture e Confutazioni_ intitolato "Ritorno ai Presocratici":
-Per quanto riguarda i primi segni dell'esistenza di un atteggiamento critico, di una nuova libertà di pensiero, appaiono nella critica di Anassimandro a Talete. Questo è un fenomeno piuttosto singolare, il pensatore che Anassimandro critica è il suo maestro, il suo concittadino, uno dei Sette Saggi, colui che fondò la Scuola Ionica. Secondo la tradizione, Anassimandro era solo quattordici anni più giovane di Talete, e probabilmente formulò le sue critiche e presentò i suoi nuovi concetti durante la vita del suo maestro (morirono, sembra, a pochi anni di distanza). Tuttavia, nessuna prova di dissenso, lite o scisma si trova nelle fonti.
+
+Per quanto riguarda i primi segni dell'esistenza di un atteggiamento critico, di una nuova libertà di pensiero, essi appaiono nella critica di Anassimandro a Talete. Si tratta di un fenomeno piuttosto singolare: il pensatore criticato da Anassimandro è il suo maestro, il suo connazionale, uno dei Sette Saggi, colui che fondò la Scuola Ionica. Secondo la tradizione, Anassimandro era solo quattordici anni più giovane di Talete, ed è probabile che abbia formulato le sue critiche e presentato i suoi nuovi concetti durante la vita del suo maestro, poiché i due morirono, a quanto pare, a pochi anni di distanza. Tuttavia, nelle fonti non si trova alcuna prova di dissenso, lite o scisma.
+
 Questi elementi indicano, secondo lui, che fu Talete ad originare questa nuova tradizione di libertà, basata su una relazione originale tra maestro e discepolo. Talete era in grado di tollerare la critica e, inoltre, stabilì la tradizione di riconoscerla. Popper identifica qui una rottura dalla tradizione dogmatica, che permette solo una singola dottrina scolastica, per sostituirla con il pluralismo e il fallibilismo.
 
-> I nostri tentativi di afferrare e scoprire la verità non sono definitivi ma sono capaci di miglioramento, la nostra conoscenza, il nostro corpo di dottrina sono di natura congetturale, sono fatti di supposizioni, ipotesi, e non di verità certe e finali.
+> I nostri tentativi di afferrare e scoprire la verità non sono definitivi. Tuttavia, sono suscettibili di miglioramento; la nostra conoscenza e il nostro corpus dottrinale sono congetturali, composti da presupposti e ipotesi piuttosto che da verità certe e definitive.
 
 L'unico mezzo che abbiamo per avvicinarci alla verità sono la critica e la discussione. Dall'antica Grecia, quindi, proviene questa tradizione:
 
@@ -431,7 +435,7 @@ Infatti, la funzione del diritto era rendere possibile la coabitazione pacifica 
 
 La proprietà privata assunse una nuova dimensione nella civiltà romana che non aveva conosciuto prima, nemmeno nella civiltà greca.
 
-Il diritto romano diventerebbe la fondazione di tutti i diritti occidentali moderni durante il Medioevo e fino ai nostri tempi.
+Il diritto romano sarebbe diventato il fondamento di tutto il diritto occidentale moderno dal Medioevo ai giorni nostri.
 
 ![image](assets/2/img-012.webp)
 
@@ -450,15 +454,15 @@ La Legge delle Dodici Tavole attribuisce particolare importanza ai diritti di pr
 
 In sintesi, contribuisce a garantire le transazioni e a proteggere gli individui contro espropriazioni arbitrarie, con la possibilità di ricorso in caso di disputa.
 
-### La Nascita dell'Umanesimo e della Vita Privata
+### La nascita dell'Umanesimo e della vita privata
 
 Ciò che uno è dipende da ciò che uno possiede. L'essere non è così indipendente dall'avere come si dice talvolta, perché ciò che possediamo ci distingue da ciò che possiedono gli altri. E la nostra vita ci appartiene, possediamo prima le nostre facoltà, il nostro corpo prima di possedere beni materiali.
 
-Nella società romana, ognuno poteva sempre più differenziarsi dagli altri e così diventare l'attore della propria vita. L'uomo ora gioca un ruolo unico, e Cicerone usa la parola "persona" per designarlo. La "persona" era una maschera indossata dagli attori romani, ma si riferiva anche alla personalità legale e sociale di un individuo. La nozione di persona implicava che gli individui fossero entità distinte con propri diritti e responsabilità. Il concetto della persona umana individuale (l'ego) con la sua vita interiore e destino unico nasceva, e si svilupperebbe con il Cristianesimo.
+Nella società romana, ognuno poteva sempre più differenziarsi dagli altri e così diventare l'attore della propria vita. L'uomo ora gioca un ruolo unico, e Cicerone usa la parola "persona" per designarlo. La "persona" era una maschera indossata dagli attori romani, ma si riferiva anche alla personalità legale e sociale di un individuo. La nozione di persona implicava che gli individui fossero entità distinte con propri diritti e responsabilità. Il concetto di persona umana individuale (l'ego) con la sua vita interiore e il suo destino unico è emerso e si è sviluppato all'interno del cristianesimo.
 
-Inoltre, la letteratura e la filosofia romane contengono molti esempi di riflessioni sulla natura dell'individuo, la felicità, la saggezza e la vita in società.
+Inoltre, la letteratura e la filosofia romane contengono molti esempi di riflessioni sulla natura dell'individuo, la felicità, la saggezza e la vita sociale.
 
-### Seneca e la Vita Felice
+### Seneca e la vita felice
 
 Un modello di equilibrio nel pensiero è Seneca, un filosofo stoico romano che ha scritto sull'importanza della virtù, della ragione e dell'autocontrollo. Contemporaneo di Gesù, era allo stesso tempo un tutore di Nerone, un banchiere ricco e un famoso scrittore romano.
 
@@ -473,9 +477,10 @@ Ecco perché il saggio non rifiuta i doni della fortuna:
 > Non ama le ricchezze, le preferisce; non le accoglie nel suo cuore, ma nella sua casa; non rifiuta ciò che possiede, li domina e vuole che forniscano alla sua virtù ampia materia.
 
 Seneca va ancora oltre. Per il saggio, le ricchezze sono l'occasione e il mezzo per esercitare la virtù:
-Nella povertà [...] c'è solo un tipo di virtù: non vacillare o lasciarsi deprimere; in mezzo alla ricchezza, la temperanza, la generosità, il discernimento, l'economia e la magnificenza hanno libero sfogo.
 
-### Il Concetto di una Legge Superiore
+> Nella povertà [...] c'è solo un tipo di virtù: non vacillare o lasciarsi deprimere; in mezzo alla ricchezza, la temperanza, la generosità, il discernimento, l'economia e la magnificenza hanno libero sfogo.
+
+### Il concetto di una legge superiore
 
 Il termine "diritti umani", attorno al quale si radunano molti giuristi, sottoscrive implicitamente l'idea di una legge superiore perché mira a diritti legati all'umanità stessa prima di ogni legislazione positiva. Senza questa norma morale superiore, non ci sarebbe più un'autorità critica capace di interpretare e mettere in discussione l'ordine legale.
 Questa idea ci ricorda che il Principe (così come i leader politici) non possiede la giustizia in sé, ma è egli stesso soggetto a una legge che lo supera e deve regolare il suo giudizio. Questo è ciò che i filosofi dell'Antichità, specialmente i Romani come Cicerone o gli Stoici, chiamavano diritto naturale. Le sue origini possono essere rintracciate nel pensiero greco, con Sofocle e Aristotele.
@@ -484,19 +489,22 @@ Aristotele distingue tra giustizia naturale e giustizia legale. La giustizia nat
 
 Il drammaturgo Sofocle, nella sua opera _Antigone_, mette in scena un conflitto tra la legge divina e la legge umana. Antigone rifiuta di obbedire al decreto del re Creonte che vieta la sepoltura del suo fratello, sostenendo che le leggi divine, immutabili e superiori, hanno la precedenza sulle leggi umane.
 
-Quando Antigone disobbedisce a Creonte, si oppone alla legge positiva per obbedire alla sua coscienza morale e religiosa. Se esiste solo la legge positiva, dice Aristotele, Creonte ha sempre ragione, anche quando ha torto. Ma se manteniamo l'idea regolatrice di una legge naturale o divina, Antigone può alzarsi quando arriva il momento e invocare contro una legge ingiusta, il diritto superiore della legge non scritta.
+Quando Antigone disobbedisce a Creonte, si oppone al diritto positivo per obbedire alla propria coscienza morale e religiosa. Se esiste solo il diritto positivo, afferma Aristotele, Creonte ha sempre ragione, anche quando ha torto. Ma se manteniamo l'idea regolatrice di una legge naturale o divina, Antigone può, quando arriva il momento, opporsi a una legge ingiusta e invocare il diritto superiore della legge non scritta.
 
-### Cicerone e il Diritto Naturale
+### Cicerone e il diritto naturale
 
 Cicerone visse nel I secolo a.C. ed è considerato il più grande oratore della lingua latina sotto l'Impero Romano. È anche un filosofo morale e politico vicino agli Stoici. I suoi saggi sono stati letti dagli europei colti per molti secoli.
 
-Nel suo trattato _Sulle Leggi_ (_De Legibus_), riflette sul fondamento della legge. Secondo lui, la legge positiva, l'insieme delle convenzioni o leggi scritte adottate da una società, non può stabilire una giustizia degna di questo nome. Esiste una giustizia naturale, iscritta nella ragione umana: "la legge ha un fondamento nella natura stessa." Dire che giusto e ingiusto sono il risultato di una convenzione è come dire che la verità è decretata. Tuttavia, la verità non può essere decretata, nemmeno dalla maggioranza, guida i nostri giudizi.
-Cicerone rifiuta anche l'utilità come fondamento della legge. Infatti, scrive:
+Nel suo trattato _Sulle Leggi_ (_De Legibus_), riflette sul fondamento della legge. Secondo lui, la legge positiva, l'insieme delle convenzioni o leggi scritte adottate da una società, non può stabilire una giustizia degna di questo nome. Esiste una giustizia naturale, iscritta nella ragione umana: "la legge ha un fondamento nella natura stessa." Dire che giusto e ingiusto sono il risultato di una convenzione è come dire che la verità è decretata. Tuttavia, la verità non può essere decretata, nemmeno dalla maggioranza; essa guida i nostri giudizi.
 
-> Se la giustizia è l'obbedienza alle leggi scritte e alle istituzioni dei popoli e se, come sostengono coloro che la mantengono, l'utilità è la misura di tutte le cose, colui che crede di vedere il suo vantaggio in essa disprezzerà e infrangerà le leggi. Così, non più giustizia, se non c'è una natura della giustizia al lavoro; se si basa sull'utilità, un'altra utilità la sovverte. Se, quindi, il diritto non si basa sulla natura, tutte le virtù scompaiono. Cosa diventa, infatti, della liberalità, dell'amore per la patria, del rispetto per le cose che devono essere sacre per noi, della volontà di servire gli altri, della disponibilità a riconoscere il servizio reso? Tutte queste virtù nascono dall'inclinazione che abbiamo ad amare gli uomini, che è il fondamento della legge.
+Anche Cicerone rifiuta l'utilità come fondamento del diritto. Infatti, scrive:
+
+> Se la giustizia è l'obbedienza alle leggi scritte e alle istituzioni dei popoli, e se, come affermano coloro che la sostengono, l'utilità è la misura di tutte le cose, disprezzerà e infrangerà le leggi chi crede di vedervi il proprio vantaggio. Quindi, non c'è più giustizia se non c'è giustizia naturale all'opera; se si basa sull'utilità, un'altra utilità la sovverte. Se, dunque, il diritto non si fonda sulla natura, tutte le virtù scompaiono. Che ne è, infatti, della liberalità, dell'amor di patria, del rispetto per le cose che devono esserci sacre, della volontà di servire gli altri, della disponibilità a riconoscere il servizio reso? Tutte queste virtù nascono dall'inclinazione che abbiamo ad amare gli uomini, che è il fondamento della legge.
 
 Pertanto, secondo lui, esiste una giustizia universale, iscritta nella ragione e nella natura. Cicerone scrive nel _De Republica_:
-La vera legge è la retta ragione in accordo con la natura; è di applicazione universale, immutabile ed eterna; invita al dovere con i suoi comandi e allontana dal sentiero sbagliato con i suoi divieti \[…\]. Né il Senato né il popolo hanno il potere di dispensarci dall'obbedirla \[…\]. Non è una cosa ad Atene e un'altra a Roma, non una cosa oggi e un'altra domani. Ma è una legge unica e la stessa, eterna, immutabile, in vigore in tutti i tempi e tra tutti i popoli \[…\]. Chiunque non obbedisce a questa legge fugge da sé stesso e disprezza la propria natura umana.
+
+> La vera legge è la retta ragione in accordo con la natura; è di applicazione universale, immutabile ed eterna; invita al dovere con i suoi comandi e allontana dal sentiero sbagliato con i suoi divieti \[…\]. Né il Senato né il popolo hanno il potere di dispensarci dall'obbedirla \[…\]. Non è una cosa ad Atene e un'altra a Roma, non una cosa oggi e un'altra domani. Ma è una legge unica e la stessa, eterna, immutabile, in vigore in tutti i tempi e tra tutti i popoli \[…\]. Chiunque non obbedisce a questa legge fugge da sé stesso e disprezza la propria natura umana.
+
 Questa legge è superiore alle legislazioni in vigore, quindi, "non può essere invalidata da altre leggi, né si possono derogare i suoi precetti, né può essere completamente abrogata," aggiunge Cicerone. Il potere politico non ha presa su di essa.
 
 Né la verità né la giustizia possono essere decretate, nemmeno dalla maggioranza, altrimenti diventano oggetto di tutte le manipolazioni. Pertanto, anche se il governante è il popolo, non è giusto trasgredire i principi del diritto naturale.
@@ -506,7 +514,7 @@ Affermando che la legge non può essere ridotta ai soli statuti emanati dal legi
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
-Perché Roma è declinata e infine caduta? Molti amano pensare che l'Impero Romano sia crollato improvvisamente, sotto l'impatto delle invasioni barbariche. Tuttavia, le cause del crollo dell'Impero Romano sono da ricercarsi molto prima, nell'imperialismo e nel dirigismo economico e monetario.
+Perché Roma è andata in declino e infine caduta? Molti amano pensare che l'Impero Romano sia crollato improvvisamente, sotto l'impatto delle invasioni barbariche. Tuttavia, le cause del crollo dell'Impero Romano sono da ricercarsi molto prima, nell'imperialismo e nel dirigismo economico e monetario.
 
 ![image](assets/2/img-013.webp)
 
@@ -528,11 +536,12 @@ Combattimenti di gladiatori, corse di carri e rappresentazioni teatrali, spesso 
 
 Sotto il regno dell'imperatore Antonino Pio (dal 138 al 161), la burocrazia romana raggiunse proporzioni gigantesche.
 Ma poiché le entrate fiscali non erano sufficienti a finanziare l'amministrazione e le guarnigioni, gli imperatori iniziarono a emettere sempre più moneta riducendo la quantità di argento in ogni moneta. Il Denario, la principale valuta di Roma, vide il suo contenuto in argento scendere dal 100% allo 0,5% tra il 235 e il 284 d.C. Con la svalutazione della moneta, i prezzi aumentarono in modo incontrollabile, portando a una diminuzione dei consumi, del commercio e della fiducia.
+
 La caduta dell'Impero Romano fu un processo lento, direttamente collegato al fallimento di un sistema monetario corrotto. L'iperinflazione che ne seguì causò il crollo dell'economia e portò alla perdita della fiducia delle persone nella valuta.
 
 Poi l'instabilità politica si aggiunse all'instabilità economica, con più di 50 diversi imperatori sul trono in 50 anni.
 
-### Controllo dei Prezzi
+### Controllo dei prezzi
 
 Un classico esempio di interventismo emerse a Roma quando l'Imperatore Diocleziano volle porre un limite ai prezzi. L'interventismo è definito come l'azione di un potere che va oltre il suo ruolo di mantenimento dell'ordine e protezione dei cittadini. È un tentativo di controllare il mercato, mirando a modificare prezzi, salari, tassi di interesse e profitti.
 
@@ -541,6 +550,7 @@ Un classico esempio di interventismo emerse a Roma quando l'Imperatore Dioclezia
 Le ripetute emissioni monetarie da parte dei successivi imperatori per far fronte all'aumento delle spese militari avevano causato un'impennata dei prezzi. Nel 301, Diocleziano proclamò l'Editto dei Massimi in un tentativo di limitarli. Fu un fallimento.
 
 Ludwig von Mises descrive questo episodio, che ben illustra gli effetti dannosi dell'interventismo:
+
 L'Imperatore Romano Diocleziano è ben noto per essere stato l'ultimo imperatore romano a perseguitare i cristiani. Gli imperatori romani, nella parte finale del terzo secolo, avevano un solo metodo finanziario, che era quello di svalutare la moneta. In questi tempi primitivi, prima dell'invenzione della stampa, anche l'inflazione era primitiva, per così dire. Coinvolgeva frodi nella coniazione delle monete, specialmente in argento, fino a quando il colore della lega cambiava e il peso veniva significativamente ridotto. Il risultato di questa svalutazione delle valute, accoppiato con l'aumento corrispondente della circolazione, fu un aumento dei prezzi, seguito da un editto di controllo dei prezzi. E gli imperatori romani non si tiravano indietro nell'applicare le leggi; non consideravano la morte una pena troppo severa per un uomo che aveva chiesto un prezzo troppo alto. Applicavano il controllo dei prezzi, ma come conseguenza, portarono alla rovina della società. Questo alla fine portò alla disintegrazione dell'Impero Romano, e anche al crollo della divisione del lavoro.
 ([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
@@ -555,7 +565,8 @@ Era Roma la più grande potenza liberale del mondo antico? È poi caduta in una 
 Liberalismo: fiducia nell'azione degli individui, che produce un ordine spontaneo, semplicemente perché risulta dalle loro interazioni volontarie, attraverso il libero gioco del mercato e il rispetto dei loro diritti inalienabili.
 
 Socialismo: l'organizzazione da parte dello Stato della società considerata nel suo insieme, attraverso la pianificazione della produzione e del consumo.
-La tesi del libro di Philippe Fabry è che "la caduta dell'Impero Romano è la conseguenza dello stallo in cui il socialismo imperiale aveva condotto il mondo antico." Fu il dirigismo dello stato imperiale romano a portare al suo crollo. La Repubblica Romana, che fu la più grande potenza liberale del mondo antico, durò dal 510 a.C. al 23 a.C., per quasi 500 anni. Tuttavia, gradualmente, la collegialità civica che caratterizzava la Repubblica Romana scomparve a favore del potere personale incarnato dagli imperatori che adottarono lo stile di governo dei potentati orientali dell'antico Egitto e della Persia. Rompendo con una politica estera precedentemente moderata, Roma sottomise improvvisamente vaste popolazioni attraverso la guerra, fornendo flussi di schiavi agli investitori romani benestanti, rovinando le classi medie. In cambio, la popolazione romana chiedeva sempre più sussidi.
+
+La tesi del libro di Philippe Fabry è che "la caduta dell'Impero Romano è la conseguenza dello stallo in cui il socialismo imperiale aveva condotto il mondo antico." Fu il dirigismo dello Stato imperiale romano a portare al suo crollo. La Repubblica Romana, che fu la più grande potenza liberale del mondo antico, durò dal 510 a.C. al 23 a.C., per quasi 500 anni. Tuttavia, gradualmente, la collegialità civica che caratterizzava la Repubblica Romana scomparve a favore del potere personale incarnato dagli imperatori che adottarono lo stile di governo dei potentati orientali dell'antico Egitto e della Persia. Rompendo con una politica estera precedentemente moderata, Roma sottomise improvvisamente vaste popolazioni attraverso la guerra, fornendo flussi di schiavi agli investitori romani benestanti, rovinando le classi medie. In cambio, la popolazione romana chiedeva sempre più sussidi.
 
 Nei primi giorni della sua grandezza, ogni romano si considerava come la principale fonte del proprio reddito. Quello che poteva acquisire volontariamente nel mercato era la fonte del suo sostentamento. Il declino di Roma iniziò quando un gran numero di cittadini scoprì un'altra fonte di reddito: il processo politico o lo stato redistributivo.
 
@@ -584,7 +595,9 @@ L'idea cristiana di libertà si sviluppò nella teologia medievale di Sant'Agost
 ### La libertà è implicata nell'idea di peccato
 
 Fin dall'inizio, il Cristianesimo insegna che il peccato è una questione personale, non inerente al gruppo, ma che ogni individuo deve assumersi la responsabilità della propria salvezza. "Dio ha dotato la sua creatura, con il libero arbitrio, la capacità di fare il male e, quindi, la responsabilità del peccato," afferma Sant'Agostino nel suo trattato sul libero arbitrio, _De Libero Arbitrio_.
+
 Il peccato non può esistere senza libertà. Infatti, il Dio cristiano è un giudice che premia la "virtù" e punisce il "peccato". Ma questa concezione di Dio è precisamente incompatibile con il fatalismo perché una persona non potrebbe essere colpevole e fare il proprio mea culpa se non fosse prima libera di determinare il proprio comportamento. Riconoscere la propria colpa morale, la propria colpevolezza, è riconoscere che si sarebbe potuto agire diversamente.
+
 "Perché facciamo il male?" si chiede Sant'Agostino. Se non erro, l'argomento ha dimostrato che agiamo in questo modo attraverso il libero arbitrio della volontà. Ma questo libero arbitrio a cui dobbiamo la nostra capacità di peccare, siamo convinti, mi chiedo se Colui che ci ha creati ha fatto bene a darcelo. Sembra, infatti, che non saremmo stati esposti al peccato se ne fossimo stati privati; ma si teme che, in questo modo, Dio appaia anche come l'autore delle nostre cattive azioni. (_De libero arbitrio_, I, 16, 35.)
 
 Se Dio ha voluto che l'uomo potesse fare il male, non è forse indirettamente responsabile del male? Perché Dio ha voluto la possibilità del male? Sant'Agostino risponde:
@@ -613,8 +626,10 @@ La provvidenza, quindi, ci dà i mezzi per essere la nostra stessa provvidenza. 
 
 Perché l'uomo faccia il miglior uso possibile della sua libertà, Dio gli dà uno strumento che è la sua ragione e un manuale per illuminarlo che è la legge naturale.
 
-La legge naturale si esprime in noi attraverso inclinazioni come l'amore per la verità, l'obbedienza alla ragione, o la famosa regola d'oro: "Non fare agli altri ciò che non vorresti fosse fatto a te." Queste inclinazioni sono, secondo lui, innate. Infatti, San Tommaso scrive, "si deve considerare che la giustizia naturale è quella verso cui inclina la natura dell'uomo."
+La legge naturale si esprime in noi attraverso inclinazioni come l'amore per la verità, l'obbedienza alla ragione, o la famosa regola d'oro: "Non fare agli altri ciò che non vorresti fosse fatto a te." Queste inclinazioni sono, secondo lui, innate. Infatti, San Tommaso scrive: "si deve considerare che la giustizia naturale è quella verso cui inclina la natura dell'uomo."
+
 Tuttavia, questa luce interiore non è sufficiente per agire bene. È necessario lo sviluppo di norme concrete di azione e la loro applicazione a situazioni specifiche. Spetta quindi ai giuristi definire queste norme, in conformità con il diritto naturale: queste sono le leggi umane. Ma il diritto naturale è superiore alla legge umana e si impone universalmente, inclusi i Principi.
+
 Secondo San Tommaso:
 
 > Attraverso la conoscenza del diritto naturale, l'uomo accede direttamente all'ordine comune della ragione, prima e al di sopra dell'ordine politico al quale appartiene come cittadino di una particolare società.
@@ -633,31 +648,35 @@ Egli prende in prestito dal pensiero di Aristotele l'idea di un ordine naturale 
 - Da un lato, la **ragione**, che parte dalla natura, dall'esperienza sensibile, sviluppa idee e raggiunge certezze razionali attraverso il suo ragionamento.
 - Dall'altro, la **fede** che parte da una Rivelazione, cioè un testo sacro ispirato da Dio. L'approccio è opposto, non è la realtà o una caratteristica umana (il pensiero) che porta a certezze ma verità date dall'alto da Dio che spiegheranno la realtà.
 
-Come conciliare quindi i due? Nel Medioevo, si possono identificare due tradizioni di articolazione del rapporto tra ragione/fede: il misticismo e il razionalismo religioso.
+Come conciliare allora i due? Nel Medioevo emersero due tradizioni per articolare il rapporto tra ragione e fede: il misticismo e il razionalismo religioso.
 
 ### La rivalità tra misticismo e razionalismo religioso
 
 Il misticismo consiste nell'escludere la ragione dalla fede. La fede è assoluta, al di là del ragionamento, e non dovrebbe mai essere soggetta alla ragione. Se contraddice la ragione, è normale, e cercare di inquadrare le verità rivelate nel contesto della ragione è eresia. Dio è ben oltre la ragione, in altre parole, non ha senso cercare di spiegarLo. Pertanto, la filosofia è molto mal considerata. Dio sarebbe anche al di là del linguaggio umano: sarebbe l'innominabile, l'Altro totale. La sua volontà è assoluta e arbitraria. Pertanto, non si dovrebbe cercare di capire perché Dio ha fatto questo o quello, l'obbedienza è l'unica attitudine appropriata.
-Nell'Islam, si dice anche che non si dovrebbe rappresentare Dio o dargli un'immagine. Nel mondo cristiano, un mistico come Meister Eckhart ha scritto notevolmente in un Sermone: "Tutte le cose hanno un perché, ma Dio non ha un perché." Per i mistici, l'unica filosofia valida è quella che proviene direttamente dalla Rivelazione. Tutto ciò che non proviene da essa non è né vero né falso ma privo di qualsiasi valore di verità.
+
+Nell'Islam, si dice anche che non si dovrebbe rappresentare Dio o dargli un'immagine. Nel mondo cristiano, un mistico come Meister Eckhart ha scritto in un Sermone: "Tutte le cose hanno un perché, ma Dio non ha un perché." Per i mistici, l'unica filosofia valida è quella che proviene direttamente dalla Rivelazione. Tutto ciò che non proviene da essa non è né vero né falso ma privo di qualsiasi valore di verità.
+
 L'opposto diretto di questo pensiero è quello che afferma che solo la ragione ha ragione, e che ogni fede è insensata. Questo è il razionalismo assoluto, che porta all'ateismo. Tuttavia, una tale corrente non era ancora emersa nel Medioevo.
+
 Per i sostenitori del razionalismo religioso, esiste una complementarità tra ragione e fede: questa è la posizione intermedia. La verità può essere conosciuta sia per mezzo della fede che della ragione. E così, ciò che è vero nella fede deve essere anche vero nella ragione, e viceversa. La verità è una ma è accessibile in due modi. Pertanto, ci sono due scienze che non possono contraddirsi ma si completano a vicenda: la scienza naturale o filosofia e la scienza sacra o teologia. Se ciò non accade, se appare una contraddizione tra ragione e fede, è perché o si ragiona male, o si interpretano male le Scritture.
 
-Così, per Tommaso d'Aquino, "La fede è l'assenso della ragione mossa dalla volontà in assenza di prove." In altre parole, la ragione è capace di comprendere il mondo e Dio, razionalmente, fino a un certo punto. A questo punto, non incontra più prove. La volontà può quindi scegliere di credere, e così andare oltre verso la verità per mezzo della fede, o di non credere. Ma la fede non è un salto nell'assurdo, non è un'umiliazione della ragione.
+Così, per Tommaso d'Aquino, "La fede è l'assenso della ragione mossa dalla volontà in assenza di prove." In altre parole, la ragione è capace di comprendere il mondo e Dio, razionalmente, fino a un certo punto. A questo punto, non incontra più prove. La volontà può quindi scegliere di credere, e così andare oltre verso la verità per fede, o di non credere. Ma la fede non è un salto nell'assurdo, non è un'umiliazione della ragione.
 
 Questa è la posizione intermedia, che cerca di conciliare fede e ragione. Il vero razionalismo non è rifiutare tutto ciò che la ragione non comprende ma pensare ai limiti della ragione. Ciò che va oltre la ragione non è necessariamente contro la ragione. Una citazione di Pascal nelle **_Pensées_** illustra molto bene questa mentalità: "Due estremi: escludere la ragione, ammettere solo la ragione."
 
-### La Nascita delle Università
+### La nascita delle Università
 
 Il Medioevo cristiano fu segnato, all'inizio del XIII secolo, dalla nascita e moltiplicazione delle università in Occidente. Un'università è una comunità di studenti e maestri della stessa città sotto il controllo della Chiesa e comprende in principio quattro facoltà: arti, teologia, diritto, medicina. La teologia è concepita come una scienza, sul modello della scienza greca.
 
 ![immagine](assets/3/img-041.webp)
-Nel 1200, Filippo Augusto istituì l'Università di Parigi, che divenne rapidamente l'università più rinomata d'Europa. Nel 1257, Roberto di Sorbon fondò un collegio di teologia presso l'Università di Parigi, che in seguito sarebbe stato chiamato la Sorbona. Una nuova metodologia di insegnamento e ricerca nota come scolastica (da schola, scuola) emerse all'interno di queste università. Coinvolgeva la "disputatio", una sorta di dibattito contraddittorio di fronte a un pubblico. Veniva proposta una tesi, seguita da obiezioni alle quali bisognava fornire una risposta. Una volta esauriti tutti gli argomenti, il maestro risolveva il dibattito con una soluzione ragionata.
+
+Nel 1200, Filippo Augusto istituì l'Università di Parigi, che divenne rapidamente l'università più rinomata d'Europa. Nel 1257, Roberto di Sorbon fondò un collegio di teologia presso l'Università di Parigi, che in seguito venne riconosciuta come la Sorbona. Una nuova metodologia di insegnamento e ricerca nota come scolastica (da schola, scuola) emerse all'interno di queste università. Coinvolgeva la "disputatio", una sorta di dibattito contraddittorio di fronte a un pubblico. Veniva proposta una tesi, seguita da obiezioni alle quali bisognava fornire una risposta. Una volta esauriti tutti gli argomenti, il maestro risolveva il dibattito con una soluzione ragionata.
 
 Tra i grandi maestri aristotelici che segnarono quest'epoca, possiamo menzionare Alberto Magno (1200-1280) e Tommaso d'Aquino (1224-1274). Quest'ultimo, stabilendo la ragione nei suoi diritti, evidenziò la specificità e l'autonomia della saggezza filosofica rispetto alla teologia. Così come la grazia presuppone la natura e la compie, la fede presuppone e perfeziona la ragione.
 
 Da allora in poi, il razionalismo religioso avrebbe definitivamente prevalso sul misticismo.
 
-## Religione e Politica: La Nascita dello Stato Sovrano
+## Religione e politica: La nascita dello Stato sovrano
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 

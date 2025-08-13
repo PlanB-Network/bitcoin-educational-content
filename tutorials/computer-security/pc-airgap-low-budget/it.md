@@ -256,12 +256,12 @@ Nonostante le prestazioni sembrino limitate (sulla carta e rispetto alla potenza
 
 - Puoi utilizzare questa configurazione per generare le tue chiavi GPG in modo sicuro.
 
-- Potresti, addirittura, sfruttare questo nuovo "giocattolino" come dispositivo di firma airgap, [seguendo i consigli di Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0). Tra i wallet che conosco bene, l'unico che prevede una release a 32 bit è Electrum. Ebbene: la PI Zero così come l'abbiamo preparata in questo tutorial, ti permetterebbe di tenere le chiavi private offline,  usando [questo set up per wallet airgap](https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223).
+- Potresti, addirittura, sfruttare questo nuovo "giocattolino" come dispositivo di firma airgap, [seguendo i consigli di Arman The Parman](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0). Tra i wallet che conosco bene, l'unico che prevede una release a 32 bit è Electrum. Ebbene: la PI Zero così come l'abbiamo preparata in questo tutorial, ti permetterebbe di tenere le chiavi private offline,  usando questo set up per wallet airgap:
+
+(https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223)
 
 ## Conclusioni
-La configurazione ha, probabilmente, un grande punto debole: la micro SD è un supporto che potrebbe dare problemi. È vulnerabile all'uso intensivo (magari hai già esperienza di questo, dall'uso con il tuo telefono), ma purtroppo è l'unica tecnologia disponibile al momento.
-
-Dopo aver installato tutti i software che vorrai usare sulla PI Zero airgap, fai un buon backup della preziosa micro SD, utilizzando il tool di Raspi OS che hai a disposizione.
+La configurazione ha, probabilmente, un grande punto debole: la micro SD è un supporto che potrebbe dare problemi. È vulnerabile all'uso intensivo (magari hai già esperienza di questo, dall'uso con il tuo telefono). Dopo aver installato tutti i software che vorrai usare sulla PI Zero airgap, fai un buon backup della preziosa micro SD, utilizzando il tool di Raspi OS che hai a disposizione.
 
 ![img](assets/it/34.webp)
 

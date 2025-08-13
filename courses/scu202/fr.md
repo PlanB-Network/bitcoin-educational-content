@@ -340,7 +340,7 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open source", notamment à cause de la double signification du terme "*free*" en anglais.
 
-Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
+Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*Libre, comme dans « liberté »*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
 
 Richard Stallman critique ouvertement l’usage du terme "open source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
 
@@ -354,7 +354,7 @@ Malgré leurs différences philosophiques, ces deux courants partagent des valeu
 
 ### Impact culturel et social
 
-GNU et Linux ne sont pas seulement une réussite technique : leur impact culturel et social est tout aussi important. Leur diffusion initiale s’est faite majoritairement via Internet, à travers des forums techniques, des mailing lists, puis rapidement à travers des distributions, c’est-à-dire des assemblages préconfigurés de logiciels autour du noyau Linux. Dès 1993, des distributions pionnières comme Slackware et Debian voient le jour, afin de faciliter l’accès au système d'exploitation GNU/Linux à un public plus large.
+GNU et Linux ne sont pas seulement une réussite technique : leur impact culturel et social est tout aussi important. Leur diffusion initiale s’est faite majoritairement via Internet, à travers des forums techniques, des listes de mails, puis rapidement à travers des distributions, c’est-à-dire des assemblages préconfigurés de logiciels autour du noyau Linux. Dès 1993, des distributions pionnières comme Slackware et Debian voient le jour, afin de faciliter l’accès au système d'exploitation GNU/Linux à un public plus large.
 
 Cette approche communautaire, ouverte et collaborative, permet à Linux d’évoluer rapidement, de manière décentralisée et participative. Chaque utilisateur peut contribuer au projet, que ce soit en codant, en documentant ou en testant. Cette dynamique de collaboration massive constitue une innovation sociale majeure dans l’univers de l'informatique.
 
@@ -371,7 +371,7 @@ Une distribution Linux (souvent abrégé "*distro*") est un système d’exploit
 
 Dans chaque distribution Linux, on retrouve :
 - le **noyau Linux**, qui communique avec le matériel et gère les ressources système (CPU, mémoire, disques...) ;
-- un **bootloader**, tel que *GRUB*, qui permet de démarrer le système ;
+- un **chargeur de démarrage**, tel que *GRUB*, qui permet de démarrer le système ;
 - un **système d’initialisation** qui permet de lancer les services à l’amorçage : *systemd*, *OpenRC*, *SysV init*, ou *runit* selon les choix philosophiques de la distribution ;
 - un **système de gestion de paquets**, qui permet d’installer, mettre à jour et supprimer les logiciels. Les plus courants sont *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) ou *APK* (Alpine) ;
 - des **dépôts de logiciels** accessibles en ligne, qui centralisent les versions validées des applications disponibles ;

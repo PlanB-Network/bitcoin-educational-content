@@ -1,5 +1,5 @@
 ---
-name: Una Storia Filosofica della Libertà
+name: Una storia filosofica della libertà
 goal: Scoprire l'evoluzione della libertà attraverso i secoli, dagli antichi filosofi alle sfide moderne.
 objectives:
   - Analizzare le filosofie politiche della libertà e del potere.
@@ -7,9 +7,9 @@ objectives:
   - Esaminare l'ascesa e il declino della libertà dal XIX al XX secolo.
 ---
 
-# Un Viaggio Attraverso la Storia Filosofica della Libertà
+# Un viaggio attraverso la storia filosofica della libertà
 
-Una Storia Filosofica della Libertà esplora la libertà attraverso la storia. Damien Theillier esamina due filosofie politiche: la libertà e il potere. Analizza pensatori come Frédéric Bastiat, Lord Acton, Karl Marx e Murray Rothbard, mettendo in luce le loro visioni sulla produzione, il saccheggio, la lotta di classe e lo Stato.
+Questo corso intitolato "una storia filosofica della libertà" esplora la libertà attraverso la storia. Damien Theillier esamina due filosofie politiche: la libertà e il potere. Analizza pensatori come Frédéric Bastiat, Lord Acton, Karl Marx e Murray Rothbard, mettendo in luce le loro visioni sulla produzione, il saccheggio, la lotta di classe e lo Stato.
 
 Il corso risale alle origini della libertà nell'Antichità, con i Greci e i Romani, attraverso il Medioevo, dove la libertà umana viene discussa in contesti religiosi e politici. Mostra come le idee di libertà si siano evolute con la nascita delle università e le prime forme di capitalismo nelle città italiane.
 
@@ -29,27 +29,27 @@ Benvenuto al corso PHI201!
 
 Questo corso ti invita a esplorare l'evoluzione della libertà attraverso la storia analizzando le grandi correnti di pensiero che l'hanno plasmata. Scoprirai come il concetto di libertà si sia sviluppato nel corso dei secoli, sia in opposizione che in collaborazione con il potere, attraverso un percorso storico che va dall'antichità ai dibattiti contemporanei.
 
-**Sezione 1: Libertà o potere**  
+**Sezione 1: libertà o potere**  
 Inizieremo con una panoramica delle due principali filosofie politiche che hanno segnato la storia: la libertà e il potere. Questa sezione esaminerà le visioni di pensatori come Frédéric Bastiat sulla produzione contro lo sfruttamento, Lord Acton che vede la libertà come motore della storia, Karl Marx con la sua teoria della lotta di classe e Murray Rothbard che contrappone lo Stato alla società. Questa introduzione concettuale fornirà un quadro di analisi per i periodi storici.
 
-**Sezione 2: Le origini della libertà: L'antichità**  
+**Sezione 2: le origini della libertà: l'antichità**  
 Qui torneremo alle radici del pensiero filosofico con i Greci, che inventarono la razionalità critica, e i Romani, che posero le basi del diritto moderno. Esamineremo anche la caduta di Roma come momento cruciale che ridefinì l'organizzazione politica e sociale attorno al concetto di libertà.
 
-**Sezione 3: Le origini della libertà: Il Medioevo**  
+**Sezione 3: le origini della libertà: il Medioevo**  
 Il Medioevo è spesso visto come un periodo oscuro, ma scopriremo che in realtà ha gettato le basi della libertà moderna. Studieremo l'affermazione della libertà umana, i dibattiti tra ragione e fede, la nascita dello stato sovrano, l'etica biblica che valorizza l'individuo e le prime tracce del capitalismo che appaiono in questo periodo.
 
-**Sezione 4: L'ascesa della libertà: Dalla Rinascita all'Illuminismo**  
+**Sezione 4: l'ascesa della libertà: dalla Rinascita all'Illuminismo**  
 Questa sezione si concentrerà sull'emergere della tolleranza religiosa e della libertà economica, che presero slancio durante la Rinascita e l'Illuminismo. Analizzeremo anche l'importanza dell'anno 1776, che segnò un punto di svolta fondamentale con eventi chiave per il mondo libero, prima di immergerci nell'era delle rivoluzioni che ridefinirono il concetto stesso di libertà.
 
-**Sezione 5: Apice e declino: Dal XIX al XX secolo**  
+**Sezione 5: apice e declino: dal XIX al XX secolo**  
 Proseguiremo con lo studio dei cambiamenti del XIX e XX secolo, evidenziando i punti di forza e di debolezza della democrazia, le critiche marxiste al capitalismo e la risposta austriaca a tali critiche. Esploreremo anche gli avvertimenti sui pericoli del collettivismo attraverso opere importanti come "La via della schiavitù".
 
-**Sezione 6: L'ascesa dello Stato assistenziale nel XX secolo**  
+**Sezione 6: l'ascesa dello Stato assistenziale nel XX secolo**  
 Infine, questa sezione esaminerà come lo Stato assistenziale abbia progressivamente soppiantato le idee di libertà economica, soprattutto attraverso il trionfo di Keynes e l'abbandono del gold standard. Concluderemo sottolineando l'importanza delle idee nell'influenzare il corso della storia e il ruolo che la libertà occupa ancora nelle nostre società moderne.
 
 Pronto a intraprendere questo viaggio filosofico unico alla ricerca della libertà? Cominciamo!
 
-# Libertà o Potere
+# Libertà o potere
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
@@ -65,6 +65,7 @@ Perché intitolare questo corso: una storia della libertà? Perché dobbiamo com
 
 Allo stesso tempo, Auguste Comte disse: "Non si conosce pienamente una scienza finché non se ne conosce la storia." Questa verità potrebbe essere applicata all'idea di libertà.
 Infatti, la libertà non è un'idea nuova. È un'eredità tramandata attraverso le generazioni. L'intera storia della civiltà testimonia una lotta incessante per la libertà.
+
 ![image](assets/1/img-022.webp)
 
 Tuttavia, l'obiettivo di questo corso non è solo fare luce sulla storia della libertà, ma anche, e soprattutto, sviluppare un giudizio critico. Infatti, la storia da sola non è sufficiente per giudicare il presente e il futuro. Deve essere accompagnata da una riflessione critica e un giudizio sugli errori del passato. Questo è il contributo della filosofia. Ecco perché ho intitolato questo corso: una storia filosofica della libertà. Si tratta infatti di esplorare come i filosofi abbiano concepito la libertà attraverso i secoli.
@@ -76,7 +77,10 @@ Fin dalle sue origini, ha uno scopo duplice:
 - In primo luogo, è dare significato a concetti vaghi e confusi. Cosa è buono, vero, giusto, bello? Così come la funzione della storia è illuminare il passato, così la filosofia è l'arte di definire correttamente i concetti. Ecco perché dobbiamo iniziare in questo corso capendo cosa sia la libertà.
 
 ![image](assets/1/img-027.webp)
-La libertà è un concetto che copre una moltitudine di varianti, che sono tante possibili declinazioni della stessa realtà: libertà politica, libertà economica, libertà di coscienza, di parola, libertà religiosa, libertà di associazione, ecc. Di quale realtà stiamo parlando? La libertà può essere semplicemente definita come il potere di scelta, con ciò che appartiene a sé stessi. È una facoltà intrinseca dell'essere umano. È una realtà essenzialmente individuale. Solo l'individuo può pensare e agire, ovvero fare scelte. Questo non significa che l'individuo sia solo, che non debba nulla agli altri. Al contrario, vive in società e deve cooperare con gli altri per il proprio bene. Ma ognuno rimane libero di cooperare o meno e deve assumersi la responsabilità delle proprie scelte.
+
+La libertà è un concetto che copre una moltitudine di varianti, che sono tante possibili declinazioni della stessa realtà: libertà politica, libertà economica, libertà di coscienza, di parola, libertà religiosa, libertà di associazione, ecc. Di quale realtà stiamo parlando? 
+
+La libertà può essere semplicemente definita come il potere di scelta, con ciò che appartiene a sé stessi. È una facoltà intrinseca dell'essere umano. È una realtà essenzialmente individuale. Solo l'individuo può pensare e agire, ovvero fare scelte. Questo non significa che l'individuo sia solo, che non debba nulla agli altri. Al contrario, vive in società e deve cooperare con gli altri per il proprio bene. Ma ognuno rimane libero di cooperare o meno e deve assumersi la responsabilità delle proprie scelte.
 
 La nozione di responsabilità è correlata alla libertà perché ogni scelta ha conseguenze. La persona responsabile è quella che assume i costi delle proprie scelte e non trasferisce questo costo sugli altri. In altre parole, la libertà è esigente. È una nozione morale che implica diritti ma anche doveri verso gli altri, incluso il dovere di rispettare la loro libertà.
 
@@ -89,15 +93,19 @@ Da questa prospettiva, esistono solo due tipi di filosofie politiche: la filosof
 - La filosofia della libertà si basa sul diritto naturale di proprietà e afferma che l'unico scopo della legge è proteggere la proprietà privata e i contratti. Ognuno dovrebbe essere in grado di fare ciò che desidera con ciò che gli appartiene, purché non danneggi nessuno. È una filosofia che difende la libertà uguale per tutti di disporre di sé stessi e della propria proprietà sotto la condizione di responsabilità. È la filosofia del libero mercato.
 - La filosofia del potere giustifica l'autorità di certe entità collettive come lo Stato o la società nel decidere i limiti da porre al mercato e alla proprietà, e quindi alla libertà. In questo quadro, spetta alla legge organizzare l'economia, la salute, l'abitazione, la cultura, l'educazione... Questa filosofia costruttivista ha sempre avuto i suoi difensori, in nome dell'interesse collettivo, dell'uguaglianza, della protezione e del benessere.
 
-L'antagonismo tra queste due filosofie esiste in tutte le epoche. Ma possiamo illustrarlo con la filosofia dell'Illuminismo. C'è chiaramente una linea di divisione tra due tipi di pensatori.
+L'antagonismo tra queste due filosofie esiste in tutte le epoche. Ma possiamo illustrarlo con la filosofia dell'Illuminismo. C'è chiaramente una linea di separazione tra queste due forme di pensiero.
 
-Coloro che difendono la prima filosofia in Francia sono i Fisiocratici, con François Quesnay alla loro testa. Si chiamano fisiocratici (il nome deriva dal greco Physis, che significa natura, e Kratos, che significa regola) perché sviluppano un pensiero economico e sociale basato sui diritti naturali dell'uomo. Per loro, la società, le persone e le proprietà esistono prima delle leggi. In questo sistema, Bastiat spiega,
+Coloro che difendono la prima filosofia in Francia sono i Fisiocratici, con François Quesnay alla guida. Si chiamano fisiocratici (il nome deriva dal greco Physis, che significa natura, e Kratos, che significa regola) perché sviluppano un pensiero economico e sociale basato sui diritti naturali dell'uomo. Per loro, la società, le persone e le proprietà esistono prima delle leggi. In questo sistema, Bastiat spiega:
 
-> Non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. (_Proprietà e Legge_).
-> Per Turgot e Say, discepoli di Quesnay, esiste una legge naturale, indipendente dai capricci dei legislatori, che è valida per tutti gli uomini e precede qualsiasi società. Questa filosofia deriva direttamente dalla scolastica medievale, dagli stoici, da Aristotele e da Sofocle. Le leggi non scritte sono sia anteriori sia superiori alle leggi scritte perché derivano dalla natura umana e dalla ragione.
-> ![image](assets/1/img-014.webp)
-> La seconda filosofia si trova tra autori come Rousseau, Robespierre o Kant, che incarnano la tradizione repubblicana per cui la sovranità della volontà generale è la vera fonte del diritto. Contemporaneo di Quesnay, Rousseau è un anti-fisiocratico. Per lui, il legislatore deve organizzare la società, come un meccanico che inventa una macchina dalla materia inerte.
-> ![image](assets/1/img-026.webp)
+> non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. (_Proprietà e Legge_).
+
+Per Turgot e Say, discepoli di Quesnay, esiste una legge naturale, indipendente dai capricci dei legislatori, che è valida per tutti gli uomini e precede qualsiasi società. Questa filosofia deriva direttamente dalla scuola medievale, dagli stoici, da Aristotele e da Sofocle. Le leggi non scritte sono sia anteriori sia superiori alle leggi scritte perché derivano dalla natura umana e dalla ragione.
+
+![image](assets/1/img-014.webp)
+
+La seconda filosofia si trova tra autori come Rousseau, Robespierre o Kant, che incarnano la tradizione repubblicana per cui la sovranità della volontà generale è la vera fonte del diritto. Contemporaneo di Quesnay, Rousseau è un anti-fisiocratico. Per lui, il legislatore deve organizzare la società, come un meccanico che inventa una macchina dalla materia inerte.
+
+![image](assets/1/img-026.webp)
 
 > "Chi osa intraprendere l'istituzione di un popolo," dice Rousseau, "deve sentirsi capace di cambiare, per così dire, la natura umana, di trasformare ogni individuo che, da solo, è un tutto perfetto e solitario, in parte di un tutto maggiore dal quale questo individuo riceve, in un certo senso, la sua vita e il suo essere." (_Contratto Sociale_)
 
@@ -114,8 +122,14 @@ Quando si aprono i libri di testo, Bastiat notava, si apprende che l'umanità sa
 In altre parole, il pregiudizio culturale che domina la filosofia occidentale così come la storiografia è che dobbiamo tutto al potere: libertà, salute, educazione, sicurezza, prosperità. L'umanità è descritta come "materia inerte" che prende forma grazie al legislatore.
 
 Ma la realtà del potere è ben diversa secondo Bastiat. Il potere è oppressione. Scrive:
-Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classe, nazioni e famiglie! Riceverai sempre questa risposta invariabile: Dalla sete di potere. ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
-La sete di potere è alla radice di tutte le forme di oppressione nella storia. In una lettera a Mrs. Chevreux, datata 23 giugno 1850, Bastiat delinea le fasi dell'oppressione: "Periodi di lotta, su chi si impadronirà dello Stato; e periodi di tregua che saranno il regno effimero dell'oppressione trionfante, annuncio di una nuova lotta." Prima, la conquista del potere attraverso la guerra, poi l'istituzione di uno Stato che subsiste depredando la ricchezza dei suoi cittadini.
+
+> "Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classi, nazioni e famiglie! Riceverai sempre questa risposta invariabile: dalla sete di potere." ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
+
+La sete di potere è alla radice di tutte le forme di oppressione nella storia. In una lettera a Mrs. Chevreux, datata 23 giugno 1850, Bastiat delinea le fasi dell'oppressione: 
+
+> "Tempi di lotta per stabilire chi si impadronirà dello Stato; e tempi di tregua che saranno il regno effimero dell'oppressione trionfante, foriero di una nuova lotta."
+
+Prima, la conquista del potere attraverso la guerra, poi l'istituzione di uno Stato che subsiste depredando la ricchezza dei suoi cittadini.
 La storia è quindi una lotta tra due principi: libertà e oppressione:
 
 > Libertà! Questo è, in fin dei conti, il principio armonioso. Oppressione! Questo è il principio dissonante; la lotta di questi due poteri riempie gli annali dell'umanità. ([_Armonie Economiche_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusione dell'edizione originale).
@@ -137,26 +151,27 @@ Bastiat ci dice che esistono ancora due forme di depredazione legale:
 
 > La depredazione esterna si chiama guerra, conquiste, colonie. La depredazione interna si chiama tasse, posizioni, monopoli. ([_Cobden e la Lega_](http://bastiat.org/fr/introduction_cobden_ligue.html), Introduzione).
 
-In [_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli elabora:
-La vera e equa legge degli uomini è: Libero scambio dibattuto di servizio per servizio. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: Si attende che un uomo produca qualcosa, poi gliela si strappa di mano, arma alla mano. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
+In [_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli scrive:
 
-### Storia del Saccheggio
+"La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente dibattuti. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
+
+### Storia del saccheggio
 
 Storicamente, le élite dominanti hanno sempre vissuto di saccheggio. Bastiat osserva:
 
-> La forza applicata al saccheggio è la base degli annali umani. Tracciarne la storia sarebbe riprodurre quasi interamente la storia di tutti i popoli: Assiri, Babilonesi, Medi, Persiani, Egiziani, Greci, Romani, Goti, Franchi, Unni, Turchi, Arabi, Mongoli, Tartari, per non menzionare gli Spagnoli in America, gli Inglesi in India, i Francesi in Africa, i Russi in Asia, ecc.
+> L'uso della forza applicata al saccheggio è alla base degli annali umani. Tracciarne la storia sarebbe riprodurre quasi fedelmente la storia di tutti i popoli: Assiri, Babilonesi, Medi, Persiani, Egiziani, Greci, Romani, Goti, Franchi, Unni, Turchi, Arabi, Mongoli, Tartari, per non menzionare gli Spagnoli in America, gli Inglesi in India, i Francesi in Africa, i Russi in Asia, ecc. ([_Sofismi Economici_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusione del primo volume).
 >
-> ([_Sofismi Economici_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusione del primo volume).
-> Il saccheggio, nella sua forma più brutale, armato di torcia e spada, riempie gli annali della storia umana. Quali sono i nomi che riassumono la storia? Ciro, Sesostris, Alessandro, Scipione, Cesare, Attila, Tamerlano, Maometto, Pizarro, Guglielmo il Conquistatore; questo è il saccheggio ingenuo attraverso le conquiste. A esso appartengono gli allori, i monumenti, le statue e gli archi trionfali. ([_Armonie Economiche_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusione dell'edizione originale).
+> Il saccheggio, nella sua forma più brutale, armato di torcia e spada, riempie gli annali della storia umana. Quali sono i nomi che riassumono la storia? Ciro, Sesostris, Alessandro, Scipione, Cesare, Attila, Tamerlano, Maometto, Pizarro, Guglielmo il Conquistatore; questo è il saccheggio ingenuo attraverso le conquiste. Ad esso appartengono gli allori, i monumenti, le statue e gli archi trionfali. ([_Armonie Economiche_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusione dell'edizione originale).
+> 
 > La storia del mondo è la storia di come un gruppo di persone ha saccheggiato gli altri, spesso sistematicamente, attraverso la guerra, la schiavitù, la teocrazia. Oggi, è il monopolio, cioè i privilegi economici distribuiti dallo Stato ai suoi clienti.
 
 Pochi giorni prima della sua morte a Roma nel 1850, Bastiat confidò al suo amico Prosper Paillottet:
 
-> Un compito importante per l'economia politica è scrivere la storia del Saccheggio. È una lunga storia in cui, fin dall'inizio, appaiono conquiste, migrazioni di popoli, invasioni e tutti gli eccessi disastrosi della forza in conflitto con la giustizia. Da tutto ciò, ci sono ancora tracce viventi oggi, ed è una grande difficoltà per la soluzione delle questioni poste nel nostro secolo. Non arriveremo a questa soluzione finché non avremo chiaramente stabilito in che modo e come l'ingiustizia, prendendo la sua parte tra noi, si è insediata nelle nostre usanze e nelle nostre leggi.
+> Un compito importante per l'economia politica è scrivere la storia del Saccheggio. È una lunga storia in cui, fin dall'inizio, appaiono conquiste, migrazioni di popoli, invasioni e tutti gli eccessi disastrosi dell'applicazione della forza in contrasto con la giustizia. Di tutto ciò, rimangono tracce ancora vive oggi, e ciò costituisce una grande difficoltà per la soluzione delle questioni poste nel nostro secolo. Non arriveremo ad una soluzione finché non avremo stabilito chiaramente cos'è l'ingiustizia e come si è radicata nei nostri costumi e nelle nostre leggi.
 >
 > (P. Paillottet, _Nove Giorni Vicino a un Uomo Morente_)
 
-## Lord Acton: La Libertà è il Motore della Storia
+## Lord acton: la libertà è il motore della storia
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 

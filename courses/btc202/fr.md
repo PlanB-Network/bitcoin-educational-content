@@ -1090,6 +1090,71 @@ Plusieurs autres fichiers au même niveau que `blocks/`, `chainstate/` et `index
 - `bitcoin.conf` contient les paramètres de configuration de votre nœud. C’est notamment dans ce fichier que l’on peut ajuster les règles de relais. Je vous en parlerai plus en détail dans le prochain chapitre ;
 - `settings.json` contient d'autres paramètres supplémentaires au `bitcoin.conf` ;
 - `debug.log` est le journal texte de diagnostic, qui peut servir pour comprendre l’activité du nœud en cas de bug ;
+- `bitcoind.pid` enregistre l’identifiant de processus pendant l’exécution, qui permet à d'autres applications ou scripts d'identifier facilement Bitcoind (*Bitcoin Daemon*) et d'interagir avec lui si nécessaire. Il est créé au démarrage du nœud et supprimé à l’arrêt ;
+- `ip_asn.map` est une table de correspondance IP → ASN (système autonome) utilisée pour le bucketing et la diversification des pairs (option `-asmap`) ;
+- `onion_v3_private_key` stocke la clé privée du service Tor v3 lorsque l’option `-listenonion` est activée, afin de conserver une adresse onion stable entre les redémarrages ;
+- `i2p_private_key` stocke la clé privée I2P lorsque `-i2psam=` est utilisé, pour réaliser des connexion sortantes et éventuellement entrantes sur I2P ;
+- `.cookie` contient un jeton d’authentification RPC éphémère (créé au démarrage, supprimé à l’arrêt) lorsque l’authentification par cookie est utilisée. Cela peut être utilisé par exemple pour connecter un logiciel de portefeuille ;
+- `.lock` est le verrou du répertoire de données, qui empêche plusieurs instances d’écrire simultanément dans le même datadir ;
+- `guisettings.ini.bak` est la sauvegarde automatique des paramètres de la GUI (*Bitcoin Qt*) lorsque l’option `-resetguisettings` est utilisée.
+
+Comme nous l’avons vu dans les premières parties de ce cours BTC 202, Bitcoin Core est à la fois un logiciel de nœud Bitcoin et un logiciel de gestion de portefeuille. Cependant, ce n’est pas forcément la solution que je vous recommande pour gérer vos portefeuilles, car son interface reste sommaire et ses fonctionnalités limitées en comparaison de logiciels modernes comme Sparrow ou Liana. Core inclut donc également des fichiers destinés à gérer vos éventuels portefeuilles :
+
+- `wallets/` est le répertoire par défaut qui héberge un ou plusieurs portefeuilles ;
+- `wallets/<name>/wallet.dat` est la base SQLite du portefeuille (clés, descriptors, métadonnées de transactions...) ;
+- `wallets/<nom>/wallet.dat-journal` est le journal de rollback SQLite.
+
+Pour résumer, voici la structure de fichiers de Bitcoin Core :
+
+```
+~/.bitcoin/
+├── bitcoin.conf
+├── blocks/
+│   ├── blk00000.dat
+│   ├── blk00001.dat
+│   ├── rev00000.dat
+│   ├── rev00001.dat
+│   └── index/
+├── chainstate/
+├── indexes/
+│   ├── txindex/
+│   ├── blockfilter/
+│   │   └── basic/
+│   │       ├── db/
+│   │       └── fltrNNNNN.dat
+│   └── coinstats/
+│       └── db/
+├── wallets/
+│   └── <wallet_name>/
+│       ├── wallet.dat
+│       └── wallet.dat-journal
+├── peers.dat
+├── anchors.dat
+├── banlist.json
+├── mempool.dat
+├── fee_estimates.dat
+├── bitcoind.pid
+├── debug.log
+├── ip_asn.map
+├── onion_v3_private_key
+├── i2p_private_key
+├── settings.json
+├── guisettings.ini.bak
+├── .cookie
+└── .lock
+```
+
+### Le chemin de validation d'un nouveau bloc
+
+À la réception d’un nouveau bloc, votre nœud vérifie la preuve de travail et, plus largement, le respect des règles de consensus. Si tout est bon, il applique transaction par transaction les modifications sur son UTXO set : il s’assure que chaque entrée dépense des UTXOs existant avec un script valide, supprime ces UTXOs et ajoute les nouvelles sorties. Si tout est valide les changements sont engagés dans `chainstate/`.
+
+En parallèle, les données d’annulation sont écrites dans `rev*.dat` et les métadonnées dans l’index `blocks/index/`. Le bloc est ensuite sérialisé dans le bon fichier `blk*.dat`. En cas de réorganisation, le nœud lit `rev*.dat` à rebours pour déconnecter proprement les blocs abandonnés, restaurer l’UTXO set, puis connecter les blocs de la nouvelle meilleure chaîne.
+
+
+
+
+
+
 
 
 

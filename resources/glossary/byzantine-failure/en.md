@@ -8,4 +8,4 @@ A distinction is often made between "natural Byzantine failures" (caused by unde
 
 These failures are addressed through cryptographic authentication, digital signatures, and consensus algorithms designed to be Byzantine Fault Tolerant (BFT).
 
-> ► *he term originates from the “Byzantine Generals Problem,” a metaphor illustrating the challenges of ensuring reliable communication and trust among potentially unreliable or malicious parties.*
+> ► *the term originates from the “Byzantine Generals Problem,” a metaphor illustrating the challenges of ensuring reliable communication and trust among potentially unreliable or malicious parties.*

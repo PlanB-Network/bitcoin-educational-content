@@ -1630,102 +1630,54 @@ Otonomi teknis ini adalah fondasi penting untuk mempelajari bagian selanjutnya d
 
 <chapterId>c8350e86-5581-4d51-8207-fd4ee48502a7</chapterId>
 
-
-
-Keamanan komputer Anda dimulai dengan dua konsep penting dalam keamanan siber: autentikasi dan partisi. Kedua pendekatan ini menjadi dasar untuk melindungi komputer Anda secara efektif, menjaga privasi, dan memastikan kedaulatan digital Anda. Dalam bab ini, kita akan menjelajahi secara mendalam cara mengelola aspek-aspek ini di komputer Anda.
-
-
+Keamanan komputer Anda dimulai dengan dua konsep penting dalam keamanan siber: otentikasi dan partisi. Kedua pendekatan ini membentuk dasar untuk melindungi komputer Anda secara efektif, menjaga privasi, dan menjamin kedaulatan digital Anda. Dalam bab ini, kita akan mengeksplorasi secara mendalam cara mengelola aspek-aspek ini pada komputer Anda.
 
 ### Melindungi akses ke komputer Anda
 
-
-
-Melindungi akses fisik dan perangkat lunak ke komputer Anda adalah dasar keamanannya. Mesin yang tidak aman dapat dengan mudah menjadi pintu masuk bagi penyerang atau memungkinkan data sensitif bocor, bahkan tanpa koneksi internet. Baik Anda menggunakan Windows, macOS, atau Linux, ada beberapa langkah dasar yang perlu Anda terapkan untuk membatasi risiko akses yang tidak sah.
-
-
+Melindungi akses fisik dan perangkat lunak ke komputer Anda adalah dasar dari keamanannya. Komputer yang tidak aman dapat dengan mudah menjadi titik masuk bagi penyerang atau memungkinkan kebocoran data sensitif, bahkan tanpa koneksi internet. Baik Anda menggunakan Windows, macOS, maupun Linux, ada beberapa tindakan dasar yang perlu Anda terapkan untuk membatasi risiko akses yang tidak sah.
 
 #### Kata sandi sistem operasi
 
-
-
-Kata sandi sesi (kata sandi yang diminta saat pengaktifan atau saat bangun dari tidur) adalah penghalang pertama dari upaya penyusupan. Kata sandi ini mencegah pihak ketiga mengakses data atau memanipulasi sistem Anda jika mesin dicuri atau ditinggalkan tanpa pengawasan.
-
-
+Kata sandi sesi (yang diminta saat startup atau saat bangun dari mode tidur) adalah penghalang pertama terhadap upaya penyusupan. Kata sandi ini mencegah pihak ketiga mengakses data Anda atau memanipulasi sistem Anda jika komputer Anda dicuri atau ditinggalkan tanpa pengawasan.
 
 Kata sandi ini harus kuat:
-
-
-
-
-- Harus cukup panjang. Saat ini (Juni 2025), saya merekomendasikan minimal 20 karakter;
-- Ini harus menggabungkan huruf besar dan kecil, angka, dan karakter khusus;
-- Ini harus seacak mungkin, dan tidak mengandung tautan apa pun ke Elements di lingkungan langsung atau tidak langsung Anda, seperti nama, tanggal, atau tempat.
-
-
+- Harus cukup panjang. Saat ini (Juni 2025), disarankan minimal 20 karakter.
+- Harus menggabungkan huruf besar dan kecil, angka, dan karakter khusus.
+- Harus se-acak mungkin dan tidak mengandung kaitan apa pun dengan elemen dari lingkungan langsung atau tidak langsung Anda, seperti nama, tanggal, atau tempat.
 
 ![Image](assets/fr/201.webp)
 
-
-
 *Sumber: [Hive Systems](https://www.hivesystems.com/)*
 
-
-
 Kata sandi yang rumit pasti akan sulit diingat. Oleh karena itu, saya sarankan untuk menggunakan pengelola kata sandi seperti Bitwarden atau KeePass.
-
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Terakhir, ubah kata sandi ini secara teratur-setiap 3 hingga 6 bulan-khususnya jika mesin Anda digunakan di lingkungan bersama atau seluler.
-
-
+Terakhir, ubah kata sandi ini secara teratur-setiap 3 hingga 6 bulan-khususnya jika perangkat Anda digunakan di lingkungan bersama atau perangkat seluler.
 
 #### Mengamankan akses BIOS/UEFI
 
-
-
-Keamanan komputer Anda tidak dimulai setelah sistem operasi diluncurkan, tetapi sejak awal. Bahkan sebelum Windows, Linux, atau macOS dijalankan, sebuah program yang terintegrasi ke dalam motherboard, yang disebut BIOS atau UEFI, tergantung pada generasi mesin Anda, mengendalikan mesin untuk menginisialisasi perangkat keras dan meluncurkan proses booting.
-
-
+Keamanan komputer Anda tidak dimulai setelah sistem operasi diluncurkan, melainkan sejak awal. Sebelum Windows, Linux, atau macOS berjalan, sebuah program yang terintegrasi ke dalam motherboard disebut BIOS atau UEFI tergantung pada generasi komputer Anda, yang mengendalikan komputer untuk menginisialisasi perangkat keras dan memulai proses boot.
 
 BIOS (*Basic Input/Output System*) adalah pendahulu UEFI (*Unified Extensible Firmware Interface*). Saat ini, UEFI adalah standar pada semua komputer modern.
 
-
-
-Secara default, akses ke pengaturan ini tidak terlindungi. Seorang penyerang dengan akses fisik ke mesin Anda (di ruang bersama, jika terjadi pencurian, atau bahkan untuk sementara tanpa sepengetahuan Anda) dapat masuk ke Interface UEFI dan mengubah pengaturan penting. Dia bisa, misalnya:
-
-
-
-
+Secara default, akses ke pengaturan ini tidak terlindungi. Penyerang dengan akses fisik ke komputer Anda (di ruang bersama, dalam kasus pencurian, atau bahkan sementara tanpa sepengetahuan Anda) dapat masuk ke Interface UEFI dan memodifikasi pengaturan krusial. Sebagai contoh, ia dapat:
 - Mengubah urutan boot untuk memaksa peluncuran sistem eksternal dari kunci USB
 - Menonaktifkan mekanisme keamanan seperti Boot Aman
 - Menginstal *malware* di firmware komputer Anda...
 
-
-
-Untuk melindungi diri Anda dari serangan offline ini, penting untuk mengunci akses ke BIOS/UEFI dengan kata sandi. Kata sandi ini terpisah dari kata sandi sistem operasi Anda dan mencegah akses yang tidak sah ke BIOS/UEFI.
-
-
+Untuk melindungi diri Anda dari serangan offline ini, penting untuk mengunci akses ke BIOS/UEFI dengan kata sandi. Kata sandi ini terpisah dari kata sandi sistem operasi Anda dan mencegah akses tidak sah ke BIOS/UEFI.
 
 Untuk mengaktifkannya, ini akan tergantung pada model motherboard Anda, tetapi umumnya Anda memerlukannya:
-
-
-
-
 - Nyalakan ulang komputer Anda
 - Segera setelah dihidupkan, tekan dengan cepat tombol akses BIOS/UEFI yang spesifik untuk mesin Anda (`Del`, `F2`, `F10`, `Esc`...)
 - Pada Interface yang muncul, temukan opsi kata sandi keamanan atau administrator
 - Tetapkan kata sandi yang panjang, unik, dan acak, lalu simpan
 - Menyimpan perubahan dan memulai ulang komputer
 
-
-
 ![Image](assets/fr/203.webp)
-
-
 
 **Peringatan:** jika Anda kehilangan kata sandi ini, Anda akan diblokir dan harus mengatur ulang motherboard. Jadi, pastikan untuk menyimpan kata sandi ini di pengelola kata sandi atau di lokasi fisik yang aman.
 

@@ -68,9 +68,9 @@ This significant growth is, of course, closely linked to:
 Although Bitcoin is still in its early stages, this reality, which you're likely already aware of, prompts us to consider two key questions:
 
 
-* How can we encourage Bitcoiners to go further in their learningg and projects to **fully harness Bitcoin's potential**?
+* How can we encourage Bitcoiners to go further in their learning and projects to **fully harness Bitcoin's potential**?
 
-* How can we help newcomers, often drawn to short-term speculation, avoid losing money on the latest memecoin craze and instead focus on **learningg Bitcoin's fundamentals**?
+* How can we help newcomers, often drawn to short-term speculation, avoid losing money on the latest memecoin craze and instead focus on **learning Bitcoin's fundamentals**?
 
 
 The best solution to both challenges is simple: **be present in the real world and educate**.
@@ -159,7 +159,7 @@ Bitcoin communities often pursue broader goals, especially public education on:
 
 5. The fundamental differences between Bitcoin and other crypto-currencies;
 
-By building the first "citadels" of tomorrow, **Bitcoin communities worldwide serve as a bulwark against disinformation and censorship while providing fertile ground for learningg Bitcoin's fundamentals**. They offer newcomers, even skeptics, the resources and connections needed to explore Bitcoin's true potential.
+By building the first "citadels" of tomorrow, **Bitcoin communities worldwide serve as a bulwark against disinformation and censorship while providing fertile ground for learning Bitcoin's fundamentals**. They offer newcomers, even skeptics, the resources and connections needed to explore Bitcoin's true potential.
 
 
 ![image](assets/fr/002.webp)
@@ -297,7 +297,7 @@ If your vision is to **create a tight-knit, motivated community** focused on ora
 
 
 **Set short, medium, and long-term goals**
-A practical way to plan is by setting goals for each timeframe:
+A practical way to plan is by setting goals for each time frame:
 
 * Short-term: build a social media presence and set up community communication channels.
 * Medium-term: create educational resources (articles, flyers, videos).
@@ -334,7 +334,7 @@ At this stage, we assume that:
 
 The next step in building your community is to **define its identity**, both its name and its visual style.
 
-This section provides tutorials and beginner-friendly software solutions to help you design your community's visual identity, even woth beginner skills.
+This section provides tutorials and beginner-friendly software solutions to help you design your community's visual identity, even with beginner skills.
 
 **Why does identity matter?**
 People feel more engaged and committed when they can identify with a group. A strong identity helps your community stand out and fosters a sense of belonging.
@@ -1118,7 +1118,7 @@ Finding a venue for your events is often no easy task. On top of that, it's esse
 
 There are several criteria to consider, including:
 1) **Location**: is it easily accessible by public transport? By car? Is parking available?
-2) Is the venue pleasant and not too **noisy**? Are you looking for a formal setting (coworking space, meeting room) or something more informal (bar, restaurant)?
+2) Is the venue pleasant and not too **noisy**? Are you looking for a formal setting (co-working space, meeting room) or something more informal (bar, restaurant)?
 3) Does it have enough capacity to host you, even on a rugby or Champions League match night?
 4) Does it have a video projector and a quiet area for presentations?
 5) And finally, if it's a bar or restaurant, does the menu offer something for everyone to eat and drink?
@@ -1711,7 +1711,7 @@ Every merchant is different, and onboarding them comes with its own set of chall
 ![image](assets/fr/055.webp)
 
 
-Oonboarding local businesses is one of the best ways to grow your city's Bitcoin ecosystem. The key is to proceed step by step:
+Onboarding local businesses is one of the best ways to grow your city's Bitcoin ecosystem. The key is to proceed step by step:
 
 1/ **Ask to pay in Bitcoin, every time you shop** 
 Most of the time you'll get a "no" and maybe a puzzled, or even slightly judgmental, look, but just asking plants the idea that Bitcoin is something "ordinary people" can use and that it's becoming more popular as a way to pay. You can even team up with a couple of friends and stop by the same shop on different days, each time asking to pay in Bitcoin. Sooner or later, it'll spark the owner's curiosity.
@@ -1719,7 +1719,7 @@ Most of the time you'll get a "no" and maybe a puzzled, or even slightly judgmen
 2/ **Offer a simple, clear explanation**
 If they ask what Bitcoin is, keep it short and jargon-free. For example:
 *"Bitcoin is money that isn't controlled by banks, works without intermediaries, can't be censored, isn't subject to inflation, and has lower fees than traditional banking."*
-Then hand them a flyer, like "21 Reasons to Use Bitcoin" or "10 Reasons to Accept Bitcoin in Your Business", with your contact info or your meet-up's details. This way, when they're ready for a demo, they know where to find you.
+Then hand them a flyer, like "21 Reasons to Use Bitcoin" or "10 Reasons to Accept Bitcoin in Your Business", with your contact info or your meet-up details. This way, when they're ready for a demo, they know where to find you.
 
 3/ **Arrange a demonstration**
 When they express interest, set up a time to show them a payment solution.
@@ -1902,7 +1902,7 @@ Satoshi Nakamoto created a revolutionary tool that is already changing our world
 
 Bitcoin is a vast rabbit hole, touching on history, economics, literature, mathematics, computer science, and cryptography. No one can explore it all, and that's part of its beauty.
 
-Since our time is limited, the key is to stay humble, keep learningg, and exchange knowledge with others. That way, each of us can reach the level of understanding we seek.
+Since our time is limited, the key is to stay humble, keep learning, and exchange knowledge with others. That way, each of us can reach the level of understanding we seek.
 
 **Global Bitcoin communities therefore play a fundamental role in building tomorrow's world**: spaces where bitcoiners can **exchange, build and share**. **Together**.
 

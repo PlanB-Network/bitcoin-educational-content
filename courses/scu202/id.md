@@ -1434,123 +1434,65 @@ Hal ini memungkinkan koneksi TCP pada port 6881 hanya dari subnet `192.168.1.0/2
 #### Grafis Interface: GUFW
 
 
-
-Jika Anda kurang nyaman dengan terminal, ada Interface grafis yang disebut GUFW, yang memudahkan untuk mengelola aturan firewall dengan tombol, daftar tarik-turun, dan kotak dialog. Untuk menginstal:
-
-
+Jika Anda kurang nyaman dengan terminal, ada Interface grafis yang disebut GUFW, yang memudahkan untuk mengelola aturan firewall dengan tombol, daftar pilihan, dan kotak dialog. Untuk menginstal:
 
 ```bash
 sudo apt install gufw
 ```
 
-
-
-Setelah terinstal, luncurkan melalui menu aplikasi. Anda akan dapat mengaktifkan firewall, mengizinkan atau memblokir layanan, dan melihat koneksi yang difilter secara real time.
-
-
+Setelah terinstal, jalankan melalui menu aplikasi. Anda akan dapat mengaktifkan firewall, mengizinkan atau memblokir layanan, dan melihat koneksi yang difilter secara real time.
 
 ![Image](assets/fr/089.webp)
 
-
-
-→ **Praktik yang baik:** Bahkan jika Anda tidak mengekspos layanan jaringan apa pun ke dunia luar, firewall masih berguna untuk memblokir jenis pemindaian atau akses tertentu. Juga ingatlah untuk menonaktifkan layanan yang tidak perlu dan selalu memperbarui perangkat lunak jaringan Anda. Pengerasan jaringan lokal ini adalah garis pertahanan pertama dalam strategi keamanan yang lebih luas, tetapi kita akan kembali membahasnya nanti dalam kursus ini.
-
-
+→ **Catatan penting:** Meskipun Anda tidak mengekspos layanan jaringan apa pun ke publik, sebuah firewall tetap berguna untuk memblokir jenis pemindaian atau akses tertentu. Selain itu, penting untuk menonaktifkan layanan yang tidak diperlukan dan selalu memperbarui perangkat lunak jaringan Anda. Penguatan jaringan lokal ini merupakan garis pertahanan pertama dalam strategi keamanan yang lebih luas, yang akan kita bahas kembali nanti dalam kursus ini.
 
 ### Koneksi internet dan manajemen jaringan
 
-
-
-Di bawah Ubuntu, manajemen jaringan ditangani oleh *NetworkManager*, sebuah layanan yang memusatkan koneksi kabel, Wi-Fi, VPN, modem, dll. Alat ini bekerja bersama-sama dengan *netplan*, alat konfigurasi tingkat rendah yang mendefinisikan pengaturan jaringan yang tetap dalam file YAML. Bersama-sama, alat ini memastikan kesederhanaan untuk penggunaan sehari-hari dan ketangguhan untuk kasus yang lebih kompleks (server, konfigurasi manual, dll.).
-
-
+Di Ubuntu, pengelolaan jaringan ditangani oleh *NetworkManager*, sebuah layanan yang mengelola koneksi kabel, Wi-Fi, VPN, modem, dan sebagainya secara terpusat. Layanan ini bekerja bersama *netplan*, program konfigurasi tingkat rendah yang mendefinisikan pengaturan jaringan yang tetap dalam file YAML. Bersama-sama, program ini memastikan kemudahan penggunaan sehari-hari dan ketahanan untuk kasus yang lebih kompleks (server, konfigurasi manual, dan sebagainya).
 
 #### Manajemen melalui Interface grafis
 
+Bagi kebanyakan pengguna, Interface grafis yang terintegrasi ke dalam GNOME (Pengaturan Sistem → Jaringan/Wi-Fi) sudah lebih dari cukup. Interface ini memungkinkan Anda untuk:
 
-
-Bagi sebagian besar pengguna, grafis Interface yang terintegrasi ke dalam GNOME (Pengaturan sistem → Jaringan/Wi-Fi) sudah lebih dari cukup. Ini memungkinkan Anda untuk:
-
-
-
-
-- Sambungkan ke jaringan Wi-Fi yang tersedia
+- Menyambungkan ke jaringan Wi-Fi yang tersedia
 - Mengelola koneksi kabel, proxy, atau VPN
 - Melihat status saat ini dari setiap jaringan Interface
 
-
-
 Mode manajemen intuitif ini mencakup sebagian besar kebutuhan klasik komputer pribadi.
-
-
 
 ![Image](assets/fr/090.webp)
 
-
-
 #### Menggunakan terminal dengan nmcli
-
-
 
 Untuk pemecahan masalah atau akses jarak jauh, perintah `nmcli` memungkinkan Anda memanipulasi *NetworkManager* dari baris perintah.
 
-
-
-
-
-- Untuk menampilkan antarmuka jaringan yang terdeteksi:
-
-
+- Untuk menampilkan Interface jaringan yang terdeteksi:
 
 ```bash
 nmcli device status
 ```
 
-
-
-
-
 - Untuk memindai jaringan Wi-Fi terdekat
-
-
-
+  
 ```bash
 nmcli device wifi list
 ```
 
-
-
-
-
-- Untuk menyambung ke jaringan Wi-Fi
-
-
+- Untuk terhubung ke jaringan Wi-Fi
 
 ```bash
 nmcli device wifi connect "wifi_name" password "password"
 ```
 
-
-
 ### Menginstal aplikasi penting
 
+Setelah sistem dasar Anda siap dan berjalan, langkah selanjutnya adalah menginstal perangkat lunak yang Anda butuhkan. Ubuntu menawarkan beberapa metode instalasi (APT, Snap, Flatpak) yang telah kita jelaskan sebelumnya. Dalam kasus ini, kita akan menggunakan APT kapan pun memungkinkan untuk mempertahankan integrasi bawaan dengan sistem.
 
+#### Browser web
 
-Setelah sistem dasar Anda aktif dan berjalan, langkah selanjutnya adalah menginstal perangkat lunak yang Anda butuhkan. Ubuntu menawarkan beberapa metode instalasi (APT, Snap, Flatpak), yang telah kami jelaskan di atas. Di sini, kami menggunakan APT jika memungkinkan untuk mempertahankan integrasi asli dengan sistem.
-
-
-
-#### Peramban web
-
-
-
-Secara default, Ubuntu menyertakan versi Snap dari Firefox. Format ini menyediakan isolasi yang lebih baik (yang bagus dalam hal keamanan), tetapi menghasilkan waktu peluncuran yang lebih lambat, konsumsi sumber daya yang lebih tinggi, dan beberapa keterbatasan integrasi sistem (manajemen file, tema...).
-
-
+Secara default, Ubuntu menyertakan Firefox versi Snap. Meskipun format ini memberikan perlindungan yang lebih baik (yang menguntungkan dari segi keamanan), namun hal ini berakibat pada waktu menjalankan yang lebih lambat, konsumsi sumber daya yang lebih tinggi, dan beberapa keterbatasan integrasi sistem (seperti manajemen file, tema, dll.).
 
 Jika Anda lebih menyukai versi asli `.deb`, Anda dapat menginstalnya dari PPA Mozilla resmi:
-
-
 
 ```bash
 sudo add-apt-repository ppa:mozillateam/ppa
@@ -1558,179 +1500,105 @@ sudo apt update
 sudo apt install firefox
 ```
 
-
-
 Kemudian, untuk mencegah sistem secara otomatis kembali ke versi Snap selama pembaruan:
-
-
 
 ```bash
 sudo apt-mark hold firefox
 ```
 
-
-
-Ini akan membekukan versi `.deb` yang sedang terinstal. Versi ini akan terus diperbarui, tetapi akan tetap dalam format ini.
-
-
+Ini akan memastikan versi `.deb` yang sedang terinstal. Versi ini akan terus diperbarui, tetapi akan tetap dalam format ini.
 
 ![Image](assets/fr/091.webp)
 
-
-
 Kita akan membahas browser secara lebih rinci dalam bab berikutnya, untuk membantu Anda memilih browser yang paling sesuai dengan kebutuhan Anda, dan mengonfigurasinya secara optimal.
-
-
 
 #### Email
 
 
 
-Thunderbird adalah klien email sumber terbuka terkemuka, yang juga dikembangkan oleh Mozilla. Aplikasi ini mendukung akun IMAP/POP, kalender, ekstensi, dan enkripsi OpenPGP.
-
-
+Thunderbird adalah klien email open source terkemuka, yang juga dikembangkan oleh Mozilla. Aplikasi ini mendukung akun IMAP/POP, kalender, ekstensi, dan enkripsi OpenPGP.
 
 ```bash
 sudo apt install thunderbird
 ```
 
+#### Aplikasi Perkantoran
 
-
-#### Paket kantor
-
-
-
-LibreOffice adalah paket aplikasi perkantoran gratis yang paling lengkap. Menawarkan alternatif untuk Word, Excel dan PowerPoint, dengan kompatibilitas yang sangat baik dengan format Microsoft Office (.docx, .xlsx, .pptx).
-
-
+LibreOffice adalah paket aplikasi perkantoran gratis yang paling lengkap. Aplikasi ini menawarkan alternatif untuk Word, Excel, dan PowerPoint, dengan kompatibilitas yang sangat baik terhadap format Microsoft Office (.docx, .xlsx, .pptx).
 
 ```bash
 sudo apt install libreoffice
 ```
 
-
-
 Jika Anda ingin pemasangan yang lebih terfokus:
-
-
 
 ```bash
 sudo apt install libreoffice-writer libreoffice-calc libreoffice-impress
 ```
 
-
-
 Ketiga paket ini mencakup hal-hal penting: pengolah kata, spreadsheet, dan presentasi.
-
-
 
 ![Image](assets/fr/092.webp)
 
-
-
-Alternatif lain juga tersedia, seperti OnlyOffice (lebih dekat dengan Interface Microsoft Office), WPS Office (proprietary, tetapi sangat fleksibel), atau Calligra Suite (proyek KDE). Opsi-opsi ini dapat diinstal melalui Flatpak, Snap, atau diunduh dari situs masing-masing.
-
-
+Alternatif lain juga tersedia, seperti OnlyOffice (lebih mirip dengan Interface Microsoft Office), WPS Office (proprietary, tetapi sangat fleksibel), atau Calligra Suite (proyek KDE). Opsi-opsi ini dapat diinstal melalui Flatpak, Snap, atau diunduh dari situs masing-masing.
 
 #### Multimedia
 
-
-
 VLC adalah pemutar media universal, yang mampu memainkan sebagian besar format audio/video tanpa codec tambahan:
-
-
 
 ```bash
 sudo apt install vlc
 ```
 
-
-
-Ubuntu tidak menyediakan codec eksklusif tertentu (MP3, H.264...) secara default, karena alasan hukum. Paket berikut ini menambahkan Elements yang penting ini:
-
-
+Secara default, Ubuntu tidak menyediakan codec eksklusif tertentu (MP3, H.264, dll.) atas dasar pertimbangan hukum. Paket berikut menambahkan elemen-elemen esensial ini:
 
 ```bash
 sudo apt install ubuntu-restricted-extras
 ```
 
-
-
 #### Grafik dan desain
 
-
-
-Untuk retouching foto dan gambar vektor, tersedia dua referensi sumber terbuka:
-
-
+Untuk pengolah foto dan gambar vektor, tersedia dua referensi open source:
 
 ```bash
 sudo apt install gimp inkscape
 ```
 
-
-
-GIMP adalah perangkat lunak penyuntingan foto tingkat lanjut, sebanding dengan Adobe Photoshop, dan Inkscape adalah perangkat lunak grafis vektor, sebanding dengan Adobe Illustrator.
-
-
+GIMP adalah perangkat lunak pengolah foto tingkat lanjut, sebanding dengan Adobe Photoshop, dan Inkscape adalah perangkat lunak grafis vektor, sebanding dengan Adobe Illustrator.
 
 Untuk pengeditan video, Anda bisa menginstal Kdenlive, yang komprehensif, intuitif, dan cocok untuk pemula dan pengguna tingkat lanjut:
-
-
 
 ```bash
 sudo apt install kdenlive
 ```
 
-
-
 Untuk pengeditan audio, ada Audacity
-
-
 
 ```bash
 sudo apt install audacity
 ```
 
-
-
 Untuk perekaman layar, streaming, atau membuat konten video langsung, ada OBS Studio
-
-
 
 ```bash
 sudo apt install obs-studio
 ```
 
-
-
-#### Alat pengembangan
-
-
+#### Program Pengembangan
 
 Jika Anda seorang pengembang, Anda bisa menginstal lingkungan pengembangan C/C++ dasar, Git, dan utilitas lainnya dengan perintah ini:
-
-
 
 ```bash
 sudo apt install build-essential git curl
 ```
 
-
-
 Untuk menginstal VSCode
-
-
 
 ```bash
 sudo snap install code --classic
 ```
 
-
-
-Selain beberapa peralatan dasar ini, saya juga menyarankan Anda untuk memasang peralatan keamanan penting yang disesuaikan dengan kasus penggunaan Anda, khususnya pengelola kata sandi dan VPN:
-
-
+Selain beberapa program dasar ini, saya juga menyarankan Anda untuk memasang peralatan keamanan penting yang disesuaikan dengan kasus penggunaan Anda, khususnya pengelola kata sandi dan VPN:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
@@ -1740,48 +1608,25 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Terakhir, sebagai penutup bab ini, berikut adalah beberapa praktik terbaik yang dapat diikuti setiap hari:
+Terakhir, sebagai penutup bab ini, berikut adalah beberapa langkah praktik yang dapat diikuti setiap hari:
 
+- Gunakan perintah `sudo` jika benar-benar diperlukan. Perintah ini secara sementara akan meningkatkan hak akses Anda untuk menjalankan suatu tindakan sebagai administrator. Kesalahan dalam penggunaan `sudo` (misalnya, `rm -rf`) dapat memengaruhi seluruh sistem. Anda juga harus menghindari beralih ke mode root (`sudo -i`) untuk sesi yang lama, kecuali dalam keadaan yang sangat mendesak.
 
-
-
-
-- Gunakan perintah `sudo` hanya jika benar-benar diperlukan. Perintah ini untuk sementara waktu meningkatkan hak Anda untuk melakukan tindakan sebagai administrator. Kesalahan `sudo` (misalnya, `rm -rf`) dapat mempengaruhi seluruh sistem. Anda juga harus menghindari peralihan ke mode root (`sudo -i`) untuk sesi yang lama, kecuali jika sangat diperlukan;
-
-
-
-
-
-- Meskipun Ubuntu secara otomatis menerapkan patch keamanan tertentu melalui layanan `upgrade tanpa pengawasan`, ini tidak mencakup semua perangkat lunak. Anda harus melakukan pembaruan manual secara teratur:
-
-
+- Meskipun Ubuntu secara otomatis menerapkan patch keamanan tertentu melalui layanan `unattended-upgrades`, hal ini tidak mencakup semua perangkat lunak. Oleh karena itu, Anda harus melakukan pembaruan manual keseluruhan secara rutin:
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
 
+Dengan selesainya bab dasar-dasar Ubuntu ini, Anda kini memiliki lingkungan Linux yang fungsional, konsisten, dan sesuai untuk penggunaan sehari-hari. Anda telah menguasai cara menginstal perangkat lunak, mengonfigurasi jaringan, menjaga sistem tetap mutakhir, dan melakukan intervensi melalui terminal command line.
 
-
-Dengan bab tentang dasar-dasar Ubuntu ini, Anda sekarang memiliki lingkungan Linux yang fungsional dan konsisten yang cocok untuk penggunaan sehari-hari. Anda tahu cara menginstal perangkat lunak, mengonfigurasi jaringan, menjaga sistem Anda tetap mutakhir, dan melakukan intervensi melalui terminal baris perintah.
-
-
-
-Otonomi teknis ini merupakan fondasi penting untuk dapat mempelajari bagian selanjutnya dari kursus ini dengan percaya diri. Pada bagian selanjutnya, kita akan melihat lebih dekat pada mekanisme keamanan stasiun kerja Anda dan menerapkan langkah-langkah konkret pertama untuk memperkuat ketahanannya.
-
-
-
-
-
+Otonomi teknis ini adalah fondasi penting untuk mempelajari bagian selanjutnya dari kursus ini dengan percaya diri. Pada bagian selanjutnya, kita akan melihat lebih dalam tentang mekanisme keamanan workstation Anda dan mengimplementasikan langkah-langkah nyata pertama untuk memperkuat ketahanannya.
 
 # Mengamankan komputer Anda
 
-
 <partId>7fda3e41-ff0e-4fa0-8bd5-350d9ad5bbec</partId>
 
-
-
 ## Otentikasi dan partisi
-
 
 <chapterId>c8350e86-5581-4d51-8207-fd4ee48502a7</chapterId>
 

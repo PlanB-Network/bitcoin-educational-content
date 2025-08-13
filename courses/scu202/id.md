@@ -1721,23 +1721,13 @@ Pada Windows, sebagian besar pengguna memiliki akun administrator secara default
 
 ![Image](assets/fr/204.webp)
 
-
-
-Pada Linux, prinsip hak istimewa yang paling sedikit ini lebih baik diterapkan. Secara default, Anda memiliki akun pengguna dengan hak yang terbatas, dan Anda dapat meningkatkan hak istimewa Anda untuk sementara dengan perintah `sudo`. Anda juga dapat mengkonfigurasi `sudo` untuk mengotorisasi perintah tertentu saja, tergantung pada pengguna (melalui `/etc/sudoers`).
-
-
+Pada Linux, prinsip otoritas terbatas ini diterapkan dengan lebih baik. Secara default, Anda memiliki akun pengguna dengan hak terbatas, dan Anda dapat meningkatkan hak istimewa Anda secara sementara dengan perintah `sudo`. Dimungkinkan juga untuk mengonfigurasi `sudo` agar hanya mengotorisasi perintah tertentu tergantung pada penggunanya (melalui `/etc/sudoers`).
 
 ![Image](assets/fr/064.webp)
 
+Pada macOS, meskipun akun pertama yang dibuat sering kali memiliki hak administratif, sistem menggunakan mekanisme yang mirip dengan `sudo`: Anda perlu mengonfirmasi tindakan Anda dengan kata sandi untuk setiap operasi penting. Meskipun demikian, sangat mungkin untuk membuat akun pengguna standar dan mencadangkan akun administrator untuk penggunaan sesekali, yang saya rekomendasikan jika komputer digunakan oleh beberapa orang.
 
-
-Di macOS, meskipun akun pertama yang dibuat sering kali memiliki hak administratif, sistem ini menggunakan mekanisme yang mirip dengan `sudo`: Anda perlu mengonfirmasi tindakan Anda dengan kata sandi untuk operasi penting apa pun. Namun demikian, sangat mungkin untuk membuat akun pengguna standar dan mencadangkan akun administrator untuk penggunaan sesekali, yang saya sarankan jika komputer digunakan oleh beberapa orang.
-
-
-
-Kompartementalisasi ini tidak terbatas pada pengguna manusia. Banyak aplikasi yang memerlukan hak istimewa yang lebih tinggi pada saat instalasi, dan kemudian terus berjalan dengan hak-hak ini ketika tidak lagi diperlukan. Oleh karena itu, saya menyarankan Anda, sedapat mungkin, untuk lebih memilih aplikasi yang berjalan dalam mode pengguna, menghapus instalasi perangkat lunak yang tidak lagi Anda gunakan, dan waspada terhadap permintaan peningkatan hak istimewa.
-
-
+Pengelompokan ini tidak terbatas pada pengguna manusia. Banyak aplikasi memerlukan hak istimewa yang ditingkatkan saat instalasi, dan kemudian terus berjalan dengan hak tersebut meskipun tidak lagi dibutuhkan. Oleh karena itu, saya menyarankan Anda, sebisa mungkin, untuk memilih aplikasi yang berjalan dalam mode pengguna, menghapus instalasi perangkat lunak yang tidak lagi Anda gunakan, dan waspada terhadap permintaan peningkatan hak istimewa.
 
 ### Multisesi: lingkungan yang terpisah
 

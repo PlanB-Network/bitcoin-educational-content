@@ -1810,7 +1810,7 @@ Karena kompleksitasnya, tidak ada versi sistem operasi yang sepenuhnya bebas dar
 
 Vendor sistem operasi secara rutin merilis pembaruan keamanan yang dirancang untuk memperbaiki kerentanan ini. Kegagalan untuk menginstal patch ini sama saja dengan sengaja membiarkan pintu terbuka terhadap serangan, bahkan jika Anda berpikir penggunaan Anda sederhana atau data Anda tidak berharga.
 
-Ini bukan hanya masalah memperbaiki bug yang terlihat, tetapi juga bertindak pada celah serangan pada sistem Anda. Semakin sedikit celah yang ada, semakin sedikit kemungkinan yang dimiliki penyerang untuk menyusupi komputer Anda.
+Ini bukan hanya masalah memperbaiki bug yang terlihat, tetapi juga bertindak pada celah serangan pada sistem Anda. Semakin sedikit celah yang ada, semakin sedikit kemungkinan yang dimiliki penyerang untuk membobol komputer Anda.
 
 Secara spesifik, saya merekomendasikan Anda untuk mengaktifkan pembaruan otomatis. Fitur ini secara native tersedia di semua sistem modern. Windows Update, misalnya, menangani ini secara default pada komputer Windows 10 dan 11. Pada macOS, pembaruan keamanan terintegrasi ke dalam sistem pembaruan sistem. Pada Linux, tergantung pada distribusi yang digunakan, alat seperti `unattended-upgrades` (Debian/Ubuntu) atau `dnf-automatic` (Fedora) memungkinkan Anda untuk menjadwalkan pembaruan.
 
@@ -1823,194 +1823,99 @@ Meskipun pembaruan otomatis diaktifkan pada sistem Anda, tetap penting untuk mem
 
 - *Sistem operasi Windows*
 
-
-
-Windows memiliki fitur manajer pembaruan terpusat yang disebut "Pembaruan Windows". Manajer ini secara otomatis mengunduh dan menginstal pembaruan, patch keamanan, driver perangkat, dan terkadang bahkan kode mikro untuk prosesor.
-
-
+Windows memiliki fitur pengelola pembaruan terpusat yang disebut "Windows Update". Pengelola ini secara otomatis mengunduh dan menginstal pembaruan, patch keamanan, driver perangkat, dan terkadang bahkan kode mikro untuk prosesor.
 
 Untuk memeriksa status pembaruan secara manual :
-
-
 
 ```txt
 Settings → Windows Update → Check for updates
 ```
 
-
-
 Jangan lupa untuk memeriksa pembaruan opsional di menu yang sama.
 
+- *Sistem operasi Linux*
 
+Distribusi Linux didasarkan pada sistem paket yang dikelola oleh komunitas dan para pengelola distribusi Anda. Pembaruan diterapkan melalui manajer paket.
 
-
-
-- Sistem operasi Linux*
-
-
-
-Distribusi Linux didasarkan pada sistem paket yang dikelola oleh komunitas dan pengelola distribusi Anda. Pembaruan diterapkan melalui manajer paket.
-
-
-
-Di bawah Debian (yaitu Ubuntu) :
-
-
+Varian Debian (yaitu Ubuntu) :
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-
-
 ![Image](assets/fr/213.webp)
 
-
-
-Jika Anda lebih suka menggunakan Interface grafis, di Ubuntu ada alat *Software Updater* yang memungkinkan Anda mengelola pembaruan dengan mudah tanpa melalui terminal.
-
-
+Jika Anda lebih suka menggunakan Interface grafis, di Ubuntu ada program *Software Updater* yang memungkinkan Anda mengelola pembaruan dengan mudah tanpa melalui terminal.
 
 ![Image](assets/fr/214.webp)
 
-
-
-Di bawah Red Hat (Fedora) :
-
-
+Varian Red Hat (Fedora) :
 
 ```bash
 sudo dnf upgrade
 ```
 
-
-
-Di bawah Arch Linux :
-
-
+Varian Arch Linux :
 
 ```bash
 sudo pacman -Syu
 ```
 
-
-
-
-
-
-- Sistem operasi MacOS*
-
-
+- *Sistem operasi MacOS*
 
 Apple memusatkan pembaruan sistemnya dalam pengaturan Interface. Untuk memeriksa ketersediaan:
-
-
 
 ```txt
 Apple menu → System Settings → General → Software Update
 ```
 
-
-
-macOS secara otomatis mengunduh pembaruan keamanan, sistem, dan aplikasi melalui opsi "*Pembaruan Otomatis*" di menu yang sama.
-
-
+macOS secara otomatis mengunduh pembaruan keamanan, sistem, dan aplikasi melalui opsi "*Automatic Updates*" di menu yang sama.
 
 ![Image](assets/fr/212.webp)
 
-
-
 ### Pembaruan perangkat lunak
 
+Keamanan komputer Anda tidak hanya bergantung pada sistem operasi. Setiap perangkat lunak yang Anda instal merupakan titik masuk potensial untuk serangan. Segera setelah sebuah program memiliki celah keamanan yang tidak diperbaiki, program tersebut dapat dieksploitasi untuk membobol sistem Anda atau mencuri data Anda.
 
+Beberapa perangkat lunak lebih sensitif daripada yang lain, karena berinteraksi langsung dengan dunia luar atau memanipulasi file yang berpotensi berbahaya. Di antara perangkat lunak yang paling penting adalah:
 
-Keamanan komputer Anda tidak hanya bergantung pada sistem operasi. Setiap perangkat lunak yang Anda instal merupakan titik masuk potensial untuk serangan. Begitu sebuah program memiliki kelemahan keamanan yang tidak diperbaiki, program tersebut dapat dieksploitasi untuk membobol sistem atau mencuri data Anda.
+- *Browser web*: Aplikasi ini berada di garis depan serangan, karena memproses konten yang tidak diverifikasi secara real-time dan memiliki serangan pada lapisan luar yang sangat besar. Terlebih lagi, browser memainkan peran sentral dalam melindungi data pribadi Anda. Di atas segalanya, browser cenderung menggantikan banyak aplikasi yang dulunya digunakan secara lokal (aplikasi email, aplikasi perkantoran, pemutar media, dll.). Namun, kita akan membahas lebih lanjut poin ini di bagian berikutnya dari kursus SCU202.
 
+- *Aplikasi email*: Aplikasi ini menerima lampiran atau tautan dari sumber eksternal yang tidak dapat dikontrol dan karena itu berisiko;
 
+- *Aplikasi komunikasi* (TeamViewer, Zoom, Signal, Teams...): Karena sifatnya yang interaktif, alat-alat ini menjadi target serangan spionase atau upaya kendali jarak jauh. Sama halnya dengan aplikasi email, aplikasi komunikasi dapat digunakan sebagai celah untuk upaya phishing atau penyebaran lampiran berbahaya.
 
-Beberapa perangkat lunak lebih sensitif daripada yang lain, karena berinteraksi langsung dengan dunia luar atau memanipulasi file yang berpotensi membahayakan. Di antara perangkat lunak yang paling penting adalah file :
+- *Antivirus, firewall, dan solusi deteksi lainnya*: Program-program ini umumnya menikmati hak istimewa yang ditingkatkan, karena mereka terus-menerus memindai File, proses, dan koneksi jaringan Anda. Versi aplikasi yang usang, konfigurasi yang buruk, atau kerentanan dalam perangkat lunak itu sendiri dapat memungkinkan malware lolos dari deteksi, atau bahkan mendapatkan hak istimewa yang ditingkatkan.
 
+Tentu saja, risiko-risiko ini tidak hanya muncul dari pemeliharaan yang buruk, tetapi penting untuk memberikan perhatian khusus pada pembaruan perangkat lunak sensitif ini. Ini adalah penyederhanaan, tetapi tentu saja, semua perangkat lunak Anda yang lain juga perlu diperbarui secara rutin. Mari kita lihat cara melakukannya, tergantung pada sistem operasi Anda.
 
-
-
-
-- Peramban web*: peramban web berada di garis depan serangan, karena mereka memproses konten yang belum diverifikasi secara real time dan memiliki permukaan serangan yang sangat besar. Terlebih lagi, peramban web memainkan peran sentral dalam melindungi data pribadi Anda. Dan, di atas semua itu, mereka cenderung menggantikan banyak aplikasi perangkat lunak yang sebelumnya digunakan secara lokal (klien email, paket kantor, pemutar media...). Tetapi kita akan kembali ke poin ini di bagian selanjutnya dari kursus SCU202;
-
-
-
-
-
-- Klien email*: mereka menerima lampiran atau tautan dari sumber eksternal yang tidak dapat dikontrol dan karena itu berisiko;
-
-
-
-
-
-- Alat komunikasi* (TeamViewer, Zoom, Signal, Teams...): karena sifatnya yang interaktif, alat komunikasi ini menjadi target serangan spionase atau upaya kendali jarak jauh. Dengan cara yang sama seperti klien email, alat komunikasi dapat digunakan sebagai vektor untuk upaya phishing atau distribusi lampiran berbahaya;
-
-
-
-
-
-- Antivirus, firewall, dan solusi deteksi lainnya*: perangkat-perangkat ini umumnya memiliki hak istimewa yang lebih tinggi, karena mereka secara terus-menerus memindai file, proses, dan koneksi jaringan Anda. Basis tanda tangan yang ketinggalan zaman, konfigurasi yang buruk, atau kerentanan pada perangkat lunak itu sendiri dapat membuat *malware* tidak terdeteksi, atau bahkan mendapatkan hak istimewa yang lebih tinggi.
-
-
-
-Tentu saja, risiko ini tidak hanya muncul dari pemeliharaan yang buruk, tetapi penting untuk memberikan perhatian khusus untuk memperbarui program perangkat lunak yang sensitif ini. Saya menyederhanakan di sini, tetapi tentu saja, semua perangkat lunak Anda yang lain juga perlu diperbarui secara teratur. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem operasi Anda.
-
-
-
-#### Di bawah Windows
-
-
+#### Pada Windows
 
 Pada Windows 11, utilitas *Winget* terintegrasi ke dalam sistem. Ini memungkinkan Anda untuk membuat daftar dan memperbarui sebagian besar perangkat lunak yang terinstal di komputer Anda, secara langsung melalui terminal. Cukup jalankan Windows PowerShell:
-
-
 
 ```CMD
 winget upgrade --all
 ```
 
-
-
 Perintah ini menanyakan repositori publik untuk versi terbaru perangkat lunak yang Anda miliki, dan memperbaruinya secara otomatis.
-
-
 
 ![Image](assets/fr/211.webp)
 
+Sayangnya, perintah ini tidak berfungsi untuk semua perangkat lunak. Oleh karena itu, saya merekomendasikan Anda untuk menyimpan daftar semua perangkat lunak Anda dan memeriksa pembaruan secara manual secara teratur, terutama untuk aplikasi sensitif. Untuk perangkat lunak yang paling penting, seperti antivirus atau browser web Anda, saya menyarankan Anda untuk melakukan pemeriksaan ini setiap hari.
 
+#### Pada Linux (Debian/Ubuntu)
 
-Sayangnya, perintah ini tidak berfungsi untuk semua perangkat lunak. Itulah mengapa saya menyarankan Anda menyimpan daftar semua perangkat lunak Anda dan secara manual memeriksa pembaruan secara teratur, terutama untuk aplikasi yang sensitif. Untuk perangkat lunak yang paling penting, seperti antivirus atau peramban web, saya sarankan Anda melakukan pemeriksaan ini setiap hari.
-
-
-
-#### Di bawah Linux (Debian/Ubuntu)
-
-
-
-Kekuatan distribusi Linux terletak pada manajemen perangkat lunaknya yang terpusat. Manajer paket (`APT` dalam kasus Debian) menjaga sistem dan semua perangkat lunak yang terinstal tetap mutakhir melalui repositori resmi.
-
-
+Kekuatan distribusi Linux terletak pada manajemen perangkat lunaknya yang terpusat. Manajer paket (`APT` dalam kasus Debian) menjaga sistem dan semua perangkat lunak yang terinstal tetap mutakhir melalui repositori resminya.
 
 Dengan cara yang sama seperti pembaruan OS, untuk melakukan pembaruan global perangkat lunak Anda, cukup jalankan:
-
-
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
 
-
-
-Perintah dasar ini menyegarkan daftar paket yang tersedia (`apt update`) dan kemudian menerapkan pembaruan yang diperlukan (`apt upgrade`).
-
-
+Perintah dasar ini menyusun ulang daftar paket yang tersedia (`apt update`) dan kemudian menerapkan pembaruan yang diperlukan (`apt upgrade`).
 
 Untuk pembaruan yang lebih lengkap, Anda juga dapat menggunakan perintah ini:
-
-
 
 ```bash
 sudo apt update \
@@ -2019,51 +1924,29 @@ sudo apt update \
 && sudo apt autoclean
 ```
 
-
-
-
-
-- `sudo apt full-upgrade` memperbarui semua paket yang terinstal, termasuk paket yang membutuhkan ketergantungan untuk ditambahkan atau dihapus. `-y` memungkinkan Anda untuk secara otomatis menjawab "ya" pada setiap konfirmasi yang diminta oleh manajer paket;
-- `sudo apt autoremove -y`: menghapus ketergantungan yang tidak perlu;
+- `sudo apt full-upgrade` memperbarui semua paket yang terinstal, termasuk paket yang membutuhkan dependensi untuk ditambahkan atau dihapus. `-y` memungkinkan Anda untuk secara otomatis menjawab "ya" pada setiap konfirmasi yang diminta oleh manajer paket;
+- `sudo apt autoremove -y`: menghapus dependensi yang tidak perlu;
 - sudo apt autoclean`: membersihkan cache dari paket-paket yang sudah tidak terpakai.
-
-
 
 ![Image](assets/fr/215.webp)
 
-
-
 Jika Anda memiliki perangkat lunak yang didistribusikan sebagai paket Flatpak atau Snap, beberapa di antaranya diperbarui secara otomatis, tetapi Anda dapat memperbarui semuanya secara manual dengan perintah:
-
-
 
 ```bash
 flatpak update sudo snap refresh
 ```
 
-
-
-#### Di bawah macOS
-
-
+#### pada macOS
 
 Perangkat lunak yang diinstal melalui App Store dapat dengan mudah diperbarui di menu berikut:
-
-
 
 ```txt
 Apple menu → App Store → Update All
 ```
 
-
-
 Anda juga dapat mengaktifkan pembaruan aplikasi otomatis di pengaturan App Store.
 
-
-
-Namun, tidak semua aplikasi yang terinstal di Mac Anda berasal dari App Store. Untuk aplikasi lain, Anda harus memperbaruinya secara manual. Jadi, seperti halnya pengguna Windows, saya sarankan Anda menyimpan daftar semua perangkat lunak Anda dan memeriksa secara teratur untuk versi baru, terutama yang sensitif seperti peramban web Anda.
-
-
+Namun, tidak semua aplikasi yang terinstal di Mac Anda berasal dari App Store. Untuk aplikasi lain, Anda harus memperbaruinya secara manual. Jadi, seperti halnya pengguna Windows, saya sarankan Anda menyimpan daftar semua perangkat lunak Anda dan memeriksa secara teratur untuk versi baru, terutama yang sensitif seperti browser web Anda.
 
 ### Menghapus instalasi perangkat lunak
 

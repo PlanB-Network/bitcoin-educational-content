@@ -1,0 +1,9 @@
+question: Zorla kapatma neden daha az arzu edilir?
+answer: Daha yavaş ve ücretler uygunsuz olabilir
+wrong_answers:
+  - Satoshi Nakamoto'dan yetki gerektirir
+  - Bir kanalın daha sonra yeniden oluşturulmasını zorlar
+  - İptal anahtarının kullanılmasını engeller
+explanation: |
+  Zorla kapatma daha az tercih edilir çünkü süreci yavaşlatan bir zaman kilidi içerir ve ücretler kanalın oluşturulması sırasında belirlendiğinden uygun olmayabilir.
+reviewed: false

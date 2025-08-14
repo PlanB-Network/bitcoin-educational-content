@@ -1,0 +1,9 @@
+question: Tamamen ücretsiz bir işletim sistemi oluşturmak için 1983 yılında hangi proje başlatılmıştır?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Pencere Sistemi projesi
+  - Açık Kaynak Girişimi
+explanation: |
+  Richard Stallman 1983 yılında tamamen özgür bir işletim sistemi geliştirmek için GNU projesini başlattı.
+reviewed: false

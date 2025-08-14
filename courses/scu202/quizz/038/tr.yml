@@ -1,0 +1,9 @@
+question: Bir Ubuntu dağıtımındaki tüm paketleri güncellemek için hangi komut kullanılabilir?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf yükseltme
+  - sudo update-all
+explanation: |
+  Ubuntu'da (ve Debian'da), "sudo apt update && sudo apt upgrade" komutu paket listesini senkronize eder ve mevcut tüm güncellemeleri yükler.
+reviewed: false

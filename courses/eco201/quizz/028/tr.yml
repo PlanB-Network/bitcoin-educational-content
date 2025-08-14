@@ -1,0 +1,18 @@
+question: Sermaye piyasalarının manipüle edilmediği bir ekonomide zaman tercihi ile faiz oranları arasındaki ilişki nedir?
+answer: Faiz oranlarındaki bir artış, Supply'a kıyasla sermaye talebindeki nispi bir artıştan kaynaklanır ve bu da daha yüksek zaman tercihlerini gösterir. Tersine, faiz oranlarındaki bir düşüş, zaman tercihlerinde bir azalmaya işaret eden sermayenin Supply'ındaki bir artış olan tasarruflardaki bir artış nedeniyle meydana gelir.
+wrong_answers:
+  - Faiz oranlarındaki bir artış zaman tercihlerinde bir azalmaya işaret ederken, faiz oranlarındaki bir düşüş zaman tercihlerinde bir artışa işaret etmektedir.
+  - Zaman tercihi ve faiz oranları ters orantılıdır.
+  - Zaman tercihi ve faiz oranları arasında doğrudan bir ilişki yoktur.
+explanation: |
+  Sermaye piyasalarının manipüle edilmediği bir ekonomide, referans
+  faiz oranları, aşağıdakilerin kesiştiği noktada belirlenir
+  sermaye Supply ve talep. Bu nedenle, bu oranlar aşağıdakileri temsil etmektedir
+  tüm ekonomi için zaman tercihlerinin durumu. Bir
+  faiz oranındaki artış, nispi bir faiz artışından kaynaklanmaktadır
+  gW-1'e kıyasla sermaye talebinde artış,
+  daha yüksek zaman tercihlerine işaret etmektedir. Tersine, bir azalma
+  faiz oranlarındaki artış tasarruflardaki artıştan kaynaklanmaktadır,
+  bu da sermayenin Supply'inde bir artış olduğunu gösterir
+  zaman tercihlerinde azalma.
+reviewed: true

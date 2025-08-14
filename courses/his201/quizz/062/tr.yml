@@ -1,0 +1,9 @@
+question: Kısmi Proof of Work aracılığıyla bir kooperatif üyesinin Hash oranını tahmin etmek neleri içerir?
+answer: Hasher tarafından üretilen ağ zorluğundan daha düşük dereceli iş kanıtlarının alınması
+wrong_answers:
+  - Hasher tarafından üretilen her bir Hash bloğunun ilk baytı da dahil olmak üzere bir damganın baskısının alınması
+  - Her ay hasher'in elektrik faturasının alınması
+  - BitDNS gibi daha düşük zorluk derecesine sahip bir ağda üretilen iş kanıtlarının alınması
+explanation: |
+  Bu basit yöntem Ribuck, Nils Schneider ve Gavin Andresen tarafından [forumda] (https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14 Ekim 2010 tarihinde önerilmiştir.
+reviewed: true

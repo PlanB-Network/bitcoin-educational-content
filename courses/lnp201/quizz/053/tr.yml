@@ -1,0 +1,9 @@
+question: Bir yönlendirici neden kanallarında iyi bir likidite dağılımı sağlamalıdır?
+answer: Yönlendirebileceği ödeme sayısını en üst düzeye çıkarmak için
+wrong_answers:
+  - İşlem ücretlerini azaltmak için
+  - Yeni kanallar açmaktan kaçınmak için
+  - Bitcoin Blockchain'ın kullanımını sınırlamak için
+explanation: |
+  Bir yönlendirici, ücret toplamak için mümkün olduğunca çok ödemeyi yönlendirmeyi amaçlar; bu da yönlendirme kapasitesini sağlamak için kanalların her iki tarafında da iyi bir likidite dağılımı gerektirir.
+reviewed: false

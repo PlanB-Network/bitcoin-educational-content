@@ -1,0 +1,9 @@
+question: Neden rastgele oluşturulmuş parolaların kullanılması önerilir?
+answer: Kaba kuvvet saldırılarına karşı koymak için.
+wrong_answers:
+  - Hatırlamayı kolaylaştırmak için.
+  - Karmaşıklıklarını azaltmak için.
+  - Sybil saldırılarına direnmek için.
+explanation: |
+  Rastgelelik, parolaların deneme yanılma yoluyla tahmin edilmesini zorlaştırır ve böylece kaba kuvvet saldırılarına karşı güvenliklerini güçlendirir.
+reviewed: true

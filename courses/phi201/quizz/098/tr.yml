@@ -1,0 +1,9 @@
+question: Marx'a göre insanın yabancılaşmasının temel kaynağı nedir?
+answer: Kapitalist sömürüden kaynaklanan ekonomik yabancılaşma.
+wrong_answers:
+  - Vatandaşların kendilerini özgürce ifade etmelerini engelleyen siyasi yabancılaşma.
+  - Sosyal adaletsizliklerin gerçekliğini maskeleyen dini yabancılaşma.
+  - Amerikan kültürüne yabancılaşma.
+explanation: |
+  Marx'a göre, insanın yabancılaşması ekonomik yabancılaşmadan kaynaklanır; işçi kapitalizm altında emeğinin meyvelerinden mahrum bırakılır, bu da varoluşunda kontrol ve anlam kaybına yol açar.
+reviewed: true

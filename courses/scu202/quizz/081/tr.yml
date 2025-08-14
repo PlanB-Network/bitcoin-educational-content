@@ -1,0 +1,9 @@
+question: Mesaj gizliliği söz konusu olduğunda Telegram'ın ana sınırlaması nedir?
+answer: Varsayılan olarak yalnızca gizli alışverişler uçtan uca şifrelenir
+wrong_answers:
+  - Anonim bir kayıt ücreti uygular
+  - Alınan dosyaların gerçekliğini garanti etmez
+  - Açık kaynak istemci mevcut değil
+explanation: |
+  Varsayılan olarak, Telegram mesajları şirket sunucularında saklanır ve yalnızca gizli sohbetler uçtan uca şifrelemeden yararlanır.
+reviewed: false

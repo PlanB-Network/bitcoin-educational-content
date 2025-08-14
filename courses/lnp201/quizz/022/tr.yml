@@ -1,0 +1,9 @@
+question: Hile durumunda iptal anahtarı ne yapılmasına izin verir?
+answer: Hilekarı cezalandırarak tüm fonları geri alın
+wrong_answers:
+  - Commitment Transaction'ı iptal edin
+  - Kanal kapasitesini iki katına çıkarın
+  - Kanalda daha fazla işlem yapılmasını önleyin
+explanation: |
+  İptal anahtarı, diğer tarafın hile girişiminde bulunması durumunda mağdur tarafın tüm fonları geri almasını sağlar.
+reviewed: false

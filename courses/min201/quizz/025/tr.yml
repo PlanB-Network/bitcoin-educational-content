@@ -1,0 +1,11 @@
+question: Bitcoin ağının temel Layer'i genellikle ne olarak adlandırılır?
+answer: Yerleşim yeri Layer
+wrong_answers:
+  - Layer işlemi
+  - Güvenlik Layer
+  - Fikir birliği Layer
+explanation: |
+  Bitcoin ağının Layer üssü, Yıldırım'ın
+  Ağ, ödeme kanallarını açmak ve kapatmak için güvenir,
+  genellikle Layer yerleşimi olarak anılır.
+reviewed: true

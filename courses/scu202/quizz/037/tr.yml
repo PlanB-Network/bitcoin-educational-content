@@ -1,0 +1,9 @@
+question: Hangi yazılım kategorisi bir bilgisayara yapılan saldırılar için en kritik giriş noktalarından birini temsil eder?
+answer: Web tarayıcısı
+wrong_answers:
+  - PDF okuyucu
+  - Metin düzenleyici
+  - Dosya yöneticisi
+explanation: |
+  Web tarayıcısı sürekli olarak harici içeriğe maruz kalır ve bu da onu siber suçlular için birincil saldırı vektörü haline getirir.
+reviewed: false

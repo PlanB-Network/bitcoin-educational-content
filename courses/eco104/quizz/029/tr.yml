@@ -1,0 +1,12 @@
+question: Bitcoin'ın Mining aracılığıyla enerji tüketmesinin ardındaki motivasyonlardan biri nedir?
+answer: Merkezileşmeye karşı güçlü bir savunma mekanizması sağlamak
+wrong_answers:
+  - Bitcoin'nin kullanımını daha pahalı hale getirmek için
+  - Enerji maliyetlerini artırarak değerini düşürmek
+  - Yeni kullanıcıları ağa katılmaktan caydırmak için
+explanation: |
+  Bitcoin'ün Mining aracılığıyla enerji tüketmesinin nedenlerinden biri
+  merkezileşmeye karşı güçlü bir savunma mekanizması sağlar ve
+  gereksiz manipülasyon. Dağıtılmış madenci ağı, madencilerin
+  merkezi kuruluşların ağı ele geçirmesi veya kuralları kendi lehlerine manipüle etmesi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin aracılar olmadan ne yapmanıza izin veriyor?
+answer: İnternette Exchange değeri
+wrong_answers:
+  - Merkezi uygulamalar oluşturun
+  - Banka kredisi almak
+  - Kişisel verilerin saklanması
+explanation: |
+  Bitcoin, eşler arası protokolü aracılığıyla aracılar olmadan İnternet üzerinde değerin Exchange'sini sağlar.  
+reviewed: false

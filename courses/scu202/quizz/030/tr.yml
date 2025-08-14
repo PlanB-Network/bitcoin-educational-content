@@ -1,0 +1,9 @@
+question: Linux altında bir diski tamamen şifreleyebilen açık kaynak kodlu araç hangisidir?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) Linux'ta kurulum sırasında tam disk şifrelemesi için standart çözümdür.
+reviewed: false

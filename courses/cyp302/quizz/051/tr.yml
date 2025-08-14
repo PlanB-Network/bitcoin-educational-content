@@ -1,0 +1,9 @@
+question: Champ premier veya corps premier terimi ne anlama geliyor?
+answer: Asal sayıda Elements'a sahip bir alan
+wrong_answers:
+  - Sadece asal sayıları içeren bir alan
+  - Yalnızca asal sayıların toplanmasıyla tanımlanan bir alan
+  - Rastgele vektörler kullanan bir alan
+explanation: |
+  Bir asal alan, bir asal sayıya eşit sayıda Elements içerir ve bu da onu kriptografik işlemler için temel bir alan haline getirir.
+reviewed: false

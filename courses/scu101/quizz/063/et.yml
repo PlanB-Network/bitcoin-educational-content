@@ -1,10 +1,9 @@
-question: Millised on mõned krüptograafia aspektid, mida kasutatakse küberjulgeolekus?
-answer: SSL/TLS, sümmeetriline/asümmeetriline krüpteerimine
+question: Millist sertifitseerimist tunnustatakse kogu maailmas küberturvalisuse valdkonnas?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Peatükk loetleb SSL/TLS-i ja sümmeetrilise/asümmeetrilise krüpteerimise kui mõned
-  krüptograafia aspektid, mida kasutatakse küberjulgeolekus.
+  CISSP sertifikaat on üks rahvusvaheliselt tunnustatud küberturvalisuse valdkonna sertifikaate.
 reviewed: false

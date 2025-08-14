@@ -1,0 +1,9 @@
+question: Mart 2010'da oluşturulan hangi Exchange hizmeti, Temmuz ayında Mt. Gox'un ortaya çıkmasından önce en popüler olanıydı?
+answer: Bitcoin Pazar
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  PayPal kullanan bu eşler arası pazar yeri 16 Mart 2010'da dwdollar olarak bilinen bir kişi tarafından başlatıldı ve Mt. Gox'tan önceki ana platformdu.
+reviewed: true

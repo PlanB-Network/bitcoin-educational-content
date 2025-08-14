@@ -1,0 +1,14 @@
+question: Kendi emanetinizi alırken, kayıp riskini en aza indirmek için yapmanız gereken ilk şey nedir?
+answer: Wallet kurtarma seed ifadenizi yedekleyin
+wrong_answers:
+  - Özel anahtarlarınızı güvenilir bir tarafla paylaşın
+  - Kurtarma seed cümlenizi not edin ve bilgisayarınızda saklayın
+  - İki faktörlü kimlik doğrulamayı (2FA) devre dışı bırakın
+explanation: |
+  Her şeyden önce, kendi kendinize emanet alırken Wallet'ünüzü yedekleyin.
+  Donanım cüzdanları bir kurtarma seed ifadesiyle birlikte gelir; bu ifade
+  cihazınızın kaybolması veya hasar görmesi durumunda özel anahtarlarınızı kurtarmak için kullanılabilir.
+  Bu seed ifadesinin metal bir [seed plakası] (https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) gibi fiziksel bir kopyasını oluşturun ve
+  güvenli bir yerde saklayın. Bu kurtarma seed ifadesini güvende tutmak önemlidir.
+  ASLA kimseyle paylaşmayın.
+reviewed: true

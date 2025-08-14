@@ -1,0 +1,10 @@
+question: Bitcoin neden yeni bir para biçimi olarak kabul ediliyor?
+answer: Çünkü merkezi bir varlığı olmayan dijital bir paradır.
+wrong_answers:
+  - Çünkü altınla desteklenen dijital bir para birimidir.
+  - Çünkü banka Blockchain'i gerektiren bir para birimidir.
+  - Çünkü Federal Rezerv öyle diyor.
+explanation: |
+  Bitcoin, ortaya çıktığı şekliyle yeni bir para biçimi olarak görülebilir
+  merkezi bir varlık olmadan eşler arası bir ağdan.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat bireysel özgürlükle ilişkili olarak sorumluluğu nasıl tanımlıyor?
+answer: Sorumluluk, iyi ya da kötü olsun, kişinin eylemlerinin sonuçlarına katlanma yükümlülüğüdür.
+wrong_answers:
+  - Sorumluluk, her zaman başkalarının iyiliği için hareket etme Commitment'dır.
+  - Sorumluluk, belirli kararların yetkili bir makama devredilmesini içerir.
+  - Sorumluluk, toplum tarafından dayatılan kurallara uyma yükümlülüğüdür.
+explanation: |
+  Bastiat, sorumluluğu özgürlüğün olumlu bir yönü olarak görür ve her bireyin kendi seçimlerinin ve eylemlerinin sonuçlarını tam olarak üstlenmesini zorunlu kılar.
+reviewed: false

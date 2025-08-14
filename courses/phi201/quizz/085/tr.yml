@@ -1,0 +1,9 @@
+question: John Stuart Mill'e göre devlet egemenliğinin sınırı nedir?
+answer: Devlet sadece bir bireyin eylemleri başkalarına zarar verdiğinde müdahale edebilir.
+wrong_answers:
+  - Devlet her koşulda egemendir ve herhangi bir birey ya da birey grubu tarafından sınırlandırılamaz.
+  - Devlet egemenliği ekonomik araçlarla sınırlandırılmıştır.
+  - Devlet egemenliği doğa kanunları ile sınırlıdır.
+explanation: |
+  John Stuart Mill, devlet müdahalesinin ancak bireyin eylemleri başkalarına zarar verdiğinde, başkalarına zarar vermeyen alanlarda kişisel özgürlüğü korumak için meşru olduğunu savunur.
+reviewed: true

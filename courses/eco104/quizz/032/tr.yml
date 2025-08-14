@@ -1,0 +1,11 @@
+question: Hangi senaryoda bir stablecoin sabitlenmiş fiyatının üzerinde işlem görebilir?
+answer: Sabit coinlere olan talep bir Exchange'ın kapasitesini aştığında
+wrong_answers:
+  - Stabilcoin çıkaran kuruluş fonları dondurduğunda
+  - Stabilcoin tamamen nakit rezervleri ile desteklendiğinde
+  - Kullanıcılardan gelen güçlü satış baskısı olduğunda
+explanation: |
+  Stablecoinler, sabitlenmiş fiyatlarının üzerinde işlem görebilirler
+  stabilcoinlere olan talep Exchange'in kapasitesini aşıyor
+  tipik olarak daha küçük borsalarda müşteri taleplerini karşılamak.
+reviewed: true

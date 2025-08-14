@@ -1,0 +1,10 @@
+question: Bitcoin satın almadan önce sahip olmanız gereken şeylerden biri nedir?
+answer: Güvenli bir Wallet.
+wrong_answers:
+  - Fiziksel bir kasa.
+  - Bir banka hesabı.
+  - Kredi kartı.
+explanation: |
+  Kurs metni, Bitcoin'yi satın almadan önce şunları yapmanız gerektiğini belirtmektedir
+  anahtarlarınızı saklayacağınız güvenli bir Wallet olmalıdır.
+reviewed: true

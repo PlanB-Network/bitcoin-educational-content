@@ -1,0 +1,9 @@
+question: Schema, RGB'de nasıl bir rol oynar?
+answer: Contract değişkenlerini, kurallarını ve Business Logic'yi tanımlayın
+wrong_answers:
+  - Katılımcılar arasında değiş tokuş edilen mağaza sevkiyatları
+  - Bitcoin işlemlerinde Pedersen Taahhütlerini Doğrulama
+  - Her bir UTXO için Seal Tanımları oluşturun
+explanation: |
+  Schema, Contract'nin durumunu yapılandırır ve izin verilen geçişleri ve doğrulama koşullarını belirler.
+reviewed: false

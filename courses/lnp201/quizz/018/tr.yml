@@ -1,0 +1,9 @@
+question: Her aktarımdan sonra yeni bir kanal durumu nasıl oluşturulur?
+answer: Güncellenmiş dağıtım ile yeni bir Commitment Transaction oluşturarak
+wrong_answers:
+  - Her transferden sonra bir On-Chain işlemi göndererek
+  - Kanalın toplam kapasitesini artırarak
+  - Her işlemden sonra kanalı kapatıp yeniden açarak
+explanation: |
+  Kanal içindeki her işlem, kanalın durumunu iki katılımcı arasındaki mevcut fon dağılımını yansıtan yeni bir Commitment Transaction ile günceller.
+reviewed: false

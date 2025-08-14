@@ -1,0 +1,9 @@
+question: HD Wallet'da genişletilmiş tuşun ana işlevi nedir?
+answer: Alt anahtarların türetilmesine izin vermek için
+wrong_answers:
+  - Wallet'in işlemlerini saklayın
+  - UTXO'ları doğrudan generate
+  - Açık anahtarları şifreleyin
+explanation: |
+  Genişletilmiş bir anahtar, bir anahtarı (özel veya genel) ilişkili bir chain code ile, yani alt anahtarları türetmek için gerekli olan iki Elements ile birleştirir.
+reviewed: false

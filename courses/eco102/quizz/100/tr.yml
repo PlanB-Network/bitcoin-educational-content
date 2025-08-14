@@ -1,0 +1,9 @@
+question: Bastiat'ya göre devletin geçimini kim sağlar?
+answer: Devleti ayakta tutan vatandaşlardır
+wrong_answers:
+  - Devletin sırtından geçinen vatandaşlardır
+  - Ulusu ayakta tutan devlettir
+  - Devleti ayakta tutan çıkar gruplarıdır
+explanation: |
+  Bastiat, servet yaratma yoluyla devleti destekleyenlerin vatandaşlar olduğunu, bunun tersinin söz konusu olmadığını ileri sürer.
+reviewed: false

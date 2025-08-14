@@ -1,0 +1,9 @@
+question: Bir Bitcoin işleminin çıkışlardaki UTXO'lar üzerindeki etkisi nedir?
+answer: Bunları girişlerde tüketilen UTXO'ları kullanarak oluşturur.
+wrong_answers:
+  - Girdileri karşılamak için onları tüketir.
+  - Alıcıyı anonimleştirmek için bunları şifreler.
+  - Doğrulama için onları geçici olarak böler.
+explanation: |
+  İşlemin çıktılarındaki UTXO'lar, girdilerdeki UTXO'ların tüketilmesiyle oluşturulur. Bu bir bakıma paranın varış noktasıdır.
+reviewed: false

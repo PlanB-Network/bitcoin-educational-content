@@ -1,0 +1,11 @@
+question: Avusturya ekonomisinin temel aksiyomlarından biri nedir?
+answer: Temel aksiyomlardan biri, mal veya hizmetlerin yarın yerine bugün tercih edilmesine dayanan pozitif zaman tercihleridir.
+wrong_answers:
+  - Temel aksiyomlardan biri faiz oranlarının keyfi olarak belirlenmesidir.
+  - Temel aksiyomlardan biri ampirik verilere dayanmaktır.
+  - Temel aksiyomlardan biri, geçici deneylerin onaylamak veya doğrulamak için kullanılmasıdır
+explanation: |
+  Avusturya ekonomisinde temel aksiyomlardan biri pozitif zamandır
+  tercihleri, günümüzde daha ziyade bireysel mal veya hizmet seçimlerine dayanmaktadır
+  gelecekle ilgili belirsizlik nedeniyle yarından daha fazla.
+reviewed: true

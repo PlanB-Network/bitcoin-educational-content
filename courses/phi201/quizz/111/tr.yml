@@ -1,0 +1,9 @@
+question: Keynes'e göre paranın ekonomideki rolü nedir?
+answer: Bir ekonomi politikası aracı
+wrong_answers:
+  - Sadece bir Exchange aracı
+  - Büyüme üzerinde bir fren
+  - Spekülasyon için bir araç
+explanation: |
+  Keynes'e göre para, hükümetlerin yatırım, istihdam ve genel talebi etkileyerek ekonomiyi düzenlemelerini sağlayan bir ekonomi politikası kaldıracı görevi görür.
+reviewed: true

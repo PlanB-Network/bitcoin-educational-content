@@ -1,0 +1,11 @@
+question: 2017'deki blok savaşı ne hakkındaydı?
+answer: İşlem kapasitesini artırmak için blok boyutunun artırılıp artırılmayacağı konusunda bir anlaşmazlık.
+wrong_answers:
+  - İşlem kapasitesini azaltmak için blok boyutunun düşürülüp düşürülmeyeceği konusunda bir anlaşmazlık.
+  - Madencileri teşvik etmek için Block reward'ın artırılıp artırılmayacağı konusunda bir anlaşmazlık.
+  - Madencileri caydırmak için Block reward'in düşürülüp düşürülmeyeceği konusunda bir anlaşmazlık.
+explanation: |
+  2017'de yaşanan blok savaşı, bir blokun kurulup kurulmayacağına ilişkin bir çatışmaydı
+  genişletmek için blok boyutunu artırarak Bitcoin'yi değiştirin
+  işlem kapasitesi.
+reviewed: true

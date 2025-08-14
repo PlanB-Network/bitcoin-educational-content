@@ -1,0 +1,9 @@
+question: RGB protokolünde Stash'ı kaybetmenin sonucu nedir?
+answer: Contract geçmişi ve ilgili veriler geri alınamaz hale gelir
+wrong_answers:
+  - seed'e sahipseniz veriler Blockchain'ten yeniden oluşturulabilir
+  - Verilerin bir kopyası RGB'in İsviçre'deki sunucularında mevcuttur
+  - Veriler tüm katılımcılar için otomatik olarak çoğaltılır
+explanation: |
+  Client-side Validation'da her kullanıcı kendi Stash'sinden sorumludur, bu da başka bir yerde kopyalanmaz ve kaybını kesinleştirir.
+reviewed: false

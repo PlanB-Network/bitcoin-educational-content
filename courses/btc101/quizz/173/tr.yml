@@ -1,0 +1,8 @@
+question: Bitcoin'ın belirli gruplar için cazip olmasının nedenlerinden biri nedir?
+answer: Trustless elektronik para, sansüre karşı direnç veya şeffaf ve değişmez para politikası gibi çözümler sunma yeteneği.
+wrong_answers:
+  - Sahtesini yapmak kolaydır ve basit bir tıklama ile daha fazla para almak için çözümler yaratabilir.
+  - Sermayeyi kullanıcılara serbestçe dağıtan merkezi bir otorite tarafından kontrol edilir.
+  - Takma isimli değildir, bu nedenle her kullanıcı iyi bilinir ve güvenilirdir.
+explanation: >-
+reviewed: true

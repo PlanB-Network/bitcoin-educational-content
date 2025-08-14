@@ -1,0 +1,9 @@
+question: 1970'lerden önce dağıtım ve kilit yönetim sorunlarının etkisi neydi?
+answer: Büyük ölçekli iletişimin güvenliğini ve verimliliğini sınırladılar
+wrong_answers:
+  - Şifrelenmiş mesajların halka açık ağlarda iletilmesini engellediler
+  - Her mesaj için açık anahtarlara ihtiyaç duyuyorlardı
+  - Homomorfik kriptografi kullanımını zorunlu kıldılar
+explanation: |
+  1970'lerden önce, anahtar dağıtımı ve yönetimi ile ilgili sorunlar, iletişimin büyük ölçekte güvenli hale getirilmesini zorlaştırmış ve böylece çevrimiçi alışveriş gibi modern uygulamaların geliştirilmesini engellemiştir.
+reviewed: false

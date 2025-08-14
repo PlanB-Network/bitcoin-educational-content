@@ -1,0 +1,9 @@
+question: Kriptografide blok şifre nedir?
+answer: Sabit uzunluktaki bir dizeyi aynı uzunlukta başka bir dizeye dönüştüren bir algoritma
+wrong_answers:
+  - Açık ve özel gizli anahtarlara dayalı bir asimetrik şifreleme
+  - Değişken uzunluktaki verileri akış yoluyla şifreleyen bir sistem
+  - Gizli anahtar gerektirmeyen bir şifreleme
+explanation: |
+  Bir blok şifre, aynı uzunlukta başka bir dizi üretmek için bir anahtarla sabit uzunlukta bir bit dizisi üzerinde bir dönüşüm uygulayan bir algoritmadır.
+reviewed: false

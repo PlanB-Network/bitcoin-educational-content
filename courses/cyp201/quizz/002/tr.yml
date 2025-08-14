@@ -1,0 +1,9 @@
+question: Hash işlevlerinin hangi özelliği, bir mesaj biraz değiştiğinde Hash'da tam bir değişiklikle gösterilir?
+answer: Çığ etkisi
+wrong_answers:
+  - Çarpışma direnci
+  - İkinci ön görüntü direnci
+  - Uzunluk
+explanation: |
+  Girdideki küçük bir değişiklik Hash'de radikal bir değişikliğe neden olur, buna çığ etkisi denir.
+reviewed: false

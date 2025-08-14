@@ -1,0 +1,10 @@
+question: Bir işlemde harici ve dahili Address yeniden kullanımı arasındaki fark nedir?
+answer: Harici yeniden kullanım birden fazla işlemde gözlemlenirken, dahili yeniden kullanım aynı işlem içinde gözlemlenir.
+wrong_answers:
+  - Harici yeniden kullanım genel adreslerle ilgiliyken, dahili yeniden kullanım işlem komut dosyalarında kullanılan özel adreslerle ilgilidir.
+  - Dahili yeniden kullanım birden fazla işlemde gözlemlenirken, harici yeniden kullanım aynı işlem içinde gözlemlenir.
+  - Dahili yeniden kullanım genel adreslerle ilgiliyken, harici yeniden kullanım işlem komut dosyalarında kullanılan özel adreslerle ilgilidir.
+explanation: |
+  Harici Address yeniden kullanımı, bir Address birkaç farklı işlemde yeniden kullanıldığında gözlemlenirken, dahili yeniden kullanım aynı işlemin hem girdilerinde hem de çıktılarında kullanılan bir Address ile ilgilidir.
+  
+reviewed: false

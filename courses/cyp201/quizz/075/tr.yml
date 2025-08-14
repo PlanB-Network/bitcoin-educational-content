@@ -1,0 +1,9 @@
+question: Standart bir Descriptor'da bir SegWit v0 hesabı için hangi türetme yolu kullanılır?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  84h/0h/0h yolu, P2WPKH ile SegWit v0 adreslerini türeten bir hesap için BIP84'te tanımlanmıştır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: HTLC üzerinden yapılan bir ödeme ayrılan süre içinde tamamlanmazsa ne olur?
+answer: Ödeme iptal edilir ve para gönderene iade edilir.
+wrong_answers:
+  - Ödeme son aracı düğüm tarafından saklanır
+  - Fonlar yoldaki tüm düğümlere dağıtılır
+  - Fonlar kalıcı olarak bloke edilmiştir
+explanation: |
+  Bir HTLC'in süresi sır açıklanmadan sona ererse, ödeme iptal edilir ve fonlar gönderene geri döner, böylece herhangi bir aracı düğümün fonları tutması engellenir.
+reviewed: false

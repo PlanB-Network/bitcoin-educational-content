@@ -1,0 +1,13 @@
+question: Çevrimdışı veya Cold, fiziksel Wallet'ın önerilen kullanımı nedir?
+answer: Büyük miktarlarda depolama.
+wrong_answers:
+  - Günlük harcamaların saklanması.
+  - Küçük miktarların saklanması.
+  - Kısa vadeli birikimlerin saklanması.
+explanation: |
+  Çevrimdışı veya Cold, fiziksel Wallet aşağıdakiler için önerilir
+  daha az hassas olduğu için büyük miktarlarda depolamak
+  gW-4 cüzdanlarına göre çevrimiçi tehditler. Ancak, bu değil
+  daha az olduğu için günlük harcamalar için önerilir
+  günlük işlemler için erişilebilir.
+reviewed: true

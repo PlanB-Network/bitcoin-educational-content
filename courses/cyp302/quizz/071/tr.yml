@@ -1,0 +1,8 @@
+question: Kaydırmalı şifrelemede şifre çözme nasıl çalışır?
+answer: Şifrelenmiş her harften anahtar çıkarılarak ve modulo 26 uygulanarak
+wrong_answers:
+  - Şifrelenmiş her harften anahtarı çıkararak ve modulo 20 uygulayarak
+  - Anahtarı şifrelenmiş her harfle çarparak
+  - Her şifrelenmiş harften anahtarı bölerek ve modulo 27 uygulayarak
+explanation: |
+  Kaydırmalı şifrelemede şifre çözme işlemi, şifrelenmiş her harften anahtarın çıkarılması ve ardından orijinal metne dönmek için modulo 26 uygulanması ile gerçekleştirilir. Modulo 26, Z harfinden sonra alfabenin başına dönülmesini sağlar.

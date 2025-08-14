@@ -1,0 +1,9 @@
+question: Bir Single-Use Seal tanımlamak için RGB'de hangi yöntem kullanılır?
+answer: Belirli bir çıkış noktası
+wrong_answers:
+  - Belirli bir açık anahtar
+  - Belirli bir Bitcoin Address
+  - Birkaç UTXO'nun bir kombinasyonu
+explanation: |
+  RGB, bir Single-Use Seal'ü belirli bir çıkış noktası olarak tanımlar ve daha sonra bu çıkış noktasının harcanmasıyla kapatılabilir (txid + çıkış numarası).
+reviewed: false

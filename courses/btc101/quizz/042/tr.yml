@@ -1,0 +1,13 @@
+question: Merkez bankası dijital para birimlerinin (CBDC'ler) potansiyel dezavantajı nedir?
+answer: Bireylerin mali özgürlüğünü engelleyebilir ve otoriter suiistimalleri kolaylaştırabilirler.
+wrong_answers:
+  - Supply parasında bir düşüşe yol açabilirler.
+  - Bunlar Bitcoin değerinde bir düşüşe yol açabilir.
+  - Bunlar altının değerinin düşmesine yol açabilir.
+explanation: |
+  Merkez bankası dijital para birimleri (CBDC'ler) potansiyel olarak
+  bireylerin finansal özgürlüğünü engellemekte ve
+  otoriter suistimaller. Bunun nedeni, onların bir
+  merkez bankası ile daha merkezi planlı bir ekonomi
+  gW-2'nin parası üzerinde daha fazla kontrol sahibi olmak.
+reviewed: true

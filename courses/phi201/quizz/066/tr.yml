@@ -1,0 +1,9 @@
+question: Voltaire'in ticaret ve dini hoşgörü arasındaki bağlantıya dair temel tezi nedir?
+answer: Ticaret, ortak kâr arayışı yoluyla insanları işbirliği yapmaya ve dini inançları da dahil olmak üzere birbirlerinin görüşlerine saygı göstermeye teşvik eder.
+wrong_answers:
+  - Ticaret, bilimsel yönteme dayalı ortak bir dünya görüşü aracılığıyla insanları birleştirir.
+  - Ticaret lüksü ve tembelliği teşvik eder.
+  - Diğer tüm cevaplar doğrudur.
+explanation: |
+  Voltaire, ticaretin farklı inançlara sahip bireyleri ortak ekonomik çıkarlar uğruna işbirliği yapmaya ve karşılıklı olarak fikirlerine saygı göstermeye teşvik ederek dini hoşgörüyü teşvik ettiğini savunur.
+reviewed: true

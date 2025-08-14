@@ -1,0 +1,9 @@
+question: Doğayı akıl yoluyla anlamaya çalışan ilk filozoflar kimlerdi?
+answer: Sokrates öncesi filozoflar
+wrong_answers:
+  - Yunan rahipler
+  - Yunan şairleri
+  - Yunan matematikçiler
+explanation: |
+  Sokrates öncesi filozoflar, mitolojik açıklamalardan bağımsız olarak dünyayı açıklamak için rasyonel ve evrensel ilkeler arayarak doğayı anlamak için aklı kullanan ilk kişilerdi.
+reviewed: true

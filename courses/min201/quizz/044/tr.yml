@@ -1,0 +1,13 @@
+question: Bakir bitcoinler nedir?
+answer: Daha önce hiç harcanmamış ve geçmişi olmayan yeni çıkarılmış bitcoinler.
+wrong_answers:
+  - Yasadışı faaliyetlerde kullanılan Bitcoinler.
+  - Kaybolan veya unutulan Bitcoinler.
+  - Uzun süredir bir Wallet'da saklanan Bitcoinler.
+explanation: |
+  Bakire bitcoinler, daha önce hiç çıkarılmamış yeni çıkarılmış bitcoinlerdir
+  harcanmıştır ve bunlara bağlı bir geçmiş yoktur. Bunlar
+  bitcoinler genellikle daha değerli kabul edilir çünkü
+  karşı bir miktar garanti sağlayarak asla lekelenmemiştir
+  düzenleyiciler veya büyük Exchange platformları tarafından reddedilmesi.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Bernold'a göre bir para reformunun başarılı ya da başarısız olmasında kilit faktör nedir?
+answer: Halkın kuruma duyduğu güven
+wrong_answers:
+  - Dolaşımdaki para miktarı
+  - Para biriminin değeri
+  - Hükümetin ekonomi politikaları
+explanation: |
+  Bernold, bir para reformunun başarısının sadece aşağıdakilere bağlı olmadığını öne sürmektedir
+  teknik uygunluğuna değil, aynı zamanda halkın buna duyduğu güvene de bağlıdır.
+  Bu nedenle algı ve kamu güveni, başarı ya da başarısızlıkta temel Elements'dır
+  bir para reformu.
+reviewed: false

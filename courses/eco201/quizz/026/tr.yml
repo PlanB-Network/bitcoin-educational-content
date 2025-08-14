@@ -1,0 +1,11 @@
+question: Bir malın yüksek satılabilirliğe sahip olması ne anlama gelir?
+answer: Çoğu zaman mümkün olduğunca çok kişi tarafından istenmelidir.
+wrong_answers:
+  - Çoğu zaman birkaç kişi tarafından istenmelidir.
+  - Bazı zamanlarda mümkün olduğunca çok kişi tarafından istenmelidir.
+  - Bazı zamanlarda birkaç kişi tarafından istenmelidir.
+explanation: |
+  Yüksek satılabilirliğe sahip bir mal, yaygın olarak arzulanan bir maldır
+  ve diğer mal veya hizmetlerle kolayca değiştirilebilir.
+  Bu da onu para olarak kullanıma uygun hale getirir.
+reviewed: true

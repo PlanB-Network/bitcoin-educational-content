@@ -1,0 +1,8 @@
+question: Cantillon etkileri nelerdir?
+answer: Bir ülkedeki para miktarının artması gelir dağılımını etkiler
+wrong_answers:
+  - Para miktarını artırmanın insanların davranışları üzerinde etkisi vardır
+  - Para miktarının artırılmasının kamu borcu miktarı üzerinde etkisi vardır
+  - Para miktarını artırmanın önemli bir etkisi yoktur
+explanation: |
+  Cantillon etkileri, Supply parasındaki bir artışın ekonominin farklı sektörlerinde fiyatları ve gelirleri nasıl farklı etkilediğini açıklar. Yeni para enjeksiyonu eşit bir şekilde yayılmaz, çarpıklıklar ve eşitsizlikler yaratır.

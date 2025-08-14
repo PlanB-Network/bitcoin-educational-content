@@ -1,0 +1,9 @@
+question: Kurumsal Bitcoin sistemleri ile ERP yazılımı arasında gerçek zamanlı veri senkronizasyonunu ne sağlar?
+answer: API'ler
+wrong_answers:
+  - CSV dosyaları
+  - Toplu yüklemeler
+  - E-posta raporları
+explanation: |
+  API'ler sürekli, gerçek zamanlı entegrasyona olanak tanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Öncelikle ses veya video akışları gibi sürekli iletişimler için kullanılan simetrik şifreleme türü hangisidir?
+answer: Akış şifreleme
+wrong_answers:
+  - Blok şifreleme
+  - Doğrulama kodu
+  - Mesaj karması
+explanation: |
+  Akış şifreleme özellikle sürekli iletişim için uygundur çünkü verileri bloklara bölen blok şifrelemenin aksine verileri sürekli olarak şifreler.
+reviewed: false

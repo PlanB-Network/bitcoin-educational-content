@@ -1,0 +1,9 @@
+question: Bir işletim sisteminde çekirdeğin ana işlevi nedir?
+answer: Ekipmana erişimi yönetin
+wrong_answers:
+  - Reklamları göster
+  - Kullanıcı hesaplarını yönetme
+  - Uygulamaları otomatik olarak yükleme
+explanation: |
+  Çekirdek, devre karmaşıklığını kullanıcıdan gizlerken donanım erişimini, eşzamanlı işlem yürütmeyi ve güvenliği düzenler.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hangi şifreleme türü sabit veri blokları kullanır?
+answer: Blok şifreleme
+wrong_answers:
+  - Akış şifreleme
+  - Mesaj kimlik doğrulama kodu
+  - Açık anahtar
+explanation: |
+  Blok şifreleme, verileri sabit boyutlu bloklara böler ve bunları bağımsız olarak şifreler.
+reviewed: false

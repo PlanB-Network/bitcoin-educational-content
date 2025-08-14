@@ -1,0 +1,9 @@
+question: Bir a tamsayısının modulo N tersinin olması için gereken koşul nedir?
+answer: a ve N birbirinin eşiti olmalıdır
+wrong_answers:
+  - N çift olmalıdır
+  - a tek olmalı
+  - a bir asal sayı olmalıdır
+explanation: |
+  Bir a tamsayısının modulo N tersi, ancak ve ancak bu iki tamsayı birbirine eş ise, yani en büyük ortak bölenleri 1 ise vardır.
+reviewed: false

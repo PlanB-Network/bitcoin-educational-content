@@ -1,0 +1,9 @@
+question: Kıtlık neden iyi bir para biriminin temel bir özelliğidir?
+answer: Değeri korur
+wrong_answers:
+  - Yalnızca fiziksel varlıkların para birimi olarak kullanılabilmesini garanti eder
+  - Para biriminin her birey için yaygın olarak kullanılabilir olmasını sağlar
+  - Para biriminin her zaman altın gibi bir emtia ile desteklenmesini sağlar
+explanation: |
+  Kıtlık, aşırı para yaratılmasını önler, böylece zaman içinde değerini ve satın alma gücünü korur.
+reviewed: false

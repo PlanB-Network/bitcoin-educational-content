@@ -1,0 +1,13 @@
+question: Kâr için Mining'ın potansiyel dezavantajı nedir?
+answer: Hashing gücünün merkezileştirilmesine yol açabilir ve ayrıca önemli bir çevresel etkiye sahip olabilir
+wrong_answers:
+  - Bitcoin'in fiyatında bir düşüşe yol açabilir
+  - Ağın Hashrate'sinde bir azalmaya yol açabilir
+  - Ağdaki aktif düğüm sayısında azalmaya yol açabilir
+explanation: |
+  Kâr amaçlı Mining, hash işleminin merkezileşmesine yol açabilir
+  sadece birkaç büyük şirketin yatırım yapmaya gücü yetiyorsa
+  üst düzey Mining ekipmanı. Ayrıca, enerji
+  gW-3'ün kar amaçlı tüketiminin önemli bir etkisi olabilir
+  enerji kaynağına bağlı olarak çevresel etki.
+reviewed: true

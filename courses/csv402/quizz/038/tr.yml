@@ -1,0 +1,9 @@
+question: Bir varlık çıkarmak için kullanılan YAML dosyasında, hangi alan çıkarılan toplam token sayısını tanımlar?
+answer: issuedSupply
+wrong_answers:
+  - varlıkSahibi
+  - spec
+  - miktar
+explanation: |
+  YAML dosyasındaki "issuedSupply" alanı, Contract için verilen toplam token miktarını tanımlar.
+reviewed: false

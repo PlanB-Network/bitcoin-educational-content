@@ -1,0 +1,9 @@
+question: Bir hodler için hangi depolama çözümü önerilir?
+answer: BIR Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Bir gözetim hizmeti
+  - Bir kağıt Wallet
+explanation: |
+  Uzun vadede bitcoin tutan bir hodler, güvenliği en üst düzeye çıkarmak için bir Hardware Wallet kullanmalıdır.
+reviewed: false

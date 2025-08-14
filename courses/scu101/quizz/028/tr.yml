@@ -1,0 +1,11 @@
+question: Bilgisayar korsanları için ilk saldırı vektörü nedir?
+answer: E-postalar
+wrong_answers:
+  - Sosyal medya
+  - Online alışveriş siteleri
+  - Bankacılık web siteleri
+explanation: |
+  E-postalar bilgisayar korsanları için ilk saldırı vektörüdür. Kullanıyorlar
+  gibi hassas bilgileri elde etmek için kimlik avı girişimleri
+  kimlik bilgileriniz ve şifreleriniz.
+reviewed: false

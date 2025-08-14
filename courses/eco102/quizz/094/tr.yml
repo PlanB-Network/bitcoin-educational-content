@@ -1,0 +1,8 @@
+question: Bastiat'ya göre mülkiyet hakkı konusunda hukukun nasıl bir rolü olmalıdır?
+answer: Mülkiyet haklarının korunmasını sağlamak ve bunları yaratmamak
+wrong_answers:
+  - Mülkiyet haklarının sınırlarını genel iradeye göre belirlemek
+  - Vatandaşlar arasında eşitliği sağlamak için kaynakları yeniden dağıtmak
+  - Mülkiyeti korurken kullanımını kamu yararına göre düzenlemek
+explanation: |
+  Bastiat hukuku, her türlü yasadan önce gelen doğal bir hak olarak gördüğü mülkiyet hakkını savunmak için bir araç olarak görmektedir.

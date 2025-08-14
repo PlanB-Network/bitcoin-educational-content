@@ -574,9 +574,9 @@ Fedora est une distribution soutenue par Red Hat, orientée vers les dernières 
 
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-- **openSUSE** (Tumbleweed ou Leap) :
+- **OpenSUSE** (Tumbleweed ou Leap) :
 
-openSUSE est une distribution disponible en rolling release ou stable. Elle propose l’outil YaST pour la configuration système et permet un usage polyvalent avec plusieurs environnements graphiques. Elle demande un peu plus d’expérience mais reste robuste pour un usage quotidien.
+OpenSUSE est une distribution disponible en rolling release ou stable. Elle propose l’outil YaST pour la configuration système et permet un usage polyvalent avec plusieurs environnements graphiques. Elle demande un peu plus d’expérience mais reste robuste pour un usage quotidien.
 
 ![Image](assets/fr/026.webp)
 
@@ -618,7 +618,7 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 
 - **Tails** :
 
-Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est un distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
+Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est une distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
 
 https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 

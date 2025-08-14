@@ -1,11 +1,9 @@
-question: Siber güvenlikte kullanılan kriptografinin bazı yönleri nelerdir?
-answer: SSL/TLS, simetrik/asimetrik şifreleme
+question: Siber güvenlik alanında dünya çapında tanınan sertifika hangisidir?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Bu bölümde SSL/TLS ve simetrik/asimetrik
-  kullanılan kriptografinin bazı yönleri olarak şifreleme
-  siber güvenlik.
-reviewed: true
+  CISSP sertifikası, siber güvenlik alanında uluslararası alanda en çok tanınan sertifikalardan biridir.
+reviewed: false

@@ -45,8 +45,11 @@ Quando ho deciso di procedere, ho trovato [questo kit](https://www.amazon.it/-/e
 ## Extra Budget
 
 4 -- Puoi procurarti l'alimentatore originale da Raspberry, del costo di circa 15,00 euro.
+
 5 -- Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA -> miniUSB cosiddetto `no data`, del costo di 3,70 euro.
+
 6 -- Una scheda micro SD, per avere un minimo di memoria di massa almeno da 32 GB; se di qualit/livello industriale è meglio.
+
 7 -- Ti servirà un sistema, un adattatore da USB a micro SD, come quello che vedi in foto. Il sistema operativo della tua PI Zero e la sua memoria, infatti, lavoreranno su tale supporto.
 
 ![img](assets/it/06.webp)

@@ -1,9 +1,9 @@
 question: Was ist das Hauptziel des aktiven Nutzers?
-answer: So verwenden Sie Bitcoin als tägliche Zahlungsmethode
+answer: Bitcoin als tägliche Zahlungsmethode zu verwenden
 wrong_answers:
   - Langfristig in Bitcoin zu investieren
-  - Nach und nach Satoshis anhäufen
-  - Über den Markt spekulieren
+  - Nach und nach Satoshis anzuhäufen
+  - Auf dem Markt zu spekulieren
 explanation: |
-  Der aktive Nutzer bezieht Bitcoin in sein tägliches Leben ein, um Transaktionen durchzuführen und seine Einführung zu unterstützen.
+  Der aktive Nutzer bezieht Bitcoin in sein tägliches Leben ein, um Transaktionen durchzuführen und damit die Adoption zu unterstützen.
 reviewed: false

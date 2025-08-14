@@ -1378,23 +1378,51 @@ Le succès de Silk Road attire enfin les concurrents. Outre Black Market Reloade
 
 ### Le change en espèces
 
-Une autre activité qui se développe bien durant l'année 2012 est le change entre le bitcoin et l'argent liquide physique, le *cash*.
+Une autre activité qui se développe bien durant l'année 2012 est le change entre le bitcoin et l'argent liquide physique, communément appelé le *cash*. Cette activité permet d'acheter ou de vendre du bitcoin de manière totalement confidentielle, sans laisse de trace de virement bancaire. Il y a plein de raisons de faire ce genre de transaction, mais la principale est évidemment liée à l'activité sur Silk Road. Les acheteurs peuvent se procurer du bitcoin pour obtenir de la drogue ; les vendeurs peuvent écouler leurs bitcoins en liquide pour payer leurs fournisseurs et avoir de quoi vivre. Cela vaut pour n'importe quelle activité plus ou moins illicites.
 
-BitInstant ? Cash deposit. "Cash in the mail". Rapport avec Silk Road.
+L'un des premiers services d'ampleur à offrir le dépôt en espèces est la société BitInstant, gérée par Charlie Shrem et Gareth Nelson qui [ajoute](https://bitcointalk.org/index.php?topic=55308.msg657631#msg657631) cette méthode de paiement le 21 décembre 2011. Il est possible pour les citoyens étasuniens de déposer des billets dans plus de 10 000 emplacements appartenant à des groupes bancaires reconnus (Chase, CitiBank, Bank of America, Wells Fargo) afin d'être crédités en dollars sur la plateforme de change de leur choix quelques dizaines de minute plus tard. D'autres emplacement seront ajoutés plus tard, notamment ceux des chaines de supermarchés Walmart et 7-Eleven. Les frais sont initialement de 5 %.
 
-ZhouTonged [*Why Wait? (Bitinstant Official Theme)*](https://www.youtube.com/watch?v=VKEk7b2vfoQ), 1er avril 2012
+Le service rencontre son public. En cinq jours, plus de 30 000 $ sont [transférés](https://bitcointalk.org/index.php?topic=56392.msg671272#msg671272) de cette manière. C'est le cas d'un certain Robert Faiella, plombier floridien quinquagénaire, qui se [présente](https://antilop.cc/sr/vendors/16af931d32.htm) sous le pseudonyme BTCKing. En décembre, il [ouvre](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=10) un service de revente de bitcoins hébergé sur Silk Road, qui exploite le service de dépôt d'espèces de BitInstant. Il fournit directement les bitcoins aux acheteurs et prélève des frais supplémentaires pour ce service.
 
-En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
+![Robert M. Faiella, alias BTCKing, en septembre 2014](assets/en/robert-faiella-btcking-sept-2014-cbc-craig-ruttle.webp)
 
-Robert Faiella se présente comme revendeur (de bitcoins).
+Robert M. Faiella, alias BTCKing, en septembre 2014 (source : Craig Ruttle pour [CBC](https://www.cbc.ca/news/science/robert-faiella-sentenced-to-4-years-for-enabling-silk-road-transactions-1.2921103))
 
-[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
+L'activité de BTCKing est repérée rapidement par BitInstant et son intermédiaire (TrustCash), car plusieurs erreurs sont commises par ses clients lorsqu'ils font des dépôts. En particulier, un dépôt excède la limite de 1 000 $ fixée par l'entreprise, ce qui vaut à son premier compte d'être cloturé. Ayant compris ce que faisait BTCKing et conscent qu'il lui « apporte beaucoup de clients » (original: "He brings us a lot of business."), Charlie Shrem entre personnellement en contact avec lui, pour lui conseiller de procéder aux dépôts avec une autre adresse courriel. Mais cet arrangement ne plait pas à Gareth Nelson, son cofondateur, qui voti d'un mauvais œil cette activité. Dans une discussion avec lui en janvier 2012, Charlie [justifie](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17) son choix de la manière suivante :
 
 > « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
 >
 > original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
 
-BitFloor, service similaire : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
+L'acivité de BTCKing constitue une aubaine pour BitInstant, à tel point que Charlie lui accorde une remise sur les commissions au bout de quelques mois. En août et en septembre 2012, le chiffre d'affaires de BTCKing s'élève à 40 000 $ par semaine. La société BitInstant est donc intrinsèquement liée à Silk Road, tout comme toutes les plateformes de change de l'époque, dont la fameuse Mt. Gox.
+
+![Why Wait? chanson officielle de BitInstant interprétée par ZhouTonged](https://www.youtube.com/watch?v=VKEk7b2vfoQ)
+
+*Why Wait?* : chanson officielle de BitInstant interprétée par ZhouTonged
+
+Mais le dépôt d'espèces n'est pas la seule manière d'effectuer des échanges entre dollars et bitcoins ; il y a également les services de change de particulier à particulier. Ces derniers permettent notamment à des personnes d'entrer en contact afin de procéder un échange en personne. Ils apparaissent dès 2011 avec des services comme [Tradebitcoin.com](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ou [BTC NEAR ME](https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). Mais le principal d'entre eux est LocalBitcoins.
+
+LocalBitcoins est créé par Jeremias Kangas ([kangasbros](https://bitcointalk.org/index.php?action=profile;u=8516)) en juin 2012.
+
+https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/
+
+"I’m from Finland, been programming since I was a kid. I first heard about Bitcoin on november 2010, just before I went backpacking to India for a month. After that I started working on various bitcoin projects as a hobby, and soon noticed that it is consuming 90% of my time. Then I decided to go full-time retard on Bitcoin, move on from my previous work. Now I’m trying to make a living as a bitcoin entrepreneur."
+
+"I just spotted an article about it on hacker news, and instantly started thinking how awesome it would be. At first I was mostly excited by the 'money as a protocol' thing – startups and small companies can avoid fees and innovate on top of Bitcoin easily." https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649
+
+Photo 2012/2013: https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649
+
+Bonne opinion des monnaies locales
+
+gère Kangas Bros. Innovations :
+
+Django-bitcoin, implémentation en Django (Python), juillet 2011 : https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233
+
+Easywallet.org, avril 2012 : https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319
+
+22 mai 2012 : "These cash exchange sites already exist, they just suck." https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432
+
+7 juin 2012 : LocalBitcoins.com https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497
 
 Enfin des services de change de particulier à particulier apparaissent également. Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/), jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
 
@@ -1494,6 +1522,8 @@ Le succès de BitPay [fait](https://www.forbes.com/sites/jonmatonis/2013/01/07/l
 
 ### PorcFest 2012
 
+https://www.youtube.com/watch?v=VPu85QYnlnU
+
 18–24 juin 2012
 
 "PorcFest 2012 -- Biggest Bitcoin event ever" https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575
@@ -1562,9 +1592,9 @@ Bitzino, "provably fair", par libertaad, [8/6](https://www.reddit.com/r/Bitcoin/
 
 Chiffres : https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/
 
-
-
 ### La prostitution
+
+travailleuses du sexe.
 
 - PIMPCOIN : https://bitcointalk.org/index.php?topic=57260.0
 
@@ -1574,27 +1604,27 @@ Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/cultu
 
 [8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
 
-### Piratages et fermetures scandaleuses
+### Le piratage de Linode
 
-[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : Publication de "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
+En 2012, un certain nombre de piratage et de fermetures scandaleuses ont lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") est créée sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recense les évènements majeurs qui interviennent. La liste deviendra si grande qu'une nouvelle version à jour sera [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
+
+[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
 **TradeHill** Fermeture le [13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/)
 
 **Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush (3 000 BTC) et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
 
+Bitcoinica perd 43 000 bitcoins dans le piratage de Linode (1/3/2012) https://bitcoinmagazine.com/business/the-bitcoinica-linode-theft-and-what-it-means-for-bitcoin-1330805009
+
 **betco.in** 11 avril 2012, 3171,5 BTC https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855 https://betco.in/
-
-**Piratage de BitFloor** 4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
-
-19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
 
 ### La chute de Bitcoinica
 
-Bitcoinica perd 43 000 bitcoins dans le piratage de Linode (1/3/2012) https://bitcoinmagazine.com/business/the-bitcoinica-linode-theft-and-what-it-means-for-bitcoin-1330805009
+Bitcoinica a perdu 43 000 bitcoins dans le piratage de Linode
 
 **Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
 
-11 mai 2012 Piratage et fermeture de Bitcoinica, 18 547 BTC, 92 000 $ https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/
+11 mai 2012 Piratage et fermeture de Bitcoinica, 18 547 BTC, 92 000 $ https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/
 
 17 juillet 2012, troisième piratage : https://bitcoinmagazine.com/business/bitcoinica-stolen-from-again
 
@@ -1617,6 +1647,16 @@ Annonce, nov. 2011 : https://bitcointalk.org/index.php?topic=50822.msg607752#ms
 [Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.")
 
 Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
+
+### Le piratage de BitFloor
+
+BitFloor, Roman Shtylman, New-Yorkais de 25 ans, *Bitcoin Show* : https://www.youtube.com/watch?v=F7SsavHX6tc ; service de dépôt en espèces : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
+
+https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Business (MSB) aurpès du FinCEN, 15 mars 2012
+
+4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
+
+19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
 
 ### Misc
 

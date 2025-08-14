@@ -1,9 +1,9 @@
 question: Bitcoin varlıklarınız hakkında neden gizli kalmanız önerilir?
 answer: Suçluların ve hükümetlerin dikkatini çekmekten kaçınmak için
 wrong_answers:
-  - Belirli ülkelerdeki daha iyi Exchange oranlarından yararlanmak
+  - Belirli ülkelerdeki daha iyi fiyatlardan yararlanmak için
   - Finansman arayan girişimcilerin dikkatini çekmekten kaçınmak için
-  - Borçlanma kapasitesini artırmak
+  - Borçlanma kapasitesini artırmak için
 explanation: |
   Gizlilik, dolandırıcılar, kıskanç kişiler veya hırsızlar tarafından hedef alınma riskine karşı koruma sağlar.
 reviewed: false

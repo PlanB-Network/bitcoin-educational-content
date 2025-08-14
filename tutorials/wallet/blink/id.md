@@ -1,5 +1,5 @@
 ---
-name: Berkedip
+name: Blink Wallet
 description: Tutorial Lengkap Blink Wallet - Kirim, Terima, dan Gunakan Bitcoin dengan Mudah
 ---
 
@@ -17,27 +17,27 @@ description: Tutorial Lengkap Blink Wallet - Kirim, Terima, dan Gunakan Bitcoin 
 ![image](assets/fr/01.webp)
 
 
-Lupakan semua yang Anda pikir Anda ketahui tentang dompet Bitcoin yang rumit. Blink adalah iPhone-nya dompet Bitcoin.
+Lupakan semua yang kamu kira tahu tentang dompet Bitcoin yang rumit. Blink adalah iPhone-nya dompet Bitcoin.
 
 
-Sebelumnya dikenal sebagai Bitcoin Beach Wallet, Blink adalah aplikasi seluler yang mudah digunakan yang menghadirkan Bitcoin kepada semua orang-di mana pun di dunia. Aplikasi ini awalnya dibuat untuk komunitas Bitcoin Beach (https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) di El Salvador, dan sekarang membantu orang di seluruh dunia untuk mengirim, menerima, dan menggunakan Bitcoin dengan mudah.
+Dulu namanya Bitcoin Beach Wallet, sekarang jadi Blink. Ini adalah aplikasi seluler yang gampang banget dipakai buat ngenalin Bitcoin ke semua orang, di mana pun mereka berada. Awalnya dibuat untuk komunitas Bitcoin Beach di El Salvador, sekarang Blink udah bantu orang di seluruh dunia buat kirim, terima, dan pakai Bitcoin dengan mudah.
 
 
-Baik Anda baru mengenal Bitcoin atau pengguna berpengalaman, panduan ini akan memandu Anda melalui semua hal yang perlu Anda ketahui untuk memulai.
+Mau kamu baru kenal Bitcoin atau udah berpengalaman, panduan ini bakal ngebawa kamu lewat semua hal penting yang perlu kamu tahu buat mulai.
 
 
 ### Fitur Utama:
 
 
 
-- Dukungan Mata Uang Ganda: Memegang Bitcoin (BTC) dan Stablesats (setara USD) dengan mudah
+- Dukungan Dua Mata Uang: Simpan Bitcoin (BTC) dan Stablesats (setara USD) dengan gampang.
 - Lightning Network: Transaksi Bitcoin yang cepat dan murah
-- Kurs yang stabil: Jaga kestabilan nilai Anda dalam USD saat menggunakan jaringan pembayaran Bitcoin
-- Penyiapan Sederhana: Hanya perlu nomor telepon Anda
-- Peta Pedagang Global: Temukan bisnis yang menerima Bitcoin
+- Kurs Stabil: Tetap jaga nilai kamu dalam USD sambil tetap pakai jaringan pembayaran Bitcoin.
+- Penyiapan Mudah: Cukup pakai nomor telepon kamu.
+- Peta Pedagang Global: Cari bisnis yang menerima Bitcoin.
 
 
-Bagian yang paling indah? Anda bisa beralih antara "Saya ingin memegang Bitcoin karena saya pikir harganya akan naik" dan "Saya hanya ingin dolar yang stabil untuk uang kopi saya" dengan satu ketukan.
+Bagian paling asiknya? Kamu bisa pindah dari “Aku mau simpan Bitcoin karena yakin harganya bakal naik” ke “Aku cuma mau dolar yang stabil buat beli kopi” cukup dengan satu ketukan.
 
 
 ## Prasyarat

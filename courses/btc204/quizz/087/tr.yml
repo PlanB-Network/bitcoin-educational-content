@@ -1,0 +1,10 @@
+question: Wasabi 1.0 ile karşılaştırıldığında Wabisabi değişimi nasıl yönetiyor?
+answer: Eşit kupürler halinde dağıtılan birkaç küçük miktara böler.
+wrong_answers:
+  - Dust olmalarını önlemek için onları birleştirir.
+  - Girdileri eşitleyerek CoinJoin işleminden önce bunları hariç tutar.
+  - Otomatik olarak yedek bir Wallet'ye aktarır.
+explanation: |
+  Değişimin doğrudan kullanıcıların girdilerine bağlı olduğu Wasabi 1.0'ın aksine Wabisabi, değişimi tüm katılımcılara eşit olarak dağıtılan birkaç küçük miktara bölmeyi amaçlamaktadır.
+  
+reviewed: false

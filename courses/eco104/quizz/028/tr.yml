@@ -1,0 +1,11 @@
+question: Bitcoin kodunu kopyalayabilen var mı?
+answer: evet ama Bitcoin ağının değerini kopyalayamazsınız
+wrong_answers:
+  - evet ve Bitcoin ağının değerini de kopyalayacaksınız
+  - hayır ve Bitcoin ağının değerini kopyalayabilirsiniz
+  - hayır, çünkü Bitcoin kodu kapalı kaynak kodludur
+explanation: |
+  Bitcoin'in kodu açık kaynak kodludur ve kopyalanabilir,
+  gW-5'in değeri kodundan türetilmemiştir. Kodundan türetilmiştir
+  kullanıcı ağı ve zaman içinde oluşturduğu güven ve benimseme.
+reviewed: true

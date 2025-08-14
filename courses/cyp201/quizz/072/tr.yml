@@ -1,0 +1,9 @@
+question: Bir türetme yolundaki kesme işareti (') veya h ne anlama gelir?
+answer: Sertleştirilmiş bir türetme
+wrong_answers:
+  - Normal bir türetme
+  - Harici bir türetme
+  - Standart olmayan bir türetme
+explanation: |
+  Kesme işareti, türetmenin sertleştirilmiş olduğunu ve alt anahtarın generate için bir üst özel anahtar gerektirdiğini gösterir.
+reviewed: false

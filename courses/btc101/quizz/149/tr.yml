@@ -1,0 +1,10 @@
+question: Lightning Network nedir?
+answer: Bitcoin Blockchain'e dayalı anlık bir Bitcoin ödeme ağı.
+wrong_answers:
+  - Bitcoin Blockchain'ten ayrı bir Blockchain ağı.
+  - Bitcoin madencilerinden oluşan bir ağ.
+  - Bitcoin borsalarından oluşan bir ağ.
+explanation: |
+  Lightning Network bir anlık Bitcoin ödeme ağıdır
+  gW-9 Blockchain'e dayanıyor.
+reviewed: true

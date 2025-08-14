@@ -1,0 +1,9 @@
+question: Ekim 2009'da Bitcoin ile dolar arasında ilk Exchange servisini kim kurdu?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Bu hizmet ilkeldi: takaslar e-posta yoluyla müzakere ediliyor ve ödemeler PayPal aracılığıyla yapılıyordu. Exchange oranı Newlibertystandard'ın kendi Mining maliyetlerine dayanıyordu.
+reviewed: true

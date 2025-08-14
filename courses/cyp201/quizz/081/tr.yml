@@ -1,0 +1,8 @@
+question: P2PKH ile karşılaştırıldığında P2WPKH senaryolarının temel yeniliği nedir?
+answer: İmzalar Şahit alanına taşınır.
+wrong_answers:
+  - Adresler base58check olarak kodlanır.
+  - ScriptPubKey özel anahtarın Hash'ini içerir.
+  - P2WPKH, SegWit ile uyumsuzdur.
+explanation: |
+  SegWit ile birlikte sunulan P2WPKH, işlemlerin değiştirilebilirliğini önlemek için imzaları Witness adı verilen ayrı bir bölüme taşır.

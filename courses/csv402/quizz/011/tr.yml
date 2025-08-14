@@ -1,0 +1,9 @@
+question: RGB'de bir Anchor'ı oluşturan nedir?
+answer: transaction ID, MPC, DBC ve Ekstra İşlem Kanıtı
+wrong_answers:
+  - Genesis, Seal Definition ve Transition Bundle
+  - Contract Schema, Business Logic ve Owned State
+  - İmza, İşlem Hash ve Pedersen commitment
+explanation: |
+  Bir Anchor, bir Bitcoin işlemine benzersiz bir Commitment'nin dahil edildiğini kanıtlamak için gereken verileri içerir.
+reviewed: false

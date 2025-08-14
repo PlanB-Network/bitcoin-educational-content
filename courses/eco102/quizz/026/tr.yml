@@ -1,0 +1,9 @@
+question: Cobden ekmek tekelini nasıl tanımladı?
+answer: Ekmek kıtlığı gibi
+wrong_answers:
+  - Kraliyet ayrıcalığı olarak
+  - Ekmek üzerinden alınan vergi olarak
+  - Fiyat kontrolü olarak
+explanation: |
+  Cobden bu terimi, ekmeğin fiyatını yapay olarak artırarak ekmeğe erişimi kısıtladığını ileri sürdüğü korumacı yasaları kınamak için kullanmıştır.
+reviewed: false

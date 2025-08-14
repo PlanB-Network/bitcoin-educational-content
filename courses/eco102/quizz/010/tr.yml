@@ -1,0 +1,9 @@
+question: Frédéric Bastiat'nın ekonomi eğitiminden birinci derecede sorumlu olan yazar hangisidir?
+answer: Söyle
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat, Jean-Baptiste Say'ı özellikle değer ve serbest ticaret konusundaki fikirleri nedeniyle önemli bir etki olarak görmektedir.
+reviewed: false

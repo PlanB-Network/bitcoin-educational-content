@@ -1,0 +1,9 @@
+question: Frédéric Bastiat milletvekili olarak hangi devrimi yakından yaşadı?
+answer: 1848 Devrimi
+wrong_answers:
+  - 1830 Devrimi
+  - 1871 Devrimi
+  - 1789 Devrimi
+explanation: |
+  Bastiat, İkinci Cumhuriyet'i kuran ve milletvekili seçilmesine yol açan 1848 devrimine tanıklık etti.
+reviewed: false

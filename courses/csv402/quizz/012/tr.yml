@@ -1,0 +1,9 @@
+question: RGB protokolünde bir Assignment nedir?
+answer: Bir Contract'nin durumundaki özellikleri değiştiren, güncelleyen veya oluşturan bir çıktı
+wrong_answers:
+  - Bir Bitcoin işleminde saklanan benzersiz bir kriptografik Commitment
+  - Son doğrulamadan önce kısmen imzalanmış bir Bitcoin işlemi
+  - Global State'nın kamuya açık bir güncellemesi
+explanation: |
+  Bir Assignment, eyaletin tahsis edilmiş bir bölümünü temsil etmek üzere bir Seal Definition ve bir Owned State'i birleştirir.
+reviewed: false

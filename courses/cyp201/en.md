@@ -1890,7 +1890,7 @@ The descriptor also includes the extended public key used in this wallet:
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Next, the notation `/<0;1>/*` specifies that the descriptor can generate addresses from the external chain (`0`) and internal chain (`1`), with a wildcard (`*`) allowing for the sequential derivation of multiple addresses in a configurable manner, similar to managing a "gap limit" on traditional wallet software.
+The notation `/<0;1>/*` indicates that the descriptor can generate addresses from both the external chain (`0`) and the internal chain (`1`). The wildcard character (`*`) at the end of the path means that, sequentially, all non-hardened (“*unhardened*”) child keys can be derived from this position, whether they are external or internal addresses. This syntax does not directly imply the concept of *gap limit*, which is part of a wallet-specific mechanism for address detection, but here only serves to indicate that all possible derivations at this position are considered.
 
 Finally, `#jy0l7nr4` represents the checksum to verify the integrity of the descriptor.
 

@@ -1,0 +1,9 @@
+question: Kurumsal Bitcoin ödemelerinde LSP'nin rolü nedir?
+answer: Lightning'de yüksek hacimli işlemleri yönetin
+wrong_answers:
+  - Lightning Wallet'in özel anahtarlarını saklayın
+  - Lightning faturalarını yazdırın
+  - Lightning'de geri ödemeleri manuel olarak işleme
+explanation: |
+  LSP'ler Lightning üzerinde karmaşık ve yüksek hacimli işlemleri gerçekleştirir.
+reviewed: false

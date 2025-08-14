@@ -1,0 +1,9 @@
+question: Schnorr protokolü kullanılarak sıkıştırılmış bir açık anahtarın boyutu nedir?
+answer: 32 bayt
+wrong_answers:
+  - 33 bayt
+  - 64 bayt
+  - 128 bit
+explanation: |
+  Bir Schnorr açık anahtarı yalnızca eliptik eğri üzerindeki noktanın x-koordinatı ile temsil edilir ve bu da boyutunu 32 bayta düşürür.
+reviewed: false

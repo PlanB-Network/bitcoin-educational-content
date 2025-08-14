@@ -1,0 +1,9 @@
+question: Hangi özellik bir Hash'ın girdisini geri getirmenin hesaplama açısından imkansız olmasını sağlar?
+answer: Ön görüntü direnci
+wrong_answers:
+  - Çarpışma direnci
+  - Çığ etkisi
+  - İkinci ön görüntü direnci
+explanation: |
+  Ön görüntü direnci, orijinal mesajın Hash'den bulunmasının neredeyse imkansız olmasını sağlar.
+reviewed: false

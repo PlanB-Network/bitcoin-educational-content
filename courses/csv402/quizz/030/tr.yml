@@ -1,0 +1,9 @@
+question: Bob'nin (alıcı) bir Contract için aldığı bir RGB Consignment'da bulunan bileşenler nelerdir?
+answer: Genesis, Schema, Interface ve Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Geçiş ve Uzatma
+  - Schema, Interface, Signature ve PSBT
+  - Genesis, Interface, PSBT ve Tarihçe
+explanation: |
+  Bir RGB Contract'un Consignment'si, Contract'u doğrulamak için gereken tüm verileri sağlayan Genesis, Schema, Interface ve Interface Implementation'yı içerir.
+reviewed: false

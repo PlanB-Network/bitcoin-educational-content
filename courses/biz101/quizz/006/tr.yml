@@ -1,0 +1,9 @@
+question: Bitcoin ihracındaki 21 milyon sınırı neden önemlidir?
+answer: Deflasyonist bir varlık yaratarak değerini keyfi enflasyona karşı korur.
+wrong_answers:
+  - Hükümetlerin gerektiği kadar bitcoin basabilmesini sağlar.
+  - Sınıra ulaşıldıktan sonra herhangi birinin işlem göndermesini engeller.
+  - Bitcoin'in fiyatındaki tüm dalgalanmaları ortadan kaldırır.
+explanation: |
+  Maksimum 21 milyon Supply'e sahip olan Bitcoin'nin kıtlığı Hard kodludur ve Supply'ün istenildiği zaman artırılabildiği enflasyonist para birimlerinden temelde farklıdır.
+reviewed: false

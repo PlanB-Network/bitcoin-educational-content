@@ -1,0 +1,9 @@
+question: Zaprite ve Musqet gibi araçlar Profesyonel ödeme çözümünde nasıl bir rol oynuyor?
+answer: Ödeme deneyimini iyileştiriyorlar
+wrong_answers:
+  - Çoklu para birimi dönüştürme ve fiat ödeme işlemlerini gerçekleştirirler
+  - İşlem verilerinin şifrelenmesine ve özel anahtarların yönetilmesine odaklanırlar
+  - Temel POS sistemleri olarak hizmet verirler
+explanation: |
+  Zaprite ve Musqet, temel ödeme altyapısını tamamlayarak ödeme sürecine özelleştirme ve raporlama iyileştirmeleri ekliyor.
+reviewed: false

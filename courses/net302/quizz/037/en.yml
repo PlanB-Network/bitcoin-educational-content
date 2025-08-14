@@ -1,0 +1,9 @@
+question: What is the purpose of the special IPv4 notation 0.0.0.0?
+answer: To designate all interfaces or an unassigned address
+wrong_answers:
+  - Send a message to all networks
+  - Test the local connection of a device
+  - To indicate an addressing or connection error at the local router
+explanation: |
+  The notation 0.0.0.0 is used locally to designate absence of address or listening on all interfaces.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir üst açık anahtardan bir alt açık anahtar türetmek için kısıtlama nedir?
+answer: Alt anahtar normal olmalıdır
+wrong_answers:
+  - Alt anahtar sertleştirilmiş olmalıdır
+  - chain code, üst anahtarınkiyle aynı olmalıdır
+  - İşlem, ana özel anahtarı içermelidir
+explanation: |
+  Bir alt açık anahtar, yalnızca normalse ve sertleştirilmemişse bir üst açık anahtardan türetilebilir.
+reviewed: false

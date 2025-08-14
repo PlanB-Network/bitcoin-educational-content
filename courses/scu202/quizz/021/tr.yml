@@ -1,0 +1,9 @@
+question: Masaüstü ortamının hangi bileşeni dosya ve klasörlerde görsel olarak gezinmek için kullanılır?
+answer: Dosya yöneticisi
+wrong_answers:
+  - Oturum yöneticisi
+  - Composer X11
+  - Paket yöneticisi
+explanation: |
+  Dosya yöneticisi (Nautilus, Dolphin, Thunar gibi) kullanıcının dosya ve klasörleri grafiksel bir Interface aracılığıyla yönetmesini sağlar.
+reviewed: false

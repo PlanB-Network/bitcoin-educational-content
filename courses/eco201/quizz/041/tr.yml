@@ -1,0 +1,12 @@
+question: Avusturya İş Döngüsü Teorisi'ne göre bankacılık sektörünün durgunluğu tetiklemedeki rolü nedir?
+answer: Bankacılık sektörü riskini azaltmaya karar verdiğinde ve dolayısıyla kredi akışını azalttığında durgunluğu tetikler.
+wrong_answers:
+  - Bankacılık sektörü, riskini artırmaya karar verdiğinde ve dolayısıyla kredi akışını artırdığında bir durgunluğu tetikler.
+  - Bankacılık sektörü, riskini korumaya karar verdiğinde ve dolayısıyla kredi akışını sürdürdüğünde bir durgunluğu tetikler.
+  - Avusturya İş Döngüsü Teorisi'ne göre bankacılık sektörünün durgunluğu tetiklemede hiçbir rolü yoktur.
+explanation: |
+  Avusturya İş Döngüsü Teorisine göre, bankacılık sektörü
+  riskini azaltmaya karar verdiğinde bir durgunluğu tetikler ve bu nedenle
+  kredi akışı. Bu da çok sayıda iflasa, kredi sıkışıklığına, kredilerin azalmasına
+  mevcut satın alma gücünde azalma ve finansal çöküşler.
+reviewed: true

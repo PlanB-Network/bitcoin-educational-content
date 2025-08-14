@@ -1,0 +1,9 @@
+question: Hangi siber güvenlik kuralı her bir kullanıcının veya yazılımın haklarının kesinlikle gerekli olanlarla sınırlandırılmasını önerir?
+answer: En az ayrıcalık ilkesi
+wrong_answers:
+  - Çift kimlik doğrulama
+  - Güçlü parola politikası
+  - Düzenli yedekleme
+explanation: |
+  En az ayrıcalık ilkesi, her bir görev için yalnızca gerekli hakların verilmesi anlamına gelir ve böylece uzlaşma riskini azaltır.
+reviewed: false

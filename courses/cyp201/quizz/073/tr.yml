@@ -1,0 +1,9 @@
+question: Hangi dizin bir türetme yolundaki bir hesabın harici zincirini temsil eder?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Harici zincir, türetme yolunun 4. derinliğinde /0/ indeksi ile tanımlanır.
+reviewed: false

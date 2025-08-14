@@ -1,0 +1,15 @@
+question: Kendi Mining ekipmanınıza sahip olmanın temel avantajı nedir?
+answer: Bakir bitcoinleri elde etmek.
+wrong_answers:
+  - Doğrudan Bitcoin satın alma ihtiyacını ortadan kaldırır.
+  - Ekipmanı daha sonra satarak kâr elde etmek.
+  - Diğer madencilere güvenme ihtiyacından kaçınmak.
+explanation: |
+  Kendi Mining ekipmanınıza sahip olmak önemli avantajlar sunar
+  avantajlar. Kişisel tatminin yanı sıra
+  gW-2'nin güvenliğine aktif olarak katkıda bulunmak
+  ve ödüllerin Wallet'ünüze düştüğünü görmek, orada
+  bakir bitcoinlerin çekici yönüdür. Bunlar
+  hiç harcanmamış ve yeni çıkarılmış bitcoinler
+  onlara bağlı bir tarih yok.
+reviewed: true

@@ -1,0 +1,10 @@
+question: CoinJoin işleminin ana hedefi nedir?
+answer: Bir Coin'in geçmişini kırmak için.
+wrong_answers:
+  - İşlem ücretlerini azaltmak için.
+  - Bitcoinleri tespit edilemez hale getirmek için.
+  - Onay hızını artırmak için.
+explanation: |
+  Bir CoinJoin işleminin amacı, bir Coin'ün geçmişini kırmaktır. Bu teknik kalıcı bir anonimlik sağlamadığı gibi, düşünülenin aksine bitcoinlerin izlenmesini de kesin olarak engellemez. CoinJoin sadece CoinJoin işleminin yapıldığı noktadaki geçmişi kırmayı amaçlamaktadır.
+  
+reviewed: false

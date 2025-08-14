@@ -1,0 +1,9 @@
+question: Bastiat için kamu harcamaları borçla veya vergilerle finanse edildiğinde nasıl bir etki yaratır?
+answer: Kaynakları özel sektörden uzaklaştırır
+wrong_answers:
+  - Yan etkisi olmadan talebi uyarır
+  - Tüketicilerin satın alma gücünü artırır
+  - Ekonomiyi ayakta tutmak için gereklidir
+explanation: |
+  Bastiat, vergiler ya da borçlanma yoluyla finanse edilen kamu harcamalarının özel sektörden kaynak çekerek ekonominin başka yerlerinde zenginlik yaratılmasını sınırladığını savunmaktadır.
+reviewed: false

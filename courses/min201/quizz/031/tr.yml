@@ -1,0 +1,13 @@
+question: Bitcoin'ın temel misyonu nedir?
+answer: Sansüre dirençli bir değer Exchange ağı olmak.
+wrong_answers:
+  - Geleneksel para birimlerinin yerini almak için.
+  - İşlemleri anonim hale getirmek için.
+  - Yeni bir yatırım biçimi yaratmak.
+explanation: |
+  Bitcoin'ün temel misyonu
+  sansüre dayanıklı değer Exchange ağı. Bitcoin
+  toplum sürekli olarak güçlendirmek için çabalıyor
+  dağıtım, sansüre karşı direniş ve kırılganlık karşıtı
+  ağın.
+reviewed: true

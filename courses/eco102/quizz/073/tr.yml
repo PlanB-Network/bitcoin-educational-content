@@ -1,0 +1,9 @@
+question: Kurşun kalem örneğinden çıkarılacak ana ders nedir?
+answer: Ekonomide spontane koordinasyonun rolü
+wrong_answers:
+  - Endüstriyel üretimin karmaşıklığı
+  - Nasıl yazılacağını bilmenin önemi
+  - Merkezi planlamanın gerekliliği
+explanation: |
+  Kurşun kalem örneği, spontane piyasa koordinasyonunun merkezi planlama olmaksızın karmaşık malların üretimine olanak sağladığını göstermektedir.
+reviewed: false

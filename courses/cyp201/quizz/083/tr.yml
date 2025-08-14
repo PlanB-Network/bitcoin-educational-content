@@ -1,0 +1,9 @@
+question: Hangi Address türü `1` ile başlar ve Legacy standardına aittir?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Base58check ile kodlanan P2PKH adresleri Legacy standardından gelir ve `1` rakamı ile başlar.
+reviewed: false

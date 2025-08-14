@@ -1,0 +1,9 @@
+question: Kasım 2010'da Bitcoin'ı kabul etmelerini teşvik etmek için WikiLeaks organizasyonuyla iletişime geçilmesini kim önerdi?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Gerekçe olarak da örgütün fonlarının birçok kez dondurulduğunu yazdı. Özellikle Moneybookers Ekim ayında WikiLeaks'in hesabını dondurmuştu.
+reviewed: true

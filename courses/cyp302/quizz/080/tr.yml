@@ -1,0 +1,9 @@
+question: Kriptografide akış şifresi nedir?
+answer: Mesajla aynı uzunlukta bir anahtar akışı oluşturan simetrik bir şifreleme
+wrong_answers:
+  - Asal sayılara dayalı bir asimetrik şifreleme
+  - Birden fazla farklı şifre çözme anahtarı kullanan bir şifreleme
+  - Mesajı veri bloklarına bölen bir şifreleme
+explanation: |
+  Akış şifreleme, mesajla aynı uzunlukta bir anahtar akışının şifrelenmiş metni üretmek için ikincisiyle birleştirildiği simetrik bir şifrelemedir.
+reviewed: false

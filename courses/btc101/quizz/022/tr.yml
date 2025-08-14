@@ -1,0 +1,13 @@
+question: Altın neden Exchange'ın standart aracı haline geldi?
+answer: Nadirliği, dayanıklılığı ve bölünebilirliği nedeniyle.
+wrong_answers:
+  - Bolluğu, dayanıklılığı ve bölünmezliği nedeniyle.
+  - Nadirliği, bozulabilirliği ve bölünebilirliği nedeniyle.
+  - Bolluğu, bozulabilirliği ve bölünemezliği nedeniyle.
+explanation: |
+  Altın, aşağıdaki özellikleri nedeniyle Exchange'in standart aracı haline gelmiştir
+  nadirlik, dayanıklılık ve bölünebilirlik: nadirliği engellendi
+  üretimin neden olduğu devalüasyon; dayanıklılığı
+  zaman içinde aşınmamasını ve bölünebilirliğini sağlamıştır
+  farklı büyüklükteki işlemlerde kullanılmasına izin vermiştir.
+reviewed: true

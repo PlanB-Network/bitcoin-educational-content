@@ -1,0 +1,9 @@
+question: Haziran 2011'de Bitcoin'ın ulaştığı en yüksek fiyat neydi?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  8 Haziran'da Bitcoin'in fiyatı Mt. Gox'ta 32 $ ile tarihi bir zirveye ulaştı. Ancak, bundan sonra hızla düştü.
+reviewed: true

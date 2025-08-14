@@ -1,0 +1,9 @@
+question: Jean-Baptiste Say ve Bastiat'ya göre Say Yasası nasıl ifade edilmektedir?
+answer: Mallar ve hizmetler, mallar ve hizmetlerle takas edilir
+wrong_answers:
+  - Supply kendi talebini yaratır
+  - Ne kadar çok mal üretilirse, o kadar çok tüketilir
+  - Talep Supply'i belirler
+explanation: |
+  Say Yasası, mal üretiminin karşılıklı mübadeleye olanak sağladığını ve böylece piyasa ekonomisine değer kattığını ifade eder.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kutsal Kitap'ın faizle borç verme konusundaki tutumu neydi?
+answer: Yasaktı.
+wrong_answers:
+  - Bu onu cesaretlendirdi.
+  - Bazı durumlarda buna müsamaha gösterdi.
+  - Bu konuda hiçbir fikri yoktu.
+explanation: |
+  Kutsal Kitap faizle borç vermeyi yasaklar, özellikle Eski Ahit'te topluluk üyeleri arasında faizle borç vermek ahlaksızlık ve dayanışma değerlerine aykırı olarak görülür.
+reviewed: true

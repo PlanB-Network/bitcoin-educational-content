@@ -1,0 +1,9 @@
+question: Tarihsel olarak hangi metal para birimi için standart referans olarak kabul edilmiştir?
+answer: Altın
+wrong_answers:
+  - Gümüş
+  - Bakır
+  - Bronz
+explanation: |
+  Altın, kıtlığı, dayanıklılığı ve evrensel olarak kabul edilen değeri nedeniyle tarihsel olarak standart olarak hizmet etmiş ve parasal sistemler için istikrarlı bir temel oluşturmuştur.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre korumacılar ve sosyalistler arasındaki ortak nokta nedir?
+answer: Her ikisi de nüfusun bir kısmının sömürülmesini desteklemek istiyor
+wrong_answers:
+  - İkisi de ekonomik özgürlüğü savunuyor
+  - Her ikisi de daha fazla sosyal eşitlik istiyor
+  - Her ikisi de devletin ekonomiye müdahalesine karşıdır
+explanation: |
+  Bastiat her iki ideolojiyi de genel çıkarların aleyhine olacak şekilde bir sınıfın diğer bir sınıf tarafından sömürülmesini destekleme eğilimleri nedeniyle eleştirir.
+reviewed: false

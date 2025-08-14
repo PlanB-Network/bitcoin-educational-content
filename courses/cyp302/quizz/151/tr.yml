@@ -1,0 +1,9 @@
+question: RSA kriptosisteminde e üssü nasıl seçilir?
+answer: 2'den büyük bir tamsayı olmalı ve φ(N) ile eşlenik olmalıdır
+wrong_answers:
+  - N'den küçük bir asal sayı olmalıdır
+  - Kısıtlama olmaksızın rastgele seçilir
+  - Φ(N)'ye eşit olmalıdır
+explanation: |
+  RSA'da e üssü 2'den büyük ve φ(N) ile asal olacak şekilde seçilir, bu da işlemlerin güvenliğini sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Rothbard'ın özgür toplum vizyonu nedir?
+answer: Bir bireyin şahsına veya mülküne karşı zorlayıcı saldırı olasılığının bulunmadığı bir toplum.
+wrong_answers:
+  - Devletin ekonomik ve sosyal yaşamın sadece birkaç yönünü kontrol ettiği bir toplum.
+  - Bireylerin herhangi bir kısıtlama olmaksızın istedikleri her şeyi yapmakta özgür oldukları bir toplum.
+  - Gücün tüm sosyal sınıflar arasında eşit olarak dağıtıldığı bir toplum.
+explanation: |
+  Rothbard özgür bir toplumu, bir kişiye ya da mülküne karşı hiçbir zorlayıcı saldırganlığa izin verilmeyen bir yer olarak tanımlar ve böylece bireysel yaşamlara herhangi bir devlet müdahalesini reddeden radikal liberteryenizmi savunur.
+reviewed: true

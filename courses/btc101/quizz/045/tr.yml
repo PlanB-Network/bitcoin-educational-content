@@ -1,0 +1,13 @@
+question: Bitcoin'ı itibari para birimlerinden ayıran temel özellik nedir?
+answer: Para politikası genel bir mutabakatla yürütülmektedir.
+wrong_answers:
+  - Merkez bankaları tarafından sınırsız miktarda basılabilir.
+  - Altın veya gümüş gibi fiziksel bir emtia ile desteklenir.
+  - Bir merkez bankası tarafından düzenlenir.
+explanation: |
+  Merkezi olmayan ve kriptografik yapısı nedeniyle,
+  Bitcoin tahrif edilemez ve 21 milyon ile sınırlıdır
+  birimler. Bu, onu aşağıdakilerden ayıran temel bir özelliktir
+  para politikası izleyen fiat para birimleri
+  merkez bankaları tarafından değiştirilir.
+reviewed: true

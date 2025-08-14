@@ -1,0 +1,9 @@
+question: Uzun vadeli birikmiş fonları güvence altına almak için hangi cihaz önerilir?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Yıldırım Wallet
+  - Exchange platformu
+explanation: |
+  Bir Hardware Wallet, özel anahtarları çevrimdışı olarak saklar ve uzun vadede önemli miktarlar için gelişmiş güvenlik sağlar.
+reviewed: false

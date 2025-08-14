@@ -1897,7 +1897,7 @@ Le descriptor inclut également la clé publique étendue utilisée sur ce porte
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Ensuite, la notation `/<0;1>/*` spécifie que le descriptor peut générer des adresses à partir de la chaîne externe (`0`) et interne (`1`), avec un wildcard (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un « *gap limit* » sur des logiciels de portefeuille classiques.
+La notation `/<0;1>/*` indique que le descripteur peut produire des adresses issues à la fois de la chaîne externe (`0`) et de la chaîne interne (`1`). Le caractère générique (`*`) en fin de chemin signifie que l’on peut dériver, de manière séquentielle, toutes les clés enfants non renforcées ("*unhardened*") à partir de cette position, qu’il s’agisse d’adresses externes ou internes. Cette syntaxe n’implique pas directement la notion de *gap limit*, qui relève d’un mécanisme spécifique aux portefeuilles pour la détection d’adresses, mais sert ici uniquement à indiquer que toutes les dérivations possibles à cet emplacement sont prises en compte.
 
 Enfin, `#jy0l7nr4` représente la somme de contrôle pour vérifier l'intégrité du descriptor.
 

@@ -1,0 +1,10 @@
+question: Zimbabve doları 1980 yılında piyasaya sürüldüğünde ilk Exchange kuru ne kadardı?
+answer: İki Zimbabve doları yaklaşık 1,60 ABD doları değerindeydi
+wrong_answers:
+  - Bir Zimbabve doları yaklaşık 1 ABD doları değerindeydi
+  - Bir Zimbabve doları yaklaşık 2 ABD doları değerindeydi
+  - İki Zimbabve doları yaklaşık 2 ABD doları değerindeydi
+explanation: |
+  Zimbabve 1980 yılında bağımsızlığını kazanmış ve Zimbabve dolarını kullanmaya başlamıştır.
+  Başlangıçta iki Zimbabve doları yaklaşık 1.60 ABD doları değerindeydi.
+reviewed: false

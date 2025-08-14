@@ -1,0 +1,9 @@
+question: Neden P2P borsaları üzerinden satın alınan bitcoinler genellikle düzenlenmiş platformlardan satın alınanlardan daha pahalıdır?
+answer: Ek riskler, işlem ücretleri ve gizlilik için bir prim.
+wrong_answers:
+  - Piyasa dalgalanmaları, çifte harcama riskleri ve yasal uyumluluk.
+  - Kayıt ücretleri, sınırlı seçenekler ve daha uzun doğrulama süresi.
+  - Kayıt ücretleri, katı düzenlemeler ve düşük güvenlik.
+explanation: |
+  P2P platformlarında satılan Bitcoinler genellikle düzenlenmiş platformlardakilerden daha pahalıdır. Bu fiyat artışı birkaç faktöre bağlıdır: satıcı daha fazla risk alır, ayrıca ek maliyetleri karşılamak zorundadır ve Exchange alıcıya daha yüksek düzeyde gizlilik sunar.
+reviewed: false

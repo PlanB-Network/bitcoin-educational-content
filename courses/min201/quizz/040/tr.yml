@@ -1,0 +1,11 @@
+question: Mining, Bitcoin için neyi belirler?
+answer: Bir taban fiyat
+wrong_answers:
+  - Bir tavan fiyat
+  - Sabit bir fiyat
+  - Değişken bir fiyat
+explanation: |
+  Mining, Bitcoin için bir taban fiyat belirler ve bunun altında
+  madenciler zararına satacaktı. Mining'ün maliyeti
+  gW-2'nin fiyatını önemli ölçüde etkilemektedir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bir fotoğraf yüklendiğinde hangi platform meta verileri otomatik olarak siler?
+answer: Sinyal
+wrong_answers:
+  - Gmail
+  - Görünüm
+  - Blogunuz
+explanation: |
+  Signal (Session ve diğer güvenli mesajlaşma hizmetleri gibi) kullanıcıların gizliliğini korumak için paylaşılan görüntülerin meta verilerini temizler.
+reviewed: false

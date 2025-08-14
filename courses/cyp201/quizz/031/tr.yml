@@ -1,0 +1,9 @@
+question: Temel sighash bayrakları ile birleştirilebilen değiştirici nedir?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY, sighash bayraklarını yalnızca tek bir girdiyi kapsayacak şekilde değiştirirken geri kalanını değiştirilebilir bırakır.
+reviewed: false

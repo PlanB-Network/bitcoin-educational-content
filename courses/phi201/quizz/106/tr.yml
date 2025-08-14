@@ -1,0 +1,9 @@
+question: Hayek'e göre liberalizmi sosyalizmden ayıran nedir?
+answer: Bu amaçlara ulaşmak için kullanılan araçlar.
+wrong_answers:
+  - Takip sona erdi.
+  - Entelektüellerin rolü.
+  - Yukarıdakilerin hepsi.
+explanation: |
+  Hayek'e göre liberalizm ve sosyalizm arasındaki temel fark araçlarda yatmaktadır: liberalizm bireysel özgürlüğü ve serbest piyasayı teşvik ederken, sosyalizm devlet müdahalelerini ve planlamayı içerir.
+reviewed: true

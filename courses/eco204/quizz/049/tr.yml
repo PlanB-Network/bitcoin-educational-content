@@ -1,0 +1,12 @@
+question: Bernold'a göre enflasyonu sona erdirmenin tek yöntemi nedir?
+answer: Parasal bir reform gerçekleştirin ve hükümete kısıtlamalar getirin
+wrong_answers:
+  - Parayı artırın Supply
+  - Para miktarını azaltın Supply
+  - Yabancı bir para birimini benimsemek
+explanation: |
+  Bernold'a göre enflasyonu sona erdirmenin tek yolu
+  parasal reform ve hükümete kısıtlamalar getirilmesi. Bu, aşağıdakilerin oluşturulmasını içerir
+  bağımsız olarak faaliyet gösteren merkez bankası gibi bir kurumun
+  hükümetin siyasi kararları.
+reviewed: false

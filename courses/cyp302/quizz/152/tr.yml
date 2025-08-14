@@ -1,0 +1,9 @@
+question: RSA kriptosisteminde d özel anahtarının işlevi nedir?
+answer: N modülünü kullanarak mesajların şifresini çözmek için kullanılır
+wrong_answers:
+  - Sadece mesajları şifrelemek için kullanılır
+  - Bitcoinlerin kilidini açmak için kullanılır
+  - Φ(N)'yi hesaplamak için kullanılır
+explanation: |
+  Özel anahtar d, N modülü ile hesaplamayı tamamlayarak şifrelenmiş mesajların şifresini çözmek için kullanılır.
+reviewed: false

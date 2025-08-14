@@ -68,6 +68,26 @@ Un mail sera envoyé sur l'adresse email de votre compte avec un lien temporaire
 
 ![download](assets/fr/09.webp)
 
+## Plus loin avec le Point de Vente
+
+Wallet of Satoshi ne se limite pas qu'à fournir des solutions bitcoins aux petites entreprises. A partir de l'application Wallet of Satoshi POS, vous pouvez permettre à vos collaborateurs d'encaisser les paiements par bitcoin sur vos différents points de vente.
+
+Téléchargez l'application disponible sur iOS et Google Play Store sur les différents terminaux ou sur les appareils de vos collaborateurs.
+
+![download-pos](assets/fr/10.webp)
+
+Connectez votre adresse Lightning de votre portefeuille Wallet of Satoshi et configurez l'unité monétaire de la région du point de vente.
+
+![connect](assets/fr/11.webp)
+
+Vos collaborateurs sont alors éligibles pour recevoir des paiements bitcoins dans votre commerce. Le portefeuille standard Wallet of Satoshi demeure celui à partir duquel vous pouvez dépenser les bitcoins et reconfigurer l'inventaire de votre boutique.
+
+![items](assets/fr/12.webp)
+
+Chaque utilisateur de l'application Wallet of Satoshi POS dispose d'un historique personnalisé des paiements des factures Lightning qu'il a générées dans l'application.
+
+![pos-history](assets/fr/13.webp)
+
 Vous avez désormais un outil pour accepter le Bitcoin dans votre commerce et ceci en quelques minutes. Si vous êtes pour les solutions self-custody, nous sommes confiants que vous adorerez notre tutoriel sur le point de Vente du portefeuille Breez.
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525

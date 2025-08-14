@@ -1,0 +1,9 @@
+question: Lightning Network üzerindeki yönlendirmede gönderen düğümün ana rolü nedir?
+answer: Alıcıya giden tüm rotayı hesaplayın
+wrong_answers:
+  - Tüm ağ kanallarının likidite bilgilerini saklayın
+  - Her bir aracı düğüm için işlem ücretlerini belirleyin
+  - Tüm aracı düğümlerle doğrudan iletişim kurun
+explanation: |
+  Aracı düğümler yalnızca yakın komşularını bildiğinden, alıcıya giden tüm rotayı hesaplamaktan gönderen düğüm sorumludur.
+reviewed: false

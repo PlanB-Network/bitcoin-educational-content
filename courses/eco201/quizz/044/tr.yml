@@ -1,0 +1,11 @@
+question: Mises'e göre kapitalist bir ekonomide girişimcilerin ve hissedarların rolü nedir?
+answer: Sermayeyi farklı sektörler arasında tahsis ederek, yöneticilerin ekonomik hesaplamalarında girdi görevi gören fiyatları oluştururlar.
+wrong_answers:
+  - Yeni işler yaratmaktan sorumludurlar.
+  - Bir ulusun zenginliğini arttırmaktan sorumludurlar.
+  - Ekonomideki para akışını kontrol etmekten sorumludurlar.
+explanation: |
+  Mises, girişimcilerin ve hissedarların önemini vurgulamıştır,
+  üretim araçlarının sahipleri olarak sermayeyi farklı sektörler arasında paylaştırırlar,
+  böylece yöneticilerin ekonomik hesaplamalarında girdi olarak kullanılan fiyatlar oluşur.
+reviewed: true

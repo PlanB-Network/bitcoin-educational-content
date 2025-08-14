@@ -1,0 +1,9 @@
+question: Cypherpunks'ın kurucu üyesi John Gilmore, Ocak 2009'da Satoshi Nakamoto'nun icadına hangi eleştiriyi yöneltti?
+answer: Bitcoin gezegeni kirletiyor
+wrong_answers:
+  - Bitcoin vergi kaçakçılığını kolaylaştırıyor
+  - Bitcoin Sybil saldırılarına karşı savunmasızdır
+  - Bitcoin deflasyonisttir
+explanation: |
+  Elektrik tükettiği ve karbondioksit (bir sera gazı) ürettiği için Bitcoin'i [eleştirdi] (https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html).
+reviewed: true

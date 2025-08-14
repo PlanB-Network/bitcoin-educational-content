@@ -1,0 +1,9 @@
+question: Hangi komut bir Contract'ı Stash'den harici bir dosyaya aktarır?
+answer: RGB export '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB '<ContractId>' myContractPBN.RGB dosyasını indirin
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB sorunu '<ContractId>' myContractPBN.RGB
+explanation: |
+  "RGB export" komutu, Stash'den bir Contract çıkarmak ve kolay paylaşım için bir dosya olarak kaydetmek için kullanılır.
+reviewed: false

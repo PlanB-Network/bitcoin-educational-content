@@ -1,0 +1,9 @@
+question: Bastiat hangi yirminci yüzyıl düşünce ekolünün öncüsüdür?
+answer: Kamu tercihi teorisi
+wrong_answers:
+  - İçsel büyüme teorisi
+  - Dengesizlik teorisi
+  - Neoklasik ekonomi okulu
+explanation: |
+  Bastiat, çıkar gruplarının diğerlerinin zararına ayrıcalıklar elde etmek için devleti nasıl etkilediğini göstererek Kamu Tercihi'nin fikirlerini öngörmüştür.
+reviewed: false

@@ -571,10 +571,15 @@ Two key aspects govern these exchanges:
 ![Image](assets/fr/024.webp)
 
 
-The layered architecture is based on the principle that each level processes only the information that falls within its remit: data structures, headers and control mechanisms vary from layer to layer, but the whole forms a coherent whole, enabling data to be progressively routed to its final destination.
+The layered architecture follows the principle that each layer processes only the information within its scope: data structures, headers and control mechanisms vary from one layer to another, but together they forms a coherent system, ensuring data is gradually routed to its final destination.
 
-**Reminder**: a specific terminology has been defined for naming the data units passing between layers: **message** for the Application layer, **segment** for the Transport layer (TCP), **datagram** for the Internet layer (IP) and **frame** for the Network Access layer. This distinction is accompanied by structures adapted to each context, as shown in the following diagram:
+**Reminder**: Specific terminology is used to describe the data units exchanged between layers: 
+- **message** for the Application layer, 
+- **segment** for the Transport layer (TCP), 
+- **datagram** for the Internet layer (IP), 
+- **frame** for the Network Access layer. 
 
+The table below summarizes the terms for TCP and UDP contexts:
 
 | TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
 |----------------------|------------------|------------------|
@@ -585,9 +590,9 @@ The layered architecture is based on the principle that each level processes onl
 
 ### Service primitives and data units
 
-At the heart of this operation are service primitives**, which act as communication interfaces. These primitives act as windows, listening on specific reserved **ports**, enabling processes to establish, maintain and terminate network connections in a controlled manner. While protocols organize the format and transmission of data on the network, it is the **services and their primitives** that provide the vertical link between the layers.
+At the core of this system are **service primitives**, which act as communication interfaces. These primitives function like service desks, listening on reserved specific **ports** and allowing processes to establish, maintain, and terminate network connections in a controlled way. While protocols organize the format and transmission of data across the network, it is the **services and their primitives** that provide the vertical link between the layers.
 
-In this way, the TCP/IP model combines the horizontal aspect (communication between distributed applications) and the vertical aspect (internal interactions between layers) to offer a complete, extensible architecture. Superimposing these two aspects gives an overview of data exchange in structured network communication.
+By combining the horizontal aspect (communication between distributed applications) with the vertical aspect (internal interactions between layers), the TCP/IP model delivers a complete, scalable architecture. Overlapping these two perspectives gives a clear overview of how data is exchanged in structured network communication.
 
 
 ![Image](assets/fr/026.webp)
@@ -595,15 +600,17 @@ In this way, the TCP/IP model combines the horizontal aspect (communication betw
 
 ### Part summary
 
-In this first major section, we highlighted the fundamental architecture that governs the configuration and operation of today's Internet-connected networks. This architecture is based on a **four-layer model**, inspired by the OSI model, and is built around the **TCP/IP** protocol suite, the backbone of modern communications. We have seen that TCP, with its connection-oriented approach, guarantees reliable transfer, while UDP, lighter and faster, offers an alternative for uses where speed takes precedence over reliability.
+In this first major section, we explored the core architecture that governs the configuration and operation of today's Internet-connected networks. This architecture is based on a **four-layer model**, inspired by the OSI model, and built around the **TCP/IP** protocol suite, the backbone of modern communications. We saw that TCP, with its connection-oriented approach, ensures reliable transfers, while UDP, lighter and faster, is preferred when speed is more important than reliability.
 
-This model is based on the implementation of protocols using **service primitives**. These provide the link between layers, enabling data processing to be adapted to the specific requirements of each level, from transport to application, including Internet and network access. This modular approach makes the system both flexible and robust.
+The proper functioning of this model relies on the implementation of protocols through **service primitives**. These ensure the link between layers, enabling data processing to be adapted to the specific requirements of each level, from transport to application, including Internet and network access. This modular approach makes the system both flexible and robust.
 
-IP addressing is another pillar of this infrastructure. Each connected device is identified by a **unique IP address**, drawn from a space structured into **classes** (from A to E). Some of these addresses are reserved for specific uses, such as local looping or multicasting, while others, known as "private addresses", are not routed over the Internet without being translated (NAT). This classification provides a logical, hierarchical organization of networks.
+IP addressing is another cornerstone of this infrastructure. Every connected device is identified by a **unique IP address**, taken from an address space organized into **classes** (from A to E). Some of these addresses are reserved for special purposes, such as local loopback or multicast, while others, known as "private addresses", are not routed over the Internet without translation (NAT). This classification enables a logical, hierarchical organization of networks.
 
-We also covered the notion of **subnetworks**, which enables a network to be broken down into smaller segments to better manage IP resources and optimize data flow. Although manual subdivision using subnet masks remains an important principle, it has been largely modernized thanks to **CIDR** (_Classless Inter-Domain Routing_). This method has transformed addressing management, enabling more flexible and rational allocation of IP ranges, while reducing the size of routing tables.
+We also examined the concept of **subnetworks**, which makes it possible to divide a network segments to better manage IP resources and optimize data flow. While manual subdivision using subnet masks remains an important principle, it has largely been modernized thanks to **CIDR** (_Classless Inter-Domain Routing_). This method has transformed address management by enabling more flexible and rational allocation of IP ranges, while reducing the size of routing tables.
 
-Mastering these concepts - layers, protocols, service primitives, addressing and sub-networking - provides a solid foundation for understanding the technical workings of modern networks, and for efficiently configuring a network infrastructure to meet today's needs. In the next section, we'll take a closer look at IPv4 addressing.
+By mastering these concepts - layers, protocols, service primitives, addressing and subnetting - you gain a solid foundation for understanding the technical workings of modern networks, and for efficiently configuring a network infrastructure to meet today's needs. 
+
+In the next section, we'll take a closer look at IPv4 addressing.
 
 
 # IPv4 addressing
@@ -616,13 +623,15 @@ Mastering these concepts - layers, protocols, service primitives, addressing and
 <chapterId>79e4dd18-446a-435b-9f25-c88a00f8bec6</chapterId>
 
 
-This second part expands on the principles discussed above, focusing on how IPv4** addresses are actually implemented in a real-life computer network. The aim here is to provide a detailed understanding not only of their format and logic, but also of the mechanisms that link these addresses to other essential network elements: **DNS names**, **MAC addresses**, **subnetworks** and **translation techniques**.
+In this section, we will go deeper and look at how **IPv4** addresses are actually implemented in a real-world network. We'll break down their format, the logic behind them, and how they connect with other key network elements like **DNS names**, **MAC addresses**, **subnetworks** and **translation techniques**.
 
-As a reminder, an IP address is a unique numerical identifier assigned to each **Interface network** piece of equipment. It makes it possible to locate this equipment within a network and reach it to transmit data. For example, a router, server, workstation, network printer or even a surveillance camera has at least one IP address of its own. The IP address is the basis for **routability**, i.e. the ability of equipment to route packets from point A to point B, even if they are physically far apart.
+An IP address is a unique numerical identifier assigned to each **network Interface** on a device. It makes it possible to locate this device within a network and reach it to transmit data. For example, a router, server, workstation, network printer or even a surveillance camera has at least one IP address of its own. The IP address makes **routing** possible, i.e. moving packets from point A to point B, even if they are physically far apart.
 
-It's important to remember that an IP address can be assigned either **statically**, i.e. set manually and entered into the device configuration, or **dynamically**, i.e. allocated automatically on demand using the **DHCP** (_Dynamic Host Configuration Protocol_) protocol. DHCP simplifies network management, eliminating the need for manual configuration of each workstation, while enabling precise control through reservations and lease durations.
+IP addresses can be assigned in two main ways:
+- **Static**: Manually set on the device.
+- **Dynamic**: Automatically assigned on-demand by a DHCP (_Dynamic Host Configuration Protocol_) server. DHCP simplifies network management, eliminating the need for manual configuration while enabling precise control through reservations and lease durations.
 
-The **IPv4** protocol, still dominant despite the emergence of IPv6, uses a format coded on **32 bits**, divided into **four bytes**. Each byte, consisting of 8 bits, is expressed as a decimal number between 0 and 255. The 4 bytes are separated by dots to form a clear, legible notation.
+**IPv4** addresses are written in a **32-bit** format split into **four bytes**. Each byte contains 8 bits and represent a decimal number from 0 to 255. The 4 bytes are separated by dots to form a clear, legible notation.
 
 example: address 172.16.254.1_
 
@@ -630,7 +639,7 @@ example: address 172.16.254.1_
 ![Image](assets/fr/027.webp)
 
 
-Each bit within a byte has a defined weight: the left-hand bit (the most significant bit) is worth 128, the next 64, then 32, 16, 8, 4, 2 and 1 for the right-hand bit (the least significant bit). In this way, binary writing is converted to decimal by the simple addition of the set weights.
+Each bit in a byte has a value (or "weight"): the left-hand bit (the most significant bit) is worth 128, the next 64, then 32, 16, 8, 4, 2 and 1 for the right-hand bit (the least significant bit). In this way, binary writing is converted to decimal by the simple addition of the set weights.
 
 The table below illustrates this correspondence:
 
@@ -647,8 +656,7 @@ The table below illustrates this correspondence:
 | 01111111    | 1 + 2 + 4 + 8 + 16 + 32 + 64  | 127           |
 | 11111111    | 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 | 255      |
 
-For example, to convert a binary IP address into decimal notation, we add the values of the bits set to 1 for each byte.
-
+To convert binary to decimal, add the weights of the bits that are set to 1.
 
 | Binary     | Decimal Value |
 | ---------- | ------------- |
@@ -657,13 +665,19 @@ For example, to convert a binary IP address into decimal notation, we add the va
 | `11111110` | 254           |
 | `00000001` | 1             |
 
-It's important to note that an IP address identifies **a Interface network** and not the device as a whole. A multi-card server, such as a firewall or router, therefore has several interfaces, each with its own IP address. What's more, a single Interface can be assigned several IP addresses, for example to support multiple virtual networks or services.
+An IP address identifies a single **network interface**, not the whole device. A multi-port router or firewall has multiple interfaces, each with its own IP address. One interface can even have several IP addresses (for example, to serve multiple virtual networks or services).
 
-Each IP packet encapsulates the IP address of the **sender** and that of the **recipient** in its header. Routers**, located at network junctions, read this information to determine the optimal route for transmitting the packet from end to end to the target machine. Without rigorous addressing, traffic could not be directed correctly, and global interconnection of networks would be impossible.
+Every IP packet contains two IP addresses in its header:
+- The source address (**sender**)
+- The destination address (**receiver**)
+Routers read these addresses to figure out the best path to send the packet until it reaches the destination. Without strict addressing rules, network traffic couldn't be routed correctly and global interconnection of networks would be impossible.
 
-IPv4 addressing obeys precise rules: each address is made up of two parts: the **NetID**, which designates the home network, and the **HostID**, which identifies the equipment within that network. The delimitation between NetID and HostID is set by the **subnet mask**, which specifies how many bits belong to each portion. The longer the NetID, the greater the number of possible subnets, but the number of hosts per subnet decreases accordingly.
+An IPv4 address has two parts: 
+- **NetID**: identifies the network
+- **HostID**:  identifies a device within that network
+The **subnet mask** determines where the NetID ends and the HostID begins, specifying how many bits belong to each portion. The longer the NetID, the greater the number of possible subnets, but the number of hosts per subnet decreases accordingly.
 
-In the early days of IPv4, networks were organized into **classes** (A, B, C, D and E). Each class corresponds to a specific NetID range and defines a fixed granularity:
+Originally, IPv4 networks were divided into five **classes**: (A, B, C, D and E). Each class corresponds to a specific NetID range and defines a fixed granularity:
 - Class A: very large networks with a large number of hosts
 - Class B: medium-sized networks
 - Class C: small networks
@@ -679,25 +693,30 @@ In the early days of IPv4, networks were organized into **classes** (A, B, C, D 
 | D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
 | E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
 
-Some addresses have a very specific role. The **network address** designates the identifier of the network itself and is used to configure routing tables; the **broadcast address** allows a packet to be sent to all hosts on the same subnet in a single transmission: to do this, all HostID bits are set to 1.
+Special Addresses:
+- **Network address**: Identifies the network itself (used in routing tables).
+- **Broadcast address**: Sends data to all devices in the subnet at once (all HostID bits set to 1).
 
 The following ranges are reserved for internal use:
-- 10.0.0.0/8** (Private Class A)
-- 127.0.0.0/8** (local loopback or _loopback_)
-- 172.16.0.0 to 172.31.255.255** (private Class B)
-- 192.168.0.0 to 192.168.255.255** (private Class C)
+- **10.0.0.0/8** (Private Class A)
+- **127.0.0.0/8** (local loopback or _loopback_)
+- **172.16.0.0 to 172.31.255.255** (private Class B)
+- **192.168.0.0 to 192.168.255.255** (private Class C)
 
-The addresses **127.0.0.1** and, more generally, the entire 127.0.0.0/8 block are used for internal testing: a request sent to this address never leaves the machine. This makes it possible to check locally that a network service is responding correctly.
+The addresses **127.0.0.1** and, more generally, the entire 127.0.0.0/8 range is used for internal testing: any request sent to it never leaves the machine. This is useful for checking that a local network service is working without involving the wider network.
 
-To take full advantage of the address space, administrators often segment their networks into **subnets** using subnet masks or the **CIDR** (_Classless Inter-Domain Routing_) notation, which offers finer management and reduces address wastage. Today, CIDR is essential for fine-tuning the size of IP ranges and for streamlining routing tables.
+To make better use of the address space, administrators often split networks into **subnets** using subnet masks or **CIDR** notation (_Classless Inter-Domain Routing_). CIDR allows more precise management and helps avoid wasting addresses. Today, CIDR is essential for fine-tuning IP ranges and reducing the size of routing tables.
 
-In modern networks, IP addressing is often associated with other identifiers: the **domain name** registered in a **DNS** (_Domain Name System_) makes it possible to associate an IP address with a name that's easier to remember; the **MAC address**, meanwhile, is a physical identifier engraved in the network card, used for local transport (_Ethernet_). When an IP packet needs to be physically transmitted, the ARP table matches the IP address with the MAC address of the destination.
+In modern networks, IP addressing is usually paired with other identifiers:
+- **domain name** registered in a **DNS** (_Domain Name System_) :Associates a numeric IP address with a human-friendly name.
+- **MAC address**: physical identifier engraved in the network card, used for local transport (_Ethernet_). When an IP packet needs to be physically transmitted, the ARP table matches the IP address with the MAC address of the destination.
 
-Finally, to compensate for the shortage of IPv4 addresses and improve security, we can resort to address translation** (_NAT_). NAT allows several internal hosts, using private addresses, to share a single public IP address to access the Internet.
+To deal with IPv4 address shortages and to add a layer of security, networks often use address translation (_NAT_). NAT allows many private devices to share a single public IP address when accessing the Internet. 
 
-**Note**: many online and operating system tools facilitate mask calculations, such as the [Grenoble CRIC calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/). These utilities help to plan network splitting efficiently.
+**Note**: Online and built-in OS tools, such as the [Grenoble CRIC calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), make subnet and mask calculations much easier.
+These utilities help to plan network splitting efficiently.
 
-In conclusion, the broadcast address remains a practical function for sending the same message to all devices connected to a segment: in practice, the _HostID_ part is set to 1 to mean that all hosts are targeted by the same packet.
+In conclusion, the broadcast address remains a practical function for sending the same message to all devices connected to a segment: this is achieved by setting all bits in the HostID portion to 1 so all hosts are targeted.
 
 
 ## The different types of IPv4 address
@@ -705,27 +724,32 @@ In conclusion, the broadcast address remains a practical function for sending th
 <chapterId>2adfad24-a90d-45b5-b808-3d2f6598bebf</chapterId>
 
 
-IPv4 addressing is divided into two main categories: public addresses, directly accessible on the Internet, and private addresses, intended for internal use within a local network.
+IPv4 addresses fall into two main categories: public addresses, directly accessible on the Internet, and private addresses, intended for internal use within a local network.
 
-A public IPv4 address is a globally unique address. It is registered with an official body and is routable throughout the Internet. Companies and organizations use them to make their services accessible: web servers, messaging infrastructures, public cloud services, etc. The worldwide uniqueness of these addresses is essential to avoid any routing conflicts or collisions.
+A public IPv4 address is globally unique and routable across the Internet. It is assigned by official authorities and required for public-facing services such as websites, email servers, or cloud infrastructure.
+The worldwide uniqueness of these addresses is essential to avoid any routing conflicts or collisions.
 
-It is the **IANA** (_Internet Assigned Numbers Authority_), operating under the aegis of the **ICANN** (_Internet Corporation for Assigned Names and Numbers_), which manages the distribution of these ranges. In concrete terms, IANA divides the IPv4 space into 256 blocks of size /8, according to CIDR notation. Each block represents just over 16.7 million addresses (2³² / 2⁸).
+The **IANA** (_Internet Assigned Numbers Authority_), operating under the **ICANN** (_Internet Corporation for Assigned Names and Numbers_), manages the distribution of these IP ranges. In concrete terms, IANA divides the IPv4 space into 256 blocks of size /8, according to CIDR notation. Each block represents just over 16.7 million addresses (2³² / 2⁸).
 
-These unicast address blocks are entrusted by IANA to the **Regional Internet Registries** (RIRs). These RIRs are responsible for redistributing the addresses at regional level, according to the real needs of access providers, companies or administrations. The unicast address space extends from blocks **1/8 to 223/8**, with portions either reserved for special uses (research, documentation, testing), or allocated directly to an end network or RIR for redistribution.
+These unicast address blocks are entrusted by IANA to the **Regional Internet Registries** (RIRs). These RIRs are responsible for redistributing the addresses at regional level, according to the real needs of access providers, companies or administrations. The unicast address space extends from blocks **1/8 to 223/8**, with portions either reserved for special uses (research, documentation, testing), or allocated directly to a network or RIR for redistribution.
 
 To check who owns a public IP address, you can consult the RIR databases using the **whois** command, or by using the web interfaces provided by each registry. These tools can be used to trace the address back to the organization or provider that declared it.
 
-At the other end of the spectrum are private IPv4 addresses, a pragmatic response to the scarcity of public addresses. These addresses, which are not routable on the Internet, are reserved for local environments: corporate networks, home LANs, datacenters or computing clusters. They are not unique worldwide: many private networks can reuse the same ranges without interference, as long as they remain isolated or pass through an address translation device to exit onto the Internet.
+Conversely, there are private IPv4 addresses, a practical response to the shortage of public addresses. These addresses, which are not routable on the Internet, are reserved for local environments: corporate networks, home LANs, datacenters or computing clusters. They are not unique worldwide: many private networks can reuse the same IP ranges without interference, as long as they remain isolated or use a network address translation device to access the internet.
 
-To enable internal equipment configured with a private address to access the global network, we use the **NAT** (_Network Address Translation_) mechanism. NAT plays an important role: it translates the private address into a public address on the fly, enabling dozens or even hundreds of internal workstations to share a single public address. This method optimizes the use of IPv4 space while adding a layer of security by hiding internal topologies.
+To allow a device with a private IP address to access the Internet, networks use NAT (Network Address Translation). NAT works by dynamically replacing the private address with a public one, enabling dozens (or even hundreds) of devices to share a single public IP address. This method optimizes the use of IPv4 space and also adds a layer of security by hiding the internal network structure.
 
-In addition, some special addresses are called **unspecified**. The notation **0.0.0.0** or its IPv6 version **::/128** indicates the absence of a concrete address: this value is illegal as a destination address on the network, but can be used locally by a host to mean "all interfaces" or "address not yet assigned". This mechanism is commonly used for dynamic assignment by DHCP or for listening on all server interfaces.
+Another special category is **unspecified** addresses. The IPv4 notation **0.0.0.0** or its IPv6 version **::/128** means "no specific address". Such an address is invalid as a network address destination, but it can be used locally by a host to indicate "all interfaces" or "no address assigned yet". This is common in DHCP dynamic assignment or for listening on all server interfaces.
 
-In IPv6, as we'll see in the next section, the principle of private addressing also exists, although the standard recommends public addressing to avoid the multiplication of NAT layers. The old **site-local addresses** (_site-local_) of the **fec0::/10** block have been declared obsolete by **RFC 3879**, for reasons of consistency and security. They have been replaced by the concept of **unique local addresses** (_ULA_), located in the **fc00::/7** block. ULAs make it possible to build private IPv6 networks while ensuring clean internal interconnection, thanks to a random 40-bit identifier that guarantees local uniqueness.
+IPv6 also supports private addressing, but the standard generally recommends public addressing to avoid stacking multiple NAT layers. The **site-local addresses** (_site-local_) of the **fec0::/10** block were deprecated by **RFC 3879** for consistency and security reasons. They were replaced with **Unique Local Addresses** (_ULA_) located in the **fc00::/7** block. ULAs allow the creation of private IPv6 networks with clean internal routing, using a randomly generated 40-bit identifier to ensure local uniqueness.
 
-Faced with the saturation of IPv4 space (the exhaustion of free blocks was officially noted in 2011), several strategies have emerged to prolong the protocol's viability. These have included gradual migration to **IPv6**, the widespread use of **NAT**, tighter allocation policies by RIRs (imposing finer management and justification of needs) and, more rarely, the recovery of unused blocks or blocks returned by companies.
+IPv4 exhaustion was officially confirmed in 2011. To extend its lifespan, the Internet community adopted several strategies:
+- Gradual migration to **IPv6**
+- Widespread use of **NAT**
+- Stricter allocation policies from RIRs, requiring precise justification and management of address needs 
+- Recovery of unused or voluntarily returned address blocks by companies
 
-These different categories and strategies illustrate the extent to which IP addressing is both a technical issue and a question of global governance, at the very heart of the Internet's ongoing expansion.
+These measures show that IP addressing is not just a technical challenge, but also a matter of global governance, central to the Internet's ongoing expansion.
 
 
 ## DNS, an address directory
@@ -733,25 +757,28 @@ These different categories and strategies illustrate the extent to which IP addr
 <chapterId>511244ec-ba43-44ac-b4c3-b41579a15cff</chapterId>
 
 
-Let's face it, for us humans, memorizing long sequences of binary or decimal digits is no easy task. This difficulty becomes even more pronounced when we consider the complexity of IP addressing and the multiplicity of addresses that a single one can sometimes mask, especially when using mechanisms such as NAT or virtual hosting.
+Let's be honest, humans aren't great at memorizing long strings of numbers, whether in binary or decimal form. This challenge becomes even greater with IP addresses, which can be complex and a single IP address can sometimes mask multiple addresses, especially when techniques like NAT or virtual hosting are involved.
 
-To overcome this natural limitation, the Application layer relies on a system capable of linking an IP address to a logical name that is more comprehensible and, above all, easier to handle. This is precisely the role of **DNS**, for *Domain Name System*, a huge hierarchical and distributed directory that associates readable domain names with IP addresses. The system is based on a set of protocols and services, the best-known of which is **BIND** (_Berkeley Internet Name Domain_), an open-source software package that serves as the reference for the majority of DNS servers worldwide.
+To make things easier, the Application layer uses a system that links an IP address to a logical, human-readable name. This is the role of **DNS** (*Domain Name System*), a massive, hierarchical, distributed directory that matches readable domain names to IP addresses. The system is based on a set of protocols and services. The most widely used DNS server software is **BIND** (_Berkeley Internet Name Domain_), an open-source software package that references much of the Internet’s DNS infrastructure.
 
-The fundamental principle of DNS is simple: for every piece of equipment connected (be it a web site, mail server or network service), a correspondence is recorded between a domain name and one or more IP addresses. This correspondence is bidirectional: we can resolve a name to an address (direct resolution) or retrieve a name from an IP address (reverse resolution). This makes addressing humanly usable, while maintaining the technical precision essential for routing.
+The core idea behind DNS is simple: for any connected service, whether a website, mail server, or another network service, there is a record mapping a domain name to one or more IP addresses. This works in two directions:
+- Forward resolution: translating a name into an IP address.
+- Reverse resolution: finding the domain name associated with a given IP address.
+This makes network addressing usable for humans while preserving the precision routers need to move data correctly.
 
-A domain name is always structured hierarchically, with each level separated by a dot: the full name is called **FQDN** (_Fully Qualified Domain Name_). The rightmost element is the **TLD** (_Top Level Domain_) such as `.com`, `.org` or `.fr`. The left-most element designates the host, i.e. the specific machine to which the IP address is linked.
+A domain name is always structured hierarchically, with each level separated by a dot: the full name is called **FQDN** (_Fully Qualified Domain Name_). The rightmost part is the **TLD** (_Top Level Domain_) such as `.com`, `.org` or `.fr`. The left-most part designates the host, i.e. the specific machine or service linked to the IP address.
 
-The DNS system is designed as a **tree of zones**. Each **zone** represents a portion of the name space, managed by a specific DNS server. A single zone may include several **sub-domains**, themselves potentially distributed over other zones administered by separate servers. A zone is therefore the basic administrative unit for which an administrator is responsible: management, updates, delegations, etc.
+The DNS system is designed as a **tree of zones**. A **zone** is a section of the domain namespace managed by a specific DNS server. A single zone can contain multiple **subdomains**, which may themselves be delegated to other zones managed by different servers. Administrators are responsible for maintaining their zones: handling updates, delegations, and overall management.
 
-This makes it possible not only to point to a main domain (e.g. `example.com`), but also to fine-tune each host (`www`, `mail`, `ftp`, etc.) by means of precise registrations. Originally, this resolution function was provided by simple static files (`/etc/hosts` under Linux), but this method soon proved unsuitable for a global, evolving and interconnected Internet.
+This structure allows not just pointing to a main domain (e.g. `example.com`), but also fine-tuning records for individual hosts (`www`, `mail`, `ftp`, etc.). In the early days of networking, this mapping was handled with static files like (`/etc/hosts` on Unix systems), but such a method quickly became impractical for a fast-growing, interconnected Internet.
 
-It's important to understand that a **DNS server** may have a limited perimeter: a company's internal DNS, for example, may not be directly accessible from the Internet. If this DNS is not configured to delegate queries, or does not have a trusted relationship with other servers, some queries will fail: neither the name nor the IP address can then be resolved outside the defined zone.
+It's important to understand that a **DNS server** may only serve a limited scope. For example, a company's internal DNS server might not be directly accessible from the Internet. If this DNS is not configured to forward queries, or does not have a trusted relationship with other servers, some queries will fail: neither the name nor the IP address can then be resolved outside the defined zone.
 
-A DNS server also contains information specific to e-mail routing. For example, a **MX** (_Mail Exchange_) record designates the mail servers responsible for receiving e-mails for a given domain. These records define priorities (weighting factor) and failover solutions. The zone file of a DNS server must contain a **SOA** (_Start Of Authority_) record, which designates the server as the official source of information for the zone it administers.
+DNS also plays a role in email routing. For example, a **MX** (_Mail Exchange_) record specifies the mail servers responsible for receiving e-mails for a given domain. These records define priorities (weighting factor) and failover solutions. The zone file of a DNS server must contain a **SOA** (_Start Of Authority_) record, which designates the server as the official source of information for that zone.
 
-Thanks to its hierarchical, distributed structure, DNS remains an essential building block of the Internet today, enabling every user to connect to services using clear domain names instead of long, technical IP addresses.
+Thanks to its hierarchical, distributed structure, DNS remains a cornerstone of the Internet, allowing users to access services through clear, memorable domain names instead of long, technical IP addresses.
 
-In the next chapter, we'll look at another fundamental concept: Ethernet addresses**, also known as MAC addresses**, which ensure data routing at the physical level of the local network.
+In the next chapter, we'll explore another fundamental concept:  **Ethernet addresses**, also known as **MAC addresses**, which ensure data delivery at the physical layer of local networks.
 
 
 ## Discovering Ethernet addresses and ARP
@@ -761,20 +788,19 @@ In the next chapter, we'll look at another fundamental concept: Ethernet address
 
 ### Definitions
 
-For the data routing protocol to function reliably and consistently, one fundamental component remains indispensable. If, as human beings, we can easily identify a machine by its IP address or its name, retrieved via DNS, a machine must be able to unambiguously recognize the destination equipment to transmit packets. To do this, it relies on a specific hardware identifier, directly exploitable by its Interface network: the MAC address (_Media Access Control_).
+For the data routing protocol to work reliably and consistently, one key component is essential. As humans, we can easily identify a machine by its IP address or by its name retrieved through DNS. A machine, however, must be able to unambiguously recognize the destination device to deliver packets. To do this, it relies on a specific hardware identifier, directly used by its network interface: the MAC address (_Media Access Control_).
 
-This MAC address should not be confused with the so-called physical address in the sense of memory architecture. In computing terms, the physical address designates a precise location on the central memory address bus, as opposed to the virtual address, which is a function of memory management by the operating system. MAC addresses, on the other hand, are strictly network hardware-related.
+**Note**: This has nothing to do with a "physical address" in memory architecture. In computing, a physical memory address refers to a specific location on the memory bus, as opposed to a virtual address managed by the operating system. A MAC address, by contrast, relates strictly to network hardware.
 
-Permanently and uniquely assigned by the manufacturer when the equipment is manufactured, the MAC address unequivocally identifies the network card, whether it's a computer, smartphone, network printer or any other communicating device. Unlike the IP address, which can be dynamic and assigned by the administrator or a DHCP server, the MAC address remains, in principle, unchanged throughout the life of the device, unless voluntary intervention is made.
+A MAC address is permanently and uniquely assigned by the manufacturer the equipment is manufactured. The MAC address unequivocally identifies the network card whether it's a computer, smartphone, printer, or any other connected device. Unlike an IP address, which can change dynamically (via a DHCP server or manual configuration), the MAC address normally remains the same throughout the device's lifetime, unless it is deliberately altered.
 
-It's essential to remember that every Interface network, whether wired or wireless, has a MAC address. This address is used within the data link layer (layer 2 of the OSI model) to insert and manage the hardware address in each network frame exchanged. This is sometimes referred to as the _Ethernet address_ or _UAA_ (_Universally Administered Address_). Standardized on a length of 48 bits, or 6 bytes, it is written in hexadecimal notation, generally in the form of bytes separated by `:` or `-`.
+Every network interface, wired or wireless, has its own MAC address. This address is used within the data link layer (layer 2 of the OSI model) to insert and manage the hardware address in each network frame exchanged. This is sometimes referred to as the _Ethernet address_ or _UAA_ (_Universally Administered Address_). Standardized on a length of 48 bits, or 6 bytes, it is written in hexadecimal notation, generally in the form of bytes separated by `:` or `-`.
 
 For example: `5A:BC:17:A2:AF:15`
 
-In this structure, the first three bytes are used to identify the network card manufacturer: this is known as the **OUI** (*Organisationally Unique Identifier*). These prefixes, assigned by the IEEE, are reused in other hardware addressing schemes, such as Bluetooth or LLDP, to guarantee worldwide uniqueness of identifiers.
+In this structure, the first three bytes identify the network card manufacturer: this is known as the **OUI** (*Organisationally Unique Identifier*). These prefixes, assigned by the IEEE, are also used in other hardware addressing schemes, such as Bluetooth and LLDP, to guarantee worldwide uniqueness.
 
-
-### MAC address modification
+### Changing a MAC Address (MAC Spoofing)
 
 In theory, the MAC address is designed to remain fixed, but there are ways of modifying it, notably to meet particular needs or to circumvent certain constraints. This operation, often referred to as _spoofing MAC_, involves replacing the original hardware address with a different value, defined at software level. Some operating systems facilitate this modification, particularly when the actual Ethernet address is not directly used by the driver.
 
@@ -782,14 +808,14 @@ The reasons for such a change are varied. It could be the need for a given appli
 
 Changing the MAC address can also be motivated by privacy considerations: by hiding the unique identifier engraved on the card, users reduce the possibility of their device being tracked by networks or surveillance services. However, this practice is not without consequences. Changing a MAC address can disrupt certain filtering devices, or require firewalls to be reconfigured to authorize the new hardware.
 
-In some networks, particularly when securing Wi-Fi access, MAC address filtering is frequently used to restrict access to authorized equipment. Although this technique can provide a first level of control, its effectiveness is limited. Attackers can easily capture a valid MAC address authorized on the network, forge it and use it to their advantage to bypass the restriction, making this type of filtering insufficient if not coupled with other, more robust security measures.
-
+Some networks, particularly Wi-Fi, use MAC address filtering to allow only devices with approved addresses. While this adds a basic level of control, it is not secure on its own. An attacker can capture a valid MAC address already authorized on the network and clone it to bypass restrictions. For this reason, MAC filtering should always be combined with stronger security measures.
 
 ### MAC/IP correspondence
 
-For a local network to function smoothly and consistently, it's essential to establish a clear link between physical addresses, such as MAC addresses, and logical addresses, i.e. IP addresses. Without this correspondence, a computer would know which IP address to send a packet to, but would be unable to know how to actually transmit it on the physical network. This is where ARP (_Address Resolution Protocol_) comes in, automating this mechanism.
+For a local network to work efficiently, there must be a clear mapping between physical addresses (MAC addresses) and logical addresses (IP addresses). Without this link, a computer might know the IP address of a destination but wouldn't know how to physically send data to it on the local network.
+This mapping is handled automatically by the ARP (_Address Resolution Protocol_).
 
-In practice, when a user wants to know the MAC address corresponding to a specific IP address, he or she can use the `arp` utility. This tool interrogates the machine's local ARP table to display known matches between IP addresses and MAC addresses on the local network. In this way, it is possible to quickly verify the effective link between the logical and physical layers.
+In practice, when a user wants to know the MAC address corresponding to a specific IP address, the user can use the `arp` utility. This tool checks the machine's local ARP table to display known matches between IP addresses and MAC addresses on the local network. In this way, it is possible to quickly verify the effective link between the logical and physical layers.
 
 Practical example: if you want to check which network card corresponds to the IP address `192.168.1.5`, use the following command:
 
@@ -805,46 +831,42 @@ IP Address            MAC Address                Type
 192.168.1.5           00:54:BC:17:14:6E          D
 ```
 
-So it's important to remember that the MAC address and the IP address are two totally distinct but closely complementary identifiers. The MAC address is uniquely engraved by the manufacturer in each Interface network and is used to physically identify the equipment on the local network. The IP address, on the other hand, is a logical address assigned dynamically or statically to enable the machine to join the IP network and exchange packets beyond its local network.
+It's important to remember that the MAC address and the IP address are two completely different identifiers, yet closely complementary. The MAC address is uniquely engraved into each network interface by the manufacturer and is used to physically identify the device on the local network. The IP address, on the other hand, is a logical address assigned either dynamically or statically, allowing the machine to join the IP network and exchange packets beyond its local network.
 
 - Visual example of MAC address :
-
 
 ![Image](assets/fr/032.webp)
 
 
-
 - Visual example of an IP address :
-
 
 ![Image](assets/fr/027.webp)
 
 
-In a corporate environment, these two addressing levels cannot function separately. For example, when a DHCP server automatically assigns an IP address, the MAC address of the equipment is used as the starting point. The computer sends a DHCP broadcast request, including its MAC address, in order to be assigned an available IP address by the server. Without this hardware identification, the DHCP server wouldn't know which device to deliver the address to.
+In a corporate environment, these two addressing levels cannot function separately. For example, when a DHCP server automatically assigns an IP address, the MAC address of the equipment is used as the starting point. The computer sends a DHCP broadcast request containing its MAC address so the server can assign an available IP address to the correct device. Without this hardware identification, the DHCP server wouldn't know which device to deliver the address to.
 
 The ARP protocol is therefore fundamental: it provides the link between IP addresses and physical addresses, enabling machines to translate a logical destination into an actual physical destination. When a computer needs to send a packet to a machine on the same network, it first consults its ARP table to check whether the recipient's MAC address is already known. If not, it broadcasts an ARP request to all hosts on the local network. The machine that recognizes the target IP address in this request responds by specifying its MAC address. The sender then writes this IP/MAC pair to his ARP cache, to avoid having to repeat the operation each time the request is sent.
 
-This ARP table acts as a mini-mapping directory, dynamically updated in much the same way as DNS associates domain names with IP addresses. Without ARP, no local exchange would be possible, as the data link layer needs to know the MAC address in order to encapsulate Ethernet frames correctly.
+This ARP table acts as a mini-mapping directory, dynamically updated in a similar way as DNS associates domain names with IP addresses. Without ARP, no local exchange would be possible, as the data link layer needs to know the MAC address in order to encapsulate Ethernet frames correctly.
 
-Conversely, the RARP protocol (_Reverse Address Resolution Protocol_) was designed to solve the opposite situation: enabling a machine that only knows its MAC address to discover its IP address. This was particularly the case for older workstations without a local hard disk, which had to boot via the network and claim an IP address. However, it was soon superseded by **BOOTP** and then **DHCP**, more flexible and automated solutions.
+Conversely, the RARP protocol (_Reverse Address Resolution Protocol_) was designed for the opposite situation: enabling a machine that knows only its MAC address to discover its IP address. This was common the case for older workstations without a local hard disk, which had to boot over the network and request an IP address. RARP was eventually replaced by **BOOTP** and then **DHCP**, which are more flexible and automated.
 
-These association protocols play an important role in routing. A router is actually a machine with several network interfaces, connecting different segments. When a router receives a frame, it processes it to extract the IP datagram, then examines the IP header to determine the destination. If the destination is on a directly connected network, the datagram is put back into direct delivery after the header has been updated. If the destination belongs to another network, the router consults its routing table to identify the best path, or _next hop_, to the destination.
+These association protocols play an important role in routing. A router is essentially a machine with multiple network interfaces, connecting different segments. When a router receives a frame, it processes it to extract the IP datagram and examines the IP header to determine the destination. If the destination is on a directly connected network, the datagram is delivered directly after updating the header. If the destination belongs to another network, the router consults its routing table to identify the best path, or _next hop_, to the destination.
 
-This allows the route to be divided into shorter, more manageable segments. Each intermediate router knows only the next stage, not necessarily the final destination.
+This breaks the route into shorter, more manageable segments. Each intermediate router only knows the next step, not necessarily the final destination.
 
-**Reminder:** Direct delivery is when the sender and receiver are on the same physical network; otherwise, delivery is indirect, as it passes through one or more routers.
+**Reminder:** Direct delivery happens when sender and receiver are on the same physical network. Otherwise, delivery is indirect and passes through one or more routers.
 
-The routing table, administered either manually (static routing) or dynamically (dynamic routing), contains the information needed to decide which route to take. In small networks, a static configuration is sufficient, but in large infrastructures, dynamic routing is essential to automatically adjust routes according to changes in topology or link status.
+The routing table, managed either manually (static routing) or dynamically (dynamic routing), contains the information needed to decide which route to take. In small networks, a static configuration is enough. In larger infrastructures, dynamic routing is essential to automatically adjust routes when the topology changes or a link goes down.
 
-The routing table acts as a mapping table between target IP addresses and subsequent gateways. It generally does not store all host addresses, but only the network identifier (_network ID_), which considerably reduces its volume.
-
+The routing table acts as a mapping table between target IP addresses and next gateways. It usually stores network identifiers (_network ID_) rather than every individual host address, which greatly reduces its size.
 
 | Destination Address | Next-Hop Router Address | Interface |
 | ------------------- | ----------------------- | --------- |
 
-Using these entries, the router can quickly determine via which Interface and to which node it should transmit each datagram. This routing logic, combined with the ARP protocol for resolving the corresponding MAC addresses, ensures efficient and reliable data transfer throughout the network.
+Using these entries, the router can quickly determine through which Interface and to which node each datagram should be sent. Combined with ARP for resolving the matching MAC addresses, this ensures efficient and reliable data transfer across the network.
 
-Finally, dynamic routing protocols include standards such as RIP (_Routing Information Protocol_), based on the distance algorithm, and OSPF (_Open Shortest Path First_), which calculates the shortest paths through a complex topology. These protocols constantly exchange update information to optimize paths, reduce transmission costs and improve network resilience to outages or congestion.
+Finally, dynamic routing protocols include standards such as RIP (_Routing Information Protocol_), based on the distance algorithm, and OSPF (_Open Shortest Path First_), which calculates the shortest paths in complex topology. These protocols constantly exchange updates to optimize routes, reduce transmission costs, and improve resilience against outages or congestion.
 
 
 ## NAT: Address Translation

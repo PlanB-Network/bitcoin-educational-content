@@ -1152,31 +1152,100 @@ En parallèle, les données d’annulation sont écrites dans `rev*.dat` et les 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Comprendre le fichier bitcoin.conf
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>
 
-Présentation du fichier `bitcoin.conf` : structure, rôle et options les plus utiles. Différenciation entre règles de consensus et règles de relais.
+Le fichier `bitcoin.conf` est la principale interface de configuration de Bitcoin Core. Il permet d’ajuster le comportement et les paramètres de votre nœud sans avoir à recompiler son code source ou faire des modifications en lignes de commande. Concrètement, c'est un fichier texte brut structuré en paires clé-valeur, c'est-à-dire que chaque ligne du fichier référence un paramètre spécifique (la clé) et une valeur associée qui peut être modifiée pour ajuster ce paramètre.
+
+On peut définir dans le `bitcoin.conf` des paramètres de réseau, de relais de transactions, de performances, d’indexation, de journalisation ou encore d’accès RPC. En revanche, ce fichier de configuration ne modifie jamais les règles de consensus du protocole : il fixe uniquement la politique locale du nœud (règles de relai), la manière dont il se connecte, indexe et expose des services.
+
+### Emplacement et priorité
+
+Par défaut, `bitcoin.conf` réside dans le répertoire de données de Bitcoin Core. C'est le fameux répertoire dont nous avons déjà parlé dans le chapitre précédant. En revanche, ce fichier n’est pas créé automatiquement par Bitcoin Core, sauf lorsqu’il est utilisé dans certains environnements comme Umbrel par exemple. S’il n’existe pas encore, vous devrez donc le générer vous-même en créant simplement un fichier nommé `bitcoin.conf`, puis en l’ouvrant dans un éditeur de texte pour y apporter vos modifications.
+
+Les paramètres définis dans le `bitcoin.conf` peuvent être surchargés par 2 couches :
+- `settings.json` (écrit dynamiquement par l’interface graphique ou certaines RPC),
+- et les options modifiées via les lignes de commande.
+
+Notons que toute modification du `bitcoin.conf` nécessite un redémarrage du nœud pour être prise en compte.
+
+### Format et structure
+
+Le format du `bitcoin.conf` est donc très simple : une ligne par option, sous la forme `option=valeur`. Les espaces inutiles et les lignes vides sont ignorés et les commentaires de code commencent par `#`.
+
+La quasi-totalité des options booléennes peuvent être désactivées par un préfixe `no`. Par exemple `listen=0` et `nolisten=1` sont équivalents selon les versions.
+
+Pour segmenter la configuration par réseau, on peut utiliser des sections : `[main]`, `[test]` (testnet3), `[testnet4]`, `[signet]`, `[regtest]`. Ou alors on peut préfixer le nom d’option : `regtest.maxmempool=100`.
+
+### Ce que le bitcoin.conf peut et ne peut pas faire
+
+Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurable dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’aspects non consensuels sont paramétrables. On distingue trois classes utiles à garder en tête :
+- Les paramètres purement locaux. Ils n’affectent que votre nœud : taille du cache (`dbcache`), mode élagué (`prune`), index optionnels... Ils influencent les performances de votre machine, mais pas le réseau ;
+- Les politiques de relais et de mempool. Elles décident de ce que votre nœud accepte, conserve et relaie avant confirmation : seuil minimal de frais (`minrelaytxfee`), taille et durée de rétention de la mempool (`maxmempool`, `mempoolexpiry`), remplacement des transactions (RBF)... Ces règles ne font pas partie du consensus, donc deux nœuds différents peuvent avoir des politiques différentes et rester pleinement compatibles. En revanche, ces paramètres vont avoir une influence sur le réseau Bitcoin (comme expliqué dans la première partie, notamment avec la théorie de la percolation) ;
+- La connectivité réseau. Ce sont les options qui déterminent comment votre nœud trouve des pairs, écoute, traverse un NAT, utilise Tor ou un proxy, ou limite sa bande passante. Elles façonnent votre topologie, mais n’altèrent pas le relai des transactions.
+
+Comprendre cette séparation est très important : si une transaction ne respecte pas les règles de consensus, votre nœud la rejettera dans tous les cas. Mais une politique locale plus stricte peut refuser de relayer une transaction pourtant valide au sens du consensus.
+
+### Réseau et topologie
+
+Tout d’abord, il est essentiel de distinguer clairement les 2 types de connexions qu’un nœud Bitcoin peut avoir :
+- Les connexions sortantes, qui sont initiées par notre nœud vers un autre nœud ;
+- Les connexions entrantes, qui sont initiées par un autre nœud vers le nôtre.
+
+Ces deux types de connexions peuvent tout à fait échanger les mêmes données dans les deux sens ; il ne s’agit pas d’une limitation du sens du flux, mais uniquement d’une différence dans l’initiateur de la connexion. Du point de vue de notre nœud, les connexions sortantes sont généralement considérées comme plus sûres, car c’est nous qui en prenons l’initiative et choisissons précisément à quel nœud nous connecter, ce qui rend peu probable que cette connexion soit malveillante. Par défaut, Bitcoin Core maintient 10 connexions sortantes (8 "full-relay" + 2 "block-relay-only").
+
+Un nœud complet apporte davantage de valeur au réseau lorsqu’il accepte des connexions entrantes. Le paramètre `listen=1` active l’écoute sur le port 8333 par défaut du réseau concerné, ce qui permet ainsi de recevoir ces connexions entrantes sur le clearnet. Pour que cela fonctionne, ce port doit également être ouvert sur votre routeur. S’il ne l’est pas, votre nœud continuera de fonctionner uniquement avec des connexions sortantes, ce qui n’aura aucun impact sur votre utilisation personnelle de Bitcoin. Le choix d’autoriser ou non les connexions entrantes vous appartient, il n'y a pas de "meilleur choix".
+
+Si vous préférez ne pas ouvrir de port sur votre routeur tout en acceptant des connexions entrantes, vous pouvez activer le paramètre `listenonion=1`. Celui-ci permet d’obtenir le même résultat, mais en passant exclusivement par le réseau Tor plutôt que par le clearnet.
+
+Niveau réseau, on a également :
+- `addnode` : ajoute un pair ami à contacter en plus de la découverte habituelle (peut-être spécifié plusieurs fois) ;
+- `connect` : restreint strictement les connexions à l'adresse fournie (peut-être spécifié plusieurs fois). Core ne se connectera à aucun autre nœud ;
+- `seednode` : sert uniquement à remplir l’adresse-book en se connectant à un nœud, puis se déconnecte ;
+- `maxconnections` : définit le plafond global de connexions entrantes + sortantes. Par défaut, ce paramètre est placé à 125, ce qui signifie que votre nœud n'acceptera jamais plus de 125 connexions ;
+- `maxuploadtarget` : plafonne l’upload pour limiter la bande passante sur une fenêtre glissante de 24 h. Ce plafond ne sacrifie pas la propagation d’éléments récents indispensables ;
+- `onlynet` : limite les connexions sortantes uniquement aux réseaux sélectionnés (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Par exemple, si vous souhaitez que votre nœud se connecte au réseau Bitcoin uniquement via Tor, vous pouvez activer le paramètre `onlynet=onion` et ne pas activer les connexions entrantes (ou bien uniquement via Tor également) ;
+- `dnsseed` : autorise ou non la requête des _DNS seeds_ pour obtenir des pairs quand votre réserve locale d’adresses est faible (par défaut : `1`, sauf si `-connect` ou `-maxconnections=0`) ;
+- `forcednsseed` : force la requête des _DNS seeds_ au démarrage, même si vous avez déjà des adresses en stock (par défaut : `0`) ;
+- `fixedseeds` : Autorise l’usage des *seed nodes* (liste d'adresses hardcodées) si les _DNS seeds_ échouent ou sont désactivés (par défaut : `1`) ;
+- `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`) ;
+
+Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI).C e n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
+
+Pour être entièrement sous Tor, vous devez forcer Bitcoin Core à utiliser uniquement ce réseau et à créer un service caché pour les connexions entrantes (si vous voulez les activez). Dans le `bitcoin.conf`, il faut ajouter cette configuration : 
+- `onlynet=onion`,
+- `proxy=127.0.0.1:9050`,
+- `listenonion=1`,
+- `torcontrol=127.0.0.1:9051`,
+- `proxyrandomize=1`,
+- `listen=1`,
+- `bind=127.0.0.1`,
+- `upnp=0`,
+- `natpmp=0`.
+
+Ainsi, toutes vos connexions P2P transitent par Tor, votre nœud obtient une adresse `.onion` pour les entrantes, aucun port n’a besoin d’être ouvert sur le routeur, votre FAI ne voit que du trafic Tor et vos pairs ne connaissent pas votre IP publique.
+
+Si vous souhaitez éviter toute résolution DNS en clair, vous pouvez ajouter `dnsseed=0` et `dns=0`. Il faudra alors fournir manuellement des pairs `.onion` via `seednode=` ou `addnode=`, sans quoi la découverte de nouveaux nœuds sera difficile.
+
+Évidemment, si vous êtes débutant, je vous conseille dans un premier temps de ne pas toucher à tous ces paramètres réseau. La configuration par défaut est souvent suffisante.
+
+
+
+
 
 ## Confidentialité et sécurité d’un nœud personnel
 <chapterId>5e930262-9326-4edd-a128-9504df14eb18</chapterId>
 
 Analyse des risques liés à l’exploitation d’un nœud sur son réseau local. Quelles données sont exposées ? Comment se protéger ? Utilisation de Tor, configuration réseau, pare-feu, gestion des ports ouverts, VPN...
 
-## Premiers pas vers un nœud Lightning
-<chapterId>040fe06c-01e9-453a-9834-353600ba9c2e</chapterId>
+
+
+
+
+
+
+
+
 
 Ouverture vers la prochaine formation : héberger un nœud Lightning LNP 202.
 

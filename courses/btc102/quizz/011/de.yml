@@ -1,4 +1,4 @@
-question: Warum ist es wichtig, Ihren Mnemonic-Satz zu schützen?
+question: Warum ist es wichtig, seinen Mnemonic-Satz zu schützen?
 answer: Der Verlust führt zum dauerhaften Verlust der Bitcoins
 wrong_answers:
   - Weil die Blockchain zu lang ist, um sie wiederherzustellen

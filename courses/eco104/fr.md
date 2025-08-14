@@ -714,7 +714,7 @@ Alors que le bitcoin a gagné en reconnaissance en tant que moyen d'échange, il
 
 ### L'Actif vs Le Réseau
 
-Vous avez peut-être remarqué ci-dessus que le Bitcoin n'est pas simplement un actif puissant pour stocker de la valeur, mais ses caractéristiques uniques en font également un réseau incroyablement sûr et efficace pour les transactions. Cela peut sembler un peu confus, alors permettez-nous d'expliquer. Le Bitcoin, comme la monnaie fiduciaire, est composé de deux composants :
+Vous avez peut-être remarqué ci-dessus que le Bitcoin n'est pas simplement un actif puissant pour stocker de la valeur, mais ses caractéristiques uniques en font également un réseau incroyablement sûr et efficace pour les transactions. Cela peut sembler un peu confus, alors permettez-nous d'expliquer. Le Bitcoin, comme la monnaie fiduciaire, est composé de deux éléments :
 
 **L'actif (référé en tant que bitcoin avec un “b” minuscule)** – C'est ce que nous achetons et qui est accessible depuis notre portefeuille. Lorsqu'il est stocké en dehors des échanges ou des portefeuilles centralisés, notre dépendance à la confiance est minimisée, se concentrant principalement sur la sécurité de notre matériel. Même dans ce cas, nous pouvons minimiser cette confiance en sauvegardant de manière sécurisée notre phrase de récupération ou en utilisant des options de garde telles que la multi-signature. De plus, étant donné que toutes décisions visant à modifier les attributs fondamentaux du Bitcoin, telles que son offre totale, sont déterminées et maintenues par la communauté, il existe une protection robuste contre la mise en œuvre de changements préjudiciables qui pourraient nuire aux utilisateurs, c'est-à-dire la dévaluation de la monnaie par l'expansion de l'offre.
 
@@ -730,13 +730,14 @@ Lorsque nous considérons les monnaies fiduciaires du point de vue de "l'actif" 
 
 En tant que citoyens, nous sommes soumis aux décisions prises par ceux en charge des politiques monétaires et fiscales, et nous devons nous fier à leur jugement. Nous confions à notre gouvernement et aux banquiers centraux non élus le soin d'agir dans notre meilleur intérêt, mais leurs choix peuvent affecter de manière significative le pouvoir d'achat de notre monnaie et, par conséquent, notre niveau de vie. Et l'histoire a démontré à de nombreuses reprises que cette confiance a été violée, entraînant une dépréciation monétaire.
 
-#### **Le Réseau** - _Les rails qui nous permettent de transiger les uns avec les autres._
+#### **Le Réseau** - _Les rails qui nous permettent d'échanger les uns avec les autres._
 
-**Lors de l'achat d'un café avec notre carte de crédit, il y a quatre intermédiaires ou plus** - Le premier est la banque utilisée par le café. Ensuite, il y a les réseaux de communication qui permettent aux banques de transférer des fonds entre elles. Puis, il y a l'association qui traite la transaction, telle que Visa, Mastercard ou Discover. Et enfin, il y a notre propre institution bancaire, qui vérifie et enregistre la transaction.
+**Lors de l'achat d'un café avec notre carte de crédit, il y a quatre intermédiaires ou plus** - Le premier est la banque utilisée par le café. Ensuite, il y a les réseaux de communication qui permettent aux banques de transférer des fonds entre elles. Puis, il y a l'organisme qui traite la transaction, telle que Visa, Mastercard ou Discover. Et enfin, il y a notre propre institution bancaire, qui vérifie et enregistre la transaction.
 
 **Lors de l'envoi d'un virement bancaire, nous faisons appel à quatre tiers ou plus** - Pour initier un virement bancaire, nous devons fournir à notre banque les détails bancaires du destinataire. Comme notre banque peut ne pas être directement connectée à la banque du destinataire, les informations de la transaction sont envoyées via le réseau SWIFT (Society for Worldwide Interbank Financial Telecommunications) en utilisant une banque correspondante ou intermédiaire. Ces banques contactent ensuite la banque du destinataire pour compléter le transfert.
 
-**Les organismes de réglementation supervisent diverses branches des rails financiers que nous utilisons quotidiennement** - Si nos opinions politiques entrent en conflit avec les réglementations régissant les réseaux monétaires ou toute partie du processus intermédiaire, nos transactions peuvent être à risque d'être bloquées, et nos actifs pourraient être saisis. Dans des cas extrêmes, nous pourrions même faire face à la possibilité d'être exclus du système financier dans son ensemble.
+**Les organismes de réglementation supervisent diverses branches des rails financiers que nous utilisons quotidiennement** - Si nos opinions politiques entrent en conflit avec les réglementations régissant les réseaux monétaires ou toute partie du processus intermédiaire, nos transactions sont susceptibles d'être bloquées, et nos actifs pourraient être saisis. Dans des cas extrêmes, nous pourrions même faire face à la possibilité d'être exclus du système financier dans son ensemble.
+
 Cela vous semble-t-il effrayant ou improbable ? Au début de 2022, lors du rassemblement des camionneurs au Canada, des individus ont fait des dons pour soutenir la cause. Le Premier ministre Trudeau a fait geler les comptes bancaires de certains de ces individus par son décret. Indépendamment de l'opinion que l'on peut avoir sur la question, le fait que les biens des gens aient été saisis pour leurs opinions divergentes devrait être un signal d'alarme.
 
 Dans cet esprit, il existe d'immenses avantages à non seulement avoir accès à un actif précieux et rare, mais aussi à un réseau sécurisé, efficace, sans confiance, mondial et à faible coût pour échanger de la valeur. Et c'est là que Bitcoin excelle. Comme discuté longuement, la nature décentralisée et numérique de Bitcoin en fait un réseau sans pareil pour des transactions rapides, sécurisées et économiques sans nécessiter d'intermédiaires ou de tiers. Voici quelques exemples de ceux qui bénéficient de l'actif et du réseau inégalés de Bitcoin :
@@ -751,13 +752,15 @@ Fin 2022, presque [la moitié du monde](https://elements.visualcapitalist.com/ma
 
 #### Fuir les pays en guerre ou instables
 
-Bitcoin offre une option viable pour déplacer de la valeur pour ceux qui fuient les pays en guerre ou instables. Dans de nombreux cas, les individus dans ces situations ne peuvent pas accéder aux services bancaires traditionnels en raison d'un manque d'infrastructure ou du contrôle gouvernemental sur les systèmes financiers. Bitcoin permet à ces individus de stocker de la valeur de manière décentralisée et sécurisée sans avoir besoin d'intermédiaires ou d'actifs physiques qui peuvent être vulnérables au vol ou à la confiscation. Avec bitcoin, les individus peuvent transporter leur richesse dans leur tête, à travers les frontières et sans aucune crainte de perdre leurs actifs à cause de bouleversements physiques ou politiques. Cela offre un niveau de liberté et d'indépendance financières sans précédent dans le système financier traditionnel.
+Bitcoin offre une option viable pour déplacer de la valeur pour ceux qui fuient les pays en guerre ou instables. Dans de nombreux cas, les individus dans ces situations ne peuvent pas accéder aux services bancaires traditionnels en raison d'un manque d'infrastructure ou du contrôle gouvernemental sur les systèmes financiers. Bitcoin permet à ces individus de stocker de la valeur de manière décentralisée et sécurisée sans avoir besoin d'intermédiaires ou d'actifs physiques qui peuvent être vulnérables au vol ou à la confiscation. Avec Bbitcoin, les individus peuvent transporter leur richesse dans leur tête, à travers les frontières et sans aucune crainte de perdre leurs actifs à cause de bouleversements physiques ou politiques. Cela offre un niveau de liberté et d'indépendance financières sans précédent dans le système financier traditionnel.
 
 #### Transfert d'argent
 
 Nous discuterons de cela plus en détail dans le module suivant, mais pour l'instant, nous voulons mentionner que Bitcoin offre aux individus un moyen efficace et économique de transférer de l'argent à leurs proches à l'étranger. Contrairement aux méthodes de transfert traditionnelles, qui impliquent souvent des frais de transaction élevés et des temps de traitement longs, les transactions Bitcoin peuvent être complétées rapidement et avec des frais minimaux.
+
 À la lumière de cela, bien que le bitcoin, en tant qu'actif, puisse offrir des avantages significatifs à ceux cherchant à échapper à l'inflation ou à stocker de la valeur dans une monnaie plus sécurisée, nous reconnaissons que de nombreuses personnes pourraient ne pas être en mesure de tirer avantage de cet actif, c'est-à-dire que la volatilité du bitcoin en tant qu'actif, peut ne pas convenir pour le stockage de valeur à court terme ou pour ceux ayant des économies limitées. Heureusement, le réseau du Bitcoin jouera ici un rôle crucial, en particulier pour les individus sans accès aux banques ou aux actifs financiers, étant donné que les rails de paiement du réseau facilitent les transactions financières numériques pour quiconque possède un téléphone mobile et une connexion internet.
-Le Bitcoin devient également rapidement le protocole de transfert de valeur sous-jacent de l'internet. En raison de la capacité de transaction à faible coût, des services tels que le streaming de valeur commencent à proliférer, connectant directement les créateurs de contenu à leur public. De même, cette capacité de streaming à faible coût connaît des percées dans les services payants tels que la mesure de l'énergie, où les utilisateurs peuvent payer pour la demande instantanée, en streamant du bitcoin sur une base de coût à l'usage. Les offres de paiement peer-to-peer sans friction révolutionnent la manière dont les gens interagissent avec les biens et services à travers le domaine numérique.
+
+Le Bitcoin devient également rapidement le protocole de transfert de valeur sous-jacent d'internet. En raison de la capacité de transaction à faible coût, des services tels que le streaming de valeur commencent à proliférer, connectant directement les créateurs de contenu à leur public. De même, cette capacité de streaming à faible coût connaît des percées dans les services payants tels que la mesure de l'énergie, où les utilisateurs peuvent payer pour la demande instantanée, en streamant du bitcoin sur une base de coût à l'usage. Les offres de paiement pair-à-pair sans friction révolutionnent la manière dont les gens interagissent avec les biens et services à travers le domaine numérique.
 
 **Conclusion**
 
@@ -765,7 +768,7 @@ Les caractéristiques uniques du Bitcoin en tant que réserve de valeur, moyen d
 
 De plus, ces attributs combinés positionnent non seulement le Bitcoin comme un instrument puissant pour stocker et accumuler de la richesse sur le long terme (le bitcoin en tant qu'actif) mais offrent également de nombreux avantages pour ceux cherchant à utiliser le Bitcoin comme moyen transactionnel (le réseau Bitcoin). Cela contraste fortement avec les monnaies fiduciaires, qui nécessitent confiance et intermédiaires dans les deux scénarios. Cela rend le Bitcoin une monnaie attrayante pour les individus et les entreprises, que ce soit pour l'épargne ou les transactions.
 
-## Interagir Avec le Bitcoin
+## Interagir Avec Bitcoin
 
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
@@ -773,16 +776,18 @@ Le Bitcoin a pris d'assaut le système monétaire, captivant l'attention des pay
 
 Dans cette section, nous explorerons les différentes couches de transaction, que ce soit en fiat ou en Bitcoin. Nous explorerons également certaines des meilleures pratiques pour garder votre bitcoin en sécurité, y compris l'importance de choisir le bon portefeuille.
 
-### Les Couches du Bitcoin
+### Les Couches de Bitcoin
 
-La blockchain du Bitcoin est composée de blocs, comme son nom l'indique. Ces blocs ont une taille maximale théorique de 4 mégaoctets. _Cela dit, la taille moyenne des blocs au moment de la rédaction est d'environ 1,5 Mo._ En raison de cette limite, il y a une restriction sur le nombre de transactions que le Bitcoin peut traiter par seconde, qui est entre sept à dix transactions par seconde (tps).
+La blockchain de Bitcoin est composée de blocs, comme son nom l'indique. Ces blocs ont une taille maximale théorique de 4 mégaoctets. _Cela dit, la taille moyenne des blocs au moment de la rédaction est d'environ 1,5 Mo._ En raison de cette limite, il y a une restriction sur le nombre de transactions que Bitcoin peut traiter par seconde, qui est entre sept à dix transactions par seconde (tps).
 
-Par conséquent, vous pourriez vous demander : Comment la blockchain du Bitcoin peut-elle éventuellement concurrencer des réseaux tels que Visa ou Mastercard qui traitent à [1 700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) ?
+Par conséquent, vous pourriez vous demander : Comment la blockchain de Bitcoin peut-elle éventuellement concurrencer des réseaux tels que Visa ou Mastercard qui traitent [1 700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) ?
 
 La réponse est simple. Elle ne les concurrence pas.
 
-Comparer la blockchain du Bitcoin à Visa ou Mastercard, c'est comme comparer un porte-conteneurs international à une caisse dans un magasin de bricolage local. Le porte-conteneurs est destiné aux transactions en gros peu fréquentes, tandis qu'une caisse est conçue autour de transactions petites et à haute fréquence. Bien que les deux déplacent des biens, les comparer est comme comparer des pommes et des oranges.
+Comparer la blockchain de Bitcoin à Visa ou Mastercard, c'est comme comparer un porte-conteneurs international à une caisse dans un magasin de bricolage local. Le porte-conteneurs est destiné aux transactions en gros peu fréquentes, tandis qu'une caisse est conçue autour de transactions petites et à haute fréquence. Bien que les deux déplacent des biens, les comparer est comme comparer des pommes et des oranges.
+
 Avec cela à l'esprit, Bitcoin offre des transactions sans confiance et sans permission avec un règlement final, tandis que Visa et Mastercard fournissent commodité et facilité d'utilisation. Cependant, cela ne veut pas dire que la blockchain de Bitcoin n'offre pas ces choses également. Elle ne cherche simplement pas à les atteindre sur la chaîne de base ou couche de base, comme elle est communément appelée.
+
 Explorons ce que cela signifie...
 
 Lors de l'examen de tout système monétaire, il existe souvent différentes méthodes, ou couches, de transaction, chaque méthode offrant divers avantages à l'utilisateur. Les couches de transaction dans notre système monétaire actuel incluent :
@@ -793,7 +798,7 @@ Lors de l'examen de tout système monétaire, il existe souvent différentes mé
 
 **Où la blockchain Bitcoin se situe-t-elle dans les transactions de couche un et deux ?**
 
-La blockchain Bitcoin est une excellente alternative aux transactions de couche un. Bien qu'elle ne puisse pas égaler la vitesse d'un paiement Visa de couche deux, elle est capable de traiter des transactions de haute valeur à une fraction de la vitesse et du coût des méthodes traditionnelles de couche un. De plus, Bitcoin fonctionne de manière permissionless et sans confiance, ce qui signifie que les transactions peuvent être effectuées sans intermédiaires.
+La blockchain Bitcoin est une excellente alternative aux transactions de couche un. Bien qu'elle ne puisse pas égaler la vitesse d'un paiement Visa de couche deux, elle est capable de traiter des transactions de grande valeur à une fraction de la vitesse et du coût des méthodes traditionnelles de couche un. De plus, Bitcoin fonctionne de façon ouverte à tous (permissionless) et sans confiance (trustless), ce qui signifie que les transactions peuvent être effectuées sans intermédiaires.
 
 Cependant, malgré ses avantages en tant que solution de couche un, Bitcoin peut également rivaliser avec les méthodes de transaction de couche deux. Il existe des technologies construites au-dessus du réseau Bitcoin, telles que Lightning, qui permettent aux utilisateurs de transacter de manière quasi instantanée et pour des fractions de centime. Ces technologies peuvent être considérées comme des solutions de couche deux pour le réseau Bitcoin. Avec cela à l'esprit, tout comme notre système monétaire traditionnel a des transactions de couche un et deux, Bitcoin aussi.
 
@@ -806,43 +811,45 @@ Concentrons-nous maintenant sur ce qu'il faut faire une fois que vous avez acqui
 
 ### Sécuriser Votre Bitcoin en Toute Sécurité
 
-Ce qui rend Bitcoin révolutionnaire, c'est que, pour la première fois dans l'histoire, nous pouvons prendre en charge la garde d'un actif numérique par nous-mêmes. Cette prouesse ne peut pas être trop soulignée ! Tout comme nous pouvons stocker de l'argent sous notre oreiller, nous pouvons faire de même avec le bitcoin, mais de manière numérique. Cependant, ce nouveau niveau de contrôle sur notre argent s'accompagne de nouvelles responsabilités. Pour garder notre bitcoin en sécurité, nous devons apprendre à le sécuriser correctement. Cela signifie prendre des mesures pour se protéger contre la perte, le vol et les tentatives de piratage.
+Ce qui rend Bitcoin révolutionnaire, c'est que, pour la première fois dans l'histoire, nous pouvons prendre en charge la garde d'un actif numérique par nous-mêmes. Cette prouesse ne saurait être trop soulignée ! Tout comme nous pouvons stocker de l'argent sous notre oreiller, nous pouvons faire de même avec le bitcoin, mais de manière numérique. Cependant, ce nouveau niveau de contrôle sur notre argent s'accompagne de nouvelles responsabilités. Pour garder notre bitcoin en sécurité, nous devons apprendre à le sécuriser correctement. Cela signifie prendre des mesures pour se protéger contre la perte, le vol et les tentatives de piratage.
 
 #### Où Stocker Votre Bitcoin
 
 La première étape pour sécuriser votre bitcoin est de choisir le bon portefeuille. Sans entrer dans trop de détails, il existe principalement deux types de portefeuilles disponibles : les portefeuilles de garde et les portefeuilles non-custodiaux.
 
 **Portefeuilles de Garde**
+
 Ce sont des portefeuilles où, bien que vous puissiez accéder à votre portefeuille et déplacer des fonds, un tiers stocke et sécurise votre bitcoin.
 
-Un exemple courant de portefeuille de garde est un compte d'échange. Lorsque vous achetez du bitcoin via un échange et laissez votre bitcoin sur l'échange, vous utilisez un portefeuille de garde. L'échange a la garde de votre bitcoin et est responsable de stocker et de sécuriser vos fonds.
+Un exemple courant de portefeuille de garde est un compte sur une plateforme d'échange (exchange). Lorsque vous achetez du bitcoin via un exchange et laissez votre bitcoin sur la plateforme, vous utilisez un portefeuille de garde. L'exchange a la garde de votre bitcoin et est responsable de stocker et de sécuriser vos fonds.
 
 Il existe également d'innombrables autres solutions de portefeuilles de garde disponibles pour les appareils mobiles qui vous donnent un accès facile à votre bitcoin. Ces portefeuilles sont généralement faciles à utiliser et offrent un moyen simple de gérer votre bitcoin, mais ils détiennent toujours les clés de votre bitcoin.
 
-**Portefeuilles Non-Custodiaux (a.k.a. auto-garde)**
-Les portefeuilles non-custodiaux sont un type de portefeuille Bitcoin où vous êtes le seul gardien de vos fonds, ce qui signifie que vous avez un contrôle total sur vos clés privées. Les clés privées sont comme un mot de passe pour votre portefeuille et sont utilisées pour signer et autoriser les transactions. Sans elles, vous ne pouvez pas accéder ou transférer votre bitcoin.
+**Portefeuilles Non Custodiaux (a.k.a. auto-garde)**
 
-Les portefeuilles non-custodiaux offrent un niveau de sécurité et de confidentialité supérieur aux portefeuilles de garde puisque vous êtes le seul responsable de la sécurité de vos fonds. Des exemples de portefeuilles non-custodiaux incluent des portefeuilles matériels comme [Coldcard](https://store.coinkite.com/store/coldcard) et [Trezor](https://trezor.io/), qui sont des dispositifs physiques qui stockent vos clés privées hors ligne et fournissent une couche supplémentaire de sécurité. D'autres portefeuilles non-custodiaux populaires sont des portefeuilles logiciels comme [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), et [Blockstream Green](https://blockstream.com/green/), qui peuvent être téléchargés et installés sur votre ordinateur ou appareil mobile.
+Les portefeuilles non custodiaux sont un type de portefeuille Bitcoin où vous êtes le seul gardien de vos fonds, ce qui signifie que vous avez un contrôle total sur vos clés privées. Les clés privées sont comme un mot de passe pour votre portefeuille et sont utilisées pour signer et autoriser les transactions. Sans elles, vous ne pouvez pas accéder ou transférer votre bitcoin.
+
+Les portefeuilles non custodiaux offrent un niveau de sécurité et de confidentialité supérieur aux portefeuilles de garde puisque vous êtes le seul responsable de la sécurité de vos fonds. Des exemples de portefeuilles non custodiaux incluent des portefeuilles matériels comme [Coldcard](https://store.coinkite.com/store/coldcard) et [Trezor](https://trezor.io/), qui sont des dispositifs physiques qui stockent vos clés privées hors ligne et fournissent une couche supplémentaire de sécurité. D'autres portefeuilles non custodiaux populaires sont des portefeuilles logiciels comme [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), et [Blockstream Green](https://blockstream.com/green/), qui peuvent être téléchargés et installés sur votre ordinateur ou appareil mobile.
 
 \*_Bien que nous ne puissions recommander un portefeuille spécifique, nous vous conseillons vivement de prendre le contrôle de votre bitcoin par l'auto-garde ou la garde collaborative, ce qui implique de sélectionner un portefeuille qui répond à vos besoins et préférences. Il est essentiel de mener une recherche approfondie avant de décider d'un portefeuille pour s'assurer qu'il correspond à vos exigences de sécurité et d'utilisabilité._
 
-Bien que les portefeuilles de garde puissent sembler pratiques, ils comportent des risques significatifs. En donnant la garde de vos clés privées à un tiers, vous leur donnez effectivement le contrôle de vos fonds. Si le gardien fait faillite, est piraté ou ferme, vous pourriez perdre l'accès à votre bitcoin. Et cela s'est produit à de nombreuses reprises, avec des exemples de profil élevé incluant les piratages de Mt. Gox et QuadrigaCX résultant en la perte de fonds des clients, ou FTX, Voyager, BlockFi, et Celsius connaissant des insolvabilités catastrophiques, menant à la perte de leurs fonds clients. Surtout pour les économies, pratiquer l'auto-garde et prendre la responsabilité de sécuriser votre bitcoin est crucial.
+Bien que les portefeuilles de garde puissent sembler pratiques, ils comportent des risques significatifs. En donnant la garde de vos clés privées à un tiers, vous leur donnez effectivement le contrôle de vos fonds. Si le gardien fait faillite, est piraté ou ferme, vous pourriez perdre l'accès à votre bitcoin. Et cela s'est produit à de nombreuses reprises, avec des exemples de profil élevé incluant les piratages de Mt. Gox et QuadrigaCX entrainant la perte des fonds des clients, ou FTX, Voyager, BlockFi, et Celsius connaissant des insolvabilités catastrophiques, menant aussi à la perte des fonds de leurs clients. Surtout pour l'épargne, pratiquer l'auto-garde et prendre la responsabilité de sécuriser votre bitcoin est crucial.
 
 #### Conseils de Sécurité
 
 Une fois que vous avez choisi un portefeuille, le plaisir et les jeux ne sont pas encore terminés. Il est maintenant temps de minimiser le risque de perte. Pour protéger vos bitcoins, envisagez ces étapes après avoir choisi votre portefeuille :
 
-1. Tout d'abord, sauvegardez votre portefeuille lors de la prise en auto-garde. Les portefeuilles matériels sont accompagnés d'une phrase de récupération, un ensemble de mots qui peut être utilisé pour récupérer vos clés privées en cas de perte ou de dommage de votre appareil. Créez une copie physique, telle qu'une plaque de semence en métal, de cette [phrase de semence](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) et stockez-la dans un endroit sûr. Il est important de garder cette phrase de récupération sécurisée. NE la partagez JAMAIS avec qui que ce soit.
-2. Lors de la sauvegarde d'une quantité substantielle de bitcoins qui dépasse le seuil que vous ne voudriez pas perdre, il est important d'explorer les options de planification successorale pour l'événement imprévu de votre décès. Cela garantit que votre famille et vos proches peuvent accéder et gérer vos bitcoins efficacement.
+1. Tout d'abord, sauvegardez votre portefeuille lors de la prise en auto-garde. Les portefeuilles matériels sont accompagnés d'une phrase de récupération (seed phrase), un ensemble de mots qui peut être utilisé pour récupérer vos clés privées en cas de perte ou de dommage de votre appareil. Créez une copie physique, comme une plaque en métal, de cette [seed phrase](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) et stockez-la dans un endroit sûr. Il est important de garder cette phrase de récuparation sécurisée. NE la partagez JAMAIS avec qui que ce soit.
+2. Lors de la sauvegarde d'une quantité substantielle de bitcoins qui dépasse le seuil que vous ne voudriez pas perdre, il est important d'explorer les options de planification successorale pour anticiper l'éventualité de votre décès. Cela garantit que votre famille et vos proches peuvent accéder et gérer vos bitcoins efficacement.
 3. Soyez vigilant contre les tentatives de phishing et autres escroqueries. Les escrocs essaient souvent de vous tromper en leur donnant accès à vos bitcoins en se faisant passer pour une entreprise ou une personne de confiance. Aucune entreprise réputée ne vous demandera jamais vos clés privées, donc ne partagez jamais vos clés privées avec qui que ce soit, et vérifiez toujours l'authenticité de tout site Web ou individu avant d'envoyer des bitcoins.
 
 Bien que l'auto-garde soit notre approche recommandée, nous comprenons qu'elle peut ne pas convenir à tout le monde. Voici quelques lignes directrices générales pour aider à minimiser le risque :
 
-- Utilisez des échanges pour acheter des bitcoins, des portefeuilles mobiles pour les transactions quotidiennes et des portefeuilles matériels pour stocker vos économies de bitcoins à long terme.
-- Traitez les échanges ou les portefeuilles mobiles comme votre portefeuille physique, en ne gardant que la quantité de bitcoins que vous porteriez dans votre portefeuille quotidien.
+- Utilisez des exchanges pour acheter des bitcoins, des portefeuilles mobiles pour les transactions quotidiennes et des portefeuilles matériels pour stocker vos économies de bitcoins à long terme.
+- Traitez les exchanges ou les portefeuilles mobiles comme votre portefeuille physique, en ne gardant que la quantité de bitcoins que vous porteriez dans votre portefeuille quotidien.
 - Considérez votre portefeuille matériel comme votre compte d'épargne. Il est destiné à un accès peu fréquent et privilégie la sécurité et la sûreté à long terme.
 
-Et si vous utilisez un échange :
+Et si vous utilisez un exchange :
 
 1. Créez un mot de passe fort et unique. Évitez d'utiliser des phrases communes ou des mots de passe faciles à deviner. Envisagez d'utiliser un gestionnaire de mots de passe.
 2. Activez l'authentification à deux facteurs (2FA) chaque fois que possible. Cela ajoute une couche supplémentaire de sécurité en exigeant un code de votre téléphone ou appareil matériel en plus de votre mot de passe.
@@ -864,7 +871,7 @@ Si vous êtes intéressé à explorer davantage le monde de Bitcoin, de nombreus
 
 ### **Conclusion**
 
-Bien que nous entendions souvent dire que Bitcoin ne pourra jamais rivaliser avec Visa ou Mastercard, espérons que cette section a prouvé que cette notion est fausse. Plutôt que de concurrencer directement ces entreprises, la couche de base de Bitcoin est conçue pour traiter les transactions de grande valeur beaucoup plus efficacement que les méthodes traditionnelles. Cela en fait une alternative fantastique aux solutions de couche un traditionnelles. De plus, des technologies comme The Lightning Network, construites au-dessus de la couche un de Bitcoin, permettent des transactions presque instantanées pour juste une fraction de centime. Ainsi, Bitcoin peut toujours concurrencer Visa et Mastercard, offrant des solutions tant pour les entreprises que pour les particuliers.
+Bien que nous entendions souvent dire que Bitcoin ne pourra jamais rivaliser avec Visa ou Mastercard, espérons que cette section a prouvé que cette notion est fausse. Plutôt que de concurrencer directement ces entreprises, la couche de base de Bitcoin est conçue pour traiter les transactions de grande valeur beaucoup plus efficacement que les méthodes traditionnelles. Cela en fait une alternative fantastique aux solutions de couche un traditionnelles. De plus, des technologies comme le Lightning Network, construites au-dessus de la couche un de Bitcoin, permettent des transactions presque instantanées pour juste une fraction de centime. Ainsi, Bitcoin peut toujours concurrencer Visa et Mastercard, offrant des solutions tant pour les entreprises que pour les particuliers.
 
 Le plus grand avantage de Bitcoin est qu'il nous permet d'avoir l'auto-garde d'un actif numérique, ce qui n'était jamais possible auparavant. Si vous vous sentez dépassé après avoir parcouru cette section, ne vous inquiétez pas. Prendre le contrôle de votre propre bitcoin est un pas puissant vers la liberté financière, mais cela vient aussi avec de nouvelles responsabilités. Cependant, avec un peu de recherche et de diligence raisonnable, ces nouvelles responsabilités deviendront rapidement une seconde nature pour vous, et vous vous sentirez à l'aise de prendre en charge la tâche de sécuriser votre bitcoin en toute sécurité.
 
@@ -872,36 +879,38 @@ Le plus grand avantage de Bitcoin est qu'il nous permet d'avoir l'auto-garde d'u
 
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
-Maintenant que vous avez parcouru le Module "An Examination of How We Got Here", vous devrez tester vos connaissances nouvellement acquises pour vous assurer que vous avez compris les dernières sections. Nous commencerons par plusieurs questions ouvertes, puis un petit quiz.
+Maintenant que vous avez parcouru le Module "Un examen de la manière dont nous en sommes arrivés là", vous devrez tester vos connaissances nouvellement acquises pour vous assurer que vous avez compris les dernières sections. Nous commencerons par plusieurs questions ouvertes, puis un petit quiz.
 
 1. Quelles sont vos réflexions sur le concept d'une monnaie numérique décentralisée sans confiance et sans permission comme Bitcoin ? Comment pensez-vous qu'elle se compare aux formes traditionnelles de monnaie ?
 2. Croyez-vous que l'offre limitée de bitcoin, avec seulement 21 millions de pièces, lui donne de la valeur et le rend plus désirable ? Pourquoi ou pourquoi pas ?
 3. Basé sur les informations fournies sur Satoshi Nakamoto, pensez-vous qu'il est important de connaître la véritable identité du créateur de Bitcoin ? Pourquoi ou pourquoi pas ?
 4. Êtes-vous d'accord avec les préoccupations de Satoshi Nakamoto concernant les systèmes bancaires centralisés et la confiance requise dans les monnaies conventionnelles ? Pourquoi ou pourquoi pas ?
 5. Imaginez que vous vivez dans un pays connaissant une forte inflation. Comment bitcoin pourrait-il fournir une solution pour préserver votre pouvoir d'achat ?
-6. Considérez un scénario où vous devez envoyer de l'argent à un membre de votre famille dans un autre pays. Comment la nature peer-to-peer de Bitcoin et ses faibles frais pourraient-ils vous bénéficier dans cette situation ?
+6. Considérez un scénario où vous devez envoyer de l'argent à un membre de votre famille dans un autre pays. Comment la nature pair-à-pair de Bitcoin et ses faibles frais pourraient-ils vous bénéficier dans cette situation ?
 
-# Stabilité au milieu du chaos - Une introduction à Tether & le monde des stablecoins
+# Stabilité au milieu du chaos - Une introduction à Tether & au monde des stablecoins
 
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
-## Une introduction à Tether & le monde des stablecoins
+## Une introduction à Tether & au monde des stablecoins
 
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Comme discuté précédemment, l'argent a été une partie essentielle de l'humanité pendant des milliers d'années. Il nous a aidés à acheter des biens et des services, nous a permis de commercer les uns avec les autres et nous a assistés dans la conservation de la richesse.
 
-Mais à mesure que la société a évolué, notre relation avec l'argent a changé. Des pièces aux billets de banque et des comptes bancaires numériques à Bitcoin, notre argent a dû suivre le rythme des temps.
+Mais à mesure que la société a évolué, notre relation avec l'argent a changé. Des pièces aux billets de banque et des comptes bancaires numériques à Bitcoin, notre argent a dû suivre le rythme du temps.
 
 Au cours des dernières décennies, internet a révolutionné la manière dont nous interagissons les uns avec les autres, et notre argent a dû évoluer à son tour. Les cryptomonnaies, telles que Bitcoin, ont émergé et, bien qu'elles aient gagné une immense popularité et offert une promesse à ceux déçus par notre système monétaire actuel, elles ont également souligné les limitations de la banque traditionnelle.
-Étant donné la nature numérique du Bitcoin, il est toujours ouvert aux affaires, fonctionnant 24 heures sur 24, 365 jours par an, avec des personnes achetant et vendant chaque seconde de chaque jour. Pendant ce temps, il y a d'innombrables individus dans le monde qui ne peuvent pas accéder aux services bancaires. Cela mis à part, même lorsqu'ils ont la chance d'être "bancarisés", la banque moyenne n'opère qu'une fraction de la journée, nous laissant largement à la merci de leurs heures d'ouverture.
+
+Étant donné la nature numérique du Bitcoin, il est toujours ouvert, fonctionnant 24 heures sur 24, 365 jours par an, avec des personnes achetant et vendant chaque seconde de chaque jour. Pendant ce temps, il y a d'innombrables individus dans le monde qui ne peuvent pas accéder aux services bancaires. Cela mis à part, même lorsqu'ils ont la chance d'être "bancarisés", la banque moyenne n'opère qu'une fraction de la journée, nous laissant largement à la merci de leurs heures d'ouverture.
+
 Il est facile de négliger ces faits jusqu'à ce que vous commenciez à faire les calculs.
 
 Premièrement, [un quart](https://www.worldbank.org/en/publication/globalfindex) des individus à l'échelle mondiale sont considérés comme non bancarisés. Cela signifie qu'il y a bien plus d'un milliard d'individus qui ne peuvent pas effectuer de transactions numériquement, encore moins épargner de manière sécurisée.
 
 Et deuxièmement, considérant qu'il y a 8760 heures dans une année et que la banque moyenne n'opère que de 10h à 17h du lundi au samedi et est fermée les dimanches et jours fériés, la banque moyenne n'est ouverte que pour un maigre 2100 heures par an. Cela représente seulement 24% du temps !
 
-Ainsi, en dehors des milliards de personnes incapables d'accéder aux services bancaires et aux services bancaires en ligne qui ne nécessitent pas d'assistance, accéder à l'argent de manière efficace et opportune reste un défi pour beaucoup.
+Ainsi, en dehors des milliards de personnes incapables d'accéder aux services bancaires et aux services bancaires en ligne qui ne nécessitent pas d'assistance, accéder à l'argent de manière efficace et rapide reste un défi pour beaucoup.
 
 Pour aggraver les choses, à moins que nous ne recourions au liquide, tous nos fonds sont soumis aux contraintes de la banque traditionnelle. Cela présente un risque significatif si notre gouvernement impose une réforme bancaire oppressante, comme cela a été vu lors de la faillite du gouvernement grec en 2015.
 
@@ -917,9 +926,9 @@ Et c'est là que Tether entre en jeu.
 
 #### Qui est Tether ?
 
-Dans le paysage en constante évolution des monnaies fiduciaires, Tether a émergé comme un acteur clé, animé par une vision pour répondre aux besoins financiers du monde moderne. Alors que les monnaies traditionnelles luttent continuellement pour suivre le rythme des demandes de notre économie mondiale en rapide changement, et que la volatilité à court terme du Bitcoin rend difficile pour ceux qui manquent de capacité à épargner, les fondateurs de Tether ont reconnu une opportunité de faire le pont entre ces mondes.
+Dans le paysage en constante évolution des monnaies fiduciaires, Tether a émergé comme un acteur clé, animé par une vision pour répondre aux besoins financiers du monde moderne. Alors que les monnaies traditionnelles luttent continuellement pour suivre le rythme des demandes de notre économie mondiale en rapide changement, et que la volatilité à court terme de Bitcoin rend difficile pour ceux qui manquent de capacité à épargner, les fondateurs de Tether ont reconnu une opportunité de faire le pont entre ces mondes.
 
-Tether est "un perturbateur du système financier conventionnel et un pionnier dans l'utilisation numérique des monnaies traditionnelles." Leur objectif principal est d'améliorer l'adoption du Bitcoin en faisant le pont entre le monde financier traditionnel et le monde numérique du Bitcoin. Ils y parviennent en offrant une variété de jetons numériques, souvent appelés "stablecoins", qui conservent leur valeur grâce à leur ancrage—sans jeu de mots—aux actifs du monde physique. Tether investit également dans le minage de Bitcoin, l'éducation sur le Bitcoin, l'infrastructure de paiement en Bitcoin, et la recherche et le développement avancés sur le Bitcoin.
+Tether est "un perturbateur du système financier conventionnel et un pionnier dans l'utilisation numérique des monnaies traditionnelles." Leur objectif principal est d'améliorer l'adoption de Bitcoin en faisant le pont entre le monde financier traditionnel et le monde numérique de Bitcoin. Ils y parviennent en offrant une variété de jetons numériques, souvent appelés "stablecoins", qui conservent leur valeur grâce à leur ancrage aux actifs du monde physique. Tether investit également dans le minage de Bitcoin, l'éducation sur le Bitcoin, l'infrastructure de paiement en Bitcoin, et la recherche et le développement avancés sur le Bitcoin.
 
 #### Qu'est-ce qu'un stablecoin ?
 

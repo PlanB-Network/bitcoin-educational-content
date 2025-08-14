@@ -2,7 +2,7 @@
 name: Les rouages des portefeuilles Bitcoin
 goal: Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 objectives:
-  - Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
+  - Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés par Bitcoin.
   - Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
   - Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
   - Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
@@ -10,7 +10,7 @@ objectives:
 
 # Un voyage au cœur des portefeuilles Bitcoin
 
-Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
+Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques, ou portefeuilles HD, avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
 
 Découvrez les mécanismes des fonctions de hachage, des signatures numériques (ECDSA et Schnorr), de la phrase mnémonique, des clés cryptographiques et de la création des adresses de réception, tout en explorant des stratégies de sécurisation avancées.
 

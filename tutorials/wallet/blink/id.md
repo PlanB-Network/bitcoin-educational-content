@@ -43,10 +43,10 @@ Bagian paling asiknya? Kamu bisa pindah dari “Aku mau simpan Bitcoin karena ya
 ## Prasyarat
 
 
-Sebelum memulai, Anda perlu:
+Sebelum mulai, kamu perlu:
 
 
-- Ponsel cerdas (iOS atau Android)
+- Smartphone (iOS atau Android)
 - Nomor telepon (untuk verifikasi)
 - Akses internet
 
@@ -54,23 +54,23 @@ Sebelum memulai, Anda perlu:
 ## Pengaturan Awal
 
 
-Inilah yang mengejutkan banyak pengguna: Menyiapkan Blink lebih cepat daripada membuat akun media sosial karena tidak ada dokumen, tidak ada unggahan identitas, dan tidak perlu menunggu. Hanya cepat dan mudah.
+Yang akan bikin kamu kaget: Bikin akun Blink itu lebih cepat daripada bikin akun media sosial. Nggak perlu dokumen, nggak perlu upload identitas, dan nggak perlu nunggu. Cepat dan gampang.
 
 
 **Seluruh proses:**
 
 
-- Unduh Blink Wallet
- - Cari "Blink Wallet" di [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) atau [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), tergantung perangkat Anda.
- - Anda juga dapat mengunduhnya secara langsung dari [situs web Blink Wallet](https://blink.sv).
+- Download Blink Wallet
+ - Cari "Blink Wallet" di [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) atau [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), tergantung perangkatmu.
+ - Kamu juga bisa mendownloadnya secara langsung dari [situs web Blink Wallet](https://blink.sv).
 - Membuat Wallet
  - Ketuk "Buat Wallet Baru"
  - Menyetujui syarat dan ketentuan
- - Masukkan nomor telepon Anda
- - Verifikasi menggunakan SMS atau WhatsApp untuk menerima kode Anda
+ - Masukkan nomor telepon milikmu
+ - Verifikasi menggunakan SMS atau WhatsApp untuk menerima kode
  - Masukkan kode untuk memverifikasi
-- Selesai, itu saja.
- - Nomor telepon Anda menjadi login Anda. Selesai.
+- Selesai, itu aja.
+ - Nomor telepon Anda menjadi opsi login . Selesai.
 
 
 ## Memahami Wallet Interface Anda
@@ -79,10 +79,10 @@ Inilah yang mengejutkan banyak pengguna: Menyiapkan Blink lebih cepat daripada m
 ![image](assets/fr/02.webp)
 
 
-Ketika Anda membuka [Blink Wallet] (https://blink.sv/) untuk pertama kalinya, Anda akan melihat sesuatu yang bersih dan menyegarkan. Tidak ada grafik yang meneriaki Anda, tidak ada angka yang berkedip, hanya saldo Anda dan beberapa tombol sederhana.
+Ketika kamu membuka [Blink Wallet] (https://blink.sv/) untuk pertama kalinya, Kamu bakal ngelihat tampilan yang bersih dan segar. Nggak ada grafik yang rame, nggak ada angka kedip-kedip—cuma saldo kamu dan beberapa tombol simpel.
 
 
-### Ikhtisar Layar Utama
+### Ringkasan Layar Utama
 
 
 

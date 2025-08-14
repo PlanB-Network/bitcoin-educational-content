@@ -13,7 +13,7 @@ A questo punto, hai già:
 
 - Scelto un tema per il tuo tutorial;
 - Contattato il team di Plan ₿ Network tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
-- Scelto gli strumenti di contribuzione.
+- Scelto gli strumenti di per contribuire.
 
 In questo tutorial per utenti esperti di Git, riassumeremo brevemente i passaggi chiave e le linee guida essenziali per creare un nuovo tutorial su Plan ₿ Network. Se non hai familiarità con Git e GitHub, ti consiglio di seguire uno di questi due tutorial più dettagliati che ti accompagneranno passo dopo passo:
 
@@ -265,7 +265,7 @@ git push origin tuto-green-wallet-loic
 
 
 - Attendi la convalida o il feedback di un amministratore.
-- Se necessario, apporta le correzioni e invia nuovi commit.
+- Se necessario, apporta delle correzioni e invia nuovi commit.
 
 ```
 # Créez un commit décrivant les corrections apportées
@@ -294,14 +294,14 @@ print("Hello, Bitcoin!")
 **- Illustrazioni e diagrammi**:
     - Tutte le immagini devono essere in formato WebP. Se necessario, utilizza questo strumento gratuito per convertirle: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nomina le immagini con 2 o 3 cifre (ad esempio, `001.webp`, `002.webp`).
-    - Per i tutorial sui wallet mobili o hardware, utilizza dei mock-up.
+    - Per i tutorial sui wallet su mobile o hardware, utilizza dei mock-up.
     - Utilizza solo immagini create da te o libere da diritti d'autore.
     - Assicurati che siano pertinenti e di alta qualità.
 **- Carta grafica**:
     - Font: [Rubik](https://fonts.google.com/specimen/Rubik).
-    - Colori Plan ₿ Network:
+    - Pantone usato su Plan ₿ Network:
         - Arancione: `#FF5C00`
         - Nero: `#000000`
         - Bianco: `#FFFFFF`
 
-Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato ai collaboratori Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!
+Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato ai contributors di Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!

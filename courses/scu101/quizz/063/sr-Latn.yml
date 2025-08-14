@@ -1,0 +1,9 @@
+question: Koja sertifikacija je priznata širom sveta u oblasti sajber bezbednosti?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP sertifikacija je jedna od međunarodno najpriznatijih u oblasti sajber bezbednosti.
+reviewed: false

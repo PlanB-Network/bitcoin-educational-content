@@ -1,0 +1,9 @@
+question: What certification is recognized worldwide in the field of cybersecurity?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  The CISSP certification is one of the most internationally recognized in the field of cybersecurity.
+reviewed: false

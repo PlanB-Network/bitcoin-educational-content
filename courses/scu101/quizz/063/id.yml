@@ -1,0 +1,9 @@
+question: Sertifikasi apa yang diakui di seluruh dunia dalam bidang keamanan siber?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Sertifikasi CISSP adalah salah satu yang paling diakui secara internasional di bidang keamanan siber.
+reviewed: false

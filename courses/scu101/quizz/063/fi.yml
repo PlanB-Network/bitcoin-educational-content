@@ -1,0 +1,9 @@
+question: Mikä sertifiointi tunnustetaan maailmanlaajuisesti kyberturvallisuuden alalla?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP-sertifiointi on yksi kansainvälisesti tunnustetuimmista kyberturvallisuuden alalla.
+reviewed: false

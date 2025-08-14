@@ -1,0 +1,9 @@
+question: Hvilken sertifisering er anerkjent over hele verden innen cybersikkerhet?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP-sertifiseringen er en av de mest internasjonalt anerkjente sertifiseringene innen cybersikkerhet.
+reviewed: false

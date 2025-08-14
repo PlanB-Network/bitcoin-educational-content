@@ -1,0 +1,9 @@
+question: Jaki certyfikat jest uznawany na całym świecie w dziedzinie cyberbezpieczeństwa?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Certyfikat CISSP jest jednym z najbardziej rozpoznawalnych na świecie w dziedzinie cyberbezpieczeństwa.
+reviewed: false

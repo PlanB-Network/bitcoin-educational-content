@@ -1,0 +1,9 @@
+question: 在網路安全領域中，有哪些認證是全球公認的？
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP 認證是網路安全領域中最受國際認可的認證之一。
+reviewed: false

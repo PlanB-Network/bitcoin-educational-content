@@ -1,0 +1,9 @@
+question: Какой сертификат признан во всем мире в области кибербезопасности?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Сертификат CISSP - один из самых признанных в мире в области кибербезопасности.
+reviewed: false

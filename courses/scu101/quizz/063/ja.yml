@@ -1,0 +1,9 @@
+question: サイバーセキュリティの分野で世界的に認められている資格は何ですか？
+answer: CISSP
+wrong_answers:
+  - ピーエムピー
+  - アイティル
+  - SHA2
+explanation: |
+  CISSP資格は、サイバーセキュリティの分野で最も国際的に認知されている資格の1つである。
+reviewed: false

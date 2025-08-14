@@ -1,0 +1,9 @@
+question: Welche Zertifizierung ist im Bereich der Cybersicherheit weltweit anerkannt?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Die CISSP-Zertifizierung ist eine der international anerkanntesten im Bereich der Cybersicherheit.
+reviewed: false

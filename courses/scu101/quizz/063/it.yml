@@ -1,0 +1,9 @@
+question: Quale certificazione è riconosciuta a livello mondiale nel campo della cybersecurity?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  La certificazione CISSP è una delle più riconosciute a livello internazionale nel campo della sicurezza informatica.
+reviewed: false

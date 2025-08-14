@@ -1,0 +1,9 @@
+question: Que certificação é reconhecida mundialmente no domínio da cibersegurança?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  A certificação CISSP é uma das mais reconhecidas internacionalmente no domínio da cibersegurança.
+reviewed: false

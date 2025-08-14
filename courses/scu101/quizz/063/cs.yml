@@ -1,0 +1,9 @@
+question: Jaká certifikace je celosvětově uznávaná v oblasti kybernetické bezpečnosti?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Certifikace CISSP je jednou z mezinárodně nejuznávanějších v oblasti kybernetické bezpečnosti.
+reviewed: false

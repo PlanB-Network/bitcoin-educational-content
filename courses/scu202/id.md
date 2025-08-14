@@ -1713,7 +1713,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ### Prinsip keistimewaan yang paling sedikit
 
-Prinsip otoritas terbatas (least privilege) adalah aturan fundamental dalam keamanan siber, di mana setiap entitas (pengguna manusia, program perangkat lunak, proses sistem, dll.) seharusnya hanya memiliki hak yang benar-benar diperlukan untuk menyelesaikan tugasnya. Dengan kata lain, jangan pernah memberikan otorisasi lebih dari yang diperlukan, karena setiap izin tambahan meningkatkan serangan di lapisan luar sistem.
+Prinsip otoritas terbatas (least privilege) adalah aturan fundamental dalam keamanan siber, di mana setiap entitas (pengguna manusia, program perangkat lunak, proses sistem, dll.) seharusnya hanya memiliki hak yang benar-benar diperlukan untuk menyelesaikan tugasnya. Dengan kata lain, jangan pernah memberikan otorisasi lebih dari yang diperlukan, karena setiap izin tambahan meningkatkan area sistem yang rentan diserang.
 
 Secara nyata, pada komputer pribadi Anda, ini berarti akun pengguna utama Anda tidak boleh memiliki hak administrator untuk aktivitas sehari-hari, seperti penjelajahan web, memeriksa email, atau pekerjaan kantor. Memang, jika perangkat lunak berbahaya dieksekusi oleh akun dengan hak yang ditingkatkan, ia akan dapat memodifikasi file sistem, menginstal layanan yang berjalan di latar belakang, atau menonaktifkan perlindungan keamanan. Sebaliknya, jika dijalankan dalam lingkungan yang dibatasi, kemampuannya untuk menyebabkan kerusakan akan terbatas.
 
@@ -1731,7 +1731,7 @@ Pengelompokan ini tidak terbatas pada pengguna manusia. Banyak aplikasi memerluk
 
 ### Multisesi: lingkungan yang terpisah
 
-Selain memisahkan akun administrator dari akun standar, kebiasaan baik yang melengkapi hal tersebut adalah membuat beberapa sesi pengguna yang berbeda pada satu komputer untuk mempartisi penggunaan sesuai dengan sifatnya. Pendekatan ini didasarkan pada logika sederhana: dengan membedakan aktivitas Anda ke dalam lingkungan yang terpisah, Anda mengurangi serangan pada lapisan luar setiap lingkungan dan membatasi konsekuensi dari insiden keamanan apa pun.
+Selain memisahkan akun administrator dari akun standar, kebiasaan baik yang melengkapi hal tersebut adalah membuat beberapa sesi pengguna yang berbeda pada satu komputer untuk mempartisi penggunaan sesuai dengan sifatnya. Pendekatan ini didasarkan pada logika sederhana: dengan membedakan aktivitas Anda ke dalam lingkungan yang terpisah, Anda mengurangi area yang rentan diserang setiap lingkungan dan membatasi konsekuensi dari insiden keamanan apa pun.
 
 Semua sistem operasi modern memungkinkan pembuatan beberapa akun pengguna pada satu perangkat. Setiap akun ini memiliki ruang pribadi tersendiri: file, aplikasi, pengaturan, dan sesi jaringan tidak dibagi di antara mereka, kecuali jika diotorisasi secara eksplisit.
 
@@ -1879,7 +1879,7 @@ Keamanan komputer Anda tidak hanya bergantung pada sistem operasi. Setiap perang
 
 Beberapa perangkat lunak lebih sensitif daripada yang lain, karena berinteraksi langsung dengan dunia luar atau memanipulasi file yang berpotensi berbahaya. Di antara perangkat lunak yang paling penting adalah:
 
-- *Browser web*: Aplikasi ini berada di garis depan serangan, karena memproses konten yang tidak diverifikasi secara real-time dan memiliki serangan pada lapisan luar yang sangat besar. Terlebih lagi, browser memainkan peran sentral dalam melindungi data pribadi Anda. Di atas segalanya, browser cenderung menggantikan banyak aplikasi yang dulunya digunakan secara lokal (aplikasi email, aplikasi perkantoran, pemutar media, dll.). Namun, kita akan membahas lebih lanjut poin ini di bagian berikutnya dari kursus SCU202.
+- *Browser web*: Aplikasi ini berada di garis depan serangan, karena memproses konten yang tidak diverifikasi secara real-time dan memiliki area yang rentan diserang yang sangat besar. Terlebih lagi, browser memainkan peran sentral dalam melindungi data pribadi Anda. Di atas segalanya, browser cenderung menggantikan banyak aplikasi yang dulunya digunakan secara lokal (aplikasi email, aplikasi perkantoran, pemutar media, dll.). Namun, kita akan membahas lebih lanjut poin ini di bagian berikutnya dari kursus SCU202.
 
 - *Aplikasi email*: Aplikasi ini menerima lampiran atau tautan dari sumber eksternal yang tidak dapat dikontrol dan karena itu berisiko;
 
@@ -1950,103 +1950,57 @@ Namun, tidak semua aplikasi yang terinstal di Mac Anda berasal dari App Store. U
 
 ### Menghapus instalasi perangkat lunak
 
+Dari perspektif keamanan TI, semakin sedikit perangkat lunak yang Anda instal, semakin sedikit titik masuk potensial yang Anda miliki untuk penyerang. Setiap aplikasi yang terinstal pada sistem Anda mungkin mengandung celah keamanan, bahkan jika Anda tidak pernah menggunakannya. Ini dikenal sebagai area yang rentan diserang: semakin banyak area, semakin besar pula risikonya. Mengurangi area ini dengan menghapus perangkat lunak yang tidak diperlukan adalah tindakan pencegahan yang sederhana namun efektif.
 
+Beberapa aplikasi bawaan atau program yang diinstal untuk penggunaan satu kali mungkin tetap berada di komputer Anda selama berbulan-bulan tanpa digunakan, sementara terus menerima pembaruan atau berinteraksi dengan sistem Anda. Lebih buruk lagi, jika program-program ini tidak lagi dipelihara, program tersebut mungkin mengandung kerentanan.
 
-Dari perspektif keamanan TI, semakin sedikit perangkat lunak yang Anda instal, semakin sedikit pula titik masuk potensial yang Anda miliki bagi penyerang. Setiap aplikasi yang terinstal di sistem Anda mungkin mengandung celah keamanan, meskipun Anda tidak pernah menggunakannya. Ini dikenal sebagai permukaan serangan: semakin besar, semakin besar risikonya. Mengurangi permukaan ini dengan menghapus perangkat lunak yang tidak perlu adalah tindakan pencegahan yang sederhana namun efektif.
-
-
-
-Beberapa aplikasi atau program yang sudah terinstal yang diinstal untuk penggunaan sekali saja mungkin tetap berada di komputer Anda selama berbulan-bulan tanpa digunakan, sambil terus menerima pembaruan atau berinteraksi dengan sistem Anda. Lebih buruk lagi, jika program-program ini tidak lagi dipelihara, mungkin mengandung kerentanan.
-
-
-
-#### Di bawah Windows
-
-
+#### Pada Windows
 
 Untuk mengakses daftar aplikasi terinstal:
-
-
 
 ```txt
 Settings → Apps → Installed apps
 ```
 
+Telusuri daftar perangkat lunak ini dan hapus apa pun yang tidak lagi Anda gunakan, atau yang tidak Anda ketahui kegunaannya (setelah melakukan pengecekan di internet jika perlu). Berhati-hatilah dengan perangkat lunak sistem, tetapi jangan ragu untuk menghapus game yang sudah terinstal, program bantu pemeliharaan yang meragukan, atau aplikasi pemasaran.
 
-
-Telusuri daftar perangkat lunak ini dan hapus apa pun yang tidak lagi Anda gunakan, atau yang tidak Anda ketahui kegunaannya (setelah melakukan pengecekan di internet jika perlu). Berhati-hatilah dengan perangkat lunak sistem, tetapi jangan ragu untuk menghapus game yang sudah terinstal, alat bantu pemeliharaan yang meragukan, atau aplikasi pemasaran.
-
-
-
-#### Di bawah Linux (Debian/Ubuntu)
-
-
+#### Pada Linux (Debian/Ubuntu)
 
 Buka terminal dan jalankan perintah berikut untuk menghapus program perangkat lunak:
-
-
 
 ```bash
 sudo apt remove name_of_the_software
 ```
 
-
-
 ![Image](assets/fr/216.webp)
 
-
-
 Kemudian jalankan perintah ini untuk secara otomatis menghapus semua dependensi yang tidak lagi diperlukan:
-
-
 
 ```bash
 sudo apt autoremove
 ```
 
+#### Pada macOS
 
-
-#### Di bawah macOS
-
-
-
-Di bawah macOS, ada 2 metode utama: melalui *Launchpad* atau melalui *Finder*. Jika aplikasi telah diunduh dari App Store, buka *Launchpad* (dari Dock atau direktori `/Aplikasi`), cari aplikasinya, lalu tahan tombol Option atau lakukan klik panjang hingga ikon mulai bergetar. Kemudian klik tanda silang di samping aplikasi, dan konfirmasikan penghapusan.
-
-
+Pada macOS, ada 2 metode utama: melalui *Launchpad* atau melalui *Finder*. Jika aplikasi telah diunduh dari App Store, buka *Launchpad* (dari Dock atau direktori `/Aplikasi`), cari aplikasinya, lalu tahan tombol Option atau lakukan klik panjang hingga ikon mulai bergetar. Kemudian klik tanda silang di samping aplikasi, dan konfirmasikan penghapusan.
 
 ![Image](assets/fr/210.webp)
 
-
-
-Jika tombol hapus tidak muncul, berarti aplikasi belum diinstal dari App Store. Dalam hal ini, gunakan *Finder*. Tutup aplikasi terlebih dahulu, jika sedang berjalan. Buka *Finder*, buka direktori `/Aplikasi`, pilih aplikasi yang ingin Anda hapus, lalu pindahkan ke tempat sampah daur ulang. Terakhir, kosongkan tempat sampah daur ulang untuk menyelesaikan pencopotan pemasangan.
-
-
+Jika tombol hapus tidak muncul, berarti aplikasi tersebut tidak diinstal dari App Store. Dalam kasus ini, gunakan *Finder*. Tutup aplikasi terlebih dahulu jika sedang berjalan. Buka *Finder*, masuk ke direktori `/Applications`, pilih aplikasi yang ingin Anda hapus, lalu pindahkan ke sampah. Terakhir, kosongkan sampah untuk menyelesaikan penghapusan instalasi.
 
 #### Jangan lupa ekstensi browser
 
+Ekstensi dan add-on browser Anda sering kali diabaikan, padahal mereka juga merupakan celah serangan yang sering terjadi. Ekstensi yang berbahaya atau sudah usang dapat mencegat data penjelajahan Anda, menyuntikkan kode, atau memata-matai Anda secara diam-diam.
 
-
-Ekstensi dan pengaya peramban Anda sering kali diabaikan, tetapi ekstensi dan pengaya ini juga merupakan vektor serangan yang sering terjadi. Ekstensi yang berbahaya atau ketinggalan zaman dapat mencegat data penjelajahan Anda, menyuntikkan kode, atau memata-matai Anda secara diam-diam.
-
-
-
-Buka pengaturan peramban dan nonaktifkan atau hapus ekstensi apa pun yang tidak Anda gunakan atau ketahui. Simpan hanya ekstensi yang benar-benar diperlukan, dari sumber tepercaya dan masih terawat.
-
-
+Buka pengaturan peramban Anda dan nonaktifkan atau hapus ekstensi apa pun yang tidak Anda gunakan atau tidak Anda ketahui. Pertahankan hanya ekstensi yang benar-benar diperlukan, berasal dari sumber tepercaya, dan masih dijaga.
 
 ### Pemantauan dan audit sistem
 
+Keamanan siber juga melibatkan pemantauan aktivitas sistem. Pendekatan proaktif ini memungkinkan untuk mendeteksi perilaku abnormal (koneksi mencurigakan, proses tidak biasa, upaya akses tidak sah, dll.) sejak dini dan melakukan intervensi sebelum insiden serius terjadi.
 
+Jika Anda menetapkan rutinitas audit (bahkan yang dasar sekalipun), Anda dapat mendeteksi keberadaan *malware*, *Trojan* yang tidak aktif, atau *spyware* pada tahap awal. Pemantauan semacam ini dapat dilakukan dengan menggunakan program khusus.
 
-Keamanan siber juga melibatkan pemantauan aktivitas sistem. Pendekatan proaktif ini memungkinkan untuk menemukan perilaku abnormal (koneksi yang mencurigakan, proses yang tidak biasa, upaya akses yang tidak sah, dll.) sejak dini dan melakukan intervensi sebelum insiden serius terjadi.
-
-
-
-Jika Anda menyiapkan rutinitas audit (bahkan yang paling dasar sekalipun), Anda bisa mendeteksi keberadaan *malware*, Trojan tidur, atau spyware pada tahap awal. Pemantauan semacam itu dapat dilakukan dengan menggunakan alat khusus.
-
-
-
-#### Di bawah Windows
+#### Pada Windows
 
 
 

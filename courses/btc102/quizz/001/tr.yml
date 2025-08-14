@@ -1,5 +1,5 @@
 question: Kripto sektöründe bir kimlik avı girişimini tespit etmek için ne yapmalısınız?
-answer: Gönderenin kimliğini doğrulayın
+answer: Gönderenin kimliğini kontrol edin.
 wrong_answers:
   - Yalnızca e-postada yer alan bağlantılara tıklayın
   - Gerçekliği onaylamak için özel anahtarlarınızı paylaşın

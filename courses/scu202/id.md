@@ -1796,57 +1796,32 @@ Setelah kita membahas keamanan komputer Anda melalui otentikasi dan kompartement
 
 <chapterId>71d7fd95-ce1d-43d8-9a66-be7b425857fc</chapterId>
 
-Banyak orang berpikir bahwa memasang perangkat lunak antivirus atau memilih kata sandi yang tepat sudah cukup untuk melindungi komputer mereka. Namun, ada lebih banyak hal dalam keamanan komputer daripada konfigurasi satu kali saja. Kenyataannya jauh lebih kompleks: sebagian besar serangan dunia maya memanfaatkan kerentanan dalam sistem dan perangkat lunak yang sudah ketinggalan zaman. Dengan kata lain, keamanan komputer juga melibatkan pemeliharaan rutin mesin Anda.
+Banyak orang beranggapan bahwa menginstal perangkat lunak antivirus atau memilih kata sandi yang kuat sudah cukup untuk melindungi komputer mereka. Namun, keamanan komputer jauh lebih kompleks daripada sekadar konfigurasi satu kali. Kenyataannya, mayoritas serangan siber memanfaatkan kerentanan pada sistem dan perangkat lunak yang sudah usang. Dengan kata lain, keamanan komputer juga melibatkan pemeliharaan rutin pada komputer Anda.
 
-
-
-Dalam bab ini, saya akan membawa Anda langkah demi langkah tentang cara memelihara komputer Anda secara efektif, dan meminimalkan risiko kompromi.
-
-
+Dalam bab ini, saya akan membawa Anda langkah demi langkah tentang cara memelihara komputer Anda secara efektif, dan meminimalkan risiko perusakan.
 
 ### Pembaruan sistem operasi
 
-
-
-Seperti yang telah kita lihat di awal kursus ini, sistem operasi mengelola perangkat keras (prosesor, memori, disk, periferal, dll.), mengeksekusi program, mengatur file, dan mengelola koneksi jaringan. Oleh karena itu, sistem operasi merupakan komponen penting pada mesin Anda.
-
-
+Seperti yang telah kita lihat di awal kursus ini, sistem operasi mengelola perangkat keras (prosesor, memori, disk, periferal, dll.), mengeksekusi program, mengatur file, dan mengelola koneksi jaringan. Oleh karena itu, ini adalah komponen penting pada komputer Anda.
 
 #### Mengapa memperbarui OS Anda?
 
+Karena kompleksitasnya, tidak ada versi sistem operasi yang sepenuhnya bebas dari kerentanan. Kita berbicara tentang puluhan juta baris kode di sini. Celah keamanan ini dapat dieksploitasi oleh penyerang untuk mengeksekusi kode berbahaya, mendapatkan hak istimewa yang tidak sah, atau menyusupi seluruh sistem. Beberapa kerentanan ini ditemukan secara bertanggung jawab oleh peneliti keamanan siber, sementara yang lain sudah secara aktif dieksploitasi tanpa diketahui oleh publik: ini dikenal sebagai kerentanan zero-day.
 
+Vendor sistem operasi secara rutin merilis pembaruan keamanan yang dirancang untuk memperbaiki kerentanan ini. Kegagalan untuk menginstal patch ini sama saja dengan sengaja membiarkan pintu terbuka terhadap serangan, bahkan jika Anda berpikir penggunaan Anda sederhana atau data Anda tidak berharga.
 
-Karena kerumitannya, tidak ada versi OS yang benar-benar bebas dari kerentanan. Di sini kita berbicara tentang puluhan juta baris kode. Celah keamanan ini dapat dieksploitasi oleh penyerang untuk mengeksekusi kode berbahaya, mendapatkan hak istimewa yang tidak sah, atau mengkompromikan seluruh sistem. Beberapa dari kerentanan ini ditemukan secara bertanggung jawab oleh para peneliti keamanan siber, sementara yang lainnya sudah dieksploitasi secara aktif tanpa disadari oleh masyarakat umum: ini dikenal sebagai kerentanan zero-day.
+Ini bukan hanya masalah memperbaiki bug yang terlihat, tetapi juga bertindak pada celah serangan pada sistem Anda. Semakin sedikit celah yang ada, semakin sedikit kemungkinan yang dimiliki penyerang untuk menyusupi komputer Anda.
 
+Secara spesifik, saya merekomendasikan Anda untuk mengaktifkan pembaruan otomatis. Fitur ini secara native tersedia di semua sistem modern. Windows Update, misalnya, menangani ini secara default pada komputer Windows 10 dan 11. Pada macOS, pembaruan keamanan terintegrasi ke dalam sistem pembaruan sistem. Pada Linux, tergantung pada distribusi yang digunakan, alat seperti `unattended-upgrades` (Debian/Ubuntu) atau `dnf-automatic` (Fedora) memungkinkan Anda untuk menjadwalkan pembaruan.
 
-
-Vendor sistem operasi secara teratur merilis pembaruan keamanan yang dirancang untuk memperbaiki kerentanan ini. Kegagalan untuk menginstal tambalan ini sama saja dengan sengaja membiarkan pintu terbuka untuk serangan, bahkan jika Anda berpikir bahwa penggunaan Anda tidak terlalu banyak atau data Anda tidak berharga.
-
-
-
-Ini bukan hanya masalah memperbaiki bug yang terlihat, tetapi juga bertindak terhadap vektor serangan sistem Anda. Semakin sedikit vektor yang ada, semakin sedikit pengungkit yang dimiliki penyerang untuk mengacaukan mesin Anda.
-
-
-
-Secara khusus, saya sarankan Anda mengaktifkan pembaruan otomatis. Fitur ini tersedia secara bawaan pada semua sistem modern. Pembaruan Windows, misalnya, menangani hal ini secara default pada mesin Windows 10 dan 11. Di macOS, pembaruan keamanan diintegrasikan ke dalam sistem pembaruan sistem. Di Linux, tergantung pada distribusi yang digunakan, alat seperti `unattended-upgrades` (Debian/Ubuntu) atau `dnf-automatic` (Fedora) memungkinkan Anda untuk menjadwalkan pembaruan.
-
-
-
-Terakhir, ingatlah bahwa dalam banyak kasus, pembaruan penting tertentu hanya berlaku setelah reboot. Jadi, penting untuk mem-boot ulang mesin Anda secara teratur, terutama setelah pembaruan sistem. Memperbarui sistem operasi Anda sering kali hanya memerlukan waktu beberapa menit, tetapi merupakan salah satu benteng yang paling efektif melawan banyak serangan.
-
+Terakhir, perlu diingat bahwa dalam banyak kasus, pembaruan penting tertentu hanya akan berlaku setelah reboot. Jadi, penting untuk reboot komputer Anda secara teratur, terutama setelah pembaruan sistem. Memperbarui sistem operasi Anda seringkali hanya membutuhkan beberapa menit, tetapi ini adalah salah satu benteng pertahanan paling efektif terhadap banyak serangan.
 
 
 #### Bagaimana cara memperbarui OS saya?
 
+Meskipun pembaruan otomatis diaktifkan pada sistem Anda, tetap penting untuk memeriksa secara manual, pada interval reguler, bahwa tidak ada pembaruan yang tertunda. Mari kita lihat bagaimana melakukannya, tergantung pada sistem Anda:
 
-
-Meskipun pembaruan otomatis diaktifkan di sistem Anda, tetap penting untuk memeriksa secara manual, secara berkala, bahwa tidak ada pembaruan yang tertunda. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem Anda:
-
-
-
-
-
-- Sistem operasi Windows*
+- *Sistem operasi Windows*
 
 
 

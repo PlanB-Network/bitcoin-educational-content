@@ -20,8 +20,7 @@ Continua a leggere.
 Ti dirò di più: leggi fino in fondo. La soluzione proposta è economica, ma non è esattamente la più semplice. Prima ti fai un'idea generale, poi deciderai di investire un po' del tuo tempo in alcune ricerche personali e scegliere, con tutta la serenità possibile, se e come procedere.
 
 ## Requisiti
-
-1. Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): la PI Zero (senza alcuna sigla al seguito) è la base per realizzare un computer dalle prestazioni minime, ma è soprattutto priva delle schede Wi-Fi e Bluetooth, requisiti indispensabili per lo scopo di questa esercitazione.
+1 -- Una [Raspberry PI Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/): la PI Zero (senza alcuna sigla al seguito) è la base per realizzare un computer dalle prestazioni minime, ma è soprattutto priva delle schede Wi-Fi e Bluetooth, requisiti indispensabili per lo scopo di questa esercitazione.
 
 - **Costo**: circa 15,00 euro al momento della stesura di questo tutorial (agosto 2025).
 - **Continuità di produzione**: Raspberry garantisce la produzione fino a gennaio 2030.
@@ -35,20 +34,20 @@ dtoverlay=disable-bt
 
 una sezione di questa guida ti mostrerà come e dove farlo. Comunque, se vuoi proprio essere sicuro, puoi trovare sul web diversi tutorial per eliminare il chip Wi-Fi con una piccola tronchesina, di quelle adatte alla lavorazione sulle schede elettroniche.
 
-2. Uno _starter kit_ per Raspberry PI Zero: come è prassi per il mondo Raspberry, nudo e crudo, senza case esterno. Inoltre, le limitate risorse di una scheda così piccola, condizionano le possibilità di connessione con l'esterno.
+2 -- Uno _starter kit_ per Raspberry PI Zero: come è prassi per il mondo Raspberry, nudo e crudo, senza case esterno. Inoltre, le limitate risorse di una scheda così piccola, condizionano le possibilità di connessione con l'esterno.
 
 Quando ho deciso di procedere, ho trovato [questo kit](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) pieno di accessori, per sfruttare appieno tutte le potenzialità della PI Zero. Il kit contiene, infatti, un alimentatore USB A -> micro USB, un piccolo hub USB, un adattatore mini-HDMI -> HDMI, un dissipatore in rame e un case esterno in alluminio. Insieme al kit sono fornite anche le viti e la brugola necessarie per mettere la PI Zero nel nuovo case.
 
 - **Costo**: 19,99 euro.
 
-3. Questo tutorial non prevede che tu spenda grandi budget per la realizzazione del computer airgap. Devi però sapere che ti serviranno una tastiera e un mouse USB (rigorosamente via cavo, evita il Bluetooth) e un monitor. A seconda dell'ingresso al tuo monitor, potrebbe servirti un adattatore da mini-HDMI, l'unica uscita disponibile sulla PI Zero. Infine, cerca bene che in casa, da qualche parte, abbiamo tutti una tastiera e un mouse non-wireless: è arrivato il momento di rispolverarli.
+3 -- Questo tutorial non prevede che tu spenda grandi budget per la realizzazione del computer airgap. Devi però sapere che ti serviranno una tastiera e un mouse USB (rigorosamente via cavo, evita il Bluetooth) e un monitor. A seconda dell'ingresso al tuo monitor, potrebbe servirti un adattatore da mini-HDMI, l'unica uscita disponibile sulla PI Zero. Infine, cerca bene che in casa, da qualche parte, abbiamo tutti una tastiera e un mouse non-wireless: è arrivato il momento di rispolverarli.
 
 ## Extra Budget
 
-4. Puoi procurarti l'alimentatore originale da Raspberry, del costo di circa 15,00 euro.
-5. Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA -> miniUSB cosiddetto `no data`, del costo di 3,70 euro.
-6. Una scheda micro SD, per avere un minimo di memoria di massa almeno da 32 GB; se di qualit/livello industriale è meglio.
-7. Ti servirà un sistema, un adattatore da USB a micro SD, come quello che vedi in foto. Il sistema operativo della tua PI Zero e la sua memoria, infatti, lavoreranno su tale supporto.
+4 -- Puoi procurarti l'alimentatore originale da Raspberry, del costo di circa 15,00 euro.
+5 -- Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA -> miniUSB cosiddetto `no data`, del costo di 3,70 euro.
+6 -- Una scheda micro SD, per avere un minimo di memoria di massa almeno da 32 GB; se di qualit/livello industriale è meglio.
+7 -- Ti servirà un sistema, un adattatore da USB a micro SD, come quello che vedi in foto. Il sistema operativo della tua PI Zero e la sua memoria, infatti, lavoreranno su tale supporto.
 
 ![img](assets/it/06.webp)
 

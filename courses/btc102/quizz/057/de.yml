@@ -1,7 +1,7 @@
 question: Welche Erfassungsmethode wird von einem paranoiden Benutzer vermieden?
 answer: Zentralisierte Plattformen mit KYC
 wrong_answers:
-  - P2P Plattformen zur Spielvermittlung
+  - P2P Plattformen zur Vermittlung von Transaktionspartnern
   - Bitcoin-Geldautomaten
   - Direkte Barkäufe bei Treffen
 explanation: |

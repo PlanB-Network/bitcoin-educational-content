@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Verwenden Sie nur selbst erstelltes oder lizenzfreies Bildmaterial.
     - Stellen Sie sicher, dass sie relevant und von hoher Qualität sind.
 - Grafische Charta** :
-    - Schriftart: [IBM Plex Sans](https://fonts.google.com/specimen/IBM Plex Sans).
+    - Schriftart: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farben Plan ₿ Netzwerk :
         - Orange: "#FF5C00"
         - Schwarz: `#000000`

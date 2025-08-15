@@ -385,7 +385,7 @@ print("Hello, Bitcoin!")
     - Koristite samo vizuale koje ste sami kreirali ili one koji su oslobođeni autorskih prava.
     - Uverite se da su relevantni i visokog kvaliteta.
 - Grafička povelja** :
-    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM Plex Sans).
+    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Boje Plan ₿ Network :
         - Narandžasta: `#FF5C00`
         - Crna: `#000000`

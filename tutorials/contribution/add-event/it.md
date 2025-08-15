@@ -4,7 +4,7 @@ description: Come aggiungere un nuovo evento su Plan ₿ Network?
 ---
 ![evento](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e salvati su GitHub, offrendo a chiunque l'opportunità di collaborare all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e mantenuti su GitHub, offrendo a chiunque l'opportunità di collaborare all'arricchimento della piattaforma.
 
 Vuoi aggiungere una conferenza Bitcoin su Plan ₿ Network aumentando la visibilità del tuo evento, ma non sai come fare? Questo tutorial è per te!
 
@@ -15,7 +15,7 @@ Vuoi aggiungere una conferenza Bitcoin su Plan ₿ Network aumentando la visibil
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
+- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
 
 ![evento](assets/02.webp)
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![evento](assets/03.webp)
 
-- Se non hai mai partecipato alla creazione di contenuti su Plan ₿ Network, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti al repository, dovrai creare il tuo fork. Ciò significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![evento](assets/04.webp)
 
@@ -31,28 +31,29 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![evento](assets/05.webp)
 
-- Crea una cartella per la tua conferenza. Per fare ciò, nella casella `Name your file...`, scrivi il nome della tua conferenza in minuscolo con trattini al posto degli spazi. Ad esempio, se la tua conferenza si chiama "Paris Bitcoin Conference", dovresti annotare `paris-bitcoin-conference`. Aggiungi anche l'anno della tua conferenza, per esempio: `paris-bitcoin-conference-2024`:
+- Crea una cartella dedicata alla conferenza (o qualsiasi altro evento). Per fare ciò, nella casella `Name your file...`, inserisci il nome della conferenza in minuscolo con trattini al posto degli spazi. Ad esempio, se la conferenza si chiama "Paris Bitcoin Conference", dovresti scrivere `paris-bitcoin-conference`. Aggiungi anche l'anno, per esempio: `paris-bitcoin-conference-2024`:
 
 ![evento](assets/06.webp)
 
-- Per confermare la creazione della cartella, basta inserire uno slash `/` dopo il nome nella stessa casella, per esempio: `paris-bitcoin-conference-2024/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
+- Per confermare la creazione della cartella, basta inserire uno slash `/` dopo il nome nella stessa, per esempio: `paris-bitcoin-conference-2024/`. Aggiungere uno slash crea automaticamente una directory, anziché un file:
 
 ![evento](assets/07.webp)
 
-- In questa cartella, creerai un primo file YAML chiamato `events.yml`:
+- In questa cartella, crea un primo file YAML chiamato `events.yml`:
 
 ![evento](assets/08.webp)
 
 - Compila questo file con le informazioni sulla tua conferenza usando questo modello:
 
 ```yaml
+id:
 start_date:
 end_date:
+timezone:
 address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
 type: conference
 book_online: false
 book_in_person: false
@@ -71,18 +72,19 @@ tags:
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
+id: 82011dd9-0a20-42a2-8020-9106336c47f5
 start_date: 2024-08-15
 end_date: 2024-08-18
-address_line_1: Parigi, Francia
+timezone: Europe/Paris
+address_line_1: Paris, France
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: La più grande conferenza su Bitcoin in Francia con oltre 8.000 partecipanti ogni anno!
+description: The largest Bitcoin conference in France with over 8,000 participants every year!
 language:
 - fr    - en
   - es
@@ -98,10 +100,9 @@ tags:
 ```
 ![evento](assets/09.webp)
 
-Se la tua attività non ha ancora un identificatore "*builder*", puoi aggiungerlo seguendo questo altro tutorial.
+Se il tuo progetto non ha ancora un identificatore "*id*", puoi aggiungerlo seguendo questo altro tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
-
 
 
 - Una volta terminato di apportare modifiche a questo file, salvalo cliccando sul pulsante `Commit changes...`:
@@ -136,7 +137,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/17.webp)
 
-- Torna alla cartella `resources/conference/` e seleziona la cartella della tua conferenza che hai appena creato nel commit precedente:
+- Torna alla cartella `resources/conference/` e seleziona la cartella della conferenza che hai appena creato tramite commit precedente:
 
 ![evento](assets/18.webp)
 
@@ -164,7 +165,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/24.webp)
 
-- Clicca sul pulsante `Add file`, poi su `Upload files`: ![evento](assets/25.webp)
+- Clicca sul pulsante `Add file`, poi su `Upload files`:
+
+![evento](assets/25.webp)
 
 - Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la tua conferenza e che verrà visualizzata sul sito di Plan ₿ Network:
 
@@ -182,11 +185,11 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/29.webp)
 
-- Ritorna alla tua cartella `assets` e clicca sul file intermedio `.gitkeep`:
+- Ritorna alla cartella `assets` e clicca sul file intermedio `.gitkeep`:
 
 ![evento](assets/30.webp)
 
-- Una volta sul file, clicca sui 3 piccoli punti in alto a destra poi su `Delete file`.
+- Una volta sul file, clicca sui 3 punti in alto a destra, poi su `Delete file`.
 - Verifica di essere ancora sullo stesso branch di lavoro, quindi clicca sul pulsante `Commit changes`:
 
 ![evento](assets/31.webp)
@@ -195,7 +198,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/32.webp)
 
-- Torna alla radice del tuo repository:
+- Torna alla root del tuo repository:
 
 ![evento](assets/34.webp)
 
@@ -211,9 +214,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![evento](assets/37.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un amministratore la controllerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la controllerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
 
-Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando la tua PR non è validata, puoi consultararla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
+Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando la tua PR non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 
 ![evento](assets/38.webp)
 

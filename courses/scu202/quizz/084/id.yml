@@ -1,0 +1,9 @@
+question: Apa kelemahan utama Signal dalam hal anonimitas?
+answer: Ini membutuhkan penggunaan nomor telepon
+wrong_answers:
+  - Ini bukan sumber terbuka
+  - Menyimpan pesan di server pusat
+  - Tidak mengenkripsi file yang dipertukarkan
+explanation: |
+  Signal memerlukan nomor telepon untuk mendaftar, yang memperkenalkan potensi pelacakan meskipun protokol ini memastikan enkripsi yang kuat.
+reviewed: false

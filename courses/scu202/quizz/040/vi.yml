@@ -1,0 +1,9 @@
+question: Công cụ miễn phí nào có sẵn trên mọi hệ thống có thể được sử dụng để xác minh chữ ký của tệp và sự tương ứng của nó với khóa công khai?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) là công cụ tham chiếu để xác minh chữ ký số và quản lý khóa công khai.
+reviewed: false

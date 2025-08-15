@@ -1,0 +1,9 @@
+question: Welke functie wordt gebruikt om de seed af te leiden uit de Mnemonic zin?
+answer: PBKDF2 met HMAC-SHA512
+wrong_answers:
+  - Alleen SHA256
+  - Dubbele SHA256
+  - AES-256
+explanation: |
+  De seed wordt gegenereerd met de PBKDF2 functie met HMAC-SHA512 en 2048 iteraties, uit de Mnemonic zin en de passphrase.
+reviewed: false

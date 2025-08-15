@@ -78,7 +78,7 @@ På Git och GitHub kommer du att stöta på kommandon och funktioner vars namn k
 
 
 
-- Sammanfoga:** Sammanfogning består i att integrera ändringar från en gren till en annan. Det används t.ex. för att lägga till ändringar från en arbetsgren till huvudgrenen, vilket gör det möjligt att lägga till de olika bidragen.
+- Sammanfoga:** Sammanfogning består i att integrera ändringar från en gren till en annan. Det används till exempel för att lägga till ändringarna från en arbetsgren till huvudgrenen, vilket gör det möjligt att lägga till de olika bidragen.
 
 
 

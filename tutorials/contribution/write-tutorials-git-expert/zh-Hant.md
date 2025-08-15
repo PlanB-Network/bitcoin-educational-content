@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - 僅使用自行製作或免版稅的視覺效果。
     - 確保它們是相關且高品質的。
 - 圖形章程** ：
-    - 字型：[Rubik](https://fonts.google.com/specimen/Rubik).
+    - 字型：[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - 顏色 Plan ₿ Network ：
         - 橙色: `#FF5C00`
         - 黑色: `#000000`

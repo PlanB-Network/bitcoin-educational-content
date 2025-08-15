@@ -1,0 +1,11 @@
+question: Sağlam para nasıl yaratılır?
+answer: Sağlam para doğal olarak piyasadan ve gönüllü mutabakattan doğmalıdır.
+wrong_answers:
+  - Sağlam paranın hükümet tarafından para kanunları çıkarılarak uygulanması gerekmektedir.
+  - Sağlam para, şirketler tarafından şiddet kullanılarak dayatılmak zorundadır.
+  - Sağlam para yaratılamaz.
+explanation: |
+  Sağlam para, ortaya çıkması gereken doğal bir sosyal olgudur
+  piyasadan ve gönüllü mutabakattan. Hiçbir insan ya da
+  bir grup insan para yaratabilir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Lightning Network kullanan tüccarlar için en önemli avantajlardan biri nedir?
+answer: Azaltılmış işlem ücretleri
+wrong_answers:
+  - Bankalar tarafından garanti edilen ödemeler
+  - Satışlarda otomatik artış
+  - Ticari vergilerin kaldırılması
+explanation: |
+  Lightning Network'deki işlem ücretleri çok düşüktür, bu da onu tüccarlar için uygun maliyetli bir çözüm haline getirir.  
+reviewed: false

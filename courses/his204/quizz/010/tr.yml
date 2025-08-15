@@ -1,0 +1,8 @@
+question: Vauban'a göre neden herkesin vergi ödemesi doğru ve doğaldır?
+answer: Devlet hizmetlerini herkese sunduğu için, herkesin bu hizmetlerin ödenmesine katkıda bulunması adildir
+wrong_answers:
+  - Çünkü devlet tüm nüfusu aynı anda vergilendirerek daha fazla gelir elde edebilir
+  - Herkes yaşamı boyunca bazen zengin bazen de fakir olduğu için, herkesi eşit şekilde vergilendirmek daha iyidir
+  - Çünkü savaşları finanse etmeye ve krallığın büyüklüğünü sağlamaya yardımcı oluyor
+explanation: |
+  Vauban, güvenlik, adalet ve altyapı gibi devlet hizmetlerinden tüm vatandaşlar yararlandığı için vergilendirmenin evrensel olması gerektiğine inanıyordu. Bu nedenle herkesin kendi imkanlarına göre finansmana katkıda bulunmasının adil olduğunu düşünüyordu.

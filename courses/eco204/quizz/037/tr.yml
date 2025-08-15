@@ -1,0 +1,10 @@
+question: Almanya'da ekonomik kriz sırasında kullanılan acil durum parasına ne ad verilir?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Almanya'daki ekonomik kriz sırasında, Notgeld (acil durum parası)
+  gW-0 ortak para birimi sıkıntısı için kullanıldı.
+reviewed: false

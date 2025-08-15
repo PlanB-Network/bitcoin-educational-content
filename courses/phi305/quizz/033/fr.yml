@@ -1,0 +1,9 @@
+question: L'inflation structurelle est-elle le résultat ?
+answer: D'une augmentation de la masse monétaire.
+wrong_answers:
+- D'une augmentation des prix
+- D'une politique budgétaire .
+- De mesures anti-libérales.
+explanation: |
+  L'inflation structurelle est le résultat d'une augmentation de la masse monétaire. Quand la quantité de monnaie en circulation augmente plus vite que la production de biens et services, cela entraîne une hausse générale des prix.
+reviewed: false

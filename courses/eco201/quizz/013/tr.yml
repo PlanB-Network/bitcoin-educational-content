@@ -1,0 +1,13 @@
+question: Kısmi rezerv sistemi ile ilgili temel sorun nedir?
+answer: Kısmi rezerv sistemiyle ilgili temel sorun, belirli bir bankadan önemli miktarda para çekilmesinin potansiyel olarak bankanın iflasına yol açabilmesidir.
+wrong_answers:
+  - Kısmi rezerv sistemiyle ilgili temel sorun, bankaların borç para vermesini engellemesidir.
+  - Kısmi rezerv sistemiyle ilgili temel sorun, bankaların mevduat olarak aldıklarından daha fazla rezerv tutmalarını gerektirmesidir.
+  - Kısmi rezerv sisteminin temel sorunu, bankaların yeni para yaratmasını engellemesidir.
+explanation: |
+  Kısmi rezerv sisteminde, bankalar rezervlerinin sadece bir kısmını
+  mevduat sahiplerinin fonlarının bir kısmını yedekte tutarak
+  dinlenin. Birçok müşteri aynı anda para çekmek için acele ederse
+  bankanın fonlarını karşılamak için yeterli rezervi olmayabilir
+  bu talepler potansiyel olarak iflasa yol açabilir.
+reviewed: true

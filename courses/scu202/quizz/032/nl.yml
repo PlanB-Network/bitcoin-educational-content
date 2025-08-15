@@ -1,0 +1,9 @@
+question: Welke cyberbeveiligingsregel beveelt aan om de rechten van elke gebruiker of software te beperken tot wat strikt noodzakelijk is?
+answer: Het principe van de minste privileges
+wrong_answers:
+  - Dubbele verificatie
+  - Het beleid voor sterke wachtwoorden
+  - Regelmatige back-up
+explanation: |
+  Het principe van least privilege houdt in dat voor elke taak alleen de benodigde rechten worden toegekend, waardoor het risico op compromittering wordt verkleind.
+reviewed: false

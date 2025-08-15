@@ -1,0 +1,9 @@
+question: MAC, bir saldırgan tarafından mesajın kurcalanmasını önlemeye nasıl yardımcı olur?
+answer: Alınan mesajın değiştirilmediğini doğrulamaya izin vererek
+wrong_answers:
+  - Brute-force tipi saldırıları önleyerek
+  - Mesaj içeriğini gizleyerek
+  - Şüpheli mesajları otomatik olarak engelleyerek
+explanation: |
+  MAC, alıcının paylaşılan bir gizli anahtarla oluşturulan bir etiket aracılığıyla bir mesajın değiştirilmediğini doğrulamasını sağlar, bu da manipülasyon olasılıklarını sınırlar.
+reviewed: false

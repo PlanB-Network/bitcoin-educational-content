@@ -1,0 +1,2 @@
+description: |
+  Eine konfigurationsfreie VPN-Lösung auf der Basis von WireGuard, mit der Sie in wenigen Minuten ein verschlüsseltes privates Netzwerk zwischen Ihren Geräten aufbauen können, egal wo sie sich befinden. Tailscale ist einfach zu implementieren und mit allen Plattformen kompatibel und bietet einen sicheren Zero-Trust-Zugang, ohne dass Ports geöffnet werden müssen oder das Netzwerk komplex ist.

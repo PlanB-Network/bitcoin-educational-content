@@ -1,0 +1,10 @@
+question: CoinJoin koordinatörünün rolü nedir?
+answer: Katılımcıları bağlayın ve işlemi oluşturun.
+wrong_answers:
+  - İşlem gizliliği için katılımcı verilerini şifreleyin.
+  - Güvenlik denetimleri için önceki eş birleşmelerin kaydını tutun.
+  - Karıştırmak için katılımcılardan bitcoin alın.
+explanation: |
+  Koordinatörlerin rolü, farklı kullanıcıları birbirine bağlamak ve işbirliğine dayalı işlemi oluşturmak ve ardından yayınlamaktır.
+  
+reviewed: false

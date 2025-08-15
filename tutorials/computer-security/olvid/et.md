@@ -12,6 +12,9 @@ Olvid on 2019. aastal käivitatud Prantsuse kiirsõnumirakendus, mis on loodud p
 
 Kõik sõnumid on lõpuni krüpteeritud, kasutades originaalset krüptograafilist protokolli, mis on loodud ka metaandmete kaitsmiseks: keegi ei tea, kellega ja millal sa räägid. Kliendikood on avatud lähtekoodiga, kuid keskne server, mida kasutatakse krüpteeritud sõnumite suunamiseks, on jätkuvalt kaitstud ja asub AWSis.
 
+Olvidi turvamudel tugineb olulisele põhimõttele: digitaalsete identiteetide loomisel ei usaldata mitte ühtegi kolmandat osapoolt. Erinevalt enamikust krüpteeritud sõnumside rakendustest, mis tuginevad tsentraliseeritud kataloogile kasutajate identiteetide haldamiseks, ei sõltu Olvid ühestki keskserverist suhtluse tervikluse tagamisel. Selline arhitektuur välistab riskid, mis kaasnevad kataloogi võimaliku kahjustumisega.
+
+Olvid kasutab siiski sõnumite edastamiseks keskserverit, mille roll on rangelt logistiline: krüpteeritud sõnumite asünkroonne edastamine. Server ei osale krüpteerimisprotsessis, ei tea kasutajate tegelikke identiteete ega sõnumite sisu või metaandmeid (v.a vastuvõtja avalik võti, mida kasutatakse suunamiseks). Seega võib seda serverit vaikimisi pidada vaenulikuks, ohustamata süsteemi turvalisust. Isegi kui see kompromiteeritaks, ei annaks see juurdepääsu suhtluse sisule. Olvid kasutab tsentraliseeritud sõnumiedastust (tõhususe ja teenuse kvaliteedi huvides), säilitades samas infrastruktuurist sõltumatu turvalisuse.
 
 
 Olvid pakub tasuta versiooni ja tellimusversiooni hinnaga 4,99 eurot kuus. Tasuta versioon pakub täielikku funktsionaalsust, välja arvatud heli- ja videokõnede tegemine (kuigi neid on võimalik vastu võtta), ning ei võimalda konto sünkroniseerimist mitme seadme vahel. Seega, kui plaanite kasutada ainult oma nutitelefoni ja teil ei ole vaja helistada, on Olvid suurepärane lahendus.
@@ -21,26 +24,25 @@ Olvid pakub tasuta versiooni ja tellimusversiooni hinnaga 4,99 eurot kuus. Tasut
 Olvid on sertifitseeritud ANSSI (Prantsuse küberturvalisuse ametiasutus) poolt. See rakendus on suurepärane alternatiiv traditsioonilistele sõnumiteenustele (WhatsApp, Facebook Messenger, WeChat...) neile, kes otsivad privaatsust, säilitades samas kasutamise lihtsuse.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Rakendus             | E2EE 1:1        | E2EE grupid     | Anonüümne registreerimine | Avatud lähtekoodiga kliendi litsents | Avatud lähtekoodiga serveri litsents | Detsentraliseeritud server | Loomise aasta |
+| -------------------- | --------------- | --------------- | ------------------------- | ------------------------------------ | ------------------------------------ | -------------------------- | ------------- |
+| WhatsApp             | ✅               | ✅               | ❌                         | ❌                                    | ❌                                    | ❌                          | 2009          |
+| WeChat               | ❌               | ❌               | ❌                         | ❌                                    | ❌                                    | ❌                          | 2011          |
+| Facebook Messenger   | ✅               | 🟡 (valikuline) | ❌                         | ❌                                    | ❌                                    | ❌                          | 2011          |
+| Telegram             | 🟡 (valikuline) | ❌               | 🟡                        | ✅                                    | ❌                                    | ❌                          | 2013          |
+| LINE                 | ✅               | ✅               | ❌                         | ❌                                    | ❌                                    | ❌                          | 2011          |
+| Signal               | ✅               | ✅               | ❌                         | ✅                                    | ✅                                    | ❌                          | 2014          |
+| Threema              | ✅               | ✅               | ✅                         | ✅                                    | ❌                                    | ❌                          | 2012          |
+| Element (Matrix)     | ✅               | ✅               | ✅                         | ✅                                    | ✅                                    | 🟡 (födereeritud)          | 2016          |
+| Delta Chat           | ✅               | ✅               | ✅                         | ✅                                    | N/A                                  | 🟡 (e-posti kaudu)         | 2017          |
+| Conversations (XMPP) | ✅               | ✅               | ✅                         | ✅                                    | ✅                                    | 🟡 (födereeritud)          | 2014          |
+| Session              | ✅               | ✅               | ✅                         | ✅                                    | ✅                                    | ✅                          | 2020          |
+| SimpleX              | ✅               | ✅               | ✅                         | ✅                                    | ✅                                    | ✅                          | 2021          |
+| **Olvid**            | **✅**           | **✅**           | **✅**                     | **✅**                                | **❌**                                | 🟡(kataloog puudub)        | **2019**      |
+| Keet                 | ✅               | ✅               | ✅                         | ❌                                    | N/A                                  | ✅                          | 2022          |
+| Jami                 | ✅               | ✅               | ✅                         | ✅                                    | N/A                                  | ✅                          | 2005          |
+| Briar                | ✅               | ✅               | ✅                         | ✅                                    | N/A                                  | ✅                          | 2018          |
+| Tox                  | ✅               | ✅               | ✅                         | ✅                                    | N/A                                  | ✅                          | 2013          |
 
 *E2EE = End-to-end krüpteerimine*
 
@@ -110,7 +112,7 @@ Teie konto on nüüd loodud.
 
 Et vältida juurdepääsu kaotamist teie Olvid-kontole, soovitame luua automaatsed varukoopiad. Selleks avage seaded, klõpsates Interface paremal ülaosas asuvatele kolmele punktile ja valige seejärel "*Settings*".
 
-
+⚠️ **Tähelepanu**: alates Olvid versioonist 3.7 on teie profiilide ja kontaktide varundamise protseduur asendatud uuega. See õpetus esitab endiselt vana versiooni. Uue versiooni leiate nende KKK-st: [💾 Teie profiilide varundamine](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

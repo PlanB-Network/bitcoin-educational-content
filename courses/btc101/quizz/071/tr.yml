@@ -1,0 +1,12 @@
+question: Yedinci Halving hangi yıl gerçekleşecek?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  7. Halving'nin 2036 yılında gerçekleşmesi ve tahmini
+  tedavüldeki Bitcoin sayısı 20.835.937,5 olacaktır,
+  bu da kabaca toplam Bitcoin'in %99,22'sine tekabül edecektir
+  Supply.
+reviewed: true

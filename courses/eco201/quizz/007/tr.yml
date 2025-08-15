@@ -1,0 +1,9 @@
+question: Kursu hazırladığı için kime teşekkür ediliyor?
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - Yukarıdakilerin hiçbiri
+explanation: |
+  Bölümde Théo'ya kursu hazırladığı için teşekkür edildiği belirtiliyor.
+reviewed: true

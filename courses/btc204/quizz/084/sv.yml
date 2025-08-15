@@ -1,0 +1,10 @@
+question: Vilken roll har post-mix Wallet i Zerolink-protokollet?
+answer: För att lagra UTXO efter blandning.
+wrong_answers:
+  - Förvara UTXO:erna före blandning.
+  - För att lagra ändringen UTXOs.
+  - För att lagra konsoliderings UTXO:er.
+explanation: |
+  Wallet efter mixning är reserverad för mynt som har mixats.
+  
+reviewed: false

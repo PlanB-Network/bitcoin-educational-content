@@ -1,0 +1,9 @@
+question: Który menedżer haseł o otwartym kodzie źródłowym umożliwia przechowywanie danych uwierzytelniających lokalnie, bez konieczności korzystania z chmury?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Menedżer haseł Google
+explanation: |
+  KeePassDX działa w oparciu o zaszyfrowane pliki lokalne, bez potrzeby korzystania z chmury lub subskrypcji scentralizowanej usługi.
+reviewed: false

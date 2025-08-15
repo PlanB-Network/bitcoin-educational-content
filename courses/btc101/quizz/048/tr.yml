@@ -1,0 +1,12 @@
+question: Hiperenflasyonun sonucu nedir?
+answer: Para biriminin değerinde ciddi bir düşüş.
+wrong_answers:
+  - Para biriminin değerinde küçük bir düşüş.
+  - Para biriminin değerinde ciddi bir artış.
+  - Para biriminin değerinde küçük bir artış.
+explanation: |
+  Hiperenflasyon nedeniyle, bireyler hızlı bir şekilde
+  para birimine olan güvenin tamamen kaybolmasına yol açar
+  kısa bir süre içinde değerinde ciddi bir düşüş
+  zaman.
+reviewed: true

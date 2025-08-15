@@ -1,0 +1,9 @@
+question: Welk second-Layer protocol maakt bijna onmiddellijke betalingen mogelijk?
+answer: Lightning Network
+wrong_answers:
+  - Sidechains
+  - RGB
+  - Bitcoin Kern
+explanation: |
+  De Lightning Network maakt snelle en goedkope transacties mogelijk via off-chain operaties buiten de Bitcoin Blockchain.
+reviewed: false

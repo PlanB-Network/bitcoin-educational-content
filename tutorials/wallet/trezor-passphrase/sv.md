@@ -1,12 +1,12 @@
 ---
 name: passphrase BIP39 Trezor
-description: Hur lägger jag till en passphrase i min Trezor-portfölj?
+description: Hur lägger jag till en passphrase till min Trezor Wallet?
 ---
 ![cover](assets/cover.webp)
 
 
 
-En passphrase BIP39 är ett valfritt lösenord som, i kombination med Mnemonic-frasen, ger ytterligare en Layer säkerhet för deterministiska och hierarkiska Bitcoin-portföljer. I denna handledning kommer vi tillsammans att upptäcka hur man ställer in en passphrase på din säkra Bitcoin Wallet på en Trezor (Safe 3, Safe 5 och Model One).
+En passphrase BIP39 är ett valfritt lösenord som, i kombination med Mnemonic-frasen, ger ytterligare en Layer säkerhet för deterministiska och hierarkiska Bitcoin-plånböcker. I den här handledningen kommer vi tillsammans att upptäcka hur man ställer in en passphrase på din säkra Bitcoin Wallet på en Trezor (Safe 3, Safe 5 och Model One).
 
 
 
@@ -24,7 +24,7 @@ passphrase på Trezor hanteras på det klassiska sättet om du har valt BIP39-st
 
 
 
-Dessa alternativ är inte tillgängliga i alla Trezor-kompatibla program för portföljhantering. För Model One kan till exempel passphrase matas in via tangentbordet på Sparrow Wallet. För modellerna Model T, Safe 3 och Safe 5 måste du antingen använda Trezor Suite eller ange passphrase direkt på Hardware Wallet, eftersom möjligheten att ange via Sparrow inaktiverades av HWI för några år sedan.
+Dessa alternativ är inte tillgängliga på alla Trezor-kompatibla Wallet-hanteringsprogram. För Model One kan till exempel passphrase matas in via tangentbordet på Sparrow wallet. För modellerna Model T, Safe 3 och Safe 5 måste du antingen använda Trezor Suite eller ange passphrase direkt på Hardware Wallet, eftersom möjligheten att ange via Sparrow inaktiverades av HWI för några år sedan.
 
 
 
@@ -32,11 +32,11 @@ Dessa alternativ är inte tillgängliga i alla Trezor-kompatibla program för po
 
 
 
-I Trezor Suite har du två olika sätt att hantera passphrase-behov. Du kan aktivera alternativet "*passphrase*" på fliken "*Device*". Om det är aktiverat kommer Trezor Suite och alla andra portföljhanteringsprogram systematiskt att be dig att ange din passphrase varje gång du startar upp. Om du föredrar en mer diskret metod för att använda en passphrase kan du behålla inställningen på "*Standard*". I så fall måste du manuellt gå till menyn i din Hardware Wallet i det övre vänstra hörnet och klicka på knappen "*+ passphrase*" varje gång du startar den.
+I Trezor Suite har du två olika sätt att hantera passphrase-behov. Du kan aktivera alternativet "*passphrase*" på fliken "*Device*". Om det är aktiverat kommer Trezor Suite och alla andra Wallet-hanteringsprogram systematiskt att be dig att ange din passphrase varje gång du startar upp. Om du föredrar ett mer diskret sätt att använda en passphrase kan du behålla inställningen på "*Standard*". I det här fallet måste du manuellt komma åt din Hardware Wallet:s meny i det övre vänstra hörnet och klicka på knappen "*+ passphrase*" varje gång du startar den.
 
 
 
-Innan du påbörjar denna handledning bör du kontrollera att du redan har initialiserat din Trezor och genererat din Mnemonic-fras. Om du inte har gjort det och din Trezor är ny, följ den modellspecifika handledning som finns på Plan ₿ Network. När du har slutfört detta steg kan du återgå till denna handledning.
+Innan du påbörjar denna handledning bör du kontrollera att du redan har initialiserat din Trezor och genererat din Mnemonic-fras. Om du inte har gjort det och din Trezor är ny, följ den modellspecifika handledningen som finns på Plan ₿ Network. När du har slutfört detta steg kan du återgå till denna handledning.
 
 
 
@@ -51,7 +51,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-När du har skapat din Wallet, sparat din Mnemonic och angett en PIN-kod kommer du till startmenyn i Trezor Suite. I det övre vänstra hörnet bör ett fönster visas där du uppmanas att aktivera passphrase BIP39.
+När du har skapat din Wallet, sparat din Mnemonic och angett en PIN-kod kommer du till startmenyn i Trezor Suite. I det övre vänstra hörnet visas ett fönster som inbjuder dig att aktivera passphrase BIP39.
 
 
 
@@ -71,7 +71,7 @@ I detta fönster uppmanas du att ange din passphrase. Välj en stark passphrase 
 
 
 
-du ska naturligtvis aldrig dela med dig av din passphrase på Internet, som jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
+naturligtvis ska du aldrig dela din passphrase på Internet, som jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
 
 
 
@@ -97,7 +97,7 @@ Din Hardware Wallet kommer då att visa din passphrase. Kontrollera att den matc
 
 
 
-Detta kommer att ge dig tillgång till din passphrase-skyddade portfölj.
+Detta ger dig tillgång till din passphrase-skyddade Wallet.
 
 
 
@@ -105,7 +105,7 @@ Detta kommer att ge dig tillgång till din passphrase-skyddade portfölj.
 
 
 
-Om du föredrar att öka säkerheten genom att endast ange ditt passphrase på din Trezor, klicka på "*Ange passphrase på Trezor*" när du uppmanas att göra det.
+Om du föredrar att öka säkerheten genom att endast ange din passphrase på din Trezor, klicka på "*Ange passphrase på Trezor*" när du uppmanas att göra det.
 
 
 
@@ -129,11 +129,11 @@ Du kommer då att ha tillgång till din passphrase säkra Wallet.
 
 
 
-För att använda Sparrow Wallet är proceduren liknande, men för modellerna T, Safe 3 och Safe 5 måste passphrase anges på Hardware Wallet och inte via datorns tangentbord.
+För att använda Sparrow wallet är proceduren likartad, men för modellerna T, Safe 3 och Safe 5 måste passphrase anges på Hardware Wallet och inte via datorns tangentbord.
 
 
 
-När Sparrow Wallet kräver åtkomst till din Trezor och passphrase ännu inte har tillämpats sedan den senaste uppstarten, måste du ange den med hjälp av T9-tangentbordet.
+När Sparrow wallet kräver åtkomst till din Trezor och passphrase ännu inte har tillämpats sedan den senaste uppstarten, måste du ange den med hjälp av T9-tangentbordet.
 
 
 
@@ -145,7 +145,7 @@ När Sparrow Wallet kräver åtkomst till din Trezor och passphrase ännu inte h
 
 
 
-På Model One är det nästan oumbärligt att använda en passphrase BIP39. Eftersom denna enhet inte innehåller något Secure Element är det relativt lätt att få ut känslig information. Den är därför inte motståndskraftig mot fysiska attacker. Men eftersom passphrase inte finns kvar på enheten efter att den har stängts av, kan användning av en stark (icke-brutabel) passphrase skydda dig mot de flesta kända fysiska attacker på denna modell.
+På Model One är det nästan oumbärligt att använda en passphrase BIP39. Eftersom denna enhet inte innehåller något Secure Element är det relativt lätt att få ut känslig information. Den är därför inte motståndskraftig mot fysiska attacker. Men eftersom passphrase inte finns kvar på enheten efter att den har stängts av, kan användning av en stark (icke-brutabel) passphrase skydda dig mot de flesta kända fysiska attacker på den här modellen.
 
 
 
@@ -153,7 +153,7 @@ På Model One är det inte möjligt att ange passphrase direkt på Hardware Wall
 
 
 
-När du har skapat din Wallet, sparat din Mnemonic och ställt in en PIN-kod kommer du till Trezor Suite hemmeny. I det övre vänstra hörnet visas ett fönster som inbjuder dig att aktivera passphrase BIP39.
+När du har skapat din Wallet, sparat din Mnemonic och angett en PIN-kod kommer du till startmenyn i Trezor Suite. I det övre vänstra hörnet visas ett fönster som uppmanar dig att aktivera passphrase BIP39.
 
 
 
@@ -169,11 +169,11 @@ Om detta fönster inte visas måste du aktivera alternativet "*passphrase*" på 
 
 
 
-I detta fönster uppmanas du att ange din passphrase. Välj en stark passphrase och gör omedelbart en fysisk säkerhetskopia, på ett medium som papper eller metall. I det här exemplet har jag valt passphrase: `fH3&kL@9mP#2sD5qR!82`. Detta är bara ett exempel, men jag rekommenderar att du väljer en något längre passphrase. Mellan 30 och 40 tecken skulle vara idealiskt (som ett bra lösenord).
+I detta fönster uppmanas du att ange din passphrase. Välj en stark passphrase och gör omedelbart en fysisk säkerhetskopia, på ett medium som papper eller metall. I det här exemplet har jag valt passphrase: `fH3&kL@9mP#2sD5qR!82`. Det här är bara ett exempel, men jag rekommenderar att du väljer en lite längre passphrase. Mellan 30 och 40 tecken skulle vara idealiskt (som ett bra lösenord).
 
 
 
-För mer specifika rekommendationer om hur du väljer din passphrase uppmanar jag dig återigen att läsa denna andra artikel:
+För mer specifika rekommendationer om hur du väljer din passphrase, uppmanar jag dig återigen att läsa den här andra artikeln:
 
 
 
@@ -195,7 +195,7 @@ Din Hardware Wallet kommer att visa din passphrase. Kontrollera att den matchar 
 
 
 
-Då kommer du till din passphrase-skyddade portfölj.
+Detta kommer att ta dig till din passphrase-skyddade Wallet.
 
 
 
@@ -203,7 +203,7 @@ Då kommer du till din passphrase-skyddade portfölj.
 
 
 
-För att använda Sparrow Wallet därefter är proceduren densamma. Varje gång Sparrow behöver tillgång till din Hardware Wallet, och passphrase inte har angetts sedan enheten senast startades, måste du ange den.
+För att använda Sparrow wallet därefter förblir proceduren densamma. Varje gång Sparrow kräver åtkomst till din Hardware Wallet, och passphrase inte har angetts sedan enheten senast startades, måste du ange den.
 
 
 

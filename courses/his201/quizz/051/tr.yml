@@ -1,0 +1,9 @@
+question: ArtForz tarafından 28 Temmuz 2010 tarihinde bildirilen hangi güvenlik açığı, belirli bir komut dosyası kullanarak herhangi bir Address'dan bitcoin harcamaya izin veriyordu?
+answer: 1 RETURN hatası
+wrong_answers:
+  - Değer taşması hatası
+  - OP_NOP hatası
+  - LSHIFT hatası
+explanation: |
+  Açıktan yararlanılmamıştır. Satoshi düzeltmeyi hızlı bir şekilde yazılıma dahil etti ve tüm kullanıcıların yükseltme yapmasını tavsiye etti.
+reviewed: true

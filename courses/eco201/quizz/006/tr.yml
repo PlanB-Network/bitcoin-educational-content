@@ -1,0 +1,10 @@
+question: Kursun ana hedefi nedir?
+answer: Bu ders Avusturya ekonomisinin temel kavramlarını keşfetmeyi amaçlamaktadır.
+wrong_answers:
+  - Kurs, Keynesyen doktrini desteklemeyi amaçlamaktadır.
+  - Bu ders merkez bankalarının işleyişini açıklamayı amaçlamaktadır.
+  - Kurs, parasal gücün merkezileştirilmesini teşvik etmeyi amaçlamaktadır.
+explanation: |
+  Bölümde, kursun aşağıdaki konuları keşfetmeyi amaçladığı belirtilmektedir
+  avusturya ekonomisinin temel kavramları.
+reviewed: true

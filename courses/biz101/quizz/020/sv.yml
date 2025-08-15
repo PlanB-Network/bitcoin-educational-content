@@ -1,0 +1,9 @@
+question: Vad är "dold inflation" i samband med ett skuldbaserat monetärt system?
+answer: Det är ökningen av penningmängden Supply (cirka 7% per år) som minskar din andel av det totala värdet om du inte investerar eller låter tillgångarna växa i enlighet med detta.
+wrong_answers:
+  - Det är en officiell ekonomisk term för fasta räntor.
+  - Det avser inflationssiffror som inte publiceras av centralbankerna.
+  - Det innebär att priserna aldrig stiger, inte ens när pengarna Supply expanderar.
+explanation: |
+  Dold inflation uppstår när pengarna Supply expanderar och minskar köpkraften i sparandet. Om ett företag inte proaktivt investerar eller skyddar sin förmögenhet riskerar det att förlora värde på grund av denna tysta form av monetär utspädning.
+reviewed: false

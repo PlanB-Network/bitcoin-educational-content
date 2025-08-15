@@ -1,0 +1,9 @@
+question: Welk algoritme voor digitale handtekeningen werd gebruikt bij de lancering van Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin gebruikte aanvankelijk ECDSA, een handtekeningprotocol gebaseerd op elliptische krommen, voordat in 2021 Schnorr-handtekeningen werden geïntroduceerd.
+reviewed: false

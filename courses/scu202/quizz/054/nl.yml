@@ -1,0 +1,9 @@
+question: Welke informatie is meestal te vinden in de EXIF-metagegevens van een foto?
+answer: Datum, tijd, GPS-positie, apparaatmodel, auteur
+wrong_answers:
+  - Broncode voor camerafirmware
+  - Wi-Fi-wachtwoord van fotograaf
+  - Laatste antivirusresultaten
+explanation: |
+  De EXIF metadata van een foto bevatten vaak gedetailleerde contextuele informatie over de opname en de camera.
+reviewed: false

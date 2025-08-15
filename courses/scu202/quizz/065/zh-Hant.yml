@@ -1,0 +1,9 @@
+question: 哪項陳述最能說明私人瀏覽模式？
+answer: 它限制了本地軌跡的記錄
+wrong_answers:
+  - 它讓您匿名上網
+  - 封鎖所有惡意追蹤程式和腳本
+  - 它會刪除使用中的擴充套件
+explanation: |
+  隱私模式只是防止本機記錄歷史和 Cookie，但不保證在網際網路上的匿名性。
+reviewed: false

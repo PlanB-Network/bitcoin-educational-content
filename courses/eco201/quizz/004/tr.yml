@@ -1,0 +1,12 @@
+question: Avusturya ekonomisinin ekonomiyi anlamaya yönelik temel yaklaşımı nedir?
+answer: Avusturya ekonomisi, ekonomiyi insan mantığı ve sosyoloji perspektifinden anlar.
+wrong_answers:
+  - Avusturya ekonomisi, ekonomiyi matematiksel denklemler aracılığıyla anlar.
+  - Avusturya ekonomisi, ekonomiyi parasal baskı ve harcama perspektifinden anlar.
+  - Avusturya ekonomisi, ekonomiyi merkez bankalarının bakış açısından ele alır.
+explanation: |
+  Bu bölüm, Avusturya ekonomisinin aşağıdakileri anladığını açıklamaktadır
+  insan mantığı perspektifinden ekonomi ve
+  sosyoloji, bu disipline şu şekilde yaklaşmak yerine
+  matematiksel denklemler.
+reviewed: true

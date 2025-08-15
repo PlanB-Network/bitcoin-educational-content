@@ -1,0 +1,11 @@
+question: Bitcoin ağındaki madenciler için ödül nedir?
+answer: Yeni bitcoinler ve işlem ücretleri.
+wrong_answers:
+  - Sadece yeni bitcoinler.
+  - Sadece işlem ücretleri.
+  - Madenciler için ödül yoktur.
+explanation: |
+  Bitcoin ağındaki madenciler yeni madencilerle ödüllendiriliyor
+  doğrulama çalışmaları için bitcoinler ve işlem ücretleri
+  ve bloklar oluşturmak.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Geleneksel ödeme sistemlerinde kağıt paranın madeni paraya göre ne gibi önemli bir avantajı vardır?
+answer: Daha fazla taşınabilirlik ve verimlilik
+wrong_answers:
+  - Değerli metaller aracılığıyla artırılmış içsel değer
+  - Her işlemin otomatik olarak doğrulanması
+  - Sahtecilik risklerinin tamamen ortadan kaldırılması
+explanation: |
+  Madeni paraya göre daha hafif ve taşınması daha kolay olan kağıt para, uzun mesafeli ticaretin daha verimli bir şekilde yapılmasını sağladı ve lojistik zorlukları azalttı.
+reviewed: false

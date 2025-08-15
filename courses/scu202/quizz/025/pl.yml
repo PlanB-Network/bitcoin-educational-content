@@ -1,0 +1,9 @@
+question: Jaki format pakietów opracowała firma Canonical, aby odizolować aplikacje i ich zależności?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Format Snap, opracowany przez Canonical, umożliwia instalację samodzielnego oprogramowania, odizolowanego od systemu i aktualizowanego niezależnie.
+reviewed: false

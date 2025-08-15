@@ -1,0 +1,9 @@
+question: Millist paketihaldurit kasutavad Debian ja Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian ja Ubuntu kasutavad tarkvara paigaldamise ja uuendamise haldamiseks APT paketihaldurit, mis põhineb .deb-vormingul.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hangi elektronik para kavramı Satoshi Nakamoto tarafından Bitcoin beyaz kağıdında açıkça belirtilmiştir?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Bu ilk referanstı. Satoshi, Wei Dai ile yaptığı görüşmeleri takiben Ağustos 2008'de eklemiştir.
+reviewed: true

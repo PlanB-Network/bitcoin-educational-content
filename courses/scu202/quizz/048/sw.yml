@@ -1,0 +1,9 @@
+question: Kwa nini usimbaji fiche wa diski kamili au ufunguo wa USB ni muhimu kwa usalama wa data yako?
+answer: Inazuia ufikiaji usioidhinishwa wa faili
+wrong_answers:
+  - Huongeza kasi ya kusoma na kuandika faili
+  - Inalinda dhidi ya kushindwa kwa vifaa
+  - Inarahisisha kushiriki diski
+explanation: |
+  Usimbaji fiche kamili hufanya data isiweze kutumika kabisa bila ufunguo au nenosiri, hata kama mshambuliaji ana diski hiyo.
+reviewed: false

@@ -113,6 +113,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.74
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.41
 tags:
   - node
   - guides

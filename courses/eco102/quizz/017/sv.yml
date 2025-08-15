@@ -1,0 +1,9 @@
+question: Vad är politisk ekonomi för Bastiat?
+answer: Teorin om Exchange
+wrong_answers:
+  - Värdeteorin
+  - Teorin om förmögenhet
+  - Teorin om köpkraft
+explanation: |
+  Bastiat definierar politisk ekonomi som teorin om Exchange.
+reviewed: false

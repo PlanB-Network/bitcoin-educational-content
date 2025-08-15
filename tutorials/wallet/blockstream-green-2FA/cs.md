@@ -4,6 +4,12 @@ description: Nastavení multisignu 2/2 na zelené peněžence
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Poznámka:** Od května 2025 již nebude možné aktivovat nové účty chráněné dvoufázovým ověřováním (2FA). Tato funkce je dostupná pouze pro uživatele, kteří již tento typ účtu dříve aktivovali.*
+
+___
+
 Softwarová peněženka je aplikace nainstalovaná v počítači, chytrém telefonu nebo jiném zařízení připojeném k internetu, která umožňuje spravovat a zabezpečit klíče k bitcoinovým peněženkám. Na rozdíl od hardwarových peněženek, které izolují soukromé klíče, proto "horké" peněženky fungují v prostředí potenciálně vystaveném kybernetickým útokům, což zvyšuje riziko pirátství a krádeže.
 
 Softwarové peněženky by měly sloužit ke správě rozumného množství bitcoinů, zejména pro každodenní transakce. Mohou být také zajímavou možností pro lidi s omezeným majetkem v bitcoinech, kterým se investice do hardwarové peněženky může zdát neúměrná. Jejich neustálé vystavení působení internetu je však činí méně bezpečnými pro ukládání vašich dlouhodobých úspor nebo velkých finančních prostředků. Pro ty je lepší zvolit bezpečnější řešení, například hardwarové peněženky.
@@ -20,7 +26,7 @@ Zelená je mimořádně snadno použitelná aplikace, která je zajímavá i pro
 
 Blockstream Green také podporuje síť Liquid, vedlejší řetězec Bitcoinu vyvinutý společností Blockstream pro rychlé a důvěrné transakce mimo hlavní blockchain. V tomto návodu se zaměříme výhradně na Bitcoin, ale vytvořil jsem také další návod, kde se dozvíte, jak používat Liquid na Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## možnost 2/2 multisig (2FA)
 
@@ -40,7 +46,7 @@ Další nevýhodou této metody zabezpečení je, že budete muset používat mi
 
 Pokud raději nepoužíváte možnost 2FA a chcete si jednoduše nastavit peněženku "*singlesig*" na Zelené, doporučuji vám tento další návod :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instalace a konfigurace softwaru Blockstream Green
 
@@ -264,4 +270,5 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green pro nastavení peněženky Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

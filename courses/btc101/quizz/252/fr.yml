@@ -5,8 +5,6 @@ wrong_answers:
   - Le Bitcoin bénéficie uniquement aux personnes ayant un compte bancaire et une position politique de gauche.
   - Le Bitcoin bénéficie uniquement aux personnes ayant un statut social élevé.
 explanation: |
-  Le texte mentionne qu'il y a 2,4 milliards de personnes dans le
-  monde sans compte bancaire, et que le Bitcoin permet
-  l'égalité dans les transactions, indépendamment de leur statut social
-  ou de leur position politique.
+  Il y a 2,4 milliards de personnes dans le monde sans compte bancaire, et le Bitcoin permet
+  l'égalité dans les transactions, indépendamment de leur statut social ou de leur position politique.
 reviewed: true

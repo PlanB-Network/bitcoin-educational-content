@@ -1,0 +1,9 @@
+question: Vilket år upptäcktes asymmetrisk kryptografi officiellt?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Whitfield Diffie och Martin Hellman, två kryptografer från Stanford University, introducerade det i en artikel som publicerades i november 1976.
+reviewed: true

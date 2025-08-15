@@ -1,0 +1,12 @@
+question: Avusturyalı ekonomistlerin faiz oranlarının belirlenmesi konusundaki görüşleri nedir?
+answer: Avusturyalı ekonomistler, faiz oranının keyfi olarak belirlenmesinin ekonomik krizlere yol açabileceğini vurgulamaktadır.
+wrong_answers:
+  - Avusturyalı ekonomistler faiz oranlarının hükümet tarafından belirlenmesi gerektiğine inanmaktadır.
+  - Avusturyalı ekonomistler faiz oranlarının sabit ve değişmez olması gerektiğine inanmaktadır.
+  - Avusturyalı ekonomistler faiz oranlarının merkez bankası tarafından belirlenmesi gerektiğine inanmaktadır.
+explanation: |
+  Avusturyalı ekonomistler, faiz oranının keyfi olarak belirlenmesinin
+  ekonomik krizlere yol açabilir ve sosyalist bir rejimde hesaplamayı imkansız hale getirebilir.
+  Değerleme ilişkilerinin öznel olduğunu, bu nedenle faiz oranlarının değişebileceğini savunuyorlar
+  bireylere ve koşullara bağlı olarak değişir.
+reviewed: true

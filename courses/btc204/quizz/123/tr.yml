@@ -1,0 +1,10 @@
+question: Bir Bitcoin düğümü için Tor kullanmanın ana dezavantajı nedir?
+answer: İletişim hızında azalma
+wrong_answers:
+  - İşlem ücretlerinde artış
+  - İşlem sansürü riski
+  - Düğüm üzerinde Eclipse saldırısı riski
+explanation: |
+  Tor üzerinden iletişim daha yavaştır. Bu gecikme, IBD (İlk Blok İndirme) çok fazla iletişim gerektirdiğinden, bir düğümün ilk başlatılması sırasında özellikle sorunludur.
+  
+reviewed: false

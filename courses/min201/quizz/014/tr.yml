@@ -1,0 +1,11 @@
+question: Bitcoin'da Mining merkezileşmesinin potansiyel riski nedir?
+answer: Bitcoin'deki Mining merkezileşmesi potansiyel olarak işlem sansürüne yol açabilir ve ağı, bir aktörün veya grubun ağın hash gücünün %50'sinden fazlasını kontrol ederek ağı kontrol etmesine ve manipüle etmesine olanak tanıyan %51 saldırısı da dahil olmak üzere saldırılara karşı savunmasız hale getirebilir.
+wrong_answers:
+  - Mining'in Bitcoin'te merkezileştirilmesi potansiyel olarak Bitcoin'ün değerinin düşmesine yol açabilir ve ağı enflasyona karşı savunmasız hale getirebilir.
+  - Mining'in Bitcoin'de merkezileştirilmesi potansiyel olarak Block reward'da bir azalmaya yol açabilir ve ağı durgunluğa karşı savunmasız hale getirebilir.
+  - Bitcoin'daki Mining merkezileştirmesi potansiyel olarak işlem hızında bir düşüşe yol açabilir ve ağı tıkanıklığa karşı savunmasız hale getirebilir.
+explanation: |
+  Bu bölümde Mining'nin Bitcoin'de merkezileştirilmesi açıklanmaktadır
+  potansiyel olarak işlem sansürüne yol açabilir ve
+  ağı, %51 saldırısı da dahil olmak üzere saldırılara karşı savunmasızdır.
+reviewed: true

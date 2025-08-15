@@ -1,0 +1,9 @@
+question: Wat was het oorspronkelijke doel van het Hashcash Proof of Work algoritme, ontworpen door Adam Back?
+answer: E-mail met spam bestrijden
+wrong_answers:
+  - De waarde van een rekeneenheid garanderen
+  - Consensus bereiken op een peer-to-peer netwerk
+  - Om de oceanen te laten koken
+explanation: |
+  Hashcash vereiste een Proof of Work voor elke ontvangen e-mail, wat spam moest beperken.
+reviewed: true

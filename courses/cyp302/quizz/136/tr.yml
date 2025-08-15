@@ -1,0 +1,9 @@
+question: Çevrimiçi bir hizmet bir şifreyi doğrudan saklamadan nasıl doğrular?
+answer: Girilen parolanın Hash'ını veritabanındaki parola ile karşılaştırarak
+wrong_answers:
+  - Doğrulamak için saklanan parolanın şifresini çözerek
+  - Kimliği doğrulamak için bir açık anahtar kullanarak
+  - Parolayı doğrudan diğer kullanıcılarınkiyle karşılaştırarak
+explanation: |
+  Hizmet, girilen parolanın bir Hash'ini oluşturur ve parolayı doğrudan saklamadan saklanan parola ile karşılaştırır, böylece daha fazla güvenlik sağlar.
+reviewed: false

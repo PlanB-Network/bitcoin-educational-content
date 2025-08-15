@@ -8,7 +8,7 @@ description: Je, unawezaje kuzindua kwa urahisi nodi yako ya Umeme?
 Alby Hub ni programu ya hivi punde ya programu huria kutoka kwa Alby, kampuni inayoendesha kiendelezi maarufu cha mtandao cha Lightning. Alby Hub ni Wallet inayojitegemea na yenye njia rahisi zaidi ya kutumia Umeme, inayofikiwa kutoka popote ili kuunganishwa na programu nyingi. Alby Hub ni Interface iliyo rahisi kutumia kwa ajili ya kudhibiti nodi za Umeme.
 
 
-Katika somo hili, tutaangalia njia tofauti za kutumia Alby Hub jinsi ya kuiunganisha kwa Alby Go, programu ya simu ya Alby au Kiendelezi cha Kivinjari cha Alby. Hii itakuwezesha kutumia Sats yako kwenye harakati huku ukiwa huru katika usimamizi wa nodi yako.
+Katika somo hili, tutaangalia njia tofauti za kutumia Alby Hub jinsi ya kuiunganisha kwa Alby Go, programu ya simu ya Alby au Kiendelezi cha Kivinjari cha Alby. Hii itakuwezesha kutumia Sats zako kwenye harakati huku ukiwa huru katika usimamizi wa nodi yako.
 
 
 ![ALBY HUB](assets/fr/01.webp)
@@ -17,7 +17,7 @@ Katika somo hili, tutaangalia njia tofauti za kutumia Alby Hub jinsi ya kuiungan
 ## Alby Hub ni nini?
 
 
-Alby Hub imewekwa kuwa zana mpya bora katika mfumo ikolojia wa Alby. Programu hii huwawezesha watumiaji kudhibiti kwa urahisi ulinzi wao wa Wallet kwa kutumia nodi iliyounganishwa ya Umeme, huku wakihifadhi Ownership ya funguo zao (kujitunza).
+Alby Hub imewekwa kuwa zana mpya bora katika mfumo ikolojia wa Alby. Programu hii huwawezesha watumiaji kudhibiti kwa urahisi ulinzi wao wa Wallet kwa kutumia nodi iliyounganishwa na Umeme, huku wakihifadhi umiliki wa funguo zao (kujitunza).
 
 
 Alby Hub ni zana inayoweza kubadilika sana. Inaweza kukidhi mahitaji ya wanaoanza na watumiaji wa hali ya juu. Wanaoanza wataitumia kuendesha kwa urahisi nodi halisi ya Umeme peke yao, bila kulazimika kushughulika na utata uliopo. Kwa watumiaji wenye uzoefu zaidi, Alby Hub inaweza kutumika kama Interface kamili kwa usimamizi wa juu wa nodi iliyopo ya Umeme.
@@ -28,13 +28,13 @@ Kulingana na mahitaji yako, Alby Hub inapatikana katika usanidi 4:
 
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud :**
 
 
-Inafaa kwa wanaoanza, chaguo hili la kwanza ni chaguo la wingu la Alby. Inakuruhusu kupeleka Hub moja kwa moja kwenye seva inayodhibitiwa na Alby, inayopatikana kupitia Alby Hub Interface yako. Ingawa Alby anadhibiti seva, unabaki na mamlaka juu ya pesa zako, kwani funguo zako zimesimbwa kwa njia fiche kwa kutumia nenosiri unalolijua wewe pekee. Hata hivyo, funguo zako lazima zibaki zikiwa zimesimbwa katika RAM ili nodi ifanye kazi, ambayo kinadharia inawaweka hatarini ikiwa mtu atafikia seva. Ni maelewano ya kuvutia kwa Kompyuta, lakini ni muhimu kufahamu hatari.
+Inafaa kwa wanaoanza, chaguo hili la kwanza ni chaguo la wingu la Alby. Inakuruhusu kupeleka Hub moja kwa moja kwenye seva inayodhibitiwa na Alby, inayopatikana kupitia Alby Hub Interface yako. Ingawa Alby inadhibiti seva, unabaki na mamlaka juu ya pesa zako, kwani funguo zako zimesimbwa kwa njia fiche kwa kutumia nenosiri unalolijua wewe pekee. Hata hivyo, funguo zako lazima zibaki zikiwa zimesimbwa katika RAM ili nodi ifanye kazi, ambayo kinadharia inawaweka hatarini ikiwa mtu atafikia seva. Ni maelewano ya kuvutia kwa Kompyuta, lakini ni muhimu kufahamu hatari.
 
 
-Faida kuu ya chaguo hili ni kwamba unapata nodi ya Umeme juu na kufanya kazi 24/7, bila kulazimika kudhibiti upangishaji mwenyewe. Zaidi ya hayo, hifadhi rudufu za nodi yako ya Umeme hurahisishwa na kujiendesha kiotomatiki, ikilinganishwa na chaguo zinazopangishwa wewe mwenyewe ambapo unapaswa kudhibiti hifadhi rudufu za vituo wewe mwenyewe.
+Faida kuu ya chaguo hili ni kwamba unapata nodi ya Umeme juu na kufanya kazi 24/7, bila kulazimika kudhibiti upangishaji mwenyewe. Zaidi ya hayo, hifadhi rudufu za nodi yako ya Umeme hurahisishwa na kujiendesha kiotomatiki, ikilinganishwa na chaguo zinazopangishwa na wewe mwenyewe ambapo unapaswa kudhibiti hifadhi rudufu za vituo wewe mwenyewe.
 
 
 Alby Cloud ni huduma inayolipishwa [Angalia bei zao](https://albyhub.com/#pricing) kwa maelezo zaidi. Ada hukatwa kiotomatiki kwenye Wallet yako kupitia Lightning Invoice iliyotolewa na Alby. Hii inafanywa kupitia muunganisho wa NWC ambao husanidi nodi yako ili kulipa kiotomatiki ankara za Alby zinazohusiana na usajili wako.
@@ -43,7 +43,7 @@ Alby Cloud ni huduma inayolipishwa [Angalia bei zao](https://albyhub.com/#pricin
 
 
 
-- Alby Hub iliyo na nodi iliyopo :**
+- **Alby Hub iliyo na nodi iliyopo :**
 
 
 Ikiwa tayari una nodi iliyopangishwa, kwa mfano kwenye Umbrel au Start9, Alby Hub inaweza kutumika kama usimamizi wa hali ya juu wa Interface, kwa njia sawa na ThunderHub au RTL.
@@ -51,7 +51,7 @@ Ikiwa tayari una nodi iliyopangishwa, kwa mfano kwenye Umbrel au Start9, Alby Hu
 
 
 
-- Alby Hub ndani :**
+- **Alby Hub ndani :**
 
 
 Pia inawezekana kusakinisha Alby Hub moja kwa moja kwenye Kompyuta yako, ingawa chaguo hili halitumiki sana, kwani ni lazima Kompyuta yako iendelee kutumika kila wakati ili kufikia nodi ya Umeme ukiwa mbali. Walakini, mbadala hii inaweza kufaa kwa mahitaji yako maalum.
@@ -59,7 +59,7 @@ Pia inawezekana kusakinisha Alby Hub moja kwa moja kwenye Kompyuta yako, ingawa 
 
 
 
-- Alby Hub kwenye seva ya kibinafsi :**
+- **Alby Hub kwenye seva ya kibinafsi :**
 
 
 Kwa watumiaji wa hali ya juu, Alby Hub inaweza kupelekwa kwenye seva ya kibinafsi kwa amri rahisi. Chaguo hili halijashughulikiwa katika mafunzo haya, lakini unaweza kupata maagizo maalum [kwenye Alby's GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
@@ -89,7 +89,7 @@ Nenda kwenye [tovuti rasmi ya Alby](https://getalby.com/) na ubofye kitufe cha "
 ![ALBY HUB](assets/fr/04.webp)
 
 
-Ingiza jina la utani na barua pepe Address, kisha ubofye "*Jisajili*". Barua pepe hii Address itatumiwa kuingia katika akaunti yako baadaye.
+Ingiza jina la utani na barua pepe Address, kisha ubofye "*Jisajili*". Barua pepe hii na Address itatumiwa kuingia katika akaunti yako baadaye.
 
 
 ![ALBY HUB](assets/fr/05.webp)
@@ -116,7 +116,7 @@ Bonyeza "*Endelea*" tena.
 ## Chaguo la mwenyeji wa wingu
 
 
-Kisha utahitaji kuchagua kati ya chaguo la kujipangia mwenyewe, ambapo utasakinisha Alby Hub kwenye kifaa chako mwenyewe, au chaguo za malipo. Nitaanza kwa kueleza jinsi ya kuendelea na chaguo la Pro Cloud (kumbuka kuwa hii ni chaguo la kulipwa, angalia maelezo katika sehemu ya awali).
+Kisha utahitaji kuchagua kati ya chaguo la kujipangia mwenyewe, ambapo utasakinisha Alby Hub kwenye kifaa chako mwenyewe, au chaguo za malipo. Nitaanza kwa kueleza jinsi ya kuendelea na chaguo la Pro Cloud (kumbuka kuwa hili ni chaguo la kulipwa, angalia maelezo katika sehemu ya awali).
 
 
 Bonyeza "* Boresha *".
@@ -236,7 +236,7 @@ Mara baada ya kuhifadhi maneno, chagua kisanduku ili kuthibitisha kuwa umeihifad
 ## Ninawezaje kurejesha ufikiaji wa bitcoins zangu?
 
 
-Kabla ya kutuma pesa kwa Alby Hub yako, ni muhimu kuelewa jinsi ya kuzirejesha kukitokea tatizo, na pia ni taarifa gani zinazohitajika ili urejeshaji huu. Mchakato hutofautiana kulingana na asili ya pesa zitakazorejeshwa na hali ya upangishaji wa nodi yako.
+Kabla ya kutuma pesa kwa Alby Hub yako, ni muhimu kuelewa jinsi ya kuzirejesha kukitokea tatizo, na pia ni taarifa gani zinazohitajika ili urejeshaji huu. Mchakato hutofautiana kulingana na asili ya pesa zitakazorejeshwa na hali ya upangaji wa nodi yako.
 
 
 Kwa watumiaji wa wingu wanaolipwa, urejeshaji kamili wa bitcoins zako unahitaji Elements tatu muhimu:
@@ -521,7 +521,7 @@ Malipo haya yanaonekana pia kwenye Alby Hub yako.
 ## Geuza kukufaa Umeme Address yako
 
 
-Alby inakupa chaguo la Umeme Address. Hii hukuruhusu kupokea malipo kwenye nodi yako bila kuhitaji wewe mwenyewe generate Invoice kila wakati. Kwa chaguo-msingi, Alby hukupa Umeme Address, lakini unaweza kuibinafsisha. Ingia kwenye akaunti yako ya mtandaoni ya Alby, bofya jina lako kwenye kona ya juu kulia, kisha uchague "*Mipangilio*".
+Alby inakupa chaguo la Umeme Address. Hii hukuruhusu kupokea malipo kwenye nodi yako bila kuhitaji wewe mwenyewe kugenerate Invoice kila wakati. Kwa chaguo-msingi, Alby hukupa Umeme Address, lakini unaweza kuibinafsisha. Ingia kwenye akaunti yako ya mtandaoni ya Alby, bofya jina lako kwenye kona ya juu kulia, kisha uchague "*Mipangilio*".
 
 
 ![ALBY HUB](assets/fr/63.webp)

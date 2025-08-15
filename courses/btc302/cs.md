@@ -1,1892 +1,2925 @@
 ---
-name: Vytvoření bitcoinové komunity nebo setkání
-goal: Snadné vytvoření a uspořádání komunity Bitcoin nebo setkání
+name: Vytvoření komunity Bitcoin nebo setkání
+goal: Snadné vytvoření a organizace komunity Bitcoin nebo setkání
 objectives: 
 
-  - Naučit se, jak vytvořit komunitu bitcoinů a/nebo jak se setkávat?
-  - Budování vizuální a digitální identity vaší komunity a s jakými nástroji začít?
-  - Stanovte si roční cíle pro svou komunitu
-  - Definujte projekty a iniciativy pro svou komunitu
-  - Chápete význam předvídání budoucího vývoje komunity?
+
+  - Vytvoření komunity Bitcoin a/nebo setkání
+  - Vytvoření vizuální a digitální identity vaší komunity
+  - Stanovení ročních cílů pro vaši komunitu
+  - Zahájení projektů a iniciativ s vaší komunitou
+  - Pochopit význam předvídání budoucího vývoje komunity
+
 
 ---
-# První krok k přijetí bitcoinu
 
-V současné době je na internetu k dispozici velké množství vzdělávacího obsahu, který umožňuje každému, aby se o bitcoinu a jeho ekosystému vzdělával.
+# První krok k přijetí Bitcoin
 
-Nicméně **jediná věc, kterou mnozí z nás, bitcoinářů, velmi postrádají, je možnost setkávat se, vyměňovat si a sdílet své znalosti**. Ale také **společně budovat**.
 
-Aby tuto rostoucí potřebu vyřešili, mnozí bitcoineři se pravidelně rozhodují **vytvářet kolem sebe nové komunity**. Při dostatečném počtu účastníků jsou pak navrhována setkání, která se často opakují a stávají se živnou půdou pro tvorbu prezentací a workshopů, a to jak technických, tak populárních.
 
-V tomto kurzu s názvem "**BTC302**" se budeme zabývat ukázkou **zájmu o vytvoření bitcoinové komunity a/nebo meet-upu**, poté podrobně popíšeme a navrhneme **různé nástroje pro rozvoj vizuální a digitální identity** vlastní komunity nebo meet-upu.
+V současné době je na internetu k dispozici nepřeberné množství vzdělávacího obsahu, který umožňuje každému získat informace o Bitcoin a jeho ekosystému.
 
-Dále představíme **různé projekty a iniciativy**, které lze snadno realizovat, zejména z hlediska vzdělávání. Poté bude nabídnuto několik zdrojů s otevřeným zdrojovým kódem.
 
-V neposlední řadě bude provedena hlubší reflexe **evoluce komunit z národního hlediska**, ale také **jejich role v hyperbitcoinizaci zítřejšího světa**.
+Často však chybí **jedna věc: možnost setkávat se, Exchange nápady, sdílet znalosti** a především **společně budovat**.
+
+
+
+Pro uspokojení této rostoucí potřeby se mnoho bitcoinerů pravidelně rozhoduje **vytvářet místní komunity**.
+
+Jakmile se sejde dostatečný počet účastníků, pořádají se setkání a tato opakovaná setkání se často stávají živnou půdou pro technické prezentace, praktické workshopy a širší diskuse.
+
+
+V tomto kurzu "**BTC302**" prozkoumáme, **proč je vytvoření komunity Bitcoin a/nebo meet-upu důležité**, a poté se ponoříme do **nástrojů a metod pro rozvoj vizuální a digitální identity vaší komunity**.
+
+
+Představíme také **projekty a iniciativy**, které lze snadno spustit, zejména ty vzdělávací, podpořené několika předem připravenými zdroji s otevřeným zdrojovým kódem.
+
+
+Nakonec probereme **vývoj komunit Bitcoin na národní úrovni** a **jejich potenciál urychlit zítřejší hyperbitcoinizovaný svět**.
+
+
 
 +++
+
 # Úvod
+
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Přehled kurzu
+
+
+## Přehled kurzů
+
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
-Vítejte v kurzu BTC302!
-
-Od roku 2009 se bitcoin dále rozvíjí. To zahrnuje implementaci nových návrhů na vylepšení bitcoinu (BIP), vytváření nových vrstev pro škálování sítě (mimo jiné Lightning Network) a rozvoj mnoha společností a startupů.
-
-Její rozvoj je patrný i v řetězci, zejména v rostoucím počtu transakcí.
-
-Odhaduje se tedy, že mezi 1. lednem 2018 a 1. lednem 2024 se počet transakcí na hlavní vrstvě Bitcoinu [zvýšil o 66,2 %](https://dune.com/queries/3375917/5663935); zatímco mezi srpnem 2021 a srpnem 2023 se počet veřejných transakcí na překryvné vrstvě Lightning [zvýšil o 1212 %](https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-Tento statistický pohled samozřejmě úzce souvisí s:
 
 
-- rostoucí [zájem mnoha jednotlivců o používání Bitcoinu](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) po celém světě s cílem emancipovat se od bankovního systému a/nebo používat měnu, která je méně volatilní nebo méně znehodnocená než jejich vlastní, jako je tomu v případě obyvatel Libanonu, Sýrie, Egypta, Argentiny atd;
-- zhodnocení v průběhu času, což vede k tomu, že se prostřednictvím své měnové emise stává uchovatelem hodnoty a dlouhodobou investicí.
-- následný vývoj spekulativního trhu s kryptoměnami, zejména v letech 2017/2018 a 2020/2021;
-- bitcoin se stále častěji objevuje v médiích.
 
-![image](assets/fr/01.webp)
+Vítejte v BTC302!
 
-####
 
-I když je Bitcoin stále v počátečním stádiu vývoje, toto pozorování - které už jistě znáte - nás vede k zamyšlení nad dvěma věcmi.
 
-Jak můžeme na jedné straně povzbudit uživatele bitcoinů, aby se ve svém vzdělávání a projektech posunuli dále a plně využili potenciál bitcoinu**?
+Od roku 2009 společnost Bitcoin neúnavně roste. Tento růst se projevil prostřednictvím nových návrhů na zlepšení Bitcoin (BIP), vytvořením dalších vrstev, aby byla síť škálovatelná (mimo jiné Lightning Network), a rozvojem mnoha společností a začínajících podniků.
 
-Na druhou stranu, jak bychom mohli povzbudit nové lidi, kteří přicházejí přilákáni ziskem v "kryptoměnovém ekosystému", aby neprohrávali své peníze v nejnovějším módním memecoinu, ale aby se **vzdělávali o základech Bitcoinu**?
 
-####
 
-U těchto dvou problémů je nejlepším řešením být v terénu a vzdělávat.
+Jeho vývoj je patrný i v On-Chain, kde počet transakcí neustále roste.
 
-Cílem tohoto kurzu je poskytnout vám všechny potřebné nástroje k efektivnímu vytvoření a organizaci komunity nebo meet-upu zaměřeného na Bitcoin. Ať už chcete vybudovat místní iniciativu nebo rozvíjet online skupinu, tento kurz vás konkrétně provede každým krokem procesu, od vytvoření vaší vizuální identity až po pořádání pravidelných akcí, včetně správy vašich komunikačních kanálů.
 
-**Sekce 1 : Úvod**  
-Začneme tím, že si znovu představíme důležitost shromažďování lidí kolem Bitcoinu, ať už se jedná o online komunity nebo místní meet-upy. Zjistíte, proč a kde zahájit svou komunitu a jak definovat jasné cíle, které zajistí její růst a udržitelnost.
+Odhaduje se například, že mezi 1. lednem 2018 a 1. lednem 2024 se počet transakcí na hlavní lince Bitcoin Layer [zvýší o 66,2 %](https://dune.com/queries/3375917/5663935). Mezitím se mezi srpnem 2021 a srpnem 2023 počet veřejných transakcí na Lightning Network [zvýšil o 1212 %](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
-**Sekce 2 : Vytvoření jedinečné identity pro svou Bitcoin komunitu**  
-Pro přilákání nových členů a vytvoření pocitu sounáležitosti je důležité vytvořit jedinečnou identitu. Tato sekce vás naučí, jak navrhnout logo, plakát nebo banner, které věrně odrážejí ducha vaší Bitcoin komunity.
 
-**Sekce 3 : Vytváření komunikačních kanálů pro svou Bitcoin komunitu**  
-Komunikace je srdcem každé komunity. Probereme zde různé komunikační kanály, které je třeba upřednostnit, a metody, jak efektivně nastavit skupinu na Telegramu nebo server na Discordu. Diskutovat budeme také o integraci multifunkčních botů pro usnadnění správy vaší komunity.
 
-**Sekce 4 : Spuštění sociálních sítí**  
-Viditelnost je klíčem k rozvoji vaší komunity. Naučíte se, jak vytvořit dedikovaný Twitter profil, navázat spojení s dalšími blízkými meet-upy a využít platformy jako btcmap.org ke zvýšení své viditelnosti a přilákání nových členů.
+Tento výrazný růst samozřejmě úzce souvisí s:
 
-**Sekce 5 : Organizace Bitcoin meet-upu**  
-Tato sekce se zaměřuje na organizaci meet-upů, od hledání vhodného místa až po samotnou organizaci akce. Budeme se také zabývat způsoby, jak udržet účastníky motivované a zajistit trvalý rozvoj vaší komunity.
 
-**Sekce 6 : Příklady projektů a iniciativ**  
-Abychom šli nad rámec jednoduchých setkání, nabídneme vám v této sekci konkrétní a originální projekty: tematické akce, workshopy, tvorbu vzdělávacích materiálů, místní spolupráce a mnoho dalšího. Naučíte se také, jak vytvořit fyzické a digitální materiály na podporu vaší komunity.
 
-**Sekce 7 : Předvídání budoucnosti**  
-Nakonec se zaměříme na přirozený vývoj vaší komunity. Co dělat, když vaše skupina roste příliš rychle? Jak decentralizovat organizaci? A jak reagovat, pokud se regulatorní prostředí stane nepřátelským? Tato sekce vám pomůže předvídat budoucí výzvy.
 
-**Sekce 8 : Sjednocení Bitcoinerů**  
-Tato poslední sekce se zaměřuje na samotnou podstatu vašeho projektu: sjednocení Bitcoinových nadšenců kolem společné vize. Naučíte se, jak strukturovat svůj přístup k přilákání a udržení nových členů, jak delegovat úkoly v rámci své skupiny a jak svou komunitu udržovat a rozvíjet dlouhodobě.
+- [rostoucí zájem lidí na celém světě o používání Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby se osvobodili od bankovního systému a/nebo používali méně volatilní nebo méně znehodnocenou měnu, jako je tomu v případě obyvatel Libanonu, Sýrie, Egypta, Argentiny a dalších zemí;
+- jejího zhodnocování v čase, čímž se etabluje jako uchovatel hodnoty a dlouhodobá investice, k čemuž přispívá její pevná měnová politika;
+- postupný růst spekulativního trhu s kryptoměnami, zejména v letech 2017-2018 a 2020-2021;
+- Rostoucí přítomnost Bitcoin v hlavních médiích.
 
-Připraveni zjistit, jak vybudovat silnou a dynamickou Bitcoin komunitu? Jdeme na to!
 
-## Proč vytvářet bitcoinovou komunitu nebo meet-up?
+
+![image](assets/fr/001.webp)
+
+
+
+
+Ačkoli je Bitcoin stále v počáteční fázi, tato skutečnost, kterou si již pravděpodobně uvědomujete, nás nutí zamyslet se nad dvěma klíčovými otázkami:
+
+
+
+
+- Jak můžeme bitcoináře povzbudit, aby se ve svém vzdělávání a projektech posunuli dál a **plně využili potenciál Bitcoin**?
+
+
+
+- Jak můžeme pomoci nováčkům, které často lákají krátkodobé spekulace, aby nepřišli o peníze na nejnovějším memecoinovém šílenství a místo toho se zaměřili na **poznání základů Bitcoin**?
+
+
+
+Nejlepší řešení obou problémů je jednoduché: **buďte přítomni v reálném světě a vzdělávejte se**.
+
+
+
+Cílem tohoto kurzu je poskytnout vám vše, co potřebujete k vytvoření a efektivní organizaci komunity Bitcoin nebo setkání. Ať už chcete vybudovat místní iniciativu nebo rozvíjet online skupinu, tento kurz vás provede krok za krokem: od vytvoření vizuální identity až po založení pravidelných akcí a správu komunikačních kanálů.
+
+
+
+**Odddíl 1: Úvod
+
+
+Na začátku zdůrazníme význam sdružování lidí kolem Bitcoin, ať už prostřednictvím online komunit nebo místních setkání. Dozvíte se, proč a kde založit vlastní komunitu a jak si stanovit jasné cíle, které podpoří její růst a dlouhodobou udržitelnost.
+
+
+
+**Část 2: Vytvoření jedinečné identity pro vaši komunitu Bitcoin**
+
+
+Pro přilákání nových členů a posílení pocitu sounáležitosti je nezbytné vybudovat jedinečnou identitu. V této části se dozvíte, jak navrhovat loga, plakáty a bannery, které ztělesňují ducha vaší komunity Bitcoin.
+
+
+
+**Část 3: Vytvoření komunikačních kanálů pro vaši komunitu Bitcoin**
+
+
+Komunikace je základem každé komunity. V této části prozkoumáme nejlepší kanály, které můžete použít, a provedeme vás efektivním nastavením skupiny Telegram nebo serveru Discord. Dozvíte se také, jak integrovat multifunkční roboty, abyste zefektivnili správu komunity.
+
+
+
+**Část 4: Spuštění sociálních sítí** (ve francouzštině)
+
+
+Viditelnost je klíčem k růstu vaší komunity. V této části se dozvíte, jak si vytvořit speciální profil na Twitteru, jak se spojit s místními setkáními a jak využít platformy, jako je btcmap.org, abyste zvýšili svou viditelnost a přilákali nové členy.
+
+
+
+**Odddíl 5: Organizace setkání Bitcoin**
+
+
+V této části se dozvíte, jak organizovat setkání: od výběru vhodného místa až po samotný průběh akce. Prozkoumáme také strategie pro budování loajality účastníků a zajištění dlouhodobé udržitelnosti vaší komunity.
+
+
+
+**Odddíl 6: Příklady projektů a iniciativ** (ve francouzštině)
+
+
+Tato sekce se zaměřuje na konkrétní a originální projekty: od tematických akcí a workshopů až po tvorbu vzdělávacího obsahu a místní spolupráci. Dozvíte se také, jak navrhovat fyzické i digitální materiály na propagaci vaší komunity.
+
+
+
+**Odddíl 7: Předvídání budoucnosti**
+
+
+Zde se budeme zabývat přirozeným vývojem vaší komunity: co dělat, když se příliš rychle rozroste, jak decentralizovat organizaci a jak reagovat na nepřátelské regulační prostředí. Tato část vám pomůže tyto výzvy předvídat a překonat.
+
+
+
+**Odddíl 8: Sdružování bitcoinářů**
+
+
+Závěrečná část se zaměřuje na podstatu vašeho projektu: sjednocení nadšenců Bitcoin kolem společné vize. Dozvíte se, jak strukturovat svůj přístup, abyste přilákali a udrželi členy, efektivně delegovali úkoly a udržitelně rozvíjeli svou komunitu.
+
+
+
+Jste připraveni naučit se, jak vybudovat silnou a živou komunitu Bitcoin? Pojďme se do toho ponořit!
+
+
+
+## Proč založit komunitu nebo setkání Bitcoin?
+
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
+
+
 ### Jaký je rozdíl mezi komunitou a setkáním?
 
-Ačkoli v ekosystému bitcoinu neexistuje žádná konkrétní definice těchto dvou pojmů, komunitu lze chápat jako seskupení několika jednotlivců, kteří sdílejí společnou vášeň (vášeň) a více či méně pravidelně spolu komunikují.
 
-Současně je setkání událostí organizovanou touto komunitou (a pro tuto komunitu) s konkrétním cílem. Obvykle se koná po vytvoření přidružené komunity.
 
-V tomto ohledu budeme v průběhu tohoto kurzu uvažovat o tom, že pro zahájení setkání bitcoinových uživatelů je nutné již dříve komunikovat s dalšími lidmi, kteří mají zájem o pořádání tohoto typu akce, a proto musí být již dříve **vytvořena bitcoinová komunita**.
+Ačkoli v ekosystému Bitcoin neexistuje žádná striktní definice těchto pojmů, komunita je nejlépe chápána jako skupina lidí, kteří sdílejí společnou vášeň a pravidelně spolu komunikují.
 
-### Proč vytvářet komunitu?
 
-Jak bylo uvedeno v předchozí kapitole, vytvoření komunity může mít několik cílů.
+Setkání je naopak událost organizovaná touto komunitou a pro tuto komunitu s konkrétním cílem. Setkání se obvykle konají, jakmile je komunita již vytvořena.
 
-Na jedné straně může komunita složená z bitcoinových uživatelů umožnit svým členům vzájemnou výměnu a sdílení informací. Vzájemná pomoc je tak obecně jejím jádrem, což umožňuje všem urychlit své učení.
 
-To dává smysl zejména v případě Bitcoinu, vzhledem k jeho složitosti.
+V tomto kurzu předpokládáme, že před zahájením setkání Bitcoin jste se již spojili s několika lidmi, kteří mají zájem o pořádání takové akce, jinými slovy, **komunita již existuje**.
 
-Současně může komunita bitcoinářů umožnit budování peer-to-peer. Takto se rodí, buduje a rozvíjí řada smysluplných iniciativ a projektů.
 
-####
 
-Na druhou stranu může mít bitcoinová komunita i otevřenější cíle, zejména pokud jde o co největší informovanost lidí:
+### Proč vytvářet komunitu Bitcoin?
 
-1. co je bitcoin;
 
-2. jak to funguje;
 
-3. co přináší naší společnosti;
+Důvodů pro vytvoření komunity Bitcoin je několik:
 
-4. nepodložené a/nebo zavádějící nesmysly, které se některé osobnosti a média snaží šířit;
 
-5. její hlavní rozdíly oproti ostatním kryptoměnám.
 
-![image](assets/fr/02.webp)
+- Sdílení znalostí a spolupráce: Komunity poskytují členům prostor pro Exchange nápady a sdílení znalostí. Vzájemná podpora je klíčovým pilířem růstu a umožňuje všem urychlit své učení, což je zvláště důležité pro Bitcoin vzhledem k tomu, kolik je toho k objevování.
 
-**Bitcoinové komunity po celém světě postupně budují první citadely zítřejšího světa a jsou obzvláště důležitou ochranou proti pokusům o dezinformaci a/nebo cenzuru v některých zemích**. Současně **vytvářejí úrodnou půdu pro výuku základů bitcoinu**; umožňují každému, kdo mu dosud nerozumí, aby měl, až bude připraven, kontakty a zdroje pro představu nového světa.
 
-Kromě toho, **protože je Bitcoin inkluzivní, zdá se, že úkolem komunity je posílit a vzdělávat všechny budoucí bitcoinery v základech Bitcoinu**; včetně těch nejodhodlanějších.
 
-####
+- Peer-to-peer building: Mnoho iniciativ a projektů vzniká a rozvíjí se v rámci těchto komunit.
 
-Ačkoli se tomuto tématu budeme podrobněji věnovat později v průběhu kurzu, je přesto důležité již nyní konstatovat, že **komunita může existovat zcela digitálně**. Proto skupina na Telegramu "Bitcoin Londýn", skupina na Facebooku "Bitcoin Berlín", server Discord "Bitcoin Madrid" nebo e-mailový distribuční seznam "Bitcoin Francie" představují zcela digitálně komunity. To znamená, že **komunita ke své existenci, pokroku a rozvoji svých projektů technicky nepotřebuje fyzická setkání. Jejím cílem však zůstává sdílení, budování a vzdělávání**.
+
+
+Společenství Bitcoin často sledují širší cíle, zejména v oblasti vzdělávání veřejnosti:
+
+
+1. Co je Bitcoin;
+
+
+2. Jak to funguje;
+
+
+3. Její přínos pro společnost;
+
+
+4. Vyvracení zavádějících nebo nepodložených tvrzení některých veřejných činitelů a médií;
+
+
+5. Základní rozdíly mezi Bitcoin a ostatními kryptoměnami;
+
+
+Budováním prvních "citadel" zítřka slouží **komunity Bitcoin po celém světě jako hráz proti dezinformacím a cenzuře a zároveň poskytují živnou půdu pro učení se základům Bitcoin**. Nabízejí nováčkům, dokonce i skeptikům, zdroje a kontakty potřebné k prozkoumání skutečného potenciálu Bitcoin.
+
+
+
+![image](assets/fr/002.webp)
+
+
+
+Za zmínku také stojí, že **komunita může existovat výhradně online**, ať už se jedná o skupinu na Telegramu ("Bitcoin Londýn"), skupinu na Facebooku ("Bitcoin Berlín"), server Discord ("Bitcoin Madrid"), nebo dokonce e-mailovou konferenci ("Bitcoin Francie").
+
+
+Jinými slovy, **komunita nepotřebuje fyzická setkání, aby se jí dařilo nebo aby mohla zahájit projekty. Její hlavní účel zůstává stejný: sdílet, budovat a vzdělávat**.
+
+
 
 ### Proč vytvářet setkání?
 
-Jak již bylo zmíněno, **založení meet-upu následuje po vytvoření komunity, protože ji doplňuje**.
 
-Na cestě bitcoinového nadšence se totiž u velmi významného počtu lidí objevuje touha (a potřeba) **se setkávat a fyzicky směňovat s ostatními** v rámci stejného ekosystému. To se obecně vysvětluje vznikem pocitu osamělosti, který je u mnoha z nich přítomen.
 
-Pořádání těchto setkání proto může umožnit mnohem přátelštější fyzická setkání než setkání prostřednictvím audio nebo videohovorů. Mohou se odehrávat **u skleničky nebo jídla** a umožňují přesnější a přímější výměnu názorů s větším počtem lidí.
+Jak již bylo zmíněno, **setkání obvykle přicházejí až po založení komunity a slouží jako její doplněk**.
 
-![immagine](assets/fr/03.webp)
 
-Pro bitcoinové nadšence tak mohou být setkání **příhodným časem pro diskuse o technických tématech nebo projektech**, které vyvíjejí, a pro "začínající bitcoinery" **pro objevování světa bitcoinu a postupné ponoření se do něj**.
+Jak se cesta bitcoinera vyvíjí, často se objevuje touha nebo dokonce potřeba **se osobně setkávat a komunikovat s ostatními** ze stejného ekosystému. To může pramenit z pocitu izolace nebo z toho, že si v každodenním životě nemáte s kým promluvit o Bitcoin.
 
-####
 
-Kromě toho mohou tyto akce také usnadnit oznámení projektů souvisejících s Bitcoinem, být příležitostí k zapůjčení vybavení nebo knih, předpremiéře dokumentu, ale také ke konferenci nebo workshopu na dané téma. Podrobněji se tomu budeme věnovat v části 6/8 tohoto kurzu s názvem "[Příklady projektů a iniciativ](ODKAZ).
+Setkání nabízejí osobnější a příjemnější zážitek než online audio nebo video hovory. Ať už **při drinku nebo jídle**, vytvářejí neformální, přátelský prostor, kde mohou lidé otevřeně a přímo Exchange nápady.
 
-####
 
-Ačkoli je na každé komunitě, aby si vytvořila vlastní názor, iniciovala vlastní projekty a prováděla vlastní experimenty, **setkání se zdají být pro rozvoj Bitcoinu a jeho komunit** zásadní; a to na všech územích.
 
-**Jejich organizace však vyžaduje určité plánování a čas**, a proto se v tomto kurzu snažíme podělit o shrnuté zkušenosti [šedesáti francouzských a belgických komunit Bitcoinu](https://btcmap.org/communities/map#2/5.24949/0.20000); **abyste mohli co nejsnáze vytvořit a rozvíjet svou vlastní komunitu a meet-up**.
+![image](assets/fr/003.webp)
 
-## Kde vytvořit komunitu a setkávat se?
+
+Setkání Bitcoin mohou sloužit k mnoha účelům:
+
+
+
+- Diskuse o technických tématech nebo probíhajících projektech
+- Pomáháme novým uživatelům bitcoinů postupně pronikat hlouběji do světa Bitcoin
+- Oznamování nových projektů nebo iniciativ
+- Výměna materiálů nebo knih
+- Promítání dokumentárních filmů v předpremiéře
+- Pořádání konferencí nebo workshopů na konkrétní témata
+
+
+
+Mnohými z těchto možností se budeme podrobně zabývat v části 6/8 tohoto kurzu s názvem "[Příklady projektů a iniciativ](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+
+
+
+Ačkoli si každá komunita může vytvářet vlastní názory, spouštět projekty a experimentovat po svém, setkání se ukazují jako stále **důležitější pro rozvoj Bitcoin a růst bitcoinářů**. **Jejich organizace však vyžaduje čas a úsilí**, a proto se v tomto kurzu podělíme o společné zkušenosti [přibližně šedesáti komunit Bitcoin ve Francii a Belgii](https://btcmap.org/communities/map#2/5.24949/0.20000) **aby vám pomohly co nejhladčeji vybudovat a rozvíjet vlastní komunitu a meetupy**.
+
+
+
+## Kde byste měli vytvořit svou komunitu?
+
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
-Jakmile se rozhodnete založit komunitu bitcoinů, měli byste si nejprve položit otázku: kde ji založit? A tato otázka je zásadní.
-
-Ačkoli je vytvoření komunity zpočátku založeno pouze na komunikačních nástrojích a digitálních sociálních sítích, je třeba z několika důvodů** vzít v úvahu **geografickou polohu.
-
-####
-
-Když se chcete seznámit s dalšími nadšenci pro bitcoiny, je běžné, že zpočátku začnete vyhledáváním na internetu. To rychle vede k objevování a obracení se na servery Discord nebo kanály Telegram, jako jsou kanály [Decouvre Bitcoin](https://decouvrebitcoin.fr/), nebo dokonce diskusní fóra, jako je [bitcointalk.org](https://bitcointalk.org).
-
-Po několika měsících interakce prostřednictvím obrazovek často nastane čas, kdy člověk pocítí touhu jít dál. Tato touha pak vykrystalizuje v potřebu setkat se s dalšími nadšenci do bitcoinu, s nimiž se cítíme "blízcí" fyzicky. Jinými slovy: Nadšenci pro bitcoiny ze svého města nebo dokonce ze sousedství.
-
-Bohužel **je docela možné, že v té době ve vašem okolí žádná komunita bitcoinů není. To je jistě váš čas, abyste se ujali role velvyslance nové komunity**.
-
-Než však začneme, je třeba předvídat další krok: případné setkání. Jinými slovy, setkání!
-
-Je však jasné, že pokud budou muset členové vaší komunity jet dvě hodiny, aby se na vaši akci dostali, jen málo z nich se na ni vydá.
-
-Proto má **geolokace vaší komunity (a tedy i budoucích setkání) značný vliv na její rozvoj**.
-
-####
-
-Zde je několik myšlenek, které vás mohou vést:
-
-1) **Vytvořte a rozvíjejte svou komunitu ve středním nebo velkém městě**. To vám umožní:
 
 
-    - mnohem snadněji najdete místo** pro své setkání a/nebo projekty (prezentace, workshopy, přijímání bitcoinů jako platebního prostředku atd.);
-    - zvýšit pocit zapojení a sounáležitosti** více lidí s vaší komunitou a událostmi;
-    - usnadnit účast na vašich akcích** (veřejná doprava, parkování atd.). **Pro pořádání fyzických setkání je proto jednoznačně vhodné zvolit místo, které je blízko veřejné dopravy a parkoviště**.
+První otázka, kterou je třeba si položit, zní: kde by měla vaše komunita sídlit?
 
-2) **Vyberte pro svou komunitu/setkání název, který bude odkazovat na toto město**, aby se s ním lidé mohli snadno ztotožnit. Například "Bitcoin Paris", "Einundzwanzig Berlin", "Satoshi Spritz Milan" atd.
+Toto rozhodnutí je zásadní, pokud si chcete zachovat možnost pozdějšího pořádání setkání.
 
-####
 
-Dalším více než důležitým bodem k prozkoumání je: **Existuje již v mém okolí setkání?
+Pokud musí členové na akci dojíždět dvě hodiny, bude účast pravděpodobně nízká. Proto má výběr správného **místa pro vaši komunitu, a tedy i pro vaše budoucí setkání, zásadní vliv na její růst**.
 
-Za tímto účelem byste měli vědět, že na webové stránce [btcmap.org](https://btcmap.org/communities/map#0/0/0/) jsou uvedeny téměř všechny globální komunity a setkání.
 
-![image](assets/fr/04.webp)
 
-Pokud se po určitém průzkumu rozhodnete založit meet-up nebo komunitu ve stejném (nebo blízkém) městě jako aktivní meet-up, který funguje již několik měsíců/let, měli byste vědět, že tím můžete vytvořit určitou formu konkurence, i když neúmyslnou. Protože je Bitcoin decentralizovaný, může si samozřejmě každý dělat, co chce. Je však jasné, že **je lepší co nejvíce spojit síly, než množit sousední komunity; tím se snižuje dopadová kapacita každé z nich**.
+Několik tipů, které vám pomohou při rozhodování:
 
-V tomto smyslu by vám při rozhodování mohla pomoci následující "konvence": pokud v okruhu 45 minut od vaší polohy (například ve vašem autě) není žádná aktivní bitcoinová komunita, pak se může zdát relevantní založit novou.
 
-Ale samozřejmě můžete dělat, co uznáte za vhodné.
+1/ **Vytvořte a rozvíjejte svou komunitu ve středně velkém nebo velkém městě**. To vám usnadní:
 
-Pokud však komunita bitcoinů existuje, ale není aktivní, může být relevantnější převzít ji a znovu zažehnout její plamen; například kontaktovat její bývalé tvůrce s cílem získat přístup ke komunikačním kanálům a sociálním sítím, které dříve používali.
 
-Naopak v případě, že se stará bitcoinová komunita - řekněme - "vyvinula", nesdílí už vaše hodnoty a vy nemáte motivaci nebo čas ji přesvědčovat, je vytvoření forku vždy možné.
 
-## Jaké cíle by měly být stanoveny?
+    - Najděte příjemná místa pro setkání a projekty (prezentace, workshopy, propagace přijetí Bitcoin atd.);
+    - Zvýšit pocit zapojení a sounáležitosti většího počtu lidí;
+    - Zlepšit dostupnost akce (veřejná doprava, parkování atd.). Doporučujeme zvolit místo v blízkosti veřejné dopravy a parkoviště.
+
+
+
+2/ **Vyberte si název spojený s vaším městem**. Lidé se tak mohou s vaší komunitou snadno ztotožnit. Příklady: Příklady: Bitcoin Paříž, Einundzwanzig Berlín, Satoshi Spritz Milano atd.
+
+
+3/ **Zjistěte, zda ve vašem okolí již existuje setkání**.
+
+Můžete se podívat na [btcmap.org](https://btcmap.org/communities/map#0/0/0/), kde je uvedena většina komunit a setkání Bitcoin po celém světě.
+
+
+
+![image](assets/fr/004.webp)
+
+
+
+Po chvíli pátrání můžete najít existující setkání nebo komunitu ve vašem městě.
+
+Bitcoin je decentralizovaný, takže si s ním přirozeně každý může dělat, co chce.
+
+
+**Spojení sil je však často smysluplnější než rozdělení blízkých komunit a snížení dopadu každé z nich**. Založení zcela nového společenství tam, kde již jedno existuje, může neúmyslně vytvořit konkurenci.
+
+
+V tomto smyslu může pomoci jednoduché "pravidlo": pokud v okruhu 30-45 minut od vašeho bydliště není žádná aktivní komunita Bitcoin, možná by stálo za to založit novou. Přesto si vždy můžete dělat, co chcete.
+
+
+A samozřejmě, pokud se starší komunita "vyvinula" směrem, který již není v souladu s vašimi hodnotami, a vy nemáte čas nebo motivaci ji "oranžově obohatit", pak je vždy možné vytvořit si vlastní Fork.
+
+
+
+## Jakými cíli by se měla vaše komunita řídit?
+
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
-Nyní, když jste našli město (nebo zeměpisnou lokalitu), ke kterému chcete svou komunitu připoutat, je nezbytné **přemýšlet o cílech, kterých byste chtěli dosáhnout**.
-
-Níže uvádíme několik myšlenek, které by vám mohly pomoci.
-
-####
-
-1. **Proč jsem jako bitcoiner založil tuto komunitu?** Je to proto, abych se podělil o své znalosti? Abych se vzdělával? Abych se učil od ostatních? Abych se setkal s dalšími podobně smýšlejícími lidmi? Abych se zapojil do ekosystému? Abych se setkal s profesionály? Jednoduše vypít pivo a poznat nové přátele?
-
-Je zřejmé, že v závislosti na vašich odpovědích nebude vaše pozice a motivace stejná.
-
-Pokud je například vaším cílem **sdílet své znalosti za účelem vzdělávání o Bitcoinu**, je jasné, že **tvorba vzdělávacího obsahu** (články, podcasty, videa, prezentace, letáky atd.) je relevantní. Ušetříte tak ostatním desítky hodin práce a výzkumu. V tomto směru lze jít ještě dále prostřednictvím **pořádání workshopů, prezentací a konferencí**.
-
-Pokud je vaším cílem "jen" setkat se s ostatními bitcoinery a sdílet s nimi svůj každodenní život, lze to udělat mnohem uvolněnějším způsobem, například u skleničky.
-
-Nepochybně však víte, že přípitek pomáhá usnadnit společenské interakce, zejména pokud se týkají alkoholu. Přestože je i dnes běžné, že se cítíte osamělí a všemi nepochopení, když jste hluboce přesvědčeni o tom, co bitcoin naší společnosti přináší, je důležité nezapomínat, že **pití piva vám umožňuje diskutovat o světě, ale ne ho měnit** :smirk:
-
-V tomto smyslu se zdá, že je nutné stanovit konkrétní cíle a projekty**.
-
-####
-
-2. Je relevantní **dát mé komunitě fyzický rozměr**? Pokud ano, jaké typy akcí by mohly být realizovány?
-
-Pokud chcete dát své komunitě fyzický rozměr, bude vaší první akcí setkání. Vaším cílem pak zřejmě bude postupně se setkávat s bitcoinery, kteří žijí ve vašem okolí.
-
-Jak však uvidíme později v části [Příklady projektů a iniciativ](ODKAZ), **schůzka může být strukturována různými způsoby, z nichž každý má své vlastní cíle**.
-
-Ve skutečnosti může umožnit **poznávání nových lidí, účast na vzdělávací prezentaci o konkrétním pojmu spojeném s Bitcoinem, profesionální prezentaci Bitcoinových řešení nebo společností, strategii oranžové platby pro obchodníky atd**. Záleží na každém organizátorovi setkání, jak se umístí podle svých cílů.
-
-Někdy může být v závislosti na probíraných tématech (např. technické prezentace nebo manuální workshopy) vhodné uspořádat **akci navíc k zasedání**, a to na jiném místě a v jinou dobu.
-
-![immagine](assets/fr/05.webp)
-
-####
-
-3. Jaké zapojení bych chtěl, aby moje komunita měla v ekosystému Bitcoinu?
-
-Tuto mnohem pokročilejší otázku lze zvážit od vytvoření vaší komunity.
-
-Pokud totiž toužíte **vytvořit sjednocenou, angažovanou komunitu plnou motivovaných bitcoinářů**, kteří chtějí vzdělávat a "oranžovat" co nejvíce lidí ve svém okolí, pak budete potřebovat:
 
 
-- na jedné straně **přistupovat k existujícím komunitám** s cílem získat přístup k rozsáhlejšímu souboru informací, mít přístup k množství odkazů a zdrojů s otevřeným zdrojovým kódem, které lze opakovaně využívat, ale také získat pomocnou ruku, když ji potřebujete; * na druhé straně **organizovat se - a tedy rozdělovat si úkoly - v rámci své komunity, abyste mohli společně postupovat vpřed**.
+Jakmile jste určili město (nebo zeměpisnou oblast) pro svou komunitu, je čas **definovat, čeho chcete dosáhnout**.
 
-####
 
-Stanovení cílů samozřejmě není snadný úkol. Nicméně **krátkodobé, střednědobé a dlouhodobé cíle** lze stanovit v různých fázích vývoje vaší komunity.
+Tyto cíle lze nastavit hned při spuštění nebo je upřesnit později, až se k vám připojí několik členů a vaše skupina se bude aktivně zapojovat.
 
-**Při vytváření komunity se můžete například krátkodobě zaměřit na rozvoj sociálních sítí a komunikačních kanálů. Ve střednědobém horizontu na vývoj vzdělávacích zdrojů (článků, letáků atd.), které jsou dostupné a relevantní. A konečně v dlouhodobém horizontu, řekněme za 6 měsíců, je obecně možné zahájit fyzické setkání**.
 
-O několik měsíců později, **když se vaše schůzky stanou pravidelnými, byste pak mohli v krátkodobém horizontu definovat realizaci prezentací nebo workshopů na konkrétní témata; ve střednědobém horizontu realizaci osvětové/vzdělávací kampaně o Bitcoinech; a v dlouhodobém horizontu vytvoření sdružení nebo vyhledání baru, který přijímá Bitcoiny jako platební prostředek**.
 
-####
+Zde je několik bodů, kterými se můžete řídit:
 
-Mějte však na paměti, že vytvoření komunity se neuskuteční ze dne na den: **vyžaduje to čas, motivaci a určitou organizaci**.
 
-Někdy to může být i demoralizující, zejména když se na schůzce nikdo neobjeví a vy se cítíte osamoceni, když se snažíte o tuto věc.
 
-Proto vznikl **tento kurz, jehož cílem je sdílet všechny možné zdroje a rady, aby vaše komunita mohla růst a stát se soběstačnou**.
+1/ **Proč jako bitcoiner zakládám tuto komunitu?** Je to kvůli sdílení znalostí? Vzdělávat ostatní? Učit se od zkušenějších kolegů? Setkat se s podobně smýšlejícími lidmi? Zapojit se do ekosystému Bitcoin? Spojit se s profesionály? Nebo si prostě jen dát skleničku a poznat nové přátele?
 
-# Vytvoření jedinečné identity pro vaši komunitu Bitcoin
+
+
+Vaše odpovědi budou určovat vaši pozici a motivaci.
+
+
+Pokud je vaším cílem **sdílet znalosti a vzdělávat lidi o Bitcoin**, zaměřte se na **tvorbu vzdělávacího obsahu** (články, podcasty, videa, prezentace, letáky atd.) a ušetřete ostatním nespočet hodin hledání. Můžete jít ještě dál a **organizovat workshopy, prezentace a konference**.
+
+
+
+Pokud je vaším cílem jednoduše se seznámit s ostatními bitcoinery a sdílet zkušenosti, můžete zvolit klidnější přístup, například se sejít na skleničku.
+
+Tímto způsobem si snáze vytvoříte sociální vazby. Vždy však mějte na paměti, že **pití piva není tou správnou cestou k budování světa zítřka**.
+
+
+Proto je důležité **stanovit si konkrétní cíle a projekty**.
+
+
+
+
+2/ Mám dát své komunitě **fyzický rozměr**? Pokud ano, jaké akce byste měli pořádat?
+
+
+
+Vaší první akcí bude pravděpodobně setkání. Jejím hlavním účelem je sdružovat bitcoináře ve vašem okolí.
+
+
+
+Jak si však ukážeme později v části [Příklady projektů a iniciativ](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **setkání lze vytvořit mnoha způsoby a s mnoha cíli:**
+
+
+
+- Spojte navazování kontaktů se vzdělávací prezentací konceptu Bitcoin;
+- Uspořádejte profesionální ukázku řešení Bitcoin;
+- Diskuse o strategiích pro místní obchodníky s oranžovou nálepkou;
+
+a tak dále.
+
+
+V závislosti na tématech (technické přednášky nebo praktické workshopy) může mít dokonce smysl **organizovat další akce** mimo pravidelné setkání.
+
+
+
+![image](assets/fr/005.webp)
+
+
+
+
+3/ Jak chci, aby moje komunita přispěla k ekosystému Bitcoin?
+
+
+
+Tato otázka je pokročilejší, ale stojí za to se nad ní zamyslet hned na začátku.
+
+
+Pokud je vaší vizí **vytvořit semknutou, motivovanou komunitu** zaměřenou na oranžové oblékání co největšího počtu lidí, pak:
+
+
+
+- Spolupracujte se stávajícími komunitami, abyste měli přístup k širším informacím, zdrojům s otevřeným zdrojovým kódem a v případě potřeby k cenné podpoře.
+- Organizujte a delegujte úkoly v rámci své skupiny, abyste mohli efektivně rozšířit a rozšířit své úsilí.
+
+
+
+**Stanovení krátkodobých, střednědobých a dlouhodobých cílů**
+
+Praktickým způsobem plánování je stanovení cílů pro každý časový rámec:
+
+
+
+- Krátkodobě: vybudujte přítomnost na sociálních sítích a vytvořte komunikační kanály pro komunitu.
+- Střednědobé: vytvoření vzdělávacích zdrojů (články, letáky, videa).
+- Dlouhodobě: zahájení pravidelných fyzických setkání.
+
+
+Jakmile budou schůzky zavedeny, můžete se zaměřit na:
+
+
+
+- Krátkodobě: pořádání seminářů nebo prezentací na konkrétní témata
+- Střednědobý horizont: realizace osvětových nebo vzdělávacích kampaní Bitcoin
+- Dlouhodobě: vytvořte formální sdružení nebo partnerství s barem, který přijímá Bitcoin jako platbu.
+
+
+Buďte připraveni: **budování komunity vyžaduje úsilí**
+
+
+Vytvoření komunity se nestane přes noc. Vyžaduje to čas, motivaci a organizaci.
+
+Někdy to může působit i skličujícím dojmem, zejména když se nikdo neukáže a vy se cítíte jako jediný, kdo nese tuto misi na svých bedrech.
+
+
+Proto je **tento kurz určen ke sdílení cenných zdrojů a tipů, které pomáhají komunitám efektivně růst a nakonec se stát soběstačnými**.
+
+
+
+# Navrhování identity komunity Bitcoin
+
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
-## Proč a jak si vytvořit vlastní identitu?
+
+
+## Proč a jak si můžete vytvořit vlastní identitu?
+
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-V pokračování tohoto kurzu se tomu budeme věnovat:
 
 
-- chcete vytvořit komunitu (nebo případně schůzku) ve městě nebo zeměpisné lokalitě, kterou jste již definovali;
-- jste si stanovili konkrétní cíle v různých časových horizontech.
+V této fázi předpokládáme, že:
 
-**Druhým krokem při vytváření komunity je samozřejmě její identita**. To zahrnuje výběr jejího názvu, ale také **její vizuální identity**.
 
-Proto se vám v tomto díle 2/8 pokusíme nabídnout návody a softwarová řešení, která vám umožní navrhnout vizuální identitu vaší komunity, aniž byste museli mít nutně schopnosti designéra.####
 
-Je zřejmé, že když se člověk ztotožní se skupinou, cítí se více zapojen. V tomto smyslu je zásadní mít jedinečnou identitu své komunity.
+- Už víte, kde bude vaše komunita (nebo budoucí pravidelné setkání) sídlit.
+- Stanovili jste si cíle pro různé časové horizonty, i když ještě nejsou konečné.
 
-Začíná to výběrem jména. V závislosti na zemi totiž existují různé národní iniciativy a/nebo komunity.
 
-Například **ve Francii se padesát komunit, které tam vznikly, jmenuje "Bitcoin [CITY]" nebo "[CITY] Bitcoin"; to vede k tomu, že se jejich skupina na Telegramu jmenuje "Bitcoin [CITY] meet-up" nebo "[CITY] Bitcoin meet-up "**.
+Dalším krokem při budování komunity je **určení její identity**, a to jak jejího názvu, tak vizuálního stylu.
 
-V Německu se díky iniciativě "Einundzwanzig" (což znamená "21") téměř všechny německy mluvící komunity nazývají "Einundzwanzig [CITTÀ]", zatímco v Itálii iniciativa "Satoshi Spritz", která je iniciátorem většiny současných italských komunit, pojmenovává své komunity "Satoshi Spritz [CITTÀ]" **Každá komunita má tedy svou vlastní identitu, která se vztahuje k městu jejího vzniku, ale také ke globální identitě její země**.
 
-Ačkoli je tedy naprosto možné vytvořit novou francouzskou komunitu s názvem, který chcete, **v naší zemi se zdá být vhodnější nazývat ji "Bitcoin [CITY]" nebo "[CITY] Bitcoin "**.
+V této sekci najdete návody a softwarová řešení pro začátečníky, která vám pomohou navrhnout vizuální identitu vaší komunity i se začátečnickými dovednostmi.
 
-####
 
-Současně **vizuální identita vaší komunity a vašeho setkání hraje zásadní roli v jejím rozvoji**, protože částečně i díky ní si vaši iniciativu budou lidé pamatovat. Proto **při vytváření sociálních sítí a komunikačních kanálů musí být navrženo logo a banner**. Nemusí to však dělat profesionální designér, k dispozici jsou jednoduché a bezplatné nástroje.
+**Proč záleží na identitě?**
 
-Při vytváření vizuální identity je nejlepší začít u významného prvku nebo místa ve vašem městě. Může to být například Eiffelova věž v Paříži, zvonice nebo citadela v Lille, monacká pevnost v Monaku, starý přístav v Marseille atd. Vycházejíce z tohoto prvku pak můžete navrhnout více či méně propracované logo v závislosti na požadované složitosti.
+Lidé se cítí angažovanější a oddanější, když se mohou ztotožnit se skupinou. Silná identita pomáhá vaší komunitě vyniknout a posiluje pocit sounáležitosti.
+
+
+Vše začíná výběrem jména a každá země má často své vlastní trendy:
+
+
+
+- Francie: Většina z více než 60 místních komunit používá názvy jako "Bitcoin [CITY]" nebo "[CITY] Bitcoin". Jejich skupiny na Telegramu se často řídí tímto vzorem: "Bitcoin [CITY] meetup".
+- Německo: Iniciativa Einundzwanzig (což znamená "21") inspirovala názvy jako "Einundzwanzig [CITY]".
+- Itálie: V síti Satoshi Spritz se používají názvy jako Satoshi "Spritz [CITY]".
+
+
+**Každá komunita má svou vlastní identitu, která je spojena s rodným městem, ale zároveň s širší identitou své země**.
+
+
+
+Vaše vizuální identita: logo, barvy, bannery - to je to, co si lidé zapamatují a spojí s vaší skupinou.
+
+
+Při vytváření účtů na sociálních sítích a komunikačních kanálů je logo a banner velkou výhodou. Nebojte se, nepotřebujete profesionální návrhářské dovednosti, k dispozici jsou bezplatné a snadno použitelné nástroje.
+
+
+Skvělým výchozím bodem je začlenění pamětihodnosti nebo symbolu vašeho města. V Paříži to může být Eiffelova věž. V Lille je to zvonice nebo citadela. V New Yorku je to Socha Svobody. V Londýně Big Ben atd.
+
+
+Podle svých preferencí můžete navrhnout jednoduché nebo podrobnější logo.
+
+
 
 Pro představu uvádíme několik příkladů log francouzských komunit:
 
 
-- V Marseille logo představuje baziliku Notre-Dame-de-la-Garde, která je dominantou města:
-
-![immagine](assets/fr/06.webp)
 
 
-- V Monaku se jedná o monackou pevnost:
-
-![immagine](assets/fr/07.webp)
+- V Marseille logo představuje baziliku Notre-Dame-de-la-Garde, která se tyčí nad městem:
 
 
-- V Lille představuje stylizované logo Vaubanovu citadelu a její park, který se nachází jen několik minut od centra města:
 
-![immagine](assets/fr/08.webp)
+![image](assets/fr/006.webp)
+
+
+
+
+
+- V Monaku se jedná o monackou skálu:
+
+
+
+![image](assets/fr/007.webp)
+
+
+
+
+
+- V Lille představuje elegantní logo Vaubanovu citadelu a její park:
+
+
+
+![image](assets/fr/008.webp)
+
+
+
 
 
 - V Saint-Malo je zvýrazněn ermin - znak města:
 
-![immagine](assets/fr/09.webp)
 
-Nyní je na vás, abyste **nalezli významný prvek nebo místo ve svém městě a použili je pro vytvoření loga komunity Bitcoin**.
 
-####
+![image](assets/fr/009.webp)
 
-Pokud vás inspirace přesáhne, můžete jít ještě dál a vytvořit erb, motto nebo dokonce píseň související s vaší komunitou. Vaše fantazie je pak jediným limitem!
+
+
+**Pokračujte, pokud chcete**
+
+Pokud se vám dostane inspirace, můžete jít ještě dál: vytvořit znak, motto nebo dokonce píseň pro svou komunitu. Jediným limitem je vaše kreativita!
+
+
 
 ## Vytvoření loga, plakátu a banneru
 
+
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+
+
 
 ### Používání aplikace Canva
 
-Pro vytvoření loga a bannerů pro vaši komunitu můžete **použít [Canva](https://www.canva.com/)**.
 
-Tato snadno použitelná a bezplatná stránka je oblíbená zejména díky množství šablon, které můžete libovolně kopírovat a upravovat.
 
-Po **vytvoření loga** můžete na domovské stránce vyhledat různá předpřipravená loga a zkopírovat logo nebo loga, která vás zajímají, a poté je libovolně upravit.
+K vytvoření různých vizuálních prvků pro vaši komunitu můžete použít aplikaci [Canva](https://www.canva.com/)**.
 
-Poté můžete přidat prvek pozadí reprezentující vaše vlastní město (importem fotografie nebo vyhledáním "Ilustrace" nebo "Obrázky" v levém menu "Prvky"). Dále je možné vložit logo Bitcoinu nebo ₿ nad něj - v případě potřeby dokonce změnit jeho barvu.
 
-V případě **vytvoření banneru nebo plakátu** stačí opět vyhledat domovskou stránku webu a získat předpřipravený plakát. Po jeho zkopírování jej budete moci upravit změnou textu a písma, přidáním loga vaší komunity a importem fotografií, které přetáhnete do rámečku (ten získáte vyhledáním položky "frame" v levém menu "Elements").
 
-Kromě toho můžete v levém menu "Design" vyhledat další modely podle svých potřeb.
+Tato bezplatná a snadno použitelná platforma je oblíbená pro svou rozsáhlou knihovnu předpřipravených šablon, které můžete duplikovat a přizpůsobit několika kliknutími.
 
-Na domovské stránce můžete také vyhledat **Miniaturu YouTube nebo předpřipravený banner**, duplikovat ji a poté ji upravit podle svých představ.
 
-Stručně řečeno, **možnosti jsou nekonečné a závisí na vašich potřebách, ale také na grafice, kterou chcete vytvořit** pro vaši komunitu a vaše setkání/akce!
+**Tvorba loga**
 
-####
+Na domovské stránce aplikace Canva vyhledejte předpřipravená loga. Vyberte si jedno nebo několik, která vás inspirují, zkopírujte je a poté je upravte tak, aby odpovídala vaší komunitě.
 
-Níže vám nabízíme neúplný videonávod, který vám představí některé možnosti:
+
+Na pozadí můžete přidat místní pamětihodnost nebo emblém (importujte fotografii nebo v nabídce Elements vyhledejte "Ilustrace" nebo "Obrázky") a poté překryjte logo Bitcoin nebo ₿ a v případě potřeby upravte jeho barvu.
+
+
+**Vytváření bannerů a plakátů**
+
+Chcete-li vytvořit banner nebo plakát, vyhledejte v knihovně Canva předpřipravené šablony. Po zkopírování jedné z nich upravte text a písmo, přidejte logo své komunity a importujte případné fotografie pomocí rámečků (v nabídce Elements vyhledejte "frame").
+
+
+Pomocí nabídky Designs můžete také prozkoumat další modely, které odpovídají vašim potřebám.
+
+
+Pro miniatury nebo bannery YouTube stačí vyhledat tyto šablony, duplikovat je a upravit podle potřeby.
+
+
+
+Stručně řečeno, **možnosti jsou neomezené a formují se nejen podle vašich potřeb, ale také podle vizuálního stylu, který chcete vytvořit** pro vaši komunitu a vaše setkání / události!
+
+
+
+Pro lepší představu jsme přiložili nevyčerpávající videonávod, který ukazuje některé z těchto možností:
+
+
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
-####
-
-Zde jsou také k dispozici některé předpřipravené, duplikovatelné a upravitelné soubory, které používáme s naším sdružením Bitcoin Lille:
 
 
-- plakát s oznámením o setkání** (pro sociální sítě a vytištěný ve formátu A4 nebo A3): [odkaz](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+**Vzorové šablony z Bitcoin Lille**
 
-![immagine](assets/fr/10.webp)
-
-
-- společný plakát s oznámením akce** (pro sociální sítě a vytištěný ve formátu A4 nebo A3): [odkaz](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- bannery pro některé sociální sítě**: [odkaz](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- oznámení o soutěži**:[odkaz](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-![immagine](assets/fr/11.webp)
+Zde jsou připravené šablony Canva, které můžete zkopírovat a upravit pro svou komunitu:
 
 
-- papír** z naší knihovny, vystavený ve formátu A4 během setkání: [odkaz](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Prezentace PowerPoint** "Chapter 2 - Understanding Bitcoin Transactions," od @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Handout** "21 Reasons to Use Bitcoin," napsal @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Jak vidíte, možnosti jsou neomezené a samozřejmě závisí na vašich potřebách. **Neváhejte sami navrhnout nové modely a pak věnujte pár minut sdílení s ostatními ve vašem okolí, abyste ušetřili několik hodin práce dalším komunitám ve vaší zemi**. Nezapomínejte totiž, že **každá komunita se dříve či později bude potýkat se stejnými problémy a potřebami jako vy. Sdílením svých zdrojů formou open-source tak nepřímo urychlujete rozvoj všech ostatních komunit Bitcoinu**.
+- Plakát s oznámením o setkání** (pro sociální média a tisk ve formátu A4/A3): [odkaz](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Při tvorbě grafických materiálů však nezapomeňte věnovat pozornost rozměrům, které očekávají sociální sítě a komunikační aplikace, které plánujete používat.
 
-Zde jsou uvedeny některé poměry a normy, které by se vám mohly hodit:
+![image](assets/fr/010.webp)
 
-| Síť / platforma | Logo | Banner | Plakát / Obrázek |
 
-| ------------------ | --------- | ---------- | ----------------- |
 
-| Telegram | 512 x 512 | N/A | N/A |
 
-| Signál | N/A | N/A | N/A | N/A |
 
-| Twitter | 400 x 400 | 1500 x 500 | 1200 x 628 |
+- Plakát události** (pro sociální média a tisk A4/A3): [odkaz](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-| Meet-up | N/A | N/A | N/A | N/A |
 
-| Discord | 512 x 512 | 960 x 540 | N/A |
 
-| Facebook | 512 x 512 | 851 x 315 | 960 x 720 |
 
-Pro vytvoření **loga** je proto vhodná velikost **512 pixelů na 512 pixelů**.
 
-U **banneru** záleží **konkrétně na aplikaci nebo webu**, který používáte.
+- bannery na sociálních sítích**: [odkaz](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Co se týče **plakátů a jiných obrázků**, je obecně vhodný klasický formát **A4**.
+
+
+
+
+- Oznámení o soutěži**: [odkaz](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fr/011.webp)
+
+
+
+
+
+- směrnice značky** naší knihovny, vystavené na formátu A4 při setkáních: [odkaz](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
+- Prezentace PowerPoint** "Chapter 2 - Understanding Bitcoin transactions", autor: @ProfEduStream: [odkaz](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+
+
+- leták** "21 důvodů, proč používat Bitcoin", napsal @ProfEduStream: [odkaz](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fr/012.webp)
+
+
+![image](assets/fr/013.webp)
+
+
+
+**Sdílejte své výtvory**
+
+Možnosti jsou neomezené a vaše návrhy budou záviset na vašich cílech a vizuální identitě. Zvažte sdílení svých šablon s otevřeným zdrojovým kódem, ušetříte tím čas dalším komunitám Bitcoin, které budou nevyhnutelně čelit stejným výzvám jako vy. Sdílením pomáháte urychlit růst komunit Bitcoin po celém světě.
+
+
+**Doporučené rozměry**
+
+Při vytváření vizuálů vždy zkontrolujte požadavky na velikost pro jednotlivé platformy:
+
+
+
+| Platform | Logo | Banner | Poster / Image
+| -------- | -------- | -------- | -------- |
+| Telegram     | 512 x 512     | N/A     | N/A     |
+| Signal     | N/A     | N/A     | N/A     |
+| Twitter     | 400 x 400     | 1500 x 500     | 1200 x 628     |
+| Meet-up     | N/A     | N/A     | N/A     |
+| Discord     | 512 x 512     | 960 x 540     | N/A     |
+| Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
+
+Obvykle vhodné velikosti:
+
+Loga: 512 x 512 pixelů
+
+Bannery: Různé v závislosti na aplikaci nebo webu
+
+Plakáty: A4 je standardní formát pro tisk
+
+
 
 ### Využití umělé inteligence
 
-Ačkoli Canva umožňuje dělat nespočet věcí (loga, plakáty, bannery, letáky atd.), není to samozřejmě jediná stránka nebo software, který vám umožňuje provádět tuto sadu úkolů.
-
-Pokud je pro vás pohodlnější používat jinou sadu softwaru (pozoruhodný Photoshop nebo Illustrator), použijte to, co je pro vás nejpraktičtější.
-
-Ať už se jedná o vytvoření loga pro vaši komunitu nebo přidání poutavých obrázků na plakáty, prezentace či letáky, **možná je vhodné využít umělou inteligenci k vylepšení vašich materiálů**.
-
-K tomu slouží řada umělých inteligencí. Zejména:
 
 
-- [midjourney](https://docs.midjourney.com/docs/quick-start) (poplatek);
-- [leonardo](https://leonardo.ai/) (zdarma, omezeno na jeden účet);
-- [copilot](https://copilot.microsoft.com/) (zdarma, omezeno na jeden účet);
-- [DALL-E](https://www.dall-efree.com/) (placený). V oblasti tvorby vizuálního obsahu se samozřejmě v posledních měsících objevila řada dalších umělých inteligencí. Tento seznam proto není vyčerpávající.####
-
-Pokud chcete vytvořit například futuristický obrázek nebo logo pro setkání "Bitcoin London", můžete o to požádat umělou inteligenci "co-pilot":
+I když Canva nabízí širokou škálu nástrojů pro tvorbu log, plakátů, bannerů a letáků, není to jediná možnost. Pokud vám více vyhovuje jiný software (například Photoshop nebo Illustrator), neváhejte použít to, co vám nejlépe vyhovuje.
 
 
-- [ ] *Vytvořte logo Bitcoinu s mostem London Bridge a Big Benem v pozadí. Futuristické* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
-
-![immagine](assets/fr/14.webp)
-
-Pokud čtyři návrhy druhého pilota nejsou podle vašeho vkusu dostatečně realistické, můžete do konverzace přispět:
+Ať už navrhujete logo komunity nebo vylepšujete plakáty, prezentace či letáky, **umělá inteligence může být mocným spojencem při vytváření jedinečných a atraktivních vizuálů**.
 
 
-- [ ] *Čtvrtý díl by měl být mnohem realističtější* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
 
-![immagine](assets/fr/15.webp)
-
-Mimochodem, poslední vykreslení je docela krásné
-
-Pokud však chcete mnohem jednodušší logo, například pro samolepku, můžete dát "co-pilot"
+K tomuto účelu je k dispozici řada umělých inteligencí. Patří mezi ně
 
 
-- [ ] *Vytvoření loga pro "London Bitcoin Meetup" v britském a zjednodušeném stylu* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
 
-![immagine](assets/fr/16.webp)
 
-Druhé vykreslení je typické a mohlo by to stačit!
+- [midjourney](https://docs.midjourney.com/docs/quick-start) (placené);
+- [leonardo](https://leonardo.ai/) (zdarma, s omezeným počtem účtů);
+- [copilot](https://copilot.microsoft.com/) (zdarma, s omezeným počtem účtů);
+- [DALL-E](https://www.dall-efree.com/) (placený).
 
-####
 
-Přestože však umožňuje vytvářet velmi zajímavé vizuální rendery v rekordně krátkém čase, **bohužel umělá inteligence nedokáže dosáhnout přesně toho, co chcete v detailech**.
+V poslední době se objevilo mnoho dalších nástrojů umělé inteligence, takže tento seznam není zdaleka úplný.
 
-Buďte tedy trpěliví, snažte se zadávat pokyny (nebo "podněty") co nejpřesněji a **pokud nejste spokojeni s vykreslením, které dostanete, nic vám nebrání obrátit se v této věci na zkušenějšího bitcoinera**. Za pár sátů (nebo zdarma) pro vás jistě vytvoří kvalitní logo.
 
-# Vytvoření komunikačních kanálů pro komunitu Bitcoin
+
+**Příklad: Vytvoření futuristického loga Bitcoin London**
+
+Pokud chcete navrhnout futuristické logo pro setkání "Bitcoin London", můžete požádat Copilota:
+
+
+
+- [ ] *Prompt: Vytvořte logo Bitcoin s Londýnským mostem a Big Benem v pozadí. Futuristické* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+
+
+
+![image](assets/fr/014.webp)
+
+
+
+Pokud první čtyři výsledky nejsou dostatečně realistické, upřesněte svůj požadavek:
+
+
+
+
+- [ ] *Prompt: Udělejte čtvrtý mnohem realističtější* - [Odkaz](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+
+
+
+![image](assets/fr/015.webp)
+
+
+
+Poslední výsledek dopadl skvěle!
+
+
+
+**Příklad: Vytvoření jednoduchého loga v britském stylu**
+
+Pro čistší vzhled, například pro nálepku:
+
+
+
+- [ ] *Prompt: Vytvořte logo "London Bitcoin Meetup" v britském a čistém stylu* - [Odkaz](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+
+
+
+![image](assets/fr/016.webp)
+
+
+
+Výsledek vypadá opravdu skvěle!
+
+
+
+**Tipy pro práci s umělou inteligencí**
+
+
+
+- Buďte trpěliví: Umělá inteligence nemusí na první pokus vytvořit přesně to, co si představujete.
+
+
+
+- Používejte přesné výzvy: Čím jasnější a podrobnější jsou vaše pokyny, tím lepší jsou výsledky.
+
+
+
+- Požádejte o pomoc: Pokud nejste spokojeni, obraťte se na někoho, kdo má zkušenosti s grafickým designem nebo nástroji umělé inteligence, mnoho bitcoinářů vám ochotně pomůže, někdy dokonce zdarma nebo za pár Sats.
+
+
+
+# Vytvoření komunikačních kanálů pro vaši komunitu Bitcoin
+
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
-## Které komunikační kanály upřednostnit?
+
+
+## Jaké komunikační kanály byste měli zvolit?
+
 
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
-Jak již bylo zmíněno, v závislosti na individuálních motivacích a zvyklostech se mohou komunikační kanály komunity lišit. Například **ve Francii, Německu a Itálii jsou hlavními komunikačními kanály Telegram a Twitter**. Postupem času se pro bitcoinové komunity v těchto zemích staly "komunikačními standardy". Některé komunity však pro specifické účely používají i jiné kanály. Naproti tomu v České republice používá řada komunit, které zde vznikly, **Matrix**, šifrovaný protokol pro zasílání rychlých zpráv. Telegram se v jejich zemi ve skutečnosti používá jen zřídka.
-
-V tomto smyslu je **při výběru komunikačních kanálů nejvhodnější začít příklady ze sousedních komunit ve vaší zemi**. K tomu vám velmi dobrou představu o nejpoužívanějších komunikačních kanálech ve vaší zemi poskytne přístup k mapě na adrese [btcmap.org](https://btcmap.org/communities/map#0/0/0/). Například ve Švýcarsku se informace předávají především prostřednictvím Telegramu, Twitteru a webových stránek komunity.
-
-![immagine](assets/fr/17.webp)
-
-####
-
-**V případě Francie (a francouzsky mluvících zemí obecně) je hlavním komunikačním kanálem Telegram**. Má ho více než 90 % francouzských setkání: je to "must-have" Dále je **hlavní sociální sítí používanou komunitami Twitter** (70 % francouzských meet-upů); sociální síť, na které je přítomna většina bitcoinářů. Kromě toho má téměř 30 % francouzských meet-upů (stejně jako všechny kanadské meet-upy) placený účet v aplikaci **Meetup**. To může být skutečně vynikající způsob, jak zviditelnit události mimo bitcoinový ekosystém. A konečně, 30 % francouzských meet-upů má také **webové stránky**; a 10 % server **Discord** a účet **NOSTR**.
-
-####
-
-Samozřejmě se někdy používají i jiné komunikační kanály a sociální sítě: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn atd. **Každá komunita si skutečně může volně rozvíjet kanály, které si přeje**. Je však zřejmé, že **čím více komunikačních kanálů a sociálních sítí se množí, tím více času vyžadují od organizátorů jejich správa**, pravidelné zveřejňování důležitých informací a případné moderování.
-
-####
-
-**Pro všechny, kteří chtějí založit komunitu ve Francii, se proto doporučuje začít pouze s:**
 
 
-- skupinu Telegram**;
-- účet na Twitteru**.
+Jak bylo uvedeno výše, komunikační kanály komunity se mohou lišit v závislosti na motivaci a zvyklostech.
 
-V závislosti na vašich časových možnostech a přáních můžete později rozvíjet další sítě; dokonce **přiřazovat moderování budoucím členům vaší komunity**.
 
-## Vytvoření a konfigurace kanálu, skupiny nebo superskupiny na Telegramu
+Například **ve Francii, Německu a Itálii jsou dominantními platformami** Telegram a Twitter, které se staly "standardem" pro komunity Bitcoin.
+
+Naproti tomu v České republice mnoho komunit používá místo Telegramu **Matrix**, zabezpečený protokol pro zasílání rychlých zpráv.
+
+
+Tip: Před výběrem kanálů se **podívejte, co dělají okolní komunity**. Pomocí mapy [btcmap.org](https://btcmap.org/communities/map#0/0/0/) zjistíte, které platformy jsou ve vašem regionu nejoblíbenější.
+
+
+Například švýcarské komunity používají především Telegram, Twitter a vlastní webové stránky:
+
+
+
+![image](assets/fr/017.webp)
+
+
+
+**Doporučené kanály pro francouzsky mluvící komunity**
+
+
+
+- Telegram: Používá ho více než 90 % francouzských schůzek.
+
+
+
+- Twitter (X): Hlavní sociální síť používaná uživateli bitcoinů po celém světě. Používá ji ~ 70 % francouzských setkávačů. Je ideální pro oslovení bitcoinářů.
+
+
+
+- Meetup.com: Placené, ale hojně využívané (~30 % francouzských a téměř všechny kanadské meet-upy) ke zviditelnění mimo ekosystém Bitcoin.
+
+
+
+- Další možnosti: ~30 % má také webové stránky; ~10 % provozuje servery Discord nebo účty NOSTR.
+
+
+Lze použít i další platformy, jako je Matrix, Keet, Signal, Facebook, Instagram a LinkedIn. Pozor, čím více kanálů budete spravovat, tím více času strávíte jejich moderováním, zveřejňováním a udržováním jejich aktivity.
+
+
+
+Kdo chce ve Francii založit komunitu, měl by proto začít s jejím vytvářením:
+
+
+
+- skupina Telegramu;
+- účet na Twitteru.
+
+
+Jak se vaše komunita rozrůstá, můžete přidávat další platformy a delegovat moderování na důvěryhodné členy.
+
+
+
+## Vytvoření a konfigurace kanálu, skupiny nebo nadskupiny Telegramu
+
 
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
-Jak již bylo zmíněno, Telegram je v mnoha zemích "povinnou výbavou". Při vytváření komunikačního kanálu pro vaši komunitu v této aplikaci pro rychlé zasílání zpráv je však důležité pochopit rozdíly mezi:
+
+
+Před vytvořením komunikačního prostoru vaší komunity na Telegramu je důležité znát rozdíl mezi:
+
+
 
 
 - kanál Telegramu;
 - skupina Telegramu;
 - superskupina Telegramu.
 
-Uvidíme později, ale **důrazně doporučujeme při vytváření** zvolit "skupinu Telegram" (nebo, v závislosti na vašich cílech, "superskupinu Telegram").
 
-####
 
-V následujících návodech budeme používat aplikaci "Telegram+" APK; aplikaci, která umožňuje pokročilejší konfiguraci aplikace Telegram. Není to však nutné, protože vytvoření skupiny nebo nadskupiny na Telegramu lze nyní provést velmi snadno na telefonu:
+Důrazně doporučujeme začít se skupinou Telegram.
+
+V případě potřeby ji můžete později převést na nadskupinu.
+
+
+Pro níže uvedené výukové programy jsme původně použili balíček "Telegram+" APK, který umožňuje pokročilejší konfiguraci. Nemusíte ji však nutně potřebovat, protože k vytváření a správě skupin postačí oficiální aplikace Telegram, a to i prostřednictvím telefonu:
+
+
 
 :::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
+
+
 ### Vytvoření kanálu Telegram
 
-Pokud chcete vytvořit místo, kde mohou vaši členové přímo diskutovat, reagovat na sebe navzájem atd., pak kanál Telegram rozhodně není to, co byste měli zvolit!
 
-Poté přejděte přímo na další část s názvem [Vytvořit skupinu Telegram](ODKAZ).
 
-Ve skutečnosti je **kanál Telegramu pouze výkladní skříní informací zveřejněných správci, kde členové nemohou dělat nic víc než přidávat emoji**.
+Pokud chcete vytvořit místo, kde spolu členové mohou přímo komunikovat, odpovídat si atd., pak byste možná měli vytvořit skupinu Telegramu, a ne kanál Telegramu!
 
-![immagine](assets/fr/18.webp)
 
-Je však možné přidat možnost, aby členové kanálu mohli komentovat jednotlivé příspěvky správce, ale to se bude provádět v samostatných vláknech, což výrazně rozdělí komunikaci. **Pro komunitu se proto obecně nedoporučuje vytvářet kanál Telegram**.
+Přejděte přímo na další část s názvem [Vytvořit skupinu Telegram](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
-####
+
+
+Vskutku, **kanál Telegramu je spíše jednosměrný vysílací nástroj pro správce**. Členové nemohou volně chatovat, mohou pouze reagovat pomocí emotikonů (nebo zanechávat komentáře v samostatných vláknech, což roztříští konverzaci).
+
+
+
+![image](assets/fr/018.webp)
+
+
+
+**Protože komunity potřebují interakci a spolupráci, kanál Telegramu se nedoporučuje**, pokud je vaším cílem budování vztahů a sdílení znalostí.
+
+
 
 Výukový program pro vytvoření kanálu Telegram:
 
+
+
 :::video id=98be4709-d221-4030-8c31-e10113482515:::
+
+
 
 ### Vytvoření skupiny Telegram
 
-Naproti tomu **vytvoření skupiny Telegram je poměrně relevantní**.
-
-Pokud si vezmeme známé příklady, jako jsou skupiny v Messengeru nebo WhatsAppu, každý, kdo se připojí k této skupině **Telegram, bude moci mluvit s ostatními, reagovat na sebe navzájem, a to vše v rámci jedné diskuse**.
-
-![immagine](assets/fr/19.webp)
-
-Správci tohoto kanálu pak budou moci:
 
 
-- zveřejňovat zprávy osobně;
-- opravit** ty nejdůležitější;
-- zveřejňovat **průzkumy** (velmi užitečné pro výběr termínu příští schůzky, pokud ještě není pravidelná, tj. pokud se komunita teprve vyvíjí);
-- vytvořit **vlastní odkaz s pozvánkou** (pokud je skupina "veřejná" a ne "soukromá", což je třeba definovat v nastavení. Velmi praktické je také mít vlastní pozvánkový odkaz Telegramu ve stylu: t.me/Bitcoin[CITY]);
-- přidávat nebo odebírat oprávnění, správce a členy**;
-- Přidejte "profilový obrázek "** do skupiny Telegram (tj. logo vaší komunity) **a změňte její název**.
+Na druhou stranu **skupina Telegram je ideální pro komunity**: Stejně jako v aplikacích pro zasílání zpráv, jako je Messenger nebo WhatsApp, mohou členové chatovat a odpovídat si navzájem v rámci jedné sdílené konverzace.
 
-####
+
+
+![image](assets/fr/019.webp)
+
+
+
+Co můžete dělat jako správce:
+
+
+
+- Zveřejněte a připněte důležité zprávy.
+- Vytvoření **ankety** (užitečné pro rozhodování o termínech setkání, pokud je vaše komunita nová).
+- vytvořit **vlastní odkaz na pozvánku** (Pouze pokud je skupina "veřejná" a ne "soukromá", což je definováno v nastavení. Je také vhodné mít vlastní odkaz na pozvánku na Telegram, například: t.me/Bitcoin[CITY]);
+- Správa oprávnění, rolí a moderování členů.
+- Přidejte profilový obrázek (logo komunity) a aktualizujte název skupiny.
+
+
 
 Výukový program pro vytvoření skupiny Telegram:
 
+
+
 :::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
-Poznámka: jak již bylo zmíněno, výše uvedený návod byl vytvořen na počítači s aplikací "Telegram+" APK. Nyní je však velmi snadné vytvořit skupinu Telegram na telefonu.
 
-Proto již nemusíte stahovat aplikaci "Telegram+", abyste mohli tento úkol provést; pokud se nechcete ponořit do nastavení soukromí své skupiny.
+
+Poznámka: Tento návod byl vytvořen pomocí aplikace Telegram+, ale vše můžete provést přímo ze standardní mobilní aplikace Telegram.
+
+
 
 ### Vytvoření superskupiny Telegram
 
-Nevýhodou skupiny Telegram je, že když začne mít několik set členů, paralelní diskuse ve stejném komunikačním kanálu začnou být těžkopádné. To pak vede k nezamýšlenému efektu: někteří členové přestanou skupinu Telegram denně sledovat, což někdy způsobí, že jim uniknou důležité informace; například datum příští schůzky.
 
-K nápravě lze použít několik řešení:
 
-1. **Opravte důležité zprávy jako správce**, aby na ně byli všichni upozorněni (stiskněte jednou prstem příslušnou zprávu a vyberte možnost "Opravit");
+Proč superskupina?
 
-2. navrhněte, aby vaše komunita **používala server Discord** s různými komunikačními kanály, které může každý ztlumit, pokud si to přeje;
+Když se vaše skupina na Telegramu rozroste na stovky členů, konverzace se mohou stát chaotickými. To často vede k tomu, že členové zmeškají důležitá oznámení, například datum příštího setkání.
 
-3. **vytvoření "superskupiny" na Telegramu**.
 
-####
+K dispozici je několik řešení:
 
-Co je to ale superskupina Telegram?
 
-Je to jednoduše **skupina Telegramu, do které jsou začleněna různá "témata "**. Lze tak vytvořit téma **"Důležité informace "**, ve kterém budou zveřejňovány pouze důležité informace a informace související s nadcházejícími událostmi/schůzkami.
+1. **Připnout důležité zprávy**, aby všichni členové obdrželi upozornění (stiskněte jednou prstem danou zprávu a vyberte možnost "Připnout");
 
-Lze také nastavit **"Obecné "** téma, kde mohou diskutovat všichni členové.
 
-Nakonec lze přidat **konkrétní témata** (těžba, vývoj projektu, nadcházející konference atd.).
+2. Zvažte možnost použít **Discord** pro více komunikačních kanálů, z nichž každý mohou uživatelé v případě potřeby ztlumit.
 
-Je na vás, abyste si ji upravili podle svých představ; podobně jako například superskupinu Bitcoin Meet-up v Abidžanu.
 
-![immagine](assets/fr/20.webp)
+3. **Přeměňte svou skupinu Telegramu na superskupinu**.
 
-####
 
-Je však důležité poznamenat, že **superskupina Telegram může být pro některé členy obtížněji použitelná**. Někteří lidé totiž někdy nemohou přijít na to, **jak se dostat k ostatním tématům v této superskupině** (k tomu stačí kliknout na logo skupiny; tím se otevře seznam vytvořených témat). V takovém případě může být dobrým nápadem pomoci jim zasláním krátkého videonávodu v podobě snímku obrazovky.####
 
-Obecně platí, že neexistuje žádný konkrétní počet členů, při kterém by bylo relevantní používat superskupinu Telegramu a skupinu Telegramu. Volba je tedy na vás, a to na základě potřeb a požadavků vašich členů; vězte, že skupinu Telegram lze snadno přeměnit na superskupinu Telegram (a naopak). Chcete-li tak učinit, jednoduše vytvořte téma (nebo je všechny odstraňte).
+Co je to superskupina Telegram?
+
+
+Superskupina je v podstatě skupina Telegramu s tématy (podkanály) uvnitř.
+
+
+Příklad témat:
+
+
+- "Důležité informace": pouze klíčové aktualizace a oznámení o událostech.
+- "Obecné": pro všechny členské diskuse.
+- Specifická témata: např. Mining, vývoj projektů, nadcházející konference.
+
+
+Tip: Přizpůsobte témata potřebám své komunity. Příklad: Abidjan Bitcoin Meet-up úspěšně používá tento formát.
+
+
+
+![image](assets/fr/020.webp)
+
+
+Mějte na paměti, že **používání superskupin Telegrafu může být pro některé členy poněkud obtížné**. Ne všichni například vědí, **jak se dostat k jednotlivým tématům** (stačí klepnout na logo skupiny v hlavní nabídce Telegramu a zobrazí se úplný seznam témat). Zaslání rychlého snímku obrazovky může pomoci vyjasnit případné nejasnosti.
+
+
+Neexistuje žádné striktní pravidlo, kdy přejít z běžné skupiny Telegramu na superskupinu, záleží na potřebách vašich členů. Dobrou zprávou je, že můžete snadno přepínat tam a zpět: jednoduše vytvořte téma, které převedete na superskupinu, nebo odstraňte všechna témata kromě "Obecných" a vraťte se do běžné skupiny.
+
+
 
 Výukový program pro vytvoření superskupiny Telegram:
 
+
+
 :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
-Poznámka: Jak bylo uvedeno výše, výše uvedený návod byl vytvořen na počítači s aplikací "Telegram+" APK. Nyní je však velmi snadné vytvořit superskupinu Telegram na telefonu.
 
-Chcete-li to provést, jednoduše vytvořte skupinu Telegramu a poté v jejím nastavení klikněte na tlačítko "Témata" a některá přidejte. Po potvrzení změny se zobrazí seznam témat; ten můžete libovolně upravovat.
 
-K provádění těchto operací již nemusíte stahovat aplikaci Telegram+, pokud se nechcete hrabat v nastavení soukromí své superskupiny.
+Rychlá poznámka: jak již bylo zmíněno, výše uvedený návod byl vytvořen na počítači pomocí aplikace "Telegram+" APK. Dnes je však vytvoření superskupiny Telegram v telefonu jednoduché.
 
-## Konfigurace skupiny nebo nadskupiny Telegramu
+
+Stačí vytvořit skupinu Telegramu, přejít do jejího nastavení a klepnutím na tlačítko "Témata" přidat témata. Po uložení se zobrazí seznam témat, která můžete libovolně upravovat.
+
+
+Pokud tedy nechcete mít přístup k pokročilejším nastavením soukromí pro svou superskupinu, není již nutné stahovat aplikaci Telegram+.
+
+
+
+## Nastavení skupiny nebo superskupiny Telegramu
+
 
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
-Po vytvoření skupiny (nebo nadskupiny) Telegramu je čas **přemýšlet o oprávněních a moderování**. A samozřejmě si každá komunita může dělat, co uzná za vhodné!
-
-Ze zkušenosti však víme, že je vhodnější odebrat členům oprávnění k**:
 
 
-- zaslání dotazníku**;
-- odeslat soubory** (v případě viru);
-- odesílání hlasových zpráv**;
-- přidat uživatele** (pro případ, že do skupiny vstoupí bot);
-- oprava zpráv**;
-- upravit informace o výměně**.
+Nyní, když je vaše skupina (nebo nadskupina) Telegramu zprovozněna, je čas **konfigurovat oprávnění a nastavit moderování**.
 
-Při vytváření skupiny nebo nadskupiny na Telegramu** se také doporučuje **napsat popis schůzky, protože bude viditelný pro každého, kdo se k ní bude chtít připojit. Může to být například:
+Každá komunita si může zvolit vlastní přístup, ale zkušenosti ukazují, že je **nejlepší omezit některá oprávnění členů**:
 
-> Vítejte na Telegramu @Bitcoin[CITY] 🔥
+
+
+- Odeslání průzkumu;
+- Odesílání souborů (aby se předešlo případným virům);
+- Odesílání hlasových zpráv;
+- Přidávání uživatelů (pomáhá zabránit invazi botů);
+- Připínání zpráv;
+- Úprava informací o skupině.
+
+
+Při vytváření skupiny nebo superskupiny na Telegramu doporučujeme **napsat jasný popis setkání**, protože je to první věc, kterou potenciální členové uvidí. Například:
+
+
+> Vítejte na telegramu @Bitcoin [CITY] 🔥
 >
 
-> Scházíme se každou první středu v měsíci v baru [NÁZEV_BARU] v [MĚSTO] 🍻
+> Každou první středu v měsíci pořádáme setkání v baru [BAR_NAME] v [CITY] 🍻
 >
 
-> Přístup k našim dalším sociálním sítím: [LINK_DESIDERATE] 🌐
-![immagine](assets/fr/21.webp)
+> Podívejte se na naše další sociální sítě: [LINK] 🌐
 
-Na obrázku výše si také můžeme všimnout, že odkaz na pozvánku byl upraven správci skupiny Bitcoin Lille Telegram, protože je veřejný.
+![image](assets/fr/021.webp)
 
-Dále může být důležité v části "Nastavení skupiny" **povolit možnost "Schvalovat nové členy "**.
 
-Z vlastní zkušenosti vím o případu, kdy skupinu na Telegramu jedné bitcoinové komunity napadlo několik tisíc falešných účtů, které se chtěly ke skupině připojit s cílem ji spamovat a zničit. Kromě toho, že umožníte odstranění pornografických falešných účtů, které se chtějí připojit k vaší skupině, vás **zapnutí schvalování členů rozhodně zachrání před útokem podobným spamu**.
 
-Nakonec lze v sekci "Správci" přidat funkci "Agresivní antispam", která automaticky odstraní zprávy považované za spam. Nemusí to však být nezbytně nutné.
+V tomto příkladu správci Bitcoin Lille upravili svůj veřejný odkaz na Telegram pro snadnější sdílení.
 
-## Vložení multifunkčního bota do kanálu Telegramu
+
+
+V "Nastavení skupiny" může být vhodné **povolit "Schvalovat nové členy "**.
+
+
+Některé skupiny Bitcoin na Telegramu se staly terčem tisíců falešných účtů, které mají za cíl rozesílat spam nebo narušovat komunitu.
+
+
+**Aktivací schvalování členů můžete zachránit svou skupinu před spamovým útokem.**
+
+
+
+V sekci Správci můžete také povolit funkci "Agresivní antispam", která automaticky odstraní podezřelé zprávy.
+
+Není to vždy nutné, ale může to zvýšit ochranu Layer.
+
+
+
+## Přidání multifunkčního bota do skupiny Telegramu
+
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
-**Dalším způsobem, jak nakonfigurovat a chránit skupinu nebo superskupinu Telegramu, je přidání multifunkčního bota**. Ten ve skutečnosti umožňuje mnohem pokročilejší konfiguraci.
-
-Mezi mnoha možnostmi, které jsou k dispozici u **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)**, uvádíme mimo jiné:
 
 
-- přidat sadu pravidel** (příkaz /rules);
-- nakonfigurovat **protispamový mechanismus**;
-- přidat **automatickou, přizpůsobitelnou uvítací zprávu pro nové členy, která se po několika minutách zruší**;
-- nakonfigurujte **protipovodňový mechanismus**;
-- přidat příkaz @administrator;
-- přidat bloky;
-- přidat příkaz pro získání odkazu na skupinu (/link);
-- oprávnění příkazu configure;
-- automaticky odstraňovat určité typy zpráv;
-- atd.
-
-![immagine](assets/fr/22.webp)
-
-Další tři jednoduché nápady jsou:
+**Další možností konfigurace a zabezpečení skupiny nebo nadskupiny Telegramu je přidání multifunkčního bota**. Ten vám umožní výrazně rozšířit funkce a možnosti moderování vaší skupiny.
 
 
-- vytvořit příkaz "/link "** pro odeslání odkazu na přihlášení do skupiny Telegram;
-- totéž pro sociální sítě ("/socials") nebo vaše případná pravidla v případě moderování ("/rules");
-- blokování vstupu botů** a "vstup/výstup".
+Pomocí **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)** jsou nejužitečnější tyto možnosti:
 
-K dispozici je také řada dalších možností. Nicméně, jedna rada: **nesnažte se příliš omezovat komunikaci a výměnu informací**.
 
-####
 
-Návod na přidání multifunkčního bota do skupiny nebo nadskupiny na Telegramu:
+- Příkaz **rules** (/rules), který zobrazí pravidla komunity;
+- Ochrana proti spamu**, která filtruje podezřelé zprávy a účty;
+- Přizpůsobitelné automatické uvítací zprávy** pro nové členy (s volitelným automatickým smazáním po několika minutách)
+- Ochrana proti záplavám**, která zabraňuje zasílání nevyžádaných zpráv
+- Příkaz **@administrator** pro rychlé oslovení správců skupin
+- Pravidla blokování** nežádoucího obsahu
+- Příkaz **propojení skupiny** (/link)
+- Příkaz **řízení povolení**
+- Automatické mazání** určitých typů zpráv
+- Blokování botů** a **blokování vstupu a výstupu** pro zajištění bezpečnosti skupiny
+- Seznam sociálních sítí **komunity** (/networks)
+- A mnoho dalšího...
+
+
+
+![image](assets/fr/022.webp)
+
+
+
+K dispozici je nespočet dalších funkcí.
+
+
+Profesionální rada: **Nepřehánějte konverzaci**.
+
+
+
+Návod na přidání multifunkčního bota do skupiny nebo nadskupiny Telegramu:
+
+
 
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
-Drobná poznámka: jak již bylo zmíněno, nyní lze všechny tyto postupy provádět v telefonu.
+
+
+(Poznámka: Celý tento proces lze nyní provést přímo z telefonu. Aplikace Telegram+ již není potřeba.)
+
+
 
 ## Vytvoření serveru Discord
 
+
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
-S rostoucím počtem členů ve skupině na Telegramu může být řešením její přeměna na superskupinu na Telegramu.
 
-Jak však bylo uvedeno výše, **potenciální "problémy s použitelností" a zvyšující se počet témat a zpráv v superskupině Telegramu mohou vést ke ztrátě zájmu některých aktivních členů**.
 
-**Discord se tak představuje jako alternativa** k vytvoření superskupiny Telegramu, protože umožňuje **vytvářet specifické textové a hlasové kanály** a hlavně, uživatelé mohou vypnout jakýkoli kanál, který je nezajímá.
+Když se vaše skupina na Telegramu příliš rozroste, pomůže vám její přeměna na superskupinu Telegramu uspořádat diskuse.
 
-Kromě Telegramu a Twitteru to samozřejmě vyžaduje ještě více času na správu; zejména během jeho nastavení a spuštění.
+Jak však bylo zmíněno dříve, **přidaná složitost a nárůst témat a zpráv může způsobit, že někteří aktivní členové ztratí zájem**.
 
-Abychom vám to usnadnili, **sdílíme [předpřipravený, duplikovatelný a upravitelný server Discord](https://discord.com/template/bDY4eXXJk2C8), který si můžete upravit podle svých představ**:
+
+Proč uvažovat o službě Discord?
+
+**Discord je alternativou** k superskupině Telegramu, protože umožňuje uživatelům **vytvářet specifické textové a hlasové chatovací místnosti** a umožňuje členům ztlumit všechny kanály, o které nemají zájem.
+
+
+Správa Telegramu i Discordu samozřejmě vyžaduje trochu více času, zejména při konfiguraci a spuštění.
+
+
+
+Abychom vám to usnadnili, **sdílíme [Discord server, který můžete duplikovat a přizpůsobit](https://discord.com/template/bDY4eXXJk2C8)**:
+
+
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
-####
 
-Pokud je tedy server Discord dobře vybudován, může být pro svou komunitu skutečným přínosem. Mnoho bitcoinářů již ve skutečnosti Discord (a nikoli Telegram) denně používá a **umožnění sledovat skupinové konverzace Telegramu přímo na serveru Discord jim výrazně šetří čas**. A naopak.
+Dobře navržený server Discord může být pro vaši komunitu skutečným přínosem. Mnoho bitcoinářů již denně používá **Discord** a možnost sledovat konverzace na Telegramu přímo v rámci Discordu (a naopak) může všem ušetřit spoustu času.
 
-Proto byl vyvinut open-source bot s názvem [TediCross](https://github.com/TediCross/TediCross). Jeho cíl je jednoduchý: automaticky přenášet zprávy z textového kanálu Discord do skupiny Telegram (nebo tématu v nadskupině Telegram); a naopak. Může se tedy jednat o velmi zajímavé nastavení.####
 
-Je však důležité si uvědomit, že jeho instalace není příliš snadná, že **vyžaduje nepřetržité spouštění příkazového řádku (CMD) na počítači, aby tento bot fungoval**; ale také, že někdy dochází k chybám. V takové situaci jej naštěstí stačí restartovat; a pak se vše vrátí do normálu.
+K synchronizaci obou platforem slouží bot s otevřeným zdrojovým kódem s názvem [TediCross](https://github.com/TediCross/TediCross). Jeho účel je jednoduchý: automaticky přeposílat zprávy z textového kanálu Discord do skupiny Telegram (nebo tématu v nadskupině) a naopak.
 
-S cílem ušetřit vám čas vám přinášíme návod, jak přidat multifunkčního bota do skupiny nebo nadskupiny Telegramu:
+
+Mějte však na paměti, že jeho instalace není nejjednodušší. Aby bot fungoval, musíte mít v počítači spuštěný příkazový řádek (CMD) a občas se mohou vyskytnout chyby. Naštěstí je oprava jednoduchá: stačí bota restartovat a většinou se vše vrátí do normálu.
+
+
+Abychom vám ušetřili čas, přinášíme návod, jak přidat tohoto multifunkčního bota do skupiny nebo nadskupiny Telegramu:
+
+
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
-## Zvažte jiné, soukromé a bezpečnější komunikační kanály
+
+
+## Zvážit alternativní, soukromé a bezpečnější komunikační kanály
+
 
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
 
-Jak již bylo zmíněno v této části, Twitter a Telegram jsou dva hlavní komunikační kanály používané v Evropě (a možná i ve světě).
 
-Pravděpodobně však víte, že **Telegram není nejbezpečnější a nejdůvěrnější služba pro zasílání zpráv a že Twitter není společnost známá svobodou projevu**.
 
-V tomto smyslu **je zcela na místě - pokud máte čas - začít přemýšlet o alternativách**.
+Jak již bylo uvedeno dříve, Twitter a Telegram jsou nejpoužívanějšími komunikačními nástroji pro komunity Bitcoin v Evropě (ne-li na celém světě).
 
-Proto budou v nadcházejících měsících [v rámci téhož kurzu na adrese planb.network](LINK) nabízeny výukové lekce o používání důvěrnějších a bezpečnějších komunikačních protokolů.
 
-####
+Telegram však není zrovna známý jako nejbezpečnější aplikace pro zasílání zpráv nebo aplikace zaměřená na ochranu soukromí a Twitter, nyní X, vlastní jedna z nejsvobodomyslnějších korporací na světě.
 
-Proč ale uvažovat o těchto alternativách?
 
-Jednoduše proto, že stejně jako sociální sítě a komunikační aplikace NOSTR, jako jsou Matrix, Signal nebo Element, jsou decentralizované a/nebo šifrované. Kromě **zvýšení důvěrnosti** při výměně informací mezi různými členy vaší komunity vám to také umožňuje **ochránit se před vypnutím (cenzurou?) vaší skupiny nebo superskupiny Telegram**.
+Proto se po zavedení hlavních kanálů a bezproblémovém fungování vyplatí věnovat čas prozkoumání dalších možností.
 
-Co může být lepšího, stejně jako u protokolu Bitcoin, než **být nesouměřitelný a neměnný**?
+
+V nadcházejících měsících bude tento kurz a platforma planb.network nabízet výukové kurzy o používání alternativních protokolů, jako jsou **Simplex a Element**: decentralizované, šifrované a vysoce přizpůsobitelné komunikační nástroje.
+
+
+**Proč se zabývat těmito možnostmi?**
+
+Stejně jako sociální síť NOSTR totiž poskytují nejen větší soukromí, ale také ochranu před cenzurou nebo svévolným uzavřením skupiny Telegram.
+
+
+A opravdu, co může být více v souladu s duchem Bitcoin než odolnost vůči cenzuře a odolnost podle návrhu?
+
+
 
 # Spusťte své sociální sítě
 
+
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
-## Význam viditelnosti pro rozvoj vaší komunity bitcoinů
+
+
+## Význam viditelnosti pro růst komunity Bitcoin
+
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
-To je vše, vaše komunita je spuštěna a nyní máte jeden nebo více komunikačních kanálů (například Telegram a/nebo Matrix)!
 
-Prozatím jste však sami... Takže budete muset **provádět - nějakou - komunikaci**.
 
-Je skutečně zřejmé, že pokud nikdo nebude mít přístup k vašim komunikačním kanálům, na kterých pravidelně zveřejňujete informace (datum příští schůzky, projekty atd.), bude vaše práce zbytečná. Proto budou **sociální sítě - a některé konkrétní platformy, o kterých si povíme později - hrát dominantní roli v rozvoji vaší komunity**.
+Vaše komunita je tedy spuštěna a funguje. Založili jste si prostor na Telegramu nebo v Matrixu... ale zatím jste tam jen vy. **Čas dát lidem vědět, že existujete!**
 
-Mezi těmito sociálními sítěmi je **Twitter ve světě Bitcoinu** téměř nepostradatelný. V tomto smyslu se zdá být důležité **mít na této platformě profil**; i když její centralizace a vývoj nejsou zdaleka správné.
 
-Proto je možné vytvořit **profilNOSTR speciálně pro vaši komunitu** s myšlenkou předvídat případná omezení a/nebo cenzuru na Twitteru. Koneckonců: prevence je lepší než léčba.
+Je to jednoduché: pokud nikdo nemá přístup k vaší skupině a nemůže zjistit, kdy se koná další setkání, budete jen posílat příspěvky do prázdna. Proto jsou sociální média a několik konkrétních platforem, kterým se budeme věnovat později, tak důležité pro budování vaší komunity.
 
-![image](assets/fr/23.webp)
 
-Samozřejmě lze využít i jiné sociální sítě. To je případ Facebooku (v případě skupiny nebo stránky na Facebooku) nebo dokonce LinkedIn.
+Twitter (X) se stal téměř synonymem pro online konverzaci Bitcoin. Není dokonalý, zdaleka ne, ale v současné době se na něm shromažďuje velká část komunity. Vytvořit si tam účet se důrazně doporučuje.
 
-Je však důležité si uvědomit, že **čím více komunikačních kanálů a sociálních sítí je třeba vytvořit - a následně udržovat - tím je to časově náročnější. Nejlepší je soustředit se na ty nejdůležitější; a Twitter (a NOSTR) se zdají být dobrými kandidáty**.
 
-V následující části tohoto kurzu vám podrobně vysvětlíme, jak si vytvořit účet na Twitteru a jak jej efektivně využívat pro maximální zviditelnění. Podobná vysvětlení a návody týkající se NOSTR budou přidány do této části [Spuštění vašich sociálních sítí](ODKAZ), a to během několika týdnů.
+Některé komunity si také otevírají profil NOSTR, aby se vyhnuly případné cenzuře nebo omezením.
+
+
+To je to, co kolektiv FREE Madeira udělal.
+
+
+
+![image](assets/fr/023.webp)
+
+
+
+Užitečné mohou být samozřejmě i jiné platformy. Facebook (buď se skupinou, nebo stránkou), nebo dokonce LinkedIn.
+
+
+Mějte na paměti, že **čím více komunikačních kanálů a sociálních sítí spravujete, tím více času to vyžaduje**. Často je lepší zaměřit se **na ty nejdůležitější**, Twitter (a NOSTR) jsou pro začátek skvělé možnosti.
+
+
 
 ## Vytvoření profilu na Twitteru
 
+
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
 
-Používání Twitteru je velmi snadné a vyžaduje úpravu některých nastavení pro zlepšení soukromí.
-
-**Při vytváření nového účtu na Twitteru je třeba uvést čtyři základní údaje**:
-
-1. **@ Twitter**, který definuje vaši identitu a usnadňuje vyhledávání. Pokud se vaše komunita jmenuje "Bitcoin[MĚSTO]", je proto zcela relevantní zvolit "@Bitcoin[MĚSTO]"
-
-2. **logo a banner**, které jste vytvořili pro svou komunitu nebo setkání (viz část [Vytvoření loga, plakátu a banneru](ODKAZ));
-
-3. **popis**, který vám umožní ve zhruba sto znacích uvést důležité informace o vaší komunitě. Může to být například:
-
-> Oficiální účet bitcoinové komunity [MĚSTO] #BTC | Setkání každou první středu v měsíci v [NÁZEV_BARU] v [MĚSTO] 🍻 | Připojte se k nám na Telegramu 🔽
-4. Pod tento popis můžete také **vložit odkaz**. Ten může uživatele přesměrovat na stránku "sociální sítě", která je k dispozici na webových stránkách vaší komunity, nebo je může nasměrovat na váš komunikační kanál Telegram.
-
-![image](assets/fr/24.webp)
-
-Kromě toho se zdá, že **některá nastavení ochrany osobních údajů je vhodné změnit**; nejvýznamnější jsou zřejmě:
 
 
-- možnost **ponechat svůj účet na Twitteru ve veřejném režimu** (příspěvky jsou viditelné komukoli);
-- být **identifikovatelný pro každého** (pozor na podvody);
-- zakázat sledování polohy a sdílení dat s jinými subjekty** (otázka ochrany osobních údajů).
-
-####
-
-Postupem času budete na Twitteru zveřejňovat příspěvky. Tyto tweety pak budou oznamovat vaši další událost, důležité novinky v ekosystému nebo dokonce oznámení jiné komunity, kterou sledujete.
-
-Stejně jako u většiny sociálních sítí je však klíčem k úspěchu **viditelnost**.
-
-Abychom vám ušetřili spoustu času, věnovali jsme čas studiu [zdrojového kódu algoritmu řazení Twitteru](https://github.com/twitter). Zde jsou **klíčové body, kterým je třeba věnovat pozornost, abyste zvýšili svou viditelnost**:
+Používání Twitteru je velmi snadné a pro zlepšení soukromí je třeba upravit několik nastavení.
 
 
-- Obecné informace:
-    - tweetujte v jazyce, který jste si nastavili** na svém účtu na Twitteru, nebo v angličtině (v opačném případě hrozí přísný trest);
-    - tweetujte pouze informace související s doménou vašeho účtu** (v opačném případě hrozí přísný trest);
-    - tweetujte 1 až 2krát denně (důležitá je důslednost);
-- tweetujte v době vysoké viditelnosti** (nejzajímavější je čtvrtek nebo pátek mezi 8. a 10. hodinou dopoledne; viz část "Analýza Twitteru" na vašem účtu).
-- Když napíšete tweet:
-    - přidejte fotografii** (nebo video);
-    - přidejte ke svému tweetu pouze jeden hashtag** (#Bitcoin je obvykle nejrelevantnější. Pokud to dává smysl a pokud to souvisí s rozsahem vašeho účtu, přidejte trendový hashtag);
-    - vybízí vaši komunitu k lajkování** (váha 0,5), **k retweetování** (váha 1) **ale hlavně k reakci** (váha 27!);
-    - reagovat na lidi, kteří reagují na vaše tweety** (váha 75!);
-    - nepřidávejte odkaz v úvodním tweetu** (můžete to udělat například v prvním komentáři);
-    - napište celá slova bez použití zkratek.
-- Další body, které stojí za zmínku:
-    - tweetovat na základě trendů, pokud jsou v rámci vašeho účtu;
-    - přeposílejte/retweetujte nejsledovanější tweety**;
-    - příležitostně provádí průzkumy**;
-    - pokud je to možné, napište vlákno**;
-    - povzbudí vaši komunitu k návštěvě a sledování vašeho profilu.
+**Při vytváření nového účtu na Twitteru je třeba zadat čtyři základní údaje:**:
 
-####
 
-Kromě toho můžete **na svém profilu na Twitteru opravit tweet, který chcete obzvláště zviditelnit**.
+1/ **the @ Twitter**, který definuje vaši identitu a umožňuje vás snadno najít. Pokud je název vaší komunity "Bitcoin [MĚSTO]", je vhodné zvolit "@Bitcoin[MĚSTO]";
 
-![immagine](assets/fr/25.webp)
 
-Všimněte si také, že v telefonu i počítači je možné být přihlášen ke dvěma účtům Twitteru současně. To může být velmi výhodné, abyste se nemuseli přihlašovat/odhlašovat mezi osobním a komunitním účtem; stejně tak se to může vymstít, pokud omylem zveřejníte svou fotografii v kostýmu s komunitním účtem... Buďte tedy opatrní!
+2/ **logo a banner**, které jste vytvořili pro svou komunitu nebo setkání (viz část [Vytvoření loga, plakátu a banneru](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
-A konečně, i když je vaše uživatelské jméno "@Bitcoin[MĚSTO]" jedinečné a nyní patří vám, může být rozumné vytvořit si předem účty "@Bitcoin_[MĚSTO]", "@[MĚSTO]Bitcoin" nebo "@[MĚSTO]_Bitcoin", abyste měli jistotu, že se nikdo nepokusí duplikovat vaši identitu**. Je skutečně lepší předvídat!
+
+3/ **popis**, který vám umožní sdílet klíčové informace o vaší komunitě v několika stech znacích. Například:
+
+
+> Oficiální účet komunity Bitcoin [MĚSTO] #BTC | Setkání každou 1. středu v měsíci v [BAR_NAME] v [MĚSTO] 🍻 | Přidejte se k nám na Telegramu 🔽
+
+4/ Pod tímto popisem je možné **vložit odkaz**. Ten může uživatele vést na stránku "sociální sítě" na webových stránkách vaší komunity nebo na váš kanál Telegram. Záleží na vašem rozhodnutí, na co chcete upozornit.
+
+
+
+![image](assets/fr/024.webp)
+
+
+
+Kromě toho je vhodné upravit **několik nastavení ochrany osobních údajů**:
+
+
+
+- ponechat účet Twitter v režimu "veřejný" (příspěvky viditelné pro kohokoli);
+- aby vás každý našel;
+- zakázat sledování polohy a sdílení dat s jinými subjekty (v nastavení ochrany osobních údajů).
+
+
+Při každé události budete pravděpodobně používat Twitter ke sdílení užitečných informací. Ale stejně jako u většiny sociálních sítí platí, že **viditelnost je vše**.
+
+
+Abychom vám ušetřili spoustu času, věnovali jsme čas studiu [open-source algoritmu hodnocení Twitteru](https://github.com/twitter).
+
+
+Zde jsou **klíčové věci, na které se zaměřte, abyste zvýšili svou viditelnost**:
+
+
+
+- Obecné tipy:
+    - Tweetujte v nastaveném jazyce účtu nebo v angličtině: tweetování v jiných jazycích může značně snížit vaši viditelnost;
+    - Držte se svého výklenku a sdílejte pouze obsah související se zaměřením vašeho účtu; tweety mimo téma jsou algoritmem penalizovány;
+    - Snažte se o 1 až 2 tweety denně;
+    - Vysílání v době špičky: (zkontrolujte si to na svém účtu: Twitter Analytics).
+
+
+
+- Při psaní tweetu:
+    - přidat fotografii (nebo dokonce video);
+    - Použijte pouze jeden hashtag (obvykle je nejvhodnější #Bitcoin. Pokud je to vhodné, můžete přidat trendový hashtag související s oblastí vašeho účtu);
+    - Povzbuzujte svou komunitu k interakci:
+        - Like = hmotnost 0,5
+        - Retweet = váha 1
+        - Odpověď = hmotnost 27 (!!)**
+    - Odpovězte lidem, kteří reagují na vaše tweety** (váha 75!!);
+    - Vyhněte se umisťování odkazů do hlavního tweetu: přidejte je raději do prvního komentáře;
+    - Pište slova celá, vyhněte se zkratkám.
+
+
+
+- Další tipy:
+    - Tweetujte o trendových tématech, pokud jsou v souladu s oblastí vašeho účtu;
+    - Přeposílejte své nejúspěšnější tweety;
+    - Příležitostně provádějte průzkumy veřejného mínění;
+    - Pokud je to možné, napište vlákna;
+    - Povzbuďte svou komunitu, aby navštívila váš profil a sledovala vás.
+
+
+
+Navíc **můžete tweet nebo vlákno připnout na svůj profil na Twitteru, abyste je maximálně zviditelnili**, stejně jako to dělá komunita Bitcoin Witsand v Jihoafrické republice.
+
+
+
+![image](assets/fr/025.webp)
+
+
+
+Všimněte si také, že je možné zůstat přihlášený ke dvěma účtům Twitteru současně, a to jak v telefonu, tak v počítači. To je velmi praktické, pokud chcete snadno přepínat mezi osobním a komunitním účtem.
+
+Jen buďte opatrní... náhodné zveřejnění fotografie z komunitního účtu se může stát rychleji, než si myslíte!
+
+
+A konečně, i když je vaše uživatelské jméno "@Bitcoin[CITY]" jedinečné a nyní vaše, je chytré předvídat falešné nebo napodobující účty. Zvažte také registraci:
+
+
+
+- @Bitcoin_[CITY]
+- @[CITY]Bitcoin
+- @[CITY]_Bitcoin
+
+
+Tímto způsobem výrazně snížíte pravděpodobnost, že se někdo bude vydávat za vaši komunitu.
+
+
 
 Výukový program pro vytvoření účtu na Twitteru:
 
+
+
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
-## Spojení s blízkými setkáními
+
+
+## Přiblížení se k sousedním setkáním
+
 
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
-Po vytvoření, nastavení a obohacení komunikačních kanálů a sociálních médií o vizuální identitu vašeho města/komunity/setkání je na čase začít na těchto platformách sledovat ty "správné lidi".
 
-Na Twitteru to může začít sledováním některých účtů, které se zabývají vývojem bitcoinu na mezinárodní úrovni, jako jsou @Bitcoin, @bitcoincoreorg, @planb_network, @FBCEglobal, a retweetováním slavného "Running bitcoin" z 11. ledna 2009 od @halfin; ale také - a to je nejdůležitější - **sledováním účtů bitcoinových komunit a setkání ve vaší zemi**.
 
-Ve skutečnosti **to umožní vzájemné sledování, označování a tím i kolektivní zviditelnění**.
+Nyní, když jsou vaše komunikační kanály a sociální sítě nastaveny a odrážejí vizuální identitu vaší komunity, je čas začít sledovat ty správné lidi.
 
-To je případ více než padesáti francouzských komunit bitcoinů a totéž platí pro většinu iniciativ "Satoshi Spritz" v Itálii a "Einundzwanzig" v Německu.
 
-Ačkoli se to někomu může zdát zbytečné, **sledování místních komunit a iniciativ ve vlastní zemi může nepřímo vést ke společným projektům**, nebo dokonce k "partnerství" Takto se spojily komunity Bitcoin Liège a Bitcoin Lille (totéž platí pro Bitcoin Aix a Bitcoin Marseille); nyní pořádají alespoň jedno společné setkání ročně. Dalším příkladem jsou večeře **Cercle du Coin**.
 
-![immagine](assets/fr/26.webp)
+Na Twitteru začněte sledovat klíčové účty, které celosvětově propagují Bitcoin, jako jsou [@Bitcoin](https://twitter.com/Bitcoin) a [@planb_network](https://twitter.com/planb_network), a také iniciativy jako [@FBCEglobal](https://twitter.com/FBCEglobal). Můžete také retweetnout slavný tweet [@halfin](https://twitter.com/halfin) "Running Bitcoin" z 11. ledna 2009. A hlavně **sledujte účty komunit a setkání Bitcoin ve své zemi**.
 
-Kromě toho by ve Francii mohlo být také důležité **sledovat iniciativy @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin a @btcmap**. To jsou jen návrhy a každá komunita si samozřejmě může v rámci plné decentralizace a autonomie počínat, jak uzná za vhodné.
 
-Zájem o vzájemné sledování je poměrně jednoduchý: vzájemně se zviditelnit. Čím více jste na sítích přítomni, tím více lidí o vás bude mluvit; a čím více lidí o vás bude mluvit, tím je pravděpodobnější, že lidé přijdou na vaše akce. Stejně atraktivní může být i lajkování a retweetování příspěvků jiných komunit na sociálních sítích.
+To vytváří **příležitost ke vzájemnému sledování, označování se navzájem a ke společnému zviditelnění**. Je to již běžná praxe mezi ~50 komunitami Bitcoin ve Francii, iniciativami "Satoshi Spritz" v Itálii a skupinami "Einundzwanzig" v Německu.
 
-####
 
-Současně je také možné **nabídnout organizátorům setkání a těm, kteří vytvořili komunitu, možnost setkávat se v určený čas během fyzických akcí**. To může umožnit probrat pocity všech zúčastněných, hovořit o vývoji přítomných komunit, sdílet nápady na projekty, které byly úspěšné; ale také v případě potřeby nabídnout řešení. Pokud si to přejete, můžete se pak podělit o písemnou zprávu s organizátory komunit ve vaší zemi, kteří nebyli přítomni.
 
-## Mapa BTC
+I když se to někomu může zdát banální, **sledování účtů místních komunit a iniciativ může vést ke spolupráci nebo dokonce partnerství**. Například komunity Bitcoin Liège a Bitcoin Lille (a podobně Bitcoin Aix a Bitcoin Marseille) se tímto způsobem propojily, což vedlo ke společnému pořádání každoročních setkání.
+
+Dalším dobrým příkladem jsou jídla **Cercle du Coin**.
+
+
+
+![image](assets/fr/026.webp)
+
+
+
+Ve Francii může být také důležité **sledovat iniciativy, jako jsou [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) a [@btcmap](https://twitter.com/btcmap)**. Jedná se samozřejmě pouze o návrhy a každá komunita si může v rámci úplné decentralizace a autonomie dělat, co chce.
+
+
+Jak bylo uvedeno výše, cílem vzájemného sledování je vzájemné zviditelnění. Čím více budete na sociálních sítích propagovat svou komunitu a komunitu svého regionu/země, tím více se o vás bude mluvit. Čím více lidí o vás bude mluvit, tím větší je pravděpodobnost, že se zúčastní vašich akcí.
+
+
+Lajkování a retweetování příspěvků z jiných komunit tak může výrazně pomoci jejich rozvoji... i vašemu.
+
+
+Mohli byste také navrhnout, aby se organizátoři **meetupů a bitcoináři, kteří vedou komunity, setkávali dvakrát nebo třikrát ročně prostřednictvím videokonference, aby zhodnotili pokrok národních projektů a souvisejících komunit. To se může uskutečnit i během osobních akcí**
+
+Cíl je jednoduchý: shromáždit zpětnou vazbu všech zúčastněných, diskutovat o vývoji komunit, sdílet úspěšné nápady a projekty a v případě potřeby navrhovat řešení. Písemné shrnutí setkání lze po jeho skončení sdílet s organizátory komunit ve vaší zemi, kteří se nemohli zúčastnit.
+
+
+
+## Btcmap.org
+
 
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
-V tomto okamžiku je vaše komunita již spuštěna. Zbývá jen čekat na příchod nových bitcoinářů a zájemců o její rozvoj.
-
-Nemůžete však jít dál, aniž byste věděli, že **existují platformy, které zájemcům o bitcoin umožňují najít komunity a setkání v jejich okolí**.
-
-Proto je důležité, abyste věnovali několik minut žádosti o zařazení na tyto stránky/platformy**.
-
-####
-
-Mezi nimi najdeme zejména:
 
 
-- [Btcmap.org](https://btcmap.org/)**, webové stránky, které obsahují dvě denně aktualizované mapy: **[světová mapa podniků akceptujících bitcoiny](https://btcmap.org/map)** a **[mapa globálních komunit](https://btcmap.org/communities)**. Mnozí bitcoináři během svých dovolených nebo i v každodenním životě pravidelně kontrolují tyto mapy, aby se s nimi setkali nebo nakoupili. **Btcmap je jednoznačně globálním referenčním bodem. A abyste se zviditelnili, musí tam být vaše komunita uvedena**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)** je webová stránka vytvořená bitcoinery pro bitcoinery. Můžete zde pak **zveřejňovat nadcházející události** vaší komunity. Ve Francii je tato platforma bohužel poměrně málo využívaná.
-
-V závislosti na zemi existují také jedinečné iniciativy. Tak je tomu zejména **ve Francii, kde na webové stránce [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/) najdete seznam desítek akcí, které se ve Francii každý měsíc konají**. Pokud jste je ještě nesledovali na Twitteru nebo je nekontaktovali a neposkytli jim informace o vaší komunitě a/nebo akcích, nyní je ten správný čas! **S cílem pomoci jim udržovat tento francouzský kalendář událostí v aktuálním stavu bychom navíc ocenili, kdyby si všechny francouzské bitcoinové komunity zvykly:** ** **uvádět @bitcoinpointfr na Twitteru při každém novém oznámení události své komunity**;
+V této fázi je vaše komunita již v provozu. Zbývá jen přivítat další zájemce a pomoci jí růst.
 
 
-- opravit oznámení o uvedené události ve své komunitní skupině Telegram**.
+Nemůžete se však pohnout kupředu, aniž byste věděli, že **existují platformy, kde mohou bitcoináři najít komunity a setkání ve svém okolí**. Proto je důležité věnovat několik minut žádosti o zařazení na tyto stránky.
 
-![immagine](assets/fr/27.webp)
 
-####
+Patří mezi ně:
 
-Je důležité si uvědomit, že větší viditelnost umožňují i další platformy a aplikace. *jednou z nich je *[Meetup](https://www.meetup.com/)**. Jedná se vlastně o webovou stránku (a telefonní aplikaci), která umožňuje vytvořit událost; ale také vyhledávat ty, které se nacházejí ve vašem okolí.
 
-Bohužel, aby bylo možné vytvořit setkání, je třeba utratit téměř 8 EUR měsíčně (což je asi 90 EUR ročně), což je pro komunitu, která ještě není ani strukturovaná, ani vyspělá, drahé. Meetup je však v některých zemích, zejména v Kanadě a Spojených státech, velmi populární; jeho hlavní výhodou je, že umožňuje integrovanou správu registrací setkání.
 
-Současně je **[Orangepillapp](https://www.orangepillapp.com/)** placená telefonní aplikace, která umožňuje bitcoinovým uživatelům vzájemně se setkávat. Je však také placená (50 000 sátů/rok nebo 200 000 sátů na celý život).
+- [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své Sats. Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), webové stránky vytvořené bitcoinery pro bitcoinery. ** Umožňuje zveřejňovat nadcházející události vaší komunity**. Ve Francii však stále není příliš rozšířená.
+- v závislosti na vaší zemi mohou existovat další místní iniciativy. Například ve Francii existuje stránka [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), která každý měsíc **seznamuje desítky akcí Bitcoin**. Pokud jste je tedy ještě nesledovali na Twitteru nebo je nekontaktovali a nesdíleli s nimi informace o vaší komunitě a akcích, je nejvyšší čas! **Abyste pomohli udržovat francouzský kalendář akcí aktuální, bylo by skvělé, kdyby si všechny francouzské komunity Bitcoin zvykly:**
+    - zmínka @bitcoinpointfr na Twitteru pro každou novou událost komunity
+    - připínání nových oznámení o událostech ve skupině Telegram.
 
-####
 
-Tyto dvě aplikace sice umožňují zviditelnění vaší komunity a událostí, ale při spuštění komunity se nedoporučují, protože jsou placené.
 
-**Začíná se seznamem na [btcmap.org](https://btcmap.org/), na [BitcoinerEvents](https://www.bitcoinerevents.com/); a pro francouzské komunity na [bitcoin.fr](https://bitcoin.fr) je tedy zjevně dostačující**.
+![image](assets/fr/027.webp)
 
-####
 
-Gratulujeme! Vaše **komunita je vytvořena**, vaše **vizuály jsou připraveny**, vaše **cíle jsou stanoveny**, vaše **komunikační kanály jsou zavedeny**, vaše **sociální sítě jsou spuštěny** a vaše **strategie zviditelnění je stanovena**.
+Zviditelnit se můžete i na jiných platformách. *jednou z nich je *[Meetup](https://www.meetup.com/)**, což je webová stránka (a aplikace pro telefony), kde můžete vytvořit událost a najít ostatní v okolí.
 
-Jakmile se k vám připojí malá skupina bitcoinářů, dalším krokem je vydat se na vzrušující dobrodružství v podobě setkání bitcoinářů!
+Stojí přibližně 8 EUR měsíčně (nebo asi 90 EUR ročně), což může být pro malou nestrukturovanou komunitu drahé. Přesto je Meetup v některých zemích, zejména v Kanadě a Spojených státech, hojně využíván a je užitečný pro správu registrací.
 
-# Pořádání setkání Bitcoin Meet-up
+
+Podobně **[Orangepillapp](https://www.orangepillapp.com/)** je placená mobilní aplikace (50 000 Sats/rok nebo 200 000 Sats za doživotní přístup), která pomáhá bitcoinářům se setkávat.
+
+
+Poslední dvě jmenované platformy sice mohou pomoci zvýšit viditelnost, ale při zakládání komunity se nedoporučují, a to jednoduše proto, že nejsou zdarma.
+
+**Začínáme s výpisem na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) a pro francouzské komunity na [Bitcoin.fr](https://Bitcoin.fr) je více než dostačující**.
+
+
+Gratulujeme! Vaše **komunita je vytvořena**, vaše **vizuály jsou připraveny**, vaše **cíle jsou stanoveny**, vaše **komunikační kanály jsou zavedeny**, vaše **sociální sítě jsou spuštěny** a vaše **strategie zviditelnění je rozhodnuta**.
+
+
+Jakmile se k vám přidá malá skupina bitcoinářů, je čas na další krok: uspořádat první setkání Bitcoin.
+
+
+
+# Uspořádání setkání Bitcoin
+
 
 <partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
 
-## Proč začít s pravidelným setkáváním s vaší komunitou?
+
+
+## Proč zahájit pravidelné setkávání se svou komunitou?
+
 
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
-Po spuštění sociálních sítí a komunikačních kanálů vaší komunity zbývá jen dát o sobě na těchto platformách vědět a noví členové by se měli představit postupným zapojováním do diskusí.
 
-To vám pak může umožnit uvolnit čas s cílem přemýšlet o vytvoření akce typu "meet-up" v libovolném formátu. To je zvláště důležité, pokud začínáte ve své komunitě pociťovat určitý zápal.
 
-Jak již bylo zmíněno, **setkání o bitcoinu lze tedy považovat za "další úroveň" komunity**. Na jedné straně umožňuje **jejím členům setkávat se s bitcoinery**, na straně druhé **vzdělává nové zájemce o tento ekosystém**. Akce typu "meet-up" vám tedy - podle vašich měřítek - umožní **vytvořit ve vašem městě nadšení kolem bitcoinu**; to se může časem rozšířit v závislosti na projektech, které vaše komunita realizuje.
+Po spuštění sociálních sítí a komunikačních kanálů vaší komunity je na čase, abyste se na těchto platformách zviditelnili. Vyzvěte nové členy, aby se představili a postupně se zapojili do konverzace.
 
-![immagine](assets/fr/28.webp)
 
-Samozřejmě čím významnější cíle pro rozvoj vaší komunity si stanovíte, tím více času jim budete muset vy i vaši členové věnovat.
+Uvolníte si tak čas, který můžete využít k tomu, abyste přemýšleli o vytvoření nějakého setkání. To bude ještě důležitější, jakmile začnete ve své komunitě pociťovat skutečné vzrušení.
 
-Proto je důležité **začít stanovením dosažitelných cílů pro organizaci tohoto setkání**.
+
+Jak již bylo zmíněno, **setkání Bitcoin lze považovat za další "úroveň" komunity**. Na jedné straně umožňuje **členům osobně se setkat** a na druhé straně pomáhá **vzdělávat nové zájemce o tento ekosystém**.
+
+
+Takováto akce vám umožní ve vašem městě **vytvořit kolem Bitcoin** rozruch, který se může časem rozrůst, jak se vaše komunita bude věnovat projektům.
+
+
+
+![image](assets/fr/028.webp)
+
+
+
+Čím větší jsou vaše cíle v oblasti rozvoje komunity, tím více času budete muset vy i vaši členové investovat.
+
+Proto je důležité **začít stanovením dosažitelných cílů setkání**.
+
+
 
 ## První setkání: kdy a proč?
 
+
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
-Je zcela možné, že jen několik týdnů po založení komunity zahájíte akci typu meet-up.
-
-V této situaci se však vaše komunita určitě příliš nerozvíjí. To znamená, že je možné, že se objeví jen málo lidí. Nebo vůbec žádní.
-
-Proto se zdá být vhodné **navrhnout uspořádání setkání od okamžiku, kdy je do komunikačních kanálů** vaší komunity zapojeno několik lidí; řekněme například **malá skupina asi deseti členů**. To pak může být poměrně rychlé.
-
-Jakmile ucítíte tuto malou jiskru, je možné navrhnout osobní setkání. Pokud tento nápad vzbudí zájem ostatních, jednoduše **určete datum prvního setkání**.
-
-Za tímto účelem je rozhodně vhodnější nestanovovat od začátku konkrétní datum, ale spíše **navrhnout - přibližně deset dní předem - průzkum obsahující různé dny a časové úseky**. Na základě hlasů všech účastníků vám to tak umožní **maximalizovat účast členů**, vyvolat větší nadšení; ale také lépe **"optimalizovat" svůj čas**.
-
-![immagine](assets/fr/29.webp)
-
-Je tedy důležité nemít předem pevnou představu o tom, jak bude setkání probíhat, kolik vás bude, o jakých tématech se bude diskutovat atd. Riskujete, že budete zklamáni; a účastníci, že se případně budou cítit "zatíženi"
-
-V tomto smyslu se zdá být lepší nechat věci přirozeně proběhnout, třeba u skleničky. Konverzace by proto měla být snadná; i kdyby to znamenalo mluvit o Bitcoinu, pokud se setkáte tváří v tvář se ztracenou ovcí.####
-
-Pokud chcete **počítat s určitými klidnými časy, můžete si naplánovat několik "aktivit" nebo záložních možností**. Mezi ně mohou patřit např:
 
 
-- počítače nebo chytrého telefonu pomocí **[mempool](https://mempool.space/)**;
-- přineste si knihu;
-- přinést **Nerdminer**, Bitaxe, FPGA nebo dokonce ASIC;
-- mají k dispozici **leták o Bitcoinu**;
-- brainstorming kolem propracovanějšího vizuálu/loga Bitcoinu pro vaši komunitu;
-- **[karetní hra o Bitcoinu](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- **[btcmap.org](https://btcmap.org/)** mapa obcí a podniků;
-- neformální: "Mimochodem, **posílal jsi někdy Bitcoin přes Lightning?**"
+Setkání můžete zahájit již několik týdnů po vytvoření komunity.
 
-Je však důležité si uvědomit, že pokud setkání teprve začíná, nemusí být formální prezentace relevantní. Když je vás jen několik, zdá se vhodnější zapojit se do diskuse otevřenějším a přátelštějším způsobem.
-
-![image](assets/fr/30.webp)
-
-####
-
-Jakmile se setkání uskuteční, pravděpodobně budete chtít uspořádat další. **Dokud je vaše komunita stále malá, zdá se, že je vhodnější nadále navrhovat termín prostřednictvím ankety; například jednou za měsíc (nebo každý druhý měsíc)**. Je na vás, abyste o tom s vaší komunitou diskutovali.
-
-Nicméně v případě, že se vytvoří **pravidelná skupina bitcoinářů a zájemců**, se zdá být vhodné **plánovat tuto akci pravidelněji**; a to z několika důvodů:
-
-1) umožňuje členům snadněji plánovat svou účast;
-
-2) Pomáhá také **vytvořit "zvyk "**. Tedy někdo, kdo již nesleduje komunikační kanály nebo sítě setkání na denní bázi (z důvodu nedostatku času) a zná obvyklý den vašeho setkání v měsíci, se pak může zastavit "jako obvykle"
-
-####
-
-Tento druhý bod je velmi důležitý. Je to jeden z důvodů, proč se **ve Francii většina setkání koná každou první středu v měsíci**; v návaznosti na iniciativu "ambasadorů", kterou zahájila společnost [DecouvreBitcoin](https://decouvrebitcoin.fr/).
-
-V Německu neexistuje žádný celostátně stanovený den; totéž platí pro Itálii.
-
-Je však důležité si uvědomit, že pokud se **všechna národní setkání konají ve stejný den, vzniká problém s centralizací**. Kromě obav o bezpečnost se bitcoináři, kteří se účastní setkání ve svých městech, nemohou účastnit bitcoinových akcí v sousedních obcích. Proto je na vás, abyste zaujali stanovisko. K tomu může vést **interakce s nejbližším meet-upem (nejbližšími meet-upy), která povede k relevantnímu rozhodnutí**.
-
-####
-
-Když se vaše komunita výrazně rozroste a setkání se začnou plnit, je možné ji navrhnout:
+V této fázi však bude vaše skupina pravděpodobně stále malá, což znamená, že je možné, že se nikdo nedostaví.
 
 
-- konkrétní cíl pro každou schůzku**;
-- nebo dokonce **druhou událost v měsíci**.
+Setkání je lepší uspořádat, až budete mít v komunikačních kanálech alespoň několik aktivních členů, například několik desítek. To se může stát rychle, ale záleží také na osobnostech lidí.
 
-V prvním případě je sice třeba brát v úvahu citlivost a přání každého z účastníků, ale to může umožnit všem účastníkům **odejít z akce s novými poznatky** a zároveň znovu zaměřit témata rozhovoru kolem Bitcoinu (pokud se rozcházela).
 
-V druhém případě vám druhá akce v měsíci umožní například **zaměřit se na konkrétní téma, jako je pořádání "začátečnických" sezení a/nebo workshopů** (těžba, blesk, instalace uzlů atd.).
+Jakmile ucítíte jiskru, navrhněte osobní setkání. Pokud ostatní projeví zájem, zbývá už jen **určit datum prvního setkání**.
 
-![image](assets/fr/31.webp)
 
-Mějte však na paměti, že **to vyžaduje více organizace, a proto zabere více času** (ačkoli mnoho zdrojů s otevřeným zdrojovým kódem bude k dispozici v části 6/8 nazvané "[Příklady projektů a iniciativ](LINK).
+Místo toho, abyste si datum vybírali sami, je obvykle nejlepší **vytvořit anketu přibližně deset dní předem s několika možnými dny a časy**. Tímto způsobem můžete využít hlasy k maximalizaci účasti, budování nadšení a co nejlepšímu využití času.
 
-V každém případě bude záležet na krátkodobém, střednědobém a dlouhodobém akčním plánu, který jste si vy (nebo vaše komunita) stanovili.
 
-## Vyhledání místa
+
+![image](assets/fr/029.webp)
+
+
+
+Nejlepší je nevstupovat do setkání s pevnými očekáváními, jak bude probíhat, kolik lidí přijde nebo o jakých tématech se bude diskutovat. Předejdete tak zklamání a účastníci se nebudou cítit pod tlakem.
+
+
+Nechte věci přirozeně plynout, třeba u skleničky. Konverzace by měla probíhat snadno, a pokud je třeba, můžete diskusi jemně nasměrovat zpět ke Bitcoin, pokud se začne odvíjet.
+
+
+Pokud se chcete připravit na klidnější chvíle, můžete si naplánovat několik aktivit nebo bodů k rozhovoru, např.:
+
+
+
+- zobrazení **[Mempool](https://Mempool.space/)** na počítači nebo chytrém telefonu;
+- přináší knihu;
+- přináší **Nerdminer**, Bitaxe, FPGA nebo dokonce ASIC;
+- má leták **Bitcoin**;
+- vymýšlení vizuálu nebo loga Bitcoin pro vaši komunitu;
+- hraní **[karetní hry Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- zobrazuje **[btcmap.org](https://btcmap.org/)** mapu komunit a obchodníků;
+- odesílání nebo přijímání Bitcoin pomocí **Lightning**.
+
+
+Když setkání teprve začíná, často není vhodná doba na formální prezentaci. Pokud je účast malá, obvykle nejlépe funguje otevřená a neformální diskuse.
+
+
+
+![image](assets/fr/030.webp)
+
+
+
+Po prvním setkání budete pravděpodobně chtít naplánovat další. Dokud je vaše komunita ještě malá, je nejlepší vybírat termíny pomocí anket, například jednou za měsíc nebo jednou za dva měsíce. Můžete o tom diskutovat ve svých komunikačních kanálech.
+
+
+Pokud se vytvoří pravidelná skupina bitcoinářů a zainteresovaných účastníků, má smysl stanovit opakující se harmonogram ze dvou důvodů:
+
+1) usnadňuje všem plánování dopředu;
+
+2) pomáhá **vytvořit "zvyk "**. I když někdo přestane pravidelně kontrolovat vaše kanály, bude stále vědět, kdy se setkání koná, a může se zastavit jako obvykle.
+
+
+Tento druhý bod je jedním z důvodů, proč se **ve Francii většina setkání koná každou první středu v měsíci** (viz iniciativa "ambasadorů", kterou v roce 2022 zahájila společnost [DecouvreBitcoin](https://decouvrebitcoin.fr/)).
+
+V Německu a Itálii není žádný pevně stanovený státní svátek.
+
+
+Konání všech celostátních setkání ve stejný den však vytváří problém s centralizací: brání bitcoinářům v účasti na akcích v okolních komunitách a může také vyvolat obavy o bezpečnost. Domluvit se s organizátory sousedních meet-upů vám může pomoci dohodnout se na vhodném uspořádání.
+
+
+Jakmile se vaše komunita rozroste a setkání přilákají více lidí, můžete:
+
+
+- stanovit si konkrétní cíl pro každé setkání;
+- nebo dokonce **přidat každý měsíc druhou akci**.
+
+
+V prvním případě je třeba mít na paměti preference všech účastníků, ale jasný cíl může zajistit, že účastníci odejdou s novým poznatkem a konverzace se zaměří na Bitcoin.
+
+V druhém případě by se druhá měsíční akce mohla věnovat určitému tématu, například začátečnickým sezením nebo workshopům (Mining, Lightning, instalace uzlů atd.).
+
+
+![image](assets/fr/031.webp)
+
+
+
+Mějte na paměti, že **to vyžaduje více organizace a času**. Naštěstí v [části 6/8 tohoto kurzu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) najdete řadu opakovaně použitelných zdrojů s otevřeným zdrojovým kódem, které vám pomohou.
+
+
+V každém případě záleží na krátkodobém, střednědobém a dlouhodobém akčním plánu, který si vy nebo vaše komunita stanovíte.
+
+
+
+## Hledání místa
+
 
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
-Hledání místa pro pořádání akcí nemusí být vždy jednoduché. Zdá se však, že je nezbytné, **aby se toto místo nacházelo ve městě vaší obce**.
-
-Současně je třeba zvážit mnoho kritérií. Mezi ně patří:
-
-1) Poloha místa: je snadno **dostupné veřejnou dopravou? Autem?** Je možné u něj bez potíží zaparkovat?
-
-2) **Je místo příjemné a není příliš hlučné?** Hledáte formální místo (coworkingový prostor, zasedací místnost) nebo neformální (bar nebo dokonce restauraci)? 3) **Má místo dostatečnou kapacitu, aby vás mohlo ubytovat**, a to i v noci, kdy se hraje rugby nebo Liga mistrů? 4) **Má místo konání videoprojektor a klidný prostor pro vaše prezentace?** 5) konečně, v případě baru (nebo dokonce restaurace), **umožňuje jídelní lístek všem jíst a pít?** K těmto bodům lze přidat tři důležité postřehy:
 
 
-- v případě, že si přejete **rozdělit večer na dvě části** (nejprve **prezentace ve formálním prostoru**, aby se všichni mohli více soustředit, a poté **změnit místo konání a pokračovat ve večeru uvolněnějším způsobem v baru** nebo restauraci), je důležité si uvědomit, že tato změna místa konání uprostřed večera způsobí, že **někteří účastníci využijí možnosti odejít. Proto se tento typ uspořádání nedoporučuje**;
-- během několika prvních schůzek se pravděpodobně dostaví jen málo lidí, takže se pravděpodobně nebudete představovat. V tomto smyslu se nezdá nutné se majiteli představovat a prezentovat své cíle apod. Jakmile se však **vaše schůzky stanou pravidelnými a hojně navštěvovanými, zdá se relevantní se představit, ukázat svou vážnost a touhu chodit pravidelně**. To může vést k mnoha diskusím (automatické měsíční rezervace, nápoje a/nebo pokrmy zdarma, slevy, diskuse o Bitcoinech, akceptace Bitcoinu jako platební metody atd. Samozřejmě v případě, že konkrétně hledáte místo s videoprojektorem pro prezentace, se zdá být podstatné požádat o schůzku (osobní, případně i telefonickou) s majitelem a/nebo manažerem předem a představit svůj projekt a cíle;
-
-![image](assets/fr/32.webp)
+Najít místo pro pořádání akcí často není snadné. Navíc je nezbytné, aby se toto místo **nacházelo ve městě vaší obce**.
 
 
-- konečně, některé komunity se mohou rozhodnout **pořádat své akce pouze na místech, která akceptují Bitcoin jako platební metodu**; a to je pochopitelné. S ohledem na to se zdá být vhodné **začít vyhledáváním podniků ve vašem městě, které přijímají Bitcoin (například na [btcmap.org](https://btcmap.org/map/))**, a kontaktovat je, abyste našli místo, které splňuje vaše kritéria. V případě, že bohužel nic vhodného nenajdete, máte pak možnost "onboardingu" nových obchodníků. Počítejte však s tím, že se setkáte s mnoha odmítnutími, což vás může odradit. Proto **možná má smysl nestanovovat si tento cíl hned od začátku, ale dostat se k němu, až bude vaše komunita dobře rozvinutá** a vy budete mít dostatečný "vliv"
+Je třeba zvážit několik kritérií, včetně:
 
-Neváhejte také **změnit místo konání na několik měsíců při zahájení setkání**. To vám umožní **navázat kontakty** s některými manažery, **poznat různé atmosféry**; ale také **získat informace** o různých místech, kde by se vaše akce mohly potenciálně konat.
+1) **Lokalita**: je snadno dostupná veřejnou dopravou? Autem? Je k dispozici parkoviště?
 
-Nic vám nebrání v tom, abyste později, až začnete mít hodně účastníků, věnovali víkendové odpoledne návštěvě různých podniků a barů a zeptali se, zda mají vhodné prostory pro pořádání vašich akcí a setkání jednou měsíčně!
+2) Je místo konání příjemné a není příliš **hlučné**? Hledáte formální prostředí (co-workingový prostor, zasedací místnost), nebo něco neformálnějšího (bar, restaurace)?
+
+3) Má dostatečnou kapacitu, aby vás mohl hostit i v noci, kdy se hraje rugby nebo Liga mistrů?
+
+4) Má videoprojektor a klidný prostor pro prezentace?
+
+5) A konečně, pokud se jedná o bar nebo restauraci, nabízí jídelní lístek pro každého něco k jídlu a pití?
+
+
+Dále uvádíme tři důležité body, které je třeba mít na paměti:
+
+
+- Pokud plánujete rozdělit večer na dvě části: nejprve prezentace ve formálním prostoru, aby se všichni mohli soustředit, a poté přesun do baru nebo restaurace, kde se bude pokračovat v uvolněnější atmosféře, zkušenosti ukazují, že změna místa uprostřed večera často vede k tomu, že někteří účastníci během přestávky odejdou. Tento přístup se proto nedoporučuje.
+- Na prvních setkáních bude pravděpodobně malá účast a pravděpodobně nebudete pořádat formální prezentace. V takovém případě není třeba se majiteli představovat ani vysvětlovat své cíle. Jakmile se však **setkání stanou pravidelnými a hojně navštěvovanými, stojí za to tak učinit, abyste prokázali profesionalitu a vyjádřili své přání vracet se na ně každý měsíc**. To může vést k mnoha diskusím (automatické měsíční rezervace, bezplatné nápoje a/nebo stravovací tabule, slevy, rozhovory o Bitcoin, přijímání plateb Bitcoin atd.) Je zřejmé, že pokud konkrétně hledáte místo s videoprojektorem pro prezentaci, jeví se jako nezbytné požádat o schůzku (osobní, případně i telefonickou) s majitelem a/nebo manažerem a představit mu svůj projekt a cíle.
+
+
+
+![image](assets/fr/032.webp)
+
+
+
+
+- a konečně, některé komunity **chtějí pořádat své akce pouze na místech, která přijímají platby Bitcoin**, což je pochopitelné. V takovém případě je dobré **začít vyhledáváním podniků akceptujících platby Bitcoin ve vašem městě** (na [btcmap.org](https://btcmap.org/map/)a kontaktovat je, zda splňují vaše kritéria. Pokud nic vhodného nenajdete, můžete zkusit onboarding nových obchodníků, ale počítejte s mnoha odmítnutími, což může být odrazující. Proto je často lepší nestanovovat si to jako cíl hned od začátku a raději o tom uvažovat, až bude vaše komunita dobře zavedená a budete mít dostatečnou "palebnou sílu"
+
+
+Při zahájení setkávání také neváhejte prvních několik měsíců **měnit místa konání**. To vám pomůže **vybudovat si vztahy s různými manažery**, prozkoumat různé atmosféry a získat informace o potenciálních budoucích hostitelích.
+
+
+Později, až se vaše skupina rozroste, si můžete udělat odpoledne a navštívit několik podniků a barů a zeptat se, zda mají prostory vhodné pro pořádání vašich měsíčních akcí a setkání.
+
+
 
 ## Před setkáním
 
+
 <chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
 
-Rozhodli jste se uspořádat setkání a informovali jste svou komunitu o datu konání? Nyní následuje několik důležitých kroků:
-
-1) **kontaktujte místo**, kde se bude vaše akce konat, a **potvrďte rezervaci** pro daný počet osob;
-
-2) **oznamte svou akci na sociálních sítích a komunikačních kanálech, jasně uveďte datum, čas, místo** a případně přidejte odkaz na registraci. Pro tuto komunikaci lze vytvořit specifický vizuál (např. plakát na Canva, viz část 2/8 "[Návrh jedinečné identity pro vaši bitcoinovou komunitu](ODKAZ)"). Kromě toho, aby byla zajištěna maximální viditelnost této reklamy, může být **fixována na Telegramu a Twitteru** a může také obsahovat **"@everyone" na Discordu**. Jako více než vhodné se také jeví **zveřejnit tato oznámení 1 týden až 10 dní před datem konání akce, aby si každý mohl naplánovat svou účast**;
-
-![immagine](assets/fr/33.webp)
-
-4) **dva až tři dny před událostí lze tyto reklamy znovu tweetovat a sdílet**, čímž se zvýší jejich viditelnost;
-
-5) nakonec, v závislosti na počtu reakcí a/nebo registrací obdržených den před konáním akce nebo den před jejím konáním, je zcela možné, abyste znovu kontaktovali majitele místa konání a potvrdili počet očekávaných účastníků.
-
-####
-
-K těmto čtyřem krokům je lze také přidat:
 
 
-- tisk letáků a/nebo plakátů**;
-- vytvořit prezentaci** na předem definované téma;
-- příprava aktivity nebo workshopu**;
-- atd.
+Plánujete v nadcházejících týdnech uspořádat setkání?
+
+Zde je kontrolní seznam, který vám pomůže s přípravou:
+
+1/ **Potvrzení místa konání**
+
+Kontaktujte místo, kde budete akci pořádat, a rezervujte si ho pro předpokládaný počet účastníků.
+
+2/ **Oznamte událost**:
+
+
+    - Sdílejte datum, čas a místo na sociálních sítích a dalších komunikačních kanálech. V případě potřeby uveďte odkaz na registraci.
+    - Vytvořte si speciální vizuál (například plakát v aplikaci Canva, viz část 2/8 "[Návrh identity pro vaši komunitu Bitcoin](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Maximalizujte viditelnost připnutím oznámení na Telegram a Twitter a použitím zmínky "@everyone" na Discordu.
+    - Zveřejněte oznámení 7 až 10 dní před akcí, aby si účastníci mohli akci naplánovat dopředu.
+
+
+
+![image](assets/fr/033.webp)
+
+
+
+3/ **Připomeňte si své publikum**
+
+Dva až tři dny před událostí znovu sdílejte a retweetujte svá oznámení, abyste je zviditelnili.
+
+4/ **Aktualizace místa konání**
+
+Den před konáním (nebo dva dny před konáním) zkontrolujte registrace a informujte místo konání o konečném předpokládaném počtu účastníků.
+
+
+Dodatečné kroky k tomu, aby vaše akce vynikla:
+
+
+- Tisk letáků a/nebo plakátů
+- Příprava prezentace na konkrétní téma
+- Uspořádat aktivitu nebo workshop
+
+
 
 ## Den setkání
 
+
 <chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
 
-Velký den je tady! Hodinu nebo dvě před začátkem akce můžete na komunikačních kanálech své komunity (není třeba zahlcovat sociální média) zveřejnit jednoduchou zprávu, ve které oznámíte čas, kdy tam budete, ale také informujete budoucí účastníky, že budete rozpoznatelní, protože budete mít na sobě (například) tričko a čepici s bitcoinem.
-
-####
-
-Jakmile se vaše setkání rozroste a přivítáte více než 20 lidí na akci, **příprava místnosti/prostoru se stane důležitým prvkem**.
-
-K tomu bude nutné:
-
-1) **přijďte o něco dříve** a připravte se;
-
-2) **uspořádejte místnost nebo prostor podle svých možností a potřeb**. V případě, že vás je asi půl tuctu, není opravdu co řešit. Jakmile však dosáhnete počtu 10 až 20 osob na akci, rychle zjistíte, že mít všechny vsedě není dobrý nápad, protože se tak vytváří méně vztahů a vy si během večera nebudete moci se všemi popovídat. V tomto smyslu se **preferování uspořádání ve stoje, například s dobře rozmístěnými vysokými stoly** (pokud je to možné), jeví jako relevantní, jakmile dosáhnete počtu přibližně 15 osob. Přesto však myslete na to, abyste **měli k dispozici židle** (například vysoké). V případě, že bude probíhat prezentace, je vhodnější zachovat konfiguraci ve stoje po celý večer, i kdyby to znamenalo přinést několik (vysokých) židlí několik minut před prezentací;
-
-3) Kromě rozvržení místnosti lze provést i další drobné "úpravy":
 
 
-    - vyvěste pomocí Patafixu **před místem konání setkání plakát, na kterém bude uvedeno, ve které místnosti se budete nacházet** (samozřejmě si předem vyžádejte povolení);
-    - vystavte pomocí Patafixu **specifické plakáty** v místnosti, kde se vaše akce koná (**Bitcoinové bílé knihy, stanovy vaší komunity, probíhající projekty** atd.).
-- na jednom nebo více stolech **poukázky, letáky nebo i materiály, které mohou vést k diskusi** (Nerdminer, hardwarová peněženka, počítač zapnutý s mempoolem, ASIC, kovová destička na ochranu soukromého klíče atd.)
+Velký den je tady! Jednu nebo dvě hodiny před začátkem akce pošlete připomínku prostřednictvím komunikačních kanálů vaší komunity. Znovu potvrďte čas začátku a informujte účastníky, jak vás mají poznat, například tím, že zmíníte, že budete mít na sobě tričko a čepici Bitcoin.
 
-![immagine](assets/fr/34.webp)
 
-####
+Jakmile se počet vašich setkání rozroste a začnete přijímat více než 20 lidí, bude příprava místa konání stále důležitější.
 
-Pokud očekáváte jen několik účastníků a neinformovali jste o schůzce manažery, protože ji teprve zahajujete, nezačínejte samozřejmě přinášet a ukazovat všechny materiály.
 
-Jakmile si však **s manažery vytvoříte důvěru, budete mít mnohem větší možnost uspořádat prostor podle svých představ**.
+Zde je návod, jak postupovat:
 
-Zbývá jen se napít a trpělivě čekat na potenciální účastníky. Jak však bylo uvedeno výše: **nebuďte zklamaní, pokud se napoprvé nikdo neobjeví**. Proto si pro jistotu naplánujte knihu nebo video ke zhlédnutí.
+1) **Přijďte včas**, abyste vše připravili.
 
-## Po schůzce
+2) **Uspořádejte prostor** podle svých potřeb a možností místa konání. Pokud je vás jen šest, je potřeba jen málo příprav. Jakmile však dosáhnete počtu 10-20 účastníků, může plně sedící uspořádání omezit interakci. V takovém případě zvolte uspořádání na stání s dobře rozmístěnými vysokými stoly, pokud jsou k dispozici, a zároveň zajistěte několik (nejlépe vysokých) židlí. Pokud je plánována prezentace, ponechte po většinu večera uspořádání na stání a židle přineste až těsně před přednáškou.
+
+3) Přidejte drobné vlastní úpravy:
+
+
+    - Vyvěste u vchodu plakát s informací o svém umístění (použijte Patafix a nejprve si vyžádejte povolení místa konání).
+    - Uvnitř vystavte plakáty s tématikou Bitcoin (bílá kniha Bitcoin, charta vaší komunity, aktuální projekty atd.).
+    - Umístěte na stoly samolepky, letáky nebo podněty ke konverzaci, například: Nerdminer, Hardware Wallet, notebook zobrazující Mempool, ASIC Miner nebo kovovou záložní desku pro soukromé klíče.
+
+
+
+![image](assets/fr/034.webp)
+
+
+
+Pokud očekáváte jen několik účastníků a ještě jste si nevybudovali vztah se správci místa konání, vyhněte se okamžitému přivezení a vystavení veškerého vybavení. Jakmile bude důvěra navázána, budete mít větší volnost při uspořádání prostoru podle svých představ.
+
+
+Nakonec si vezměte pití a počkejte na příchozí. A nezapomeňte: nenechte se odradit, když nikdo nepřijde napoprvé. Pro jistotu si s sebou vezměte knihu nebo video ke sledování.
+
+
+
+## Po setkání
+
 
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
-Po skončení schůzky je čas, aby správci místa konání **uklidili**. Než tedy odejdete (a zpravidla budete mezi posledními, alespoň zpočátku), zvažte, zda byste číšníkům a/nebo manažerům nepomohli. Může jít o tak jednoduchou věc, jako je **zvednutí sklenic na stole**, nebo pokud jste poblíž baru, **přinesení sklenic zpět před vaším odchodem**.
-
-Po návratu domů budete mít pravděpodobně několik dní **bitcoin v očích**. To bude vhodná doba například pro vyhodnocení zpětné vazby:
 
 
-- zaslání zprávy na vašich komunikačních kanálech **poděkování účastníkům** a/nebo sdílení odkazů či webových stránek, o kterých jste diskutovali;
-- navrhnout účastníkům schůzky, aby na příští schůzce **navrhli zlepšení**;
-- a také **připravit se na další událost!**
+Po skončení setkání je čas na úklid pro personál místa konání. Než odejdete, nabídněte pomocnou ruku číšníkům nebo manažerům. Může jít o tak jednoduchou věc, jako je shromáždění všech sklenic na jeden stůl nebo, pokud jste poblíž baru, jejich vrácení před vaším odchodem.
 
-Poté se vám naskytne dlouhé období několika týdnů, které je ideální pro přípravu dalších návrhů a/nebo plánů pro vaše setkání.
+
+Po návratu domů budete na Bitcoin pravděpodobně myslet ještě několik dní. To je ideální čas na to, abyste změřili puls své komunity a získali zpětnou vazbu od účastníků. Můžete:
+
+
+- Zveřejněte děkovnou zprávu na svých komunikačních kanálech a sdílejte odkazy nebo zdroje, které byly během akce zmíněny.
+- Vyzvěte účastníky, aby navrhli zlepšení pro příští setkání.
+- Začněte plánovat další akci.
+
+
+Pak budete mít několik týdnů na to, abyste připravili nové nápady, vizualizace nebo projekty, které by příští setkání ještě vylepšily.
+
+
 
 ## Význam zapojení a udržení účastníků
 
+
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
-Řím nebyl postaven za den a totéž platí i pro vaši komunitu. To znamená, že **pravidelným pořádáním setkání a akcí se vám podaří vytvořit dynamiku kolem Bitcoinu**.
-
-Za tímto účelem je zásadní jeden bod: **musíte si udržet účastníky svých akcí**.
-
-Může to začít malou skupinou nadšených bitcoinářů, jejichž cílem je pravidelně se scházet a mluvit o bitcoinech. V průběhu několika týdnů a v závislosti na časových možnostech a citlivosti každého z nich můžete **rozdělit některé organizační úkoly** vaší komunity; nebo dokonce **navrhnout těmto bitcoinářům, aby se ujali daného projektu**. Tento projekt by mohl být specifický pro vaši komunitu, vaše setkání nebo dokonce vaše město; mohl by totiž čerpat inspiraci z jedné z mnoha iniciativ navržených v [části 6/8 tohoto kurzu](ODKAZ). **To by pak zapojilo jádro vaší komunity, a pomohlo tak jejímu rozkvětu**.
-
-**V průběhu setkání se k vám přidají nové tváře**. Mohou to být lidé, kteří během předchozích kol nakoupili BTC a/nebo alt/shitcoin; no-coiners, kteří chtějí prohloubit své znalosti o Bitcoinu a jeho ekosystému; ale také nováčci, kteří sbírají první informace o tomto novém necenzurovatelném, decentralizovaném, transparentním, spravedlivém, bezpodmínečném a nedůvěryhodném elektronickém platebním systému. Abychom zajistili, že se **všichni budou cítit do dění zapojeni**, lze pracovat na dvou hlavních oblastech.
-
-Na jedné straně je ze sociálního hlediska pro rozvoj komunity zásadní, aby se každý, kdo se akce účastní, cítil zapojen. To znamená: **snažit se tyto nové účastníky oslovit, zajímat se o to, proč tam jsou, vřele je přivítat** atd. S pocitem začlenění a přijetí se tito lidé budou chtít vracet; a dokonce se v budoucnu, v závislosti na jejich profilu, zapojí do pořádání těchto akcí.
-
-To samozřejmě vyžaduje čas a motivaci**. V případě přivítání shitcoinera (nebo hůře: XRP-maximalisty) může být poměrně obtížné odložit své časové preference a souhlasit se "ztrátou času" v jednostranných diskusích. Nicméně právě tím, že si najdeme čas na rozhovor s těmito lidmi, jim můžeme pomoci pochopit jejich nepochopení a chyby v uvažování. Jakmile je přijmou, budou pak připraveni porozumět Bitcoinu.
-
-![immagine](assets/fr/35.webp)
-
-Na druhou stranu z technického hlediska může vyvstat několik otázek:
 
 
-- místo, kde se **schůzka konala, bylo příjemné?**
-- byl **snadno přístupný?**
-- proč někteří účastníci nakonec nepřišli?
-- jaké diskuse byly vyvolány? Byly **příliš odborné a neumožňovaly zapojení nováčků?
-- tekl alkohol příliš volně?
+Řím nebyl postaven za den a ani vaše komunita nebude. Momentum kolem Bitcoin vzniká díky pravidelným setkáním a událostem.
 
-Každý účastník má samozřejmě svou vlastní osobnost, citlivost, cíle a zájmy. Proto každý bude setkání prožívat jinak.
 
-Ale **pokud je místo konání dobře zvoleno, přítomní lidé (zejména organizátoři) jsou otevření a jejich cíl je ušlechtilý, není důvod, aby setkání nebylo úspěšné**.
+Aby se tak stalo, je nezbytná jedna věc: **zajistit účastníkům účast**.
 
-####
 
-**Vytvoření schůzky proto vyžaduje čas, ale především organizaci.
+Mohlo by to začít malou skupinou nadšených bitcoinářů, jejichž cílem by bylo pravidelně se scházet a mluvit o Bitcoin. Postupem času, v závislosti na dostupnosti a zájmech jednotlivých osob, můžete **sdílet určité organizační úkoly se skupinou** nebo přizvat základní **členy, aby se ujali konkrétních projektů**. Ty mohou být jedinečné pro vaši komunitu, vaše setkání nebo vaše město, nebo dokonce inspirované mnoha iniciativami navrženými v [části 6/8 tohoto kurzu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nejen podporuje Commitment vašich základních členů, ale také pomáhá vaší komunitě růst a vzkvétat**.
 
-Je to lidský projekt, a proto může dlouhodobě fungovat a rozvíjet se pouze tehdy, je-li promyšlený, otevřený a inkluzivní**.
 
-Samozřejmě **je na každém, aby si stanovil vlastní hranici** toho, co se rozumí pod pojmem "otevřený a inkluzivní" Ale nezapomínejme: shitcoiner je začínající bitcoiner (který ještě nebyl zkažený "rekt").
+Jak budou vaše setkání postupovat, budou se objevovat nové tváře: lidé, kteří si v předchozích cyklech koupili BTC a/nebo altcoiny, technologičtí nadšenci, kteří si chtějí prohloubit své znalosti, nebo úplní začátečníci, kteří se zajímají o tento necenzurovatelný, decentralizovaný, transparentní a spravedlivý platební systém, který funguje bez podmínek a bez důvěryhodných třetích stran.
+
+
+Abyste zajistili, že se na vašich akcích budou cítit všichni, zaměřte se na dva klíčové aspekty:
+
+
+- Sociální začlenění**: Všichni účastníci by se měli cítit vítáni. Snažte se přivítat nově příchozí, zeptejte se jich, proč přišli, a představte je ostatním. Když se lidé cítí začleněni, je pravděpodobnější, že se vrátí a možná dokonce pomohou s organizací budoucích akcí.
+- Trpělivost a otevřenost**: To vyžaduje čas a motivaci. Pokud mluvíte s odhodlaným sráčem (nebo ještě hůř, s XRP Maximalist), může být lákavé ho odmítnout. Zapojením se do rozhovoru však můžete objasnit nedorozumění nebo chybné uvažování. Pokud jsou ochotni naslouchat, mohou být připraveni Bitcoin skutečně pochopit.
+
+
+
+![image](assets/fr/035.webp)
+
+
+
+Z praktického hlediska se zamyslete nad celkovým zážitkem z akce:
+
+
+- Byla **alea příjemná**?
+- Byl **snadno přístupný?**
+- Proč se někteří lidé přihlásili, ale nedostavili se?
+- Jaké diskuse proběhly? Byly diskuse pro začátečníky příliš odborné?
+- Byly diskuse příliš alkoholické?
+
+
+Každý účastník má svou vlastní osobnost, cíle a zájmy, takže zkušenosti se budou lišit. Pokud je však místo konání vhodné, publikum otevřené a záměry upřímné, je každý důvod, aby setkání uspělo.
+
+
+Vytvoření meetupu vyžaduje čas, ale především organizaci. Je to lidský projekt, který bude dlouhodobě fungovat a růst pouze tehdy, pokud bude dobře naplánovaný, otevřený a inkluzivní.
+
+
+Nakonec je na vás, abyste rozhodli, jak daleko by "otevřenost a inkluzivita" měly zajít. Jen nezapomeňte, že shitcoiner je často jen vznikající bitcoiner.
+
 
 # Příklady projektů a iniciativ
 
+
 <partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
 
-## Proč jít dál než jen k pití piva?
+
+
+## Proč jít dál než k pití piva?
+
 
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
-Jak budou bloky postupovat, bude se vaše komunita rozrůstat. Přibudou nové tváře a jiné zmizí.
-
-Pro **rozvoj ekosystému bitcoinů a budování ještě silnějších vazeb v rámci vaší komunity** lze realizovat řadu projektů a iniciativ.
-
-Níže nabízíme **neúplný soubor nápadů, které lze realizovat v rámci komunity nebo během setkání**.
-
-Můžete si vybrat ty, které se vám líbí, ale také přidat další, a to prostřednictvím žádosti o stažení na GitHubu.
-
-####
-
-Než však začneme, zdá se zajímavé rozvést bod, který byl již uveden v předchozích částech tohoto kurzu.
-
-Když zahájíte schůzku na Bitcoinu, poznáte nové lidi. Sociální interakce jsou tedy důležité a pivo (alkohol obecně) dělá tyto typy akcí slavnostními. Ale POZOR:
 
 
-- na jedné straně **alkohol potlačuje některé kognitivní schopnosti** (myšlení, porozumění atd.). Pro účastníky je proto **obtížnější sledovat vážnou diskusi** - nebo prezentaci - po požití sladkého alkoholického nápoje;
-- na druhou stranu **alkohol může být útěchou**: každý měsíc máte svou "bitcoinovou chvilku" s novými přáteli. Sdílíte společnou vášeň, a to je velmi pozitivní! **Je ale pití piva opravdu hlavním cílem vašeho setkání**: Nechtěli byste si raději vyměňovat informace o svých nových objevech/výzkumu, učit se ze zkušeností ostatních; nebo dokonce demokratizovat Bitcoin pro nováčky, zasvětit je?
+S přibývajícími bloky se vaše komunita bude vyvíjet. Nové tváře se budou přidávat, jiné se budou vzdalovat, ale hlavní zásada by měla zůstat stejná: rozvíjet ekosystém Bitcoin a posilovat vazby mezi členy.
 
-Každý má své vlastní touhy, své vlastní přesvědčení, svou vlastní osobnost. Proto zde není vynášen žádný soud o tom, jak funguje jedno nebo druhé setkání. Koneckonců **při pivu se přetváří svět, ale ne tak, jak ho hluboce proměňujeme**.
 
-![immagine](assets/fr/36.webp)
+Existuje mnoho projektů a iniciativ, které lze realizovat. Tato kapitola nabízí neúplný seznam nápadů, které lze realizovat v rámci komunity nebo během setkání. Neváhejte si vybrat ty, které vás inspirují, a dokonce přispět vlastními nápady do tohoto kurzu [vytvořením "Pull Request" na GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
-## Organizuje tematická setkání podle stanoveného ročního harmonogramu
+
+Než se do toho ponoříme, zopakujme si již dříve zmíněný bod.
+
+
+Když pořádáte setkání Bitcoin, poznáváte nové lidi. Sociální interakce je nezbytná a pivo (nebo alkohol obecně) může pomoci vytvořit slavnostní atmosféru. Je však třeba mít na paměti:
+
+
+- Alkohol zhoršuje kognitivní schopnosti, jako je myšlení a porozumění, což může účastníkům ztížit sledování vážných diskusí nebo prezentací.
+- Alkohol se také může stát útěšným rituálem: každý měsíc se s přáteli podělíte o svůj "okamžik Bitcoin" u skleničky. To je sice skvělý způsob, jak se sblížit, ale je pití piva opravdu hlavním cílem vašeho setkání? Nebo byste raději Exchange zkoumali, učili se od ostatních a pomáhali nováčkům objevit Bitcoin?
+
+
+Každý má své vlastní preference, přesvědčení a osobnost. Nejde o to, abyste odsuzovali jedno setkání oproti druhému. Přesto, i když se často u piva mluví o změně světa, revoluce nezačínají ani nerostou tímto způsobem.
+
+
+Klíčové je jednoduše si to uvědomit.
+
+
+
+![image](assets/fr/036.webp)
+
+
+
+## Pořádání tematických setkání s ročním postupem
+
 
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
-Jakmile se vaše schůzky stanou pravidelnými a vytvoří se základní skupina přibližně deseti lidí, budete moci **provádět prezentaci na každé z vašich schůzek**. Ty pak mohou být **tematické**, s předem oznámeným tématem; nebo nesouvisející.
-
-V souvislosti s pořádáním prezentací a/nebo workshopů může být velmi důležité předem **vytvořit promyšlenou cestu**. Cílem této cesty by pak bylo **pokrýt všechny důležité koncepty související s bitcoinem**; umožnit všem účastníkům setkání pochopit bitcoin v celé jeho šíři.
-
-Ve Francii v létě 2023 organizátoři setkání pracovali na **roční trati**, kterou mnozí z nich sledují. Kromě toho, že má **silný vzdělávací rozměr, umožňuje během setkání** výměnu dokumentů s otevřenými zdroji a PowerPointem s cílem vytvořit databázi zdrojů na stejné téma.
-
-Tato iniciativa je na setkáních obzvláště oblíbená a v příštích letech se bude rozvíjet.
-
-Níže je pak k dispozici cesta, kterou se ubíraly francouzské schůzky v letech 2023/2024. Obsahuje **témata jednotlivých setkání, jakož i video a prezentaci s otevřeným zdrojovým kódem, které vám mohou poskytnout představu o koncepcích, jimiž se lze zabývat**.
-
-Pokud chcete získat přístup k dalším upravitelným zdrojům, zvažte možnost podívat se na [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)!
-
-Je třeba také poznamenat, že kapitoly 2 a 7 lze rozdělit do dvou prezentací s cílem nezahlcovat účastníky informacemi; ,ale lze je také provést najednou. Tato druhá možnost, umožňuje větší volnost a umožňuje v rámci dvou setkání provádět workshopy nebo specifické akce (například společné setkání setkání nebo kvízy).
-
-| Měsíc | Téma | Video | Editovatelný zdroj |
-
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------- |
-
-| Září | Kapitola 1: Co je Bitcoin? | [YT](https://www.youtube.com/watch?v=CSjuBqrl4t8) | [canva](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-
-| Říjen a listopad | Kapitola 2: Porozumění transakcím s bitcoiny | [YT](https://www.youtube.com/watch?v=inFnR-3NsdM) | [canva](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-
-| Prosinec | Kapitola 3: Porozumění síti Lightning | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-
-| Leden | Kapitola 4: Co je těžba? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-
-| Únor | Kapitola 5: Konfigurace bitcoinového uzlu a Lightning | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-
-| Březen | Kapitola 6: Využití sítě Lightning v každodenním životě | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M) | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-
-| Duben a květen | Kapitola 7: Ochrana vašich bitcoinů | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-
-| Červen | Již brzy | Již brzy | Již brzy |
-
-| Červenec | Již brzy | Již brzy | Již brzy |
-
-| Srpen | Již brzy | Již brzy | Již brzy |
-
-####
-
-Samozřejmě se stane, že se někteří lidé nemohou schůzky zúčastnit. Pokud je to možné, může mít význam **nahrávání prezentace za účelem jejího zveřejnění na streamovací platformě a/nebo na vašich webových stránkách**. To může ve skutečnosti umožnit nepřítomným dohnat předchozí prezentace; nebo je dokonce znovu shlédnout v opakovaném záznamu, aby se lépe vzdělali.
-
-**Neváhejte tyto zdroje převzít, upravit a sdílet podle vlastního uvážení**. Jen nezapomeňte **uvést své zdroje**, pokud znovu použijete upravitelnou prezentaci.
-
-####
-
-Souběžně mohou být organizována další tematická setkání. Mezi ně patří:
 
 
-- **vědomostní kvíz** (například s fyzickým portfoliem jako cenou);
-- výzvu **"onboarding "** zasláním bezplatných satoshi no-coiners;
-- zorganizování příjezdu odborníka v určité oblasti nebo společnosti** nabízející relevantní produkt související s bitcoiny;
-- večer **"prohlídky barů a podniků "**, které přijímají Bitcoin jako platební metodu;
-- atd.
+Jakmile vytvoříte základní skupinu přibližně deseti lidí, můžete začít přidávat prezentace na jednotlivé akce. Ty mohou navazovat na předem oznámené téma nebo být na sobě zcela nezávislé.
 
-Jediné hranice, které si můžete stanovit, jsou hranice vaší představivosti!
 
-## Tvorba doprovodných akcí a workshopů
+Při plánování prezentací nebo seminářů pomáhá vytvořit jasný, dobře strukturovaný postup. Cílem je **pokrýt základní koncepty Bitcoin krok za krokem** a poskytnout účastníkům ucelený pohled na téma z více úhlů pohledu.
+
+
+Ve Francii v létě 2023 organizátoři setkání pracovali na **ročním postupu**.
+
+Kromě velké vzdělávací hodnoty umožňuje tento přístup sdílet mezi skupinami dokumenty a prezentace s otevřeným zdrojovým kódem a postupně tak vytvářet sdílenou knihovnu zdrojů. Tato iniciativa se setkala s příznivým ohlasem a v příštích letech se bude dále rozvíjet.
+
+
+Níže je uveden postup setkání ve Francii v letech 2023-2024. Ke každému tématu je k dispozici prezentace s otevřeným zdrojovým kódem a video, které vám mohou poskytnout nápady na témata, jimiž byste se mohli zabývat na svých vlastních akcích.
+
+
+Další upravitelné materiály naleznete také v [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+
+
+
+| Month | Theme | Video | Editable Resource |
+| -------- | -------- | -------- | --- |
+| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
+
+Kapitoly 2 a 7 lze rozdělit do dvou kratších prezentací, aby účastníci nebyli zahlceni. Jejich uspořádání v rámci jednoho sezení však uvolní místo v kalendáři pro speciální aktivity, jako jsou společná setkání se sousedními skupinami, kvízy nebo workshopy.
+
+
+**Tyto zdroje můžete volně používat, upravovat a sdílet, jen nezapomeňte uvést původní autory, pokud jejich práci znovu použijete.**
+
+
+Vzhledem k tomu, že ne každý se zúčastní každého setkání, je dobré prezentace nahrávat a nahrávat je na streamovací platformu nebo na své webové stránky. To umožní nepřítomným dohnat zameškané a účastníkům se k materiálu vrátit později.
+
+
+Souběžně můžete pořádat další tematická setkání, jako např.:
+
+
+- Vědomostní kvíz o Bitcoin (s odměnou v podobě Hardware Wallet)
+- Výzva k nalodění, při které posíláte zdarma satoši lidem bez mincí na ulici
+- Pozvání odborného řečníka nebo společnosti, která představí produkt související s Bitcoin
+- Noční prohlídka barů a obchodů, které přijímají Bitcoin
+
+
+A mnoho dalšího, vaše fantazie je jediným limitem!
+
+
+
+## Vytváření doprovodných akcí a workshopů
+
 
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
-V průběhu roku mohou být pořádány další akce. Mezi ně mohou patřit:
 
 
-- večer v pizzerii na Den pizzy** 22. května;
-- večer nebo víkend na "oslavu" nadcházejícího půlení**;
-- "rodinnou hru" na téma Bitcoin** a jeho fungování. Můžete si přinést hry jako ["Le Coin de Table"](https://www.maximalist.ovh/) nebo ["SHAmory"](https://shamory.com/);
-
-![image](assets/fr/37.webp)
+V závislosti na vašich možnostech a míře zapojení ve vaší komunitě můžete v průběhu roku naplánovat další akce, jako např.:
 
 
-- workshop o těžbě** s objevováním různých zařízení (procesor, grafická karta, FPGA, ASIC, nerdminer, bitaxe);
-- odpoledne nebo večer speciálně pro začátečníky s tematickými workshopy**;
-- nebo dokonce **společné setkání s jedním (nebo více) sousedními setkáními**.
+- Večer v restauraci na **Den pizzy** 22. května
+- Večer nebo víkend na oslavu dalšího **Halving**
+- Rodinný **herní večer** o Bitcoin a jeho fungování s využitím her jako [Le Coin de Table](https://www.Maximalist.ovh/) nebo [SHAmory](https://shamory.com/)
+- Workshop **Mining** představující různé typy hardwaru (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
+- **odpoledne nebo večer pro začátečníky** s tematickými workshopy
+- **společné setkání se sousedními komunitami**
 
-####
 
-Je však důležité **neorganizovat příliš mnoho akcí v jednom měsíci, protože čím více jich je, tím více času zaberou** jak organizátorům, tak účastníkům, což může vést k tomu, že si někteří svou účast rozmyslí.
+
+![image](assets/fr/037.webp)
+
+
+
+Jen si dejte pozor, abyste kalendář nepřetížili. Příliš mnoho akcí v jednom měsíci může vést k vyhoření organizátorů a časem ke snížení návštěvnosti.
+
+
 
 ## Vytváření samolepek
 
+
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
-Jako symboly identity vaší komunity by mohlo být zajímavé navrhnout a následně objednat samolepky.
-
-Před zadáním objednávky je vhodné zvážit následující body:
 
 
-- pokud chcete, aby tyto samolepky mohly být nalepeny venku, potřebujete **voděodolné samolepky** ("vodotěsné" nebo voděodolné);
-- ujistěte se, že je vaše logo menší než plocha uvedená při objednávce**. Tím se totiž vyhnete chybám v přesnosti laserových řezů, které mohou část vašeho loga odříznout. To je obvykle vysvětleno při objednávce;
-- zvažte **použití vektorového souboru** namísto souboru s obrázkem. Tím se zlepší kvalita tisku;
-- pečlivě si rozmyslete požadovanou velikost**. Například kruhová samolepka o průměru 8 cm je přibližně stejně velká jako dlaň dospělého člověka. Hledáte tuto velikost, která je pro viditelnost poměrně významná, nebo hledáte něco nenápadnějšího (například o průměru 4 cm)?
-- konečně - a to je trochu technická záležitost - pokud chcete mít sytě černý tisk ("čtyřbarevnou černou"), vlastnosti tohoto tisku by měly být: 30 % azurové, 30 % purpurové, 30 % žluté a 100 % černé. V případech, kdy se použije pouze 100% černá, bude výsledkem poněkud šedavá černá. Tiskárny naštěstí na tento detail většinou dbají. Neměli byste si s ním tedy dělat příliš velké starosti.
+Samolepky představují zábavný způsob, jak propagovat společnost Bitcoin i vaši komunitu a zároveň posílit vaši identitu.
 
-![image](assets/fr/38.webp)
 
-####
+Před objednáním mějte na paměti tyto tipy:
 
-V závislosti na vašem požadavku a zvoleném prodejci počítejte s tím, že za 1000 samolepek zaplatíte **100 až 250 eur**. Můžete se také obrátit na [@Mill3sim3 na Twitteru](https://x.com/Mill3sim3), francouzského bitcoinera specializujícího se na marketing, který vám pomůže získat ceny téměř o 30 % nižší než obvyklé internetové stránky. Neváhejte ho v této věci kontaktovat.
 
-Je však třeba poznamenat, že 1 000 nálepek je značné množství. Proto je pro začátek jednoznačně **vhodnější zvolit nákup stovky samolepek**; abyste měli jistotu, že tuto zásobu prodáte.
+- Při venkovním použití se ujistěte, že jsou samolepky vodotěsné.
+- Logo nechte o něco menší než řeznou plochu, abyste se vyhnuli problémům s ořezem při laserovém řezání.
+- Pro vyšší kvalitu tisku použijte místo rastrového obrázku vektorový soubor.
+- Zvolte správnou velikost: průměr 8 cm (přibližně velikost dlaně dospělého člověka) je dobře viditelný, zatímco průměr 4 cm je nenápadnější. Hledáte viditelnost nebo diskrétnost ?
+- Pro sytě černý tisk ("quad black") použijte 30 % azurové, 30 % purpurové, 30 % žluté a 100 % černé. Použití pouze 100% černé může mít za následek šedivý tón. Tiskárny to často kontrolují, ale vyplatí se to vědět.
 
-A ještě malá poznámka: **pokud se rozhodnete nalepit jednu z těchto samolepek na ulici, může to být v závislosti na zemi, ve které se nacházíte, zákonem zakázáno**. Například ve Francii je zakázáno lepit samolepky na ulici, s výjimkou billboardů v každém městě. To znamená, že pokud bude některá z vašich samolepek nalepena neopatrně (nebo spíše: kdekoli, například uprostřed značky "Stop"), bude rychle odstraněna; a pokud bude obsahovat informace, podle kterých lze zjistit vaši totožnost nebo totožnost vaší schůzky, není vyloučeno, že dostanete pokutu. Buďte tedy opatrní a informujte své členy.
 
-####
 
-Současně, pokud máte rádi koncerty, bary nebo stadiony, **před umístěním své nálepky zkontrolujte, zda již nejsou nalepeny. Pokud ne, zvažte možnost zeptat se zaměstnance, zda je to akceptováno**.
+![image](assets/fr/038.webp)
 
-Ve skutečnosti by byla škoda, kdyby se o vaší komunitě/setkání/asociaci/Bitcoinu poprvé dozvěděl obchodník, protože jste mu sabotovali výzdobu koupelny!
+
+
+V závislosti na vašich potřebách a dodavateli může 1 000 samolepek stát od 100 do 250 EUR. Můžete se obrátit na [@Mill3sim3 na Twitteru](https://x.com/Mill3sim3), francouzského Bitcoinaře specializujícího se na marketing, který někdy dokáže zajistit ceny až o 30 % nižší než standardní online prodejci.
+
+
+Přesto je 1 000 samolepek hodně. Obvykle je lepší začít s přibližně 100 kusy, abyste měli jistotu, že je dokážete všechny distribuovat.
+
+
+Důležité: **Před umístěním samolepek na veřejná prostranství** si ověřte místní předpisy.
+
+
+Ve Francii lze samolepky umisťovat pouze na úřední veřejné tabule. Pokud je umístíte jinam (např. na značku zastávky), pravděpodobně budou odstraněny a případně pokutovány, pokud je lze spojit s vámi nebo s vaší schůzkou. Informujte o tom své členy.
+
+Na soukromých místech, jako jsou koncerty, bary nebo stadiony, si před přidáním nálepek ověřte, zda již nejsou přítomny. Pokud ne, požádejte personál o povolení. Nechcete, aby první dojem majitele podniku z vaší komunity byl, že jste mu poničili prostor.
+
+
 
 ## Vytvoření knihovny
 
+
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
-Dalším projektem, který lze snadno realizovat, je **zřízení knihovny v rámci schůzek**.
 
-Za tímto účelem můžete požádat všechny zájemce, aby se podělili o své čtení tím, že přinesou knihu týkající se Bitcoinu, a pokud bude mít někdo další zájem o její zapůjčení, **může být například poskytnuta jejímu majiteli výměnou za vklad 21 000 satoshi v Lightningu**.
 
-To umožňuje majiteli pokrýt náklady v případě zapomenutí nebo krádeže a dlužníkovi vrátit se na budoucí schůzku, aby si vyzvedl svých 21 000 satoshi!
+Dalším projektem, který můžete snadno vytvořit, je **vytvoření knihovny na setkáních**.
 
-####
 
-Pokud vedete **asociaci a chcete investovat část svého pokladu do vzdělávacích a pedagogických zdrojů**, můžete si objednat několik knih a nabídnout je ve své **Bitcoin knihovně** na každém setkání.
+Můžete vyzvat účastníky, kteří se chtějí podělit o svou četbu, aby přinesli knihu související s Bitcoin. Pokud by si ji chtěl půjčit někdo jiný z účastníků setkání, bylo by možné s majitelem v Exchange domluvit výpůjčku za zálohu, například 21 000 satošů prostřednictvím Blesku.
 
-![image](assets/fr/39.webp)
 
-####
+Pro majitele je tato záloha pomocníkem při krytí případné ztráty nebo krádeže. Pro vypůjčitele je to pobídka, aby se vrátil na budoucí setkání a vyzvedl si zálohu.
 
-V této souvislosti a s cílem rozvíjet ekosystém nabízí **[nakladatelství Konsensus.Network](https://konsensus.network/) mezinárodním setkáním a komunitám bitcoinů slevu od 15 do 35 procent na všechny své knihy; počínaje třemi zakoupenými**.
 
-Pokud tyto prostředky nemáte, je možné tuto slevu získat.
+Pokud vedete sdružení a chcete investovat část svých prostředků do vzdělávacích zdrojů, můžete si také zakoupit několik knih, které nabídnete ve své **Bitcoin knihovně**, která je k dispozici na každém setkání.
 
-Jeden z organizátorů vaší komunity může například centralizovat objednávku od několika členů a zadat ji společnosti Konsensus za nižší cenu s cílem distribuovat obdržené kopie na příštím setkání. Tato redistribuce by pak mohla být provedena například v aplikaci Lightning.
+
+
+![image](assets/fr/039.webp)
+
+
+Na podporu ekosystému nabízí **[nakladatelství Konsensus Network](https://konsensus.network/) od konce roku 2023 mezinárodním setkáním a komunitám Bitcoin slevu 15 až 35 % na všechny své knihy při objednávce tří a více knih**.
+
 
 Chcete-li tuto slevu využít, stačí **kontaktovat [nakladatelství Konsensus](https://twitter.com/KonsensusFR) na Twitteru**.
 
-####
 
-Kromě toho lze vypracovat statut, který stručně vysvětluje pravidla půjčování knih, a vystavit jej na schůzích.
+Pokud nemáte hotovost, můžete slevu předat členům své komunity.
 
-Zde je příklad s otevřeným zdrojovým kódem, který můžete převzít a upravit podle svých představ:
 
-[Book Loan Card](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+Pokud sami nemáte finanční prostředky, můžete slevu předat svým členům. Jeden z organizátorů by například mohl shromáždit objednávky od členů, udělat hromadnou objednávku za sníženou cenu a knihy rozdat na příštím setkání, přičemž platbu by tehdy vybral v Blesku.
 
-![image](assets/fr/40.webp)
 
-####
+Na schůzkách můžete také vystavit listinu o půjčování knih, abyste nováčkům jasně vysvětlili pravidla půjčování.
 
-Souběžně s myšlenkou propagace čtení o Bitcoinu může být další významnou akcí **návštěva městských knihoven a zjištění, zda mají různé knihy o Bitcoinu**.
 
-Pokud ano, mohlo by být zajímavé zeptat se, zda se v nadcházejících měsících budou na toto téma pořádat **kulaté stoly**, včetně poskytnutí kontaktu na setkání ve městě. Pokud ne, může být možností **navrhnout nákup několika předem vybraných knih**. Zdrojem inspirace mohou být webové stránky [nakladatelství Konsensus](https://konsensus.network/).
+Zde je příklad s otevřeným zdrojovým kódem, který můžete použít a upravit:
 
-## Vytváření vlastních letáků a jejich distribuce
+[Listina o půjčování knih](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+
+
+
+![image](assets/fr/040.webp)
+
+
+
+A konečně, abyste podpořili četbu týkající se Bitcoin, můžete navštívit **místní obecní knihovny** a zjistit, zda mají knihy o Bitcoin.
+
+Pokud ano, zeptejte se knihovníků, zda se na dané téma plánují nějaké **kulaté stoly**, a nabídněte jim kontaktní údaje na vaše setkání.
+
+Pokud ne, navrhněte jim, aby si pořídili několik knih z předem vybraného seznamu. Zdrojem inspirace může být [nakladatelství Konsensus Network](https://konsensus.network/).
+
+
+
+## Vytváření a distribuce personalizovaných letáků
+
 
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
-Vytváření letáků je časově náročný krok. Umožňuje však **mít papírový nosič během diskusí o bitcoinech**, což je docela chvályhodné.
-
-Tyto letáky pak mohou být určeny pro:
 
 
-- obchodníky**, pokud jim chcete navrhnout, aby přijímali Bitcoin jako platební metodu;
-- lidé, kteří se účastní vašich akcí**, s letákem, který konkrétně vysvětluje, jak používat a platit Bitcoinem / Lightningem; - a **nováčci**, které potkáte na ulici, v práci nebo při rodinném jídle, s letákem, který shrnuje hlavní výhody Bitcoinu.
+Navrhování a psaní letáků zabere čas, ale stojí to za to, protože vám poskytnou hmatatelný zdroj informací, který můžete rozdávat, když mluvíte o Bitcoin, což se vždy cení.
 
-Je také zcela možné připravit **leták speciálně pro vaši komunitu nebo setkání, který představí vaše akce, cíle, sítě a komunikační kanály, ale také termíny a místa vašich již plánovaných akcí**.
 
-####
+Tyto letáky mohou být určeny pro:
 
-Několik příruček je již **k dispozici v otevřeném zdrojovém kódu** a další budou vytvořeny v nadcházejících měsících. Najdete je zejména **v [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)** sítě planB.network.
 
-Najdete mezi nimi [obsáhlý a zdokumentovaný materiál](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), který uvádí 21 důvodů, proč používat Bitcoin. Jeho návrh je také [k dispozici v podobě otevřeného zdrojového kódu](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+- Obchodníci, pokud chcete zavést Bitcoin jako platební metodu;
+- Účastníci akce s letákem vysvětlujícím, jak používat a platit pomocí Bitcoin/Lightning;
+- Začátečníci, ať už je potkáte na ulici, v práci nebo při rodinné oslavě, s letákem, který zdůrazňuje hlavní výhody Bitcoin.
 
-![image](assets/fr/41.webp)
 
-![image](assets/fr/42.webp)
+Můžete také navrhnout leták specifický pro vaši komunitu nebo setkání, který bude prezentovat vaše aktivity, cíle, odkazy na sociální média, komunikační kanály a nadcházející akce.
 
-Upravte ji, přizpůsobte a sdílejte podle svých představ. Nezapomeňte však uvést své zdroje.
 
-####
+Několik letáků je již **k dispozici jako otevřený zdrojový kód v [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** na webu planB.network a časem budou přidány další.
 
-Jak již bylo zmíněno, **tyto letáky lze umístit téměř kamkoli**: na společný stůl na pracovišti, na stůl během rodinného oběda, do komunitní knihovny atd.
 
-Ve Francii a některých dalších zemích existují také **"knihobudky "**.
+Jedním z příkladů je [kompletní leták](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) s 21 důvody, proč používat Bitcoin. Jeho návrh je také [k dispozici v otevřeném zdrojovém kódu](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), který můžete upravit, přizpůsobit a sdílet. Jen nezapomeňte uvést své zdroje.
 
-Do těchto krabic, obvykle dřevěných, se volně vejdou knihy určené k darování. Jednou z možností by proto mohlo být **zanechat tam leták nebo ještě lépe: knihu!**
 
-![image](assets/fr/chapter27/43.webp)
 
-![image](assets/fr/43.webp)
+![image](assets/fr/041.webp)
 
-S ohledem na to byla v roce 2023 zahájena **iniciativa "Bílá kniha o bitcoinech ve francouzských knihkupectvích "**.
 
-Aby bylo možné tento projekt úspěšně realizovat se všemi zúčastněnými stranami, bylo nejprve nutné **zjistit zeměpisnou polohu všech stávajících knihobudek v zemi**. K tomu slouží několik databází:
+![image](assets/fr/042.webp)
+
+
+
+Jak již bylo zmíněno, tyto letáky můžete nechat téměř kdekoli: na společném stole v práci, u rodinného stolu, ve veřejné knihovně atd.
+
+
+Ve Francii a několika dalších zemích existují také "knihobudky", malé dřevěné krabice, kam mohou lidé volně darovat nebo si vypůjčit knihy. Můžete tam nechat leták nebo ještě lépe knihu.
+
+
+
+![image](assets/fr/043.webp)
+
+
+![image](assets/fr/044.webp)
+
+
+
+V roce 2023 byla zahájena iniciativa **"Bitcoin White Paper in France's Book Boxes**".
+
+
+Pro realizaci tohoto projektu museli účastníci nejprve shromáždit zeměpisnou polohu všech knihobudek v zemi. K tomuto účelu existuje několik databází:
 
 
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
-- [delivrez.fr](https://delivrez.fr/maps/fr_FR/); - a také některé články v místním tisku.
+- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
+- plus články v místním tisku
 
-Umístění bílé knihy Bitcoinu na těchto knižních burzách má samozřejmě symbolický význam. Pro začátečníka je však příliš složitý na pochopení. Proto vznikl nápad **napsat malou brožurku, která by obsahovala**:
+
+Opuštění bílé knihy Bitcoin je sice symbolické, ale pro nováčky je často příliš složité na pochopení. Místo toho vznikla myšlenka vytvořit malou brožurku obsahující:
 
 
-- zjednodušený a zdokumentovaný úvod do Bitcoinu, jeho použití a problémů, které řeší**;
-- a **bílou knihu o Bitcoinu** přeloženou do francouzštiny.
+- přístupný a dobře podložený úvod do Bitcoin, jeho použití a problémů, které řeší;
+- bílá kniha Bitcoin přeložená do francouzštiny.
 
-Zde je brožura, která byla sdílena mezi francouzskými bitcoinery [brožura, která byla sdílena mezi francouzskými bitcoinery](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) a dokončila svou pouť v několika desítkách knižních burz po celé zemi. Její design je také [k dispozici v otevřeném zdrojovém kódu](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![immagine](assets/fr/44.webp)
+Zde je [brožura, kterou sdílejí francouzští bitcoináři](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), která byla umístěna v desítkách knihobudek po celé zemi. Její design je také [k dispozici jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![immagine](assets/fr/45.webp)
 
-## Organizace videoprojekce
+
+![image](assets/fr/045.webp)
+
+
+![image](assets/fr/046.webp)
+
+
+
+## Výroba videoprojekce
+
 
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
-Každý bitcoiner již jistě viděl velmi zajímavou minisérii "The Mystery of Satoshi, at the Origins of Bitcoin" od [Rémi Forte](https:/https://twitter.com/forteremi).
 
-Byl vydán v roce 2021, na YouTube byl zhlédnut [několik milionkrát](https://www.youtube.com/watch?v=0ETcLj5jBy4) a představuje inspirativní první krok k pochopení toho, odkud se vzal Bitcoin.
 
-Proto je zcela možné **navrhnout vaší komunitě** promítání této minisérie, a to i například formou speciální akce.
+Téměř každý bitcoiner pravděpodobně viděl fascinující středometrážní seriál [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Záhada Satoshi: původ Bitcoin).
 
-Je tu však jedna malá nevýhoda: ve Francii jsme kontaktovali ARTE, abychom zjistili, zda je to právně možné. Bohužel kvůli **poplatkům za projekci** činily náklady na jednu projekci téměř 250 €; s možnou slevou 120 € na projekci v případě 5 po sobě jdoucích setkání v roce.
 
-Pro naprostou většinu obcí je proto tento poplatek neúnosný. Dokument je však k dispozici zdarma na webu ART...
+Byl vydán v roce 2021 a na YouTube byl zhlédnut [několik milionkrát](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
-####
 
-Souběžně lze uspořádat další projekce.
+Jedním z nápadů by mohlo být uspořádání promítání filmu Záhada Satoshi pro vaši komunitu, třeba jako další měsíční akce.
 
-Ve Francii například **režisérka dokumentu "Stranded" [Alana Mediavilla](https://twitter.com/AlanaMediavilla) umožnila předpremiérové promítání svého dokumentu na setkáních**; některé záběry pocházejí ze sekvencí [filmu "Dirty Coin"](https://www.dirtycointhemovie.com/), který má být uveden do kin v roce 2024.
 
-Francouzská komunita Bitcoinerů se poté ujala iniciativy **kompletně přeložit dokumentární film "Stranded "**, začlenit do něj francouzské titulky a sdílet jej na všech setkáních v zemi. V týdnu od 4. března 2024 bylo uspořádáno **společné promítání na přibližně deseti setkáních po celé zemi**.
+Upozornění: Ačkoli ARTE France potvrdila, že veřejné promítání je povoleno, musíte si zaplatit promítací práva, abyste tak mohli učinit legálně. V roce 2023 činily tyto náklady přibližně 250 eur za projekci, resp. 120 eur za projekci, pokud se během roku promítalo alespoň na pěti setkáních.
 
-![immagine](assets/fr/46.webp)
 
-Toto vysílání vedlo k četným diskusím o těžbě bitcoinů, její spotřebě elektřiny a obecněji o jejím dopadu na ekologii.
+Pro většinu komunit je tato cena neúnosná, zejména proto, že dokument je již k dispozici zdarma na kanálu ARTE na YouTube.
 
-## Vylepte plakáty ve svém městě
+
+Samozřejmě jsou možné i jiné projekce.
+
+
+Například ve Francii **režisérka [Alana Mediavilla](https://twitter.com/AlanaMediavilla) poskytla místním setkáním právo na předpremiéru svého dokumentu "Stranded "**, který obsahuje záběry z připravovaného filmu 2024 [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
+
+
+Někteří bitcoinisté se dokonce chopili iniciativy a film "Stranded" kompletně přeložili do francouzštiny, přidali titulky a sdíleli ho na setkáních po celé zemi. V týdnu od 4. března 2024 byl film promítán současně na zhruba tuctu meetupů po celé zemi.
+
+
+
+![image](assets/fr/047.webp)
+
+
+
+Akce vyvolala živou diskusi o Bitcoin Mining, její spotřebě energie a širším dopadu na životní prostředí.
+
+
+
+## Vylepování plakátů ve vašem městě
+
 
 <chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
 
-V několika evropských zemích (Německo, Španělsko, Francie atd.) se **někteří příznivci bitcoinu chopili iniciativy a vyvěsili plakáty týkající se bitcoinu**. Na některých z těchto plakátů jsou vyobrazena díla Banksyho, na jiných je různými způsoby použito logo Bitcoinu.
 
-To je například případ [StreetCyberArt](https://twitter.com/streetcyber_art), německého Bitcoineru, který už několik let vytváří koláže a street art.
 
-![immagine](assets/fr/47.webp)
+Vněkolika evropských zemích (včetně Německa, Španělska aFrancie) se bitcoinisté chopili iniciativy a vylepili po městech plakáty.
 
-####
+Některé návrhy přepracovávají Banksyho dílo tak, aby obsahovalo logo Bitcoin.
 
-Samozřejmě, pokud chcete
 
-plakáty na ulici, musíte **znát zákony své země**. Například ve Francii je povoleno **vylepovat plakáty pouze na obecní vývěsky**. Jinde je to zakázáno a hrozí za to pokuta.
+Příkladem je [StreetCyberArt](https://twitter.com/streetcyber_art), německý bitcoiner, který již několik let vytváří koláže a street art.
 
-Samozřejmě: **z dohledu, z mysli**. V tomto případě je tedy možná lepší dávat si pozor, abyste na plakátech neuváděli prvky, které by se daly vysledovat až k vám (jméno rallye, @ Twitter atd.)
 
-Pokud plánujete **tisknout tyto typy plakátů na osobní tiskárně, mějte na paměti, že se tím papír zpravidla silně rozmazává a časem se také rychle kazí**. S ohledem na tuto skutečnost je **nejlepším řešením určitě kontaktovat profesionální tiskárnu, která tyto plakáty vyrobí na specifickém samolepicím papíře speciálně určeném pro venkovní použití**. Kvalita tak bude zajištěna.
 
-![immagine](assets/fr/48.webp)
+![image](assets/fr/048.webp)
 
-####
 
-Nelze však popřít, že **tato iniciativa má značné náklady: více než 0,40 EUR na plakát (tj. 40 EUR na sto plakátů)**; a že když máte dobré kontakty. Online se ceny mohou ve skutečnosti pohybovat od dvojnásobku až po pětinásobek.
 
-Jak již bylo zmíněno, francouzský Bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) má odpovídající profesionální vybavení. Proto ho můžete kontaktovat na Twitteru a získat informace.
+Pokud se chcete pustit do pouličního plakátu, ujistěte se, že znáte zákony své země. Například ve Francii lze plakáty umisťovat pouze na veřejné reklamní tabule. Na jiných místech je to zcela zakázáno a trestá se to pokutou.
+
+Pokud se rozhodnete překročit hranice a doufáte, že nebudete přistiženi "při činu", vyvarujte se uvádění jakýchkoli identifikačních údajů (jako je jméno vaší schůzky nebo @Twitter) na plakátech.
+
+
+Vezměte také na vědomí, že tisk těchto plakátů na osobní tiskárně obvykle vede k prosakování inkoustu a rychlému znehodnocení venkovního tisku. Nejlepší je spolupracovat s profesionální tiskárnou, která je může vyrobit na speciálním samolepicím papíře určeném pro venkovní použití, což zajistí kvalitu i trvanlivost.
+
+
+
+![image](assets/fr/049.webp)
+
+
+
+Tato iniciativa může být nákladná více než 0,40 EUR za plakát (přibližně 40 EUR za sto plakátů) a ceny online se mohou pohybovat od dvojnásobku až po pětinásobek této částky. Dobré kontakty jsou nezbytné.
+
+
+Jak bylo uvedeno výše, francouzský bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) má správné profesionální vybavení a lze jej kontaktovat pro podrobnosti.
+
+
+Alternativou pro kutily je vyrobit si šablonu z velkého kusu kartonu a pomocí barvy ve spreji označit design na vybraných místech ve vašem městě.
+
+
 
 ## Personalizovaná karta NFC
 
+
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
-Dalším unikátním projektem je **vytvoření vlastních karet NFC pro platby prostřednictvím Lightning**, které se řídí standardem BoltCard. Pro tento účel je **Swiss Bitcoin Pay** kvalitním partnerem.
 
-V současné době nabízí Swiss Bitcoin Pay na svých webových stránkách [https://swiss-bitcoin-pay.ch/cards](https://swiss-bitcoin-pay.ch/cards) čtyři základní provedení.
 
-Pokud si však chcete objednat **více než 50 karet NFC, můžete společnost kontaktovat na jejích oficiálních webových stránkách (nebo na [Twitter](https://twitter.com/SwissBitcoinPay)) a navrhnout vlastní design**, který jste si vytvořili pro přední stranu karty. Zadní strana je však standardizovaná.
+Dalším originálním nápadem projektu je vytvoření personalizovaných karet NFC pro platby Lightning (kompatibilní se standardem BoltCard). K tomu je skvělým partnerem švýcarská společnost Bitcoin Pay.
 
-![immagine](assets/fr/49.webp)
 
-Například [Francouzská asociace Bitcoin Lille](https://twitter.com/BitcoinLille) si v roce 2023 objednala sto karet NFC s vlastním designem za **cenu přibližně 2,50 až 5 eur za kartu** (cena se pravidelně mění a je progresivní).
+[Jejich webové stránky](https://swiss-Bitcoin-pay.ch/cards) v současné době nabízí čtyři standardní provedení.
 
-Proto **každý nový člen asociace obdrží ve svém uvítacím balíčku personalizovanou kartu NFC**.
 
-Tuto myšlenku lze samozřejmě převzít a vylepšit podle potřeby.
+Pokud si chcete objednat více než 50 karet NFC, můžete společnost kontaktovat prostřednictvím jejích oficiálních webových stránek nebo [Twitter](https://twitter.com/SwissBitcoinPay) a navrhnout vlastní design přední strany karty. Zadní strana zůstane standardizovaná.
 
-## Vytvoření webových stránek
+
+
+![image](assets/fr/050.webp)
+
+
+
+Například v roce 2023 si francouzská asociace [Bitcoin Lille](https://twitter.com/BitcoinLille) objednala sérii karet NFC s vlastním designem. Každý nový člen obdržel v průběhu roku jednu v uvítacím balíčku. Tento nápad lze snadno přizpůsobit a personalizovat pro vaše vlastní společenství.
+
+
+Jednotková cena těchto karet se obvykle pohybuje od 2,50 € do 5 € v závislosti na velikosti objednávky a podmínkách na trhu, přičemž při větším množství jsou ceny nižší.
+
+
+
+## Vytvoření webové stránky
+
 
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
-S cílem vytvořit prezentaci pro vaši komunitu by mohlo být relevantní **mít webové stránky**. Vyžaduje to však **velké množství času na návrh** (několik desítek hodin).
 
-Pro zjednodušení tohoto úkolu vám níže uvedený návod během půl hodiny ukáže kroky k vytvoření **zdarma webových stránek na platformě WordPress**. Tento web vám umožní **mít přizpůsobitelnou domovskou stránku, vytvářet kategorie, publikovat články, integrovat média (videa na YouTube, obrázky, PDF)** atd.
 
-Později si budete moci zakoupit vlastní doménu a dokonce ji hostovat na vlastním serveru, pokud si to budete přát.
+V určité fázi růstu vaší komunity může být cenné mít webové stránky, které slouží jako prezentace vaší skupiny, setkání, akcí a vzdělávacího obsahu.
+
+
+Vytvoření webových stránek vyžaduje čas, ale v následujícím návodu se dozvíte, jak vytvořit bezplatnou stránku WordPress za pouhých 30 minut. Budete moci nastavit přizpůsobitelnou domovskou stránku, publikovat články a vkládat média, jako jsou videa YouTube, obrázky nebo soubory PDF.
+
+Později si můžete zakoupit vlastní doménu nebo dokonce hostovat stránky na vlastním serveru.
+
+
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
-####
 
-Tvorbu webových stránek umožňují i další systémy CMS nebo platformy. Některé z nich jsou sice jednodušší díky svému uživatelsky přívětivému rozhraní, ale výsledné webové stránky jsou také mnohem méně přizpůsobitelné.
 
-**WordPress se zdá být nejvhodnější volbou pro začátek**. Navíc umožňuje **integraci zásuvných modulů**, z nichž některé jsou sice placené, ale velmi kvalitní, což umožňuje další rozvoj webových stránek; a to bez nutnosti umět psát kód.
+Existují sice i jiné platformy CMS, některé s jednodušším a pro začátečníky přívětivějším rozhraním, ale obvykle jsou mnohem hůře přizpůsobitelné. Proto je WordPress obecně nejlepším výchozím bodem.
 
-Jedním z nich je placený plugin [Uncode](https://undsgn.com/uncode/).
 
-## Vytvoření video kanálu (YouTube nebo Odyssee)
+WordPress také podporuje širokou škálu pluginů (některé placené, ale vysoce kvalitní), které mohou výrazně rozšířit možnosti vašeho webu, aniž by vyžadovaly znalosti kódování. Jedním z příkladů je [prémiové téma "Uncode"](https://undsgn.com/uncode/)
+
+
+
+## Vytvoření video kanálu (Youtube nebo Odyssee)
+
 
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
-Někteří členové vaší komunity mohou mít zájem o **tvorbu multimediálního obsahu**. Ten by mohl mít například podobu tvorby videonávodů (používání softwarové peněženky, návodů na nákup BTC bez KYC atd.)
-
-Současně může nastat den, kdy se na vašich schůzkách budou konat prezentace. Nebo dokonce, když vaše komunita pořádá konference na středních a vysokých školách.
-
-V tomto smyslu by **v případě potřeby mohlo být vhodné mít videokanál, který vám umožní zveřejňovat online všechna videa, prezentace a přednášky, které jste natočili v rámci svých akcí a projektů**.
-
-####
-
-Mezi nejznámější videoplatformy patří zejména:
 
 
-- [**YouTube**](https://www.youtube.com/), jehož nedostatkem je **neodolnost vůči cenzuře**;
-- [**Odyssee**](https://odysee.com/), který je poměrně málo používaný, ale je **decentralizovaný** díky svému peer-to-peer provozu;
-- [**peertube**](https://joinpeertube.org/fr_FR), který umožňuje vytvořit vlastní platformu pro videa. To je pravděpodobně krok vpřed, pokud jde o konfiguraci.
+Někteří členové vaší komunity mohou chtít vytvářet multimediální obsah, například výuková videa.
 
-V závislosti na tom, co se rozhodnete implementovat, budete zřejmě muset **vytvořit grafiku speciálně pro tuto platformu**, aby byl váš videokanál vizuálně atraktivní. Dobré je, že v aplikaci **Canva**, o které jsme hovořili v [části 2/8 tohoto kurzu](ODKAZ), je k dispozici kategorie "miniatury YouTube" s předpřipravenou a snadno upravitelnou grafikou.
+Můžete také přednášet na setkáních nebo dokonce na univerzitách.
 
-![immagine](assets/fr/50.webp)
 
-####
+**Když přijde ten čas, specializovaný videokanál vám umožní publikovat a centralizovat veškerý obsah na jednom místě.**
 
-V případě, že chcete **nahrávat na svém počítači, funguje velmi dobře software jako ["Streamlabs"](https://streamlabs.com/fr-fr)**. Umožňuje upravit mnoho nastavení, je zdarma a umožňuje také přechody mezi scénami.
 
-Co se týče **úpravy videa** (pokud existuje), budete potřebovat vhodný software.
+Mezi oblíbené platformy patří:
 
-Pokud ještě žádný nemáte, je obzvláště účinný a velmi snadno použitelný software ["Wondershare Filmora"](https://filmora.wondershare.fr/), který umožňuje provádět závažné úpravy. Bohužel je zpoplatněn (45 EUR ročně). A konečně, pro **úvod a závěr** videa vám konkrétní vyhledávání na **Canva** umožní najít to, co hledáte, upravit výsledky podle svých představ, stáhnout je; a pak už je stačí jen integrovat do vašeho střihového softwaru.
 
-Poznámka: V případě, že jednoho dne bude Bitcoin zakázán nebo cenzurován, může být důležité, abyste si **vždy uchovávali lokální kopii videí**, která zveřejňujete, na pevném disku.
+- [**YouTube**](https://www.youtube.com/), který je široce používaný, ale není odolný vůči cenzuře.
+- [**Odyssee**](https://odysee.com/), méně populární, ale decentralizovaná prostřednictvím technologie peer-to-peer.
+- [**peertube**](https://joinpeertube.org/fr_FR) umožňuje hostovat vlastní platformu pro videa, její nastavení je však složitější.
+
+
+Ať už se rozhodnete pro kteroukoli z nich, navrhněte vizuální prvky specifické pro danou platformu, aby byl váš kanál atraktivní. Aplikace Canva, zmíněná v [části 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), nabízí kategorii "Miniatury YouTube" s předpřipravenými, přizpůsobitelnými návrhy.
+
+
+
+![image](assets/fr/051.webp)
+
+
+
+Pro **nahrávání** z počítače je zdarma k dispozici [Streamlabs](https://streamlabs.com/fr-fr), který má mnoho funkcí a podporuje přechody mezi scénami.
+
+Pro **střih videa** je [Wondershare Filmora](https://filmora.wondershare.fr/) (cca 45 €/rok) jednoduchý na používání a rychle vytváří profesionální výsledky.
+
+
+Pro úvod a závěr **videa** můžete snadno najít vhodné šablony na webu Canva. Přizpůsobte si návrh podle svého vkusu, stáhněte si jej a přidejte do svého střihového softwaru.
+
+
+Tip: Pokud bude služba Bitcoin někdy zakázána nebo cenzurována, mějte vždy místní zálohu svých videí na disku Hard.
+
+
 
 ## Vytvoření zvukového podcastu
 
+
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
 
-Zajímavým počinem může být i tvorba zvukového podcastu. Stejně jako při vytváření videokanálu však neočekávejte, že rychle získáte tisíce zhlédnutí.
-
-Mezi nejznámější platformy podcastů patří:
 
 
-- [**Fountain**](https://www.fountain.fm/), která je obzvláště zajímavá, protože umožňuje přímé dary v aplikaci Lightning;
+Dalším skvělým způsobem sdílení nápadů je audio podcast. Stejně jako u videokanálů trvá nějakou dobu, než si vybudujete publikum.
+
+
+Mezi oblíbené platformy podcastů patří:
+
+
+- [**Fountain**](https://www.fountain.fm/), podporuje dárcovství Blesku.
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
 - [**Google podcast**](https://podcasts.google.com/).
 
-Problémem však je, že **každá z těchto platforem má velmi specifické publikum**. Chcete-li tedy oslovit co nejvíce lidí, musíte být přítomni téměř na všech z nich.
 
-Naštěstí platforma **["Spotify pro podcastery"](https://podcasters.spotify.com/) umožňuje jednou importovat soubor podcastu a poté vygenerovat zdroj RSS, který lze zkopírovat a vložit do kterékoli z výše uvedených platforem**.
+Každá platforma má své vlastní publikum, takže přítomnost na více platformách rozšíří váš dosah. **[Spotify pro podcastery](https://podcasters.spotify.com/) to usnadňuje tím, že umožňuje jednou nahrát podcast a generate kanál RSS pro ostatní platformy**.
 
-Jakmile tedy dokončíte práci na Spotify pro podcastery, zbývá už jen formátování na ostatních platformách, které je poměrně rychlé.
+Po dokončení práce na Spotify pro podcastery zbývá jen naformátovat obsah pro ostatní platformy, což je poměrně rychlý proces.
 
-####
 
-Pokud byste chtěli **nahrávat na počítači, velmi dobře funguje bezplatný software, například ["Audacity"](https://www.audacityteam.org/)**. Umožňuje upravovat mnohá nastavení, provádět crescendy a dokonce i zlepšovat čistotu zvuku při editaci. Nahrávání hlasu a následná úprava zvuku podcastu by pak měla být poměrně snadná.
+Pro nahrávání je k dispozici bezplatný program [Audacity](https://www.audacityteam.org/), který umožňuje upravovat úrovně zvuku, přidávat efekty, jako jsou například prolínačky, a zlepšovat čistotu zvuku při úpravách. Je to jednoduchý nástroj pro nahrávání hlasu a vytváření podcastů v profesionální kvalitě.
 
-Zde je krátký výukový program, který v 10 minutách představí hlavní funkce, které potřebujete znát při vytváření podcastu pomocí programu Audacity.
+
+Zde je krátký desetiminutový výukový program, který obsahuje základní informace o tvorbě podcastů pomocí programu Audacity:
+
+
 
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
-Poznámka: Jak již bylo zmíněno dříve, v případě, že bude Bitcoin jednoho dne zakázán nebo cenzurován, může být důležité **vždy uchovávat lokální kopii podcastů**, které publikujete, na pevném disku.
+
+
+Tip: Stejně jako u videí si pro případ budoucí cenzury uložte místní zálohu všech podcastů.
+
+
 
 ## Vytvoření odznaku pro vaše události
 
+
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
-Během schůzek a akcí je možné vymyslet malou pobídku za účast. Ideální by tedy bylo **vytvořit typ odznaku, který lze získat pouze na dané akci**. To existuje pod názvem "POAP" ("Proof Of Attendance Protocol") na jiných blockchainech. Na Bitcoinu však v současné době neexistuje žádný volný způsob, jak jej nastavit.
 
-V zásadě by tato iniciativa mohla sloužit také k **odměňování nejvíce zapojených členů vaší komunity, například pořádáním každoroční tomboly**, během níž by získaný odznak odpovídal lístku do tomboly. Člen, který se zúčastní všech 12 setkání v roce, by pak měl 12 lístků do této výroční tomboly.
 
-Kromě toho je v úplně jiném kontextu možné **požádat účastníky každé akce, aby na odznak napsali své jméno nebo pseudonym**. K tomu je možné doplnit i důvody jejich účasti. Tato strategie, ačkoli je poněkud formální, může některým členům umožnit **snadnější nalezení společných rysů a témat k hovoru** a také **snadnější identifikaci organizátorů** a potenciálních členů sdružení pro nováčky.
+Na vašich setkáních a akcích můžete zavést malý stimul: odznaky události. Jde o to **vytvořit odznak, který lze získat pouze na dané akci**. Tento koncept existuje na jiných blockchainech pod názvem "POAP" ("Proof Of Attendance Protocol"). V současné době však neexistuje žádný volný způsob, jak jej implementovat na Bitcoin.
 
-Několik modelů používaných sdružením Bitcoin Lille je také [k dispozici v otevřeném zdrojovém kódu na webu Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![immagine](assets/fr/51.webp)
+Takový systém lze použít i k odměňování nejaktivnějších členů komunity. Můžete například uspořádat každoroční tombolu, ve které se každý nasbíraný odznak rovná jednomu vstupnímu lístku. Člen, který se zúčastní všech 12 setkání za rok, by měl 12 vstupenek do tomboly.
 
-## Úvahy o přechodu v případě smrti
+
+Jiným, tradičnějším přístupem je požádat účastníky každé akce, aby na odznak napsali své křestní jméno nebo přezdívku a důvod své účasti.
+
+Je to sice trochu formální, ale členům to může pomoci snáze najít společné zájmy a témata ke konverzaci a nováčkům to také usnadní rozpoznat organizátory (nebo oficiální členy komunity/asociace).
+
+
+Několik šablon odznaků používaných sdružením Bitcoin Lille je [k dispozici jako open-source na Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
+
+
+![image](assets/fr/052.webp)
+
+
+
+## Plánování předání v případě úmrtí
+
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
-Dalším bodem, který se týká úplně jiného tématu, je postoj k **smrti člena vaší bitcoinové komunity**.
-
-Ve skutečnosti může bohužel nastat den, kdy vás kontaktuje rodina jednoho z vašich bývalých členů a oznámí vám, že tento člověk zemřel. Poté vám vysvětlí, že **tento člověk vám zanechal pokyny** a jedním z nich je, abyste se **zkontaktovali s vaší komunitou/společenstvím/asociací**.
-
-Tato osoba pravděpodobně vysvětlí, že **potřebuje pomoc při vymáhání finančních prostředků**, protože je dědicem dědictví po tomto bývalém členovi.
-
-V reakci na tento požadavek může být velmi důležité, **abyste si již předem promysleli nějaký postup, který budete dodržovat**; a to z několika důvodů.
-
-Na jedné straně:
 
 
-- zajistit, aby zesnulý dopředu myslel na to, že **informuje svou rodinu, aby nezveřejňovala nebo nepřinášela na schůzku soukromé klíče a fyzickou peněženku (fyzické peněženky)** zesnulého;
-- aby rodina jasně pochopila, že **její přítomnost je o učení se Bitcoinu**, aby se nakonec stala suverénem nad prostředky zesnulého;
-- aby **rodina znala zákony, které v dané zemi platí v případě darování, dědictví nebo převodu na fiat měnu**;
+Na zcela jiném místě se věnujme citlivému tématu Address: odchodu člena vaší komunity Bitcoin.
 
-Předem promyšlený postup navíc zajistí, že nikdo, ať už člen schůze nebo jen host, nebude moci této situace nějak využít (a/nebo ukrást finanční prostředky).
 
-Za tímto účelem by mohlo být zajímavé **navrhnout "pracovní skupinu" pro postup v případě úmrtí a žádostí o pomoc ze strany rodiny**. Sdružení Bitcoin Lille na tom skutečně pracuje a v příštích měsících se podělí o svůj konečný pracovní dokument ve formě otevřeného zdroje [zde](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing).
+Jednoho dne vás může kontaktovat rodina bývalého člena a informovat vás o jeho úmrtí. Mohou vám vysvětlit, že vám zesnulý zanechal instrukce, včetně kontaktování vaší komunity, setkání nebo sdružení.
 
-## Vedení přednášek na školách a univerzitách
+
+V některých případech může rodina také požádat o pomoc při vymáhání finančních prostředků jako příjemci dědictví.
+
+
+Je rozumné spolupracovat se svou komunitou a předem stanovit jasný postup pro takové situace, který zajistí, že:
+
+
+- Zesnulý již své rodině doporučil **nikdy nesdílet soukromé klíče ani si na setkání nebrat fyzické peněženky**.
+- Rodina chápe, že účel jejich návštěvy je vzdělávací: dozvědět se, jak Bitcoin funguje, aby mohli později převzít svrchovanou kontrolu nad fondy.
+- Rodina zná příslušné zákony své země týkající se darů, dědictví a převodu Bitcoin na fiat.
+
+
+Zavedení standardního protokolu také zabrání tomu, aby kdokoli, ať už člen nebo host, využil situace k odcizení finančních prostředků.
+
+Mohli byste vytvořit zvláštní pracovní skupinu, která by tento proces definovala. Sdružení Bitcoin Lille již na takovém [dokumentu](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) pracuje a v příštích měsících jej plánuje vydat jako otevřený zdrojový kód.
+
+
+
+## Přednášet na školách a univerzitách
+
 
 <chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
 
-Výčet dříve popsaných projektů samozřejmě není úplný. Obecně se jedná o interní projekty komunity nebo setkání, které lze snadno zahájit, jakmile se vaše komunita rozvine. Pak je čas zabývat se případem onboardingu.
 
-Především si nepochybně uvědomujete, že **jedním z nejlepších způsobů, jak o Bitcoinu mluvit s co největším počtem lidí najednou, je samozřejmě uspořádat konferenci** (nebo workshop). To lze provést **v rámci postsekundárních škol a univerzit**; tím přivedete mladé (a možná i ne tak mladé) lidi k tomu, aby objevili nebo se dozvěděli více o Bitcoinu.
 
-Vedle toho, že je důležité **umět mluvit na veřejnosti**, je při pořádání konference před několika desítkami nebo dokonce stovkami lidí nutné **umět zvládat stres, artikulaci a čas**. Vyžaduje také **připravit kvalitní prezentaci nebo workshop, které budou zdokumentované a budou odpovídat úrovni dovedností publika**, které budete oslovovat.
+Výše uvedený seznam projektů samozřejmě není úplný. Obecně se jedná spíše o interní projekty pro jejich komunitu nebo setkání, které lze poměrně snadno realizovat v průběhu jejich vývoje.
 
-Kromě toho je při tomto typu cvičení zásadní mít **otevřenou mysl, která je připravena v případě potřeby zjednodušit pojmy**; zejména ve fázi otázek a odpovědí a v případě panelové diskuse. To neznamená "vzdát se svých zásad"; ale jednoduše přijmout, že ostatní mohou mít jiný názor, i když to znamená reagovat později nebo to nechat být, aby dialog mohl pokračovat. V každém případě platí, že pokud **vaše řeč a odpovědi budou založeny na relevantních a doložených argumentech**, publikum nebude uvedeno v omyl.
 
-Pokud se tedy cítíte schopni: přidejte se! Náš svět tak potřebuje vzdělání o tom, co je Bitcoin...
+Nyní se zaměříme na onboarding.
 
-Je však zřejmé, že ke splnění tohoto úkolu budete potřebovat **velkou motivaci, velké odhodlání, ale také správné kontakty**.
 
-![immagine](assets/fr/52.webp)
+Jak víte, jedním z nejlepších způsobů, **jak najednou oslovit velké množství posluchačů, je uspořádat bezplatnou přednášku**. Tu lze uskutečnit na vysokých školách a univerzitách a seznámit s Bitcoin mladé lidi (i ty ne tak mladé), ať už jsou v ní úplně noví, nebo si chtějí prohloubit znalosti.
 
-####
 
-**Uspořádat konferenci nebo workshop ve škole a/nebo na univerzitě není vůbec jednoduché**.
+Přednáška pro desítky nebo dokonce stovky lidí vyžaduje více než jen technické znalosti. Budete potřebovat:
 
-Nejprve je nutné **získat kontakt**. Ten lze získat **přes známé, prostřednictvím BDE ("Bureaux Des Étudiants" neboli studentské kanceláře); nebo i studentských spolků**, které zpravidla každoročně pořádají cykly přednášek a setkání. Jako prostředníci mohou působit také vaši **bývalí profesoři z technických škol a/nebo univerzit**.
 
-V případě postgraduálního studia můžete také **kontaktovat přímo vedoucího vzdělávacího programu** s cílem vysvětlit svůj návrh. To pak může vést k úvodní schůzce a - v nejlepším případě o několik týdnů později - k prezentaci toho, co je Bitcoin a jak funguje, před studenty.
+- Sebevědomí při veřejném vystupování
+- Dobré zvládání stresu
+- Jasná artikulace
+- Dobrý time management
+- Kvalitní a dobře zpracovaná prezentace nebo workshop přizpůsobený úrovni dovedností posluchačů
 
-####
 
-V současném světě je bohužel Bitcoin stále příliš často záměrně démonizován médii a politiky, což vede mnoho začátečníků k názoru, že by měl být ve třídách a přednáškových sálech zakázán. **Je proto poměrně vysoká pravděpodobnost, že se setkáte s velkým množstvím odmítnutí**; zejména na akademické půdě, kde se někdy zdá, že důkaz práce s Bitcoinem a spotřeba energie jsou tabu.
+Stejně důležité je **zachovat si otevřenou mysl a vědět, kdy je třeba pojmy zjednodušit**, zejména během otázek a odpovědí nebo panelové diskuse. Nejde o to vzdát se svých zásad, jen uznat, že ostatní mohou vidět věci jinak. Někdy je lepší odpovědět později nebo to nechat plavat, aby diskuse mohla pokračovat. Pokud jsou vaše body podloženy pádnými a dobře podloženými argumenty, lidé to uznají.
 
-Nic vám však nebrání v tom, abyste to zkusili, zejména s BDE a studentskými sdruženími. **Při troše štěstí, i když bude odmítnutí napoprvé rázné, není vyloučeno, že vás během příštího bull-runu na vaši komunitní e-mailovou adresu osloví znovu, abyste přednášeli před téměř 280 studenty!**
 
-![immagine](assets/fr/53.webp)
+Pokud se cítíte připraveni, jděte do toho! Svět zoufale potřebuje lepší osvětu o Bitcoin.
 
-## Přibližování podniků
+Přesto se nejedná o lehký úkol: vyžaduje motivaci, úsilí a správné kontakty.
+
+
+
+![image](assets/fr/053.webp)
+
+
+
+Organizace přednášky nebo workshopu ve škole nebo na univerzitě začíná nalezením správného kontaktu. Tím může být:
+
+
+- Osobní známost
+- Studentská unie
+- Studentské sdružení, které pořádá přednáškové cykly nebo akce
+- Bývalí profesoři z vaší technické školy nebo univerzity
+- Koordinátor akademického programu, pokud se na něj obrátíte přímo
+
+
+Prvním krokem je obvykle představení iniciativy nebo sdružení a žádost o schůzku. V nejlepším případě to povede k prezentaci na Bitcoin před studenty o několik týdnů později.
+
+
+Bohužel je Bitcoin stále démonizován většinou médií a mnoha politiky, což vede některé k přesvědčení, že nemá ve třídách co dělat. Odmítání je běžné, zejména v akademických kruzích, kde témata jako Proof of Work a spotřeba energie zůstávají kontroverzní.
+
+
+Přesto stojí za to to zkusit, zejména u studentských svazů a sdružení. A kdo ví? I když váš první pokus dostane odpověď "ne", možná se vám během příští kampaně objeví ve schránce e-mail s pozvánkou, abyste promluvili například k 280 studentům!
+
+
+
+![image](assets/fr/054.webp)
+
+
+
+## Oslovení podniků
+
 
 <chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
 
-Dosažení cíle **přimět obchodníka, aby přijímal Bitcoin jako platební metodu**, je pro mnoho nadšenců Bitcoinu jakýmsi "svatým grálem". Je to jako odemknout milník v jejich Pokédexu! Protože je však každý obchodník jiný, není tento úkol snadný a vyvstává řada problémů:
 
 
-- obchodník stále potřebuje fiat měnu, aby mohl platit dodavatelům (prozatím)**;
-- potřebují jasné a jednoznačné finanční zprávy**, které mohou zasílat svým účetním;
-- jejich platební metody musí fungovat bez technických nebo logistických problémů** a zaměstnanci musí být schopni přijímat platby, aniž by jim mohla utéct pokladna.
-
-K těmto aspektům přidejte:
+Získat podnik, který přijímá Bitcoin, je pro mnoho bitcoinových uživatelů něco jako odemknout vzácný úspěch v Pokédexu.
 
 
-- potenciální zaujatost obchodníků** vůči Bitcoinu;
-- obtížnost nalezení dokonale fungujícího softwarového řešení**;
-- ale také **důležitost toho, aby pochopili výhody přijímání Bitcoinu** jako platební metody.
-
-![immagine](assets/fr/54.webp)
-
-####
-
-Rozvoj ekosystému bitcoinů ve vašem městě pak může zahrnovat **akvizici obchodníků**. K tomu je nejjednodušší **postupovat po krocích**:
-
-1) Jakmile vstoupíte do obchodu, **vždy se zeptejte, zda můžete platit bitcoiny**. Většinou se setkáte s odmítnutím a tázavým pohledem, ale tato jednoduchá otázka postupně povede k tomu, že obchodníci zjistí, že Bitcoin mohou používat i "normální lidé" a že o něj jako o platební metodu je mezi lidmi stále větší zájem. Můžete také **obrátit dva nebo tři lidi ve stejném obchodě s odstupem několika dní a požádat je o platbu v Bitcoinech**. V určitém okamžiku to upoutá pozornost obchodníka;
-
-2) jakmile získáte správný zájem, mohou se zeptat, co je Bitcoin, můžete jim to **vysvětlit stručně a srozumitelně**. Například, že Bitcoin je měna, kterou nekontrolují banky, bez důvěryhodného zprostředkovatele, že je necenzurovatelný, nepodléhá inflaci a že poplatky jsou nižší než v tradičním bankovnictví. Poté jim můžete **dát leták**, například "21 důvodů, proč používat Bitcoin" a/nebo "10 důvodů, proč přijímat Bitcoin ve vašem obchodě", a pak jim **dáte kontakt na sebe nebo na vaši schůzku**. Tímto způsobem vás mohou kontaktovat, až budou mít zájem o předváděcí akci.
-
-3) Jakmile se tato osoba rozhodne přijmout Bitcoin, **sjednejte si s ní schůzku a ukažte jí, že vámi navrhované softwarové řešení se zdá být vhodné**. **[Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/)** se v tomto ohledu jeví jako vynikající řešení, protože:
+Každý obchodník je jiný a jejich zavádění do systému s sebou nese řadu problémů:
 
 
-- umožňuje obchodníkům, kteří si to přejí, převádět své denní příjmy v bitcoinech na fiat měnu, což jim umožňuje platit dodavatelům;
-- také umožňuje, pokud je to žádoucí, ponechat si určité procento výnosů v BTC;
-- umožňuje exportovat účetnictví všech plateb v bitcoinech, aby je bylo možné zaslat účetním, a usnadnit jim tak práci;
-- má uživatelsky přívětivý ovládací panel pro správce;
-- ale také ergonomické a uživatelsky přívětivé rozhraní pro zaměstnance, kteří budou moci zpracovávat platby, aniž by museli utíkat s pokladnou;
-- konečně, náklady na jeho používání jsou nižší než 2 až 3 procenta v tradiční bankovní síti.
-
-4) **když tento podnik přijímá Bitcoin**, bude to pro vás možné:
+- K placení dodavatelům stále potřebují fiat měnu.
+- Vyžadují přehledné finanční výkazy připravené pro účetnictví.
+- Jejich platební systémy musí být spolehlivé, snadno použitelné a odolné proti krádeži.
+- Mohou mít o Bitcoin mylné představy nebo negativní předsudky.
+- Najít bezchybné softwarové řešení může být složité.
+- Přimět obchodníka, aby pochopil, proč se vyplatí přijmout platbu Bitcoin.
 
 
-- pravidelně** navštěvovat a nakupovat;
-- využijte příležitosti a **zeptejte se, zda vše probíhá v pořádku**, a v případě potřeby nabídněte svůj kontakt znovu;
-- znovu navrhnout, abychom přijeli na vaše setkání a akce**;
-- **přidat tuto aktivitu na [mapu btcmap.org](https://btcmap.org/)** a informovat [Swiss Bitcoin Pay na Twitteru](https://x.com/swissbitcoinpay), aby se tato aktivita zviditelnila; - ale také **potenciálně organizovat akce v rámci této aktivity**, jako jsou setkání nebo workshopy.
 
-![immagine](assets/fr/55.webp)
+![image](assets/fr/055.webp)
 
-5) Jakmile se zapojí několik podniků ve vašem městě a pochopí, co jim Bitcoin přináší, můžete **navrhnout vytvoření speciální skupiny pro obchodníky na Telegramu**; cílem je **umožnit jim, aby si navzájem pomáhali**, a jít dál v zapojování dalších podniků ve městě. Současně může tato skupina **fungovat také jako technická podpora**, pokud by se vyskytl problém se zákazníkem.
 
-####
 
-Je zřejmé, že **tato vyhledávací činnost je dlouhodobá práce. Vyžaduje spoustu času, vysokou motivaci, ale také určitou strategii**.
+Zapojení místních podniků je jedním z nejlepších způsobů, jak rozvíjet ekosystém Bitcoin ve vašem městě. Klíčem je postupovat krok za krokem:
 
-Cítí se vaše komunita připravena vybudovat ve vašem městě **základy oběhového hospodářství v bitcoinech**, podobně jako v [Arnhemu v Nizozemsku](https://www.arnhembitcoinstad.nl/)? Pokud ano, jděte do toho!
 
-## Kontakt na tisk a místní rozhlas
+1/ **Při každém nákupu požádejte o platbu v Bitcoin**
+
+Většinou se setkáte s odmítavým nebo dokonce mírně odsuzujícím pohledem, ale už jen dotazem dáváte najevo, že Bitcoin je něco, co mohou používat i "obyčejní lidé" a že je to stále populárnější způsob placení. Můžete se dokonce spojit s několika přáteli a zastavit se v různých dnech ve stejném obchodě a pokaždé požádat o platbu v Bitcoin. Dříve nebo později to vzbudí zvědavost majitele.
+
+
+2/ **Nabídněte jednoduché a jasné vysvětlení**
+
+Pokud se vás zeptají, co je Bitcoin, odpovězte stručně a bez žargonu. Například:
+
+*"Bitcoin jsou peníze, které nejsou pod kontrolou bank, fungují bez zprostředkovatelů, nelze je cenzurovat, nepodléhají inflaci a mají nižší poplatky než tradiční bankovnictví. "*
+
+Pak jim předejte leták, například "21 důvodů, proč používat Bitcoin" nebo "10 důvodů, proč přijmout Bitcoin do svého podnikání", s kontaktními údaji nebo údaji o schůzce. Až budou připraveni na předváděcí akci, budou tak vědět, kde vás najdou.
+
+
+3/ **Zorganizujte ukázku**
+
+Když projeví zájem, domluvte si termín, kdy jim ukážete platební řešení.
+
+Skvělou volbou je **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, protože:
+
+
+    - Umožňuje obchodníkovi denně automaticky převádět BTC na fiat, aby mohl platit dodavatelům.
+    - Umožňuje jim ponechat si procento v BTC, pokud si to přejí.
+    - Generuje exportovatelné účetní sestavy pro své účetní.
+    - Má jednoduchý řídicí panel pro manažery.
+    - Zaměstnanci mohou pomocí intuitivní aplikace Interface přijímat platby, aniž by se museli dotknout pokladny.
+    - Stojí méně než 2-3% poplatky účtované tradičními platebními sítěmi.
+
+
+4/ **Podpořte je, jakmile začnou přijímat Bitcoin**
+
+Až budou na palubě:
+
+
+    - Pravidelně je navštěvujte a nakupujte.
+    - Zkontrolujte, zda vše běží hladce.
+    - V případě potřeby znovu sdílejte své kontaktní údaje.
+    - Pozvěte je na schůzky.
+    - Přidejte je do mapy [btcmap.org](https://btcmap.org/) a dejte o nich vědět na Twitteru [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay), abyste je zviditelnili.
+    - Zvažte pořádání seminářů nebo setkání v jejich prostorách.
+
+
+
+![image](assets/fr/056.webp)
+
+
+
+5/ **Propojení místních obchodníků**
+
+Jakmile budete mít několik podniků, které jsou přátelské ke Bitcoin, navrhněte vytvoření skupiny Telegramu určené pouze pro obchodníky. Ta může:
+
+
+- Nechte je sdílet zkušenosti a přijímat nové firmy.
+- Slouží jako kanál rychlé technické podpory.
+- Posílení místní sítě Bitcoin.
+
+
+Agitace je dlouhodobá hra. Vyžaduje trpělivost, vytrvalost a strategii. Pokud je však vaše komunita připravena, můžete začít pokládat základy skutečné oběhové ekonomiky Bitcoin, podobně jako [Arnhem v Nizozemsku](https://www.arnhembitcoinstad.nl/) v Nizozemsku.
+
+
+
+## Kontaktování místního tisku a rozhlasu
+
 
 <chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
 
-Velmi často se zapomíná, že my bitcoináři si obecně myslíme, že nejlepšími komunikačními prostředky jsou sociální sítě a internet. Ale mýlíme se - částečně.
-
-Některé komunity (například [Breizh Bitcoin](https://breizhbitcoin.com/) ve Francii) si proto zvykly **kontaktovat místní tisk**, aby:
 
 
-- Mluvte o akcích, které pořádají** (setkání, prezentace, workshopy, půlení atd.);
-- Vyzvěte je, aby prozkoumali místní podniky, které přijímají bitcoiny, a aby o tomto tématu napsali článek**;
-- ale také je jednoduše **požádejte, aby vám sdělili datum a místo svých nadcházejících akcí**.
+Bitcoineři se často zaměřují na sociální média a online platformy, ale to je jen část obrazu. Místní tisk a rozhlas mohou být mocnými spojenci.
 
-V mnoha místních novinách je dodnes na poslední nebo předposlední straně seznam akcí pořádaných v regionu.
 
-Zpětná vazba od Breizh Bitcoin je jasná: funguje to dobře a noví lidé se účastní jejich setkání poté, co objevili jejich sdružení v novinách.
+Některé komunity, jako například [Breizh Bitcoin](https://breizhbitcoin.com/) ve Francii, se **pravidelně obracejí na místní média**, aby:
 
-Ačkoli to může být specifické pro vaši lokalitu, zde je seznam nejlepších titulů francouzského regionálního tisku:
+
+- Oznamujte nadcházející akce (setkání, prezentace, workshopy, večírky Halving atd.).
+- Pozvěte novináře, aby navštívili podniky přátelské ke Bitcoin a napsali o nich.
+- Sdílejte data a místa konání akcí, abyste je mohli zařadit do místních seznamů.
+
+
+V mnoha novinách stále vychází rubrika "Co se děje", často na posledních stránkách, kde jsou uvedeny nadcházející místní události. Breizh Bitcoin zjistil, že tento přístup funguje: nově příchozí se objevili na setkání jen proto, že si všimli seznamu v novinách.
+
+
+Tato strategie může v některých oblastech fungovat lépe než v jiných, ale stojí za to ji vyzkoušet. Můžete začít tím, že oslovíte regionální zpravodaje, Francie má příklady jako např:
 
 
 - [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [csmp.fr](http://www.csmp.fr/layout/set/print/Menu/La-presse/Presse-quotidienne-regionale).
+- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale).
 
-Současně může být zajímavé **kontaktovat místní rozhlasové stanice a navrhnout například vytvoření podcastu nebo rozhovoru**.
+a kontaktováním místních rozhlasových stanic s návrhem rozhovoru nebo vystoupení v podcastu.
 
-Uvědomte si však, že slova v médiích mohou být snadno interpretována v jejich neprospěch. **Není to tedy snadný úkol a může být rozumné se na něj připravit**.
 
-![immagine](assets/fr/56.webp)
+Pozor na to, že rozhovory s médii mohou být ošemetné. Slova mohou být vytržena z kontextu nebo zkreslena. Příprava je nezbytná.
 
-####
 
-Samozřejmě lze **provádět mnoho dalších projektů**. Obecně bude záležet na vašem čase, motivaci, ale také na náročnosti daného projektu.
 
-Při jejich realizaci vám mohou pomoci **tři tipy**:
+![image](assets/fr/057.webp)
 
-1) ** předem definujte fáze projektu, jeho cíl(y) a co se má udělat**;
 
-2) **pokračujte krok za krokem a nenechte se odradit**; 3) a hlavně **požádejte o pomoc a pomoc členy a ostatní komunity ve vašem okolí**.
 
-Mějte na paměti, že **každé společenství a setkání prošlo stejnými fázemi jako vy**. Neváhejte je proto **požádat o radu**.
+Kromě všech projektů navržených v této části lze samozřejmě realizovat **mnoho dalších projektů**. Vše závisí na vašem čase a motivaci, ale také na náročnosti daného projektu.
+
+
+Závěrečné tipy pro jakýkoli osvětový projekt:
+
+1) **Plánujte dopředu**: definujte své cíle, potřebné kroky a kdo bude co dělat.
+
+2) **Postupujte krok za krokem**: vyhněte se vyhoření tím, že budete své úsilí rozvrhovat.
+
+3) **Požádejte o pomoc**: požádejte o podporu své členy a sousední komunity.
+
+
+Nezapomeňte, že každá komunita Bitcoin byla tam, kde jste nyní vy. Neváhejte se poučit z jejich zkušeností a rad.
+
+
 
 # Předvídání budoucnosti
 
+
 <partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+
+
 
 ## Plánování nárůstu počtu účastníků
 
+
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
-S tím, jak svět vstoupil do své čtvrté éry, do bloku 840 000, stále více jednotlivců považuje **Bitcoin za technologickou, finanční a sociální revoluci**.
-
-Stejně jako internetová revoluce to bude nutně vyžadovat **čas**, a to je dobře. Umožní každému, aby se **vzdělal v základech bitcoinu a naučil se ho používat**. Zároveň však poskytne vývojářům a společnostem čas na vývoj příslušných protokolů a aplikací, což umožní plně využít potenciál Bitcoinu.
-
-Ačkoli budoucnost nelze předvídat, je třeba počítat s **velmi výrazným nárůstem počtu uživatelů bitcoinů**, abyste byli **připraveni na všechny situace**. Včetně těch nejkatastrofičtějších scénářů, jako je potenciální imploze tradičního finančního systému; nebo dokonce: zákaz Bitcoinu.
-
-V této osmé a závěrečné části kurzu se budeme podrobně věnovat některým bodům, které je třeba zvážit při rozvoji vaší komunity a vašich setkání.
-
-####
-
-První z nich (nejsnáze předvídatelný) je samozřejmě **zvýšení počtu lidí, kteří se připojí k vaší komunitě**. To bude mít dopad dvěma způsoby:
-
-1) ** vaše komunikační kanály (Telegram, Signal, Matrix atd.) se zaplní, což může ztížit sledování konverzace**. Je proto třeba zvážit dva body.
-
-Na jedné straně, pokud si v jednom diskusním kanálu vyměňujete 500 různých témat, většina vašich členů postupně přestane konverzace sledovat; mimo jiné kvůli množství zpráv ke čtení a s nimi spojených oznámení. V tomto smyslu by mohlo být relevantní **přehodnotit vaše komunikační kanály; například superskupiny Telegramu nebo dokonce server Discord**, které skutečně umožňují seskupovat konverzace podle témat.
-
-Na druhou stranu více lidí ve výměnných kanálech znamená také více botů, více podvodů a také **více moderování**. Budete proto muset být připraveni, například vypracováním souboru pravidel, o která se můžete při moderování zpráv opřít. Ze zkušenosti vím, že se tak vyhnete většině konfliktů; zejména pokud jsou pravidla k dispozici k přečtení na vašich komunikačních kanálech. V tomto duchu sdružení Bitcoin Lille před několika lety sepsalo **[open-source soubor pravidel](https://bitcoinlille.fr/reglement/) pro svou skupinu Telegram a server Discord**, založený na jednoduchých a univerzálních principech. Jeho návrh je [rovněž k dispozici](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-![immagine](assets/fr/57.webp)
-
-2) **Vaše schůzky a akce se výrazně zaplní množstvím nových tváří, které touží po vzájemné komunikaci**.
-
-Vzhledem k tomuto značnému přílivu lze diskutovat a zvažovat několik přístupů:
 
 
-- Zaprvé by mohlo být vhodné **najít větší prostory pro pořádání schůzek a akcí**, zejména pokud jste dříve mohli pojmout pouze asi 20 osob;
-- Za druhé, pokud zjistíte, že lidská přítomnost je příliš velká, můžete také - pro další setkání - **vyžadovat, aby se účastníci registrovali** (to lze provést prostřednictvím aplikace Meetup nebo standardního formuláře), **nebo uspořádat více setkání v průběhu měsíce** (například: setkání pro začátečníky, setkání pro mírně pokročilé a setkání pro odborníky);
-- Kromě toho je jisté, že se k vám připojí mnoho začátečníků v ekosystému, zpravidla s cílem vydělat peníze. **Aby se konverzace během těchto rychle se rozrůstajících setkání soustředila na bitcoin**, doporučujeme:
+Když Bitcoin vstoupil do své čtvrté éry na bloku 840 000, stále více lidí začalo uznávat, že jde o technologickou, finanční a sociální revoluci.
 
-a) **provádět na těchto setkáních tematickou prezentaci o Bitcoinu**, protože to následně povede k tomu, že velká část účastníků bude diskutovat na toto téma, a ne o tzv. novém revolučním projektu;
 
-b) **neomezovat se pouze na bitcoinisty, ale oslovovat nováčky, i kdyby to znamenalo převzít iniciativu a zůstat v zadní části místnosti, abyste je přivítali**. Diskuse se pak může točit kolem toho, proč tito lidé přišli, co hledají, jaké jsou cíle (nebo základy) vaší komunity atd.
+Stejně jako v případě internetu bude tato revoluce trvat dlouho, což je vlastně výhoda. Dává lidem šanci **naučit se základy Bitcoin**, pochopit, jak jej používat, a umožňuje vývojářům a společnostem **vytvořit protokoly a aplikace**, které uvolní jeho plný potenciál.
 
-####
 
-A konečně, ačkoli je to nepříjemné, na schůzkách se mohou objevit **podvodníci**. Jejich cílem tedy bude co nejvíce mluvit o svém Ponziho schématu, MLM nebo "revolučním blockchainovém projektu" Je také zcela pravděpodobné, že lidé se zlými úmysly mohou přijít cíleně vyprat peníze nebo koupit BTC za falešné bankovky.
+Budoucnost nikdo nedokáže předpovědět, ale můžeme **očekávat prudký nárůst používání Bitcoin**. To znamená **být připraven na všechny scénáře**, dokonce i na ty extrémní, jako je zhroucení tradičního finančního systému nebo úplný zákaz Bitcoin.
 
-V takových složitých situacích je nejjednodušší převzít iniciativu a "zdvořile" vysvětlit těmto lidem, že na schůzce nebudou úspěšní, a předložit jim argumenty x nebo y (například je informovat o přítomnosti policie v civilu).
 
-Pokud tito lidé bohužel odmítnou odejít nebo dodržovat pravidla slušného chování (což se již stalo), lze během schůze ústně oznámit, že se jeden nebo více jedinců pokouší o takovéto zlomyslné jednání.
+V této sedmé a předposlední části kurzu se podíváme na klíčové body, které je třeba mít na paměti při růstu vaší komunity a setkávání.
 
-**Takové situace jsou bohužel vzácné a obvykle dost zvláštní. Je však lepší být připraven.**
 
-Pokud vás to jako organizátora uklidní, nemusíte se obávat, že byste sami porušovali předpisy nebo usnadňovali nelegální výměny. Ve Francii totiž nejste právně odpovědní za jednání jiných osob.####
+První a nejsnadněji očekávatelný je nárůst počtu lidí, kteří se připojí k vaší komunitě. To vás ovlivní dvěma hlavními způsoby:
 
-V ideálním světě by tedy bylo nejlepší mít místo, které pojme několik desítek lidí (v závislosti na růstu vaší komunity); ale také **vybudovat silné vztahy mezi bitcoinery a budoucími bitcoinery během medvědího trhu**, abyste byli připraveni **šířit kulturu bitcoinu během dalšího býčího období**.
 
-## Decentralizace organizace vaší komunity
+1/ **Vaše komunikační kanály (Telegram, Signal, Matrix atd.) budou časem přeplněné**, takže bude těžší udržet krok s konverzací. Je třeba mít na paměti dvě věci.
+
+
+Zaprvé, pokud v jednom chatu diskutuje 500 lidí na nejrůznější témata, samotný objem zpráv a oznámení nevyhnutelně povede k tomu, že se mnoho členů odhlásí. To je vhodný čas na to, abyste přehodnotili své nastavení a přešli například na superskupiny Telegramu nebo server Discord, které umožňují snadnou organizaci diskusí podle témat.
+
+
+Za druhé, více lidí v kanálech znamená více botů, více podvodů, a tedy i více moderování. Připravte se na to vytvořením jasného souboru pravidel, na která se můžete při moderování zpráv odvolávat. Podle našich zkušeností se tak dá předejít konfliktům, zejména pokud jsou pravidla ve vašich kanálech snadno dostupná.
+
+Dobrým příkladem je **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) napsaný před několika lety pro skupinu Telegram a server Discord. Je založen na jednoduchých, univerzálních principech a můžete si dokonce vzít [upravitelnou verzi návrhu zde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
+
+
+![image](assets/fr/058.webp)
+
+
+
+2/ **Vaše setkání a akce začnou přitahovat velké davy lidí a spoustu nových tváří, které se budou chtít spojit**.
+
+S tímto nárůstem návštěvnosti:
+
+
+    - možná by stálo za to **najít větší prostory pro vaše setkání a akce**, zejména pokud jste v minulosti mohli hostit pouze kolem dvaceti lidí.
+    - pokud zjistíte, že počet účastníků je ohromující, můžete pro příští setkání buď **vyžadovat registraci účastníků** (prostřednictvím aplikace Meetup nebo jednoduchého formuláře), nebo **pořádat každý měsíc více setkání** (například setkání pro začátečníky, středně pokročilé a pokročilé).
+    - Zároveň očekávejte, že do ekosystému vstoupí mnoho nových uživatelů, jejichž hlavním cílem je vydělat peníze. Chcete-li **udržet konverzaci zaměřenou na Bitcoin** na těchto rychle se rozvíjejících setkáních, je dobré:
+
+a) Zařaďte během těchto akcí prezentaci** na téma **Bitcoin, protože to přirozeně nasměruje většinu konverzace k tomuto tématu (a odvede pozornost od nejnovějšího údajně "revolučního" projektu shitcoin);
+
+b) **Vyhněte se setkávání pouze s ostatními bitcoinery**. Místo toho se snažte **přiblížit k nováčkům**, i kdyby to mělo znamenat, že se budete zdržovat v zadní části místnosti, abyste je pozdravili. Odtud si můžete promluvit o tom, proč přišli, co hledají, o cílech (nebo dokonce základních principech) vaší komunity atd.
+
+
+A konečně, ačkoli je škoda, že to musím říct, na setkáních se mohou objevit podvodníci. Jejich cílem může být nekonečné povídání o jejich Ponziho schématu, MLM nebo nějaké "revoluci Blockchain poháněné umělou inteligencí" Je také docela dobře možné, že se jednoho dne někdo se špatnými úmysly zúčastní setkání speciálně proto, aby vypral peníze nebo se pokusil koupit BTC za falešné bankovky.
+
+
+V takovýchto ošemetných situacích je nejjednodušší zdvořile vysvětlit, že setkání není vhodné, a podpořit to jakýmikoliv argumenty (například zmínkou o tom, že by mohla být přítomna policie v civilu).
+
+
+Pokud bohužel odmítnou odejít nebo se chovat slušně (ano, stalo se to), můžete skupinu Address přímo během setkání upozornit, že se osoba , nebo osoby, pokoušejí o nějakou záškodnickou činnost.
+
+
+Naštěstí jsou tyto situace vzácné a často spíše absurdní než hrozivé, ale i tak je lepší být připraven.
+
+
+Pro klid duše: pokud vy osobně neporušujete zákon nebo přímo neumožňujete nelegální transakce, nejste právně odpovědní za jednání ostatních na vaší akci (alespoň podle francouzského práva).
+
+
+V ideálním světě byste měli **prostor dostatečně velký na to, abyste mohli hostit několik desítek lidí**, jak se vaše komunita rozrůstá, a také byste budovali **silné vztahy mezi bitcoinery** a budoucími bitcoinery během medvědího trhu, takže až přijde býčí období, budete mít co nejvíce lidí připravených k oranžové pilulce pro ostatní.
+
+
+
+## Decentralizace organizace komunity
+
 
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
-Jste organizátorem schůzky a ze dne na den se **rozhodnete přerušit tento úkol** a odjet chovat lamy do Peru; necháte všechno za sebou?
 
-**Zvažte průchod svou komunitou**:
 
-1) **přidělení správcovských (nebo dokonce vlastnických) práv ke komunikačním kanálům důvěryhodným osobám**, i když to znamená jejich pozdější změnu;
+Představte si následující: léta vedete setkání Bitcoin a jednoho dne se rozhodnete, že s touto prací skončíte, třeba abyste chovali lamy v Peru nebo se honili za dokonalými vlnami v Salvadoru. Co se stane s vaší komunitou, když odejdete?
 
-2) **sdílet alespoň s jednou důvěryhodnou osobou ve vaší komunitě názvy účtů, hesla a e-maily účtů a sociálních sítí**, které jste vytvořili, abyste ji zviditelnili.
 
-Bez těchto práv a identifikátorů nebude možné, aby kdokoli **snadno převzal a pokračoval tak v iniciativě, jejímuž rozvoji jste věnovali tolik času**.
+Naplánujte si prosím převod své komunity dopředu tak, že:
 
-Začínat od nuly vytvářením "rozvětvených" sítí a kanálů zabere opravdu hodně času a energie.
+1) **Udělte důvěryhodným členům práva správce (nebo Ownership)** pro vaše komunikační kanály. Role se mohou vždy později změnit.
 
-Předvídejte proto svůj případný odjezd do Peru. A pokud nemáte na schůzce ve Francii žádné důvěryhodné členy, můžete se vždy obrátit na @ProfEduStream nebo @gabtribe na Telegramu, aby byl tento přechod hladký. Tím se dostáváme k **zásadnímu zlomu v komunitním rozvoji: jeho decentralizaci**. Pokud jste totiž jedinou zapojenou osobou, která má veškerou kontrolu, co se stane, když zmizíte? Odpověď je jednoduchá: vaše komunita zanikne.
+2) **Sdílejte údaje o účtech** (uživatelská jména, hesla, přidružené e-maily) pro svá sociální média a kanály pro zviditelnění alespoň s jednou důvěryhodnou osobou.
 
-Nejlepší způsob, jak tomu předejít, je **decentralizovat úkoly a sdílet práva, role a přístup**. Pokud tedy bude jeden z členů vašeho komunitního organizačního týmu nebo schůze v budoucí dystopii zatčen, protože vlastní bitcoiny, které nejsou KYC (nebo jednoduše: protože už nemá čas se tomu věnovat, protože se mu právě narodilo dítě nebo změnil zaměstnání), ostatní mohou bez problémů pokračovat ve svých úkolech.
 
-S ohledem na další decentralizaci může být **používání softwaru s otevřeným zdrojovým kódem, jako je sada framasoft**, také první "obrannou linií" proti fiktivnímu státu, který by chtěl Bitcoin cenzurovat. Používání šifrovaných komunikačních nástrojů - a to i anonymních - je druhou možností.
+Bez tohoto přístupu je téměř nemožné, aby ho někdo jiný efektivně převzal. Začínat od nuly vytvářením "rozvětvených" skupin a obnovou sítě je pomalé, vyčerpávající a často demoralizující.
 
-## Co kdyby se Bitcoin stal veřejným nepřítelem číslo 1?
+
+Pokud nemáte důvěryhodný kontakt v rámci meet-upu, můžete se vždy obrátit na @ProfEduStream, @copinmalin nebo @gabtribe na Telegramu. Mohou vám pomoci najít motivovaného nástupce a koordinovat předání účtů a administrátorských práv.
+
+
+**Proč je decentralizace důležitá ?**
+
+
+Pokud jste jediným účastníkem a máte veškerou kontrolu, co se stane, když zmizíte? Odpověď je jednoduchá: zmizí i vaše komunita.
+
+
+Řešení: decentralizujte úkoly, role a přístupy, aby skupina mohla fungovat i v případě, že jeden z organizátorů vypadne, ať už z časových důvodů, nebo v horším případě kvůli zatčení za držení karty Bitcoin, která neodpovídá standardu KYC.
+
+
+**Jak dále prosazovat decentralizaci ?**
+
+Přijměte **svobodný software s otevřeným zdrojovým kódem**, jako je [sada framasoft](https://framasoft.org/fr/), abyste snížili závislost na centralizovaných platformách a zvýšili odolnost proti případné státní cenzuře nebo zákazům Bitcoin.
+
+Používejte **šifrované nebo anonymní komunikační nástroje** k ochraně soukromí členů a aktivit vaší komunity.
+
+
+
+## Co kdyby se Bitcoin stal veřejným nepřítelem č. 1?
+
 
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
 
-Dne 5. dubna 1933 podepsal Franklin Roosevelt, tehdy 32. prezident Spojených států amerických, nařízení č. 6102, které zakazovalo držení zlatých mincí, zlatých prutů a zlatých certifikátů na celém území.
 
-![image](assets/fr/58.webp)
 
-Velká hospodářská krize (krach na burze v roce 1929) už dnes samozřejmě není aktuální. Ale kdo může říct, že zítra jiný stát neudělá totéž a **nezakáže jednotlivcům vlastnit bitcoiny?**
+5. dubna 1933 podepsal 32. prezident Spojených států amerických Franklin Roosevelt **Executive Order 6102**, kterým zakázal soukromým osobám vlastnit zlaté mince, slitky nebo certifikáty kdekoli v zemi.
 
-Tato orwellovská dystopie naštěstí nikomu nezabrání, aby své bitcoiny skutečně vlastnil, protože nikomu nelze zabránit, aby se naučil posloupnost slov.
 
-Co se ale stane, **pokud si vůdci našeho světa konečně uvědomí, že Bitcoin má schopnost změnit světový řád, a to i na státní úrovni?** Bitcoin se pak stane **"veřejným nepřítelem číslo 1"?
+![image](assets/fr/059.webp)
 
-Samozřejmě bychom neměli propadat konspiračnímu myšlení. Ale **nic nám nebrání v tom, abychom od nynějška předvídali, decentralizovali a vzdělávali**.
 
-![image](assets/fr/59.webp)
 
-# Shromáždit Bitcoinery
+Velká hospodářská krize (krach na burze v roce 1929) samozřejmě není naší současnou realitou. Mohla by však vláda jednoho dne udělat totéž s Bitcoin: **zakázat soukromý Ownership přímo?
+
+
+Pravdou je, že takové orwellovské opatření by ve skutečnosti nikomu nezabránilo v tom, aby skutečně vlastnil BTC, protože žádný zákon nemůže člověku zabránit v tom, aby si zapamatoval posloupnost slov.
+
+
+Přesto, co kdyby si světoví lídři konečně uvědomili potenciál Bitcoin změnit globální řád, a to i na úrovni států? Byl by pak označen za "veřejného nepřítele č. 1"?
+
+
+Nemusíme propadat konspiračnímu myšlení. Nic nám však nebrání v tom, abychom předvídali, decentralizovali a vzdělávali se, a to již nyní.
+
+
+
+![image](assets/fr/060.webp)
+
+
+
+# Sdružování bitcoinářů
+
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
-## Souhrnný akční plán pro vytvoření komunity Bitcoin
+
+
+## Rychlý akční plán pro budování komunity Bitcoin
+
 
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
-Satoshi Nakamoto vytvořil revoluční nástroj, který může změnit svět, jak ho známe. Je však jisté, že **je na nás, bitcoinech, abychom si zvolili trajektorii, po které chceme budoucnost budovat**.
 
-Podstata bitcoinu z něj zároveň činí rozsáhlý labyrint, v němž se prolíná tolik historických, ekonomických, literárních, matematických, počítačových a kryptografických aspektů, že je nemožné je všechny obsáhnout. V tom částečně spočívá jeho krása. Jako lidské bytosti máme během života jen omezené množství času. **Každý z nás může dosáhnout svých cílů v porozumění Bitcoinu jen díky tomu, že zůstane pokorný a bude se učit od ostatních**.
 
-Globální bitcoinové komunity tak hrají klíčovou roli při budování světa zítřka; komunity, kde si bitcoináři mohou **vyměňovat, budovat a sdílet**. **společně**.
+Satoshi Nakamoto vytvořil revoluční nástroj, který již mění náš svět. Je však na nás, bitcoinech, abychom rozhodli, jak budeme utvářet budoucnost.
 
-Jak už jste možná pochopili z tohoto kurzu, **vytvoření bitcoinové komunity a setkání** vyžaduje organizaci a motivaci. Je zřejmé, že v závislosti na svých touhách a čase, který tomu můžete věnovat, budete projekty provádět více či méně důkladně.
 
-Cíl však zůstává stejný: **zažehnout jiskru pro růst Bitcoinu ve vašem městě**.
+Bitcoin je rozsáhlá králičí nora, která se dotýká historie, ekonomie, literatury, matematiky, informatiky a kryptografie. Nikdo ji nemůže prozkoumat celou, a v tom je její krása.
 
-Abychom shrnuli jednotlivé kapitoly a podkapitoly tohoto kurzu, zde je **shrnutí "akčního plánu" pro vytvoření vaší bitcoinové komunity**:
 
-1) Rozhodněte se předem, proč chcete vytvořit komunitu bitcoinů, k jakým účelům, kde atd.;
+Protože náš čas je omezený, je klíčové zůstat pokorný, neustále se učit a předávat znalosti Exchange ostatním. Tímto způsobem může každý z nás dosáhnout úrovně porozumění, o kterou usiluje.
 
-2) Oslovte již zavedené komunity ve svém okolí a navažte s nimi kontakt a/nebo je požádejte o radu;
 
-3) Vytvořte jedinečnou identitu své obce a jejího místa (logo, plakát, banner, leták atd.)
+**Globální Bitcoin komunity proto hrají zásadní roli při budování světa zítřka**: jsou to prostory, kde mohou bitcoináři **Exchange, budovat a sdílet**. **Společně**.
 
-4) Vytvoření komunikačních kanálů a sociálních sítí, jako je Telegram, Twitter, NOSTR, Discord. Zvažte také decentralizované a/nebo necenzurované kanály;
 
-5) Oslovte okolní setkání a komunity (zejména na sociálních sítích) a nechte se uvést na různých mapách a platformách, abyste se zviditelnili;
 
-Jakmile jsou komunikační kanály vaší komunity dostatečně rozvinuté:
+![image](assets/fr/061.webp)
 
-6) Navrhněte shromáždění prostřednictvím průzkumu;
 
-7) Přemýšlejte o cílech, kterých chcete touto fyzickou akcí dosáhnout;
 
-8) Najděte si útulné místo, které odpovídá vašim cílům, a rezervujte si stůl;
 
-9) Týden před akcí o ní informujte na svých sítích a komunikačních kanálech. Toto zopakujte dva až tři dny před rozhodujícím datem;
+Jak jste viděli v průběhu tohoto kurzu, **vytváření komunity Bitcoin a organizování setkání** vyžaduje jak plánování, tak motivaci. V závislosti na vašich cílech a čase, který jim můžete věnovat, se můžete pustit do ambicióznějších projektů, nebo si věci zjednodušit.
 
-10) Pokud je to možné, umístěte svou událost na vhodné platformy a webové stránky;
 
-11) v den setkání nechte věci plynout a přejděte k ostatním, i kdyby to mělo znamenat jemné usměrňování rozhovoru, je-li to nutné;
+V obou případech je cíl stejný: **vzbudit zájem a pomoci Bitcoin růst ve vašem městě**.
 
-Po skončení akce:
 
-12) Snažte se udržet a zapojit co nejvíce členů a účastníků, aby se vrátili;
+Na závěr mnoha kapitol a podkapitol, kterými jsme se zabývali, vám přinášíme **konkrétní "akční plán "** pro vytvoření vaší komunity Bitcoin:
 
-13) Navrhněte jednoduché nápady a iniciativy a začněte realizovat ty, které jsou vám obzvlášť blízké. Pokud chce někdo jiný připravit něco jiného, neváhejte mu pomoci na základě úkolu a požadovaného cíle;
+1) Předem se rozhodněte, proč chcete vytvořit komunitu Bitcoin, jaké jsou vaše cíle a ve kterém městě nebo lokalitě budete působit.
+
+2) Navažte kontakt se stávajícími komunitami v okolí a neváhejte je požádat o radu, když ji budete potřebovat;
+
+3) Vytvořte jasnou identitu vaší komunity, která bude odrážet vaši komunitu a místo (logo, plakát, banner, leták atd.)
+
+4) Vytvořte komunikační kanály a sociální sítě, jako je Telegram, Twitter, NOSTR, Discord nebo Simplex. Zvažte také decentralizované kanály a/nebo kanály odolné vůči cenzuře.
+
+5) Sledujte další místní setkání a komunity online a nechte svou skupinu uvést na různých mapách a platformách, abyste ji zviditelnili.
+
+
+Jakmile jsou komunikační kanály vaší komunity aktivní:
+
+6) Jakmile pocítíte dostatečný zájem, spusťte průzkum a navrhněte první setkání.
+
+7) Definujte cíle, kterých chcete na této osobní akci dosáhnout.
+
+8) Vyberte si příjemné místo, které odpovídá vašim cílům, a rezervujte si stůl nebo místnost.
+
+9) Propagujte událost na svých kanálech týden předem a pak znovu dva až tři dny před datem konání.
+
+10) Uveďte svou událost na příslušných webových stránkách a platformách.
+
+11) V den konání nechte událost přirozeně plynout, zapojte se do diskuse s účastníky a v případě potřeby ji jemně usměrňujte.
+
+
+Poté:
+
+12) Zaměřte se na udržení a zapojení účastníků, aby se vraceli.
+
+13) Navrhujte jednoduché projekty nebo iniciativy a zahajte ty, na kterých vám osobně záleží. Pokud chce někdo jiný vést jiný projekt, podpořte ho, kde můžete.
+
 
 Nakonec:
 
-14) Předvídejte budoucnost a zvažte větší prostory pro setkání, pravidla pro komunikační kanály, webové stránky atd;
+14) Předvídejte budoucnost a přemýšlejte o větším prostoru pro setkávání, pravidlech pro komunikační kanály, webových stránkách atd;
 
-15) Začněte demokratizovat přijímání bitcoinů v podnicích ve vašem městě, například se zeptejte, zda přijímají bitcoiny;
+15) Povzbuzujte místní podniky, aby přijímaly Bitcoin, a to i pouhým dotazem při každém nákupu.
 
-16) Decentralizujte úkoly mezi důvěryhodné osoby a také práva ke svým kanálům a sítím;
+16) Delegování úkolů a práv správce kanálu/sítě na důvěryhodné členy.
 
-17) Propagujte svou komunitu tak, aby se k ní připojovalo stále více lidí a aby se do ní zapojovali zájemci;
+17) Široce propagujte svou komunitu, aby se do ní zapojilo více lidí, a zapojte ty, kteří projeví zájem.
 
-18) Jděte ještě dál s projekty, které máte rádi a na kterých vám záleží.
+18) Jděte ještě dál s projekty, které vás baví a které jsou pro vás důležité.
 
-O něco méně podrobně to v 21minutovém videu vypadá takto:
+
+Pro rychlejší přehled je k dispozici toto 21minutové video, které tyto kroky shrnuje:
+
+
 
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
-V každém případě **nezapomeňte, že nejste sami a že existující komunity jsou tu proto, aby vám pomohly**.
 
-## Kurz BTC302
+
+Nezapomeňte: *pamatujte si: *nejste sami, existující komunity jsou tu pro vás**.
+
+
+
+## Péče o sebe
+
+
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+
+
+Když spadnete do králičí nory Bitcoin, změní se váš pohled na život.
+
+Hluboko uvnitř cítíte touhu jít dál, setkat se s ostatními, kteří procházejí stejnou duševní cestou.
+
+
+Tato energie vás pohání k tomu, abyste přispěli svým dílem do skládačky tím, že se podělíte o svůj objev: Bitcoin. Inspiruje vás také k přemýšlení o světě zítřka, který chcete pomoci vybudovat, a o komunitách, které na něm pracují.
+
+
+Budování komunity je dlouhý tunel, který vyžaduje motivaci, strategii, odhodlání a čas. Může to být nevděčný úkol, proto je důležité postupovat krok za krokem, abyste nevyhořeli.
+
+
+**Myslete na sebe, na své limity**. A i když vás Bitcoin může hnát dnem i nocí, **nesnažte se dělat všechno sami, jinak vyhoříte**.
+
+
+Místo toho **hledejte pomoc u bitcoinářů, kteří již prošli stejným tunelem, prozkoumali stejné cesty a vytvořili stejné nástroje**. Ušetří vám to spoustu času.
+
+
+**Vyzvěte ty, kteří vás v tomto dobrodružství následují, aby vám přiložili ruku k dílu**, i když delegování některých úkolů zabere více času. Z dlouhodobého hlediska bude vaše komunita silnější a odolnější.
+
+
+
+![image](assets/fr/062.webp)
+
+
+
+Sami můžete rychle prozkoumat jeden z mnoha tunelů v králičí noře Bitcoin. Nezapomeňte však,že existuje nespočet dalších směrů k prozkoumání.
+
+
+**Vytvořením a/nebo připojením se ke komunitě bitcoinářů a pravidelným sdílením a výměnou s nimi se budete pohybovat všemi směry králičí nory současně.**
+
+
+
+## BTC302, Co bude dál
+
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-V tomto kurzu BTC302 jsme podrobně popsali kroky k vytvoření komunity, setkání, ale také realizaci mnoha projektů.
-
-Až se vaše komunita bude cítit připravena přejít na další úroveň, **můžete vytvořit sdružení**.
-
-Například ve Francii je z přibližně padesáti komunit a setkání téměř deset sdružení.
-
-Zájem o jeho vytvoření je dvojí:
 
 
-- na jedné straně status sdružení umožňuje **dostat oficiální status, otevřít bankovní účet sdružení a také získat určitou formu uznání ze strany tisku, médií a grantů**; - na druhé straně umožňuje **přesnější organizaci činnosti společenství a realizaci jeho projektů**, vymezení konkrétních rolí.
+V tomto kurzu BTC302 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
 
-####
 
-S cílem dále rozvíjet vaši komunitu bude v nadcházejících měsících na [planb.network](https://planb.network/) zveřejněn **kurz s názvem COMMU201**.
+Až bude vaše komunita připravena učinit další krok, můžete **založit formální sdružení**.
 
-Jejím prostřednictvím také **upřesníme další důležitý bod: organizaci rozsáhlých akcí s přibližně stovkou účastníků**. Budeme se zabývat otázkami, jako jsou např: Proč? Jaká organizace? Kde, s jakým rozpočtem? Jak? Jaká operace?
+Například ve Francii má ze zhruba šedesáti komunit a setkání téměř tucet status sdružení.
 
-Abychom toho dosáhli, budeme vycházet ze zkušeností několika francouzských komunit, které již uspořádaly své vlastní akce, například **BEF (Bitcoin Economic Forum, v květnu v Bretani) a B-only (v listopadu v Annecy)**.
 
-![immagine](assets/fr/chapter38/62.webp)
+Výhody jsou dvojí:
 
-####
 
-V jiných zemích se samozřejmě **legislativa a fungování sdružení liší**. Několik bodů však bude velmi užitečných při zakládání sdružení nebo pořádání důležité akce; a **doufáme, že přijdou i další bitcoináři a zařadí toto školení speciálně pro svou zemi**.
+- Oficiální uznání**: můžete si otevřít bankovní účet sdružení, získat pozornost tisku/médií a dokonce požádat o dotace.
+- Strukturovaná organizace**: můžete definovat jasné role, což usnadňuje řízení komunity a realizaci projektů.
 
-# Sekce finále
+
+Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+
+<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
+
+může být v příštích měsících zveřejněn na [planb.network](https://planb.network/)**.
+
+
+Další zasedání by se mohlo zabývat pokročilými tématy, jako jsou:
+
+
+- Navrhování prezentací nebo workshopů pro vaše setkání a stanovení jasných cílů.
+- Organizace rozsáhlé akce s přibližně 100 účastníky.
+
+Při tom budeme vycházet ze zkušeností komunit, které již vytvořily své vlastní akce a prezentace.
+
+
+
+![image](assets/fr/063.webp)
+
+
+
+# Závěrečná část
+
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
+
+
 ## Recenze a hodnocení
 
+
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěr
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+<chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
+
 
 <isCourseConclusion>true</isCourseConclusion>

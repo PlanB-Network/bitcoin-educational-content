@@ -1,0 +1,15 @@
+question: Neden KYC olmayan bitcoinler satın almalısınız?
+answer: Gizliliğinizi sağlamak için.
+wrong_answers:
+  - Tüm Bitcoin kullanıcılarının kaydını sağlamak için.
+  - Düşük fiyata satın almak için.
+  - Düşük fiyata satmak için.
+explanation: |
+  KYC olmayan bitcoin satın almak, KYC olmadan bitcoin edinmek anlamına gelir
+  standart Müşterini Tanı prosedüründen geçerek
+  birçok borsa ve platformun uyguladığı doğrulama prosedürleri
+  gerektirir. Bireylerin bunu seçmesinin başlıca nedenlerinden biri
+  mahremiyetlerini korumak, bu kişilerin
+  kişisel bilgiler ve finansal faaliyetler kalır
+  açıklanmadı.
+reviewed: true

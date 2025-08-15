@@ -1,0 +1,9 @@
+question: Why is migration to IPv6 necessary?
+answer: IPv4 address exhaustion
+wrong_answers:
+  - NAT protocol failure on IPv4
+  - Subnet mask incompatibility
+  - End of DHCP support
+explanation: |
+  The depletion of IPv4 addresses has prompted the transition to IPv6, which offers immense address space.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher Mechanismus muss im UEFI aktiviert werden, um die Ausführung von unsigniertem Code zur Boot-Zeit zu verhindern?
+answer: Sicherer Start
+wrong_answers:
+  - Schnellstart
+  - Schnelle Inbetriebnahme
+  - Vertrauenswürdiges Plattformmodul (TPM)
+explanation: |
+  Secure Boot stellt sicher, dass nur authentifizierte Software das System booten kann, wodurch das Risiko einer Bootkit-/Rootkit-Infektion verringert wird.
+reviewed: false

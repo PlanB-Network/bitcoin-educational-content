@@ -1,0 +1,9 @@
+question: Kimliği doğrulanmış bir şifreleme şemasının temel amacı nedir?
+answer: İletişimin gizliliğini ve gerçekliğini sağlamak
+wrong_answers:
+  - generate anahtarları güvenli bir şekilde
+  - Kriptografik alışverişlerde MAC'leri değiştirin
+  - Ele geçirilen mesajların şifresini otomatik olarak çözme
+explanation: |
+  Kimliği doğrulanmış bir şifreleme şeması, mesajların hem gizliliğini hem de gerçekliğini garanti etmek için şifreleme ve bir kimlik doğrulama kodunu (MAC) birleştirir.
+reviewed: false

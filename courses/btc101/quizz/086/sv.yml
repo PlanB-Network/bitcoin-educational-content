@@ -1,0 +1,13 @@
+question: Vad är en Cold Wallet?
+answer: En Wallet är en fysisk enhet som lagrar dina nycklar och som inte är ansluten till internet.
+wrong_answers:
+  - En Wallet som är fysiskt Cold att röra vid.
+  - En Wallet som är impopulär bland Bitcoin-användare.
+  - En Wallet som rekommenderas för förvaring av små mängder bitcoins.
+explanation: |
+  En Cold Wallet är en term som används för att beskriva en Bitcoin Wallet
+  som lagras på en enhet som inte är ansluten till internet
+  internet. Detta gör den mindre sårbar för hot online,
+  men det innebär också att Wallet är mindre tillgänglig för
+  dagliga transaktioner.
+reviewed: true

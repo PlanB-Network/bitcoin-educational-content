@@ -1,0 +1,9 @@
+question: Mikä on CalyxOS:ään integroitu MicroG?
+answer: Googlen palveluiden ilmainen uudelleentoteutus
+wrong_answers:
+  - Käyttöoikeuksien hallinnoija
+  - Avoimen lähdekoodin VPN Androidille
+  - Googlen oma antivirus
+explanation: |
+  MicroG on avoimen lähdekoodin vaihtoehto, jonka avulla voit käyttää Google API:sta riippuvaisia sovelluksia asentamatta virallisia binääripaketteja.
+reviewed: false

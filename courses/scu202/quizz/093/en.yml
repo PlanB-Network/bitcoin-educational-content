@@ -1,0 +1,9 @@
+question: Which protocol is mainly used to identify each piece of equipment on the Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  The Internet Protocol (IP) assigns each device a unique address and enables data packets to be routed.
+reviewed: false

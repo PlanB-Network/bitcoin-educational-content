@@ -1,0 +1,11 @@
+question: E-posta ekleri ve resimler hangi zararlı içerikleri barındırabilir?
+answer: Kötü Amaçlı Yazılım
+wrong_answers:
+  - Spam
+  - Reklamlar
+  - Promosyonel içerik
+explanation: |
+  E-posta ekleri ve resimler kötü amaçlı yazılım içerebilir.
+  Bu nedenle, aşağıdakilerden gelen ekleri indirmemeli veya açmamalısınız
+  bilinmeyen veya şüpheli göndericiler.
+reviewed: true

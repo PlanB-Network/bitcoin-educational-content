@@ -1,0 +1,9 @@
+question: Peramban berbasis Blink mana yang terkenal dengan kecepatan dan kompatibilitasnya, tetapi mengumpulkan data pengguna dalam jumlah besar untuk tujuan periklanan?
+answer: Chrome
+wrong_answers:
+  - Berani
+  - Firefox
+  - Peramban Tor
+explanation: |
+  Meskipun Google Chrome adalah alat yang hebat, secara default ia mengumpulkan banyak data pribadi, yang digunakan Google untuk iklan bertarget.
+reviewed: false

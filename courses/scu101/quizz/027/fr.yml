@@ -2,7 +2,7 @@ question: Quelle est la raison principale pour ne pas payer les hackers en cas d
 answer: Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes.
 wrong_answers:
   - Payer la rançon est illégal et peut encourager les cybercriminels à poursuivre leurs activités malveillantes.
-  - Payer la rançon ne garantit pas la récupération de vos données et peut encourager les hackers à demander plus d'argent après le paiement initial.
+  - Payer la rançon ne garantit pas la récupération de vos données, mais cela peut encourager les hackers à attaquer d'autres victimes.
   - Payer la rançon peut encourager les cybercriminels à poursuivre leurs activités malveillantes puisque le mode de paiement est généralement intraçable.
 explanation: |
   Payer la rançon ne garantit pas que vous récupérerez vos

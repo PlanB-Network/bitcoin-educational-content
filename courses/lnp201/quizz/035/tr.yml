@@ -1,0 +1,9 @@
+question: Lightning Network'da HTLC'lerin ana hedefi nedir?
+answer: Aracı düğümler üzerinden, bu düğümlere güven gerektirmeden güvenli ödeme transferlerini mümkün kılmak
+wrong_answers:
+  - Aracı düğümler aracılığıyla her ödeme için işlem ücretlerini azaltmak
+  - Her bir ödeme kanalının kapasitesini artırmak için
+  - Tüm ağ düğümleri arasında güvenleri ile doğrudan bağlantılar kurmak
+explanation: |
+  HTLC'ler (Hashed Time-Locked Contracts), her bir aracı düğümün ödemeyi fonları tutmadan aktarmasını sağlar, çünkü yalnızca nihai alıcıya kadar işlemi tamamlayarak bunların kilidini açabilir.
+reviewed: false

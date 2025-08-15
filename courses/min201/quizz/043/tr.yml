@@ -1,0 +1,14 @@
+question: Bitcoin Mining bağlamında Hashrate'ınız değil, ödülünüz değil atasözünün anlamı nedir?
+answer: Hashrate'ü kontrol etmezseniz, Mining ödüllerini de kontrol edemezsiniz.
+wrong_answers:
+  - Eğer yüksek bir Hashrate'e sahip değilseniz, herhangi bir ödül alamazsınız.
+  - Bitcoin'ya sahip değilseniz, herhangi bir ödül alamazsınız.
+  - Eğer bir Mining makineniz yoksa, herhangi bir ödül alamazsınız.
+explanation: |
+  Hashrate'iniz değil, ödülünüz değil atasözü de buna benzer
+  kripto para dünyasında iyi bilinen bir atasözüdür,
+  Ne anahtarlarınız, ne de Bitcoin'leriniz. Bu şu anlama geliyor
+  gW-8'i kontrol etmiyorsanız, Mining'u da kontrol etmiyorsunuz demektir
+  ödüller. Bunun nedeni, Mining'dan elde edilen ödüllerin
+  gW-8 ile doğru orantılıdır.
+reviewed: true

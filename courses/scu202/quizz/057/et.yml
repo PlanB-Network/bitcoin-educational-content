@@ -1,0 +1,9 @@
+question: Milline veebilehitseja võttis 1995. aastal kasutusele JavaScripti?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator integreeris 1995. aastal Brendan Eichi poolt välja töötatud JavaScripti keele, et võimaldada dünaamilist interaktiivsust veebilehtedel.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Canonical, uygulamaları ve bağımlılıklarını izole etmek için hangi paket formatını geliştirdi?
+answer: Çıtçıt
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Canonical tarafından geliştirilen Snap formatı, sistemden izole edilmiş ve bağımsız olarak güncellenen bağımsız yazılımların kurulmasını sağlar.
+reviewed: false

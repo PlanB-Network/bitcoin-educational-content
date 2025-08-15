@@ -1,0 +1,9 @@
+question: Wat is de primaire functie van een Message Authentication Code (MAC)?
+answer: De authenticiteit en integriteit van het bericht waarborgen
+wrong_answers:
+  - Berichten coderen om vertrouwelijkheid te garanderen
+  - Onderschepping van berichten voorkomen
+  - generate privésleutels voor elke communicatie
+explanation: |
+  Een MAC is een cryptografisch schema waarmee kan worden geverifieerd dat een bericht echt afkomstig is van de legitieme afzender en niet is gewijzigd, waardoor de authenticiteit en integriteit worden gewaarborgd.
+reviewed: false

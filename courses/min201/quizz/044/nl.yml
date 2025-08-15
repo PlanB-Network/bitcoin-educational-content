@@ -1,0 +1,13 @@
+question: Wat zijn maagdelijke bitcoins?
+answer: Vers gedolven bitcoins die nog nooit zijn uitgegeven en waar geen geschiedenis aan vastzit.
+wrong_answers:
+  - Bitcoins die zijn gebruikt voor illegale activiteiten.
+  - Bitcoins die verloren of vergeten zijn.
+  - Bitcoins die lange tijd in een Wallet zijn opgeslagen.
+explanation: |
+  Maagdelijke bitcoins zijn vers gemijnde bitcoins die nog nooit
+  zijn uitgegeven en waar geen geschiedenis aan vastzit. Deze
+  bitcoins worden vaak als waardevoller beschouwd omdat ze
+  nog nooit besmet zijn geweest, wat enige garantie biedt tegen
+  afwijzing door toezichthouders of grote Exchange platforms.
+reviewed: true

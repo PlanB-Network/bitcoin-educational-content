@@ -1,0 +1,12 @@
+question: Bitcoin ağındaki kullanıcı, düğüm veya madenci sayısındaki azalmanın potansiyel riski nedir?
+answer: Bu durum ağı zayıflatarak merkezileşme riskini ve saldırılara karşı savunmasızlığı artırabilir.
+wrong_answers:
+  - Bitcoin'in fiyatını artırabilir.
+  - Mining zorluğunun yanı sıra işlem hızını da düşürebilir.
+  - Merkezileştirme riskini azaltırken Mining'ün zorluğunu ve saldırılara karşı kırılganlığını artırabilir.
+explanation: |
+  Kullanıcı, düğüm veya madenci sayısındaki bir azalma
+  gW-4 ağını zayıflatabilir. Bu durum aşağıdaki riskleri artırabilir
+  merkezileştirme ve ağı daha savunmasız hale getirme
+  saldırılar.
+reviewed: true

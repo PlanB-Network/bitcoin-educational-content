@@ -1,0 +1,13 @@
+question: Herkesin aynı Bitcoin Wallet'i kullanmasını engelleyen nedir?
+answer: Farklı bireylerin farklı kullanım durumlarına ihtiyacı vardır.
+wrong_answers:
+  - Bitcoin Wallet kullanmak pahalıdır.
+  - Bitcoin Wallet kullanmak yasa dışıdır.
+  - İnsanlar böyle bir Wallet'nın adı üzerinde asla anlaşamayacaklar.
+explanation: |
+  Bir kişi güvenliğe öncelik verirken, bir başkası
+  kullanıcı dostluğuna veya belirli özelliklere değer verir. Dolayısıyla, bir
+  tek Bitcoin Wallet herkesin zevkine hitap etmeyebilir
+  gereksinimleri, birden fazla Wallet için gerekli hale getirir
+  seçeneklerinin mevcut olması.
+reviewed: true

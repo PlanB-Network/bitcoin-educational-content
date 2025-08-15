@@ -1,0 +1,9 @@
+question: Který protokol dynamicky přiřazuje zařízením připojeným k síti místní IP adresu Address?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  Protokol DHCP automaticky přidělí IP adresu Address každému novému zařízení připojenému k místní síti.
+reviewed: false

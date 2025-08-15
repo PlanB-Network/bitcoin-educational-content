@@ -1,0 +1,10 @@
+question: Vad är anmälningstransaktionens roll i BIP47?
+answer: För att överföra betalkoden till mottagaren och signalera att betalningar är på väg.
+wrong_answers:
+  - Validera Bitcoin som tar emot Address för framtida transaktioner via betalkoder.
+  - Bekräfta mottagandet av bitcoins av mottagaren med BIP47.
+  - Skicka avsändarens efemära privata nycklar till mottagaren så att de kan spendera bitcoins.
+explanation: |
+  Aviseringstransaktionen gör det möjligt att överföra betalningskoden från avsändaren till mottagaren, så att den senare kan känna till den och hitta den senare endast från sin seed i händelse av Wallet-återvinning. Som namnet antyder spelar den också en aviseringsroll.
+  
+reviewed: false

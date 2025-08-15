@@ -5,5 +5,5 @@ wrong_answers:
   - All other answers are correct.
   - Faith is superior to reason and can do without its arguments.
 explanation: |
-  Thomas Aquinas argues that reason and faith are complementary: reason can help understand and explain the truths of faith, while faith guides reason towards truths that would otherwise be inaccessible to it.
-reviewed: false
+  Thomas Aquinas argues that reason and faith are complementary; reason can help understand and explain the truths of faith. In contrast, faith guides reason towards truths that would otherwise be inaccessible to it.
+reviewed: true

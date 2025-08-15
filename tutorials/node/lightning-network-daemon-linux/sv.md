@@ -28,7 +28,7 @@ Med andra ord, med denna implementering kan du :
 
 
 
-- Interagera med Lightning Network**: Du kan använda kommandorader för att skapa Lightning-portföljer, hantera betalningskanaler och -vägar och mycket mer, direkt från din maskinterminal.
+- Interagera med Lightning Network**: Du kan använda kommandorader för att skapa Lightning-plånböcker, hantera betalningskanaler och -vägar och mycket mer, direkt från din maskinterminal.
 - Länka en avlägsen Bitcoin-nod eller din egen Bitcoin Core-instans**: Med LND kan du länka en Bitcoin-instans och använda den som din backend. För att använda den här implementeringen behöver du inte köra en Bitcoin Core-instans på din maskin.
 
 
@@ -334,7 +334,7 @@ Baserat på innehållet i filen `~/.LND/LND.conf`, här är detaljerna för fäl
 
 
 
-- noseedbackup**: Gör det möjligt för dig att välja om du vill att LND ska utföra automatiska säkerhetskopior av dina portföljer.  Om du ställer in den här egenskapen på "0" kan du manuellt spara återställningsinformation på en personligt vald säker plats.
+- noseedbackup**: Gör att du kan välja om du vill att LND ska utföra automatiska säkerhetskopior av dina plånböcker.  Om du ställer in den här egenskapen till "0" kan du manuellt spara återställningsinformation på en personligt vald säker plats.
 
 
 
@@ -408,10 +408,10 @@ Här är de viktigaste kommandona för att du ska komma igång.
 
 
 
-### Skapa en portfölj
+### Skapa en Wallet
 
 
-Din Lightning-portfölj är det första steget i alla åtgärder för att förvalta dina pengar.
+Din Lightning Wallet är det första steget i alla åtgärder för att hantera dina fonder.
 
 
 
@@ -419,7 +419,7 @@ Din Lightning-portfölj är det första steget i alla åtgärder för att förva
 
 
 
-Spara också ditt Wallet-lösenord så att du kan låsa upp det med kommandot `lncli unlock` när du startar om din LND-nod.
+Spara även lösenordet för Wallet så att du kan låsa upp den med kommandot `lncli unlock` när du startar om LND-noden.
 
 
 
@@ -640,7 +640,7 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Se till att du har sparat din Lightning Wallet:s återställningsord och lösenord.
+- Se till att du har sparat återställningsord och lösenord för din Lightning Wallet.
 - Håll ditt system uppdaterat.
 
 

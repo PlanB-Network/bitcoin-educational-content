@@ -51,16 +51,16 @@ En Smart contract i RGB är en Directed Acyclic Graph (DAG) av tillståndsändri
 ## Fungibla tillgångar
 
 
-De fungibla tillgångarna i RGB följer LNPBP RGB-20-specifikationen4, när en RGB-20 definieras distribueras tillgångsdata som kallas "Genesis-data" genom Lightning Network, som innehåller det som krävs för att använda tillgången. Den mest grundläggande formen av tillgångar tillåter inte sekundärutgivning, token burning, renominering eller ersättning.
+De fungibla tillgångarna i RGB följer LNPBP RGB-20-specifikationen4 , när en RGB-20 definieras distribueras tillgångsdata som kallas "Genesis-data" genom Lightning Network, som innehåller vad som krävs för att använda tillgången. Den mest grundläggande formen av tillgångar tillåter inte sekundär utgivning, token-bränning, renominering eller ersättning.
 
 
-Ibland kommer emittenten att behöva emittera fler tokens i framtiden, dvs. stablecoins som USDT, vilket håller värdet på varje token knutet till värdet på en inflationsvaluta som USD. För att uppnå detta finns mer komplexa RGB-20-schema, och utöver Genesis-uppgifterna kräver de att emittenten producerar sändningar, som också kommer att cirkulera i Lightning Network; med denna information kan vi veta tillgångens totala cirkulerande Supply. Detsamma gäller för att bränna tillgångar eller ändra dess namn.
+Ibland kommer emittenten att behöva emittera fler tokens i framtiden, dvs. stablecoins som USDT, vilket håller värdet på varje token knutet till värdet på en inflationsvaluta som USD. För att uppnå detta finns mer komplexa RGB-20-schema, och utöver Genesis-data kräver de att emittenten producerar sändningar, som också kommer att cirkulera i Lightning Network; med denna information kan vi veta tillgångens totala cirkulerande Supply. Detsamma gäller för att bränna tillgångar eller ändra dess namn.
 
 
-Informationen om tillgången kan vara offentlig eller privat: om emittenten kräver konfidentialitet kan han/hon välja att inte dela information om token och utföra operationer i absolut avskildhet, men vi har också det motsatta fallet där emittenten och innehavarna vill att hela processen ska vara transparent. Detta uppnås genom att dela med sig av token-data.
+Informationen om tillgången kan vara offentlig eller privat: om emittenten kräver konfidentialitet kan han/hon välja att inte dela information om token och utföra transaktioner i absolut avskildhet, men vi har också det motsatta fallet där emittenten och innehavarna vill att hela processen ska vara transparent. Detta uppnås genom att token-data delas.
 
 
-## RGB-20 förfaranden
+## RGB-20 procedurer
 
 
 Brännproceduren inaktiverar polletter, brända polletter kan inte användas längre.
@@ -69,24 +69,24 @@ Brännproceduren inaktiverar polletter, brända polletter kan inte användas lä
 Ersättningsförfarandet inträffar när tokens bränns och en ny mängd av samma token skapas. Detta bidrar till att minska storleken på tillgångens historiska data, vilket är viktigt för att upprätthålla tillgångens hastighet.
 
 
-För att stödja användningsfallet där det är möjligt att förbränna tillgångar utan att behöva ersätta dem används ett underschema av RGB-20 som endast tillåter förbränning av tillgångar.
+För att stödja användningsfallet där det är möjligt att bränna tillgångar utan att behöva ersätta dem, används ett underschema av RGB-20 som endast tillåter bränning av tillgångar.
 
 
 ## Icke fungibla tillgångar
 
 
-De icke-fungibla tillgångarna i RGB följer LNPBP RGB-21 specifikationen5, när vi arbetar med NFT:er har vi också ett huvudschema och ett underschema. Dessa system har en gravyrprocedur som gör det möjligt för oss att bifoga anpassade data från en del av tokenägaren, det vanligaste exemplet vi ser i NFT idag är digital konst kopplad till token. Tokenutgivaren kan förbjuda denna datagravering genom att använda RGB-21-underschemat. Till skillnad från andra NFT Blockchain-system tillåter RGB att distribuera stora mediatoken-data på ett helt decentraliserat och censurresistent sätt, genom att använda utvidgningen till Lightning P2P-nätverket som heter Bifrost, som också används för att bygga många andra former av RGB-specifika Smart contract-funktionaliteter.
+De icke-förstörbara tillgångarna i RGB följer LNPBP RGB-21 specifikationen5, när vi arbetar med NFT:er har vi också ett huvudschema och ett underschema. Dessa system har en gravyrprocedur, som gör att vi kan bifoga anpassade data från en del av token-ägaren, det vanligaste exemplet vi ser i NFT idag är digital konst kopplad till token. token-utfärdaren kan förbjuda denna datagravering genom att använda RGB-21-underschemat. Till skillnad från andra NFT Blockchain-system gör RGB det möjligt att distribuera stora token-data i media på ett helt decentraliserat och censurresistent sätt genom att använda utvidgningen till Lightning P2P-nätverket som kallas Bifrost, som också används för att bygga många andra former av RGB-specifika Smart contract-funktioner.
 
 
-Förutom fungibla tillgångar och NFT kan RGB och Bifrost användas för att producera andra former av smarta kontrakt, inklusive DEX, likviditetspooler, algoritmiska stabila mynt etc, som vi kommer att täcka i framtida artiklar.
+Utöver fungibla tillgångar och NFT:er kan RGB och Bifrost användas för att producera andra former av smarta kontrakt, inklusive DEX:er, likviditetspooler, algoritmiska stabila mynt etc, som vi kommer att ta upp i framtida artiklar.
 
 
-## NFT från RGB vs NFT från andra plattformar
+## NFT från RGB jämfört med NFT från andra plattformar
 
 
 
-- Inget behov av dyr lagring av Blockchain
-- IPFS behövs inte, ett Lightning Network-tillägg (kallat Bifrost) används istället (och det är helt krypterat från början till slut)
+- Inget behov av dyrbar Blockchain-lagring
+- IPFS behövs inte, ett Lightning Network-tillägg (kallat Bifrost) används istället (och det är helt end-to-end-krypterat)
 - Inget behov av en särskild lösning för datahantering - även här tar Bifrost den rollen
 - Inget behov av att lita på webbplatser för att upprätthålla data för NFT-tokens eller om emissionstillgångar / Contract ABIs
 - Inbyggd DRM-kryptering och Ownership-hantering
@@ -111,13 +111,13 @@ RGB har sitt eget kaninhål inom Bitcoin-kaninhålet, medan jag faller ner genom
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# RGB-nod - handledning
+# RGB-nod handledning
 
 
 ## Inledning
 
 
-I den här handledningen förklarar vi hur man använder RGB-node för att skapa en fungibel token och hur man överför den, detta dokument är baserat på RGB-node demo och skiljer sig åt genom att denna handledning använder riktiga Testnet-data och för det måste vi bygga vår egen Partially Signed Bitcoin Transaction, PSBT från och med nu.
+I denna handledning förklarar vi hur man använder RGB-nod för att skapa en fungibel token och hur man överför den, detta dokument är baserat på RGB-node demo och skiljer sig åt genom att denna handledning använder riktiga Testnet-data och för det måste vi bygga våra egna Partially Signed Bitcoin Transaction, PSBT från och med nu.
 
 
 ## Krav och önskemål
@@ -146,7 +146,7 @@ $ sudo apt install -y build-essential pkg-config libzmq3-dev libssl-dev libpq-de
 Bygga och köra
 
 
-RGB-noden är work in progress (WIP), det är därför vi måste lokalisera oss i en specifik commit (3f3c520c19d84c66d430e76f0fc68c5a66d79c84) för att kunna kompilera och använda den korrekt, för detta utför vi följande kommandon.
+RGB-node är work in progress (WIP), det är därför vi måste lokalisera oss i en specifik commit (3f3c520c19d84c66d430e76f0fc68c5a66d79c84) för att kunna kompilera och använda den korrekt, för detta utför vi följande kommandon.
 
 
 ```
@@ -177,7 +177,7 @@ Installed package `rgb_node v0.4.2 (/home/user/dev/rgb-node)` (executables `fung
 Enligt Rust-kompilatorn kopierades binärfilerna till katalogen $HOME/.cargo/bin, men om din kompilator kopierade dem till en annan plats måste du se till att den katalogen ingår i $PATH.
 
 
-Bland de installerade binärerna kan vi se tre daemoner eller tjänster (filerna som slutar på d) och en CLI (kommandorad Interface), CLI tillåter oss att interagera med huvudrgbd daemon. Eftersom vi i den här handledningen kommer att köra två noder behöver vi också två klienter, var och en måste ansluta till sin egen nod, för det skapar vi två alias.
+Bland de installerade binärerna kan vi se tre daemoner eller tjänster (filerna som slutar på d) och en CLI (kommandorad Interface), CLI tillåter oss att interagera med huvud rgbd daemon. Eftersom vi i den här handledningen kommer att köra två noder behöver vi också två klienter, var och en måste ansluta till sin egen nod, för det skapar vi två alias.
 
 
 ```
@@ -191,7 +191,7 @@ Vi kan bara köra alias eller lägga till dem i slutet av filen $HOME/.bashrc oc
 Förutsättningar
 
 
-RGB-noden hanterar inte någon form av Wallet-relaterad funktionalitet, den utför bara RGB-specifika uppgifter på de data som kommer att tillhandahållas av en extern Wallet som Bitcoin core. För att demonstrera ett grundläggande arbetsflöde med utfärdande och överföring behöver vi i synnerhet följande:
+RGB-noden hanterar inte någon form av Wallet-relaterad funktionalitet, den utför bara RGB-specifika uppgifter på de data som kommer att tillhandahållas av en extern Wallet som Bitcoin-kärnan. För att demonstrera ett grundläggande arbetsflöde med utfärdande och överföring behöver vi i synnerhet:
 
 
 
@@ -376,7 +376,7 @@ För att kunna acceptera överföringar relaterade till denna UTXO behöver vi d
 ## Överföring
 
 
-För att överföra ett visst belopp av tillgången till RGB-nod-1 måste vi skicka det till blinded UTXO, RGB-nod-0 måste skapa en Consignment och ett offentliggörande, och överföra det till en Bitcoin-transaktion. Sedan behöver vi en PSBT som vi modifierar för att inkludera commiten. Dessutom tillåter alternativen -i och -a oss att tillhandahålla en input outpoint som skulle vara tillgångens ursprung och en allokering där vi kommer att ta emot förändringen, vi måste ange det på följande sätt @<change_utxo>.
+För att överföra en del av tillgången till RGB-nod-1 måste vi skicka den till blinded UTXO, RGB-nod-0 måste skapa en Consignment och ett offentliggörande, och överföra det till en Bitcoin-transaktion. Sedan behöver vi en PSBT som vi modifierar för att inkludera commiten. Dessutom tillåter alternativen -i och -a oss att tillhandahålla en input outpoint som skulle vara tillgångens ursprung och en allokering där vi kommer att ta emot förändringen, vi måste ange det på följande sätt @<change_utxo>.
 
 
 ```
@@ -442,7 +442,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ## Acceptera
 
 
-För att acceptera en inkommande överföring ska RGB-nod-1 ha tagit emot filen Consignment från RGB-nod-0, ha receive_utxo och motsvarande blinding_factor genererad under blinding UTXO-generering.
+För att acceptera en inkommande överföring ska RGB-nod-1 ha tagit emot Consignment-filen från RGB-nod-0, ha receive_utxo och motsvarande blinding_factor genererad under blinding UTXO-generering.
 
 
 ```
@@ -490,7 +490,7 @@ blinding: 224561f10229eb9ebbdf05f497132d2b8344d70971c80510eddc607d615ee2a0
 ```
 
 
-Eftersom receive_utxo var blinded när överföringen gjordes har betalaren RGB-node-0 ingen information om var de 100 USDT skickades, så platsen visas inte i knownAllocations .
+Eftersom receive_utxo var blinded när överföringen gjordes har betalaren RGB-node-0 ingen information om vart de 100 USDT skickades, så platsen visas inte i knownAllocations .
 
 
 ```

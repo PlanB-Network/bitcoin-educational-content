@@ -1,0 +1,10 @@
+question: Hur är beslutsfattare kompenseras i JoinMarket?
+answer: Genom avgifter som betalas av de som tar emot.
+wrong_answers:
+  - Genom Mining avgifter.
+  - Genom frivilliga donationer från de som tar emot pengarna.
+  - Genom bidrag från Bitcoin-communityn.
+explanation: |
+  Tillverkarna lämnar sina bitcoins tillgängliga för tagarna och får avgifter i gengäld för sin tjänst. De som tar emot betalar i sin tur för att använda tillverkarnas bitcoins för att genomföra sina egna CoinJoin-transaktioner.
+  
+reviewed: false

@@ -1,11 +1,11 @@
-question: Šta je Lightning Network?
-answer: Mreža plaćanja koja koristi Bitcoin protokol za omogućavanje munjevito brzih transakcija.
+question: Šta je Lightning mreža?
+answer: Mreža plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija.
 wrong_answers:
   - Nova vrsta kriptovalute.
-  - Nova Blockchain tehnologija koja će u budućnosti zameniti Bitcoin.
-  - Metoda za Mining Bitcoin.
+  - Nova Blockchain tehnologija koja će u budućnosti zameniti Bitkoin.
+  - Metoda za rudarenje Bitkoina.
 explanation: |
-  Lightning Network je mreža za plaćanje koja koristi
-  Bitcoin protokol za omogućavanje brzih transakcija. To nije
-  posebna kriptovaluta, niti metoda za Mining Bitcoin.
+  Lightning mreža je mreža za plaćanje koja koristi
+  Bitkoin protokol za omogućavanje brzih transakcija. To nije
+  posebna kriptovaluta, niti metoda za rudarenje Bitkoina.
 reviewed: true

@@ -1,7 +1,7 @@
 ---
 name: Punto de venta Breez
 
-description: Guía para comenzar a aceptar bitcoin utilizando Breez POS
+description: Guía para comenzar a aceptar Bitcoin utilizando Breez POS
 ---
 
 ![cover](assets/cover.webp)
@@ -12,11 +12,11 @@ _Este texto proviene del sitio web de documentación de Breez: https://doc.breez
 
 **Breez** es una aplicación de Lightning de servicio completo y no custodial. Veamos qué significa eso:
 
-- **Lightning** es una red de pago de bitcoin que reduce los tiempos de transacción de minutos a milisegundos y las tarifas de transacción de varios dólares a unos pocos centavos o menos. Lightning convierte bitcoin de oro digital en moneda digital mientras conserva todos los beneficios que hacen que bitcoin sea genial.
-- **No custodial** significa que Breez no se hace cargo del dinero de los usuarios. Muchas aplicaciones de Lightning se hacen cargo del dinero de sus usuarios. Básicamente son bancos de bitcoin. Con una aplicación no custodial como Breez, todos los usuarios son sus propios bancos.
+- **Lightning** es una red de pago de Bitcoin que reduce los tiempos de transacción de minutos a milisegundos y las tarifas de transacción de varios dólares a unos pocos centavos o menos. Lightning convierte Bitcoin de ser oro digital a moneda digital mientras conserva todos los beneficios que hacen que Bitcoin sea genial.
+- **No custodial** significa que Breez no se hace cargo del dinero de los usuarios. Muchas aplicaciones de Lightning se hacen cargo del dinero de sus usuarios. Básicamente son bancos de Bitcoin. Con una aplicación no custodial como Breez, todos los usuarios son sus propios bancos.
 - **Servicio completo** significa que Breez se encarga de casi todas las operaciones técnicas de forma automática y en segundo plano. Cosas como la creación de canales, la liquidez entrante y el enrutamiento se mantienen bajo el capó. (Pero Breez también es de código abierto, por lo que aquellos interesados en auditar la tecnología son bienvenidos a hacerlo).
 
-**Breez POS** es la abreviatura de nuestro modo de punto de venta. En otras palabras, Breez funciona como una caja registradora digital para empresas y comerciantes que desean aceptar pagos de Lightning (además de su modo "estándar", que es como la versión digital de una billetera de cuero para bitcoin, y un reproductor de podcast de próxima generación). Ahora veamos cómo configurar Breez como una caja registradora de Lightning para tu negocio.
+**Breez POS** es la abreviatura de nuestro modo de punto de venta. En otras palabras, Breez funciona como una caja registradora digital para empresas y comerciantes que desean aceptar pagos de Lightning (además de su modo "estándar", que es como la versión digital de una billetera de cuero para Bitcoin, y un reproductor de podcast de próxima generación). Ahora veamos cómo configurar Breez como una caja registradora de Lightning para tu negocio.
 
 ## Cómo empezar con Breez?
 
@@ -27,9 +27,9 @@ _Este texto proviene del sitio web de documentación de Breez: https://doc.breez
 
 ## Configuración de POS
 
-1. Haz clic en ese icono en la parte superior izquierda y luego en Punto de Venta > Configuración de POS.
+1. Haz clic en el icono de la parte superior izquierda y luego en Punto de Venta > Configuración de POS.
 
-### La contraseña del gerente
+### La contraseña de gerente
 
 En la Configuración de POS, tienes la opción de crear una contraseña de gerente. La contraseña del gerente hace que sea imposible enviar pagos salientes desde la aplicación Breez sin autorización. El personal de ventas solo podrá recibir pagos desde el dispositivo. Ten en cuenta que si estás utilizando esta opción, es posible que también desees evitar el acceso a la copia de seguridad de Breez, por lo que se recomienda utilizar una cuenta externa de WebDav (por ejemplo, Nextcloud) para este caso de uso.
 
@@ -42,11 +42,11 @@ La lista de artículos es un catálogo de artículos en venta y sus precios. Hay
 
 ### Pantalla de Fiat
 
-Breez solo envía y recibe bitcoin, y para la mayoría de las transacciones en Lightning, que tienden a ser de cantidades más pequeñas, la suma se muestra generalmente en Satoshis, también conocidos como sats (1 BTC = 100,000,000 sats). Sin embargo, muchos comerciantes encuentran práctico poder ver (y mostrar a los clientes) el valor de la compra en la moneda fiduciaria local.
+Breez solo envía y recibe Bitcoin, y para la mayoría de las transacciones en Lightning, que tienden a ser de cantidades más pequeñas, la suma se muestra generalmente en Satoshis, también conocidos como sats (1 BTC = 100,000,000 sats). Sin embargo, muchos comerciantes encuentran práctico poder ver (y mostrar a los clientes) el valor de la compra en la moneda fiduciaria local.
 
 En la vista principal de POS, la moneda que se muestra actualmente está visible en el lado derecho (el valor predeterminado es SAT). También hay una lista desplegable de otras monedas disponibles para mostrar. Para agregar o eliminar monedas de esta lista desplegable, haz clic en Punto de Venta > Preferencias > Monedas Fiat. Luego simplemente marca las monedas que te gustaría tener en tu menú desplegable y desmarca aquellas que desees omitir.
 
-Los valores mostrados provienen de yadio, una fuente respetada de datos de tipo de cambio, y se actualizan casi en tiempo real. Pero recuerda: sin importar el valor de la moneda que se muestre actualmente, el pago en sí es en bitcoin.
+Los valores mostrados provienen de yadio, una fuente respetada de datos de tipo de cambio, y se actualizan casi en tiempo real. Pero recuerda: sin importar el valor de la moneda que se muestre actualmente, el pago en sí es en Bitcoin.
 
 ### Cobrar un Pedido
 

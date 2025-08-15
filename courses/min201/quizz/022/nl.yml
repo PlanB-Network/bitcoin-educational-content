@@ -1,0 +1,11 @@
+question: Waarop zullen miners vertrouwen voor compensatie nadat alle 21 miljoen bitcoins zijn aangemaakt?
+answer: Miners zullen alleen afhankelijk zijn van transactiekosten voor compensatie.
+wrong_answers:
+  - Miners zullen alleen vertrouwen op blokbeloningen voor compensatie.
+  - Miners zullen alleen vertrouwen op transactiebevestigingen voor compensatie.
+  - Miners zullen alleen vertrouwen op netwerkvergoedingen voor compensatie.
+explanation: |
+  Tegen 2140 zullen er geen nieuwe bitcoins meer gemaakt worden. Op dat moment,
+  zullen miners alleen nog afhankelijk zijn van transactiekosten voor
+  compensatie.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilket kommando visar det detaljerade innehållet i en mapp, inklusive dolda filer?
+answer: ls -lah
+wrong_answers:
+  - visa mapp
+  - lista-filer -detaljerad
+  - viewdir -a
+explanation: |
+  "ls -lah" visar filer och mappar i detalj, inklusive dolda filer (som börjar med en punkt).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lord Acton tarafından verilen özgürlük tanımı nedir?
+answer: Çoğunluğun görüşüne karşı bile olsa, kişinin kendi vicdanına göre hareket etme gücü
+wrong_answers:
+  - Kişinin her istediğini yapabilme yeteneği
+  - Herhangi bir kısıtlamanın olmaması
+  - Dış istilalara karşı koruma
+explanation: |
+  Lord Acton özgürlüğü kişinin kendi vicdanına göre hareket etme gücü olarak tanımlamakta ve çoğunluğun görüşüne aykırı olsa bile bireyin kişisel kararlar alabilmesinin önemini vurgulamaktadır.
+reviewed: true

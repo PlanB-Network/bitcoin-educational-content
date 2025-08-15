@@ -1,0 +1,9 @@
+question: Bir Android akıllı telefona alternatif bir ROM nasıl yüklerim?
+answer: Önyükleyici kilidini açma
+wrong_answers:
+  - Bir Apple hesabı oluşturun
+  - Özel bir SIM kart takma
+  - IOS'ta geliştirici modunu etkinleştirme
+explanation: |
+  Bootloader kilidini açmak, bir Android akıllı telefona yeni bir sistem imajı yazmak için gereklidir.
+reviewed: false

@@ -187,7 +187,7 @@ docker container prune -f
 docker volume prune --all	
 ```
 
-recreate the containers with the same command used in the official guide and lunch sync script:
+recreate the containers with the same command used in the official guide and launch the sync script:
 
 ```
 docker-compose up --build -V 

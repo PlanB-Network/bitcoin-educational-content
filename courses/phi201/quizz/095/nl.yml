@@ -1,0 +1,9 @@
+question: Wat is volgens Marx de belangrijkste beperking van mensenrechten?
+answer: Ze beschermen alleen een formele en abstracte vrijheid.
+wrong_answers:
+  - Het zijn natuurlijke rechten.
+  - Het zijn optionele rechten.
+  - Ze voorkomen revolutie.
+explanation: |
+  Marx bekritiseert mensenrechten door ze formeel te noemen omdat ze een abstracte individuele vrijheid garanderen, zonder daadwerkelijk de materiële omstandigheden van uitbuiting in de kapitalistische samenleving te veranderen.
+reviewed: true

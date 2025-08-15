@@ -5,7 +5,7 @@ description: Unawezaje kuongeza lugha mpya kwa Plan ₿ Network?
 ![cover](assets/cover.webp)
 
 
-Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusahihisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
+Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
 
 
 Tovuti yetu kwa sasa inatoa anuwai ya lugha, na tunaendelea kufanya kazi ili kuongeza zaidi. Ili kuboresha mchakato wa kutafsiri kwa upande wetu wa mbele, tunatumia zana ya Wavuti, ambayo hutusaidia kushirikiana na kudhibiti tafsiri kwa ufanisi. Ni zana ifaayo kwa mtumiaji.
@@ -33,7 +33,7 @@ Ili kuangalia ikiwa lugha yako tayari ni miongoni mwa zile tunazofanyia kazi.
 
 ![language](assets/02.webp)
 
-Ikiwa lugha yako iko kwenye orodha hii, huhitaji kuiongeza tena. Ili kuchangia kwa kusahihisha tovuti, gundua mafunzo yafuatayo:
+Ikiwa lugha yako iko kwenye orodha hii, hauhitaji kuiongeza tena. Ili kuchangia kwa kusahihisha tovuti, gundua mafunzo yafuatayo:
 
 
 https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295

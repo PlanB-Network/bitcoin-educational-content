@@ -1,0 +1,11 @@
+question: BitcoinTalk nedir?
+answer: Bitcoin kullanıcıları için bir tartışma yeri.
+wrong_answers:
+  - Bir Bitcoin Mining yazılımı.
+  - A Bitcoin Wallet.
+  - Bir Bitcoin Konferansı.
+explanation: |
+  BitcoinTalk forumu Bitcoin için bir tartışma yeridir
+  kullanıcılar. Satoshi Nakamoto tarafından 22 Kasım tarihinde oluşturulmuştur,
+  2009.
+reviewed: true

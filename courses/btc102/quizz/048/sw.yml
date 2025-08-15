@@ -1,0 +1,9 @@
+question: Je, ni mkakati gani wa uwekezaji unaotumiwa hasa na mpangaji?
+answer: Wastani wa Gharama ya Dola
+wrong_answers:
+  - Biashara ya siku
+  - Usuluhishi
+  - Mkupuo-Jumla
+explanation: |
+  DCA inahusisha kuwekeza kiasi kisichobadilika mara kwa mara ili kupunguza athari za kuyumba kwa soko kwenye kwingineko ya mtu.
+reviewed: false

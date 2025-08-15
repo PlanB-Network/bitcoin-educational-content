@@ -1,0 +1,8 @@
+question: Welk type belasting bepleitte Vauban in zijn geschriften?
+answer: Proportionele belasting iedereen moet hetzelfde percentage van zijn inkomen aan de staat geven
+wrong_answers:
+  - Progressieve belastingen: het belastingtarief voor de rijken moet hoger zijn dan dat voor de armen
+  - De vlaktaks, ongeacht je inkomen, je betaalt elk jaar hetzelfde bedrag aan de overheid
+  - Regressieve belastingen belastingtarieven voor de armen moeten hoger zijn dan die voor de rijken
+explanation: |
+  Vauban pleitte voor een proportionele belasting, de "koninklijke tiende", die bestond uit het heffen van een tiende (10%) van het inkomen van alle Fransen, ongeacht hun sociale status. Hij geloofde dat deze belasting eerlijker en efficiënter zou zijn dan het bestaande belastingsysteem.

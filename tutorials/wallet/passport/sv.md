@@ -10,7 +10,9 @@ Passport är en Hardware Wallet med endast Bitcoin, designad av Foundation Devic
 
 Passport "*Batch 2*" som presenteras i denna handledning är efterföljaren till "*Founder's Edition*". Den sticker ut med sin premiumdesign, högupplösta färgskärm och ergonomiska fysiska tangentbord. Den fungerar i "*Air-Gap*"-läge, vilket säkerställer att din Wallet:s privata nycklar förblir helt isolerade, med kommunikation möjlig via ett MicroSD-kort eller QR-koder. Enheten är utrustad med ett löstagbart, uppladdningsbart Nokia BL-5C-batteri med en kapacitet på 1200 mAh. Detta icke-proprietära batteri kan enkelt bytas ut, eftersom BL-5C-modellen är allmänt tillgänglig i butikerna.
 
-💡 **Uppdatering:** Sedan mars 2025 heter denna hårdvaruplånbok inte längre "Passport" eller "Passport V2", utan "Passport Core".
+
+💡 **Uppdatering:** Sedan mars 2025 är namnet på denna Hardware Wallet inte längre "Passport" eller "Passport V2", utan "Passport Core".
+
 
 När det gäller anslutningsmöjligheter är Passport utrustad med en MicroSD-port, en USB-C-port för laddning och en bakre kamera för att skanna QR-koder.
 
@@ -24,7 +26,7 @@ Med ett pris på 199 USD är Passport positionerad som en avancerad Hardware Wal
 ![Image](assets/fr/01.webp)
 
 
-För att hantera din säkra Wallet på ett Passport har du flera alternativ. Denna Hardware Wallet är kompatibel med de flesta Wallet-hanteringsprogram på marknaden, inklusive Sparrow Wallet, Spectre Desktop, Nunchuk, Keeper, bland andra. I denna handledning lär vi oss hur man använder den med Sparrow Wallet.
+För att hantera din säkra Wallet på ett Passport har du flera alternativ. Denna Hardware Wallet är kompatibel med de flesta Wallet-hanteringsprogram på marknaden, inklusive Sparrow wallet, Specter Desktop, Nunchuk, Keeper, bland andra. I den här handledningen lär vi oss hur du använder den med Sparrow wallet.
 
 
 Om du är nybörjare är det enklaste alternativet att använda ditt Passport med den inbyggda Envoy-applikationen, utvecklad av Foundation. För att ta reda på hur du använder Envoy med ditt pass, kolla in den här andra handledningen :
@@ -90,7 +92,7 @@ Tryck på bekräftelseknappen för att komma till nästa meny.
 ![Image](assets/fr/05.webp)
 
 
-I den här handledningen använder vi Sparrow Wallet för att hantera den passsäkrade Wallet. Välj "*Manual Setup*".
+I den här handledningen använder vi Sparrow wallet för att hantera den passsäkrade Wallet. Välj "*Manuell inställning*".
 
 
 ![Image](assets/fr/06.webp)
@@ -147,7 +149,7 @@ Bekräfta testresultatet i ditt pass.
 ## Ställa in PIN-koden
 
 
-Därefter kommer steget med PIN-koden. PIN-koden låser upp ditt pass. Den ger därför skydd mot obehörig fysisk åtkomst. PIN-koden är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kan du genom att inneha din Mnemonic-fras på 12 eller 24 ord återfå tillgång till dina bitcoins.
+Därefter kommer steget med PIN-koden. PIN-koden låser upp ditt pass. Den ger därför skydd mot obehörig fysisk åtkomst. PIN-koden är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras på 12 eller 24 ord.
 
 
 ![Image](assets/fr/15.webp)
@@ -248,7 +250,7 @@ För att skapa en ny Wallet, klicka på "*Create New seed*".
 ![Image](assets/fr/28.webp)
 
 
-Du kan välja mellan en Mnemonic-fras på 12 eller 24 ord. De båda alternativen ger samma säkerhet, så du kan välja det som är enklast att spara, dvs. 12 ord.
+Du kan välja mellan en Mnemonic-fras på 12 eller 24 ord. Säkerheten som erbjuds av båda alternativen är liknande, så du kan välja det som är lättast att spara, dvs. 12 ord.
 
 
 ![Image](assets/fr/29.webp)
@@ -371,7 +373,7 @@ Du kan också ange en BIP39 passphrase (se nästa avsnitt) eller använda en til
 ### Meny "Inställningar
 
 
-I menyn "*Settings*" hittar du alla dina Wallet- och enhetsinställningar.
+I menyn "*Settings*" hittar du alla dina Wallet och enhetsinställningar.
 
 
 ![Image](assets/fr/42.webp)
@@ -401,7 +403,7 @@ I undermenyn "*Bitcoin*" kan du ändra den enhet som visas (BTC eller satoshis),
 ![Image](assets/fr/46.webp)
 
 
-I "*Avancerat*" kan du se orden i din Mnemonic-fras, utföra åtgärder på det isatta MicroSD-kortet, återställa ditt Passport till fabriksinställningarna eller utföra en äkthetskontroll, som tidigare.
+I "*Avancerat*" kan du se orden i din Mnemonic-fras, utföra åtgärder på det isatta MicroSD-kortet, återställa ditt pass till fabriksinställningarna eller utföra en äkthetskontroll, som tidigare utförts.
 
 
 ![Image](assets/fr/47.webp)
@@ -422,7 +424,7 @@ Slutligen kan du i undermenyn "*Extensions*" aktivera funktioner som är specifi
 ## Lägg till en BIP39 passphrase
 
 
-Innan du fortsätter kan du, om du vill, lägga till en BIP39 passphrase. En BIP39 passphrase är ett valfritt lösenord som du kan välja fritt, och som läggs till din Mnemonic-fras för att förstärka Wallet-säkerheten. När den här funktionen är aktiverad krävs både Mnemonic och passphrase för att få tillgång till din Bitcoin Wallet. Utan någon av dem skulle det vara omöjligt att återställa Wallet.
+Innan du fortsätter kan du, om du vill, lägga till en BIP39 passphrase. En BIP39 passphrase är ett valfritt lösenord som du kan välja fritt, och som läggs till din Mnemonic-fras för att förstärka Wallet-säkerheten. Med den här funktionen aktiverad kräver åtkomst till din Bitcoin Wallet både Mnemonic och passphrase. Utan något av dem skulle det vara omöjligt att återställa Wallet.
 
 
 Innan du konfigurerar det här alternativet på ditt Passport rekommenderas det starkt att du läser den här artikeln för att fullt ut förstå den teoretiska driften av passphrase och undvika fel som kan leda till förlust av dina bitcoins:
@@ -436,7 +438,7 @@ För att aktivera den, gå till menyn "*More*" och klicka på "*Enter passphrase
 ![Image](assets/fr/50.webp)
 
 
-Ange din passphrase med hjälp av aA1-knappsatsen och se till att du sparar den en eller flera gånger på fysiska medier (papper eller metall). I exemplet använder jag en mycket svag passphrase, men du bör välja en stark, slumpmässig passphrase, som innehåller alla typer av tecken och är tillräckligt lång (som ett starkt lösenord).
+Ange din passphrase med hjälp av aA1-knappsatsen och se till att du sparar den en eller flera gånger på fysiska medier (papper eller metall). I exemplet använder jag en mycket svag passphrase, men du bör välja en stark, slumpmässig passphrase som innehåller alla typer av tecken och som är tillräckligt lång (som ett starkt lösenord).
 
 
 ![Image](assets/fr/51.webp)
@@ -445,19 +447,19 @@ Ange din passphrase med hjälp av aA1-knappsatsen och se till att du sparar den 
 Observera att BIP39-passfraser är skiftläges- och skrivfelskänsliga. Om du anger en passphrase som är något annorlunda än den som ursprungligen konfigurerades, kommer Passport inte att rapportera ett fel, utan kommer att härleda en annan uppsättning kryptografiska nycklar som inte kommer att vara de i din ursprungliga Wallet.
 
 
-Det är därför viktigt att du, när du konfigurerar, någonstans antecknar det huvudnyckelfingeravtryck som du kommer att få i nästa steg. Till exempel, med mitt passphrase `Plan B-nätverk`, är mitt huvudnyckelfingeravtryck `745D526B`.
+Det är därför viktigt att du, när du konfigurerar, någonstans noterar det fingeravtryck för huvudnyckeln som du kommer att få i nästa steg. Till exempel, med mitt passphrase `Plan B-nätverk`, är mitt huvudnyckelfingeravtryck `745D526B`.
 
 
 ![Image](assets/fr/52.webp)
 
 
-Varje gång du låser upp ditt Passport måste du återvända till den här menyn för att ange din passphrase och använda den på din Wallet. Passport sparar inte passphrase.
+Varje gång du låser upp ditt Passport måste du återvända till den här menyn för att ange din passphrase och tillämpa den på din Wallet. Passet sparar inte passphrase.
 
 
-Varje gång du låser upp, efter att ha skrivit ner passphrase, kontrollerar du på denna bekräftelseskärm att det fingeravtryck som ges är detsamma som det du skrev ner under konfigurationen. Om så är fallet är din passphrase korrekt och du har tillgång till rätt Bitcoin Wallet. Om det inte är det, är du på fel Wallet och måste försöka igen och se till att inte göra några inmatningsfel.
+Varje gång du låser upp, efter att ha skrivit ner passphrase, kontrollerar du på denna bekräftelseskärm att det fingeravtryck som ges är detsamma som det du skrev ner under konfigurationen. Om det är så är din passphrase korrekt och du har tillgång till rätt Bitcoin Wallet. Om det inte är det, är du på fel Wallet och måste försöka igen och se till att inte göra några inmatningsfel.
 
 
-Innan du får dina första bitcoins på din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet på passet medan den fortfarande är tom (`Inställningar -> Avancerat -> Radera pass`). Försök sedan återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic-frasen och alla passphrase. Kontrollera att cookie-informationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen :
+Innan du får dina första bitcoins på din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet på passet medan det fortfarande är tomt (`Inställningar -> Avancerat -> Radera pass`). Försök sedan återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic-frasen och alla passphrase. Kontrollera att cookie-informationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen :
 
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
@@ -465,13 +467,13 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 ![Image](assets/fr/53.webp)
 
 
-## Konfigurera Wallet på Sparrow Wallet
+## Konfigurera Wallet på Sparrow wallet
 
 
-I den här handledningen visar jag dig en avancerad användning av Passport med Sparrow Wallet. Denna Hardware Wallet är dock också kompatibel med Envoy (Foundation-applikationen), Keeper, BlueWallet, Nunchuk, Specter och många andra...
+I den här handledningen visar jag dig en avancerad användning av Passport med Sparrow wallet. Denna Hardware Wallet är dock också kompatibel med Envoy (Foundation-applikationen), Keeper, BlueWallet, Nunchuk, Specter och många andra...
 
 
-Börja med att ladda ner och installera Sparrow Wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 ![Image](assets/fr/54.webp)
@@ -482,7 +484,7 @@ Se till att kontrollera programvarans äkthet och integritet före installatione
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-När Sparrow Wallet är öppen klickar du på fliken "*File*" och sedan på "*New Wallet*".
+När Sparrow wallet är öppet klickar du på fliken "*File*" och sedan på "*New Wallet*".
 
 
 ![Image](assets/fr/55.webp)
@@ -530,7 +532,7 @@ Välj alternativet "*QR Code*".
 ![Image](assets/fr/62.webp)
 
 
-Ditt pass kommer sedan att generate dynamiska QR-koder. Använd datorns webbkamera för att skanna in dem i Sparrow-programvaran.
+Ditt pass kommer sedan att generate dynamiska QR-koder. Använd datorns webbkamera för att skanna in dem i programvaran Sparrow.
 
 
 ![Image](assets/fr/63.webp)
@@ -542,7 +544,7 @@ Du bör nu se din xpub och ditt fingeravtryck för huvudnyckeln, som bör matcha
 ![Image](assets/fr/64.webp)
 
 
-Ange ett starkt lösenord för att säkra åtkomsten till din Sparrow Wallet. Detta lösenord skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst. Det är en bra idé att spara lösenordet i en lösenordshanterare så att du inte glömmer det.
+Ange ett starkt lösenord för att säkra åtkomsten till din Sparrow wallet. Detta lösenord kommer att skydda dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst. Det är en bra idé att spara lösenordet i en lösenordshanterare så att du inte glömmer det.
 
 
 ![Image](assets/fr/65.webp)
@@ -554,7 +556,7 @@ Your Passport uppmanar dig sedan att skanna den första mottagningen Address fö
 ![Image](assets/fr/66.webp)
 
 
-I Sparrow går du till fliken "*Receive*" och skannar QR-koden för den första Address.
+I Sparrow, gå till fliken "*Receive*" och skanna QR-koden för den första Address.
 
 
 ![Image](assets/fr/67.webp)
@@ -575,7 +577,7 @@ Detta bekräftar att importen var lyckad.
 ## Ta emot bitcoins
 
 
-Nu när ditt Passport är konfigurerat är du redo att ta emot din första Sats på din nya Bitcoin Wallet. För att göra detta klickar du på Sparrow på menyn "*Receive*".
+Nu när ditt Passport är konfigurerat är du redo att ta emot din första Sats på din nya Bitcoin Wallet. För att göra detta klickar du på menyn "*Receive*" på Sparrow.
 
 
 ![Image](assets/fr/70.webp)
@@ -593,7 +595,7 @@ Innan vi använder den ska vi kontrollera Address på Passport-skärmen för att
 ![Image](assets/fr/72.webp)
 
 
-Klicka på "*Verify Address*" och skanna sedan QR-koden som visas på Sparrow Wallet.
+Klicka på "*Verify Address*" och skanna sedan QR-koden som visas på Sparrow wallet.
 
 
 ![Image](assets/fr/73.webp)
@@ -605,7 +607,7 @@ Kontrollera att den Address som visas på passet exakt motsvarar den som visas p
 ![Image](assets/fr/74.webp)
 
 
-Du kan nu använda den för att ta emot bitcoins. När transaktionen sänds i nätverket kommer den att visas på Sparrow. Vänta tills du har fått tillräckligt många bekräftelser för att betrakta transaktionen som slutgiltig.
+Du kan nu använda den för att ta emot bitcoins. När transaktionen sänds ut i nätverket kommer den att visas på Sparrow. Vänta tills du har fått tillräckligt många bekräftelser för att betrakta transaktionen som slutgiltig.
 
 
 ![Image](assets/fr/75.webp)
@@ -644,7 +646,7 @@ Kontrollera att alla transaktionsparametrar är korrekta och klicka sedan på "*
 ![Image](assets/fr/80.webp)
 
 
-Klicka på "*Show QR*" för att visa PSBT (*Partially Signed Bitcoin Transaction*). Sparrow har byggt transaktionen, men den saknar fortfarande signaturerna för att låsa upp bitcoins som används i inmatningen. Dessa signaturer kan endast utföras av Passport, som är värd för din seed som ger tillgång till de privata nycklar som behövs för att signera transaktionen.
+Klicka på "*Show QR*" för att visa PSBT (*Partially Signed Bitcoin Transaction*). Sparrow har byggt upp transaktionen, men den saknar fortfarande signaturerna för att låsa upp bitcoins som används i inmatningen. Dessa signaturer kan endast utföras av Passport, som är värd för din seed som ger tillgång till de privata nycklar som behövs för att signera transaktionen.
 
 
 ![Image](assets/fr/81.webp)
@@ -656,13 +658,13 @@ Gå till menyn "*Account*" i ditt pass och klicka på "*Signera med QR-kod*".
 ![Image](assets/fr/82.webp)
 
 
-Skanna PSBT (*Partially Signed Bitcoin Transaction*) som visas på Sparrow Wallet.
+Skanna PSBT (*Partially Signed Bitcoin Transaction*) som visas på Sparrow wallet.
 
 
 ![Image](assets/fr/83.webp)
 
 
-Kontrollera att den mottagande Address och det skickade beloppet är korrekta och tryck sedan på bekräftelseknappen.
+Bekräfta att den mottagande Address och det skickade beloppet är korrekta och tryck sedan på bekräftelseknappen.
 
 
 ![Image](assets/fr/84.webp)
@@ -686,7 +688,7 @@ Om all information är korrekt klickar du på bekräftelseknappen för att signe
 ![Image](assets/fr/87.webp)
 
 
-På Sparrow Wallet klickar du på "*Scan QR*" och skannar QR-koden som visas på ditt pass.
+På Sparrow wallet klickar du på "*Scan QR*" och skannar QR-koden som visas på ditt pass.
 
 
 ![Image](assets/fr/88.webp)
@@ -704,7 +706,7 @@ Din transaktion har sänts och väntar på bekräftelse.
 ![Image](assets/fr/90.webp)
 
 
-Gratulerar, du vet nu hur du konfigurerar och använder Passport. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnade en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
+Gratulerar, du vet nu hur du konfigurerar och använder Passport. Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
 
 
 För ytterligare information, se vår handledning om Liana-programvaran:

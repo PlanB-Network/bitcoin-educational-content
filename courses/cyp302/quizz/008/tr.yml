@@ -1,0 +1,9 @@
+question: Bir çift açık ve özel anahtar kullanan kriptografi dalına ne denir?
+answer: Asimetrik kriptografi
+wrong_answers:
+  - Simetrik kriptografi
+  - Mono-algoritmik kriptografi
+  - Bütünleştirici kriptografi
+explanation: |
+  Asimetrik kriptografi, gizli bir anahtarı paylaşmadan şifrelemeye izin veren açık ve özel bir çift anahtarın kullanımına dayanır.
+reviewed: false

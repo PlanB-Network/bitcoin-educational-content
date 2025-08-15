@@ -1,0 +1,9 @@
+question: Barack Obama đã mô tả Bitcoin như thế nào?
+answer: Một ngân hàng Thụy Sĩ trong túi của bạn
+wrong_answers:
+  - Vàng kỹ thuật số
+  - Một tài sản có tính đầu cơ cao
+  - Một loại tiền tệ phi tập trung
+explanation: |
+  Barack Obama từng gọi Bitcoin là "một ngân hàng Thụy Sĩ trong túi bạn". Thật vậy, Bitcoin mang đến những cơ hội như nhau cho tất cả mọi người, bất kể địa vị, và cho phép Confidential Transactions.
+reviewed: false

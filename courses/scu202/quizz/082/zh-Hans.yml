@@ -1,0 +1,9 @@
+question: 哪种应用程序提供完全分散的架构，没有用于信息路由的中央服务器？
+answer: Keet
+wrong_answers:
+  - 电报
+  - 信号
+  - 特雷玛
+explanation: |
+  Keet 基于点对点模式，所有通信都直接在用户之间传递，没有中央服务器，从而保证了高弹性和高保密性。
+reviewed: false

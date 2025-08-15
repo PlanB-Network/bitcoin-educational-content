@@ -1,0 +1,9 @@
+question: Mnemonic वाक्यांश से seed प्राप्त करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?
+answer: PBKDF2 HMAC-SHA512 के साथ
+wrong_answers:
+  - SHA256 अकेले
+  - डबल SHA256
+  - एईएस 256
+explanation: |
+  seed को PBKDF2 फ़ंक्शन का उपयोग करके HMAC-SHA512 और 2048 पुनरावृत्तियों के साथ, Mnemonic वाक्यांश और passphrase से उत्पन्न किया जाता है।
+reviewed: false

@@ -1,0 +1,9 @@
+question: Din savaşları Avrupa'yı hangi tarihsel dönemde yıkıma uğratmıştır?
+answer: Rönesans
+wrong_answers:
+  - Orta Çağ
+  - Aydınlanma
+  - Fransız Devrimi
+explanation: |
+  Din savaşları Avrupa'ya esas olarak Katolikler ve Protestanlar arasındaki çatışmaların özellikle Fransa ve Kutsal Roma İmparatorluğu'nda şiddetli çatışmalara yol açtığı bir dönem olan Rönesans sırasında damgasını vurmuştur.
+reviewed: true

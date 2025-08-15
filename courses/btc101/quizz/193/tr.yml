@@ -1,0 +1,8 @@
+question: Bitcoin ekonomisinin herkes için daha erişilebilir ve uygun hale getirilmesine katkıda bulunan girişimlerden biri nedir?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

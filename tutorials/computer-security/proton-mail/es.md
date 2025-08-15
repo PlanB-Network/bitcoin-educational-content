@@ -6,7 +6,7 @@ description: Configuración de un buzón de correo electrónico seguro
 
 El buzón de correo electrónico es un elemento central de tu actividad en línea y a menudo juega un papel crucial en la seguridad de tu computadora. Si un atacante logra comprometer tu buzón de correo electrónico, pueden obtener fácil acceso a tus otras cuentas a través de la función "*olvidé mi contraseña*". Esto puede permitirles controlar tus redes sociales, tus cuentas bancarias y otros servicios en línea, porque hoy en día, la dirección de correo electrónico se utiliza a menudo como un identificador único de tu identidad en línea. Por lo tanto, asegurar tu buzón de correo electrónico es muy importante para protegerte de ataques.
 
-Para garantizar la seguridad de tu buzón de correo electrónico, es importante adoptar algunas buenas prácticas simples que estudiamos en este tutorial dirigido a principiantes en informática. También es importante elegir un proveedor de correo electrónico seguro que ofrezca opciones de protección avanzadas y una política robusta de protección de la privacidad. Es por eso que recomiendo en este tutorial descubrir ProtonMail. Incluso si prefieres no usar este proveedor, las buenas prácticas presentadas aquí se pueden aplicar a cualquier buzón de correo electrónico para mejorar su seguridad.
+Para garantizar la seguridad de tu buzón de correo electrónico, es importante adoptar algunas buenas prácticas simples que estudiamos en este tutorial dirigido a principiantes en informática. También es importante elegir un proveedor de correo electrónico seguro que ofrezca opciones de protección avanzadas y una política robusta de protección de la privacidad. Es por eso que recomendamos en este tutorial descubrir ProtonMail. Incluso si prefieres no usar este proveedor, las buenas prácticas presentadas aquí se pueden aplicar a cualquier buzón de correo electrónico para mejorar su seguridad.
 
 ## ¿Por qué usar ProtonMail?
 
@@ -31,8 +31,8 @@ Puedes elegir el nombre de dominio que prefieras para tu dirección de correo el
 
 También, elige el nombre de usuario para tu dirección de correo electrónico.
 
-Luego se te pide que establezcas una contraseña. Es importante elegir una contraseña fuerte en esta etapa, ya que permitirá el acceso a tu buzón de correo. Una contraseña robusta debe ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomiendo optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
-El uso de un gestor de contraseñas es una práctica excelente. No solo te permite almacenar tus contraseñas de manera segura sin tener que memorizarlas, sino que también puede generar contraseñas largas y aleatorias para ti. Los humanos son realmente muy malos creando secuencias aleatorias, y una contraseña que no es lo suficientemente aleatoria puede ser vulnerable a ataques de fuerza bruta. También recomiendo consultar nuestro tutorial completo sobre cómo configurar un gestor de contraseñas para más detalles sobre este tema:
+Luego se te pide que establezcas una contraseña. Es importante elegir una contraseña fuerte en esta etapa, ya que permitirá el acceso a tu buzón de correo. Una contraseña robusta debe ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomendamos optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
+El uso de un gestor de contraseñas es una práctica excelente. No solo te permite almacenar tus contraseñas de manera segura sin tener que memorizarlas, sino que también puede generar contraseñas largas y aleatorias para ti. Los humanos son realmente muy malos creando secuencias aleatorias, y una contraseña que no es lo suficientemente aleatoria puede ser vulnerable a ataques de fuerza bruta. También recomendamos consultar nuestro tutorial completo sobre cómo configurar un gestor de contraseñas. Para más detalles sobre este tema:
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Haz clic en el botón "*Crear Cuenta*".
@@ -53,7 +53,7 @@ Si lo deseas, también puedes configurar el reenvío de tus correos electrónico
 
 ![proton](assets/notext/13.webp)
 
-Una vez en la interfaz de tu buzón, te aconsejo que eches un vistazo a los ajustes para personalizarlos. Haz clic en el icono de engranaje en la esquina superior derecha.
+Una vez en la interfaz de tu buzón, te aconsejamos que eches un vistazo a los ajustes para personalizarlos. Haz clic en el icono de engranaje en la esquina superior derecha.
 
 ![proton](assets/notext/14.webp)
 
@@ -77,7 +77,7 @@ En la pestaña "*Cuenta y contraseña*", puedes cambiar tus nombres de usuario, 
 
 ![proton](assets/notext/19.webp)
 
-Por ahora, tu buzón solo está asegurado con una contraseña. Te aconsejo que, como mínimo, añadas protección de autenticación de dos factores con una app. Para hacerlo, haz clic en la casilla.
+Por ahora, tu buzón solo está asegurado con una contraseña. Te aconsejamos que, como mínimo, añadas protección de autenticación de dos factores con una app. Para hacerlo, haz clic en la casilla.
 
 ![proton](assets/notext/20.webp)
 
@@ -89,7 +89,7 @@ Luego escanea el código QR usando tu app de 2FA.
 
 ![proton](assets/notext/22.webp)
 
-Para más información, te aconsejo que consultes nuestro tutorial sobre cómo usar una app de 2FA.
+Para más información, consulta nuestro tutorial sobre cómo usar una app de 2FA.
 En la pestaña "*Idioma y hora*", puedes cambiar el idioma de la interfaz así como la zona horaria.
 ![proton](assets/notext/23.webp)
 En la pestaña "*Appearance*", puedes modificar los colores de tu interfaz.

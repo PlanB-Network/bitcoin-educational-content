@@ -94,20 +94,20 @@ Solo tienes que indicarle a Iris dónde encontrar tu imagen y tu banner de perfi
 
 Si lo prefieres, también puedes descargar imágenes, Iris las almacenará por ti en nostr.build, un servicio gratuito de alojamiento de contenido visual para Nostr.
 
-Como puedes ver, también puedes configurar tu cliente para poder recibir y enviar sats. Así podrás recompensar a los autores de contenido que te gusten o, mejor aún, acumular sats por el contenido increíble que publiques.
+Como puedes ver, también puedes configurar tu cliente para poder recibir y enviar Sats. Así podrás recompensar a los autores de contenido que te gusten o, mejor aún, acumular sats por el contenido increíble que publiques.
 
 ## Paso 5: Respaldo del par de claves
 
 Este paso es crucial si quieres mantener el acceso a tu perfil una vez que te desconectes del cliente o que tu sesión haya expirado.
-'D'abord, clique sur l'icône "settings" représentée par un engrenage
+'Primero, haz clic en el icono de "configuración" representado por un engranaje
 ![Setting](assets/9.webp)
 
-Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité. Je te recommande de crypter ce fichier, si tu sais comment le faire.
+Luego, copia y pega tus claves npub, npub hex, nsec y nsec hex uno por uno en un archivo de texto que mantendrás seguro. Te recomiendo que encriptes este archivo, si sabes cómo hacerlo.
 
 ![Clef](assets/10.webp)
 
-> ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
+> ⚠️ Presta mucha atención a la advertencia que te da Iris. Si bien puedes compartir tu clave pública sin temor, sucede algo muy diferente con tu clave privada. Cualquier persona que la tenga podrá acceder a tu cuenta.
 
 ## Conclusion
 
-Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
+Ahí lo tienes, pequeño avestruz, has dado tus primeros pasos en Nostr. Ahora tendrás que aprender a correr a la velocidad del rayo. Próximamente publicaremos guías que le mostrarán cómo administrar sus claves y cómo integrar Lightning en tu experiencia Nostr usando Getalby.

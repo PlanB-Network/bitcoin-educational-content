@@ -1,0 +1,11 @@
+question: 1994'teki son yeniden değerlemeden önce Brezilya'daki en yüksek kupürlü banknot neydi?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Brezilya'daki en yüksek kupürlü banknot 500.000'e ulaştı ve son
+  
+  1994'te yeniden değerleme 2,750'ye 1 oranında yapılmıştır
+reviewed: false

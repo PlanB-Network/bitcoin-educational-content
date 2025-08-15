@@ -1,0 +1,9 @@
+question: chain code'ın alt anahtarların türetilmesindeki ana rolü nedir?
+answer: Ek bir entropi kaynağı ekleyin
+wrong_answers:
+  - Hiyerarşik derinliği belirleme
+  - Alt anahtarların dizinlerini saklar
+  - Bitcoin protokolü ile uyumluluğun sağlanması
+explanation: |
+  chain code, türetilen her bir anahtar için ek ve benzersiz bir entropi kaynağı sunmak için kullanılır.
+reviewed: false

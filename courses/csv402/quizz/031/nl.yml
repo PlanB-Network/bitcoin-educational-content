@@ -1,0 +1,9 @@
+question: Wat kan ik doen met een Invoice in een RGB overdracht?
+answer: Vermeld het type transactie, de benodigde hoeveelheid activa en de Seal Definition van de ontvanger
+wrong_answers:
+  - Maak een nieuw Genesis aan voor het bedrijfsmiddel
+  - generate een nieuwe Schema om de Business Logic van het actief te wijzigen
+  - Een PSBT bouwen ter vervanging van de Bitcoin transactie
+explanation: |
+  De Invoice wordt gebruikt om de verstrekker van de transactie te informeren over het type transactie, de hoeveelheid activa die moet worden overgedragen en de bestemming (Seal Definition).
+reviewed: false

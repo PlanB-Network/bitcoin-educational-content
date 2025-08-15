@@ -1,0 +1,9 @@
+question: Vilken är den främsta källan till mänsklig alienation enligt Marx?
+answer: Ekonomisk alienation till följd av kapitalistisk exploatering.
+wrong_answers:
+  - Politisk alienation som hindrar medborgarna från att uttrycka sig fritt.
+  - Religiös alienation som maskerar verkligheten av sociala orättvisor.
+  - Främlingskap från amerikansk kultur.
+explanation: |
+  Enligt Marx har den mänskliga alienationen sina rötter i den ekonomiska alienationen, där arbetaren berövas frukterna av sitt arbete under kapitalismen, vilket leder till en förlust av kontroll och mening i tillvaron.
+reviewed: true

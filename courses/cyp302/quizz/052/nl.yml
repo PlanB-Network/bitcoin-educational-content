@@ -1,0 +1,9 @@
+question: Wat is de rol van een irreducibele polynoom in een eindig veld?
+answer: Definieer de vermenigvuldigingsbewerkingen in het veld
+wrong_answers:
+  - Definieer de additieve inverse van elk element
+  - Zorg voor de sluiting van het veld
+  - Bepaal de vermenigvuldigingsidentiteit
+explanation: |
+  Onherleidbare veeltermen worden gebruikt om vermenigvuldiging in eindige velden te structureren, zodat elk element binnen het veld blijft.
+reviewed: false

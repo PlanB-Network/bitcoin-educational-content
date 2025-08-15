@@ -1,0 +1,9 @@
+question: LNURL-Withdraw özelliği kullanıcıların ne yapmasına izin verir?
+answer: QR kodunu tarayarak bir hizmetten para çekme
+wrong_answers:
+  - Yönlendirme ücreti olmadan doğrudan ödeme yapın
+  - Lightning Wallet'lerini şifre olmadan bağlayın
+  - Alıcı onayı olmadan para gönderme
+explanation: |
+  LNURL-Withdraw, kullanıcıların bir QR kodunu tarayarak bir hizmetten para çekmelerine olanak tanıyarak para çekme sürecini basitleştiriyor.
+reviewed: false

@@ -51,7 +51,7 @@ För att skapa din återställningsfras för hand behöver du:
 Därefter kommer det att bli nödvändigt att använda en dator med en terminal för att beräkna kontrollsumman. Det är just av denna anledning som jag avråder från den manuella genereringen av Mnemonic-frasen. Enligt min mening ökar en dators ingripande, även under de försiktighetsåtgärder som nämns i denna handledning, avsevärt sårbarheten hos en Wallet.
 
 
-För en experimentell metod som rör en "fiktiv Wallet" är det möjligt att använda din vanliga dator och dess terminal. Men för en mer rigorös metod som syftar till att begränsa riskerna för att kompromissa med din fras, skulle idealet vara att använda en dator som är frånkopplad från internet (helst utan en wifi-komponent eller RJ45-kabelanslutning), utrustad med ett minimum av kringutrustning (som alla bör anslutas med kabel för att undvika Bluetooth), och framför allt, som körs på en minnesförlust Linux-distribution som [Tails] (https://tails.boum.org/index.fr.html), startad från ett flyttbart medium.
+För en experimentell metod som rör en "fiktiv Wallet" är det möjligt att använda din vanliga dator och dess terminal. Men för en mer rigorös metod som syftar till att begränsa riskerna för att kompromissa med din fras, skulle idealet vara att använda en dator som är frånkopplad från internet (helst utan en wifi-komponent eller RJ45-kabelanslutning), utrustad med ett minimum av kringutrustning (som alla bör anslutas med kabel för att undvika Bluetooth), och framför allt, som körs på en Linux-distribution med minnesförlust som [Tails] (https://tails.boum.org/index.fr.html), startad från ett flyttbart medium.
 
 
 ![mnemonic](assets/notext/2.webp)

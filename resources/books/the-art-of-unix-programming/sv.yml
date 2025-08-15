@@ -1,0 +1,6 @@
+title: "Konsten att programmera Unix"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  The Art of Unix Programming av Eric S. Raymond är en guide på mellannivå som utforskar filosofin, designprinciperna och de praktiska aspekterna av Unix-programmering. Den täcker ämnen som Unix programmeringsmiljö, shell scripting, systemanrop och kommunikation mellan processer. Med tydliga förklaringar och exempel visar boken på kraften och flexibiliteten i Unix som programmeringsplattform samtidigt som den betonar enkelhet och modulär design. Den diskuterar också Unix-utvecklingens historia och samarbetsinriktade karaktär. Sammantaget ger den värdefulla insikter för utvecklare som vill förbättra sina kunskaper i Unix-programmering.

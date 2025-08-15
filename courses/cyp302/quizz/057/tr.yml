@@ -1,0 +1,9 @@
+question: Abelian grup nedir?
+answer: İşlemin değişmeli olduğu bir grup
+wrong_answers:
+  - Benzersiz bir üreteci olan bir grup
+  - Tam sayılarla sınırlı bir grup
+  - Nötr elementi olmayan bir grup
+explanation: |
+  Bir abelyen grup, işlemdeki Elements sırasının sonucu etkilemediği, yani değişebilirliğe bağlı kaldığı bir gruptur.
+reviewed: false

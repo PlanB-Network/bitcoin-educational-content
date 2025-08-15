@@ -1,0 +1,9 @@
+question: Bir ECDSA imzasını hesaplamak için başlangıç noktası nedir?
+answer: Hash mesajı
+wrong_answers:
+  - Açık anahtar
+  - Sabit bir Nonce
+  - Özel bir eliptik eğri
+explanation: |
+  ECDSA imzası, genellikle SHA256 ile imzalanacak mesajın Hash'sinin hesaplanmasıyla başlar.
+reviewed: false

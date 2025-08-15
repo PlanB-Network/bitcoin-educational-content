@@ -1,0 +1,9 @@
+question: RGB protokolünün arkasındaki temel kavram nedir?
+answer: On-Chain kriptografik taahhütler aracılığıyla müşteri tarafında doğrulama
+wrong_answers:
+  - Turing-complete akıllı sözleşmeler ile On-Chain doğrulaması
+  - Şifrelenmemiş Bitcoin işlemlerinin özel kullanımı
+  - Akıllı sözleşmelere ayrılmış bir Blockchain üzerinde Contract yürütme
+explanation: |
+  RGB, taahhütlerin (Taproot veya OP_RETURN aracılığıyla) On-Chain'a girildiği, mantık ve verilerin çoğunun ise off-chain'de tutulduğu bir Client-side Validation modeline dayanmaktadır.
+reviewed: false

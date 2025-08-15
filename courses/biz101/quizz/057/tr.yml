@@ -1,0 +1,9 @@
+question: Her Bitcoin işlemi anında fiat değerini takip etmek neden önemlidir?
+answer: Doğru defter tutma ve vergi uyumluluğunu sağlamak
+wrong_answers:
+  - Wallet dengesini otomatik olarak artırmak için
+  - Doğrudan Wallet'den gerçek zamanlı piyasa ticaretini mümkün kılmak için
+  - Ağ tarafından uygulanan işlem ücretlerini azaltmak için
+explanation: |
+  Fiat değerinin takip edilmesi, işletmelerin dalgalanan Bitcoin fiyatları ile defter tutma işlemlerini yönetmelerine yardımcı olur.
+reviewed: false

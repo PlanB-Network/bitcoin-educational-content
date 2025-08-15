@@ -1,0 +1,9 @@
+question: Wat betekent in de context van het RSA cryptosysteem het product van twee priemgetallen p en q?
+answer: Het is het gehele getal N dat gebruikt wordt als modulus voor bewerkingen
+wrong_answers:
+  - Het vormt de openbare sleutel
+  - Het dient als ontcijferingssleutel
+  - Het wordt alleen gebruikt om generate de exponent e
+explanation: |
+  In RSA is het gehele getal N het product van twee grote priemgetallen p en q, en het wordt gebruikt als modulus voor vercijferings- en ontcijferingsbewerkingen.
+reviewed: false

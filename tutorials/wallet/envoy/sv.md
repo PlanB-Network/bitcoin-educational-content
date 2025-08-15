@@ -23,13 +23,13 @@ Med ett pris på 199 USD är Passport positionerad som en avancerad Hardware Wal
 ![Image](assets/fr/01.webp)
 
 
-För att hantera din säkra Wallet på ett Passport har du flera alternativ. Denna Hardware Wallet är kompatibel med de flesta Wallet-hanteringsprogram på marknaden, inklusive Sparrow Wallet, Spectre Desktop, Nunchuk, Keeper, bland andra.
+För att hantera din säkra Wallet på en Passport har du flera alternativ. Denna Hardware Wallet är kompatibel med de flesta Wallet-hanteringsprogram på marknaden, inklusive Sparrow wallet, Specter Desktop, Nunchuk, Keeper, bland andra.
 
 
-I den här handledningen, som riktar sig till nybörjare och avancerade användare, kommer vi att upptäcka hur man använder Envoy-applikationen med din Passport. Det är det enklaste sättet att få ut så mycket som möjligt av din Hardware Wallet.
+I den här handledningen, som riktar sig till nybörjare och avancerade användare, kommer vi att upptäcka hur du använder Envoy-applikationen med ditt Passport. Det är det enklaste sättet att få ut så mycket som möjligt av din Hardware Wallet.
 
 
-Om du är en avancerad användare och vill utforska mer komplexa funktioner rekommenderar jag att du tittar på den här andra handledningen där vi konfigurerar Passport med Sparrow Wallet:
+Om du är en avancerad användare och vill utforska mer komplexa funktioner rekommenderar jag att du tittar på den här andra handledningen där vi konfigurerar Passport med Sparrow wallet :
 
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
@@ -189,7 +189,7 @@ Bekräfta testresultatet i ditt pass.
 ## Ställa in PIN-koden
 
 
-Därefter kommer steget med PIN-koden. PIN-koden låser upp ditt pass. Den ger därför skydd mot obehörig fysisk åtkomst. PIN-koden är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras på 12 eller 24 ord.
+Därefter kommer steget med PIN-koden. PIN-koden låser upp ditt pass. Den ger därför skydd mot obehörig fysisk åtkomst. PIN-koden är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kan du genom att inneha din Mnemonic-fras på 12 eller 24 ord återfå tillgång till dina bitcoins.
 
 
 ![Image](assets/fr/15.webp)
@@ -335,7 +335,7 @@ Klicka på "*Fortsätt*".
 Ditt pass kommer nu att generate din "*Backup Code*". Detta är en serie siffror som kan användas för att dekryptera en säkerhetskopia av din Wallet som finns lagrad på ett MicroSD-minne. Detta säkerhetskopieringssystem, som är specifikt för Foundation-enheter, utgör en ytterligare säkerhetskopia till din Mnemonic-fras, men är inte kompatibel med annan Bitcoin-programvara.
 
 
-Om du bestämmer dig för att använda denna "*Backup Code*", se till att förvara den på en annan plats än ditt MicroSD-minne som innehåller den krypterade säkerhetskopian av din Wallet. Du kan dock välja att inte använda det här systemet om du anser att en bra säkerhetskopia av din Mnemonic-fras är tillräcklig.
+Om du bestämmer dig för att använda denna "*Backup Code*" ska du se till att förvara den på en annan plats än ditt MicroSD-minne som innehåller den krypterade säkerhetskopian av din Wallet. Du kan dock välja att inte använda detta system om du anser att en bra säkerhetskopia av din Mnemonic-fras är tillräcklig.
 
 
 ![Image](assets/fr/31.webp)
@@ -353,7 +353,7 @@ Om ett MicroSD-kort har satts i har den krypterade säkerhetskopian av din Walle
 ![Image](assets/fr/33.webp)
 
 
-Ditt pass kommer att visa din Mnemonic-fras på 12 ord. Denna Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till ditt pass.
+Ditt pass kommer att visa din 12-ords Mnemonic fras. Denna Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till ditt pass.
 
 
 Frasen på 12 ord återställer tillgången till dina bitcoins i händelse av förlust, stöld eller brott på ditt pass. Det är därför mycket viktigt att spara det noggrant och förvara det på en säker plats.
@@ -391,7 +391,7 @@ Ditt pass har konfigurerats på ett framgångsrikt sätt. Klicka på bekräftels
 ## Konfigurera Wallet på Envoy
 
 
-I den här guiden visar jag hur du använder Passport med Envoy-applikationen. Denna Hardware Wallet är dock också kompatibel med Sparrow Wallet, Keeper, BlueWallet, Nunchuk, Specter och många andra...
+I den här guiden visar jag hur du använder Passport med Envoy-applikationen. Denna Hardware Wallet är dock också kompatibel med Sparrow wallet, Keeper, BlueWallet, Nunchuk, Specter och många andra...
 
 
 ![Image](assets/fr/66.webp)
@@ -494,7 +494,7 @@ Undermenyn "*Device*" ger dig möjlighet att anpassa ljusstyrkan på skärmen, s
 ![Image](assets/fr/43.webp)
 
 
-Med undermenyn "*Backup*" kan du exportera din krypterade Wallet-säkerhetskopia, kontrollera giltigheten för en befintlig säkerhetskopia eller leta upp din "*Backup Code*" igen.
+I undermenyn "*Backup*" kan du exportera din krypterade Wallet-säkerhetskopia, kontrollera giltigheten för en befintlig säkerhetskopia eller leta upp din "*Backup Code*" igen.
 
 
 ![Image](assets/fr/44.webp)
@@ -512,13 +512,13 @@ I undermenyn "*Bitcoin*" kan du ändra den enhet som visas (BTC eller satoshis),
 ![Image](assets/fr/46.webp)
 
 
-I "*Advanced*" kan du se orden i din Mnemonic-fras, utföra åtgärder på den isatta MicroSD-enheten, återställa ditt Passport till fabriksinställningarna eller utföra en äkthetskontroll, som tidigare.
+I "*Avancerat*" kan du se orden i din Mnemonic-fras, utföra åtgärder på den isatta MicroSD-enheten, återställa ditt Passport till fabriksinställningarna eller utföra en äkthetskontroll, som tidigare utförts.
 
 
 ![Image](assets/fr/47.webp)
 
 
-Du kan aktivera "*Security Words*", en funktion som ger en Layer av säkerhet genom att visa två specifika ord när du låser upp enheten efter att ha angett de fyra första siffrorna i PIN-koden. Dessa ord, som kan sparas under konfigurationen, säkerställer att Passport inte har bytts ut eller manipulerats. Om det vid ett senare tillfälle skulle uppstå en avvikelse, rekommenderar vi att du inte använder enheten. Jag råder dig att aktivera det här alternativet för att förhindra de flesta risker för fysisk kompromettering av enheten.
+Du kan aktivera "*Security Words*", en funktion som ger en Layer av säkerhet genom att visa två specifika ord när du låser upp enheten efter att ha angett de fyra första siffrorna i PIN-koden. Dessa ord, som sparas under konfigurationen, säkerställer att Passport inte har bytts ut eller manipulerats. Om det vid ett senare tillfälle skulle uppstå en avvikelse rekommenderar vi att du inte använder enheten. Jag råder dig att aktivera det här alternativet för att förhindra de flesta risker för fysisk kompromettering av enheten.
 
 
 ![Image](assets/fr/48.webp)
@@ -602,7 +602,7 @@ Lägg till en etikett till din transaktion för att hålla en tydlig förtecknin
 ![Image](assets/fr/82.webp)
 
 
-Envoy visar sedan en PSBT (*Partially Signed Bitcoin Transaction*). Programmet har byggt upp transaktionen, men saknar fortfarande signatur(er) för att låsa upp de bitcoins som används i inmatningen. Dessa signaturer kan endast utföras av Passport, som är värd för din seed och ger tillgång till de privata nycklar som behövs för att signera transaktionen.
+Envoy visar sedan en PSBT (*Partially Signed Bitcoin Transaction*). Programmet har skapat transaktionen, men saknar fortfarande signatur(er) för att låsa upp de bitcoins som används i inmatningen. Dessa signaturer kan endast utföras av Passport, som är värd för din seed som ger tillgång till de privata nycklar som behövs för att signera transaktionen.
 
 
 ![Image](assets/fr/83.webp)
@@ -650,7 +650,7 @@ I ditt pass ser du din signerade transaktion i form av en QR-kod.
 ![Image](assets/fr/90.webp)
 
 
-I Envoy-applikationen klickar du på QR-kodikonen och skannar sedan PSBT som visas på din passskärm.
+I Envoy-applikationen klickar du på QR-kodikonen och skannar sedan PSBT som visas på skärmen i ditt pass.
 
 
 ![Image](assets/fr/91.webp)
@@ -668,10 +668,10 @@ Din transaktion väntar nu på bekräftelse. Du kan följa dess status direkt fr
 ![Image](assets/fr/93.webp)
 
 
-Grattis, du vet nu hur du konfigurerar och använder Passport med Envoy-applikationen. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnade en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
+Grattis, du vet nu hur du konfigurerar och använder Passport med Envoy-programmet. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnade en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
 
 
-För ytterligare information, se vår handledning om Liana-programvaran:
+För ytterligare information, se vår handledning om Liana-programvara:
 
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

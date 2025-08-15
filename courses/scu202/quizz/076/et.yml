@@ -1,0 +1,9 @@
+question: Miks kasutada Androidis sellist tulemüürirakendust nagu NetGuard või RethinkDNS?
+answer: Kontrollida individuaalset Interneti-ühendust
+wrong_answers:
+  - Salvestage automaatselt kõik andmed
+  - Kõikide Wi-Fi võrkude blokeeringu tühistamine
+  - Eemaldage kõik viirused
+explanation: |
+  Need rakendused toimivad kohalike tulemüüridena, võimaldades väljamineva liikluse blokeerimist või lubamist rakenduste kaupa.
+reviewed: false

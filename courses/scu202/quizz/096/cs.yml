@@ -1,0 +1,9 @@
+question: Jaký typ protokolu by měl být aktivován pro šifrování požadavků DNS v místní síti?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS přes HTTPS) a DoT (DNS přes TLS) šifrují požadavky DNS a zabraňují jejich zachycení.
+reviewed: false

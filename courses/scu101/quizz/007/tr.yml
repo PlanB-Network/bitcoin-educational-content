@@ -1,0 +1,14 @@
+question: Özel tarama nedir?
+answer: İnternet tarayıcılarının tarama geçmişini, geçici internet dosyalarını, form verilerini, çerezleri ve kullanıcı adları ile parolaları depolamasını engelleyen bir özellik.
+wrong_answers:
+  - Çevrimiçi etkinliğinizi internet servis sağlayıcınızdan gizleyen bir özellik.
+  - İnternette anonim olarak gezinmenizi sağlayan bir özellik.
+  - Cihazınızı virüslerden ve diğer kötü amaçlı yazılımlardan koruyan bir özellik.
+explanation: |
+  Gizli tarama, internette gezinmeyi engelleyen bir özelliktir
+  tarayıcıların tarama geçmişini, geçici internet
+  dosyaları, form verileri, çerezler ve kullanıcı adları ve parolaları.
+  Bununla birlikte, çevrimiçi etkinliğinizi
+  veya internet servis sağlayıcısına göz atmanıza izin verir
+  anonim olarak internet.
+reviewed: true

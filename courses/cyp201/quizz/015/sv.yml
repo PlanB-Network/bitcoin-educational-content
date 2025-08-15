@@ -1,0 +1,9 @@
+question: Vilken typ av nyckel används för att låsa UTXO:er på Bitcoin?
+answer: Offentlig nyckel
+wrong_answers:
+  - Privat nyckel
+  - seed Hash
+  - Mnemonic-fras
+explanation: |
+  UTXO:er låses med en publik nyckel eller dess Hash, och låses upp med motsvarande privat nyckel.
+reviewed: false

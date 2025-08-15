@@ -1,0 +1,88 @@
+# UUID of the tutorial
+# generate a random uuid v4
+id: b31eaebb-4259-47b1-a195-9d4ed2655441
+
+# Characteristic of tutorial
+
+# Project
+# Write the project name
+project_id: uuid_of_the_project_author_of_tutorial
+
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
+level: intermediate
+
+# Category
+# Category can be choosen from the following list (only look at words with lowercase letters):
+#Tutorials/
+#├── WALLET/
+#│   ├── desktop
+#│   ├── hardware
+#│   ├── mobile
+#│   └── backup
+#├── NODE/
+#│   ├── bitcoin
+#│   ├── lightning-network
+#│   └── others
+#├── MINING/
+#│   ├── hardware
+#│   └── pool
+#├── BUSINESS/
+#│   ├── point-of-sale
+#│   └── others
+#├── EXCHANGE/
+#│   ├── peer-to-peer
+#│   └── centralized
+#├── PRIVACY/
+#│   ├── on-chain
+#│   └── analysis
+#├── COMPUTER SECURITY/
+#│   ├── authentication
+#│   ├── communication
+#│   ├── operating system
+#│   └── data
+#└── CONTRIBUTION/
+#    ├── tutorial
+#    ├── resource
+#    └── others
+category: authentication
+
+# Professor
+# Insert the UUID of the person that authored this tutorial
+professor_id: uuid_of_the_professor_author_of_tutorial
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
+tags:
+  - cypherpunk
+  - proof-of-work
+  - privacy
+
+# OPTIONAL
+# its use is to mention the original source at both the beginning and at the end of the tutorial
+credit_link: https://link_to_the_original_tuto.com
+
+# Proofreading metadata
+# Only the original author needs to add this data related to initial proofreading
+# Any further data will be automatically added after each proofreading
+#
+# This information are provided by PBN team, no need to specify if you are a contributor.
+# for PBN staff: an entry is created for each language specifying:
+# - language: language to review
+# - last_contribution_date: the date when last contribution has been received
+# - urgency: level of urgency from 1 (low urgency) to X (high urgency)
+# - contributor_names: list of contributors PBN ids
+# - reward: amount of sats available for reward
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: 1 # default value
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: 0 # default value

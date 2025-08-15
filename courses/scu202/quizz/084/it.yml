@@ -1,0 +1,9 @@
+question: Qual è il principale difetto di Signal per quanto riguarda l'anonimato?
+answer: Richiede l'uso di un numero di telefono
+wrong_answers:
+  - Non è open source
+  - Memorizza i messaggi su un server centrale
+  - Non cripta i file scambiati
+explanation: |
+  Signal richiede un numero di telefono per registrarsi, il che introduce una potenziale tracciabilità anche se il protocollo garantisce una forte crittografia.
+reviewed: false

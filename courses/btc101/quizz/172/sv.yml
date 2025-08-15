@@ -1,0 +1,8 @@
+question: Vilken är den största skillnaden mellan keynesiansk och österrikisk ekonomi när det gäller det monetära systemet?
+answer: Keynesiansk ekonomi tar inte hänsyn till de tidsmässiga och dynamiska aspekterna av situationer och resurser.
+wrong_answers:
+  - Keynesiansk ekonomi främjar överkonsumtion av valutor.
+  - Keynesiansk ekonomi erkänner att situationer och resurser är knappa.
+  - Keynesiansk ekonomi uppmuntrar till inflation.
+explanation: >-
+reviewed: true

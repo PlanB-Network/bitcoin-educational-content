@@ -1,0 +1,9 @@
+question: När du köper Bitcoin, vad är ett rekommenderat tillvägagångssätt för att hantera dess prisvolatilitet?
+answer: Ackumulera Bitcoin successivt med jämna mellanrum och ha ett långsiktigt perspektiv.
+wrong_answers:
+  - Försök att förutse kortsiktiga marknadstoppar och sälj omedelbart.
+  - Gå all-in med hela företagets kassa på en gång.
+  - Köp Bitcoin endast de dagar då priset har stigit kraftigt.
+explanation: |
+  Regelbundna köp över tid (genomsnittlig kostnad per dollar) bidrar till att jämna ut volatiliteten. En längre tidshorisont (t.ex. 4 år) minskar effekten av kortsiktiga prissvängningar.
+reviewed: false

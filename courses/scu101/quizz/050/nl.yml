@@ -1,0 +1,11 @@
+question: Wat is het voordeel van eenmalige wachtwoorden (HOTP en TOTP) ten opzichte van sms voor 2FA?
+answer: Ze vereisen cryptografische berekeningen en worden lokaal opgeslagen in plaats van in het geheugen.
+wrong_answers:
+  - Ze vereisen cryptografische berekeningen en worden in het geheugen opgeslagen in plaats van lokaal.
+  - Ze vereisen geen cryptografische berekeningen en worden lokaal en in het geheugen opgeslagen.
+  - Ze zijn gemakkelijker te onthouden en sneller in te typen.
+explanation: |
+  Eenmalige wachtwoorden (HOTP en TOTP) zijn veiliger dan SMS
+  omdat ze cryptografisch berekend moeten worden en
+  lokaal worden opgeslagen in plaats van in het geheugen.
+reviewed: true

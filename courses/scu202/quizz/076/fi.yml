@@ -1,0 +1,9 @@
+question: Miksi käyttää NetGuardin tai RethinkDNS:n kaltaista palomuurisovellusta Androidissa?
+answer: Yksittäisten Internet-yhteyksien valvonta
+wrong_answers:
+  - Tallenna kaikki tiedot automaattisesti
+  - Poista kaikkien Wi-Fi-verkkojen esto
+  - Poista virukset
+explanation: |
+  Nämä sovellukset toimivat paikallisina palomuureina, joiden avulla lähtevä liikenne voidaan estää tai sallia sovelluskohtaisesti.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vilka är de potentiella affärsmöjligheter som Lightning Network erbjuder?
+answer: Nya ekonomiska modeller där konsumenterna betalar för innehåll baserat på vad de konsumerar.
+wrong_answers:
+  - Nya ekonomiska modeller där konsumenterna betalar med olika kryptovalutor.
+  - Nya ekonomiska modeller där konsumenter använder personliga blockkedjor.
+  - Nya ekonomiska modeller där konsumenterna inte betalar för något innehåll.
+explanation: >-
+reviewed: true

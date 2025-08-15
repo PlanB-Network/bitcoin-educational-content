@@ -1,0 +1,9 @@
+question: Mnemonic ifadesinden seed'i türetmek için hangi fonksiyon kullanılır?
+answer: HMAC-SHA512 ile PBKDF2
+wrong_answers:
+  - Yalnız SHA256
+  - Çift SHA256
+  - AES-256
+explanation: |
+  seed, Mnemonic ifadesinden ve passphrase'den HMAC-SHA512 ve 2048 iterasyon ile PBKDF2 işlevi kullanılarak oluşturulur.
+reviewed: false

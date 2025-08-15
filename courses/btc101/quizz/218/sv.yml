@@ -1,0 +1,11 @@
+question: Hur ser Bitcoin:s adoption ut enligt beskrivningen i den här kursen?
+answer: Viral.
+wrong_answers:
+  - Långsamt och stadigt.
+  - Snabb och okontrollerbar.
+  - Sporadisk och oförutsägbar.
+explanation: |
+  I kurslitteraturen beskrivs Bitcoin:s spridning som viral,
+  vilket antyder att det sprids snabbt och brett från en person till en annan
+  person till en annan, ungefär som ett virus, men ett bra sådant.
+reviewed: true

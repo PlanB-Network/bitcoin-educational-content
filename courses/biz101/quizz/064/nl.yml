@@ -1,0 +1,9 @@
+question: Welke functie maakt de Zwitserse Bitcoin Pay-oplossing bijzonder geschikt voor kleine bedrijven in het Essential-profiel?
+answer: Een gebruiksvriendelijke PoS-app
+wrong_answers:
+  - Geavanceerde functies voor handelen in meerdere valuta
+  - Een Wallet beheer met meerdere handtekeningen
+  - Volledige Blockchain analytische integratie
+explanation: |
+  Swiss Bitcoin Pay is ontworpen met een eenvoudige PoS Interface die de dagelijkse werkzaamheden vereenvoudigt.
+reviewed: false

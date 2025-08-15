@@ -1,0 +1,9 @@
+question: Quel logiciel libre est couramment utilisé comme référence pour les serveurs DNS ?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Squid
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) est le logiciel libre de référence pour la majorité des serveurs DNS dans le monde.
+reviewed: false

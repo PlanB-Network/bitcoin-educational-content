@@ -32,7 +32,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -57,7 +57,7 @@ address_line_1: Paris, Prancis
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -78,7 +78,7 @@ tag:
   - Internasional
 ```
 ![event](assets/09.webp)
-Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![event](assets/10.webp)
@@ -139,3 +139,4 @@ Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meme
 Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub PlanB Network:
 ![event](assets/38.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)
+

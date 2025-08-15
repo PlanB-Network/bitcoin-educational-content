@@ -1,0 +1,9 @@
+question: Modern merkezi para sistemlerinin bir dezavantajı nedir?
+answer: Supply parasının yönetiminde genellikle şeffaflık ve denetlenebilirlikten yoksundurlar.
+wrong_answers:
+  - Her para birimi için istikrarlı, değişmeyen bir değer sağlarlar.
+  - Tüm aracıları ortadan kaldırır ve anlaşmaları milisaniyelere kadar hızlandırırlar.
+  - Para ihracının tamamen ademi merkeziyetçi ve enflasyona dayanıklı olmasını sağlarlar.
+explanation: |
+  Merkezi sistemler, genellikle şeffaf bir gözetim olmaksızın istedikleri zaman para basabilirler. Bu durum enflasyon, bankalar arası karmaşık hesaplaşmalar ve potansiyel kötü yönetim nedeniyle güveni aşındırabilir.
+reviewed: false

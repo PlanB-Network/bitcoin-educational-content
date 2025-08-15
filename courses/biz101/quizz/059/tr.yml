@@ -1,0 +1,9 @@
+question: Starter profilinde hangi iki Wallet tipi dikkate alınır?
+answer: Velayete bağlı ve velayete bağlı olmayan Yıldırım cüzdanları
+wrong_answers:
+  - Hot ve Cold depolama Bitcoin cüzdanları
+  - Multisig ve kağıt Bitcoin cüzdanlar
+  - Donanım ve beyin Lightning cüzdanları
+explanation: |
+  Başlangıç profili, gözetimli veya gözetimsiz Lightning cüzdanlarını kullanır.
+reviewed: false

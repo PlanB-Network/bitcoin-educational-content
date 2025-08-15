@@ -1,0 +1,9 @@
+question: Je! ni utaratibu gani wa RGB unahakikisha upinzani dhidi ya matumizi mara mbili?
+answer: Single-Use Seal
+wrong_answers:
+  - Seal ya matumizi mengi
+  - Sahihi mara mbili
+  - Ushahidi-wa-Dau
+explanation: |
+  Single-Use Seal inaongeza ukweli kwamba UTXO inaweza kutumika mara moja tu, kuhakikisha upinzani wa matumizi mara mbili ndani ya mikataba smart ya RGB.
+reviewed: false

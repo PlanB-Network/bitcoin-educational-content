@@ -1,0 +1,39 @@
+id: 3e589974-da4c-418b-a642-fd895c414613
+
+# Characteristic of tutorial
+
+project_id: 249c4ec8-cf7f-449b-a9ab-c3aaa07b3a78
+
+level: beginner
+
+category: centralized
+
+professor_id: d2333a51-25ec-4fb1-8635-3864f875feb6
+
+tags:
+  - guides
+  - investment
+  - bitcoin-only
+
+credit_link: https://getbittr.com/blog/how-do-i-buy-bitcoin-using-bluewallet https://getbittr.com/blog/how-do-i-buy-bitcoin-into-my-bitbox
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-25
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: es
+    last_contribution_date: 2025-07-25
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: fr
+    last_contribution_date: 2025-07-25
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1

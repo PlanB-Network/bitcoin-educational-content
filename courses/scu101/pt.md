@@ -331,7 +331,9 @@ Esta segunda etapa pode ser:
 - Um código temporário enviado por SMS.
 - Um código gerado por um aplicativo como o Google Authenticator ou o Authy.
 - Uma chave de segurança física que você insere no seu computador.
+
   ![](assets/notext/19.webp)
+
   Com o 2FA, mesmo que um hacker obtenha sua senha, ele não poderá acessar sua conta sem esse segundo fator de verificação. Isso torna o 2FA essencial para proteger suas contas online contra acessos não autorizados.
 
 ### Qual opção escolher?
@@ -343,6 +345,8 @@ As diferentes opções para autenticação forte oferecem níveis variáveis de 
 - Tokens físicos, como chaves USB ou cartões inteligentes, oferecem segurança ideal gerando uma chave privada única para cada site e verificando a URL antes de autorizar a conexão.
 
 Para uma segurança ideal com autenticação forte, é recomendado usar um e-mail seguro, um gerenciador de senhas seguro e adotar o 2FA usando YubiKeys. Também é aconselhável comprar duas YubiKeys para prever perda ou roubo, por exemplo, mantendo uma cópia de backup em casa e outra consigo.
+
+Quanto às ameaças potenciais à autenticação de dois fatores (2FA) via SIM, um exemplo comum é o ataque de troca de SIM, onde um atacante rouba o número de telefone de um usuário vinculando-o a um cartão SIM controlado pelo atacante. Existem várias maneiras pelas quais um atacante pode realizar o ataque; no entanto, essa ameaça geralmente é uma preocupação significativa apenas para indivíduos de alto perfil e pessoas de interesse.
 
 A biometria pode ser usada como substituto, mas é menos segura do que a combinação de conhecimento e posse. Os dados biométricos devem permanecer no dispositivo de autenticação e não devem ser divulgados online. É importante levar em consideração o modelo de ameaça associado aos diferentes métodos de autenticação e adaptar sua prática de acordo.
 
@@ -411,18 +415,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Configuração de Backup
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-E para proteger seus arquivos armazenados em mídias removíveis como um pendrive USB ou um disco rígido externo, também mostro como criptografar e descriptografar essas mídias facilmente usando o VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Mudança de navegador & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -438,6 +430,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Além disso, descubra como usar o Tor Browser, um navegador especificamente projetado para proteger sua privacidade online:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Configuração de Backup
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+E para proteger seus arquivos armazenados em mídias removíveis como um pendrive USB ou um disco rígido externo, também mostro como criptografar e descriptografar essas mídias facilmente usando o VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Vá além
 

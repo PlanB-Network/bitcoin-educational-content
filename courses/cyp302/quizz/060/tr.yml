@@ -1,0 +1,9 @@
+question: Hangi cevap kriptografinin iki ana dalından birini temsil eder?
+answer: Simetrik kriptografi
+wrong_answers:
+  - Kriptoloji
+  - Homomorfik şifreleme
+  - Kriptanaliz
+explanation: |
+  Simetrik kriptografi, mesajları şifrelemek ve şifrelerini çözmek için tek bir anahtarın kullanıldığı şifreleme şemalarını içeren kriptografinin ana dalıdır.
+reviewed: false

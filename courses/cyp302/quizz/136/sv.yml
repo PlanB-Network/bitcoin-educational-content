@@ -1,0 +1,9 @@
+question: Hur kan en onlinetjänst verifiera ett lösenord utan att lagra det direkt?
+answer: Genom att jämföra Hash för det inmatade lösenordet med det som finns i databasen
+wrong_answers:
+  - Genom att dekryptera det lagrade lösenordet för att verifiera det
+  - Genom att använda en publik nyckel för att verifiera identiteten
+  - Genom att jämföra lösenordet direkt med andra användares lösenord
+explanation: |
+  Tjänsten genererar en Hash av det inmatade lösenordet och jämför det med det lagrade, utan att någonsin direkt lagra lösenordet, vilket ger ökad säkerhet.
+reviewed: false

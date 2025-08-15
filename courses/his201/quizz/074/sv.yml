@@ -1,0 +1,9 @@
+question: Vad var förnamnet på den telekommunikationsingenjör från Temple City som en Newsweek-journalist felaktigt identifierade som Satoshi Nakamoto i mars 2014?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Hans fullständiga namn var Dorian Prentice Satoshi Nakamoto. Han var av japanskt ursprung. Se [Newsweek-artikeln](https: //www.newsweek.com/2014/03/14/face-behind-Bitcoin-247957.html).
+reviewed: true

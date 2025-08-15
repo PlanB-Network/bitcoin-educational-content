@@ -1,0 +1,12 @@
+question: Bitcoinler nerede saklanıyor?
+answer: Bitcoin Blockchain'da.
+wrong_answers:
+  - Bitcoin Wallet'te.
+  - Wallet'ün kurulu olduğu cihazda.
+  - Federal Rezerv kasasında.
+explanation: |
+  Özel anahtarlarınız Wallet'inizde saklanıyor olsa da
+  bitcoinlerin kendileri aslında Bitcoin'da saklanır
+  Blockchain, halka açık dağıtılmış Ledger içinde
+  gW-6 eşler arası ağ.
+reviewed: true

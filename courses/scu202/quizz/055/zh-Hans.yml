@@ -1,0 +1,9 @@
+question: 哪种渲染引擎是当今最流行的，并为大多数现代浏览器提供动力？
+answer: 眨眼
+wrong_answers:
+  - 壁虎
+  - 三叉戟
+  - WebKit
+explanation: |
+  Blink 由谷歌在 WebKit Fork 基础上开发而成，如今已成为 Chrome、Edge、Opera、Brave、Vivaldi 等浏览器的主流渲染引擎。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet'de seed'nin rolü nedir?
+answer: Tüm anahtarların türetilmesi için başlangıç noktası olarak hizmet etmek
+wrong_answers:
+  - Wallet'ün işlemlerini saklayın
+  - Doğrudan generate ana açık anahtar
+  - İşlem gizliliğini sağlayın
+explanation: |
+  seed, Mnemonic ifadesinden ve passphrase'ten türetilen 512 bitlik bir dizidir. Wallet'deki tüm anahtarların temelini oluşturur.
+reviewed: false

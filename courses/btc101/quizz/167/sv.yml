@@ -1,0 +1,13 @@
+question: Vilken är huvudproblematiken med det nuvarande finansiella systemet i förhållande till miljön?
+answer: Det uppmuntrar till överkonsumtion och skuldsättning.
+wrong_answers:
+  - Det främjar användningen av fossila bränslen.
+  - Bolaget investerar inte i förnybar energi.
+  - Den reglerar inte produktionen av varor.
+explanation: |
+  Det nuvarande finansiella systemet kritiseras för att uppmuntra
+  överkonsumtion och skuldsättning, vilket leder till allvarliga
+  miljöproblem. Detta beror på att det är lätt att få tillgång till
+  kreditgivning, bankernas monetära utgivning och användningen av
+  fraktionell reservbankverksamhet.
+reviewed: true

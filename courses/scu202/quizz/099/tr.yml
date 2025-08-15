@@ -1,0 +1,9 @@
+question: Ev ağınızın güvenliğini sağlamak için en iyi Wi-Fi şifreleme protokolü hangisidir?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Hızlı BSS
+explanation: |
+  WPA3, önceki sürümlerin kusurlarını düzelten ve saldırılara karşı daha iyi koruma sunan en yeni ve en güvenli protokoldür.
+reviewed: false

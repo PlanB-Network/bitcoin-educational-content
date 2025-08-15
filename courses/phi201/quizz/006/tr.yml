@@ -1,0 +1,9 @@
+question: Bastiat'ya göre baskının kaynağı nedir?
+answer: Güç için susuzluk
+wrong_answers:
+  - İnsanların doğasında var olan kötülük
+  - Güç yokluğu
+  - Ekonomik eşitsizlikler
+explanation: |
+  Bastiat, güce duyulan açlığı baskının temel kaynağı olarak tanımlar ve gücü elinde tutanların genellikle bunu genişletmeye ve başkalarını kontrol etmeye çalıştığını, bunun da bireysel hakların suiistimaline ve ihlaline yol açtığını savunur.
+reviewed: true

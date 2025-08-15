@@ -1,0 +1,9 @@
+question: Vad kan jag göra med en Invoice i en RGB-överföring?
+answer: Ange typ av transaktion, den mängd tillgångar som krävs och mottagarens Seal Definition
+wrong_answers:
+  - Skapa en ny Genesis för tillgången
+  - generate en ny Schema för att ändra tillgångens Business Logic
+  - Bygga en PSBT för att ersätta Bitcoin-transaktionen
+explanation: |
+  Invoice används för att informera utfärdaren av transaktionen om typen av operation, mängden tillgångar som ska överföras och destinationen (Seal Definition).
+reviewed: false

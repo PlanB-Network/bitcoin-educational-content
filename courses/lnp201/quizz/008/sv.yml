@@ -1,0 +1,9 @@
+question: Hur fungerar en 2/2 multisignatur Address i Bitcoin?
+answer: Det krävs två underskrifter för att låsa upp och använda medlen.
+wrong_answers:
+  - Det gör det möjligt att spendera pengarna med bara en av de två tangenterna.
+  - Den godkänner transaktioner endast i specifika fall av låsning.
+  - Den används endast för att skicka pengar till offentliga adresser.
+explanation: |
+  En 2/2 multisignatur Address kräver underskrifter av båda inblandade parter för att pengarna ska kunna användas, vilket används för att säkra Lightning-kanaler.
+reviewed: false

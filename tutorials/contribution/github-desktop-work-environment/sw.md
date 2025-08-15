@@ -11,11 +11,11 @@ Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin kati
 Ikiwa ungependa kuchangia PlanB Network, utahitaji kutumia GitHub kupendekeza mabadiliko. Ili kufanya hivyo, una chaguzi mbili:
 
 
-- Changia moja kwa moja kupitia mtandao wa GitHub Interface**: Hii ndiyo njia rahisi zaidi. Ikiwa wewe ni mwanzilishi au unapanga kutoa michango michache tu, chaguo hili labda ndilo bora kwako;
-- Changia ndani kwa kutumia Git**: Njia hii inafaa zaidi ikiwa unapanga kutoa michango ya mara kwa mara au muhimu kwa Mtandao wa PlanB. Ingawa kusanidi mazingira ya ndani ya Git kwenye kompyuta yako kunaweza kuonekana kuwa ngumu mwanzoni, mbinu hii ni bora zaidi kwa muda mrefu. Inaruhusu usimamizi rahisi zaidi wa mabadiliko. Ikiwa wewe ni mgeni kwa hili, usijali, **tunaelezea mchakato mzima wa kusanidi mazingira yako katika somo hili** (ahadi, hutahitaji kuandika mistari yoyote ya amri ^^).
+- **Changia moja kwa moja kupitia mtandao wa GitHub Interface**: Hii ndiyo njia rahisi zaidi. Ikiwa wewe ni mwanzilishi au unapanga kutoa michango michache tu, chaguo hili labda ndilo bora kwako;
+- **Changia ndani kwa kutumia Git**: Njia hii inafaa zaidi ikiwa unapanga kutoa michango ya mara kwa mara au muhimu kwa Mtandao wa PlanB. Ingawa kusanidi mazingira ya ndani ya Git kwenye kompyuta yako kunaweza kuonekana kuwa ngumu mwanzoni, mbinu hii ni bora zaidi kwa muda mrefu. Inaruhusu usimamizi rahisi zaidi wa mabadiliko. Ikiwa wewe ni mgeni kwa hili, usijali, **tunaelezea mchakato mzima wa kusanidi mazingira yako katika somo hili** (ahadi, hutahitaji kuandika mistari yoyote ya amri ^^).
 
 
-Ikiwa hujui GitHub ni nini, au ikiwa unataka kujifunza zaidi kuhusu masharti ya kiufundi yanayohusiana na Git na GitHub, ninapendekeza usome makala yetu ya utangulizi ili kujifahamisha na dhana hizi.
+Ikiwa hujui GitHub ni nini, au ikiwa unataka kujifunza zaidi kuhusu masharti ya kiufundi yanayohusiana na Git na GitHub, ninapendekeza usome makala yetu ya utangulizi ili kufahamishana na dhana hizi.
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Kuanza, bila shaka utahitaji akaunti ya GitHub. Ikiwa tayari unayo, unaweza kuingia, vinginevyo, unaweza kutumia mafunzo yetu kuunda mpya.
+- Kwanza, bila shaka utahitaji akaunti ya GitHub. Ikiwa tayari unayo, unaweza kuingia, vinginevyo, unaweza kutumia mafunzo yetu kuunda mpya.
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![github-desktop](assets/2.webp)
 
 
-- Ukurasa wa uthibitishaji utafunguliwa kwenye kivinjari chako. Ingiza barua pepe yako Address na nenosiri ulilochagua wakati wa kuunda akaunti yako, kisha ubofye kitufe cha `Ingia`:
+- Ukurasa wa uthibitishaji utafunguliwa kwenye kivinjari chako. Ingiza barua pepe yako kisha Address na nenosiri ulilochagua wakati wa kuunda akaunti yako, kisha ubofye kitufe cha `Ingia`:
 
 ![github-desktop](assets/3.webp)
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Hatua ya 2: Sakinisha Obsidian
 
 
-Wacha tuendelee kusakinisha programu ya uandishi. Hapa, una chaguzi kadhaa. Utahitaji programu ambayo inasaidia kuhariri faili za Markdown, kwani PlanB Network hutumia umbizo hili kwa faili za maandishi kwenye hazina yake.
+Wacha tuendelee kusakinisha programu ya uandishi. Hapa, una chaguzi kadhaa. Utahitaji programu ambayo inasaidia kuhariri faili za Markdown, kwani PlanB Network hutumia umbizo hii kwa faili ya maandishi kwenye hazina yake.
 
 
 Kuna programu nyingi maalum za kuhariri faili za Markdown, kama vile Typora, iliyoundwa mahsusi kwa maandishi. Ingawa si bora, inawezekana pia kuchagua kihariri cha msimbo, kama vile Visual Studio Code (VSC) au Maandishi Madogo. Walakini, kama mwandishi, napendelea kutumia programu ya Obsidian. Hebu tuone pamoja jinsi ya kusakinisha na kuanza nayo.
@@ -170,7 +170,7 @@ Marekebisho yako mengi yatakuwa kwenye faili katika umbizo la Markdown (`.md`). 
 Kwa mfano, unapounda somo jipya, utahitaji kuunda faili ya YAML (`.yml`) ili kuweka lebo za mafunzo yako, kichwa chake, na kitambulisho chako cha mwalimu. Obsidian haitoi uwezekano wa kurekebisha aina hii ya faili, kwa hivyo utahitaji kihariri cha msimbo.
 
 
-Kwa hili, chaguzi kadhaa zinapatikana kwako. Ingawa notepad ya kawaida ya kompyuta yako inaweza kutumika kwa marekebisho haya, suluhisho hili si bora kwa kazi safi. Ninapendekeza kuchagua programu iliyoundwa mahususi kwa madhumuni haya, kama vile [VS Code](https://code.visualstudio.com/download) au [Maandishi Madogo](https://www.sublimetext.com/download). Maandishi Matukufu, yakiwa mepesi sana, yatatosha zaidi mahitaji yetu.
+Kwa hii, chaguzi kadhaa zinapatikana kwako. Ingawa notepad ya kawaida ya kompyuta yako inaweza kutumika kwa marekebisho haya, suluhisho hili si bora kwa kazi safi. Ninapendekeza kuchagua programu iliyoundwa mahususi kwa madhumuni haya, kama vile [VS Code](https://code.visualstudio.com/download) au [Maandishi Madogo](https://www.sublimetext.com/download). Maandishi Matukufu, yakiwa mepesi sana, yatatosha zaidi mahitaji yetu.
 
 
 - Sakinisha mojawapo ya programu hizi, na uiweke kando kwa marekebisho yako ya baadaye. ![github-desktop](assets/26.webp)

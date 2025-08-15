@@ -1,0 +1,9 @@
+question: Vad illustrerar fiskarens berättelse om kapitalets natur?
+answer: Kapital representerar sparade resurser som gör det möjligt att bygga verktyg för att förbättra framtida produktivitet.
+wrong_answers:
+  - Kapital är bara ett lager av konsumtionsvaror som väntar på att konsumeras omedelbart.
+  - Kapital måste skapas direkt genom statliga lån.
+  - Kapital är bara viktigt för stora företag, inte för små entreprenörer.
+explanation: |
+  Den fiskare som sparar fisk för några dagar för att bygga ett spjut skjuter upp omedelbar konsumtion för framtida vinster. Detta exempel visar hur sparande (kapitalackumulation) leder till högre effektivitet och större produktion i slutändan.
+reviewed: false

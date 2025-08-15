@@ -1,0 +1,9 @@
+question: Jaki rodzaj ataku komputerowego wykorzystuje fałszywe wiadomości w celu uzyskania informacji?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Wstrzyknięcie kodu SQL
+explanation: |
+  Phishing wykorzystuje zwodnicze wiadomości e-mail lub wiadomości, aby zachęcić ludzi do ujawnienia poufnych informacji lub zainstalowania złośliwego oprogramowania.
+reviewed: false

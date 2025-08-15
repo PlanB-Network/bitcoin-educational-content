@@ -54,6 +54,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -80,6 +81,7 @@ address_line_1: Paris, France
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -99,8 +101,7 @@ tags:
   - Internazionale
 ```
 ![evento](assets/09.webp)
-
-Se il tuo progetto non ha ancora un identificatore "*id*", puoi aggiungerlo seguendo questo altro tutorial.
+Se la tua organizzazione non ha ancora un identificatore "*project*", puoi aggiungerlo seguendo questo altro tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -221,4 +222,5 @@ Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chie
 ![evento](assets/38.webp)
 
 Grazie mille per il tuo prezioso aiuto! :)
+
 

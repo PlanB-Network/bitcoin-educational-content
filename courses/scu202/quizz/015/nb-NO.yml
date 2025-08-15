@@ -1,0 +1,9 @@
+question: Hva er den største fordelen med rullerende distribusjon?
+answer: Bruk den nyeste programvaren
+wrong_answers:
+  - Større kompatibilitet med Windows
+  - Et miljø uten Interface-grafikk
+  - Obligatorisk salgsstøtte
+explanation: |
+  Rullerende utgivelser integrerer kontinuerlige programvareoppdateringer, noe som sikrer permanent tilgang til de nyeste versjonene.
+reviewed: false

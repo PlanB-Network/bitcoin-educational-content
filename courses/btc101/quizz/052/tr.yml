@@ -1,0 +1,10 @@
+question: 20'lik enflasyonun 3 yıl boyunca satın alma gücü üzerindeki etkisi nedir?
+answer: Satın alma gücünüzün %50'sini kaybedersiniz.
+wrong_answers:
+  - Satın alma gücünüzün %100'ünü kaybedersiniz.
+  - Satın alma gücünüzün %60'ını kaybedersiniz.
+  - Satın alma gücünüzün %30'unu kaybedersiniz.
+explanation: |
+  20 enflasyon ile satın alma gücünüzün neredeyse yarısını kaybedersiniz
+  3 yıl içinde güç.
+reviewed: true

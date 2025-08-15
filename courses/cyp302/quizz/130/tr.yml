@@ -1,0 +1,9 @@
+question: Sertifika yetkilileri açık anahtar dağıtım sürecinde nasıl bir rol oynar?
+answer: Açık anahtarların gerçekliğini garanti eden sertifikalar düzenlerler
+wrong_answers:
+  - Kullanıcılar için generate özel anahtarları
+  - Tüm kullanıcılar için açık anahtarları saklarlar
+  - Kullanıcılar arasındaki mesajların şifrelenmesini sağlarlar
+explanation: |
+  Sertifika yetkilileri, bir açık anahtarı sahibine bağlayan sertifikalar düzenleyerek kullanıcıların kullandıkları açık anahtarların gerçekliğini doğrulamasına olanak tanır.
+reviewed: false

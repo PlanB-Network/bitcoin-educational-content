@@ -1,0 +1,9 @@
+question: İnternette gezinirken verilerinizin açığa çıkmasını sınırlamak için hangi uygulamalar gereklidir?
+answer: Çerezleri düzenli olarak silin
+wrong_answers:
+  - Tüm çerezleri saklayın
+  - Tarayıcı özel modunu devre dışı bırakma
+  - Eski bir tarayıcı kullanma
+explanation: |
+  Çerezlerin silinmesi veya sınırlandırılması reklam takibini azaltır ve web'de gezinme sırasında gizliliği korur.
+reviewed: false

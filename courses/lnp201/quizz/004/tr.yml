@@ -1,0 +1,9 @@
+question: Lightning Network, Bitcoin Blockchain'deki geleneksel işlemlere kıyasla nelere izin veriyor?
+answer: Minimum ücretlerle hızlı işlemler
+wrong_answers:
+  - Anonim ve takip edilemez işlemler
+  - Hacim sınırı olmaksızın büyük miktarlarda işlemler
+  - Farklı blok zincirleri arasındaki işlemler
+explanation: |
+  Lightning Network, off-chain ödeme kanalları aracılığıyla hızlı ve düşük maliyetli işlemlere olanak tanır ve bu da Blockchain'teki normal işlemlerden farklıdır.
+reviewed: false

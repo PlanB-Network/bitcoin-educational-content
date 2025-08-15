@@ -1,0 +1,9 @@
+question: Vad är fördelen med Lightning Network-betalningar för handlare på försäljningsstället?
+answer: Blixtsnabba betalningar avvecklas nästan omedelbart och kräver inte flera mellanhänder, vilket minskar avgifter och avvecklingsförseningar.
+wrong_answers:
+  - Blixtbetalningar tar flera veckor att bekräfta och kräver omfattande pappersarbete.
+  - Blixtbetalningar sker endast om de godkänns av en centralbanks myndighet.
+  - Blixtbetalningar kan efter försäljningen återföras av köparen efter eget gottfinnande.
+explanation: |
+  Lightning Network gör transaktioner snabbare och billigare genom att tillåta off-chain-avveckling. Handlare kan ta emot pengar nästan omedelbart, med minimala avgifter och utan att förlita sig på traditionella betalningsförmedlare.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk afleidingspad wordt gebruikt voor een SegWit v0 account in een standaarddescriptor?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Het pad 84h/0h/0h is gedefinieerd in BIP84 voor een account dat SegWit v0-adressen met P2WPKH afleidt.
+reviewed: false

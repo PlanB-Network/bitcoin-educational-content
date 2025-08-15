@@ -1,0 +1,9 @@
+question: Welcher Open-Source-Browser, der von einer gemeinnützigen Organisation entwickelt wurde, ist der führende Vertreter der Gecko-Engine?
+answer: Mozilla Firefox
+wrong_answers:
+  - Mutig
+  - Safari
+  - Chrom
+explanation: |
+  Mozilla Firefox, entwickelt von der Mozilla Foundation, ist der führende Gecko-basierte Browser, der für seinen Commitment zum Schutz der Privatsphäre bekannt ist.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad representerar djup 0 i hierarkin av HD-plånböcker?
+answer: Huvudnyckeln och huvud-chain code
+wrong_answers:
+  - Den externa kedjan av adresser
+  - Standardkontot
+  - Typ av valuta
+explanation: |
+  Djup 0 motsvarar huvudnyckeln och huvud-chain code, som är startpunkterna för alla härledningar i en HD Wallet.
+reviewed: false

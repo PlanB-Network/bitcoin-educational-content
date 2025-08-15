@@ -1,0 +1,9 @@
+question: passphrase'ın Bitcoin HD Wallet'deki ana rolü nedir?
+answer: Güvenliği artırmak için anahtar türetmeyi değiştirmek
+wrong_answers:
+  - Bekleyen işlemlerin şifresini çözme
+  - generate Wallet'ün UTXO'ları
+  - Wallet erişimini yüz kimliği ile koruyun
+explanation: |
+  passphrase ikinci bir güvenlik faktörü olarak hareket eder ve Mnemonic ifadesinin tehlikeye girmesi durumunda Wallet'e erişimi önlemek için anahtar türetme seed'u değiştirir.
+reviewed: false

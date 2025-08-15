@@ -1,9 +1,9 @@
-question: Je, ni madarasa gani yanayokinzana kulingana na Comte na Dunoyer?
+question: Je, ni madarasa yapi yanayokinzana kulingana na Comte na Dunoyer?
 answer: Wale wanaolipa kodi na wale wanaoishi kutokana nayo
 wrong_answers:
   - Wafanyakazi na waajiri
   - Mabepari na wasomi
-  - Wafanyabiashara na mafundi
+  - Wafanyabiashara na fundi
 explanation: |
   Comte na Dunoyer wanaona mzozo wa darasa kati ya wazalishaji, ambao wanafadhili kupitia kodi, na wasio wazalishaji, wanaonufaika nao.
 reviewed: false

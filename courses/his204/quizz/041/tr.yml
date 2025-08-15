@@ -1,0 +1,8 @@
+question: Anonim olarak yayınlanan L'Ami des Hommes öyle bir etki yarattı ki, başlangıçta ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes, yazarının aslında Marquis de Mirabeau olduğu keşfedilmeden önce, üslubu ve önemi nedeniyle ilk olarak Montesquieu'ya atfedilmiştir.

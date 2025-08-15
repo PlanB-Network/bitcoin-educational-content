@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Käytä vain itse luotua tai rojaltivapaata kuvamateriaalia.
     - Varmista, että ne ovat merkityksellisiä ja laadukkaita.
 - Graafinen charter** :
-    - Fontti: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Fontti: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Värit Suunnitelma ₿ Verkko :
         - Oranssi: `#FF5C00`
         - Musta: `#000000`

@@ -1,0 +1,9 @@
+question: Modern kriptografide hala mevcut olan klasik kriptografinin temel amacı nedir?
+answer: Mesajların gizliliği
+wrong_answers:
+  - Mesajların basitleştirilmesi
+  - Mesajların tekrarı
+  - Mesaj gönderme otomasyonu
+explanation: |
+  Klasik kriptografi öncelikli olarak gizliliğe odaklanmıştır ve bütünlük ve orijinallik gibi diğer temalar eklenmiş olsa da bu hedef modern kriptografide temel olmaya devam etmektedir.
+reviewed: false

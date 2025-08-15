@@ -1,9 +1,9 @@
-question: Kako je Sejev zakon artikulisan prema Žan-Batistu Seju i Bastijatu?
+question: Kako je Say-ev zakon artikulisan prema Jean-Baptiste Say-u i Bastiat-u?
 answer: Roba i usluge se razmenjuju za robu i usluge
 wrong_answers:
-  - Supply stvara sopstvenu potražnju
+  - Ponuda stvara sopstvenu potražnju
   - Što se više robe proizvodi, to se više troši.
-  - Potražnja određuje Supply
+  - Potražnja određuje ponudu
 explanation: |
-  Sejeva zakon kaže da proizvodnja dobara omogućava međusobne razmene, čime se vrednuje tržišna ekonomija.
+  Say-ev zakon kaže da proizvodnja dobara omogućava međusobne razmene, čime se vrednuje tržišna ekonomija.
 reviewed: false

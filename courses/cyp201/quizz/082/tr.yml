@@ -1,0 +1,9 @@
+question: P2PK ve P2PKH arasındaki temel fark nedir?
+answer: P2PK doğrudan ham açık anahtarı kullanırken, P2PKH açık anahtarın Hash'ını kullanır.
+wrong_answers:
+  - P2PK SegWit uyumlu iken P2PKH uyumlu değildir.
+  - P2PK bir Schnorr imzası kullanırken, P2PKH bir ECDSA imzası kullanır.
+  - P2PK çoklu diziler için tasarlanırken, P2PKH basit komut dosyaları içindir.
+explanation: |
+  P2PK fonları ham açık anahtarla kilitlerken, P2PKH açık anahtarın Hash'sini kullanır.
+reviewed: false

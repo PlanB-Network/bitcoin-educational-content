@@ -1,0 +1,12 @@
+question: Vilken roll har en Bitcoin-nod i Bitcoin-nätverket?
+answer: Den validerar nya block och inkluderade transaktioner.
+wrong_answers:
+  - Den skapar nya Bitcoins och placerar dem i blocken.
+  - Det reglerar priset på Bitcoin.
+  - Den hanterar Bitcoin-nätverket.
+explanation: |
+  En Bitcoin-nod i Bitcoin-nätverket hanterar valideringen av
+  validering av nya block och inkluderade transaktioner. Det är
+  detta nätverk av Bitcoin-noder som gör det verkligt
+  decentraliserad.
+reviewed: true

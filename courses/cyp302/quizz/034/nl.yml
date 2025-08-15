@@ -1,0 +1,9 @@
+question: Wat is een pseudo-willekeurige tekenreeks?
+answer: Een tekenreeks die afkomstig lijkt te zijn van een uniforme variabele, maar geproduceerd wordt door een expansiealgoritme
+wrong_answers:
+  - Een tekenreeks die wordt gegenereerd met een identieke waarschijnlijkheid voor elk teken
+  - Een reeks met een vaste lengte van een natuurlijke willekeurige gebeurtenis
+  - Een willekeurige tekenreeks die alleen wordt gekozen uit de binaire waarden 0 en 1
+explanation: |
+  Een pseudo-willekeurige string wordt geproduceerd door een expansiealgoritme uit een kleinere seed, op een manier die een uniforme selectie onder alle strings van dezelfde lengte nabootst.
+reviewed: false

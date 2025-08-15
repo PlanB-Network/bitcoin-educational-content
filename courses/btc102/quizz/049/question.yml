@@ -15,7 +15,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.07
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -101,3 +101,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.18
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16

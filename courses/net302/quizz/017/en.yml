@@ -1,0 +1,9 @@
+question: What does the MTU value represent in a network?
+answer: Maximum frame size transmitted without fragmentation
+wrong_answers:
+  - Maximum router storage capacity without fragmentation
+  - Maximum number of hosts on an unfragmented network
+  - Minimum IP header length without fragmentation
+explanation: |
+  The MTU (Maximum Transmission Unit) defines the maximum frame size that can be transmitted on a segment without fragmentation.
+reviewed: false

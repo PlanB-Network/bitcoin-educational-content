@@ -8,17 +8,17 @@ description: Lightning Wallet som ger dig kontroll.
 
 
 
-Självhållande plånböcker håller på att bli det säkraste alternativet för att hålla dina bitcoins samtidigt som du drar nytta av kraften och fördelarna med Bitcoin:s Lightning-overlay. Breez, tack vare sitt tillvägagångssätt, sticker särskilt ut i denna grupp av plånböcker.
+Självhållande plånböcker blir det säkraste alternativet för att hålla dina bitcoins samtidigt som du drar nytta av kraften och fördelarna med Bitcoin: s Lightning-overlay. Breez, tack vare sitt tillvägagångssätt, sticker särskilt ut i denna grupp av plånböcker.
 
 
 
-## Vad är Breez-portföljen?
+## Vad är Breez Wallet?
 
 
 Breez är en självförvaltande Wallet skapad av Breez-företaget som ger dig kontroll över dina bitcoins och samtidigt erbjuder innovativa funktioner allt i en applikation.
 
 
-Du kan ladda ner Breez Wallet på Android och iOS från de officiella nedladdningsplattformarna. I den här handledningen kommer vi att ta en praktisk inställning till appen på Android-plattformen. Hela processen som beskrivs nedan är också giltig på iOS.
+Du kan ladda ner Breez Wallet på Android och iOS från de officiella nedladdningsplattformarna. I den här handledningen kommer vi att ta ett praktiskt tillvägagångssätt för appen på Android-plattformen. Hela processen som beskrivs nedan är också giltig på iOS.
 
 
 
@@ -33,11 +33,11 @@ Här, på Android, är **Breez**-applikationen (inte att förväxla med Misty Br
 
 
 
-## Att sätta sig in i portföljen
+## Att komma till rätta med Wallet
 
 
 
-Breez ger dig möjlighet att skapa en ny Wallet eller återställa en befintlig Lightning Wallet. I den här handledningen skapar vi en ny portfölj.
+Breez ger dig möjlighet att skapa en ny Wallet eller återställa en befintlig Lightning Wallet. I den här handledningen skapar vi en ny Wallet.
 
 
 
@@ -49,7 +49,7 @@ Detta är en av fördelarna med Breez: du har nycklarna till full tillgång till
 
 
 
-⚠️ Eftersom Breez-portföljen för närvarande är under utveckling rekommenderar vi att du för närvarande gör transaktioner med måttliga belopp.
+⚠️ Eftersom Breez Wallet för närvarande är under utveckling rekommenderar vi att du gör transaktioner med måttliga belopp för tillfället.
 
 
 ![test-breez](assets/fr/03.webp)
@@ -67,7 +67,7 @@ Wallet synkroniseras direkt med Bitcoin-protokollet och ger dig en aktiv nod fö
 ### Spara dina nycklar
 
 
-Det första du ska göra när du skapar en Bitcoin/Lightning-portfölj är att spara dess nycklar.
+Det första du gör när du skapar en Bitcoin/Lightning Wallet är att spara dess nycklar.
 
 
 I menyn bläddrar du ner till **Preferences** och sedan till **Security**.
@@ -76,13 +76,13 @@ I menyn bläddrar du ner till **Preferences** och sedan till **Security**.
 Med Breez kan du spara dina 12 återställningsord på en Google Drive eller en personlig fjärrserver som du kan konfigurera.
 
 
-Aktivera sedan alternativet **Chiffer backup**: detta kommer att avslöja nyckelorden i din portfölj som du kan spara manuellt.
+Aktivera sedan alternativet **Chiffer backup**: detta kommer att avslöja nyckelorden i din Wallet som du kan spara manuellt.
 
 
 ![sécurité](assets/fr/06.webp)
 
 
-Följ sedan instruktionerna för att bekräfta din säkerhetskopiering och ansluta ditt fjärrbackupkonto till Breez-portföljen.
+Följ sedan instruktionerna för att bekräfta din säkerhetskopiering och ansluta ditt fjärrbackupkonto till Breez Wallet.
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ### Gör dina första transaktioner med Breez
 
 
-Breez prioriterar intuitivitet i sin tillämpning. Att ta emot dina första bitcoins med denna Wallet kunde inte vara enklare. På hemsidan klickar du på **Receive** och väljer sedan den metod som du vill använda för att ta emot dina bitcoins.
+Breez prioriterar intuitivitet i sin tillämpning. Att ta emot dina första bitcoins med denna Wallet kunde inte vara enklare. På startsidan klickar du på **Receive** och väljer sedan den metod som du vill använda för att ta emot dina bitcoins.
 
 
 Breez erbjuder dig tre alternativ:
@@ -103,7 +103,7 @@ Breez erbjuder dig tre alternativ:
 
 
 
-- Ta emot via blixt eller ID** Invoice: generate och Invoice och få betalt.
+- Ta emot genom blixtnedslag eller ID** Invoice: generate en Invoice och få betalt.
 - Ta emot via en Bitcoin Address**: Ta emot bitcoins med transaktioner på Bitcoin:s huvudnätverk.
 - Köp Bitcoin**: Breez innehåller ett sätt att erhålla Bitcoin direkt från fiat-valutor.
 
@@ -113,7 +113,7 @@ Breez erbjuder dig tre alternativ:
 
 
 
-Ange en beskrivning av din Invoice och sedan det belopp du vill få.
+Ange en beskrivning av din Invoice och sedan det belopp som du vill ha utbetalt.
 
 
 
@@ -121,7 +121,7 @@ Ange en beskrivning av din Invoice och sedan det belopp du vill få.
 
 
 
-*Du behöver bara betala denna avgift en gång, när du initierar din portfölj*
+*Du behöver bara betala den här avgiften en gång, när du initierar din Wallet*
 
 
 ![receive-invoice](assets/fr/08.webp)
@@ -157,7 +157,7 @@ Ange sedan förmånstagarens uppgifter eller skanna för att initiera en Invoice
 
 
 
-### Det speciella med denna portfölj.
+### Den speciella egenskapen hos denna Wallet.
 
 
 Utöver att vara en intuitiv Wallet för förvaring av bitcoins är Breez ett innovativt ekosystem.
@@ -186,7 +186,7 @@ Stöd arbetet för de innehållsskapare du älskar genom att göra donationer.
 
 
 
-- Ett försäljningsställe**: Breez anpassar sig perfekt till ditt företag, så att du kan driva en försäljningsställe inom applikationen. Du kan hantera din butiks inventering, ta emot betalning från dina kunder och generate utskrivbara fakturor för varje köp som görs. Dessutom kan du hitta dina lokala valutor i de många valutor som stöds av Breez.
+- Ett försäljningsställe**: Breez anpassar sig perfekt till ditt företag, så att du kan köra en försäljningsställe inom applikationen. Du kan hantera din butiks inventering, ta emot betalning från dina kunder och generate utskrivbara fakturor för varje köp som görs. Dessutom kan du hitta dina lokala valutor i de många valutor som stöds av Breez.
 
 
 
@@ -210,7 +210,7 @@ När din inventering är klar kan du enkelt Invoice dina kunder för dessa produ
 
 
 
-- Få tillgång till tjänster från tredje part**: Breez integrerar tjänster från tredje part som gör att du kan vidta fler åtgärder utan att behöva lämna portföljen. Dessa inkluderar Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Få tillgång till tjänster från tredje part**: Breez integrerar tjänster från tredje part som gör att du kan vidta fler åtgärder utan att behöva lämna Wallet. Dessa inkluderar Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)
@@ -219,7 +219,7 @@ När din inventering är klar kan du enkelt Invoice dina kunder för dessa produ
 ### Styrkan hos Breez
 
 
-Breez gör din autonomi till dess styrka. Breez infrastruktur ger dig en funktionell nod som du kan interagera med från applikationen (**utvecklare**-alternativ). Du har också möjlighet att anpassa grundläggande konfigurationer, oavsett om det gäller :
+Breez gör din självständighet till dess styrka. Breez infrastruktur ger dig en funktionell nod som du kan interagera med från applikationen (**utvecklare**-alternativ). Du har också möjlighet att anpassa grundläggande konfigurationer, oavsett om det gäller :
 
 
 
@@ -260,4 +260,4 @@ Här hittar du Lightning-kommandorader som du kan köra genom att lägga till de
 ![dev-mode](assets/fr/20.webp)
 
 
-Gratulerar, du har nu fått grepp om Breez Wallet. Om du tycker att den här artikeln är användbar, vänligen ge oss en Green tumme upp. Vi vill gärna höra från dig. Vi ser fram emot att höra från dig!
+Grattis, du har nu fått grepp om Breez Wallet. Om du tycker att den här artikeln är användbar, vänligen ge oss en Green tumme upp. Vi vill gärna höra från dig. Vi ser fram emot att höra från dig!

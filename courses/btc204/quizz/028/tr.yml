@@ -1,0 +1,9 @@
+question: Anahtar tanımlama nedir?
+answer: Bir kullanıcının kimliğinin bir yönünü zincir üzerindeki bir etkinlikle ilişkilendirme yeteneği.
+wrong_answers:
+  - Her yeni zincir içi işleme bir açık anahtar atama süreci.
+  - Girdilerin ortak Ownership sezgiselliği aracılığıyla zincir üzerindeki işlemleri izleme yeteneği.
+  - Bir açık anahtarın bir özel anahtardan türetildiği süreç.
+explanation: |
+  Anahtar tanımlama, bir kullanıcının kimliğinin bir yönünü zincir üzerindeki bir faaliyete bağlama olasılığını içerir.
+reviewed: false

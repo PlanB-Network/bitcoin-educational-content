@@ -1,0 +1,13 @@
+question: VPN'in profesyonel bağlamda birincil işlevi nedir?
+answer: Çalışanların şirketin dahili ağına uzaktan ve güvenli bir şekilde erişmesine olanak tanır.
+wrong_answers:
+  - Çalışanların coğrafi kısıtlamaları güvenli bir şekilde atlamasına olanak tanır.
+  - Çalışanların çevrimiçi reklamları tamamen engellemesine olanak tanır.
+  - Çalışanların halka açık Wi-Fi ağlarını güvenli bir şekilde kullanmalarını sağlar.
+explanation: |
+  Profesyonel bağlamda, VPN'ler öncelikle aşağıdakiler için kullanılır
+  şirketin dahili verilerine güvenli uzaktan erişim sağlar
+  ağına bağlanır. Bu, değiş tokuş edilen verilerin şifrelenmesiyle elde edilir
+  çalışan ile şirket ağı arasında bir bağlantı kurarak
+  üçüncü tarafların müdahale etmesi zordur.
+reviewed: true

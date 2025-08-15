@@ -1,0 +1,9 @@
+question: Welk RGB mechanisme zorgt voor weerstand tegen dubbele uitgaven?
+answer: Single-Use Seal
+wrong_answers:
+  - Seal voor meervoudig gebruik
+  - Dubbele handtekening
+  - Bewijs van inname
+explanation: |
+  De Single-Use Seal maakt gebruik van het feit dat een UTXO maar één keer kan worden uitgegeven, en zorgt zo voor weerstand tegen dubbele uitgaven binnen RGB slimme contracten.
+reviewed: false

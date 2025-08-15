@@ -1,0 +1,12 @@
+question: Büyük kuruluşlar veya tutkulu Bitcoin meraklıları için Bitcoin'ı kabul etmeye yönelik bir araç nedir?
+answer: BTCpay Sunucusu.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server, büyük şirketler için Bitcoin kabul etmek için bir araçtır
+  yapılar veya tutkulu bitcoin kullanıcıları. Diğer çözümler
+  basit çevrimiçi işletmeler ve İsviçre için OpenNode'u içerir
+  Bitcoin Amatör tüccarlar için ödeme.
+reviewed: true

@@ -1,0 +1,10 @@
+question: UTXO'lar bağlamında Dust nedir?
+answer: Değeri, harcamak için gerekli ücretleri karşılayamayacak kadar düşük olan UTXO'lar.
+wrong_answers:
+  - İşlem hataları tarafından oluşturulan ve Blockchain'de onaylanamayan UTXO'lar.
+  - Şüpheli olarak işaretlenen veya ağdaki yasadışı faaliyetlerle bağlantılı UTXO'lar.
+  - Uzun süre kullanılmayan adreslerde saklanan ve kayıp olarak kabul edilen UTXO'lar.
+explanation: |
+  Dust, Sats'teki değeri, bunları harcamak için gereken işlem ücretlerini karşılamaya yetmeyecek kadar düşük olan UTXO'ları ifade eder.
+  
+reviewed: false

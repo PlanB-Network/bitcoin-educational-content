@@ -1,0 +1,9 @@
+question: Millist võrguporti kasutatakse vaikimisi P2P ühenduste jaoks Bitcoin põhivõrgus?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Port 8333 on standardne port, mida Bitcoin-sõlmed kasutavad Mainnet-ga peer-to-peer-ühenduste loomiseks.
+reviewed: false

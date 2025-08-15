@@ -1,0 +1,9 @@
+question: Devirli bir grupta, üs alma yoluyla diğer tüm Elements'ları generate yapabilen bir eleman için kullanılan terim nedir?
+answer: Bir jeneratör
+wrong_answers:
+  - Bir çarpan
+  - A coprime
+  - Bir ters
+explanation: |
+  Bir üreteç, döngüsel bir grupta üstelleştirme yoluyla grubun diğer tüm Elements'lerini üretebilen bir elemandır.
+reviewed: false

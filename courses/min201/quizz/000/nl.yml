@@ -1,0 +1,14 @@
+question: Wat is de huidige Mining beloning in het Bitcoin netwerk?
+answer: De creatie van nieuwe bitcoins en transactiekosten
+wrong_answers:
+  - De creatie van nieuwe bitcoins alleen
+  - Alleen transactiekosten
+  - De aanmaak van nieuwe bitcoins, transactiekosten en een bonus voor de snelste Miner
+explanation: |
+  De huidige Mining beloning in het Bitcoin netwerk is
+  tweeledig. Het omvat de creatie van nieuwe bitcoins, die
+  is afgenomen van 50 bitcoins per tien minuten in het begin
+  tot 6,25 bitcoins vandaag (2023). Het omvat ook
+  vergoedingen, of Mining vergoedingen, van de transacties die de Miner
+  besluit op te nemen in hun blok.
+reviewed: true

@@ -121,7 +121,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 为了了解安装和设置Blockstream Green应用程序的说明，请参阅本教程的第一部分：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 进入Blockstream Green应用程序后，点击"*配置新投资组合（Configure a new portfolio）*"按钮。
 
@@ -293,3 +293,4 @@ Green钱包显示的是一个接收地址，但在使用之前，您需要在Jad
 如果您想要进一步前进，我向您推荐这篇关于Jade Plus的教程，我们将在二维码模式下使用Sparrow钱包软件对其进行配置。您还将学习如何使用硬件钱包的高级设置：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

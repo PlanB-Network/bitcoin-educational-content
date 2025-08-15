@@ -1,0 +1,9 @@
+question: Koji dokument, često nazvan SHA256SUMS ili MANIFEST, je potreban za verifikaciju integriteta preuzetog softvera?
+answer: Datoteka koja navodi otiske softvera
+wrong_answers:
+  - Korisnički priručnik
+  - Datoteka sa potpisima programera
+  - Kompletan izvorni kod projekta
+explanation: |
+  Manifest ili SHA256SUMS datoteka sadrži Hash svake datoteke koju projekt distribuira i omogućava proveru njihovog integriteta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket är Adam Smiths mest välkända bidrag till nationalekonomin?
+answer: Han utvecklade teorin om den osynliga handen.
+wrong_answers:
+  - Han utvecklade teorin om det synliga fingret.
+  - Han utvecklade teorin om det osynliga fingret.
+  - Han utvecklade teorin om den synliga handen.
+explanation: |
+  Adam Smith är känd för sin teori om den osynliga handen, som går ut på att individuella handlingar som motiveras av egenintresse oavsiktligt bidrar till samhällets övergripande ekonomiska välstånd.
+reviewed: true

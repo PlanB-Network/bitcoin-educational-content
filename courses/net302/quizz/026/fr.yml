@@ -1,0 +1,9 @@
+question: Quelle unité de données est utilisée dans la couche Internet du modèle TCP/IP ?
+answer: Datagramme
+wrong_answers:
+  - Segment
+  - Frame
+  - Message
+explanation: |
+  La couche Internet manipule des datagrammes, encapsulant les segments issus de la couche Transport.
+reviewed: false

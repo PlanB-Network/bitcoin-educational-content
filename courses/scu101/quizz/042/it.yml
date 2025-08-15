@@ -1,9 +1,0 @@
-question: Perché è importante utilizzare password generate casualmente?
-answer: Sono più resistenti agli attacchi di forza bruta rispetto alle password della stessa lunghezza che contengono parole del dizionario.
-wrong_answers:
-  - Sono più facili da ricordare ma più lente da digitare.
-  - Sono sempre sicure poiché superano i 20 caratteri casuali.
-  - La maggior parte dei servizi online richiede solo una lunghezza minima e un insieme di caratteri, soddisfare questi criteri significa che le password sono abbastanza forti.
-explanation: |
-  Le password generate casualmente offrono un livello di sicurezza più elevato perché sono più resistenti agli attacchi di forza bruta, che tentano di indovinare le password provando tutte le possibili combinazioni di caratteri.
-reviewed: true

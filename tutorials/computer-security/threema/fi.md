@@ -30,25 +30,25 @@ On myös oma yritysversio nimeltä "*Threema Work*". Tässä oppaassa keskitymme
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| **Threema**          | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | **✅**          | **✅**          | **✅**               | **✅**                      | **❌**                       | **❌**                | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Sovellus             | E2EE 1:1       | E2EE ryhmät    | Anonyymi rekisteröinti | Avoimen lähdekoodin asiakaslisenssi | Avoimen lähdekoodin palvelinlisenssi | Hajautettu palvelin      | Luomisvuosi       |
+| -------------------- | -------------- | -------------- | ---------------------- | ----------------------------------- | ------------------------------------ | ------------------------ | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                      | ❌                                   | ❌                                    | ❌                        | 2009              |
+| WeChat               | ❌              | ❌              | ❌                      | ❌                                   | ❌                                    | ❌                        | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (valinnainen) | ❌                      | ❌                                   | ❌                                    | ❌                        | 2011              |
+| Telegram             | 🟡 (valinnainen) | ❌              | 🟡                     | ✅                                   | ❌                                    | ❌                        | 2013              |
+| LINE                 | ✅              | ✅              | ❌                      | ❌                                   | ❌                                    | ❌                        | 2011              |
+| Signal               | ✅              | ✅              | ❌                      | ✅                                   | ✅                                    | ❌                        | 2014              |
+| Threema              | ✅              | ✅              | ✅                      | ✅                                   | ❌                                    | ❌                        | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                      | ✅                                   | ✅                                    | 🟡 (federoitu)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                      | ✅                                   | N/A                                  | 🟡 (sähköpostin kautta) | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                      | ✅                                   | ✅                                    | 🟡 (federoitu)          | 2014              |
+| Session              | ✅              | ✅              | ✅                      | ✅                                   | ✅                                    | ✅                        | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                      | ✅                                   | ✅                                    | ✅                        | 2021              |
+| Olvid                | ✅              | ✅              | ✅                      | ✅                                   | ❌                                    | 🟡(ei hakemistoa)       | 2019              |
+| Keet                 | ✅              | ✅              | ✅                      | ❌                                   | N/A                                  | ✅                        | 2022              |
+| Jami                 | ✅              | ✅              | ✅                      | ✅                                   | N/A                                  | ✅                        | 2005              |
+| Briar                | ✅              | ✅              | ✅                      | ✅                                   | N/A                                  | ✅                        | 2018              |
+| Tox                  | ✅              | ✅              | ✅                      | ✅                                   | N/A                                  | ✅                        | 2013              |
 
 *E2EE = End-to-end-salaus*
 

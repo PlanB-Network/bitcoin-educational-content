@@ -1,0 +1,9 @@
+question: すべてのシステムで利用可能な無料のツールで、ファイルの署名と公開鍵との対応を検証できるものは？
+answer: GnuPG
+wrong_answers:
+  - ベラクリプト
+  - オープンSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg)は、デジタル署名の検証および公開鍵管理のためのリファレンスツールです。
+reviewed: false

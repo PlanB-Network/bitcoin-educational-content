@@ -1,0 +1,9 @@
+question: ¿Qué herramienta gráfica de Ubuntu facilita la gestión de las reglas del cortafuegos?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Sináptica
+explanation: |
+  GUFW es un Interface gráfico para el cortafuegos UFW, que permite activar, desactivar y configurar reglas sin pasar por el terminal.
+reviewed: false

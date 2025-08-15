@@ -1,0 +1,9 @@
+question: Bir Taproot açık anahtarı Q'yu hesaplamak için hangi işlem gereklidir?
+answer: Açık anahtar P'ye tG ince ayarını ekleyin
+wrong_answers:
+  - Özel anahtar p'yi ince ayar ile çarpın
+  - Hash SHA256 ile P açık anahtarı
+  - İnce ayar t ve açık anahtar P'yi birleştirin
+explanation: |
+  Taproot açık anahtarı Q, G üreteci ile t ince ayarının skaler çarpımının P açık anahtarına eklenmesiyle elde edilir.
+reviewed: false

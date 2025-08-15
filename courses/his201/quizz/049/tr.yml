@@ -1,0 +1,9 @@
+question: Slashdot'ta tanıtılmasını takip eden hafta boyunca Bitcoin'ın fiyatındaki değişim neydi?
+answer: 0,008$'dan 0,08$'a
+wrong_answers:
+  - 0,001$'dan 0,008$'a
+  - 0,08$'dan 0,50$'a kadar
+  - 0,50$'dan 1$'a kadar
+explanation: |
+  Bu değişim on katlık bir artışa karşılık geliyordu! Hash oranı da benzer bir artış yaşamıştır.
+reviewed: true

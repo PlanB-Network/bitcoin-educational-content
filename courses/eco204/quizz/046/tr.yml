@@ -1,0 +1,10 @@
+question: Nikaragua'daki ilk Cordoba'nın maksimum değeri neydi?
+answer: 1 milyon.
+wrong_answers:
+  - 500,000
+  - 10 milyon
+  - 100 milyon
+explanation: |
+  Nikaragua'da ilk Cordoba 1 milyonluk bir değere ulaştı. İkinci Cordoba
+  Cordoba 10 milyona ulaştı.
+reviewed: false

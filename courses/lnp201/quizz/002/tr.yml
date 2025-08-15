@@ -1,0 +1,9 @@
+question: Alice, başlangıçta 100.000 satoshisi olan bir ödeme kanalından Bob'e 40.000 satoshis gönderirse, işlemden sonra ne kadar parası kalır?
+answer: 60,000 satoshis
+wrong_answers:
+  - 30,000 satoshis
+  - 40,000 satoshis
+  - 140,000 satoshis
+explanation: |
+  40.000 satoshi gönderdikten sonra, Alice'nin kanaldaki bakiyesi 60.000 satoshi olur.
+reviewed: false

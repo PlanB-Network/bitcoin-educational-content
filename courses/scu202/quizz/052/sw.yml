@@ -1,0 +1,9 @@
+question: Ni mazoezi gani yanapendekezwa kabla ya kushiriki faili mtandaoni au kwa barua pepe?
+answer: Safisha metadata zote
+wrong_answers:
+  - Simba metadata zote
+  - Thibitisha metadata zote
+  - Badilisha jina la metadata yote
+explanation: |
+  Usafishaji wa metadata huzuia ufichuzi wa taarifa nyeti bila kukusudia unaposhiriki faili.
+reviewed: false

@@ -1,0 +1,13 @@
+question: TOR ağı nedir?
+answer: Kullanıcının IP Address'ını maskeleyerek ve Darknet'e erişime izin vererek anonimlik sunan bir ağ.
+wrong_answers:
+  - Cihazınızı virüslerden ve diğer kötü amaçlı yazılımlardan koruyan bir ağ.
+  - Çevrimiçi faaliyetlerinizi internet servis sağlayıcınızdan gizleyen bir ağ.
+  - İnternette daha hızlı gezinmenizi sağlayan bir ağ.
+explanation: |
+  TOR (The Onion Router) ağı, aşağıdakileri sunan bir ağdır
+  kullanıcının IP Address'ini maskeleyerek anonimlik sağlar ve
+  darknet'e erişim. Gazeteciler tarafından kullanılır, özgürlük
+  aktivistler ve sansürden kaçmak isteyen diğer kişiler
+  otoriter ülkeler.
+reviewed: true

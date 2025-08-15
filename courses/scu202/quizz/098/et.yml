@@ -1,0 +1,9 @@
+question: Milline on VLAN-põhise võrgu segmenteerimise peamine kasutusviis koduvõrgus?
+answer: Eraldada eri tüüpi seadmed või kasutusviisid
+wrong_answers:
+  - Suurendage seadmete Wi-Fi leviala
+  - Krüpteeri võrguühendused iga seadme jaoks eraldi
+  - WPA3 automaatne aktiveerimine
+explanation: |
+  VLANe saab kasutada seadmete eraldamiseks, piirates rünnaku levikut segmentide vahel.
+reviewed: false

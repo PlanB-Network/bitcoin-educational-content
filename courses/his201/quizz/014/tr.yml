@@ -1,0 +1,9 @@
+question: Proof of Work kavramını kim icat etti?
+answer: Cynthia Dwork ve Moni Naor
+wrong_answers:
+  - Markus Jakobsson ve Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Bu konsepti 1992 yılında tanımladılar. Markus Jakobsson ve Ari Juels Proof of Work terimini ortaya attı. Adam Back daha sonra Hashcash için bu kavramı benimsemiştir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Cơ chế RGB nào đảm bảo khả năng chống lại chi tiêu gấp đôi?
+answer: Single-Use Seal
+wrong_answers:
+  - Seal đa dụng
+  - Chữ ký kép
+  - Bằng chứng cổ phần
+explanation: |
+  Single-Use Seal tận dụng thực tế là UTXO chỉ có thể được chi tiêu một lần, đảm bảo khả năng chống lại việc chi tiêu gấp đôi trong các hợp đồng thông minh RGB.
+reviewed: false

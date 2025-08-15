@@ -1,0 +1,8 @@
+question: Bir kişinin bir şeye sahip olma hakkı nasıl olur da bir başkasının mülkiyet hakkıyla çatışabilir?
+answer: Çünkü bir kişiden alıp diğerine vermeyi gerektirir, dolayısıyla bir hak çatışması yaratır.
+wrong_answers:
+  - Çünkü bir kişi hakkını alarak başkalarını da aynı şeyi yapmaya teşvik edebilir.
+  - Çünkü bir kişi istediğini elde edemezse çatışmaya neden olabilir.
+  - Çünkü bu haklar sadece temel haklarla ilgilidir ve maddi özelliklerle ilgili değildir.
+explanation: |
+  Bastiat, hakların başkalarından kaynak almayı gerektirdiğini, dolayısıyla mülkiyet haklarını doğrudan etkilediğini vurgular.

@@ -190,4 +190,5 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch dieses umfassende Tutorial über die Blockstream Green Mobile App, die eine weitere interessante Lösung für die Einrichtung Ihrer Liquid Wallet ist:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

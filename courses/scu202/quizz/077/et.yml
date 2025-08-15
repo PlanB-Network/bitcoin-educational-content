@@ -1,0 +1,9 @@
+question: Mis on Shelter rakendus Androidile?
+answer: Looge eraldatud profiil, et eraldada kasutusalad
+wrong_answers:
+  - Krüpteerib automaatselt kõik telefoni andmed
+  - Blokeerige soovimatud kõned
+  - Rakenduste installimine väljaspool Play Store'i
+explanation: |
+  Shelter võimaldab teil kasutada tööprofiili funktsiooni, et eraldada rakendused ja andmed isoleeritud ruumi.
+reviewed: false

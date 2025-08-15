@@ -1,0 +1,10 @@
+question: Aşağıdaki cevaplardan hangisi CoinJoin'dan geçmiş bitcoinleri düzenlenmiş bir platforma gönderirken bir risk teşkil etmez?
+answer: Platform işlem ücretlerini artırabilir
+wrong_answers:
+  - Platform fonları dondurabilir
+  - Platform, kullanıcının hesabını engelleyebilir
+  - Platform şüpheli davranışları yetkililere bildirebilir
+explanation: |
+  Coin'ünüzü düzenlenmiş bir Exchange platformuna gönderirseniz, ancak yakın zamanda bir CoinJoin geçirmişse, platformun zincir analiz aracı bu gerçeği tespit edecektir. Bu durumda platform, CoinJoin'den geçmiş UTXO'ünüzü kabul etmeyi reddedebilir, hatta hesabınızın askıya alınması veya fonlarınızın dondurulması riskiyle sizden açıklama talep edebilir. Bazı durumlarda, platform davranışınızı devlet yetkililerine de bildirebilir.
+  
+reviewed: false

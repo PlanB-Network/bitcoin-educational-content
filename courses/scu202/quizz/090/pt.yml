@@ -1,0 +1,9 @@
+question: Que porta de rede é utilizada por defeito para ligações P2P na rede principal Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  A porta 8333 é a porta padrão utilizada pelos nós Bitcoin para ligações peer-to-peer ao Mainnet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är det första du bör göra för att säkra åtkomsten till din persondator?
+answer: Ange ett starkt lösenord för sessionen
+wrong_answers:
+  - Installera ett antivirusprogram
+  - Konfigurera UFW-brandväggen
+  - Aktivera diskkryptering
+explanation: |
+  Sessionslösenordet är den första säkerhetsbarriären för att förhindra obehörig åtkomst till din maskin, före alla andra ytterligare åtgärder.
+reviewed: false

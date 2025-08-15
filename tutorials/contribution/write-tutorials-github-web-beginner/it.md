@@ -12,7 +12,7 @@ A questo punto, hai già:
 
 
 - Scelto un tema per il tuo tutorial;
-- Contattato il team di Plan ₿ Network tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
+- Contattato il team di Plan ₿ Network tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o la mail paolo@planb.network;
 - Scelto quali strumenti utilizzare.
 
 In questa guida vedremo come aggiungere il tuo tutorial a Plan ₿ Network utilizzando la versione web di GitHub. Se sei già esperto di Git, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio invece di dare un'occhiata a uno di questi altri due tutorial, in cui sono descritte in dettaglio le linee guida da seguire e i passaggi per apportare modifiche da un file:
@@ -28,14 +28,14 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 
 ## Prerequisiti
 
-Prerequisiti prima di iniziare il tutorial:
+Prerequisiti da avere prima di iniziare il tutorial:
 
 
 - Avere un [account GitHub](https://github.com/signup);
 - Avere un fork del [repository dei sorgenti di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Avere [un profilo docente su Plan ₿ Network](https://planb.network/professors) (solo se vuoi fare un tutorial completo).
 
-Se hai bisogno di aiuto nel raggiungimento dei prerequisiti elencati sopra, questi altri tutorial ti aiuteranno:
+Se hai bisogno di aiuto per ottenere i prerequisiti elencati sopra, questi altri tutorial ti aiuteranno:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -48,7 +48,7 @@ Una volta che tutto è a posto e che hai il tuo fork del repository Plan ₿ Net
 
 ## 1 - Creare un nuovo branch
 
-Apri il browser e naviga alla pagina del fork nel repository Plan ₿ Network. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a questo: `https://github.com/[nomeutente]/bitcoin-educational-content`:
+Apri il browser e vai alla pagina del tuo fork (del repository Plan ₿ Network). Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a questo: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -72,9 +72,9 @@ Un branch in Git rappresenta una versione parallela del progetto, che consente d
 
 ## 2 - Aggiungere i file del tutorial
 
-Ora che il branch di lavoro è stato creato, è il momento di integrare il nuovo tutorial.
+Ora che il branch di lavoro è stato creato, è il momento di inserire il nuovo tutorial.
 
-All'interno dei file del tuo branch, devi trovare la sottocartella appropriata per il posizionamento del tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web Plan ₿ Network. Nel nostro esempio, dato che stiamo aggiungendo un tutorial su Green, vai nel seguente percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
+All'interno dei file del tuo branch, devi trovare la sottocartella appropriata per caricare il tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web [planb.network](https://planb.network/). Nel nostro esempio, dato che stiamo aggiungendo un tutorial su Green, segui questo percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -82,7 +82,7 @@ Nella cartella `wallet`, crea una nuova cartella specificamente dedicata al tuto
 
 ![GITHUB](assets/fr/06.webp)
 
-Inserisci il nome della cartella seguito da una barra `/` per confermare la sua creazione come cartella.
+Inserisci il nome della cartella seguito da una barra `/` per confermare la sua creazione come directory.
 
 ![GITHUB](assets/fr/07.webp)
 
@@ -90,7 +90,7 @@ In questa nuova sottocartella dedicata al tutorial, è necessario aggiungere div
 
 
 - Crea una cartella `assets` per contenere tutte le illustrazioni necessarie per il tutorial;
-- All'interno di questa cartella `assets`, crea una sottocartella denominata secondo il codice della lingua originale del tutorial. Ad esempio, se il tutorial è scritto in inglese, questa sottocartella dovrebbe essere denominata `en`. In questa cartella vanno inseriti tutti gli elementi visivi del tutorial (diagrammi, immagini, screenshot, ecc.).
+- All'interno di questa cartella `assets`, crea una sottocartella denominata secondo il codice della lingua originale del tutorial. Ad esempio, se il tutorial è scritto in inglese, questa sottocartella dovrebbe essere denominata `en`. In questa cartella vanno inseriti tutti gli elementi visuali del tutorial (diagrammi, immagini, screenshot, ecc.).
 - È necessario creare un file `tutorial.yml` per registrare i dettagli del tutorial;
 - È necessario creare un file markdown per scrivere il contenuto effettivo del tutorial. Questo file deve essere chiamato secondo il codice della lingua in cui è scritto. Ad esempio, per un tutorial scritto in francese, il file deve essere chiamato `fr.md`.
 
@@ -99,12 +99,12 @@ Per riassumere, ecco la gerarchia dei file (continueremo a crearli nella prossim
 ```
 bitcoin-educational-content/
 └── tutorials/
-└── wallet/ (à modifier avec la bonne catégorie)
-└── green-wallet/ (à modifier avec le nom du tuto)
+└── wallet/ (a modificare con la categoria corretta)
+└── green-wallet/ (a modificare con il nome del tutorial)
 ├── assets/
-│   ├── fr/ (à modifier selon le code de langue approprié)
+│   ├── fr/ (da modificare con il codice della lingua appropriato)
 ├── tutorial.yml
-└── fr.md (à modifier selon le code de langue approprié)
+└── fr.md (da modificare con il codice della lingua appropriato)
 ```
 
 ## 3 - Compilare il file YAML
@@ -145,30 +145,30 @@ proofreading:
 
 Ecco i campi obbligatori:
 
-- **id** : Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
+- **id**: Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id** : L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
+- **project_id**: L'UUID dell'azienda o organizzazione che ha creato lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che lavorano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, si crea quindi un collegamento tra i due elementi;
 
-- **tags** : 2 o 3 parole chiave pertinenti relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 parole chiave pertinenti al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Il livello di difficoltà del tutorial, selezionabile tra:
+- **level**: Il livello di difficoltà del tutorial, selezionabile tra:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Il tuo `professor_id` (UUID) come mostrato nel [tuo profilo professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Il tuo `professor_id` (UUID) come mostrato nel [tuo profilo professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : La lingua originale del tutorial (ad esempio `fr`, `en`, ecc.);
+- **original_language**: La lingua originale del tutorial (ad esempio `fr`, `en`, ecc.);
 
-- **proofreading** : Informazioni sul processo di revisione. Compila la prima parte, poiché la revisione del tuo stesso tutorial conta come prima convalida:
-    - **language** : Codice lingua della revisione (ad esempio `fr`, `en`, ecc.).
-    - **last_contribution_date** : Data di oggi.
-    - **urgency** : 1
-    - **contributor_names** : Il tuo ID GitHub.
-    - **reward** : 0
+- **proofreading**: Informazioni sul processo di revisione. Compila la prima parte, poiché la revisione del tuo stesso tutorial conta come prima convalida:
+    - **language**: Codice lingua della revisione (ad esempio `fr`, `en`, ecc.).
+    - **last_contribution_date**: Data di oggi.
+    - **urgency**: 1
+    - **contributor_names**: Il tuo ID GitHub.
+    - **reward**: 0
 
 Per maggiori dettagli sull'ID insegnante, consulta il tutorial corrispondente:
 
@@ -206,13 +206,13 @@ Una volta terminata la modifica del file `tutorial.yml`, salva il documento clic
 
 ![GITHUB](assets/fr/09.webp)
 
-Aggiungi un titolo e una descrizione e assicurati che il commit sia effettuato nel branch creato all'inizio di questa guida. Quindi conferma cliccando su "*Commit changes*".
+Aggiungi un titolo e una descrizione, e assicurati che il commit sia effettuato nel branch creato all'inizio di questa guida. Quindi conferma cliccando su "*Commit changes*".
 
 ![GITHUB](assets/fr/10.webp)
 
 ## 4 - Creare sottocartelle per le immagini
 
-Clicca nuovamente su "*Add file*" e poi su "*Create new file*" :
+Clicca nuovamente su "*Add file*" e poi su "*Create new file*":
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -224,7 +224,7 @@ Ripeti questo passaggio nella cartella `/assets` per creare la sottocartella del
 
 ![GITHUB](assets/fr/13.webp)
 
-In questa cartella, crea un file fittizio per forzare GitHub a mantenere la cartella (che altrimenti sarebbe vuota). Nomina questo file `.gitkeep`. Quindi clicca su "*Commit changes...*".
+In questa cartella, crea un file fittizio per forzare GitHub a mantenere la directory (che altrimenti sarebbe vuota). Nomina questo file `.gitkeep`. Quindi clicca su "*Commit changes...*".
 
 ![GITHUB](assets/fr/14.webp)
 
@@ -234,7 +234,7 @@ Controlla di nuovo di essere nel branch corretto, quindi clicca su "*Commit chan
 
 ## 5 - Creare il file Markdown
 
-Ora creeremo il file che ospiterà il tuo tutorial, con il nome della tua lingua, per esempio `fr.md` se scriviamo in francese. Vai alla cartella tutorial :
+Ora creeremo il file del tutorial, con il nome della tua lingua, per esempio `fr.md` se scriviamo in francese. Vai alla cartella `tutorial`:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -242,16 +242,16 @@ Clicca su "Add file*", quindi su "Create new file*".
 
 ![GITHUB](assets/fr/17.webp)
 
-Nomina il file usando il codice della propria lingua. Nel mio caso, dato che il tutorial è scritto in francese, ho nominato il mio file `fr.md`. L'estensione `.md` indica che il file è in formato Markdown.
+Nomina il file usando il codice della tua lingua. Nel mio caso, dato che il tutorial è scritto in francese, ho nominato il mio file `fr.md`. L'estensione `.md` indica che il file è in formato Markdown.
 
 ![GITHUB](assets/fr/18.webp)
 
-Si inizia compilando la sezione `Proprietà` all'inizio del documento. Aggiungiamo manualmente e compiliamo il seguente blocco di codice (le chiavi `nome:` e `descrizione:` devono essere mantenute in inglese, ma i loro valori devono essere scritti nella lingua utilizzata per il tutorial):
+Si inizia compilando la sezione `Proprietà` all'inizio del documento. Aggiungiamo manualmente e compiliamo il seguente blocco di codice (le chiavi `name:` e `description:` devono essere mantenute in inglese, ma ciò che viene scritto dopo i due punti deve essere nella lingua utilizzata per il tutorial):
 
 ```
 ---
-name: [Titre]
-description: [Description]
+name: [Titolo]
+description: [Descrizione]
 ---
 ```
 
@@ -287,7 +287,7 @@ La cartella dei tutorial dovrebbe ora avere questo aspetto, in base al codice de
 
 Nella cartella `assets` è necessario aggiungere un file chiamato `logo.webp`, che servirà come miniatura dell'articolo. Questa immagine deve essere in formato `.webp` e deve essere di dimensioni quadrate per adattarsi all'interfaccia utente.
 
-È possibile scegliere il logo del software utilizzato nel tutorial o qualsiasi altra immagine pertinente, purché sia libera da diritti d'autore. Inoltre, aggiungi un'immagine intitolata `cover.webp` nello stesso posto. Questa verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia appropriata al contesto del tutorial.
+È possibile scegliere il logo del software utilizzato nel tutorial o qualsiasi altra immagine pertinente, purché sia libera da diritti d'autore. Inoltre, aggiungi un'immagine intitolata `cover.webp`, che verrà visualizzata nella parte iniziale del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia appropriata al contesto del tutorial.
 
 Per aggiungere immagini alla cartella `/assets`, è possibile trascinarle dai file locali. Assicurati di essere nella cartella `/assets` e nel branch giusto, quindi clicca su "*Commit changes*".
 
@@ -317,7 +317,7 @@ Per salvare il lavoro, clicca su "*Commit Changes...*", assicurati di essere nel
 
 ## 8 - Aggiungere immagini
 
-La sottocartella della lingua nella cartella `/assets` (nel mio esempio: `/assets/en`) viene utilizzata per memorizzare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di includere testo nelle immagini per rendere i contenuti accessibili a un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi schemi o indicazioni aggiuntive alle schermate del software, fallo senza testo o, se essenziale, usa l'inglese.
+La sottocartella della lingua nella cartella `/assets` (nel mio esempio: `/assets/en`) viene utilizzata per archiviare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di includere testo nelle immagini, per rendere i contenuti accessibili a un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi schemi o indicazioni aggiuntive alle schermate prese dal software, non aggiungere testo o, se essenziale, usa l'inglese.
 
 Per nominare le immagini, è sufficiente utilizzare i numeri corrispondenti all'ordine di apparizione nel tutorial, formattati a due cifre (o a tre cifre se il tutorial contiene più di 99 immagini). Ad esempio, nomina la prima immagine `01.webp`, la seconda `02.webp` e così via.
 
@@ -333,7 +333,7 @@ Salvare le modifiche cliccando su "*Commit changes...*".
 
 ![GITHUB](assets/fr/34.webp)
 
-Per inserire un diagramma dalla sottocartella nel documento editoriale, utilizza il seguente comando Markdown, avendo cura di specificare il testo alternativo appropriato e il percorso dell'immagine corretto per la propria lingua:
+Per inserire un'immagine dalla sottocartella nel documento editoriale, utilizza il seguente comando Markdown, avendo cura di specificare il testo alternativo appropriato e il percorso dell'immagine corretto per la propria lingua:
 
 ```
 ![green](assets/fr/01.webp)
@@ -343,22 +343,22 @@ Il punto esclamativo all'inizio indica un'immagine. Il testo alternativo, che ai
 
 ![GITHUB](assets/fr/35.webp)
 
-Se desideri creare i tuoi schemi, assicurati di seguire le linee guida grafiche di Plan ₿ Network per garantire la coerenza visiva:
+Se desideri creare manualmente delle immagini o degli schemi, assicurati di seguire le linee guida grafiche di Plan ₿ Network per garantire la coerenza visiva:
 
 
 - Font**: Utilizzare [Rubik](https://fonts.google.com/specimen/Rubik);
-- Colori**:
+- Pantone**:
  - Arancione: #FF5C00
  - Nero: #000000
  - Bianco: #FFFFFF
 
-**È indispensabile che tutte le immagini integrate nei tutorial siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i diagrammi pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, allo stesso modo del testo.
+**È indispensabile che tutte le immagini inserite nei tutorial siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i file pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, così come avviene per il testo.
 
-**-> Suggerimento:** Quando si condividono file in pubblico, come le immagini, è importante rimuovere i metadati superflui. Questi possono contenere informazioni sensibili, come dati sulla posizione, date di creazione e dettagli sull'autore. Per proteggere la propria privacy, è bene rimuovere questi metadati. Per semplificare questa operazione, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di ripulire i metadati di un documento con un semplice trascinamento.
+**-> Suggerimento:** Quando si condividono file in pubblico, come le immagini, è importante rimuovere i metadati superflui. Questi possono contenere informazioni sensibili, come dati sulla posizione, date sulla creazione del file, e dettagli sull'autore. Per proteggere la propria privacy, è bene rimuoverli. Per semplificare questa operazione, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di ripulire i metadati di un documento trascinandoli semplicemente al di fuori dell'immagine.
 
 ## 9 - Proporre il tutorial
 
-Una volta terminata la stesura del tutorial nella lingua desiderata, il passo successivo consiste nell'inviare una **Richiesta di estrazione**. L'amministratore aggiungerà le traduzioni mancanti al tuo tutorial, utilizzando il nostro metodo di traduzione automatica con revisione umana.
+Una volta terminata la stesura del tutorial nella lingua desiderata, il passo successivo consiste nell'inviare una **Pull Request**. L'amministratore tradurra il file in altre lingue tramite l'utilizzo di AI.
 
 Per procedere con la pull request, dopo aver salvato tutte le modifiche, clicca sul pulsante "*Contribute*", quindi su "*Open pull request*":
 
@@ -372,22 +372,22 @@ Prima di continuare, controlla attentamente nella parte inferiore dell'interfacc
 
 Assicurati, all'inizio dell'interfaccia, che il tuo branch di lavoro sia unito al branch `dev' del repository Plan ₿ Network (che è il branch principale).
 
-Inserisci un titolo che riassuma brevemente le modifiche che desideri unire al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di unione:
+Inserisci un titolo che riassuma brevemente le modifiche che desideri effettuare al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di ["merge"](https://planb.network/resources/glossary/merge):
 
 ![GITHUB](assets/fr/38.webp)
 
-La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Network. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo contributo sia stato unito o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Network. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo tutorial sia stato unito al repository principale, o per richiedere ulteriori modifiche.
 
 ![GITHUB](assets/fr/39.webp)
 
-Dopo aver unito la PR al branch principale, si consiglia di cancellare il branch di lavoro (nel mio esempio: `tuto-green-wallet`) per mantenere una storia pulita del fork. GitHub ti offrirà automaticamente questa opzione nella pagina della tua PR:
+Dopo aver inserito la PR al branch principale, si consiglia di cancellare il branch di lavoro (nel mio esempio: `tuto-green-wallet`) per mantenere il fork più ordinato e pulito. GitHub ti consiglierà automaticamente questa opzione nella pagina della tua PR:
 
 ![GITHUB](assets/fr/40.webp)
 
-Se desideri apportare modifiche al tuo contributo dopo aver già presentato la PR, i passi da seguire dipendono dallo stato attuale della PR:
+Se desideri apportare modifiche ai tuoi file dopo aver già inviato la Pull Request, i passi da seguire dipendono dallo stato attuale della stessa PR:
 
 
-- Se la PR è ancora aperta e non è ancora stata unito, apporta le modifiche nello stesso workbranch. Le modifiche del commit saranno aggiunte alla PR ancora aperta;
-- Nel caso in cui la vostra PR sia già stata unita al branch principale, devi rifare il processo dall'inizio creando un nuovo branch e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Network sul branch `dev` prima di procedere.
+- Se la PR è ancora aperta e non è ancora stato fatto il "merge", puoi apportare le modifiche nello stesso branch dove hai lavorato. Le modifiche del commit saranno aggiunte alla PR ancora aperta;
+- Nel caso in cui la tua PR sia già stata unita al branch principale, devi rifare il processo dall'inizio, creando un nuovo branch e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Network sul branch `dev` prima di procedere.
 
-Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a chi contribuisce](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!
+Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato ai contributors](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!

@@ -1229,60 +1229,193 @@ Si vous souhaitez éviter toute résolution DNS en clair, vous pouvez ajouter `d
 
 Évidemment, si vous êtes débutant, je vous conseille dans un premier temps de ne pas toucher à tous ces paramètres réseau. La configuration par défaut est souvent suffisante.
 
+### Politique de mempool et de relais
 
+#### Paramètres de base
 
+Voici les paramètres de base que vous pouvez modifier sur votre `bitcoin.conf` concernant la  gestion de votre mempool et le lai des transactions non confirmée :
 
+- `maxmempool=<n>` : Limite la taille maximale de la mempool locale à `<n>` mégaoctets (défaut : `300`). Lorsque la limite est atteinte, votre nœud élève dynamiquement son seuil de frais effectif et expulse en priorité les transactions les moins rémunératrices (en fonction du taux de frais, pas de la valeur absolue) pour rester sous la borne. Vous pouvez laisser ce paramètre par défaut. L’augmenter peut s’avérer utile si vous minez en solo, ou si vous souhaitez obtenir une vision plus précise de la congestion des mempools et améliorer l’estimation des frais. À l’inverse, la réduire permet d’économiser de la mémoire vive et, de manière marginale, d’autres ressources système.
 
-## Confidentialité et sécurité d’un nœud personnel
-<chapterId>5e930262-9326-4edd-a128-9504df14eb18</chapterId>
+- `mempoolexpiry=<n>` : Durée maximale de rétention des transactions non confirmées dans la mempool (en heures, défaut : `336`). Passé ce délai, les transactions sont retirées même si de la place reste disponible.
 
-Analyse des risques liés à l’exploitation d’un nœud sur son réseau local. Quelles données sont exposées ? Comment se protéger ? Utilisation de Tor, configuration réseau, pare-feu, gestion des ports ouverts, VPN...
+- `persistmempool=1` : Sauvegarde un instantané de la mempool à l’arrêt et le recharge au redémarrage (défaut : `1`). Ça permet d'accélérer la reprise après le redémarrage en évitant de réapprendre l’état par le réseau.
 
+- `maxorphantx=<n>` : Nombre maximal de transactions orphelines conservées (inputs dépendants d’UTXOs pas encore vus dans l'UTXO set, défaut : `100`). Au-delà de ce seuil, les plus anciennes sont supprimées pour éviter une croissance non contrôlée de ce cache.
 
+- `blocksonly=1` : Désactive l’acceptation et la retransmission de transactions non confirmées reçues des pairs (sauf permissions spéciales). Le nœud ne télécharge et n’annonce plus que des blocs. Les transactions créées localement peuvent encore être diffusées (pour utiliser votre nœud avec vos logiciels de portefeuille). Cela réduit fortement la bande passante et les besoins en RAM au prix d’une utilité moindre pour le relais et d'une méconnaissance totale de la mempool.
 
+- `minrelaytxfee=<n>` : Taux de frais minimal (en BTC/kvB) en-dessous duquel les transactions ne sont pas acceptées dans la mempool du nœud et pas relayées aux pairs (défaut : `0.00001` = 1 sat/vB). Plus cette valeur est élevée, plus votre nœud filtre agressivement les transactions à bas frais.
 
+- `mempoolfullrbf=1` : Accepter les transaction RBF même sans signalisation explicite de RBF dans la transaction remplacée. Avec cette politique dite "*full-RBF*", une transaction offrant un taux de frais supérieur peut en remplacer une autre en mempool si les autres conditions de remplacement sont satisfaites.
 
+Pour rappel : RBF est un mécanisme transactionnel permettant à l'expéditeur de remplacer une transaction par une autre avec des frais plus élevés, afin d'accélérer la confirmation de celle-ci. Si une transaction avec des frais trop faibles reste bloquée, l'expéditeur peut utiliser *Replace-By-Fee* pour augmenter les frais et prioriser sa transaction de remplacement dans les mempools et auprès des mineurs.
 
+#### Paramètres avancés et spécifiques
 
+Voici les paramètres avancés relatifs à la politique de mempool et de relai. Si vous êtes débutant, vous ne devriez pas avoir besoin de modifier ces paramètres :
 
+- `datacarrier=1` : Autorise le relais et (si minage via le nœud) l’inclusion des transactions porteuses de données non financières via un output `OP_RETURN` (défaut : `1`). Désactiver ce paramètre réduit légèrement la surface de spam de données non financières au prix d’une compatibilité moindre avec certains usages. Dans tous les cas, vous devrez accepter les `OP_RETURN` minés.
 
+- `datacarriersize=<n>` : Taille maximale (en octets) des `OP_RETURN` que le nœud relaie (défaut : `83`). Abaisser cette valeur restreint les charges utiles transportées via les `OP_RETURN`. Notez que par défaut, cette limite sera retirée dans une des prochaines version de Bitcoin Core.
 
-Ouverture vers la prochaine formation : héberger un nœud Lightning LNP 202.
+- `bytespersigop=<n>` : Paramètre qui convertit les opérations de signature en octets équivalents pour l’évaluation des limites de relais (défaut : `20`). Cela va influencer l’acceptation des transactions riches en `sigops` selon les règles de politique locale.
 
+- `permitbaremultisig=1` : Autorise le relais des transactions *bare-multisig* P2MS (défaut : `1`). C'est le plus ancien modèle de script pour établir de conditions de multisignature sur un UTXO (inventé en 2011 par Gavin Andresen).
 
+- `whitelistrelay=1` : Attribue automatiquement la permission de relayer aux pairs entrants mis sur liste blanche (défaut : `1`). Ces pairs voient leurs transactions acceptées au relais même si votre nœud n’est pas en mode relais général.
 
+- `whitelistforcerelay=1` : Attribue la permission "*forcerelay*" aux pairs whitelistés avec permissions par défaut (défaut : `0`). Le nœud relaie alors leurs transactions même si elles sont déjà présentes en mempool, ce qui contourne des mécanismes d’anti-redondance.
 
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>` : Lie une interface ou une plage d’adresses et assigne des permissions fines aux pairs correspondants : `relay`, `forcerelay`, `mempool` (requête de contenu de mempool), `noban`, `download`, `addr`, `bloomfilter`. Ça peut être utile pour accorder un traitement privilégié à des pairs de confiance (passerelles, LAN, services internes...).
 
+- `peerbloomfilters=1` : Active la prise en charge des filtres Bloom (BIP37) pour servir blocs/transactions filtrés aux clients légers (défaut : `0`). Attention, cela augmente la charge sur vos ressources.
 
+- `peerblockfilters=1` : Sert des filtres compacts BIP157 (*Neutrino*) aux pairs (défaut : `0`).
 
+- `blockreconstructionextratxn=<n>` : Nombre supplémentaire de transactions conservées en mémoire pour reconstruire des blocs compacts (défaut : `100`). Améliore la réussite des reconstructions lors des synchronisations compactes, au prix d’un peu de mémoire.
 
+Pour rappel : toutes ces règles de relai n’ont aucune incidence sur la validité de transactions incluses dans un bloc valide. Ils servent à ajuster votre contribution au relais, à protéger vos ressources et à rendre votre nœud prévisible dans des environnements contraints, mais ne permettent jamais de refuser des blocs qui respectent les règles de consensus.
 
+### Wallets
 
+Vous pouvez aussi ajuster, dans le fichier `bitcoin.conf`, la façon dont vos portefeuilles sont gérés. Si vous n’utilisez pas de wallet directement dans Core, mais plutôt un logiciel de gestion externe comme Sparrow ou Liana, ces paramètres auront peu d’importance :
 
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Définit le format des adresses générées par le portefeuille pour la réception.
 
+- `changetype=<legacy|p2sh-segwit|bech32|bech32m>` : Force le format des adresses de change (reste d'un input sur un paiement simple).
 
+- `wallet=<path>` : Charge au démarrage un portefeuille existant (peut être répété pour en charger plusieurs).
 
+- `walletdir=<dir>` : Répertoire contenant les portefeuilles (par défaut : `<datadir>/wallets` s’il existe, sinon `<datadir>`). Cela peut être utile si vous souhaitez stocker les wallets sur un volume dédié ou chiffré.
 
+- `walletbroadcast=1` : Diffuse automatiquement les transactions créées par les wallets chargés (défaut : `1`). À mettre à `0` si vous souhaitez gérer la diffusion par un autre canal.
 
+- `walletrbf=1` : Active l’opt-in RBF pour signaler RBF sur toutes les transactions (défaut : `1`). Permet d’augmenter les frais ultérieurement en cas de transaction bloquée.
 
+- `txconfirmtarget=<n>` : Cible de confirmation pour la transaction (en nombre de blocs, défaut : `6`). Le wallet va définir automatiquement les frais pour que la transaction soit confirmée dans ce nombre de blocs.
 
+- `paytxfee=<amt>` : Taux de frais fixe (BTC/kvB) appliqué aux transactions du wallet. À éviter en général : privilégiez l’estimation adaptative via `txconfirmtarget`.
 
+- `fallbackfee=<amt>` : Taux de secours (BTC/kvB) utilisé si l’estimateur manque de données (défaut : `0.00`). Le mettre à 0 désactive totalement le fallback.
 
+- `mintxfee=<amt>` : Seuil minimal (BTC/kvB) pour la création de transactions par le wallet (défaut : `0.00001`). Le wallet refusera de construire une transaction en-dessous de ce seuil.
 
+- `maxtxfee=<amt>` : Plafond absolu de frais totaux pour une transaction de wallet (défaut : `0.10` BTC). Protège contre des frais anormalement élevés qui viendraient détruire des bitcoins inutilement.
 
+- `avoidpartialspends=1` : Sélectionne les UTXOs par grappes d’adresse pour éviter les dépenses partielles.
 
+- `spendzeroconfchange=1` : Autorise la réutilisation d’un UTXO de change non confirmé comme entrée dans une nouvelle transaction (défaut : `1`).
 
+- `consolidatefeerate=<amt>` : Taux maximal (BTC/kvB) au-delà duquel le wallet évite d’ajouter plus d’inputs que nécessaire pour consolider. Cela permet des consolidations opportunistes à bas prix, et réduire les frais lorsque les frais sont haut.
 
+- `maxapsfee=<n>` : Budget de frais additionnels (BTC, valeur absolue) que le wallet accepte de payer pour activer l’option "*avoid partial spends*".
 
+- `discardfee=<amt>` : Taux (BTC/kvB) indiquant votre tolérance à jeter le change en l’ajoutant aux frais. Les sorties dont la dépense coûterait plus d’un tiers de leur valeur à ce taux sont abandonnées.
 
+- `keypool=<n>` : Taille du réservoir d’adresses pré-générées (défaut : `1000`). Des valeurs trop faibles augmentent le risque de restaurations incomplètes.
 
+- `disablewallet=1` : Démarre Bitcoin Core sans sous-système wallet et désactive les RPC associés. Réduit la surface d’attaque et l’empreinte si le nœud ne sert qu’à la validation/relai.
 
+### Stockage, indexation et performances
 
+Le fichier de configuration vous permet également d’ajuster les paramètres liés à votre machine. Cela peut être particulièrement pertinent de les modifier si vous disposez de ressources limitées, ou au contraire, d’une large capacité disponible :
 
+- `datadir=<dir>` : Définit le répertoire de données principal de Bitcoin Core.
 
+- `blocksdir=<dir>` : Découple l’emplacement des fichiers de blocs (`blocks/blk*.dat` et `blocks/rev*.dat`) du `datadir`. Peut être utile pour mettre l’archive des blocs sur un volume différent, tout en laissant la base d’état (`chainstate/`) sur un support plus rapide par exemple.
 
+- `dbcache=<n>` : Alloue `<n>` Mio au cache des bases (*LevelDB*) utilisées par l’index des blocs et le `chainstate` (défaut : `450`). Plus la valeur est élevée, plus l’IBD et la validation courante sont rapides, au prix d’une consommation RAM plus importante.
 
+- `prune=<n>` : Active l’élagage des fichiers de blocs et fixe une cible d’espace disque en MiB (défaut : `0` = désactivé ; `1` = élagage manuel via RPC ; `>=550` = élagage automatique sous la cible). Incompatible avec `txindex=1`. Le nœud reste pleinement validateur, mais il ne peut plus donner l’historique ancien. Cette option est particulièrement utile si votre espace disque est limité, par exemple lorsque vous installez un nœud sur votre ordinateur personnel.
 
+- `txindex=1` : Construit et maintient un index global des transactions confirmées. Indispensable pour certaines requêtes (`getrawtransaction` hors portefeuille) et pour des usages d’exploration, mais augmente nettement l’empreinte disque. Incompatible avec le mode élagué.
+
+- `assumevalid=<hex>` : Indique un bloc que l’on présume valide, ce qui permet de sauter les vérifications de scripts pour ses ancêtres (mettre `0` pour tout vérifier). Voir le chapitre précédent pour plus d'informations.
+
+- `reindex=1` : Reconstruit l’index des blocs et l’état (`chainstate`) à partir des fichiers `blk*.dat` présents sur disque. Reconstruit aussi les index optionnels actifs. C'est une opération longue à utiliser pour réparer une base corrompue ou activer/désactiver proprement des index lourds.
+
+- `reindex-chainstate=1` : Reconstruit uniquement le `chainstate` à partir de l’index de blocs actuel. À privilégier quand les fichiers de blocs sont sains.
+
+- `blockfilterindex=<type>` : Tient à jour des index de filtres compacts par bloc (par ex. `basic`) utilisés par les clients légers (BIP157/158) et certaines RPC. Désactivé par défaut (`0`). Consomme de l’espace disque et du temps d’indexation supplémentaires.
+
+- `coinstatsindex=1` : Maintient un index de statistiques de l’UTXO set exploité par l’appel `gettxoutsetinfo`. Utile pour des audits et métriques sans recalcul coûteux. Désactivé par défaut.
+
+- `loadblock=<file>` : Importe au démarrage des blocs depuis un fichier externe `blk*.dat`. Sert à précharger l’historique depuis une source hors ligne (copie locale, support externe) pour accélérer l’initialisation.
+
+- `par=<n>` : Fixe le nombre de threads de vérification de scripts (de `-10` à `15`, `0` = auto, `<0` = laisse ce nombre de cœurs libres). Permet d’ajuster le parallélisme CPU lors de la validation. Le mode auto convient dans la plupart des cas.
+
+- `debuglogfile=<file>` : Spécifie l’emplacement du journal `debug.log`.
+
+- `shrinkdebugfile=1` : Réduit la taille de `debug.log` au démarrage (défaut : `1` quand `-debug` n’est pas actif).
+
+- `settings=<file>` : Chemin du fichier de paramètres dynamiques `settings.json`.
+
+### Accès RPC et sécurité opérationnelle
+
+Enfin, le `bitcoin.conf` vous permet aussi de configurer les paramètres d’accès à votre nœud. Soyez prudent avec ces réglages, surtout si vous débutez : ne les modifiez pas sans en comprendre parfaitement les implications, au risque d’introduire des vulnérabilités.
+
+- `server=1` : Active le serveur JSON-RPC. Indispensable si vous pilotez `bitcoind` via `bitcoin-cli` ou une application tierce. À désactiver (`0`) sur un nœud purement validant qui n’expose aucune API, ou qui utilise déjà un serveur Electrum.
+
+- `rpcbind=<addr>[:port]` : Adresse/port d’écoute du serveur RPC. Par défaut, l’écoute se fait seulement en local (`127.0.0.1` et `::1`). Ce paramètre est ignoré si `rpcallowip` n’est pas aussi défini. Servez-vous en pour borner explicitement l’interface.
+
+- `rpcport=<port>` : Port RPC (défaut : `8332` sur mainnet, `18332` sur testnet, `38332` sur signet, `18443` sur regtest).
+
+- `rpcallowip=<ip|cidr>` : Autorise des clients RPC provenant d’une IP ou d’un sous-réseau donné (peut être répété). À utiliser conjointement avec `rpcbind` pour n’exposer l’API qu’à un segment de confiance (LAN/VPN).
+
+- `rpcauth=<USERNAME>:<SALT>$<HASH>` : Méthode recommandée d’authentification RPC (mot de passe haché). Permet plusieurs entrées et évite de stocker un secret en clair.
+
+- `rpccookiefile=<path>` : Chemin du cookie d’authentification (par défaut : fichier `.cookie` sous le `datadir/`). C'est utilisé pour l’accès local d'un même utilisateur sans gérer de mots de passe persistants. Par exemple, vous pouvez l'utiliser pour connecter le logiciel de gestion de portefeuille Liana à votre Bitcoin Core sur la même machine.
+
+- `rpcuser=<user>` / `rpcpassword=<pw>` : Authentification RPC classique avec mot de passe en clair. À éviter au profit de `rpcauth` ou du cookie.
+
+- `rpcthreads=<n>` : Nombre de threads pour servir les appels RPC (défaut : `4`). Augmentez-le si vous avez de forts pics d’appels côté monitoring/outil externe.
+
+- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,…` : Liste blanche d’APIs autorisées. Réduit la surface d’attaque en restreignant les méthodes accessibles.
+
+- `rpcwhitelistdefault=1|0` : Comportement par défaut des listes blanches : si activé et qu’une whitelist est utilisée, les appels non listés sont refusés. Cela peut aussi forcer un ensemble vide par défaut (aucun appel permis) tant que rien n’est explicitement listé.
+
+- `rest=1` : Active l’API REST publique (désactivée par défaut). À n’exposer que sur un réseau de confiance (même prudence qu’avec JSON-RPC).
+
+- `conf=<file>` : Spécifie, en ligne de commande uniquement, un fichier de configuration en lecture seule. Utile pour geler un profil d’exécution (immuable) côté ops.
+
+- `includeconf=<file>` : Charge un fichier de configuration additionnel (chemin relatif au `datadir/`). Permet de séparer les rôles : base commune + surcharge locale sensible.
+
+- `daemon=1` / `daemonwait=1` : Lance `bitcoind` en arrière-plan et, avec `daemonwait`, attend la fin de l’initialisation avant de rendre la main. Cela facilite l’intégration avec des superviseurs (systemd, runit).
+
+- `pid=<file>` : Emplacement du fichier PID.
+
+- `sandbox=<log-and-abort|abort>` : Active le sandboxing syscalls expérimental : seules les syscalls attendues sont autorisées.
+
+- `startupnotify=<cmd>` / `shutdownnotify=<cmd>` : Exécute une commande au démarrage ou à l'arrêt.
+
+- `alertnotify=<cmd>` : Déclenche une commande sur réception d’une alerte.
+
+- `blocknotify=<cmd>` : Exécute une commande à chaque nouveau bloc.
+
+- `debug=<category>|1` / `debugexclude=<category>` : Active/désactive des catégories de logs détaillés (ex. `net`, `mempool`, `rpc`, `validation`...).
+
+- `logips=1` : Journalise les adresses IP dans les logs.
+
+- `logsourcelocations=1` / `logthreadnames=1` / `logtimestamps=1` : Ajoute respectivement les emplacements source, noms de threads et horodatages précis aux logs.
+
+- `printtoconsole=1` : Envoie les traces/debug vers la console (*stdout*).
+
+- `help-debug=1` : Affiche l’aide des options de debug et quitte.
+
+- `uacomment=<cmt>` : Ajoute un commentaire à l’User-Agent P2P.
+
+Nous avons maintenant terminé de lister la plupart des paramètres de configuration. Ce fichier `bitcoin.conf` constitue ainsi le véritable tableau de bord de votre nœud : il définit la configuration réseau, la gestion de la mempool, l’utilisation du disque et de la mémoire, l’indexation ainsi que l’administration générale. Si vous souhaitez approfondir vos connaissances sur ce fichier et en créer un adapté à vos besoins, je vous recommande d’utiliser [le générateur de Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
+
+Nous arrivons à la conclusion de ce cours BTC 202, qui vous aura permis non seulement de comprendre les bases du fonctionnement des nœuds et leurs interactions dans le système, mais aussi de mettre en place le vôtre. Vous êtes désormais un Bitcoiner souverain, qui dispose de son portefeuille en self-custody et qui diffuse ses transactions via son propre nœud. Félicitations !
+
+Vous pouvez à présent passer à la partie finale du cours, où vous pourrez évaluer BTC 202, puis passer votre diplôme pour vérifier que toutes les notions abordées sont bien acquises.
+
+Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Network.
+
+En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 

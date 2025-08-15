@@ -990,11 +990,11 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 ### Standard configuration
 
-Having established the theoretical foundations of networking and understood how IP addresses, masks, routing and translation work together, it's time to get down to the nitty-gritty. Under GNU/Linux, network configuration is now done with the **`ip`** command (_iproute2_ package), which replaces the historic `ifconfig`.
+After covering the theoretical foundations of networking and understanding how IP addresses, masks, routing, and translation work together, it's time to move on to practical configuration. On GNU/Linux, network setup is now handled with the **`ip`** command (_iproute2_ package), which replaces the older `ifconfig`.
 
-A veritable Swiss army knife, `ip` lets you assign or modify an IP address, change a mask, start or stop a Interface, or consult its status at any time.
+`ip` lets you assign or change an IP address, change a mask, start or stop an interface, or check its status at any time.
 
-**ASTUCE:** to view all interfaces (active or not): `ip addr show`
+**TIPS:** to display all interfaces (active or not): `ip addr show`
 
 Example: assigning a static address and activating Interface
 
@@ -1010,28 +1010,27 @@ Activate Interface:
 ip link set dev eth0 up
 ```
 
-To deactivate the same Interface :
+Deactivate the same Interface :
 
 ```shell
 ip link set dev eth0 down
 ```
 
-To display the status of a specific Interface :
+Display the status of a specific Interface :
 
 ```shell
 ip addr show dev eth2
 ```
 
-**Practical tip:** with `ip`, adding an additional address to a Interface no longer requires a `:1` suffix. Just add a second line `ip addr add ...` :
+**Practical tip:** with `ip`, adding an additional address to an interface no longer requires a `:1` suffix. Just add another `ip addr add ...` line:
 
 ```shell
 ip addr add 172.18.2.39/24 dev eth2
 ```
 
-
 ### Activation scripts: ifup / ifdown
 
-The `ifup` and `ifdown` utilities read static files from `/etc/sysconfig/network-scripts/` (on RHEL, CentOS, Rocky Linux, AlmaLinux...) or `/etc/network/interfaces` (on Debian/Ubuntu) to cleanly enable or disable interfaces.
+The `ifup` and `ifdown` utilities read static configuration files from `/etc/sysconfig/network-scripts/` (on RHEL, CentOS, Rocky Linux, AlmaLinux...) or `/etc/network/interfaces` (on Debian/Ubuntu) to cleanly bring interfaces up or down.
 
 ```shell
 ifup eth1
@@ -1039,8 +1038,8 @@ ifdown eth2
 ```
 
 Configuration files (RHEL-like) :
-- /etc/sysconfig/network**: global parameters (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-***: parameters specific to each Interface.
+- **/etc/sysconfig/network**: global settings (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: settings specific to each interface.
 
 Static example (ifcfg-eth0) :
 
@@ -1063,10 +1062,9 @@ ONBOOT=yes
 
 This modular structure is still valid and can be easily automated on current systems.
 
-
 ### Advanced configuration: bonding
 
-In professional environments, the aim is to guarantee continuity of service and/or to aggregate bandwidth. Bonding* (or *teaming* with _teamd_) mechanisms meet these needs: several physical interfaces function as a single logical Interface, often called `bond0` or `team0`.
+In professional environments, the aim is to guarantee service continuity and/or to aggregate bandwidth. *Bonding* (or *teaming* with _teamd_) mechanisms meet these needs: several physical interfaces function as a single logical Interface, often called `bond0` or `team0`.
 
 
 ![Image](assets/fr/039.webp)
@@ -1074,21 +1072,19 @@ In professional environments, the aim is to guarantee continuity of service and/
 
 Prerequisites :
 - Load the `bonding` module (or use `teamd`) ;
-- At least two physical interfaces.
-
+- Have at least two physical interfaces available.
 
 #### The various common bonding methods :
 
-|Mode|Nom|Principe|
+|Mode|Name|Principle|
 |---|---|---|
-|0|balance-rr|Round-robin, répartition circulaire des trames|
-|1|active-backup|Une seule interface active, bascule à chaud|
-|2|balance-xor|Sélection via XOR MAC src/dst|
-|3|broadcast|Diffusion simultanée sur toutes les interfaces|
-|4|802.3ad (LACP)|Agrégation dynamique normalisée, nécessite switch compatible|
-|5|tlb (Transmit Load Balancing)|Répartition selon la charge d’émission|
-|6|alb (Adaptive Load Balancing)|Répartition adaptative, équilibre aussi la réception via ARP|
-
+|0|balance-rr|Round-robin, cyclic distribution of frames|
+|1|active-backup|Only one interface active at a time, with failover|
+|2|balance-xor|Select via XOR MAC src/dst|
+|3|broadcast|Simultaneous broadcast over all interfaces|
+|4|802.3ad (LACP)|Standards-based dynamic aggregation, requires a compatible switch|
+|5|tlb (Transmit Load Balancing)|Distribution based on transmit load|
+|6|alb (Adaptive Load Balancing)|Adaptive distribution, also balances reception via ARP|
 
 #### Setting up with `ip link
 
@@ -1099,7 +1095,7 @@ ip link set eth0 down
 ip link set eth1 down
 ```
 
-- Creating the crowded Interface:
+- Creat the bonded Interface:
 
 ```shell
 ip link add bond0 type bond mode balance-alb
@@ -1126,7 +1122,7 @@ ip link set eth0 master bond0
 ip link set eth1 master bond0
 ```
 
-- Put everything back into service:
+- Bring everything back up:
 
 ```shell
 ip link set bond0 up
@@ -1134,8 +1130,7 @@ ip link set eth0 up
 ip link set eth1 up
 ```
 
-**Tip:** to detach a slave without cutting the bond: `ip link set eth1 nomaster`
-
+**Tip:** to detach a slave without taking down the bond: `ip link set eth1 nomaster`
 
 #### Permanent configuration (RHEL-like)
 
@@ -1178,52 +1173,48 @@ Then :
 systemctl restart network
 ```
 
-
 #### Additional IP address (modern alias)
 
-With `ip`, you simply add a second address on the same device:
+With `ip`, you can simply add a second address to the same device:
 
 ```shell
 ip addr add 192.168.1.2/24 dev eth0
 ```
 
-For this alias to survive reboot, create a second `IPADDR2=...` / `PREFIX2=...` block in `ifcfg-eth0`, or a new *NetworkManager* connection via `nmcli`.
+To make this alias persistent after a reboot, either add a second `IPADDR2=...` / `PREFIX2=...` block to `ifcfg-eth0`, or create a new *NetworkManager* connection via `nmcli`.
 
-Thanks to `ip` and related commands (`ip link`, `ip addr`, `ip route`), network configuration gains in consistency, scriptability and clarity. Bonding is a cornerstone of high-availability architectures, and Interface's ability to add multiple addresses has been greatly simplified.
+Thanks to `ip` and related commands (`ip link`, `ip addr`, `ip route`), network configuration is more consistent, scriptable and clear. Bonding is a key component of high-availability architectures, and assigning multiple addresses to a single interface has become much simpler.
 
-In the rest of this course, we'll look at the specifics and implementation of IPv6 addressing.
-
+In the next chapter, we’ll look at the specifics and implementation of IPv6 addressing.
 
 # IPv6 addressing
 
 <partId>9b1d87f1-2a68-496e-b5dd-76cf74fb8cde</partId>
-
 
 ## IPv6: Standards and definitions
 
 <chapterId>d1f16f0a-1104-460d-8d67-f725665f8e3f</chapterId>
 
 
-We now turn to the next generation of IP addressing: the IPv6 protocol, originally known as IPng (_IP Next Generation_). Designed to overcome the structural limitations of IPv4, this protocol introduces a vastly expanded addressing architecture, as well as numerous technical optimizations.
+We now move to the next generation of IP addressing: the IPv6 protocol, originally known as IPng (_IP Next Generation_). Designed to overcome the structural limitations of IPv4, this protocol introduces a vastly expanded addressing architecture, as well as numerous technical optimizations.
 
-The reasons behind the adoption of IPv6 are manifold, and address critical needs for the evolution of the Internet. Firstly, IPv6 had to support the exponential growth in the number of connected devices (an objective unattainable with IPv4's limited address space). Secondly, the protocol aims to reduce the size of routing tables, making exchanges more efficient and lightening the workload of routers in the long term.
+The motivations behind the adoption of IPv6 are varied, and address critical needs for the evolution of the Internet. Firstly, IPv6's role is to support the exponential growth in the number of connected devices (an objective unattainable with IPv4's limited address space). Secondly, the protocol aims to reduce the size of routing tables, making exchanges more efficient and reducing the workload of routers in the long term.
 
-IPv6 also aims to simplify certain aspects of packet processing, to streamline datagram flow and optimize transfer speed between networks. From a security point of view, the AH/ESP headers of the *IPsec* protocol are part of the basic set, and all IPv6 nodes must be able to support them (RFC 6434). However, their use remains optional: the administrator decides whether or not to activate them, depending on the context.
+IPv6 also seeks to simplify certain aspects of packet handling, improving datagram flow and optimizing transfer speeds between networks. From a security standpoint, the AH/ESP headers of the *IPsec* protocol are included in the base specification, and all IPv6 nodes must be able to support them (RFC 6434). Their use, however, remains optional : it is up to the administrator to enable them depending on the context.
 
-Other objectives include more detailed consideration of service types, notably to guarantee better quality for real-time applications (VoIP, videoconferencing, etc.). IPv6 should also enable more flexible management of mobility: a device can thus change access point without changing its address in a way that is visible to its correspondents.
+Other objectives include more precise handling of service types, notably to ensure better quality for real-time applications (VoIP, videoconferencing, etc.). IPv6 is also designed to allow more flexible mobility management: a device can change access points without changing its address in a way that is visible to its peers.
 
-Finally, IPv6 has been designed to coexist with legacy protocols. While it is not directly binary-compatible with IPv4, it is perfectly interoperable with higher layers such as TCP, UDP, ICMPv6 and DNS, as well as with routing protocols such as OSPF and BGP, subject to certain adjustments. For multicast management, IPv6 uses the MLD (*Multicast Listener Discovery*) protocol, the functional equivalent of IGMP in the IPv4 environment.
+Finally, IPv6 was designed to coexist with legacy protocols. Although it is not directly binary-compatible with IPv4, it remains fully interoperable with higher-layer protocols such as TCP, UDP, ICMPv6 and DNS, as well as with routing protocols such as OSPF and BGP, subject to certain adjustments. For multicast management, IPv6 uses the MLD (*Multicast Listener Discovery*) protocol, which is the functional equivalent of IGMP in the IPv4 environment.
 
+### Notation rules
 
-### Writing rules
-
-One of the major changes with IPv6 is the IP address format itself. To resolve the chronic shortage of IPv4 addresses, the length of the address has been increased to 128 bits, or 16 bytes, compared with only 32 bits for IPv4. In theory, this opens up a range of possible addresses from :
+One of the most significant changes in IPv6 is the format of the IP address itself. To address the chronic shortage of IPv4 addresses, the length of the address has been increased from 32 bits to 128 bits, so 16 bytes. In theory, this yields a possible address space of:
 
 $$3.4 \times 10^{38}$$
 
-This guarantees virtually unlimited capacity for all current and future equipment.
+This ensures virtually unlimited capacity for all current and future equipment.
 
-The way IPv6 addresses are written differs significantly from conventional dotted decimal notation. An IPv6 address is made up of eight 16-bit groups, expressed in hexadecimal and separated by colons `:`.
+IPv6 addresses are written very differently from the familiar dotted decimal notation. An IPv6 address is made up of eight 16-bit groups, written in hexadecimal and separated by colons `:`.
 
 For example:
 
@@ -1231,44 +1222,43 @@ For example:
 1987:0c02:0000:84c2:0000:0000:cf2a:9077
 ```
 
-To simplify the writing, the leading zeros of each group can be omitted. The previous example then becomes :
+To simplify notation, leading zeros in each group can be omitted. The above example then becomes:
 
 ```
 1987:c02:0:84c2:0:0:cf2a:9077
 ```
 
-In addition, a single continuous sequence of groups of zeros can be replaced by the notation `::`, thus condensing the address:
+In addition, a single continuous sequence of zero groups can be replaced with ::, further shortening the address:
 
 ```
 1987:c02:0:84c2::cf2a:9077
 ```
 
-**Warning:** the rule is strict: a single sequence of consecutive zeros can be abbreviated by `::`. If an address contains several sequences of zeros, only the longest is condensed. This principle guarantees the uniqueness and legibility of the address.
+**Warning:** this rule is strict: only one sequence of consecutive zeros can be replaced by `::`. If an address contains multiple zeros sequences, only the longest one is condensed. This ensures both uniqueness and readability.
 
-**Important peculiarity:** the `:` character used to separate hexadecimal blocks poses a potential problem in URLs, as `:` is also used to indicate the service port. To remove any ambiguity, IPv6 addresses inserted in a URL must be enclosed in square brackets `[ ]`.
+**Important detail:** the `:` characterused to separate hexadecimal blocks can cause ambiguity in URLs, since `:` is also used to indicate a service port. To avoid confusion, IPv6 addresses in URL must be enclosed in square brackets `[ ]`.
 
-Example of HTTP access on a specific port for the address `2002:400:2A41:378::34A2:36` :
+Example of HTTP access to a specific port for the address `2002:400:2A41:378::34A2:36` :
 
 ```
 http://[2002:400:2A41:378::34A2:36]:8080
 ```
 
-When you want to express an IPv4 address in an IPv6 context, you can use a mixed notation in dotted decimal, preceded by the string `::` :
+When representing an IPv4 address in an IPv6 context, you can use a mixed notation in dotted decimal form, preceded by`::` :
 
 ```
 ::192.168.1.5
 ```
 
-This compatibility facilitates the transition between the two protocols by allowing IPv4 blocks to be included in the IPv6 space.
+This compatibility helps ease the transition between the two protocols by allowing IPv4 blocks to be included within the IPv6 address space.
 
-**Note:** To standardize representations, RFC 5952 defines a canonical format that specifies the abbreviation rules to be followed to avoid multiple variants of the same address. Compliance with these recommendations helps to limit misinterpretation and ensure the consistency of network configurations.
-
+**Note:** To standardize how addresses are written, RFC 5952 defines a canonical format with abbreviation rules to avoid multiple representations of the same address. Following these recommendations helps reduce misinterpretation and ensures consistent network configurations.
 
 ### IPv6 address types
 
-IPv6 addressing is distinguished from its predecessor by a wide variety of address categories, each designed to meet specific needs, while guaranteeing flexible routing and network management. As with IPv4, addresses can be global, local, reserved or specific to certain transition mechanisms.
+IPv6 differs from its predecessor through a wide range of address categories, each designed to specific uses, while allowing flexible routing and network management. As with IPv4, addresses can be global, local, reserved or specific to certain transition mechanisms.
 
-An unspecified IPv6 address is represented by `::` or, in more explicit form, `::0.0.0.0`. This particular form is used when acquiring an address, or as a default value to indicate the absence of an address.
+An unspecified IPv6 address is represented by `::` or, more explicitly, `::0.0.0.0`. This special form is used during address acquisition, or as a default value to indicate the absence of an address.
 
 
 | IPv6 Address Prefix | Description                                 |
@@ -1281,151 +1271,148 @@ An unspecified IPv6 address is represented by `::` or, in more explicit form, `:
 
 (1) : *On a private LAN, the `fd00::/8` prefix is preferred for assigning internal addresses that are not routable on the Internet.*
 
-
 #### Reserved addresses
 
-Some IPv6 ranges are explicitly reserved and must not be used as global addresses. They have a well-defined technical role:
-- `::/128`**: unspecified address, never persistently assigned to a device, but used as a source address by a machine awaiting configuration.
-- `::1/128`**: the address of _loopback_, the direct equivalent of `127.0.0.1` in IPv4, which allows a machine to address itself.
-- `64:ff9b::/96`**: block reserved for protocol translators for IPv4/IPv6 interconnection, as defined in RFC6052.
-- `::ffff:0:0/96`**: compatibility block for representing an IPv4 address in a specific IPv6 structure, often used internally by applications.
+Certain IPv6 ranges are explicitly reserved and must not be used as global addresses. They have specific technical purposes:
+- **`::/128`**: unspecified address, never permanently assigned to a device, but used as a source address by a machine awaiting configuration.
+- **`::1/128`**: the _loopback_ address, the direct equivalent of `127.0.0.1` in IPv4, which allows a machine to address itself.
+- **`64:ff9b::/96`**: Reserved for protocol translators to enable IPv4/IPv6 interconnection, as defined in RFC 6052.
+- **`::ffff:0:0/96`**: compatibility block for representing an IPv4 address in a specific IPv6 structure, often used internally by applications.
 
-These blocks guarantee interoperability and facilitate migration between the two versions of the protocol.
+These blocks guarantee interoperability and facilitate migration between the two protocol version.
 
+#### Global unicast addresses
 
-#### Unicast global addresses
+Global unicast addresses make up most of the publicly routable IPv6 space, representing about 1/8th of the address space. Since 1999, IANA has allocated these blocks, such as the `2001::/16` prefix, in CIDR blocks (from `/23` to `/12`) to regional registries, which then redistribute them to providers and organizations.
 
-Unicast global addresses make up the bulk of the publicly routable IPv6 space. They represent around 1/8th of the address space. Since 1999, IANA has been allocating these blocks, such as the `2001::/16` prefix, in CIDR blocks (from `/23` to `/12`) to regional registries, which then redistribute them to providers and organizations.
+Some ranges have special documented uses:
+- **`2001:2::/48`**: Reserved for performance and interoperability testing (RFC 5180).
+- **`2001:db8::/32`**: Reserved for documentation and examples (RFC 3849).
+- **`2002::/16`**: Used for the 6to4 mechanism, which allows IPv6 traffic to travel across an IPv4 infrastructure (useful during the transition phase between the two protocols).
 
-Some beaches have specific documented uses:
-- `2001:2::/48`**: reserved for performance and interoperability tests, RFC5180.
-- `2001:db8::/32`**: reserved for documentation and examples, RFC3849.
-- `2002::/16`**: used for the 6to4 mechanism, which enables IPv6 traffic to be transported across an IPv4 infrastructure (important for the transition phase between the two protocols).
-
-**Please note:** a large proportion of global addresses remain untapped, providing a reserve for future Internet extensions.
-
+**Note:** a large proportion of global addresses remain unused, serving as a reserve for future Internet growth.
 
 #### Unique local addresses (ULA)
 
-Unique local addresses (`fc00::/7`) are the IPv6 equivalent of IPv4 private addresses (RFC1918). They enable the creation of isolated internal networks without the risk of conflict with public addressing. In practice, the effective prefix is `fd00::/8`, with the 8th bit set to 1 to define local usage. Each ULA block incorporates a 40-bit pseudo-random identifier, thus minimizing address collisions when interconnecting separate private networks.
-
+Unique local addresses (`fc00::/7`) are the IPv6 equivalent of IPv4 private addresses (RFC1918). They enable the creation of isolated internal networks without risking conflicts with public addressing. In practice, the effective prefix is `fd00::/8`, with the 8th bit set to 1 to indicate local usage. Each ULA block includes a 40-bit pseudo-random identifier, minimizing address collisions when connecting separate private networks.
 
 #### Link-local addresses
 
-Link-local addresses (`fe80::/64`) are used exclusively for internal communications on the same Layer 2 segment (same VLAN or switch). They are never routed beyond the local link. Each network Interface automatically generates a link-local address, often derived from its MAC address via the EUI-64 scheme.
+Link-local addresses (`fe80::/64`) are used exclusively for communication within the same Layer 2 segment (same VLAN or switch). They are never routed beyond the local link. Each network Interface automatically generates a link-local address, often derived from its MAC address using the EUI-64 scheme.
 
-Special feature: the same machine can use the same link-local address on several interfaces, provided that Interface is specified during communications to avoid any ambiguity.
-
+**Special feature**: the same machine can use the same link-local address on multiple interfaces, but the interface must be specified when communicating to avoid ambiguity.
 
 #### Multicast addresses
 
-In IPv6, the concept of broadcast has been replaced by multicast, a more efficient way of distributing packets to a defined group of recipients. The multicast range is prefixed by `ff00::/8`. These addresses include `ff02::1`, which targets all nodes on the local link. Although practical, this address is no longer recommended for applications, as it can generate uncontrolled broadcasts.
+In IPv6, broadcast has been replaced by multicast, a more efficient way to deliver packets to a defined group of recipients. The multicast range is prefixed with `ff00::/8`. These includes addresses like `ff02::1`, which targets all nodes on the local link. While convenient, this address is no longer recommended for applications, as it can generate uncontrolled broadcasts.
 
-A frequent use of multicast is the _Neighbor Discovery Protocol_ (NDP), which replaces ARP in IPv6. NDP relies on specific multicast addresses, such as `ff02::1:ff00:0/104`, to automatically discover other hosts connected to the same link.
+A common use of multicast is the _Neighbor Discovery Protocol_ (NDP), which replaces ARP in IPv6. NDP uses specific multicast addresses, such as `ff02::1:ff00:0/104`, to automatically discover other hosts connected to the same link.
 
-By combining these address types, IPv6 offers a complete palette to meet the needs of global routing, local communications, IPv4/IPv6 migration and device autoconfiguration, while improving the efficiency of network transmissions.
+By combining these address types, IPv6 provides a complete set of options to meet the needs of global routing, local communications, IPv4/IPv6 migration, and automatic device configuration, while improving transmission efficiency.
 
+### Address scope
 
-### Address perimeter
+The scope of an IPv6 address defines the exact domain in which it is valid and unique. Understanding this concept is key to mastering packet routing and logical organization of an IPv6 network. IPv6 addresses are generally grouped into three main categories based on their scope and usage: unicast, anycast and multicast.
 
-The scope of an IPv6 address (*scope*) precisely defines the domain in which this address is considered valid and unique. Understanding this notion is important for mastering packet routing and the logical organization of an IPv6 network. IPv6 addresses are generally grouped into three broad categories according to their scope and mode of use: unicast, anycast and multicast.
+**Unicast addresses** are the most common and include several distinct subtypes. 
+These include the _loopback_ (`::1`) address, whose scope is limited to the host using it, and which is used to test the network stack internally without sending traffic over the physical network. 
+Then there are link-local addresses (_link-local_), whose scope is restricted to a single network segment: they are used for direct communications between devices on the same physical or logical link (e.g. a single switch or VLAN). 
+Finally, unique local addresses (_ULA_, for _Unique Local Addresses_) are internal to a private network. They may be routed between multiple private segments but are never visible on the Internet.
 
-Unicast addresses** are the most common category, and include several distinct subtypes. These include the _loopback_ (`::1`) address, whose scope is strictly limited to the host using it, and which enables the network stack to be tested internally without sending traffic over the physical network. Then there are link-local addresses (_link-local_), whose scope is restricted to a single network segment: they are used for direct communications between devices located on the same physical or logical link (e.g. a single switch or VLAN). Finally, unique local addresses (_ULA_, for _Unique Local Addresses_) correspond to address ranges internal to a corporate network; they have a potentially wider scope, as they can be routed across several private segments, but are never visible on the Internet.
-
-This conceptual breakdown often takes the form of a binary structure in which the first half of the address (the first 64 bits) identifies the network prefix, and the second half (also 64 bits) uniquely identifies the Interface of the equipment on that network. This separation facilitates address autoconfiguration through mechanisms such as SLAAC (_Stateless Address Autoconfiguration_), which allow machines to automatically generate a stable address based on the MAC address or a pseudo-random identifier.
-
+Conceptually, IPv6 addresses are often represented as a binary structure where the first half (the first 64 bits) identifies the network prefix, and the second half (also 64 bits) uniquely identifies the device's interface on that network. This split makes address autoconfiguration easier through mechanisms like SLAAC (_Stateless Address Autoconfiguration_), which allow machines to automatically generate a stable address based on the MAC address or a pseudo-random identifier.
 
 | Field     | Prefix | L | Global ID | Subnet | Interface ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
-The IPv6 architecture is based on the hierarchical global routing model of today's Internet: prefix partitioning enables regional registries and operators to manage address distribution in a decentralized way, while ensuring global uniqueness. It is within this framework that the same host can simultaneously possess a global unicast address, for communicating on the Internet, and a link-local address for interacting locally, e.g. for immediate neighborhood or router discovery messages.
-
+The IPv6 architecture follows the hierarchical global routing model of today's Internet. Prefix partitioning enables regional registries and network operators to manage address allocation in a decentralized way, while ensuring global uniqueness. Within this framework the same host can simultaneously hold a global unicast address for internet communication and a link-local address for local interactions, e.g. with immediate neighborhood or for router discovery messages.
 
 | Field     | Prefix | Zero | Interface ID |
 |-----------|--------|------|--------------|
 | Bits      | 10     | 54   | 64           |
 
-Anycast addresses** represent an intermediate concept that takes advantage of the unicast model, while offering multicast-like behavior in some cases. An anycast address is, in fact, a unicast address assigned to several interfaces distributed over different network nodes. When a packet is sent to an anycast address, the IPv6 protocol endeavors to deliver it to one of the hosts sharing this address, generally giving priority to the one closest according to the routing topology. This principle optimizes query processing speed and improves the resilience of distributed services: a typical example is that of root DNS servers, for which anycast addressing automatically directs queries to the nearest point of presence.
+**Anycast addresses** represent an intermediate concept that builds on the unicast model but can behave like multicast in certain cases. An anycast address is, in essence, a unicast address assigned to several interfaces distributed over different network nodes. When a packet is sent to an anycast address, the IPv6 protocol aims to deliver it to one of the hosts sharing that address, typically the one closest in terms of routing topology. This approach optimizes query processing speed and improves the resilience of distributed services. A classic example is the root DNS servers, where anycast addressing automatically directs queries to the nearest point of presence.
 
 
 | Field     | Prefix | Subnet | Interface ID |
 |-----------|--------|--------|--------------|
 | Bits      | 48     | 16     | 64           |
 
-Finally, in IPv6, **multicast addresses** replace the broadcast mechanism, deemed too costly and unsuitable for a global network. A multicast address identifies a group of interfaces, usually spread over several hosts, that wish to receive the same packets simultaneously. For each multicast address, the range is specified by a special field: the 4 _scope_ bits included in the address structure. These bits define the geographic or logical broadcast limit:
-- A scope of `1` means that the packet is intended for local equipment only.
-- A scope of `2` indicates a range limited to the local link: all devices on the same physical or virtual segment can receive the message.
-- A scope of `5` extends the reach to the site, typically to an entire internal corporate network.
-- A scope of `8` extends the reach to an organization, enabling distribution to all sub-networks of the same entity.
-- Finally, a scope of `e` (14 in hexadecimal) designates a global reach, which makes the multicast group accessible from the entire Internet, provided the routing infrastructure allows it.
+In IPv6, **multicast addresses** replace the broadcast mechanism, which was considered too costly and unsuitable for a global-scale network. A multicast address identifies a group of interfaces, typically across multiple hosts, that wish to receive the same packets simultaneously. 
+Each multicast address includes a special 4-bit _scope_ field, which defines the geographic or logical limit of the broadcast:
+- A scope of `1` means the packet is for the local device only.
+- A scope of `2` restricts the packet to the local link: all devices on the same physical or virtual segment can receive it.
+- A scope of `5` extends the reach to a site, typically an entire corporate network.
+- A scope of `8` extends the reach to an organization, enabling delivery across all subnets of the same entity.
+- A scope of `e` (14 in hexadecimal) indicates a global reach, making the multicast group accessible from anywhere on the Internet if the routing infrastructure supports it.
 
-Each IPv6 multicast address is structured into several fields: a _Flag_ field (4 bits) specifies whether the group is permanent or transient, a _Scope_ field (4 bits) defines the scope, and an identification field (112 bits) indicates the multicast group number.
-
+The structure of an IPv6 multicast address includes: 
+- a _Flag_ field (4 bits) specifies whether the group is permanent or temporary,
+- a _Scope_ field (4 bits) defines the scope, 
+- an identification field (112 bits) identifying the multicast group number.
 
 | Field      | Prefix | Flags | Scope | Group ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
-An emblematic example of IPv6 multicast is the use of the _Neighbor Discovery Protocol_ (NDP). Rather than using ARP as in IPv4, NDP relies on multicast addresses such as `ff02::1:ff00:0/104` to broadcast its neighbor discovery requests, soliciting only the hosts concerned on the same link.
+A well-known example of IPv6 multicast in action is the _Neighbor Discovery Protocol_ (NDP). Rather than using ARP as in IPv4, NDP relies on multicast addresses such as `ff02::1:ff00:0/104` to broadcast neighbor discovery requests, targeting only the relevant hosts on the same link.
 
-The IPv6 address perimeter thus finely structures the way data flows are transmitted, received and routed. This granularity makes the protocol more flexible and efficient for managing both local and global communications, while avoiding the disadvantages of generalized broadcasting.
-
+By defining address scopes so precisely, IPv6 structures how data flows are sent, received, and routed. This granularity makes the protocol more flexible and efficient for managing both local and global communications, while avoiding the downsides of generalized broadcasting.
 
 ## Address assignment in a local network
 
 <chapterId>4c9c3e52-59bc-499a-af0a-6dd369a9e029</chapterId>
 
+In this chapter, we'll look at one of the most practical aspects of IPv6 deployment: assigning IP addresses to hosts on a local network. The IPv6 architecture has been designed for flexibility, allowing each device to generate its own address automatically, while still allowing fully manual configuration when needed.
 
-In this chapter, we'll look at one of the most concrete aspects of IPv6 implementation: assigning IP addresses to hosts on a local network. The IPv6 architecture has been designed to offer great flexibility, allowing each machine to automatically generate its own address, while leaving open the possibility of entirely manual configuration.
+An IPv6 local network systematically divides the address into two parts: 
+- the first 64 bits represent the subnet prefix, usually provided by a router or an address authority;
+- the remaining 64 bits are used by the host to uniquely identify itself on that segment. 
+This model greatly simplifies route aggregation and address block management.
 
-An IPv6 local network is based on a systematic division of the address into two parts: the first 64 bits represent the subnet prefix, usually provided by a router or addressing authority, while the remaining 64 bits are used by the host to uniquely identify itself on that segment. This model greatly simplifies route aggregation and address block management.
+Two main approaches are used to assign addresses to devices:
+- Manual configuration, where the administrator specifies each interface's exact address;
+- Automatic configuration,where devices generate or obtain their own addresses dynamically.
 
-Two main approaches are used to assign addresses to equipment:
-- Manual configuration, in which the administrator precisely specifies the address of each Interface ;
-- Automatic configuration, enabling equipment to dynamically generate or obtain its own address.
-
-In manual configuration, the administrator sets the full IPv6 address on each Interface. Please note: some values remain reserved:
+In manual configuration, the administrator assigns the complete IPv6 address to each interface. Certain values remain reserved:
 - `::/128` : unspecified address, never permanently assigned ;
 - `::1/128`: loopback address (_loopback_), IPv4 equivalent: `127.0.0.1`.
 
-On the other hand, there is no concept of _broadcast_ as in IPv4; the other "all to 0" or "all to 1" combinations in the host part have no particular role. This manual approach remains relevant in controlled environments, but it quickly becomes cumbersome to maintain on a large scale.
+Unlike IPv4, there is no _broadcast_ concept; "all zeros" or "all ones" combinations in the host portion have no special meaning.
+Manual configuration is still useful in controlled environments but becomes difficult to maintain at scale.
 
-In automatic configuration, several methods exist to enable equipment to obtain a functional IPv6 address without manual intervention. The **NDP** (_Neighbor Discovery Protocol_) protocol, specified by RFC4862, enables *stateless* auto-configuration. In this mode, the host receives a network prefix from a local router, and completes the address itself with an identifier based on its MAC address. This method is extremely simple to implement, and requires no central server.
+For automatic configuration, several methods exist:
+- The **NDP** (_Neighbor Discovery Protocol_) protocol, specified by RFC4862, enables *stateless* auto-configuration. In this mode, the host receives a network prefix from a local router, and completes the address itself with an identifier based on its MAC address. This method is simple to deploy, and requires no central server.
+- Implementations like those in Windows can generate the host portion pseudo-randomly to improve privacy by avoiding direct exposure of the MAC address. Revealing the MAC address in IPv6 packets can raise privacy concerns, as it allows tracking of a device across different networks.
+- DHCPv6 protocol : Defined in RFC3315 and similar to the DHCP used for IPv4, it enables more controlled and centralized configuration, including lease management, extra options (DNS, MTU...), and databases registration. DHCPv6 can operate alone or alongside stateless configuration to provide additional parameters without assigning the IP address itself.
 
-Some implementations, such as those found in Windows systems, can use a pseudo-random draw to generate the host part of the address, which improves confidentiality compared with direct use of the MAC address. Indeed, the visibility of the MAC address in IPv6 packets raises privacy issues, as it enables a device to be tracked in different network contexts.
-
-Another widely-used method is the use of the DHCPv6 protocol, specified in RFC3315. Similar to the DHCP used for IPv4, it enables more controlled, centralized configuration, with lease management, additional options (DNS, MTU...), and registration in databases. DHCPv6 can be used alone or in conjunction with stateless configuration to provide additional parameters without necessarily assigning the IP address itself.
-
-**Important note:** when using the MAC address-based method, the MAC address is transformed into a 64-bit identifier by the EUI-64 mechanism. This mechanism inserts the bytes `FF:FE` in the center of the original MAC address (in 48 bits), and inverts the 7th bit to mark global uniqueness. The result is a stable Interface identifier, used in the full IPv6 address.
+**Important note:** In the MAC-based method, the MAC address is converted to a 64-bit identifier using the EUI-64 format. This mechanism inserts the bytes `FF:FE` in the middle of the original MAC address (in 48 bits), and inverts the 7th bit to indicate global uniqueness. The result is a stable Interface identifier, used in the full IPv6 address.
 
 Here's an example of how to transform a MAC address into EUI-64:
-
 
 ![Image](assets/fr/045.webp)
 
 
-However, due to growing concerns around device tracking, modern operating systems (notably Linux, Windows 10+, macOS, Android) offer "privacy extension" mechanisms by default, which use random Interface identifiers that are periodically renewed for outgoing connections, while retaining a stable identifier for internal communications (DNS, DHCPv6...).
+However, due to growing concerns over device tracking, modern operating systems (notably Linux, Windows 10+, macOS, Android) now enable privacy extensions by default. These use randomly generated interface identifiers that are periodically renewed for outgoing connections, while keeping a stable identifier for internal communications (such as DNS or DHCPv6).
 
-As with DHCP in IPv4, automatically assigned IPv6 addresses can be associated with two lifetimes defined by DHCPv6 routers or servers:
-- Preferred lifetime*: after this period, the address remains valid, but is no longer used to initiate new connections;
-- Valid lifetime*: when this time expires, the address is completely removed from the Interface configuration.
+As with DHCP in IPv4, automatically assigned IPv6 addresses can have two lifetimes, defined by DHCPv6 routers or servers:
+- *Preferred lifetime*: after this period, the address remains valid, but is no longer used to initiate new connections;
+- *Valid lifetime*: when this time expires, the address is completely removed from the Interface configuration.
 
-This logic makes it possible to dynamically manage network evolution, ensuring, for example, a smooth transition from an old ISP to a new one. By updating the prefix announced by routers and adjusting DNS records in parallel, IPv6 migration can be carried out with no discernible service interruption.
+This system makes it possible to manage network changes dynamically, for example, ensuring a smooth transition from one ISP to another. By updating the prefix announced by routers and adjusting DNS records in parallel, IPv6 migration can be carried out without any noticeable service interruption.
 
-**Tip:** The combined use of address and DNS lifecycles makes it possible to implement a gradual transition strategy, where new connections move to a new topology, while old ones end their lifecycle seamlessly.
+**Tip:** The combined use of address and DNS lifecycles makes it possible to implement a gradual transition strategy, where new connections move to a new topology, while existing connections continue until their natural end.
 
-In short, IPv6 offers a wide range of flexibility for address assignment: manual configuration, auto-configuration with or without state, DHCPv6, or random generation. Each approach has its own advantages and constraints, and can be adapted to suit the level of control required, the size of the network, or confidentiality requirements.
-
+In short, IPv6 offers a wide range of flexibility for address assignment: manual configuration, stateless or stateful auto-configuration, DHCPv6, or random generation. EEach approach comes with its own advantages and limitations, and can be adapted according to the required level of control, the size of the network, or privacy needs.
 
 ## Assigning IPv6 address blocks
 
 <chapterId>45cce866-1b58-4888-b3fe-15c922180839</chapterId>
 
-
 ### Address distribution
 
-The IPv6 address allocation scheme has been structured to meet two objectives: to guarantee global address uniqueness, and to enable a logical hierarchy that favors the aggregation and simplification of routing tables. As with IPv4, the *Internet Assigned Numbers Authority* (IANA) remains at the top of this hierarchy. It manages the global unicast address space and delegates address blocks to the five regional Internet registries (_RIR_).
+The IPv6 address allocation scheme has been structured to meet two objectives: to guarantee global address uniqueness, and to enable a logical hierarchy that favors the aggregation and simplification of routing tables. 
+As with IPv4, the *Internet Assigned Numbers Authority* (IANA) sits at the top of this hierarchy. It manages the global unicast address space and delegates address blocks to the five regional Internet registries (_RIR_).
 
 The five existing RIRs are :
 - ARIN (North America),
@@ -1434,35 +1421,33 @@ The five existing RIRs are :
 - AFRINIC (Africa),
 - LACNIC (Latin America and the Caribbean).
 
-IANA allocates IPv6 blocks of variable size to each RIR, generally between /23 and /12. These sizes allow great flexibility while ensuring long-term scalability. Once these blocks have been received, the RIRs are responsible for redistributing them to Internet Service Providers (ISPs), large corporations or public institutions.
+IANA allocates IPv6 blocks of varying size to each RIR, generally between /23 and /12. These approach offers flexibility while ensuring long-term scalability. The RIRs, in turn, redistribute these blocks to Internet Service Providers (ISPs), large corporations, and public institutions.
 
-IANA allocates each RIR an IPv6 /12 block. This unique size, fixed since 2006, ensures that each regional registry has a stable and sufficiently large reserve for its long-term needs. Once this /12 has been received, the RIR typically subdivides it into /23, /26 or /29. ISPs are most often allocated /32 blocks, although this size can vary depending on the ISP's size and geographical area. In turn, they can allocate each of their customers a /48 block, giving each organization 65,536 distinct /64 subnets (which is extremely generous compared to IPv4).
+Since 2006, each RIR has received an IPv6 /12 block from IANA, a fixed size designed to ensure a stable and sufficiently large reserve for future growth. RIRs usually subdivide these into /23, /26 or /29 blocks. ISPs most often receive /32 blocks, although this size can vary depending on the ISP's size and geographical area. They typically allocate /48 blocks to customers. Each /48 provides 65,536 distinct /64 subnets (an enormous capacity compared to IPv4).
 
-**Important note:** a /32 block contains exactly 65,536 /48 sub-blocks. This means that every ISP can serve tens of thousands of customers without running out of addresses. Thanks to its /48, each customer will then have a gigantic amount of space to structure its own internal network with as many /64 segments as it wishes.
+**Important note:** a /32 block contains exactly 65,536 /48 sub-blocks. This means that every ISP can serve tens of thousands of customers without exhausting their allocation. Thanks to its /48, each customer will then have a gigantic amount of space to structure its own internal network with as many /64 segments as it wishes.
 
-This hierarchy can be seen in the following table, which illustrates the typical block sizes allocated to each level:
+The typical allocation hierarchy looks like this:
 
 | IANA | RIR | LIR | Customer | Subnet | Interface |
 |------|-----|-----|----------|--------|-----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
-With this abundance of addresses, NAT (*Network Address Translation*), which has become virtually indispensable in IPv4 to compensate for the shortage of public addresses, is no longer necessary. Every host connected to the Internet can have a unique, global public address, simplifying end-to-end connectivity and facilitating the use of protocols such as IPSec, VoIP or inbound connections.
+With this abundance of addresses, NAT (*Network Address Translation*), once essential in IPv4 to cope with address shortages, is no longer necessary. Every host can have a unique, globally routable public address, simplifying end-to-end connectivity and making protocols like IPSec, VoIP, or inbound connections easier to use.
 
-To check to which organization an IPv6 address has been assigned, you can use the `whois` command, which queries public RIR databases. This transparency makes it possible to identify the organization that owns a prefix, which can be useful for network, analysis or security purposes.
-
+To check which organization an IPv6 address belongs to, you can use the `whois` command to query public RIR databases. This transparency makes it possible to identify the organization that owns a prefix, which can be useful for network, analysis or security purposes.
 
 ### PA vs PI addressing
 
-Originally, the IPv6 allocation model was based solely on the use of PA (*Provider Aggregatable*) blocks, i.e. linked to the ISP. In this model, the client organization receives its prefix from the ISP, which means that if it changes provider, it will have to renumber its entire infrastructure.
+Originally, the IPv6 allocation model was based solely on PA (*Provider Aggregatable*) blocks, which means linked to the ISP. In this model, an organization receives its prefix from its ISP, meaning that changing providers requires renumbering the entire infrastructure.
 
-This mechanism is facilitated by IPv6's auto-configuration capabilities and address lifetime management, but it remains restrictive for companies with critical infrastructures or redundancy requirements with multiple providers.
+While IPv6's auto-configuration features and address lifetimes make renumbering easier, it remains inconvenient for organizations with critical infrastructure or multiple provider connections for redundancy requirements.
 
-This is why, from 2009 onwards, allocation policies have been extended to allow the existence of PI (*Provider Independent*) blocks. These blocks (generally /48 in size) are allocated directly to a company or institution by an RIR, independently of any ISP. This model is particularly well suited to organizations practicing *multihoming*, i.e. connected to several operators simultaneously. Document RIPE-512 details the European policy for allocating these PI blocks, for example.
+Since 2009, allocation policies have allowed for PI (*Provider Independent*) blocks. These blocks (generally /48 in size) are allocated directly to a company or institution by an RIR, independently of any ISP. This model is particularly well suited to organizations practicing *multihoming*, (meaning connected to several operators simultaneously). For example, in Europe, RIPE-512 outlines the policy for PI allocations.
 
+### Subnet mask notation
 
-### Notation of subnet masks
-
-As in IPv4, IPv6 subnet notation uses CIDR (*Classless Inter-Domain Routing*). This consists of indicating the number of bits making up the prefix after the address, using the `/` character.
+As in IPv4, IPv6  uses CIDR (*Classless Inter-Domain Routing*). This consists of indicating the number of bits making up the prefix after the address, using the `/` character.
 
 Take the following example:
 
@@ -1470,100 +1455,86 @@ Take the following example:
 2001:db8:1:1a0::/59
 ```
 
-This means that the first 59 bits are fixed and identify the network. All remaining bits (here 69 bits) can be varied to identify subnets or hosts.
+This means that the first 59 bits are fixed and identify the network. All remaining bits (here 69 bits) can be used to identify subnets or hosts.
 
 Thus, this notation covers addresses from `2001:db8:1:1a0:0:0:0:0` to `2001:db8:1:1bf:ffff:ffff:ffff:ffff`.
 
-This block therefore covers a set of 8 /64 subnets, each capable of hosting a very large number of hosts.
+This block therefore covers a set of 8 /64 subnets, each capable of hosting a massive number of devices.
 
-The flexibility offered by this notation enables fine-tuned address space planning, whether in large infrastructures, home networks or virtualized environments. It also favors route aggregation, reducing the load on routers and facilitating large-scale deployment.
-
+CIDR notation allows for precise address space planning, from large-scale networks to home setups and virtualized environments, and encourages route aggregation, reducing router load and improving scalability.
 
 ### IPv6 packets and headers
 
-The format of an IPv6 packet differs from its IPv4 predecessor in its apparent simplicity and great extensibility. An IPv6 datagram always begins with a fixed-size header of 40 bytes, which contains the information essential for routing the packet. This is a much more streamlined choice than the IPv4 header (which could vary from 20 to 60 bytes), enabling routers to process packets faster and more efficiently.
+IPv6 packet format differs from IPv4 by being both simpler and more extensible. An IPv6 datagram always begins with a fixed-size header of 40 bytes containing all the essential routing information. This streamlined approach, compared to IPv4's header variable length (from 20 to 60 byte), enables faster and more efficient packet processing by routers.
 
-However, IPv6 does not sacrifice functionality: instead of integrating numerous optional fields in the main header, it introduces a system of extension headers, placed immediately after the basic header. These optional headers make it possible to add data or instructions specific to certain functions, without unnecessarily burdening the processing of ordinary packets.
+However, IPv6 does not remove functionality: instead of integrating numerous optional fields in the main header, it introduces a system of extension headers, placed immediately after the basic header. These optional headers make it possible to add data or instructions specific to certain functions, without unnecessarily burdening ordinary packets.
 
-Some of these headers follow a rigid format, but others are designed to contain a variable number of options. In these cases, each option is encoded according to a triplet `{Type, Length, Value}` :
+Some extension headers follow a fixed structure, while others can hold a variable number of options. In These options are encoded as `{Type, Length, Value}` triplets :
 - The "Type" field (1 byte) indicates the nature of the option;
 - The first two bits of the "Type" specify what routers should do if the option is not recognized:
  - Ignore the option and continue treatment,
- - Delete the datagram,
- - Delete the datagram and return an ICMP error message to the source,
- - Delete datagram without notification (in the case of multicast packets).
+ - Drop the datagram,
+ - Drop and send an ICMP error to the source.
+ - Drop the datagram without notification (in the case of multicast packets).
 - The "Length" field (1 byte) specifies the size of the "Value" field, from 0 to 255 bytes;
 - The "Value" field contains the data associated with the option.
 
 Here's an overview of the different types of extension headers defined by IPv6.
 
-
 #### Hop-by-Hop header
 
-This header, if present, is always placed immediately after the base header. It contains information intended to be read by each router traversed, which distinguishes it from other headers generally processed only by the destination. It is typically used to signal global parameters or trigger specific processing along the route.
-
+This header, if present, is always placed immediately after the base header. It contains information that must be processed by every router along the packet's path, unlike most other headers, which are usually handled only by the destination node. Typical uses include signaling global parameters or requesting specific processing steps as the packet travels through the network.
 
 ![Image](assets/fr/047.webp)
 
-
 #### Routing header
 
-The routing header is used to specify a list of intermediate addresses through which the packet must pass. There are two main approaches:
-- Strict routing: the exact path is determined in advance;
+The routing header specifies a list of intermediate addresses the packet must pass through. There are two main routing modes:
+- Strict routing: the exact path is predefined
 - Loose routing: only certain mandatory steps are specified.
 
-The first four fields of this header are :
-- Next Header** : identifies the type of the next header;
-- Routing Type**: defines the routing method (usually `0`);
-- Left** segments: number of segments remaining to be covered ;
-- Address[n]**: list of intermediate addresses.
+The first four fields of this rooting header are :
+- **Next Header** : identifies the type of the next header;
+- **Routing Type**: defines the routing method (usually `0`);
+- **Segments left**: number of segments remaining to traverse ;
+- **Address[n]**: list of intermediate addresses.
 
-The "Segments Left" field is initialized to the total number of segments remaining, and is decremented by one for each jump.
-
+The "Segments Left" field starts with the total number of remaining segments and is decremented by one at each hop.
 
 ![Image](assets/fr/048.webp)
 
-
 #### Fragmentation header
 
-Unlike IPv4, where routers could fragment packets, only the source host is allowed to fragment an IPv6 datagram. All IPv6 nodes must be able to transmit packets of at least 1280 bytes. If a router encounters a packet larger than the MTU of the next link, it sends an *ICMPv6 Packet Too Big* message back to the source, which then adjusts the size of its transmissions.
+In IPv6, only the source host is allowed to fragment a datagram, unlike IPv4 where routers could also do so. All IPv6 nodes must be able to handle packets of at least 1280 bytes. If a router encounters a packet larger than the MTU of the next link, it sends an *ICMPv6 Packet Too Big* message back to the source, which then adjusts the size of its transmissions.
 
 The fragmentation header contains the following fields:
-- Identification**: datagram identifier for reconstruction.
-- Fragment Offset**: fragment position in the original datagram.
-- M flag**: indicates whether any other fragments remain.
-
+- **Identification**: unique datagram identifier for reassembly.
+- **Fragment Offset**: the fragment's position within the original datagram.
+- **M flag**: indicates whether more fragments follow.
 
 ![Image](assets/fr/049.webp)
 
-
 #### Authentication header (AH)
 
-This header is designed to secure communications by guaranteeing the authenticity of the sender and the integrity of the data. It is used in particular with the IPsec protocol. Thanks to a verification code (authenticator), the recipient can be sure that the message actually comes from the expected sender, and that it has not been altered en route.
+This header is designed to secure communications by verifying both the sender's authenticity and the integrity of the data. It is commonly used with the IPsec protocol. Using an authentication code, the recipient can confirm that the message truly comes from the expected sender and that it has not been altered in transit.
 
-In the event of a fraudulent modification attempt, the authentication code will no longer match, and the datagram may be rejected. This mechanism also combats replay attacks, by detecting unauthorized duplications.
-
+In the event of a fraudulent modification attempt, the authentication code will no longer match, and the datagram may be rejected. This mechanism also protects against replay attacks by detecting unauthorized duplications.
 
 ![Image](assets/fr/050.webp)
 
-
-#### Header Destination option
+#### Destination Options Header
 
 This header is intended only for the final recipient of the datagram. It can be used to add options or metadata specific to the application, without being taken into account by intermediate routers.
 
-Initially, no such option was defined in the protocol. However, this header was introduced when IPv6 was designed, to allow future extensions to be added without modifying the overall packet structure. The null option, for example, is only used to complete the header up to a multiple of 8 bytes, for memory alignment reasons.
-
+Initially, no such option was defined in the protocol. However, this header was introduced when IPv6 was designed, to allow future extensions to be added without modifying the overall packet structure. The null option, for example, is used only to pad the header to a multiple of 8 bytes for memory alignment purposes.
 
 ![Image](assets/fr/051.webp)
 
-
-IPv6 packet design is therefore based on a clear separation between a minimalist base header and optional extension headers, introduced in a modular fashion. This architecture guarantees both standard processing performance and the flexibility needed to evolve the protocol and integrate security, complex routing or quality-of-service mechanisms, while maintaining compatibility with future infrastructures.
-
+IPv6 packet design is built on a clear separation between a minimal base header and modular extension headers. This architecture ensures both standard processing performance and the flexibility needed to evolve the protocol and integrate security, complex routing or quality-of-service mechanisms, while maintaining compatibility with future infrastructures.
 
 ## Relationship between IPv6 and DNS
 
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
-
 
 In modern networks, the DNS (*Domain Name System*) translates domain names into IP addresses that can be used by machines. With the introduction of IPv6, DNS naturally had to adapt to support the new 128-bit addresses, while maintaining compatibility with IPv4. This coexistence is important in dual-stack environments, where both versions of the IP protocol coexist.
 

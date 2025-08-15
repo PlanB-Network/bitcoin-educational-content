@@ -1,0 +1,9 @@
+question: Vilken inställning bör användarna inta när det gäller integriteten i deras kommunikation i den moderna miljön?
+answer: Anta att någon alltid lyssnar
+wrong_answers:
+  - Förlita sig enbart på Wi-Fi
+  - Tro att mobila data är helt säkra
+  - Använd endast trådbundna anslutningar
+explanation: |
+  I en värld där många kommunikationskanaler är känsliga för avlyssning är det klokt att anta att en tredje part kan lyssna, vilket gör kryptografi nödvändigt.
+reviewed: false

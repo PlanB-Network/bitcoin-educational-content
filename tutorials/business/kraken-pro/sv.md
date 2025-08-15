@@ -225,7 +225,7 @@ Du kan också Exchange dina bitcoins för andra kryptovalutor, till exempel stab
 ![KRAKEN](assets/fr/23.webp)
 
 
-Välj beloppet, välj den kryptovaluta du vill få och bekräfta sedan transaktionen.
+Välj belopp, välj den kryptovaluta du vill få och bekräfta sedan transaktionen.
 
 
 För dessa transaktioner kan du välja mellan olika ordertyper: *Marknad*, *Limit* eller *Stop-Loss*:

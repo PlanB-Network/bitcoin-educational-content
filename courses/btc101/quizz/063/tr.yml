@@ -1,0 +1,12 @@
+question: İnsan rasyonalitesine dayanan ve Bitcoin'da kullanılan matematiksel kavram nedir?
+answer: Oyun teorisi.
+wrong_answers:
+  - Olasılık teorisi.
+  - Sayılar teorisi.
+  - Küme teorisi.
+explanation: |
+  Oyun teorisi, aşağıdakilere dayanan matematiksel bir kavramdır
+  insan rasyonelliği. Bitcoin'de protokol değişiklikleri şunlardır
+  kullanıcılar tarafından zorunlu kılınarak Bitcoin'de herhangi bir değişiklik yapılması
+  protokolü oldukça karmaşıktır.
+reviewed: true

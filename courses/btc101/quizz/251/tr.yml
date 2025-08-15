@@ -1,0 +1,8 @@
+question: Sansürle ilgili temel sorunlardan biri nedir?
+answer: İfade özgürlüğünü ve toplanma hakkını yok edebilir.
+wrong_answers:
+  - İfade özgürlüğünün uygulanmasına yol açabilir.
+  - Toplanma hakkına daha fazla destek verilmesini sağlayabilir.
+  - İnovasyonun azalmasına yol açabilir.
+explanation: >-
+reviewed: true

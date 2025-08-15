@@ -1,0 +1,9 @@
+question: Marksist kâr teorisinin Avusturyalı eleştirisi nedir?
+answer: Kâr, risk alan ve yatırım yapan girişimciler için gerekli bir ödüldür.
+wrong_answers:
+  - Avusturyalılar, kârın işçilerin sömürülmesinin bir biçimi olduğunu savunurlar.
+  - Avusturyalılar Marx'ın teorisini liyakatin rolünü dikkate almadığı için eleştirmektedir.
+  - Marksist kâr teorisi bir sınıfın çıkarlarına hizmet eder.
+explanation: |
+  Avusturyalı ekonomistler için kâr, işçilerin sömürülmesi olarak gören Marksist görüşün aksine, girişimciler için alınan risklerin ve yapılan yatırımların karşılığıdır.
+reviewed: true

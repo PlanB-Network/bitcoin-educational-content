@@ -1,0 +1,9 @@
+question: Browser mana yang memperkenalkan JavaScript pada tahun 1995?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator mengintegrasikan bahasa JavaScript, yang dikembangkan oleh Brendan Eich pada tahun 1995, untuk memungkinkan interaktivitas dinamis pada halaman web.
+reviewed: false

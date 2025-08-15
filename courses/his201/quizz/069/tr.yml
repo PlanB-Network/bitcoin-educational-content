@@ -1,0 +1,9 @@
+question: Bitcoin geliştiricileri daha gayri resmi teknik tartışmalar yapmak için nerede buluşuyor?
+answer: IRC kanalında \#Bitcoin-dev
+wrong_answers:
+  - Forumun özel bir bölümünde
+  - Bitcoin-development posta listesinde
+  - R/Bitcoin alt dizininde
+explanation: |
+  Bu [oluşturuldu](https: //mmalmi.github.io/Satoshi/#email-27) Ağustos 2009'da Martti Malmi tarafından. Temmuz 2010'daki Slashdotting'den sonra biraz popülerlik kazandı.
+reviewed: true

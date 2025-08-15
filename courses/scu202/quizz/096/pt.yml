@@ -1,0 +1,9 @@
+question: Que tipo de protocolo deve ser ativado para encriptar os pedidos de DNS à escala de uma rede local?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  O DoH (DNS sobre HTTPS) e o DoT (DNS sobre TLS) encriptam os pedidos de DNS, impedindo-os de serem interceptados.
+reviewed: false

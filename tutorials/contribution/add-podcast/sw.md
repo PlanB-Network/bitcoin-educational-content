@@ -81,8 +81,8 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 - `jina`**: Onyesha jina la podikasti yako.
-- `mwenyeji`**: Orodhesha majina au majina bandia ya spika au mwenyeji wa podikasti. Kila jina linapaswa kutengwa kwa koma.
-- `lugha`**: Onyesha msimbo wa lugha ya lugha inayozungumzwa katika podikasti yako. Kwa mfano, kwa Kiingereza, kumbuka `en`, kwa Kiitaliano `it`...
+- `mwenyeji`**: Orodhesha jina au majina bandia ya spika au mwenyeji wa podikasti. Kila jina linapaswa kutengwa kwa koma.
+- `lugha`**: Onyesha msimbo wa lugha inayozungumzwa katika podikasti yako. Kwa mfano, kwa Kiingereza, kumbuka `en`, kwa Kiitaliano `it`...
 
 
 
@@ -93,7 +93,7 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- `maelezo`**: Ongeza aya fupi inayoelezea podikasti yako. Maelezo lazima yawe katika lugha sawa na ilivyoonyeshwa katika sehemu ya `lugha:`.
+- `maelezo`**: Ongeza aya fupi inayoelezea podikasti yako. Maelezo lazima yawe katika lugha sawa na kama ilivyoonyeshwa katika sehemu ya `lugha:`.
 
 
 

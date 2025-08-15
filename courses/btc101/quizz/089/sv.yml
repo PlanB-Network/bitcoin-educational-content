@@ -1,0 +1,13 @@
+question: Vad är risken med att överkomplicera säkerheten och tillgängligheten för dina bitcoins?
+answer: Du kan skada dig själv om du hanterar reservplånböckerna felaktigt.
+wrong_answers:
+  - Du kan skada dig själv om du hanterar de fysiska plånböckerna felaktigt.
+  - Du kan skada dig själv om du hanterar de digitala plånböckerna felaktigt.
+  - Du kan skada dig själv om du hanterar Multisig-plånböckerna felaktigt.
+explanation: |
+  Att överkomplicera säkerheten och tillgängligheten för dina
+  bitcoins kan skada dig om du till exempel misshandlar
+  säkerhetskopior av dina plånböcker. Detta beror på att enkel säkerhetskopiering
+  förfaranden är avgörande för att återfå tillgång till dina medel
+  i händelse av förlust av din telefon eller dator.
+reviewed: true

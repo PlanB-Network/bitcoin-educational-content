@@ -1,0 +1,9 @@
+question: Vad är enligt texten den grundläggande skillnaden mellan Contract-teorier och marknadsteorier?
+answer: Contract-teorier söker social harmoni genom statligt tvång, medan marknadsteorier låter enskilda intressen harmonisera på egen hand.
+wrong_answers:
+  - Contract-teorierna gäller för primitiva samhällen, medan marknadsteorierna gäller för moderna samhällen.
+  - Contract-teorier handlar om fördelning av välstånd, medan marknadsteorier handlar om produktion av varor och tjänster.
+  - Contract-teorierna försvaras av fysiokraterna, medan marknadsteorierna försvaras av merkantilisterna.
+explanation: |
+  Contract-teorierna ser social harmoni som något som påtvingas av staten, medan marknadsteorierna anser att individuella intressen, genom att interagera fritt, spontant skapar en social jämvikt.
+reviewed: true

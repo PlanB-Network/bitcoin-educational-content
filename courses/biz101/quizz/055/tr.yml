@@ -1,0 +1,9 @@
+question: Özel Bitcoin muhasebe araçlarının temel amacı nedir?
+answer: Bitcoin ile ilgili verilerin otomatik olarak toplanmasını ve işlenmesini basitleştirmek için
+wrong_answers:
+  - Bitcoin özel anahtarlarının güvenliğini artırmak için
+  - İşletmeler için merkezi olmayan borsalarda doğrudan Bitcoin ticaretini kolaylaştırmak
+  - Bitcoin ödemelerini kabul etmek üzere bir PoS sistemi kurmak için
+explanation: |
+  Bu araçlar veri toplama, format dönüştürme, vergi hesaplama ve işlem kategorizasyonunu otomatikleştirmek için tasarlanmıştır.
+reviewed: false

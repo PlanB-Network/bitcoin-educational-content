@@ -1,0 +1,8 @@
+question: Vad är en potentiell konsekvens av utvecklingen av AI-teknik?
+answer: AI-teknik kommer att leda till att över 80% av dagens jobb försvinner.
+wrong_answers:
+  - AI-teknik kommer att förstöra alla datorer.
+  - AI-teknik kommer att leda till en minskning av den mänskliga intelligensen.
+  - AI-teknik kommer att orsaka en global ekonomisk kollaps.
+explanation: >-
+reviewed: true

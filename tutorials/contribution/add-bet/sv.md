@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- `byggare`**: Ange din organisations identifierare på PlanB Network. Om du ännu inte har en "builder"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
+- `byggare`**: Ange din organisations identifierare på PlanB Network. Om du ännu inte har en "project"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -118,7 +118,7 @@ Din YAML-fil kan till exempel se ut så här:
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

@@ -5,5 +5,5 @@ wrong_answers:
   - Una chiave pubblica che genera indirizzi Bitcoin
   - Una quantità di bitcoin divisa in più parti
 explanation: |
-  Un UTXO, o Unspent Transaction Output, è un output di transazione non speso, che rappresenta una certa quantità di bitcoin che il detentore può utilizzare.
-reviewed: false
+  Un UTXO, o Unspent Transaction Output, è un output di transazione non speso, che rappresenta una certa quantità di bitcoin che il proprietario può utilizzare.
+reviewed: true

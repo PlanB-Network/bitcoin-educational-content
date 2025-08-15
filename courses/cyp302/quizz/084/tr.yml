@@ -1,0 +1,9 @@
+question: Tek kullanımlık pedin temel pratik sınırlaması nedir?
+answer: Anahtar mesaj kadar uzun olmalı ve asla tekrar kullanılmamalıdır
+wrong_answers:
+  - Anahtar her gün değiştirilmelidir
+  - Anahtar mesajdan üç kat daha uzun olmalıdır
+  - Anahtar mutlaka bir Fransız Minitel'inde saklanmalıdır
+explanation: |
+  Tek kullanımlık peddeki anahtarın mesaj kadar uzun olması ve asla tekrar kullanılmaması gerekir, bu da pratik bağlamlarda kullanımını önemli ölçüde zorlaştırır. Çünkü mesaj kadar uzun bir veriyi güvenli bir şekilde iletmek mümkünse, anahtar yerine doğrudan mesajı iletmek daha mantıklı olacaktır.
+reviewed: false

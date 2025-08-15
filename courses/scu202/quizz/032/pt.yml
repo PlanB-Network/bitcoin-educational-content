@@ -1,0 +1,9 @@
+question: Que regra de cibersegurança recomenda que se limitem os direitos de cada utilizador ou software ao estritamente necessário?
+answer: O princípio do menor privilégio
+wrong_answers:
+  - Dupla autenticação
+  - A política de palavras-passe fortes
+  - Cópia de segurança regular
+explanation: |
+  O princípio do menor privilégio significa conceder apenas os direitos necessários para cada tarefa, reduzindo assim o risco de comprometimento.
+reviewed: false

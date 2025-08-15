@@ -331,7 +331,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - SMS経由で送信される一時コード。
 - Google AuthenticatorやAuthyのようなアプリケーションによって生成されるコード。
 - コンピュータに挿入する物理的なセキュリティキー。
+
   ![](assets/notext/19.webp)
+
   2FAを使用すると、ハッカーがパスワードを入手しても、この第二の検証要素がなければアカウントにアクセスすることができません。これにより、2FAは不正アクセスからオンラインアカウントを保護するために不可欠です。
 
 ### どのオプションを選ぶべきか？
@@ -341,8 +343,12 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - SMSは電話番号の所持の証明のみを提供するため、最良のオプションとは考えられていません。
 - 2FA（二要素認証）は、知識、所持、識別など、複数の証拠タイプを使用するため、より安全です。一回限りのパスワード（HOTPおよびTOTP）は、暗号計算を要求し、メモリではなくローカルに保存されるため、SMSよりも安全です。
 - USBキーやスマートカードなどのハードウェアトークンは、各サイトごとにユニークなプライベートキーを生成し、接続を許可する前にURLを検証することで、最適なセキュリティを提供します。
-  最適なセキュリティと強固な認証を実現するためには、安全なメールアドレスの使用、安全なパスワードマネージャーの設定、そしてYubiKeysを使用した2FA（二要素認証）の採用が推奨されます。また、紛失や盗難に備えて、YubiKeysを2つ購入し、自宅と持ち歩く場所の両方にバックアップコピーを保管することも賢明です。
-  生体認証は代替手段として使用できますが、知識と所持の組み合わせに比べてセキュリティは低くなります。生体認証データは認証デバイスに留まるべきであり、オンラインで公開されるべきではありません。異なる認証方法に関連する脅威モデルを考慮し、それに応じて実践を調整することが重要です。
+  
+最適なセキュリティと強固な認証を実現するためには、安全なメールアドレスの使用、安全なパスワードマネージャーの設定、そしてYubiKeysを使用した2FA（二要素認証）の採用が推奨されます。また、紛失や盗難に備えて、YubiKeysを2つ購入し、自宅と持ち歩く場所の両方にバックアップコピーを保管することも賢明です。
+
+SIMカードを使用した二要素認証（2FA）に対する潜在的な脅威について言えば、一般的な例はSIMスワップ攻撃です。この攻撃では、攻撃者がユーザーの電話番号を盗み、攻撃者が制御するSIMカードにリンクさせます。攻撃者が攻撃を実行する方法はいくつかありますが、この脅威は通常、高名な個人や関心のある人々にとってのみ大きな懸念事項です。
+
+生体認証は代替手段として使用できますが、知識と所持の組み合わせに比べてセキュリティは低くなります。生体認証データは認証デバイスに留まるべきであり、オンラインで公開されるべきではありません。異なる認証方法に関連する脅威モデルを考慮し、それに応じて実践を調整することが重要です。
 
 ### トレーニングの結論:
 
@@ -409,18 +415,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## バックアップの設定
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## ブラウザとVPNの変更
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -436,6 +430,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 また、オンラインでのプライバシーを保護するために特別に設計されたブラウザであるTor Browserの使用方法についても学びましょう：
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## バックアップの設定
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # より深く掘り下げる
 

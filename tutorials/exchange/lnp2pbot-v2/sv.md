@@ -8,7 +8,7 @@ description: Komplett guide till LNP2PBot och P2P Bitcoin-handel
 ## Inledning
 
 
-KYC-fria peer-to-peer (P2P)-börser är avgörande för att bevara användarnas konfidentialitet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
+KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -353,7 +353,7 @@ Lnp2pbot har flera fördelar och nackdelar jämfört med andra P2P Exchange-lös
 
 
 
-- Ingen KYC krävs ** : Till skillnad från vissa plattformar kräver Lnp2pbot inte identitetsverifiering, vilket bevarar användarnas konfidentialitet.
+- Ingen KYC krävs ** : Till skillnad från vissa plattformar kräver Lnp2pbot inte identitetsverifiering, vilket bevarar användarnas integritet.
 - Snabba transaktioner**: Tack vare Lightning Network är transaktionerna nästan ögonblickliga.
 - Låga avgifter** : Transaktionskostnaderna är lägre än för traditionella börser.
 - Tillgänglighet för mobiler**: LNP2PBot är tillgängligt via Telegram, vilket gör det enkelt att använda på mobila enheter.

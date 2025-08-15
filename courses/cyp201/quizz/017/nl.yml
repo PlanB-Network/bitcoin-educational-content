@@ -1,0 +1,9 @@
+question: Welke elliptische curve wordt gebruikt in het Bitcoin protocol?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin gebruikt de secp256k1 curve, gedefinieerd door de vergelijking y² = x³ + 7, voor zijn cryptografische bewerkingen.
+reviewed: false

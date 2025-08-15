@@ -1,0 +1,9 @@
+question: Çevrimiçi eşler arası (P2P) eşleştirme platformları hırsızlık riskini azaltmak için hangi mekanizmayı kullanıyor?
+answer: Bir emanet mekanizması.
+wrong_answers:
+  - Güvenli bir eşleştirme algoritması.
+  - Bir e-posta doğrulama mekanizması.
+  - Bir kimlik doğrulama mekanizması.
+explanation: |
+  Bu platformlar tipik olarak, satıcı ödemeyi fiat para biriminde onaylayana kadar bitcoinlerin tutulduğu bir koruma mekanizması kullanır. Üçüncü bir tarafça tutulan bu mekanizma, emanet olarak bilinen şeyi temsil eder.
+reviewed: false

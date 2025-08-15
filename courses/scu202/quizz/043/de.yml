@@ -1,0 +1,9 @@
+question: Welchen Nutzen hat die Überprüfung einer PGP-Signatur auf einer Hash-Datei oder einem Software-Manifest?
+answer: Sie garantiert, dass die Datei aus der offiziellen Quelle stammt
+wrong_answers:
+  - Garantiert eine fehlerfreie Software-Installation
+  - Es garantiert automatische Programmaktualisierungen
+  - Sie garantiert, dass die Datei vollständig ist und nicht verändert wurde
+explanation: |
+  Die PGP-Signatur, die mit dem öffentlichen Schlüssel des Entwicklers validiert wird, gewährleistet, dass die authentifizierte Datei von der Originalquelle stammt.
+reviewed: false

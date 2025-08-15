@@ -1,0 +1,12 @@
+question: Vad är hyperinflation?
+answer: En drastisk ökning av den monetära massan.
+wrong_answers:
+  - En liten ökning av den monetära massan.
+  - En drastisk minskning av den monetära massan.
+  - En liten minskning av den monetära massan.
+explanation: |
+  Hyperinflation är ett monetärt fenomen som kännetecknas av en
+  drastisk ökning av inflationen genom myndigheternas penningtryckning
+  av myndigheter, vilket leder till en fullständig förlust av
+  förtroende för en valuta.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Corvée, kazi ya kulazimishwa isiyolipwa iliyotumiwa kujenga barabara, ilikuwa lengo la mageuzi yake. Aliibadilisha na nini?
+answer: Pamoja na ushuru wa pesa
+wrong_answers:
+  - Ushuru wa aina (mazao ya kilimo)
+  - Anaibadilisha bila chochote
+  - Kupitia mfumo wa hiari
+explanation: |
+  Turgot alibadilisha corvée, kazi ya kulazimishwa isiyolipwa, na ushuru wa pesa, na hivyo kueneza mzigo wa ujenzi wa barabara na kuwakomboa wakulima kutoka kwa jukumu hili.

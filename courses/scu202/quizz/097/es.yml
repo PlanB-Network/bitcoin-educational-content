@@ -1,0 +1,9 @@
+question: ¿Qué servicio sustituye al DNS del ISP para proteger la confidencialidad de las solicitudes web?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 es un servidor DNS público centrado en la privacidad, que filtra los dominios maliciosos y no guarda registros nominativos.
+reviewed: false

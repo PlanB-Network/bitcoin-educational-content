@@ -1,0 +1,9 @@
+question: Vilken plattform raderar automatiskt metadata när ett foto laddas upp?
+answer: Signal
+wrong_answers:
+  - Gmail
+  - Utsikter
+  - Din blogg
+explanation: |
+  Signal (liksom Session och andra säkra meddelandetjänster) rensar metadata för delade bilder för att skydda användarnas integritet.
+reviewed: false

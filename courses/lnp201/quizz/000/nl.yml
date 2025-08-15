@@ -1,0 +1,9 @@
+question: Wat is het hoofddoel van de Lightning Network?
+answer: De schaalbaarheid van Bitcoin verbeteren om snelle en goedkope betalingen mogelijk te maken
+wrong_answers:
+  - Transactiekosten op Bitcoin Blockchain afschaffen
+  - Creëer een alternatief voor Bitcoin voor hoogwaardige betalingen
+  - Vereenvoudig uitwisselingen tussen verschillende cryptocurrencies
+explanation: |
+  De Lightning Network is bedoeld om de schaalbaarheid van Bitcoin te vergroten door snelle en goedkope transacties via off-chain betaalkanalen mogelijk te maken.
+reviewed: false

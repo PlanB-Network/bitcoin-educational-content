@@ -1,5 +1,5 @@
 question: Kako rudari verifikuju transakcije i uključuju ih u blok?
-answer: Kroz proces Proof of Work.
+answer: Kroz proces Proof of Work (dokaz o radu).
 wrong_answers:
   - Kroz proces Proof of stake.
   - Kroz proces Dokaza autoriteta.

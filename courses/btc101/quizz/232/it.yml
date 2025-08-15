@@ -1,9 +1,9 @@
 question: Qual è la dimensione del blocco nel protocollo Bitcoin?
-answer: 1MB.
+answer: 4MB.
 wrong_answers:
-  - 0.5MB.
+  - 1MB.
   - 2MB.
   - 3MB.
 explanation: >-
-  La dimensione del blocco nel protocollo Bitcoin è di 1MB.
+  La dimensione del blocco nel protocollo Bitcoin è di 4MB.
 reviewed: vero

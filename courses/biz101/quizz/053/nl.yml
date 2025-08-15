@@ -1,0 +1,9 @@
+question: Welke belangrijke betalingsgegevens moeten worden gedocumenteerd voor elke Bitcoin transactie?
+answer: De datum, het bedrag, de equivalente fiatwaarde en de bijbehorende adressen
+wrong_answers:
+  - De transaction ID, netwerkvergoeding en Address van de verkoper
+  - De datum, Exchange tarief, Wallet type en geografische locatie
+  - Het Bitcoin bloknummer, Timestamp en het gebruikte script
+explanation: |
+  Het documenteren van deze details zorgt voor duidelijkheid en helpt accountants bij het onderscheiden van inkomende en uitgaande stromen.
+reviewed: false

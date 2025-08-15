@@ -1,0 +1,9 @@
+question: Balıkçının hikayesi sermayenin doğası hakkında neyi göstermektedir?
+answer: Sermaye, gelecekteki üretkenliği artırmak için bina araçları sağlayan tasarruf edilmiş kaynakları temsil eder.
+wrong_answers:
+  - Sermaye, hemen tüketilmeyi bekleyen bir tüketim malları stokundan ibarettir.
+  - Devlet kredileri yoluyla anında sermaye yaratılmalıdır.
+  - Sermaye sadece büyük şirketler için önemlidir, küçük girişimciler için değil.
+explanation: |
+  Bir mızrak yapmak için birkaç günlük balık biriktiren balıkçı, gelecekteki kazanç için anlık tüketimi ertelemektedir. Bu örnek, tasarrufun (sermaye birikiminin) nasıl daha yüksek verimliliğe ve ileride daha fazla üretime yol açtığını göstermektedir.
+reviewed: false

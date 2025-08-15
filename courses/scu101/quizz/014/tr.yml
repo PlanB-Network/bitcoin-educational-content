@@ -1,0 +1,9 @@
+question: Çevrimiçi dolandırıcılıktan kaçınmanın bir yolu nedir?
+answer: Özellikle uzantıyı ve alan adını kontrol ederek gezindiğiniz sitenin kimliğini doğrulayın.
+wrong_answers:
+  - Halka açık Wi-Fi ağlarını kullanın.
+  - HTTPS protokolünü kullanmayan siteleri kullanın.
+  - Üzerinde asma kilit bulunmayan siteleri kullanın.
+explanation: |
+  Çevrimiçi dolandırıcılıktan kaçınmak için gezindiğiniz sitenin kimliğini doğrulamak çok önemlidir. Bunu sitenin uzantısını ve alan adını kontrol ederek yapabilirsiniz.
+reviewed: true

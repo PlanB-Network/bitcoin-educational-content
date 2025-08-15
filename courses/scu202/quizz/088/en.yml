@@ -1,0 +1,9 @@
+question: Which open-source password manager lets you store your credentials locally without the need for a cloud?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX works on the basis of encrypted local files, without the need for a cloud or subscription to a centralized service.
+reviewed: false

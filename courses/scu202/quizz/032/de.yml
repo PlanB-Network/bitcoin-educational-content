@@ -1,0 +1,9 @@
+question: Welche Cybersicherheitsregel empfiehlt, die Rechte jedes Benutzers oder jeder Software auf das unbedingt Notwendige zu beschränken?
+answer: Der Grundsatz des geringsten Privilegs
+wrong_answers:
+  - Doppelte Authentifizierung
+  - Die Richtlinie für sichere Passwörter
+  - Regelmäßige Sicherung
+explanation: |
+  Das Prinzip der geringsten Privilegien bedeutet, dass für jede Aufgabe nur die erforderlichen Rechte erteilt werden, wodurch das Risiko einer Kompromittierung verringert wird.
+reviewed: false

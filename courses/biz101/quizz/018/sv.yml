@@ -1,0 +1,9 @@
+question: Vad är en anledning till att institutionella investerare och stora företag har börjat intressera sig för Bitcoin?
+answer: Bitcoin:s antagande av stora finansiella aktörer, som BlackRock och framgången för Spot Bitcoin ETF:er, har legitimerat det som en värdebevarande tillgång.
+wrong_answers:
+  - Bitcoin:s pris sätts och garanteras av statliga myndigheter.
+  - Bitcoin-transaktioner är fullt försäkrade av centralbanker.
+  - Det kräver ingen förståelse för digitala tillgångar eller finansiella regleringar.
+explanation: |
+  När stora institutioner erkänner Bitcoin som en giltig investering signalerar det till marknaden att den har mognat bortom spekulation. Produkter som Spot Bitcoin ETF:er gör det lättare för företag att få exponering, vilket ytterligare driver på acceptansen hos allmänheten.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kasım 2008'de Zimbabve'de enflasyon oranı ne kadardı?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: |
+  Kasım 2008'de Zimbabve para biriminin aylık enflasyonu %79.600.000.000'a ulaşarak Zimbabve dolarının değerini 0'a düşürmüştür.
+reviewed: true

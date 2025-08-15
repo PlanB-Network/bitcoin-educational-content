@@ -1,0 +1,8 @@
+question: Hur stor är blockstorleken i Bitcoin-protokollet?
+answer: 4 MB.
+wrong_answers:
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+reviewed: true

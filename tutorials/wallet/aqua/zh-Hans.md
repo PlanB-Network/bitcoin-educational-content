@@ -190,4 +190,5 @@ Aqua 将创建一张从闪电钱包接收资金的发票。请注意，与 oncha
 
 我还建议您查看关于 Blockstream Green 移动应用程序的其他综合教程，这是另一种有趣的液体钱包设置解决方案：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

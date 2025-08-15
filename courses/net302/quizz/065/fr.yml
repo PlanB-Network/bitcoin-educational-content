@@ -1,0 +1,9 @@
+question: Quel protocole permet d’associer dynamiquement des durées de vie aux adresses IPv6 distribuées automatiquement ?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 gère explicitement les durées de vie via le bail ; NDP les annonce dans ses messages de configuration de routeur.
+reviewed: false

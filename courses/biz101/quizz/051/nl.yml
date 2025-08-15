@@ -1,0 +1,9 @@
+question: Voor welk type bedrijf is een eenvoudig csv-bestand waarschijnlijk voldoende voor de boekhouding?
+answer: Kleine bedrijven
+wrong_answers:
+  - Grote multinationale ondernemingen
+  - Grote financiële instellingen
+  - Hoogfrequente handelsplatformen
+explanation: |
+  De meeste kleine bedrijven hebben baat bij de eenvoud en voldoende details die een csv-export biedt.
+reviewed: false

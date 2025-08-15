@@ -1,0 +1,9 @@
+question: ¿Qué organización se fundó en 1998 para promover el término "código abierto"?
+answer: Iniciativa de Código Abierto (OSI)
+wrong_answers:
+  - Fundación para el Software Libre (FSF)
+  - Proyecto Debian
+  - Fundación Mozilla
+explanation: |
+  La OSI se creó para hacer hincapié en el aspecto pragmático y técnico de la apertura del código, a diferencia de la filosofía del software libre.
+reviewed: false

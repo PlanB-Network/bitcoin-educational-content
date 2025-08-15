@@ -1,5 +1,5 @@
 ---
-name: Paraguas LND
+name: Umbrel LND
 description: Tutorial avanzado de instalación y configuración de Lightning Network Daemon (LND) en Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -19,17 +19,17 @@ Este tutorial avanzado te lleva paso a paso a través de la instalación, config
 
 
 
-Antes de desplegar Lightning, necesitas tener un nodo Bitcoin completamente operativo en Umbrel. Esto implica instalar Umbrel (en Raspberry Pi, NAS u otra máquina) y sincronizar completamente Blockchain Bitcoin.
+Antes de desplegar Lightning, necesitas tener un nodo Bitcoin completamente operativo en Umbrel. Esto implica instalar Umbrel (en Raspberry Pi, NAS u otra máquina) y sincronizar completamente la Blockchain de Bitcoin.
 
 
 
-Para instalar Umbrel y configurar su nodo Bitcoin, le recomendamos que siga nuestro tutorial dedicado :
+Para instalar Umbrel y configurar tu nodo Bitcoin, te recomendamos que sigas nuestro tutorial dedicado:
 
 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Asegúrese de que su nodo Bitcoin está actualizado y funciona correctamente, ya que Lightning Network depende de él para todas las transacciones de off-chain.
+Asegúrate de que tu nodo Bitcoin está actualizado y funciona correctamente, ya que Lightning Network depende de él para todas las transacciones de off-chain.
 
 
 
@@ -37,15 +37,15 @@ Asegúrese de que su nodo Bitcoin está actualizado y funciona correctamente, ya
 
 
 
-Lightning Network es un protocolo de segunda Layer diseñado para acelerar y reducir el coste de las transacciones de Bitcoin realizándolas fuera de la Blockchain principal.
+Lightning Network es un protocolo de segunda capa diseñado para acelerar y reducir el coste de las transacciones de Bitcoin realizándolas fuera de la Blockchain principal.
 
 
 
-En concreto, Lightning utiliza una red de canales de pago entre nodos: dos usuarios abren un canal bloqueando On-Chain BTC (transacción inicial), y luego pueden efectuar pagos instantáneos Exchange dentro de este canal. Estas transacciones off-chain no se registran en el Blockchain, de ahí su rapidez y su coste prácticamente nulo.
+En concreto, Lightning utiliza una red de canales de pago entre nodos: dos usuarios abren un canal bloqueando Bitcoin On-Chain (transacción inicial), y luego pueden efectuar pagos instantáneos dentro de este canal. Estas transacciones off-chain no se registran en la Blockchain, de ahí su rapidez y su coste prácticamente nulo.
 
 
 
-Los pagos pueden enrutarse a través de múltiples canales (gracias a nodos intermediarios) para llegar a cualquier destinatario de la red, lo que permite una escala casi ilimitada de transacciones instantáneas. Lightning ofrece así transacciones muy rápidas y de bajo coste, ideales para pagos cotidianos o microtransacciones, al tiempo que aligera la carga de la Blockchain Bitcoin.
+Los pagos pueden enrutarse a través de múltiples canales (gracias a nodos intermediarios) para llegar a cualquier destinatario de la red, lo que permite una escala casi ilimitada de transacciones instantáneas. Lightning ofrece así transacciones muy rápidas y de bajo coste, ideales para pagos cotidianos o microtransacciones, al tiempo que aligera la carga de la red Bitcoin.
 
 
 
@@ -53,13 +53,13 @@ Para funcionar, un nodo Lightning debe estar permanentemente conectado a la red 
 
 
 
-Para una introducción teórica completa a Lightning Network, le recomendamos que siga nuestro curso específico :
+Para una introducción teórica completa a Lightning Network, te recomendamos que sigas nuestro curso específico:
 
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Este curso le proporcionará una base completa de los conceptos fundamentales de Lightning Network, antes de pasar a la práctica con su nodo LND.
+Este curso te proporcionará una base completa de los conceptos fundamentales de Lightning Network, antes de pasar a la práctica con tu nodo LND.
 
 
 
@@ -67,32 +67,32 @@ Este curso le proporcionará una base completa de los conceptos fundamentales de
 
 
 
-Operar su propio nodo Lightning (LND) en Umbrel le proporciona una soberanía total sobre sus fondos y canales, en comparación con las soluciones de custodia o semicustodia.
+Operar tu propio nodo Lightning (LND) en Umbrel te proporciona una soberanía total sobre tus fondos y canales, en comparación con las soluciones de custodia o semicustodia.
 
 
 
-### Comparación de soluciones relámpago :
+### Comparación de soluciones Lightning:
 
 
 
-**Soluciones custodiales (ex: Wallet de Satoshi)** :
+**Soluciones custodiales (ej: Wallet de Satoshi)**:
 
 
 
 
-- Tus bitcoins Lightning son gestionados por un tercero de confianza
+- Tu bitcoin en Lightning es gestionado por un tercero de confianza
 - Fácil de usar, sin complejidad técnica
-- El operador retiene sus fondos y puede rastrear sus transacciones
+- El operador retiene tus fondos y puede rastrear tus transacciones
 - Se sacrifica el control y la confidencialidad
 
 
 
-**Carteras de consumo de productos no básicos (por ejemplo, Phoenix, Breez)** :
+**Billeteras de consumo de productos no básicos (por ejemplo, Phoenix, Breez)**:
 
 
 
 
-- Los usuarios conservan sus claves privadas y, por tanto, Ownership de sus BTC
+- Los usuarios conservan sus claves privadas y, por tanto, la propiedad de su Bitcoin
 - No hay gestión completa de nodos: la aplicación gestiona los canales en segundo plano
 - Compromiso entre simplicidad y soberanía
 - Dependencia de la infraestructura de proveedores para obtener liquidez
@@ -100,21 +100,21 @@ Operar su propio nodo Lightning (LND) en Umbrel le proporciona una soberanía to
 
 
 
-**Nodo LND autoalojado (Umbrel)** :
+**Nodo LND autoalojado (Umbrel)**:
 
 
 
 
-- Máxima soberanía: sus BTC On-Chain y off-chain están totalmente bajo su control
-- No intervienen terceros en la apertura de canales ni en la gestión de sus pagos
-- Mayor confidencialidad (sus canales y transacciones sólo son conocidos por usted y sus interlocutores directos)
+- Máxima soberanía: tu BTC On-Chain y off-chain está totalmente bajo tu control
+- No intervienen terceros en la apertura de canales ni en la gestión de tus pagos
+- Mayor confidencialidad (tus canales y transacciones sólo son conocidos por ti y tus interlocutores directos)
 - Libertad de uso: conéctate a tus propios servicios y monederos
 - Posibilidad de enrutar transacciones por cuenta ajena (micro-remuneración)
 - Mayores responsabilidades técnicas (mantenimiento, gestión de la liquidez, copias de seguridad)
 
 
 
-En resumen, el autoalojamiento de LND le ofrece el máximo control, pero requiere más conocimientos técnicos. Es un compromiso entre comodidad y soberanía.
+En resumen, el autoalojamiento de LND nos ofrece el máximo control, pero requiere más conocimientos técnicos. Es un compromiso entre comodidad y soberanía.
 
 
 
@@ -126,7 +126,7 @@ En resumen, el autoalojamiento de LND le ofrece el máximo control, pero requier
 
 
 
-Una vez sincronizado su nodo Umbrel (Bitcoin), siga estos pasos:
+Una vez sincronizado su nodo Umbrel (Bitcoin), sige estos pasos:
 
 
 
@@ -134,7 +134,7 @@ Una vez sincronizado su nodo Umbrel (Bitcoin), siga estos pasos:
 
 
 
-Instale la aplicación Lightning Node desde la sección "App Store" de Interface Umbrel.
+Instala la aplicación Lightning Node desde la sección "App Store" de Interface Umbrel.
 
 
 
@@ -150,11 +150,11 @@ LND (Lightning Network Daemon) se desplegará en tu Umbrel como una aplicación.
 
 
 
-Puede elegir entre crear un nodo nuevo o restaurar uno a partir de una copia de seguridad/seed. Para una primera instalación, elija crear un nuevo nodo. La aplicación Lightning Node le generate una frase de 24 palabras Mnemonic (su seed Lightning): escríbala con mucho cuidado (idealmente sin conexión, en papel), ya que se utilizará para restaurar sus fondos Lightning en caso necesario.
+Puedes elegir entre crear un nodo nuevo o restaurar uno a partir de una copia de seguridad/seed. Para una primera instalación, elije crear un nuevo nodo. La aplicación Lightning Node generará una frase de 24 palabras Mnemonic (tu seed Lightning): escríbela con mucho cuidado (idealmente sin conexión, en papel), ya que se utilizará para restaurar tus fondos Lightning en caso necesario.
 
 
 
-**Nota: En versiones recientes de Umbrel, la instalación de la aplicación Lightning proporciona este seed de 24 palabras (no así el propio nodo Bitcoin de Umbrel).
+**Nota:** En versiones recientes de Umbrel, la instalación de la aplicación Lightning proporciona este seed de 24 palabras (no así el propio nodo Bitcoin de Umbrel).
 
 
 
@@ -175,8 +175,8 @@ En los ajustes de la aplicación, encontrarás varias opciones importantes:
 
 
 
-   - Consulte su Node ID (identificador único de su nodo)
-   - Conexión de una Wallet externa (Conectar Wallet)
+   - Consulta tu Node ID (identificador único de su nodo)
+   - Conexión de una billetera externa (Conectar Wallet)
    - Ver palabras secretas
    - Acceder a la configuración avanzada
    - Recuperar canales
@@ -190,7 +190,7 @@ Estas opciones son esenciales para la seguridad y la gestión de tu nodo Lightni
 
 
 
-**Recursos útiles
+**Recursos útiles**
 
 
 
@@ -198,8 +198,9 @@ Estas opciones son esenciales para la seguridad y la gestión de tu nodo Lightni
 - [Comunidad Umbrel](https://community.umbrel.com) - Foro de debate para que los usuarios compartan problemas y soluciones relacionados con Umbrel y su ecosistema
 
 
-> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Descripción de las características de la aplicación Lightning Node en Umbrel
-> - [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Documentación oficial de LND
+- [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Descripción de las características de la aplicación
+- Lightning Node en Umbrel
+- [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Documentación oficial de LND
 
 ### 4.2 Abrir un canal Lightning
 
@@ -233,7 +234,7 @@ Para este tutorial, abriremos un canal con [Swiss Bitcoin Pay](https://amboss.sp
 
 
 
-Para abrir el canal :
+Para abrir el canal:
 
 
 
@@ -241,7 +242,7 @@ Para abrir el canal :
 
 
 
-En la página de inicio del Nodo Rayo, haga clic en el botón "+ ABRIR CANAL"
+En la página de inicio del Nodo Lightning, haz clic en el botón "+ ABRIR CANAL"
 
 
 
@@ -249,14 +250,14 @@ En la página de inicio del Nodo Rayo, haga clic en el botón "+ ABRIR CANAL"
 
 
 
-En la página de configuración del canal :
+En la página de configuración del canal:
 
 
 
 
-   - Pegue el ID de nodo copiado de Amboss (formato: pubkey@ip:port)
-   - Definir la cantidad de capacidad del canal (algunos nodos como ACINQ tienen mínimos, por ejemplo 400k Sats)
-   - Ajustar las comisiones de apertura si es necesario
+   - Pega el ID de nodo copiado de Amboss (formato: pubkey@ip:port)
+   - Define la cantidad de capacidad del canal (algunos nodos como ACINQ tienen mínimos, por ejemplo 400k Sats)
+   - Ajusta las comisiones de apertura si es necesario
 
 
 
@@ -264,7 +265,7 @@ En la página de configuración del canal :
 
 
 
-Una vez enviada la transacción, el canal aparecerá como "abierto" en la página de inicio. Espere la confirmación de la transacción On-Chain.
+Una vez enviada la transacción, el canal aparecerá como "abierto" en la página de inicio. Espera la confirmación de la transacción On-Chain.
 
 
 
@@ -272,7 +273,7 @@ Una vez enviada la transacción, el canal aparecerá como "abierto" en la págin
 
 
 
-Haga clic en el canal para ver sus detalles:
+Haz clic en el canal para ver sus detalles:
 
 
 
@@ -306,7 +307,7 @@ La Interface principal ofrece tres opciones importantes:
 
 
 
-- " Swaps de liquidez: explore las ofertas de swaps disponibles
+- "Swaps de liquidez": explora las ofertas de swaps disponibles
 - "Abrir para mí": filtra los swaps a los que puedes optar
 - "To Docs": acceso a la documentación
 
@@ -332,7 +333,7 @@ La página "Swaps de liquidez" muestra todas las ofertas de swaps disponibles en
 
 
 
-"Abrir para mí" filtra sólo los intercambios para los que su nodo cumple las condiciones requeridas.
+"Abrir para mí" filtra sólo los intercambios con los que tu nodo cumple las condiciones requeridas.
 
 
 
@@ -340,7 +341,7 @@ La página "Swaps de liquidez" muestra todas las ofertas de swaps disponibles en
 
 
 
-Ejemplo de datos de intercambio :
+Ejemplo de datos de intercambio:
 
 
 
@@ -360,7 +361,7 @@ Para controlar tu nodo Lightning a distancia (smartphone), puedes utilizar Zeus 
 
 
 
-**Configuración de Zeus con Umbrel :**
+**Configuración de Zeus con Umbrel:**
 
 
 
@@ -371,7 +372,7 @@ Para controlar tu nodo Lightning a distancia (smartphone), puedes utilizar Zeus 
 Asegúrate de que tu nodo Umbrel es accesible (por defecto a través de Tor).
 
 
-En el Paraguas Interface, abre la aplicación Lightning Node y, a continuación, haz clic en el botón "Conectar Wallet", como indica la flecha.
+En la Interfaz de Umbrel, abre la aplicación Lightning Node y, a continuación, haz clic en el botón "Conectar Wallet", como indica la flecha.
 
 
 
@@ -379,7 +380,7 @@ En el Paraguas Interface, abre la aplicación Lightning Node y, a continuación,
 
 
 
-Aparecerá un código QR con sus datos de acceso a LND en formato lndconnect. Este código QR es especialmente denso en información, así que no dudes en ampliarlo para facilitar su lectura.
+Aparecerá un código QR con los datos de acceso a LND en formato lndconnect. Este código QR es especialmente denso en información, así que no dudes en ampliarlo para facilitar su lectura.
 
 
 
@@ -387,12 +388,12 @@ Aparecerá un código QR con sus datos de acceso a LND en formato lndconnect. Es
 
 
 
-En tu teléfono :
+En tu teléfono:
 
 
 
 
-   - Abrir Zeus
+   - Abre Zeus
    - En la página de inicio, haz clic en "Configuración avanzada" para conectar tu propio nodo Lightning
    - En los parámetros, seleccione "Crear o conectar una Wallet"
 
@@ -407,14 +408,14 @@ En Zeus:
 
 
 
-   - Elija "LND (REST)" como tipo de conexión
+   - Elije "LND (REST)" como tipo de conexión
    - Puedes escanear el código QR (método recomendado) o introducir la información manualmente. (No dudes en ampliar el código QR de Umbrel, ya que es muy denso)
    - Importante: activa la opción "Usar Tor" si tu Umbrel sólo es accesible a través de Tor (por defecto)
    - Guardar configuración
 
 
 
-Tu Zeus está ahora conectado a tu nodo Umbrel y te permite realizar pagos Lightning, ver tus canales, saldos, etc., sin dejar de ser completamente autogestionado.
+Tu billetera Zeus está ahora conectada a tu nodo Umbrel y te permite realizar pagos Lightning, ver tus canales, saldos, etc., sin dejar de ser completamente autogestionada.
 
 
 
@@ -426,14 +427,14 @@ Por defecto, la conexión Zeus ↔ Umbrel es vía Tor. Para una conexión más r
 
 
 
-**Lightning Node Connect (LNC)** :
+**Lightning Node Connect (LNC)**:
 
 
 
 
    - Mecanismo de conexión cifrada de Lightning Labs
    - Instalar la aplicación Lightning Terminal en Umbrel (incluye acceso a LNC)
-   - generate un código QR de conexión en Lightning Terminal (Conectar → Conectar Zeus a través de LNC)
+   - genera un código QR de conexión en Lightning Terminal (Conectar → Conectar Zeus a través de LNC)
    - Escanéalo en Zeus (elige "LNC" como tipo de conexión)
 
 
@@ -445,7 +446,7 @@ Por defecto, la conexión Zeus ↔ Umbrel es vía Tor. Para una conexión más r
 
    - VPN en malla fácil de configurar
    - Instala Tailscale en Umbrel (App Store) y en tu móvil
-   - Conectar Zeus a través de Tailscale IP privada en lugar de Tor Address
+   - Conecta Zeus a través de Tailscale IP privada en lugar de Tor Address
 
 
 
@@ -466,7 +467,7 @@ La gestión de un nodo Lightning autoalojado requiere una especial atención a l
 
 
 
-### Copias de seguridad para su nodo
+### Copias de seguridad para tu nodo
 
 
 
@@ -474,7 +475,7 @@ La gestión de un nodo Lightning autoalojado requiere una especial atención a l
 
 
 
-Su nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
+Tu nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 
@@ -484,7 +485,7 @@ Su nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 - Recupera los fondos de On-Chain
-- Necesario para recrear su Wallet Lightning
+- Necesario para recrear tu billetera Lightning
 - Para un almacenamiento ultraseguro (sin conexión, en papel)
 
 
@@ -494,9 +495,9 @@ Su nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 
-- Contiene información sobre el canal de rayos
+- Contiene información sobre el canal de Lightning
 - Permite el cierre forzado del canal en caso de colisión
-- Importante:** Nunca guarde el archivo `channel.db` manualmente (riesgo de sanciones)
+- Importante:** Nunca guardes el archivo `channel.db` manualmente (riesgo de sanciones)
 
 
 
@@ -504,19 +505,19 @@ Su nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 
-Para guardar tus canales manualmente :
+Para guardar tus canales manualmente:
 
 
-1. Accede al menú del Nodo Relámpago (tres puntos "⋮" junto a "+ Abrir canal")
+1. Accede al menú del Nodo Lightning (tres puntos"⋮ "junto a" + Abrir canal")
 
 
-2. Descargar el archivo de copia de seguridad del canal
+2. Descarga el archivo de copia de seguridad del canal
 
 
-3. Exportar un nuevo SCB después de cada modificación de canal
+3. Exporta un nuevo SCB después de cada modificación de canal
 
 
-4. Almacenar el SCB de forma segura (medios encriptados, copia externa)
+4. Almacena el SCB de forma segura (medios encriptados, copia externa)
 
 
 
@@ -524,7 +525,7 @@ Para guardar tus canales manualmente :
 
 
 
-Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que garantiza :
+Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que garantiza:
 
 
 
@@ -557,7 +558,7 @@ Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que g
 
 
 
-- Identificador y clave derivados de su seed Umbrel
+- Identificador y clave derivados de tu seed Umbrel
 - Restauración completa posible sólo con la frase Mnemonic
 - Recuperación automática de las últimas copias de seguridad
 - Restaurar la configuración y los datos del canal
@@ -568,14 +569,14 @@ Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que g
 
 
 
-Si se pierde el nodo (fallo de hardware, tarjeta SD dañada) :
+Si se pierde el nodo (fallo de hardware, tarjeta SD dañada):
 
 
 
 
-- Reinstalar el paraguas
-- Introduzca su seed de 24 palabras en la aplicación Lightning
-- Importar el archivo SCB durante la restauración
+- Reinstalar Umbrel
+- Introduce tu seed de 24 palabras en la aplicación Lightning
+- Importa el archivo SCB durante la restauración
 
 
 
@@ -587,13 +588,13 @@ LND se pondrá en contacto con cada uno de los socios de sus antiguos canales pa
 
 
 
-Lo ideal es dejar el nudo en línea lo más a menudo posible. En caso de ausencia prolongada:
+Lo ideal es dejar el nodo en línea lo más a menudo posible. En caso de ausencia prolongada:
 
 
 
 
 - Un peer malicioso podría intentar difundir un estado de canal antiguo
-- Rayo prevé un "plazo de protesta" (unas 2 semanas en LND)
+- Lightning prevé un "plazo de protesta" (unas 2 semanas en LND)
 - Si vas a estar fuera mucho tiempo, prepara un Watchtower
 
 
@@ -603,26 +604,24 @@ Lo ideal es dejar el nudo en línea lo más a menudo posible. En caso de ausenci
 
 
 
-- En la configuración avanzada de LND, añada la URL de un servidor Watchtower de confianza
-- Puede utilizar un servicio público o instalar su propia Watchtower
+- En la configuración avanzada de LND, añade la URL de un servidor Watchtower de confianza
+- Puedes utilizar un servicio público o instalar tu propia Watchtower
 
 
 
 
-Para saber más sobre la configuración y el uso de las torres de vigilancia, te recomendamos que eches un vistazo a nuestro tutorial dedicado :
+Para saber más sobre la configuración y el uso de las torres de vigilancia, te recomendamos que eches un vistazo a nuestro tutorial dedicado:
 
 
 
 https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+
 ### Otras buenas prácticas
 
 
-
-
-
-- Actualizaciones de software:** Mantener Umbrel y LND al día (correcciones de seguridad)
-- Protección del hardware:** Utiliza un sistema estable (Raspberry Pi con SSD, mini-PC) y un SAI
-- Seguridad de la red:** Mantener configuración Tor por defecto, cambiar contraseña admin Umbrel (por defecto: "moneyprintergobrrr")
+- **Actualizaciones de software:** Mantener Umbrel y LND al día (correcciones de seguridad)
+- **Protección del hardware:** Utiliza un sistema estable (Raspberry Pi con SSD, mini-PC) y un SAI
+- **Seguridad de la red:** Mantener configuración Tor por defecto, cambiar contraseña admin Umbrel (por defecto: "moneyprintergobrrr")
 - Cifrado:** Activa el cifrado de disco si es posible
 
 
@@ -691,10 +690,10 @@ RTL es una completa "navaja suiza" para administrar un nodo Lightning con un enf
 
 
 
-- Lightning Shell** : Línea de comandos (lncli) a través del navegador
-- Explorador BTC RPC y Mempool** : Supervisión Blockchain
+- Lightning Shell**: Línea de comandos (lncli) a través del navegador
+- Explorador BTC RPC y Mempool**: Supervisión Blockchain
 - LNmetrics y Torq**: Análisis del rendimiento de las rutas
-- Amboss y 1ML**: gestión "social" de su nodo (alias, contactos, análisis de redes)
+- Amboss y 1ML**: gestión "social" de tu nodo (alias, contactos, análisis de redes)
 
 
 
@@ -718,7 +717,7 @@ Estas herramientas pueden instalarse en unos pocos clics a través de la App Sto
 
 
 
-Ejecutar su propio nodo LND en Umbrel es un paso importante hacia la soberanía financiera. Aunque requiere una mayor implicación técnica que una solución de custodia, los beneficios en términos de control, confidencialidad y participación activa en el Lightning Network son considerables.
+Ejecutar tu propio nodo LND en Umbrel es un paso importante hacia la soberanía financiera. Aunque requiere una mayor implicación técnica que una solución de custodia, los beneficios en términos de control, confidencialidad y participación activa en el Lightning Network son considerables.
 
 
 
@@ -726,4 +725,4 @@ Siguiendo esta guía, ahora deberías ser capaz de instalar LND, abrir canales, 
 
 
 
-Recuerde que la seguridad de sus fondos depende de sus salvaguardas y prácticas. Tómese su tiempo para comprender todos los aspectos antes de comprometer grandes sumas.
+Recuerda que la seguridad de tus fondos depende de tus salvaguardas y prácticas. Tómate tu tiempo para comprender todos los aspectos antes de comprometer grandes sumas de dinero.

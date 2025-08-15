@@ -1,0 +1,2 @@
+description: |
+  WireGuardil põhinev konfiguratsioonivaba VPN-lahendus, mis võimaldab teil luua krüpteeritud privaatvõrgu oma seadmete vahel, kus iganes nad ka ei oleks, vaid mõne minutiga. Tailscale on lihtne kasutusele võtta ja ühildub kõigi platvormidega ning pakub turvalist null-trust juurdepääsu, ilma et oleks vaja avada pordid või võrgu keerukust.

@@ -1,0 +1,9 @@
+question: Hangi teknik KYC'nin neden olduğu takip riskine karşı korunmaya yardımcı olur?
+answer: CoinJoin işlemleri
+wrong_answers:
+  - VPN kullanımı
+  - Full node kullanımı
+  - Proof of Work aracılığıyla doğrulama
+explanation: |
+  Coinjoins, bir Coin'ün geçmişini kırma etkisine sahiptir, bu da KYC ile ilişkili izleme riskini ortadan kaldırmanıza yardımcı olur.
+reviewed: false

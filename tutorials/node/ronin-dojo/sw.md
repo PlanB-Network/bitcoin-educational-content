@@ -21,7 +21,7 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 Kukimbia na kutumia nodi yako mwenyewe ni muhimu ili kushiriki kikweli katika mtandao wa Bitcoin. Ingawa kuendesha nodi ya Bitcoin hakuleti manufaa yoyote ya kifedha kwa mtumiaji, kunamruhusu kuhifadhi faragha yake, kutenda kwa kujitegemea, na kuwa na udhibiti wa imani yao katika mtandao.
 
 
-Katika makala hii, tutaangalia kwa kina RoninDojo, suluhisho kubwa la kuendesha node yako ya Bitcoin.
+Katika makala haya, tutaangalia kwa kina RoninDojo, suluhisho kubwa la kuendesha node yako ya Bitcoin.
 
 
 ### Jedwali la Yaliyomo:
@@ -35,7 +35,7 @@ Katika makala hii, tutaangalia kwa kina RoninDojo, suluhisho kubwa la kuendesha 
 - Hitimisho
 
 
-Ikiwa hujui jinsi node ya Bitcoin inavyofanya kazi na jukumu lake, napendekeza kuanza kwa kusoma makala hii: Node ya Bitcoin - Sehemu ya 1/2: Dhana za Kiufundi.
+Ikiwa hujui jinsi node ya Bitcoin inavyofanya kazi na jukumu lake, napendekeza uanze kwa kusoma makala haya: Node ya Bitcoin - Sehemu ya 1/2: Dhana za Kiufundi.
 
 
 ![Samourai](assets/1.webp)
@@ -50,7 +50,7 @@ Dojo ni seva kamili ya nodi ya Bitcoin iliyotengenezwa na timu ya Samourai Walle
 RoninDojo ni msaidizi wa usakinishaji na zana ya usimamizi ya Dojo na zana zingine mbali mbali. RoninDojo inachukua utekelezaji wa awali wa Dojo na kuongeza zana nyingine nyingi kwake, huku pia ikifanya usakinishaji na usimamizi kuwa rahisi.
 
 
-Pia hutoa maunzi ya "plug-and-play", RoninDojo Tanto, huku RoninDojo ikiwa imesakinishwa awali kwenye mashine iliyounganishwa na timu yao. Tanto ni suluhisho la kulipwa, linafaa kwa wale ambao hawataki kupata mikono yao chafu.
+Pia hutoa maunzi ya "plug-and-play", RoninDojo Tanto, huku RoninDojo ikiwa imesakinishwa awali kwenye mashine iliyounganishwa na timu yao. Tanto ni suluhisho la kulipwa, linafaa kwa wale ambao hawataki kupata mikono yao uchafu.
 
 
 Nambari ya RoninDojo ni chanzo-wazi, kwa hivyo inawezekana pia kusakinisha suluhisho hili kwenye maunzi yako mwenyewe. Chaguo hili ni la gharama nafuu lakini linahitaji udanganyifu zaidi, ambayo ni nini tutafanya katika makala hii.
@@ -61,12 +61,12 @@ RoninDojo ni Dojo, kwa hivyo inaruhusu kuunganishwa kwa urahisi kwa Whirlpool CL
 
 RoninDojo huunganisha zana zingine nyingi zinazotegemea Dojo yako, kama vile kikokotoo cha Boltzmann, ambacho huamua kiwango cha faragha cha muamala, seva ya Electrum ili kuunganisha pochi zako tofauti za Bitcoin kwenye nodi yako, au seva ya Mempool ili kuchunguza shughuli zako kwa faragha.
 
-Ikilinganishwa na suluhisho lingine la nodi kama Umbrel, ambayo niliwasilisha kwako katika nakala hii, RoninDojo inalenga sana suluhisho na zana za "on chain" zinazoboresha ufaragha wa mtumiaji. Kwa hiyo, RoninDojo hairuhusu mwingiliano na Lightning Network.
+Ikilinganishwa na suluhisho jingine la nodi kama Umbrel, ambalo niliwasilisha kwako katika nakala hii, RoninDojo inalenga sana suluhisho na zana za "on chain" zinazoboresha ufaragha wa mtumiaji. Kwa hiyo, RoninDojo hairuhusu mwingiliano na Lightning Network.
 
 RoninDojo inatoa zana chache ikilinganishwa na Umbrel, lakini vipengele vichache muhimu kwa Bitcoiner aliyepo kwenye Ronin ni thabiti sana.
 
 
-Kwa hivyo ikiwa huhitaji vipengele vyote vya seva ya Umbrel na unataka tu nodi rahisi na dhabiti yenye zana chache muhimu kama Whirlpool au Mempool, basi RoninDojo labda ni suluhisho zuri kwako.
+Kwa hivyo ikiwa hauhitaji vipengele vyote vya seva ya Umbrel na unataka tu nodi rahisi na dhabiti yenye zana chache muhimu kama Whirlpool au Mempool, basi RoninDojo labda ni suluhisho zuri kwako.
 
 
 Kwa maoni yangu, mwelekeo wa ukuzaji wa Umbrel unategemea sana Lightning Network na zana nyingi. Bado ni nodi ya Bitcoin, lakini lengo ni kuifanya iwe seva ndogo ya multitasking. Kinyume chake, mwelekeo wa maendeleo wa RoninDojo unalingana zaidi na timu za Samourai Wallet na inaangazia zana muhimu kwa Bitcoiner, kuruhusu uhuru kamili na usimamizi bora wa faragha kwenye Bitcoin.
@@ -87,7 +87,7 @@ Ili kuchagua mashine inayopangisha na kuendesha RoninDojo, una chaguo kadhaa.
 Kama ilivyoelezwa hapo awali, chaguo rahisi zaidi ni kuagiza Tanto, mashine ya kuziba-na-kucheza iliyoundwa mahsusi kwa madhumuni haya. Ili kuagiza yako, nenda hapa: [link](https://shop.ronindojo.io/product-category/nodes/).
 
 
-Kwa kuwa timu za RoninDojo hutoa msimbo wa chanzo huria, inawezekana pia kutekeleza RoninDojo kwenye mashine zingine. Unaweza kupata matoleo mapya zaidi ya kichawi cha usakinishaji kwenye ukurasa huu: [link](https://ronindojo.io/en/downloads.html), na matoleo mapya zaidi ya msimbo kwenye ukurasa huu: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Kwa kuwa timu za RoninDojo hutoa msimbo wa chanzo huria, inawezekana pia kutekeleza RoninDojo kwenye mashine zingine. Unaweza kupata matoleo mapya zaidi ya kitawi cha usakinishaji kwenye ukurasa huu: [link](https://ronindojo.io/en/downloads.html), na matoleo mapya zaidi ya msimbo kwenye ukurasa huu: [link](https://code.samourai.io/ronindojo/RoninDojo).
 
 
 Binafsi, niliiweka kwenye Raspberry Pi 4 8GB na kila kitu hufanya kazi kikamilifu.
@@ -127,7 +127,7 @@ Pakua picha ya diski inayolingana na maunzi yako. Katika kesi yangu, nilipakua p
 ![Download RoninOS disk image](assets/2.webp)
 
 
-Mara tu picha inapopakuliwa, thibitisha uadilifu wake kwa kutumia faili inayolingana ya .SHA256. Nitaelezea kwa undani jinsi ya kufanya hivyo katika makala hii: Jinsi ya kuthibitisha uadilifu wa programu ya Bitcoin kwenye Windows?
+Mara tu picha inapopakuliwa, thibitisha uadilifu wake kwa kutumia faili inayolingana ya .SHA256. Nitaelezea kwa undani jinsi ya kufanya hivyo katika makala haya: Jinsi ya kuthibitisha uadilifu wa programu ya Bitcoin kwenye Windows?
 
 
 Maagizo mahususi ya kuthibitisha uadilifu wa RoninOS yanapatikana pia kwenye ukurasa huu: https://wiki.ronindojo.io/en/extras/verify.
@@ -184,7 +184,7 @@ Chagua jina la mtumiaji na nenosiri kwa kipindi chako. Tumia nenosiri dhabiti na
 ![Manjaro Username Configuration](assets/5.webp)
 
 
-Ifuatayo, utaulizwa pia kuchagua nenosiri la mizizi. Kwa nenosiri la mizizi, ingiza nenosiri kali moja kwa moja. Hutaweza kuibadilisha kutoka kwa RoninUI. Pia, kumbuka kuweka salama nenosiri hili la msingi.
+Ifuatayo, utaulizwa pia kuchagua nenosiri la mizizi. Kwa nenosiri la mizizi, ingiza nenosiri gumu moja kwa moja. Hutaweza kuibadilisha kutoka kwa RoninUI. Pia, kumbuka kuweka salama nenosiri hili la msingi.
 
 
 Kisha ingiza eneo lako na saa za eneo.
@@ -307,7 +307,7 @@ Mwishoni mwa usakinishaji, utaona vyombo tofauti vinaanza:
 ![Node container startup](assets/18.webp)
 
 
-Kisha nodi yako itaanza tena. Unganisha tena kwa RoninCLI kwa hatua inayofuata.
+Kisha nodi yako itaanza tena. Unganisha tena kwa RoninCLI kwa hatua itakayofuata.
 
 
 ![Bitcoin node restart](assets/19.webp)
@@ -347,10 +347,10 @@ Ikiwa huwezi kuunganisha kwa RoninUI kutoka kwa kivinjari chako, angalia utendak
 - Weka nenosiri lako la mtumiaji.
 
 
-Mara moja kwenye menyu kuu, nenda kwa: ** RoninUI > Anzisha upya **
+Mara moja kwenye menyu kuu, nenda kwa: **RoninUI > Anzisha upya**
 
 
-Ikiwa programu itaanza upya kwa usahihi, ni tatizo na muunganisho kutoka kwa kivinjari chako. Hakikisha kuwa hutumii VPN na uhakikishe kuwa umeunganishwa kwenye mtandao sawa na nodi yako.
+Ikiwa programu itaanza upya tena kwa usahihi, ni tatizo na muunganisho kutoka kwa kivinjari chako. Hakikisha kuwa hautumii VPN na uhakikishe kuwa umeunganishwa kwenye mtandao sawa na nodi yako.
 
 
 Ikiwa kuanzisha upya hutoa hitilafu, jaribu kusasisha mfumo wa uendeshaji na kisha usakinishe tena RoninUI. Kusasisha Mfumo wa Uendeshaji: **Mfumo > Masasisho ya Programu > Sasisha Mfumo wa Uendeshaji**
@@ -371,7 +371,7 @@ Baada ya kupakua RoninUI tena, jaribu kuunganisha kwa RoninUI kupitia kivinjari 
 Unaweza pia kuingia kwenye mtandao wa RoninUI Interface kutoka kwa mtandao wowote kwa kutumia Tor. Ili kufanya hivyo, rudisha Tor Address ya RoninUI yako kutoka RoninCLI: **Sifa > Ronin UI**
 
 
-Rejesha Tor Address inayoishia kwa .onion na kisha ingia kwenye Ronin UI kwa kuingiza Address hii kwenye kivinjari chako cha Tor. Kuwa mwangalifu usivujishe sifa zako mbalimbali, kwani ni habari nyeti.
+Rejesha Tor Address inayoishia kwa .onion na kisha ingia kwenye Ronin UI kwa kuingiza Address hii kwenye kivinjari chako cha Tor. Kuwa mwangalifu usivujishe sifa zako mbalimbali, kwani ni habari za siri.
 
 
 ![RoninUI web login interface](assets/20.webp)
@@ -453,7 +453,7 @@ Ili kuunganisha Samourai Wallet yako kwenye Dojo yako, utahitaji kuchanganua msi
 ### Kwa kutumia Mempool Explorer yako mwenyewe.
 
 
-Chombo muhimu kwa Bitcoiners, mchunguzi hukuruhusu kuangalia habari mbalimbali kuhusu mlolongo wa Bitcoin. Ukiwa na Mempool, kwa mfano, unaweza kuangalia katika muda halisi ada zinazotumika na watumiaji wengine ili kurekebisha yako ipasavyo. Unaweza pia kuangalia hali ya uthibitishaji wa mojawapo ya miamala yako au kuangalia salio la Address.
+Chombo muhimu kwa Bitcoiners, mchunguzi hukuruhusu kuangalia habari mbalimbali kuhusu mlolongo wa Bitcoin. Ukiwa na Mempool, kwa mfano, unaweza kuangalia katika muda halisi ada zinazotumika na watumiaji wengine ili kurekebisha yako ipasavyo. Unaweza pia kuangalia hali ya uthibitishaji ya mojawapo ya miamala yako au kuangalia salio la Address.
 
 
 Zana hizi za wachunguzi zinaweza kukuweka kwenye hatari za faragha na kukuhitaji uamini hifadhidata ya watu wengine. Unapotumia zana hii mkondoni bila kupitia nodi yako mwenyewe:
@@ -467,7 +467,7 @@ Zana hizi za wachunguzi zinaweza kukuweka kwenye hatari za faragha na kukuhitaji
 - Unamwamini msimamizi wa tovuti kwa msururu wa Proof-of-Work wanaopangisha.
 
 
-Ili kuepuka hatari hizi, unaweza kutumia mfano wako wa Mempool kwenye nodi yako kupitia mtandao wa Tor. Kwa suluhisho hili, sio tu kwamba unahifadhi faragha yako wakati wa kutumia huduma, lakini pia huhitaji tena kumwamini mtoa huduma kwa kuwa unauliza hifadhidata yako mwenyewe.
+Ili kuepuka hatari hizi, unaweza kutumia mfano wako wa Mempool kwenye nodi yako kupitia mtandao wa Tor. Kwa suluhisho hili, sio tu kwamba unahifadhi faragha yako wakati wa kutumia huduma, lakini pia hauhitaji tena kumwamini mtoa huduma kwa kuwa unahifadhi data yako mwenyewe.
 
 
 Ili kufanya hivyo, anza kwa kusakinisha Mempool Space Visualizer kutoka RoninCLI:
@@ -503,7 +503,7 @@ Unaweza pia kuipata kutoka kwa smartphone yako kwa kusakinisha Kivinjari cha Tor
 Nodi yako ya RoninDojo pia inajumuisha WhirlpoolCLI, mstari wa amri wa mbali wa Interface wa kufanyia michanganyiko ya Whirlpool kiotomatiki.
 
 
-Unapotekeleza CoinJoin na utekelezaji wa Whirlpool, programu unayotumia lazima ibaki wazi ili kutekeleza michanganyiko na michanganyiko. Mchakato huu unaweza kuwa wa kuchosha watumiaji ambao wanataka kuwa na seti nyingi za anon, kwani kifaa kinachopangisha programu kwa Whirlpool lazima kiendelee kuwashwa kila mara. Kwa maneno ya kiutendaji, hii inamaanisha kwamba ikiwa unataka kushirikisha UTXO zako katika michanganyiko ya 24/7, utahitaji kuweka kompyuta yako ya kibinafsi au simu kila mara huku programu ikifunguliwa.
+Unapotekeleza CoinJoin na utekelezaji wa Whirlpool, programu unayotumia lazima ibaki wazi ili kutekeleza michanganyiko na michakato. Mchakato huu unaweza kuwa wa kuchosha watumiaji ambao wanataka kuwa na seti nyingi za anon, kwani kifaa kinachopangisha programu kwa Whirlpool lazima kiendelee kuwashwa kila mara. Kwa maneno ya kiutendaji, hii inamaanisha kwamba ikiwa unataka kushirikisha UTXO zako katika michanganyiko ya 24/7, utahitaji kuweka kompyuta yako ya kibinafsi au simu kila mara huku programu ikifunguliwa.
 
 
 Suluhisho moja la kizuizi hiki ni kutumia WhirlpoolCLI kwenye mashine ambayo inakusudiwa kuwashwa kila wakati, kama vile nodi ya Bitcoin. Kwa hili, UTXO zetu zinaweza kuchanganywa 24/7 bila hitaji la kuweka mashine nyingine isipokuwa nodi yetu ya Bitcoin inayofanya kazi.
@@ -560,7 +560,7 @@ download 0001
 **Kumbuka:** badilisha `0001` na msimbo wa kundi la madhehebu unaokuvutia.
 
 
-Nambari za madhehebu ni kama ifuatavyo kwenye WST:
+Nambari za madhehebu ni kama zifuatavyo kwenye WST:
 
 
 
@@ -604,13 +604,13 @@ WST kisha itaonyesha alama ya rejea (metriki zinazoonekana Nyuma) ikifuatwa na a
 Tafadhali kumbuka kuwa alama tarajiwa ya UTXO yako inakokotolewa kulingana na txid ya mchanganyiko wako wa awali, si mchanganyiko wako wa mwisho. Kinyume chake, alama ya retrospective ya UTXO inahesabiwa kulingana na txid ya mzunguko wa mwisho.
 
 
-Kwa mara nyingine tena, ikiwa huelewi dhana hizi za Anon Sets, ninapendekeza kusoma sehemu hii ya makala yangu kwenye CoinJoin ambapo ninaelezea kila kitu kwa undani na michoro: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%deCm%3%3%A9%Ac9%20p% (https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%CdeC3%20p%Ac9%20p%
+Kwa mara nyingine tena, ikiwa huelewi dhana hizi za Anon Sets, ninapendekeza kusoma sehemu hii ya makala yangu kwenye CoinJoin ambapo ninaelezea kila kitu kwa undani na kwa michoro: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%deCm%3%3%A9%Ac9%20p% (https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%Ac%CdeC3%20p%Ac9%20p%
 
 
 ### Kwa kutumia kikokotoo cha Boltzmann.
 
 
-Kikokotoo cha Boltzmann ni chombo kinachokuwezesha kuhesabu kwa urahisi metriki mbalimbali za hali ya juu kwenye muamala wa Bitcoin, ikijumuisha kiwango chake cha entropy. Data hii yote itakuruhusu kukadiria kiwango cha faragha ya muamala na kugundua hitilafu zozote zinazoweza kutokea. Zana hii imesakinishwa awali kwenye nodi yako ya RoninDojo.
+Kikokotoo cha Boltzmann ni chombo kinachokuwezesha kuhesabu kwa urahisi metriki mbalimbali za hali ya juu kwenye muamala wa Bitcoin, ikijumuisha kiwango chake cha entropy. Data hii yote itakuruhusu kukadiria kiwango cha faragha cha muamala na kugundua hitilafu zozote zinazoweza kutokea. Zana hii imesakinishwa awali kwenye nodi yako ya RoninDojo.
 
 
 Ili kuipata kutoka kwa RoninCLI, unganisha kupitia SSH, kisha uende kwenye menyu:
@@ -786,10 +786,10 @@ Ikiwa tutachukua mfano wetu na Whirlpool CoinJoin, jedwali la uwezekano litakuwa
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
-Hapa tunaweza kuona kwamba kila pembejeo ina uwezekano sawa wa kuunganishwa kwa kila pato.
+Hapa tunaweza kuona kwamba kila pembejeo lina uwezekano sawa wa kuunganishwa kwa kila pato.
 
 
-Walakini, ikiwa tutachukua mfano wa ununuzi na ingizo moja na matokeo mawili, itaonekana kama hii:
+Walakini, ikiwa tutachukua mfano wa ununuzi na ingizo moja na matokeo mawili, itaonekana kama hivi:
 
 
 | Input | Output 0 | Output 1 |

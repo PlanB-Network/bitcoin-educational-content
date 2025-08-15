@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - 仅使用自制或免版税的视觉效果。
     - 确保它们具有相关性和高质量。
 - 图形章程** ：
-    - 字体：[Rubik](https://fonts.google.com/specimen/Rubik).
+    - 字体：[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - 颜色计划 ₿ 网络 ：
         - 橙色：`#FF5C00
         - 黑色：`#000000

@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med deterministiska Bitcoin-åtaganden?
+answer: Se till att en enda Commitment infogas i en transaktion
+wrong_answers:
+  - Förenkling av strukturen för Bitcoin-transaktioner
+  - Minska RGB:s transaktionskostnader
+  - Optimering av RGB multisignaturgenerering
+explanation: |
+  Bitcoin deterministiska åtaganden garanterar att en enda Commitment infogas i en transaktion, för att undvika dolda konkurrerande åtaganden.
+reviewed: false

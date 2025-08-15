@@ -1,0 +1,9 @@
+question: Uygulamaları bir sandbox veya sanal makinede çalıştırmanın temel avantajı nedir?
+answer: Bir uzlaşmanın etkisini sınırlayın
+wrong_answers:
+  - Program yürütmeyi hızlandırın
+  - RAM tüketimini azaltın
+  - Ağ bağlantı hızını artırın
+explanation: |
+  Sandboxing ve sanallaştırma öncelikle uygulamaları veya sistemleri potansiyel saldırılardan izole etmek için kullanılır.
+reviewed: false

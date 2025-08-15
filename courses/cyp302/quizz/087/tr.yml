@@ -1,0 +1,9 @@
+question: Hangi blok şifreleme yöntemi bir başlatma vektörü kullanır ve olasılıksal şifreleme oluşturur?
+answer: CBC (Şifreleme Blok Zinciri)
+wrong_answers:
+  - ECB (Elektronik Kod Defteri)
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC yöntemi bir başlatma vektörü kullanır ve her düz metin bloğu ile bir önceki şifrelenmiş blok arasında bir XOR uygulayarak şifrelemeyi olasılıksal ve ECB'den daha güvenli hale getirir.
+reviewed: false

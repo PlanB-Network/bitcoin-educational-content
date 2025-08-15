@@ -2,7 +2,7 @@
 name: 设置BitAxe
 description: 如何设置BitAxe？
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### 引言
 
 BitAxe是由Skot创建并在[GitHub上可用](https://github.com/skot/bitaxe)的开源项目，它允许进行成本效益高的挖矿实验。

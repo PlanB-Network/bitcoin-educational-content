@@ -1,0 +1,9 @@
+question: Internet Explorer tarafından 4. sürümden itibaren kullanılan ve 2000'li yılların başında pazara hakim olan işleme motoru hangisidir?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Göz kırpma
+explanation: |
+  Microsoft tarafından geliştirilen Trident, 1997 yılında Internet Explorer 4.0 ile birlikte kullanıma sunulmuş ve Internet Explorer'ın sanal tekel olduğu dönemde web'e hakim olmuştur.
+reviewed: false

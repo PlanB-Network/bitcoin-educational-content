@@ -1,0 +1,9 @@
+question: Która zasada cyberbezpieczeństwa zaleca ograniczenie praw każdego użytkownika lub oprogramowania do tego, co jest absolutnie niezbędne?
+answer: Zasada najmniejszego przywileju
+wrong_answers:
+  - Podwójne uwierzytelnianie
+  - Polityka silnych haseł
+  - Regularne tworzenie kopii zapasowych
+explanation: |
+  Zasada najmniejszego przywileju oznacza przyznanie tylko niezbędnych uprawnień do każdego zadania, zmniejszając w ten sposób ryzyko kompromitacji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGB transferinde bir Invoice ile ne yapabilirim?
+answer: İşlem türünü, gereken varlık miktarını ve alıcının Seal Definition'sini belirtin
+wrong_answers:
+  - Varlık için yeni bir Genesis oluşturun
+  - generate varlığın Business Logic'ünü değiştirmek için yeni bir Schema
+  - Bitcoin işleminin yerine bir PSBT inşa etmek
+explanation: |
+  Invoice, işlemi düzenleyeni işlemin türü, transfer edilecek varlıkların miktarı ve varış yeri (Seal Definition) hakkında bilgilendirmek için kullanılır.
+reviewed: false

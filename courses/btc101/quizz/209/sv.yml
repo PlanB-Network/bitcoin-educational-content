@@ -1,0 +1,8 @@
+question: Vad liknar adoptionskurvan för Bitcoin?
+answer: En S-kurva.
+wrong_answers:
+  - En U-kurva.
+  - En V-kurva.
+  - En W-kurva.
+explanation: >-
+reviewed: true

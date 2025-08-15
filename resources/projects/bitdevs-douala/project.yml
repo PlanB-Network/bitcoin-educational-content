@@ -1,0 +1,20 @@
+id: 901fa8d5-c003-4ef9-92e8-f2d36b4c0a78
+name: BitDevs Douala
+category: education
+links:
+  website: https://bitdevsdla.org/
+  twitter: https://x.com/BitDevsDLA
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-22
+    urgency: 1
+    contributor_names:
+        - AlphonseMehounme
+    reward: 0.15
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

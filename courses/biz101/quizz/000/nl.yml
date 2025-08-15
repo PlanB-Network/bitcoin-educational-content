@@ -1,0 +1,9 @@
+question: Betalingsrails gebouwd bovenop traditionele valutasystemen zijn ?
+answer: In wezen betaald door de winkeliers via de vergoedingen van de betalingsverwerkers
+wrong_answers:
+  - In wezen gratis omdat de klant de prijs betaalt die wordt weergegeven door de verkoper
+  - Betaald door de klant bovenop de vraagprijs van de verkoper
+  - Betaald door de kaartbedrijven die de gegevens van klanten doorverkopen
+explanation: |
+  Niets is gratis. De betalingsrails die zijn ingebouwd in de traditionele valutasystemen worden beheerd door verschillende leveranciers zoals kaartbedrijven en wervende banken die een vaste vergoeding en/of een procentuele provisie in rekening brengen voor elke transactie
+reviewed: false

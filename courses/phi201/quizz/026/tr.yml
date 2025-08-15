@@ -1,0 +1,9 @@
+question: Yunan polisi nedir?
+answer: Pazar yeri
+wrong_answers:
+  - Doğanın kanunu
+  - İnsan hukuku
+  - Tapınak tanrılara adanmıştır
+explanation: |
+  Yunan polisi, vatandaşların kamusal yaşama katıldığı ve kolektif kararlarda yer aldığı siyasi ve sosyal bir organizasyon olan şehir devletini ifade eder. Antik Yunan'da demokrasi ve vatandaşlığın çerçevesini oluşturur.
+reviewed: true

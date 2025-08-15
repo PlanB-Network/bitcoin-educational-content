@@ -1,0 +1,12 @@
+question: Bitcoin bugün neden ticarette yaygın olarak kabul görmüyor?
+answer: Çünkü bireyler tarafından yaygın olarak benimsenmiyor.
+wrong_answers:
+  - Çünkü taşınabilir değil.
+  - Çünkü küçük birimlere bölünemez.
+  - Çünkü Liquid değil.
+explanation: |
+  Kesinlikle sınırlı olması gibi özelliklerine rağmen
+  Supply, Bitcoin hala ticarette yaygın olarak kabul görmemektedir
+  bugün, bireyler tarafından benimsenmemesi nedeniyle
+  tüccarlar bunu kabul etmeye teşvik edilmemektedir.
+reviewed: true

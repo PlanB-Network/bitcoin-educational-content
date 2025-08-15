@@ -1,0 +1,9 @@
+question: Ưu điểm chính của hình thức phân phối phát hành luân phiên là gì?
+answer: Sử dụng phần mềm mới nhất
+wrong_answers:
+  - Khả năng tương thích cao hơn với Windows
+  - Môi trường không có đồ họa Interface
+  - Hỗ trợ bán hàng bắt buộc
+explanation: |
+  Các bản phát hành liên tục tích hợp các bản cập nhật phần mềm, đảm bảo quyền truy cập vĩnh viễn vào các phiên bản mới nhất.
+reviewed: false

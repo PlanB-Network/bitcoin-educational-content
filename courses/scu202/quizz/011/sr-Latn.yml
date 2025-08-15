@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između pokreta slobodnog softvera i otvorenog koda?
+answer: Prioritet dat slobodi ili tehničkoj efikasnosti
+wrong_answers:
+  - Korišćenje C ili asemblerskog jezika
+  - Razvoj native ili PC mobilnih aplikacija
+  - Prisustvo ili odsustvo međunarodne zajednice
+explanation: |
+  Besplatan softver je o slobodi korisnika; otvoreni kod je o transparentnosti i tehničkoj efikasnosti.
+reviewed: false

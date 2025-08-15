@@ -1,0 +1,9 @@
+question: Wat is een eenvoudige oplossing om uw gegevens te beschermen tegen ransomware-aanvallen?
+answer: Maak regelmatig een back-up van je belangrijke gegevens op een extern apparaat of een veilige online opslagdienst.
+wrong_answers:
+  - Installeer meerdere antivirussoftwareprogramma's op je computer en voer regelmatig scans uit.
+  - Verander je computer regelmatig of installeer je besturingssysteem (OS) opnieuw.
+  - Je kunt een openbaar Wi-Fi-netwerk gebruiken als je niets te verbergen hebt op je apparaat.
+explanation: |
+  Door regelmatig back-ups van je gegevens te maken, kun je je gegevens herstellen in het geval van een cyberaanval of hardwarestoring zonder cruciale informatie te verliezen.
+reviewed: true

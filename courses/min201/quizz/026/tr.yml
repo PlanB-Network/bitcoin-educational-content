@@ -1,0 +1,12 @@
+question: Bitcoin ağındaki düğümlerin rolü nedir?
+answer: Düğümler, işlemleri ve blokları doğrulayarak ve onaylayarak bütünlüğü korur.
+wrong_answers:
+  - Düğümler blokları oluşturur ve doğrular.
+  - Düğümler yalnızca işlemleri doğrular.
+  - Düğümlerin Bitcoin ağında hiçbir rolü yoktur.
+explanation: |
+  Bitcoin ağında, düğümler aşağıdaki bilgilerin bütünlüğünü korur
+  işlemleri doğrulayarak ve onaylayarak ağ ve
+  bloklar. Yanlış veya hileli bir blok reddedilecektir
+  ağın güvenliğini koruyarak düğümler tarafından.
+reviewed: true

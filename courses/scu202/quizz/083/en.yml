@@ -1,0 +1,9 @@
+question: Which messaging service allows you to register completely anonymously, without a telephone number or permanent login?
+answer: SimpleX Chat
+wrong_answers:
+  - Signal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat does away with the notion of a unique identifier: contacts are added via ephemeral links or QR codes, and no personal data is required.
+reviewed: false

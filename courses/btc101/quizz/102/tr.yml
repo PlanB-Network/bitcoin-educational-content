@@ -1,0 +1,12 @@
+question: Bitcoinlerinizi uzun vadede güvence altına almanın bir yöntemi nedir?
+answer: Mnemonic ifadenizi çelik gibi dayanıklı bir malzeme üzerine kazıyın.
+wrong_answers:
+  - Bunları bir Hot Wallet'de saklayın.
+  - Onları Exchange platformunda tutmak.
+  - Mnemonic cümlenizi bir iş arkadaşınızla paylaşmak.
+explanation: |
+  Mnemonic ifadenizi aşağıdaki gibi dayanıklı bir malzeme üzerine kazıyın
+  çelik, anahtarlarınızın fiziksel bir yedeğini oluşturur
+  hem su hasarına hem de yangına karşı dayanıklıdır, böylece
+  uzun vadede bitcoins.
+reviewed: true

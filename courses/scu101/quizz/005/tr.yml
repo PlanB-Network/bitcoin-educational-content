@@ -1,0 +1,11 @@
+question: Neden Google Chrome tarayıcısından kaçınmanız önerilir?
+answer: İzleyicileri sayesinde.
+wrong_answers:
+  - Çünkü güvenli değil.
+  - Çünkü kullanıcı dostu değil.
+  - Çünkü uzantıları desteklemiyor.
+explanation: |
+  Google Chrome tarayıcısı, aşağıdakileri yapabilen izleyicileri ile bilinir
+  çevrimiçi etkinliğiniz hakkında veri toplar. Bu bir veri olabilir
+  bazı kullanıcılar için gizlilik endişesi.
+reviewed: true

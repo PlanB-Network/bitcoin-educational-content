@@ -1,0 +1,9 @@
+question: Bir işletim sisteminin ana rolü nedir?
+answer: Donanım, kullanıcı ve uygulamalar arasında aracı
+wrong_answers:
+  - Entegre antivirüs
+  - Grafik yazılımı
+  - Anlık mesajlaşma sunucusu
+explanation: |
+  İşletim sistemi, uygulamaların ve kullanıcının donanıma erişmesini ve donanımı kontrol etmesini sağlayan merkezi bir yazılım Layer görevi görür.
+reviewed: false

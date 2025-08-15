@@ -1,0 +1,9 @@
+question: En ekonomik ve hızlı kanal kapatma yöntemi hangisidir?
+answer: Kooperatif kapanışı
+wrong_answers:
+  - Zorla kapatma
+  - Hile ile kapatma
+  - Hiçbiri daha ekonomik ve hızlı değil
+explanation: |
+  Kooperatif kapatma en hızlı ve en ekonomik yöntemdir çünkü her iki taraf da kanalı kapatmayı kabul eder ve ücretleri piyasa koşullarına göre ayarlar.
+reviewed: false

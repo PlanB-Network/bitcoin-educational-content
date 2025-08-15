@@ -1,0 +1,9 @@
+question: Vilken funktion används för att beräkna antalet heltal som är mindre än N och som är coprim med N?
+answer: Eulers Phi-funktion
+wrong_answers:
+  - Eulers gammafunktion
+  - Eulers Sigma-funktion
+  - Dirichlets Beta-funktion
+explanation: |
+  Eulers Phi-funktion bestämmer antalet heltal mindre än N som är koprim med N, ett centralt begrepp i kryptografiska teorem som baseras på primtal.
+reviewed: false

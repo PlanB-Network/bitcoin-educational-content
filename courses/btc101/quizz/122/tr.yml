@@ -1,0 +1,9 @@
+question: 2009'dan bu yana Bitcoin'ın çevrimiçi kullanılabilirliği ne durumda?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Bitcoin'in çevrimiçi kullanılabilirliği 2009'dan bu yana %99,988'dir.
+reviewed: true

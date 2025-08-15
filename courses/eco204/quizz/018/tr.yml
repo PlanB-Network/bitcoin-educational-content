@@ -1,0 +1,11 @@
+question: Klasik hiperenflasyon tablolarının temel sınırlaması nedir?
+answer: Sıkı sınıflandırma kriterleri nedeniyle belirli tarihsel yüksek enflasyon dönemlerini hariç tutmaktadırlar
+wrong_answers:
+  - Hiperenflasyon olarak nitelendirilemeyecek kadar çok sayıda enflasyon dönemi içerirler
+  - Modası geçmiş ve modern ekonomiler için geçerli değiller
+  - Enflasyonun ekonomi üzerindeki etkisini dikkate almazlar
+explanation: |
+  Hanke-Krus tablosu gibi klasik hiperenflasyon tabloları genellikle
+  katı sınıflandırma nedeniyle belirli tarihsel yüksek enflasyon dönemlerini hariç tutmaktadır
+  cagan'ın tanımında öngörülen %50 aylık enflasyon eşiği gibi kriterler.
+reviewed: false

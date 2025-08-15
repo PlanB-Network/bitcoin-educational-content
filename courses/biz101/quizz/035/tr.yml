@@ -1,0 +1,9 @@
+question: Lightning Network'ın gelişmiş verimliliği ve hızı geleneksel ödeme yöntemlerine kıyasla nasıldır?
+answer: Önemli ölçüde daha hızlıdır, genellikle işlemleri bir saniyeden daha kısa sürede gerçekleştirir, daha düşük ücretlerle ve birden fazla aracıya güvenmeden.
+wrong_answers:
+  - Geleneksel bankacılık süreleriyle eşleşir ve genellikle 2-5 gün sürer.
+  - Geleneksel kart ödemelerine göre daha yavaştır ve daha yüksek ücretleri vardır.
+  - Tıpkı mevcut banka transferlerinde olduğu gibi birden fazla onaylayan kuruluş gerektirir.
+explanation: |
+  off-chain işlemlerini mümkün kılarak ve ödemeleri neredeyse anında sonuçlandırarak Lightning, birkaç aracıya dayanan geleneksel yöntemlere göre hız ve verimlilik avantajı sunuyor.
+reviewed: false

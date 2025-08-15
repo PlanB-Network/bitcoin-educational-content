@@ -1,0 +1,9 @@
+question: GCHQ'daki araştırmacılar tarafından Diffie ve Hellman'dan önce yapılan ancak gizli kalan başka hangi İngiliz keşfi vardır?
+answer: Asimetrik kriptografi ve anahtar Exchange kavramları
+wrong_answers:
+  - Anahtara ihtiyaç duymadan geliştirilmiş bir simetrik şifreleme protokolü
+  - Yeni bir asimetrik kriptografik hashing yöntemi
+  - Elektronik para oluşturmak için bir yöntem
+explanation: |
+  GCHQ için çalışan İngiliz kriptograflar, Diffie ve Hellman'ınkilere benzer fikirleri bağımsız olarak geliştirdiler, ancak bu gelişmeler 1997'de açıklanana kadar gizli kaldı.
+reviewed: false

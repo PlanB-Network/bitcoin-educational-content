@@ -1,0 +1,9 @@
+question: Hangi işlem modeli CIOH kullanımını geçersiz kılar?
+answer: İşbirliğine dayalı işlem.
+wrong_answers:
+  - Basit ödeme.
+  - Konsolidasyon.
+  - Süpürme.
+explanation: |
+  CIOH, işbirliğine dayalı bir model benimseyen işlemler için geçerli değildir, çünkü bu özel durumda girdiler zorunlu olarak farklı kuruluşlardan gelmektedir.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Bu kurs Bitcoin'ın geleceği hakkında ne düşündürüyor?
+answer: Yok olmayacak.
+wrong_answers:
+  - Daha iyi bir teknoloji ile değiştirilecektir.
+  - Dünya çapında yasaklanacaktır.
+  - Değerini kaybedecektir.
+explanation: |
+  Kurs metninde Bitcoin'in aşağıdaki konuları ele almayacağı belirtilmektedir
+  kayboldu. Aksine, devrim daha yeni başladı.
+reviewed: true

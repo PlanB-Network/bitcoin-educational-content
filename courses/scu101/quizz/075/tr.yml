@@ -1,0 +1,9 @@
+question: İyi bir parolayı tanımlayan özellikler nelerdir?
+answer: Uzun, karmaşık ve benzersiz.
+wrong_answers:
+  - Kısa, basit ve hatırlaması kolay.
+  - Kişisel bilgilere dayanmaktadır.
+  - Tüm hesaplar için aynıdır.
+explanation: |
+  İyi bir parola yeterince uzun, karmaşık olmalı ve tekrar kullanılmamalıdır.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is Telegram's main limitation when it comes to message confidentiality?
+answer: Only secret exchanges are end-to-end encrypted by default
+wrong_answers:
+  - It imposes an anonymous registration fee
+  - It does not guarantee the authenticity of files received
+  - No open source client available
+explanation: |
+  By default, Telegram messages are stored on company servers, with only secret chats benefiting from end-to-end encryption.
+reviewed: false

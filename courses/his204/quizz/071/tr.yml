@@ -1,0 +1,8 @@
+question: Hangi filozof Fizyokratların dergisi olan Ephémérides du Citoyen'de yazmıştır?
+answer: Diderot
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot, Fizyokratların dergisi olan "Éphémérides du Citoyen "e katkıda bulunmuş, ekonomik ve sosyal konularda makaleler yazmıştır.

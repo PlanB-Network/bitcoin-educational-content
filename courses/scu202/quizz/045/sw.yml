@@ -1,0 +1,9 @@
+question: Ni zana gani ya macOS inayowezesha usimbuaji kamili wa diski ya mfumo?
+answer: FileVault
+wrong_answers:
+  - Huduma ya Disk
+  - ICloud Keychain
+  - BitLocker
+explanation: |
+  FileVault ndio suluhisho asilia la usimbuaji wa diski iliyojumuishwa kwenye macOS.
+reviewed: false

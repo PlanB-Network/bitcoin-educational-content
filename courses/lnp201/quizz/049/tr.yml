@@ -1,0 +1,9 @@
+question: Lightning Invoice'ın birincil işlevi nedir?
+answer: Gönderen düğümden bir ödeme talep edin
+wrong_answers:
+  - On-Chain işlemi olmadan para gönderme
+  - HTLC'leri bir kanal üzerinde etkinleştirin
+  - Yeni bir Lightning kanalı açın
+explanation: |
+  Yıldırım Invoice, Lightning Network üzerinde bir ödeme başlatmak için alıcı düğüm tarafından gönderen düğüme iletilen bir ödeme talebidir.
+reviewed: false

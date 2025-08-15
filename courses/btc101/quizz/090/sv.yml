@@ -1,0 +1,13 @@
+question: Vad är den rekommenderade användningen av en mobil Wallet?
+answer: Förvaring av dagliga utgifter.
+wrong_answers:
+  - Förvaring av långsiktigt sparande.
+  - Förvaring av medelfristigt sparande.
+  - Förvaring av stora mängder.
+explanation: |
+  En mobil Wallet rekommenderas för dagliga utgifter eftersom
+  det är lätt att genomföra transaktioner med den. Den är dock
+  rekommenderas dock inte för förvaring av stora belopp eller för
+  långsiktiga besparingar eftersom den är potentiellt sårbar för
+  hot online.
+reviewed: true

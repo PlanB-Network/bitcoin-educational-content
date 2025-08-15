@@ -1,0 +1,9 @@
+question: Bir hodler'ın ana hedefi nedir?
+answer: Bitcoinlerini uzun vadede tutmak için
+wrong_answers:
+  - Kısa vadede spekülasyon yapmak için
+  - Sık Bitcoin işlemleri yapmak için
+  - Bitcoin işlemlerinin gizliliğini en üst düzeye çıkarmak için
+explanation: |
+  Bir hodler, varlığın varsayılan büyümesinden faydalanmak için bitcoinlerini uzun yıllar boyunca tutmayı amaçlar.
+reviewed: false

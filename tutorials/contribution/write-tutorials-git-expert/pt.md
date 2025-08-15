@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Utilize apenas imagens criadas por si ou isentas de direitos de autor.
     - Certifique-se de que são relevantes e de elevada qualidade.
 - Carta gráfica** :
-    - Fonte: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Fonte: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Plano de Cores ₿ Rede :
         - Laranja: `#FF5C00`
         - Preto: `#000000`

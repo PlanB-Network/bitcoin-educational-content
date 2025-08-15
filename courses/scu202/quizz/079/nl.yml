@@ -1,0 +1,9 @@
+question: Wat is het grootste risico van een niet-geüpdatete smartphone?
+answer: Het wordt kwetsbaar voor bekende kwetsbaarheden
+wrong_answers:
+  - Het verbruikt meer batterijstroom
+  - Hij verliest zijn Wi-Fi-verbinding
+  - Het wordt kwetsbaarder voor phishing
+explanation: |
+  Een niet-geüpdatete smartphone staat bloot aan openbaar gecorrigeerde kwetsbaarheden die eenvoudig door aanvallers kunnen worden uitgebuit.
+reviewed: false

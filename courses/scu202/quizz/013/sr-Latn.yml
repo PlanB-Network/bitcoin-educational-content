@@ -1,0 +1,9 @@
+question: Koji projekat je pokrenut 1983. godine za kreiranje potpuno besplatnog operativnog sistema?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System projekat
+  - Open Source Initiative
+explanation: |
+  Richard Stallman je pokrenuo GNU projekat 1983. godine kako bi razvio potpuno besplatan operativni sistem.
+reviewed: false

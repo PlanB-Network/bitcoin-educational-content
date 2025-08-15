@@ -19,6 +19,9 @@ description: |
   You can even put
   more paragraphs
 
+  always leave two empty
+  spaces at each new line
+
 # Contributor section
 # List all the contributors who help format, review and translate the content.
 # They are identified by their Github usernames
@@ -27,7 +30,7 @@ contributor_names:
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - market-trends
   - onchain

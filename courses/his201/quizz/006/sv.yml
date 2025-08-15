@@ -1,0 +1,9 @@
+question: Vilket dekret undertecknat av Franklin D. Roosevelt förbjöd innehav av guld för privatpersoner i USA mellan 1933 och 1975?
+answer: Den verkställande ordern 6102
+wrong_answers:
+  - Lagen om Federal Reserve
+  - Glass-Steagall-lagen
+  - Den verkställande ordern 9066
+explanation: |
+  Denna exekutiva order, som undertecknades den 5 april 1933, antogs av Roosevelt som en del av New Deal. Den förstärktes genom Gold Reserve Act 1934.
+reviewed: true

@@ -1,10 +1,10 @@
-question: Šta je Lightning Network?
-answer: Mreža za instant plaćanja Bitcoin zasnovana na Bitcoin Blockchain.
+question: Šta je Lightning mreža?
+answer: Mreža za instant plaćanja bitkoinom zasnovana na Bitkoin Blockchain-u.
 wrong_answers:
-  - Posebna Blockchain mreža od Bitcoin Blockchain.
-  - Mreža Bitcoin rudara.
-  - Mreža Bitcoin razmena.
+  - Posebna Blockchain mreža od Bitkoin Blockchain.
+  - Mreža Bitkoin rudara.
+  - Mreža Bitkoin razmena.
 explanation: |
-  Lightning Network je instant Bitcoin platna mreža
-  koja se zasniva na Bitcoin Blockchain.
+  Lightning mreža je instant Bitkoin platna mreža
+  koja se zasniva na Bitkoin Blockchain-u.
 reviewed: true

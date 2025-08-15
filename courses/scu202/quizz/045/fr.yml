@@ -1,0 +1,9 @@
+question: Quel outil intégré à macOS permet d’activer le chiffrement intégral du disque système ?
+answer: FileVault
+wrong_answers:
+  - Disk Utility
+  - iCloud Keychain
+  - BitLocker
+explanation: |
+  FileVault est la solution native de chiffrement de disque intégrée dans macOS.
+reviewed: false

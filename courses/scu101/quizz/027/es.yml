@@ -2,7 +2,7 @@ question: ¿Cuál es la razón principal para no pagar a los hackers en caso de 
 answer: Pagar el rescate no garantiza la recuperación de tus datos y puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas.
 wrong_answers:
   - Pagar el rescate es ilegal y puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas.
-  - Pagar el rescate no garantiza la recuperación de tus datos y puede incentivar a los hackers a pedir más dinero después del pago inicial.
+  - Pagar el rescate no garantiza la recuperación de tus datos, pero puede alentar a los hackers a atacar a otras víctimas.
   - Pagar el rescate puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas ya que el método de pago usualmente es imposible de rastrear.
 explanation: |
   Pagar el rescate no garantiza que recuperarás tus

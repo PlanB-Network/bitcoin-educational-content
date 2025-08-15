@@ -1,0 +1,9 @@
+question: Welche Praktiken sind wichtig, um die Offenlegung Ihrer Daten beim Surfen im Internet zu begrenzen?
+answer: Cookies regelmäßig löschen
+wrong_answers:
+  - Alle Cookies aufbewahren
+  - Privaten Modus des Browsers deaktivieren
+  - Verwendung eines veralteten Browsers
+explanation: |
+  Durch das Löschen oder Einschränken von Cookies wird das Tracking von Werbung reduziert und die Privatsphäre beim Surfen im Internet gewahrt.
+reviewed: false

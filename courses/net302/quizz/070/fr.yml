@@ -1,0 +1,9 @@
+question: Qui est autorisé à fragmenter un paquet IPv6 ?
+answer: Uniquement l’hôte source
+wrong_answers:
+  - Uniquement le premier routeur intermédiaire
+  - Uniquement le routeur de destination
+  - Tous les routeurs
+explanation: |
+  Dans IPv6, la fragmentation est assurée exclusivement par la machine source, jamais par les routeurs intermédiaires.
+reviewed: false

@@ -1,8 +1,7 @@
 question: اندازه بلوک در پروتکل Bitcoin چقدر است؟
-answer: ۱MB.
+answer: 4MB.
 wrong_answers:
-  - ۰.۵ مگابایت.
-  - ۲MB.
-  - ۳MB.
-explanation: >-
+  - 1MB.
+  - 2MB.
+  - 3MB.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Her bir Bitcoin işlemi için hangi temel ödeme ayrıntıları belgelenmelidir?
+answer: Tarih, miktar, eşdeğer fiat değeri ve ilgili adresler
+wrong_answers:
+  - transaction ID, ağ ücreti ve tüccarın Address'si
+  - Tarih, KAA-3 oranı, KAA-4 türü ve coğrafi konum
+  - Bitcoin blok numarası, Timestamp ve kullanılan senaryo
+explanation: |
+  Bu ayrıntıların belgelenmesi netlik sağlar ve muhasebecilere gelen ve giden akışları ayırt etmede yardımcı olur.
+reviewed: false

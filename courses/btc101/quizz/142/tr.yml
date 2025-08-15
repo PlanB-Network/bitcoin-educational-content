@@ -1,0 +1,8 @@
+question: Bitcoin bağlamında bir pruned düğümü nedir?
+answer: Yalnızca son N bloğu bellekte tutan bir düğüm.
+wrong_answers:
+  - Yalnızca işlemleri doğrulayan bir düğüm.
+  - Yalnızca diğer düğümlere bilgi ileten bir düğüm.
+  - Yalnızca Bitcoin protokolünün kurallarını uygulayan bir düğüm.
+explanation: >-
+reviewed: true

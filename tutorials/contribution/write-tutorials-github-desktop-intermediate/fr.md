@@ -381,7 +381,7 @@ Pour insérer un schéma dans votre document, utilisez la commande suivante en M
 Le point d'exclamation au début indique qu'il s'agit d'une image. Le texte alternatif, qui aide à l'accessibilité et au référencement, est placé entre les crochets. Enfin, le chemin d'accès à l'image est indiqué entre les parenthèses.
 
 Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de Plan ₿ Network pour assurer la cohérence visuelle :
-- **Police** : Utilisez [Rubik](https://fonts.google.com/specimen/Rubik) ;
+- **Police** : Utilisez [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) ;
 - **Couleurs** :
 	- Orange : #FF5C00
 	- Noir : #000000

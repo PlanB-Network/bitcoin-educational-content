@@ -1,0 +1,9 @@
+question: Wat is een aanbevolen aanpak bij het kopen van Bitcoin om de prijsvolatiliteit aan te pakken?
+answer: Bouw geleidelijk Bitcoin op met regelmatige tussenpozen en behoud een langetermijnperspectief.
+wrong_answers:
+  - Probeer kortetermijnpieken in de markt te voorspellen en verkoop onmiddellijk.
+  - Ga in één keer all-in met de hele schatkist van het bedrijf.
+  - Koop Bitcoin alleen op dagen dat de prijs sterk is gestegen.
+explanation: |
+  Regelmatige aankopen in de loop van de tijd (dollar-cost averaging) helpen de volatiliteit af te vlakken. Een horizon op langere termijn (bijvoorbeeld 4 jaar) vermindert de impact van prijsschommelingen op korte termijn.
+reviewed: false

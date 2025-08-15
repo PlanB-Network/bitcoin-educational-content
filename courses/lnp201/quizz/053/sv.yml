@@ -1,0 +1,9 @@
+question: Varför måste en router upprätthålla en god likviditetsfördelning i sina kanaler?
+answer: För att maximera antalet betalningar kan den dirigera
+wrong_answers:
+  - För att minska transaktionsavgifterna
+  - För att undvika att öppna nya kanaler
+  - För att begränsa användningen av Bitcoin Blockchain
+explanation: |
+  En router strävar efter att dirigera så många betalningar som möjligt för att ta ut avgifter, vilket kräver en god fördelning av likviditet på båda sidor av kanalerna för att säkerställa dirigeringskapaciteten.
+reviewed: false

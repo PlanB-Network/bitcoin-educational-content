@@ -1,0 +1,9 @@
+question: Adam Smith'e göre piyasa neden işler?
+answer: Çünkü kişisel çıkara dayanır
+wrong_answers:
+  - Düzenlenmiş olduğu için
+  - Çünkü erdemlidir
+  - Devlet tarafından izlendiği için
+explanation: |
+  Adam Smith'e göre piyasa, her birey kendi çıkarına göre hareket ettiği için işler ve bu da doğal olarak kolektif refah yaratır.
+reviewed: false

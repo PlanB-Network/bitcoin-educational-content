@@ -1,0 +1,9 @@
+question: Waarom worden wachtwoorden vaak als hashes opgeslagen op beveiligde servers?
+answer: Om te voorkomen dat wachtwoorden gemakkelijk kunnen worden achterhaald in het geval van een lek
+wrong_answers:
+  - De opslagruimte voor gebruikersgegevens vergroten
+  - Wachtwoorden in realtime symmetrisch versleutelen
+  - Gebruikers laten inloggen zonder wachtwoord
+explanation: |
+  Door wachtwoordhashes op te slaan, kunnen zelfs in het geval van een datalek de werkelijke wachtwoorden niet direct worden gelezen, waardoor de beveiliging wordt verhoogd.
+reviewed: false

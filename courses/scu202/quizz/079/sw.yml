@@ -1,0 +1,9 @@
+question: Je! ni hatari gani kuu ya simu mahiri ambayo haijasasishwa?
+answer: Inakuwa hatari kwa udhaifu unaojulikana
+wrong_answers:
+  - Inatumia nguvu zaidi ya betri
+  - Anapoteza muunganisho wake wa Wi-Fi
+  - Inakuwa hatarini zaidi kwa wizi wa data binafsi
+explanation: |
+  Simu mahiri ambayo haijasasishwa inakabiliwa na udhaifu uliorekebishwa hadharani ambao unaweza kutumiwa na wavamizi kwa urahisi.
+reviewed: false

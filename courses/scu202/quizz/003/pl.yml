@@ -1,0 +1,9 @@
+question: Czego nie należy robić z pamięciami flash USB?
+answer: Podłączanie nieznanych pamięci USB
+wrong_answers:
+  - Używanie pamięci USB sformatowanych w systemie plików NTFS
+  - Szyfrowanie własnych pamięci USB
+  - Używaj nowych pamięci flash USB
+explanation: |
+  Podłączenie nieznanej pamięci USB może spowodować zainfekowanie komputera złośliwym oprogramowaniem lub kradzież poufnych danych.
+reviewed: false

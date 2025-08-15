@@ -1,0 +1,9 @@
+question: Hoe wordt een veld met een eindig aantal Elements genoemd?
+answer: Een Galoisveld
+wrong_answers:
+  - Een vermenigvuldigend veld
+  - Een symmetrisch veld
+  - Een vectorveld
+explanation: |
+  Een eindig veld staat ook bekend als een Galois-veld, genoemd naar de wiskundige Évariste Galois, en is essentieel in de moderne cryptografie.
+reviewed: false

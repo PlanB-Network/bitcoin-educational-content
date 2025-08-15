@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med att integrera RGB i Lightning Network?
+answer: Överföring av RGB-tillgångar via off-chain-kanaler
+wrong_answers:
+  - Utförande av RGB-kontrakt direkt på Bitcoin Blockchain
+  - Ersätt konventionella Lightning-transaktioner med RGB smarta kontrakt
+  - Öka kanalens kapacitet genom att lägga till nya UTXO:er
+explanation: |
+  RGB integrerad i Lightning Network gör att RGB-tillgångar kan flyttas via tillståndsövergångar inbäddade i Commitment-transaktioner, samtidigt som de förblir off-chain.
+reviewed: false

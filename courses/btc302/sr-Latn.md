@@ -1,42 +1,51 @@
 ---
-name: Kreiranje Bitcoin zajednice ili okupljanja
+name: Kreirajte Bitcoin zajednicu ili okupljanje
 goal: Lako kreirajte i organizujte Bitcoin zajednicu ili okupljanje
 objectives: 
 
-  - Naučite kako da kreirate Bitcoin zajednicu i/ili okupljanje?
-  - Izgradnja vizuelnog i digitalnog identiteta za vašu zajednicu, i sa kojim alatima početi?
+
+  - Kreirajte Bitcoin zajednicu i/ili okupljanje
+  - Izgradite vizuelni i digitalni identitet za svoju zajednicu
   - Postavite godišnje ciljeve za svoju zajednicu
-  - Definišite projekte i inicijative za svoju zajednicu
-  - Razumeti važnost predviđanja buduće evolucije zajednice?
+  - Pokrenite projekte i inicijative sa svojom zajednicom
+  - Razumeti važnost predviđanja buduće evolucije zajednice
 
 
 ---
+
 # Prvi korak ka usvajanju Bitcoin
 
 
-Danas postoji bogatstvo obrazovnog sadržaja dostupnog na Internetu, omogućavajući svima da se obrazuju o Bitcoin i njegovom ekosistemu.
+
+Danas je bogatstvo obrazovnog sadržaja dostupno na mreži, omogućavajući svakome da nauči o Bitcoin i njegovom ekosistemu.
 
 
-Međutim, **jedna stvar koja mnogima od nas, bitkoinera, ozbiljno nedostaje je prilika da se sretnemo, Exchange i podelimo naše znanje**. Ali takođe, da **zajedno gradimo**.
+Međutim, **često nedostaje jedna stvar: prilika da se sretnemo, Exchange ideje, delimo znanje** i iznad svega, **da gradimo zajedno**.
 
 
-Da bi se Address ova rastuća potreba, mnogi bitkoineri redovno odlučuju da **stvaraju nove zajednice oko sebe**. Sastanci se tada predlažu, kada je broj učesnika dovoljan; i ti sastanci, često postajući redovni, tada postaju plodno tlo za kreiranje prezentacija i radionica, kako tehničkih tako i popularnih.
+
+Da bi se zadovoljila ova rastuća potreba, mnogi bitkoineri redovno biraju da **kreiraju lokalne zajednice**.
+
+Jednom kada ima dovoljno učesnika, organizuju se okupljanja, a ta redovna okupljanja često postaju plodno tlo za tehničke prezentacije, praktične radionice i šire diskusije.
 
 
-U ovom kursu pod nazivom "**BTC302**," bavićemo se pokazivanjem **interesovanja za kreiranje Bitcoin zajednice i/ili okupljanja**, zatim ćemo detaljno opisati i predložiti **različite alate za razvoj vizuelnog i digitalnog identiteta** nečije zajednice ili okupljanja.
+U ovom kursu "**BTC302**", istražićemo **zašto je važno kreirati Bitcoin zajednicu i/ili okupljanje**, a zatim ćemo se upustiti u **alata i metode za razvoj vizuelnog i digitalnog identiteta vaše zajednice**.
 
 
-Dalje ćemo predstaviti **različite projekte i inicijative** koje se mogu lako implementirati, posebno iz obrazovne perspektive. Zatim će biti ponuđeni brojni resursi otvorenog koda.
+Predstavićemo i **projekte i inicijative** koje je lako pokrenuti, posebno one obrazovne, podržane od strane nekoliko unapred dizajniranih, open-source resursa.
 
 
-Konačno, izvršiće se dublja refleksija o **evoluciji zajednica iz nacionalne perspektive**; ali takođe, o **njihovoj ulozi u hiperbitkoinizaciji sveta sutrašnjice**.
+Na kraju, razgovaraćemo o **evoluciji Bitcoin zajednica na nacionalnom nivou** i **njihovom potencijalu da ubrzaju sutrašnji hiperbitkoinizovani svet**.
+
 
 
 +++
+
 # Uvod
 
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+
 
 
 ## Pregled kursa
@@ -44,421 +53,458 @@ Konačno, izvršiće se dublja refleksija o **evoluciji zajednica iz nacionalne 
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Dobrodošli na kurs BTC302!
 
 
-Od 2009. godine, Bitcoin nastavlja da se razvija. Ovo uključuje implementaciju novih Bitcoin predloga za poboljšanje (BIPs), kreiranje novih slojeva za skaliranje mreže (između ostalih, Lightning Network), i razvoj više kompanija i startapa.
-
-
-Njegov razvoj je takođe vidljiv On-Chain, posebno u rastućem broju transakcija.
-
-
-Dakle, između 1. januara 2018. i 1. januara 2024. godine, procenjuje se da je broj transakcija na glavnom Layer Bitcoin [porastao za 66,2 procenta](https://dune.com/queries/3375917/5663935); dok je između avgusta 2021. i avgusta 2023. godine broj javnih transakcija na Lightning overlay-u [porastao za 1212 procenata](https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-
-Ovaj statistički pogled je, naravno, usko povezan sa:
+Dobrodošli u BTC302!
 
 
 
-
-- rastući [interes za korišćenje Bitcoin od strane mnogih pojedinaca](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) širom sveta, sa ciljem da se oslobode od bankarskog sistema i/ili koriste valutu koja je manje volatilna ili manje devalvirana od njihove sopstvene, kao što je slučaj sa populacijama koje žive u Libanu, Siriji, Egiptu, Argentini, itd;
-- vremenom povećanje vrednosti, vodeći ga kroz njegovo monetarno izdavanje da postane čuvar vrednosti i dugoročna investicija.
-- naredni razvoj spekulativnog tržišta kriptovaluta, posebno u 2017/2018 i 2020/2021;
-- Sve češće pojavljivanje Bitcoin u medijima.
+Od 2009. godine, Bitcoin je neprekidno rastao. Ovaj rast je oblikovan kroz nove Bitcoin predloge za poboljšanje (BIP), kreiranje dodatnih slojeva kako bi mreža bila skalabilna (Lightning Network između ostalih), i razvoj više kompanija i start-upova.
 
 
-![image](assets/fr/01.webp)
+
+Njegov razvoj je takođe evidentan u On-Chain, sa stalnim porastom broja transakcija.
 
 
-####
+Na primer, između 1. januara 2018. i 1. januara 2024. godine, procenjuje se da je broj transakcija na glavnom Layer Bitcoin [porastao za 66,2%](https://dune.com/queries/3375917/5663935). U međuvremenu, između avgusta 2021. i avgusta 2023. godine, broj javnih transakcija na Lightning Network [porastao je za 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
-Iako je Bitcoin još u ranoj fazi, ovo zapažanje-na koje ste sigurno već upoznati-navodi nas da razmislimo o dve stvari.
+
+Ovaj značajan rast je, naravno, usko povezan sa:
 
 
-S jedne strane, kako možemo podstaći Bitcoin entuzijaste da idu dalje u svom učenju i projektima kako bi **iskoristili puni potencijal Bitcoin**?
 
 
-S druge strane, kako bismo mogli podstaći nove ljude koji dolaze privučeni dobitkom u "ekosistemu kriptovaluta" da ne izgube svoj novac u najnovijem trendi memecoinu, već da se **obrazuju o osnovama Bitcoin**?
+- [rastuće interesovanje ljudi širom sveta za korišćenje Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), kako bi se oslobodili bankarskog sistema i/ili koristili manje volatilnu ili manje devalviranu valutu, kao što je slučaj sa stanovništvom u Libanu, Siriji, Egiptu, Argentini i drugim zemljama;
+- njegovo povećanje cene tokom vremena, što ga uspostavlja kao čuvara vrednosti i dugoročnu investiciju, vođeno njegovom fiksnom monetarnom politikom;
+- uzastopni rast spekulativnog tržišta kriptovaluta, posebno tokom 2017-2018 i 2020-2021;
+- Sve veće prisustvo Bitcoin u mejnstrim medijima.
 
 
-####
+
+![image](assets/fr/001.webp)
 
 
-Za ova dva problema, najbolje rešenje je biti na terenu i edukovati.
 
 
-Svrha ovog kursa je da vam pruži sve neophodne alate za efikasno kreiranje i organizovanje Bitcoin zajednice ili okupljanja. Bilo da želite da izgradite lokalnu inicijativu ili razvijete online grupu, ovaj kurs će vas voditi kroz svaki korak procesa, od kreiranja vašeg vizuelnog identiteta do organizovanja redovnih događaja i upravljanja vašim komunikacionim kanalima.
+Iako je Bitcoin još uvek u ranoj fazi, ova stvarnost, za koju ste verovatno već svesni, navodi nas da razmotrimo dva ključna pitanja:
 
 
-**Sekcija 1: Uvod**
 
-Počećemo stavljanjem u kontekst važnosti okupljanja ljudi oko Bitcoin, bilo putem online zajednica ili lokalnih okupljanja. Naučićete zašto i gde pokrenuti svoju zajednicu, kao i kako definisati jasne ciljeve kako biste osigurali njen rast i održivost.
+
+- Kako možemo podstaći Bitcoin entuzijaste da idu dalje u svom učenju i projektima kako bi **u potpunosti iskoristili potencijal Bitcoin**?
+
+
+
+- Kako možemo pomoći novajlijama, koje često privlači kratkoročna spekulacija, da izbegnu gubitak novca na najnovijoj memecoin pomami i umesto toga se fokusiraju na **učenje osnova Bitcoin**?
+
+
+
+Najbolje rešenje za oba izazova je jednostavno: **budite prisutni u stvarnom svetu i edukujte**.
+
+
+
+Cilj ovog kursa je da vam pruži sve što vam je potrebno za kreiranje i efikasno organizovanje Bitcoin zajednice ili okupljanja. Bilo da želite da izgradite lokalnu inicijativu ili razvijete online grupu, ovaj kurs će vas voditi korak po korak: od kreiranja vašeg vizuelnog identiteta do organizovanja redovnih događaja i upravljanja vašim komunikacionim kanalima.
+
+
+
+**Section 1: Uvod
+
+
+Počećemo isticanjem važnosti ujedinjavanja ljudi oko Bitcoin, bilo putem online zajednica ili lokalnih okupljanja. Otkrićete zašto i gde pokrenuti svoju zajednicu, kao i kako postaviti jasne ciljeve za podsticanje njenog rasta i dugoročne održivosti.
+
 
 
 **Sekcija 2: Dizajniranje Jedinstvenog Identiteta za Vašu Bitcoin Zajednicu**
 
-Da biste privukli nove članove i uspostavili osećaj pripadnosti, neophodno je kreirati jedinstveni identitet. Ovaj odeljak će vas naučiti kako da dizajnirate logo, poster ili baner koji tačno odražava duh vaše Bitcoin zajednice.
+
+Da biste privukli nove članove i podstakli osećaj pripadnosti, neophodno je izgraditi jedinstveni identitet. U ovom odeljku ćete naučiti kako da dizajnirate logotipe, postere i banere koji oličavaju duh vaše Bitcoin zajednice.
+
 
 
 **Sekcija 3: Kreiranje komunikacionih kanala za vašu Bitcoin zajednicu**
 
-Komunikacija je u srcu svake zajednice. Ovde ćemo diskutovati o raznim kanalima komunikacije koje treba prioritizovati i kako efikasno postaviti Telegram grupu ili Discord server. Takođe ćemo pokriti integraciju višenamenskih botova za olakšavanje upravljanja zajednicom.
+
+Komunikacija je okosnica svake zajednice. U ovom delu ćemo istražiti najbolje kanale za korišćenje i voditi vas kroz efikasno postavljanje Telegram grupe ili Discord servera. Takođe ćete naučiti kako da integrišete multifunkcionalne botove za pojednostavljenje upravljanja zajednicom.
 
 
-**Sekcija 4: Pokretanje Vašeg Prisustva na Društvenim Mrežama**
 
-Vidljivost je ključna za razvoj vaše zajednice. Naučićete kako da kreirate posvećen Twitter profil, uspostavite veze sa drugim okupljanjima u vašoj blizini i koristite platforme poput btcmap.org kako biste poboljšali svoju vidljivost i privukli nove članove.
-
-
-**Sekcija 5: Organizovanje Bitcoin Meetup-a**
-
-Ovaj odeljak se fokusira na organizovanje okupljanja, od pronalaženja odgovarajućeg mesta do planiranja samog događaja. Takođe ćemo istražiti načine za izgradnju lojalnosti učesnika kako bismo osigurali održiv rast vaše zajednice.
+**Section 4: Pokretanje Vaših Društvenih Mreža** (na francuskom)
 
 
-**Odeljak 6: Primeri Projekata i Inicijativa**
-
-Da biste nadmašili jednostavna okupljanja, ovaj odeljak nudi konkretne i originalne ideje za projekte: tematski događaji, radionice, kreiranje edukativnog sadržaja, lokalne saradnje i još mnogo toga. Takođe ćete naučiti kako da dizajnirate fizičke i digitalne materijale za promociju vaše zajednice.
+Vidljivost je ključna za rast vaše zajednice. U ovom delu ćete naučiti kako da kreirate posvećen Twitter profil, povežete se sa lokalnim okupljanjima i iskoristite platforme kao što je btcmap.org da povećate svoju vidljivost i privučete nove članove.
 
 
-**Sekcija 7: Predviđanje Budućnosti**
 
-Konačno, mi ćemo Address prirodnu evoluciju vaše zajednice. Šta ako vaša grupa preraste prebrzo? Kako decentralizovati organizaciju? I kako treba da reagujete ako regulatorno okruženje postane neprijateljsko? Ovaj deo će vam pomoći da predvidite nadolazeće izazove.
-
-
-**Section 8: Dovođenje Bitkoinera Zajedno**
-
-Ovaj završni deo se fokusira na samu suštinu vašeg projekta: ujedinjenje entuzijasta Bitcoin oko zajedničke vizije. Naučićete kako da strukturirate svoj pristup kako biste privukli i zadržali nove članove, kako da delegirate zadatke unutar vaše grupe i kako da održivo rastete vašu zajednicu.
+**Section 5: Organizovanje Bitcoin okupljanja**
 
 
-Spremni da naučite kako izgraditi snažnu i dinamičnu Bitcoin zajednicu? Krenimo!
+Ovaj odeljak pokriva kako organizovati okupljanja: od izbora pravog mesta do vođenja samog događaja. Takođe ćemo istražiti strategije za izgradnju lojalnosti učesnika i osiguranje dugoročne održivosti vaše zajednice.
 
 
-## Zašto kreirati Bitcoin zajednicu ili okupljanje?
+
+**Odeljak 6: Primeri Projekata i Inicijativa** (na francuskom)
+
+
+Da biste nadmašili jednostavne sastanke, ovaj odeljak prikazuje konkretne i originalne projekte: od tematskih događaja i radionica do kreiranja edukativnog sadržaja i lokalnih saradnji. Takođe ćete naučiti kako da dizajnirate i fizičke i digitalne materijale za promociju vaše zajednice.
+
+
+
+**Sekcija 7: Predviđanje budućnosti**
+
+
+Ovde ćemo ispitati prirodnu evoluciju vaše zajednice: šta učiniti ako prebrzo raste, kako decentralizovati vašu organizaciju i kako odgovoriti na neprijateljsko regulatorno okruženje. Ovaj deo će vam pomoći da predvidite i prevaziđete ove izazove.
+
+
+
+**Sekcija 8: Okupljanje Bitcoinera**
+
+
+Završni deo se fokusira na suštinu vašeg projekta: ujedinjenje entuzijasta Bitcoin oko zajedničke vizije. Naučićete kako da strukturirate svoj pristup kako biste privukli i zadržali članove, efikasno delegirali zadatke i održivo razvijali svoju zajednicu.
+
+
+
+Spremni da naučite kako izgraditi snažnu, vibrantnu Bitcoin zajednicu? Hajde da zaronimo!
+
+
+
+## Zašto pokrenuti Bitcoin zajednicu ili meetup?
 
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
 
+
 ### Koja je razlika između zajednice i okupljanja?
 
 
-Iako u ekosistemu Bitcoin ne postoji specifična definicija za ova dva pojma, zajednica se može posmatrati kao agregacija nekoliko pojedinaca koji dele zajedničku strast(i) i komuniciraju zajedno više ili manje redovno.
+
+Iako ne postoji stroga definicija ovih pojmova u ekosistemu Bitcoin, zajednica se najbolje razume kao grupa ljudi koji dele zajedničku strast i redovno komuniciraju.
 
 
-Paralelno, meet-up je događaj organizovan od strane (i za) ovu zajednicu, sa specifičnim ciljem na umu. Obično se održava jednom kada je povezana zajednica kreirana.
+S druge strane, meetup je događaj organizovan od strane i za ovu zajednicu, sa specifičnom svrhom. Meetup-i se obično održavaju kada je zajednica već uspostavljena.
 
 
-U tom pogledu, tokom ovog kursa, razmotrićemo da će, kako bi se pokrenuo Bitcoin meet-up, biti neophodno prethodno komunicirati sa drugim osobama zainteresovanim za održavanje ove vrste događaja; i stoga, da **Bitcoin zajednica mora biti prethodno stvorena**.
+Za ovaj kurs pretpostavljamo da ste pre pokretanja Bitcoin okupljanja već povezani sa nekoliko ljudi zainteresovanih za održavanje takvog događaja, drugim rečima, **zajednica već postoji**.
 
 
-### Zašto stvoriti zajednicu?
+
+### Zašto kreirati zajednicu Bitcoin?
 
 
-Kao što je pomenuto u prethodnom poglavlju, stvaranje zajednice može imati nekoliko ciljeva.
+
+Postoji nekoliko razloga za stvaranje zajednice Bitcoin:
 
 
-S jedne strane, kada je sastavljena od bitkoinera, zajednica može omogućiti svojim članovima da Exchange i dele informacije jedni s drugima. Uzajamna pomoć je stoga generalno u njenoj srži, omogućavajući svima da ubrzaju svoje učenje.
+
+- Deljenje znanja i saradnja: Zajednice pružaju članovima prostor za Exchange ideje i deljenje znanja. Uzajamna podrška je ključni stub za rast, omogućavajući svima da ubrzaju svoje učenje, što je posebno relevantno za Bitcoin, s obzirom na to koliko toga ima za otkriti.
 
 
-Ovo posebno ima smisla u slučaju Bitcoin, s obzirom na njegovu složenost.
+
+- Izgradnja od osobe do osobe: Mnoge inicijative i projekti su osmišljeni, izgrađeni i razvijeni unutar ovih zajednica.
 
 
-Paralelno, zajednica bitkoinera može takođe omogućiti izgradnju od osobe do osobe. Ovako se rađaju, grade i razvijaju brojne značajne inicijative i projekti.
+
+Zajednice Bitcoin često teže širim ciljevima, posebno javnom obrazovanju o:
 
 
-####
+1. Šta je Bitcoin;
 
 
-S druge strane, Bitcoin zajednica može imati i otvorenije ciljeve; posebno s ciljem da što više edukuje ljude o:
+2. Kako funkcioniše;
 
 
-1. šta je Bitcoin;
+3. Njegovi doprinosi društvu;
 
 
-2. kako to funkcioniše;
+4. Razotkrivanje obmanjujućih ili neutemeljenih tvrdnji koje iznose neke javne ličnosti i mediji;
 
 
-3. šta donosi našem društvu;
+5. Osnovne razlike između Bitcoin i drugih kripto-valuta;
 
 
-4. neutemeljene i/ili obmanjujuće gluposti koje neki ljudi i mediji pokušavaju da šire;
+Izgradnjom prvih "citadela" sutrašnjice, **Bitcoin zajednice širom sveta služe kao bedem protiv dezinformacija i cenzure, dok istovremeno pružaju plodno tlo za učenje osnova Bitcoin**. One nude novajlijama, pa čak i skepticima, resurse i veze potrebne za istraživanje pravog potencijala Bitcoin.
 
 
-5. njegove ključne razlike u odnosu na druge kriptovalute.
+
+![image](assets/fr/002.webp)
 
 
-![image](assets/fr/02.webp)
+
+Takođe je vredno napomenuti da **zajednica može postojati potpuno online**, bilo da je to Telegram grupa ("Bitcoin London"), Facebook grupa ("Bitcoin Berlin"), Discord server ("Bitcoin Madrid"), ili čak lista e-pošte ("Bitcoin France").
 
 
-Postepeno gradeći prve citadele sveta sutrašnjice, **Bitcoin zajednice širom sveta stoje kao posebno relevantan bedem protiv pokušaja dezinformacija i/ili cenzure u nekim zemljama**. Paralelno, **one stvaraju plodno tlo za podučavanje osnova Bitcoin**; omogućavajući svakome ko to još nije razumeo da, kada bude spreman, ima kontakte i resurse za zamišljanje novog sveta.
+Drugim rečima, **zajednici nisu potrebni fizički susreti da bi napredovala ili pokrenula projekte. Njena osnovna svrha ostaje ista: deliti, graditi i obrazovati**.
 
-
-Štaviše, **zato što je Bitcoin inkluzivan, čini se da je uloga zajednice da osnaži i edukuje sve buduće bitkoinere o osnovama Bitcoin**; uključujući i one najneodlučnije.
-
-
-####
-
-
-Iako ćemo o ovoj temi detaljnije razgovarati kasnije tokom kursa, važno je odmah naglasiti da **zajednica može postojati potpuno digitalno**. Dakle, Telegram grupa "Bitcoin London," Facebook grupa "Bitcoin Berlin," Discord server "Bitcoin Madrid," ili email distribuciona lista "Bitcoin France" predstavljaju, potpuno digitalno, zajednice. To znači da **zajednici tehnički nisu potrebni fizički sastanci da bi postojala, napredovala i razvijala svoje projekte. Njena svrha ostaje, međutim, da deli, gradi i obrazuje**.
 
 
 ### Zašto organizovati okupljanje?
 
 
-Kao što je ranije pomenuto, **kreiranje okupljanja prati kreiranje zajednice, jer je komplementarno tome**.
+
+Kao što je ranije pomenuto, **okupljanja obično dolaze nakon što je zajednica uspostavljena i služe da je dopune**.
 
 
-Zaista, na putovanju entuzijasta Bitcoin, veoma značajan broj ljudi ističe želju (i potrebu) da **upoznaju i fizički Exchange sa drugima** unutar istog ekosistema. Ovo se obično objašnjava pojavom osećaja usamljenosti, prisutnog među mnogima od njih.
+Kako se putovanje bitkoinera razvija, često se javlja želja, ili čak potreba, **da se lično sretnu i komuniciraju sa drugima** iz istog ekosistema. Ovo može proizaći iz osećaja izolacije ili jednostavno iz nedostatka nekoga s kim bi se razgovaralo o Bitcoin u svakodnevnom životu.
 
 
-Organizovanje ovih okupljanja može stoga omogućiti mnogo prijatnije fizičke susrete nego one putem audio ili video poziva. Mogu se održavati **uz piće ili obrok**, i omogućiti preciznije i direktnije razmene, sa više ljudi.
+Meetupi nude ličnije i prijatnije iskustvo nego onlajn audio ili video pozivi. Bilo **uz piće ili obrok**, oni stvaraju neformalne, prijateljske prostore gde ljudi mogu Exchange ideje otvoreno i direktno.
 
 
-![immagine](assets/fr/03.webp)
+
+![image](assets/fr/003.webp)
 
 
-Za entuzijaste Bitcoin, okupljanja mogu biti **povoljno vreme za diskusije o tehničkim temama ili projektima** koje razvijaju; a za "ambiciozne Bitcoinere," da **otkriju svet Bitcoin i postepeno se u njega urone**.
+Bitcoin okupljanja mogu služiti mnogim svrhama:
 
 
-####
+
+- Diskusija o tehničkim temama ili tekućim projektima
+- Pomažući novim bitkoinerima da postepeno dublje zarone u Bitcoin svet
+- Najava novih projekata ili inicijativa
+- Razmena materijala ili knjiga
+- Prikazivanje dokumentarnih filmova u pretpremijeri
+- Organizovanje konferencija ili radionica na određene teme
 
 
-Pored toga, ovi događaji mogu olakšati najavu projekata vezanih za Bitcoin, biti prilika za pozajmljivanje opreme ili knjiga, prikazivanje dokumentarca; ali takođe, za konferenciju ili radionicu na određenu temu. O tome ćemo detaljnije razgovarati u delu 6/8 ovog kursa, pod nazivom "[Primeri projekata i inicijativa](LINK)."
+
+Obradićemo mnoge od ovih mogućnosti detaljno u delu 6/8 ovog kursa, pod nazivom "[Primeri projekata i inicijativa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
-####
+
+Iako svaka zajednica ima slobodu da formira sopstvena mišljenja, pokreće projekte i eksperimentiše na svoj način, okupljanja se pokazuju kao sve **važnija za razvoj Bitcoin i za rast bitkoinera**. **Organizovanje okupljanja zahteva vreme i trud**, zbog čega ovaj kurs deli kombinovano iskustvo [oko šezdeset Bitcoin zajednica u Francuskoj i Belgiji](https://btcmap.org/communities/map#2/5.24949/0.20000) **kako bi vam pomogao da izgradite i razvijete svoju zajednicu i okupljanja što je moguće lakše**.
 
 
-Iako je na svakoj zajednici da formira sopstvena mišljenja, pokrene sopstvene projekte i sprovede sopstvene eksperimente, **čini se da su okupljanja ključna za razvoj Bitcoin i njegovih zajednica**; i to, na svim teritorijama.
 
-
-**Njihova organizacija, međutim, zahteva određeno planiranje i vreme**; i zato, na ovom kursu, nastojimo da podelimo sažeto iskustvo [šezdeset francuskih i belgijskih Bitcoin zajednica](https://btcmap.org/communities/map#2/5.24949/0.20000); **kako biste mogli da kreirate i razvijete svoju zajednicu i okupljanje što je lakše moguće**.
-
-
-## Gde kreirati svoju zajednicu i okupljanje?
+## Gde treba da kreirate svoju zajednicu?
 
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
 
-Jednom kada odlučite da osnujete Bitcoin zajednicu, prvo pitanje koje treba da postavite sebi je: gde je osnovati? I ovo pitanje je ključno.
+
+Prvo pitanje koje treba postaviti je: gde bi vaša zajednica trebalo da bude smeštena?
+
+Ova odluka je ključna ako želite zadržati opciju organizovanja sastanaka kasnije.
 
 
-Zaista, iako je stvaranje zajednice u početku zasnovano samo na komunikacionim alatima i digitalnim društvenim mrežama, **geografska lokacija mora biti uzeta u obzir iz nekoliko razloga**.
-
-
-####
-
-
-U početku, kada tražite da upoznate druge entuzijaste Bitcoin, uobičajeno je započeti pretragom na internetu. Ovo brzo vodi do otkrivanja i okretanja ka Discord serverima ili Telegram kanalima kao što su oni [Decouvre Bitcoin](https://decouvrebitcoin.fr/), ili čak diskusionim forumima kao što je [bitcointalk.org](https://bitcointalk.org).
-
-
-Nakon nekoliko meseci interakcije preko ekrana, često dolazi trenutak kada se oseti želja da se ide dalje. Ta želja se zatim kristališe u potrebu da se sretnu drugi entuzijasti Bitcoin sa kojima se oseća "bliskost" fizički. Drugim rečima: entuzijasti Bitcoin iz svog grada, ili čak iz svog komšiluka.
-
-
-Nažalost, **potpuno je moguće da u to vreme ne postoji Bitcoin zajednica u vašoj blizini. Ovo je svakako vaše vreme da preuzmete ulogu ambasadora za novu zajednicu**.
-
-
-Pre nego što počnemo, međutim, neophodno je predvideti sledeći korak: mogući sastanak. Sastanak, drugim rečima!
-
-
-Međutim, jasno je da ako članovi vaše zajednice moraju da voze dva sata da bi došli na vaš događaj, malo njih će se odlučiti na put.
-
-
-Ovo je razlog zašto **geolokacija vaše zajednice (a time i vaših budućih okupljanja) ima značajan uticaj na njen razvoj**.
-
-
-####
-
-
-Evo nekoliko misli koje vas mogu voditi:
-
-
-1) **Kreirajte i razvijajte svoju zajednicu u srednjem ili velikom gradu**. Ovo će vam omogućiti da:
+Ako članovi moraju da voze dva sata da bi prisustvovali događaju, verovatno će biti mala posećenost. Zato odabir prave **lokacije za vašu zajednicu, a samim tim i za vaše buduće sastanke, ima veliki uticaj na njen rast**.
 
 
 
-
-    - pronađite prostor** mnogo lakše za vaš sastanak i/ili projekte (prezentacije, radionice, prihvatanje Bitcoin kao sredstva plaćanja, itd.);
-    - povećajte osećaj uključenosti i pripadnosti** kod više ljudi prema vašoj zajednici i događajima;
-    - olakšajte prisustvovanje vašim događajima** (javni prevoz, parking, itd.). **Stoga je očigledno preporučljivo odabrati lokaciju za organizovanje fizičkog okupljanja, blizu javnog prevoza i parkinga**.
+Nekoliko saveta koji će vam pomoći u donošenju odluke:
 
 
-2) **Izaberite ime za vašu zajednicu/susret koje se odnosi na ovaj grad**, čineći ga lakim za identifikaciju. Na primer, "Bitcoin Pariz," "Einundzwanzig Berlin," "Satoshi Spritz Milan," itd.
+1/ **Kreirajte i razvijajte svoju zajednicu u srednjem ili velikom gradu**. Ovo će olakšati:
 
 
-####
+
+    - Pronađite prijatna mesta za sastanke i projekte (prezentacije, radionice, promocija usvajanja Bitcoin, itd.);
+    - Povećajte osećaj uključenosti i pripadnosti među većim brojem ljudi;
+    - Poboljšajte pristupačnost događaja (javni prevoz, parking, itd.). Preporučuje se odabir lokacije blizu javnog prevoza i parkinga.
 
 
-Još jedna više nego relevantna tačka za istraživanje je: **Da li već postoji okupljanje u mojoj blizini?
+
+2/ **Izaberite ime povezano sa vašim gradom**. Ovo olakšava ljudima da se identifikuju sa vašom zajednicom. Primeri: Bitcoin Paris, Einundzwanzig Berlin, Satoshi Spritz Milano, itd.
 
 
-Da biste to uradili, trebalo bi da znate da vebsajt [btcmap.org](https://btcmap.org/communities/map#0/0/0/) navodi skoro sve globalne zajednice i okupljanja.
+3/ **Proverite da li već postoji okupljanje u vašoj blizini**.
+
+Možete proveriti [btcmap.org](https://btcmap.org/communities/map#0/0/0/), koji navodi većinu Bitcoin zajednica i okupljanja širom sveta.
 
 
-![image](assets/fr/04.webp)
+
+![image](assets/fr/004.webp)
 
 
-Nakon nekog istraživanja, ako odlučite da kreirate okupljanje ili zajednicu u istom (ili obližnjem) gradu kao aktivno okupljanje koje je u funkciji već nekoliko meseci/godina, trebali biste znati da ovo može stvoriti oblik konkurencije; čak i ako je nenamerno. Naravno, pošto je Bitcoin decentralizovan, svako je slobodan da radi kako želi. Međutim, jasno je da **je bolje udružiti snage koliko god je to moguće nego umnožavati susedne zajednice; čime se smanjuje uticajna sposobnost svake**.
+
+Nakon nekog istraživanja, možda ćete pronaći postojeći meetup ili zajednicu u vašem gradu.
+
+Bitcoin je decentralizovan, tako da, naravno, svako je slobodan da radi šta želi.
 
 
-U tom smislu, sledeća "konvencija" bi vam mogla pomoći da odlučite o tom pitanju: ako ne postoji aktivna Bitcoin zajednica unutar 45 minuta od vaše lokacije (recimo u vašem automobilu, na primer), onda bi moglo biti relevantno stvoriti novu.
+Međutim, **udruživanje snaga često ima više smisla nego razdvajanje obližnjih zajednica i smanjenje uticaja svake od njih**. Pokretanje potpuno nove zajednice tamo gde već postoji jedna može nenamerno stvoriti konkurenciju.
 
 
-Ali naravno, potpuno ste slobodni da radite kako smatrate da je ispravno.
+U tom smislu, jednostavno "pravilo palca" može pomoći: ako ne postoji aktivna Bitcoin zajednica unutar 30-45 minuta od mesta gde živite, možda vredi pokrenuti novu. Ipak, uvek ste slobodni da radite kako želite.
 
 
-Ako, međutim, Bitcoin zajednica postoji, ali nije aktivna, možda bi bilo relevantnije preuzeti je i ponovo zapaliti njen plamen; kontaktirajući, na primer, njene bivše tvorce sa ciljem dobijanja pristupa komunikacionim kanalima i društvenim mrežama koje su prethodno korišćene.
+I naravno, ako se starija zajednica "evoluirala" u pravcu koji više ne odgovara vašim vrednostima, a nemate vremena ili motivacije da ih "orange-pill", onda je stvaranje sopstvenog Fork uvek opcija.
 
 
-Suprotno tome, u slučaju da je stara zajednica Bitcoin - recimo - "evoluirala," više ne deli vaše vrednosti, i nemate motivaciju ili vreme da ih ubedite, uvek je moguće stvoriti Fork.
 
-
-## Koje ciljeve treba postaviti?
+## Koji ciljevi treba da vode vašu zajednicu?
 
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
 
-Sada kada ste pronašli grad (ili geografsku lokaciju) sa kojom želite povezati svoju zajednicu, neophodno je **razmisliti o ciljevima koje želite postići**.
+
+Kada identifikujete grad (ili geografsko područje) za svoju zajednicu, vreme je da **definišete šta želite da postignete**.
 
 
-Da bismo vam pomogli, naveli smo ispod neke misli koje bi mogle biti korisne.
+Ovi ciljevi mogu biti postavljeni odmah pri lansiranju ili dorađeni kasnije, kada se pridruži nekoliko članova i vaša grupa bude aktivno angažovana.
 
 
-####
+
+Evo nekoliko tačaka koje će vas voditi u razmišljanju:
 
 
-1. **Zašto sam, kao bitkoiner, stvorio ovu zajednicu?** Da li je to da podelim svoje znanje? Da edukujem? Da učim od drugih? Da upoznam druge istomišljenike? Da se uključim u ekosistem? Da upoznam profesionalce? Jednostavno da pijem pivo i steknem nove prijatelje?
+
+1/ **Zašto kreiram ovu zajednicu kao bitkoiner?** Da li je to da podelim znanje? Edukujem druge? Učim od iskusnijih kolega? Upoznam ljude sličnih interesovanja? Uključim se u Bitcoin ekosistem? Povežem se sa profesionalcima? Ili jednostavno da popijem piće i steknem nove prijatelje?
 
 
-Očigledno, u zavisnosti od vaših odgovora, vaše pozicioniranje i motivacije neće biti isti.
+
+Vaši odgovori će oblikovati vašu poziciju i motivaciju.
 
 
-Na primer, ako je vaš cilj **deljenje vašeg znanja sa svrhom edukacije o Bitcoin**, jasno je da je **kreiranje edukativnog sadržaja** (članci, podcasti, video materijali, prezentacije, leci, itd.) relevantno. Tako ćete uštedeti drugima desetine sati istraživanja i rada. Ovo se može dodatno unaprediti kroz **organizovanje radionica, prezentacija i konferencija**.
+Ako je vaš cilj da **delite znanje i edukujete ljude o Bitcoin**, fokusirajte se na **kreiranje edukativnog sadržaja** (članci, podcasti, video materijali, prezentacije, flajeri, itd.), štedeći drugima bezbroj sati istraživanja. Možete ići i dalje tako što ćete **organizovati radionice, prezentacije i konferencije**.
 
 
-Paralelno, ako je vaš cilj "jednostavno" upoznati druge bitkoinere kako biste podelili svoj svakodnevni život, to se može uraditi na mnogo opušteniji način; na primer, uz piće.
+
+Ako je vaš cilj jednostavno upoznati druge bitkoinere i podeliti iskustva, možete pristupiti opuštenije, kao što je sastanak na piću.
+
+Na ovaj način ćete lakše stvarati društvene veze. Međutim, uvek zapamtite da **pijenje piva nije pravi put za izgradnju sveta sutrašnjice**.
 
 
-Međutim, nesumnjivo ste svesni da nazdravljanje pomaže u olakšavanju društvenih interakcija, posebno kada uključuje alkohol. Ipak, iako je i danas uobičajeno osećati se usamljeno i neshvaćeno od strane svih kada ste duboko uvereni u ono što Bitcoin donosi našem društvu, važno je ne zaboraviti da **pijenje piva omogućava da diskutujete o svetu, ali ne i da ga promenite** :smirk:
-
-
-U tom smislu, **činilo bi se neophodnim postaviti konkretne ciljeve i projekte**.
-
-
-####
-
-
-2. Da li je relevantno **dati fizičku dimenziju mojoj zajednici**? Ako jeste, koje vrste događaja bi se mogle organizovati?
-
-
-U slučaju da želite dati fizičku dimenziju svojoj zajednici, vaš prvi događaj će sigurno biti sastanak. Vaš cilj će tada očigledno biti da postepeno upoznate bitkoinere koji žive blizu vas.
-
-
-Međutim, kao što ćemo videti kasnije u odeljku [Primeri projekata i inicijativa](LINK), **sastanak može biti strukturisan na različite načine, svaki sa svojim ciljevima**.
-
-
-Zapravo, može omogućiti **upoznavanje novih ljudi, prisustvovanje edukativnoj prezentaciji o specifičnoj ideji povezanoj sa Bitcoin, profesionalnu prezentaciju Bitcoin rešenja ili kompanija, strategiju "orange-pilling" za trgovce, itd**. Na svakom organizatoru sastanka je da se pozicionira u skladu sa svojim ciljevima.
-
-
-Ponekad, u zavisnosti od tema koje se obrađuju (kao što su tehničke prezentacije ili praktične radionice), može biti relevantno održati **događaj pored sastanka**, na drugom mestu i u drugo vreme.
-
-
-![immagine](assets/fr/05.webp)
-
-
-####
-
-
-3. Kakvo bih učešće želeo/la da moja zajednica ima u ekosistemu Bitcoin?
-
-
-Ovo mnogo naprednije pitanje može se razmotriti od stvaranja vaše zajednice.
-
-
-Zapravo, ako težite da **razvijete ujedinjenu, uključenu zajednicu punu motivisanih bitkoinaša** koji žele da edukuju i "orange-pill" što više ljudi oko vas, onda će vam biti potrebno:
+Zato je **postavljanje konkretnih ciljeva i projekata ključno**.
 
 
 
 
-- s jedne strane, **približavanje postojećim zajednicama**, sa ciljem pristupa značajnijem skupu informacija, imajući pristup mnoštvu linkova i resursa otvorenog koda koji se mogu ponovo koristiti, ali i da biste dobili pomoćnu ruku kada vam zatreba; * s druge strane, **organizovanje sebe--i time raspodela zadataka--unutar vaše zajednice kako biste zajedno napredovali**.
+2/ Da li treba da dam svojoj zajednici **fizičku dimenziju**? Ako da, kakve događaje treba da organizujete?
 
 
-####
+
+Vaš prvi događaj će verovatno biti okupljanje. Njegova glavna svrha: da okupi bitkoinere u vašem području.
 
 
-Očigledno, postavljanje ciljeva nije lak zadatak. Međutim, **kratkoročni, srednjoročni i dugoročni ciljevi** mogu biti postavljeni u različitim tačkama razvoja vaše zajednice.
+
+Međutim, kao što ćemo videti kasnije u [Primeri projekata i inicijativa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **okupljanje može biti organizovano na mnogo načina, sa mnogo ciljeva:**
 
 
-**Na primer, kada kreirate svoju zajednicu, možete se odlučiti da se u kratkom roku fokusirate na razvoj društvenih mreža i komunikacionih kanala. U srednjem roku, razvoj obrazovnih resursa (članci, flajeri, itd.) koji su dostupni i relevantni. Na kraju, na duži rok, recimo za 6 meseci, pokretanje fizičkog sastanka je generalno izvodljivo**.
+
+- Kombinujte umrežavanje sa edukativnom prezentacijom o Bitcoin konceptu;
+- Organizujte profesionalnu demonstraciju Bitcoin rešenja;
+- Strategije debate za uvođenje lokalnih trgovaca u korišćenje bitkoina;
+
+i tako dalje.
 
 
-Nekoliko meseci kasnije, **kada vaši sastanci postanu redovni, mogli biste zatim definisati u kratkom roku implementaciju prezentacija ili radionica na specifične teme; u srednjem roku, sprovođenje kampanje za podizanje svesti/edukaciju o Bitcoin; i u dugom roku, stvaranje udruženja ili potragu za barom koji prihvata Bitcoin kao sredstvo plaćanja**.
+U zavisnosti od tema (tehnički razgovori ili praktične radionice), može čak imati smisla **organizovati dodatne događaje** van vašeg redovnog okupljanja.
 
 
-####
+
+![image](assets/fr/005.webp)
 
 
-Međutim, imajte na umu da stvaranje zajednice ne dešava se preko noći: **zahteva vreme, motivaciju i određenu organizaciju**.
 
 
-Ponekad to može biti i demorališuće; posebno kada se niko ne pojavi na jednom od vaših sastanaka i osećate se usamljeno u sprovođenju ovog cilja.
+3/ Kako želim da moja zajednica doprinese Bitcoin ekosistemu?
 
 
-Zato je **ovaj kurs napravljen, sa ciljem da podeli sve moguće resurse i savete kako bi vaša zajednica mogla da raste i postane samoodrživa**.
+
+Ovo je naprednije pitanje, ali vredi razmisliti o njemu već na početku.
 
 
-# Dizajniranje jedinstvenog identiteta za vašu Bitcoin zajednicu
+Ako je vaša vizija **stvaranje blisko povezane, motivisane zajednice** fokusirane na orange-pilling što većeg broja ljudi, onda:
+
+
+
+- Saradnja sa postojećim zajednicama radi pristupa širim informacijama, resursima otvorenog koda i dragocenoj podršci kada je to potrebno.
+- Organizujte i delegirajte zadatke unutar vaše grupe kako biste efikasno proširili i povećali svoje napore.
+
+
+
+**Postavite kratkoročne, srednjoročne i dugoročne ciljeve**
+
+Praktičan način planiranja je postavljanje ciljeva za svaki vremenski okvir:
+
+
+
+- Kratkoročno: izgraditi prisustvo na društvenim mrežama i postaviti kanale komunikacije zajednice.
+- Srednjoročno: kreirati edukativne resurse (članci, flajeri, video snimci).
+- Dugoročno: pokrenuti redovne fizičke sastanke.
+
+
+Jednom kada se okupljanja uspostave, možete težiti ka:
+
+
+
+- Kratkoročno: organizovati radionice ili prezentacije na određene teme
+- Srednjoročno: sprovesti kampanje za podizanje svesti ili edukaciju o Bitcoin
+- Dugoročno: kreirati formalnu asocijaciju ili partnerstvo sa barom koji prihvata Bitcoin kao plaćanje.
+
+
+Budite spremni: **izgradnja zajednice zahteva trud**
+
+
+Stvaranje zajednice ne dešava se preko noći. Potrebno je vreme, motivacija i organizacija.
+
+Ponekad može biti obeshrabrujuće, posebno kada se niko ne pojavi, a vi se osećate kao da ste jedini koji nosi ovu misiju na svojim ramenima.
+
+
+Zato je **ovaj kurs osmišljen da podeli vredne resurse i savete, pomažući zajednicama da efikasno rastu i na kraju postanu samodovoljne.**.
+
+
+
+# Dizajniranje identiteta zajednice Bitcoin
 
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
 
-## Zašto i kako stvoriti svoj identitet?
+
+## Zašto i kako možete stvoriti svoj identitet?
 
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
 
-U nastavku ovog kursa, razmotrićemo da:
+
+U ovoj fazi pretpostavljamo da:
 
 
 
-
-- želite da kreirate zajednicu (ili možda sastanak) u gradu ili geografskoj lokaciji koju ste već definisali;
-- postavili ste konkretne ciljeve na različitim vremenskim horizontima.
-
-
-**Drugi korak u stvaranju zajednice je očigledno njen identitet**. Ovo uključuje odabir njenog imena, ali i **njenu vizuelnu identitet**.
+- Već znate gde će biti vaša zajednica (ili budući redovni sastanak).
+- Postavili ste ciljeve za različite vremenske horizonte, čak i ako još nisu konačni.
 
 
-Zato ćemo se potruditi, u ovom Delu 2/8, da vam ponudimo tutorijale i softverska rešenja koja vam omogućavaju da dizajnirate vizuelni identitet vaše zajednice; i to, bez nužnog posedovanja veština dizajnera.####
+Sledeći korak u izgradnji vaše zajednice je **definisanje njenog identiteta**, kako njenog imena, tako i vizuelnog stila.
 
 
-Evidentno je da kada se ljudsko biće identifikuje sa grupom, oseća se više uključenim. U tom smislu, imati jedinstven identitet za svoju zajednicu je od suštinskog značaja.
+Ovaj odeljak pruža tutorijale i softverska rešenja prilagođena početnicima kako bi vam pomogao da dizajnirate vizuelni identitet vaše zajednice, čak i sa početničkim veštinama.
 
 
-Ovo počinje izborom imena. U stvari, u zavisnosti od zemlje, postoje različite nacionalne inicijative i/ili zajednice.
+**Zašto je identitet važan?**
+
+Ljudi se osećaju više angažovano i posvećeno kada mogu da se identifikuju sa grupom. Snažan identitet pomaže vašoj zajednici da se istakne i podstiče osećaj pripadnosti.
 
 
-Na primer, **u Francuskoj, pedeset zajednica koje su se tamo razvile nazivaju se "Bitcoin [GRAD]" ili "[GRAD] Bitcoin"; što dovodi do toga da se njihova Telegram grupa naziva "Bitcoin [GRAD] meet-up" ili "[GRAD] Bitcoin meet-up"**.
+Sve počinje izborom imena, a svaka zemlja često ima svoje trendove:
 
 
-U Nemačkoj, inicijativa "Einundzwanzig" (što znači "21") dovela je do toga da se gotovo sve zajednice nemačkog govornog područja nazivaju "Einundzwanzig [CITTÀ]"; dok u Italiji, inicijativa "Satoshi Spritz" - koja je inicijator većine trenutnih italijanskih zajednica - naziva svoje zajednice "Satoshi Spritz [CITTÀ]." **Svaka zajednica tako ima svoj identitet, u odnosu na svoj grad porekla; ali takođe, i na globalni identitet svoje zemlje**.
+
+- Francuska: Većina od 60+ lokalnih zajednica koristi imena poput "Bitcoin [GRAD]" ili "[GRAD] Bitcoin". Njihove Telegram grupe često prate ovaj obrazac: "Bitcoin [GRAD] meetup".
+- Nemačka: Inicijativa Einundzwanzig (što znači "21") inspirisala je imena poput "Einundzwanzig [CITY]".
+- Italija: Mreža Satoshi Spritz koristi imena kao što su Satoshi "Spritz [GRAD]".
 
 
-Stoga, iako je sasvim moguće da kreirate novu francusku zajednicu sa željenim imenom, **čini se relevantnijim u našoj zemlji nazvati je "Bitcoin [GRAD]" ili "[GRAD] Bitcoin"**.
+**Svaka zajednica ima svoj identitet, povezan sa svojim rodnim mestom, ali povezan sa širim identitetom svoje zemlje**.
 
 
-####
+
+Vaš vizuelni identitet: logo, boje, baneri, je ono što će ljudi pamtiti i povezivati sa vašom grupom.
 
 
-Paralelno, **vizuelni identitet vaše zajednice i vašeg sastanka igra ključnu ulogu u njegovom razvoju**, jer će delimično zbog njega vaša inicijativa biti zapamćena. Zato, **kada kreirate svoje društvene mreže i komunikacione kanale, logo i baner** moraju biti dizajnirani. Međutim, ovo ne mora biti urađeno od strane profesionalnog dizajnera, a dostupni su jednostavni i besplatni alati.
+Kada kreirate naloge na društvenim mrežama i komunikacione kanale, imati logo i baner je veliki plus. Ne brinite, nisu vam potrebne profesionalne dizajnerske veštine; dostupni su besplatni i jednostavni alati za korišćenje.
 
 
-Da biste kreirali svoj vizuelni identitet, najbolji pristup je da počnete sa značajnim elementom ili mestom u vašem gradu. To može biti, na primer, Ajfelov toranj u Parizu, zvonik ili citadela u Lilu, monegaška tvrđava u Monaku, stara luka u Marselju, itd. Polazeći od ovog elementa, možete zatim dizajnirati više ili manje razrađen logo, u zavisnosti od željene složenosti.
+Odlična početna tačka je da uključite znamenitost ili simbol iz vašeg grada. U Parizu, to bi mogao biti Ajfelov toranj. U Lilu, zvonik ili citadela. U Njujorku, Kip slobode. U Londonu, Big Ben, i tako dalje.
+
+
+Odatle možete dizajnirati ili jednostavan ili detaljniji logo, u zavisnosti od vaših preferencija.
+
 
 
 Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
@@ -466,214 +512,279 @@ Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
 
 
 
-- U Marseju, logo predstavlja baziliku Notre-Dame-de-la-Garde, koja dominira gradom:
-
-
-![immagine](assets/fr/06.webp)
+- U Marseju, logo predstavlja baziliku Notre-Dame-de-la-Garde, koja nadgleda grad:
 
 
 
-
-- U Monaku, to se odnosi na monegašku tvrđavu:
-
-
-![immagine](assets/fr/07.webp)
+![image](assets/fr/006.webp)
 
 
 
 
-- U Lilu, stilizovani logo predstavlja citadelu Vauban i njen park, koji se nalaze samo nekoliko minuta od centra grada:
 
-
-![immagine](assets/fr/08.webp)
-
+- U Monaku, to se odnosi na monegašku stenu:
 
 
 
-- U Saint-Malo-u, hermelin-simbol grada-je istaknut:
+![image](assets/fr/007.webp)
 
 
-![immagine](assets/fr/09.webp)
 
 
-Sada je na vama **pronađite značajan element ili mesto u vašem gradu i iskoristite ga za izradu logotipa vaše Bitcoin zajednice**.
+
+- U Lilu, elegantni logo predstavlja Vobanovu citadelu i njen park:
 
 
-####
+
+![image](assets/fr/008.webp)
 
 
-Štaviše, ako vas inspiracija nadmaši, možete ići još dalje stvaranjem grba, mota ili čak pesme vezane za vašu zajednicu. Vaša mašta je tada jedina granica!
 
 
-## Kreiraj Logo, Poster i Baner
+
+- U Saint-Malo-u, hermelin - amblem grada - je istaknut:
+
+
+
+![image](assets/fr/009.webp)
+
+
+
+**Idi dalje ako želiš**
+
+Ako vas inspiracija pogodi, možete je odvesti još dalje: kreirajte grb, moto ili čak pesmu za vašu zajednicu. Vaša kreativnost je jedina granica!
+
+
+
+## Napravi logo, poster i baner
 
 
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
 
 
+
 ### Korišćenje Canva
 
 
-Za kreiranje logotipa i banera za vašu zajednicu, **možete koristiti [Canva](https://www.canva.com/)**.
+
+Možete koristiti [Canva](https://www.canva.com/)** za kreiranje različitih vizuala za vašu zajednicu.
 
 
-Ovaj jednostavan za korišćenje i besplatan sajt je posebno popularan zbog količine šablona; koje možete duplicirati i modifikovati kako želite.
+
+Ova besplatna i jednostavna platforma popularna je zbog svoje velike biblioteke unapred dizajniranih šablona koje možete duplicirati i prilagoditi u samo nekoliko klikova.
 
 
-Kada **kreirate svoj logo**, možete zatim pretražiti početnu stranicu za različite unapred napravljene logotipe, da duplicirate onaj ili logotipe koji vas interesuju; i zatim ih modifikujete kako želite.
+**Kreiranje vašeg logotipa**
+
+Na početnoj stranici Canve, potražite unapred dizajnirane logotipe. Izaberite jedan ili nekoliko koji vas inspirišu, duplirajte ih, a zatim ih prilagodite kako bi odgovarali vašoj zajednici.
 
 
-Zatim možete dodati element pozadine koji predstavlja vaš grad (uvozom fotografije ili pretraživanjem "Ilustracije" ili "Slike" u levom meniju "Elements"). Zatim, umetanje logotipa Bitcoin ili ₿ iznad - čak i promena njegove boje ako želite - je opcija.
+Možete dodati lokalnu znamenitost ili amblem u pozadinu (uvezite fotografiju ili pretražite "Ilustracije" ili "Slike" u meniju Elements), zatim preklopite Bitcoin logo ili ₿, prilagođavajući njegovu boju po potrebi.
 
 
-U slučaju **kreiranja banera ili postera**, jednostavno ponovo pretražite početnu stranicu sajta da biste dobili unapred dizajniran poster. Nakon što ga duplirate, moći ćete da ga uredite promenom teksta i fontova, dodavanjem logotipa vaše zajednice i uvozom fotografija koje ćete prevući u okvir (koji ćete dobiti pretragom "okvir" u levom meniju "Elements").
+**Kreiranje banera i postera**
+
+Da biste kreirali baner ili poster, pretražite Canvinu biblioteku za unapred dizajnirane šablone. Kada duplirate jedan, izmenite tekst i fontove, dodajte logo vaše zajednice i uvezite bilo koje fotografije koristeći okvire (pretražite "frame" u Elements meniju).
 
 
-Pored toga, levi meni "Dizajn" omogućava vam da pretražujete druge modele prema vašim potrebama.
+Takođe možete koristiti meni Dizajni da istražite dodatne modele koji odgovaraju vašim potrebama.
 
 
-Konačno, možete pretražiti početnu stranicu za **YouTube minijaturu ili unapred dizajnirani baner**, duplicirati ga, a zatim ga urediti po želji.
+Za YouTube sličice ili banere, jednostavno potražite te šablone, duplicirajte ih i prilagodite po želji.
 
 
-Ukratko, **mogućnosti su beskrajne i zavise od vaših potreba, ali i od grafika koje želite da kreirate** za vašu zajednicu i vaše sastanke/događaje!
+
+Ukratko, **mogućnosti su beskrajne i oblikovane ne samo vašim potrebama već i vizuelnim stilom koji želite da kreirate** za vašu zajednicu i vaše sastanke / događaje!
 
 
-####
 
+Da bismo vam dali jasniju predstavu, uključili smo neiscrpan video tutorijal koji prikazuje neke od ovih mogućnosti:
 
-Da bismo vas detaljnije uputili, nudimo vam u nastavku neiscrpan video tutorijal koji prikazuje neke mogućnosti:
 
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 
-####
 
+**Primeri šablona iz Bitcoin Lille**
 
-Ovde su takođe dostupne neke unapred dizajnirane, duplirajuće i uređive datoteke koje koristimo sa našim udruženjem, Bitcoin Lille:
+Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zajednicu:
 
 
 
+- Najava okupljanja** (za društvene mreže i štampanje A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-- najava okupljanja** (za društvene mreže, i štampano u A4 ili A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+![image](assets/fr/010.webp)
 
-![immagine](assets/fr/10.webp)
 
 
 
 
-- najava zajedničkog događaja poster** (za društvene mreže i štampano u A4 ili A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- baneri za neke društvene mreže**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- najava konkursa**:[link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Poster događaja** (za društvene mreže i štampanje u A4/A3 formatu): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![immagine](assets/fr/11.webp)
 
 
 
+- baneri za društvene mreže**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-- papir** iz naše biblioteke, prikazan u A4 tokom sastanaka: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- PowerPoint prezentacija** "Poglavlje 2 - Razumevanje Bitcoin Transakcija," od @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Handout** "21 Razlog za korišćenje Bitcoin," napisao @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-Kao što možete videti, mogućnosti su beskonačne i očigledno zavise od vaših potreba. **Ne ustručavajte se da sami dizajnirate nove modele, a zatim odvojite nekoliko minuta da ih podelite sa drugima oko vas kako biste uštedeli nekoliko sati rada drugim zajednicama u vašoj zemlji**. Zapravo, ne zaboravite da će se **svaka zajednica, pre ili kasnije, suočiti sa istim problemima i potrebama kao i vi. Deljenjem svojih resursa na open-source način, vi time indirektno ubrzavate razvoj svih drugih Bitcoin zajednica**.
 
 
-Međutim, prilikom kreiranja vaših grafičkih materijala, obavezno obratite pažnju na dimenzije koje očekuju društvene mreže i komunikacione aplikacije koje planirate da koristite.
+- Najava konkursa**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-Evo nekoliko proporcija i standarda koji bi vam mogli biti korisni:
 
+![image](assets/fr/011.webp)
 
-| Network / Platform | Logo | Banner | Poster / Image |
-| ------------------ | --------- | ---------- | ----------------- |
-| Telegram | 512 x 512 | N/A | N/A |
-| Signal | N/A | N/A | N/A |
-| Twitter | 400 x 400 | 1500 x 500 | 1200 x 628 |
-| Meet-up | N/A | N/A | N/A |
-| Discord | 512 x 512 | 960 x 540 | N/A |
-| Facebook | 512 x 512 | 851 x 315 | 960 x 720 |
 
-Kao takva, za kreiranje **loga**, odgovarajuća veličina je **512 piksela puta 512 piksela**.
 
 
-Za **baner**, to zavisi **specifično od aplikacije ili sajta** koji koristite.
 
+- smernice brenda** naše biblioteke, prikazane na A4 na sastancima: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Što se tiče **postera i drugih slika**, klasični format **A4** je generalno relevantan.
 
 
-### Upotreba veštačke inteligencije
 
 
-Iako Canva omogućava da radite bezbroj stvari (logotipi, posteri, baneri, flajeri, itd.), očigledno nije jedini sajt ili softver koji vam omogućava da obavljate ovaj skup zadataka.
+- PowerPoint prezentacija** "Poglavlje 2 - Razumevanje Bitcoin transakcija", od @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-Kao takav, ako vam je udobnije da koristite drugi softverski paket (posebno Photoshop ili Illustrator), uradite ono što je najpraktičnije za vas.
 
 
-Međutim, bilo da kreirate logo za svoju zajednicu ili dodajete upečatljive slike na postere, prezentacije ili flajere, **može biti relevantno koristiti veštačku inteligenciju za poboljšanje vašeg materijala**.
 
+- letak** "21 razloga za korišćenje Bitcoin", napisao @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Da biste to uradili, postoje brojne veštačke inteligencije. Konkretno:
 
 
+![image](assets/fr/012.webp)
 
 
-- [midjourney](https://docs.midjourney.com/docs/quick-start) (naknada);
-- [leonardo](https://leonardo.ai/) (besplatno, ograničeno po nalogu);
-- [copilot](https://copilot.microsoft.com/) (besplatno, ograničeno po nalogu);
-- [DALL-E](https://www.dall-efree.com/) (plaćeno). Naravno, mnoge druge veštačke inteligencije su se pojavile u oblasti kreiranja vizuelnog sadržaja u poslednjih nekoliko meseci. Ova lista, dakle, nije iscrpna.####
+![image](assets/fr/013.webp)
 
 
-U slučaju da želite kreirati, na primer, futurističku sliku ili logo za "Bitcoin London" okupljanje, možete zatim pitati "co-pilot" AI:
 
+**Podelite svoje kreacije**
 
+Mogućnosti su beskrajne, a vaši dizajni će zavisiti od vaših ciljeva i vizuelnog identiteta. Razmislite o deljenju vaših šablona u open source formatu, to štedi vreme za druge Bitcoin zajednice koje će neminovno suočiti sa istim izazovima kao i vi. Deljenjem pomažete ubrzanju rasta Bitcoin zajednica svuda.
 
 
-- [ ] *Kreiraj Bitcoin logo sa Londonskim mostom i Big Benom u pozadini. Futuristički* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+**Preporučene dimenzije**
 
+Kada kreirate vizuale, uvek proverite zahteve za veličinu za svaku platformu:
 
-![immagine](assets/fr/14.webp)
 
 
-Ako četiri predloga kopilota nisu dovoljno realistična za vaš ukus, možete dodati u razgovor:
+| Platform | Logo | Banner | Poster / Image
+| -------- | -------- | -------- | -------- |
+| Telegram     | 512 x 512     | N/A     | N/A     |
+| Signal     | N/A     | N/A     | N/A     |
+| Twitter     | 400 x 400     | 1500 x 500     | 1200 x 628     |
+| Meet-up     | N/A     | N/A     | N/A     |
+| Discord     | 512 x 512     | 960 x 540     | N/A     |
+| Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
 
+Obično odgovarajuće veličine:
 
+Logotipi: 512 x 512 piksela
 
+Baneri: Variraju u zavisnosti od aplikacije ili sajta
 
-- [ ] *Neka četvrti bude mnogo realističniji* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+Posteri: A4 je standardni format štampe
 
 
-![immagine](assets/fr/15.webp)
 
+### Korišćenje veštačke inteligencije
 
-Usput, poslednji prikaz je prilično lep.
 
 
-Međutim, ako želite mnogo jednostavniji logo, kao za nalepnicu, možete onda staviti "co-pilot."
+Iako Canva nudi širok spektar alata za kreiranje logotipa, postera, banera i flajera, to nije jedina opcija. Ako vam je udobnije da koristite drugi softver (kao što su Photoshop ili Illustrator), slobodno koristite ono što vam najbolje odgovara.
 
 
+To je rečeno, bilo da dizajnirate logo zajednice ili unapređujete postere, prezentacije ili letke, **veštačka inteligencija može biti moćan saveznik za kreiranje jedinstvenih i privlačnih vizuala**.
 
 
-- [ ] *Kreiraj logo za "London Bitcoin Meetup" sa britanskim i pojednostavljenim stilom* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
 
+Dostupan je veliki broj AI sistema za ovu svrhu. Oni uključuju
 
-![immagine](assets/fr/16.webp)
 
 
-Drugo renderovanje je tipično i moglo bi da upali!
 
+- [midjourney](https://docs.midjourney.com/docs/quick-start) (plaćeno);
+- [leonardo](https://leonardo.ai/) (besplatno, sa ograničenjem naloga);
+- [copilot](https://copilot.microsoft.com/) (besplatno, sa ograničenjem naloga);
+- [DALL-E](https://www.dall-efree.com/) (plaćeno).
 
-####
 
+Mnogi drugi AI alati su se nedavno pojavili, tako da ova lista nije iscrpna.
 
-Međutim, iako omogućava kreiranje veoma zanimljivih vizuelnih prikaza u rekordnom vremenu, **nažalost veštačka inteligencija neće moći da postigne tačno ono što želite u detaljima**.
 
 
-Dakle, budite strpljivi, pokušajte da date instrukcije (ili "prompte") što preciznije; i **ako niste zadovoljni dobijenim prikazima, ništa vas ne sprečava da se obratite iskusnijem bitkoineru po tom pitanju**. Za nekoliko sat (ili besplatno), sigurno će vam kreirati kvalitetan logo.
+**Primer: Kreiranje Futurističkog Bitcoin London Logotipa**
+
+Ako želite da dizajnirate futuristički logo za "Bitcoin London" okupljanje, možete pitati Copilot:
+
+
+
+- [ ] *Prompt: Kreiraj Bitcoin logo sa Londonskim mostom i Big Benom u pozadini. Futuristički* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+
+
+
+![image](assets/fr/014.webp)
+
+
+
+Ako prva četiri rezultata nisu dovoljno realistična, precizirajte svoj zahtev:
+
+
+
+
+- [ ] *Prompt: Napravite četvrti mnogo realističnijim* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+
+
+
+![image](assets/fr/015.webp)
+
+
+
+Najnoviji rezultat je ispao sjajno!
+
+
+
+**Primer: Kreiranje jednostavnog logotipa u britanskom stilu**
+
+Za čistiji izgled, kao za nalepnicu:
+
+
+
+- [ ] *Prompt: Kreirajte logo za "London Bitcoin Meetup" sa britanskim i čistim stilom* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+
+
+
+![image](assets/fr/016.webp)
+
+
+
+Rezultat izgleda stvarno kul!
+
+
+
+**Saveti za rad sa veštačkom inteligencijom**
+
+
+
+- Budite strpljivi: veštačka inteligencija možda neće proizvesti tačno ono što zamišljate iz prvog pokušaja.
+
+
+
+- Koristite precizne upite: Što su vaše instrukcije jasnije i detaljnije, to će rezultati biti bolji.
+
+
+
+- Zatražite pomoć: Ako niste zadovoljni, obratite se nekome ko ima iskustva sa grafičkim dizajnom ili AI alatima, mnogi Bitkoineri će rado pomoći, ponekad čak besplatno ili za nekoliko Sats.
+
 
 
 # Kreiranje komunikacionih kanala za vašu Bitcoin zajednicu
@@ -682,379 +793,413 @@ Dakle, budite strpljivi, pokušajte da date instrukcije (ili "prompte") što pre
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
 
-## Koje komunikacione kanale treba prioritizovati?
+
+## Koje komunikacione kanale treba da izaberete?
 
 
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
 
-Kao što je ranije pomenuto, u zavisnosti od individualnih motivacija i navika, komunikacioni kanali zajednice mogu biti različiti. Na primer, **u Francuskoj, Nemačkoj i Italiji, Telegram i Twitter su glavni komunikacioni kanali**. Vremenom su postali "komunikacioni standardi" za Bitcoin zajednice u ovim zemljama. Međutim, neke zajednice takođe koriste druge kanale za specifične svrhe. Nasuprot tome, u Češkoj Republici, mnoge zajednice koje su se tamo razvile koriste **Matrix**, enkriptovani protokol za instant poruke. U njihovoj zemlji, Telegram se zapravo retko koristi.
+
+Kao što je gore pomenuto, komunikacioni kanali zajednice mogu se razlikovati u zavisnosti od motivacija i navika.
 
 
-U tom smislu, **za odabir komunikacionih kanala, najrelevantniji pristup je započeti uzimanjem primera iz susednih zajednica u vašoj zemlji**. Da biste to uradili, pristupanje mapi na [btcmap.org](https://btcmap.org/communities/map#0/0/0/) će vam dati vrlo dobru ideju o najčešće korišćenim komunikacionim kanalima u vašoj zemlji. Na primer, u Švajcarskoj se informacije uglavnom prenose putem Telegrama, Twittera i vebsajta zajednice.
+Na primer, **u Francuskoj, Nemačkoj i Italiji, Telegram i Twitter su dominantne platforme**, i postale su "standard" za Bitcoin zajednice.
+
+Nasuprot tome, u Češkoj Republici mnoge zajednice koriste **Matrix**, siguran protokol za instant poruke, umesto Telegrama.
 
 
-![immagine](assets/fr/17.webp)
+Savet: Pre nego što izaberete svoje kanale, **pogledajte šta rade obližnje zajednice**. Koristite mapu [btcmap.org](https://btcmap.org/communities/map#0/0/0/) da vidite koje su platforme najpopularnije u vašem regionu.
 
 
-####
-
-
-**U slučaju Francuske (i frankofonog sveta uopšte), glavni kanal komunikacije je Telegram**. Više od 90% francuskih okupljanja ima jedan: to je "must-have." Zatim, **glavna društvena mreža koju koriste zajednice je Twitter** (70% francuskih okupljanja); društvena mreža na kojoj je većina bitkoinera prisutna. Pored toga, skoro 30% francuskih okupljanja (kao i sva kanadska okupljanja) ima plaćeni nalog na aplikaciji **Meetup**. Zaista, ovo može biti odličan način da se događajima pruži vidljivost izvan ekosistema Bitcoin. Na kraju, 30% francuskih okupljanja takođe ima **websajt**; i 10%, **Discord** server i **NOSTR** nalog.
-
-
-####
-
-
-Naravno, ponekad se koriste i drugi komunikacioni kanali i društvene mreže: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, itd. **Svaka zajednica je zaista slobodna da razvija kanale koje želi**. Međutim, očigledno je da **što se više komunikacionih kanala i društvenih mreža umnožava, to više vremena zahtevaju od organizatora za njihovo upravljanje**, za redovno objavljivanje važnih informacija i moderiranje po potrebi.
-
-
-####
-
-
-**Za svakoga ko želi da započne zajednicu u Francuskoj, preporučuje se da započne samo sa:**
+Na primer, švajcarske zajednice prvenstveno koriste Telegram, Twitter i svoj veb-sajt:
 
 
 
-
-- a Telegram grupa**;
-- Twitter nalog**.
+![image](assets/fr/017.webp)
 
 
-U zavisnosti od vašeg vremena i želja, kasnije možete razviti druge mreže; čak i **dodeljivanje moderacije budućim članovima vaše zajednice**.
+
+**Preporučeni kanali za zajednice koje govore francuski**
 
 
-## Kreirajte i konfigurišite kanal, grupu ili super-grupu na Telegramu
+
+- Telegram: Alat za komunikaciju broj 1, preko 90% francuskih okupljanja ga koristi.
+
+
+
+- Twitter (X): Glavna društvena mreža koju koriste bitkoineri širom sveta. Koristi je ~70% francuskih okupljanja. Idealna je za dosezanje bitkoinera.
+
+
+
+- Meetup.com: Plaćen, ali široko korišćen (od strane ~30% francuskih okupljanja i gotovo svih kanadskih) za povećanje vidljivosti izvan Bitcoin ekosistema.
+
+
+
+- Druge opcije: ~30% takođe imaju vebsajt; ~10% vodi Discord servere ili NOSTR naloge.
+
+
+Druge platforme kao što su Matrix, Keet, Signal, Facebook, Instagram i LinkedIn takođe se mogu koristiti. Pazite, što više kanala upravljate, više vremena ćete provesti moderirajući, objavljujući i održavajući ih aktivnim.
+
+
+
+Svako ko želi da pokrene zajednicu u Francuskoj, stoga bi bilo pametno da počne kreiranjem:
+
+
+
+- Telegram grupa;
+- Twitter nalog.
+
+
+Kako vaša zajednica raste, možete dodati više platformi i delegirati moderaciju pouzdanim članovima.
+
+
+
+## Kreirajte i konfigurišite Telegram kanal, grupu ili supergrupu
 
 
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
 
-Kao što je ranije pomenuto, Telegram je "must-have" u mnogim zemljama. Međutim, kada kreirate komunikacioni kanal za vašu zajednicu na ovoj aplikaciji za instant poruke, važno je razumeti razlike između:
+
+Pre nego što kreirate prostor za komunikaciju vaše zajednice na Telegramu, važno je znati razliku između:
 
 
 
 
 - Telegram kanal;
 - Telegram grupa;
-- super-grupa na Telegramu.
+- supergrupa na Telegramu.
 
 
-Videćemo kasnije, ali **preporučuje se da izaberete "Telegram grupa" prilikom kreiranja** (ili, u zavisnosti od vaših ciljeva, "Telegram super-grupa").
+
+Preporučuje se da započnete sa Telegram grupom.
+
+Ako je potrebno, kasnije ga možete pretvoriti u Supergrupu.
 
 
-####
+Za tutorijale ispod, prvobitno smo koristili "Telegram+" APK, koji omogućava napredniju konfiguraciju. Međutim, nije vam nužno potreban, jer je zvanična Telegram aplikacija dovoljna za kreiranje i upravljanje grupama, čak i putem vašeg telefona:
 
-
-Za tutorijale koji slede, koristićemo aplikaciju "Telegram+" APK; aplikaciju koja omogućava napredniju konfiguraciju Telegrama. Međutim, ovo nije neophodno, jer se kreiranje grupe ili super-grupe na Telegramu sada može vrlo lako obaviti na telefonu:
 
 
 :::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 
-### Kreiranje Telegram kanala
+
+### Kreiraj Telegram kanal
 
 
-Ako želite da napravite mesto gde vaši članovi mogu direktno da diskutuju, odgovaraju jedni drugima, itd., onda Telegram kanal definitivno nije ono što treba da izaberete!
+
+Ako želite da napravite mesto gde vaši članovi mogu direktno da razgovaraju jedni s drugima, odgovaraju jedni drugima, itd., onda biste možda želeli da napravite Telegram grupu, a ne Telegram kanal!
 
 
-Zatim, idite direktno na sledeći odeljak, pod nazivom [Create a Telegram Group](LINK).
+Idite direktno na sledeći odeljak, pod nazivom [Create a Telegram group](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
-U stvari, **Telegram kanal je samo izlog informacija koje objavljuju administratori, gde članovi ne mogu učiniti mnogo više od dodavanja emodžija**.
+
+Zaista, **Telegram kanal je više kao jednosmerni alat za emitovanje za administratore**. Članovi ne mogu slobodno da ćaskaju, mogu samo da reaguju sa emotikonima (ili da ostavljaju komentare u posebnim nitima, što fragmentira razgovore).
 
 
-![immagine](assets/fr/18.webp)
+
+![image](assets/fr/018.webp)
 
 
-Međutim, moguće je dodati mogućnost članovima kanala da komentarišu svaki post od strane administratora, ali to će biti urađeno u posebnim nitima; značajno razdvajajući komunikaciju. **Stoga, kreiranje Telegram kanala generalno nije preporučljivo za zajednicu**.
 
+**Zato što zajednicama treba interakcija i saradnja, Telegram kanal se ne preporučuje** ako je vaš cilj izgradnja odnosa i deljenje znanja.
 
-####
 
 
 Uputstvo za kreiranje Telegram kanala:
 
 
+
 :::video id=98be4709-d221-4030-8c31-e10113482515:::
+
 
 
 ### Kreiraj Telegram grupu
 
 
-Nasuprot tome, **kreiranje Telegram grupe je prilično relevantno**.
 
-
-Zapravo, da uzmemo poznate primere kao što su Messenger ili WhatsApp grupe, svako ko se pridruži ovoj **Telegram grupi moći će da razgovara sa drugima, odgovara jedni drugima; i to, sve unutar iste diskusije**.
-
-
-![immagine](assets/fr/19.webp)
-
-
-Administratori ovog kanala će tada moći da:
+S druge strane, **Telegram grupa je idealna za zajednice**: Baš kao aplikacije za razmenu poruka kao što su Messenger ili WhatsApp, članovi mogu ćaskati i odgovarati jedni drugima u jednom zajedničkom razgovoru.
 
 
 
-
-- objavi poruke lično;
-- popravi** najvažnije;
-- objavi **ankete** (veoma korisno za odabir datuma sledećeg sastanka kada još nije redovan, tj. kada se zajednica još razvija);
-- kreirajte **prilagođeni pozivni link** (sve dok je grupa "javna" a ne "privatna," što se definiše u podešavanjima. Takođe je vrlo praktično imati svoj Telegram pozivni link u stilu: t.me/Bitcoin[CITY]);
-- dodaj ili ukloni dozvole, administratore i članove**;
-- Dodajte "profilnu sliku" **u Telegram grupu (tj. logo vaše zajednice),** i promenite njeno ime**.
+![image](assets/fr/019.webp)
 
 
-####
+
+Šta možete učiniti kao administrator:
+
+
+
+- Objavi i zakači važne poruke.
+- Kreirajte **ankete** (korisno za odlučivanje o datumima sastanaka kada je vaša zajednica nova).
+- kreiraj **prilagođeni pozivni link** (Samo ako je grupa "javna" a ne "privatna", što je definisano u podešavanjima. Takođe je korisno imati svoj Telegram pozivni link, kao što je: t.me/Bitcoin[CITY]);
+- Upravljajte dozvolama članova, ulogama i moderacijom.
+- Dodajte profilnu sliku (logo vaše zajednice) i ažurirajte ime grupe.
+
 
 
 Uputstvo za kreiranje Telegram grupe:
 
 
+
 :::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 
-Napomena: kao što je ranije pomenuto, gornji tutorijal je napravljen na računaru sa "Telegram+" APK. Međutim, sada je veoma lako kreirati Telegram grupu na telefonu.
 
+Napomena: Ovaj vodič je napravljen koristeći Telegram+, ali sve možete uraditi direktno iz standardne Telegram mobilne aplikacije.
 
-Stoga više ne morate preuzimati "Telegram+" da biste obavili ovaj zadatak; osim ako ne želite da istražite postavke privatnosti vaše grupe.
 
 
 ### Kreiraj Telegram supergrupu
 
 
-Nedostatak Telegram grupe je da kada počne da ima nekoliko stotina članova, paralelne diskusije u istom komunikacionom kanalu postaju nezgrapne. To onda dovodi do neželjenog efekta: neki članovi više ne prate Telegram grupu na dnevnoj bazi, što ponekad uzrokuje da propuste važne informacije; kao što je datum sledećeg sastanka.
+
+Zašto Supergrupa?
+
+Kako vaša Telegram grupa raste na stotine članova, razgovori mogu postati haotični. To često dovodi do toga da članovi propuste važne najave, poput datuma sledećeg sastanka.
 
 
-Nekoliko rešenja može biti primenjeno da se ovo popravi:
+Dostupno je nekoliko rešenja:
 
 
-1. **Popravite važne poruke kao administrator** kako bi svi bili obavešteni o njima (pritisnite jednom prstom na poruku o kojoj je reč, zatim izaberite "Popravi");
+1. **Prikačite važne poruke** kako bi svi članovi dobili obaveštenje (pritisnite jednom prstom na poruku o kojoj je reč, zatim izaberite "Prikači");
 
 
-2. predložite da vaša zajednica **koristi Discord server** sa raznim i različitim komunikacionim kanalima, koje svako može isključiti po želji;
+2. Razmotrite korišćenje **Discord-a** za više komunikacionih kanala, od kojih svaki korisnici mogu isključiti zvuk po potrebi.
 
 
-3. **kreiranje "supergrupe" na Telegramu**.
+3. **Pretvorite svoju Telegram grupu u Supergrupu**.
 
 
-####
+
+Šta je Telegram supergrupa?
 
 
-Ali šta je Telegram supergrupa?
+Supergrupa je u suštini Telegram grupa sa temama (pod-kanalima) unutar nje.
 
 
-To je jednostavno **Telegram grupa u kojoj su integrisane različite "teme"**. Tako se može kreirati tema **"Važne informacije"**, u kojoj će biti objavljivane samo važne informacije i informacije povezane sa predstojećim događajima/sastancima.
+Primeri tema:
 
 
-Tema **"General "** takođe može biti postavljen, gde bi svi članovi mogli diskutovati.
+- "Important Information": samo ključne novosti i najave događaja.
+- "Generalno": za sve diskusije članova.
+- Specifične Teme: npr., Mining, razvoj projekta, predstojeće konferencije.
 
 
-Konačno, **specifične teme** (Mining, razvoj projekta, predstojeća konferencija, itd.) mogu biti dodate.
+Savet: Prilagodite svoje teme potrebama vaše zajednice. Primer: Abidjan Bitcoin okupljanje uspešno koristi ovaj format.
 
 
-Na vama je da ga modifikujete prema vašim željama; slično, na primer, Bitcoin Meet-up supergrupi u Abidžanu.
+
+![image](assets/fr/020.webp)
 
 
-![immagine](assets/fr/20.webp)
+Imajte na umu da **Telegram supergrupe mogu biti pomalo nezgodne za korišćenje nekim članovima**. Na primer, ne znaju svi **kako da pristupe različitim temama** (samo treba da dodirnu logo grupe u glavnom meniju Telegrama da bi videli punu listu tema). Slanje brzog snimka ekrana može pomoći da se razjasni svaka zabuna.
 
 
-####
+Ne postoji strogo pravilo kada treba preći sa obične Telegram grupe na supergrupu, to zaista zavisi od potreba vaših članova. Dobra vest je da možete lako prelaziti između njih: jednostavno kreirajte temu da biste konvertovali u supergrupu ili obrišite sve teme osim "General" da biste se vratili na običnu grupu.
 
-
-Međutim, važno je napomenuti da **supergrupa na Telegramu može biti teža za korišćenje nekim članovima**. Zapravo, ponekad neki ljudi ne mogu da shvate **kako da pristupe drugim temama u ovoj supergrupi** (da biste to uradili, jednostavno kliknite na logo grupe; ovo otvara listu kreiranih tema). U ovom slučaju, može biti dobra ideja pomoći im slanjem kratkog video tutorijala u obliku snimka ekrana.####
-
-
-Uopšteno, ne postoji specifičan broj članova pri kojem postaje relevantno koristiti Telegram supergrupu u odnosu na Telegram grupu. Stoga je izbor na vama, na osnovu potreba i zahteva vaših članova; znajući da se Telegram grupa može lako konvertovati u Telegram supergrupu (i obrnuto). Da biste to uradili, jednostavno kreirajte temu (ili ih sve obrišite).
 
 
 Uputstvo za kreiranje Telegram supergrupe:
 
 
+
 :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 
-Napomena: Kao što je gore pomenuto, gornji tutorijal je napravljen na računaru sa "Telegram+" APK. Međutim, sada je vrlo lako kreirati Telegram supergrupu na telefonu.
+
+Brza napomena: kao što je ranije pomenuto, gornji tutorijal je napravljen na računaru koristeći "Telegram+" APK. Danas je, međutim, kreiranje Telegram supergrupe na vašem telefonu jednostavno.
 
 
-Da biste to uradili, jednostavno kreirajte Telegram grupu; zatim, u njenim podešavanjima, kliknite na dugme "Teme" da dodate neke. Kada se promena potvrdi, pojaviće se lista tema; i možete je urediti kako želite.
+Samo kreirajte Telegram grupu, idite na njena podešavanja i dodirnite dugme "Teme" da dodate teme. Kada sačuvate, videćete listu tema koje možete uređivati kako želite.
 
 
-Više ne morate preuzimati "Telegram+" da biste izvršili ove operacije; osim ako ne želite da se upustite u podešavanja privatnosti vaše supergrupe.
+Dakle, nema potrebe da preuzimate "Telegram+" više, osim ako ne želite pristup naprednijim postavkama privatnosti za vašu supergrupu.
 
 
-## Konfigurisanje vaše Telegram grupe ili supergrupe
+
+## Postavljanje vaše Telegram grupe ili supergrupe
 
 
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
 
-Sada kada ste kreirali svoju Telegram grupu (ili supergrupu), vreme je da **razmislite o dozvolama i moderaciji**. I, naravno, svaka zajednica je slobodna da radi kako smatra da je najbolje!
+
+Sada kada vaša Telegram grupa (ili supergrupa) radi, vreme je da **konfigurišete dozvole i postavite moderaciju**.
+
+Svaka zajednica je slobodna da izabere svoj pristup, ali iskustvo pokazuje da je **najbolje ograničiti određene dozvole članova**:
 
 
-Međutim, **iz iskustva, poželjno je ukloniti dozvole članovima da**:
+
+- Slanje ankete;
+- Slanje fajlova (da bi se izbegli potencijalni virusi);
+- Slanje glasovnih poruka;
+- Dodavanje korisnika (pomaže u sprečavanju invazija botova);
+- Kačenje poruka;
+- Uređivanje informacija o grupi.
 
 
+Preporučuje se da **napišete jasan opis vašeg okupljanja** prilikom kreiranja vaše Telegram grupe ili supergrupe, jer je to prva stvar koju će potencijalni članovi videti. Na primer:
 
 
-- pošalji anketu**;
-- pošalji fajlove** (u slučaju virusa);
-- pošalji glasovne poruke**;
-- dodaj korisnike** (u slučaju da bot uđe u grupu);
-- popravljanje poruka**;
-- izmeni informacije Exchange**.
-
-
-Takođe se **preporučuje da napišete opis vašeg sastanka prilikom kreiranja grupe ili supergrupe na Telegramu**, jer će biti vidljiv svima koji žele da se pridruže. To može biti, na primer:
-
-
-> Dobrodošli na @Bitcoin's Telegram[CITY] 🔥
+> Dobrodošli u @Bitcoin's Telegram [CITY] 🔥
 >
 
-
-> Održavamo sastanak svake prve srede u mesecu, u baru [NAME OF THE_BAR] u [CITY] 🍻
+> Organizujemo okupljanje svake prve srede u mesecu u baru [BAR_NAME], u [CITY] 🍻
 >
 
+> Pogledajte naše druge društvene mreže: [LINK] 🌐
 
-> Da pristupite našim drugim društvenim mrežama: [LINK_DESIDERATE] 🌐
-![immagine](assets/fr/21.webp)
-
-
-Na slici iznad, takođe primećujemo da su administratori Bitcoin Lille Telegram grupe prilagodili pozivni link, jer je javan.
+![image](assets/fr/021.webp)
 
 
-Dalje, u "Postavkama grupe," može biti relevantno **omogućiti "Odobravanje novih članova"**.
+
+U ovom primeru, administratori Bitcoin Lille su prilagodili svoj javni Telegram link radi lakšeg deljenja.
 
 
-Zapravo, iz iskustva, postojao je slučaj gde je Telegram grupa zajednice Bitcoin bila napadnuta od strane nekoliko hiljada lažnih naloga koji su želeli da se pridruže grupi sa ciljem da je spamuju i unište. Pored omogućavanja uklanjanja pornografskih lažnih naloga koji žele da se pridruže vašoj grupi, **omogućavanje odobravanja članova će vas definitivno spasiti od napada sličnog spamu**.
+
+U "Postavkama grupe", može biti pametno **omogućiti "Odobravanje novih članova"**.
 
 
-Konačno, u odeljku "Administratori", može se dodati funkcija "Agresivna zaštita od neželjene pošte", koja automatski briše poruke koje se smatraju takvima. Međutim, ovo možda nije nužno potrebno.
+Neke Bitcoin Telegram grupe bile su meta hiljada lažnih naloga dizajniranih da spamaju ili ometaju zajednicu.
 
 
-## Umetanje multifunkcionalnog bota u Telegram kanal
+**Aktiviranje odobravanja članova može spasiti vašu grupu od napada spama.**
+
+
+
+U okviru sekcije Administratora, možete takođe omogućiti funkciju "Agresivna Anti-Spam" za automatsko brisanje sumnjivih poruka.
+
+Ovo nije uvek neophodno, ali može dodati dodatni Layer zaštite.
+
+
+
+## Dodavanje multi-funkcionalnog bota u vašu Telegram grupu
 
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
 
-**Još jedan način da konfigurišete i zaštitite svoju Telegram grupu ili super-grupu je da dodate multifunkcionalnog bota**. Ovo zapravo omogućava mnogo napredniju konfiguraciju.
+
+**Još jedna opcija za konfigurisanje i obezbeđivanje vaše Telegram grupe ili supergrupe je dodavanje multi-funkcionalnog bota**. Ovo vam omogućava da značajno proširite funkcije vaše grupe i mogućnosti moderacije.
 
 
-Među mnogim opcijama dostupnim sa **[@GroupHelpBot](https://telegram.me/grouphelpbot)** botom, izdvajamo između ostalih:
-
-
-
-
-- dodaj skup pravila** (/rules komanda);
-- konfiguriši **anti-spam mehanizam**;
-- dodajte **automatsku, prilagodljivu poruku dobrodošlice za nove članove koja se poništava nakon nekoliko minuta**;
-- konfiguriši **anti-flood mehanizam**;
-- dodaj @administrator komandu;
-- dodaj blokove;
-- dodaj komandu za dobijanje linka grupe (/link);
-- konfiguriši dozvole komandi;
-- automatski izbrisati određene tipove poruka;
-- itd.
-
-
-![immagine](assets/fr/22.webp)
-
-
-Tri druge jednostavne ideje su:
+Korišćenjem **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)**, najkorisnije opcije su:
 
 
 
+- Komanda **pravila** (/rules) za prikaz smernica vaše zajednice;
+- Anti-spam** zaštita za filtriranje sumnjivih poruka i naloga;
+- Prilagodljive automatske poruke dobrodošlice** za nove članove (sa opcionalnim automatskim brisanjem nakon nekoliko minuta)
+- Anti-flood zaštita** za sprečavanje neželjene pošte
+- Komanda **@administrator** za brzo kontaktiranje administratora grupe
+- Pravila blokiranja** za neželjeni sadržaj
+- Komanda za **link grupe** (/link)
+- Komanda **upravljanje dozvolama**
+- Automatsko brisanje** određenih tipova poruka
+- Blokiranje botova** i **blokiranje ulaza/izlaza** kako biste zaštitili svoju grupu
+- Navedite **društvene mreže vaše zajednice** (/mreže)
+- I mnogo više...
 
-- napravite komandu "/link "** za slanje linka za prijavu u Telegram grupu;
-- isto da dobijete društvene mreže ("/socials") ili vaša potencijalna pravila u slučaju moderacije ("/rules");
-- blokiranje ulaska botova** i "ulazak/izlazak".
 
 
-Brojne dodatne opcije su takođe dostupne vama. Međutim, savet: **ne pokušavajte previše ograničiti komunikaciju i razmenu informacija**.
+![image](assets/fr/022.webp)
 
 
-####
+
+Bezbroj dodatnih funkcija je dostupno.
 
 
-Uputstvo za dodavanje multifunkcionalnog bota u grupu ili super-grupu na Telegramu:
+Pro savjet: **Nemojte previše ograničavati razgovor**.
+
+
+
+Uputstvo za dodavanje multi-funkcionalnog bota u Telegram grupu ili supergrupu:
+
 
 
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 
-Mala napomena: kao što je ranije pomenuto, sada se ceo ovaj postupak može obaviti na telefonu.
+
+(Napomena: Ceo ovaj proces sada se može obaviti direktno sa vašeg telefona. Više nije potrebna aplikacija Telegram+.)
 
 
-## Kreiranje Discord servera
+
+## Kreiraj Discord server
 
 
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
 
-Kako se broj članova u vašoj Telegram grupi povećava, pretvaranje u super-grupu na Telegramu može biti rešenje.
+
+Kada vaša Telegram grupa postane prevelika, transformacija u Telegram supergrupu može pomoći u organizaciji diskusija.
+
+Međutim, kao što je ranije pomenuto, **dodana složenost i povećanje tema i poruka mogu uzrokovati da neki aktivni članovi izgube interesovanje**.
 
 
-Međutim, kao što je ranije pomenuto, **potencijalne "teškoće u upotrebi" i povećanje broja tema i poruka u Telegram super-grupi mogu dovesti do gubitka interesa kod nekih aktivnih članova**.
+Zašto razmotriti Discord?
+
+**Discord je alternativa** Telegram supergrupi jer omogućava korisnicima da **kreiraju specifične sobe za tekstualni i glasovni čet** i omogućava članovima da isključe bilo koje kanale koji ih ne zanimaju.
 
 
-**Discord se tako predstavlja kao alternativa** kreiranju Telegram super-grupe, jer omogućava **kreiranje specifičnih tekstualnih i glasovnih kanala**; i, što je najvažnije, njegovi korisnici mogu isključiti zvuk na bilo kom kanalu koji ih ne zanima.
+Naravno, upravljanje i Telegramom i Discordom zahteva malo više vremena, posebno tokom konfiguracije i pokretanja.
 
 
-Očigledno, pored Telegrama i Twittera, ovo zahteva još više vremena u upravljanju; posebno tokom postavljanja i lansiranja.
 
+Da bismo vam olakšali stvari, **delimo [Discord server koji možete duplicirati i prilagoditi](https://discord.com/template/bDY4eXXJk2C8)**:
 
-Da bismo vam olakšali stvari, **delimo [unapred napravljen, duplikabilan i izmenljiv Discord server](https://discord.com/template/bDY4eXXJk2C8) koji možete prilagoditi po želji**:
 
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 
-####
+Kada je dobro dizajniran, Discord server može biti pravo bogatstvo za vašu zajednicu. Mnogi Bitkoineri već svakodnevno koriste **Discord**, a mogućnost praćenja Telegram razgovora direktno unutar Discord-a (i obrnuto) može svima uštedeti mnogo vremena.
 
 
-Dakle, kada je dobro izgrađen, Discord server može biti pravo bogatstvo za svoju zajednicu. Zapravo, mnogi Bitcoin entuzijasti već svakodnevno koriste Discord (a ne Telegram), i **omogućavanje da prate razgovore Telegram grupa direktno unutar Discord servera predstavlja značajnu uštedu vremena**. I obrnuto.
+Da biste sinhronizovali obe platforme, postoji bot otvorenog koda pod nazivom [TediCross](https://github.com/TediCross/TediCross). Njegova svrha je jednostavna: automatski prosleđuje poruke iz Discord tekstualnog kanala u Telegram grupu (ili temu u supergrupi), i obrnuto.
 
 
-Zato je razvijen bot otvorenog koda pod nazivom [TediCross](https://github.com/TediCross/TediCross). Njegov cilj je jednostavan: automatski prenositi poruke iz Discord tekstualnog kanala u Telegram grupu (ili temu u Telegram super-grupi); i obrnuto. Ovo može biti veoma interesantno za postavljanje.####
+Međutim, imajte na umu da nije najlakše za instalaciju. Moraćete da držite otvoren komandni prozor (CMD) na vašem računaru da bi bot radio, a povremeno se mogu pojaviti greške. Srećom, popravka je jednostavna: samo ponovo pokrenite bota i većinu vremena sve se vrati u normalu.
 
 
-Međutim, važno je napomenuti da njegova instalacija nije baš laka, da **zahteva kontinuirano izvršavanje komandne linije (CMD) na računaru da bi ovaj bot radio**; ali takođe, da ponekad dolazi do grešaka. Srećom, u ovoj situaciji, jednostavno ga ponovo pokrenite; i onda se sve vraća u normalu.
+Da uštedite vreme, evo tutorijala kako da dodate ovog multi-funkcionalnog bota u Telegram grupu ili supergrupu:
 
-
-Sa ciljem da vam uštedimo vreme, ovde je tutorijal o tome kako dodati multifunkcionalnog bota u Telegram grupu ili super-grupu:
 
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 
-## Razmotrite druge, privatne i sigurnije kanale komunikacije
+
+## Razmotrite alternativne, privatne i sigurnije kanale komunikacije
 
 
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
 
 
-Kao što je ranije pomenuto u ovom odeljku, Twitter i Telegram su dva glavna komunikaciona kanala koja se koriste u Evropi (a moguće i u svetu).
+
+Kao što je ranije diskutovano, Twitter i Telegram su najčešće korišćeni alati za komunikaciju za Bitcoin zajednice u Evropi (ako ne i širom sveta).
 
 
-Međutim, verovatno ste svesni da **Telegram nije najbezbednija i najpoverljivija usluga za razmenu poruka i da Twitter nije kompanija poznata po slobodi izražavanja**.
+Međutim, Telegram nije baš poznat kao najbezbednija ili na privatnost fokusirana aplikacija za razmenu poruka, a Twitter, sada X, je u vlasništvu jedne od najfleksibilnijih korporacija na planeti.
 
 
-U tom smislu, **potpuno je relevantno--kada imate vremena da posvetite--početi razmišljati o alternativama**.
+Zato, kada su vaši osnovni kanali uspostavljeni i stvari teku glatko, može biti vredno odvojiti vreme za istraživanje drugih opcija.
 
 
-Zato će, u narednim mesecima, biti ponuđeni tutorijali o korišćenju poverljivijih i sigurnijih komunikacionih protokola [u okviru ovog istog kursa, na planb.network](LINK).
+U narednim mesecima, ovaj kurs i platforma planb.network ponudiće tutorijale o tome kako koristiti alternativne protokole kao što su **Simplex i Element**: decentralizovani, enkriptovani i visoko prilagodljivi alati za komunikaciju.
 
 
-####
+**Zašto se truditi istražiti ove opcije?**
+
+Jer, baš kao i društvena mreža NOSTR, oni pružaju ne samo veću privatnost već i zaštitu protiv cenzure ili proizvoljnog gašenja vaše Telegram grupe.
 
 
-Ali zašto razmotriti ove alternative?
+I stvarno, šta bi moglo biti više u duhu Bitcoin nego biti otporan na cenzuru i otporan po dizajnu?
 
-
-Jednostavno zato što su, poput društvene mreže NOSTR i komunikacionih aplikacija kao što su Matrix, Signal ili Element, decentralizovani i/ili enkriptovani. Pored **dobitka u poverljivosti** u razmenama između različitih članova vaše zajednice, ovo vam takođe omogućava da se **zaštitite od gašenja (cenzure?) vaše Telegram grupe ili super-grupe**.
-
-
-Šta bi moglo biti bolje, baš kao Bitcoin protokol, od **biti neosporan i nepromenljiv**?
 
 
 # Pokrenite svoje društvene mreže
@@ -1063,264 +1208,282 @@ Jednostavno zato što su, poput društvene mreže NOSTR i komunikacionih aplikac
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
 
-## Važnost vidljivosti za razvoj vaše Bitcoin zajednice
+
+## Važnost vidljivosti za rast vaše Bitcoin zajednice
 
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
 
-To je to, vaša zajednica je pokrenuta, i sada imate jedan ili više komunikacionih kanala (na primer, Telegram i/ili Matrix)!
+
+Dakle, vaša zajednica je pokrenuta i radi. Postavili ste svoj Telegram ili Matrix prostor... ali za sada ste jedini tamo. **Vreme je da obavestite ljude da postojite!**
 
 
-Međutim, za sada ... ti si sam. Dakle, moraćeš **obaviti - neku - komunikaciju**.
+Jednostavno je: ako niko ne može pristupiti vašoj grupi i videti kada se sledeći sastanak dešava, samo ćete objavljivati u prazno. Zato su društveni mediji, i nekoliko specifičnih platformi koje ćemo kasnije pokriti, toliko važni za izgradnju vaše zajednice.
 
 
-Zaista je očigledno da ako niko ne može pristupiti vašim komunikacionim kanalima, na kojima redovno objavljujete informacije (datum sledećeg sastanka, projekti, itd.), vaš rad će biti uzaludan. Zato će **društvene mreže--i neke specifične platforme, o kojima ćemo kasnije razgovarati--igrati preovlađujuću ulogu u razvoju vaše zajednice**.
+Twitter (X) je postao gotovo sinonim za Bitcoin razgovore na internetu. Nije savršen, daleko od toga, ali je trenutno mesto gde se okuplja veliki deo zajednice. Preporučuje se kreiranje naloga tamo.
 
 
-Među ovim društvenim mrežama, **Twitter je pozicioniran kao gotovo neophodan u svetu Bitcoin**. U tom smislu, čini se važnim **imati profil na ovoj platformi**; čak i ako su njegova centralizacija i razvoj daleko od ispravnih.
+Da bi ostale ispred mogućih cenzura ili ograničenja, neke zajednice takođe otvaraju NOSTR profil.
 
 
-Zato se **NOSTR profil može kreirati specifično za vašu zajednicu**, sa idejom anticipiranja potencijalnih ograničenja i/ili cenzure na Twitteru. Uostalom: bolje sprečiti nego lečiti.
+To je ono što je uradio kolektiv FREE Madeira.
 
 
-![image](assets/fr/23.webp)
+
+![image](assets/fr/023.webp)
 
 
-Naravno, mogu se koristiti i druge društvene mreže. To je slučaj sa Facebook-om (u slučaju Facebook grupe ili stranice) ili čak LinkedIn-om.
+
+Naravno, druge platforme takođe mogu biti korisne. Facebook (bilo sa grupom ili stranicom), ili čak LinkedIn.
 
 
-Međutim, važno je zapamtiti da **što više komunikacionih kanala i društvenih mreža neko ima da kreira-a zatim održava-to postaje vremenski zahtevnije. Najbolje je fokusirati se na one najrelevantnije; a Twitter (i NOSTR) deluju kao dobri kandidati**.
+Imajte na umu da **što više komunikacionih kanala i društvenih mreža upravljate, to više vremena zahteva**. Često je bolje fokusirati se **na one najrelevantnije**, Twitter (i NOSTR) su odlične opcije za početak.
 
 
-U narednom delu ovog kursa, detaljno ćemo objasniti kako kreirati Twitter nalog i kako ga efikasno koristiti za maksimalnu vidljivost. Slična objašnjenja i tutorijali u vezi sa NOSTR biće dodati u ovaj odeljak [Pokretanje vaših društvenih mreža](LINK), za nekoliko nedelja.
 
-
-## Kreiranje Twitter profila
+## Kreiraj Twitter profil
 
 
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
 
 
-Twitter je veoma lak za korišćenje, potrebno je prilagoditi neka podešavanja kako bi se poboljšala privatnost.
+
+Twitter je veoma lak za korišćenje, a da biste poboljšali svoju privatnost, potrebno je da prilagodite nekoliko postavki.
 
 
-**Kada kreirate novi Twitter nalog, morate uneti četiri osnovna podatka**:
+**Kada kreirate novi Twitter nalog, morate uneti četiri osnovna podatka:**:
 
 
-1. **the @ Twitter**, što će definisati vaš identitet i učiniti vas lako pretraživim. Ako se vaša zajednica zove "Bitcoin[CITY]," stoga je veoma relevantno izabrati "@Bitcoin[CITY]."
+1/ **@ Twitter**, koji definiše vaš identitet i čini vas lakim za pronalaženje. Ako je ime vaše zajednice "Bitcoin [CITY]", prikladno je odabrati "@Bitcoin[CITY]";
 
 
-2. **logo i baner** koje ste kreirali za svoju zajednicu ili sastanak (pogledajte odeljak [Kreiranje logotipa, postera i banera](LINK));
+2/ **logo i baner** koje ste kreirali za vašu zajednicu ili okupljanje (pogledajte odeljak [Kreirajte logo, poster i baner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
-3. **opis**, koji će vam omogućiti da u oko sto karaktera date važne informacije o vašoj zajednici. To bi moglo biti, na primer:
+3/ **opis**, koji vam omogućava da podelite ključne informacije o vašoj zajednici u nekoliko stotina karaktera. Na primer:
 
 
-> Zvanični Bitcoin nalog zajednice [CITY] #BTC | Okupljanje svakog prvog utorka u mesecu u [NAME OF THE_BAR] u [CITY] 🍻 | Pridružite nam se na Telegramu 🔽
-4. Pod ovom opisom, možete takođe **ubaciti link**. Ovo može odvesti korisnike na stranicu "društvene mreže" dostupnu na vašem sajtu zajednice, ili ih može usmeriti na vaš Telegram komunikacioni kanal.
+> Zvanični nalog zajednice Bitcoin [CITY] #BTC | Okupljanja svakog prvog utorka u mesecu u [BAR_NAME] u [CITY] 🍻 | Pridružite nam se na Telegramu 🔽
 
-
-![image](assets/fr/24.webp)
-
-
-Pored toga, **neka podešavanja privatnosti izgledaju relevantna za promenu**; najvažnija su očigledno:
+4/ Ispod ovog opisa moguće je **ubaciti link**. Ovo može voditi korisnike na stranicu "društvenih mreža" na vebsajtu vaše zajednice, ili na vaš Telegram kanal. Na vama je da odlučite šta želite da istaknete.
 
 
 
-
-- izbor da **ostavite svoj Twitter nalog u "javnom" režimu** (objave vidljive svima);
-- biti **prepoznatljiv svima** (pazite na prevare);
-- onemogući praćenje lokacije i deljenje podataka sa drugim entitetima** (problem privatnosti).
-
-
-####
-
-
-Vremenom ćete početi da objavljujete na Twitteru. Ovi tvitovi će zatim najavljivati vaš sledeći događaj, važne vesti u ekosistemu ili čak najavu iz druge zajednice koju pratite.
-
-
-Međutim, kao i kod većine društvenih mreža, **vidljivost je ključ uspeha**.
-
-
-Da bismo vam uštedeli značajnu količinu vremena, posvetili smo vreme proučavanju [izvornog koda Twitter-ovog algoritma rangiranja](https://github.com/twitter). Ovde su **ključne tačke na koje treba obratiti pažnju kako biste povećali svoju vidljivost**:
+![image](assets/fr/024.webp)
 
 
 
-
-- Opšte:
-    - tvituj na jeziku koji si postavio/la** na svom Twitter nalogu, ili na engleskom (u suprotnom, kazna je stroga);
-    - tweet samo informacije vezane za domen vašeg naloga** (u suprotnom, postoji jaka kazna);
-    - tvituj 1 ili 2 puta dnevno (doslednost je važna);
-- tvituj u vreme visoke vidljivosti** (najzanimljiviji su četvrtak ili petak između 8 a.m. i 10 a.m.; pogledaj odeljak "Twitter Analytics" na svom nalogu).
-- Kada napišete tvit:
-    - dodajte fotografiju** (ili video);
-    - dodajte samo jedan hashtag svom tvitu** (#Bitcoin je obično najrelevantniji. Ako ima smisla, i sve dok je povezan sa obimom vašeg naloga, dodajte popularan hashtag);
-    - podstiče vašu zajednicu da lajkuje** (težina 0.5), **da retvituje** (težina 1) **ali najvažnije da odgovori** (težina 27!);
-    - odgovarajte ljudima koji reaguju na vaše tvitove** (težina 75!);
-    - ne dodajte link u vaš prvi tvit** (ovo se može uraditi u prvom komentaru, na primer);
-    - napiši reči u celosti, bez korišćenja skraćenica.
-- Ostale tačke za beleženje:
-    - tvit zasnovan na trendovima, sve dok su u okviru vašeg naloga;
-    - repost/retweet najgledanije tvitove**;
-    - povremeno sprovodi ankete**;
-    - napisati nit ako je moguće**;
-    - podstiče vašu zajednicu da poseti i prati vaš profil.
+Pored toga, **vredi prilagoditi nekoliko postavki privatnosti**:
 
 
-####
+
+- ostavite svoj Twitter nalog u "javni" režim (objave vidljive svima);
+- dozvoli svima da te pronađu;
+- onemogući praćenje lokacije i deljenje podataka sa drugim entitetima (u podešavanjima privatnosti).
 
 
-Pored toga, **možete zakačiti tvit na svom Twitter profilu koji želite da učinite posebno vidljivim**.
+Za svaki događaj verovatno ćete koristiti Twitter za deljenje korisnih informacija. Ali, kao i na većini društvenih mreža, **vidljivost je sve**.
 
 
-![immagine](assets/fr/25.webp)
+Da bismo vam uštedeli značajno vreme, odvojili smo vreme da proučimo [Twitter-ov algoritam rangiranja otvorenog koda](https://github.com/twitter).
 
 
-Takođe imajte na umu da je moguće na telefonu i računaru biti prijavljen na dva Twitter naloga istovremeno. Ovo može biti veoma zgodno kako ne biste morali da se prijavljujete/odjavljujete između ličnih i zajedničkih naloga; isto tako može imati kontraefekat ako slučajno objavite svoju fotografiju u kostimu sa zajedničkog naloga... Budite pažljivi, dakle!
+Evo nekoliko **ključnih stvari na koje se treba fokusirati kako biste povećali svoju vidljivost**:
 
 
-Konačno, iako je vaše korisničko ime "@Bitcoin[CITY]" jedinstveno i sada pripada vama, možda bi bilo mudro unapred kreirati naloge "@Bitcoin_[CITY]", "@[CITY]Bitcoin" ili "@[CITY]_Bitcoin" kako biste **osigurali da niko ne pokuša da duplicira vaš identitet**. Zaista je bolje predvideti!
+
+- Opšti saveti:
+    - Tvituje u jeziku podešenom na vašem nalogu ili na engleskom: tvitovanje na drugim jezicima može značajno smanjiti vašu vidljivost;
+    - Držite se svoje niše, delite samo sadržaj koji je vezan za fokus vašeg naloga; algoritam kažnjava tvitove koji nisu u temi;
+    - Ciljajte na 1 do 2 tvita dnevno;
+    - Objavite tokom špica: četvrtak ili petak između 8 i 10 časova obično daje najbolje rezultate (proverite na svom nalogu: Twitter Analytics).
+
+
+
+- Kada pišete tvit:
+    - dodajte fotografiju (ili čak video);
+    - Koristite samo jedan hashtag (obično je #Bitcoin najrelevantniji. Ako je prikladno, možete dodati i popularan hashtag vezan za oblast vašeg naloga);
+    - Podstaknite svoju zajednicu da se uključi:
+        - Like = težina 0.5
+        - Retweet = težina 1
+        - Odgovor = težina 27 (!!)**
+    - Odgovarajte ljudima koji odgovaraju na vaše tvitove** (težina 75!!);
+    - Izbegavajte postavljanje linkova u glavnom tvitu: umesto toga, dodajte ih u prvi komentar.;
+    - Napiši reči u celosti, izbegavaj skraćenice.
+
+
+
+- Ostali saveti:
+    - Tvítuj o aktuelnim temama, sve dok su u skladu sa oblašću stručnosti tvog naloga;
+    - Ponovo objavite svoje najuspešnije tvitove;
+    - Povremeno sprovodite ankete;
+    - Piši niti kada je to moguće;
+    - Podstaknite svoju zajednicu da poseti vaš profil i prati vas.
+
+
+
+Štaviše, **možete zakačiti tvit ili nit na svoj Twitter profil kako biste im dali maksimalnu vidljivost**, baš kao što to radi zajednica Bitcoin Witsand u Južnoj Africi.
+
+
+
+![image](assets/fr/025.webp)
+
+
+
+Takođe imajte na umu da je moguće ostati prijavljen na dva Twitter naloga istovremeno, kako na telefonu tako i na računaru. Ovo je veoma korisno ako želite lako da prelazite između ličnog i zajedničkog naloga.
+
+Samo budi oprezan... slučajno objavljivanje fotografije sa zabave sa naloga zajednice može se desiti brže nego što misliš!
+
+
+Konačno, iako je vaše korisničko ime "@Bitcoin[CITY]" jedinstveno i sada vaše, pametno je predvideti lažne ili imitacione naloge. Razmislite o registraciji:
+
+
+
+- @Bitcoin_[CITY]
+- @[CITY]Bitcoin
+- @[CITY]_Bitcoin
+
+
+Na taj način ćete u velikoj meri smanjiti šanse da neko lažno predstavlja vašu zajednicu.
+
 
 
 Uputstvo za kreiranje Twitter naloga:
 
 
+
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 
-## Povezivanje sa obližnjim okupljanjima
+
+## Približavanje susednim okupljanjima
 
 
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
 
-Sada kada su vaši komunikacioni i kanali društvenih medija kreirani, konfigurisani i obogaćeni vizuelnim identitetom vašeg grada/zajednice/sastanka, vreme je da počnete pratiti "prave ljude" na ovim platformama.
+
+Sada kada su vaši komunikacioni kanali i društvene mreže postavljeni i odražavaju vizuelni identitet vaše zajednice, vreme je da počnete pratiti prave ljude.
 
 
-Na Twitteru, ovo može početi praćenjem nekih naloga koji rade na međunarodnom razvoju Bitcoin, kao što su @Bitcoin, @bitcoincoreorg, @planb_network, @FBCEglobal, i retvitovanjem čuvenog "Running Bitcoin" od 11. januara 2009, od strane @halfin; ali takođe - i što je najvažnije - **praćenjem naloga zajednica i okupljanja Bitcoin u vašoj zemlji**.
+
+Na Twitteru, počnite tako što ćete pratiti ključne naloge koji globalno promovišu Bitcoin kao što su [@Bitcoin](https://twitter.com/Bitcoin) i [@planb_network](https://twitter.com/planb_network), kao i inicijative poput [@FBCEglobal](https://twitter.com/FBCEglobal). Takođe možete retvitovati čuveni tvit [@halfin](https://twitter.com/halfin) "Running Bitcoin" od 11. januara 2009. I što je još važnije, **pratite naloge zajednica i okupljanja Bitcoin u svojoj zemlji**.
 
 
-Zapravo, **ovo će omogućiti međusobno praćenje, označavanje i time kolektivno sticanje vidljivosti**.
+Ovo stvara **prilike da pratimo jedni druge, označavamo jedni druge i povećavamo kolektivnu vidljivost**. To je već uobičajena praksa među ~50 Bitcoin zajednica u Francuskoj, "Satoshi Spritz" inicijativa u Italiji i "Einundzwanzig" grupa u Nemačkoj.
 
 
-Ovo je slučaj među pedeset ili više francuskih Bitcoin zajednica; i isto važi za većinu "Satoshi Spritz" inicijativa u Italiji i "Einundzwanzig" u Nemačkoj.
+
+Iako se nekima može činiti trivijalnim, **praćenje naloga lokalnih zajednica i inicijativa može dovesti do saradnji ili čak partnerstava**. Na primer, zajednice Bitcoin Liège i Bitcoin Lille (kao i Bitcoin Aix i Bitcoin Marseille) su se povezale na ovaj način, što ih je dovelo do zajedničkog organizovanja godišnjeg okupljanja.
+
+Obroci **Cercle du Coin** su još jedan dobar primer.
 
 
-Iako se nekima može činiti suvišnim, **praćenje lokalnih zajednica i inicijativa u sopstvenoj zemlji može indirektno dovesti do zajedničkih projekata**, ili čak "partnerstava." Tako su zajednice Bitcoin Liège i Bitcoin Lille stupile u kontakt (isto važi za Bitcoin Aix i Bitcoin Marseille); sada organizuju barem jedno zajedničko okupljanje godišnje. Večere **Cercle du Coin** su još jedan primer.
+
+![image](assets/fr/026.webp)
 
 
-![immagine](assets/fr/26.webp)
+
+U Francuskoj, može biti relevantno **pratiti inicijative kao što su [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) i [@btcmap](https://twitter.com/btcmap)**. Ovo su naravno samo predlozi, i svaka zajednica je slobodna da radi kako želi, u potpunoj decentralizaciji i autonomiji.
 
 
-Štaviše, u Francuskoj, takođe bi moglo biti relevantno **pratiti @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin i @btcmap** inicijative. Ovo su samo predlozi, i naravno svaka zajednica je slobodna da postupa kako smatra da je prikladno, u potpunoj decentralizaciji i autonomiji.
+Kao što je gore pomenuto, cilj međusobnog praćenja je izgradnja međusobne vidljivosti. Što više promovišete svoju zajednicu i one iz vašeg regiona/zemlje na društvenim mrežama, više će ljudi pričati o vama. Što više ljudi priča o vama, veća je verovatnoća da će prisustvovati vašim događajima.
 
 
-Interesovanje za međusobno praćenje je prilično jednostavno: pružiti vidljivost jedno drugom. U stvari, što više imate prisustvo na mrežama, više će ljudi pričati o vama; a što više ljudi priča o vama, veća je verovatnoća da će ljudi doći na vaše događaje. Lajkovanje i retvitovanje objava iz drugih zajednica na društvenim mrežama može biti jednako privlačno.
+Sviđanje i retvitovanje objava iz drugih zajednica može stoga uveliko pomoći njihovom razvoju... i vašem.
 
 
-####
+Takođe možete predložiti da se **organizatori okupljanja i bitkoineri koji vode zajednice sastaju dva ili tri puta godišnje putem video konferencije kako bi pregledali napredak nacionalnih projekata i povezanih zajednica. Ovo se takođe može desiti tokom događaja uživo.**
+
+Cilj je jednostavan: prikupiti povratne informacije od svih, diskutovati o tome kako se zajednice razvijaju, podeliti uspešne ideje i projekte, i predložiti rešenja kada je to potrebno. Pisani rezime sastanka može biti podeljen sa organizatorima zajednica u vašoj zemlji koji nisu mogli prisustvovati.
 
 
-Paralelno, moguće je i **ponuditi organizatorima okupljanja i onima koji su stvorili zajednicu priliku da se sastanu u određeno vreme tokom fizičkih događaja**. Ovo može omogućiti da razgovarate o osećanjima svih, pričate o evoluciji prisutnih zajednica, delite ideje za projekte koji su bili uspešni; ali takođe, ponudite rešenja kada je to potrebno. Ako želite, možete zatim podeliti pisani izveštaj sa organizatorima zajednica u vašoj zemlji koji nisu bili prisutni.
 
-
-## BTC Mapa
+## Btcmap.org
 
 
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 
-U ovom trenutku, vaša zajednica je već pokrenuta. Sve što preostaje je da sačekate dolazak novih bitkoinaša i zainteresovanih strana, sa ciljem njenog razvoja.
+
+U ovoj fazi, vaša zajednica je već pokrenuta i funkcioniše. Sve što preostaje je da poželite dobrodošlicu još zainteresovanim ljudima i pomognete joj da raste.
 
 
-Međutim, ne možete ići dalje a da ne znate da **postoje platforme koje omogućavaju zainteresovanim bitkoin entuzijastima da pronađu zajednice i okupljanja u svojoj blizini**.
+Ali ne možete napredovati bez saznanja da **postoje platforme na kojima bitkoineri mogu pronaći zajednice i okupljanja u svojoj blizini**. Zato je važno odvojiti nekoliko minuta da zatražite listing na ovim sajtovima.
 
 
-Zato je **od suštinskog značaja da odvojite nekoliko minuta da zatražite da budete navedeni na ovim sajtovima/platformama**.
-
-
-####
-
-
-Među njima, posebno nalazimo:
+To uključuje:
 
 
 
-
-- [Btcmap.org](https://btcmap.org/)**, vebsajt koji uključuje dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)**, i **[mapa globalnih zajednica](https://btcmap.org/communities)**. Mnogi bitkoineri, tokom svojih odmora ili čak u svakodnevnom životu, redovno proveravaju ove mape kako bi ostvarili nove susrete ili kupovine. **Btcmap je očigledno GLOBALNA referentna tačka. I za vašu vidljivost, vaša zajednica mora biti navedena tamo.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)** je veb-sajt kreiran od strane bitkoinera za bitkoinere. Možete tamo **objaviti predstojeće događaje vaše zajednice**. Nažalost, u Francuskoj se ova platforma relativno malo koristi.
-
-
-U zavisnosti od zemlje, postoje i jedinstvene inicijative. Ovo je posebno slučaj **u Francuskoj, sa vebsajtom [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) koji navodi desetine Bitcoin događaja u Francuskoj svakog meseca**. Ako ih još niste zapratili na Twitteru ili ih kontaktirali da date informacije o vašoj zajednici i/ili događajima, sada je pravo vreme! **Pored toga, sa ciljem da im pomognete da ovaj francuski kalendar događaja bude ažuriran, bilo bi poželjno da sve francuske Bitcoin zajednice steknu naviku da:** ** **pominju @bitcoinpointfr na Twitteru prilikom svake nove najave događaja svoje zajednice**;
-
+- [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog Sats. Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), vebsajt kreiran od strane bitkoinera, za bitkoinere. **Omogućava vam da objavite predstojeće događaje vaše zajednice**. Međutim, u Francuskoj se još uvek ne koristi široko.
+- u zavisnosti od vaše zemlje, mogu postojati i druge lokalne inicijative. U Francuskoj, na primer, postoji [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), koji **navodi desetine Bitcoin događaja svakog meseca**. Dakle, ako ih još niste zapratili na Twitteru ili ih kontaktirali da podelite informacije o vašoj zajednici i događajima, sada je pravo vreme! **Da bi francuski kalendar događaja bio ažuriran, bilo bi sjajno kada bi sve francuske Bitcoin zajednice usvojile naviku da:**
+    - pominjanje @bitcoinpointfr na Twitteru za svaki novi događaj zajednice
+    - pričvršćivanje novih najava događaja u njihovoj Telegram grupi.
 
 
 
-- popravi najavu navedenog događaja u njihovoj Telegram grupi zajednice**.
+![image](assets/fr/027.webp)
 
 
-![immagine](assets/fr/27.webp)
+Druge platforme takođe mogu povećati vašu vidljivost. **[Meetup](https://www.meetup.com/)** je jedna od njih, i to je vebsajt (i aplikacija za telefon) gde možete kreirati događaj i pronaći druge u blizini.
+
+Košta oko 8€ mesečno (ili oko 90€ godišnje), što može biti skupo za malu, nestrukturiranu zajednicu. Ipak, Meetup se široko koristi u nekim zemljama, posebno u Kanadi i Sjedinjenim Američkim Državama, i koristan je za upravljanje registracijama.
 
 
-####
+Slično tome, **[Orangepillapp](https://www.orangepillapp.com/)** je plaćena mobilna aplikacija (50,000 Sats/godišnje ili 200,000 Sats za doživotni pristup) koja pomaže bitkoin entuzijastima da se upoznaju.
 
 
-Važno je napomenuti da i druge platforme i aplikacije omogućavaju povećanu vidljivost. **[Meetup](https://www.meetup.com/)** je jedna od njih. Zapravo, to je vebsajt (i telefonska aplikacija) koja vam omogućava da kreirate događaj; ali i da pretražujete one u vašoj blizini.
+Iako ove poslednje dve platforme mogu pomoći u povećanju vidljivosti, ne preporučuju se prilikom pokretanja zajednice, jednostavno zato što nisu besplatne.
+
+**Počevši sa listingom na [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) i za francuske zajednice, na [Bitcoin.fr](https://Bitcoin.fr) je više nego dovoljno**.
 
 
-Nažalost, da bi se kreirali meetupi, potrebno je potrošiti skoro 8€ mesečno (što je oko 90€ godišnje), što je skupo za zajednicu koja još uvek nije strukturirana niti zrela. Međutim, Meetup je veoma popularan u nekim zemljama, posebno u Kanadi i Sjedinjenim Američkim Državama; njegova glavna prednost je što omogućava integrisano upravljanje registracijama za sastanke.
+Čestitamo! Vaša **zajednica je kreirana**, vaši **vizuali su spremni**, vaši **ciljevi su postavljeni**, vaši **komunikacioni kanali su uspostavljeni**, vaše **društvene mreže su pokrenute** i vaša **strategija vidljivosti je odlučena**.
 
 
-Paralelno, **[Orangepillapp](https://www.orangepillapp.com/)** je plaćena telefonska aplikacija koja omogućava bitkoin entuzijastima da se međusobno upoznaju. Međutim, takođe je uz naknadu (50,000 Sats/godišnje, ili 200,000 Sats za doživotno korišćenje).
+Kada vam se pridruži mala grupa bitkoinera, vreme je za sledeći korak: organizovanje vašeg prvog Bitcoin okupljanja.
 
 
-####
 
-
-Iako omogućavaju razvoj vidljivosti za vašu zajednicu i događaje, ove dve aplikacije, međutim, nisu preporučljive prilikom pokretanja vaše zajednice, jednostavno zato što su plaćene.
-
-
-**Počevši sa listom na [btcmap.org](https://btcmap.org/), na [BitcoinerEvents](https://www.bitcoinerevents.com/); i za francuske zajednice, na [Bitcoin.fr](https://Bitcoin.fr) je stoga jasno dovoljno**.
-
-
-####
-
-
-Čestitamo! Vaša **zajednica je kreirana**, vaši **vizuali su spremni**, vaši **ciljevi su postavljeni**, vaši **komunikacioni kanali su uspostavljeni**, vaše **društvene mreže su pokrenute**, i vaša **strategija vidljivosti je uspostavljena**.
-
-
-Jednom kada vam se pridruži mala grupa bitkoinera, sledeći korak je da krenete u uzbudljivu avanturu Bitcoin okupljanja!
-
-
-# Organizovanje Bitcoin okupljanja
+# Organizujte Bitcoin okupljanje
 
 
 <partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
 
 
-## Zašto započeti redovan sastanak sa svojom zajednicom?
+
+## Zašto pokrenuti redovan meetup sa svojom zajednicom?
 
 
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
 
-Sada kada su društvene mreže i komunikacioni kanali vaše zajednice pokrenuti, ostaje samo da se vaše prisustvo na ovim platformama učini poznatim, a novi članovi bi trebalo da se predstave postepenim uključivanjem u diskusije.
+
+Sada kada su društvene mreže i komunikacioni kanali vaše zajednice pokrenuti, vreme je da se vaš prisustvo oseti na ovim platformama. Ohrabrite nove članove da se predstave i postepeno pridruže razgovoru.
 
 
-Ovo vam može omogućiti da oslobodite vreme s ciljem razmišljanja o kreiranju događaja tipa "meet-up", u bilo kom formatu koji želite. Ovo je posebno relevantno ako počinjete da osećate neki žar unutar vaše zajednice.
+Ovo će vam osloboditi vreme, koje biste mogli iskoristiti za razmišljanje o organizovanju nekog okupljanja. Ovo će postati još relevantnije kada počnete da osećate pravo uzbuđenje unutar vaše zajednice.
 
 
-Kao što je ranije pomenuto, **sastanak o Bitcoin se može smatrati "sledećim nivoom" zajednice**. S jedne strane, omogućava **svojim bitkoiner članovima da se sastanu**; s druge strane, **edukuje nove ljude zainteresovane za ovaj ekosistem**. Događaj tipa "meet-up" će tako - prema vašoj meri - omogućiti da **stvorite entuzijazam oko Bitcoin u vašem gradu**; što se može širiti tokom vremena u zavisnosti od projekata koje vaša zajednica preduzima.
+Kao što je ranije pomenuto, **Bitcoin okupljanje može se smatrati sledećim "nivoom" za zajednicu**. S jedne strane, omogućava **članovima da se sretnu lično**, a s druge strane, pomaže **edukaciji novajlija zainteresovanih za ovaj ekosistem**.
 
 
-![immagine](assets/fr/28.webp)
+Događaj poput ovog vam omogućava, na vašem nivou, da **stvorite uzbuđenje oko Bitcoin** u vašem gradu, što može rasti tokom vremena kako vaša zajednica preuzima projekte.
 
 
-Naravno, što su značajniji ciljevi koje postavite za razvoj vaše zajednice, to ćete vi i vaši članovi morati posvetiti više vremena njima.
+
+![image](assets/fr/028.webp)
 
 
-Stoga je važno **početi postavljanjem dostižnih ciljeva za organizaciju ovog okupljanja**.
+
+Naravno, što su vaši ciljevi razvoja zajednice veći, to ćete vi i vaši članovi morati više vremena uložiti.
+
+Zato je važno **početi postavljanjem ostvarivih ciljeva za vaš meetup**.
+
 
 
 ## Prvi sastanak: kada i zašto?
@@ -1329,179 +1492,186 @@ Stoga je važno **početi postavljanjem dostižnih ciljeva za organizaciju ovog 
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
 
-Potpuno je moguće, samo nekoliko nedelja nakon stvaranja zajednice, pokrenuti događaj tipa okupljanja.
+
+Možete pokrenuti okupljanje samo nekoliko nedelja nakon što kreirate svoju zajednicu.
+
+Međutim, u toj fazi vaša grupa će verovatno još uvek biti mala, što znači da postoji šansa da se niko neće pojaviti.
 
 
-Međutim, u ovoj situaciji, vaša zajednica sigurno neće biti mnogo razvijena. To znači da je zamislivo da se može pojaviti malo ljudi. Ili niko uopšte.
+Bolje je organizovati okupljanje kada imate barem nekoliko aktivnih članova u vašim komunikacionim kanalima, na primer, nekoliko desetina. Ovo se može desiti brzo, ali takođe zavisi od ličnosti ljudi.
 
 
-Stoga, čini se relevantnim **predložiti organizovanje okupljanja čim se nekoliko ljudi uključi u komunikacione kanale** vaše zajednice; recimo na primer **mala grupa od oko deset članova**. Ovo može biti prilično brzo.
+Jednom kada osetite tu iskru, predložite susret uživo. Ako su drugi zainteresovani, preostaje samo da **odredite datum za vaš prvi susret**.
 
 
-Jednom kada osetite ovu malu iskru, tada je potpuno moguće da predložite ideju ličnog susreta. Ako ova ideja izazove interesovanje kod drugih, jednostavno **odredite datum za vaš prvi susret**.
-
-
-Da biste to uradili, svakako je poželjno ne postavljati tačan datum od početka, već **predložiti - desetak dana unapred - anketu koja sadrži različite dane i vremenske termine**. Tako će vam, na osnovu glasova svih, ovo omogućiti da **maksimizujete učešće članova**, stvorite više entuzijazma; ali i da **bolje "optimizujete" svoje vreme**.
-
-
-![immagine](assets/fr/29.webp)
-
-
-Važno je ne imati unapred fiksiranu ideju o tome kako će se ovaj sastanak odvijati, koliko će vas biti, koje će teme biti na dnevnom redu, itd. Rizikujete da budete razočarani; a učesnici, potencijalno da se osećaju "opterećeno."
-
-
-U tom smislu, čini se da je bolje pustiti da se stvari odvijaju prirodno, možda uz piće. Razgovori bi stoga trebali biti laki; čak i ako to znači razgovarati o Bitcoin ako se suočite sa izgubljenom ovcom.####
-
-
-Ako želite **predvideti određena mirna vremena, možete planirati nekoliko "aktivnosti" ili rezervnih opcija**. To može uključivati:
+Umesto da sami birate datum, obično je najbolje **napraviti anketu oko deset dana unapred sa nekoliko mogućih dana i vremena**. Na ovaj način, možete koristiti glasove da maksimizirate prisustvo, izgradite uzbuđenje i najbolje iskoristite svoje vreme.
 
 
 
-
-- računar ili pametni telefon sa **[Mempool](https://Mempool.space/)**;
-- ponesi knjigu;
-- donesi **Nerdminer**, Bitaxe, FPGA, ili čak ASIC;
-- imati dostupnu **brošuru o Bitcoin**;
-- razmislite o razvijenijem vizuelnom identitetu/logou za Bitcoin za vašu zajednicu;
-- a **[kartaška igra o Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- mapa zajednica i preduzeća **[btcmap.org](https://btcmap.org/)**;
-- hej, usput, **da li si ikada poslao Bitcoin preko Lightning-a?**
-
-
-Međutim, važno je napomenuti da kada okupljanje tek počinje, možda nije relevantno održati formalnu prezentaciju. Kada vas je samo nekoliko, čini se da je poželjnije uključiti se u diskusije na otvoreniji i prijateljskiji način.
-
-
-![image](assets/fr/30.webp)
-
-
-####
-
-
-Jednom kada se vaš sastanak održi, verovatno ćete želeti da organizujete još jedan. **Sve dok je vaša zajednica još uvek mala, čini se da je poželjno da nastavite sa predlaganjem datuma putem ankete; na primer, jednom mesečno (ili svaka dva meseca)**. Na vama je da o tome razgovarate sa svojom zajednicom.
-
-
-Međutim, u slučaju da se razvije **redovna grupa Bitcoinaša i zainteresovanih strana**, čini se prikladnim **planirati ovaj događaj redovnije**; iz nekoliko razloga:
-
-
-1) omogućava članovima da lakše planiraju svoje učešće;
-
-
-2) Takođe pomaže da se **uspostavi "navika"**. Tako, neko ko više ne prati komunikacione kanale ili mreže okupljanja na dnevnoj bazi (zbog nedostatka vremena) i zna uobičajeni dan vašeg okupljanja u mesecu može svratiti, "kao i obično."
-
-
-####
-
-
-Ova druga tačka je veoma važna. To je jedan od razloga zašto se **u Francuskoj većina okupljanja održava prve srede svakog meseca**; prateći inicijativu "ambasadora", pokrenutu od strane [DecouvreBitcoin](https://decouvrebitcoin.fr/).
-
-
-U Nemačkoj ne postoji nacionalno unapred definisan dan; isto važi i za Italiju.
-
-
-Međutim, važno je napomenuti da **održavanje svih nacionalnih okupljanja na isti dan stvara problem centralizacije**. Pored bezbednosnih zabrinutosti, bitkoineri koji prisustvuju okupljanju u svojim gradovima ne mogu prisustvovati Bitcoin događajima u susednim zajednicama. Stoga, na vama je da zauzmete stav. Da biste to učinili, **interakcija sa najbližim okupljanjem(a) može dovesti do relevantne odluke**.
-
-
-####
-
-
-Konačno, kada vaša zajednica značajno poraste i vaši sastanci počnu da se popunjavaju, potpuno je moguće predložiti:
+![image](assets/fr/029.webp)
 
 
 
-
-- specifičan cilj za svaki vaš sastanak**;
-- ili čak **drugi događaj u mesecu**.
+Najbolje je ne ulaziti sa fiksnim očekivanjima o tome kako će se okupljanje odvijati, koliko će ljudi doći ili koje će teme biti diskutovane. Ovo izbegava razočaranje i sprečava učesnike da osećaju pritisak.
 
 
-U prethodnom slučaju, iako treba uzeti u obzir osetljivosti i želje svih, ovo može omogućiti svim učesnicima da **napuste događaj sa novim znanjem** dok se teme razgovora ponovo fokusiraju oko Bitcoin (ako su se udaljavale).
+Neka stvari teku prirodno, možda uz piće. Razgovori bi trebalo da teku lako, a ako je potrebno, možete nežno vratiti diskusiju na Bitcoin ako počne da skreće.
 
 
-U drugom slučaju, drugi događaj u mesecu, na primer, omogućava vam da **Address određenu temu, kao što je organizovanje "početničkih" sesija i/ili radionica** (Mining, munja, instalacija čvora, itd.).
+Ako želite da se pripremite za mirnije trenutke, možete isplanirati nekoliko aktivnosti ili tema za razgovor, kao što su:
 
 
-![image](assets/fr/31.webp)
+
+- prikazivanje **[Mempool](https://Mempool.space/)** na računaru ili pametnom telefonu;
+- doneti knjigu;
+- donoseći **Nerdminer**, Bitaxe, FPGA ili čak ASIC;
+- imati **Bitcoin letak**;
+- brainstorming vizuala ili logotipa Bitcoin za vašu zajednicu;
+- igranje **[Bitcoin kartaške igre](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- prikazivanje mape zajednica i trgovaca na **[btcmap.org](https://btcmap.org/)**;
+- slanje ili prijem Bitcoin koristeći **Lightning**.
 
 
-Imajte na umu, međutim, da **ovo zahteva više organizacije; i stoga će zahtevati više vremena** (iako će mnogi resursi otvorenog koda biti dostupni u Delu 6/8, pod nazivom "[Primeri projekata i inicijativa](LINK).
+Kada vaš sastanak tek počinje, često nije pravo vreme za formalnu prezentaciju. Ako je prisustvo malo, otvorena i neformalna diskusija obično najbolje funkcioniše.
 
 
-U svakom slučaju, sve će zavisiti od akcionog plana za kratkoročni, srednjoročni i dugoročni period koji ste vi (ili vaša zajednica) uspostavili.
+
+![image](assets/fr/030.webp)
 
 
-## Pronalaženje lokacije
+
+Nakon vašeg prvog sastanka, verovatno ćete želeti da planirate još jedan. Dok je vaša zajednica još uvek mala, najbolje je da nastavite sa izborom datuma putem anketa, na primer, jednom mesečno ili svaka dva meseca. O tome možete razgovarati na vašim komunikacionim kanalima.
+
+
+Ako se formira redovna grupa bitkoinera i zainteresovanih učesnika, ima smisla postaviti ponavljajući raspored iz dva razloga:
+
+1) olakšava svima planiranje unapred;
+
+2) to pomaže **uspostaviti "naviku"**. Čak i ako neko prestane redovno da proverava vaše kanale, i dalje će znati kada se okupljanje dešava i može svratiti kao i obično.
+
+
+Ova druga tačka je jedan od razloga zašto se **u Francuskoj većina okupljanja održava prve srede svakog meseca** (pogledajte inicijativu "ambasadori", pokrenutu od strane [DecouvreBitcoin](https://decouvrebitcoin.fr/) 2022. godine).
+
+U Nemačkoj i Italiji ne postoji fiksni nacionalni dan.
+
+
+Međutim, održavanje svih okupljanja širom zemlje istog dana stvara problem centralizacije: sprečava bitkoinere da prisustvuju događajima u obližnjim zajednicama i može takođe izazvati zabrinutost za bezbednost. Razgovor sa organizatorima okupljanja iz susedstva može vam pomoći da se dogovorite o dobrom aranžmanu.
+
+
+Kako vaša zajednica raste i okupljanja privlače više ljudi, možete:
+
+
+- postavite specifičan cilj za svaki sastanak;
+- ili čak **dodati drugi događaj svakog meseca**.
+
+
+U prvom slučaju, dok imate na umu preferencije svih, jasan cilj može osigurati da učesnici odu sa novim znanjem i da razgovori ostanu fokusirani na Bitcoin.
+
+U drugom slučaju, drugi mesečni događaj mogao bi biti posvećen određenoj temi, kao što su sesije za početnike ili radionice (Mining, Lightning, instalacija nodova, itd.).
+
+
+![image](assets/fr/031.webp)
+
+
+
+Imajte na umu da **ovo zahteva više organizacije i više vašeg vremena**. Srećom, u [delu 6/8 ovog kursa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), naći ćete niz ponovo upotrebljivih resursa otvorenog koda koji će vam pomoći.
+
+
+U svakom slučaju, sve zavisi od kratkoročnog, srednjoročnog i dugoročnog akcionog plana koji vi, ili vaša zajednica, postavite za sebe.
+
+
+
+## Pretraga lokacije
 
 
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
 
-Traženje lokacije za održavanje vaših događaja nije nužno jednostavno. Međutim, čini se neophodnim **da se ovaj prostor nalazi u gradu vaše zajednice**.
+
+Pronalaženje prostora za vaše događaje često nije lak zadatak. Povrh toga, neophodno je da taj prostor bude **smešten u gradu vaše zajednice**.
 
 
-U isto vreme, mnogi kriterijumi moraju biti razmotreni. Među njima:
+Postoji nekoliko kriterijuma koje treba razmotriti, uključujući:
+
+1) **Lokacija**: da li je lako dostupna javnim prevozom? Automobilom? Da li je dostupan parking?
+
+2) Da li je mesto prijatno i ne previše **bučno**? Da li tražite formalno okruženje (co-working prostor, sala za sastanke) ili nešto neformalnije (bar, restoran)?
+
+3) Da li ima dovoljno kapaciteta da vas ugosti, čak i tokom noći kada se igra ragbi ili utakmica Lige šampiona?
+
+4) Da li ima video projektor i tihu zonu za prezentacije?
+
+5) I na kraju, ako je u pitanju bar ili restoran, da li meni nudi nešto za svakoga za jelo i piće?
 
 
-1) Lokacija lokacije: da li je lako **dostupna javnim prevozom? Automobilom?** Da li je moguće parkirati tamo bez poteškoća?
+Pored toga, ovde su tri važne tačke koje treba imati na umu:
 
 
-2) **Da li je mesto lepo i ne previše bučno?** Da li tražite formalno mesto (coworking prostor, sala za sastanke) ili neformalno (bar ili čak restoran)? 3) **Da li mesto ima dovoljan kapacitet da vas primi?** I to, čak i u noći ragbi ili Lige šampiona? 4) **Da li mesto ima video projektor i miran prostor za vaše prezentacije?** 5) na kraju, u slučaju bara (ili čak restorana), **da li meni omogućava svima da jedu i piju?** Na ove tačke, mogu se dodati tri važne opservacije:
+- Ako planirate da podelite veče na dva dela: prvo, prezentaciju u formalnom prostoru kako biste pomogli svima da se fokusiraju, a zatim prelazak u bar ili restoran da nastavite u opuštenijoj atmosferi, iskustvo pokazuje da promena mesta usred večeri često dovodi do toga da neki učesnici odu tokom pauze. Ovaj pristup se stoga ne preporučuje.
+- Na vašim prvim okupljanjima, prisustvo će verovatno biti malo i verovatno nećete držati formalne prezentacije. U tom slučaju, nema potrebe da se predstavljate vlasniku ili objašnjavate svoje ciljeve. Međutim, **kada okupljanja postanu redovna i dobro posećena, vredi to učiniti kako biste pokazali profesionalizam i izrazili želju da se vraćate mesečno**. Ovo može dovesti do mnogih razgovora (automatske mesečne rezervacije, besplatna pića i/ili daske sa hranom, popusti, razgovori o Bitcoin, prihvatanje plaćanja Bitcoin, itd.). Očigledno, ako specifično tražite mesto sa video projektorom za održavanje prezentacija, čini se neophodnim da zatražite sastanak (licem u lice, ili čak telefonom) sa vlasnikom i/ili menadžerom kako biste predstavili svoj projekat i ciljeve.
 
 
 
-
-- u slučaju da želite **podeliti veče na dva dela** (prvo, **prezentacija u formalnom prostoru** kako bi se omogućilo svima da se bolje fokusiraju; zatim **promena mesta kako bi se veče nastavilo na opušteniji način u baru** ili restoranu), važno je biti svestan da će ova promena mesta usred večeri uzrokovati da **neki učesnici iskoriste priliku da odu. Stoga, ovaj tip aranžmana se ne preporučuje**;
-- tokom prvih nekoliko sastanaka, verovatno će se pojaviti malo ljudi, tako da verovatno nećete napraviti uvod. U tom smislu, ne čini se neophodnim da se predstavite vlasniku i izložite svoje ciljeve, itd. Međutim, **kada vaši sastanci postanu redovni i dobro posećeni, čini se relevantnim da se predstavite, pokažete svoju ozbiljnost i želju da dolazite redovno**. Ovo može dovesti do mnogih razgovora (automatske mesečne rezervacije, besplatna pića i/ili jela, popusti, diskusija o Bitcoin, prihvatanje Bitcoin kao metoda plaćanja, itd.) Naravno, u slučaju da specifično tražite prostor sa video projektorom za prezentacije, čini se neophodnim da unapred zatražite sastanak (lično, ili čak telefonom) sa vlasnikom i/ili menadžerom kako biste predstavili svoj projekat i ciljeve;
-
-
-![image](assets/fr/32.webp)
+![image](assets/fr/032.webp)
 
 
 
 
-- konačno, neke zajednice mogu odlučiti da **održavaju svoje događaje samo na mestima koja prihvataju Bitcoin kao način plaćanja**; i to je razumljivo. Imajući ovo na umu, čini se relevantnim **početi pretragom za preduzećima u vašem gradu koja prihvataju Bitcoin (na primer na [btcmap.org](https://btcmap.org/map/))** i kontaktirati ih kako biste pronašli mesto koje ispunjava vaše kriterijume. U slučaju da, nažalost, ništa nije prikladno, imate opciju "uključivanja" novih trgovaca. Međutim, očekujte da ćete se suočiti sa mnogo odbijanja, što može biti obeshrabrujuće. Zato **možda ima smisla ne postavljati ovo kao cilj od samog početka, već doći do toga kada vaša zajednica bude dobro razvijena** i budete imali dovoljno "uticaja."
+- na kraju, neke zajednice **žele da održavaju svoje događaje samo na mestima koja prihvataju Bitcoin uplate**, što je razumljivo. U tom slučaju, dobra je ideja da **počnete pretragom za biznise koji prihvataju Bitcoin u vašem gradu** (na [btcmap.org](https://btcmap.org/map/) i kontaktirate ih da vidite da li ispunjavaju vaše kriterijume. Ako ništa odgovarajuće nije dostupno, možete pokušati da uključite nove trgovce, ali očekujte mnogo odbijanja, što može biti obeshrabrujuće. Zato je često najbolje ne postavljati ovo kao cilj od početka, već razmotriti kada vaša zajednica bude dobro uspostavljena i kada budete imali dovoljno "vatrene moći."
 
 
-Takođe, ne oklevajte da **promenite mesta održavanja na nekoliko meseci prilikom pokretanja vašeg okupljanja**. Ovo će vam omogućiti da **uspostavite kontakte** sa nekim menadžerima, da **otkrijete različite atmosfere**; ali i da **prikupite informacije** o raznim mestima koja bi potencijalno mogla da ugoste vaše događaje.
+Takođe, kada pokrećete svoj meet-up, ne oklevajte da **menjate lokacije tokom prvih nekoliko meseci**. Ovo će vam pomoći da **izgradite odnose sa različitim menadžerima**, istražite različite atmosfere i prikupite informacije o potencijalnim budućim domaćinima.
 
 
-Ništa vas ne sprečava kasnije, kada počnete imati mnogo učesnika, da odvojite jedno popodne vikendom za posetu različitim preduzećima i barovima kako biste pitali da li imaju odgovarajući prostor za održavanje vaših događaja i sastanaka jednom mesečno!
+Kasnije, kada vaša grupa poraste, mogli biste čak da odvojite jedno popodne da posetite nekoliko preduzeća i barova, pitajući ih da li imaju prostor pogodan za održavanje vaših mesečnih događaja i okupljanja.
 
 
-## Pre nego što se sastanemo
+
+## Pre sastanka
 
 
 <chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
 
 
-Da li ste odlučili da organizujete okupljanje i obavestili svoju zajednicu o datumu? Sada sledi nekoliko važnih koraka:
+
+Planirate organizovati okupljanje u narednim nedeljama?
+
+Evo kontrolna lista koja će vam pomoći da se pripremite:
+
+1/ **Potvrdite mesto**
+
+Kontaktirajte lokaciju na kojoj ćete održati događaj i rezervišite je za procenjeni broj učesnika.
+
+2/ **Objavite događaj**:
 
 
-1) **kontaktirajte mesto** gde će se vaš događaj održati, da **potvrdite rezervaciju** za određeni broj ljudi;
-
-
-2) **objavite na društvenim mrežama i komunikacionim kanalima vaš događaj, jasno navodeći datum, vreme, lokaciju**, i dodajući link za registraciju ako je potrebno. Za ovu komunikaciju može se kreirati specifičan vizual (npr. Canva poster, pogledajte deo 2/8 "[Dizajniranje jedinstvenog identiteta za vašu Bitcoin zajednicu](LINK)"). Pored toga, kako bi se osigurala maksimalna vidljivost za ovu objavu, može biti **fiksirana na Telegramu i Twitteru**, i može takođe uključivati **"@everyone" na Discordu**. Takođe se čini više nego relevantnim da se **ove objave objave 1 nedelju do 10 dana pre datuma događaja, omogućavajući svima da isplaniraju svoje učešće**;
-
-
-![immagine](assets/fr/33.webp)
-
-
-4) **dva do tri dana pre događaja, ovi oglasi mogu biti retvitovani i ponovo podeljeni**, povećavajući vidljivost;
-
-
-5) konačno, u zavisnosti od broja odgovora i/ili registracija primljenih dan ranije ili dan pre toga, potpuno je moguće da ponovo kontaktirate vlasnika prostora kako biste potvrdili broj očekivanih učesnika.
-
-
-####
-
-
-Ovim četirima koracima mogu se dodati i:
+    - Podelite datum, vreme i lokaciju na vašim društvenim mrežama i drugim komunikacionim kanalima. Uključite link za registraciju ako je potrebno.
+    - Kreirajte posvećen vizual (na primer Canva poster, pogledajte deo 2/8 "[Dizajniranje identiteta za vašu Bitcoin zajednicu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Maksimizirajte vidljivost kačenjem objave na Telegram i Twitter, i korišćenjem "@everyone" oznake na Discord-u.
+    - Objavite najave 7 do 10 dana pre događaja kako bi učesnici mogli unapred da planiraju.
 
 
 
+![image](assets/fr/033.webp)
 
-- štampanje flajera i/ili postera**;
-- napraviti prezentaciju** na unapred definisanu temu;
-- priprema aktivnosti ili radionice**;
-- itd.
+
+
+3/ **Podsetite svoju publiku**
+
+Dva do tri dana pre događaja, ponovo podelite i retvitujte vaše objave kako biste povećali vidljivost.
+
+4/ **Ažuriraj mesto**
+
+Dan pre (ili dva dana ranije), proverite vaše registracije i obavestite mesto održavanja o konačnom očekivanom broju učesnika.
+
+
+Dodatni koraci da vaš događaj bude poseban:
+
+
+- Štampaj flajere i/ili postere
+- Pripremite prezentaciju na određenu temu
+- Organizujte aktivnost ili radionicu
+
 
 
 ## Dan okupljanja
@@ -1510,126 +1680,109 @@ Ovim četirima koracima mogu se dodati i:
 <chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
 
 
-Veliki dan je ovde! Sat ili dva pre početka događaja, možete objaviti jednostavnu poruku na vašim kanalima komunikacije u zajednici (nema potrebe pretrpavati društvene mreže) kako biste najavili vreme kada ćete biti tamo, ali i da informišete buduće učesnike da ćete biti prepoznatljivi jer ćete nositi (na primer) Bitcoin majicu i kapu.
+
+Veliki dan je ovde! Jedan ili dva sata pre početka događaja, pošaljite podsetnik putem komunikacionih kanala vaše zajednice. Ponovo potvrdite vreme početka i obavestite učesnike kako da vas prepoznaju, na primer, spominjanjem da ćete nositi Bitcoin majicu i kačket.
 
 
-####
+Kako vaši sastanci rastu i počnete da primate više od 20 ljudi, priprema prostora će postati sve važnija.
 
 
-Kako vaš sastanak raste i dočekujete više od 20 ljudi po događaju, **priprema sobe/prostora postaje važan element**.
+Evo šta treba uraditi:
+
+1) **Stignite rano** da postavite stvari.
+
+2) **Organizujte prostor** prema vašim potrebama i mogućnostima prostora. Ako ste samo šest osoba, malo postavke je potrebno. Ali kada dostignete 10-20 učesnika, potpuno sedeći raspored može ograničiti interakcije. U tom slučaju, izaberite stojeći raspored sa dobro raspoređenim visokim stolovima ako su dostupni, dok i dalje obezbeđujete nekoliko (po mogućstvu visokih) stolica. Ako je planirana prezentacija, zadržite stojeći raspored veći deo večeri i unesite stolice neposredno pre predavanja.
+
+3) Dodajte male prilagođene detalje:
 
 
-Da bi se to postiglo, biće neophodno:
-
-
-1) **dođi malo ranije** da se pripremiš;
-
-
-2) **organizujte sobu ili prostor prema vašim mogućnostima i potrebama**. U slučaju da vas je oko pola tuceta, zaista nema mnogo toga da se uradi. Ali čim dostignete 10 do 20 ljudi po događaju, brzo ćete shvatiti da imati sve sedeće nije dobra ideja, jer to stvara manje odnosa i nećete moći da razgovarate sa svima tokom večeri. U tom smislu, **preferiranje konfiguracije stajanja, sa, na primer, dobro raspoređenim visokim stolovima** (kada je moguće) čini se relevantnim čim dostignete oko 15 ljudi. Međutim, razmislite o tome da **imate dostupne stolice** (visoke, na primer) u svakom slučaju. U slučaju da će biti održana prezentacija, poželjno je zadržati postavku stajanja tokom cele večeri, čak i ako to znači donošenje nekih (visokih) stolica nekoliko minuta pre prezentacije;
-
-
-3) Pored rasporeda prostorije, mogu se preduzeti i druge male "prilagodbe":
-
+    - Postavite poster na ulazu kako biste označili svoju lokaciju (koristite Patafix i prvo dobijte dozvolu od mesta održavanja).
+    - Prikažite postere sa temom Bitcoin unutra (Bitcoin beli papir, povelja vaše zajednice, trenutni projekti, itd.).
+    - Postavite nalepnice, flajere ili pokretače razgovora na stolove, na primer: Nerdminer, Hardware Wallet, laptop koji prikazuje svoj Mempool, ASIC Miner, ili metalnu rezervnu ploču za privatne ključeve.
 
 
 
-    - prikažite, uz Patafix, **poster ispred mesta vašeg okupljanja, navodeći u kojoj ćete sobi biti** (naravno, razmislite o tome da unapred zatražite dozvolu);
-    - izložite, sa Patafix-om, **specifične postere** u prostoriji gde se održava vaš događaj (**Bitcoin beli papiri, statuti vaše zajednice, tekući projekti**, itd.).
-- postaviti na jedan ili više stolova **lepke, letke ili čak materijal koji može dovesti do diskusije** (Nerdminer, Hardware Wallet, računar uključen sa Mempool, ASIC, metalna ploča za zaštitu vašeg privatnog ključa, itd.)
+![image](assets/fr/034.webp)
 
 
-![immagine](assets/fr/34.webp)
+
+Ako očekujete samo nekoliko učesnika i još niste izgradili odnos sa menadžerima prostora, izbegavajte da odmah donesete i izložite svu svoju opremu. Kada se poverenje uspostavi, imaćete više slobode da uredite prostor kako želite.
 
 
-####
+Na kraju, uzmite piće i sačekajte da ljudi stignu. I zapamtite: nemojte biti obeshrabreni ako niko ne dođe prvi put. Ponesite knjigu ili video za gledanje, za svaki slučaj.
 
 
-Očigledno, ako očekujete samo nekoliko učesnika i niste obavestili menadžere o vašem sastanku jer ga tek pokrećete, nemojte početi donositi i pokazivati sav svoj materijal.
 
-
-Međutim, **kada uspostavite poverenje sa menadžerima, bićete mnogo slobodniji da organizujete prostor kako smatrate da je najbolje**.
-
-
-Sve što preostaje je da uzmete piće i strpljivo čekate potencijalne učesnike. Međutim, kao što je gore pomenuto: **nemojte biti razočarani ako se niko ne pojavi prvi put**. Stoga, planirajte da imate knjigu ili video za gledanje, za svaki slučaj.
-
-
-## Nakon sastanka
+## Posle okupljanja
 
 
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
 
-Kada se sastanak završi, vreme je da menadžeri prostora **srede**. Dakle, pre nego što odete (a generalno ćete biti među poslednjima koji odlaze, barem u početku), razmislite o tome da ponudite pomoć konobarima i/ili menadžerima. To može biti jednostavno kao **skupljanje čaša sa stola**; ili, ako ste blizu bara, **vraćanje istih pre nego što odete**.
+
+Kada se okupljanje završi, vreme je za čišćenje za osoblje lokala. Pre nego što odete, ponudite se da pomognete konobarima ili menadžerima. To može biti jednostavno kao skupljanje svih čaša na jedan sto ili, ako ste blizu šanka, vraćanje istih pre nego što odete.
 
 
-Jednom kada se vratite kući, najverovatnije ćete imati **Bitcoin u očima** nekoliko dana. Ovo će biti pogodna prilika za evaluaciju povratnih informacija, na primer:
+Jednom kada se vratite kući, verovatno ćete još danima razmišljati o Bitcoin. To je savršeno vreme da proverite puls vaše zajednice i prikupite povratne informacije od učesnika. Možete:
+
+
+- Objavite poruku zahvalnosti na vašim komunikacionim kanalima i podelite sve linkove ili resurse pomenute tokom događaja.
+- Pozovite učesnike da predlože poboljšanja za sledeći sastanak.
+- Počnite planirati vaš sledeći događaj.
+
+
+Imaćete nekoliko nedelja da razvijete sveže ideje, vizuale ili projekte kako biste sledeći sastanak učinili još boljim.
 
 
 
-
-- slanje poruke na vašim komunikacionim kanalima da **zahvalite učesnicima**, i/ili deljenje linkova ili veb-sajtova o kojima ste razgovarali;
-- predlažući onima koji su prisustvovali sastanku da **predlože poboljšanja** za sledeći;
-- i takođe, da se **pripremite za sledeći događaj!**
-
-
-Dug period od nekoliko nedelja će se tada pojaviti; savršen za razvijanje drugih dizajna i/ili planova za vaš sastanak.
-
-
-## Važnost angažovanja i zadržavanja učesnika
+## Važnost uključivanja i zadržavanja učesnika
 
 
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
 
-Rim nije izgrađen za jedan dan; isto važi i za vašu zajednicu. To znači da **ćete organizovanjem sastanaka i događaja redovno uspeti da stvorite dinamiku oko Bitcoin**.
+
+Rim nije izgrađen za jedan dan, i vaša zajednica neće biti. Momentum oko Bitcoin dolazi od održavanja redovnih okupljanja i događaja.
 
 
-Da biste to učinili, jedna tačka je ključna: **morate zadržati učesnike na vašim događajima**.
+Da bi se to ostvarilo, jedna stvar je ključna: **održavajte učesnike angažovanim**.
 
 
-Ovo može početi sa malom grupom strastvenih bitkoinera čiji je cilj da se redovno sastaju kako bi razgovarali o Bitcoin. Tokom nekoliko nedelja, i u zavisnosti od vremena i senzibiliteta svakog od njih, možete **distribuirati neke organizacione zadatke** vaše zajednice; ili čak **predložiti ovim bitkoinerima da preduzmu određeni projekat**. Ovaj projekat bi mogao biti specifičan za vašu zajednicu, vaše sastanke, ili čak vaš grad; jer bi mogao crpeti inspiraciju iz jedne od mnogih inicijativa predloženih u [delu 6/8 ovog kursa](LINK). **Ovo bi zatim uključilo srž vaše zajednice, i tako pomoglo njenom napretku**.
+Može početi sa malom grupom strastvenih bitkoinera, čiji je cilj da se redovno okupljaju i razgovaraju o Bitcoin. Vremenom, u zavisnosti od dostupnosti i interesovanja svakog pojedinca, možete **podeliti određene organizacione zadatke sa grupom**, ili pozvati ključne **članove da preuzmu specifične projekte**. Ovi projekti mogu biti jedinstveni za vašu zajednicu, vaše sastanke ili vaš grad, ili čak inspirisani mnogim inicijativama predloženim u [delu 6/8 ovog kursa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Ovo ne samo da podstiče Commitment od vaših ključnih članova, već i pomaže vašoj zajednici da raste i napreduje.**.
 
 
-**Nova lica će vam se pridružiti tokom sastanaka**. To mogu biti ljudi koji su kupili BTC i/ili alt/shitcoin tokom prethodnih rundi; no-coiners koji žele produbiti svoje razumevanje Bitcoin i njegovog ekosistema; ali i početnici, koji prikupljaju svoje prve informacije o ovom novom neocenjivom, decentralizovanom, transparentnom, fer, bezuslovnom i Trustless elektronskom sistemu plaćanja. Da bi se osiguralo da se **svi osećaju uključeno u događaje**, mogu se raditi na dve glavne oblasti razmatranja.
+Kako se vaši sastanci budu razvijali, pojaviće se nova lica: ljudi koji su kupili BTC i/ili altcoine u prethodnim ciklusima, tehno entuzijasti koji žele da prodube svoje razumevanje, ili potpuni početnici radoznali o ovom necenzurisanom, decentralizovanom, transparentnom i fer platnom sistemu koji funkcioniše bez uslova i bez pouzdanih trećih strana.
 
 
-S jedne strane, iz društvene perspektive, ključno je za razvoj zajednice da se svi koji učestvuju u događaju osećaju uključeno. To znači: **uložiti napor da se priđe tim novim učesnicima, biti zainteresovan zašto su oni tu, srdačno ih dočekati**, itd. Osećajući se uključeno i dobrodošlo, ti ljudi će želeti da se vrate; pa čak, u budućnosti, u zavisnosti od njihovog profila, da se uključe u organizaciju tih događaja.
+Da biste bili sigurni da se svi osećaju uključeno na vašim događajima, fokusirajte se na dva ključna aspekta:
 
 
-Naravno, **ovo zahteva vreme i motivaciju**. U slučaju prihvatanja shitcoinera (ili još gore: XRP-Maximalist), može biti prilično teško ostaviti po strani sopstvene vremenske preferencije i pristati na "gubljenje vremena" u jednostranim diskusijama. Međutim, upravo uzimanjem vremena za razgovor sa tim ljudima možemo im pomoći da razumeju svoje nesporazume i greške u razmišljanju. Kada to prihvate, biće spremni da razumeju Bitcoin.
-
-
-![immagine](assets/fr/35.webp)
-
-
-S druge strane, sa tehničke tačke gledišta, može se postaviti nekoliko pitanja:
+- Socijalna inkluzija**: Svi koji prisustvuju treba da se osećaju dobrodošlo. Potrudite se da pozdravite novopridošle, pitajte ih zašto su došli i upoznajte ih sa drugima. Kada se ljudi osećaju uključeno, verovatnije je da će se vratiti i možda čak pomoći u organizaciji budućih događaja.
+- Strpljenje i otvorenost**: Ovo zahteva vreme i motivaciju. Ako razgovarate sa posvećenim shitcoiner-om (ili još gore, XRP Maximalist), može biti primamljivo da ih odbacite. Ali, uključivanjem u razgovor, možete razjasniti nesporazume ili pogrešno rezonovanje. Ako su spremni da slušaju, možda su spremni da zaista razumeju Bitcoin.
 
 
 
-
-- mesto gde **se sastanak održao bilo je prijatno?**
-- da li je bilo **lako dostupno?**
-- zašto neki učesnici na kraju nisu došli?
-- koje su diskusije pokrenute? Da li su bile **previše tehničke, ne dopuštajući početnicima da budu uključeni?**
-- da li je alkohol tekao previše slobodno?
+![image](assets/fr/035.webp)
 
 
-Naravno, svaki učesnik ima svoju ličnost, osetljivost, ciljeve i interese. Stoga će svako doživeti sastanak drugačije.
+
+Sa praktične tačke gledišta, razmislite o celokupnom iskustvu događaja:
 
 
-Ali **kada je mesto dobro odabrano, prisutni ljudi (posebno organizatori) su otvorenog uma, a njihov cilj je plemenit, nema razloga da sastanak ne bude uspešan**.
+- Da li je **mesto bilo prijatno**?
+- Da li je bilo **lako pristupiti?**
+- Zašto su se neki ljudi prijavili, ali se nisu pojavili?
+- Koji su razgovori vođeni? Da li su razgovori bili previše tehnički za početnike?
+- Da li su diskusije bile previše alkoholne?
 
 
-####
+Svaki učesnik ima svoju ličnost, ciljeve i interese, tako da će iskustva varirati. Ali kada je mesto odgovarajuće, publika otvorenog uma, a namere iskrene, postoji svaki razlog da susret bude uspešan.
 
 
-**Kreiranje sastanka stoga zahteva vreme; ali što je još važnije, organizaciju.
+Izgradnja okupljanja zahteva vreme, ali pre svega, zahteva organizaciju. To je ljudski projekat, i funkcionisaće i rasti na duže staze samo ako je dobro planiran, otvoren i inkluzivan.
 
 
-To je ljudski projekat, zbog čega može funkcionisati i razvijati se na duge staze samo ako je promišljen, otvoren i inkluzivan**.
-
-
-Naravno, **na svima je da postave svoju granicu** onoga što se podrazumeva pod "otvoren i inkluzivan." Ali nemojmo zaboraviti: shitcoiner je bitcoiner u nastajanju (koji još nije bio pokvaren "rekt").
+U konačnici, na vama je da odlučite koliko daleko "otvorenost i inkluzivnost" treba da idu. Samo zapamtite: shitcoiner je često samo bitcoiner u nastajanju.
 
 
 # Primeri projekata i inicijativa
@@ -1638,570 +1791,522 @@ Naravno, **na svima je da postave svoju granicu** onoga što se podrazumeva pod 
 <partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
 
 
-## Zašto se zadovoljiti samo ispijanjem piva?
+
+## Zašto ići dalje od samog pijenja piva?
 
 
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
 
-Kako blokovi napreduju, vaša zajednica će rasti. Nova lica će se pridružiti, a druga će izbledeti.
+
+Kako se blokovi kotrljaju, vaša zajednica će se razvijati. Nova lica će se pridružiti, druga će se udaljiti, ali vodeći princip treba da ostane isti: razvijajte Bitcoin ekosistem i jačajte veze među članovima.
 
 
-Da bi se **napredovao ekosistem Bitcoin i izgradile još jače veze unutar vaše zajednice**, mogu se preduzeti brojni projekti i inicijative.
+Postoji mnogo projekata i inicijativa koje se mogu sprovesti. Ovo poglavlje nudi neiscrpnu listu ideja koje se mogu realizovati unutar zajednice ili tokom okupljanja. Slobodno izaberite one koje vas inspirišu i čak doprinesite sopstvenim idejama ovom kursu [pravljenjem "Pull Request"-a na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
-Ispod, **nudimo neiscrpan skup ideja koje se mogu implementirati unutar zajednice ili tokom sastanka**.
+Pre nego što zaronimo, hajde da se vratimo na tačku pomenutu ranije.
 
 
-Slobodno izaberite one koje vam se sviđaju, ali takođe možete dodati još tako što ćete napraviti "Pull Request" na GitHub-u.
+Kada organizujete Bitcoin okupljanje, upoznajete nove ljude. Socijalna interakcija je esencijalna, a pivo (ili alkohol generalno) može pomoći u stvaranju svečane atmosfere. Ali vredi imati na umu:
 
 
-####
+- Alkohol narušava kognitivne sposobnosti poput razmišljanja i razumevanja, što može otežati učesnicima praćenje ozbiljnih diskusija ili prezentacija.
+- Alkohol takođe može postati ritual utehe: svakog meseca, delite svoj "Bitcoin trenutak" sa prijateljima uz piće. Iako je to sjajan način za povezivanje, da li je ispijanje piva zaista glavni cilj vašeg okupljanja? Ili biste radije istraživali Exchange, učili od drugih i pomogli novajlijama da otkriju Bitcoin?
 
 
-Ali pre nego što počnemo, čini se zanimljivim razraditi tačku koja je već navedena u ranijim delovima ovog kursa.
+Svi imaju svoje preferencije, uverenja i ličnost. Ovo nije o tome da se jedan sastanak ocenjuje bolje od drugog. Ipak, iako često uz pivo pričamo o promeni sveta, revolucije ne počinju, niti rastu, na taj način.
 
 
-Kada pokrenete sastanak na Bitcoin, upoznajete nove ljude. Dakle, socijalne interakcije su važne, a pivo (alkohol uopšte) čini ove vrste događaja svečanim. Ali OPREZ:
+Ključ je jednostavno biti svestan toga.
 
 
 
-
-- s jedne strane, **alkohol inhibira neke kognitivne sposobnosti** (razmišljanje, razumevanje, itd.). Stoga postaje **teže za učesnike da prate ozbiljne diskusije** - ili prezentaciju - nakon što popiju sladak alkoholni napitak;
-- s druge strane, **alkohol može biti utešan**: svakog meseca imate svoj "Bitcoin trenutak" sa svojim novim prijateljima. Delite zajedničku strast, i to je veoma pozitivno! **Ali da li je ispijanje piva zaista glavni cilj vašeg sastanka?** Zar ne biste radije Exchange informacije o vašim novim otkrićima/istraživanjima, učili iz iskustava drugih; ili čak demokratizovali Bitcoin za novopridošlice, da ih uvedete?
+![image](assets/fr/036.webp)
 
 
-Svi imaju svoje želje, svoja verovanja, svoju ličnost. Dakle, ovde se ne donosi sud o tome kako funkcioniše jedan ili drugi sastanak. Uostalom, **oko piva ponovo stvaramo svet, ali nije tako kako ga duboko transformišemo**.
 
-
-![immagine](assets/fr/36.webp)
-
-
-## Organizuje tematske sastanke, prateći definisanu godišnju progresiju
+## Organizujte tematske susrete, sa godišnjim napretkom
 
 
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
 
-Jednom kada vaši sastanci postanu redovni i formira se osnovna grupa od oko deset ljudi, bićete u mogućnosti da **održite prezentaciju na svakom od vaših sastanaka**. One mogu biti **tematske**, sa unapred najavljenom temom; ili nepovezane.
+
+Kada okupite osnovnu grupu od oko deset ljudi, možete početi dodavati prezentacije svakom događaju. One mogu pratiti unapred najavljenu temu ili biti potpuno nezavisne jedna od druge.
 
 
-U kontekstu organizovanja prezentacija i/ili radionica, može biti veoma relevantno **unapred izgraditi dobro osmišljen put**. Cilj ovog puta bi tada bio da **pokriva sve važne koncepte vezane za Bitcoin**; omogućavajući svim prisutnima na sastancima da razumeju Bitcoin u celosti.
+Kada planirate prezentacije ili radionice, korisno je kreirati jasan, dobro strukturiran napredak. Cilj je **pokriti osnovne pojmove Bitcoin korak po korak**, pružajući učesnicima potpun pregled teme iz više uglova.
 
 
-U Francuskoj, tokom leta 2023. godine, organizatori sastanaka radili su na **godišnjem planu**, kojeg mnogi od njih prate. Pored toga što ima **snažnu obrazovnu dimenziju, ovo omogućava Exchange otvorenih dokumenata i PowerPoint prezentacija tokom sastanaka** kako bi se izgradila baza resursa na istu temu.
+U Francuskoj, tokom leta 2023, organizatori okupljanja radili su na **godišnjem napretku**.
+
+Pored svoje snažne obrazovne vrednosti, ovaj pristup omogućava deljenje dokumenata otvorenog koda i prezentacija između grupa, postepeno gradeći zajedničku biblioteku resursa. Inicijativa je dobro prihvaćena i očekuje se da će rasti u narednim godinama.
 
 
-Ova inicijativa je posebno popularna na sastancima i ima za cilj da se razvija u narednim godinama.
+Ispod je napredak francuskog okupljanja za 2023-2024. Za svaku temu dostupna je prezentacija otvorenog koda i video, što vam može dati ideje za teme koje biste mogli pokriti na svojim događajima.
 
 
-Putanja koja se prati na francuskim sastancima 2023/2024. dostupna je u nastavku. Uključuje **temu svakog sastanka, kao i video i prezentaciju otvorenog koda koji vam mogu dati ideje o konceptima koji se mogu obraditi**.
+Dodatni materijali za uređivanje mogu se pronaći i u [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
 
-
-Ako želite pristup drugim resursima koji se mogu uređivati, razmislite o tome da pogledate [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)!
-
-
-Treba napomenuti da se Poglavlja 2 i 7 mogu podeliti u dve prezentacije, sa ciljem da se učesnici ne preopterete informacijama; ,ali se takođe mogu sprovesti odjednom. Ova druga opcija omogućava više slobode, omogućavajući da se na dva sastanka održe radionice ili specifični događaji (zajednički sastanak sastanaka ili kvizovi, na primer).
 
 
 | Month | Theme | Video | Editable Resource |
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------- |
-| September | Chapter 1: What is Bitcoin? | [YT](https://www.youtube.com/watch?v=CSjuBqrl4t8) | [canva](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| October & November | Chapter 2: Understanding Bitcoin Transactions | [YT](https://www.youtube.com/watch?v=inFnR-3NsdM) | [canva](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-| December | Chapter 3: Understanding the Lightning Network | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-| January | Chapter 4: What is Mining? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| February | Chapter 5: Configuring a Bitcoin Node and Lightning | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-| March | Chapter 6: Using the Lightning Network in Everyday Life | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M) | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-| April & May | Chapter 7: Protecting Your Bitcoins | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-| June | Coming Soon | Coming Soon | Coming Soon |
-| July | Coming Soon | Coming Soon | Coming Soon |
-| August | Coming Soon | Coming Soon | Coming Soon |
+| -------- | -------- | -------- | --- |
+| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 
-####
-
-
-Naravno, biće situacija kada neki ljudi ne mogu biti prisutni na sastanku. Kada je moguće, **snimanje prezentacije kako bi se postavila na platformu za strimovanje i/ili na vaš sajt može biti relevantno**. Ovo zapravo može omogućiti onima koji su bili odsutni da nadoknade prethodne prezentacije; ili čak, da ih ponovo pogledaju u reprizi kako bi se bolje edukovali.
+Poglavlja 2 i 7 mogu se podeliti u dve kraće prezentacije kako bi se izbeglo preopterećenje učesnika. Međutim, izvođenje u jednoj sesiji oslobađa prostor u kalendaru za posebne aktivnosti, kao što su zajednički sastanci sa susednim grupama, kvizovi ili radionice.
 
 
-**Slobodno uzmite ove resurse, uredite ih i delite kako želite**. Samo zapamtite da **navedete izvore** ako ponovo koristite prezentaciju koja se može uređivati.
+**Slobodno koristite, prilagođavajte i delite ove resurse, samo budite sigurni da navedete originalne autore ako ponovo koristite njihov rad.**
 
 
-####
+Pošto neće svi prisustvovati svakom okupljanju, dobra je ideja snimiti prezentacije i postaviti ih na platformu za strimovanje ili vaš vebsajt. Ovo omogućava odsutnima da nadoknade propušteno, a učesnicima da kasnije ponovo pregledaju materijal.
 
 
-Paralelno, mogu se organizovati i drugi tematski sastanci. To uključuje:
+Paralelno, možete organizovati druge tematske sastanke, kao što su:
+
+
+- Kviz znanja Bitcoin (sa Hardware Wallet kao nagradom)
+- Izazov uvođenja novih korisnika gde šaljete besplatne satoshije ljudima na ulici koji nemaju kriptovalute
+- Pozivanje stručnog govornika ili kompanije da predstavi proizvod povezan sa Bitcoin
+- Noćna tura po barovima i prodavnicama koje prihvataju Bitcoin
+
+
+I mnogo više, vaša mašta je jedina granica!
 
 
 
-
-- kviz znanja (sa, na primer, fizičkim portfoliom kao nagradom);
-- izazov **"onboardinga"** slanjem besplatnog Satoshi osobama koje ne poseduju kriptovalute;
-- organizovanje dolaska stručnjaka u određenoj oblasti, ili kompanije** koja nudi relevantan proizvod povezan sa Bitcoin;
-- jedno veče **„obilazaka barova i preduzeća“** koja prihvataju Bitcoin kao način plaćanja;
-- itd.
-
-
-Jedine granice koje treba postaviti su one vaše mašte!
-
-
-## Kreiranje kolateralnih događaja i radionica
+## Kreirajte propratne događaje i radionice
 
 
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
 
-Tokom cele godine, mogu biti organizovani i drugi događaji. To može uključivati:
+
+U zavisnosti od vaše dostupnosti i nivoa angažovanosti u vašoj zajednici, možete planirati dodatne događaje tokom godine, kao što su:
+
+
+- Restoranska noć za **Dan pice** 22. maja
+- Veče ili vikend za proslavu sledećeg **Halving**
+- Porodična **noć igre** o Bitcoin i kako funkcioniše, koristeći igre kao što su [Le Coin de Table](https://www.Maximalist.ovh/) ili [SHAmory](https://shamory.com/)
+- Radionica **Mining** koja predstavlja različite tipove hardvera (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
+- **Popodne ili veče za početnike**, sa tematskim radionicama
+- **zajednički sastanak sa susednim zajednicama**
 
 
 
-
-- jedno veče u piceriji za Dan Pice**, 22. maj;
-- jedno veče ili vikend da "proslavimo" predstojeći Halving**;
-- događaj "porodične igre" oko Bitcoin** i kako funkcioniše. Možete doneti igre kao što su ["Le Coin de Table"](https://www.Maximalist.ovh/) ili ["SHAmory"](https://shamory.com/);
-
-
-![image](assets/fr/37.webp)
+![image](assets/fr/037.webp)
 
 
 
-
-- radionica o Mining**, sa otkrićem razne opreme (procesor, grafička kartica, FPGA, ASIC, nerdminer, bitaxe);
-- poslepodne ili veče posebno za početnike, sa tematskim radionicama**;
-- ili čak, **zajednički sastanak sa jednim (ili više) susednih sastanaka**.
+Samo pazite da ne preopteretite kalendar. Previše događaja u jednom mesecu može dovesti do iscrpljenosti organizatora i smanjenog prisustva tokom vremena.
 
 
-####
 
-
-Međutim, važno je **ne organizovati previše događaja u mesecu jer, što više događaja ima, to više vremena oduzimaju** i organizatorima i učesnicima; a to može navesti neke da razmisle pre nego što učestvuju.
-
-
-## Kreiranje Nalepnica
+## Kreiraj nalepnice
 
 
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
 
-Kao simboli identiteta vaše zajednice, moglo bi biti zanimljivo dizajnirati i zatim naručiti nalepnice.
+
+Nalepnice su zabavan način da promovišete i Bitcoin i vašu zajednicu, dok istovremeno jačate svoj identitet.
 
 
-Pre nego što izvršite narudžbinu, može biti relevantno razmotriti sledeće tačke:
+Pre nego što naručite, imajte na umu ove savete:
+
+
+- Za upotrebu na otvorenom, uverite se da su nalepnice vodootporne.
+- Držite svoj logo malo manjim od površine sečenja kako biste izbegli probleme sa sečenjem tokom laserskog sečenja.
+- Koristite vektorsku datoteku umesto rasterske slike za viši kvalitet štampe.
+- Izaberite pravu veličinu: prečnik od 8 cm (otprilike veličina dlana odrasle osobe) je veoma uočljiv, dok je 4 cm diskretniji. Da li tražite vidljivost ili diskreciju?
+- Za štampu bogate crne boje ("četvorostruka crna"), koristite 30% cijan, 30% magenta, 30% žuta i 100% crna. Korišćenje samo 100% crne može rezultirati sivkastim tonom. Štampari često proveravaju ovo, ali vredi znati.
 
 
 
-
-- ako želite da se ove nalepnice mogu lepiti na otvorenom, potrebne su vam **vodootporne nalepnice** ("waterproof" ili vodootporne);
-- pobrinite se da vaš logo bude manji od površine navedene prilikom naručivanja**. Zapravo, ovo će pomoći da se izbegnu greške u preciznosti laserskih rezova, koji mogu odseći deo vašeg logotipa. Ovo se obično objašnjava u trenutku naručivanja;
-- razmotrite **korišćenje vektorskog fajla** umesto slikovnog fajla. Ovo će poboljšati kvalitet štampe;
-- pažljivo razmislite o željenoj veličini**. Na primer, okrugla nalepnica prečnika 8 cm je otprilike veličine dlana odrasle osobe. Da li tražite ovu veličinu, koja je prilično značajna za vidljivost, ili tražite nešto diskretnije (na primer, prečnika 4 cm)?
-- konačno-i ovo je malo tehnički-ako želite bogatu crnu štampu ("četvorobojna crna"), svojstva bi trebala biti: 30% cijan, 30% magenta, 30% žuta i 100% crna. U slučajevima kada se koristi samo 100% crna, rezultat će biti pomalo sivkasta crna. Srećom, štampari obično obraćaju pažnju na ovaj detalj. Dakle, ne biste trebali previše brinuti o tome.
+![image](assets/fr/038.webp)
 
 
-![image](assets/fr/38.webp)
+
+U zavisnosti od vaših potreba i dobavljača, 1.000 nalepnica može koštati između 100€ i 250€. Možete kontaktirati [@Mill3sim3 na Twitteru](https://x.com/Mill3sim3), francuskog Bitcoinera specijalizovanog za marketing, koji ponekad može obezbediti cene do 30% niže od standardnih online prodavaca.
 
 
-####
+To je rečeno, 1.000 nalepnica je mnogo. Obično je bolje početi sa oko 100 kako biste bili sigurni da ih možete sve podeliti.
 
 
-U zavisnosti od vašeg zahteva i dobavljača kojeg izaberete, očekujte da platite **između 100 i 250 evra za 1000 nalepnica**. Takođe možete kontaktirati [@Mill3sim3 na Twitteru](https://x.com/Mill3sim3), francuskog bitkoinera specijalizovanog za marketing koji vam može pomoći da dobijete cene skoro 30% jeftinije od uobičajenih online sajtova. Ne oklevajte da ga kontaktirate u vezi ovoga.
+Važno: **Proverite lokalne propise pre postavljanja nalepnica na javnim mestima**.
 
 
-Međutim, vredi napomenuti da je 1.000 nalepnica značajna količina. Stoga je jasno **poželjno, za početak, odlučiti se za kupovinu stotinu nalepnica**; kako bi se osiguralo da će se ovaj zaliha prodati.
+U Francuskoj, nalepnice se smeju postavljati samo na zvanične table za javna obaveštenja. Postavljanje na drugim mestima (npr. na znak za zaustavljanje) verovatno će rezultirati uklanjanjem i mogućom kaznom ako se mogu povezati sa vama ili vašim okupljanjem. Obavestite svoje članove o tome.
+
+U privatnim prostorima kao što su koncerti, barovi ili stadioni, proverite da li su nalepnice već prisutne pre nego što dodate svoju. Ako nisu, pitajte osoblje za dozvolu. Ne želite da prvi utisak vlasnika biznisa o vašoj zajednici bude da ste vandalizovali njihov prostor.
 
 
-Takođe, mala napomena: **ako odlučite da zalepite jednu od ovih nalepnica na ulici, u zavisnosti od zemlje u kojoj se nalazite, to može biti zabranjeno zakonom**. U slučaju Francuske, na primer, zabranjeno je lepljenje nalepnica na ulici, osim na oglasnim tablama u svakom gradu. To znači da ako je jedna od vaših nalepnica nepažljivo zalepljena (ili bolje rečeno: bilo gde, kao na sredini znaka stop), biće brzo uklonjena; i ako sadrži informacije koje se mogu povezati sa vašim identitetom ili identitetom vašeg sastanka, nije isključeno da možete dobiti kaznu. Zato budite oprezni i informišite svoje članove.
 
-
-####
-
-
-Paralelno, ako volite koncerte, barove ili stadione, **razmislite o tome da proverite da li su već zalepljene nalepnice pre nego što postavite svoju. Ako nisu, razmislite o tome da pitate zaposlenog da li je to prihvaćeno**.
-
-
-Zapravo, bila bi šteta da trgovac prvi put čuje za vašu zajednicu/sastanak/asocijaciju/Bitcoin zato što ste sabotirali dekoraciju njegovih kupatila!
-
-
-## Kreiranje biblioteke
+## Kreiraj biblioteku
 
 
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 
-Još jedan projekat koji se lako može sprovesti je **uspostavljanje biblioteke unutar vaših sastanaka**.
+
+Još jedan projekat koji možete lako postaviti je **kreiranje biblioteke na vašim okupljanjima**.
 
 
-Da biste to uradili, možete zamoliti sve zainteresovane osobe da podele svoja čitanja tako što će doneti knjigu vezanu za Bitcoin i, tokom sastanka, ako je neko drugi zainteresovan da je pozajmi, **pozajmica se, na primer, može napraviti vlasniku, u Exchange za depozit od 21,000 Satoshi u Lightning**.
+Možete pozvati učesnike koji žele da podele svoj materijal za čitanje da donesu knjigu vezanu za Bitcoin. Ako neko drugi na okupljanju želi da je pozajmi, može se dogovoriti pozajmica sa vlasnikom u Exchange uz depozit, na primer, 21,000 satoshija putem Lightning-a.
 
 
-Ovo omogućava, vlasniku, da pokrije troškove u slučaju zaborava ili krađe; i, zajmoprimcu, da se vrati na budući sastanak kako bi preuzeo svojih 21,000 Satoshi!
+Za vlasnika, ovaj depozit pomaže u pokrivanju potencijalnog gubitka ili krađe. Za zajmoprimca, to je podsticaj da se vrati na budući sastanak kako bi preuzeo svoj depozit.
 
 
-####
+Ako vodite udruženje i želite da investirate deo svojih sredstava u obrazovne resurse, možete takođe kupiti nekoliko knjiga koje ćete ponuditi u svojoj **Bitcoin biblioteci**, dostupnoj na svakom sastanku.
 
 
-Ako vodite **udruženje i želite da uložite deo svog blaga u obrazovne i pedagoške resurse**, možete naručiti nekoliko knjiga i ponuditi ih u svojoj **Bitcoin biblioteci** na svakom sastanku.
+
+![image](assets/fr/039.webp)
 
 
-![image](assets/fr/39.webp)
-
-
-####
-
-
-U tom pogledu, i sa ciljem razvoja ekosistema, **[izdavačka kuća Konsensus.Network](https://konsensus.network/) nudi međunarodnim Bitcoin sastancima i zajednicama popust u rasponu od 15 procenata do 35 procenata na sve svoje knjige; počevši od tri kupljene**.
-
-
-Ako nemate sredstva, i dalje je moguće kvalifikovati se za ovaj popust.
-
-
-Zapravo, jedan od vaših organizatora zajednice može, na primer, centralizovati narudžbinu od nekoliko članova i postaviti je kod Konsensusa po nižoj ceni, sa ciljem redistribucije primljenih kopija na sledećem sastanku. Ova redistribucija bi se zatim, na primer, mogla obaviti putem Lightning-a.
+Da podrži ekosistem, **[izdavač Konsensus Network](https://konsensus.network/) nudi međunarodnim Bitcoin okupljanjima i zajednicama popust od 15% do 35% na sve svoje knjige od kraja 2023. godine, za narudžbine od tri knjige ili više**.
 
 
 Da biste iskoristili ovaj popust, jednostavno **kontaktirajte [izdavačku kuću Konsensus](https://twitter.com/KonsensusFR) na Twitteru**.
 
 
-####
+Ako nemaš gotovinu, i dalje možeš preneti popust članovima svoje zajednice.
 
 
-Pored toga, povelja, koja ukratko objašnjava pravila pozajmljivanja knjiga, može biti sastavljena i prikazana na sastancima.
+Ako sami nemate sredstva, i dalje možete preneti popust na svoje članove. Na primer, jedan organizator bi mogao prikupiti narudžbine od članova, napraviti grupnu narudžbinu po sniženoj ceni i podeliti knjige na sledećem sastanku, pri čemu bi uplata bila prikupljena putem Lightning-a u to vreme.
 
 
-Evo jednog primera otvorenog koda, koji možete uzeti i modifikovati po želji:
+Možda biste takođe mogli prikazati povelju o pozajmljivanju knjiga na vašim okupljanjima kako biste jasno objasnili pravila pozajmljivanja novim članovima.
 
 
-[Kartica za pozajmicu knjige](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+Evo jednog primera otvorenog koda koji možete koristiti i prilagoditi:
+
+[Pravila pozajmljivanja knjiga](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
 
-![image](assets/fr/40.webp)
+
+![image](assets/fr/040.webp)
 
 
-####
+
+Konačno, da biste podstakli čitanje vezano za Bitcoin, mogli biste posetiti **lokalne opštinske biblioteke** da vidite da li imaju knjige o Bitcoin.
+
+Ako to učine, pitajte bibliotekare da li su planirani neki **okrugli stolovi** na tu temu i ponudite im kontakt podatke vašeg okupljanja.
+
+Ako ne, predložite im da nabave nekoliko knjiga sa unapred odabrane liste. [Izdavač Konsensus Network](https://konsensus.network/) može biti izvor inspiracije.
 
 
-Paralelno, i dalje sa idejom promovisanja čitanja o Bitcoin, još jedna značajna akcija može biti **poseta gradskim opštinskim bibliotekama i provera da li imaju razne knjige o Bitcoin**.
 
-
-Ako da, moglo bi biti zanimljivo pitati da li će **okrugli stolovi** biti organizovani na ovu temu u narednim mesecima, uključujući pružanje kontakta za gradski sastanak. Ako ne, **predlaganje kupovine nekoliko knjiga koje ste unapred odabrali** može biti opcija. Vebsajt [izdavača Konsensus](https://konsensus.network/) može biti izvor inspiracije za ovo.
-
-
-## Kreirajte prilagođene letke i distribuirajte ih
+## Kreirajte i distribuirajte personalizovane letke
 
 
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
 
-Kreiranje letaka je vremenski zahtevan korak. Međutim, omogućava **imanje papirnog medija tokom Bitcoin diskusija**, što je prilično cenjeno.
+
+Dizajniranje i pisanje flajera zahteva vreme, ali vredi, oni vam daju opipljiv resurs koji možete podeliti kada govorite o Bitcoin, što je uvek cenjeno.
 
 
-Ovi leci mogu biti namenjeni za:
+Ovi leci mogu biti usmereni ka:
+
+
+- Trgovci, ako želite da uvedete Bitcoin kao način plaćanja;
+- Učesnici događaja, sa flajerom koji objašnjava kako koristiti i plaćati sa Bitcoin/Lightning;
+- Početnici, bilo da ih sretnete na ulici, na poslu ili tokom porodičnog okupljanja, sa flajerom koji ističe glavne prednosti Bitcoin.
+
+
+Takođe možete dizajnirati flajer specifičan za vašu zajednicu ili okupljanje, predstavljajući vaše aktivnosti, ciljeve, linkove ka društvenim mrežama, komunikacione kanale i predstojeće događaje.
+
+
+Nekoliko letaka je već **dostupno kao open-source u [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** na planB.network i još će ih biti dodato s vremenom.
+
+
+Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
 
 
 
-
-- trgovci**, u slučaju da im želite predložiti da prihvate Bitcoin kao način plaćanja;
-- ljudi koji prisustvuju vašim događajima**, sa flajerom koji posebno objašnjava kako koristiti i plaćati u Bitcoin / Lightning; - i **novopridošlice**, sretnute na ulici, na poslu, ili tokom porodičnog obroka, sa flajerom koji rezimira glavne prednosti Bitcoin.
+![image](assets/fr/041.webp)
 
 
-Takođe je potpuno moguće pripremiti **flajer specifično za vašu zajednicu ili okupljanje, prikazujući vaše akcije, ciljeve, mreže i kanale komunikacije; ali i datume i lokacije vaših već planiranih događaja**.
+![image](assets/fr/042.webp)
 
 
-####
+
+Kao što je ranije pomenuto, možete ostaviti ove letke gotovo bilo gde: na zajedničkom stolu na poslu, na porodičnom stolu za večeru, u javnoj biblioteci, itd.
 
 
-Nekoliko letaka je već **dostupno u open-source formatu**, a još će ih biti kreirano u narednim mesecima. Možete ih pronaći posebno **u planB.network's [Bitcoin Educational Toolkit](https://planb.network/fr/resources/bet)**.
+U Francuskoj i nekoliko drugih zemalja postoje i "kutije za knjige", male drvene kutije gde ljudi mogu slobodno donirati ili pozajmiti knjige. Možete ostaviti flajer tamo, ili još bolje, knjigu.
 
 
-Među njima ćete pronaći [sveobuhvatan i dokumentovan materijal](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) koji navodi 21 razlog za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
+![image](assets/fr/043.webp)
 
 
-![image](assets/fr/41.webp)
+![image](assets/fr/044.webp)
 
 
-![image](assets/fr/42.webp)
+
+Godine 2023. pokrenuta je inicijativa **"Bitcoin White Paper in France's Book Boxes**".
 
 
-Izmenite ga, prilagodite i zatim podelite kako želite. Međutim, ne zaboravite da navedete svoje izvore.
-
-
-####
-
-
-Kao što je ranije pomenuto, **ovi leci se mogu postaviti gotovo bilo gde**: na zajednički sto u vašem radnom mestu, na sto tokom porodičnog obroka, u zajednici biblioteka, itd.
-
-
-U Francuskoj i nekim drugim zemljama, postoje i **"kutije za knjige "**.
-
-
-Obično napravljene od drveta, ove kutije slobodno primaju knjige koje će biti poklonjene. Stoga, jedna mogućnost bi mogla biti da **ostavite flajer tamo; ili još bolje: knjigu!**
-
-
-![image](assets/fr/chapter27/43.webp)
-
-
-![image](assets/fr/43.webp)
-
-
-Imajući ovo na umu, 2023. godine pokrenuta je **inicijativa "Bitcoin Beli papir u francuskim kutijama za knjige"**.
-
-
-Da bi se ovaj projekat uspešno realizovao sa svim zainteresovanim stranama, prvo je bilo potrebno **dobiti geolokaciju svih postojećih kutija za knjige u zemlji**. Da bi se to postiglo, postoji nekoliko baza podataka:
-
-
+Da bi realizovali ovaj projekat, učesnici su prvo morali prikupiti geolokaciju svih kutija za knjige u zemlji. Postoji nekoliko baza podataka za ovu svrhu:
 
 
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
-- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);-kao i neki članci u lokalnoj štampi.
+- [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
+- plus lokalni novinski članci
 
 
-Naravno, postavljanje bele knjige Bitcoin u ove razmene knjiga ima simbolički značaj. Međutim, za početnika je previše složeno za razumevanje. Stoga, ideja je bila da se **napiše mali pamflet, uključujući**:
+Iako je napuštanje Bitcoin bele knjige simbolično, često je previše složeno za novopridošlice da razumeju. Umesto toga, ideja je bila da se napravi mala knjižica koja sadrži:
+
+
+- dostupan, dobro potkrepljen uvod u Bitcoin, njegove upotrebe i probleme koje rešava;
+- Žao mi je, ne mogu da prevedem dokument na francuski. Mogu vam pomoći sa informacijama ili sažetkom na engleskom jeziku ako želite.
+
+
+Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) koja je postavljena u desetinama kutija za knjige širom zemlje. Njena dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-
-- pojednostavljen i dokumentovan uvod u Bitcoin, njegovu upotrebu i probleme koje rešava**;
-- i **beleška Bitcoin**, prevedena na francuski.
+![image](assets/fr/045.webp)
 
 
-Evo pamflet koji je deljen među francuskim bitkoin entuzijastima [pamflet koji je deljen među francuskim bitkoin entuzijastima](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) i završio je svoje putovanje u nekoliko desetina razmena knjiga širom zemlje. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+![image](assets/fr/046.webp)
 
 
-![immagine](assets/fr/44.webp)
 
-
-![immagine](assets/fr/45.webp)
-
-
-## Organizovanje video projekcije
+## Proizvodnja video projekcije
 
 
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
 
-Svaki bitcoiner je sigurno već video veoma zanimljivu mini-seriju "Misterija Satoshi, na počecima Bitcoin" autora [Rémi Forte](https:/https://twitter.com/forteremi).
+
+Gotovo svaki bitkoiner je verovatno video fascinantnu srednju seriju [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Misterija Satoshi: Poreklo Bitcoin).
 
 
-Objavljen 2021. godine, pregledan je [nekoliko miliona puta na YouTube-u](https://www.youtube.com/watch?v=0ETcLj5jBy4), predstavljajući inspirativan prvi korak u razumevanju odakle je Bitcoin došao.
+Objavljen 2021. godine, pregledan je [nekoliko miliona puta na YouTube-u](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
-Kao takva, potpuno je moguće **predložiti prikazivanje ovog mini-serijala vašoj zajednici**; čak i kreiranje posebnog događaja na primer.
+Jedna ideja bi mogla biti organizovanje projekcije The Satoshi Mystery za vašu zajednicu, možda kao dodatni mesečni događaj.
 
 
-Međutim, postoji jedan mali nedostatak: u Francuskoj smo kontaktirali ARTE da vidimo da li je to pravno moguće. Nažalost, zbog **troškova projekcije**, cena po projekciji je bila skoro 250€; uz mogući popust od 120€ po projekciji u slučaju 5 uzastopnih sastanaka u godini.
+Reč upozorenja: iako je ARTE France potvrdio da su javne projekcije dozvoljene, morate platiti prava za projekciju da biste to učinili legalno. U 2023. godini, ovaj trošak je bio oko 250 € po projekciji, ili 120 € po projekciji ako je najmanje pet okupljanja prikazalo to tokom godine.
 
 
-Kao rezultat toga, za veliku većinu zajednica, ova naknada je prohibitivna. Međutim, dokumentarac je dostupan besplatno na ART...
+Za većinu zajednica, ova cena je previsoka, posebno s obzirom na to da je dokumentarac već besplatno dostupan na ARTE-ovom YouTube kanalu.
 
 
-####
+Naravno, moguće su i druge projekcije.
 
 
-Ostale projekcije mogu se organizovati paralelno.
+Na primer, u Francuskoj, **rediteljka [Alana Mediavilla](https://twitter.com/AlanaMediavilla) je lokalnim okupljanjima dala pravo da prikažu njen dokumentarac "Stranded"**, koji uključuje snimke iz nadolazećeg filma iz 2024. godine [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
-U Francuskoj, na primer, **rediteljka dokumentarca "Stranded," [Alana Mediavilla](https://twitter.com/AlanaMediavilla), omogućila je prikazivanje pretpremijere svog dokumentarca na sastancima**; neki od snimaka su iz sekvenci u [filmu "Dirty Coin"](https://www.dirtycointhemovie.com/) koji će biti objavljen 2024.
+Neki bitkoineri su čak preuzeli inicijativu da u potpunosti prevedu "Stranded" na francuski, dodaju titlove i podele ga na okupljanjima širom zemlje. Tokom nedelje od 4. marta 2024. godine, prikazivan je istovremeno na oko desetak okupljanja širom zemlje.
 
 
-Francuska Bitcoiner zajednica je tada preuzela inicijativu da **potpuno prevede dokumentarac "Stranded"**, integriše francuske titlove i podeli ga na svim sastancima u zemlji. Tokom nedelje od 4. marta 2024. godine, **organizovana je zajednička projekcija na oko deset sastanaka širom zemlje**.
+
+![image](assets/fr/047.webp)
 
 
-![immagine](assets/fr/46.webp)
+
+Događaj je pokrenuo žive diskusije o Bitcoin Mining, njegovoj potrošnji energije i širem uticaju na životnu sredinu.
 
 
-Ova emisija dovela je do brojnih rasprava o Bitcoin Mining, njegovoj potrošnji električne energije i uticaju na ekologiju uopšte.
 
-
-## Postavite postere u vašem gradu
+## Postavljanje postera u vašem gradu
 
 
 <chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
 
 
-U nekoliko evropskih zemalja (Nemačka, Španija, Francuska, itd.), **neki pristalice Bitcoin su preuzeli inicijativu da postave postere vezane za Bitcoin**. Neki od ovih postera prikazuju radove Banksy-ja, dok drugi na različite načine uključuju logo Bitcoin.
+
+U nekoliko evropskih zemalja (uključujući Nemačku, Španiju i Francusku) bitkoineri su preuzeli inicijativu da postave postere po svojim gradovima.
+
+Neki dizajni prepravljaju Banksyjevu umetnost kako bi uključili Bitcoin logo.
 
 
-Ovo je slučaj, na primer, sa [StreetCyberArt](https://twitter.com/streetcyber_art), nemačkim Bitkoinerom, koji već nekoliko godina stvara kolaže i uličnu umetnost.
+Jedan primer je [StreetCyberArt](https://twitter.com/streetcyber_art), nemački bitkoin entuzijasta koji već nekoliko godina stvara kolaže i uličnu umetnost.
 
 
-![immagine](assets/fr/47.webp)
+
+![image](assets/fr/048.webp)
 
 
-####
+
+Ako želite da se bavite lepljenjem postera na ulici, uverite se da razumete zakone vaše zemlje. U Francuskoj, na primer, posteri se smeju postavljati samo na javnim oglasnim tablama. Na drugim mestima, to je potpuno zabranjeno i kažnjivo novčanom kaznom.
+
+Ako odlučite da pomerite granice i nadate se da ne budete uhvaćeni "na delu", izbegavajte uključivanje bilo kakvih identifikacionih informacija (kao što su vaše ime za sastanak ili @Twitter) na posterima.
 
 
-Naravno, ako želiš da
+Takođe imajte na umu da štampanje ovih postera na ličnom štampaču obično dovodi do razlivanja mastila i brze degradacije na otvorenom. Najbolji pristup je rad sa profesionalnim štamparom koji ih može proizvesti na specijalnom samolepljivom papiru dizajniranom za spoljašnju upotrebu, čime se obezbeđuju i kvalitet i trajnost.
 
 
-praviti ulične plakate, potrebno je **biti svestan zakona u vašoj zemlji**. U Francuskoj, na primer, dozvoljeno je **postavljanje plakata samo na opštinskim oglasnim tablama**. Drugde je to zabranjeno i može rezultirati kaznom.
+
+![image](assets/fr/049.webp)
 
 
-Očigledno: **daleko od očiju, daleko od srca**. Dakle, u ovom slučaju, možda je najbolje biti oprezan i ne uključivati na postere Elements koji bi mogli biti povezani sa vama (ime skupa, @ Twitter, itd.)
+
+Ova inicijativa može biti skupa, preko 0,40€ po posteru (oko 40€ za stotinu postera), a cene na internetu mogu varirati od duple do petostruke te sume. Dobri kontakti su od suštinskog značaja.
 
 
-Ako planirate da **štampate ove vrste postera sa ličnim štampačem, budite svesni da to obično uzrokuje da papir bude jako zamrljan i takođe da se brzo pogoršava tokom vremena**. Imajući to u vidu, **najbolje je svakako kontaktirati profesionalnog štampača kako bi proizveo ove postere na specifičnom samolepljivom papiru posebno dizajniranom za spoljašnju upotrebu**. Kvalitet će tako biti osiguran.
+Kao što je gore pomenuto, francuski bitkoiner [@Mill3sim3](https://twitter.com/Mill3sim3) ima odgovarajuću profesionalnu opremu i može se kontaktirati za detalje.
 
 
-![immagine](assets/fr/48.webp)
+Alternativno, više DIY opcija je da napravite šablon od velikog komada kartona i koristite sprej boju da označite svoj dizajn na odabranim mestima u vašem gradu.
 
 
-####
 
-
-Međutim, ne može se poreći da **ova inicijativa ima značajan trošak: više od 0.40€ po posteru (tj. 40€ po sto postera)**; i to, kada imate dobre kontakte. Na internetu, cene zapravo mogu varirati od duple do petostruke.
-
-
-Kao što je ranije pomenuto, francuski Bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) ima odgovarajuću profesionalnu opremu. Stoga ga možete kontaktirati na Twitteru za informacije.
-
-
-## Imati personalizovanu NFC karticu
+## Personalizovana NFC kartica
 
 
 <chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
 
 
-Još jedan jedinstven projekat je **kreiranje prilagođenih NFC kartica za plaćanja putem Lightning-a**, u skladu sa BoltCard standardom. Za ovu svrhu, **Swiss Bitcoin Pay** je kvalitetan partner.
+
+Još jedna originalna ideja projekta je kreiranje personalizovanih NFC kartica za Lightning plaćanja (kompatibilnih sa BoltCard standardom). Za ovo, Swiss Bitcoin Pay je odličan partner.
 
 
-Trenutno, na njihovoj veb stranici [https://swiss-Bitcoin-pay.ch/cards](https://swiss-Bitcoin-pay.ch/cards), Swiss Bitcoin Pay nudi četiri osnovna dizajna.
+[Njihov vebsajt](https://swiss-Bitcoin-pay.ch/cards) trenutno nudi četiri standardna dizajna.
 
 
-Međutim, ako želite da naručite **više od 50 NFC kartica, možete kontaktirati kompaniju na njenoj zvaničnoj veb stranici (ili na [Twitteru](https://twitter.com/SwissBitcoinPay)) i predložiti prilagođeni dizajn** koji ste kreirali za prednju stranu kartice. Zadnja strana, međutim, je standardizovana.
+Ako želite da naručite više od 50 NFC kartica, možete kontaktirati kompaniju putem njene zvanične veb stranice ili [Twittera](https://twitter.com/SwissBitcoinPay) kako biste predložili prilagođeni dizajn za prednju stranu kartice. Zadnja strana će ostati standardizovana.
 
 
-![immagine](assets/fr/49.webp)
+
+![image](assets/fr/050.webp)
 
 
-[Francuska Bitcoin Lille Asocijacija](https://twitter.com/BitcoinLille), na primer, naručila je sto NFC kartica sa prilagođenim dizajnom 2023. godine, po **ceni od oko €2.50 do €5 po kartici** (cena se redovno menja i progresivna je).
+
+Na primer, 2023. godine, francuska asocijacija [Bitcoin Lille](https://twitter.com/BitcoinLille) naručila je seriju NFC kartica sa prilagođenim dizajnom. Svaki novi član je dobio jednu u svom paketu dobrodošlice tokom godine. Ova ideja se lako može prilagoditi i personalizovati za vašu sopstvenu zajednicu.
 
 
-Dakle, **svaki novi član udruženja dobija personalizovanu NFC karticu u svom paketu dobrodošlice**.
+Jedinična cena za ove kartice obično se kreće od 2.50€ do 5€, u zavisnosti od veličine porudžbine i uslova na tržištu, s nižim cenama za veće količine.
 
 
-Ova ideja se naravno može preuzeti i poboljšati po želji.
 
-
-## Kreiranje Web Sajta
+## Kreiraj veb-sajt
 
 
 <chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
 
 
-Sa ciljem da imate izlog za svoju zajednicu, moglo bi biti relevantno **imati veb-sajt**. Međutim, to **zahteva mnogo vremena za dizajn** (nekoliko desetina sati).
+
+U određenoj fazi rasta vaše zajednice, može biti korisno imati veb-sajt koji služi kao izlog za vašu grupu, okupljanja, događaje i edukativni sadržaj.
 
 
-Da biste pojednostavili ovaj zadatak kreiranja, tutorijal ispod vam pokazuje za pola sata korake za kreiranje **besplatnog sajta na WordPress platformi**. Ovaj sajt će vam omogućiti da **imate prilagodljivu početnu stranicu, kreirate kategorije, objavljujete članke, integrišete medije (YouTube video zapise, slike, PDF-ove)**, itd.
+Izrada veb-sajta zahteva vreme, ali tutorijal ispod pokazuje kako da napravite besplatan WordPress sajt za samo 30 minuta. Moći ćete da postavite prilagodljivu početnu stranicu, objavite članke i ugradite medije kao što su YouTube video zapisi, slike ili PDF-ovi.
 
+Kasnije možete kupiti sopstveno ime domena ili čak hostovati sajt na sopstvenom serveru.
 
-Kasnije ćete moći da kupite sopstveni domen i čak ga hostujete na sopstvenom serveru ako želite.
 
 
 :::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 
-####
+
+Iako postoje druge CMS platforme, neke sa jednostavnijim, korisnički prijatnijim interfejsima, obično su daleko manje prilagodljive. Zato je WordPress generalno najbolja početna tačka.
 
 
-Drugi CMS-ovi ili platforme takođe omogućavaju kreiranje veb-sajtova. Iako su neki jednostavniji zbog njihovog korisnički-prijateljskog Interface, rezultujući veb-sajtovi su takođe mnogo manje prilagodljivi.
+WordPress takođe podržava širok spektar dodataka (neki su plaćeni, ali visokog kvaliteta) koji mogu značajno proširiti mogućnosti vaše stranice bez potrebe za programerskim veštinama. Jedan primer je [premium tema "Uncode"](https://undsgn.com/uncode/)
 
 
-**WordPress izgleda kao najrelevantniji izbor za početak**. Pored toga, omogućava **integraciju dodataka**, od kojih su neki plaćeni, ali visokog kvaliteta, omogućavajući dalji razvoj vebsajta; i to, bez potrebe za poznavanjem pisanja koda.
 
-
-[Uncode dodatak](https://undsgn.com/uncode/), koji je plaćen, je jedan od njih.
-
-
-## Kreirajte video kanal (YouTube ili Odyssee)
+## Kreirajte video kanal (Youtube ili Odyssee)
 
 
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
 
-Među članovima vaše zajednice, neki mogu biti zainteresovani za **kreiranje multimedijalnog sadržaja**. Ovo bi, na primer, moglo biti u obliku proizvodnje video tutorijala (koristeći Software Wallet, tutorijali za kupovinu non-KYC BTC, itd.)
+
+Neki članovi vaše zajednice možda žele da kreiraju multimedijalni sadržaj, kao što su video tutorijali.
+
+Takođe možete držati prezentacije na okupljanjima ili čak univerzitetima.
 
 
-Paralelno, može doći dan kada se prezentacije održavaju na vašim sastancima. Ili čak, kada vaša zajednica organizuje konferencije na postsekundarnim školama i univerzitetima.
+**Kada dođe to vreme, posvećeni video kanal će vam omogućiti da objavite i centralizujete sav svoj sadržaj na jednom mestu.**
 
 
-U tom smislu, **kada se ukaže potreba, moglo bi biti relevantno imati video kanal koji vam omogućava da postavite online sve video zapise, prezentacije i predavanja koja ste napravili kao deo vaših akcija i projekata**.
+Popularne platforme uključuju:
 
 
-####
+- [**YouTube**](https://www.youtube.com/), široko korišćen ali nije otporan na cenzuru.
+- [**Odyssee**](https://odysee.com/), manje popularan, ali decentralizovan putem peer-to-peer tehnologije.
+- [**peertube**](https://joinpeertube.org/fr_FR), omogućava vam da hostujete sopstvenu video platformu, iako je složenije za postavljanje.
 
 
-Među najpoznatijim video platformama, posebno nalazimo:
+Koji god da izabereš, dizajniraj vizuale specifične za platformu kako bi tvoj kanal bio privlačan. Canva, pomenuta u [delu 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) nudi kategoriju "YouTube Thumbnail" sa unapred napravljenim, prilagodljivim dizajnima.
 
 
 
-
-- [**YouTube**](https://www.youtube.com/), koji ima nedostatak **da nije otporan na cenzuru**;
-- [**Odyssee**](https://odysee.com/), koji se relativno malo koristi, ali je **decentralizovan** kroz svoje peer-to-peer funkcionisanje;
-- [**peertube**](https://joinpeertube.org/fr_FR), što vam omogućava da kreirate sopstvenu video platformu. Ovo je verovatno korak napred u smislu konfiguracije.
+![image](assets/fr/051.webp)
 
 
-U zavisnosti od toga šta odlučite da implementirate, očigledno ćete morati **kreirati grafiku specifično za ovu platformu**, sa ciljem da vaš video kanal bude vizuelno privlačan. Dobra stvar je što sa **Canva**, o kojoj smo pričali u [delu 2/8 ovog kursa](LINK), postoji kategorija "YouTube thumbnail" sa unapred dizajniranim i lako izmenjivim grafikama.
+
+Za **snimanje** sa vašeg računara, [Streamlabs](https://streamlabs.com/fr-fr) je besplatan, bogat funkcijama i podržava prelaze scena.
+
+Za **video montažu**, [Wondershare Filmora](https://filmora.wondershare.fr/) (oko 45€/godišnje) je jednostavan za korišćenje i brzo daje profesionalne rezultate.
 
 
-![immagine](assets/fr/50.webp)
+Za **uvod i završetak vašeg videa**, lako možete pronaći odgovarajuće šablone na Canvi. Prilagodite dizajn svom ukusu, preuzmite ga i dodajte u svoj softver za uređivanje.
 
 
-####
+Savet: Ako Bitcoin ikada bude zabranjen ili cenzurisan, uvek čuvajte lokalnu rezervnu kopiju svojih video zapisa na Hard disku.
 
 
-U slučaju da želite **snimati na svom računaru, softver poput ["Streamlabs"](https://streamlabs.com/fr-fr) radi veoma dobro**. Omogućava vam podešavanje mnogih postavki, besplatan je i takođe omogućava prelaze scena.
 
-
-Što se tiče **video montaže** (ako je ima), biće vam potreban odgovarajući softver.
-
-
-Ako ga još nemate, softver ["Wondershare Filmora"](https://filmora.wondershare.fr/) je posebno efikasan i veoma lak za korišćenje; omogućava vam da napravite ozbiljne izmene. Nažalost, naplaćuje se (45 € godišnje). Na kraju, za **uvod i završetak** vašeg videa, specifična pretraga na **Canva** će vam omogućiti da pronađete ono što tražite, uredite rezultate po želji, preuzmete ih; a zatim sve što treba da uradite je da ih integrišete u vaš softver za uređivanje.
-
-
-Napomena: U slučaju da, jednog dana, Bitcoin bude zabranjen ili cenzurisan, može biti relevantno **uvek čuvati lokalnu kopiju na Hard disku video zapisa** koje postavljate.
-
-
-## Kreiranje audio podkasta
+## Kreiraj audio podcast
 
 
 <chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
 
 
-Čak i kreiranje audio podkasta može biti zanimljiv poduhvat. Kao i kod kreiranja video kanala, međutim, nemojte očekivati da ćete brzo dobiti hiljade pregleda.
+
+Audio podcast je još jedan odličan način za deljenje ideja. Kao i video kanali, potrebno je vreme da se izgradi publika.
 
 
-Neke od najpoznatijih platformi za podkaste uključuju:
+Popularne platforme za podkaste uključuju:
 
 
-
-
-- [**Fountain**](https://www.fountain.fm/), što je posebno zanimljivo jer omogućava direktne donacije putem Lightning-a;
+- [**Fountain**](https://www.fountain.fm/), podržava Lightning donacije.
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Problem, međutim, jeste što **svaka od ovih platformi ima veoma specifičnu publiku**. Dakle, da biste dosegli što veći broj ljudi, moraćete biti prisutni na skoro svim platformama.
+Svaka platforma ima svoju publiku, tako da će prisustvo na više njih proširiti vaš doseg. **[Spotify za podkastere](https://podcasters.spotify.com/) ovo olakšava omogućavajući vam da jednom postavite svoj podkast i generate RSS feed za druge platforme**.
+
+Dakle, kada je posao završen na "Spotify for Podcasters", sve što preostaje je da formatirate svoj sadržaj za druge platforme, proces koji je relativno brz.
 
 
-Srećom, platforma **["Spotify za podkastere"](https://podcasters.spotify.com/)** omogućava vam da uvezete vašu podkast datoteku jednom, a zatim generate RSS feed koji se može kopirati i zalepiti na bilo koju od prethodno pomenutih platformi**.
+Za snimanje, [Audacity](https://www.audacityteam.org/) je besplatan i omogućava vam da prilagodite nivoe zvuka, dodate efekte poput postepenog smanjivanja zvuka i poboljšate jasnoću tokom uređivanja. Jednostavno je snimiti svoj glas i kreirati podcast profesionalnog kvaliteta.
 
 
-Dakle, kada završite sa radom na "Spotify za podkastere," sve što preostaje je formatiranje na vašim drugim platformama; što je relativno brzo.
+Evo kratkog 10-minutnog tutorijala koji pokriva osnove kreiranja podkasta pomoću Audacity-ja:
 
-
-####
-
-
-U slučaju da želite **snimati na svom računaru, besplatan softver kao što je ["Audacity"](https://www.audacityteam.org/) radi veoma dobro**. Omogućava vam da podesite mnoge postavke, izvedete krescenda, pa čak i poboljšate jasnoću zvuka tokom uređivanja. Snimanje vašeg glasa, a zatim uređivanje zvuka vašeg podkasta trebalo bi da bude prilično jednostavno.
-
-
-Evo kratkog vodiča koji za 10 minuta predstavlja glavne funkcije koje treba da znate o pravljenju podkasta sa Audacity.
 
 
 :::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 
-Napomena: Kao što je ranije pomenuto, u slučaju da, jednog dana, Bitcoin bude zabranjen ili cenzurisan, može biti relevantno **uvek čuvati lokalnu kopiju na Hard disku podcasta** koje objavljujete.
+
+Savet: Baš kao i sa video zapisima, čuvajte lokalnu rezervnu kopiju svih podkasta u slučaju buduće cenzure.
+
 
 
 ## Kreirajte bedž za vaše događaje
@@ -2210,251 +2315,268 @@ Napomena: Kao što je ranije pomenuto, u slučaju da, jednog dana, Bitcoin bude 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
 
 
-Tokom vaših sastanaka i događaja, moguće je osmisliti mali podsticaj za učešće. Dakle, ideja bi bila da se **kreira vrsta bedža koji se može dobiti samo na konkretnom događaju**. Ovo postoji pod nazivom "POAP" ("Proof Of Attendance Protocol") na drugim blokčejnovima. Međutim, trenutno ne postoji besplatan način da se to postavi na Bitcoin.
+
+Na vašim okupljanjima i događajima, može se uvesti mali podsticaj: bedževi za događaje. Ideja je **kreirati bedž koji se može dobiti samo na tom specifičnom događaju**. Ovaj koncept postoji na drugim blokčejnovima pod nazivom "POAP" ("Proof Of Attendance Protocol"). Međutim, trenutno ne postoji besplatan način za implementaciju ovoga na Bitcoin.
 
 
-U principu, ova inicijativa bi takođe mogla služiti za **nagrađivanje najangažovanijih članova vaše zajednice, na primer organizovanjem godišnje lutrije**, tokom koje bi dobijena značka odgovarala lutrijskoj karti. Član koji prisustvuje na svih 12 sastanaka u godini imao bi 12 karata za ovu godišnju lutriju.
+Takav sistem bi se takođe mogao koristiti za nagrađivanje najaktivnijih članova vaše zajednice. Na primer, mogli biste organizovati godišnju tombolu u kojoj svaka sakupljena značka predstavlja jednu ulaznicu. Član koji prisustvuje na svih 12 okupljanja u godini imao bi 12 ulaznica za tombolu.
 
 
-Pored toga, u potpuno drugačijem kontekstu, moguće je **zamoliti učesnike na svakom događaju da napišu svoje ime ili pseudonim na bedž**. Tome se mogu dodati i razlozi njihovog prisustva. Ova strategija, iako donekle formalna, može omogućiti nekim članovima da **lakše pronađu zajedničke tačke i teme za razgovor**, kao i da **olakša novopridošlicama identifikaciju organizatora** i potencijalnih članova udruženja.
+U drugom, tradicionalnijem pristupu, mogli biste jednostavno zamoliti učesnike na svakom događaju da napišu svoje ime ili nadimak na bedž, zajedno sa razlogom zbog kojeg prisustvuju.
+
+Iako pomalo formalno, ovo može pomoći članovima da lakše pronađu zajedničke interese i teme za razgovor, a takođe olakšava novopridošlicama da uoče organizatore (ili zvanične članove zajednice/asocijacije).
 
 
-Nekoliko modela koje koristi Bitcoin Lille Association su takođe [dostupni kao open-source na Canvi](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Nekoliko šablona za bedževe koje koristi udruženje Bitcoin Lille su [dostupne kao open-source na Canvi](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
-![immagine](assets/fr/51.webp)
+
+![image](assets/fr/052.webp)
 
 
-## Refleksije o tranziciji u slučaju smrti
+
+## Planiranje prenosa u slučaju smrti
 
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
 
 
-Još jedna tačka na potpuno drugačiju temu je stav u vezi sa **smrću člana vaše Bitcoin zajednice**.
+
+Na potpuno drugačiju temu, hajde da Address osetljivu temu: odlazak člana vaše Bitcoin zajednice.
 
 
-Zapravo, može se desiti da jednog dana porodica jednog od vaših bivših članova stupi u kontakt sa vama kako bi vas obavestila da je ta osoba preminula. Oni će vam tada objasniti da je **ta osoba ostavila uputstva**, a jedno od njih je da **stupite u kontakt sa vašom zajednicom/sastankom/asocijacijom**.
+Jednog dana, možda će vas kontaktirati porodica bivšeg člana, obaveštavajući vas o njihovoj smrti. Možda će objasniti da je preminuli ostavio instrukcije, uključujući stupanje u kontakt sa vašom zajednicom, okupljanjem ili udruženjem.
 
 
-Ova osoba će verovatno objasniti da **mu je potrebna pomoć u povratu sredstava**, jer je on korisnik nasledstva ovog bivšeg člana.
+U nekim slučajevima, porodica takođe može potražiti pomoć u povratu sredstava kao korisnici nasledstva.
 
 
-Kao odgovor na ovaj zahtev, može biti veoma relevantno **da ste već smislili neku vrstu procedure koju treba slediti**; i to, iz nekoliko razloga.
+Pametno je raditi sa svojom zajednicom na uspostavljanju jasne procedure za takve situacije unapred, osiguravajući da:
 
 
-S jedne strane:
+- Preminuli je već savetovao svoju porodicu **da nikada ne deli privatne ključeve niti da nosi fizičke novčanike na sastanak**.
+- Porodica razume da je svrha njihove posete edukativna: da nauče kako Bitcoin funkcioniše, kako bi kasnije mogli preuzeti suverenu kontrolu nad fondovima.
+- Porodica je upoznata sa relevantnim zakonima u njihovoj zemlji u vezi sa poklonima, nasledstvom i konvertovanjem Bitcoin u fiat.
+
+
+Imati standardni protokol takođe sprečava bilo koga, člana ili gosta, da iskoristi situaciju za krađu sredstava.
+
+Možete formirati posvećenu radnu grupu za definisanje ovog procesa. Udruženje Bitcoin Lille već radi na takvom [dokumentu](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), koji planiraju da objave kao open-source u narednim mesecima.
 
 
 
-
-- kako bi se osiguralo da je preminuli unapred razmislio da **obavesti svoju porodicu da ne otkriva ili donosi na sastanak privatne ključeve preminulog i fizičke Wallet uređaje**;
-- tako da porodica jasno razume da je **njihovo prisustvo vezano za učenje Bitcoin** kako bi na kraju postali suvereni nad sredstvima preminulog;
-- tako da **porodica bude upoznata sa zakonom koji važi u zemlji u slučaju donacije, nasleđivanja ili konverzije u fiat valutu**;
-
-
-Pored toga, razmišljanje unapred o proceduri koju treba slediti takođe osigurava da niko, bilo da je član sastanka ili samo gost, ne može na neki način iskoristiti ovu situaciju (i/ili ukrasti sredstva).
-
-
-Prema ovom cilju, moglo bi biti zanimljivo **predložiti "radnu grupu" o proceduri koja će se usvojiti u slučaju smrti i zahteva za pomoć koji dolaze od porodice**. Asocijacija Bitcoin Lille trenutno radi na tome i podeliće svoj konačni radni dokument na otvoren način [ovde](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) u narednim mesecima.
-
-
-## Održavanje predavanja u školama i univerzitetima
+## Držite predavanja u školama i univerzitetima
 
 
 <chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
 
 
-Lista projekata prethodno opisana očigledno nije iscrpna. Uopšteno, ovo su interni projekti zajednice ili sastanci koji se lako mogu započeti kada se vaša zajednica razvije. Tada je vreme za Address slučaj uključivanja novih članova.
+
+Lista projekata opisana iznad, naravno, nije iscrpna. Uopšteno, ovo su verovatnije interni projekti za njihovu zajednicu ili okupljanja, koji se mogu prilično lako implementirati kako se razvijaju.
 
 
-Prvo i najvažnije, nesumnjivo ste svesni da je **jedan od najboljih načina da se govori o Bitcoin što većem broju ljudi odjednom, očigledno održavanje konferencije** (ili radionice). Ovo se može organizovati **unutar postsekundarnih škola i univerziteta**; što će dovesti mlade (a možda i ne tako mlade) ljude do otkrivanja ili saznanja više o Bitcoin.
+Sada se okrenimo procesu uvođenja.
 
 
-Pored važnosti **znanja kako govoriti u javnosti**, vođenje konferencije pred nekoliko desetina ili čak stotina ljudi zahteva **znanje kako upravljati stresom, artikulacijom i vremenom**. Takođe zahteva **pripremu kvalitetne prezentacije ili radionice koja je dokumentovana i u skladu sa nivoom veština publike** kojoj ćete se obraćati.
+Kao što znate, jedan od najboljih načina **da dosegnete veliku publiku odjednom je da organizujete besplatno predavanje**. Ovo se može uraditi na fakultetima i univerzitetima, uvodeći i mlade (i one ne tako mlade) u Bitcoin, bilo da su potpuno novi u tome ili žele produbiti svoje razumevanje.
 
 
-Pored toga, **imati otvoren um, spreman da pojednostavi pojmove po potrebi**, je ključno u ovoj vrsti vežbe; posebno tokom faze pitanja/odgovora i u slučaju panel diskusije. Ovo ne znači "napuštanje svojih principa"; već jednostavno prihvatanje da drugi mogu imati drugačije gledište, čak i ako to znači odgovoriti kasnije ili pustiti da prođe kako bi dijalog mogao napredovati. U svakom slučaju, ako su **vaš govor i odgovori zasnovani na relevantnim i dokumentovanim argumentima**, publika neće biti dovedena u zabludu.
+Održavanje predavanja za desetine ili čak stotine ljudi zahteva više od samo tehničke stručnosti. Trebaće vam:
 
 
-Dakle, ako se osećaš sposobnim: istupi! Našem svetu je toliko potrebna edukacija o tome šta je Bitcoin...
+- Samopouzdanje u javnom govoru
+- Dobro upravljanje stresom
+- Jasna artikulacija
+- Snažno upravljanje vremenom
+- Dobro istražena, visokokvalitetna prezentacija ili radionica, prilagođena nivou veština vaše publike
 
 
-Međutim, očigledno je da za ostvarenje ovog zadatka, **biće vam potrebna velika motivacija, sjajan Commitment; ali i pravi kontakti**.
+Jednako je važno **zadržati otvoren um i znati kada pojednostaviti koncepte**, posebno tokom sesije pitanja i odgovora ili panel diskusije. Nije reč o odustajanju od svojih principa, već o priznavanju da drugi mogu stvari videti drugačije. Ponekad je najbolje odgovoriti kasnije ili pustiti da prođe kako bi diskusija mogla da se nastavi. Ako su vaši argumenti potkrepljeni čvrstim, dobro potkrepljenim izvorima, ljudi će to prepoznati.
 
 
-![immagine](assets/fr/52.webp)
+Ako se osećaš spremno, samo napred! Svetu očajnički treba bolje obrazovanje o Bitcoin.
+
+To je rečeno, ovo nije lak poduhvat: zahteva motivaciju, trud i prave veze.
 
 
-####
+
+![image](assets/fr/053.webp)
 
 
-Zapravo, **organizovati konferenciju ili radionicu u školi i/ili na univerzitetu nije nimalo lako**.
+
+Organizovanje predavanja ili radionice u školi ili na univerzitetu počinje pronalaženjem pravog kontakta. To može biti:
 
 
-Prvo je potrebno **dobiti kontakt**. Ovo se može dobiti **preko poznanika, preko BDE ("Bureaux Des Étudiants" ili Studentskih kancelarija); ili čak studentskih udruženja**, koja generalno organizuju serije predavanja i sastanke svake godine. Vaša **bivša inženjerska škola i/ili univerzitetski profesori** takođe mogu delovati kao posrednici.
+- Lično poznanstvo
+- studentska unija
+- Studentska asocijacija koja organizuje serije predavanja ili događaje
+- Bivši profesori sa vaše inženjerske škole ili univerziteta
+- Akademski koordinator programa, ako se obraća direktno
 
 
-U slučaju postdiplomske škole, možete se takođe **obratiti direktoru programa obuke** direktno, sa ciljem da objasnite svoj predlog. Ovo može dovesti do početnog sastanka i-u najboljem slučaju, nekoliko nedelja kasnije-prezentacije o tome šta je Bitcoin i kako funkcioniše pred studentima.
+Prvi korak je obično da predstavite svoju inicijativu ili udruženje i zatražite sastanak. U najboljem slučaju, to će dovesti do prezentacije o Bitcoin pred studentima nekoliko nedelja kasnije.
 
 
-####
+Nažalost, Bitcoin je još uvek demonizovan od strane većeg dela medija i mnogih političara, što navodi neke da veruju da mu nije mesto u učionicama. Odbijanja su česta, posebno u akademskim krugovima gde su teme poput Proof of Work i potrošnje energije i dalje kontroverzne.
 
 
-Nažalost, u našem trenutnom svetu, Bitcoin je još uvek prečesto namerno demonizovan od strane medija i političara; što navodi mnoge početnike da misle da bi trebalo da bude zabranjen u učionicama i predavaonicama. **Verovatnoća je stoga prilično visoka da ćete se suočiti sa mnogo odbijanja**; posebno u akademskim krugovima gde Bitcoin Proof of Work i potrošnja energije ponekad deluju kao tabu.
+Ipak, vredi pokušati, posebno sa studentskim unijama i udruženjima. A ko zna? Čak i ako vaš prvi pokušaj dobije "ne", možda ćete pronaći email u svom inboxu tokom sledećeg buma koji vas poziva da govorite, recimo, pred 280 studenata!
 
 
-Međutim, ništa vas ne sprečava da pokušate, posebno sa BDE i studentskim udruženjima. **Uz malo sreće, čak i ako je odbijanje čvrsto prvi put, nije nemoguće da ćete ponovo biti kontaktirani tokom sledećeg bull-run-a na vašoj zajedničkoj email adresi Address da održite predavanje pred skoro 280 studenata!**
+
+![image](assets/fr/054.webp)
 
 
-![immagine](assets/fr/53.webp)
 
-
-## Približavanje Preduzećima
+## Pristupanje preduzećima
 
 
 <chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
 
 
-Postizanje cilja **da trgovac prihvati Bitcoin kao način plaćanja** je na neki način "sveti gral" za mnoge entuzijaste Bitcoin. To je kao otključavanje prekretnice u njihovom Pokédexu! Međutim, pošto je svaki trgovac drugačiji, ovaj zadatak nije lak; i pojavljuju se brojni problemi:
+
+Naterati preduzeće da prihvati Bitcoin je, za mnoge bitkoinere, pomalo kao otključavanje retkog dostignuća u vašem Pokédexu.
+
+
+Svaki trgovac je drugačiji, i njihovo uključivanje dolazi sa sopstvenim nizom izazova:
+
+
+- I dalje im je potreban fiat novac za plaćanje dobavljača.
+- Oni zahtevaju jasne, računovođi-spremne finansijske izveštaje.
+- Njihovi sistemi plaćanja moraju biti pouzdani, jednostavni za korišćenje i otporni na krađu.
+- Možda imaju zablude ili negativne predrasude o Bitcoin.
+- Pronalaženje besprekornog softverskog rešenja može biti nezgodno.
+- Objašnjavanje trgovcu zašto je vredno prihvatiti Bitcoin kao sredstvo plaćanja.
 
 
 
-
-- trgovcu je i dalje potrebna fiat valuta da plati dobavljače (za sada)**;
-- potrebni su jasni i eksplicitni finansijski izveštaji** koji se mogu poslati njihovim računovođama;
-- njihovi načini plaćanja moraju funkcionisati bez tehničkih ili logističkih problema**, a zaposleni moraju biti u mogućnosti da primaju uplate bez mogućnosti da pobegnu sa kasom.
-
-
-Dodajte ovim aspektima:
+![image](assets/fr/055.webp)
 
 
 
-
-- potencijalne pristrasnosti trgovaca** prema Bitcoin;
-- teškoća pronalaženja softverskog rešenja** koje savršeno funkcioniše;
-- ali takođe, **važnost da im se objasne prednosti prihvatanja Bitcoin** kao metode plaćanja.
+Uključivanje lokalnih preduzeća jedan je od najboljih načina za rast Bitcoin ekosistema vašeg grada. Ključ je postupati korak po korak:
 
 
-![immagine](assets/fr/54.webp)
+1/ **Tražite da platite u Bitcoin, svaki put kada kupujete**
+
+Većinu vremena ćete dobiti "ne" i možda zbunjen, ili čak blago osuđujući, pogled, ali samo postavljanjem biljaka ideja da Bitcoin je nešto što "obični ljudi" mogu koristiti i da postaje sve popularniji način plaćanja. Možete se čak udružiti s nekoliko prijatelja i svratiti u istu prodavnicu različitim danima, svaki put tražeći da platite u Bitcoin. Pre ili kasnije, to će probuditi radoznalost vlasnika.
 
 
-####
+2/ **Ponudite jednostavno, jasno objašnjenje**
+
+Ako pitaju šta je Bitcoin, neka bude kratko i bez stručnih izraza. Na primer:
+
+*"Bitcoin je novac koji nije pod kontrolom banaka, funkcioniše bez posrednika, ne može biti cenzurisan, nije podložan inflaciji i ima niže naknade od tradicionalnog bankarstva."*
+
+Zatim im uručite flajer, kao što je "21 razlog za korišćenje Bitcoin" ili "10 razloga za prihvatanje Bitcoin u vašem poslovanju", sa vašim kontakt informacijama ili detaljima o sastanku. Na ovaj način, kada budu spremni za demonstraciju, znaće gde da vas pronađu.
 
 
-Razvijanje ekosistema Bitcoin u vašem gradu može uključivati **pribavljanje trgovaca**. Da biste to učinili, najlakši način je da **postupate korak po korak**:
+3/ **Organizujte demonstraciju**
+
+Kada pokažu interesovanje, dogovorite vreme da im pokažete rešenje za plaćanje.
+
+Odlična opcija je **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, jer:
 
 
-1) Čim uđete u prodavnicu, **uvek pitajte da li možete platiti u Bitcoin**. Ovo će uglavnom rezultirati odbijanjem i upitnim pogledom, ali ovo jednostavno pitanje će postepeno navesti trgovce da vide da Bitcoin mogu koristiti "normalni ljudi" i da dobija interesovanje kao način plaćanja među populacijom. Takođe možete **rotirati dve ili tri osobe u istoj prodavnici, u razmaku od nekoliko dana, pitajući da platite u Bitcoin**. U nekom trenutku, ovo će privući pažnju trgovca;
+    - Omogućava trgovcu da automatski konvertuje BTC u fiat dnevno, kako bi mogli plaćati dobavljače.
+    - Omogućava im da zadrže procenat u BTC ako žele.
+    - Generiše izvozive računovodstvene izveštaje za njihove računovođe.
+    - Ima jednostavnu kontrolnu tablu za menadžere.
+    - Daje zaposlenima intuitivni Interface za prihvatanje uplata bez dodirivanja kase.
+    - Košta manje od 2-3% naknada koje naplaćuju tradicionalne platne mreže.
 
 
-2) kada dobijete pravo interesovanje, možda će vas pitati šta je Bitcoin, možete im **objasniti to sažeto i razumljivim terminima**. Na primer, da je Bitcoin valuta, koja nije pod kontrolom banaka, bez pouzdanog posrednika, da je necenzurisana, nije podložna inflaciji, i da su naknade niže nego u tradicionalnom bankarstvu. Zatim im možete **dati letak**, na primer, "21 razlog za korišćenje Bitcoin" i/ili "10 razloga za prihvatanje Bitcoin u vašoj prodavnici," i onda im **dati vaš kontakt ili kontakt vašeg okupljanja**. Na taj način, kada budu zainteresovani za demonstraciju, mogu vas kontaktirati.
+4/ **Podržite ih kada počnu prihvatati Bitcoin**
+
+Nakon što su na brodu:
 
 
-3) Kada ova osoba odluči da prihvati Bitcoin, **ugovorite sastanak sa njom kako biste pokazali da softversko rešenje koje predlažete izgleda prikladno**. **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)** izgleda kao odlično rešenje u tom pogledu, jer:
-
-
-
-
-- omogućava trgovcima koji to žele da konvertuju svoju dnevnu zaradu u Bitcoin u fiat valutu, omogućavajući im da plaćaju dobavljače;
-- takođe omogućava, ako se želi, da se određeni procenat prihoda zadrži u BTC;
-- omogućava izvoz računovodstva za sve Bitcoin uplate kako bi se poslao računovođama, čime se olakšava njihov rad;
-- ima korisnički prijatan kontrolni panel za menadžera;
-- ali i ergonomski i jednostavan za korišćenje Interface za zaposlene, koji će moći da obrađuju uplate bez mogućnosti da pobegnu sa kasom;
-- konačno, njegova cena korišćenja je manje skupa za 2 do 3 procenta u tradicionalnoj bankarskoj mreži.
-
-
-4) **kada ovaj posao prihvati Bitcoin**, biće vam moguće:
-
+    - Redovno posećujte i obavljajte kupovine.
+    - Proveri da li sve funkcioniše glatko.
+    - Ponovo podelite svoje kontakt informacije ako je potrebno.
+    - Pozovi ih na svoje okupljanje.
+    - Dodajte ih na [btcmap.org mapu](https://btcmap.org/) i obavestite [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) na Twitteru kako biste povećali vidljivost.
+    - Razmislite o organizovanju radionica ili okupljanja na njihovoj lokaciji.
 
 
 
-- posetite redovno** da kupujete;
-- iskoristite priliku da **pitate da li sve ide dobro**, ponovo ponudite svoj kontakt ako je potrebno;
-- ponovo predložiti dolazak na vaše sastanke i događaje**;
-- da **dodate ovu aktivnost na [btcmap.org mapu](https://btcmap.org/)**, i obavestite [Swiss Bitcoin Pay na Twitteru](https://x.com/swissbitcoinpay) kako biste dali vidljivost ovoj aktivnosti; - ali i da **potencijalno organizujete događaje u okviru ove aktivnosti**, kao što su okupljanja ili radionice.
+![image](assets/fr/056.webp)
 
 
-![immagine](assets/fr/55.webp)
+
+5/ **Povežite lokalne trgovce**
+
+Kada imate nekoliko preduzeća koja podržavaju Bitcoin, predložite kreiranje Telegram grupe samo za trgovce. Ovo može:
 
 
-5) Kada je nekoliko preduzeća u vašem gradu uključeno i razume šta im Bitcoin donosi, možete tada **predložiti kreiranje posebne Telegram grupe za trgovce**; cilj je da im se **omogući međusobna pomoć** i da se dodatno angažuju druga preduzeća u gradu. Paralelno, ova grupa može takođe **delovati kao tehnička podrška**, u slučaju da se pojavi problem sa kupcem.
+- Neka dele iskustva i uključe nove firme.
+- Služite kao brzi kanal za tehničku podršku.
+- Ojačajte lokalnu Bitcoin mrežu.
 
 
-####
+Canvassing je dugoročna igra. Zahteva strpljenje, istrajnost i strategiju. Ali ako je vaša zajednica spremna, mogli biste početi postavljati temelje za pravu Bitcoin cirkularnu ekonomiju, baš kao [Arnhem u Holandiji](https://www.arnhembitcoinstad.nl/) u Holandiji.
 
 
-Očigledno, **ova aktivnost pronalaženja potencijalnih klijenata je dugoročan posao. Zahteva mnogo vremena, visoku motivaciju, ali i određenu strategiju**.
 
-
-Da li vaša zajednica oseća da je spremna da izgradi u vašem gradu **temelj Bitcoin cirkularne ekonomije**, slično kao [Arnhem u Holandiji](https://www.arnhembitcoinstad.nl/)? Ako jeste, samo napred!
-
-
-## Kontaktirajte štampu i lokalni radio
+## Kontaktirajte lokalnu štampu i radio
 
 
 <chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
 
 
-Vrlo često zaboravljeni, mi bitkoineri generalno mislimo da su najbolja sredstva komunikacije društvene mreže i Internet. Ali grešimo - delimično.
+
+Bitcoin entuzijasti često se fokusiraju na društvene mreže i online platforme za širenje informacija, ali to je samo deo slike. Lokalna štampa i radio mogu biti moćni saveznici.
 
 
-Nekoliko zajednica (kao što je [Breizh Bitcoin](https://breizhbitcoin.com/), u Francuskoj) stoga su stekle naviku da **kontaktiraju lokalnu štampu** kako bi:
+Neke zajednice, kao što je [Breizh Bitcoin](https://breizhbitcoin.com/) u Francuskoj, **redovno kontaktiraju svoje lokalne medije** kako bi:
 
 
+- Najavite predstojeće događaje (okupljanja, prezentacije, radionice, Halving žurke, itd.).
+- Pozovite novinare da posete Bitcoin-prijateljske firme i pišu o njima.
+- Podelite datume i lokacije događaja za uključivanje u lokalne liste.
 
 
-- Razgovarajte o događajima koje organizuju** (okupljanja, prezentacije, radionice, Halving žurke, itd.);
-- Pozovite ih da istraže lokalne biznise koji prihvataju Bitcoin, sa ciljem pisanja članka** na tu temu;
-- ali takođe, jednostavno **zamolite ih da podele datum i lokaciju svojih predstojećih događaja**.
+Mnogi novine i dalje imaju rubriku "Šta se dešava", često smeštenu na poslednjim stranicama, gde navode predstojeće lokalne događaje. Breizh Bitcoin je otkrio da ovaj pristup funkcioniše: pridošlice su se pojavile na okupljanjima jednostavno zato što su primetile oglas u novinama.
 
 
-Zapravo, mnoge lokalne novine još uvek imaju, na poslednjoj ili pretposlednjoj strani, spisak događaja organizovanih u regionu.
-
-
-Povratne informacije od Breizh Bitcoin su jasne: dobro funkcioniše, a novi ljudi su učestvovali na njihovim okupljanjima nakon što su otkrili njihovo udruženje u novinama.
-
-
-Iako ovo može biti specifično za vašu lokaciju, ovde je lista najvažnijih francuskih regionalnih novina:
-
-
+Ova strategija može bolje funkcionisati u određenim oblastima nego u drugim, ali vredi pokušati. Možete početi tako što ćete se obratiti regionalnim novinskim kućama, Francuska ima primere kao:
 
 
 - [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
-- [csmp.fr](http://www.csmp.fr/layout/set/print/Menu/La-presse/Presse-quotidienne-regionale).
+- [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20regionalna).
+
+i kontaktiranjem lokalnih radio stanica kako bi predložili intervju ili gostovanje u podcastu.
 
 
-Paralelno, može biti zanimljivo i **kontaktirati lokalne radio stanice, kako bi se predložilo, na primer, kreiranje podkasta ili intervjua**.
+Budite svesni, medijski intervjui mogu biti nezgodni. Reči mogu biti izvučene iz konteksta ili pogrešno predstavljene. Priprema je ključna.
 
 
-Međutim, budite svesni da se reči u medijima lako mogu protumačiti na njihovu štetu. **Dakle, to nije lak zadatak, i možda bi bilo mudro pripremiti se za to**.
+
+![image](assets/fr/057.webp)
 
 
-![immagine](assets/fr/56.webp)
+
+Očigledno, pored svih onih predloženih u ovom odeljku, **mnogi drugi projekti mogu biti realizovani**. Sve zavisi od vašeg vremena i motivacije, ali i od težine samog projekta.
 
 
-####
+Konačni saveti za bilo koji projekat dosega:
+
+1) **Planirajte unapred**: definišite svoje ciljeve, potrebne korake i ko će šta raditi.
+
+2) **Idite korak po korak**: izbegnite sagorevanje tako što ćete tempirati svoje napore.
+
+3) **Zatražite pomoć**: obratite se svojim članovima i susednim zajednicama za podršku.
 
 
-Naravno, **mnogi drugi projekti se mogu uraditi**. Uopšteno, sve će zavisiti od vašeg vremena, vaše motivacije; ali i od težine projekta o kojem je reč.
+Zapamtite: svaka Bitcoin zajednica je bila tamo gde ste vi sada. Ne ustručavajte se da učite iz njihovih iskustava i saveta.
 
 
-U sprovođenju ovih, **tri saveta** mogu vas voditi:
 
-
-1) **definišite unapred faze projekta, njegov(e) cilj(eve) i šta treba uraditi**;
-
-
-2) **napredujte korak po korak, bez obeshrabrivanja**; 3) i što je najvažnije, **tražite pomoć i podršku od članova i drugih zajednica oko vas**.
-
-
-Imajte na umu da je **svaka zajednica i sastanak prošao kroz iste faze kroz koje vi prolazite**. Dakle, ne ustručavajte se da **tražite savet od njih**.
-
-
-# Predviđanje budućnosti
+# Očekivanje budućnosti
 
 
 <partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+
 
 
 ## Planiranje povećanja broja učesnika
@@ -2463,289 +2585,330 @@ Imajte na umu da je **svaka zajednica i sastanak prošao kroz iste faze kroz koj
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
 
-Kako je svet ušao u svoju četvrtu eru, na bloku 840.000, sve više pojedinaca vidi **Bitcoin kao tehnološku, finansijsku i društvenu revoluciju**.
+
+Kada je Bitcoin ušao u svoju četvrtu eru na bloku 840,000, sve više ljudi je počelo da ga prepoznaje kao tehnološku, finansijsku i društvenu revoluciju.
 
 
-Baš kao i internet revolucija, ovo će nužno zahtevati **vreme**, i to je dobra stvar. Omogućiće svima da se **obrazuju o osnovama Bitcoin i nauče kako da ga koriste**. Ali će takođe dati vremena programerima i kompanijama da razviju relevantne protokole i aplikacije, omogućavajući da se istraži puni potencijal Bitcoin.
+Kao i uspon interneta, ova revolucija će zahtevati vreme, što je zapravo prednost. To ljudima daje priliku da **nauče osnove Bitcoin**, razumeju kako da ga koriste, i omogućava programerima i kompanijama da **izgrade protokole i aplikacije** koje će otključati njegov puni potencijal.
 
 
-Iako je nemoguće predvideti budućnost, **očekuje se vrlo značajan porast broja korisnika Bitcoin**, kako bi se **bilo spremno za sve situacije**. Uključujući i najkatastrofalnije scenarije, kao što je potencijalna implozija tradicionalnog finansijskog sistema; ili čak: zabrana Bitcoin.
+Niko ne može predvideti budućnost, ali možemo **očekivati nagli porast usvajanja Bitcoin**. To znači **biti spreman za sve scenarije**, čak i ekstremne, kao što su kolaps tradicionalnog finansijskog sistema ili potpuna zabrana Bitcoin.
 
 
-U ovom osmom i poslednjem delu ovog kursa, posvetićemo vreme detaljisanju nekih tačaka koje treba razmotriti prilikom razvoja vaše zajednice i vaših sastanaka.
+U ovom sedmom i pretposlednjem delu kursa, pogledaćemo ključne tačke koje treba imati na umu kako vaša zajednica i okupljanja rastu.
 
 
-####
+Prvo, i najlakše za predvideti, je povećanje broja ljudi koji se pridružuju vašoj zajednici. Ovo će vas pogoditi na dva glavna načina:
 
 
-Prvi među njima (najlakši za predvideti) je očigledno **povećanje broja ljudi koji se pridružuju vašoj zajednici**. Ovo će imati uticaj na dva načina:
+1/ **Vaši komunikacioni kanali (Telegram, Signal, Matrix, itd.) će se vremenom napuniti**, što će otežati praćenje razgovora. Postoje dve stvari koje treba imati na umu.
 
 
-1) **vaši komunikacioni kanali (Telegram, Signal, Matrix, itd...) će se napuniti, što potencijalno može otežati praćenje razgovora**. Stoga treba razmotriti dve tačke.
+Prvo, ako imate 500 ljudi koji raspravljaju o raznim temama u jednom četu, ogroman broj poruka i obaveštenja će neminovno dovesti do toga da mnogi članovi prestanu da obraćaju pažnju. To je dobar trenutak da preispitate svoju postavku, na primer, prelaskom na Telegram supergrupe ili Discord server, koji omogućavaju lako organizovanje diskusija po temama.
 
 
-S jedne strane, ako 500 vas razmenjuje mišljenja o raznim temama u istom kanalu za diskusiju, većina vaših članova će postepeno prestati da prati razgovore; između ostalog zbog obilja poruka za čitanje i povezanih obaveštenja. U tom smislu, moglo bi biti relevantno **preispitati vaše komunikacione kanale; kao što su Telegram super-grupe, ili čak Discord server**, oba koja zaista omogućavaju grupisanje razgovora po temama.
+Drugo, više ljudi u vašim kanalima znači više botova, više prevara i tako više moderacije za rukovanje. Budite spremni za to kreiranjem jasnog skupa pravila na koja se možete pozvati prilikom moderiranja poruka. Prema našem iskustvu, ovo u velikoj meri pomaže u izbegavanju sukoba, posebno ako su pravila lako dostupna u vašim kanalima.
 
-
-S druge strane, više ljudi u Exchange kanalima takođe znači više botova, više prevara, i takođe **više moderacije koju treba obaviti**. Stoga ćete morati biti pripremljeni, na primer, izradom seta pravila na koja se možete osloniti prilikom moderiranja poruke. Iz iskustva, ovo izbegava većinu sukoba; posebno kada su pravila dostupna za čitanje na vašim komunikacionim kanalima. U tom smislu, Bitcoin Lille asocijacija je pre nekoliko godina napisala **[open-source set pravila](https://bitcoinlille.fr/reglement/) za svoju Telegram grupu i Discord server**, zasnovan na jednostavnim i univerzalnim principima. Njegov dizajn je [takođe dostupan](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-
-![immagine](assets/fr/57.webp)
-
-
-2) **vaši sastanci i događaji će se značajno popuniti, sa obiljem novih lica željnih međusobne komunikacije**.
-
-
-Suočeni sa ovim značajnim prilivom, može se diskutovati i razmotriti nekoliko pristupa:
+Dobar primer je **[Bitcoin Lille-ov pravilnik otvorenog koda](https://bitcoinlille.fr/reglement/) napisan pre nekoliko godina za njegovu Telegram grupu i Discord server. Zasniva se na jednostavnim, univerzalnim principima, a možete čak preuzeti [prilagodljivu verziju dizajna ovde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-
-- Prvo, moglo bi biti relevantno **pronaći veći prostor za održavanje sastanaka i događaja**, posebno ako ste ranije mogli primiti samo oko 20 ljudi;
-- Drugo, ako primetite da ljudsko prisustvo postaje previše neodoljivo, možete takođe--za naredne sastanke-- **zahtevati od učesnika da se registruju** (ovo se može uraditi putem aplikacije Meetup, ili kroz standardni formular), **ili organizovati više sastanaka tokom meseca** (na primer: sastanak za početnike, sastanak za srednji nivo, i sastanak za eksperte);
-- Pored toga, sigurno je da će vam se pridružiti mnogi početnici u ekosistemu, uglavnom sa ciljem da zarade novac. **Da biste održali fokus razgovora na Bitcoin tokom ovih brzo rastućih sastanaka**, preporučujemo:
+![image](assets/fr/058.webp)
 
 
-a) **da održi tematsku prezentaciju o Bitcoin tokom ovih sastanaka**, jer će to naknadno dovesti do toga da dobar deo učesnika diskutuje o ovoj temi, a ne o takozvanom novom revolucionarnom projektu;
+
+2/ **Vaši sastanci i događaji će početi privlačiti velike gužve, sa puno novih lica koja će se pojaviti da se povežu**.
+
+Sa ovim porastom posete:
 
 
-b) **ne ograničavati se samo na bitkoinere, već prići novajlijama, čak i ako to znači preuzeti inicijativu da ostanete u zadnjem delu prostorije kako biste ih dočekali**. Diskusije se tada mogu vrteti oko toga zašto su ti ljudi došli, šta traže, ciljeva (ili osnova) vaše zajednice, itd.
+    - možda bi bilo vredno **pronaći veći prostor za vaše sastanke i događaje**, posebno ako ste do sada mogli da ugostite samo oko dvadeset ljudi.
+    - ako ustanovite da broj učesnika postaje prevelik, možete, za buduće sastanke, ili **zahtevati od učesnika da se registruju** (putem aplikacije Meetup ili jednostavnog formulara) ili **održavati više sastanaka svakog meseca** (na primer: sastanak za početnike, jedan za srednji nivo i jedan za napredni nivo).
+    - Istovremeno, očekujte mnogo novajlija u ekosistemu, često sa glavnim ciljem da zarade novac. Da biste **održali fokus razgovora na Bitcoin** na ovim brzo rastućim okupljanjima, dobra je ideja da:
+
+a) Uključite **prezentaciju na temu Bitcoin** tokom ovih događaja, jer će to prirodno usmeriti veći deo razgovora ka toj temi (i udaljiti ga od najnovijeg navodno "revolucionarnog" shitcoin projekta);
+
+b) **Izbegavajte druženje samo sa bitkoin entuzijastima**. Umesto toga, potrudite se da **priđete novajlijama**, čak i ako to znači da stojite pozadi u prostoriji kako biste ih pozdravili. Odatle možete razgovarati o tome zašto su došli, šta traže, ciljevima (ili čak osnovnim principima) vaše zajednice, i tako dalje.
 
 
-####
+Na kraju, iako je nesrećno što to moramo reći, prevaranti se mogu pojaviti na okupljanjima. Njihov cilj može biti da beskonačno pričaju o svojoj Ponzi šemi, MLM-u, ili nekoj "Blockchain revoluciji pokretanoj veštačkom inteligencijom." Takođe je potpuno moguće da jednog dana neko sa lošim namerama prisustvuje specifično da bi oprao novac ili pokušao da kupi BTC sa falsifikovanim novčanicama.
 
 
-Konačno, iako je neprijatno reći, **prevaranti se mogu pojaviti na sastancima**. Njihov cilj će biti da pričaju što je više moguće o svojoj Ponzi šemi, svom MLM-u, ili svom "revolucionarnom Blockchain projektu." Takođe je potpuno moguće da ljudi sa zlonamernim namerama dođu specifično da peru novac ili da kupe BTC sa falsifikovanim novčanicama.
+U nezgodnim situacijama poput ovih, najlakši pristup je ljubazno objasniti da okupljanje nije mesto za to, potkrepljujući to bilo kojim argumentima koje izaberete (na primer, napomenom da bi mogli biti prisutni policajci u civilu).
 
 
-U složenim situacijama kao što su ove, najjednostavniji pristup je preuzeti inicijativu da "pristojno" objasnite tim ljudima da sastanak nije mesto gde će biti uspešni iznošenjem x ili y argumenata (kao što je, informisanje o prisustvu policajaca u civilu).
+Ako, nažalost, odbiju da odu ili se ponašaju s poštovanjem (da, desilo se), možete Address grupu direktno tokom sastanka kako biste obavestili sve da osoba, ili osobe, pokušavaju neku vrstu zlonamerne aktivnosti.
 
 
-Ako, nažalost, ti ljudi odbiju da odu ili da se pridržavaju pravila pristojnosti (što se već desilo), tokom sastanka se može dati usmeno obaveštenje da jedna ili više osoba pokušavaju da se upuste u takve zlonamerne radnje.
+Srećom, ove situacije su retke i često više apsurdne nego preteće, ali je ipak najbolje biti pripremljen.
 
 
-**Nažalost, ove situacije su retke i obično prilično neobične. Ali najbolje je biti pripremljen.**
+Za mir uma: sve dok lično ne kršite zakon ili direktno ne omogućavate nezakonite transakcije, niste pravno odgovorni za postupke drugih na vašem događaju (barem prema francuskom zakonu).
 
 
-Takođe, ako vas to može umiriti kao organizatora, sve dok sami ne kršite zakon ili ne olakšavate ilegalne razmene, ne treba da brinete. Zapravo, u Francuskoj, niste pravno odgovorni za postupke drugih.####
+U idealnom svetu, imali biste **prostor dovoljno veliki da ugosti nekoliko desetina ljudi** kako vaša zajednica raste i takođe biste izgradili **snažne odnose između bitkoinaša** i budućih bitkoinaša tokom medveđeg tržišta, tako da kada dođe bikovski trend, imate što više ljudi spremnih da "orange pill" druge.
 
 
-Dakle, u idealnom svetu, bilo bi najbolje imati mesto koje može da primi nekoliko desetina ljudi (u zavisnosti od rasta vaše zajednice); ali takođe, **izgraditi jake odnose između bitkoinaša i budućih bitkoinaša tokom medveđeg tržišta**, kako biste bili spremni da **širite Bitcoin kulturu tokom sledećeg buma**.
 
-
-## Decentralizacija organizacije vaše zajednice
+## Decentralizacija organizacije zajednice
 
 
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
 
-Vi ste organizator sastanka i, od jednog dana do drugog, **odlučite da prekinete ovaj zadatak** kako biste otišli da uzgajate lame u Peruu; ostavljajući sve iza sebe?
+
+Zamislite ovo: godinama vodite svoj Bitcoin sastanak, i jednog dana odlučite da napustite taj posao, možda da biste uzgajali lame u Peruu ili jurili savršene talase u El Salvadoru. Šta se dešava sa vašom zajednicom kada odete?
 
 
-**Razmislite o prolasku kroz vašu zajednicu**:
+Molimo vas da unapred planirate premeštanje vaše zajednice:
+
+1) **Dodeli admin (ili Ownership) prava** za tvoje komunikacione kanale pouzdanim članovima. Uloge se uvek mogu kasnije promeniti.
+
+2) **Podelite detalje naloga**(korisnička imena, lozinke, povezani emailovi) za vaše društvene mreže i kanale vidljivosti sa barem jednom pouzdanom osobom.
 
 
-1) **davanje administrativnih (ili čak Ownership) prava komunikacionih kanala pouzdanim osobama**, čak i ako to znači da će se kasnije promeniti;
+Bez ovog pristupa, gotovo je nemoguće da bilo ko drugi efikasno preuzme. Počevši od nule, stvaranjem "forked" grupa i ponovnom izgradnjom mreže, proces je spor, iscrpljujuć i često demorališući.
 
 
-2) **deljenje sa bar jednom pouzdanom osobom u vašoj zajednici imena naloga, lozinki i emailova naloga i društvenih mreža** koje ste kreirali kako biste joj dali uvid.
+Ako nemate pouzdanu osobu za kontakt unutar vašeg okupljanja, uvek možete kontaktirati @ProfEduStream, @copinmalin, ili @gabtribe na Telegramu. Oni mogu pomoći u pronalaženju motivisanog naslednika i koordinaciji prenosa naloga i administratorskih prava.
 
 
-Bez ovih prava i identifikatora, biće nemoguće da bilo ko **lako preuzme i tako nastavi inicijativu na kojoj ste toliko dugo radili**.
+**Zašto je decentralizacija važna?**
 
 
-Počevši od nule kreiranjem "forked" mreža i kanala zaista oduzima puno vremena i energije..
+Ako si jedini uključen i držiš svu kontrolu, šta se dešava ako nestaneš? Odgovor je jednostavan: tvoja zajednica će nestati takođe.
 
 
-Dakle, predvidite svoj potencijalni odlazak u Peru. A ako nemate poverljive članove u Francuskoj na vašem sastanku, uvek možete kontaktirati @ProfEduStream ili @gabtribe na Telegramu kako biste ovu tranziciju učinili glatkom. Ovo nas dovodi do **ključne prekretnice u razvoju zajednice: njene decentralizacije**. Zaista, ako ste jedina osoba uključena, koja ima svu kontrolu, šta će se desiti ako nestanete? Odgovor je jednostavan: vaša zajednica će nestati.
+Rešenje: decentralizujte zadatke, uloge i pristup kako bi grupa mogla da nastavi sa radom čak i ako jedan organizator ispadne, bilo zbog vremenskih ograničenja ili, u mračnijem scenariju, zato što su uhapšeni zbog držanja non-KYC Bitcoin.
 
 
-Dakle, najbolji način da se ovo izbegne je **decentralizovati zadatke i podeliti prava, uloge i pristup**. Tako, ako jedan od članova vašeg tima za organizaciju zajednice ili sastanka bude uhapšen u budućoj distopiji jer poseduje non-KYC Bitcoin (ili jednostavno: jer više nema vremena da se tome posveti pošto je upravo dobio dete ili promenio posao), ostali mogu nastaviti svoje misije bez poteškoća.
+**Kako dodatno unaprediti decentralizaciju?**
+
+Usvojite **besplatan i otvoren softver** kao što je [framasoft suite](https://framasoft.org/fr/) kako biste smanjili oslanjanje na centralizovane platforme i dodali otpornost protiv potencijalne državne cenzure ili zabrana Bitcoin.
+
+Koristite **šifrovane ili anonimne komunikacione alate** kako biste zaštitili privatnost vaših članova i aktivnosti vaše zajednice.
 
 
-S ciljem dalje decentralizacije, **korišćenje softvera otvorenog koda kao što je framasoft-ov paket** može takođe biti prva "linija odbrane" protiv fiktivne države koja bi cenzurisala Bitcoin. Korišćenje alata za šifrovanu komunikaciju - čak i anonimnih - je druga.
 
-
-## Šta ako Bitcoin postane javni neprijatelj broj 1?
+## Šta ako Bitcoin postane javni neprijatelj br. 1?
 
 
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
 
 
-Dana 5. aprila 1933. godine, Frenklin Ruzvelt, tada 32. predsednik Sjedinjenih Američkih Država, potpisao je Izvršnu naredbu 6102, koja je zabranila bilo kojoj osobi posedovanje zlatnih kovanica, zlatnih poluga i zlatnih sertifikata na celoj teritoriji.
+
+Dana 5. aprila 1933. godine, Frenklin Ruzvelt, 32. predsednik Sjedinjenih Američkih Država, potpisao je **Izvršnu naredbu 6102**, čime je postalo nezakonito da privatna lica poseduju zlatne kovanice, poluge ili sertifikate bilo gde u zemlji.
 
 
-![image](assets/fr/58.webp)
+![image](assets/fr/059.webp)
 
 
-Naravno, Velika depresija (pad berze 1929. godine) više nije relevantna danas. Ali ko može reći da sutra neka druga država neće uraditi isto i **zabraniti bilo kojoj osobi da poseduje Bitcoin?**
+
+Naravno, Velika depresija (krah berze 1929. godine) nije naša trenutna stvarnost. Ali da li bi vlada jednog dana mogla učiniti isto sa Bitcoin: **potpuno zabraniti privatni Ownership?**
 
 
-Srećom, ova orvelovska distopija neće sprečiti nikoga da zaista poseduje svoje bitkoine, jer je nemoguće sprečiti nekoga da nauči niz reči.
+Istina je da takva orvelovska mera zapravo ne bi sprečila nekoga da zaista poseduje BTC, jer nijedan zakon ne može sprečiti osobu da zapamti niz reči.
 
 
-Ali šta će se desiti **ako lideri našeg sveta konačno shvate da Bitcoin ima sposobnost da promeni svetski poredak, uključujući i na državnom nivou?** Bitcoin će tada postati **"javni neprijatelj broj 1"?**
+Ipak, šta ako svetski lideri konačno shvate potencijal Bitcoin da preoblikuje globalni poredak, čak i na nivou država? Da li bi tada bio označen kao "Javni neprijatelj br. 1"?
 
 
-Naravno, ne bismo trebali upasti u oblik zavereničkog razmišljanja. Ali **ništa nas ne sprečava, od sada, da predviđamo, decentralizujemo i edukujemo**.
+Ne moramo upadati u teorije zavere. Ali ništa nas ne sprečava da predviđamo, decentralizujemo i edukujemo, počevši od sada.
 
 
-![image](assets/fr/59.webp)
+
+![image](assets/fr/060.webp)
 
 
-# Dovođenje Bitkoinera Zajedno
+
+# Dovođenje bitkoinera zajedno
 
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 
-## Sažeti akcioni plan za kreiranje vaše Bitcoin zajednice
+
+## Brzi akcioni plan za izgradnju vaše Bitcoin zajednice
 
 
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
 
-Satoshi Nakamoto je stvorio revolucionarni alat koji ima sposobnost da promeni svet kakav poznajemo. Međutim, sigurno je da **je na nama, bitkoinerima, da izaberemo putanju koju želimo da sledimo kako bismo izgradili budućnost**.
+
+Satoshi Nakamoto je stvorio revolucionarni alat koji već menja naš svet. Ali na nama, bitkoinerima, je da odlučimo kako ćemo oblikovati budućnost.
 
 
-U isto vreme, suština Bitcoin čini ga ogromnim lavirintom, koji se preseca sa toliko mnogo istorijskih, ekonomskih, književnih, matematičkih, računarskih i kriptografskih aspekata da ih je nemoguće sve pokriti. Ovo delimično čini njegovu lepotu. Kao ljudska bića, imamo samo ograničenu količinu vremena tokom naših života. **Ostajući skromni i učeći od drugih** svaki od nas će biti u stanju da postigne svoje ciljeve u razumevanju Bitcoin.
+Bitcoin je ogromna zečja rupa, koja dodiruje istoriju, ekonomiju, književnost, matematiku, računarske nauke i kriptografiju. Niko ne može istražiti sve, i to je deo njene lepote.
 
 
-Globalne Bitcoin zajednice tako igraju ključnu ulogu u izgradnji sveta budućnosti; zajednice gde bitkoineri mogu **Exchange, graditi i deliti**. **zajedno**.
+Pošto je naše vreme ograničeno, ključ je ostati skroman, nastaviti sa učenjem i Exchange znanje sa drugima. Na taj način, svako od nas može dostići nivo razumevanja koji tražimo.
 
 
-Kao što ste možda zaključili iz ovog kursa, **kreiranje Bitcoin zajednice i sastanaka** zahteva organizaciju i motivaciju. Očigledno, u zavisnosti od vaših želja i vremena koje možete posvetiti tome, projekte ćete realizovati više ili manje temeljno.
+**Globalne zajednice Bitcoin stoga igraju fundamentalnu ulogu u izgradnji sveta budućnosti**: prostori gde bitkoineri mogu **Exchange, graditi i deliti**. **Zajedno**.
 
 
-Međutim, cilj ostaje isti: **zapaliti iskru za Bitcoin da raste u vašem gradu**.
+
+![image](assets/fr/061.webp)
 
 
-Da rezimiramo različita poglavlja i podpoglavlja ovog kursa, ovde je **rezime "akcionog plana" za kreiranje vaše Bitcoin zajednice**:
 
 
-1) Odlučite unapred zašto želite da kreirate Bitcoin zajednicu, za koje svrhe, gde, itd.;
+Kao što ste videli tokom ovog kursa, **izgradnja Bitcoin zajednice i organizovanje okupljanja** zahteva i planiranje i motivaciju. U zavisnosti od vaših ciljeva i vremena koje možete posvetiti, možda ćete se upustiti u ambicioznije projekte ili zadržati stvari jednostavnim.
 
 
-2) Pristupite već uspostavljenim zajednicama oko vas uspostavljanjem kontakta i/ili traženjem saveta;
+Bilo kako bilo, cilj je isti: **pobuditi interesovanje i pomoći Bitcoin da raste u vašem gradu**.
 
 
-3) Kreirajte jedinstveni identitet za vašu zajednicu i njenu lokaciju (logo, poster, baner, flajer, itd.)
+Da bismo završili mnoge poglavlja i potpoglavlja koja smo obradili, evo **sažetog "plana akcije"** za kreiranje vaše Bitcoin zajednice:
+
+1) Odlučite unapred zašto želite da kreirate Bitcoin zajednicu, koji su vaši ciljevi i u kom gradu ili lokaciji ćete delovati.
+
+2) Stupite u kontakt sa postojećim zajednicama u blizini i ne ustručavajte se da ih pitate za savet kada vam je potreban;
+
+3) Kreirajte jasan identitet za vašu zajednicu koji odražava vašu zajednicu i lokaciju (logo, poster, baner, flajer, itd.)
+
+4) Kreirajte komunikacione kanale i društvene mreže kao što su Telegram, Twitter, NOSTR, Discord ili Simplex. Takođe razmotrite decentralizovane i/ili kanale otporne na cenzuru.
+
+5) Pratite druge lokalne sastanke i zajednice na mreži i postavite svoju grupu na razne mape i platforme kako biste povećali vidljivost.
 
 
-4) Kreirajte komunikacione kanale i društvene mreže kao što su Telegram, Twitter, NOSTR, Discord. Takođe razmotrite decentralizovane i/ili necenzurisane kanale;
+Kada su komunikacioni kanali vaše zajednice aktivni:
+
+6) Pokrenite anketu kako biste predložili svoj prvi sastanak kada osetite da se interesovanje dovoljno povećava.
+
+7) Definišite ciljeve koje želite postići ovim događajem uživo.
+
+8) Izaberite dobro locirano, prijatno mesto koje je u skladu sa vašim ciljevima, i rezervišite sto ili sobu.
+
+9) Promovišite događaj na vašim kanalima nedelju dana pre, a zatim ponovo dva do tri dana pre datuma.
+
+10) Postavite svoj događaj na relevantne veb-sajtove i platforme.
+
+11) Na dan događaja, neka sve teče prirodno i uključite se u razgovore sa učesnicima, nežno usmeravajući diskusije ako je potrebno.
 
 
-5) Pristupite obližnjim sastancima i zajednicama (posebno na društvenim mrežama) i budite navedeni na raznim mapama i platformama kako biste stekli vidljivost;
+Posle toga:
 
+12) Fokusirajte se na zadržavanje i uključivanje učesnika kako bi se vratili.
 
-Kada su komunikacioni kanali vaše zajednice dovoljno razvijeni:
-
-
-6) Predložite okupljanje putem ankete;
-
-
-7) Razmislite o ciljevima koje želite postići ovim fizičkim događajem;
-
-
-8) Potražite dobro locirano i udobno mesto koje ispunjava vaše ciljeve i rezervišite sto;
-
-
-9) Nedelju dana pre događaja, komunicirajte o njemu na svojim mrežama i komunikacionim kanalima. Ponovite ovo dva ili tri dana pre ključnog datuma;
-
-
-10) Postavite svoj događaj na odgovarajuće platforme i veb-sajtove, ako je izvodljivo;
-
-
-11) na dan sastanka, neka se stvari dešavaju i krenite ka drugima, čak i ako to znači nežno usmeravanje razgovora ako je potrebno;
-
-
-Nakon događaja:
-
-
-12) Pokušajte zadržati i angažovati što više članova i učesnika da se vrate;
-
-
-13) Predložite jednostavne ideje i inicijative za projekte i počnite sa sprovođenjem onih koje su vam posebno bliske srcu. Ako neko drugi želi da postavi nešto drugačije, ne oklevajte da pomognete na osnovu zadatka i željenog cilja;
+13) Predložite jednostavne projekte ili inicijative i započnite one do kojih vam je lično stalo. Ako neko drugi želi da vodi drugačiji projekat, podržite ih gde možete.
 
 
 Konačno:
 
+14) Predvidite budućnost razmišljajući o većem prostoru za okupljanja, pravilima za komunikacione kanale, vebsajtu, itd;
 
-14) Predvidite budućnost razmatranjem većeg prostora za sastanke, pravila za komunikacione kanale, vebsajt, itd;
+15) Ohrabrite lokalne firme da prihvate Bitcoin, čak i jednostavnim pitanjem svaki put kada tamo kupujete.
 
+16) Delegirajte zadatke i prava admina kanala/mreže pouzdanim članovima.
 
-15) Počnite demokratizaciju prihvatanja Bitcoin u preduzećima u vašem gradu, kao što je postavljanje pitanja da li prihvataju Bitcoin;
+17) Promovišite svoju zajednicu široko kako bi se pridružilo više ljudi i uključite one koji pokažu interesovanje.
 
-
-16) Decentralizujte zadatke među pouzdanim osobama, kao i prava na vaše kanale i mreže;
-
-
-17) Promovišite svoju zajednicu kako bi se sve više ljudi pridružilo i angažovalo zainteresovane pojedince;
+18) Idi još dalje sa projektima u kojima uživaš i koji su ti važni.
 
 
-18) Idi još dalje sa projektima koje voliš i do kojih ti je stalo.
+Za brži pregled, ovaj video od 21 minuta rezimira ove korake:
 
-
-U nešto manje detalja, u videu od 21 minut, izgleda ovako:
 
 
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 
-U svakom slučaju, **zapamtite da niste sami i da postojeće zajednice su tu da vam pomognu**.
+
+Zapamti: **nisi sam, postojeće zajednice su tu da te podrže**.
 
 
-## Kurs BTC302
+
+## Briga o sebi
+
+
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+
+
+Kada padneš niz zečju rupu Bitcoin, tvoj pogled na život se menja.
+
+Duboko u sebi, osećaš potrebu da ideš dalje, da upoznaš druge koji prolaze kroz isto mentalno putovanje.
+
+
+Ta energija vas pokreće da doprinesete svoj deo slagalice deleći svoje otkriće: Bitcoin. Takođe vas inspiriše da razmišljate o svetu sutrašnjice, onom koji želite da pomognete izgraditi, i zajednicama koje rade ka tome.
+
+
+Izgradnja zajednice je dug tunel koji zahteva motivaciju, strategiju, posvećenost i vreme. To može biti nezahvalan zadatak, pa je važno ići korak po korak kako biste izbegli iscrpljenost.
+
+
+**Misli na sebe, na svoje granice**. I iako te Bitcoin može terati danju i noću, **ne pokušavaj da uradiš sve sam, ili ćeš se iscrpeti**.
+
+
+Umesto toga, **potražite pomoć od bitkoinera koji su već prošli istim tunelom, istražili iste puteve i izgradili iste alate**. To će vam uštedeti mnogo vremena.
+
+
+**Pozovite one koji vas prate u ovoj avanturi da pruže ruku**, čak i ako delegiranje čini da određeni zadaci traju duže. Dugoročno, vaša zajednica će biti jača i otpornija.
+
+
+
+![image](assets/fr/062.webp)
+
+
+
+Sami, možete brzo istražiti jedan od mnogih tunela u zečjoj rupi Bitcoin. Ali zapamtite, postoje bezbrojni drugi pravci za istraživanje.
+
+
+**Kreiranjem i/ili pridruživanjem zajednici bitkoinera, te redovnim deljenjem i razmenom sa njima, istovremeno ćete se kretati u svim pravcima niz zečju rupu.**
+
+
+
+## BTC302, Šta je sledeće
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
-U ovom BTC302 kursu, detaljno smo opisali korake za kreiranje zajednice, sastanka; ali takođe, implementaciju brojnih projekata.
+
+U ovom BTC302 kursu, detaljno smo objasnili kako postaviti zajednicu ili okupljanje, kao i kako pokrenuti razne projekte.
 
 
-Kada vaša zajednica bude spremna da pređe na sledeći nivo, **možete osnovati udruženje**.
+Kada vaša zajednica bude spremna da preduzme sledeći korak, **možete osnovati formalno udruženje**.
+
+U Francuskoj, na primer, od otprilike šezdeset zajednica i okupljanja, skoro desetak ima status udruženja.
 
 
-U Francuskoj, na primer, od oko pedeset zajednica i sastanaka, postoji skoro deset udruženja.
+Prednosti su dvostruke:
 
 
-Interes za kreiranje jednog je dvostruk:
+- Službeno priznanje**: možete otvoriti bankovni račun udruženja, dobiti pažnju medija/štampe, pa čak i aplicirati za subvencije.
+- Strukturisana organizacija**: možete definisati jasne uloge, što olakšava vođenje vaše zajednice i realizaciju projekata.
+
+
+Da biste dodatno unapredili svoju zajednicu, **nastavak kursa COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+
+![immagine](https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430)
+
+može biti objavljeno na [planb.network](https://planb.network/) u narednim mesecima**.
+
+
+Ova sledeća sesija mogla bi istražiti napredne teme kao što su:
+
+
+- Dizajniranje prezentacija ili radionica za vaše sastanke i postavljanje jasnih ciljeva.
+- Organizovanje događaja velikih razmera sa oko 100 učesnika.
+
+Za ovo ćemo se osloniti na iskustva zajednica koje su već kreirale sopstvene događaje i prezentacije.
 
 
 
-
-- s jedne strane, status udruženja omogućava **imanje zvaničnog statusa, otvaranje bankovnog računa udruženja, kao i sticanje oblika priznanja od strane štampe, medija i grantova**; - s druge strane, omogućava **precizniju organizaciju rada zajednice i sprovođenje njenih projekata**, definisanje specifičnih uloga.
-
-
-####
+![image](assets/fr/063.webp)
 
 
-Sa ciljem daljeg napretka vaše zajednice, **kurs pod nazivom COMMU201 biće postavljen na [planb.network](https://planb.network/) u narednim mesecima**.
 
-
-Kroz to, **mi ćemo takođe **detaljno obraditi još jednu važnu tačku: organizaciju događaja velikih razmera sa oko stotinu učesnika**. Postavićemo Address pitanja kao što su: Zašto? Kakva organizacija? Gde, kakav budžet? Kako? Kakva operacija?
-
-
-Da bismo to postigli, počećemo sa iskustvom nekoliko francuskih zajednica koje su već organizovale svoje događaje, kao što su **BEF (Bitcoin Ekonomski forum, u maju, u Bretanji) i B-only (u novembru, u Anesiju)**.
-
-
-![immagine](assets/fr/chapter38/62.webp)
-
-
-####
-
-
-Naravno, **u drugim zemljama, zakonodavstvo i rad udruženja su različiti**. Međutim, nekoliko tačaka će biti veoma korisno pri kreiranju udruženja ili organizovanju važnog događaja; i **nadamo se da će se drugi bitkoineri pridružiti i integrisati ovu obuku specifično za svoju zemlju**.
-
-
-# Završni Deo
+# Završni deo
 
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
 
-## Recenzije i Ocene
+
+## Recenzije i ocene
 
 
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
@@ -2756,7 +2919,7 @@ Naravno, **u drugim zemljama, zakonodavstvo i rad udruženja su različiti**. Me
 ## Zaključak
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

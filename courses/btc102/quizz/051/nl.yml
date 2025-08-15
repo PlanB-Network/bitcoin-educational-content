@@ -1,0 +1,9 @@
+question: Met welke methode kun je uitgegeven bitcoins compenseren terwijl je spaargeld behouden blijft?
+answer: Uitgeven en vervangen
+wrong_answers:
+  - HODLing en vervangen
+  - Uitgeven en HODLing
+  - Handel en uitgaven
+explanation: |
+  De Spend and Replace-methode houdt in dat je bitcoins uitgeeft en vervolgens dezelfde hoeveelheid terugkoopt om je tegoeden op peil te houden.
+reviewed: false

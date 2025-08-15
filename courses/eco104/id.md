@@ -485,7 +485,7 @@ Sebelum penciptaan Bitcoin, sekelompok visioner meletakkan dasar bagi Bitcoin ka
 
 #### The Cypherpunks
 
-The Cypherpunks adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 70-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
+The Cypherpunks adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 80-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
 
 Salah satu hasil paling terkenal dari Cypherpunks adalah daftar surat Cypherpunks, yang didirikan pada tahun 1992. Melalui daftar tersebut, individu dapat berbagi ide dan mendiskusikan teknologi kriptografi, konsep mata uang digital, dan inisiatif yang berfokus pada privasi. Ini mengarah pada pembentukan komunitas individu yang berpikiran sama, termasuk pengembang, aktivis, dan peneliti.
 

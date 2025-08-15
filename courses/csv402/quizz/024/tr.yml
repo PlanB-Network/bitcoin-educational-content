@@ -1,0 +1,9 @@
+question: RGB'deki hangi mekanizma birden fazla geçişin tek bir Bitcoin işleminde gruplanmasını sağlar?
+answer: Transition Bundle
+wrong_answers:
+  - Seal Birleştirme
+  - Çoklu Commitment Ağacı
+  - Devlet Konsolidasyonu
+explanation: |
+  Bir Transition Bundle, hepsi aynı Bitcoin Witness Transaction'e dahil olan bir dizi RGB Durum Geçişidir (aynı Contract'ye ait).
+reviewed: false

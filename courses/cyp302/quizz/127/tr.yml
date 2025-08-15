@@ -1,0 +1,9 @@
+question: Diffie-Hellman anahtarı Exchange'ın temelinde hangi matematiksel kavram yatar?
+answer: Arka kapısı olan tek yönlü bir işlev
+wrong_answers:
+  - Ters üstel bir fonksiyon
+  - Kriptografik bir Hash algoritması
+  - Basitleştirilmiş bir modüler bölme
+explanation: |
+  Diffie-Hellman, bir yönde hesaplanması kolay ancak arka kapı adı verilen gizli bir bilgi parçası olmadan tersine çevrilmesi neredeyse imkansız olan tek yönlü bir fonksiyona dayanır.
+reviewed: false

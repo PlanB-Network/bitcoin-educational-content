@@ -1,0 +1,9 @@
+question: Welche Rendering-Engine wurde aus einem Fork von KHTML entwickelt, um Safari auszustatten?
+answer: WebKit
+wrong_answers:
+  - Dreizack
+  - Gecko
+  - Blinken
+explanation: |
+  WebKit ist eine Fork von KHTML, die von Apple ab 2003 für Safari ausgewählt und anschließend von vielen Browsern übernommen wurde.
+reviewed: false

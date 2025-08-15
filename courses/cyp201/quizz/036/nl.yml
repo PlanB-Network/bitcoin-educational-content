@@ -1,0 +1,9 @@
+question: Wat kun je met een HD Wallet in vergelijking met een JBOK Wallet?
+answer: generate alle privésleutels van één seed
+wrong_answers:
+  - De veiligheid van digitale handtekeningen verhogen
+  - Hergebruik dezelfde Address voor meerdere transacties
+  - Het gebruik van openbare sleutels volledig vermijden
+explanation: |
+  HD wallets leiden alle privésleutels af van een unieke seed, wat back-up vereenvoudigt en indirect de privacy verbetert.
+reviewed: false

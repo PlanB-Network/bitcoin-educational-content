@@ -1,0 +1,9 @@
+question: Které pravidlo kybernetické bezpečnosti doporučuje omezit práva každého uživatele nebo softwaru na nezbytně nutnou míru?
+answer: Zásada nejmenšího privilegia
+wrong_answers:
+  - Dvojité ověření
+  - Zásady silných hesel
+  - Pravidelné zálohování
+explanation: |
+  Zásada nejmenšího oprávnění znamená, že se ke každému úkolu udělují pouze nezbytná práva, čímž se snižuje riziko kompromitace.
+reviewed: false

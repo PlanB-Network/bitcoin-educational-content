@@ -1,0 +1,10 @@
+question: Vad tyder den retrospektiva anonset på?
+answer: Antalet sannolika källor för en UTXO i slutet av cyklerna.
+wrong_answers:
+  - Storleken på gruppen av oskiljaktiga UTXO:er i slutet av cyklerna.
+  - Antalet sannolika källor för en UTXO i början av cyklerna.
+  - Den tid som krävs för att slutföra en CoinJoin.
+explanation: |
+  Den retrospektiva anonset anger antalet möjliga källor för ett visst mynt, med beaktande av UTXO i slutet av cykeln.
+  
+reviewed: false

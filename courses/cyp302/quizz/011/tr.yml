@@ -1,0 +1,9 @@
+question: Yerel iletişimin zayıf donanımlı saldırganlar tarafından ele geçirilmesini kolaylaştıran nedir?
+answer: Kablosuz bağlantılar için radyo dalgalarının kullanımı
+wrong_answers:
+  - Tüm verilerin uydular üzerinden yönlendirilmesi
+  - Veri iletimi için yalnızca koaksiyel kabloların kullanılması
+  - Yalnızca optik fiberler aracılığıyla veri gönderme
+explanation: |
+  Verileri radyo dalgaları aracılığıyla ileten kablosuz bağlantılar, ağa fiziksel erişim gerektirmedikleri için saldırganların müdahalesini kolaylaştırır.
+reviewed: false

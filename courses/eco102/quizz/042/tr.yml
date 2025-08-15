@@ -1,0 +1,9 @@
+question: Korumacılığın tüketiciler üzerindeki temel etkisi nedir?
+answer: Satın aldıkları ürünlerin fiyatını artırır
+wrong_answers:
+  - Daha kaliteli ürünler satın almalarını sağlar
+  - Onlara daha geniş bir ürün seçeneği sunar
+  - Satın alma güçleri üzerinde hiçbir etkisi yoktur
+explanation: |
+  Korumacılık ithalata vergi koyar, bu da ürünleri tüketiciler için daha pahalı hale getirir.
+reviewed: false

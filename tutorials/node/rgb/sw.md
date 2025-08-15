@@ -9,10 +9,10 @@ description: Utangulizi na uundaji wa mali kwenye RGB
 ## utangulizi
 
 
-Mnamo Januari 3, 2009, Satoshi Nakamoto ilizindua nodi ya kwanza ya Bitcoin, kutoka wakati huo nodi mpya zilijiunga na Bitcoin kuanza kuishi kana kwamba ni aina mpya ya maisha, aina ya maisha ambayo haijaacha kubadilika, kidogo kidogo imekuwa mtandao salama zaidi ulimwenguni kama matokeo ya muundo wake wa kipekee, uliofikiriwa vizuri sana tangu na kampuni ya Satoshi inayoitwa kiuchumi katika wawekezaji. nishati na nguvu ya kompyuta ambayo inachangia usalama wa mtandao.
+Mnamo Januari 3, 2009, Satoshi Nakamoto alizindua nodi ya kwanza ya Bitcoin, kutoka wakati huo nodi mpya zilijiunga na Bitcoin kuanza kuishi kana kwamba ni aina mpya ya maisha, aina ya maisha ambayo haijaacha kubadilika, kidogo kidogo imekuwa mtandao salama zaidi ulimwenguni kama matokeo ya muundo wake wa kipekee, uliofikiriwa vizuri sana tangu na kampuni ya Satoshi inayoitwa kiuchumi katika wawekezaji. nishati na nguvu ya kompyuta ambayo inachangia usalama wa mtandao.
 
 
-Bitcoin inapoendelea kukua na kupitishwa inakabiliwa na maswala ya kuongezeka, mtandao wa Bitcoin unaruhusu kizuizi kipya na miamala kuchimbwa kwa muda wa takriban dakika 10, ikizingatiwa kuwa tuna vitalu 144 kwa siku na viwango vya juu vya miamala 2700 kwa kila block, Bitcoin ingeruhusu kikomo cha 6.5 tu kwa sekunde 6. katika barua pepe1 iliyotumwa kwa Mike Hearn mnamo Machi 2011 ambapo anaeleza jinsi kile tunachojua leo kama njia ya malipo hufanya kazi. micropayments haraka na kwa usalama bila kusubiri uthibitisho. Hapa ndipo itifaki za off-chain zinapoingia.
+Bitcoin inapoendelea kukua na kupitishwa inakabiliwa na masuala ya kuongezeka, mtandao wa Bitcoin unaruhusu kizuizi kipya na miamala kuchimbwa kwa muda wa takriban dakika 10, ikizingatiwa kuwa tuna vitalu 144 kwa siku na viwango vya juu vya miamala 2700 kwa kila block, Bitcoin ingeruhusu kikomo cha 6.5 tu kwa sekunde 6. katika barua pepe1 iliyotumwa kwa Mike Hearn mnamo Machi 2011 ambapo anaeleza jinsi kile tunachojua leo kama njia ya malipo hufanya kazi. micropayments haraka na kwa usalama bila kusubiri uthibitisho. Hapa ndipo itifaki za off-chain zinapoingia.
 
 
 Kulingana na itifaki za Christian Decker2 off-chain kwa kawaida ni mifumo ambayo watumiaji hutumia data kutoka kwa Blockchain na kuisimamia bila kugusa Blockchain yenyewe hadi dakika ya mwisho. Kulingana na dhana hii, Lightning Network ilizaliwa, mtandao unaotumia itifaki za off-chain kuruhusu malipo ya Bitcoin kufanywa karibu mara moja na kwa kuwa sio shughuli zote hizi zimeandikwa kwenye mlolongo wa kuzuia, inaruhusu maelfu ya shughuli kwa pili na kiwango cha Bitcoin.
@@ -30,10 +30,10 @@ RGB imeonekana kutoka kwa utafiti wa Peter Todd3 juu ya matumizi-mihuri moja na 
 Tunaweza kufafanua RGB kama seti ya itifaki za chanzo huria zinazoturuhusu kutekeleza kandarasi changamano mahiri kwa njia kubwa na ya siri. Sio mtandao fulani (kama Bitcoin au Umeme); kila Smart contract ni seti tu ya washiriki wa Contract ambao wanaweza kuingiliana kwa kutumia njia tofauti za mawasiliano (chaguo-msingi hadi Lightning Network). RGB hutumia Bitcoin Blockchain kama Layer ya jimbo la Commitment na hudumisha msimbo wa Smart contract na data ya off-chain, ambayo huifanya iwe hatarini, inayotumia miamala ya Bitcoin (na Hati) kama mfumo wa udhibiti wa Ownership kwa mikataba mahiri; wakati mageuzi ya Smart contract inafafanuliwa na mpango wa off-chain, hatimaye ni muhimu kutambua kwamba kila kitu kinathibitishwa kwa upande wa mteja.
 
 
-Kwa maneno rahisi, RGB ni mfumo unaomruhusu mtumiaji kukagua Smart contract, kuitekeleza na kuithibitisha kibinafsi wakati wowote bila kuwa na gharama ya ziada kwani kwa hili haitumii Blockchain kama mifumo ya "jadi", mifumo tata ya mikataba ya smart ilianzishwa na Ethereum lakini kwa sababu hiyo inahitaji mtumiaji kutumia kiasi kikubwa cha gesi ambayo hawakuwahi kuahidi kwa kila kazi ambayo hawakuwahi kupata. chaguo la kuweka benki watumiaji waliotengwa na mfumo wa sasa wa kifedha.
+Kwa maneno rahisi, RGB ni mfumo unaomruhusu mtumiaji kukagua Smart contract, kuitekeleza na kuithibitisha kibinafsi wakati wowote bila kuwa na gharama ya ziada kwani kwa hili halitumii Blockchain kama mifumo ya "jadi", mifumo tata ya mikataba ya smart ilianzishwa na Ethereum lakini kwa sababu hiyo inahitaji mtumiaji kutumia kiasi kikubwa cha gesi ambayo hawakuwahi kuahidi kwa kila kazi ambayo hawakuwahi kupata. chaguo la kuweka benki watumiaji waliotengwa na mfumo wa sasa wa kifedha.
 
 
-Hivi sasa, sekta ya Blockchain inakuza kwamba kanuni zote mbili za mikataba mahiri na data lazima zihifadhiwe katika Blockchain na kutekelezwa na kila nodi ya mtandao, bila kujali ongezeko kubwa la ukubwa au matumizi mabaya ya rasilimali za hesabu. Mpango uliopendekezwa na RGB ni wa akili na ufanisi zaidi kwani unapunguza kwa dhana ya Blockchain kwa kuwa na mikataba mahiri na data iliyotenganishwa na Blockchain na hivyo kuzuia kueneza kwa mtandao unaoonekana kwenye majukwaa mengine, kwa upande wake hailazimishi kila nodi kutekeleza kila Contract lakini badala yake wahusika wanaohusika ambao huongeza usiri ambao haujawahi kuonekana hapo awali.
+Hivi sasa, sekta ya Blockchain inakuza kwamba kanuni zote mbili za mikataba mahiri na data lazima zihifadhiwe katika Blockchain na kutekelezwa na kila nodi ya mtandao, bila kujali ongezeko kubwa la ukubwa au matumizi mabaya ya rasilimali za hesabu. Mpango uliopendekezwa na RGB ni wa akili na ufanisi zaidi kwani unapunguza kwa dhana ya Blockchain kwa kuwa na mikataba mahiri na data iliyotenganishwa na Blockchain na hivyo kuzuia kuenea kwa mtandao unaoonekana kwenye majukwaa mengine, kwa upande wake hailazimishi kila nodi kutekeleza kila Contract lakini badala yake wahusika wanaohusika ambao huongeza usiri ambao haujawahi kuonekana hapo awali.
 
 
 ![RGB vs Ethereum](assets/1.webp)
@@ -42,7 +42,7 @@ Hivi sasa, sekta ya Blockchain inakuza kwamba kanuni zote mbili za mikataba mahi
 ## Mikataba mahiri katika RGB
 
 
-Katika RGB Smart contract msanidi anafafanua mpango unaobainisha sheria jinsi Contract inavyobadilika baada ya muda. Mpango huo ndio kiwango cha ujenzi wa kandarasi mahiri katika RGB, na mtoaji anapofafanua Contract kwa ajili ya utoaji na Wallet au Exchange lazima wafuate mpango mahususi ambao ni lazima waidhinishe Contract. Ni ikiwa tu uthibitishaji ni sahihi ndipo kila mhusika anaweza kukubali maombi na kufanya kazi na kipengee.
+Katika RGB Smart contract msanidi anafafanua mpango unaobainisha sheria jinsi Contract inavyobadilika baada ya muda. Mpango huo ndio kiwango cha ujenzi wa kandarasi mahiri katika RGB, na mtoaji anapofafanua Contract kwa ajili ya utoaji na Wallet au Exchange lazima wafuate mpango mahususi ambao ni lazima waidhinishe Contract. Na ikiwa tu uthibitishaji ni sahihi ndipo kila mhusika anaweza kukubali maombi na kufanya kazi na kipengee.
 
 
 Smart contract katika RGB ni Directed Acyclic Graph (DAG) ya mabadiliko ya hali, ambapo ni sehemu tu ya grafu inayojulikana kila wakati na hakuna ufikiaji wa zingine. Mpango wa RGB ni seti ya msingi ya sheria za mageuzi ya grafu hii Smart contract huanza nayo. Kila Contract Participant inaweza kuongeza kwa sheria hizo (ikiwa hii inaruhusiwa na Schema) na grafu inayotokana imejengwa kutokana na matumizi ya mara kwa mara ya sheria hizo.
@@ -97,7 +97,7 @@ Zaidi ya hayo, mali zinazoweza kuvuliwa na NFTs, RGB na Bifrost zinaweza kutumik
 ## Hitimisho
 
 
-Tangu kuzinduliwa kwa Bitcoin, karibu miaka 13 iliyopita kumekuwa na utafiti na majaribio mengi katika eneo hilo, mafanikio na makosa yote yameturuhusu kuelewa zaidi jinsi mifumo ya ugatuzi inavyofanya kazi, ni nini inaifanya kuwa ya ugatuzi na ni hatua gani zinazoelekea kuwaongoza kwa ujumuishaji, yote haya yametufanya kuhitimisha kuwa ugatuaji wa kweli ni jambo la kawaida na ngumu kufikiwa na ugumu tu. Bitcoin na ni kwa sababu hii kwamba tunaelekeza juhudi zetu kujenga juu yake.
+Tangu kuzinduliwa kwa Bitcoin, karibu miaka 13 iliyopita kumekuwa na utafiti na majaribio mengi katika eneo hilo, mafanikio na makosa yote yameturuhusu kuelewa zaidi jinsi mifumo ya ugatuzi inavyofanya kazi, ni nini kinaifanya kuwa ya ugatuzi na ni hatua gani zinazoelekea kuwaongoza kwa ujumuishaji, yote haya yametufanya kuhitimisha kuwa ugatuaji wa kweli ni jambo la kawaida na gumu kufikiwa na ugumu tu. Bitcoin na ni kwa sababu hii kwamba tunaelekeza juhudi zetu kujenga juu yake.
 
 
 RGB ina shimo lake la sungura ndani ya shimo la sungura la Bitcoin, wakati nikianguka chini kupitia kwao nitachapisha nilichojifunza, katika makala inayofuata tutakuwa na utangulizi wa nodes za LNP na RGB na jinsi ya kuzitumia.
@@ -123,7 +123,7 @@ Katika somo hili tunaeleza jinsi ya kutumia RGB-nodi kuunda tokeni inayoweza kuv
 ## Mahitaji
 
 
-Matumizi ya usambazaji wa Linux yanapendekezwa, mafunzo haya yaliandikwa kwa kutumia Pop!OS, ambayo inategemea Ubuntu na utahitaji:
+Matumizi ya usambazaji wa Linux yanapendekeza, mafunzo haya yaliyoandikwa kwa kutumia Pop!OS, ambayo inategemea Ubuntu na utahitaji:
 
 
 
@@ -259,7 +259,7 @@ receive_utxo ni UTXO inayodhibitiwa na mpokeaji, kwa hali hii tutatumia e40d9037
 - kupokea_utxo: e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0
 
 
-Sasa tutaunda shughuli iliyotiwa saini kwa sehemu (tx.PSBT) ambayo matokeo yake yatarekebishwa ili kujumuisha ahadi ya kuhamisha, kumbuka kuchukua nafasi ya txid na uweke yako mwenyewe, unakoenda Address haijalishi kabisa, inaweza kuwa yako au inaweza kutoka kwa mtu mwingine, haijalishi ni wapi hizo GW-10 zinakwenda.
+Sasa tutaunda shughuli iliyotiwa sahihi kwa sehemu (tx.PSBT) ambayo matokeo yake yatarekebishwa ili kujumuisha ahadi ya kuhamisha, kumbuka kuchukua nafasi ya txid na uweke yako mwenyewe, unakoenda Address haijalishi kabisa, inaweza kuwa yako au inaweza kutoka kwa mtu mwingine, haijalishi ni wapi hizo GW-10 zinakwenda.
 
 
 ```
@@ -280,7 +280,7 @@ $ echo "cHNidP8BAHECAAAAAZM4E58uD9auiZ7esJkFbmD5p/7PcgBTn5UwiQ0hhRdMAQAAAAD/////
 ```
 
 
-Wacha tuunde saraka mpya inayoitwa rgbdata ambayo saraka ya data ya kila nodi huhifadhiwa.
+Wacha tuunde saraka mpya inayoitwa rgbdata ambayo saraka ya data ya kila nodi uhifadhiwa.
 
 
 ```

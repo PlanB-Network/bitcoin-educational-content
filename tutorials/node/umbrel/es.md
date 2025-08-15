@@ -1,5 +1,5 @@
 ---
-name: Paraguas
+name: Umbrel
 description: Descubre e instala Umbrel - Tu nodo Bitcoin y servidor doméstico
 ---
 
@@ -21,48 +21,48 @@ Un nodo Bitcoin es un ordenador que participa en la red Bitcoin ejecutando el so
 
 
 
-- Almacenamiento de Blockchain**: Mantiene una copia completa y actualizada del Blockchain Bitcoin
-- Verificación de transacciones**: valida cada transacción y bloque de acuerdo con las normas del protocolo
-- Difusión de la información**: Comparte nuevas transacciones y bloques con otros nodos
-- Creación de consenso**: Contribuye a la aplicación de las normas de la red
+- **Almacenamiento de Blockchain**: Mantiene una copia completa y actualizada del Blockchain Bitcoin
+- **Verificación de transacciones**: valida cada transacción y bloque de acuerdo con las normas del protocolo
+- **Difusión de la información**: Comparte nuevas transacciones y bloques con otros nodos
+- **Creación de consenso**: Contribuye a la aplicación de las normas de la red
 
 
 
-Gestionar su propio nodo Bitcoin es un paso crucial hacia la soberanía financiera, ya que ofrece varias ventajas clave:
+Gestionar tu propio nodo Bitcoin es un paso crucial hacia la soberanía financiera, ya que ofrece varias ventajas clave:
 
 
 
 
 
-- Confidencialidad**: Comparte tus transacciones sin revelar tu información a terceros
-- Resistencia a la censura**: Nadie puede impedirte usar Bitcoin
-- Verificación independiente**: No necesitas confiar en nodos ajenos para verificar tus transacciones
-- Creación de consenso**: Contribuir a la aplicación de las normas de la red Bitcoin
-- Apoyo a la red**: Participe activamente en la distribución y descentralización de la red
+- **Confidencialidad**: Comparte tus transacciones sin revelar tu información a terceros
+- **Resistencia a la censura**: Nadie puede impedirte usar Bitcoin
+- **Verificación independiente**: No necesitas confiar en nodos ajenos para verificar tus transacciones
+- **Creación de consenso**: Contribuir a la aplicación de las normas de la red Bitcoin
+- **Apoyo a la red**: Participe activamente en la distribución y descentralización de la red
 
 
 
-### Paraguas: Una solución sencilla para ejecutar un nodo Bitcoin
+### Umbrel: Una solución sencilla para ejecutar un nodo Bitcoin
 
 
 
-Umbrel es un sistema operativo de código abierto que simplifica la instalación y gestión de un nodo Bitcoin. También transforma tu ordenador en un servidor doméstico personal y privado, facilitando el alojamiento de :
+Umbrel es un sistema operativo de código abierto que simplifica la instalación y gestión de un nodo Bitcoin. También transforma tu ordenador en un servidor doméstico personal y privado, facilitando el alojamiento de:
 
 
 
 
 
 - Un nodo Bitcoin completo
-- Bitcoin aplicaciones esenciales (Electrs, Mempool.space)
+- Aplicaciones esenciales para Bitcoin (Electrs, Mempool.space)
 - Otros servicios personales (almacenamiento en la nube, streaming, VPN, etc.)
 
 
 
-Con su elegante e intuitivo Interface de usuario, Umbrel hace que los servicios autoalojados sean accesibles para todos, al tiempo que conserva el control total sobre sus datos.
+Con su elegante e intuitiva Interfaz de usuario, Umbrel hace que los servicios autoalojados sean accesibles para todos, al tiempo que conserva el control total sobre tus datos.
 
 
 
-## Opciones de instalación del paraguas
+## Opciones de instalación de Umbrel
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS es la versión gratuita y de código abierto del sistema operativo Umbr
 
 
 
-**Limitaciones
+**Limitaciones**
 
 
 
@@ -156,7 +156,7 @@ UmbrelOS es la versión gratuita y de código abierto del sistema operativo Umbr
 
 
 
-Esta versión es ideal para :
+Esta versión es ideal para:
 
 
 
@@ -168,7 +168,7 @@ Esta versión es ideal para :
 
 
 
-Enlaces oficiales de instalación :
+Enlaces oficiales de instalación:
 
 
 
@@ -191,7 +191,7 @@ En este tutorial, nos centraremos en la instalación de UmbrelOS en una Raspberr
 
 
 
-Para esta instalación necesitarás :
+Para esta instalación necesitarás:
 
 
 
@@ -234,11 +234,11 @@ Para esta instalación necesitarás :
 
 
 
-- Descargue e instale [Balena Etcher](https://www.balena.io/etcher/) en su ordenador
+- Descarga e instala [Balena Etcher](https://www.balena.io/etcher/) en tu ordenador
 
 
 
-**Preparación de la tarjeta microSD
+**Preparación de la tarjeta microSD**
 
 
 
@@ -260,15 +260,15 @@ Para esta instalación necesitarás :
 
 
 
-- Lanzar Balena Etcher
-- Seleccione la imagen UmbrelOS descargada
+- Abre Balena Etcher
+- Selecciona la imagen UmbrelOS descargada
 - Elige tu tarjeta microSD como destino
 - Haz clic en "¡Flash!" y espera a que termine el proceso
-- Expulsar la tarjeta de forma segura
+- Expulsa la tarjeta de forma segura
 
 
 
-**instalación de tarjeta microSD
+**instalación de tarjeta microSD**
 
 
 
@@ -290,12 +290,12 @@ Para esta instalación necesitarás :
 
 
 
-- Conecte la unidad SSD externa a un puerto USB disponible
-- Conecte el cable Ethernet entre la Pi y su router
+- Conecta la unidad SSD externa a un puerto USB disponible
+- Conecta el cable Ethernet entre la Pi y tu router
 
 
 
-**Encendido
+**Encendido**
 
 
 
@@ -304,8 +304,8 @@ Para esta instalación necesitarás :
 
 
 
-- Conecta la alimentación oficial de Raspberry Pi Supply
-- Espere unos minutos a que se inicie el sistema
+- Conecta el cable de alimentación oficial de Raspberry Pi
+- Espera unos minutos a que se inicie el sistema
 
 
 
@@ -318,8 +318,8 @@ Para esta instalación necesitarás :
 
 
 
-- En un dispositivo conectado a la misma red, abra su navegador
-- Acceda al sitio web Interface de Umbrel en: `http://umbrel.local`
+- En un dispositivo conectado a la misma red, abre tu navegador
+- Accede a la Interfaz web de Umbrel en: `http://umbrel.local`
 
 
 
@@ -327,14 +327,14 @@ Para esta instalación necesitarás :
 
 
 
-Si `umbrel.local` no funciona, tendrás que encontrar la IP Address de tu Raspberry Pi en tu red local. Puedes :
+Si `umbrel.local` no funciona, tendrás que encontrar la dirección IP de tu Raspberry Pi en tu red local. Puedes:
 
 
 
 
-- Consulte la Interface de su router
-- Utilizando un escáner de red como nmap
-- Utilice el comando `arp -a` en el terminal de su ordenador
+- Consultar la Interfaz de tu router
+- Utilizar un escáner de red como nmap
+- Utilizar el comando `arp -a` en el terminal de tu ordenador
 
 
 
@@ -359,13 +359,13 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-- Elija un nombre de usuario
-- Establecer una contraseña segura
-- Necesitará estas credenciales para acceder a su Umbrel
+- Elige un nombre de usuario
+- Establece una contraseña segura
+- Necesitarás estas credenciales para acceder a tu Umbrel
 
 
 
-**Confirmación de la cuenta
+**Confirmación de la cuenta**
 
 
 
@@ -374,11 +374,11 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-- Haga clic en "Siguiente" para acceder a su panel de control
+- Haz clic en "Siguiente" para acceder al panel de control
 
 
 
-**Descubrimiento del Interface**
+**Conociendo la Interfaz**
 
 
 
@@ -387,8 +387,8 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-- Acceder a la App Store de Umbrel
-- Descubra las numerosas aplicaciones disponibles
+- Accede a la App Store de Umbrel
+- Descubre las numerosas aplicaciones disponibles
 - Empecemos por instalar las aplicaciones esenciales para Bitcoin
 
 
@@ -407,7 +407,7 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 - Primera aplicación a instalar
-- Descargue y compruebe toda la Blockchain Bitcoin
+- Descarga y comprueba toda la Blockchain Bitcoin
 
 
 
@@ -420,8 +420,8 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-- Servidor Electrum para conectar los monederos Bitcoin
-- Sincroniza con su nodo Bitcoin
+- Servidor Electrum para conectar las billeteras Bitcoin
+- Sincroniza con tu nodo Bitcoin
 
 
 
@@ -434,8 +434,8 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-- Pantalla Interface para Blockchain
-- Seguimiento de transacciones y bloqueos en tiempo real
+- Interfaz gráfica para Blockchain
+- Seguimiento de transacciones y bloques en tiempo real
 
 
 
@@ -451,24 +451,24 @@ Mempool.space es un explorador de código abierto de Blockchain que proporciona 
 
 
 
-La "Mempool" (reserva de memoria) es como una sala de espera virtual donde se almacenan todas las transacciones no confirmadas de la Bitcoin antes de ser incluidas en un bloque. Así es como se procesa una transacción:
+La "Mempool" (reserva de memoria) es como una sala de espera virtual donde se almacenan todas las transacciones no confirmadas de Bitcoin antes de ser incluidas en un bloque. Así es como se procesa una transacción:
 
 
 
 1. **Difusión**: Cuando envías una transacción, primero se difunde en la red Bitcoin
 
 
-2. **En espera en Mempool**: En espera de ser seleccionado por un Miner en función de los costes
+2. **En espera en Mempool**: En espera de ser seleccionada por un minero en función de los costes
 
 
-3. **Primera confirmación**: Un menor lo incluye en un bloque (1ª confirmación)
+3. **Primera confirmación**: Un minero lo incluye en un bloque (1ª confirmación)
 
 
-4. **Confirmaciones adicionales**: Cada nuevo bloque minado después del que contiene su transacción añade una confirmación
+4. **Confirmaciones adicionales**: Cada nuevo bloque minado después del que contiene tu transacción añade una confirmación
 
 
 
-El número recomendado de confirmaciones depende de la cantidad :
+El número recomendado de confirmaciones depende de la cantidad:
 
 
 
@@ -478,11 +478,11 @@ El número recomendado de confirmaciones depende de la cantidad :
 
 
 
-### Explorar Interface desde Mempool.space
+### Explorar la Interfaz desde Mempool.space
 
 
 
-1. **La página de inicio** le ofrece una visión general de la red Bitcoin:
+1. **La página de inicio** Ofrece una visión general de la red Bitcoin:
 
 
 
@@ -497,7 +497,7 @@ El número recomendado de confirmaciones depende de la cantidad :
 
 
 
-2. **Buscar una transacción**: Para rastrear una transacción específica, pegue su identificador (txid) en la barra de búsqueda situada en la parte superior de la página.
+2. **Buscar una transacción**: Para rastrear una transacción específica, pega el identificador (txid) en la barra de búsqueda situada en la parte superior de la página.
 
 
 
@@ -509,11 +509,11 @@ El número recomendado de confirmaciones depende de la cantidad :
 
 
 
-Una vez encontrada su transacción, Mempool.space le presenta un análisis completo:
+Una vez encontrada la transacción, Mempool.space presenta un análisis completo:
 
 
 
-1. **Información esencial** :
+1. **Información esencial**:
 
 
 
@@ -528,7 +528,7 @@ Una vez encontrada su transacción, Mempool.space le presenta un análisis compl
 
 
 
-2. **Estructura de transacción** :
+2. **Estructura de transacción**:
 
 
 
@@ -539,7 +539,7 @@ Una vez encontrada su transacción, Mempool.space le presenta un análisis compl
 
 
 
-3. **Datos técnicos** :
+3. **Datos técnicos**:
 
 
 
@@ -569,11 +569,11 @@ Una vez encontrada su transacción, Mempool.space le presenta un análisis compl
 
 
 
-Con esta aplicación, puede supervisar eficazmente sus transacciones, entender cómo afectan las comisiones a la velocidad de confirmación y comprender mejor cómo funciona la red Bitcoin.
+Con esta aplicación, puedes supervisar eficazmente tus transacciones, entender cómo afectan las comisiones a la velocidad de confirmación y comprender mejor cómo funciona la red Bitcoin.
 
 
 
-## Conexión de un Wallet Bitcoin a su nodo
+## Conexión de una billetera Bitcoin a tu nodo
 
 
 
@@ -581,7 +581,7 @@ Con esta aplicación, puede supervisar eficazmente sus transacciones, entender c
 
 
 
-**Conexión local
+**Conexión local**
 
 
 
@@ -590,7 +590,7 @@ Con esta aplicación, puede supervisar eficazmente sus transacciones, entender c
 
 
 
-- Para uso en su red local
+- Para uso en tu red local
 - Instalación más rápida y sencilla
 
 
@@ -613,7 +613,7 @@ Con esta aplicación, puede supervisar eficazmente sus transacciones, entender c
 
 
 
-**Acceso a los parámetros
+**Acceso a los parámetros**
 
 
 
@@ -622,13 +622,13 @@ Con esta aplicación, puede supervisar eficazmente sus transacciones, entender c
 
 
 
-- Gorrión abierto Wallet
+- Sparrow Wallet
 - Vaya a Preferencias > Servidor
 - Haga clic en "Modificar conexión existente"
 
 
 
-**Elección del tipo de conexión
+**Elección del tipo de conexión**
 
 
 
@@ -661,24 +661,24 @@ Sparrow ofrece tres modos de conexión:
 
 
 
-- Conéctese a su servidor Electrs
+- Conéctate a tu servidor Electrs
 - Combina confidencialidad y rendimiento
 
 
 
-*configuración *Electrs**
+***configuración Electrs***
 
 
 
-Elija su tipo de conexión utilizando la información que aparece en la aplicación Electrs que vimos antes:
+Elige el tipo de conexión utilizando la información que aparece en la aplicación Electrs que vimos antes:
 
 
 
-En ambos casos, deje sin marcar las opciones "Usar SSL" y "Usar proxy".
+En ambos casos, deja sin marcar las opciones "Usar SSL" y "Usar proxy".
 
 
 
-**Conexión local
+**Conexión local**
 
 
 Host: umbrel.local
@@ -691,7 +691,7 @@ Número de puerto: 50001
 **Conexión remota (Tor)**
 
 
-Anfitrión : [su-Address-onion]
+Host: [tu-Address-onion]
 
 
 Número de puerto: 50001
@@ -705,7 +705,7 @@ La conexión Tor es necesaria si quieres acceder a tu nodo fuera de tu red local
 ![Configuration connexion](assets/fr/21.webp)
 
 
-Para más información sobre el software Sparrow Wallet, disponemos de un completo tutorial :
+Para más información sobre el software Sparrow Wallet, disponemos de un tutorial completo:
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -713,7 +713,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Su Umbrel ya está listo para ser utilizado. Participarás activamente en la red Bitcoin manteniendo el control total de tus datos. No dudes en explorar las muchas otras aplicaciones disponibles en la App Store de Umbrel para ampliar las capacidades de tu servidor doméstico.
+Tu Umbrel ya está listo para ser utilizado. Participarás activamente en la red Bitcoin manteniendo el control total de tus datos. No dudes en explorar las muchas otras aplicaciones disponibles en la App Store de Umbrel para ampliar las capacidades de tu servidor doméstico.
 
 
 
@@ -740,7 +740,7 @@ Su Umbrel ya está listo para ser utilizado. Participarás activamente en la red
 - [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
 - [Mempool](https://Mempool.space)
-- [Gorrión Wallet](https://sparrowwallet.com)
+- [Sparrow Wallet](https://sparrowwallet.com)
 
 
 
@@ -749,6 +749,6 @@ Su Umbrel ya está listo para ser utilizado. Participarás activamente en la red
 
 
 
-- [Paraguas del Foro](https://community.getumbrel.com)
+- [Foro de Umbrel](https://community.getumbrel.com)
 - [GitHub Umbrel](https://github.com/getumbrel)
 - [Twitter Umbrel](https://twitter.com/umbrel)

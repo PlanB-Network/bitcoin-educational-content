@@ -1,0 +1,9 @@
+question: Hvilket prosjekt la grunnlaget for det moderne Internett på slutten av 1960-tallet?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET var det første sammenkoblede nettverket, designet for å knytte sammen flere forskningssentre, og er den direkte forløperen til Internett.
+reviewed: false

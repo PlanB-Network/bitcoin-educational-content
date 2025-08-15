@@ -1,0 +1,9 @@
+question: Wat is de visie op geschiedenis die Marx voorstelt?
+answer: Geschiedenis is het resultaat van de strijd tussen sociale klassen
+wrong_answers:
+  - De geschiedenis is een lineaire progressie naar een burgerlijke samenleving
+  - De geschiedenis is een cyclus van herhaling met perioden van vrijheid gevolgd door perioden van tirannie
+  - Geschiedenis wordt bepaald door klimatologische factoren
+explanation: |
+  Marx ziet de geschiedenis als het product van conflicten tussen sociale klassen en beweert dat de spanningen tussen de onderdrukker en de onderdrukte klassen de drijvende kracht zijn achter sociale en economische veranderingen door de eeuwen heen.
+reviewed: true

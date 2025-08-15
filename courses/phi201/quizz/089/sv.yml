@@ -1,0 +1,9 @@
+question: Vad innebär den strikta gräns mellan den offentliga sfären och den privata sfären som Constant förespråkar?
+answer: Denna gräns innebär att staten inte ska blanda sig i enskilda individers privatliv.
+wrong_answers:
+  - Denna gräns innebär att individer inte bör engagera sig i offentliga angelägenheter.
+  - Denna gräns innebär en total åtskillnad mellan kyrkan och staten.
+  - Denna gräns innebär att individer måste ha samma friheter i både den offentliga och den privata sfären.
+explanation: |
+  För Benjamin Constant innebär en strikt gräns mellan den offentliga och den privata sfären att staten måste respektera individens privatliv och undvika att ingripa i personliga val som inte rör det offentliga.
+reviewed: true

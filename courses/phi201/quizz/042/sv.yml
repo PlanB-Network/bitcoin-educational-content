@@ -1,0 +1,9 @@
+question: Vad är naturrättens funktion enligt Sankt Thomas av Aquino?
+answer: Den upplyser människors samvete och gör det möjligt för dem att göra rättvisa moraliska val.
+wrong_answers:
+  - Den vägleder människor till frälsning genom att uppenbara Guds vilja.
+  - Den möjliggör kunskap om naturlagarna.
+  - Det är en slags instinkt.
+explanation: |
+  Enligt Thomas av Aquino är naturlagens funktion att upplysa det mänskliga samvetet genom att tillhandahålla universella moraliska riktmärken som hjälper individen att urskilja och välja vad som är gott i sina handlingar.
+reviewed: true

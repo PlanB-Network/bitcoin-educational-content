@@ -18,7 +18,7 @@ Metoden bygger på asymmetrisk kryptografi: inga hemliga data överförs, vilket
 
 
 
-Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FIDO2 (*Fast IDentity Online 2.0*), en utveckling av U2F. Detta är ett standardiserat autentiseringsprotokoll från 2018, som utökar logiken i U2F och syftar till att helt ersätta lösenord. Det är baserat på två komponenter: *WebAuthn* (webbläsarsidan) och *CTAP2* (sidan med den fysiska nyckeln). FIDO2 möjliggör "lösenordslös" autentisering: användare identifierar sig enbart via sin Trezor-enhet, som fungerar som en unik kryptografisk token, utan ytterligare lösenord. Detta protokoll är nu kompatibelt med ett antal onlinetjänster, särskilt sådana som är inriktade på företag.
+Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FIDO2 (*Fast IDentity Online 2.0*), en utveckling av U2F. Detta är ett standardiserat autentiseringsprotokoll från 2018, som utökar logiken i U2F och syftar till att helt ersätta lösenord. Det är baserat på två komponenter: *WebAuthn* (webbläsarsidan) och *CTAP2* (sidan med den fysiska nyckeln). FIDO2 möjliggör "lösenordslös" autentisering: användare identifierar sig enbart via sin Trezor-enhet, som fungerar som en unik kryptografisk token, utan något ytterligare lösenord. Detta protokoll är nu kompatibelt med ett antal onlinetjänster, särskilt sådana som är inriktade på företag.
 
 
 
@@ -118,7 +118,7 @@ Du kan sedan trycka på din Trezor-skärm för att bekräfta autentiseringen.
 
 
 
-Fördelen med att använda en Hardware Wallet Trezor för tvåfaktorsautentisering är att du enkelt kan återställa dina nycklar tack vare Mnemonic-frasen. Utöver denna grundläggande säkerhetskopia kan du också använda en nödkod som tillhandahålls av varje tjänst där du har aktiverat 2FA. Med den här nödkoden kan du ansluta till ditt konto om du tappar bort din säkerhetsnyckel. Den ersätter därför 2FA för en anslutning vid behov.
+Fördelen med att använda en Hardware Wallet Trezor för tvåfaktorsautentisering är att du enkelt kan återställa dina nycklar tack vare Mnemonic-frasen. Utöver denna grundläggande säkerhetskopia kan du också använda en nödkod som tillhandahålls av varje tjänst där du har aktiverat 2FA. Med den här nödkoden kan du ansluta till ditt konto om du tappar bort din säkerhetsnyckel. Den ersätter därför 2FA för en anslutning om det behövs.
 
 
 
@@ -216,7 +216,7 @@ Från och med nu är det inte längre nödvändigt att ange din e-post Address e
 
 
 
-Bekräfta anslutningen till din Trezor genom att ange din PIN-kod Hardware Wallet.
+Bekräfta anslutningen till din Trezor genom att ange din Hardware Wallet PIN-kod.
 
 
 

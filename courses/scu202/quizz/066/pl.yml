@@ -1,0 +1,9 @@
+question: Jakie dane lokalne umożliwiają reklamodawcom śledzenie twoich nawyków przeglądania w wielu witrynach?
+answer: Pliki cookie stron trzecich
+wrong_answers:
+  - Kod JavaScript
+  - Historia lokalna
+  - Certyfikat SSL
+explanation: |
+  Pliki cookie stron trzecich, umieszczane przez zewnętrzne agencje reklamowe, służą do śledzenia aktywności użytkownika na różnych stronach internetowych i tworzenia profilu reklamowego.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Aziz Augustine'e göre, dünyada bir arada var olan iki şehir hangileridir?
+answer: Tanrı'nın Şehri ve Dünyevi Şehir.
+wrong_answers:
+  - İnsanların şehri ve tanrıların şehri.
+  - Azizler şehri ve günahkârlar şehri.
+  - Üniversite şehri ve melekler şehri.
+explanation: |
+  Aziz Augustinus dünyada bir arada var olan iki şehirden bahseder: Tanrı'ya ve ruhani hayata yönelik Tanrı Şehri ve insani kaygılara ve maddi meselelere odaklanan ve her biri farklı hedefleri takip eden Dünyevi Şehir.
+reviewed: true

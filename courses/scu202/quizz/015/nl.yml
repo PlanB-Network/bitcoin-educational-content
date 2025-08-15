@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van distributie met rollende releases?
+answer: Gebruik de nieuwste software
+wrong_answers:
+  - Grotere compatibiliteit met Windows
+  - Een omgeving zonder Interface graphics
+  - Verplichte verkoopondersteuning
+explanation: |
+  Rollende releases integreren continue software-updates, waardoor je altijd toegang hebt tot de nieuwste versies.
+reviewed: false

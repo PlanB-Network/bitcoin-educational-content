@@ -1,0 +1,9 @@
+question: Varför är talteori särskilt viktigt inom kryptografi med publik nyckel?
+answer: Den ger den nödvändiga matematiska grunden för krypterings- och dekrypteringsoperationer.
+wrong_answers:
+  - Den ger de nödvändiga matematiska grunderna för hashingoperationer.
+  - Det är nödvändigt för att skapa neurala nätverk.
+  - Den möjliggör endast beräkning av operationer i binär form.
+explanation: |
+  Talteori är avgörande för kryptografi med publik nyckel eftersom den hjälper till att strukturera algoritmer baserat på egenskaperna hos heltal, vilket underlättar kryptering och dekryptering.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RSA kriptosisteminde d değerini bulmak neden zordur?
+answer: Çünkü N'nin asal çarpanlarına bağlı olan φ(N) bilgisini gerektirir
+wrong_answers:
+  - Çünkü d rastgele bir sayıdır
+  - Çünkü d, N'den büyüktür
+  - Çünkü d, φ(N)'den bağımsız olarak hesaplanır
+explanation: |
+  D'yi bulmak zordur çünkü φ(N) bilgisine dayanır, bu da N'nin asal çarpanları olan p ve q değerlerine bağlıdır.
+reviewed: false

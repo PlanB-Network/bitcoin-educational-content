@@ -1,0 +1,9 @@
+question: Mitkä ovat tärkeimmät kriteerit, jotka on tarkistettava ennen viestisovelluksen valintaa?
+answer: End-to-end-salaus ja avoin lähdekoodi
+wrong_answers:
+  - Vahva todennus ja avoin lähdekoodi
+  - End-to-end-salaus ja hajautetut palvelimet
+  - Vahva todennus ja hajautetut palvelimet
+explanation: |
+  Päästä-päähän-salaus varmistaa vaihdon luottamuksellisuuden, ja avoimen lähdekoodin avulla on mahdollista tarkistaa, että tämä tietoturva on toteutettu oikein.
+reviewed: false

@@ -346,7 +346,7 @@ The exclamation mark at the beginning indicates an image. The alternative text, 
 If you wish to create your own schematics, be sure to follow the Plan ₿ Network graphic guidelines to ensure visual consistency:
 
 
-- Font**: Use [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Colours** :
  - Orange: #FF5C00
  - Black : #000000

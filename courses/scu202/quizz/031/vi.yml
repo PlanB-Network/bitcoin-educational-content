@@ -1,0 +1,9 @@
+question: Ưu điểm chính của việc chạy ứng dụng trong hộp cát hoặc máy ảo là gì?
+answer: Hạn chế tác động của sự thỏa hiệp
+wrong_answers:
+  - Tăng tốc thực hiện chương trình
+  - Giảm mức tiêu thụ RAM
+  - Tăng tốc độ kết nối mạng
+explanation: |
+  Sandbox và ảo hóa chủ yếu được sử dụng để cô lập các ứng dụng hoặc hệ thống khỏi các cuộc tấn công tiềm ẩn.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ võrgustiku tunnistuste ja diplomite ajatemplite lisamine
+name: Plan ₿ Network diplomite ajatempel
 description: Mõista, kuidas Plan ₿ võrgustik väljastab kontrollitavat tõendit teie tunnistuse ja diplomite kohta
 ---
 
@@ -147,4 +147,3 @@ Pane tähele, et verifitseerimine on edukas, kui kuvatakse **mõlemad** järgmis
 2. OpenTimestamps verifitseerimine näitab konkreetset Bitcoin'i ploki ajatemplit ja teatab **"Edu! Bitcoin'i plokk [ploki kõrgus] tõendab, et andmed eksisteerisid seisuga [ajatempel]"**
 
 Nüüd, kui tead, kuidas Plan ₿ Network väljastab kontrollitava tõendi mistahes Bitcoin'i sertifikaadi ja kursuse lõpetamise diplomi jaoks, saad sa hõlpsalt kontrollida selle terviklikkust.
-

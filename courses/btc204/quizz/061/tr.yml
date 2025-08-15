@@ -1,0 +1,10 @@
+question: Bitcoin Wallet yazılımındaki Coin kontrol seçeneğinin amacı nedir?
+answer: İşlemler için girdi olarak hangi UTXO'ların kullanılacağını seçmek için.
+wrong_answers:
+  - Wallet'ün güvenliğini artırmak için UTXO'ları şifrelemek.
+  - Şüpheli kaynaklardan gelen UTXO'ları tespit etmek ve engellemek.
+  - Wallet'teki her bir UTXO'i etiketlemek için.
+explanation: |
+  Coin kontrolü, iyi Bitcoin Wallet yazılımında bulunan bir özelliktir ve bir işlem yaparken girdi olarak kullanmak üzere belirli UTXO'ları manuel olarak seçebilmenizi sağlar.
+  
+reviewed: false

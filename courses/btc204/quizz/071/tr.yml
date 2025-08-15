@@ -1,0 +1,10 @@
+question: Kendi Bitcoin düğümünüzü kullanmadığınızda bağlantıları gizlemek için hangi ara önlem alınabilir?
+answer: Tor kullanımı.
+wrong_answers:
+  - Güvenlik duvarı kullanımı.
+  - Şifrelenmiş bir Wallet kullanımı.
+  - Çift Wallet kullanımı.
+explanation: |
+  Gözetlenme riskini sınırlamak için bir ara çözüm, bağlantılarınızı Tor üzerinden gizlemenizi sağlayan Wallet yazılımını kullanmaktır.
+  
+reviewed: false

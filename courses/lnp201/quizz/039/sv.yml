@@ -1,0 +1,9 @@
+question: Vad händer om en kanal med en aktiv HTLC stängs med tvång?
+answer: HTLC ingår i Commitment-transaktionerna som en output.
+wrong_answers:
+  - HTLC avbryts automatiskt.
+  - Pengarna omfördelas till de tidigare noderna.
+  - Kanalen kan inte stängas förrän HTLC har löpt ut.
+explanation: |
+  Under en tvingad stängning representeras väntande HTLC:er som utgångar i Commitment-transaktionerna, vilket säkerställer att de utförs eller returneras enligt de definierade villkoren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Aplikasi penerjemahan sumber terbuka mana yang bekerja dengan mesin yang berbeda dan tidak mengumpulkan teks terjemahan Anda?
+answer: TerjemahkanAnda
+wrong_answers:
+  - Google Terjemahan
+  - DeepL
+  - Penerjemah Microsoft
+explanation: |
+  TranslateYou bertindak sebagai Interface untuk beberapa mesin, tanpa melacak atau mengumpulkan data pribadi, tidak seperti layanan berpemilik.
+reviewed: false

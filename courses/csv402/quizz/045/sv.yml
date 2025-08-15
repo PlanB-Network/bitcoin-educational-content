@@ -1,0 +1,9 @@
+question: Vilken RGB-standard används för att definiera fungibla tokens?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 är den standard som används för att skapa och hantera fungibla tokens via RGB-protokollet.
+reviewed: false

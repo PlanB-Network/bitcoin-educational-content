@@ -629,22 +629,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Konfiguracja kopii zapasowej
-
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-
-Kluczową kwestią jest również ochrona plików osobistych. Ten samouczek pokazuje, jak wdrożyć skuteczną strategię tworzenia kopii zapasowych przy użyciu Proton Drive. Dowiedz się, jak korzystać z tego bezpiecznego rozwiązania w chmurze, aby zastosować metodę 3-2-1: trzy kopie danych na dwóch różnych nośnikach, z jedną kopią poza siedzibą firmy. Zapewnia to dostępność i bezpieczeństwo poufnych plików:
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Aby zabezpieczyć pliki przechowywane na nośnikach wymiennych, takich jak dysk USB lub zewnętrzny dysk Hard, pokazuję również, jak łatwo zaszyfrować i odszyfrować te nośniki za pomocą VeraCrypt:
-
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Zmiana przeglądarki i VPN
 
 
@@ -665,6 +649,22 @@ Dowiedz się także, jak korzystać z Tor Browser, przeglądarki zaprojektowanej
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Konfiguracja kopii zapasowej
+
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+
+Kluczową kwestią jest również ochrona plików osobistych. Ten samouczek pokazuje, jak wdrożyć skuteczną strategię tworzenia kopii zapasowych przy użyciu Proton Drive. Dowiedz się, jak korzystać z tego bezpiecznego rozwiązania w chmurze, aby zastosować metodę 3-2-1: trzy kopie danych na dwóch różnych nośnikach, z jedną kopią poza siedzibą firmy. Zapewnia to dostępność i bezpieczeństwo poufnych plików:
+
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Aby zabezpieczyć pliki przechowywane na nośnikach wymiennych, takich jak dysk USB lub zewnętrzny dysk Hard, pokazuję również, jak łatwo zaszyfrować i odszyfrować te nośniki za pomocą VeraCrypt:
+
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idź dalej
 

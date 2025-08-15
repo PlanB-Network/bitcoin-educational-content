@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - केवल स्व-निर्मित या रॉयल्टी-मुक्त दृश्यों का ही उपयोग करें।
     - सुनिश्चित करें कि वे प्रासंगिक और उच्च गुणवत्ता वाले हों।
 - ग्राफिक चार्टर** :
-    - फ़ॉन्ट: [रूबिक](https://fonts.google.com/specimen/Rubik).
+    - फ़ॉन्ट: [रूबिक](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - रंग Plan ₿ Network :
         - नारंगी: `#FF5C00`
         - काला: `#000000`

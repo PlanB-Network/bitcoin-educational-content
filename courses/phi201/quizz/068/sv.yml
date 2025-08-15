@@ -1,0 +1,9 @@
+question: Vad är definitionen av tolerans enligt Turgot?
+answer: Att vägra använda våld mot dem som har en annan övertygelse än en själv, samtidigt som man fortsätter att försvara sin egen övertygelse med hjälp av förnuftet.
+wrong_answers:
+  - Acceptera och godkänna alla religiösa övertygelser, även de som anses vara felaktiga.
+  - Att avsäga sig sin egen religiösa övertygelse för att leva i fred med andra.
+  - Total likgiltighet inför religiösa frågor och deras inverkan på samhället.
+explanation: |
+  För Turgot innebär tolerans att man inte tar till våld mot dem som har en annan tro, samtidigt som man behåller friheten att försvara sin egen övertygelse på ett rationellt sätt.
+reviewed: true

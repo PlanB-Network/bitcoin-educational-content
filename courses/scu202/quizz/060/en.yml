@@ -1,0 +1,9 @@
+question: Which open source browser, developed by a non-profit organization, is the leading exponent of the Gecko engine?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, developed by the Mozilla Foundation, is the leading Gecko-based browser, renowned for its commitment to privacy.
+reviewed: false

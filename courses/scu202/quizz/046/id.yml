@@ -1,0 +1,9 @@
+question: Ketika mengotomatiskan cadangan Anda, tindakan pencegahan penting apa yang perlu dilakukan secara teratur?
+answer: Pemulihan uji
+wrong_answers:
+  - Ganti penyedia layanan Internet Anda
+  - Menonaktifkan cadangan liburan
+  - Menguji enkripsi
+explanation: |
+  Penting untuk memulihkan cadangan secara teratur untuk memastikan bahwa file tidak rusak atau tidak dapat diakses saat dibutuhkan.
+reviewed: false

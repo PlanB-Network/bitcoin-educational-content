@@ -1,0 +1,9 @@
+question: Vilken federal underrättelsetjänst i USA bjöd in Gavin Andresen i april 2011 för att några månader senare presentera Bitcoin?
+answer: CIA
+wrong_answers:
+  - FBI
+  - Den amerikanska säkerhetsmyndigheten NSA
+  - DEA
+explanation: |
+  Närmare bestämt var det In-Q-Tel, en amerikansk riskkapitalfond som förvaltas av CIA, men besöket ägde rum på CIA:s högkvarter.
+reviewed: true

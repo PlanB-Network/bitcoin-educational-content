@@ -1,0 +1,9 @@
+question: Bastiat'nın mum üreticilerinin talebine ilişkin bakış açısı nedir?
+answer: Genel çıkara aykırı olduğu için reddediyor
+wrong_answers:
+  - İstihdamı korumak önemli olduğu için destekliyor
+  - Bu konuda tarafsızdır
+  - Mum üreticilerinin haklı olduğuna inanıyor
+explanation: |
+  Bastiat mum üreticilerinin talebini eleştirerek korumacılığın genel çıkarlar pahasına özel çıkarlara hizmet ettiğinin altını çizer.
+reviewed: false

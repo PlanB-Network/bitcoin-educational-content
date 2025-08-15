@@ -1,0 +1,11 @@
+question: Avusturya iktisat okulunda fiyatların rolü nedir?
+answer: Fiyatlar, kısmi bilgiye sahip bireylerin rasyonel organizasyonunda çok önemli bir rol oynamaktadır.
+wrong_answers:
+  - Avusturya iktisat okulunda fiyatlar önemsizdir.
+  - Avusturya iktisat okulunda fiyatlar hükümet tarafından belirlenir.
+  - Avusturya iktisat okulunda fiyatlar sabittir ve değişmez.
+explanation: |
+  Avusturya iktisat okulunda fiyatlar, piyasa ekonomisinde çok önemli bir rol oynar
+  kısmi bilgiye sahip bireylerin rasyonel organizasyonu. Dengeye yardımcı olurlar
+  gW-0 ve piyasadaki sermaye talebi, böylece ekonomiyi teşvik eder.
+reviewed: true

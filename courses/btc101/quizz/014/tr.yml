@@ -1,0 +1,10 @@
+question: DigiCash projesi neydi?
+answer: David Chaum tarafından anonim elektronik para yaratma girişimi.
+wrong_answers:
+  - Bitcoin için dijital bir Wallet oluşturma projesi.
+  - Federal Rezerv tarafından tüm fiziksel nakdi dijitalleştirme girişimi.
+  - Bitcoin tabanlı bir kripto para birimi oluşturma projesi.
+explanation: |
+  David Chaum anonim elektronik posta kavramını tanıttı
+  1980'lerde DigiCash projesiyle para kazandı.
+reviewed: true

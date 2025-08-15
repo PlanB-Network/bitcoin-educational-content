@@ -1,0 +1,9 @@
+question: İki sayının ortak olması ne anlama gelir?
+answer: En büyük ortak bölenleri 1'e eşittir
+wrong_answers:
+  - Toplamları çift sayıdır
+  - Hatta ikisi de
+  - 1'den ve kendilerinden başka ortak bölenleri yoktur
+explanation: |
+  İki sayı, en büyük ortak bölenleri 1 ise, yani kriptografide önemli bir özellik olan herhangi bir asal faktörü paylaşmıyorlarsa eş asaldır.
+reviewed: false

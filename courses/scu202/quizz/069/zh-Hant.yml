@@ -1,0 +1,9 @@
+question: 保持瀏覽器更新是必要的，主要原因是什麼？
+answer: 修正重要的安全漏洞
+wrong_answers:
+  - 改善網頁載入速度
+  - 防止網路釣魚
+  - 優化記憶體消耗
+explanation: |
+  更新會優先處理可能讓攻擊者入侵您系統的安全漏洞。
+reviewed: false

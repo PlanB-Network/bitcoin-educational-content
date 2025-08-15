@@ -1,0 +1,9 @@
+question: Mikä on Linux-jakelu?
+answer: Täydellinen käyttöjärjestelmä, joka on rakennettu Linux-ytimen ympärille
+wrong_answers:
+  - Paketinhallinta
+  - Linux-työpöytäympäristö
+  - Automaattinen asennuskomentosarja Linux-käyttöjärjestelmälle
+explanation: |
+  Linux-jakelu yhdistää ytimen, järjestelmätyökalut, ohjelmistot, käynnistyslataajan ja pakettien hallinnan, jotta saadaan käyttövalmis järjestelmä.
+reviewed: false

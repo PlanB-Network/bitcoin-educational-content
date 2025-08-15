@@ -1,0 +1,13 @@
+question: Vilken är den största fördelen med guld som valuta?
+answer: Den är otroligt tålig.
+wrong_answers:
+  - Det är lätt att dela upp eller transportera över långa avstånd.
+  - Det är lätt att verifiera.
+  - Det är inte reglerat av regeringen.
+explanation: |
+  Även om det inte är lätt att dela upp eller transportera över långa
+  långa sträckor, är guld ett mycket hållbart material, vilket
+  vilket gör det till en bra värdebevarare. Guldmynt användes som valuta
+  som valuta förr i tiden, men de skulle inte tjäna samma
+  syfte i dagens digitala era.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welke Elements zijn er nodig om een Lightning-kanaal te maken met RGB assets?
+answer: Financiering in bitcoins en financiering in RGB activa
+wrong_answers:
+  - Bitcoin-financiering om mee te beginnen
+  - RGB-financiering om mee te beginnen
+  - Geen financiering nodig
+explanation: |
+  Het kanaal vereist zowel Bitcoin financiering op een 2/2 Multisig, als RGB activafinanciering om activa toe te wijzen aan hetzelfde kanaal.
+reviewed: false

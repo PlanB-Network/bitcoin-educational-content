@@ -1,0 +1,9 @@
+question: Bastiat'ya göre vatandaşların yargılarını aydınlatmanın iki yolu nedir?
+answer: Felsefi ahlak ve ekonomik ahlak
+wrong_answers:
+  - Hukuk ve eğitim
+  - Din ve bilim
+  - Kişisel deneyim ve kitaplar
+explanation: |
+  Bastiat, kalbe dokunan felsefi ahlak ile eylemlerin sonuçlarını göstererek aklı aydınlatan ekonomik ahlak arasında ayrım yapar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGB dijital varlık yönetiminde gizliliği nasıl sağlar?
+answer: Blockchain'e yalnızca kriptografik taahhütleri kaydederek
+wrong_answers:
+  - Blockchain üzerindeki tüm uçtan uca işlemleri şifreleyerek
+  - Merkezi olmayan karıştırıcılar aracılığıyla kullanıcıların kimliklerini gizleyerek
+  - Her aktarım için yalnızca geçici Bitcoin adreslerinin kullanılması
+explanation: |
+  RGB, yalnızca On-Chain kriptografik kanıtlarını depolayarak hassas Contract ve aktarım bilgilerini gizli tutar.
+reviewed: false

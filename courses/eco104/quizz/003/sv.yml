@@ -1,0 +1,12 @@
+question: Vad var en fördel med metallmynt jämfört med råvarupengar?
+answer: Den var mer hållbar
+wrong_answers:
+  - Den hade ett högre intrinsikalt värde
+  - Den var lättare att transportera
+  - Den var inte känslig för förfalskning
+explanation: |
+   Metallpengar, i synnerhet guld och silver, var mer hållbara än råvarupengar.
+   Ädelmetaller är mindre benägna att försämras över tid, vilket gör dem idealiska för
+   långsiktig lagring av värde. Denna hållbarhet bidrog också till deras användbarhet som
+   ett medium för Exchange, en räkneenhet och en värdebevarare.
+reviewed: true

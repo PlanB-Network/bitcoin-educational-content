@@ -1,0 +1,8 @@
+question: Wat is het doel van Mining zwembaden?
+answer: Mining pools stellen mijnwerkers in staat om hun rekenkracht te bundelen en kleinere maar regelmatigere beloningen te ontvangen.
+wrong_answers:
+  - Mining-pools worden gebruikt om de Hashrate van het totale Bitcoin-netwerk te verhogen.
+  - Mining zwembaden worden gebruikt om de moeilijkheidsgraad van Mining te verlagen.
+  - Mining pools worden gebruikt om de beloning voor Mining te verhogen.
+explanation: >-
+reviewed: true

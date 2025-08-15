@@ -1,0 +1,9 @@
+question: Vad är syftet med SIGHASH_SINGLE?
+answer: För att täcka en ingång och dess motsvarande utgång
+wrong_answers:
+  - För att täcka alla inmatningar och utmatningar
+  - För att täcka endast ingångar
+  - För att täcka alla utgångar utom en
+explanation: |
+  SIGHASH_SINGLE täcker en enda inmatning och en enda utmatning som motsvarar indexet för den signerade inmatningen, vilket gör att resten kan ändras.
+reviewed: false

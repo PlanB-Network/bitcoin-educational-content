@@ -1,0 +1,9 @@
+question: Bir işletme neden Bitcoin'ı bilançosunda uzun vadeli bir yatırım olarak tutmayı tercih edebilir?
+answer: Çünkü bir değer saklama aracı olarak hizmet edebilir, potansiyel olarak zaman içinde değer kazanabilir ve enflasyona karşı bir koruma sağlayabilir.
+wrong_answers:
+  - Çünkü para birimiyle ilgili tüm vergilerin derhal ortadan kaldırılmasını sağlar.
+  - Çünkü uluslararası muhasebe standartları bunu gerektiriyor.
+  - Çünkü Bitcoin doğası gereği hiçbir risk olmadan garantili kar sağlar.
+explanation: |
+  Bazı şirketler Bitcoin'yi değerini koruyabilen veya artırabilen, geleneksel para birimlerinin değer kaybetmesine karşı koruma sağlayan ve hazinelerini çeşitlendiren uzun vadeli stratejik bir varlık olarak görmektedir.
+reviewed: false

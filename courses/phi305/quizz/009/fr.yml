@@ -1,0 +1,9 @@
+question: La famille de Spinoza était-elle ?
+answer: De confession juive.
+wrong_answers:
+- Catholique.
+- Protestante.
+- Athée.
+explanation: |
+  La famille de Spinoza était de confession juive. Ses parents étaient des juifs portugais qui avaient fui l'Inquisition pour s'installer à Amsterdam, où existait une importante communauté juive sépharade.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är den största fördelen med P2P-växlar online jämfört med fysiska kontanttransaktioner?
+answer: Mindre risk för den personliga säkerheten.
+wrong_answers:
+  - Mindre risk för stöld.
+  - Mer integritet för köparen.
+  - Lägre transaktionsavgifter.
+explanation: |
+  Online P2P-utbyten lämnar fler spår och är mer utsatta för stöldrisker än kontant P2P-utbyten. När det gäller transaktionsavgifter är de i allmänhet likvärdiga eller till och med högre, särskilt om processen kräver flera steg. Den största fördelen med P2P-växlingar online ligger dock i att riskerna för användarnas personliga säkerhet minskar jämfört med kontanttransaktioner.
+reviewed: false

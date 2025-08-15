@@ -1,0 +1,9 @@
+question: Aktif bir HTLC'a sahip bir kanal zorla kapatılırsa ne olur?
+answer: HTLC, Commitment işlemlerine bir çıktı olarak dahil edilir.
+wrong_answers:
+  - HTLC otomatik olarak iptal edilir.
+  - Fonlar önceki düğümlere yeniden dağıtılır.
+  - HTLC'ün süresi dolana kadar kanal kapatılamaz.
+explanation: |
+  Zorunlu kapatma sırasında, bekleyen HTLC'ler Commitment işlemlerinde çıkışlar olarak temsil edilir, böylece tanımlanan koşullara göre yürütülmeleri veya iade edilmeleri sağlanır.
+reviewed: false

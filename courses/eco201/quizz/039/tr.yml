@@ -1,0 +1,12 @@
+question: Hem monetaristlere hem de Keynesyenlere göre depresyonun nedeni nedir?
+answer: Yetersiz toplam talep
+wrong_answers:
+  - Aşırı Üretim
+  - Yüksek faiz oranları
+  - Yüksek enflasyon
+explanation: |
+  Hem monetaristler hem de Keynesyenler için depresyonun nedeni
+  yetersiz toplam talep. Onlar bir teşvik sağlamanın
+  kredi genişlemesi için (faiz oranlarını düşürmek) ve devletin
+  talebi artırmak için kapasite açığı toparlanmayı başlatacaktır.
+reviewed: true

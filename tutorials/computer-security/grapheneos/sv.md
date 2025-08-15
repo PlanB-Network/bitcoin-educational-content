@@ -386,7 +386,7 @@ Till vänster: Proton Mail, till höger: Tutanota
 
 
 
-- [Syncthing] (https://f-droid.org/packages/com.nutomic.syncthingandroid/) är ett filsynkroniseringsprogram. Det synkroniserar filer mellan två eller flera enheter i realtid, säkert skyddade från nyfikna ögon. Dina data är enbart dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs via internet. Syncthing är tillgängligt via F-Droid.
+- [Syncthing] (https://f-droid.org/packages/com.nutomic.syncthingandroid/) är ett program för filsynkronisering. Det synkroniserar filer mellan två eller flera enheter i realtid, säkert skyddade från nyfikna ögon. Dina data är enbart dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs via internet. Syncthing är tillgängligt via F-Droid.
 - [KDE Connect] (https://f-droid.org/packages/org.kde.kdeconnect_tp/) alla dina enheter så att de enkelt kan prata med varandra när de är anslutna till ditt hemnätverk. Skicka enkelt filer, foton, urklippsdata över alla dina enheter (även på iOS!). KDE connect kan laddas ner från F-Droid.
 - [Notesnook] (https://f-droid.org/en/packages/com.streetwriters.notesnook/) är en E2EE-anteckningsapplikation för att synkronisera dina tankar och att-göra-listor över alla dina enheter. Deras gratis plan bör täcka de flesta personliga användningsfall. Notesnook är tillgängligt på F-Droid.
 - [Standard Notes] (https://f-droid.org/en/packages/com.standardnotes/) är mycket lik Notesnook, men kräver en betalplan för att matcha funktionsuppsättningen. Standard Notes är tillgängligt via F-Droid.
@@ -451,7 +451,7 @@ Proton Drive
 Det finns gott om alternativ med öppen källkod och integritetsskyddande alternativ till de applikationer från teknikkonglomerat som du har vant dig vid att använda, och vissa av dem är ofta bättre än alternativen med sluten källkod och spionprogram.
 
 
-Men när du flyttar till GrapheneOS finns det några bekvämligheter som du måste ge upp på grund av inga alternativ. Dessa inkluderar:
+Men när du går över till GrapheneOS finns det vissa bekvämligheter som du måste ge upp på grund av att det inte finns några alternativ. Dessa inkluderar:
 
 
 
@@ -506,7 +506,7 @@ Skärmen för hantering av användarprofiler
 Om du vill ta din telefonintegritet till nästa nivå och ha en mobiltjänst som är avskild från din identitet i den verkliga världen, kan en eSIM vara något för dig. Ett eSIM är ett virtuellt SIM-kort som du kan köpa online och lägga till i din telefon via en QR-kod. Företag som erbjuder sådana tjänster som kan betalas anonymt med Bitcoin inkluderar [Silent.Link] (https://silent.link/) och [Bitrefill] (https://www.bitrefill.com/gb/en/esims/).
 
 
-eSIM ska inte ses som ett komplett universalmedel för telefonsekretess. De kan vara ett användbart verktyg när de är i rätt händer, men gör din forskning om [tradeoffs] (https://grapheneos.org/faq#cellular-tracking) för att använda någon typ av mobiltjänst om du har för avsikt att gå helt "off grid".
+eSIM ska inte ses som ett komplett universalmedel för telefonsekretess. De kan vara ett användbart verktyg när de är i rätt händer, men gör din forskning om [tradeoffs] (https://grapheneos.org/faq#cellular-tracking) för att använda någon typ av mobiltjänst om du tänker gå helt "off grid".
 
 
 Sandboxed Play Services måste installeras för eSIM-försörjning i GrapheneOS.

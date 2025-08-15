@@ -1,0 +1,9 @@
+question: ¿Qué proyecto sentó las bases de la Internet moderna a finales de la década de 1960?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET fue la primera red interconectada, diseñada para enlazar varios centros de investigación, y es la precursora directa de Internet.
+reviewed: false

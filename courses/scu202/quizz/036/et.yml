@@ -1,0 +1,9 @@
+question: Miks on soovitatav eemaldada arvutist kasutamata või vananenud tarkvara?
+answer: Ründepinna vähendamiseks
+wrong_answers:
+  - Interneti-ühenduse kiirendamiseks
+  - Kaitsevektorite parandamiseks
+  - Aku eluea suurendamiseks
+explanation: |
+  Mida vähem tarkvara on paigaldatud, seda vähem on potentsiaalseid haavatavusi, mida ründajad saavad ära kasutada.
+reviewed: false

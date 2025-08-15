@@ -1,0 +1,13 @@
+question: Vad är debatten inom Bitcoin-communityn angående Mining?
+answer: Balansen mellan att söka vinst och att bidra till säkerhet och distribution av Bitcoin-nätet
+wrong_answers:
+  - Balansen mellan att öka Hashrate och minska antalet aktiva noder
+  - Balansen mellan att höja priset och sänka kostnaden
+  - Balansen mellan att öka antalet transaktioner och minska energiförbrukningen
+explanation: |
+  Debatten inom Bitcoin-gemenskapen angående Mining
+  kretsar kring balansen mellan att söka vinst och att bidra till
+  och att bidra till säkerheten och distributionen av
+  Bitcoin-nätverket. Det finns starka argument på båda sidor
+  av debatten.
+reviewed: true

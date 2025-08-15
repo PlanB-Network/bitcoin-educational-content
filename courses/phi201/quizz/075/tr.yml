@@ -1,0 +1,9 @@
+question: Adam Smith'in kitabının adı nedir?
+answer: Ulusların Zenginliğinin Doğası ve Nedenleri Üzerine Bir İnceleme.
+wrong_answers:
+  - Ulusların Zenginliğinin Doğası ve Ruhu Üzerine Bir İnceleme.
+  - Ulusların Zenginliğinin Doğası ve Kökenleri Üzerine Bir İnceleme.
+  - Ulusların Zenginliğinin Nedenleri ve Kökenleri Üzerine Bir İnceleme.
+explanation: |
+  Adam Smith'in kitabının tam adı olan Ulusların Zenginliğinin Doğası ve Nedenleri Üzerine Bir İnceleme, onun ekonomik refaha katkıda bulunan faktörlere ilişkin analizinin altını çizmekte ve zenginlik üretimi ve dağıtımı mekanizmalarını incelemektedir.
+reviewed: true

@@ -1,0 +1,8 @@
+question: I sin lettre sur la marque des fers uttrycker Turgot tanken att det är omöjligt att veta bättre än vad marknaden gör. Vilken österrikisk ekonom utvecklade den på 1900-talet?
+answer: Friedrich Hayek
+wrong_answers:
+  - Carl Menger
+  - Murray Rothbard
+  - Ludwig von Mises
+explanation: |
+  Hayek utvecklade idén om marknadens "prisupptäckt", enligt vilken marknaden är en process för informationsupptäckt och priserna är resultatet av samspelet mellan Supply och efterfrågan.

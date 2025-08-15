@@ -1,6 +1,6 @@
 ---
-name: Zeitstempelung von Plan ₿ Netzwerkzertifikaten und -diplomen
-description: Verstehen, wie das Plan ₿ Netzwerk verifizierbare Nachweise für Ihr Zertifikat und Diplome ausstellt
+name: Zeitstempelung von Plan ₿ Network-diplomen
+description: Verstehen, wie das Plan ₿ Network verifizierbare Nachweise für Ihr Zertifikat und Diplome ausstellt
 ---
 
 ![cover](assets/cover.webp)

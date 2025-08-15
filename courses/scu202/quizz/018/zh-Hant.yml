@@ -1,0 +1,9 @@
+question: Debian 和 Ubuntu 使用的套件管理員是什麼？
+answer: APT
+wrong_answers:
+  - RPM
+  - 吃豆子
+  - Zypper
+explanation: |
+  Debian 和 Ubuntu 使用以 .deb 格式為基礎的 APT 套件管理器來管理軟體的安裝和更新。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Wat betekent entropie in de context van ketenanalyse op Bitcoin?
+answer: Het gebrek aan kennis van analisten over de exacte configuratie van de transactie.
+wrong_answers:
+  - De snelheid waarmee informatie over een transactie zich over het netwerk verspreidt.
+  - Het niveau van cryptografische beveiliging van de digitale handtekeningen die in de transactie worden gebruikt.
+  - De grootte van de groep identieke UTXO's waarin een munt verborgen zit.
+explanation: |
+  Entropie wordt gebruikt om het gebrek aan kennis van analisten over de exacte configuratie van de transactie te meten. Met andere woorden, hoe hoger de entropie, hoe moeilijker het wordt voor analisten om de stromen bitcoins tussen inputs en outputs te identificeren.
+  
+reviewed: false

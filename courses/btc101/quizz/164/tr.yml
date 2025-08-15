@@ -1,0 +1,8 @@
+question: Finansal baskı veya diktatörlük rejimleri altında yaşayan bireyler için Bitcoin'ın temel avantajı nedir?
+answer: Sansür ve bankacılık kısıtlamalarından kaçma şansına sahip olmak.
+wrong_answers:
+  - Sabit bir değeri olan istikrarlı bir para birimi kullanmak.
+  - Anonim işlemlere izin verilmesi.
+  - Yüksek yatırım getirisi elde etmek.
+explanation: >-
+reviewed: true

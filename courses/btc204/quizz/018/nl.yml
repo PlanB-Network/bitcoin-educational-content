@@ -1,0 +1,9 @@
+question: Welke van de volgende antwoorden maakt geen deel uit van de 3 hoofdcategorieën van heuristieken en kenmerken die gebruikt worden bij ketenanalyse?
+answer: Cryptografiemodellen.
+wrong_answers:
+  - Transactiemodellen.
+  - Interne transactie heuristieken.
+  - Externe transactie heuristieken.
+explanation: |
+  De heuristieken die worden gebruikt bij ketenanalyse kunnen worden gegroepeerd in drie categorieën: transactiepatronen (of transactiemodellen), interne transactieheuristieken en externe transactieheuristieken.
+reviewed: false

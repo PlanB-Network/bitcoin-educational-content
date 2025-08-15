@@ -5,10 +5,10 @@ description: Kako proveriti integritet i autentičnost softvera?
 ![cover](assets/cover.webp)
 
 
-Kada preuzimate softver, veoma je važno osigurati da nije izmenjen i da zaista dolazi iz zvaničnog izvora. Ovo je posebno važno za softver povezan sa Bitcoin, kao što je Wallet softver, koji vam omogućava da osigurate ključeve koji daju pristup vašim sredstvima. U ovom vodiču ćemo videti kako da proverimo integritet i autentičnost softvera pre nego što ga instaliramo. Koristićemo Sparrow Wallet kao primer, omiljeni Wallet softver među bitkoinerima, ali procedura će biti ista za bilo koji drugi softver.
+Kada preuzimate softver, veoma je važno osigurati da nije izmenjen i da zaista dolazi iz zvaničnog izvora. Ovo je posebno važno za softver povezan sa Bitcoinom, kao što je novčanik softver, koji vam omogućava da osigurate ključeve koji daju pristup vašim sredstvima. U ovom vodiču ćemo videti kako da proverimo integritet i autentičnost softvera pre nego što ga instaliramo. Koristićemo Sparrow Wallet kao primer, omiljeni novčanik softver među bitkoinerima, ali procedura će biti ista za bilo koji drugi softver.
 
 
-Provera integriteta uključuje osiguravanje da preuzeta datoteka nije izmenjena upoređivanjem njenog digitalnog otiska (tj. njenog Hash) sa onim koji je obezbedio zvanični developer. Ako se ta dva poklapaju, to znači da je datoteka identična originalu i da nije oštećena ili izmenjena od strane napadača.
+Provera integriteta uključuje osiguravanje da preuzeta datoteka nije izmenjena upoređivanjem njenog digitalnog otiska (tj. njenog heša) sa onim koji je obezbedio zvanični developer. Ako se ta dva poklapaju, to znači da je datoteka identična originalu i da nije oštećena ili izmenjena od strane napadača.
 
 
 Provera autentičnosti, s druge strane, osigurava da datoteka zaista dolazi od zvaničnog programera, a ne od prevaranta. Ovo se postiže proverom digitalnog potpisa. Ovaj potpis dokazuje da je softver potpisan privatnim ključem legitimnog programera.
@@ -82,7 +82,7 @@ Preuzmite instalacioni program za softver koji odgovara vašem operativnom siste
 ![GnuPG](assets/notext/04.webp)
 
 
-Trebaće vam i datoteka Hash, često nazvana "*SHA256SUMS*" ili "*MANIFEST*".
+Trebaće vam i datoteka sa hešom, često nazvana "*SHA256SUMS*" ili "*MANIFEST*".
 
 
 ![GnuPG](assets/notext/05.webp)
@@ -97,7 +97,7 @@ Preuzmite PGP potpis datoteke takođe. Ovo je dokument u `.asc` formatu.
 Pobrinite se da sve ove datoteke postavite u istu fasciklu za sledeće korake.
 
 
-Na kraju, biće vam potreban javni ključ programera, koji ćemo koristiti za verifikaciju PGP potpisa. Ovaj ključ je često dostupan ili na vebsajtu softvera, na GitHub repozitorijumu projekta, ponekad na društvenim mrežama programera, ili na specijalizovanim sajtovima kao što je Keybase. U slučaju Sparrow Wallet, možete pronaći javni ključ programera Craig Raw [na Keybase](https://keybase.io/craigraw). Da biste ga preuzeli direktno iz terminala, izvršite komandu:
+Na kraju, biće vam potreban javni ključ programera, koji ćemo koristiti za verifikaciju PGP potpisa. Ovaj ključ je često dostupan ili na vebsajtu softvera, na GitHub repozitorijumu projekta, ponekad na društvenim mrežama programera, ili na specijalizovanim sajtovima kao što je Keybase. U slučaju Sparrow Wallet-a, možete pronaći javni ključ Craig Raw programera [na Keybase](https://keybase.io/craigraw). Da biste ga preuzeli direktno iz terminala, izvršite komandu:
 
 
 ```bash
@@ -111,7 +111,7 @@ curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 ## Verifikacija potpisa
 
 
-Proces verifikacije potpisa je isti na **Windows**, **macOS** i **Linux**. Obično ste već uvezli javni ključ tokom prethodnog koraka, ali ako niste, uradite to pomoću komande:
+Proces verifikacije potpisa je isti na **Windows-u**, **macOS-u** i **Linux-u**. Obično ste već uvezli javni ključ tokom prethodnog koraka, ali ako niste, uradite to pomoću komande:
 
 
 ```bash
@@ -145,9 +145,9 @@ Ako je potpis važeći, GPG će vam to naznačiti. Zatim možete preći na slede
 ![GnuPG](assets/notext/10.webp)
 
 
-## Verifikacija Hash
+## Verifikacija heša
 
-Sada kada je autentičnost softvera potvrđena, takođe je potrebno proveriti njegov integritet. Uporedićemo Hash softvera sa Hash koji je obezbedio programer. Ako se podudaraju, to garantuje da kod softvera nije izmenjen.
+Sada kada je autentičnost softvera potvrđena, takođe je potrebno proveriti njegov integritet. Uporedićemo heš softvera sa hešom koji je obezbedio programer. Ako se podudaraju, to garantuje da kod softvera nije izmenjen.
 
 
 Na **Windows**-u, otvorite terminal i izvršite sledeću komandu:
@@ -164,13 +164,13 @@ Zamenite `[file path]` sa lokacijom instalacionog fajla.
 ![GnuPG](assets/notext/11.webp)
 
 
-Terminal će vratiti Hash preuzetog softvera.
+Terminal će vratiti heš vrednost preuzetog softvera.
 
 
 ![GnuPG](assets/notext/12.webp)
 
 
-Imajte na umu da je za neki softver možda potrebno koristiti drugačiju Hash funkciju od SHA256. U tom slučaju, jednostavno zamenite ime Hash funkcije u komandi.
+Imajte na umu da je za neki softver možda potrebno koristiti drugačiju heš funkciju od SHA256. U tom slučaju, jednostavno zamenite naziv heš funkcije u komandi.
 
 
 Zatim uporedite rezultat sa odgovarajućom vrednošću u datoteci "*sparrow-2.0.0-manifest.txt*".
@@ -182,10 +182,10 @@ Zatim uporedite rezultat sa odgovarajućom vrednošću u datoteci "*sparrow-2.0.
 U mom slučaju, vidimo da se dva heša savršeno poklapaju.
 
 
-Na **macOS** i **Linux**, proces verifikacije Hash je automatizovan. Nije neophodno ručno proveravati podudaranje između dva heša kao na Windowsu.
+Na **macOS-u** i **Linux-u**, proces verifikacije heša je automatizovan. Nije neophodno ručno proveravati podudaranje između dva heša kao na Windowsu.
 
 
-Jednostavno izvršite ovu komandu na **macOS**:
+Jednostavno izvršite ovu komandu na **macOS-u**:
 
 
 ```bash

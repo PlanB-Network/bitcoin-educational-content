@@ -1,0 +1,9 @@
+question: Ni usambazaji gani unachukuliwa kuwa kongwe zaidi ambao bado unadumishwa?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, iliyoundwa mnamo 1993 na Patrick Volkerding, ndio usambazaji wa zamani zaidi wa Linux ambao bado unafanya kazi hadi leo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir dosyanın imzasını ve bir açık anahtarla yazışmasını doğrulamak için tüm sistemlerde kullanılabilen ücretsiz araç hangisidir?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) dijital imza doğrulama ve açık anahtar yönetimi için referans araçtır.
+reviewed: false

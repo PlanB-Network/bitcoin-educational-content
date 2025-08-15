@@ -1,9 +1,9 @@
 question: Quel est l'intervalle de temps moyen entre la création de deux blocs dans le protocole Bitcoin ?
-answer: 10 minutes.
+answer: 10 minutes
 wrong_answers:
-  - 5 minutes.
-  - 15 minutes.
-  - 20 minutes.
+  - 5 minutes
+  - 15 minutes
+  - 20 minutes
 explanation: |
   L'intervalle de temps moyen entre la création de deux
   blocs dans le protocole Bitcoin est de 10 minutes.

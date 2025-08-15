@@ -1,0 +1,8 @@
+question: Bitcoin'inizi bir Exchange platformunda bırakmanın potansiyel risklerinden biri nedir?
+answer: Bilgisayar korsanlığı ve fon engelleme riskleri.
+wrong_answers:
+  - Platformun Bitcoin'nin fiyatını artırma riski.
+  - Bitcoin'ün Supply'ünü kontrol eden platformun riski.
+  - Bitcoin'in fiyatının bir kripto para birimi tarafından aşılması riski.
+explanation: >-
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vilken är den största begränsningen i de klassiska hyperinflationstabellerna?
+answer: De utesluter vissa historiska perioder med hög inflation på grund av strikta klassificeringskriterier
+wrong_answers:
+  - De innehåller för många inflationsepisoder som inte kvalificerar sig som hyperinflation
+  - De är föråldrade och inte tillämpliga på moderna ekonomier
+  - De tar inte hänsyn till inflationens inverkan på ekonomin
+explanation: |
+  Klassiska tabeller över hyperinflation, såsom Hanke-Krus-tabellen, utesluter ofta
+  vissa historiska perioder med hög inflation på grund av strikta klassificeringskriterier
+  klassificeringskriterier, till exempel tröskelvärdet på 50 procents inflation per månad enligt Cagans definition.
+reviewed: false

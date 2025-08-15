@@ -1,0 +1,9 @@
+question: Bastiat'ya göre devletçilik bireyleri nelerden mahrum bırakır?
+answer: Eylemlerinin sonuçları
+wrong_answers:
+  - Ailelerinden
+  - Serbest deney yapmanın zevklerinden
+  - Arkadaşlarından
+explanation: |
+  Bastiat'ya göre aşırı devlet müdahalesi, bireylerin eylemlerinin doğrudan sonuçlarını ortadan kaldırarak bireysel sorumluluğu azaltır ve böylece sorumsuzluğu teşvik eder.
+reviewed: false

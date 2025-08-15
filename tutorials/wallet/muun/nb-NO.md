@@ -8,7 +8,7 @@ Muun (https://muun.com/) er en selvforvaltende lommebok for bitcoin og lyn.
 
 ## videoopplæring
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Komplett brukerveiledning
 

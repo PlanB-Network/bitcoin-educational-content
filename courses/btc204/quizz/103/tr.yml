@@ -1,0 +1,10 @@
+question: Bir Bitcoin işleminin gizlilik açısından verimliliği nasıl hesaplanır?
+answer: İşlemin gerçek entropisini mümkün olan maksimum entropi ile karşılaştırarak.
+wrong_answers:
+  - Girdi sayısını çıktı sayısıyla çarparak.
+  - İşlemin gerçek entropisini girdi ve çıktı sayısı ile çarparak.
+  - Girdi sayısı ile çıktı sayısını karşılaştırarak.
+explanation: |
+  İşlemin verimliliği, analiz edilen işlemin gerçek entropisinden maksimum entropinin çıkarılmasıyla hesaplanır.
+  
+reviewed: false

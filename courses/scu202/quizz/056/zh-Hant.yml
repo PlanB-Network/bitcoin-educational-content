@@ -1,0 +1,9 @@
+question: 哪個呈現引擎是由 KHTML 的 Fork 所創造，以裝備 Safari？
+answer: WebKit
+wrong_answers:
+  - 三叉戟
+  - 壁虎
+  - 閃爍
+explanation: |
+  WebKit 是 KHTML 的 Fork，從 2003 年起被 Apple 選用於 Safari，隨後被許多瀏覽器採用。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Thành phần Android nào vẫn hoàn toàn là mã nguồn mở và có thể được cộng đồng kiểm tra?
+answer: AOSP
+wrong_answers:
+  - Dịch vụ di động của Google
+  - Cửa hàng Play
+  - iOSP
+explanation: |
+  Chỉ có nền tảng AOSP của Android là miễn phí. Các Dịch vụ Di động của Google được sử dụng rộng rãi là độc quyền và không thể kiểm tra.
+reviewed: false

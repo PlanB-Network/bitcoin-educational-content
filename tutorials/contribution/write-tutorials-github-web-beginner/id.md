@@ -347,7 +347,7 @@ Tanda seru di awal menunjukkan gambar. Teks alternatif, yang membantu aksesibili
 Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan grafis Plan ₿ Network (Rencana ₿ Jaringan) untuk memastikan konsistensi visual:
 
 
-- Huruf **: Gunakan [Rubik] (https://fonts.google.com/specimen/Rubik);
+- Huruf **: Gunakan [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Warna**:
  - Oranye: #FF5C00
  - Hitam: #000000

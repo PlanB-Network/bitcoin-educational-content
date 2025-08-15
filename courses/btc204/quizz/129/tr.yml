@@ -1,0 +1,10 @@
+question: Coinwap'lerde kullanılan akıllı sözleşmelerin iki ana çeşidi nedir?
+answer: HTLC ve PTLC
+wrong_answers:
+  - Çoklu imza ve Tekli imza
+  - Akıllı Sözleşmeler ve DApp'ler
+  - SegWit ve Taproot
+explanation: |
+  Bir coinwap gerçekleştirmek için HTLC'ler (Hash Zaman Kilitli Sözleşmeler) veya PTLC'ler (Nokta Zaman Kilitli Sözleşmeler) kullanılabilir.
+  
+reviewed: false

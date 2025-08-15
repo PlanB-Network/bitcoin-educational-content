@@ -5,10 +5,10 @@ description: Hur verifierar man programvarans integritet och äkthet?
 ![cover](assets/cover.webp)
 
 
-När du laddar ner programvara är det mycket viktigt att se till att den inte har ändrats och att den verkligen kommer från den officiella källan. Detta gäller särskilt för programvara relaterad till Bitcoin, till exempel Wallet-programvara, som låter dig säkra nycklarna som ger tillgång till dina medel. I den här handledningen kommer vi att se hur man verifierar programvarans integritet och äkthet innan man installerar den. Vi kommer att använda Sparrow Wallet som ett exempel, en favorit Wallet-programvara bland bitcoiners, men proceduren kommer att vara densamma för alla andra programvaror.
+När du laddar ner programvara är det mycket viktigt att se till att den inte har ändrats och att den verkligen kommer från den officiella källan. Detta gäller särskilt för programvara relaterad till Bitcoin, till exempel Wallet-programvara, som låter dig säkra nycklarna som ger tillgång till dina medel. I den här handledningen kommer vi att se hur man verifierar programvarans integritet och äkthet innan man installerar den. Vi kommer att använda Sparrow wallet som ett exempel, en favorit Wallet-programvara bland bitcoiners, men proceduren kommer att vara densamma för alla andra programvaror.
 
 
-Verifiering av integritet innebär att man säkerställer att den nedladdade filen inte har modifierats genom att jämföra dess digitala fingeravtryck (dvs. dess Hash) med det som tillhandahålls av den officiella utvecklaren. Om de två stämmer överens betyder det att filen är identisk med originalet och inte har korrumperats eller modifierats av en angripare.
+Verifiering av integritet innebär att man säkerställer att den nedladdade filen inte har ändrats genom att jämföra dess digitala fingeravtryck (dvs. dess Hash) med det som tillhandahålls av den officiella utvecklaren. Om de två stämmer överens betyder det att filen är identisk med originalet och inte har korrumperats eller modifierats av en angripare.
 
 
 Verifiering av äkthet å andra sidan säkerställer att filen verkligen kommer från den officiella utvecklaren och inte från en bedragare. Detta görs genom att verifiera en digital signatur. Signaturen bevisar att programvaran har signerats med den legitima utvecklarens privata nyckel.
@@ -64,13 +64,13 @@ För **Windows**, om du inte har GPG, kan du installera programvaran [Gpg4win](h
 ## Ladda ner dokument
 
 
-Till att börja med behöver vi olika dokument. Besök den officiella webbplatsen för [Sparrow Wallet i avsnittet "*Download*"](https://sparrowwallet.com/download/). Om du vill verifiera en annan programvara, gå till den programvarans webbplats.
+Till att börja med behöver vi olika dokument. Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "*Download*"] (https://sparrowwallet.com/download/). Om du vill verifiera en annan programvara, gå till den programvarans webbplats.
 
 
 ![GnuPG](assets/notext/02.webp)
 
 
-Du kan också gå [till GitHub-arkivet för projektet] (https://github.com/sparrowwallet/sparrow/releases).
+Du kan också gå [till GitHub-arkivet för projektet] (https://github.com/sparrowwallet/Sparrow/releases).
 
 
 ![GnuPG](assets/notext/03.webp)
@@ -97,7 +97,7 @@ Ladda ner PGP-signaturen för filen också. Detta är dokumentet i `.asc`-format
 Se till att placera alla dessa filer i samma mapp för de följande stegen.
 
 
-Slutligen behöver du utvecklarens offentliga nyckel, som vi kommer att använda för att verifiera PGP-signaturen. Den här nyckeln finns ofta tillgänglig antingen på programvarans webbplats, på GitHub-arkivet för projektet, ibland på utvecklarens sociala medier eller på specialiserade webbplatser som Keybase. När det gäller Sparrow Wallet kan du hitta utvecklaren Craig Raw's offentliga nyckel [på Keybase] (https://keybase.io/craigraw). För att ladda ner den direkt från terminalen, kör kommandot:
+Slutligen behöver du utvecklarens offentliga nyckel, som vi kommer att använda för att verifiera PGP-signaturen. Denna nyckel är ofta tillgänglig antingen på programvarans webbplats, på GitHub-arkivet för projektet, ibland på utvecklarens sociala medier eller på specialiserade webbplatser som Keybase. När det gäller Sparrow wallet kan du hitta utvecklaren Craig Raw's offentliga nyckel [på Keybase] (https://keybase.io/craigraw). För att ladda ner den direkt från terminalen, kör kommandot:
 
 
 ```bash
@@ -133,7 +133,7 @@ gpg --verify [file.asc]
 ```
 
 
-Ersätt `[file.asc]` med sökvägen till signaturfilen. I fallet Sparrow heter den här filen "*sparrow-2.0.0-manifest.txt.asc*" för version 2.0.0.
+Ersätt `[file.asc]` med sökvägen till signaturfilen. I fallet med Sparrow heter denna fil "*Sparrow-2.0.0-manifest.txt.asc*" för version 2.0.0.
 
 
 ![GnuPG](assets/notext/09.webp)
@@ -147,7 +147,7 @@ Om signaturen är giltig kommer GPG att ange detta för dig. Du kan då gå vida
 
 ## Verifiering av Hash
 
-Nu när programvarans äkthet har bekräftats är det också nödvändigt att verifiera dess integritet. Vi kommer att jämföra programvarans Hash med den Hash som tillhandahålls av utvecklaren. Om de två stämmer överens garanterar det att programvarans kod inte har ändrats.
+Nu när programvarans äkthet har bekräftats är det också nödvändigt att verifiera dess integritet. Vi kommer att jämföra programvarans Hash med den Hash som tillhandahålls av utvecklaren. Om de två stämmer överens garanterar det att programvarukoden inte har ändrats.
 
 
 På **Windows** öppnar du en terminal och kör följande kommando:
@@ -164,7 +164,7 @@ Ersätt `[filsökväg]` med platsen för installationsprogrammet.
 ![GnuPG](assets/notext/11.webp)
 
 
-Terminalen returnerar Hash för den nedladdade programvaran.
+Terminalen kommer att returnera Hash för den nedladdade programvaran.
 
 
 ![GnuPG](assets/notext/12.webp)
@@ -173,7 +173,7 @@ Terminalen returnerar Hash för den nedladdade programvaran.
 Tänk på att det för viss programvara kan vara nödvändigt att använda en annan Hash-funktion än SHA256. I så fall ersätter du helt enkelt Hash-funktionens namn i kommandot.
 
 
-Jämför sedan resultatet med motsvarande värde i filen "*sparrow-2.0.0-manifest.txt*".
+Jämför sedan resultatet med motsvarande värde i filen "*Sparrow-2.0.0-manifest.txt*".
 
 
 ![GnuPG](assets/notext/13.webp)
@@ -193,7 +193,7 @@ shasum --check [file name] --ignore-missing
 ```
 
 
-Ersätt `[filnamn]` med namnet på installationsprogrammet. Till exempel för Sparrow Wallet:
+Ersätt `[filnamn]` med namnet på installationsprogrammet. Till exempel för Sparrow wallet:
 
 
 ```bash

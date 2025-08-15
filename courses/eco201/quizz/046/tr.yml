@@ -1,0 +1,12 @@
+question: Avusturya İş Döngüsü Teorisi, sosyalizm altında ekonomik hesaplamanın imkansızlığı ile nasıl ilişkilidir?
+answer: Bu, sosyalizm altında ekonomik hesaplamanın imkansızlığının para piyasaları alanına uygulanmış özel bir durumu olarak görülebilir.
+wrong_answers:
+  - Bu, sosyalizm altında ekonomik hesaplamanın imkansızlığının bir eleştirisidir.
+  - Sosyalizm altında ekonomik hesaplamanın imkansızlığına bir çözümdür.
+  - Sosyalizm altında ekonomik hesaplamanın imkansızlığı ile ilgisi yoktur.
+explanation: |
+  Avusturya İş Döngüsü Teorisi, iş döngüsünün dinamiklerini açıklar
+  faiz oranı manipülasyonundan kaynaklanan aşırı yatırım ve sermayenin yanlış tahsisi
+  ve bu nedenle de merkez bankaları tarafından uygulanmasının imkansızlığının özel bir durumu olarak görülebilir
+  sosyalizm altında ekonomik hesaplama, para piyasaları alanına uygulanmıştır.
+reviewed: true

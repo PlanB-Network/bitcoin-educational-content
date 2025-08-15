@@ -1,0 +1,9 @@
+question: Sağlama toplamı ile genişletilmiş bir anahtarın toplam boyutu nedir?
+answer: 82 bayt
+wrong_answers:
+  - 78 bayt
+  - 64 bayt
+  - 128 bayt
+explanation: |
+  Genişletilmiş anahtar, sağlama toplamı olmadan 78 bayt ve sağlama toplamı dahil 82 bayttır.
+reviewed: false

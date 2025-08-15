@@ -1,0 +1,10 @@
+question: Siber güvenliğin düzenli izleme gerektiren yönlerinden biri nedir?
+answer: Tehditlerin sürekli evrimi
+wrong_answers:
+  - Borsa
+  - Hava durumu
+  - Haberler
+explanation: |
+  Bölümde, tehditlerin sürekli evrim geçirdiğinden bahsediliyor
+  siber güvenlikte düzenli izleme gerektirir.
+reviewed: true

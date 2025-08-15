@@ -1,0 +1,13 @@
+question: Vilket är förhållandet mellan produktionskostnaden för Bitcoin och dess marknadspris?
+answer: Kostnaden för Bitcoin kan i allmänhet vara proportionell mot dess pris
+wrong_answers:
+  - Kostnaden för Bitcoin är omvänt proportionell mot dess pris
+  - Kostnaden för Bitcoin är, inom ett visst förhållande, fast i förhållande till dess pris
+  - Kostnaden för Bitcoin är alltid högre än dess pris
+explanation: |
+  Kostnaden för Bitcoin, som är relaterad till den el som
+  som behövs för att driva Mining-maskiner, kan i allmänhet vara
+  proportionell mot dess pris. Detta förhållande ger en
+  bättre förståelse för prisfluktuationer och framtidsutsikter
+  framtidsutsikter.
+reviewed: true

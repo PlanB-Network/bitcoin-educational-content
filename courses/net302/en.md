@@ -876,15 +876,15 @@ Finally, dynamic routing protocols include standards such as RIP (_Routing Infor
 
 ### Definition
 
-Network Address Translation_ (NAT) is a technique that was developed to compensate for the gradual depletion of the IPv4 address pool. Conceived as an intermediary mechanism before IPv6 became widespread, NAT enabled companies and individuals to continue connecting a large number of machines while using a limited number of public IP addresses.
+Network Address Translation_ (NAT) is a technique developed to address the gradual depletion of available IPv4 addresses. Designed as an interim solution before the widespread adoption of IPv6, NAT enabled companies and individuals to keep connecting large numbers of machines while using only a limited set of public IP addresses.
 
-**Important reminder:** the transition from IPv4 to IPv6 theoretically solves this exhaustion problem, since the address space is increased from 32 bits to 128 bits, offering an almost unlimited number of addresses (2^128). In practice, however, the transition remains partial, and NAT is still very widespread.
+**Important reminder:** the move from IPv4 to IPv6 theoretically solves the exhaustion problem by expanding the address space from 32 bits to 128 bits, providing an almost unlimited number of addresses (2^128). In practice, however, the transition is still incomplete, and NAT remains widely used today.
 
-The NAT principle is based on a simple but particularly effective operation: instead of assigning a unique public IP address to each machine on the internal network, a single routable address (or a small pool of addresses) is used for all private terminals. The NAT gateway, often integrated into the router or firewall, then dynamically translates the internal IP address and the information needed to route traffic correctly to the outside world, and returns the replies to the sending machine.
+The principle behind NAT is simple but highly effective: instead of assigning a unique public IP address to every device on the internal network, a single routable address (or a small pool of addresses) is used for all private devices. The NAT gateway, often integrated into the router or firewall, then dynamically translates the internal IP address along with the information needed to route traffic correctly to the outside world, and ensures that responses are returned to the original sender.
 
-The immediate advantage of this procedure is that it completely masks the network's internal architecture. To an outside observer, all requests from workstations, servers or printers share the same public identity. Private addressing, generally consisting of IP addresses from reserved ranges (e.g. 192.168.x.x or 10.x.x.x), therefore remains invisible from the Internet.
+This approach has an immediate benefit: it completely hides the internal network architecture. To an outside observer, all requests from workstations, servers or printers appear to come from the same public identity. Private addresses, usually taken from reserved ranges (e.g. 192.168.x.x or 10.x.x.x), remain invisible from the Internet.
 
-In addition to responding to the shortage of IPv4 addresses, NAT strengthens security by creating a first logical barrier between the internal network and the public network. Unsolicited incoming communications are naturally filtered out, as only connections initiated from inside the network benefit from the translation required to receive responses.
+In addition to addressing IPv4 scarcity, NAT also strengthens security by creating a first logical barrier between the internal and public networks. Unsolicited inbound communications are naturally blocked, since only connections initiated from inside the network benefit the necessary translation to receive responses.
 
 
 ![Image](assets/fr/035.webp)
@@ -892,29 +892,27 @@ In addition to responding to the shortage of IPv4 addresses, NAT strengthens sec
 
 ### Translation types
 
-NAT can be implemented in a variety of ways, adapted to specific needs. There are two main modes of operation: static translation and dynamic translation.
+NAT can be implemented in different ways to suit specific needs. The two main modes of operation are static translation and dynamic translation.
 
-**Static translation** consists in establishing a fixed correspondence between a private IP address and a public IP address. Each internal machine then has a dedicated public address permanently associated with it. For example, an internal machine configured as 192.168.20.1 can be associated with the routable address 157.54.130.1. When an outgoing packet leaves the local network, the router modifies the packet's source address to substitute the public address, and performs the opposite operation for incoming traffic. This bidirectional translation is transparent to the user.
+**Static translation** creates a fixed mapping between a private IP address and a public IP address. Each internal machine is permanently linked to its dedicated public address. For example, an internal device configured as 192.168.20.1 could be associated with the routable address 157.54.130.1. When an outgoing packet leaves the local network, the router replaces the packet's source address with the public address, and performs the reverse operation for incoming traffic. This bidirectional translation is transparent to the user.
 
-**Warning:** although this mechanism isolates the internal network, it doesn't solve the problem of a shortage of public IP addresses, because you always need as many public addresses as there are machines to expose. Static translation is therefore mainly used when certain internal resources must remain reachable from the outside (web server, mail server...).
+**Warning:** While this method isolates the internal network, it doesn't solve the shortage of public IP addresses, since you still need as many public addresses as there are machines to expose. Static translation is therefore mainly used when certain internal resources must remain reachable from the outside (web server, mail server...).
 
-Dynamic translation, on the other hand, provides a pool of public IP addresses. When an internal host initiates a connection, the router temporarily selects one of these addresses and associates it with the host's private address for the duration of the session. The link is 1-to-1, but temporary: as soon as the flow is interrupted, the public address becomes available again for another station. Dynamic NAT therefore saves on the number of public addresses when not all machines need to be connected at the same time, but it still requires a block of external addresses at least equal in size to the maximum number of simultaneous connections.
+**Dynamic translation**, on the other hand, uses a pool of public IP addresses. When an internal host starts a connection, the router temporarily assigns one of these public addresses to the host's private address for the duration of the session. The link is 1-to-1, but temporary:once the connection ends, the public address becomes available for another device. Dynamic NAT therefore reduces the number of public addresses needed when not all machines are online at the same time, but it still requires a block of external addresses at least as large as the maximum number of simultaneous connections.
 
-Port translation (PAT), also known as *NAT overload* or *IP masquerading*, goes one step further: all private machines share a single public IP address (or a very small number). To differentiate between sessions, the gateway modifies not only the source address, but also the source port. It then maintains a table associating each *(private address, private port)* pair with a unique *(public address, public port)* pair. This form of NAT is used in almost all home boxes and routers, enabling dozens of terminals (computers, smartphones, connected objects, etc.) to share the same public IP address, while maintaining fluid communication.
+**Port translation** (PAT), also known as *NAT overload* or *IP masquerading*, goes a step further: all private devices share a single public IP address (or a very small number). To distinguish sessions, the gateway modifies not only the source address, but also the source port. It keeps a table linking each *(private address, private port)* pair to a unique *(public address, public port)* pair. This form of NAT is used in almost all home routers, allowing dozens of devices (computers, smartphones, connected objects, etc.) to share the same public IP address, while maintaining fluid communication.
 
-NAT therefore extends IPv4's lifespan, while adding an appreciable level of partitioning and security. However, with the gradual adoption of IPv6 and its immense address space, the role of NAT will tend to diminish, even if, for reasons of compatibility and control, it will still be used in certain environments to segment and filter flows.
-
+NAT therefore extends IPv4's lifespan, while adding a valuable layer of segmentation and security. However, as IPv6 adoption grows and its vast address space become more widely used, the role of NAT will likely decline, though for compatibility and control purposes, it will still be used in some environments to segment and filter traffic.
 
 ### NAT implementation
 
-To guarantee the correct operation of the address translation mechanism, the NAT router or gateway must keep a precise record of the correspondences established between each private address on the internal network and the public address it uses to communicate with the outside world. This information is stored in a table known as the "NAT translation table", which plays a central role in network flow management.
+To ensure the proper operation of address translation, the NAT router or gateway must keep an accurate record of the mappings established between each private address on the internal network and the public address it uses to communicate with the outside world. This information is stored in what's known as the "NAT translation table", which plays a central role in managing network traffic.
 
-Each entry in this table associates at least one pair, consisting of the internal IP address of the sending machine and the external IP address that will be exposed on the Internet. When a packet from the private network is sent to a public destination, the NAT router intercepts the frame, analyzes the IP and TCP/UDP headers, then replaces the private source address with the gateway's public address. In the return direction, the incoming packet is captured by the same gateway, which checks the mapping table and performs the reverse operation to redirect the flow to the original internal IP address.
+Each entry in this table links at least one pair: the internal IP address of the sending machine and the external IP address that will be exposed on the Internet. When a packet from the private network is sent to a public destination, the NAT router intercepts the frame, analyzes the IP and TCP/UDP headers, then replaces the private source address with the gateway's public address. On the return path, the same gateway captures the incoming packet, checks the mapping table and performs the reverse operation to redirect the flow to the original internal IP address.
 
-This dynamic translation principle is based on fine-tuned table management: each entry remains valid as long as active traffic justifies it. After a configurable period of inactivity, the entry is purged and can be reused for new connections.
+This dynamic translation principle relies on precise table management: each entry remains valid as long as there is active traffic to justify it. After a configurable period of inactivity, the entry is cleared and can be reused for new connections.
 
-example of a simplified NAT translation table :_
-
+_Example of a simplified NAT translation table :_
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
 | ------------- | -------------- | -------------- | --------- |
@@ -922,32 +920,32 @@ example of a simplified NAT translation table :_
 | 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
 | 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
-In this example, if no packet has transited for the second line for more than an hour (3600 seconds), the entry is marked as reusable. Conversely, a duration field of zero indicates that a communication is in progress and that the correspondence is locked.
+In this example, if no packet has passed through for the second entry in over an hour (3,600 seconds), it is marked as reusable. Conversely, a duration of zero indicates an active communication, with the mapping locked.
 
-Although NAT integrates seamlessly into the majority of current applications (web browsing, e-mail, file transfer, etc.), it can introduce additional constraints for certain network applications. Some technologies rely on the explicit exchange of IP addresses or ports in the body of packets. However, this information becomes incoherent after passing through the NAT gateway.
+While NAT operates transparently for most common uses (web browsing, e-mail, file transfer, etc.), it can create additional challenges for certain network applications. Some technologies rely on explicitly exchanging IP addresses or ports within the packet payload. After passing through a NAT gateway, this information becomes inconsistent.
 
-Among the most typical cases of limitations are :
-- Peer-to-peer protocols (P2P), which require the establishment of direct connections between stations, are disrupted by the NAT barrier, as each internal machine shares the same external IP address and cannot be contacted directly without specific configuration (such as *port forwarding* or UPnP);
-- The IPSec protocol, used to secure network communications, encrypts packet headers. However, since NAT needs to modify these headers to replace IP addresses, encryption makes this modification impossible, compromising compatibility without adaptation mechanisms such as NAT-T (*NAT Traversal*);
-- The X Window protocol, which enables remote display of graphical applications under Unix/Linux, operates according to a logic in which the X server actively sends TCP connections to clients. This reversal of the usual direction of connections can be blocked by NAT translation.
+Typical examples of limitations include:
+- Peer-to-peer protocols (P2P), which require direct connections between devices, are hindered by the NAT barrier, since all internal machine shares the same external IP address and cannot be reached directly without specific configuration (such as *port forwarding* or UPnP);
+- The IPSec protocol, used to secure network communications, encrypts packet headers. Because NAT must modify these headers to replace IP addresses, encryption makes this impossible without adaptation mechanisms such as NAT-T (*NAT Traversal*);
+- The X Window protocol, which allows remote display of graphical applications on Unix/Linux, works in a way that the X server actively sends TCP connections to clients. This reversal of the usual direction of connections can be blocked by NAT.
 
-In general, any protocol that includes an explicit reference to the internal IP address in the packet payload will be affected, as this address no longer corresponds to the real address visible from the Internet once the translation has been carried out.
+In general, any protocol that explicitly includes the internal IP address in the packet payload will be affected, since that address will no longer match the real, internet-visible address after translation.
 
-**Important note:** To overcome these problems, some NAT routers feature _Deep Packet Inspection_ (DPI) or _Protocol Helpers_ functions, which inspect packet contents to identify and dynamically replace addresses or port numbers in application data. However, this manipulation requires a thorough knowledge of the protocol format to be processed, and can represent a vulnerability or a resource overhead.
+**Important note:** To address these issues, some NAT routers offer _Deep Packet Inspection_ (DPI) or _Protocol Helpers_ , which inspect packet contents to identify and dynamically replace addresses or port numbers within application data. This requires in-depth knowledge of the protocol format, and can create security vulnerabilities or increase resource usage.
 
-**A word of caution:** Although NAT helps to mask the internal network and control the flow of incoming traffic, it is no substitute for a dedicated firewall. Translation is not a complete security barrier: it must always be complemented by precise filtering rules to block unsolicited or unwanted traffic.
+**Caution:** Although NAT helps hide the internal network and control incoming traffic, it is not a substitute for a dedicated firewall. Translation alone is not a complete security barrier: it must always be complemented by clear filtering rules to block unsolicited or unwanted traffic.
 
-to illustrate how this works in practice, let's take the following example:_
+_To illustrate how this works in practice, consider the following example:_
 
 
 ![Image](assets/fr/037.webp)
 
 
-In this scenario, an internal workstation can access the internal web server by calling the URL `http://192.168.1.20:80` directly. Here, port specification is optional, since `80` is the standard port for HTTP. Conversely, if a request is initiated from the outside, the user will enter the public address `http://85.152.44.14:80`. The NAT router receives the request, consults its mapping table and automatically translates the public address into a private one, redirecting the connection to `http://192.168.1.20:80`.
+In this scenario, an internal workstation can access the internal web server simply by calling the URL `http://192.168.1.20:80`. Specifying the port is optional here, since `80` is the standard HTTP port.Conversely, if a request is initiated from the outside, the user will enter the public address `http://85.152.44.14:80`. The NAT router receives the request, consults its mapping table, and automatically translates the public address into a private one, redirecting the connection to `http://192.168.1.20:80`.
 
-This principle is identical for any other server authorized to receive connections from the Internet, such as the Extranet server (blue circuit on the diagram).
+The same principle applies to any other server authorized to receive internet connections, such as the Extranet server (blue circuit in the diagram).
 
-**Practical note:** in virtualized environments, network interfaces called _virbrX_ (for _Virtual Bridge X_) are frequently encountered. These virtual bridges, provided in particular by the libvirt library or the Xen hypervisor, are used to connect the virtual internal network of guest machines to the physical network, while applying NAT. They are generally configured via scripts located in `/etc/sysconfig/network-scripts/`, as illustrated below for `virbr0` :
+**Practical note:** in virtualized environments, network interfaces called _virbrX_ (for _Virtual Bridge X_) are commonly used. These virtual bridges, provided in particular by the libvirt library or the Xen hypervisor, connect the virtual internal network of guest machines to the physical network while applying NAT. They are generally configured via scripts in `/etc/sysconfig/network-scripts/`, as shown below for `virbr0` :
 
 ```ini
 NAME=""
@@ -973,9 +971,9 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 ```
 
-With this configuration, outgoing traffic is routed and NAT translation is provided, enabling virtual machines to communicate with the outside world without directly exposing their internal IP addresses.
+With this configuration, outgoing traffic is routed and NAT translation is applied, allowing virtual machines to communicate with the outside world without directly exposing their internal IP addresses.
 
-In the following chapter, we'll take a detailed look at IP address configuration under Linux, using simple and advanced methods adapted to different administration contexts.
+In the next chapter, we'll look in detail at IP address configuration under Linux, covering both simple and advanced methods suited to different administration contexts.
 
 
 https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428

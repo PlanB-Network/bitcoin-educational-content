@@ -4,18 +4,18 @@ description: Come aggiungere un nuovo podcast su Plan ₿ Network?
 ---
 ![podcast](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
 
 Stai cercando di aggiungere un podcast Bitcoin su Plan ₿ Network per aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
 
 ![podcast](assets/01.webp)
 
-- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
+- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo scritto un tutorial dettagliato per guidarti.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) nella sezione `resources/podcasts/`:
+- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) nella sezione `resources/podcasts/`:
 
 ![podcast](assets/02.webp)
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![podcast](assets/03.webp)
 
-- Se non hai mai collaborato alla creazione di contenuti su Plan ₿ Network, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti al repository, dovrai creare il tuo fork. Fare un fork di un repository significa creare una copia del repository principale sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![podcast](assets/04.webp)
 
@@ -35,11 +35,11 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![podcast](assets/06.webp)
 
-- Per confermare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo podcast nella stessa casella, per esempio: `super-podcast-bitcoin/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
+- Per confermare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo podcast, per esempio: `super-podcast-bitcoin/`. Aggiungere uno slash crea automaticamente una directory anziché un file:
 
 ![podcast](assets/07.webp)
 
-- In questa cartella, creerai un primo file YAML chiamato `podcast.yml`:
+- In questa cartella, crea un primo file YAML chiamato `podcast.yml`:
 
 ![podcast](assets/08.webp)
 
@@ -69,17 +69,17 @@ Ecco i dettagli da compilare per ogni campo:
 - **`language`**: Indica il codice della lingua parlata nel tuo podcast. Ad esempio, per l'inglese, nota `en`, per l'italiano `it`...
 
 - **`links`**: Fornisci i link ai tuoi contenuti. Hai due opzioni:
-	- `podcast`: il link al tuo podcast,
-	- `twitter`: il link al profilo Twitter del podcast o dell'organizzazione che lo produce,
-	- `website`: il link al sito web del podcast o dell'organizzazione che lo produce.
+	- `podcast`: il link del tuo podcast,
+	- `twitter`: il link del profilo Twitter del podcast o del content creator,
+	- `website`: il link del sito web del podcast o del content creator.
 - **`description`**: Aggiungi un breve paragrafo che descrive il tuo podcast. La descrizione deve essere nella stessa lingua indicata nel campo `language:`.
 - **`tags`**: Aggiungi due tag associati al tuo podcast. Esempi:
     - `bitcoin`
-    - `tecnologia`
-    - `economia`
-    - `educazione`...
+    - `tecnology`
+    - `economy`
+    - `education`...
 
-- **`contributors`**: Menziona il tuo ID di contributore se ne possiedi uno.
+- **`contributors`**: Indica il tuo ID da contributor, se ne possiedi uno.
 
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
@@ -92,22 +92,22 @@ links:
   twitter: https://twitter.com/decouvrebitcoin
   website: https://decouvrebitcoin.fr
 description: |
-  Super Podcast Bitcoin è una sessione tecnica LIVE tenuta una volta a settimana su Twitter per approfondire il protocollo Bitcoin, le soluzioni di secondo livello e tutto ciò che stupisce. I nostri ospiti Lounes, Pantamis, Loïc e Sosthene risponderanno alle vostre domande e offriranno lo spettacolo più tecnico su Bitcoin al mondo.
+  Super Podcast Bitcoin is a LIVE technical session held once a week on Twitter to delve into the Bitcoin protocol, layer two solutions, and everything that amazes. Our guests Lounes, Pantamis, Loïc, and Sosthene will answer your questions and provide the most technical show on Bitcoin in the world.
 
 tags:
   - bitcoin
-  - tecnologia
+  - tecnology
 contributors:
   - rabbit-hole
 ```
 
 ![podcast](assets/09.webp)
 
-- Una volta terminato di apportare modifiche a questo file, salvali cliccando sul pulsante `Commit changes...`:
+- Una volta terminato di apportare modifiche a questo file, salvalo cliccando sul pulsante `Commit changes...`:
 
 ![podcast](assets/10.webp)
 
-- Aggiungi un titolo per le tue modifiche, così come una breve descrizione:
+- Aggiungi un titolo e una breve descrizione per le tue modifiche:
 
 ![podcast](assets/11.webp)
 
@@ -172,7 +172,7 @@ contributors:
 ![podcast](assets/26.webp)
 
 - Attenzione, l'immagine deve essere quadrata, per adattarsi al meglio al nostro sito web:
-- 
+
 ![podcast](assets/27.webp)
 
 - Una volta caricata l'immagine, verifica che la casella `Commit directly to the patch-1 branch` sia selezionata, poi clicca su `Commit changes`:
@@ -187,7 +187,7 @@ contributors:
 
 ![podcast](assets/30.webp)
 
-- Una volta sul file, clicca sui tre piccoli punti in alto a destra e poi su `Delete file`:
+- Una volta sul file, clicca sui tre punti in alto a destra e poi su `Delete file`:
 
 - ![podcast](assets/31.webp)
 
@@ -199,7 +199,7 @@ contributors:
 
  ![podcast](assets/33.webp)
  
-- Torna alla radice del tuo repository:
+- Torna alla root del tuo repository:
 
 ![podcast](assets/34.webp)
 
@@ -215,7 +215,10 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un amministratore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
 
-Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: ![podcast](assets/38.webp)
+Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: 
+
+![podcast](assets/38.webp)
+
 Grazie mille per il tuo prezioso aiuto! :)

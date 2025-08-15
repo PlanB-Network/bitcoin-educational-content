@@ -291,7 +291,7 @@ Kubera ivyo bintu vy’ukuri, ng’ibi ingeso nziza twogira kugira ngo ntitugwe 
 
 
 
-- Ube maso cane ku vyiyumviro vyose vyo gushora imari muri crypto.**
+- Ube maso cane ku vyiyumviro vyose vyo kudandaza muri crypto.**
 
 Umuntu wo kwizigirwa kandi afise ubumenyi ntazokwigera akuhatira kugura amafaranga y’ivy’ubuhinga bwa none atagutera intege ngo ubanza gukora ubushakashatsi bwawe bwite.
 

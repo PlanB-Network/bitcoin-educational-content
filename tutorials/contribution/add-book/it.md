@@ -4,18 +4,18 @@ description: Come aggiungere un nuovo libro su Plan ₿ Network?
 ---
 ![book](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
 
 **Vuoi aggiungere un libro relativo a Bitcoin su Plan ₿ Network e aumentare la visibilità del tuo lavoro, ma non sai come fare? Questo tutorial è per te!**
 
 ![book](assets/01.webp)
 
-- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
+- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo scritto un tutorial dettagliato per guidarti.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
+- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
 
 ![book](assets/02.webp)
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![book](assets/03.webp)
 
-- Se non hai mai collaborato alla creazione di contenuti su Plan ₿ Network, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti su Plan ₿ Network, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -35,11 +35,11 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![book](assets/06.webp)
 
-- Per confermare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo libro nella stessa casella, per esempio: `il-mio-libro-su-bitcoin/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
+- Per confermare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo libro nella stessa casella, per esempio: `il-mio-libro-su-bitcoin/`. Aggiungere uno slash crea automaticamente una directory, anziché un file:
 
 ![book](assets/07.webp)
 
-- In questa cartella, creerai un primo file YAML denominato `book.yml`:
+- In questa cartella, crea un primo file YAML denominato `book.yml`:
 
 ![book](assets/08.webp)
 
@@ -58,13 +58,14 @@ Ecco i dettagli da compilare per ogni campo:
 - **`level`**: Indica il livello richiesto per poter leggere e comprendere bene il libro. Scegli un livello tra i seguenti:
 	- `beginner`
 	- `intermediate`
-- `advanced` - `expert`
-- **`tags`**: Aggiungi due o tre tag relativi al tuo libro. Ad esempio:
+  - `advanced`
+  - `expert`
+- **`tags`**: Aggiungi due o tre [tag](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) relativi al tuo libro. Ad esempio:
     - `bitcoin`
-    - `storia`
-    - `tecnologia`
-    - `economia`
-    - `educazione`...
+    - `history`
+    - `tecnology`
+    - `economy`
+    - `education`...
 
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
@@ -73,7 +74,7 @@ author: Loïc Morel
 level: beginner
 tags:
   - bitcoin
-  - tecnologia
+  - tecnology
 ```
 
 ![book](assets/09.webp)
@@ -82,7 +83,9 @@ tags:
 
 ![book](assets/10.webp)
 
-- Aggiungi un titolo per le tue modifiche, così come una breve descrizione: ![book](assets/11.webp)
+- Aggiungi un titolo per le tue modifiche, così come una breve descrizione:
+
+![book](assets/11.webp)
 
 - Clicca sul pulsante verde `Propose changes`:
 
@@ -152,7 +155,7 @@ tags:
 
 ![book](assets/28.webp)
 
-- Nota che la tua immagine deve essere nominata `cover_en` se la copertina è in inglese e deve essere in formato `.webp`. Pertanto, il nome completo del file dovrebbe essere `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, ecc. Se desideri utilizzare un'immagine di copertina diversa per ogni lingua, ad esempio in caso di traduzione di un libro, puoi posizionarle nella stessa posizione nella cartella `assets`:
+- Nota che la tua immagine deve essere nominata `cover_en` se la copertina è in inglese, e deve essere in formato `.webp`. Pertanto, il nome completo del file dovrebbe essere `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, ecc. Se desideri utilizzare un'immagine di copertina diversa per ogni lingua, ad esempio in caso di traduzione di un libro, puoi posizionarle nella stessa cartella `assets`:
 
 ![book](assets/29.webp)
 
@@ -160,7 +163,7 @@ tags:
 
 ![book](assets/30.webp)
 
-- Una volta sul file, clicca sui 3 piccoli punti in alto a destra e poi su `Delete file`:
+- Una volta sul file, clicca sui 3 punti in alto a destra e poi su `Delete file`:
 
 ![book](assets/31.webp)
 
@@ -172,7 +175,9 @@ tags:
 
 ![book](assets/33.webp)
 
-- Ritorna alla cartella del tuo libro: ![libro](assets/34.webp)
+- Ritorna alla cartella del tuo libro:
+
+![libro](assets/34.webp)
 
 - Clicca sul pulsante `Add file`, poi su `Create new file`:
 
@@ -205,24 +210,25 @@ Ecco i dettagli da compilare per ogni campo:
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
-title: "Il Mio Libro su Bitcoin"
+title: "My Bitcoin Book"
 publication_year: 2021
 cover: cover_en.webp
 original: true
 description: |
-Scopri il mondo rivoluzionario di Bitcoin con questa guida completa pensata per i principianti. Il Mio Libro su Bitcoin svela le complessità di Bitcoin, fornendo un'introduzione chiara e concisa su come funziona il protocollo. Dalla sua tecnologia rivoluzionaria al suo potenziale impatto sull'economia globale, questo libro offre preziose intuizioni e conoscenze pratiche. Perfetto per chi è nuovo a Bitcoin, copre le basi, consigli sulla sicurezza e il futuro della finanza digitale. Immergiti nel futuro del denaro e dotati della conoscenza per navigare con fiducia nell'era digitale.
+Discover the revolutionary world of Bitcoin with this comprehensive guide designed for beginners. My Book on Bitcoin unveils the complexities of Bitcoin, providing a clear and concise introduction to how the protocol works. From its groundbreaking technology to its potential impact on the global economy, this book offers valuable insights and practical knowledge. Perfect for those new to Bitcoin, it covers the basics, security tips, and the future of digital finance. Dive into the future of money and equip yourself with the knowledge to navigate confidently in the digital age.
 
 contributors:
 
   - pretty-private
 ```
+
 ![libro](assets/37.webp)
 
 - Clicca sul pulsante `Commit changes...`:
 
 ![libro](assets/38.webp)
 
-- Assicurati che la casella `Commit direttamente sul branch patch-1` sia selezionata, aggiungi un titolo, poi clicca su `Commit changes`:
+- Assicurati che la casella `Commit directly on patch-1` sia selezionata, aggiungi un titolo, poi clicca su `Commit changes`:
 
 ![libro](assets/39.webp)
 
@@ -230,7 +236,7 @@ contributors:
 
 ![libro](assets/40.webp)
 
-- Se tutto ti sembra corretto, ritorna alla radice del tuo fork:
+- Se tutto ti sembra corretto, ritorna alla root del tuo fork:
 
 ![libro](assets/41.webp)
 
@@ -246,7 +252,8 @@ contributors:
 
 ![libro](assets/44.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un amministratore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
 
 Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network.
+
 Grazie mille per il tuo prezioso aiuto! :)

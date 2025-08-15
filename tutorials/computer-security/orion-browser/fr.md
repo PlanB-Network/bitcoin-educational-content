@@ -64,30 +64,37 @@ brew install --cask orion
 2. Recherchez "**Orion Browser by Kagi**"
 3. Installez l'application gratuite (compatible iOS 15+)
 
-![Installation sur iOS](assets/fr/06.webp)
-*Écran d'installation sur iOS montrant le QR code pour télécharger rapidement Orion Browser depuis l'App Store*
-
-4. Pour en faire votre navigateur par défaut : Réglages → Orion → Navigateur par défaut
-
-![Page d'accueil Orion](assets/fr/07.webp)
-*Interface principale d'Orion Browser après configuration : la flèche en haut à droite indique les trois outils essentiels - le bouclier (protection), le pinceau (personnalisation) et l'engrenage (paramètres du site)*
-
 ### Configuration initiale
 
+Au premier lancement, Orion vous guide à travers plusieurs étapes :
+
+**1. Écran de bienvenue**
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
 *Écran de bienvenue d'Orion Browser mettant en avant ses fonctionnalités clés : navigation plus rapide, zéro télémétrie, blocage des publicités et support des extensions*
 
-Au premier lancement, Orion vous propose :
-- **Choix du moteur de recherche** : Sélectionnez DuckDuckGo, Startpage ou Kagi pour une confidentialité maximale
-
-![Configuration du moteur de recherche](assets/fr/09.webp)
-*Configuration du moteur de recherche par défaut : DuckDuckGo est sélectionné pour une confidentialité maximale*
+**2. Personnalisation de l'interface**
+![Options de personnalisation](assets/fr/05.webp)
+*Écran de personnalisation permettant de configurer l'apparence des onglets et l'interface selon vos préférences*
 
 - **Import des données** : Transférez facilement vos favoris et mots de passe depuis Safari, Chrome ou Firefox
 - **Synchronisation iCloud** : Activez pour retrouver vos favoris et onglets sur tous vos appareils Apple
 
-![Options de personnalisation](assets/fr/05.webp)
-*Écran de personnalisation permettant de configurer l'apparence des onglets et l'interface selon vos préférences*
+**3. Installation sur appareils mobiles**
+![Installation sur iOS](assets/fr/06.webp)
+*Écran d'installation sur iOS montrant le QR code pour télécharger rapidement Orion Browser depuis l'App Store*
+
+**4. Interface d'accueil et outils essentiels**
+
+![Page d'accueil Orion](assets/fr/07.webp)
+*Interface d'accueil d'Orion Browser : la flèche indique les trois outils clés accessibles directement depuis la barre d'adresse*
+
+Une fois la configuration terminée, vous découvrez l'interface épurée d'Orion avec ses **trois outils essentiels** (indiqués par la flèche) :
+
+- **Bouclier 🛡️** : Affiche le Privacy Report avec le nombre d'éléments bloqués sur la page courante
+- **Pinceau 🖌️** : Personnalise l'affichage de la page (thème, police, suppression d'éléments gênants)
+- **Engrenage ⚙️** : Configure les paramètres spécifiques au site web (permissions, blocage, etc.)
+
+Ces outils sont toujours accessibles et vous permettent de contrôler votre expérience de navigation site par site.
 
 **Important** : Orion est gratuit et ne nécessite aucune inscription ou création de compte pour fonctionner.
 
@@ -130,8 +137,13 @@ Accédez aux préférences via **Orion → Preferences** (ou ⌘,) :
 - Mode de navigation : Utilisez la navigation privée (⌘⇧N) pour les sessions sensibles
 
 **3. Search**
-- Moteur par défaut : **DuckDuckGo** ou **Kagi** (évitez Google/Bing)
-- Désactivez les suggestions de recherche pour éviter les fuites de frappe
+
+![Configuration du moteur de recherche](assets/fr/09.webp)
+*Configuration du moteur de recherche par défaut : DuckDuckGo est sélectionné pour une confidentialité maximale*
+
+- **Moteur par défaut** : Sélectionnez **DuckDuckGo**, **Startpage** ou **Kagi** pour une confidentialité optimale (évitez Google/Bing)
+- **Suggestions de recherche** : Désactivez-les pour éviter les fuites de frappe vers les serveurs du moteur de recherche
+- **Note** : Vous pouvez modifier ce paramètre à tout moment dans les préférences Orion
 
 **4. Websites et Custom Filters**
 - **Gestion par site** : Utilisez l'onglet "Websites" pour des règles spécifiques par domaine
@@ -168,15 +180,11 @@ Pour installer une extension :
 
 ### Interface et fonctionnalités uniques
 
-**Barre d'outils minimaliste** : L'interface épurée d'Orion maximise l'espace de contenu. Trois outils clés sont accessibles à droite de la barre d'adresse :
-- **Bouclier 🛡️** : Affiche le Privacy Report avec les éléments bloqués
-- **Pinceau 🖌️** : Personnalise l'apparence de la page courante
-- **Engrenage ⚙️** : Configure les paramètres spécifiques au site
 
 ![Outil de personnalisation pinceau](assets/fr/13.webp)
 *Menu pinceau d'Orion permettant de personnaliser l'affichage : taille de police, thème (clair/sombre), désactivation des en-têtes collants et suppression d'éléments gênants*
 
-### Outil pinceau : personnalisation avancée
+**Outil pinceau : personnalisation avancée**
 
 L'outil **pinceau** d'Orion est une fonctionnalité unique permettant de personnaliser l'affichage de chaque site web :
 

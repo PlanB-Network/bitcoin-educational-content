@@ -348,7 +348,7 @@ Vykřičník na začátku označuje obrázek. Alternativní text, který pomáh�
 Pokud chcete vytvořit vlastní schéma, nezapomeňte dodržet grafické pokyny pro plánování sítě, abyste zajistili vizuální konzistenci:
 
 
-- Písmo**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM Plex Sans);
 - Barvy** :
  - Oranžová: #FF5C00
  - Černá : #000000

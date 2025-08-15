@@ -381,7 +381,7 @@ assets`フォルダ内のlanguageサブフォルダは、チュートリアル�
 独自のダイアグラムを作成する場合は、視覚的な一貫性を確保するため、Plan ₿ Networkのグラフィック・チャーターに従うようにしてください：
 
 
-- フォント**：ルービック](https://fonts.google.com/specimen/Rubik)を使う；
+- フォント**：ルービック](https://fonts.google.com/specimen/IBM Plex Sans)を使う；
 - 色**：
  - オレンジ#FF5C00
  - ブラック#000000

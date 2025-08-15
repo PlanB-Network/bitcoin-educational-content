@@ -628,7 +628,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 - **Qubes OS** :
 
-Qubes OS repose sur Fedora et utilise le système de virtualisation Xen pour compartimenter les usages. Chaque application tourne dans une machine virtuelle isolée. C'est un architecture très sécurisée, mais exigeante en ressources et assez difficile à prendre en main.
+Qubes OS repose sur Fedora et utilise le système de virtualisation Xen pour compartimenter les usages. Chaque application tourne dans une machine virtuelle isolée. C'est une architecture très sécurisée, mais exigeante en ressources et assez difficile à prendre en main.
 
 ![Image](assets/fr/033.webp)
 

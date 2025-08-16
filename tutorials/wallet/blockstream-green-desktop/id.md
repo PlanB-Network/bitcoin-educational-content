@@ -4,7 +4,7 @@ description: Menggunakan Green Wallet di komputer Anda
 ---
 ![cover](assets/cover.webp)
 
-Dalam tutorial ini, kita akan membahas bagaimana cara menggunakan perangkat lunak Blockstream Green di komputer Anda untuk mengelola dompet yang aman pada dompet perangkat keras. Ketika menggunakan dompet perangkat keras, sangat penting untuk menggunakan perangkat lunak pada komputer Anda untuk mengelola dompet. Perangkat lunak manajemen ini tidak memiliki akses ke kunci pribadi; perangkat lunak ini hanya digunakan untuk melihat saldo dompet Anda, membuat alamat penerima, dan membuat serta mendistribusikan transaksi yang akan ditandatangani oleh dompet perangkat keras. Green hanyalah salah satu dari sekian banyak solusi yang tersedia untuk mengelola dompet perangkat keras Bitcoin Anda.
+Dalam tutorial ini, kita akan membahas gimana cara pakai perangkat lunak Blockstream Green di komputer kamu buat ngelola dompet yang aman lewat dompet perangkat keras. Waktu kamu pakai dompet perangkat keras, penting banget buat pake perangkat lunak di komputer kamu untuk ngelola dompet. Perangkat lunak manajemen ini nggak punya akses ke kunci pribadi; fungsinya cuma buat lihat saldo dompet kamu, bikin alamat penerima, sama bikin dan nyebarin transaksi yang nanti bakal ditandatangani sama dompet perangkat keras. Green hanyalah salah satu dari banyak solusi yang tersedia buat ngelola dompet perangkat keras Bitcoin kamu.
 
 Pada tahun 2024, Blockstream Green hanya kompatibel dengan perangkat Ledger Nano S (versi lama), Ledger Nano X, Trezor One, Trezor T, dan Blockstream Jade.
 
@@ -12,7 +12,7 @@ Pada tahun 2024, Blockstream Green hanya kompatibel dengan perangkat Ledger Nano
 
 Blockstream Green adalah aplikasi perangkat lunak yang tersedia di ponsel dan desktop. Sebelumnya dikenal sebagai Green Address, portofolio ini menjadi proyek Blockstream setelah diakuisisi pada tahun 2016.
 
-Green adalah aplikasi yang sangat mudah digunakan, membuatnya sangat cocok untuk pemula. Aplikasi ini menawarkan berbagai fungsi, seperti pengelolaan hot wallet, dompet perangkat keras, serta dompet pada sidechain Liquid. Anda juga dapat menggunakannya untuk mengatur dompet khusus jam tangan.
+Green adalah aplikasi yang sangat mudah digunakan, membuatnya sangat cocok untuk pemula. Aplikasi ini menawarkan berbagai fungsi, seperti pengelolaan hot wallet, dompet perangkat keras, serta dompet pada sidechain Liquid. Kamu juga dapat menggunakannya untuk mengatur dompet khusus jam tangan.
 
 ![GREEN-DESKTOP](assets/fr/01.webp)
 
@@ -24,7 +24,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 ## Menginstal dan mengonfigurasi perangkat lunak Blockstream Green
 
-Mulailah dengan menginstal perangkat lunak Blockstream Green di komputer Anda. Buka [situs web resmi] (https://blockstream.com/green/) dan klik tombol "*Unduh Sekarang*". Kemudian ikuti proses instalasi sesuai dengan sistem operasi Anda.
+Mulailah dengan menginstal perangkat lunak Blockstream Green di komputermu. Buka [situs web resmi] (https://blockstream.com/green/) dan klik tombol "*Unduh Sekarang*". Kemudian ikuti proses instalasi sesuai dengan sistem operasi yang kamu pakai.
 
 ![GREEN-DESKTOP](assets/fr/02.webp)
 
@@ -32,67 +32,67 @@ Luncurkan aplikasi, lalu centang kotak "Saya menerima ketentuan...*".
 
 ![GREEN-DESKTOP](assets/fr/03.webp)
 
-Apabila Anda membuka Green untuk pertama kali, layar beranda muncul tanpa portofolio yang dikonfigurasi. Nanti, jika Anda membuat atau mengimpor portofolio, portofolio akan muncul di antarmuka ini. Sebelum melanjutkan untuk membuat portofolio, saya sarankan Anda menyesuaikan pengaturan aplikasi agar sesuai dengan kebutuhan Anda. Klik ikon Pengaturan di sudut kiri bawah.
+Kalau kamu buka Green pertama kali, layar beranda bakal muncul tanpa portofolio yang dikonfigurasi. Nanti, kalau kamu bikin atau impor portofolio, portofolio itu bakal tampil di antarmuka ini. Sebelum lanjut bikin portofolio, aku saranin kamu buat nyesuain dulu pengaturan aplikasi biar sesuai sama kebutuhan kamu. Klik ikon Pengaturan di pojok kiri bawah.
 
 ![GREEN-DESKTOP](assets/fr/04.webp)
 
-Dalam menu "*General*", Anda dapat mengubah bahasa perangkat lunak dan mengaktifkan fungsi eksperimental jika Anda mau.
+Dalam menu "*General*", kamu bisa mengubah bahasa perangkat lunak dan mengaktifkan fungsi eksperimental jika kamu mau.
 
 ![GREEN-DESKTOP](assets/fr/05.webp)
 
-Pada menu "*Jaringan*", Anda bisa mengaktifkan koneksi melalui Tor, sebuah jaringan yang mengenkripsi semua koneksi Anda dan membuat aktivitas Anda sulit dilacak. Meskipun opsi ini mungkin sedikit memperlambat operasi aplikasi, ini sangat disarankan untuk melindungi privasi Anda, terutama jika Anda tidak menggunakan simpul lengkap Anda sendiri.
+Pada menu "*Jaringan*", kamu bisa mengaktifkan koneksi melalui Tor, sebuah jaringan yang mengenkripsi semua koneksimu dan membuat aktivitasmu menjadi sulit dilacak. Meskipun opsi ini mungkin sedikit memperlambat jalannya aplikasi, ini sangat disarankan untuk melindungi privasimu, terutama jika kamu tidak menggunakan node-mu sendiri.
 
 ![GREEN-DESKTOP](assets/fr/06.webp)
 
-Untuk pengguna yang memiliki node lengkap mereka sendiri, Green menawarkan opsi untuk menghubungkannya melalui server Electrum, menjamin kontrol penuh atas informasi jaringan Bitcoin dan penyebaran transaksi. Untuk melakukannya, klik menu "*Server khusus dan validasi*", lalu masukkan detail server Electrum Anda.
+Untuk pengguna yang memiliki node lengkap mereka sendiri, Green menawarkan opsi untuk menghubungkannya melalui server Electrum, menjamin kontrol penuh atas informasi jaringan Bitcoin dan penyebaran transaksi. Untuk melakukannya, klik menu "*Server khusus dan validasi*", lalu masukkan detail server Electrum yang kamu punya.
 
 ![GREEN-DESKTOP](assets/fr/07.webp)
 
-Fitur alternatif lainnya adalah opsi "*Verifikasi SPV*", yang memungkinkan Anda untuk memverifikasi data blockchain tertentu secara langsung dan dengan demikian mengurangi kebutuhan untuk mempercayai node default Blockstream, meskipun metode ini tidak memberikan semua jaminan dari sebuah node yang lengkap. Opsi ini juga dapat ditemukan di menu "*Server khusus dan validasi*".
+Fitur alternatif lainnya adalah opsi "*Verifikasi SPV*", yang memungkinkan kamu untuk memverifikasi data blockchain tertentu secara langsung dan dengan demikian mengurangi kebutuhan untuk mempercayai node default Blockstream, meskipun metode ini tidak memberikan semua jaminan dari sebuah node yang lengkap. Opsi ini juga dapat ditemukan di menu "*Server khusus dan validasi*".
 
 ![GREEN-DESKTOP](assets/fr/08.webp)
 
-Setelah Anda menyesuaikan parameter ini dengan kebutuhan Anda, Anda dapat keluar dari antarmuka ini.
+Setelah kamu menyesuaikan parameter ini dengan kebutuhanmu, kamu dapat keluar dari halaman ini.
 
 ## Impor dompet Bitcoin di Blockstream Green
 
-Anda sekarang siap untuk mengimpor dompet Bitcoin Anda. Klik tombol "**Mulai**".
+Anda sekarang siap untuk mengimpor dompet Bitcoin-mu. Klik tombol "**Mulai**".
 
 ![GREEN-DESKTOP](assets/fr/09.webp)
 
-Anda dapat memilih antara membuat dompet perangkat lunak lokal atau mengelola cold wallet melalui dompet perangkat keras. Untuk tutorial ini, kita akan berkonsentrasi untuk mengelola dompet perangkat keras, jadi Anda harus memilih opsi "*On Hardware Wallet*".
+Kamu dapat memilih antara membuat dompet perangkat lunak lokal atau mengelola cold wallet melalui dompet perangkat keras. Untuk tutorial ini, kita akan berkonsentrasi untuk mengelola dompet perangkat keras, jadi kamu harus memilih opsi "*On Hardware Wallet*".
 
-Opsi "*Watch-only*" memungkinkan Anda untuk mengimpor kunci publik yang diperluas (`xpub`) untuk melihat transaksi portofolio tanpa dapat menggunakan dana yang terkait.
+Opsi "*Watch-only*" memungkinkan kamu untuk mengimpor kunci publik yang diperluas (`xpub`) untuk melihat transaksi portofolio tanpa dapat menggunakan dana yang terkait.
 
 ![GREEN-DESKTOP](assets/fr/10.webp)
 
-Jika Anda menggunakan Jade, klik tombol yang sesuai. Jika tidak, pilih "*Hubungkan Perangkat Keras yang berbeda*". Dalam kasus saya, saya menggunakan Ledger Nano S. Untuk pengguna Ledger, pastikan Anda menginstal aplikasi "*Bitcoin Legacy*" di dompet perangkat keras Anda, karena Green hanya mendukung versi ini.
+Jika kamu menggunakan Jade, klik tombol yang sesuai. Jika tidak, pilih "*Hubungkan Perangkat Keras yang berbeda*". Dalam skenario ini, aku menggunakan Ledger Nano S. Untuk pengguna Ledger, pastikan kamu menginstal aplikasi "*Bitcoin Legacy*" di dompet perangkat keras, karena Green hanya mendukung versi ini.
 
 ![GREEN-DESKTOP](assets/fr/11.webp)
 
-Hubungkan dompet perangkat keras Anda ke komputer dan pilih Hijau.
+Hubungkan dompet perangkat keras milikmu ke komputer dan pilih Green.
 
 ![GREEN-DESKTOP](assets/fr/12.webp)
 
-Tunggu hingga Green mengimpor informasi portofolio Anda, setelah itu Anda dapat mengaksesnya.
+Tunggu hingga Green mengimpor informasi portofoliomu, setelah itu kamu bisa mengaksesnya.
 
 ![GREEN-DESKTOP](assets/fr/13.webp)
 
-Pada titik ini, ada dua skenario yang mungkin terjadi. Jika Anda sudah pernah menggunakan dompet perangkat keras sebelumnya, Anda akan melihat akun Anda muncul di perangkat lunak. Namun, jika Anda baru saja menginisialisasi dompet perangkat keras dengan membuat frasa mnemonik tanpa pernah menggunakannya, Anda perlu membuat akun. Klik "*Buat Akun*".
+Pada titik ini, ada dua skenario yang mungkin terjadi. Jika kamu sudah pernah menggunakan dompet perangkat keras sebelumnya, kamu akan melihat akunmu muncul di perangkat lunak. Namun, jika kamu baru saja menginisialisasi dompet perangkat keras dengan membuat frasa mnemonik tanpa pernah menggunakannya, kamu perlu membuat akun. Klik "*Buat Akun*".
 
 ![GREEN-DESKTOP](assets/fr/14.webp)
 
-Pilih "*Standard*" jika Anda ingin menggunakan dompet klasik.
+Pilih "*Standard*" jika kamu ingin menggunakan dompet klasik.
 
 ![GREEN-DESKTOP](assets/fr/15.webp)
 
-Anda sekarang memiliki akses ke akun Anda.
+Sekarang kamu sudah memiliki akses ke akun milikmu.
 
 ![GREEN-DESKTOP](assets/fr/16.webp)
 
-## Menggunakan dompet perangkat keras dengan Blockstream Green
+## Menggunakan wallet perangkat keras dengan Blockstream Green
 
-Setelah dompet Bitcoin Anda siap, Anda siap untuk menerima satoshi pertama Anda! Cukup klik tombol "*Terima*".
+Setelah wallet Bitcoin siap, kamu siap untuk menerima satoshi pertamamu! Cukup klik tombol "*Terima*".
 
 ![GREEN-DESKTOP](assets/fr/17.webp)
 
@@ -100,15 +100,15 @@ Klik tombol "*Salin alamat*" untuk menyalin alamat, atau pindai kode QR-nya.
 
 ![GREEN-DESKTOP](assets/fr/18.webp)
 
-Setelah transaksi disiarkan di jaringan, transaksi tersebut akan muncul di dompet Anda. Tunggu hingga Anda menerima konfirmasi yang cukup untuk menganggap transaksi tersebut tidak dapat diubah.
+Setelah transaksi disiarkan di jaringan, transaksi tersebut akan muncul di walletmu. Tunggu hingga kamu menerima konfirmasi yang cukup untuk menganggap transaksi tersebut tidak dapat diubah.
 
 ![GREEN-DESKTOP](assets/fr/19.webp)
 
-Dengan bitcoin di dompet Anda, Anda sekarang siap untuk mengirimnya. Klik tombol "*Kirim*".
+Dengan bitcoin di wallet-mu, Kamu sekarang siap untuk mengirimnya. Klik tombol "*Kirim*".
 
 ![GREEN-DESKTOP](assets/fr/20.webp)
 
-Pada halaman berikutnya, masukkan alamat penerima. Anda dapat memasukkannya secara manual atau memindai kode QR dengan webcam Anda.
+Pada halaman berikutnya, masukkan alamat penerima. kamu bisa memasukkannya secara manual atau memindai kode QR dengan webcammu.
 
 ![GREEN-DESKTOP](assets/fr/21.webp)
 
@@ -116,15 +116,15 @@ Pilih jumlah pembayaran.
 
 ![GREEN-DESKTOP](assets/fr/22.webp)
 
-Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
+Di bagian bawah layar, kamu dapat memilih tarif biaya untuk transaksi ini. Kamu dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
 
 ![GREEN-DESKTOP](assets/fr/23.webp)
 
-Jika Anda ingin memilih secara spesifik UTXO mana yang akan digunakan dalam transaksi Anda, klik tombol "*Pemilihan koin secara manual*".
+Jika kamu ingin memilih secara spesifik UTXO mana yang akan digunakan dalam transaksi, klik tombol "*Pemilihan koin secara manual*".
 
 ![GREEN-DESKTOP](assets/fr/24.webp)
 
-Periksa parameter transaksi Anda dan, jika semuanya sesuai dengan yang Anda harapkan, klik "*Next*".
+Periksa parameter transaksi dan, jika semuanya sesuai dengan yang kamu harapkan, klik "*Next*".
 
 ![GREEN-DESKTOP](assets/fr/25.webp)
 
@@ -132,19 +132,19 @@ Periksa kembali apakah alamat, jumlah, dan biaya sudah benar, lalu klik "*Konfir
 
 ![GREEN-DESKTOP](assets/fr/26.webp)
 
-Pastikan semua parameter transaksi sudah benar di layar dompet perangkat keras Anda, lalu tanda tangani transaksi dengan menggunakan dompet tersebut.
+Pastikan semua parameter transaksi sudah benar di layar wallet perangkat keras kamu, lalu tanda tangani transaksi dengan menggunakan wallet tersebut.
 
 ![GREEN-DESKTOP](assets/fr/27.webp)
 
-Setelah transaksi ditandatangani dari dompet perangkat keras, Green secara otomatis menyiarkannya ke jaringan Bitcoin. Transaksi Anda kemudian akan muncul di dasbor dompet Bitcoin Anda, menunggu konfirmasi.
+Setelah transaksi ditandatangani dari wallet perangkat keras, Green secara otomatis menyiarkannya ke jaringan Bitcoin. Kemudian transaksi kamu akan muncul di dasbor wallet Bitcoin milikmu, menunggu konfirmasi.
 
 ![GREEN-DESKTOP](assets/fr/28.webp)
 
-Sekarang Anda sudah mengetahui bagaimana cara mengkonfigurasi Blockstream Green dengan mudah untuk mengelola dompet Bitcoin Anda pada dompet perangkat keras.
+Sekarang kamu sudah mengetahui bagaimana cara mengkonfigurasi Blockstream Green dengan mudah untuk mengelola wallet Bitcoin yang kamu punya pada wallet perangkat keras.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
+Jika kamu merasa tutorial ini bermanfaat, aku akan sangat berterima kasih jika kamu memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di media sosial. Terima kasih banyak!
 
-Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan hot wallet:
+Saya juga menyarankan kamu untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan hot wallet:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

@@ -1000,16 +1000,13 @@ Eppure questa perversione della legge ha un nome, è il socialismo, cioè l'ideo
 
 ---
 
->Società  
->di Mutuo Soccorso  
->di GUISY  
->1899
+> Società di Mutuo Soccorso  
+> di GUISY  
+> 1899
 
 ---
 
-Tuttavia, secondo Bastiat, esiste un'alternativa alla solidarietà statale obbligatoria: "la società di mutuo soccorso"
-
-l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di mutuo soccorso. Ma prevedeva anche che lo Stato avrebbe finito per impadronirsi di queste mutualità per renderle un organismo unico e centralizzato, incoraggiando la spesa e lo spreco.
+Tuttavia, secondo Bastiat, esiste un'alternativa alla solidarietà statale obbligatoria: "la società di mutuo soccorso", l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di mutuo soccorso. Ma prevedeva anche che lo Stato avrebbe finito per impadronirsi di queste mutualità per renderle un organismo unico e centralizzato, incoraggiando la spesa e lo spreco.
 
 ![image](assets/en/117.webp)
 
@@ -1019,23 +1016,26 @@ In un opuscolo intitolato "Giustizia e Fraternità", Bastiat esplora anche l'ide
 
 ---
 
->Le fondazioni – un  
->**valore aggiunto**  
->per la **società**  
+> Le fondazioni
+> un **valore aggiunto**  
+> per la **società**  
 >
->SwissFoundations
+> SwissFoundations
 
 ---
 
 Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia organizzata sono molto più sviluppate nei paesi che hanno un sistema fiscale leggero e un grado relativamente alto di libertà economica, come la Svizzera e gli Stati Uniti, mentre è largamente soffocata nei paesi dove lo Stato ha in gran parte sostituito la responsabilità individuale, come la Francia o la Germania.
-Spesso è di moda lamentarsi del "egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.
+
+Spesso è di moda lamentarsi dell'"egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.
+
+![image](assets/en/119.webp)
 
 Nella realtà, una società civile libera non si basa sull'egoismo: l'economia di mercato opera sulla base del servizio al prossimo e della reciprocità. Si può servire il proprio interesse solo servendo l'interesse di un altro, offrendo all'altro una controparte che porta a uno scambio reciprocamente vantaggioso. In altre parole, è lo scambio volontario che crea la vera solidarietà.
 
 La redistribuzione forzata non ha nulla a che fare con l'autentica solidarietà umana, che è di natura privata o volontaria e che si vede all'interno delle famiglie, o tra i membri di un'associazione.
 
 È quindi sul ruolo della legge che Bastiat qui si oppone ai socialisti. Egli scrive:
-La legge può costringere un uomo ad essere giusto, ma non può costringerlo ad essere devoto. La falsa solidarietà dei socialisti elimina la devozione a favore della pura coercizione statale, che costituisce la base del totalitarismo.
+"La legge può costringere un uomo ad essere giusto, ma non può costringerlo ad essere devoto. La falsa solidarietà dei socialisti elimina la devozione a favore della pura coercizione statale, che costituisce la base del totalitarismo."
 
 # La Legge
 

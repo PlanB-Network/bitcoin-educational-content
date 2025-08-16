@@ -15,9 +15,13 @@ ___
 In this tutorial, we’ll walk you through the step-by-step process of installing Microsoft Windows 11 on a VirtualBox virtual machine (version 7.1.10).
 The first thing you’ll need is an installation file. The safest and most reliable place to download it is directly from Microsoft’s official website.
 Simply visit the link provided below and follow the instructions to download the Windows 11 ISO file:
-https://www.microsoft.com/en-us/software-download/windows11
+
 * [MS Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
-![Image](assets/en/0.webp)
+![Image](assets/en/1.webp)
+
+Once you’re on the download page, scroll down to the section for downloading the ISO file.
+[Image](assets/en/0.webp)
+
 ## II. Prise en main d'Angry IP Scanner
 
 ### A. Télécharger et installer Angry IP Scanner

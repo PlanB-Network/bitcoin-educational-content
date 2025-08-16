@@ -1,18 +1,17 @@
 ---
-name: MICROSOFT WINDOWS 11
+name: WINDOWS 11
 description: Microsoft windows 11 installation
 ---
 ![cover](assets/en/cover.webp)
 
 ___
 
-*Ce tutoriel est basé sur le contenu original de Florian BURNEL publié sur [IT-Connect](https://www.it-connect.fr/). Licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Des modifications ont pu être apportées au texte original.*
+In this tutorial, we’ll walk you through the step-by-step process of installing Microsoft Windows 11 on a VirtualBox virtual machine (version 7.1.10).
 
 ___
 
 ## I. First : Download!
 
-In this tutorial, we’ll walk you through the step-by-step process of installing Microsoft Windows 11 on a VirtualBox virtual machine (version 7.1.10).
 The first thing you’ll need is an installation file. The safest and most reliable place to download it is directly from Microsoft’s official website.
 Simply visit the link provided below and follow the instructions to download the Windows 11 ISO file:
 

@@ -90,7 +90,7 @@ Otherwise, cancel the Windows installation!
 ![Image](assets/en/14.webp)
 
 In the next step, you need to select the hard disk for the installation.
-Since we are installing on a virtual machine, this step is not very critical. However, if you are installing on a physical machine, complete this step carefully, as mistakes here could lead to data loss on your hard drive.
+Since we are installing on a virtual machine, this step is not very **critical**. However, if you are installing on a physical machine, complete this step carefully, as mistakes here could **lead to data loss on your hard drive**.
 
 ![Image](assets/en/15.webp)
 
@@ -156,7 +156,8 @@ Once this step is complete, you will see the following screen:
 
 
 
-Congratulations!
-You have successfully installed Windows!
+## Congratulations!
+   
+**You have successfully installed Windows!**
 
 

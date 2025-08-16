@@ -1207,9 +1207,13 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 L'influenza di Bastiat iniziò a declinare verso la fine del XIX secolo, con l'ascesa del socialismo e in particolare del marxismo all'interno delle università e degli istituti di ricerca, finanziati con denaro pubblico.
 
 Con il XX secolo, la conoscenza e la popolarità di Bastiat scomparvero. Non veniva più menzionato nei libri di testo di economia. Non sarebbe stato fino alla fine della Seconda Guerra Mondiale che un rinnovato interesse per le idee di libertà, così evidentemente dimenticate con Roosevelt e i regimi totalitari in Europa, sarebbe emerso. Uno degli architetti di questa rinascita fu l'economista austriaco Ludwig von Mises, uno dei molti intellettuali europei che fuggirono dall'Europa attraverso la Spagna e il Portogallo per raggiungere l'America.
+
 Trasferitosi a New York nel 1943, Mises organizzò seminari che attirarono menti eccezionali: George Stigler, Milton Friedman, entrambi futuri vincitori del Premio Nobel, e Murray Rothbard, allora studente alla Columbia. Fu durante questi seminari che parlò per la prima volta di Bastiat come una delle principali referenze del liberalismo classico. Presentò ai suoi ascoltatori i pamphlet di Bastiat, "La Legge" e "Lo Stato", ancora non tradotti in inglese. Nel 1953, uno dei partecipanti al seminario, Leonard Read, avrebbe fatto tradurre "La Legge" di Bastiat in inglese e si sarebbe assunto il compito di distribuire il libro in tutto il paese attraverso la sua fondazione: la Foundation for Economic Education.
+
 ![immagine](assets/en/139.webp)
+
 Ma colui che avrebbe anche popolarizzato le tesi di Frédéric Bastiat fu un editorialista economico per il New York Times, Henry Hazlitt, in un piccolo libro intitolato: "Economia in una lezione", pubblicato nel 1946. Attingendo esplicitamente dalle idee di Bastiat, mira a dimostrare che il problema delle soluzioni economiche stataliste è il loro fallimento nel considerare le loro disastrose conseguenze a lungo termine.
+
 ![immagine](assets/en/140.webp)
 
 Hazlitt inizia il suo libro raccontando la storia della finestra rotta di Bastiat. Riassume la storia in una lezione semplice e singolare:
@@ -1221,12 +1225,18 @@ Hazlitt poi applica questa lezione a una vasta varietà di problemi economici: c
 Bastiat era uno degli economisti preferiti di Ronald Reagan, molto prima che fosse eletto presidente. È meno noto, ma per otto anni, Reagan lavorò per la compagnia General Electric come presentatore del suo show televisivo su CBS, e come responsabile della formazione del personale dell'azienda. Il suo programma di formazione era costruito attorno a testi introduttivi all'economia di mercato. Le opere scelte erano quelle di due austriaci, Hayek e Mises, due inglesi, Cobden e Bright, e un francese, Frédéric Bastiat.
 
 La lezione che Reagan insegnava ai suoi dipendenti, seguendo Bastiat, è che non c'è mito più grande di quello di stimolare la crescita e l'occupazione attraverso la spesa pubblica.
+
 ![immagine](assets/en/141.webp)
 
 Fu notoriamente John Maynard Keynes a suggerire che la spesa pubblica aumentasse la produzione a causa di un moltiplicatore: se il governo costruisce un ponte, i lavoratori di quel ponte saranno in grado di comprare il pane, poi il panettiere può comprare le scarpe, e così via. Se l'industria privata è in declino, può essere rimediata con grandi opere. Se c'è disoccupazione, lo Stato può creare lavori pubblici.
+
 Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti perversi che non si vedono. Solo un buon economista è capace di prevederli. Prendiamo un esempio: È un'illusione credere che il governo possa "creare posti di lavoro" perché per ogni lavoro pubblico creato, ne distrugge uno nel mercato. Infatti, i lavori pubblici sono pagati con le tasse. I lavori pubblici non sono creati; sono percepiti. Ogni centesimo speso dallo Stato deve necessariamente essere ottenuto attraverso un centesimo di tassa o debito.
+
 ![immagine](assets/en/142.webp)
+
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
+
+![image](assets/en/138.webp)
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 

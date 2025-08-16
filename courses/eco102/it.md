@@ -747,7 +747,9 @@ Disse questo rivolgendosi ai socialisti.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
-Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dalle inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
+Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dagli inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
+
+![image](assets/en/090.webp)
 
 Bastiat nota che ci sono due modi per porre fine a questo tipo di impostura: correggere Tartuffo o illuminare Orgon. Naturalmente, ci saranno sempre dei Tartuffi, ma il loro potere di nuocere sarebbe molto ridotto se ci fossero meno Orgon disposti ad ascoltarli.
 
@@ -755,9 +757,12 @@ La debolezza della ragione umana è alla radice dell'abuso di libertà. È la pr
 
 Tuttavia, ci sono due modi complementari per illuminare il giudizio dei cittadini, come Bastiat delinea in un capitolo della seconda serie di Sofismi Economici intitolato "Le Due Morali".
 
-- Primo, c'è una "moralità filosofica o religiosa" che agisce purificando e correggendo l'azione umana (l'uomo come agente)
-- Poi, c'è una "moralità economica", che agisce mostrando all'uomo "le conseguenze necessarie dei suoi atti" (l'uomo come paziente)
-  In realtà, queste sono due cornici morali perfettamente complementari.
+![image](assets/en/091.webp)
+
+- Primo, c'è una "moralità filosofica o religiosa" che agisce purificando e correggendo l'azione umana (l'uomo come agente);
+- Poi, c'è una "moralità economica", che agisce mostrando all'uomo "le conseguenze necessarie dei suoi atti" (l'uomo come paziente).
+  
+In realtà, queste sono due cornici morali perfettamente complementari.
 
 1. La prima si rivolge al cuore e incoraggia gli individui a fare il bene; è la moralità religiosa o filosofica. È la più nobile. Radica nel cuore dell'uomo la coscienza del suo dovere. Gli dice:
 
@@ -776,11 +781,14 @@ Questa moralità economica aspira allo stesso risultato della moralità religios
 Bastiat qui evidenzia il ruolo della scienza, e in particolare della scienza economica. Sebbene diverso da quello della moralità tradizionale, il suo ruolo è comunque necessario per combattere la spoliazione in tutte le sue forme. La moralità attacca il vizio nella sua intenzione, educa la volontà. D'altra parte, la scienza attacca il vizio comprendendone gli effetti, facilitando così il trionfo della virtù.
 
 Concretamente, la scienza economica, descritta da Bastiat come moralità difensiva, consiste nel confutare i sofismi economici al fine di screditarli completamente, e quindi privare la classe depredatrice della sua giustificazione e potere.
+
 L'Economia Politica, quindi, ha un'utilità pratica evidente. Rivela la spoliazione nei costi nascosti, gli ostacoli alla concorrenza e tutte le forme di protezionismo.
+
 Ancora una volta, ci sarebbero meno Tartuffi se ci fossero meno Orgon disposti ad ascoltarli. Ecco cosa ha da dire Bastiat su questo argomento:
 
 ![immagine](assets/en/094.webp)
-Lasciamo quindi che la morale religiosa tocchi il cuore dei Tartuffi se può. Il compito dell'economia politica è illuminare i loro ingannati. Di questi due approcci, quale funziona più efficacemente per il progresso sociale? Deve essere detto? Credo sia il secondo. Temo che l'umanità non possa sfuggire alla necessità di imparare prima una morale difensiva.
+
+> Lasciamo quindi che la morale religiosa tocchi il cuore dei Tartuffi se può. Il compito dell'economia politica è illuminare i loro ingannati. Di questi due approcci, quale funziona più efficacemente per il progresso sociale? Lo devo proprio dire? Credo sia il secondo. Temo che l'umanità non possa sfuggire alla necessità di imparare prima una morale difensiva.
 
 Naturalmente, l'economia politica non è la scienza universale; non esclude approcci filosofici e religiosi. "Ma chi ha mai avanzato una pretesa così esorbitante in suo nome?" si chiede Bastiat.
 

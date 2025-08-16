@@ -859,6 +859,8 @@ In una lettera ad Alphonse de Lamartine nel 1845, Bastiat scrisse che la sua int
 
 > La libertà è la migliore forma di organizzazione sociale.
 
+![image](assets/en/100.webp)
+
 Tuttavia, aggiunge una condizione
 
 > "Che la legge non debba eliminare le conseguenze, positive o negative, delle azioni di tutti. Questo è il principio corollario della responsabilità."
@@ -875,11 +877,11 @@ La responsabilità individuale è sia un importante vettore di creatività che u
 
 Quando si spendono i propri soldi, si fa attenzione a non indebitarsi troppo, a controllare la qualità dei prodotti, l'affidabilità dei fornitori, a rischio di essere pesantemente penalizzati. Tale è il potere della responsabilità, alleata con la libertà è il vero motore del progresso sociale.
 
-Ma da dove nasce il fenomeno dell'irresponsabilità o della desponsabilizzazione? Frédéric Bastiat ci dà una risposta a questa domanda, una risposta politica. Dice, cito:
+Ma da dove nasce il fenomeno dell'irresponsabilità o della deresponsabilizzazione? Frédéric Bastiat ci dà una risposta a questa domanda, una risposta politica. Dice, cito:
 
 > "L'intervento dello Stato toglie il governo di noi stessi."
 
-Infatti, lo statalismo riduce continuamente l'iniziativa privata e la libera scelta delle persone. Fa per loro ciò che potrebbero fare da sé e meglio. Sottrae così gli individui dalle conseguenze dei loro atti. Distrugge la responsabilità.
+Infatti, lo statalismo riduce continuamente l'iniziativa privata e la libera scelta delle persone. Fa per loro ciò che potrebbero fare da soli e meglio. Sottrae così gli individui dalle conseguenze dei loro atti. Distrugge la responsabilità.
 
 ![image](assets/en/102.webp)
 
@@ -890,6 +892,7 @@ Illustreremo questa questione con alcuni importanti argomenti attuali. Primo ese
 
 ![image](assets/en/103.webp)
 _(Alan Greenspan, Presidente della FED, la banca centrale americana, dal 1987 al 2006)_
+
 Per anni, i leader della politica monetaria hanno spiegato che se i profitti sono privatizzati quando tutto va bene, le perdite saranno mutualizzate in caso di fallimento (salvataggi, piani di soccorso, manipolazione dei tassi di interesse, stampa di denaro, ecc.). Facendo ciò, hanno creato un rischio morale, hanno facilitato la presa di rischi irragionevoli e hanno incoraggiato il mondo finanziario a comportarsi in modo irresponsabile. Hanno così precipitato la finanza nella crisi che abbiamo vissuto.
 
 ![immagine](assets/en/104.webp)
@@ -909,6 +912,7 @@ Infine, il servizio pubblico è causa di immobilità. Infatti, quando i servizi 
 Quando osserviamo il servizio pubblico dell'educazione nazionale, capiamo cosa intende Bastiat. Esso solleva la stragrande maggioranza dei genitori dal peso di educare i propri figli, riducendo la scuola a un asilo nido. Non incoraggia gli insegnanti a innovare e a prendere rischi perché in un tale sistema sono semplicemente esecutori di un programma progettato senza di loro, da burocrati. Infine, ignora la realtà dei bisogni particolari di ogni individuo.
 
 ![immagine](assets/en/107.webp)
+
 Vedremo in un altro corso, secondo Bastiat, i soli servizi pubblici legittimi di uno stato sono tre: l'esercito, la polizia e la magistratura. Ma per concludere sulla responsabilità, il problema con l'intervento dello stato è che coloro che prendono decisioni non sono quelli che subiscono le conseguenze.
 In altre parole, le scelte collettive non sono scelte responsabili poiché, da un lato, non comportano alcun rischio per i decisori e, dall'altro lato, costringono altri a subire determinate conseguenze, il che è tanto disastroso quanto immorale.
 
@@ -1040,7 +1044,7 @@ La legge può costringere un uomo ad essere giusto, ma non può costringerlo ad 
 
 Con proprietà, non dobbiamo intendere qui la terra. Significa "il diritto di un lavoratore sul valore che ha creato attraverso il suo lavoro." Bastiat specifica:
 
-> Considero che il diritto alla proprietà consista nella libertà di disporre prima di tutto della propria persona, poi del proprio lavoro, e infine, dei prodotti del proprio lavoro - il che dimostra, peraltro, che, da un certo punto di vista, libertà e diritto alla proprietà non possono essere distinti l'uno dall'altro.
+> Considero che il diritto alla proprietà consista nella libertà di disporre prima di tutto della propria persona, poi del proprio lavoro, e infine, dei prodotti del proprio lavoro - il che dimostra, peraltro, che, da un certo puntdupeso di vista, libertà e diritto alla proprietà non possono essere distinti l'uno dall'altro.
 
 Avendo stabilito questo punto, per comprendere il fondamento morale della proprietà, Bastiat parte da un semplice principio antropologico che fin dall'inizio, l'uomo deve lavorare per vivere e che il frutto del suo lavoro è un'estensione delle sue facoltà, cioè della sua persona.
 

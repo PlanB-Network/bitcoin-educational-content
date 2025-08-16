@@ -1,6 +1,6 @@
 ---
-name: MICOSOFT WINDOWS 11 INSTALLATION
-description: Une façon simple de scanner son réseau
+name: MICROSOFT WINDOWS 11
+description: Microsoft windows 11 installation
 ---
 ![cover](assets/cover.webp)
 

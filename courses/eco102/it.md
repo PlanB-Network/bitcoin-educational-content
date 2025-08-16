@@ -1101,12 +1101,18 @@ _(Cicerone)_
 
 Il concetto principale di Bastiat in "La Legge", il suo famoso opuscolo datato 1850, è mostrare perché e come la legge sia diventata saccheggio, ovvero una fonte di privilegi, rendite situazionali e arbitrarietà fiscale.
 
+![image](assets/en/125.webp)
+
 Qual è la vera natura della legge?
 
 Bastiat inizia ponendo le fondamenta antropologiche naturali della legge: vita, libertà e proprietà.
 
 Il sistema istituzionale della libertà naturale è quello per cui la società, gli individui e le proprietà esistono prima delle leggi. In questo sistema, Bastiat aggiunge:
-Non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. > Proprietà e Legge
+
+> Non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi.
+> Proprietà e Legge
+
+![image](assets/en/126.webp)
 
 Ogni uomo ha il diritto di difendere la propria vita e di utilizzare le proprie capacità. E la legge è l'organizzazione collettiva di questa difesa legittima. La legge difende la giustizia. Non una giustizia positiva che organizzerebbe la fratellanza e la solidarietà, ma una giustizia negativa che si limita a prevenire che i diritti di una persona usurpino quelli di un'altra.
 
@@ -1114,23 +1120,35 @@ Tuttavia, quando la legge smette di essere negativa e diventa positiva, il senso
 
 La falsa filantropia, dice Bastiat, è una delle principali cause della perversione della legge. Alcuni uomini si considerano superiori al resto dell'umanità e capaci di fare scelte migliori degli altri.
 
+![image](assets/en/127.webp)
+
 Sanno meglio cosa è bene per gli altri e imporranno la loro concezione del bene a tutti; questi sono i filantropi. Hanno creato falsi diritti che oggi vengono chiamati diritti sociali. I diritti sociali non sono altro che diritti sul lavoro altrui, diritti di disporre della proprietà altrui, del frutto del proprio lavoro: il diritto all'abitazione, il diritto alla salute, all'istruzione, al lavoro, al salario minimo, ecc.
 
-Cos'è il saccheggio? È l'esatto opposto della proprietà, ci dice Bastiat. Saccheggiare deriva dal latino spoliare, che significa spogliare. Abbiamo visto che l'uomo può vivere solo appropriandosi delle cose, applicando le sue capacità alle cose, cioè lavorando. Ahimè, può anche appropriarsi del prodotto delle capacità del suo simile, cioè saccheggiarlo.
+Cos'è il saccheggio? È l'esatto opposto della proprietà, ci dice Bastiat. Saccheggiare deriva dal latino _spoliare_, che significa spogliare. Abbiamo visto che l'uomo può vivere solo appropriandosi delle cose, applicando le sue capacità alle cose, cioè lavorando. Ahimè, può anche appropriarsi del prodotto delle capacità del suo simile, cioè saccheggiarlo.
+
+![image](assets/en/128.webp)
 
 L'intera missione della legge è prevenire questo saccheggio extra-legale, ovvero difendere la proprietà e la libertà, due cose inseparabili.
 
 Non appena si ammette in principio che la legge può essere deviata dalla sua vera missione, che può violare le proprietà invece di garantirle, ne consegue necessariamente una lotta di classe, sia per difendersi dal saccheggio sia per organizzarlo anche a proprio vantaggio.
 
+![image](assets/en/129.webp)
+
 Invece di difendere i diritti naturali, la legge si trasforma nella protezione degli interessi corporativi e categorici. Il saccheggio è organizzato dalla legge, a beneficio delle classi che la fanno e dei loro amici o clienti. Bastiat anticipa così la scuola della scelta pubblica nel XX secolo per cui la legge è il risultato di un "mercato politico" mediante il quale gruppi di individui cercano di soddisfare i propri interessi a spese degli altri.
+
+![image](assets/en/130.webp)
 
 Per lui, lo scopo della Legge deve semplicemente essere quello di "mettere fine a tutti i saccheggi". Se lo Stato non interviene nella vita privata, gli individui sono effettivamente proprietari e responsabili delle loro vite. Fanno la propria felicità. Sopportano le conseguenze buone o cattive delle loro azioni.
 
 Sono certi che i loro diritti naturali siano garantiti e intoccabili. Diritti di proprietà sicuri danno alle persone la capacità di fare piani a lungo termine perché sanno che i loro beni sono al sicuro dal saccheggio.
 
-> Assenza di Saccheggio, — è il principio di giustizia, pace, ordine, stabilità, conciliazione, buon senso che proclamerò con tutta la forza, ahimè! insufficiente, dei miei polmoni, fino al mio ultimo respiro
+> Assenza di Saccheggio, — è il principio di giustizia, pace, ordine, stabilità, conciliazione, buon senso che proclamerò con tutta la forza, ahimè! insufficiente, dei miei polmoni, fino al mio ultimo respiro.
 
-Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la morte di Frédéric Bastiat, il saccheggio legale è chiaramente evidente nella Dichiarazione Universale dei Diritti Umani del 1948, in particolare nei suoi articoli 22 ("ognuno ha diritto alla sicurezza sociale"), 23 ("ognuno ha diritto al lavoro"), 24 ("ognuno ha diritto al riposo ed allo svago"), 25 ("ognuno ha diritto ad un tenore di vita adeguato per la salute e il benessere"), 26 ("ognuno ha diritto all'istruzione").
+Bastiat scrisse ne "La Legge", poco tempo prima di morire.
+
+![image](assets/en/131.webp)
+
+Un secolo dopo la morte di Frédéric Bastiat, il saccheggio legale è chiaramente evidente nella Dichiarazione Universale dei Diritti Umani del 1948, in particolare nei suoi articoli 22 ("ognuno ha diritto alla sicurezza sociale"), 23 ("ognuno ha diritto al lavoro"), 24 ("ognuno ha diritto al riposo ed allo svago"), 25 ("ognuno ha diritto ad un tenore di vita adeguato per la salute e il benessere"), 26 ("ognuno ha diritto all'istruzione").
 
 ## Il Ruolo della Legge e dello Stato
 

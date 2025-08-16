@@ -2074,7 +2074,7 @@ Modifikasi ini tidak terlihat kasat mata: file yang diunduh mungkin terbuka dan 
 
 Sebuah file mungkin utuh (tidak dimodifikasi), tetapi diterbitkan oleh entitas berbahaya yang menyalahgunakan identitas pengembang yang sah. Oleh karena itu, keaslian bertujuan untuk memastikan bahwa file tersebut benar-benar berasal dari sumber resmi, dan bukan dari penipu, situs mirror yang tidak terverifikasi, atau peretas yang telah menyusupi server distribusi.
 
-Verifikasi asal ini dimungkinkan oleh tanda tangan digital, sebuah mekanisme kriptografi yang menghubungkan file tersebut dengan kunci privat pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan kunci publik pengembang (yang didistribusikan melalui saluran aman), Anda dapat yakin bahwa file tersebut benar-benar berasal dari pihak tersebut.
+Verifikasi asal ini dimungkinkan oleh tanda tangan digital, sebuah mekanisme kriptografi yang menghubungkan file tersebut dengan privat key pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan public key pengembang (yang didistribusikan melalui saluran aman), Anda dapat yakin bahwa file tersebut benar-benar berasal dari pihak tersebut.
 
 Dengan memeriksa keaslian (yaitu, file instalasi berasal dari sumber yang tepat) dan integritas (yaitu, file tersebut belum dimodifikasi sejak diterbitkan oleh pengembang yang sah), Anda dapat yakin bahwa Anda memasang perangkat lunak yang benar.
 
@@ -2084,9 +2084,9 @@ Untuk melakukan ini, kita akan menggunakan dua program kriptografi. Yang pertama
 
 Pengembang yang sah biasanya menerbitkan Hash dari file asli di situs web resminya. Dari pihak Anda, Anda akan menghitung Hash dari file instalasi yang Anda unduh secara lokal, untuk membandingkan keduanya. Jika kedua sidik jari tersebut cocok, Anda dapat yakin bahwa file yang diunduh asli dan belum diubah.
 
-Program kedua adalah tanda tangan digital. Program ini memverifikasi keaslian perangkat lunak instalasi. Pengembang menandatangani file yang berisi Hash dengan kunci privatnya, dan Anda dapat memverifikasi tanda tangan ini menggunakan kunci publik yang sesuai. Ini membuktikan bahwa file tersebut telah diterbitkan oleh pihak yang tepat.
+Program kedua adalah tanda tangan digital. Program ini memverifikasi keaslian perangkat lunak instalasi. Pengembang menandatangani file yang berisi Hash dengan private key, dan Anda dapat memverifikasi tanda tangan ini menggunakan public key yang sesuai. Ini membuktikan bahwa file tersebut telah diterbitkan oleh pihak yang tepat.
 
-Sistem ini bergantung pada kriptografi asimetris dan program seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Program-program ini harus dikonfigurasi dengan benar, dan kunci publik pengembang harus diverifikasi melalui saluran aman (situs web resmi, fingerprint di Twitter, dll.). Mari kita lihat sisi praktisnya.
+Sistem ini bergantung pada kriptografi asimetris dan program seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Program-program ini harus dikonfigurasi dengan benar, dan public key pengembang harus diverifikasi melalui saluran aman (situs web resmi, fingerprint di Twitter, dll.). Mari kita lihat sisi praktisnya.
 
 Untuk mempelajari lebih lanjut tentang fungsi hash kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Network.
 
@@ -2150,225 +2150,123 @@ Unduh juga tanda tangan PGP dari file tersebut. Ini adalah dokumen `.asc`.
 
 Pastikan untuk menempatkan semua file ini dalam direktori yang sama untuk memudahkan langkah-langkah berikut.
 
+Terakhir, Anda akan membutuhkan public key pengembang untuk memverifikasi tanda tangan PGP. Kunci ini umumnya tersedia di situs web resmi perangkat lunak, pada repositori GitHub proyek, terkadang di media sosial pengembang, atau pada platform khusus seperti Keybase.
 
-
-Terakhir, Anda akan membutuhkan kunci publik pengembang untuk memverifikasi tanda tangan PGP. Kunci ini umumnya tersedia di situs web resmi perangkat lunak, di repositori GitHub proyek, terkadang di jejaring sosial pengembang, atau di platform khusus seperti Keybase.
-
-
-
-Pada kasus *Sparrow wallet*, Anda dapat menemukan kunci publik pengembang [Craig Raw di Keybase](https://keybase.io/craigraw). Untuk mengunduhnya secara langsung dari terminal, jalankan perintah berikut:
-
-
+Dalam kasus *Sparrow wallet*, Anda dapat menemukan public key pengembang [Craig Raw di Keybase](https://keybase.io/craigraw). Untuk mengunduhnya langsung dari terminal, jalankan perintah berikut:
 
 ```bash
 curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 ```
 
-
-
 ![Image](assets/fr/225.webp)
-
-
 
 ![Image](assets/fr/233.webp)
 
-
-
-Untuk memastikan bahwa Anda menggunakan kunci publik asli milik pengembang, dan bukan kunci publik yang dirampas oleh penyerang, saya sarankan Anda untuk melakukan pengecekan silang pada sumber-sumber yang ada: periksa apakah sidik jari kunci tersebut sesuai dengan Keybase, situs web resmi proyek, dan jejaring sosial atau saluran komunikasi milik pengembang.
-
-
+Untuk memastikan Anda menggunakan public key pengembang yang asli, dan bukan yang disalahgunakan oleh penyerang, saya merekomendasikan Anda untuk melakukan pemeriksaan ulang pada sumbernya. Periksa apakah kunci fingerprint tersebut cocok di Keybase, di situs web resmi proyek, dan di media sosial atau saluran komunikasi pengembang mana pun.
 
 #### Verifikasi tanda tangan
 
-
-
-Proses verifikasi tanda tangan sama pada Windows, macOS dan Linux. Anda seharusnya sudah mengimpor kunci publik pada langkah sebelumnya, tetapi jika belum, Anda dapat mengimpornya menggunakan perintah berikut:
-
-
+Proses verifikasi tanda tangan sama pada Windows, macOS, dan Linux. Anda seharusnya sudah mengimpor public key pada langkah sebelumnya, tetapi jika Anda belum melakukannya, Anda dapat mengimpornya menggunakan perintah berikut:
 
 ```bash
 gpg --import [key_path]
 ```
 
-
-
-Ganti `[key_path]` dengan lokasi berkas kunci publik pengembang.
-
-
+Ganti `[key_path]` dengan lokasi file public key pengembang.
 
 ![Image](assets/fr/226.webp)
 
-
-
 Periksa tanda tangan dengan perintah berikut:
-
-
 
 ```bash
 gpg --verify [file.asc]
 ```
 
-
-
 Ganti `[file.asc]` dengan jalur file tanda tangan. Dalam kasus Sparrow, file ini disebut "_sparrow-2.0.0-manifest.txt.asc_" untuk versi 2.0.0.
-
-
 
 ![Image](assets/fr/227.webp)
 
-
-
 ![Image](assets/fr/234.webp)
-
-
 
 Jika tanda tangan tersebut valid, GPG akan secara eksplisit mengonfirmasinya. Anda kemudian dapat melanjutkan ke langkah berikutnya, karena verifikasi ini membuktikan keaslian file.
 
-
-
 ![Image](assets/fr/228.webp)
-
-
 
 ![Image](assets/fr/235.webp)
 
-
-
 #### Memeriksa Hash
 
-
-
-Setelah keaslian berkas yang berisi hash telah dikonfirmasi, sekarang saatnya memeriksa integritas berkas pemasang, berdasarkan berkas yang telah diautentikasi ini. Tujuannya adalah untuk membandingkan Hash dari pemasang Anda dengan yang tertera pada file `.asc`. Jika keduanya cocok, ini menjamin bahwa kode perangkat lunak belum diubah dengan cara apa pun.
-
-
+Setelah keaslian file yang berisi hash telah dikonfirmasi, saatnya untuk memeriksa integritas file installer, berdasarkan file yang telah diautentikasi ini. Tujuannya adalah untuk membandingkan hash file installer Anda dengan hash yang tertera pada file `.asc`. Jika keduanya cocok, ini menjamin bahwa kode perangkat lunak belum diubah sama sekali.
 
 Pada Windows, buka terminal dan jalankan perintah berikut ini:
-
-
 
 ```bash
 CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
 ```
 
-
-
-Ganti `[file_path]` dengan lokasi pemasang.
-
-
+Ganti `[file_path]` dengan lokasi installer.
 
 ![Image](assets/fr/229.webp)
 
-
-
 Terminal mengembalikan Hash dengan perangkat lunak yang telah diunduh.
-
-
 
 ![Image](assets/fr/230.webp)
 
-
-
 Kemudian bandingkan hasilnya dengan nilai yang sesuai di file "_sparrow-2.0.0-manifest.txt_".
-
-
 
 ![Image](assets/fr/231.webp)
 
-
-
-Dalam kasus saya, kedua penetasan ini sangat cocok.
-
-
+Dalam kasus saya, kedua nilai hash ini sangat cocok.
 
 Pada macOS dan Linux, proses verifikasi Hash dilakukan secara otomatis, jadi tidak perlu membandingkan kedua sidik jari secara manual, seperti yang terjadi pada Windows.
 
-
-
 Cukup jalankan perintah ini di bawah macOS:
-
-
 
 ```bash
 shasum --check [file_name] --ignore-missing
 ```
 
-
-
 Ganti `[nama_file]` dengan nama file yang diautentikasi yang berisi hash. Misalnya, untuk Sparrow wallet versi 2.0.0:
-
-
 
 ```bash
 shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
 ```
 
-
-
 Jika hashnya cocok, maka outputnya akan sesuai:
-
-
 
 ```bash
 Sparrow-2.0.0.dmg: OK
 ```
 
-
-
 Pada Linux, perintahnya serupa:
-
-
 
 ```bash
 sha256sum --check [file_name] --ignore-missing
 ```
 
-
-
 Dan jika hash-nya cocok, Anda akan mendapatkannya:
-
-
 
 ```bash
 sparrow_2.0.0-1_amd64.deb: OK
 ```
 
-
-
 ![Image](assets/fr/236.webp)
 
-
-
-Sekarang Anda bisa yakin bahwa perangkat lunak yang telah Anda unduh adalah asli dan jujur. Sekarang Anda dapat menginstalnya di komputer Anda.
-
-
+Sekarang Anda bisa yakin bahwa perangkat lunak yang telah Anda unduh adalah asli dan benar. Sekarang Anda dapat menginstalnya di komputer Anda.
 
 ![Image](assets/fr/237.webp)
 
+Memverifikasi integritas dan keaslian adalah metode yang cukup mudah, namun ini memberikan perlindungan yang nyata dan efektif terhadap sebagian besar ancaman yang terkait dengan pengunduhan dan instalasi perangkat lunak.
 
-
-Memverifikasi integritas dan keaslian adalah praktik yang cukup mudah, tetapi memberikan perlindungan yang konkret dan efektif terhadap sebagian besar ancaman yang terkait dengan pengunduhan dan penginstalan perangkat lunak.
-
-
-
-Di bab berikutnya, kita akan melihat lebih dekat pada manajemen data. Kita akan melihat bagaimana Anda dapat melindungi diri Anda dari dua risiko utama: kehilangan data dan pencurian data.
-
-
-
+Pada bab berikutnya, kita akan melihat lebih dekat manajemen data. Kita akan membahas bagaimana Anda dapat melindungi diri dari dua risiko utama: kehilangan data dan pencurian data.
 
 ## Enkripsi dan perlindungan data
 
-
 <chapterId>bcba9b26-72d2-446b-b23c-89927a2e857c</chapterId>
 
+Melindungi data pribadi Anda adalah bagian penting dalam memastikan kedaulatan digital, privasi, dan keamanan Anda. Risiko terhadap data Anda bermacam-macam: peretasan, kehilangan perangkat keras, atau bahkan penyitaan fisik. Dengan menerapkan strategi pencadangan dan enkripsi yang efektif, Anda dapat menghindari sebagian besar potensi ancaman ini.
 
-
-Melindungi data pribadi Anda adalah bagian penting untuk memastikan kedaulatan, privasi, dan keamanan digital Anda. Risiko terhadap data Anda bermacam-macam: peretasan, kehilangan perangkat keras, atau bahkan penyitaan fisik. Dengan menerapkan strategi pencadangan dan enkripsi yang efektif, Anda bisa menghindari sebagian besar potensi ancaman ini.
-
-
-
-Dalam bab ini, kita akan melihat secara detail cara mencadangkan dan mengenkripsi data Anda, serta membersihkan informasi sensitif pada dokumen Anda.
-
-
+Dalam bab ini, kita akan melihat secara rinci cara mencadangkan dan mengenkripsi data Anda, serta membersihkan informasi sensitif pada dokumen Anda.
 
 ### Mencadangkan data Anda
 

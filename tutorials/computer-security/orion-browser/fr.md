@@ -43,15 +43,15 @@ Sa particularité unique ? Orion est le **seul navigateur WebKit** permettant d'
 ![Page d'accueil Kagi avec Orion Browser](assets/fr/02.webp)
 *Page d'accueil de Kagi présentant Orion Browser comme "un navigateur sans publicité, avec une protection totale de la vie privée et un support d'extensions universel"*
 
-1. Rendez-vous sur [kagi.com/orion](https://kagi.com/orion/)
-2. Cliquez sur "**Download Orion for macOS**"
+- Rendez-vous sur [kagi.com/orion](https://kagi.com/orion/)
+- Cliquez sur "**Download Orion for macOS**"
 
 ![Page de téléchargement d'Orion Browser](assets/fr/03.webp)
 *Page de téléchargement d'Orion Browser montrant la disponibilité pour macOS et iOS, avec les liens vers l'App Store*
 
-3. Ouvrez le fichier `.dmg` téléchargé
-4. Glissez l'application Orion dans le dossier Applications
-5. Au premier lancement, macOS vous demandera de confirmer l'ouverture
+- Ouvrez le fichier `.dmg` téléchargé
+- Glissez l'application Orion dans le dossier Applications
+- Au premier lancement, macOS vous demandera de confirmer l'ouverture
 
 **Alternative Homebrew** :
 ```bash
@@ -60,9 +60,9 @@ brew install --cask orion
 
 ### Sur iPhone/iPad
 
-1. Ouvrez l'**App Store**
-2. Recherchez "**Orion Browser by Kagi**"
-3. Installez l'application gratuite (compatible iOS 15+)
+- Ouvrez l'**App Store**
+- Recherchez "**Orion Browser by Kagi**"
+- Installez l'application gratuite (compatible iOS 15+)
 
 ### Configuration initiale
 
@@ -179,9 +179,9 @@ Orion supporte nativement les extensions Chrome et Firefox. Installez-les direct
 - **NoScript** : Contrôle total sur l'exécution JavaScript (utilisateurs avancés)
 
 Pour installer une extension :
-1. Visitez [chrome.google.com/webstore](https://chrome.google.com/webstore) ou [addons.mozilla.org](https://addons.mozilla.org)
-2. Cliquez sur "Ajouter à Chrome/Firefox"
-3. Orion interceptera et installera l'extension automatiquement
+- Visitez [chrome.google.com/webstore](https://chrome.google.com/webstore) ou [addons.mozilla.org](https://addons.mozilla.org)
+- Cliquez sur "Ajouter à Chrome/Firefox"
+- Orion interceptera et installera l'extension automatiquement
 
 **Attention** : Le support d'extensions étant expérimental, de nombreuses extensions peuvent ne pas fonctionner correctement ou affecter les performances. En cas de problème (site qui ne fonctionne plus, lenteurs), désactivez les extensions une par une pour identifier la source.
 

@@ -5,24 +5,24 @@ description: Bagaimana cara mulai menggunakan node LN yang kuat di ponsel Anda?
 ![cover](cover.webp)
 
 
-Panduan ini didedikasikan untuk semua pengguna baru yang ingin mulai menggunakan Bitcoin Lightning Network (LN) dengan sumber terbuka GRATIS, dengan cara NON-KUSTODIAL.
+Panduan ini didedikasikan untuk semua pengguna baru yang ingin mulai menggunakan Bitcoin Lightning Network (LN) dengan sumber terbuka gratis, dengan cara non-kustodial.
 
 
-Menggunakan [Blixt Wallet] (https://blixtwallet.com/), sebuah node LN penuh di ponsel Anda, di mana pun Anda berada.
+Menggunakan [Blixt Wallet] (https://blixtwallet.com/), sebuah node LN penuh di ponselmu, di mana pun kamu berada.
 
 
-Jika Anda belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [silakan baca analogi penjelasan sederhana tentang Lightning Network (LN)] (https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Jika kamu belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [silakan baca analogi penjelasan sederhana tentang Lightning Network (LN)] (https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
 
 
 ## ASPEK-ASPEK PENTING:
 
 
 
-- Blixt adalah sebuah simpul privat, BUKAN simpul perutean! Ingatlah itu: Itu berarti, semua saluran LN di Blixt akan diumumkan ke grafik LN (disebut saluran pribadi). Itu berarti, NODE INI TIDAK AKAN MELAKUKAN ROUTING pembayaran orang lain melalui node Blixt. Node Blixt ini BUKAN untuk perutean, saya ulangi. Ini terutama untuk dapat mengelola saluran LN Anda sendiri dan melakukan pembayaran LN Anda secara pribadi, kapan pun Anda butuhkan. Node Blixt ini harus online dan disinkronkan HANYA SEBELUM Anda akan melakukan transaksi. Itulah mengapa Anda akan melihat ikon di atas yang menunjukkan status sinkronisasi. Ini hanya membutuhkan beberapa saat, tergantung berapa lama Anda menyimpannya secara offline.
+- Blixt adalah node privat, BUKAN node perutean (routing node)! Ingat baik-baik: itu berarti semua saluran LN di Blixt tidak akan diumumkan ke grafik LN (disebut saluran pribadi/private channel). Artinya, NODE INI TIDAK AKAN MENERUSKAN pembayaran orang lain melalui node Blixt. Node Blixt ini BUKAN untuk routing, aku ulangi. Ini terutama dibuat supaya kamu bisa mengelola saluran LN kamu sendiri dan melakukan pembayaran LN kamu secara pribadi, kapan pun kamu butuh. Node Blixt ini harus online dan tersinkronisasi HANYA SEBELUM kamu melakukan transaksi. Itu sebabnya kamu akan melihat ikon di atas yang menunjukkan status sinkronisasi. Proses ini cuma butuh beberapa saat, tergantung berapa lama node kamu offline.
 
 
 
-- Blixt menggunakan LND (aezeed) sebagai backend Wallet, jadi jangan coba-coba mengimpor jenis dompet Bitcoin lainnya ke dalamnya. [Di sini Anda telah menjelaskan jenis-jenis Wallet Mnemonic] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Dan berikut ini adalah [daftar yang lebih lengkap dari semua jenis wallet] (https://walletsrecovery.org/). Jadi, jika sebelumnya Anda memiliki node LND, Anda dapat mengimpor seed dan backup.channels ke dalam Blixt, [seperti yang dijelaskan dalam panduan ini](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt menggunakan LND (aezeed) sebagai backend Wallet, jadi jangan coba-coba mengimpor jenis dompet Bitcoin lainnya ke dalamnya. [Di sini Anda telah menjelaskan jenis-jenis Wallet Mnemonic] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Dan berikut ini adalah [daftar yang lebih lengkap dari semua jenis wallet] (https://walletsrecovery.org/). Jadi, jika sebelumnya kamu memiliki node LND, kamu bisa mengimpor seed dan backup.channels ke dalam Blixt, [seperti yang dijelaskan dalam panduan ini](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
 
 
 
@@ -38,7 +38,7 @@ Jika Anda belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [
 ## Blixt - Kontak Pertama
 
 
-Jadi... Ibu Darth memutuskan untuk mulai menggunakan LN dengan Blixt. Keputusan Hard, tapi bijaksana. Blixt hanya untuk orang-orang pintar dan mereka yang benar-benar ingin belajar lebih banyak, penggunaan LN yang mendalam.
+Jadi... Ibu Darth memutuskan untuk mulai menggunakan LN dengan Blixt. Keputusan sulit, tapi bijaksana. Blixt hanya untuk orang-orang pintar dan mereka yang benar-benar ingin belajar lebih banyak tentang penggunaan LN yang mendalam.
 
 
 ![blixt](assets/en/01.webp)
@@ -50,61 +50,61 @@ Darth memperingatkan ibunya:
 "*Ibu, jika Anda mulai menggunakan Blixt LN Node, Anda harus terlebih dahulu mengetahui apa itu Lightning Network dan bagaimana cara kerjanya, setidaknya pada tingkat dasar. [Di sini saya mengumpulkan daftar sumber daya sederhana tentang Lightning Network] (https://blixtwallet.github.io/faq#what-is-LN). Silakan baca terlebih dahulu.*"
 
 
-Ibu Darth membaca sumber-sumber yang ada dan melakukan langkah pertama: memasang Blixt pada perangkat Android barunya. Blixt juga tersedia untuk iOS dan macOS (desktop). Tetapi itu bukan untuk Darth's Mom... Meskipun demikian, disarankan untuk menggunakan versi Android yang lebih baru, setidaknya 9 atau 10 untuk kompatibilitas dan pengalaman yang lebih baik. Menjalankan node LN secara penuh pada perangkat seluler bukanlah tugas yang mudah dan dapat menghabiskan banyak ruang (min 600MB) dan memori.
+Ibu Darth membaca panduan yang ada dan melakukan langkah pertama: memasang Blixt di perangkat Android barunya. Blixt juga tersedia untuk iOS dan macOS (desktop), tapi itu bukan untuk Ibu Darth. Meski begitu, disarankan pakai versi Android yang lebih baru, minimal 9 atau 10, supaya lebih kompatibel dan pengalaman pakainya lebih lancar. Menjalankan node LN penuh di perangkat seluler bukanlah hal yang ringan, karena bisa memakan banyak ruang (minimal 600 MB) dan memori.
 
 
-Setelah Anda membuka Blixt, layar "Selamat Datang" akan memberi Anda beberapa opsi:
+Setelah kamu membuka Blixt, layar "Selamat Datang" akan memberi kamu beberapa opsi:
 
 
 ![blixt](assets/en/02.webp)
 
 
-Di sudut kanan atas, Anda akan melihat 3 titik yang mengaktifkan menu:
+Di sudut kanan atas, kamu akan melihat 3 titik yang mengaktifkan menu:
 
 
 
 - "aktifkan Tor" - pengguna dapat memulai dengan jaringan Tor, secara khusus jika ingin memulihkan node LND lama yang berjalan dengan rekan-rekan Tor saja.
-- "Set Bitcoin node" - jika pengguna ingin terhubung ke node-nya sendiri secara langsung, untuk menyinkronkan blok melalui Neutrino, dapat melakukannya langsung dari layar selamat datang. Opsi ini juga bagus jika koneksi internet atau Tor Anda tidak begitu stabil untuk terhubung ke node Bitcoin default (node.blixtwallet.com).
-- Dalam waktu dekat akan ditambahkan bahasa di sana, sehingga pengguna dapat langsung memulai dengan bahasa yang nyaman. Jika Anda ingin berkontribusi pada proyek open source ini dengan menerjemahkan ke bahasa lain, [silakan bergabung di sini] (https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- "Set Bitcoin node" - jika pengguna ingin terhubung ke node-nya sendiri secara langsung, untuk menyinkronkan blok melalui Neutrino, dapat melakukannya langsung dari layar selamat datang. Opsi ini juga bagus jika koneksi internet atau Tor kamu tidak begitu stabil untuk terhubung ke node Bitcoin default (node.blixtwallet.com).
+- Dalam waktu dekat akan ditambahkan bahasa di sana, sehingga pengguna dapat langsung memulai dengan bahasa yang nyaman. Jika kamu ingin berkontribusi pada proyek open source ini dengan menerjemahkan ke bahasa lain, [silakan bergabung di sini] (https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
 
 ### OPSI A - Buat Wallet baru
 
 
-Jika Anda memilih untuk "membuat Wallet baru", Anda akan langsung diarahkan ke layar utama Blixt Wallet.
+Jika kamu memilih untuk "membuat Wallet baru", kamu akan langsung diarahkan ke layar utama Blixt Wallet.
 
 
-Ini adalah "kokpit" Anda dan juga merupakan "LN Wallet Utama", jadi harap diperhatikan, ini hanya akan menunjukkan kepada Anda saldo LN Wallet Anda. Wallet onchain ditampilkan secara terpisah (lihat C).
+Ini adalah "kokpit" milikmu dan juga merupakan "LN Wallet Utama", jadi harap diperhatikan, ini hanya akan menunjukkan kepada kamu saldo LN Wallet kamu. Wallet onchain ditampilkan secara terpisah (lihat C).
 
 
 ![blixt](assets/en/03.webp)
 
 
-A - Ikon indikator sinkronisasi blok Blixt. Ini adalah hal yang paling penting untuk node LN: untuk disinkronkan dengan jaringan. Jika ikon tersebut masih berfungsi, berarti node Anda BELUM SIAP! Jadi bersabarlah, khususnya untuk sinkronisasi awal pertama. Ini bisa memakan waktu hingga 6-8 menit, tergantung pada perangkat dan koneksi internet Anda.
+A - Ikon indikator sinkronisasi blok Blixt. Ini adalah hal yang paling penting untuk node LN: untuk disinkronkan dengan jaringan. Jika ikon tersebut masih berfungsi, berarti node milikmu BELUM SIAP! Jadi bersabarlah, khususnya untuk sinkronisasi awal pertama. Ini bisa memakan waktu hingga 6-8 menit, tergantung pada perangkat dan koneksi internetmu.
 
 
-Anda bisa mengekliknya dan melihat status sinkronisasi:
+Kamu bisa mengkliknya dan melihat status sinkronisasi:
 
 
 ![blixt](assets/en/04.webp)
 
 
-Anda juga dapat mengklik tombol "Tampilkan Log LND" (A) jika Anda ingin melihat dan membaca lebih banyak detail teknis dari log LND, secara real time. Sangat berguna untuk melakukan debug dan mempelajari lebih lanjut cara kerja LN.
+Kamu juga dapat mengklik tombol "Tampilkan Log LND" (A) jika kamu ingin melihat dan membaca lebih banyak detail teknis dari log LND, secara real time. Sangat berguna untuk melakukan debug dan mempelajari lebih lanjut cara kerja LN.
 
 
-B - Di sini Anda dapat mengakses semua Pengaturan Blixt, dan banyak sekali! Blixt menawarkan banyak fitur dan opsi yang kaya untuk mengelola node LN Anda seperti seorang profesional. Semua opsi tersebut dijelaskan secara rinci di "[Halaman Fitur Blixt](https://blixtwallet.github.io/features#blixt-options) - Menu Opsi".
+B - Di sini kamu dapat mengakses semua Pengaturan Blixt, dan banyak sekali! Blixt menawarkan banyak fitur dan opsi yang kaya untuk mengelola node LN-mu seperti seorang profesional. Semua opsi tersebut dijelaskan secara rinci di "[Halaman Fitur Blixt](https://blixtwallet.github.io/features#blixt-options) - Menu Opsi".
 
 
-C - Di sini Anda memiliki menu "Laci Ajaib", [juga dijelaskan secara rinci di sini] (https://blixtwallet.github.io/features#blixt-drawer). Di sini terdapat "Onchain Wallet" (B), Saluran Petir (C), Kontak, ikon status Saluran (A), Keysend (D).
+C - Di sini kamu memiliki menu "Laci Ajaib", [juga dijelaskan secara rinci di sini] (https://blixtwallet.github.io/features#blixt-drawer). Di sini terdapat "Onchain Wallet" (B), Saluran Petir (C), Kontak, ikon status Saluran (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
 
 
-D - Adalah menu bantuan, dengan tautan ke halaman FAQ/Panduan, kontak pengembang, halaman Github, dan grup dukungan Telegram.
+D - Itu adalah menu bantuan, dengan tautan ke halaman FAQ/Panduan, kontak pengembang, halaman Github, dan grup dukungan Telegram.
 
 
-E - Tunjukkan BTC Address pertama Anda, tempat Anda dapat menyetor Sats pengujian pertama Anda. INI OPSIONAL! Jika Anda menyetor langsung ke Address tersebut, berarti Anda membuka saluran LN menuju Blixt Node. Itu berarti Anda akan melihat Sats yang Anda setorkan, masuk ke transaksi onchain (tx) lain, untuk membuka saluran LN tersebut. Anda dapat memeriksanya di Blixt onchain Wallet (lihat poin C), dengan mengklik menu TX di kanan atas.
+E - Tunjukkan BTC Address pertamamu, tempat kamu dapat menyetor Sats pengujian pertamamu. INI OPSIONAL! Jika kamu menyetor langsung ke Address tersebut, berarti kamu membuka saluran LN menuju Blixt Node. Itu artinya, kamu akan melihat Sats yang kamu setorkan, masuk ke transaksi onchain (tx) lain, untuk membuka saluran LN tersebut. Kamu dapat memeriksanya di Blixt onchain Wallet (lihat poin C), dengan mengklik menu TX di kanan atas.
 
 
 ![blixt](assets/en/06.webp)
@@ -116,19 +116,19 @@ Seperti yang dapat Anda lihat di Log Transaksi Onchain, langkah-langkahnya sanga
 REKOMENDASI:
 
 
-Setelah menguji beberapa situasi, kami sampai pada kesimpulan bahwa jauh lebih efisien untuk membuka saluran antara 1 dan 5 M Sats. Saluran yang lebih kecil cenderung cepat habis dan membayar biaya yang lebih tinggi dibandingkan dengan saluran yang lebih besar.
+Setelah mencoba beberapa skenario, kami menyimpulkan bahwa akan jauh lebih efisien jika membuka saluran antara 1 sampai 5 juta sats. Saluran yang lebih kecil biasanya cepat habis dan malah kena biaya lebih tinggi dibanding saluran yang lebih besar.
 
 
-F - Menunjukkan saldo Lightning Wallet utama Anda. Ini BUKAN total saldo Blixt Wallet Anda, ini hanya mewakili Sats yang Anda miliki di Lightning Channels, yang tersedia untuk dikirim. Seperti yang ditunjukkan sebelumnya, Onchain Wallet terpisah. Ingatlah aspek ini. Onchain Wallet terpisah karena alasan penting: digunakan terutama untuk membuka/menutup saluran LN.
+F - Menunjukkan saldo Lightning Wallet utama kamu. Ini BUKAN total saldo Blixt Wallet kamu, tapi hanya jumlah sats yang ada di Lightning Channels dan siap kamu kirim. Seperti yang sudah dijelaskan sebelumnya, Onchain Wallet itu terpisah. Ingat hal ini. Onchain Wallet dipisahkan karena alasan penting: terutama digunakan untuk membuka atau menutup saluran LN.
 
 
-Baiklah, sekarang Ibu Darth telah menyetorkan sejumlah Sats ke dalam onchain Address yang ditampilkan di layar utama. Disarankan ketika Anda melakukan hal tersebut, agar aplikasi Blixt Anda tetap online dan aktif untuk sementara waktu, hingga BTC tx diambil oleh para penambang ke dalam blok pertama.
+Baiklah, sekarang Ibu Darth telah menyetorkan sejumlah Sats ke dalam onchain Address yang ditampilkan di layar utama. Disarankan ketika kamu melakukan hal tersebut, agar aplikasi Blixt-mu tetap online dan aktif untuk sementara waktu, hingga BTC tx diambil oleh para penambang ke dalam blok pertama.
 
 
-Setelah itu dapat memakan waktu hingga 20-30 menit hingga sepenuhnya dikonfirmasi dan saluran terbuka dan Anda akan melihatnya di Laci Ajaib - Saluran Petir sebagai aktif. Titik kecil berwarna di atas laci, jika Green akan menunjukkan bahwa saluran LN Anda sedang online dan siap digunakan untuk mengirim Sats melalui LN.
+Setelah itu, proses konfirmasi bisa memakan waktu hingga 20–30 menit sampai saluran benar-benar terbuka dan kamu bisa melihatnya di Menu Samping – Saluran Lightning sebagai saluran aktif. Titik kecil berwarna di atas menu, jika berwarna hijau, berarti saluran LN kamu sedang online dan siap dipakai untuk mengirim sats lewat LN.
 
 
-Address dan pesan selamat datang yang ditampilkan akan menghilang. Tidak perlu lagi membuka saluran otomatis sekarang. Anda juga dapat menonaktifkan opsi ini di menu Pengaturan.
+Address dan pesan selamat datang yang ditampilkan akan menghilang. Tidak perlu lagi membuka saluran otomatis sekarang. Kamu juga dapat menonaktifkan opsi ini di menu Pengaturan.
 
 
 Saatnya untuk melanjutkan, menguji fitur dan opsi lain untuk membuka saluran LN.
@@ -152,13 +152,13 @@ Ini sangat sederhana, hanya perlu beberapa langkah dan sedikit kesabaran:
 ![blixt](assets/en/07.webp)
 
 
-Buka Blixt dan pergi ke laci atas - Saluran Petir dan klik tombol "+"
+Buka Blixt lalu masuk ke Menu Samping Kiri Atas – Saluran Lightning, kemudian klik tombol “+”.
 
 
 ![blixt](assets/en/08.webp)
 
 
-Sekarang, klik (A) kamera untuk memindai kode QR dari halaman Amboss dan detail node akan terisi. Tambahkan jumlah Sats untuk saluran yang Anda inginkan dan kemudian pilih tarif biaya untuk tx. Anda dapat membiarkannya otomatis (B) untuk konfirmasi yang lebih cepat atau menyesuaikannya secara manual dengan menggeser tombol. Anda juga dapat menekan lama angka dan mengeditnya sesuka Anda.
+Sekarang, klik (A) kamera untuk memindai kode QR dari halaman Amboss dan detail node akan terisi. Tambahkan jumlah Sats untuk saluran yang kamu inginkan dan kemudian pilih tarif biaya untuk tx. Kamu dapat membiarkannya otomatis (B) untuk konfirmasi yang lebih cepat atau menyesuaikannya secara manual dengan menggeser tombol. Kamu juga dapat menekan lama angka dan mengeditnya sesukamu.
 
 
 Jangan memasang kurang dari 1 sat/vbyte! Biasanya lebih baik untuk berkonsultasi dengan [biaya Mempool] (https://Mempool.space/) sebelum membuka saluran dan memilih biaya yang sesuai.
@@ -167,7 +167,7 @@ Jangan memasang kurang dari 1 sat/vbyte! Biasanya lebih baik untuk berkonsultasi
 Selesai, sekarang tinggal klik tombol "buka saluran" dan tunggu 3 konfirmasi, yang biasanya memakan waktu 30 menit (1 blok kira-kira setiap 10 menit).
 
 
-Setelah dikonfirmasi, Anda akan melihat saluran yang aktif di bagian "Saluran Petir".
+Setelah dikonfirmasi, kamu akan melihat saluran yang aktif di bagian "Saluran Lightning".
 
 
 ---
@@ -175,38 +175,38 @@ Setelah dikonfirmasi, Anda akan melihat saluran yang aktif di bagian "Saluran Pe
 ## Blixt - Kontak Kedua
 
 
-Baiklah, sekarang kita memiliki saluran LN dengan likuiditas yang hanya OUTBOUND. Itu berarti kita hanya dapat MENGIRIM, kita masih tidak dapat MENERIMA Sats melalui LN.
+Baiklah, sekarang kita punya saluran LN dengan likuiditas yang hanya outbound. Artinya, kita cuma bisa mengirim, tapi masih belum bisa menerima sats lewat LN.
 
 
 ![blixt](assets/en/09.webp)
 
 
-Kenapa? Apakah Anda sudah membaca panduan yang ditunjukkan di awal? Tidak? Kembalilah dan bacalah. Sangat penting untuk memahami cara kerja saluran LN.
+Kenapa? Apakah kamu sudah membaca panduan yang ditunjukkan di awal? Tidak? Kembalilah dan bacalah. Sangat penting untuk memahami cara kerja saluran LN.
 
 
 ![blixt](assets/en/10.webp)
 
 
-Seperti yang Anda lihat pada contoh ini, saluran yang dibuka dengan setoran pertama, tidak memiliki terlalu banyak likuiditas INBOUND ("Dapat menerima") tetapi memiliki banyak likuiditas OUTBOUND ("Dapat mengirim").
+Seperti yang kamu lihat pada contoh ini, saluran yang dibuka dengan setoran pertama, tidak memiliki terlalu banyak likuiditas INBOUND ("Dapat menerima") tetapi memiliki banyak likuiditas OUTBOUND ("Dapat mengirim").
 
 
-Jadi, opsi apa yang Anda miliki, jika Anda ingin menerima lebih banyak Sats daripada LN?
-
-
-
-- Habiskan beberapa Sats dari saluran yang ada. Ya, LN adalah jaringan pembayaran dari Bitcoin, yang digunakan terutama untuk membelanjakan Sats Anda dengan lebih cepat, lebih murah, privat, dan mudah. LN BUKAN cara hodling, untuk itu Anda memiliki onchain Wallet.
+Jadi, opsi apa yang kamu miliki, jika kamu ingin menerima lebih banyak Sats daripada LN?
 
 
 
-- Tukar beberapa Sats, kembali ke dalam onchain Wallet Anda, dengan menggunakan layanan submarine swap. Dengan cara ini, Anda tidak menghabiskan Sats Anda, tetapi mengembalikannya ke onchain Wallet Anda sendiri. Di sini Anda dapat melihat secara detail beberapa metode, di [Halaman Panduan Blixt] (https://blixtwallet.github.io/guides).
+- Habiskan beberapa Sats dari saluran yang ada. Ya, LN adalah jaringan pembayaran dari Bitcoin, yang digunakan terutama untuk membelanjakan Sats kamu dengan lebih cepat, lebih murah, privat, dan mudah. LN BUKAN cara hodling, untuk itu Anda memiliki onchain Wallet.
 
 
 
-- Buka saluran INBOUND dari penyedia LSP mana pun. Berikut ini adalah demo video tentang cara menggunakan LNBig LSP untuk membuka saluran inbound. Itu berarti, Anda akan membayar sedikit biaya untuk saluran KOSONG (di sisi Anda) dan Anda akan dapat menerima lebih banyak Sats ke dalam saluran tersebut. Jika Anda adalah pedagang yang menerima lebih banyak daripada membelanjakan, itu adalah pilihan yang bagus. Juga jika Anda membeli Sats di atas LN, menggunakan Robosats atau LN Exchange lainnya.
+- Tukar beberapa Sats, kembali ke dalam onchain Wallet kamu, dengan menggunakan layanan submarine swap. Dengan cara ini, kamu tidak menghabiskan Sats kamu, tetapi mengembalikannya ke onchain Wallet kamu sendiri. Di sini kamu dapat melihat secara detail beberapa metode, di [Halaman Panduan Blixt] (https://blixtwallet.github.io/guides).
 
 
 
-- Buka saluran Dunder, dengan node Blixt atau penyedia LSP Dunder lainnya. Saluran Dunder adalah cara sederhana untuk mendapatkan likuiditas INBOUND, tetapi pada saat yang sama Anda menyetor sejumlah Sats ke dalam saluran tersebut. Hal ini juga bagus karena akan membuka saluran dengan [UTXO] (https://en.Bitcoin.it/wiki/UTXO) yang bukan berasal dari Blixt Wallet Anda. Hal ini akan menambah privasi. Juga bagus karena, jika anda tidak memiliki Sats ke dalam onchain Wallet, untuk membuka saluran LN normal, tetapi anda memilikinya ke dalam LN Wallet lainnya, anda dapat membayar dari Wallet lainnya melalui LN pembukaan dan deposit (di sisi anda) saluran Dunder tersebut. [Lebih detail cara kerja Dunder dan cara menjalankan server Anda sendiri di sini] (https://github.com/hsjoberg/dunder-lsp).
+- Buka saluran inbound dari penyedia LSP mana pun. Berikut ini adalah video demo cara menggunakan LNBig LSP untuk membuka saluran inbound. Artinya, kamu akan membayar sedikit biaya untuk saluran kosong (di sisi kamu) dan bisa menerima lebih banyak sats ke saluran tersebut. Kalau kamu adalah pedagang yang lebih banyak menerima daripada membelanjakan, ini pilihan yang bagus. Begitu juga kalau kamu membeli sats lewat LN, misalnya pakai Robosats atau LN Exchange lainnya.
+
+
+
+- Buka saluran Dunder menggunakan node Blixt atau penyedia LSP Dunder lainnya. Saluran Dunder adalah cara sederhana untuk mendapatkan likuiditas inbound, tapi pada saat yang sama kamu harus menyetor sejumlah sats ke dalam saluran tersebut. Ini juga bagus karena akan membuka saluran dengan UTXO yang bukan berasal dari Blixt Wallet kamu, sehingga menambah privasi. Selain itu, jika kamu tidak punya sats di Onchain Wallet untuk membuka saluran LN biasa, tapi punya di LN Wallet lain, kamu bisa membayar dari wallet tersebut untuk membuka dan menyetor (di sisi kamu) saluran Dunder ini. [Lebih detail cara kerja Dunder dan cara menjalankan server Anda sendiri di sini] (https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -217,20 +217,20 @@ Berikut adalah langkah-langkah untuk mengaktifkan pembukaan saluran Dunder:
 
 
 - Buka Pengaturan, di bagian "Eksperimen" aktifkan kotak untuk "Aktifkan Dunder LSP".
-- Setelah Anda melakukannya, kembali ke bagian "Lightning Network" dan Anda akan melihat opsi "Set Dunder LSP Server". Di sana, secara default diatur "https://dunder.blixtwallet.com" tetapi Anda dapat mengubahnya dengan penyedia LSP Dunder lainnya Address. [Berikut adalah daftar komunitas Blixt] (https://github.com/hsjoberg/blixt-Wallet/issues/1033) dengan node yang dapat menyediakan saluran LSP Dudner untuk Blixt Anda.
-- Sekarang Anda dapat masuk ke layar utama dan klik tombol "Terima". Kemudian ikuti prosedur ini [dijelaskan dalam panduan ini] (https://blixtwallet.github.io/guides#guide-lsp).
+- Setelah Anda melakukannya, kembali ke bagian "Lightning Network" dan kamu akan melihat opsi "Set Dunder LSP Server". Di sana, secara default diatur "https://dunder.blixtwallet.com" tetapi kamu dapat mengubahnya dengan penyedia LSP Dunder lainnya Address. [Berikut adalah daftar komunitas Blixt] (https://github.com/hsjoberg/blixt-Wallet/issues/1033) dengan node yang dapat menyediakan saluran LSP Dudner untuk Blixt milikmu.
+- Sekarang kamu dapat masuk ke layar utama dan klik tombol "Terima". Kemudian ikuti prosedur ini [dijelaskan dalam panduan ini] (https://blixtwallet.github.io/guides#guide-lsp).
 
 
-Oke, jadi setelah saluran Dunder dikonfirmasi (akan memakan waktu beberapa menit) Anda akan mendapatkan 2 saluran LN: satu saluran yang dibuka dengan autopilot (saluran A) dan satu saluran dengan likuiditas yang lebih banyak, dibuka dengan Dunder (saluran B).
+Oke, jadi setelah saluran Dunder dikonfirmasi (akan memakan waktu beberapa menit) kamu akan mendapatkan 2 saluran LN: satu saluran yang dibuka dengan autopilot (saluran A) dan satu saluran dengan likuiditas yang lebih banyak, dibuka dengan Dunder (saluran B).
 
 
 ![blixt](assets/en/12.webp)
 
 
-Bagus, sekarang Anda sudah siap untuk mengirim dan menerima cukup banyak Sats melalui LN!
+Bagus, sekarang kamu sudah siap untuk mengirim dan menerima cukup banyak Sats melalui LN!
 
 
-SELAMAT DATANG PETIR Bitcoin!
+SELAMAT DATANG LIGHTNING Bitcoin!
 
 
 ---
@@ -245,69 +245,69 @@ Ingat, pada bab satu "Kontak Pertama" ada 2 pilihan di layar Selamat Datang:
 - Opsi B - Pulihkan Wallet
 
 
-Jadi sekarang mari kita bahas tentang cara memulihkan Blixt Wallet atau node LND yang rusak. Ini sedikit lebih teknis, tetapi mohon diperhatikan. Bukankah itu Hard.
+Jadi sekarang mari kita bahas tentang cara memulihkan Blixt Wallet atau node LND yang rusak. Ini sedikit lebih teknis, tetapi mohon diperhatikan. Bukankah itu sulit?
 
 
 ### OPSI B - Kembalikan Wallet
 
 
-Di masa lalu saya menulis panduan khusus tentang [cara memulihkan node Umbrel yang rusak] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana saya juga menyebutkan metode menggunakan Blixt sebagai proses pemulihan cepat, menggunakan file seed + channel.backup dari Umbrel.
+Dulu aku pernah menulis panduan khusus tentang [cara memulihkan node Umbrel yang rusak] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana aku juga menyebutkan metode menggunakan Blixt sebagai proses pemulihan cepat, menggunakan file seed + channel.backup dari Umbrel.
 
 
-Saya juga menulis panduan cara memulihkan node Blixt Anda atau memigrasi Blixt Anda ke perangkat lain, [di sini] (https://blixtwallet.github.io/faq#blixt-restore).
+Aku juga menulis panduan cara memulihkan node Blixt kamu atau memigrasi Blixt-mu ke perangkat lain, [di sini] (https://blixtwallet.github.io/faq#blixt-restore).
 
 
 ![blixt](assets/en/13.webp)
 
 
-Namun, mari kita jelaskan secara sederhana proses ini. Seperti yang dapat Anda lihat pada gambar di atas, ada 2 hal yang harus Anda lakukan untuk memulihkan node Blixt/LND sebelumnya:
+Namun, mari kita jelaskan secara sederhana proses ini. Seperti yang dapat kamu lihat pada gambar di atas, ada 2 hal yang harus kamu lakukan untuk memulihkan node Blixt/LND sebelumnya:
 
 
 
-- kotak teratas adalah tempat Anda harus mengisi dengan semua 24 kata dari seed Anda (simpul lama / mati)
-- di bagian bawah terdapat dua pilihan tombol untuk memasukkan/mengunggah file channel.backup, yang sebelumnya disimpan dari node Blixt/LND Anda yang lama. Bisa dari berkas lokal (Anda mengunggahnya ke perangkat Anda sebelumnya) atau bisa juga dari lokasi jarak jauh Google drive / iCloud. Blixt memiliki opsi ini untuk menyimpan cadangan saluran Anda secara langsung ke dalam drive Google / iCloud. Lihat detail lebih lanjut di [Halaman Fitur Blixt] (https://blixtwallet.github.io/features#blixt-options).
+- kotak teratas adalah tempat kamu harus mengisi dengan semua 24 kata dari seed-mu (simpul lama / mati)
+- di bagian bawah terdapat dua pilihan tombol untuk memasukkan/mengunggah file channel.backup, yang sebelumnya disimpan dari node Blixt/LND Anda yang lama. Bisa dari berkas lokal (kamu mengunggahnya ke perangkat milikmu sebelumnya) atau bisa juga dari lokasi jarak jauh Google drive / iCloud. Blixt memiliki opsi ini untuk menyimpan cadangan saluran Anda secara langsung ke dalam drive Google / iCloud. Lihat detail lebih lanjut di [Halaman Fitur Blixt] (https://blixtwallet.github.io/features#blixt-options).
 
 
-Namun demikian, jika sebelumnya Anda tidak mempunyai saluran LN yang terbuka, tidak perlu meng-upload file channels.backup. Cukup masukkan 24 kata seed dan tekan tombol restore.
+Namun demikian, jika sebelumnya kamu tidak mempunyai saluran LN yang terbuka, tidak perlu meng-upload file channels.backup. Cukup masukkan 24 kata seed dan tekan tombol restore.
 
 
-Jangan lupa untuk mengaktifkan Tor, dari menu 3 titik teratas, seperti yang kami jelaskan di bagian Opsi A. Itu adalah kasus ketika Anda HANYA memiliki rekan Tor dan tidak dapat dihubungi melalui clearnet (domain/IP). Selain itu tidak perlu.
+Jangan lupa untuk mengaktifkan Tor, dari menu 3 titik teratas, seperti yang kami jelaskan di bagian Opsi A. Itu adalah kasus ketika kamu HANYA memiliki rekan Tor dan tidak dapat dihubungi melalui clearnet (domain/IP). Selain itu tidak perlu.
 
 
-Fitur lain yang berguna adalah mengatur node Bitcoin tertentu dari menu atas tersebut. Secara default, ia menyinkronkan blok dari node.blixtwallet.com (mode neutrino), tetapi Anda dapat mengatur node Bitcoin lainnya yang menyediakan sinkronisasi neutrino.
+Fitur lain yang berguna adalah mengatur node Bitcoin tertentu dari menu atas tersebut. Secara default, ia menyinkronkan blok dari node.blixtwallet.com (mode neutrino), tetapi kamu bisa mengatur node Bitcoin lainnya yang menyediakan sinkronisasi neutrino.
 
 
-Jadi, setelah Anda mengisi opsi-opsi tersebut, dan menekan tombol restore, Blixt akan mulai menyinkronkan blok-blok tersebut melalui Neutrino seperti yang telah kami jelaskan di bab Kontak Pertama. Jadi bersabarlah dan perhatikan proses pemulihan di layar utama, dengan mengklik ikon sinkronisasi.
+Jadi, setelah kamu mengisi opsi-opsi tersebut, dan menekan tombol restore, Blixt akan mulai menyinkronkan blok-blok tersebut melalui Neutrino seperti yang telah kami jelaskan di bab Kontak Pertama. Jadi bersabarlah dan perhatikan proses pemulihan di layar utama, dengan mengklik ikon sinkronisasi.
 
 
 ![blixt](assets/en/14.webp)
 
 
-Seperti yang dapat Anda lihat pada contoh ini, ini menunjukkan bahwa blok Bitcoin telah tersinkronisasi 100% (A) dan proses pemulihan sedang berjalan (B). Itu berarti saluran LN yang Anda miliki sebelumnya, akan ditutup dan dana akan dipulihkan ke dalam onchain Blixt Wallet Anda.
+Seperti yang dapat kamu lihat pada contoh ini, ini menunjukkan bahwa blok Bitcoin telah tersinkronisasi 100% (A) dan proses pemulihan sedang berjalan (B). Itu berarti saluran LN yang Anda miliki sebelumnya, akan ditutup dan dana akan dipulihkan ke dalam onchain Blixt Wallet Anda.
 
 
-Proses ini membutuhkan waktu! Jadi harap bersabar dan usahakan agar Blixt Anda tetap aktif dan online. Sinkronisasi awal dapat memakan waktu hingga 6-8 menit dan penutupan saluran dapat memakan waktu hingga 10-15 menit. Jadi, sebaiknya Anda mengisi daya perangkat dengan baik.
+Proses ini membutuhkan waktu! Jadi harap bersabar dan usahakan agar Blixt tetap aktif dan online. Sinkronisasi awal dapat memakan waktu hingga 6-8 menit dan penutupan saluran dapat memakan waktu hingga 10-15 menit. Jadi, sebaiknya kamu mengisi daya perangkat dengan baik.
 
 
-Setelah proses ini dimulai, Anda dapat memeriksa di Laci Ajaib - Saluran Petir, status masing-masing saluran Anda sebelumnya, yang menunjukkan bahwa mereka dalam status "menunggu penutupan". Setelah setiap saluran ditutup, Anda dapat melihat tx penutupan di onchain Wallet (lihat Laci Ajaib - Onchain), dan membuka log menu tx.
+Setelah proses ini dimulai, kamu dapat memeriksa di Laci Ajaib - Saluran Lightning, status masing-masing saluran kamu sebelumnya, yang menunjukkan bahwa mereka dalam status "menunggu penutupan". Setelah setiap saluran ditutup, kamu dapat melihat tx penutupan di onchain Wallet (lihat menu samping atas - Onchain), dan membuka log menu tx.
 
 
 ![blixt](assets/en/15.webp)
 
 
-Juga akan lebih baik untuk memeriksa dan menambahkan jika tidak ada, rekan-rekan Anda sebelumnya yang Anda miliki di node LN lama Anda. Jadi pergi ke menu Pengaturan, ke "Lightning Network" dan masuk ke opsi "Tampilkan Rekan Petir".
+Juga akan lebih baik untuk memeriksa dan menambahkan, jika belum ada, rekan-rekan yang sebelumnya kamu miliki di node LN lama. Caranya, masuk ke menu Pengaturan, pilih Lightning Network, lalu buka opsi Tampilkan Rekan Lightning.
 
 
 ![blixt](assets/en/16.webp)
 
 
-Di dalam bagian ini Anda akan melihat peer yang terhubung dengan Anda pada saat itu dan Anda dapat menambahkan lebih banyak lagi, lebih baik menambahkan yang sudah Anda miliki salurannya sebelumnya. Cukup buka [halaman Amboss] (https://amboss.space/), cari node peer alias atau nodeID Anda dan pindai URI node mereka.
+Di dalam bagian ini kamu akan melihat peer yang terhubung dengan Anda pada saat itu dan kamu dapat menambahkan lebih banyak lagi, lebih baik menambahkan yang sudah kamu miliki salurannya sebelumnya. Cukup buka [halaman Amboss] (https://amboss.space/), cari node peer alias atau nodeID milikmu dan pindai URI node mereka.
 
 
 ![blixt](assets/en/17.webp)
 
 
-Seperti yang Anda lihat pada gambar di atas, terdapat 3 aspek:
+Seperti yang kamu lihat pada gambar di atas, terdapat 3 aspek:
 
 
 A - mewakili simpul clearnet Address URI (domain/IP)
@@ -319,25 +319,25 @@ B - mewakili simpul bawang Tor Address URI (.onion)
 C - adalah kode QR untuk dipindai dengan kamera Blixt Anda atau tombol salin.
 
 
-URI node Address ini harus Anda tambahkan ke dalam daftar peer Anda. Jadi, perlu diketahui bahwa tidak cukup hanya nama alias simpul atau nodeID saja.
+URI node Address ini harus kamu tambahkan ke dalam daftar peer-mu. Jadi, perlu diketahui bahwa tidak cukup hanya nama alias simpul atau nodeID saja.
 
 
-Sekarang Anda dapat pergi ke Magic Drawer (menu kiri atas) - Lightning Channels, dan Anda dapat melihat pada tingkat blok jatuh tempo mana dana akan dikembalikan ke dalam onchain Address Anda.
+Sekarang kamu dapat pergi ke Magic Drawer (menu kiri atas) - Lightning Channels, dan kamu dapat melihat pada tingkat blok jatuh tempo mana dana akan dikembalikan ke dalam onchain Address kamu.
 
 
 ![blixt](assets/en/18.webp)
 
 
-Nomor blok 764272 adalah saat dana akan dapat digunakan di Bitcoin onchain Address Anda. Dan itu bisa memakan waktu hingga 144 blok dari blok konfirmasi pertama hingga dirilis. [Jadi, periksa di Mempool] (https://Mempool.space/).
+Nomor blok 764272 adalah saat dana akan dapat digunakan di Bitcoin onchain Address milikmu. Dan itu bisa memakan waktu hingga 144 blok dari blok konfirmasi pertama hingga dirilis. [Jadi, periksa di Mempool] (https://Mempool.space/).
 
 
-Dan hanya itu saja. Tunggu saja dengan sabar hingga semua saluran ditutup dan dana kembali ke onchain Wallet Anda.
+Dan hanya itu saja. Tunggu saja dengan sabar hingga semua saluran ditutup dan dana kembali ke onchain Wallet mu.
 
 
 👉 **Metode pemulihan rahasia :**
 
 
-Ada metode lain untuk memulihkan node Blixt LND Anda tanpa harus menutup saluran. Tetapi tersembunyi dari pengguna noob biasa, karena metode ini HANYA untuk mereka yang tahu apa yang mereka lakukan.
+Ada metode lain untuk memulihkan node Blixt LND kamu tanpa harus menutup saluran. Namun, metode ini tersembunyi bagi pengguna pemula, karena hanya untuk yang benar-benar paham apa yang mereka lakukan.
 
 
 Jika Anda perlu memigrasikan node Blixt Anda yang sudah ada (yang masih berfungsi) ke perangkat baru, tanpa menutup saluran LN yang sudah ada, Anda harus melakukan langkah-langkah berikut:

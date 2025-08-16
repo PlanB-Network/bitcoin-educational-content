@@ -810,27 +810,32 @@ Questo è l'argomento spesso invocato da coloro che richiedono la regolamentazio
 
 Questa non è la visione di Bastiat. Secondo lui, il meccanismo sociale, come il meccanismo celeste o il meccanismo del corpo umano, obbedisce a leggi generali. In altre parole, è già un tutto organizzato armoniosamente. E il motore di questa organizzazione è il libero mercato.
 
-Il miracolo del libero mercato, ci dice, è che utilizza conoscenze che nessuna persona può possedere da sola e che fornisce soddisfazioni ben superiori a tutto ciò che un'organizzazione artificiale potrebbe fare.
+Il miracolo del libero mercato, ci dice Bastiat, è che utilizza conoscenze che nessuna persona può possedere da sola e che fornisce soddisfazioni ben superiori a tutto ciò che un'organizzazione artificiale potrebbe fare.
 
 Bastiat fornisce alcuni esempi per illustrare i benefici di questo mercato. Siamo diventati così abituati a questo fenomeno che non ci facciamo più caso.
 Prendiamo in considerazione un falegname in un villaggio, dice, e osserviamo tutti i servizi che fornisce alla società e tutti quelli che riceve:
 
 > Ogni giorno, al risveglio, si veste, e non ha personalmente realizzato nessuno dei suoi vestiti. Eppure, affinché questi vestiti fossero disponibili per lui, è stato necessario compiere un'enorme quantità di lavoro, industria, trasporti e invenzioni ingegnose in tutto il mondo.
+> 
 > Poi fa colazione. Perché il pane che mangia arrivi sulla sua tavola ogni mattina, è necessario che siano state disboscate e arate terre; ferro, acciaio, legno, pietra devono essere trasformati in strumenti di lavoro; tutte cose che, prese singolarmente, rappresentano una massa incalcolabile di lavoro messo in gioco, non solo nello spazio ma anche nel tempo.
-
-Quest'uomo manderà suo figlio a scuola, per ricevere un'istruzione che presuppone ricerche, molti anni di studio precedente.
-
-Esce di casa: trova una strada pavimentata e illuminata.
-
-La sua proprietà è contestata: troverà avvocati per difendere i suoi diritti, giudici per mantenerli, ufficiali di giustizia per eseguire la sentenza; tutte cose che presuppongono ancora conoscenze acquisite, quindi illuminazione e mezzi di esistenza.
+>
+> Quest'uomo manderà suo figlio a scuola, per ricevere un'istruzione che presuppone ricerche, molti anni di studio precedente.
+>
+> Esce di casa: trova una strada pavimentata e illuminata.
+>
+> Se la sua proprietà è contestata: troverà avvocati per difendere i suoi diritti, giudici per mantenerli, ufficiali di giustizia per eseguire la sentenza; tutte cose che presuppongono ancora conoscenze acquisite, quindi illuminazione e mezzi di esistenza.
 
 Bastiat descrive il mercato come uno strumento di cooperazione decentrato e invisibile. Attraverso il sistema dei prezzi, trasmette informazioni sui bisogni e le competenze di tutti, collega persone che vogliono cooperare per migliorare la loro esistenza.
 
 Ciò che colpisce, conclude Bastiat, è l'immenso divario che esiste tra i benefici che quest'uomo trae dalla società e quelli che potrebbe fornire a se stesso se fosse ridotto alle proprie risorse. In un solo giorno, consuma beni che non potrebbe produrre da solo.
 
+![image](assets/en/096.webp)
+
 Nel 1958, lo scrittore americano Leonard Read (Foundation for Economic Education) pubblicò un breve saggio sulla rivista The Freeman, scritto alla maniera di Bastiat, che divenne molto famoso: "Io, Matita". Questo testo è una metafora di cosa sia un mercato libero. Inizia così:
 
 > Sono una matita di piombo, una comune matita di legno familiare a tutti i ragazzi e le ragazze e agli adulti che sanno leggere e scrivere. È uno degli oggetti più semplici della civiltà umana. Eppure, non c'è una singola persona su questa terra che sappia come produrmi.
+
+![image](assets/en/097.webp)
 
 Riprende l'idea di Bastiat di una cooperazione invisibile tra milioni di individui che non si conoscono, portando alla costruzione di qualcosa di così comune come una matita. Nessuno sa come fare una matita da solo. Eppure, milioni di esseri umani partecipano inconsapevolmente alla creazione di questa semplice matita, scambiando e coordinando le loro conoscenze e competenze all'interno di un sistema di prezzi senza che alcuna autorità superiore detti la loro condotta. Questa storia dimostra che gli individui liberi che lavorano in funzione del loro legittimo interesse agiscono più a vantaggio della società di qualsiasi strategia economica pianificata e centralizzata.
 
@@ -838,7 +843,12 @@ Il Premio Nobel per l'Economia del 1976, Milton Friedman, ha anche ripreso quest
 
 In un episodio della sua serie televisiva Free to Choose, analizza i vari componenti di qualcosa di così comune e semplice come una matita e mette in evidenza il miracolo dell'ordine spontaneo, generato da migliaia di interazioni economiche in tutto il mondo. Persone che non si conoscono, che non condividono la stessa religione o le stesse usanze, riescono comunque a coordinarsi per produrre questo oggetto. Conclude che il libero mercato è essenziale per garantire non solo la prosperità, ma anche l'armonia e la pace.
 
+![image](assets/en/098.webp)
+
 Friedrich Hayek, nel suo saggio "L'uso della conoscenza nella società" del 1945, aveva già spiegato perché l'economia di mercato e la decentralizzazione delle decisioni sono vitali per la prosperità. Secondo Hayek, nessun pianificatore centrale o burocrate potrebbe mai avere conoscenze sufficienti per guidare con successo l'intero insieme delle azioni economiche. Solo il sistema dei prezzi in un mercato libero consente a milioni di attori indipendenti di decidere autonomamente come allocare efficientemente le risorse.
+
+![image](assets/en/099.webp)
+
 La pianificazione economica, che pretende di fare meglio del mercato, porta non solo a una cattiva allocazione delle risorse ma anche all'egemonia di una classe sull'altra. Ecco perché il socialismo non è solo un errore intellettuale ma un errore che alla fine genera immensa ingiustizia.
 
 ## Libertà e responsabilità sono la chiave del problema sociale

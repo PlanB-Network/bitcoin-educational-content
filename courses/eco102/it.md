@@ -1045,9 +1045,9 @@ La redistribuzione forzata non ha nulla a che fare con l'autentica solidarietà 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-Con proprietà, non dobbiamo intendere qui la terra. Significa "il diritto di un lavoratore sul valore che ha creato attraverso il suo lavoro." Bastiat specifica:
+Con proprietà, qui, non dobbiamo intendere la terra. Significa "il diritto di un lavoratore sul valore che ha creato attraverso il suo lavoro." Bastiat specifica:
 
-> Considero che il diritto alla proprietà consista nella libertà di disporre prima di tutto della propria persona, poi del proprio lavoro, e infine, dei prodotti del proprio lavoro - il che dimostra, peraltro, che, da un certo puntdupeso di vista, libertà e diritto alla proprietà non possono essere distinti l'uno dall'altro.
+> Considero che il diritto alla proprietà consista nella libertà di disporre prima di tutto della propria persona, poi del proprio lavoro, e infine, dei prodotti del proprio lavoro - il che dimostra, peraltro, che, da un certo punto di vista, libertà e diritto alla proprietà non possono essere distinti l'uno dall'altro.
 
 Avendo stabilito questo punto, per comprendere il fondamento morale della proprietà, Bastiat parte da un semplice principio antropologico che fin dall'inizio, l'uomo deve lavorare per vivere e che il frutto del suo lavoro è un'estensione delle sue facoltà, cioè della sua persona.
 
@@ -1060,14 +1060,19 @@ Intesa in questo senso, il diritto alla Proprietà è tra quei diritti che non d
 
 La sua missione è difendere la persona e la sua proprietà.
 
-_(François Quesnay, leader dei Fisiocratici)_
+![image](assets/en/120.webp)
+_([François Quesnay, leader dei Fisiocratici](https://it.wikipedia.org/wiki/Fisiocrazia))_
 
 Pertanto, il diritto non è la stessa cosa della legge. Il diritto non si identifica con la parola del sovrano, né dipende esclusivamente dalla sua legittimità. È il prodotto di una tradizione, un ordine giuridico anteriore e superiore alla legge, che si impone al legislatore tanto quanto a qualsiasi dei cittadini ordinari.
 
 Il diritto "non è creato". Non è inventato da una visione ideale di ciò che dovrebbero essere le leggi della società; è scoperto nella natura dell'uomo e nelle regole della civiltà, trasmesse dalla saggezza dei costumi.
 Gli individui hanno diritti naturali che preesistono alla legge: Proprietà, Libertà, Personalità. Il ruolo della Legge dovrebbe essere quello di preservare questi diritti naturali dell'individuo. Di conseguenza, lo Stato deve essere limitato. Oggi, diremmo che Bastiat è un sostenitore dello stato minimo.
 
+![image](assets/en/121.webp)
+
 Nel sistema di Rousseau, che abbiamo discusso in un corso precedente, la missione del legislatore è quella di organizzare, modificare, persino abolire la proprietà se ritenuto appropriato. Per Rousseau, la proprietà non è naturale ma convenzionale, proprio come la società stessa. Questa idea deriva dal diritto romano, con cui Rousseau era profondamente familiare.
+
+![image](assets/en/122.webp)
 
 Robespierre, a sua volta, postula il principio secondo cui "La proprietà è il diritto di ogni cittadino di godere e disporre della porzione di beni garantita a lui dalla legge."
 
@@ -1075,14 +1080,19 @@ Per Rousseau, la proprietà non è anteriore alla legge; è semplicemente una co
 
 Ad esempio: il diritto al lavoro o il diritto all'abitazione.
 
+![image](assets/en/123.webp)
+
 Per acquisire qualcosa gratuitamente, qualcuno deve pagare per mio conto. E se è lo Stato a pagare, dato che non produce ricchezza, può farlo solo prendendo una casa da qualcuno, o il suo equivalente, per darla a me.
 
 Questa idea che il diritto alla proprietà sia una creazione della legge porta, secondo Bastiat, ad aprire un campo illimitato agli utopisti che desiderano modellare la società secondo i loro piani.
 
 Nel sistema della libertà naturale, esiste una legge naturale, indipendente dai capricci dei legislatori. È valida per tutti gli uomini e precede qualsiasi società. Ed è dovere del governo garantire i diritti naturali di ogni individuo. Una società giusta è quella in cui i diritti di proprietà sono pienamente rispettati, nel senso che sono protetti da qualsiasi interferenza altrui.
 
+![image](assets/en/120.webp)
+
 Qui, Bastiat si allinea con l'eredità dei Fisiocratici e, oltre a ciò, con la tradizione della filosofia del diritto di Cicerone e Aristotele. La legge non crea diritti. La sua missione è difenderli e quindi difendere la proprietà, sia la proprietà di sé stessi, l'integrità della persona, sia la proprietà dei frutti del proprio lavoro.
 
+![image](assets/en/124.webp)
 _(Cicerone)_
 
 ## Saccheggio Legale: Una Perversione della Legge

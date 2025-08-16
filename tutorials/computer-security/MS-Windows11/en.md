@@ -10,7 +10,7 @@ ___
 
 ___
 
-## I. First Step
+## I. First : Download!
 
 In this tutorial, we’ll walk you through the step-by-step process of installing Microsoft Windows 11 on a VirtualBox virtual machine (version 7.1.10).
 The first thing you’ll need is an installation file. The safest and most reliable place to download it is directly from Microsoft’s official website.
@@ -20,11 +20,59 @@ Simply visit the link provided below and follow the instructions to download the
 ![Image](assets/en/1.webp)
 
 Once you’re on the download page, scroll down to the section for downloading the ISO file.
-[Image](assets/en/0.webp)
+![Image](assets/en/0.webp)
 
-## II. Prise en main d'Angry IP Scanner
+َAnd choose the proper version.
+![Image](assets/en/2.webp)
 
-### A. Télécharger et installer Angry IP Scanner
+After selecting Windows 11, click the Confirm button.
+At this step, it may take a few seconds to process the request, and then you will see the following page:
+![Image](assets/en/3.webp)
 
-Vous pouvez télécharger la dernière version d'Angry IP Scanner à partir du site officiel de l'application ou depuis GitHub. Nous partirons sur cette seconde option. Cliquez sur le lien ci-dessous et téléchargez la version EXE, à savoir ici : "**ipscan-3.9.1-setup.exe**".
+After confirming the request, you need to choose your preferred language.
+![Image](assets/en/4.webp)
 
+After selecting the language and clicking the Confirm button, the request will be processed. This step may take a few seconds.
+Once the request is successfully processed, you will see a page with the download link for the .iso file. Click the 64-bit Download button to start the download.
+The file size is about 5.5 GB, and the generated link will be valid for 24 hours.
+![Image](assets/en/5.webp)
+
+## II. Second : VirtualBox!
+The next step is to install the downloaded file in VirtualBox. In this tutorial, I am using version 7.1.10 of the software.
+After opening VirtualBox, go to the Machine menu and select New:
+![Image](assets/en/6.webp)
+
+After choosing a suitable name and location for the virtual machine, in the second field, specify where the virtual machine’s files (hard drive location) will be stored.
+![Image](assets/en/7.webp)
+
+In the third field, add the .iso file downloaded from the Microsoft website.
+In the fourth field, choose the appropriate Windows version. In this tutorial, I selected Windows 11 Education.
+If the Skip Unattended Installation option is selected, you can proceed with the installation without entering a product key and activate Windows later. Otherwise, you need to configure this section before continuing.
+![Image](assets/en/8.webp)
+
+In this step, enter your desired username and password for the account, and also input the purchased Product Key in the corresponding field.
+Other hardware settings, such as the minimum 4 GB of RAM, are suitable as default.
+After clicking Finish, you can start the virtual machine. 
+
+## III. Third : Start It!
+Once it boots, you will see the following screen:
+![Image](assets/en/9.webp)
+
+Here, select the Windows installation language and the time zone.In the next step, choose the input (keyboard) language.
+![Image](assets/en/10.webp)
+
+In the next step, choose whether to install a new version of Windows or to upgrade/repair the existing one. Since we are installing a new Windows, select the first option.
+In the following step, you are asked to enter a Product Key. Click I don’t have a Product Key to skip this step.
+![Image](assets/en/11.webp)
+
+In the next step, select the Windows edition you want to install.
+![Image](assets/en/12.webp)
+
+After this step, read the terms and agreement, and if you agree, click the Accept button.
+Otherwise, cancel the Windows installation!
+![Image](assets/en/13.webp)
+
+In the next step, you need to select the hard disk for the installation.
+Since we are installing on a virtual machine, this step is not very critical. However, if you are installing on a physical machine, complete this step carefully, as mistakes here could lead to data loss on your hard drive.
+After this, click Install to start the installation process.
+![Image](assets/en/14.webp)

@@ -920,12 +920,14 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
+Nel capitolo precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
 I liberali sono stati talvolta criticati per aver ignorato il male e per aver costruito l'utopia della libertà pura e perfetta in un mondo ideale. Questa critica è assolutamente infondata riguardo al nostro autore.
 
 Nessuno può ignorare il male che regna nella storia delle società umane: ingiustizie, guerre e sofferenze. Ci piacerebbe poter eliminare questi mali. Questo è, peraltro, l'oggetto di una grande parte delle filosofie moderne, da Rousseau a Heidegger, passando per Hegel e Marx.
+
 Il male non è solo una realtà definitiva, ma ha anche un ruolo da svolgere nella storia e nell'azione umana, afferma Frédéric Bastiat. Può essere ridotto ma certamente non completamente eradicato perché ciò significherebbe uccidere la libertà e la responsabilità. Da dove proviene quindi il male, quale è il suo ruolo e come può essere prevenuto?
+
 Per rispondere a queste domande, Bastiat procederà ad analizzare l'azione umana. Questa, infatti, può portare sia al bene che al male.
 
 ![image](assets/en/108.webp)
@@ -933,11 +935,11 @@ Per rispondere a queste domande, Bastiat procederà ad analizzare l'azione umana
 Il male deriva innanzitutto dalla nostra imperfezione. Scegliere liberamente significa correre il rischio di fare una cattiva scelta, dice Bastiat. Infatti, possiamo essere ingannati in molti modi, anche riguardo ai nostri stessi bisogni e interessi. L'uomo è fallibile, è incline a sbagliare nella comprensione del gioco delle leggi economiche o a deviarle dal loro fine.
 
 Pertanto, è l'imperfezione della ragione che è il principale limite degli uomini e che rimane all'origine delle nostre sofferenze.
-Se il male deriva dalla debolezza umana e non dalla libertà in sé, né dal libero scambio, il rimedio non sta nella soppressione della libertà o dello scambio ma nella responsabilità stessa, poiché è la fonte di ogni esperienza. Questo principio di responsabilità è come segue, cito Bastiat:
+Se il male deriva dalla debolezza umana e non dalla libertà in sé, né dal libero scambio, il rimedio non sta nella soppressione della libertà o dello scambio ma nella responsabilità stessa, poiché è la fonte di ogni esperienza. Questo principio di responsabilità è il seguente, cito Bastiat:
 
 > Ogni uomo che agisce riceve la ricompensa o la punizione delle sue azioni.
 
-Attraverso questa sanzione naturale, l'uomo impara, scopre, si corregge, progredisce e migliora. In altre parole, la responsabilità è un principio di perfezionabilità e progresso come abbiamo visto nel corso precedente.
+Attraverso questa sanzione naturale, l'uomo impara, scopre, si corregge, progredisce e migliora. In altre parole, la responsabilità è un principio di perfezionabilità e progresso come abbiamo visto nel capitolo precedente.
 
 ![image](assets/en/109.webp)
 
@@ -951,7 +953,7 @@ Il male genera sofferenza, e la sofferenza ci fa comprendere la colpa o l'errore
 
 ---
 
->Errare è umano.
+> Errare è umano.
 
 ---
 
@@ -964,6 +966,7 @@ Afferma semplicemente che se la fonte del male risiede nell'assenza di libertà,
 Ma se l'abuso della libertà è all'origine delle nostre sventure, il suo uso corretto è il rimedio, ovvero il pieno e intero esercizio della responsabilità personale, basato sul diritto di proprietà. La regolazione sociale, quindi, passa attraverso la responsabilità, non attraverso l'intervento dello Stato in tutti i settori, che è una delle grandi fonti di spoliazione e quindi di mali.
 
 ![image](assets/en/112.webp)
+
 Contrariamente a Rousseau, che cerca di eradicare il male attraverso le istituzioni collettive, Frédéric Bastiat difende la possibilità del male e dell'errore, senza i quali non esiste libertà o responsabilità individuale. Poiché è proprio questa che da sola permette, attraverso un processo di scoperta, di progredire e ridurre i mali sociali.
 Deve essere chiarito che questo sviluppo del progresso attraverso la responsabilità non è affatto automatico. Non è per nulla, come con Hegel o Marx, una sorta di determinismo naturale o storico, che porterebbe miracolosamente o meccanicamente all'armonia e al progresso. Si tratta di una riduzione graduale e indefinita del male e mai della sua eliminazione definitiva.
 

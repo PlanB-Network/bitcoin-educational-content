@@ -635,9 +635,10 @@ La grande lezione da questa serie di testi è che l'intervento dello stato ha ef
 Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di importazione per proteggere l'industria francese. Questo è il famoso patriottismo economico, che incontriamo ancora oggi.
 
 ![image](assets/en/077.webp)
+_sopra: Marine Le Pen, una politica Francese_
 ![image](assets/en/078.webp)
 
-Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lavori più famosi: "la petizione dei fabbricanti di candele". Illustra come certi gruppi di pressione di produttori ben organizzati ottengano privilegi indebiti dallo stato, a detrimento dei cittadini. Allo stesso tempo, dimostra la natura assurda e distruttiva della legislazione protezionistica.
+Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lavori più famosi: "la petizione dei fabbricanti di candele". Illustra come certi gruppi di pressione di produttori ben organizzati ottengano privilegi indebiti dallo stato, a danno dei cittadini. Allo stesso tempo, dimostra la natura assurda e distruttiva della legislazione protezionistica.
 
 ![image](assets/en/079.webp)
 
@@ -649,7 +650,7 @@ Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lav
 
 In questa petizione, i fabbricanti di candele chiedono ai deputati protezione legale contro un pericoloso rivale:
 
-> Soffriamo della concorrenza intollerabile di un rivale straniero che, a quanto pare, si trova in condizioni talmente superiori per produrre luce che inonda il nostro mercato nazionale a un prezzo favolosamente ridotto.
+>Soffriamo della concorrenza intollerabile di un rivale straniero che, a quanto pare, si trova in condizioni talmente superiori per produrre luce che inonda il nostro mercato nazionale a un prezzo favolosamente ridotto.
 
 Quindi, chi è questo ingiusto concorrente straniero? Non è altro che il sole. I produttori evidenziano quindi l'opportunità che ci sarebbe nel riservare "il mercato nazionale al lavoro nazionale", ordinando per legge di chiudere "tutte le finestre, lucernari, tende, persiane, veneziane, tendaggi, luci fanali, in una parola tutte le aperture, buchi, fessure e crepe attraverso cui la luce solare è solita entrare nelle case".
 
@@ -664,7 +665,10 @@ Il protezionismo si basa anche su un sillogismo nascosto che si rivela essere un
 - Più lavoriamo, più siamo ricchi;
 - Più difficoltà dobbiamo superare, più lavoriamo;
 - Quindi, più difficoltà dobbiamo superare, più siamo ricchi.
-  Illustreremo questa assurdità con alcune brevi storie raccontate da Bastiat. Nel Capitolo III della seconda serie di Sofismi Economici, immagina un falegname che scrive al ministro una petizione chiedendo una legislazione protezionista. Il falegname formula così la sua richiesta: Signor Ministro, fate una legge che stabilisca che "Nessuno possa usare travi e travetti prodotti da asce spuntate". In altre parole, fate una legge che proibisca l'uso di asce affilate in Francia. Così, dove normalmente si danno 100 colpi di ascia, sarà necessario darne 300. I falegnami saranno molto richiesti e quindi meglio pagati.
+  
+Illustreremo questa assurdità con alcune brevi storie raccontate di Bastiat. Nel Capitolo III della seconda serie di Sofismi Economici, immagina un falegname che scrive al ministro una petizione chiedendo una legislazione protezionista. Il falegname formula così la sua richiesta: Signor Ministro, fate una legge che stabilisca che "Nessuno possa usare travi e travetti prodotti da asce spuntate". In altre parole, fate una legge che proibisca l'uso di asce affilate in Francia. Così, dove normalmente si danno 100 colpi di ascia, sarà necessario darne 300. I falegnami saranno molto richiesti e quindi meglio pagati.
+
+![image](assets/en/081.webp)
 
 Nel Capitolo XVI, c'è un altro testo molto ironico, intitolato: La Mano Destra e la Mano Sinistra. Seguendo un'indagine, un inviato reale redige un rapporto in cui propone al re di tagliare, o almeno legare, tutte le mani destre dei lavoratori. Così, continua, il lavoro e di conseguenza la ricchezza aumenteranno. La produzione diventerà molto più difficile, il che necessiterà l'assunzione massiccia di manodopera aggiuntiva e un aumento dei salari. Il pauperismo scomparirà dal paese.
 
@@ -672,6 +676,8 @@ Seguendo questa logica di creare posti di lavoro a tutti i costi, perché non so
 
 Questa confusione di mezzi e fine si trova nello slogan "il denaro è ricchezza".
 Questo è l'assioma che governa la politica monetaria della maggior parte degli stati. Infatti, l'aumento artificiale della quantità di denaro permette alle banche di prestare denaro a individui e agli stati di ripagare facilmente il loro debito, questo è "ciò che vediamo". Ma "ciò che non vediamo" è che questa creazione di denaro, non basata su alcuna reale creazione di ricchezza, porterà all'inflazione e alla rovina dei risparmiatori.
+
+![image](assets/en/082.webp)
 
 La vera ricchezza, secondo Bastiat, è quindi l'insieme delle cose utili che produciamo attraverso il lavoro per soddisfare i nostri bisogni. Il denaro è quindi solo un mezzo di scambio comunemente usato, gioca solo il ruolo di intermediario.
 

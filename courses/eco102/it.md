@@ -1170,20 +1170,29 @@ E poiché l'azione dello Stato è puramente redistributiva, è soggetta alla pre
 
 In altre parole, lo Stato persegue solo obiettivi clientelari, e la nozione di interesse generale è priva di significato. Qualsiasi guadagno ottenuto da alcuni è a spese degli altri: non è un gioco a somma zero ma a somma negativa.
 Bastiat anticipa così, un secolo in anticipo, le analisi sul funzionamento del mercato politico che sarebbero emerse alla fine degli anni '50 con la cosiddetta scuola di Public Choice di James Buchanan, Premio Nobel per l'Economia, e il suo collega Gordon Tullock.
+
 ![image](assets/en/135.webp)
+
 ![image](assets/en/136.webp)
 
-Inoltre, Bastiat afferma, lo Stato non ha diritti che non preesistano prima nell'individuo. Perché lo Stato ha il diritto di garantire, anche con la forza, la proprietà di ogni individuo? Semplicemente perché questo diritto preesiste nell'individuo. Non si può negare agli individui il diritto alla legittima difesa, il diritto di usare la forza se necessario per respingere attacchi contro la loro persona, le loro facoltà e le loro proprietà. Questo diritto naturale di autodifesa, che risiede in tutti i cittadini, può assumere una forma collettiva e legittimare la forza comune.
-Pertanto, per sapere se lo Stato è legittimamente investito di un diritto, si deve chiedere se questo diritto risiede nell'individuo in virtù della loro organizzazione e in assenza di qualsiasi governo. Ecco perché lo Stato non può in alcun caso violare i diritti naturali; deve, al contrario, garantirli.
+Inoltre, Bastiat afferma, lo Stato non ha diritti che non preesistano prima nell'individuo. Perché lo Stato ha il diritto di garantire, anche con la forza, la proprietà di ogni individuo? Semplicemente perché questo diritto preesiste nell'individuo. Non si può negare agli individui il diritto alla legittima difesa, il diritto di usare la forza se necessario per respingere attacchi contro la propria persona, le propria facoltà e le sue proprietà. Questo diritto naturale di autodifesa, che risiede in tutti i cittadini, può assumere una forma collettiva e legittimare la forza comune.
+
+Pertanto, per sapere se lo Stato è legittimamente investito di un diritto, si deve chiedere se questo diritto risiede nell'individuo in virtù della loro organizzazione e in assenza di qualsiasi governo.
+
+Ecco perché lo Stato non può in alcun caso violare i diritti naturali; deve, al contrario, garantirli.
+
+![image](assets/en/137.webp)
 
 Garantisce Sicurezza, sia interna che esterna, e Giustizia. Può essere forte ed efficace nel suo dominio. Ma la legge non può uscire da questo ruolo molto stretto perché diventa allora uno strumento di saccheggio da alcuni a beneficio di altri. Quando la Legge è pervertita, agisce come uno strumento di ingiustizia. La perversione della legge porta sempre al saccheggio, come abbiamo visto nel corso precedente. È immediato, automatico, inevitabile e certo. Portare la legge fuori dal suo dominio può solo violare i diritti naturali. La società civile è quindi privata del suo potere (istituzioni naturali, contratti, scambi, associazioni) a favore della gestione statale, cioè tecnocratica e burocratica.
+
+![image](assets/en/107.webp)
 
 Di conseguenza, gli unici servizi pubblici legittimi di uno Stato secondo Bastiat sono tre in numero: il militare, la polizia e la magistratura. In altre parole, lo Stato deve garantire la protezione interna ed esterna degli individui, la loro libertà e la loro proprietà. È quindi normale che tutti contribuiscano a questa protezione. Tuttavia, al di là di queste funzioni legittime, qualsiasi altro contributo a un altro servizio fornito dallo Stato è soggetto a scrutinio.
 
 > Al di fuori di questo cerchio, scrive Bastiat, religione, educazione, associazione, lavoro, scambi, tutto appartiene al dominio dell'attività privata, sotto l'occhio dell'autorità pubblica, che dovrebbe avere solo una missione di sorveglianza e repressione.
 
 Riguardo ai servizi pubblici, egli enuncia un principio semplice:
-Se vuoi creare una funzione, dimostrane l'utilità. Dimostra che vale i servizi che fornisce, equivalente a ciò che costa. Da qui, conclude, è ragionevole affidare al settore pubblico solo ciò che il settore privato non può assolutamente realizzare.
+"Se vuoi creare una funzione, dimostrane l'utilità. Dimostra che vale i servizi che fornisce, equivalente a ciò che costa. Da qui, conclude, è ragionevole affidare al settore pubblico solo ciò che il settore privato non può assolutamente realizzare".
 
 In sintesi, quando un governo oltrepassa la sua missione di difendere persone e proprietà, incoraggia i gruppi di interesse a cercare privilegi e influenzare il potere per ottenere benefici a spese dei contribuenti e dei consumatori.
 

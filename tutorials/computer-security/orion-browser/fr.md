@@ -116,44 +116,53 @@ Orion+ garantit l'indépendance du projet : "Votre contribution financière nous
 
 Accédez aux préférences via **Orion → Preferences** (ou ⌘,) :
 
-**1. Privacy → Content Blocker**
-
-![Content Blocker dans les préférences](assets/fr/12.webp)
-*Paramètres de confidentialité d'Orion montrant le Content Blocker avec 119 156 règles actives, les options de suppression des trackers et l'agent utilisateur personnalisé*
-
-- Orion utilise par défaut **EasyList** (119k+ règles contre les pubs) et **EasyPrivacy** (anti-tracking)
-- Le blocage est automatiquement activé avec ces listes reconnues
-- Pour les sites qui dysfonctionnent, utilisez l'icône bouclier 🛡️ ou l'engrenage ⚙️ dans la barre d'adresse
-- **Astuce** : Cliquez sur "Manage Filter Lists..." pour personnaliser ou ajouter des listes comme Hagezi
-- **Privacy Report** : Cliquez sur le bouclier pour voir le détail des éléments bloqués
-
-![YouTube avec Privacy Report](assets/fr/10.webp)
-*Exemple de YouTube visionné avec Orion : aucune publicité visible et Privacy Report montrant les nombreux éléments bloqués*
-
-**2. Privacy (suite)**
-- **Remove trackers from URLs** : Réglez sur "For Private Browsing only" pour nettoyer les liens copiés
-- **Share crash reports** : Gardez "After asking for approval" (respecte votre consentement)
-- **Custom user agent** : Possibilité de personnaliser si nécessaire pour contourner les blocages
-- Mode de navigation : Utilisez la navigation privée (⌘⇧N) pour les sessions sensibles
-
-**3. Search**
+**1. Search - Moteur de recherche privé**
 
 ![Configuration du moteur de recherche](assets/fr/09.webp)
 *Configuration du moteur de recherche par défaut : DuckDuckGo est sélectionné pour une confidentialité maximale*
 
 - **Moteur par défaut** : Sélectionnez **DuckDuckGo**, **Startpage** ou **Kagi** pour une confidentialité optimale (évitez Google/Bing)
 - **Suggestions de recherche** : Désactivez-les pour éviter les fuites de frappe vers les serveurs du moteur de recherche
-- **Note** : Vous pouvez modifier ce paramètre à tout moment dans les préférences Orion
 
-**4. Websites et Custom Filters**
-- **Gestion par site** : Utilisez l'onglet "Websites" pour des règles spécifiques par domaine
+**2. Privacy - Protection générale**
+
+![Content Blocker dans les préférences](assets/fr/12.webp)
+*Paramètres de confidentialité d'Orion montrant le Content Blocker avec 119 156 règles actives, les options de suppression des trackers et l'agent utilisateur personnalisé*
+
+**Content Blocker actif par défaut** :
+- **EasyList** : 119k+ règles bloquant les publicités
+- **EasyPrivacy** : Protection contre le tracking
+- **Manage Filter Lists** : Ajoutez des listes supplémentaires (Hagezi recommandée)
+
+**Options de confidentialité** :
+- **Remove trackers from URLs** : "For Private Browsing only" nettoie les liens copiés
+- **Share crash reports** : "After asking for approval" respecte votre consentement
+- **Custom user agent** : Modifiable pour contourner certains blocages
+
+![YouTube avec Privacy Report](assets/fr/10.webp)
+*Exemple de YouTube visionné avec Orion : aucune publicité visible et Privacy Report montrant les nombreux éléments bloqués*
+
+**3. Website Settings - Contrôle par site**
 
 ![Website Settings pour YouTube](assets/fr/11.webp)
 *Website Settings pour YouTube montrant les options de compatibilité, blocage de contenu et permissions spécifiques au site*
 
-- **Custom filters** : Dans Privacy → Manage Filter Lists, ajoutez vos propres règles de blocage
-- **Exemple** : `reddit.com##.promotedlink` pour bloquer les pubs Reddit
-- **Listes supplémentaires** : Activez Hagezi Light DNS Blocklist pour un blocage DNS avancé
+**Accès rapide** : Cliquez sur l'engrenage ⚙️ dans la barre d'adresse pour ajuster :
+- **Compatibility Mode** : Résout les problèmes d'affichage en suspendant les extensions
+- **Content Blockers** : Désactive le blocage pour un site spécifique si nécessaire
+- **JavaScript/Cookies** : Contrôle granulaire par site
+- **Permissions** : Caméra, micro, localisation configurés individuellement
+
+**4. Filtres personnalisés avancés**
+
+**Création de filtres sur mesure** (Privacy → Manage Filter Lists → Custom Filters) :
+
+**Syntaxe simplifiée** (compatible Adblock Plus) :
+- `reddit.com##.promotedlink` : Cache les posts sponsorisés Reddit
+- `||ads.example.com^` : Bloque complètement un domaine publicitaire
+- `@@||site-utile.com^` : Crée une exception pour un site
+
+**Astuce** : Visitez [FilterLists.com](https://filterlists.com) pour des milliers de listes spécialisées prêtes à l'emploi.
 
 ### Extensions recommandées
 

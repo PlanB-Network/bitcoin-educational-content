@@ -696,27 +696,38 @@ Eppure, avete mai sentito dire:
 In Francia, dove la spesa pubblica è considerata un beneficio, le tasse sono più alte che in altri paesi. Ma Bastiat ci avverte subito: "In ogni spesa pubblica, dietro al bene apparente c'è un male più difficile da discernere."
 
 Di cosa si tratta?
+
 L'economia descrive gli effetti positivi o negativi delle decisioni politiche sulle nostre vite. Tuttavia, secondo Bastiat, l'economista deve essere attento, non solo agli effetti a breve termine su un particolare gruppo, ma piuttosto alle loro conseguenze a lungo termine per la società nel suo insieme.
 
 > "Ciò che vediamo è il lavoro e il profitto consentiti dal contributo sociale. Ciò che non vediamo sono le opere che sarebbero generate da questo stesso contributo se fosse lasciato ai contribuenti. Ciò che vediamo è il lavoro e il profitto consentiti dal contributo sociale. Ciò che non vediamo sono le opere che sarebbero generate da questo stesso contributo se fosse lasciato ai contribuenti."
 >
 > F.Bastiat
 
+![image](assets/en/084.webp)
+
 Fin dall'inizio, egli confuta l'argomento ancora prevalente secondo cui la spesa pubblica finanziata dalle tasse crea posti di lavoro. In effetti, le tasse non creano nulla poiché ciò che viene speso dallo stato non viene più speso dai contribuenti.
 
 Inoltre, lo stato è più sprecone degli individui. Infatti, ci ricorda, lo stato non possiede nulla; non produce ricchezza. La spesa pubblica è spesso fonte di spreco perché le immense somme confiscate dagli individui sfuggono alla responsabilità dei loro proprietari e vengono spese al loro posto da burocrati, soggetti a gruppi di pressione.
 
-Naturalmente, come pagamento per un servizio pubblico equivalente ricevuto in cambio, la tassazione è completamente difendibile. Ma in Francia, allo stato sono stati assegnati diversi ruoli alle tasse.
+![image](assets/en/085.webp)
+
+Naturalmente, come pagamento per un servizio pubblico equivalente ricevuto in cambio, la tassazione è completamente difendibile. Ma in Francia, lo stato assegnava diversi ruoli alle tasse.
 
 Inizialmente, doveva coprire le spese comuni. Poi, alle tasse è stato anche dato un ruolo nella regolazione dell'economia. In questo caso, politici e burocrati hanno un potere limitato solo dalla loro buona volontà. Assorbiti nelle loro costruzioni artificiali, modellano l'economia tassando e regolando i settori più o meno secondo i loro capricci per favorirli o sfavorirli.
 
 Infine, è stato assegnato un ruolo sociale alle tasse. Sono state rese uno strumento di giustizia sociale. Così, le tasse non dovrebbero colpire tutti allo stesso modo. Le tasse devono essere redistributive, da coloro "che hanno di più" a coloro "che hanno di meno".
 
+![image](assets/en/086.webp)
+
 Il problema è che le tasse, così concepite, sono soggette all'arbitrarietà di chi detiene il potere. Favoriscono o sfavoriscono determinate categorie sociali a seconda che il potere si aspetti voti da loro o meno. Inoltre, le aliquote progressive rendono poco al tesoro pubblico. Tuttavia, permettono alla maggioranza di espropriare una minoranza e diventano naturalmente confiscatorie.
 
-Ecco perché Bastiat aveva già compreso la curva di Laffer. Arthur Laffer è un economista americano noto per la sua famosa "curva" (un'ellisse), pubblicata nel 1974, che mostra come il rendimento dalle tasse aumenti con l'abbassamento del tasso di tassazione. Questa è la teoria del rendimento decrescente della tassazione eccessiva.
+Ecco perché Bastiat aveva già compreso la [curva di Laffer](https://it.wikipedia.org/wiki/Curva_di_Laffer). Arthur Laffer è un economista americano noto per la sua famosa "curva" (un'ellisse), pubblicata nel 1974, che mostra come il rendimento dalle tasse aumenti con l'abbassamento del tasso di tassazione. Questa è la teoria del rendimento decrescente della tassazione eccessiva.
 
-> Troppe tasse uccidono la tassa.
+![image](assets/en/087.webp)
+
+> Troppe tasse uccidono le tasse.
+> 
+> Arthur Laffer  
 
 I politici presumono ingenuamente che esista una relazione automatica e fissa tra aliquote fiscali e entrate fiscali. Pensano di poter raddoppiare le entrate fiscali raddoppiando l'aliquota fiscale. Secondo Laffer, un tale approccio trascura il fatto che i contribuenti possono cambiare il loro comportamento in risposta a nuovi incentivi.
 
@@ -725,7 +736,12 @@ I politici presumono ingenuamente che esista una relazione automatica e fissa tr
 La curva di Laffer mostra che il governo non raccoglie entrate quando le aliquote fiscali sono al 100%. Al contrario, ogni riduzione delle tasse serve a stimolare l'attività economica e quindi le entrate statali. Infatti, ridurre le aliquote marginali stimola gli investimenti, il lavoro, la creatività e quindi promuove la crescita economica. Una riduzione sufficiente potrebbe produrre abbastanza stimolo economico da aumentare le entrate pubbliche ampliando significativamente la base imponibile.
 
 Bastiat potrebbe aggiungere che tanta importanza dovrebbe essere data alla riduzione delle spese statali quanto alla riduzione delle tasse. Tuttavia, come Margaret Thatcher, discepola di Frédéric Bastiat, ha così bene affermato:
-"L'obiettivo non è rendere i ricchi poveri, ma rendere i poveri ricchi." E lei disse questo rivolgendosi ai socialisti.
+
+![image](assets/en/089.webp)
+
+> "L'obiettivo non è rendere i ricchi poveri, ma rendere i poveri ricchi."
+
+Disse questo rivolgendosi ai socialisti.
 
 ## Le Due Morali
 

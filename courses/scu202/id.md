@@ -2002,213 +2002,109 @@ Jika Anda menetapkan rutinitas audit (bahkan yang dasar sekalipun), Anda dapat m
 
 #### Pada Windows
 
+Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rentan pada serangan komputer, karena adopsinya yang luas dan spesifisitas teknisnya. Oleh karena itu, penting untuk melengkapi perlindungan dasar dengan alat diagnostik canggih:
 
-
-Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rentan terhadap serangan komputer, karena adopsi yang luas dan kekhususan teknisnya. Oleh karena itu, penting untuk melengkapi perlindungan dasar dengan alat diagnostik tingkat lanjut:
-
-
-
-
-
-- Microsoft Defender*: di Windows, memiliki antivirus yang bagus adalah kebutuhan dasar. Selama bertahun-tahun, Microsoft Defender (sebelumnya Windows Defender), antivirus bawaan sistem, dianggap tidak dapat diandalkan, dan sebagai gantinya, solusi pihak ketiga direkomendasikan. Tetapi perangkat lunak ini telah berkembang pesat dari waktu ke waktu, dan sekarang, menurut pendapat saya, sudah cukup memadai untuk memberikan perlindungan dasar untuk penggunaan pribadi. Meskipun demikian, kita tidak boleh melebih-lebihkan peran perangkat lunak antivirus: di atas segalanya, praktik digital Anda sendirilah yang memastikan keamanan Anda. Salah satu keunggulan Defender adalah integrasi bawaannya dengan Windows. Selain perlindungan waktu nyata, dia menawarkan pemindaian komprehensif yang dapat Anda jadwalkan setiap minggu atau dijalankan secara manual secara berkala.
-
-
+- *Microsoft Defender*: Di Windows, memiliki antivirus yang baik adalah kebutuhan dasar. Selama bertahun-tahun, Microsoft Defender (sebelumnya Windows Defender), antivirus bawaan sistem, dianggap tidak andal, dan solusi pihak ketiga direkomendasikan sebagai gantinya. Namun, perangkat lunak ini telah meningkat secara signifikan seiring waktu, dan sekarang, menurut saya, sudah cukup untuk memberikan perlindungan dasar bagi penggunaan pribadi. Meskipun demikian, kita tidak boleh melebih-lebihkan peran perangkat lunak antivirus: yang terpenting adalah praktik digital Anda sendiri yang menjamin keamanan Anda. Salah satu keuntungan Defender adalah integrasi native-nya dengan Windows. Selain perlindungan real-time, ia menawarkan pemindaian komprehensif yang dapat Anda jadwalkan setiap minggu atau jalankan secara manual pada interval berkala.
 
 ![Image](assets/fr/007.webp)
 
-
-
-
-
-- Sysinternals Suite*: ini adalah seperangkat alat yang jauh lebih canggih yang ditawarkan oleh Microsoft untuk mendiagnosis, memantau, dan memecahkan masalah Windows. Berikut adalah alat utama dalam rangkaian ini:
-    - Process Monitor*: memungkinkan Anda mengamati proses aktif, akses file, register, dll. secara real time;
-    - Autoruns*: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi dengan cepat *malware* atau aplikasi yang tidak seharusnya berjalan;
-    - Process Explorer*: memantau proses dan mendeteksi perilaku yang mencurigakan;
-    - TCPView*: memvisualisasikan koneksi jaringan yang aktif (deteksi koneksi yang tidak normal);
-    - Sigcheck*: memeriksa tanda tangan digital pada file untuk mengetahui adanya kode berbahaya.
-
-
+- *Sysinternals Suite*: Ini adalah sekumpulan program yang jauh lebih canggih yang ditawarkan oleh Microsoft untuk mendiagnosis, memantau, dan memecahkan masalah Windows. Berikut adalah program-program utama dalam paket ini:
+- _Process Monitor_: memungkinkan Anda mengamati proses aktif, akses file, register, dll. secara real-time.
+- _Autoruns_: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi keberadaan _malware_ atau aplikasi yang tidak seharusnya berjalan.
+- _Process Explorer_: memantau proses dan mendeteksi perilaku mencurigakan.
+- _TCPView_: memvisualisasikan koneksi jaringan yang aktif (deteksi koneksi abnormal).
+- _Sigcheck_: memeriksa tanda tangan digital pada file untuk kode berbahaya.
 
 ![Image](assets/fr/207.webp)
 
-
-
-
-
-- GlassWire*: alat pemantauan jaringan. Alat ini melacak koneksi yang masuk dan keluar dalam waktu nyata, dan memperingatkan Anda tentang aktivitas yang tidak biasa.
-
-
+- *GlassWire*: program pemantauan jaringan. program ini melacak koneksi yang masuk dan keluar secara real time, dan memperingatkan Anda tentang aktivitas yang tidak biasa.
 
 ![Image](assets/fr/208.webp)
 
+#### Pada Linux
 
+Pada perangkat Linux yang terawat dengan baik untuk penggunaan pribadi, risikonya memang lebih rendah. Meskipun demikian, berikut adalah beberapa program canggih untuk memantau sistem Anda:
 
-#### Di bawah Linux
-
-
-
-Pada mesin Linux yang dipelihara dengan baik dan digunakan untuk keperluan pribadi, risikonya lebih rendah. Namun demikian, berikut ini adalah beberapa alat bantu canggih untuk memantau sistem Anda:
-
-
-
-
-
-- Fail2ban*: memonitor log sistem untuk upaya akses yang tidak berhasil (seperti upaya login SSH secara paksa). Ketika perilaku mencurigakan terdeteksi, maka untuk sementara waktu melarang IP Address yang menyinggung melalui `iptables`;
-
-
+_Fail2ban_: memantau log sistem untuk upaya menggalkan akses (seperti upaya login SSH brute-force). Ketika perilaku mencurigakan terdeteksi, program akan memblokir alamat IP yang melakukan pelanggaran secara sementara melalui `iptables`;
 
 ![Image](assets/fr/217.webp)
 
-
-
-
-
-- Lynis*: alat bantu audit keamanan komprehensif yang menganalisis sistem Anda dari kesalahan konfigurasi, kelemahan yang diketahui, atau penyimpangan dari praktik terbaik. Alat ini menghasilkan laporan yang mudah dibaca, dengan skor keamanan dan rekomendasi.
-
-
+- *Lynis*: Program audit keamanan yang komprehensif yang menganalisis sistem Anda untuk mencari kesalahan konfigurasi, kelemahan yang diketahui, atau penyimpangan dari kinerja terbaik. Program ini menghasilkan laporan yang mudah dibaca, lengkap dengan skor keamanan dan rekomendasi.
 
 ![Image](assets/fr/218.webp)
 
-
 https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
-#### Di bawah macOS
+#### Pada macOS
 
+macOS terkenal akan keamanannya, berkat kebijakan tanda tangan pada aplikasi dan arsitekturnya yang relatif tertutup. Untuk penggunaan pribadi, komputer yang mutakhir dengan pengaturan default sudah menawarkan keamanan yang layak. Untuk meningkatkan pemantauan sistem Anda ke level selanjutnya, saya merekomendasikan:
 
-
-macOS terkenal dengan keamanannya, khususnya berkat kebijakan tanda tangan aplikasi dan arsitektur yang relatif tertutup. Untuk penggunaan pribadi, mesin terbaru dengan pengaturan default sudah menawarkan keamanan yang layak. Untuk meningkatkan pemantauan sistem Anda selangkah lebih maju, saya sarankan :
-
-
-
-
-
-- KnockKnock*: memindai semua Elements yang dikonfigurasikan untuk berjalan pada saat startup (agen, daemon, modul kernel...) dan mengidentifikasi yang berpotensi mencurigakan, tidak bertanda tangan, atau tidak dikenal. Ini memungkinkan Anda untuk dengan cepat mengidentifikasi kegigihan berbahaya pada sistem Anda.
-
-
-
+- _KnockKnock_: memindai semua elemen yang dikonfigurasi untuk berjalan saat startup (agent, daemon, modul kernel, dll.) dan mengidentifikasi elemen-elemen yang berpotensi mencurigakan, tidak ditandatangani, atau tidak dikenal. Program ini memungkinkan Anda untuk mengidentifikasi serangan jahat pada sistem Anda dengan cepat.
+  
 ![Image](assets/fr/209.webp)
-
-
 
 ### Kesimpulan: keamanan adalah masalah keteraturan
 
+Keamanan komputer yang optimal tidak dicapai dengan hanya memasang program tertentu sekali, melainkan melalui pemeliharaan yang teratur, ketat, dan metodis. Menjaga sistem operasi Anda tetap mutakhir, memutakhirkan perangkat lunak penting, menghapus perangkat lunak yang tidak perlu, dan memantau sistem secara aktif adalah landasan dari pemeliharaan yang baik. Secara lebih umum, praktik terbaik ini berlaku untuk semua perangkat digital Anda: perangkat terhubung (connected objects), server, ponsel pintar, dan lain-lain.
 
-
-Keamanan komputer yang optimal tidak dapat dicapai dengan menginstal alat tertentu sekali saja, tetapi dengan pemeliharaan yang teratur, ketat, dan metodis. Menjaga sistem operasi Anda tetap mutakhir, meningkatkan perangkat lunak penting, menghapus perangkat lunak yang tidak perlu, dan secara aktif memantau sistem adalah landasan pemeliharaan yang baik. Secara umum, praktik terbaik ini berlaku untuk semua alat digital Anda: objek yang terhubung, server, ponsel cerdas...
-
-
-
-Di bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari pemasangan *malware* dalam praktiknya, dengan mempelajari cara memeriksa integritas dan keaslian file yang Anda unduh ke komputer Anda.
-
-
-
+Pada bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari instalasi *malware* secara praktis, dengan mempelajari cara memeriksa integritas dan keaslian file yang Anda unduh ke komputer Anda.
 
 ## Integritas dan keaslian perangkat lunak
 
-
 <chapterId>ffa06aeb-0b90-4271-a385-9a752c1bb5ed</chapterId>
 
+Memasang perangkat lunak di komputer Anda mungkin terlihat sepele, tetapi sebenarnya ini merupakan potensi risiko yang sangat serius bagi keamanan komputer Anda. Perangkat lunak yang diunduh dapat diubah atau diinfeksi oleh penyerang, yang memanfaatkan kesempatan ini untuk menyuntikkan virus, Trojan, dan jenis _malware_ lainnya ke dalam sistem Anda.
+
+Oleh karena itu, memeriksa integritas dan keaslian perangkat lunak sebelum instalasi adalah praktik keamanan yang sangat penting, terutama untuk perangkat lunak sensitif seperti dompet Bitcoin atau pengelola kata sandi. Praktik ini memastikan bahwa perangkat lunak yang Anda unduh sama persis dengan yang diterbitkan oleh pengembang aslinya, tanpa perubahan.
+
+Dalam bab ini, kita akan melihat cara memeriksa integritas dan keaslian file, dan cara melakukannya pada sistem operasi Anda.
 
 
-Menginstal perangkat lunak di komputer Anda mungkin tampak seperti operasi yang sepele, tetapi pada kenyataannya hal ini memiliki potensi risiko yang sangat serius terhadap keamanan komputer Anda. Faktanya, perangkat lunak yang diunduh dapat diubah atau terinfeksi oleh penyerang, yang memanfaatkan kesempatan ini untuk menyuntikkan virus, Trojan, dan jenis *malware* lainnya ke dalam sistem Anda.
+### Mengapa perlu memverifikasi integritas dan keaslian perangkat lunak?
 
+Ketika Anda mengunduh perangkat lunak dari internet, Anda secara implisit memercayai file tersebut untuk dijalankan di komputer Anda. Tetapi kepercayaan ini tidak boleh bersifat buta. Jadi, penting untuk memahami dua konsep fundamental: integritas dan keaslian file.
 
+#### Integritas: Memastikan Tidak Ada Perubahan yang Terjadi
 
-Oleh karena itu, memeriksa integritas dan keaslian perangkat lunak sebelum instalasi adalah praktik keamanan yang sangat penting, terutama ketika menyangkut perangkat lunak sensitif seperti dompet Bitcoin atau pengelola kata sandi. Praktik ini memastikan bahwa perangkat lunak yang diunduh sesuai dengan yang diterbitkan oleh pengembang aslinya, tanpa perubahan.
+Integritas sebuah file menjamin bahwa file tersebut tidak dimodifikasi, baik secara sengaja maupun tidak sengaja, antara waktu diterbitkan oleh pengembang dan waktu Anda mengunduhnya. Bahkan modifikasi sekecil apa pun dapat cukup untuk menyisipkan kode berbahaya ke dalam perangkat lunak.
 
-
-
-Pada bab ini, kita akan melihat cara memeriksa integritas dan keaslian file, dan cara melakukannya pada sistem operasi Anda.
-
-
-
-### Mengapa memverifikasi integritas dan keaslian perangkat lunak?
-
-
-
-Ketika Anda mengunduh perangkat lunak dari Internet, secara implisit Anda mempercayai file tersebut untuk dijalankan pada mesin Anda. Tetapi kepercayaan ini tidak boleh bersifat buta. Jadi, penting untuk memahami dua konsep mendasar: integritas dan keaslian file.
-
-
-
-#### Integritas: memastikan bahwa tidak ada perubahan yang terjadi
-
-
-
-Integritas sebuah file menjamin bahwa file tersebut tidak dimodifikasi, baik secara sengaja maupun tidak sengaja, sejak diterbitkan oleh pengembang hingga Anda mengunduhnya. Modifikasi sekecil apa pun bisa cukup untuk menyisipkan kode berbahaya ke dalam perangkat lunak.
-
-
-
-Modifikasi ini tidak terlihat dengan mata telanjang: file yang diunduh mungkin terbuka dan berjalan dengan normal, tetapi di saat yang sama menjalankan perilaku berbahaya. Oleh karena itu, penting untuk memverifikasi integritasnya dengan menggunakan sidik jari kriptografi (Hash).
-
-
+Modifikasi ini tidak terlihat kasat mata: file yang diunduh mungkin terbuka dan berjalan dengan sempurna dan normal, sementara pada saat yang sama mengeksekusi perilaku berbahaya. Oleh karena itu, penting untuk memverifikasi integritasnya menggunakan sidik jari kriptografi (Hash).
 
 #### Keaslian: menjamin bahwa perangkat lunak berasal dari sumber yang tepat
 
+Sebuah file mungkin utuh (tidak dimodifikasi), tetapi diterbitkan oleh entitas berbahaya yang menyalahgunakan identitas pengembang yang sah. Oleh karena itu, keaslian bertujuan untuk memastikan bahwa file tersebut benar-benar berasal dari sumber resmi, dan bukan dari penipu, situs mirror yang tidak terverifikasi, atau peretas yang telah menyusupi server distribusi.
 
+Verifikasi asal ini dimungkinkan oleh tanda tangan digital, sebuah mekanisme kriptografi yang menghubungkan file tersebut dengan kunci privat pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan kunci publik pengembang (yang didistribusikan melalui saluran aman), Anda dapat yakin bahwa file tersebut benar-benar berasal dari pihak tersebut.
 
-Sebuah berkas mungkin saja masih utuh (belum dimodifikasi), tetapi telah dipublikasikan oleh entitas jahat yang mencatut identitas pengembang yang sah. Oleh karena itu, keaslian bertujuan untuk mengonfirmasi bahwa file tersebut benar-benar berasal dari sumber resmi, dan bukan dari penipu, situs mirror yang tidak diverifikasi, atau peretas yang telah membobol server distribusi.
-
-
-
-Verifikasi asal ini dimungkinkan oleh tanda tangan digital, sebuah mekanisme kriptografi yang menghubungkan file ke kunci pribadi pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan kunci publik pengembang (didistribusikan melalui saluran yang aman), Anda bisa yakin bahwa file tersebut benar-benar berasal dari orang tersebut.
-
-
-
-Dengan memeriksa keaslian (yaitu bahwa file instalasi berasal dari sumber yang benar) dan integritas (yaitu bahwa file tersebut belum dimodifikasi sejak diterbitkan oleh pengembang yang sah), Anda bisa yakin bahwa Anda menginstal perangkat lunak yang tepat.
-
-
+Dengan memeriksa keaslian (yaitu, file instalasi berasal dari sumber yang tepat) dan integritas (yaitu, file tersebut belum dimodifikasi sejak diterbitkan oleh pengembang yang sah), Anda dapat yakin bahwa Anda memasang perangkat lunak yang benar.
 
 #### Solusi teknis: Hash dan tanda tangan digital
 
+Untuk melakukan ini, kita akan menggunakan dua program kriptografi. Yang pertama adalah hashing. Hash adalah string karakter pendek yang dihitung secara deterministik dan tidak dapat diprediksi dari isi sebuah file, menggunakan algoritma hash seperti SHA-256. Dua file yang sama persis akan memiliki Hash yang sama persis, tetapi sedikit saja modifikasi pada file akan menyebabkan Hash berubah sepenuhnya.
 
+Pengembang yang sah biasanya menerbitkan Hash dari file asli di situs web resminya. Dari pihak Anda, Anda akan menghitung Hash dari file instalasi yang Anda unduh secara lokal, untuk membandingkan keduanya. Jika kedua sidik jari tersebut cocok, Anda dapat yakin bahwa file yang diunduh asli dan belum diubah.
 
-Untuk melakukan ini, kita akan menggunakan 2 alat kriptografi. Yang pertama adalah hashing. Hash adalah string karakter pendek yang dihitung secara deterministik dan tidak dapat diprediksi dari isi file, menggunakan algoritma Hash seperti SHA-256. Dua berkas yang sangat identik akan memiliki Hash yang sama persis, tetapi modifikasi sekecil apa pun pada berkas tersebut akan menyebabkan Hash berubah sepenuhnya.
+Program kedua adalah tanda tangan digital. Program ini memverifikasi keaslian perangkat lunak instalasi. Pengembang menandatangani file yang berisi Hash dengan kunci privatnya, dan Anda dapat memverifikasi tanda tangan ini menggunakan kunci publik yang sesuai. Ini membuktikan bahwa file tersebut telah diterbitkan oleh pihak yang tepat.
 
+Sistem ini bergantung pada kriptografi asimetris dan program seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Program-program ini harus dikonfigurasi dengan benar, dan kunci publik pengembang harus diverifikasi melalui saluran aman (situs web resmi, fingerprint di Twitter, dll.). Mari kita lihat sisi praktisnya.
 
-
-Pengembang yang sah biasanya menerbitkan Hash dari file asli di situs web resminya. Sementara itu, Anda akan menghitung Hash secara lokal dari file instalasi yang Anda unduh, untuk membandingkan keduanya. Jika kedua sidik jari tersebut cocok, Anda bisa yakin bahwa file yang diunduh adalah asli dan belum diubah.
-
-
-
-Alat kedua adalah tanda tangan digital. Alat ini memverifikasi keaslian perangkat lunak instalasi. Pengembang menandatangani file yang berisi Hash dengan kunci pribadinya, dan Anda dapat memverifikasi tanda tangan ini menggunakan kunci publik yang sesuai. Ini membuktikan bahwa file tersebut telah diterbitkan oleh orang yang tepat.
-
-
-
-Sistem ini bergantung pada kriptografi asimetris dan alat bantu seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Alat-alat ini harus dikonfigurasi dengan benar, dan kunci publik pengembang harus diverifikasi melalui saluran yang aman (situs web resmi, sidik jari di Twitter...). Mari kita lihat kepraktisannya.
-
-
-
-Untuk mempelajari lebih lanjut tentang fungsi kriptografi Hash dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus CYP 201 gratis yang ditawarkan di Plan ₿ Network:
-
-
+Untuk mempelajari lebih lanjut tentang fungsi hash kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Network.
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Memverifikasi integritas dan keaslian perangkat lunak
 
-
-
 #### Prasyarat
 
-
-
 Jika Anda menjalankan Linux, GPG sudah terinstal pada sebagian besar distribusi. Jika tidak, Anda dapat menginstalnya dengan perintah berikut:
-
-
 
 ```bash
 sudo apt install gnupg
 ```
 
-
-
 ![Image](assets/fr/232.webp)
 
-
-
 Untuk macOS, jika Anda belum menginstal manajer paket Homebrew, lakukan dengan perintah berikut:
-
-
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -2218,73 +2114,39 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-
-
 Kemudian instal GPG dengan perintah ini:
-
-
 
 ```bash
 brew install gnupg
 ```
 
-
-
 Untuk Windows, jika Anda tidak memiliki GPG, Anda dapat menginstal [Gpg4win](https://www.gpg4win.org/).
-
-
 
 ![Image](assets/fr/219.webp)
 
-
-
 #### Unduh dokumen
 
+Untuk memulai, Anda akan membutuhkan beberapa dokumen yang berkaitan dengan perangkat lunak yang ingin Anda instal. Dalam contoh ini, kita akan memeriksa _Sparrow wallet_, sebuah pengelola portofolio Bitcoin. Prosesnya akan serupa untuk perangkat lunak lain: yang perlu Anda lakukan hanyalah menemukan file yang tepat untuk verifikasi.
 
-
-Untuk memulai, Anda memerlukan beberapa dokumen yang berkaitan dengan perangkat lunak yang ingin Anda instal. Dalam contoh ini, kita akan memeriksa *Sparrow wallet*, manajer portofolio Bitcoin. Prosesnya akan serupa dengan perangkat lunak lainnya: yang perlu Anda lakukan adalah menemukan file yang tepat untuk verifikasi.
-
-
-
-Kunjungi situs web resmi [Sparrow wallet di bagian "_Download_"] (https://sparrowwallet.com/download/). Jika Anda ingin melihat program lain, silakan kunjungi situs untuk program tersebut.
-
-
+Kunjungi situs web resmi [Sparrow wallet di bagian "_Download_"](https://sparrowwallet.com/download/). Jika Anda ingin memeriksa program lain, silakan kunjungi situs untuk program tersebut.
 
 ![Image](assets/fr/220.webp)
 
-
-
 Anda juga dapat mengunjungi [repositori GitHub proyek](https://github.com/sparrowwallet/Sparrow/releases).
-
-
 
 ![Image](assets/fr/221.webp)
 
-
-
 Unduh penginstal perangkat lunak untuk sistem operasi Anda.
-
-
 
 ![Image](assets/fr/222.webp)
 
-
-
 Anda juga memerlukan Hash dari file tersebut, yang sering disebut "_SHA256SUMS_" atau "_MANIFEST_".
-
-
 
 ![Image](assets/fr/223.webp)
 
-
-
 Unduh juga tanda tangan PGP dari file tersebut. Ini adalah dokumen `.asc`.
 
-
-
 ![Image](assets/fr/224.webp)
-
-
 
 Pastikan untuk menempatkan semua file ini dalam direktori yang sama untuk memudahkan langkah-langkah berikut.
 

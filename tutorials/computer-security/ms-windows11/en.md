@@ -2,7 +2,7 @@
 name: WINDOWS 11
 description: Microsoft windows 11 installation
 ---
-![cover](assets/en/cover.webp)
+![cover](assets/cover.webp)
 
 ___
 

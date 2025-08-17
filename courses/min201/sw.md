@@ -93,7 +93,7 @@ ASICs ni chips, kulinganishwa na Chip CPU, hata hivyo, wao ni maendeleo ya kufan
 
 Siku hizi, wachimbaji hutumia ASICs maalum kwa operesheni hii, iliyoboreshwa ili kujaribu idadi ya juu ya mchanganyiko na matumizi madogo zaidi ya nishati na haraka iwezekanavyo. Kompyuta hizi, zisizo na uwezo wa kufanya kazi zaidi ya Bitcoin Mining, ni ushahidi unaoonekana wa mageuzi ya kuendelea na kuongezeka kwa utaalamu wa sekta ya Bitcoin Mining. Mageuzi haya ya mara kwa mara yanaonyesha mienendo ya ndani ya Bitcoin, ambapo marekebisho ya ugumu huhakikisha uzalishaji wa block kila baada ya dakika kumi licha ya ongezeko kubwa la uwezo wa Mining.
 
-Ili kuonyesha ukubwa wa mchakato huu, fikiria Miner ya kawaida yenye uwezo wa kufikia TeraHash 14 kwa sekunde, au majaribio trilioni 14 kila sekunde ili kupata Hash sahihi. Katika kiwango cha mtandao wa Bitcoin, sasa tunafikia takriban HexaHash 300 kwa sekunde, tukiangazia nguvu ya pamoja iliyokusanywa katika Bitcoin Mining.
+Ili kuonyesha ukubwa wa mchakato huu, fikiria Miner ya kawaida yenye uwezo wa kufikia TeraHash 14 kwa sekunde, au majaribio trilioni 14 kila sekunde ili kupata Hash sahihi. Katika kiwango cha mtandao wa Bitcoin, sasa tunafikia takriban ExaHash 300 kwa sekunde, tukiangazia nguvu ya pamoja iliyokusanywa katika Bitcoin Mining.
 
 ### Urekebishaji wa ugumu
 

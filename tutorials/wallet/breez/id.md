@@ -8,25 +8,24 @@ description: Lightning Wallet yang memberi Anda kendali.
 
 
 
-Dompet yang dapat dipegang sendiri menjadi pilihan paling aman untuk menyimpan bitcoin Anda sambil memanfaatkan kekuatan dan keunggulan lapisan Lightning Bitcoin. Breez, berkat pendekatannya, sangat menonjol dalam kelompok dompet ini.
+Dompet yang bisa kamu pegang sendiri adalah pilihan paling aman untuk menyimpan bitcoin, sambil tetap memanfaatkan kekuatan dan keunggulan lapisan Lightning Bitcoin. Breez, dengan pendekatannya, menonjol di antara dompet-dompet ini.
 
 
 
 ## Apa yang dimaksud dengan portofolio Breez?
 
 
-Breez adalah Wallet kustodian mandiri yang dibuat oleh perusahaan Breez yang memberi Anda kendali atas bitcoin Anda dan, pada saat yang sama, menawarkan fitur-fitur inovatif dalam satu aplikasi.
+Breez adalah wallet non-kustodian yang dibuat oleh perusahaan Breez, yang memberi kamu kendali penuh atas bitcoin sekaligus menawarkan fitur-fitur inovatif dalam satu aplikasi.
 
-
-Anda dapat mengunduh Breez Wallet di Android dan iOS dari platform unduhan resmi. Dalam tutorial ini, kami akan mengambil pendekatan langsung ke aplikasi pada platform Android. Seluruh proses yang dijelaskan di bawah ini juga berlaku di iOS.
-
-
-
-⚠️ **PENTING**: Sangat penting untuk mengunduh aplikasi dari platform resmi seperti Google Play Store atau Apple Store untuk memastikan keaslian aplikasi dan keamanan aset Anda di masa depan.
+Kamu bisa mengunduh Breez Wallet di Android maupun iOS melalui platform unduhan resmi. Dalam tutorial ini, kita akan langsung menggunakan aplikasi di Android, tapi seluruh proses yang dijelaskan juga berlaku di iOS.
 
 
 
-Di sini, di Android, adalah aplikasi **Breez** (jangan bingung dengan Misty Breez, produk lain dari perusahaan Breez).
+⚠️ **PENTING**: Sangat penting untuk mengunduh aplikasi dari platform resmi seperti Google Play Store atau Apple Store untuk memastikan keaslian aplikasi dan keamanan aset di masa depan.
+
+
+
+Di Android, nama aplikasinya adalah **Breez** (jangan bingung dengan Misty Breez, produk lain dari perusahaan Breez).
 
 
 ![breez-wallet-ps](assets/fr/01.webp)
@@ -45,57 +44,56 @@ Breez memberi Anda pilihan untuk membuat Wallet baru atau memulihkan Lightning W
 
 
 
-Inilah salah satu keunggulan Breez: Anda memiliki kunci akses penuh ke bitcoin Anda. Anda adalah penguasa atas bitcoin Anda.
+Inilah salah satu keunggulan Breez: Kamu memiliki kunci akses penuh ke bitcoin milikmu. Anda adalah penguasa atas kepemilikan bitcoin yang kamu.
 
 
 
-⚠️ Karena portofolio Breez saat ini sedang dalam tahap pengembangan, kami sarankan Anda untuk melakukan transaksi dengan jumlah yang tidak terlalu besar untuk saat ini.
+⚠️ Karena portofolio Breez masih dalam tahap pengembangan, aku sarankan kamu melakukan transaksi dengan jumlah yang tidak terlalu besar dulu untuk saat ini.
 
 
 ![test-breez](assets/fr/03.webp)
 
 
 
-> Bukan kunci Anda, bukan bitcoin Anda.
+> Bukan kunci kamu, bukan bitcoin kamu.
 
-Wallet melakukan sinkronisasi langsung dengan protokol Bitcoin dan memberikan Anda sebuah simpul aktif untuk transaksi Anda.
+Wallet ini melakukan sinkronisasi langsung dengan protokol Bitcoin dan memberi kamu sebuah node aktif untuk transaksi.
 
 
 ![bitcoin-connexion](assets/fr/04.webp)
 
 
-### Simpan kunci Anda
+### Simpan kuncimu
 
 
 Hal pertama yang harus dilakukan ketika membuat portofolio Bitcoin/Lightning adalah menyimpan kuncinya.
 
 
-Pada Menu, gulir ke bawah ke **Preferensi** kemudian **Keamanan**.
+Pada Menu, scroll ke bawah ke **Preferensi** kemudian **Keamanan**.
 
 
-Breez memungkinkan Anda menyimpan 12 kata pemulihan di Google Drive atau server pribadi jarak jauh yang dapat Anda konfigurasi.
+Breez memungkinkan kamu menyimpan 12 kata pemulihan di Google Drive atau server pribadi jarak jauh yang bisa kamu atur sendiri.
 
 
-Kemudian aktifkan opsi **Cadangan yang berbeda**: ini akan menampilkan kata kunci dalam portofolio Anda yang dapat Anda simpan secara manual.
+Kemudian aktifkan opsi **Cadangan yang berbeda**: ini akan menampilkan kata kunci dalam portofolio yang dapat kamu simpan secara manual.
 
 
 ![sécurité](assets/fr/06.webp)
 
 
-Kemudian ikuti petunjuk untuk mengonfirmasi pencadangan Anda dan menghubungkan akun pencadangan jarak jauh ke portofolio Breez.
+Kemudian ikuti petunjuk untuk mengonfirmasi pencadanganmu dan menghubungkan akun pencadangan jarak jauh ke portofolio Breez.
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-⚠️ **PENTING**: Untuk menambahkan keamanan Layer ekstra pada Breez Wallet Anda, Anda dapat menentukan kode PIN dan mengaturnya untuk mengautentikasi bahwa akses ke Wallet telah diotorisasi.
-
+⚠️ **PENTING**: Untuk menambahkan lapisan keamanan ekstra di Breez Wallet, kamu bisa menentukan kode PIN dan mengaturnya untuk mengautentikasi akses ke wallet.
 
 
 ### Melakukan transaksi pertama Anda dengan Breez
 
 
-Breez memprioritaskan intuisi dalam aplikasinya. Menerima bitcoin pertama Anda dengan Wallet ini sangat mudah. Di halaman beranda, klik **Terima**, lalu pilih metode yang Anda inginkan untuk menerima bitcoin Anda.
+Breez memprioritaskan kemudahan penggunaan dalam aplikasinya. Menerima bitcoin pertamamu dengan wallet ini sangat mudah. Di halaman beranda, klik **Terima**, lalu pilih metode yang kamu inginkan untuk menerima bitcoin.
 
 
 Breez menawarkan tiga pilihan:
@@ -113,21 +111,21 @@ Breez menawarkan tiga pilihan:
 
 
 
-Masukkan deskripsi untuk Invoice Anda, lalu jumlah yang ingin Anda terima.
+Masukkan deskripsi untuk Invoice, lalu jumlah yang ingin kamu terima.
 
 
 
-⚠️ Untuk transaksi pertama Anda di Breez, Anda harus membayar biaya pembukaan dan pemeliharaan saluran sebesar **2500 satoshi**. Tidak seperti kebanyakan dompet Lightning lainnya, Breez menyediakan seluruh infrastruktur node Lightning, memberikan Anda kebebasan untuk mengelola bitcoin Anda. Anda harus membuka saluran pembayaran Anda sendiri, dan kebebasan untuk berkomunikasi langsung dengan node Lightning dari dalam aplikasi.
+⚠️ Untuk transaksi pertamamu di Breez, kamu harus membayar biaya pembukaan dan pemeliharaan saluran sebesar **2.500** satoshi. Tidak seperti kebanyakan dompet Lightning lainnya, Breez menyediakan seluruh infrastruktur node Lightning, memberi kamu kebebasan untuk mengelola bitcoin sendiri. Kamu harus membuka saluran pembayaranmu sendiri dan memiliki kebebasan untuk berkomunikasi langsung dengan node Lightning dari dalam aplikasi.
 
 
 
-*Tenang saja, Anda hanya perlu membayar biaya ini sekali saja, saat Anda menginisialisasi portofolio Anda*
+*Tenang saja, kamu hanya perlu membayar biaya ini sekali saja, saat menginisialisasi portofoliomu.*
 
 
 ![receive-invoice](assets/fr/08.webp)
 
 
-Setelah Invoice Anda dibuat, Anda bisa membagikannya, atau memindainya untuk membayar tagihan dan menerima bitcoin Anda.
+Setelah Invoice dibuat, kamu bisa membagikannya, atau memindainya untuk membayar tagihan dan menerima bitcoin kamu.
 
 
 
@@ -140,7 +138,7 @@ Breez menawarkan tiga opsi untuk mengirim bitcoin.
 
 
 - Tempelkan Invoice atau ID pengguna**: Bayar Lightning Invoice.
-- Hubungkan untuk membayar**: Buat sesi dan undang penerima Anda untuk bergabung dalam sesi tersebut untuk mengirimkan bitcoin kepada mereka.
+- Hubungkan untuk membayar**: Buat sesi dan undang penerima  untuk bergabung dalam sesi tersebut untuk mengirimkan bitcoin kepada mereka.
 - Kirim ke BTC Address**: Bertransaksi di jaringan utama Bitcoin.
 
 
@@ -163,22 +161,22 @@ Kemudian masukkan detail Penerima Manfaat atau pindai untuk memulai pembayaran I
 Selain menjadi Wallet yang intuitif untuk menyimpan bitcoin, Breez adalah ekosistem yang inovatif.
 
 
-Anda akan menemukan layanan yang berguna secara langsung di dalam aplikasi.
+Kamu akan menemukan layanan yang berguna secara langsung di dalam aplikasi.
 
 
 
 
 
-- Mendengarkan podcast**: Breez adalah pemutar podcast 2.0 yang memungkinkan Anda mendukung kreator yang Anda sukai dengan donasi Bitcoin.
+- Mendengarkan podcast**: Breez adalah pemutar podcast 2.0 yang memungkinkan kamu mendukung kreator yang kamu sukai dengan donasi Bitcoin.
 
 
-Dari menu, pilih **Podcasts**, lalu cari, temukan, dan dengarkan pembuat konten favorit Anda.
+Dari menu, pilih **Podcasts**, lalu cari, temukan, dan dengarkan pembuat konten favoritmu.
 
 
 ![podcasts](assets/fr/11.webp)
 
 
-Dukung karya pembuat konten yang Anda sukai dengan memberikan donasi.
+Dukung karya pembuat konten yang kamu sukai dengan memberikan donasi.
 
 
 ![boost](assets/fr/12.webp)
@@ -186,31 +184,30 @@ Dukung karya pembuat konten yang Anda sukai dengan memberikan donasi.
 
 
 
-- Tempat Penjualan**: Breez beradaptasi dengan sempurna untuk bisnis Anda, memungkinkan Anda untuk menjalankan kasir di dalam aplikasi. Anda dapat mengelola inventaris toko Anda, menerima pembayaran dari pelanggan Anda dan faktur yang dapat dicetak generate untuk setiap pembelian yang dilakukan. Terlebih lagi, Anda dapat menemukan mata uang lokal Anda dalam banyak mata uang yang didukung oleh Breez.
+- Tempat Penjualan**: Breez beradaptasi dengan sempurna untuk bisnismu, memungkinkan kamu menjalankan kasir langsung di dalam aplikasi. Kamu bisa mengelola inventaris toko, menerima pembayaran dari pelanggan, dan membuat faktur yang bisa dicetak untuk setiap pembelian. Selain itu, kamu bisa menemukan mata uang lokalmu di antara banyak mata uang yang didukung oleh Breez..
 
 
 
-Anda dapat menyesuaikan mata uang Anda di menu **Preferensi > Mata Uang Fiat**.
+Kamu dapat menyesuaikan mata uang di menu **Preferensi > Mata Uang Fiat**.
 
 
 ![custom-fiat](assets/fr/13.webp)
 
 
-Dalam menu **Point of Sale (POS)**, Anda dapat mengonfigurasi item yang Anda jual di toko Anda.
+Dalam menu **Point of Sale (POS)**, Kamu bisa mengonfigurasi item yang kamu jual di tokomu.
 
 
 ![products](assets/fr/14.webp)
 
 
-Setelah inventaris Anda selesai, Anda dapat dengan mudah menagih Invoice kepada pelanggan Anda untuk produk-produk ini, dan menerima Bitcoin ke dalam bisnis Anda.
-
+Setelah inventarismu selesai, kamu bisa dengan mudah menagih invoice kepada pelanggan untuk produk-produk tersebut, dan menerima Bitcoin ke dalam bisnismu.
 
 ![print-receipe](assets/fr/15.webp)
 
 
 
 
-- Mengakses layanan pihak ketiga**: Breez mengintegrasikan layanan pihak ketiga yang memungkinkan Anda mengambil lebih banyak tindakan tanpa harus meninggalkan portofolio. Ini termasuk Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Mengakses layanan pihak ketiga**: Breez mengintegrasikan layanan pihak ketiga yang memungkinkanmu mengambil lebih banyak tindakan tanpa harus meninggalkan portofolio. Ini termasuk Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)
@@ -219,12 +216,12 @@ Setelah inventaris Anda selesai, Anda dapat dengan mudah menagih Invoice kepada 
 ### Kekuatan Breez
 
 
-Breez menjadikan otonomi Anda sebagai kekuatannya. Infrastruktur Breez memberi Anda simpul fungsional yang dapat digunakan untuk berinteraksi dari dalam aplikasi (opsi **Pengembang**). Anda juga memiliki otonomi untuk menyesuaikan konfigurasi dasar, baik di :
+reez menjadikan otonomimu sebagai kekuatannya. Infrastruktur Breez memberimu node fungsional yang bisa digunakan untuk berinteraksi langsung dari dalam aplikasi (opsi **Pengembang**). Kamu juga memiliki kebebasan untuk menyesuaikan konfigurasi dasar, baik di:
 
 
 
 
-- Koneksi ke Bitcoin/Simpul petir: Menu **Preferensi > Jaringan**.
+- Koneksi ke Bitcoin/Node Lightning: Menu **Preferensi > Jaringan**.
 
 
 ![reseau](assets/fr/17.webp)
@@ -247,17 +244,17 @@ Breez menjadikan otonomi Anda sebagai kekuatannya. Infrastruktur Breez memberi A
 
 
 
-⚠️ **PENTING**: Kami menyarankan agar Anda memiliki pengalaman dengan konfigurasi Lightning sebelum melakukan perubahan apa pun. Transaksi Anda di masa mendatang akan terpengaruh secara langsung oleh perubahan yang Anda lakukan dan bitcoin Anda bisa saja hilang.
+⚠️ **PENTING**: Kami menyarankan agar kamu memiliki pengalaman dengan konfigurasi Lightning sebelum melakukan perubahan apa pun. Transaksimu di masa depan bisa langsung terpengaruh oleh perubahan yang kamu lakukan, dan bitcoin-mu berisiko hilang.
 
 
 
-Bagi yang lebih berpengalaman, Anda dapat berinteraksi dengan node dari menu **Preferences>Developers**.
+Bagi yang lebih berpengalaman, kamu dapat berinteraksi dengan node dari menu **Preferences>Developers**.
 
 
-Di sini Anda akan menemukan baris perintah Lightning yang dapat Anda jalankan dengan menambahkan argumen yang diperlukan.
+Di sini kamu akan menemukan baris perintah Lightning yang dapat kamu jalankan dengan menambahkan argumen yang diperlukan.
 
 
 ![dev-mode](assets/fr/20.webp)
 
 
-Selamat, Anda sekarang telah memahami Breez Wallet. Jika Anda merasa artikel ini bermanfaat, berikan jempol untuk Green. Kami akan sangat senang mendengar pendapat Anda. Kami tunggu kabar dari Anda!
+Selamat, kamu sekarang telah memahami Breez Wallet. Jika kamu merasa artikel ini bermanfaat, berikan kami jempol. Kami akan sangat senang mendengar pendapatmu. Kami tunggu kabar selanjutnya!

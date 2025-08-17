@@ -1628,7 +1628,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Enfin, changez ce mot de passe régulièrement, environ tous les 3 à 6 mois, surtout si votre machine est utilisée dans des environnements partagés ou mobiles.
 
-#### Sécuriser l’accès au BIOS/UEFI
+#### Sécurisation de l’accès au BIOS/UEFI
 
 La sécurité de votre ordinateur ne commence pas une fois le système d’exploitation lancé, mais dès les premiers instants du démarrage. Avant même que Windows, Linux ou macOS ne s’exécute, un programme intégré à la carte mère que l'on appelle BIOS ou UEFI, selon la génération de votre machine, prend le contrôle de la machine pour initialiser le matériel et lancer le processus de démarrage.
 
@@ -1733,7 +1733,7 @@ https://planb.network/tutorials/computer-security/operating-system/virtualbox-64
 
 En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
 
-Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'executer dans une VM pour observer son comportement en toute sécurité. Cela peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
+Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'exécuter dans une VM pour observer son comportement en toute sécurité. Cela peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
 
 Enfin, il est important de comprendre que la sécurité apportée par les VM dépend de leur bonne configuration. Par défaut, certains hyperviseurs autorisent les échanges de fichiers entre l’hôte et la VM, ou permettent l’accès aux périphériques USB. Ces fonctions doivent être désactivées pour maximiser l’isolation.
 
@@ -1753,8 +1753,8 @@ Voici quelques solutions concrètes pour faire du sandboxing en fonction de votr
 - Firejail : un outil puissant et léger qui isole les applications à l’aide de profils prédéfinis. Il fonctionne bien avec de nombreux logiciels comme Firefox, VLC ou Telegram ;
 - Flatpak : comme nous avons déjà vu précédemment, ce n'est pas un logiciel de sanboxing en soit, mais un gestionnaire de paquet logiciel qui intègre du sandboxing : chaque application installée via Flatpak est isolée du système hôte par défaut, avec un contrôle fin des permissions (accès au micro, à la caméra, au réseau...).
 
-**macOS** :
-- Sur macOS le sandboxing est une fonctionnalité native intégrée au noyau, mais il n’est activé que si le développeur du logiciel le spécifie. Les applications de l'App Store sont automatiquement sandboxées, mais celles installées depuis le web (ou en ligne de commande) ne le sont pas par défaut.
+**MacOS** :
+- Sur macOS, le sandboxing est une fonctionnalité native intégrée au noyau, mais il n’est activé que si le développeur du logiciel le spécifie. Les applications de l'App Store sont automatiquement sandboxées, mais celles installées depuis le web (ou en ligne de commande) ne le sont pas par défaut.
 
 Enfin, même si le sandboxing offre une couche de protection efficace, il est important de comprendre qu'il ne remplace pas entièrement une VM ou un système bien cloisonné.
 

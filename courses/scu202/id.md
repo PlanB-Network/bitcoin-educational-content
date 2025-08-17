@@ -1992,7 +1992,7 @@ Jika tombol hapus tidak muncul, berarti aplikasi tersebut tidak diinstal dari Ap
 
 Ekstensi dan add-on browser Anda sering kali diabaikan, padahal mereka juga merupakan celah serangan yang sering terjadi. Ekstensi yang berbahaya atau sudah usang dapat mencegat data penjelajahan Anda, menyuntikkan kode, atau memata-matai Anda secara diam-diam.
 
-Buka pengaturan peramban Anda dan nonaktifkan atau hapus ekstensi apa pun yang tidak Anda gunakan atau tidak Anda ketahui. Pertahankan hanya ekstensi yang benar-benar diperlukan, berasal dari sumber tepercaya, dan masih dijaga.
+Buka pengaturan browser Anda dan nonaktifkan atau hapus ekstensi apa pun yang tidak Anda gunakan atau tidak Anda ketahui. Pertahankan hanya ekstensi yang benar-benar diperlukan, berasal dari sumber tepercaya, dan masih dijaga.
 
 ### Pemantauan dan audit sistem
 
@@ -2340,145 +2340,83 @@ Enkripsi penuh seperti kunci gembok: selama kata sandi tidak diberikan, data tet
 
 #### Solusi teknis apa yang ditawarkan sistem Anda?
 
+- *Linux (Debian)*
 
-
-
-
-- Linux (Debian)*
-
-
-
-Pada Linux, solusi standarnya adalah LUKS (*Linux Unified Key Setup*). LUKS adalah sistem manajemen volume terenkripsi yang terintegrasi ke dalam sebagian besar distribusi. Ketika sistem pertama kali diinstal, biasanya Anda akan diminta untuk mengenkripsi seluruh disk komputer. Tentu saja, saya sangat menyarankan agar Anda mengaktifkan opsi ini. Setelah enkripsi diaktifkan, sistem akan meminta kata sandi pada setiap kali boot, bahkan sebelum OS dijalankan. Hal ini memastikan bahwa akses fisik ke disk tidak dapat melewati keamanan.
-
+Pada Linux, solusi standarnya adalah LUKS (*Linux Unified Key Setup*). LUKS adalah sistem manajemen volume terenkripsi yang terintegrasi ke dalam sebagian besar distribusi. Saat sistem pertama kali diinstal, Anda umumnya akan diminta untuk mengenkripsi seluruh disk komputer. Tentu saja, saya sangat merekomendasikan Anda untuk mengaktifkan opsi ini. Setelah enkripsi diaktifkan, sistem akan meminta kata sandi pada setiap boot, bahkan sebelum OS dimuat. Ini memastikan bahwa akses fisik ke disk tidak dapat melewati sistem keamanan.
 
 https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Jika Anda ingin mengenkripsi disk eksternal atau stik USB, hal ini juga dapat dilakukan dari baris perintah atau melalui Interface grafis. Disk harus diformat, sehingga semua data yang ada akan hilang jika tidak dicadangkan terlebih dahulu.
-
-
+Jika Anda ingin mengenkripsi disk eksternal atau flash drive USB, ini juga dapat dilakukan dari baris perintah atau melalui Interface grafis. Disk tersebut harus diformat, sehingga semua data yang ada akan hilang jika tidak dicadangkan terlebih dahulu.
 
 **Melalui terminal**
 
-
-
 Pastikan Anda telah menginstal paket *cryptsetup*:
-
-
 
 ```bash
 sudo apt update
 sudo apt install cryptsetup
 ```
 
-
-
-Mulailah dengan mengidentifikasi kunci USB Anda dengan perintah berikut:
-
-
+Mulailah dengan mengidentifikasi flash drive USB USB Anda dengan perintah berikut:
 
 ```bash
 lsblk
 ```
 
-
-
 Anda akan melihat perangkat seperti `/dev/sdb` dengan partisi yang terkait, misalnya `/dev/sdb1`. Berhati-hatilah dalam memilih disk yang tepat, karena disk tersebut akan terhapus!
 
-
-
-Untuk mengenkripsi kunci, jalankan perintah berikut untuk menginisialisasi enkripsi:
-
-
+Untuk mengenkripsi _key_, jalankan perintah berikut untuk menginisialisasi enkripsi:
 
 ```bash
 sudo cryptsetup luksFormat /dev/sdb
 ```
 
-
-
-Ketik "YA" dengan huruf besar untuk mengonfirmasi operasi, lalu pilih dan konfirmasikan passphrase yang kuat. Kata sandi ini akan memungkinkan Anda untuk mengakses data Anda: ingatlah untuk membuat cadangan, karena tanpa kata sandi ini, akses ke data kunci akan hilang secara permanen.
-
-
+Ketik "YES" dengan huruf besar untuk mengonfirmasi operasi, lalu pilih dan konfirmasikan passphrase yang kuat. Kata sandi ini akan memungkinkan Anda untuk mengakses data Anda: ingatlah untuk membuat cadangan, karena tanpa kata sandi ini, akses ke data  _key_ akan hilang secara permanen.
 
 ![Image](assets/fr/238.webp)
 
-
-
-Membuka kunci dan membuka volume:
-
-
-
+Membuka  _key_ dan membuka volume
 ```bash
 sudo cryptsetup open /dev/sdb encrypted_usb
 ```
 
-
-
-Anda harus memasukkan passphrase Anda untuk membuka kunci volume. `encrypted_usb` adalah nama yang diberikan pada volume yang telah didekripsi.
-
-
+Anda harus memasukkan passphrase Anda untuk membuka  _key_ volume. `encrypted_usb` adalah nama yang diberikan pada volume yang telah didekripsi.
 
 ![Image](assets/fr/239.webp)
 
-
-
-Kemudian format partisi yang didekripsi. Untuk format Linux asli:
-
-
+Kemudian format partisi yang didekripsi. Untuk format hanya Linux :
 
 ```bash
 sudo mkfs.ext4 /dev/mapper/encrypted_usb
 ```
 
-
-
 Atau, jika Anda menginginkan kompatibilitas dengan Windows:
-
-
 
 ```bash
 sudo mkfs.vfat /dev/mapper/encrypted_usb
 ```
 
-
-
 ![Image](assets/fr/240.webp)
 
-
-
-Pasang kunci untuk digunakan:
-
-
+Pasang  _key_ untuk digunakan:
 
 ```bash
 sudo mkdir -p /mnt/usb
 sudo mount /dev/mapper/encrypted_usb /mnt/usb
 ```
 
+Anda sekarang dapat mengakses  _key_ Anda melalui direktori `/mnt/usb`, dan membaca serta menulis file seperti pada volume lainnya.
 
-
-Anda sekarang dapat mengakses kunci Anda melalui direktori `/mnt/usb`, dan membaca serta menulis file seperti pada volume lainnya.
-
-
-
-Untuk membongkar dan mengenkripsi ulang kunci:
-
-
+Untuk merubah dan mengenkripsi ulang  _key_:
 
 ```bash
 sudo umount /mnt/usb
 sudo cryptsetup close encrypted_usb
 ```
 
+Anda kemudian dapat melepas flash drive USB dengan aman.
 
-
-Anda kemudian dapat melepas kunci USB dengan aman.
-
-
-
-Untuk penggunaan flash drive USB Anda di masa mendatang:
-
-
+Untuk penggunaan flash drive USB Anda selanjutnya:
 
 ```bash
 sudo cryptsetup open /dev/sdb encrypted_usb
@@ -2488,163 +2426,84 @@ sudo umount /mnt/usb
 sudo cryptsetup close encrypted_usb
 ```
 
-
-
 ![Image](assets/fr/241.webp)
-
-
 
 Jika mau, Anda juga bisa mengotomatiskan urutan ini menggunakan skrip Python atau Bash.
 
+**Melalui GNOME Disks:**
 
-
-
-**Melalui Disk GNOME:**
-
-
-
-Solusi lainnya adalah menggunakan perangkat lunak GNOME Disks dengan grafis Interface, yang sering kali lebih sederhana daripada menggunakan terminal. Biasanya, utilitas ini sudah terinstal di Ubuntu. Jika tidak demikian, Anda dapat menginstalnya secara manual dengan perintah berikut:
-
-
+Solusi lainnya adalah menggunakan perangkat lunak GNOME Disks dengan Interface grafisnya, yang seringkali lebih sederhana daripada menggunakan terminal. Biasanya, utilitas ini sudah terinstal sebelumnya pada Ubuntu. Jika tidak demikian, Anda dapat menginstalnya secara manual dengan perintah berikut:
 
 ```bash
 sudo apt update
 sudo apt install -y gnome-disk-utility
 ```
 
-
-
 Untuk membuka perangkat lunak, masuk ke menu aplikasi Ubuntu dan cari "*Disks*". Biasanya ditemukan secara default di direktori "*Utilities*".
 
-
-
-Pada kolom sebelah kiri, cari kunci USB Anda. Jika partisi sudah ada, pilih partisi tersebut; jika belum, buatlah partisi baru: klik tombol "+" di bawah daftar partisi.
-
-
+Pada kolom sebelah kiri, cari flash drive USB Anda. Jika partisi sudah ada, pilih partisi tersebut; jika belum, buatlah partisi baru: klik tombol "+" di bawah daftar partisi.
 
 ![Image](assets/fr/242.webp)
 
-
-
-Kemudian pilih partisi yang akan dienkripsi. Klik ikon roda gigi, lalu pilih "Format Partisi...".
-
-
+Kemudian pilih partisi yang akan dienkripsi. Klik ikon roda gigi, lalu pilih "Format Partition...".
 
 ![Image](assets/fr/243.webp)
 
-
-
-Di dalam:
-
-
-
+Isi form:
 
 - Pada "Nama volume", masukkan nama (misalnya `usb`);
-- Pilih format "Disk internal untuk digunakan dengan sistem Linux saja (Ext4)";
-- Centang kotak "Volume yang dilindungi kata sandi (LUKS)".
-
-
+- Pilih format "Internal disk for use with Linux systems only (Ext4)";
+- Centang kotak "Password protected volume (LUKS)".
 
 ![Image](assets/fr/244.webp)
 
-
-
 Masukkan dan konfirmasikan passphrase yang kuat.
-
-
 
 ![Image](assets/fr/245.webp)
 
-
-
 Konfirmasikan dan tunggu hingga partisi selesai diformat (semua data akan dihapus).
-
-
 
 ![Image](assets/fr/246.webp)
 
-
-
 Setelah proses selesai, partisi akan muncul dengan gembok kecil. Pilihlah, lalu klik gembok tersebut untuk membukanya.
-
-
 
 ![Image](assets/fr/247.webp)
 
-
-
-Masukkan kata sandi, lalu klik "Buka kunci".
-
-
+Masukkan kata sandi, lalu klik "Unlock".
 
 ![Image](assets/fr/248.webp)
 
-
-
 Volume akan secara otomatis terpasang dan dapat diakses dari pengelola file Anda, biasanya di direktori `/media/username/usb`.
-
-
 
 ![Image](assets/fr/249.webp)
 
+Untuk melepas flash drive USB dan mengaktifkan kembali enkripsi, klik ikon gembok sekali lagi di GNOME Disks.
 
-
-Untuk melepas kunci USB dan mengaktifkan kembali enkripsi, klik ikon gembok sekali lagi di GNOME Disk.
-
-
-
-Terakhir, klik tombol berbentuk panah di sudut kanan atas untuk mengeluarkan kunci dari PC Anda. Pada saat Anda masuk kembali, Ubuntu akan secara otomatis mendeteksi kunci terenkripsi dan meminta kata sandi, tanpa harus membuka Disk GNOME.
-
-
+Terakhir, klik tombol berbentuk panah di sudut kanan atas untuk mencabut flash drive usb dari PC Anda. Pada saat Anda masuk kembali, Ubuntu akan secara otomatis mendeteksi kunci terenkripsi dan meminta kata sandi, tanpa harus membuka GNOME Disks.
 
 ![Image](assets/fr/250.webp)
 
+- *Windows:*
 
-
-
-
-- Windows:**
-
-
-
-Di bawah Windows, solusi asli memungkinkan Anda untuk mengenkripsi disk Anda. Cara mengaktifkannya mudah: cukup buka pengaturan "*Privasi & Keamanan*", lalu centang kotak "*Enkripsi perangkat*" di sub-menu dengan nama yang sama. Kunci pemulihan kemudian akan secara otomatis disimpan di akun Microsoft Anda yang terkait.
-
-
+Pada Windows, ada solusi bawaan yang memungkinkan Anda mengenkripsi disk Anda. Mengaktifkannya mudah: cukup buka pengaturan "_Privacy & Security_", lalu centang kotak "_Device encryption_" di submenu dengan nama yang sama. Kunci pemulihan kemudian akan secara otomatis disimpan di akun Microsoft Anda yang terkait.
 
 ![Image](assets/fr/251.webp)
 
+Jika Anda menggunakan akun lokal, atau jika komputer Anda tidak mendukung fitur ini secara bawaan, Anda dapat mengatur _BitLocker_ secara manual (perangkat lunak enkripsi berbayar dari Microsoft). Namun, ada juga alternatif sumber terbuka seperti _VeraCrypt_.
 
-
-Jika Anda menggunakan akun lokal, atau jika komputer Anda tidak mendukung fitur ini, Anda bisa mengatur *BitLocker* secara manual (perangkat lunak enkripsi milik Microsoft). Tetapi ada juga alternatif sumber terbuka seperti *VeraCrypt*.
-
-
-
-*VeraCrypt* adalah perangkat lunak gratis lintas platform yang kompatibel dengan Windows, Linux, dan macOS. Perangkat lunak ini dapat digunakan untuk mengenkripsi seluruh disk atau partisi, atau untuk membuat file container yang berfungsi sebagai disk virtual yang aman. Interface dari VeraCrypt memungkinkan volume ini untuk dipasang seperti disk konvensional, hanya dapat diakses setelah autentikasi.
-
-
+_VeraCrypt_ adalah free software dan lintas-platform yang kompatibel dengan Windows, Linux, dan macOS. Ini dapat digunakan untuk mengenkripsi seluruh disk atau partisi, atau untuk membuat kontainer file yang berfungsi sebagai disk virtual yang aman. Interface VeraCrypt memungkinkan volime ini dipasang seperti disk konvensional, dan hanya dapat diakses setelah otentikasi.
 
 Untuk mempelajari lebih lanjut mengenai solusi ini, silakan baca tutorial lengkap ini:
 
-
-
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
+- *macOS :*
 
-
-
-- macOS :**
-
-
-
-Pada macOS, enkripsi disk sistem didasarkan pada *FileVault*, fitur asli yang dapat diakses dari pengaturan keamanan. Jika Mac Anda dilengkapi dengan chip Apple Silicon (M1, M2...) atau chip T2, enkripsi perangkat keras sudah diaktifkan secara permanen. Namun, mengaktifkan FileVault akan menambah keamanan ekstra Layer dengan mengenkripsi seluruh volume sistem.
-
-
+Pada macOS, enkripsi disk sistem didasarkan pada _FileVault_, sebuah fitur bawaan yang dapat diakses dari pengaturan keamanan. Jika Mac Anda dilengkapi dengan chip Apple Silicon (M1, M2...) atau chip T2, enkripsi perangkat keras sudah diaktifkan secara permanen. Namun, mengaktifkan _FileVault_ menambahkan lapisan keamanan ekstra dengan mengenkripsi seluruh volume sistem.
 
 ![Image](assets/fr/252.webp)
 
-
-
-Setelah FileVault diaktifkan, Anda harus memilih metode pemulihan jika terjadi kehilangan kata sandi: gunakan akun *iCloud* Anda, atau generate, sebuah kunci cadangan yang unik. Kunci ini harus disimpan di tempat yang aman, karena jika hilang, data Anda tidak dapat diakses secara permanen.
+Setelah FileVault diaktifkan, Anda akan diminta untuk memilih metode pemulihan jika kata sandi hilang: entah menggunakan akun _iCloud_ Anda, atau membuat kunci cadangan unik. Kunci ini harus disimpan di tempat yang aman, karena kehilangannya akan membuat data Anda tidak dapat diakses secara permanen.
 
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
 
@@ -2654,37 +2513,41 @@ Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakuka
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
 
-Setelah enkripsi dilakukan, drive eksternal hanya dapat dipasang dengan memasukkan kata sandi ini. Sistem kemudian akan mendekripsi dengan cepat.
+  Untuk media penyimpanan eksternal (hard disk, flash drive USB, dll.), enkripsi dilakukan menggunakan Utilitas Disk. Anda harus memformat ulang volume tersebut secara keseluruhan:
+  
+- Pilih perangkat, klik "_Delete_"
+- Pilih skema "_GUID Partition Table_"
+- Kemudian pilih format sistem file terenkripsi (_APFS atau Mac OS extended_)
+- Pilih kata sandi yang kuat
+- Klik "_Delete_" lalu "_OK_" dan enkripsi selesai
+
+Setelah enkripsi diterapkan, drive eksternal hanya dapat dipasang dengan memasukkan kata sandi ini. Sistem kemudian akan mendekripsinya secara langsung.
 
 #### Beberapa rekomendasi untuk cadangan terenkripsi Anda
 
-Sebelum mengenkripsi sebuah media, Anda perlu mencadangkan semua data yang ada di dalamnya (kecuali jika media itu kosong, tentu saja), karena prosedur enkripsi umumnya menghapus konten awal.
+Sebelum mengenkripsi media, Anda perlu mencadangkan semua data yang di dalamnya (kecuali jika kosong, tentu saja), karena prosedur enkripsi umumnya menghapus konten awal.
 
-Pemilihan kata sandi juga sangat penting: kata sandi harus panjang, rumit, dan unik, karena ini adalah satu-satunya perlindungan antara data Anda dan pihak ketiga yang jahat. Anda juga perlu membuat cadangan, misalnya di pengelola kata sandi, karena tidak seperti layanan online, tidak ada mekanisme pemulihan. Jika Anda lupa kata sandi Anda, data akan hilang untuk selamanya.
+Pemilihan kata sandi juga sangat penting: kata sandi harus panjang, kompleks, dan unik, karena itu adalah satu-satunya perlindungan antara data Anda dan pihak ketiga yang berniat jahat. Anda juga perlu membuat cadangan, misalnya di pengelola kata sandi, karena tidak seperti layanan online, tidak ada mekanisme pemulihan. Jika Anda lupa kata sandi, data akan hilang selamanya.
 
 ### Enkripsi file selektif
 
-Dalam beberapa kasus, tidak perlu atau tidak praktis untuk mengenkripsi seluruh disk Hard atau media eksternal. Dalam kasus seperti itu, Anda dapat memilih enkripsi selektif, yang hanya mengamankan file atau direktori tertentu yang berisi data sensitif.
+Dalam beberapa kasus, tidaklah perlu maupun praktis untuk mengenkripsi seluruh hard disk atau media eksternal. Dalam situasi seperti itu, Anda dapat memilih enkripsi selektif, yang melibatkan pengamanan hanya pada file atau direktori tertentu yang mengandung data sensitif.
 
-Salah satu metode yang paling terkenal untuk mengenkripsi file adalah dengan menggunakan GPG. Alat ini didasarkan pada kriptografi asimetris: Anda memiliki sepasang kunci, satu kunci publik, yang dapat Anda distribusikan secara bebas kepada koresponden Anda, dan kunci pribadi, yang harus tetap dirahasiakan. File dienkripsi menggunakan kunci publik penerima, tetapi hanya dapat didekripsi menggunakan kunci pribadinya.
+Salah satu metode paling dikenal untuk mengenkripsi file adalah dengan menggunakan GPG. Program ini didasarkan pada kriptografi asimetris: Anda memiliki sepasang kunci, satu publik yang dapat Anda distribusikan secara bebas kepada koresponden Anda, dan yang lainnya privat, yang harus tetap dirahasiakan. File dienkripsi menggunakan kunci publik penerima, tetapi hanya dapat didekripsi menggunakan kunci privatnya. 
 
-Protokol ini sangat cocok untuk bertukar file sensitif secara aman dengan orang lain, tanpa berbagi kata sandi. Untuk penggunaan pribadi atau sesekali, GPG juga memungkinkan enkripsi simetris: file kemudian dilindungi oleh kata sandi unik yang hanya diketahui oleh Anda.
+Protokol ini sempurna untuk bertukar file sensitif secara aman dengan orang lain, tanpa berbagi kata sandi. Untuk penggunaan pribadi atau sesekali, GPG juga memungkinkan enkripsi simetris: berkas tersebut kemudian dilindungi oleh kata sandi unik yang hanya Anda ketahui.
 
-Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka ini memungkinkan Anda untuk membuat brankas: direktori khusus tempat semua file yang disimpan secara otomatis dienkripsi. Brankas ini bisa disinkronkan dengan layanan awan seperti Dropbox, Google Drive atau Nextcloud tanpa penyedia layanan memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
+Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak open source ini memungkinkan Anda untuk membuat brankas: sebuah direktori khusus di mana semua file yang ditempatkan secara otomatis dienkripsi. Brankas ini dapat disinkronkan dengan layanan cloud seperti Dropbox, Google Drive, atau Nextcloud tanpa penyedia tersebut pernah memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
 
 https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
-
-
 ![Image](assets/fr/256.webp)
-
-
 
 https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
-Terakhir, Anda juga dapat menggunakan VeraCrypt dalam mode kontainer, yang membuat file yang bertindak sebagai arsip terenkripsi, yang dapat dipasang seperti sebuah disk.
+Terakhir, VeraCrypt juga dapat digunakan dalam mode kontainer, yang menciptakan file yang berfungsi sebagai arsip terenkripsi, dapat dipasang seperti disk.
 
-Setelah Anda mempelajari cara melindungi data pribadi Anda dari kehilangan dan pencurian, bab berikutnya akan membahas aspek penting lainnya: cara mencegah file pribadi Anda menjadi vektor serangan melalui metadatanya.
+Sekarang setelah Anda mempelajari cara melindungi data pribadi Anda dari kehilangan dan pencurian, bab berikutnya akan membahas aspek penting lainnya: bagaimana mencegah file pribadi Anda menjadi celah serangan melalui metadatanya.
 
 ## Pembersihan metadata
 
@@ -2694,15 +2557,15 @@ Setiap kali Anda membuat file digital, baik itu foto, dokumen kantor, file audio
 
 ### Mengapa metadata merupakan risiko?
 
-Metadata adalah data yang dilampirkan pada file, yang perannya adalah memberikan informasi kontekstual tentang konten. Pada sebuah gambar, hal ini dapat mencakup tanggal dan waktu pengambilan gambar, koordinat GPS yang tepat, model kamera atau ponsel cerdas yang digunakan, dan terkadang bahkan pengaturan teknis. Dalam dokumen teks, informasi ini dapat mencakup nama penulis, nama perusahaan, ID sesi pengguna, stempel waktu pembuatan dan modifikasi, atau bahkan komentar internal yang ditinggalkan selama pengeditan.
+Metadata adalah data yang terlampir pada sebuah file, yang perannya adalah untuk memberikan informasi kontekstual tentang konten. Dalam sebuah gambar, ini dapat mencakup tanggal dan waktu gambar diambil, koordinat GPS yang tepat, model kamera atau smartphone yang digunakan, dan terkadang bahkan pengaturan teknis. Dalam dokumen teks, ini dapat mencakup nama penulis, nama perusahaan, ID sesi pengguna, stempel waktu pembuatan dan modifikasi, atau bahkan komentar internal yang ditinggalkan selama pengeditan.
 
-Metadata ini mungkin terlihat tidak berbahaya, tetapi dapat digunakan oleh pelaku kejahatan untuk mengidentifikasi penulis file, menemukan seseorang secara fisik, merekonstruksi peristiwa atau kebiasaan, atau bahkan mengeksploitasi kelemahan perangkat lunak berdasarkan versi perangkat lunak yang digunakan.
+Metadata ini mungkin tampak tidak berbahaya, tetapi dapat digunakan oleh pelaku kejahatan untuk mengidentifikasi penulis sebuah file, menemukan lokasi fisik seseorang, merekonstruksi peristiwa atau kebiasaan, atau bahkan mengeksploitasi celah perangkat lunak berdasarkan versi perangkat lunak yang digunakan.
 
-Mari kita ambil contoh konkret: Anda memposting foto yang seharusnya anonim di sebuah forum. Jika Anda belum menghapus metadata EXIF, satu klik saja bisa mengungkap koordinat GPS yang tepat dari rumah Anda, model ponsel Anda, dan tanggal pengambilan foto tersebut. Demikian pula, dokumen PDF yang dikirim secara anonim dapat berisi nama lengkap Anda di propertinya.
+Mari kita ambil contoh nyata: Anda mengunggah foto yang seharusnya anonim di sebuah forum. Jika Anda belum menghapus metadata EXIF, satu klik saja dapat mengungkapkan koordinat GPS yang tepat dari rumah Anda, model ponsel Anda, dan tanggal pasti foto tersebut diambil. Demikian pula, dokumen PDF yang dikirim secara anonim mungkin berisi nama lengkap Anda di propertinya.
 
-Itulah mengapa beberapa platform penerbitan media dan komunikasi secara otomatis menghapus metadata dari foto Anda. Ini termasuk X (Twitter), Instagram, Signal dan Session. Di sisi lain, platform lain tidak menghapus metadata sama sekali: ini terjadi pada sebagian besar forum online, banyak klien email, atau bahkan ketika Anda mempublikasikan secara langsung di situs web.
+Itulah mengapa beberapa platform penerbitan media dan komunikasi secara otomatis menghapus metadata dari foto Anda. Ini termasuk X (Twitter), Instagram, Signal, dan Session. Di sisi lain, platform lain sama sekali tidak menghapus metadata: ini terjadi pada sebagian besar forum online, banyak aplikasi email, atau bahkan ketika Anda menerbitkan langsung di sebuah situs web.
 
-Ini adalah refleks yang penting untuk diterapkan: segera setelah sebuah file meninggalkan ruang pribadi Anda, Anda perlu memikirkan untuk membersihkan metadatanya untuk menghindari pengungkapan informasi pribadi atau informasi sensitif tanpa sepengetahuan Anda. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem operasi Anda.
+Ini adalah keharusan penting yang harus diadopsi: segera setelah sebuah file meninggalkan ruang privat Anda, Anda perlu berpikir untuk membersihkan metadatanya untuk menghindari pengungkapan informasi pribadi atau sensitif tanpa sepengetahuan Anda. Mari kita lihat cara melakukannya, tergantung pada sistem operasi Anda.
 
 ### Di Linux (Debian)
 
@@ -2721,47 +2584,26 @@ sudo apt install libimage-exiftool-perl
 
 Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsung dari baris perintah.
 
-
-
 ![Image](assets/fr/259.webp)
-
-
-
-
 
 - Langkah 2: Melihat metadata file** (dalam bahasa Prancis)
 
-
-
 Untuk melihat semua metadata yang terkandung dalam file, gunakan perintah berikut:
-
-
 
 ```bash
 exiftool name.jpg
 ```
 
-
-
 Ganti `nama.jpg` dengan nama asli file Anda. Pastikan juga Anda berada di direktori yang berisi gambar ini. Sebagai contoh, jika saya memiliki foto patung Satoshi Nakamoto di direktori `/Downloads`, saya dapat menampilkan metadata dengan menjalankan perintah berikut:
-
-
 
 ```bash
 cd Downloads
 exiftool Satoshi-Nakamoto-Lugano.jpeg
 ```
 
-
-
 ![Image](assets/fr/260.webp)
 
-
-
 Anda kemudian akan melihat daftar panjang atribut, yang mungkin termasuk di dalamnya:
-
-
-
 
 - Tanggal dan waktu pembuatan
 - Lokasi GPS
@@ -2769,344 +2611,181 @@ Anda kemudian akan melihat daftar panjang atribut, yang mungkin termasuk di dala
 - Perangkat lunak yang digunakan untuk mengedit
 - Informasi tentang penulis...
 
-
-
 Ini memberi Anda gambaran lengkap tentang apa yang akan Anda terbitkan atau kirimkan.
-
-
-
-
 
 - Langkah 3: Menghapus metadata
 
-
-
 Untuk menghapus semua metadata yang tidak perlu dari file, gunakan perintah:
-
-
 
 ```bash
 exiftool -all= name.jpg
 ```
 
-
-
 ![Image](assets/fr/261.webp)
 
-
-
-Perintah ini secara otomatis membuat salinan file asli dengan metadata yang telah dihapus. File asli dipertahankan dengan ekstensi `_asli` yang ditambahkan ke namanya.
-
-
+Perintah ini secara otomatis membuat salinan file asli dengan metadata yang telah dihapus. File asli dipertahankan dengan ekstensi `_original` yang ditambahkan ke namanya.
 
 ![Image](assets/fr/262.webp)
 
-
-
 Jika Anda tidak ingin menyimpan yang asli, Anda dapat menghapusnya dengan perintah:
-
-
 
 ```bash
 exiftool -all= -overwrite_original name.jpg
 ```
 
-
-
 Jika kita melihat kembali metadata file kita, kita dapat melihat bahwa semua metadata yang tidak perlu atau sensitif telah dihapus.
-
-
 
 ![Image](assets/fr/263.webp)
 
-
-
-
-
 - Langkah 4: Membersihkan seluruh direktori
 
-
-
 Jika Anda memiliki beberapa file untuk diproses dalam direktori yang sama, Anda dapat menggunakan perintah umum seperti:
-
-
 
 ```bash
 exiftool -all= *.jpeg
 ```
 
-
-
 Ini akan menghapus metadata semua file JPEG dalam direktori saat ini. Anda dapat menyesuaikan ekstensi sesuai dengan kebutuhan Anda (`*.png`, `*.pdf`...).
-
-
 
 ![Image](assets/fr/264.webp)
 
-
-
 #### Menggunakan MAT2
-
-
 
 Sebagai alternatif untuk ExifTool, Anda dapat menggunakan MAT2 (*Metadata Anonymization Toolkit v2*).
 
-
-
-
-
 - Memasang MAT2:
-
-
 
 ```bash
 sudo apt install mat2
 ```
 
-
-
 ![Image](assets/fr/265.webp)
 
-
-
 Setelah terinstal, Anda dapat menggunakannya dari baris perintah seperti ini:
-
-
 
 ```bash
 mat2 fichier.pdf
 ```
 
-
-
 ![Image](assets/fr/266.webp)
-
-
 
 Secara default, MAT2 tidak memodifikasi file asli: MAT2 membuat versi yang sudah dibersihkan di direktori yang sama dengan akhiran `-clean` yang ditambahkan.
 
-
-
 ![Image](assets/fr/267.webp)
 
-
-
 Untuk membersihkan seluruh direktori, seperti direktori `/Downloads`:
-
-
 
 ```bash
 mat2 ~/Downloads/*
 ```
 
-
-
 ### Platform lain (Windows dan macOS)
 
+Pada Windows dan macOS, ada beberapa metode untuk menghapus metadata dari dokumen Anda. Menurut pendapat saya, yang paling mudah adalah menggunakan perangkat lunak open source [ExifCleaner](https://exifcleaner.com/). Program ringan ini memiliki Interface grafis dan dapat menangani sebagian besar format berkas hanya dengan menyeret dan melepaskan (drag and drop). Dengan menempatkan satu atau lebih berkas ke Interface, perangkat lunak ini secara otomatis menghapus metadata yang tidak perlu dan mengganti file asli di direktori yang sama. ExifCleaner tersedia untuk Windows, macOS, dan Linux.
 
-
-Pada Windows dan macOS, ada beberapa metode untuk menghapus metadata dari dokumen Anda. Menurut pendapat saya, cara termudah adalah dengan menggunakan perangkat lunak sumber terbuka [ExifCleaner] (https://exifcleaner.com/). Alat yang ringan ini memiliki fitur grafis Interface dan dapat menangani sebagian besar format file hanya dengan menarik dan melepaskan. Dengan menjatuhkan satu atau beberapa file ke Interface, perangkat lunak ini secara otomatis menghapus metadata yang tidak perlu dan menggantikan file asli dalam direktori yang sama. ExifCleaner tersedia untuk Windows, macOS dan Linux.
-
-
-
-Sangat mudah digunakan: jalankan saja perangkat lunaknya, lalu seret dan letakkan satu atau beberapa file ke dalam jendela.
-
-
+Sangat mudah digunakan: jalankan saja perangkat lunaknya, lalu seret dan letakkan satu atau beberapa file ke dalam window.
 
 ![Image](assets/fr/257.webp)
 
-
-
-Tunggu beberapa saat sementara alat ini membersihkan metadata. Setelah prosesnya selesai, Anda akan melihat ringkasan yang menunjukkan jumlah metadata awal dan akhir. Semua informasi yang tidak berguna akan dihapus.
-
-
+Tunggu beberapa saat sementara program ini membersihkan metadata. Setelah prosesnya selesai, Anda akan melihat ringkasan yang menunjukkan jumlah metadata awal dan akhir. Semua informasi yang tidak berguna akan dihapus.
 
 ![Image](assets/fr/258.webp)
 
+Maka dari itu, membersihkan metadata dari file yang Anda bagikan adalah tindakan yang baik untuk diadopsi dalam hal keamanan TI. Berkat program-program sederhana yang disajikan di bab ini, ini adalah kebiasaan yang dapat Anda terapkan dengan mudah dalam keseharian.
 
-
-Oleh karena itu, membersihkan metadata file yang Anda bagikan merupakan praktik yang baik untuk diterapkan dalam hal keamanan TI. Berkat alat sederhana yang disajikan dalam bab ini, ini merupakan kebiasaan yang dapat Anda terapkan dengan mudah setiap hari.
-
-
-
-Kita telah sampai pada akhir bagian ini tentang mengamankan komputer Anda. Pada bagian berikutnya, kita akan melihat secara mendalam salah satu program yang paling penting di komputer Anda: peramban web. Peramban web memusatkan sebagian besar aktivitas digital Anda, sehingga menjadikannya target utama dalam hal keamanan dan privasi.
-
-
-
+Kita telah sampai di akhir dari bagian pengamanan komputer Anda ini. Pada bagian berikutnya, kita akan melihat secara mendalam salah satu program paling penting di komputer Anda: browser web. Browser web sendiri menjadi pusat sebagian besar aktivitas digital Anda, menjadikannya target utama baik dari segi keamanan maupun privasi.
 
 # Browser: OS di dalam OS
 
-
 <partId>125c3d99-6aba-4050-bc7c-8543ef8587e4</partId>
-
-
 
 ## Sejarah singkat tentang navigator
 
-
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
+Browser web adalah perangkat lunak yang memungkinkan Anda mengakses situs web dan konten yang tersedia di _World Wide Web_. Perannya adalah untuk menginterpretasikan bahasa-bahasa yang digunakan untuk membuat halaman web, terutama HTML, CSS, dan JavaScript, guna menampilkan konten situs dalam cara yang mudah dibaca dan interaktif. Browser web berfungsi sebagai interface antara pengguna dan server web, dengan mengirimkan permintaan dan menerima respons melalui protokol HTTP atau HTTPS.
 
+Namun saat ini, browser telah menjadi jauh lebih dari sekadar perangkat lunak: ia sering kali menjadi Interface utama dalam komputasi, terutama untuk pengguna pemula. Itulah mengapa browser terkadang dianggap sebagai "sistem operasi sekunder" di dalam sistem operasi yang sebenarnya (yang kita pelajari di bagian pertama SCU202). Memang, banyak tugas yang dulunya dilakukan menggunakan perangkat lunak lokal khusus sekarang dilakukan langsung secara online melalui browser: hiburan, pekerjaan kantor (pengolah kata, spreadsheet, presentasi), manajemen email, pengiriman pesan, penyimpanan file, dan kerja kolaboratif.
 
-Peramban web adalah perangkat lunak yang memungkinkan Anda mengakses situs web dan konten yang tersedia di *World Wide Web*. Perannya adalah untuk menafsirkan bahasa yang digunakan untuk membuat halaman web, terutama HTML, CSS dan JavaScript, untuk menampilkan konten situs dengan cara yang mudah dibaca dan interaktif. Ini bertindak sebagai Interface antara pengguna dan server web, mengirim permintaan dan menerima tanggapan melalui protokol HTTP atau HTTPS.
+Namun, browser tidak selalu memegang peran sentral ini. Sejarah browser ditandai oleh siklus inovasi, persaingan teknologi, dan terkadang dominasi monopoli. Menelusuri sejarah ini akan membantu kita memahami bagaimana browser menjadi begitu kompleks, dan mengapa keamanannya menjadi isu yang sangat penting saat ini.
 
+→ Browser web sering kali disalahpahami dengan mesin pencari. Padahal keduanya sangat berbeda. Browser web digunakan untuk menampilkan situs web, sedangkan mesin pencari (yang dapat diakses dari browser web) digunakan untuk menemukan informasi online dengan mengindeks dan mengklasifikasikan halaman web.
 
+### Kelahiran dan browser pertama
 
-Namun saat ini, browser telah menjadi lebih dari sekadar perangkat lunak: browser sering kali menjadi Interface utama dalam komputasi, terutama bagi pengguna pemula. Itulah sebabnya mengapa browser terkadang dianggap sebagai "sistem operasi sekunder" dalam sistem operasi yang sebenarnya (yang telah kita pelajari di bagian pertama SCU202). Memang, banyak tugas yang dulunya dilakukan dengan menggunakan perangkat lunak lokal khusus sekarang dilakukan secara langsung secara online melalui browser: hiburan, pekerjaan kantor (pengolah kata, spreadsheet, presentasi), manajemen email, pengiriman pesan, penyimpanan file, dan kerja kolaboratif.
-
-
-
-Namun, tidak selalu memegang peran sentral ini. Sejarah peramban ditandai dengan siklus inovasi, persaingan teknologi, dan terkadang dominasi monopoli. Menelusuri sejarah ini akan membantu kita memahami bagaimana peramban menjadi begitu kompleks, dan mengapa keamanannya menjadi masalah yang begitu penting saat ini.
-
-
-
-→ Browser sering disalahartikan sebagai mesin pencari. Namun keduanya sangat berbeda. Peramban web digunakan untuk menampilkan situs web, sedangkan mesin pencari (yang dapat diakses dari peramban web) digunakan untuk menemukan informasi online dengan mengindeks dan mengklasifikasikan halaman web.
-
-
-
-### Kelahiran dan navigator pertama
-
-
-
-Sejarah browser web dimulai dengan lahirnya *World Wide Web*, yang ditemukan oleh Tim Berners-Lee pada tahun 1989-1990. Ini adalah sistem untuk mengakses halaman yang berisi teks, gambar, video, atau tautan melalui Internet, menggunakan browser web. Agar sistem baru ini dapat diakses, pada musim gugur 1990, ia mengembangkan browser pertama, yang disebut "WorldWideWeb", yang menjadi dasar dari penjelajahan yang kita kenal sekarang. Browser ini memungkinkan untuk melihat dan membuat halaman web, termasuk editor HTML yang terintegrasi. Untuk menghindari kebingungan antara browser dan Web itu sendiri, namanya kemudian diubah menjadi "Nexus".
-
-
+Sejarah browser web dimulai dengan kelahiran _World Wide Web_, yang ditemukan oleh Tim Berners-Lee pada tahun 1989-1990. Ini adalah sebuah sistem untuk mengakses halaman yang berisi teks, gambar, video, atau tautan melalui Internet, menggunakan browser web. Untuk membuat sistem baru ini dapat diakses, pada musim gugur 1990 ia mengembangkan browser web pertama, yang dinamai "WorldWideWeb", yang meletakkan dasar-dasar penjelajahan seperti yang kita kenal sekarang. Browser ini memungkinkan baik melihat maupun membuat halaman web, termasuk editor HTML terintegrasi. Untuk menghindari kebingungan antara browser dan Web itu sendiri, namanya kemudian diubah menjadi "Nexus".
 
 ![Image](assets/fr/093.webp)
 
-
-
-Pada tahun 1992, beberapa peramban eksperimental lainnya muncul. Salah satu yang paling terkenal adalah Erwise, yang dikembangkan oleh empat mahasiswa Finlandia untuk X Window System berbasis Unix. Itu adalah browser pertama yang menampilkan Interface grafis untuk jenis lingkungan ini. Terlepas dari keunggulan teknisnya, Erwise mengalami kekurangan dana dan tidak dipertahankan setelah versi pertamanya. Proyek-proyek lain, seperti ViolaWWW, juga muncul selama periode ini.
-
-
+Pada tahun 1992, beberapa browser eksperimental lainnya muncul. Salah satu yang paling terkenal adalah Erwise, yang dikembangkan oleh empat mahasiswa Finlandia untuk X Window System yang berbasis Unix. Itu adalah browser pertama yang menampilkan interface grafis untuk jenis lingkungan ini. Meskipun memiliki keunggulan teknis, ia kekurangan dana dan tidak dipelihara setelah versi pertamanya. Proyek lain, seperti ViolaWWW, juga muncul selama periode ini.
 
 ![Image](assets/fr/094.webp)
 
+tahun 1992 juga merupakan awal terciptanya Lynx, browser web tertua yang masih dipertahankan dan digunakan hingga saat ini. Lynx dikembangkan oleh tim mahasiswa di Universitas Kansas.
 
-
-tahun 1992 juga merupakan awal terciptanya Lynx, peramban web tertua yang masih dipertahankan dan digunakan hingga saat ini. Lynx dikembangkan oleh tim mahasiswa di Universitas Kansas.
-
-
-
-Namun pada tahun 1993, Web benar-benar memasuki fase pertumbuhan yang cepat dengan hadirnya NCSA Mosaic. Peramban ini dikembangkan oleh Marc Andreessen dan Eric Bina di NCSA (*Pusat Nasional untuk Aplikasi Superkomputer*) di AS. Mosaic adalah browser mainstream pertama yang menggabungkan teks dan gambar secara mulus dalam satu jendela. Mosaic dapat menampilkan gambar secara langsung di halaman web (format GIF dan XBM), yang merupakan terobosan ergonomis dibandingkan dengan peramban teks seperti Lynx. Mosaic juga memperkenalkan dukungan untuk formulir, membuka jalan untuk interaktivitas yang sebenarnya antara pengguna dan server web. Mosaic dengan cepat di-porting ke beberapa sistem operasi (Windows, Mac, Unix), sehingga mudah didistribusikan. Dalam waktu satu tahun, Mosaic menjadi alat standar untuk menjelajahi Web.
-
-
+Namun, pada tahun 1993, Web benar-benar memasuki fase pertumbuhan pesat dengan hadirnya NCSA Mosaic. Browser ini dikembangkan oleh Marc Andreessen dan Eric Bina di NCSA (_National Center for Supercomputing Applications_) di AS. Mosaic adalah Browser mainstream pertama yang secara mulus menggabungkan teks dan gambar dalam satu jendela. Mosaic dapat menampilkan gambar langsung di halaman web (format GIF dan XBM), merepresentasikan terobosan ergonomis dibandingkan dengan Browser berbasis teks seperti Lynx. Mosaic juga memperkenalkan dukungan untuk form, membuka jalan bagi interaktivitas yang sebenarnya antara pengguna dan server web. Mosaic dengan cepat disebar ke beberapa sistem operasi (Windows, Mac, Unix), membuatnya mudah didistribusikan. Dalam setahun, Mosaic menjadi aplikasi standar untuk menjelajahi Web.
 
 ![Image](assets/fr/095.webp)
 
-
-
-Pada tahun 1994, Marc Andreessen meninggalkan NCSA dan mendirikan Netscape Communications bersama Jim Clark. Sebagian besar tim yang pernah bekerja pada Mosaic bergabung dengannya. Tidak lama setelah itu, perusahaan ini meluncurkan Netscape Navigator, peramban yang didasarkan pada dasar-dasar Mosaic, tetapi dengan kinerja dan peningkatan teknis yang lebih baik. Pada tahun 1995, Netscape berinovasi dengan memperkenalkan bahasa JavaScript, yang dikembangkan oleh Brendan Eich, yang memungkinkan halaman web menjadi dinamis, yaitu mampu bereaksi terhadap tindakan pengguna tanpa memuat ulang halaman.
-
-
+Pada tahun 1994, Marc Andreessen meninggalkan NCSA dan mendirikan Netscape Communications bersama Jim Clark. Sebagian besar tim yang telah mengerjakan Mosaic bergabung dengannya. Tidak lama kemudian, perusahaan ini meluncurkan Netscape Navigator, browser yang didasarkan pada fondasi Mosaic, tetapi dengan kinerja dan peningkatan teknis yang lebih baik. Pada tahun 1995, Netscape berinovasi dengan memperkenalkan bahasa JavaScript, yang dikembangkan oleh Brendan Eich, yang memungkinkan halaman web menjadi dinamis, yaitu mampu bereaksi terhadap tindakan pengguna tanpa memuat ulang halaman.
 
 ![Image](assets/fr/096.webp)
 
+Berkat kemudahan penggunaan, kompatibilitas lintas-platform, dan kecepatannya, Netscape Navigator dengan cepat memantapkan dirinya sebagai standar untuk Web yang sedang berkembang. Pada tahun 1995, ia menguasai hingga 90% pangsa pasar, menandai dimulainya era pertama browser web. Kesuksesan besar ini segera memicu reaksi dari Microsoft, yang mengarah pada perang browser.
 
+### Dari perang browser hingga era monopoli
 
-Berkat kemudahan penggunaan, kompatibilitas lintas platform, dan kecepatannya, Netscape Navigator dengan cepat memantapkan dirinya sebagai standar untuk Web yang sedang berkembang. Pada tahun 1995, Netscape Navigator menguasai hingga 90% pangsa pasar, menandai dimulainya era pertama peramban web. Keberhasilan besar ini segera memicu Microsoft untuk bereaksi, yang mengarah ke perang browser.
+Kesuksesan luar biasa Netscape Navigator di pertengahan tahun 1990-an tidak luput dari perhatian Microsoft, yang dengan cepat menyadari pentingnya browser web secara strategis untuk masa depan komputasi. Pada bulan Agustus 1995, beberapa hari setelah rilis Windows 95, Microsoft meluncurkan versi pertama Internet Explorer, yang awalnya didasarkan pada lisensi komersial dari kode sumber Spyglass Mosaic (versi komersial Mosaic yang berbeda dari yang dikembangkan di NCSA).
 
-
-
-### Dari perang peramban hingga era monopoli
-
-
-
-Kesuksesan besar Netscape Navigator pada pertengahan tahun 1990-an tidak disia-siakan oleh Microsoft, yang dengan cepat menyadari pentingnya strategis browser web di masa depan komputasi. Pada bulan Agustus 1995, beberapa hari setelah peluncuran Windows 95, Microsoft meluncurkan versi pertama Internet Explorer, awalnya berdasarkan lisensi komersial dari kode sumber Spyglass Mosaic (versi komersial Mosaic yang berbeda dengan versi yang dikembangkan di NCSA).
-
-
-
-Versi pertama Internet Explorer masih belum sempurna, tetapi Microsoft memulai kebijakan pengembangan yang agresif. Pada tahun 1996, dengan Internet Explorer 3.0, Microsoft mulai mengintegrasikan peramban langsung ke dalam sistem operasi Windows, sehingga pengguna tidak perlu lagi mengunduh peramban pihak ketiga. Integrasi ini diperkuat dengan Internet Explorer 4.0 pada tahun 1997, yang memperkenalkan mesin rendering eksklusif baru yang disebut Trident. Mesin ini secara signifikan meningkatkan kecepatan tampilan halaman dan terintegrasi secara mendalam dengan Windows Interface.
-
-
+Versi pertama Internet Explorer masih sederhana, tetapi Microsoft memulai kebijakan pengembangan yang agresif. Pada tahun 1996, dengan Internet Explorer 3.0, Microsoft mulai mengintegrasikan browsernya langsung ke dalam sistem operasi Windows, menghilangkan kebutuhan pengguna untuk mengunduh browser pihak ketiga. Integrasi ini diperkuat dengan Internet Explorer 4.0 pada tahun 1997, yang memperkenalkan mesin rendering komersial baru bernama Trident. Mesin ini secara signifikan meningkatkan kecepatan tampilan halaman dan terintegrasi secara mendalam dengan Interface Windows.
 
 ![Image](assets/fr/097.webp)
 
+Strategi Microsoft didasarkan pada beberapa aspek teknis dan komersial:
 
+- Integrasi bawaan Internet Explorer ke dalam Windows (terinstal secara default dan tidak dapat dihapus pada saat itu);
+- browser gratis, dibandingkan dengan Netscape yang saat itu masih komersial;
+- Kontrol terhadap API dan sistem operasi untuk mendukung browser mereka sendiri di lingkungan Windows.
 
-Strategi Microsoft didasarkan pada beberapa pengungkit teknis dan komersial:
-
-
-
-
-- integrasi asli Internet Explorer ke dalam Windows (terinstal secara default dan dapat dicopot pemasangannya);
-- peramban gratis, dibandingkan dengan Netscape, yang tetap komersial hingga saat itu;
-- kontrol API dan sistem operasi untuk mendukung browser rumah mereka di lingkungan Windows.
-
-
-
-Dalam menghadapi persaingan ini, Netscape dengan cepat kehilangan pijakan. Dalam waktu kurang dari tiga tahun, pangsa pasarnya turun drastis. Pada awal tahun 2000-an, Internet Explorer menguasai lebih dari 95% pangsa pasar, membuat semua peramban lain hampir menjadi marjinal.
-
-
+Menghadapi persaingan ini, Netscape dengan cepat kehilangan posisinya. Dalam waktu kurang dari tiga tahun, pangsa pasarnya turun drastis. Pada awal tahun 2000-an, Internet Explorer menguasai lebih dari 95% pangsa pasar, membuat semua browser lain hampir tidak berarti.
 
 ![Image](assets/fr/098.webp)
 
+Monopoli virtual ini menyebabkan perlambatan besar dalam inovasi. Karena tidak ada pesaing serius yang tersisa, Microsoft membiarkan pengembangan Internet Explorer stagnan. Antara IE6 (dirilis pada tahun 2001 dengan Windows XP) dan versi berikutnya IE7 (pada tahun 2006), tidak ada versi besar yang dirilis, meskipun ada kerentanan keamanan, ketidakcocokan CSS, dan ketidaksesuaian terhadap standar W3C. Kelambanan teknologi ini menahan modernisasi Web selama beberapa tahun, dan memaksa pengembang untuk membuat kode khusus untuk mengatasi bug atau perilaku tidak menentu dari Trident.
 
+Sadar bahwa mereka tidak lagi dapat bersaing secara komersial, Netscape memutuskan untuk merilis soruce code mereka ke komunitas pada tahun 1998. Inilah kelahiran proyek Mozilla, yang menandai titik balik: pengembangan browser gratis yang patuh pada standar, didukung oleh yayasan independen.
 
-Monopoli virtual ini menyebabkan perlambatan besar dalam inovasi. Tanpa adanya pesaing yang serius, Microsoft membiarkan pengembangan Internet Explorer mandek. Antara IE6 (dirilis pada tahun 2001 dengan Windows XP) dan versi berikutnya IE7 (pada tahun 2006), tidak ada versi besar yang dirilis, meskipun ada kerentanan keamanan, ketidakcocokan CSS, dan ketidaksesuaian dengan standar W3C. Kelambanan teknologi ini menghambat modernisasi Web selama beberapa tahun, dan memaksa para pengembang untuk membuat kode khusus untuk bug Trident atau perilaku yang tidak menentu.
-
-
-
-Sadar bahwa mereka tidak dapat lagi bersaing secara komersial, Netscape memutuskan untuk merilis kode sumbernya ke komunitas pada tahun 1998. Ini adalah kelahiran proyek Mozilla, yang menandai titik balik: pengembangan peramban gratis yang sesuai dengan standar, yang didukung oleh yayasan independen.
-
-
-
-Tujuan dari proyek ini adalah untuk sepenuhnya membangun kembali peramban di atas fondasi yang baru, dengan mesin rendering yang lebih modern yang akan menghormati standar Web terbuka. Tujuannya jelas: untuk mengembalikan keterbukaan dan interoperabilitas pada Web, dalam menghadapi cengkeraman Internet Explorer. Dari proyek inilah, beberapa tahun kemudian, Mozilla Firefox lahir.
-
-
+Tujuan dari proyek ini adalah untuk membangun kembali browser sepenuhnya di atas fondasi baru, dengan mesin rendering yang lebih modern yang akan mematuhi standar Web terbuka. Tujuannya jelas: mengembalikan keterbukaan dan interoperabilitas ke Web, di tengah cengkeraman Internet Explorer. Dari proyek inilah, beberapa tahun kemudian, Mozilla Firefox lahir.
 
 ### Pembaruan teknologi: Mozilla Firefox dan Safari
 
+Setelah beberapa tahun stagnasi karena monopoli virtual Internet Explorer, web memasuki fase pembaruan teknologi pada awal tahun 2000-an. Titik balik ini diprakarsai oleh dua pemain utama: Mozilla dan Apple.
 
-
-Setelah beberapa tahun mengalami stagnasi akibat monopoli virtual Internet Explorer, web memasuki fase pembaharuan teknologi di awal tahun 2000-an. Titik balik ini diprakarsai oleh dua pemain besar: Mozilla dan Apple.
-
-
-
-Pada tahun 2002, proyek Mozilla, yang lahir dari rilis kode sumber Netscape, meluncurkan peramban baru: Phoenix, dengan cepat berganti nama menjadi Firebird, dan akhirnya Firefox pada tahun 2004 untuk menghindari konflik penamaan. Firefox didasarkan pada mesin rendering yang benar-benar baru, yang disebut Gecko, yang dirancang untuk menjadi cepat, dapat diperluas, dan yang paling penting, sesuai dengan standar Web yang ditetapkan oleh W3C (*World Wide Web Consortium*). Tidak seperti Trident, Gecko mendukung teknologi modern seperti CSS 2.1, DOM dan SVG (*Scalable Vector Graphics*), serta manajemen keamanan yang telah ditingkatkan.
-
-
+Pada tahun 2002, proyek Mozilla, yang lahir dari rilis soruce code Netscape, meluncurkan browser baru: Phoenix, yang dengan cepat diganti namanya menjadi Firebird, dan akhirnya Firefox pada tahun 2004 untuk menghindari konflik penamaan. Firefox didasarkan pada mesin rendering yang sepenuhnya baru, yang disebut Gecko, yang dirancang agar cepat, dapat diperluas, dan yang terpenting, sesuai dengan standar Web yang ditentukan oleh W3C (_World Wide Web Consortium_). Berbeda dengan Trident, Gecko mendukung teknologi modern seperti CSS 2.1, DOM, dan SVG (_Scalable Vector Graphics_), bersama dengan manajemen keamanan yang ditingkatkan.
 
 ![Image](assets/fr/099.webp)
 
-
-
 Firefox juga memperkenalkan beberapa inovasi yang akan memiliki dampak jangka panjang pada penjelajahan web:
 
+- Sistem ekstensi modular, yang memungkinkan pengguna untuk dengan mudah menambahkan fitur baru tanpa menyentuh inti browser;
+- Penjelajahan dengan tab, yang populer di kalangan masyarakat umum, meskipun sudah ada di browser yang lebih tua seperti Opera;
+- Program privasi seperti pemblokir pop-up, pengelola kata sandi terintegrasi, dan opsi penyempurnaan untuk cookie dan JavaScript.
 
+Cara kerja yang ringan, fleksibilitas, dan sesuai terhadap standar dengan cepat menarik pengguna tingkat lanjut, pengembang web, dan siapa pun yang mencari alternatif yang lebih terbuka dari Internet Explorer. Pada tahun 2005, Firefox telah melampaui 10% pangsa pasar, sebuah pencapaian yang luar biasa melawan browser yang sudah terinstal di semua PC Windows.
 
-
-- sistem ekstensi modular, yang memungkinkan pengguna untuk dengan mudah menambahkan fitur baru tanpa menyentuh inti browser;
-- penjelajahan dengan tab, populer di kalangan masyarakat umum, meskipun sudah ada di peramban yang lebih tua seperti Opera;
-- alat privasi seperti pemblokiran pop-up, pengelola kata sandi terintegrasi, dan opsi penyesuaian untuk cookie dan JavaScript.
-
-
-
-Bobotnya yang ringan, fleksibilitas, dan penghormatannya terhadap standar dengan cepat menarik pengguna tingkat lanjut, pengembang web, dan siapa pun yang mencari alternatif yang lebih terbuka untuk Internet Explorer. Pada tahun 2005, Firefox telah melampaui 10% pangsa pasar, sebuah pencapaian yang luar biasa dibandingkan dengan peramban yang sudah terinstal pada semua PC Windows.
-
-
-
-Sementara itu, Apple mengembangkan peramban aslinya sendiri untuk macOS. Pada bulan Januari 2003, Safari secara resmi dirilis. Safari didasarkan pada WebKit, sebuah mesin rendering sumber terbuka yang berasal dari KHTML, yang awalnya dikembangkan oleh proyek KDE untuk peramban Konqueror. WebKit dihargai karena ringan, cepat, dan mudah dibawa-bawa. Apple memperkenalkan banyak optimasi internal, terutama untuk pemrosesan JavaScript, yang menjadi masalah utama dengan munculnya aplikasi web interaktif.
-
-
+Sementara itu, Apple sedang mengembangkan browser bawaan mereka sendiri untuk macOS. Pada Januari 2003, Safari secara resmi dirilis. Browser ini didasarkan pada WebKit, sebuah mesin rendering open source yang berasal dari KHTML, yang awalnya dikembangkan oleh proyek KDE untuk browser Konqueror-nya. WebKit dihargai karena keringanan, kecepatan, dan kemudahan portabilitasnya. Apple memperkenalkan banyak optimasi internal, terutama untuk pemrosesan JavaScript, yang menjadi isu utama seiring dengan maraknya aplikasi web interaktif.
 
 ![Image](assets/fr/100.webp)
 
+Safari menjadi browser default di semua Mac mulai dari Mac OS X Panther (10.3), secara bertahap menggantikan Internet Explorer untuk Mac, yang dihentikan oleh Microsoft pada tahun 2005. WebKit juga akan digunakan di kemudian hari di banyak browser lainnya.
 
-
-Safari menjadi peramban default di semua Mac mulai dari Mac OS X Panther (10.3), secara bertahap menggantikan Internet Explorer untuk Mac, yang ditinggalkan Microsoft pada tahun 2005. WebKit juga akan digunakan di banyak peramban lainnya.
-
-
-
-Inisiatif ini menghidupkan kembali persaingan teknologi, secara bertahap melemahkan dominasi Internet Explorer, dan membuka jalan bagi peramban generasi baru yang lebih cepat, lebih sesuai dengan standar, dan lebih fokus pada modularitas, keamanan, dan kinerja. Antara tahun 2006 dan 2008, Internet Explorer perlahan-lahan kehilangan pangsa pasar, sementara Firefox memantapkan dirinya sebagai alternatif utama yang serius. Konteks ini membuka jalan bagi kedatangan pemain utama baru: Google Chrome.
-
-
+Inisiatif ini menghidupkan kembali persaingan teknologi, secara bertahap melemahkan dominasi Internet Explorer, dan membuka jalan bagi generasi baru browser yang lebih cepat, lebih patuh pada standar, dan lebih berfokus pada modularitas, keamanan, dan kinerja. Antara tahun 2006 dan 2008, Internet Explorer perlahan-lahan kehilangan pangsa pasar, sementara Firefox memantapkan dirinya sebagai alternatif utama yang serius. Konteks ini membuka jalan bagi kedatangan pemain besar baru: Google Chrome.
 
 ### Revolusi pasar: kedatangan Google Chrome
 
 
 
-Pada tanggal 2 September 2008, Google mengumumkan perilisan peramban webnya sendiri: Google Chrome. Pada saat itu, Firefox sedang membuat kemajuan dan Internet Explorer masih dominan, tetapi semakin banyak dikritik karena lambat, tidak stabil, dan tertinggal dari standar modern. Google, yang sangat bergantung pada web untuk layanannya (pencarian, Gmail, Maps...), menginginkan peramban yang lebih cocok untuk era aplikasi web yang kompleks.
+Pada tanggal 2 September 2008, Google mengumumkan perilisan browser webnya sendiri: Google Chrome. Pada saat itu, Firefox sedang membuat kemajuan dan Internet Explorer masih dominan, tetapi semakin banyak dikritik karena lambat, tidak stabil, dan tertinggal dari standar modern. Google, yang sangat bergantung pada web untuk layanannya (pencarian, Gmail, Maps...), menginginkan browser yang lebih cocok untuk era aplikasi web yang kompleks.
 
 
 
@@ -3124,7 +2803,7 @@ Chrome pada awalnya didasarkan pada dua pilar teknis:
 
 
 
-Tetapi terobosan nyata Chrome berasal dari arsitektur multi-prosesnya. Setiap tab berjalan dalam proses yang terisolasi, menggunakan teknik sandboxing yang mencegah halaman berbahaya mengganggu keseluruhan peramban. Isolasi ini juga meningkatkan stabilitas: jika satu tab mogok, tab yang lain tetap berfungsi. Selain itu, Interface yang minimalis dan berpusat pada konten, tanpa bilah menu, gabungan Address dan bilah pencarian (*Omnibox*), serta pembaruan latar belakang yang senyap.
+Tetapi terobosan nyata Chrome berasal dari arsitektur multi-prosesnya. Setiap tab berjalan dalam proses yang terisolasi, menggunakan teknik sandboxing yang mencegah halaman berbahaya mengganggu keseluruhan browser. Isolasi ini juga meningkatkan stabilitas: jika satu tab mogok, tab yang lain tetap berfungsi. Selain itu, Interface yang minimalis dan berpusat pada konten, tanpa bilah menu, gabungan Address dan bilah pencarian (*Omnibox*), serta pembaruan latar belakang yang senyap.
 
 
 
@@ -3136,7 +2815,7 @@ Didukung oleh merek Google dan kampanye pemasaran yang sangat efektif, Chrome de
 
 
 
-Pada tahun 2013, Google mengumumkan perubahan strategis yang besar: Google akan Fork WebKit untuk membuat mesin rendering independen baru, bernama Blink. Fork ini dijelaskan oleh perbedaan teknis dan organisasi dengan Apple, terutama di sekitar arsitektur mesin dan integrasi fitur eksperimental. Blink menjadi mesin eksklusif untuk Chrome mulai versi 28 dan seterusnya, dan kemudian diadopsi oleh banyak peramban lain: Opera (yang meninggalkan Presto pada tahun 2013), Vivaldi, Brave, Microsoft Edge (sejak tahun 2020), dan lainnya.
+Pada tahun 2013, Google mengumumkan perubahan strategis yang besar: Google akan Fork WebKit untuk membuat mesin rendering independen baru, bernama Blink. Fork ini dijelaskan oleh perbedaan teknis dan organisasi dengan Apple, terutama di sekitar arsitektur mesin dan integrasi fitur eksperimental. Blink menjadi mesin eksklusif untuk Chrome mulai versi 28 dan seterusnya, dan kemudian diadopsi oleh banyak browser lain: Opera (yang meninggalkan Presto pada tahun 2013), Vivaldi, Brave, Microsoft Edge (sejak tahun 2020), dan lainnya.
 
 
 
@@ -3182,7 +2861,7 @@ Berikut ini adalah tinjauan historis dari mesin rendering utama yang telah membe
 
 
 
-Dikembangkan oleh Microsoft untuk Internet Explorer 4, Trident adalah mesin yang mendominasi web di awal tahun 2000-an, di jantung perang peramban. Meskipun inovatif pada masa-masa awalnya, Trident dengan cepat tertinggal dalam hal kepatuhan terhadap standar W3C, yang menyebabkan munculnya banyak situs yang dioptimalkan hanya untuk Internet Explorer.
+Dikembangkan oleh Microsoft untuk Internet Explorer 4, Trident adalah mesin yang mendominasi web di awal tahun 2000-an, di jantung perang browser. Meskipun inovatif pada masa-masa awalnya, Trident dengan cepat tertinggal dalam hal kepatuhan terhadap standar W3C, yang menyebabkan munculnya banyak situs yang dioptimalkan hanya untuk Internet Explorer.
 
 
 
@@ -3202,7 +2881,7 @@ Trident juga menghadirkan masalah keamanan dan mesin JavaScript yang lambat. Pen
 
 
 
-Didesain oleh Netscape, kemudian dikelola oleh Mozilla Foundation, Gecko mendukung peramban Firefox. Sejak awal, Gecko sangat ketat dalam hal kepatuhan terhadap standar. Ia ditulis dalam bahasa C++ dan mendukung banyak platform.
+Didesain oleh Netscape, kemudian dikelola oleh Mozilla Foundation, Gecko mendukung browser Firefox. Sejak awal, Gecko sangat ketat dalam hal kepatuhan terhadap standar. Ia ditulis dalam bahasa C++ dan mendukung banyak platform.
 
 
 
@@ -3210,7 +2889,7 @@ Gecko telah menjadi sumber dari banyak inovasi. Namun, basis kodenya yang komple
 
 
 
-Dalam hal pangsa pasar, Gecko sekarang jauh di belakang Blink, karena Firefox adalah satu-satunya peramban utama yang menggunakannya. Ia juga sedikit digunakan oleh peramban yang kurang dikenal dan kurang digunakan yang merupakan garpu Firefox: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Hal ini menjadikan Gecko sebagai penjamin keragaman di web, dalam menghadapi dominasi Blink.
+Dalam hal pangsa pasar, Gecko sekarang jauh di belakang Blink, karena Firefox adalah satu-satunya browser utama yang menggunakannya. Ia juga sedikit digunakan oleh browser yang kurang dikenal dan kurang digunakan yang merupakan garpu Firefox: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Hal ini menjadikan Gecko sebagai penjamin keragaman di web, dalam menghadapi dominasi Blink.
 
 
 
@@ -3222,7 +2901,7 @@ Dalam hal pangsa pasar, Gecko sekarang jauh di belakang Blink, karena Firefox ad
 
 
 
-Dikembangkan oleh proyek KDE untuk peramban Konqueror, KHTML adalah mesin yang ringan, modular, dan cepat. Ditulis dalam bahasa C++, KHTML menghormati standar dan menawarkan basis yang bersih dan terdokumentasi dengan baik. Mesin inilah yang dipilih Apple pada tahun 2001 untuk membuat WebKit. Dengan demikian, KHTML adalah nenek moyang teknis dari Chrome dan Safari.
+Dikembangkan oleh proyek KDE untuk browser Konqueror, KHTML adalah mesin yang ringan, modular, dan cepat. Ditulis dalam bahasa C++, KHTML menghormati standar dan menawarkan basis yang bersih dan terdokumentasi dengan baik. Mesin inilah yang dipilih Apple pada tahun 2001 untuk membuat WebKit. Dengan demikian, KHTML adalah nenek moyang teknis dari Chrome dan Safari.
 
 
 
@@ -3234,7 +2913,7 @@ Dikembangkan oleh proyek KDE untuk peramban Konqueror, KHTML adalah mesin yang r
 
 
 
-WebKit adalah Fork dari KHTML yang diluncurkan oleh Apple untuk mengembangkan perambannya sendiri: Safari. WebKit pertama kali dioptimalkan untuk kinerja dan integrasi dengan macOS, kemudian digunakan oleh Google Chrome ketika dirilis pada tahun 2008. WebKit didasarkan pada dua subkomponen:
+WebKit adalah Fork dari KHTML yang diluncurkan oleh Apple untuk mengembangkan browsernya sendiri: Safari. WebKit pertama kali dioptimalkan untuk kinerja dan integrasi dengan macOS, kemudian digunakan oleh Google Chrome ketika dirilis pada tahun 2008. WebKit didasarkan pada dua subkomponen:
 
 
 
@@ -3244,7 +2923,7 @@ WebKit adalah Fork dari KHTML yang diluncurkan oleh Apple untuk mengembangkan pe
 
 
 
-WebKit menonjol karena kecepatan dan ukurannya yang kecil. Pada iOS, Apple telah memaksakan penggunaannya pada semua peramban karena alasan keamanan dan efisiensi energi: bahkan Firefox atau Chrome di iPhone menggunakan WebKit di bawah tenda.
+WebKit menonjol karena kecepatan dan ukurannya yang kecil. Pada iOS, Apple telah memaksakan penggunaannya pada semua browser karena alasan keamanan dan efisiensi energi: bahkan Firefox atau Chrome di iPhone menggunakan WebKit di bawah tenda.
 
 
 
@@ -3272,7 +2951,7 @@ Saat ini, Blink adalah mesin render yang paling banyak digunakan di dunia. Namun
 
 
 
-Penerus Trident, EdgeHTML telah dirancang oleh Microsoft untuk memodernisasi Edge, dengan kinerja dan kompatibilitas yang lebih baik. EdgeHTML menggabungkan beberapa kode Trident, tetapi dengan mesin JavaScript yang didesain ulang. Terlepas dari upaya ini, EdgeHTML berjuang untuk meyakinkan pengguna dan pengembang web. Pada tahun 2020, Microsoft memutuskan untuk meninggalkan EdgeHTML dan memilih Blink, meluncurkan Edge Chromium, yang menjadi peramban Blink dengan Microsoft Interface Layer.
+Penerus Trident, EdgeHTML telah dirancang oleh Microsoft untuk memodernisasi Edge, dengan kinerja dan kompatibilitas yang lebih baik. EdgeHTML menggabungkan beberapa kode Trident, tetapi dengan mesin JavaScript yang didesain ulang. Terlepas dari upaya ini, EdgeHTML berjuang untuk meyakinkan pengguna dan pengembang web. Pada tahun 2020, Microsoft memutuskan untuk meninggalkan EdgeHTML dan memilih Blink, meluncurkan Edge Chromium, yang menjadi browser Blink dengan Microsoft Interface Layer.
 
 
 
@@ -3280,7 +2959,7 @@ Penerus Trident, EdgeHTML telah dirancang oleh Microsoft untuk memodernisasi Edg
 
 
 
-Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan standarisasi, dominasi pemain besar, upaya alternatif yang lebih etis atau teknis. Saat ini, hampir semua peramban berbasiskan Blink, dengan pengecualian penting pada Firefox (Gecko) dan Safari (WebKit).
+Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan standarisasi, dominasi pemain besar, upaya alternatif yang lebih etis atau teknis. Saat ini, hampir semua browser berbasiskan Blink, dengan pengecualian penting pada Firefox (Gecko) dan Safari (WebKit).
 
 
 
@@ -3288,7 +2967,7 @@ Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan 
 
 
 
-Sejak pembuatan Blink pada tahun 2013 dan adopsi yang meluas di seluruh peramban berbasis Chromium, mesin rendering ini menjadi dominan. Pada tahun 2025, Blink tidak hanya mendukung Google Chrome, tetapi juga Microsoft Edge (sejak tahun 2020), Opera, Brave, Vivaldi, dan banyak peramban lain yang kurang terkenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama di Android, di mana Chrome sudah terinstal.
+Sejak pembuatan Blink pada tahun 2013 dan adopsi yang meluas di seluruh browser berbasis Chromium, mesin rendering ini menjadi dominan. Pada tahun 2025, Blink tidak hanya mendukung Google Chrome, tetapi juga Microsoft Edge (sejak tahun 2020), Opera, Brave, Vivaldi, dan banyak browser lain yang kurang terkenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama di Android, di mana Chrome sudah terinstal.
 
 
 
@@ -3312,7 +2991,7 @@ Terlebih lagi, ketergantungan yang semakin besar pada satu mesin meningkatkan ri
 
 
 
-Saat ini, Mozilla terus memainkan peran penting dalam mempertahankan web yang terbuka, menghormati privasi, dan dapat diakses secara bebas. Firefox tetap menjadi salah satu dari beberapa peramban utama yang tidak berbasis Chromium, dan menawarkan inovasi independen. Tetapi kelangsungan hidupnya bergantung pada kemampuannya untuk mempertahankan basis pengguna yang memadai dan pendanaan yang berkelanjutan.
+Saat ini, Mozilla terus memainkan peran penting dalam mempertahankan web yang terbuka, menghormati privasi, dan dapat diakses secara bebas. Firefox tetap menjadi salah satu dari beberapa browser utama yang tidak berbasis Chromium, dan menawarkan inovasi independen. Tetapi kelangsungan hidupnya bergantung pada kemampuannya untuk mempertahankan basis pengguna yang memadai dan pendanaan yang berkelanjutan.
 
 
 
@@ -3320,7 +2999,7 @@ Oleh karena itu, dominasi Blink bukan hanya masalah teknis: ini melibatkan perta
 
 
 
-Dalam kurun waktu tiga puluh tahun, peramban web telah berevolusi dari alat penampil sederhana menjadi platform perangkat lunak yang kompleks, yang terintegrasi ke dalam jantung pengalaman komputasi kita sehari-hari. Memahami evolusi historis ini memperjelas kepentingan strategis browser dalam masalah keamanan dan kedaulatan digital saat ini.
+Dalam kurun waktu tiga puluh tahun, browser web telah berevolusi dari alat penampil sederhana menjadi platform perangkat lunak yang kompleks, yang terintegrasi ke dalam jantung pengalaman komputasi kita sehari-hari. Memahami evolusi historis ini memperjelas kepentingan strategis browser dalam masalah keamanan dan kedaulatan digital saat ini.
 
 
 
@@ -3335,15 +3014,15 @@ Pada bab berikutnya, Kami akan memberikan gambaran umum tentang browser yang saa
 
 
 
-Setelah menjelajahi sejarah dan evolusi peramban, sekarang kita akan melihat peramban utama yang tersedia saat ini. Pilihan peramban bukanlah hal yang sepele, terutama jika, seperti dalam kasus kami, prioritasnya adalah keamanan, privasi, dan kedaulatan digital. Setiap peramban memiliki keunggulan spesifik, tetapi juga kelemahan, sering kali terkait dengan model bisnis atau pilihan teknis mereka.
+Setelah menjelajahi sejarah dan evolusi browser, sekarang kita akan melihat browser utama yang tersedia saat ini. Pilihan browser bukanlah hal yang sepele, terutama jika, seperti dalam kasus kami, prioritasnya adalah keamanan, privasi, dan kedaulatan digital. Setiap browser memiliki keunggulan spesifik, tetapi juga kelemahan, sering kali terkait dengan model bisnis atau pilihan teknis mereka.
 
 
 
-Tujuan dari bab ini adalah untuk membantu Anda memilih peramban yang paling sesuai dengan kebutuhan Anda. Saya telah menyusunnya berdasarkan mesin peramban, tetapi urutannya tidak mencerminkan peringkat apa pun.
+Tujuan dari bab ini adalah untuk membantu Anda memilih browser yang paling sesuai dengan kebutuhan Anda. Saya telah menyusunnya berdasarkan mesin browser, tetapi urutannya tidak mencerminkan peringkat apa pun.
 
 
 
-### Peramban berbasis Blink
+### browser berbasis Blink
 
 
 
@@ -3359,7 +3038,7 @@ Tujuan dari bab ini adalah untuk membantu Anda memilih peramban yang paling sesu
 
 
 
-Namun, dari perspektif keamanan dan privasi, Chrome menimbulkan kekhawatiran besar. Secara default, peramban mengumpulkan sejumlah besar data penggunanya (penjelajahan, penelusuran, riwayat...), yang digunakan terutama untuk tujuan periklanan oleh Google. Kemampuan untuk mengisolasi kuki dan pelacak dibatasi secara default, dan penonaktifan pelacakan secara total tetap rumit. Selain itu, meskipun Chrome secara teknis aman (kotak pasir yang efektif, pembaruan yang cepat...), Chrome tetap berada di bawah kendali pemain besar yang kepentingan komersialnya secara alami tidak sesuai dengan kedaulatan digital yang sebenarnya.
+Namun, dari perspektif keamanan dan privasi, Chrome menimbulkan kekhawatiran besar. Secara default, browser mengumpulkan sejumlah besar data penggunanya (penjelajahan, penelusuran, riwayat...), yang digunakan terutama untuk tujuan periklanan oleh Google. Kemampuan untuk mengisolasi kuki dan pelacak dibatasi secara default, dan penonaktifan pelacakan secara total tetap rumit. Selain itu, meskipun Chrome secara teknis aman (kotak pasir yang efektif, pembaruan yang cepat...), Chrome tetap berada di bawah kendali pemain besar yang kepentingan komersialnya secara alami tidak sesuai dengan kedaulatan digital yang sebenarnya.
 
 
 
@@ -3387,7 +3066,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-Brave didasarkan pada Chromium dan semua kodenya tersedia di GitHub. Hanya sebagian kecil saja yang merupakan hak milik. Secara keseluruhan, Brave sangat mirip dengan peramban sumber terbuka.
+Brave didasarkan pada Chromium dan semua kodenya tersedia di GitHub. Hanya sebagian kecil saja yang merupakan hak milik. Secara keseluruhan, Brave sangat mirip dengan browser sumber terbuka.
 
 
 
@@ -3399,11 +3078,11 @@ Brave adalah alternatif yang kuat untuk Chrome, menggabungkan kecepatan, keamana
 
 
 
-Meskipun banyak peramban (termasuk Brave) yang berbasis Chromium dan mengklaim pendekatan yang berorientasi pada privasi, sebuah investigasi yang dilakukan pada tahun 2024 mengungkapkan adanya integrasi, secara default, API yang memungkinkan Google untuk mengakses informasi sensitif tentang perangkat keras pengguna (CPU, GPU, RAM), serta aktivitasnya di layanan Google. API ini, yang diintegrasikan sebagai ekstensi yang tidak dapat dinonaktifkan di Chrome, juga hadir di beberapa peramban turunannya seperti Edge, Opera... dan bahkan Brave.
+Meskipun banyak browser (termasuk Brave) yang berbasis Chromium dan mengklaim pendekatan yang berorientasi pada privasi, sebuah investigasi yang dilakukan pada tahun 2024 mengungkapkan adanya integrasi, secara default, API yang memungkinkan Google untuk mengakses informasi sensitif tentang perangkat keras pengguna (CPU, GPU, RAM), serta aktivitasnya di layanan Google. API ini, yang diintegrasikan sebagai ekstensi yang tidak dapat dinonaktifkan di Chrome, juga hadir di beberapa browser turunannya seperti Edge, Opera... dan bahkan Brave.
 
 
 
-Meskipun Brave telah menonaktifkan API ini, kasus ini dengan jelas menggambarkan ketergantungan struktural peramban ini pada Chromium, yang tetap menjadi proyek yang sangat terkait dengan ekosistem Google. Akibatnya, bahkan varian Chromium yang berorientasi pada privasi tidak dapat menjamin kemandirian total atau perlindungan penuh terhadap data pengguna.
+Meskipun Brave telah menonaktifkan API ini, kasus ini dengan jelas menggambarkan ketergantungan struktural browser ini pada Chromium, yang tetap menjadi proyek yang sangat terkait dengan ekosistem Google. Akibatnya, bahkan varian Chromium yang berorientasi pada privasi tidak dapat menjamin kemandirian total atau perlindungan penuh terhadap data pengguna.
 
 
 
@@ -3424,12 +3103,12 @@ Meskipun Brave telah menonaktifkan API ini, kasus ini dengan jelas menggambarkan
 - Zona waktu dan bahasa Anda,
 - Kanvas HTML5,
 - Analisis rendering grafis,
-- Ekstensi peramban Anda,
+- Ekstensi browser Anda,
 - dll...
 
 
 
-Untuk memeriksa apakah sidik jari peramban Anda membuat Anda unik atau Anda berbaur dengan kerumunan, Anda dapat menggunakan situs berikut ini: https://amiunique.org/
+Untuk memeriksa apakah sidik jari browser Anda membuat Anda unik atau Anda berbaur dengan kerumunan, Anda dapat menggunakan situs berikut ini: https://amiunique.org/
 
 
 
@@ -3453,11 +3132,11 @@ Dalam hal keamanan, Vivaldi menyertakan beberapa fitur untuk memblokir pelacak d
 
 
 
-[Opera] (https://www.opera.com/) adalah peramban yang sudah lama berdiri, sudah ada sejak tahun 1995. Sekarang menggunakan Blink setelah meninggalkan mesin miliknya (*Presto*). Browser ini memiliki Interface yang modern dan beberapa fitur inovatif.
+[Opera] (https://www.opera.com/) adalah browser yang sudah lama berdiri, sudah ada sejak tahun 1995. Sekarang menggunakan Blink setelah meninggalkan mesin miliknya (*Presto*). Browser ini memiliki Interface yang modern dan beberapa fitur inovatif.
 
 
 
-Namun, dalam hal privasi, Opera sangat kontroversial: Opera telah dimiliki oleh perusahaan Cina sejak 2016, menimbulkan pertanyaan tentang kemungkinan eksploitasi data pengguna. Opera menyertakan VPN terintegrasi (proksi, bukan VPN yang sebenarnya), tetapi kebijakan privasinya tidak jelas tentang manajemen log. Opera juga merupakan peramban berpemilik. Oleh karena itu, tidak direkomendasikan, terutama ketika privasi menjadi prioritas.
+Namun, dalam hal privasi, Opera sangat kontroversial: Opera telah dimiliki oleh perusahaan Cina sejak 2016, menimbulkan pertanyaan tentang kemungkinan eksploitasi data pengguna. Opera menyertakan VPN terintegrasi (proksi, bukan VPN yang sebenarnya), tetapi kebijakan privasinya tidak jelas tentang manajemen log. Opera juga merupakan browser berpemilik. Oleh karena itu, tidak direkomendasikan, terutama ketika privasi menjadi prioritas.
 
 
 
@@ -3501,7 +3180,7 @@ Dari sudut pandang teknis, Arc didasarkan pada Chromium, tetapi tetap merupakan 
 
 
 
-Polypane adalah peramban eksklusif berbayar yang berbasis Chromium, yang membuatnya ideal untuk penggunaan profesional sesekali. Peramban ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
+Polypane adalah browser eksklusif berbayar yang berbasis Chromium, yang membuatnya ideal untuk penggunaan profesional sesekali. browser ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
 
 
 
@@ -3509,7 +3188,7 @@ Polypane adalah peramban eksklusif berbayar yang berbasis Chromium, yang membuat
 
 
 
-### Peramban berbasis Gecko
+### browser berbasis Gecko
 
 
 
@@ -3517,7 +3196,7 @@ Polypane adalah peramban eksklusif berbayar yang berbasis Chromium, yang membuat
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) adalah peramban paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang disempurnakan, opsi tingkat lanjut untuk memblokir kuki pihak ketiga, wadah tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
+[Firefox] (https://www.mozilla.org/firefox/new/) adalah browser paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang disempurnakan, opsi tingkat lanjut untuk memblokir kuki pihak ketiga, wadah tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
 
 
 
@@ -3529,19 +3208,19 @@ Mozilla adalah organisasi nirlaba, yang memberinya kemandirian relatif dari kepe
 
 
 
-Firefox adalah peramban sumber terbuka, didistribusikan di bawah lisensi MPL (*Mozilla Public License*). Kodenya benar-benar gratis, dapat dimodifikasi dan didistribusikan ulang, dan merupakan subjek dari banyak kontribusi eksternal.
+Firefox adalah browser sumber terbuka, didistribusikan di bawah lisensi MPL (*Mozilla Public License*). Kodenya benar-benar gratis, dapat dimodifikasi dan didistribusikan ulang, dan merupakan subjek dari banyak kontribusi eksternal.
 
 
 
-Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit tertinggal dari peramban berbasis Blink dalam area kinerja tertentu. Ini bisa menjadi peramban yang sangat bagus, selama dikonfigurasi dengan benar.
+Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit tertinggal dari browser berbasis Blink dalam area kinerja tertentu. Ini bisa menjadi browser yang sangat bagus, selama dikonfigurasi dengan benar.
 
 
 
-#### Peramban Tor
+#### browser Tor
 
 
 
-[Tor Browser] (https://www.torproject.org/download/) adalah peramban yang berbasis pada Firefox ESR. Ini adalah salah satu solusi yang paling kuat untuk anonimitas online. Peramban ini mengalihkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan tujuan web.
+[Tor Browser] (https://www.torproject.org/download/) adalah browser yang berbasis pada Firefox ESR. Ini adalah salah satu solusi yang paling kuat untuk anonimitas online. browser ini mengalihkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan tujuan web.
 
 
 
@@ -3559,7 +3238,7 @@ Kelemahannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompa
 
 
 
-[Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. Peramban ini didasarkan pada peramban Tor, yang merupakan turunan dari Firefox ESR. Peramban Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
+[Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. browser ini didasarkan pada browser Tor, yang merupakan turunan dari Firefox ESR. browser Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
 
 
 
@@ -3581,7 +3260,7 @@ Mullvad Browser adalah solusi yang sangat baik jika Anda mengkhawatirkan privasi
 
 
 
-[LibreWolf] (https://librewolf.net/) adalah peramban berbasis Firefox yang dirancang untuk menawarkan tingkat privasi yang lebih tinggi. Peramban ini menghapus semua fitur yang dapat membahayakan privasi, seperti telemetri, integrasi layanan Mozilla, dan layanan Pocket.
+[LibreWolf] (https://librewolf.net/) adalah browser berbasis Firefox yang dirancang untuk menawarkan tingkat privasi yang lebih tinggi. browser ini menghapus semua fitur yang dapat membahayakan privasi, seperti telemetri, integrasi layanan Mozilla, dan layanan Pocket.
 
 
 
@@ -3597,11 +3276,11 @@ Secara default, LibreWolf mengaktifkan pengaturan keamanan tingkat lanjut Firefo
 
 
 
-[Zen Browser] (https://zen-browser.app/) adalah peramban sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
+[Zen Browser] (https://zen-browser.app/) adalah browser sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
 
 
 
-Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh peramban Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
+Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh browser Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
 
 
 
@@ -3616,7 +3295,7 @@ Zen juga mendukung ekstensi Firefox, serta sinkronisasi melalui akun Mozilla.
 
 
 
-Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. Peramban ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. Peramban ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
+Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. browser ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. browser ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
 
 
 
@@ -3632,7 +3311,7 @@ Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelaj
 
 
 
-Peramban utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah peramban eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
+browser utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah browser eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
 
 
 
@@ -3640,7 +3319,7 @@ Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktopnya, dan be
 
 
 
-Di sini, kami berfokus pada peramban desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua peramban untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
+Di sini, kami berfokus pada browser desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua browser untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
 
 
 
@@ -3652,7 +3331,7 @@ Di sini, kami berfokus pada peramban desktop, tetapi penting untuk dicatat bahwa
 
 
 
-Alternatif yang menarik untuk Safari adalah [Orion] (https://kagi.com/orion/), peramban modern yang dirancang khusus untuk ekosistem Apple, dan juga berbasis WebKit. Tujuannya adalah untuk menawarkan alternatif yang cepat, ringan, dan sangat menghargai privasi, tanpa mengorbankan fitur-fitur canggih.
+Alternatif yang menarik untuk Safari adalah [Orion] (https://kagi.com/orion/), browser modern yang dirancang khusus untuk ekosistem Apple, dan juga berbasis WebKit. Tujuannya adalah untuk menawarkan alternatif yang cepat, ringan, dan sangat menghargai privasi, tanpa mengorbankan fitur-fitur canggih.
 
 
 
@@ -3676,15 +3355,15 @@ Orion sepenuhnya dikembangkan oleh tim Kagi (yang dikenal dengan mesin pencari b
 
 
 
-Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang kurang dikenal dan sangat marjinal: peramban mode teks, yang paling terkenal adalah [Lynx Browser] (https://lynx.invisible-island.net/).
+Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang kurang dikenal dan sangat marjinal: browser mode teks, yang paling terkenal adalah [Lynx Browser] (https://lynx.invisible-island.net/).
 
 
 
-Lynx adalah peramban web tertua yang masih dipertahankan (1992). Browser ini beroperasi secara eksklusif dalam mode teks dan digunakan secara langsung di terminal, tanpa Interface grafis. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif dalam halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
+Lynx adalah browser web tertua yang masih dipertahankan (1992). Browser ini beroperasi secara eksklusif dalam mode teks dan digunakan secara langsung di terminal, tanpa Interface grafis. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif dalam halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
 
 
 
-Pendekatan yang sangat minimalis ini menjadikannya salah satu peramban yang paling aman: tidak ada skrip berbahaya yang dapat berjalan, tidak ada iklan yang mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (sidik jari kanvas, pelacak JavaScript, dan lain-lain) yang mungkin terjadi.
+Pendekatan yang sangat minimalis ini menjadikannya salah satu browser yang paling aman: tidak ada skrip berbahaya yang dapat berjalan, tidak ada iklan yang mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (sidik jari kanvas, pelacak JavaScript, dan lain-lain) yang mungkin terjadi.
 
 
 
@@ -3713,11 +3392,11 @@ Lynx masih bisa menarik dalam konteks tertentu yang sangat spesifik:
 
 
 
-Untuk pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus mengubah banyak pengaturan secara manual, dan yang mencari peramban tujuan umum setiap hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (meskipun ada risiko dan filosofi yang sangat berbeda), Anda juga bisa mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih memilih mesin rendering Gecko karena berbagai alasan, meskipun saat ini masih tertinggal dari Blink dalam hal kinerja.
+Untuk pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus mengubah banyak pengaturan secara manual, dan yang mencari browser tujuan umum setiap hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (meskipun ada risiko dan filosofi yang sangat berbeda), Anda juga bisa mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih memilih mesin rendering Gecko karena berbagai alasan, meskipun saat ini masih tertinggal dari Blink dalam hal kinerja.
 
 
 
-Firefox juga merupakan pilihan yang sangat baik sebagai peramban tujuan umum, selama dikonfigurasi dengan benar untuk meningkatkan privasi.
+Firefox juga merupakan pilihan yang sangat baik sebagai browser tujuan umum, selama dikonfigurasi dengan benar untuk meningkatkan privasi.
 
 
 
@@ -3729,7 +3408,7 @@ Chrome, terlepas dari popularitasnya, tidak dapat direkomendasikan sebagai bagia
 
 
 
-Saat ini, pilihan peramban Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi peramban yang paling sesuai dengan profil risiko dan prioritas Anda.
+Saat ini, pilihan browser Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi browser yang paling sesuai dengan profil risiko dan prioritas Anda.
 
 
 
@@ -3765,11 +3444,11 @@ Dalam bab berikutnya, kita akan melihat praktik terbaik untuk menjelajahi web de
 
 
 
-Pada bab sebelumnya, kita telah membahas detail peramban utama yang tersedia saat ini, bersama dengan kelebihan dan kekurangannya dalam hal keamanan dan privasi.
+Pada bab sebelumnya, kita telah membahas detail browser utama yang tersedia saat ini, bersama dengan kelebihan dan kekurangannya dalam hal keamanan dan privasi.
 
 
 
-Namun, peramban yang paling aman pun tidak cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kami akan membahas secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
+Namun, browser yang paling aman pun tidak cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kami akan membahas secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
 
 
 
@@ -3781,11 +3460,11 @@ Browser web adalah salah satu komponen perangkat lunak yang paling terbuka dalam
 
 
 
-Kerumitan teknis ini, dikombinasikan dengan permukaan serangan yang sangat besar, menjadikan peramban web sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup kunjungi situs jebakan dan mesin Anda disusupi), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
+Kerumitan teknis ini, dikombinasikan dengan permukaan serangan yang sangat besar, menjadikan browser web sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup kunjungi situs jebakan dan mesin Anda disusupi), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
 
 
 
-Untuk mengurangi risiko ini, penerbit peramban merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah teridentifikasi. Tambalan ini tidak terbatas pada Interface atau peningkatan kinerja: tambalan ini secara aktif memblokir vektor serangan yang terdokumentasi.
+Untuk mengurangi risiko ini, penerbit browser merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah teridentifikasi. Tambalan ini tidak terbatas pada Interface atau peningkatan kinerja: tambalan ini secara aktif memblokir vektor serangan yang terdokumentasi.
 
 
 
@@ -3819,7 +3498,7 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-Memperbarui peramban, perangkat lunak, dan sistem operasi Anda adalah salah satu langkah konkret pertama yang bisa Anda lakukan dalam hal keamanan siber.
+Memperbarui browser, perangkat lunak, dan sistem operasi Anda adalah salah satu langkah konkret pertama yang bisa Anda lakukan dalam hal keamanan siber.
 
 
 
@@ -3891,7 +3570,7 @@ Di sisi lain, berlawanan dengan kepercayaan populer, VPN tidak menyediakan anoni
 
 
 
-Terlebih lagi, VPN tidak menawarkan proteksi terhadap *malware*, pelacakan JavaScript, atau kuki pihak ketiga. Jika Anda masuk ke akun Google atau Facebook Anda, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak memfilter konten, dan tidak akan mencegah halaman jebakan menyerang Anda melalui kerentanan peramban.
+Terlebih lagi, VPN tidak menawarkan proteksi terhadap *malware*, pelacakan JavaScript, atau kuki pihak ketiga. Jika Anda masuk ke akun Google atau Facebook Anda, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak memfilter konten, dan tidak akan mencegah halaman jebakan menyerang Anda melalui kerentanan browser.
 
 
 
@@ -3929,7 +3608,7 @@ Di sisi lain, cookie adalah file kecil yang disimpan oleh browser atas permintaa
 
 
 
-Pembersihan data lokal ini secara teratur adalah cara yang sederhana namun efektif untuk membatasi pelacakan dan menjaga privasi Anda. Sebagian besar peramban menawarkan opsi untuk:
+Pembersihan data lokal ini secara teratur adalah cara yang sederhana namun efektif untuk membatasi pelacakan dan menjaga privasi Anda. Sebagian besar browser menawarkan opsi untuk:
 
 
 
@@ -3944,12 +3623,12 @@ Di Firefox, misalnya, Anda dapat mengonfigurasi penghapusan otomatis melalui Pen
 
 
 
-Namun, perlu diingat bahwa menghapus cookie saja tidak cukup untuk menjamin privasi Anda: ada teknik pelacakan lain yang lebih canggih, seperti sidik jari (sidik jari unik dari peramban Anda, perangkat keras Anda, IP Anda, penggunaan Anda...), yang memerlukan langkah-langkah tambahan untuk mengelak:
+Namun, perlu diingat bahwa menghapus cookie saja tidak cukup untuk menjamin privasi Anda: ada teknik pelacakan lain yang lebih canggih, seperti sidik jari (sidik jari unik dari browser Anda, perangkat keras Anda, IP Anda, penggunaan Anda...), yang memerlukan langkah-langkah tambahan untuk mengelak:
 
 
 
 
-- Gunakan peramban yang menawarkan ketahanan sidik jari asli: Tor Browser dan Mullvad Browser adalah yang terbaik untuk ini, jika tidak, pilihan lain yang cukup bagus adalah LibreWolf, Brave atau Firefox dengan pengerasan manual;
+- Gunakan browser yang menawarkan ketahanan sidik jari asli: Tor Browser dan Mullvad Browser adalah yang terbaik untuk ini, jika tidak, pilihan lain yang cukup bagus adalah LibreWolf, Brave atau Firefox dengan pengerasan manual;
 - Batasi atau blokir JavaScript bila memungkinkan;
 - Hindari ekstensi yang tidak penting;
 - Secara umum, gunakan profil yang umum dan konsisten, untuk membaur lebih baik dan membatasi kemungkinan identifikasi.
@@ -3960,7 +3639,7 @@ Namun, perlu diingat bahwa menghapus cookie saja tidak cukup untuk menjamin priv
 
 
 
-Mode penjelajahan pribadi, yang tersedia di semua peramban modern (Firefox, Chrome, Brave, Safari...), sering kali disalahpahami. Mode ini bukanlah alat anonimisasi, atau perlindungan terhadap pelacakan online. Mode ini hanya membatasi perekaman data lokal pada komputer Anda selama sesi aktif.
+Mode penjelajahan pribadi, yang tersedia di semua browser modern (Firefox, Chrome, Brave, Safari...), sering kali disalahpahami. Mode ini bukanlah alat anonimisasi, atau perlindungan terhadap pelacakan online. Mode ini hanya membatasi perekaman data lokal pada komputer Anda selama sesi aktif.
 
 
 
@@ -4042,7 +3721,7 @@ Untuk layanan penting (terkait dengan perbankan, otoritas pajak, email, dll), da
 
 
 
-Apakah Anda menerima email dari kantor pajak yang berisi tautan? Jangan klik tautan tersebut. Sebaliknya, buka langsung ke ruang pribadi Anda menggunakan URL yang telah Anda simpan di bookmark. Saat ini, semua peramban modern menawarkan bilah penanda dengan opsi untuk mengatur tautan Anda ke dalam folder. Luangkan waktu untuk melakukan hal ini sekali saja, dengan memeriksa URL dan sertifikat SSL/TLS dengan cermat, dan Anda akan dapat menjelajah dengan lebih aman.
+Apakah Anda menerima email dari kantor pajak yang berisi tautan? Jangan klik tautan tersebut. Sebaliknya, buka langsung ke ruang pribadi Anda menggunakan URL yang telah Anda simpan di bookmark. Saat ini, semua browser modern menawarkan bilah penanda dengan opsi untuk mengatur tautan Anda ke dalam folder. Luangkan waktu untuk melakukan hal ini sekali saja, dengan memeriksa URL dan sertifikat SSL/TLS dengan cermat, dan Anda akan dapat menjelajah dengan lebih aman.
 
 
 
@@ -4060,7 +3739,7 @@ Mari kita ambil contoh: jika penyerang berhasil mendapatkan kata sandi akun Stea
 
 
 
-Selain langkah-langkah ini, penggunaan pengelola kata sandi yang baik sebagai ekstensi peramban juga dapat melindungi Anda dari situs web palsu. Memang, sebagian besar ekstensi ini akan mendeteksi URL yang mencurigakan dan menolak mengisi kredensial Anda secara otomatis, atau bahkan memberi tahu Anda tentang hal itu, yang akan mencegah Anda secara tidak sengaja mengekspos detail akses Anda.
+Selain langkah-langkah ini, penggunaan pengelola kata sandi yang baik sebagai ekstensi browser juga dapat melindungi Anda dari situs web palsu. Memang, sebagian besar ekstensi ini akan mendeteksi URL yang mencurigakan dan menolak mengisi kredensial Anda secara otomatis, atau bahkan memberi tahu Anda tentang hal itu, yang akan mencegah Anda secara tidak sengaja mengekspos detail akses Anda.
 
 
 
@@ -4082,7 +3761,7 @@ Phishing hanya berhasil jika Anda mengklik terlalu cepat. Untuk setiap tautan ya
 
 
 
-Ekstensi peramban adalah modul yang menambahkan fitur (pemblokiran iklan, terjemahan, pencatatan, pengelola kata sandi, Dompet Bitcoin, dan lain-lain). Ekstensi peramban berjalan langsung di lingkungan peramban dan dapat mengakses semua atau sebagian halaman yang Anda kunjungi. Hal ini membuat mereka sangat kuat, tetapi juga berpotensi berbahaya.
+Ekstensi browser adalah modul yang menambahkan fitur (pemblokiran iklan, terjemahan, pencatatan, pengelola kata sandi, Dompet Bitcoin, dan lain-lain). Ekstensi browser berjalan langsung di lingkungan browser dan dapat mengakses semua atau sebagian halaman yang Anda kunjungi. Hal ini membuat mereka sangat kuat, tetapi juga berpotensi berbahaya.
 
 
 
@@ -4094,7 +3773,7 @@ Untuk membatasi risiko ini, instal hanya ekstensi dari sumber resmi (Pengaya Moz
 
 
 
-Memeriksa ekstensi Anda secara teratur adalah bagian penting untuk menjaga keamanan peramban Anda.
+Memeriksa ekstensi Anda secara teratur adalah bagian penting untuk menjaga keamanan browser Anda.
 
 
 
@@ -4112,13 +3791,13 @@ Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (
 
 
 
-- Gunakan beberapa peramban yang berbeda**: misalnya, Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas yang sensitif, dan Chromium untuk tugas-tugas profesional. Setiap peramban menggunakan contoh penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Hal ini juga memungkinkan Anda untuk menyesuaikan pengaturan peramban dengan kasus penggunaan spesifik Anda.
+- Gunakan beberapa browser yang berbeda**: misalnya, Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas yang sensitif, dan Chromium untuk tugas-tugas profesional. Setiap browser menggunakan contoh penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Hal ini juga memungkinkan Anda untuk menyesuaikan pengaturan browser dengan kasus penggunaan spesifik Anda.
 
 
 
 
 
-- Buat beberapa profil dalam satu browser**: beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit lebih longgar daripada menggunakan beberapa peramban terpisah, tetapi masih kurang efektif.
+- Buat beberapa profil dalam satu browser**: beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit lebih longgar daripada menggunakan beberapa browser terpisah, tetapi masih kurang efektif.
 
 
 
@@ -4134,7 +3813,7 @@ Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (
 
 
 
-- Gunakan lingkungan sistem yang terisolasi**: Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan peramban di dalam mesin virtual atau kontainer Docker, untuk menjaganya agar tetap terpisah dari lingkungan utama.
+- Gunakan lingkungan sistem yang terisolasi**: Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan browser di dalam mesin virtual atau kontainer Docker, untuk menjaganya agar tetap terpisah dari lingkungan utama.
 
 
 
@@ -4142,7 +3821,7 @@ Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (
 
 
 
-Peramban modern memungkinkan situs meminta akses ke sumber daya sensitif pada perangkat Anda, seperti kamera, mikrofon, geolokasi, atau pemberitahuan sistem. Fitur-fitur ini berguna untuk aplikasi tertentu (konferensi video, peta interaktif...), tetapi juga membuka pintu penyalahgunaan jika tidak dikontrol dengan baik.
+browser modern memungkinkan situs meminta akses ke sumber daya sensitif pada perangkat Anda, seperti kamera, mikrofon, geolokasi, atau pemberitahuan sistem. Fitur-fitur ini berguna untuk aplikasi tertentu (konferensi video, peta interaktif...), tetapi juga membuka pintu penyalahgunaan jika tidak dikontrol dengan baik.
 
 
 
@@ -4169,7 +3848,7 @@ Untuk keamanan tambahan:
 
 
 
-Setiap kali Anda mengirimkan informasi pribadi, rahasia, atau keuangan ke sebuah situs web, baik itu kata sandi, nomor kartu kredit, atau formulir pendaftaran sederhana, penting untuk memastikan bahwa koneksi antara peramban Anda dan situs tersebut dienkripsi.
+Setiap kali Anda mengirimkan informasi pribadi, rahasia, atau keuangan ke sebuah situs web, baik itu kata sandi, nomor kartu kredit, atau formulir pendaftaran sederhana, penting untuk memastikan bahwa koneksi antara browser Anda dan situs tersebut dienkripsi.
 
 
 
@@ -4184,7 +3863,7 @@ Inilah peran HTTPS (*HyperText Transfer Protocol Secure*). Protokol ini didasark
 
 
 
-Secara konkret, situs yang mendukung HTTPS ditandai dengan gembok tertutup pada bilah Address peramban Anda, biasanya pada bagian kiri atas Interface. Mengeklik gembok ini akan menampilkan informasi tentang sertifikat TLS situs tersebut (otoritas sertifikasi, tanggal validitas, dll.). Situs Address juga secara sistematis dimulai dengan `https://`.
+Secara konkret, situs yang mendukung HTTPS ditandai dengan gembok tertutup pada bilah Address browser Anda, biasanya pada bagian kiri atas Interface. Mengeklik gembok ini akan menampilkan informasi tentang sertifikat TLS situs tersebut (otoritas sertifikasi, tanggal validitas, dll.). Situs Address juga secara sistematis dimulai dengan `https://`.
 
 
 
@@ -4196,11 +3875,11 @@ Sebaliknya, jika situs masih menggunakan HTTP (tanpa "S"), koneksi tidak terenkr
 
 
 
-Secara teori, Anda harus selalu memeriksa informasi ini secara manual sebelum memasukkan data pada sebuah situs web. Pada praktiknya, sebagian besar peramban modern secara otomatis menandai situs HTTP sebagai situs yang tidak aman. Anda juga dapat mengaktifkan opsi untuk memaksa penggunaan protokol HTTPS dalam pengaturan keamanan peramban, sehingga Anda dapat memblokir situs yang tidak mendukungnya.
+Secara teori, Anda harus selalu memeriksa informasi ini secara manual sebelum memasukkan data pada sebuah situs web. Pada praktiknya, sebagian besar browser modern secara otomatis menandai situs HTTP sebagai situs yang tidak aman. Anda juga dapat mengaktifkan opsi untuk memaksa penggunaan protokol HTTPS dalam pengaturan keamanan browser, sehingga Anda dapat memblokir situs yang tidak mendukungnya.
 
 
 
-Faktanya, sangat sedikit situs saat ini yang dapat diakses hanya melalui HTTP. Protokol ini sebagian besar ditinggalkan dan memilih HTTPS, tidak hanya karena alasan keamanan yang jelas, tetapi juga karena protokol ini dihukum oleh mesin pencari dan ditandai sebagai berpotensi berbahaya oleh peramban modern, yang tidak membangkitkan kepercayaan di antara para pengunjung.
+Faktanya, sangat sedikit situs saat ini yang dapat diakses hanya melalui HTTP. Protokol ini sebagian besar ditinggalkan dan memilih HTTPS, tidak hanya karena alasan keamanan yang jelas, tetapi juga karena protokol ini dihukum oleh mesin pencari dan ditandai sebagai berpotensi berbahaya oleh browser modern, yang tidak membangkitkan kepercayaan di antara para pengunjung.
 
 
 
@@ -4249,7 +3928,7 @@ Untuk membatasi pelacakan ini, kami sarankan untuk memilih mesin pencari yang me
 
 
 
-Pada sebagian besar peramban, Anda dapat secara manual mengonfigurasi mesin pencari default di pengaturan. Hal ini memungkinkan Anda menghindari Google tanpa mengubah peramban.
+Pada sebagian besar browser, Anda dapat secara manual mengonfigurasi mesin pencari default di pengaturan. Hal ini memungkinkan Anda menghindari Google tanpa mengubah browser.
 
 
 
@@ -5033,7 +4712,7 @@ Sejauh ini, kita telah menjelajahi cara mengamankan ponsel cerdas Anda dan cara 
 Di luar aplikasi pesan instan, penting untuk diingat bahwa aplikasi lain pada ponsel cerdas Anda dapat mengeksploitasi data Anda untuk tujuan komersial. Untungnya, ada alternatif sumber terbuka yang menghargai privasi Anda. Itulah yang ingin saya perkenalkan kepada Anda dalam bab ini.
 
 
-Saya tidak akan membahas kembali alternatif untuk peramban dan pengirim pesan instan di sini, karena kita sudah membahasnya secara mendetail di bab-bab sebelumnya.
+Saya tidak akan membahas kembali alternatif untuk browser dan pengirim pesan instan di sini, karena kita sudah membahasnya secara mendetail di bab-bab sebelumnya.
 
 
 ### Email pelanggan
@@ -5301,7 +4980,7 @@ Interface sedikit lebih rumit daripada QuillNote, tetapi masih dapat digunakan d
 ### Manajer kata sandi
 
 
-Banyak pengguna yang membiarkan peramban mereka menyimpan kata sandi mereka melalui solusi seperti Pengelola Kata Sandi Google. Meskipun nyaman, jenis manajemen terpusat ini tidak menawarkan enkripsi ujung ke ujung yang dikendalikan pengguna, dan mengekspos kredensial Anda pada risiko jika akun Google Anda dibobol. Untuk pengelolaan kata sandi Anda yang lebih aman dan berdaulat, beberapa alternatif sumber terbuka tersedia.
+Banyak pengguna yang membiarkan browser mereka menyimpan kata sandi mereka melalui solusi seperti Pengelola Kata Sandi Google. Meskipun nyaman, jenis manajemen terpusat ini tidak menawarkan enkripsi ujung ke ujung yang dikendalikan pengguna, dan mengekspos kredensial Anda pada risiko jika akun Google Anda dibobol. Untuk pengelolaan kata sandi Anda yang lebih aman dan berdaulat, beberapa alternatif sumber terbuka tersedia.
 
 
 **Alternatif**:
@@ -5763,7 +5442,7 @@ Quick Share sekarang menjadi standar di Android. Perangkat lunak ini, yang awaln
 - [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
-Snapdrop adalah alternatif sumber terbuka gratis yang tidak memerlukan instalasi. Snapdrop memungkinkan Anda berbagi file di antara perangkat yang terhubung ke jaringan lokal yang sama, cukup melalui peramban web. Transfer bersifat langsung (peer-to-peer) dan data tidak pernah melewati server jarak jauh.
+Snapdrop adalah alternatif sumber terbuka gratis yang tidak memerlukan instalasi. Snapdrop memungkinkan Anda berbagi file di antara perangkat yang terhubung ke jaringan lokal yang sama, cukup melalui browser web. Transfer bersifat langsung (peer-to-peer) dan data tidak pernah melewati server jarak jauh.
 
 
 Alternatif yang menarik adalah [PairDrop] (https://github.com/schlagmichdoch/pairdrop) (Fork dari Snapdrop), yang menawarkan beberapa fitur tambahan.
@@ -5892,7 +5571,7 @@ Infrastruktur Internet didasarkan pada dua protokol:
 Kedua protokol ini bekerja sama untuk memastikan bahwa pesan yang dikirim dari satu titik ke titik lainnya tiba dengan lengkap dan dalam urutan yang benar.
 
 
-Secara konkret, ketika Anda mengunjungi situs web, misalnya dengan mengetikkan Address pada peramban Anda, beberapa operasi dipicu di latar belakang. Pertama, komputer atau ponsel cerdas Anda harus mengubah Address yang dapat dibaca (seperti `planb.network`) menjadi IP Address, dengan menggunakan layanan yang disebut DNS (*Domain Name System*). Setelah IP Address server web diperoleh, data dapat dikirim ke tujuannya.
+Secara konkret, ketika Anda mengunjungi situs web, misalnya dengan mengetikkan Address pada browser Anda, beberapa operasi dipicu di latar belakang. Pertama, komputer atau ponsel cerdas Anda harus mengubah Address yang dapat dibaca (seperti `planb.network`) menjadi IP Address, dengan menggunakan layanan yang disebut DNS (*Domain Name System*). Setelah IP Address server web diperoleh, data dapat dikirim ke tujuannya.
 
 
 Data ini kemudian mengikuti jalur yang rumit. Pertama, data ini melewati router dan modem di rumah Anda, sebelum mencapai infrastruktur ISP Anda. Dari sana, data tersebut berpotensi melintasi beberapa jaringan perantara (kadang-kadang kabel lintas samudra, router transit, titik Internet Exchange, dll.) sebelum mencapai tujuannya: Server situs yang ingin Anda kunjungi. Kemudian, server akan mengirimkan data (konten situs) ke arah yang berlawanan.
@@ -6052,7 +5731,7 @@ Port ini juga digunakan dalam sistem seperti Bitcoin atau Tor, di mana port tert
 - Port `18333` digunakan untuk koneksi P2P pada Bitcoin Testnet
 - Port `8332` digunakan untuk Interface RPC dari node Bitcoin
 - Port `9050` digunakan oleh proxy SOCKS5 Tor
-- Port `9150` digunakan oleh Peramban Tor
+- Port `9150` digunakan oleh browser Tor
 
 
 Dengan kata lain, port seperti pintu khusus. Ketika Anda mengunjungi sebuah situs web, komputer Anda membuka port sumber dan mengirimkan permintaan ke IP Address situs jarak jauh, menargetkan port `443` jika itu adalah koneksi terenkripsi. Server jarak jauh kemudian mengembalikan respons melalui saluran yang sama. Pada router, pengertian port ini penting: Router perlu mengetahui perangkat mana dan port lokal mana yang akan mengarahkan paket data yang masuk.
@@ -6302,7 +5981,7 @@ Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada be
 
 
 
-- Pada tingkat aplikasi: Beberapa aplikasi perangkat lunak, seperti peramban Firefox, memungkinkan Anda untuk mengonfigurasi protokol enkripsi DNS, seperti DoH, secara langsung. Namun, solusi ini hanya melindungi permintaan yang dibuat melalui aplikasi, dan bukan seluruh komputer Anda.
+- Pada tingkat aplikasi: Beberapa aplikasi perangkat lunak, seperti browser Firefox, memungkinkan Anda untuk mengonfigurasi protokol enkripsi DNS, seperti DoH, secara langsung. Namun, solusi ini hanya melindungi permintaan yang dibuat melalui aplikasi, dan bukan seluruh komputer Anda.
 
 
 ![Image](assets/fr/198.webp)
@@ -6313,7 +5992,7 @@ Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada be
 
 
 
-- Pada tingkat jaringan: Enkripsi DNS dapat diterapkan ke seluruh jaringan lokal melalui konfigurasi router. Sekali lagi, router yang dikonfigurasi untuk DoH/DoT hanya melihat trafik yang benar-benar dikirim ke router tersebut. Jadi peramban yang dikonfigurasi untuk menghubungi resolver jarak jauh secara langsung lolos dari kontrol ini. Untuk mengurangi celah ini, Anda perlu memblokir port 53 dengan teks yang jelas dan membatasi tujuan DoH/DoT yang tidak sah melalui firewall router.
+- Pada tingkat jaringan: Enkripsi DNS dapat diterapkan ke seluruh jaringan lokal melalui konfigurasi router. Sekali lagi, router yang dikonfigurasi untuk DoH/DoT hanya melihat trafik yang benar-benar dikirim ke router tersebut. Jadi browser yang dikonfigurasi untuk menghubungi resolver jarak jauh secara langsung lolos dari kontrol ini. Untuk mengurangi celah ini, Anda perlu memblokir port 53 dengan teks yang jelas dan membatasi tujuan DoH/DoT yang tidak sah melalui firewall router.
 
 
 Selain itu, router modem yang disediakan ISP tidak selalu mendukung fitur-fitur ini. Jika terjadi keterbatasan router, ada beberapa alternatif. Anda dapat menginstal klien DNS yang dienkripsi secara manual pada setiap perangkat, menambahkan router pribadi di belakang ISP (yang mampu menangani enkripsi DNS) atau menggunakan server DNS lokal (misalnya, pada Raspberry Pi) yang bertanggung jawab untuk mengenkripsi dan mengalihkan permintaan DNS ke penyelesai yang aman.
@@ -6325,7 +6004,7 @@ Untuk melangkah lebih jauh, Anda juga bisa menyiapkan solusi penyaringan DNS lok
 
 https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblokir permintaan ke domain yang dikenal sebagai tempat iklan, pelacak peramban, phishing, atau situs berbahaya. Alat-alat ini juga memungkinkan Anda untuk membuat daftar pemblokiran Anda sendiri atau menyesuaikan pemfilteran menurut perangkat yang terhubung.
+Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblokir permintaan ke domain yang dikenal sebagai tempat iklan, pelacak browser, phishing, atau situs berbahaya. Alat-alat ini juga memungkinkan Anda untuk membuat daftar pemblokiran Anda sendiri atau menyesuaikan pemfilteran menurut perangkat yang terhubung.
 
 
 ![Image](assets/fr/200.webp)

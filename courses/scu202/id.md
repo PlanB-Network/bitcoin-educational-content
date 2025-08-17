@@ -2270,155 +2270,73 @@ Dalam bab ini, kita akan melihat secara rinci cara mencadangkan dan mengenkripsi
 
 ### Mencadangkan data Anda
 
-
-
 #### Mengapa mencadangkan data Anda?
 
+Pencadangan data pribadi atau bisnis secara rutin adalah langkah keamanan yang sangat penting, sering diabaikan hingga terlambat. Bertentangan dengan kepercayaan umum, pencadangan data bukanlah tugas opsional atau hanya untuk perusahaan: ini berlaku untuk setiap pengguna komputer. Apakah Anda memiliki dokumen pekerjaan, foto keluarga, dokumen pribadi, atau konten sensitif lainnya, data ini dapat tiba-tiba hilang karena berbagai alasan:
 
+- Kegagalan Perangkat Keras: HDD dan SSD memiliki masa pakai terbatas. Tanpa peringatan, mereka bisa gagal, membuat data tidak dapat diakses.
 
-Mencadangkan data pribadi atau bisnis Anda secara teratur adalah langkah keamanan yang sangat penting, yang sering diabaikan hingga semuanya terlambat. Berlawanan dengan kepercayaan umum, mencadangkan data bukanlah tugas opsional atau tugas khusus perusahaan: ini menyangkut setiap pengguna komputer. Apakah Anda memiliki dokumen kerja, foto keluarga, dokumen pribadi, atau konten sensitif lainnya, data ini bisa tiba-tiba hilang karena berbagai alasan:
+- Serangan Komputer: Beberapa _malware_, khususnya ransomware, mengenkripsi berkas Anda secara lokal dan menuntut tebusan sebagai imbalan kunci dekripsi. Tanpa cadangan independen, Anda berada di bawah kendali mereka.
 
+- Kesalahan Manusia: Salah penanganan, penghapusan yang tidak disengaja, atau pemformatan yang tidak disengaja dapat menyebabkan kehilangan data yang tidak dapat dipulihkan.
 
-
-
-
-- Kegagalan perangkat keras: HDD dan SSD memiliki masa pakai yang terbatas. Tanpa peringatan, perangkat keras ini dapat mengalami kegagalan, sehingga data tidak dapat diakses.
-
-
-
-
-
-- Serangan komputer: beberapa *malware*, terutama ransomware, mengenkripsi file Anda secara lokal dan meminta tebusan dalam bentuk Exchange untuk kunci dekripsi. Tanpa cadangan independen, Anda berada di bawah kendali mereka.
-
-
-
-
-
-- Kesalahan manusia: kesalahan penanganan, penghapusan yang tidak disengaja, atau pemformatan yang tidak disengaja dapat menyebabkan kehilangan yang tidak dapat dipulihkan.
-
-
-
-
-
-- Bencana fisik: kebakaran, kerusakan akibat air, pencurian, atau bahkan lonjakan listrik dapat membuat peralatan Anda tidak dapat digunakan dalam sekejap.
-
-
+- Bencana Fisik: Kebakaran, kerusakan akibat air, pencurian, atau bahkan lonjakan listrik dapat membuat peralatan Anda tidak dapat digunakan dalam sekejap.
 
 Itulah mengapa Anda memerlukan strategi pencadangan yang ketat, terencana dan tangguh.
 
-
-
 #### Metode 3-2-1: standar keamanan yang kuat
 
+Aturan "3-2-1" adalah standar yang diakui dalam keamanan TI. Aturan ini didasarkan pada prinsip-prinsip sederhana namun sangat efektif yang menjamin toleransi terhadap kesalahan dan insiden. Berikut cara kerjanya:
 
-
-Aturan "3-2-1" adalah standar yang diakui dalam keamanan TI. Aturan ini didasarkan pada prinsip-prinsip sederhana namun sangat efektif yang menjamin toleransi kesalahan dan insiden. Begini cara kerjanya:
-
-
-
-
-
-- 3 salinan data Anda: ini termasuk data asli (file di komputer Anda) dan dua salinan cadangan tambahan.
-
-
-
-
-
-- 2 media penyimpanan yang berbeda: tujuannya adalah untuk menghindari masalah perangkat keras yang mempengaruhi semua media Anda sekaligus. Misalnya, drive Hard eksternal + cloud; atau NAS + komputer Anda.
-
-
-
-
-
-- 1 salinan di luar lokasi: salinan ini harus ditempatkan jauh dari tempat utama Anda (di rumah kerabat, di server jarak jauh, di cloud yang aman...). Ini melindungi Anda dari insiden lokal seperti kebakaran atau pencurian.
-
-
+- 3 salinan data Anda: Ini mencakup salinan asli (file di komputer Anda) dan dua salinan cadangan tambahan.
+  
+- 2 media penyimpanan yang berbeda: Tujuannya adalah untuk menghindari masalah perangkat keras yang memengaruhi semua media Anda sekaligus. Contohnya, hard drive eksternal + cloud; atau NAS + komputer Anda.
+  
+- 1 salinan di luar lokasi: Salinan ini harus disimpan jauh dari lokasi utama Anda (di rumah kerabat, di server jarak jauh, di cloud yang aman, dll.). Ini melindungi Anda dari insiden lokal seperti kebakaran atau perampokan.
 
 Mari kita ambil contoh pengguna standar, Alice, yang ingin mengamankan data pribadinya.
 
+Alice menyimpan satu versi filenya di laptop, tempat ia menggunakannya setiap hari. Agar memiliki setidaknya dua media terpisah, ia secara rutin (misalnya, setiap Senin) menyalin semua datanya ke sebuah flash drive USB yang ia simpan di rumah. Untuk melindungi dirinya dari pencurian file jika terjadi kehilangan atau pencurian fisik, Alice mengenkripsi flash drive USB ini menggunakan perangkat lunak yang sesuai (kita akan melihat cara melakukannya nanti di bab ini).
 
-
-Alice menyimpan satu versi file di laptopnya, di mana dia menggunakannya setiap hari. Agar memiliki setidaknya dua media yang terpisah, dia secara teratur (setiap hari Senin, misalnya) menyalin semua datanya ke dalam stik USB, yang disimpannya di rumah. Untuk melindungi dirinya dari pencurian file-filenya jika terjadi kehilangan atau pencurian, Alice mengenkripsi stik USB ini menggunakan perangkat lunak yang sesuai (kita akan melihat bagaimana cara melakukannya di bab ini).
-
-
-
-Dengan konfigurasi ini, Alice sudah terlindungi dari banyak ancaman umum. Namun, masih ada satu risiko yang tersisa: jika terjadi kebakaran atau pencurian di rumahnya, dua salinan lokal (komputer dan stik USB) bisa hilang pada saat yang bersamaan. Untuk mengurangi risiko ini, dia memutuskan untuk menggunakan layanan penyimpanan awan, di mana dia juga menyinkronkan file-filenya secara teratur.
-
-
+Dengan konfigurasi ini, Alice sudah terlindungi dari banyak ancaman umum. Namun, satu risiko tetap ada: jika terjadi kebakaran atau perampokan di rumahnya, kedua salinan lokalnya (komputer dan flash drive USB) bisa hilang pada saat yang bersamaan. Untuk mengurangi risiko ini, ia memutuskan untuk menggunakan layanan penyimpanan cloud, yang juga ia gunakan untuk menyinkronkan file-filenya secara rutin.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Dengan demikian, Alice mematuhi aturan 3-2-1: memiliki 3 salinan file (komputer, kunci USB, cloud), yang disimpan di setidaknya 2 media yang berbeda (disk internal, kunci USB, server jarak jauh), dengan setidaknya 1 salinan di luar lokasi (server cloud).
+Dengan demikian, Alice mematuhi aturan 3-2-1: memiliki 3 salinan file (komputer, Flash Drive USB, cloud), yang disimpan di setidaknya 2 media yang berbeda (disk internal, Flash Drive USB, server jarak jauh), dengan setidaknya 1 salinan di luar lokasi (server cloud).
 
-
-
-Strategi ini menjamin ketahanan yang sangat baik: jika komputernya rusak, dia dapat memulihkan file-filenya dari stik USB atau awan; jika penyedia penyimpanan awan mengalami kerusakan besar, dia masih memiliki file-filenya secara lokal; dan bahkan jika terjadi perampokan yang menyebabkan laptop dan stik USB-nya dicuri, dia bisa memulihkan datanya melalui layanan awan.
-
-
+Strategi ini menjamin ketahanan yang sangat baik: jika komputernya rusak, ia dapat memulihkan filenya dari flash drive USB atau cloud; jika penyedia penyimpanan cloud mengalami kerusakan besar, ia masih memiliki berkasnya secara lokal; dan bahkan jika terjadi pencurian di mana laptop dan flash drive USB-nya dicuri, ia masih dapat memulihkan datanya melalui layanan cloud.
 
 ![Image](assets/fr/255.webp)
 
-
-
 #### Mengotomatiskan untuk menghindari lupa
 
+Salah satu cara terbaik untuk memastikan praktik pencadangan yang baik adalah dengan otomatisasi. Konfigurasikan komputer Anda agar pencadangan berjalan secara otomatis sesuai jadwal (setiap malam, setiap minggu, dll.). Ini mencegah kelalaian dan menjamin kelangsungan, bahkan jika Anda tidak dapat melakukannya untuk sementara waktu.
 
+Secara praktis, ada beberapa cara untuk mengotomatiskan pencadangan Anda. Sebagai contoh, Anda dapat membuat skrip Python yang berjalan secara otomatis untuk menyalin data Anda ke media eksternal. Ini adalah solusi yang sederhana dan dapat disesuaikan.
 
-Salah satu cara terbaik untuk memastikan kebersihan pencadangan yang baik adalah otomatisasi. Konfigurasikan alat Anda agar pencadangan berjalan secara otomatis sesuai jadwal (setiap malam, setiap minggu...). Hal ini mencegah kekeliruan dan menjamin kesinambungan bahkan jika terjadi ketidaktersediaan sementara di pihak Anda.
-
-
-
-Secara praktis, ada beberapa cara untuk mengotomatiskan pencadangan Anda. Anda bisa, misalnya, membuat skrip Python yang berjalan secara otomatis untuk menyalin data Anda ke media eksternal. Ini adalah solusi yang sederhana dan dapat disesuaikan.
-
-
-
-Jika Anda memiliki NAS, alat bantu seperti *Syncthing* atau *Rclone* memungkinkan Anda mengotomatiskan pencadangan dalam jaringan lokal Anda, tanpa menggunakan Internet.
-
-
+Jika Anda memiliki NAS, program seperti _Syncthing_ atau _Rclone_ memungkinkan Anda mengotomatiskan pencadangan di dalam jaringan lokal Anda, tanpa menggunakan internet.
 
 ![Image](assets/fr/253.webp)
 
-
-
-Untuk mengotomatiskan pencadangan ke layanan awan, Anda bisa menggunakan perangkat lunak integrasi yang disediakan oleh penyedia layanan itu sendiri. Salah satu contohnya adalah *Proton Drive*, yang menawarkan klien sinkronisasi untuk menyalin file lokal Anda secara otomatis ke awan. Anda juga bisa memilih perangkat lunak yang lebih fleksibel seperti *Duplicati*, yang memungkinkan Anda menjadwalkan pencadangan terenkripsi ke berbagai layanan jarak jauh (Dropbox, Google Drive, Proton Drive, FTP, WebDAV...).
-
-
+Untuk mengotomatiskan pencadangan ke layanan cloud, Anda dapat menggunakan perangkat lunak integrasi yang disediakan oleh penyedia itu sendiri. Salah satu contohnya adalah _Proton Drive_, yang menawarkan klien sinkronisasi untuk secara otomatis menyalin file lokal Anda ke cloud. Anda juga dapat memilih perangkat lunak yang lebih fleksibel seperti _Duplicati_, yang memungkinkan Anda menjadwalkan pencadangan terenkripsi ke berbagai layanan jarak jauh (Dropbox, Google Drive, Proton Drive, FTP, WebDAV, dll.).
 
 ![Image](assets/fr/254.webp)
 
+Ingat juga untuk menguji pencadangan Anda secara rutin, yaitu untuk memastikan bahwa Anda dapat memulihkannya. Pencadangan tidak berguna jika rusak, tidak lengkap, atau tidak terbaca.
 
-
-Ingatlah juga untuk menguji cadangan Anda secara teratur, yaitu untuk memeriksa apakah Anda dapat memulihkannya. Cadangan tidak akan berguna jika rusak, tidak lengkap, atau tidak terbaca.
-
-
-
-Selain memastikan ketahanan data Anda, juga sama pentingnya untuk melindungi akses ke data tersebut. Faktanya, ketahanan dan keamanan sering kali saling bertentangan: semakin banyak salinan yang Anda buat pada file Anda, semakin Anda meningkatkan permukaan serangannya, dan oleh karena itu risiko penyerang mendapatkan akses ke file tersebut. Itulah mengapa mengenkripsi data Anda merupakan langkah penting. Mari kita lihat bagaimana mempraktikkannya.
-
-
+Selain memastikan ketahanan data Anda, sama pentingnya untuk melindungi akses ke data tersebut. Faktanya, ketahanan dan keamanan sering kali saling bertentangan: semakin banyak salinan yang Anda buat dari file Anda, semakin Anda memperluas area yang rentan serangan, dan dengan demikian risiko penyerang mendapatkan akses ke sana. Itulah mengapa mengenkripsi data Anda adalah langkah yang sangat penting. Mari kita lihat bagaimana mempraktikkannya.
 
 ### Enkripsi penuh pada disk dan media eksternal
 
-
-
-Salah satu pilar keamanan komputer pribadi adalah enkripsi data yang disimpan. Khususnya, enkripsi penuh pada media seperti drive Hard internal, stik USB, atau disk eksternal memastikan bahwa, bahkan jika terjadi pencurian, kehilangan, atau gangguan fisik pada peralatan, tidak ada informasi yang dapat dibaca tanpa kunci dekripsi.
-
-
+Salah satu pilar keamanan komputer pribadi adalah enkripsi data yang tersimpan. Secara khusus, enkripsi penuh pada media seperti hard drive internal, flash drive USB, atau disk eksternal memastikan bahwa, bahkan jika terjadi pencurian, kehilangan, atau perusakan fisik pada peralatan, tidak ada informasi yang dapat dibaca tanpa kunci dekripsi.
 
 #### Mengapa ini penting?
 
+Ketika media penyimpanan tidak terenkripsi, cukup colokkan ke komputer mana pun untuk mendapatkan akses langsung ke isinya. Tidak ada penghalang yang melindungi file. Ini berarti jika laptop Anda dicuri, atau jika Anda kehilangan flash drive USB, seseorang dengan niat jahat dapat mengakses dokumen pribadi Anda.
 
+Di luar masalah privasi yang dipertaruhkan, file Anda juga dapat merepresentasikan risiko keamanan yang nyata. Sebagai contoh nyata: jika cadangan Anda berisi salinan dokumen identitas Anda, penyerang dapat mengeksploitasinya untuk menyamar sebagai Anda, membuka rekening bank atau kripto atas nama Anda, atau bahkan mengambil pinjaman bank atas nama Anda. Jenis kebocoran informasi ini dapat memiliki konsekuensi serius, baik secara pribadi maupun profesional.
 
-Bila media penyimpanan tidak dienkripsi, cukup colokkan ke komputer mana pun untuk mendapatkan akses langsung ke isinya. Tidak ada penghalang untuk melindungi file. Ini berarti bahwa jika laptop Anda dicuri, atau jika Anda kehilangan kunci USB yang sederhana, seseorang yang berniat jahat dapat mengakses dokumen pribadi Anda.
-
-
-
-Di luar masalah privasi yang dipertaruhkan, file Anda juga dapat mewakili risiko keamanan yang nyata. Mari kita ambil contoh konkret: jika cadangan Anda berisi salinan dokumen identitas Anda, penyerang dapat mengeksploitasinya untuk menyamar sebagai Anda, membuka akun bank atau kripto atas nama Anda, atau bahkan mengambil pinjaman bank atas nama Anda. Kebocoran informasi seperti ini dapat menimbulkan konsekuensi yang serius, baik secara pribadi maupun profesional.
-
-
-
-Enkripsi penuh itu seperti sebuah kunci: selama kata sandi tidak diberikan, data tetap tidak dapat digunakan. Bahkan penyerang yang dilengkapi dengan alat pemulihan data khusus tidak akan dapat mengekstrak apa pun tanpa kunci.
-
-
+Enkripsi penuh seperti kunci gembok: selama kata sandi tidak diberikan, data tetap tidak dapat digunakan. Bahkan penyerang yang dilengkapi dengan program pemulihan data khusus tidak akan dapat mengekstrak apa pun tanpa kuncinya.
 
 #### Solusi teknis apa yang ditawarkan sistem Anda?
 

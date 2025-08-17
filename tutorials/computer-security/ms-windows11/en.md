@@ -52,9 +52,7 @@ After opening VirtualBox, go to the Machine menu and select New:
 
 ![Image](assets/en/07.webp)
 
-After choosing a suitable name and location for the virtual machine, in the second field, specify where the virtual machine’s files (hard drive location) will 
-
-be stored.
+After choosing a suitable name and location for the virtual machine, in the second field, specify where the virtual machine’s files (hard drive location) will be stored.
 
 ![Image](assets/en/08.webp)
 
@@ -85,9 +83,7 @@ In this step, choose the input (keyboard) language.
 
 ![Image](assets/en/11.webp)
 
-In the next step, choose whether to install a new version of Windows or to upgrade/repair the existing one. Since we are installing a new Windows, select the 
-
-first option.
+In the next step, choose whether to install a new version of Windows or to upgrade/repair the existing one. Since we are installing a new Windows, select the first option.
 
 ![Image](assets/en/12.webp)
 
@@ -107,9 +103,7 @@ Otherwise, cancel the Windows installation!
 
 In the next step, you need to select the hard disk for the installation.
 
-Since we are installing on a virtual machine, this step is not very **critical**. However, if you are installing on a physical machine, complete this step 
-
-carefully, as mistakes here could **lead to data loss on your hard drive**.
+Since we are installing on a virtual machine, this step is not very **critical**. However, if you are installing on a physical machine, complete this step carefully, as mistakes here could **lead to data loss on your hard drive**.
 
 ![Image](assets/en/16.webp)
 

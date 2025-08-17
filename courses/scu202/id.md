@@ -2783,81 +2783,47 @@ Inisiatif ini menghidupkan kembali persaingan teknologi, secara bertahap melemah
 
 ### Revolusi pasar: kedatangan Google Chrome
 
-
-
-Pada tanggal 2 September 2008, Google mengumumkan perilisan browser webnya sendiri: Google Chrome. Pada saat itu, Firefox sedang membuat kemajuan dan Internet Explorer masih dominan, tetapi semakin banyak dikritik karena lambat, tidak stabil, dan tertinggal dari standar modern. Google, yang sangat bergantung pada web untuk layanannya (pencarian, Gmail, Maps...), menginginkan browser yang lebih cocok untuk era aplikasi web yang kompleks.
-
-
+Pada tanggal 2 September 2008, Google mengumumkan perilisan browser web-nya sendiri: Google Chrome. Saat itu, Firefox sedang membuat kemajuan dan Internet Explorer masih dominan, tetapi semakin banyak dikritik karena lambat, tidak stabil, dan tertinggal dari standar modern. Google, yang sangat bergantung pada web untuk layanannya (pencarian, Gmail, Maps...), menginginkan browser yang lebih cocok untuk era aplikasi web yang kompleks.
 
 ![Image](assets/fr/101.webp)
 
-
-
 Chrome pada awalnya didasarkan pada dua pilar teknis:
 
+- Mesin rendering WebKit, yang diwarisi dari Safari dan KHTML, untuk menampilkan HTML/CSS;
+- Mesin JavaScript baru, bernama V8, yang ditulis dalam C++ yang mengompilasi kode JavaScript menjadi instruksi mesin secara langsung (JIT, untuk _Just-In-Time_), yang secara signifikan meningkatkan kinerja aplikasi web dinamis.
 
+Namun, terobosan nyata Chrome berasal dari arsitektur multi-process-nya. Setiap tab berjalan dalam proses yang terisolasi, menggunakan teknik sandboxing yang mencegah halaman berbahaya membahayakan seluruh browser. Isolasi ini juga meningkatkan stabilitas: jika satu tab macet, yang lain tetap berfungsi. Selain itu, Chrome memiliki Interface minimalis yang berpusat pada konten, tanpa bilah menu, gabungan bilah alamat dan pencarian (_Omnibox_), dan pembaruan latar belakang yang senyap.
 
-
-- mesin rendering WebKit, yang diwarisi dari Safari dan KHTML, untuk menampilkan HTML/CSS;
-- mesin JavaScript baru, yang disebut V8, ditulis dalam bahasa C++ yang mengkompilasi kode JavaScript ke dalam instruksi mesin dengan cepat (JIT, untuk *Just-In-Time*), yang secara signifikan meningkatkan kinerja aplikasi web dinamis.
-
-
-
-Tetapi terobosan nyata Chrome berasal dari arsitektur multi-prosesnya. Setiap tab berjalan dalam proses yang terisolasi, menggunakan teknik sandboxing yang mencegah halaman berbahaya mengganggu keseluruhan browser. Isolasi ini juga meningkatkan stabilitas: jika satu tab mogok, tab yang lain tetap berfungsi. Selain itu, Interface yang minimalis dan berpusat pada konten, tanpa bilah menu, gabungan Address dan bilah pencarian (*Omnibox*), serta pembaruan latar belakang yang senyap.
-
-
-
-Didukung oleh merek Google dan kampanye pemasaran yang sangat efektif, Chrome dengan cepat mendapatkan pangsa pasar. Kecepatan dan kemudahan penggunaannya membuat para pengguna terpikat. Pada tahun 2012, Chrome melampaui Internet Explorer dalam pangsa pasar global untuk pertama kalinya.
-
-
+Didukung oleh nama besar Google dan kampanye pemasaran yang sangat efektif, Chrome dengan cepat memperoleh pangsa pasar. Kecepatan dan kemudahan penggunaannya memenangkan hati pengguna. Pada tahun 2012, Chrome melampaui Internet Explorer dalam pangsa pasar global untuk pertama kalinya.
 
 ![Image](assets/fr/102.webp)
 
+Pada tahun 2013, Google mengumumkan perubahan strategis yang besar: mereka akan memecah WebKit untuk membuat mesin rendering independen baru, yang diberi nama Blink. Pemecahan ini dijelaskan oleh perbedaan teknis dan organisasi dengan Apple, terutama terkait arsitektur mesin dan integrasi fitur eksperimental. Blink menjadi mesin eksklusif untuk Chrome mulai versi 28 dan seterusnya, dan kemudian diadopsi oleh banyak browser lain: Opera (yang meninggalkan Presto pada tahun 2013), Vivaldi, Brave, Microsoft Edge (sejak tahun 2020), dan lainnya.
 
+Per tahun 2025, Google Chrome menguasai sekitar 66% pasar global di semua perangkat (komputer, smartphone, tablet), menurut data StatCounter. Chrome diikuti jauh oleh Safari (terutama di iOS/macOS), Microsoft Edge, dan Firefox, yang pangsa pasarnya terus menurun. Dominasi Chrome juga telah meluas ke ekosistem seluler melalui Android WebView (komponen sistem yang digunakan oleh ribuan aplikasi), yang juga mengandalkan Blink.
 
-Pada tahun 2013, Google mengumumkan perubahan strategis yang besar: Google akan Fork WebKit untuk membuat mesin rendering independen baru, bernama Blink. Fork ini dijelaskan oleh perbedaan teknis dan organisasi dengan Apple, terutama di sekitar arsitektur mesin dan integrasi fitur eksperimental. Blink menjadi mesin eksklusif untuk Chrome mulai versi 28 dan seterusnya, dan kemudian diadopsi oleh banyak browser lain: Opera (yang meninggalkan Presto pada tahun 2013), Vivaldi, Brave, Microsoft Edge (sejak tahun 2020), dan lainnya.
-
-
-
-Pada tahun 2025, Google Chrome menguasai sekitar 66% pasar global di semua perangkat (komputer, ponsel pintar, tablet), menurut data StatCounter. Diikuti oleh Safari (terutama di iOS/macOS), Microsoft Edge, dan Firefox, yang pangsa pasarnya terus menurun. Dominasi Chrome juga telah meluas ke ekosistem seluler melalui Android WebView (komponen sistem yang digunakan oleh ribuan aplikasi), yang juga mengandalkan Blink.
-
-
-
-Chrome telah mendefinisikan ulang kinerja, keamanan, dan standar ergonomis browser modern secara mendalam, sekaligus memunculkan tantangan baru dalam sentralisasi dan standardisasi teknologi Web.
-
-
+Chrome telah secara mendalam mendefinisikan ulang standar kinerja, keamanan, dan ergonomis browser modern, sambil menimbulkan tantangan baru dalam sentralisasi dan standardisasi teknologi Web.
 
 ### Evolusi mesin rendering: dari Trident hingga Blink
 
-
-
-Mesin rendering adalah komponen inti dari browser web. Peran utamanya adalah untuk menafsirkan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font...) ke generate grafis interaktif Interface. Mesin rendering seperti penerjemah antara bahasa web dan layar Anda, menerjemahkan baris kode ke dalam halaman yang serasi secara visual, interaktif, dan fungsional.
-
-
+Mesin rendering adalah komponen inti dari sebuah peramban web. Peran utamanya adalah untuk menginterpretasikan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font, dll.) guna menghasilkan Interface grafis yang interaktif. Mesin rendering seperti penerjemah antara bahasa-bahasa web dan layar Anda, menerjemahkan baris-baris kode menjadi halaman yang serasi secara visual, interaktif, dan fungsional.
 
 Secara konkret, ketika Anda memasukkan URL di bilah Address:
 
+Secara nyata, ketika Anda memasukkan URL di bilah alamat:
 
-
-
-- Browser mengirimkan permintaan HTTP ke server jarak jauh;
+- Peramban mengirimkan permintaan HTTP ke server jarak jauh;
 - Server merespons dengan dokumen HTML;
-- Mesin rendering menganalisis HTML ini, mengunduh file yang ditautkan (CSS, JavaScript, gambar...);
-- Ini membangun "DOM" (*Document Object Model*) yang merepresentasikan struktur dokumen;
-- Ini menerapkan aturan CSS untuk menghitung presentasi setiap elemen (*layout*);
-- Ini merender grafis menggunakan kartu grafis dan sistem windowing.
+- Mesin rendering menganalisis HTML ini, mengunduh file-file terkait (CSS, JavaScript, gambar, dll.);
+- Mesin ini membangun "DOM" (_Document Object Model_) yang merepresentasikan struktur dokumen;
+- Mesin ini menerapkan aturan CSS untuk menghitung presentasi setiap elemen (*layout*);
+- Mesin ini menampilkan grafik menggunakan kartu grafis dan sistem window.
 
-
-
-Seluruh proses ini harus cepat dan lancar untuk memberikan pengalaman pengguna yang baik, bahkan pada halaman yang kompleks. Inilah peran mesin rendering.
-
-
+Seluruh proses ini harus cepat dan lancar untuk memberikan pengalaman pengguna yang baik, bahkan pada halaman yang kompleks. Inilah tepatnya peran dari mesin rendering.
 
 Berikut ini adalah tinjauan historis dari mesin rendering utama yang telah membentuk evolusi Web:
 
-
-
-#### Trisula (1997 - 2015)
+#### Trident (1997 - 2015)
 
 
 

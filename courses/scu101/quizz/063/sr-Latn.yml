@@ -1,11 +1,9 @@
-question: Koji su neki od aspekata kriptografije korišćeni u sajber bezbednosti?
-answer: SSL/TLS, simetrično/asimetrično šifrovanje
+question: Koja sertifikacija je priznata širom sveta u oblasti sajber bezbednosti?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Poglavlje navodi SSL/TLS i simetrično/asimetrično
-  šifrovanje kao neke od aspekata kriptografije korišćene u
-  sajber bezbednosti.
-reviewed: true
+  CISSP sertifikacija je jedna od međunarodno najpriznatijih u oblasti sajber bezbednosti.
+reviewed: false

@@ -521,7 +521,7 @@ description: [Description]
 如果您想要建立自己的圖表，請務必遵守 Plan ₿ Network 的圖形章程，以確保視覺上的一致性：
 
 
-- 字型**：使用 [Rubik](https://fonts.google.com/specimen/Rubik)；
+- 字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
 - 顏色**：
  - 橙色：#FF5C00
  - 黑色：#000000

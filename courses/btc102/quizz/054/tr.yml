@@ -2,8 +2,8 @@ question: Aktif kullanıcının ana hedefi nedir?
 answer: Bitcoin'ı günlük ödeme yöntemi olarak kullanmak için
 wrong_answers:
   - Bitcoin'e uzun vadeli yatırım yapmak
-  - Yavaş yavaş satoshis biriktirmek için
-  - Piyasa hakkında spekülasyon yapmak
+  - Yavaş yavaş satoshi biriktirmek
+  - Piyasa'da  spekülasyon yapmak
 explanation: |
-  Aktif kullanıcı, işlem yapmak ve benimsenmesini desteklemek için Bitcoin'yi günlük yaşamına dahil eder.
+  Aktif kullanıcı, işlem yapmak ve benimsenmesini desteklemek için Bitcoin'i günlük yaşamına dahil eder.
 reviewed: false

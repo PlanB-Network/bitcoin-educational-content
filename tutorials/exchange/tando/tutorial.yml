@@ -3,7 +3,7 @@ project_id: ad52bab4-45e5-11f0-b059-bb679b643596
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 category: centralized
 level: beginner
-tags: 
+tags:
   - adoption
   - lightning
   - guides
@@ -16,4 +16,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0
+    reward: 0.37

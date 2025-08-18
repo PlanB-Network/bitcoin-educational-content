@@ -34,4 +34,9 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 37.16
+    reward: 37.13
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26

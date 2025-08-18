@@ -32,10 +32,11 @@ proofreading:
     contributor_names:
     reward: 73.08
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 73.08
+      - OscarG673
+    reward: 36.54
   - language: et
     last_contribution_date:
     urgency: 1
@@ -47,10 +48,11 @@ proofreading:
     contributor_names:
     reward: 97.41
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 121.74
+      - AgoesRichie
+    reward: 60.87
   - language: it
     last_contribution_date:
     urgency: 1
@@ -87,10 +89,11 @@ proofreading:
     contributor_names:
     reward: 121.74
   - language: pl
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 97.41
+      - MisinhaP
+    reward: 48.71
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -117,6 +120,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 97.41
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 73.08
 tags:
   - historical
   - protocols

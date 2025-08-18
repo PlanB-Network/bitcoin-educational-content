@@ -122,6 +122,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 99.54
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.68
 tags:
   - development
   - protocols

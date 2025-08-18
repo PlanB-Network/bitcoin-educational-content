@@ -14,16 +14,15 @@ proofreading:
   - language: en
     last_contribution_date: 2025-07-05
     urgency: 1
-    contributor_names: 
+    contributor_names:
       - PaoloFoti
-    reward: 0
+    reward: 0.09
   - language: it
     last_contribution_date: 2025-07-05
     urgency: 1
-    contributor_names: 
+    contributor_names:
       - PaoloFoti
-    reward: 0
-
+    reward: 0.09
 tags:
   - adoption
   - use-case

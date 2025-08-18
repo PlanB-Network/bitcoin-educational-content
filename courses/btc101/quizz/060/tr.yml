@@ -1,0 +1,11 @@
+question: Bitcoin ağındaki işlemleri doğrulayan sürece ne denir?
+answer: Mining
+wrong_answers:
+  - Kazma
+  - Hasat
+  - Çiftçilik
+explanation: |
+  Bitcoin üzerindeki işlemleri doğrulayan süreç
+  ağına Mining adı verilir. Madenciler kriptografik bir
+  ve yeni bitcoinlerin verilmesiyle ödüllendirilirler.
+reviewed: true

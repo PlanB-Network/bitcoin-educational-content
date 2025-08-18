@@ -1,5 +1,5 @@
 ---
-name: Tidsstämpling av Plan ₿ Network-certifikat och -diplom
+name: Timestamp av Plan ₿ Network diplom
 description: Förstå hur Plan ₿ Network utfärdar verifierbara bevis för dina certifikat och examensbevis
 ---
 
@@ -31,7 +31,7 @@ Vi anser att denna enkla bevismekanism ger oss möjlighet att utfärda certifika
 ![image](./assets/proof-mechanism.webp)
 
 
-Tack vare denna bevismekanism kommer varje försök att ändra även den minsta detalj i ditt certifikat eller examensbevis att resultera i en helt annan SHA-256 Hash av den signerade filen, vilket omedelbart avslöjar eventuell manipulering, eftersom både signaturen och Timestamp inte längre är giltiga. Om någon försöker att förfalska certifikat eller diplom på Plan ₿ Network:s vägnar kommer dessutom en enkel verifiering av signaturen att avslöja bedrägeriet.
+Tack vare denna bevismekanism kommer alla försök att ändra även den minsta detalj i ditt certifikat eller diplom att resultera i en helt annan SHA-256 Hash av den signerade filen, vilket omedelbart avslöjar all manipulering, eftersom både signaturen och Timestamp inte längre är giltiga. Om någon försöker att förfalska certifikat eller diplom på Plan ₿ Network:s vägnar kommer dessutom en enkel verifiering av signaturen att avslöja bedrägeriet.
 
 
 ## Hur fungerar GPG-signaturen?
@@ -212,7 +212,7 @@ Verifieringen är framgångsrik om **båda** följande meddelanden visas:
 
 1. GPG-signaturen rapporteras som **"Bra signatur från Plan ₿ Network"**
 
-2. OpenTimestamps-verifieringen visar ett specifikt Bitcoin-block Timestamp och rapporterar **"Framgång! Bitcoin-blocket [blockhöjd] intygar att data fanns från och med [Timestamp]"**
+2. OpenTimestamps-verifieringen visar ett specifikt Bitcoin-block Timestamp och rapporterar **"Success! Bitcoin-blocket [blockhöjd] intygar att data fanns från och med [Timestamp]"**
 
 
-Nu när du vet hur Plan ₿ Network utfärdar verifierbara bevis för alla ₿-CERT-certifikat och -diplom kan du enkelt verifiera integriteten hos dem.
+Nu när du vet hur Plan ₿ Network utfärdar verifierbara bevis för alla ₿-CERT-certifikat och -diplom kan du enkelt verifiera deras integritet.

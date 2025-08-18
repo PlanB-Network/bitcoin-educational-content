@@ -1,0 +1,9 @@
+question: Avusturya ekonomisine göre, kârlar neden bir şirketin sağlığının temel göstergesi olarak kabul edilir?
+answer: Çünkü kârlar, işletmenin tüketici ihtiyaçlarını verimli ve sürdürülebilir bir şekilde karşıladığını gösterir.
+wrong_answers:
+  - Çünkü kârlar, şirketin işgücünün sektöründeki en büyük işgücü olmasını sağlıyor.
+  - Çünkü kârlar sadece şirketin devletten sübvansiyon aldığının bir göstergesidir.
+  - Çünkü kârlar, tüketici talepleriyle ilgisi olmayan rastgele piyasa olaylarını yansıtır.
+explanation: |
+  Avusturya ekonomisinde kâr, bir şirketin tüketiciler tarafından değer verilen mal veya hizmetleri üretim maliyetinin üzerinde bir fiyatla ürettiğine işaret eder. Bu sonuç, kaynakların verimli kullanıldığını ve piyasa ihtiyaçları ile uyum sağlandığını göstermektedir.
+reviewed: false

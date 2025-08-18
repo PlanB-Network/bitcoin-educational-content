@@ -1,0 +1,9 @@
+question: Zašto je preporučljivo ukloniti neiskorišćen ili zastareo softver sa vašeg računara?
+answer: Da bi se smanjila površina napada
+wrong_answers:
+  - Da ubrzate vašu internet konekciju
+  - Da se poboljšaju zaštitni vektori
+  - Da biste povećali trajanje baterije
+explanation: |
+  Što je manje instaliranog softvera, to je manje potencijalnih ranjivosti koje napadači mogu iskoristiti.
+reviewed: false

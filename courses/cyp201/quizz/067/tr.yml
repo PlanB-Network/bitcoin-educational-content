@@ -1,0 +1,9 @@
+question: Alt anahtarların türetilmesinde indeksin amacı nedir?
+answer: Kardeş anahtar çiftlerini ayırt etme
+wrong_answers:
+  - Anahtarın niteliğini belirleme (genel veya özel)
+  - Anahtarın güvenlik seviyesini belirtin
+  - Ekstra bir Layer güvenlik ekleyin
+explanation: |
+  Dizin, aynı ana çiftten türetilen alt anahtarların ayırt edilmesini sağlar.
+reviewed: false

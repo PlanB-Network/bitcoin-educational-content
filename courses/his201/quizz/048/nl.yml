@@ -1,0 +1,9 @@
+question: Welke dienst die Bitcoin accepteert werd beheerd door Teppy, de persoon die Bitcoin introduceerde op Slashdot op 11 juli 2010?
+answer: De MMORPG Een verhaal in de woestijn
+wrong_answers:
+  - De VPN Mullvad
+  - De VoIP-dienst Link2VoIP
+  - De webhostingservice Vekja.net
+explanation: |
+  Deze [begon](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) om Bitcoin te accepteren op 19 mei.
+reviewed: true

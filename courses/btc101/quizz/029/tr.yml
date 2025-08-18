@@ -1,0 +1,9 @@
+question: Altın neden taşınabilir bir malzeme değildir?
+answer: Çünkü yoğun ve ağırdır, bu da büyük miktarlarda taşımayı zahmetli hale getirir.
+wrong_answers:
+  - Çünkü taşınamayacak kadar değerli.
+  - Çünkü kolayca daha küçük formlara dönüştürülemez.
+  - Çünkü oda sıcaklığında bir Liquid'dır.
+explanation: |
+  Altın yoğun ve ağırdır, bu da büyük miktarlarda taşınmasının fiziksel olarak zor olabileceği anlamına gelir. Bu ağırlık, onu daha hafif malzemelere kıyasla taşımaya daha az elverişli hale getirir.
+reviewed: true

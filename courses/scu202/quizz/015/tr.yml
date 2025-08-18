@@ -1,0 +1,9 @@
+question: Rolling release dağıtımının ana avantajı nedir?
+answer: En güncel yazılımı kullanın
+wrong_answers:
+  - Windows ile daha fazla uyumluluk
+  - Interface grafiklerinin olmadığı bir ortam
+  - Zorunlu satış desteği
+explanation: |
+  Rolling sürümleri, sürekli yazılım güncellemelerini entegre ederek en son sürümlere kalıcı erişim sağlar.
+reviewed: false

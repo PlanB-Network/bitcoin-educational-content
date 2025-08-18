@@ -1,0 +1,9 @@
+question: Zašto je potpuna enkripcija diska ili USB ključa ključna za sigurnost vaših podataka?
+answer: Sprečava neovlašćen pristup datotekama
+wrong_answers:
+  - Ubrzava čitanje i pisanje datoteka
+  - Štiti od kvara hardvera
+  - Olakšava deljenje diska
+explanation: |
+  Potpuna enkripcija čini podatke potpuno neupotrebljivim bez ključa ili lozinke, čak i ako napadač fizički poseduje disk.
+reviewed: false

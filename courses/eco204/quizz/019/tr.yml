@@ -1,0 +1,11 @@
+question: Hanke-Krus tablosunda kaç tane hiperenflasyon dönemi belgelenmiştir?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Hanke-Krus tablosu 56 hiperenflasyon dönemini belgelemektedir. Ancak,
+  2016'da Venezuela'da olduğu gibi tüm olayları kapsamamaktadır
+  toplam 57'ye.
+reviewed: false

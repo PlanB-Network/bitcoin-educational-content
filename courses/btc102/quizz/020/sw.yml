@@ -1,0 +1,9 @@
+question: Je, kunaweza kuwa na madhara ya kuporomoka kwa thamani ya fedha za kitaifa?
+answer: Kukosekana kwa utulivu wa kijamii na kuongezeka kwa itikadi kali za kisiasa
+wrong_answers:
+  - Ukuaji wa uchumi na ustawi wa taifa
+  - Uboreshaji wa biashara ya kimataifa
+  - Kuimarishwa kwa demokrasia na haki za asili za watu binafsi
+explanation: |
+  Kushuka kwa thamani kunaweza kusababisha mgogoro wa kiuchumi kupitia mfumuko wa bei, kuchochea kutoridhika kwa jamii na kuongezeka kwa itikadi kali za kisiasa.
+reviewed: false

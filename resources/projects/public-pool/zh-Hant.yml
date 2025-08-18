@@ -1,0 +1,3 @@
+description: |
+  Public Pool 是一個 Solo Pool Mining 平台，允許挖礦者在不分享獎勵的情況下，嘗試運氣挖出 Mining 一個 Bitcoin 區塊。有別於傳統 Pool，Public Pool 不會彙集算力；若找到區塊，使用者可獲得全額獎勵。該平台為礦工提供區塊範本，省去了管理 Bitcoin 節點的麻煩。雖然成功的機率很低，但該系統的功能就像抽獎一樣，具有潛在的高回報。儀表板提供有關性能和網路的詳細統計資料。
+  

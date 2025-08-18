@@ -1,0 +1,9 @@
+question: Người dùng hoang tưởng tránh sử dụng phương pháp thu thập nào?
+answer: Nền tảng tập trung với KYC
+wrong_answers:
+  - Nền tảng ghép đôi P2P
+  - Máy ATM Bitcoin
+  - Mua tiền mặt trực tiếp tại buổi gặp mặt
+explanation: |
+  Để bảo vệ tính ẩn danh, người dùng hoang tưởng sẽ tránh các nền tảng yêu cầu xác minh danh tính.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dijital dosya meta verileri neden gizlilik için bir risk teşkil ediyor?
+answer: Hassas bilgileri açığa çıkarabilirler
+wrong_answers:
+  - Bazı sistemlerde antivirüsün açılmasını yavaşlatırlar
+  - E-posta yoluyla dosya paylaşımını önlerler
+  - Fidye yazılımlarına ev sahipliği yapabilirler
+explanation: |
+  Meta veriler, dosya açıldığında görünmeyen GPS koordinatları, yazar adı, tanımlayıcı veya değişiklik geçmişi gibi gizli bilgiler içerebilir ve bunlar bilginiz olmadan kullanılabilir.
+reviewed: false

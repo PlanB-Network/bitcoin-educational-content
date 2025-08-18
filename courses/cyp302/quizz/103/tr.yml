@@ -1,0 +1,9 @@
+question: Kimliği doğrulanmış şifreleme neden seçilmiş şifreli metin saldırılarına karşı dirençlidir?
+answer: Çünkü saldırgan tarafından şifreli metinde yapılan herhangi bir değişiklik etiketi geçersiz kılar
+wrong_answers:
+  - Tek bir şifreleme algoritması kullandığı için
+  - Şifreli metnin saldırgan tarafından değiştirilmesi anahtarı geçersiz kılacağından
+  - Çünkü etiket olmadan sadece mesajı şifreler
+explanation: |
+  Kimliği doğrulanmış bir şifreleme şeması, kurcalama girişimleri durumunda etiketi geçersiz kılan ve seçilen şifreli metin saldırılarına karşı direnç sağlayan şifreli metindeki değişiklikleri tespit etmek için tasarlanmıştır.
+reviewed: false

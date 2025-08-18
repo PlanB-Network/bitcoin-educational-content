@@ -3,7 +3,7 @@ name: BIP47 - PayNym
 
 description: Hur PayNyms fungerar
 ---
-***VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april kan applikationen inte längre användas av användare som inte har en egen Dojo. BIP47 är fortfarande användbart på Sparrow Wallet för alla användare och **på Samourai Wallet endast för användare som har en Dojo**.*
+***VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april kan applikationen inte längre användas av användare som inte har en egen Dojo. BIP47 är fortfarande användbar på Sparrow wallet för alla användare och **på Samourai Wallet endast för användare som har en Dojo**.*
 
 
 _Vi följer noga utvecklingen av detta fall och utvecklingen av de tillhörande verktygen. Du kan vara säker på att vi kommer att uppdatera denna handledning när ny information blir tillgänglig._
@@ -27,10 +27,10 @@ Denna kompromiss är lika gammal som vitboken. Satoshi varnade oss redan för de
 
 > Som en extra brandvägg bör ett nytt nyckelpar användas för varje transaktion för att förhindra att de kopplas till en gemensam ägare.
 
-Det finns många lösningar för att ta emot flera betalningar utan Address-återanvändning. Var och en av dem har sina kompromisser och nackdelar. Bland alla dessa lösningar finns [BIP47] (https://github.com/Bitcoin/bips/blob/master/bip-0047.mediawiki), ett förslag som utvecklats av Justus Ranvier och publicerades 2015, som gör det möjligt att generera återanvändbara betalningskoder. Målet är att göra det möjligt att göra flera transaktioner till samma person utan att återanvända en Address.
+Det finns många lösningar för att ta emot flera betalningar utan Address-återanvändning. Var och en av dem har sina kompromisser och nackdelar. Bland alla dessa lösningar finns [BIP47](https://github.com/Bitcoin/bips/blob/master/bip-0047.mediawiki), ett förslag som utvecklats av Justus Ranvier och publicerades 2015, som gör det möjligt att generera återanvändbara betalningskoder. Målet är att göra det möjligt att göra flera transaktioner till samma person utan att återanvända en Address.
 
 
-Inledningsvis möttes detta förslag med förakt av en del av communityn och det lades aldrig till i Bitcoin Core. Vissa programvaror valde dock fortfarande att implementera det på egen hand. Till exempel utvecklade Samourai Wallet sin egen implementering av BIP47: PayNym. Idag finns den här implementationen tillgänglig på Samourai Wallet för smartphones, samt på [Sparrow Wallet] (https://sparrowwallet.com/) för PC.
+Inledningsvis möttes detta förslag med förakt av en del av communityn och det lades aldrig till i Bitcoin Core. Men vissa programvaror valde fortfarande att implementera det på egen hand. Till exempel utvecklade Samourai Wallet sin egen implementering av BIP47: PayNym. Idag finns den här implementeringen tillgänglig på Samourai Wallet för smartphones, samt på [Sparrow wallet](https://sparrowwallet.com/) för PC.
 
 
 Med tiden har Samourai programmerat nya funktioner som är direkt relaterade till PayNym. Nu finns det ett helt ekosystem av verktyg tillgängliga för att optimera användarnas integritet baserat på PayNym och BIP47.
@@ -46,7 +46,7 @@ I den här artikeln kommer du att upptäcka principen för BIP47 och PayNym, mek
 - I version 3 och 4 används helt enkelt ett Multisig-skript (cfilter-Multisig).
 
 
-De mekanismer som diskuteras i den här artikeln, inklusive de kryptografiska metoder som studerats, är därför tillämpliga på alla fyra versionerna. Hittills har PayNym-implementeringen på Samourai Wallet och Sparrow använt den första versionen av BIP47.
+De mekanismer som diskuteras i denna artikel, inklusive de kryptografiska metoder som studerats, är därför tillämpliga på alla fyra versionerna. Hittills har PayNym-implementeringen på Samourai Wallet och Sparrow använt den första versionen av BIP47.
 
 
 ## Sammanfattning:
@@ -63,7 +63,7 @@ De mekanismer som diskuteras i den här artikeln, inklusive de kryptografiska me
 
 
 - Bygga en BIP47-transaktion med Samourai Wallet.
-- Bygga en BIP47-transaktion med Sparrow Wallet.
+- Bygga en BIP47-transaktion med Sparrow wallet.
 
 
 4- BIP47:s funktionssätt.
@@ -98,7 +98,7 @@ För att lära dig mer om hur du genererar en mottagande Address rekommenderar j
 Dessutom har du förmodligen redan hört från en kunnig bitcoiner att mottagningsadresser är för engångsbruk, och att du bör generate en ny för varje ny inkommande betalning till din Wallet. Okej, men varför?
 
 
-I grund och botten äventyrar Address-återanvändning inte direkt dina medel. Användningen av kryptografi på elliptiska kurvor gör att du kan bevisa för nätverket att du har en privat nyckel utan att avslöja den nyckeln. Därför kan du låsa flera olika UTXO:er (Unspent Transaction Outputs) på samma Address och spendera dem vid olika tidpunkter. Om du inte avslöjar den privata nyckeln som är kopplad till den Address kan ingen komma åt dina medel. Problemet med återanvändning av Address är mer relaterat till integritet.
+I grund och botten utgör Address-återanvändning inte någon direkt fara för dina medel. Användningen av kryptografi på elliptiska kurvor gör att du kan bevisa för nätverket att du har en privat nyckel utan att avslöja den nyckeln. Därför kan du låsa flera olika UTXO:er (Unspent Transaction Outputs) på samma Address och spendera dem vid olika tidpunkter. Om du inte avslöjar den privata nyckeln som är kopplad till den Address kan ingen komma åt dina medel. Problemet med återanvändning av Address är mer relaterat till integritet.
 
 
 Som nämndes i inledningen innebär Bitcoin-nätverkets transparens och distribution att alla användare med tillgång till en nod kan följa transaktionerna i betalningssystemet. Som ett resultat kan de se de olika saldona för adresser. Satoshi Nakamoto nämnde sedan möjligheten att generera nya nyckelpar, och därmed nya adresser, för varje ny inkommande betalning till en Wallet. Målet skulle vara att ha en extra brandvägg i händelse av en association mellan användarens identitet och ett av deras nyckelpar.
@@ -107,22 +107,22 @@ Som nämndes i inledningen innebär Bitcoin-nätverkets transparens och distribu
 Idag, när det finns kedjeanalysföretag och utvecklingen av KYC (Know Your Customer), är användningen av tomma adresser inte längre en extra brandvägg, utan en skyldighet för alla som bryr sig ens lite om sin integritet.
 
 
-Strävan efter integritet är inte en komfort eller en fantasi hos Maximalist Bitcoiners. Det är en specifik parameter som direkt påverkar din personliga säkerhet och säkerheten för dina medel. För att hjälpa dig att förstå detta är här ett mycket konkret exempel:
+Strävan efter integritet är inte en komfort eller en fantasi hos Maximalist Bitcoiners. Det är en specifik parameter som direkt påverkar din personliga säkerhet och säkerheten för dina medel. För att hjälpa dig att förstå detta, här är ett mycket konkret exempel:
 
 
 
-- Bob köper Bitcoin genom Dollar Cost Averaging (DCA), vilket innebär att han förvärvar en liten mängd Bitcoin med jämna mellanrum för att beräkna genomsnittet av sitt ingångspris. Bob skickar systematiskt de köpta medlen till samma mottagande Address. Han köper 0,01 Bitcoin varje vecka och skickar det till samma Address. Efter två år har Bob samlat på sig en hel Bitcoin på denna Address.
-- Bagaren på hörnet accepterar betalningar med Bitcoin. Bob är glad över att kunna spendera Bitcoin och går för att köpa sin baguette i satoshis. För att betala använder han de medel som är låsta med hans Address. Hans bagare vet nu att han äger en Bitcoin. Detta betydande belopp kan väcka avund och Bob riskerar potentiellt en fysisk attack i framtiden.
+- Bob köper Bitcoin genom DCA (Dollar Cost Averaging), vilket innebär att han förvärvar en liten mängd Bitcoin med jämna mellanrum för att få ett genomsnittligt ingångspris. Bob skickar systematiskt de köpta medlen till samma mottagande Address. Han köper 0,01 Bitcoin varje vecka och skickar det till samma Address. Efter två år har Bob samlat på sig en hel Bitcoin på denna Address.
+- Bagaren på hörnet tar emot betalningar med Bitcoin. Bob är glad över att kunna spendera Bitcoin och går för att köpa sin baguette i satoshis. För att betala använder han de medel som är låsta med sin Address. Hans bagare vet nu att han äger en Bitcoin. Detta betydande belopp kan väcka avund och Bob riskerar potentiellt en fysisk attack i framtiden.
 
 
-Address återanvändning gör att en observatör kan göra en obestridlig koppling mellan dina olika UTXO:er och ibland mellan din identitet och hela din Wallet.
+Address återanvändning gör det möjligt för en observatör att göra en obestridlig koppling mellan dina olika UTXO och ibland mellan din identitet och hela din Wallet.
 
-Det är därför som de flesta Bitcoin Wallet-program automatiskt genererar en ny mottagande Address när du klickar på knappen "Receive". För vanliga användare är det inte ett stort besvär att vänja sig vid att använda nya adresser. Men för en online-verksamhet, en Exchange eller en donationskampanj kan denna begränsning snabbt bli ohanterlig.
+Det är därför som de flesta programvaror för Bitcoin Wallet automatiskt genererar en ny mottagande Address när du klickar på knappen "Receive". För vanliga användare är det inte ett stort besvär att vänja sig vid att använda nya adresser. Men för en online-verksamhet, en Exchange eller en donationskampanj kan denna begränsning snabbt bli ohanterlig.
 
 Det finns många lösningar för dessa organisationer. Var och en av dem har sina fördelar och nackdelar, men hittills, och som vi kommer att se senare, sticker BIP47 verkligen ut från de andra.
 
 
-Denna fråga om Address återanvändning är långt ifrån försumbar i Bitcoin. Som du kan se i diagrammet nedan från webbplatsen oxt.me är den totala återanvändningsgraden för Address av Bitcoin-användare för närvarande 52%:
+Denna fråga om Address-återanvändning är långt ifrån försumbar i Bitcoin. Som du kan se i diagrammet nedan från webbplatsen oxt.me är den totala återanvändningsgraden för Address av Bitcoin-användare för närvarande 52%:
 
 Graf från OXT.me som visar utvecklingen av den totala återanvändningsgraden för Address i Bitcoin-nätverket.
 
@@ -135,7 +135,7 @@ _Credit: OXT_
 Majoriteten av dessa återanvändningar kommer från börser, som av effektivitets- och bekvämlighetsskäl återanvänder samma Address många gånger. Hittills skulle BIP47 vara den bästa lösningen för att stävja detta fenomen bland börserna. Detta skulle bidra till att minska den totala återanvändningsgraden av Address utan att orsaka för mycket friktion för dessa enheter.
 
 
-Denna globala åtgärd över hela nätverket är särskilt relevant i detta fall. Återanvändning av Address är inte bara ett problem för den person som ägnar sig åt detta, utan även för alla som gör affärer med dem. Förlusten av integritet på Bitcoin fungerar som ett virus som sprids från användare till användare. Genom att studera ett globalt mått på alla nätverkstransaktioner kan vi förstå omfattningen av detta fenomen.
+Denna globala åtgärd över hela nätverket är särskilt relevant i detta fall. Address:s återanvändning är inte bara ett problem för den person som ägnar sig åt detta, utan även för alla som gör affärer med dem. Förlusten av integritet på Bitcoin fungerar som ett virus som sprider sig från användare till användare. Genom att studera ett globalt mått på alla nätverkstransaktioner kan vi förstå omfattningen av detta fenomen.
 
 
 ## Principerna för BIP47 och PayNym.
@@ -147,12 +147,12 @@ BIP47 syftar till att tillhandahålla ett enkelt sätt att ta emot flera betalni
 På så sätt kan flera avsändare skicka flera betalningar till en enda återanvändbar betalningskod för en annan användare, utan att mottagaren behöver tillhandahålla en ny tom Address för varje ny transaktion.
 
 
-En användare kan fritt dela sin betalningskod (på sociala nätverk, på sin webbplats ...) utan risk för integritetsförlust, till skillnad från en vanlig mottagare av Address eller en offentlig nyckel.
+En användare kan fritt dela sin betalningskod (på sociala nätverk, på sin webbplats ...) utan risk för integritetsförlust, till skillnad från en vanlig mottagning av Address eller en offentlig nyckel.
 
-För att genomföra en Exchange måste båda användarna ha en Bitcoin Wallet med en BIP47-implementering, t.ex. PayNym på Samourai Wallet eller Sparrow Wallet. Genom att koppla ihop de två användarnas betalkoder upprättas en hemlig kanal mellan dem. För att denna kanal ska kunna upprättas måste avsändaren göra en transaktion på Bitcoin Blockchain: meddelandetransaktionen (jag förklarar mer om detta senare).
+För att genomföra en Exchange måste båda användarna ha en Bitcoin Wallet med en BIP47-implementering, t.ex. PayNym på Samourai Wallet eller Sparrow wallet. Genom att koppla samman de två användarnas betalkoder upprättas en hemlig kanal mellan dem. För att upprätta denna kanal på rätt sätt måste avsändaren göra en transaktion på Bitcoin Blockchain: aviseringstransaktionen (jag förklarar mer om detta senare).
 
 
-Sambandet mellan de två användarnas betalkoder genererar delade hemligheter som i sig generate ett stort antal unika Bitcoin-mottagaradresser (exakt 2^32). I verkligheten skickas således inte betalningen med BIP47 till betalningskoden, utan till helt normala adresser som härrör från de inblandade parternas betalningskoder.
+Sambandet mellan de två användarnas betalkoder genererar delade hemligheter som i sig generate ett stort antal unika Bitcoin mottagaradresser (exakt 2^32). I verkligheten skickas alltså inte betalningen med BIP47 till betalningskoden, utan till helt normala adresser, härledda från de inblandade parternas betalningskoder.
 
 
 Betalningskoden fungerar som en virtuell identifierare, härledd från Wallet seed. I HD Wallet härledningsstruktur finns betalkoden på djup 3, på Wallet kontonivå.
@@ -173,7 +173,7 @@ Den kan också kodas som en QR-kod för att underlätta kommunikationen:
 ![image](assets/4.webp)
 
 
-När det gäller PayNym Bots, de robotar du ser på Twitter, är de helt enkelt visuella representationer av din betalningskod, skapade av Samourai Wallet. De genereras med hjälp av en Hash-funktion, vilket gör dem nästan unika. Här är min med dess identifierare: **+throbbingpond8B1**
+När det gäller PayNym Bots, de robotar du ser på Twitter, är de helt enkelt visuella representationer av din betalningskod, skapad av Samourai Wallet. De genereras med hjälp av en Hash-funktion, vilket gör dem nästan unika. Här är min med dess identifierare: **+throbbingpond8B1**
 
 
 ![image](assets/5.webp)
@@ -185,15 +185,15 @@ Dessa botar har inte någon egentlig teknisk nytta. Istället underlättar de in
 För användaren är processen att göra en BIP47-betalning med PayNym-implementeringen extremt enkel. Låt oss föreställa oss att Alice vill skicka betalningar till Bob:
 
 
-1. Bob delar med sig av sin QR-kod eller direkt sin återanvändbara betalkod. Han kan placera den på sin webbplats, på sina olika offentliga sociala nätverk eller skicka den till Alice via något annat kommunikationsmedel.
+1. Bob delar sin QR-kod eller direkt sin återanvändbara betalkod. Han kan placera den på sin webbplats, på sina olika offentliga sociala nätverk eller skicka den till Alice via ett annat kommunikationsmedel.
 
-2. Alice öppnar sin Samourai- eller Sparrow-programvara och skannar eller klistrar in Bobs betalkod.
+2. Alice öppnar sin Samourai- eller Sparrow-programvara och skannar eller klistrar in Bob:s betalkod.
 
-3. Alice länkar sitt PayNym med Bobs ("Follow" på engelska). Denna operation görs off-chain och förblir helt gratis.
+3. Alice länkar sitt PayNym med Bob:s ("Follow" på engelska). Denna operation utförs off-chain och förblir helt fri.
 
-4. Alice kopplar ihop sitt PayNym med Bobs ("Connect" på engelska). Denna operation görs "On-Chain". Alice måste betala transaktionsavgifterna Mining samt en fast avgift på 15 000 Sats för tjänsten på Samourai. Serviceavgifterna är undantagna på Sparrow. Detta steg är vad vi kallar aviseringstransaktionen.
+4. Alice kopplar ihop sin PayNym med Bob:s ("Connect" på engelska). Denna operation görs "On-Chain". Alice måste betala transaktionsavgifterna Mining samt en fast avgift om 15 000 Sats för tjänsten på Samourai. Serviceavgifterna är undantagna på Sparrow. Detta steg är vad vi kallar för aviseringstransaktionen.
 
-5. När meddelandetransaktionen har bekräftats kan Alice skapa en BIP47-betalningstransaktion till Bob. Hennes Wallet kommer automatiskt att generate en ny tom mottagande Address för vilken endast Bob har den privata nyckeln.
+5. När meddelandetransaktionen är bekräftad kan Alice skapa en BIP47-betalningstransaktion till Bob. Hennes Wallet kommer automatiskt att generate en ny tom mottagande Address för vilken endast Bob har den privata nyckeln.
 
 
 Att utföra aviseringstransaktionen, dvs. ansluta sin PayNym, är en obligatorisk förutsättning för att göra BIP47-betalningar. När detta är gjort kan dock avsändaren göra flera betalningar till mottagaren (exakt 2^32) utan att behöva utföra en ny aviseringstransaktion.
@@ -210,7 +210,7 @@ För att sammanfatta:
 
 
 - Att länka två PayNyms ("follow") är helt gratis. Det hjälper till att upprätta off-chain-krypterad kommunikation, särskilt för att använda Samourais samarbetsverktyg för transaktioner (Stowaway eller StonewallX2). Denna operation är specifik för PayNym och beskrivs inte i BIP47.
-- Att ansluta två PayNyms medför en kostnad. Detta innebär att utföra aviseringstransaktionen för att initiera anslutningen. Kostnaden består av eventuella serviceavgifter, transaktionsavgifter Mining och 546 Sats som skickas till mottagarens aviserings-Address för att meddela dem om tunnelöppningen. Denna operation är relaterad till BIP47. När den är genomförd kan avsändaren göra flera BIP47-betalningar till mottagaren.
+- Att ansluta två PayNyms medför en kostnad. Detta innebär att utföra aviseringstransaktionen för att initiera anslutningen. Kostnaden består av eventuella serviceavgifter, transaktionsavgifter Mining och 546 Sats som skickas till mottagarens aviserings-Address för att meddela dem om tunnelöppningen. Denna operation är relaterad till BIP47. När den är slutförd kan avsändaren göra flera BIP47-betalningar till mottagaren.
 
 
 För att kunna koppla ihop två PayNyms måste de redan vara kopplade.
@@ -219,10 +219,10 @@ För att kunna koppla ihop två PayNyms måste de redan vara kopplade.
 ## Handledning: Använda PayNym.
 
 
-Nu när vi har sett teorin, låt oss studera praktiken tillsammans. Tanken med handledningarna nedan är att länka min PayNym på min Sparrow Wallet med min PayNym på min Samourai Wallet. Den första handledningen visar hur du gör en transaktion med hjälp av den återanvändbara betalkoden från Samourai till Sparrow, och den andra handledningen beskriver samma mekanism från Sparrow till Samourai.
+Nu när vi har sett teorin, låt oss studera praktiken tillsammans. Tanken med handledningarna nedan är att länka min PayNym på min Sparrow wallet med min PayNym på min Samourai Wallet. Den första handledningen visar hur du gör en transaktion med hjälp av den återanvändbara betalkoden från Samourai till Sparrow, och den andra handledningen beskriver samma mekanism från Sparrow till Samourai.
 
 
-** Notera:** Jag utförde dessa tutorials på Testnet. Det här är inte riktiga bitcoins.
+**Note:** Jag utförde dessa tutorials på Testnet. Det här är inte riktiga bitcoins.
 
 
 ### Bygga en BIP47-transaktion med Samourai Wallet.
@@ -231,7 +231,7 @@ Nu när vi har sett teorin, låt oss studera praktiken tillsammans. Tanken med h
 För att börja behöver du uppenbarligen Samourai Wallet-applikationen. Du kan ladda ner den direkt från Google Play Store eller med APK-filen som finns på den officiella Samourai-webbplatsen.
 
 
-När Wallet har initialiserats, om du inte redan har gjort det, begär du ditt PayNym genom att klicka på plusset (+) längst ned till höger och sedan på "PayNym".
+När Wallet har initialiserats, om du inte redan har gjort det, begär du ditt PayNym genom att klicka på plustecknet (+) längst ned till höger och sedan på "PayNym".
 
 
 Det första steget för att göra en BIP47-betalning är att hämta den återanvändbara betalkoden från vår mottagare. Därefter kommer vi att kunna ansluta till dem och därefter länka:
@@ -240,7 +240,7 @@ Det första steget för att göra en BIP47-betalning är att hämta den återanv
 ![video](assets/6.mp4)
 
 
-När aviseringstransaktionen är bekräftad kan jag skicka flera betalningar till min mottagare. Varje transaktion kommer automatiskt att göras med en ny tom Address som mottagaren har nycklarna till. Mottagaren behöver inte vidta några åtgärder, allt är beräknat på min sida.
+När aviseringstransaktionen är bekräftad kan jag skicka flera betalningar till min mottagare. Varje transaktion kommer automatiskt att göras med en ny tom Address som mottagaren har nycklarna till. Mottagaren behöver inte vidta några åtgärder, allt beräknas på min sida.
 
 
 Så här gör du en BIP47-transaktion på Samourai Wallet:
@@ -249,10 +249,10 @@ Så här gör du en BIP47-transaktion på Samourai Wallet:
 ![video](assets/7.mp4)
 
 
-### Bygga en BIP47-transaktion med Sparrow Wallet.
+### Bygga en BIP47-transaktion med Sparrow wallet.
 
 
-Precis som med Samourai måste du naturligtvis ha Sparrow-programvaran. Detta är tillgängligt på din dator. Du kan ladda ner den från deras [officiella webbplats] (https://sparrowwallet.com/).
+Precis som med Samourai måste du naturligtvis ha Sparrow-programvaran. Detta finns tillgängligt på din dator. Du kan ladda ner den från deras [officiella webbplats] (https://sparrowwallet.com/).
 
 
 Se till att verifiera utvecklarens signatur och integriteten hos den nedladdade programvaran innan du installerar den på din maskin.
@@ -282,15 +282,15 @@ Nu när vi har kunnat studera den praktiska aspekten av PayNyms implementering a
 ## Det inre arbetet med BIP47.
 
 
-För att studera mekanismerna för BIP47 är det viktigt att förstå strukturen för den hierarkiska deterministiska (HD) Wallet, mekanismerna för att härleda barnnyckelpar, liksom principerna för elliptisk kurva kryptografi. Lyckligtvis kan du hitta all nödvändig information för att förstå den här delen på min blogg:
+För att studera mekanismerna för BIP47 är det viktigt att förstå strukturen för den hierarkiska deterministiska (HD) Wallet, mekanismerna för att härleda barnnyckelpar, liksom principerna för elliptisk kurvkryptografi. Lyckligtvis kan du hitta all nödvändig information för att förstå den här delen på min blogg:
 
 
 
-- [Förståelse för härledningsvägarna för en Bitcoin Wallet](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-Bitcoin)
+- [Förståelse av härledningsvägarna för en Bitcoin Wallet](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-Bitcoin)
 
 
 
-- [The Bitcoin Wallet - utdrag ur e-boken Bitcoin Democratized 2] (https://www.pandul.fr/post/le-portefeuille-Bitcoin-extrait-ebook-Bitcoin-d%C3%A9mocratis%C3%A9-2)
+- [Bitcoin Wallet - utdrag ur e-boken Bitcoin Demokratiserad 2](https://www.pandul.fr/post/le-portefeuille-Bitcoin-extrait-ebook-Bitcoin-d%C3%A9mocratis%C3%A9-2)
 
 
 ### Den återanvändbara betalningskoden.
@@ -305,9 +305,9 @@ Här är de olika delarna som utgör en betalningskod på 80 byte:
 
 - _Byte 0_: Version. Om du använder den första versionen av BIP47 kommer denna byte att vara lika med 0x01.
 - _Byte 1_: Bitfältet. Detta utrymme är reserverat för att ge ytterligare indikationer vid specifik användning. Om du bara använder PayNym kommer denna byte att vara lika med 0x00.
-- _Byte 2_: Y-pariteten. Denna byte indikerar 0x02 eller 0x03 beroende på pariteten (jämnt eller udda tal) för värdet på y-koordinaten för vår offentliga nyckel. För mer information om denna metod, läs steg 1 i avsnittet "Address-derivering" i den här artikeln.
+- _Byte 2_: Y-pariteten. Denna byte indikerar 0x02 eller 0x03 beroende på pariteten (jämnt eller udda tal) för värdet av y-koordinaten för vår offentliga nyckel. För mer information om denna metod, läs steg 1 i avsnittet "Address-derivering" i den här artikeln.
 - _Från byte 3 till byte 34_: X-värdet. Dessa byte anger x-koordinaten för vår offentliga nyckel. Sammankopplingen av x och y-pariteten ger oss vår komprimerade offentliga nyckel.
-- _Från byte 35 till byte 66_: Kedjekoden. Detta utrymme är reserverat för den kedjekod som är kopplad till den ovannämnda offentliga nyckeln.
+- _Från byte 35 till byte 66_: chain code. Detta utrymme är reserverat för den chain code som är associerad med den ovannämnda offentliga nyckeln.
 - _Från byte 67 till byte 79_: Utfyllnad. Detta utrymme är reserverat för eventuella framtida utvecklingar. För version 1 fyller vi det helt enkelt med nollor för att nå 80 byte, vilket är storleken på data för en OP_RETURN-utgång.
 
 
@@ -334,13 +334,13 @@ Betalningskoden är klar, nu behöver vi bara konvertera den till Base 58:
 Som du kan se liknar den här konstruktionen mycket strukturen hos en utökad publik nyckel av typen "xpub".
 
 
-Under denna process för att erhålla vår betalningskod använde vi en komprimerad publik nyckel och en kedjekod. Dessa två Elements är resultatet av en deterministisk och hierarkisk härledning från Wallet seed, enligt följande härledningsväg: m/47'/0'/0'/
+Under denna process för att erhålla vår betalkod använde vi en komprimerad publik nyckel och en chain code. Dessa två Elements är resultatet av en deterministisk och hierarkisk härledning från Wallet seed, enligt följande härledningsväg: m/47'/0'/0'/
 
 
-Konkret, för att få den offentliga nyckeln och kedjekoden för den återanvändbara betalningskoden, beräknar vi den privata huvudnyckeln från seed och härleder sedan ett barnpar med index 47 + 2^31 (härdad härledning). Sedan härleder vi ytterligare två barnpar med index 2^31 (härdad härledning).
+Konkret, för att få den offentliga nyckeln och chain code för den återanvändbara betalkoden, kommer vi att beräkna den privata huvudnyckeln från seed och sedan härleda ett barnpar med index 47 + 2^31 (härdad härledning). Sedan härleder vi ytterligare två barnpar med index 2^31 (härdad härledning).
 
 
-**Note:** Om du vill lära dig mer om att härleda barnnyckelpar inom en hierarkisk deterministisk Bitcoin Wallet rekommenderar jag att du tar CRYPTO301.
+**Om du vill lära dig mer om att härleda barnnyckelpar inom en hierarkisk deterministisk Bitcoin Wallet rekommenderar jag att du tar CRYPTO301.
 
 
 ### Den kryptografiska metoden: Elliptisk kurva Diffie-Hellman-nyckel Exchange (ECDH).
@@ -361,16 +361,16 @@ Denna delade hemlighet (den röda nyckeln) kan sedan användas för andra uppgif
 ![image](assets/12.webp)
 
 
-För att uppnå denna Exchange använder Diffie-Hellman modulär aritmetik för att beräkna den delade hemligheten. Här följer en förenklad förklaring av hur det fungerar:
+För att uppnå detta Exchange använder Diffie-Hellman modulär aritmetik för att beräkna den delade hemligheten. Här följer en förenklad förklaring av hur det fungerar:
 
 
 
-- Alice och Bob kommer överens om en gemensam färg, i det här fallet gul. Den här färgen är känd av alla. Det är offentlig information.
+- Alice och Bob har en gemensam färg, i det här fallet gul. Denna färg är känd av alla. Det är allmän information.
 - Alice väljer en hemlig färg, i det här fallet röd. Hon blandar de två färgerna, vilket resulterar i orange.
 - Bob väljer en hemlig färg, i det här fallet blågrön. Han blandar de två färgerna, vilket resulterar i himmelsblått.
-- Alice och Bob kan Exchange de färger de fick: orange och himmelsblå. Denna Exchange kan ske över ett osäkert nätverk och kan observeras av angripare.
-- Alice blandar den himmelsblå färg som hon fått av Bob med sin hemliga färg (röd). Hon erhåller brun.
-- Bob blandar den orangea färg han fått från Alice med sin hemliga färg (blågrön). Han får också brunt.
+- Alice och Bob kan Exchange de färger de erhållit: orange och himmelsblå. Denna Exchange kan ske över ett osäkert nätverk och kan observeras av angripare.
+- Alice blandar den himmelsblå färg som hon fått från Bob med sin hemliga färg (röd). Hon erhåller brunt.
+- Bob blandar den orangea färg som han fått från Alice med sin hemliga färg (blågrön). Han erhåller också brunt.
 
 
 ![image](assets/13.webp)
@@ -379,7 +379,7 @@ För att uppnå denna Exchange använder Diffie-Hellman modulär aritmetik för 
 **Credit:** Ursprunglig idé: A.J. Han VinckVektorversion: FlugaalÖversättning: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
 
 
-I denna förenkling representerar den bruna färgen den hemlighet som delas mellan Alice och Bob. Man bör föreställa sig att det i verkligheten är omöjligt för angriparen att separera de orange och himmelsblå färgerna för att få fram Alice eller Bobs hemliga färger.
+I denna förenkling representerar den bruna färgen den hemlighet som delas mellan Alice och Bob. Man bör föreställa sig att det i verkligheten är omöjligt för angriparen att separera de orange och himmelsblå färgerna för att få fram Alice:s eller Bob:s hemliga färger.
 
 
 Låt oss nu studera dess faktiska funktion. Vid första anblicken kan Diffie-Hellman verka komplicerad att förstå. I själva verket är funktionsprincipen nästan barnslig. Innan jag beskriver dess mekanismer i detalj ska jag snabbt påminna er om två matematiska begrepp som vi kommer att behöva (och som för övrigt också används i många andra kryptografiska metoder).
@@ -394,8 +394,8 @@ Diffie-Hellman-nyckeln Exchange mellan Alice och Bob fungerar på följande sät
 
 
 
-- Alice och Bob bestämmer två gemensamma tal: p och g. p är ett primtal. Ju större talet p är, desto säkrare blir Diffie-Hellman. g är en primitiv rot till p. Dessa två tal kan kommuniceras i klartext över ett osäkert nätverk, de är motsvarigheten till den gula färgen i förenklingen ovan. Alice och Bob behöver bara ha exakt samma värden för p och g.
-- När parametrarna har valts bestämmer Alice och Bob var för sig ett hemligt slumptal. Det slumptal som Alice får fram kallas a (motsvarar den röda färgen) och det slumptal som Bob får fram kallas b (motsvarar den blågröna färgen). Dessa två tal måste förbli hemliga.
+- Alice och Bob bestämmer två vanliga tal: p och g. p är ett primtal. Ju större talet p är, desto säkrare blir Diffie-Hellman. g är en primitiv rot till p. Dessa två tal kan kommuniceras i klartext över ett osäkert nätverk, de är motsvarigheterna till den gula färgen i förenklingen ovan. Alice och Bob behöver bara ha exakt samma värden för p och g.
+- När parametrarna har valts bestämmer Alice och Bob var och en för sig ett hemligt slumptal. Det slumptal som Alice får fram kallas a (motsvarar den röda färgen) och det slumptal som Bob får fram kallas b (motsvarar den blågröna färgen). Dessa två tal måste förbli hemliga.
 - I stället för att utbyta dessa tal a och b kommer vardera parten att beräkna A (versaler) och B (versaler) så att:
 
 
@@ -411,7 +411,7 @@ B är lika med g upphöjt till potensen av b modulo p:
 
 
 - Dessa nummer A (motsvarande den orange färgen) och B (motsvarande den himmelsblå färgen) kommer att utbytas mellan de två parterna. Exchange kan göras i klartext över ett osäkert nätverk.
-- Alice, som nu känner till B, kommer att beräkna värdet på z så att:
+- Alice, som nu känner till B, kommer att beräkna värdet av z så att:
 
 
 z är lika med B multiplicerat med a modulo p:
@@ -438,7 +438,7 @@ Därför..:
 
 
 
-- Bob, som nu känner till A, kommer också att beräkna värdet av z på följande sätt:
+- Bob, som nu känner till A, kommer också att beräkna värdet av z enligt följande:
 
 
 z är lika med A multiplicerat med b modulo p:
@@ -494,8 +494,8 @@ Vi kommer att använda denna egenskap för att anpassa vår Diffie-Hellman-algor
 
 
 
-- Alice och Bob kommer överens om en kryptografiskt säker elliptisk kurva och dess parametrar. Denna information är offentlig.
-- Alice genererar ett slumptal ka, som blir hennes privata nyckel. Denna privata nyckel måste förbli hemlig. Hon bestämmer sin offentliga nyckel Ka genom att lägga till och dubbla punkter på den valda elliptiska kurvan.
+- Alice och Bob enas om en kryptografiskt säker elliptisk kurva och dess parametrar. Denna information är offentlig.
+- Alice genererar ett slumpmässigt tal ka, som blir hennes privata nyckel. Denna privata nyckel måste förbli hemlig. Hon bestämmer sin offentliga nyckel Ka genom att lägga till och dubbla punkter på den valda elliptiska kurvan.
 
 
 **Ka = ka-G**
@@ -510,21 +510,21 @@ Vi kommer att använda denna egenskap för att anpassa vår Diffie-Hellman-algor
 
 
 - Alice och Bob Exchange sina publika nycklar Ka och Kb över ett osäkert offentligt nätverk.
-- Alice beräknar en punkt (x, y) på kurvan genom att använda sin privata nyckel ka på Bobs offentliga nyckel Kb.
+- Alice beräknar en punkt (x, y) på kurvan genom att använda sin privata nyckel ka på Bob:s offentliga nyckel Kb.
 
 
 **(x, y) = ka-Kb**
 
 
 
-- Bob beräknar en punkt (x, y) på kurvan genom att använda sin privata nyckel kb på Alices offentliga nyckel Ka.
+- Bob beräknar en punkt (x, y) på kurvan genom att använda sin privata nyckel kb på Alice:s offentliga nyckel Ka.
 
 
 **(x, y) = kb-Ka**
 
 
 
-- Alice och Bob får samma punkt på den elliptiska kurvan. Den delade hemligheten kommer att vara x-koordinaten för denna punkt.
+- Alice och Bob erhåller samma punkt på den elliptiska kurvan. Den delade hemligheten kommer att vara x-koordinaten för denna punkt.
 
 
 De får samma delade hemlighet eftersom:
@@ -535,7 +535,7 @@ De får samma delade hemlighet eftersom:
 
 En potentiell angripare som observerar det osäkra offentliga nätverket kan endast få tillgång till varje parts publika nycklar och de valda kurvparametrarna. Som tidigare förklarats kan de privata nycklarna inte fastställas enbart med hjälp av dessa två uppgifter, och angriparen kan därför inte komma åt hemligheten.
 
-ECDH är en algoritm som möjliggör nyckeln Exchange. Den används ofta tillsammans med andra kryptografiska metoder för att definiera ett protokoll. Till exempel används ECDH i kärnan av TLS (Transport Layer Security), ett krypterings- och autentiseringsprotokoll som används för internettransport Layer. TLS använder ECDHE för nyckel Exchange, en variant av ECDH där nycklarna är efemära för att ge beständig konfidentialitet. Utöver ECDHE använder TLS även en autentiseringsalgoritm som ECDSA, en krypteringsalgoritm som AES och en Hash funktion som SHA256.
+ECDH är en algoritm som möjliggör nyckeln Exchange. Den används ofta tillsammans med andra kryptografiska metoder för att definiera ett protokoll. Till exempel används ECDH i kärnan av TLS (Transport Layer Security), ett krypterings- och autentiseringsprotokoll som används för internettransport Layer. TLS använder ECDHE för nyckel Exchange, en variant av ECDH där nycklarna är efemära för att ge beständig integritet. Utöver ECDHE använder TLS även en autentiseringsalgoritm som ECDSA, en krypteringsalgoritm som AES och en Hash funktion som SHA256.
 
 
 TLS definierar "s" i "https" och den lilla låsikonen som du ser i din webbläsare i det övre vänstra hörnet, vilket garanterar krypterad kommunikation. Så du använder för närvarande ECDH genom att läsa den här artikeln, och du använder den förmodligen dagligen utan att inse det.
@@ -573,7 +573,7 @@ Betalkoden i sig utgör inte direkt någon integritetsrisk. Till skillnad från 
 Betalningskoden härleder inte direkt de adresser som används för att ta emot BIP47-betalningar. Adresserna erhålls i stället genom att ECDHE tillämpas mellan underordnade nycklar för båda parternas betalningskoder.
 
 
-Därför utgör en betalkod i sig inte någon direkt risk för den personliga integriteten eftersom endast meddelandet Address härleds från den. Viss information kan härledas från den, men normalt kan man inte veta vem man gör transaktioner med.
+Därför utgör en betalningskod i sig inte någon direkt risk för den personliga integriteten, eftersom endast meddelandet Address härleds från den. Viss information kan härledas från den, men normalt kan man inte veta vem man gör transaktioner med.
 
 
 Det är därför viktigt att upprätthålla en strikt åtskillnad mellan användarnas betalningskoder. I detta avseende är kodens första kommunikationssteg ett kritiskt ögonblick för betalningens integritet, men det är ändå obligatoriskt för att protokollet ska fungera korrekt. Om en av betalkoderna kan hämtas av allmänheten (t.ex. från en webbplats) ska den andra koden, dvs. avsändarens kod, inte kopplas till den första.
@@ -601,34 +601,34 @@ I diagrammet nedan representerar de röda linjerna det ögonblick då informatio
 ![Privacy model diagram for reusable payment code](assets/15.webp)
 
 
-I verkligheten är det för den klassiska sekretessmodellen för Bitcoin ofta svårt att helt bryta informationsflödet mellan nyckelparet och användaren, särskilt när man utför fjärrtransaktioner. Till exempel vid en donationskampanj måste mottagaren avslöja en Address eller en offentlig nyckel på sin webbplats eller på sociala medieplattformar. Korrekt användning av BIP47, dvs. med aviseringstransaktionen, löser detta problem genom ECDHE och krypteringen Layer som vi kommer att studera.
+I verkligheten, för den klassiska sekretessmodellen Bitcoin, är det ofta svårt att helt bryta informationsflödet mellan nyckelparet och användaren, särskilt när man utför fjärrtransaktioner. Till exempel vid en donationskampanj måste mottagaren avslöja en Address eller offentlig nyckel på sin webbplats eller sociala medieplattformar. Korrekt användning av BIP47, dvs. med aviseringstransaktionen, löser detta problem genom ECDHE och krypteringen Layer som vi kommer att studera.
 
 
-Uppenbarligen observeras den klassiska integritetsmodellen i Bitcoin fortfarande på nivån för de efemära offentliga nycklar som härrör från kopplingen av de två betalkoderna. De två modellerna är beroende av varandra. Jag vill här bara betona att till skillnad från den klassiska användningen av en publik nyckel för att ta emot bitcoins kan betalningskoden associeras med en identitet eftersom informationen "Bob gör en transaktion med Alice" bryts vid ett annat tillfälle. Betalningskoden används för generate-betalningsadresser, men genom att endast observera Blockchain är det omöjligt att associera en BIP47-betalningstransaktion med de betalningskoder som används för att göra den.
+Det är uppenbart att den klassiska integritetsmodellen i Bitcoin fortfarande observeras på nivån för de kortlivade offentliga nycklar som härrör från kopplingen mellan de två betalkoderna. De två modellerna är beroende av varandra. Jag vill här bara betona att till skillnad från den klassiska användningen av en publik nyckel för att ta emot bitcoins kan betalningskoden associeras med en identitet eftersom informationen "Bob gör en transaktion med Alice" bryts vid ett annat tillfälle. Betalningskoden används för att generate betalningsadresser, men genom att endast observera Blockchain är det omöjligt att associera en BIP47-betalningstransaktion med de betalningskoder som används för att göra den.
 
 
 ### Uppbyggnad av anmälningstransaktionen
 
 
-Låt oss nu se hur denna aviseringstransaktion fungerar. Låt oss tänka oss att Alice vill skicka pengar till Bob med BIP47. I mitt exempel agerar Alice som avsändare och Bob som mottagare. Bob har redan publicerat sin betalningskod på sin webbplats, så Alice känner redan till Bobs betalningskod.
+Låt oss nu se hur denna aviseringstransaktion fungerar. Låt oss föreställa oss att Alice vill skicka pengar till Bob med hjälp av BIP47. I mitt exempel agerar Alice som avsändare och Bob som mottagare. Bob har redan publicerat sin betalkod på sin webbplats, så Alice är redan medveten om Bob:s betalkod.
 
 
 1- Alice beräknar en delad hemlighet med ECDH:
 
 
 
-- Hon väljer ett nyckelpar från sin HD Wallet som ligger på en annan filial än hennes betalkod. Observera att detta par inte lätt ska kunna associeras med Alices meddelande Address eller Alices identitet (se föregående avsnitt).
+- Hon väljer ett nyckelpar från sin HD Wallet som ligger på en annan gren än hennes betalkod. Observera att detta par inte lätt ska kunna associeras med Alice:s avisering Address eller Alice:s identitet (se föregående avsnitt).
 - Alice väljer den privata nyckeln från detta par. Vi kommer att kalla den **a** (gemener).
 
 
 
-- Alice hämtar den publika nyckel som är kopplad till Bobs avisering Address. Den här nyckeln är det första barnet som härleds från Bobs betalkod (index 0). Vi kallar denna publika nyckel för "B" (versaler). Den privata nyckel som är kopplad till denna publika nyckel kallas "b" (gemener). "B" bestäms genom punktaddition och dubblering på den elliptiska kurvan från "G" (generatorpunkten) med "b" (den privata nyckeln).
+- Alice hämtar den publika nyckel som är kopplad till Bob:s avisering Address. Denna nyckel är det första barnet som härleds från Bob:s betalkod (index 0). Vi kommer att kalla denna publika nyckel "B" (versaler). Den privata nyckel som är associerad med denna publika nyckel kallas "b" (gemener). "B" bestäms genom punktaddition och dubblering på den elliptiska kurvan från "G" (generatorpunkten) med "b" (den privata nyckeln).
 
 **B = b-G**
 
 
 
-- Alice räknar ut en hemlig punkt "S" (versaler) på den elliptiska kurvan genom punktaddition och dubblering och använder sin privata nyckel "a" till Bobs offentliga nyckel "B".
+- Alice beräknar en hemlig punkt "S" (versaler) på den elliptiska kurvan genom punktaddition och dubblering, genom att använda sin privata nyckel "a" till Bob:s offentliga nyckel "B".
 
 **S = a-B**
 
@@ -646,13 +646,13 @@ Låt oss nu se hur denna aviseringstransaktion fungerar. Låt oss tänka oss att
 
 
 
-- Alice delar först upp sin förblindningsfaktor i två delar: de första 32 bytena kallas "f1" och de sista 32 bytena kallas "f2". Så vi har:
+- Alice delar först upp sin förblindande faktor i två delar: de första 32 bytena kallas "f1" och de sista 32 bytena kallas "f2". Så vi har:
 
 **f = f1 || f2**
 
 
 
-- Alice beräknar chiffertexten (x') för x-koordinaten för den offentliga nyckeln (x) för sin betalningskod och beräknar separat chiffertexten (c') för sin kedjekod (c). "f1" och "f2" fungerar som krypteringsnycklar och XOR-operationen används.
+- Alice beräknar chiffertexten (x') för x-koordinaten för den offentliga nyckeln (x) för sin betalningskod och beräknar separat chiffertexten (c') för sin chain code (c). "f1" och "f2" fungerar som krypteringsnycklar och XOR-operationen används.
 
 **x' = x XOR f1**
 
@@ -660,7 +660,7 @@ Låt oss nu se hur denna aviseringstransaktion fungerar. Låt oss tänka oss att
 
 
 
-- Alice ersätter de faktiska värdena för den offentliga nyckelns abscissa (x) och kedjekoden (c) i sin betalningskod med de krypterade värdena (x') och (c').
+- Alice ersätter de faktiska värdena för den offentliga nyckelns abscissa (x) och chain code (c) i sin betalningskod med de krypterade värdena (x') och (c').
 
 
 Innan vi fortsätter med den tekniska beskrivningen av den här meddelandetransaktionen ska vi ta en stund för att diskutera XOR-operationen. XOR är en bitvis logisk operator baserad på boolesk algebra. Givet två bitoperander returnerar den 1 om motsvarande bitar är olika, och den returnerar 0 om motsvarande bitar är lika. Här är sanningstabellen för XOR baserad på värdena för operanderna D och E:
@@ -720,19 +720,19 @@ Då är D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E
 
 -> D ⊕ L = E
 
-Dessutom är den här krypteringsmetoden mycket lik Vernam-chiffret (One-Time Pad), den enda krypteringsalgoritm som hittills är känd och som har ovillkorlig (eller absolut) säkerhet. För att Vernam-krypteringen ska ha denna egenskap måste krypteringsnyckeln vara helt slumpmässig, ha samma storlek som meddelandet och bara användas en gång. I den krypteringsmetod som används här för BIP47 är nyckeln verkligen lika stor som meddelandet, och blindfaktorn är exakt lika stor som konkateneringen av x-koordinaten för den offentliga nyckeln med betalningskodkedjekoden. Denna krypteringsnyckel används bara en gång. Den här nyckeln härrör dock inte från en perfekt slumpmässig källa som en HMAC. Den är snarare pseudoslumpmässig. Det är därför inte ett Vernam-chiffer, men metoden är likartad.
+Dessutom är den här krypteringsmetoden mycket lik Vernam-chiffret (One-Time Pad), den enda krypteringsalgoritm som hittills är känd och som har ovillkorlig (eller absolut) säkerhet. För att Vernam-krypteringen ska ha denna egenskap måste krypteringsnyckeln vara helt slumpmässig, ha samma storlek som meddelandet och bara användas en gång. I den krypteringsmetod som används här för BIP47 är nyckeln verkligen lika stor som meddelandet, och blindfaktorn är exakt lika stor som konkateneringen av x-koordinaten för den offentliga nyckeln med betalningskoden chain code. Denna krypteringsnyckel används verkligen endast en gång. Denna nyckel härrör dock inte från en perfekt slumpmässig källa, eftersom det är en HMAC. Den är snarare pseudoslumpmässig. Det är därför inte ett Vernam-chiffer, men metoden är likartad.
 
 
 Låt oss gå tillbaka till vår konstruktion av meddelandetransaktionen:
 
 
-4- Alice har för närvarande sin betalningskod med en krypterad nyttolast. Hon kommer att konstruera och sända en transaktion som involverar hennes publika nyckel "A" som indata, en utdata till Bobs meddelande Address och en OP_RETURN-utdata som består av hennes betalningskod med den krypterade nyttolasten. Denna transaktion är aviseringstransaktionen.
+4- Alice har för närvarande sin betalningskod med en krypterad nyttolast. Hon kommer att konstruera och sända en transaktion som involverar hennes publika nyckel "A" som indata, en utdata till Bob:s meddelande Address, och en OP_RETURN-utdata som består av hennes betalningskod med den krypterade nyttolasten. Denna transaktion är aviseringstransaktionen.
 
 
-OP_RETURN är en Opcode, vilket är ett skript som markerar en Bitcoin transaktionsutdata som ogiltig. Idag används den för att sända eller Anchor information om Bitcoin Blockchain. Den kan lagra upp till 80 byte data som registreras i kedjan och därför är synlig för alla andra användare.
+OP_RETURN är en Opcode, vilket är ett skript som markerar en Bitcoin transaktionsutdata som ogiltig. Idag används den för att sända eller Anchor information om Bitcoin Blockchain. Den kan lagra upp till 80 byte data som registreras på kedjan och därför är synlig för alla andra användare.
 
 
-Som vi såg i föregående avsnitt används Diffie-Hellman för att generate dela en hemlighet mellan två användare som kommunicerar över ett osäkert nätverk, vilket kan observeras av angripare. I BIP47 används ECDH för att kommunicera i Bitcoin-nätverket, som till sin natur är ett transparent kommunikationsnätverk som kan observeras av många angripare. Den delade hemligheten som beräknas genom Diffie-Hellman-nyckeln Exchange på den elliptiska kurvan används sedan för att kryptera den hemliga information som ska överföras: avsändarens (Alices) betalkod.
+Som vi såg i föregående avsnitt används Diffie-Hellman för att generate en delad hemlighet mellan två användare som kommunicerar över ett osäkert nätverk, som potentiellt kan observeras av angripare. I BIP47 används ECDH för att kommunicera i Bitcoin-nätverket, som till sin natur är ett transparent kommunikationsnätverk som kan observeras av många angripare. Den delade hemligheten som beräknas genom Diffie-Hellman-nyckeln Exchange på den elliptiska kurvan används sedan för att kryptera den hemliga information som ska överföras: avsändarens (Alice:s) betalkod.
 
 
 Här är ett diagram hämtat från BIP47 som illustrerar det vi just beskrivit:
@@ -748,8 +748,8 @@ Om vi matchar detta diagram med det jag beskrev tidigare:
 
 
 
-- "Wallet Priv-Key" på Alices sida motsvarar: a.
-- "Child Pub-Key 0" på Bobs sida motsvarar: B.
+- "Wallet Priv-Key" på Alice:s sida motsvarar: a.
+- "Child Pub-Key 0" på Bob:s sida motsvarar..: B.
 - "Notification Shared Secret" motsvarar: f.
 - "Masked Payment Code" motsvarar den krypterade betalkoden, dvs. med den krypterade nyttolasten: x' och c'.
 - "Anmälningstransaktion" är den transaktion som innehåller OP_RETURN.
@@ -759,15 +759,15 @@ Låt oss rekapitulera de steg vi just gick igenom för att utföra en aviserings
 
 
 
-- Alice hämtar Bobs betalkod och meddelande Address.
+- Alice hämtar Bob:s betalkod och avisering Address.
 - Alice väljer en UTXO som tillhör henne i sin HD Wallet med motsvarande nyckelpar.
 - Hon räknar ut en hemlig punkt på den elliptiska kurvan med hjälp av ECDH.
 - Hon använder denna hemliga punkt för att beräkna en HMAC, som är den bländande faktorn.
 - Hon använder denna förblindande faktor för att kryptera nyttolasten för sin personliga betalkod.
-- Hon använder en OP_RETURN-transaktionsutskrift för att överföra den maskerade betalkoden till Bob.
+- Hon använder en OP_RETURN-transaktionsutgång för att överföra den maskerade betalkoden till Bob.
 
 
-För att bättre förstå dess funktion, särskilt användningen av OP_RETURN, låt oss studera en riktig anmälningstransaktion tillsammans. Jag utförde en transaktion av denna typ på Testnet, som du kan hitta genom att klicka här:
+För att bättre förstå dess funktion, särskilt användningen av OP_RETURN, låt oss studera en verklig anmälningstransaktion tillsammans. Jag utförde en transaktion av denna typ på Testnet, som du kan hitta genom att klicka här:
 
 
 https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e
@@ -788,7 +788,7 @@ Genom att observera denna transaktion kan vi redan se att den har en enda ingån
 
 - Den första utdata är OP_RETURN som innehåller min maskerade betalningskod.
 - Den andra utgången från 546 Sats pekar på mottagarens meddelande Address.
-- Det tredje utflödet på 15 000 Sats representerar serviceavgiften, eftersom jag använde Samourai Wallet för att konstruera denna transaktion.
+- Det tredje utfallet på 15 000 Sats representerar serviceavgiften, eftersom jag använde Samourai Wallet för att konstruera denna transaktion.
 - Den fjärde utmatningen på två miljoner Sats representerar förändringen, dvs. den återstående skillnaden från min inmatning som går tillbaka till en annan Address som tillhör mig.
 
 
@@ -825,30 +825,30 @@ Om vi jämför min betalkod med OP_RETURN kan vi se att HRP (i brunt) och checks
 
 Därefter kan vi känna igen (i Green) versionen (0x01), bitfältet (0x00) och den offentliga nyckelpariteten (0x02). Och i slutet av betalningskoden, de tomma bytena i svart (0x00) som tillåter utfyllnad för att nå totalt 80 byte. Alla dessa metadata överförs i klartext (okrypterade).
 
-Slutligen kan vi konstatera att x-koordinaten för den offentliga nyckeln (i blått) och kedjekoden (i rött) har krypterats. Detta utgör betalningskodens nyttolast.
+Slutligen kan vi konstatera att x-koordinaten för den offentliga nyckeln (i blått) och chain code (i rött) har krypterats. Detta utgör betalningskodens nyttolast.
 
 
 ### Mottagande av meddelandetransaktionen.
 
 
-Nu när Alice har skickat meddelandetransaktionen till Bob ska vi se hur han tolkar den.
+Nu när Alice har skickat aviseringstransaktionen till Bob, låt oss se hur han tolkar den.
 
 
-Som en påminnelse måste Bob kunna få tillgång till Alices betalkod. Utan denna information kommer han, som vi kommer att se i nästa avsnitt, inte att kunna härleda de nyckelpar som skapats av Alice, och därför kommer han inte att kunna komma åt sina bitcoins som mottagits med BIP47. För tillfället är Alices betalningskods nyttolast krypterad. Låt oss tillsammans se hur Bob dekrypterar den.
+Som en påminnelse måste Bob kunna få tillgång till Alice:s betalkod. Utan denna information, som vi kommer att se i nästa avsnitt, kommer han inte att kunna härleda de nyckelpar som skapats av Alice, och därför kommer han inte att kunna komma åt sina bitcoins som mottagits med BIP47. För tillfället är Alice:s betalningskods nyttolast krypterad. Låt oss tillsammans se hur Bob dekrypterar den.
 
 
-1- Bob övervakar transaktioner som skapar utdata med sitt meddelande Address.
+1- Bob övervakar transaktioner som skapar utdata med sin avisering Address.
 
-2- När en transaktion har en utdata till sin avisering Address, analyserar Bob den för att se om den innehåller en OP_RETURN-utdata som överensstämmer med BIP47-standarden.
+2- När en transaktion har en utgång till sin anmälan Address, analyserar Bob den för att se om den innehåller en OP_RETURN-utgång som överensstämmer med BIP47-standarden.
 
-3- Om den första byten i OP_RETURN:s nyttolast är 0x01 börjar Bob söka efter en möjlig delad hemlighet med ECDH:
+3- Om den första byten i OP_RETURN:s nyttolast är 0x01, börjar Bob sin sökning efter en möjlig delad hemlighet med ECDH:
 
 
 
-- Bob väljer den publika nyckeln i transaktionsinmatningen. Det vill säga Alices publika nyckel med namnet "A" med: **A = a-G**
+- Bob väljer den publika nyckeln i transaktionsinmatningen. Det vill säga Alice:s publika nyckel med namnet "A" med: **A = a-G**
 - Bob väljer den privata nyckeln "b" som är kopplad till hans personliga meddelande Address: **b**
-- Bob beräknar den hemliga punkten "S" (ECDH:s delade hemlighet) på den elliptiska kurvan genom att lägga till och dubbla punkter och använder sin privata nyckel "b" till Alices offentliga nyckel "A": **S = b-A**
-- Bob bestämmer den förblindningsfaktor "f" som gör det möjligt för honom att dekryptera Alices betalningskods nyttolast. På samma sätt som Alice beräknade den tidigare, kommer Bob att hitta "f" genom att tillämpa HMAC-SHA512 på (x) x-koordinatvärdet för den hemliga punkten "S", och på (o) UTXO som förbrukats som input i denna meddelandetransaktion: **f = HMAC-SHA512(o, x)**
+- Bob beräknar den hemliga punkten "S" (ECDH:s delade hemlighet) på den elliptiska kurvan genom att lägga till och dubbla punkter, genom att använda sin privata nyckel "b" på Alice:s offentliga nyckel "A": **S = b-A**
+- Bob bestämmer förblindningsfaktorn "f" som gör det möjligt för honom att dekryptera Alice:s betalningskods nyttolast. På samma sätt som Alice beräknade den tidigare, kommer Bob att hitta "f" genom att tillämpa HMAC-SHA512 på (x) x-koordinatvärdet för den hemliga punkten "S", och på (o) UTXO som förbrukades som input i denna meddelandetransaktion: **f = HMAC-SHA512(o, x)**
 
 
 4- Bob tolkar uppgifterna i OP_RETURN i meddelandetransaktionen som en betalningskod. Han dekrypterar helt enkelt nyttolasten för denna potentiella betalningskod med hjälp av förblindningsfaktorn "f".
@@ -856,44 +856,44 @@ Som en påminnelse måste Bob kunna få tillgång till Alices betalkod. Utan den
 
 
 - Bob delar upp förblindningsfaktorn "f" i två delar: de första 32 bytena av "f" blir "f1" och de sista 32 bytena blir "f2".
-- Bob dekrypterar det krypterade x-koordinatvärdet (x') för Alices publika nyckel för betalningskoden:
+- Bob dekrypterar det krypterade x-koordinatvärdet (x') för Alice:s publika nyckel för betalningskoden:
 
 
 **x = x' XOR f1**
 
 
 
-- Bob dekrypterar det krypterade kedjekodsvärdet (c') för Alices betalningskod:
+- Bob dekrypterar det krypterade chain code-värdet (c') för Alice:s betalkod:
 
 
 **c = c' XOR f2**
 
 
-5- Bob kontrollerar om värdet på Alices publika nyckel för betalningskoden ingår i secp256k1-gruppen. Om så är fallet tolkar han det som en giltig betalkod. Annars ignorerar han transaktionen.
+5- Bob kontrollerar om värdet på Alice:s publika nyckel för betalningskoden ingår i secp256k1-gruppen. Om så är fallet tolkar han det som en giltig betalkod. Annars ignorerar han transaktionen.
 
 
-Nu när Bob känner till Alices betalningskod kan hon skicka upp till 2^32 betalningar till honom utan att någonsin behöva utföra en sådan här aviseringstransaktion igen.
+Nu när Bob känner till Alice:s betalningskod kan hon skicka upp till 2^32 betalningar till honom utan att någonsin behöva utföra en sådan här aviseringstransaktion igen.
 
 
-Varför fungerar det här? Hur kan Bob fastställa samma förblindningsfaktor som Alice och dekryptera hennes betalkod? Låt oss undersöka ECDH-processen mer i detalj baserat på vad vi just beskrev.
+Varför fungerar det här? Hur kan Bob fastställa samma blindningsfaktor som Alice och dekryptera sin betalkod? Låt oss undersöka ECDH-processen mer i detalj baserat på vad vi just beskrev.
 
 
-För det första har vi att göra med symmetrisk kryptering. Detta innebär att krypteringsnyckeln och dekrypteringsnyckeln har samma värde. I det här fallet är nyckeln i meddelandetransaktionen förblindningsfaktorn (f = f1 || f2). Alice och Bob måste få fram samma värde för f utan att överföra det direkt, eftersom en angripare skulle kunna avlyssna det och dekryptera den hemliga informationen.
+För det första har vi att göra med symmetrisk kryptering. Detta innebär att krypteringsnyckeln och dekrypteringsnyckeln har samma värde. I det här fallet är nyckeln i meddelandetransaktionen förblindningsfaktorn (f = f1 || f2). Alice och Bob måste erhålla samma värde för f utan att överföra det direkt, eftersom en angripare skulle kunna avlyssna det och dekryptera den hemliga informationen.
 
 
-Denna blindningsfaktor erhålls genom att tillämpa HMAC-SHA512 på två värden: x-koordinaten för en hemlig punkt och den förbrukade UTXO i transaktionsinmatningen. Bob måste därför ha dessa två uppgifter för att kunna dekryptera Alices betalningskods payload.
+Denna blindningsfaktor erhålls genom att tillämpa HMAC-SHA512 på två värden: x-koordinaten för en hemlig punkt och den förbrukade UTXO i transaktionsinmatningen. Bob måste därför ha dessa två informationsbitar för att dekryptera Alice:s betalningskods nyttolast.
 
 
 För inmatningen UTXO kan Bob helt enkelt hämta den genom att observera meddelandetransaktionen. För den hemliga punkten måste Bob använda ECDH.
 
 
-Som vi såg i avsnittet om Diffie-Hellman kan Alice och Bob hitta en specifik och hemlig punkt på den elliptiska kurvan genom att utbyta sina respektive publika nycklar och i hemlighet använda sina privata nycklar på den andres publika nyckel. Anmälningstransaktionen bygger på denna mekanism:
+Som framgår av avsnittet om Diffie-Hellman kan Alice och Bob hitta en specifik och hemlig punkt på den elliptiska kurvan genom att utbyta sina respektive offentliga nycklar och i hemlighet tillämpa sina privata nycklar på den andras offentliga nyckel. Anmälningstransaktionen förlitar sig på denna mekanism:
 
 
-Bobs nyckelpar: **B = b-G**
+Bob:s nyckelpar: **B = b-G**
 
 
-Alices nyckelpar: **A = a-G**
+Alice:s nyckelpar: **A = a-G**
 
 
 För en hemlig punkt S (x,y): **S = a-B = a-b-G = b-a-G = b-A**
@@ -901,7 +901,7 @@ För en hemlig punkt S (x,y): **S = a-B = a-b-G = b-a-G = b-A**
 
 ![Diagram of generating a shared secret with ECDHE](assets/19.webp)
 
-Nu när Bob känner till Alices betalningskod kan han upptäcka hennes BIP47-betalningar och härleda de privata nycklar som blockerar de mottagna bitcoins.
+Nu när Bob känner till Alice:s betalningskod kommer han att kunna upptäcka hennes BIP47-betalningar och härleda de privata nycklar som blockerar de mottagna bitcoins.
 
 ![Bob interprets Alice's notification transaction](assets/20.webp)
 
@@ -913,11 +913,11 @@ Om vi jämför det här diagrammet med det jag beskrev för dig tidigare:
 
 
 
-- "Wallet Pub-Key" på Alice sida motsvarar: A.
-- "Child Priv-Key 0" på Bobs sida motsvarar: b.
+- "Wallet Pub-Key" på Alice:s sida motsvarar: A.
+- "Child Priv-Key 0" på Bob:s sida motsvarar: b.
 - "Notification Shared Secret" motsvarar: f.
-- "Masked Payment Code" motsvarar Alices maskerade betalkod, dvs. med den krypterade betalningen: x' och c'.
-- "Anmälningstransaktion" är den transaktion som innehåller OP_RETURN.
+- "Maskerad betalkod" motsvarar Alice:s maskerade betalkod, d.v.s. med den krypterade nyttolasten: x' och c'.
+- "Aviseringstransaktion" är den transaktion som innehåller OP_RETURN.
 
 
 Låt mig sammanfatta de steg som vi just har sett tillsammans för att ta emot och tolka en aviseringstransaktion:
@@ -925,10 +925,10 @@ Låt mig sammanfatta de steg som vi just har sett tillsammans för att ta emot o
 
 
 - Bob övervakar transaktionsutgångar till sitt meddelande Address.
-- När han upptäcker en sådan hämtar han den information som finns i OP_RETURN.
+- När han upptäcker en sådan hämtar han informationen som finns i OP_RETURN.
 - Bob väljer den inmatade publika nyckeln och beräknar en hemlig punkt med hjälp av ECDH.
 - Han använder denna hemliga punkt för att beräkna en HMAC, som är den förblindande faktorn.
-- Han använder denna förblindande faktor för att dekryptera Alices betalningskod som finns i OP_RETURN.
+- Han använder denna förblindande faktor för att dekryptera Alice:s betalningskods nyttolast som finns i OP_RETURN.
 
 
 ### Betalningstransaktionen BIP47.
@@ -938,11 +938,11 @@ Låt oss nu studera betalningsprocessen med BIP47. För att påminna dig om det 
 
 
 
-- Alice känner till Bobs betalkod, som hon helt enkelt har hämtat från hans webbplats.
+- Alice känner till Bob:s betalkod, som hon helt enkelt hämtade från hans webbplats.
 
 
 
-- Bob känner till Alices betalkod tack vare meddelandetransaktionen.
+- Bob känner till Alice:s betalkod tack vare aviseringstransaktionen.
 
 
 
@@ -963,7 +963,7 @@ På nästa djup fördelas indexen enligt följande:
 
 
 
-- Normala nyckelpar används inom ECDH för generate BIP47 betalningsmottagande adresser, som vi kommer att se i detta avsnitt: m/47'/0'/0'/ från 0 till 2.147.483.647/.
+- Normala nyckelpar för barn används inom ECDH för generate BIP47 betalningsmottagande adresser, som vi kommer att se i detta avsnitt: m/47'/0'/0'/ från 0 till 2 147 483 647/.
 
 
 
@@ -976,19 +976,19 @@ Varje gång Alice vill skicka en betalning till Bob får hon en ny unik blank Ad
 
 
 
-- Alice väljer den första oanvända publika nyckeln som härrör från Bobs betalkod. Denna publika nyckel kallar vi "B". Den är kopplad till den privata nyckeln "b" som bara Bob känner till.
+- Alice väljer den första oanvända publika nyckeln som härrör från Bob:s betalkod. Denna publika nyckel kallar vi "B". Den är kopplad till den privata nyckeln "b" som endast Bob känner till.
 
 **B = b-G**
 
 
 
-- Alice beräknar en hemlig punkt "S" på den elliptiska kurvan genom att lägga till och fördubbla punkter och använder sin privata nyckel "a" till Bobs offentliga nyckel "B":
+- Alice beräknar en hemlig punkt "S" på den elliptiska kurvan genom att lägga till och dubbla punkter och använder sin privata nyckel "a" till Bob:s offentliga nyckel "B":
 
 **S = a-B**
 
 
 
-- Från denna hemliga punkt kommer Alice att beräkna den delade hemligheten "s" (gemener). För att göra detta väljer hon x-koordinaten för den hemliga punkten "S", kallad "Sx", och skickar detta värde till SHA256 Hash-funktionen.
+- Från denna hemliga punkt kommer Alice att beräkna den delade hemligheten "s" (gemener). För att göra detta väljer hon x-koordinaten för den hemliga punkten "S" som kallas "Sx", och hon skickar detta värde till SHA256 Hash-funktionen.
 
 **s = SHA256(Sx)**
 
@@ -997,20 +997,20 @@ Lita inte på någon. Verifiera! Om du vill förstå de grundläggande principer
 
 
 
-- Alice använder denna delade hemlighet "s" för att beräkna en Bitcoin-betalning som tar emot Address. Först kontrollerar hon att "s" ligger inom ordningen för secp256k1-kurvan. Om så inte är fallet ökar hon indexet för Bobs offentliga nyckel för att härleda en annan delad hemlighet.
+- Alice använder denna delade hemlighet "s" för att beräkna en Bitcoin-betalning som tar emot Address. Först kontrollerar hon att "s" ligger inom ordningen för secp256k1-kurvan. Om så inte är fallet ökar hon indexet för Bob:s offentliga nyckel för att härleda en annan delad hemlighet.
 
 
 
-- För det andra beräknar hon en publik nyckel "K0" genom att lägga till punkterna "B" och "s-G" på den elliptiska kurvan. Med andra ord lägger Alice till den offentliga nyckel som härrör från Bobs betalningskod "B" med en annan punkt som beräknas på den elliptiska kurvan genom att lägga till och dubbla punkter med den delade hemligheten "s" från generatorpunkten för secp256k1-kurvan "G". Denna nya punkt representerar en publik nyckel och vi kallar den "K0":
+- För det andra beräknar hon en publik nyckel "K0" genom att lägga till punkterna "B" och "s-G" på den elliptiska kurvan. Med andra ord lägger Alice till den offentliga nyckeln som härrör från Bob:s betalningskod "B" med en annan punkt som beräknas på den elliptiska kurvan genom att lägga till och dubbla punkter med den delade hemligheten "s" från generatorpunkten för secp256k1-kurvan "G". Denna nya punkt representerar en publik nyckel och vi kallar den "K0":
 
 **K0 = B + s-G**
 
 
 
-- Med denna publika nyckel "K0" kan Alice härleda en tom mottagande Address på ett standardiserat sätt (t.ex. SegWit V0 i Bech32).
+- Med denna publika nyckel "K0" kan Alice härleda en blank som tar emot Address på ett standardiserat sätt (t.ex. SegWit V0 i Bech32).
 
 
-När Alice har denna mottagande Address "K0" som tillhör Bob, kan hon konstruera en standard Bitcoin-transaktion genom att välja en UTXO som tillhör henne på en annan gren av hennes HD Wallet, och spendera den till Bobs "K0" Address.
+När Alice har denna mottagande Address "K0" som tillhör Bob, kan hon konstruera en standard Bitcoin-transaktion genom att välja en UTXO som tillhör henne på en annan gren av hennes HD Wallet, och spendera den till Bob:s "K0" Address.
 
 
 ![Alice sends bitcoins with BIP47 to Bob](assets/21.webp)
@@ -1022,8 +1022,8 @@ Om vi jämför det här diagrammet med det jag beskrev för dig tidigare:
 
 
 
-- "Child Priv-Key" på Alice sida motsvarar: a.
-- "Child Pub-Key 0" på Bobs sida motsvarar: B.
+- "Child Priv-Key" på Alice:s sida motsvarar: a.
+- "Child Pub-Key 0" på Bob:s sida motsvarar: B.
 - "Betalningshemlighet 0" motsvarar: s.
 - "Payment Pub-Key 0" motsvarar: K0.
 
@@ -1032,16 +1032,16 @@ Låt mig sammanfatta de steg vi just gick igenom tillsammans för att skicka en 
 
 
 
-- Alice väljer den först härledda privata nyckeln för barnet från sin personliga betalkod.
-- Hon beräknar en hemlig punkt på den elliptiska kurvan med hjälp av ECDH från den första oanvända offentliga nyckeln för barn som härleds från Bobs betalningskod.
+- Alice väljer den första härledda privata nyckeln för barn från sin personliga betalkod.
+- Hon beräknar en hemlig punkt på den elliptiska kurvan med hjälp av ECDH från den första oanvända härledda offentliga nyckeln för barn från Bob:s betalkod.
 - Hon använder denna hemliga punkt för att beräkna en delad hemlighet med SHA256.
 - Hon använder den delade hemligheten för att beräkna en ny hemlig punkt på den elliptiska kurvan.
-- Hon lägger till denna nya hemliga punkt till Bobs offentliga nyckel.
-- Hon får en ny efemär publik nyckel för vilken endast Bob har den tillhörande privata nyckeln.
-- Alice kan skicka en vanlig transaktion till Bob med den härledda efemära mottagningen Address.
+- Hon lägger till denna nya hemliga punkt till Bob:s offentliga nyckel.
+- Hon erhåller en ny efemär publik nyckel för vilken endast Bob har den tillhörande privata nyckeln.
+- Alice kan skicka en vanlig transaktion till Bob med den härledda efemära mottagaren Address.
 
 
-Om hon vill göra en andra betalning upprepar hon ovanstående steg, men väljer den andra härledda offentliga nyckeln från Bobs betalningskod. Det vill säga nästa oanvända nyckel. Hon kommer då att ha en andra mottagande Address som tillhör Bob, "K1".
+Om hon vill göra en andra betalning upprepar hon ovanstående steg, förutom att hon väljer den andra härledda publika nyckeln från Bob:s betalningskod. Det vill säga nästa oanvända nyckel. Hon kommer då att ha en andra mottagande Address som tillhör Bob, "K1".
 
 
 ![Alice derives three BIP47 receiving addresses for Bob](assets/22.webp)
@@ -1062,7 +1062,7 @@ https://blockstream.info/Testnet/tx/94b2e59510f2e1fa78411634c98a77bbb638e28fb2da
 txid: **94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254**
 
 
-Det ser ut som en vanlig transaktion med en inbetalning av pengar, en utbetalning av 210 000 Sats och växel.
+Det ser ut som en vanlig transaktion med en utbetald inbetalning, en utbetalning på 210 000 Sats och växel.
 
 
 ![Bitcoin payment transaction with BIP47](assets/23.webp)
@@ -1074,36 +1074,36 @@ Kredit: https://blockstream.info/
 ### Mottagande av BIP47-betalningen och härledning av den privata nyckeln.
 
 
-Alice har just gjort sin första betalning till en blank BIP47 Address som ägs av Bob. Låt oss nu se hur Bob tar emot denna betalning. Vi ska också se varför Alice inte har tillgång till den privata nyckeln till den Address som hon just genererade, och hur Bob hämtar denna nyckel för att spendera de bitcoins han just har fått.
+Alice har just gjort sin första betalning till en blank BIP47 Address som ägs av Bob. Låt oss nu se hur Bob tar emot denna betalning. Vi kommer också att se varför Alice inte har tillgång till den privata nyckeln till Address som hon just genererade, och hur Bob hämtar denna nyckel för att spendera de bitcoins han just har fått.
 
 
 Så snart Bob tar emot aviseringstransaktionen från Alice, härleder han BIP47:s publika nyckel "K0" redan innan hon skickar någon betalning till den. Han observerar därför alla betalningar till den associerade Address. Faktum är att han omedelbart härleder flera adresser som han kommer att observera (K0, K1, K2, K3...). Så här härleder han denna publika nyckel "K0":
 
 
 
-- Bob väljer den första privata nyckeln för barn som härrör från hans betalkod. Den här privata nyckeln kallas "b". Den är associerad med den publika nyckeln "B" som Alice använde i föregående steg: **b**
+- Bob väljer det första barnets privata nyckel som härrör från hans betalkod. Denna privata nyckel har namnet "b". Den är associerad med den offentliga nyckeln "B" som Alice använde i föregående steg: **b**
 
 
 
-- Bob väljer Alices första härledda offentliga nyckel från hennes betalningskod. Den här nyckeln kallas "A". Den är associerad med den privata nyckeln "a" som Alice använde i sina beräkningar och som endast Alice känner till. Bob kan utföra denna process eftersom han känner till Alices betalningskod som överfördes till honom i samband med meddelandetransaktionen.
+- Bob väljer Alice:s första härledda publika nyckel från hennes betalningskod. Denna nyckel har namnet "A". Den är associerad med den privata nyckeln "a" som Alice använde i sina beräkningar, och som endast Alice känner till. Bob kan utföra denna process eftersom han känner till Alice:s betalningskod som överfördes till honom med aviseringstransaktionen.
 
 **A = a-G**
 
 
 
-- Bob beräknar den hemliga punkten "S" genom att lägga till och fördubbla punkter på den elliptiska kurvan och använder sin privata nyckel "b" till Alices offentliga nyckel "A". Här använder vi ECDH, som garanterar att denna punkt "S" kommer att vara densamma för både Bob och Alice.
+- Bob beräknar den hemliga punkten "S" genom att lägga till och dubbla punkter på den elliptiska kurvan, genom att tillämpa sin privata nyckel "b" på Alice:s offentliga nyckel "A". Här använder vi ECDH, vilket garanterar att denna punkt "S" kommer att vara densamma för både Bob och Alice.
 
 **S = b-A**
 
 
 
-- Precis som Alice gjorde isolerar Bob x-koordinaten för denna punkt "S". Vi har döpt detta värde till "Sx". Han skickar detta värde genom SHA256-funktionen för att hitta den delade hemligheten "s" (gemener).
+- Precis som Alice gjorde, isolerar Bob x-koordinaten för denna punkt "S". Vi har döpt detta värde till "Sx". Han skickar detta värde genom SHA256-funktionen för att hitta den delade hemligheten "s" (gemener).
 
 **s = SHA256(Sx)**
 
 
 
-- På samma sätt som Alice beräknar Bob punkten "s-G" på den elliptiska kurvan. Sedan lägger han till denna hemliga punkt till sin publika nyckel "B". Han får då en ny punkt på ellipskurvan som han tolkar som en publik nyckel "K0":
+- På samma sätt som Alice beräknar Bob punkten "s-G" på den elliptiska kurvan. Sedan lägger han till denna hemliga punkt till sin publika nyckel "B". Han får då en ny punkt på den elliptiska kurvan som han tolkar som en publik nyckel "K0":
 
 **K0 = B + s-G**
 
@@ -1112,11 +1112,11 @@ När Bob har denna publika nyckel "K0" kan han härleda den tillhörande privata
 
 
 
-- Bob lägger till sin härledda privata nyckel "b" från sin personliga betalkod. Han är den enda som kan få fram värdet på "b". Sedan lägger han till "b" till den delade hemligheten "s" för att få k0, den privata nyckeln för K0: **k0 = b + s**
+- Bob lägger till sin härledda privata nyckel för barn "b" från sin personliga betalkod. Han är den enda som kan få fram värdet på "b". Sedan lägger han till "b" till den delade hemligheten "s" för att erhålla k0, den privata nyckeln för K0: **k0 = b + s**
 
 
 
-- Tack vare grupplagen för den elliptiska kurvan får Bob exakt den privata nyckel som motsvarar den publika nyckel som Alice använder. Så vi har: **K0 = k0-G**
+- Tack vare grupplagen för den elliptiska kurvan får Bob exakt den privata nyckel som motsvarar den publika nyckel som Alice använde. Så vi har: **K0 = k0-G**
 
 
 ![Bob generates his BIP47 receiving addresses](assets/24.webp)
@@ -1129,11 +1129,11 @@ Om vi jämför det här diagrammet med det jag beskrev för dig tidigare:
 
 
 
-- "Child Priv-Key 0" på Bobs sida motsvarar: b.
+- "Child Priv-Key 0" på Bob:s sida motsvarar: b.
 
 
 
-- "Child Pub-Key 0" på Alice sida motsvarar: A.
+- "Child Pub-Key 0" på Alice:s sida motsvarar..: A.
 
 
 
@@ -1152,11 +1152,11 @@ Låt mig sammanfatta de steg som vi just har sett tillsammans för att ta emot e
 
 
 
-- Bob väljer den första härledda privata nyckeln för barn från sin personliga betalkod.
+- Bob väljer den första härledda privata nyckeln för barn från sin personliga betalningskod.
 
 
 
-- Han beräknar en hemlig punkt på den elliptiska kurvan med hjälp av ECDH från den först härledda offentliga nyckeln för barn från Alices kedjekod.
+- Han beräknar en hemlig punkt på den elliptiska kurvan med hjälp av ECDH från det första härledda barnets offentliga nyckel från Alice:s chain code.
 
 
 
@@ -1172,14 +1172,14 @@ Låt mig sammanfatta de steg som vi just har sett tillsammans för att ta emot e
 
 
 
-- Han får en ny efemär publik nyckel, till vilken Alice skickar sin första betalning.
+- Han får en ny efemär publik nyckel, till vilken Alice kommer att skicka sin första betalning.
 
 
 
-- Bob beräknar den privata nyckeln som är associerad med denna efemära publika nyckel genom att lägga till sin härledda privata nyckel för barn från sin betalningskod och den delade hemligheten.
+- Bob beräknar den privata nyckel som är associerad med denna efemära publika nyckel genom att lägga till sin härledda privata nyckel för barn från sin betalkod och den delade hemligheten.
 
 
-Eftersom Alice inte kan få tag på "b", Bobs privata nyckel, kan hon inte heller bestämma k0, den privata nyckel som är kopplad till Bobs BIP47 som tar emot Address.
+Eftersom Alice inte kan få tag på "b", Bob:s privata nyckel, kan hon inte fastställa k0, den privata nyckel som är kopplad till Bob:s BIP47 som tar emot Address.
 
 
 Schematiskt kan vi beskriva beräkningen av den delade hemligheten "S" på följande sätt:
@@ -1188,7 +1188,7 @@ Schematiskt kan vi beskriva beräkningen av den delade hemligheten "S" på följ
 ![Calculation of the shared secret with ECDHE](assets/25.webp)
 
 
-När den delade hemligheten har hittats med ECDH beräknar Alice och Bob BIP47-betalningens publika nyckel "K0", och Bob beräknar också den tillhörande privata nyckeln "k0":
+När den delade hemligheten har hittats med ECDH beräknar Alice och Bob BIP47-betalningens publika nyckel "K0", och Bob beräknar även den tillhörande privata nyckeln "k0":
 
 
 ![Derivation of the BIP47 receiving address from the shared secret](assets/26.webp)
@@ -1197,9 +1197,9 @@ När den delade hemligheten har hittats med ECDH beräknar Alice och Bob BIP47-b
 ### Återbetalning av BIP47-betalningen.
 
 
-Eftersom Bob känner till Alices återanvändbara betalkod har han redan all information som behövs för att skicka en återbetalning till henne. Han behöver inte kontakta Alice för att be om någon information. Han kommer helt enkelt att meddela henne med en aviseringstransaktion, särskilt så att hon kan återställa sina BIP47-adresser med sin seed, och sedan kan han också skicka henne upp till 2^32 betalningar.
+Eftersom Bob känner till Alice:s återanvändbara betalkod har han redan all nödvändig information för att skicka en återbetalning till henne. Han behöver inte kontakta Alice för att be om någon information. Han kommer helt enkelt att meddela henne med en aviseringstransaktion, särskilt så att hon kan återställa sina BIP47-adresser med sin seed, och sedan kan han också skicka henne upp till 2^32 betalningar.
 
-Bob kan sedan återbetala Alice på samma sätt som hon skickade betalningar till honom. Rollerna är ombytta:
+Bob kan sedan ersätta Alice på samma sätt som hon skickade betalningar till honom. Rollerna är ombytta:
 
 
 ![Bob sends a refund to Alice with BIP47](assets/27.webp)
@@ -1220,7 +1220,7 @@ Genomförandet av denna BIP47 på Samourai Wallet har resulterat i PayNyms, iden
 Samourai-teamet håller gradvis på att utveckla ett helt ekosystem av verktyg och tjänster som baseras på användarens PayNym. Bland dessa finns uppenbarligen alla utgiftsverktyg som gör det möjligt att optimera användarens integritet genom att lägga till entropi till en transaktion och därmed lägga till trovärdig deniabilitet.
 
 
-Den kombinerade användningen av Soroban, det krypterade kommunikationsnätverket baserat på Tor, och PayNyms har i hög grad optimerat användarupplevelsen vid skapandet av samarbetstransaktioner, samtidigt som en god säkerhetsnivå upprätthålls. Det är således enkelt att genomföra Stowaway (PayJoin) och StonewallX2 transaktioner utan att manuellt genomföra de många utbyten av osignerade transaktioner som krävs för att skapa en sådan samarbetstransaktion.
+Den kombinerade användningen av Soroban, det krypterade kommunikationsnätverket baserat på Tor, och PayNyms har i hög grad optimerat användarupplevelsen när man bygger upp samarbetstransaktioner, samtidigt som en god säkerhetsnivå upprätthålls. Det är således enkelt att genomföra Stowaway (PayJoin) och StonewallX2 transaktioner utan att manuellt genomföra de många utbyten av osignerade transaktioner som krävs för att sätta upp en sådan samarbetstransaktion.
 
 
 Till skillnad från användningen av BIP47 räcker det med att koppla PayNyms för att använda dessa verktyg, eftersom dessa samarbetstransaktioner inte kräver någon aviseringstransaktion. Det finns inget behov av att ansluta dem.
@@ -1235,7 +1235,7 @@ Utöver dessa samarbeten har det nyligen uppmärksammats att Samourai-teamet arb
 ## Min personliga åsikt om BIP47.
 
 
-Uppenbarligen är den största nackdelen med BIP47 anmälningstransaktionen. Det leder till att användaren måste spendera avgifter för sin Mining, vilket kan vara irriterande för vissa. Men argumentet om "spam" på Bitcoin Blockchain är absolut oacceptabelt. Alla som betalar avgifterna för sin transaktion måste kunna registrera den på Ledger, oavsett dess syfte. Att hävda något annat är att förespråka censur.
+Uppenbarligen är den största nackdelen med BIP47 anmälningstransaktionen. Det leder till att användaren måste spendera avgifter för sin Mining, vilket kan vara irriterande för vissa. Men argumentet om "spam" på Bitcoin Blockchain är absolut oacceptabelt. Den som betalar avgifterna för sin transaktion måste kunna registrera den på Ledger, oavsett syfte. Att hävda något annat är att förespråka censur.
 
 
 Det är möjligt att det i framtiden kommer att finnas andra billigare lösningar för att förmedla avsändarens betalkod till mottagaren och för mottagaren att lagra den på ett säkert sätt. Men än så länge är aviseringstransaktionen den lösning som innebär minst kompromisser.
@@ -1253,10 +1253,10 @@ När det gäller användbarhet är betalningsförfarandet för BIP47 enkelt, tro
 När det gäller integritet är BIP47 mycket intressant. Som jag förklarade i avsnittet om aviseringstransaktionen avslöjar betalningskoden inte någon information om de härledda efemära adresserna. Den bryter därför informationsflödet mellan Bitcoin-transaktionen och mottagarens identifierare, till skillnad från den traditionella användningen av en mottagande Address.
 
 
-Och framför allt, PayNym-implementeringen av BIP47 fungerar! Den har varit tillgänglig på Samourai Wallet sedan 2016 och på Sparrow Wallet sedan början av det här året. Det är inte ett vetenskapligt projekt, utan en lösning som testades igår och som fungerar fullt ut idag.
+Och framför allt, PayNym-implementeringen av BIP47 fungerar! Den har varit tillgänglig på Samourai Wallet sedan 2016 och på Sparrow wallet sedan början av det här året. Det är inte ett vetenskapligt projekt, utan en lösning som testades igår och som fungerar fullt ut idag.
 
 
-Förhoppningsvis kommer dessa återanvändbara betalkoder i framtiden att antas av aktörer i ekosystemet, implementeras i Wallet-programvaran och användas av Bitcoinanvändare.
+Förhoppningsvis kommer dessa återanvändbara betalkoder i framtiden att antas av ekosystemets aktörer, implementeras i Wallet-programvara och användas av Bitcoinanvändare.
 
 
 Alla verkligt positiva lösningar för användarnas integritet måste debatteras, drivas på och försvaras, så att Bitcoin inte blir en lekplats för CA:er och ett övervakningsverktyg för regeringar.

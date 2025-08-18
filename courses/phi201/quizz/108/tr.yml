@@ -1,0 +1,9 @@
+question: Hayek'e göre sosyalizm ve Nazizm arasındaki bağlantı nedir?
+answer: Diğer tüm cevaplar (bireyciliği reddederler, grubun refahına öncelik verirler ve zorlama kullanırlar).
+wrong_answers:
+  - Bu iki ideoloji birbiriyle bağdaşmamaktadır.
+  - Sosyalizm ve Nazizm ekonomik konularda karşıttır.
+  - Sosyalizm ve Nazizm arasında hiçbir bağlantı yoktur.
+explanation: |
+  Hayek, sosyalizm ve Nazizmin, bireyciliğin kolektif lehine reddedilmesi ve zorlama kullanımı gibi ortak özellikleri paylaştığını ve bunun da onları otoriter etkileri bakımından benzer kıldığını ileri sürmüştür.
+reviewed: true

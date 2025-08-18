@@ -1,0 +1,9 @@
+question: Bir simetrik şifreleme şemasında anahtar üretim algoritmasının işlevi nedir?
+answer: Bir özel anahtar oluşturur
+wrong_answers:
+  - Bir açık anahtar oluşturur
+  - Mesajı kareler
+  - Mesajı şifreler
+explanation: |
+  Simetrik bir şifreleme şemasında, anahtar oluşturma algoritması daha sonra mesajları şifrelemek ve şifresini çözmek için kullanılacak olan özel bir anahtar üretir.
+reviewed: false

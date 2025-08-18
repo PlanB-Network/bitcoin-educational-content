@@ -1,0 +1,9 @@
+question: Vilken är den korrekta ordningsföljden i autentiserad kryptering?
+answer: Kryptera först och skapa sedan en tagg på den krypterade texten
+wrong_answers:
+  - Skapa först en tagg och kryptera sedan meddelandet och taggen
+  - Kombinera klartexten med en tagg och kryptera sedan
+  - Skapa en tagg och kryptera den sedan med en publik nyckel
+explanation: |
+  För att garantera säkerheten måste autentiserad kryptering först kryptera meddelandet och sedan generate en tagg på den krypterade texten. Andra order är potentiellt sårbara.
+reviewed: false

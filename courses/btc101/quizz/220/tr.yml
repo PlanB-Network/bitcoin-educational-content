@@ -1,0 +1,11 @@
+question: Bu kurs, Bitcoin hakkındaki öğrenme hızı hakkında ne öneriyor?
+answer: Her şeyi bir kerede özümsemek karmaşıktır, bu yüzden acele etmeyin.
+wrong_answers:
+  - Her şeyi bir kerede öğrenmek kolaydır.
+  - Bitcoin hakkında her şeyi öğrenmek mümkün değildir.
+  - Bitcoin hakkında her şeyi öğrenmek gereksizdir.
+explanation: |
+  Kurs, keşfedilecek çok şey olduğunu gösteriyor
+  Bitcoin'teki her şeyi özümsemenin karmaşık olduğunu
+  bir kez, bu yüzden acele etmemek gerekir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hoe beschermt het tijdslot tegen valsspelen bij Commitment transacties?
+answer: Het voorkomt dat de overtredende partij haar geld onmiddellijk kan terugvorderen
+wrong_answers:
+  - Het geld wordt automatisch terugbetaald aan de valsspeler
+  - Het annuleert de transactie in het geval van een poging tot bedrog
+  - Het blokkeert het gebruik van de revocatiesleutel
+explanation: |
+  Het tijdslot legt een vertraging op waarin de bedrieger zijn geld niet kan terughalen, waardoor de andere partij de kans krijgt om te reageren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir işlemde birleştirme nedir?
+answer: Bu, birden fazla UTXO'yu girdi olarak tüketme eylemidir.
+wrong_answers:
+  - Bu, çıkış olarak birden fazla UTXO oluşturma eylemidir.
+  - Birden fazla adresi tek bir adreste birleştirme eylemidir.
+  - Bu, Blockchain'da birden fazla bloğu birleştirme eylemidir.
+explanation: |
+  Kullanıcının göndermek istediği miktara eşit veya daha büyük herhangi bir UTXO'i olmadığında, çıkışları karşılamak için UTXO'larından birkaçını kullanması gerekir. Bu uygulamaya birleştirme denir.
+reviewed: false

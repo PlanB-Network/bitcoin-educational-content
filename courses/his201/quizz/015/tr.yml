@@ -1,0 +1,9 @@
+question: Adam Back tarafından tasarlanan Hashcash Proof of Work algoritmasının ilk amacı neydi?
+answer: İstenmeyen e-postalarla mücadele etmek için
+wrong_answers:
+  - Bir hesap biriminin değerini garanti altına almak için
+  - Eşler arası bir ağda fikir birliği sağlamak için
+  - Okyanusları kaynatmak için
+explanation: |
+  Hashcash, alınan her e-posta için bir Proof of Work gerektiriyordu ve bunun spam'i sınırlandırması gerekiyordu.
+reviewed: true

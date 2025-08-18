@@ -1,0 +1,15 @@
+question: Cantillon Etkisi nedir?
+answer: Cantillon Etkisi, yeni para yaratıldığında, başlangıçta paranın kaynağına en yakın olanlara, daha uzaktakilerin zararına fayda sağladığına dair ekonomik ilkeyi ifade eder.
+wrong_answers:
+  - Cantillon Etkisi, yeni para yaratıldığında bunun ekonomideki herkese eşit fayda sağladığına dair ekonomik ilkeyi ifade eder.
+  - Cantillon Etkisi, yeni para yaratıldığında, başlangıçta paranın kaynağından en uzakta olanlara, daha yakındakilerin zararına fayda sağladığına dair ekonomik ilkeyi ifade eder.
+  - Cantillon Etkisi, yeni para yaratıldığında bunun ekonomideki servet dağılımı üzerinde hiçbir etkisi olmadığı yönündeki ekonomik ilkeyi ifade eder.
+explanation: |
+  Cantillon Etkisi, adını 18. yüzyıl ekonomistinden alır
+  Richard Cantillon, yeni ürünlerin dağıtımının nasıl
+  bir ekonomide para, servet eşitsizliklerine yol açabilir. Şunlar
+  yeni paranın kaynağına en yakın olanlar (bankacılar ve
+  varlık sahipleri) ilk ve en önemli faydayı sağlarken
+  daha uzaktakiler (ortalama çalışanlar ve tasarruf sahipleri gibi)
+  enflasyon nedeniyle daha az fayda veya hatta olumsuz etkiler.
+reviewed: true

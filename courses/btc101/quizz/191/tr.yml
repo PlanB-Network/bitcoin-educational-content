@@ -1,0 +1,8 @@
+question: İşletmeniz için Bitcoin'ı kabul edecek bir çözüm seçerken göz önünde bulundurmanız gereken bir faktör nedir?
+answer: Beklenen işlem hacmi.
+wrong_answers:
+  - Logonuzun rengi.
+  - Çalışan sayısı.
+  - Genel merkezinizin konumu.
+explanation: >-
+reviewed: true

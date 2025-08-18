@@ -1,0 +1,9 @@
+question: Basit bir ödeme işleminde aynı Address bir girdide ve 2 çıktıdan birinde kullanılırsa, hangi çıktı muhtemelen değişikliği temsil eder?
+answer: Girişle aynı Address'e sahip olan.
+wrong_answers:
+  - En son Address'ye sahip olan.
+  - Girişten farklı bir Address'e sahip olan.
+  - Bilinmeyen bir Address ile olan.
+explanation: |
+  Aynı işlem içinde bir Address yeniden kullanımı meydana gelirse, kullanıcının hala ilişkili UTXO'ya sahip olduğunu varsaymak mantıklıdır. Bu nedenle, girdi ile aynı Address'e sahip çıktı muhtemelen değişikliktir.
+reviewed: false

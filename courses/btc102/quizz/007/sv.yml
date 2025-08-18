@@ -1,0 +1,9 @@
+question: Vad innebär 3-2-1-regeln när det gäller säkerhetskopiering av data?
+answer: 3 kopior på 2 olika medier, varav 1 lagras på annan plats
+wrong_answers:
+  - 3 exemplar på 2 onlinemedier och 1 fysisk enhet
+  - 3 media med 2 kopior, varav en på annan plats
+  - 3 kopior, varav 2 är krypterade och 1 lagras på annan plats
+explanation: |
+  Denna regel rekommenderar att man har 3 kopior av data på 2 olika typer av media, med 1 kopia lagrad på annan plats för större motståndskraft.
+reviewed: false

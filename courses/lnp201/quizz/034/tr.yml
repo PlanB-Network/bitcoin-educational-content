@@ -1,0 +1,9 @@
+question: Soğan yönlendirme ödemesini gerçekleştirmek için gönderen düğümün hangi bilgileri bilmesi gerekir?
+answer: Ağ topolojisi ve alıcıya giden tam rota
+wrong_answers:
+  - Sadece bir sonraki ara düğüm
+  - Her bir kanalın kapasitesi
+  - Yol üzerindeki her bir düğümün kriptografik imzası
+explanation: |
+  Gönderen düğüm, alıcıya giden rotayı hesaplamak için ağ topolojisini bilmelidir, böylece en iyi yolu seçebilir.
+reviewed: false

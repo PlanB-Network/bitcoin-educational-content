@@ -6,4 +6,4 @@ wrong_answers:
   - Diversifier les méthodes de stockage
 explanation: |
   Le principe "Pas vos clés, pas vos bitcoins" souligne l'importance de détenir soi-même ses clés privées. Sur une plateforme d'échange, vos bitcoins sont exposés à des risques inutiles.
-reviewed: false
+reviewed: true 

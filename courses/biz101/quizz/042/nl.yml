@@ -1,0 +1,9 @@
+question: Wat is in de meeste rechtsgebieden een belastbaar feit bij Bitcoin?
+answer: Het verkopen, verhandelen of gebruiken van Bitcoin als betaling leidt vaak tot een belastbaar feit.
+wrong_answers:
+  - Bitcoin gewoon voor onbepaalde tijd vasthouden zonder transacties.
+  - Een back-up maken van je Bitcoin Wallet of toetsen.
+  - De Bitcoin prijs online bekijken.
+explanation: |
+  Normaal gesproken vindt er een belastbaar feit plaats wanneer een bedrijf Bitcoin vervreemdt of gebruikt, niet alleen door het aan te houden. Elke verkoop of Exchange van Bitcoin voor goederen, diensten of fiatvaluta kan generate belastbare winst of verlies opleveren.
+reviewed: false

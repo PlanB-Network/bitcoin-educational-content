@@ -1,0 +1,9 @@
+question: Ocak 2009'da hangi İngiliz gazetesinin manşeti Bitcoin Genesis bloğunda yer almıştır?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Yazı aynen şöyleydi: The Times, 03/Jan/2009, Şansölye bankalar için ikinci kurtarma paketinin eşiğinde.
+reviewed: true

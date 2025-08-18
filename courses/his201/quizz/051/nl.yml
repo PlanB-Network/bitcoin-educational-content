@@ -1,0 +1,9 @@
+question: Welke kwetsbaarheid, gerapporteerd door ArtForz op 28 juli 2010, maakte het mogelijk om bitcoins uit te geven vanaf elke Address met behulp van een specifiek script?
+answer: De 1 RETURN-bug
+wrong_answers:
+  - De value overflow bug
+  - De OP_NOP bug
+  - De LSHIFT-bug
+explanation: |
+  De fout werd niet uitgebuit. Satoshi nam de fix snel op in de software en raadde alle gebruikers aan om te upgraden.
+reviewed: true

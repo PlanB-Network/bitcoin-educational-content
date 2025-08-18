@@ -1,0 +1,9 @@
+question: Hur banar RGB väg för DEX Layer-2?
+answer: Genom att möjliggöra Exchange av off-chain-tillgångar via Lightning-kanaler och atombyten
+wrong_answers:
+  - Genom att möjliggöra användning av en centraliserad Exchange för alla RGB-transaktioner
+  - Genom att möjliggöra Exchange av tillgångar via On-Chain smarta kontrakt
+  - Genom att möjliggöra inter-Blockchain tillgång Exchange via atombyten
+explanation: |
+  Möjligheten att genomföra atomära swappar och utbyten via Lightning-kanaler ger möjlighet att skapa decentraliserade DEX:er, utan nackdelarna med On-Chain-börser.
+reviewed: false

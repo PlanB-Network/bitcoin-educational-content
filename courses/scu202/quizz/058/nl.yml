@@ -1,0 +1,9 @@
+question: Welke rendering engine werd gebruikt door Internet Explorer vanaf versie 4 en domineerde de markt in de vroege jaren 2000?
+answer: Trident
+wrong_answers:
+  - Gekko
+  - WebKit
+  - Knipperen
+explanation: |
+  Trident, ontwikkeld door Microsoft, werd geïntroduceerd met Internet Explorer 4.0 in 1997 en domineerde het web tijdens de periode dat Internet Explorer virtueel een monopoliepositie innam.
+reviewed: false

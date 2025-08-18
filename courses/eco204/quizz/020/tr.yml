@@ -1,0 +1,11 @@
+question: Hiperenflasyonun en çok kabul gören tanımını kim önermiştir?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  Hiperenflasyonun en bilinen tanımı Philip Cagan'dan gelmektedir,
+  hiperenflasyonun niceliksel olarak anlaşılmasını öneren 1956 tarihli The
+  Hiperenflasyonun Parasal Dinamikleri.
+reviewed: false

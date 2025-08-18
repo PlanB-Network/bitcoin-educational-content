@@ -6,13 +6,13 @@ description: Configura tu VPN
 
 ![image](assets/cover.webp)
 
-LN VPN es un servicio VPN personalizado que solo acepta pagos con lightning. Hoy te mostraré cómo utilizarlo y dejar menos rastros cuando navegas por Internet.
+LN VPN es un servicio VPN personalizado que solo acepta pagos con lightning. Hoy te mostraremos cómo utilizarlo y dejar menos rastros cuando navegas por Internet.
 
 Existen muchos proveedores de servicios VPN de calidad, de hecho, hicimos una revisión exhaustiva en este artículo (hipervínculo), pero LN VPN se destaca y no podíamos dejar de presentártelo.
 
-La mayoría de los proveedores de servicios VPN como ProtonVPN y Mullvad ofrecen la opción de pagar con bitcoins, pero requieren la creación de una cuenta y la compra de un plan a largo plazo, lo cual no se ajusta necesariamente a todos los presupuestos.
+La mayoría de los proveedores de servicios VPN como ProtonVPN y Mullvad ofrecen la opción de pagar con Bitcoin, pero requieren la creación de una cuenta y la compra de un plan a largo plazo, lo cual no se ajusta necesariamente a todos los presupuestos.
 
-LN VPN permite utilizar un VPN personalizado por un período tan corto como una hora gracias a su implementación de pagos en bitcoins a través de la red lightning. Los pagos lightning son instantáneos y anónimos, abriendo un mundo de posibilidades en cuanto a micropagos.
+LN VPN permite utilizar un VPN personalizado por un período tan corto como una hora gracias a su implementación de pagos en Bitcoin a través de la red lightning. Los pagos lightning son instantáneos y anónimos, abriendo un mundo de posibilidades en cuanto a micropagos.
 
 > 💡 Esta guía describe cómo utilizar LN VPN desde un sistema Linux Ubuntu 22.04 LTS
 
@@ -57,7 +57,7 @@ Dirígete a tu carpeta de descargas, ya sea en una ventana de terminal o con el 
     $ sudo wg-quick up ~/Downloads/wg0.conf
 ```
 
-Voilà, ça y est! Le tunnel est activé!
+Y listo! El tunel está activo!
 
 ## Paso 3: Verificar
 
@@ -65,7 +65,7 @@ Utiliza un servicio en línea como "whatismyip" para verificar que tu dirección
 
 ## Paso 4: Desactivar
 
-Cuando el arrendamiento expire, deberás desactivar la conexión para volver a tener acceso a Internet. Luego podrás repetir los pasos 1 a 3 sin problemas cada vez que quieras establecer una conexión con LN VPN.
+Cuando el servicio expire, deberás desactivar la conexión para volver a tener acceso a Internet. Luego podrás repetir los pasos 1 a 3 sin problemas cada vez que quieras establecer una conexión con LN VPN.
 
 Para desactivar el túnel:
 

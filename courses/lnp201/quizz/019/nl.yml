@@ -1,0 +1,9 @@
+question: Wat garandeert het Commitment Transaction systeem aan deelnemers van een Lightning-kanaal?
+answer: Dat ieder zijn geld kan terugkrijgen door de laatst ondertekende transactie te publiceren
+wrong_answers:
+  - Dat transacties zichtbaar zijn op de Bitcoin Blockchain
+  - Dat de capaciteit van het kanaal toeneemt met elke transactie
+  - Dat de vergoedingen tussen de twee deelnemers worden gedeeld
+explanation: |
+  De ondertekende Commitment transacties zorgen ervoor dat elke deelnemer zijn geld terug kan krijgen door de laatste versie te publiceren in het geval dat het kanaal sluit.
+reviewed: false

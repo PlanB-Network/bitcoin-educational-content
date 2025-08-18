@@ -1,0 +1,8 @@
+question: Vilket bankinstitut är den yttersta konsekvensen av de val som gjordes 1789 och som Dupont de Nemours vände sig emot?
+answer: Banque de France
+wrong_answers:
+  - Sparbanken
+  - Crédit Agricole
+  - Europeiska centralbanken
+explanation: |
+  Banque de France är en följd av de val som gjordes 1789 och som Dupont de Nemours kritiserade för att leda till en överdriven centralisering av den finansiella makten och en överdriven statlig inblandning i ekonomin.

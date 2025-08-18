@@ -113,6 +113,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.13
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.52
 tags:
   - lightning
   - node

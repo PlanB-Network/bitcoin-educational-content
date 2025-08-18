@@ -1,0 +1,9 @@
+question: Jaká je hlavní úloha prostředí Linux?
+answer: Poskytnutí grafiky Interface
+wrong_answers:
+  - Správa spouštění systému
+  - Kompilace jádra systému Linux
+  - Ochrana proti virům
+explanation: |
+  Prostředí pracovní plochy sdružuje vizuální a interaktivní prvky Elements (okna, nabídky, ikony, panely atd.), které uživateli umožňují grafickou interakci se systémem.
+reviewed: false

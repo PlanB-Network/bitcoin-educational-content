@@ -1,0 +1,9 @@
+question: What is the main aim of introducing IPv6?
+answer: Virtually unlimited address space
+wrong_answers:
+  - Boost Ethernet throughput by a factor of 4
+  - Gradually replace TCP with UDP
+  - Reduce the number of bytes per packet
+explanation: |
+  IPv6's main aim is to resolve the shortage of IP addresses by massively expanding the address space.
+reviewed: false

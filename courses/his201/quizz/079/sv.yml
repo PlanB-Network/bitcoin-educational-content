@@ -1,0 +1,9 @@
+question: Vem skapade wikin Bitcoin.it i december 2010?
+answer: Mark Karpelès (MagicalTux)
+wrong_answers:
+  - Michael Marquardt (Theymos)
+  - Martti Malmi (sirius-m)
+  - Amir Taaki (genjix)
+explanation: |
+  Tanken [var](https: //buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) att utveckla en mindre formell och mer samhällsfokuserad wiki.
+reviewed: true

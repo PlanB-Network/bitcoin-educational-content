@@ -1,0 +1,9 @@
+question: Mikä järjestö perustettiin vuonna 1998 edistämään termiä "avoin lähdekoodi"?
+answer: Avoimen lähdekoodin aloite (OSI)
+wrong_answers:
+  - Free Software Foundation (FSF)
+  - Debian-projekti
+  - Mozilla-säätiö
+explanation: |
+  OSI luotiin korostamaan koodin avoimuuden käytännöllistä, teknistä puolta, joka eroaa vapaiden ohjelmistojen filosofiasta.
+reviewed: false

@@ -479,7 +479,7 @@ Jeśli chcesz tworzyć własne schematy, pamiętaj o przestrzeganiu wytycznych g
 
 
 
-- Czcionka**: Użyj [Rubik](https://fonts.google.com/specimen/Rubik);
+- Czcionka**: Użyj [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Kolory** :
  - Pomarańczowy: #FF5C00
  - Czarny : #000000

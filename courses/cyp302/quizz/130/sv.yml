@@ -1,0 +1,9 @@
+question: Vilken roll spelar certifikatutfärdare i processen för distribution av offentliga nycklar?
+answer: De utfärdar certifikat som garanterar autenticiteten hos publika nycklar
+wrong_answers:
+  - De generate privata nycklar för användare
+  - De lagrar offentliga nycklar för alla användare
+  - De säkerställer kryptering av meddelanden mellan användare
+explanation: |
+  Certifikatutfärdare utfärdar certifikat som kopplar en publik nyckel till dess ägare, vilket gör det möjligt för användare att verifiera äktheten hos de publika nycklar de använder.
+reviewed: false

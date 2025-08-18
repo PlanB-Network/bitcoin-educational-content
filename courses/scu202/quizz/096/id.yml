@@ -1,0 +1,9 @@
+question: Jenis protokol apa yang harus diaktifkan untuk mengenkripsi permintaan DNS pada skala jaringan lokal?
+answer: Departemen Kesehatan
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS melalui HTTPS) dan DoT (DNS melalui TLS) mengenkripsi permintaan DNS, sehingga tidak dapat disadap.
+reviewed: false

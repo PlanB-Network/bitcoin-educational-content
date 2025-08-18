@@ -5,13 +5,13 @@ description: Konfigurera en Ledger utan Ledger Live-programvara
 ![cover](assets/cover.webp)
 
 
-Om du använder en Ledger har du förmodligen upptäckt att du måste gå igenom Ledger Live-programvaran, åtminstone för den första enhetskonfigurationen, för att kontrollera dess äkthet och installera Bitcoin-applikationen på den. Efter denna konfiguration föredrar dock många bitcoiners att använda specialiserad Bitcoin Wallet-hanteringsprogramvara som Sparrow eller Liana snarare än Ledger Live. Även om Ledger producerar utmärkta hårdvaruplånböcker som snabbt inkluderar de senaste Bitcoin-funktionerna, är deras programvara inte nödvändigtvis anpassad till bitcoiners specifika behov. Ledger Live innehåller faktiskt många funktioner som är utformade för altcoins, medan alternativen som är dedikerade till Bitcoin Wallet-hantering är begränsade. Men problemet med Sparrow och Liana (för tillfället) är att de inte tillåter dig att installera Bitcoin-applikationen på Ledger.
+Om du använder en Ledger har du förmodligen upptäckt att du måste gå igenom Ledger Live-programvaran, åtminstone för den första enhetskonfigurationen, för att kontrollera dess äkthet och installera Bitcoin-applikationen på den. Efter denna konfiguration föredrar dock många bitcoiners att använda specialiserad Bitcoin Wallet-hanteringsprogramvara som Sparrow eller Liana snarare än Ledger Live. Även om Ledger producerar utmärkta hårdvaruplånböcker som snabbt inkluderar de senaste Bitcoin-funktionerna, är deras programvara inte nödvändigtvis anpassad till bitcoiners specifika behov. Ledger Live innehåller faktiskt många funktioner som är utformade för altcoins, medan alternativen för Bitcoin Wallet-hantering är begränsade. Men problemet med Sparrow och Liana (för tillfället) är att de inte tillåter dig att installera Bitcoin-applikationen på Ledger.
 
 
-För att kringgå behovet av att använda Ledger Live under den inledande konfigurationen av din Ledger, kan du använda Bacca-verktyget (eller "Ledger Installer"). Med den här programvaran kan du installera och uppdatera Bitcoin-applikationen, verifiera äktheten hos din Ledger och även senare uppdatera enhetens firmware. Bacca skapades av Antoine Poinsot (Darosior), Bitcoin Core-utvecklare på Chaincode Labs, medgrundare [av Revault och Liana] (https://wizardsardine.com/) och Pythcoiner.
+För att kringgå behovet av att använda Ledger Live under den inledande konfigurationen av din Ledger kan du använda Bacca-verktyget (eller "Ledger Installer"). Med den här programvaran kan du installera och uppdatera Bitcoin-applikationen, verifiera äktheten hos din Ledger och även senare uppdatera enhetens firmware. Bacca skapades av Antoine Poinsot (Darosior), Bitcoin Core-utvecklare på Chaincode Labs, medgrundare [av Revault och Liana] (https://wizardsardine.com/) och Pythcoiner.
 
 
-I den här handledningen visar jag dig hur du använder det här verktyget, så att du kan klara dig utan Ledger Live-programvaran för gott och fortfarande njuta av Ledger-enheter. Det fungerar på alla enheter: Nano S Classic, Nano S Plus, Nano X, Flex och Stax.
+I den här handledningen visar jag dig hur du använder det här verktyget, så att du kan klara dig utan Ledger Live-programvara för gott och fortfarande njuta av Ledger-enheter. Det fungerar på alla enheter: Nano S Classic, Nano S Plus, Nano X, Flex och Stax.
 
 
 ---
@@ -87,7 +87,7 @@ git --version
 ```
 
 
-Om Git inte är installerat på ditt system öppnas ett fönster där du erbjuds att installera Xcode, som innehåller Git. Följ bara instruktionerna på skärmen för att fortsätta med installationen.
+Om Git inte är installerat på ditt system öppnas ett fönster som erbjuder dig att installera Xcode, som innehåller Git. Följ bara instruktionerna på skärmen för att fortsätta med installationen.
 
 
 För att installera Rust kör du följande kommando:
@@ -131,10 +131,10 @@ Du har nu tillgång till programvaran Interface.
 ![BACCA](assets/fr/03.webp)
 
 
-## Konfigurering av Ledger
+## Konfigurera Ledger
 
 
-Innan du börjar, om din Ledger är ny, ska du se till att du har ställt in PIN-koden och sparat återställningsfrasen. Du behöver inte Ledger Live för dessa inledande steg. Anslut helt enkelt din Ledger via USB-kabeln för att driva den. Om du inte är säker på hur du ska gå vidare med dessa två steg kan du läsa början av den handledning som är specifik för din modell:
+Innan du börjar, om din Ledger är ny, se till att du har ställt in PIN-koden och sparat återställningsfrasen. Du behöver inte Ledger Live för dessa inledande steg. Anslut helt enkelt din Ledger via USB-kabeln för att driva den. Om du inte är säker på hur du ska gå vidare med dessa två steg kan du hänvisa till början av den handledning som är specifik för din modell:
 
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
@@ -146,7 +146,7 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 ## Använda Bacca
 
 
-Anslut din Ledger till din dator och lås upp den med den PIN-kod du har ställt in. Bacca bör automatiskt upptäcka din Ledger.
+Anslut din Ledger till din dator och lås upp den med den PIN-kod du har angett. Bacca bör automatiskt upptäcka din Ledger.
 
 
 ![BACCA](assets/fr/04.webp)
@@ -158,7 +158,7 @@ För att bekräfta att din Ledger är äkta klickar du på knappen "*Check*". Du
 ![BACCA](assets/fr/05.webp)
 
 
-Bacca kommer sedan att informera dig om din Ledger är äkta. Om den inte är det indikerar det antingen att enheten har äventyrats eller att den är en förfalskning. I så fall ska du omedelbart sluta använda den.
+Bacca kommer sedan att informera dig om din Ledger är äkta. Om den inte är det indikerar detta antingen att enheten har äventyrats eller att den är en förfalskning. I så fall ska du omedelbart sluta använda den.
 
 
 ![BACCA](assets/fr/06.webp)
@@ -182,7 +182,7 @@ Applikationen är väl installerad.
 ![BACCA](assets/fr/09.webp)
 
 
-Om du inte har den senaste versionen av Bitcoin-programmet installerat kommer Bacca att visa en "*Update*"-knapp istället för "*Latest*"-indikationen. Klicka bara på denna knapp för att uppdatera applikationen.
+Om du inte har den senaste versionen av Bitcoin-programmet installerat kommer Bacca att visa en "*Uppdatera*"-knapp istället för "*Senaste*"-indikationen. Klicka bara på denna knapp för att uppdatera applikationen.
 
 
 ![BACCA](assets/fr/10.webp)

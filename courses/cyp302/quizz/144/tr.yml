@@ -1,0 +1,9 @@
+question: RSA gibi modern kriptosistemlerde çarpanlara ayırmada kullanılan asal sayıların tipik boyutu nedir?
+answer: her faktör için 1024 bit
+wrong_answers:
+  - toplam 1024 bit
+  - her faktör için 256 bit
+  - toplam 256 bit
+explanation: |
+  RSA gibi modern kriptosistemlerde, seçilen asal sayıların her biri tipik olarak 1024 bittir, bu da çarpanlara ayırmayı son derece zorlaştırır ve güvenliği artırır.
+reviewed: false

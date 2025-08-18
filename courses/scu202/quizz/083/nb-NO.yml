@@ -1,0 +1,9 @@
+question: Hvilken meldingstjeneste lar deg registrere deg helt anonymt, uten telefonnummer eller permanent innlogging?
+answer: SimpleX Chat
+wrong_answers:
+  - Signal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat fjerner begrepet unik identifikator: Kontakter legges til via flyktige lenker eller QR-koder, og det kreves ingen personlige data.
+reviewed: false

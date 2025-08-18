@@ -1,0 +1,9 @@
+question: Ni nani aliyevumbua Mtandao Wote wa Ulimwenguni na kutengeneza kivinjari cha kwanza kabisa cha wavuti?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee ndiye mvumbuzi wa Mtandao Wote wa Ulimwenguni na alitengeneza kivinjari cha kwanza, WorldWideWeb (sasa ni Nexus), mnamo 1990.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Betalningsvägar som byggs ovanpå traditionella valutasystem är ?
+answer: Betalas i huvudsak av handlarna genom avgifter till betalningsleverantörerna
+wrong_answers:
+  - I princip gratis eftersom kunden betalar det pris som visas av handlaren
+  - Betalas av kunden utöver handlarens begärda pris
+  - Betalas av de kortföretag som säljer kundernas uppgifter vidare
+explanation: |
+  Ingenting är gratis. Betalningsvägarna i de traditionella valutasystemen drivs av olika leverantörer, t.ex. kortföretag och inlösande banker, som tar ut en fast avgift och/eller en procentuell avgift för varje transaktion
+reviewed: false

@@ -1,0 +1,10 @@
+question: Sekme tekniğinin ana hedefi nedir?
+answer: Bir Coin'ın geçmişinin izlerini bulanıklaştırmak için
+wrong_answers:
+  - İşlemlerin olası anonsunu artırmak için
+  - Bir işlemin entropisini artırmak için
+  - Gelecekte daha az işlem ücreti ödemek için
+explanation: |
+  Sekmenin amacı, bir Bitcoin Coin'ün Ownership'inin değişimini simüle etmek ve böylece geçmiş izlerini bulanıklaştırarak değiştirilebilirliğini yeniden sağlamaktır.
+  
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wat is het debat binnen de Bitcoin gemeenschap over Mining?
+answer: De balans tussen winst nastreven en bijdragen aan de veiligheid en distributie van het Bitcoin netwerk
+wrong_answers:
+  - De balans tussen het verhogen van Hashrate en het verlagen van het aantal actieve nodes
+  - De balans tussen het verhogen van de prijs en het verlagen van de kosten
+  - De balans tussen het verhogen van het aantal transacties en het verlagen van het energieverbruik
+explanation: |
+  Het debat binnen de Bitcoin gemeenschap over Mining
+  draait om de balans tussen winstbejag en
+  bijdragen aan de veiligheid en verspreiding van het
+  Bitcoin netwerk. Er zijn sterke argumenten aan beide kanten
+  van het debat.
+reviewed: true

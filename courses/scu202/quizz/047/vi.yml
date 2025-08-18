@@ -1,0 +1,9 @@
+question: Có thể sử dụng phần mềm đa nền tảng miễn phí nào để tạo tệp chứa được mã hóa có thể gắn kết như một đĩa ảo?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Đồng bộ hóa mọi thứ
+  - WinRAR
+explanation: |
+  VeraCrypt cho phép bạn tạo các vùng chứa được mã hóa có thể truy cập như các đĩa ảo trên tất cả các hệ điều hành chính.
+reviewed: false

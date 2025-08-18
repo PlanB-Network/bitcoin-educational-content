@@ -1,0 +1,10 @@
+description: |
+  IVPN är en integritetsfokuserad VPN-tjänst som inte loggar användaraktivitet och inte samlar in eller lagrar personuppgifter vid registrering. Vi accepterar betalningar i kontanter, Monero och Bitcoin. Vi är engagerade i transparens och säkerhet, med vår webbplats och alla IVPN-appar som öppen källkod.
+  
+  Våra servrar, inklusive e-post och livechatt, är självhostade och drivs av oss. Vi åtar oss att genomföra årliga oberoende säkerhetsrevisioner och vi använder oss inte av falsk marknadsföring, som att betala för recensioner eller lova anonymitet.
+  
+  Vi bidrar regelbundet till organisationer som EFF, Open Rights Group och Tor-projektet. Vår affärsmodell bygger enbart på betalda prenumerationer, utan några tilläggstjänster eller VPN-recensionssidor.
+  
+  Våra funktioner inkluderar ett val av WireGuard-, OpenVPN- eller IPSec-protokoll, AntiTracker som blockerar annonser och spårare, Killswitch/Firewall-alternativ, privata DNS servrar som inte loggar, multi-hop VPN-vägar, port vidarebefordran och Obfsproxy för att kringgå censur.
+  
+  Även om vi klargör att VPN inte kan uppnå anonymitet eller förhindra datainsamling av jättar som Google eller Facebook, försäkrar vi att ett pålitligt VPN som vårt effektivt kan kryptera dina data och DNS-förfrågningar, öka säkerheten på opålitliga offentliga nätverk, maskera din IP Address och kringgå censur eller geografiska block. Vi är en pålitlig del av din strategi för integritetsskydd, förutsatt att du litar mer på oss än på din internetleverantör.

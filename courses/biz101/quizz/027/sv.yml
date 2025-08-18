@@ -1,0 +1,9 @@
+question: Vad är en föreslagen praxis avseende vårdnad vid förvärv av Bitcoin?
+answer: Överväg lösningar för självförvaring efter de första inköpen, så att företaget verkligen kontrollerar sina tillgångar.
+wrong_answers:
+  - Dra aldrig ut Bitcoin från Exchange under några omständigheter.
+  - Lita alltid på ett enda förvaringsinstitut utan att se över säkerhetsåtgärderna.
+  - Lagra alla Bitcoin på en publik webbplats med ett enkelt lösenord
+explanation: |
+  När Bitcoin har köpts och flyttats till en Wallet med egen förvaring säkerställer det att företaget har direkt kontroll över sina medel. Även om tredjepartsförvarare kan vara praktiska, överensstämmer självförvar med Bitcoin:s princip om finansiell suveränitet.
+reviewed: false

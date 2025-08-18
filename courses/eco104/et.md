@@ -484,7 +484,7 @@ Enne Bitcoini loomist panid käputäis visionääre aluse Bitcoinile, kuna nad k
 
 #### Küberturvalisuse entusiastid
 
-Küberturvalisuse entusiastid on rühm tehnikahuvilisi mässajaid, kes tulid 70ndatel kokku, et võidelda individuaalse vabaduse ja kodanikuõiguste eest kasutades üht võimsat tööriista: krüptograafiat. Nad uskusid, et informatsiooni krüpteerimise võime annab inimestele võimu võtta tagasi kontroll tsentraliseeritud autoriteetidelt. Kujutage ette, et saaksite hoida oma veebikommunikatsiooni privaatsena ja turvalisena uudishimulike silmade eest - see oli nende võitlus!
+Küberturvalisuse entusiastid on rühm tehnikahuvilisi mässajaid, kes tulid 80ndatel kokku, et võidelda individuaalse vabaduse ja kodanikuõiguste eest kasutades üht võimsat tööriista: krüptograafiat. Nad uskusid, et informatsiooni krüpteerimise võime annab inimestele võimu võtta tagasi kontroll tsentraliseeritud autoriteetidelt. Kujutage ette, et saaksite hoida oma veebikommunikatsiooni privaatsena ja turvalisena uudishimulike silmade eest - see oli nende võitlus!
 
 Üks küberturvalisuse entusiastide märkimisväärseid saavutusi oli küberturvalisuse entusiastide meililisti loomine 1992. aastal. Meililisti kaudu said inimesed jagada ideid ja arutada krüptograafilisi tehnoloogiaid, digitaalse valuuta kontseptsioone ja privaatsusele keskendunud algatusi. See viis mõttekaaslaste kogukonna moodustumiseni, sealhulgas arendajate, aktivistide ja teadlaste hulgas.
 

@@ -1,0 +1,13 @@
+question: Bitcoin ağına yapılan %51'lik bir saldırıda ne olur?
+answer: Bir aracı Hashrate'nin yarısından fazlasına sahiptir ve Blockchain'i değiştirmeye çalışabilir.
+wrong_answers:
+  - Bir aracı, dolaşımdaki bitcoinlerin yarısından fazlası üzerinde kontrol sahibi olur.
+  - Bir aracı, Bitcoin ağındaki düğümlerin yarısından fazlası üzerinde kontrol sahibi olur.
+  - Bir temsilci Bitcoin'teki Mining havuzlarının yarısından fazlası üzerinde kontrol sahibi olur
+explanation: |
+  51'lik bir saldırıda, saldırganın yarısından fazlasına sahip bir ajan
+  gW-7 ağı potansiyel olarak
+  Alternatif bir blok zinciri oluşturarak Blockchain.
+  Ancak, böyle bir saldırı son derece maliyetli olacaktır ve
+  kârlı olma ihtimali düşüktür, bu da bunu olası bir senaryo haline getirmektedir.
+reviewed: true

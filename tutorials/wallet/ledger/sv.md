@@ -7,6 +7,12 @@ description: Så här ställer du in din Ledger Nano S-enhet
 ![image](assets/cover.webp)
 
 
+*Ledger har meddelat att mjukvarustödet för den klassiska Nano S upphör från och med den 25 juni 2025: den här enheten kommer inte längre att få säkerhetsuppdateringar eller vara kompatibel med nya funktioner, vilket utsätter dess användare för potentiella sårbarheter och framtida inkompatibilitet. Pengar förblir dock tillgängliga via återställningsfrasen, men det rekommenderas starkt att migrera till en nyare modell för att säkerställa säkerheten och den långsiktiga tillgängligheten för dina bitcoins. Observera att detta gäller den **gamla Nano S**, inte den **Nano S Plus**, som kommer att fortsätta att stödjas.*
+
+
+___
+
+
 Cold fysisk Wallet - €60 - Nybörjare - För att säkra €2 000 till €50 000
 
 
@@ -28,7 +34,7 @@ Se till att du går igenom den andra delen "Använda Bitcoin hårdvaruplånböck
 ## Konfigurera enheten
 
 
-Ledger levereras med en egen USB-kabel. Se till att du använder den och inte vilken kabel som helst. Vissa USB-kablar är endast strömförsörjda. Den här överför data OCH ström. När jag har använt enheten med en USB-kabel för telefonladdning som ligger och skräpar har enheten inte kunnat anslutas.
+Ledger levereras med en egen USB-kabel. Se till att du använder den och inte vilken kabel som helst. Vissa USB-kablar är endast strömförsörjda. Den här överför data OCH ström. När jag har använt enheten med en USB-kabel för telefonladdning som ligger och skräpar har enheten inte kunnat ansluta.
 
 
 Anslut den till din dator och enheten slås på.
@@ -45,7 +51,7 @@ Bläddra igenom alternativen. Du kommer att se
 2. Återställ från återställningsfras
 
 
-I grund och botten frågar den om du vill att enheten ska skapa en seed åt dig eller om du redan har en som du vill använda. Det är bästa praxis att skapa din egen seed, men att göra det på ett säkert sätt är mycket avancerat och utanför ramen för den här artikeln. Välj "Ställ in som ny enhet"
+I grund och botten frågar den om du vill att enheten ska skapa en seed åt dig eller om du redan har en som du vill använda. Det är bästa praxis att skapa din egen seed, men att göra det på ett säkert sätt är mycket avancerat och ligger utanför ramen för den här artikeln. Välj "Ställ in som ny enhet"
 
 
 Du kommer sedan att bli ombedd att välja en PIN-kod. Detta är inte en del av din Bitcoin seed och är endast specifikt för denna enhet. Den låser enheten.
@@ -122,7 +128,7 @@ Helst vill du bli extra snygg och se till att hasharna som publiceras inte är f
 ## Anslut till Ledger Live
 
 
-Innan du kör Ledger Live hjälper det integriteten lite att slå på ett VPN. Ledger kommer fortfarande att få alla dina adresser, men de kommer inte att känna till din IP Address, vilket ger bort ditt hem Address. Mullvad VPN är en utmärkt VPN-tjänst och det är inte särskilt dyrt (jag annonserar inte, det är bara vad jag använder).
+Innan du kör Ledger Live hjälper det integriteten lite att slå på ett VPN. Ledger kommer fortfarande att få alla dina adresser, men de kommer inte att känna till din IP Address, vilket avslöjar ditt hem Address. Mullvad VPN är en utmärkt VPN-tjänst och det är inte särskilt dyrt (jag annonserar inte, det är bara vad jag använder).
 
 
 Installera programvaran på din dator och kör den.
@@ -149,7 +155,7 @@ Efter många steg och en frågesport kommer den att kontrollera att enheten är 
 ![image](assets/9.webp)
 
 
-Det fanns lite shitcoin-reklam förklädd som "release notes" i nästa popup. Avfärda det, och sedan bör du komma till den här skärmen.
+Det fanns lite shitcoin-reklam förklädd som "release notes" i nästa popup. Avfärda det, och sedan ska du komma till den här skärmen.
 
 
 ![image](assets/10.webp)
@@ -184,7 +190,7 @@ Du kan stänga av Ledger Live nu.
 Nu när vi har Bitcoin-appen kan vi lägga till en passphrase till vår seed-fras. Vi kunde inte göra det tidigare när seed först skapades eftersom vi i början inte hade Bitcoin-appen, och vi behövde ansluta till Ledger Live för att få den.
 
 
-Gå till menyn "Inställningar" i enheten och sedan till undermenyn "Säkerhet". Välj sedan passphrase. Du kommer att se "Avancerad funktion". Klicka på högerknappen, du kommer att se "read manuel..." och sedan efter ett högerklick kommer du att se "back". Men det är inte slutet. Intuitivt skulle man kunna tro det, men klicka på högerknappen igen. Du kommer att se "set up passphrase".
+Gå till menyn "Inställningar" i enheten och sedan till undermenyn "Säkerhet". Välj sedan passphrase. Du kommer att se "Avancerad funktion". Klicka på högerknappen, du kommer att se "läs manual..." och sedan efter ett högerklick kommer du att se "tillbaka". Men det är inte slutet. Intuitivt skulle man kunna tro det, men klicka på högerknappen igen. Du kommer att se "set up passphrase".
 
 
 Du kan välja att "bifoga till PIN-koden" eller "ställa in temporärt". Jag rekommenderar att du "kopplar till PIN-koden". På så sätt kan du komma åt olika plånböcker beroende på vilken PIN-kod du anger när du först slår på enheten. Om du "ställer in temporärt" måste du ange passphrase varje gång du vill komma åt Wallet, men det är alltid från standard-PIN-koden.
@@ -202,7 +208,7 @@ Du kan nu gå tillbaka till huvudmenyn genom att välja alternativet Tillbaka n�
 ## Tittar på Wallet
 
 
-I tidigare artiklar har jag förklarat hur du laddar ner och verifierar Sparrow Wallet, och hur du ansluter den till din egen nod eller en publik nod. Du bör följa dessa guider:
+I tidigare artiklar har jag förklarat hur du laddar ner och verifierar Sparrow wallet, och hur du ansluter den till din egen nod eller en offentlig nod. Du bör följa dessa guider:
 
 
 
@@ -210,7 +216,7 @@ I tidigare artiklar har jag förklarat hur du laddar ner och verifierar Sparrow 
 
 
 
-- Installera Sparrow Bitcoin Wallet (https://armantheparman.com/download-sparrow/)
+- Installera Sparrow Bitcoin Wallet (https://armantheparman.com/download-Sparrow/)
 
 
 
@@ -235,7 +241,7 @@ Döp det till något vackert
 ![image](assets/15.webp)
 
 
-Lägg märke till kryssrutan "Har befintlig transaktion". Om detta är en Wallet som du har använt tidigare ska du markera denna annars kommer ditt saldo felaktigt att visas som noll. Om du markerar den här rutan ber Sparrow att undersöka Bitcoin Core's databas (Blockchain) för tidigare transaktioner. I den här guiden använder vi en helt ny Wallet, så du kan låta rutan vara omarkerad.
+Lägg märke till kryssrutan "Har befintlig transaktion". Om detta är en Wallet som du har använt tidigare ska du markera denna annars kommer ditt saldo felaktigt att visas som noll. Om du markerar den här rutan ber du Sparrow att undersöka Bitcoin Core's databas (Blockchain) för tidigare transaktioner. I den här guiden använder vi en helt ny Wallet, så du kan lämna rutan omarkerad.
 
 
 ![image](assets/16.webp)
@@ -259,7 +265,7 @@ Det finns inget att redigera på nästa skärm, Ledger har fyllt i det åt dig. 
 ![image](assets/19.webp)
 
 
-På nästa skärm kan du lägga till ett lösenord. Förväxla inte detta med "passphrase"; många människor gör det. Namngivningen är olycklig. Lösenordet gör att du kan låsa denna Wallet på din dator. Det är specifikt för den här programvaran på den här datorn. Det är inte en del av din privata nyckel för Bitcoin.
+På nästa skärm kan du lägga till ett lösenord. Förväxla inte detta med "passphrase"; många människor kommer att göra det. Namngivningen är olycklig. Lösenordet gör att du kan låsa denna Wallet på din dator. Det är specifikt för den här programvaran på den här datorn. Det är inte en del av din Bitcoin privata nyckel.
 
 
 ![image](assets/20.webp)
@@ -274,13 +280,13 @@ Efter en paus, medan datorn tänker, kommer du att se att knapparna till vänste
 ## Mottagning
 
 
-För att få några Bitcoin går du till fliken Adresser till vänster och väljer en av adresserna att ta emot. Högerklicka bara på den Address du vill ha och välj "kopiera Address". Gå sedan till din Exchange där pengarna skickas från och klistra in den där. Eller så kan du ge Address:an till en kund som kan använda den för att betala dig.
+För att ta emot några Bitcoin går du till fliken Adresser till vänster och väljer en av adresserna att ta emot. Högerklicka bara på den Address du vill ha och välj "kopiera Address". Gå sedan till din Exchange där pengarna skickas från och klistra in den där. Eller så kan du ge Address:an till en kund som kan använda den för att betala dig.
 
 
-När du använder Wallet för första gången bör du få en mycket liten mängd, öva på att spendera den till en annan Address, antingen inom Wallet eller tillbaka till Exchange, för att bevisa att Wallet fungerar som förväntat.
+När du använder Wallet för första gången bör du få en mycket liten summa, öva på att spendera den till en annan Address, antingen inom Wallet eller tillbaka till Exchange, för att bevisa att Wallet fungerar som förväntat.
 
 
-När du har gjort det måste du säkerhetskopiera de ord du har skrivit ner. En enda kopia är inte tillräckligt. Ha minst två papperskopior (metall är bättre) och förvara dem på två olika, väl skyddade, platser. Detta minskar risken för att en naturkatastrof förstör din HWW och din pappersbackup i en och samma händelse. Se "Använda Bitcoin hårdvaruplånböcker" för en fullständig diskussion om detta.
+När du har gjort det måste du säkerhetskopiera de ord du har skrivit ner. En enda kopia är inte tillräckligt. Ha minst två papperskopior (metall är bättre) och förvara dem på två olika, väl skyddade, platser. Detta minskar risken för att en naturkatastrof förstör din HWW och pappersbackup i en och samma händelse. Se "Använda Bitcoin hårdvaruplånböcker" för en fullständig diskussion om detta.
 
 
 ## Sändning
@@ -307,7 +313,7 @@ För att uppdatera den fasta programvaran måste du ansluta till Ledger Live. Om
 ## Slutsats
 
 
-Den här artikeln visade dig hur du använder en Ledger HWW på ett säkrare och mer privat sätt än vad som annonserats - men den här artikeln räcker inte ensam. Som jag sa i början bör du kombinera den med den information som finns i "Använda Bitcoin hårdvaruplånböcker".
+Den här artikeln visade dig hur du använder en Ledger HWW på ett säkrare och mer privat sätt än vad som annonserats - men den här artikeln är inte tillräcklig. Som jag sa i början bör du kombinera den med informationen i "Använda hårdvaruplånböcker av typen Bitcoin".
 
 Tips:
 

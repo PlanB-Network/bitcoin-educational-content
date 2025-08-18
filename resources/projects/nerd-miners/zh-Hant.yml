@@ -1,0 +1,3 @@
+description: |
+  NerdMiner 是專門用於 Bitcoin Mining 的教育娛樂工具，以 ESP-32 S3 板為基礎。雖然它沒有專業 ASIC 的功能，但它能讓使用者具體瞭解 Mining 的運作方式，耗電量僅為 0.5 W。與 Mining pool 連接後，它可以提供最小的機會來開採一個區塊，同時在其整合式螢幕上顯示統計資料。是發燒友和好奇者的理想選擇。
+  

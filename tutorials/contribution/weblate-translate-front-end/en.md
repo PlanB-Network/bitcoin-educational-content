@@ -12,7 +12,7 @@ In this tutorial, we will show you how to easily contribute to the translation o
 
 To translate the educational content, we use [artificial intelligence](https://github.com/Asi0Flammeus/LLM-Translator). Then, to correct the eventual mistakes in these files, we invite proofreaders to contribute. If you wish to proofread some content, consult the following tutorial:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 On the other hand, if you are interested in translating the static elements of the website (excluding educational content), you are in the right place! To effectively translate the frontend, we use the Weblate tool, which is very simple to use and facilitates the approach to translation.
 
@@ -89,4 +89,5 @@ When you are ready to start translating, come back to this tutorial and go throu
 ![weblate](assets/23.webp)
 
 Thank you in advance for your contribution to the translation of Plan ₿ Network! If you have any specific questions or comments for us, feel free to contact us via the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder).
+
 

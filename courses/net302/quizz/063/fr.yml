@@ -1,0 +1,9 @@
+question: Quel est le principal objectif de l’introduction d’IPv6 ?
+answer: Offrir un espace d’adressage quasi illimité
+wrong_answers:
+  - Accélérer le débit Ethernet par un facteur 4
+  - Remplacer progressivement TCP par UDP
+  - Réduire le nombre d’octets par paquet
+explanation: |
+  IPv6 vise principalement à résoudre la pénurie d’adresses IP en élargissant massivement l’espace d’adressage.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vilken idé har kallats Montaignes sofism?
+answer: Exchange är ett nollsummespel
+wrong_answers:
+  - Exchange är ett spel med positiv summa
+  - Beroende på tid och plats är Exchange ibland ett nollsummespel, ibland ett plussummespel
+  - Exchange är alltid ofördelaktigt för det svagare partiet
+explanation: |
+  Montaignes felslut är tanken att Exchange är ett nollsummespel, dvs. det som den ena vinner förlorar den andra. Denna idé är falsk, eftersom frivillig Exchange är ömsesidigt fördelaktig.

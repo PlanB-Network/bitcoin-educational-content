@@ -1,0 +1,12 @@
+question: Dolarizasyonun sonuçlarından biri nedir?
+answer: Özerk para politikasının kaybı
+wrong_answers:
+  - Enflasyondaki artış
+  - Para artışı Supply
+  - Kamu güveninde azalma
+explanation: |
+  Dolarizasyon hiperenflasyonu sona erdirebilir, ancak başka ekonomik sorunlar da ortaya çıkarır
+  zorluklarla karşı karşıyadır. Bunun sonuçlarından biri de özerk para politikasının kaybedilmesidir. Olmadan
+  kendi para birimine sahip olan bir ülke, para politikasını iç gelişmelere cevap verecek şekilde ayarlayamaz
+  ekonomik şoklar.
+reviewed: false

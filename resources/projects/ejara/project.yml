@@ -1,0 +1,31 @@
+id: 73dcae97-0105-49e5-9516-6a7ff1866ad8
+
+name: Ejara
+
+address_line_1: Douala, Cameroon
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://ejara.io/
+  twitter: https://x.com/EjaraApp
+  Github: 
+  youtube: 
+
+category: exchange
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - bitcoin
+  - investment
+
+contributor_names:
+  - Gloirew

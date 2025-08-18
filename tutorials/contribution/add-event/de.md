@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Paris, Frankreich
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Konferenz 2024
-builder: Paris Bitcoin Konferenz
+project: Paris Bitcoin Konferenz
 type: conference
 book_online: false
 book_in_person: false
@@ -81,7 +81,7 @@ tags:
   - International
 ```
 ![event](assets/09.webp)
-Wenn Sie noch keinen "*builder*" Identifikator für Ihre Organisation haben, können Sie diesen durch Befolgen dieses anderen Tutorials hinzufügen.
+Wenn Sie noch keinen "*project*" Identifikator für Ihre Organisation haben, können Sie diesen durch Befolgen dieses anderen Tutorials hinzufügen.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -146,4 +146,5 @@ Herzlichen Glückwunsch! Ihr PR wurde erfolgreich erstellt. Ein Administrator wi
 Vergewissern Sie sich, den Fortschritt Ihres PR zu verfolgen. Ein Administrator könnte einen Kommentar hinterlassen, der nach zusätzlichen Informationen fragt. Solange Ihr PR nicht validiert ist, können Sie ihn im `Pull requests`-Tab im GitHub-Repository des PlanB Network einsehen:
 ![event](assets/38.webp)
 Vielen Dank für Ihren wertvollen Beitrag! :)
+
 

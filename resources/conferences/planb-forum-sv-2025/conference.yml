@@ -1,0 +1,24 @@
+id: ecf0f395-b00a-4a3b-bd03-be4e9a421bae
+year: 2025-10
+name: Plan ₿ Forum El Salvador 2025
+location: San Salvador, El Salvador
+test_only: true
+language:
+  - en
+  - es
+links:
+  twitter: https://x.com/PlanBElsalvador
+  website: https://planb.sv/
+project_id: 839be5ad-132d-469e-8ba6-143b56987461
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2025-06-14"
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05
+tags:
+  - adoption
+  - decentralization
+  - privacy

@@ -1,0 +1,9 @@
+question: Fidye yazılımı nedir?
+answer: Kullanıcı verilerini şifreleyen ve şifresini çözmek için fidye talep eden bir tür kötü amaçlı yazılım.
+wrong_answers:
+  - Tek seferlik bir ücret ödenmesi halinde bilgisayar önbelleğini ve çerezleri temizleyebilen bir tür antivirüs yazılımı.
+  - Veri kurtarma için kullanılan bir yazılım türüdür ve günümüzde Avrupa'da oldukça yaygın hale gelmektedir.
+  - Veri yedekleme için kullanılan ve genellikle her 7 günde bir yedekleme yapan bir yazılım türüdür.
+explanation: |
+  Fidye yazılımı, kullanıcı verilerini şifreleyen ve şifresini çözmek için fidye talep eden kötü amaçlı bir yazılım türüdür. Giderek yaygınlaşmaktadır ve bir şirket veya birey için çok zahmetli olabilir.
+reviewed: true

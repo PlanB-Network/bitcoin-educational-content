@@ -1,9 +1,9 @@
-question: ¿Qué tecnología puede utilizarse para fusionar distintas versiones del alijo en caso de discrepancia?
+question: ¿Qué tecnología puede utilizarse para fusionar distintas versiones del stash en caso de discrepancia?
 answer: CRDT
 wrong_answers:
   - HTLC
-  - Precinto de un solo uso
-  - Replicación basada en registros
+  - Single-use seal
+  - Log-Based Replication
 explanation: |
   Los CRDT garantizan la coherencia de los datos, ya que permiten fusionar varias versiones del almacén sin que se produzcan conflictos en el lado del cliente.
 reviewed: false

@@ -1,0 +1,9 @@
+question: 哪个组织成立于 1998 年，旨在推广 "开放源代码 "一词？
+answer: 开放源码倡议（OSI）
+wrong_answers:
+  - 自由软件基金会（FSF）
+  - Debian 项目
+  - Mozilla 基金会
+explanation: |
+  OSI 的创立是为了强调代码开放的实用性和技术性，有别于自由软件理念。
+reviewed: false

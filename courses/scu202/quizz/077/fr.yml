@@ -1,0 +1,9 @@
+question: À quoi sert l’application Shelter sous Android ?
+answer: Créer un profil isolé pour cloisonner les usages
+wrong_answers:
+  - Chiffrer automatiquement toutes les données du téléphone
+  - Bloquer les appels indésirables
+  - Installer des applications en dehors du Play Store
+explanation: |
+  Shelter permet d’utiliser la fonction Work Profile pour séparer des applications et données dans un espace isolé.
+reviewed: false

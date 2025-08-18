@@ -1,0 +1,9 @@
+question: JBOK cüzdanlarının ana sınırlaması nedir?
+answer: Her özel anahtar için bağımsız bir yedekleme gerektirirler
+wrong_answers:
+  - Yeni adreslerin oluşturulmasına izin vermezler
+  - Dijital imzalarla uyumsuzdurlar
+  - Sıkıştırılmamış açık anahtarlar kullanırlar
+explanation: |
+  JBOK cüzdanları, kullanıcıyı her bir özel anahtarı ayrı ayrı yedeklemeye zorlayarak yönetimlerini zorlaştırır.
+reviewed: false

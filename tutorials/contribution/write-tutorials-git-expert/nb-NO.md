@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Bruk kun egenproduserte eller royaltyfrie bilder.
     - Sørg for at de er relevante og av høy kvalitet.
 - Grafisk charter** :
-    - Skrifttype: [Rubik] (https://fonts.google.com/specimen/Rubik).
+    - Skrifttype: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farger Plan ₿ Nettverk :
         - Oransje: `#FF5C00`
         - Svart: `#000000`

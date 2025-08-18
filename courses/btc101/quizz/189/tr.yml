@@ -1,0 +1,8 @@
+question: gW-0 Bizans Generalleri Sorununu nasıl çözer?
+answer: Değişken zorluk derecesine sahip Proof of Work'e dayalı bir Blockchain kullanımı yoluyla.
+wrong_answers:
+  - Dijital imzaların kullanılması yoluyla.
+  - Halka açık bir Ledger kullanımı yoluyla.
+  - Bir Proof of Stake algoritması kullanılarak.
+explanation: >-
+reviewed: true

@@ -5,6 +5,9 @@ description: Använda COLDCARD Q:s avancerade alternativ
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/6L2hhT0J27s)
+
+
 I en tidigare handledning gick vi igenom den första konfigurationen av COLDCARD Q och dess grundläggande funktioner för nybörjare. Om du precis har fått ditt COLDCARD Q och inte har konfigurerat det ännu, rekommenderar jag att du börjar med den handledningen innan du fortsätter här:
 
 
@@ -96,7 +99,7 @@ Bekräfta att det fingeravtryck som visas stämmer överens med ditt Wallet och 
 ![CCQ](assets/fr/10.webp)
 
 
-Tänk på att om du använder en passphrase måste du importera en ny uppsättning nycklar som härrör från kombinationen av din Mnemonic-fras och passphrase till din Wallet-hanteringsprogramvara (som Sparrow Wallet). För att göra detta, följ steget "*Konfigurera en ny Wallet på Sparrow*" i denna andra handledning :
+Tänk på att om du använder en passphrase innebär det att du måste importera en ny uppsättning nycklar som härrör från kombinationen av din Mnemonic-fras och passphrase till din Wallet-hanteringsprogramvara (som Sparrow wallet). För att göra detta, följ steget "*Konfigurera en ny Wallet på Sparrow*" i denna andra handledning :
 
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -113,7 +116,7 @@ COLDCARDs drar också nytta av en mängd alternativ för upplåsningsprocessen f
 En Trick PIN-kod är en sekundär PIN-kod som skiljer sig från den som definieras under den första konfigurationen av enheten. Denna kod används för att utlösa specifika förkonfigurerade åtgärder så snart den anges när COLDCARD slås på. Du kan konfigurera flera Trick PIN-koder, var och en kopplad till en annan åtgärd. Med dessa funktioner kan du anpassa ditt COLDCARD till din personliga säkerhetsstrategi. De är särskilt användbara i fall av fysiskt tvång, t.ex. under ett rån (som i Bitcoin-samhället ofta kallas en "*$5 wrench attack*").
 
 
-För att aktivera en Trick PIN-kod och koppla den till en åtgärd, gå till menyn `Inställningar > Inloggningsinställningar > Trick PIN-koder`.
+Om du vill aktivera en Trick PIN-kod och koppla den till en åtgärd går du till menyn `Inställningar > Inloggningsinställningar > Trick PIN-koder`.
 
 
 ![CCQ](assets/fr/11.webp)
@@ -144,10 +147,10 @@ Välj sedan den åtgärd som ska utföras automatiskt varje gång du anger den h
 
 
 
-- "*Wipe seed*": Denna meny erbjuder flera åtgärder för att radera seed, d.v.s. återställa COLDCARD utan att förstöra det. Till skillnad från alternativet "*Brick Self*" kommer det att vara möjligt att konfigurera om enheten med hjälp av en säkerhetskopia av din Mnemonic-fras. Men utan denna säkerhetskopia kommer dina bitcoins att gå förlorade. Här är de tillgängliga alternativen:
+- "*Wipe seed*": Denna meny erbjuder flera åtgärder för att radera seed, dvs. återställa COLDCARD utan att förstöra det. Till skillnad från alternativet "*Brick Self*" kommer det att vara möjligt att konfigurera om enheten med hjälp av en säkerhetskopia av din Mnemonic-fras. Men utan denna säkerhetskopia kommer dina bitcoins att gå förlorade. Här är de tillgängliga alternativen:
  - "*Wipe & Reboot* : Tar bort seed och startar om COLDCARD utan att visa någon information på skärmen.
  - "*Silent Wipe*": Raderar tyst seed och låser upp COLDCARD på en slumpmässigt vald falsk Wallet som om ingenting hade hänt.
- - "*Wipe -> Wallet*": Tar bort seed diskret och låser upp COLDCARD på en förkonfigurerad sekundär Wallet, utformad som ett lockbete. Denna Wallet kan innehålla en liten del av dina besparingar från Bitcoin för att tillfredsställa en angripare.
+ - "*Wipe -> Wallet*": Tar diskret bort seed och låser upp COLDCARD på en förkonfigurerad sekundär Wallet, utformad som ett lockbete. Denna Wallet kan innehålla en liten del av dina Bitcoin besparingar för att tillfredsställa en angripare.
  - "*Säg torkad, stopp*": Raderar seed och visar meddelandet `seed is wiped, Stop` på skärmen.
 
 
@@ -175,7 +178,7 @@ Välj sedan den åtgärd som ska utföras automatiskt varje gång du anger den h
 
 
 
-- "*Se tomt ut*": Denna åtgärd får COLDCARD att se tomt ut och ger intryck av att seed har raderats. I själva verket händer ingenting och seed förblir intakt. Detta simulerar ett oanvänt eller återställt COLDCARD.
+- "*Se tomt ut*": Denna åtgärd får COLDCARD att se tomt ut, vilket ger intrycket att seed har raderats. I själva verket händer ingenting och seed förblir intakt. Detta simulerar ett oanvänt eller återställt COLDCARD.
 
 
 ![CCQ](assets/fr/18.webp)
@@ -209,7 +212,7 @@ Du kan sedan se alla konfigurerade Trick PIN-koder i den särskilda menyn.
 ![CCQ](assets/fr/22.webp)
 
 
-Genom att välja en befintlig Trick PIN kan du kontrollera den tillhörande åtgärden. Du kan också dölja den med "*Hide Trick*", vilket gör den osynlig i Trick PIN-menyn. Du kan radera den genom att klicka på "*Delete Trick*", eller ändra PIN-koden med bibehållen tillhörande åtgärd med "*Change PIN*".
+Genom att välja en befintlig Trick PIN kan du kontrollera den tillhörande åtgärden. Du kan också dölja den med "*Hide Trick*", vilket gör den osynlig i Trick PIN-menyn. Du kan radera den genom att klicka på "*Delete Trick*" eller ändra PIN-koden med bibehållen tillhörande åtgärd med "*Change PIN*".
 
 
 ![CCQ](assets/fr/23.webp)
@@ -245,7 +248,7 @@ När du låser upp ditt COLDCARD Q kommer knapparna på knappsatsen från och me
 ### Nedräkning för inloggning
 
 
-Med det här alternativet kan du införa en systematisk nedräkning varje gång du försöker låsa upp ditt COLDCARD. Det kan integreras i din säkerhetsstrategi genom att fördröja åtkomsten till enheten i händelse av stöld eller genom att införa en fördröjning innan du undertecknar en transaktion, till exempel för att skydda dig själv i händelse av ett rån. Denna nedräkning gäller dock för alla dina användningsområden, även när du använder ditt COLDCARD på ett legitimt sätt, vilket också kräver tålamod. Var noga med att inte förväxla detta alternativ med åtgärden "*Just Countdown*", som endast aktiveras när en specifik Trick PIN används.
+Med det här alternativet kan du införa en systematisk nedräkning varje gång du försöker låsa upp ditt COLDCARD. Det kan integreras i din säkerhetsstrategi genom att fördröja åtkomsten till enheten i händelse av stöld eller genom att införa en fördröjning innan du undertecknar en transaktion, till exempel för att skydda dig i händelse av ett rån. Denna nedräkning gäller dock för alla dina användningsområden, även när du använder ditt COLDCARD på ett legitimt sätt, vilket också kräver tålamod. Var noga med att inte förväxla detta alternativ med åtgärden "*Just Countdown*", som endast aktiveras när en specifik Trick PIN används.
 
 
 För att konfigurera detta alternativ, gå till menyn `Inställningar > Inloggningsinställningar > Nedräkning för inloggning`.
@@ -305,7 +308,7 @@ Du kan t.ex. beräkna SHA256 Hash för "*Plan B Network*".
 ![CCQ](assets/fr/35.webp)
 
 
-För att låsa upp COLDCARD från miniräknarläget börjar du med att ange PIN-koden med ett prefix följt av ett bindestreck. Om din PIN-kod till exempel är `00-00` (den här koden är svag och bara ett exempel, så välj en stark PIN-kod), skriver du `00-`. COLDCARD kommer då att visa dina två ord mot nätfiske.
+För att låsa upp COLDCARD från miniräknarläget börjar du med att ange PIN-koden med ett prefix följt av ett bindestreck. Om din PIN-kod till exempel är `00-00` (den här koden är svag och bara ett exempel, så välj en stark PIN-kod), skriv `00-`. COLDCARD kommer då att visa dina två ord mot nätfiske.
 
 
 ![CCQ](assets/fr/36.webp)
@@ -338,7 +341,7 @@ Den första nivån av förstörelse består av att endast radera seed. Detta alt
 Den andra nivån av förstörelse består i att permanent inaktivera COLDCARDs två säkra chip via programvaran. Denna åtgärd gör enheten helt oanvändbar. Du kommer inte att kunna sälja den vidare, återanvända den eller returnera den till Coinkite: den kommer att förstöras permanent. För att fortsätta, följ stegen som beskrivs i föregående avsnitt angående "*Brick Me*" PIN-koden, och ange sedan avsiktligt denna PIN-kod när du låser upp COLDCARD.
 
 
-Den tredje nivån innebär fysisk förstörelse av COLDCARD Q:s säkra komponenter. Som tidigare kommer detta att göra enheten oåterkalleligt oanvändbar. För att göra detta, använd en borr för att göra ett hål i de två chipen på enhetens övre högra sida (när den är vänd upp och ner), nära "*SHOOT HERE*"-inskriptionen.
+Den tredje nivån innebär fysisk förstörelse av COLDCARD Q:s säkra komponenter. Precis som tidigare kommer detta att göra enheten oåterkalleligt oanvändbar. För att göra detta, använd en borr för att göra ett hål i de två chipen på enhetens övre högra sida (när den är vänd upp och ner), nära "*SHOOT HERE*"-inskriptionen.
 
 
 **Viktiga försiktighetsåtgärder** :
@@ -360,7 +363,7 @@ När chipen har stansats, försök inte att återansluta COLDCARD Q.
 Grattis, du har nu fått tillgång till COLDCARD Q:s avancerade alternativ!
 
 
-Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lämnar en Green-tumme nedan. Känn dig fri att dela denna handledning på dina sociala nätverk. Tack så mycket!
+Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lämnar en Green-tumme nedan. Dela gärna den här handledningen på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också den här andra handledningen, där vi diskuterar användningen av en direkt konkurrent till CCQ, Ledger Flex :

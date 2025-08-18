@@ -1,0 +1,9 @@
+question: Türetme yolundaki hangi derinlik para birimi türünü belirtir?
+answer: Derinlik 2
+wrong_answers:
+  - Derinlik 1
+  - Derinlik 3
+  - Derinlik 4
+explanation: |
+  Derinlik 2, Bitcoin (indeks 0') veya Litecoin (indeks 2') gibi çoklu para birimi cüzdanlarında para birimini tanımlamak için kullanılır.
+reviewed: false

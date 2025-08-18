@@ -322,7 +322,9 @@ Tento druhý krok může být:
 - Dočasný kód poslaný prostřednictvím SMS.
 - Kód generovaný aplikací jako Google Authenticator nebo Authy.
 - Fyzický bezpečnostní klíč, který vložíte do počítače.
+
   ![](assets/notext/19.webp)
+
   S 2FA, i když hacker získá vaše heslo, nebude schopen přistupovat k vašemu účtu bez tohoto druhého ověřovacího faktoru. To činí 2FA nezbytným pro ochranu vašich online účtů proti neautorizovanému přístupu.
 
 ### Kterou možnost si vybrat?
@@ -334,6 +336,8 @@ Různé možnosti silného ověření nabízejí různé úrovně zabezpečení.
 - Hardware tokeny, jako jsou USB klíče nebo chytré karty, nabízejí optimální zabezpečení generováním jedinečného soukromého klíče pro každý web a ověřováním URL před povolením připojení.
 
 Pro optimální zabezpečení silným ověřením se doporučuje používat bezpečnou e-mailovou adresu, bezpečný správce hesel a adoptovat 2FA pomocí YubiKeys. Doporučuje se také zakoupit dva YubiKeys, aby se předvídala ztráta nebo krádež, například uchováním záložní kopie doma a u sebe.
+
+Pokud jde o potenciální hrozby pro dvoufaktorovou autentizaci pomocí SIM karty, běžným příkladem je útok na výměnu SIM karty, při kterém útočník ukradne telefonní číslo uživatele tím, že je propojí s SIM kartou, kterou ovládá. Existuje několik způsobů, jak může útočník útok provést; tato hrozba je však obvykle hlavním problémem pouze pro vysoce postavené jednotlivce a osoby, které jsou v centru zájmu.
 
 Biometriku lze použít jako náhradu, ale není to tak bezpečné jako kombinace znalostí a vlastnictví. Biometrická data by měla zůstat na ověřovacím zařízení a neměla by být zveřejňována online. Je důležité zvážit model hrozby spojený s různými metodami ověřování a přizpůsobit postupy podle toho.
 
@@ -402,18 +406,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Nastavení zálohování
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Změna prohlížeče & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -429,6 +421,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Dále se dozvíte, jak používat Tor Browser, prohlížeč speciálně navržený pro ochranu vašeho online soukromí:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Nastavení zálohování
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Jít dále
 

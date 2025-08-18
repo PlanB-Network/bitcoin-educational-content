@@ -1,0 +1,9 @@
+question: RGB aracını Cargo aracılığıyla nasıl yüklerim?
+answer: cargo install RGB-contracts --all-features
+wrong_answers:
+  - cargo install RGB --features all
+  - cargo install RGB-Bitcoin --all
+  - cargo build RGB-lightning --release
+explanation: |
+  Kurulum "cargo install RGB-contracts --all-features" komutu ile gerçekleştirilir, sandık RGB aracını yükleyen "RGB-contracts" olarak adlandırılır.
+reviewed: false

@@ -93,13 +93,13 @@ Navigering på enheten är enkel: använd högerknappen för att bläddra till h
 
 
 
-I denna handledning ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow Wallet portfolio management software] (https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow Wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Du behöver också programvaran Trezor Suite för att konfigurera Safe 3, kontrollera dess äkthet och installera den fasta programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow Wallet exklusivt, eftersom det är optimerat för Bitcoin och lätt att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
+Du behöver också programvaran Trezor Suite för att konfigurera Safe 3, kontrollera dess äkthet och installera den fasta programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow wallet exklusivt, eftersom den är optimerad för Bitcoin och enkel att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Anslut din Safe 3 till din dator där Trezor Suite och Sparrow Wallet redan är installerade.
+Anslut din Safe 3 till din dator där Trezor Suite och Sparrow wallet redan är installerade.
 
 
 
@@ -193,7 +193,7 @@ Du kan sedan hoppa över fönstren med de grundläggande bruksanvisningarna.
 
 
 
-## Skapa en Bitcoin-portfölj
+## Skapa en Bitcoin Wallet
 
 
 
@@ -205,7 +205,7 @@ På Trezor Suite klickar du på knappen "*Create new Wallet*".
 
 
 
-För en standardportfölj kan du välja standardtypen för säkerhetskopiering. Detta skapar en klassisk single-sig-portfölj med en Mnemonic-fras på 12 ord. Klicka på "*Create Wallet*".
+För en standard Wallet kan du välja standardtypen för säkerhetskopiering. Detta skapar en klassisk enkel-sig Wallet med en Mnemonic-fras på 12 ord. Klicka på "*Skapa Wallet*".
 
 
 
@@ -219,7 +219,7 @@ https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face
 
 
 
-Acceptera användarvillkoren för Hardware Wallet.
+Acceptera användarvillkoren på Hardware Wallet.
 
 
 
@@ -227,7 +227,7 @@ Acceptera användarvillkoren för Hardware Wallet.
 
 
 
-Tryck på högerknappen igen för att skapa en ny portfölj.
+Tryck på högerknappen igen för att skapa en ny Wallet.
 
 
 
@@ -251,7 +251,7 @@ Denna Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem 
 
 
 
-Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller sönderslagning av din Hardware Wallet. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
 
 
 
@@ -267,11 +267,11 @@ Bekräfta instruktionerna och klicka sedan på knappen "*Create Wallet backup*".
 
 
 
-Safe 3 kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner orden som visas på skärmen på det fysiska medium som du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
+Safe 3 kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. Se till att du inte blir iakttagen under denna operation. Skriv ner de ord som visas på skärmen på det fysiska medium du väljer. Beroende på din säkerhetsstrategi kan du överväga att göra flera fullständiga fysiska kopior av frasen (men framför allt, dela inte upp den). Det är viktigt att hålla orden numrerade och i sekventiell ordning.
 
 
 
-***Självklart får du aldrig dela dessa ord på Internet, vilket jag gör i denna handledning. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
 
 
 
@@ -313,7 +313,7 @@ När denna verifiering är klar klickar du på knappen till höger.
 
 
 
-Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
+Därefter kommer steget med PIN-koden. PIN-koden låser upp din Trezor. Den ger därför skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord.
 
 
 
@@ -333,7 +333,7 @@ Bekräfta med Safe 3.
 
 
 
-Vi rekommenderar att du väljer en PIN-kod som är så slumpmässig som möjligt. Var noga med att spara denna kod på en annan plats än där din Trezor lagras (t.ex. i en lösenordshanterare). Du kan definiera en PIN-kod med mellan 8 och 50 siffror. Jag rekommenderar att du väljer en PIN-kod som är så lång som möjligt för att öka säkerheten.
+Vi rekommenderar att du väljer en PIN-kod som är så slumpmässig som möjligt. Var noga med att spara denna kod på en annan plats än där din Trezor är lagrad (t.ex. i en lösenordshanterare). Du kan definiera en PIN-kod med mellan 8 och 50 siffror. Jag rekommenderar att du väljer en PIN-kod som är så lång som möjligt för att öka säkerheten.
 
 
 
@@ -377,19 +377,19 @@ Konfigurationen av din Safe 3 är nu klar. Om du vill kan du ändra namn och sta
 
 
 
-Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmwareuppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera portföljen, eftersom denna programvara är perfekt lämpad för användning av enbart Bitcoin.
+Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att utföra regelbundna firmwareuppdateringar på din Hardware Wallet, eller om du vill köra ett återställningstest. Vi kommer nu att använda Sparrow för att hantera Wallet, eftersom den här programvaran är perfekt lämpad för användning av enbart Bitcoin.
 
 
 
-## Konfigurera portföljen på Sparrow Wallet
+## Konfigurera Wallet på Sparrow wallet
 
 
 
-Börja med att ladda ner och installera Sparrow Wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 
-När du har öppnat Sparrow Wallet ska du kontrollera att programvaran är ansluten till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet på Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser början av denna handledning:
+När du har öppnat Sparrow wallet ska du se till att programvaran är ansluten till en Bitcoin-nod, vilket indikeras av krysset i det nedre högra hörnet av Interface. Om du har problem med att ansluta Sparrow rekommenderar jag att du läser början av denna handledning:
 
 
 
@@ -403,7 +403,7 @@ Klicka på fliken "*File*" och sedan på "*New Wallet*".
 
 
 
-Namnge din portfölj och klicka sedan på "*Create Wallet*".
+Ge din Wallet ett namn och klicka sedan på "*Create Wallet*".
 
 
 
@@ -443,7 +443,7 @@ Du kan nu se detaljerna för din Wallet, inklusive den utökade publika nyckeln 
 
 
 
-Välj ett starkt lösenord för att säkra åtkomst till Sparrow Wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow Wallet-data och skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
+Välj ett starkt lösenord för att säkra åtkomsten till Sparrow wallet. Detta lösenord garanterar säker åtkomst till dina Sparrow wallet-data och skyddar dina offentliga nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
 
 
 
@@ -455,7 +455,7 @@ Jag råder dig att spara det här lösenordet i en lösenordshanterare så att d
 
 
 
-Och nu har din portfölj importerats till Sparrow Wallet!
+Och nu har din Wallet importerats till Sparrow wallet!
 
 
 
@@ -485,11 +485,11 @@ På Sparrow klickar du på fliken "*Receive*".
 
 
 
-Innan du använder den Address som Sparrow Wallet föreslår ska du kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
+Innan du använder den Address som föreslås av Sparrow wallet ska du kontrollera den på din Trezors skärm. Denna metod gör att du kan bekräfta att den Address som visas på Sparrow inte är bedräglig och att Hardware Wallet verkligen har den privata nyckel som behövs för att därefter spendera de bitcoins som är säkrade med denna Address. Detta hjälper dig att undvika flera typer av attacker.
 
 
 
-För att utföra denna kontroll, klicka på knappen "*Display Address*".
+För att utföra denna kontroll klickar du på knappen "*Display Address*".
 
 
 
@@ -497,7 +497,7 @@ För att utföra denna kontroll, klicka på knappen "*Display Address*".
 
 
 
-Kontrollera att den Address som visas på din Trezor matchar den på Sparrow Wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan använda knapparna för att bekräfta.
+Kontrollera att den Address som visas på din Trezor stämmer överens med den på Sparrow wallet. Det är också lämpligt att utföra denna kontroll strax innan du kommunicerar din Address till avsändaren, för att vara säker på att den är giltig. Du kan använda knapparna för att bekräfta.
 
 
 
@@ -505,7 +505,7 @@ Kontrollera att den Address som visas på din Trezor matchar den på Sparrow Wal
 
 
 
-Du kan sedan lägga till en "*Label*" för att beskriva källan till bitcoins som kommer att säkras med denna Address. Detta är en bra praxis som gör att du bättre kan hantera dina UTXO:er.
+Du kan sedan lägga till en "*Label*" för att beskriva källan till bitcoins som kommer att säkras med denna Address. Det här är en bra metod som gör att du kan hantera dina UTXO:er bättre.
 
 
 
@@ -525,7 +525,7 @@ Du kan sedan använda denna Address för att ta emot bitcoins.
 
 
 
-Nu när du har fått dina första Satss på din Safe 3-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, lås upp den med PIN-koden, starta Sparrow Wallet och gå sedan till fliken "*Send*" för att skapa en ny transaktion.
+Nu när du har fått dina första Satss på din Safe 3-säkrade Wallet kan du spendera dem också! Anslut din Trezor till din dator, lås upp den med PIN-koden, starta Sparrow wallet och gå sedan till fliken "*Sänd*" för att skapa en ny transaktion.
 
 
 
@@ -565,7 +565,7 @@ Välj det belopp som ska skickas till denna Address.
 
 
 
-Justera avgiftssatsen för din transaktion enligt den aktuella marknaden. Du kan t.ex. använda [Mempool.space] (https://Mempool.space/) för att välja en lämplig avgiftssats.
+Justera avgiftssatsen för din transaktion enligt den aktuella marknaden. Du kan t.ex. använda [Mempool.space](https://Mempool.space/) för att välja en lämplig avgiftssats.
 
 
 
@@ -609,7 +609,7 @@ Kontrollera transaktionsparametrarna på din Hardware Wallet-skärm, inklusive m
 
 
 
-Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända den i Bitcoin-nätverket.
+Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och klicka sedan på "*Broadcast Transaction*" för att sända ut den i Bitcoin-nätverket.
 
 
 
@@ -617,7 +617,7 @@ Din transaktion är nu signerad. Kontrollera en sista gång att allt är OK och 
 
 
 
-Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
+Du hittar den under fliken "*Transaktioner*" i Sparrow wallet.
 
 
 
@@ -625,7 +625,7 @@ Du hittar den under fliken "*Transaktioner*" i Sparrow Wallet.
 
 
 
-Gratulerar, du har nu lärt dig den grundläggande användningen av Trezor Safe 3 med Sparrow Wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om hur du använder en Hardware Wallet Trezor med en passphrase BIP39 för att förbättra din säkerhet:
+Gratulerar, du har nu lärt dig den grundläggande användningen av Trezor Safe 3 med Sparrow wallet! För att ta saker ett steg längre rekommenderar jag denna omfattande handledning om hur du använder en Hardware Wallet Trezor med en passphrase BIP39 för att förbättra din säkerhet:
 
 
 

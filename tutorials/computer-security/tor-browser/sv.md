@@ -18,7 +18,7 @@ Idag är Google Chrome den överlägset mest använda webbläsaren. Den står f�
 *Källa: [gs.statcounter.com [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
 
-Det finns flera stora familjer av webbläsare, var och en baserad på en specifik renderingsmotor. Webbläsare som Google Chrome, Microsoft Edge, Brave, Opera eller Vivaldi är alla etablerade på Chromium-webbläsaren, en lätt och öppen källkodsversion av Chrome som utvecklats av Google. Alla dessa webbläsare använder renderingsmotorn Blink, som är en Fork av WebKit, som i sin tur härstammar från KHTML. Chromiums dominans på marknaden gör webbläsare som härrör från den särskilt effektiva, eftersom webbutvecklare tenderar att optimera sina webbplatser främst för Blink.
+Det finns flera stora familjer av webbläsare, var och en baserad på en specifik renderingsmotor. Webbläsare som Google Chrome, Microsoft Edge, Brave, Opera eller Vivaldi är alla etablerade på Chromium-webbläsaren, en lätt och öppen källkodsversion av Chrome som utvecklats av Google. Alla dessa webbläsare använder renderingsmotorn Blink, som är en Fork av WebKit, som i sin tur härstammar från KHTML. Chromiums dominans på marknaden gör att webbläsare som härrör från Chromium är särskilt effektiva, eftersom webbutvecklare tenderar att optimera sina webbplatser främst för Blink.
 
 
 Safari, Apples webbläsare, använder WebKit, som också kommer från KHTML.

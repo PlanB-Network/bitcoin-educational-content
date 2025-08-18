@@ -1,0 +1,9 @@
+question: İkili işlem içeren bir S kümesinin grup olabilmesi için hangi temel koşulu sağlaması gerekir?
+answer: Kapanış koşulu
+wrong_answers:
+  - Değişkenlik koşulu
+  - Simetri koşulu
+  - Dağıtılabilirlik koşulu
+explanation: |
+  İkili bir işleme sahip bir S kümesi, bir grup oluşturmak için birkaç koşulu sağlamalıdır ve bunlardan ilki kapanış koşuludur: S'nin iki Elements'ı arasındaki işlem S'nin bir elemanını vermelidir.
+reviewed: false

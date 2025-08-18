@@ -1,0 +1,8 @@
+question: Proof of Work (POW) nedir?
+answer: Bitcoin protokolünün güvenlik mutabakatıdır.
+wrong_answers:
+  - Yeni bitcoinler yaratma sürecidir.
+  - Bitcoin işlemlerini doğrulama yöntemidir.
+  - Bitcoin madenciliği için kullanılan algoritmadır.
+explanation: >-
+reviewed: true

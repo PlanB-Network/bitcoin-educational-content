@@ -1,0 +1,9 @@
+question: Welke kenmerken definiëren een goed wachtwoord?
+answer: Lang, complex en uniek.
+wrong_answers:
+  - Kort, eenvoudig en gemakkelijk te onthouden.
+  - Gebaseerd op persoonlijke informatie.
+  - Identiek voor alle accounts.
+explanation: |
+  Een goed wachtwoord moet lang en complex genoeg zijn en mag niet worden hergebruikt.
+reviewed: true

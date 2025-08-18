@@ -1,0 +1,9 @@
+question: Bankacılık sisteminin gizlilik modeli nedir?
+answer: İşlem detaylarına yalnızca bankanın erişimi vardır.
+wrong_answers:
+  - İşlemler kamuya açıktır, ancak kullanıcıların kimliği bilinmemektedir.
+  - İşlemler anonimdir ve banka da dahil olmak üzere herkesten gizlenir.
+  - İşlem detaylarına yalnızca hükümetlerin erişimi vardır.
+explanation: |
+  Geleneksel sistemde her banka hesabı bir kimlikle bağlantılıdır. Ancak banka ile kamusal alan arasındaki bilgi akışı kesilmiştir.
+reviewed: false

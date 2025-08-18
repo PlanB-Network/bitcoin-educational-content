@@ -1,0 +1,9 @@
+question: What is the main weakness of a ring network?
+answer: The failure of a single workstation can interrupt the entire network
+wrong_answers:
+  - It requires a lot of cables to connect each piece of equipment
+  - It is difficult to extend
+  - Complex management
+explanation: |
+  In a ring topology, the failure of a piece of equipment breaks the loop and prevents data flow.
+reviewed: false

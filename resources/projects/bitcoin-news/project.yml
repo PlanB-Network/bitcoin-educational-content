@@ -1,0 +1,22 @@
+id: e63041c0-fbaf-44c3-bf9f-a467386aa9da
+name: Bitcoin News Today
+category: news
+
+links:
+  website: https://bitcoinnews.com/
+  twitter: https://twitter.com/BitcoinNewsCom
+  youtube: https://www.youtube.com/@BitcoinNewsCom
+
+tags:
+  - use-case
+  - finance
+  - regulation
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-02
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

@@ -1,5 +1,5 @@
 ---
-term: OP_TAMBAH (0X93)
+term: OP_ADD (0X93)
 
 ---
-Menambahkan dua elemen di bagian atas tumpukan. Ini mengambil dua nilai di bagian atas tumpukan, menambahkannya bersama-sama, dan menggantinya dengan hasilnya.
+Menambahkan dua elemen di bagian atas _stack_. Hal ini akan mengambil dua nilai di bagian atas _stack_ dan menjumlahkannya, lalu mendorong hasilnya ke atas _stack_.

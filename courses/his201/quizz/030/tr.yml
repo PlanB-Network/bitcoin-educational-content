@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto tarafından P2P Vakfı forumunda listelenen doğum tarihi neydi?
+answer: 5 Nisan 1975
+wrong_answers:
+  - 3 Nisan 1973
+  - 5 Nisan 1973
+  - 3 Nisan 1975
+explanation: |
+  Bu bileşik tarih, 1933 ile 1975 yılları arasında Amerikan vatandaşlarının altın sahibi olmalarının yasaklanmasını ifade etmektedir: 5 Nisan, bu yasağın 1933 yılında yürürlüğe girdiği (Executive Order 6102), 1975 yılı ise yürürlükten kaldırıldığı (Public Law 93-373) gündür.
+reviewed: true

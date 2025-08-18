@@ -1,0 +1,13 @@
+question: Wat is de rol van Bitcoin mijnwerkers in de wereld van energie?
+answer: Bitcoin mijnwerkers zijn constant op zoek naar bronnen van goedkope elektriciteit, vaak diegene die verspild worden of onbenut blijven. Ze kunnen fungeren als een flexibele vraagbron, klaar om deze verweesde elektriciteit te verbruiken en zo helpen om de infrastructuurkosten te compenseren.
+wrong_answers:
+  - Bitcoin mijnbouwers zijn voortdurend op zoek naar hernieuwbare energiebronnen om hun ecologische voetafdruk te verkleinen.
+  - Bitcoin mijnwerkers zijn constant op zoek naar bronnen van nucleaire energie om hun Mining operaties van energie te voorzien, omdat dit de enige schone en hernieuwbare manier is om energie te produceren.
+  - Bitcoin mijnwerkers zijn voortdurend op zoek naar bronnen van zonne-energie om hun Mining operaties van energie te voorzien.
+explanation: |
+  Het hoofdstuk legt uit dat Bitcoin mijnwerkers voortdurend op zoek zijn naar
+  op zoek zijn naar goedkope elektriciteitsbronnen, die vaak
+  verspild of onbenut zijn. Ze kunnen fungeren als een flexibele vraag
+  bron, klaar om deze verweesde elektriciteit te verbruiken en zo
+  om de infrastructuurkosten te compenseren.
+reviewed: true

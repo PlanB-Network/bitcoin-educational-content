@@ -1,0 +1,8 @@
+---
+term: ANSÄG VALID
+---
+
+Konfigurationsparameter i majoritetsklienten Bitcoin Core som gör det möjligt för en nod som just har initialiserats (men som ännu inte har utfört IBD) att hoppa över verifieringen av signaturer för alla transaktioner som ingår i block före ett visst givet block. Detta kända block definieras av avtrycket i dess rubrik, det vill säga dess Hash. Det valda blocket förnyas med varje ny version av Bitcoin Core. Om noden har aktiverat den här parametern vid initieringen kommer den därför att kontrollera blockhuvudkedjan för att hitta den gren som har mest ackumulerat arbete. Om noden upptäcker Hash som tillhandahålls av Core i den gren som den har valt, kommer den att utelämna verifieringen av signaturer för de föregående blocken. I annat fall kommer noden att fortsätta med en traditionell synkronisering (IBD) för att verifiera allt på egen hand.
+
+
+Målet med Assume Valid är att påskynda processen för initial synkronisering av en nod utan att kompromissa med säkerheten, förutsatt att majoriteten av nätverket redan har validerat dessa transaktioner tidigare. Den enda verkliga kompromissen för noden är att den inte kommer att meddelas i händelse av en tidigare stöld av bitcoins. Den kan dock fortfarande säkerställa riktigheten i mängden bitcoins som utfärdats. Noder fortsätter verifieringen av signaturer för transaktioner efter Assume Valid-blocket. Detta tillvägagångssätt baseras på antagandet att om en transaktion har accepterats av nätverket under tillräckligt lång tid utan tvist är det osannolikt att den är bedräglig.

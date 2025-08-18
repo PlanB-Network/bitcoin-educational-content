@@ -1,0 +1,9 @@
+question: Hoe wordt de exponent e gekozen in het RSA cryptosysteem?
+answer: Het moet een geheel getal groter dan 2 zijn, coprime met φ(N)
+wrong_answers:
+  - Het moet een priemgetal zijn kleiner dan N
+  - Het wordt willekeurig gekozen zonder beperking
+  - Het moet gelijk zijn aan φ(N)
+explanation: |
+  In RSA wordt de exponent e zo gekozen dat deze groter is dan 2 en coprime met φ(N), wat de veiligheid van de bewerkingen garandeert.
+reviewed: false

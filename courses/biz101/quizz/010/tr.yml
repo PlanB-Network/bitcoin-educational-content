@@ -1,0 +1,9 @@
+question: Lightning Network, Bitcoin işlemleri için ücretlerin azaltılmasına nasıl yardımcı olur?
+answer: Çoğu işlemi off-chain'te gerçekleştirerek ve yalnızca kanal uzlaştırma işlemlerini ana Blockchain'de yayınlayarak.
+wrong_answers:
+  - Ödemelerden tüm kriptografik doğrulamayı kaldırarak.
+  - Kontrolü tek bir büyük ödeme merkezinde merkezileştirerek.
+  - Satıcıların tüm ağ maliyetlerini önceden ödemesini zorunlu kılarak.
+explanation: |
+  Lightning işlemleri off-chain'te gerçekleştiğinden, Bitcoin Blockchain'te yalnızca son kanal durumları karara bağlanır. Bu, tıkanıklığı azaltır ve böylece birçok On-Chain işlemi yapmaktan kaçınarak ücretleri düşürür.
+reviewed: false

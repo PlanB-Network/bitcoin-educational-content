@@ -1,0 +1,9 @@
+question: Bir passphrase'ın güvenliğini sağlamak için iyi bir uygulama nedir?
+answer: Mnemonic ifadesinden ayrı bir fiziksel ortama kaydedin
+wrong_answers:
+  - Not almadan sadece ezberleyin
+  - Mnemonic ifadesiyle aynı fiziksel ortama kaydedin
+  - Google Drive gibi dijital bir ortama kaydedin
+explanation: |
+  Her ikisinin de aynı anda çalınmasını önlemek için passphrase fiziksel olarak ve Mnemonic ifadesinden ayrı olarak kaydedilmelidir.
+reviewed: false

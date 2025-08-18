@@ -1,0 +1,9 @@
+question: Bitcoin'da bir açık anahtarı hesaplamak için tüm katılımcılar tarafından kullanılan ortak nokta nedir?
+answer: Üreteç noktası G
+wrong_answers:
+  - SHA256 Hash
+  - Bir Mnemonic cümlesi
+  - Sıkıştırılmış açık anahtar
+explanation: |
+  Secp256k1 eliptik eğrisinin G üreteç noktası, özel anahtarlardan açık anahtarları hesaplamak için kullanılır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre doğal özgürlük sisteminde Devletin rolü nedir?
+answer: Yaşam, özgürlük ve mülkiyet gibi doğal hakları korumak.
+wrong_answers:
+  - Daha fazla eşitlik için zenginliği yeniden dağıtmak.
+  - Kanunlar aracılığıyla ahlaki değerleri empoze etmek.
+  - Toplumun tüm yönlerini kontrol etmek ve düzenlemek.
+explanation: |
+  Bastiat, doğal özgürlük çerçevesinde, Devletin bireylerin kişisel veya ekonomik tercihlerine müdahale etmeden, yalnızca doğal haklarını korumak için müdahale etmesi gerektiğine inanmaktadır.
+reviewed: false

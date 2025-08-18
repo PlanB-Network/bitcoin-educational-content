@@ -104,6 +104,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.16
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
 tags:
   - technical-analysis
   - complex-DIY

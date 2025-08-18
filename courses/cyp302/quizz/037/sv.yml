@@ -1,0 +1,9 @@
+question: Vad är en algebraisk struktur inom abstrakt algebra?
+answer: En uppsättning Elements med en eller flera operationer som följer vissa axiom
+wrong_answers:
+  - En uppsättning primtal som är organiserade i rader och följer vissa axiom
+  - En serie algoritmer för att lösa linjära ekvationer
+  - En grupp slumpmässiga geometriska transformationer som är arrangerade i enlighet med vissa axiom
+explanation: |
+  En algebraisk struktur är en uppsättning definierade Elements med en eller flera operationer, t.ex. addition eller multiplikation, som följer vissa axiom, och den är viktig för att strukturera begrepp inom talteori.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kesikli bir rastgele değişken ile sürekli bir değişken arasındaki fark nedir?
+answer: Kesikli bir değişken sonlu sayıda olası sonuca sahipken, sürekli bir değişken bir aralık içinde sonsuz sayıda değer alabilir.
+wrong_answers:
+  - Kesikli bir değişken sürekli olarak değer değiştirirken, sürekli bir değişken sabit kalır.
+  - Kesikli bir değişken yapılan fiziksel deneylere özgüdür, sürekli bir değişken ise kendi aralığında soyuttur.
+  - Modern kriptografide ayrık değişkenler mevcut değildir, sadece sürekli değişkenler kullanılır.
+explanation: |
+  Kesikli değişkenler sonlu bir sonuç kümesine sahipken, sürekli değişkenler 0 ile 1 arasındaki gerçek sayılar gibi bir aralıkta herhangi bir değer alabilir.
+reviewed: false

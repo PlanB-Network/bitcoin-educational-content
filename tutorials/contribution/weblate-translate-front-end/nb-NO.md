@@ -14,7 +14,7 @@ I denne veiledningen viser vi deg hvordan du enkelt kan bidra til oversettelsen 
 
 For å oversette det pedagogiske innholdet bruker vi [kunstig intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). For å rette opp eventuelle feil i disse filene inviterer vi korrekturlesere til å bidra. Hvis du ønsker å korrekturlese noe av innholdet, kan du se følgende veiledning:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Hvis du derimot er interessert i å oversette de statiske elementene på nettstedet (unntatt pedagogisk innhold), har du kommet til rett sted! For å oversette frontend på en effektiv måte bruker vi Weblate-verktøyet, som er veldig enkelt å bruke og gjør det lettere å oversette.
 
 Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Network, må du kontakte Plan ₿ Network-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
@@ -158,3 +158,4 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 ![weblate](assets/23.webp)
 
 På forhånd takk for ditt bidrag til oversettelsen av Plan ₿ Network! Hvis du har spesifikke spørsmål eller kommentarer til oss, er du velkommen til å kontakte oss via [Telegram-gruppen] (https://t.me/PlanBNetwork_ContentBuilder).
+

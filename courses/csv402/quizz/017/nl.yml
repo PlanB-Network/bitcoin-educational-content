@@ -1,0 +1,9 @@
+question: Welke structuur garandeert de temporele consistentie van overgangen in RGB?
+answer: EEN DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Een eenvoudige lineaire keten
+  - Een dynamisch peer-to-peer netwerk
+  - Een binaire boom voor UTXO's
+explanation: |
+  Met een DAG kunnen toestandsovergangen gestructureerd worden, terwijl parallelle evoluties zonder inconsistenties mogelijk zijn.
+reviewed: false

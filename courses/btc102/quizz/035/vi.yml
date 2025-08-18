@@ -1,0 +1,9 @@
+question: Giải pháp lưu trữ nào được khuyến nghị cho người nắm giữ?
+answer: Một Hardware Wallet
+wrong_answers:
+  - Một Hot Wallet
+  - Một dịch vụ bảo vệ
+  - Một tờ giấy Wallet
+explanation: |
+  Người nắm giữ bitcoin trong thời gian dài nên sử dụng Hardware Wallet để tối đa hóa tính bảo mật.
+reviewed: false

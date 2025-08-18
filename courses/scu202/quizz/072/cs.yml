@@ -1,0 +1,9 @@
+question: Jak nainstalovat alternativní ROM do smartphonu se systémem Android?
+answer: Odemknutí zavaděče
+wrong_answers:
+  - Vytvoření účtu Apple
+  - Instalace speciální karty SIM
+  - Aktivace režimu pro vývojáře v systému iOS
+explanation: |
+  Odemknutí zavaděče je nezbytné pro zápis nové bitové kopie systému do smartphonu se systémem Android.
+reviewed: false

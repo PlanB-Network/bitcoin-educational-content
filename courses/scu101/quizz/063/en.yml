@@ -1,11 +1,9 @@
-question: What are some of the aspects of cryptography used in cybersecurity?
-answer: SSL/TLS, symmetric/asymmetric encryption
+question: What certification is recognized worldwide in the field of cybersecurity?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  The chapter lists SSL/TLS and symmetric/asymmetric
-  encryption as some of the aspects of cryptography used in
-  cybersecurity.
-reviewed: true
+  The CISSP certification is one of the most internationally recognized in the field of cybersecurity.
+reviewed: false

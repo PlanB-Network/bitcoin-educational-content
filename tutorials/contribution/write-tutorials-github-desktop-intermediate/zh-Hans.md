@@ -381,7 +381,7 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 如果您想创建自己的图表，请务必遵守 Plan ₿ Network 的图形章程，以确保视觉一致性：
 
 
-- 字体**：使用 [Rubik](https://fonts.google.com/specimen/Rubik)；
+- 字体**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
 - 颜色**：
  - 橙色#FF5C00
  - 黑色：#000000

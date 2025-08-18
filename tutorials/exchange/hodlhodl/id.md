@@ -8,7 +8,7 @@ description: Panduan langkah demi langkah untuk HODLHODL
 
 Hodl Hodl adalah bursa Bitcoin terdesentralisasi yang mengutamakan kontrol pengguna dan keamanan. Berbeda dengan bursa tradisional, ia beroperasi pada model peer-to-peer, memungkinkan perdagangan langsung antar pengguna. Dengan sistem escrow multi-signature, Hodl Hodl memastikan keamanan dana selama transaksi. Platform ini juga mendukung berbagai metode pembayaran dan menawarkan opsi perdagangan seperti kontrak untuk perbedaan (CFDs).
 
-![ HodlHodl - Beli dan Jual Bitcoin TANPA KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

@@ -1,0 +1,9 @@
+question: Which statement best describes the private browsing mode?
+answer: It limits the recording of local traces
+wrong_answers:
+  - It makes surfing the Internet anonymous
+  - Blocks all malicious trackers and scripts
+  - It deletes active extensions
+explanation: |
+  Private mode simply prevents local logging of history and cookies, but does not guarantee anonymity on the Internet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který prohlížeč založený na technologii Blink je známý svou rychlostí a kompatibilitou, ale shromažďuje obrovské množství uživatelských dat pro reklamní účely?
+answer: Chrome
+wrong_answers:
+  - Brave
+  - Firefox
+  - Prohlížeč Tor
+explanation: |
+  Přestože je Google Chrome výkonný nástroj, ve výchozím nastavení shromažďuje velké množství osobních údajů, které Google využívá k cílené reklamě.
+reviewed: false

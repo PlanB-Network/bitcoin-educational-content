@@ -1,0 +1,9 @@
+question: Vad är den största fördelen med att använda en lösenordshanterare?
+answer: Kommer bara ihåg ett huvudlösenord.
+wrong_answers:
+  - Du behöver inte längre skapa nya lösenord.
+  - Hjälper till att memorera alla lösenord med hjälp av Mnemonic-tekniker.
+  - Eliminerar behovet av onlinekonton.
+explanation: |
+  Användaren behöver bara komma ihåg ett lösenord för att få tillgång till alla de andra.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quel est le rôle principal d’un système d’exploitation ?
+answer: Intermédiaire entre matériel, utilisateur et applications
+wrong_answers:
+  - Antivirus intégré
+  - Logiciel de création graphique
+  - Serveur de messagerie instantanée
+explanation: |
+  Le système d’exploitation agit comme une couche logicielle centrale qui permet aux applications et à l’utilisateur d’accéder et de contrôler le matériel informatique.
+reviewed: false

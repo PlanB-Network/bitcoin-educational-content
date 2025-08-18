@@ -1,0 +1,2 @@
+description: |
+  Interface open-source, basato sul web, per una facile gestione di uno o più nodi Lightning (LND, Core Lightning, Eclair). RTL offre un'ampia gamma di funzioni, tra cui la gestione dei canali, i pagamenti, i backup e gli swap, il tutto in un Interface intuitivo che può essere implementato in pochi minuti su numerose piattaforme.

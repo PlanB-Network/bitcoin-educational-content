@@ -1,0 +1,10 @@
+question: Wat is het belangrijkste kenmerk van hyperinflatie volgens de definitie van Cagan?
+answer: Extreem hoge maandelijkse inflatie
+wrong_answers:
+  - Extreem hoge jaarlijkse inflatie
+  - Extreem hoge wekelijkse inflatie
+  - Extreem hoge dagelijkse inflatie
+explanation: |
+  Volgens de definitie van Cagan wordt hyperinflatie gekenmerkt door een
+  extreem hoge maandelijkse inflatie van meer dan 50%.
+reviewed: false

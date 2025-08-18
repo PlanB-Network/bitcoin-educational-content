@@ -383,7 +383,7 @@ Das Ausrufezeichen am Anfang zeigt an, dass es sich um ein Bild handelt. Der alt
 Wenn Sie Ihre eigenen Diagramme erstellen möchten, sollten Sie sich an die grafische Charta des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
 
 
-- Schriftart**: Verwenden Sie [Rubik](https://fonts.google.com/specimen/Rubik);
+- Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Farben**:
  - Orange: #FF5C00
  - Schwarz: #000000

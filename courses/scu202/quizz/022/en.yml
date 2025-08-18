@@ -1,0 +1,9 @@
+question: Which distribution uses the Cinnamon desktop environment by default?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon was developed by the Linux Mint team to offer a modern, classic Interface, close to Windows.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvem oppfant World Wide Web og utviklet den aller første nettleseren?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee er oppfinneren av World Wide Web og utviklet den første nettleseren, WorldWideWeb (nå Nexus), i 1990.
+reviewed: false

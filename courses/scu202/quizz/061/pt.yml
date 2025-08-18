@@ -1,0 +1,9 @@
+question: Que navegador oferece bloqueio de anúncios e de rastreadores, proteção contra impressões digitais e é baseado no Chromium?
+answer: Corajoso
+wrong_answers:
+  - Firefox
+  - Tor
+  - Cromado
+explanation: |
+  O Brave inclui, por defeito, bloqueio de anúncios, rastreadores e proteção avançada contra impressões digitais, tudo baseado no Chromium.
+reviewed: false

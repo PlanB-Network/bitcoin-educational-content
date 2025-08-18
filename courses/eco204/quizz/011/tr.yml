@@ -1,0 +1,12 @@
+question: Modern Para Teorisi'nin (MMT) para yaratma ve enflasyona bakış açısı nedir?
+answer: MMT'ye göre, para esas olarak hükümetten kaynaklanır ve bu fonların hedeflediği sektörler doygunluğa ulaşmadığı sürece enflasyona neden olmadan ihtiyaçlarını finanse etmek için önemli miktarda para basabilir.
+wrong_answers:
+  - MMT'ye göre para öncelikle özel sektörden kaynaklanır ve daha fazla para basmak her zaman enflasyona yol açar.
+  - MMT'ye göre para öncelikle hükümetten kaynaklanır, ancak daha fazla para basmak her zaman enflasyona yol açar.
+  - MMT'ye göre para öncelikle özel sektörden kaynaklanır ve daha fazla para basmak asla enflasyona yol açmaz.
+explanation: |
+  Bu bölüm, Modern Para Teorisi'nin (MMT) farklı bir yaklaşım sunduğunu açıklamaktadır
+  para yaratma ve enflasyona bakış açısı. MMT'ye göre, para öncelikle aşağıdakilerden kaynaklanır
+  ihtiyaçlarını finanse etmek için önemli miktarda para basabilen hükümetten
+  bu fonların hedeflediği sektörler doygunluğa ulaşmadığı sürece enflasyona neden olabilir.
+reviewed: false

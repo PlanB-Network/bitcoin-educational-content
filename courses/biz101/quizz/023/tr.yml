@@ -1,0 +1,9 @@
+question: Aşağıdakilerden hangisi Bitcoin'ı elde etmek için bahsedilen üç temel yöntemden biri DEĞİLDİR?
+answer: İş geliştirme için devlet hibesi olarak Bitcoin alınması.
+wrong_answers:
+  - Mal veya hizmetler için Exchange'de Bitcoin elde edilmesi.
+  - Mining Bitcoin özel donanım ve enerji kullanımı yoluyla.
+  - Bir platformdan veya komisyoncudan Bitcoin satın almak.
+explanation: |
+  Bölümde Bitcoin edinmenin üç ana yolundan bahsedilmektedir; ödeme olarak kabul etmek, madencilik yapmak veya satın almak. Bitcoin'yi devlet hibesi olarak almak kabul görmüş standart bir edinim yöntemi değildir.
+reviewed: false

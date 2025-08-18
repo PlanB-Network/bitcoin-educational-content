@@ -1,0 +1,9 @@
+question: Quelle notation est utilisée pour indiquer la taille du préfixe dans une adresse IPv6 ?
+answer: CIDR
+wrong_answers:
+  - Netmask décimal pointé
+  - Hexadécimal séparé par des deux-points
+  - ICANN
+explanation: |
+  La notation CIDR précise le nombre de bits fixes du préfixe après un slash, comme en IPv4.
+reviewed: false

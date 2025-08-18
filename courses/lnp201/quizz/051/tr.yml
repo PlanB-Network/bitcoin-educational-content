@@ -1,0 +1,9 @@
+question: Üçgen açma tekniği katılımcı düğümlerin ne elde etmesini sağlar?
+answer: Her kanalda gelen ve giden likidite
+wrong_answers:
+  - Azaltılmış yönlendirme ücretleri
+  - Onay gerektirmeyen sınırsız sayıda işlem
+  - Diğer tüm ağ düğümleriyle doğrudan bağlantı
+explanation: |
+  Üçgen açma tekniği, her bir düğümün birkaç katılımcı arasında bir kanal döngüsü oluşturarak hem gelen hem de giden dengeli likidite elde etmesini sağlar.
+reviewed: false

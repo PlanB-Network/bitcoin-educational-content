@@ -1,0 +1,9 @@
+question: Lightning Network bağlamında "RGB State Transition" neyi temsil etmektedir?
+answer: Güncellenmiş RGB varlık tahsisi Commitment işlemlerine entegre edildi
+wrong_answers:
+  - Yeni bir Multisig 2/2 onchain durumu
+  - Güncellenmiş RGB varlık tahsisi fonlama işlemine entegre edilmiştir
+  - On-Chain doğrulama betiği HTLC ile değiştirildi
+explanation: |
+  RGB State Transition, Commitment işlemlerini kullanarak kanaldaki RGB varlıklarının dağılımını günceller.
+reviewed: false

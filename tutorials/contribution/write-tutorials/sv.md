@@ -14,7 +14,7 @@ I den här handledningen tittar vi på hur man lägger till nytt innehåll, till
 ## Vad är skillnaden mellan en handledning och en kurs?
 
 
-De två huvudavsnitten i vår plattform är kurser och handledning. Kurser ger teoretiska utbildningsresurser, medan handledningar ger praktiskt innehåll som visar hur man använder ett specifikt verktyg (till exempel en Hardware Wallet eller programvara) eller en viss metod (till exempel att säkra en Mnemonic-fras eller kontrollera programvarans äkthet).
+De två huvudavsnitten i vår plattform är kurser och handledning. Kurser ger teoretiska utbildningsresurser, medan handledningar ger praktiskt innehåll som visar hur man använder ett specifikt verktyg (t.ex. en Hardware Wallet eller programvara) eller en viss metod (t.ex. att säkra en Mnemonic-fras eller kontrollera programvarans äkthet).
 
 
 Kurser är naturligtvis längre och mer strukturerade än självstudier. De bör utforska ett specifikt ämne relaterat till Bitcoin eller dess ekosystem på djupet, med precision och i detalj.

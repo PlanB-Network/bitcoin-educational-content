@@ -1,0 +1,9 @@
+question: Dağıtık bir ağdaki mutabakat problemine ne ad verilir?
+answer: Bizans Generalleri Sorunu
+wrong_answers:
+  - Romalı Centurionlar Sorunu
+  - Arnavut Albaylar Sorunu
+  - Japon Taishos Sorunu
+explanation: |
+  Bu sorunun adı (Lamport, Shostak ve Pease tarafından 1982'de resmileştirilmiştir) okuyucuyu rencide etmemek için seçilmiştir, çünkü hiç kimse kendisini Bizanslı olarak tanımlamamıştır.
+reviewed: true

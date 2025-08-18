@@ -1,0 +1,9 @@
+question: Halka açık bir Wi-Fi ağında gezinirken VPN'in temel amacı nedir?
+answer: Cihaz ve VPN sunucusu arasındaki trafiği şifreleyin
+wrong_answers:
+  - İnternet bağlantınızı anonimleştirin
+  - Güncellemeleri otomatik olarak yükle
+  - generate güçlü parolalar
+explanation: |
+  VPN, tüm ağ trafiğini şifreleyerek verilerinizi halka açık Wi-Fi gibi güvenli olmayan ağlarda dinlenmeye karşı korur.
+reviewed: false

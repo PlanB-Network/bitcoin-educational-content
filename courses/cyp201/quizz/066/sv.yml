@@ -1,0 +1,9 @@
+question: Vilken del av HMAC-SHA512-utdata används som barn chain code?
+answer: De sista 32 byte
+wrong_answers:
+  - De första 32 byte
+  - Hela 64 byte
+  - SHA256 Hash för de mittersta 32 bytena
+explanation: |
+  De sista 32 bytena i HMAC-SHA512-utdata fungerar som chain code för barnnyckeln.
+reviewed: false

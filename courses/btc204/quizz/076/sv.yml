@@ -1,0 +1,10 @@
+question: Vad är en CoinJoin-transaktion?
+answer: En samarbetstransaktion där flera användare slår samman sina UTXO:er.
+wrong_answers:
+  - En kollaborativ transaktion mellan endast två användare.
+  - En transaktion där en enskild användare skickar pengar till flera adresser.
+  - En transaktion där en central aktör blandar sina kunders bitcoins.
+explanation: |
+  CoinJoin-transaktionen är en kollaborativ transaktion där flera användare blandar sina mynt.
+  
+reviewed: false

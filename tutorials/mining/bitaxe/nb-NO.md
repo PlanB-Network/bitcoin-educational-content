@@ -2,7 +2,7 @@
 name: Setting Up a BitAxe
 description: Hvordan sette opp en BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Introduksjon
 
 BitAxe er et åpen kildekode-prosjekt skapt av Skot og [tilgjengelig på GitHub](https://github.com/skot/bitaxe) som tillater kostnadseffektiv eksperimentering med mining.

@@ -1,0 +1,13 @@
+question: Avusturyalı ekonomistlere göre, bireylerin işlerinde uzmanlaşmalarının ve mübadeleye girmelerinin sonucu nedir?
+answer: Bireyler her zaman daha iyi durumdadır.
+wrong_answers:
+  - Bireyler her zaman daha kötü durumdadır.
+  - Bireylerin durumunda herhangi bir değişiklik yoktur.
+  - Sonuç kişiye bağlı olarak değişir.
+explanation: |
+  Avusturyalı ekonomistlere göre, bireylerin
+  işlerinde uzmanlaşmak ve değiş tokuş yapmak
+  her zaman daha iyi durumda olduklarına inanırlar. Bunun nedeni
+  uzmanlaşma ve Exchange bireylerin en üst düzeye çıkarmasına izin verir
+  onların öznel faydası.
+reviewed: true

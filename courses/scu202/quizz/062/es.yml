@@ -1,0 +1,9 @@
+question: ¿Qué navegador garantiza el anonimato redirigiendo el tráfico a través de una red descentralizada pero de alta latencia?
+answer: Navegador Tor
+wrong_answers:
+  - Navegador Mullvad
+  - Lince
+  - LibreWolf
+explanation: |
+  Tor Browser se basa en la red Tor para anonimizar la navegación, a costa de una caída significativa del rendimiento.
+reviewed: false

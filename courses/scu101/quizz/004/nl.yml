@@ -1,0 +1,14 @@
+question: Waarom is het aan te raden om cookies te verwijderen na elk bezoek aan een site?
+answer: Om te voorkomen dat sites van derden uw online activiteiten kunnen volgen.
+wrong_answers:
+  - Om opslagruimte op je apparaat te besparen.
+  - Om te voorkomen dat de site uw aanmeldingsgegevens onthoudt.
+  - Om te voorkomen dat de site je gerichte advertenties toont.
+explanation: |
+  Cookies zijn bestanden die door websites worden gemaakt om informatie op te slaan
+  op je apparaat op te slaan. Hoewel sommige sites deze cookies nodig hebben om
+  goed te functioneren, kunnen ze ook worden gebruikt door
+  sites van derden, vooral voor het bijhouden van advertenties
+  doeleinden. Het verwijderen van cookies na elk bezoek aan een site kan
+  helpen dit te voorkomen.
+reviewed: true

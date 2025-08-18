@@ -1,0 +1,9 @@
+question: USB flash sürücülerle ne yapmaktan kaçınmalısınız?
+answer: Bilinmeyen USB bellekleri bağlama
+wrong_answers:
+  - NTFS biçimli USB bellekleri kullanın
+  - Kendi USB belleklerinizi şifreleyin
+  - Yeni USB flash sürücüler kullanın
+explanation: |
+  Bilinmeyen bir USB belleğin takılması bilgisayara kötü amaçlı yazılım bulaştırabilir veya hassas verileri çalabilir.
+reviewed: false

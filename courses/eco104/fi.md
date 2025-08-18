@@ -485,7 +485,7 @@ Ennen Bitcoinin luomista joukko visionäärejä loi pohjan Bitcoinille, kun he v
 
 #### Cypherpunkit
 
-Cypherpunkit ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 70-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
+Cypherpunkit ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 80-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
 
 Yksi merkittävimmistä Cypherpunkkien saavutuksista oli Cypherpunkkien postituslista, perustettu vuonna 1992. Listan kautta yksilöt saattoivat jakaa ideoita ja keskustella kryptografisista teknologioista, digitaalisen valuutan käsitteistä ja yksityisyyteen keskittyvistä aloitteista. Tämä johti samanhenkisten yksilöiden, kuten kehittäjien, aktivistien ja tutkijoiden, yhteisön muodostumiseen.
 

@@ -1,0 +1,9 @@
+question: Tam disk veya USB anahtar şifrelemesi verilerinizin güvenliği için neden çok önemlidir?
+answer: Dosyalara yetkisiz erişimi engeller
+wrong_answers:
+  - Dosya okuma ve yazmayı hızlandırır
+  - Donanım arızalarına karşı koruma sağlar
+  - Disk paylaşımını kolaylaştırır
+explanation: |
+  Tam şifreleme, bir saldırgan diske fiziksel olarak sahip olsa bile verileri anahtar veya parola olmadan tamamen kullanılamaz hale getirir.
+reviewed: false

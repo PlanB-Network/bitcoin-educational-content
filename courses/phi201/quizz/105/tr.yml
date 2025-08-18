@@ -1,0 +1,9 @@
+question: Hayek'in Kölelik Yolu'ndaki temel tezi nedir?
+answer: Devlet müdahaleciliği kaçınılmaz olarak köleliğe yol açar.
+wrong_answers:
+  - Sosyalizm ve Nazizm temelde farklı ideolojilerdir.
+  - Özel mülkiyet sınırlı olduğu sürece adildir.
+  - Köleliğe giden yolda hız sınırı saatte 80 km'dir.
+explanation: |
+  Hayek, Köleliğe Giden Yol'da devletin ekonomiye müdahalesinin giderek özgürlük kaybına yol açtığını, çünkü merkezi planlamanın kaçınılmaz olarak bireysel özgürlüğün kısıtlanmasına neden olduğunu savunur.
+reviewed: true

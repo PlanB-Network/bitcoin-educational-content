@@ -1,0 +1,9 @@
+question: Vad är det bästa sättet att få fjärråtkomst till ditt hemnätverk?
+answer: Använda ett personligt VPN
+wrong_answers:
+  - Öppna en offentlig SSH-port
+  - Aktivera routermolnet
+  - Använd WPS
+explanation: |
+  VPN skapar en krypterad tunnel för åtkomst till det lokala nätverket utan att exponera en kritisk port mot Internet.
+reviewed: false

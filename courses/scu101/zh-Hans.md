@@ -319,7 +319,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - 通过短信发送的临时代码。
 - 由Google Authenticator或Authy之类的应用生成的代码。
 - 插入计算机的物理安全密钥。
+
   ![](assets/notext/19.webp)
+
   即使黑客获得了您的密码，2FA阻止他们在没有这第二重验证因素的情况下访问您的账户。这使得2FA对于保护您的在线账户免受未经授权的访问至关重要。
 
 ### 选择哪个选项？
@@ -331,6 +333,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - 硬件令牌，如USB密钥或智能卡，通过为每个站点生成唯一的私钥并在允许连接前验证URL，提供最佳的安全性。
 
 为了获得最佳的强认证安全性，建议使用安全的电子邮件地址、安全的密码管理器，并采用YubiKeys进行2FA。还建议购买两个YubiKeys以预防丢失或盗窃，例如，在家和身上各保留一份备份。
+
+关于SIM卡双因素认证（2FA）的潜在威胁，一个常见的例子是SIM卡交换攻击，在这种攻击中，攻击者通过将用户的电话号码链接到攻击者控制的SIM卡来窃取用户的电话号码。攻击者可以通过多种方式完成攻击；然而，这种威胁通常只对高知名度的个人和关注的人构成重大担忧。
 
 生物识别可以作为替代，但它不如知识和拥有的组合安全。生物识别数据应保留在认证设备上，不应在线披露。重要的是要考虑与不同认证方法相关的威胁模型，并相应地调整实践。
 
@@ -399,18 +403,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## 备份设置
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在不同的位置。这样的做法可以确保您的敏感文件的可访问性和安全性：
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## 更换浏览器和VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -426,6 +418,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## 备份设置
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在不同的位置。这样的做法可以确保您的敏感文件的可访问性和安全性：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 进一步了解
 

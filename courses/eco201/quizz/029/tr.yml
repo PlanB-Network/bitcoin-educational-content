@@ -1,0 +1,17 @@
+question: Zaman tercihi kavramı nedir?
+answer: Zaman tercihi, gelecekteki malların değerinin şimdiki mallara kıyasla öznel olarak değerlendirilmesidir. Diğer her şey eşit olduğunda, şimdiki mallar doğal olarak gelecekteki mallara tercih edilir.
+wrong_answers:
+  - Zaman tercihi, gelecekteki malların değerinin şimdiki mallara kıyasla objektif olarak değerlendirilmesidir.
+  - Zaman tercihi, gelecekteki malların şimdiki mallara göre doğal tercihidir.
+  - Zaman tercihi, gelecekteki mallara kıyasla şimdiki malların değerinin öznel olarak değerlendirilmesidir.
+explanation: |
+  Zaman tercihi, değerin öznel değerlendirmesidir
+  gelecekteki malların şimdiki mallara kıyasla. Çünkü biz
+  ölümlüyüz ve gelecek her zaman belirsizdir, doğal olarak
+  bir mala daha sonra erişmek yerine şimdi erişmeyi tercih eder.
+  Zaman tercihi bireyler arasında farklılık gösterebilirken
+  kültür, zenginlik, eğitim gibi sayısız faktöre bağlıdır,
+  fizyoloji, vb. zaman tercihleri her zaman olumludur,
+  yani her şey eşit olduğunda, her zaman şimdiki zamana değer veririz
+  mallar gelecekteki mallardan daha fazla.
+reviewed: true

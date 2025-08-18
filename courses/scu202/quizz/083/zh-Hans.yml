@@ -1,0 +1,9 @@
+question: 哪种信息服务允许您完全匿名注册，无需电话号码或永久登录？
+answer: SimpleX 聊天
+wrong_answers:
+  - 信号
+  - 电报
+  - WhatsApp
+explanation: |
+  SimpleX Chat摒弃了唯一标识符的概念：联系人通过短暂链接或 QR 码添加，无需个人数据。
+reviewed: false

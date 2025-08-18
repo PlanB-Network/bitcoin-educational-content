@@ -1,0 +1,9 @@
+question: Komponen Android mana yang tetap menjadi sumber terbuka dan dapat diaudit oleh komunitas?
+answer: AOSP
+wrong_answers:
+  - Layanan Seluler Google
+  - Play Store
+  - IOSP
+explanation: |
+  Hanya basis AOSP Android yang gratis. Layanan Seluler Google yang digunakan secara luas adalah hak milik dan tidak dapat diaudit.
+reviewed: false

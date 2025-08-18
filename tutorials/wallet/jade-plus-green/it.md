@@ -119,7 +119,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Per le istruzioni sull'installazione e la configurazione dell'applicazione Blockstream Green, consulta la prima parte di quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Una volta entrato su Green, clicca sul pulsante "*Configure a new wallet*".
 
@@ -290,3 +290,4 @@ Congratulazioni, ora sai come configurare e utilizzare Jade Plus con l'applicazi
 Per fare un ulteriore passo avanti, ti consiglio questo tutorial su Jade Plus, in cui lo configuriamo con il software Sparrow usando il codice QR. Imparerai anche ad utilizzare le impostazioni avanzate del tuo Hardware wallet:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

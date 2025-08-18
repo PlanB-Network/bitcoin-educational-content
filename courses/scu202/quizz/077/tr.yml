@@ -1,0 +1,9 @@
+question: Android için Shelter uygulaması nedir?
+answer: Kullanımları bölümlemek için yalıtılmış bir profil oluşturun
+wrong_answers:
+  - Tüm telefon verilerini otomatik olarak şifreleyin
+  - İstenmeyen aramaları engelleyin
+  - Play Store dışındaki uygulamaları yükleme
+explanation: |
+  Shelter, uygulamaları ve verileri yalıtılmış bir alanda ayırmak için Çalışma Profili işlevini kullanmanızı sağlar.
+reviewed: false

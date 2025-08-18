@@ -1,0 +1,13 @@
+question: İtibari para birimlerinin temel dezavantajı nedir?
+answer: Değerleri parasal enflasyon tarafından sürekli olarak aşındırılmaktadır.
+wrong_answers:
+  - Kolayca taşınamazlar.
+  - Değerleri parasal enflasyon tarafından sürekli olarak takdir edilmektedir.
+  - Bölünemezler.
+explanation: |
+  Fiat para birimlerinin ana dezavantajı, örneğin
+  dolar ve euro, değerlerinin sürekli olarak
+  parasal enflasyon tarafından aşındırılmıştır. Bunun nedeni
+  onları kontrol eden varlıkların neden olduğu devalüasyon (kral,
+  merkez bankası, imparator, diktatör).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji se distribucija smatra najstarijom koja se još uvek održava?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, kreiran 1993. godine od strane Patricka Volkerdinga, najstarija je Linux distribucija koja je i dalje aktivna danas.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 2'lik enflasyonun 5 yıl boyunca satın alma gücü üzerindeki etkisi nedir?
+answer: Satın alma gücünüzün %10'unu kaybedersiniz.
+wrong_answers:
+  - Satın alma gücünüzün %2'sini kaybedersiniz.
+  - Satın alma gücünüzün %5'ini kaybedersiniz.
+  - Satın alma gücünüzün %20'sini kaybedersiniz.
+explanation: |
+  2 enflasyon ile satın alma gücünüzün %2'sini kaybedersiniz
+  bu da 5 yılda %10'a denk gelmektedir.
+reviewed: true

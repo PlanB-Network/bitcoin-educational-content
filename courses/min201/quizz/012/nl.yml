@@ -1,0 +1,14 @@
+question: Hoe werkt een Mining pool en waarom is het nodig?
+answer: Een Mining pool is een groep miners die hun computerbronnen combineren om hun kansen op Mining te vergroten. Deze samenwerking is nodig omdat een geïsoleerde kleine Mining machine het opneemt tegen reuzen uit de industrie, waardoor de kans op succes te verwaarlozen is. Door samen te werken, kunnen mijners hun rekenkracht combineren, vaker blokken vinden en dan de beloningen verdelen in verhouding tot de bijdrage van elke Miner aan de pool.
+wrong_answers:
+  - Een Mining pool is een groep mijnwerkers die dezelfde Mining machine delen om hun kansen op Mining te vergroten. Deze samenwerking is nodig omdat een enkele Mining machine maar een beperkte hoeveelheid Bitcoin kan delven.
+  - Een Mining pool is een groep mijnwerkers die dezelfde Mining software delen om hun kansen op Mining te verhogen. Deze samenwerking is nodig omdat verschillende Mining software verschillende efficiënties hebben.
+  - Een Mining pool is een groep mijnwerkers die dezelfde Mining locatie delen om hun kansen op Mining te vergroten. Deze samenwerking is nodig omdat de locatie van de Mining operatie de efficiëntie van Mining kan beïnvloeden.
+explanation: |
+  Het hoofdstuk legt uit dat een Mining pool een groep
+  mijnwerkers die hun rekenkracht combineren om hun
+  hun kansen op Mining te vergroten. Deze samenwerking is nodig
+  omdat een geïsoleerde kleine Mining machine concurreert
+  tegen industriegiganten, waardoor de kans op succes te verwaarlozen is
+  te verwaarlozen.
+reviewed: true

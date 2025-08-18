@@ -1,0 +1,9 @@
+question: Hoeveel bits is de checksum voor een entropie van 128 bits?
+answer: 4 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 6 bits
+explanation: |
+  De lengte van de controlesom wordt berekend met de formule CS = ENT / 32, wat gelijk is aan 4 bits voor een entropie van 128 bits.
+reviewed: false

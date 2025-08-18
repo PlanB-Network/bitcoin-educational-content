@@ -1,0 +1,9 @@
+question: Millä avoimen lähdekoodin työkalulla voi täysin salata levyn Linuxissa?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) on Linuxin vakioratkaisu koko levyn salaukseen asennuksen aikana.
+reviewed: false

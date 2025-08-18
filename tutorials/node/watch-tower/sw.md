@@ -23,7 +23,7 @@ Jicho la Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos?ref=blog.
 2. teos-common: Ikiwa ni pamoja na utendakazi wa upande wa seva na upande wa mteja (husaidia kuunda mteja).
 
 
-Ili kuendesha mnara kwa mafanikio, utahitaji bitcoind kukimbia kabla ya kuendesha mnara kwa amri ya teosd. Kabla ya kutekeleza amri hizi zote mbili unahitaji kusanidi faili yako ya Bitcoin.conf. Hapa kuna hatua za jinsi ya kufanya hivi:-
+Ili kuendesha mnara kwa mafanikio, utahitaji bitcoind kukimbia kabla ya kuendesha mnara kwa amri ya teosd. Kabla ya kutekeleza amri hizi zote mbili unahitaji kusanidi faili yako ya Bitcoin.conf. Hapa kuna hatua za jinsi ya kufanya hivyo:-
 
 
 1. Sakinisha msingi wa Bitcoin kutoka kwa chanzo au uipakue. Baada ya kupakua, weka faili ya Bitcoin.conf kwenye saraka ya msingi ya mtumiaji wa Bitcoin. Angalia kiungo hiki kwa maelezo zaidi kuhusu mahali pa kuweka faili kwani inategemea mfumo wa uendeshaji unaotumia.

@@ -1,0 +1,9 @@
+question: Bir Hash fonksiyonunun ana işlevi nedir?
+answer: İsteğe bağlı uzunluktaki bilgileri sabit boyutlu bir parmak izine dönüştürür
+wrong_answers:
+  - Mesajları okunamaz hale getirmek için şifreler
+  - Yalnızca Bitcoin yazılımının bütünlüğünü doğrulamak için kullanılır
+  - Bitcoin cüzdanları için özel anahtarlar üretir
+explanation: |
+  Bir Hash işlevi, herhangi bir boyuttaki veriyi sabit boyutlu bir Hash'e dönüştürür ve Bitcoin'teki birçok uygulama için çok önemlidir.
+reviewed: false

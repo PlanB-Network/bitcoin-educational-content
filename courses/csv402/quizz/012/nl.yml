@@ -1,0 +1,9 @@
+question: Wat is een Assignment in het RGB protocol?
+answer: Een uitvoer die eigenschappen in de toestand van een Contract wijzigt, bijwerkt of creëert
+wrong_answers:
+  - Een unieke cryptografische Commitment opgeslagen in een Bitcoin transactie
+  - Een Bitcoin transactie gedeeltelijk ondertekend voor de definitieve validatie
+  - Een openbare update van de Global State
+explanation: |
+  Een Assignment combineert een Seal Definition en een Owned State om een toegewezen deel van de staat te vertegenwoordigen.
+reviewed: false

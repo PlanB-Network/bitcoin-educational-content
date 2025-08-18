@@ -1,0 +1,10 @@
+question: Vad påverkar vikten av en Bitcoin-transaktion?
+answer: Antalet ingångar och utgångar.
+wrong_answers:
+  - Storleken på Blockchain.
+  - Storleken på in- och utmatningarna.
+  - Åldern på de UTXO:er som används.
+explanation: |
+  Ju fler in- och utgångar en Bitcoin-transaktion har, desto tyngre kommer den att vara i vB.
+  
+reviewed: false

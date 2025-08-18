@@ -1,0 +1,9 @@
+question: İlkel bir akış şifresi ile blok şifreli bir akış şifresi arasındaki temel fark nedir?
+answer: İlkel bir akış şifresi bir blok şifreden oluşturulmaz.
+wrong_answers:
+  - İlkel bir akış şifresi mesajların doldurulmasını gerektirir.
+  - Bir blok şifreleme akış şifresi değişken büyüklükte bloklar kullanır.
+  - Bir blok şifre akış şifresi büyük veriler için kullanılamaz.
+explanation: |
+  Salsa20 gibi ilkel bir akış şifresi, bir blok şifreden bağımsız olarak tasarlanırken, bir blok şifre akış şifresi, bir şifreleme akışı üretmek için değiştirilmiş bir blok şifreyi temel olarak kullanır.
+reviewed: false

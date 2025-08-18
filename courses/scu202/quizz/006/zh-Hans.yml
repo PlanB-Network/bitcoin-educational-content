@@ -1,0 +1,9 @@
+question: 操作系统内核的主要功能是什么？
+answer: 设备使用管理
+wrong_answers:
+  - 显示广告
+  - 管理用户账户
+  - 自动安装应用程序
+explanation: |
+  内核协调硬件访问、并发进程执行和安全性，同时向用户隐藏电路的复杂性。
+reviewed: false

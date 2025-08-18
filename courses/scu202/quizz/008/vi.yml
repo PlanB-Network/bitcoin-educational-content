@@ -1,0 +1,9 @@
+question: Nhược điểm chính của hệ sinh thái macOS là gì?
+answer: Sự hạn chế và phụ thuộc vào Apple
+wrong_answers:
+  - Quá nhiều phần mềm mở
+  - Tối ưu hóa đồ họa yếu
+  - Thiếu cập nhật
+explanation: |
+  Sự tích hợp chặt chẽ của MacOS với phần cứng của Apple dẫn đến sự phụ thuộc và gắn chặt vào hệ sinh thái độc quyền của thương hiệu này.
+reviewed: false

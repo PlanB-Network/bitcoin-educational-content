@@ -1,0 +1,9 @@
+question: Welk type groep is bijzonder belangrijk voor publieke sleutel cryptografie vanwege de mogelijkheid om generate alle Elements door exponentiëren?
+answer: Cyclische groepen
+wrong_answers:
+  - Niet-abeliaanse groepen
+  - Oneindige groepen
+  - Complexe getallengroepen
+explanation: |
+  In cryptografie zijn cyclische groepen essentieel omdat ze het mogelijk maken om alle Elements van de groep te genereren door exponentiëring van een enkel element, een generator genaamd.
+reviewed: false

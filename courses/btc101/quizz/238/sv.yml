@@ -1,0 +1,8 @@
+question: Vad innebär begreppet penningströmning i samband med Lightning Network?
+answer: Gör kontinuerliga mikrobetalningar i realtid.
+wrong_answers:
+  - Omvandla Bitcoin till kontanter på en fysisk plats med hjälp av en bankomat.
+  - Streaming av ljud- eller videoinnehåll för Bitcoin.
+  - Skapande av nya bitcoins genom Mining-operationer som sker i realtid.
+explanation: >-
+reviewed: true

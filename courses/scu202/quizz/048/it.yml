@@ -1,0 +1,9 @@
+question: Perché la crittografia dell'intero disco o della chiave USB è fondamentale per la sicurezza dei vostri dati?
+answer: Impedisce l'accesso non autorizzato ai file
+wrong_answers:
+  - Accelera la lettura e la scrittura dei file
+  - Protegge dai guasti hardware
+  - Facilita la condivisione del disco
+explanation: |
+  La crittografia completa rende i dati completamente inutilizzabili senza la chiave o la password, anche se un aggressore possiede fisicamente il disco.
+reviewed: false

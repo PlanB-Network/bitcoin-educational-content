@@ -1,0 +1,32 @@
+id: de90fda0-879c-4f3a-841e-7a96af51988c
+
+name: Quantum Hash
+
+address_line_1: Lusaka, Zambia
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://quantumhash.co/
+  twitter: https://x.com/QuantumHashCo
+  Github: 
+  youtube: 
+
+category: mining
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - mining
+  - bitcoin
+  - energy
+
+contributor_names:
+  - Gloirew

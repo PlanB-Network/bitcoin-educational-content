@@ -1,0 +1,9 @@
+question: ¿Qué datos locales permiten a los anunciantes rastrear tus hábitos de navegación en varios sitios?
+answer: Cookies de terceros
+wrong_answers:
+  - Código JavaScript
+  - Historia local
+  - El certificado SSL
+explanation: |
+  Las cookies de terceros, colocadas por agencias de publicidad externas, se utilizan para rastrear la actividad del usuario en diferentes sitios y establecer un perfil publicitario.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de rol van de Stash?
+answer: Bewaar alle gegevens aan de clientzijde lokaal
+wrong_answers:
+  - Automatisch transacties publiceren op de Blockchain
+  - Alle gegenereerde facturen verzamelen en opslaan
+  - Bitcoin privésleutels beheren
+explanation: |
+  Stash is de set client-side gegevens die een gebruiker lokaal opslaat voor één of meer RGB contracten, om Client-side Validation uit te voeren.
+reviewed: false

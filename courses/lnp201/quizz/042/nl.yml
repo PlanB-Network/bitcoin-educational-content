@@ -1,0 +1,9 @@
+question: Welk criterium kan een knooppunt helpen om een efficiënte betalingsroute te kiezen?
+answer: De kans op succes gebaseerd op de totale capaciteit van de kanalen
+wrong_answers:
+  - De geografische afstand tussen de knooppunten
+  - De aanwezigheid van knooppunten met een laag vergoedingsniveau
+  - Het aantal betalingen door het doelknooppunt
+explanation: |
+  De totale capaciteit van de kanalen kan duiden op een grotere kans op succes, omdat het duidt op een grotere beschikbaarheid van liquiditeit voor transacties.
+reviewed: false

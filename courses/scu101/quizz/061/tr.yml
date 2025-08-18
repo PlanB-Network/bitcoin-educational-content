@@ -1,0 +1,10 @@
+question: Siber güvenlikte kullanılan programlama dillerinden bazıları nelerdir?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  Bu bölüm Python, C ve Java'yı şu kaynaklardan bazıları olarak listelemektedir
+  siber güvenlikte kullanılan programlama dilleri.
+reviewed: true

@@ -145,7 +145,7 @@ Anslut slutligen strömmen:
 ## Hitta IP-adressen Address för Pi
 
 
-Du behöver aldrig någon bildskärm med MyNode. Däremot behöver du en annan dator i hemnätverket. Om din Pi inte är ansluten via Ethernet och du vill förlita dig på WiFi, kräver det datorvana på hög nivå att hitta IP:n. Jag kan inte hjälpa dig, tyvärr. Du behöver en Ethernet-anslutning. (Problemet kommer från att du behöver tillgång till en bildskärm och operativsystemet för att ansluta till WiFi och ange ett lösenord).
+Du behöver aldrig någon bildskärm med MyNode. Däremot behöver du en annan dator i hemnätverket. Om din Pi inte är ansluten via Ethernet och du vill förlita dig på WiFi, kräver det datorvana på hög nivå att hitta IP:n. Jag kan inte hjälpa dig, tyvärr. Du behöver en Ethernet-anslutning. (Problemet är att du behöver tillgång till en bildskärm och operativsystemet för att ansluta till WiFi och ange ett lösenord).
 
 
 Kontrollera din router för att få en lista över alla IP-adresser för alla anslutna enheter.

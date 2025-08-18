@@ -1,12 +1,12 @@
 ---
 name: Ledger U2F & FIDO2
-description: Aumente su seguridad en línea con Ledger
+description: Aumenta tu seguridad en línea con Ledger
 ---
 ![cover](assets/cover.webp)
 
 
 
-Los dispositivos Ledger son monederos de hardware diseñados originalmente para asegurar un Bitcoin Wallet, pero también cuentan con opciones avanzadas para una autenticación fuerte en la web. Gracias a su compatibilidad con los protocolos **U2F** y **FIDO2**, le permiten proteger el acceso a sus cuentas en línea estableciendo un segundo factor de autenticación.
+Los dispositivos Ledger son monederos de hardware diseñados originalmente para asegurar una billetera Bitcoin, pero también cuentan con opciones avanzadas para una autenticación fuerte en la web. Gracias a su compatibilidad con los protocolos **U2F** y **FIDO2**, permiten proteger el acceso a tus cuentas en línea estableciendo un segundo factor de autenticación.
 
 
 
@@ -30,7 +30,7 @@ En este tutorial, te mostraremos cómo activar U2F y FIDO2 para la autenticació
 
 
 
-Si utiliza un dispositivo Ledger, probablemente sabrá que el firmware por sí solo no contiene todas las funciones necesarias para gestionar criptocarteras. Por ejemplo, para utilizar un Bitcoin Wallet, necesitará instalar la aplicación "*Bitcoin*". Del mismo modo, para gestionar claves MFA, necesitarás instalar la aplicación "*Security Key*".
+Si utilizas un dispositivo Ledger, probablemente sabrás que el firmware por sí solo no contiene todas las funciones necesarias para gestionar criptocarteras. Por ejemplo, para utilizar una billetera Bitcoin, necesitarás instalar la aplicación "*Bitcoin*". Del mismo modo, para gestionar claves MFA, necesitarás instalar la aplicación "*Security Key*".
 
 
 
@@ -46,7 +46,7 @@ Conecta tu Ledger al ordenador y desbloquéalo.
 
 
 
-Para instalar la aplicación, abra el software [Ledger Live] (https://www.Ledger.com/Ledger-live) y, a continuación, vaya a la pestaña "*Mi Ledger*". Busca la aplicación "*Llave de seguridad*" e instálala en tu dispositivo.
+Para instalar la aplicación, abre el software [Ledger Live] (https://www.Ledger.com/Ledger-live) y, a continuación, ve a la pestaña "*Mi Ledger*". Busca la aplicación "*Llave de seguridad*" e instálala en tu dispositivo.
 
 
 
@@ -54,7 +54,7 @@ Para instalar la aplicación, abra el software [Ledger Live] (https://www.Ledger
 
 
 
-La aplicación "*Llave de seguridad*" debería aparecer ahora junto a las demás aplicaciones instaladas en su Ledger.
+La aplicación "*Llave de seguridad*" debería aparecer ahora junto a las demás aplicaciones instaladas en tu Ledger.
 
 
 
@@ -62,7 +62,7 @@ La aplicación "*Llave de seguridad*" debería aparecer ahora junto a las demás
 
 
 
-Haga clic en la aplicación para dejarla abierta para los siguientes pasos del tutorial.
+Haz clic en la aplicación para dejarla abierta para los siguientes pasos del tutorial.
 
 
 
@@ -74,7 +74,7 @@ Haga clic en la aplicación para dejarla abierta para los siguientes pasos del t
 
 
 
-Accede a la cuenta que quieres proteger con la autenticación de dos factores. Por ejemplo, voy a utilizar una cuenta de Bitwarden. Normalmente encontrarás la opción 2FA en la configuración del servicio, en las pestañas "*autenticación*", "*seguridad*", "*inicio de sesión*" o "*contraseña*".
+Accede a la cuenta que quieres proteger con la autenticación de dos factores. Por ejemplo, vamos a utilizar una cuenta de Bitwarden. Normalmente encontrarás la opción 2FA en la configuración del servicio, en las pestañas "*autenticación*", "*seguridad*", "*inicio de sesión*" o "*contraseña*".
 
 
 
@@ -90,7 +90,7 @@ En la sección dedicada a la autenticación de dos factores, selecciona la opci�
 
 
 
-A menudo se le pedirá que confirme su contraseña actual.
+A menudo se te pedirá que confirmes tu contraseña actual.
 
 
 
@@ -98,7 +98,7 @@ A menudo se le pedirá que confirme su contraseña actual.
 
 
 
-Asigne un nombre a su clave de seguridad para facilitar su reconocimiento y, a continuación, haga clic en "*Leer clave*".
+Asigna un nombre a tu clave de seguridad para facilitar su reconocimiento y, a continuación, haz clic en "*Leer clave*".
 
 
 
@@ -106,7 +106,7 @@ Asigne un nombre a su clave de seguridad para facilitar su reconocimiento y, a c
 
 
 
-Los datos de su cuenta aparecerán en la pantalla de Ledger. Pulse el botón "*Registrar*" para confirmar (o ambos botones simultáneamente, según el modelo que esté utilizando).
+Los datos de tu cuenta aparecerán en la pantalla de Ledger. Pulsa el botón "*Registrar*" para confirmar (o ambos botones simultáneamente, según el modelo que estés utilizando).
 
 
 
@@ -122,7 +122,7 @@ La clave de acceso se ha registrado correctamente.
 
 
 
-Registre esta clave de seguridad.
+Registra esta clave de seguridad.
 
 
 
@@ -146,11 +146,11 @@ A continuación, puedes pulsar el botón "*Iniciar sesión*" de la pantalla de t
 
 
 
-La ventaja de utilizar una Hardware Wallet Ledger para la autenticación de dos factores es que puedes recuperar fácilmente tus claves gracias a la frase Mnemonic. Además de esta copia de seguridad básica, también puede utilizar un código de emergencia suministrado por cada servicio en el que haya activado 2FA. Este código de emergencia te permite conectarte a tu cuenta si pierdes tu clave de seguridad. Por tanto, sustituye a la 2FA para una conexión en caso de necesidad.
+La ventaja de utilizar una Billetera de Hardware Ledger para la autenticación de dos factores es que puedes recuperar fácilmente tus claves gracias a la frase Mnemonic. Además de esta copia de seguridad básica, también puedes utilizar un código de emergencia suministrado por cada servicio en el que hayas activado 2FA. Este código de emergencia te permite conectarte a tu cuenta si pierdes tu clave de seguridad. Por tanto, sustituye a la 2FA para una conexión en caso de necesidad.
 
 
 
-En Bitwarden, por ejemplo, puede acceder a este código haciendo clic en "*Ver código de recuperación*".
+En Bitwarden, por ejemplo, puedes acceder a este código haciendo clic en "*Ver código de recuperación*".
 
 
 
@@ -158,25 +158,25 @@ En Bitwarden, por ejemplo, puede acceder a este código haciendo clic en "*Ver c
 
 
 
-Te recomiendo que guardes este código en un lugar distinto de donde guardas tu contraseña principal, para evitar que te los roben juntos. Por ejemplo, si tu contraseña está guardada en un gestor de contraseñas, guarda tu código de emergencia 2FA en papel, por separado.
+Te recomendamos que guardes este código en un lugar distinto de donde guardas tu contraseña principal, para evitar que te los roben juntos. Por ejemplo, si tu contraseña está guardada en un gestor de contraseñas, guarda tu código de emergencia 2FA en papel, por separado.
 
 
 
-Este enfoque le ofrece dos niveles de copia de seguridad en caso de pérdida de su Ledger para la autenticación 2FA: una primera copia de seguridad utilizando la frase Mnemonic para todas sus cuentas, y una segunda copia de seguridad específica para cada cuenta utilizando los códigos de emergencia. Sin embargo, es importante **no confundir la función de la Mnemonic con la del código de emergencia** :
+Este enfoque ofrece dos niveles de copia de seguridad en caso de pérdida de tu Ledger para la autenticación 2FA: Una primera copia de seguridad utilizando la frase Mnemonic para todas tus cuentas, y una segunda copia de seguridad específica para cada cuenta utilizando los códigos de emergencia. Sin embargo, es importante **no confundir la función de la Mnemonic con la del código de emergencia** :
 
 
 
 
-- La frase Mnemonic de 12 o 24 palabras le da acceso no sólo a las claves utilizadas para 2FA en todas sus cuentas, sino también a sus bitcoins asegurados con su Ledger ;
-- El código de emergencia le permite eludir temporalmente la solicitud 2FA sólo en la cuenta en cuestión (en este ejemplo, sólo en Bitwarden).
+- La frase Mnemonic de 12 o 24 palabras te da acceso no sólo a las claves utilizadas para 2FA en todas tus cuentas, sino también a tu Bitcoin asegurado en tu Ledger ;
+- El código de emergencia te permite eludir temporalmente la solicitud 2FA sólo en la cuenta en cuestión (en este ejemplo, sólo en Bitwarden).
 
 
 
-Enhorabuena, ¡ya estás al día en el uso de tu Ledger para MFA! Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartir este tutorial en tus redes sociales. Muchas gracias
+Enhorabuena, ¡ya estás al día en el uso de tu Ledger para MFA! Si este tutorial te ha resultado útil, te agradeceríamos que dejaras un pulgar verde a continuación. No dudes en compartir este tutorial en tus redes sociales. Muchas gracias
 
 
 
-También te recomiendo este otro tutorial, en el que vemos otra solución para la autenticación U2F y FIDO2:
+También te recomendamos este otro tutorial, en el que vemos otra solución para la autenticación U2F y FIDO2:
 
 
 

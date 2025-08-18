@@ -1,7 +1,7 @@
 question: Quel est le but de l'ajustement de difficulté dans le minage de Bitcoin ?
 answer: Il rééquilibre le jeu mondial de minage en fonction du nombre de participants.
 wrong_answers:
-  - Il augmente la récompense pour le minage.
+  - Il augmente la récompense de minage.
   - Il diminue le nombre de bitcoins en circulation.
   - Il augmente la sécurité du réseau Bitcoin.
 explanation: >-

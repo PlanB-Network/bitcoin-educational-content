@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med att definiera din användarprofil?
+answer: Att anta en strategi som är anpassad till dina behov
+wrong_answers:
+  - För att maximera spekulation och därmed vinster
+  - Att anta en allmän strategi som fungerar för alla
+  - För att veta vilken Bitcoin-influencer du ska följa på sociala medier
+explanation: |
+  Genom att känna till din profil och kunna justera den kan du välja förvärvs- och förvaringslösningar som passar din personliga situation.
+reviewed: false

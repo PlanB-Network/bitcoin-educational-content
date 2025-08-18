@@ -1,0 +1,9 @@
+question: Wat onderscheidt een RC4-sleutelstroom van standaardlengte van de vereenvoudigde versie in het voorbeeld?
+answer: De lengte van de S-array in standaard RC4 is 256 bytes
+wrong_answers:
+  - De S-array is beperkt tot 128 bytes
+  - De gebruikte sleutel moet meer dan 8 bytes zijn
+  - Er is geen vaste lengte voor S in standaard RC4
+explanation: |
+  In standaard RC4 bevat de S-array 256 bytes, wat de complexiteit van de berekeningen aanzienlijk verhoogt en de beveiliging verbetert in vergelijking met de vereenvoudigde versie met slechts 8 bytes.
+reviewed: false

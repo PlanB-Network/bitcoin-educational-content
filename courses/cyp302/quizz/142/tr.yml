@@ -1,0 +1,9 @@
+question: Bir sonucu bir yönde hesaplamanın kolay olduğu ancak tersine çevirmenin neredeyse imkansız olduğu bir probleme ne ad verilir?
+answer: Tek yönlü bir fonksiyon
+wrong_answers:
+  - Doğrusal bir fonksiyon
+  - Üstel bir fonksiyon
+  - Tersine çevrilebilir bir fonksiyon
+explanation: |
+  Tek yönlü fonksiyonlar bir yönde hızlı hesaplamaya izin verir, ancak ters çözümü pratik olarak imkansız hale getirir, bu nedenle kriptografide kullanılırlar.
+reviewed: false

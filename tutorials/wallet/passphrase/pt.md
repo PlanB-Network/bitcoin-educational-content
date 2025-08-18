@@ -29,6 +29,10 @@ Finalmente, usar uma frase-senha é interessante quando se deseja controlar a al
 ## Como escolher uma boa frase-senha?
 Para que a frase-senha seja eficaz, ela deve ser suficientemente longa e aleatória. Assim como com uma senha forte, eu recomendo escolher uma frase-senha que seja o mais longa e aleatória possível, com uma variedade de letras, números e símbolos para tornar qualquer ataque de força bruta impossível.
 
+De acordo com [um estudo realizado pela Trezor em 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), um atacante com acesso à sua seed e usando uma GPU de alto desempenho alugada na AWS (NVIDIA Tesla V100) poderia testar quase 620 milhões de frases-senha por 1 dólar. Como referência, com as capacidades de 2019, uma frase-senha composta por 12 letras minúsculas aleatórias custaria em média **77 milhões de dólares** para ser quebrada.
+
+No entanto, não recomendo que se limite a 12 caracteres. Em vez disso, siga os padrões atuais para senhas fortes: em 2025, use no mínimo 13 caracteres aleatórios que incluam números, letras minúsculas e maiúsculas, além de símbolos; ou 14 caracteres caso utilize apenas letras minúsculas e maiúsculas. Naturalmente, recomendo que vá além e adote, por exemplo, uma frase secreta com 20 caracteres e símbolos, para antecipar futuras evoluções e considerar os riscos humanos que não são contemplados nesses estudos.
+
 Também é importante salvar corretamente esta frase-senha, da mesma forma que a frase mnemônica. **Perdê-la significa perder o acesso aos seus bitcoins**. Eu aconselho fortemente contra memorizá-la somente em sua cabeça, pois isso aumenta irrazoavelmente o risco de perda. O ideal é escrevê-la em um meio físico (papel ou metal) separado da frase mnemônica. Este backup deve obviamente ser armazenado em um local diferente de onde sua frase mnemônica é mantida para prevenir que ambos sejam comprometidos simultaneamente.
 
 ## Tutoriais

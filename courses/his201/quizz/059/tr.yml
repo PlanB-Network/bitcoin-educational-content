@@ -1,0 +1,9 @@
+question: Hangi forum üyesi 18 Eylül 2010 tarihinde Jeff Garzik'ten gelen cömert bir bağışın ardından Mining algoritmasını halka açtı?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  O zamana kadar, yazılımlarının kullanımından elde ettikleri komisyondan kazanç sağlıyorlardı. Ücretsiz bir lisans altında [yayınladılar] (https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135).
+reviewed: true

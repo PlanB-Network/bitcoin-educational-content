@@ -1,0 +1,9 @@
+question: ホームネットワークのセキュリティ確保に最適なWi-Fi暗号化プロトコルは？
+answer: WPA3
+wrong_answers:
+  - WPA
+  - ウェップ
+  - 高速BSS
+explanation: |
+  WPA3は最新かつ最も安全なプロトコルで、旧バージョンの欠陥を修正し、攻撃に対するより優れた保護を提供する。
+reviewed: false

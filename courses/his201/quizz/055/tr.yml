@@ -1,0 +1,9 @@
+question: Değer taşması olayının ardından, potansiyel güvenlik açıklarının sistem üzerindeki etkisini sınırlamak için Satoshi tarafından yazılıma hangi mekanizma eklendi?
+answer: Uyarı sistemi
+wrong_answers:
+  - İşlemlerin standart niteliği
+  - Blok boyutu sınırı
+  - OP_NOP işlem kodları
+explanation: |
+  Bu etkili uyarı sistemi, teknik bir sorun olması durumunda ağ düğümlerini uyarmak ve bazı API komutlarını askıya almak için özel bir anahtar kullanmasına izin verdi.
+reviewed: true

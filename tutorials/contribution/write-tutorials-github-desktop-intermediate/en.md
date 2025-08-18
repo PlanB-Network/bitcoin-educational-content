@@ -369,7 +369,7 @@ To insert a diagram into your document, use the following Markdown command, maki
 The exclamation point at the beginning indicates that it is an image. The alternative text, which aids in accessibility and SEO, is placed between the brackets. Finally, the path to the image is indicated between the parentheses.
 
 If you wish to create your own diagrams, make sure to adhere to the graphic charter of Plan ₿ Network to ensure visual consistency:
-- **Font**: Use [Rubik](https://fonts.google.com/specimen/Rubik);
+- **Font**: Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - **Colors**:
 	- Orange: #FF5C00
 	- Black: #000000

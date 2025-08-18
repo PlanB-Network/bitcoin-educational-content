@@ -1,0 +1,11 @@
+question: Vilken roll spelar relativa priser i den österrikiska teorin om konjunkturcykeln?
+answer: Relativa priser är viktiga för att samordna ekonomiska aktörer.
+wrong_answers:
+  - Relativa priser är irrelevanta i den österrikiska teorin om konjunkturcykeln.
+  - Relativa priser är viktiga för att bestämma sysselsättningsnivån.
+  - Relativa priser är viktiga för att bestämma BNP-nivån.
+explanation: |
+  Den österrikiska skolan insisterar på vikten av relativa priser för att
+  samordna ekonomiska aktörer. Relativa priser återspeglar den faktiska knappheten
+  av produktionsfaktorer och gör det möjligt för ekonomiska aktörer att rationalisera sina beslut.
+reviewed: true

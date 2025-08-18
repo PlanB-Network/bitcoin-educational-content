@@ -1,0 +1,9 @@
+question: Milline tarkvarakategooria on üks kõige kriitilisemaid arvutirünnakute sisenemiskohti?
+answer: Veebibrauser
+wrong_answers:
+  - PDF-lugeja
+  - Tekstiredaktor
+  - Failihaldur
+explanation: |
+  Veebibrauser on pidevalt avatud välisele sisule, mis muudab selle küberkurjategijate jaoks esmatähtsaks ründevektoriks.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Bland följande svar, vilket av dem tillåter inte att man lurar kedjeanalysheuristiken?
+answer: Använder alltid samma mottagande Address.
+wrong_answers:
+  - Skapar en förändring vars värde ligger nära betalningen.
+  - Utmatning av oregelbundna, icke runda belopp.
+  - Fördelning av transaktionernas spridning över dagen.
+explanation: |
+  Man bör särskilt inte använda en mottagande Address flera gånger. Alla de andra svaren gör det möjligt att undvika heuristiken för kedjeanalys.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji open source pregledač, razvijen od strane neprofitne organizacije, je vodeći eksponent Gecko engine-a?
+answer: Mozilla Firefox
+wrong_answers:
+  - Hrabro
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, razvijen od strane Mozilla Foundation, je vodeći pregledač zasnovan na Gecko-u, poznat po svojoj Commitment prema privatnosti.
+reviewed: false

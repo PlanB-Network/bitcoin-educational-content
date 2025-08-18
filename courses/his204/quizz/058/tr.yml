@@ -1,0 +1,8 @@
+question: Le Trosne tarafından yazılan bir kitabın başlığına göre, ticaret özgürlüğü nasıl tanımlanmaktadır?
+answer: Her zaman yararlı, asla zararlı değil
+wrong_answers:
+  - Her zaman karlı ve her zaman faydalı
+  - Genellikle karlı, her zaman ahlaki
+  - Bazen karlı, bazen zararlı
+explanation: |
+  Le Trosne "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur" başlıklı yazısında serbest ticaretin toplum için her zaman yararlı olduğunu ve asla zararlı olmadığını savunur.

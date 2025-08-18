@@ -1,0 +1,9 @@
+question: Je, ni tofauti gani kuu kati ya biashara na uwekezaji?
+answer: Biashara ni ya muda mfupi na ya kubahatisha, uwekezaji ni wa muda mrefu na wa kimkakati
+wrong_answers:
+  - Biashara inahusisha ada za kudumu, uwekezaji unahusisha ada tofauti
+  - Uuzaji unatokana na uchanganuzi wa kimsingi, kuwekeza kwenye mienendo ya jumla
+  - Biashara ni hatari kidogo kuliko kuwekeza
+explanation: |
+  Biashara inahitaji ufuatiliaji wa mara kwa mara na ujuzi wa kiufundi, wakati uwekezaji unategemea maono ya muda mrefu.
+reviewed: false

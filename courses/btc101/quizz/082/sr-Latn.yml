@@ -1,9 +1,9 @@
-question: Koja je tehnologija koja se koristi za sigurno trošenje sredstava koristeći Bitcoin Wallet?
+question: Koja je tehnologija koja se koristi za sigurno trošenje sredstava koristeći Bitkoin novčanik?
 answer: Kriptografija eliptičkih krivih.
 wrong_answers:
   - Simetrična kriptografija.
   - Kvantna kriptografija.
   - RSA kriptografija.
 explanation: |
-  Trošenje Bitcoina zahteva od vlasnika da koristi Elliptic Curve Digital Signature Algorithm (ECDSA) kako bi stvorio potpis za propagaciju Bitcoin transakcije.
+  Trošenje Bitkoina zahteva od vlasnika da koristi Elliptic Curve Digital Signature Algorithm (ECDSA) kako bi stvorio potpis za propagaciju Bitkoin transakcije.
 reviewed: true

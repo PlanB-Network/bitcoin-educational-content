@@ -1,0 +1,9 @@
+question: Waarom wordt one-time pad beschouwd als een veilige versleutelingsmethode?
+answer: Omdat elk bit van de sleutel willekeurig is en geen enkel deel wordt hergebruikt
+wrong_answers:
+  - Omdat het een willekeurige publieke en private sleutel gebruikt
+  - Omdat het vertrouwt op priemgetallen
+  - Omdat het alleen kleine berichten versleutelt
+explanation: |
+  Het one-time pad is veilig omdat elk bit van de sleutel willekeurig is en nooit hergebruikt wordt, waardoor het geen exploiteerbare sporen achterlaat voor een aanvaller.
+reviewed: false

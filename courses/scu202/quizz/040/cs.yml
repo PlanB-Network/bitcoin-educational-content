@@ -1,0 +1,9 @@
+question: Jaký bezplatný nástroj, dostupný ve všech systémech, lze použít k ověření podpisu souboru a jeho shody s veřejným klíčem?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) je referenční nástroj pro ověřování digitálních podpisů a správu veřejných klíčů.
+reviewed: false

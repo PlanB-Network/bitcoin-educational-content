@@ -6,7 +6,7 @@ wrong_answers:
   - Aucune des réponses ci-dessus.
 explanation: |
   Le premier bloc de la blockchain Bitcoin, également connu sous
-  le nom de bloc de genèse, contient le message 03/jan/2009
-  Le Chancelier au bord d'un second sauvetage des banques, qui est
-  le titre du Times ce jour-là pour horodater le bloc de genèse.
+  le nom de bloc Genesis, contient le message "03/jan/2009
+  Le Chancelier au bord d'un second sauvetage des banques", qui est
+  le titre du *Times* ce jour-là pour horodater le bloc Genesis.
 reviewed: true

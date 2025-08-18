@@ -1,0 +1,9 @@
+question: Kaydırmalı şifreleme ne tür bir şifrelemedir?
+answer: Bir monoalfabetik ikame şifresi
+wrong_answers:
+  - Bir kelime permütasyon şifresi
+  - Bir polialfabetik ikame şifresi
+  - Asimetrik bir şifre
+explanation: |
+  Kaydırmalı şifreleme, mesajdaki her harfin alfabede sabit sayıda pozisyon kaydırıldığı tek alfabeli bir ikame şifreleme örneğidir.
+reviewed: false

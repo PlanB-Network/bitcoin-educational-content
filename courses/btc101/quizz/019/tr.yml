@@ -1,0 +1,12 @@
+question: Paranın üç kanonik işlevi nedir?
+answer: Değer deposu, Exchange aracı, Hesap birimi.
+wrong_answers:
+  - Değer deposu, Exchange aracı, Üretim aracı.
+  - Değer deposu, Üretim aracı, Hesap birimi.
+  - Exchange aracı, Üretim araçları, Hesap birimi.
+explanation: |
+  Aristoteles'e göre para üç işleve hizmet eder
+  bir değer deposu, bir Exchange aracı ve bir birim
+  hesap. Günümüzde, Exchange işlevinin aracı
+  diğer ikisinden önce ana olarak kabul edilmektedir.
+reviewed: true

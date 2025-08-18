@@ -1,0 +1,9 @@
+question: Dolaşımdaki bitcoinlerin yaklaşık maksimum Supply değeri nedir?
+answer: 21 milyon
+wrong_answers:
+  - 10 milyon
+  - 47 milyon
+  - 150 milyon
+explanation: |
+  Bitcoin, yaklaşık 21 milyon bitcoinlik sınırlı bir Supply'ye sahip olacak şekilde programlanmıştır.
+reviewed: false

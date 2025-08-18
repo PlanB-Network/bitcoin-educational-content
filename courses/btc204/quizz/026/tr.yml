@@ -1,0 +1,9 @@
+question: Bu cevaplar arasında hangisi KYC'den geçen kullanıcı için 3 ana riskten biri değildir?
+answer: Satın alınan bitcoinlerin değiştirilemezliği
+wrong_answers:
+  - Devlet gözetimine maruz kalma
+  - Zincir üzerinde takibin kolaylaştırılması
+  - Veri sızıntısı riski
+explanation: |
+  KYC, bilgileriniz saklandığı için veri sızıntısı riski, bilgileriniz iletilebildiği veya ele geçirilebildiği için devlet gözetimine maruz kalma riski ve KYC bir giriş noktası olarak hizmet verebileceği için izleme riski içerir. Ancak KYC, satın alınan bitcoinlerin değiştirilebilirliğini azaltmaz.
+reviewed: false

@@ -117,6 +117,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 12.15
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.14
 tags:
   - protocols
   - smart-contracts

@@ -24,7 +24,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 0.25
   - language: es
     last_contribution_date: 2025-07-25
     urgency: 1

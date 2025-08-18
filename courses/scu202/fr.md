@@ -2004,7 +2004,7 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 #### Sous macOS
 
-macOS est réputé pour sa sécurité, en particulier grâce à ses politiques de signature des applications et à son architecture relativement fermée. Pour un usage personnel, une machine à jour avec les réglages par défaut offre déjà une sécurité correcte. Pour aller plus loin dans la surveillance de votre système, je vous conseille :
+MacOS est réputé pour sa sécurité, en particulier grâce à ses politiques de signature des applications et à son architecture relativement fermée. Pour un usage personnel, une machine à jour avec les réglages par défaut offre déjà une sécurité correcte. Pour aller plus loin dans la surveillance de votre système, je vous conseille :
 
 - **KnockKnock** : scanne tous les éléments configurés pour s’exécuter au démarrage (agents, daemons, modules kernel…) et identifie ceux qui sont potentiellement suspects, non signés ou inconnus. Il permet de repérer rapidement les formes de persistance malveillante sur votre système.
 
@@ -2046,7 +2046,7 @@ En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’i
 
 #### Les solutions techniques : hash et signature numérique
 
-Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le hachage. Un hash est une courte chaîne de caractères calculée de manière déterministe et imprédictible à partir du contenu d’un fichier, à l’aide d’un algorithme de hachage comme SHA-256. Deux fichiers strictement identiques auront exactement le même hash, mais à la moindre modification de ce fichier, le hash changera complètement.
+Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le hashage. Un hash est une courte chaîne de caractères calculée de manière déterministe et imprédictible à partir du contenu d’un fichier, à l’aide d’un algorithme de hashage comme SHA-256. Deux fichiers strictement identiques auront exactement le même hash, mais à la moindre modification de ce fichier, le hash changera complètement.
 
 Le développeur légitime publie généralement le hash du fichier original sur son site officiel. De votre côté, vous allez calculer localement le hash du fichier d’installation que vous avez téléchargé, afin de comparer les deux. Si les deux empreintes correspondent, alors vous avez la certitude que le fichier téléchargé est bien intègre et n’a pas été altéré.
 
@@ -2054,7 +2054,7 @@ Le second outil est la signature numérique. Elle permet de vérifier l’authen
 
 Ce système repose sur la cryptographie asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
 
-Pour en savoir plus sur les fonctions de hachage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Network :
+Pour en savoir plus sur les fonctions de hashage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Network :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -2182,7 +2182,7 @@ Comparez ensuite le résultat avec la valeur correspondante dans le fichier "_sp
 
 ![Image](assets/fr/231.webp)
 
-Dans mon cas, on voit que les deux hachages correspondent parfaitement.
+Dans mon cas, on voit que les deux hashages correspondent parfaitement.
 
 Sous macOS et Linux, le processus de vérification des hashs est automatisé : il n’est donc pas nécessaire de comparer manuellement les deux empreintes comme cela peut être le cas sous Windows.
 
@@ -2198,7 +2198,7 @@ Remplacez `[file_name]` par le nom du fichier authentifié contenant les hashs
 shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
 ```
 
-Si les hachages correspondent, vous devriez avoir en sortie :
+Si les hashages correspondent, vous devriez avoir en sortie :
 
 ```bash
 Sparrow-2.0.0.dmg: OK
@@ -2238,7 +2238,7 @@ Dans ce chapitre, nous allons voir en détail comment sauvegarder et chiffrer vo
 
 #### Pourquoi sauvegarder ses données ?
 
-La sauvegarde régulière de vos données personnelles ou professionnelles est une mesure de sécurité absolument essentielle, souvent négligée jusqu’au jour où il est trop tard. Contrairement à une idée reçue, la sauvegarde n’est pas une tâche facultative ou réservée aux entreprises : elle concerne tout utilisateur d’un ordinateur. Que vous possédiez des documents de travail, des photos familiales, des document personnels, ou tout autre contenu sensible, ces données peuvent disparaître brutalement pour des raisons multiples :
+La sauvegarde régulière de vos données personnelles ou professionnelles est une mesure de sécurité absolument essentielle, souvent négligée jusqu’au jour où il est trop tard. Contrairement à une idée reçue, la sauvegarde n’est pas une tâche facultative ou réservée aux entreprises : elle concerne tout utilisateur d’un ordinateur. Que vous possédiez des documents de travail, des photos familiales, des documents personnels, ou tout autre contenu sensible, ces données peuvent disparaître brutalement pour des raisons multiples :
 
 - Défaillance matérielle : les disques durs HDD et les disques SSD ont une durée de vie limitée. Sans signes avant-coureurs, ils peuvent tomber en panne et rendre les données inaccessibles.
 

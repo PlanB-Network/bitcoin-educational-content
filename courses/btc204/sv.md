@@ -147,7 +147,7 @@ Denna modell skiljer sig avsevärt från traditionella banksystem, som förlitar
 Bitcoin fungerar annorlunda. Konceptet med ett konto existerar inte och monetära enheter hanteras inte via saldon utan genom UTXO:er. En UTXO representerar en specifik mängd bitcoins som ännu inte har spenderats och bildar därmed en "bit Bitcoin", som kan vara stor eller liten. Till exempel kan en UTXO vara värd `500 BTC` eller helt enkelt `700 Sats`.
 
 
-**> Satoshi, ofta förkortat till sat, är Bitcoin:s minsta enhet och kan jämföras med centime i fiatvalutor.
+**Påminna:** Satoshi, ofta förkortat till sat, är Bitcoin:s minsta enhet och kan jämföras med centime i fiatvalutor.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin fungerar annorlunda. Konceptet med ett konto existerar inte och monetär
 Teoretiskt sett kan en UTXO representera vilket värde som helst i bitcoins, allt från en sat till ett teoretiskt maximum på cirka 21 miljoner BTC. Det är dock logiskt omöjligt att äga alla 21 miljoner bitcoins, och det finns en lägre ekonomisk tröskel som kallas "Dust", under vilken en UTXO anses vara ekonomiskt olönsam att spendera.
 
 
-**> Den största UTXO som någonsin skapats på Bitcoin hade ett värde av 500 000 BTC. Den skapades av MtGox-plattformen under en konsolideringsoperation i november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Visste du?** Den största UTXO som någonsin skapats på Bitcoin hade ett värde av 500 000 BTC. Den skapades av MtGox-plattformen under en konsolideringsoperation i november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO:er och utgiftsförhållanden
@@ -215,7 +215,7 @@ Varje Bitcoin-transaktion består därför av en eller flera ingångar och en el
 ![BTC204](assets/fr/011.webp)
 
 
-**> Teoretiskt sett kan en Bitcoin-transaktion ha ett oändligt antal in- och utgångar. Den enda begränsningen är den maximala blockstorleken.
+**Visste du?** Teoretiskt sett kan en Bitcoin-transaktion ha ett oändligt antal in- och utgångar. Den enda begränsningen är den maximala blockstorleken.
 
 
 Varje input i en Bitcoin-transaktion hänvisar till en tidigare outnyttjad UTXO. För att använda en UTXO som input måste dess innehavare visa att han/hon är den rättmätiga ägaren genom att validera det tillhörande skriptet, dvs. genom att uppfylla det utgiftsvillkor som införts. Generellt sett innebär detta att tillhandahålla en digital signatur som producerats med den privata nyckel som motsvarar den offentliga nyckel som ursprungligen säkrade denna UTXO. Skriptet består därför i att verifiera att signaturen motsvarar den publika nyckel som användes när medlen togs emot.
@@ -291,7 +291,7 @@ Om du har följt de föregående styckena noggrant vet du nu att UTXO:er endast 
 Svaret finns i **transaktion coinbase**.
 
 
-Coinbase är en specifik typ av Bitcoin-transaktion, som är unik för varje block och alltid är den första av dessa. Den gör det möjligt för Miner som har hittat en giltig Proof of Work att få sin Block reward. Denna belöning består av två Elements: **block grant** och **transaction fee**, som diskuterades i föregående avsnitt.
+Coinbase är en specifik typ av Bitcoin-transaktion, som är unik för varje block och alltid är den första av dessa. Den gör det möjligt för Miner som har hittat en giltig Proof of Work att få sin Block reward. Denna belöning består av två Elements: **block grant** och **t**>ransaction fee**, som diskuterades i föregående avsnitt.
 
 
 Coinbase Transaction är unik i det att den är den enda som kan skapa bitcoins ex nihilo, utan att behöva konsumera input för att generate ska kunna producera output. Dessa nyskapade bitcoins är vad vi kan kalla "ursprungliga UTXO:er".
@@ -306,7 +306,7 @@ Blocksubventionerade bitcoins är nya BTC som skapas från grunden, enligt ett f
 När det gäller transaktionsavgifter, även om de också representerar nyskapad BTC, får de inte överstiga skillnaden mellan de totala inmatningarna och utmatningarna av alla transaktioner i ett block. Vi såg tidigare att dessa avgifter representerar den del av ingångarna som inte används i transaktionsutgångarna. Denna del är tekniskt sett "förlorad" under transaktionen, och Miner har rätt att återskapa detta värde i form av en eller flera nya UTXO:er. Detta är en överföring av värde mellan emittenten av transaktionen och Miner som lägger till det till Blockchain.
 
 
-**> Bitcoins som genereras av en Coinbase Transaction är föremål för en löptid på 100 block, under vilken de inte kan spenderas av Miner. Denna regel är utformad för att undvika komplikationer kopplade till användningen av nyskapade bitcoins i en kedja som senare kan bli föråldrad.
+**Visste du?** Bitcoins som genereras av en Coinbase Transaction är föremål för en löptid på 100 block, under vilken de inte kan spenderas av Miner. Denna regel är utformad för att undvika komplikationer kopplade till användningen av nyskapade bitcoins i en kedja som senare kan bli föråldrad.
 
 
 ### Konsekvenserna av UTXO-modellen
@@ -341,12 +341,8 @@ Det är därför vi använder pengar för att förflytta värde i både tid och 
 
 
 För att mynt ska kunna lösa detta problem är det viktigt att den part som tillhandahåller en vara eller tjänst är övertygad om sin förmåga att spendera summan vid ett senare tillfälle. Varje rationell individ som vill acceptera ett mynt, oavsett om det är digitalt eller fysiskt, kommer därför att se till att det uppfyller två grundläggande kriterier:
-
-
-
-
-- Verket måste ha integritet och äkthet ;**
-- och får inte spenderas dubbelt.**
+- **Verket måste ha integritet och äkthet ;**
+- **och får inte spenderas dubbelt.**
 
 
 Om du använder fysisk valuta är det den första egenskapen som är svårast att säkerställa. Under olika perioder i historien har metallmyntens integritet ofta påverkats av metoder som trimning eller piercing. I det gamla Rom var det t.ex. vanligt att medborgarna skrapade kanterna på guldmynt för att samla lite ädelmetall och spara dem för framtida transaktioner. På så sätt minskade myntets inneboende värde, men dess nominella värde förblev detsamma. Detta är en av anledningarna till att myntets kant senare räfflades.
@@ -441,15 +437,9 @@ Blockchain-analys är praxis att spåra flödet av bitcoins på Blockchain. Gene
 
 
 I lekmannatermer finns det tre huvudsteg i kedjeanalysen:
-
-
 1. **Observerar Blockchain ;**
-
-
 2. **Identifiering av kända funktioner ;**
-
-
-3. **Avdragning av antaganden **
+3. **Avdragning av antaganden**
 
 
 ![BTC204](assets/fr/026.webp)

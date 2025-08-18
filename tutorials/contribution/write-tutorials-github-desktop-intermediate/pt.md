@@ -381,7 +381,7 @@ O ponto de exclamação no início indica que se trata de uma imagem. O texto al
 Se pretender criar os seus próprios diagramas, certifique-se de que segue a carta gráfica do Plano ₿ Rede para garantir a coerência visual:
 
 
-- Tipo de letra**: Utilizar [Rubik](https://fonts.google.com/specimen/Rubik);
+- Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Cores**:
  - Laranja: #FF5C00
  - Preto: #000000

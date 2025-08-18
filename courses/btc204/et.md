@@ -100,7 +100,7 @@ See mudel erineb oluliselt traditsioonilistest pangandussüsteemidest, mis tugin
 
 Bitcoin töötab teisiti. Konto mõistet ei ole olemas ja rahaühikuid ei hallata saldode, vaid UTXOde kaudu. UTXO esindab konkreetset bitcoinide kogust, mida ei ole veel kulutatud, moodustades seega "bitcoini tüki", mis võib olla suur või väike. Näiteks võib üks UTXO olla väärtusega `500 BTC` või lihtsalt `700 SATS`.
 
-**> Satoshi, sageli lühendatult sat, on Bitcoini väikseim ühik, mis on võrreldav fiat-valuutade sentime'iga.
+**Tuleta meelde:** Satoshi, sageli lühendatult sat, on Bitcoini väikseim ühik, mis on võrreldav fiat-valuutade sentime'iga.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin töötab teisiti. Konto mõistet ei ole olemas ja rahaühikuid ei hallat
 
 Teoreetiliselt võib üks UTXO esindada mis tahes väärtust bitcoinides, alates satist kuni teoreetilise maksimumini, mis on umbes 21 miljonit BTC. Siiski on loogiliselt võimatu omada kõiki 21 miljonit bitcoin'i ning on olemas madalam majanduslik lävi, mida nimetatakse "tolmuks" ja millest allapoole jäävat UTXO-d peetakse majanduslikult ebasoodsaks kulutada.
 
-**> Bitcoinis kunagi loodud suurima UTXO väärtus oli 500 000 BTC. See loodi MtGoxi platvormi poolt 2011. aasta novembris toimunud konsolideerimisoperatsiooni käigus: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Kas teadsid?** Bitcoinis kunagi loodud suurima UTXO väärtus oli 500 000 BTC. See loodi MtGoxi platvormi poolt 2011. aasta novembris toimunud konsolideerimisoperatsiooni käigus: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOd ja kulutustingimused
 
@@ -148,7 +148,7 @@ Iga Bitcoini tehing koosneb seega ühest või mitmest sisendist ja ühest või m
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoreetiliselt võib bitcoini tehingul olla lõpmatu arv sisendeid ja väljundeid. Ainus piirang on maksimaalne plokisuurus.
+**Kas teadsid?** Teoreetiliselt võib bitcoini tehingul olla lõpmatu arv sisendeid ja väljundeid. Ainus piirang on maksimaalne plokisuurus.
 
 Iga Bitcoini tehingu sisend viitab eelmisele kasutamata UTXO-le. Et kasutada UTXO-d sisendina, peab selle omanik tõendama, et ta on õigustatud omanik, valideerides seotud skripti, st rahuldades kehtestatud kulutamistingimuse. Üldiselt tähendab see, et tuleb esitada digitaalallkiri, mis on toodetud selle avaliku võtmega, mis algselt tagas selle UTXO. Skript seisneb seega selles, et kontrollitakse, kas allkiri vastab raha saamisel kasutatud avalikule võtmele.
 
@@ -211,7 +211,7 @@ Blokisubsideeritud bitcoinid on uued BTC-d, mis on loodud nullist, vastavalt kon
 
 Mis puutub tehingutasudesse, siis kuigi need esindavad samuti äsja loodud BTC-d, ei tohi need ületada kõigi ploki tehingute sisendite ja väljundite kogusumma erinevust. Nägime varem, et need tasud esindavad sisendite osa, mida ei kasutata tehingu väljundites. See osa on tehniliselt "kadunud" tehingu käigus ja kaevandajal on õigus see väärtus ühe või mitme uue UTXO kujul uuesti luua. See on väärtuse ülekandmine tehingu väljastaja ja kaevandaja vahel, kes lisab selle plokiahelasse.
 
-**> Coinbase'i tehinguga genereeritud bitcoinid kehtivad 100 ploki pikkuse tähtaja jooksul, mille jooksul kaevandaja ei saa neid kulutada. Selle reegli eesmärk on vältida komplikatsioone, mis on seotud äsja loodud bitcoinide kasutamisega ahelas, mis võivad hiljem vananeda.
+**Kas teadsid?** Coinbase'i tehinguga genereeritud bitcoinid kehtivad 100 ploki pikkuse tähtaja jooksul, mille jooksul kaevandaja ei saa neid kulutada. Selle reegli eesmärk on vältida komplikatsioone, mis on seotud äsja loodud bitcoinide kasutamisega ahelas, mis võivad hiljem vananeda.
 
 ### UTXO mudeli mõju
 
@@ -235,10 +235,8 @@ Seepärast kasutame raha väärtuse liigutamiseks nii ruumis kui ka ajas.
 ![BTC204](assets/fr/018.webp)
 
 Selleks, et rahasüsteem lahendaks selle probleemi, on oluline, et kaupa või teenust pakkuv pool oleks veendunud, et ta suudab selle summa hiljem ära kulutada. Seega tagab iga ratsionaalne inimene, kes soovib võtta vastu münti, olgu see siis digitaalne või füüsiline, et see vastab kahele põhikriteeriumile:
-
-
-- Töö peab olema terviklik ja autentne ;**
-- ja neid ei tohi topelt kulutada.**
+- **Töö peab olema terviklik ja autentne ;**
+- **ja neid ei tohi topelt kulutada.**
 
 Kui te kasutate füüsilist valuutat, on see esimene omadus, mida on kõige keerulisem kinnitada. Erinevatel ajaloolistel perioodidel on metallmüntide terviklikkust sageli mõjutanud sellised tavad nagu trimmimine või augustamine. Vana-Roomas oli näiteks tavaline tava, et kodanikud kraapisid kuldmüntide servi, et koguda veidi väärismetalli, säilitades neid samal ajal tulevaste tehingute jaoks. Nii vähendati mündi sisemist väärtust, kuid selle nimiväärtus jäi samaks. See on üks põhjustest, miks mündi serva hiljem sooniti.
 
@@ -307,7 +305,7 @@ Tavainimese keeles on ahelanalüüsil kolm peamist etappi:
 
 2. **Tuntud tunnuste tuvastamine ;**
 
-3. **Eelduste mahaarvamine **
+3. **Eelduste mahaarvamine**
 
 ![BTC204](assets/fr/026.webp)
 

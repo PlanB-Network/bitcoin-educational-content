@@ -298,7 +298,7 @@ print("Hello, Bitcoin!")
     - Utilizza solo immagini create da te o libere da diritti d'autore.
     - Assicurati che siano pertinenti e di alta qualità.
 **- Carta grafica**:
-    - Font: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Pantone usato su Plan ₿ Network:
         - Arancione: `#FF5C00`
         - Nero: `#000000`

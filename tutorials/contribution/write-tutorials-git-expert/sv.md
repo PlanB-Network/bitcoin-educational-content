@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - Använd endast egenhändigt skapade eller royaltyfria bilder.
     - Se till att de är relevanta och av hög kvalitet.
 - Grafisk charter** :
-    - Font: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Färger Plan ₿ Network :
         - Orange: `#FF5C00`
         - Svart: `#000000`

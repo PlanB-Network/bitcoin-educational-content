@@ -383,7 +383,7 @@ Vykřičník na začátku označuje, že se jedná o obrázek. Alternativní tex
 Pokud si chcete vytvořit vlastní diagramy, dbejte na dodržování grafické charty sítě Plan ₿, abyste zajistili vizuální konzistenci:
 
 
-- Písmo**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Barvy**:
  - Oranžová: #FF5C00
  - Černá barva: #000000

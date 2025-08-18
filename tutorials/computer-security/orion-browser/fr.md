@@ -101,7 +101,7 @@ Ces outils sont toujours accessibles et vous permettent de contrôler votre exp�
 ![Orion+ dans les préférences](assets/fr/08.webp)
 *Écran de souscription Orion+ dans les préférences, proposant un abonnement optionnel pour soutenir le développement*
 
-**Orion+ (optionnel)** : Pour soutenir le développement du projet, Kagi propose Orion+ (5$/mois, 50$/an, ou 150$ à vie). Cette souscription volontaire permet de :
+**Orion+ (optionnel)** : Pour soutenir le développement du projet, Kagi propose Orion+ (5 $ /mois, 50 $ /an, ou 150 $ à vie). Cette souscription volontaire permet de :
 - Communiquer directement avec l'équipe de développement
 - Influencer l'évolution du navigateur selon vos besoins
 - Accéder aux versions Nightly avec les dernières fonctionnalités expérimentales
@@ -338,3 +338,7 @@ Pour une protection maximale, consultez nos autres guides :
 - [Firefox durci](https://planb.network/tutorials/computer-security/firefox) - Configuration avancée multi-plateforme
 - [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Anonymat réseau complet
 - [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Protection fingerprinting maximale
+
+Si vous souhaitez approfondir vos connaissances sur l’histoire et le fonctionnement des navigateurs, ainsi que sur les principaux objets numériques de votre quotidien, je vous invite à découvrir notre nouvelle formation gratuite SCU 202, disponible sur Plan ₿ Network :
+
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

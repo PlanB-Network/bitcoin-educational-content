@@ -32,15 +32,17 @@ proofreading:
     contributor_names:
     reward: 0.14
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.13
+      - ProfScofield21
+    reward: 0.06
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.13
+      - f205sats
+    reward: 0.06
   - language: ja
     last_contribution_date:
     urgency: 1

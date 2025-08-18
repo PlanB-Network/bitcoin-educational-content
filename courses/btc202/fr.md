@@ -102,6 +102,7 @@ Après validation, la transaction est enregistrée dans la mempool du nœud, un 
 Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
 
 ## Quelle est la différence entre un nœud et un portefeuille ?
+<chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
 Il convient de bien distinguer deux types de logiciels différents dans l’utilisation de Bitcoin : le nœud et le portefeuille.
 
@@ -115,6 +116,7 @@ Un portefeuille Bitcoin, quant à lui, est un logiciel dont la vocation premièr
 Dans certains cas, ces deux fonctions coexistent au sein d’un même logiciel, comme c’est le cas de Bitcoin Core qui fait office à la fois de nœud complet et de portefeuille. Toutefois, beaucoup de logiciels de portefeuilles populaires (Sparrow, BlueWallet, etc.) doivent être connectés à un nœud externe (qu’il s’agisse du vôtre ou de celui d’un tiers) pour diffuser les transactions et connaitre le solde du portefeuille.
 
 ## Quelle est la différence entre un nœud et un mineur ?
+<chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
 Les notions de nœud et de mineur sont souvent confondues. Pourtant, ces deux éléments remplissent des fonctions radicalement différentes au sein du système.
 
@@ -927,6 +929,65 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 # Concepts avancés et bonnes pratiques
 <partId>fc77a62a-8d9f-4144-9080-3057b04db2c6</partId>
+
+## Entretenir son nœud Umbrel
+<chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
+
+Pour commencer cette dernière partie, et avant d’aborder des notions théoriques plus avancées, je vous propose dans ce court chapitre de découvrir les bonnes pratiques et les actions concrètes à mettre en œuvre une fois votre nœud Umbrel installé, synchronisé et correctement configuré. Comment en assurer un bon entretien au quotidien ?
+
+### Garder le matériel en bonne santé
+
+Un nœud fiable commence par un matériel stable. Assurez-vous que la machine qui héberge votre nœud soit correctement ventilée, dépoussiérée et installée dans un environnement sec, à l’écart de toute source de chaleur. Évitez de l’entasser dans un espace confiné et privilégiez un emplacement bien aéré.
+
+Sur les Raspberry Pi et les mini-PC, la poussière finit par obstruer les dissipateurs et fait grimper la température, ce qui entraîne du *throttling* (limitation volontaire de l'utilisation des ressources) et donc une baisse d'efficacité de votre nœud. C'est pourquoi je vous conseille de nettoyer l’entrée d’air et le ventilateur quelques fois par an.
+
+Veillez également à utiliser une alimentation de qualité, car une tension instable peut provoquer une corruption du système, voire un risque d’incendie. L’idéal est d’utiliser l’alimentation originale du constructeur votre machine. Attention également à l’échauffement dû à l’effet Joule sur les multiprises : respectez toujours la puissance maximale admissible et ne branchez jamais plusieurs multiprises en cascade.
+
+Je vous recommande par ailleurs d’investir dans un onduleur (UPS). Celui-ci protège votre nœud des extinctions brutales, permet à Umbrel de s’arrêter proprement en cas de coupure et assure une continuité de fonctionnement lors de microcoupures ou pannes de courte durée.
+
+Sur le stockage, surveillez la tendance : si le disque approche de la saturation, pensez à libérer de l’espace (désinstallation d’apps inutilisées, purge de logs applicatifs...) ou migrez vers un SSD plus grand. L’inconvénient d’un nœud complet Bitcoin est que ses besoins en stockage augmentent continuellement, car il y a un nouveau bloc toutes les 10 minutes et les anciens blocs ne peuvent pas être supprimés (sauf nœud élagué). Je vous conseille donc de prévoir une capacité suffisamment grande dès l’achat de votre matériel.
+
+### Mettre à jour
+
+Les mises à jour de votre nœud sont importantes pour trois raisons principales : d’abord la sécurité (correctifs de vulnérabilités, durcissement réseau, protections DoS...), ensuite la compatibilité (évolutions de politiques de relais, changements de formats, mises à niveau des protocoles...), enfin la fiabilité et les performances (bugs corrigés, consommation de ressources...). Il faut donc vérifier périodiquement qu'UmbrelOS et vos apps sont bien à jours :
+
+- Pour mettre à jour le système : Ouvrez le menu des paramètres, puis cliquez sur le bouton "*Check for Update*" à côté du paramètre "*UmbrelOS*".
+
+042
+
+- Pour mettre à jour les applications : Rendez-vous dans l’App Store. Si certaines de vos applications requièrent une mise à jour, un bouton accompagné d’une bulle rouge apparaîtra en haut à droite de l'interface. Cliquez simplement dessus, puis mettez à jour chaque application.
+
+Effectuez cette opération régulièrement afin de conserver un système d’exploitation et des applications toujours à jour.
+
+### Sauvegardes
+
+Si vous utilisez votre nœud Bitcoin uniquement pour valider et diffuser vos transactions, mais que vos portefeuilles sont gérés en dehors d’Umbrel (par exemple avec un hardware wallet et Sparrow Wallet), il n’y a rien à sauvegarder directement sur Umbrel. Dans ce cas, la sauvegarde essentielle reste celle de la phrase de récupération et du descriptor de votre portefeuille externe, et cela vaut que vous utilisiez votre propre nœud ou non. Rien ne change donc par rapport à votre configuration précédente.
+
+En revanche, selon les applications supplémentaires que vous utilisez sur Umbrel, d’autres sauvegardes peuvent être nécessaires. C’est notamment le cas si vous opérez un nœud Lightning sur Umbrel. Dans ce cas, il est absolument indispensable de sauvegarder la seed fournie lors de l’installation de votre nœud Lightning. À cela s’ajoute la nécessité de disposer d’une ***Static Channel Backup (SCB)*** à jour, en plus de la seed, afin de pouvoir restaurer votre nœud Lightning en cas de problème. La SCB permet de récupérer vos fonds par fermeture forcée des canaux. Si la seed ou la SCB sont manquants, il est impossible de restaurer un nœud Lightning.
+
+Umbrel offre par ailleurs la possibilité de sauvegarder automatiquement et dynamiquement cette SCB sur leurs serveurs, via Tor, afin de garantir qu’un fichier actualisé reste toujours disponible. Dans ce cas, seule la seed est nécessaire pour restaurer le nœud.
+
+Nous reviendrons évidemment en détail sur ces aspects dans la prochaine formation LNP 202.
+
+### Sécurité opérationnelle au quotidien
+
+En matière de sécurité, utilisez un mot de passe long, unique et aléatoire pour l’interface Umbrel, et pensez à activer le 2FA. Pour les applications qui proposent une protection par mot de passe et 2FA, activez systématiquement les deux, et changez toujours les mots de passe par défaut.
+
+N’exposez jamais le tableau de bord sur Internet sans passer par une passerelle sécurisée (VPN, Tor ou accès local uniquement). Limitez l’installation d’applications et supprimez régulièrement celles dont vous n’avez plus l’utilité afin de réduire la surface d’attaque.
+
+Pour approfondir vos connaissances en sécurité informatique de manière générale, je vous recommande vivement de consulter cet autre cours gratuit :
+
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+
+### Diagnostic et entraide
+
+En cas de bug sur votre Umbrel, commencez par générer un bundle de diagnostics via la section de dépannage d’UmbrelOS ou de l'application concernée, puis redémarrez proprement l’application. Si nécessaire, tentez également un redémarrage complet du système.
+
+Si le problème persiste, je vous recommande de [rejoindre la communauté des utilisateurs d’Umbrel sur leur Discord](https://discord.gg/efNtFzqtdx). Commencez par effectuer une recherche afin de vérifier si quelqu’un a déjà rencontré la même difficulté et trouvé une solution. Si ce n’est pas le cas, vous pouvez publier un message dans le canal `general-support`. Vous avez aussi la possibilité d’utiliser [le forum d’Umbrel](https://community.umbrel.com/).
+
+Ces espaces vous permettront non seulement de suivre les annonces de sécurité et de mises à jour, mais aussi de poser vos questions et, à terme, d’aider à votre tour les autres utilisateurs. C’est souvent dans ces échanges que l’on découvre les meilleures pratiques.
+
+Avec ces quelques habitudes simples, votre nœud Umbrel restera stable, sûr et utile, tant pour vous que pour le réseau Bitcoin.
 
 
 ## Comprendre l’IBD et le processus de découverte des pairs

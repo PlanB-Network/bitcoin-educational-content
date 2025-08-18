@@ -620,7 +620,7 @@ Pada tanggal 27, Hal Finney [menyebutkan](https://www.metzdowd.com/pipermail/cry
 
 > Yang saya inginkan adalah mata uang yang dapat digunakan secara murah dan nyaman oleh semua orang, tetapi **tidak ada seorang pun** yang memiliki kekuatan untuk memanipulasinya. Tidak ada yang memiliki kekuatan untuk menginflasi atau mendeflasi pasokan mata uang, tidak ada yang memiliki kekuatan untuk memantau, mengenakan pajak, atau mencegah transaksi. Benar-benar setara digital dengan emas, pada masa dan tempat di mana emas adalah mata uang universal.
 
-Tautan ke teks ini akhirnya ditambahkan](https://web.archive.org/web/20090303195936/http://Bitcoin.org/) ke Bitcoin.org beberapa minggu kemudian. Dan Satoshi [berterima kasih](https://Bitcointalk.org/index.php?topic=890.msg10723#msg10723) secara pribadi kepada Zooko satu setengah tahun kemudian atas sedikit bantuan ini.
+Tautan ke teks ini [akhirnya ditambahkan](https://web.archive.org/web/20090303195936/http://Bitcoin.org/) ke Bitcoin.org beberapa minggu kemudian. Dan Satoshi [berterima kasih](https://Bitcointalk.org/index.php?topic=890.msg10723#msg10723) secara pribadi kepada Zooko satu setengah tahun kemudian atas sedikit bantuan ini.
 
 ### Peer-to-Peer dan Ketidakpercayaan terhadap Bank Sentral
 

@@ -122,6 +122,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 134.43
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 100.85
 tags:
   - deep-dive
   - historical

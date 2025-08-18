@@ -72,28 +72,30 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 6.94
+    reward: 7.01
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 9.29
   - language: id
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 5.79
+      - AgoesRichie
+    reward: 2.93
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.59
+    reward: 11.7
   - language: nb-NO
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 9.29
+      - turdsferguson
+    reward: 4.69
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -110,20 +112,26 @@ proofreading:
     contributor_names:
     reward: 9.29
   - language: sw
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 9.29
+      - Arianebtc
+    reward: 4.69
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.59
+    reward: 11.7
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 9.29
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.06
 tags:
   - personal-security
   - privacy

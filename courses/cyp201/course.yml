@@ -72,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 95.61
+    reward: 95.78
   - language: et
     last_contribution_date:
     urgency: 1
@@ -87,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.69
+    reward: 79.83
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -113,17 +113,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.77
+    reward: 63.89
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.69
+    reward: 79.83
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 63.77
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 47.94
 tags:
   - keys
   - wallets

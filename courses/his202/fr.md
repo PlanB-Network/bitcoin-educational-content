@@ -923,7 +923,7 @@ Avec la popularisation de Silk Road et l'adoption par WikiLeaks, la question de 
 
 Pour résoudre ce problème, pour casser la provenance et des fonds, la solution est le mélange des pièces (*coin mixing*) qui permet de brouiller les pistes. Ce type de mélange est mis en place par des mélangeurs centralisés, appelés des *mixers* ou *tumblers*. Il y en a deux qui sortent du lot et s'avèrent ne pas être une arnaque.
 
-Le premier est BitLaundry (la « blanchisserie de bitcoins »). Ce service est [lancé](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) en septembre 2010 par Peter Vessenes (Vess), un entrepreneur diplomé en cryptographie qui a découvert l'existence de Bitcoin au moment du slashdotting. \[Description du service.\] En mai 2011, sentant les complications légales qui peuvent découlé de cette activité, il [cède](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) le service à l'activiste Mike Gogulski, qui a la particularité d'avoir renoncé à sa citoyenneté étasunienne sans en posséder une autre, le rendant apatride.
+Le premier est BitLaundry (la « blanchisserie de bitcoins »). Ce service est [lancé](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) en septembre 2010 par Peter Vessenes (Vess), un entrepreneur diplomé en cryptographie qui a découvert l'existence de Bitcoin au moment du slashdotting. \[Description du service.\] En mai 2011, sentant les complications légales qui peuvent découlé de cette activité, il [cède](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) le service à Mike Gogulski, un activiste qui a la particularité d'avoir renoncé à sa citoyenneté étasunienne sans en posséder une autre, le rendant apatride.
 
 Le second est Bitcoin Fog (le « brouilleur de bitcoins »), [créé](https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0) par Roman Sterlingov, un homme russo-suédois de 23 ans. \[Description du service.\] Les frais se situent entre 1 et 3 %.
 
@@ -1350,7 +1350,7 @@ Le changement de nom confirme le statut de meneur de Ross dans le mouvement qu'e
 
 Sa première décision en tant que DPR est d'interdire la vente d'armes à feu sur Silk Road, celles-ci mettant mal à l'aise certains vendeurs sur Silk Road, et de [créer](https://antilop.cc/sr/users/dpr/threads/20120226-0702-A_brand_new_annonymous_market.html) une plateforme à part consacrée à ce type de produit. La plateforme sœur, nommée « The Armory », ouvre le 26 février 2012, mais l'expérience est de courte durée car elle [ferme](https://bitcointalk.org/index.php?topic=66587.msg1079466#msg1079466) en août faute de volume suffisante.
 
-### L'essor silencieux de Silk Road
+### L'essor silencieux de l'Amazon de la drogue
 
 Cependant, l'activité sur Silk Road est florissante, contrairement à ce que les membres de la communauté de Bitcoin imaginent, à l'instar de Vitalik Buterin qui, en juillet 2012, [déclare](https://bitcoinmagazine.com/culture/the-silk-road-report) à tort que Silk Road « est loin d'être le moteur économique de Bitcoin » (original: "it is far from being Bitcoin’s economic powerhouse"). D'après un rapport de Nicolas Christin, chercheur à l'université Carnegie-Mellon de Pittsburgh, qui [sera publié](https://arxiv.org/pdf/1207.7139) en août, la plateforme connait une croissance extraordinaire. Entre mars et juillet, le nombre de vendeurs double presque en passant de 300 à plus de 550, et près de 97,8 % des clients laissent un avis positif à propos de leur transaction.
 
@@ -1376,7 +1376,7 @@ L'étude de Nicolas Christin a un effet positif sur la fréquentation de Silk Ro
 
 Le succès de Silk Road attire enfin les concurrents. Outre Black Market Reloaded (ouvert dès juin 2011), on verra une [multitude](https://gwern.net/dnm-survival) d'autres plateformes ouvrir en 2013, dont Sheep Marketplace en février et Atlantis en mars 2013. Malheureusement, beaucoup d'entre elles finiront par se révéler être des escroqueries de sortie, leurs gérants ayant une vision moins éthique que Ross Ulbricht.
 
-### Le change en espèces
+### Le dépôt d'espèces avec BitInstant
 
 Une autre activité qui se développe bien durant l'année 2012 est le change entre le bitcoin et l'argent liquide physique, communément appelé le *cash*. Cette activité permet d'acheter ou de vendre du bitcoin de manière totalement confidentielle, sans laisse de trace de virement bancaire. Il y a plein de raisons de faire ce genre de transaction, mais la principale est évidemment liée à l'activité sur Silk Road. Les acheteurs peuvent se procurer du bitcoin pour obtenir de la drogue ; les vendeurs peuvent écouler leurs bitcoins en liquide pour payer leurs fournisseurs et avoir de quoi vivre. Cela vaut pour n'importe quelle activité plus ou moins illicites.
 
@@ -1394,49 +1394,43 @@ L'activité de BTCKing est repérée rapidement par BitInstant et son intermédi
 >
 > original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
 
-L'acivité de BTCKing constitue une aubaine pour BitInstant, à tel point que Charlie lui accorde une remise sur les commissions au bout de quelques mois. En août et en septembre 2012, le chiffre d'affaires de BTCKing s'élève à 40 000 $ par semaine. La société BitInstant est donc intrinsèquement liée à Silk Road, tout comme toutes les plateformes de change de l'époque, dont la fameuse Mt. Gox.
+L'activité de BTCKing constitue une aubaine pour BitInstant, à tel point que Charlie lui accorde une remise sur les commissions au bout de quelques mois. En août et en septembre 2012, le chiffre d'affaires de BTCKing s'élève à 40 000 $ par semaine. La société BitInstant est donc intrinsèquement liée à Silk Road, tout comme toutes les plateformes de change de l'époque, dont la fameuse Mt. Gox.
 
 ![Why Wait? chanson officielle de BitInstant interprétée par ZhouTonged](https://www.youtube.com/watch?v=VKEk7b2vfoQ)
 
 *Why Wait?* : chanson officielle de BitInstant interprétée par ZhouTonged
 
-Mais le dépôt d'espèces n'est pas la seule manière d'effectuer des échanges entre dollars et bitcoins ; il y a également les services de change de particulier à particulier. Ces derniers permettent notamment à des personnes d'entrer en contact afin de procéder un échange en personne. Ils apparaissent dès 2011 avec des services comme [Tradebitcoin.com](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ou [BTC NEAR ME](https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). Mais le principal d'entre eux est LocalBitcoins.
+### Le change en argent liquide avec LocalBitcoins
 
-LocalBitcoins est créé par Jeremias Kangas ([kangasbros](https://bitcointalk.org/index.php?action=profile;u=8516)) en juin 2012.
+Mais le dépôt d'espèces n'est pas la seule manière d'effectuer des échanges entre dollars et bitcoins ; il y a également les services de change de particulier à particulier. Ces derniers permettent notamment à des personnes d'entrer en contact afin de procéder un échange en personne. Ils apparaissent dès 2011 avec des services comme [Bitcoin.local](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) (Tradebitcoin.com) ou [BTC NEAR ME](https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). Mais le principal d'entre eux est LocalBitcoins, qui est créé par un certain Jeremias Kangas.
 
-https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/
+Jeremias Kangas est un programmeur et hackeur finlandais approchant de la trentaine. \[Bonne opinion des monnaies locales.\] Il gère la société [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) avec son petit frère, Nikolaus, avec laquelle ils publient un certain nombres d'applications pour l'iPhone et pour le Web. Il [a entendu](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) parler de Bitcoin à la fin de l'année 2010 par le biais de Hacker News, et a été immédiatement fasciné par le modèle de Nakamoto, qu'il [décrira](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) comme « une innovation formidable et incroyable » (original: "great and crazy innovation") et comme « un concept révolutionnaire » (original: "a revolutionary concept"). En 2011, après un voyage en Inde, il se met à travailler à plein temps sur Bitcoin et développe plusieurs programmes comme l'implémentation logicielle [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) ou l'application dépositaire [Easywallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Il [met](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) aussi au point le processeur de paiement en ligne Acceptbit avec Stefan Thomas lors d'un hackathon, une solution qui tire profit de la fonctionnalité de la clé publique maitresse d'Electrum pour générer de nouvelles adresses sans accéder à la clé privée correspondante.
 
-"I’m from Finland, been programming since I was a kid. I first heard about Bitcoin on november 2010, just before I went backpacking to India for a month. After that I started working on various bitcoin projects as a hobby, and soon noticed that it is consuming 90% of my time. Then I decided to go full-time retard on Bitcoin, move on from my previous work. Now I’m trying to make a living as a bitcoin entrepreneur."
+![Jeremias Kangas vers 2012](assets/en/jeremias-kangas-2012.webp)
 
-"I just spotted an article about it on hacker news, and instantly started thinking how awesome it would be. At first I was mostly excited by the 'money as a protocol' thing – startups and small companies can avoid fees and innovate on top of Bitcoin easily." https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649
+Jeremias Kangas vers 2012 (source : [Blogger](https://www.blogger.com/profile/12265387388248206585))
 
-Photo 2012/2013: https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649
+Le 22 mai, il [fait remarquer](https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432) que les « sites de change en espèces existent déjà » mais qu'« ils sont nuls », et que « quand le modèle économique n'est pas bon, on se retrouve avec des sites merdiques » (original: "These cash exchange sites already exist, they just suck. When there isn't a good business model, you get crappy sites."). C'est pourquoi il décide de développer sa propre plateforme de mise en relation, avec l'aide de son frère. La plateforme, nommée LocalBitcoin, est [lancée](https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497) le 7 juin. Elle est accompagnée d'un [guide](https://web.archive.org/web/20120616084213/https://localbitcoins.com/cash_exchange_howto), qui explique comment devenir un changeur en espèces.
 
-Bonne opinion des monnaies locales
+![Interface de LocalBitcoins en septembre 2012](assets/en/localbitcoins-screenshot-20120919.webp)
 
-gère Kangas Bros. Innovations :
+Interface de LocalBitcoins en septembre 2012 (source : [archive](https://web.archive.org/web/20120919184133/https://localbitcoins.com/) de LocalBitcoins.com)
 
-Django-bitcoin, implémentation en Django (Python), juillet 2011 : https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233
+Pendant l'été, les deux frères [intègrent](https://bitcointalk.org/index.php?topic=94793.msg1048453#msg1048453) un système de dépôt fiduciaire à la plateforme : les bitcoins sont conservés par la plateforme et peuvent être [débloqués par SMS](https://web.archive.org/web/20120817100941/http://localbitcoins.blogspot.fi/2012/08/sms-escrow-buy-and-sell-bitcoins-with.html) et versés à l'acheteur lorsque le vendeur a accusé la réception des espèces. Ils permettent aussi aux vendeurs de [lier leur profil](https://web.archive.org/web/20120817125105/http://localbitcoins.blogspot.fi/2012/08/now-you-can-connect-your-bitcoin-otc.html) à un compte sur \#bitcoin-otc, le canal IRC d'échange de gré à gré ouvert en 2010. Au fur et à mesure du temps, les gens utilisent également la plateforme pour les échanges par transfert bancaire.
 
-Easywallet.org, avril 2012 : https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319
+LocalBitcoins attire l'attention de la communauté, Jeremias participant à plusieurs conférences dont Assembly Summer 2012 et Bitcoin London 2012. En septembre, [il y a](https://web.archive.org/web/20120920110200/https://localbitcoins.com/statistics) des changeurs dans 74 pays différents, et plus de 300 villes. Le 14 juin 2013, un an après sa création, le site [comptera](https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649) environ 44 000 utilisateurs, et le volume d'échange journalier atteindra plusieurs dizaines de milliers de dollars !
 
-22 mai 2012 : "These cash exchange sites already exist, they just suck." https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432
+### Le développement du commerce conventionnel
 
-7 juin 2012 : LocalBitcoins.com https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497
+Silk Road et le change en espèces en sont pas les seules activités qui fleurissent durant cette année 2012. Il y a également le commerce au sens traditionnel qui commence à exister.
 
-Enfin des services de change de particulier à particulier apparaissent également. Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/), jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
-
-Jeremias Kangas, Stefan Thomas, http://acceptbit.com/ (https://bitcointalk.org/index.php?topic=134239.msg1429619#msg1429619), tire profit de la clé publique étendue
-
-
-### Le développement du commerce légal
-
-1. Exemples de gros commerces
+1. Répertoires
+2. Exemples de gros commerces
 2. Demande pour un processeur de paiement
-3. Exemples de projets
+3. Exemples de projets de processeur de paiement
 4. URI
 
-Développement des processeurs de paiement
+Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre
 
 2011 :
 

@@ -346,7 +346,7 @@ Das Ausrufezeichen am Anfang weist auf ein Bild hin. Der alternative Text, der d
 Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafischen Richtlinien des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
 
 
-- Schriftart**: Verwenden Sie [Rubik](https://fonts.google.com/specimen/Rubik);
+- Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Farben** :
  - Orange: #FF5C00
  - Schwarz : #000000

@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - Tumia taswira zilizoundwa mwenyewe au zisizo na mrabaha pekee.
     - Hakikisha yanafaa na ya ubora wa juu.
 - **Hati ya picha** :
-    - Fonti: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Fonti: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Rangi Plan ₿ Network :
         - Chungwa: `#FF5C00`
         - Nyeusi: `#000000`

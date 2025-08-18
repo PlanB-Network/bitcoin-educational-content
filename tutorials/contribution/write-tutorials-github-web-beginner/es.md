@@ -348,7 +348,7 @@ El signo de exclamación al principio indica una imagen. El texto alternativo, q
 Si desea crear sus propios esquemas, asegúrese de seguir las directrices gráficas de Plan ₿ Red para garantizar la coherencia visual:
 
 
-- Fuente**: Utilice [Rubik](https://fonts.google.com/specimen/Rubik);
+- Fuente**: Utilice [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Colores** :
  - Naranja: #FF5C00
  - Negro : #000000

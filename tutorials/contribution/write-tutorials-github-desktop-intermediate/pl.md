@@ -521,7 +521,7 @@ Wykrzyknik na początku wskazuje, że jest to obraz. Tekst alternatywny, który 
 Jeśli chcesz tworzyć własne diagramy, pamiętaj o przestrzeganiu karty graficznej Plan ₿ Network, aby zapewnić spójność wizualną:
 
 
-- Czcionka**: Użyj [Rubik](https://fonts.google.com/specimen/Rubik);
+- Czcionka**: Użyj [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Kolory**:
  - Pomarańczowy: #FF5C00
  - Czarny: #000000

@@ -100,7 +100,7 @@ Tento model se výrazně liší od tradičních bankovních systémů, které se
 
 Bitcoin funguje jinak. Koncept účtu neexistuje a peněžní jednotky nejsou spravovány prostřednictvím zůstatků, ale prostřednictvím UTXO. UTXO představuje určité množství bitcoinů, které ještě nebylo utraceno, a tvoří tak "kus bitcoinu", který může být velký nebo malý. Jedno UTXO může mít například hodnotu `500 BTC` nebo jednoduše `700 SATS`.
 
-**> Satoshi, často zkracovaný na sat, je nejmenší jednotka bitcoinu, srovnatelná s centem ve fiat měnách.
+**Připomenout:** Satoshi, často zkracovaný na sat, je nejmenší jednotka bitcoinu, srovnatelná s centem ve fiat měnách.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin funguje jinak. Koncept účtu neexistuje a peněžní jednotky nejsou sp
 
 Teoreticky může jeden UTXO představovat libovolnou hodnotu v bitcoinech, od jedné sedmičky až po teoretické maximum kolem 21 milionů BTC. Je však logicky nemožné vlastnit všech 21 milionů bitcoinů a existuje spodní ekonomická hranice zvaná "prach", pod kterou je UTXO považováno za ekonomicky nevýhodné utratit.
 
-**> Největší UTXO, které kdy bylo na Bitcoinu vytvořeno, mělo hodnotu `500 000 BTC`. Vytvořila ho platforma MtGox během konsolidační operace v listopadu 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Věděli jste?** Největší UTXO, které kdy bylo na Bitcoinu vytvořeno, mělo hodnotu `500 000 BTC`. Vytvořila ho platforma MtGox během konsolidační operace v listopadu 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO a podmínky výdajů
 
@@ -148,7 +148,7 @@ Každá bitcoinová transakce se proto skládá z jednoho nebo více vstupů a j
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoreticky může mít bitcoinová transakce nekonečný počet vstupů a výstupů. Jediným omezením je maximální velikost bloku.
+**Věděli jste?** Teoreticky může mít bitcoinová transakce nekonečný počet vstupů a výstupů. Jediným omezením je maximální velikost bloku.
 
 Každý vstup v transakci bitcoinu se vztahuje k předchozímu nevydanému UTXO. Aby bylo možné UTXO použít jako vstup, musí jeho držitel prokázat, že je oprávněným vlastníkem, a to ověřením souvisejícího skriptu, tj. splněním uložené podmínky utracení. Obecně to znamená předložit digitální podpis vytvořený pomocí soukromého klíče odpovídajícího veřejnému klíči, který původně zabezpečil toto UTXO. Skript tedy spočívá v ověření, že podpis odpovídá veřejnému klíči použitému při přijetí prostředků.
 
@@ -211,7 +211,7 @@ Blokově dotované bitcoiny jsou nové BTC vytvořené od nuly podle předem sta
 
 Co se týče transakčních poplatků, ty sice také představují nově vytvořené BTC, ale nesmí překročit rozdíl mezi celkovými vstupy a výstupy všech transakcí v bloku. Již dříve jsme viděli, že tyto poplatky představují část vstupů, která není použita ve výstupech transakcí. Tato část je technicky vzato "ztracena" během transakce a těžař má právo tuto hodnotu znovu vytvořit ve formě jednoho nebo více nových UTXO. Jedná se o převod hodnoty mezi emitentem transakce a těžařem, který ji přidává do blockchainu.
 
-**> Na bitcoiny vygenerované transakcí na coinbase se vztahuje doba splatnosti 100 bloků, během níž je těžař nemůže utratit. Toto pravidlo má zabránit komplikacím spojeným s používáním nově vytvořených bitcoinů v řetězci, který by později mohl být zastaralý.
+**Věděli jste?** Na bitcoiny vygenerované transakcí na coinbase se vztahuje doba splatnosti 100 bloků, během níž je těžař nemůže utratit. Toto pravidlo má zabránit komplikacím spojeným s používáním nově vytvořených bitcoinů v řetězci, který by později mohl být zastaralý.
 
 ### Důsledky modelu UTXO
 
@@ -235,10 +235,8 @@ Proto používáme peníze k přesunu hodnot v prostoru i čase.
 ![BTC204](assets/fr/018.webp)
 
 Aby ražba mincí tento problém vyřešila, je nezbytné, aby strana poskytující zboží nebo službu byla přesvědčena o své schopnosti tuto částku později utratit. Každý racionálně uvažující jedinec, který chce přijmout minci, ať už digitální, nebo fyzickou, se tedy ujistí, že splňuje dvě základní kritéria:
-
-
-- Dílo musí být celistvé a autentické ;**
-- a nesmí být vynaloženy dvakrát.**
+- **Dílo musí být celistvé a autentické ;**
+- **a nesmí být vynaloženy dvakrát.**
 
 Pokud používáte fyzickou měnu, je to první charakteristika, kterou je nejsložitější potvrdit. V různých historických obdobích byla integrita kovových mincí často narušena praktikami, jako je stříhání nebo propichování. Například ve starověkém Římě bylo běžnou praxí, že občané oškrabávali hrany zlatých mincí, aby získali trochu drahého kovu a zároveň si je schovali pro budoucí transakce. Vnitřní hodnota mince se tak snížila, ale její nominální hodnota zůstala stejná. To je jeden z důvodů, proč byla hrana mince později rýhována.
 
@@ -307,7 +305,7 @@ Laicky řečeno, analýza řetězce má tři hlavní fáze:
 
 2. **Identifikace známých prvků ;**
 
-3. **Dedukce předpokladů **
+3. **Dedukce předpokladů**
 
 ![BTC204](assets/fr/026.webp)
 

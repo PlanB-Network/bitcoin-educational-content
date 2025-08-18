@@ -479,7 +479,7 @@ description: [Description]
 
 
 
-- 字型**：使用 [Rubik](https://fonts.google.com/specimen/Rubik)；
+- 字型**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
 - 顏色** ：
  - 橙色：#FF5C00
  - 黑色 : #000000

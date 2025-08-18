@@ -10,6 +10,8 @@ ___
 
 ___
 
+***Note importante :** Depuis le 8 août 2025, le dépôt GitHub de Picocrypt a été archivé, ce qui signifie que le logiciel ne bénéficie plus d’aucune maintenance. Picocrypt reste entièrement fonctionnel, stable et sécurisé en l’état. Toutefois, un successeur de Picocrypt, développé par la communauté, est disponible et s’appelle [Picocrypt NG](https://github.com/Picocrypt-NG/Picocrypt-NG).*
+
 ## I. Présentation
 
 Dans ce tutoriel, nous allons découvrir Picocrypt, un logiciel de chiffrement simple, léger et efficace pour chiffrer des données avec un haut niveau de sécurité.

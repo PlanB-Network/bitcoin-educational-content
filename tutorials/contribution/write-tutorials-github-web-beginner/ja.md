@@ -346,7 +346,7 @@ assets`フォルダの言語サブフォルダ（私の例では `/assets/en`）
 独自の回路図を作成する場合は、視覚的な一貫性を確保するため、必ず Plan ₿ Network グラフィックのガイドラインに従ってください：
 
 
-- フォント**：ルービック](https://fonts.google.com/specimen/Rubik)を使う；
+- フォント**：ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)を使う；
 - カラー** ：
  - オレンジ#FF5C00
  - 黒 : #000000

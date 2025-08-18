@@ -3015,23 +3015,15 @@ Firefox tetap menjadi patokan untuk keamanan dan privasi, meskipun sedikit terti
 
 #### Tor Browser
 
-
-
-[Tor Browser] (https://www.torproject.org/download/) adalah browser yang berbasis pada Firefox ESR. Ini adalah salah satu solusi yang paling kuat untuk anonimitas online. browser ini mengalihkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan tujuan web.
-
-
+[Tor Browser](https://www.torproject.org/download/) adalah peramban yang didasarkan pada Firefox ESR. Peramban ini adalah salah satu solusi paling kuat untuk anonimitas online. Peramban ini mengarahkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan website tujuan.
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-Kelemahannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompatibilitas terbatas dengan situs web tertentu. Tor Browser ideal untuk aktivitas sensitif (jurnalisme, aktivisme...), tetapi kurang cocok untuk penggunaan sehari-hari.
-
-
+Kekurangannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompatibilitas yang terbatas dengan situs web tertentu. Tor Browser ideal untuk aktivitas sensitif (jurnalisme, aktivisme...), tetapi kurang cocok untuk penggunaan sehari-hari.
 
 ![Image](assets/fr/118.webp)
 
-
-
-#### Browser Mullvad
+#### Mullvad Browser
 
 
 
@@ -3213,7 +3205,7 @@ Berikut ini adalah ringkasan singkat untuk membantu Anda menentukan pilihan (har
 
 
 
-| Browser      | Privacy | Speed | Features | Interface | Open source | Resource consumption |
+| Browser      | Privasi | Kecepatan | Fitur | Interface | Open source | Komsumsi Sumber Daya |
 | --------------- | --------------- | ------- | --------------- | --------- | ----------- | ----------------------- |
 | Google Chrome   | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🔴                      |
 | Brave           | 🟡              | 🟢      | 🟢              | 🟢        | 🟢          | 🟡                      |

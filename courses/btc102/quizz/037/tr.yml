@@ -1,9 +1,9 @@
 question: Bitcoinlerinizin güvenliğini sağlamak için nelerden kesinlikle kaçınmalısınız?
-answer: Bitcoinlerinizi bir Exchange platformunda tutmak
+answer: Bitcoinlerinizi bir Exchange platformunda (sanal pazar yerinde) tutmak
 wrong_answers:
-  - Açık kaynaklı bir Hardware Wallet kullanmak
-  - Günlük işlemler için Hot Wallet kullanımı
+  - Açık kaynaklı bir Hardware Wallet (soğuk cüzdan) kullanmak
+  - Günlük işlemler için Hot Wallet (sıcak cüzdan) kullanımı
   - Depolama yöntemlerinin çeşitlendirilmesi
 explanation: |
-  "Ne anahtarlarınız, ne bitcoinleriniz" ilkesi, kendi özel anahtarlarınızı tutmanın önemini vurgulamaktadır. Bir Exchange platformunda, bitcoinleriniz gereksiz risklere maruz kalır.
+  "Anahtarlarınız sizin değilse, bitcoinleriniz sizin değildir" ilkesi, kendi özel anahtarlarınızı tutmanın önemini vurgulamaktadır. Bir Exchange platformunda (sanal pazar yerinde), bitcoinleriniz gereksiz risklere maruz kalır.
 reviewed: false

@@ -2880,135 +2880,70 @@ Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan 
 
 ### Blink mendominasi, Gecko kesulitan
 
-
-
-Sejak pembuatan Blink pada tahun 2013 dan adopsi yang meluas di seluruh browser berbasis Chromium, mesin rendering ini menjadi dominan. Pada tahun 2025, Blink tidak hanya mendukung Google Chrome, tetapi juga Microsoft Edge (sejak tahun 2020), Opera, Brave, Vivaldi, dan banyak browser lain yang kurang terkenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama di Android, di mana Chrome sudah terinstal.
-
-
-
-Situasi ini membawa keuntungan tertentu: Blink sangat kuat dan didukung oleh tim teknik utama (Google, tetapi juga Microsoft dan lainnya), dan Blink berkembang dengan cepat. Blink juga berkontribusi pada standarisasi de facto tertentu: pengembang web dapat menargetkan satu platform untuk menjangkau hampir semua pengguna. Tetapi konsentrasi ini juga memiliki kelemahan struktural yang serius.
-
-Sejak diciptakannya Blink pada tahun 2013 dan adopsi luasnya di seluruh peramban berbasis Chromium, mesin rendering ini telah menjadi dominan. Per tahun 2025, Blink tidak hanya menggerakkan Google Chrome, tetapi juga Microsoft Edge (sejak 2020), Opera, Brave, Vivaldi, dan banyak peramban lain yang kurang dikenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama pada Android, di mana Chrome sudah terinstal.
+Sejak diciptakannya Blink pada tahun 2013 dan adopsi luasnya di seluruh browser berbasis Chromium, mesin rendering ini telah menjadi dominan. Per tahun 2025, Blink tidak hanya menggerakkan Google Chrome, tetapi juga Microsoft Edge (sejak 2020), Opera, Brave, Vivaldi, dan banyak browser lain yang kurang dikenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama pada Android, di mana Chrome sudah terinstal.
 
 Situasi ini membawa beberapa manfaat: Blink kuat dan didukung oleh tim rekayasa besar (Google, tetapi juga Microsoft dan lainnya), serta berkembang dengan pesat. Blink juga berkontribusi pada standardisasi de facto: para pengembang web dapat menargetkan satu platform untuk menjangkau hampir semua pengguna. Namun, konsentrasi ini juga memiliki kelemahan struktural yang serius.
 
-
-
-Di satu sisi, hal ini meminggirkan mesin alternatif, terutama Gecko, yang digunakan hampir secara eksklusif oleh Firefox. Pada tahun 2025, Firefox akan memiliki kurang dari 6% pangsa pasar, yang sangat membatasi kemampuannya untuk menyuarakan suaranya dalam diskusi tentang evolusi standar web (W3C, WHATWG). Gecko dikelola oleh Mozilla, sebuah yayasan nirlaba dengan sumber daya yang jauh lebih sedikit daripada Google. Mesin ini tetap kompetitif dalam aspek teknis tertentu (terutama perlindungan privasi), tetapi mengalami keterlambatan dalam mengimplementasikan API modern tertentu. Dan fenomena ini adalah bagian dari lingkaran setan: Gecko kurang efisien, yang menyebabkan penurunan jumlah pengguna, yang mendorong pengembang untuk kurang mengoptimalkan situs mereka untuk Gecko, sehingga Gecko menjadi kurang efisien... dan seterusnya.
-
-
+Di satu sisi, dominasi ini meminggirkan mesin alternatif, terutama Gecko, yang digunakan hampir secara eksklusif oleh Firefox. Pada tahun 2025, Firefox memiliki kurang dari 6% pangsa pasar, yang secara signifikan membatasi kemampuannya untuk menyuarakan pendapat dalam diskusi tentang evolusi standar web (W3C, WHATWG). Gecko dikelola oleh Mozilla, sebuah yayasan nirlaba dengan sumber daya yang jauh lebih sedikit daripada Google. Mesin ini tetap kompetitif dalam beberapa aspek teknis (terutama perlindungan privasi), tetapi mengalami kelambatan dalam mengimplementasikan beberapa API modern. Dan fenomena ini adalah bagian dari lingkaran setan: Gecko kurang efisien, yang mengarah pada penurunan jumlah pengguna, yang mendorong pengembang untuk kurang mengoptimalkan situs mereka untuk Gecko, sehingga Gecko menjadi kurang efisien... dan seterusnya.
 
 ![Image](assets/fr/109.webp)
 
+Di sisi lain, sentralisasi di sekitar Blink ini berarti Google secara de facto mengendalikan laju evolusi dan prioritas teknis web. Namun, kepentingan komersialnya (periklanan, pelacakan perilaku, format berbayar, dll.) dapat bertentangan dengan prinsip-prinsip netralitas, interoperabilitas, dan privasi yang secara historis dipertahankan oleh pemain seperti Mozilla.
 
+Terlebih lagi, ketergantungan yang tumbuh pada satu mesin saja meningkatkan risiko sistemik terhadap ekosistem web. Jika Blink mengalami regresi, bias, atau celah, dampaknya akan memengaruhi semua pengguna. Keragaman teknologi memainkan peran ketahanan di sini, sama seperti dalam sistem operasi dan arsitektur perangkat lunak.
 
-Di sisi lain, sentralisasi di sekitar Blink ini berarti bahwa Google secara de facto mengendalikan laju evolusi dan prioritas teknis web. Namun, kepentingan komersialnya (periklanan, pelacakan perilaku, format kepemilikan, dll.) mungkin bertentangan dengan prinsip-prinsip netralitas, interoperabilitas, dan privasi yang secara historis dipertahankan oleh para pemain seperti Mozilla.
+Saat ini, Mozilla terus memainkan peran penting dalam pertahanan web yang terbuka, menghormati privasi, dan dapat diakses secara bebas. Firefox tetap menjadi salah satu dari sedikit browser utama yang tidak berbasis Chromium, dan menawarkan inovasi independen. Namun kelangsungan hidupnya bergantung pada kemampuannya untuk mempertahankan basis pengguna yang memadai dan pendanaan yang berkelanjutan.
 
+Oleh karena itu, Dominasi Blink  bukan hanya masalah teknis: ini melibatkan pertaruhan politik, ekonomi, dan sosial dalam tata kelola web. Dalam hal ini, mempromosikan mesin rendering yang beragam tetap merupakan praktik yang baik demi web yang lebih netral, lebih aman, dan lebih tangguh.
 
+Dalam rentang waktu tiga puluh tahun, browser web telah berevolusi dari alat tampilan sederhana menjadi platform perangkat lunak yang kompleks, terintegrasi ke dalam inti pengalaman komputasi kita sehari-hari. Memahami evolusi sejarah ini memperjelas pentingnya strategis browser dalam isu-isu keamanan dan kedaulatan digital saat ini.
 
-Terlebih lagi, ketergantungan yang semakin besar pada satu mesin meningkatkan risiko sistemik pada ekosistem web. Jika Blink mengalami kemunduran, bias, atau cacat, dampaknya akan mempengaruhi semua pengguna. Keragaman teknologi memainkan peran ketahanan di sini, seperti halnya dalam sistem operasi dan arsitektur perangkat lunak.
-
-
-
-Saat ini, Mozilla terus memainkan peran penting dalam mempertahankan web yang terbuka, menghormati privasi, dan dapat diakses secara bebas. Firefox tetap menjadi salah satu dari beberapa browser utama yang tidak berbasis Chromium, dan menawarkan inovasi independen. Tetapi kelangsungan hidupnya bergantung pada kemampuannya untuk mempertahankan basis pengguna yang memadai dan pendanaan yang berkelanjutan.
-
-
-
-Oleh karena itu, dominasi Blink bukan hanya masalah teknis: ini melibatkan pertaruhan politik, ekonomi, dan sosial dalam tata kelola web. Dalam hal ini, mempromosikan beberapa mesin rendering tetap merupakan praktik yang baik demi web yang lebih netral, lebih aman, dan lebih tangguh.
-
-
-
-Dalam kurun waktu tiga puluh tahun, browser web telah berevolusi dari alat penampil sederhana menjadi platform perangkat lunak yang kompleks, yang terintegrasi ke dalam jantung pengalaman komputasi kita sehari-hari. Memahami evolusi historis ini memperjelas kepentingan strategis browser dalam masalah keamanan dan kedaulatan digital saat ini.
-
-
-
-Pada bab berikutnya, Kami akan memberikan gambaran umum tentang browser yang saat ini tersedia, dari yang tradisional hingga yang futuristik, membandingkan kelebihan dan kekurangannya untuk membantu Anda membuat pilihan yang tepat.
-
-
+Pada bab berikutnya, kita akan memberikan gambaran umum tentang browser yang tersedia saat ini, dari yang tradisional hingga yang futuristik, membandingkan keunggulan dan kekurangannya untuk membantu Anda membuat pilihan yang tepat.
 
 ## Gambaran umum browser
 
-
 <chapterId>4a9f71bc-8d76-4ce3-b983-2df1d6e47fb5</chapterId>
 
+Setelah menelusuri sejarah dan evolusi browser, sekarang kita akan melihat browser utama yang tersedia saat ini. Pilihan browser bukanlah hal yang tidak penting, terutama jika, seperti dalam kasus kita, prioritasnya adalah keamanan, privasi, dan kedaulatan digital. Setiap browser memiliki keunggulan spesifik, tetapi juga kelemahan, yang sering kali terkait dengan model bisnis atau pilihan teknis mereka.
 
+Tujuan bab ini adalah untuk membantu Anda memilih browser yang paling sesuai dengan kebutuhan Anda. Saya telah mengaturnya berdasarkan mesin rendering, tetapi urutan ini tidak mencerminkan peringkat apa pun.
 
-Setelah menjelajahi sejarah dan evolusi browser, sekarang kita akan melihat browser utama yang tersedia saat ini. Pilihan browser bukanlah hal yang sepele, terutama jika, seperti dalam kasus kami, prioritasnya adalah keamanan, privasi, dan kedaulatan digital. Setiap browser memiliki keunggulan spesifik, tetapi juga kelemahan, sering kali terkait dengan model bisnis atau pilihan teknis mereka.
-
-
-
-Tujuan dari bab ini adalah untuk membantu Anda memilih browser yang paling sesuai dengan kebutuhan Anda. Saya telah menyusunnya berdasarkan mesin browser, tetapi urutannya tidak mencerminkan peringkat apa pun.
-
-
-
-### browser berbasis Blink
-
-
+### Browser berbasis Blink
 
 #### Google Chrome
 
-
-
-[Chrome] (https://www.google.com/chrome/) mendapat manfaat dari pengembangan yang cepat dan berkelanjutan, terutama yang dipimpin oleh Google. Browser ini dikenal dengan performa tinggi, kecepatan, kompatibilitas luas dengan standar web modern, dan integrasi yang baik dengan layanan Google.
-
-
+[Chrome](https://www.google.com/chrome/) mendapatkan manfaat dari pengembangan yang cepat dan berkelanjutan, yang utamanya dipimpin oleh Google. browser ini dikenal karena kinerja tinggi, kecepatan, kompatibilitas luas dengan standar web modern, dan integrasi yang baik dengan layanan Google.
 
 ![Image](assets/fr/110.webp)
 
+Namun, dari perspektif keamanan dan privasi, Chrome menimbulkan kekhawatiran besar. Secara default, browser ini mengumpulkan sejumlah besar data tentang penggunanya (penjelajahan, pencarian, riwayat...), yang terutama digunakan untuk tujuan periklanan oleh Google. Kemampuan untuk mengisolasi cookie dan pelacak terbatas secara default, dan penonaktifan secara total pelacakan masih rumit. Selain itu, meskipun Chrome secara teknis aman (sandbox yang efektif, pembaruan cepat...), ia tetap berada di bawah kendali pemain utama yang kepentingan komersialnya secara alami tidak sesuai dengan kedaulatan digital yang sejati.
 
+Hal lain yang perlu dipertimbangkan adalah bahwa karena kecepatan dan kompleksitas ini, Chrome mengonsumsi sumber daya sistem yang sangat besar, terutama RAM.
 
-Namun, dari perspektif keamanan dan privasi, Chrome menimbulkan kekhawatiran besar. Secara default, browser mengumpulkan sejumlah besar data penggunanya (penjelajahan, penelusuran, riwayat...), yang digunakan terutama untuk tujuan periklanan oleh Google. Kemampuan untuk mengisolasi kuki dan pelacak dibatasi secara default, dan penonaktifan pelacakan secara total tetap rumit. Selain itu, meskipun Chrome secara teknis aman (kotak pasir yang efektif, pembaruan yang cepat...), Chrome tetap berada di bawah kendali pemain besar yang kepentingan komersialnya secara alami tidak sesuai dengan kedaulatan digital yang sebenarnya.
+Google Chrome didasarkan pada proyek Chromium, yang merupakan open source. Namun, Google menambahkan banyak kode paten. Oleh karena itu, browser ini tidak dianggap sepenuhnya sebagai open source.
 
-
-
-Hal lain yang perlu dipertimbangkan adalah karena kecepatan dan kerumitannya, Chrome menghabiskan banyak sekali sumber daya sistem, terutama RAM.
-
-
-
-Google Chrome didasarkan pada proyek Chromium, yang merupakan sumber terbuka. Namun, Google menambahkan banyak kode kepemilikan. Oleh karena itu, Chrome tidak sepenuhnya dianggap sebagai sumber terbuka.
-
-
-
-Jadi saya tidak akan merekomendasikan penggunaan Google Chrome, baik secara pribadi maupun profesional (kecuali, tentu saja, bisnis Anda bergantung pada suite Google). Faktanya, ada beberapa alternatif yang sangat baik untuk layanan Google, baik lokal maupun di cloud. Secara khusus, saya mengundang Anda untuk menemukan layanan yang ditawarkan oleh Proton :
-
-
+Jadi saya tidak akan merekomendasikan penggunaan Google Chrome, baik secara pribadi maupun profesional (kecuali, tentu saja, bisnis Anda bergantung pada aplikasi Google). Faktanya, ada beberapa alternatif yang sangat baik untuk layanan Google, baik lokal maupun di cloud. Secara khusus, saya mengundang Anda untuk menemukan layanan yang ditawarkan oleh Proton:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Berani
+#### Brave
 
+[Brave](https://brave.com/) didasarkan pada Blink (sama seperti Chrome), tetapi memiliki pendekatan yang sangat berbeda, yaitu berpusat pada privasi. Secara default, Brave memblokir iklan dan pelacak, mengintegrasikan _HTTPS Everywhere_, dan menawarkan perlindungan canggih terhadap fingerprinting serta script pihak ketiga. Model bisnisnya sebagian didasarkan pada iklan terintegrasi yang ramah privasi, tetapi ini tetap bersifat opsional dan mudah dinonaktifkan.
 
-
-[Brave] (https://brave.com/) didasarkan pada Blink (seperti Chrome), tetapi berbeda secara radikal dalam pendekatan yang berpusat pada privasi. Secara default, Brave memblokir iklan dan pelacak, mengintegrasikan *HTTPS Everywhere*, dan menawarkan proteksi tingkat lanjut terhadap sidik jari dan skrip pihak ketiga. Model bisnisnya sebagian didasarkan pada periklanan ramah privasi yang terintegrasi, tetapi ini tetap opsional dan mudah dinonaktifkan.
-
-
-
-Brave didasarkan pada Chromium dan semua kodenya tersedia di GitHub. Hanya sebagian kecil saja yang merupakan hak milik. Secara keseluruhan, Brave sangat mirip dengan browser sumber terbuka.
-
-
+Brave didasarkan pada Chromium dan semua kodenya tersedia di GitHub. Hanya sebagian kecil yang bersifat hak milik. Secara keseluruhan, Brave sangat dekat dengan browser open source.
 
 ![Image](assets/fr/111.webp)
 
+Meskipun Brave merupakan alternatif yang kuat untuk Chrome — menggabungkan kecepatan, keamanan yang ditingkatkan, privasi yang lebih baik secara default, dan Interface yang intuitif, saya tidak akan merekomendasikannya, hanya karena ia didasarkan pada Chromium.
+
+Meskipun banyak browser (termasuk Brave) berbasis Chromium dan mengklaim memiliki pendekatan yang berorientasi pada privasi, sebuah investigasi yang dilakukan pada tahun 2024 mengungkapkan integrasi, secara default, sebuah API yang memungkinkan Google mengakses informasi sensitif tentang perangkat keras pengguna (CPU, GPU, RAM), serta aktivitasnya di layanan Google. API ini, yang terintegrasi sebagai ekstensi yang tidak dapat dinonaktifkan di Chrome, juga ada di beberapa browser turunan seperti Edge, Opera... dan bahkan Brave.
+
+Meskipun Brave telah menonaktifkan API ini setelahnya, kasus ini dengan jelas menggambarkan ketergantungan struktural browser-browser ini pada Chromium, yang tetap merupakan proyek yang sangat terikat dengan ekosistem Google. Akibatnya, bahkan varian Chromium yang berorientasi pada privasi tidak dapat menjamin kemandirian total atau perlindungan data pengguna sepenuhnya.
 
 
-Brave adalah alternatif yang kuat untuk Chrome, menggabungkan kecepatan, keamanan yang ditingkatkan, privasi yang lebih baik secara default, dan Interface yang intuitif. Namun, saya tidak akan merekomendasikannya, hanya karena berbasis Chromium.
-
-
-
-Meskipun banyak browser (termasuk Brave) yang berbasis Chromium dan mengklaim pendekatan yang berorientasi pada privasi, sebuah investigasi yang dilakukan pada tahun 2024 mengungkapkan adanya integrasi, secara default, API yang memungkinkan Google untuk mengakses informasi sensitif tentang perangkat keras pengguna (CPU, GPU, RAM), serta aktivitasnya di layanan Google. API ini, yang diintegrasikan sebagai ekstensi yang tidak dapat dinonaktifkan di Chrome, juga hadir di beberapa browser turunannya seperti Edge, Opera... dan bahkan Brave.
-
-
-
-Meskipun Brave telah menonaktifkan API ini, kasus ini dengan jelas menggambarkan ketergantungan struktural browser ini pada Chromium, yang tetap menjadi proyek yang sangat terkait dengan ekosistem Google. Akibatnya, bahkan varian Chromium yang berorientasi pada privasi tidak dapat menjamin kemandirian total atau perlindungan penuh terhadap data pengguna.
-
-
-
-→ "***sidik jari***" dalam konteks penjelajahan internet merujuk pada serangkaian teknik yang melibatkan pengumpulan dan analisis informasi spesifik dan terkadang unik tentang lingkungan penjelajahan Anda, untuk mengenali dan melacak Anda di situs web yang berbeda, tanpa menggunakan pengidentifikasi eksplisit seperti cookie. Informasi ini dapat mencakup:
-
-
-
+→ "***fingerprinting***" dalam konteks penjelajahan internet, fingerprinting mengacu pada serangkaian teknik yang melibatkan pengumpulan dan analisis informasi spesifik dan terkadang unik tentang lingkungan penjelajahan Anda, untuk mengenali dan melacak Anda di berbagai situs web, tanpa menggunakan pengenal eksplisit seperti cookie. Informasi ini dapat mencakup:
 
 - IP Address Anda,
 - Penyedia layanan Internet Anda,
@@ -3020,122 +2955,65 @@ Meskipun Brave telah menonaktifkan API ini, kasus ini dengan jelas menggambarkan
 - Resolusi dan ukuran layar Anda,
 - Kedalaman warna,
 - Zona waktu dan bahasa Anda,
-- Kanvas HTML5,
+- Canvas HTML5,
 - Analisis rendering grafis,
 - Ekstensi browser Anda,
 - dll...
 
-
-
-Untuk memeriksa apakah sidik jari browser Anda membuat Anda unik atau Anda berbaur dengan kerumunan, Anda dapat menggunakan situs berikut ini: https://amiunique.org/
-
-
+Untuk memeriksa apakah fingerprint browser Anda membuat Anda unik atau jika Anda menyatu dengan banyak orang, Anda dapat menggunakan situs berikut:
+https://amiunique.org/
 
 #### Vivaldi
 
+[Vivaldi](https://vivaldi.com/), yang didirikan oleh mantan CEO Opera, menargetkan pengguna tingkat lanjut yang mencari personalisasi lebih mendalam dan fitur-fitur canggih seperti panel samping, pengelola tab yang canggih, dan fitur pencatatan terintegrasi.
 
-
-[Vivaldi](https://vivaldi.com/), yang didirikan oleh mantan CEO Opera, menargetkan pengguna tingkat lanjut yang mencari personalisasi yang lebih dalam dan fitur-fitur canggih seperti panel samping, manajer tab tingkat lanjut dan pencatatan terintegrasi.
-
-
-
-Dalam hal keamanan, Vivaldi menyertakan beberapa fitur untuk memblokir pelacak dan iklan, tetapi proteksi ini tetap sedikit lebih lemah daripada Brave. Vivaldi juga kurang transparan dalam beberapa hal, karena kode sumbernya hanya sebagian saja yang open source. Namun demikian, dia menawarkan alternatif yang menarik, kurang fokus pada privasi yang ketat daripada Brave, tetapi lebih dari Chrome atau Opera.
-
-
+Dalam hal keamanan, Vivaldi menyertakan beberapa fitur untuk memblokir pelacak dan iklan, tetapi perlindungan ini sedikit lebih lemah daripada Brave. browser ini juga kurang transparan dalam hal tertentu, karena source code hanya sebagian saja yang open source. Meskipun demikian, ia menawarkan alternatif yang menarik, yang kurang berfokus pada privasi ketat seperti Brave, tetapi lebih dari Chrome atau Opera.
 
 ![Image](assets/fr/112.webp)
 
-
-
 #### Opera
 
+[Opera](https://www.opera.com/) adalah browser yang sudah lama ada, telah hadir sejak tahun 1995. Saat ini, Opera menggunakan Blink setelah meninggalkan mesin miliknya (_Presto_). Browser ini memiliki Interface modern dan beberapa fitur inovatif.
 
-
-[Opera] (https://www.opera.com/) adalah browser yang sudah lama berdiri, sudah ada sejak tahun 1995. Sekarang menggunakan Blink setelah meninggalkan mesin miliknya (*Presto*). Browser ini memiliki Interface yang modern dan beberapa fitur inovatif.
-
-
-
-Namun, dalam hal privasi, Opera sangat kontroversial: Opera telah dimiliki oleh perusahaan Cina sejak 2016, menimbulkan pertanyaan tentang kemungkinan eksploitasi data pengguna. Opera menyertakan VPN terintegrasi (proksi, bukan VPN yang sebenarnya), tetapi kebijakan privasinya tidak jelas tentang manajemen log. Opera juga merupakan browser berpemilik. Oleh karena itu, tidak direkomendasikan, terutama ketika privasi menjadi prioritas.
-
-
+Namun, dalam hal privasi, Opera sangat kontroversial: Opera telah dimiliki oleh perusahaan Cina sejak 2016, menimbulkan pertanyaan tentang kemungkinan eksploitasi data pengguna. Opera menyertakan VPN terintegrasi (lebih tepatnya proksi daripada VPN yang sebenarnya), tetapi kebijakan privasinya tidak jelas tentang manajemen log. Opera juga merupakan browser komersial. Oleh karena itu, Opera tidak direkomendasikan, terutama ketika privasi menjadi prioritas.
 
 ![Image](assets/fr/113.webp)
 
-
-
 #### Browser khusus
 
+Browser berbasis Blink juga mencakup sejumlah Browser yang lebih kecil, yang sering kali dirancang untuk memenuhi kasus penggunaan tertentu:
 
+- **Arc** :
+  
+Dikembangkan oleh The Browser Company, [Arc](https://arc.net/) menawarkan pendekatan yang sangat berbeda terhadap Interface pengguna. Browser ini mengganti tab tradisional dengan sistem "_spaces_" (ruang), bilah sisi terpadu, dan mengintegrasikan alat kreatif seperti tangkapan layar yang dapat diberi anotasi dan editor situs yang sederhana. Penekanannya adalah pada kegunaan, penyesuaian visual, dan kelancaran penggunaan, menjadikannya aplikasi yang disukai oleh beberapa profesional.
 
-Browser berbasis Blink juga menyertakan sejumlah browser yang lebih marjinal, yang sering kali dirancang untuk memenuhi kasus penggunaan tertentu:
-
-
-
-
-
-- Busur** :
-
-
-
-Dikembangkan oleh The Browser Company, [Arc] (https://arc.net/) menawarkan pendekatan yang sangat berbeda kepada pengguna Interface. Ini menggantikan tab tradisional dengan sistem "*spasi*", bilah sisi terpadu, dan mengintegrasikan alat kreatif seperti tangkapan yang dapat dianotasi dan editor situs sederhana. Penekanannya adalah pada kegunaan, kustomisasi visual dan kelancaran penggunaan, sehingga menjadikannya alat yang disukai oleh sebagian profesional.
-
-
-
-Dari sudut pandang teknis, Arc didasarkan pada Chromium, tetapi tetap merupakan perangkat lunak berpemilik. Tidak ada transparansi dalam pengumpulan data, dan kebijakan privasinya masih belum jelas, terutama dalam hal telemetri dan sinkronisasi di awan. Oleh karena itu harus dihindari dari perspektif kedaulatan digital.
-
-
+Dari sudut pandang teknis, Arc didasarkan pada Chromium, tetapi tetap merupakan perangkat lunak berbayar. Browser ini tidak menawarkan transparansi mengenai pengumpulan data, dan kebijakan privasinya tetap tidak jelas, terutama terkait dengan telemetri dan sinkronisasi di cloud. Oleh karena itu, browser ini harus dihindari dari perspektif kedaulatan digital.
 
 ![Image](assets/fr/114.webp)
 
+- **Polypane**:
 
+[Polypane](https://polypane.app/) secara khusus ditujukan untuk pengembang front-end dan desainer UX. Fungsi utamanya adalah untuk secara simultan menampilkan beberapa contoh situs yang sama secara bersamaan pada resolusi layar yang berbeda, guna menguji perilaku _responsive_ dari sebuah Interface secara real-time. Browser ini juga menawarkan aplikasi aksesibilitas, validator HTML/CSS, simulator buta warna, dan metrik kinerja.
 
-
-
-- Polypane**:
-
-
-
-[Polypane] (https://polypane.app/) ditujukan secara khusus untuk pengembang front-end dan desainer UX. Fungsi utamanya adalah untuk menampilkan beberapa contoh situs yang sama secara bersamaan pada resolusi layar yang berbeda, untuk menguji perilaku *responsif* Interface secara real time. Alat ini juga menawarkan alat aksesibilitas, validator HTML/CSS, simulator buta warna, dan metrik kinerja.
-
-
-
-Polypane adalah browser eksklusif berbayar yang berbasis Chromium, yang membuatnya ideal untuk penggunaan profesional sesekali. browser ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
-
-
+Polypane adalah peramban komersial dan berbayar yang berbasis Chromium, yang menjadikannya ideal untuk penggunaan profesional sesekali. Browser ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
 
 ![Image](assets/fr/116.webp)
 
-
-
 ### browser berbasis Gecko
-
-
 
 #### Mozilla Firefox
 
+[Firefox](https://www.mozilla.org/firefox/new/) adalah peramban paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang ditingkatkan, opsi canggih untuk memblokir cookie pihak ketiga, kontainer tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
 
-
-[Firefox] (https://www.mozilla.org/firefox/new/) adalah browser paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang disempurnakan, opsi tingkat lanjut untuk memblokir kuki pihak ketiga, wadah tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
-
-
-
-Mozilla adalah organisasi nirlaba, yang memberinya kemandirian relatif dari kepentingan komersial murni, meskipun tetap sangat bergantung secara finansial pada kemitraan dengan Google. Google mendanai sebagian besar Mozilla Foundation, secara resmi agar mesin pencarinya tetap menjadi default di Firefox, dan dengan demikian mempertahankan pangsa pasarnya. Secara tidak resmi, strategi ini memungkinkan Google untuk mempertahankan suatu bentuk persaingan yang terkendali: dengan mendukung Mozilla, Google mempertahankan pesaing minimal, yang mengurangi tuduhan penyalahgunaan posisi dominan dan membatasi risiko sanksi peraturan.
-
-
+Mozilla adalah organisasi nirlaba, yang memberinya kemandirian relatif dari kepentingan komersial murni, meskipun secara finansial sangat bergantung pada kemitraan dengan Google. Google mendanai sebagian besar Mozilla Foundation, secara resmi agar mesin pencarinya tetap menjadi default di Firefox, dan dengan demikian mempertahankan pangsa pasarnya. Secara tidak resmi, strategi ini memungkinkan Google untuk mempertahankan bentuk persaingan yang terkendali: dengan mendukung Mozilla, Google mempertahankan pesaing minimal, yang mengurangi tuduhan penyalahgunaan posisi dominan dan membatasi risiko sanksi peraturan.
 
 ![Image](assets/fr/117.webp)
 
+Firefox adalah peramban open source, didistribusikan di bawah MPL (*Mozilla Public License*). Kodenya sepenuhnya bebas, dapat dimodifikasi, dan dapat didistribusikan ulang, serta menjadi subjek dari banyak kontribusi eksternal.
 
+Firefox tetap menjadi patokan untuk keamanan dan privasi, meskipun sedikit tertinggal di belakang peramban berbasis Blink dalam beberapa aspek kinerja. Ini bisa menjadi peramban yang sangat baik, asalkan dikonfigurasi dengan benar.
 
-Firefox adalah browser sumber terbuka, didistribusikan di bawah lisensi MPL (*Mozilla Public License*). Kodenya benar-benar gratis, dapat dimodifikasi dan didistribusikan ulang, dan merupakan subjek dari banyak kontribusi eksternal.
-
-
-
-Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit tertinggal dari browser berbasis Blink dalam area kinerja tertentu. Ini bisa menjadi browser yang sangat bagus, selama dikonfigurasi dengan benar.
-
-
-
-#### browser Tor
+#### Tor Browser
 
 
 

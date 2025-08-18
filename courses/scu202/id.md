@@ -2806,13 +2806,13 @@ Chrome telah secara mendalam mendefinisikan ulang standar kinerja, keamanan, dan
 
 ### Evolusi mesin rendering: dari Trident hingga Blink
 
-Mesin rendering adalah komponen inti dari sebuah peramban web. Peran utamanya adalah untuk menginterpretasikan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font, dll.) guna menghasilkan Interface grafis yang interaktif. Mesin rendering seperti penerjemah antara bahasa-bahasa web dan layar Anda, menerjemahkan baris-baris kode menjadi halaman yang serasi secara visual, interaktif, dan fungsional.
+Mesin rendering adalah komponen inti dari sebuah browser web. Peran utamanya adalah untuk menginterpretasikan file yang diterima dari server (HTML, CSS, JavaScript, gambar, font, dll.) guna menghasilkan Interface grafis yang interaktif. Mesin rendering seperti penerjemah antara bahasa-bahasa web dan layar Anda, menerjemahkan baris-baris kode menjadi halaman yang serasi secara visual, interaktif, dan fungsional.
 
 Secara konkret, ketika Anda memasukkan URL di bilah Address:
 
 Secara nyata, ketika Anda memasukkan URL di bilah alamat:
 
-- Peramban mengirimkan permintaan HTTP ke server jarak jauh;
+- browser mengirimkan permintaan HTTP ke server jarak jauh;
 - Server merespons dengan dokumen HTML;
 - Mesin rendering menganalisis HTML ini, mengunduh file-file terkait (CSS, JavaScript, gambar, dll.);
 - Mesin ini membangun "DOM" (_Document Object Model_) yang merepresentasikan struktur dokumen;
@@ -2825,73 +2825,38 @@ Berikut ini adalah tinjauan historis dari mesin rendering utama yang telah membe
 
 #### Trident (1997 - 2015)
 
+Dikembangkan oleh Microsoft untuk Internet Explorer 4, Trident adalah mesin yang mendominasi web di awal tahun 2000-an, menjadi inti dari perang browser. Meskipun inovatif di masa-masa awalnya, Trident dengan cepat tertinggal dalam hal kesesuaian terhadap standar W3C, yang menyebabkan munculnya banyak situs yang hanya dioptimalkan untuk Internet Explorer.
 
-
-Dikembangkan oleh Microsoft untuk Internet Explorer 4, Trident adalah mesin yang mendominasi web di awal tahun 2000-an, di jantung perang browser. Meskipun inovatif pada masa-masa awalnya, Trident dengan cepat tertinggal dalam hal kepatuhan terhadap standar W3C, yang menyebabkan munculnya banyak situs yang dioptimalkan hanya untuk Internet Explorer.
-
-
-
-Trident juga menghadirkan masalah keamanan dan mesin JavaScript yang lambat. Pengembang web sering kali harus menulis kode khusus untuk mengatasi bug-nya. Microsoft menggantinya pada tahun 2015 dengan EdgeHTML, sebuah mesin yang lebih modern yang gagal membalikkan tren. Trident tetap menjadi simbol era ketika sebuah mesin dapat menerapkan aturannya sendiri di Web.
-
-
+Trident juga menimbulkan masalah keamanan dan mesin JavaScript yang lambat. Pengembang web sering kali harus menulis kode khusus untuk mengakali bug-nya. Microsoft menggantinya pada tahun 2015 dengan EdgeHTML, mesin yang lebih modern yang gagal membalikkan tren. Trident tetap menjadi simbol era di mana sebuah mesin dapat memaksakan aturannya sendiri pada Web.
 
 ![Image](assets/fr/103.webp)
 
-
-
 *Sumber : pcworld.com*
 
+#### Gecko (1998)
 
+Dirancang oleh Netscape, kemudian dipelihara oleh Mozilla Foundation, Gecko menggerakkan browser Firefox. Sejak awal, Gecko sangat ketat dalam kesesuaian terhadap standar. Mesin ini ditulis dalam C++ dan mendukung berbagai platform.
 
-#### Tokek (1998)
+Gecko telah menjadi sumber dari banyak inovasi. Namun, basis kodenya yang kompleks dan terkesan kuno membuat evolusi perubahannya menjadi lambat. 
 
-
-
-Didesain oleh Netscape, kemudian dikelola oleh Mozilla Foundation, Gecko mendukung browser Firefox. Sejak awal, Gecko sangat ketat dalam hal kepatuhan terhadap standar. Ia ditulis dalam bahasa C++ dan mendukung banyak platform.
-
-
-
-Gecko telah menjadi sumber dari banyak inovasi. Namun, basis kodenya yang kompleks dan bersejarah membuat evolusi tertentu berjalan lambat.
-
-
-
-Dalam hal pangsa pasar, Gecko sekarang jauh di belakang Blink, karena Firefox adalah satu-satunya browser utama yang menggunakannya. Ia juga sedikit digunakan oleh browser yang kurang dikenal dan kurang digunakan yang merupakan garpu Firefox: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Hal ini menjadikan Gecko sebagai penjamin keragaman di web, dalam menghadapi dominasi Blink.
-
-
+Dalam hal pangsa pasar, Gecko sekarang jauh di belakang Blink, karena Firefox adalah satu-satunya browser utama yang menggunakannya. Mesin ini juga digunakan secara marginal oleh browser yang kurang dikenal dan kurang digunakan yang merupakan fork dari Firefox: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox, dan lain-lain. Hal ini menjadikan Gecko sebagai penjamin keragaman di web, di tengah dominasi Blink.
 
 ![Image](assets/fr/104.webp)
 
-
-
 #### KHTML (1998 - 2005)
 
-
-
-Dikembangkan oleh proyek KDE untuk browser Konqueror, KHTML adalah mesin yang ringan, modular, dan cepat. Ditulis dalam bahasa C++, KHTML menghormati standar dan menawarkan basis yang bersih dan terdokumentasi dengan baik. Mesin inilah yang dipilih Apple pada tahun 2001 untuk membuat WebKit. Dengan demikian, KHTML adalah nenek moyang teknis dari Chrome dan Safari.
-
-
+Dikembangkan oleh proyek KDE untuk browser Konqueror-nya, KHTML adalah mesin yang ringan, modular, dan cepat. Ditulis dalam C++, KHTML menyesuaikan standar dan menawarkan basis yang bersih serta terdokumentasi dengan baik. Mesin inilah yang dipilih Apple pada tahun 2001 untuk membuat WebKit. Dengan demikian, KHTML adalah pendahulu teknis dari Chrome dan Safari.
 
 ![Image](assets/fr/105.webp)
 
-
-
 #### WebKit (2003)
 
-
-
-WebKit adalah Fork dari KHTML yang diluncurkan oleh Apple untuk mengembangkan browsernya sendiri: Safari. WebKit pertama kali dioptimalkan untuk kinerja dan integrasi dengan macOS, kemudian digunakan oleh Google Chrome ketika dirilis pada tahun 2008. WebKit didasarkan pada dua subkomponen:
-
-
-
+WebKit adalah fork dari KHTML yang diluncurkan oleh Apple untuk mengembangkan browser mereka sendiri: Safari. WebKit ini pertama kali dioptimalkan untuk kinerja dan integrasi dengan macOS, kemudian digunakan oleh Google Chrome saat dirilis pada tahun 2008. WebKit didasarkan pada dua sub-komponen:
 
 - WebCore untuk rendering HTML/CSS;
 - JavaScriptCore (juga dikenal sebagai "Nitro") untuk eksekusi kode JavaScript.
 
-
-
-WebKit menonjol karena kecepatan dan ukurannya yang kecil. Pada iOS, Apple telah memaksakan penggunaannya pada semua browser karena alasan keamanan dan efisiensi energi: bahkan Firefox atau Chrome di iPhone menggunakan WebKit di bawah tenda.
-
-
+WebKit menonjol karena kecepatan dan ukurannya yang kecil. Pada iOS, Apple telah memaksakan penggunaannya pada semua browser demi alasan keamanan dan efisiensi energi: bahkan Firefox atau Chrome di iPhone menggunakan WebKit di baliknya.
 
 ![Image](assets/fr/106.webp)
 
@@ -2899,35 +2864,19 @@ WebKit menonjol karena kecepatan dan ukurannya yang kecil. Pada iOS, Apple telah
 
 #### Blink (2013)
 
-
-
-Blink adalah Fork dari WebKit yang diprakarsai oleh Google untuk melengkapi Chrome (dan Chromium), kemudian dengan cepat diadopsi oleh Opera, Brave, Vivaldi, dan bahkan Microsoft Edge sejak tahun 2020. Blink memperkenalkan tata kelola yang lebih fleksibel daripada Apple, memungkinkan Google untuk bereksperimen dengan cepat dengan API web baru.
-
-
+Blink adalah fork dari WebKit yang diprakarsai oleh Google untuk melengkapi Chrome (dan Chromium), kemudian dengan cepat diadopsi oleh Opera, Brave, Vivaldi, dan bahkan Microsoft Edge sejak tahun 2020. Blink memperkenalkan tata kelola yang lebih fleksibel daripada Apple, yang memungkinkan Google untuk bereksperimen dengan API web baru secara cepat.
 
 ![Image](assets/fr/107.webp)
 
-
-
-Saat ini, Blink adalah mesin render yang paling banyak digunakan di dunia. Namun, supremasi ini menimbulkan pertanyaan tentang monokultur teknis di web, tetapi kita akan kembali lagi nanti.
-
-
+Saat ini, Blink adalah mesin rendering yang paling banyak digunakan di dunia. Namun, supremasi ini menimbulkan pertanyaan tentang monokultur teknis di web, tetapi kita akan kembali membahasnya nanti.
 
 #### EdgeHTML (2015 - 2020)
 
-
-
-Penerus Trident, EdgeHTML telah dirancang oleh Microsoft untuk memodernisasi Edge, dengan kinerja dan kompatibilitas yang lebih baik. EdgeHTML menggabungkan beberapa kode Trident, tetapi dengan mesin JavaScript yang didesain ulang. Terlepas dari upaya ini, EdgeHTML berjuang untuk meyakinkan pengguna dan pengembang web. Pada tahun 2020, Microsoft memutuskan untuk meninggalkan EdgeHTML dan memilih Blink, meluncurkan Edge Chromium, yang menjadi browser Blink dengan Microsoft Interface Layer.
-
-
+Sebagai penerus Trident, EdgeHTML telah dirancang oleh Microsoft untuk memodernisasi Edge, dengan kinerja dan kompatibilitas yang ditingkatkan. EdgeHTML menggabungkan sebagian kode Trident, tetapi dengan mesin JavaScript yang didesain ulang. Meskipun ada upaya ini, EdgeHTML berjuang untuk meyakinkan pengguna dan pengembang web. Pada tahun 2020, Microsoft memutuskan untuk meninggalkan EdgeHTML demi Blink, meluncurkan Edge Chromium, yang menjadi browser Blink dengan lapisan Interface Microsoft.
 
 ![Image](assets/fr/108.webp)
 
-
-
-Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan standarisasi, dominasi pemain besar, upaya alternatif yang lebih etis atau teknis. Saat ini, hampir semua browser berbasiskan Blink, dengan pengecualian penting pada Firefox (Gecko) dan Safari (WebKit).
-
-
+Evolusi mesin rendering mencerminkan sejarah web: ketegangan antara inovasi dan standardisasi, dominasi pemain besar, upaya untuk alternatif yang lebih etis atau teknis. Saat ini, hampir semua browser didasarkan pada Blink, dengan pengecualian yang patut dicatat yaitu Firefox (Gecko) dan Safari (WebKit).
 
 ### Blink mendominasi, Gecko kesulitan
 
@@ -2938,6 +2887,10 @@ Sejak pembuatan Blink pada tahun 2013 dan adopsi yang meluas di seluruh browser 
 
 
 Situasi ini membawa keuntungan tertentu: Blink sangat kuat dan didukung oleh tim teknik utama (Google, tetapi juga Microsoft dan lainnya), dan Blink berkembang dengan cepat. Blink juga berkontribusi pada standarisasi de facto tertentu: pengembang web dapat menargetkan satu platform untuk menjangkau hampir semua pengguna. Tetapi konsentrasi ini juga memiliki kelemahan struktural yang serius.
+
+Sejak diciptakannya Blink pada tahun 2013 dan adopsi luasnya di seluruh peramban berbasis Chromium, mesin rendering ini telah menjadi dominan. Per tahun 2025, Blink tidak hanya menggerakkan Google Chrome, tetapi juga Microsoft Edge (sejak 2020), Opera, Brave, Vivaldi, dan banyak peramban lain yang kurang dikenal. Dominasinya melebihi 80% pangsa pasar di desktop, dan terutama pada Android, di mana Chrome sudah terinstal.
+
+Situasi ini membawa beberapa manfaat: Blink kuat dan didukung oleh tim rekayasa besar (Google, tetapi juga Microsoft dan lainnya), serta berkembang dengan pesat. Blink juga berkontribusi pada standardisasi de facto: para pengembang web dapat menargetkan satu platform untuk menjangkau hampir semua pengguna. Namun, konsentrasi ini juga memiliki kelemahan struktural yang serius.
 
 
 

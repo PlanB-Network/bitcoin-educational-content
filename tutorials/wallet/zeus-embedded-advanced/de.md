@@ -9,7 +9,7 @@ description: Selbstverwahrende Wallet mit mehreren Knotenpunkten
 ## Einführung in ZEUS Wallet
 
 
-ZEUS ist eine mobile Bitcoin-Wallet- und Knotenverwaltungs-App mit allen Funktionen eines Bitcoin-Lightning-Wallet, die Bitcoin-Zahlungen vereinfacht, den Nutzern die vollständige Kontrolle über ihre Finanzen gibt und fortgeschrittenen Nutzern die Verwaltung ihrer Lightning-Knoten von der Handfläche aus ermöglicht.
+ZEUS ist eine mobile Bitcoin-Wallet- und Nodemanagement-App mit allen Funktionen eines Bitcoin-Lightning-Wallet, die Bitcoin-Zahlungen vereinfacht, den Nutzern die vollständige Kontrolle über ihre Finanzen gibt und fortgeschrittenen Nutzern die Verwaltung ihrer Lightning-Knoten von der Handfläche aus ermöglicht.
 
 
 ### Für wen ist ZEUS gedacht?

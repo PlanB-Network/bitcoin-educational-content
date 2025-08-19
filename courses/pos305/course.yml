@@ -50,11 +50,12 @@ proofreading:
     contributor_names:
     reward: 62.31
   - language: en
-    last_contribution_date: 2024-06-30
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - melontwist
-    reward: 31.16
+      - 2raj2raj
+    reward: 15.58
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1

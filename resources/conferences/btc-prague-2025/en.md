@@ -139,9 +139,6 @@ description: We know how hard it can get! As a bitcoiner it is sometimes easy to
 
 ![video](https://youtu.be/LaC9sEr6MtY)
 
-## [Private video]
-
-![video](https://youtu.be/J1XmWuY6KVo)
 
 # Main Stage Day Three
 
@@ -193,9 +190,6 @@ description: We know how hard it can get! As a bitcoiner it is sometimes easy to
 
 ![video](https://youtu.be/eTPe9buJ5w8)
 
-## [Private video]
-
-![video](https://youtu.be/Gq1Q0IMSqh0)
 
 # Expo Stage Day One
 
@@ -262,10 +256,6 @@ description: We know how hard it can get! As a bitcoiner it is sometimes easy to
 ## Francis Pouliot – Solving Self-Custody: Making Sovereignty Simple | BTC Prague 2025
 
 ![video](https://youtu.be/ryS_CE4p_3k)
-
-## [Private video]
-
-![video](https://youtu.be/tLtxFgvJGsk)
 
 # Expo Stage Day Two
 

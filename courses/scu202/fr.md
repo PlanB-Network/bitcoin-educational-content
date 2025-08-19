@@ -2465,7 +2465,7 @@ Pour en savoir plus sur cette solution, je vous invite à consulter ce tutoriel 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
-- **macOS :**
+- **MacOS :**
 
 Sur macOS, le chiffrement du disque système repose sur *FileVault*, une fonctionnalité native accessible depuis les réglages de sécurité. Si votre Mac est équipé d’une puce Apple Silicon (M1, M2…) ou d’une puce T2, un chiffrement matériel est déjà activé en permanence. Toutefois, l’activation de FileVault vient ajouter une couche de sécurité supplémentaire en chiffrant l’intégralité du volume système.
 

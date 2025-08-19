@@ -5561,7 +5561,7 @@ Lengo la sura hii ni kukusaidia kuchagua kivinjari kinachofaa mahitaji yako. Nim
 
 
 
-Hata hivyo, kwa mtazamo wa usalama na faragha, Chrome inazua wasiwasi mkubwa. Kwa chaguo-msingi, kivinjari hukusanya kiasi kikubwa cha data kwa watumiaji wake (kuvinjari, utafutaji, historia ...), ambayo hutumiwa hasa kwa madhumuni ya utangazaji na Google. Uwezo wa kutenga vidakuzi na vifuatiliaji ni mdogo kwa chaguo-msingi, na uzima wa jumla wa ufuatiliaji unabaki kuwa mgumu. Pia, hata kama Chrome ni salama kiufundi (sasisha zinazofanya kazi vizuri, masasisho ya haraka...), inasalia chini ya udhibiti wa mchezaji mkuu ambaye maslahi yake ya kibiashara kiasili hayaambatani na uhuru wa kweli wa kidijitali.
+Hata hivyo, kwa mtazamo wa usalama na faragha, Chrome inazua wasiwasi mkubwa. Kwa chaguo-msingi, kivinjari hiki hukusanya kiasi kikubwa cha data za watumiaji (historia ya kuvinjari, utafutaji, n.k.), ambazo hutumiwa hasa kwa madhumuni ya matangazo ya Google. Uwezo wa kutenga vidakuzi na vifuatiliaji ni mdogo, na kuzima kwa jumla ufuatiliaji ni jambo gumu. Zaidi ya hayo, hata kama Chrome ni salama kiufundi (kwa sasisho za haraka na zinazofanya kazi vizuri), inabaki chini ya udhibiti wa mchezaji mkuu ambaye maslahi yake ya kibiashara kiasili hayaambatani na uhuru wa kweli wa kidijitali.
 
 
 
@@ -5581,11 +5581,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Jasiri
+#### Brave
 
 
 
-[Jasiri](https://brave.com/) inatokana na Blink (kama Chrome), lakini inatofautiana sana katika mbinu yake ya kuzingatia faragha. Kwa chaguomsingi, Jasiri huzuia matangazo na vifuatiliaji, huunganisha *HTTPS Kila Mahali*, na hutoa ulinzi wa hali ya juu dhidi ya alama za vidole na hati za watu wengine. Muundo wake wa biashara unategemea kwa sehemu utangazaji uliojumuishwa wa ufaragha, lakini hii inasalia kuwa ya hiari na imezimwa kwa urahisi.
+[Brave](https://brave.com/) inatokana na Blink (kama Chrome), lakini inatofautiana sana katika mbinu yake ya kuzingatia faragha. Kwa chaguo-msingi, Jasiri huzuia matangazo na vifuatiliaji, huunganisha HTTPS Everywhere, na hutoa ulinzi wa hali ya juu dhidi ya alama za vidole na hati za watu wengine. Muundo wake wa biashara unategemea kwa sehemu utangazaji wa ufaragha uliojumuishwa, lakini hii inabaki kuwa ya hiari na inaweza kuzimwa kwa urahisi.
 
 
 
@@ -5614,7 +5614,7 @@ Ingawa Brave amezima API hii tangu wakati huo, kesi hii inaonyesha kwa uwazi ute
 
 
 
-- IP yako Address,
+- IP Address yako ,
 - Mtoa huduma wako wa mtandao,
 - Jiografia yako,
 - Kivinjari chako na sifa zake,
@@ -5643,7 +5643,7 @@ Ili kuangalia kama alama ya vidole ya kivinjari chako inakufanya uwe wa kipekee 
 
 
 
-Kwa upande wa usalama, Vivaldi inajumuisha vipengele kadhaa vya kuzuia vifuatiliaji na matangazo, lakini ulinzi huu unabaki dhaifu kidogo kuliko Brave. Pia haina uwazi katika mambo fulani, kwani msimbo wake wa chanzo ni chanzo wazi kwa kiasi. Walakini, inatoa njia mbadala ya kupendeza, isiyozingatia sana faragha kali kuliko Jasiri, lakini zaidi ya Chrome au Opera.
+Kwa upande wa usalama, Vivaldi inajumuisha vipengele kadhaa vya kuzuia vifuatiliaji na matangazo, lakini ulinzi huu unabaki dhaifu kidogo kuliko Brave. Pia haina uwazi katika mambo fulani, kwani msimbo wake wa chanzo ni wazi kwa kiasi. Hata hivyo, inatoa njia mbadala ya kuvutia, isiyozingatia sana faragha kali kama Jasiri, lakini bora zaidi kuliko Chrome au Opera.
 
 
 
@@ -5659,7 +5659,7 @@ Kwa upande wa usalama, Vivaldi inajumuisha vipengele kadhaa vya kuzuia vifuatili
 
 
 
-Hata hivyo, kwa upande wa faragha, Opera ina utata mkubwa: imekuwa ikimilikiwa na kampuni ya Kichina tangu 2016, na kuibua maswali kuhusu uwezekano wa unyonyaji wa data ya mtumiaji. Opera inajumuisha VPN iliyojumuishwa (proksi badala ya VPN ya kweli), lakini sera ya faragha haijulikani wazi kuhusu usimamizi wa kumbukumbu. Opera pia ni kivinjari cha wamiliki. Kwa hiyo haipendekezwi, hasa wakati faragha ni kipaumbele.
+Hata hivyo, kwa upande wa faragha, Opera ina utata mkubwa: imekuwa ikimilikiwa na kampuni ya Kichina tangu 2016, na kuibua maswali kuhusu uwezekano wa unyonyaji wa data ya watumiaji. Opera inajumuisha VPN iliyojengewa ndani (proksi badala ya VPN ya kweli), lakini sera yake ya faragha haiko wazi kuhusu usimamizi wa kumbukumbu. Aidha, Opera ni kivinjari cha wamiliki. Kwa hiyo, haipendekezwi, hasa pale ambapo faragha ni kipaumbele.
 
 
 
@@ -5677,11 +5677,11 @@ Vivinjari vinavyotegemea Blink pia vinajumuisha idadi ya vivinjari zaidi vya kan
 
 
 
-- Safu** :
+- **Safu** :
 
 
 
-Iliyoundwa na Kampuni ya Kivinjari, [Arc](https://arc.net/) inatoa mbinu tofauti kabisa kwa mtumiaji Interface. Hubadilisha vichupo vya kawaida kwa mfumo wa "*nafasi*", upau wa kando uliounganishwa, na kuunganisha zana za ubunifu kama vile kunasa maelezo na kihariri rahisi cha tovuti. Msisitizo ni juu ya utumiaji, ubinafsishaji wa kuona na urahisi wa utumiaji, na kuifanya hii kuwa zana inayopendwa na wataalamu wengine.
+Iliyoundwa na Kampuni ya Kivinjari, [Arc](https://arc.net/) inatoa mbinu tofauti kabisa kwa mtumiaji Interface. Hubadilisha vichupo vya kawaida kwa mfumo wa "Spaces", ina upau wa kando uliounganishwa, na huunganisha zana za ubunifu kama vile kunasa maelezo na kihariri rahisi cha tovuti. Msisitizo wake ni juu ya utumiaji, ubinafsishaji wa kuona na urahisi wa matumizi, na kuifanya kuwa chaguo linalopendwa na baadhi ya wataalamu.
 
 
 
@@ -5695,11 +5695,11 @@ Kwa mtazamo wa kiufundi, Arc inategemea Chromium, lakini inasalia kuwa programu 
 
 
 
-- Polypane** :
+- **Polypane** :
 
 
 
-[Polypane](https://polypane.app/) inalenga wasanidi wa mbele na wabunifu wa UX. Kazi yake kuu ni kuonyesha kwa wakati mmoja matukio kadhaa ya tovuti sawa kwenye maazimio tofauti ya skrini, ili kujaribu tabia ya *mwitikio* ya Interface kwa wakati halisi. Pia hutoa zana za ufikivu, vithibitishaji vya HTML/CSS, viigaji visivyoona rangi na vipimo vya utendakazi.
+[Polypane](https://polypane.app/) inalenga wasanidi wa mbele na wabunifu wa UX. Kazi yake kuu ni kuonyesha kwa wakati mmoja matukio kadhaa ya tovuti moja kwenye maazimio tofauti ya skrini, ili kujaribu tabia ya responsiveness ya Interface kwa wakati halisi. Pia hutoa zana za ufikivu, vithibitishaji vya HTML/CSS, viigaji visivyoona rangi, na vipimo vya utendakazi.
 
 
 
@@ -5714,7 +5714,6 @@ Polypane ni kivinjari kinachomilikiwa, kinacholipwa kulingana na Chromium, ambay
 ### Vivinjari vya msingi wa Gecko
 
 
-
 #### Firefox ya Mozilla
 
 
@@ -5723,7 +5722,7 @@ Polypane ni kivinjari kinachomilikiwa, kinacholipwa kulingana na Chromium, ambay
 
 
 
-Mozilla ni shirika lisilo la faida, ambalo huipa uhuru kiasi kutoka kwa masilahi ya kibiashara tu, hata kama inategemea sana kifedha kwa ushirikiano na Google. Mwisho kwa kiasi kikubwa hufadhili Wakfu wa Mozilla, rasmi ili injini yake ya utafutaji ibaki kuwa chaguo-msingi katika Firefox, na hivyo kudumisha sehemu yake ya soko. Kwa njia isiyo rasmi, mkakati huu unawezesha Google kudumisha aina ya ushindani unaodhibitiwa: kwa kuunga mkono Mozilla, Google huhifadhi mshindani mdogo, ambayo hupunguza mashtaka ya matumizi mabaya ya nafasi kubwa na kupunguza hatari ya vikwazo vya udhibiti.
+Mozilla ni shirika lisilo la faida, ambalo huipa uhuru kiasi kutoka kwa masilahi ya kibiashara, hata kama inategemea sana kifedha ushirikiano na Google. Google kwa kiasi kikubwa hufadhili Wakfu wa Mozilla, rasmi ili injini yake ya utafutaji ibaki kuwa chaguo-msingi katika Firefox, na hivyo kudumisha sehemu yake ya soko. Kwa njia isiyo rasmi, mkakati huu huwezesha Google kudumisha aina ya ushindani unaodhibitiwa: kwa kuunga mkono Mozilla, Google huhifadhi mshindani mdogo, jambo linalopunguza mashtaka ya matumizi mabaya ya nafasi kubwa na kupunguza hatari ya vikwazo vya udhibiti.
 
 
 
@@ -5731,11 +5730,11 @@ Mozilla ni shirika lisilo la faida, ambalo huipa uhuru kiasi kutoka kwa masilahi
 
 
 
-Firefox ni kivinjari cha programu huria, kinachosambazwa chini ya MPL (*Leseni ya Umma ya Mozilla*). Nambari yake ni bure kabisa, inaweza kubadilishwa na inaweza kusambazwa tena, na ni mada ya michango mingi kutoka nje.
+Firefox ni kivinjari cha programu huria, kinachosambazwa chini ya MPL (Mozilla Public License). Nambari yake ni huru kabisa, inaweza kubadilishwa na kusambazwa tena, na imekuwa mada ya michango mingi kutoka kwa jamii ya wasanidi programu huru nje.
 
 
 
-Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kuwa nyuma kidogo ya vivinjari vinavyotokana na Blink katika maeneo fulani ya utendaji. Inaweza kuwa kivinjari kizuri sana, mradi tu imesanidiwa ipasavyo.
+Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kubaki nyuma kidogo ya vivinjari vinavyotegemea Blink katika baadhi ya maeneo ya utendaji. Inaweza kuwa kivinjari bora sana, mradi tu kimesanidiwa ipasavyo.
 
 
 
@@ -5819,7 +5818,7 @@ Kivinjari kikuu bado kinatumia injini ya utoaji ya WebKit (sio Fork kama Blink) 
 
 Walakini, Safari bado imefungwa, iliyopunguzwa kwa macOS kwa toleo lake la eneo-kazi, na inategemea mfumo wa ikolojia wa Apple. Ingawa Apple ina sera dhabiti ya faragha, na mtindo wake wa biashara unategemea mauzo ya maunzi badala ya utangazaji, bado haijulikani wazi kuhusu mazoea fulani ya ndani.
 
-Hapa, tunazingatia vivinjari vya eneo-kazi, lakini ni muhimu kutambua kwamba kwenye iOS, Apple inahitaji vivinjari vyote kutumia injini ya utoaji wa WebKit (kizuizi ambacho kinaweza kubadilika hivi karibuni, hata hivyo, kutokana na kanuni fulani za Ulaya). Hii inamaanisha kuwa vivinjari kama vile Chrome, Firefox au Brave lazima, kwenye iOS, vitoe programu kulingana na WebKit, na si kwa injini yao ya kawaida ya uwasilishaji.
+Hapa tunazingatia vivinjari vya eneo-kazi, lakini ni muhimu kutambua kwamba kwenye iOS, Apple inahitaji vivinjari vyote kutumia injini ya utoaji wa WebKit (kizuizi ambacho kinaweza kubadilika hivi karibuni kutokana na kanuni fulani za Ulaya). Hii inamaanisha kwamba vivinjari kama Chrome, Firefox au Brave lazima, kwenye iOS, vitoe programu kwa msingi wa WebKit badala ya injini zao za kawaida za uwasilishaji.
 
 
 
@@ -5859,7 +5858,7 @@ Hatimaye, ningependa kumalizia muhtasari huu kwa njia mbadala isiyojulikana sana
 
 
 
-Lynx ndicho kivinjari kikongwe zaidi ambacho bado kinadumishwa (1992). Inafanya kazi pekee katika hali ya maandishi na hutumiwa moja kwa moja kwenye terminal, bila Interface yoyote ya picha. Kitaalam, Lynx haitumii JavaScript, CSS au picha, ambayo huondoa utekelezaji wowote wa msimbo unaotumika katika kurasa za wavuti. Inatafsiri msimbo mbichi wa HTML pekee, ambao huifanya kama maandishi yaliyopangwa.
+Lynx ndicho kivinjari kikongwe zaidi ambacho bado kinadumishwa (1992). Hufanya kazi pekee katika hali ya maandishi na hutumika moja kwa moja kwenye terminal, bila Interface ya picha. Kitaalam, Lynx haitumii JavaScript, CSS au picha, jambo linaloondoa utekelezaji wowote wa msimbo unaotumika katika kurasa za wavuti. Inatafsiri tu msimbo ghafi wa HTML, na kuuwasilisha kama maandishiyaliyopangwa.
 
 
 
@@ -5892,7 +5891,7 @@ Lynx bado inaweza kuvutia katika muktadha fulani maalum:
 
 
 
-Kwa watumiaji wanaotanguliza usalama na faragha kwa chaguo-msingi, bila kulazimika kurekebisha mwenyewe mipangilio mingi, na ambao wanatafuta kivinjari cha madhumuni ya jumla kila siku, chaguo bora zaidi kwa maoni yangu ni LibreWolf na Mullvad Browser. Katika aina sawa, ikiwa hujali kutumia msingi wa Chromium (licha ya hatari zinazohusika na falsafa tofauti sana), unaweza pia kuzingatia Brave. Kama unavyoona, napendelea injini ya utoaji wa Gecko kwa sababu nyingi, hata ikiwa kwa sasa iko nyuma ya Blink katika suala la utendaji.
+Kwa watumiaji wanaotanguliza usalama na faragha kwa chaguo-msingi, bila kulazimika kurekebisha mipangilio mingi wao wenyewe, na ambao wanatafuta kivinjari cha matumizi ya kila siku, chaguo bora zaidi kwa maoni yangu ni LibreWolf na Mullvad Browser. Katika kundi hilo hilo, ikiwa huna tatizo kutumia msingi wa Chromium (pamoja na hatari zinazohusiana na falsafa yake tofauti kabisa), unaweza pia kuzingatia Brave. Kama unavyoona, napendelea injini ya utoaji ya Gecko kwa sababu nyingi, hata ikiwa kwa sasa iko nyuma ya Blink katika suala la utendaji.
 
 
 
@@ -5956,7 +5955,7 @@ Hata hivyo, hata kivinjari kilicho salama zaidi hakitoshi: jinsi unavyokitumia b
 
 
 
-Kivinjari cha wavuti ni mojawapo ya vipengele vya programu vilivyo wazi zaidi katika mfumo wa kompyuta. Tofauti na programu zingine nyingi, huchakata yaliyomo kutoka kwa Mtandao kwa wakati halisi, ambayo kimsingi haiwezi kutegemewa. Tovuti inapopakiwa, kivinjari hutekeleza msimbo wa mbali, unaoingiliana moja kwa moja na mfumo wako kupitia injini ya uonyeshaji.
+Kivinjari cha wavuti ni mojawapo ya vipengele vya programu vilivyo wazi zaidi katika mfumo wa kompyuta. Tofauti na programu zingine nyingi, huchakata maudhui kutoka kwenye Mtandao kwa wakati halisi, ambayo kimsingi hayawezi kuaminika. Wakati tovuti inapopakiwa, kivinjari hutekeleza msimbo wa mbali unaoingiliana moja kwa moja na mfumo wako kupitia injini ya uonyeshaji.
 
 
 
@@ -5964,7 +5963,7 @@ Utata huu wa kiufundi, pamoja na eneo kubwa la mashambulizi, hufanya kivinjari k
 
 
 
-Ili kupunguza hatari hizi, wachapishaji wa vivinjari hutoa masasisho ya mara kwa mara, mara nyingi ya kila wiki, ambayo hurekebisha udhaifu huu mara tu yanapotambuliwa. Viraka hivi havikomei kwa Interface au uboreshaji wa utendakazi: huzuia kikamilifu vekta halisi za mashambulizi.
+Ili kupunguza hatari hizi, wachapishaji wa vivinjari hutoa masasisho ya mara kwa mara, mara nyingi kila wiki, ambayo hurekebisha udhaifu mara tu unapotambuliwa. Viraka hivi havihusu tu Interface au uboreshaji wa utendakazi: huzuia moja kwa moja vekta halisi za mashambulizi.
 
 
 

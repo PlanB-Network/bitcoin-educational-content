@@ -891,7 +891,7 @@ Le premier distributeur automatique de bitcoins (*Bitcoin ATM*), [conçu](https:
 
 Les Bitbills rencontrent un certain succès, mais Doug Feigelson peine à répondre à la demande. En mai 2012, la production de Bitbills est définitivement [interrompue](https://web.archive.org/web/20120508074832/http://bitbills.com/order). Mais un concurrent existe : les Casascius Coins, fabriqués par un certain Mike Caldwell.
 
-Mike Caldwell est un développeur américain de 33 ans, qui habite dans la banlieue de Salt Lake City dans l'Utah et dirige une société automatisant la gestion d'entreprise appelée [Swipeclock](https://www.linkedin.com/company/swipeclock/). Il utilise le pseudonyme Casascius sur le forum, forme latinisée des initiales du dicton *call a spade a spade* (« appeler un chat un chat » en français). Rationaliste, il est fasciné par la cryptographie et est attiré par le côté technique de Bitcoin. Il mine pendant quelque temps.
+Mike Caldwell est un développeur américain de 33 ans, qui habite dans la banlieue de Salt Lake City dans l'Utah et dirige une société automatisant la gestion d'entreprise appelée [Swipeclock](https://www.linkedin.com/company/swipeclock/). Il utilise le pseudonyme Casascius sur le forum, forme latinisée de CASAS, initiales du dicton *call a spade a spade* (« appeler un chat un chat » en français). Rationaliste, il est fasciné par la cryptographie et est attiré par le côté technique de Bitcoin. Il s'essaie au minage pendant quelque temps.
 
 ![Mike Caldwell en 2013](assets/en/mike-caldwell-casascius-2013-imdb.webp)
 
@@ -1402,7 +1402,7 @@ L'activité de BTCKing constitue une aubaine pour BitInstant, à tel point que C
 
 ### Le change en argent liquide avec LocalBitcoins
 
-Mais le dépôt d'espèces n'est pas la seule manière d'effectuer des échanges entre dollars et bitcoins ; il y a également les services de change de particulier à particulier. Ces derniers permettent notamment à des personnes d'entrer en contact afin de procéder un échange en personne. Ils apparaissent dès 2011 avec des services comme [Bitcoin.local](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) (Tradebitcoin.com) ou [BTC NEAR ME](https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). Mais le principal d'entre eux est LocalBitcoins, qui est créé par un certain Jeremias Kangas.
+Mais le dépôt d'espèces n'est pas la seule manière d'effectuer des échanges entre dollars et bitcoins ; il y a également les services de change de particulier à particulier. Ces derniers permettent notamment à des personnes d'entrer en contact afin de procéder un échange en personne. Ils apparaissent dès 2011 avec des services comme [Bitcoin.local](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) (Tradebitcoin.com) ou [BTC NEAR ME](https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). Mais le principal d'entre eux est LocalBitcoins, qui est créé par un individu dénommé Jeremias Kangas.
 
 Jeremias Kangas est un programmeur et hackeur finlandais approchant de la trentaine. \[Bonne opinion des monnaies locales.\] Il gère la société [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) avec son petit frère, Nikolaus, avec laquelle ils publient un certain nombres d'applications pour l'iPhone et pour le Web. Il [a entendu](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) parler de Bitcoin à la fin de l'année 2010 par le biais de Hacker News, et a été immédiatement fasciné par le modèle de Nakamoto, qu'il [décrira](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) comme « une innovation formidable et incroyable » (original: "great and crazy innovation") et comme « un concept révolutionnaire » (original: "a revolutionary concept"). En 2011, après un voyage en Inde, il se met à travailler à plein temps sur Bitcoin et développe plusieurs programmes comme l'implémentation logicielle [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) ou l'application dépositaire [Easywallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Il [met](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) aussi au point le processeur de paiement en ligne Acceptbit avec Stefan Thomas lors d'un hackathon, une solution qui tire profit de la fonctionnalité de la clé publique maitresse d'Electrum pour générer de nouvelles adresses sans accéder à la clé privée correspondante.
 
@@ -1505,7 +1505,7 @@ Demande de paiement via BitPay en juillet 2011 (source : [Bitcoin Show](https:/
 
 Stephen Pair et Tony Gallippi [lancent](https://bitcointalk.org/index.php?topic=32467.msg405469#msg405469) leur service en version bêta à la fin du mois de juillet, et commencent à en faire la promotion, de manière plutôt agressive ! Ils [passent](https://www.youtube.com/watch?v=UZAnM4FjTOg) dans le *Bitcoin Show* de Bruce Wagner le 27 juillet, et se [rendent](https://bitcointalk.org/index.php?topic=32791.msg409542#msg409542) à la conférence de New York à la fin du mois d'août. À partir de septembre, ils réalisent des vidéos promotionnelles, dont [la première](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE) est un pastiche d'une publicité de PayPal avec des femmes séduisantes. Tony Gallippi réalise une [présentation](https://web.archive.org/web/20140522091140/https://www.youtube.com/watch?v=cTX5yY0DozQ) sur l'adoption de Bitcoin à la conférence de Prague en novembre. En décembre, ils [lancent](https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819) une initiative appelée LoveBitcoin.org, qui consiste à « faire la publicité de l'*utilité* des Bitcoins comme alternative à PayPal, aux cartes de débit, à Western Union et aux virements bancaires ». (original: "advertising the *usability* of Bitcoins as an alternative to PayPal, debit cards, Western Union, and wire transfers."). À partir de décembre, Tony Gallippi [organise](https://bitcointalk.org/index.php?topic=55419.msg659429#msg659429) une réunion mensuelle à Orlando en Floride, là où il habite.
 
-En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver. Ils lancent aussi de nouveaux produits, comme la [carte de dépôt](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) qui « permet à n'importe qui de *recevoir* des bitcoins sans avoir besoin d'un portefeuille ou de connaissances particulières sur le sujet », les fonds reçus étant instantanément convertis en dollars par BitPay. (original: "It lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins.") ; ou bien [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), « un système de paiement en bitcoins conçu pour les chauffeurs et les entreprises de limousines et de taxis » (original: "a bitcoin payment system designed for limousine and taxi drivers and businesses").
+En janvier, ils [participent](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) au *Consumer Electronics Show* à Las Vegas, le plus important salon consacré à l'innovation technologique en électronique grand public, et y occupent un stand avec Roger Ver. Ils lancent aussi de nouveaux produits, comme la [carte de dépôt](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) qui « permet à n'importe qui de *recevoir* des bitcoins sans avoir besoin d'un portefeuille ou de connaissances particulières sur le sujet », les fonds reçus étant instantanément convertis en dollars par BitPay (original: "It lets anyone *receive* bitcoins without a wallet or without having to know anything about bitcoins.") ; ou bien [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), « un système de paiement en bitcoins conçu pour les chauffeurs et les entreprises de limousines et de taxis » (original: "a bitcoin payment system designed for limousine and taxi drivers and businesses").
 
 Tout au long de l'année, leur service croit. Il s'étend à l'international, en [Amérique du Nord](https://bitcointalk.org/index.php?topic=69425.msg809043#msg809043) et en [Europe](https://bitcointalk.org/index.php?topic=76562.msg849944#msg849944). Le nombre de commerçants inscrits sur la plateforme [passe](https://web.archive.org/web/20120928213117/http://www.economist.com/node/21563752) de 100 en mars à plus de 1 000 en septembre. Le volume transactionnel mensuel [passe](https://bitcoinmagazine.com/business/bitpay-exceeds-1000-merchants-accepting-bitcoin-1347393248) de 10 000 $ en mars à 550 000 $ en septembre, avec une pointe journalière à 250 000 $ le 24 juin grâce à la prévente d'ASIC de Butterfly Labs.
 
@@ -1539,11 +1539,11 @@ Bitcoin entretiendra par la suite une relation fusionnelle avec la sphère liber
 
 Si l'activité économique a été largement dominée par le trafic de drogue sur Silk Road et par les opérations de change l'entourant, elle s'est progressivement diversifiée, pour inclure de plus en plus de commerçants conventionnels. À la fin de l'année 2012, on a vu clairement cette tendance émerger lorsque WordPress, le plus gros hébergeur de sites web du monde, a [commencé à accepter](https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485) les paiements en bitcoins via BitPay. Bitcoin a tout d'un coup gagné en légitimité auprès du public. Cet évènement a ainsi ouvert la voie à acceptation plus large, ce qui a notamment fait [doubler](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) le nombre de commerçants de BitPay en quelques mois. En mars 2013, le volume échangé par le biais du processeur de paiement a même [surpassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road, notamment grâce à l'activité du Bitcoin Store, la boutique en ligne de Roger Ver [ouverte](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366) en novembre 2012, et d'Avalon, la société de fabrication d'ASIC lancée par un certain Yifu Guo.
 
-Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent et les piratages, qui ont été au plus haut en 2012.
+Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
 
 ## La monnaie du vice et du crime : jeu d'argent, arnaques et piratages
 
-Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle va nécessairement etre utilisée pour le vice (moralement voire légalement réprouvé) et pour le crime.
+Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice (moralement voire légalement réprouvé) et pour le crime.
 
 - TradeHill : [8 juin 2011](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776)–[13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/), relancement en [mars 2013](https://bitcoinmagazine.com/markets/prime-tradehill-comes-back-to-bitcoin-1364507082), fermeture définitive le [30 août 2013](https://bitcoinmagazine.com/business/tradehill-confirms-trading-suspension-1377854467)
 
@@ -1573,7 +1573,50 @@ En dehors du poker, le jeu d'argent avec Bitcoin se développe aussi énormémen
 
 ### SatoshiDICE
 
+SatoshDICE est un concept...
+
+Joseph Gleason, alias Fireduck. Développeur.
+
+Outil d'horodatage avec Bitcoin : https://github.com/fireduck64/BitcoinTimestamp ("created_at": "2011-07-11T03:52:38Z") ; [11/7/2011](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/)
+
+[21/7/2011](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) intérêt pour Namecoin
+
+Service de change compatible avec le service de paiement Google Checkout : [2/8/2011](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/)
+
+https://web.archive.org/web/20120120235711/http://1209k.com/bitcoin/faq.php
+
+![Joseph Gleason, alias Fireduck, en février 2014](assets/en/joseph-gleason-fireduck-20140228-032402-twitter.webp)
+
+Joseph Gleason, alias Fireduck, en février 2014 (source : [Twitter](https://twitter.com/Fireduck1209k))
+
+9 avril : Lancement d'un « casino de bitcoins vérifiable » (original: "Verifiable Bitcoin Casino") (1209k BitCasino) [annonce](https://www.reddit.com/r/Bitcoin/comments/s1dn3/my_verifiable_bitcoin_casino/) sur Reddit
+
+Description du concept.
+
+Les perdants reçoivent une fraction du montant ("fee, 0.0005", 0,05 % ?, réalité : 0,5 %) comme confirmation que le système a fonctionné. Chaque pari génère donc deux transactions sur la chaine.
+
+Activité 14–18 avril : https://web.archive.org/web/20120419202740/http://1209k.com/bitcasino
+
+Rapport : https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php
+
+4944.08112334 - 4795.26541711 = 148.81570623 (moins "fee, 1.10" : 147.71470623)
+
+1 - 4795.26541711 / 4944.08112334 = 3,01 %
+1 - 4795.26541711 / (4944.08112334 - 1.1) = 2,99 %
+
+"Anyone want to run my bitcoin casino", 17 avril 2012 : https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/
+
+> « Je gère un casino de bitcoins depuis un peu plus d'une semaine. Il a généré 146 BTC pour un investissement initial d'environ 45 BTC. Je ne souhaite pas poursuivre cette activité car je m'inquiète des implications juridiques. »
+>
+> original: "I have been running a bitcoin casino for a little over a week. It has made 146 BTC with an investment of around 45 BTC to get it started. I don't want to run it any more because I am concerned about legal issues."
+
+(prix ~4,90$ ; 146 BTC = 715 $ ; 45 BTC= 220 $ ; 4 944 BTC = 24226 $)
+
+En date du 19 avril, son casino a en effet [traité](https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) pour près de 5 000 BTC de paris, soit plus de 24 000 $. Il cherche à vendre le concept à quelqu'un qui prendrait les risques légaux et à continuer à travailler sur le côté technique en échange d'un salaire mensuel fixe.
+
 SatoshiDICE, concept acheté par Erik Voorhees, [lancement](https://bitcointalk.org/index.php?topic=77870.msg865877#msg865877) le 24 avr. 2012, réaction de Matt Corallo en juin 2012 : https://bitcointalk.org/index.php?topic=87444.msg961132#msg961132
+
+https://en.bitcoin.it/wiki/Satoshi_Dice
 
 EDB: Le 24 avril 2012, un jeu de hasard en ligne nommé SatoshiDICE est lancé par l'entrepreneur américain Erik Voorhees . Le site repose sur un fonctionnement très simple : le joueur envoie des bitcoins à une adresse spécifique et il a une probabilité prédéfinie de recevoir une récompense qui correspond à un multiple du montant envoyé (il a par exemple une chance sur deux de recevoir un peu moins de deux fois sa mise). Le procédé est instantané et aisément vérifiable, ce qui attire de nombreux parieurs.
 

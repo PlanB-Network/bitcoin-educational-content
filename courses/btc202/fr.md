@@ -313,20 +313,52 @@ Ce n’est donc pas le nombre de nœuds qui importe, mais l’importance de l’
 > Pas ton nœud, pas tes règles.
 
 
-
-
-
-
-
-
-
-
-
-
 ## Les différents types de nœuds Bitcoin
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
-Présentation des diverses catégories de nœuds : nœud complet, nœud élagué, nœud SPV... Comparaison des usages et implications techniques de chacun.
+Un nœud Bitcoin est donc une machine sur laquelle on fait tourner une implémentation du protocole. Derrière cette définition commune pour les nœuds, il existe plusieurs configurations possibles, qui n’offrent pas toutes le même niveau d’autonomie, de consommation de ressources et d’utilité pour le réseau. Dans ce chapitre, nous allons essayer de comprendre ces différences pour vous aider à choisir une architecture de nœud adaptée à votre usage et à vos contraintes matérielles.
+
+### Le nœud complet
+
+Un nœud complet est simplement un nœud Bitcoin qui télécharge toute la blockchain depuis le bloc de Genèse, valide chaque bloc de manière indépendante et conserve localement l’historique de toute cette blockchain. C'est la forme "normale" d'un nœud Bitcoin, telle qu'imaginée par Satoshi Nakamoto.
+
+Le nœud complet n’a besoin de faire confiance à personne, car il valide et connait toutes els informations du système. C’est le type de nœud qui vous procure le plus de garanties : vous savez, sans faire appel à un tiers, si un paiement est valide, si un bloc est valide, si une réorganisation est légitime, etc.
+
+En pratique, un nœud complet nécessite des ressources non triviales : plusieurs centaines de gigaoctets pour les fichiers de blocs, un processeur capable de valider les scripts, de la RAM pour la mempool et les caches, et une bande passante stable. La première synchronisation (*IBD*) lit et vérifie l’historique complet : elle est intensive mais ne se fait qu’une fois. Un nœud complet participe activement au réseau : il relaie des blocs et transactions, et peut accepter des connexions entrantes pour aider d’autres pairs.
+
+Selon vos besoins, vous pouvez adjoindre à votre nœud complet un indexeur. Bitcoin Core propose en option (désactivée par défaut) l’indexation des transactions, ce qui peut être utile pour certains usages particuliers. En revanche, il ne dispose pas d’indexeur d’adresses, qui est pourtant souvent le plus recherché par un utilisateur individuel. Pour y remédier, vous pouvez installer sur votre nœud un logiciel dédié comme Electrs ou Fulcrum, permettant d’accélérer les requêtes de vérification des soldes d’une adresse à partir des UTXOs associés. Nous reviendrons plus en détail sur le rôle de l’indexeur dans un chapitre spécifique.
+
+### Le nœud élagué
+
+Le nœud élagué valide tout comme un nœud complet, depuis le bloc de Genèse jusqu'à la tête de chaîne disposant du plus de travail, mais il **ne conserve que la partie la plus récente des fichiers de blocs**. Une fois les anciens blocs vérifiés, il les supprime progressivement pour rester sous une limite d’espace que vous pouvez fixer. Cette configuration est idéale si vous avez des contraintes sur votre espace disque : vous gardez l’indépendance de validation des blocs, sans stocker l’archive historique complète de la blockchain. Cette option est notamment très utile si vous souhaitez simplement installer Bitcoin Core sur votre ordinateur personnel, sans utiliser une machine dédiée.
+
+Les implications techniques de cette option sont assez simples : le nœud élagué peut parfaitement diffuser vos transactions, participer au relais, vérifier les blocs et les transactions, et suivre la chaîne. En revanche, il ne peut pas servir de source d’historique ancien au-delà de sa limite pour d’autres applications (explorateur complet, indexeur, wallets...). Les fonctions qui exigent l’archive (ou un index global) ne seront donc pas disponibles.
+
+Concrètement, vous pouvez parfaitement utiliser un nœud élagué pour y connecter un logiciel de gestion de portefeuille comme Sparrow Wallet. En revanche, vous ne pourrez pas scanner les transactions de votre wallet antérieures à la limite d’élagage. Par exemple, si vous avez une transaction inscrite dans le bloc 901 458, mais que votre nœud ne conserve que les blocs à partir de la hauteur 905 402 (car les plus anciens ont été élagués), vous ne pourrez pas scanner cette transaction. En revanche, si vous l’aviez déjà scannée au moment où votre nœud disposait encore de cette hauteur de bloc, alors votre logiciel de gestion de portefeuille gardera l’information en mémoire et affichera correctement le solde des UTXOs correspondants.  
+
+En résumé, le suivi de votre wallet fonctionne sans problème sur un nœud élagué si vous créez un nouveau portefeuille alors que votre logiciel est déjà connecté à ce nœud. En revanche, vous risquez de rencontrer des difficultés si vous restaurez un ancien portefeuille, car les transactions passées qui ne sont plus conservées par le nœud ne pourront évidemment pas être retrouvées.
+
+### Le nœud léger / SPV
+
+Un nœud SPV (*Simplified Payment Verification*), ou nœud léger, ne conserve que les en-têtes de blocs, pas le détail des transactions, et s’appuie sur d'autres nœuds complets pour obtenir la preuve qu’une transaction figure dans un bloc (preuves de Merkle via les arbres) dont il dispose de l'en-tête. Cette idée de la vérification de paiement simplifiée est très ancienne, puisqu’elle a été formulée par Satoshi Nakamoto lui-même dans la partie 8 du White Paper.
+
+Ce type de nœud est évidemment beaucoup plus léger en stockage et en CPU qu'un nœud complet ou même qu'un nœud élagué. Le nœud SPV est donc adapté aux appareils modestes et aux connexions intermittentes. Il est d'ailleurs souvent intégré directement dans des logiciels de gestion de portefeuille, notamment mobiles, comme par exemple Blockstream App.
+
+Le compromis est la confiance et la confidentialité : un client SPV ne vérifie pas lui-même les scripts ni les politiques de validation ; il suppose que la chaîne avec le plus de travail est valide, et il dépend d’un ou plusieurs nœuds complets pour les réponses. L’utilisation de ce type de nœud est donc une meilleure option que de se connecter à un nœud tiers, mais elle reste moins avantageuse que de disposer d’un nœud complet, voire même d’un nœud élagué.
+
+### Quel nœud pour quel besoin ?
+
+- **Utilisateur mobile / débutant**  
+
+Pour un utilisateur débutant qui dispose juste d'un portefeuille sur une app mobile, l'utilisation d'un nœud SPV est sûrement la meilleur solution pour commencer. L'installation est rapide, demande peu de ressources, et l'expérience est simple et fluide. Cela permet de vérifier soi-même certaines information, et donc de moins faire confiance aux nœuds tiers, tout en étant plus indépendant au niveau de la diffusion des transactions.
+
+- **Utilisateur PC / intermédiaire** 
+
+Un utilisateur intermédiaire disposant d’un PC peut tout à fait y installer un nœud élagué afin de bénéficier de la quasi-totalité des avantages d’un nœud complet, sans pour autant surcharger sa machine au quotidien : validation complète, consommation disque modérée, maintenance simple… C'est une solution idéale pour connecter vos portefeuilles de bureau et rester indépendant dans la diffusion de vos transactions, sans pour autant investir dans une machine dédiée ou surcharger votre espace disque.
+
+- **Bitcoiner souverain / avancé**  
+
+Un nœud complet demeure la meilleure solution pour être totalement indépendant dans votre utilisation de Bitcoin et ne pas vous limiter par la suite dans des usages avancés tels qu’un indexeur, un nœud Lightning ou encore un explorateur de blocs. C’est précisément ce que nous allons explorer dans cette formation !
 
 ## Panorama des solutions logicielles
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>

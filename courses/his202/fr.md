@@ -941,6 +941,84 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 + MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
 
+## La ruée vers l'or continue...
+
+- Chapitre pour évoquer le cas du minage : le développement des premiers FGPA (mai 2011), les nouvelles coopératives, P2Pool (juillet 2011) ?
+
+### Nouvelles coopératives
+
+Principales coopératives : DeepBit, BTC Guild
+
+DeepBit, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0), Tycho
+
+Inaba, Eclipse Mining Consortium, [juin 2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
+
+Coopérative de minage chinoise 21bitcoin, juin 2011 : https://web.archive.org/web/20110618133357/http://21bitcoin.com/pool https://bitcointalk.org/index.php?topic=8492.msg284505#msg284505
+
+Coopérative de minage pour Namecoin : [Bitparking, doublec, 18/5](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063)
+
+différents modes de paiement : PPS, etc.
+
+Dominance : https://web.archive.org/web/20110721162638/http://www.bitcoinwatch.com/ puis https://web.archive.org/web/20111219124912/http://blockchain.info/pools
+
+### Luke-Jr et Eligius
+
+Une cooopérative atypique est Éligius.
+
+Luke-Jr (ou Luke Dashjr, prononcé « dasheur ») est un personnage atypique de l'histoire de Bitcoin. Fervent catholique romain [sédévacantiste](https://dashjr.org/catholic/sedevacantist.php), il est marié et père d'une famille nombreuse (il a deux enfants en 2007 et en aura trois de plus en 2017). Il est programmeur dans le domaine du logiciel libre, ayant développé son propre système d'exploitation, appelé [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) et basé sur la distribution Gentoo.
+
+![Avatar utilisé par Luke-Jr à partir de 2013](assets/en/luke-jr-gravatar-2013.webp)
+
+Avatar utilisé par Luke-Jr à partir de 2013 (source : [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))
+
+Luke a [appris](https://www.youtube.com/watch?v=3sXei0Iwf4Q) l'existence de Bitcoin le 31 décembre 2010 sur IRC. En janvier 2011, il a mis en place un service d'hébergement, [Lightfoot Hosting](https://bitcointalk.org/index.php?topic=30.msg36268#msg36268), qui accepte le bitcoin.
+
+Il [crée](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) une coopérative de minage appelée Eligius en avril. Eligius : référence à Saint-Éloi, évêque de Noyon au VIIe siècle, ministre des Finances auprès du roi des Francs Dagobert Ier.
+
+[Eligius](https://en.bitcoin.it/wiki/Eligius), Luke-Jr, lancement le [27 avril 2011](https://bitcointalk.org/index.php?topic=6648.msg97122#msg97122), cession à Jason Hughes (wizkid057) le [23 octobre 2012](https://bitcointalk.org/index.php?topic=23768.msg1291494#msg1291494)
+
+Message de nature religieuse dans les coinbases : https://bitcointalk.org/index.php?topic=38007.0 https://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html
+
+Benedictus Sanguis eius pretiosissimus.
+Benedictus Iesus in sanctissimo altaris Sacramento.
+Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, ...
+...and life everlasting, through the merits of Jesus Christ, my Lord and Redeemer.
+O Heart of Jesus, burning with love for us, inflame our hearts with love for Thee.
+Jesus, meek and humble of heart, make my heart like unto thine!
+
+### P2Pool (juil. 2011)
+
+Les coopératives posent un problème de centralisation.
+
+forrestv : https://bitcointalk.org/index.php?topic=18313.0 + https://bitcointalk.org/index.php?topic=61131.0
+
+https://en.bitcoin.it/wiki/P2Pool
+
+share chain
+
+### Stratum (nov. 2011)
+
+https://en.bitcoin.it/wiki/Stratum_mining_protocol
+
+getblocktemplate (GBT)
+
+Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
+
+### FGPA
+
+Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au minage est apparu. Celui-ci permettait un rendement meilleur que les cartes graphiques.
+
+20 mai 2011 Minage par FGPA en source ouverte
+
+"Custom FPGA Board for Sale!" [18/08/2011](https://bitcointalk.org/index.php?topic=37904.msg465501#msg465501)
+
+"X6500 Custom FPGA Miner" [29/08/2011](https://bitcointalk.org/index.php?topic=40058.msg488292#msg488292)
+
+"BTCMiner - Open Source Bitcoin Miner for ZTEX FPGA Boards" [29/8/2011](https://bitcointalk.org/index.php?topic=40047.0)
+
+BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
+
+
 # 2012
 
 ## La bataille pour Pay to Script Hash
@@ -1047,19 +1125,11 @@ Le lendemain, le 3 janvier à 21 heures UTC, une réunion est [organisée](https
 
 Gavin Andresen rédige une ébauche de BIP dans la soirée et celle-ci est [mise en ligne](https://en.bitcoin.it/w/index.php?title=BIP_0016&oldid=21680) le lendemain, sous le numéro 16. Dans le document, il concède que « reconnaître une forme "spéciale" de \[script\] et réaliser une validation supplémentaire quand elle est détectée, c'est laid » (original: "Recognizing one 'special' form of scriptPubKey and performing extra validation when it is detected is ugly"), mais explique que « les alternatives sont soit encore plus laides, soit plus complexes à implémenter, et / ou étendent le pouvoir du langage d'expression de manière dangereuse » (original: "the alternatives are either uglier, are more complex to implement, and/or expand the power of the expression language in dangerous ways"). Il modifie également le processus de signalement pour faire en sorte qu'il soit automatique : dans la dernière semaine de janvier, si 55 % de la puissance de calcul signale P2SH (en incluant la chaine de caractères `/P2SH/` dans les blocs produits), alors la mise à niveau sera activée le 15 février à minuit. Gavin [fait](https://github.com/bitcoin/bitcoin/pull/748) ensuite une demande de modification du code (*pull request*) sur le dépôt GitHub, qui est intégrée par lui-même le 13 janvier. Elle inclut le signalement par défaut de P2SH.
 
-Gavin veut aller vite, très vite, ce qui crée inévitablement des tensions. Ainsi, même s'il [évoque](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) un « consensus » (original: "consensus") autour de Pay to Script Hash, tous les développeurs ne sont pas exactement d'accord, et la communauté générale n'a pas été consultée. La fronde va être menée par Luke-Jr.
+Gavin veut aller vite, très vite, ce qui crée inévitablement des tensions. Ainsi, même s'il [évoque](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) un « consensus » (original: "consensus") autour de Pay to Script Hash, tous les développeurs ne sont pas exactement d'accord, et la communauté générale n'a pas été consultée. Une opposition se met donc en place.
 
 ### La réaction de Luke-Jr
 
-Luke-Jr (ou Luke Dashjr, prononcé « dasheur ») est un personnage atypique de l'histoire de Bitcoin. Fervent catholique romain [sédévacantiste](https://dashjr.org/catholic/sedevacantist.php), il est marié et père d'une famille nombreuse (il a deux enfants en 2007 et en aura trois de plus en 2017). Il est programmeur dans le domaine du logiciel libre, ayant développé son propre système d'exploitation, appelé [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) et basé sur la distribution Gentoo.
-
-![Avatar utilisé par Luke-Jr à partir de 2013](assets/en/luke-jr-gravatar-2013.webp)
-
-Avatar utilisé par Luke-Jr à partir de 2013 (source : [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))
-
-Luke a [appris](https://www.youtube.com/watch?v=3sXei0Iwf4Q) l'existence de Bitcoin le 31 décembre 2010 sur IRC. En janvier 2011, il a mis en place un service d'hébergement, [Lightfoot Hosting](https://bitcointalk.org/index.php?topic=30.msg36268#msg36268), qui accepte le bitcoin. Il a également [créé](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) une coopérative de minage appelée Eligius en avril.
-
-Durant la réunion sur IRC le 3 janvier 2012, il [s'oppose](https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) à P2SH, considérant que « OP\_EVAL était bien meilleur que ce truc hideux » (original: "OP_EVAL was far better than this ugly thing"). Le 13, il [crée](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) un fil sur BitcoinTalk, dans lequel il appelle à l'action contre le BIP 16. Il considère que P2SH est « bien pire » (original: "far worse") qu'`OP_EVAL` car « il remplace essentiellement le système de script sur lequel Bitcoin est construit par un seul modèle spécial ». De plus, il fait remarquer que « Gavin oblige tous ceux qui utilisent la dernière version du code de Bitcoin à voter pour BIP 16 » (original: "Gavin is forcing everyone using the latest Bitcoin code to vote for BIP 16"), et [crée](https://github.com/bitcoin/bitcoin/pull/755) une *pull request* pour rendre ce signalement optionnel, qui sera acceptée. Il propose enfin un vote, directement sur le forum, qui est largement remporté par P2SH.
+La fronde est menée par le développeur Luke-Jr. Durant la réunion sur IRC le 3 janvier 2012, ce dernier [s'oppose](https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) à P2SH, considérant que « OP\_EVAL était bien meilleur que ce truc hideux » (original: "OP_EVAL was far better than this ugly thing"). Le 13, il [crée](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) un fil sur BitcoinTalk, dans lequel il appelle à l'action contre le BIP 16. Il considère que P2SH est « bien pire » (original: "far worse") qu'`OP_EVAL` car « il remplace essentiellement le système de script sur lequel Bitcoin est construit par un seul modèle spécial ». De plus, il fait remarquer que « Gavin oblige tous ceux qui utilisent la dernière version du code de Bitcoin à voter pour BIP 16 » (original: "Gavin is forcing everyone using the latest Bitcoin code to vote for BIP 16"), et [crée](https://github.com/bitcoin/bitcoin/pull/755) une *pull request* pour rendre ce signalement optionnel, qui sera acceptée. Il propose enfin un vote, directement sur le forum, qui est largement remporté par P2SH.
 
 Cette attitude agace profondément Gavin Andresen qui [répond](https://bitcointalk.org/index.php?topic=58579.msg689812#msg689812) dans ce fil :
 

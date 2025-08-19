@@ -2728,11 +2728,11 @@ Firefox introduit également plusieurs innovations qui vont influencer durableme
 
 Sa légèreté, sa flexibilité et son respect des standards attirent rapidement les utilisateurs avancés, les développeurs web et tous ceux qui veulent une alternative plus ouverte qu’Internet Explorer. En 2005, Firefox dépasse les 10 % de parts de marché, une performance considérable face à un navigateur préinstallé sur tous les PC Windows.
 
-Pendant ce temps, Apple travaille de son côté à un navigateur maison pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
+Pendant ce temps, Apple développait son propre navigateur natif pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
 
 ![Image](assets/fr/100.webp)
 
-Safari devient le navigateur par défaut sur tous les Mac à partir de Mac OS X Panther (10.3), et vient remplacer progressivement Internet Explorer for Mac, que Microsoft abandonne en 2005. WebKit sera également utilisé plus tard dans de nombreux autres navigateurs.
+Safari devient le navigateur par défaut sur tous les Mac à partir de Mac OS X Panther (10.3), et vient remplacer progressivement Internet Explorer pour Mac, que Microsoft abandonne en 2005. WebKit sera également utilisé plus tard dans de nombreux autres navigateurs.
 
 Ces initiatives relancent la concurrence technologique, affaiblissent progressivement la domination d’Internet Explorer, et ouvrent la voie à une nouvelle génération de navigateurs plus rapides, plus respectueux des normes, et davantage orientés vers la modularité, la sécurité et la performance. Entre 2006 et 2008, Internet Explorer voit sa part de marché chuter lentement, tandis que Firefox s’impose comme la principale alternative sérieuse. Ce contexte prépare l’arrivée d’un nouvel acteur majeur : Google Chrome.
 
@@ -2877,7 +2877,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 #### Brave
 
-[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la privacy. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
+[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la confidentialité. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
 
 Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitHub. Seules quelques parties mineures sont partiellement propriétaires. Globalement, Brave est donc très proche d’un navigateur open source.
 
@@ -2885,7 +2885,7 @@ Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitH
 
 Brave constitue donc une alternative performante à Chrome, qui combine rapidité, sécurité renforcée, meilleure confidentialité par défaut et une interface intuitive. Pour autant, je ne vous le recommanderais pas forcément, tout simplement car il repose sur Chromium. 
 
-Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche orientée privacy, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
+Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche axée sur la confidentialité, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
 
 Bien que Brave ait depuis désactivé cette API, cette affaire illustre clairement la dépendance structurelle de ces navigateurs à Chromium, qui reste un projet profondément lié à l’écosystème Google. Ainsi, même les variantes de Chromium orientées vers la protection de la vie privée ne peuvent garantir une indépendance totale ni une protection complète des données utilisateur.
 

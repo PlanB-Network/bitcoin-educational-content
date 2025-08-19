@@ -6852,7 +6852,9 @@ Kuhusu mtandao wako wa nyumbani wa Wi-Fi, tutazungumzia hilo katika sehemu ya mw
 #### Bluetooth, NFC na GPS
 
 
-Bluetooth (itifaki isiyo na waya ya mawasiliano ya masafa mafupi), NFC (Mawasiliano ya Karibu na Uga) na GPS (kuweka nafasi kwenye setilaiti) huwezeshwa kwa chaguomsingi kwenye simu mahiri nyingi. Teknolojia hizi zinaweza kutumika kama lango la mashambulizi ya ndani: Utekelezaji wa msimbo wa mbali, ufikiaji usioidhinishwa, ufuatiliaji wa eneo, hata kuingilia mawasiliano katika kesi ya Bluetooth (kwa mfano, udhaifu wa BlueBorne).
+Bluetooth (wireless short-range communication protocol), address huongezwa kupitia viungo vya muda au address tuli (vitambulisho vya kudumu lakini vinavyoweza kutenduliwa). Unaweza pia kuchagua kati ya exchange ya muda mfupi au hali ya kawaida zaidi, yenye vidhibiti bora vya mwonekano na uidhinishaji (kwa mfano, kuficha jina lako halisi nyuma ya jina bandia, la kipekee kwa kila address).
+
+ mawasiliano ya masafa mafupi), NFC (Near Field Communication) na GPS (satellite positioning) huwezeshwa kwa chaguomsingi kwenye simu mahiri nyingi. Teknolojia hizi zinaweza kutumika kama lango la mashambulizi ya ndani: utekelezaji wa msimbo wa mbali, ufikiaji usioidhinishwa, ufuatiliaji wa eneo, hata kuingilia mawasiliano katika kesi ya Bluetooth (kwa mfano, udhaifu wa BlueBorne).
 
 
 Ili kupunguza hatari hizi, zima kila mara vipengele hivi wakati huvitumii. Hii inapunguza kwa kiasi kikubwa eneo la mashambulizi na kuzuia jaribio lolote la unyonyaji.
@@ -6870,7 +6872,7 @@ Simu mahiri ziko katika mawasiliano ya mara kwa mara na vituo vya msingi vya wae
 Baadhi ya programu, kama vile SnoopSnitch kwenye Android, zinaweza kugundua tabia ya kutiliwa shaka katika mabadilishano yako na mtandao. Zana hizi huchanganua metadata ya mawasiliano ya simu na zinaweza kukuarifu kuhusu mabadiliko katika usanidi wa redio au tabia isiyo ya kawaida, hivyo kukufanya kuwa macho zaidi dhidi ya majaribio ya kukatiza.
 
 
-Njia bora ya kulinda mawasiliano yako ni kutumia programu salama za utumaji ujumbe, iwe kwa simu au ujumbe. Programu hizi hazitumii mtandao wa simu, na hakikisha kwamba ubadilishanaji umesimbwa ipasavyo. Tutaangalia somo hili kwa undani zaidi katika sura inayofuata.
+Njia bora ya kulinda mawasiliano yako ni kutumia programu salama za utumaji ujumbe, iwe kwa simu au maandishi. Programu hizi hazitumii mtandao wa simu, na ni muhimu kuhakikisha kwamba exchange imesimbwa ipasavyo. Tutaangalia somo hili kwa undani zaidi katika sura inayofuata.
 
 
 ### Kulinda kifaa chako cha mkononi
@@ -6879,7 +6881,7 @@ Njia bora ya kulinda mawasiliano yako ni kutumia programu salama za utumaji ujum
 #### Antivirus ya rununu
 
 
-Umuhimu wa programu ya antivirus kwenye simu mahiri mara nyingi hukadiriwa, haswa kutokana na kampeni kali za uuzaji. Vitisho vya kweli kwenye rununu, haswa Android, kwa ujumla huhusishwa na usakinishaji wa programu hasidi kutoka kwa vyanzo visivyo rasmi. Kwenye kifaa ambacho kinasasishwa mara kwa mara, kusanidiwa kwa uangalifu (haswa katika suala la uidhinishaji), na hutumia tu vyanzo rasmi au vilivyothibitishwa, hatari ya kuambukizwa ni ndogo sana.
+Umuhimu wa programu ya antivirus kwenye simu mahiri mara nyingi huzidishwa, hasa kutokana na kampeni kali za uuzaji. Vitisho vya kweli kwenye rununu, hasa Android, kwa kawaida huhusiana na usakinishaji wa programu hasidi kutoka kwa vyanzo visivyo rasmi. Kwenye kifaa kinachosasaishwa mara kwa mara, kilichosanidiwa kwa uangalifu (hasa katika suala la uidhinishaji), na kinachotumia tu vyanzo rasmi au vilivyothibitishwa, hatari ya kuambukizwa ni ndogo sana.
 
 
 Pia, vifaa vya Android tayari vimewekwa kwa chaguo-msingi na Google Play Protect, ambayo hufanya kama kingavirusi. Programu za antivirus za mtu wa tatu hutumia skana sawa ya Interface, ambayo huongeza tu upungufu. Kwa mazoezi, basi, antivirus ya rununu inatoa thamani kidogo iliyoongezwa, iwe kwenye Android au iOS.
@@ -6894,7 +6896,7 @@ Umuhimu wao halisi kwa hivyo ni mdogo sana, na programu hizi wakati mwingine ni 
 ### Angalia miunganisho inayotoka
 
 
-Pia kuna programu za ngome za simu mahiri, kama vile NetGuard au RethinkDNS, ambazo hufanya kama ngome ya ndani moja kwa moja kwenye kifaa chako. Wanatumia API ya VPN ya Android kuzuia trafiki yote inayotoka, bila kuhitaji ufikiaji wa mizizi.
+Pia kuna programu za firewall za simu mahiri, kama vile NetGuard au RethinkDNS, ambazo hufanya kazi kama firewall ya ndani moja kwa moja kwenye kifaa chako. Zinatumia Android VPN API kuzuia trafiki yote inayotoka, bila kuhitaji ufikiaji wa root.
 
 
 Katika hali halisi, hii inamaanisha kuwa unaweza kuzuia ufikiaji wa mtandao kwa programu fulani, na hivyo kupunguza kwa kiasi kikubwa hatari ya ukusanyaji wa data usiohitajika au mawasiliano ambayo hayajaidhinishwa.
@@ -6915,7 +6917,7 @@ NetGuard, kwa mfano, hukuruhusu kudhibiti ufikiaji wa Mtandao kwa misingi ya pro
 Kuhifadhi nakala mara kwa mara ya data yako ya simu mahiri ni muhimu sana kwa usalama wako. Lakini chelezo hii lazima isimbwa kwa njia fiche, ili kuzuia data yako nyeti kufikiwa na mtu yeyote ambaye anapata mikono yake kwenye midia yako ya chelezo. Hii inatumika sawa kwa picha, hati na data ya programu.
 
 
-Ili kufanikisha hili, unapaswa kutumia suluhu za ndani zilizosimbwa kwa njia fiche, kama vile diski ya nje au ufunguo wa USB uliosimbwa kwa njia fiche (k.m. na Veracrypt). Isipofanya hivyo, suluhu za wingu zinazojipangisha kama vile *Syncthing* au *Nextcloud* hukuruhusu kuhifadhi nakala ya data yako kwenye seva ya kibinafsi, huku ukiwa na udhibiti kamili wa ufikiaji na usiri. Tofauti na huduma za wingu za kibiashara (Hifadhi ya Google, iCloud...), suluhu hizi huzuia kwa kiasi kikubwa ufichuaji wa maelezo yako kwa wahusika wengine.
+Ili kufanikisha hili, unapaswa kutumia suluhu za ndani zilizosimbwa, kama vile diski ya nje au ufunguo wa USB uliosimbwa (k.m. kwa kutumia VeraCrypt). Isipokuwa hivyo, suluhu za wingu zinazojipangisha kama vile Syncthing au Nextcloud hukuruhusu kuhifadhi nakala ya data yako kwenye seva binafsi, huku ukiwa na udhibiti kamili wa ufikiaji na usiri. Tofauti na huduma za wingu za kibiashara (Google Drive, iCloud...), suluhu hizi hupunguza kwa kiasi kikubwa uwezekano wa maelezo yako kufichuliwa kwa wahusika wengine.
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -6926,7 +6928,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 Simu mahiri iliyopotea au kuibwa inaweza kuwa chanzo kikuu cha maelezo kwa mshambulizi: Data ya kibinafsi, historia ya kuvinjari, akaunti zilizounganishwa, n.k. Kwa hivyo inaweza kuwa na maana kusanidi vitendaji asili vya kutafuta, kukifunga na kufuta kifaa chako kwa mbali.
 
 
-Kwenye Android, unaweza kutumia *Tafuta Kifaa Changu* kutoka kwa Mipangilio ya Google. Kwenye iOS, *Tafuta iPhone Yangu* ina jukumu sawa, linaloweza kufikiwa kutoka iCloud. Zana hizi hukuruhusu kufunga ufikiaji mara moja, kupigia simu kifaa ili kukipata, au kama suluhu ya mwisho, kufuta data kabisa ukiwa mbali. Pia kuna huduma sawa zinazodhibitiwa na programu za watengenezaji, kama vile *SmartThings Find* ya Samsung.
+Kwenye Android, unaweza kutumia *Find My Device* kutoka kwa Mipangilio ya Google. Kwenye iOS, *Find My iPhone* ina jukumu sawa, linaloweza kufikiwa kupitia iCloud. Zana hizi hukuruhusu kufunga ufikiaji mara moja, kupigia simu kifaa ili kukipata, au, kama suluhu ya mwisho, kufuta data kabisa ukiwa mbali. Pia kuna huduma sawa zinazotolewa na programu za watengenezaji, kama vile SmartThings Find ya Samsung.
 
 
 ![Image](assets/fr/147.webp)
@@ -6938,7 +6940,7 @@ Hata hivyo, vipengele hivi vinaleta maelewano makubwa: Huweka kati maelezo yako 
 Ukichagua kuzitekeleza hata hivyo, jaribu vipengele hivi mapema ili kuhakikisha kuwa vitafanya kazi ipasavyo kwa siku utakapovihitaji.
 
 
-Vinginevyo, ikiwa hupendi kutotumia huduma hizi za udhibiti wa mbali, ninapendekeza sana uhifadhi nakala ya data ya simu yako mara kwa mara ili kuepuka kupoteza maelezo yako ikiwa kifaa chako kitapotea au kuibiwa. Ili kuzuia hatari ya mvamizi kupata ufikiaji wa maelezo yako, weka nenosiri thabiti la kufuli ya simu yako na SIM kadi.
+Vinginevyo, ikiwa hupendi kutumia huduma hizi za udhibiti wa mbali, inashauriwa sana uhifadhi nakala ya data ya simu yako mara kwa mara ili kuepuka kupoteza maelezo yako endapo kifaa chako kitapotea au kuibiwa. Ili kuzuia hatari ya mvamizi kupata ufikiaji wa taarifa zako, weka nenosiri thabiti la kufuli ya simu yako na SIM card.
 
 
 Tumefika mwisho wa sura hii kuhusu mbinu bora za simu yako mahiri. Katika sura inayofuata, nitakuonyesha suluhu zinazofaa zaidi za kuwasiliana kwa usalama na kwa siri kutoka kwa kifaa chako, iwe ni kupiga simu, kubadilishana ujumbe au kudhibiti vikundi vyako vya habari.
@@ -6959,7 +6961,7 @@ Katika sura hii, tutajaribu kuelewa masuala ya kiufundi na kiutendaji yanayohusi
 ### Kwa nini ujumbe wa SMS usilinde ubadilishanaji wako?
 
 
-SMS (*Huduma ya Ujumbe Mfupi*) imekuwa maarufu sana kihistoria kwa ubadilishanaji wa maandishi, lakini inatokana na itifaki ya kizamani iliyoanzia mwishoni mwa miaka ya 1980. Itifaki hii, iliyounganishwa katika viwango vya GSM (*Mfumo wa Kimataifa wa Mawasiliano ya Simu*), haitoi utaratibu wa usimbaji wa mwisho hadi mwisho. Kwa vitendo, kila SMS inayotumwa hutumwa kwa maandishi wazi kupitia mitandao ya waendeshaji wa simu (wakati mwingine husimbwa kwa njia fiche kwenye redio ya Interface pekee, lakini kamwe sio mwisho hadi mwisho). Hii ina maana kwamba maudhui ya ujumbe yanaweza kuingiliwa katika viwango kadhaa:
+SMS (Short Message Service) imekuwa maarufu sana kihistoria kwa ubadilishanaji wa maandishi, lakini inatokana na protocol ya kizamani iliyoanzia mwishoni mwa miaka ya 1980. Protocol hii, iliyounganishwa katika viwango vya GSM (Global System for Mobile Communications), haitoi utaratibu wa usimbaji fiche wa end-to-end. Kwa vitendo, kila SMS inayotumwa hutumwa kwa maandishi wazi kupitia mitandao ya waendeshaji wa simu (wakati mwingine husimbwa kwenye radio Interface pekee, lakini kamwe si end-to-end). Hii ina maana kwamba maudhui ya ujumbe yanaweza kuingiliwa katika viwango kadhaa:
 
 
 
@@ -6968,19 +6970,19 @@ SMS (*Huduma ya Ujumbe Mfupi*) imekuwa maarufu sana kihistoria kwa ubadilishanaj
 - au na mashirika ya serikali yenye ufikiaji halali au haramu wa miundombinu ya mtandao
 
 
-Ukweli kwamba ujumbe wa SMS huhifadhiwa kwenye seva kuu za waendeshaji, na udhaifu wa mfumo wa uthibitishaji (nambari ya simu kama kitambulisho cha kipekee), hufanya ujumbe kukamatwa kwa urahisi na kuathiriwa na mashambulizi. Kwa hivyo SMS haifai kabisa kwa kutuma habari, iwe katika muktadha wa kibinafsi, kitaaluma au muhimu.
+Ukweli kwamba ujumbe wa SMS huhifadhiwa kwenye seva kuu za waendeshaji, pamoja na udhaifu wa mfumo wa uthibitishaji (nambari ya simu kama kitambulisho cha kipekee), hufanya ujumbe kukamatwa kwa urahisi na kushambuliwa. Kwa hivyo, SMS haifai kabisa kwa kutuma taarifa, iwe katika muktadha wa kibinafsi, kitaaluma au nyeti.
 
 
-Vikwazo hivi pia vinatumika kwa MMS (*Huduma ya Utumaji Ujumbe wa Vyombo vya Habari*), ambayo inategemea misingi sawa ya kiufundi, pamoja na kuongeza maudhui ya media titika (picha, video).
+Vikwazo hivi pia vinatumika kwa MMS (Multimedia Messaging Service), ambayo inategemea misingi sawa ya kiufundi, pamoja na kuongeza maudhui ya media titika (picha, video).
 
 
-Katika miaka ya hivi majuzi, baadhi ya waendeshaji na watengenezaji wameanzisha RCS (*Huduma Tajiri za Mawasiliano*), mageuzi ya kiufundi ya SMS. RCS huwezesha utumaji wa ujumbe ulioboreshwa (picha, video, uthibitisho wa kupokelewa, n.k.) na kuunganisha usimbaji fiche wa usafiri wa umma (TLS), lakini hii inasalia kutegemea seva za waendeshaji na haihakikishi usimbaji fiche kutoka mwisho hadi mwisho katika hali zote. Zaidi ya hayo, mgawanyiko wa utekelezaji wake kati ya waendeshaji na wazalishaji (kati ya Android na iOS, kwa mfano) hupunguza kupitishwa kwake na kuegemea halisi.
+Katika miaka ya hivi majuzi, baadhi ya waendeshaji na watengenezaji wameanzisha RCS (Rich Communication Services), mageuzi ya kiufundi ya SMS. RCS huwezesha utumaji wa ujumbe ulioboreshwa (picha, video, uthibitisho wa kupokelewa, n.k.) na kuunganisha usimbaji fiche wa usafiri wa umma (TLS), lakini bado inategemea seva za waendeshaji na haihakikishi usimbaji fiche wa end-to-end katika hali zote. Zaidi ya hayo, mgawanyiko wa utekelezaji wake kati ya waendeshaji na wazalishaji (kama vile kati ya Android na iOS) hupunguza kupitishwa kwake na kuegemea halisi.
 
 
-Tangu 2021, Programu ya Messages kwenye Google imetumia itifaki ya Mawimbi ili kuhakikisha usimbaji fiche kutoka mwisho hadi mwisho, lakini kipengele hiki kinaweza kufikiwa tu ikiwa wahusika wote wawili wanatumia Ujumbe wa Google.
+Tangu 2021, Programu ya Messages kwenye Google imetumia protocol ya Mawimbi ili kuhakikisha usimbaji fiche kutoka mwisho hadi mwisho, lakini kipengele hiki kinaweza kufikiwa tu ikiwa wahusika wote wawili wanatumia Ujumbe wa Google.
 
 
-Mnamo Machi 2025, Jumuiya ya GSM ilichapisha *Wasifu kwa Wote 3.0* (UP 3.0), ambayo hatimaye imeweka kiwango cha mwingiliano cha usimbaji fiche kutoka mwanzo hadi mwisho (E2EE) katika RCS. Kwa hivyo, Exchange inapofanyika kupitia mteja wa RCS unaotii UP 3.0, maudhui hayasomeki kwa opereta na kikamata IMSI. Google na Apple wametangaza nia yao ya kuunga mkono teknolojia hii (inabakia kuonekana ikiwa hii itashirikiana). Hata hivyo, ikiwa moja ya vifaa haiendani na RCS UP 3.0, au ikiwa hakuna muunganisho wa IP, mawasiliano hubadilika kiotomatiki hadi kwa SMS ya kawaida, ambayo haijasimbwa, na kufanya uingiliaji kuwa mdogo.
+Mnamo Machi 2025, Jumuiya ya GSM ilichapisha Universal Profile 3.0 (UP 3.0), ambayo hatimaye imeweka kiwango cha mwingiliano cha usimbaji fiche wa end-to-end (E2EE) katika RCS. Kwa hivyo, exchange inapofanyika kupitia mteja wa RCS unaotii UP 3.0, maudhui hayasomeki kwa opereta au IMSI catcher. Google na Apple wametangaza nia yao ya kuunga mkono teknolojia hii (ingawa bado haijabainika kama kutakuwa na ushirikiano). Hata hivyo, ikiwa mojawapo ya vifaa haiendani na RCS UP 3.0, au ikiwa hakuna muunganisho wa IP, mawasiliano hubadilika kiotomatiki hadi SMS ya kawaida, ambayo haijasimbwa, na kufanya uingiliaji uwezekane.
 
 
 Kwa upande wa Apple, iMessage (iliyozinduliwa mwaka wa 2011) inatoa usimbaji fiche wa asili-hadi-mwisho kati ya watumiaji wa Apple, lakini itifaki hii inasalia imefungwa na imezuiwa kwa mfumo ikolojia wa iOS/macOS. Wakati wa kubadilishana ujumbe na watumiaji walio nje ya mfumo huu wa ikolojia, ujumbe hurudi kwenye itifaki ya kawaida, na kupoteza usiri wote. Usimbaji fiche pia unaweza kuvunjika ikiwa wewe au mwenzako mtahifadhi ujumbe wako katika iCloud bila chaguo la *Ulinzi wa Hali ya Juu wa Data*.

@@ -2045,7 +2045,7 @@ macOS terkenal akan keamanannya, berkat kebijakan tanda tangan pada aplikasi dan
 
 ### Kesimpulan: keamanan adalah masalah keteraturan
 
-Keamanan komputer yang optimal tidak dicapai dengan hanya memasang program tertentu sekali, melainkan melalui pemeliharaan yang teratur, ketat, dan metodis. Menjaga sistem operasi Anda tetap mutakhir, memutakhirkan perangkat lunak penting, menghapus perangkat lunak yang tidak perlu, dan memantau sistem secara aktif adalah landasan dari pemeliharaan yang baik. Secara lebih umum, praktik terbaik ini berlaku untuk semua perangkat digital Anda: perangkat terhubung (connected objects), server, ponsel pintar, dan lain-lain.
+Keamanan komputer yang optimal tidak dicapai dengan hanya memasang program tertentu sekali, melainkan melalui pemeliharaan yang teratur, ketat, dan metodis. Menjaga sistem operasi Anda tetap mutakhir, memutakhirkan perangkat lunak penting, menghapus perangkat lunak yang tidak perlu, dan memantau sistem secara aktif adalah landasan dari pemeliharaan yang baik. Secara lebih umum, praktik terbaik ini berlaku untuk semua perangkat digital Anda: perangkat terhubung (connected objects), server, smartphone, dan lain-lain.
 
 Pada bab berikutnya, kita akan melihat bagaimana Anda dapat menghindari instalasi *malware* secara praktis, dengan mempelajari cara memeriksa integritas dan keaslian file yang Anda unduh ke komputer Anda.
 
@@ -3445,161 +3445,112 @@ Komponen-komponen ini tidak bersifat open-source: tidak dapat diaudit secara beb
 
 ![Image](assets/fr/132.webp)
 
+Hal ini secara bertahap menciptakan ketergantungan struktural bagi produsen smartphone, dan membuat transmisi data pribadi ke server Google hampir tidak terhindarkan bagi pengguna akhir. Layanan-layanan ini bertujuan untuk menjamin pengalaman pengguna yang lancar dan konsisten, tetapi juga memusatkan fungsi-fungsi sensitif seperti pencadangan data otomatis, geolokasi pasif, atau otentikasi permanen melalui akun Google (sering kali diperlukan untuk mengeksploitasi sepenuhnya perangkat seseorang ).
 
-Hal ini secara bertahap menciptakan ketergantungan struktural bagi produsen ponsel pintar, dan membuat pengiriman data pribadi ke server Google hampir tak terelakkan bagi pengguna akhir. Layanan ini bertujuan untuk menjamin pengalaman pengguna yang lancar dan konsisten, tetapi juga memusatkan fungsi-fungsi sensitif seperti pencadangan data otomatis, geolokasi pasif, atau otentikasi permanen melalui akun Google (sering kali diperlukan untuk mengeksploitasi perangkat seseorang).
+Meskipun Android secara teori tetap menjadi sistem open source pada intinya, mayoritas smartphone Android yang dijual di seluruh dunia berjalan pada versi yang dimodifikasi dan ditingkatkan oleh Google. Dalam versi ini, lapisan open source sebagian besar tersembunyi di bawah lapisan eksklusif yang terkunci dan intrusif.
 
-
-Meskipun Android secara teori tetap merupakan sistem sumber terbuka pada intinya, sebagian besar smartphone Android yang dijual di seluruh dunia berjalan pada versi yang dimodifikasi dan disempurnakan oleh Google. Dalam versi ini, sumber terbuka Layer sebagian besar tersembunyi di balik hamparan yang bersifat eksklusif, terkunci, dan mengganggu.
-
-
-Untuk benar-benar mendapatkan kembali kendali, oleh karena itu perlu beralih ke alternatif seperti ROM gratis (GrapheneOS, CalyxOS, dll.), yang akan kita bahas nanti dalam kursus ini.
-
+Untuk benar-benar mendapatkan kembali kendali, oleh karena itu perlu beralih ke alternatif seperti ROM gratis (GrapheneOS, CalyxOS, dll.), yang akan kita lihat nanti dalam kursus ini.
 
 ### iOS: keamanan tinggi, tetapi sistem tertutup
 
-
 #### Sejarah singkat iOS
 
-
-iOS adalah sistem operasi yang dikembangkan oleh Apple untuk ponsel cerdasnya, diperkenalkan dengan iPhone pertama pada tahun 2007 (saat itu disebut "*iPhone OS*"). Sejak awal, Apple telah mengadopsi strategi integrasi vertikal yang lengkap: perangkat keras, perangkat lunak, sistem operasi, layanan online, dan toko aplikasi, semuanya dirancang, dikontrol, dan dipelihara oleh Apple. Pada awalnya, aplikasi asli yang tidak diproduksi oleh Apple bahkan tidak didukung. Pendekatan ini sangat kontras dengan Android, yang ekosistemnya jauh lebih terfragmentasi sejak awal, dan masih sampai sekarang.
-
+iOS adalah sistem operasi yang dikembangkan oleh Apple untuk smartphone-nya, diperkenalkan bersama iPhone pertama pada tahun 2007 (saat itu disebut "_iPhone OS_"). Sejak awal, Apple telah mengadopsi strategi integrasi vertikal yang lengkap: perangkat keras, perangkat lunak, sistem operasi, layanan online, dan toko aplikasi semuanya dirancang, dikendalikan, dan dipelihara oleh Apple. Awalnya, aplikasi asli yang tidak diproduksi oleh Apple bahkan tidak didukung. Pendekatan ini sangat kontras dengan Android, yang ekosistemnya jauh lebih terfragmentasi sejak awal, dan masih demikian hingga saat ini.
 
 ![Image](assets/fr/133.webp)
 
+iOS pada awalnya didasarkan pada sistem operasi yang digunakan oleh Mac: OS X. Ia menggunakan kernel hibrida yang berasal dari Darwin, yang juga berasal dari BSD Unix dan microkernel Mach. Fondasi teknis ini memungkinkan iOS mewarisi sejumlah properti ketangguhan dan stabilitas spesifik dari sistem Unix. Oleh karena itu, sistem ini dirancang berdasarkan prinsip-prinsip keamanan yang ketat, termasuk:
 
-iOS pada awalnya didasarkan pada sistem operasi yang digunakan oleh Mac: OS X. OS X menggunakan kernel hibrida yang berasal dari Darwin, yang juga berasal dari BSD Unix dan mikrokernel Mach. Landasan teknis ini memungkinkan iOS untuk mewarisi sejumlah sifat ketahanan dan stabilitas yang khusus untuk sistem Unix. Oleh karena itu, sistem ini dirancang berdasarkan prinsip keamanan yang ketat, termasuk:
+- Sandboxing aplikasi yang lengkap, mencegah satu aplikasi mengakses data atau proses aplikasi lain
+- Tanda tangan wajib untuk kode aplikasi, menjamin integritas biner dan asalnya (hanya App Store)
+- Enkripsi data perangkat keras langsung pada chip, melalui _Secure Enclave_, sebuah coprocessor kriptografi yang terisolasi dari seluruh sistem
+- Pembaruan keamanan yang cepat, diterapkan langsung oleh Apple di semua perangkat, tanpa perantara
 
+Arsitektur tertutup ini memungkinkan Apple untuk menjamin pengalaman pengguna yang lancar dan aman. Pengembangan terpusat juga memfasilitasi optimisasi perangkat keras-perangkat lunak, dengan sedikit variabilitas antar model, tidak seperti Android. iOS karenanya dianggap sebagai salah satu sistem teraman terhadap serangan komputer.
 
+#### Kerugian iOS yang tertutup
 
-- sandboxing aplikasi secara lengkap, mencegah satu aplikasi mengakses data atau proses aplikasi lain
-- tanda tangan wajib kode aplikasi, menjamin integritas binari dan asalnya (hanya App Store)
-- enkripsi data perangkat keras langsung pada chip, melalui *Secure Enclave*, koprosesor kriptografi yang diisolasi dari seluruh sistem
-- pembaruan keamanan yang cepat, diterapkan langsung oleh Apple di semua perangkat, tanpa perantara
+Namun, keamanan ini bergantung pada penguncian ketat penggunanya, yang secara teknis hampir tidak memiliki kendali atas perangkatnya. Tidak mungkin untuk memasang aplikasi selain melalui App Store, kecuali melalui _jailbreak_, sebuah operasi yang rumit, berisiko, dan sering kali tidak stabil yang membatalkan garansi dan mengkompromikan keamanan sistem. Prinsip ini juga mendasari model bisnis Apple, yang membebankan komisi atas transaksi yang dilakukan di aplikasi pihak ketiga.
 
-
-Arsitektur tertutup ini memungkinkan Apple untuk menjamin pengalaman pengguna yang lancar dan aman. Pengembangan terpusat juga memfasilitasi pengoptimalan perangkat keras-perangkat lunak, dengan sedikit variabilitas di antara model-modelnya, tidak seperti Android. Dengan demikian, iOS dianggap sebagai salah satu sistem yang paling aman dari serangan komputer.
-
-
-#### Kerugian menutup iOS
-
-
-Namun, keamanan ini bergantung pada penguncian yang ketat dari pengguna akhir, yang hampir tidak memiliki kontrol teknis atas perangkatnya. Tidak mungkin untuk menginstal aplikasi selain melalui App Store, kecuali dengan cara *jailbreak*, sebuah operasi yang rumit, berisiko dan sering kali tidak stabil yang membatalkan garansi dan membahayakan keamanan sistem. Prinsip ini juga mendasari model bisnis Apple, yang mengenakan komisi atas transaksi yang dilakukan di aplikasi pihak ketiga.
-
-
-Kustomisasi juga sangat terbatas. Tidak mungkin untuk memodifikasi perilaku sistem secara mendalam, secara bebas mengubah lingkungan runtime, atau secara langsung mengakses file sistem. Jadi, dalam praktiknya, ponsel cerdas tetap menjadi milik Apple, bahkan setelah pembelian, karena Anda tidak memiliki kendali penuh atasnya.
-
+Kustomisasi juga sangat terbatas. Tidak mungkin untuk mengubah secara mendalam perilaku sistem, dengan bebas mengubah lingkungan runtime, atau mengakses langsung file sistem. Jadi, dalam praktiknya, smartphone tetap menjadi milik Apple, bahkan setelah dibeli, karena Anda tidak memiliki kendali penuh atasnya.
 
 ![Image](assets/fr/134.webp)
 
+Terlebih lagi, integrasi wajib iCloud ke dalam mayoritas layanan (backup, pesan, foto, lokasi, Siri...) mengekspos pengguna pada sentralisasi besar-besaran data pribadi mereka. Meskipun Apple mengklaim memiliki model yang berfokus pada privasi (dan, tidak seperti Google, model bisnisnya tidak didasarkan pada eksploitasi data pribadi), beberapa keterbatasan tetap ada:
 
-Terlebih lagi, integrasi wajib iCloud ke dalam sebagian besar layanan (cadangan, pesan, foto, lokasi, Siri...) membuat pengguna terpapar pada pemusatan besar-besaran data pribadi mereka. Meskipun Apple mengklaim memiliki model yang berfokus pada privasi (dan, tidak seperti Google, model bisnisnya tidak didasarkan pada eksploitasi data pribadi), beberapa keterbatasan tetap ada:
-
-
-
-- beberapa Elements (seperti metadata koneksi, permintaan Siri, atau log kesalahan) masih melewati server Apple
-- mekanisme analisis perilaku untuk saran kontekstual, pembaruan App Store, atau pemfilteran pesan menggunakan model hak milik yang tidak dapat diaudit
-- menggunakan layanan seperti iCloud menyiratkan kepercayaan implisit pada infrastruktur Apple, tanpa kontrol atas di mana atau berapa lama data disimpan
-
-
-Terakhir, dalam hal kedaulatan digital, iOS mewakili lingkungan yang tertutup: tidak ada otoritas eksternal (baik pengguna maupun organisasi independen) yang dapat memverifikasi atau memodifikasi operasinya. Oleh karena itu, pengguna dipaksa untuk mempercayai Apple di setiap level: perangkat keras, perangkat lunak, jaringan...
+- Beberapa elemen (seperti metadata koneksi, permintaan Siri, atau log kesalahan) masih melewati server Apple.
+- Mekanisme analisis perilaku untuk saran kontekstual, pembaruan App Store, atau penyaringan pesan menggunakan model kepemilikan yang tidak dapat diaudit.
+- Menggunakan layanan seperti iCloud menyiratkan kepercayaan implisit pada infrastruktur Apple, tanpa kendali atas di mana atau berapa lama data disimpan.
+  
+Akhirnya, dalam hal kedaulatan digital, iOS merepresentasikan lingkungan yang tertutup: tidak ada otoritas eksternal (baik pengguna maupun organisasi independen) yang dapat memverifikasi atau memodifikasi operasinya. Oleh karena itu, pengguna dipaksa untuk percaya pada Apple di setiap tingkatan: perangkat keras, perangkat lunak, jaringan...
 
 
-### alternatif sumber terbuka dengan Android
+### alternatif open source dengan Android
 
-
-Seperti yang baru saja kita lihat, ekosistem Android standar, yang didominasi oleh Google, didasarkan pada versi sistem sumber terbuka (AOSP) dengan komponen berpemilik (GMS). Beberapa proyek sumber terbuka memanfaatkan AOSP untuk menawarkan sistem operasi alternatif yang lebih menghargai privasi, tanpa lapisan yang mengganggu, dan dengan kontrol pengguna yang lebih baik. Alternatif ini dipasang untuk menggantikan sistem asli, dalam bentuk ROM yang disesuaikan. ROM ini memungkinkan Anda untuk mendapatkan kembali kendali atas perangkat lunak, tetapi juga memerlukan kontrol perangkat keras yang minimal, karena hanya kompatibel dengan beberapa perangkat saja.
-
+Seperti yang baru saja kita lihat, ekosistem Android standar, yang didominasi oleh Google, didasarkan pada versi sistem open source (AOSP) dengan komponen eksklusif (GMS). Beberapa proyek open source memanfaatkan AOSP untuk menawarkan sistem operasi alternatif yang lebih menghormati privasi, tanpa lapisan yang mengganggu, dan dengan kontrol pengguna yang lebih baik. Alternatif-alternatif ini dipasang untuk menggantikan sistem asli, dalam bentuk ROM yang dikustomisasi. Ini memungkinkan Anda untuk mendapatkan kembali kendali atas perangkat lunak, tetapi juga memerlukan kontrol perangkat keras yang terbatas, karena mereka hanya kompatibel dengan beberapa perangkat saja.
 
 #### Persyaratan dan peringatan perangkat keras
 
+Sebelum menginstal, penting untuk memeriksa kompatibilitas smartphone Anda dengan ROM yang dipilih. Sebagian besar proyek ini mendukung daftar model yang terbatas. Sering kali, Anda perlu menggunakan ponsel Google Pixel, karena dukungan bootloader mereka yang dapat dibuka kuncinya dan driver publik.
 
-Sebelum menginstal, penting untuk memeriksa kompatibilitas ponsel cerdas Anda dengan ROM yang dipilih. Sebagian besar proyek ini mendukung daftar model yang terbatas. Sering kali, Anda harus menggunakan ponsel Google Pixel, karena dukungan bootloader yang tidak dapat dibuka dan driver publik.
+Instalasi memerlukan pembukaan kunci bootloader, sebuah operasi yang memungkinkan systen image baru untuk ditulis, tetapi secara keseluruhan menghapus isi perangkat asli. Layanan tambahan, seperti F-Droid atau Aurora Store untuk aplikasi, juga harus dipasang secara manual.
 
-
-Instalasi memerlukan pembukaan kunci bootloader, sebuah operasi yang memungkinkan gambar sistem baru ditulis, tetapi sepenuhnya menghapus konten perangkat asli. Layanan tambahan, seperti F-Droid atau Aurora Store untuk aplikasi, juga harus diinstal secara manual.
-
-
-Beberapa produsen melarang atau mempersulit operasi ini, atau bahkan menonaktifkan fungsi tertentu (kamera, sensor, dll.) ketika mengubah sistem. Jadi, penting untuk memilih ponsel yang kompatibel (biasanya Google Pixel).
-
+Beberapa produsen melarang atau mempersulit operasi ini, atau bahkan menonaktifkan fungsi tertentu (kamera, sensor, dll.) saat mengganti sistem. Jadi, penting untuk memilih ponsel yang kompatibel (sering kali Google Pixel).
 
 ![Image](assets/fr/135.webp)
 
-
 #### GrapheneOS
 
+[GrapheneOS](https://grapheneos.org/) adalah ROM AOSP yang disempurnakan, dirancang untuk menawarkan tingkat keamanan yang lebih tinggi daripada Android standar. Sistem ini dikembangkan oleh tim independen dan diaudit oleh para ahli. Graphene mengimplementasikan mekanisme keamanan tingkat lanjut, termasuk:
 
-[GrapheneOS] (https://grapheneos.org/) adalah ROM AOSP yang disempurnakan, yang dirancang untuk menawarkan tingkat keamanan yang lebih tinggi daripada Android standar. ROM ini dikembangkan oleh tim independen dan diaudit oleh para ahli. Graphene mengimplementasikan mekanisme keamanan tingkat lanjut, termasuk:
-
-
-
-- pengurangan drastis permukaan serangan: penonaktifan default banyak fungsi (NFC, Bluetooth, dll.), penguncian port USB saat perangkat tidak aktif, kontrol lanjutan pin pogo, dll.
-- kotak pasir Android yang lebih kuat
-- perlindungan memori tingkat lanjut
-- kontrol izin granular
-- enkripsi perangkat keras yang tidak bergantung pada Google
+- Pengurangan drastis area yang rentan diserang: penonaktifan banyak fungsi secara default (NFC, Bluetooth, dll.), penguncian porta USB saat perangkat tidak aktif, kontrol lanjutan terhadap pogo pins, dll.
+- Sandboxing Android yang lebih kuat
+- Perlindungan memori tingkat lanjut
+- Kontrol izin yang granular
+- Enkripsi perangkat keras yang independen dari Google
 - dll.
-
 
 ![Image](assets/fr/136.webp)
 
-
-GrapheneOS tidak mengintegrasikan komponen berpemilik. Anda bebas untuk menambahkan layanan Google atau tidak, tetapi layanan ini diisolasi secara ketat (di-sandbox dalam profil khusus). Hal ini membuat sistem ini sangat tahan terhadap serangan lokal dan eksploitasi kerentanan sistem.
-
+GrapheneOS tidak mengintegrasikan komponen eksklusif apa pun. Anda bebas untuk menambahkan layanan Google atau tidak, tetapi layanan ini diisolasi secara ketat (sandboxed dalam profil khusus). Hal ini membuat sistem sangat tahan terhadap serangan lokal dan eksploitasi kerentanan sistem.
 
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
-
 
 https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
+[CalyxOS](https://calyxos.org/) adalah sistem perantara yang bertujuan untuk merekonsiliasi privasi, keamanan, dan kompatibilitas dengan penggunaan sehari-hari. Sistem ini juga didasarkan pada AOSP, dengan penyempurnaan keamanan. Fitur spesialnya adalah integrasi opsional dari MicroG, sebuah implementasi ulang gratis dari layanan Google. Ini memungkinkan untuk menjalankan sebagian besar aplikasi Android yang bergantung pada layanan Google, tanpa harus melalui binari resmi.
 
-[CalyxOS] (https://calyxos.org/) adalah sistem perantara yang bertujuan untuk mendamaikan privasi, keamanan, dan kompatibilitas dengan penggunaan sehari-hari. Sistem ini juga didasarkan pada AOSP, dengan peningkatan keamanan. Fitur khususnya adalah integrasi opsional MicroG, sebuah implementasi ulang gratis dari layanan Google. Hal ini memungkinkan untuk menjalankan sebagian besar aplikasi Android yang bergantung pada layanan Google, tanpa harus melalui binari resmi.
-
-
-CalyxOS juga menawarkan aplikasi pra-instal (Signal, F-Droid, Aurora Store, VPN terintegrasi...), dan Interface yang rapi. Sangat mudah untuk menginstal melalui alat grafis untuk pengguna Pixel. Calyx terutama kompatibel dengan Google Pixel, tetapi juga beberapa model Fairphone dan Motorola.
-
+CalyxOS juga menawarkan aplikasi yang sudah terpasang (Signal, F-Droid, Aurora Store, VPN terintegrasi...), dan Interface yang rapi. Sangat mudah untuk dipasang melalui aplikasi grafis untuk pengguna Pixel. Calyx terutama kompatibel dengan Google Pixel, tetapi juga beberapa model Fairphone dan Motorola.
 
 ![Image](assets/fr/137.webp)
 
-
 #### LineageOS
 
+[LineageOS](https://lineageos.org/), penerus CyanogenMod, adalah ROM alternatif yang paling banyak kompatibel. Sistem ini mendukung beberapa ratus model, berkat komunitas kontributor yang besar. Berdasarkan AOSP, sistem ini menekankan kustomisasi, kesederhanaan, dan kebebasan penggunaan.
 
-[LineageOS] (https://lineageos.org/), penerus CyanogenMod, adalah ROM alternatif yang paling banyak kompatibel. Ini mendukung beberapa ratus model, berkat komunitas kontributor yang besar. Berdasarkan AOSP, ini menekankan penyesuaian, kesederhanaan dan kebebasan penggunaan.
+LineageOS memberi Anda sistem Android tanpa lapisan produsen, tanpa bloatware, manajemen izin penuh, pembaruan yang mudah, dan Interface yang efisien. Anda dapat menambahkan layanan Google atau memilih penggunaan 100% gratis.
 
-
-LineageOS memberi Anda sistem Android tanpa lapisan pabrikan, tanpa bloatware, manajemen izin penuh, pembaruan yang mudah, dan Interface yang efisien. Anda bisa menambahkan layanan Google atau memilih penggunaan gratis 100%.
-
-
-Di sisi keamanan, bagaimanapun, LineageOS tidak mengintegrasikan perlindungan perangkat keras tertentu atau bala bantuan memori yang ditemukan di GrapheneOS dan CalyxOS. Sistem pembaruannya juga bergantung pada komunitas, yang dapat menyebabkan penundaan dalam patch keamanan.
-
+Namun, di sisi keamanan, LineageOS tidak mengintegrasikan perlindungan perangkat keras atau penguatan memori tertentu yang ditemukan di GrapheneOS dan CalyxOS. Sistem pembaruannya juga bergantung pada komunitas, yang dapat menyebabkan penundaan dalam patch keamanan.
 
 ![Image](assets/fr/138.webp)
 
-
 ### OS ponsel cerdas mana yang digunakan?
 
+Ketika memilih sistem operasi smartphone Anda, Anda perlu menyadari adanya pertukaran antara keamanan, privasi, kemudahan penggunaan, dan kompatibilitas aplikasi. Setiap solusi memiliki fitur teknis spesifik yang akan secara langsung memengaruhi pengalaman Anda sehari-hari, kemampuan kontrol Anda, dan paparan Anda terhadap pengawasan komersial atau kerentanan.
 
-Ketika memilih sistem operasi ponsel cerdas Anda, Anda harus menyadari adanya pertukaran antara keamanan, privasi, kemudahan penggunaan, dan kompatibilitas aplikasi. Setiap solusi memiliki fitur teknis spesifik yang akan secara langsung memengaruhi pengalaman Anda sehari-hari, kemampuan kontrol Anda, dan eksposur Anda terhadap pengawasan atau kerentanan komersial.
+Android standar (dengan GMS) tetap menjadi solusi yang paling luas saat ini. Sistem ini menawarkan kompatibilitas penuh dengan semua aplikasi Android, kemudahan penggunaan, dan akses langsung ke layanan populer (Play Store, Maps, Gmail...). Namun, kemudahan penggunaan ini bergantung pada integrasi kuat layanan dari milik Google, dengan pengumpulan data yang sistematis: posisi GPS, riwayat penjelajahan, metadata panggilan, preferensi iklan... Jadi, ini adalah pilihan yang buruk jika Anda peduli dengan kedaulatan digital atau privasi Anda.
 
+Sistem iOS dari Apple memiliki tingkat keamanan yang tinggi. Namun, keamanan ini disertai dengan penutupan lingkungan yang ekstrem: Pengguna tidak dapat memasang aplikasi di luar App Store (kecuali dalam kasus marginal), tidak dapat memodifikasi perilaku sistem, dan sepenuhnya bergantung pada Apple untuk pengelolaan perangkat keras, penyimpanan cloud, dan sinkronisasi. iOS adalah lingkungan yang efisien dan tangguh, tetapi mengorbankan segala bentuk personalisasi atau kemandirian.
 
-Android standar (dengan GMS) tetap menjadi solusi yang paling banyak digunakan saat ini. Sistem operasi ini menawarkan kompatibilitas penuh dengan semua aplikasi Android, kemudahan penggunaan, dan akses langsung ke layanan populer (Play Store, Maps, Gmail...). Namun, kemudahan penggunaan ini bergantung pada integrasi yang kuat dari layanan milik Google, dengan pengumpulan data yang sistematis: Posisi GPS, riwayat penelusuran, metadata panggilan, preferensi iklan... Jadi, ini adalah pilihan yang buruk jika Anda mengkhawatirkan kedaulatan atau privasi digital Anda.
+GrapheneOS ditujukan untuk pengguna yang paling menuntut dalam hal keamanan dan kerahasiaan. Tingkat keamanannya, bagaimanapun, memaksakan beberapa batasan: sedikit perangkat yang kompatibel (hanya model Google Pixel terbaru), tidak ada integrasi otomatis layanan aplikasi pihak ketiga, dan kebutuhan untuk mengkonfigurasi aplikasi alternatif secara manual untuk pembaruan, toko, atau notifikasi. Jika privasi dan keamanan adalah prioritas Anda, ini jelas merupakan pilihan terbaik.
 
+CalyxOS menawarkan keseimbangan yang menarik. Pengalaman penggunanya tetap dekat dengan Android standar, tetapi tanpa pengawasan langsung dari Google. Sistem ini mendukung lebih banyak model ponsel (terutama Google Pixel), dan dapat dipasang tanpa pengetahuan teknis tingkat lanjut. Bagi pengguna yang menginginkan tingkat keamanan tinggi tanpa mengorbankan kompatibilitas perangkat lunak, CalyxOS adalah solusi yang praktis dan seimbang.
 
-Sistem iOS Apple membanggakan tingkat keamanan yang tinggi. Namun demikian, keamanan ini disertai dengan lingkungan yang sangat tertutup: Pengguna tidak dapat menginstal aplikasi di luar App Store (kecuali dalam kasus-kasus marjinal), tidak dapat memodifikasi perilaku sistem, dan sepenuhnya bergantung pada Apple untuk pengelolaan perangkat keras, penyimpanan cloud, dan sinkronisasi. Ini adalah lingkungan yang efisien dan kuat, tetapi mengorbankan segala bentuk personalisasi atau kemandirian.
+Terakhir, LineageOS adalah distribusi AOSP untuk pengguna yang menginginkan fleksibilitas dan kontrol. Sistem ini kompatibel dengan sejumlah besar perangkat, bahkan yang lebih lama, memungkinkan kustomisasi sistem yang lengkap, dan menawarkan alternatif yang ringan untuk lapisan OEM. Namun, sistem ini tidak secara bawaan mengintegrasikan penyempurnaan keamanan tingkat lanjut yang ditemukan di GrapheneOS atau CalyxOS, dan tidak selalu mendapatkan pembaruan rutin untuk semua model. Oleh karena itu, LineageOS membutuhkan kedisiplinan pengguna untuk tetap aman seiring waktu.
 
-
-GrapheneOS ditujukan untuk profil yang paling menuntut dalam hal keamanan dan kerahasiaan. Namun, tingkat keamanannya memang memberlakukan beberapa kendala: beberapa perangkat yang kompatibel (hanya model Google Pixel terbaru), tidak ada integrasi otomatis layanan aplikasi pihak ketiga, dan kebutuhan untuk mengonfigurasi secara manual alat alternatif untuk pembaruan, toko, atau pemberitahuan. Jika privasi dan keamanan adalah prioritas Anda, ini jelas merupakan pilihan terbaik.
-
-
-CalyxOS menawarkan keseimbangan yang menarik. Pengalaman pengguna tetap dekat dengan Android standar, tetapi tanpa pengawasan langsung dari Google. Ini mendukung sejumlah model yang masuk akal (terutama Google Pixel), dan dapat diinstal tanpa pengetahuan teknis tingkat lanjut. Bagi pengguna yang menginginkan keamanan tingkat tinggi tanpa mengorbankan kompatibilitas perangkat lunak, CalyxOS adalah solusi yang praktis dan seimbang.
-
-
-Terakhir, LineageOS adalah distribusi AOSP untuk pengguna yang menginginkan fleksibilitas dan kontrol. Distribusi ini kompatibel dengan sejumlah besar perangkat, bahkan perangkat yang lebih tua, memungkinkan kustomisasi sistem secara lengkap, dan menawarkan alternatif ringan untuk lapisan OEM. Namun, ia tidak mengintegrasikan peningkatan keamanan tingkat lanjut yang ditemukan di GrapheneOS atau CalyxOS, dan tidak selalu mendapat manfaat dari pembaruan reguler untuk semua model. Oleh karena itu, LineageOS membutuhkan sejumlah disiplin pengguna agar tetap aman dari waktu ke waktu.
-
-
-| System | Security | Privacy | Compatibility | Customization |
+| OS | Keamanan | Privasi | Kompatibilitas | Kustomisasi |
 | ------ | -------- | ------- | ------------- | ------------- |
 | Android | 🟡       | 🔴      | 🟢            | 🟢            |
 | iOS     | 🟢       | 🟡      | 🟡            | 🔴            |
@@ -3609,38 +3560,33 @@ Terakhir, LineageOS adalah distribusi AOSP untuk pengguna yang menginginkan flek
 
 Apa pun pilihan sistem operasi seluler Anda, di bab berikutnya kita akan melihat praktik terbaik yang dapat Anda terapkan untuk mengamankan ponsel secara efektif dan menjaga lingkungan digital yang sehat.
 
-
 ## Mengamankan ponsel cerdas Anda untuk penggunaan sehari-hari
-
 
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>
 
-
-Pada bab sebelumnya, kami menganalisis masalah yang terkait dengan sistem operasi ponsel pintar, dan mengeksplorasi berbagai alternatif untuk mendapatkan kontrol yang lebih besar atas ponsel Anda. Tetapi memilih sistem operasi yang bagus saja tidak cukup: untuk memastikan keamanan dan kerahasiaan yang sesungguhnya, penting untuk menerapkan beberapa praktik yang baik dalam penggunaan sehari-hari.
+Pada bab sebelumnya, kami menganalisis masalah yang terkait dengan sistem operasi smartphone, dan mengeksplorasi berbagai alternatif untuk mendapatkan kontrol yang lebih besar atas ponsel Anda. Tetapi memilih sistem operasi yang bagus saja tidak cukup: untuk memastikan keamanan dan kerahasiaan yang sesungguhnya, penting untuk menerapkan beberapa praktik yang baik dalam penggunaan sehari-hari.
 
 
 Dalam bab ini, kita akan melihat langkah demi langkah pada beberapa rekomendasi dasar yang berlaku terlepas dari Sistem Operasi ponsel cerdas Anda.
 
+Pada bab sebelumnya, kita telah menganalisis isu-isu terkait dengan sistem operasi smartphone, dan mengeksplorasi berbagai alternatif untuk mendapatkan kendali yang lebih besar atas ponsel Anda. Namun, memilih sistem operasi yang baik saja tidak cukup: untuk memastikan keamanan dan kerahasiaan yang nyata, penting untuk mengadopsi beberapa praktik baik dalam penggunaan sehari-hari Anda.
+
+Pada bab ini, kita akan melihat langkah demi langkah beberapa rekomendasi dasar yang berlaku terlepas dari Sistem Operasi smartphone Anda.
 
 ### Pembaruan
 
+Saya akan mengulanginya lagi di sini, tetapi setiap pembaruan yang dirilis oleh pengembang berpotensi mencakup patch keamanan penting. Terlebih lagi, smartphone terpapar pada banyak risiko karena area yang rentan diserang yang besar: Melalui jaringan seluler, aplikasi pihak ketiga, komunikasi nirkabel (Wi-Fi, Bluetooth, NFC, dll.).
 
-Saya akan mengulanginya lagi di sini, tetapi setiap pembaruan yang dirilis oleh pengembang berpotensi menyertakan tambalan keamanan yang penting. Terlebih lagi, ponsel cerdas terpapar pada banyak risiko karena permukaan serangannya yang sangat besar: Melalui jaringan seluler, aplikasi pihak ketiga, komunikasi nirkabel (Wi-Fi, Bluetooth, NFC, dll.).
-
-
-Tidak menerapkan pembaruan ini berarti dengan sengaja membiarkan kerentanan yang diketahui, yang didokumentasikan secara publik di basis data seperti CVE (*Common Vulnerabilities and Exposures*). Celah-celah ini terkadang secara otomatis dieksploitasi oleh alat yang tersedia secara online, bahkan tanpa memerlukan keahlian khusus. Hal ini membuat ponsel yang sudah ketinggalan zaman menjadi target ideal, bahkan untuk serangan otomatis berskala besar.
-
+Tidak menerapkan pembaruan ini berarti dengan sengaja membiarkan kerentanan yang diketahui terbuka, yang didokumentasikan secara publik di basis data seperti CVE (_Common Vulnerabilities and Exposures_). Celah ini terkadang dieksploitasi secara otomatis oleh aplikasi yang tersedia secara online, bahkan tanpa memerlukan keterampilan tingkat lanjut. Hal ini membuat ponsel yang usang menjadi target ideal, bahkan untuk serangan otomatis berskala besar.
 
 ![Image](assets/fr/139.webp)
 
-
-Oleh karena itu, sangat penting untuk mengaktifkan pembaruan otomatis dalam pengaturan sistem Anda, dan secara manual memeriksa setiap minggu apakah perangkat Anda memiliki patch keamanan terbaru. Pada Android, hal ini biasanya dilakukan di `Pengaturan > Keamanan > Pembaruan Sistem`, dan pada iOS di `Pengaturan > Umum > Pembaruan Perangkat Lunak`.
-
+Oleh karena itu, sangat penting untuk mengaktifkan pembaruan otomatis di pengaturan sistem Anda, dan untuk memeriksa secara manual setiap minggu bahwa perangkat Anda memiliki patch keamanan terbaru. Di Android, ini biasanya dilakukan di `Settings > Security > System Update`, dan di iOS di `Settings > General > Software Update`.
 
 #### Perbarui dukungan
 
 
-Tidak semua ponsel pintar diciptakan sama dalam hal dukungan perangkat lunak. Banyak perangkat entry-level dan kelas menengah yang berhenti menerima pembaruan penting setelah dua atau tiga tahun, sehingga Anda menghadapi risiko yang semakin serius.
+Tidak semua smartphone diciptakan sama dalam hal dukungan perangkat lunak. Banyak perangkat entry-level dan kelas menengah yang berhenti menerima pembaruan penting setelah dua atau tiga tahun, sehingga Anda menghadapi risiko yang semakin serius.
 
 
 Namun, beberapa merek memiliki dukungan perangkat lunak yang sangat baik, terutama Google (7 tahun), Fairphone (5 hingga 7 tahun), Samsung (5 hingga 7 tahun), dan Apple (5 hingga 7 tahun). Kriteria ini sangat penting saat membeli ponsel baru: Perangkat yang tahan lama adalah perangkat yang terawat.
@@ -3778,7 +3724,7 @@ Mengenai jaringan Wi-Fi di rumah Anda, kita akan membahasnya di bagian terakhir 
 #### Bluetooth, NFC dan GPS
 
 
-Bluetooth (protokol nirkabel untuk komunikasi jarak pendek), NFC (Near Field Communication) dan GPS (pemosisian satelit) diaktifkan secara default di banyak ponsel pintar. Teknologi ini dapat digunakan sebagai pintu gerbang untuk serangan lokal: Eksekusi kode jarak jauh, akses tidak sah, pelacakan lokasi, bahkan penyadapan komunikasi dalam kasus Bluetooth (kerentanan BlueBorne, misalnya).
+Bluetooth (protokol nirkabel untuk komunikasi jarak pendek), NFC (Near Field Communication) dan GPS (pemosisian satelit) diaktifkan secara default di banyak smartphone. Teknologi ini dapat digunakan sebagai pintu gerbang untuk serangan lokal: Eksekusi kode jarak jauh, akses tidak sah, pelacakan lokasi, bahkan penyadapan komunikasi dalam kasus Bluetooth (kerentanan BlueBorne, misalnya).
 
 
 Untuk membatasi risiko ini, selalu nonaktifkan fungsi-fungsi ini saat Anda tidak menggunakannya. Hal ini secara drastis mengurangi permukaan serangan dan mencegah upaya eksploitasi.
@@ -3805,7 +3751,7 @@ Cara terbaik untuk mengamankan komunikasi Anda adalah dengan menggunakan aplikas
 #### Antivirus seluler
 
 
-Kegunaan perangkat lunak antivirus pada ponsel pintar sering kali dinilai terlalu tinggi, sebagian besar karena kampanye pemasaran yang agresif. Ancaman nyata pada ponsel, terutama Android, umumnya terkait dengan pemasangan aplikasi berbahaya dari sumber yang tidak resmi. Pada perangkat yang diperbarui secara teratur, dikonfigurasi dengan hati-hati (terutama dalam hal otorisasi), dan hanya menggunakan sumber resmi atau terverifikasi, risiko infeksi sangat rendah.
+Kegunaan perangkat lunak antivirus pada smartphone sering kali dinilai terlalu tinggi, sebagian besar karena kampanye pemasaran yang agresif. Ancaman nyata pada ponsel, terutama Android, umumnya terkait dengan pemasangan aplikasi berbahaya dari sumber yang tidak resmi. Pada perangkat yang diperbarui secara teratur, dikonfigurasi dengan hati-hati (terutama dalam hal otorisasi), dan hanya menggunakan sumber resmi atau terverifikasi, risiko infeksi sangat rendah.
 
 
 Selain itu, perangkat Android sudah dilengkapi secara default dengan Google Play Protect, yang bertindak sebagai antivirus. Aplikasi antivirus pihak ketiga menggunakan pemindai Interface yang sama, yang hanya menambahkan redundansi. Maka, dalam praktiknya, antivirus seluler hanya menawarkan sedikit nilai tambah, baik di Android maupun iOS.
@@ -4625,7 +4571,7 @@ Funkwhale adalah platform terdesentralisasi untuk berbagi dan mendengarkan musik
 ### Keyboard
 
 
-Papan ketik virtual seperti Gboard dari Google atau SwiftKey dari Microsoft ada di mana-mana di ponsel pintar. Akan tetapi, keyboard ini memiliki risiko privasi yang besar: Setiap karakter yang diketik secara teoritis dapat direkam, dianalisis, atau dikirim ke server jarak jauh. Meskipun perusahaan-perusahaan ini mengklaim menganonimkan data, pengumpulan data masih mungkin terjadi.
+Papan ketik virtual seperti Gboard dari Google atau SwiftKey dari Microsoft ada di mana-mana di smartphone. Akan tetapi, keyboard ini memiliki risiko privasi yang besar: Setiap karakter yang diketik secara teoritis dapat direkam, dianalisis, atau dikirim ke server jarak jauh. Meskipun perusahaan-perusahaan ini mengklaim menganonimkan data, pengumpulan data masih mungkin terjadi.
 
 
 **Alternatif**:
@@ -4670,7 +4616,7 @@ OpenCalc adalah kalkulator sumber terbuka yang cepat dan mudah digunakan, sangat
 ### Toko aplikasi
 
 
-Google Play Store adalah sumber aplikasi default pada sebagian besar ponsel pintar Android. Namun, aplikasi ini sangat terintegrasi dengan layanan Google dan melibatkan pengumpulan data yang sistematis, bahkan selama pencarian atau pembaruan yang sederhana.
+Google Play Store adalah sumber aplikasi default pada sebagian besar smartphone Android. Namun, aplikasi ini sangat terintegrasi dengan layanan Google dan melibatkan pengumpulan data yang sistematis, bahkan selama pencarian atau pembaruan yang sederhana.
 
 
 **Alternatif**:
@@ -4797,7 +4743,7 @@ MJ PDF Reader adalah aplikasi sumber terbuka sederhana yang memungkinkan Anda me
 ### Telepon
 
 
-Aplikasi Telepon Google, yang diinstal secara default pada banyak ponsel pintar Android, bekerja secara efisien tetapi mengumpulkan sejumlah besar data penggunaan.
+Aplikasi Telepon Google, yang diinstal secara default pada banyak smartphone Android, bekerja secara efisien tetapi mengumpulkan sejumlah besar data penggunaan.
 
 
 **Alternatif**:
@@ -5348,7 +5294,7 @@ Secara konkret, berikut adalah beberapa contoh segmentasi yang bisa Anda lakukan
 
 
 
-- VLAN pribadi: Untuk perangkat tepercaya Anda seperti komputer, ponsel pintar, atau server pribadi. Ini adalah segmen utama di mana data sensitif Anda beredar.
+- VLAN pribadi: Untuk perangkat tepercaya Anda seperti komputer, smartphone, atau server pribadi. Ini adalah segmen utama di mana data sensitif Anda beredar.
 
 
 

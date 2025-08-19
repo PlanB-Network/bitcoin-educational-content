@@ -7000,22 +7000,22 @@ Badala ya SMS, ningekushauri utumie programu maalum za utumaji ujumbe zinazotumi
 Inakabiliwa na vikwazo vya SMS, idadi ya maombi ya kisasa yamejitokeza, baadhi na usimbaji wa mwisho hadi mwisho. Huu hapa ni muhtasari wa kulinganisha wa programu kuu zinazopatikana leo, ili kukusaidia kutambua zile zinazokidhi vyema mahitaji yako ya usalama na usiri.
 
 
-#### Mawimbi
+#### Signals
 
 
-Mawimbi ni programu ya ujumbe wa papo hapo iliyoundwa tangu mwanzo ili kutoa usiri na usalama wa hali ya juu. Inatokana na *Itifaki ya Mawimbi*, ambayo huhakikisha usimbaji fiche wa mwisho hadi mwisho kwa kila ujumbe, sauti au simu ya video, na pia kwa kushiriki faili. Itifaki hii inatumiwa tena na huduma nyingine nyingi za kutuma ujumbe, kama vile WhatsApp, Facebook Messenger, Skype na Google Messages (katika utekelezaji wake wa RCS).
+Signals ni programu ya ujumbe wa papo hapo iliyoundwa tangu mwanzo ili kutoa usiri na usalama wa hali ya juu. Inatokana na Signal Protocol, ambayo huhakikisha usimbaji fiche wa end-to-end kwa kila ujumbe, simu ya sauti au video, na pia kwa kushiriki faili. Protocol hii inatumiwa pia na huduma nyingine nyingi za kutuma ujumbe, kama vile WhatsApp, Facebook Messenger, Skype na Google Messages (katika utekelezaji wake wa RCS).
 
 
 ![Image](assets/fr/148.webp)
 
 
-Kitaalam, kila mazungumzo ndani ya Mawimbi yanalindwa na utaratibu wa usimbuaji usiolinganishwa na wa muda mfupi: Vifunguo vya kipindi hujadiliwa kwa nguvu na kuharibiwa baada ya matumizi, hivyo basi kupunguza hatari ya maelewano. Uwazi wa programu, ambayo msimbo wake ni chanzo wazi kabisa kwa upande wa mteja na seva, inamaanisha kuwa mtaalam yeyote wa usalama au mtafiti anaweza kuangalia uadilifu wake na kufuata viwango vya siri vilivyobainishwa.
+Kitaalam, kila mazungumzo ndani ya Signals yanalindwa na utaratibu wa usimbaji fiche usiolinganishwa na wa muda mfupi: funguo za kipindi hujadiliwa kwa nguvu na kuharibiwa baada ya matumizi, hivyo kupunguza hatari ya maelewano. Uwazi wa programu, ambayo msimbo wake ni chanzo huria kabisa kwa upande wa mteja na seva, unamaanisha kuwa mtaalamu yeyote wa usalama au mtafiti anaweza kuangalia uadilifu wake na kuthibitisha kufuata viwango vya faragha vilivyowekwa.
 
 
-Walakini, Mawimbi ina hatua dhaifu linapokuja suala la kutokujulikana: programu inahitaji nambari halali ya simu kwa usajili na kitambulisho cha mtumiaji. Ingawa nambari hii haionekani kwa utaratibu kwa anwani zako (inaweza kufichwa chini ya jina bandia), hitaji hili linatanguliza utegemezi wa miundombinu ya simu, na kwa hivyo mwanya wa ufuatiliaji unaowezekana.
+Walakini, Signals ina udhaifu linapokuja suala la kutokujulikana: programu inahitaji nambari halali ya simu kwa usajili na kama kitambulisho cha mtumiaji. Ingawa nambari hii haionekani moja kwa moja kwa anwani zako (inaweza kufichwa chini ya jina bandia), hitaji hili linaanzisha utegemezi kwa miundombinu ya simu, na hivyo kuacha mwanya wa ufuatiliaji unaowezekana.
 
 
-Kwa kifupi, Mawimbi ni suluhisho nzuri sana la ujumbe, lakini kwa bahati mbaya inahitaji muunganisho kutoka kwa nambari ya simu.
+Kwa kifupi, Signals ni suluhisho nzuri sana la ujumbe, lakini kwa bahati mbaya inahitaji muunganisho kutoka kwa nambari ya simu.
 
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
@@ -7029,16 +7029,16 @@ WhatsApp, inayomilikiwa na Meta (zamani Facebook), pia hutumia *Signal Protocol*
 Pia, usimbaji fiche unaotumiwa na WathsApp hauwezi kuthibitishwa, kwa kuwa msimbo wake wa chanzo ni wa umiliki. Ndiyo maana sipendekezi kutumia WhatsApp katika muktadha ambapo usiri na usalama wa mabadilishano yako ni muhimu.
 
 
-#### Telegramu
+#### Telegram
 
 
-Telegramu ni huduma maarufu sana ya ujumbe kwa shukrani kwa ergonomics na vipengele vyake (njia za umma, roboti, vikundi vikubwa ...). Hata hivyo, usalama wake ni mdogo zaidi kwa chaguo-msingi: "mabadilishano ya siri" pekee hufaidika kutokana na usimbaji fiche wa mwanzo hadi mwisho. Mazungumzo mengine yote (wengi wa ubadilishanaji wa kila siku wa watumiaji) huhifadhiwa bila njia fiche kwenye seva za Telegram.
+Telegram ni huduma maarufu sana ya ujumbe kutokana na urahisi wa matumizi na vipengele vyake (njia za umma, roboti, vikundi vikubwa...). Hata hivyo, usalama wake ni dhaifu zaidi kwa chaguo-msingi: ni secret chats pekee zinazofaidika na usimbaji fiche wa end-to-end. Mazungumzo mengine yote (ambayo ndiyo mengi ya mawasiliano ya kila siku ya watumiaji) huhifadhiwa bila encryption kwenye seva za Telegram.
 
 
 ![Image](assets/fr/149.webp)
 
 
-Telegramu kwa hivyo inaweza kufikia kitaalam maudhui ya mazungumzo mengi ambayo hayajalindwa waziwazi. Hata kama kampuni itachukua msimamo thabiti kuelekea mamlaka za serikali, Telegram si suluhisho mojawapo kwa ubadilishanaji nyeti au wa siri, isipokuwa utumie kwa uwazi "mabadilishano ya siri", ambayo hayatumiki sana kila siku.
+Telegram kwa hivyo inaweza kufikia kitaalam maudhui ya mazungumzo mengi ambayo hayajasimbwa end-to-end. Hata kama kampuni ikichukua msimamo thabiti dhidi ya mamlaka za serikali, Telegram si chaguo salama kwa mawasiliano nyeti au ya siri, isipokuwa utumie waziwazi secret chats, ambazo hazitumiki sana katika matumizi ya kila siku.
 
 
 https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
@@ -7046,13 +7046,13 @@ https://planb.network/tutorials/computer-security/communication/telegram-account
 #### Threema
 
 
-Threema, iliyozinduliwa nchini Uswizi mwaka wa 2012, inatofautiana na huduma zingine nyingi salama za utumaji ujumbe kutokana na mbinu yake ya ufaragha kwa muundo. Tofauti na Mawimbi, WhatsApp au Telegramu, hakuna nambari ya simu inayohitajika kuunda akaunti. Mtumiaji amepewa kitambulisho cha kipekee cha nasibu, kinachowezesha usajili usiojulikana bila kiungo cha moja kwa moja cha utambulisho halisi.
+Threema, iliyozinduliwa nchini Uswizi mwaka 2012, inatofautiana na huduma nyingine nyingi salama za utumaji ujumbe kutokana na mbinu yake ya faragha kwa muundo. Tofauti na Signals, WhatsApp au Telegram, hakuna nambari ya simu inayohitajika ili kuunda akaunti. Mtumiaji hupewa kitambulisho cha kipekee cha nasibu, kinachowezesha usajili usiojulikana bila uhusiano wa moja kwa moja na utambulisho halisi.
 
 
 ![Image](assets/fr/150.webp)
 
 
-Kitaalam, Threema inatoa usimbaji fiche kutoka mwanzo hadi mwisho kwenye mawasiliano yote: ujumbe, simu, faili, vikundi na utendakazi mwingine. Tangu 2020, msimbo wa chanzo wa programu za simu umekuwa chanzo huria, na hivyo kuwezesha ukaguzi huru. Kwa upande mwingine, miundombinu ya seva inasalia kuwa ya umiliki, ingawa iko nchini Uswizi pekee, nchi ambayo sheria zake zinafaa kwa ulinzi wa data ya kibinafsi.
+Kitaalam, Threema inatoa usimbaji fiche wa end-to-end kwenye mawasiliano yote: ujumbe, simu, faili, vikundi na utendakazi mwingine. Tangu 2020, msimbo wa chanzo wa programu za simu umekuwa chanzo huria, na hivyo kuwezesha ukaguzi huru. Hata hivyo, miundombinu ya seva inasalia kuwa ya umiliki, ingawa iko pekee nchini Uswizi, nchi ambayo sheria zake zinafaa kwa ulinzi wa data ya kibinafsi.
 
 
 Programu inaendana na Android na iOS, na pia inatoa mtandao salama wa Interface, pamoja na mteja asilia wa Windows, Linux na macOS. Uanzishaji wa awali, hata hivyo, unahitaji smartphone.
@@ -7069,19 +7069,19 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 #### SimpleX Chat
 
 
-SimpleX Chat, iliyozinduliwa mwaka wa 2021, inaondoa kabisa dhana ya kitambulisho cha mtumiaji: hakuna nambari ya simu, hakuna jina bandia la umma, hakuna ufunguo wa umma unaoonekana. Kila mtumiaji anatambuliwa tu kwa viungo au misimbo ya muda mfupi ya QR. Usanifu huu hufanya uwiano kati ya watumiaji kuwa karibu kutowezekana, na kuhakikisha kiwango cha juu cha usiri.
+SimpleX Chat, iliyozinduliwa mwaka 2021, inaondoa kabisa dhana ya kitambulisho cha mtumiaji: hakuna nambari ya simu, hakuna jina bandia la umma, hakuna ufunguo wa umma unaoonekana. Kila mtumiaji anatambulishwa tu kupitia viungo au misimbo ya muda mfupi ya QR. Usanifu huu hufanya uhusiano kati ya watumiaji kuwa karibu kutowezekana, na kuhakikisha kiwango cha juu cha usiri.
 
 
 ![Image](assets/fr/151.webp)
 
 
-Kitaalam, ujumbe husimbwa kwa njia fiche kutoka mwisho hadi mwisho na hupitia seva za relay. Relay hizi hazina ufahamu wa mtumaji, mpokeaji au funguo zao. Mara baada ya ujumbe kutumwa, hufutwa mara moja kutoka kwa seva. SimpleX inachukua usanifu usio na shirikisho, uliogatuliwa: seva hazishiriki saraka ya kimataifa, na kila mtumiaji anaweza kusakinisha relay yake mwenyewe. Hii inatofautiana na suluhu kama vile Matrix, ambapo seva zilizoshirikishwa hufuatilia ubadilishanaji.
+Kitaalam, ujumbe husimbwa end-to-end na hupitia seva za relay. Relay hizi hazina ufahamu wa mtumaji, mpokeaji, au funguo zao. Mara baada ya ujumbe kutumwa, hufutwa mara moja kutoka kwenye seva. SimpleX inatumia usanifu usio na shirikisho, uliogatuliwa: seva hazishiriki saraka ya kimataifa, na kila mtumiaji anaweza kusakinisha relay yake mwenyewe. Hii inatofautiana na suluhu kama Matrix, ambapo seva zinazoshirikiana hufuatilia ubadilishanaji.
 
 
-Itifaki ni chanzo wazi kabisa: wateja, seva na itifaki zinaweza kufikiwa na umma na kukaguliwa. SimpleX inapatikana kwenye Android, iOS, Linux, Windows na macOS, na uhifadhi wa ndani uliosimbwa, unaobebeka, kwa hivyo wasifu unaweza kuhamishwa bila seva kuu. Kila mtumiaji anaweza pia kudhibiti wasifu kadhaa uliojitenga, kila moja ikiwa na mipangilio yake, jina la utani na picha. Unyumbufu huu hufanya iwezekane kutenganisha wazi maisha ya kibinafsi, maisha ya kitaaluma na jina bandia.
+Protocol ni chanzo wazi kabisa: wateja, seva na protocol zinaweza kufikiwa na umma na kukaguliwa. SimpleX inapatikana kwenye Android, iOS, Linux, Windows na macOS, na uhifadhi wa ndani uliosimbwa, unaobebeka, kwa hivyo wasifu unaweza kuhamishwa bila seva kuu. Kila mtumiaji anaweza pia kudhibiti wasifu kadhaa uliojitenga, kila moja ikiwa na mipangilio yake, jina la utani na picha. Unyumbufu huu hufanya iwezekane kutenganisha wazi maisha ya kibinafsi, maisha ya kitaaluma na jina bandia.
 
 
-Anwani huongezwa kupitia viungo vya muda au anwani tuli (vitambulishi vya kudumu lakini vinavyoweza kutenduliwa). Unaweza pia kuchagua kati ya Exchange ya muda mfupi au modi ya kawaida zaidi, yenye vidhibiti vyema vya mwonekano na uidhinishaji (kwa mfano, kuficha jina lako halisi nyuma ya jina bandia, la kipekee kwa kila anwani).
+Address huongezwa kupitia viungo vya muda au anwani tuli (vitambulishi vya kudumu lakini vinavyoweza kutenduliwa). Unaweza pia kuchagua kati ya Exchange ya muda mfupi au modi ya kawaida zaidi, yenye vidhibiti vyema vya mwonekano na uidhinishaji (kwa mfano, kuficha jina lako halisi nyuma ya jina bandia, la kipekee kwa kila anwani).
 
 
 Kwa upande wa usalama na usiri, SimpleX inakwenda mbali zaidi kuliko mifumo mingi iliyopo ya utumaji ujumbe, ikipunguza metadata kwa kiwango cha chini zaidi na kuondoa utegemezi wowote kwenye saraka kuu au kitambulisho cha kipekee. Hata hivyo, usanifu huu unaweka idadi ya maelewano katika suala la urafiki wa mtumiaji: wakati mwingine ergonomics angavu, hitaji la mkondo kidogo wa kujifunza, na utegemezi wa upatikanaji wa seva za relay.
@@ -7089,7 +7089,7 @@ Kwa upande wa usalama na usiri, SimpleX inakwenda mbali zaidi kuliko mifumo ming
 
 https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Kikao
+#### Session
 
 
 Session, iliyozinduliwa mwaka wa 2020 na Oxen Privacy Tech Foundation, ni programu ya kutuma ujumbe iliyoundwa ili kutoa faragha na uthabiti ulioimarishwa wakati wa ufuatiliaji. Kipindi hakihitaji maelezo ya kibinafsi kuhusu usajili: hakuna nambari ya simu, hakuna barua pepe, jozi tu ya funguo za kriptografia zinazozalishwa ndani. Hii huwezesha uthibitishaji usiojulikana.
@@ -7098,10 +7098,10 @@ Session, iliyozinduliwa mwaka wa 2020 na Oxen Privacy Tech Foundation, ni progra
 ![Image](assets/fr/152.webp)
 
 
-Kitaalamu, Kipindi hutekelezea usimbaji fiche kutoka mwanzo hadi mwisho kwa ujumbe, faili, sauti na simu, na pia kwa vikundi (hadi washiriki 100). Ujumbe hupitishwa kupitia mtandao uliogatuliwa kwa msingi wa seva za nodi zilizochochewa na usanifu wa vitunguu wa Tor. Utaratibu huu hutoa ulinzi wa hali ya juu dhidi ya ufuatiliaji wa mtandao, ikijumuisha na ISPs na watendaji wa serikali.
+Kitaalamu, Session hutekeleza usimbaji fiche wa end-to-end kwa ujumbe, faili, sauti na simu, na pia kwa vikundi (hadi washiriki 100). Ujumbe hupitishwa kupitia mtandao uliogatuliwa unaotegemea seva za nodes zinazochochewa na usanifu wa onion routing wa Tor. Utaratibu huu hutoa ulinzi wa hali ya juu dhidi ya ufuatiliaji wa mtandao, ikiwemo na ISPs na watendaji wa serikali.
 
 
-Kiteja cha Kipindi na seva ni chanzo huria. Programu inapatikana kwenye Android, iOS, Windows, macOS na Linux, ikiwa na chaguo la kusawazisha kati ya vifaa kupitia maneno ya Mnemonic sawa na yale yanayotumika katika pochi za Bitcoin. Kifungu hiki cha maneno humpa mtumiaji udhibiti wa kipekee wa data yake, lakini pia huweka jukumu kubwa katika suala la kuhifadhi nakala.
+Kiteja cha Session na seva ni chanzo huria. Programu inapatikana kwenye Android, iOS, Windows, macOS na Linux, ikiwa na chaguo la kusawazisha kati ya vifaa kupitia maneno ya mnemonic sawa na yanayotumika katika wallet za Bitcoin. Kifungu hiki cha maneno humpa mtumiaji udhibiti wa kipekee wa data yake, lakini pia huweka jukumu kubwa katika suala la kuhifadhi nakala.
 
 
 https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
@@ -7109,7 +7109,7 @@ https://planb.network/tutorials/computer-security/communication/session-b0e3193c
 #### Keet
 
 
-Keet, iliyozinduliwa mwaka wa 2022 na Holepunch (kampuni inayoungwa mkono na Tether na Bitfinex), inajitokeza kwa mbinu yake ya kugawanya madaraka kwa kiasi kikubwa: Mawasiliano yote (ujumbe, simu za sauti na video, uhamisho wa faili, n.k.) hufanyika moja kwa moja kati ya watumiaji, bila kupitia seva yoyote kuu. Usanifu huu wa P2P huondoa wapatanishi na huongeza kwa kiasi kikubwa usiri na uthabiti wa mfumo.
+Keet, iliyozinduliwa mwaka 2022 na Holepunch (kampuni inayoungwa mkono na Tether na Bitfinex), inajitokeza kwa mbinu yake ya kugatuliwa kwa kiwango kikubwa: mawasiliano yote (ujumbe, simu za sauti na video, uhamisho wa faili, n.k.) hufanyika moja kwa moja kati ya watumiaji, bila kupitia seva yoyote kuu. Usanifu huu wa P2P huondoa wapatanishi na huongeza kwa kiasi kikubwa usiri na uthabiti wa mfumo.
 
 
 ![Image](assets/fr/153.webp)

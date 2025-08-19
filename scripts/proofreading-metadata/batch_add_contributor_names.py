@@ -21,29 +21,37 @@ def add_contributor_to_yaml(file_path, language, contributor_name):
         language_found = False
         updated = False
         
+        # Normalize language for comparison (strip whitespace, handle case)
+        target_language = language.strip()
+        
         for item in data.get('proofreading', []):
-            if item.get('language') == language:
+            item_language = item.get('language', '').strip()
+            
+            # Case-insensitive comparison for language matching
+            if item_language.lower() == target_language.lower():
                 language_found = True
+                
                 # Initialize contributor_names if it doesn't exist or is null
                 if 'contributor_names' not in item or item['contributor_names'] is None:
                     item['contributor_names'] = []
 
-                # Add contributor name if not already present
-                if contributor_name not in item['contributor_names']:
+                # Add contributor name if not already present (case-insensitive check)
+                existing_contributors = [name.strip() for name in item['contributor_names']]
+                if contributor_name not in existing_contributors:
                     item['contributor_names'].append(contributor_name)
-                    print(f"  ✓ Added {contributor_name} to {language} contributors")
                     updated = True
                 else:
-                    print(f"  ℹ {contributor_name} already exists in {language} contributors")
+                    print(f"  ℹ {contributor_name} already exists in {item_language} contributors")
 
                 # Update last contribution date
                 item['last_contribution_date'] = current_date
-                if updated:
-                    print(f"  ✓ Updated last contribution date to {current_date}")
                 break
 
         if not language_found:
-            print(f"  ⚠ Language '{language}' not found in proofreading section")
+            print(f"  ⚠ Language '{target_language}' not found in proofreading section")
+            # Debug: Show all available languages
+            available_languages = [item.get('language', 'N/A') for item in data.get('proofreading', [])]
+            print(f"  📋 Available languages: {available_languages}")
             return False
 
         if not updated:
@@ -65,7 +73,7 @@ def add_contributor_to_yaml(file_path, language, contributor_name):
                 break
         
         if proofreading_start == -1:
-            print(f"  ✗ Could not find proofreading section in {file_path}")
+            print(f"  ❌ Could not find proofreading section in {file_path}")
             return False
 
         # Find where proofreading section ends
@@ -121,17 +129,18 @@ def add_contributor_to_yaml(file_path, language, contributor_name):
         # Write the updated content back to the file
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(new_content)
-
+            
+        print(f"  ✅ File successfully written")
         return True
         
     except FileNotFoundError:
-        print(f"  ✗ File not found: {file_path}")
+        print(f"  ❌ File not found: {file_path}")
         return False
     except yaml.YAMLError as e:
-        print(f"  ✗ YAML parsing error in {file_path}: {str(e)}")
+        print(f"  ❌ YAML parsing error in {file_path}: {str(e)}")
         return False
     except Exception as e:
-        print(f"  ✗ Error modifying file {file_path}: {str(e)}")
+        print(f"  ❌ Error modifying file {file_path}: {str(e)}")
         return False
 
 def process_subfolders(folder_path, language, contributor_name, selected_subfolders=None):
@@ -198,7 +207,7 @@ def process_subfolders(folder_path, language, contributor_name, selected_subfold
         else:
             print(f"  ⚠ tutorial.yml not found in {subfolder}")
 
-    print(f"\n✓ Successfully processed {success_count} out of {len(folders_to_process)} subfolders.")
+    print(f"\n✅ Successfully processed {success_count} out of {len(folders_to_process)} subfolders.")
 
 def get_subfolders(folder_path):
     """Return a list of subfolders within a specified folder."""
@@ -223,9 +232,10 @@ def validate_inputs(contributor_name, language):
         print("Error: Language cannot be empty.")
         return False
         
-    # Basic validation for language code (2-5 characters, letters and hyphens only)
-    if not language.replace('-', '').isalpha() or len(language) < 2 or len(language) > 5:
-        print("Warning: Language should be a valid language code (e.g., 'en', 'fr', 'es', 'pt-br')")
+    # Updated validation for language code to handle complex codes like zh-Hans, sr-Latn, nb-NO
+    # Allow 2-10 characters, letters, hyphens, and allow uppercase letters for script codes
+    if not re.match(r'^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})*$', language) or len(language) < 2 or len(language) > 10:
+        print("Warning: Language should be a valid language code (e.g., 'en', 'fr', 'es', 'pt-br', 'zh-Hans', 'sr-Latn')")
         proceed = input("Continue anyway? (y/n): ").lower().startswith('y')
         if not proceed:
             return False
@@ -334,7 +344,7 @@ def process_glossary_subfolders(folder_path, language, contributor_name, selecte
         else:
             print(f"  ⚠ word.yml not found in {subfolder}")
 
-    print(f"\n✓ Successfully processed {success_count} out of {len(folders_to_process)} subfolders.")
+    print(f"\n✅ Successfully processed {success_count} out of {len(folders_to_process)} subfolders.")
 
 def process_alphabetical_range_glossary(main_folder_path, language, contributor_name):
     """Process glossary subfolders in alphabetical range from start to end folder."""
@@ -448,7 +458,7 @@ def process_quiz_subfolders(course_path, language, contributor_name, selected_su
         else:
             print(f"  ⚠ question.yml not found in quiz {subfolder}")
 
-    print(f"\n✓ Successfully processed {success_count} out of {len(folders_to_process)} quiz subfolders.")
+    print(f"\n✅ Successfully processed {success_count} out of {len(folders_to_process)} quiz subfolders.")
 
 def process_course_folders(content_path, language, contributor_name, selected_courses=None):
     """Process selected course folders and add contributor name to course.yml files."""
@@ -513,7 +523,7 @@ def process_course_folders(content_path, language, contributor_name, selected_co
         else:
             print(f"  ⚠ course.yml not found in {course}")
 
-    print(f"\n✓ Successfully processed {success_count} out of {len(courses_to_process)} courses.")
+    print(f"\n✅ Successfully processed {success_count} out of {len(courses_to_process)} courses.")
 
 def process_alphabetical_range_course(content_path, language, contributor_name):
     """Process course folders in alphabetical range from start to end."""
@@ -636,7 +646,10 @@ def main():
 
         # User input
         contributor_name = input("Enter the proofreader name to add: ").strip()
-        language = input("Enter the language code (e.g., en, fr, es, pt-br): ").strip().lower()
+        language = input("Enter the language code (e.g., en, fr, es, pt-br, zh-Hans, sr-Latn): ").strip()
+        
+        # Don't convert language to lowercase automatically - preserve original case
+        # This is important for script codes like "Hans" in "zh-Hans"
         
         # Validate inputs
         if not validate_inputs(contributor_name, language):

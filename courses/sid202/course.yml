@@ -28,10 +28,11 @@ proofreading:
     contributor_names:
     reward: 19.05
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 19.05
+      - lutxoitalico
+    reward: 9.52
   - language: et
     last_contribution_date:
     urgency: 1
@@ -104,10 +105,11 @@ proofreading:
       - Sanja22B
     reward: 12.68
   - language: sw
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 25.36
+      - Tinnah924
+    reward: 12.68
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -118,6 +120,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 25.36
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.05
 tags:
   - sidechains
   - development

@@ -5,7 +5,9 @@ id: 56cf0b7a-17f8-46dc-9cd9-01e67a04ce49
 name: The Best YouTube Channel
 
 # Define the main language of the channel
-# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+# Insert a 2-digits language code (e.g. en for English, es for Spanish, th for Thai, etc...),
+# some languages are multiple-digits language code; e.g. Latin Serbian (sr-Latn), Chinese codes (zh-Hans, zh-Hant)
+# see here https://weblate.planb.network/projects/planb-network-website/ the list of all the available language codes (bring your mouse cursor over each language name to see the code)
 language: en
 
 links:

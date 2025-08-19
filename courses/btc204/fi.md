@@ -100,7 +100,7 @@ Tämä malli eroaa huomattavasti perinteisistä pankkijärjestelmistä, joissa r
 
 Bitcoin toimii eri tavalla. Tilin käsitettä ei ole olemassa, eikä rahayksiköitä hallinnoida saldojen vaan UTXO:iden avulla. UTXO edustaa tiettyä määrää bitcoineja, joita ei ole vielä käytetty, ja muodostaa siten "bitcoin-palan", joka voi olla suuri tai pieni. Yksi UTXO voi esimerkiksi olla arvoltaan `500 BTC` tai yksinkertaisesti `700 SATS`.
 
-**> Satoshi, josta usein käytetään lyhennettä sat, on Bitcoinin pienin yksikkö, joka on verrattavissa fiat-valuuttojen sentteihin.
+**Muistuttaa:** Satoshi, josta usein käytetään lyhennettä sat, on Bitcoinin pienin yksikkö, joka on verrattavissa fiat-valuuttojen sentteihin.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin toimii eri tavalla. Tilin käsitettä ei ole olemassa, eikä rahayksikö
 
 Teoriassa yksi UTXO voi edustaa mitä tahansa arvoa bitcoineina, joka voi vaihdella satista teoreettiseen maksimissaan noin 21 miljoonaan BTC:hen. On kuitenkin loogisesti mahdotonta omistaa kaikkia 21 miljoonaa bitcoinia, ja on olemassa "pölyksi" kutsuttu alempi taloudellinen kynnysarvo, jonka alapuolella UTXO:n käyttäminen katsotaan taloudellisesti kannattamattomaksi.
 
-**> Bitcoinilla koskaan luodun suurimman UTXO:n arvo oli 500 000 BTC. Se luotiin MtGox-alustalla konsolidointioperaation aikana marraskuussa 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Tiesitkö?** Bitcoinilla koskaan luodun suurimman UTXO:n arvo oli 500 000 BTC. Se luotiin MtGox-alustalla konsolidointioperaation aikana marraskuussa 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO:t ja menoedellytykset
 
@@ -148,7 +148,7 @@ Jokainen Bitcoin-tapahtuma koostuu siis yhdestä tai useammasta syötteestä ja 
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoriassa bitcoin-tapahtumassa voisi olla ääretön määrä tuloja ja lähtöjä. Ainoa rajoitus on lohkojen enimmäiskoko.
+**Tiesitkö?** Teoriassa bitcoin-tapahtumassa voisi olla ääretön määrä tuloja ja lähtöjä. Ainoa rajoitus on lohkojen enimmäiskoko.
 
 Bitcoin-tapahtuman jokainen panos viittaa edelliseen käyttämättömään UTXO:hon. Jotta UTXO:ta voidaan käyttää syötteenä, sen haltijan on osoitettava olevansa sen laillinen omistaja validoimalla siihen liittyvä käsikirjoitus eli täyttämällä asetetun käyttöehdon. Yleisesti ottaen tämä tarkoittaa digitaalisen allekirjoituksen antamista, joka on tuotettu julkista avainta vastaavalla yksityisellä avaimella, jolla kyseinen UTXO on alun perin suojattu. Käsikirjoituksessa on siis tarkistettava, että allekirjoitus vastaa julkista avainta, jota käytettiin varojen vastaanottamisen yhteydessä.
 
@@ -211,7 +211,7 @@ Lohkoihin subventoidut bitcoinit ovat uusia BTC:itä, jotka luodaan tyhjästä k
 
 Vaikka transaktiopalkkiot edustavat myös vastaperustettuja BTC:tä, ne eivät saa ylittää lohkon kaikkien transaktioiden yhteenlaskettujen tulojen ja menojen erotusta. Näimme aiemmin, että nämä palkkiot edustavat sitä osaa panoksista, jota ei käytetä transaktioiden tuotoksiin. Tämä osuus on teknisesti "menetetty" transaktion aikana, ja louhijalla on oikeus luoda tämä arvo uudelleen yhden tai useamman uuden UTXO:n muodossa. Kyseessä on arvon siirto transaktion liikkeeseenlaskijan ja sen lohkoketjuun lisäävän louhijan välillä.
 
-**> Coinbase-tapahtuman tuottamiin bitcoineihin sovelletaan 100 lohkon maturiteettiaikaa, jonka aikana louhija ei voi käyttää niitä. Tämän säännön tarkoituksena on välttää komplikaatioita, jotka liittyvät äskettäin luotujen bitcoinien käyttöön ketjussa, joka voi myöhemmin vanhentua.
+**Tiesitkö?** Coinbase-tapahtuman tuottamiin bitcoineihin sovelletaan 100 lohkon maturiteettiaikaa, jonka aikana louhija ei voi käyttää niitä. Tämän säännön tarkoituksena on välttää komplikaatioita, jotka liittyvät äskettäin luotujen bitcoinien käyttöön ketjussa, joka voi myöhemmin vanhentua.
 
 ### UTXO-mallin vaikutukset
 
@@ -235,10 +235,8 @@ Siksi käytämme rahaa arvon siirtämiseen sekä tilassa että ajassa.
 ![BTC204](assets/fr/018.webp)
 
 Jotta kolikoilla voitaisiin ratkaista tämä ongelma, on olennaista, että tavaran tai palvelun tarjoava osapuoli on vakuuttunut siitä, että se pystyy käyttämään kyseisen summan myöhemmin. Näin ollen jokainen järkevä henkilö, joka haluaa hyväksyä kolikon, olipa se sitten digitaalinen tai fyysinen, varmistaa, että se täyttää kaksi peruskriteeriä:
-
-
-- Teoksen on oltava eheä ja aito ;**
-- eikä niitä saa käyttää kahteen kertaan.**
+- **Teoksen on oltava eheä ja aito ;**
+- **eikä niitä saa käyttää kahteen kertaan.**
 
 Jos käytät fyysistä valuuttaa, se on ensimmäinen ominaisuus, joka on vaikeinta vahvistaa. Metallirahojen eheyteen on historian eri aikoina usein vaikuttanut esimerkiksi kolikoiden leikkaaminen tai lävistäminen. Esimerkiksi muinaisessa Roomassa oli tavallista, että kansalaiset raaputtivat kultakolikoiden reunoja kerätäkseen hieman jalometallia ja säästäessään niitä tulevia liiketoimia varten. Kolikon itseisarvo pieneni näin, mutta sen nimellisarvo pysyi samana. Tämä on yksi syy siihen, miksi kolikon reuna oli myöhemmin uurrettu.
 
@@ -307,7 +305,7 @@ Maallikon kielellä ketjuanalyysissä on kolme päävaihetta:
 
 2. **Tunnettujen piirteiden tunnistaminen ;**
 
-3. **Edellytysten vähentäminen **
+3. **Edellytysten vähentäminen**
 
 ![BTC204](assets/fr/026.webp)
 

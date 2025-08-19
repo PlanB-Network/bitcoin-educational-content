@@ -106,10 +106,12 @@ proofreading:
     contributor_names:
     reward: 42.49
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 42.49
+      - monyangi10
+      - Tinnah924
+    reward: 10.62
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -120,6 +122,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 42.49
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.9
 tags:
   - finance
   - historical

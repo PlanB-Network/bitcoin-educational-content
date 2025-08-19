@@ -93,10 +93,11 @@ proofreading:
     contributor_names:
     reward: 51.72
   - language: pl
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 41.39
+      - MisinhaP
+    reward: 20.7
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -108,10 +109,11 @@ proofreading:
     contributor_names:
     reward: 41.39
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 41.39
+      - monyangi10
+    reward: 20.7
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -122,6 +124,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 41.39
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.07
 tags:
   - finance
   - market-trends

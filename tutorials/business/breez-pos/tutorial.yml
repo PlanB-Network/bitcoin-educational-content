@@ -24,10 +24,11 @@ proofreading:
       - Asi0Flammeus
     reward: 1.13
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 2.26
+      - Salgraphics
+    reward: 1.13
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -114,6 +115,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.98
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.26
 tags:
   - guides
   - adoption

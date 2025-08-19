@@ -147,7 +147,7 @@ Dit model verschilt sterk van traditionele banksystemen, die vertrouwen op een m
 Bitcoin werkt anders. Het concept van een rekening bestaat niet, en monetaire eenheden worden niet beheerd via saldi, maar via UTXO's. Een UTXO vertegenwoordigt een specifieke hoeveelheid bitcoins die nog niet is uitgegeven, en vormt zo een "stuk Bitcoin", dat groot of klein kan zijn. Een UTXO kan bijvoorbeeld `500 BTC` waard zijn of simpelweg `700 Sats`.
 
 
-**> De Satoshi, vaak afgekort tot sat, is de kleinste eenheid van Bitcoin, vergelijkbaar met de centime in fiatvaluta.
+**Herinneren:** De Satoshi, vaak afgekort tot sat, is de kleinste eenheid van Bitcoin, vergelijkbaar met de centime in fiatvaluta.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin werkt anders. Het concept van een rekening bestaat niet, en monetaire ee
 Theoretisch kan één UTXO elke waarde in bitcoins vertegenwoordigen, variërend van een zat tot een theoretisch maximum van ongeveer 21 miljoen BTC. Het is echter logisch onmogelijk om alle 21 miljoen bitcoins te bezitten, en er is een lagere economische drempel genaamd "Dust", waaronder een UTXO wordt beschouwd als economisch onrendabel om uit te geven.
 
 
-**> De grootste UTXO ooit gecreëerd op Bitcoin had een waarde van `500.000 BTC`. Het werd gecreëerd door het MtGox platform tijdens een consolidatieoperatie in november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Wist je dat?** De grootste UTXO ooit gecreëerd op Bitcoin had een waarde van `500.000 BTC`. Het werd gecreëerd door het MtGox platform tijdens een consolidatieoperatie in november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO's en bestedingsvoorwaarden
@@ -202,74 +202,51 @@ Het totale saldo van je portefeuille zou `17 BTC` zijn.
 
 ### Transactie-ingangen en -uitgangen
 
-
 Een Bitcoin transactie is een operatie die is vastgelegd op de Blockchain die Ownership aan bitcoins overdraagt van de ene persoon naar de andere. Om precies te zijn, aangezien we op een UTXO model zitten en er geen rekeningen zijn, voldoet de transactie aan de bestedingsvoorwaarden die een of meer UTXO's veiligstelden, verbruikt ze en creëert ze gelijkwaardig nieuwe UTXO's met nieuwe bestedingsvoorwaarden. Kortom, een transactie verplaatst bitcoins van een tevreden script naar een nieuw script dat is ontworpen om ze veilig te stellen.
-
 
 ![BTC204](assets/fr/010.webp)
 
-
 Elke Bitcoin transactie bestaat daarom uit een of meer ingangen en een of meer uitgangen. Inputs zijn UTXO's die door de transactie naar generate outputs worden verbruikt. Uitgangen zijn nieuwe UTXO's die kunnen worden gebruikt als invoer voor toekomstige transacties.
-
 
 ![BTC204](assets/fr/011.webp)
 
-
-**> Theoretisch kan een Bitcoin transactie een oneindig aantal in- en uitgangen hebben. De enige limiet is de maximale blokgrootte.
-
+**Wist je dat?** Theoretisch kan een Bitcoin transactie een oneindig aantal in- en uitgangen hebben. De enige limiet is de maximale blokgrootte.
 
 Elke invoer in een Bitcoin-transactie verwijst naar een eerder niet-uitgegeven UTXO. Om een UTXO als invoer te gebruiken, moet de houder ervan aantonen dat hij/zij de rechtmatige eigenaar is door het bijbehorende script te valideren, d.w.z. door te voldoen aan de opgelegde bestedingsvoorwaarde. In het algemeen betekent dit het leveren van een digitale handtekening, geproduceerd met de private sleutel die overeenkomt met de publieke sleutel waarmee deze UTXO initieel beveiligd werd. Het script bestaat dus uit het verifiëren dat de handtekening overeenkomt met de openbare sleutel die werd gebruikt toen het geld werd ontvangen.
 
-
 ![BTC204](assets/fr/012.webp)
-
 
 Elke uitvoer specificeert op zijn beurt de hoeveelheid bitcoins die moet worden overgedragen, evenals de ontvanger. Deze laatste wordt gedefinieerd door een nieuw script, dat meestal de nieuw aangemaakte UTXO blokkeert met een ontvangende Address of een nieuwe publieke sleutel.
 
-
 Wil een transactie geldig zijn volgens de consensusregels, dan moet de totale output kleiner zijn dan of gelijk aan de totale input. Met andere woorden, de som van de nieuwe UTXO's die door de transactie worden gegenereerd, mag niet groter zijn dan de som van de UTXO's die als inputs zijn verbruikt. Dit principe is logisch: als je maar `500.000 Sats` hebt, kun je geen aankoop doen van `700.000 Sats`.
-
 
 ### Exchange en samenvoegen in een Bitcoin transactie
 
-
 De actie van een Bitcoin transactie op UTXO kan dus vergeleken worden met het omgieten van een gouden munt. Een UTXO is inderdaad niet deelbaar, maar alleen smeltbaar. Dit betekent dat een gebruiker een UTXO, die een bepaald bedrag in bitcoins vertegenwoordigt, niet eenvoudigweg kan verdelen in verschillende kleinere UTXO's. Hij moet het volledig verbruiken in een transactie om er één te creëren. Hij moet het volledig verbruiken in een transactie om één of meer nieuwe UTXO's te creëren van willekeurige waarden in outputs, die kleiner of gelijk moeten zijn aan de initiële waarde.
-
 
 Dit mechanisme is vergelijkbaar met dat van een gouden munt. Laten we zeggen dat je een munt van 2 ounce bezit en een betaling van 1 ounce wilt doen, ervan uitgaande dat de verkoper je geen wisselgeld kan geven. Je zou dan je munt moeten omsmelten en 2 nieuwe munten van elk 1 ounce moeten gieten.
 
-
 Bitcoin werkt op dezelfde manier. Stel, Alice heeft een UTXO van `10.000 Sats` en wil een stokbrood kopen van `4.000 Sats`. Alice zal een transactie maken met 1 UTXO van `10.000 Sats` als input, die ze volledig zal consumeren, en 2 UTXO's van `4.000 Sats` en `6.000 Sats` als output. De UTXO van `4.000 Sats` gaat naar de bakker als betaling voor het stokbrood, terwijl de UTXO van `6.000 Sats` teruggaat naar Alice in de vorm van wisselgeld. Deze UTXO, die terugkeert naar de oorspronkelijke uitgever van de transactie, staat bekend als "Exchange" in Bitcoin jargon.
-
 
 ![BTC204](assets/fr/013.webp)
 
-
 Laten we ons nu eens voorstellen dat Alice geen enkele UTXO van `10.000 Sats` heeft, maar eerder twee UTXO's van elk `3.000 Sats`. In deze situatie is geen van beide UTXO's afzonderlijk voldoende om de `4.000 Sats` van de toverstok in te stellen. Alice moet daarom tegelijkertijd de 2 UTXO's van `3.000 Sats` gebruiken als input voor haar transactie. Op deze manier zal de totale hoeveelheid inputs `6.000 Sats` bereiken, waardoor ze aan de `4.000 Sats` betaling aan de bakker kan voldoen. Deze methode, waarbij verschillende UTXO's worden samengevoegd als input voor een transactie, wordt vaak "samenvoegen" genoemd.
-
 
 ![BTC204](assets/fr/014.webp)
 
-
 ### Transactiekosten
 
-
 Intuïtief zou je kunnen denken dat transactiekosten ook de output van een transactie vertegenwoordigen. Maar in werkelijkheid is dit niet het geval. Transactiekosten vertegenwoordigen het verschil tussen de totale input en de totale output. Dit betekent dat, nadat een deel van de waarde van de inputs is gebruikt om de gewenste outputs in een transactie te dekken, een bepaald bedrag van de inputs ongebruikt blijft. Dit resterende bedrag vormt de transactiekosten.
-
 
 ```plaintext
 Frais = total inputs - total outputs
 ```
 
-
 Laten we het voorbeeld nemen van Alice, die een UTXO heeft van `10.000 Sats` en een stokbrood wil kopen voor `4.000 Sats`. Alice creëert een transactie met haar UTXO van `10.000 Sats` als invoer. Ze genereert dan een output van `4.000 Sats` voor de bakker om te betalen voor het stokbrood. Om mijnwerkers aan te moedigen haar transactie in een blok te integreren, kent Alice `200 Sats` aan vergoedingen toe. Vervolgens creëert ze een tweede output, de Exchange, die aan haar wordt teruggegeven, ten bedrage van `5.800 Sats`.
-
 
 ![BTC204](assets/fr/015.webp)
 
-
 Als we de vergoedingsformule toepassen, zien we dat er inderdaad `200 Sats` over zijn voor minderjarigen:
-
 
 ```plaintext
 Frais = total inputs - total outputs
@@ -278,42 +255,29 @@ Frais = 10 000 - 9 800
 Frais = 200
 ```
 
-
 Wanneer een Miner erin slaagt om een blok te valideren, is hij gemachtigd om deze vergoedingen te innen voor alle transacties in zijn blok, via de zogenaamde "coinbase" transactie.
-
 
 ### UTXO's aanmaken op Bitcoin
 
-
 Als je de vorige paragrafen zorgvuldig hebt gevolgd, weet je nu dat UTXO's alleen kunnen worden gecreëerd door andere bestaande UTXO's te consumeren. Op deze manier vormen Bitcoin munten een ononderbroken keten. Je vraagt je echter misschien af hoe de eerste UTXO's in deze keten tot stand zijn gekomen. Dit roept een probleem op dat lijkt op dat van de kip en het ei: waar kwamen deze oorspronkelijke UTXO's vandaan?
-
 
 Het antwoord ligt in de **transactie coinbase**.
 
-
 De coinbase is een specifiek type Bitcoin transactie, die uniek is voor elk blok en altijd de eerste is. Hiermee kan de Miner die een geldige Proof of Work heeft gevonden, zijn Block reward ontvangen. Deze beloning bestaat uit twee Elements: **bloktoelage** en **transactievergoeding**, besproken in de vorige sectie.
-
 
 De Coinbase Transaction is uniek omdat het als enige in staat is om ex nihilo bitcoins te creëren, zonder de noodzaak om inputs te consumeren voor generate outputs. Deze nieuw gecreëerde bitcoins kunnen we "originele UTXO's" noemen.
 
-
 ![BTC204](assets/fr/016.webp)
-
 
 Bitcoins met bloksubsidie zijn nieuwe BTC die vanaf nul worden aangemaakt, volgens een vooraf vastgesteld uitgifteschema in de consensusregels. De bloksubsidie wordt elke 210.000 blokken gehalveerd, dat wil zeggen ongeveer elke vier jaar, in een proces dat bekend staat als "Halving". Oorspronkelijk werden er 50 bitcoins gecreëerd met elke subsidie, maar dit bedrag is geleidelijk afgenomen; momenteel is het 3,125 bitcoins per blok.
 
-
 Wat de transactievergoedingen betreft, hoewel deze ook nieuw gecreëerde BTC vertegenwoordigen, mogen ze het verschil tussen de totale inputs en outputs van alle transacties in een blok niet overschrijden. We zagen eerder dat deze vergoedingen het deel van de inputs vertegenwoordigen dat niet wordt gebruikt in de outputs van de transacties. Dit deel is technisch gezien "verloren" gegaan tijdens de transactie, en de Miner heeft het recht om deze waarde opnieuw te creëren in de vorm van één of meer nieuwe UTXO's. Dit is een overdracht van waarde tussen de verschillende partijen. Dit is een overdracht van waarde tussen de uitgever van de transactie en de Miner die het toevoegt aan de Blockchain.
 
-
-**> Bitcoins gegenereerd door een Coinbase Transaction zijn onderhevig aan een vervalperiode van 100 blokken, waarin ze niet uitgegeven kunnen worden door de Miner. Deze regel is ontworpen om complicaties te vermijden die te maken hebben met het gebruik van nieuw gecreëerde bitcoins op een keten die later verouderd kunnen zijn.
-
+**Wist je dat?** Bitcoins gegenereerd door een Coinbase Transaction zijn onderhevig aan een vervalperiode van 100 blokken, waarin ze niet uitgegeven kunnen worden door de Miner. Deze regel is ontworpen om complicaties te vermijden die te maken hebben met het gebruik van nieuw gecreëerde bitcoins op een keten die later verouderd kunnen zijn.
 
 ### De implicaties van het UTXO model
 
-
 Ten eerste beïnvloedt het UTXO model direct de transactiekosten van Bitcoin. Omdat de capaciteit van elk blok beperkt is, geven miners de voorkeur aan transacties die de beste vergoedingen bieden in verhouding tot de ruimte die ze innemen in het blok. Hoe meer UTXO's een transactie bevat in haar inputs en outputs, hoe zwaarder ze is en dus hogere vergoedingen vereist. Dit is een van de redenen waarom we vaak proberen het aantal UTXO's in onze portfolio te verminderen, wat ook invloed kan hebben op de vertrouwelijkheid, een onderwerp dat we in detail zullen behandelen in het derde deel van deze cursus.
-
 
 Ten tweede, zoals vermeld in de vorige paragrafen, zijn Bitcoin munten in wezen een keten van UTXO's. Elke transactie creëert dus een link tussen een vroegere UTXO en een toekomstige UTXO. Elke transactie creëert dus een link tussen een UTXO uit het verleden en een UTXO uit de toekomst. UTXO's maken het dus mogelijk om expliciet het pad van Bitcoins te volgen vanaf hun creatie tot hun huidige uitgaven. Deze transparantie kan positief worden beoordeeld, omdat het elke gebruiker in staat stelt om de authenticiteit van de ontvangen Bitcoins vast te stellen. Het is echter ook op dit principe van traceerbaarheid en controleerbaarheid dat de Blockchain analyse gebaseerd is, een praktijk die ontworpen is om uw vertrouwelijkheid in gevaar te brengen. In het tweede deel van de cursus gaan we dieper in op deze praktijk.
 
@@ -341,12 +305,8 @@ Daarom gebruiken we geld om waarde te verplaatsen in zowel ruimte als tijd.
 
 
 Om dit probleem met munten op te lossen, is het essentieel dat de partij die een goed of dienst levert, ervan overtuigd is dat hij dat bedrag op een later tijdstip kan uitgeven. Elk rationeel individu dat een munt wil accepteren, digitaal of fysiek, zal er dus voor zorgen dat deze aan twee fundamentele criteria voldoet:
-
-
-
-
-- Het stuk moet integer en authentiek zijn ;**
-- en mag niet dubbel worden uitgegeven.**
+- **Het stuk moet integer en authentiek zijn ;**
+- **en mag niet dubbel worden uitgegeven.**
 
 
 Als je fysieke valuta gebruikt, is het eerste kenmerk het meest complex om te bevestigen. In verschillende perioden in de geschiedenis werd de integriteit van metalen munten vaak aangetast door praktijken zoals bijsnijden of doorboren. In het oude Rome was het bijvoorbeeld gebruikelijk dat burgers de randen van gouden munten afschraapten om een beetje edelmetaal te verzamelen en ze te bewaren voor toekomstige transacties. De intrinsieke waarde van de munt werd zo verminderd, maar de nominale waarde bleef hetzelfde. Dit is een van de redenen waarom de rand van de munt later geribbeld werd.
@@ -441,15 +401,9 @@ Blockchain analyse is de praktijk van het traceren van de stroom bitcoins op de 
 
 
 In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
-
-
 1. **Het observeren van de Blockchain ;**
-
-
 2. **De identificatie van bekende kenmerken ;**
-
-
-3. **Het aftrekken van aannames **
+3. **Het aftrekken van aannames**
 
 
 ![BTC204](assets/fr/026.webp)

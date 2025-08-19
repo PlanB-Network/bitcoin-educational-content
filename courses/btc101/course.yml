@@ -44,10 +44,11 @@ proofreading:
     contributor_names:
     reward: 21.98
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 16.51
+      - reneplass
+    reward: 8.25
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -66,11 +67,12 @@ proofreading:
       - KryptoKeskus
     reward: 10.99
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 8.25
+      - ProfScofield21
+    reward: 4.13
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -145,11 +147,12 @@ proofreading:
       - Sanja993
     reward: 10.99
   - language: sw
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 10.99
+      - Arianebtc
+    reward: 5.49
   - language: zh-Hant
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -162,6 +165,12 @@ proofreading:
     contributor_names:
       - Arshia-r-m
     reward: 10.99
+  - language: sv
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - Petrahodl
+    reward: 8.25
 tags:
   - user-friendly
   - wallets

@@ -96,7 +96,7 @@ Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo in
 
 Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havidhibitiwi kupitia mizani, lakini kupitia UTXOs. UTXO inawakilisha kiasi maalum cha bitcoins ambazo bado hazijatumiwa, na hivyo kutengeneza "kipande cha Bitcoin", ambacho kinaweza kuwa kikubwa au kidogo. Kwa mfano, UTXO moja inaweza kuwa na thamani ya `500 BTC` au kwa urahisi `700 Sats`.
 
-**> Satoshi, ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya pesa za serikali.
+**Kumbusha:** Satoshi, ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya pesa za serikali.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -104,7 +104,7 @@ Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havi
 
 Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sat hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "Dust (Vumbi)", chini ambayo UTXO inachukuliwa kuwa haina faida ya kiuchumi kutumia.
 
-**> UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Je, wajua?** UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs na hali ya matumizi
 
@@ -143,7 +143,7 @@ Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au 
 
 ![BTC204](assets/fr/011.webp)
 
-> Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
+**Je, wajua?** Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
 
 Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo awali. Ili kutumia UTXO kama ingizo, mmiliki wake lazima aonyeshe kuwa yeye ndiye mmiliki halali kwa kuthibitisha hati husika, yaani kwa kukidhi sharti la matumizi lililowekwa. Kwa ujumla, hii inamaanisha kutoa sahihi ya dijiti inayozalishwa na ufunguo wa faragha unaolingana na ufunguo wa umma ambao hapo awali ulilinda UTXO hii. Kwa hivyo hati inajumuisha kuthibitisha kwamba sahihi inalingana na ufunguo wa umma uliotumiwa wakati fedha zilipokelewa.
 
@@ -206,7 +206,7 @@ Bitcoins zilizopewa ruzuku ya kuzuia ni BTC mpya iliyoundwa kutoka mwanzo, kulin
 
 Kuhusu ada za muamala, ingawa pia zinawakilisha BTC mpya iliyoundwa, lazima zisizidi tofauti kati ya jumla ya pembejeo na matokeo ya miamala yote kwenye kizuizi. Tuliona hapo awali kuwa ada hizi zinawakilisha sehemu ya pembejeo ambayo haitumiki katika matokeo ya muamala. Sehemu hii kitaalam "imepotea" wakati wa shughuli, na Miner (Mchimbaji) ina haki ya kuunda tena thamani hii katika mfumo wa UTXO moja au zaidi mpya. Huu ni uhamisho wa thamani kati ya mtoaji wa shughuli na Miner (Mchimbaji) ambaye anaiongeza kwenye Blockchain.
 
-**> Bitcoins zinazozalishwa na Coinbase (msingi wa sarafu) za shughuli ziko chini ya muda wa ukomavu wa vitalu 100, ambapo haziwezi kutumiwa na Miner (Mchimbaji). Sheria hii imeundwa ili kuepusha matatizo yanayohusiana na matumizi ya bitcoins mpya zilizoundwa kwenye mnyororo ambao unaweza kutumika kuwa wa kizamani baadaye.
+**Je, wajua?** Bitcoins zinazozalishwa na Coinbase (msingi wa sarafu) za shughuli ziko chini ya muda wa ukomavu wa vitalu 100, ambapo haziwezi kutumiwa na Miner (Mchimbaji). Sheria hii imeundwa ili kuepusha matatizo yanayohusiana na matumizi ya bitcoins mpya zilizoundwa kwenye mnyororo ambao unaweza kutumika kuwa wa kizamani baadaye.
 
 ### Athari za mfano wa UTXO
 
@@ -229,10 +229,8 @@ Ndio maana tunatumia pesa kuhamisha thamani katika nafasi na wakati.
 ![BTC204](assets/fr/018.webp)
 
 Ili sarafu kutatua tatizo hili, ni muhimu kwamba mhusika anayetoa bidhaa au huduma awe na uhakika wa uwezo wake wa kutumia kiasi hicho baadaye. Kwa hivyo, mtu yeyote mwenye busara anayetaka kupokea sarafu, iwe ya dijiti au ya kimwili, atahakikisha kwamba inakidhi vigezo viwili vya msingi:
-
-
-- Kipande lazima kiwe na uadilifu na uhalisi ;**
-- na isitumike mara mbili.**
+- **Kipande lazima kiwe na uadilifu na uhalisi ;**
+- **na isitumike mara mbili.**
 
 Ikiwa unatumia sarafu halisi, ni sifa ya kwanza ambayo ni ngumu zaidi kudai. Katika vipindi tofauti vya historia, uadilifu wa sarafu za chuma mara nyingi umeathiriwa na mazoea kama vile kukata au kutoboa. Katika Roma ya kale, kwa mfano, ilikuwa ni kawaida kwa wananchi kufuta kando ya sarafu za dhahabu ili kukusanya chuma kidogo cha thamani, huku wakiwaokoa kwa shughuli za baadaye. Thamani ya asili ya sarafu ilipunguzwa, lakini thamani yake ya uso ilibaki sawa. Hii ni moja ya sababu kwa nini makali ya sarafu baadaye yalipungua.
 
@@ -295,11 +293,8 @@ Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzish
 Uchunguzi wa Kuzuia minyororo ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye kuzuia mnyororo. Kwa ujumla, Chainalysis (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za shughuli za awali. Kisha inajumuisha kutambua sifa hizi hizo kwenye shughuli ambayo tungependa kuchanganua, na kupata tafsiri zinazokubalika kutoka kwao. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho nzuri ya kutosha, inajulikana kama "Legacy (Urithi)".
 
 Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi wa mnyororo):
-
 1. **Kuchunguza Kuzuia mnyororo ;**
-
 2. **Utambuaji wa vipengele vinavyojulikana ;**
-
 3. **Kato la dhana**
 
 ![BTC204](assets/fr/026.webp)

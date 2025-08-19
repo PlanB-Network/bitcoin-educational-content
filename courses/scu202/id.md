@@ -2995,7 +2995,7 @@ Dari sudut pandang teknis, Arc didasarkan pada Chromium, tetapi tetap merupakan 
 
 [Polypane](https://polypane.app/) secara khusus ditujukan untuk pengembang front-end dan desainer UX. Fungsi utamanya adalah untuk secara simultan menampilkan beberapa contoh situs yang sama secara bersamaan pada resolusi layar yang berbeda, guna menguji perilaku _responsive_ dari sebuah Interface secara real-time. Browser ini juga menawarkan aplikasi aksesibilitas, validator HTML/CSS, simulator buta warna, dan metrik kinerja.
 
-Polypane adalah peramban komersial dan berbayar yang berbasis Chromium, yang menjadikannya ideal untuk penggunaan profesional sesekali. Browser ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
+Polypane adalah browser komersial dan berbayar yang berbasis Chromium, yang menjadikannya ideal untuk penggunaan profesional sesekali. Browser ini tidak cocok untuk penjelajahan sehari-hari, dan kebijakan privasinya sejalan dengan perangkat lunak komersial, tanpa jaminan khusus.
 
 ![Image](assets/fr/116.webp)
 
@@ -3003,19 +3003,19 @@ Polypane adalah peramban komersial dan berbayar yang berbasis Chromium, yang men
 
 #### Mozilla Firefox
 
-[Firefox](https://www.mozilla.org/firefox/new/) adalah peramban paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang ditingkatkan, opsi canggih untuk memblokir cookie pihak ketiga, kontainer tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
+[Firefox](https://www.mozilla.org/firefox/new/) adalah browser paling terkemuka yang menggunakan mesin rendering Gecko. Dikembangkan oleh Mozilla Foundation, Firefox menonjol karena kebijakan privasinya yang jelas: perlindungan pelacakan yang ditingkatkan, opsi canggih untuk memblokir cookie pihak ketiga, kontainer tab yang terisolasi, dan integrasi ekstensi yang berfokus pada keamanan.
 
 Mozilla adalah organisasi nirlaba, yang memberinya kemandirian relatif dari kepentingan komersial murni, meskipun secara finansial sangat bergantung pada kemitraan dengan Google. Google mendanai sebagian besar Mozilla Foundation, secara resmi agar mesin pencarinya tetap menjadi default di Firefox, dan dengan demikian mempertahankan pangsa pasarnya. Secara tidak resmi, strategi ini memungkinkan Google untuk mempertahankan bentuk persaingan yang terkendali: dengan mendukung Mozilla, Google mempertahankan pesaing minimal, yang mengurangi tuduhan penyalahgunaan posisi dominan dan membatasi risiko sanksi peraturan.
 
 ![Image](assets/fr/117.webp)
 
-Firefox adalah peramban open source, didistribusikan di bawah MPL (*Mozilla Public License*). Kodenya sepenuhnya bebas, dapat dimodifikasi, dan dapat didistribusikan ulang, serta menjadi subjek dari banyak kontribusi eksternal.
+Firefox adalah browser open source, didistribusikan di bawah MPL (*Mozilla Public License*). Kodenya sepenuhnya bebas, dapat dimodifikasi, dan dapat didistribusikan ulang, serta menjadi subjek dari banyak kontribusi eksternal.
 
-Firefox tetap menjadi patokan untuk keamanan dan privasi, meskipun sedikit tertinggal di belakang peramban berbasis Blink dalam beberapa aspek kinerja. Ini bisa menjadi peramban yang sangat baik, asalkan dikonfigurasi dengan benar.
+Firefox tetap menjadi patokan untuk keamanan dan privasi, meskipun sedikit tertinggal di belakang browser berbasis Blink dalam beberapa aspek kinerja. Ini bisa menjadi browser yang sangat baik, asalkan dikonfigurasi dengan benar.
 
 #### Tor Browser
 
-[Tor Browser](https://www.torproject.org/download/) adalah peramban yang didasarkan pada Firefox ESR. Peramban ini adalah salah satu solusi paling kuat untuk anonimitas online. Peramban ini mengarahkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan website tujuan.
+[Tor Browser](https://www.torproject.org/download/) adalah browser yang didasarkan pada Firefox ESR. browser ini adalah salah satu solusi paling kuat untuk anonimitas online. browser ini mengarahkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan website tujuan.
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -3025,185 +3025,98 @@ Kekurangannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan komp
 
 #### Mullvad Browser
 
+[Mullvad Browser](https://mullvad.net/en/browser) adalah hasil kolaborasi antara Tor Foundation dan Mullvad VPN. Browser ini didasarkan pada Tor Browser, yang merupakan turunan dari Firefox ESR. Mullvad Browser dirancang untuk memaksimalkan privasi pengguna. Secara default, browser ini menyertakan perlindungan canggih terhadap fingerprinting, pelacak, dan script pihak ketiga.
 
-
-[Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. browser ini didasarkan pada browser Tor, yang merupakan turunan dari Firefox ESR. browser Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
-
-
-
-VPN ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: VPN ini tidak mengalihkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran IP Address, Anda bisa menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
-
-
+browser ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: Browser ini tidak mengarahkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran alamat IP, Anda dapat menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Mullvad Browser adalah solusi yang sangat baik jika Anda mengkhawatirkan privasi Anda, apakah Anda seorang pemula atau pengguna tingkat lanjut.
-
-
+Mullvad Browser adalah solusi yang sangat baik jika Anda peduli dengan privasi Anda, baik Anda seorang pemula maupun pengguna tingkat lanjut.
 
 ![Image](assets/fr/119.webp)
 
-
-
 #### Librewolf
 
+[LibreWolf](https://librewolf.net/) adalah browser berbasis Firefox yang dirancang untuk menawarkan tingkat privasi yang lebih tinggi. browser ini menghapus semua fitur yang dapat mengganggu privasi, seperti telemetri, integrasi layanan Mozilla, dan layanan Pocket.
 
-
-[LibreWolf] (https://librewolf.net/) adalah browser berbasis Firefox yang dirancang untuk menawarkan tingkat privasi yang lebih tinggi. browser ini menghapus semua fitur yang dapat membahayakan privasi, seperti telemetri, integrasi layanan Mozilla, dan layanan Pocket.
-
-
-
-Secara default, LibreWolf mengaktifkan pengaturan keamanan tingkat lanjut Firefox (seperti mode proteksi pelacakan yang ketat) dan menonaktifkan dukungan DRM. Proyek ini sepenuhnya bersifat open source, berbasis komunitas, dan tidak bergantung pada pendanaan dari perusahaan swasta. Saya merekomendasikannya jika Anda mencari Firefox yang "dikeraskan", dengan kontrol maksimum atas data Anda.
-
-
+Secara default, LibreWolf mengaktifkan pengaturan keamanan canggih Firefox (seperti mode perlindungan pelacakan ketat) dan menonaktifkan dukungan DRM. Proyek ini sepenuhnya open source, berbasis komunitas, dan tidak bergantung pada pendanaan apa pun dari perusahaan swasta. Saya merekomendasikannya jika Anda mencari Firefox yang lebih 'diperkuat' (hardened), dengan kontrol maksimum atas data Anda.
 
 ![Image](assets/fr/115.webp)
 
+#### Zen Browser
 
+[Zen Browser](https://zen-browser.app/ adalah browser gratis dan open source yang berbasis Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman penjelajahan yang modern, elegan, sangat dapat disesuaikan, dan yang terpenting, berpusat pada privasi, tanpa ketergantungan pada Chromium.
 
-#### Browser Zen
+Zen menonjol karena pendekatan radikalnya terhadap Interface dan kegunaan, sebagian besar terinspirasi oleh browser Arc, namun terbebas darinya berkat sifat open source-nya dan mesin Gecko. browser ini mencakup:
 
-
-
-[Zen Browser] (https://zen-browser.app/) adalah browser sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
-
-
-
-Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh browser Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
-
-
-
-
-- Interface modular yang minimalis, dengan bilah sisi vertikal untuk tab, tampilan terpisah, dan sistem *ruang kerja* untuk mengelompokkan kumpulan tab berdasarkan proyek;
-- Sistem templat Interface yang dapat disesuaikan (*Zen Mods*) yang dapat digunakan untuk memodifikasi tampilan browser secara mendalam;
-- Fungsi orisinal yang disebut *Glance*, yang membuka tautan di jendela sementara yang ringan, menghindari kekacauan tab...
-
-
+- Interface minimalis, modular, dengan bilah sisi vertikal untuk tab, tampilan terbagi (split view), dan sistem workspace untuk mengelompokkan set tab berdasarkan proyek;
+- Sistem templat Interface yang dapat disesuaikan (_Zen Mods_) yang dapat digunakan untuk memodifikasi tampilan browser secara mendalam;
+- Fungsi orisinal yang disebut _Glance_, yang membuka tautan dalam jendela sementara yang ringan, menghindari kekacauan tab.
 
 Zen juga mendukung ekstensi Firefox, serta sinkronisasi melalui akun Mozilla.
 
-
-
-Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. browser ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. browser ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
-
-
+Dari sudut pandang keamanan dan privasi, Zen memiliki pemblokiran asli untuk pelacak pihak ketiga. browser ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. browser ini juga secara otomatis menolak sertifikat SSL yang usang atau tidak sesuai.
 
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
 
-
-
 ### Browser berbasis WebKit
-
-
 
 #### Safari
 
+browser utama yang masih menggunakan mesin rendering WebKit (bukan fork seperti Blink) adalah Safari. [Safari](https://www.apple.com/safari/) adalah browser eksklusif Apple untuk macOS. browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan kini menyertakan perlindungan yang lebih kuat terhadap pelacakan dan fingerprinting.
 
+Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktop-nya, dan bergantung pada ekosistem Apple. Meskipun Apple memiliki kebijakan privasi yang kuat, dengan model bisnisnya yang didasarkan terutama pada penjualan perangkat keras daripada periklanan, beberapa praktik internalnya masih belum jelas.
 
-browser utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah browser eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
-
-
-
-Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktopnya, dan bergantung pada ekosistem Apple. Meskipun Apple memiliki kebijakan privasi yang kuat, dengan model bisnisnya yang terutama didasarkan pada penjualan perangkat keras dan bukannya iklan, namun masih belum jelas tentang praktik internal tertentu.
-
-
-
-Di sini, kami berfokus pada browser desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua browser untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
-
-
+Di sini, kita berfokus pada browser desktop, tetapi penting untuk dicatat bahwa pada iOS, Apple mengharuskan semua browser untuk menggunakan mesin rendering WebKit (pembatasan yang mungkin segera berubah, bagaimanapun juga, sebagai hasil dari regulasi Eropa tertentu). Ini berarti browser seperti Chrome, Firefox, atau Brave harus ada, pada iOS, menawarkan aplikasi yang berbasis WebKit, dan bukan pada mesin rendering mereka yang biasa.
 
 ![Image](assets/fr/120.webp)
 
-
-
 #### Orion
 
+Alternatif menarik untuk Safari adalah [Orion](https://kagi.com/orion/), sebuah browser modern yang dirancang khusus untuk ekosistem Apple, dan juga berbasis WebKit. Tujuannya adalah untuk menawarkan alternatif yang cepat, ringan, dan sangat menghormati privasi, tanpa mengorbankan fitur-fitur canggih.
 
+Orion berbeda dari Safari dalam beberapa aspek teknis:
 
-Alternatif yang menarik untuk Safari adalah [Orion] (https://kagi.com/orion/), browser modern yang dirancang khusus untuk ekosistem Apple, dan juga berbasis WebKit. Tujuannya adalah untuk menawarkan alternatif yang cepat, ringan, dan sangat menghargai privasi, tanpa mengorbankan fitur-fitur canggih.
+- Mengadopsi kebijakan telemetri nol yang ketat: tidak ada data yang dikumpulkan atau dikirim secara default, termasuk saat instalasi awal;
+- Menyertakan pemblokir iklan dan pelacak yang diaktifkan secara default, dengan efektivitas yang sebanding dengan _uBlock Origin_ dalam banyak kasus;
+- Secara bawaan mendukung instalasi dan penggunaan ekstensi Chrome dan Firefox secara bawaan pada macOS;
+- Aplikasi yang berguna termasuk mode _Focus_ (navigasi tanpa Interface), mode daya rendah, dan manajemen tab vertikal.
 
-
-
-Orion berbeda dengan Safari dalam beberapa hal teknis:
-
-
-
-
-- Ini mengadopsi kebijakan telemetri nol yang ketat: tidak ada data yang dikumpulkan atau dikirim secara default, termasuk selama instalasi awal;
-- Ini termasuk pemblokir iklan dan pelacak yang diaktifkan secara default, yang efektivitasnya sebanding dengan *uBlock Origin* dalam banyak kasus;
-- Ini secara bawaan mendukung pemasangan dan penggunaan ekstensi Chrome dan Firefox secara bawaan di macOS ;
-- Alat bantu yang berguna termasuk mode *Focus* (navigasi bebas Interface), mode daya rendah dan manajemen tab vertikal.
-
-
-
-Orion sepenuhnya dikembangkan oleh tim Kagi (yang dikenal dengan mesin pencari bebas iklan). Pengembangannya didanai sepenuhnya oleh para penggunanya melalui langganan *Orion+*, yang memberikan akses ke sejumlah keuntungan.
-
-
+Orion sepenuhnya dikembangkan oleh tim Kagi (dikenal karena mesin pencarinya yang bebas iklan). Pengembangannya didanai sepenuhnya oleh penggunanya melalui langganan _Orion+_, yang memberikan akses ke sejumlah keuntungan.
 
 ### Browser tanpa mesin rendering
 
+Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang jauh lebih tidak dikenal dan sangat marjinal: peramban mode teks, yang paling terkenal di antaranya adalah [Lynx Browser](https://lynx.invisible-island.net/).
 
+Lynx adalah peramban web tertua yang masih dipelihara (1992). Peramban ini beroperasi secara eksklusif dalam mode teks dan digunakan langsung di terminal, tanpa Interface grafis apa pun. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif apa pun di halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
 
-Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang kurang dikenal dan sangat marjinal: browser mode teks, yang paling terkenal adalah [Lynx Browser] (https://lynx.invisible-island.net/).
-
-
-
-Lynx adalah browser web tertua yang masih dipertahankan (1992). Browser ini beroperasi secara eksklusif dalam mode teks dan digunakan secara langsung di terminal, tanpa Interface grafis. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif dalam halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
-
-
-
-Pendekatan yang sangat minimalis ini menjadikannya salah satu browser yang paling aman: tidak ada skrip berbahaya yang dapat berjalan, tidak ada iklan yang mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (sidik jari kanvas, pelacak JavaScript, dan lain-lain) yang mungkin terjadi.
-
-
+Pendekatan minimalis yang radikal ini menjadikannya salah satu peramban paling aman: tidak ada script berbahaya yang dapat berjalan, tidak ada iklan mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (canvas fingerprinting, pelacak JavaScript, dll.) yang mungkin terjadi.
 
 ![Image](assets/fr/121.webp)
 
+Model ini jelas memiliki keterbatasan besar: ketiadaan total rendering grafis, ketidakmungkinan menggunakan sebagian besar situs web modern (yang banyak di antaranya bergantung pada JavaScript), dan ergonomi yang kaku yang ditujukan untuk pengguna berpengalaman.
 
-
-Model ini jelas memiliki keterbatasan utama: tidak adanya rendering grafis, ketidakmungkinan menggunakan sebagian besar situs web modern (banyak di antaranya bergantung pada JavaScript) dan ergonomi yang keras yang ditujukan untuk pengguna berpengalaman.
-
-
-
-Lynx masih bisa menarik dalam konteks tertentu yang sangat spesifik:
-
-
-
+Lynx masih bisa menarik dalam konteks yang sangat spesifik:
 
 - Mengaudit halaman web HTML mentah, tanpa eksekusi JavaScript atau CSS;
-- Menjelajah di lingkungan minimalis;
-- Menjelajah di lingkungan yang sangat aman;
-- Menjelajah di jaringan yang sangat lambat atau tidak stabil;
-- Otomatisasi atau pengikisan.
-
-
+- Penjelajahan di lingkungan minimalis;
+- Penjelajahan di lingkungan yang sangat aman;
+- Penjelajahan pada jaringan yang sangat lambat atau tidak stabil;
+- Otomatisasi atau scraping.
 
 ### Browser mana yang harus dipilih?
 
+Bagi pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus memodifikasi banyak pengaturan secara manual, dan yang mencari peramban untuk penggunaan sehari-hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (terlepas dari risiko yang terlibat dan filosofi yang sangat berbeda), Anda juga dapat mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih menyukai mesin rendering Gecko karena banyak alasan, meskipun saat ini tertinggal di belakang Blink dalam hal kinerja.
 
+Firefox juga merupakan pilihan yang sangat baik sebagai peramban serbaguna, asalkan dikonfigurasi dengan benar untuk meningkatkan privasi.
 
-Untuk pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus mengubah banyak pengaturan secara manual, dan yang mencari browser tujuan umum setiap hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (meskipun ada risiko dan filosofi yang sangat berbeda), Anda juga bisa mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih memilih mesin rendering Gecko karena berbagai alasan, meskipun saat ini masih tertinggal dari Blink dalam hal kinerja.
+Untuk tingkat anonimitas yang lebih tinggi, dengan mengorbankan kinerja yang berkurang, Tor Browser tetap menjadi solusi terbaik.
 
+Chrome, terlepas dari popularitasnya, tidak dapat direkomendasikan sebagai bagian dari pendekatan kedaulatan digital, karena Google secara sistematis menempatkan kepentingan komersialnya di atas perlindungan privasi yang sebenarnya. Itulah mengapa saya tidak merekomendasikan untuk menggunakannya.
 
+Saat ini, pilihan peramban Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi peramban yang paling sesuai dengan profil risiko dan prioritas Anda.
 
-Firefox juga merupakan pilihan yang sangat baik sebagai browser tujuan umum, selama dikonfigurasi dengan benar untuk meningkatkan privasi.
-
-
-
-Untuk tingkat anonimitas yang lebih tinggi lagi, dengan mengorbankan performa yang lebih rendah, Tor Browser tetap menjadi solusi terbaik.
-
-
-
-Chrome, terlepas dari popularitasnya, tidak dapat direkomendasikan sebagai bagian dari pendekatan kedaulatan digital, karena Google secara sistematis menempatkan kepentingan komersialnya di atas perlindungan privasi yang sesungguhnya. Itulah mengapa saya tidak menyarankan untuk menggunakannya.
-
-
-
-Saat ini, pilihan browser Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi browser yang paling sesuai dengan profil risiko dan prioritas Anda.
-
-
-
-Berikut ini adalah ringkasan singkat untuk membantu Anda menentukan pilihan (harap diingat, bahwa perbandingan ini mungkin sudah berkembang dari waktu ke waktu sejak SCU202 ditulis, dan evaluasi terhadap Interface serta fitur-fiturnya, pada dasarnya adalah masalah apresiasi pribadi):
-
-
+Berikut adalah ringkasan singkat untuk membantu Anda membuat pilihan (namun, perlu diingat bahwa perbandingan ini mungkin telah berevolusi seiring waktu sejak SCU202 ditulis, dan evaluasi Interface serta fiturnya adalah masalah apresiasi pribadi):
 
 | Browser      | Privasi | Kecepatan | Fitur | Interface | Open source | Komsumsi Sumber Daya |
 | --------------- | --------------- | ------- | --------------- | --------- | ----------- | ----------------------- |
@@ -3222,114 +3135,66 @@ Berikut ini adalah ringkasan singkat untuk membantu Anda menentukan pilihan (har
 | Orion           | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟢                      |
 | Zen Browser     | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 
-Dalam bab berikutnya, kita akan melihat praktik terbaik untuk menjelajahi web dengan aman, sambil meminimalkan paparan privasi Anda.
-
+Pada bab berikutnya, kita akan melihat praktik terbaik untuk menjelajahi di web dengan aman, sekaligus meminimalkan paparan privasi Anda.
 
 
 ## Praktik terbaik dalam penggunaan web
 
-
 <chapterId>ded47ada-0569-4e63-b668-0da042e691d5</chapterId>
 
+Di bab sebelumnya, kita telah menelusuri detail peramban utama yang tersedia saat ini, beserta keunggulan dan kelemahannya dalam hal keamanan dan privasi.
 
-
-Pada bab sebelumnya, kita telah membahas detail browser utama yang tersedia saat ini, bersama dengan kelebihan dan kekurangannya dalam hal keamanan dan privasi.
-
-
-
-Namun, browser yang paling aman pun tidak cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kami akan membahas secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
-
-
+Namun, meski peramban teraman pun tidaklah cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kita akan melihat secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
 
 ### Selalu perbarui browser Anda
 
+Browser web adalah salah satu komponen perangkat lunak yang paling terekspos dalam sistem komputer. Berbeda dengan sebagian besar program lain, peramban memproses konten dinamis dari Internet secara real-time, yang pada dasarnya tidak dapat diandalkan. Ketika sebuah situs web dimuat, peramban mengeksekusi kode jarak jauh, yang berinteraksi langsung dengan sistem Anda melalui mesin rendering.
 
+Kompleksitas teknis ini, dikombinasikan dengan area yang rentan diserang yang masif, menjadikan peramban sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup mengunjungi situs yang dipasangi jebakan dan mesin Anda dibobol), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
 
-Browser web adalah salah satu komponen perangkat lunak yang paling terbuka dalam sistem komputer. Tidak seperti kebanyakan program lain, browser memproses konten dinamis dari Internet secara real time, yang pada dasarnya tidak dapat diandalkan. Ketika sebuah situs web dimuat, browser mengeksekusi kode jarak jauh, yang berinteraksi langsung dengan sistem Anda melalui mesin rendering.
-
-
-
-Kerumitan teknis ini, dikombinasikan dengan permukaan serangan yang sangat besar, menjadikan browser web sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup kunjungi situs jebakan dan mesin Anda disusupi), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
-
-
-
-Untuk mengurangi risiko ini, penerbit browser merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah teridentifikasi. Tambalan ini tidak terbatas pada Interface atau peningkatan kinerja: tambalan ini secara aktif memblokir vektor serangan yang terdokumentasi.
-
-
+Untuk mengurangi risiko ini, penerbit peramban merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah diidentifikasi. Patch ini tidak terbatas pada perbaikan Interface atau kinerja: mereka secara aktif memblokir celah serangan yang nyata dan terdokumentasi.
 
 ![Image](assets/fr/129.webp)
 
+Oleh karena itu, sangat penting untuk:
 
+- Mengaktifkan pembaruan otomatis untuk peramban Anda dan secara berkala memeriksa secara manual bahwa tidak ada pembaruan yang tersedia;
+- Atau, jika Anda menggunakan versi yang dikemas secara manual (misalnya melalui `apt`, `flatpak`, atau `snap` di Linux), perbarui seluruh sistem secara berkala melalui manajer paket Anda.
 
-Oleh karena itu, hal ini sangat penting:
-
-
-
-
-- aktifkan pembaruan otomatis untuk browser Anda dan periksa secara manual secara teratur bahwa tidak ada pembaruan yang tersedia;
-- atau, jika Anda menggunakan versi yang dikemas secara manual (misalnya melalui `apt`, `flatpak`, atau `snap` di Linux), perbarui seluruh sistem secara teratur melalui manajer paket Anda.
-
-
-
-Untuk memeriksa versi secara manual dan memicu pembaruan:
-
-
-
+Untuk memeriksa versi secara manual dan melakukan pembaruan:
 
 - di Firefox: `Menu > Pengaturan > Pembaruan Firefox`;
 - di bawah Linux (paket `apt`):
-
-
-
+  
 ```bash
 sudo apt update && sudo apt upgrade firefox
 ```
 
-
-
-Memperbarui browser, perangkat lunak, dan sistem operasi Anda adalah salah satu langkah konkret pertama yang bisa Anda lakukan dalam hal keamanan siber.
+Memperbarui browser, perangkat lunak, dan sistem operasi Anda adalah salah satu langkah nyata awal yang bisa Anda lakukan dalam hal keamanan siber.
 
 
 
 ### Gunakan kata sandi yang kuat dan unik
 
+Dalam hal keamanan web, salah satu kesalahan paling umum (dan berbahaya) adalah menggunakan kembali kata sandi di beberapa situs. Praktik ini menyebabkan efek domino yang berbahaya: jika satu layanan saja disusupi (kebocoran basis data, phishing, serangan brute force...), penyerang kemudian dapat menguji kata sandi yang sama di platform lain, mendapatkan akses ke akun-akun penting seperti email, rekening bank, atau workspaces Anda.
 
+Prinsip pertama dalam hal kata sandi adalah tidak menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi yang unik, yang sepenuhnya berbeda dari yang lain. Memiliki kata sandi yang unik untuk setiap akun akan mengisolasi potensi serangan dan membatasi dampaknya.
 
-Dalam hal keamanan web, salah satu kesalahan yang paling umum (dan berbahaya) adalah menggunakan ulang kata sandi di beberapa situs. Praktik ini menyebabkan efek domino yang berbahaya: jika satu layanan terganggu (kebocoran basis data, phishing, serangan brute force...), penyerang kemudian bisa menguji kata sandi yang sama pada platform lain, mendapatkan akses ke akun-akun penting seperti email, rekening bank, atau ruang kerja Anda.
+Sebagai contoh, jika Anda menggunakan kata sandi yang sama untuk platform permainan video dan untuk akun email Anda, dan kata sandi ini disusupi melalui situs phishing yang terkait dengan platform permainan, penyerang kemudian dapat dengan mudah mengakses akun email Anda dan mengendalikan semua akun online Anda yang lain.
 
+Prinsip penting kedua adalah memiliki kata sandi yang kuat. Sebuah kata sandi dianggap kuat jika sulit untuk di-brute force, yaitu sulit ditemukan dengan coba-coba. Ini berarti kata sandi Anda harus serandom mungkin, panjang, dan mencakup berbagai karakter (huruf kecil, huruf besar, angka, dan simbol).
 
+Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa jadi sulit dalam kehidupan sehari-hari, karena hampir tidak mungkin untuk menghafal kata sandi yang unik, acak, dan kuat untuk semua akun kita. Di sinilah peran pengelola kata sandi.
 
-Prinsip pertama dalam hal kata sandi adalah tidak menggunakannya kembali. Setiap akun online harus dilindungi dengan kata sandi yang unik, yang benar-benar berbeda dari yang lain. Memiliki kata sandi yang unik untuk setiap akun akan mengisolasi potensi serangan dan membatasi dampaknya.
-
-
-
-Sebagai contoh, jika Anda menggunakan kata sandi yang sama untuk platform permainan video dan untuk akun email Anda, dan kata sandi ini disusupi melalui situs phishing yang ditautkan ke platform permainan, maka penyerang dapat dengan mudah mengakses akun email Anda dan mengambil kendali atas semua akun online Anda yang lain.
-
-
-
-Prinsip penting kedua adalah memiliki kata sandi yang kuat. Kata sandi dianggap kuat jika sulit untuk dibobol, yaitu ditemukan dengan cara coba-coba. Ini berarti kata sandi Anda harus dibuat seacak mungkin, panjang, dan mencakup berbagai karakter (huruf kecil, huruf besar, angka, dan simbol).
-
-
-
-Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa jadi sulit dilakukan setiap hari, karena hampir tidak mungkin menghafal kata sandi yang unik, acak, dan kuat untuk semua akun kita. Di sinilah manajer kata sandi berperan.
-
-
-
-Pengelola kata sandi membuat dan menyimpan kata sandi yang kuat dengan aman, sehingga Anda dapat mengakses semua akun online Anda tanpa harus menghafalnya satu per satu. Anda hanya perlu mengingat satu kata sandi, yaitu kata sandi utama, yang memberikan Anda akses ke semua kata sandi yang tersimpan di dalam pengelola. Menggunakan pengelola kata sandi akan memperkuat keamanan online Anda, karena pengelola kata sandi mencegah penggunaan ulang kata sandi dan secara sistematis menghasilkan kata sandi acak.
-
-
+Pengelola kata sandi secara aman menghasilkan dan menyimpan kata sandi yang kuat, memungkinkan Anda untuk mengakses semua akun online Anda tanpa harus menghafalnya satu per satu. Anda hanya perlu mengingat satu kata sandi, kata sandi utama (master password), yang memberi Anda akses ke semua kata sandi Anda yang disimpan di pengelola. Menggunakan pengelola kata sandi akan memperkuat keamanan online Anda, karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Menggunakan pengelola kata sandi memiliki sejumlah keuntungan: menyederhanakan kehidupan sehari-hari Anda dengan menghilangkan kebutuhan untuk menghafal banyak kata sandi, dan meminimalkan kelemahan autentikasi utama: pengguna itu sendiri.
+Menggunakan pengelola kata sandi memiliki sejumlah keunggulan: menyederhanakan kehidupan sehari-hari Anda dengan menghilangkan kebutuhan untuk menghafal banyak kata sandi, dan meminimalkan kelemahan otentikasi utama: pengguna itu sendiri.
 
-
-
-Dalam hal autentikasi, penggunaan pengelola kata sandi harus dilengkapi dengan solusi autentikasi dua faktor (2FA), untuk digunakan pada semua akun yang mendukungnya. Idealnya, Anda harus menggunakan aplikasi khusus, atau bahkan lebih baik lagi, perangkat fisik seperti Yubikey.
-
-
+Dalam hal otentikasi, penggunaan pengelola kata sandi harus dilengkapi dengan solusi otentikasi dua faktor (2FA), untuk digunakan pada semua akun yang mendukungnya. Idealnya, Anda harus menggunakan aplikasi khusus, atau bahkan lebih baik, perangkat fisik seperti Yubikey.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -3341,35 +3206,19 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 ### Menggunakan VPN
 
+VPN (*Virtual Private Network*) adalah program penjaluran yang mengenkripsi lalu lintas jaringan antara perangkat Anda dan server perantara. Server ini bertindak sebagai gerbang, mengarahkan ulang semua koneksi Anda ke Internet. Akibatnya, ISP (Internet Service Provider) Anda hanya melihat lalu lintas terenkripsi yang ditujukan ke VPN, dan situs yang Anda kunjungi hanya melihat alamat IP dari server VPN, bukan alamat IP Anda.
 
-
-VPN (*Virtual Private Network*) adalah alat kanalisasi yang mengenkripsi lalu lintas jaringan antara perangkat Anda dan server perantara. Server ini bertindak sebagai gateway, mengarahkan semua koneksi Anda ke Internet. Akibatnya, ISP Anda hanya melihat lalu lintas terenkripsi yang ditujukan untuk VPN, dan situs yang Anda kunjungi hanya melihat IP Address server VPN, bukan IP Anda.
-
-
-
-Ada beberapa keuntungan menggunakan VPN. VPN melindungi penjelajahan Anda pada jaringan yang tidak aman (seperti Wi-Fi publik di bandara atau hotel, misalnya), dengan mencegah pihak ketiga mencegat data Anda. VPN juga menyembunyikan IP asli Anda Address, yang dapat berguna untuk menghindari pelacakan dasar, atau mensimulasikan koneksi dari negara lain. Terakhir, VPN adalah alat untuk menghindari sensor. Dalam lingkungan di mana akses ke konten tertentu diblokir di tingkat ISP, mengarahkan lalu lintas Anda ke server VPN yang terletak di negara tanpa filter memungkinkan Anda untuk mendapatkan kembali akses gratis.
-
-
+Ada beberapa keunggulan dalam menggunakan VPN. Ini melindungi penjelajahan Anda di jaringan yang tidak aman (seperti Wi-Fi publik di bandara atau hotel, misalnya), dengan mencegah pihak ketiga mencegat data Anda. Ini juga menyembunyikan alamat IP asli Anda, yang dapat berguna untuk menghindari pelacakan dasar, atau mensimulasikan koneksi dari negara lain. Terakhir, VPN adalah program untuk melewati sensor. Di lingkungan di mana akses ke konten tertentu diblokir di tingkat ISP, mengarahkan lalu lintas Anda ke server VPN yang berlokasi di negara yang tanpa filter memungkinkan Anda mendapatkan kembali akses bebas.
 
 ![Image](assets/fr/128.webp)
 
+Di sisi lain, bertentangan dengan kepercayaan populer, VPN tidak memberikan anonimitas. Penyedia VPN mengetahui alamat IP asli Anda, dapat merekam koneksi Anda, dan menjadi pihak ketiga tepercaya. Anda mendelegasikan seluruh aktivitas online Anda kepada mereka. Jika penyedia tersebut berbahaya, tunduk pada kewajiban hukum yang mengikat, atau lalai secara teknis, data Anda mungkin terekspos.
 
+Terlebih lagi, VPN tidak menawarkan perlindungan terhadap _malware_, pelacakan JavaScript, atau cookie pihak ketiga. Jika Anda masuk ke akun Google atau Facebook, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak menyaring konten, dan tidak akan mencegah halaman yang dipasangi jebakan untuk menyerang Anda melalui kerentanan peramban.
 
-Di sisi lain, berlawanan dengan kepercayaan populer, VPN tidak menyediakan anonimitas. Penyedia VPN mengetahui IP asli Anda Address, dapat merekam koneksi Anda, dan menjadi pihak ketiga yang tepercaya. Anda mendelegasikan seluruh aktivitas online Anda kepada mereka. Jika penyedia jahat, tunduk pada kewajiban hukum yang mengikat atau secara teknis lalai, data Anda mungkin terekspos.
+Selain itu, program VPN tidak boleh disalahartikan dengan jaringan Tor, yang merupakan jaringan relai terenkripsi yang terdesentralisasi untuk menjamin anonimitas yang jauh lebih kuat. Tor lebih lambat, tetapi jauh lebih kuat terhadap pengawasan global daripada VPN.
 
-
-
-Terlebih lagi, VPN tidak menawarkan proteksi terhadap *malware*, pelacakan JavaScript, atau kuki pihak ketiga. Jika Anda masuk ke akun Google atau Facebook Anda, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak memfilter konten, dan tidak akan mencegah halaman jebakan menyerang Anda melalui kerentanan browser.
-
-
-
-Selain itu, peralatan VPN tidak boleh dikacaukan dengan jaringan Tor, yang merupakan jaringan terdesentralisasi dari relai terenkripsi untuk menjamin anonimitas yang lebih kuat. Tor lebih lambat, tetapi jauh lebih kuat terhadap pengawasan global daripada VPN.
-
-
-
-VPN yang baik harus memiliki kebijakan tanpa pencatatan yang jelas, menawarkan teknologi modern (terutama WireGuard), mengizinkan penggunaan layanan secara anonim dan menawarkan sumber terbuka atau basis teknis yang telah diaudit secara publik. Dengan mempertimbangkan hal ini, saya merekomendasikan alat seperti Mullvad atau IVPN.
-
-
+VPN yang baik harus memiliki kebijakan tanpa pencatatan yang jelas, menawarkan teknologi modern (terutama WireGuard), memungkinkan penggunaan layanan secara anonim, dan menawarkan basis teknis open source atau yang diaudit secara publik. Dengan demikian, saya merekomendasikan program seperti Mullvad atau IVPN.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -3377,9 +3226,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
-VPN yang terkenal sebaiknya dihindari. Terlepas dari pemasaran mereka yang agresif, mereka tetap merupakan layanan komersial terpusat, sering kali berbasis di yurisdiksi yang kurang protektif, dan jarang sekali transparan tentang operasi teknis mereka yang sebenarnya.
-
-
+VPN yang terkenal sebaiknya dihindari. Meskipun pemasaran mereka agresif, layanan ini tetap merupakan layanan komersial terpusat, sering kali berbasis di yurisdiksi yang kurang protektif, dan jarang transparan tentang operasional teknis mereka yang sebenarnya.
 
 ### Bersihkan riwayat dan cookie secara teratur
 

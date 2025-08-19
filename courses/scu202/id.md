@@ -3086,11 +3086,11 @@ Orion sepenuhnya dikembangkan oleh tim Kagi (dikenal karena mesin pencarinya yan
 
 ### Browser tanpa mesin rendering
 
-Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang jauh lebih tidak dikenal dan sangat marjinal: peramban mode teks, yang paling terkenal di antaranya adalah [Lynx Browser](https://lynx.invisible-island.net/).
+Terakhir, saya ingin mengakhiri ulasan ini dengan alternatif yang jauh lebih tidak dikenal dan sangat marjinal: browser mode teks, yang paling terkenal di antaranya adalah [Lynx Browser](https://lynx.invisible-island.net/).
 
-Lynx adalah peramban web tertua yang masih dipelihara (1992). Peramban ini beroperasi secara eksklusif dalam mode teks dan digunakan langsung di terminal, tanpa Interface grafis apa pun. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif apa pun di halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
+Lynx adalah browser web tertua yang masih dipelihara (1992). browser ini beroperasi secara eksklusif dalam mode teks dan digunakan langsung di terminal, tanpa Interface grafis apa pun. Secara teknis, Lynx tidak mendukung JavaScript, CSS, atau gambar, yang menghilangkan eksekusi kode aktif apa pun di halaman web. Ia hanya menginterpretasikan kode HTML mentah, yang dirender sebagai teks terstruktur.
 
-Pendekatan minimalis yang radikal ini menjadikannya salah satu peramban paling aman: tidak ada script berbahaya yang dapat berjalan, tidak ada iklan mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (canvas fingerprinting, pelacak JavaScript, dll.) yang mungkin terjadi.
+Pendekatan minimalis yang radikal ini menjadikannya salah satu browser paling aman: tidak ada script berbahaya yang dapat berjalan, tidak ada iklan mengganggu yang ditampilkan, dan tidak ada kebocoran data melalui mekanisme modern (canvas fingerprinting, pelacak JavaScript, dll.) yang mungkin terjadi.
 
 ![Image](assets/fr/121.webp)
 
@@ -3106,15 +3106,15 @@ Lynx masih bisa menarik dalam konteks yang sangat spesifik:
 
 ### Browser mana yang harus dipilih?
 
-Bagi pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus memodifikasi banyak pengaturan secara manual, dan yang mencari peramban untuk penggunaan sehari-hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (terlepas dari risiko yang terlibat dan filosofi yang sangat berbeda), Anda juga dapat mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih menyukai mesin rendering Gecko karena banyak alasan, meskipun saat ini tertinggal di belakang Blink dalam hal kinerja.
+Bagi pengguna yang memprioritaskan keamanan dan privasi secara default, tanpa harus memodifikasi banyak pengaturan secara manual, dan yang mencari browser untuk penggunaan sehari-hari, pilihan terbaik menurut saya adalah LibreWolf dan Mullvad Browser. Dalam kategori yang sama, jika Anda tidak keberatan menggunakan basis Chromium (terlepas dari risiko yang terlibat dan filosofi yang sangat berbeda), Anda juga dapat mempertimbangkan Brave. Seperti yang Anda lihat, saya lebih menyukai mesin rendering Gecko karena banyak alasan, meskipun saat ini tertinggal di belakang Blink dalam hal kinerja.
 
-Firefox juga merupakan pilihan yang sangat baik sebagai peramban serbaguna, asalkan dikonfigurasi dengan benar untuk meningkatkan privasi.
+Firefox juga merupakan pilihan yang sangat baik sebagai browser serbaguna, asalkan dikonfigurasi dengan benar untuk meningkatkan privasi.
 
 Untuk tingkat anonimitas yang lebih tinggi, dengan mengorbankan kinerja yang berkurang, Tor Browser tetap menjadi solusi terbaik.
 
 Chrome, terlepas dari popularitasnya, tidak dapat direkomendasikan sebagai bagian dari pendekatan kedaulatan digital, karena Google secara sistematis menempatkan kepentingan komersialnya di atas perlindungan privasi yang sebenarnya. Itulah mengapa saya tidak merekomendasikan untuk menggunakannya.
 
-Saat ini, pilihan peramban Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi peramban yang paling sesuai dengan profil risiko dan prioritas Anda.
+Saat ini, pilihan browser Anda memainkan peran penting dalam keamanan dan privasi online Anda. Jadi, luangkan waktu untuk mengidentifikasi browser yang paling sesuai dengan profil risiko dan prioritas Anda.
 
 Berikut adalah ringkasan singkat untuk membantu Anda membuat pilihan (namun, perlu diingat bahwa perbandingan ini mungkin telah berevolusi seiring waktu sejak SCU202 ditulis, dan evaluasi Interface serta fiturnya adalah masalah apresiasi pribadi):
 
@@ -3142,23 +3142,23 @@ Pada bab berikutnya, kita akan melihat praktik terbaik untuk menjelajahi di web 
 
 <chapterId>ded47ada-0569-4e63-b668-0da042e691d5</chapterId>
 
-Di bab sebelumnya, kita telah menelusuri detail peramban utama yang tersedia saat ini, beserta keunggulan dan kelemahannya dalam hal keamanan dan privasi.
+Di bab sebelumnya, kita telah menelusuri detail browser utama yang tersedia saat ini, beserta keunggulan dan kelemahannya dalam hal keamanan dan privasi.
 
-Namun, meski peramban teraman pun tidaklah cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kita akan melihat secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
+Namun, meski browser teraman pun tidaklah cukup: cara Anda menggunakannya tetap penting untuk melindungi keamanan digital Anda. Dalam bab ini, kita akan melihat secara mendalam praktik-praktik terbaik yang penting untuk meminimalkan risiko yang terkait dengan penggunaan web sehari-hari.
 
 ### Selalu perbarui browser Anda
 
-Browser web adalah salah satu komponen perangkat lunak yang paling terekspos dalam sistem komputer. Berbeda dengan sebagian besar program lain, peramban memproses konten dinamis dari Internet secara real-time, yang pada dasarnya tidak dapat diandalkan. Ketika sebuah situs web dimuat, peramban mengeksekusi kode jarak jauh, yang berinteraksi langsung dengan sistem Anda melalui mesin rendering.
+Browser web adalah salah satu komponen perangkat lunak yang paling terekspos dalam sistem komputer. Berbeda dengan sebagian besar program lain, browser memproses konten dinamis dari Internet secara real-time, yang pada dasarnya tidak dapat diandalkan. Ketika sebuah situs web dimuat, browser mengeksekusi kode jarak jauh, yang berinteraksi langsung dengan sistem Anda melalui mesin rendering.
 
-Kompleksitas teknis ini, dikombinasikan dengan area yang rentan diserang yang masif, menjadikan peramban sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup mengunjungi situs yang dipasangi jebakan dan mesin Anda dibobol), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
+Kompleksitas teknis ini, dikombinasikan dengan area yang rentan diserang yang masif, menjadikan browser sebagai target prioritas bagi para penyerang. Kelemahan kritis pada mesin rendering (seperti Blink atau Gecko), pustaka analisis gambar, atau pengelola memori dapat memungkinkan apa yang disebut serangan "zero-click" (cukup mengunjungi situs yang dipasangi jebakan dan mesin Anda dibobol), atau serangan "zero-day" (kerentanan yang tidak diketahui oleh vendor).
 
-Untuk mengurangi risiko ini, penerbit peramban merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah diidentifikasi. Patch ini tidak terbatas pada perbaikan Interface atau kinerja: mereka secara aktif memblokir celah serangan yang nyata dan terdokumentasi.
+Untuk mengurangi risiko ini, penerbit browser merilis pembaruan yang sangat sering, sering kali mingguan, yang memperbaiki kerentanan ini segera setelah diidentifikasi. Patch ini tidak terbatas pada perbaikan Interface atau kinerja: mereka secara aktif memblokir celah serangan yang nyata dan terdokumentasi.
 
 ![Image](assets/fr/129.webp)
 
 Oleh karena itu, sangat penting untuk:
 
-- Mengaktifkan pembaruan otomatis untuk peramban Anda dan secara berkala memeriksa secara manual bahwa tidak ada pembaruan yang tersedia;
+- Mengaktifkan pembaruan otomatis untuk browser Anda dan secara berkala memeriksa secara manual bahwa tidak ada pembaruan yang tersedia;
 - Atau, jika Anda menggunakan versi yang dikemas secara manual (misalnya melalui `apt`, `flatpak`, atau `snap` di Linux), perbarui seluruh sistem secara berkala melalui manajer paket Anda.
 
 Untuk memeriksa versi secara manual dan melakukan pembaruan:
@@ -3214,7 +3214,7 @@ Ada beberapa keunggulan dalam menggunakan VPN. Ini melindungi penjelajahan Anda 
 
 Di sisi lain, bertentangan dengan kepercayaan populer, VPN tidak memberikan anonimitas. Penyedia VPN mengetahui alamat IP asli Anda, dapat merekam koneksi Anda, dan menjadi pihak ketiga tepercaya. Anda mendelegasikan seluruh aktivitas online Anda kepada mereka. Jika penyedia tersebut berbahaya, tunduk pada kewajiban hukum yang mengikat, atau lalai secara teknis, data Anda mungkin terekspos.
 
-Terlebih lagi, VPN tidak menawarkan perlindungan terhadap _malware_, pelacakan JavaScript, atau cookie pihak ketiga. Jika Anda masuk ke akun Google atau Facebook, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak menyaring konten, dan tidak akan mencegah halaman yang dipasangi jebakan untuk menyerang Anda melalui kerentanan peramban.
+Terlebih lagi, VPN tidak menawarkan perlindungan terhadap _malware_, pelacakan JavaScript, atau cookie pihak ketiga. Jika Anda masuk ke akun Google atau Facebook, menggunakan VPN tidak akan mencegah platform ini mengidentifikasi Anda secara akurat. VPN juga tidak menyaring konten, dan tidak akan mencegah halaman yang dipasangi jebakan untuk menyerang Anda melalui kerentanan browser.
 
 Selain itu, program VPN tidak boleh disalahartikan dengan jaringan Tor, yang merupakan jaringan relai terenkripsi yang terdesentralisasi untuk menjamin anonimitas yang jauh lebih kuat. Tor lebih lambat, tetapi jauh lebih kuat terhadap pengawasan global daripada VPN.
 
@@ -3230,426 +3230,218 @@ VPN yang terkenal sebaiknya dihindari. Meskipun pemasaran mereka agresif, layana
 
 ### Bersihkan riwayat dan cookie secara teratur
 
+Setiap situs web yang Anda kunjungi merekam data sesi secara lokal di komputer Anda, yang terdiri dari dua jenis utama: riwayat penjelajahan dan cookie.
 
+Riwayat adalah basis data lokal sederhana yang mencantumkan semua situs yang dikunjungi, beserta tanggal, judul, dan terkadang waktu kunjungan. Ini memudahkan untuk menemukan halaman yang sebelumnya dibuka. Namun di sisi lain, ini mengekspos semua pencarian online Anda kepada siapa pun yang memiliki akses ke sesi Anda (termasuk perangkat lunak berbahaya, atau kerabat yang ingin tahu).
 
-Setiap situs web yang Anda kunjungi merekam data sesi secara lokal di komputer Anda, yang terdiri dari dua jenis utama: riwayat penelusuran dan cookie.
+Sementara itu, cookie adalah berkas kecil yang disimpan oleh browser atas permintaan situs web. Cookie digunakan untuk mengingat sesi Anda (misalnya, agar tetap terhubung ke suatu situs), menyimpan preferensi Anda, atau melacak perilaku Anda untuk tujuan statistik. Beberapa cookie bersifat fungsional (yaitu, diperlukan agar situs berfungsi dengan baik), sementara yang lain adalah cookie pihak ketiga (ditempatkan oleh agen periklanan atau pelacak di halaman yang dikunjungi). Cookie pihak ketiga memungkinkan pelacakan lintas situs, terkadang selama bertahun-tahun, dengan menyilangkan kebiasaan penjelajahan Anda untuk membangun profil periklanan.
 
+Pembersihan rutin data lokal ini adalah cara sederhana namun efektif untuk membatasi pelacakan dan menjaga privasi Anda. Sebagian besar browser menawarkan opsi untuk:
 
+- Menghapus data ini secara manual (di dalam pengaturan);
+- Mengotomatiskan penghapusan setiap kali Anda menutup browser, atau untuk jangka waktu tertentu (saya merekomendasikan opsi ini);
+- Meluncurkan sesi sementara melalui mode penjelajahan pribadi (lebih lanjut tentang ini di bagian berikutnya).
 
-Riwayat adalah basis data lokal sederhana yang mencantumkan semua situs yang dikunjungi, dengan tanggal, judul, dan kadang-kadang waktu mereka dilihat. Riwayat ini memudahkan untuk menemukan halaman yang sebelumnya dibuka. Namun di sisi lain, ini mengekspos semua penelusuran online Anda kepada siapa pun yang memiliki akses ke sesi Anda (termasuk perangkat lunak berbahaya, atau kerabat yang ingin tahu).
+Di Firefox, misalnya, Anda dapat mengkonfigurasi penghapusan otomatis melalui Settings > Privacy & Security.
 
+Namun, perlu diingat bahwa hanya menghapus cookie saja tidak cukup untuk menjamin privasi Anda: teknik pelacakan lain yang lebih canggih ada, seperti fingerprinting (sidik jari unik dari browser, perangkat keras, IP Anda, penggunaan Anda...), yang memerlukan tindakan tambahan untuk mengatasinya:
 
-
-Di sisi lain, cookie adalah file kecil yang disimpan oleh browser atas permintaan situs web. Cookie digunakan untuk mengingat sesi Anda (misalnya untuk tetap terhubung ke sebuah situs), menyimpan preferensi Anda, atau melacak perilaku Anda untuk tujuan statistik. Beberapa cookie bersifat fungsional (misalnya diperlukan agar situs dapat berfungsi dengan baik), sementara yang lain bersifat pihak ketiga (ditempatkan oleh biro iklan atau pelacak pada halaman yang dikunjungi). Yang terakhir ini memungkinkan pelacakan lintas situs, terkadang selama bertahun-tahun, dengan merujuk silang kebiasaan browsing Anda untuk membuat profil iklan.
-
-
-
-Pembersihan data lokal ini secara teratur adalah cara yang sederhana namun efektif untuk membatasi pelacakan dan menjaga privasi Anda. Sebagian besar browser menawarkan opsi untuk:
-
-
-
-
-- untuk menghapus data ini secara manual (dalam pengaturan);
-- baik untuk menghapus secara otomatis setiap kali Anda menutup browser, atau untuk jangka waktu tertentu (saya sarankan opsi ini);
-- baik untuk meluncurkan sesi sementara melalui mode penjelajahan pribadi (lebih lanjut tentang hal ini di bagian berikutnya).
-
-
-
-Di Firefox, misalnya, Anda dapat mengonfigurasi penghapusan otomatis melalui Pengaturan > Privasi & Keamanan.
-
-
-
-Namun, perlu diingat bahwa menghapus cookie saja tidak cukup untuk menjamin privasi Anda: ada teknik pelacakan lain yang lebih canggih, seperti sidik jari (sidik jari unik dari browser Anda, perangkat keras Anda, IP Anda, penggunaan Anda...), yang memerlukan langkah-langkah tambahan untuk mengelak:
-
-
-
-
-- Gunakan browser yang menawarkan ketahanan sidik jari asli: Tor Browser dan Mullvad Browser adalah yang terbaik untuk ini, jika tidak, pilihan lain yang cukup bagus adalah LibreWolf, Brave atau Firefox dengan pengerasan manual;
-- Batasi atau blokir JavaScript bila memungkinkan;
+- Gunakan browser yang menawarkan resistensi fingerprinting bawaan: Tor Browser dan Mullvad Browser adalah yang terbaik untuk ini, atau opsi lain yang cukup baik adalah LibreWolf, Brave atau Firefox dengan pengerasan manual;
+- Batasi atau blokir JavaScript sedapat mungkin;
 - Hindari ekstensi yang tidak penting;
-- Secara umum, gunakan profil yang umum dan konsisten, untuk membaur lebih baik dan membatasi kemungkinan identifikasi.
-
-
+- Secara umum, adopsi profil yang biasa dan konsisten, untuk berbaur lebih baik dan membatasi kemungkinan identifikasi.
 
 ### Memahami penjelajahan pribadi
 
+Mode penjelajahan pribadi (private browsing), yang tersedia di semua browser modern (Firefox, Chrome, Brave, Safari...), sering disalahpahami. Mode ini bukanlah alat anonimitas, maupun perlindungan terhadap pelacakan online. Mode ini hanya membatasi perekaman data lokal di komputer Anda selama sesi aktif.
 
+Secara nyata, saat Anda membuka jendela dalam mode penjelajahan pribadi:
 
-Mode penjelajahan pribadi, yang tersedia di semua browser modern (Firefox, Chrome, Brave, Safari...), sering kali disalahpahami. Mode ini bukanlah alat anonimisasi, atau perlindungan terhadap pelacakan online. Mode ini hanya membatasi perekaman data lokal pada komputer Anda selama sesi aktif.
+- Riwayat penjelajahan tidak akan disimpan secara lokal di perangkat Anda;
+- Cookie yang dibuat selama sesi akan secara otomatis dihapus saat jendela ditutup;
+- Data formulir (bidang yang diisi, kata sandi) tidak akan disimpan;
+- File sementara yang terkait dengan halaman web akan dihapus setelah ditutup.
 
+Namun, mode ini tidak menyembunyikan aktivitas Anda secara online: situs web yang Anda kunjungi masih melihat alamat IP publik Anda, masih dapat mengeksploitasi teknik fingerprinting, dan ISP Anda, atau siapa pun di jaringan lokal Anda, masih dapat melihat situs yang Anda kunjungi.
 
-
-Secara konkret, ketika Anda membuka jendela dalam penjelajahan pribadi:
-
-
-
-
-- riwayat penjelajahan tidak akan disimpan secara lokal di perangkat Anda;
-- cookie yang dibuat selama sesi akan secara otomatis dihapus ketika jendela ditutup;
-- data formulir (kolom yang diisi, kata sandi) tidak akan disimpan;
-- file sementara yang ditautkan ke halaman web akan dihapus setelah ditutup.
-
-
-
-Namun, mode ini tidak menyembunyikan aktivitas online Anda: situs web yang Anda kunjungi masih dapat melihat IP publik Address Anda, masih dapat mengeksploitasi teknik sidik jari, dan ISP Anda, atau siapa pun di jaringan lokal Anda, masih dapat melihat situs-situs yang Anda kunjungi.
-
-
-
-Jadi, sangat penting untuk tidak mengacaukan penjelajahan pribadi dengan anonimitas. Untuk meningkatkan proteksi privasi online Anda, Anda perlu menggunakan peralatan pelengkap seperti Tor atau VPN yang bagus, tergantung pada tingkat ancamannya.
-
-
+Jadi, sangat penting untuk tidak mengacaukan penjelajahan pribadi dengan anonimitas. Untuk perlindungan yang ditingkatkan terhadap privasi online Anda, Anda perlu menggunakan aplikasi pelengkap seperti Tor atau VPN yang baik, tergantung pada tingkat ancaman.
 
 ![Image](assets/fr/127.webp)
 
-
-
 ### Mengidentifikasi dan menghindari phishing dan rekayasa sosial
 
+Phishing adalah bentuk rekayasa sosial yang digunakan untuk menipu pengguna agar mengungkapkan data sensitif tanpa sepengetahuan mereka: detail login, nomor kartu kredit, kode akses, dokumen rahasia. Ancaman ini tidak didasarkan pada kesalahan teknis, tetapi pada manipulasi psikologis, mengeksploitasi kepercayaan, ketergesaan, atau kurangnya pengetahuan pengguna.
 
+Dalam banyak kasus, serangan ini terdiri dari meniru tampilan situs resmi (bank, layanan pesan, administrasi, toko online, dll.) melalui situs web palsu dengan URL yang disamarkan. Pengguna menerima tautan penipuan melalui email, SMS, atau aplikasi pesan, dan, karena percaya mereka berinteraksi dengan situs yang sebenarnya, mereka memasukkan kredensial login mereka.
 
-Phishing adalah sebuah bentuk rekayasa sosial yang digunakan untuk mengelabui pengguna agar mengungkapkan data sensitif tanpa sepengetahuan mereka: detail login, nomor kartu kredit, kode akses, dokumen rahasia. Ancaman ini tidak didasarkan pada kesalahan teknis, tetapi pada manipulasi psikologis, mengeksploitasi kepercayaan, ketergesaan, atau kurangnya pengetahuan pengguna.
+Untuk menghindari serangan ini saat berselancar online, penting untuk mengikuti beberapa praktik dasar:
 
+- **Analisis URL**: Penyerang sering menggunakan alamat yang sangat mirip dengan yang asli (misalnya `micr0soft-support.com`, `paypal-verif.net`, dan lain-lain). Beberapa juga mengganti karakter yang mirip secara visual, mengeksploitasi karakter Unicode. Periksa bahwa alamat tersebut sama persis dengan situs yang diharapkan, tanpa awalan atau akhiran yang mencurigakan.
 
+- **Hindari Tautan yang Dipersingkat**: Layanan seperti `bit.ly` atau `t.co` dapat menyamarkan alamat situs web. Jika Anda menerima tautan yang dipersingkat, curigailah atau gunakan layanan ekspansi URL untuk memeriksa tujuannya.
 
-Pada kebanyakan kasus, serangan ini terdiri dari meniru tampilan situs resmi (bank, layanan pesan, administrasi, toko online, dll.) melalui situs web palsu dengan URL yang disamarkan. Pengguna menerima tautan palsu melalui email, SMS, atau aplikasi perpesanan, dan, karena percaya bahwa mereka berinteraksi dengan situs yang sebenarnya, mereka memasukkan kredensial login mereka.
+- **Waspadai Pesan yang Mengkhawatirkan**: Upaya phishing sering kali mengeksploitasi emosi yang kuat (urgensi, ancaman, hadiah, rasa ingin tahu...). Email yang mengklaim bahwa akun Anda akan diblokir atau bahwa paket tidak dapat dikirimkan tentu saja patut dicurigai.
 
+- **Jangan Pernah Mengirim Informasi Sensitif melalui Tautan yang Diterima**: Institusi yang sah tidak akan pernah meminta kata sandi, kode otentikasi, atau salinan ID Anda yang dipindai melalui email atau SMS biasa.
 
+Dan berikut adalah beberapa langkah pencegahan yang dapat Anda terapkan langsung di browser Anda untuk meminimalkan risiko phishing:
 
-Untuk menghindari serangan ini saat menjelajah online, penting untuk mengikuti praktik-praktik dasar tertentu:
+- **Akses Situs Penting Melalui Bookmark Anda**
+Untuk layanan penting (terkait perbankan, otoritas pajak, email, dll.), dan secara umum untuk semua situs yang Anda gunakan secara rutin, simpan URL resminya di bookmark Anda dan jangan pernah menggunakan mesin pencari atau tautan eksternal untuk menuju ke sana.
 
+Sebagai contoh, apakah Anda menerima email dari kantor pajak yang berisi tautan? Jangan klik tautan itu. Sebaliknya, pergilah langsung ke ruang pribadi Anda menggunakan URL yang telah Anda simpan di bookmark Anda. Saat ini, semua browser modern menawarkan bilah bookmark dengan opsi untuk mengatur tautan Anda ke dalam folder. Luangkan waktu untuk melakukannya sekali, periksa dengan cermat URL dan sertifikat SSL/TLS, dan Anda akan dapat menjelajah dengan lebih aman.
 
+- **Patuhi Aturan Otentikasi yang Baik**
+Sangat penting juga untuk mengikuti praktik otentikasi yang baik untuk membatasi potensi dampak serangan phishing. Dua aturan terpenting adalah menggunakan kata sandi unik untuk setiap layanan dan mengaktifkan 2FA.
 
+Mari kita ambil contoh: jika seorang penyerang berhasil mendapatkan kata sandi akun Steam Anda, tetapi Anda menggunakan kata sandi yang berbeda untuk setiap akun Anda, ia tidak akan dapat mengakses layanan yang lebih sensitif seperti email atau perbankan Anda. Dan jika Anda telah mengaktifkan otentikasi dua faktor (2FA), maka bahkan dengan kata sandi, penyerang tidak akan dapat masuk, karena ia tidak akan memiliki akses ke aplikasi TOTP Anda (seperti Authy, Google Authenticator...).
 
+Selain langkah-langkah ini, penggunaan pengelola kata sandi yang baik sebagai ekstensi browser juga dapat melindungi Anda dari situs web palsu. Memang, sebagian besar ekstensi ini akan mendeteksi URL yang mencurigakan dan menolak untuk mengisi kredensial Anda secara otomatis, atau bahkan memberi tahu Anda tentang hal itu, yang akan mencegah Anda secara tidak sengaja mengekspos detail akses Anda.
 
-- Analisis URL**: penyerang sering menggunakan alamat yang sangat mirip dengan alamat aslinya (misalnya `micr0soft-support.com`, `paypal-verif.net`, dan lain-lain). Beberapa juga mengganti karakter yang mirip secara visual, dengan memanfaatkan karakter Unicode. Periksa apakah Address sesuai dengan situs yang diharapkan, tanpa awalan atau akhiran yang mencurigakan.
+- **Periksa Sertifikat SSL/TLS**
+Ikon gembok di bilah alamat menunjukkan koneksi terenkripsi, tetapi tidak menjamin keabsahan situs. Klik ikon tersebut untuk memeriksa sertifikat (organisasi, domain, otoritas sertifikasi). Ini dapat membantu jika Anda memiliki keraguan tentang URL suatu situs web.
 
-
-
-
-
-- Hindari tautan yang dipendekkan**: layanan seperti `bit.ly` atau `t.co` dapat menyembunyikan Address akhir. Jika Anda menerima tautan yang dipendekkan, curigailah atau gunakan layanan perluasan URL untuk memeriksa tujuannya.
-
-
-
-
-
-- Waspadai pesan yang mengkhawatirkan**: upaya phishing sering kali memanfaatkan emosi yang kuat (urgensi, ancaman, imbalan, keingintahuan...). Email yang mengklaim bahwa akun Anda akan diblokir atau paket tidak dapat dikirim tentu saja mencurigakan.
-
-
-
-
-
-- Jangan pernah mengirimkan informasi sensitif melalui tautan yang diterima**: Institusi yang sah tidak akan pernah meminta kata sandi, kode autentikasi, atau salinan pindaian kartu identitas Anda melalui email atau SMS.
-
-
-
-Dan berikut ini adalah beberapa langkah pencegahan yang dapat Anda terapkan langsung di browser Anda untuk meminimalkan risiko phishing:
-
-
-
-
-
-- Mengakses situs penting melalui bookmark Anda**:
-
-
-
-Untuk layanan penting (terkait dengan perbankan, otoritas pajak, email, dll), dan secara umum untuk semua situs yang Anda gunakan secara teratur, simpan URL resmi di bookmark Anda dan jangan pernah menggunakan mesin pencari atau tautan eksternal untuk mencapainya.
-
-
-
-Apakah Anda menerima email dari kantor pajak yang berisi tautan? Jangan klik tautan tersebut. Sebaliknya, buka langsung ke ruang pribadi Anda menggunakan URL yang telah Anda simpan di bookmark. Saat ini, semua browser modern menawarkan bilah penanda dengan opsi untuk mengatur tautan Anda ke dalam folder. Luangkan waktu untuk melakukan hal ini sekali saja, dengan memeriksa URL dan sertifikat SSL/TLS dengan cermat, dan Anda akan dapat menjelajah dengan lebih aman.
-
-
-
-
-
-- Hormati praktik autentikasi yang baik** :
-
-
-
-Penting juga untuk mengikuti praktik autentikasi yang baik untuk membatasi potensi dampak serangan phishing. Dua aturan yang paling penting adalah menggunakan kata sandi unik untuk setiap layanan dan mengaktifkan 2FA.
-
-
-
-Mari kita ambil contoh: jika penyerang berhasil mendapatkan kata sandi akun Steam Anda, tetapi Anda menggunakan kata sandi yang berbeda untuk setiap akun, dia tidak akan dapat mengakses layanan yang lebih sensitif seperti email atau perbankan Anda. Dan jika Anda telah mengaktifkan autentikasi dua faktor (2FA), maka bahkan dengan kata sandi, penyerang tidak akan dapat masuk, karena dia tidak akan memiliki akses ke aplikasi TOTP Anda (seperti Authy, Google Authenticator...).
-
-
-
-Selain langkah-langkah ini, penggunaan pengelola kata sandi yang baik sebagai ekstensi browser juga dapat melindungi Anda dari situs web palsu. Memang, sebagian besar ekstensi ini akan mendeteksi URL yang mencurigakan dan menolak mengisi kredensial Anda secara otomatis, atau bahkan memberi tahu Anda tentang hal itu, yang akan mencegah Anda secara tidak sengaja mengekspos detail akses Anda.
-
-
-
-
-
-- Periksa sertifikat SSL/TLS**:
-
-
-
-Ikon gembok pada bilah Address mengindikasikan koneksi terenkripsi, tetapi tidak menjamin keabsahan situs tersebut. Klik di atasnya untuk memeriksa sertifikat (organisasi, domain, otoritas sertifikasi). ini dapat membantu jika Anda ragu dengan URL situs web.
-
-
-
-Phishing hanya berhasil jika Anda mengklik terlalu cepat. Untuk setiap tautan yang Anda terima, kembangkan kebiasaan memverifikasi secara sistematis, bahkan untuk situs yang Anda kenal. Meluangkan waktu untuk memeriksa dan memverifikasi URL dengan cermat, bahkan yang sudah dikenal sekalipun, adalah salah satu pertahanan terbaik terhadap jenis serangan ini.
-
-
+Phishing hanya berhasil jika Anda mengklik terlalu cepat. Untuk setiap tautan yang Anda terima, kembangkan kebiasaan untuk memverifikasi secara sistematis, bahkan untuk situs yang Anda kenal. Meluangkan waktu untuk memeriksa dan memverifikasi URL dengan cermat, bahkan yang sudah akrab, adalah salah satu pertahanan terbaik terhadap jenis serangan ini.
 
 ### Memeriksa ekstensi yang terpasang
 
+Ekstensi browser adalah modul yang menambahkan fitur (ad blocking, terjemahan, pencatatan, manajer kata sandi, Bitcoin Wallet, dll.). Ekstensi ini berjalan langsung di lingkungan browser dan dapat mengakses seluruh atau sebagian dari halaman yang Anda kunjungi. Hal ini membuat mereka kuat, tetapi juga berpotensi berbahaya.
 
+Ekstensi yang berbahaya atau disusupi dapat mencegat data pribadi Anda, membaca konten, menyuntikkan kode ke halaman web, atau bahkan mengeksekusi JavaScript di latar belakang. Beberapa ekstensi mempertahankan akses permanen ke tab yang terbuka atau riwayat penjelajahan, jauh melebihi apa yang diperlukan untuk operasionalnya.
 
-Ekstensi browser adalah modul yang menambahkan fitur (pemblokiran iklan, terjemahan, pencatatan, pengelola kata sandi, Dompet Bitcoin, dan lain-lain). Ekstensi browser berjalan langsung di lingkungan browser dan dapat mengakses semua atau sebagian halaman yang Anda kunjungi. Hal ini membuat mereka sangat kuat, tetapi juga berpotensi berbahaya.
+Untuk membatasi risiko ini, instal hanya ekstensi dari sumber resmi (Mozilla Add-ons), selalu periksa izin yang diminta, dan batasi jumlahnya seminimal mungkin. Hapus ekstensi yang tidak lagi Anda gunakan, dan waspadai terhadap kloningan.
 
-
-
-Ekstensi yang berbahaya atau terkompromi dapat mencegat data pribadi Anda, membaca konten, menyuntikkan kode ke dalam halaman web, atau bahkan menjalankan JavaScript di latar belakang. Beberapa ekstensi mempertahankan akses permanen ke tab yang terbuka atau riwayat penelusuran, jauh melampaui apa yang diperlukan untuk pengoperasiannya.
-
-
-
-Untuk membatasi risiko ini, instal hanya ekstensi dari sumber resmi (Pengaya Mozilla), selalu periksa izin yang diminta, dan jaga agar jumlahnya seminimal mungkin. Hapus ekstensi yang tidak lagi Anda gunakan, dan waspadalah terhadap kloningan.
-
-
-
-Memeriksa ekstensi Anda secara teratur adalah bagian penting untuk menjaga keamanan browser Anda.
-
-
+Pemeriksaan rutin terhadap ekstensi Anda adalah bagian penting untuk menjaga browser Anda tetap aman.
 
 ### Pisahkan penggunaan web Anda
 
+Pengelompokan aktivitas adalah praktik penting untuk membatasi ruang lingkup penyusupan di web. Ini terdiri dari pemisahan teknis penggunaan internet Anda yang berbeda: pribadi, profesional, atau penjelajahan yang sensitif.
 
+Tujuannya sederhana: mencegah insiden yang melibatkan aktivitas tertentu (seperti kebocoran cookie, serangan, atau pencurian sesi) mengkontaminasi seluruh lingkungan digital Anda. Beberapa metode dapat digunakan, secara sendiri-sendiri atau dalam kombinasi:
 
-Kompartementalisasi aktivitas adalah praktik penting untuk membatasi ruang lingkup kompromi di web. Hal ini terdiri dari pemisahan secara teknis penggunaan internet Anda yang berbeda: penjelajahan pribadi, profesional, pribadi, atau sensitif.
+- **Gunakan Beberapa browser yang Berbeda :** Sebagai contoh, gunakan Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas sensitif, dan Chromium untuk tugas profesional. Setiap browser menggunakan tempat penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Ini juga memungkinkan Anda untuk menyesuaikan pengaturan browser sesuai dengan kasus penggunaan spesifik Anda.
 
+- **Buat Banyak Profil dalam Satu browser :** Beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit kurang membatasi daripada menggunakan beberapa browser terpisah, tetapi masih kurang efektif.
 
-
-Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (seperti kebocoran cookie, serangan, atau pencurian sesi) agar tidak mencemari seluruh lingkungan digital Anda. Beberapa metode dapat digunakan, baik secara sendiri-sendiri maupun dikombinasikan:
-
-
-
-
-
-- Gunakan beberapa browser yang berbeda**: misalnya, Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas yang sensitif, dan Chromium untuk tugas-tugas profesional. Setiap browser menggunakan contoh penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Hal ini juga memungkinkan Anda untuk menyesuaikan pengaturan browser dengan kasus penggunaan spesifik Anda.
-
-
-
-
-
-- Buat beberapa profil dalam satu browser**: beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit lebih longgar daripada menggunakan beberapa browser terpisah, tetapi masih kurang efektif.
-
-
-
-
-
-- Gunakan wadah bawaan**: Firefox menawarkan ekstensi [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), yang memungkinkan anda membuka tab terpisah, masing-masing dengan login dan kuki sendiri. Anda juga dapat secara otomatis menetapkan situs tertentu ke wadah tertentu, agar tetap terpisah setiap kali dibuka.
-
-
+- **Gunakan Kontainer Bawaan :** Firefox menawarkan ekstensi [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), yang memungkinkan Anda membuka tab terpisah, masing-masing dengan login dan cookie sendiri. Anda juga dapat secara otomatis menetapkan situs tertentu ke kontainer khusus, untuk memisahkannya setiap kali dibuka.
 
 ![Image](assets/fr/126.webp)
 
-
-
-
-
-- Gunakan lingkungan sistem yang terisolasi**: Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan browser di dalam mesin virtual atau kontainer Docker, untuk menjaganya agar tetap terpisah dari lingkungan utama.
-
+- **Gunakan Lingkungan Sistem yang Terisolasi :** Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan browser Anda di dalam mesin virtual atau kontainer Docker, untuk menjaganya tetap sepenuhnya terpisah dari lingkungan utama Anda.
 
 
 ### Batasi situs web yang diberikan izin
 
+browser modern memungkinkan situs untuk meminta akses ke sumber daya sensitif pada perangkat Anda, seperti kamera, mikrofon, geolokasi, atau notifikasi sistem. Fitur-fitur ini berguna untuk aplikasi tertentu (videoconference, peta interaktif...), tetapi juga membuka pintu untuk penyalahgunaan jika tidak dikontrol dengan baik.
 
+Ketika sebuah situs meminta Anda untuk akses ke salah satu sumber daya ini, browser menampilkan pop-up yang harus Anda terima. Namun, jika Anda menerimanya sekali tanpa menyadari, izin ini dapat tetap terus aktif untuk semua kunjungan Anda di masa mendatang ke situs ini. Ini berarti, misalnya, sebuah situs dapat mengaktifkan mikrofon atau kamera Anda lagi tanpa meminta Anda, jika Anda belum mencabut hak ini secara manual.
 
-browser modern memungkinkan situs meminta akses ke sumber daya sensitif pada perangkat Anda, seperti kamera, mikrofon, geolokasi, atau pemberitahuan sistem. Fitur-fitur ini berguna untuk aplikasi tertentu (konferensi video, peta interaktif...), tetapi juga membuka pintu penyalahgunaan jika tidak dikontrol dengan baik.
+Untuk Keamanan Tambahan :
 
-
-
-Ketika sebuah situs meminta akses ke salah satu sumber daya ini, browser akan menampilkan pop-up yang harus Anda terima. Namun, jika Anda menerimanya sekali tanpa menyadarinya, izin ini mungkin akan terus aktif untuk semua kunjungan Anda ke situs ini di masa mendatang. Ini berarti, misalnya, situs dapat mengaktifkan mikrofon atau kamera Anda lagi tanpa meminta Anda, jika Anda belum mencabut hak ini secara manual.
-
-
-
-Untuk keamanan tambahan:
-
-
-
-
-- Berikan izin hanya jika benar-benar diperlukan untuk fitur yang sah;
-- Pilih opsi "izinkan sekali" jika tersedia;
+- Berikan izin hanya ketika benar-benar diperlukan untuk fitur yang sah;
+- Pilih opsi "allow once / izinkan sekali" jika tersedia;
 - Secara manual mencabut izin yang diberikan melalui pengaturan browser secara teratur.
-
-
 
 ![Image](assets/fr/125.webp)
 
-
-
 ### Periksa koneksi aman (HTTPS)
 
+Setiap kali Anda mengirimkan informasi pribadi, rahasia, atau keuangan ke situs web, baik itu kata sandi, nomor kartu kredit, atau formulir pendaftaran sederhana, penting untuk memastikan bahwa koneksi antara browser Anda dan situs tersebut dienkripsi.
 
+Inilah peran HTTPS (*HyperText Transfer Protocol Secure*). Protokol ini didasarkan pada enkripsi TLS (*Transport Layer Security*), yang memungkinkan untuk:
 
-Setiap kali Anda mengirimkan informasi pribadi, rahasia, atau keuangan ke sebuah situs web, baik itu kata sandi, nomor kartu kredit, atau formulir pendaftaran sederhana, penting untuk memastikan bahwa koneksi antara browser Anda dan situs tersebut dienkripsi.
+- Mengenkripsi data yang dipertukarkan (tidak ada yang dapat membaca atau memodifikasinya saat transit);
+- Memverifikasi keaslian server jarak jauh melalui sertifikat digital;
+- Mencegah serangan man-in-the-middle (MITM), yang umum terjadi pada jaringan publik atau yang disusupi.
 
-
-
-Inilah peran HTTPS (*HyperText Transfer Protocol Secure*). Protokol ini didasarkan pada enkripsi TLS (*Transport Layer Security*), yang memungkinkan :
-
-
-
-
-- mengenkripsi data yang dipertukarkan (tidak ada yang bisa membaca atau memodifikasinya dalam perjalanan);
-- memverifikasi keaslian server jarak jauh melalui sertifikat digital;
-- mencegah serangan man-in-the-middle (MITM), yang biasa terjadi pada jaringan publik atau jaringan yang disusupi.
-
-
-
-Secara konkret, situs yang mendukung HTTPS ditandai dengan gembok tertutup pada bilah Address browser Anda, biasanya pada bagian kiri atas Interface. Mengeklik gembok ini akan menampilkan informasi tentang sertifikat TLS situs tersebut (otoritas sertifikasi, tanggal validitas, dll.). Situs Address juga secara sistematis dimulai dengan `https://`.
-
-
+Secara nyata, situs yang mengaktifkan HTTPS ditandai dengan ikon gembok tertutup di bilah alamat browser Anda, biasanya di kiri atas Interface. Mengklik gembok ini akan menampilkan informasi tentang sertifikat TLS situs (otoritas sertifikasi, tanggal validitas, dll.). Alamat situs juga secara sistematis dimulai dengan `https://`.
 
 ![Image](assets/fr/124.webp)
 
+Sebaliknya, jika situs masih menggunakan HTTP (tanpa "S"), koneksinya tidak terenkripsi. Setiap informasi yang dimasukkan kemudian dapat dicegat oleh aktor berbahaya yang berada di antara Anda dan situs: operator jaringan, penyedia akses, hotspot Wi-Fi yang dipasangi jebakan, _malware_ lokal, dll.
 
+Secara teori, Anda harus selalu memeriksa informasi ini secara manual sebelum memasukkan data di situs web. Dalam praktiknya, sebagian besar browser modern secara otomatis menandai situs HTTP sebagai tidak aman. Anda juga dapat mengaktifkan opsi untuk memaksa penggunaan protokol HTTPS di pengaturan keamanan browser Anda, memungkinkan Anda untuk memblokir situs yang tidak mendukungnya.
 
-Sebaliknya, jika situs masih menggunakan HTTP (tanpa "S"), koneksi tidak terenkripsi. Informasi apa pun yang dimasukkan kemudian dapat dicegat oleh aktor jahat yang berada di antara Anda dan situs tersebut: operator jaringan, penyedia akses, hotspot Wi-Fi jebakan, *malware* lokal, dll.
-
-
-
-Secara teori, Anda harus selalu memeriksa informasi ini secara manual sebelum memasukkan data pada sebuah situs web. Pada praktiknya, sebagian besar browser modern secara otomatis menandai situs HTTP sebagai situs yang tidak aman. Anda juga dapat mengaktifkan opsi untuk memaksa penggunaan protokol HTTPS dalam pengaturan keamanan browser, sehingga Anda dapat memblokir situs yang tidak mendukungnya.
-
-
-
-Faktanya, sangat sedikit situs saat ini yang dapat diakses hanya melalui HTTP. Protokol ini sebagian besar ditinggalkan dan memilih HTTPS, tidak hanya karena alasan keamanan yang jelas, tetapi juga karena protokol ini dihukum oleh mesin pencari dan ditandai sebagai berpotensi berbahaya oleh browser modern, yang tidak membangkitkan kepercayaan di antara para pengunjung.
-
-
+Faktanya, sangat sedikit situs saat ini yang hanya dapat diakses melalui HTTP. Protokol ini sebagian besar telah ditinggalkan demi HTTPS, tidak hanya karena alasan keamanan yang jelas, tetapi juga karena protokol ini diberi sanksi oleh mesin pencari dan ditandai sebagai berpotensi berbahaya oleh browser modern, yang tidak menumbuhkan kepercayaan di antara pengunjung.
 
 ### Pilihan mesin pencari
 
-
-
-Seperti yang telah kita lihat, penting untuk membedakan antara dua Elements yang sering membingungkan: browser, yang merupakan aplikasi yang terinstal di komputer Anda (seperti Firefox atau Brave) dan digunakan untuk menampilkan halaman web, dan mesin pencari, yang merupakan layanan online (seperti Google) tempat Anda mengirimkan pertanyaan untuk mendapatkan hasil. Kedua Elements ini bersifat independen, meskipun browser sering kali mengintegrasikan mesin tertentu secara default.
-
-
+Seperti yang telah kita lihat, penting untuk membedakan antara dua elemen yang sering kali membingungkan: browser, yang merupakan aplikasi yang dipasang di komputer Anda (seperti Firefox atau Brave) dan digunakan untuk menampilkan halaman web, dan mesin pencari, yang merupakan layanan online (seperti Google) tempat Anda mengirimkan kueri untuk mendapatkan hasil. Kedua elemen ini independen, meskipun browser sering kali mengintegrasikan mesin pencari tertentu secara default.
 
 ![Image](assets/fr/122.webp)
 
+Mesin pencari yang Anda gunakan memiliki pengaruh langsung pada privasi Anda. Faktanya, setiap pencarian yang Anda lakukan dapat:
 
+- Dikaitkan dengan alamat IP Anda jika Anda tidak menggunakan Tor atau VPN;
+- Dihubungkan ke login dan kata sandi Anda jika Anda terhubung ke suatu akun;
+- Disimpan dan dianalisis untuk membuat profil perilaku;
+- Digunakan untuk iklan bertarget atau dijual kembali kepada pihak ketiga.
 
-Mesin pencari yang Anda gunakan memiliki pengaruh langsung pada privasi Anda. Bahkan, setiap pencarian yang Anda lakukan dapat :
+Jadi, mesin pencari seperti Google menyediakan hasil yang cepat dan relevan (meskipun [beberapa penelitian menunjukkan] (https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) bahwa Google menjadi semakin kurang efektif), tetapi dengan mengorbankan pemantauan sistematis terhadap kueri Anda. Bing (Microsoft) dan Yahoo mengikuti model serupa dalam mengumpulkan aktivitas online Anda untuk memasok jaringan periklanan mereka.
 
+Untuk membatasi pelacakan ini, kami merekomendasikan untuk memilih mesin pencari yang menghormati privasi dan tidak menyimpan pengenal pribadi atau riwayat pencarian Anda:
 
-
-
-- terkait dengan IP Anda Address jika Anda tidak menggunakan Tor atau VPN;
-- ditautkan ke login dan kata sandi Anda jika Anda terhubung ke akun;
-- disimpan dan dianalisis untuk membuat profil perilaku;
-- digunakan untuk iklan bertarget atau dijual kembali kepada pihak ketiga.
-
-
-
-Jadi mesin seperti Google memberikan hasil yang cepat dan relevan (meskipun [beberapa penelitian menunjukkan] (https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) bahwa Google menjadi semakin tidak efektif), tetapi dengan mengorbankan pemantauan secara sistematis terhadap kueri Anda. Bing (Microsoft) dan Yahoo mengikuti model yang sama dalam mengumpulkan aktivitas online Anda untuk memasok jaringan periklanan mereka.
-
-
-
-Untuk membatasi pelacakan ini, kami sarankan untuk memilih mesin pencari yang menghargai privasi yang tidak menyimpan pengenal pribadi atau riwayat pencarian Anda:
-
-
-
-
-- [Halaman awal](https://www.startpage.com/);
+- [Startpage](https://www.startpage.com/);
 - [Kagi Search](https://kagi.com/);
 - [Qwant](https://www.qwant.com/);
 - [Mojeek](https://www.mojeek.com/);
 - [SearXNG] (https://docs.searxng.org/) (yang dapat dihosting sendiri).
 
-
-
 ![Image](assets/fr/123.webp)
 
+Di sebagian besar browser, Anda dapat secara manual mengonfigurasi mesin pencari default di dalam pengaturan. Ini memungkinkan Anda untuk menghindari Google tanpa harus mengubah browser Anda.
 
+Praktik terbaik yang disajikan dalam bab ini membentuk dasar untuk penjelajahan yang lebih aman dan berdaulat. Jika Anda menerapkannya secara rutin, Anda akan secara signifikan mengurangi resiko Anda terhadap ancaman.
 
-Pada sebagian besar browser, Anda dapat secara manual mengonfigurasi mesin pencari default di pengaturan. Hal ini memungkinkan Anda menghindari Google tanpa mengubah browser.
-
-
-
-Praktik-praktik terbaik yang disajikan dalam bab ini menjadi dasar bagi penjelajahan yang lebih aman dan berdaulat. Jika Anda menerapkannya secara teratur, Anda akan secara signifikan mengurangi paparan terhadap ancaman.
-
-
-
-Setelah kita melihat penggunaan browser dan komputer, di bagian selanjutnya kita akan membahas cara mendapatkan kembali kendali atas ponsel kita.
-
-
-
-
-
+Sekarang kita telah melihat penggunaan browser dan komputer, di bagian berikutnya kita akan membahas cara untuk mendapatkan kembali kendali atas ponsel kita.
 
 # Mengambil kembali kendali ponsel Anda
 
-
 <partId>5f0ef9ad-5701-4620-89bf-eb6937adccac</partId>
-
 
 ## Sistem operasi seluler: Memahami masalah
 
-
 <chapterId>020329e9-a2cb-464b-bb4c-ee4f0e5346c6</chapterId>
 
+Sejauh ini, kita telah berfokus pada pengamanan dan penggunaan komputer Anda. Namun, bagi sebagian besar orang, smartphone kini menjadi perangkat digital yang paling sering digunakan dalam kehidupan sehari-hari.
 
-Sejauh ini, kami telah berfokus terutama pada pengamanan dan penggunaan komputer Anda. Namun, bagi sebagian besar orang, ponsel cerdas kini merupakan perangkat digital yang paling banyak digunakan dalam kehidupan sehari-hari.
+Berbeda dengan komputer, ponsel umumnya beroperasi pada sistem tertutup yang dikendalikan ketat oleh produsennya. Oleh karena itu, di bagian ini, saya mengusulkan agar kita mengeksplorasi tantangan spesifik terkait dengan sistem operasi seluler.
 
-
-Tidak seperti komputer, ponsel umumnya beroperasi pada sistem tertutup, yang dikontrol secara ketat oleh produsennya. Oleh karena itu, pada bagian ini, saya mengusulkan agar kita menjelajahi tantangan khusus yang terkait dengan sistem operasi seluler.
-
-
-### Android: Dari sumber terbuka hingga kontrol Google
-
+### Android: Dari open source hingga kontrol Google
 
 #### Sejarah singkat Android
 
+Android kini mendominasi smartphone global, dengan sekitar 72% perangkat yang beredar. Pengembangannya dimulai pada tahun 2003 dengan pendirian Android Inc. oleh Andy Rubin, Rich Miner, Nick Sears, dan Chris White. Tujuan awal mereka adalah untuk merancang sistem operasi untuk kamera digital.
 
-Android kini mendominasi pasar ponsel pintar global, dengan sekitar 72% perangkat yang beredar. Perkembangannya dimulai pada tahun 2003 dengan didirikannya Android Inc. oleh Andy Rubin, Rich Miner, Nick Sears dan Chris White. Tujuan awal mereka adalah merancang sistem operasi untuk kamera digital.
+Setelah beberapa penolakan dari investor, Android Inc. memutuskan untuk mengarahkan kembali proyeknya ke arah penciptaan sistem operasi seluler. Sebagai gambaran, pada tahun 2003-2004, pasar ponsel sedang booming, sebagian besar didominasi oleh produsen seperti Nokia, Motorola, Sony Ericsson, dan Samsung. Mayoritas perangkat adalah "ponsel biasa," yang dilengkapi dengan papan ketik fisik, layar berwarna kecil, dan terkadang kamera dasar. Smartphone sudah ada, tetapi terutama ditujukan untuk para profesional, dan dibawa oleh merek seperti BlackBerry.
 
+Google membeli Android Inc. pada tahun 2005 dengan harga sekitar $50 juta. Antara tahun 2005 dan 2007, perusahaan ini mengembangkan sistem operasinya secara internal, tanpa membuat versi publik. Selama periode ini, ada rumor bahwa Google sedang mempersiapkan perangkat seluler, mungkin terinspirasi dari BlackBerry, yang saat itu dengan cepat mendapatkan popularitas.
 
-Setelah beberapa kali ditolak oleh para investor, Android Inc. memutuskan untuk mengubah orientasi proyeknya ke arah pembuatan sistem operasi seluler. Sebagai gambaran, pada tahun 2003-2004, pasar ponsel sedang berkembang pesat, sebagian besar didominasi oleh produsen seperti Nokia, Motorola, Sony Ericsson, dan Samsung. Mayoritas perangkat adalah "ponsel biasa", dilengkapi dengan keyboard fisik, layar warna kecil, dan terkadang kamera dasar. Ponsel pintar sudah ada, tetapi terutama ditujukan untuk para profesional, dan dibawa oleh merek-merek seperti BlackBerry.
+Namun pada Januari 2007, sebuah peristiwa menandai titik balik utama dalam sejarah smartphone: Steve Jobs meluncurkan iPhone generasi pertama. Keyakinan umum bahwa papan ketik fisik sangat diperlukan menjadi runtuh. iPhone memperkenalkan perangkat yang dirancang untuk penggunaan sepenuhnya berbasis sentuhan, yang secara mandiri mendefinisikan kembali ekspektasi pasar.
 
+Menghadapi revolusi ini, Google terpaksa memikirkan kembali secara total arah proyek Android-nya agar kompatibel dengan Interface yang sensitif terhadap sentuhan. Kemudian pada tahun 2007, Google secara resmi meluncurkan Android sebagai proyek open source yang didasarkan pada kernel Linux yang dimodifikasi, di bawah nama _Android open-source Project (AOSP)_.
 
-Google membeli Android Inc. pada tahun 2005 dengan harga sekitar $50 juta. Antara tahun 2005 dan 2007, perusahaan ini mengembangkan sistem operasinya secara internal, tanpa membuat versi publik. Selama periode ini, ada rumor bahwa Google sedang mempersiapkan perangkat seluler, mungkin mengambil inspirasi dari BlackBerry, yang saat itu dengan cepat mendapatkan popularitas.
-
-
-Namun pada bulan Januari 2007, sebuah peristiwa menandai titik balik besar dalam sejarah ponsel pintar: Steve Jobs meluncurkan iPhone generasi pertama. Keyakinan umum bahwa keyboard fisik sangat diperlukan telah hancur. IPhone memperkenalkan perangkat yang dirancang untuk penggunaan berbasis sentuhan sepenuhnya, yang secara tunggal mengubah ekspektasi pasar.
-
-
-Menghadapi revolusi ini, Google terpaksa memikirkan kembali arah proyek Android-nya agar kompatibel dengan Interface yang peka terhadap sentuhan. Kemudian pada tahun 2007, Google secara resmi meluncurkan Android sebagai proyek sumber terbuka berdasarkan kernel Linux yang dimodifikasi, dengan nama *Android open-source Project (AOSP)*.
-
-
-Perangkat bertenaga Android pertama yang masuk ke pasar, HTC Dream, dirilis pada tahun 2008. Sistem operasi ini menawarkan lingkungan yang masih belum sempurna, tetapi sepenuhnya terbuka: produsen dan operator dapat dengan bebas menyesuaikan sistem dengan kebutuhan mereka, sementara pengembang dapat membuat dan mendistribusikan aplikasi tanpa validasi sebelumnya. Pendekatan ini dengan cepat memenangkan hati komunitas yang aktif dan berkontribusi pada adopsi Android secara luas oleh banyak produsen.
-
+Perangkat bertenaga Android pertama yang mencapai pasar, HTC Dream, dirilis pada tahun 2008. Perangkat ini menawarkan lingkungan yang masih sederhana, tetapi sepenuhnya terbuka: produsen dan operator dapat dengan bebas menyesuaikan sistem dengan kebutuhan mereka, sementara pengembang dapat membuat dan mendistribusikan aplikasi tanpa validasi sebelumnya. Pendekatan ini dengan cepat memenangkan hati komunitas yang aktif dan berkontribusi pada adopsi Android secara luas oleh banyak produsen.
 
 ![Image](assets/fr/131.webp)
 
-
 *Sumber : [Oleh Akela NDE - Karya sendiri](https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
 
+Namun, keterbukaan awal ini secara bertahap akan dibatasi oleh Google. Bersamaan dengan kode open source AOSP, perusahaan ini mengembangkan serangkaian aplikasi dan API eksklusif, yang dikelompokkan bersama di bawah nama *Google Mobile Services (GMS)*. Ini secara progresif akan mencakup aplikasi Play Store, Google Maps, YouTube, Google Play Services, Gmail, Chrome, dan Voice Assistant. Agar dapat memasang Play Store di awal, produsen sekarang harus menandatangani perjanjian lisensi dengan Google dan menjamin kompatibilitas perangkat mereka dengan standar GMS, yang secara signifikan membatasi ruang lingkup mereka untuk penyesuaian.
 
-Namun, keterbukaan awal ini secara bertahap akan dibatasi oleh Google. Bersamaan dengan kode sumber terbuka AOSP, perusahaan ini mengembangkan serangkaian aplikasi dan API eksklusif, yang dikelompokkan bersama dengan nama *Google Mobile Services (GMS)*. Secara bertahap, aplikasi-aplikasi tersebut akan mencakup Play Store, Google Maps, YouTube, Google Play Services, Gmail, Chrome, dan Voice Assistant. Untuk dapat melakukan pra-instalasi Play Store, produsen sekarang harus menandatangani perjanjian lisensi dengan Google dan menjamin kompatibilitas perangkat mereka dengan standar GMS, yang sangat membatasi ruang lingkup penyesuaian mereka.
-
-
-Android mengalami peningkatan pesat: Android mengambil alih pangsa pasar iOS pada awal Juli 2011, dan menjadi sistem operasi seluler yang dominan pada Juni 2012, menyusul runtuhnya SymbianOS secara tiba-tiba setelah Nokia meninggalkannya dan memilih Windows Phone. Sejak saat itu, Android tetap menjadi pemimpin pasar ponsel yang tak terbantahkan, dan saat ini membentuk duopoli dengan iOS.
-
+Android mengalami kebangkitan yang pesat: ia menyalip iOS dalam pangsa pasar pada Juli 2011, dan menjadi sistem operasi seluler yang dominan pada Juni 2012, menyusul runtuhnya SymbianOS secara tiba-tiba setelah Nokia meninggalkannya demi Windows Phone. Android sejak itu tetap menjadi pemimpin pasar seluler yang tak terbantahkan, dan kini membentuk duopoli dengan iOS.
 
 ![Image](assets/fr/130.webp)
 
+#### Open source vs Google
 
-#### Sumber terbuka vs Google
+Proyek Android didasarkan pada dualitas struktural. Di satu sisi, _AOSP (Android open-source Project)_ merepresentasikan basis open source dari sistem ini: mencakup kernel Linux, tumpukan perangkat lunak sistem, grafis Interface minimal, dan serangkaian API. Basis ini diterbitkan di bawah lisensi Apache 2.0, dan tetap dapat diakses oleh semua orang. Di sisi lain, lingkungan yang benar-benar digunakan oleh sebagian besar pengguna Android hampir sepenuhnya bergantung pada komponen eksklusif yang dikembangkan oleh Google: _Google Mobile Services (GMS)_.
 
+Komponen-komponen ini tidak bersifat open-source: tidak dapat diaudit secara bebas oleh komunitas, juga tidak mudah diganti. Agar dapat memasangnya secara legal di perangkat mereka, produsen harus menandatangani perjanjian lisensi dengan Google dan tunduk pada persyaratan teknis dan komersial yang ketat. Persyaratan ini meliputi:
 
-Proyek Android didasarkan pada dualitas struktural. Di satu sisi, AOSP (*Android open-source Project*) mewakili basis open-source sistem: AOSP meliputi kernel Linux, tumpukan perangkat lunak sistem, grafis minimal Interface dan seperangkat API. Basis ini dipublikasikan di bawah lisensi Apache 2.0, dan tetap dapat diakses oleh semua orang. Di sisi lain, lingkungan yang sebenarnya digunakan oleh sebagian besar pengguna Android hampir seluruhnya bergantung pada komponen eksklusif yang dikembangkan oleh Google: *Google Mobile Services* (GMS).
-
-
-Komponen-komponen ini tidak bersifat open-source: komponen ini tidak dapat diaudit secara bebas oleh komunitas, dan juga tidak mudah diganti. Agar dapat melakukan pra-instalasi secara legal pada perangkat mereka, produsen harus menandatangani perjanjian lisensi dengan Google dan tunduk pada persyaratan teknis dan komersial yang ketat. Persyaratan ini meliputi:
-
-
-
-- integrasi wajib beberapa aplikasi Google sebagai aplikasi sistem yang tidak dapat dicopot pemasangannya
-- penyorotan visual aplikasi tertentu (Google Penelusuran, Play Store, Gemini, dll.) di layar beranda
-- penggunaan eksklusif Google API untuk fungsi-fungsi penting seperti sinkronisasi, pemberitahuan push, dan geolokasi
-
+- Integrasi wajib beberapa aplikasi Google sebagai aplikasi sistem yang tidak dapat dicopot
+- Penekanan visual aplikasi tertentu (Google Search, Play Store, Gemini, dll.) di layar utama
+- Penggunaan eksklusif API Google untuk fungsi-fungsi penting seperti sinkronisasi, push notifications, dan geolokasi
 
 ![Image](assets/fr/132.webp)
 

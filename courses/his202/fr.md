@@ -26,7 +26,7 @@ Le Far West a une image forte dans l'imaginaire américain, et par extension dan
 >
 > original: "Bitcoin is absolutely the Wild West of finance, and thank goodness. It represents a whole legion of adventurers and entrepreneurs, of risk takers, inventors, and problem solvers. It is the frontier. Huge amounts of wealth will be created and destroyed as this new landscape is mapped out. I believe the effects of this adventure will be profound, for while the 'Wild West' was a uniquely American phenomenon, Bitcoin is a global one."
 
-Ce n'est pas non plus pour rien que le blogueur Jimbobway [qualifiait](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) le développement du minage de Bitcoin en 2010 comme une « ruée vers l'or numérique » (original: "digital gold rush"). Dans un mouvement qui se prolongerait jusqu'en 2014 au moins, les individus pourraient miner des bitcoins eux-mêmes grâce à des outils de plus en plus perfectionnés, jusqu'à la généralisation des circuits intégrés spécialisés et au développement des premières fermes de taille industrielle.
+Ce n'est pas non plus pour rien que le blogueur Jimbobway [qualifiait](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) le développement du minage de Bitcoin en 2010 comme une « ruée vers l'or numérique » (original: "digital gold rush"). En 2013, le journaliste Alec Liu [ferait](https://web.archive.org/web/20130328041052/http://motherboard.vice.com/blog/engineering-the-bitcoin-gold-rush-an-interview-with-yifu-guo-creator-of-the-first-asic-based-miner) aussi la référence dans un article pour Motherload à propos de Yifu Guo, l'inventeur d'un des premiers ASIC fonctionnels. Dans un mouvement qui se prolongerait jusqu'en 2014 au moins, les individus pourraient miner des bitcoins eux-mêmes grâce à des outils de plus en plus perfectionnés, jusqu'à la généralisation des circuits intégrés spécialisés et au développement des premières fermes de taille industrielle.
 
 Le « Far West de la cryptomonnaie » (original: "the Wild West of cryptocurrency") est une période durant laquelle, comme l'a expliqué [Michael del Castillo](https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/), « on pensait que le bitcoin n'était pas règlementé, ni ne *pouvait* être règlementé » (original: "bitcoin was thought to be both unregulated and *unregulatable*"). Cette caractéristique fait que les utilisations réprouvées par le grand public — illégales, immorales, ou susceptibles de le devenir — ont fleuri.
 
@@ -476,7 +476,7 @@ Panneau publicitaire pour Bitcoin à Sunnyvale (source : Roger Ver, [archive de
 
 En juin, suite aux premiers ennuis rencontrés par Mt. Gox, il propose à Mark Karpelès de venir l'aider, car il habite tout près des bureaux de la société à Tokyo. Mark accepte et Roger se présente à la Cerulean Tower. Il est accompagné de plusieurs personnes, dont Jesse Powell, un ami de lycée et entrepreneur de San Francisco qui s'intéresse aussi à Bitcoin (ce dernier fondera la plateforme Kraken en 2013). Malgré l'[attitude nonchalante](https://www.wired.com/2014/03/bitcoin-exchange/) de Mark Karpelès, ils parviennent à stabiliser la situation et à rouvrir la plateforme au bout d'une semaine.
 
-Mais l'engagement de Roger Ver vis-à-vis de Bitcoin ne s'arrête pas là. Comme mentionné, il est fermement convaincu du potentiel révolutionnaire de Bitcoin et sent qu'il a une mission à accomplir en ce sens. Il cherche à faire du prosélytisme. Il [intervient](https://www.youtube.com/watch?v=IG_AvbfCEs4) dans le Bitcoin Show en juin. Il [diffuse](https://www.youtube.com/watch?v=5pV9ptoCMyc) des publicités pour Bitcoin sur la radio de Free Talk Live, en lieu et place de la promotion de son entreprise. Au fil des mois, il s'impose comme l'un des promoteurs les plus zélés de Bitcoin. En février 2012, il sera [surnommé](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) le « Jésus de Bitcoin » ("*Bitcoin Jesus*" en anglais) par le tradeur canadien GoWest, et le surnom restera bien qu'il ne l'ait jamais revendiqué.
+Mais l'engagement de Roger Ver vis-à-vis de Bitcoin ne s'arrête pas là. Comme mentionné, il est fermement convaincu du potentiel révolutionnaire de Bitcoin et sent qu'il a une mission à accomplir en ce sens. Il cherche à faire du prosélytisme. Il [intervient](https://www.youtube.com/watch?v=IG_AvbfCEs4) dans le Bitcoin Show en juin. Il [diffuse](https://www.youtube.com/watch?v=5pV9ptoCMyc) des publicités pour Bitcoin sur la radio de Free Talk Live, en lieu et place de la promotion de son entreprise. Au fil des mois, il s'impose comme l'un des promoteurs les plus zélés de Bitcoin. En février 2012, il sera [surnommé](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) le « Jésus de Bitcoin » ("*Bitcoin Jesus*" en anglais) par le tradeur canadien GoWest, et le surnom restera, bien qu'il ne l'ait jamais revendiqué.
 
 De plus, il est particulièrement optimiste concernant le cours boursier de la cryptomonnaie et spécule dans ce sens en achetant beaucoup de bitcoins à partir de mai. Le 4 août 2011, il fait le [pari public](https://www.youtube.com/watch?v=gfydIbhduu0) que le prix en dollars, qui se stabilise alors autour de 10 $, devrait être multiplié par 100 dans les deux ans qui suivent (une prédiction se réalisera avec quelques mois de retard). Il investit également dans les sociétés de l'écosystème comme BitPay, Blockchain.info et BitInstant.
 
@@ -839,7 +839,7 @@ Une sorte de portefeuille hybride émerge également : le portefeuille web (*we
 
 Présentation de la bibliothèque BitcoinJS par Stefan Thomas (de WeUseCoins) et Eric Brigham (de Trucoin)
 
-En août, Benjamin Reeves, un développeur britannique habitant à York, connu sous le pseudonyme Piuk sur le forum, exploite cette possibilité. En se [basant](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) sur l'implémentation de BitcoinJS, il [met au point](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) un explorateur de blocs qui « inclut les blocs orphelins » (original: "Includes orphaned blocks which can be used to track possible double spends") et « estime le volume réel de BTC transactés » (original: "Estimates the actual volume of BTC transacted (not just BTC sent)"), qu'il héberge sur son site personnel. Il fait alors concurrence au Bitcoin Bloc Explorer (BBE) de Theymos, et à [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), une alternative open-source destinée à être hébergée par les utilisateurs. Le site [change](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) de nom de domaine en octobre et devient Blockchain.info.
+En août, Benjamin Reeves, un développeur britannique habitant à York, connu sous le pseudonyme Piuk sur le forum, exploite cette possibilité. En se [basant](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) sur l'implémentation de BitcoinJS, il [met au point](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) un explorateur de blocs qui « inclut les blocs orphelins » (original: "Includes orphaned blocks which can be used to track possible double spends") et « estime le volume réel de BTC transactés » (original: "Estimates the actual volume of BTC transacted (not just BTC sent)"), qu'il héberge sur son site personnel. Il fait alors concurrence au Bitcoin Block Explorer (BBE) de Theymos, et à [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), une alternative open-source destinée à être hébergée par les utilisateurs. Le site [change](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) de nom de domaine en octobre et devient Blockchain.info.
 
 Le 1er décembre, Ben Reeves [intègre](http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) une fonctionnalité de portefeuille à la plateforme. Cette fonctionnalité, sobrement nommé My Wallet, permet à l'utilisateur de créer un compte et de se connecter grâce à un identifiant et un mot de passe. Les clés privées de son portefeuille sont chiffrées et stockées sur le serveur. L'utilisateur peut bénéficier de la visibilité apportée par l'explorateur de blocs.
 
@@ -1420,9 +1420,9 @@ Pendant l'été, les deux frères [intègrent](https://bitcointalk.org/index.php
 
 LocalBitcoins attire l'attention de la communauté, Jeremias participant à plusieurs conférences dont Assembly Summer 2012 et Bitcoin London 2012. En septembre, [il y a](https://web.archive.org/web/20120920110200/https://localbitcoins.com/statistics) des changeurs dans 74 pays différents, et plus de 300 villes. Le 14 juin 2013, un an après sa création, le site [comptera](https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649) environ 44 000 utilisateurs, et le volume d'échange journalier atteindra plusieurs dizaines de milliers de dollars !
 
-### Le développement du commerce conventionnel
+### Des outils pour le commerce
 
-Silk Road et le change en espèces en sont pas les seules activités qui fleurissent durant cette année 2012. Il y a également le commerce au sens traditionnel qui commence à exister.
+Silk Road et le change en espèces en sont pas les seules activités qui fleurissent durant cette année 2012. Il y a également le commerce au sens traditionnel qui commence à exister. Cependant, celui-ci a besoin d'outils en tous genres.
 
 1. Répertoires
 2. Exemples de gros commerces
@@ -1430,18 +1430,17 @@ Silk Road et le change en espèces en sont pas les seules activités qui fleuris
 3. Exemples de projets de processeur de paiement
 4. URI
 
-Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre
+Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre la page T
+
+Des outils sont également développés.
 
 2011 :
 
-- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)
+- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)  ; 2010 : Mike Goguski, Bitcoin for WP e-Commerce https://github.com/mikegogulski/bitcoin-wp-e-commerce
 - Jeremy West (jeremy.west), Spend Bitcoins, [19 mai 2011](https://bitcointalk.org/index.php?topic=8864.msg128629#msg128629), cartes-cadeaux Amazon, Fishpond, New Egg https://bitcointalk.org/index.php?topic=24653.msg306101#msg306101 https://web.archive.org/web/20110603145425/https://spendbitcoins.com/
 - Chris Brunner de Trucoin (entreprise), BitcoinDeals.com, "over 1,000,000 items", juillet–août 2011 sur invitation (https://bitcointalk.org/index.php?topic=16701.msg217120#msg217120), [Bitcoin Show](https://www.youtube.com/watch?v=UjqJGkuTUpw) présence à la conférence fin août, [lancement](https://web.archive.org/web/20111222184030/http://www.bitcoindeals.com/) plus complet en décembre, [« maintenance »](https://web.archive.org/web/20120901131133/http://www.bitcoindeals.com/) en août 2012, [we "ran Bitcoindeals.com for a year"](https://99bitcoins.com/coinbrief/bitcoin/trucoin-chris-and-brent/) ; ["BitcoinDeals.com is launched!"](https://web.archive.org/web/20120201230557/http://www.trucoin.com/)
 - Bitmit.net, [sept. 2011](https://bitcointalk.org/index.php?topic=41592.msg506512#msg506512)
 
-- Joerg Platzer, Room77 : https://bitcointalk.org/index.php?topic=27191.msg342337#msg342337 https://web.archive.org/web/20121118214011/http://www.room77.de/ https://www.youtube.com/watch?v=rzKdW-au110
-
-- O'Crepes, restaurant à NYC, [juillet 2011](https://www.youtube.com/watch?v=nXs7ZhVb2aI)
 
 "2012 has been an exciting year for Bitcoin. We have seen BitPay grow from near-irrelevance to processing transactions for over 2000 merchants around the world, Coinabul expand its gold-selling business from nothing in October 2011 to over 120,000 BTC of gold sold this year, entirely new Bitcoin-accepting businesses like Coindl and the Bitcoin Store open their doors, and hundreds more innovative services, of which there are unfortunately far too many to mention." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
 
@@ -1486,7 +1485,6 @@ Enregistré auprès de l'Internet Assigned Numbers Authority (IANA) par Dave Tha
 
 ### Le premier processeur de paiement : BitPay
 
-
 Stephen Pair : https://www.youtube.com/watch?v=G7mD4SgY7wA
 
 Le premier processeur de paiement appelé BitPay est créé par Stephen Pair et Tony Gallippi.
@@ -1513,32 +1511,35 @@ Tout au long de l'année, leur service croit. Il s'étend à l'international, en
 
 Le succès de BitPay [fait](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) des émules, avec l'apparition des processeurs de paiement WalletBit, Paysius et AcceptBit. Mais surtout il sera surtout concurrencé par le service Coinbase, lancé au cours de l'année 2012 par un certain Brian Armstrong.
 
+### Le PorcFest 2012
 
-### PorcFest 2012
+Un évènement majeur dans l'adoption commerciale de Bitcoin est le *Porcupine Freedom Festival* de 2012, qui a lieu du 18 au 24 juin, toujours sur le même terrain de camping situé au nord de l'État du New Hampshire. Cette année-là, le festival prend les réservations en bitcoins. Il [réunit](https://zerogov.com/2012/06/26/porcfest-2012-after-action-review/) près de 1 000 participants.
 
-https://www.youtube.com/watch?v=VPu85QYnlnU
+Pour mettre Bitcoin à l'honneur, les représentants de BitInstant [sont présents](https://web.archive.org/web/20120701024814/http://blog.bitinstant.com/blog/2012/6/27/porcfest-2012-bitinstant-and-the-bernanke-bitcoin-exchange.html). Ils sont au nombre de quatre : Roger Ver (qui est d'ailleurs accompagné sa fiancée japonaise, Ayaka), Erik Voorhees, Charlie Shrem et Ira Miller. Ces derniers ont la responsabilité d'expliquer Bitcoin aux autres, et organisent notamment une table ronde sur le sujet qui attire plus de 80 personnes. Du côté médiatique, [Roger](https://www.youtube.com/watch?v=nDmAm5wbasU) et [Erik](https://www.youtube.com/watch?v=FfRdPVcyR6s) répondent aux questions des quelques médias indépendants présents et passent, entre autres, dans l'émission de radio Free Talk Live.
 
-18–24 juin 2012
+Mais surtout, les représentants de BitInstant tiennent un stand, appelé le « *Bernanke's Bitcoin Exchange* », où ils assurent le change avec le dollar et apprennent aux curieux comment utiliser Bitcoin. Ils montrent aux gens comment facilement accepter et dépenser le bitcoin au moyen de BitcoinSpinner, Blockchain.info ou Instawallet. Au cours de la semaine, ils vendent pour 2 500 $ de bitcoins, et quelques centaines de dollars en Casascius Coins, qui intéressent les amateurs de numismatique.
 
-"PorcFest 2012 -- Biggest Bitcoin event ever" https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575
+![Le stand de BitInstant au PorcFest le 21 juin 2012](assets/en/porcfest-2012-bitinstant-charlie-shrem-erik-voorhees-ira-miller-20120621.webp)
 
-Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
+Le stand de BitInstant au PorcFest le 21 juin 2012 (source : [Charlie Shrem](https://twitter.com/CharlieShrem/status/215824423616385025) sur Twitter)
 
-- Paul Festival, 24–26 août 2012 : "BitPay is proud to sponsor this event and setup a 'Bitcoin' booth. The PAUL Festival is a large, Libertarian event taking place this week in Tampa" https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865 ; en hommage à Ron Paul , quelques jours avant la *Republican National Convention*
+Leur stand se situe sur la partie du terrain [appelée](https://web.archive.org/web/20120606043337/http://happyporcupine.info/agoravalley/) l'« *Agora Valley* », une zone réservée au commerce qui comprend une quarantaine de stands répertoriés. Les vendeurs offrent toutes sortes de choses : de la nourriture, des boissons, des livres, des vêtements, des couteaux, des chapeaux, et quantité d'autres objets. Comme lors des éditions précédents, les commerçants acceptent généralement les pièces d'argent et de cuivre en tant que moyen de paiement, ainsi que les dollars (ou les « billets de la Réserve fédérale » (original: "Federal Reserve Notes") comme ils les appellent). Mais cette année-là, plus de la moitié d'entre eux acceptent aussi le bitcoin. Et grâce à l'aide de BitInstant, ce pourcentage [monte](https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575) à 80 % à la fin de l'évènement.
 
-### Un mouvement vers le commerce plus légitime
+![Visite en vidéo de l'Agora Valley au PorcFest 2012, réalisée par Johnson Rice](https://www.youtube.com/watch?v=HTiEmGvXyTw)
 
-"Also, in the last two months alone, Bitcoin has gained a large amount of public legitimacy, as popular services like WordPress and 4Chan began accepting it, and Bitcoin Central partnered with a licensed payment services provider in France to integrate its exchange accounts directly into the traditional banking system. And, last but not least, the Bitcoin price itself increased from $4.72 on Jan 1 to $13.51 on Dec 31, a 186% increase." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
+Visite en vidéo de l'*Agora Valley* au PorcFest 2012, réalisée par Johnson Rice
 
-BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366)
+En particulier, un certain George Mandrik, libertarien d'origine grecque, [propose](https://twitter.com/Mandrik/status/1488885417151807489) à la vente des gyros (sandwichs grecs proches du döner kebab) et des baklavas (desserts orientaux traditionnels), ainsi que des pancakes paléos cuits à l'huile de coco. Il réalise beaucoup de ventes grâce à une carte de dépôt de BitPay, ce qui [attire](https://bitcointalk.org/index.php?topic=89714.msg987946#msg987946) l'attention de Tony Gallippi. Mandrik sera rapidement embauché par BitInstant pour gérer le service client.
 
-En novembre, Wordpress l'hébergeur de sites web se met à accepter les paiements en bitcoins via BitPay. En décembre, la forume en ligne 4chan...
+L'introduction du bitcoin au PorcFest est un franc succès. Josh Harvey (ben-abuya sur le forum) [parle](https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575) de l'édition 2012 comme « le plus grand événement lié à Bitcoin jamais organisé » (original: "Biggest Bitcoin event ever"). Il écrit qu'il pense qu'il s'agit de « la plus grande expérience d'utilisation du bitcoin entre particuliers à ce jour » (original: "I believe this was the biggest experiment in person-to-person bitcoin usage to date."). Charlie Shrem [commente](https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603) en écrivant que c'était le meilleur week-end de sa vie.
 
-15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/ https://web.archive.org/web/20130510175220/https://bitcointalk.org/index.php?topic=124482.0
+Bitcoin entretiendra par la suite une relation fusionnelle avec la sphère libertarienne. BitPay [sponsorisera](https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865) ainsi le Paul Festival, un festival de musique organisé en Floride en août (quelques jours avant la *Republican National Convention*), en hommage à Ron Paul qui a arrêté de financer sa campagne présidentielle en mai. Le PorcFest de 2013 [sera](https://bitcoinmagazine.com/industry-events/bitcoin-at-porcfest-part-1-a-social-experiment-1371713328) davantage consacré à Bitcoin.
 
-"Since the November 2012 WordPress deal, BitPay has seen new merchants increase by nearly 50% to over 2,000."  [7/1/2013](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/)
+### Le développement du commerce conventionnel
 
-13 décembre 2012 : 4chan accepte les paiements en bitcoins via Coinbase, annonce de Corbin Fraser https://web.archive.org/web/20130107221636/http://www.bitcointrading.com/forum/talk-bitcoin/4chan-now-accepts-bitcoin-for-premium-membership/
+Si l'activité économique a été largement dominée par le trafic de drogue sur Silk Road et par les opérations de change l'entourant, elle s'est progressivement diversifiée, pour inclure de plus en plus de commerçants conventionnels. À la fin de l'année 2012, on a vu clairement cette tendance émerger lorsque WordPress, le plus gros hébergeur de sites web du monde, a [commencé à accepter](https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485) les paiements en bitcoins via BitPay. Bitcoin a tout d'un coup gagné en légitimité auprès du public. Cet évènement a ainsi ouvert la voie à acceptation plus large, ce qui a notamment fait [doubler](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) le nombre de commerçants de BitPay en quelques mois. En mars 2013, le volume échangé par le biais du processeur de paiement a même [surpassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road, notamment grâce à l'activité du Bitcoin Store, la boutique en ligne de Roger Ver [ouverte](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366) en novembre 2012, et d'Avalon, la société de fabrication d'ASIC lancée par un certain Yifu Guo.
+
+Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent et les piratages, qui ont été au plus haut en 2012.
 
 ## La monnaie du vice et du crime : jeu d'argent, arnaques et piratages
 

@@ -3272,7 +3272,7 @@ Jadi, sangat penting untuk tidak mengacaukan penjelajahan pribadi dengan anonimi
 
 Phishing adalah bentuk rekayasa sosial yang digunakan untuk menipu pengguna agar mengungkapkan data sensitif tanpa sepengetahuan mereka: detail login, nomor kartu kredit, kode akses, dokumen rahasia. Ancaman ini tidak didasarkan pada kesalahan teknis, tetapi pada manipulasi psikologis, mengeksploitasi kepercayaan, ketergesaan, atau kurangnya pengetahuan pengguna.
 
-Dalam banyak kasus, serangan ini terdiri dari meniru tampilan situs resmi (bank, layanan pesan, administrasi, toko online, dll.) melalui situs web palsu dengan URL yang disamarkan. Pengguna menerima tautan penipuan melalui email, SMS, atau aplikasi pesan, dan, karena percaya mereka berinteraksi dengan situs yang sebenarnya, mereka memasukkan kredensial login mereka.
+Dalam banyak kasus, serangan ini terdiri dari meniru tampilan situs resmi (bank, layanan pesan, administrasi, toko online, dll.) melalui situs web palsu dengan URL yang disamarkan. Pengguna menerima tautan penipuan melalui email, SMS, atau aplikasi pesan instan, dan, karena percaya mereka berinteraksi dengan situs yang sebenarnya, mereka memasukkan kredensial login mereka.
 
 Untuk menghindari serangan ini saat berselancar online, penting untuk mengikuti beberapa praktik dasar:
 
@@ -3585,131 +3585,79 @@ Oleh karena itu, sangat penting untuk mengaktifkan pembaruan otomatis di pengatu
 
 #### Perbarui dukungan
 
+Tidak semua smartphone diciptakan sama dalam hal dukungan perangkat lunak. Banyak perangkat entry-level dan kelas menengah berhenti menerima pembaruan penting hanya setelah dua atau tiga tahun, yang mengekspos Anda pada risiko yang semakin serius.
 
-Tidak semua smartphone diciptakan sama dalam hal dukungan perangkat lunak. Banyak perangkat entry-level dan kelas menengah yang berhenti menerima pembaruan penting setelah dua atau tiga tahun, sehingga Anda menghadapi risiko yang semakin serius.
-
-
-Namun, beberapa merek memiliki dukungan perangkat lunak yang sangat baik, terutama Google (7 tahun), Fairphone (5 hingga 7 tahun), Samsung (5 hingga 7 tahun), dan Apple (5 hingga 7 tahun). Kriteria ini sangat penting saat membeli ponsel baru: Perangkat yang tahan lama adalah perangkat yang terawat.
-
+Namun, beberapa merek memiliki dukungan perangkat lunak yang sangat baik, terutama Google (7 tahun), Fairphone (5 hingga 7 tahun), Samsung (5 hingga 7 tahun), dan Apple (5 hingga 7 tahun). Kriteria ini sangat penting saat membeli ponsel baru: Perangkat yang tahan lama adalah yang pertama dan terpenting adalah perangkat yang dirawat.
 
 #### Gunakan toko aplikasi yang andal
 
+Aplikasi seluler merupakan sumber risiko utama: Melalui aplikasi inilah mayoritas _malware_ Android modern masuk. Memasang aplikasi melalui file `.apk` yang diterima dari situs yang tidak dikenal, atau dari toko yang tidak bersertifikat, berarti mengambil risiko memasang program yang berbahaya, atau dimodifikasi untuk menyertakan fungsi mata-mata atau pencurian data.
 
-Aplikasi seluler merupakan sumber risiko utama: Melalui aplikasi inilah sebagian besar *malware* Android modern masuk. Menginstal aplikasi melalui file `.apk` yang diterima dari situs yang tidak dikenal, atau dari toko yang tidak bersertifikat, berarti mengambil risiko menginstal program yang sengaja dibuat jahat, atau dimodifikasi untuk menyertakan fungsi mata-mata atau pencurian data.
-
-
-Bahkan di toko resmi seperti Google Play Store atau Apple App Store, Anda harus tetap waspada. Meskipun ada mekanisme penyaringan, aplikasi berbahaya sering kali berhasil menyelinap masuk. Sebagai contoh, aplikasi "Sparrow wallet" kadang-kadang dapat dilihat di Play Store, meskipun perangkat lunak ini hanya ada di PC: Tidak diragukan lagi, ini adalah aplikasi palsu.
-
+Bahkan di toko resmi seperti Google Play Store atau Apple App Store, Anda perlu tetap waspada. Meskipun ada mekanisme penyaringan, aplikasi berbahaya secara rutin berhasil menyusup. Misalnya, aplikasi "Sparrow wallet" terkadang dapat terlihat di Play Store, padahal perangkat lunak ini hanya ada di PC: Ini tidak diragukan lagi adalah aplikasi palsu.
 
 Sebelum menginstal, luangkan waktu untuk memeriksa beberapa hal: izin yang diperlukan, jumlah unduhan, peringkat keseluruhan, tanggal pembaruan terakhir, dan ulasan pengguna.
 
-
-Di Android, toko sumber terbuka alternatif seperti [F-Droid](https://f-droid.org/) menawarkan solusi yang lebih etis dan sering kali lebih aman: setiap aplikasi dikompilasi dari sumber-sumber gratis, dan diaudit secara manual. Untuk aplikasi berpemilik yang diperlukan, alat seperti [Aurora Store] (https://auroraoss.com/) memungkinkan akses ke Play Store tanpa akun Google, yang membatasi pengumpulan data.
-
+Di Android, toko open source alternatif seperti [F-Droid](https://f-droid.org/) menawarkan solusi yang lebih etis dan seringkali lebih aman: setiap aplikasi dikompilasi dari sumber gratis, dan diaudit secara manual. Untuk aplikasi eksklusif yang diperlukan, aplikasi seperti [Aurora Store](https://auroraoss.com/)  memungkinkan akses ke Play Store tanpa akun Google, yang membatasi pengumpulan data.
 
 ![Image](assets/fr/140.webp)
 
+Selain Sistem Operasi, aplikasi yang terpasang di smartphone Anda juga perlu selalu diperbarui. Anda dapat mengaktifkan pembaruan otomatis melalui pengaturan toko aplikasi Anda, dan membiasakan diri untuk melakukan pemeriksaan manual setidaknya sekali seminggu.
 
-Selain Sistem Operasi, aplikasi yang terinstal di ponsel cerdas Anda juga harus selalu diperbarui. Anda dapat mengaktifkan pembaruan otomatis melalui pengaturan toko aplikasi Anda, dan membiasakan diri untuk menjalankan pemeriksaan manual setidaknya sekali seminggu.
-
-
-Di Android, jika Anda menginstal aplikasi melalui file `.apk`, Anda harus mengelola pembaruan secara manual. Memang, aplikasi yang dipasang di luar saluran resmi tidak memiliki mekanisme pembaruan otomatis. Jadi, Anda harus secara teratur memeriksa versi yang dirilis oleh pengembang di GitHub atau di situs web resmi mereka.
-
+Di Android, jika Anda memasang aplikasi melalui file `.apk`, Anda perlu mengelola pembaruan secara manual. Memang, aplikasi yang dipasang di luar saluran resmi ini tidak memiliki mekanisme pembaruan otomatis. Jadi, Anda perlu secara rutin memeriksa versi yang dirilis oleh pengembang di GitHub atau di situs web resmi mereka.
 
 ### Mengelola izin aplikasi
 
+Keamanan fisik sebuah smartphone dimulai dengan layar kuncinya. Ini adalah penghalang pertama antara orang yang berpotensi menyerang dan akses ke data pribadi Anda. Sarana yang paling dapat diandalkan masih berupa kode PIN atau kata sandi yang rumit.
 
-Pada smartphone, aplikasi apa pun dapat meminta akses langsung ke sumber daya yang sensitif: Mikrofon, kamera, posisi geografis yang tepat, buku Address, file, SMS, sensor gerak, dll. Akses semacam itu tidak sepele: Secara teknis, ketika izin diberikan, aplikasi dapat mengeksploitasinya di latar belakang, secara terus menerus atau ad hoc, terkadang tanpa pemberitahuan yang terlihat. Itulah mengapa penting untuk menerapkan prinsip hak istimewa yang paling sedikit: untuk memberikan setiap aplikasi hanya otorisasi yang benar-benar penting untuk operasi minimalnya.
+Di sisi lain, metode pembukaan kunci seperti pola grafis sangat tidak disarankan. Pola tersebut meninggalkan jejak yang terlihat di layar, mudah dihafal oleh pihak ketiga yang mengamati gerakan Anda, dan jarang cukup rumit.
 
+Sistem biometrik (pengenalan wajah atau sidik jari) menawarkan kenyamanan yang jelas, tetapi harus digunakan dengan hati-hati. Dalam kasus kendala fisik (pencurian, tekanan polisi, dll.), sidik jari atau wajah dapat digunakan tanpa persetujuan aktif Anda. Di beberapa negara, penggunaan biometrik tidak memiliki perlindungan hukum yang sama seperti kerahasiaan kata sandi.
 
-![Image](assets/fr/141.webp)
+Di sisi lain, sistem biometrik dapat dielakkan (atau bisa jadi di masa depan) menggunakan teknik seperti reproduksi wajah visual atau pemulihan sidik jari yang rentan. Keandalan mereka juga sangat bergantung pada tingkat keamanan perangkat Anda: Misalnya, pengenalan wajah Face ID Apple jauh lebih ketat daripada beberapa ponsel pintar entry-level.
 
-
-Sebagai contoh, aplikasi senter tidak memerlukan akses ke kontak atau geolokasi Anda. Aplikasi cuaca dapat bekerja dengan pelokalan manual, tanpa akses GPS. Pembaca PDF tidak perlu menggunakan mikrofon atau SMS. Jika ragu, selalu tolak secara default, lalu evaluasi kembali jika aplikasi tidak berfungsi dengan baik. Pada beberapa sistem, Anda juga dapat memberikan otorisasi hanya untuk sementara: baik untuk sekali pakai, atau hanya ketika aplikasi sedang berjalan. Hal ini mencegah aplikasi mengeksploitasi izin tertentu di latar belakang tanpa sepengetahuan Anda.
-
-
-Android dan iOS kini menawarkan kontrol izin granular. Anda dapat mengelolanya berdasarkan aplikasi atau jenis izin. Luangkan waktu, sebulan sekali misalnya, untuk memeriksa izin aktif melalui pengaturan ponsel Anda.
-
-
-Beberapa sistem juga memungkinkan Anda untuk secara otomatis mencabut otorisasi yang diberikan kepada aplikasi setelah jangka waktu tertentu tidak digunakan. Hal ini membatasi risiko jika Anda lupa menghapus aplikasi.
-
-
-### Kunci layar
-
-
-Keamanan fisik sebuah ponsel cerdas dimulai dari layar kuncinya. Ini adalah penghalang pertama antara penyerang potensial dan akses ke data pribadi Anda. Cara yang paling dapat diandalkan adalah kode PIN atau kata sandi yang rumit.
-
-
-Di sisi lain, metode membuka kunci seperti skema grafis sangat tidak disarankan. Skema semacam itu meninggalkan jejak yang terlihat di layar, mudah diingat oleh pihak ketiga yang mengamati gerakan Anda, dan jarang yang cukup rumit.
-
-
-Sistem biometrik (pengenalan wajah atau sidik jari) menawarkan kenyamanan yang jelas, tetapi harus digunakan dengan hati-hati. Jika terjadi kendala fisik (pencurian, tekanan polisi, dll.), sidik jari atau wajah dapat digunakan tanpa persetujuan aktif Anda. Di beberapa negara, penggunaan biometrik tidak mendapatkan perlindungan hukum yang sama dengan kerahasiaan kata sandi.
-
-
-Di sisi lain, sistem biometrik dapat diakali (atau mungkin di masa depan) dengan menggunakan teknik seperti reproduksi wajah secara visual atau pemulihan sidik jari laten pada suatu permukaan. Keandalannya juga sangat bergantung pada tingkat keamanan perangkat Anda: Sebagai contoh, pengenalan wajah Face ID Apple jauh lebih ketat dibandingkan dengan beberapa smartphone entry-level.
-
-
-Singkatnya, berikut ini adalah peringkat dari sistem penguncian smartphone terbaik hingga yang terburuk:
-
-
+Untuk menyimpulkan, berikut adalah peringkat dari sistem penguncian ponsel pintar terbaik hingga yang terburuk:
 
 - Kata sandi alfanumerik
 - Kode PIN
 - Biometrik
-- Diagram grafis
-- Tidak ada penguncian
-
+- Pola grafis
+- Tanpa kunci
 
 ![Image](assets/fr/142.webp)
 
-
-Untuk perangkat yang sensitif, solusi terbaik adalah kata sandi yang dikombinasikan dengan penonaktifan biometrik, dengan membuka kunci secara manual saja. Hal ini mungkin terlihat membatasi, tetapi ini adalah cara terbaik untuk memastikan perlindungan. Tentunya, untuk kode PIN atau kata sandi alfanumerik, semakin panjang dan acak semakin baik. Kata sandi tersebut juga harus tahan terhadap serangan brute force.
-
-
-### Penggunaan dan kompartementalisasi data
+Untuk perangkat yang sensitif, solusi terbaik adalah kata sandi yang dikombinasikan dengan penonaktifan biometrik, dengan pembukaan kunci hanya secara manual. Ini mungkin terlihat membatasi, tetapi ini adalah cara terbaik untuk memastikan perlindungan. Tentu saja, untuk kode PIN atau kata sandi alfanumerik, semakin panjang dan acak semakin baik. Kata sandi juga harus tahan terhadap serangan brute force.
 
 
-Seperti yang telah kita lihat pada bab-bab sebelumnya, kompartementalisasi adalah praktik penting untuk membatasi risiko jika terjadi kompromi pada salah satu bagian sistem. Dengan menciptakan lingkungan terpisah untuk aktivitas yang berbeda, Anda mencegah serangan atau kebocoran data di satu area mencemari seluruh perangkat. Di Android, strategi ini dapat diimplementasikan melalui sejumlah mekanisme bawaan.
+### Penggunaan dan pengelompokan data
 
+Seperti yang telah kita lihat di bab-bab sebelumnya, pengelompokan adalah praktik penting untuk membatasi risiko jika terjadi penyusupan pada satu bagian dari sistem. Dengan menciptakan lingkungan terpisah untuk aktivitas Anda yang berbeda, Anda mencegah serangan atau kebocoran data di satu area mencemari seluruh perangkat Anda. Pada Android, strategi ini dapat diterapkan melalui sejumlah mekanisme bawaan.
 
 #### Gunakan profil profesional yang terpisah
 
-
-Profil *Work Profile* adalah fitur asli Android (sejak Android 5.0), yang memungkinkan Anda membuat partisi perangkat lunak terpisah dalam smartphone yang sama. Secara praktis, profil ini berfungsi sebagai wadah yang terisolasi: Aplikasi, akun, dan data yang disimpan di ruang ini tidak dapat berinteraksi dengan yang ada di profil pribadi. Pemisahan ini mencegah kebocoran data di antara kedua ruang tersebut, dan membatasi hak akses untuk aplikasi. Fitur ini sering dikelola secara internal di dalam perusahaan, tetapi ada juga cara menggunakannya secara pribadi untuk mengisolasi aplikasi.
-
+_Work Profile_ adalah fitur bawaan Android (sejak Android 5.0), yang memungkinkan Anda untuk membuat partisi perangkat lunak terpisah di dalam smartphone yang sama. Dalam praktiknya, profil ini berfungsi sebagai ruang yang terisolasi: Aplikasi, akun, dan data yang tersimpan di ruang ini tidak dapat berinteraksi dengan yang ada di profil pribadi. Pemisahan ini mencegah kebocoran data di antara kedua ruang, dan membatasi hak akses untuk aplikasi. Fitur ini sering kali dikelola secara internal di dalam perusahaan, tetapi ada juga cara untuk menggunakannya secara pribadi untuk mengisolasi aplikasi.
 
 ![Image](assets/fr/143.webp)
 
-
-Alat Shelter adalah aplikasi sumber terbuka yang mengeksploitasi fitur *Work Profile* dari sistem Android ini untuk menawarkan pengguna non-profesional cara yang sederhana untuk menciptakan lingkungan yang terisolasi. Shelter dapat digunakan untuk menginstal dan menjalankan aplikasi sensitif di ruang yang terlindungi, sehingga sangat mengurangi eksposur mereka ke perangkat lunak lain yang diinstal pada ponsel.
-
+Shelter adalah aplikasi open soirce yang mengeksploitasi fitur Work Profile dari sistem Android untuk menawarkan cara sederhana bagi pengguna non-profesional untuk membuat lingkungan yang terisolasi. Shelter dapat digunakan untuk memasang dan menjalankan aplikasi sensitif di ruang yang dilindungi, sangat mengurangi eksposur mereka ke perangkat lunak lain yang terpasang di ponsel.
 
 ![Image](assets/fr/144.webp)
-
 
 #### Gunakan beberapa telepon terpisah
 
 
-Untuk memisahkan penggunaan lebih jauh lagi, Anda dapat memilih penggunaan beberapa perangkat fisik, masing-masing didedikasikan untuk jenis aktivitas yang berbeda (pribadi, profesional, atau sensitif). Pemisahan fisik ini memastikan isolasi yang lengkap, jauh lebih ketat daripada segmentasi perangkat lunak, karena setiap ponsel beroperasi secara independen.
+Untuk memisahkan penggunaan terlebih lagi, Anda dapat memilih penggunaan beberapa perangkat fisik, masing-masing didedikasikan untuk jenis aktivitas yang berbeda (pribadi, profesional, atau sensitif). Pemisahan fisik ini memastikan isolasi yang lengkap, jauh lebih ketat daripada segmentasi perangkat lunak, karena setiap ponsel beroperasi secara independen.
 
-
-Jika satu ponsel cerdas disusupi, yang lainnya tetap utuh. Pemisahan fisik ini juga memiliki keuntungan untuk menyederhanakan pengelolaan akses dan izin pada setiap perangkat, dan mengurangi paparan terhadap potensi ancaman secara keseluruhan.
-
+Jika satu smartphone disusupi, yang lainnya tetap utuh. Pemisahan fisik ini juga memiliki keuntungan untuk menyederhanakan pengelolaan akses dan izin pada setiap perangkat, dan mengurangi paparan terhadap potensi ancaman secara keseluruhan.
 
 ### Mengontrol aliran data Anda
 
-
-Ponsel cerdas Anda selalu berkomunikasi dengan dunia luar, baik melalui Wi-Fi, Bluetooth, NFC, GPS, atau jaringan seluler. Masing-masing saluran ini merupakan permukaan serangan potensial. Oleh karena itu, memahami cara kerjanya dan mengamankannya adalah hal yang penting untuk membatasi risiko.
-
+Smartphone Anda terus-menerus berkomunikasi dengan dunia luar, baik melalui Wi-Fi, Bluetooth, NFC, GPS, atau jaringan seluler. Masing-masing saluran ini merepresentasikan potensi celah serangan. Oleh karena itu, memahami cara kerjanya dan mengamankannya adalah hal yang penting untuk membatasi risiko.
 
 #### Wi-Fi publik
 
+Jaringan Wi-Fi publik, seperti yang ada di kafe, hotel, atau transportasi umum, jarang sekali aman. Bahkan ketika mereka membutuhkan kata sandi, kata sandi tersebut sering kali dibagikan di antara banyak pengguna, dan enkripsi yang diterapkan terkadang mudah dilewati. Penyerang yang terhubung ke jaringan yang sama dapat mencegat paket Anda, menangkap kredensial, atau menyuntikkan konten berbahaya melalui serangan Man-in-the-Middle (MITM).
 
-Jaringan Wi-Fi publik, seperti yang ada di kafe, hotel, atau transportasi umum, jarang sekali aman. Bahkan ketika mereka memerlukan kata sandi, kata sandi ini sering kali digunakan bersama oleh banyak pengguna, dan enkripsi yang diterapkan terkadang dengan mudah diterobos. Penyerang yang terhubung ke jaringan yang sama bisa mencegat paket Anda, mengambil kredensial, atau menyuntikkan konten berbahaya melalui serangan Man-in-the-Middle.
-
-
-Untuk melindungi diri Anda sendiri, cukup hindari menggunakan jaringan publik ini, atau gunakan VPN, yang akan membuat terowongan terenkripsi antara perangkat Anda dan server jarak jauh. Terowongan ini mengenkapsulasi data Anda, sehingga sangat sulit untuk dicegat atau dimodifikasi.
-
+Untuk melindungi diri Anda, cukup hindari menggunakan jaringan publik ini, atau gunakan VPN, yang akan menciptakan saluran terenkripsi antara perangkat Anda dan server jarak jauh. Saluran ini menyelimuti data Anda, membuatnya sangat sulit untuk dicegat atau dimodifikasi.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
@@ -3719,336 +3667,231 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 Mengenai jaringan Wi-Fi di rumah Anda, kita akan membahasnya di bagian terakhir kursus SCU 202.
 
-
-
 #### Bluetooth, NFC dan GPS
 
+Bluetooth (protokol nirkabel untuk komunikasi jarak pendek), NFC (_Near Field Communication_), dan GPS (satellite positioning) diaktifkan secara default di banyak smartphone. Teknologi ini dapat digunakan sebagai pintu gerbang untuk serangan lokal: Eksekusi kode jarak jauh, akses tidak sah, pelacakan lokasi, bahkan penyadapan komunikasi dalam kasus Bluetooth (misalnya, kerentanan BlueBorne).
 
-Bluetooth (protokol nirkabel untuk komunikasi jarak pendek), NFC (Near Field Communication) dan GPS (pemosisian satelit) diaktifkan secara default di banyak smartphone. Teknologi ini dapat digunakan sebagai pintu gerbang untuk serangan lokal: Eksekusi kode jarak jauh, akses tidak sah, pelacakan lokasi, bahkan penyadapan komunikasi dalam kasus Bluetooth (kerentanan BlueBorne, misalnya).
-
-
-Untuk membatasi risiko ini, selalu nonaktifkan fungsi-fungsi ini saat Anda tidak menggunakannya. Hal ini secara drastis mengurangi permukaan serangan dan mencegah upaya eksploitasi.
-
+Untuk membatasi risiko ini, secara konsisten nonaktifkan fungsi-fungsi ini ketika tidak digunakan. Ini secara drastis mengurangi celah serangan dan mencegah upaya eksploitasi.
 
 #### Jaringan seluler
 
-
-Ponsel cerdas selalu berkomunikasi dengan stasiun pangkalan operator telepon. Komunikasi ini dapat dibajak oleh *IMSI Catcher* tertentu, yang mensimulasikan stasiun pangkalan untuk mencegat data seluler Anda. Serangan ini memungkinkan pihak ketiga untuk mengidentifikasi perangkat Anda, melacak pergerakan Anda dan, dalam beberapa kasus, mencegat panggilan dan pesan.
-
+Smartphone terus-menerus berkomunikasi dengan stasiun pangkalan operator telepon. Komunikasi ini dapat dibajak oleh _IMSI Catcher_ tertentu, yang mensimulasikan stasiun pangkalan untuk mencegat data seluler Anda. Serangan ini memungkinkan pihak ketiga untuk mengidentifikasi perangkat Anda, melacak pergerakan Anda, dan dalam beberapa kasus, mencegat panggilan serta pesan.
 
 ![Image](assets/fr/145.webp)
 
+Beberapa aplikasi, seperti SnoopSnitch di Android, dapat mendeteksi perilaku mencurigakan dalam pertukaran Anda dengan jaringan. Aplikasi ini menganalisis metadata komunikasi seluler dan dapat mengingatkan Anda tentang perubahan dalam konfigurasi radio atau perilaku abnormal, membuat Anda lebih waspada terhadap upaya penyadapan.
 
-Beberapa aplikasi, seperti SnoopSnitch di Android, dapat mendeteksi perilaku mencurigakan dalam pertukaran Anda dengan jaringan. Alat-alat ini menganalisis metadata komunikasi seluler dan dapat memperingatkan Anda tentang perubahan konfigurasi radio atau perilaku abnormal, membuat Anda lebih waspada terhadap upaya penyadapan.
-
-
-Cara terbaik untuk mengamankan komunikasi Anda adalah dengan menggunakan aplikasi perpesanan yang aman, baik untuk panggilan atau pesan. Aplikasi-aplikasi ini tidak menggunakan jaringan seluler, dan memastikan bahwa pertukaran dienkripsi dengan benar. Kita akan membahas topik ini secara lebih rinci di bab berikutnya.
-
+Cara terbaik untuk mengamankan komunikasi Anda adalah dengan menggunakan aplikasi pesan instan yang aman, baik untuk panggilan maupun pesan. Aplikasi ini tidak menggunakan jaringan seluler, dan memastikan bahwa pertukaran dienkripsi dengan benar. Kita akan melihat subjek ini secara lebih rinci di bab berikutnya.
 
 ### Mengamankan perangkat seluler Anda
 
-
 #### Antivirus seluler
 
+Kegunaan aplikasi antivirus di smartphone sering kali dilebih-lebihkan, sebagian besar karena kampanye pemasaran yang agresif. Ancaman nyata pada ponsel, terutama Android, umumnya terkait dengan pemasangan aplikasi berbahaya dari sumber tidak resmi. Pada perangkat yang diperbarui secara rutin, dikonfigurasi dengan hati-hati (terutama dalam hal otorisasi), dan hanya menggunakan sumber resmi atau terverifikasi, risiko infeksi sangat rendah.
 
-Kegunaan perangkat lunak antivirus pada smartphone sering kali dinilai terlalu tinggi, sebagian besar karena kampanye pemasaran yang agresif. Ancaman nyata pada ponsel, terutama Android, umumnya terkait dengan pemasangan aplikasi berbahaya dari sumber yang tidak resmi. Pada perangkat yang diperbarui secara teratur, dikonfigurasi dengan hati-hati (terutama dalam hal otorisasi), dan hanya menggunakan sumber resmi atau terverifikasi, risiko infeksi sangat rendah.
+Selain itu, perangkat Android sudah dilengkapi secara default dengan Google Play Protect, yang bertindak sebagai antivirus. Aplikasi antivirus pihak ketiga menggunakan Interface pemindai yang sama, yang hanya menambah redundansi. Dalam praktiknya, antivirus seluler menawarkan sedikit nilai tambah, baik di Android maupun iOS.
 
+Terlebih lagi, aplikasi ini dapat memicu rasa aman yang palsu pada pengguna, yang membuat mereka percaya bahwa mereka sepenuhnya terlindungi dari ancaman, padahal sebenarnya aplikasi tersebut hanya menawarkan perlindungan reaktif. Mereka tidak menawarkan perlindungan terhadap phishing, atau terhadap izin berlebihan yang diberikan kepada aplikasi, meskipun sebagian besar ancaman terhadap smartphone justru berasal dari celah-celah ini.
 
-Selain itu, perangkat Android sudah dilengkapi secara default dengan Google Play Protect, yang bertindak sebagai antivirus. Aplikasi antivirus pihak ketiga menggunakan pemindai Interface yang sama, yang hanya menambahkan redundansi. Maka, dalam praktiknya, antivirus seluler hanya menawarkan sedikit nilai tambah, baik di Android maupun iOS.
-
-
-Terlebih lagi, aplikasi-aplikasi ini dapat menimbulkan rasa aman yang salah pada pengguna, membuat mereka percaya bahwa mereka benar-benar terlindungi dari ancaman, padahal sebenarnya hanya menawarkan perlindungan reaktif. Aplikasi ini tidak menawarkan perlindungan terhadap phishing, atau terhadap izin berlebihan yang diberikan pada aplikasi, meskipun sebagian besar ancaman terhadap ponsel cerdas justru berasal dari vektor ini.
-
-
-Oleh karena itu, kegunaan sebenarnya sangat terbatas, dan aplikasi ini terkadang mahal, menghabiskan daya baterai dan sumber daya yang tidak perlu. Lebih baik tidak menggunakannya, dan cukup mengadopsi praktik terbaik yang disajikan dalam bab ini.
-
+Oleh karena itu, kegunaan nyata mereka sangat terbatas, dan aplikasi ini terkadang mahal, secara tidak perlu mengonsumsi daya baterai dan sumber daya. Lebih baik tidak menggunakannya, dan cukup mengadopsi praktik terbaik yang disajikan dalam bab ini.
 
 ### Memeriksa koneksi keluar
 
+Ada juga aplikasi firewall pada smartphone, seperti NetGuard atau RethinkDNS, yang bertindak sebagai firewall lokal langsung di perangkat Anda. Aplikasi ini menggunakan VPN API Android untuk mencegat semua lalu lintas keluar, tanpa memerlukan akses root.
 
-Ada juga aplikasi firewall ponsel cerdas, seperti NetGuard atau RethinkDNS, yang bertindak sebagai firewall lokal secara langsung pada perangkat Anda. Aplikasi-aplikasi ini menggunakan API VPN Android untuk mencegat semua lalu lintas keluar, tanpa memerlukan akses root.
+Secara praktis, ini berarti Anda dapat memblokir akses internet untuk aplikasi tertentu, sehingga secara signifikan mengurangi risiko pengumpulan data yang tidak diinginkan atau komunikasi yang tidak sah.
 
-
-Secara praktis, ini berarti Anda dapat memblokir akses Internet untuk aplikasi tertentu secara individual, sehingga sangat mengurangi risiko pengumpulan data yang tidak diinginkan atau komunikasi yang tidak sah.
-
-
-NetGuard, misalnya, memungkinkan Anda mengelola akses Internet berdasarkan aplikasi per aplikasi, baik untuk Wi-Fi maupun data seluler. RethinkDNS juga menawarkan fitur-fitur canggih seperti penyaringan DNS, pemblokiran iklan, dan inspeksi permintaan DNS untuk mendeteksi potensi kebocoran.
-
+NetGuard, misalnya, memungkinkan Anda mengelola akses internet berdasarkan aplikasi per aplikasi, baik untuk Wi-Fi maupun data seluler. RethinkDNS juga menawarkan fitur-fitur canggih seperti penyaringan DNS, pemblokiran iklan, dan inspeksi kueri DNS untuk mendeteksi potensi kebocoran.
 
 ![Image](assets/fr/146.webp)
 
 
 ### Pencadangan dan pengelolaan yang aman jika terjadi kehilangan
 
-
 #### Enkripsi cadangan Anda
 
+Mencadangkan rutin data smartphone Anda sangat penting untuk keamanan Anda. Namun, cadangan ini harus dienkripsi, untuk mencegah data sensitif Anda diakses oleh siapa pun yang mendapatkan media cadangan Anda. Ini berlaku sama untuk foto, dokumen, dan data aplikasi.
 
-Mencadangkan data ponsel cerdas Anda secara teratur sangat penting untuk keamanan Anda. Tetapi cadangan ini harus dienkripsi, untuk mencegah data sensitif Anda diakses oleh siapa pun yang mendapatkan media cadangan Anda. Hal ini juga berlaku untuk foto, dokumen, dan data aplikasi.
-
-
-Untuk mencapai hal ini, Anda harus menggunakan solusi lokal terenkripsi, seperti disk eksternal atau kunci USB terenkripsi (misalnya dengan Veracrypt). Jika tidak, solusi cloud yang dihosting sendiri seperti *Syncthing* atau *Nextcloud* memungkinkan Anda untuk mencadangkan data Anda di server pribadi, dengan tetap memegang kendali penuh atas akses dan kerahasiaan. Tidak seperti layanan cloud komersial (Google Drive, iCloud...), solusi-solusi ini sangat membatasi pemaparan informasi Anda kepada pihak ketiga.
-
+Untuk mencapai hal ini, Anda harus menggunakan solusi lokal terenkripsi, seperti disk eksternal atau USB flash drive terenkripsi (misalnya dengan Veracrypt). Jika tidak, solusi cloud yang dikelola mandiri seperti _Syncthing_ atau _Nextcloud_ memungkinkan Anda untuk mencadangkan data Anda di server pribadi, sambil mempertahankan kontrol penuh atas akses dan kerahasiaan. Berbeda dengan layanan cloud komersial (Google Drive, iCloud...), solusi ini secara signifikan memberikan sedikit paparan informasi Anda kepada pihak ketiga.
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Penyeka jarak jauh
 
+Smartphone yang hilang atau dicuri dapat menjadi sumber informasi yang berharga bagi penyerang: Data pribadi, riwayat penjelajahan, akun yang terhubung, dll. Oleh karena itu, masuk akal untuk mengonfigurasi fungsi bawaan untuk menemukan, mengunci, dan menghapus perangkat Anda dari jarak jauh.
 
-Ponsel cerdas yang hilang atau dicuri dapat menjadi sumber informasi yang kaya bagi penyerang: Data pribadi, riwayat penelusuran, akun yang terhubung, dll. Oleh karena itu, masuk akal untuk mengonfigurasi fungsi asli untuk menemukan, mengunci, dan menghapus perangkat Anda dari jarak jauh.
-
-
-Di Android, Anda dapat menggunakan *Find My Device* dari Pengaturan Google. Pada iOS, *Find My iPhone* memainkan peran yang sama, dapat diakses dari iCloud. Alat-alat ini memungkinkan Anda untuk segera mengunci akses, membunyikan perangkat untuk menemukannya, atau sebagai upaya terakhir, menghapus data sepenuhnya dari jarak jauh. Ada juga layanan serupa yang dikelola oleh lapisan perangkat lunak produsen, seperti *SmartThings Find* dari Samsung.
-
+Di Android, Anda dapat menggunakan _Find My Device_ dari Pengaturan Google. Di iOS, _Find My iPhone_ memainkan peran yang sama, dapat diakses dari iCloud. Aplikasi-aplikasi ini memungkinkan Anda untuk segera mengunci akses, membunyikan perangkat untuk menemukannya, atau sebagai upaya terakhir, menghapus data sepenuhnya dari jarak jauh. Ada juga layanan serupa yang dikelola oleh lapisan perangkat lunak produsen, seperti _SmartThings_ Find milik Samsung.
 
 ![Image](assets/fr/147.webp)
 
-
-Namun, fitur-fitur ini menghadirkan kompromi yang signifikan: Fitur-fitur ini memusatkan informasi sensitif Anda (geolokasi, login, akses jarak jauh, dll.) pada peladen perusahaan swasta, dan mengharuskan Anda untuk tetap mengaktifkan lokasi Anda.
-
-
-Jika Anda tetap memilih untuk menerapkannya, uji fitur-fitur ini terlebih dahulu untuk memastikan fitur-fitur ini akan berfungsi dengan baik pada hari Anda membutuhkannya.
-
-
-Sebagai alternatif, jika Anda memilih untuk tidak menggunakan layanan kendali jarak jauh ini, saya sangat menyarankan agar Anda mencadangkan data ponsel Anda secara teratur untuk menghindari kehilangan informasi jika perangkat Anda hilang atau dicuri. Untuk membatasi risiko penyerang mendapatkan akses ke informasi Anda, tetapkan kata sandi yang kuat untuk kunci ponsel dan kartu SIM Anda.
-
-
 Kita telah sampai pada akhir bab ini tentang praktik terbaik untuk ponsel cerdas Anda. Pada bab berikutnya, saya akan menunjukkan kepada Anda solusi yang paling sesuai untuk berkomunikasi dengan aman dan rahasia dari perangkat Anda, baik untuk melakukan panggilan, bertukar pesan, atau mengelola newsgroup.
 
+Namun, fitur-fitur ini menghadirkan kelemahan yang signifikan: Mereka memusatkan informasi sensitif Anda (geolokasi, login, akses jarak jauh, dll.) di server perusahaan swasta, dan mengharuskan Anda untuk tetap mengaktifkan lokasi Anda.
+
+Jika Anda memilih untuk menerapkannya, uji fitur ini terlebih dahulu untuk memastikan bahwa fitur-fitur ini akan berfungsi dengan baik saat Anda benar-benar membutuhkannya.
+
+Sebagai alternatif, jika Anda lebih suka tidak menggunakan layanan kontrol jarak jauh ini, saya sangat menyarankan agar Anda mencadangkan data smartphone Anda secara rutin untuk menghindari kehilangan informasi jika perangkat Anda hilang atau dicuri. Untuk membatasi risiko penyerang mendapatkan akses ke informasi Anda, atur kata sandi yang kuat untuk kunci smartphone dan kartu SIM Anda.
 
 ## Berkomunikasi tanpa terdengar oleh orang lain
 
-
 <chapterId>e60773c6-ee96-47b2-a9fa-08d1bdbd1108</chapterId>
 
+Di dunia yang saling terhubung saat ini, sebagian besar hubungan pribadi, profesional, dan sensitif kita terjadi melalui pesan elektronik. Namun, kerahasiaan komunikasi ini sangat bervariasi tergantung pada protokol yang digunakan.
 
-Di dunia yang serba terhubung saat ini, sebagian besar pertukaran pribadi, profesional, dan sensitif kita dilakukan melalui pesan elektronik. Namun, kerahasiaan komunikasi ini sangat bervariasi, tergantung pada protokol yang digunakan.
-
-
-Dalam bab ini, kita akan mencoba memahami masalah teknis dan praktis yang terlibat dalam penggunaan alat komunikasi digital, untuk memilih dan menggunakan alat komunikasi yang memberikan perlindungan nyata terhadap penyadapan dan pengintaian.
-
+Pada bab ini, kita akan mencoba memahami masalah teknis dan praktis yang terlibat dalam penggunaan aplikasi komunikasi digital, untuk memilih dan menggunakan aplikasi yang memberikan perlindungan nyata terhadap penyadapan dan pengawasan.
 
 ### Mengapa pesan SMS tidak melindungi pertukaran Anda?
 
-
-SMS (*Short Message Service*) secara historis sangat populer untuk pertukaran teks, tetapi didasarkan pada protokol yang sudah usang sejak akhir tahun 1980-an. Protokol ini, yang diintegrasikan ke dalam standar GSM (*Global System for Mobile communications*), tidak menyediakan mekanisme enkripsi ujung ke ujung. Dalam praktiknya, setiap SMS yang dikirim dikirimkan dalam bentuk teks yang jelas melalui jaringan operator seluler (terkadang dienkripsi hanya pada radio Interface, tetapi tidak pernah secara end-to-end). Ini berarti bahwa isi pesan dapat disadap pada beberapa tingkat:
-
-
+SMS (_Short Message Service_) secara historis sangat populer untuk komunikasi teks, tetapi didasarkan pada protokol usang yang berasal dari akhir tahun 1980-an. Protokol ini, yang terintegrasi ke dalam standar GSM (_Global System for Mobile communications_), tidak menyediakan mekanisme enkripsi end-to-end. Dalam praktiknya, setiap SMS yang dikirimkan ditransmisikan dalam teks biasa melalui jaringan operator seluler (terkadang dienkripsi hanya pada Interface radio, tetapi tidak pernah secara end-to-end). Ini berarti konten pesan dapat dicegat di beberapa tingkatan:
 
 - oleh operator
-- oleh aktor jahat yang menyadap lalu lintas seluler (misalnya melalui IMSI Catchers)
-- atau oleh lembaga pemerintah dengan akses legal atau ilegal ke infrastruktur jaringan
-
+- oleh pelaku jahat yang mencegat lalu lintas seluler (misalnya melalui _IMSI Catcher_)
+- atau oleh badan pemerintah dengan akses legal atau ilegal ke infrastruktur jaringan
 
 Fakta bahwa pesan SMS disimpan di server pusat operator, dan kelemahan sistem otentikasi (nomor telepon sebagai pengenal unik), membuat pesan mudah dicegat dan rentan terhadap serangan. Oleh karena itu, SMS sama sekali tidak cocok untuk mengirimkan informasi, baik dalam konteks pribadi, profesional, maupun kritis.
 
+Keterbatasan ini juga berlaku untuk MMS (_Multimedia Messaging Service_), yang didasarkan pada fondasi teknis yang sama, dengan tambahan konten multimedia (foto, video).
 
-Keterbatasan ini juga berlaku untuk MMS (*Multimedia Messaging Service*), yang didasarkan pada fondasi teknis yang sama, dengan tambahan konten multimedia (foto, video).
+Dalam beberapa tahun terakhir, beberapa operator dan produsen telah memperkenalkan RCS (_Rich Communication Services_), sebuah evolusi teknis dari SMS. RCS memungkinkan pengiriman pesan yang dilengkapi (gambar, video, konfirmasi penerimaan, dll.) dan mengintegrasikan enkripsi transit (TLS), tetapi ini tetap bergantung pada server operator dan tidak menjamin enkripsi end-to-end (E2EE) dalam semua kasus. Terlebih lagi, fragmentasi implementasinya antara operator dan produsen (antara Android dan iOS, misalnya) membatasi adopsi dan keandalan yang sebenarnya.
 
+Sejak 2021, Google Messages telah mengadopsi protokol Signal untuk menjamin enkripsi end-to-end, tetapi fitur ini hanya dapat diakses jika kedua pihak menggunakan Google Messages.
 
-Dalam beberapa tahun terakhir, beberapa operator dan produsen telah memperkenalkan RCS (*Rich Communication Services*), sebuah evolusi teknis dari SMS. RCS memungkinkan pengiriman pesan yang diperkaya (gambar, video, tanda terima, dll.) dan mengintegrasikan enkripsi transit (TLS), tetapi hal ini masih bergantung pada server operator dan tidak menjamin enkripsi ujung ke ujung dalam semua kasus. Terlebih lagi, fragmentasi implementasinya antara operator dan produsen (antara Android dan iOS, misalnya) membatasi adopsi dan keandalan yang sebenarnya.
+Pada Maret 2025, _GSM Association_ menerbitkan _Universal Profile 3.0_ (UP 3.0), yang akhirnya menetapkan standar interoperabilitas untuk enkripsi end-to-end (E2EE) dalam RCS. Akibatnya, ketika komunikasi berlangsung melalui klien RCS yang sesuai dengan UP 3.0, konten menjadi tidak dapat dibaca oleh operator maupun IMSI Catcher. Google dan Apple telah mengumumkan niat mereka untuk mendukung teknologi ini (masih harus dilihat apakah ini akan dapat dioperasikan). Namun, jika salah satu perangkat tidak kompatibel dengan RCS UP 3.0, atau jika tidak ada konektivitas IP, komunikasi secara otomatis beralih ke SMS konvensional yang tidak terenkripsi, membuat penyadapan menjadi mudah.
 
+Di sisi Apple, iMessage (diluncurkan pada tahun 2011) menawarkan enkripsi end-to-end bawaan antara pengguna Apple, tetapi protokol ini tetap tertutup dan terbatas pada ekosistem iOS/macOS. Saat bertukar pesan dengan pengguna di luar ekosistem ini, pesan akan kembali ke protokol klasik, kehilangan semua kerahasiaan. Enkripsi juga dapat rusak jika Anda atau rekan Anda menyimpan pesan Anda di iCloud tanpa opsi _Advanced Data Protection_.
 
-Sejak tahun 2021, Google Messages telah mengadopsi protokol Signal untuk menjamin enkripsi end-to-end, namun fitur ini hanya dapat diakses jika kedua belah pihak menggunakan Google Messages.
+Singkatnya, baik SMS konvensional, maupun MMS, atau bahkan RCS standar tidak dapat dianggap sebagai solusi universal yang dapat diandalkan untuk menjaga kerahasiaan komunikasi. Hanya penggunaan Google Messages, iMessage, atau protokol RCS UP 3.0 di masa depan yang dapat menjamin kerahasiaan yang memuaskan, asalkan kedua belah pihak mengadopsi protokol enkripsi yang sama. Dan di sinilah letak jebakan utama dari SMS secara luas: aplikasi pesan instan ini, yang sudah terpasang di sebagian besar smartphone, menyatukan protokol-protokol yang secara radikal berbeda, dan jika pihak lain hanya mendukung protokol SMS, pesan Anda akan ditransmisikan secara terbuka, tanpa Anda menyadarinya. Inilah mengapa, sampai standar enkripsi end-to-end yang universal dan kuat ditetapkan, saya sangat tidak menyarankan penggunaan pesan konvensional, karena Anda terlalu bergantung pada pilihan protokol lawan bicara Anda untuk menjamin keamanan Anda sendiri.
 
-
-Pada bulan Maret 2025, Asosiasi GSM menerbitkan *Universal Profile 3.0* (UP 3.0), yang akhirnya menetapkan standar interoperabilitas untuk enkripsi ujung ke ujung (E2EE) dalam RCS. Hasilnya, ketika sebuah Exchange terjadi melalui klien RCS yang sesuai dengan UP 3.0, konten menjadi tidak dapat dibaca oleh operator dan penangkap IMSI. Google dan Apple telah mengumumkan niat mereka untuk mendukung teknologi ini (masih harus dilihat apakah ini akan dapat dioperasikan). Namun, jika salah satu perangkat tidak kompatibel dengan RCS UP 3.0, atau jika tidak ada konektivitas IP, komunikasi secara otomatis beralih ke SMS konvensional yang tidak terenkripsi, membuat penyadapan menjadi sepele.
-
-
-Di sisi Apple, iMessage (diluncurkan pada tahun 2011) menawarkan enkripsi end-to-end asli di antara para pengguna Apple, tetapi protokol ini tetap tertutup dan terbatas pada ekosistem iOS/macOS. Ketika bertukar pesan dengan pengguna di luar ekosistem ini, pesan kembali ke protokol klasik, kehilangan semua kerahasiaannya. Enkripsi juga dapat dibobol jika Anda atau rekan Anda menyimpan pesan di iCloud tanpa opsi *Perlindungan Data Lanjutan*.
-
-
-Singkatnya, baik SMS konvensional, maupun MMS, atau bahkan RCS standar tidak dapat dianggap sebagai solusi universal yang dapat diandalkan untuk menjaga kerahasiaan pertukaran. Hanya penggunaan Google Messages, iMessage atau protokol RCS UP 3.0 di masa depan yang dapat menjamin kerahasiaan yang memuaskan, asalkan kedua belah pihak mengadopsi protokol enkripsi yang sama. Dan di sinilah letak perangkap utama SMS dalam arti luas: Aplikasi perpesanan ini, yang sudah terinstal di sebagian besar ponsel, menyatukan protokol yang sangat berbeda, dan jika pihak lain hanya mendukung protokol SMS, pesan Anda akan dikirimkan secara jelas, tanpa Anda sadari. Inilah sebabnya, sampai standar enkripsi end-to-end yang universal dan kuat dibuat, saya sangat menyarankan agar Anda tidak menggunakan pesan konvensional, karena Anda masih terlalu bergantung pada pilihan protokol mitra Anda untuk menjamin keamanan Anda sendiri.
-
-
-Alih-alih SMS, saya menyarankan Anda untuk menggunakan aplikasi pesan khusus yang menggunakan enkripsi end-to-end yang kuat dan transparan, memungkinkan komunikasi yang benar-benar aman dan pribadi.
-
+Sebagai ganti SMS, saya menyarankan Anda untuk menggunakan aplikasi pesan instan khusus yang menggunakan enkripsi end-to-end yang kuat dan transparan, yang memungkinkan komunikasi yang benar-benar aman dan pribadi.
 
 ### Pesan yang aman: apa saja solusinya?
 
-
-Menghadapi keterbatasan SMS, sejumlah aplikasi modern telah muncul, beberapa di antaranya dengan enkripsi end-to-end. Berikut ini adalah ikhtisar komparatif dari aplikasi utama yang tersedia saat ini, untuk membantu Anda mengidentifikasi aplikasi yang paling sesuai dengan kebutuhan keamanan dan kerahasiaan Anda.
-
+Menghadapi keterbatasan SMS, sejumlah aplikasi modern telah muncul, beberapa di antaranya dengan enkripsi end-to-end. Berikut adalah perbandingan beberapa dari aplikasi utama yang tersedia saat ini, untuk membantu Anda mengidentifikasi aplikasi mana yang paling memenuhi kebutuhan keamanan dan kerahasiaan Anda.
 
 #### Sinyal
 
-
-Signal adalah aplikasi pesan instan yang dirancang sejak awal untuk menawarkan kerahasiaan dan keamanan maksimum. Aplikasi ini didasarkan pada *Signal Protocol*, yang memastikan enkripsi end-to-end yang sistematis untuk setiap pesan, panggilan suara atau video, serta untuk berbagi file. Protokol ini digunakan kembali oleh banyak layanan perpesanan lainnya, seperti WhatsApp, Facebook Messenger, Skype, dan Google Messages (dalam implementasi RCS).
-
+Signal adalah aplikasi pesan instan instan yang dirancang sejak awal untuk menawarkan kerahasiaan dan keamanan maksimum. Aplikasi ini didasarkan pada _Signal Protocol_, yang memastikan enkripsi end-to-end yang sistematis untuk setiap pesan, panggilan suara atau video, serta untuk berbagi file. Protokol ini digunakan kembali oleh banyak layanan pesan lain, seperti WhatsApp, Facebook Messenger, Skype, dan Google Messages (dalam implementasi RCS-nya).
 
 ![Image](assets/fr/148.webp)
 
+Secara teknis, setiap percakapan di dalam Signal dilindungi oleh mekanisme enkripsi asimetris dan efemeral: Kunci sesi dibuat secara dinamis dan dihancurkan setelah digunakan, sehingga membatasi risiko penyadapan. Transparansi aplikasi, soruce code yang sepenuhnya terbuka (open-source) baik di sisi klien maupun server, berarti setiap pakar atau peneliti keamanan dapat memeriksa integritas dan kesesuaian terhadap standar kriptografi yang disebutkan.
 
-Secara teknis, setiap percakapan di dalam Signal dilindungi oleh mekanisme enkripsi asimetris dan fana: Kunci sesi dinegosiasikan secara dinamis dan dihancurkan setelah digunakan, sehingga membatasi risiko kompromi. Transparansi aplikasi, yang kodenya sepenuhnya bersifat open-source baik di sisi klien maupun server, berarti bahwa setiap ahli keamanan atau peneliti dapat memeriksa integritas dan kepatuhannya terhadap standar kriptografi yang ditetapkan.
+Namun, Signal memiliki kelemahan dalam hal anonimitas: aplikasi ini memerlukan nomor telepon yang valid untuk pendaftaran dan identifikasi pengguna. Meskipun nomor ini tidak secara sistematis terlihat oleh kontak Anda (dapat disembunyikan di bawah nama samaran), persyaratan ini memperkenalkan ketergantungan pada infrastruktur telepon, dan dengan demikian berpotensi menjadi celah potensial untuk dilacak.
 
-
-Namun, Signal memiliki titik lemah dalam hal anonimitas: aplikasi ini membutuhkan nomor telepon yang valid untuk pendaftaran dan identifikasi pengguna. Meskipun nomor ini tidak secara sistematis terlihat oleh kontak Anda (bisa disembunyikan di bawah nama samaran), persyaratan ini menimbulkan ketergantungan pada infrastruktur telepon, dan oleh karena itu merupakan celah potensial untuk dilacak.
-
-
-Singkatnya, Signal adalah solusi perpesanan yang sangat bagus, tetapi sayangnya membutuhkan koneksi dari nomor telepon.
-
+Singkatnya, Signal adalah solusi aplikasi pesan instan yang sangat baik, tetapi sayangnya, memerlukan koneksi dari nomor telepon.
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
+WhatsApp, yang dimiliki oleh Meta (sebelumnya Facebook), juga menggunakan *Signal Protocol* untuk enkripsi end-to-end. Jadi, secara teori, percakapan WhatsApp Anda terlindungi secara efektif dari penyadapan. Namun, ini belum tentu yang terbaik dalam hal kerahasiaan yang sebenarnya: aplikasi ini mengumpulkan sejumlah besar metadata (nomor, kebiasaam berkomunikasi, perkiraan lokasi, kontak...), yang dapat dieksploitasi secara komersial oleh Meta untuk tujuan iklan atau analitik.
 
-WhatsApp, yang dimiliki oleh Meta (sebelumnya Facebook), juga menggunakan *Signal Protocol* untuk enkripsi end-to-end. Jadi, secara teori, percakapan WhatsApp Anda secara efektif terlindungi dari penyadapan. Namun, ini belum tentu yang terbaik dalam hal kerahasiaan yang sebenarnya: aplikasi ini mengumpulkan sejumlah besar metadata (nomor, frekuensi pertukaran, perkiraan lokasi, kontak...), yang bisa dieksploitasi secara komersial oleh Meta untuk tujuan periklanan atau analisis.
-
-
-Selain itu, enkripsi yang diterapkan oleh WathsApp tidak dapat diverifikasi, karena kode sumbernya bersifat eksklusif. Itulah mengapa saya tidak menyarankan penggunaan WhatsApp dalam konteks di mana kerahasiaan dan keamanan pertukaran Anda penting.
-
+Selain itu, enkripsi yang diterapkan oleh WhatsApp tidak dapat diverifikasi, karena source code-nya adalah eksklusif. Itulah mengapa saya tidak merekomendasikan penggunaan WhatsApp dalam konteks di mana kerahasiaan dan keamanan pertukaran Anda penting.
 
 #### Telegram
 
-
-Telegram merupakan layanan perpesanan yang sangat populer berkat ergonomi dan fitur-fiturnya (saluran publik, bot, grup besar...). Namun, keamanannya jauh lebih terbatas secara default: hanya "pertukaran rahasia" yang mendapat manfaat dari enkripsi ujung ke ujung. Semua percakapan lainnya (mayoritas pertukaran harian pengguna) disimpan tanpa enkripsi di server Telegram.
-
+Telegram adalah layanan perpesanan yang sangat populer berkat ergonomi dan fiturnya (channel publik, bot, grup besar...). Namun, keamanannya jauh lebih terbatas secara default: hanya "pertukaran rahasia" yang mendapatkan manfaat dari enkripsi end-to-end. Semua percakapan lainnya (mayoritas pertukaran harian pengguna) disimpan tidak terenkripsi di server Telegram.
 
 ![Image](assets/fr/149.webp)
 
-
-Oleh karena itu, Telegram secara teknis dapat mengakses konten sebagian besar percakapan yang tidak secara eksplisit dilindungi. Bahkan jika perusahaan ini mengambil sikap tegas terhadap otoritas pemerintah, Telegram bukanlah solusi optimal untuk pertukaran rahasia atau sensitif, kecuali jika Anda secara eksplisit menggunakan "pertukaran rahasia", yang jauh lebih tidak praktis dalam keseharian.
-
+Oleh karena itu, Telegram secara teknis dapat mengakses konten dari sebagian besar percakapan yang tidak dilindungi secara eksplisit. Bahkan jika perusahaan mengambil sikap tegas terhadap otoritas pemerintah, Telegram bukanlah solusi optimal untuk pertukaran rahasia atau sensitif, kecuali jika Anda secara eksplisit menggunakan "pertukaran rahasia"nya, yang jauh lebih tidak praktis dalam penggunaan sehari-hari.
 
 https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
-
-Threema, diluncurkan di Swiss pada tahun 2012, menonjol dari sebagian besar layanan perpesanan aman lainnya berkat pendekatan privasi berdasarkan desain. Tidak seperti Signal, WhatsApp atau Telegram, tidak ada nomor telepon yang diperlukan untuk membuat akun. Pengguna diberi pengenal acak yang unik, memungkinkan pendaftaran yang sepenuhnya anonim tanpa tautan langsung ke identitas asli.
-
+Threema, yang diluncurkan di Swiss pada tahun 2012, terkenal dari sebagian besar layanan perpesanan aman lainnya berkat pendekatan _privacy-by-design-nya_. Berbeda dengan Signal, WhatsApp, atau Telegram, tidak ada nomor telepon yang diperlukan untuk membuat akun. Pengguna diberi pengenal acak unik, yang memungkinkan pendaftaran sepenuhnya anonim tanpa hubungan langsung ke identitas asli.
 
 ![Image](assets/fr/150.webp)
 
+Secara teknis, Threema menawarkan enkripsi ujung-ke-ujung (end-to-end) pada semua komunikasi: pesan, panggilan suara atau video, file, grup, dan fungsi lainnya. Sejak tahun 2020, source code untuk aplikasi mobile telah bersifat open-source, memungkinkan audit independen. Di sisi lain, infrastruktur server tetap merupakan milik pribadi (proprietary), meskipun berlokasi eksklusif di Swiss, negara yang undang-undangnya mendukung perlindungan data pribadi.
 
-Secara teknis, Threema menawarkan enkripsi ujung ke ujung pada semua komunikasi: pesan, panggilan, berkas, grup, dan fungsi-fungsi lainnya. Sejak tahun 2020, kode sumber untuk aplikasi seluler telah menjadi sumber terbuka, memungkinkan audit independen. Di sisi lain, infrastruktur server tetap menjadi hak milik, meskipun berlokasi secara eksklusif di Swiss, negara yang undang-undangnya mendukung perlindungan data pribadi.
+Aplikasi ini kompatibel dengan Android dan iOS, serta menawarkan Interface web yang aman, serta aplikasi pengguna untuk Windows, Linux, dan macOS. Namun, aktivasi awal memerlukan smartphone.
 
+Aspek penting lainnya dari Threema adalah model bisnisnya: aplikasi ini tidak gratis tetapi harus dibeli (sekitar €5.99). Pilihan ini menghindari ketergantungan pada model yang didasarkan pada pengumpulan data atau iklan. Untuk menjaga anonimitas saat membeli, kunci aktivasi dapat dibeli menggunakan bitcoin atau tunai langsung di Threema Shop untuk Android.
 
-Aplikasi ini kompatibel dengan Android dan iOS, dan juga menawarkan web Interface yang aman, serta klien asli untuk Windows, Linux, dan macOS. Namun demikian, aktivasi awal memerlukan smartphone.
-
-
-Aspek penting lainnya dari Threema adalah model bisnisnya: aplikasi ini tidak gratis tetapi harus dibeli (sekitar €5,99). Pilihan ini menghindari ketergantungan pada model yang didasarkan pada pengumpulan data atau iklan. Untuk menjaga anonimitas saat membeli, kunci aktivasi dapat dibeli dengan bitcoin atau uang tunai langsung di Threema Shop untuk Android.
-
-
-Menurut saya, solusi perpesanan ini sangat bagus, tetapi kelemahan utamanya adalah bahwa kode sumber untuk servernya tetap eksklusif.
-
+Menurut saya solusi perpesanan ini sangat baik, tetapi kekurangan utamanya adalah source code untuk server-nya tetap bersifat eksklusif.
 
 https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
-#### Obrolan SimpleX
+#### SimpleX Chat
 
-
-SimpleX Chat, yang diluncurkan pada tahun 2021, sepenuhnya menghilangkan gagasan tentang ID pengguna: tidak ada nomor telepon, tidak ada nama samaran publik, tidak ada kunci publik yang terlihat. Setiap pengguna diidentifikasi hanya dengan tautan atau kode QR sementara. Arsitektur ini membuat korelasi antar pengguna hampir tidak mungkin terjadi, menjamin tingkat kerahasiaan yang tinggi.
-
+SimpleX Chat, yang diluncurkan pada tahun 2021, sepenuhnya menghilangkan gagasan tentang ID pengguna: tidak ada nomor telepon, tidak ada nama samaran publik, tidak ada kunci publik yang terlihat. Setiap pengguna diidentifikasi hanya dengan tautan atau kode QR yang bersifat sementara. Arsitektur ini membuat korelasi antar pengguna hampir tidak mungkin, menjamin tingkat kerahasiaan yang tinggi.
 
 ![Image](assets/fr/151.webp)
 
+Secara teknis, pesan dienkripsi dari ujung ke ujung (end-to-end) dan melewati server relai. Relai ini tidak memiliki informasi tentang pengirim, penerima, atau kunci mereka. Setelah pesan dikirimkan, pesan itu segera dihapus dari server. SimpleX mengadopsi arsitektur terdesentralisasi yang tidak terpusat: server tidak memiliki direktori global, dan setiap pengguna dapat memasang relainya sendiri. Ini berbeda dengan solusi seperti Matrix, di mana server yang terpusat melacak komunikasi.
 
-Secara teknis, pesan dienkripsi dari ujung ke ujung dan melewati server relay. Relai ini tidak memiliki pengetahuan tentang pengirim, penerima atau kunci mereka. Setelah pesan dikirimkan, pesan tersebut segera dihapus dari server. SimpleX mengadopsi arsitektur terdesentralisasi yang tidak terpusat: server tidak memiliki direktori global, dan setiap pengguna dapat memasang relai mereka sendiri. Hal ini berbeda dengan solusi seperti Matrix, di mana server federasi melacak pertukaran.
+Protokolnya sepenuhnya open-source: klien, server, dan protokol dapat diakses publik dan diaudit. SimpleX tersedia di Android, iOS, Linux, Windows, dan macOS, dengan penyimpanan lokal terenkripsi dan portabel, sehingga profil dapat ditransfer tanpa server pusat. Setiap pengguna juga dapat mengelola beberapa profil yang terisolasi, masing-masing dengan pengaturan, nama panggilan, dan foto sendiri. Fleksibilitas ini memungkinkan untuk secara jelas memisahkan kehidupan pribadi, kehidupan profesional, dan anonimitas.
 
+Kontak ditambahkan melalui tautan sementara atau alamat statis (pengenal permanen tetapi dapat dibatalkan). Anda juga dapat memilih antara komunikasi sementara atau mode yang lebih klasik, dengan kontrol yang terperinci pada visibilitas dan otorisasi (misalnya, menyembunyikan nama asli Anda di balik nama samaran acak yang unik untuk setiap kontak).
 
-Protokol ini sepenuhnya sumber terbuka: klien, server dan protokol dapat diakses publik dan diaudit. SimpleX tersedia di Android, iOS, Linux, Windows dan macOS, dengan penyimpanan lokal yang dienkripsi dan portabel, sehingga profil dapat ditransfer tanpa server pusat. Setiap pengguna juga bisa mengelola beberapa profil yang terisolasi, masing-masing dengan pengaturan, nama panggilan dan fotonya sendiri. Fleksibilitas ini memungkinkan untuk memisahkan dengan jelas kehidupan pribadi, kehidupan profesional, dan nama samaran.
-
-
-Kontak ditambahkan melalui tautan sementara atau alamat statis (pengenal permanen tetapi dapat dibatalkan). Anda juga dapat memilih antara Exchange yang fana atau mode yang lebih klasik, dengan kontrol halus pada visibilitas dan otorisasi (misalnya, menyembunyikan nama asli Anda di balik nama samaran yang acak dan unik untuk setiap kontak).
-
-
-Dalam hal keamanan dan kerahasiaan, SimpleX melangkah lebih jauh daripada kebanyakan sistem pesan yang ada, membatasi metadata seminimal mungkin dan menghilangkan ketergantungan pada direktori pusat atau pengenal unik. Namun, arsitektur ini memaksakan sejumlah kompromi dalam hal keramahan pengguna: ergonomi yang terkadang kurang intuitif, kebutuhan akan sedikit kurva pembelajaran awal, dan ketergantungan pada ketersediaan server relai.
-
+Dalam hal keamanan dan kerahasiaan, SimpleX melangkah lebih baik dari sebagian besar sistem perpesanan yang ada, membatasi metadata seminimal mungkin dan menghilangkan ketergantungan pada direktori pusat atau pengenal unik. Namun, arsitektur ini memberikan sejumlah kelemahan dalam hal keramahan pengguna: ergonomi yang terkadang kurang intuitif, membutuhkan waktu pembelajaran di awal, dan ketergantungan pada ketersediaan server relai.
 
 https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sesi
+#### Session
 
-
-Session, yang diluncurkan pada tahun 2020 oleh Oxen Privacy Tech Foundation, adalah sebuah aplikasi perpesanan yang dirancang untuk menawarkan privasi dan ketahanan yang lebih baik dalam menghadapi pengawasan. Session tidak memerlukan informasi pribadi saat pendaftaran: tidak ada nomor telepon, tidak ada email, hanya sepasang kunci kriptografi yang dibuat secara lokal. Hal ini memungkinkan otentikasi anonim.
-
+Session, yang diluncurkan pada tahun 2020 oleh Oxen Privacy Tech Foundation, adalah aplikasi perpesanan yang dirancang untuk menawarkan privasi dan ketahanan yang lebih baik dalam menghadapi pengawasan. Session tidak memerlukan informasi pribadi saat pendaftaran: tidak ada nomor telepon, tidak ada email, hanya sepasang kunci kriptografi yang dihasilkan secara lokal. Ini memungkinkan otentikasi anonim.
 
 ![Image](assets/fr/152.webp)
 
+Secara teknis, Session mengimplementasikan enkripsi end-to-end untuk pesan, file, audio, dan panggilan, serta untuk grup (hingga 100 anggota). Pesan-pesan dialihkan melalui jaringan terdesentralisasi yang didasarkan pada node server yang terinspirasi oleh arsitektur bawang (onion architecture) Tor. Mekanisme ini menawarkan perlindungan tingkat lanjut terhadap pengawasan jaringan, termasuk oleh ISP dan aparat negara.
 
-Secara teknis, Session mengimplementasikan enkripsi ujung ke ujung untuk pesan, berkas, audio dan panggilan, serta untuk grup (hingga 100 anggota). Pesan-pesan disalurkan melalui jaringan terdesentralisasi berdasarkan server simpul yang terinspirasi oleh arsitektur bawang Tor. Mekanisme ini menawarkan proteksi tingkat lanjut terhadap pengawasan jaringan, termasuk oleh ISP dan aktor negara.
-
-
-Klien dan server Session adalah sumber terbuka. Perangkat lunak ini tersedia di Android, iOS, Windows, macOS dan Linux, dengan opsi untuk menyinkronkan antar perangkat melalui frasa Mnemonic yang mirip dengan yang digunakan dalam dompet Bitcoin. Frasa ini memberikan kontrol eksklusif kepada pengguna atas datanya, tetapi juga membebankan tanggung jawab yang signifikan dalam hal pencadangan.
-
+Klien dan server Session bersifat open-source. Perangkat lunak ini tersedia di Android, iOS, Windows, macOS, dan Linux, dengan opsi untuk sinkronisasi antar perangkat melalui frasa mnemonik yang mirip dengan yang digunakan di dompet Bitcoin. Frasa ini memberikan kontrol eksklusif kepada pengguna atas datanya, tetapi juga membebankan tanggung jawab yang signifikan dalam hal pencadangan.
 
 https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
-
-Keet, diluncurkan pada tahun 2022 oleh Holepunch (sebuah perusahaan yang didukung oleh Tether dan Bitfinex), menonjol karena pendekatannya yang terdesentralisasi secara radikal: Semua komunikasi (pesan, panggilan audio dan video, transfer file, dll.) berlangsung secara langsung di antara para pengguna, tanpa melewati server pusat. Arsitektur P2P ini menghilangkan perantara dan sangat meningkatkan kerahasiaan dan ketahanan sistem.
-
+Keet, yang diluncurkan pada tahun 2022 oleh Holepunch (sebuah perusahaan yang didukung oleh Tether dan Bitfinex), menonjol karena pendekatan desentralisasinya yang radikal: Semua komunikasi (pesan, panggilan audio dan video, transfer file, dll.) berlangsung langsung antara pengguna, tanpa melewati server pusat. Arsitektur P2P ini menghilangkan perantara dan secara signifikan meningkatkan kerahasiaan dan ketahanan sistem.
 
 ![Image](assets/fr/153.webp)
 
+Keet mengenkripsi semua komunikasi end-to-end. Pendaftaran sepenuhnya anonim: tidak ada nomor telepon, alamat email, atau pengenal yang diperlukan. Ini memastikan kerahasiaan yang ditingkatkan sejak layanan diaktifkan. Panggilan video memiliki kualitas tertinggi, dan transfer file tidak terbatas dalam ukuran, membuatnya cocok untuk penggunaan profesional maupun pribadi.
 
-Keet mengenkripsi semua komunikasi dari ujung ke ujung. Pendaftaran sepenuhnya anonim: tidak diperlukan nomor telepon, email Address, atau pengenal. Hal ini memastikan kerahasiaan yang lebih baik sejak layanan diaktifkan. Panggilan video memiliki kualitas terbaik, dan transfer file tidak terbatas ukurannya, sehingga cocok untuk penggunaan profesional dan pribadi.
+Di sisi lain, meskipun beberapa komponen (kriptografi dan jaringan) diterbitkan sebagai open-source di GitHub, Interface pada klien  Keet tidak sepenuhnya terbuka pada saat penulisan SCU-202 (Mei 2025). Namun, Holepunch telah mengumumkan niatnya untuk menerbitkan seluruh kode di masa depan.
 
-
-Di sisi lain, meskipun beberapa komponen (kriptografi dan jaringan) dipublikasikan sebagai sumber terbuka di GitHub, klien Interface milik Keet belum sepenuhnya terbuka pada saat penulisan SCU-202 (Mei 2025). Namun, Holepunch telah mengumumkan niatnya untuk mempublikasikan seluruh kode di masa depan.
-
-
-Keet tersedia di Android, iOS, Windows, macOS dan Linux, dan dapat disinkronkan antar perangkat menggunakan frasa Mnemonic.
-
+Keet tersedia di Android, iOS, Windows, macOS, dan Linux, dan dapat disinkronkan antar perangkat menggunakan frasa mnemonik.
 
 https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
-
-Olvid, diluncurkan pada tahun 2019, adalah layanan perpesanan terenkripsi dari Prancis. Keunggulannya: Pendaftaran tanpa data pribadi. Identifikasi didasarkan pada Exchange kunci kriptografi langsung antar pengguna.
-
+Olvid, yang diluncurkan pada tahun 2019, adalah layanan perpesanan terenkripsi dari Prancis. Poin utamanya: Pendaftaran tanpa data pribadi apa pun. Identifikasi didasarkan pada pertukaran kunci kriptografi langsung antar pengguna.
 
 ![Image](assets/fr/154.webp)
 
+Secara teknis, pesan di Olvid dienkripsi dari end-to-end, menggunakan protokol eksklusif yang dirancang khusus untuk melindungi tidak hanya konten pesan, tetapi juga metadata: Tidak ada seorang pun, termasuk server pusat, yang dapat mengetahui siapa berkomunikasi dengan siapa, atau kapan. Model ini secara signifikan mengurangi risiko spionase dan pengawasan.
 
-Secara teknis, pesan di Olvid dienkripsi dari ujung ke ujung, menggunakan protokol eksklusif yang dirancang khusus untuk melindungi tidak hanya konten pesan, tetapi juga metadata: Tidak seorang pun, termasuk server pusat, yang dapat mengetahui siapa yang berkomunikasi dengan siapa, atau kapan. Model ini secara signifikan mengurangi risiko spionase dan pengawasan.
+Namun, infrastruktur server tetap bersifat eksklusif dan terpusat, di-hosting di AWS (_Amazon Web Services_). Kode klien telah bersifat open-source selama beberapa tahun, tetapi kode server tidak dipublikasikan, yang membatasi transparansi teknis sistem.
 
+Model keamanan Olvid didasarkan pada prinsip penting: Tidak adanya pihak ketiga yang terpercaya dalam pembentukan identitas digital. Berbeda dengan sebagian besar sistem perpesanan terenkripsi, yang mengandalkan direktori terpusat untuk mengelola identitas pengguna, Olvid tidak bergantung pada infrastruktur terpusat apa pun untuk menjamin integritas komunikasi. Arsitektur ini menghilangkan risiko yang terkait dengan kompromi direktori.
 
-Namun, infrastruktur server tetap menjadi hak milik dan terpusat, dihosting di AWS (*Amazon Web Services*). Kode klien telah menjadi sumber terbuka selama beberapa tahun, tetapi kode server tidak dipublikasikan, yang membatasi transparansi teknis sistem.
-
-
-Model keamanan Olvid didasarkan pada prinsip penting: Tidak adanya pihak ketiga yang terpercaya dalam pembentukan identitas digital. Tidak seperti kebanyakan sistem perpesanan terenkripsi, yang mengandalkan direktori terpusat untuk mengelola identitas pengguna, Olvid tidak bergantung pada infrastruktur terpusat apa pun untuk menjamin integritas komunikasi. Arsitektur ini menghilangkan risiko yang terkait dengan kompromi direktori.
-
-
-Olvid memang menggunakan server distribusi pesan pusat, tetapi perannya hanya bersifat logistik: Server ini menangani transmisi pesan terenkripsi secara asinkron. Server ini tidak terlibat dalam setiap tahap proses enkripsi, dan tidak mengetahui identitas asli pengguna, maupun konten atau metadata pesan (dengan pengecualian kunci publik penerima, yang diperlukan untuk perutean). Oleh karena itu, ia dapat dianggap tidak bersahabat secara default, tanpa mengorbankan keamanan secara keseluruhan. Bahkan jika itu disusupi, ia tidak akan mengizinkan akses apa pun ke konten komunikasi. Oleh karena itu, Olvid mengasumsikan distribusi pesan yang terpusat (untuk alasan efisiensi dan kualitas layanan), sambil menjamin keamanan yang tidak bergantung pada infrastruktur ini.
-
+Olvid memang menggunakan server distribusi pesan terpusat, tetapi perannya murni logistik: menangani transmisi pesan terenkripsi secara asinkron. Server ini tidak terlibat dalam tahap apa pun dari proses enkripsi, dan tidak mengetahui identitas asli pengguna, atau konten maupun metadata pesan (dengan pengecualian kunci publik penerima, yang diperlukan untuk perutean). Oleh karena itu, server ini dapat dianggap bermusuhan secara default, tanpa mengorbankan keamanan keseluruhan. Bahkan jika disusupi, itu tidak akan memungkinkan akses apa pun ke konten komunikasi. Oleh karena itu, Olvid mengasumsikan distribusi pesan terpusat (demi efisiensi dan kualitas layanan), sambil menjamin keamanan yang independen dari infrastruktur ini.
 
 Olvid menawarkan dua versi:
 
+- Versi gratis, menawarkan semua fungsi kecuali panggilan audio dan video (hanya menerima) dan sinkronisasi multi-perangkat.
+- Versi berbayar seharga €4.99 per bulan yang membuka semua fitur.
 
+Aplikasi ini disertifikasi oleh ANSSI (_Agence Nationale de la Sécurité des Systèmes d'Information_).
 
-- Versi gratis, menawarkan semua fungsi kecuali panggilan audio dan video (hanya menerima) dan sinkronisasi multi-perangkat
-- Versi berbayar dengan harga €4,99 per bulan membuka semua fitur
-
-
-Aplikasi ini disertifikasi oleh ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*).
-
-
-Olvid kompatibel dengan Android, iOS, Windows, macOS dan Linux. Ergonominya tetap sederhana dan mudah diakses. Aplikasi ini juga dilengkapi dengan sistem cadangan terenkripsi untuk kunci dan kontak, sehingga Anda bisa memulihkan akun di perangkat baru.
-
+Olvid kompatibel dengan Android, iOS, Windows, macOS, dan Linux. Ergonominya tetap sederhana dan mudah diakses. Aplikasi ini juga memiliki sistem cadangan terenkripsi untuk kunci dan kontak, sehingga Anda dapat memulihkan akun di perangkat baru.
 
 https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplikasi perpesanan yang harus dihindari
 
+aplikasi pesan instan populer seperti WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat, dan LINE banyak digunakan setiap hari. Namun, dari sudut pandang teknis, platform ini tidak memenuhi standar keamanan modern yang cocok untuk komunikasi pribadi.
 
-Aplikasi perpesanan populer seperti WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat, dan LINE banyak digunakan setiap hari. Namun, dari sudut pandang teknis, platform-platform ini tidak memenuhi standar keamanan modern yang cocok untuk komunikasi pribadi.
+Secara umum, dua kriteria mendasar yang perlu dipertimbangkan saat memilih layanan perpesanan adalah: Apakah aplikasi menyediakan enkripsi ujung-ke-ujung (end-to-end), dan apakah source code-nya open-source? Kemudian ada fitur lain yang mungkin menarik, seperti pendaftaran anonim atau penggunaan arsitektur jaringan yang terdesentralisasi, tetapi dua elemen pertama ini adalah dasar. Enkripsi menjamin kerahasiaan pertukaran Anda, sementara pembukaan source code memungkinkan Anda untuk memeriksa apakah enkripsi telah diimplementasikan dengan aman.
 
+Menggunakan layanan yang gagal memenuhi dua prasyarat ini sama dengan sepenuhnya memberikan perlindungan komunikasi Anda kepada pihak komersial yang kepentingan ekonominya sering kali bergantung pada eksploitasi mereka.
 
-Secara umum, dua kriteria mendasar yang perlu dipertimbangkan ketika memilih layanan perpesanan adalah: Apakah layanan ini menyediakan enkripsi ujung ke ujung, dan apakah kodenya bersumber terbuka? Kemudian ada fitur-fitur lain yang mungkin menarik, seperti pendaftaran anonim atau penggunaan arsitektur jaringan yang terdesentralisasi, tetapi dua Elements yang pertama ini adalah dasar-dasarnya. Enkripsi menjamin kerahasiaan bursa Anda, sementara membuka kode sumber memungkinkan Anda untuk memeriksa apakah enkripsi telah diimplementasikan dengan aman.
+Berikut adalah tabel ringkasan aplikasi pesan instan utama yang ada dan fiturnya, per saat penulisan (Mei 2025):
 
-
-Menggunakan layanan yang gagal memenuhi dua prasyarat ini sama saja dengan mendelegasikan perlindungan bursa Anda sepenuhnya kepada pemain komersial yang kepentingan ekonominya sering kali bergantung pada eksploitasi.
-
-
-Berikut ini adalah tabel ringkasan dari aplikasi perpesanan utama yang ada saat ini dan fitur-fiturnya, seperti yang ada pada saat artikel ini ditulis (Mei 2025):
-
-
-| Application          | E2EE 1:1       | E2EE groups   | Anonymous registration | Client open-source license | Server open-source license | Decentralized server | Creation year |
+| Aplikasi          | E2EE 1:1       | E2EE Grup   | Registrasi Anonim | Lisensi open soruce pada klien | Lisensi open-source pada server | Desentralisasi server | Tahun pembuatan |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
@@ -4068,26 +3911,19 @@ Berikut ini adalah tabel ringkasan dari aplikasi perpesanan utama yang ada saat 
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
-*E2EE = Enkripsi ujung ke ujung*
+*E2EE = Enkripsi end-to-end*
 
+Keamanan komunikasi elektronik Anda bergantung terutama pada pemilihan aplikasi yang tepat dan penerapan perilaku yang baik. Memahami mekanisme keamanan yang mendasarinya, mengidentifikasi kelemahan pada solusi konvensional, dan memilih alternatif yang andal adalah fondasi penting untuk berkomunikasi tanpa disadap.
 
-Keamanan komunikasi elektronik Anda sangat bergantung pada pemilihan aplikasi yang tepat dan penerapan praktik-praktik terbaik. Memahami mekanisme keamanan yang mendasari, mengidentifikasi kekurangan dalam solusi konvensional dan memilih alternatif yang dapat diandalkan adalah fondasi penting untuk berkomunikasi tanpa disadap.
-
-
-Sejauh ini, kita telah menjelajahi cara mengamankan ponsel cerdas Anda dan cara memilih aplikasi perpesanan yang andal. Pada bab berikutnya, saya mengusulkan untuk memperluas studi ini ke semua keluarga besar aplikasi seluler, untuk menemukan alternatif yang ramah privasi untuk aplikasi favorit Anda. Apakah itu email, penyimpanan file, pemetaan, streaming video atau musik, aplikasi sumber terbuka apa saja yang tersedia untuk Anda?
-
+Sejauh ini, kita telah menjelajahi cara mengamankan smartphone Anda dan cara memilih aplikasi pesan instan yang andal. Pada bab berikutnya, saya mengusulkan untuk memperluas studi ini ke semua keluarga utama aplikasi seluler, untuk menemukan alternatif yang ramah privasi untuk aplikasi favorit Anda. Baik itu email, penyimpanan file, pemetaan, video atau music streaming, aplikasi open-source apa yang tersedia untuk Anda?
 
 ## aplikasi sumber terbuka: alternatif terbaik
 
-
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
+Selain aplikasi pesan instan, penting untuk diingat bahwa aplikasi lain di smartphone Anda dapat mengeksploitasi data Anda untuk tujuan komersial. Untungnya, ada alternatif open-source yang menghormati privasi Anda. Itulah yang ingin saya perkenalkan kepada Anda di bab ini.
 
-Di luar aplikasi pesan instan, penting untuk diingat bahwa aplikasi lain pada ponsel cerdas Anda dapat mengeksploitasi data Anda untuk tujuan komersial. Untungnya, ada alternatif sumber terbuka yang menghargai privasi Anda. Itulah yang ingin saya perkenalkan kepada Anda dalam bab ini.
-
-
-Saya tidak akan membahas kembali alternatif untuk browser dan pengirim pesan instan di sini, karena kita sudah membahasnya secara mendetail di bab-bab sebelumnya.
-
+Saya tidak akan kembali membahas alternatif untuk browser dan pesan instan di sini, karena kita sudah membahasnya secara rinci di bab-bab sebelumnya.
 
 ### Email pelanggan
 

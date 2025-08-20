@@ -13,7 +13,7 @@ objectives:
 
 Vous connaissez sans doute l’adage "*Pas tes clés, pas tes coins*", qui encourage la self-custody de vos bitcoins. Détenir ses propres clés constitue en effet une première étape indispensable, mais elle ne suffit pas. Pour obtenir une véritable souveraineté monétaire, il est également nécessaire d’installer et d’utiliser votre propre nœud Bitcoin. Ce cours a justement pour objectif de vous guider dans cette étape fondamentale de votre parcours de bitcoiner !
 
-BTC 202 est une formation accessible et concrète, conçue pour vous apprendre à faire tourner votre propre nœud Bitcoin, même si vous n’êtes pas un expert technique. Nous commencerons par définir ce qu’est un nœud Bitcoin, à quoi il sert, et pourquoi il est absolument essentiel d’en faire tourner un par soi-même. Je vous guiderai ensuite pas à pas dans le choix de votre matériel, l’installation des logiciels nécessaires, la connexion de votre portefeuille et les premières optimisations possibles pour aller plus loin.
+BTC 202 est une formation accessible et concrète, conçue pour vous apprendre à faire tourner votre propre nœud Bitcoin, même si vous n’êtes pas un expert technique. Nous commencerons par définir ce qu’est un nœud Bitcoin, à quoi il sert, et pourquoi il est absolument essentiel d’en faire tourner un par soi-même. Je vous guiderai ensuite pas à pas dans le choix de votre matériel, l’installation des logiciels nécessaires, la connexion de votre logiciel de portefeuille et les premières optimisations possibles pour aller plus loin.
 
 Cette formation s’adresse à tous les utilisateurs de Bitcoin qui ne disposent pas encore de nœud ou qui n’en perçoivent pas pleinement l’utilité. Que vous soyez débutant, simple curieux ou utilisateur expérimenté désireux de mieux appréhender cette composante essentielle du système imaginé par Satoshi Nakamoto, vous y trouverez des explications claires, des tutoriels pratiques et des conseils adaptés à votre niveau.
 
@@ -473,20 +473,156 @@ Après avoir exploré les différentes solutions logicielles, il est désormais 
 ## Panorama des solutions matérielles
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
 
-Présentation des options matérielles adaptées : ordinateurs classiques, mini-PC (type Raspberry Pi) barbonne (type ThinkCentre), besoins minimaux, SSD, RAM, processeur... Conseils pratiques selon les profils + achat de matériel d'occasion + recyclage de vieux PC.
+Maintenant que nous avons passé en revue l’ensemble des possibilités logicielles, intéressons-nous au matériel nécessaire pour votre nœud. Je vais vous donner des conseils concrets pour choisir vos composants, avec des configurations adaptées à différents budgets. Bien entendu, il s’agit de mon avis personnel et de mon retour d’expérience : il existe donc certainement d’autres alternatives pertinentes en plus de celles présentées ici. Par ailleurs, je ne reviendrai pas sur les machines préassemblées proposées par les projets de node-in-a-box, que nous avons déjà abordées dans le chapitre précédent. Nous allons ici nous concentrer exclusivement sur les solutions DIY.
+
+### Avez-vous vraiment besoin d'une machine dédiée ?
+
+Ces dernières années, une idée reçue s’est largement répandue chez les bitcoiners, notamment avec la popularisation des node-in-a-box au début des années 2020 : un nœud Bitcoin devrait forcément tourner sur une machine exclusivement dédiée à cet usage. Or, c’est faux. Vous n’avez pas nécessairement besoin d’un ordinateur dédié pour exécuter un nœud Bitcoin : Bitcoin Core peut tout à fait fonctionner sur votre PC du quotidien. Si vous disposez de suffisamment d’espace disque pour la blockchain, ou si vous activez l’élagage, vous pouvez valider la chaîne, connecter votre logiciel de portefeuille, et même fermer le programme une fois votre utilisation terminée. Cette approche présente un avantage considérable : zéro investissement initial et une complexité minimale.
+
+Cela dit, utiliser une machine dédiée reste souvent plus confortable. Elle peut tourner en continu (24/7), être accessible à distance à tout moment, ne pas monopoliser les ressources de votre machine principale, et surtout isoler les usages (bonne pratique de sécurité : si votre PC personnel rencontre un problème, votre nœud continue de fonctionner, et inversement). La question n’est donc pas "*faut-il obligatoirement dédier une machine ?*", mais plutôt "*ai-je besoin d’un nœud constamment en ligne, accessible par d’autres appareils et capable d’évoluer ?*" (Lightning, indexeurs, applications supplémentaires…). Si la réponse est oui, opter pour une machine à part rendra les choses bien plus simples.
+
+### 3 voies d’acquisition : recyclage, occasion et neuf
+
+#### Recycler un vieux PC
+
+C’est la solution la plus économique. Nous avons presque tous chez nous, ou dans notre entourage, un vieux PC qui prend la poussière : c’est l’occasion idéale de le remettre en service ! Pour le réadapter à l’usage d’un nœud Bitcoin, il suffit généralement d’ajouter un SSD de 2 To et, selon vos besoins, de remplacer ou d’ajouter des barrettes de RAM afin d’augmenter la mémoire vive. Comptez entre 100 € et 200 € de matériel pour obtenir une machine parfaitement fonctionnelle.
+
+Avant tout achat, vérifiez le nombre d’emplacements disponibles pour les disques et le type de connectique (M.2 ou SATA), le format de RAM (SODIMM ou DIMM) ainsi que sa génération (DDR4, etc.). Profitez-en également pour nettoyer la machine, notamment le ventilateur, afin de garantir de bonnes performances.
+
+Soyez toutefois vigilant si vous utilisez un ordinateur portable : la batterie peut poser problème au fil du temps (nous y reviendrons plus loin dans le chapitre).
+
+#### Reconditionné ou occasion
+
+Le marché regorge de mini-PC d’entreprise reconditionnés tels que les *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini* ou *Dell OptiPlex Micro*. Ces machines sont solides, compactes, silencieuses et peu gourmandes en énergie. Leur prix est largement inférieur au neuf, et l’on trouve facilement des modèles équipés de processeurs i5/i7 de 6e à 10e génération avec 8 à 16 Go de RAM, le tout pour des tarifs très attractifs, généralement entre 70 € et 200 € selon la configuration. À mon sens, c’est probablement la meilleure option si vous souhaitez acquérir une nouvelle machine dédiée à votre nœud Bitcoin.
+
+Il est également possible de trouver en ligne des PC fixes ou portables datant de quelques années, d’occasion, avec des configurations intéressantes et un excellent rapport qualité/prix.
+
+Remarque : les machines issues du parc d’entreprises, comme les *ThinkCentre Tiny*, sont souvent équipées uniquement d’un port *DisplayPort* (DP) pour l’écran, sans sortie HDMI. Pensez donc à prévoir un adaptateur ou un câble DP vers HDMI le cas échéant.
+
+#### Acheter du neuf
+
+Si votre budget le permet, vous pouvez également opter pour une machine neuve. C’est une bonne option si vous souhaitez disposer d’un matériel récent offrant de bonnes performances, en particulier si vous envisagez d’utiliser Umbrel ou Start9 avec des applications supplémentaires hors de l’écosystème Bitcoin pour faire du self-hosting.
+
+### Quel type de machine choisir ?
+
+#### Mini-PC "NUC" / barebone
+
+Les mini-PC constituent, selon moi, le meilleur compromis pour héberger un nœud Bitcoin à domicile. Peu encombrants, ils tiennent facilement sur une étagère, consomment peu d’électricité et se prêtent facilement aux modifications matérielles, comme l’ajout de RAM ou le remplacement du SSD.
+
+Personnellement, j’ai une préférence pour les *Lenovo ThinkCentre Tiny* : très répandus sur le marché de l’occasion (issus de flottes d’entreprise), ils sont particulièrement robustes et faciles à modifier. Mais il existe bien sûr de nombreux équivalents chez d’autres constructeurs : *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*…
+
+**Points forts :** encombrement minimal, consommation modérée, bruit faible, évolutivité (selon modèle) et fiabilité.
+
+**Points faibles :** légèrement plus chers qu’un SBC type Raspberry Pi, absence d’écran intégré (accès à distance ou via moniteur externe), pas de batterie (extinction brutale en cas de coupure).
+
+#### Ordinateur portable dédié
+
+C’est une excellente alternative low-cost au mini-PC : on trouve aujourd’hui des ordinateurs portables d’occasion ou même neufs à bas prix, équipés de processeurs corrects, de nombreux ports, ainsi que d’un écran et d’un clavier intégrés (très pratiques pour l’installation initiale). Surtout, la batterie joue le rôle d’onduleur naturel : en cas de micro-coupure électrique, le nœud ne s’éteint pas brutalement et peut même rester opérationnel plusieurs heures.
+
+**Points forts :** solution tout-en-un, batterie jouant le rôle d’UPS (pas de coupure), installation simplifiée grâce à l’écran et au clavier intégrés, carte Wi-Fi intégrée, vaste choix sur le marché de l’occasion comme du neuf (ce qui permet souvent de négocier les prix).  
+
+**Points faibles :** consommation légèrement plus élevée qu’un mini-PC nu, usure progressive de la batterie en fonctionnement 24/7 avec perte de capacité, risque rare mais réel de gonflement ou d’emballement thermique de la batterie avec l’âge. C’est principalement cet aspect qui me fait considérer le mini-PC comme une meilleure option que le laptop : la dégradation progressive de la batterie et les risques associés.  
+
+Si vous choisissez cette solution, je vous recommande de surveiller attentivement l’état de la batterie pour prévenir tout danger : soyez attentif à la chaleur excessive, aux odeurs inhabituelles, à une instabilité ou à une coque qui se déforme. En cas d’alerte, éteignez et débranchez immédiatement l’ordinateur, puis déposez la batterie dans une filière spécialisée de recyclage.  
+
+Astuce : si le BIOS/UEFI ou l’outil constructeur le permet, fixez une limite de charge (par exemple 60 % ou 80 %) afin de prolonger la durée de vie de la batterie.
+
+#### Raspberry Pi et autres SBC : la fausse bonne idée
+
+Au début des années 2020, avec l’essor des logiciels de node-in-a-box, est également apparue la mode des Raspberry Pi pour faire tourner un nœud Bitcoin. L’idée semblait séduisante : peu coûteuse, compacte et accessible.
+
+En pratique, si votre objectif est uniquement de faire tourner un nœud Bitcoin sans applications supplémentaires, un Raspberry Pi peut suffire. Mais dès que vous souhaitez utiliser Umbrel, Start9 ou un écosystème plus riche (explorateur de blocs, indexeur d’adresses, nœud Lightning, apps de self-hosting...), la machine atteint vite ses limites.
+
+En effet, les Raspberry Pi cumulent de nombreux inconvénients :  
+- processeurs trop justes, avec une architecture ARM parfois incompatible avec certains logiciels ou demandant davantage de manipulations ;  
+- RAM soudée, impossible à upgrader, avec des configurations limitées (souvent un maximum de 8 Go) ;  
+- boîtiers externes pour SSD reliés par câble, sources fréquentes de bugs, nécessitant l’achat d’une carte spécifique pour un SSD stable ;  
+- tendance à chauffer rapidement et difficulté à assurer un refroidissement correct ;  
+- nécessité d’acheter du matériel supplémentaire (boîtier, ventilateur, carte SSD, etc.) ;  
+- connectique très limitée.  
+
+Historiquement, le grand avantage des SBC comme le Raspberry Pi était leur prix : pour quelques dizaines d’euros, on pouvait obtenir une machine dédiée. Mais aujourd’hui, les tarifs ont fortement augmenté et, une fois ajouté tout le matériel complémentaire indispensable, le coût se rapproche de celui des premiers mini-PC x86 d’occasion ou reconditionnés, qui offrent bien plus d’avantages. C’est pour cette raison que je ne recommande pas d’opter pour un SBC.
 
 
+### Choisir ses composants
 
+#### Stockage disque : SSD obligatoire, 2 To minimum
 
+Techniquement, il est possible de faire tourner un nœud Bitcoin sur un HDD. Le problème est que tout sera considérablement ralenti, notamment l’IBD, qui deviendra extrêmement longue en raison de l’utilisation intensive du disque comme cache par Bitcoin Core (notamment pour l’UTXO set). C’est pourquoi je vous déconseille fortement l’usage d’un HDD : il crée un véritable goulot d’étranglement, limite fortement l’évolution future (par exemple pour un nœud Lightning) et peut même entraîner un décalage de synchronisation avec la tête de la blockchain. De plus, la sollicitation constante du disque mécanique augmente le risque d’usure prématurée.
 
+Le SSD change radicalement  votre expérience utilisateur : tout devient plus rapide et plus fluide, avec une fiabilité nettement supérieure. L’utilisation d’un SSD est donc (presque) obligatoire pour votre nœud, et vous ne le regretterez pas, d’autant plus que les modèles de grande capacité sont aujourd’hui relativement abordables.
 
+En termes de capacité, la capacité de 2 To s’impose progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
 
+Quant au format, il dépendra des ports disponibles sur votre machine, mais je vous recommande, si possible, de privilégier un SSD NVMe M.2.
 
+#### Mémoire (RAM) : 8 à 16 Go
 
+Pour Bitcoin Core seul (sans surcouche Umbrel), les recommandations des développeurs indiquent un minimum de 256 Mo de RAM en ajustant les paramètres au plus bas, 512 Mo avec les paramètres par défaut, et 1 Go pour une utilisation normale.
 
+En revanche, si vous utilisez un système de node-in-a-box comme Umbrel, les besoins en RAM augmentent. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
 
+#### Processeur (CPU)
 
+Pour un nœud Umbrel, le minimum requis est un processeur dual-core 64 bits Intel ou AMD. Si vous souhaitez utiliser quelques applications en plus de Bitcoin Core, un quad-core (ou plus) fera une réelle différence en termes de fluidité. Pour vous donner un exemple, les processeurs i5/i7 de 6e à 10e génération constituent d’excellentes options sur le marché de l’occasion.
 
+### Exemples de configurations concrètes
+
+Ci-dessous, je vous propose 3 configurations concrètes, adaptées à différents budgets et besoins, avec des modèles précis à l’appui. Ces choix ne sont évidemment donnés qu’à titre d’exemple pour illustrer les informations de ce chapitre : vous n’êtes pas tenu de sélectionner exactement ces modèles. Comme je considère le mini-PC comme la meilleure option sur le long terme, je m’appuierai sur ce format pour les trois configurations proposées.
+
+*Les prix indiqués ci-dessous sont donnés à titre indicatif et peuvent varier selon les régions, les vendeurs et les périodes.*
+
+Avant tout, il faut prévoir un SSD suffisamment grand pour accueillir la blockchain tout en conservant une marge de manœuvre. Les SSD ont une durée de vie limitée en cycles d’écriture et en volume total de données écrites. Or, un nœud Bitcoin sollicite énormément le disque en écriture. C’est pourquoi je vous déconseille les modèles d’entrée de gamme et je vous recommande également de privilégier un SSD NVMe, bien plus performant.  
+
+À titre d’exemple, pour les besoins de ce cours, j’ai choisi le modèle suivant : *Samsung 990 EVO Plus NVMe M.2 SSD 2 To*, que l’on trouve autour de 120 € sur Amazon. Vous pouvez également opter pour d’autres marques réputées comme Crucial, Western Digital ou encore Kingston.
+
+046
+
+#### Configuration pour petit budget
+
+Évidemment, si votre budget est très limité (en dessous de 200 €), je vous conseille de ne pas investir dans une machine dédiée, mais plutôt d’installer directement Bitcoin Core sur votre PC du quotidien (en mode élagué si vous manquez d’espace disque).
+
+Sinon, pour un budget d’entrée de gamme, je recommande le *HP EliteDesk 800 G2 Mini*. J’en ai trouvé un modèle reconditionné à 96 € sur Amazon, équipé d’un processeur Intel Core i5 de 6e génération et de 8 Go de RAM. C’est une option particulièrement intéressante pour débuter : ce processeur et cette quantité de mémoire suffisent largement pour faire tourner Core sur Umbrel, ainsi que plusieurs applications simultanément comme un indexeur Electrs, un nœud Lightning et une instance Mempool, à condition de ne pas allouer trop de cache à Core. De plus, ce type de mini-PC permet d’augmenter facilement la RAM, par exemple à 16 Go en cas de besoin (prévoyez environ 30 à 40 € supplémentaires pour une ou deux barrettes de qualité).
+
+045
+
+Il suffit ensuite d’ajouter le SSD au budget. En partant sur le Samsung 2 To à 120 €, on obtient un coût total de 216 € pour une machine complète et fonctionnelle.
+
+#### Configuration pour budget moyen
+
+Si vous disposez d’un budget moyen d’environ 300 € pour la machine qui hébergera votre nœud, je vous recommande par exemple un *Lenovo ThinkCentre Tiny*, équipé d’un processeur performant et d’une quantité de RAM suffisante. J’ai trouvé un modèle reconditionné sur Amazon à 180 €, doté d’un Intel Core i7 de 6e génération et de 16 Go de RAM. Avec l’ajout du SSD de 2 To à 120 €, le coût total s’élève donc à 300 €.
+
+044
+
+Avec cette machine, vous avez une configuration confortable : une IBD rapide, et la possibilité de faire tourner sans difficulté de nombreuses applications sur votre Umbrel ou votre Start9. C’est d’ailleurs précisément la configuration que j’utilise pour ce cours BTC 202.
+
+#### Configuration haut de gamme
+
+Si vous disposez d’un budget plus conséquent, les possibilités deviennent très larges. Vous pouvez choisir une configuration DIY ou même opter pour une machine préassemblée proposée directement par un projet de node-in-a-box.
+
+À titre d’exemple, je vous propose un *ASUS NUC 14 Pro* disponible neuf sur Amazon à 540 €. Pour ce prix, vous bénéficiez d’un processeur Intel Core Ultra 5 (récent et particulièrement performant), accompagné de 16 Go de RAM en DDR5. Avec une telle configuration, vous pourrez réaliser une IBD en un temps record et installer sans difficulté des applications gourmandes.  
+
+C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de self-hosting disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
+
+043
+
+Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de self-hosting. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
+
+### Quelques astuces supplémentaires
+
+- Si vous souhaitez acquérir du matériel d’occasion en payant en bitcoins, rendez-vous dans un meetup près de chez vous ! En discutant avec les autres participants, vous y trouverez sans doute du matériel adapté à un prix intéressant, tout en faisant vivre l’économie circulaire autour de Bitcoin. C’est également l’occasion de bénéficier de conseils avisés de la part de la communauté.  
+
+- Pour la connexion Internet, vous aurez bien sûr besoin d’un câble Ethernet RJ45, au moins pour l’installation du système.
+
+- Certains environnements comme Umbrel permettent ensuite d’utiliser le Wi-Fi, mais les performances seront généralement moins bonnes (notamment si vous souhaitez utiliser votre nœud Lightning à distance, cela peut avoir un impact). Si vous choisissez le Wi-Fi, assurez-vous que votre machine dispose d’une carte intégrée ou ajoutez un dongle compatible.  
+
+- Pour l’alimentation de votre machine, utilisez toujours le chargeur d’origine du constructeur. C’est essentiel pour éviter d’endommager votre matériel ou de provoquer un incendie.
+
+- Si votre machine n’a pas de batterie intégrée, investir dans un onduleur est une bonne idée afin d’éviter les extinctions brutales.
+
+- En fonction de la valeur de votre matériel et de votre situation géographique, un système parafoudre peut également être pertinent, soit directement au niveau du tableau électrique, soit sur la multiprise utilisée.  
+
+- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe.
 
 
 
@@ -1197,13 +1333,6 @@ Si votre nœud écoute sur un port ouvert (8333 par défaut), il accepte des con
 
 ## Anatomie de votre nœud Bitcoin
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
-
-Explication du modèle de données local d’un nœud : stockage des blocs (expliquer comment ça fonctionne concrètement, ou le trouver...), gestion de l'UTXO set et de la mempool.
-
-
-
-
-
 
 Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. 3 briques principales sont essentielles sur un nœud :
 - les **blocs** de la blockchain stockés sur disque,

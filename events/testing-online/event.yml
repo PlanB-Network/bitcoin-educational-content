@@ -1,0 +1,16 @@
+id: a3c50046-0f7b-4233-9a76-f857d47a331d
+start_date: 2025-08-21 16:00:00
+end_date: 2025-08-22 17:00:00
+timezone: America/El_Salvador
+address_city_country: San Salvador
+name: testing online
+type: conference
+description: "This is a test "
+language:
+  - es
+links:
+  website: sv.com
+tags:
+  - lightning
+  - decentralization
+  - ""

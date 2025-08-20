@@ -1536,49 +1536,54 @@ IPv6 packet design is built on a clear separation between a minimal base header 
 
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
 
-In modern networks, the DNS (*Domain Name System*) translates domain names into IP addresses that can be used by machines. With the introduction of IPv6, DNS naturally had to adapt to support the new 128-bit addresses, while maintaining compatibility with IPv4. This coexistence is important in dual-stack environments, where both versions of the IP protocol coexist.
-
+In modern networks, the DNS (*Domain Name System*) translates domain names into IP addresses that machines can use. With the introduction of IPv6, DNS had to adapt to support 128-bit addresses while maintaining backward compatibility with IPv4. This coexistence is especially important in dual-stack environments, where both IP versions operate simultaneously.
 
 ### IPv6-specific DNS records
 
-To associate a domain name with an IPv6 address, DNS uses a type AAAA (*quad-A*) record, by analogy with the type "A" used for IPv4 addresses. The AAAA record indicates that a domain name corresponds to a given IPv6 address. Here's a concrete example:
+To associate a domain name with an IPv6 address, DNS uses a AAAA (*quad-A*) record, analogous to the  "A" record for IPv4 addresses. The AAAA record explicitly maps a domain name to an IPv6 address. 
+Example:
 
 ```shell
 ipv6.mydmn.org.         IN      AAAA    2001:66c:2a8:22::c100:68b
 ```
 
-This record indicates that the domain `ipv6.mydmn.org` is associated with the IPv6 address `2001:66c:2a8:22::c100:68b`. It is perfectly possible, and even recommended in the context of compatibility, to associate the same domain name with several IP addresses, whether IPv4 (via an A record) or IPv6 (via an AAAA record). This allows IPv6-compatible customers to prefer the latter version of the protocol, while ensuring that IPv4-only customers can continue to use it.
+This record indicates that the domain `ipv6.mydmn.org` resolves to the IPv6 address `2001:66c:2a8:22::c100:68b`. It is possible, and even recommended for maximum compatibility, to associate the same domain name with several IP addresses, whether IPv4 (via an A record) or IPv6 (via an AAAA record). This allows IPv6-compatible customers to prefer IPv6, while ensuring IPv4-only clients remain supported.
 
-DNS also supports reverse resolution, i.e. the mapping of an IP address to a domain name. In the case of IPv6, this operation uses PTR records placed in the `ip6.arpa` zone. This zone is specifically reserved for IPv6 reverse resolution, as is the `in-addr.arpa` zone for IPv4.
-
+In addition, DNS supports reverse resolution, meaning it can look up the domain name associated to a given IP address. In the case of IPv6, this operation uses PTR records placed in the `ip6.arpa` zone. This zone is specifically reserved for IPv6 reverse resolution. For IPv4, it is the `in-addr.arpa` zone.
 
 ### Reverse resolution
 
-The reverse resolution of an IPv6 address follows a strict rule: we transform the address into full hexadecimal notation (16 bytes, i.e. 32 characters), reverse the order of each hexadecimal digit, and separate them with periods, suffixing the whole with `ip6.arpa`. For example, for the following address
+Reverse resolution of an IPv6 address follows a strict process: 
+1) Expand the address into full hexadecimal notation (16 bytes, i.e. 32 hexadecimal digits).
+Example :  
 
 ```shell
 2001:66c:2a8:22::c100:68b
 ```
 
-It is first extended to 32 hexadecimal digits:
+Becomes:
 
 ```shell
 2001:066c:02a8:0022:0000:0000:c100:068b
 ```
 
-We then invert each nibble and separate them with dots, ending with `ip6.arpa` :
+2) Reverse the order of each hexadecimal digit (nibble), separate them with dots and append `ip6.arpa`:
 
 ```shell
 b.8.6.0.0.0.1.c.0.0.0.0.0.0.0.0.2.2.0.0.8.a.2.0.c.6.6.0.1.0.0.2.ip6.arpa  IN PTR  ipv6.mydmn.org
 ```
 
-This method guarantees the uniqueness and standardization of reverse resolutions in the IPv6 address space.
+This structure ensures standardized, unique reverse lookups in the IPv6 address space.
 
-**Please note**: DNS queries can be sent over either an IPv4 or IPv6 connection. The transport protocol used has no influence on the type of response expected. In other words, an IPv6-connected client can request an IPv4 address, and vice versa. The DNS server must therefore provide the available information, without relying on the protocol used by the client for the request.
+**Please note**: DNS queries can travel over either an IPv4 or IPv6. The transport protocol used has no effect on the type of records returned. 
+For example:
+- A client connected over IPv6 can request an IPv4 record.
+- A client connected over IPv4 can request an IPv6 record. 
+The DNS server simply responds with the records it has, regardless of the query's transport protocol.
 
-The choice between an IPv4 or IPv6 address to be used to connect to a target machine, when a host name is associated with both address types, is governed by RFC 6724. This standard defines an address selection algorithm based on criteria such as proximity, range, or explicit preference of certain prefixes. By default, IPv6 generally takes precedence over IPv4, unless otherwise configured by the system or network administrator.
+When a hostname is mapped to both IPv4 and IPv6, the choice of which address to use is governed by RFC 6724, which defines an address selection algorithm based on factors such as prefix preference, scope, and reachability. By default, IPv6 is generally preferred unless overridden by system or network configuration.
 
-**Important reminder**: when an IPv6 address is to be used in a URL (*Uniform Resource Locator*), it must be enclosed in square brackets (`[]`). This avoids any confusion between the colon (`:`) used to separate the segments of the IPv6 address and those used in the URL to separate the host name from the service port.
+**Important reminder**: when embedding an IPv6 address in a URL (*Uniform Resource Locator*), it must be enclosed in square brackets (`[]`). This avoids confusion between the colon (`:`) inside the IPv6 address and the colon separating the hostname from the port in the URL.
 
 Valid example:
 
@@ -1590,133 +1595,128 @@ This ensures that the URL is processed correctly by both browsers and web server
 
 Integrating IPv6 into the DNS system therefore relies on new record types, a strict method for reverse resolution, and precise selection and formatting rules to ensure routing compatibility and consistency.
 
-
 ### Part summary
 
-In this section, we explore in detail the fundamental principles governing IPv6 addressing. We began by explaining how an IPv6 address is structured, focusing on its 128-bit length, its hexadecimal notation, and the various writing simplification rules used to shorten certain repetitive sequences of zeros. This structure enables IPv6 to overcome the limitations of IPv4's address space, while guaranteeing efficient scalability and prioritization.
+In this section, we explored the fundamental principles of IPv6 addressing. We began by examining the structure of IPv6 address : its 128-bit length, hexadecimal notation, and the simplification rules used to shorten repetitive sequences of zeros. This design enables IPv6 to overcome the limitations of IPv4's address space, while guaranteeing scalability and efficient hierarchy.
 
-We then looked at the different categories of IPv6 addresses: unicast, anycast and multicast, detailing for each their scope, typical use and representation in the address space.
+We then looked at the different categories of IPv6 addresses: unicast, anycast and multicast, detailing their scope, typical use and representation in the address space.
 
-We then looked at ways of assigning IPv6 addresses in a local network, whether by manual configuration, via the DHCPv6 protocol, or using stateless autoconfiguration mechanisms such as those offered by NDP. These approaches enable devices to automatically generate their own address from the received prefix and their MAC address (via EUI-64), while ensuring flexibility in terms of lifetime management and confidentiality.
+Next, we reviewed the methods of assigning IPv6 addresses within a local network, whether by manual configuration, via the DHCPv6 protocol, or using stateless autoconfiguration mechanisms such as those offered by NDP. These approaches enable devices to automatically generate their own address from the provided prefix and their MAC address (via EUI-64), while offering flexibility in terms of lifetime management and privacy.
 
-We've also detailed how address blocks are allocated, starting with IANA, which distributes them to the five RIRs (*Registered Internet Regions*), then to the ISPs, which redistribute them to their customers in the form of subnetworks (often in /48, allowing 65536 /64 subnetworks). The distinction between _Provider Aggregatable_ (PA) and _Provider Independent_ (PI) blocks makes it possible to handle _multihoming_ or change of provider situations.
+We've also detailed how address blocks are allocated, starting from IANA, which distributes them to the five RIRs (*Registered Internet Regions*), and then to the ISPs, who redistribute them to their customers as subnets (often in /48, allowing 65536 /64 subnetworks). The distinction between _Provider Aggregatable_ (PA) and _Provider Independent_ (PI) blocks helps manage _multihoming_ or provider-change scenarios.
 
-We've seen that DNS adapts to IPv6 thanks to the AAAA record, and that reverse resolution mechanisms use a new structure in the `ip6.arpa` zone. The DNS protocol remains independent of the transport protocol used (IPv4 or IPv6), ensuring perfect interoperability in a dual-stack environment.
+We saw that DNS has adapted to IPv6 with the introduction of the AAAA record, and that reverse resolution mechanisms now rely on the `ip6.arpa` zone. Importantly, DNS remains independent of the transport protocol used (IPv4 or IPv6), ensuring seamless interoperability in a dual-stack environment.
 
-IPv6 is not simply an evolution of its predecessor, but a thorough overhaul of the addressing system, designed to meet the current and future challenges of the global network.
+IPv6 is therefore not just an incremental improvement over IPv4, but a complete redesign of the addressing system, built to meet both current and future challenges of the global Internet.
 
-In the final part of this NET 302 course, we'll get down to the nitty-gritty of network diagnostics.
+In the final part of this NET 302 course, we will move into practice and focus on network diagnostic tools.
 
 
 # Network diagnostic tools
 
 <partId>368a5c6f-ec48-4b28-970f-3a770788ad37</partId>
 
-
 ## Network Access Layer tools
 
 <chapterId>1d25a21d-6900-4fbe-a438-e06c8afb9e02</chapterId>
 
+In this first chapter of the final section on network diagnostics, we focus on tools for analyzing the network access layer of the TCP/IP model. This layer is responsible for direct communication between devices on the same physical network, notably through the use of MAC addresses and physical network interfaces such as Ethernet cards or Wi-Fi interfaces.
 
-In this first chapter of the final section on network diagnostics, we'll focus on tools for analyzing the network access layer of the TCP/IP model. This layer is responsible for direct communication between devices connected to the same physical network, notably through the use of MAC addresses and physical network interfaces such as Ethernet cards or Wi-Fi interfaces.
-
-The aim here is to provide administrators with the practical means to inspect, test and optimize this essential layer of low-level connectivity. These tools can be used to evaluate the correct operation of interfaces, diagnose problems linked to network card configuration, or identify anomalies such as collisions, packet loss or link errors.
-
+The aim here is to provide administrators with practical tools to inspect, test and optimize this essential layer of low-level connectivity. These tools can be used to verify the proper operation of interfaces, troubleshoot network card configuration issues, or detect anomalies such as collisions, packet loss or link errors.
 
 ### IP/MAC neighborhood utilities
 
-#### Arp` tool
+#### `Arp` tool
 
-One of the historical tools for network diagnostics at the Network Access layer is the `arp` command. Although it is tending to be replaced by more modern commands such as `ip neigh` (which we'll discover shortly), `arp` is still present on many systems to consult or manipulate the ARP (*Address Resolution Protocol*) cache. This cache contains matches between IP addresses and MAC addresses known locally on a machine. In other words, it can be used to identify which physical address (MAC address) corresponds to a given IP address when communicating on a local network.
+One of the oldest diagnostic tools at the Network Access layer is the `arp` command. Although increasingly replaced by modern alternatives such as `ip neigh` (which we'll discover shortly). `Arp` is still present on many systems to view or manipulate the ARP (*Address Resolution Protocol*) cache. This cache stores the mappings between IP addresses and MAC addresses known locally on a machine. In other words, it allows you to determine which physical (MAC) address corresponds to a given IP address on the local network.
 
-In concrete terms, when a host wishes to send a packet to an IP address belonging to the same subnet, it must first know the MAC address of the target machine. This association is made using the ARP protocol, which transmits a request on the local network and receives a response containing the MAC address of the corresponding machine. This information is then temporarily stored in a local table called the "ARP cache", to avoid repeated requests each time a packet is sent.
+In practice, when a host wants to send a packet to an IP address within the same subnet, it must first know the target machine's MAC address. This mapping is handled by ARP, which broadcasts a request on the local network and receives a reply containing the corresponding MAC address. This result is then stored temporarily in a local table called the "ARP cache", to avoid repeating the requests for every new packet.
 
-To consult this cache and observe the entries currently known by the machine, the following command can be used:
+To view the contents of this cache and check the entries currently known to the machine, use:
 
 ```bash
 arp -a
 ```
 
-This command lists all locally registered IP/MAC matches, across all interfaces. Each line provides the host name (if resolvable), the IP address, the corresponding MAC address and the Interface on which the match is observed.
+This command lists all locally registered IP/MAC mappings, across all interfaces. Each line provides the host name (if resolvable), the IP address, the corresponding MAC address and the Interface where the mapping is observed.
 
-If you wish to filter the display by focusing on a specific IP address, you can specify this address in the :
+To filter the display to a specific IP address, simply specify it:
 
 ```bash
 arp -a 192.168.1.5
 ```
 
-This allows you to check whether a particular IP address is well known to the cache, which can help diagnose a communication failure between two hosts on the same network.
+This makes it easy to check whether a particular IP address is present in the cache, which can help diagnose communication failures between two hosts on the same network.
 
-Similarly, to display only the ARP entries associated with a given Interface network (such as an Ethernet card named `eth0`), we can write :
+Likewise, to display only the ARP entries associated with a specific network interface (for example an Ethernet card named `eth0`), you can use:
 
 ```bash
 arp -a -i eth0
 ```
 
-This option is useful for targeting special cases, particularly in multi-card environments where one machine has several network interfaces (wired, wireless, VPN...).
+This is especially useful in multi-interface environments (wired, wireless, VPN, etc.), where one host may have several network adapters.
 
-The `arp` utility is not limited to consultation. It also lets you manually manipulate the ARP cache, which can prove invaluable in certain cases of advanced diagnosis or simulation of specific situations. For example, you can manually add an IP/MAC association:
+The `arp` command is not limited to read-only use. It can also be used to manually edit the ARP cache, an invaluable feature in certain advanced troubleshooting scenarios or when simulating specific conditions. For instance, you can manually add an IP/MAC mapping:
 
 ```bash
 arp -s 192.168.1.7 00:17:BC:56:4F:25 -i eth2
 ```
 
-This command creates a static entry in the local ARP table, associating the IP address `192.168.1.7` with the MAC address `00:17:BC:56:4F:25` on the Interface `eth2`. If the Interface is not specified, the first Interface deemed applicable is used by default.
+This command creates a static entry in the local ARP table, associating the IP address `192.168.1.7` with the MAC address `00:17:BC:56:4F:25` on the Interface `eth2`.If no interface is specified, the system automatically uses the first applicable one.
 
-Finally, it is also possible to delete an entry from the ARP cache, if it is incorrect or if you wish to force a rediscovery:
+You can also remove an entry from the ARP cache, either to correct an error or to force a rediscovery:
 
 ```bash
 arp -d 192.168.1.7
 ```
 
-This command deletes the corresponding entry, forcing the machine to issue a new ARP request the next time it attempts to communicate with this IP address.
+This deletes the entry, ensuring that the next communication attempt triggers a fresh ARP request.
 
-**NOTE**: The delete option also accepts a Interface name, if you wish to precisely target the entry to be deleted on a specific Interface.
+**NOTE**: The delete option also accepts an interface name, allowing you to target the removal of a specific entry more precisely.
 
-In summary, the `arp` tool provides low-level diagnostics, particularly useful in local networks where connectivity problems can often be traced back to incorrect or obsolete address resolution. However, it should be noted that on recent systems, particularly with modern Linux distributions, this tool is increasingly being replaced by the `ip neigh` command, from the `iproute2` toolset, which offers similar functionality in a more unified framework.
+In summary, the `arp` tool provides low-level diagnostics, particularly useful in local networks where connectivity problems can often be traced back to incorrect or obsolete address resolution. However, on recent systems, particularly with modern Linux distributions, this tool is increasingly being replaced by the `ip neigh` command, from the `iproute2` toolset, which offers similar functionality in a more unified framework.
 
+#### `Ip neigh` tool
 
-#### Ip neigh` tool
+On modern systems, notably recent Linux distributions, the `ip neigh` command is the go-to tool for inspecting and managing mappings between IP and MAC addresses. This command is part of the `iproute2` suite, which is gradually replacing older tools such as `arp`, providing a more consistent and flexible framework for diagnostics at the data link layer.
 
-On modern systems, notably recent Linux distributions, the `ip neigh` command is the benchmark tool for inspecting and managing mappings between IP and MAC addresses. This command is part of the `iproute2` suite, which is gradually replacing older tools such as `arp`, offering a more coherent and flexible Interface for network diagnostics at the data link layer.
+The `ip neigh` command query the local IP neighbor cache, which is equivalent to the ARP cache for IPv4 and the NDP (_Neighbor Discovery Protocol_) cache for IPv6. This cache stores known associations between IP addresses (v4 or v6) and MAC addresses, along with their status (valid, pending, expired...).
 
-The `ip neigh` command consults the local IP neighbor cache, which plays a role equivalent to the ARP cache for IPv4 and the NDP (_Neighbor Discovery Protocol_) cache for IPv6. This cache contains known associations between IP addresses (v4 or v6) and MAC addresses, as well as their status (valid, pending, expired...).
-
-The basic command for displaying cache contents is :
+The basic command to display the cache is:
 
 ```bash
 ip neigh
 ```
 
-It produces a list of known entries, in a synthetic form indicating the destination IP address, the Interface network concerned, the corresponding MAC address (if available), and the status of the entry (e.g. `REACHABLE`, `STALE`, `DELAY`, `FAILED`...).
+This outputs a list of entries, showing the destination IP address, the relevant network interface, the associated MAC address (if available), and the entry's state (e.g. `REACHABLE`, `STALE`, `DELAY`, `FAILED`...).
 
-Sample output:
+Example output:
 
 ```bash
 192.168.1.5 dev eth0 lladdr 00:17:BC:56:4F:25 REACHABLE
 ```
 
-This line indicates that the machine knows of a valid correspondence between IP address `192.168.1.5` and MAC address `00:17:BC:56:4F:25` via Interface `eth0`.
+This line indicates that the machine knows of a valid mapping between IP address `192.168.1.5` and MAC address `00:17:BC:56:4F:25` via Interface `eth0`.
 
-It is also possible to filter cache entries according to specific criteria, such as an IP address, a Interface, or a particular state. For example, to query only the address `192.168.1.7` :
+You can also filter entries by criteria such as IP address, interface, or state. For example, to query only address `192.168.1.7` :
 
 ```bash
 ip neigh show 192.168.1.7
 ```
 
-Or to display the entries associated with Interface `eth1` :
+Or to display all entries for interface `eth1` :
 
 ```bash
 ip neigh show dev eth1
 ```
 
-In addition to consultation, the `ip neigh` command also allows you to modify the cache manually. For example, to add a static entry :
+Beyond consultation, `ip neigh` can also be used to manually edit the cache. For instance, to add a static entry:
 
 ```bash
 ip neigh add 192.168.1.7 lladdr 00:17:BC:56:4F:25 dev eth1 nud permanent
 ```
 
-This command permanently associates the IP address `192.168.1.7` with the MAC address indicated, on the Interface `eth1`. The keyword `nud permanent` (for _Neighbor Unreachability Detection_) specifies that the entry will not be invalidated automatically.
+This permanently associates the IP address `192.168.1.7` with the specified MAC address on interface `eth1`. The `nud permanent` option (for _Neighbor Unreachability Detection_) ensures that the entry will not be automatically invalidated.
 
 Conversely, to delete a cache entry :
 
@@ -1724,34 +1724,32 @@ Conversely, to delete a cache entry :
 ip neigh del 192.168.1.7 dev eth1
 ```
 
-This forces the system to perform a new neighborhood resolution the next time a packet is sent to this address.
+This forces the system to re-resolve the mapping the next time it communicates with that address.
 
-**NOTE**: The `ip neigh` tool works for both IPv4 and IPv6. It interacts with ARP in the former case, and with NDP in the latter, using a unified and consistent Interface for both protocol families. `ip neigh` therefore offers a modern, centralized approach to managing IP/MAC relationships on a host.
-
+**NOTE**: The `ip neigh` tool works for both IPv4 and IPv6. For IPv4, it interfaces with ARP; for IPv6, it interacts with NDP. This provides a unified, consistent approach to managing IP/MAC relationships across protocol families, making `ip neigh` the modern standard for neighbor management on Linux systems.
 
 ### Package analysis tools
 
-To analyze in detail what is passing through a computer network, it is important to have tools capable of capturing packets exchanged between machines. Two utilities stand out as benchmarks for network administrators and analysts: `tcpdump` and `Wireshark`. These tools can be used to diagnose abnormal behavior, audit protocol exchanges, or study network security by inspecting the contents of frames.
+To thoroughly analyze what is happening on a computer network, administrators need tools that can capture the packets exchanged between machines. Two utilities stand out as benchmarks: `tcpdump` and `Wireshark`. These tools are essential for diagnosing abnormal behavior, auditing protocol exchanges, or studying network security by inspecting frame contents.
 
+#### `ttcpdump`: command-line analysis
 
-#### ttcpdump`: command-line analysis
+`tcpdump` is a highly powerful command-line tool designed to capture and display packets traveling through a network interface. It operates in real time, and thanks to its lightweight design, can be used on systems without a graphical interface or with limited resources. It relies on the `libpcap` library, which provides hardware-independent low-level capture functions.
 
-`tcpdump` is an extremely powerful command-line tool designed to capture and display packets circulating on a Interface network. It works in real time, and thanks to its light weight, it can be used on systems without graphics Interface or with limited resources. It is based on the `libpcap` library, which provides hardware-independent low-level capture functions.
+A common use of `tcpdump` is to monitor the network activity of a machine or network segment, filtering packets according to specific criteria. Results can be redirected to a file, allowing traffic to be archived for later analysis or replayed in another tool, such as Wireshark.
 
-A typical use of `tcpdump` is to monitor the network activity of a machine or network segment, filtering packets according to precise criteria. By redirecting the results to a file, it becomes possible to keep a trace of the traffic for later analysis or for replay in another tool, such as Wireshark.
-
-Here is the general syntax of the command:
+The general command syntax is:
 
 ```bash
 tcpdump -w <file.cap> -i <interface> -s <snapshot_length> -n <filters>
 ```
 
 - `-w` writes captured packets to a file in `libpcap` format (extension `.cap` or `.pcap`);
-- `-i` designates the Interface network to be monitored (e.g. `eth0`, `wlan0`);
-- `-s` defines the maximum capture size for each packet. Specifying `0` captures all packets;
-- `-n` prevents DNS resolution or conversion of IP addresses and ports to symbolic names, which speeds up performance.
+- `-i` specifies the network interface to monitor (e.g. `eth0`, `wlan0`);
+- `-s` sets the maximum amount of data captured per packet. Specifying `0` captures all packets;
+- `-n` disables DNS and service name resolution, improving performance.
 
-Expression filters, located at the end of the command, allow you to capture only a specific subset of the traffic. You can combine the keywords `host`, `port`, `src`, `dst`, etc., to refine the selection.
+Expression filters at the end of the command let you restrict captures to a subset of traffic. You can combine the keywords `host`, `port`, `src`, `dst`, etc., to refine selection.
 
 Example: to capture HTTP packets (port 80) to or from the `192.168.25.24` server, and save them in a `fichier.cap` file:
 
@@ -1759,56 +1757,52 @@ Example: to capture HTTP packets (port 80) to or from the `192.168.25.24` server
 tcpdump -w fichier.cap -i eth0 -s 0 -n port 80 and host 192.168.25.24
 ```
 
-This capture can then be reused in a graphics tool or for playback on another system.
-
+The resulting file can later be analyzed in a graphical tool or replayed on another system.
 
 #### Wireshark: advanced visual analysis
 
-Wireshark, formerly known as *Ethereal*, is a full-featured network analysis software with a graphical Interface. Unlike `tcpdump`, it allows detailed, structured visualization of packets, with protocol decomposition, flow graphs, traffic statistics and interactive filters. It is also based on `libpcap`, which enables it to open and exploit files captured by `tcpdump`.
+Wireshark, formerly known as *Ethereal*,is a complete network analysis program with a graphical interface. Unlike `tcpdump`, it provides structured, detailed visualization of packets, including protocol dissection, flow graphs, traffic statistics, and interactive filters. It also relies on `libpcap`, which means it can open and process capture files generated by `tcpdump`.
 
-Wireshark is available on many operating systems, including Linux and Windows. Installation requires administrator rights to access the capture Interface. Once launched, you can choose a network Interface from the *Capture* menu. Click on *Start* to start recording packets in real time. Packets are displayed in three sections:
-- the list of frames ;
-- details decoded by protocol ;
-- hexadecimal raw data.
+Wireshark is available on many operating systems, including Linux and Windows. Installing it requires administrator privileges to access the capture interfaces. Once launched, you can select a network interface from the *Capture* menu. Clicking *Start* begins real-time packet recording. The display is divided into three panes:
+- the list of captured frames ;
+- protocol-decoded details,
+- raw hexadecimal data.
 
 
 ![Image](assets/fr/052.webp)
 
 
-Wireshark excels in scenarios where you need to observe complex protocol behavior, reconstruct application dialogs (such as an HTTP or DNS session), or study service response times. It is also possible to apply very precise display filters using its dedicated syntax (different from that of `tcpdump`), in order to visualize only relevant packets.
-
+Wireshark excels in scenarios where you need to observe complex protocol behavior, reconstruct application dialogs (such as an HTTP or DNS session), or study service response times. It also supports highly specific display filters using its dedicated syntax (different from that of `tcpdump`) to focus only on relevant packets.
 
 #### Complementary tools
 
-It's important to note that `tcpdump` and Wireshark are not interchangeable: each is specialized for a particular use. `tcpdump` is suited to command-line environments, automated analysis scripts and remote server interventions. Wireshark, on the other hand, is ideal for detailed, interactive and educational analysis of network traffic.
+It's important to note that `tcpdump` and Wireshark are not interchangeable: each has its own strengths. `tcpdump` is better suited to command-line environments, automated scripts and remote server interventions, while Wireshark is ideal for detailed, interactive and educational traffic analysis.
 
-The two tools can be combined: a capture is made on a remote system with `tcpdump`, then the `.cap` file is transferred for analysis with Wireshark on a local machine. This approach is widely used.
-
+The two tools can be combined: a capture can be made on a remote system with `tcpdump`, then the `.cap` file is transferred for analysis with Wireshark on a local machine. This approach is widely used in practice.
 
 ### Interface analysis tools
 
-At the Network Access layer, it's important to be able to query and configure physical network interfaces in order to diagnose malfunctions, optimize performance or check connection integrity. For this purpose, one of the most powerful tools available under Linux is `ethtool`, a command-line utility that not only provides detailed technical information about a Interface Ethernet, but also allows you to modify some of its parameters in real time.
-
+At the Network Access layer, it is often necessary to query and configure physical network interfaces in order to diagnose malfunctions, optimize performance, or verify connection integrity. One of the most powerful tools available under Linux for this purpose is `ethtool`, a command-line utility that not only provides detailed technical information about an Ethernet interface, but also allows you to adjust some of its parameters in real time.
 
 #### View Interface specifications
 
-One of the basic features of `ethtool` is its ability to query a Interface to display its current characteristics. In this way, you can find out :
+A core feature of `ethtool` is its ability to query an interface and display its current characteristics. This allows you to check:
 - link speed (e.g. 100 Mbit/s, 1 Gbit/s or 10 Gbit/s) ;
 - negotiation mode (half duplex or full duplex) ;
-- whether or not autonegotiation is enabled;
-- the type of port used (copper, fiber, etc.) ;
+- whether autonegotiation is enabled;
+- the type of port (copper, fiber, etc.) ;
 - link status (active or not) ;
 - support for advanced features such as *Wake-on-LAN*.
 
-This information is important for diagnosing problems linked to physical connectivity or misalignment of negotiations between the host's network card and the equipment to which it is connected (switch, router...).
+This information is especially useful for diagnosing problems related to physical connectivity or mismatched negotiation settings between the host's network card and the equipment it connects to (switch, router, etc.).
 
-To obtain this information, simply use the following command:
+To obtain this information, simply run:
 
 ```bash
 ethtool enp0s3
 ```
 
-This command returns a complete set of data on the Interface `enp0s3`, often found in CentOS or RHEL-based distributions.
+This command outputs a detailed report on the `enp0s3` interface, a common naming convention on CentOS or RHEL-based systems.
 
 
 ![Image](assets/fr/053.webp)
@@ -1816,16 +1810,16 @@ This command returns a complete set of data on the Interface `enp0s3`, often fou
 
 #### Dynamically modify Interface parameters
 
-the `ethtool` is not limited to observation: it also allows you to act directly on certain Interface parameters without rebooting the machine. This allows you, for example, to force the link speed or activate specific options according to the needs of the local network.
+`ethtool` is not limited to observation: it also allows you to adjust certain interface parameters without rebooting the machine. This makes it possible, for example, to force a specific link speed or enable features according to the needs of the local network.
 
 The `-s` option is used to dynamically configure parameters such as :
-- speed (`speed`) to be set explicitly (e.g. 1000 for 1 Gbit/s) ;
-- the type of duplex (`duplex`) to choose between `half` or `full` ;
-- activation or deactivation of auto-negotiation (`autoneg`) ;
-- activation of *Wake-on-LAN* (`wol`) ;
-- or the type of port.
+- link speed (`speed`), set explicitly (e.g. 1000 for 1 Gbit/s) ;
+- duplex mode (`duplex`), either `half` or `full` ;
+- enabling or disabling autonegotiation (`autoneg`) ;
+- enabling of *Wake-on-LAN* (`wol`) ;
+- port type.
 
-Example 1: Activate autonegotiation on Interface :
+Example 1: enable autonegotiation on an interface:
 
 ```bash
 ethtool -s enp0s3 autoneg on
@@ -1837,12 +1831,11 @@ Example 2: enable the *Wake-on-LAN* feature (to allow the machine to wake up rem
 ethtool -s enp0s3 wol p
 ```
 
-In this example, the `p` option means that wake-up will occur as soon as a *Wake-on-LAN* packet is detected. This configuration is often used in professional environments for night-time updates or remote maintenance.
-
+In this example, the `p` option specifies that wake-up will occur as soon as a *Wake-on-LAN* packet is detected. This setup is often used in enterprise environments to perform overnight updates or remote maintenance.
 
 #### Tool installation
 
-It is important to note that `ethtool` is not systematically installed by default. On Red Hat/CentOS distributions, it can be installed with the command :
+It is important to note that `ethtool` is not always installed by default. On Red Hat/CentOS distributions, it can be installed with the command :
 
 ```bash
 yum install -y ethtool
@@ -1854,21 +1847,20 @@ On Debian and Ubuntu, the equivalent command is :
 sudo apt install ethtool
 ```
 
-**WARNING**: in all `ethtool` commands, the name of the Interface network must always be specified immediately after the option (as `-s`). Any syntax error in the position of the parameters will render the command invalid or ineffective.
+**WARNING**: in all `ethtool` commands, the name of the network interface must be specified immediately after the option (as `-s`). Any syntax error in the placement of parameters will make the command invalid or ineffective.
 
 
 ## Network layer tools
 
 <chapterId>d2c5bf35-4284-4af8-8e8b-049c696a511b</chapterId>
 
-
 ### Traffic analysis tools
 
-In the field of network diagnostics, the `ping` command remains one of the simplest yet most powerful tools for checking connectivity between two machines. It establishes whether a remote host is reachable at a given time, while providing information on network latency, link stability and DNS name resolution.
+In network diagnostics, the `ping` command remains one of the simplest yet most powerful tools for testing connectivity between two machines. It checks whether a remote host is reachable at a given time, while also providing information on latency, link stability, and DNS resolution.
 
-The `ping` command is based on the ICMP (*Internet Control Message Protocol*) protocol. When a user sends a `ping` request, the system sends an ICMP "Echo Request" packet to an IP address or host name. If the target machine is online and the network path is valid, it responds with an ICMP "Echo Reply" packet. This simple mechanism can be used to measure latency and identify connectivity or name resolution problems.
+The `ping` command relies on the ICMP (*Internet Control Message Protocol*) protocol. When a user sends a `ping` request, the system sends an ICMP "Echo Request" packet to an IP address or hostname. If the target machine is online and the network path is valid, it responds with an ICMP "Echo Reply" packet. This simple mechanism can be used to measure latency and detect connectivity or name resolution problems.
 
-Example of a classic order:
+Example of a classic command:
 
 ```bash
 ping 172.17.18.19
@@ -1883,75 +1875,69 @@ mydmn.org (172.17.18.19): 56 data bytes
 64 bytes from 172.17.18.19: icmp_seq=2 ttl=56 time=5.5 ms
 ```
 
-In this example, we can see that name resolution has been performed automatically. The domain name `mydmn.org` is associated with the IP address `172.17.18.19`, indicating that DNS resolution is working correctly. The command also provides technical data such as :
-- iCMP sequence number (`icmp_seq`), useful for checking the order of arrival of responses;
-- the TTL (*Time-To-Live*), which corresponds to the number of network hops remaining before the packet is destroyed;
-- response time or round-trip time/delay (`time`), expressed in milliseconds, which gives an indication of link latency.
-
+In this example, name resolution has been performed automatically: the domain `mydmn.org` is associated with the IP address `172.17.18.19`, confirming that DNS resolution works correctly. The command also provides technical details such as:
+- iCMP sequence number (`icmp_seq`), useful for checking the order of responses;
+- TTL (*Time-To-Live*), which indicates the number of remaining hops before the packet is discarded;
+- round-trip time/delay (`time`), expressed in milliseconds, providing an estimate of link latency.
 
 #### More detailed analysis of ICMP parameters
 
-The TTL is a critical parameter in the IP protocol. Every datagram sent has a TTL field, initialized by the sender (often 64, 128 or 255). At each router crossed, this field is decremented by 1. If the TTL reaches 0 before reaching its destination, the packet is destroyed and an ICMP error is returned to the sender. This mechanism prevents infinite network loops.
+The TTL is a critical field in the IP protocol. Each datagram is initialized with a TTL value by the sender (often 64, 128 or 255). Every router along the path decrements this value by 1. If the TTL reaches 0 before reaching its destination, the packet is discarded and an ICMP error is returned to the sender. This mechanism prevents infinite routing loops.
 
-Propagation time (*round-trip delay/time*) measures the total delay for a packet to leave the transmitter, reach the target and return. In practice, a delay of less than 200 milliseconds is considered satisfactory for a stable link. An abnormally long delay can be a symptom of network congestion, inefficient routing or poor link quality.
-
+The propagation time (*round-trip delay/time*) measures the delay for a packet to leave the sender, reach the target, and return. In practice, a delay below 200 ms is considered acceptable for a stable link. Abnormally high delays may indicate network congestion, inefficient routing, or poor link quality.
 
 #### Advanced `ping` usage
 
-The `ping` tool can be used with different options to refine tests and better observe certain network behaviors.
+`ping` provides options to refine tests and observe specific network behaviors.
 
-To send broadcast requests, you can use the `-b` option, which sends a request to all hosts on a subnet:
-
+To send broadcast requests, you can use the `-b` option to target all hosts on a subnet:
 ```bash
 ping -b 192.168.1.255
 ```
 
-This command is useful in local networks for quickly detecting active hosts or testing network behavior in the face of broadcast requests. However, beware: in many configurations, routers and firewalls block this type of request to prevent amplification attacks.
+This is useful on local networks to quickly detect active hosts or test how the network handles broadcast requests. However, in many setups, routers and firewalls block broadcast pings to prevent amplification attacks.
 
-It is also possible to specify a custom send interval with the `-i` option (by default, requests are sent at one-second intervals):
+You can also specify a custom interval between requests with the `-i` option (default: 1 second):
 
 ```bash
 ping -i 0.2 -c 10 192.168.1.7
 ```
 
-Here, 10 ICMP requests are sent at 0.2-second intervals. This type of test is particularly useful for detecting latency fluctuations over a short period or for slightly stressing a link to observe its stability.
-
+This sends 10 ICMP requests at 0.2-second intervals. Such testing is useful for detecting latency fluctuations over a short period or for lightly stressing a link to evaluate its stability.
 
 ### Routing table analysis tools
 
-The `ip route` command, from the `iproute2` suite, is the recommended and standard tool on modern Linux systems for consulting and manipulating the kernel's IP routing table. It replaces the old, obsolete `route` command, offering clearer syntax, greater consistency, and extended support for contemporary network features (IPv6, multiple tables, namespaces...).
-
+The `ip route` command, part of the `iproute2` suite, is the recommended and standard tool on modern Linux systems for inspecting and managing the kernel's IP routing table. It replaces the obsolete `route` command, offering clearer syntax, greater consistency, and extended support for modern features (IPv6, multiple tables, namespaces, etc.).
 
 #### Displaying the routing table
 
-The following command displays the current state of the routing table:
+To display the current routing table:
 
 ```bash
 ip route show
 ```
 
-This result lists all the routes known to the kernel, i.e. the paths taken by outgoing IP packets according to their destination.
+This output lists all routes known to the kernel, that is, the paths outgoing packets take depending on their destination.
 
-Typical output example:
+Example output:
 
 ```bash
 default via 192.168.1.1 dev eth0 proto dhcp metric 100
 192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.100
 ```
 
-Each line represents a route. Here's an explanation of the essential fields:
-- default**: default route, used if no more specific route is found.
-- via**: address of the gateway used to reach the destination.
-- dev** : Interface network used by packets.
-- proto**: route source (manual, DHCP, kernel, etc.).
-- metric**: cost of the route, used to distinguish between several possible paths.
-- scope**: route scope (e.g. `link` for a directly connected route).
-- src**: source IP address used on this Interface for outgoing communications.
-
+Each line represents a route. Key fields include:
+- **default**: the default route, used when no more specific route matches.
+- **via**: the gateway used to reach the destination.
+- **dev** : the network interface used.
+- **proto**: how the route was created (manual, DHCP, kernel, etc.).
+- **metric**: route cost, used to prioritize multiple possible paths.
+- **scope**: route scope (e.g. `link` for a directly connected route).
+- **src**: the source IP address used for outgoing packets on this interface.
 
 #### Adding and deleting routes
 
-The `ip route` tool can also be used to dynamically modify the routing table, in particular to add or remove static routes.
+You can also modify the routing table dynamically, for example by adding or removing static routes.
 
 Adding a static route :
 
@@ -1959,7 +1945,7 @@ Adding a static route :
 ip route add 192.168.1.0/24 via 192.168.1.1 dev eth0
 ```
 
-This configures a route to the `192.168.1.0/24` network, via the `192.168.1.1` gateway, via the Interface `eth0`.
+This configures a route to the `192.168.1.0/24` network, via the `192.168.1.1` gateway on interface `eth0`.
 
 Remove this route:
 
@@ -1969,14 +1955,13 @@ ip route del 192.168.1.0/24
 
 This command deletes the previously defined route.
 
-
 #### Useful commands
 
 Here are some useful variants for analysis or scripting:
 - `ip -4 route`: displays IPv4 routes only;
 - `ip -6 route`: displays IPv6 routes only;
-- ip route list table main` : displays the main routing table (default value) ;
-- `ip route get <Address>`: determines which Interface and gateway a packet to a given address would be routed through.
+- `ip route list table main` : displays the main routing table (default value) ;
+- `ip route get <Address>`: show which interface and gateway a packet to the given address would use.
 
 Example:
 
@@ -1984,8 +1969,7 @@ Example:
 ip route get 8.8.8.8
 ```
 
-This returns the precise route a packet would take to address `8.8.8.8`.
-
+This displays the exact route a packet would take to reach `8.8.8.8`.
 
 ### Tracing tools
 
@@ -2052,13 +2036,11 @@ Example for tracing an IPv6 route:
 traceroute6 ipv6.google.com
 ```
 
-
 ### Tools for checking active connections
 
 To diagnose current network connections and get an overview of network activity on a Linux system, the `ss` command (for _socket statistics_) is today's benchmark tool. Part of the `iproute2` suite, it replaces the now obsolete `netstat`, offering superior performance and greater accuracy.
 
 `ss` displays active TCP and UDP connections, listening ports, local and remote addresses, connection status and associated processes.
-
 
 #### General use
 
@@ -2076,7 +2058,6 @@ Some common options for refining analysis :
 - `-p`: displays the processes associated with each socket (PID and program name) ;
 - `-a`: Displays all connections, including inactive ones;
 - `-s`: provides high-level statistics on sockets.
-
 
 #### Case studies
 
@@ -2114,16 +2095,13 @@ ss -unp
 
 These commands are particularly useful for spotting suspicious connections, listening for unexpected ports, or monitoring the network activity of a particular service.
 
-
 ## Transport and top layer tools
 
 <chapterId>bce47931-930e-4288-b0fd-666c9a1066b5</chapterId>
 
-
 ### DNS query tools
 
 In the upper layers of the TCP/IP model, and particularly at the Application layer, it's important to understand how name resolution works. DNS query tools can be used not only to check whether a domain name is correctly associated with an IP address, but also to diagnose DNS server configuration, propagation or inaccessibility problems. These tools are essential for any network administrator or user wishing to better understand DNS exchanges in an IP environment.
-
 
 #### The `nslookup` command
 
@@ -2142,7 +2120,6 @@ nslookup mydmn.org 192.6.23.4
 ```
 
 This request asks the server at address `192.6.23.4` to resolve the name `mydmn.org`. This is a useful method when you want to check whether or not a given DNS server knows a domain name, or to verify that the server is functioning correctly.
-
 
 #### The `dig` command
 
@@ -2182,7 +2159,6 @@ nameserver 192.168.1.11
 
 Note that this configuration is temporary in many modern distributions (especially with `systemd-resolved`) and may be overwritten each time you reboot or reconnect to the network. More permanent methods exist (such as using `resolvconf`, `systemd-resolved`, or modifying *NetworkManager* files).
 
-
 #### The `host` command
 
 The `host` tool is another simple but effective DNS utility. It allows you to resolve domain names to IP addresses, or vice versa, and can also be used to diagnose DNS response errors or failures on a Interface network.
@@ -2203,11 +2179,9 @@ It is particularly useful for spot checks, especially on the command line in aut
 
 It's important to remember that repeatedly or intensively querying third-party DNS servers without authorization can be considered an intrusion attempt or malicious behavior. Certain commands, when misused (or used on networks that do not belong to you), can be assimilated to network reconnaissance, a first step in certain forms of attack. It is therefore important to limit the use of these tools to the environments you administer, or for which you are explicitly responsible.
 
-
 ### Network interrogation tools
 
 When monitoring or securing a local or wide area network, it's important to be able to identify active equipment and the services they expose. This is precisely what the `nmap` (*Network Mapper*) tool enables.
-
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
@@ -2216,7 +2190,6 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 `nmap` enables targeted interrogation of one or more hosts to detect open ports, accessible services (HTTP, SSH, DNS...) and sometimes even the type of operating system in use. Thanks to its numerous options, it is possible to obtain a precise and synthetic vision of the state of a network's exposure surface, which is essential in the auditing or hardening phases of an infrastructure.
 
 As with the `host` command, it should never be used on a network or infrastructure that does not belong to you, or without explicit authorization. Unauthorized port scans can be considered as malicious reconnaissance attempts, and are often detected as such by security devices (firewalls, IDS/IPS), or even punished.
-
 
 #### Basic use
 
@@ -2227,7 +2200,6 @@ nmap 192.168.0.1
 ```
 
 This command will scan the 1000 most common ports on host `192.168.0.1` and display the services accessed and protocols used. If DNS is configured, it is also possible to use the host name instead of the IP address.
-
 
 #### Complete network scan
 
@@ -2249,16 +2221,13 @@ An administrator can use `nmap` for several tasks:
 - Compliance check: compare open ports with network security policy ;
 - Vulnerability prevention: identify insecure or obsolete services open on critical machines.
 
-
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
-
 
 ### Process interrogation tools
 
 One of the most powerful tools available to Linux administrators is the `lsof` (*List Open Files*) command, for in-depth analysis of active processes and open files on a system, particularly in a network context. Contrary to what its name might suggest, `lsof` is not limited to classic files: in the UNIX system, everything is considered a file, including network sockets, peripherals, communication channels...
 
 This tool therefore provides a cross-sectional view of the system, cross-referencing information on active processes, open network ports, files handled and users involved.
-
 
 #### Network analysis with `lsof
 
@@ -2270,7 +2239,6 @@ lsof -i
 
 This type of command lists all running processes using a network socket, with information on the port used, the protocol (TCP/UDP), the connection status, as well as the PID and corresponding user.
 
-
 #### Filtering by IP address or port
 
 To refine the search, you can specify an IP address and a port. This makes it possible to isolate a specific network flow, for example an SMTP communication (port 25) with a given machine:
@@ -2280,7 +2248,6 @@ lsof -n -i @192.168.2.1:25
 ```
 
 This will display only active network connections with host `192.168.2.1` on port 25, which can be useful for diagnosing suspicious activity or SMTP blocking.
-
 
 #### Device access tracking
 
@@ -2292,7 +2259,6 @@ lsof /dev/sda1
 
 This is useful when a dismount attempt fails because the device is still in use, or when trying to understand which applications are accessing a given partition.
 
-
 #### Cross-analysis: process and network
 
 You can combine several options to obtain precise information on the resources opened by a specific process. For example, to find out all the network ports opened by the process with PID 1521 :
@@ -2302,7 +2268,6 @@ lsof -i -a -p 1521
 ```
 
 The `-a` option performs an intersection of criteria (here: `-i` and `-p`), thus limiting the display to network connections belonging to this process alone.
-
 
 #### Multi-user tracking
 
@@ -2314,13 +2279,11 @@ lsof -p 1521 -u 500,phil
 
 This command can be used, for example, to find out which files or network connections are being used by user `phil` or UID 500, for process 1521.
 
-
 ### Part summary
 
 By the end of this final section, we have explored a wide range of tools that are indispensable for diagnosing, analyzing and administering computer networks. This study, organized around the different layers of the TCP/IP model, not only provides a better understanding of how network communications work, but also a rigorous methodology for identifying, locating and resolving potential problems.
 
 These tools provide administrators with a coherent set of technical levers for monitoring network status, analyzing flows, auditing connections and rapidly intervening on faulty equipment or services.
-
 
 #### Network Access Layer
 
@@ -2330,7 +2293,6 @@ These utilities provide direct visibility of interfaces and frames:
 - Wireshark**: in-depth graphical decoding of frames for ;
 - ethtool**: dynamic interrogation and adjustment of Ethernet card physical parameters (speed, duplex, WoL, etc.).
 
-
 #### Network layer
 
 Here we evaluate IP connectivity, routing and packet flow:
@@ -2338,7 +2300,6 @@ Here we evaluate IP connectivity, routing and packet flow:
 - ip route**: consult and manipulate the routing table to control the paths taken ;
 - traceroute**: hop-by-hop identification of routers traversed to destination;
 - ss**: precise inventory of TCP/UDP sockets and associated processes (replaces netstat).
-
 
 #### Transport and Application layers
 
@@ -2349,31 +2310,24 @@ At higher levels, the aim is to diagnose services and processes:
 
 Mastery of these tools, each dedicated to a specific stage of the TCP/IP model, enables a methodical approach to be adopted: from the physical layer, through routing, right up to application services. This chain of expertise gives administrators the ability to diagnose, secure and optimize the infrastructure, thus guaranteeing network performance and availability.
 
-
 # Final part
 
 <partId>09d5393c-63bc-42fc-bf79-c65e380211bd</partId>
-
 
 ## Reviews & Ratings
 
 <chapterId>114c33c0-9831-4d74-affd-f5d37adc53c3</chapterId>
 
-
 <isCourseReview>true</isCourseReview>
-
 
 ## Final examination
 
 <chapterId>b99e005e-8dd0-4fa4-b302-f940c27a30ac</chapterId>
 
-
 <isCourseExam>true</isCourseExam>
-
 
 ## Conclusion
 
 <chapterId>3b449814-78f3-41c0-8138-0a04f3682719</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

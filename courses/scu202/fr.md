@@ -3268,7 +3268,7 @@ L’objectif est simple : empêcher qu’un incident sur une activité donnée (
 
 Les navigateurs modernes permettent aux sites de solliciter des accès à des ressources sensibles de votre appareil, comme la caméra, le microphone, la géolocalisation ou encore les notifications système. Ces fonctionnalités sont utiles pour certaines applications (visioconférences, cartes interactives...), mais elles ouvrent aussi la porte à des abus si elles sont mal contrôlées.
 
-Lorsqu’un site vous demande l’accès à l’une de ces ressources, le navigateur affiche une popup que vous devez valider. Cependant, si vous acceptez une fois sans attention, cette autorisation peut rester active de manière persistante pour toutes vos visites futures sur ce site. Cela signifie, par exemple, qu’un site pourrait à nouveau activer votre micro ou votre caméra sans vous le redemander, si vous n’avez pas révoqué manuellement ce droit.
+Lorsqu’un site vous demande l’accès à l’une de ces ressources, le navigateur affiche un pop-up que vous devez valider. Cependant, si vous acceptez une fois sans attention, cette autorisation peut rester active de manière persistante pour toutes vos visites futures sur ce site. Cela signifie, par exemple, qu’un site pourrait à nouveau activer votre micro ou votre caméra sans vous le redemander, si vous n’avez pas révoqué manuellement ce droit.
 
 Pour renforcer votre sécurité :
 - Accordez l’autorisation uniquement au moment précis où elle est requise pour une fonctionnalité légitime ;

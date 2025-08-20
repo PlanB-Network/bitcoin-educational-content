@@ -1,0 +1,24 @@
+id: e8006f9e-4710-4187-991c-4702c1368af4
+start_date: 2025-09-03 06:00:00
+end_date: 2025-09-05 13:00:00
+timezone: Europe/Istanbul
+address_city_country: Istanbul, Turkiye
+address_line_2: Salt Galata
+address_line_3:
+name: bitcoin++ scales
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Join us in Istanbul this September 3 - 5 and peer into the frontier of Bitcoin at scale
+language:
+  - en
+links:
+  website: https://btcpp.dev/conf/istanbul
+  replay_url:
+  live_url:
+project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
+tags:
+  - onchain
+  - deep-dive
+  - protocols

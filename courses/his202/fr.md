@@ -1656,60 +1656,57 @@ La plateforme reçoit en particulier le soutien du joueur professionnel Bryan Mi
 
 En dehors du poker, le jeu d'argent avec Bitcoin se développe aussi énormément de manière générale. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par le tradeur GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
 
-### SatoshiDICE
+### SatoshiDICE, le jeu de dés assurément équitable
 
-SatoshDICE est un concept...
+Mais tous ces jeux reposent sur une plateforme centralisée, et ne sont pas vérifiables. C'est en cela que se démarque un concept d'un nouveau genre : un jeu de dés dont le caractère équitable peut être vérifié par l'utilisateur. Il s'agit de SatoshiDICE, qui est mis au point durant le printemps 2012 par Joseph Gleason.
 
-Joseph Gleason, alias Fireduck. Développeur.
-
-Outil d'horodatage avec Bitcoin : https://github.com/fireduck64/BitcoinTimestamp ("created_at": "2011-07-11T03:52:38Z") ; [11/7/2011](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/)
-
-[21/7/2011](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) intérêt pour Namecoin
-
-Service de change compatible avec le service de paiement Google Checkout : [2/8/2011](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/)
-
-https://web.archive.org/web/20120120235711/http://1209k.com/bitcoin/faq.php
+Joseph est un développeur américain [de 30 ans](http://fireduck.com/index-single.html) qui se fait appeler Fireduck sur Bitcointalk et sur Reddit. Ce dernier s'est intéressé à Bitcoin au cours de l'été 2011 : il a [programmé](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/) un outil d'horodatage, a [déployé](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) un nœud pour Namecoin et a [lancé](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/) un service de change rudmentaire compatible avec l'éphémère système de paiement en ligne Google Checkout.
 
 ![Joseph Gleason, alias Fireduck, en février 2014](assets/en/joseph-gleason-fireduck-20140228-032402-twitter.webp)
 
 Joseph Gleason, alias Fireduck, en février 2014 (source : [Twitter](https://twitter.com/Fireduck1209k))
 
-9 avril : Lancement d'un « casino de bitcoins vérifiable » (original: "Verifiable Bitcoin Casino") (1209k BitCasino) [annonce](https://www.reddit.com/r/Bitcoin/comments/s1dn3/my_verifiable_bitcoin_casino/) sur Reddit
+En 2012, il a l'idée d'un moyen. Le 9 avril, Joseph lance son casino en ligne, hébergé sur son site personnel, 1209k.com \[1209k BitCasino\]. Il le [présente](https://www.reddit.com/r/Bitcoin/comments/s1dn3/my_verifiable_bitcoin_casino/) sur le subreddit de Bitcoin (r/Bitcoin) comme un « casino de bitcoins vérifiable » (original: "Verifiable Bitcoin Casino"). Le site repose sur des adresses fixes qui donnent chacune une chance prédéfinie de multiplier la mise du joueur par un nombre précis. L'utilisateur envoie le montant à l'adresse et reçoit, si le tirage est favorable, la récompense correspondante sur son adresse personnelle. Par exemple, l'adresse `194udqXac9hGs5RvevjHR5L3EJaGXDzahe` donne une chance sur deux de doubler sa mise, moins les frais du casino qui sont de 2 à 3 %.
 
-Description du concept.
+Le jeu se présente comme un jeu de dés. Un tirage est réalisé à chaque transaction, et se trouve entre 0 et 65 536. Ce « nombre chanceux » (original: "lucky number") est [obtenu](https://web.archive.org/web/20120507154620/http://satoshidice.com/secrets.php) en sélectionnant les deux premiers octets du condensé (calculé par HMAC-SHA-512) d'une information secrète et de l'identifiant de la transaction entrante. Si ce nombre est strictement inférieur à une cible liée à l'adresse (32768 pour l'adresse multipliant la mise par deux), alors le tirage est gagnant et la personne reçoit le montant prévu. S'il est supérieur, alors il reçoit une petite fraction du montant, pour confirmer que le système a fonctionné. Chaque pari génère donc deux transactions qui sont ajoutées à la chaine.
 
-Les perdants reçoivent une fraction du montant ("fee, 0.0005", 0,05 % ?, réalité : 0,5 %) comme confirmation que le système a fonctionné. Chaque pari génère donc deux transactions sur la chaine.
+![Quelques paris réalisés le 18 avril 2012](assets/en/fireduck-1209k-casino-bets-20120418.webp)
 
-Activité 14–18 avril : https://web.archive.org/web/20120419202740/http://1209k.com/bitcasino
+Quelques paris réalisés le 18 avril 2012 (source : [archive](https://web.archive.org/web/20120419202740/http://1209k.com/bitcasino) de 1209k.com)
 
-Rapport : https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php
+Le procédé est transparent et fait en sorte que les utilisateurs puissent vérifier que le casino n'a pas triché. Pour cela, les empreintes des secrets du jour sont publiés sur la chaine (par exemple, les secrets de la journée du 18 avril sont [stockés](https://mempool.space/tx/428bcc630b00fe431623b4e1fb0f726493dc0a2ead86ace9f65cd51bc8092459) dans la transaction `428bcc630b00fe431623b4e1fb0f726493dc0a2ead86ace9f65cd51bc8092459`). Les secrets sont dévoilés dans les jours qui suivent, ce qui permet aux parieurs de faire le calcul eux-mêmes. Le système est en cela « assurément équitable » (original: "provably fair").
 
-4944.08112334 - 4795.26541711 = 148.81570623 (moins "fee, 1.10" : 147.71470623)
+Le procédé est simple (il suffit d'un portefeuille pour jouer), instantané (le jeu ne nécessite aucune confirmation) et aisément vérifiable. Ces caractéristiques font que le jeu attire un certain nombre de joueurs dès ses débuts. En 10 jours, le casino en ligne [traite](https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) pour près de 5 000 BTC de paris, ce qui correspond alors à plus de 24 000 $. Mais ce succès soudain effraie Joseph qui appréhende des conséquences légales, et il cherche donc à vendre le site à quelqu'un qui assumerait les risques juridiques, et qui pourrait lui verser un salaire mensuel pour travailler sur le côté technique. Dans une annonce publiée sur le subreddit de Bitcoin le 17 avril, il [écrit](https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/) qu'il « gère un casino de bitcoins depuis un peu plus d'une semaine », que ce dernier « a généré 146 BTC pour un investissement initial d'environ 45 BTC » (original: "I have been running a bitcoin casino for a little over a week. It has made 146 BTC with an investment of around 45 BTC to get it started.") et qu'il cherche un repreneur.
 
-1 - 4795.26541711 / 4944.08112334 = 3,01 %
-1 - 4795.26541711 / (4944.08112334 - 1.1) = 2,99 %
+(prix ~4,90$ ; 146 BTC = 715 $ ; 45 BTC= 220 $ ; 4 944 BTC = 24 226 $)
 
-"Anyone want to run my bitcoin casino", 17 avril 2012 : https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/
+L'occasion est saisie presque immédiatement par Erik Voorhees, qui s'avère lire le subreddit. Après des discussions avec Joseph dans les commentaires et en privé, il acquiert le concept pour 225 $ en bitcoins \[source : *Digital Gold*, Introduction\]. Le lendemain, la plateforme est [opérationnelle](https://www.reddit.com/r/Bitcoin/comments/segz0/comment/c4dwi5q/) sur un nouveau site : Satoshidice.com. Le 24 avril, après une petite refonte graphique \[?\], Erik [annonce](https://bitcointalk.org/index.php?topic=77870.msg865877#msg865877) le lancement de la plateforme sur le forum de Bitcoin.
 
-> « Je gère un casino de bitcoins depuis un peu plus d'une semaine. Il a généré 146 BTC pour un investissement initial d'environ 45 BTC. Je ne souhaite pas poursuivre cette activité car je m'inquiète des implications juridiques. »
->
-> original: "I have been running a bitcoin casino for a little over a week. It has made 146 BTC with an investment of around 45 BTC to get it started. I don't want to run it any more because I am concerned about legal issues."
+![Logo de SatoshiDICE](assets/en/satoshidice-logo-2012.webp)
 
-(prix ~4,90$ ; 146 BTC = 715 $ ; 45 BTC= 220 $ ; 4 944 BTC = 24226 $)
+Logo de SatoshiDICE (source : [capture](https://web.archive.org/web/20120804125615/http://satoshidice.com/) de Satoshidice.com)
 
-En date du 19 avril, son casino a en effet [traité](https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) pour près de 5 000 BTC de paris, soit plus de 24 000 $. Il cherche à vendre le concept à quelqu'un qui prendrait les risques légaux et à continuer à travailler sur le côté technique en échange d'un salaire mensuel fixe.
+---
 
-SatoshiDICE, concept acheté par Erik Voorhees, [lancement](https://bitcointalk.org/index.php?topic=77870.msg865877#msg865877) le 24 avr. 2012, réaction de Matt Corallo en juin 2012 : https://bitcointalk.org/index.php?topic=87444.msg961132#msg961132
+Dans les mois qui suivent, SatoshiDICE connait un succès phénoménal. Les gens se prennent au jeu, d'autant plus qu'il est simple et instantané. Comme chaque pari (gagnant ou perdant) entraine la réalisation de deux transferts, le nombre de transactions effectuées sur la chaine explose. Celui-ci se stabilisait jusque là entre 5 000 et 8 000 transactions par jour. https://bitinfocharts.com/comparison/bitcoin-transactions.html#alltime
+
+Le 4 mai, il dépasse (de peu) le précédent record de transactions, qui a été réalisé en juin 2011 (13 911 vs 13 937)
+
+[4/5](https://bitcointalk.org/index.php?topic=79285.msg881416#msg881416) evoorhees "we just hit the all time Bitcoin transaction record" « Nous venons de battre le record historique du nombre de transactions en bitcoins. »
+
+[4/5](https://bitcointalk.org/index.php?topic=77870.msg882534#msg882534) "Congratulations!  We just pushed past July 2011's peak number of transactions per day.")
+
+14/6/2012 : 61 782 transactions, record de l'année 2012
+
+réaction de Matt Corallo, [13/6](https://bitcointalk.org/index.php?topic=87444.msg961132#msg961132) : "Over the past ~24 hours, the number of satoshidice transactions has increased hugely, leading to transaction memory pools (currently) at around 9000 transactions.  Satoshidice spam is already a huge % of current transactions, but now its just ridiculous.  Is it time to start deprioritizing transactions which use very common addresses?"
+
+EDB: En tant que libertarien convaincu vivant dans le New Hampshire, Erik Voorhees voit en SatoshiDICE une manière d'échapper à la réglementation. Le 20 août, il réalise même une IPO pour son entreprise sur la plateforme roumaine MPEx. Il revendra la plateforme le 17 juillet 2013 pour 126 315 bitcoins, soit 12,4 millions de dollars au moment de l'acquisition. Le succès de SatoshiDICE provoque une augmentation significative du nombre de transactions sur la chaîne, qui triple en quelques mois. Cette activité provenant du site est remarquée et dérange certains développeurs qui la qualifient de « spam ».
+
+20 août 2012, IPO sur MPEx : https://web.archive.org/web/20121024050433/https://bitcointalk.org/index.php?topic=101902.0
 
 https://en.bitcoin.it/wiki/Satoshi_Dice
 
-EDB: Le 24 avril 2012, un jeu de hasard en ligne nommé SatoshiDICE est lancé par l'entrepreneur américain Erik Voorhees . Le site repose sur un fonctionnement très simple : le joueur envoie des bitcoins à une adresse spécifique et il a une probabilité prédéfinie de recevoir une récompense qui correspond à un multiple du montant envoyé (il a par exemple une chance sur deux de recevoir un peu moins de deux fois sa mise). Le procédé est instantané et aisément vérifiable, ce qui attire de nombreux parieurs.
-
-En tant que libertarien convaincu vivant dans le New Hampshire, Erik Voorhees voit en SatoshiDICE une manière d'échapper à la réglementation. Le 20 août, il réalise même une IPO pour son entreprise sur la plateforme roumaine MPEx. Il revendra la plateforme le 17 juillet 2013 pour 126 315 bitcoins, soit 12,4 millions de dollars au moment de l'acquisition.
-
-Le succès de SatoshiDICE provoque une augmentation significative du nombre de transactions sur la chaîne, qui triple en quelques mois. Cette activité provenant du site est remarquée et dérange certains développeurs qui la qualifient de « spam ».
-
-SatoshiDICE, 20 août 2012 : IPO sur MPEx : https://web.archive.org/web/20121024050433/https://bitcointalk.org/index.php?topic=101902.0
+Le procédé derrière SatoshiDICE est reproduit et amélioré par plusieurs concurrents, qui se présentent aussi comme des casinos « assurément équitables » (original: "provably fair"). L'un d'entre eux est le Bitzino...
 
 Bitzino, "provably fair", par libertaad, [8/6](https://www.reddit.com/r/Bitcoin/comments/usa0j/i_coded_up_my_very_own_bitcoin_casino_in_order_to/), [15/6](https://bitcointalk.org/index.php?topic=87656.msg963927#msg963927), https://www.forbes.com/sites/jonmatonis/2012/08/31/bitzino-and-the-dawn-of-provably-fair-casino-gaming/
 

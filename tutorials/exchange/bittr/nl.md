@@ -1,5 +1,5 @@
 ---
-name: Hoe Bitcoin kopen in je eigen Wallet met Bittr
+name: Bittr
 description: Een eenvoudige stap-voor-stap handleiding voor het zelf in bewaring nemen van Bitcoin aankopen
 ---
 

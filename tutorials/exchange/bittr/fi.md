@@ -1,5 +1,5 @@
 ---
-name: Kuinka ostaa Bitcoin omaksi Wallet:ksi Bittrin avulla?
+name: Bittr
 description: Yksinkertainen vaiheittainen opas Bitcoin:n omahuoltajuushankintoja varten
 ---
 

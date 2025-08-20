@@ -1,5 +1,5 @@
 ---
-name: Comment acheter un Bitcoin pour en faire un Wallet avec Bittr ?
+name: Bittr
 description: Un guide simple, étape par étape, pour l'achat d'une Bitcoin en autodétention
 ---
 

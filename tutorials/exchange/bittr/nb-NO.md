@@ -1,5 +1,5 @@
 ---
-name: Slik kjøper du Bitcoin til din egen Wallet med Bittr
+name: Bittr
 description: En enkel trinn-for-trinn-veiledning for kjøp av Bitcoin i egen forvaring
 ---
 

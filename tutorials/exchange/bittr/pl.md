@@ -1,5 +1,5 @@
 ---
-name: Jak kupić Bitcoin do własnego Wallet za pomocą Bittr
+name: Bittr
 description: Prosty przewodnik krok po kroku dotyczący samodzielnego zakupu Bitcoin
 ---
 

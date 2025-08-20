@@ -1,0 +1,24 @@
+id: 7f2a160b-10b6-4cc5-8820-514ee2eb1599
+
+project_id: cb3e67d7-62bd-43ae-a81c-8e0533390d2c
+
+category: mobile
+
+level: intermediate
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-20
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+tags:
+  - wallets
+  - guides
+  - risks

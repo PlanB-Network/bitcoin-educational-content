@@ -66,7 +66,7 @@ Documentaires :
 - [*Deep Web*](https://www.youtube.com/watch?v=L7emWKAMEvI), réalisé par Alex Winter, 31 mai 2015
 - [*Banking on Bitcoin*](https://www.youtube.com/watch?v=8rsxIW02W0g), réalisé par Christopher Cannucciari, 2016
 
-# 2011
+# La grande bulle de 2011
 
 ## Silk Road, l'Amazon de la drogue (janv.–nov. 2011)
 
@@ -686,13 +686,13 @@ Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/201
 
 La plateforme rencontrera un succès certain \[lequel ?\]. Elle hébergera notamment l'« IPO » de SatoshiDICE \[dire ce que c'est\]. Elle évoluera avec le temps, [intégrant](http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
 
-
-
 ### Une phase de construction
 
 L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été proprice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin : BitInstant, Bitcoinica, GLBSE et MPEx.
 
 Cette construction s'est accompagnée en parallèle d'une amélioration de l'utilisation de Bitcoin, qui s'est faite par le développement des portefeuilles. C'est l'objet du prochain chapitre.
+
+# Le développement technique
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 
@@ -945,11 +945,19 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 - Chapitre pour évoquer le cas du minage : le développement des premiers FGPA (mai 2011), les nouvelles coopératives, P2Pool (juillet 2011) ?
 
+Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
+
+Le regroupement en coopératives, qui amène à une plus grande centralisation du minage.
+
+La spécialisation du minage s'accroit encore plus avec le développement des FGPA et des premiers modèles d'ASIC.
+
 ### Nouvelles coopératives
 
 Principales coopératives : DeepBit, BTC Guild
 
 DeepBit, [26/2/2011](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0), Tycho
+
+BTC Guild, opérateur : Eleuthria, avril-mai 2011, [annonce sur le forum](https://bitcointalk.org/index.php?topic=7760.msg113180#msg113180) ([archive](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0)
 
 Inaba, Eclipse Mining Consortium, [juin 2011](https://bitcointalk.org/index.php?topic=16385.msg213722#msg213722)
 
@@ -957,13 +965,22 @@ Coopérative de minage chinoise 21bitcoin, juin 2011 : https://web.archive.org/
 
 Coopérative de minage pour Namecoin : [Bitparking, doublec, 18/5](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063)
 
-différents modes de paiement : PPS, etc.
+différents modes de paiement : PPS, PPLNS, etc. https://en.bitcoin.it/wiki/Comparison_of_mining_pools
+
+Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?)
 
 Dominance : https://web.archive.org/web/20110721162638/http://www.bitcoinwatch.com/ puis https://web.archive.org/web/20111219124912/http://blockchain.info/pools
 
+Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
+
+- [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
+- [blockchain.info, 20/1](https://web.archive.org/web/20120120152812/http://blockchain.info/pools), 144 blocs : 42 %, 13 %, 4 %
+- [blockorigin.pfoe.be, 18/3](https://web.archive.org/web/20120318030111/http://blockorigin.pfoe.be/), 2 016 blocs : 33,63 %, 11,90 %, 12,05 %
+- [blockchain.info, 7/4](https://web.archive.org/web/20120407204745/http://blockchain.info/pools), 144 blocs : 32 %, 15 %, 11 %
+
 ### Luke-Jr et Eligius
 
-Une cooopérative atypique est Éligius.
+Une cooopérative atypique est Eligius.
 
 Luke-Jr (ou Luke Dashjr, prononcé « dasheur ») est un personnage atypique de l'histoire de Bitcoin. Fervent catholique romain [sédévacantiste](https://dashjr.org/catholic/sedevacantist.php), il est marié et père d'une famille nombreuse (il a deux enfants en 2007 et en aura trois de plus en 2017). Il est programmeur dans le domaine du logiciel libre, ayant développé son propre système d'exploitation, appelé [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) et basé sur la distribution Gentoo.
 
@@ -1018,8 +1035,11 @@ Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au min
 
 BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
 
+### Ouverture
 
-# 2012
+ASIC, Butterfly Labs, Avalon
+
+Professionnalisation du minage
 
 ## La bataille pour Pay to Script Hash
 
@@ -1179,14 +1199,7 @@ Quelques jours plus tard, Gavin [expliquera](https://bitcointalk.org/index.php?t
 
 Un autre problème concerne l'activation de Pay to Script Hash en tant que telle. Pour que la mise à niveau soit rétrocompatible, il faut qu'une majorité du taux de hachage l'applique. Mais, à mesure que la fin du mois de janvier s'approche, les espoirs activer Pay to Script Hash s'amenuisent.
 
-À l'époque, la puissance de calcul se répartit entre une \[dizaine/vingtaine\] de coopératives de minage. Historique des coopératives. Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
-
-Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
-
-- [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
-- [blockchain.info, 20/1](https://web.archive.org/web/20120120152812/http://blockchain.info/pools), 144 blocs : 42 %, 13 %, 4 %
-- [blockorigin.pfoe.be, 18/3](https://web.archive.org/web/20120318030111/http://blockorigin.pfoe.be/), 2 016 blocs : 33,63 %, 11,90 %, 12,05 %
-- [blockchain.info, 7/4](https://web.archive.org/web/20120407204745/http://blockchain.info/pools), 144 blocs : 32 %, 15 %, 11 %
+À l'époque, la puissance de calcul se répartit entre une \[dizaine/vingtaine\] de coopératives de minage, et trois d'entre elles sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative DeepBit, gérée par le Russe \[?\] Tycho, est la coopérative dominante et possède à elle seule environ 30 % de la puissance de calcul du réseau au début de l'année 2012. Les deux autres naviguent quant à elles autour de 10–15 %.
 
 ![Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011](assets/en/blockchain-info-mining-pools-20111219.webp)
 
@@ -1237,6 +1250,8 @@ La bataille pour Pay to Script Hash a constitué la première discorde majeure d
 Cette « bataille » a démontré que le développement de Bitcoin n'était pas un long fleuve tranquille, à cause de son caractère ouvert et libre et des enjeux impliqués. Elle présageait ainsi un conflit autrement plus violent, qu'a été la guerre des blocs entre 2015 et 2017. Et elle ouvrait la question plus ardue de la gouvernance de Bitcoin.
 
 De plus, le débat sur l'évolution du protocole n'est pas la seule conséquence du caractère ouvert et libre de Bitcoin. Celui-ci permet aussi de mettre en œuvre des versions plus ou moins différentes de Bitcoin, en reprenant le code ou le concept, qu'on appellerait vite des « cryptomonnaies alternatives ». Ces cryptomonnaies alternatives, qui participent à leur manière à l'essor de Bitcoin, feront l'objet du prochain chapitre.
+
+# Les excès
 
 ## L'apparition des cryptomonnaies alternatives
 

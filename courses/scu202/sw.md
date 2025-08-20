@@ -6951,13 +6951,13 @@ Tumefika mwisho wa sura hii kuhusu mbinu bora za simu yako mahiri. Katika sura i
 <chapterId>e60773c6-ee96-47b2-a9fa-08d1bdbd1108</chapterId>
 
 
-Katika ulimwengu wa kisasa uliounganishwa, sehemu kubwa ya mabadilishano yetu ya kibinafsi, kitaaluma na nyeti hufanyika kupitia ujumbe wa kielektroniki. Hata hivyo, usiri wa mawasiliano haya hutofautiana sana kulingana na itifaki zinazotumiwa.
+Katika ulimwengu wa kisasa uliounganishwa, sehemu kubwa ya mabadilishano yetu ya kibinafsi, kitaaluma na nyeti hufanyika kupitia ujumbe wa kielektroniki. Hata hivyo, usiri wa mawasiliano haya hutofautiana sana kulingana na protocol zinazotumiwa.
 
 
 Katika sura hii, tutajaribu kuelewa masuala ya kiufundi na kiutendaji yanayohusika katika kutumia zana za mawasiliano ya kidijitali, ili kuchagua na kutumia zile zinazotoa ulinzi wa kweli dhidi ya usikilizaji na ufuatiliaji.
 
 
-### Kwa nini ujumbe wa SMS usilinde ubadilishanaji wako?
+### Kwa nini ujumbe wa SMS usilinde exchange yako?
 
 
 SMS (Short Message Service) imekuwa maarufu sana kihistoria kwa ubadilishanaji wa maandishi, lakini inatokana na protocol ya kizamani iliyoanzia mwishoni mwa miaka ya 1980. Protocol hii, iliyounganishwa katika viwango vya GSM (Global System for Mobile Communications), haitoi utaratibu wa usimbaji fiche wa end-to-end. Kwa vitendo, kila SMS inayotumwa hutumwa kwa maandishi wazi kupitia mitandao ya waendeshaji wa simu (wakati mwingine husimbwa kwenye radio Interface pekee, lakini kamwe si end-to-end). Hii ina maana kwamba maudhui ya ujumbe yanaweza kuingiliwa katika viwango kadhaa:
@@ -7114,7 +7114,7 @@ Keet, iliyozinduliwa mwaka 2022 na Holepunch (kampuni inayoungwa mkono na Tether
 ![Image](assets/fr/153.webp)
 
 
-Keet husimba mawasiliano yote kwa njia fiche kutoka mwisho hadi mwisho. Usajili haujulikani kabisa: hakuna nambari ya simu, barua pepe ya Address au kitambulisho kinachohitajika. Hii inahakikisha usiri ulioimarishwa kuanzia huduma inapowashwa. Simu za video ni za ubora wa juu zaidi, na uhamishaji wa faili hauna kikomo kwa saizi, na kuifanya inafaa kwa matumizi ya kitaalam na ya kibinafsi.
+Keet husimba mawasiliano yote kutoka mwisho hadi mwisho. Usajili ni wa kificho kabisa: hakuna nambari ya simu, barua pepe ya Address, au kitambulisho kinachohitajika. Hii inahakikisha usiri ulioimarishwa kuanzia huduma inapowashwa. Simu za video ni za ubora wa juu, na uhamishaji wa faili hauna kikomo kwa ukubwa, jambo linaloifanya ifae kwa matumizi ya kitaalamu na binafsi.
 
 
 Kwa upande mwingine, ingawa baadhi ya vipengele (cryptography na mitandao) huchapishwa kama chanzo huria kwenye GitHub, mteja wa Keet's Interface hakuwa wazi kabisa wakati wa kuandika SCU-202 (Mei 2025). Hata hivyo, Holepunch imetangaza nia yake ya kuchapisha msimbo wote katika siku zijazo.
@@ -7137,13 +7137,13 @@ Olvid, iliyozinduliwa mwaka wa 2019, ni huduma ya utumaji ujumbe iliyosimbwa kwa
 Kitaalamu, ujumbe kwenye Olvid husimbwa kwa njia fiche kutoka mwisho hadi mwisho, kwa kutumia itifaki ya umiliki iliyoundwa mahsusi kulinda sio tu maudhui ya ujumbe, lakini pia metadata: Hakuna mtu, ikiwa ni pamoja na seva kuu, anayeweza kujua ni nani anayewasiliana na nani, au wakati gani. Mtindo huu kwa kiasi kikubwa hupunguza hatari za ujasusi na ufuatiliaji.
 
 
-Hata hivyo, miundombinu ya seva inasalia kuwa ya umiliki na ya kati, inayopangishwa kwenye AWS (*Huduma za Wavuti za Amazon*). Nambari ya mteja imekuwa chanzo wazi kwa miaka kadhaa, lakini nambari ya seva haijachapishwa, ambayo inazuia uwazi wa kiufundi wa mfumo.
+Hata hivyo, miundombinu ya seva inabaki kuwa ya umiliki na ya kati, ikiwa imepangiwa kwenye AWS (Amazon Web Services). Nambari ya mteja imekuwa chanzo huria kwa miaka kadhaa, lakini nambari ya seva haijachapishwa, jambo linalozuia uwazi wa kiufundi wa mfumo b.
 
 
-Muundo wa usalama wa Olvid unatokana na kanuni muhimu: Kutokuwepo kabisa kwa wahusika wengine wanaoaminika katika uanzishaji wa vitambulisho vya kidijitali. Tofauti na mifumo mingi ya utumaji ujumbe iliyosimbwa kwa njia fiche, ambayo inategemea saraka ya kati kudhibiti utambulisho wa watumiaji, Olvid haitegemei miundombinu yoyote ya kati ili kuhakikisha uadilifu wa mawasiliano. Usanifu huu huondoa hatari zinazohusiana na maelewano ya saraka.
+Muundo wa usalama wa Olvid unatokana na kanuni muhimu: Kutokuwepo kabisa kwa wahusika wengine wanaoaminika katika uanzishaji wa vitambulisho vya kidijitali. Tofauti na mifumo mingi ya utumaji ujumbe uliyosimbwa kwa njia fiche, ambayo inategemea saraka ya kati kudhibiti utambulisho wa watumiaji, Olvid haitegemei miundombinu yoyote ya kati ili kuhakikisha uadilifu wa mawasiliano. Usanifu huu huondoa hatari zinazohusiana na maelewano ya saraka.
 
 
-Olvid hatumii seva kuu ya usambazaji wa ujumbe, lakini jukumu lake ni la vifaa kabisa: Inashughulikia uwasilishaji usio na usawa wa ujumbe uliosimbwa. Seva hii haihusiki katika hatua yoyote ya mchakato wa usimbaji fiche, na haijui utambulisho halisi wa watumiaji, wala maudhui au metadata ya ujumbe (isipokuwa ufunguo wa umma wa mpokeaji, unaohitajika kwa uelekezaji). Kwa hiyo inaweza kuchukuliwa kuwa chuki kwa chaguo-msingi, bila kuathiri usalama wa jumla. Hata kama ingeathiriwa, haingeruhusu ufikiaji wowote wa maudhui ya mawasiliano. Kwa hivyo, Olvid huchukua usambazaji wa ujumbe wa kati (kwa sababu za ufanisi na ubora wa huduma), huku akihakikisha usalama usiotegemea miundombinu hii.
+Olvid hatumii seva kuu ya usambazaji wa ujumbe, bali jukumu lake ni la vifaa pekee: inashughulikia uwasilishaji usio sawia wa ujumbe uliosimbwa. Seva hii haihusiki katika hatua yoyote ya mchakato wa usimbaji fiche, na haijui utambulisho halisi wa watumiaji, wala maudhui au metadata ya ujumbe (isipokuwa ufunguo wa umma wa mpokeaji unaohitajika kwa uelekezaji). Kwa hivyo, inaweza kuchukuliwa kuwa haina madhara kwa chaguo-msingi, bila kuathiri usalama wa jumla. Hata kama ingevunjwa, isingeruhusu ufikiaji wowote wa maudhui ya mawasiliano. Kwa hiyo, Olvid hutumia usambazaji wa ujumbe wa kati (kwa sababu za ufanisi na ubora wa huduma), huku akihakikisha usalama usiotegemea miundombinu hii.
 
 
 Olvid inatoa matoleo mawili:
@@ -7157,7 +7157,7 @@ Olvid inatoa matoleo mawili:
 Maombi yameidhinishwa na ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*).
 
 
-Olvid inaendana na Android, iOS, Windows, macOS na Linux. Ergonomics yake inabaki rahisi na kupatikana. Programu pia ina mfumo wa chelezo uliosimbwa kwa njia fiche kwa funguo na anwani, ili uweze kurejesha akaunti kwenye kifaa kipya.
+Olvid inaendana na Android, iOS, Windows, macOS na Linux. Ergonomics yake inabaki rahisi na kupatikana. Programu pia ina mfumo wa chelezo uliosimbwa kwa njia fiche kwa funguo na Address, ili uweze kurejesha akaunti kwenye kifaa kipya.
 
 
 https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
@@ -7197,13 +7197,13 @@ Hapa kuna jedwali la muhtasari wa programu kuu zilizopo za utumaji ujumbe na vip
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
-*E2EE = Usimbaji fiche kutoka mwisho hadi mwisho*
+*E2EE = End-to-End Encryption*
 
 
 Usalama wa mawasiliano yako ya kielektroniki unategemea zaidi ya yote juu ya kuchagua programu sahihi na kufuata mazoea bora. Kuelewa mifumo ya msingi ya usalama, kutambua dosari katika suluhu za kawaida na kuchagua njia mbadala zinazotegemeka ni misingi muhimu ya kuwasiliana bila kusikilizwa.
 
 
-Kufikia sasa, tumechunguza jinsi ya kulinda simu yako mahiri na jinsi ya kuchagua programu inayoaminika ya kutuma ujumbe. Katika sura inayofuata, ninapendekeza kupanua utafiti huu kwa familia zote kuu za programu za simu, ili kupata njia mbadala za ufaragha kwa programu zako uzipendazo. Iwe ni barua pepe, hifadhi ya faili, ramani, video au utiririshaji wa muziki, ni programu gani huria zinazopatikana kwako?
+Kufikia sasa, tumechunguza jinsi ya kulinda simu yako mahiri na jinsi ya kuchagua programu inayoaminika ya kutuma ujumbe. Katika sura inayofuata, ninapendekeza kupanua utafiti huu kwa familia kuu zote za programu za simu, ili kupata mbadala za faragha kwa programu unazozipenda. Iwe ni barua pepe, hifadhi ya faili, ramani, video au utiririshaji wa muziki, ni programu zipi huria zinazopatikana kwako?
 
 
 ## programu huria: njia mbadala bora
@@ -7212,7 +7212,7 @@ Kufikia sasa, tumechunguza jinsi ya kulinda simu yako mahiri na jinsi ya kuchagu
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
 
-Zaidi ya programu za utumaji ujumbe wa papo hapo, ni muhimu kukumbuka kuwa programu zingine kwenye simu yako mahiri zinaweza kutumia data yako kwa madhumuni ya kibiashara. Kwa bahati nzuri, kuna njia mbadala za chanzo huria zinazoheshimu faragha yako. Hilo ndilo ningependa kukujulisha katika sura hii.
+Zaidi ya programu za utumaji ujumbe wa papo hapo, ni muhimu kukumbuka kwamba programu zingine kwenye simu yako mahiri zinaweza kutumia data yako kwa madhumuni ya kibiashara. Kwa bahati nzuri, kuna mbadala za chanzo huria zinazoheshimu faragha yako. Hilo ndilo ningependa kukuonyesha katika sura hii.
 
 
 Sitarudi nyuma juu ya njia mbadala za vivinjari na wajumbe wa papo hapo, kwa kuwa tayari tumezishughulikia kwa kina katika sura zilizopita.
@@ -7277,10 +7277,10 @@ Proton Mail ni huduma salama ya utumaji ujumbe ya Uswizi inayotoa usimbaji fiche
 ![Image](assets/fr/159.webp)
 
 
-Mfumo wa barua pepe unategemea vipengele 2 tofauti: Mtoa huduma wa barua pepe (kama vile Gmail, Tuta au Proton Mail), ambayo hushughulikia kupokea, kutuma na kuhifadhi ujumbe kupitia seva; na mteja wa barua pepe, ambayo ni programu inayotumiwa kutazama na kuandika barua pepe zako (kama vile Gmail programu, Outlook, K-9 Mail au Thunderbird). Mteja anaweza kuunganisha kwa watoa huduma tofauti kupitia itifaki za kawaida kama vile IMAP au SMTP.
+Mfumo wa barua pepe unategemea vipengele viwili tofauti: mtoa huduma wa barua pepe (kama Gmail, Tuta au Proton Mail), anayeshughulikia kupokea, kutuma na kuhifadhi ujumbe kupitia seva; na mteja wa barua pepe, ambayo ni programu inayotumika kutazama na kuandika barua pepe zako (kama Gmail app, Outlook, K-9 Mail au Thunderbird). Mteja anaweza kuunganishwa na watoa huduma mbalimbali kupitia itifaki za kawaida kama IMAP au SMTP.
 
 
-Kwa hivyo inawezekana kutumia mteja wa programu huria ambayo ni rafiki wa faragha huku mwanzoni ukidumisha akaunti na mtoa huduma wa kitamaduni. Baadhi ya programu, kama vile Gmail, Proton Mail au Tuta, hutoa wateja wa barua pepe ambao pia hufanya kama mtoaji ujumbe, na hivyo kutoa suluhisho kamili la kuunganisha huduma ya Interface ya kusoma na kutuma/kupokea barua pepe.
+Mfumo wa barua pepe unategemea vipengele viwili tofauti: mtoa huduma wa barua pepe (kama Gmail, Tuta au Proton Mail), anayeshughulikia kupokea, kutuma na kuhifadhi ujumbe kupitia seva; na mteja wa barua pepe, ambayo ni programu inayotumika kutazama na kuandika barua pepe zako (kama Gmail app, Outlook, K-9 Mail au Thunderbird). Mteja anaweza kuunganishwa na watoa huduma mbalimbali kupitia itifaki za kawaida kama IMAP au SMTP.
 
 
 Hapa kuna mapendekezo machache, ambapo unachagua mtoaji wako wa barua pepe:
@@ -7320,7 +7320,7 @@ Haina utangazaji, ufuatiliaji au ukusanyaji wa data. Programu hii inafaa sana kw
 - [OsmAnd](https://osmand.net/)
 
 
-OsmAnd (*OpenStreetMap Maelekezo ya Urambazaji ya Kiotomatiki*) ni programu nyingine pana ya ramani ya chanzo huria. Inatoa urambazaji wa GPS nje ya mtandao, ramani za kina (pamoja na njia, njia za baiskeli na muundo wa ardhi), na ubinafsishaji wa kina.
+OsmAnd (OpenStreetMap Automated Navigation Directions) ni programu nyingine ya kina ya ramani ya chanzo huria. Inatoa urambazaji wa GPS nje ya mtandao, ramani za kina (ikiwemo njia, njia za baiskeli na muundo wa ardhi), pamoja na kiwango cha juu cha ubinafsishaji.
 
 
 Unaweza kuwezesha safu tofauti (eneo la watembea kwa miguu, usafiri wa umma, n.k.), kufafanua arifa za kasi au kuunganisha ramani maalum kama zile za kupanda kwa miguu au njia za baharini.
@@ -7364,7 +7364,7 @@ ONLYOFFICE ni ofisi ya chanzo huria. Inakuruhusu kufungua na kuhariri hati za Wo
 ![Image](assets/fr/163.webp)
 
 
-### Kidhibiti faili na wingu
+### File manager na cloud
 
 
 Huduma kama vile Hifadhi ya Google au Dropbox huhifadhi faili zako kwenye seva za mbali za makampuni ya kibinafsi. Data yako inaweza kuchanganuliwa na kutumika kwa madhumuni ya utangazaji au takwimu. Zaidi ya hayo, unahitaji muunganisho wa Mtandao na akaunti ya watu wengine ili kuzifikia.
@@ -7377,7 +7377,7 @@ Huduma kama vile Hifadhi ya Google au Dropbox huhifadhi faili zako kwenye seva z
 - [Nextcloud](https://nextcloud.com/)
 
 
-Nextcloud ni suluhisho la wingu la kibinafsi la chanzo huria ambalo unaweza kujipangisha mwenyewe au kutumia kupitia mtoa huduma anayeaminika. Inakuruhusu kusawazisha, kushiriki na kuhariri faili zako kutoka kwa simu mahiri yako, huku ukihifadhi udhibiti kamili wa hifadhi yao.
+Nextcloud ni suluhisho la cloud kibinafsi la chanzo huria ambalo unaweza kujipangisha mwenyewe au kutumia kupitia mtoa huduma anayeaminika. Inakuruhusu kusawazisha, kushiriki na kuhariri faili zako kutoka kwa simu mahiri yako, huku ukihifadhi udhibiti kamili wa hifadhi yao.
 
 
 Kwenye Android, unaweza kusakinisha programu rasmi ya simu ya Nextcloud ili kufikia wingu lako la kibinafsi ukiwa popote. Unaweza pia kuongeza vitendaji kama vile usimamizi wa picha, ofisi, kalenda na ujumbe.
@@ -7390,7 +7390,7 @@ Kwenye Android, unaweza kusakinisha programu rasmi ya simu ya Nextcloud ili kufi
 - [Faili Nyenzo](https://github.com/zhanghai/MaterialFiles)
 
 
-Faili za Nyenzo ni kidhibiti cha faili huria ambacho ni nyepesi na kisicho na vitu vingi. Inakuruhusu kuvinjari, kusogeza, kunakili au kufuta faili ndani ya kifaa chako cha Android.
+Faili za Nyenzo ni kidhibiti faili huria, chepesi na kisicho na vitu vingi. Inakuruhusu kuvinjari, kusogeza, kunakili au kufuta faili ndani ya kifaa chako cha Android.
 
 
 Programu haina matangazo au vifuatiliaji, na haihitaji ruhusa za matumizi mabaya. Ni njia mbadala ya kuvutia kwa kichunguzi cha faili kilichotolewa na Google, mara nyingi hujumuishwa katika huduma zingine za umiliki za wingu.
@@ -7412,7 +7412,7 @@ Watu wengi hutumia programu kama vile Kalenda ya Google au Kalenda ya Outlook ku
 - [Etar](https://github.com/Etar-Group/Etar-Calendar)
 
 
-Etar ni kalenda rahisi, yenye ufanisi na huria kabisa. Inaweza kuendeshwa ndani ya nchi, lakini pia inaruhusu ulandanishi kupitia CalDAV, itifaki ya kawaida ya kusawazisha kalenda na huduma zinazofaa kwa faragha (kama vile Nextcloud au EteSync).
+Etar ni kalenda rahisi, yenye ufanisi na huria kabisa. Inaweza kuendeshwa ndani ya nchi, lakini pia inaruhusu ulandanishi kupitia CalDAV, protocol ya kawaida ya kusawazisha kalenda na huduma zinazofaa kwa faragha (kama vile Nextcloud au EteSync).
 
 
 ![Image](assets/fr/166.webp)
@@ -7422,7 +7422,7 @@ Etar ni kalenda rahisi, yenye ufanisi na huria kabisa. Inaweza kuendeshwa ndani 
 - [Kalenda Rahisi](https://simplemobiletools.com/simplecalendar/)
 
 
-Programu hii ni sehemu ya "*Zana Rahisi za Simu*". Haihitaji ufikiaji wa akaunti au mtandao, na kuifanya kuwa bora kwa matumizi ya nje ya mtandao kabisa. Unaweza kuongeza matukio, kuweka vikumbusho na kupanga maoni kwa siku, wiki au mwezi. Kama ilivyo kwa kundi lingine, Kalenda Rahisi haina matangazo, haina kifuatiliaji na programu huria 100%.
+Programu hii ni sehemu ya "Simple Mobile Tools". Haihitaji ufikiaji wa akaunti au mtandao, na kuifanya kuwa bora kwa matumizi ya nje ya mtandao kabisa. Unaweza kuongeza matukio, kuweka vikumbusho na kupanga ratiba kwa siku, wiki au mwezi. Kama ilivyo kwa zingine katika kundi hili, Kalenda Rahisi haina matangazo, haina vifuatiliaji na ni programu huria kwa 100%.
 
 
 ![Image](assets/fr/167.webp)
@@ -7442,7 +7442,7 @@ Kalenda ya Tuta, iliyotengenezwa na timu iliyo nyuma ya Tuta Mail, ni kalenda il
 - [Kalenda ya Protoni](https://proton.me/calendar)
 
 
-Kalenda ya Protoni pia hutoa usimbaji fiche wa mwanzo hadi mwisho kwa matukio yako na metadata yao. Inapatikana kwenye simu ya mkononi (Android, iOS) na kupitia mteja wa wavuti, kwa kutumia Interface iliyo wazi na angavu. Huduma huwezesha uundaji wa kalenda nyingi, kuagiza/kusafirisha nje matukio na chaguzi za kushiriki. Mteja wa wavuti ni chanzo-wazi, lakini programu za simu bado hazijawa wazi kabisa.
+Kalenda ya Proton pia hutoa usimbaji fiche kutoka mwisho hadi mwisho kwa matukio yako na metadata yake. Inapatikana kwenye simu za mkononi (Android, iOS) na kupitia mteja wa wavuti, kwa Interface iliyo wazi na angavu. Huduma hii huwezesha uundaji wa kalenda nyingi, uagizaji/usalishaji wa matukio na chaguo za kushiriki. Mteja wa wavuti ni chanzo huria, lakini programu za simu bado hazijawa wazi kabisa.
 
 
 ![Image](assets/fr/169.webp)
@@ -7505,7 +7505,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - [KeePassDX](https://www.keepassdx.com/)
 
 
-KeePass ni kidhibiti cha nenosiri cha kihistoria kulingana na faili za ndani zilizosimbwa kwa njia fiche. Kwenye simu ya mkononi, KeePassDX ni utekelezaji bora wa Android, unaoendana na hifadhidata zote za KeePass. Inafanya kazi nje ya mtandao, bila wingu, na kuifanya kuwa suluhisho nzuri kwa wale wanaotaka kuweka data yao 100% ya ndani.
+KeePass ni kidhibiti cha nenosiri cha kihistoria kinachotegemea faili za ndani zilizosimbwa. Kwenye simu ya mkononi, KeePassDX ni utekelezaji bora wa Android, unaoendana na hifadhidata zote za KeePass. Inafanya kazi nje ya mtandao, bila wingu, na kuifanya kuwa suluhisho bora kwa wale wanaotaka kuweka data yao 100% ya ndani.
 
 
 ![Image](assets/fr/172.webp)
@@ -7542,7 +7542,7 @@ Walakini, sio VPN zote zinaundwa sawa. Huduma maarufu kama NordVPN au ExpressVPN
 - [Mullvad VPN](https://mullvad.net/)
 
 
-Mullvad ni mojawapo ya VPN bora katika suala la ulinzi wa faragha. Haihitaji barua pepe au nenosiri: Akaunti yako imeunganishwa kwa nambari rahisi ya nasibu. Malipo yanaweza kufanywa kwa bitcoins au pesa taslimu. Kiteja cha simu ni chanzo huria, ni rahisi kutumia na chenye nguvu. Mullvad haiweki kumbukumbu, haifuatilii watumiaji wake, na huchapisha ukaguzi huru wa usalama mara kwa mara.
+Mullvad ni mojawapo ya VPN bora zaidi katika ulinzi wa faragha. Haihitaji barua pepe au nenosiri: akaunti yako inaunganishwa na nambari rahisi ya nasibu. Malipo yanaweza kufanywa kwa Bitcoin au pesa taslimu. Mteja wa simu ni chanzo huria, rahisi kutumia na wenye nguvu. Mullvad haihifadhi kumbukumbu, haifuatilii watumiaji wake, na huchapisha ukaguzi huru wa usalama mara kwa mara.
 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -7569,7 +7569,7 @@ VPN hii, iliyoundwa na timu ya Proton, inatoa mpango wa bure, bila matangazo. Pr
 ### Uthibitishaji wa 2FA
 
 
-Uthibitishaji wa vipengele viwili (2FA) ni Layer ya ziada ya usalama juu ya nenosiri lako. Mara nyingi hutegemea msimbo wa wakati mmoja unaozalishwa kila sekunde 30 na programu ya uthibitishaji. Msimbo huu unatokana na siri iliyoshirikiwa kati ya kifaa chako na huduma ya mtandaoni, kulingana na itifaki ya TOTP (*Nenosiri la Wakati Mmoja*) linalolingana na Wakati. Programu inayojulikana zaidi ni Kithibitishaji cha Google, lakini si chanzo huria na hukufanya utegemee mfumo ikolojia wa Google.
+Uthibitishaji wa vipengele viwili (2FA) ni safu ya ziada ya usalama juu ya nenosiri lako. Mara nyingi hutegemea msimbo wa muda mmoja unaozalishwa kila sekunde 30 na programu ya uthibitishaji. Msimbo huu unatokana na siri iliyoshirikiwa kati ya kifaa chako na huduma ya mtandaoni, kwa mujibu wa itifaki ya TOTP (Time-Based One-Time Password). Programu inayojulikana zaidi ni Google Authenticator, lakini si chanzo huria na hukufanya utegemee mfumo ikolojia wa Google.
 
 
 **Njia Mbadala**:
@@ -7589,10 +7589,10 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 - [Ente Auth](https://ente.io/auth/)
 
 
-Ente Auth ni suluhisho la kisasa, la chanzo huria, la mifumo mingi na chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Unaweza pia kuitumia nje ya mtandao, bila kuhifadhi nakala ya wingu au kuunda akaunti.
+Ente Auth ni suluhisho la kisasa, la chanzo huria, linalopatikana kwenye mifumo mingi na lenye chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Pia unaweza kuitumia nje ya mtandao, bila kuhifadhi nakala kwenye wingu au kuunda akaunti.
 
 
-Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzwa kukufaa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, kushiriki msimbo salama wa timu.
+Ente Auth inatoa vipengele vingi vya ziada: upangaji kwa lebo, aikoni zinazoweza kubinafsishwa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, na kushiriki misimbo kwa usalama timu.
 
 
 ![Image](assets/fr/176.webp)
@@ -7602,7 +7602,7 @@ Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzw
 - [Uhalali](https://www.authy.com/)
 
 
-Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, ambavyo vinaweza kusaidia, lakini programu si chanzo huria na inahitaji nambari ya simu kwa usajili. Kwa wanaoanza, hata hivyo, ni kamili zaidi kuliko Kithibitishaji cha Google, shukrani haswa kwa kazi yake ya kuhifadhi nakala ya wingu.
+Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, jambo ambalo linaweza kusaidia, lakini programu hii si chanzo huria na inahitaji nambari ya simu kwa usajili. Hata hivyo, kwa wanaoanza, ni kamili zaidi kuliko Google Authenticator, hasa kutokana na kipengele chake cha kuhifadhi nakala kwenye wingu.
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -7614,8 +7614,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Hali ya hewa
 
-
-Programu za hali ya hewa ya awali kama vile AccuWeather au Météo France mara nyingi hukusanya data ya kibinafsi, ikijumuisha eneo mahususi lako, tabia za matumizi na wakati mwingine hata vitambulishi vya vifaa, kwa madhumuni ya kibiashara au utangazaji. Huduma hizi pia zinategemea API za umiliki za kati, zikiweka kikomo udhibiti wako juu ya data inayoonyeshwa au kupitishwa.
+Programu za hali ya hewa za kawaida kama AccuWeather au Météo France mara nyingi hukusanya data ya kibinafsi, ikiwemo eneo lako halisi, tabia za matumizi na wakati mwingine hata vitambulishi vya vifaa, kwa madhumuni ya kibiashara au matangazo. Huduma hizi pia zinategemea API za umiliki za kati, na hivyo kupunguza udhibiti wako juu ya data inayoonyeshwa au kusambazwa.
 
 
 **Njia Mbadala**:
@@ -7625,7 +7624,7 @@ Programu za hali ya hewa ya awali kama vile AccuWeather au Météo France mara n
 - [Hali ya hewa ya kijiometri](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
-Hali ya hewa ya kijiometri inatoa utabiri wa kina na wijeti zinazoweza kugeuzwa kukufaa, zote bila utangazaji au ukusanyaji wa data unaoingilia kati. Nambari yake ni chanzo wazi. Programu inasaidia watoa huduma kadhaa wa hali ya hewa.
+Hali ya Hewa ya Kijiometri inatoa utabiri wa kina na wijeti zinazoweza kubinafsishwa, bila matangazo au ukusanyaji wa data unaoingilia faragha. Nambari yake ni chanzo huria. Programu hii inasaidia watoa huduma kadhaa wa hali ya hewa.
 
 
 ![Image](assets/fr/177.webp)
@@ -7700,7 +7699,7 @@ Funkwhale ni jukwaa lililogatuliwa la kushiriki na kusikiliza muziki, na wateja 
 ### Kibodi
 
 
-Kibodi pepe kama vile Gboard ya Google au SwiftKey ya Microsoft zinapatikana kila mahali kwenye simu mahiri. Hata hivyo, huleta hatari kubwa za faragha: Kila herufi iliyochapwa inaweza kinadharia kurekodiwa, kuchambuliwa au kutumwa kwa seva za mbali. Hata kama makampuni haya yanadai kuficha data, ukusanyaji bado unawezekana.
+Virtual keyboard kama Gboard ya Google au SwiftKey ya Microsoft zinapatikana kila mahali kwenye simu mahiri. Hata hivyo, zinahusisha hatari kubwa za faragha: kila herufi unayoandika inaweza, kinadharia, kurekodiwa, kuchambuliwa au kutumwa kwenye seva za mbali. Hata kama makampuni haya yanadai kuficha data, ukusanyaji bado unawezekana.
 
 
 **Njia Mbadala**:
@@ -7710,14 +7709,14 @@ Kibodi pepe kama vile Gboard ya Google au SwiftKey ya Microsoft zinapatikana kil
 - [Openboard](https://github.com/dslul/openboard)
 
 
-OpenBoard ni kibodi ya Android isiyo na kiwango cha chini, ya chanzo huria kulingana na kibodi ya AOSP (*Mradi huria wa Android*). Haina vipengele vya umiliki au vifuatiliaji, na haiwasiliani kamwe na seva za mbali. Usahihishaji kiotomatiki, uandishi wa ubashiri na kamusi ya kibinafsi hufanya kazi ndani ya nchi pekee.
+OpenBoard ni virtual keyboard ya Android isiyo na mzigo, ya chanzo huria, inayotokana na kibodi ya AOSP (Android Open Source Project). Haina vipengele vya umiliki au vifuatiliaji, na haiwasiliani kamwe na seva za mbali. Usahihishaji wa kiotomatiki, uandishi wa ubashiri na kamusi ya kibinafsi hufanya kazi ndani ya kifaa pekee.
 
 
 
 - [FlorisBoard](https://florisboard.org/)
 
 
-FlorisBoard inatoa mbinu ya kisasa zaidi, ya kawaida. Pia chanzo huria, inaunganisha vitendaji vya juu kama vile uingizaji wa ishara, mpangilio wa ufunguo uliobinafsishwa na usimamizi wa lugha nyingi. Usindikaji wote wa data unafanywa ndani ya nchi, bila uhusiano na seva za nje. FlorisBoard bado inatengenezwa, lakini tayari inatumika kikamilifu kila siku kwa wale wanaotaka kibodi yenye nguvu bila kuacha faragha yao.
+FlorisBoard inatoa mbinu ya kisasa na rahisi zaidi. Pia ni chanzo huria, na inajumuisha vipengele vya hali ya juu kama uingizaji wa ishara, mpangilio wa funguo unaoweza kubinafsishwa na usimamizi wa lugha nyingi. Usindikaji wote wa data unafanywa ndani ya kifaa, bila muunganisho wowote na seva za nje. FlorisBoard bado ipo katika maendeleo, lakini tayari inatumika kikamilifu kila siku kwa wale wanaotaka virtual keyboard yenye nguvu bila kuacha faragha yao.
 
 
 ![Image](assets/fr/182.webp)

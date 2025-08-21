@@ -2198,106 +2198,106 @@ One of `nmap`'s advantages is its ability to scan an entire range of addresses w
 nmap 192.168.0.0/24
 ```
 
-In this example, all hosts in the range `192.168.0.0` to `192.168.0.255` will be queried. The result will show, for each IP address, the list of open ports, their status (open, filtered...), and if possible, the name of the corresponding service.
+In this case, all hosts in the range `192.168.0.0` to `192.168.0.255` will be queried. For each IP address, the results list the open ports, their status (open, filtered, etc.), and, when possible, the name of the corresponding service.
 
 
 ![Image](assets/fr/055.webp)
 
 
-An administrator can use `nmap` for several tasks:
-- Detection of active hosts: by scanning a subnet, we identify the machines that respond to a request;
-- Inventory of exposed services: useful for checking that only necessary ports are accessible (principle of least privilege);
-- Compliance check: compare open ports with network security policy ;
-- Vulnerability prevention: identify insecure or obsolete services open on critical machines.
+An administrator can rely on `nmap` for several tasks:
+- **Detecting active hosts**: identify which machines respond within a subnet;
+- **Service inventory**: ensure only the necessary ports are accessible (principle of least privilege);
+- **Compliance check**: compare open ports against the organization's security policy;
+- **Vulnerability prevention**: spot insecure or outdated services running on critical machines.
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Process interrogation tools
 
-One of the most powerful tools available to Linux administrators is the `lsof` (*List Open Files*) command, for in-depth analysis of active processes and open files on a system, particularly in a network context. Contrary to what its name might suggest, `lsof` is not limited to classic files: in the UNIX system, everything is considered a file, including network sockets, peripherals, communication channels...
+For in-depth analysis of active processes and open files, especially in a networking context, Linux administrators often turn to the `lsof` (*List Open Files*) command. Despite its name, `lsof` is not limited to traditional files: on UNIX systems, everything is considered a file, including network sockets, devices, and communication channels.
 
-This tool therefore provides a cross-sectional view of the system, cross-referencing information on active processes, open network ports, files handled and users involved.
+This tool therefore provides a cross-sectional view of the system by correlating active processes, open network ports, accessed files, and the users involved.
 
-#### Network analysis with `lsof
+#### Network analysis with `lsof`
 
-The `-i` option allows you to restrict output to network connections, whether TCP, UDP, IPv4 or IPv6. It is useful for quickly observing which processes are interacting with the network:
+The `-i` option restricts the output to network connections (TCP, UDP, IPv4, or IPv6). This makes it easy to see which processes are communicating over the network:
 
 ```bash
 lsof -i
 ```
 
-This type of command lists all running processes using a network socket, with information on the port used, the protocol (TCP/UDP), the connection status, as well as the PID and corresponding user.
+This command lists all running processes using a network socket, showing the port in use, protocol (TCP/UDP), connection state, as well as the PID and associated user.
 
 #### Filtering by IP address or port
 
-To refine the search, you can specify an IP address and a port. This makes it possible to isolate a specific network flow, for example an SMTP communication (port 25) with a given machine:
+You can refine searches by specifying an IP address and a port, isolating a particular network flow. For example, to check an SMTP session (port 25) with a specific host:
 
 ```bash
 lsof -n -i @192.168.2.1:25
 ```
 
-This will display only active network connections with host `192.168.2.1` on port 25, which can be useful for diagnosing suspicious activity or SMTP blocking.
+This will display only active network connections with host `192.168.2.1` on port 25, useful for diagnosing suspicious activity or SMTP flow issues.
 
 #### Device access tracking
 
-One of the great advantages of `lsof` is its ability to monitor the use of special files, such as disk partitions. For example, you can find out which processes have opened files on the `/dev/sda1` partition:
+Another strength of `lsof` is tracking special files such as disk partitions. For instance, to check which processes have opened files on `/dev/sda1`:
 
 ```bash
 lsof /dev/sda1
 ```
 
-This is useful when a dismount attempt fails because the device is still in use, or when trying to understand which applications are accessing a given partition.
+This is handy when an unmount attempt fails because the device is still in use, or when investigating which applications are accessing a partition.
 
 #### Cross-analysis: process and network
 
-You can combine several options to obtain precise information on the resources opened by a specific process. For example, to find out all the network ports opened by the process with PID 1521 :
+Options can be combined for precise insights. For example, to see all network ports opened by a process with PID 1521:
 
 ```bash
 lsof -i -a -p 1521
 ```
 
-The `-a` option performs an intersection of criteria (here: `-i` and `-p`), thus limiting the display to network connections belonging to this process alone.
+The `-a` option intersects criteria (`-i` and `-p`), restricting the output to only network connections of that process.
 
 #### Multi-user tracking
 
-Finally, `lsof` can also be used to analyze the behavior of one or more users, by listing all files opened by them, possibly filtering by PID :
+`lsof` can also be used to analyze activity by specific users, listing all the files they've opened, optionally filtered by PID:
 
 ```bash
 lsof -p 1521 -u 500,phil
 ```
 
-This command can be used, for example, to find out which files or network connections are being used by user `phil` or UID 500, for process 1521.
+This shows the files or network connections used by user `phil` or UID 500, limited to process 1521.
 
-### Part summary
+### Section Summary
 
-By the end of this final section, we have explored a wide range of tools that are indispensable for diagnosing, analyzing and administering computer networks. This study, organized around the different layers of the TCP/IP model, not only provides a better understanding of how network communications work, but also a rigorous methodology for identifying, locating and resolving potential problems.
+In this final section, we've explored a wide range of indispensable tools for diagnosing, analyzing, and administering computer networks. Structured around the layers of the TCP/IP model, this study not only clarifies how network communications work but also establishes a rigorous methodology for identifying, isolating, and resolving potential issues.
 
-These tools provide administrators with a coherent set of technical levers for monitoring network status, analyzing flows, auditing connections and rapidly intervening on faulty equipment or services.
+These tools give administrators a coherent set of technical levers to monitor network health, analyze traffic, audit connections and quickly intervene on faulty equipment or services.
 
 #### Network Access Layer
 
-These utilities provide direct visibility of interfaces and frames:
-- arp / ip neigh**: inspect and modify the ARP/NDP cache to check or correct IP-MAC associations;
-- tcpdump**: filterable and exportable command-line capture of packets circulating on a Interface ;
-- Wireshark**: in-depth graphical decoding of frames for ;
-- ethtool**: dynamic interrogation and adjustment of Ethernet card physical parameters (speed, duplex, WoL, etc.).
+Tools providing direct visibility into interfaces and frames:
+- **arp / ip neigh**: inspect and modify the ARP/NDP cache to check or correct IP-MAC associations;
+- **tcpdump**: command-line packet capture, filterable and exportable;
+- **Wireshark**: graphical packet analysis with deep protocol decoding;
+- **ethtool**: query and adjust Ethernet card physical parameters (speed, duplex, WoL, etc.).
 
 #### Network layer
 
-Here we evaluate IP connectivity, routing and packet flow:
-- ping**: reachability test and latency measurement via ICMP ;
-- ip route**: consult and manipulate the routing table to control the paths taken ;
-- traceroute**: hop-by-hop identification of routers traversed to destination;
-- ss**: precise inventory of TCP/UDP sockets and associated processes (replaces netstat).
+Tools for assessing IP connectivity, routing, and packet traffic:
+- **ping**: test reachability and measure latency with ICMP;
+- **ip route**: inspect and modify the routing table to control packet paths;
+- **traceroute**: hop-by-hop identification of routers along the route to a destination;
+- **ss**: detailed inventory of TCP/UDP sockets and associated processes (successor to netstat).
 
 #### Transport and Application layers
 
-At higher levels, the aim is to diagnose services and processes:
-- nslookup / dig / host**: DNS queries to validate name resolution and analyze ;
-- nmap**: explore open ports and exposed services to assess the attack surface;
-- lsof**: inventory of files and sockets opened by processes, to correlate system and network activities.
+Tools for diagnosing services and processes:
+- **nslookup / dig / host**: DNS queries to validate name resolution and analyze records;
+- **nmap**: explore open ports and exposed services to assess attack surface;
+- **lsof**: list files and sockets opened by processes, correlating system and network activity.
 
-Mastery of these tools, each dedicated to a specific stage of the TCP/IP model, enables a methodical approach to be adopted: from the physical layer, through routing, right up to application services. This chain of expertise gives administrators the ability to diagnose, secure and optimize the infrastructure, thus guaranteeing network performance and availability.
+Mastering these tools, each aligned with a specific stage of the TCP/IP model, enables a methodical approach: starting from the physical layer, moving through routing, and up to application services. This chain of expertise equips administrators to diagnose, secure and optimize their infrastructure, ensuring both network performance and availability.
 
 # Final part
 

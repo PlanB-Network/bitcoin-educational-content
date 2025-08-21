@@ -80,9 +80,13 @@ Comme le décrit Satoshi Nakamoto, son créateur, Bitcoin se présente comme un 
 
 Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
 
+047
+
 Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open-source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
+
+048
 
 On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses pour la suite de ce cours :
 - La monnaie bitcoin : l’unité de compte utilisée pour les transactions au sein de ce système ;
@@ -108,6 +112,8 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://b
 
 La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un mineur, le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
 
+049
+
 Le nœud conserve également, en local, l’ensemble des UTXOs existants à un instant donné : il s’agit de ce que l’on appelle l’**UTXO set**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
 
 #### Vérifier et diffuser les transactions
@@ -117,11 +123,15 @@ Le deuxième rôle d’un nœud est d’assurer la vérification et la propagati
 - la signature doit être valide, et toutes les conditions de dépense doivent être respectées (script valide) ;
 - le montant total des outputs ne doit pas dépasser celui des inputs, ce qui signifie que les frais ne peuvent être négatifs…
 
+050
+
 Après validation, la transaction est enregistrée dans la mempool du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de diffusion et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première confirmation.
 
 #### Vérifier et diffuser les blocs
 
 Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
+
+051
 
 ## Quelle est la différence entre un nœud et un portefeuille ?
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
@@ -137,6 +147,8 @@ Un portefeuille Bitcoin, quant à lui, est un logiciel dont la vocation premièr
 
 Dans certains cas, ces deux fonctions coexistent au sein d’un même logiciel, comme c’est le cas de Bitcoin Core qui fait office à la fois de nœud complet et de portefeuille. Toutefois, beaucoup de logiciels de portefeuilles populaires (Sparrow, BlueWallet, etc.) doivent être connectés à un nœud externe (qu’il s’agisse du vôtre ou de celui d’un tiers) pour diffuser les transactions et connaitre le solde du portefeuille.
 
+052
+
 ## Quelle est la différence entre un nœud et un mineur ?
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
@@ -145,6 +157,8 @@ Les notions de nœud et de mineur sont souvent confondues. Pourtant, ces deux é
 Initialement, lorsque Bitcoin fut lancé par Satoshi Nakamoto en 2009, chaque utilisateur était censé participer au réseau dans sa globalité. Ainsi, le logiciel Bitcoin original combinait plusieurs fonctions à la fois : il faisait office de portefeuille, de nœud et également de mineur, capable de générer de nouveaux blocs. À cette période, la difficulté de minage était très basse. Il suffisait alors de faire fonctionner le logiciel Bitcoin sur son ordinateur pour trouver des blocs et recevoir des bitcoins en récompense.
 
 Cependant, avec la popularisation progressive de Bitcoin et l'augmentation du nombre de mineurs, la concurrence dans le minage a radicalement changé la donne. Aujourd’hui, le minage est devenu une activité extrêmement compétitive, dominée par des acteurs industriels équipés d’infrastructures spécialisées. La puissance nécessaire pour miner un nouveau bloc est désormais si importante qu'il est pratiquement impossible pour un utilisateur particulier d'y parvenir en utilisant uniquement un ordinateur classique. Ainsi, le minage se fait désormais essentiellement à l'aide de machines spécialisées appelées ASIC (*Application Specific Integrated Circuits*). Ces puces sont optimisées exclusivement pour exécuter du double SHA-256, l'algorithme utilisé pour le minage sur Bitcoin.
+
+053
 
 Face à cette évolution, le rôle du nœud Bitcoin et celui du mineur se sont clairement distingués. Comme vu précédemment, le rôle du nœud Bitcoin est purement informationnel et validateur. Le rôle du mineur est différent :
 - Il sélectionne les transactions en attente dans la mempool ;
@@ -155,6 +169,8 @@ Face à cette évolution, le rôle du nœud Bitcoin et celui du mineur se sont c
 Un mineur a en effet obligatoirement besoin d'un nœud Bitcoin afin d'interagir avec le réseau.
 
 On différencie également parfois le rôle du mineur de celui du hacheur. Un hacheur est une machine qui a pour tâche de hacher des blocs templates fournis par le serveur d'une pool, en recherchant des hachages qui satisfont la cible de difficulté définie pour les shares, et non celle de Bitcoin. Le reste du processus de minage, qui inclut la construction effective des blocs, la sélection des transactions ou la recherche de la preuve de travail selon la difficulté propre à Bitcoin, ainsi que la diffusion, est effectué directement par les pools.
+
+054
 
 Enfin, il y a une différence fondamentale en termes d'incitation économique entre le mineur et le nœud. Faire tourner un nœud Bitcoin ne procure aucun avantage pécuniaire direct. En revanche, participer au minage permet de percevoir des récompenses (subvention et frais de transactions) à chaque bloc trouvé.
 

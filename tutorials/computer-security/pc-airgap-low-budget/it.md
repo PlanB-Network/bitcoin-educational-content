@@ -6,7 +6,7 @@ description: Come realizzare un computer airgap con Raspberry PI Zero e un kit d
 
 Se sei sulle pagine di Plan ₿ Network da un po', hai già imparato che una delle più caldeggiate impostazioni di sicurezza, pressoché irrinunciabile, **è la gestione dei fondi tramite la conservazione offline delle tue chiavi private**.
 
-Se non lo hai ancora scoperto, nel corso del tutorial troverai i link a risorse open source con cui approfondire l'argomento.
+Se non lo hai ancora scoperto, nel corso di questo tutorial troverai i link a risorse open source con cui approfondire l'argomento.
 
 Per gestire offline le chiavi private, dunque, serve un dispositivo perennemente scollegato dalla rete, che sia un [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) o un computer airgap, da dedicare a questa specifica funzione.
 
@@ -46,7 +46,7 @@ Quando ho deciso di procedere, ho trovato [questo kit](https://www.amazon.it/-/e
 
 **4** Puoi procurarti l'alimentatore originale da Raspberry, del costo di circa 15,00 euro.
 
-**5** Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA -> miniUSB cosiddetto `no data`, del costo di 3,70 euro.
+**5** Personalmente ho optato per utilizzare l'alimentatore fornito nello _starter kit_, unendolo però ad un cavetto USBA → miniUSB cosiddetto `no data`, del costo di 3,70 euro.
 
 **6** Una scheda micro SD, per avere un minimo di memoria di massa almeno da 32 GB; se di qualit/livello industriale è meglio.
 
@@ -61,8 +61,7 @@ Per scegliere e masterizzare il sistema operativo, ho optato per la via più sem
 
 ![img](assets/it/01.webp)
 
-Vai quindi sul [Github di Raspberry](https://github.com/raspberrypi/rpi-imager/releases) per scaricare l'ultima release dell'Imager, scegliendo quella più adatta al tuo sistema operativo (v. 1.9.6 al momento della stesura).
-Noterai che, accanto ad ogni asset, c'è anche l'hash del file corrispondente. Ci tornerà utile per la verifica.
+Vai quindi sul [Github di Raspberry](https://github.com/raspberrypi/rpi-imager/releases) per scaricare l'ultima release dell'Imager, scegliendo quella più adatta al tuo sistema operativo (v. 1.9.6 al momento della stesura). Noterai che, accanto ad ogni asset, c'è anche l'hash del file corrispondente. Ci tornerà utile per la verifica.
 
 ![img](assets/it/02.webp)
 

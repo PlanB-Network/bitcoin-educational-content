@@ -7683,7 +7683,7 @@ NewPipe ni mteja mwingine mbadala wa YouTube. Nyepesi, bila matangazo, bila kifu
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
-Kicheza media maarufu cha VLC kinapatikana pia kwenye Android. Inaauni anuwai ya umbizo la sauti na video, na hukuruhusu kucheza faili ndani ya nchi au kwenye mtandao, yote bila utangazaji au ukusanyaji wa data. Ni suluhisho bora kwa kudhibiti maktaba yako ya media titika ndani ya nchi, bila muunganisho wa huduma ya mtu wa tatu.
+Kicheza media maarufu cha VLC kinapatikana pia kwenye Android. Kinaauni anuwai ya umbizo za sauti na video, na hukuwezesha kucheza faili ndani ya kifaa au kupitia mtandao, yote bila matangazo au ukusanyaji wa data. Ni suluhisho bora kwa kudhibiti maktaba yako ya multimedia ndani ya kifaa, bila kutegemea huduma za watu wa tatu.
 
 
 ![Image](assets/fr/181.webp)
@@ -7696,7 +7696,7 @@ Kicheza media maarufu cha VLC kinapatikana pia kwenye Android. Inaauni anuwai ya
 Funkwhale ni jukwaa lililogatuliwa la kushiriki na kusikiliza muziki, na wateja wanaolingana.
 
 
-### Kibodi
+### Keyboard
 
 
 Virtual keyboard kama Gboard ya Google au SwiftKey ya Microsoft zinapatikana kila mahali kwenye simu mahiri. Hata hivyo, zinahusisha hatari kubwa za faragha: kila herufi unayoandika inaweza, kinadharia, kurekodiwa, kuchambuliwa au kutumwa kwenye seva za mbali. Hata kama makampuni haya yanadai kuficha data, ukusanyaji bado unawezekana.
@@ -7735,7 +7735,7 @@ Programu ya Google Calculator, ingawa inatumika, bado ni bidhaa ya Google na ina
 - [OpenCalc](https://github.com/Darkempire78/OpenCalc)
 
 
-OpenCalc ni kikokotoo cha haraka na rahisi kutumia cha chanzo huria, kinachofaa kikamilifu mahitaji ya kila siku. Haikusanyi data na inafanya kazi nje ya mtandao kabisa, bila kutangaza au kutegemea huduma yoyote ya nje.
+OpenCalc ni calculator ya haraka na rahisi kutumia, ya chanzo huria, inayofaa kikamilifu kwa mahitaji ya kila siku. Haikusanyi data na inafanya kazi nje ya mtandao kabisa, bila matangazo au kutegemea huduma yoyote ya nje.
 
 
 ![Image](assets/fr/183.webp)
@@ -7754,7 +7754,7 @@ Google Play Store ndio chanzo chaguomsingi cha programu kwenye simu mahiri nying
 - [F-Cold](https://f-droid.org/)
 
 
-F-Droid ni katalogi ya programu huria ya kipekee. Programu zote zinazopatikana zinaweza kukaguliwa na kupakuliwa bila malipo, bila matangazo, kufuatilia au kutegemea huduma za Google. Programu ya F-Droid yenyewe haihitaji akaunti ya mtumiaji.
+F-Droid ni catalog ya kipekee ya programu huria. Programu zote zinazopatikana zinaweza kukaguliwa na kupakuliwa bila malipo, bila matangazo, bila ufuatiliaji na bila kutegemea huduma za Google. Programu ya F-Droid yenyewe haihitaji akaunti ya mtumiaji.
 
 
 ![Image](assets/fr/184.webp)
@@ -7796,13 +7796,13 @@ Anwani za Google, kama programu nyingi chaguo-msingi kwenye Android, husawazisha
 - [Kuunganisha](https://github.com/you-apps/ConnectYou)
 
 
-Connect You ni mbadala nyepesi, isiyo na vitu vingi vya chanzo wazi, iliyoundwa kwa ajili ya wale wanaotaka kudhibiti anwani zao ndani ya nchi, bila kukusanya data au kusawazisha kwa lazima na wingu la watu wengine. Inatoa Interface angavu, hurahisisha kupanga, kutafuta na kuhariri maingizo yako, na inaweza kuunganishwa na huduma za CalDAV ikiwa unatumia seva ya mwasiliani inayojipangisha yenyewe (kupitia Nextcloud, kwa mfano).
+Connect You ni mbadala nyepesi, isiyo na vitu vingi, ya chanzo huria, iliyoundwa kwa ajili ya wale wanaotaka kudhibiti anwani zao ndani ya kifaa, bila ukusanyaji wa data au usawazishaji wa lazima na wingu la watu wengine. Inatoa Interface angavu, hurahisisha kupanga, kutafuta na kuhariri maingizo yako, na inaweza kuunganishwa na huduma za CalDAV ikiwa unatumia seva ya anwani inayojihostisha (kwa mfano kupitia Nextcloud).
 
 
 ### Usimamizi wa picha
 
 
-Picha kwenye Google ni nzuri kwa kuhifadhi kiotomatiki picha kwenye wingu, kuzipanga au kuzipata kwa utambuzi wa uso. Lakini usahili huu huficha uchakataji wa kimfumo wa data yako: Kila picha inachanganuliwa, kuorodheshwa na kurejelewa na data yako nyingine ya Google. Picha zako zinaweza kuwa chanzo cha ziada cha habari, kutumiwa kwa madhumuni ya kibiashara.
+Google photos ni nzuri kwa kuhifadhi picha kiotomatiki kwenye wingu, kuzipanga au kuzipata kupitia utambuzi wa uso. Hata hivyo, urahisi huu huficha uchakataji wa kimfumo wa data yako: kila picha huchanganuliwa, kuorodheshwa na kuunganishwa na data yako nyingine ya Google. Picha zako zinaweza kuwa chanzo cha ziada cha taarifa, kinachotumiwa kwa madhumuni ya kibiashara.
 
 
 **Njia Mbadala**:
@@ -7812,14 +7812,14 @@ Picha kwenye Google ni nzuri kwa kuhifadhi kiotomatiki picha kwenye wingu, kuzip
 - [Matunzio Rahisi](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Matunzio Rahisi ni programu huria ya chini kabisa ambayo inafanya kazi nje ya mtandao kabisa. Ni sehemu ya kifurushi cha *Zana Rahisi za Simu*. Inakuruhusu kudhibiti, kupanga, kuona na kuhariri picha zako bila data yoyote kuondoka kwenye kifaa chako. Pia ina kipengele cha kugusa upya, ulinzi wa nenosiri na pipa la takataka kurejesha vipengee vilivyofutwa. Hakuna ufuatiliaji, hakuna ulandanishi wa kulazimishwa: Picha zako hukaa nawe.
+Matunzio Rahisi ni programu huria nyepesi inayofanya kazi nje ya mtandao kabisa. Ni sehemu ya kifurushi cha Simple Mobile Tools. Inakuruhusu kudhibiti, kupanga, kuona na kuhariri picha zako bila data yoyote kuondoka kwenye kifaa chako. Pia ina vipengele vya kugusa upya, ulinzi wa nenosiri na pipa la takataka kurejesha vipengee vilivyofutwa. Hakuna ufuatiliaji, hakuna ulandanishi wa lazima: picha zako hubaki nawe.
 
 
 
 - [Aves](https://github.com/deckerst/aves)
 
 
-Aves ni mbadala iliyo na Interface ya kisasa zaidi. Inatoa urambazaji laini wa albamu na shirika la hali ya juu (lebo, vichungi, kupanga, nk). Haihitaji muunganisho wa Mtandao kufanya kazi, na haikusanyi data ya mtumiaji.
+Aves ni mbadala yenye Interface ya kisasa zaidi. Inatoa urambazaji laini wa albamu na mpangilio wa hali ya juu (tags, filters, sorting, n.k.). Haihitaji muunganisho wa mtandao ili kufanya kazi, na haikusanyi data ya mtumiaji.
 
 
 ![Image](assets/fr/185.webp)
@@ -7829,7 +7829,7 @@ Aves ni mbadala iliyo na Interface ya kisasa zaidi. Inatoa urambazaji laini wa a
 - [Picha za Ente](https://ente.io/)
 
 
-Picha za Ente ni huduma ya chanzo huria (wateja + seva) kwa kuhifadhi nakala za picha kiotomatiki kwa usimbaji fiche kutoka mwisho hadi mwisho. Picha zako zimesimbwa kwa njia fiche kwenye kifaa kabla ya kutumwa, na hivyo kuhakikisha kwamba hata seva za Ente haziwezi kuzifikia. Ente pia inatoa toleo la kujipangisha kwa watumiaji wa hali ya juu.
+Picha za Ente ni huduma ya chanzo huria (wateja + seva) ya kuhifadhi nakala za picha kiotomatiki kwa usimbaji fiche kutoka mwisho hadi mwisho. Picha zako husimbwa kwenye kifaa kabla ya kutumwa, na hivyo kuhakikisha kwamba hata seva za Ente haziwezi kuzifikia. Ente pia inatoa toleo la kujihostia kwa watumiaji wa hali ya juu.
 
 
 ![Image](assets/fr/186.webp)
@@ -7871,7 +7871,7 @@ MJ PDF Reader ni programu rahisi na huria ambayo hukuruhusu kusoma faili za PDF 
 ### Simu
 
 
-Programu ya Simu ya Google, iliyosakinishwa kwa chaguomsingi kwenye simu mahiri nyingi za Android, hufanya kazi kwa ufanisi lakini hukusanya kiasi kikubwa cha data ya matumizi.
+Phone app ya Google, ambayo kwa kawaida husakinishwa chaguo-msingi kwenye simu nyingi za Android, hufanya kazi kwa ufanisi lakini hukusanya kiasi kikubwa cha data ya matumizi.
 
 
 **Njia Mbadala**:
@@ -7887,10 +7887,10 @@ Koler ni programu huria ya simu iliyobuniwa kuwa nzuri, rahisi kutumia na ifaayo
 ![Image](assets/fr/188.webp)
 
 
-### Tafsiri
+### Translate (Tafsiri)
 
 
-Google Tafsiri ndiyo kigezo cha utafsiri wa kiotomatiki, lakini matumizi yake yanahusisha kutuma hoja zako zote kwa Google, pamoja na ufuatiliaji uliojumuishwa ndani na uwezekano wa kukusanya data nyeti (Maandishi yaliyotafsiriwa, historia, n.k.).
+Google Translator ndiyo kigezo cha utafsiri wa kiotomatiki, lakini matumizi yake yanahusisha kutuma hoja zako zote kwa Google, pamoja na ufuatiliaji uliojumuishwa ndani na uwezekano wa kukusanya data nyeti (Maandishi yaliyotafsiriwa, historia, n.k.).
 
 
 **Njia Mbadala**:
@@ -7912,7 +7912,7 @@ Hakuna matangazo, hakuna vifuatiliaji, na Interface iliyo rahisi kutumia hufanya
 ### Scanner ya bidhaa
 
 
-Yuka hutumiwa sana kuchanganua bidhaa za vyakula na vipodozi na kutathmini ubora wao, lakini inategemea muundo usio wazi, wenye vigezo vya kukadiria vya kutiliwa shaka, hifadhidata ya umiliki kwa kiasi na programu isiyo ya chanzo huria. Zaidi ya hayo, utendakazi wake unahitaji muunganisho kwa seva ya kati, yenye uwezekano wa kukusanya data ya matumizi.
+Yuka hutumiwa sana kuchanganua bidhaa za vyakula na vipodozi na kutathmini ubora wake, lakini inategemea muundo usio wazi, wenye vigezo vya ukadiriaji vya kutiliwa shaka, hifadhidata ya sehemu ya umiliki na programu isiyo chanzo huria. Zaidi ya hayo, utendakazi wake unahitaji muunganisho kwa seva ya kati, ambayo huenda ikakusanya data ya matumizi.
 
 
 **Njia Mbadala**:
@@ -7970,7 +7970,7 @@ LocalSend ni mbadala nyingine isiyolipishwa, iliyoangaziwa kamili na Interface s
 ### Vitabu
 
 
-Programu kama vile Goodreads, ingawa zinatumiwa sana, huibua masuala mazito ya faragha. Mfumo huu unamilikiwa na Amazon, ambayo hukusanya data nyingi kuhusu usomaji wako, mapendeleo, ukadiriaji na ukaguzi. Kwa kuongeza, Interface inategemea sana ufuatiliaji wa mtumiaji na uchanganuzi wa tabia kwa madhumuni ya kibiashara.
+Programu kama Goodreads, ingawa zinatumiwa sana, huibua masuala makubwa ya faragha. Mfumo huu unamilikiwa na Amazon, ambayo hukusanya data nyingi kuhusu tabia yako ya usomaji, mapendeleo, ukadiriaji na ukaguzi. Aidha, Interface yake inategemea sana ufuatiliaji wa watumiaji na uchanganuzi wa tabia kwa madhumuni ya kibiashara.
 
 
 **Njia Mbadala**:
@@ -7980,7 +7980,7 @@ Programu kama vile Goodreads, ingawa zinatumiwa sana, huibua masuala mazito ya f
 - [Imefunguliwa](https://github.com/mateusz-bak/openreads)
 
 
-Usomaji wa Open ndio mbadala wa chanzo huria wa ufuatiliaji wa usomaji unaofaa kwa faragha. Programu hii hukuruhusu kuunda maktaba ya kibinafsi ya kidijitali, kufuatilia maendeleo yako ya usomaji, kadiri na maoni yako kwenye vitabu, na kufikia mapendekezo kulingana na vigezo vyako mwenyewe, bila uchanganuzi wa kati au ufuatiliaji. Data yote inasalia kwenye kifaa chako au inasawazishwa kupitia huduma zinazopangishwa binafsi.
+Openreads ni mbadala wa chanzo huria wa ufuatiliaji wa usomaji unaoheshimu faragha. Programu hii hukuruhusu kuunda maktaba yako ya kibinafsi ya kidijitali, kufuatilia maendeleo ya usomaji, ukadiriaji na maoni yako kuhusu vitabu, na kupata mapendekezo kulingana na vigezo vyako mwenyewe, bila uchanganuzi wa kati au ufuatiliaji. Data yote inabaki kwenye kifaa chako au inasawazishwa kupitia huduma unazojihostia mwenyewe.
 
 
 ### Saa, kengele na vipima muda

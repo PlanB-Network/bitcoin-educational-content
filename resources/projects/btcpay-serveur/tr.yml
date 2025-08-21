@@ -1,0 +1,4 @@
+description: |
+  BTCPay Server, kendi kendine barındırılan, açık kaynaklı bir Bitcoin ödeme işlemcisidir.
+  
+  Bu yazılım, Bitcoin (BTC) ödemelerini ücret veya üçüncü taraf bir aracı olmadan doğrudan Wallet'nize kabul etmenizi sağlar. Gelişmiş gizlilik ve güvenlik, özelleştirilebilir bir kullanıcı Interface ve hem e-ticaret hem de satış noktası kullanımı için özellikler sunar. Platform, WordPress, Magneto, Drupal ve diğerleri gibi çeşitli e-ticaret platformlarıyla entegrasyonu destekler. Kendi kendine egemen bir Bitcoin ödeme sistemi arayan işletmeler, hayır kurumları, içerik oluşturucular ve bireyler için çok yönlü bir çözümdür.

@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap, Lightning Network üzerindeki varlıkların atomik, gözetim dışı takaslarını mümkün kılan merkezi olmayan bir ticaret protokolüdür. RGB Lightning Node üzerine inşa edilen Kaleidoswap, kullanıcıların Bitcoin ve RGB tokenlerini aracılar veya merkezi saklama olmadan Trustless yöntemiyle takas etmelerine olanak tanır.
+  
+  Açık kaynaklı bir masaüstü uygulaması olarak piyasaya sürülen Kaleidoswap şu anda Testnet ortamında çoklu varlık ticaretini desteklemekte ve Lightning'e özgü varlıklar, RGB kanalları ve likidite sağlayıcıları (LSP'ler) ile etkileşim için kullanıcı dostu bir Interface sunmaktadır. Egemen tüccarları ve geliştiricileri Bitcoin üzerinde tamamen eşler arası, programlanabilir bir finansal Layer ile güçlendirmek için tasarlanmıştır.

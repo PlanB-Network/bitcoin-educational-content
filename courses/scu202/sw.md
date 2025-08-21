@@ -8023,7 +8023,7 @@ ___
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
 
-Usalama wa dijiti mara nyingi huanza na amri nzuri ya mtandao wa nyumbani. Mtandao wako wa nyumbani ndio sehemu ya kwanza ya Mtandao kuingia katika mazingira yako ya kibinafsi, na ni Mtandao unaohatarisha usalama wako na faragha yako.
+Usalama wa kidijitali mara nyingi huanza na udhibiti mzuri wa mtandao wa nyumbani. Mtandao wako wa nyumbani ndio lango la kwanza la Intaneti kuingia katika mazingira yako ya kibinafsi, na hapo ndipo kuna hatari kubwa zaidi kwa usalama na faragha yako.
 
 
 Kuelewa jinsi mtandao wako wa karibu unavyofanya kazi, jinsi data yako inavyotiririka na vifaa vipi vinavyowajibika kudhibiti mtiririko huu ni muhimu kwa mamlaka yako ya kidijitali.
@@ -8044,45 +8044,45 @@ Historia ya mtandao inarudi mwishoni mwa miaka ya 1960, katika muktadha wa utafi
 ![Image](assets/fr/191.webp)
 
 
-Kusudi lilikuwa pia kubuni mtandao thabiti, wenye uwezo wa kuendelea kufanya kazi hata ikiwa sehemu ya nodi zake ziliharibiwa (lazima katikati ya Vita vya Cold). ARPANET iliwezesha mawasiliano ya kwanza kati ya kompyuta za mbali mnamo 1969.
+Kusudi lilikuwa pia kubuni mtandao thabiti, wenye uwezo wa kuendelea kufanya kazi hata ikiwa sehemu ya node zake ziliharibiwa (lazima katikati ya Vita vya Cold). ARPANET iliwezesha mawasiliano ya kwanza kati ya kompyuta za mbali mnamo 1969.
 
 
 ![Image](assets/fr/192.webp)
 
 
-Kwa miongo kadhaa, mradi ulipanuka, haswa kwa kusanifishwa kwa itifaki za TCP/IP mnamo 1983, ambayo ikawa msingi wa kiufundi wa Mtandao wote. Katika miaka ya 1990, ujio wa *Mtandao Wote wa Ulimwenguni*, uliojadiliwa katika sura iliyotangulia, ulifanya Mtandao kufikiwa na umma kwa kurahisisha ufikiaji wa hati kupitia vivinjari. Hatua hii kuu ya mabadiliko ilibadilisha Mtandao kuwa chombo cha mawasiliano na habari cha ulimwengu wote.
+Kwa miongo kadhaa, mradi huu ulipanuka, hasa kupitia usanifishaji wa itifaki za TCP/IP mnamo 1983, ambazo zikawa msingi wa kiufundi wa Mtandao wote. Katika miaka ya 1990, ujio wa World Wide Web, uliotajwa katika sura iliyotangulia, ulifanya Mtandao kufikiwa na umma kwa kurahisisha upatikanaji wa hati kupitia vivinjari. Hatua hii muhimu ya mageuzi ilibadilisha Mtandao kuwa chombo cha mawasiliano na habari cha ulimwengu mzima.
 
 
 #### Mtandao ni nini?
 
 
-Mtandao, ambao maana yake halisi ni "mtandao uliounganishwa", ni miundombinu ya kimataifa inayowezesha mabilioni ya vifaa kuwasiliana. Si huduma moja, wala eneo mahususi, bali ni mkusanyiko wa mitandao ya kompyuta ya umma na ya kibinafsi, iliyounganishwa kwa kiwango cha sayari. Kila mchezaji (mtu binafsi, kampuni, mamlaka ya umma, n.k.) anaweza kuunganisha mtandao wake kwa ulimwengu wote, mradi anatii itifaki fulani za kiufundi zilizosanifiwa ambazo huwezesha vifaa kuelewana.
+Mtandao, ambao maana yake halisi ni "mtandao uliounganishwa", ni miundombinu ya kimataifa inayowezesha mabilioni ya vifaa kuwasiliana. Sio huduma moja, wala eneo maalum, bali ni mkusanyiko wa mitandao ya kompyuta ya umma na ya kibinafsi, iliyounganishwa katika kiwango cha dunia. Kila mshiriki (mtu binafsi, kampuni, mamlaka ya umma, n.k.) anaweza kuunganisha mtandao wake kwa ule wa kimataifa, mradi tu anatii itifaki fulani za kiufundi zilizosanifiwa ambazo huwezesha vifaa kuelewana.
 
 
 Miundombinu ya mtandao inategemea zaidi itifaki mbili:
 
 
 
-- IP** (*Itifaki ya Mtandao*) Inabainisha kila kifaa kilichounganishwa na njia za pakiti za data.
-- TCP** (*Itifaki ya Udhibiti wa Usambazaji*) Hutenganisha mtiririko, hukagua hitilafu na kurudisha sehemu katika mpangilio.
+- **IP** (*Internet Protocol*) Inabainisha kila kifaa kilichounganishwa na njia za pakiti za data.
+- **TCP** (*Transmission Control Protocol *) Hutenganisha mtiririko, hukagua hitilafu na kurudisha sehemu katika mpangilio.
 
 
-→ Kwa matumizi ya wakati halisi ambapo kutegemewa sio muhimu sana kuliko muda wa kusubiri (VoIP, DNS, utiririshaji, n.k.), itifaki nyingine ya usafiri hutumiwa mara nyingi badala ya TCP: UDP (*Itifaki ya Datagram ya Mtumiaji*).
+→ Kwa matumizi ya wakati halisi ambapo kutegemewa si muhimu sana kuliko muda wa kusubiri (VoIP, DNS, utiririshaji, n.k.), protocol nyingine ya usafiri hutumika mara nyingi badala ya TCP: UDP (User Datagram Protocol).
 
 
-Itifaki hizi mbili hufanya kazi pamoja ili kuhakikisha kuwa ujumbe unaotumwa kutoka sehemu moja hadi nyingine unafika kamili na kwa mpangilio unaofaa.
+Protocols hizi mbili hufanya kazi pamoja ili kuhakikisha kuwa ujumbe unaotumwa kutoka sehemu moja hadi nyingine unafika kamili na kwa mpangilio unaofaa.
 
 
 Kwa maneno madhubuti, unapotembelea tovuti, kwa mfano kwa kuandika Address kwenye kivinjari chako, shughuli kadhaa huanzishwa chinichini. Kwanza, kompyuta yako au simu mahiri lazima ibadilishe Address inayoweza kusomeka (kama vile `planb.network`) kuwa IP Address, kwa kutumia huduma inayoitwa DNS (*Domain Name System*). Mara tu IP ya seva ya wavuti ya IP Address imepatikana, data inaweza kutumwa kwenye lengwa lake.
 
 
-Data hii basi hufuata njia ngumu. Kwanza, inapitia kipanga njia chako cha nyumbani na modemu, kabla ya kufikia miundombinu ya ISP yako. Kutoka hapo, ina uwezekano wa kuvuka mitandao kadhaa ya kati (wakati mwingine nyaya za kuvuka bahari, vipanga njia, mtandao wa Exchange, n.k.) kabla ya kufika inapoenda: Seva ya tovuti unayotaka kutembelea. Hii nayo hutuma data (yaliyomo kwenye tovuti) katika mwelekeo tofauti.
+Data hii hufuata njia ndefu na yenye mizunguko mingi. Kwanza, hupitia kipanga njia chako cha nyumbani na modemu, kisha kufikia miundombinu ya ISP yako. Kutoka hapo, inaweza kuvuka mitandao kadhaa ya kati (wakati mwingine nyaya za chini ya bahari, vipanga njia, mitandao ya kubadilishia data, n.k.) kabla ya kufika inapokusudiwa: seva ya tovuti unayotaka kutembelea. Seva hiyo nayo hurudisha data (yaliyomo kwenye tovuti) ikielekea upande wa pili wa safari.
 
 
 ![Image](assets/fr/193.webp)
 
 
-Kwa hivyo Mtandao unaweza kujumlishwa kama mtandao mkubwa uliogatuliwa, kwa kuzingatia sheria za kawaida, ambapo kila kifaa kinaweza kuwasiliana na kingine, popote kinapokuwa ulimwenguni. Lakini ingawa uwazi huu huwezesha ubadilishanaji wa kidijitali, inakuhitaji pia uwe macho: Kila kitendo cha mtandaoni hupitia miundomsingi ambayo huna udhibiti nayo, na usiri wa mabadilishano yako inategemea jinsi unavyoweka na kutumia zana hizi.
+Kwa hivyo, Mtandao unaweza kufupishwa kama mtandao mkubwa uliogatuliwa, unaoendeshwa kwa kuzingatia sheria za pamoja, ambapo kila kifaa kinaweza kuwasiliana na kingine popote kilipo duniani. Hata hivyo, ingawa uwazi huu huwezesha ubadilishanaji wa kidijitali, unakulazimu pia kuwa makini: kila kitendo cha mtandaoni hupitia miundombinu ambayo huna udhibiti nayo, na usiri wa mabadilishano yako unategemea jinsi unavyosanidi na kutumia zana hizi.
 
 
 ### Jukumu la modem na router
@@ -8091,24 +8091,24 @@ Kwa hivyo Mtandao unaweza kujumlishwa kama mtandao mkubwa uliogatuliwa, kwa kuzi
 Katika nyumba nyingi za kisasa, ufikiaji wa mtandao hutolewa kupitia kifaa cha kati ambacho hufanya kama modem na kipanga njia. Jina la kifaa hiki hutofautiana kutoka nchi hadi nchi (huko Ufaransa, inaitwa "Sanduku la Mtandao"). Ni kifaa hiki chenye kazi nyingi kinachotolewa na ISP ambacho hukuunganisha kwenye mtandao wote wa Intaneti.
 
 
-→ *ISP = Mtoa Huduma ya Mtandao.*
+→ *ISP =  (Internet service provider) Mtoa Huduma ya Mtandao.*
 
 
 Kifaa hiki kinachanganya kazi kuu 2:
 
 
 
-- Jukumu la modem**
+- **Jukumu la modem**
 
 
-Modem (fupi ya "*moduli-demoduli*") ni kijenzi kinachounganisha mtandao wako wa ISP na nyumba yako. Hubadilisha mawimbi ya umeme au macho yanayopokelewa (kupitia fibre optics, coaxial cable, ADSL au mtandao wa simu) kuwa mawimbi ya dijitali ambayo yanaweza kueleweka na vifaa vyako. Kinyume chake, inabadilisha data kutoka kwa kifaa chako hadi umbizo ambalo linaweza kusambazwa kupitia miundombinu ya opereta. Hatua hii ni muhimu ikiwa mtandao wako wa nyumbani ni kuwasiliana na Mtandao.
+Modem (fupi ya "modulator-demodulator") ni kijenzi kinachounganisha mtandao wa ISP yako na nyumba yako. Hubadilisha mawimbi ya umeme au ya mwanga yanayopokelewa (kupitia nyuzi za optic, kebo ya coaxial, ADSL au mtandao wa simu) kuwa mawimbi ya kidijitali yanayoweza kueleweka na vifaa vyako. Vilevile, hubadilisha data kutoka kwa kifaa chako hadi umbizo linaloweza kusambazwa kupitia miundombinu ya mtoa huduma. Hatua hii ni muhimu ili mtandao wako wa nyumbani uweze kuwasiliana na Mtandao.
 
 
 
-- Jukumu la kipanga njia**
+- **Jukumu la router**
 
 
-Kipanga njia ndio moyo wa mtandao wako wa karibu. Inasambaza muunganisho wa Mtandao kwa vifaa vyako vyote: Kompyuta, simu mahiri, vitu vilivyounganishwa, vichapishaji, n.k. Huwapa kila moja IP ya ndani Address (Tofauti na IP yako ya umma inayoonekana kwenye Mtandao). Kisha kipanga njia hupanga trafiki inayoingia na kutoka, kuhakikisha kuwa data inafikia kifaa sahihi. Inaweza pia kuunganisha ngome, kuchuja pakiti za mtandao au kudhibiti sheria za usambazaji wa mlango. NAT hufunika mtandao wako wa karibu kutoka kwenye macho ya Mtandao, kwa kutumia IP moja ya umma Address kuwakilisha vifaa vyako vyote. Kipanga njia pekee ndicho kinachojua ni kifaa gani cha ndani kilianzisha ombi gani.
+Router ndicho kiini cha mtandao wako wa karibu. Inasambaza muunganisho wa Intaneti kwa vifaa vyako vyote: kompyuta, simu mahiri, vifaa vilivyounganishwa, vichapishaji, n.k. Huwapa kila kifaa anwani ya ndani ya IP (tofauti na anwani ya IP ya umma inayoonekana kwenye Intaneti). Kisha router husimamia trafiki inayoingia na kutoka, kuhakikisha kwamba data inafika kwenye kifaa sahihi. Pia inaweza kujumuisha firewall, kuchuja pakiti za mtandao au kudhibiti sheria za usambazaji wa milango. NAT huficha mtandao wako wa karibu kutoka kwenye macho ya Intaneti, kwa kutumia anwani moja ya umma ya IP kuwakilisha vifaa vyote. Ni router pekee inayojua ni kifaa gani cha ndani kilianzisha ombi fulani.
 
 
 Katika baadhi ya nchi, kazi hizi mbili wakati mwingine hugawanywa kati ya vifaa viwili tofauti: Modem na kipanga njia.
@@ -8117,7 +8117,7 @@ Katika baadhi ya nchi, kazi hizi mbili wakati mwingine hugawanywa kati ya vifaa 
 Katika mazoezi, router ya kisasa ya modem mara nyingi inajumuisha kazi nyingine za ziada: Hatua ya kufikia Wi-Fi, kubadili Ethernet, utawala wa Interface, na wakati mwingine hata seva ya faili na vipengele vingine.
 
 
-Kuelewa jukumu la modem ya kipanga njia ni jambo muhimu katika kulinda mtandao wako wa karibu. Kwa namna fulani, kifaa hiki huunda mpaka kati ya ulimwengu wa nje (Mtandao) na mazingira yako ya kibinafsi ya kidijitali. Usanidi usio sahihi, nenosiri dhaifu au programu dhibiti iliyopitwa na wakati inaweza kugeuza lango hili kuwa shimo la pengo. Kinyume chake, modem-router iliyosanidiwa vizuri inakuwa ngome dhidi ya uingilizi.
+Kuelewa jukumu la modem-router ni jambo muhimu katika kulinda mtandao wako wa karibu. Kwa namna fulani, kifaa hiki huunda mpaka kati ya ulimwengu wa nje (Internet) na mazingira yako ya kibinafsi ya kidijitali. Usanidi usio sahihi, nenosiri dhaifu au firmware iliyopitwa na wakati vinaweza kubadilisha lango hili kuwa udhaifu mkubwa. Kinyume chake, modem-router iliyosanidiwa vizuri inakuwa ngome madhubuti dhidi ya uingiliaji.
 
 
 Katika sura inayofuata, tutaangalia jinsi ya kuboresha usanidi huu, kutambua pointi dhaifu za kawaida, na kurejesha udhibiti wa kifaa hiki.
@@ -8126,16 +8126,16 @@ Katika sura inayofuata, tutaangalia jinsi ya kuboresha usanidi huu, kutambua poi
 ### Mtandao wa eneo la ndani (LAN)
 
 
-Mtandao wa ndani, au "LAN" (*Mtandao wa Eneo la Karibu*), hurejelea miunganisho yote ya kidijitali ndani ya nyumba yako. Inajumuisha vifaa vyote vilivyounganishwa kwenye kipanga njia chako: Kompyuta, simu mahiri, kompyuta kibao, vichapishaji, n.k.
+Mtandao wa ndani, au "LAN" (Local Area Network), hurejelea miunganisho yote ya kidijitali ndani ya nyumba yako. Unajumuisha vifaa vyote vilivyounganishwa kwenye router yako: kompyuta, simu mahiri, kompyuta kibao, vichapishaji, n.k.
 
 
-Tofauti na Mtandao, ambao ni mtandao wa kimataifa, wa umma, mtandao wa ndani ni eneo la faragha, lililotengwa kwa sehemu iliyoundwa ili kuwezesha vifaa kuwasiliana na kila kimoja, bila ubadilishanaji wao kuondoka nyumbani kwako. Kwa mfano, unapotuma faili kutoka kwa kompyuta yako hadi kwa kichapishi kilichounganishwa na Wi-Fi, au kudhibiti balbu iliyounganishwa kupitia simu yako, mawasiliano haya hufanyika ndani ya nchi pekee, bila kupitia seva ya mbali.
+Tofauti na Internet, ambayo ni mtandao wa kimataifa na wa umma, mtandao wa ndani ni eneo la faragha, lililotengwa ili kuwezesha vifaa kuwasiliana baina yao bila ubadilishanaji kuondoka nyumbani kwako. Kwa mfano, unapotuma faili kutoka kwa kompyuta yako hadi kwa kichapishi kilichounganishwa kwa Wi-Fi, au kudhibiti balbu mahiri kupitia simu yako, mawasiliano haya yote hufanyika ndani ya mtandao wa ndani pekee, bila kupitia seva ya mbali.
 
 
 ![Image](assets/fr/194.webp)
 
 
-Hii inategemea seti ya teknolojia na itifaki za kawaida, ambayo muhimu zaidi ni itifaki ya IP. Kila kifaa kwenye mtandao wako wa ndani kimepewa IP ya ndani ya Address (kwa kawaida katika umbizo `192.168.x.x`), ambayo hutumika kukitambulisha kwa njia ya kipekee ndani ya mtandao huo. Address hii haionekani kutoka kwa Mtandao. IP yako ya umma ya Address pekee, inayoshirikiwa na vifaa vyote kupitia modemu, ndiyo inayofichuliwa nje ya nyumba yako.
+Hii inategemea seti ya teknolojia na protocol za kawaida, ambayo muhimu zaidi ni protocol ya IP. Kila kifaa kwenye mtandao wako wa ndani hupewa anwani ya ndani ya IP (kwa kawaida katika umbizo 192.168.x.x), inayokitambulisha kwa njia ya kipekee ndani ya mtandao huo. Anwani hii haionekani kutoka Internet. Ni anwani yako ya umma ya IP pekee, inayoshirikiwa na vifaa vyote kupitia modem, ndiyo inayofichuliwa nje ya nyumba yako.
 
 
 Lakini kutengwa huku kwa dhahiri hakupaswi kukupa hisia ya uwongo ya usalama. Mtandao wa ndani ambao haujasanidiwa vizuri unaweza kuwa lango la mashambulizi, hasa katika hali zifuatazo:
@@ -8143,7 +8143,7 @@ Lakini kutengwa huku kwa dhahiri hakupaswi kukupa hisia ya uwongo ya usalama. Mt
 
 
 - Ikiwa huduma za wazi (kama vile kushiriki faili au miingiliano ya usimamizi) zinapatikana kutoka kwa Mtandao
-- Ikiwa Wi-Fi si salama (nenosiri dhaifu au mfumo wa usimbaji wa kizamani)
+- Ikiwa Wi-Fi si salama (password dhaifu au mfumo wa usimbaji wa kizamani)
 - Ikiwa vitu fulani vilivyounganishwa vinawasiliana na ulimwengu wa nje kwa maandishi wazi au kuacha bandari wazi
 
 
@@ -8156,7 +8156,7 @@ Kwa hivyo ni muhimu kuelewa mtiririko wa ndani wa mtandao wako, na kudhibiti vif
 Wi-Fi (kifupi cha "*Wireless Fidelity*") ni teknolojia ya mawasiliano isiyotumia waya ambayo hukuwezesha kuunganisha vifaa vyako kwenye mtandao wako wa karibu, bila kuhitaji kebo. Teknolojia hii inategemea uwasilishaji wa data kupitia mawimbi ya redio, kwa ujumla katika bendi za masafa ya 2.4 GHz na 5 GHz (au hata 6 GHz kwa mitandao ya Wi-Fi 6E na Wi-Fi 7).
 
 
-Lakini urahisi wa utumiaji huu unakuja na hatari zake. Tofauti na miunganisho ya waya (kama vile Ethernet), mawimbi ya Wi-Fi hupenya kuta na yanaweza kuchukuliwa kutoka umbali wa mita kadhaa. Hii ina maana kwamba watu walio nje ya nyumba yako (barabarani, katika jengo jirani, hata kutoka kwa gari lililoegeshwa karibu) wanaweza kujaribu kugundua mtandao wako na kuuunganisha ikiwa haujalindwa ipasavyo.
+Lakini urahisi huu wa matumizi unakuja na hatari zake. Tofauti na miunganisho ya waya (kama Ethernet), mawimbi ya Wi-Fi hupenya kuta na yanaweza kunaswa kutoka umbali wa mita kadhaa. Hii ina maana kwamba watu walio nje ya nyumba yako (barabarani, katika jengo jirani, au hata kutoka gari lililoegeshwa karibu) wanaweza kujaribu kugundua mtandao wako na kuunganisha ikiwa haujalindwa ipasavyo.
 
 
 ![Image](assets/fr/195.webp)
@@ -8175,13 +8175,13 @@ Mshambulizi aliye na ufikiaji wa mtandao wako wa Wi-Fi anaweza basi:
 Ili kujilinda dhidi ya vitisho hivi, unahitaji kulinda mtandao wako wa Wi-Fi. Tutaangalia jinsi ya kufanya hivyo katika sura chache zinazofuata.
 
 
-### Anwani za IP za ndani
+### IP address za ndani
 
 
 Unapounganisha kifaa kwenye mtandao wako wa nyumbani, hupokea IP ya ndani ya Address. Address hii inaundwa na nambari nne zilizotenganishwa na nukta (k.m. `192.168.1.14`). Inatumika kutambua kila kifaa kwa njia ya kipekee ndani ya mtandao wako wa karibu. Ni shukrani kwa Address hii kwamba kipanga njia chako kinajua ni kifaa gani cha kutuma data kwa (kwa mfano, ukurasa wa wavuti au video ambayo umeomba).
 
 
-Ni muhimu kuelewa kuwa anwani hizi za IP za ndani hazionekani kutoka kwa Mtandao. Wao ni wa safu zilizohifadhiwa, zinazofafanuliwa na viwango vya kimataifa, ambavyo haviwezi kutumika kwenye mtandao wa umma. Masafa matatu ya kawaida ya IP Address ni:
+Ni muhimu kuelewa kwamba IP address za ndani hazionekani kutoka Internet. Ziko katika safu zilizohifadhiwa, zilizofafanuliwa na viwango vya kimataifa, ambavyo haviwezi kutumika kwenye mtandao wa umma. Masafa matatu ya kawaida ya IP address ni:
 
 
 
@@ -8193,10 +8193,10 @@ Ni muhimu kuelewa kuwa anwani hizi za IP za ndani hazionekani kutoka kwa Mtandao
 Kwa hivyo kifaa hicho kinaweza kuwa na IP Address kama `192.168.1.42` nyumbani, wakati mtumiaji mwingine katika nchi nyingine atakuwa na kifaa kingine chenye IP sawa Address kwenye mtandao wake wa ndani, bila kuwa na mgongano wowote, kwa sababu anwani hizi haziondoki kwenye mtandao wa nyumbani. Ni kipanga njia kinachotoa kiungo kati ya mtandao wako wa nyumbani na mtandao wa umma, ikitafsiri anwani hizi kupitia utaratibu unaoitwa "NAT" (*Network Address Translation*).
 
 
-Anwani za IP za ndani kwa ujumla hukabidhiwa kwa nguvu, kwa kutumia DHCP (*Itifaki ya Usanidi ya Mwenyeji Mwenye Nguvu*). Unapounganisha kifaa kipya kwenye mtandao, hutuma ombi la DHCP kwa Address, na kipanga njia huipa Address inayopatikana bila malipo ndani ya masafa yaliyobainishwa. Address hii inaweza kutofautiana kulingana na wakati.
+IP address za ndani kwa ujumla hukabidhiwa kiotomatiki kwa kutumia DHCP (Dynamic Host Configuration Protocol). Unapounganisha kifaa kipya kwenye mtandao, hutuma ombi la DHCP kwa router, na router huipa IP address inayopatikana ndani ya masafa yaliyobainishwa. IP address hii inaweza kubadilika kulingana na muda.
 
 
-Hata hivyo, inawezekana kusanidi anwani za IP zisizobadilika kwa vifaa fulani. Hii inamaanisha kuhifadhi Address maalum kwa kifaa fulani, kwa msingi wa kudumu. Hii ni muhimu katika kesi kadhaa, kwa mfano:
+Hata hivyo, inawezekana kusanidi  IP addresses zisizobadilika kwa vifaa fulani. Hii inamaanisha kuhifadhi Address maalum kwa kifaa fulani, kwa msingi wa kudumu. Hii ni muhimu katika kesi kadhaa, kwa mfano:
 
 
 
@@ -8205,7 +8205,7 @@ Hata hivyo, inawezekana kusanidi anwani za IP zisizobadilika kwa vifaa fulani. H
 - Ili kuunda sheria za kuchuja au kusambaza mlango kwenye kipanga njia chako
 
 
-### Bandari za mtandao
+### Network ports
 
 
 Ili kuelewa jinsi mtandao wa ndani unavyofanya kazi, unahitaji kujua kwamba kila IP Address (iwe ya ndani au ya umma) inahusishwa na mfululizo wa bandari za nambari, zinazohesabiwa kutoka `0` hadi `65535`. Lango hizi si halisi: Ni sehemu za kuingia au za kutoka ambazo huwezesha programu na huduma kuwasiliana kwenye mtandao.
@@ -8215,25 +8215,25 @@ Kila wakati kifaa kinapowasiliana kupitia Mtandao au mtandao wa ndani, hufanya h
 
 
 
-- Mlango `80` hutumika kufikia kurasa za wavuti za HTTP
-- Mlango `443` hutumika kufikia kurasa za wavuti za HTTPS (muunganisho uliosimbwa kwa njia fiche)
-- Mlango `22` hutumika kwa miunganisho ya SSH
-- Bandari `25`, `465` na `587` hutumika kutuma barua pepe (SMTP)
-- Mlango `110` hutumika kurejesha barua pepe kupitia itifaki ya POP3
-- Mlango `143` hutumika kurejesha barua pepe kupitia itifaki ya IMAP
-- Mlango `21` hutumika kwa uhamisho wa faili kupitia itifaki ya FTP
-- Bandari `53` inatumika kwa hoja za DNS...
+- port `80` hutumika kufikia kurasa za wavuti za HTTP
+- port `443` hutumika kufikia kurasa za wavuti za HTTPS (muunganisho uliosimbwa kwa njia fiche)
+- port `22` hutumika kwa miunganisho ya SSH
+- port `25`, `465` na `587` hutumika kutuma barua pepe (SMTP)
+- port `110` hutumika kurejesha barua pepe kupitia itifaki ya POP3
+- port `143` hutumika kurejesha barua pepe kupitia itifaki ya IMAP
+- port `21` hutumika kwa uhamisho wa faili kupitia itifaki ya FTP
+- port `53` inatumika kwa hoja za DNS...
 
 
-Lango hizi pia hutumika katika mifumo kama vile Bitcoin au Tor, ambapo milango mahususi hutumiwa kwa chaguomsingi kwa mawasiliano kati ya wenzao au uelekezaji wa trafiki:
+Ports hizi pia hutumika katika mifumo kama Bitcoin au Tor, ambapo ports mahususi hutumiwa kwa chaguomsingi kwa mawasiliano kati ya wenzao au uelekezaji wa trafiki:
 
 
 
-- Bandari `8333` inatumika kwa miunganisho ya P2P kwenye Bitcoin Mainnet
-- Lango la `18333` linatumika kwa miunganisho ya P2P kwenye Bitcoin Testnet
-- Bandari `8332` inatumika kwa Interface RPC ya nodi ya Bitcoin
-- Bandari `9050` inatumiwa na proksi ya Tor's SOCKS5
-- Bandari `9150` inatumiwa na Kivinjari cha Tor
+- port `8333` inatumika kwa miunganisho ya P2P kwenye Bitcoin Mainnet
+- Port ya `18333` inatumika kwa miunganisho ya P2P kwenye Bitcoin Testnet
+- port `8332` inatumika kwa Interface RPC ya nodi ya Bitcoin
+- port `9050` inatumiwa na proksi ya Tor's SOCKS5
+- port `9150` inatumiwa na Kivinjari cha Tor
 
 
 Kwa maneno mengine, bandari ni kama mlango wa kujitolea. Unapotembelea tovuti, kompyuta yako hufungua mlango chanzo na kutuma ombi kwa IP Address ya tovuti ya mbali, ikilenga mlango `443` ikiwa ni muunganisho uliosimbwa kwa njia fiche. Seva ya mbali kisha hurejesha jibu kupitia kituo sawa. Kwenye kipanga njia, wazo hili la mlango ni muhimu: Inahitaji kujua ni kifaa gani na ni mlango gani wa ndani wa kuelekeza pakiti za data zinazoingia.
@@ -8301,21 +8301,21 @@ Mifumo hii huwezesha udhibiti bora wa sheria za ngome, miunganisho inayotoka na 
 
 
 
-- Chagua kipanga njia cha hivi karibuni
+- Chagua Router ya hivi karibuni
 - Sasisha mfumo wako
 - Fikiria firmware mbadala ikiwa ni lazima
 
 
-### Badilisha anwani za msingi na nywila
+### Badilisha default IP address na password
 
 
-Moja ya makosa ya kawaida (na ya hatari) ni kuweka vitambulisho chaguo-msingi vinavyotolewa na mtengenezaji wa router, au kutumia nenosiri dhaifu.
+Moja ya makosa ya kawaida (na hatari) ni kubaki na vitambulisho vya default vinavyotolewa na mtengenezaji wa router, au kutumia password dhaifu.
 
 
 Kihistoria, vitambulisho chaguomsingi vya kipanga njia havikuwa salama sana na mara nyingi vilifanana kwa watumiaji wote, kama vile `admin/admin` maarufu. Kitambulisho hiki cha msingi kilikuwa cha umma, kilirekodiwa katika miongozo ya watumiaji na kurekodiwa sana katika hifadhidata zinazotumiwa na washambuliaji. Katika kesi hii, mtu yeyote anayegundua uwepo wa kipanga njia chako anaweza kujaribu ufikiaji usioidhinishwa kwa kujaribu michanganyiko hii inayojulikana.
 
 
-Leo, wazalishaji wengi hutoa nenosiri la kipekee, lenye nguvu kwa kila router. Hata hivyo, hata katika kesi hii, ninapendekeza kubadilisha sifa za msingi. Hii inapunguza hatari za msururu wa Supply, na huzuia nenosiri asili (wakati mwingine huchapishwa kwenye lebo ya kipanga njia) dhidi ya kuhatarisha usalama wako.
+Leo, wazalishaji wengi hutoa password ya kipekee na yenye nguvu kwa kila router. Hata hivyo, hata katika hali hii, ninapendekeza kubadilisha default credentials. Hatua hii inapunguza hatari za supply chain na huzuia password ya awali (ambayo wakati mwingine huchapishwa kwenye lebo ya router) dhidi ya kuhatarisha usalama wako.
 
 
 Kwa hivyo ni muhimu kwamba ubadilishe vitambulisho vyako mara baada ya kusakinisha kipanga njia chako:
@@ -8326,14 +8326,14 @@ Kwa hivyo ni muhimu kwamba ubadilishe vitambulisho vyako mara baada ya kusakinis
 - Na juu ya yote, nenosiri la utawala, ambalo linalinda upatikanaji wa usanidi wote wa mtandao, pamoja na nenosiri la Wi-Fi.
 
 
-Nenosiri hili lazima liwe refu (herufi 40), changamano (nambari, herufi ndogo, herufi kubwa na alama), ya kipekee (isitumike tena mahali pengine), na nasibu. Ninapendekeza kutumia kidhibiti cha nenosiri kwa generate na kuhifadhi vitambulisho hivi kwa usalama.
+Password hii inapaswa kuwa ndefu (takriban herufi 40), changamano (ikiwa na nambari, herufi ndogo, herufi kubwa na alama), ya kipekee (isitumike tena mahali pengine), na ya nasibu. Ninapendekeza kutumia password manager kwa ajili ya kutengeneza na kuhifadhi credentials hizi kwa usalama.
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Onyo: usichanganye nenosiri la utawala wa router (ambayo inalinda upatikanaji wa usanidi wake) na nenosiri la Wi-Fi (ambayo inakuwezesha kuunganisha kwenye mtandao wa wireless). Hizi ni Elements mbili tofauti, na zote zinahitaji kubadilishwa.
+Onyo: Usichanganye password ya admin ya router (ambayo inalinda upatikanaji wa usanidi wake) na password ya Wi-Fi (ambayo inakuwezesha kuunganisha kwenye mtandao wa wireless). Hizi ni elements mbili tofauti, na zote zinahitaji kubadilishwa.
 
 
 Hatimaye, baadhi ya vipanga njia vya kisasa vina violesura viwili vya usimamizi: Wavuti ya ndani ya Interface (inaweza kufikiwa kupitia Address kama vile `192.168.1.1`) na wingu Interface (inayowezesha usimamizi wa mbali kupitia Mtandao). Ikiwa ya mwisho imewezeshwa kwa chaguo-msingi, nakushauri uizime ikiwa huitumii, au uimarishe usalama wake kwa nenosiri dhabiti na ikiwezekana uthibitishaji wa mambo mawili (2FA) ikiwa inapatikana.
@@ -8342,28 +8342,28 @@ Hatimaye, baadhi ya vipanga njia vya kisasa vina violesura viwili vya usimamizi:
 ### Salama usanidi wa router
 
 
-Router ndio moyo wa mtandao wako wa nyumbani. Usanidi wake una jukumu muhimu katika usalama wa vifaa vyote vilivyounganishwa. Kwa bahati mbaya, vipengele vingi vya kukokotoa vilivyoamilishwa kwa chaguomsingi kwenye vifaa hivi vinaweza kufichua mtandao wako kwa mashambulizi ya nje bila kukusudia. Ndiyo maana ni muhimu kufanya mapitio kamili ya chaguo zilizoamilishwa, na kuzima zile ambazo sio lazima kabisa kwa madhumuni yako.
+Router ndicho kitovu cha mtandao wako wa nyumbani. Usanidi wake una jukumu muhimu katika usalama wa vifaa vyote vilivyounganishwa. Kwa bahati mbaya, vipengele vingi vilivyoamilishwa kwa default kwenye vifaa hivi vinaweza kufichua mtandao wako kwa mashambulizi ya nje bila kukusudia. Ndiyo maana ni muhimu kufanya mapitio kamili ya chaguo zilizoamilishwa na kuzima zile zisizo za lazima kwa matumizi yako.
 
 
 Baadhi ya vipengele vinapaswa kuepukwa au kuzimwa kwa utaratibu:
 
 
 
-- UPnP (*Plug ya Universal na Cheza*)**:
+-**UPnP = (*Plug ya Universal na play*)**:
 
 
-Chaguo hili la kukokotoa huwezesha vifaa kwenye mtandao wako kuuliza kipanga njia kifungue milango kiotomatiki. Ingawa hii hurahisisha matumizi fulani (michezo ya mtandaoni, kamera zilizounganishwa, n.k.), pia hufungua mlango kwa programu hasidi zenye uwezo wa kurekebisha usanidi wa mtandao bila idhini yako. UPnP ni mojawapo ya sababu kuu za kufichua huduma za ndani bila kukusudia kwa ulimwengu wa nje.
+Chaguo hili la kukokotoa huruhusu vifaa kwenye mtandao wako kuomba router ifungue ports kiotomatiki. Ingawa hii hurahisisha matumizi fulani (kama michezo ya mtandaoni, kamera zilizounganishwa, n.k.), pia hufungua mlango kwa programu hasidi zinazoweza kurekebisha usanidi wa mtandao bila idhini yako. UPnP ni miongoni mwa sababu kuu za kufichuliwa kwa huduma za ndani bila kukusudia kwa ulimwengu wa nje.
 
 
 
-- WPS (*Usanidi Uliolindwa wa Wi-Fi*)**:
+- **WPS (Wi-Fi Protected Setup*)**:
 
 
 Hapo awali iliundwa ili kurahisisha kuunganisha vifaa kwenye Wi-Fi bila kuweka nenosiri, mfumo huu unatokana na msimbo wa PIN ambao mara nyingi ni dhaifu na kushambuliwa kwa urahisi na nguvu za kinyama. Ninakushauri kuizima.
 
 
 
-- Ufikiaji wa mbali (*Udhibiti wa Mbali*)**:
+- **Ufikiaji wa mbali (*Udhibiti wa Mbali*)**:
 
 
 Baadhi ya ruta hukuruhusu kuunganisha kwa utawala wao Interface kutoka nje, kupitia mtandao. Kipengele hiki huongeza bila sababu eneo la mashambulizi la kipanga njia chako. Zima kabisa, isipokuwa kama una hitaji maalum la usimamizi wa mbali. Hata hivyo, tumia VPN kila wakati.
@@ -8372,20 +8372,20 @@ Baadhi ya ruta hukuruhusu kuunganisha kwa utawala wao Interface kutoka nje, kupi
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Itifaki za kizamani au zisizo salama**:
+- **Protocol za kizamani au zisizo salama**:
 
 
-Zima huduma zozote za usimamizi zinazotumia itifaki za maandishi wazi kama vile Telnet, FTP, HTTP ambayo haijasimbwa kwa njia fiche au SMBv1. Itifaki hizi hazihakikishi usiri wala uadilifu wa data inayobadilishwa, na mara nyingi hulengwa na programu hasidi. Ikiwa unahitaji ufikiaji wa ndani au wa mbali, tumia tu miunganisho kupitia HTTPS (iliyosimbwa kwa njia fiche Interface), SSH au SFTP, inavyofaa.
+Zima huduma zozote za usimamizi zinazotumia protocol za maandishi wazi kama Telnet, FTP, HTTP isiyo na usimbaji fiche au SMBv1. Protocol hizi hazihakikishi usiri wala uadilifu wa data inayobadilishwa, na mara nyingi hulengwa na programu hasidi. Ikiwa unahitaji ufikiaji wa ndani au wa mbali, tumia tu miunganisho kupitia HTTPS (interface iliyosimbwa), SSH au SFTP, inavyofaa.
 
 
 
-- Ping WAN / ICMP**:
+- **Ping WAN / ICMP**:
 
 
 Baadhi ya vipanga njia hujibu kwa chaguo-msingi maombi ya ICMP yaliyotumwa kutoka nje (amri ya `ping`). Hii humruhusu mshambulizi kuangalia kama mtandao wako unatumika na unapatikana. Ikiwa huhitaji, zima jibu hili kwenye firewall ya router.
 
 
-Hatimaye, kumbuka kuzuia ufikiaji wa usimamizi wa kipanga njia Interface kwa vifaa vinavyoaminika pekee, ukizuia ufikiaji wake kwa anwani maalum za IP, ikiwa Interface inaruhusu hivyo. Baadhi ya programu dhibiti, kama vile OpenWrt, hutoa udhibiti mzuri sana juu ya vigezo hivi.
+Hatimaye, kumbuka kuzuia ufikiaji wa usimamizi wa router interface kwa vifaa vinavyoaminika pekee, kwa kuzuia ufikiaji kwa IP address maalum ikiwa interface inaruhusu hivyo. Baadhi ya firmware, kama OpenWrt, hutoa udhibiti wa kina juu ya vigezo hivi.
 
 
 ### Kuimarisha usalama wa mtandao wa Wi-Fi
@@ -8397,22 +8397,22 @@ Mtandao wa Wi-Fi mara nyingi ni sehemu inayopendekezwa ya kuingilia kwa mazingir
 Hatua ya kwanza muhimu ni kuchagua itifaki sahihi ya usimbuaji. Washa "*WPA3-Personal*" kila wakati, kiwango cha hivi punde na salama zaidi. Sio tu kulinda data iliyobadilishwa, lakini pia inazuia mashambulizi fulani yanayojulikana.
 
 
-Jina la mtandao wako wa Wi-Fi, unaoitwa "SSID" (*Kitambulisho cha Seti ya Huduma*), lazima lisalie upande wowote. Epuka kujumuisha jina lako, Address au chapa ya kipanga njia. Jina kama `MaisonDupont_WiFi6` tayari linatoa maelezo mengi kwa mvamizi anayetarajiwa. Pendelea jina la jumla, lisilo na maana maalum. Hii inazuia maelezo yanayopatikana kwa ufuatiliaji wa hali ya juu au ulengaji wa kijamii.
+Jina la mtandao wako wa Wi-Fi, linaloitwa "SSID" (Service Set Identifier), linapaswa kubaki upande wowote. Epuka kujumuisha jina lako, address au chapa ya router. Jina kama `MaisonDupont_WiFi6` Tayari linatoa maelezo mengi kwa mdukuzi anayetarajiwa. Ni bora kutumia jina la jumla, lisilo na maana maalum. Hii huzuia maelezo yanayoweza kupatikana kupitia ufuatiliaji wa hali ya juu au mashambulizi ya kijamii.
 
 
-Mbinu nyingine bora ni kuunda mtandao wa wageni tofauti na mtandao wako mkuu. Mtandao huu sambamba, ambao mara nyingi hutolewa asili kwenye vipanga njia vya kisasa, hukuwezesha kuwapa wageni wako muunganisho wa Mtandao bila wao kufikia vifaa vyako vingine (kompyuta, vichapishi, NAS, n.k.). Inamaanisha pia kuwa sio lazima uwape nenosiri lako kuu la mtandao. Ili kwenda mbali zaidi, wezesha kutengwa kwa mteja kwenye mtandao huu wa wageni: Hili pia litazuia wageni kuwasiliana wao kwa wao, na kupunguza zaidi hatari zinazohusiana na vifaa vilivyoathiriwa.
+Mbinu nyingine bora ni kuunda guest network tofauti na mtandao wako mkuu. Mtandao huu sambamba, ambao mara nyingi hutolewa kwa default kwenye router za kisasa, hukuwezesha kuwapa wageni wako muunganisho wa Internet bila wao kufikia vifaa vyako vingine (kompyuta, vichapishi, NAS, n.k.). Pia inamaanisha kuwa sio lazima uwape password yako kuu ya mtandao. Ili kuongeza usalama zaidi, wezesha client isolation kwenye guest network: hii itazuia wageni kuwasiliana wao kwa wao, na kupunguza zaidi hatari zinazoweza kusababishwa na vifaa vilivyoathiriwa.
 
 
-Hatimaye, rekebisha nguvu ya kutuma ya eneo lako la kufikia Wi-Fi. Kwa chaguo-msingi, ruta nyingi hutoa mawimbi yenye nguvu sana, wakati mwingine hutambulika zaidi ya kuta zako. Hii huongeza eneo lako la kukaribia aliyeambukizwa. Katika mipangilio ya kina ya kipanga njia chako, punguza nguvu ya utumaji hadi kiwango cha chini kinachohitajika kufunika nyumba yako. Ikiwa kipanga njia chako kinairuhusu, unaweza pia kusanidi kukatwa kwa Wi-Fi kiotomatiki wakati haitumiki.
+Hatimaye, rekebisha nguvu ya utumaji ya access point ya Wi-Fi. Kwa default, router nyingi hutoa mawimbi yenye nguvu kupita kiasi, ambayo wakati mwingine yanaweza kushikika hata nje ya kuta zako. Hii huongeza eneo la hatari linaloweza kufikiwa na mshambuliaji. Katika mipangilio ya kina ya router yako, punguza nguvu ya utumaji hadi kiwango cha chini kinachohitajika kufunika nyumba yako. Ikiwa router yako inaruhusu, unaweza pia kusanidi Wi-Fi izimwe kiotomatiki inapokuwa haitumiki.
 
 
 ### Mgawanyiko wa mtandao
 
 
-Mojawapo ya mikakati ya ufanisi zaidi ya kuimarisha usalama wa mtandao wa nyumbani ni sehemu. Hii inahusisha kugawanya mtandao wa ndani katika mitandao midogo kadhaa inayojitegemea inayoitwa "VLAN" (*Mitandao ya Maeneo Halisi*). VLAN hizi hufanya iwezekane kutenga aina tofauti za kifaa au matumizi, hata kama zinatumia maunzi sawa (ruta, kebo, terminal ya Wi-Fi, n.k.).
+Mojawapo ya mikakati madhubuti zaidi ya kuimarisha usalama wa mtandao wa nyumbani ni segmentation. Hii inahusisha kugawanya mtandao wa ndani katika mitandao midogo inayojitegemea, iitwayo "VLAN" (Virtual Local Area Networks). VLAN hizi huruhusu kutenga aina tofauti za vifaa au matumizi, hata kama zinatumia vifaa vilevile (router, kebo, Wi-Fi terminal, n.k.).
 
 
-Kila VLAN hufanya kazi kama mtandao mdogo, unaojitegemea na sheria zake za mawasiliano. Ubadilishanaji kati ya VLAN umezuiwa kwa chaguo-msingi au kudhibitiwa kabisa. Hii inazuia, kwa mfano, TV iliyounganishwa iliyoathiriwa kufikia kompyuta yako ya kibinafsi au NAS. Mbinu hii inatokana na kanuni 2 za msingi za usalama wa mtandao ambazo tayari tumejifunza katika sura zilizopita: Ushirikiano na fursa ndogo zaidi.
+Kila VLAN hufanya kazi kama mtandao mdogo unaojitegemea, ukiwa na sheria zake za mawasiliano. Ubadilishanaji kati ya VLAN huzuiwa kwa default au hudhibitiwa kabisa. Hii huzuia, kwa mfano, TV iliyounganishwa iliyoathiriwa kufikia kompyuta yako binafsi au NAS. Mbinu hii inafuata kanuni mbili za msingi za usalama wa mtandao tulizojifunza katika sura zilizopita: isolation na principle of least privilege.
 
 
 ![Image](assets/fr/197.webp)
@@ -8439,7 +8439,7 @@ Hatimaye, mbinu hii pia inatoa faida katika suala la utendakazi na usimamizi: In
 ### Usimamizi wa hali ya juu wa DNS
 
 
-DNS (*Mfumo wa Jina la Kikoa*) ni huduma ya Mtandao inayotafsiri anwani za wavuti zinazoeleweka na binadamu (k.m. `planb.network`) kuwa anwani za IP zinazoeleweka na mashine. Wakati kifaa kwenye mtandao wako kinapotaka kutembelea tovuti, huuliza seva ya DNS ili kupata Address ya seva ili kuwasiliana nayo. Kwa chaguomsingi, hoja hizi za DNS mara nyingi hutumwa kwa maandishi wazi (hazijasimbwa) kwa Mtoa Huduma za Intaneti, na kuiwezesha (au mtu mwingine kama vile serikali) kuona tovuti zote unazotembelea, hata kama maudhui yake yamesimbwa kwa njia fiche kupitia HTTPS.
+DNS (Domain Name System) ni huduma ya Internet inayotafsiri anwani za wavuti zinazoeleweka na binadamu. (k.m. `planb.network`) kuwa IP address zinazoeleweka na mashine. Wakati kifaa kwenye mtandao wako kinapotaka kutembelea tovuti, huuliza DNS server ili kupata IP address ya seva inayohitajika kuwasiliana nayo. Kwa default, maombi haya ya DNS mara nyingi hutumwa kwa maandishi wazi (yasiyosimbwa) kwa Internet Service Provider, na kuiwezesha (au wahusika wengine kama serikali) kuona tovuti zote unazotembelea, hata kama maudhui yake yamesimbwa kupitia HTTPS.
 
 
 Ili kuboresha faragha yako ya kuvinjari na kuzuia maudhui fulani yasiyotakikana moja kwa moja kutoka kwenye mzizi, unaweza kudhibiti ubora wa DNS ndani ya mtandao wako wa nyumbani. Anza kwa kubadilisha seva za DNS zinazotolewa na chaguo-msingi na mbadala zaidi zinazofaa kwa faragha kama vile :
@@ -8464,19 +8464,21 @@ Ili kuboresha faragha yako ya kuvinjari na kuzuia maudhui fulani yasiyotakikana 
 ![Image](assets/fr/199.webp)
 
 
-Kisha, washa itifaki ya usimbaji wa hoja ya DNS ili kuzuia hoja za DNS kuingiliwa au kufuatiliwa. Kuna itifaki kuu 2 za kufanya hivi:
+Kisha, washa protocol ya usimbaji wa hoja ya DNS ili kuzuia hoja za DNS kuingiliwa au kufuatiliwa. Kuna itifaki kuu 2 za kufanya hivi:
 
 
 
-- DoH (*DNS juu ya HTTPS*)**: Hujumuisha maombi ya DNS katika itifaki ya HTTPS, na kuyafanya yasitofautishwe na trafiki ya kawaida iliyosimbwa kwa njia fiche.
+- **DoH (*DNS over HTTPS*)**: Hujumuisha maombi ya DNS katika itifaki ya HTTPS, na kuyafanya yasitofautishwe na trafiki ya kawaida iliyosimbwa kwa njia fiche.
 
 
 
-- DoT (*DNS juu ya TLS*)**: Huunda chaneli mahususi iliyosimbwa kati ya kifaa chako na seva ya DNS
+- **DoT (*DNS over TLS*)**: Huunda chaneli mahususi iliyosimbwa kati ya kifaa chako na seva ya DNS
 
 
 
-- DoQ (*DNS juu ya QUIC*)**: Husafirisha maombi ya DNS kupitia itifaki ya QUIC yenye msingi wa UDP
+-kuwa IP address zinazoeleweka na mashine. Wakati kifaa kwenye mtandao wako kinapotaka kutembelea tovuti, huuliza DNS server ili kupata IP address ya seva inayohitajika kuwasiliana nayo. Kwa default, maombi haya ya DNS mara nyingi hutumwa kwa maandishi wazi (yasiyosimbwa) kwa Internet Service Provider, na kuiwezesha (au wahusika wengine kama serikali) kuona tovuti zote unazotembelea, hata kama maudhui yake yamesimbwa kupitia HTTPS.
+
+ **DoQ= (*DNS over QUIC*)**: Husafirisha maombi ya DNS kupitia itifaki ya QUIC yenye msingi wa UDP
 
 
 Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kutekelezwa katika viwango tofauti:
@@ -8506,7 +8508,7 @@ Ili kuchukua hatua zaidi, unaweza pia kusanidi suluhisho la kichujio la DNS kama
 
 https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-Zana hizi hufanya kama seva ndogo ya DNS ndani ya mtandao wako, ikizuia maombi kwa vikoa vinavyojulikana kupangisha utangazaji, vifuatiliaji vya kivinjari, hadaa au tovuti hasidi. Zana hizi pia hukuruhusu kuunda orodha zako za kuzuia au kubinafsisha uchujaji kulingana na vifaa vilivyounganishwa.
+Zana hizi hufanya kazi kama DNS server ndogo ndani ya mtandao wako, zikizuia maombi kwa domains zinazojulikana kupangisha matangazo, browser trackers, hadaa au tovuti hasidi. Pia hukuruhusu kuunda blocklists zako mwenyewe au kubinafsisha filtering kulingana na vifaa vilivyounganishwa.
 
 
 ![Image](assets/fr/200.webp)
@@ -8514,9 +8516,9 @@ Zana hizi hufanya kama seva ndogo ya DNS ndani ya mtandao wako, ikizuia maombi k
 
 ### Salama ufikiaji wa mbali kupitia VPN
 
-Katika baadhi ya matukio, ni muhimu kuwa na uwezo wa kufikia mtandao wako wa nyumbani wakati uko kwenye harakati: Rejelea faili kwenye NAS, tumia nodi ya Bitcoin na Umeme, fikia seva inayojipangisha yenyewe, au simamia mtandao wako. Hata hivyo, muunganisho huu wa mbali lazima uwe salama.
+Katika baadhi ya matukio, ni muhimu kuwa na uwezo wa kufikia mtandao wako wa nyumbani wakati uko kwenye harakati: Rejelea faili kwenye NAS, tumia node ya Bitcoin na Lightning, fikia seva inayojipangisha yenyewe, au simamia mtandao wako. Hata hivyo, muunganisho huu wa mbali lazima uwe salama.
 
-Kidokezo cha kwanza ni kutowahi kufungua mlango wa moja kwa moja kwenye kipanga njia chako ili kufikia kifaa (k.m. kupitia RDP, SSH au FTP), kwa kuwa hii inafichua huduma hiyo kwenye Mtandao mzima, ambayo ni hatari. Mashambulizi ya kiotomatiki yanayolenga bandari zilizo wazi ni mengi.
+Kidokezo cha kwanza ni kutowahi kufungua port moja kwa moja kwenye router yako ili kufikia kifaa (mfano kupitia RDP, SSH au FTP), kwa kuwa hii inafichua huduma hiyo kwa Internet nzima, jambo ambalo ni hatari. Mashambulizi ya kiotomatiki yanayolenga ports zilizo wazi ni ya kawaida sana.
 
 Suluhisho ninalopendekeza ni kutumia VPN (*Virtual Private Network*), yaani, njia iliyosimbwa kwa njia fiche kati ya kifaa chako cha mbali (kompyuta, simu mahiri, n.k.) na mtandao wako wa karibu. Baada ya kuunganishwa kwenye VPN, unaweza kufikia rasilimali za nyumba yako kana kwamba uko hapo kimwili, na kwa njia salama.
 
@@ -8531,9 +8533,9 @@ Hapa kuna mafunzo kamili juu ya Tailscale, suluhisho la VPN ambalo ni rahisi kus
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Unaweza kupangisha VPN hii moja kwa moja kwenye kipanga njia kinachooana, kwenye kompyuta ndogo (kama vile Raspberry Pi) au kwenye seva maalum nyumbani. Unaweza pia kusakinisha kama mteja moja kwa moja kwenye kifaa chochote.
+Unaweza kupangisha VPN hii moja kwa moja kwenye router inayooana, kwenye kompyuta ndogo (kama Raspberry Pi) au kwenye seva maalum nyumbani. Unaweza pia kuisakinisha kama client moja kwa moja kwenye kifaa chochote.
 
-Lakini VPN sio tu kwa ufikiaji wa mbali. Unaweza pia kutumia mteja wa kawaida wa VPN kwenye vifaa vyako kusimba kwa njia fiche trafiki yako yote unayotuma, hata ukiwa mbali na nyumbani (Wi-Fi ya umma, hoteli, chuo kikuu, n.k.). Katika hali hii, kifaa chako huunganishwa na seva ya VPN ya mtu wa tatu (ya kibiashara au inayojisimamia), ambayo kisha hutuma miunganisho yako kwenye Mtandao. Hii huficha IP yako halisi ya Address kutoka kwa ISP, hulinda data yako dhidi ya upelelezi wa ndani na kuepuka aina fulani za udhibiti.
+Lakini VPN si kwa ajili ya ufikiaji wa mbali pekee. Unaweza pia kutumia VPN client kwenye vifaa vyako ili kusimba trafiki yako yote unayotuma, hata ukiwa mbali na nyumbani (Wi-Fi ya umma, hoteli, chuo kikuu, n.k.). Katika hali hii, kifaa chako huunganishwa na VPN server ya mtu wa tatu (ya kibiashara au unayojihostia), ambayo kisha husambaza miunganisho yako kwenye Internet. Hii huficha IP address yako halisi kutoka kwa ISP, inalinda data yako dhidi ya upelelezi wa ndani, na husaidia kuepuka aina fulani za udhibiti.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8545,7 +8547,7 @@ Hatimaye, inawezekana pia kusanidi VPN moja kwa moja kwenye kipanga njia chako, 
 
 Baada ya mtandao wako kusanidiwa vizuri na kugawanywa, ni muhimu kwenda zaidi ya usalama wa hali ya juu. Ufuatiliaji hai wa mtandao wako wa karibu unaweza kugundua tabia isiyo ya kawaida, miunganisho isiyoidhinishwa au ishara za kuingilia. Lengo ni kugundua matatizo mapema, kabla hayajaleta madhara.
 
-Hatua ya kwanza ni kuweka kumbukumbu za usalama kati. Kila kifaa kilichounganishwa kwenye mtandao hutengeneza kumbukumbu zilizo na taarifa kuhusu miunganisho, hitilafu au shughuli za kutiliwa shaka. Badala ya kushauriana na kumbukumbu hizi kibinafsi, ninapendekeza kuzituma kwa seva inayoweza kuzipanga, kuzipanga na kuzichanganua. Suluhisho kama vile Graylog au Elastic Stack (ELK) hukuruhusu kujumlisha kumbukumbu hizi kwenye Interface ya picha ambapo unaweza kutafuta matukio mahususi, kuunda arifa au kuibua shughuli za mtandao.
+Hatua ya kwanza ni kuweka centralized security logs. Kila kifaa kilichounganishwa kwenye mtandao hutengeneza log zinazobeba taarifa kuhusu miunganisho, hitilafu au shughuli za kutiliwa shaka. Badala ya kuzichunguza moja kwa moja kwenye kila kifaa, ni bora kuzituma kwa server inayoweza kuzikusanya, kuzipanga na kuzichambua. Suluhisho kama Graylog au Elastic Stack (ELK) hukuruhusu kuunganisha logs hizi kwenye graphical interface ambapo unaweza kutafuta matukio mahususi, kuunda arifa au kuibua shughuli za mtandao.
 
 https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
@@ -8553,7 +8555,7 @@ Kisha, chunguza mtandao wako wa karibu mara kwa mara, kwa mfano na Nmap. Hii ita
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-Ili kwenda mbali zaidi, unaweza kusakinisha IDS (*Mfumo wa Kugundua Uvamizi*), au hata IPS (*Mfumo wa Kuzuia Kuingilia*). Zana hizi, kama vile Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua saini za mashambulizi yanayojulikana (skana za bandari, sindano, miunganisho ya kutiliwa shaka n.k.). IDS inaonya, wakati IPS inaweza kuzuia vitendo fulani kiotomatiki.
+Ili kwenda mbali zaidi, unaweza kusakinisha IDS (Intrusion Detection System), au hata IPS (Intrusion Prevention System). Zana hizi, kama Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua signatures za mashambulizi yanayojulikana (port scans, injections, miunganisho ya kutiliwa shaka, n.k.). IDS hutoa onyo, ilhali IPS inaweza kuzuia vitendo fulani kiotomatiki.
 
 Hatimaye, ufuatiliaji wa matumizi ya bandwidth pia ni kiashiria kizuri cha shughuli isiyo ya kawaida. Ikiwa kifaa kinatumia data nyingi ghafla bila sababu dhahiri, hii inaweza kusaliti upakuaji usioidhinishwa, uvujaji wa data, au hata kifaa kilichoathiriwa. Zana kama vile ntopng au vnStat hukuwezesha kutazama mtiririko unaoingia na kutoka kwa kifaa.
 
@@ -8563,9 +8565,9 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 
 Hata kwa mtandao salama kabisa, hitilafu za maunzi, hitilafu za usanidi au matukio yasiyotarajiwa (kushindwa kwa nguvu, kuongezeka kwa nguvu, kushindwa kwa disk ya Hard, nk) kunaweza kusababisha kupoteza data au kukatiza huduma zako. Ili kuhakikisha uendelevu wa mazingira yako ya kidijitali na kuepuka kuanza kutoka mwanzo kukitokea tatizo, ni muhimu kutekeleza mkakati wa kuhifadhi nakala na ustahimilivu.
 
-Anza kwa kuunga mkono mara kwa mara usanidi wa vifaa vya mtandao wako, hasa router. Faili hizi za usanidi mara nyingi zinaweza kusafirishwa kupitia usimamizi wa Interface. Kuweka nakala hukuruhusu kurejesha haraka mfumo wa kufanya kazi katika tukio la kuweka upya kifaa au uingizwaji. Ninapendekeza pia kusimba nakala hii kwa njia fiche.
+Anza kwa kufanya backup mara kwa mara ya usanidi wa vifaa vya mtandao wako, hasa router. Faili hizi za usanidi mara nyingi zinaweza kusafirishwa kupitia management interface. Kuweka backup hukuruhusu kurejesha haraka mfumo wa kufanya kazi iwapo kifaa kitarudishwa kwenye mipangilio ya awali au kitabadilishwa. Ninapendekeza pia kusimba backup hii kwa usalama zaidi.
 
-Hatimaye, ili kuboresha uthabiti wa mtandao wako iwapo nishati itakatika, wekeza kwenye UPS. Kifaa hiki hutoa nishati ya chelezo kwa dakika chache iwapo nguvu ya umeme itakatika, huku kuruhusu kuendelea kutumia Intaneti au kuhakikisha kuwa vifaa muhimu (NAS, kipanga njia, kituo cha kufikia Wi-Fi, n.k.) huzima kwa njia safi. Baadhi ya miundo pia inaweza kutuma amri ya kuzima kiotomatiki kwa vifaa vilivyounganishwa wanapotambua kuwa chaji ya betri iko chini.
+Hatimaye, ili kuongeza uthabiti wa mtandao wako iwapo umeme utakatika, wekeza kwenye UPS. Kifaa hiki hutoa nishati ya dharura kwa dakika chache endapo umeme utazimika, na hivyo kuruhusu kuendelea kutumia Internet au kuhakikisha kuwa vifaa muhimu (NAS, router, Wi-Fi access point, n.k.) vinazimwa kwa njia salama. Baadhi ya mifumo pia inaweza kutuma amri ya kuzima kiotomatiki kwa vifaa vilivyounganishwa wakati betri inapokaribia kuisha.
 
 Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao ambayo yanaheshimu faragha yako.
 

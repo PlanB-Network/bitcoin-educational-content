@@ -972,11 +972,9 @@ Arch Linux 系列的设计理念与现成的发行版截然不同。它们是极
 
 这种方法基于 "滚动发布 "模式，即软件包持续更新，无需在每次重大版本发布时重新安装系统。Pacman 软件包管理器速度快、重量轻，便于安装和更新软件，而社区软件仓库 AUR（*Arch User Repository*）则提供了大量非官方和开发软件包。
 
-
-
 Arch Linux 首先面向的是那些希望完全控制自己的环境，同时又能接受一定的安装和维护复杂性的高级用户。这种技术要求导致了一些衍生发行版的出现，目的是使其使用更加平民化。
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 其中最著名的是 Manjaro，它保留了 Arch 的技术基础，同时提供简化的安装、预配置的桌面环境以及稍稍延迟的发布周期以稳定更新。
 
@@ -1064,7 +1062,7 @@ Ubuntu 由 Canonical 开发，于 2004 年推出，是全球最受欢迎的发�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Linux Mint 于 2006 年推出，是一个源自 Ubuntu 的发行版，旨在提�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 因其简洁性、默认的多媒体编解码器和精心设计的更新工具而脱颖而出。另一方面，Mint 严重依赖 Ubuntu 的基础架构，这使得它必须依赖 Ubuntu 的技术选择（尤其是在内核和软件源层面）。Mint 特别适合非技术用户，或者那些想要一个无需太多学习就能立即使用的系统的用户。
 
@@ -1108,9 +1106,9 @@ Zorin OS 由一个爱尔兰团队于 2008 年创建，其目标用户是希望�
 
 - 初级操作系统**：
 
-
-
 elementary OS 于 2011 年推出，是一款基于 Ubuntu 的发行版，主要侧重于 Interface 的设计和一致性。它的 Pantheon 桌面环境受到 macOS 的启发，简约、优雅、流畅。不过，与其他发行版相比，该系统的可定制性仍然较低，一些高级用户可能会因 Interface 的选择及其刻意锁定的结构而感到受限。它非常适合对美学敏感、寻求简单连贯的日常使用系统的用户。
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux 是一款简约、可持续更新的发行版，没有 Interface 或�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### 专业配送
 
-
-
-
-
 - Kali Linux**：
-
-
 
 Kali Linux 是一个基于 Debian 的发行版，专为渗透测试和安全审计而设计。它包含数百个 pentest 工具。该发行版并不适合作为日常使用的主要系统。
 
@@ -1252,7 +1246,7 @@ Tails 是一款基于 Debian、注重隐私的实时发行版。所有内容都�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **注：** Live 发行版是一种 Linux 操作系统，可直接从 U 盘或 CD 使用，无需在 Hard 磁盘上安装。
 
@@ -1306,9 +1300,9 @@ PureOS 是由 Purism 开发的 Debian 衍生发行版，完全免费（经 FSF �
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi 操作系统**：
-
-
 
 Raspberry Pi OS（前身为 Raspbian）是专为 Raspberry Pi 微型计算机优化的发行版。它基于 Debian，并针对 ARM 架构重新编译了软件包。它可用于教育项目、电子测试或小型个人服务器。
 
@@ -1332,36 +1326,23 @@ Whonix 采用双虚拟机架构（网关 + 工作站），将 Debian 与 Tor 网
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 这幅全景图为你提供了当前 Linux 发行版生态系统的概览，使你能够选择最适合你的技术特征和目标的发行版。
-
-
 
 在 SCU202 的下一章，我们将从构成日常系统交互基础的图形环境入手，更深入地了解实用的 Linux 环境。
 
-
-
 ## Linux 桌面环境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 在 GNU/Linux 系统中，桌面环境是用户体验中最重要的部分之一。它是图形化的 Layer，通过窗口、菜单、图标、面板和预装的应用程序等熟悉的视觉表现形式，实现与系统的交互。
-
-
 
 在本章中，我将探讨桌面环境的结构和作用、其典型组件、可用的主要系列、选择标准及其与最流行的 Linux 发行版的集成。
 
-
-
 ### 什么是办公环境？
 
-
-
 桌面环境（或 "*DE*"，意为 "*桌面环境*"）是指构成操作系统完整图形 Interface 的一组程序。在 Windows 和 macOS 系统中，默认情况下提供的是集成到系统中的单一桌面环境，无法对其进行完全修改（只有某些 shell 可以对 Interface 进行部分修改）。另一方面，Linux 系统的模块化程度要高得多，它将桌面环境视为可自由更换的独立组件。
-
-
 
 在 Linux 中，明确区分所有层级非常重要：内核（管理与硬件的交互）、显示服务器（通过内核充当应用程序、图形驱动程序和硬件之间的中介），最后是桌面环境本身，它依赖这些基础架构为用户提供连贯的图形 Interface。这种区分有时并不那么明显，因为许多 Linux 发行版都预装了桌面环境，其中有时包括自己的 Wayland 合成器，然后充当显示服务器。
 
@@ -4869,12 +4850,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 激活 FileVault 后，您需要选择密码丢失时的恢复方法：要么使用您的 *iCloud* 账户，要么使用 generate 唯一备份密钥。该密钥必须保存在安全的地方，因为一旦丢失，您的数据将永久无法访问。
 
-
-
 对于外部存储介质（Hard 磁盘、U 盘等），可使用磁盘实用程序进行加密。您需要完全重新格式化卷：
-
-
-
 
 - 选择设备，点击 "*删除*"。
 - 选择 "GUID* 分区表 "方案
@@ -4882,41 +4858,25 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - 选择一个强大的密码
 - 点击 "*删除*"，然后点击 "*确定*"，加密完成
 
-
-
 加密就位后，外置硬盘只能通过输入该密码才能加载。然后系统会自动解密。
-
-
 
 #### 关于加密备份的几点建议
 
-
-
 在对介质进行加密之前，需要备份其中包含的所有数据（当然，除非是空的），因为加密程序通常会删除初始内容。
-
-
 
 密码的选择也非常重要：它必须冗长、复杂且唯一，因为它是您的数据与恶意第三方之间的唯一保护。您还需要进行备份，例如在密码管理器中进行备份，因为密码管理器与在线服务不同，没有恢复机制。如果忘记密码，数据就会永远丢失。
 
-
-
 ### 选择性文件加密
-
-
 
 在某些情况下，加密整个 Hard 磁盘或外部介质既没有必要，也不现实。在这种情况下，您可以选择选择性加密，即只对包含敏感数据的某些文件或目录进行加密。
 
-
-
 最著名的文件加密方法之一是使用 GPG。该工具基于非对称加密技术：你有一对密钥，一个是公开密钥，可以随意分发给你的通信者，另一个是私人密钥，必须严格保密。文件使用收件人的公开密钥加密，但只能使用其私人密钥解密。
-
-
 
 该协议非常适合在不共享密码的情况下与他人安全交换敏感文件。对于个人或偶尔使用的情况，GPG 还能进行对称加密：文件由一个只有你知道的唯一密码保护。
 
-
-
 Cryptomator 是一个很好的替代方案。这款开源软件允许你创建一个保险箱：一个存放所有文件并自动加密的特殊目录。这个保险箱可以与 Dropbox、Google Drive 或 Nextcloud 等云服务同步，而服务提供商永远无法访问未加密的数据。该应用程序适用于包括 Android 和 iOS 在内的所有操作系统，使用时无需特殊技术技能。
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Cryptomator 是一个很好的替代方案。这款开源软件允许你创建�
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 最后，还可以在容器模式下使用 VeraCrypt，这样可以创建一个文件，作为加密存档，像磁盘一样可以挂载。
-
-
 
 在了解了如何保护个人数据免遭丢失和被盗之后，下一章将探讨另一个重要方面：如何通过元数据防止个人文件成为攻击载体。
 
-
-
-
 ## 元数据清理
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 每次创建数字文件时，无论是照片、办公文档、音频还是视频文件，其后台都会包含元数据。这些信息在你打开文件时并不直接可见，但它就在那里，而且可能包含极其敏感的 Elements。
-
-
 
 ### 为什么元数据是一种风险？
 
-
-
 元数据是附加在文件上的数据，其作用是提供有关内容的上下文信息。在图像中，元数据可包括拍摄图像的日期和时间、精确的 GPS 坐标、所用相机或智能手机的型号，有时甚至包括技术设置。在文本文档中，它可以包括作者姓名、公司名称、用户会话 ID、创建和修改时间戳，甚至编辑时留下的内部注释。
-
-
 
 这些元数据看似无害，但却可被恶意行为者用来识别文件的作者、对个人进行物理定位、重建事件或习惯，甚至根据所使用的软件版本利用软件漏洞。
 
-
-
 让我们举一个具体的例子：你在论坛上发布了一张所谓的匿名照片。如果你没有删除 EXIF 元数据，只需点击一下，就能显示你家的精确 GPS 坐标、手机型号和照片拍摄的确切日期。同样，匿名发送的 PDF 文档也可能在属性中包含你的全名。
-
-
 
 这就是为什么有些媒体发布和交流平台会自动删除照片中的元数据。这些平台包括 X（Twitter）、Instagram、Signal 和 Session。另一方面，其他平台则完全不移除元数据：大多数在线论坛、许多电子邮件客户端，甚至是直接在网站上发布时都是如此。
 
-
-
 这是一个必要的条件反射：一旦文件离开你的私人空间，你就需要考虑清理它的元数据，以避免在你不知情的情况下泄露个人或敏感信息。让我们根据操作系统来看看如何做到这一点。
-
-
 
 ### 在 Linux（Debian）上
 
-
-
 #### 使用 ExifTool
-
-
 
 管理和删除元数据最完整可靠的方法是 Phil Harvey 开发的 ExifTool。它兼容大量文件格式（JPG、PNG、PDF、MP3、DOCX......），可以显示和删除元数据。
 
-
-
-
-
 - 步骤 1：安装 ExifTool
 
-
-
 要在 Debian 发行版（Ubuntu）上安装，请打开终端并键入命令：
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 该软件包安装了 `exiftool`，你可以直接在命令行中使用它。
 
@@ -5835,15 +5761,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvad 浏览器
 
-
-
 [Mullvad 浏览器](https://mullvad.net/en/browser) 是 Tor 基金会和 Mullvad VPN 合作的成果。它基于 Tor 浏览器，而 Tor 浏览器本身则源自 Firefox ESR。Mullvad 浏览器旨在最大限度地保护用户隐私。默认情况下，它包括针对指纹识别、跟踪器和第三方脚本的高级保护。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它拥有 Tor 浏览器提供的大部分安全和隐私功能，但有一点不同：它不会通过 Tor 网络重定向流量。为了避免 IP Address 泄露，你可以将它与 VPN（最好是 Mullvad VPN）结合使用。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### 禅宗浏览器
-
-
 
 [Zen 浏览器](https://zen-browser.app/) 是一款基于 Firefox（Gecko 引擎）的免费开源浏览器，于 2024 年推出。它的目标是提供现代、优雅、高度可定制且最重要的是以隐私为中心的浏览体验，而不依赖 Chromium。
 
-
-
 Zen 在 Interface 和可用性方面采用了激进的方法，主要受到 Arc 浏览器的启发，但又通过其开源性质和 Gecko 引擎从 Arc 浏览器中解放出来。它包括 ：
-
-
-
 
 - 这是一款极简的模块化 Interface，具有垂直侧边栏标签、分割视图和按项目分组标签的*工作区*系统；
 - 可定制的 Interface 模板系统（*Zen Mods*），可用于深度修改浏览器的外观；
 - 一个名为 *Glance* 的原创功能，可在轻量级临时窗口中打开链接，避免标签页的杂乱无章...
 
-
-
 Zen 还支持 Firefox 扩展，以及通过 Mozilla 账户进行同步。
-
-
 
 从安全和隐私的角度来看，Zen 浏览器具有本地阻止第三方跟踪器的功能。该浏览器本身不收集任何数据，还允许禁用 Mozilla 遥测技术。它还能自动拒绝过时或不合规的 SSL 证书。
 
-
-
 如果你正在寻找一个自由、创新、简洁、尊重隐私的 Gecko 浏览环境，Zen 浏览器是一个有趣的替代选择。
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基于 WebKit 的浏览器
 
-
-
 #### 野生动物园
-
-
 
 目前仍在使用 WebKit 渲染引擎（而非 Blink 那样的 Fork）的主要浏览器是 Safari。[Safari](https://www.apple.com/safari/)是苹果为 macOS 提供的专属浏览器。它与苹果生态系统的集成度极高，性能卓越，现在还包括更强大的跟踪和指纹识别保护功能。
 
-
-
 然而，Safari 仍然是封闭的，其桌面版本仅限于 macOS，并且依赖于苹果生态系统。虽然苹果公司有严格的隐私政策，其商业模式主要基于硬件销售而非广告，但它对某些内部做法仍不清楚。
-
-
 
 在这里，我们重点讨论的是桌面浏览器，但需要注意的是，在 iOS 上，苹果要求所有浏览器都使用 WebKit 渲染引擎（不过，由于欧洲的某些规定，这一限制可能很快就会改变）。这意味着在 iOS 上，Chrome、Firefox 或 Brave 等浏览器必须提供基于 WebKit 的应用程序，而不是它们常用的呈现引擎。
 
@@ -6720,7 +6623,7 @@ GrapheneOS 不集成任何专有组件。您可以自由添加或不添加 Googl
 Graphene 仅与最近的 Google Pixels（Pixel 6、7、8 和 9）兼容。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 
 ### 通过 VPN 实现安全的远程访问
 
-
 在某些情况下，移动时访问家庭网络非常有用：查看 NAS 上的文件、使用 Bitcoin 和 Lightning 节点、访问自托管服务器或管理网络。不过，这种远程连接必须安全。
-
 
 第一个建议是，永远不要直接打开路由器上的端口来访问设备（如通过 RDP、SSH 或 FTP），因为这样会将该服务暴露给整个互联网，从而构成漏洞。针对开放端口的自动攻击不胜枚举。
 
-
 我推荐的解决方案是使用 VPN（*虚拟专用网络*），即在远程设备（电脑、智能手机等）和本地网络之间建立加密隧道。连接到 VPN 后，您就可以访问家里的资源，就像您在家里一样安全。
 
-
 针对私人客户的两种主要解决方案是
-
-
 
 - WireGuard：现代、快速、轻便
 - OpenVPN：较老，但非常成熟且可配置
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 下面是 Tailscale 的完整教程，这是一个使用 WireGuard 的易于配置的 VPN 解决方案：
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 您可以直接在兼容路由器、小型计算机（如 Raspberry Pi）或家中的专用服务器上托管此 VPN。你也可以将它作为客户端直接安装在任何设备上。
 
-
 但是，VPN 并不仅仅用于远程访问。你也可以在设备上使用传统的 VPN 客户端来加密你的所有外向流量，即使你不在家（公共 Wi-Fi、酒店、大学等）也是如此。在这种情况下，你的设备会连接到第三方 VPN 服务器（商业或自托管），然后由它将你的连接转发到互联网。这样就可以向互联网服务提供商隐藏你的真实 IP Address，保护你的数据不被本地间谍窃取，并避免某些形式的审查。
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 最后，还可以直接在路由器上设置 VPN，这样就可以保护家中的所有设备，而无需在每台设备上安装 VPN 客户端。
 
-
 ### 监测和检测
-
 
 一旦网络配置和分段正确，就必须超越被动安全。主动监控本地网络可以发现异常行为、未经授权的连接或入侵迹象。这样做的目的是及早发现问题，以免造成损失。
 
-
 第一步是集中管理安全日志。每个连接到网络的设备都会生成日志，其中包含有关连接、错误或可疑活动的信息。我建议不要单独查阅这些日志，而是将它们发送到能够对其进行分组、分类和分析的服务器上。通过 Graylog 或 Elastic Stack (ELK) 等解决方案，您可以将这些日志汇总到一个图形化的 Interface，在其中搜索特定事件、创建警报或可视化网络活动。
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 接下来，定期对本地网络进行主动扫描，例如使用 Nmap。这将使您对网络上的所有设备及其打开的端口有一个总体了解。如果发现未知设备或异常服务，这可能就是攻击的迹象。
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 更进一步，您可以安装 IDS（*入侵检测系统*），甚至 IPS（*入侵防御系统*）。这些工具（如 Suricata 或 Snort）可实时监控网络流，并检测已知攻击的特征（端口扫描、注入、可疑连接等）。IDS 发出警告，而 IPS 可以自动阻止某些行为。
 
-
-
 最后，监控带宽消耗也是异常活动的良好指标。如果一台设备突然无缘无故消耗大量数据，这可能意味着未经授权的下载、数据泄露，甚至是设备被入侵。通过 ntopng 或 vnStat 等工具，您可以按设备查看进出流量。
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 备份和恢复能力
 
-
 即使网络非常安全，硬件故障、配置错误或意外事件（断电、电涌、Hard 磁盘故障等）也可能导致数据丢失或服务中断。为了保证数字环境的连续性，避免在出现问题时从头开始，实施备份和恢复策略非常重要。
-
 
 首先要定期备份网络设备的配置，尤其是路由器。这些配置文件通常可以通过管理 Interface 导出。保留一份副本可以在重置或更换设备时快速恢复系统功能。我还建议对该备份进行加密。
 
-
 最后，为了提高网络在断电情况下的恢复能力，请投资购买 UPS。这种设备可在断电时提供几分钟的备用电源，让您可以继续使用互联网，或确保关键设备（NAS、路由器、Wi-Fi 接入点等）干净利落地关闭。某些型号还能在检测到电池电量不足时向连接的设备发送自动关机命令。
-
 
 通过以下几个步骤，您就可以建立一个强大、安全且尊重您隐私的网络环境。
 
-
 # 最后部分
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## 评论与评级
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## 结论
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

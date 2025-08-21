@@ -1,0 +1,9 @@
+question: Özgürlük ve sorumluluk arasındaki ilişki nedir?
+answer: Sorumluluk bireysel seçimlerin özgürlüğünden doğar
+wrong_answers:
+  - Özgürlük başkalarının sorumluluğu ile sınırlıdır
+  - Özgürlük ve sorumluluk birbirinden bağımsız iki kavramdır
+  - Sorumluluk özgürlüğün önünde bir engeldir
+explanation: |
+  Özgürlük ve sorumluluk arasındaki ilişki içseldir, çünkü seçim yapma özgürlüğü aynı zamanda bu seçimlerin sonuçlarının sorumluluğunu da beraberinde getirir, dolayısıyla her özgür eyleme ahlaki bir yükümlülüğün eşlik ettiğini vurgular.
+reviewed: true

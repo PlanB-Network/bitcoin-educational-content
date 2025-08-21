@@ -100,7 +100,7 @@ Este modelo difere profundamente dos sistemas bancários tradicionais, que se ba
 
 A Bitcoin funciona de forma diferente. O conceito de conta não existe e as unidades monetárias não são geridas através de saldos, mas sim através de UTXOs. Um UTXO representa uma quantidade específica de bitcoins que ainda não foi gasta, formando assim um "pedaço de bitcoin", que pode ser grande ou pequeno. Por exemplo, um UTXO pode valer `500 BTC` ou simplesmente `700 SATS`.
 
-**> O satoshi, frequentemente abreviado para sat, é a unidade mais pequena da Bitcoin, comparável ao cêntimo nas moedas fiduciárias.
+**Lembrar:** O satoshi, frequentemente abreviado para sat, é a unidade mais pequena da Bitcoin, comparável ao cêntimo nas moedas fiduciárias.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ A Bitcoin funciona de forma diferente. O conceito de conta não existe e as unid
 
 Teoricamente, um UTXO pode representar qualquer valor em bitcoins, variando de um sat a um máximo teórico de cerca de 21 milhões de BTC. No entanto, é logicamente impossível possuir todos os 21 milhões de bitcoins, e existe um limiar económico inferior chamado "dust", abaixo do qual um UTXO é considerado economicamente não rentável para gastar.
 
-**> O maior UTXO já criado no Bitcoin tinha um valor de `500.000 BTC`. Foi criado pela plataforma MtGox durante uma operação de consolidação em novembro de 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Sabia que?** O maior UTXO já criado no Bitcoin tinha um valor de `500.000 BTC`. Foi criado pela plataforma MtGox durante uma operação de consolidação em novembro de 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs e condições de despesa
 
@@ -148,7 +148,7 @@ Cada transação Bitcoin é, portanto, composta por uma ou mais entradas e uma o
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoricamente, uma transação de bitcoin pode ter um número infinito de entradas e saídas. O único limite é o tamanho máximo do bloco.
+**Sabia que?** Teoricamente, uma transação de bitcoin pode ter um número infinito de entradas e saídas. O único limite é o tamanho máximo do bloco.
 
 Cada entrada numa transação Bitcoin refere-se a um UTXO anterior não gasto. Para utilizar uma UTXO como input, o seu detentor deve demonstrar que é o legítimo proprietário através da validação do script associado, ou seja, satisfazendo a condição de gasto imposta. De um modo geral, isto significa fornecer uma assinatura digital produzida com a chave privada correspondente à chave pública que inicialmente protegeu este UTXO. O guião consiste, portanto, em verificar se a assinatura corresponde à chave pública utilizada aquando da receção dos fundos.
 
@@ -211,7 +211,7 @@ Os bitcoins subsidiados por blocos são novos BTC criados de raiz, de acordo com
 
 Quanto às taxas de transação, embora também representem BTC recém-criadas, não devem exceder a diferença entre o total de entradas e saídas de todas as transacções num bloco. Vimos anteriormente que estas taxas representam a parte dos inputs que não é utilizada nos outputs da transação. Esta porção é tecnicamente "perdida" durante a transação e o mineiro tem o direito de recriar este valor sob a forma de um ou mais novos UTXOs. Trata-se de uma transferência de valor entre o emissor da transação e o mineiro que a adiciona à cadeia de blocos.
 
-**> Os bitcoins gerados por uma transação coinbase estão sujeitos a um período de maturidade de 100 blocos, durante o qual não podem ser gastos pelo mineiro. Esta regra foi concebida para evitar complicações relacionadas com a utilização de bitcoins recém-criados numa cadeia que poderia mais tarde tornar-se obsoleta.
+**Sabia que?** Os bitcoins gerados por uma transação coinbase estão sujeitos a um período de maturidade de 100 blocos, durante o qual não podem ser gastos pelo mineiro. Esta regra foi concebida para evitar complicações relacionadas com a utilização de bitcoins recém-criados numa cadeia que poderia mais tarde tornar-se obsoleta.
 
 ### As implicações do modelo UTXO
 
@@ -235,10 +235,8 @@ Uma das funções da moeda é resolver o problema da dupla coincidência de nece
 ![BTC204](assets/fr/018.webp)
 
 Para que a moeda resolva este problema, é essencial que a parte que fornece um bem ou serviço esteja convencida da sua capacidade de gastar essa soma numa data posterior. Assim, qualquer indivíduo racional que deseje aceitar uma moeda, seja ela digital ou física, assegurar-se-á de que esta satisfaz dois critérios fundamentais:
-
-
-- A peça deve ter integridade e autenticidade ;**
-- e não deve ser gasto duas vezes
+- **A peça deve ter integridade e autenticidade ;**
+- **e não deve ser gasto duas vezes**
 
 Se estiver a utilizar moeda física, é a primeira caraterística que é mais complexa de afirmar. Em diferentes períodos da história, a integridade das moedas metálicas foi frequentemente afetada por práticas como o corte ou a perfuração. Na Roma antiga, por exemplo, era prática comum os cidadãos rasparem os bordos das moedas de ouro para recolherem um pouco do metal precioso, guardando-as para transacções futuras. O valor intrínseco da moeda era assim reduzido, mas o seu valor facial permanecia o mesmo. Esta é uma das razões pelas quais o bordo da moeda foi posteriormente canelado.
 
@@ -302,12 +300,9 @@ Mas como as transacções de Bitcoin são públicas, é possível estabelecer li
 A análise da cadeia de blocos é a prática de rastrear o fluxo de bitcoins na cadeia de blocos. De um modo geral, a análise da cadeia baseia-se na observação de caraterísticas em amostras de transacções anteriores. Em seguida, consiste em identificar essas mesmas caraterísticas numa transação que se pretende analisar e deduzir interpretações plausíveis a partir delas. Este método de resolução de problemas, baseado numa abordagem prática para encontrar uma solução suficientemente boa, é conhecido como "heurística".
 
 Em termos leigos, há três fases principais na análise da cadeia:
-
 1. **Observar a cadeia de blocos ;**
-
 2. **A identificação de elementos conhecidos ;**
-
-3. **A dedução de pressupostos
+3. **A dedução de pressupostos**
 
 ![BTC204](assets/fr/026.webp)
 

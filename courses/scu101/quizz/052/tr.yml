@@ -1,0 +1,12 @@
+question: Neden USB anahtarları veya akıllı kartlar gibi donanım belirteçlerinin 2FA için en uygun güvenliği sunduğu düşünülüyor?
+answer: Her site için benzersiz bir özel anahtar generate yaparlar ve bağlantıya izin vermeden önce URL'yi doğrularlar.
+wrong_answers:
+  - Fiziksel olarak çalınmaları daha zordur, ancak hırsızlar başarılı olurlarsa, cihazdaki sırları kolayca çıkarabilirler.
+  - generate her site için yalnızca bir şifre belirler ve bağlantıya izin vermeden önce URL'yi doğrular.
+  - Bunlar daha yeni teknoloji ve pahalı, bu yüzden daha iyi olmalılar.
+explanation: |
+  Donanım belirteçleri optimum güvenlik sunar çünkü
+  generate her site için benzersiz bir özel anahtar ve
+  Bağlantıya izin vermeden önce URL. Bu çok daha fazlasını yapar
+  bir bilgisayar korsanının yetkisiz erişim elde etmesi daha zordur.
+reviewed: true

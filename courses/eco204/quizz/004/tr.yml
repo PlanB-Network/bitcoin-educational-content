@@ -1,0 +1,10 @@
+question: Larousse'a göre enflasyonun tanımı nedir?
+answer: Enflasyon, fiyatlar düzeyinde genel ve sürekli bir artışla karakterize edilen bir olgudur.
+wrong_answers:
+  - Enflasyon, fiyatlar düzeyinde genel ve sürekli bir düşüş ile karakterize edilen bir olgudur.
+  - Enflasyon, fiyatlar düzeyinde belirli ve sürekli bir artış ile karakterize edilen bir olgudur.
+  - Enflasyon, fiyatlar düzeyinde genel ve aralıklı bir artışla karakterize edilen bir olgudur.
+explanation: |
+  Larousse'a göre enflasyon şu şekilde karakterize edilen bir olgu olarak tanımlanmaktadır
+  fiyatlar seviyesinde genel ve sürekli bir artışla.
+reviewed: false

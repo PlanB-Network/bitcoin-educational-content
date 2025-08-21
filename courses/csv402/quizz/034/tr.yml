@@ -1,0 +1,9 @@
+question: Bob (alıcı), Alice'den (ödeyici) Terminal Consignment'ı aldıktan sonra hangi eylemi gerçekleştirir?
+answer: State Transition'ün geçerliliğini kontrol edin ve imzalayın
+wrong_answers:
+  - Contract Schema'i değiştirin ve Alice'ya gönderin
+  - Yeni bir işlem için bir Invoice oluşturun
+  - Alice'in PSBT'unu imzalayın ve zincir üzerinde dağıtın
+explanation: |
+  Bob, Consignment'u inceler, geçişin kurallara uygun olduğundan emin olur ve onayını teyit etmek için imzalar.
+reviewed: false

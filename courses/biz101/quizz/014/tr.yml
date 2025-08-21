@@ -1,0 +1,9 @@
+question: Belirsiz bir gelecekte sağlıklı bir şirket için sermayenin korunması neden gereklidir?
+answer: Sermaye rezervlerini korumak, şirketin uyum sağlamasına, büyümeye yatırım yapmasına ve ekonomik gerilemeleri atlatmasına olanak tanır.
+wrong_answers:
+  - Sermayenin korunması, hiçbir rakibin pazara girememesini garanti eder.
+  - Sermayenin korunması, tüm düzenleyici değişikliklere karşı kalıcı bağışıklık sağlar.
+  - Sermayenin korunması yalnızca şirket hiç büyümemeyi planlıyorsa önemlidir.
+explanation: |
+  Gelecekteki koşullar öngörülemez. Bir işletme, bir miktar sermayeyi yedekte tutarak yeni fırsatları yakalayabilir, beklenmedik zorlukların üstesinden gelebilir ve yalnızca dış finansmana güvenmeden uzun vadeli girişimlere yatırım yapabilir.
+reviewed: false

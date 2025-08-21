@@ -1,0 +1,8 @@
+question: Condorcet'e göre özgürlük insanları neden korkutur?
+answer: Çünkü hükümetin her konuya müdahale etmesine çok alışmış
+wrong_answers:
+  - Çünkü Fransa'da hiç denenmedi
+  - Çünkü şiddetli bir devrim gerektirir
+  - Çünkü kaos ile eş anlamlıdır
+explanation: |
+  Condorcet, insanların devlet müdahalesine alışkın olduklarına ve özgürlüğü nasıl kullanacaklarını bilmedikleri için özgürlükten korktuklarına inanıyordu.

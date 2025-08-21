@@ -1,0 +1,10 @@
+question: Bir konsolidasyonun tüm girdilerini birbirine bağlamak için hangi sezgisel yöntem kullanılabilir?
+answer: CIOH.
+wrong_answers:
+  - Address yeniden kullanım.
+  - En büyük çıktı.
+  - Yuvarlak ödeme.
+explanation: |
+  Dışarıdan bir gözlemci, bir konsolidasyonun tüm girdilerinin aynı varlığa ait olduğunu varsaymak için CIOH'u uygulayabilir.
+  
+reviewed: false

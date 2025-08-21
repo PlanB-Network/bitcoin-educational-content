@@ -1,0 +1,17 @@
+question: Daha fazla para basmanın bir para biriminin satın alma gücü üzerindeki etkisi nedir?
+answer: Para biriminin satın alma gücünde bozulma
+wrong_answers:
+  - Para biriminin satın alma gücünde artış
+  - Etki yok
+  - Daha fazla para = daha fazla satın alma gücü
+explanation: |
+  Merkez bankaları para basmaya karar verdiklerinde, basitçe daha fazla değer yaratamazlar.
+  Bu yeni basılan paranın bir değeri olabilmesi için, değerinin
+  önceki para sahipleri.
+  Supply parasını bir pizza olarak düşünün ve dört dilime bölündüğünü hayal edin.
+  Supply parasını iki katına çıkarmak pizza miktarını iki katına çıkarmakla eşdeğer olmayacaktır.
+  Bunun yerine, bu dört dilimi ikiye bölerek
+  sekiz dilim. Fazladan pizza kazanmadık. Sadece daha fazla dilimimiz var,
+  her biri daha küçük boyutta. Bu nedenle, daha fazla para bastığımızda, paranın değerini düşürürüz
+  zaten var olan bir şey.
+reviewed: true

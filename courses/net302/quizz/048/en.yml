@@ -1,0 +1,9 @@
+question: Which layer of the OSI model does the MAC address belong to?
+answer: Data link layer
+wrong_answers:
+  - Application layer
+  - Transport layer
+  - Network layer
+explanation: |
+  The MAC address operates at layer 2 of the OSI model, known as the "data link layer", where it is used for hardware addressing of frames.
+reviewed: false

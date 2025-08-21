@@ -972,11 +972,9 @@ Arch Linuxi perekonda iseloomustab filosoofia, mis on radikaalselt vastupidine v
 
 See lähenemisviis põhineb *jooksva versiooni* mudelil, kus pakette uuendatakse pidevalt, ilma et süsteemi oleks vaja iga suurema versiooni puhul uuesti paigaldada. Pacmani paketihaldur on kiire ja kerge, mis teeb tarkvara paigaldamise ja uuendamise lihtsaks, ning kogukonna repositoorium AUR (*Arch User Repository*) pakub juurdepääsu suurele hulgale mitteametlikele ja arenduspakettidele.
 
-
-
 Arch Linux on suunatud eelkõige edasijõudnud kasutajatele, kes soovivad täielikku kontrolli oma keskkonna üle, kuid aktsepteerivad samas teatavat keerukust paigaldamisel ja hooldamisel. See tehniline nõue on viinud mitmete tuletatud distributsioonide tekkimiseni, mille eesmärk on selle kasutamise demokratiseerimine.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Kõige tuntum on Manjaro, mis säilitab Archi tehnilise baasi, pakkudes samal ajal lihtsustatud paigaldust, eelkonfigureeritud töölauakeskkondi ja veidi hilinenud väljaandmistsüklit uuenduste stabiliseerimiseks.
 
@@ -1064,7 +1062,7 @@ Canonicali poolt välja töötatud ja 2004. aastal käivitatud Ubuntu on üks ma
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint paistab silma oma lihtsuse, multimeediakoodekite vaikimisi olemasolu ja hästi kujundatud uuendustööriista poolest. Teisest küljest tugineb see suuresti Ubuntu infrastruktuurile, mistõttu sõltub see Ubuntu tehnilistest valikutest (eriti tuuma ja repositooriumi tasandil). Mint sobib eriti hästi mitte-tehnilistele kasutajatele või neile, kes soovivad kasutusvalmis süsteemi, mis ei nõua liiga palju õppimist.
 
@@ -1108,9 +1106,9 @@ Paigaldamine on sujuv, oluline tarkvara on eelinstalleeritud ja "Lite" versioon 
 
 - elementaarne operatsioonisüsteem**:
 
-
-
 2011. aastal käivitatud elementaarne OS on Ubuntu-põhine distributsioon, mis keskendub eelkõige Interface disainile ja järjepidevusele. Selle töölauakeskkond Pantheon, mis on inspireeritud macOSist, on minimalistlik, elegantne ja sujuv. Siiski jääb süsteem vähem kohandatavaks kui teised distributsioonid ning mõned edasijõudnud kasutajad võivad tunda end Interface valikute ja selle teadlikult lukustatud struktuuri tõttu piiratud olevat. See sobib hästi esteetiliselt tundlikele kasutajatele, kes otsivad lihtsat ja ühtset süsteemi igapäevaseks kasutamiseks.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux on minimalistlik, pidevalt uuendatav distributsioon, mis tarnitakse i
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Spetsialiseeritud levitamine
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux on Debianil põhinev distributsioon, mis on mõeldud sissetungitestimiseks ja turvalisuse auditeerimiseks. See sisaldab sadu pentesti tööriistu. See distributsioon ei sobi tegelikult põhisüsteemiks igapäevaseks kasutamiseks.
 
@@ -1252,7 +1246,7 @@ Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Märkus:** Live-distributsioon on Linuxi operatsioonisüsteem, mida saab kasutada otse USB-pulgalt või CD-lt, ilma Hard kettale installeerimata.
 
@@ -1306,9 +1300,9 @@ PureOS on Debianist tuletatud jaotus, mille on välja töötanud Purism ja mis o
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (varem Raspbian) on Raspberry Pi mikroarvutite jaoks optimeeritud distributsioon. See põhineb Debianil, mille paketid on ümber kompileeritud ARM-arhitektuuri jaoks. Seda saab kasutada haridusprojektide, elektrooniliste testide või väikeste isiklike serverite jaoks.
 
@@ -1332,36 +1326,23 @@ Whonix kombineerib Debianit ja Tor-võrku kahe VM-i arhitektuuris (värav + tö�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 See panoraam annab teile ülevaate praegusest Linuxi distributsioonide ökosüsteemist, mis võimaldab teil valida oma tehnilisele profiilile ja eesmärkidele kõige paremini sobivaima distributsiooni.
-
-
 
 SCU202 järgmises peatükis vaatleme lähemalt praktilist Linuxi keskkonda, alustades graafilistest keskkondadest, mis on teie igapäevase suhtluse aluseks.
 
-
-
 ## Linuxi töölauakeskkonnad
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linuxi süsteemis mängib töölauakeskkond kasutajakogemuses üht kõige olulisemat rolli. See on graafiline Layer, mis võimaldab süsteemiga suhtlemist, mis põhineb tuttavatel visuaalsetel kujutistel: aknad, menüüd, ikoonid, paneelid ja eelinstalleeritud rakendused.
-
-
 
 Selles peatükis uurin töölauakeskkonna struktuuri ja rolli, selle tüüpilisi komponente, peamisi olemasolevaid perekondi, valikukriteeriume ja nende integreerimist kõige populaarsematesse Linuxi distributsioonidesse.
 
-
-
 ### Mis on kontorikeskkond?
 
-
-
 Töölauakeskkond (või "*DE*" nagu *Desktop Environment*) viitab programmide kogumile, mis moodustab operatsioonisüsteemi täieliku graafilise Interface. Windowsis ja macOSis pakutakse vaikimisi ühte töölauakeskkonda, mis on integreeritud süsteemi, ilma et seda saaks täielikult muuta (ainult teatud kestad on olemas Interface osaliseks muutmiseks). Linuxi süsteemid seevastu on palju modulaarsemad, käsitledes töölauakeskkonda iseseisva komponendina, mida saab vabalt asendada.
-
-
 
 Linuxi puhul on oluline selgelt eristada kõiki kihte: tuuma (mis haldab suhtlust riistvaraga), kuvaserverit (mis toimib vahendajana rakenduste, graafikadraiverite ja riistvara vahel tuuma kaudu) ja lõpuks töölaua keskkonda ennast, mis tugineb sellele infrastruktuurile, et pakkuda kasutajale ühtset graafilist Interface. See eristamine võib mõnikord olla vähem selge, kuna paljud Linuxi distributsioonid tulevad koos eelinstalleeritud töölauakeskkonnaga, mis mõnikord sisaldab oma Wayland kompositori, mis siis tegutseb kuvaserverina.
 
@@ -4869,12 +4850,7 @@ MacOS-i puhul põhineb süsteemi ketta krüpteerimine *FileVaultil*, mis on algu
 
 Kui FileVault on aktiveeritud, peate valima taastamismeetodi salasõna kaotamise korral: kas kasutada oma *iCloud*-kontot või generate unikaalset varundusvõtit. Seda võtit tuleb hoida turvalises kohas, sest selle kadumine muudaks teie andmed lõplikult kättesaamatuks.
 
-
-
 Välise andmekandja (Hard kettad, USB-pulgad jne) puhul toimub krüpteerimine ketta utiliidi abil. Te peate andmekandja täielikult ümber vormindama:
-
-
-
 
 - Valige seade, klõpsake nuppu "*Kustuta*"
 - Valige skeem "GUID* Partition Table"
@@ -4882,41 +4858,25 @@ Välise andmekandja (Hard kettad, USB-pulgad jne) puhul toimub krüpteerimine ke
 - Valige tugev parool
 - Klõpsake "*Kustuta*", seejärel "*OK*" ja krüpteerimine on lõpetatud
 
-
-
 Kui krüpteerimine on tehtud, saab välise ketta paigaldada ainult selle parooli sisestades. Seejärel dekrüpteerib süsteem selle jooksvalt.
-
-
 
 #### Mõned soovitused teie krüpteeritud varukoopiate kohta
 
-
-
 Enne andmekandja krüpteerimist tuleb teha varukoopia kõigist selles sisalduvatest andmetest (kui see ei ole muidugi tühi), sest krüpteerimisprotseduur kustutab üldjuhul esialgse sisu.
-
-
 
 Väga oluline on ka salasõna valik: see peab olema pikk, keeruline ja ainulaadne, sest see on ainus kaitse teie andmete ja pahatahtlike kolmandate isikute vahel. Samuti tuleb teha varukoopia, näiteks paroolihalduris, sest erinevalt võrguteenustest puudub taastamismehhanism. Kui unustate oma parooli, on andmed lõplikult kadunud.
 
-
-
 ### Valikuline failide krüpteerimine
-
-
 
 Mõnel juhul ei ole vaja ega otstarbekas krüpteerida kogu Hard ketast või välist andmekandjat. Sellistel juhtudel võite valida valikulise krüpteerimise, mis hõlmab ainult teatavate tundlikke andmeid sisaldavate failide või kataloogide kaitsmist.
 
-
-
 Üks tuntumaid meetodeid failide krüpteerimiseks on GPG kasutamine. See tööriist põhineb asümmeetrilisel krüptograafial: teil on võtmepaar, millest üks on avalik, mida saate oma korrespondentidele vabalt jagada, ja teine on privaatne, mis peab jääma rangelt salajaseks. Failid krüpteeritakse vastuvõtja avaliku võtmega, kuid neid saab dekrüpteerida ainult tema isikliku võtmega.
-
-
 
 See protokoll sobib ideaalselt tundlike failide turvaliseks vahetamiseks teistega, ilma parooli jagamata. Isiklikuks või juhuslikuks kasutamiseks võimaldab GPG ka sümmeetrilist krüpteerimist: fail on siis kaitstud unikaalse parooliga, mida teate ainult teie.
 
-
-
 Suurepärane alternatiiv on Cryptomator. See avatud lähtekoodiga tarkvara võimaldab teil luua seifi: spetsiaalne kataloog, kuhu kõik hoiustatud failid on automaatselt krüpteeritud. Seda seifi saab sünkroniseerida pilveteenustega, nagu Dropbox, Google Drive või Nextcloud, ilma et teenusepakkujal oleks juurdepääs krüpteerimata andmetele. Rakendus on saadaval kõigis operatsioonisüsteemides, sealhulgas Androidis ja iOSis, ning selle kasutamine ei nõua erilisi tehnilisi oskusi.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Suurepärane alternatiiv on Cryptomator. See avatud lähtekoodiga tarkvara võim
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Lõpuks on võimalik kasutada VeraCrypt'i ka konteinerrežiimis, mis loob faili, mis toimib krüpteeritud arhiivina, mida saab ühendada nagu ketast.
-
-
 
 Nüüd, kui olete õppinud, kuidas kaitsta oma isiklikke andmeid kadumise ja varguse eest, vaadeldakse järgmises peatükis veel üht olulist aspekti: kuidas vältida, et teie isiklikud failid muutuksid metaandmete kaudu rünnakuvektoriteks.
 
-
-
-
 ## Metaandmete puhastamine
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Iga kord, kui loote digitaalse faili, olgu see siis foto, kontoridokument, heli- või videofail, sisaldab see taustal metaandmeid. See teave ei ole faili avamisel otseselt nähtav, kuid see on olemas ja võib sisaldada äärmiselt tundlikku Elements.
-
-
 
 ### Miks on metaandmed ohtlikud?
 
-
-
 Metaandmed on failile lisatud andmed, mille ülesanne on anda kontekstuaalset teavet sisu kohta. Pildi puhul võib see sisaldada pildi tegemise kuupäeva ja kellaaega, täpseid GPS-koordinaate, kasutatud kaamera või nutitelefoni mudelit ja mõnikord isegi tehnilisi seadeid. Tekstidokumendi puhul võib see sisaldada autori nime, ettevõtte nime, kasutaja seansi ID-d, loomise ja muutmise ajatemplit või isegi redigeerimise käigus jäetud sisemisi kommentaare.
-
-
 
 Need metaandmed võivad tunduda ohutud, kuid pahatahtlikud osalejad võivad neid kasutada faili autori tuvastamiseks, isiku füüsiliseks leidmiseks, sündmuste või harjumuste rekonstrueerimiseks või isegi tarkvara vigade ärakasutamiseks kasutatud tarkvara versiooni alusel.
 
-
-
 Võtame konkreetse näite: sa postitad foorumisse väidetavalt anonüümse foto. Kui te ei ole EXIF-metaandmeid eemaldanud, võib üks klõps avaldada teie kodu täpsed GPS-koordinaadid, teie telefoni mudeli ja foto täpse tegemise kuupäeva. Samamoodi võib anonüümselt saadetud PDF-dokument sisaldada oma omadustes teie täielikku nime.
-
-
 
 Seepärast eemaldavad mõned meedia avaldamis- ja suhtlusplatvormid teie fotodelt automaatselt metaandmed. Nende hulka kuuluvad X (Twitter), Instagram, Signal ja Session. Teisalt ei eemalda teised platvormid üldse metaandmeid: nii on see enamiku veebifoorumite, paljude e-posti-klientide või isegi siis, kui avaldate otse veebisaidil.
 
-
-
 See on oluline refleks, mida tuleb omaks võtta: niipea, kui fail lahkub teie privaatsfäärist, peate mõtlema selle metaandmete puhastamisele, et vältida isikliku või tundliku teabe avalikustamist ilma teie teadmata. Vaatame, kuidas seda teha, sõltuvalt teie operatsioonisüsteemist.
-
-
 
 ### Linuxis (Debian)
 
-
-
 #### ExifTool'i kasutamine
-
-
 
 Kõige täielikum ja usaldusväärsem vahend metaandmete haldamiseks ja kustutamiseks on Phil Harvey poolt välja töötatud ExifTool. See ühildub paljude failivormingutega (JPG, PNG, PDF, MP3, DOCX...) ja võimaldab nii metaandmete kuvamist kui ka eemaldamist.
 
-
-
-
-
 - Samm 1: Installige ExifTool
 
-
-
 Selle installimiseks Debian distributsioonile (Ubuntu) avage terminal ja sisestage käsk:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 See pakett installeerib `exiftool`, mida saate seejärel kasutada otse käsurealt.
 
@@ -5835,15 +5761,11 @@ Miinuseks on jõudluse märkimisväärne vähenemine (suur latentsus) ja piiratu
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor Foundationi ja Mullvad VPN-i koostöö tulemus. See põhineb Tori brauseril, mis omakorda on tuletatud Firefox ESRist. Mullvad Browser on loodud selleks, et maksimeerida kasutaja privaatsust. Vaikimisi sisaldab see täiustatud kaitset sõrmejälgede, jälgijate ja kolmandate osapoolte skriptide vastu.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Sellel on enamik Tor Browser'i pakutavaid turva- ja privaatsusfunktsioone, ühe erinevusega: see ei suunata liiklust Tor-võrgu kaudu ümber. IP Address lekete vältimiseks saate seda kasutada koos VPNiga (ideaalis Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ LibreWolf aktiveerib vaikimisi Firefoxi täiustatud turvasätted (näiteks range
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen brauser
-
-
 
 [Zen Browser] (https://zen-browser.app/) on 2024. aastal turule toodud tasuta ja avatud lähtekoodiga brauser, mis põhineb Firefoxil (Gecko mootor). Selle eesmärk on pakkuda moodsat, elegantset, väga hästi kohandatavat ja eelkõige privaatsusele suunatud sirvimiskogemust, sõltumata Chromiumist.
 
-
-
 Zen paistab silma oma radikaalse lähenemise poolest Interface-le ja kasutatavusele, mis on suuresti inspireeritud Arc-brauserist, kuid mis on sellest vabanenud tänu avatud lähtekoodile ja Gecko mootorile. See sisaldab :
-
-
-
 
 - Minimalistlik, modulaarne Interface, millel on vertikaalne küljeriba vahekaartide jaoks, jagatud vaade ja *tööruumide* süsteem vahekaartide rühmitamiseks projektide kaupa;
 - Kohandatavate Interface mallide süsteem (*Zen Mods*), mida saab kasutada brauseri välimuse põhjalikuks muutmiseks;
 - Originaalfunktsioon nimega *Glance*, mis avab lingi kerges ajutises aknas, vältides vahekaartide segadust...
 
-
-
 Zen toetab ka Firefoxi laiendusi ning sünkroniseerimist Mozilla konto kaudu.
-
-
 
 Turvalisuse ja privaatsuse seisukohalt on Zenil võimalik blokeerida kolmandate osapoolte jälgimisseadmeid. Brauser ei kogu ise mingeid andmeid ja võimaldab ka Mozilla telemetria välja lülitada. Samuti lükkab see automaatselt tagasi vananenud või nõuetele mittevastavad SSL-sertifikaadid.
 
-
-
 Zen Browser on huvitav alternatiiv, kui otsite Gecko sirvimiskeskkonda, mis on tasuta, uuenduslik, puhas ja teie privaatsust austav.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-põhised brauserid
 
-
-
 #### Safari
-
-
 
 Peamine brauser, mis kasutab endiselt WebKit renderdusmootorit (mitte Fork nagu Blink), on Safari. [Safari] (https://www.apple.com/safari/) on Apple'i eksklusiivne brauser macOSi jaoks. See pakub suurepärast integratsiooni Apple'i ökosüsteemiga, suurt jõudlust ja sisaldab nüüd tugevamat kaitset jälgimise ja sõrmejälgede võtmise vastu.
 
-
-
 Safari on siiski endiselt suletud, selle töölauaversioon on piiratud macOSiga ja sõltub Apple'i ökosüsteemist. Kuigi Apple'il on tugev privaatsuspoliitika, mille ärimudel põhineb peamiselt riistvara müügil, mitte reklaamil, on teatud sisemised tavad endiselt ebaselged.
-
-
 
 Siinkohal keskendume töölaua brauseritele, kuid on oluline märkida, et iOS-i puhul nõuab Apple, et kõik brauserid kasutaksid WebKit-redastusmootorit (piirang, mis võib siiski peagi muutuda teatud Euroopa määruste tõttu). See tähendab, et sellised brauserid nagu Chrome, Firefox või Brave peavad iOSi puhul pakkuma WebKitil põhinevat rakendust, mitte oma tavapärast renderdusmootorit.
 
@@ -6720,7 +6623,7 @@ GrapheneOS ei sisalda ühtegi patenteeritud komponenti. Te võite vabalt lisada 
 Graphene ühildub ainult hiljutiste Google Pixeli mudelitega (Pixel 6, 7, 8 ja 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ Need tööriistad toimivad nagu väike DNS-server teie võrgus, blokeerides taot
 
 ### Turvaline kaugjuurdepääs VPN-i kaudu
 
-
 Mõnel juhul on kasulik, et te saaksite oma koduvõrku kasutada ka siis, kui olete liikvel: Vaadake faile NAS-is, kasutage Bitcoin ja Lightning-sõlme, pääsete ligi iseteenindatavale serverile või hallake oma võrku. See kaugühendus peab aga olema turvaline.
-
 
 Esimene nõuanne on, et ärge kunagi avage oma marsruuteril otse porti, et pääseda ligi seadmele (nt RDP, SSH või FTP kaudu), sest see paljastab selle teenuse kogu internetile, mis kujutab endast haavatavust. Avatud porte sihtivad automaatsed rünnakud on arvukad.
 
-
 Lahenduseks soovitan kasutada VPN-i (*Virtuaalne privaatvõrk*), st krüpteeritud tunnelit teie kaugseadme (arvuti, nutitelefon jne) ja teie kohaliku võrgu vahel. Kui olete VPN-iga ühendatud, saate juurdepääsu oma kodu ressurssidele nii, nagu oleksite füüsiliselt seal, ja seda turvaliselt.
 
-
 Kaks peamist lahendust eraklientidele on järgmised:
-
-
 
 - WireGuard: Kaasaegne, kiire ja kerge
 - OpenVPN: Vanem, kuid väga küps ja konfigureeritav
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Siin on täielik õpetus Tailscale'i kohta, mis on kergesti konfigureeritav VPN-lahendus, mis kasutab WireGuardit:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Saate seda VPN-i kasutada otse ühilduvas ruuteris, väikeses arvutis (näiteks Raspberry Pi) või spetsiaalses serveris kodus. Samuti saate selle kliendina paigaldada otse mis tahes seadmesse.
 
-
 Kuid VPN ei ole ainult kaugjuurdepääsu jaoks. Võite kasutada oma seadmetes ka klassikalist VPN-klienti, et krüpteerida kogu oma väljaminev liiklus, isegi kui olete kodust eemal (avalik Wi-Fi, hotell, ülikool jne). Sellisel juhul ühendab teie seade end kolmanda osapoole VPN-serveriga (kommerts- või isehostitud), mis seejärel edastab teie ühendused internetti. See varjab teie tegeliku IP Address Interneti-teenuse pakkuja eest, kaitseb teie andmeid kohaliku luuramise eest ja väldib teatavat liiki tsensuuri.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Lõpuks on võimalik luua VPN ka otse ruuterisse, mis võimaldab teil kaitsta kõiki oma kodus olevaid seadmeid, ilma et peaksite paigaldama igale seadmele VPN-kliendi.
 
-
 ### Järelevalve ja tuvastamine
-
 
 Kui teie võrk on nõuetekohaselt konfigureeritud ja segmenteeritud, on oluline minna passiivsest turvalisusest kaugemale. Kohaliku võrgu aktiivne jälgimine võib tuvastada ebanormaalset käitumist, volitamata ühendusi või sissetungi märke. Eesmärk on tuvastada probleemid varakult, enne kui need tekitavad kahju.
 
-
 Esimene samm on turvaprotokollide tsentraliseerimine. Iga võrku ühendatud seade tekitab logisid, mis sisaldavad teavet ühenduste, vigade või kahtlase tegevuse kohta. Selle asemel, et neid logisid ükshaaval vaadata, soovitan saata need serverisse, mis suudab neid rühmitada, sorteerida ja analüüsida. Sellised lahendused nagu Graylog või Elastic Stack (ELK) võimaldavad teil koondada need logid graafiliseks Interface, kus saate otsida konkreetseid sündmusi, luua hoiatusi või visualiseerida võrguaktiivsust.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Järgmiseks kontrollige regulaarselt oma kohalikku võrku aktiivselt, näiteks Nmapiga. See annab teile ülevaate kõigist teie võrgus olevatest seadmetest ja nende avatud porte. Kui tuvastate tundmatu seadme või ebatavalise teenuse, võib see olla märk rünnakust.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Kui soovite veelgi kaugemale minna, võite paigaldada IDS-i (*Intrusion Detection System*) või isegi IPS-i (*Intrusion Prevention System*). Need vahendid, näiteks Suricata või Snort, jälgivad võrguvooge reaalajas ja tuvastavad teadaolevate rünnakute signatuurid (pordi skaneerimine, süstimine, kahtlased ühendused jne). IDS hoiatab, samas kui IPS võib teatud tegevused automaatselt blokeerida.
 
-
-
 Lõpuks on ka ribalaiuse tarbimise jälgimine hea indikaator ebanormaalse tegevuse kohta. Kui seade tarbib järsku ilma nähtava põhjuseta palju andmeid, võib see reedada loata allalaadimist, andmete lekkimist või isegi ohustatud seadet. Sellised tööriistad nagu ntopng või vnStat võimaldavad vaadata sissetulevaid ja väljaminevaid voogusid seadme kaupa.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varukoopia ja vastupidavus
 
-
 Isegi täiesti turvalise võrgu puhul võivad riistvararikked, konfiguratsioonivead või ettenägematud sündmused (elektrikatkestus, vooluhoog, Hard kettarike jne) põhjustada andmekaotust või katkestada teenuste osutamise. Et tagada teie digitaalse keskkonna järjepidevus ja vältida probleemide korral nullist alustamist, on oluline rakendada varundus- ja vastupidavusstrateegia.
-
 
 Alustage oma võrguseadmete, eriti ruuteri konfiguratsiooni regulaarsest varundamisest. Neid konfiguratsioonifaile saab sageli eksportida administratsiooni Interface kaudu. Koopia säilitamine võimaldab teil seadme lähtestamise või asendamise korral kiiresti taastada toimiva süsteemi. Samuti soovitan seda varukoopiat krüpteerida.
 
-
 Lõpuks, et parandada oma võrgu vastupidavust elektrikatkestuse korral, investeerige UPSi. See seade tagab elektrikatkestuse korral mõne minuti jooksul varutoite, mis võimaldab teil jätkata Interneti kasutamist või tagab, et kriitilised seadmed (NAS, ruuter, Wi-Fi juurdepääsupunkt jne) lülituvad puhtalt välja. Mõned mudelid võivad ka saata ühendatud seadmetele automaatse väljalülituskäsu, kui nad tuvastavad, et aku on tühi.
-
 
 Järgides neid mõningaid samme, saate luua tugeva ja turvalise võrgukeskkonna, mis austab teie privaatsust.
 
-
 # Viimane osa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Arvamused ja hinnangud
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Kokkuvõte
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

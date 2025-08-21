@@ -1,0 +1,10 @@
+question: Bitcoin işlemindeki OP_RETURN nedir?
+answer: Bir çıktıyı geçersiz olarak işaretleyen ve veri depolamaya izin veren bir işlem kodu.
+wrong_answers:
+  - Bir Bitcoin işlemindeki imzanın geçerliliğini doğrulayan bir işlem kodu.
+  - IPFS'de depolanan bir dosyaya köprü içeren bir işlem kodu.
+  - Bir işlemi Bitcoin Blockchain'ten silen bir komut.
+explanation: |
+  OP_RETURN, geçersiz bir komut dosyasına işaret eden ve içerdiği çıktıyı kanıtlanabilir şekilde harcanamaz hale getiren bir işlem kodudur. Böylece, ağ düğümleri bu çıktıyı UTXO setlerinden kaldırabilir. OP_RETURN genellikle Blockchain'teki keyfi verileri kaydetmek için kullanılır.
+  
+reviewed: false

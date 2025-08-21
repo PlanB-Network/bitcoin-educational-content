@@ -1,0 +1,9 @@
+question: Ev ağınıza uzaktan erişmenin en iyi yolu nedir?
+answer: Kişisel VPN kullanma
+wrong_answers:
+  - Genel bir SSH bağlantı noktası açın
+  - Yönlendirici bulutunu etkinleştirin
+  - WPS kullanın
+explanation: |
+  VPN, kritik bir bağlantı noktasını İnternet'e açmadan yerel ağa erişmek için şifreli bir tünel oluşturur.
+reviewed: false

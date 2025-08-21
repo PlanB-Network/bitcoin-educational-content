@@ -1,0 +1,13 @@
+question: Mining donanım üretiminin Çin'de merkezileştirilmesinin potansiyel riski nedir?
+answer: Mining makinelerini ihraç etmeyi reddetme veya potansiyel bir %51 saldırısı için Hashrate biriktirme.
+wrong_answers:
+  - Çin, Bitcoin ağını tekeline alabilir.
+  - Çin Bitcoin'ün fiyatını kontrol edebilir.
+  - Çin Bitcoin Mining'yı yasaklayabilir.
+explanation: |
+  Çin'de Mining donanım üretiminin merkezileştirilmesi
+  gW-8 ağı için bir risk oluşturmaktadır. Eğer Çin bunu reddederse
+  gW-9 makinelerini ihraç eder veya bir makine için Hashrate biriktirir
+  potansiyel %51 saldırısı, güvenliği tehdit edebilir ve
+  ağın merkezsizleştirilmesi.
+reviewed: true

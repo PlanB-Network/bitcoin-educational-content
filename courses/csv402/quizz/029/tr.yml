@@ -1,0 +1,9 @@
+question: RGB Contract'da Schema'in ana rolü nedir?
+answer: Business Logic'ü ve Contract'ün veri yapısını tanımlama
+wrong_answers:
+  - RGB cüzdanları için Interface'in tanımlanması
+  - Blockchain üzerinde komut dosyalarının derlenmesini yönetme
+  - On-Chain kriptografik doğrulama
+explanation: |
+  Schema, Contract'un bildirimsel yapısını, veri türlerini ve doğrulama kurallarını tanımlayarak Business Logic'u müşteri tarafında yönetmenizi sağlar.
+reviewed: false

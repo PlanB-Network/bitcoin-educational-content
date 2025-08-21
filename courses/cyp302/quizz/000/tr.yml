@@ -1,0 +1,9 @@
+question: Demir bir kutuyu hancı Robert Morriss'e saklaması için kim emanet etti?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Robert Morriss'e içinde şifreli belgeler ve bir not bulunan demir bir kutu teslim eden Thomas J. Beale'di ve Morriss'in geri dönmemesi durumunda kendisine talimatlar veriyordu.
+reviewed: false

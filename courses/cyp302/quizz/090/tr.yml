@@ -1,0 +1,9 @@
+question: Bir akış şifresinden blok modlu bir şifreleme oluşturmak neden zordur?
+answer: Akış şifreleri verileri sürekli olarak işlediğinden
+wrong_answers:
+  - Çünkü akış şifreleri özel anahtar kullanmaz
+  - Blok modları daha uzun anahtarlar gerektirdiğinden
+  - Çünkü akış şifreleri her zaman daha yavaştır
+explanation: |
+  Akış şifreleri verileri sürekli olarak (bit bit veya bayt bayt) şifrelemek için tasarlanmıştır, bu da sabit boyutlu bloklar halinde işlem gerektiren blok modunda kullanımlarını zorlaştırır.
+reviewed: false

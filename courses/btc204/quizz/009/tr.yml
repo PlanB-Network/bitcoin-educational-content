@@ -1,0 +1,9 @@
+question: Bir Coinbase Transaction'da Block reward'i oluşturan 2 Elements nedir?
+answer: Blok sübvansiyonu ve işlem ücretleri.
+wrong_answers:
+  - Blok sübvansiyonu ve hız bonusları.
+  - Emisyon hakları ve teminat primleri.
+  - Mining temettüleri ve ağ vergileri.
+explanation: |
+  Bir Miner geçerli bir blok bulduğunda, bir yandan blok sübvansiyonu, diğer yandan da bloğuna dahil ettiği işlemlerin ücretlerinden oluşan bir ödül almaya hak kazanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 2010'un ikinci yarısında şebekenin Hash oranı hangi birim cinsinden ölçülmüştür?
+answer: GH/s cinsinden
+wrong_answers:
+  - MH/s cinsinden
+  - TH/s cinsinden
+  - PH/s cinsinden
+explanation: |
+  Hash oranı 13 Temmuz'da 1,35 GH/s'den 31 Aralık 2010'da 120 GH/s'ye yükselmiştir.
+reviewed: true

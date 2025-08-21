@@ -1,0 +1,8 @@
+question: OpenNode nedir?
+answer: İşletmelerin Bitcoin kabul etmesi için basit bir çevrimiçi çözüm.
+wrong_answers:
+  - Birçok kullanıcı tarafından aynı anda kullanılan bir tür Bitcoin düğümü.
+  - Açık kaynaklı bir Bitcoin Mining yazılımı.
+  - Bir Bitcoin Exchange platformu.
+explanation: >-
+reviewed: true

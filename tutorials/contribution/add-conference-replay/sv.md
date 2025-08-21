@@ -66,7 +66,7 @@ Fyll i den här filen med information om din konferens med hjälp av den här ma
 ```yaml
 year:
 name:
-builder:
+project:
 location:
 language:
 -
@@ -85,7 +85,7 @@ Din YAML-fil kan till exempel se ut så här:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language:
 - fr
@@ -102,7 +102,7 @@ tags:
 ![conference](assets/09.webp)
 
 
-Om du ännu inte har en "*builder*"-identifierare för din organisation kan du lägga till den genom att följa denna andra handledning.
+Om du ännu inte har en "*project*"-identifierare för din organisation kan du lägga till den genom att följa denna andra handledning.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d

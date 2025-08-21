@@ -1,0 +1,14 @@
+question: İşbölümü bağlamında mutlak avantaj kavramı nedir?
+answer: Bir birey, belirli görevleri yerine getirmek için akranlarından daha üstün bir yeteneğe sahiptir.
+wrong_answers:
+  - Bir birey, tüm görevleri yerine getirme konusunda akranlarından daha üstün bir yeteneğe sahiptir.
+  - Bir birey, belirli görevleri yerine getirme konusunda akranlarıyla eşit yeteneğe sahiptir.
+  - Bir birey, belirli görevleri yerine getirme konusunda diğer bireylerden daha düşük bir yeteneğe sahiptir
+explanation: |
+  İş bölümü bağlamında, mutlak avantaj
+  bir bireyin üstün olduğu durumu ifade eder
+  yaşıtlarına göre belirli görevleri yerine getirme becerisi. Bu
+  birey daha sonra bu alanda uzmanlaşmaya ilgi duyar
+  bu malın üretilmesi ve daha sonra fazlasının takas edilmesi
+  arzu ettikleri mallar için elde edilir.
+reviewed: true

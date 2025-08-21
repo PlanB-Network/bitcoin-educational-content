@@ -972,11 +972,9 @@ Rodina Arch Linux se vyznačuje filozofií, která je radikálně odlišná od f
 
 Tento přístup je založen na modelu *rolling release*, kdy jsou balíčky průběžně aktualizovány, aniž by bylo nutné systém přeinstalovávat při každém větším vydání. Správce balíčků Pacman je rychlý a nenáročný, což usnadňuje instalaci a aktualizaci softwaru, a komunitní repozitář AUR (*Arch User Repository*) poskytuje přístup k rozsáhlému množství neoficiálních a vývojových balíčků.
 
-
-
 Arch Linux je určen především pokročilým uživatelům, kteří chtějí mít nad svým prostředím naprostou kontrolu a zároveň se smířit s určitou složitostí instalace a údržby. Tento technický požadavek vedl ke vzniku několika odvozených distribucí, jejichž cílem je demokratizovat jeho používání.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nejznámější je Manjaro, které si zachovává technický základ Arch a nabízí zjednodušenou instalaci, předkonfigurovaná desktopová prostředí a mírně opožděný cyklus vydávání aktualizací, aby se stabilizoval.
 
@@ -1064,7 +1062,7 @@ Ubuntu, vyvinuté společností Canonical a uvedené na trh v roce 2004, je jedn
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Linux Mint je distribuce odvozená od Ubuntu, která byla uvedena na trh v roce 
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint vyniká svou jednoduchostí, výchozí přítomností multimediálních kodeků a dobře navrženým aktualizačním nástrojem. Na druhou stranu se do značné míry spoléhá na infrastrukturu Ubuntu, takže je závislý na technických rozhodnutích Ubuntu (zejména na úrovni jádra a repozitářů). Mint je vhodný zejména pro netechnické uživatele nebo pro ty, kteří chtějí systém připravený k použití, který nevyžaduje příliš mnoho učení.
 
@@ -1108,9 +1106,9 @@ Instalace je bezproblémová, základní software je předinstalován a verze "L
 
 - základní OS**:
 
-
-
 Elementary OS, který byl uveden na trh v roce 2011, je distribuce založená na Ubuntu, která se zaměřuje především na design a konzistenci Interface. Její desktopové prostředí Pantheon, inspirované systémem macOS, je minimalistické, elegantní a plynulé. Systém však zůstává méně přizpůsobitelný než jiné distribuce a někteří pokročilí uživatelé se mohou cítit omezeni možnostmi Interface a jeho záměrně uzavřenou strukturou. Je vhodný pro esteticky citlivé uživatele, kteří hledají jednoduchý a ucelený systém pro každodenní používání.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux je minimalistická, průběžně aktualizovatelná distribuce, dodáv
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specializovaná distribuce
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux je distribuce založená na Debianu a určená pro penetrační testování a bezpečnostní audit. Obsahuje stovky nástrojů pro pentestování. Tato distribuce není příliš vhodná jako hlavní systém pro každodenní použití.
 
@@ -1252,7 +1246,7 @@ Tails je live distribuce založená na Debianu a zaměřená na ochranu soukrom�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Poznámka:** Live distribuce je operační systém Linux, který lze používat přímo z USB flash disku nebo CD bez instalace na disk Hard.
 
@@ -1306,9 +1300,9 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Operační systém Raspberry Pi**:
-
-
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 
@@ -1332,36 +1326,23 @@ Whonix kombinuje Debian se sítí Tor v architektuře dvou virtuálních počít
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toto panorama vám poskytne přehled o současném ekosystému linuxových distribucí a umožní vám vybrat si distribuci, která nejlépe vyhovuje vašemu technickému profilu a cílům.
-
-
 
 V další kapitole SCU202 se blíže podíváme na praktické prostředí systému Linux, počínaje grafickými prostředími, která tvoří základ každodenní interakce se systémem.
 
-
-
 ## Prostředí Linuxu
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 V systému GNU/Linux hraje prostředí pracovní plochy jednu z nejdůležitějších rolí v uživatelském prostředí. Je to grafické prostředí Layer, které umožňuje interakci se systémem na základě známých vizuálních reprezentací: oken, nabídek, ikon, panelů a předinstalovaných aplikací.
-
-
 
 V této kapitole se budu zabývat strukturou a úlohou desktopového prostředí, jeho typickými součástmi, hlavními dostupnými rodinami, kritérii výběru a jejich integrací do nejoblíbenějších linuxových distribucí.
 
-
-
 ### Co je to kancelářské prostředí?
 
-
-
 Prostředí pracovní plochy (nebo "*DE*" jako *Prostředí pracovní plochy*) označuje sadu programů, které tvoří kompletní grafické prostředí Interface operačního systému. V systémech Windows a macOS je ve výchozím nastavení nabízeno jediné desktopové prostředí integrované do systému bez možnosti jej zcela upravit (existují pouze určité shelly, které umožňují částečnou úpravu Interface). Naproti tomu systémy Linux jsou mnohem modulárnější a považují desktopové prostředí za nezávislou součást, kterou lze libovolně vyměňovat.
-
-
 
 V Linuxu je důležité jasně rozlišovat mezi všemi vrstvami: jádrem (které spravuje interakci s hardwarem), zobrazovacím serverem (který funguje jako prostředník mezi aplikacemi, grafickými ovladači a hardwarem prostřednictvím jádra) a nakonec samotným grafickým prostředím, které se spoléhá na tuto infrastrukturu a poskytuje uživateli ucelenou grafickou aplikaci Interface. Toto rozlišení může být někdy méně jasné, protože mnoho linuxových distribucí je dodáváno s předinstalovaným desktopovým prostředím, které někdy obsahuje vlastní kompozitor Wayland, který pak funguje jako zobrazovací server.
 
@@ -4869,12 +4850,7 @@ V systému macOS je šifrování systémového disku založeno na *FileVault*, c
 
 Po aktivaci služby FileVault je třeba zvolit metodu obnovy v případě ztráty hesla: buď použít účet *iCloud*, nebo jedinečný zálohovací klíč generate. Tento klíč musí být uložen na bezpečném místě, protože jeho ztráta by trvale znepřístupnila vaše data.
 
-
-
 U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrování provádí pomocí diskového nástroje. Svazek bude nutné kompletně přeformátovat:
-
-
-
 
 - Vyberte zařízení, klikněte na "*Odstranit*"
 - Vyberte schéma "Tabulka oddílů GUID*"
@@ -4882,41 +4858,25 @@ U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrov�
 - Zvolte si silné heslo
 - Klikněte na "*Delete*", poté na "*OK*" a šifrování je dokončeno
 
-
-
 Po zavedení šifrování lze externí disk připojit pouze po zadání tohoto hesla. Systém jej pak za běhu dešifruje.
-
-
 
 #### Několik doporučení pro šifrované zálohy
 
-
-
 Před zašifrováním média je třeba zálohovat všechna data, která obsahuje (samozřejmě pokud není prázdné), protože postup šifrování obvykle vymaže původní obsah.
-
-
 
 Velmi důležitá je také volba hesla: musí být dlouhé, složité a jedinečné, protože je jedinou ochranou mezi vašimi údaji a záškodnickou třetí stranou. Je také třeba vytvořit zálohu, například ve správci hesel, protože na rozdíl od online služeb neexistuje žádný mechanismus obnovy. Pokud heslo zapomenete, jsou data nadobro ztracena.
 
-
-
 ### Selektivní šifrování souborů
-
-
 
 V některých případech není nutné ani praktické šifrovat celý disk Hard nebo externí médium. V takových případech se můžete rozhodnout pro selektivní šifrování, které zahrnuje zabezpečení pouze určitých souborů nebo adresářů obsahujících citlivá data.
 
-
-
 Jednou z nejznámějších metod šifrování souborů je použití protokolu GPG. Tento nástroj je založen na asymetrické kryptografii: máte dvojici klíčů, jeden veřejný, který můžete volně distribuovat svým korespondentům, a druhý soukromý, který musí zůstat přísně tajný. Soubory jsou zašifrovány pomocí veřejného klíče příjemce, ale dešifrovat je lze pouze pomocí jeho soukromého klíče.
-
-
 
 Tento protokol je ideální pro bezpečnou výměnu citlivých souborů s ostatními uživateli, aniž by bylo nutné sdílet heslo. Pro osobní nebo příležitostné použití umožňuje GPG také symetrické šifrování: soubor je pak chráněn jedinečným heslem, které znáte pouze vy.
 
-
-
 Vynikající alternativou je Cryptomator. Tento software s otevřeným zdrojovým kódem umožňuje vytvořit trezor: speciální adresář, ve kterém jsou všechny uložené soubory automaticky zašifrovány. Tento trezor lze synchronizovat s cloudovými službami, jako je Dropbox, Disk Google nebo Nextcloud, aniž by měl poskytovatel přístup k nezašifrovaným datům. Aplikace je dostupná ve všech operačních systémech, včetně Androidu a iOS, a její používání nevyžaduje žádné zvláštní technické dovednosti.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Vynikající alternativou je Cryptomator. Tento software s otevřeným zdrojový
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 VeraCrypt je také možné používat v režimu kontejneru, který vytvoří soubor fungující jako šifrovaný archiv připojitelný jako disk.
-
-
 
 Nyní, když jste se dozvěděli, jak chránit svá osobní data před ztrátou a krádeží, se v další kapitole věnujeme dalšímu důležitému aspektu: jak zabránit tomu, aby se vaše osobní soubory staly prostřednictvím svých metadat vektory útoku.
 
-
-
-
 ## Čištění metadat
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Pokaždé, když vytvoříte digitální soubor, ať už jde o fotografii, kancelářský dokument, zvukový nebo video soubor, obsahuje na pozadí metadata. Tyto informace nejsou při otevření souboru přímo viditelné, ale jsou tam a mohou obsahovat velmi citlivé informace Elements.
-
-
 
 ### Proč jsou metadata rizikem?
 
-
-
 Metadata jsou data připojená k souboru, jejichž úkolem je poskytovat kontextové informace o obsahu. U obrázku to může být datum a čas pořízení snímku, přesné souřadnice GPS, model použitého fotoaparátu nebo chytrého telefonu a někdy i technická nastavení. U textového dokumentu to může být jméno autora, název společnosti, ID relace uživatele, časové značky vytvoření a modifikace nebo dokonce interní komentáře zanechané během úprav.
-
-
 
 Tato metadata se mohou zdát neškodná, ale záškodníci je mohou využít k identifikaci autora souboru, fyzické lokalizaci osoby, rekonstrukci událostí nebo zvyků, nebo dokonce ke zneužití softwarových chyb na základě verze použitého softwaru.
 
-
-
 Vezměme si konkrétní příklad: na fóru zveřejníte údajně anonymní fotografii. Pokud jste neodstranili metadata EXIF, jediné kliknutí může odhalit přesné GPS souřadnice vašeho domova, model vašeho telefonu a přesné datum pořízení fotografie. Stejně tak anonymně odeslaný dokument PDF může ve svých vlastnostech obsahovat vaše celé jméno.
-
-
 
 Proto některé platformy pro publikování médií a komunikaci automaticky odstraňují metadata z vašich fotografií. Patří mezi ně X (Twitter), Instagram, Signal a Session. Jiné platformy naopak metadata neodstraňují vůbec: to je případ většiny online fór, mnoha e-mailových klientů nebo i při přímém publikování na webových stránkách.
 
-
-
 Je to základní reflex, který je třeba si osvojit: jakmile soubor opustí vaši soukromou sféru, je třeba myslet na vyčištění jeho metadat, aby nedošlo k prozrazení osobních nebo citlivých informací bez vašeho vědomí. Podívejme se, jak to provést v závislosti na vašem operačním systému.
-
-
 
 ### V systému Linux (Debian)
 
-
-
 #### Použití nástroje ExifTool
-
-
 
 Nejúplnějším a nejspolehlivějším prostředkem pro správu a mazání metadat je nástroj ExifTool, který vyvinul Phil Harvey. Je kompatibilní s velkým množstvím formátů souborů (JPG, PNG, PDF, MP3, DOCX...) a umožňuje zobrazení i odstranění metadat.
 
-
-
-
-
 - Krok 1: Instalace nástroje ExifTool
 
-
-
 Chcete-li ji nainstalovat do distribuce Debian (Ubuntu), otevřete terminál a zadejte příkaz:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Tento balíček nainstaluje nástroj `exiftool`, který pak můžete používat přímo z příkazového řádku.
 
@@ -5835,15 +5761,11 @@ Nevýhodou je výrazné snížení výkonu (vysoká latence) a omezená kompatib
 
 #### Prohlížeč Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je výsledkem spolupráce mezi Tor Foundation a Mullvad VPN. Je založen na prohlížeči Tor, který je sám odvozen od Firefoxu ESR. Mullvad Browser je navržen tak, aby maximalizoval soukromí uživatelů. Ve výchozím nastavení obsahuje pokročilou ochranu proti otiskům prstů, sledovacím zařízením a skriptům třetích stran.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Má většinu funkcí zabezpečení a ochrany soukromí, které nabízí Tor Browser, s jedním rozdílem: nepřesměrovává provoz přes síť Tor. Chcete-li se vyhnout únikům IP Address, můžete jej používat v kombinaci s VPN (ideálně Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ Ve výchozím nastavení LibreWolf aktivuje pokročilá nastavení zabezpečení
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Prohlížeč Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je svobodný prohlížeč s otevřeným zdrojovým kódem založený na prohlížeči Firefox (engine Gecko), který byl uveden na trh v roce 2024. Jeho cílem je nabídnout moderní, elegantní, vysoce přizpůsobitelné a především na soukromí zaměřené prohlížení bez závislosti na Chromu.
 
-
-
 Zen vyniká svým radikálním přístupem k Interface a použitelnosti, který je do značné míry inspirován prohlížečem Arc, od něhož se však osvobozuje díky své otevřenosti a enginu Gecko. Obsahuje :
-
-
-
 
 - Minimalistický modulární nástroj Interface se svislým postranním panelem pro karty, rozděleným zobrazením a systémem *workspace* pro seskupování sad karet podle projektů;
 - Systém přizpůsobitelných šablon Interface (*Zen Mods*), které lze použít k hlubokým úpravám vzhledu prohlížeče;
 - Originální funkce *Glance*, která otevře odkaz v lehkém dočasném okně, čímž se vyhne nepřehledným záložkám...
 
-
-
 Zen podporuje také rozšíření Firefoxu a synchronizaci prostřednictvím účtu Mozilla.
-
-
 
 Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování sledovacích zařízení třetích stran. Prohlížeč sám neshromažďuje žádná data a umožňuje také vypnout telemetrii Mozilla. Automaticky také odmítá zastaralé nebo nevyhovující certifikáty SSL.
 
-
-
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Prohlížeče založené na WebKitu
 
-
-
 #### Safari
-
-
 
 Hlavním prohlížečem, který stále používá vykreslovací jádro WebKit (nikoli Fork jako Blink), je Safari. [Safari](https://www.apple.com/safari/) je exkluzivní prohlížeč společnosti Apple pro systém macOS. Nabízí vynikající integraci s ekosystémem Apple, vysoký výkon a nyní obsahuje silnější ochranu proti sledování a snímání otisků prstů.
 
-
-
 Safari však zůstává uzavřený, omezený na macOS pro desktopovou verzi a závislý na ekosystému Apple. Ačkoli společnost Apple uplatňuje přísnou politiku ochrany osobních údajů a její obchodní model je založen především na prodeji hardwaru, nikoli na reklamě, zůstávají některé interní postupy nejasné.
-
-
 
 Zde se zaměřujeme na prohlížeče pro stolní počítače, ale je důležité poznamenat, že v systému iOS vyžaduje společnost Apple, aby všechny prohlížeče používaly vykreslovací jádro WebKit (toto omezení se však může brzy změnit v důsledku určitých evropských předpisů). To znamená, že prohlížeče jako Chrome, Firefox nebo Brave musí v systému iOS nabízet aplikaci založenou na WebKitu, a nikoli na svém obvyklém vykreslovacím jádře.
 
@@ -6720,7 +6623,7 @@ GrapheneOS neobsahuje žádné proprietární komponenty. Služby Google si mů�
 Graphene je kompatibilní pouze s nejnovějšími Pixely Google (Pixel 6, 7, 8 a 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ Tyto nástroje fungují jako malý server DNS v síti a blokují požadavky na d
 
 ### Zabezpečený vzdálený přístup přes VPN
 
-
 V některých případech je užitečné mít přístup k domácí síti i na cestách: Můžete nahlížet do souborů na NAS, používat uzel Bitcoin a Lightning, přistupovat k vlastnímu serveru nebo spravovat síť. Toto vzdálené připojení však musí být bezpečné.
-
 
 První rada zní: nikdy neotevírejte port na směrovači přímo pro přístup k zařízení (např. přes RDP, SSH nebo FTP), protože tím tuto službu vystavíte celému internetu, což představuje zranitelnost. Automatizovaných útoků zaměřených na otevřené porty je celá řada.
 
-
 Doporučuji použít VPN (*Virtuální privátní síť*), tj. šifrovaný tunel mezi vzdáleným zařízením (počítačem, chytrým telefonem atd.) a místní sítí. Po připojení k síti VPN můžete přistupovat ke zdrojům svého domova, jako byste se tam fyzicky nacházeli, a to bezpečným způsobem.
 
-
 Dvě hlavní řešení pro soukromé zákazníky jsou:
-
-
 
 - WireGuard: Moderní, rychlý a lehký
 - OpenVPN: Starší, ale velmi vyspělá a konfigurovatelná síť
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Zde je kompletní návod na Tailscale, snadno konfigurovatelné řešení VPN, které používá WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Tuto síť VPN můžete hostovat přímo na kompatibilním směrovači, v malém počítači (například Raspberry Pi) nebo na vyhrazeném domácím serveru. Můžete ji také nainstalovat jako klienta přímo do libovolného zařízení.
 
-
 VPN však neslouží jen ke vzdálenému přístupu. Můžete také používat klasického klienta VPN na svých zařízeních a šifrovat veškerý odchozí provoz, i když jste mimo domov (veřejná Wi-Fi, hotel, univerzita atd.). V takovém případě se vaše zařízení připojí k serveru VPN třetí strany (komerčnímu nebo hostovanému na vlastní pěst), který pak předává vaše připojení k internetu. Tím se před poskytovatelem internetu skryje vaše skutečná IP adresa Address, vaše data jsou chráněna před místním špehováním a vyhnete se některým formám cenzury.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 A konečně je také možné nastavit VPN přímo na routeru, což vám umožní chránit všechna zařízení v domácnosti, aniž byste museli na každé z nich instalovat klienta VPN.
 
-
 ### Monitorování a detekce
-
 
 Po správné konfiguraci a segmentaci sítě je důležité překročit rámec pasivního zabezpečení. Aktivní monitorování místní sítě může odhalit abnormální chování, neoprávněná připojení nebo známky narušení. Cílem je odhalit problémy včas, dříve než způsobí škody.
 
-
 Prvním krokem je centralizace bezpečnostních protokolů. Každé zařízení připojené k síti generuje protokoly obsahující informace o připojeních, chybách nebo podezřelých aktivitách. Místo toho, abyste tyto protokoly konzultovali jednotlivě, doporučuji je odesílat na server, který je schopen je seskupovat, třídit a analyzovat. Řešení, jako je Graylog nebo Elastic Stack (ELK), umožňují sdružovat tyto protokoly do grafického prostředí Interface, kde můžete vyhledávat konkrétní události, vytvářet upozornění nebo vizualizovat síťovou aktivitu.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Dále provádějte pravidelné aktivní skenování místní sítě, například pomocí programu Nmap. Získáte tak přehled o všech zařízeních v síti a o portech, které mají otevřeny. Pokud identifikujete neznámé zařízení nebo neobvyklou službu, může to být známkou útoku.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Chcete-li jít ještě dál, můžete nainstalovat systém IDS (*Intrusion Detection System*) nebo dokonce IPS (*Intrusion Prevention System*). Tyto nástroje, například Suricata nebo Snort, monitorují síťové toky v reálném čase a detekují signatury známých útoků (skenování portů, injektáže, podezřelá připojení atd.). Systém IDS varuje, zatímco systém IPS může určité akce automaticky blokovat.
 
-
-
 Sledování spotřeby šířky pásma je také dobrým indikátorem abnormální aktivity. Pokud zařízení bez zjevného důvodu náhle spotřebuje velké množství dat, může to prozrazovat neoprávněné stahování, únik dat nebo dokonce napadení zařízení. Nástroje jako ntopng nebo vnStat umožňují zobrazit příchozí a odchozí toky podle zařízení.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Zálohování a odolnost
 
-
 I v případě dokonale zabezpečené sítě mohou selhání hardwaru, chyby konfigurace nebo nepředvídatelné události (výpadek proudu, přepětí, selhání disku Hard atd.) způsobit ztrátu dat nebo přerušení služeb. Abyste zaručili kontinuitu svého digitálního prostředí a v případě problému nemuseli začínat od nuly, je důležité zavést strategii zálohování a odolnosti.
-
 
 Začněte pravidelným zálohováním konfigurace síťového zařízení, zejména směrovače. Tyto konfigurační soubory lze často exportovat prostřednictvím administrace Interface. Uchovávání kopie vám umožní rychle obnovit funkční systém v případě resetu nebo výměny zařízení. Tuto zálohu doporučuji také zašifrovat.
 
-
 Chcete-li zvýšit odolnost své sítě v případě výpadku napájení, investujte do UPS. Toto zařízení poskytuje v případě výpadku proudu záložní napájení po dobu několika minut, což vám umožní pokračovat v používání internetu nebo zajistí, že se kritická zařízení (NAS, směrovač, přístupový bod Wi-Fi atd.) vypnou bez problémů. Některé modely mohou také odeslat příkaz k automatickému vypnutí připojených zařízení, když zjistí, že je baterie vybitá.
-
 
 Dodržením těchto několika kroků vytvoříte robustní a bezpečné síťové prostředí, které respektuje vaše soukromí.
 
-
 # Závěrečná část
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenze a hodnocení
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

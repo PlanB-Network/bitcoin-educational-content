@@ -100,7 +100,7 @@ Dieses Modell unterscheidet sich grundlegend von traditionellen Bankensystemen, 
 
 Bitcoin funktioniert anders. Das Konzept eines Kontos gibt es nicht, und die Geldeinheiten werden nicht über Guthaben, sondern über UTXOs verwaltet. Ein UTXO steht für eine bestimmte Menge an Bitcoins, die noch nicht ausgegeben wurde, und bildet somit ein "Stück Bitcoin", das groß oder klein sein kann. Ein UTXO kann zum Beispiel 500 BTC oder einfach 700 SATS wert sein.
 
-**> Der Satoshi, oft abgekürzt als Sat, ist die kleinste Einheit von Bitcoin, vergleichbar mit dem Centime in Fiat-Währungen.
+**Erinnern:** Der Satoshi, oft abgekürzt als Sat, ist die kleinste Einheit von Bitcoin, vergleichbar mit dem Centime in Fiat-Währungen.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin funktioniert anders. Das Konzept eines Kontos gibt es nicht, und die Gel
 
 Theoretisch kann ein UTXO einen beliebigen Wert in Bitcoins repräsentieren, der von einem Sat bis zu einem theoretischen Maximum von etwa 21 Millionen BTC reicht. Es ist jedoch logisch unmöglich, alle 21 Millionen Bitcoins zu besitzen, und es gibt eine untere wirtschaftliche Schwelle, die als "Staub" bezeichnet wird und unterhalb derer ein UTXO als wirtschaftlich unrentabel angesehen wird.
 
-**> Das größte UTXO, das jemals auf Bitcoin erstellt wurde, hatte einen Wert von 500.000 BTC. Er wurde von der MtGox-Plattform während einer Konsolidierungsoperation im November 2011 erstellt: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Wussten Sie?** Das größte UTXO, das jemals auf Bitcoin erstellt wurde, hatte einen Wert von 500.000 BTC. Er wurde von der MtGox-Plattform während einer Konsolidierungsoperation im November 2011 erstellt: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs und Ausgabenbedingungen
 
@@ -148,7 +148,7 @@ Jede Bitcoin-Transaktion besteht daher aus einem oder mehreren Inputs und einem 
 
 ![BTC204](assets/fr/011.webp)
 
-**> Theoretisch könnte eine Bitcoin-Transaktion eine unendliche Anzahl von Eingängen und Ausgängen haben. Die einzige Grenze ist die maximale Blockgröße.
+**Wussten Sie?** Theoretisch könnte eine Bitcoin-Transaktion eine unendliche Anzahl von Eingängen und Ausgängen haben. Die einzige Grenze ist die maximale Blockgröße.
 
 Jede Eingabe in einer Bitcoin-Transaktion bezieht sich auf einen zuvor nicht ausgegebenen UTXO. Um einen UTXO als Eingabe zu verwenden, muss sein Inhaber nachweisen, dass er der rechtmäßige Eigentümer ist, indem er das zugehörige Skript validiert, d. h. die auferlegte Ausgabebedingung erfüllt. Im Allgemeinen bedeutet dies, dass eine digitale Signatur vorgelegt werden muss, die mit dem privaten Schlüssel erstellt wurde, der dem öffentlichen Schlüssel entspricht, mit dem dieser UTXO ursprünglich gesichert wurde. Das Skript besteht also darin, zu überprüfen, ob die Unterschrift mit dem öffentlichen Schlüssel übereinstimmt, der beim Erhalt der Mittel verwendet wurde.
 
@@ -211,7 +211,7 @@ Blocksubventionierte Bitcoins sind neue BTC, die nach einem in den Konsensregeln
 
 Die Transaktionsgebühren stellen zwar ebenfalls neu geschaffene BTC dar, dürfen aber die Differenz zwischen den gesamten Inputs und Outputs aller Transaktionen in einem Block nicht überschreiten. Wie wir bereits gesehen haben, stellen diese Gebühren den Teil der Inputs dar, der nicht für die Outputs der Transaktion verwendet wird. Dieser Anteil ist technisch gesehen während der Transaktion "verloren", und der Miner hat das Recht, diesen Wert in Form eines oder mehrerer neuer UTXOs wiederherzustellen. Dies ist ein Werttransfer zwischen dem Emittenten der Transaktion und dem Miner, der sie zur Blockchain hinzufügt.
 
-**> Bitcoins, die durch eine Coinbase-Transaktion erzeugt werden, unterliegen einer Laufzeit von 100 Blöcken, während der sie vom Miner nicht ausgegeben werden können. Mit dieser Regel sollen Komplikationen vermieden werden, die mit der Verwendung von neu erzeugten Bitcoins auf einer Kette verbunden sind, die später veraltet sein könnte.
+**Wussten Sie?** Bitcoins, die durch eine Coinbase-Transaktion erzeugt werden, unterliegen einer Laufzeit von 100 Blöcken, während der sie vom Miner nicht ausgegeben werden können. Mit dieser Regel sollen Komplikationen vermieden werden, die mit der Verwendung von neu erzeugten Bitcoins auf einer Kette verbunden sind, die später veraltet sein könnte.
 
 ### Die Auswirkungen des UTXO-Modells
 
@@ -235,10 +235,8 @@ Aus diesem Grund verwenden wir Geld, um Werte in Raum und Zeit zu bewegen.
 ![BTC204](assets/fr/018.webp)
 
 Damit Münzen dieses Problem lösen können, muss derjenige, der eine Ware oder eine Dienstleistung anbietet, davon überzeugt sein, dass er diese Summe zu einem späteren Zeitpunkt ausgeben kann. Jeder vernünftige Mensch, der eine Münze - ob digital oder physisch - akzeptieren möchte, wird daher sicherstellen, dass sie zwei grundlegende Kriterien erfüllt:
-
-
-- Das Stück muss integer und authentisch sein ;**
-- und darf nicht doppelt ausgegeben werden.**
+- **Das Stück muss integer und authentisch sein ;**
+- **und darf nicht doppelt ausgegeben werden.**
 
 Wenn Sie physisches Bargeld verwenden, ist das erste Merkmal am schwierigsten zu überprüfen. Zu verschiedenen Zeiten in der Geschichte wurde die Unversehrtheit von Metallmünzen oft durch Praktiken wie Beschneiden oder Durchstechen beeinträchtigt. Im alten Rom war es beispielsweise üblich, dass die Bürger die Ränder von Goldmünzen ankratzten, um ein wenig Edelmetall zu sammeln und sie für zukünftige Transaktionen aufzubewahren. Auf diese Weise wurde der innere Wert der Münze verringert, ihr Nennwert blieb jedoch gleich. Dies ist einer der Gründe, warum der Rand der Münze später geriffelt wurde.
 
@@ -307,7 +305,7 @@ Laienhaft ausgedrückt, gibt es drei Hauptstufen der Kettenanalyse:
 
 2. **Die Identifizierung von bekannten Merkmalen ;**
 
-3. **Die Ableitung von Annahmen **
+3. **Die Ableitung von Annahmen**
 
 ![BTC204](assets/fr/026.webp)
 

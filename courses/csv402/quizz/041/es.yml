@@ -1,4 +1,4 @@
-question: ¿Qué elementos son necesarios para crear un canal Lightning que transporte activos RGB?
+question: ¿Qué elementos son necesarios para crear un canal de Lightning que transporte activos RGB?
 answer: Financiación en bitcoins y financiación en activos RGB
 wrong_answers:
   - Financiación sólo con Bitcoin para empezar

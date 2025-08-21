@@ -1,0 +1,10 @@
+question: Karahindiba protokolünde kök aşaması nasıl işliyor?
+answer: İşlem rastgele bir düğüm yolu üzerinden gönderilir
+wrong_answers:
+  - İşlem derhal kaynak düğümün tüm eşlerine yayınlanır
+  - İşlem yayınlanmadan önce geçici olarak merkezi bir düğümde saklanır
+  - İşlem, yayının her adımında aşamalı olarak şifrelenir
+explanation: |
+  Dandelion ilk olarak işlemin rastgele bir düğüm yolu üzerinden gönderildiği bir kök aşaması kullanır. İşlem daha sonra kabartma aşamasında tüm ağa yayınlanır.
+  
+reviewed: false

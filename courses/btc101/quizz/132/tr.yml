@@ -1,0 +1,12 @@
+question: Bitcoin düğümlerinin coğrafi dağılımının önemi nedir?
+answer: Bu da Blockchain'in tüm kopyalarını yok etmeyi neredeyse imkansız hale getirmektedir.
+wrong_answers:
+  - Bitcoin'nin farklı bölgelerdeki fiyatını belirler.
+  - Bitcoin işlemlerinin hızını etkiler.
+  - Bir bölgede çıkarılabilecek bitcoin sayısını belirler.
+explanation: |
+  Bitcoin düğümlerinin coğrafi dağılımı
+  tüm kopyalarını yok etmek pratikte imkansızdır
+  Blockchain. Düğümler dağınık olduğu için
+  fiziksel olarak hepsini ele geçirmek.
+reviewed: true

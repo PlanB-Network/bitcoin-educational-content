@@ -118,7 +118,7 @@ Baada ya kuunganishwa kwenye mtandao wa ndani, Mini 3 yako itaonyesha maelezo ka
 
 
 
-Ifuatayo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
+lifuatalo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
@@ -137,11 +137,11 @@ Ifuatayo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
-**Sehemu hii ni ya kawaida kwa vifaa vya Nano 3s na Mini 3, kwani michakato inafanana kabisa **
+**Sehemu hii ni ya kawaida kwa vifaa vya Nano 3s na Mini 3, kwani michakato inafanana kabisa**
 
 
 
-Iwe tunataka "kucheza pekee" au "pool" ya Miner, tutahitaji kuunganisha kwenye Mining pool. Kwa kweli, kifaa chetu sio zaidi ya mtengenezaji wa Hash bila ufahamu wa mtandao wa Bitcoin. Kuiunganisha kwenye bwawa huipa ufikiaji wa mtandao wa Bitcoin, na huiruhusu kupokea violezo vya kuzuia ili kufanyia kazi.
+Iwe tunataka "kucheza pekee" au "pool" ya Miner, tutahitaji kuunganisha kwenye Mining pool. Kwa kweli, kifaa chetu sio zaidi ya mtengenezaji wa Hash bila ufahamu wa mtandao wa Bitcoin. Kuiunganisha kwenye bwawa huipa ufikiaji wa mtandao wa Bitcoin, na huiruhusu kupokea maelezo ya kuzuia ili kufanyia kazi.
 
 
 

@@ -1,0 +1,9 @@
+question: Mesaj Kimlik Doğrulama Kodunun (MAC) birincil işlevi nedir?
+answer: Mesajın gerçekliğini ve bütünlüğünü sağlayın
+wrong_answers:
+  - Gizliliği sağlamak için mesajları şifreleyin
+  - Mesaj müdahalesini önleme
+  - Her iletişim için generate özel anahtarları
+explanation: |
+  MAC, bir mesajın gerçekten meşru göndericiden geldiğinin ve değiştirilmediğinin doğrulanmasına olanak tanıyan ve böylece özgünlük ve bütünlüğü sağlayan bir kriptografik şemadır.
+reviewed: false

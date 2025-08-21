@@ -484,6 +484,8 @@ Cette approche repose sur un modèle *rolling release*, où les paquets sont mis
 
 Arch Linux s’adresse avant tout aux utilisateurs avancés qui souhaitent un contrôle total sur leur environnement, tout en acceptant une certaine complexité d’installation et de maintenance. Cette exigence technique a conduit à l’émergence de plusieurs distributions dérivées visant à démocratiser son usage.
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 La plus connue est Manjaro, qui conserve la base technique d’Arch tout en proposant une installation simplifiée, des environnements de bureau préconfigurés et un cycle de publication légèrement différé pour stabiliser les mises à jour.
 
 ![Image](assets/fr/042.webp)
@@ -550,6 +552,8 @@ L’installation est fluide, les logiciels essentiels sont préinstallés, et la
 
 Lancée en 2011, elementary OS est une distribution basée sur Ubuntu qui mise avant tout sur le design et la cohérence de l’interface. Son environnement de bureau Pantheon, inspiré de macOS, est minimaliste, élégant et fluide. Toutefois, le système reste moins personnalisable que d'autres distributions, et certains utilisateurs avancés peuvent se sentir limités par ses choix d’interface et sa structure volontairement verrouillée. Elle convient bien aux personnes sensibles à l’esthétique, recherchant un système simple et cohérent pour un usage quotidien.
 
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+
 ![Image](assets/fr/023.webp)
 
 - **Pop!OS** :
@@ -596,6 +600,8 @@ Arch Linux est une distribution minimaliste, en mise à jour continue, livrée s
 
 ![Image](assets/fr/029.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distributions spécialisées
 
 - **Kali Linux** :
@@ -638,6 +644,8 @@ PureOS est une distribution dérivée de Debian développée par Purism, totalem
 
 ![Image](assets/fr/035.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - **Raspberry Pi OS** :
 
 Raspberry Pi OS (anciennement Raspbian) est une distribution optimisée pour les micro-ordinateurs Raspberry Pi. Elle repose sur Debian, avec des paquets recompilés pour l’architecture ARM. Elle peut être utilisée pour des projets éducatifs, des tests électroniques ou des petits serveurs personnels.
@@ -649,6 +657,8 @@ Raspberry Pi OS (anciennement Raspbian) est une distribution optimisée pour les
 Whonix combine Debian avec le réseau Tor dans une architecture en deux VM (passerelle + station de travail). C'est une distribution orientée sécurité, mais dépendante de la virtualisation. Elle est recommandée pour ceux qui ont vraiment besoin de confidentialité.
 
 ![Image](assets/fr/037.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes.
 
@@ -2492,7 +2502,11 @@ Ce protocole est parfait pour échanger des fichiers sensibles de manière sécu
 
 Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ![Image](assets/fr/256.webp)
+
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
 
@@ -2961,6 +2975,8 @@ La contrepartie est une réduction importante des performances (latence élevée
 
 [Mullvad Browser](https://mullvad.net/en/browser) est le fruit d’une collaboration entre la Fondation Tor et Mullvad VPN. Il repose sur la base du navigateur Tor, lui-même dérivé de Firefox ESR. Mullvad Browser est conçu pour maximiser la confidentialité de l'utilisateur. Il intègre par défaut des protections avancées contre le fingerprinting, les trackers et les scripts tiers.
 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+
 Il reprend l’essentiel des fonctionnalités de sécurité et de respect de la vie privée offertes par Tor Browser, à une différence près : il ne redirige pas le trafic via le réseau Tor. Pour éviter toute fuite d’adresse IP, vous pouvez l'utiliser en combinaison avec un VPN (idéalement, Mullvad VPN).
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -2977,6 +2993,8 @@ LibreWolf active par défaut les paramètres de sécurité avancés de Firefox (
 
 ![Image](assets/fr/115.webp)
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) est un navigateur libre et open source basé sur Firefox (moteur Gecko), lancé en 2024. Son objectif est de proposer une expérience de navigation moderne, élégante, très personnalisable, et surtout centrée sur la vie privée, sans dépendance à Chromium.
@@ -2991,6 +3009,8 @@ Zen prend également en charge les extensions Firefox, ainsi que la synchronisat
 D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des traqueurs tiers. Le navigateur ne collecte aucune donnée lui-même, et il permet également de désactiver la télémétrie Mozilla. Aussi, il rejette automatiquement les certificats SSL obsolètes ou non conformes.
 
 Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
+
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navigateurs basés sur WebKit
 
@@ -4665,6 +4685,8 @@ Les deux principales solutions pour les particuliers sont :
 - WireGuard : moderne, rapide et léger ;
 - OpenVPN : plus ancien mais très mature et configurable.
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Voici un tutoriel complet sur Tailscale, une solution de VPN facile à configurer qui utilise WireGuard :
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -4685,7 +4707,11 @@ Une fois votre réseau bien configuré et segmenté, il est important de ne pas 
 
 La première étape consiste à centraliser les journaux de sécurité (logs). Chaque appareil connecté au réseau génère des logs contenant des informations sur les connexions, les erreurs ou les activités suspectes. Plutôt que de consulter ces journaux individuellement, je vous conseille de les envoyer vers un serveur capable de les regrouper, trier et analyser. Des solutions comme Graylog ou Elastic Stack (ELK) permettent d’agréger ces logs dans une interface graphique où vous pouvez rechercher des événements spécifiques, créer des alertes ou visualiser l’activité du réseau.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+
 Ensuite, effectuez régulièrement un scan actif de votre réseau local, par exemple avec Nmap. Cela vous permet d’obtenir une vue de tous les appareils présents sur votre réseau, ainsi que les ports qu’ils ont ouverts. Si vous identifiez un appareil inconnu ou un service inhabituel, cela peut être le signe d’une attaque.
+
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Pour aller plus loin, vous pouvez mettre en place un IDS (*Intrusion Detection System*), voire un IPS (*Intrusion Prevention System*). Ces outils, comme Suricata ou Snort, surveillent en temps réel les flux réseau et détectent les signatures d’attaques connues (scans de ports, injections, connexions suspectes...). L’IDS alerte, tandis que l’IPS peut bloquer automatiquement certaines actions.
 

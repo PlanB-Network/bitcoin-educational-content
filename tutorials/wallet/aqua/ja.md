@@ -190,4 +190,5 @@ Continue*」をクリックして確認する。
 
 私はまた、あなたのリキッドウォレットを設定するためのもう一つの興味深いソリューションであるBlockstream Greenモバイルアプリに関するこの他の包括的なチュートリアルをチェックアウトすることをお勧めします：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

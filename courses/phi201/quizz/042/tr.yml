@@ -1,0 +1,9 @@
+question: Aziz Thomas Aquinas'a göre doğal hukukun işlevi nedir?
+answer: İnsanların vicdanını aydınlatır ve adil ahlaki seçimler yapmalarını sağlar.
+wrong_answers:
+  - Tanrı'nın isteğini açıklayarak insanları kurtuluşa doğru yönlendirir.
+  - Doğa kanunlarının bilinmesini sağlar.
+  - Bu bir tür içgüdüdür.
+explanation: |
+  Aziz Thomas Aquinas'a göre doğal hukukun işlevi, bireylerin eylemlerinde iyi olanı ayırt etmelerine ve seçmelerine yardımcı olan evrensel ahlaki ölçütler sağlayarak insan vicdanını aydınlatmaktır.
+reviewed: true

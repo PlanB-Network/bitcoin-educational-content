@@ -4,12 +4,15 @@ description: Postavljanje 2/2 Multisig na Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Napomena:** Od maja 2025. godine neće biti moguće aktivirati nove naloge zaštićene dvofaktorskom autentifikacijom (2FA). Ova funkcija je dostupna samo korisnicima koji su prethodno aktivirali ovu vrstu naloga.*
+
+___
 
 Software Wallet je aplikacija instalirana na računaru, pametnom telefonu ili drugom uređaju povezanom na Internet, koja vam omogućava upravljanje i zaštitu vaših Bitcoin Wallet ključeva. Za razliku od hardverskih novčanika, koji izoluju privatne ključeve, "Hot" novčanici stoga rade u okruženju potencijalno izloženom sajber napadima, povećavajući rizik od piraterije i krađe.
 
-
 Softverski novčanici treba da se koriste za upravljanje razumnim količinama bitkoina, posebno za svakodnevne transakcije. Oni takođe mogu biti zanimljiva opcija za ljude sa ograničenim Bitcoin sredstvima, za koje ulaganje u Hardware Wallet može delovati nesrazmerno. Međutim, njihova stalna izloženost internetu čini ih manje sigurnim za čuvanje dugoročnih ušteđevina ili velikih fondova. Za ovo drugo, najbolje je odlučiti se za sigurnija rešenja, kao što su hardverski novčanici.
-
 
 U ovom vodiču, pokazaću vam kako da poboljšate sigurnost Hot Wallet koristeći opciju "*2FA*" na Blockstream Green.
 
@@ -29,7 +32,7 @@ Green je posebno jednostavna aplikacija za korišćenje, što je čini zanimljiv
 Blockstream Green takođe podržava Liquid Network, Bitcoin Sidechain razvijen od strane Blockstream-a za brzo, Confidential Transactions izvan glavnog Blockchain. U ovom vodiču, fokusiramo se isključivo na Bitcoin, ali sam takođe napravio još jedan vodič da naučite kako koristiti Liquid na Green :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig opcija (2FA)
 
@@ -58,7 +61,7 @@ Još jedan nedostatak ove sigurnosne metode je što ćete morati koristiti manji
 Ako ne želite da koristite opciju 2FA i jednostavno želite da postavite "*singlesig*" Wallet na Green, pozivam vas da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instaliranje i konfiguracija Blockstream Green softvera
 
@@ -393,4 +396,4 @@ Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green p
 Takođe vam preporučujem da pogledate ovaj drugi sveobuhvatni vodič o mobilnoj aplikaciji Blockstream Green za postavljanje Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

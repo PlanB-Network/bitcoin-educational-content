@@ -1,0 +1,11 @@
+question: Bitcoin Wallet'in amacı nedir?
+answer: Bitcoin işlemlerini yapmak için özel anahtarları saklamak.
+wrong_answers:
+  - Cihaz kaynaklarını bitcoin madenciliği yapmak için kullanmak.
+  - Açık anahtar aracılığıyla bitcoin satın almak için.
+  - Bitcoinleri bir cihazda saklamak için.
+explanation: |
+  Bitcoin cüzdanları, aşağıdakileri yapmak için kullanılan bir yazılım türüdür
+  işlem yapmanızı sağlayan özel anahtarları depolar
+  bitcoins.
+reviewed: true

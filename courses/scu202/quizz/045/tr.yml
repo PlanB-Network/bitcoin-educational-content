@@ -1,0 +1,9 @@
+question: Hangi macOS aracı tam sistem diski şifrelemesini etkinleştirir?
+answer: FileVault
+wrong_answers:
+  - Disk Yardımcı Programı
+  - iCloud Anahtar Zinciri
+  - BitLocker
+explanation: |
+  FileVault, macOS'a entegre edilmiş yerel disk şifreleme çözümüdür.
+reviewed: false

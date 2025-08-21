@@ -4,7 +4,7 @@ goal: Jifunze kutumia na kuendeleza na jukwaa la Elements la chanzo huria cha Bl
 objectives: 
 
   - Elewa dhana za msingi za jukwaa la Elements Blockchain na minyororo ya pembeni ya Liquid.
-  - Jifunze kusanidi na kuendesha nodi za Elements kwa usanidi wa pekee na wa Sidechain.
+  - Jifunze kusanidi na kuendesha node za Elements kwa usanidi wa pekee na wa Sidechain.
   - Pata uzoefu wa vitendo na shirikisho la block signing na Federated 2-Way Peg.
   - Sanidi na udhibiti mazingira salama na bora ya Blockchain kwa matukio ya matumizi ya ulimwengu halisi.
 
@@ -50,31 +50,31 @@ Maelezo zaidi ya usuli kuhusu Elements yanaweza kupatikana kwa urahisi kwenye to
 
 ### Elements
 
-Ilizinduliwa mwaka wa 2015, Elements inapunguza gharama za maendeleo ya ndani na utafiti na kutumia teknolojia ya hivi punde ya Blockchain, ikifungua kesi nyingi mpya za utumiaji kwa utekelezaji. Blockchain yenye msingi wa Elements inaweza kufanya kazi kama Blockchain inayojitegemea au kuunganishwa kwa nyingine na kuendeshwa kama Sidechain. Uendeshaji wa Elements kama Sidechain huwezesha mali kuhamishwa kwa uthibitishaji kati ya misururu tofauti tofauti.
+Ilizinduliwa mwaka wa 2015, Elements inapunguza gharama za maendeleo ya ndani na utafiti na kutumia teknolojia ya hivi punde ya Blockchain, ikifungua kesi nyingi mpya za utumiaji kwa utekelezaji. Blockchain yenye msingi wa Elements inaweza kufanya kazi kama Blockchain inayojitegemea au kuunganishwa kwa nyingine na kuendeshwa kama Sidechain. Uendeshaji wa Elements kama Sidechain huwezesha mali kuhamishwa kwa uthibitishaji kati yaMisururu tofauti tofauti.
 
-Imeundwa juu na kupanua codebase ya Bitcoin, inawaruhusu wasanidi programu kufahamiana na API ya bitcoind haraka na kwa gharama nafuu kuunda misururu inayofanya kazi na kujaribu miradi ya uthibitisho wa dhana. Kujengwa kwa Bitcoin codebase pia inaruhusu Elements kufanya kazi kama kitanda cha majaribio kwa mabadiliko ya itifaki ya Bitcoin yenyewe.
+Imeundwa juu na kupanua codebase ya Bitcoin, inawaruhusu wasanidi programu kufahamiana na API ya `bitcoind` haraka na kwa gharama nafuu, kuunda misururu inayofanya kazi na kujaribu miradi ya uthibitisho wa dhana. Kujengwa kwa Bitcoin codebase pia kunaruhusu Elements kufanya kazi kama kitanda cha majaribio kwa mabadiliko ya itifaki ya Bitcoin yenyewe.
 
-Baadhi ya sifa kuu za Elements zimeorodheshwa zifuatazo.
+Baadhi ya sifa kuu za Elements zimeorodheshwa zifuatazo:
 
 #### Confidential Transactions
 
-Kwa chaguo-msingi, anwani zote katika Elements ni blinded kwa kutumia Confidential Transactions. Kupofusha ni mchakato ambao kiasi na aina ya mali inayohamishwa hufichwa kwa siri kutoka kwa kila mtu, isipokuwa washiriki na wale wanaowachagua kufichua ufunguo wa upofu.
+Kwa chaguo-msingi, anwani zote katika Elements zimefichwa kwa kutumia Confidential Transactions. Kupofusha ni mchakato ambao kiasi na aina ya mali inayohamishwa hufichwa kwa siri kutoka kwa kila mtu, isipokuwa washiriki na wale wanaochaguliwa kufichuliwa ufunguo wa kupofua.
 
 #### Issued Assets
 
-Issued Assets kwenye Elements inaruhusu aina nyingi za mali kutolewa na kuhamishwa kati ya washiriki wa mtandao. Kipengee Kilichotolewa pia kinanufaika na Confidential Transactions na kinaweza kutolewa tena au kuharibiwa na mtu yeyote aliye na reissuance token husika.
+Issued Assets kwenye Elements huruhusu aina mbalimbali za mali kutolewa na kuhamishwa kati ya washiriki wa mtandao. Kipengee kilichotolewa pia kinanufaika na Confidential Transactions na kinaweza kutolewa tena au kuharibiwa na mtu yeyote aliye na reissuance token husika.
 
 #### Federated 2-Way Peg
 
-Elements ni jukwaa la madhumuni ya jumla la Blockchain ambalo linaweza pia "kupachikwa" kwa Blockchain iliyopo (kama vile Bitcoin) ili kuwezesha uhamishaji wa mali wa njia mbili kutoka kwa msururu mmoja hadi mwingine. Utekelezaji wa Elements kama Sidechain hukuruhusu kufanyia kazi baadhi ya sifa asilia za mnyororo mkuu, huku ukihifadhi kiwango kizuri cha usalama unaotolewa na mali zinazolindwa kwenye mnyororo mkuu.
+Elements ni jukwaa la madhumuni ya jumla la blockchain ambalo linaweza pia “kupachikwa” kwa blockchain iliyopo (kama vile Bitcoin) ili kuwezesha uhamishaji wa mali wa njia mbili kutoka kwa msururu mmoja hadi mwingine. Utekelezaji wa Elements kama sidechain hukuruhusu kufanyia kazi baadhi ya sifa asilia za mnyororo mkuu, huku ukihifadhi kiwango kizuri cha usalama unaotolewa na mali zinazolindwa kwenye mnyororo mkuu.
 
-#### Vitalu vilivyosainiwa
+#### block zilizosainiwa
 
-Elements hutumia Strong Federation ya watia saini, wanaoitwa Block Signers, ambao husaini na kuunda vitalu kwa njia ya kuaminika na kwa wakati. Hii huondoa ukawiaji wa muamala wa mchakato wa PoW Mining, ambao unakabiliwa na tofauti kubwa ya muda wa kuzuia kutokana na usambazaji wake wa poisson bila mpangilio. Mchakato wa Shirikisho la block signing unafanikisha uundaji wa vitalu unaotegemewa bila kuwasilisha hitaji la uaminifu wa watu wengine au `algorithm` ya kimahesabu kulingana na Mining.
+Elements hutumia Strong Federation ya watia saini, wanaoitwa Block Signers, ambao husaini na kuunda vitalu kwa njia ya kuaminika na kwa wakati. Hii huondoa ucheleweshaji wa miamala wa mchakato wa PoW Mining, ambao unakabiliwa na tofauti kubwa ya muda wa kuzuia kutokana na usambazaji wake wa Poisson bila mpangilio. Mchakato wa shirikisho la block signing unafanikisha uundaji wa vitalu unaotegemewa bila kuwasilisha hitaji la uaminifu wa watu wengine au algorithm ya kimahesabu. na Mining.
 
 Elements inaongeza vipengele hivi vyote juu ya Bitcoin Core codebase, kupanua uwezo wa itifaki ya mainchain na kuwezesha kesi mpya za matumizi ya biashara inapotumwa kama Sidechain au kama suluhu ya Blockchain inayojitegemea.
 
-# Kipengele
+# Element
 
 <partId>ac68d611-be84-432f-a3a8-620d310e131c</partId>
 
@@ -119,26 +119,25 @@ Kwa kutumia seti isiyobadilika ya kutia sahihi muundo wa Shirikisho hubadilisha 
 Shirikisho la block signing lina awamu kadhaa:
 
 
-- Hatua ya 1 - Watia Sahihi wa Kuzuia wanapendekeza vizuizi vya wagombeaji kwa mtindo wa robin ya pande zote kwa Waweka Sahihi wa Block wote wanaoshiriki.
-- Hatua ya 2 - Kila block signer inaashiria nia yao kwa kujitolea mapema kutia sahihi kizuizi ulichopewa.
-- Hatua ya 3 - Ikiwa kizingiti kilichotolewa cha pre-Commitment kimefikiwa, kila block signer inatia saini kizuizi.
-- Hatua ya 4 - Ikiwa kizingiti cha saini (ambacho kinaweza kuwa tofauti na hatua ya 3) kinafikiwa, kizuizi kinakubaliwa na kutumwa kwenye mtandao. Strong Federation imefikia makubaliano juu ya kizuizi cha hivi karibuni cha miamala.
-- Hatua ya 5 - Kizuizi kinachofuata kinapendekezwa na block signer inayofuata kwenye robini ya pande zote na mchakato unarudiwa.
+- **Hatua ya 1** – Watia sahihi wa kuzuia wanapendekeza block za wagombeaji kwa mtindo wa round-robin kwa block signer wote wanaoshiriki.
+**Hatua ya 2** – Kila block signer huonyesha nia yao kwa kujitolea mapema kutia sahihi block waliyopewa.
+**Hatua ya 3** – Ikiwa kizingiti cha pre-commitment kilichowekwa kimefikiwa, kila block signer hutia sahihi block hiyo.
+**Hatua ya 4** – Ikiwa kizingiti cha sahihi (ambacho kinaweza kuwa tofauti na hatua ya 3) kitafikiwa, block hukubaliwa na kutumwa kwenye mtandao. Strong Federation hufikia makubaliano kuhusu block ya karibuni ya muamala.
+**Hatua ya 5** – Block inayofuata hupendekezwa na block signer anayefuata katika mzunguko wa round-robin na mchakato hurudiwa.
 
-Kwa sababu kizazi cha kuzuia cha Strong Federation si cha uwezekano na kinategemea seti isiyobadilika ya watia saini, hakitawahi kuwa chini ya upangaji upya wa vizuizi vingi. Hii inaruhusu kupunguza kwa kiasi kikubwa muda wa kusubiri unaohusishwa na kuthibitisha miamala. Pia huondoa motisha ya kuchimba madini kwa faida (yaani, tuzo za block) na badala yake kuwa na motisha ya kushiriki kwa tija katika mtandao ambapo washiriki wote wana lengo sawa la pamoja; kuhakikisha mtandao unaendelea kufanya kazi kwa njia ambayo ni ya manufaa kwa wote. Inafanya hivi bila kutambulisha hatua moja ya kutofaulu au mahitaji ya juu ya uaminifu.
+Kwa sababu uzalishaji wa block wa Strong Federation si wa uwezekano na unategemea seti isiyobadilika ya watia sahihi, hauwezi kuwa chini ya upangaji upya wa block nyingi. Hii inaruhusu kupunguza kwa kiasi kikubwa muda wa kusubiri unaohusiana na uthibitisho wa miamala. Pia huondoa motisha ya kuchimba kwa ajili ya faida (yaani, tuzo za block) na badala yake huleta motisha ya kushiriki kwa tija katika mtandao ambapo washiriki wote wana lengo la pamoja: kuhakikisha mtandao unaendelea kufanya kazi kwa njia inayowanufaisha wote. Inafanya haya bila kuanzisha hatua moja ya kutofaulu au kuhitaji kiwango cha juu cha uaminifu.
 
 ### Elements kama Sidechain - watchmen na Federated 2-Way Peg
 
 Inapoendeshwa kama Sidechain, baadhi ya wanachama wa Strong Federation wana jukumu la ziada la kutimiza, lile la watchmen. watchmen wanawajibika kwa uhamisho wa mali ndani na nje ya Elements Sidechain, michakato inayojulikana kama `Peg-In` na `Peg-Out`.
 
-Ili Sidechain ifanye kazi kwa njia ya kuaminika ni lazima iruhusu washiriki kuthibitisha kuwa Supply ya mali inadhibitiwa na kuthibitishwa. Elements Sidechain hutumia Kigingi Kilichoshirikishwa cha Njia 2 ili kuwezesha uhamishaji wa mali wa njia mbili ndani na nje ya Elements Blockchain. Hii inakidhi mahitaji ya utoaji unaoweza kuthibitishwa na uhamishaji baina ya minyororo.
+Ili Sidechain ifanye kazi kwa njia ya kuaminika ni lazima iruhusu washiriki kuthibitisha kuwa Supply ya mali inadhibitiwa na kuthibitishwa. Elements Sidechain hutumia Kigingi Kilichoshirikishwa cha Njia 2 ili kuwezesha uhamishaji wa mali wa njia mbili ndani na nje ya Elements Blockchain. Hii inakidhi Mahitaji ya utoaji unaoweza kuthibitishwa na uhamishaji baina ya minyororo.
 
-Kipengele cha Federated 2-Way Peg kinaruhusu kipengee kuingiliana na minyororo mingine na mwakilishi wa mali nyingine asili ya Blockchain. Kwa kushikilia Blockchain yako hadi nyingine, unaweza kupanua uwezo wa mainchain na kushinda baadhi ya mapungufu yake ya asili.
+Element ya *Federated 2-Way Peg* inaruhusu kipengee kuingiliana na minyororo mingine kama mwakilishi wa mali nyingine asilia ya blockchain. Kwa "kushikilia" blockchain yako hadi nyingine, unaweza kupanua uwezo wa *mainchain* na kushinda baadhi ya vikwazo vya asili vinavyokabili mnyororo huo.
 
 Kwa kiwango cha juu, uhamisho kwenye Sidechain hutokea wakati mtu anatuma mali ya mainchain kwa Address inayodhibitiwa na watchmen Wallet ya saini nyingi. Hii inafungia kwa ufanisi mali kwenye mainchain. watchmen kisha uthibitishe muamala na kutoa kiasi sawa cha kipengee husika ndani ya Sidechain. Mali iliyotolewa hutumwa kwa Sidechain Wallet ambayo inaweza kuthibitisha dai la mali asili ya mainchain. Mchakato huu huhamisha mali kutoka kwa msururu wa wazazi hadi Sidechain.
 
 Ili kuhamisha mali kurudi kwa mainchain, mtumiaji hufanya shughuli maalum ya peg-out kwenye Sidechain. Muamala huu unakaguliwa na watchmen ambao kisha husaini matumizi ya muamala kutoka kwa Wallet yenye saini nyingi wanazodhibiti kwenye mainchain. Idadi ya washiriki katika shirikisho lazima itie sahihi kabla ya shughuli ya mainchain kuwa halali. Wakati watchmen inatuma mali kwa mainchain pia huharibu kiasi kinacholingana kwenye Sidechain, kwa ufanisi kuhamisha mali kati ya blockchains.
-
 ## Kuanzisha na Kuendesha Elements
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
@@ -147,15 +146,15 @@ Ili kuhamisha mali kurudi kwa mainchain, mtumiaji hufanya shughuli maalum ya peg
 
 Kwa vile Elements inategemea Bitcoin codebase, vipengele vinavyounda mtandao unaofanya kazi vinafanana sana.
 
-Programu ya nodi ya Elements yenyewe inaitwa `elementsd` na hutumika kama daemon kwenye mashine ya mtumiaji. daemon (au huduma katika Windows) ni programu inayoendesha kama huduma ya usuli bila kuhitaji udhibiti wa moja kwa moja wa mtumiaji aliyeingia kwenye akaunti.
+Programu ya node ya Elements yenyewe inaitwa `elementsd` na hutumika kama daemon kwenye mashine ya mtumiaji. daemon (au huduma katika Windows) ni programu inayoendesha kama huduma ya usuli bila kuhitaji udhibiti wa moja kwa moja wa mtumiaji aliyeingia kwenye akaunti.
 
-Kumbuka: Katika hati hii yote, tutarejelea elementsd kila wakati kama toleo la daemon, lakini kila kitu kinaweza kufanywa kwa Elements-qt, mradi chaguo la seva limewezeshwa.
+Kumbuka: Katika hati hii yote, tutarejelea elements kila wakati kama toleo la daemon, lakini kila kitu kinaweza kufanywa kwa Elements-qt, mradi chaguo la seva limewezeshwa.
 
-Elements daemon inaunganishwa na nodi nyingine kwenye mtandao ili iweze kufanya shughuli za Exchange na kuzuia data, kuthibitisha na kupanua nakala yake ya ndani ya Blockchain ya mtandao.
+Elements daemon inaunganishwa na node nyingine kwenye mtandao ili iweze kufanya shughuli za Exchange na kuzuia data, kuthibitisha na kupanua nakala yake ya ndani ya Blockchain ya mtandao.
 
 Programu ya Elements pia inajumuisha programu ya mteja inayoitwa `elements-cli` ambayo inakuruhusu kutuma amri za Utaratibu wa Mbali (RPC) kwa elementsd kutoka kwa safu ya amri. Hii inaweza kutumika kuuliza salio la Wallet, kutazama muamala au kuzuia data au kutangaza muamala kwa mfano. Mpangilio huu unapaswa kujulikana kwa mtu yeyote ambaye ametumia sawa na Bitcoin; bitcoind na bitcoin-cli.
 
-Kama nodi ya Elements inaweza kusanidiwa kwa kupitisha vigezo wakati wa kuanza au kupitia faili ya usanidi inawezekana kuwa na zaidi ya mfano mmoja unaoendesha kwenye mashine moja. Hii ni muhimu kwa madhumuni ya majaribio na ukuzaji kwani unaweza kusanidi mtandao wako wa ndani kwenye mashine moja, huku kila nodi ya Elements ikiwa na nakala yake ya data ya Blockchain, kudhibiti mkusanyiko wake wa miamala halali ambayo haijathibitishwa na kusikiliza maombi ya RPC kwenye bandari tofauti.
+Kama node ya Elements inaweza kusanidiwa kwa kupitisha vigezo wakati wa kuanza au kupitia faili ya usanidi, inawezekana kuwa na zaidi ya mfano mmoja unaoendesha kwenye mashine moja. Hii ni muhimu kwa madhumuni ya majaribio na ukuzaji, kwani unaweza kusanidi mtandao wako wa ndani kwenye mashine moja, huku kila nodi ya Elements ikiwa na nakala yake ya data ya blockchain, ikidhibiti mkusanyiko wake wa miamala halali ambayo haijathibitishwa, na kusikiliza maombi ya RPC kwenye bandari tofauti.
 
 ### Hazina ya Msimbo wa Elements na Jumuiya
 
@@ -205,15 +204,14 @@ $HOME/elements/src/elementsd -datadir=$HOME/elementsdir1
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir1 getnewaddress
 ```
 
-Tunachoona hapo juu ni wito wa kuanzisha Elements daemon na wito kwa programu za elements-cli zilizo katika saraka ya `$HOME/Elements/src` na thamani ya kigezo cha `datadir`. Kigezo cha `datadir` kinaturuhusu kuwaambia daemon na matukio ya mteja mahali pa kupata faili zao za usanidi na, kwa upande wa daemon, mahali pa kuhifadhi nakala yake ya Blockchain. Wanaposhiriki faili ya usanidi mteja ataweza kupiga simu za RPC kwa daemon.
+Tunachokiona hapo juu ni wito wa kuanzisha *Elements daemon* na pia wito kwa programu za `elements-cli` zilizoko katika saraka ya `$HOME/elements/src`, kwa kutumia thamani maalum ya kigezo cha `datadir`. Kigezo hiki huturuhusu kuelekeza *daemon* na programu ya mteja (*client instance*) mahali pa kupata faili zao za usanidi, na kwa upande wa *daemon*, mahali pa kuhifadhi nakala ya blockchain. Wanaposhiriki faili ya usanidi, mteja ataweza kutuma maombi ya RPC kwa *daemon*.
 
-Kwa kutekeleza amri iliyo hapo juu tena, lakini kwa thamani tofauti ya `datadir`, tunaweza kuanza zaidi ya mfano mmoja wa Elements, kila moja ikiwa na nakala yake tofauti ya Blockchain na mipangilio ya usanidi. Kwa mkataba huu tutatumia lakabu `e2-dae` na `e2-CLI` katika kozi kurejelea saraka tofauti ya datadir kuliko e1. Kwa hivyo mfano hapo juu kwa mfano wetu wa pili `e2` utakuwa:
+Kwa kutekeleza amri hiyo hiyo iliyo hapo juu, lakini kwa thamani tofauti ya `datadir`, tunaweza kuanzisha zaidi ya mfano mmoja wa Elements, kila mmoja ukiwa na nakala yake tofauti ya blockchain na mipangilio ya usanidi. Katika muktadha huu, tutatumia lakabu `e2-dae` na `e2-CLI` katika kozi hii kurejelea saraka tofauti ya `datadir` kuliko ile ya `e1`. Hivyo basi, mfano wa pili (`e2`) utakuwa:
 
 ```
 $HOME/elements/src/elementsd -datadir=$HOME/elementsdir2
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 ```
-
 Hii itaturuhusu kufanya shughuli za kila aina kama vile kufanya shughuli za mali kati ya nodi, kutoa mali na kuangalia matumizi ya upofu katika Confidential Transactions kati ya nodi tofauti kwenye mtandao mmoja.
 
 # Kutumia Kipengele Vitendo vya matumizi
@@ -226,23 +224,25 @@ Hii itaturuhusu kufanya shughuli za kila aina kama vile kufanya shughuli za mali
 
 :::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
-Katika sehemu hii utajifunza jinsi ya kutumia kipengele cha Confidential Transactions cha Elements.
+Katika sehemu hii, utajifunza jinsi ya kutumia kipengele cha *Confidential Transactions* cha Elements.
 
-Anwani zote katika Elements ni, kwa chaguo-msingi, blinded kwa kutumia Confidential Transactions, ambayo huweka kiasi na aina ya mali iliyohamishwa kuonekana tu kwa washiriki katika shughuli hiyo (na zile wanazochagua kufichua ufunguo wa upofu), huku zikiendelea kuthibitisha kwa njia fiche kwamba hakuna sarafu zaidi zinazoweza kutumika kuliko zilizopo.
+Anwani zote katika Elements ni, kwa chaguo-msingi, *blinded* kwa kutumia *Confidential Transactions*, ambayo huficha kiasi na aina ya mali inayohamishwa ili yaonekane tu kwa washiriki wa shughuli hiyo (na wale wanaochaguliwa kufichuliwa ufunguo wa upofu), huku zikiendelea kuthibitisha kwa njia fiche kwamba hakuna sarafu zaidi zinazotumika kuliko zilizopo.
+
 
 ### Anwani za Siri na Confidential Transactions
 
 Kwa chaguo-msingi, unapounda Address mpya katika Elements ukitumia amri ya `getnewaddress` inaundwa kama Address ya siri.
 
-Ili kuonyesha Confidential Transactions tutakuwa na e2 ijitumie pesa na kisha kujaribu na kuangalia muamala kutoka e1. Hii itaonyesha hali ya siri ya miamala katika Elements.
+Ili kuonyesha *Confidential Transactions*, tutafanya `e2` ijitumie pesa na kisha kujaribu kuangalia muamala huo kutoka kwa `e1`. Hii itaonyesha hali ya usiri ya miamala katika Elements.
 
-Kila Address mpya inayozalishwa na nodi ya Elements ni ya siri kwa chaguo-msingi. Tunaweza kuonyesha hili kwa kupata e2 hadi generate Address mpya.
+Kila Address mpya inayozalishwa na node ya Elements ni ya siri kwa chaguo-msingi. Tunaweza kuonyesha hili kwa kupata e2 hadi generate Address mpya.
 
 ```
 e2-cli getnewaddress
 ```
 
-Kumbuka kuwa Address huanza na e1. Hii inaitambulisha kama Siri ya Address. Kuchunguza Address kwa undani zaidi kwa kutumia amri ya getaddressinfo inaonyesha maelezo zaidi ya Address.
+Kumbuka kuwa anwani huanza na `el1`. Hii huitambulisha kama anwani ya siri (*blinded address*). Kuchunguza anwani kwa undani zaidi kwa kutumia amri ya `getaddressinfo` kunaonyesha maelezo ya kina kuhusu anwani hiyo.
+
 
 ```
 e2-cli getaddressinfo <address>
@@ -250,11 +250,12 @@ e2-cli getaddressinfo <address>
 
 Unaweza kuona kuwa kuna ufunguo_wa siri ambao unatuambia kuwa ni Address ya siri.
 
-Ufunguo_wa_siri ni ufunguo wa upofu wa umma, ambao huongezwa kwa siri ya Address yenyewe. Hii ndiyo sababu Address ya siri ni ndefu sana.
+Ufunguo wa siri ni ufunguo wa upofu wa umma (*blinding public key*), ambao huongezwa kwa siri ya anwani yenyewe. Hii ndiyo sababu anwani ya siri huwa ndefu sana.
 
-Pia ina Address inayohusishwa isiyo ya siri. Iwapo ungependa kutumia miamala ya kawaida, isiyo ya siri, ndani ya Elements, mali inapaswa kutumwa kwa Address hii badala ya ile iliyo na kiambishi awali cha lq1.
 
-Sasa tunaweza kuwa na e2 kutuma pesa kwa Address iliyozalisha. Hii itaonyesha baadaye kwamba e1, kwa kuwa si mojawapo ya wahusika wanaofanya miamala, haitaweza kuona maelezo ya muamala.
+Pia ina anwani inayohusishwa isiyo ya siri. Iwapo ungependa kutumia miamala ya kawaida, isiyo ya siri, ndani ya Elements, mali inapaswa kutumwa kwa anwani hii badala ya ile iliyo na kiambishi awali cha `lq1`.
+
+Sasa tunaweza kuwa na `e2` itume pesa kwa anwani iliyoizalisha. Hii itaonyesha baadaye kwamba `e1`, kwa kuwa si miongoni mwa wahusika wa muamala huo, haitaweza kuona maelezo ya muamala.
 
 ```
 e2-cli sendtoaddress <address>
@@ -273,6 +274,7 @@ e2-cli gettransaction <txid>
 ```
 
 Kusogeza maelezo ya muamala, unaweza kuona kwamba e2 inaweza kuona kiasi kilichotumwa na kupokewa pamoja na mali iliyotumika. Unaweza pia kuona vipofu vya kiasi na vipofu vya mali, ambavyo hutumika kuficha maelezo kutoka kwa nodi zingine ambazo hazihusiki katika shughuli hiyo.
+
 
 Ili kuangalia maelezo ya muamala sawa kutoka e1 tunahitaji kwanza kupata maelezo ghafi ya muamala.
 
@@ -340,7 +342,7 @@ Ni hayo tu kwa somo hili; bahati nzuri kwenye jaribio na tuonane katika ijayo!
 
 Katika sehemu hii utajifunza jinsi ya kutumia kipengele cha Issued Assets cha Elements.
 
-Issued Assets huwezesha aina nyingi za mali kutolewa na kuhamishwa kati ya washiriki wa mtandao wa Elements. Nodi yoyote kwenye mtandao inaweza kutoa mali yake mwenyewe. Matoleo yanaweza kuwakilisha Ownership ya mali yoyote ikijumuisha vocha, kuponi, sarafu, amana, dhamana, hisa, n.k. Issued Assets hufungua mlango wa kujenga ubadilishanaji wa Trustless, chaguo na mikataba mingine ya hali ya juu inayohusisha self-Issued Assets.
+Issued Assets huwezesha aina nyingi za mali kutolewa na kuhamishwa kati ya washiriki wa mtandao wa Elements. Nodi yoyote kwenye mtandao inaweza kutoa mali yake mwenyewe. Matoleo yanaweza kuwakilisha umiliki wa mali yoyote ikijumuisha vocha, kuponi, sarafu, amana, dhamana, hisa, n.k. Issued Assets hufungua mlango wa kujenga ubadilishanaji wa trustless, chaguo na mikataba mingine ya hali ya juu inayohusisha self-issued assets.
 
 Kipengee Kilichotolewa pia kinanufaika na Confidential Transactions na kinaweza kutolewa tena na mtu yeyote aliye na tokeni inayohusishwa.
 
@@ -369,7 +371,7 @@ e1-cli issueasset 100 1 false
 
 `issueasset` inakubali vigezo 3.
 
-Kiasi cha kipengee kipya cha kutoa, tumetumia 100. Kiasi cha tokeni kuunda (tokeni hutumika kutoa tena kiasi cha mali), ambacho tulichagua 1. Kigezo cha mwisho kinaiambia Elements ama kuunda utoaji wa mali kama blinded au unblinded. Tutatumia unblinded kwani tunataka kuangalia kiasi cha utoaji kutoka e2 kwa dakika moja, kwa hivyo tutaandika sivyo.
+Kiasi cha kipengee kipya cha kutoa, tumetumia 100. Kiasi cha tokeni kuunda (tokeni hutumika kutoa tena kiasi cha mali), ambacho tulichagua 1. Kigezo cha mwisho kinaiambia Elements ama kuunda utoaji wa mali kama blinded au unblinded. Tutatumia unblinded kwani tunataka kuangalia kiasi cha utoaji kutoka e2 kwa dakika moja, kwa hivyo tutaandika sivyo
 
 Kuendesha amri kunarudisha data kuhusu utoaji. Hizi ni pamoja na transaction ID, ambayo unaweza kuchukua nakala yake kwa matumizi ya baadaye, thamani ya kipekee ya heksi ya kipengee, na thamani ya kipekee ya heksi ya tokeni ya mali.
 
@@ -399,19 +401,19 @@ Hii ni kwa sababu e2 haijui, na haitazami, Address ambayo mali mpya ilitumwa ili
 
 Inafaa kukumbuka kuwa ingawa e2 haiwezi kuona toleo lenyewe, e1 bado inaweza kutuma e2 baadhi ya mali. Kipengee kipya kitaonekana kama salio linalopatikana katika Wallet ya e2, ingawa haifahamu utoaji asili.
 
-Ili kuwezesha e2 kuona utoaji halisi (na kwa hivyo kiasi kilichotolewa), tunahitaji kuongeza Address hadi e2 kama Address inayotazamwa.
+Ili kuwezesha e2 kuona utoaji halisi (na kwa hivyo kiasi kilichotolewa), tunahitaji kuongeza anwani hadi e2 kama anwani inayotazamwa.
 
-Ili kufanya hivyo tunahitaji kujua Address ambayo mali ilitumwa. Kwa hili, tutatumia transaction ID tuliyonakili hapo awali na kuwa na e1 kupata maelezo ya muamala huo ili tuweze kujua Address sahihi ya kuongeza kwenye orodha ya saa ya Wallet ya e2.
+Ili kufanya hivyo tunahitaji kujua anwani ambayo mali ilitumwa. Kwa hili, tutatumia transaction ID tuliyonakili hapo awali na kuwa na e1 kupata maelezo ya muamala huo ili tuweze kujua anwani sahihi ya kuongeza kwenye orodha ya saa ya Wallet ya e2.
 
 ```
 e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
-Ukisogeza juu zaidi ya urefu wa data ya muamala utaona Address iliyopokea 100 ya mali yetu mpya, iliyotambuliwa kwa thamani yake ya hex.
+Ukisogeza juu zaidi ya urefu wa data ya muamala utaona anwani iliyopokea 100 ya mali yetu mpya, iliyotambuliwa kwa thamani yake ya hex.
 
-Chukua Address na uinakili ili tuweze kuiingiza katika e2.
+Chukua anwani na uinakili ili tuweze kuiingiza katika e2.
 
-Sasa hebu tuingize hiyo Address kwenye e2. Ili kufanya hivyo tunatumia amri ya importaddress.
+Sasa hebu tuingize hiyo anwani kwenye e2. Ili kufanya hivyo, tunatumia amri ya `importaddress`.
 
 ```
 e2-cli importaddress <the-issued-to-address>
@@ -424,6 +426,7 @@ e2-cli listissuances
 ```
 
 Unaweza kuona kwamba mali yetu mpya iliyotolewa sasa imejumuishwa kwenye orodha. Nodi ya e2 pia ina uwezo wa kuamua kiasi cha mali ambayo ilitolewa, pamoja na kiasi cha ishara inayohusishwa, kwani utoaji ulikuwa utoaji wa unblinded. Ili kuwezesha matumizi ya kitambulisho cha kipengee kutaja uchoraji ramani ndani ya Elements, kwanza acha Elements.
+
 
 ```
 e1-cli stop
@@ -471,7 +474,7 @@ Kuorodhesha matoleo kutoka e2.
 e2-cli listissuances
 ```
 
-Lebo za vipengee ni za ndani kwa kila nodi, ni heksi ya kipengee pekee inayotambuliwa na nodi nyingine kwenye mtandao.
+Lebo za vipengee ni za ndani kwa kila nodi; ni heksi ya kipengee pekee inayotambuliwa na nodi nyingine kwenye mtandao.
 
 Uchoraji wa lebo hadi heksi ya mali ni muhimu wakati wa kutekeleza vitendo kama vile miamala na hoja za salio la Wallet, kwani inaruhusu njia fupi ya kurejelea mali. Kwa mfano, ikiwa tulitaka kutuma baadhi ya mali yetu mpya (kiasi cha 10) kutoka e1 hadi e2 bila kutumia lebo.
 
@@ -487,7 +490,7 @@ Kisha tumia amri ya sendtoaddress.
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <asset-id-here>
 ```
 
-Thibitisha muamala kwa kutengeneza kizuizi.
+Thibitisha muamala kwa kutengeneza block.
 
 ```
 generate 1
@@ -509,7 +512,7 @@ e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-n
 
 Nyuma ya pazia, Elements inaweka alama za ndani kwa thamani za heksi ili kusaidia kurahisisha matumizi ya Issued Assets.
 
-Katika sehemu hii tumeona jinsi ya kutoa na kuweka lebo ya mali. Katika sehemu inayofuata tutaangalia kutoa tena na kuharibu kiasi cha mali iliyotolewa.
+Katika sehemu hii tumeona jinsi ya kutoa na kuweka lebo ya mali. Katika sehemu inayofuata, tutaangalia kutoa tena na kuharibu kiasi cha mali iliyotolewa.
 
 ## Kutoa tena Mali
 
@@ -519,15 +522,15 @@ Katika sehemu hii tumeona jinsi ya kutoa na kuweka lebo ya mali. Katika sehemu i
 
 Katika sehemu hii utajifunza jinsi ya kutoa zaidi ya mali ambayo tayari imetolewa na pia jinsi ya kuharibu kiasi fulani cha mali iliyotolewa.
 
-Haja ya kutoa tena (kuunda zaidi) ya mali au kuharibu kiasi cha mali ni jambo ambalo lina uwezekano wa kutokea wakati kipengee kinawakilisha kitu ambacho hakina Supply isiyobadilika. Hii inaweza kutumika kwa mali zinazowakilisha dhahabu iliyohifadhiwa kwenye kuba kwa mfano; vitengo vya dhahabu vinapoingia na kutoka kwenye kuba, kipengee kinachowakilisha Supply ya kuba kinahitaji kurekebishwa juu au chini ipasavyo.
+Haja ya kutoa tena (kuunda zaidi) ya mali au kuharibu kiasi cha mali ni jambo ambalo lina uwezekano wa kutokea wakati kipengee kinawakilisha kitu ambacho hakina ugavi usiobadilika. Hii inaweza kutumika kwa mali zinazowakilisha dhahabu iliyohifadhiwa kwenye kuba kwa mfano; vitengo vya dhahabu vinapoingia na kutoka kwenye kuba, kipengee kinachowakilisha ugavu wa kuba kinahitaji kurekebishwa juu au chini ipasavyo.
 
-Kutoa tena kiasi cha mali kunahitaji Ownership ya tokeni husika ambayo iliundwa pamoja na mali ilipotolewa mara ya kwanza.
+Kutoa tena kiasi cha mali kunahitaji umiliki wa tokeni husika ambayo iliundwa pamoja na mali ilipotolewa mara ya kwanza.
 
 Wakati wa kuunda zaidi ya kipengee, haijalishi ni nodi gani ilitoa kipengee hapo kwanza, mradi tu nodi ambayo inatoa tena kiasi cha kipengee inamiliki kile kinachojulikana kama reissuance token ya mali. Tutaangalia jinsi ya kuunda reissuance token mwanzoni, jinsi ya kuitumia ili kutoa tena kiasi cha mali na pia jinsi ya kuhamisha reissuance token kwa nodi nyingine, ili pia wawe na ruhusa ya kutoa tena mali.
 
 Tutahitaji ufikiaji wa nodi mbili za Elements, ambazo tutaziita e1 na e2. Nodi zimekuwa na blockchains zao zimewekwa upya na mgawanyiko wa default asset kati yao.
 
-Tutakuwa na e1 kutoa kiasi cha 100 ya mali mpya na kuunda 1 reissuance token kwa ajili ya mali hiyo hiyo. Tutaunda toleo kama unblinded ili kurahisisha mfano. Kwa hivyo wacha tuendelee na tutoe kipengee na reissuance token inayohusishwa nayo.
+Tutakuwa na e1 kutoa kiasi cha 100 ya mali mpya na kuunda reissuance token 1 kwa ajili ya mali hiyo hiyo. Tutaunda toleo hilo kama *unblinded* ili kurahisisha mfano. Kwa hivyo, wacha tuendelee na tutoe kipengee pamoja na reissuance token inayohusishwa nacho.
 
 ```
 e1-cli issueasset 100 1 false
@@ -535,7 +538,7 @@ e1-cli issueasset 100 1 false
 
 Kumbuka kitambulisho cha mali na pia kile cha tokeni (ya kurejesha tena).
 
-Kwa vile baadaye tutakuwa tukitoa tena zaidi ya mali kutoka e2 tutahitaji kuzingatia transaction ID ambayo mali ilitolewa na kuitumia kuagiza Address mali ilitumwa.
+Kwa vile baadaye tutakuwa tukitoa tena zaidi ya mali kutoka e2, tutahitaji kuzingatia transaction ID ambayo mali ilitolewa na kuitumia kuagiza anwani ambayo mali ilitumwa.
 
 Thibitisha muamala.
 
@@ -543,7 +546,7 @@ Thibitisha muamala.
 e1-cli -generate 1
 ```
 
-Sasa tutaangalia maelezo ya muamala kwa kutumia amri ya gettransaction:
+Sasa tutaangalia maelezo ya muamala kwa kutumia amri ya `gettransaction`:
 
 ```
 e1-cli gettransaction <txid>
@@ -693,16 +696,16 @@ e1-cli getaddressinfo <e1-address>
 e2-cli getaddressinfo <e2-address>
 ```
 
-Kisha toa funguo za faragha, ambazo tutaleta tena baadaye ili nodi ziweze kusaini vitalu baada ya kuanzisha upya data yetu ya Blockchain na Wallet.
+Kisha toa funguo za faragha, ambazo tutaleta tena baadaye ili nodi ziweze kusaini bloku baada ya kuanzisha upya data yetu ya blockchain na pochi.
 
 ```
 e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Sasa tunahitaji generate hati ya Redeem yenye mahitaji 2 kati ya 2 ya saini nyingi. Tunafanya hivyo kwa kutumia createmultisig amri na kupitisha parameta ya kwanza kama 2 na kisha kutoa funguo mbili za umma. Ni funguo hizi ambazo Ownership ya mahitaji ya kuthibitisha baadaye wakati kizuizi kinaundwa.
+Sasa tunahitaji kuzalisha hati ya Redeem yenye mahitaji 2 kati  ya saini nyingi. Tunafanya hivyo kwa kutumia amri ya createmultisig  na kupitisha parameta ya kwanza kama 2 na kisha kutoa funguo mbili za umma. Ni funguo hizi ambazo Ownership ya mahitaji ya kuthibitisha baadaye wakati bloku inaundwa.
 
-Njia yoyote, e1 au e2, inaweza generate Multisig.
+Njia yoyote, e1 au e2, inaweza kuzalisha Multisig.
 
 ```
 e1-cli createmultisig 2 '["<e1-pubkey>", "<e2-pubkey>"]'
@@ -710,7 +713,7 @@ e1-cli createmultisig 2 '["<e1-pubkey>", "<e2-pubkey>"]'
 
 Hiyo inatupa redeemscript yetu, ambayo unaweza kunakili ili kuitumia baadaye.
 
-Sasa tunahitaji kufuta data iliyopo ya Blockchain na Wallet ili tuanze tena na signblockscript mpya kama sehemu ya sheria za makubaliano ya mnyororo. Hii ndiyo sababu tulihitaji kuchukua nakala ya baadhi ya data mapema, kama vile funguo za faragha ambazo zitatumika katika msururu mpya kusaini vitalu. Unahitaji kufanya hivyo kabla ya kuendelea.
+Sasa tunahitaji kufuta data iliyopo ya Blockchain na Wallet ili tuanze tena na signblockscript mpya kama sehemu ya sheria za makubaliano ya mnyororo. Hii ndiyo sababu tulihitaji kuchukua nakala ya baadhi ya data mapema, kama vile funguo za faragha ambazo zitatumika katika msururu mpya kusaini bloku. Unahitaji kufanya hivyo kabla ya kuendelea.
 
 Kwa Wallet yetu iliyopo na data ya mnyororo imefutwa sasa tunaweza kuanzisha nodi zetu na kuzifanya zianzishe msururu mpya kwa kutumia kigezo cha signblockscript. Hebu tupitishe -evbparams=dynafed:0::: ili kuzima uwezeshaji wa dynafed, kwa sababu hatuhitaji kipengele hicho cha juu kwa mfano huu.
 
@@ -719,26 +722,26 @@ e1-dae -signblockscript=<redeem-script> -evbparams=dynafed:0:::
 e2-dae -signblockscript=<redeem-script> -evbparams=dynafed:0:::
 ```
 
-Sasa tunahitaji kuleta funguo za faragha ambazo tulihifadhi mapema ili nodi zetu ziweze kutia sahihi na kusaidia kukamilisha vizuizi vyovyote vilivyopendekezwa.
+Sasa tunahitaji kuleta funguo za faragha ambazo tulihifadhi mapema ili nodi zetu ziweze kutia sahihi na kusaidia kukamilisha bloku vyovyote vilivyopendekezwa.
 
 ```
 e1-cli importprivkey <e1-priv-key>
 e2-cli importprivkey <e2-priv-key>
 ```
 
-Utumiaji wa amri ya generate sasa unapaswa kufanya makosa kwani inashindwa kutimiza sheria zinazohitajika za block signing zinazotekelezwa na nodi zetu.
+Utumiaji wa amri ya kuzalisha sasa unapaswa kufanya makosa kwani inashindwa kutimiza sheria zinazohitajika za block signing zinazotekelezwa na nodi zetu.
 
 ```
 e1-cli -generate 1
 ```
 
-Ili kupendekeza kizuizi kipya nodi inaweza kupiga amri ya getnewblockhex. Hii inarejesha hex ya kizuizi kipya ambacho kitahitaji kusainiwa kabla ya kukubaliwa na nodi zozote kwenye mtandao wetu.
+Ili kupendekeza bloku mpya nodi inaweza kupiga amri ya getnewblockhex. Hii inarejesha hex ya bloku kipya ambacho kitahitaji kusainiwa kabla ya kukubaliwa na nodi zozote kwenye mtandao wetu.
 
 ```
 e1-cli getnewblockhex
 ```
 
-Kumbuka kwamba amri inaunda tu kizuizi kilichopendekezwa, haifanyi generate moja.
+Kumbuka kwamba amri inaunda tu block iliyopendekezwa, haitoi block moja moja kwa moja.
 
 Ili kuthibitisha hili tunaweza kuona kwamba kwa sasa hakuna vizuizi katika Blockchain yetu.
 
@@ -752,7 +755,7 @@ Tukijaribu kuwasilisha block hex bila kutia sahihi kwanza.
 e1-cli submitblock <block-hex>
 ```
 
-Tunapata ujumbe unaotuambia kwamba uthibitisho wa kuzuia ni batili. Hii ni kwa sababu bado haijatiwa saini na pande 2 kati ya 2 zinazohitajika.
+Tunapata ujumbe unaotuambia kwamba uthibitisho wa block ni batili. Hii ni kwa sababu bado haijatiwa saini na pande 2 kati ya 2 zinazohitajika.
 
 Kwa hivyo wacha tupate e1 ili kusaini kizuizi kilichopendekezwa.
 
@@ -766,17 +769,17 @@ Kuwa na e2 saini hex.
 e2-cli signblock <block-hex>
 ```
 
-Tambua kuwa e2 haisaini matokeo yaliyoundwa kutoka kwa kusaini e1 kizuizi kilichopendekezwa. Wote wawili hutia saini baraka iliyopendekezwa bila matokeo ya kila mmoja.
+Tambua kuwa e2 haisaini matokeo yaliyoundwa kutoka kwa kusaini e1 block iliyopendekezwa. Wote wawili hutia saini baraka iliyopendekezwa bila matokeo ya kila mmoja
 
-Sasa tunahitaji kuchanganya saini za kuzuia e1 na e2. Njia yoyote inaweza kufanya hivi, wanachohitaji ni hex ya block iliyotiwa saini kutoka kwa nodi nyingine.
+Sasa tunahitaji kuchanganya saini za block kutoka e1 na e2. Njia yoyote inaweza kufanya hivi, wanachohitaji ni hex ya block iliyotiwa saini kutoka kwa nodi nyingine.
 
 ```
 e1-cli combineblocksigs <block-hex> '["<signed-hex-from-e1>", "<signed-hex-from-e2>"]'
 ```
 
-Unaweza kuona amri ya combineblocksigs ikitoa heksi ya kizuizi kilichotiwa saini na hali ya kukamilika, ikituambia kwamba heksi ya block iko tayari kuwasilishwa.
+Unaweza kuona amri ya combineblocksigs ikitoa heksi ya block iliyotiwa saini na hali ya kukamilika, ikituambia kwamba heksi ya block iko tayari kuwasilishwa.
 
-Sasa nodi yoyote inaweza kuwasilisha hex iliyokamilishwa ya block. Tutakuwa na e1 kuifanya.
+Sasa node yoyote inaweza kuwasilisha hex iliyokamilishwa ya block. Tutakuwa na e1 kuifanya.
 
 ```
 e1-cli submitblock <combined-signed-hex>
@@ -789,18 +792,17 @@ e1-cli getblockcount
 e2-cli getblockcount
 ```
 
-Unaweza kuona kwamba e1 na e2 wamekubali kizuizi kama halali na kukiongeza kwenye ncha ya nakala zao za ndani za Blockchain.
+Unaweza kuona kwamba e1 na e2 wamekubali block kama halali na kukiongeza kwenye ncha ya nakala zao za ndani za blockchain.
 
 Kwa muhtasari wa mchakato. Katika sehemu hii tunayo:
 
+- Block Imependekezwa .  
+- Kila node ilitia saini.  
+- Imechanganya saini.  
+- Imethibitisha kuwa saini ni halali na zinakidhi kiwango cha juu cha mnyororo cha redeemscript.  
+- Imewasilisha block.
 
-- Imependekezwa kizuizi.
-- Kila nodi ilitia saini.
-- Imechanganya saini.
-- Imethibitisha kuwa sahihi ni halali na zinakidhi kiwango cha juu cha mnyororo cha redeemscript.
-- Imewasilisha kizuizi.
-
-Kila nodi kwenye mtandao ilithibitisha kizuizi na kuiongeza kwenye nakala yao ya ndani ya Blockchain.
+Kila node kwenye mtandao ilithibitisha block na kuiongeza kwenye nakala yao ya ndani ya Blockchain.
 
 ### block signing
 
@@ -808,15 +810,15 @@ Ingawa mchakato hapo awali unaonekana kuwa mgumu, mlolongo wa block signing kati
 
 1. Usanidi wa awali (uliotekelezwa mara moja)
 
-2. Address ya chenye saini nyingi imeundwa iitwayo `signblockscript` kwa kutumia funguo za umma za Watia Sahihi wa Shida za Vitalu.
+2. Address ya chenye saini nyingi imeundwa iitwayo `signblockscript` kwa kutumia funguo za umma za Watia Sahihi wa Shida za block.
 
 3. Hati ya Redeem kutoka kwa hii inatumiwa kuanzisha Blockchain mpya.
 
-4. Zuia uzalishaji (unaoendelea)
+  4. uzalishaji  wa block  (unaoendelea)
 
-5. Vitalu vilivyopendekezwa vinazalishwa na kubadilishana kwa kusainiwa.
+blocks zilivyopendekezwa vinazalishwa na kubadilishana kwa kusainiwa.
 
-Mara tu idadi ya watia saini imetia saini kizuizi kilichopendekezwa inaunganishwa na kuwasilishwa kwa mtandao. Iwapo inakidhi vigezo vya `signblockscript` ya mnyororo, nodi huikubali kama kizuizi halali.
+Mara tu idadi ya watia saini imetia saini block iliyopendekezwa, inaunganishwa na kuwasilishwa kwa mtandao. Iwapo inakidhi vigezo vya `signblockscript` ya mnyororo, nodi huikubali kama block halali.
 
 ## Kipengele kama Mnyororo wa Upande
 
@@ -834,9 +836,9 @@ Ili kuanzisha Elements Blockchain kama Sidechain, tunahitaji kutumia kigezo cha 
 
 federated peg script inafafanua ni wanachama gani wa Strong Federation wanaweza kufanya kazi za kuingia na kutoka nje. Watendaji hawa hurejelewa kama `watchmen` wanapotazama mainchain na Sidechain kwa miamala halali ya kuingia na kutoa na kuzifanyia kazi ikiwa ni halali. "Kutoa" inamaanisha kuhamisha mali zilizowekwa alama kutoka kwa Sidechain na kuingia kwenye mainchain na "kuingiza" inamaanisha kuhamisha mali iliyowekwa kwenye Sidechain kutoka mainchain. Tunaposema `hamia kwenye Sidechain`, tunachomaanisha ni kwamba pesa huwekwa katika Address yenye saini nyingi kwenye mainchain na kiasi kinacholingana cha mali huundwa kwenye Elements Sidechain. Tunaposema `ondoka kwenye Sidechain` tunachomaanisha ni kwamba mali zinaharibiwa kwenye Elements Sidechain na kiasi kinacholingana hutolewa kutoka kwa pesa zilizofungwa zilizowekwa kwenye mainchain. Ruhusa ya kutekeleza vipengee vya kuingiza na kutoa vipengee inahitaji watendaji wathibitishe Ownership ya funguo za umma zinazotumika katika federated peg script. Hii inafanywa kwa kutumia funguo za kibinafsi zinazofanana.
 
-Ili kuunda federated peg script kwa hivyo tunahitaji kwanza kila nodi zetu generate ufunguo wa umma. Pia tunahitaji kuhifadhi funguo za faragha zinazohusiana kwa matumizi ya baadaye kwani tutahitaji kufuta data yoyote iliyopo na kuanzisha msururu mpya kwa kutumia federated peg script. Hii ni kwa sababu federated peg script ni sehemu ya sheria za makubaliano ya Sidechain, na haiwezi kutumika kwa Blockchain iliyopo, isiyo na kigingi hapo baadaye.
+Ili kuunda federated peg script, tunahitaji kwanza kila moja ya nodi zetu iandae ufunguo wa umma. Pia tunahitaji kuhifadhi funguo za faragha zinazohusiana kwa matumizi ya baadaye, kwani tutahitaji kufuta data yoyote iliyopo na kuanzisha msururu mpya kwa kutumia federated peg script. Hii ni kwa sababu federated peg script ni sehemu ya sheria za makubaliano ya Sidechain, na haiwezi kutumika kwa blockchain iliyopo isiyo na kigingi hapo baadaye.
 
-Kwa hivyo hebu tuweke generate Address na kila nodi zetu, tuhifadhi data husika kwa matumizi ya baadaye na generate federated peg script ambayo tutatumia kuanzisha Sidechain yetu baadaye.
+Kwa hivyo, hebu tuweke generate address na kila moja ya nodi zetu, tuhifadhi data husika kwa matumizi ya baadaye, na tuchapishe federated peg script ambayo tutatumia kuanzisha Sidechain yetu baadaye.
 
 Kwanza tunahitaji kila nodi zetu, ambazo zitafanya kama watchmen katika mtandao wetu, kwa generate Address mpya.
 
@@ -863,32 +865,33 @@ Hifadhi funguo za faragha na za umma kwa matumizi ya baadaye.
 
 Sasa tunahitaji kufuta data iliyopo ya Blockchain na Wallet kwani tutakuwa tukianzisha msururu mpya kwa kutumia federated peg script. Unaweza kufanya hivi sasa. Usisahau kuanzisha Bitcoin daemon, ambayo tutahitaji kuingiza.
 
-Sasa tunaweza kuanzisha msururu mpya na federated peg script iliyoundwa kwa kutumia funguo za umma tulizohifadhi hapo awali. Nambari tunazoingiza na zinazozunguka funguo zetu za umma hufafanua na kuweka mipaka ya funguo zinazotumiwa, na ufunguo wa Ownership ambao lazima uthibitishwe ili kupenya na kutoka kwenye Sidechain yetu.
+Sasa tunaweza kuanzisha msururu mpya na federated peg script iliyoundwa kwa kutumia funguo za umma tulizohifadhi hapo awali. Nambari tunazoingiza na zinazozunguka funguo zetu za umma hufafanua na kuweka mipaka ya funguo zinazotumiwa, na ufunguo wa umiliki (Ownership) ambao lazima uthibitishwe ili kupenya na kutoka kwenye Sidechain yetu.
 
 ```
 e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 e2-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 ```
 
-Sasa tutaagiza funguo za kibinafsi ambazo tulihifadhi hapo awali, ili nodi zetu ziweze kusaini baadaye na kukamilisha uhamishaji wa mali kati ya minyororo na kukidhi mahitaji ya federated peg script.
+Sasa tutaagiza funguo za kibinafsi ambazo tulihifadhi hapo awali, ili node zetu ziweze kusaini baadaye na kukamilisha uhamishaji wa mali kati ya minyororo na kukidhi mahitaji ya federated peg script.
 
 ```
 e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Sasa tunahitaji kukomaza vitalu kadhaa kwenye minyororo yote miwili. Ukomavu wa vitalu ni hitaji la mchakato wa vigingi kwani hulinda dhidi ya upangaji upya wa vitalu kwenye mainchain na kusababisha mfumuko wa bei wa pegged asset Supply ndani ya Sidechain.
+Sasa tunahitaji kukomaza blocks kadhaa kwenye minyororo yote miwili. Ukomavu wa blocks ni hitaji la mchakato wa vigingi kwani hulinda dhidi ya upangaji upya wa blocks kwenye mainchain na kusababisha mfumuko wa bei wa pegged asset Supply ndani ya Sidechain.
 
-Ili kuweka sehemu hii kulenga kigingi kilichoshirikishwa, tutakuwa tukizalisha vizuizi bila kutumia modeli ya block signing tuliyotazama katika sehemu ya mwisho, na kurudi kwenye kutumia amri ya 'generate' kuunda vizuizi vipya.
+Ili kuweka sehemu hii kulenga kigingi kilichoshirikishwa, tutakuwa tukizalisha blocks bila kutumia modeli ya block signing tuliyotazama katika sehemu ya mwisho, na kurudi kwenye kutumia amri ya 'generate' kuunda blocks mpya.
 
 ```
 b-cli generate 101
 e1-cli generate 1
 ```
 
-Hatuhitaji kuzuiwa kwa generate sasa hivi kwa Elements. Lakini, hebu generate moja hata hivyo. Ni mazoezi mazuri ili kuzuia kutoendana kwa uwezekano.
+Hatuhitaji kuzuiwa kwa generate sasa hivi kwa Elements. Lakini, hebu tufanye generate moja hata hivyo. Ni mazoezi mazuri ili kuzuia kutoendana kwa uwezekano.
 
-Sasa mlolongo wetu uko tayari kuingia. Ili kupenya tunahitaji generate aina maalum ya Address kwa kutumia amri ya getpeginaddress. Kumbuka kuwa muda kati ya kutengeneza peg-in Address na getpeginaddress na kuidai kwa claimpegin unapaswa kuwekwa mdogo iwezekanavyo. anwani za peg-in hazidumu kwa muda mrefu na hazipaswi kutumiwa tena.
+Sasa mlolongo wetu uko tayari kuingia. Ili kupenya, tunahitaji kuunda aina maalum ya Address kwa kutumia amri ya getpeginaddress. Kumbuka kuwa muda kati ya kutengeneza peg-in address kwa getpeginaddress na kuidai kwa claimpegin unapaswa kuwekwa mdogo iwezekanavyo. Anwani za peg-in hazidumu kwa muda mrefu na hazipaswi kutumiwa tena.
+
 
 ```
 e1-cli getpeginaddress
@@ -924,7 +927,7 @@ Tunahitaji kukomaza muamala tena.
 b-cli generate 101
 ```
 
-Ili kuwa na nodi yetu ya Elements kudai fedha za kuweka kigingi tunahitaji kupata `uthibitisho` kwamba shughuli ya kuingiza kigingi imefanywa. Uthibitisho wa kriptografia hutumia ufadhili wa transaction ID kukokotoa njia ya merkel na inathibitisha kuwa muamala upo kwenye kizuizi kilichothibitishwa.
+Ili kuwa na node yetu ya Elements kudai fedha za kuweka kigingi tunahitaji kupata `uthibitisho` kwamba shughuli ya kuingiza kigingi imefanywa. Uthibitisho wa kriptografia hutumia ufadhili wa transaction ID kukokotoa njia ya merkel na inathibitisha kuwa muamala upo kwenye blocks  zilizothibitishwa.
 
 ```
 b-cli gettxoutproof '["<tx-id>"]'
@@ -936,7 +939,7 @@ Pia tunahitaji data ghafi ya muamala.
 b-cli getrawtransaction <tx-id>
 ```
 
-Kwa uthibitisho na data ghafi ya ununuzi wa peg-in, nodi yetu ya Elements sasa inaweza kudai peg-in kwa kutumia muamala ghafi na uthibitisho wa muamala.
+Kwa uthibitisho na data ghafi ya ununuzi wa peg-in, node yetu ya Elements sasa inaweza kudai peg-in kwa kutumia muamala ghafi na uthibitisho wa muamala.
 
 ```
 e1-cli claimpegin <raw> <proof>
@@ -950,7 +953,7 @@ Kuangalia salio la e1.
 e1-cli getwalletinfo
 ```
 
-Inazalisha kizuizi ili kuthibitisha dai.
+Inazalisha block ili kuthibitisha dai.
 
 ```
 e1-cli generate 1
@@ -976,7 +979,7 @@ Fedha zinatumwa kwa mainchain Address kutoka node ya Elements kwa kutumia amri y
 e1-cli sendtomainchain <new-address> 1
 ```
 
-Inazalisha kizuizi ili kuthibitisha muamala.
+Inazalisha blocks ili kuthibitisha muamala.
 
 ```
 e1-cli generate 1
@@ -993,17 +996,17 @@ Na angalia kwamba usawa umepungua.
 Katika sehemu hii tumeona jinsi ya:
 
 
-- generate a federated peg script.
-- Anzisha msururu mpya unaotumia hati kama sheria ya kigezo cha makubaliano ya mtandao.
-- Tuma fedha kutoka kwa mainchain hadi Sidechain.
-- Dai fedha ndani ya Elements Sidechain.
+- Tengeneza federated peg script. 
+- Anzisha msururu mpya unaotumia hati hiyo kama sheria ya kigezo cha makubaliano ya mtandao.  
+- Tuma fedha kutoka kwa mainchain hadi Sidechain.  
+- Dai fedha ndani ya Elements Sidechain.  
 - Elewa jinsi kutuma pesa kwa mainchain kunavyoanzishwa.
 
 ### FederatedPegScript
 
 Ili kuruhusu Elements kufanya kazi kama Sidechain, block ya Genesis katika Blockchain yake lazima iundwe ikiwa na `fedpegscript` mahali pake. Hii inafanywa kwa kupitisha parameta ya `fedpegscript` kwenye nodi ya kuanza. Hati hiyo basi itakuwa sehemu ya sheria za makubaliano ya Elements Blockchain na kuruhusu maombi ya kuingia na kutoka nje kuthibitishwa na kutekelezwa.
 
-`Fedpegscript` inaundwa na vitufe vya umma vinavyodhibitiwa na wale walioidhinishwa kutekeleza vitendo vya kigingi. Ifuatayo inaonyesha umbizo la mfano wa hati 2-ya-2 za saini nyingi:
+`Fedpegscript` inaundwa na vitufe vya umma vinavyodhibitiwa na wale walioidhinishwa kutekeleza vitendo vya kigingi. Ifuatayo inaonyesha umbizo la mfano wa hati ya saini nyingi ya 2-ya-2:
 
 ```
 fedpegscript=5221<public key 1>21<public key 2>52ae
@@ -1013,7 +1016,7 @@ Kumbuka: Herufi zilizo nje ya funguo za umma ni vikomo vinavyoonyesha ufunguo wa
 
 ### Peg-in
 
-Kabla ya kigingi kukubaliwa na Elements Sidechain, lazima iwe na uthibitisho wa kutosha kwenye mainchain. Hii ni muhimu ili kuepuka mfumuko wa bei katika Supply ya pegged asset kwenye Elements Sidechain ambayo inaweza kusababishwa na kupanga upya kwa mainchain.
+Kabla ya kigingi kukubaliwa na Elements Sidechain, lazima kiwe na uthibitisho wa kutosha kwenye mainchain. Hii ni muhimu ili kuepuka mfumuko wa bei katika supply ya pegged asset kwenye Elements Sidechain, ambayo inaweza kusababishwa na kupanga upya kwa mainchain.
 
 Upangaji upya mfupi wa ncha ya Bitcoin Blockchain unatarajiwa kama sehemu ya utendakazi wa kawaida wa utaratibu wa makubaliano wa Proof of Work (PoW). Kwa hivyo, Elements inakubali tu peg-in kuwa halali wakati ina kina cha kutosha ndani ya Bitcoin Blockchain. Hii inatumika kuzuia Elements kutoka kwa kukubali kigingi sawa zaidi ya mara moja.
 
@@ -1027,7 +1030,7 @@ Peg-out hutokea wakati nodi ya Elements inapoita amri ya `sendtomainchain`, amba
 
 :::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
-Kufikia sasa, tumeangalia jinsi ya kuendesha Elements kama Sidechain. Hata hivyo, inaweza pia kufanya kazi kama suluhu iliyojitegemea ya Blockchain na mali yake ya asili chaguomsingi. Katika usanidi huu Elements Blockchain bado inabaki na vipengele vyote vya utekelezaji wa Sidechain, kama vile Confidential Transactions na Issued Assets, lakini haihitaji peg-in au peg-out ili kuongeza au kuondoa kiasi cha default asset kutoka kwa mzunguko.
+Kufikia sasa, tumeangalia jinsi ya kuendesha Elements kama Sidechain. Hata hivyo, inaweza pia kufanya kazi kama suluhu iliyojitegemea ya blockchain na mali yake ya asili chaguomsingi. Katika usanidi huu, Elements blockchain bado inabaki na vipengele vyote vya utekelezaji wa Sidechain, kama vile Confidential Transactions na Issued Assets, lakini haihitaji peg-in au peg-out ili kuongeza au kuondoa kiasi cha default asset kutoka kwa mzunguko.
 
 Katika sehemu hii tutafanya:
 
@@ -1073,6 +1076,7 @@ e1-cli sendtoaddress <e1-address> 1000000 "" "" true
 Kumbuka kwamba hatuhitaji kubainisha 'newasset' kama kipengee cha kutuma kwani tayari ni default asset. na kwa hiyo pia default asset ilitumika kulipa ada za mtandao.
 
 Ndani ya Elements, unaweza kutuma aina nyingi za vipengee kwa Address ile ile, ili tuweze kutumia tena Address ambayo tumetoka kutengeneza ili kupokea default asset, na kuitumia kama Address fikio kwa tokeni za urejeshaji.
+
 
 ```
 e1-cli sendtoaddress <e1-address> 1 "" "" false false 1 UNSET false <reissuance-token-id>
@@ -1191,7 +1195,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 
 Kigezo cha `defaultpeggedassetname` kinatumika lebo kwa default asset. Bila mpangilio huu, default asset itaitwa kiotomatiki `Bitcoin`. Katika sehemu zilizopita, tulipotuma vipengee ambavyo tulivitoa wenyewe kwa nodi nyingine tulilazimika kubainisha ama hex ya kipengee au lebo ya mali inayotumika nchini ili kuwaambia Elements ni kipengee gani tulikuwa tunatuma. Kama `defaultpeggedassetname` hutumika kwenye nodi zote hatuhitaji kuiita jina tunapoituma, ingawa jina lake si `Bitcoin`. Kila chaguo la kukokotoa ambalo lingetuma `Bitcoin` hapo awali kwa chaguomsingi sasa itatuma chochote ulichochagua kuweka lebo ya default asset kama.
 
-Kwa hivyo kutuma 10 ya default asset mpya kwa Address ni rahisi kama:
+Kwa hivyo, kutuma 10 ya default asset mpya kwa Address ni rahisi kama:
 
 ```
 e1-cli sendtoaddress <destination address> 10 "" "" true

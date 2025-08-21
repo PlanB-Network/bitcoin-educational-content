@@ -1,0 +1,10 @@
+question: Bitcoin üzerinde zincir analizi bağlamında entropi nasıl hesaplanır?
+answer: Yorum sayısının ikili logaritmasını alarak.
+wrong_answers:
+  - Girdi sayısını çıktı sayısıyla çarparak.
+  - Giriş ve çıkışların sayısını ekleyerek.
+  - Girdi ve çıktı sayısının ikili logaritması alınarak.
+explanation: |
+  Entropi, olası kombinasyonların sayısının ikili logaritması olarak tanımlanır.
+  
+reviewed: false

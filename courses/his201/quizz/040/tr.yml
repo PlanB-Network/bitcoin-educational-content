@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto toplamda kaç bitcoin (yaklaşık olarak) madenciliği yaptı?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   2020 yılında Whale Alert tarafından yayınlanan bir araştırmaya göre 1.122.693 bitcoin. Satoshi, Mining faaliyetlerini Mayıs 2010'da durdurmuştur.
+reviewed: true

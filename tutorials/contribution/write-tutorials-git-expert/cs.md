@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Používejte pouze vizuály vytvořené vlastními silami nebo bez nároku na honorář.
     - Ujistěte se, že jsou relevantní a kvalitní.
 - Grafická karta** :
-    - Písmo: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Písmo: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Barvy Plán ₿ Síť :
         - Oranžová: `#FF5C00`
         - Černá: `#000000`

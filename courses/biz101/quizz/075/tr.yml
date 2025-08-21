@@ -1,0 +1,9 @@
+question: Kurumsal düzeyde Bitcoin ödeme uygulamalarının temel amacı nedir?
+answer: Bitcoin ödemelerini kurumun temel süreçlerine tam olarak entegre etmek
+wrong_answers:
+  - Bitcoin'yi küçük ölçekte denemek için
+  - Bitcoin'ü pazarlama amacıyla kullanmak için
+  - Diğer sistemlere entegre olmadan Bitcoin'ü kabul etmek
+explanation: |
+  Kurumsal çözümler, Bitcoin ödemelerini temel iş akışları ve sistemleriyle uyumlu hale getirmeyi amaçlamaktadır.
+reviewed: false

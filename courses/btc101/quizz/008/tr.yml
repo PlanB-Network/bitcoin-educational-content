@@ -1,0 +1,11 @@
+question: Bitcoin'ın tarafsız bir para birimi olması ne anlama geliyor?
+answer: Herhangi bir kurum veya kuruluş tarafından kontrol edilmemektedir.
+wrong_answers:
+  - Tek bir kurum veya kuruluş tarafından kontrol edilir.
+  - Hükümet tarafından düzenlenmektedir.
+  - Sadece büyük işlemler için kullanılır.
+explanation: |
+  Bitcoin nötr bir para birimidir, yani kontrol edilmez
+  herhangi bir kurum veya kuruluş tarafından, bu nedenle her kullanıcı aynı
+  haklar. Bu, adem-i merkeziyetçiliğin kilit bir yönüdür.
+reviewed: true

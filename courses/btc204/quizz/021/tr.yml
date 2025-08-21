@@ -1,0 +1,9 @@
+question: Bitcoin'da basitleştirilmiş ödeme modeli nedir?
+answer: girişlerde 1 veya daha fazla UTXO ve çıkışlarda 2 UTXO.
+wrong_answers:
+  - girişte 1 UTXO ve çıkışta 1 UTXO
+  - Girişte birkaç UTXO ve çıkışta 1 UTXO
+  - girişlerde 5 UTXO ve çıkışlarda 5 UTXO
+explanation: |
+  Basitleştirilmiş bir ödemede, kullanıcı çıktılarda bir ödeme UTXO ve bir değişiklik UTXO (dolayısıyla 2 UTXO) gerçekleştirmek için girdi olarak bir veya daha fazla UTXO tüketir.
+reviewed: false

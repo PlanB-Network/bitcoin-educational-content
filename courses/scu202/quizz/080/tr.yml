@@ -1,0 +1,9 @@
+question: Bir mesajlaşma uygulaması seçmeden önce kontrol edilmesi gereken en önemli kriterler nelerdir?
+answer: Uçtan uca şifreleme ve açık kaynak kodu
+wrong_answers:
+  - Güçlü kimlik doğrulama ve açık kaynak kodu
+  - Uçtan uca şifreleme ve merkezi olmayan sunucular
+  - Güçlü kimlik doğrulama ve merkezi olmayan sunucular
+explanation: |
+  Uçtan uca şifreleme, alışverişlerin gizliliğini sağlar ve açık kaynak, bu güvenliğin doğru şekilde uygulandığını doğrulamayı mümkün kılar.
+reviewed: false

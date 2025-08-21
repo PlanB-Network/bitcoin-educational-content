@@ -1,0 +1,9 @@
+question: Metne göre, Contract teorileri ile piyasa teorileri arasındaki temel fark nedir?
+answer: Contract teorileri devlet baskısı yoluyla toplumsal uyum ararken, piyasa teorileri bireysel çıkarların kendi başlarına uyum sağlamasına izin verir.
+wrong_answers:
+  - Contract teorileri ilkel toplumlar için geçerliyken, piyasa teorileri modern toplumlar için geçerlidir.
+  - Contract teorileri servetin dağılımı ile ilgiliyken, piyasa teorileri mal ve hizmet üretimi ile ilgilidir.
+  - Contract teorileri fizyokratlar tarafından savunulurken, piyasa teorileri merkantilistler tarafından savunulmaktadır.
+explanation: |
+  Contract teorileri sosyal uyumu devlet tarafından dayatılan bir şey olarak görürken, piyasa teorileri bireysel çıkarların özgürce etkileşime girerek kendiliğinden bir sosyal denge yarattığını düşünür.
+reviewed: true

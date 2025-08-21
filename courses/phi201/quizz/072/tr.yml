@@ -1,0 +1,9 @@
+question: Fizyokratlara göre ekonomik düzenin kökeni nedir?
+answer: Piyasanın doğal kanunları.
+wrong_answers:
+  - Hükümet kararları.
+  - Uluslararası hukuk.
+  - Aristokrasinin ayrıcalıkları.
+explanation: |
+  Fizyokratlar, ekonomik düzenin piyasanın doğal yasalarından kaynaklandığına inanmış ve müdahale olmaksızın piyasanın genel refahı sağlayan bir dengeye yöneldiğini ileri sürmüşlerdir.
+reviewed: true

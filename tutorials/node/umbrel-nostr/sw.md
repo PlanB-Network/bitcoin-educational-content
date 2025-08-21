@@ -11,7 +11,7 @@ description: Kusanidi na kutumia programu za Nostr kwenye Umbrel
 
 
 
-Umbrel ni jukwaa la chanzo huria ambalo hukuruhusu kukaribisha kwa urahisi programu za Bitcoin na huduma zingine kwenye seva yako ya kibinafsi. Ni suluhisho la kila moja ambalo hurahisisha upangishaji wa kibinafsi wa nodi za Bitcoin na programu zilizogatuliwa.
+Umbrel ni jukwaa la chanzo huria ambalo hukuruhusu kukaribisha kwa urahisi programu za Bitcoin na huduma zingine kwenye seva yako ya kibinafsi. Ni suluhisho la kila mmoja ambalo hurahisisha upangishaji wa kibinafsi wa nodi za Bitcoin na programu zilizogatuliwa.
 
 
 
@@ -25,7 +25,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-**Nostr** ni itifaki ya mtandao iliyo wazi, iliyogatuliwa iliyoundwa kwa ajili ya mitandao ya kijamii. Jina lake linasimama kwa _"Vidokezo na Mambo Mengine Yanayotumwa kwa Relays"_. Huruhusu mtu yeyote kuchapisha ujumbe (madokezo), kusimamiwa kama matukio ya JSON, na kuyaeneza kupitia seva za upeanaji badala ya jukwaa kuu. Kila mtumiaji ana jozi ya funguo za kriptografia (za faragha/za umma) ambazo hutumika kama kitambulisho: ufunguo wa umma (npub) humtambulisha mtumiaji, na ufunguo wa faragha (nsec) huwezesha ujumbe kusainiwa. Shukrani kwa usanifu huu uliosambazwa, **Nostr inatoa upinzani wa udhibiti** na unyumbufu mkubwa: unaweza kutumia wateja kadhaa na kuunganisha kwa relay nyingi upendavyo, bila kutegemea seva moja.
+**Nostr** ni itifaki ya mtandao iliyo wazi, iliyogatuliwa na iliyoundwa kwa ajili ya mitandao ya kijamii. Jina lake linasimama kwa _"Vidokezo na Mambo Mengine Yanayotumwa kwa Relays"_. Huruhusu mtu yeyote kuchapisha ujumbe (madokezo), kusimamiwa kama matukio ya JSON, na kuyaeneza kupitia seva za upeanaji badala ya jukwaa kuu. Kila mtumiaji ana jozi ya funguo za kriptografia (za faragha/za umma) ambazo hutumika kama kitambulisho: ufunguo wa umma (npub) humtambulisha mtumiaji, na ufunguo wa faragha (nsec) huwezesha ujumbe kusainiwa. Shukrani kwa usanifu huu uliosambazwa, **Nostr inatoa upinzani wa udhibiti** na unyumbufu mkubwa: unaweza kutumia wateja kadhaa na kuunganisha kwa relay nyingi upendavyo, bila kutegemea seva moja.
 
 
 
@@ -69,7 +69,7 @@ Utaona wavuti yake ya Interface kupitia Umbrel: inatoa maelezo ya msingi na, zai
 
 
 
-**Ili kuchukua fursa ya relay yako ya Umbrel :
+**Ili kuchukua fursa ya relay yako ya Umbrel**:
 
 
 
@@ -170,7 +170,7 @@ Mara tu imeunganishwa, unaweza kutumia noStrudel kushiriki madokezo yako kupitia
 
 
 
-**Snort** ni mteja mwingine wa mtandao wa Nostr anayepatikana kwenye Umbrel, anayetoa **Interface** ya kisasa, ya haraka na isiyo na vitu vingi kwa kuingiliana na mtandao wa kijamii uliogatuliwa. Tofauti na noStrudel, ambayo inalenga watumiaji wa nishati, _Snort_ inalenga urahisi wa matumizi bila kuacha utendakazi. Imeundwa katika React, na inatoa UX nadhifu inayowakumbusha mitandao ya kijamii ya kawaida, na kuifanya ifae kwa matumizi ya kila siku.
+**Snort** ni mteja mwingine wa mtandao wa Nostr anayepatikana kwenye Umbrel, anayetoa **Interface** ya kisasa, ya haraka na isiyo na vitu vingi vya kuingiliana na mtandao wa kijamii uliogatuliwa. Tofauti na noStrudel, ambayo inalenga watumiaji wa nishati, _Snort_ inalenga urahisi wa matumizi bila kuacha utendakazi. Imeundwa katika React, na inatoa UX nadhifu inayowakumbusha mitandao ya kijamii ya kawaida, na kuifanya ifae kwa matumizi ya kila siku.
 
 
 
@@ -320,13 +320,13 @@ Kutumia Umbrel na Nostr pamoja katika kiwango cha juu kunahitaji umakini maalum 
 
 
 
-Kwa sababu za usalama, Mwavuli wako unapatikana tu kwa chaguomsingi kwenye mtandao wako wa karibu (na kupitia Tor). Ili kuingiliana na Nostr ukiwa mbali na nyumbani, una masuluhisho mawili unayopendelea: **Tor** (ufikiaji usiojulikana kupitia mtandao wa vitunguu) na **Tailscale** (mavu ya faragha ya VPN).
+Kwa sababu za usalama, Mwavuli wako unapatikana tu kwa chaguomsingi kwenye mtandao wako wa karibu (na kupitia Tor). Ili kuingiliana na Nostr ukiwa mbali na nyumbani, una suluhisho mbili unazopendelea: **Tor** (ufikiaji usiojulikana kupitia mtandao wa vitunguu) na **Tailscale** (mavu ya faragha ya VPN).
 
 
 
 
 
-- Ufikiaji kupitia Tor:** Umbrel husanidi kiotomatiki huduma ya **Tor (.onion)** kwa wavuti na programu zake za Interface. Hii inamaanisha kuwa unaweza kufikia Mwavuli wa Interface (pamoja na _noStrudel_ au _Snort_) kutoka mahali popote, kwa kutumia kivinjari cha Tor, bila kufichua IP yako ya umma. _Tor inatumiwa kufikia huduma zako za Umbrel kutoka nje ya mtandao wako wa karibu, bila kuanika kifaa chako kwenye Mtandao ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Rasmi%20website%3A%20_kwenda kwa Umbrel chaguo hili). mipangilio na urejeshe URL yako ya .onion ya Umbrel (au changanua msimbo wa QR uliotolewa). Kwenye kivinjari cha Tor, fikia hii .onion Address: utapata Interface sawa na ndani. Kisha unaweza kutumia programu zako za Nostr kama vile nyumbani.
+- **Ufikiaji kupitia Tor:** Umbrel husanidi kiotomatiki huduma ya **Tor (.onion)** kwa wavuti na programu zake za Interface. Hii inamaanisha kuwa unaweza kufikia Mwavuli wa Interface (pamoja na _noStrudel_ au _Snort_) kutoka mahali popote, kwa kutumia kivinjari cha Tor, bila kufichua IP yako ya umma. _Tor inatumiwa kufikia huduma zako za Umbrel kutoka nje ya mtandao wako wa karibu, bila kuanika kifaa chako kwenye Mtandao ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Rasmi%20website%3A%20_kwenda kwa Umbrel chaguo hili). mipangilio na urejeshe URL yako ya .onion ya Umbrel (au changanua msimbo wa QR uliotolewa). Kwenye kivinjari cha Tor, fikia hii .onion Address: utapata Interface sawa na ndani. Kisha unaweza kutumia programu zako za Nostr kama vile nyumbani.
 
 
 **Relay ya Nostr kupitia Tor:** Ikiwa ungependa relay yako ya Nostr ipatikane kupitia Tor na wateja wako (au marafiki walioidhinishwa), hii inawezekana. Mwavuli haitoi relay ya .onion Address moja kwa moja, lakini kwa kuwa inaendeshwa kwenye bandari 4848, unaweza ama :
@@ -347,7 +347,7 @@ Kwa sababu za usalama, Mwavuli wako unapatikana tu kwa chaguomsingi kwenye mtand
 
 
 
-- Fikia kupitia Tailscale:** [Tailscale](https://tailscale.com/) ni suluhisho la wavu la VPN ambalo huunda mtandao pepe wa kibinafsi kati ya vifaa vyako na Umbrel. Faida: inafanya kazi kana kwamba uko kwenye LAN, lakini kwenye mtandao, iliyosimbwa na bila usanidi tata. **Tailcale hupatia Umbrel yako IP isiyobadilika na jina la kikoa cha faragha, bila kujali eneo la mtandao wake ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,imekaguliwa%20na%20imeaminika) Kwa mazoezi, pindi tu utakaposakinisha Tailscale kwenye Umbrel (kutoka Umbrel App Store, kitengo _Networking_) **na** kwenye vifaa vyako (simu ya mkononi, Kompyuta...), utaweza kufikia Umbrel kupitia Address kama `100.x.y.z` (Tailscale IP) au jina kama `umbrel.3.tail.net2`.
+- **Fikia kupitia Tailscale:** [Tailscale](https://tailscale.com/) ni suluhisho la wavu la VPN ambalo huunda mtandao pepe wa kibinafsi kati ya vifaa vyako na Umbrel. Faida: inafanya kazi kana kwamba uko kwenye LAN, lakini kwenye mtandao, iliyosimbwa na bila usanidi tata. **Tailcale hupatia Umbrel yako IP isiyobadilika na jina la kikoa cha faragha, bila kujali eneo la mtandao wake ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,imekaguliwa%20na%20imeaminika) Kwa mazoezi, pindi tu utakaposakinisha Tailscale kwenye Umbrel (kutoka Umbrel App Store, kitengo _Networking_) **na** kwenye vifaa vyako (simu ya mkononi, Kompyuta...), utaweza kufikia Umbrel kupitia Address kama `100.x.y.z` (Tailscale IP) au jina kama `umbrel.3.tail.net2`.
 
 
 kwa Nostr_, Tailscale ni muhimu sana: simu yako ya mkononi, ikiwa ina Tailscale amilifu, itaweza kuunganishwa kwenye `ws://umbrel:4848` (shukrani kwa MagicDNS) au moja kwa moja kwenye IP ya Tailscale na mlango 4848 ili kutumia upeanaji. Wateja kama Damus au Amethyst wataona Mwavuli wako kana kwamba uko kwenye mtandao sawa wa karibu. **Kidokezo:** Washa chaguo la **MagicDNS** katika Tailscale ili kutumia jina la mpangishaji `mwavuli` badala ya kukariri IP. Hii inahakikisha muunganisho mzuri kwenye relay yako hata unaposafiri ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Zaidi ya hayo, Tailscale hukuruhusu kufikia Mwavuli wa Interface (na hivyo watej
 
 
 
-**Kumbuka: Tor na Tailscale hazitengani. Unaweza kuweka Tor amilifu kwa ufikiaji usiojulikana au huduma mahususi, na utumie Tailscale siku hadi siku kwa urahisi wake. Katika hali zote mbili, huna haja ya kufungua bandari kwenye router yako, ambayo huimarisha usalama.
+**Kumbuka**: Tor na Tailscale hazitengani. Unaweza kuweka Tor amilifu kwa ufikiaji usiojulikana au huduma mahususi, na utumie Tailscale siku hadi siku kwa urahisi wake. Katika hali zote mbili, huna haja ya kufungua bandari kwenye router yako, ambayo huimarisha usalama.
 
 
 
@@ -372,31 +372,31 @@ Ikiwa unakaribisha upeanaji wa Nostr kwenye Umbrel, haswa katika muktadha wa hal
 
 
 
-- Relay ya faragha au yenye vikwazo:** Kwa chaguomsingi, relay yako ya Umbrel ni ya faragha (haijatangazwa hadharani) na, ukiifikia tu kupitia Tailscale au LAN yako, itaendelea kutoweza kufikiwa na wageni. **Weka kiungo kwa siri ** Usitangaze kwenye mitandao ya umma ya Nostr isipokuwa ungependa kupangisha watumiaji wengine kwa hiari, ambalo ni suala jingine zima (ukadiriaji, kipimo data, n.k.). Kwa matumizi ya kibinafsi, tunapendekeza uzuie ufikiaji kwako mwenyewe na, ikiwa ni lazima, kwa marafiki na familia chache unaowaamini.
+- **Relay ya faragha au yenye vikwazo:** Kwa chaguomsingi, relay yako ya Umbrel ni ya faragha (haijatangazwa hadharani) na, ukiifikia tu kupitia Tailscale au LAN yako, itaendelea kutoweza kufikiwa na wageni. **Weka kiungo kwa siri** Usitangaze kwenye mitandao ya umma ya Nostr isipokuwa ungependa kupangisha watumiaji wengine kwa hiari, ambalo ni suala jingine zima (ukadiriaji, kipimo data, n.k.). Kwa matumizi ya kibinafsi, tunapendekeza uzuie ufikiaji kwako mwenyewe na, ikiwa ni lazima, kwa marafiki na familia chache unaowaamini.
 
 
 
 
 
-- Orodha iliyoidhinishwa / Uthibitishaji**: Utekelezaji wa nostr-rs-relay unaauni utaratibu wa uthibitishaji **NIP-42** pamoja na _idhini_ za funguo za umma. Kwa kuwezesha chaguo hizi, unaweza kuzuia upeanaji mkondo wako ili **ikubali tu matukio yaliyotiwa saini na funguo fulani (zako)**, au kwamba wateja lazima waidhinishe ili kuchapisha. kusanidi hii kunahitaji kuhariri faili ya usanidi ya relay `config.toml` katika Umbrel (kupitia SSH kwenye chombo cha Docker)._ Ni upotoshaji wa hali ya juu, lakini kwa mfano unaweza kuorodhesha matangazo yanayoruhusiwa (`pubkey_whitelist`). Kwa njia hii, hata mtu akigundua relay yako, hataweza kuchapisha chochote hapo ikiwa hayumo kwenye orodha.
+- **Orodha iliyoidhinishwa / Uthibitishaji**: Utekelezaji wa nostr-rs-relay unaauni utaratibu wa uthibitishaji **NIP-42** pamoja na _idhini_ za funguo za umma. Kwa kuwezesha chaguo hizi, unaweza kuzuia upeanaji mkondo wako ili **ikubali tu matukio yaliyotiwa saini na funguo fulani (zako)**, au kwamba wateja lazima waidhinishe ili kuchapisha. kusanidi hii kunahitaji kuhariri faili ya usanidi ya relay `config.toml` katika Umbrel (kupitia SSH kwenye chombo cha Docker)._ Ni upotoshaji wa hali ya juu, lakini kwa mfano unaweza kuorodhesha matangazo yanayoruhusiwa (`pubkey_whitelist`). Kwa njia hii, hata mtu akigundua relay yako, hataweza kuchapisha chochote hapo ikiwa hayumo kwenye orodha.
 
 
 
 
 
-- Masasisho na matengenezo:** Sasisha Umbrel yako na programu ya _Nostr Relay_. Masasisho yanaweza kujumuisha uboreshaji wa utendakazi (k.m. ushughulikiaji bora wa barua taka) na marekebisho ya usalama. Kwenye Umbrel, angalia App Store mara kwa mara kwa masasisho kwa _Nostr Relay_, na uyatumie inapohitajika.
+- **Masasisho na matengenezo:** Sasisha Umbrel yako na programu ya _Nostr Relay_. Masasisho yanaweza kujumuisha uboreshaji wa utendakazi (k.m. ushughulikiaji bora wa barua taka) na marekebisho ya usalama. Kwenye Umbrel, angalia App Store mara kwa mara kwa masasisho kwa _Nostr Relay_, na uyatumie inapohitajika.
 
 
 
 
 
-- Ufuatiliaji na vikomo:** Angalia jinsi upeanaji mkondo wako unavyotumika. Ukiifungua kwa wengine, weka jicho kwenye mzigo (uhifadhi wa CPU/RAM) kwenye Mwavuli wako, kwani relay inaweza kukusanya data nyingi haraka. nostr-rs-relay inatoa **viwango na vikomo vya uhifadhi vinavyoweza kusanidiwa** (`vikomo` katika usanidi, k.m. idadi ya matukio kwa sekunde, ukubwa wa juu zaidi wa tukio, uondoaji wa matukio ya zamani...). Kwa matumizi ya kibinafsi, labda hautahitaji kugusa hizi, lakini fahamu kuwa vigezo hivi vipo ikiwa unavihitaji ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.:toml=text)#).
+- **Ufuatiliaji na vikomo:** Angalia jinsi upeanaji mkondo wako unavyotumika. Ukiifungua kwa wengine, weka jicho kwenye mzigo (uhifadhi wa CPU/RAM) kwenye Mwavuli wako, kwani relay inaweza kukusanya data nyingi haraka. nostr-rs-relay inatoa **viwango na vikomo vya uhifadhi vinavyoweza kusanidiwa** (`vikomo` katika usanidi, k.m. idadi ya matukio kwa sekunde, ukubwa wa juu zaidi wa tukio, uondoaji wa matukio ya zamani...). Kwa matumizi ya kibinafsi, labda hautahitaji kugusa hizi, lakini fahamu kuwa vigezo hivi vipo ikiwa unavihitaji ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.:toml=text)#).
 
 
 
 
 
-- Kupata vitufe vya Nostr:** Hatua hii tayari imetajwa, lakini ni muhimu: usiwahi kuingiza funguo zako za faragha za Nostr kwenye Interface usiyoiamini kikamilifu. Badala yake, tumia viendelezi vya kivinjari au vifaa vya nje (kama vile Nostr _signers_ kwenye simu tofauti) kutia sahihi kwa vitendo nyeti. Kwenye Umbrel, wateja wako wa wavuti kama _Snort_ na _noStrudel_ wanaweza kufanya kazi bila kujua ufunguo wako wa siri, kupitia NIP-07. Tumia fursa hii kuchanganya faraja na usalama.
+- **Kupata vitufe vya Nostr:** Hatua hii tayari imetajwa, lakini ni muhimu: usiwahi kuingiza funguo zako za faragha za Nostr kwenye Interface usiyoiamini kikamilifu. Badala yake, tumia viendelezi vya kivinjari au vifaa vya nje (kama vile Nostr _signers_ kwenye simu tofauti) kutia sahihi kwa vitendo nyeti. Kwenye Umbrel, wateja wako wa wavuti kama _Snort_ na _noStrudel_ wanaweza kufanya kazi bila kujua ufunguo wako wa siri, kupitia NIP-07. Tumia fursa hii kuchanganya faraja na usalama.
 
 
 

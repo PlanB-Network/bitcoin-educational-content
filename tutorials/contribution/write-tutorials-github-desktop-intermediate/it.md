@@ -381,7 +381,7 @@ Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo al
 Se desiderate creare i vostri diagrammi, assicuratevi di aderire alla carta grafica di Plan ₿ Network per garantire la coerenza visiva:
 
 
-- Font**: Utilizzare [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Colori**:
  - Arancione: #FF5C00
  - Nero: #000000

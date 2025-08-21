@@ -972,11 +972,9 @@ Arch Linux -perheelle on ominaista filosofia, joka on radikaalisti vastakkainen 
 
 Tämä lähestymistapa perustuu *kierrettävien julkaisujen* malliin, jossa paketteja päivitetään jatkuvasti ilman, että järjestelmää tarvitsee asentaa uudelleen jokaisen suuremman julkaisun yhteydessä. Pacman-pakettihallinta on nopea ja kevyt, joten ohjelmistojen asentaminen ja päivittäminen on helppoa, ja AUR (*Arch User Repository*), yhteisön arkisto, tarjoaa pääsyn laajaan valikoimaan epävirallisia ja kehityspaketteja.
 
-
-
 Arch Linux on suunnattu ennen kaikkea edistyneille käyttäjille, jotka haluavat hallita ympäristöään täydellisesti, mutta hyväksyvät samalla asennuksen ja ylläpidon tietyn monimutkaisuuden. Tämä tekninen vaatimus on johtanut siihen, että on syntynyt useita johdannaisjakeluja, joiden tarkoituksena on demokratisoida sen käyttöä.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Tunnetuin on Manjaro, joka säilyttää Archin teknisen perustan mutta tarjoaa samalla yksinkertaistetun asennuksen, valmiiksi konfiguroidut työpöytäympäristöt ja hieman viivästyneen julkaisusyklin päivitysten vakauttamiseksi.
 
@@ -1064,7 +1062,7 @@ Canonicalin kehittämä ja vuonna 2004 julkaistu Ubuntu on yksi maailman suositu
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Vuonna 2006 lanseerattu Linux Mint on Ubuntusta johdettu jakelu, joka on suunnit
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint erottuu edukseen yksinkertaisuudellaan, multimediakoodekkien oletusarvoisella läsnäololla ja hyvin suunnitellulla päivitystyökalulla. Toisaalta se tukeutuu vahvasti Ubuntun infrastruktuuriin, mikä tekee siitä riippuvaisen Ubuntun teknisistä valinnoista (erityisesti ytimen ja arkistojen tasolla). Mint sopii erityisen hyvin ei-teknisille käyttäjille tai niille, jotka haluavat käyttövalmiin järjestelmän, joka ei vaadi liikaa opettelua.
 
@@ -1108,9 +1106,9 @@ Asennus on sujuva, olennaiset ohjelmistot on esiasennettu, ja Lite-version avull
 
 - peruskäyttöjärjestelmä**:
 
-
-
 Vuonna 2011 lanseerattu elementary OS on Ubuntu-pohjainen jakelu, joka keskittyy ennen kaikkea Interface:n suunnitteluun ja johdonmukaisuuteen. Sen Pantheon-työpöytäympäristö, joka on saanut vaikutteita macOS:stä, on minimalistinen, tyylikäs ja sujuva. Järjestelmä on kuitenkin edelleen vähemmän muokattavissa kuin muut jakelut, ja jotkut edistyneet käyttäjät saattavat tuntea Interface:n valintojen ja sen tarkoituksellisesti lukitun rakenteen rajoittavan heitä. Se sopii hyvin esteettisesti herkille käyttäjille, jotka etsivät yksinkertaista, yhtenäistä järjestelmää jokapäiväiseen käyttöön.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux on minimalistinen, jatkuvasti päivittyvä jakelu, joka toimitetaan i
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Erikoistunut jakelu
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux on Debian-pohjainen jakelu, joka on suunniteltu penetraatiotestaukseen ja tietoturvatarkastukseen. Se sisältää satoja pentestityökaluja. Tämä jakelu ei oikein sovellu pääjärjestelmäksi jokapäiväiseen käyttöön.
 
@@ -1252,7 +1246,7 @@ Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Huomautus:** Live-jakelu on Linux-käyttöjärjestelmä, jota voidaan käyttää suoraan USB-tikulta tai CD-levyltä ilman asennusta Hard-levylle.
 
@@ -1306,9 +1300,9 @@ PureOS on Purismin kehittämä Debianista johdettu jakelu, täysin ilmainen (FSF
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (aiemmin Raspbian) on Raspberry Pi -mikrotietokoneille optimoitu jakelu. Se perustuu Debianiin, ja paketit on käännetty uudelleen ARM-arkkitehtuuria varten. Sitä voidaan käyttää koulutusprojekteihin, elektroniikan testaukseen tai pieniin henkilökohtaisiin palvelimiin.
 
@@ -1332,36 +1326,23 @@ Whonix yhdistää Debianin ja Tor-verkon kahden VM:n arkkitehtuurissa (yhdyskäy
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Tämä yleiskuva antaa sinulle yleiskuvan nykyisestä Linux-jakelujen ekosysteemistä, jonka avulla voit valita tekniseen profiiliisi ja tavoitteisiisi parhaiten sopivan jakelun.
-
-
 
 SCU202:n seuraavassa luvussa tarkastelemme lähemmin käytännön Linux-ympäristöä, alkaen graafisista ympäristöistä, jotka muodostavat perustan päivittäiselle vuorovaikutukselle järjestelmän kanssa.
 
-
-
 ## Linux-työpöytäympäristöt
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linux-järjestelmässä työpöytäympäristöllä on yksi tärkeimmistä rooleista käyttäjäkokemuksen kannalta. Se on graafinen Layer, joka mahdollistaa vuorovaikutuksen järjestelmän kanssa ja perustuu tuttuihin visuaalisiin esityksiin: ikkunoihin, valikoihin, kuvakkeisiin, paneeleihin ja esiasennettuihin sovelluksiin.
-
-
 
 Tässä luvussa tarkastelen työpöytäympäristön rakennetta ja roolia, sen tyypillisiä komponentteja, tärkeimpiä saatavilla olevia perheitä, valintaperusteita ja niiden integrointia suosituimpiin Linux-jakeluihin.
 
-
-
 ### Mikä on toimistoympäristö?
 
-
-
 Työpöytäympäristöllä (tai *DE*, *Desktop Environment*) tarkoitetaan ohjelmia, jotka muodostavat käyttöjärjestelmän koko graafisen Interface:n. Windowsissa ja macOS:ssä tarjotaan oletusarvoisesti yksi työpöytäympäristö, joka on integroitu järjestelmään, eikä sitä ole mahdollista muuttaa kokonaan (vain tietyillä kuorilla on mahdollista muuttaa Interface:ää osittain). Linux-järjestelmät sen sijaan ovat paljon modulaarisempia, ja niissä työpöytäympäristöä pidetään itsenäisenä komponenttina, joka voidaan vaihtaa vapaasti.
-
-
 
 Linuxissa on tärkeää erottaa selvästi toisistaan kaikki kerrokset: ydin (joka hallinnoi vuorovaikutusta laitteiston kanssa), näyttöpalvelin (joka toimii välittäjänä sovellusten, grafiikka-ajurien ja laitteiston välillä ytimen kautta) ja lopuksi itse työpöytäympäristö, joka tukeutuu tähän infrastruktuuriin tarjotakseen käyttäjälle johdonmukaisen graafisen Interface:n. Tämä infrastruktuuri on myös tärkeä osa työpöytäympäristöä. Tämä ero voi joskus olla epäselvä, sillä monissa Linux-jakeluissa on esiasennettu työpöytäympäristö, joka joskus sisältää oman Wayland-sävellystoiminnon, joka toimii näyttöpalvelimena.
 
@@ -4869,12 +4850,7 @@ MacOS:ssä järjestelmän levyn salaus perustuu *FileVault*:iin, joka on natiivi
 
 Kun FileVault on aktivoitu, sinun on valittava palautusmenetelmä salasanan menetyksen varalta: joko *iCloud*-tilisi käyttäminen tai generate:n yksilöllinen varmuuskopioavain. Tämä avain on säilytettävä turvallisessa paikassa, sillä sen menettäminen tekisi tiedoista pysyvästi saavuttamattomissa olevia.
 
-
-
 Ulkoisten tallennusvälineiden (Hard-levyt, USB-muistitikut jne.) salaus suoritetaan levyapuohjelman avulla. Sinun on alustettava tietoväline kokonaan uudelleen:
-
-
-
 
 - Valitse laite ja napsauta "*Poista*"
 - Valitse "GUID*-osiointitaulukko" -järjestelmä
@@ -4882,41 +4858,25 @@ Ulkoisten tallennusvälineiden (Hard-levyt, USB-muistitikut jne.) salaus suorite
 - Valitse vahva salasana
 - Napsauta "*Poista*" ja sitten "*OK*" ja salaus on valmis
 
-
-
 Kun salaus on otettu käyttöön, ulkoinen asema voidaan asentaa vain syöttämällä tämä salasana. Järjestelmä purkaa salauksen sitten lennossa.
-
-
 
 #### Muutama suositus salattuja varmuuskopioita varten
 
-
-
 Ennen tietovälineen salaamista sinun on varmuuskopioitava kaikki sen sisältämät tiedot (paitsi jos tietoväline on tyhjä), koska salausmenettely yleensä poistaa alkuperäisen sisällön.
-
-
 
 Salasanan valinta on myös erittäin tärkeää: sen on oltava pitkä, monimutkainen ja yksilöllinen, sillä se on ainoa suoja tietojesi ja pahantahtoisen kolmannen osapuolen välillä. Sinun on myös tehtävä varmuuskopio esimerkiksi salasanahallintaan, sillä toisin kuin verkkopalveluissa, salasanoista ei ole palautusmekanismia. Jos unohdat salasanasi, tiedot menetetään lopullisesti.
 
-
-
 ### Valikoiva tiedostojen salaus
-
-
 
 Joissakin tapauksissa ei ole tarpeen eikä käytännöllistä salata koko Hard-levyä tai ulkoista tietovälinettä. Tällaisissa tapauksissa voit valita valikoivan salauksen, jossa suojataan vain tietyt arkaluonteisia tietoja sisältävät tiedostot tai hakemistot.
 
-
-
 Yksi tunnetuimmista tiedostojen salausmenetelmistä on GPG. Tämä työkalu perustuu epäsymmetriseen salaukseen: sinulla on avainpari, joista toinen on julkinen, jota voit jakaa vapaasti kirjeenvaihtajillesi, ja toinen yksityinen, jonka on pysyttävä ehdottoman salaisena. Tiedostot salataan vastaanottajan julkisella avaimella, mutta ne voidaan purkaa vain hänen yksityisellä avaimellaan.
-
-
 
 Tämä protokolla sopii erinomaisesti arkaluonteisten tiedostojen turvalliseen vaihtoon muiden kanssa ilman salasanan jakamista. Henkilökohtaiseen tai satunnaiseen käyttöön GPG mahdollistaa myös symmetrisen salauksen: tällöin tiedosto suojataan ainutlaatuisella salasanalla, jonka vain sinä tunnet.
 
-
-
 Erinomainen vaihtoehto on Cryptomator. Tämän avoimen lähdekoodin ohjelmiston avulla voit luoda kassakaapin: erityisen hakemiston, johon kaikki talletetut tiedostot salataan automaattisesti. Tämä kassakaappi voidaan synkronoida Dropboxin, Google Driven tai Nextcloudin kaltaisten pilvipalveluiden kanssa ilman, että palveluntarjoaja pääsee koskaan käsiksi salaamattomiin tietoihin. Sovellus on käytettävissä kaikissa käyttöjärjestelmissä, myös Androidissa ja iOS:ssä, eikä sen käyttö vaadi erityisiä teknisiä taitoja.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Erinomainen vaihtoehto on Cryptomator. Tämän avoimen lähdekoodin ohjelmiston 
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Lopuksi on myös mahdollista käyttää VeraCryptiä konttitilassa, jolloin luodaan tiedosto, joka toimii salattuna arkistona, joka on liitettävissä kuten levyke.
-
-
 
 Nyt kun olet oppinut suojaamaan henkilötietojasi katoamiselta ja varastamiselta, seuraavassa luvussa tarkastellaan toista tärkeää näkökohtaa: miten estät henkilötiedostojesi muuttumisen hyökkäysvektoreiksi niiden metatietojen avulla.
 
-
-
-
 ## Metatietojen puhdistus
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Aina kun luot digitaalisen tiedoston, olipa kyseessä valokuva, toimistodokumentti, ääni- tai videotiedosto, se sisältää taustalla metatietoja. Nämä tiedot eivät näy suoraan, kun avaat tiedoston, mutta ne ovat siellä, ja ne voivat sisältää erittäin arkaluonteisia Elements-tietoja.
-
-
 
 ### Miksi metatiedot ovat riski?
 
-
-
 Metatieto on tiedostoon liitettyä tietoa, jonka tehtävänä on antaa sisältöä koskevia yhteystietoja. Kuvan kohdalla nämä tiedot voivat sisältää kuvan ottamispäivämäärän ja -ajan, tarkat GPS-koordinaatit, käytetyn kameran tai älypuhelimen mallin ja joskus jopa tekniset asetukset. Tekstidokumentissa se voi sisältää kirjoittajan nimen, yrityksen nimen, käyttäjän istuntotunnuksen, luonti- ja muokkausajankohdat tai jopa muokkauksen aikana jätetyt sisäiset kommentit.
-
-
 
 Nämä metatiedot voivat vaikuttaa harmittomilta, mutta pahansuovat toimijat voivat käyttää niitä tiedoston tekijän tunnistamiseen, henkilön fyysiseen paikantamiseen, tapahtumien tai tottumusten rekonstruointiin tai jopa ohjelmistovirheiden hyödyntämiseen käytetyn ohjelmistoversion perusteella.
 
-
-
 Otetaanpa konkreettinen esimerkki: lähetät foorumille oletettavasti nimettömän kuvan. Jos et ole poistanut EXIF-metatietoja, yksi napsautus voi paljastaa kotisi tarkat GPS-koordinaatit, puhelimesi mallin ja valokuvan tarkan kuvauspäivän. Vastaavasti nimettömänä lähetetyn PDF-dokumentin ominaisuuksissa voi olla koko nimesi.
-
-
 
 Siksi jotkin median julkaisu- ja viestintäalustat poistavat automaattisesti metatiedot kuvistasi. Tällaisia ovat esimerkiksi X (Twitter), Instagram, Signal ja Session. Toisaalta toiset alustat eivät poista metatietoja lainkaan: näin on useimmilla verkkofoorumeilla, monilla sähköpostiohjelmilla tai jopa silloin, kun julkaiset suoraan verkkosivustolla.
 
-
-
 Tämä on tärkeä refleksi: heti kun tiedosto poistuu yksityiseltä alueeltasi, sinun on ajateltava sen metatietojen siivoamista, jotta vältät henkilökohtaisten tai arkaluonteisten tietojen paljastumisen tietämättäsi. Katsotaanpa, miten tämä tehdään käyttöjärjestelmästäsi riippuen.
-
-
 
 ### Linuxissa (Debian)
 
-
-
 #### ExifToolin käyttäminen
-
-
 
 Kattavin ja luotettavin keino metatietojen hallintaan ja poistamiseen on Phil Harveyn kehittämä ExifTool. Se on yhteensopiva useiden tiedostomuotojen kanssa (JPG, PNG, PDF, MP3, DOCX...) ja mahdollistaa sekä metatietojen näyttämisen että poistamisen.
 
-
-
-
-
 - Vaihe 1: Asenna ExifTool
 
-
-
 Asenna se Debian-jakeluun (Ubuntu) avaamalla terminaali ja kirjoittamalla komento:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Tämä paketti asentaa `exiftoolin`, jota voit käyttää suoraan komentoriviltä.
 
@@ -5835,15 +5761,11 @@ Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja raj
 
 #### Mullvad selain
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor-säätiön ja Mullvad VPN:n yhteistyön tulos. Se perustuu Tor-selaimeen, joka on puolestaan johdettu Firefox ESR:stä. Mullvad Browser on suunniteltu maksimoimaan käyttäjän yksityisyys. Se sisältää oletusarvoisesti kehittyneen suojan sormenjälkiä, seurantalaitteita ja kolmannen osapuolen skriptejä vastaan.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Siinä on suurin osa Tor Browserin tarjoamista turvallisuus- ja yksityisyysominaisuuksista yhdellä erolla: se ei ohjaa liikennettä Tor-verkon kautta. Jos haluat välttää IP Address -vuodot, voit käyttää sitä yhdessä VPN:n kanssa (mieluiten Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ Oletusarvoisesti LibreWolf aktivoi Firefoxin kehittyneet tietoturva-asetukset (k
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-selain
-
-
 
 [Zen Browser] (https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
 
-
-
 Zen erottuu edukseen radikaalin Interface- ja käytettävyyslähestymistapansa vuoksi, joka on pitkälti Arc-selaimen innoittama, mutta vapautuu siitä avoimen lähdekoodin ja Gecko-moottorin ansiosta. Se sisältää :
-
-
-
 
 - Minimalistinen, modulaarinen Interface, jossa on pystysuora sivupalkki välilehtiä varten, jaettu näkymä ja *työtila*-järjestelmä välilehtien ryhmittelyyn projekteittain;
 - Muokattavien Interface-mallien (*Zen Mods*) järjestelmä, jonka avulla selaimen ulkoasua voidaan muokata perusteellisesti;
 - Alkuperäinen toiminto nimeltä *Glance*, joka avaa linkin kevyeen väliaikaiseen ikkunaan, välttäen välilehtien sekamelskaa....
 
-
-
 Zen tukee myös Firefox-laajennuksia sekä synkronointia Mozilla-tilin kautta.
-
-
 
 Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty kolmannen osapuolen seurantalaitteet. Selain ei kerää itse mitään tietoja, ja se mahdollistaa myös Mozillan telemetrian poistamisen käytöstä. Se myös hylkää automaattisesti vanhentuneet tai vaatimustenvastaiset SSL-varmenteet.
 
-
-
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-pohjaiset selaimet
 
-
-
 #### Safari
-
-
 
 Tärkein selain, joka käyttää edelleen WebKit-selainta (ei Fork:ää kuten Blink), on Safari. [Safari](https://www.apple.com/safari/) on Applen yksinomainen selain macOS:lle. Se integroituu erinomaisesti Applen ekosysteemiin, on erittäin suorituskykyinen ja sisältää nyt vahvemmat suojaukset jäljittämistä ja sormenjälkiä vastaan.
 
-
-
 Safari on kuitenkin edelleen suljettu, sen työpöytäversio on rajoitettu macOS-käyttöjärjestelmään ja se on riippuvainen Applen ekosysteemistä. Vaikka Applella on vahva tietosuojakäytäntö, ja sen liiketoimintamalli perustuu ensisijaisesti laitteistomyyntiin eikä mainontaan, sen tietyt sisäiset käytännöt ovat edelleen epäselviä.
-
-
 
 Tässä keskitymme työpöytäselaimiin, mutta on tärkeää huomata, että iOS:ssä Apple edellyttää, että kaikki selaimet käyttävät WebKit-selainta (tämä rajoitus saattaa kuitenkin pian muuttua tiettyjen eurooppalaisten säädösten vuoksi). Tämä tarkoittaa, että Chrome-, Firefox- tai Brave-selaimien kaltaisten selainten on iOS:ssä tarjottava WebKitiin perustuva sovellus eikä niiden tavanomaiseen renderöintimoottoriin perustuvaa sovellusta.
 
@@ -6720,7 +6623,7 @@ GrapheneOS ei sisällä omia komponentteja. Voit vapaasti lisätä Googlen palve
 Graphene on yhteensopiva vain viimeisimpien Google Pixeleiden (Pixel 6, 7, 8 ja 9) kanssa.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ Nämä työkalut toimivat kuin pieni DNS-palvelin verkossasi ja estävät pyynn�
 
 ### Turvallinen etäyhteys VPN:n kautta
 
-
 Joissakin tapauksissa on hyödyllistä, että voit käyttää kotiverkkoasi, kun olet liikkeellä: Tutustu NAS:n tiedostoihin, käytä Bitcoin:tä ja Lightning-solmua, käytä itse isännöimääsi palvelinta tai hallinnoi verkkoasi. Etäyhteyden on kuitenkin oltava turvallinen.
-
 
 Ensimmäinen vinkki on, että älä koskaan avaa suoraan reitittimen porttia, jotta pääset laitteeseen käsiksi (esimerkiksi RDP:n, SSH:n tai FTP:n kautta), sillä tämä altistaa palvelun koko Internetille, mikä on haavoittuvuus. Avoimiin portteihin kohdistuvia automatisoituja hyökkäyksiä on lukuisia.
 
-
 Suosittelemani ratkaisu on käyttää VPN:ää (*Virtual Private Network*) eli salattua tunnelia etälaitteesi (tietokone, älypuhelin jne.) ja lähiverkkosi välillä. Kun olet yhdistetty VPN:ään, voit käyttää kotisi resursseja ikään kuin olisit fyysisesti siellä, ja vieläpä turvallisella tavalla.
 
-
 Yksityisasiakkaille tarkoitetut kaksi tärkeintä ratkaisua ovat:
-
-
 
 - WireGuard: Moderni, nopea ja kevyt
 - OpenVPN: Vanhempi, mutta erittäin kypsä ja konfiguroitavissa
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Tässä on täydellinen opas Tailscalen, WireGuardia käyttävän helposti konfiguroitavan VPN-ratkaisun, käyttöönotosta:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Voit isännöidä tätä VPN:ää suoraan yhteensopivalla reitittimellä, pienellä tietokoneella (kuten Raspberry Pi) tai erillisellä palvelimella kotona. Voit myös asentaa sen asiakkaana suoraan mihin tahansa laitteeseen.
 
-
 VPN ei kuitenkaan ole vain etäkäyttöä varten. Voit myös käyttää klassista VPN-asiakasta laitteissasi salaamaan kaiken lähtevän tietoliikenteesi, vaikka olisit poissa kotoa (julkinen Wi-Fi, hotelli, yliopisto jne.). Tässä tapauksessa laitteesi muodostaa yhteyden kolmannen osapuolen VPN-palvelimeen (kaupalliseen tai itse isännöimäänsä), joka välittää yhteytesi Internetiin. Tämä piilottaa todellisen IP-osoitteesi Address Internet-palveluntarjoajalta, suojaa tietojasi paikalliselta vakoilulta ja välttää tietyt sensuurin muodot.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 VPN on myös mahdollista asentaa suoraan reitittimeen, jolloin voit suojata kaikki kodin laitteet ilman, että sinun tarvitsee asentaa VPN-asiakasohjelma jokaiseen laitteeseen.
 
-
 ### Seuranta ja havaitseminen
-
 
 Kun verkko on konfiguroitu ja segmentoitu oikein, on tärkeää mennä passiivisen turvallisuuden ohi. Paikallisverkon aktiivisella valvonnalla voidaan havaita epänormaali käyttäytyminen, luvattomat yhteydet tai merkit tunkeutumisesta. Tavoitteena on havaita ongelmat ajoissa, ennen kuin ne aiheuttavat vahinkoa.
 
-
 Ensimmäinen askel on keskittää turvallisuuslokit. Jokainen verkkoon liitetty laite tuottaa lokitietoja, jotka sisältävät tietoja yhteyksistä, virheistä tai epäilyttävästä toiminnasta. Sen sijaan, että näitä lokeja tarkasteltaisiin yksitellen, suosittelen niiden lähettämistä palvelimelle, joka pystyy ryhmittelemään, lajittelemaan ja analysoimaan ne. Graylogin tai Elastic Stackin (ELK) kaltaisten ratkaisujen avulla voit koota nämä lokit graafiseksi Interface:ksi, josta voit etsiä tiettyjä tapahtumia, luoda hälytyksiä tai visualisoida verkon toimintaa.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Suorita seuraavaksi säännöllisiä aktiivisia skannauksia lähiverkossasi esimerkiksi Nmapin avulla. Näin saat yleiskuvan kaikista verkon laitteista ja niiden avaamista porteista. Jos tunnistat tuntemattoman laitteen tai epätavallisen palvelun, se voi olla merkki hyökkäyksestä.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Jos haluat mennä vielä pidemmälle, voit asentaa IDS:n (*Murtohälytysjärjestelmä*) tai jopa IPS:n (*Murtojen estojärjestelmä*). Nämä työkalut, kuten Suricata tai Snort, valvovat verkkovirtoja reaaliajassa ja havaitsevat tunnettujen hyökkäysten merkit (porttiskannaukset, injektiot, epäilyttävät yhteydet jne.). IDS varoittaa, kun taas IPS voi automaattisesti estää tietyt toimet.
 
-
-
 Kaistanleveyden kulutuksen seuranta on myös hyvä indikaattori epänormaalista toiminnasta. Jos laite kuluttaa yhtäkkiä paljon dataa ilman näkyvää syytä, tämä voi paljastaa luvattoman latauksen, tietovuodon tai jopa vaarantuneen laitteen. Työkalujen, kuten ntopng tai vnStat, avulla voit tarkastella saapuvia ja lähteviä virtoja laitteittain.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varmuuskopiointi ja häiriönsietokyky
 
-
 Vaikka verkko olisi täysin suojattu, laitteistoviat, konfigurointivirheet tai odottamattomat tapahtumat (sähkökatkos, virtapiikki, Hard-levyn vikaantuminen jne.) voivat aiheuttaa tietojen häviämistä tai keskeyttää palvelut. Varmistaaksesi digitaalisen ympäristösi jatkuvuuden ja välttyäksesi aloittamasta ongelman sattuessa tyhjästä, on tärkeää ottaa käyttöön varmuuskopiointi- ja häiriönsietostrategia.
-
 
 Aloita varmuuskopioimalla säännöllisesti verkkolaitteiden, erityisesti reitittimen, kokoonpanot. Nämä konfiguraatiotiedostot voidaan usein viedä Interface:n hallinnon kautta. Säilyttämällä kopion voit nopeasti palauttaa toimivan järjestelmän, jos laite nollataan tai vaihdetaan. Suosittelen myös tämän varmuuskopion salaamista.
 
-
 Jos haluat parantaa verkon häiriönsietokykyä sähkökatkoksen sattuessa, investoi UPS-laitteeseen. Tämä laite tarjoaa varavirtaa muutaman minuutin ajan sähkökatkoksen sattuessa, jolloin voit jatkaa Internetin käyttöä tai varmistaa, että kriittiset laitteet (NAS, reititin, Wi-Fi-yhteyspiste jne.) sammuvat siististi. Jotkin mallit voivat myös lähettää automaattisen sammutuskomennon liitetyille laitteille, kun ne havaitsevat, että akun varaus on vähissä.
-
 
 Seuraamalla näitä muutamia ohjeita voit rakentaa vankan ja turvallisen verkkoympäristön, joka kunnioittaa yksityisyyttäsi.
 
-
 # Viimeinen osa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Arvostelut & arvostelut
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Päätelmä
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

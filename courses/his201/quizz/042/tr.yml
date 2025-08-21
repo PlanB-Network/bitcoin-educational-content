@@ -1,0 +1,9 @@
+question: Haziran 2010'da ilk Bitcoin Faucet'yi yaratan ve yazılımın geliştirilmesinde Satoshi'e yardımcı olan Gavin Andresen aslen hangi ülkeden?
+answer: Avustralya
+wrong_answers:
+  - Birleşik Devletler
+  - Fransa
+  - Hollanda
+explanation: |
+  Avustralya'da [doğdu] (https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) ancak 2004 yılında Amerikan vatandaşlığına geçti.
+reviewed: true

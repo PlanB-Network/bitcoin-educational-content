@@ -1,0 +1,12 @@
+question: Madenciler henüz şebekeye bağlı olmayan enerji santralleri için ne yapabilir?
+answer: Son çare alıcı olarak hareket edebilirler.
+wrong_answers:
+  - Enerji santrallerine elektrik sağlayabilirler.
+  - Enerji santrallerini şebekeye bağlayabilirler.
+  - Elektrik fiyatlarını düzenleyebilirler.
+explanation: |
+  Madenciler, enerji santralleri için son çare alıcı olarak hareket edebilirler
+  henüz şebekeye bağlı değildir. Bu sayede enerji santralleri
+  bağlanmadan önce bile finansman sağlamak için
+  elektrik şebekesi.
+reviewed: true

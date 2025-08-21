@@ -284,4 +284,4 @@ Aqua फिर आपको लेन-देन का सारांश प्
 मैं आपको Blockstream Green मोबाइल ऐप पर इस अन्य व्यापक ट्यूटोरियल को देखने की भी सलाह देता हूं, जो आपके Liquid Wallet को सेट करने के लिए एक और दिलचस्प समाधान है:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

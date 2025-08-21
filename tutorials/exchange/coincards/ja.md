@@ -67,7 +67,7 @@ Coincardsはお客様のプライバシーの保護に努めています。Bitco
 
 
 
-主なライトニング・ポートフォリオ（Phoenix、Breez、BitKit、Zeus...）に関するチュートリアルの一部は、こちらでご覧いただけます：[Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+主なライトニング・ポートフォリオ（Phoenix、Breez、BitKit、Zeus...）に関するチュートリアルの一部は、こちらでご覧いただけます：[Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

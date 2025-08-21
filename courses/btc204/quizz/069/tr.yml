@@ -1,0 +1,10 @@
+question: Bir Bitcoin işleminin ağırlığını ne etkiler?
+answer: Giriş ve çıkışların sayısı.
+wrong_answers:
+  - Blockchain'in boyutu.
+  - Girdi ve çıktıların miktarı.
+  - Kullanılan UTXO'ların yaşı.
+explanation: |
+  Bir Bitcoin işleminin ne kadar çok girdisi ve çıktısı varsa, vB'de o kadar ağır olacaktır.
+  
+reviewed: false

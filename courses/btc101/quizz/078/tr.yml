@@ -1,0 +1,12 @@
+question: Bitcoin Wallet'inizin bulunduğu cihazı kaybetmekle ilgili bu seçeneklerden hangisi yanlıştır?
+answer: Şifrenizi sıfırlayarak Wallet'ünüzü yeniden oluşturabilir ve Bitcoin'nizi harcayabilirsiniz.
+wrong_answers:
+  - Mnemonic ifadesine sahip değilseniz tüm Bitcoin'lerinizi kaybedersiniz.
+  - Açık anahtarlarınızla bitcoinlerinizin harcanmadığını doğrulayabilirsiniz.
+  - Wallet'nizi yeniden oluşturabilir ve Bitcoin'nızı Mnemonic ifadesini kullanarak harcayabilirsiniz.
+explanation: |
+  Wallet'unuzun bulunduğu cihazı kaybetmeniz
+  mutlaka Bitcoin'lerinizin kaybı anlamına gelir. Size ne sağlar
+  gW-10'unuzu yeniden yaratmak ve Bitcoin'unuzu harcamak için
+  Mnemonic cümlesi.
+reviewed: true

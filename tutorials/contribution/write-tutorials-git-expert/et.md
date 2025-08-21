@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Kasutage ainult ise loodud või kasutustasuta visuaalset materjali.
     - Veenduge, et need on asjakohased ja kvaliteetsed.
 - Graafiline harta** :
-    - Font: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Värviplaan ₿ Võrk :
         - Oranž: `#FF5C00`
         - Must: `#000000`

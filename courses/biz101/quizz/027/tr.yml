@@ -1,0 +1,9 @@
+question: Bitcoin satın alınırken velayetle ilgili önerilen bir uygulama nedir?
+answer: İlk satın alımlardan sonra öz saklama çözümlerini değerlendirin, böylece işletme varlıklarını gerçekten kontrol eder.
+wrong_answers:
+  - Bitcoin'yi hiçbir koşulda Exchange'den çekmeyin.
+  - Güvenlik önlemlerini gözden geçirmeden her zaman tek bir saklayıcıya güvenin.
+  - Tüm Bitcoin'ü basit bir parola ile herkese açık bir web sitesinde saklayın
+explanation: |
+  KİS-4'ü satın aldıktan sonra kendi kendini saklayan bir KİS-5'e taşımak, işletmenin fonları üzerinde doğrudan kontrole sahip olmasını sağlar. Üçüncü taraf saklayıcılar uygun olsa da, kendi kendine saklama Bitcoin'ün finansal egemenlik ilkesiyle uyumludur.
+reviewed: false

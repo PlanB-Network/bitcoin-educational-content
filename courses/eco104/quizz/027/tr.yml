@@ -1,0 +1,10 @@
+question: Bitcoin'ın toplam işlem hacminin yüzde kaçı yasadışı faaliyetler için kullanılmıştır?
+answer: 1'den az
+wrong_answers:
+  - 2-4%
+  - 5'ten fazla
+  - Bilinmiyor
+explanation: |
+  Chainalysis tarafından 2020 yılında yayınlanan bir rapora göre, yasadışı faaliyetler yalnızca
+  tüm Bitcoin işlemlerinin yaklaşık %0,34'ünü oluşturmaktadır.
+reviewed: true

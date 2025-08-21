@@ -190,4 +190,5 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilappen, som er en annen interessant løsning for å sette opp Liquid-lommeboken din :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

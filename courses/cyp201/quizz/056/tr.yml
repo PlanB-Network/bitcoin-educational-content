@@ -1,0 +1,8 @@
+question: seed'dan ana özel anahtarı türetmek için hangi sabit kullanılır?
+answer: Bitcoin seed
+wrong_answers:
+  - Ana Anahtar
+  - HD Wallet seed
+  - Blockchain Kök
+explanation: |
+  Bitcoin seed sabiti, ana özel anahtarı ve ana chain code'yı türetmek için HMAC-SHA512 işlevinde bir anahtar olarak kullanılır.

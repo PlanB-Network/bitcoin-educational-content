@@ -1,0 +1,9 @@
+question: RGB'daki geçişlerin zamansal tutarlılığını garanti eden yapı nedir?
+answer: BIR DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Basit bir doğrusal zincir
+  - Dinamik bir eşler arası ağ
+  - UTXO'lar için ikili bir ağaç
+explanation: |
+  Bir DAG, durum geçişlerinin yapılandırılmasını sağlarken, tutarsızlık olmadan paralel evrimlere izin verir.
+reviewed: false

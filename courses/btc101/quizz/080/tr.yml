@@ -1,0 +1,13 @@
+question: Birinin Bitcoin Wallet'deki 12 veya 24 kelimelik listenizi yanlışlıkla tahmin etme olasılığı nedir?
+answer: Astronomik olarak düşük.
+wrong_answers:
+  - Yüksek.
+  - Orta derecede.
+  - Güçlü.
+explanation: |
+  Wallet'yi oluşturmak için kullanılan kriptografi sayesinde
+  birinin yanlışlıkla sizin listenizi tahmin etme olasılığı
+  12 veya 24 kelime astronomik derecede düşüktür. Bulmak gibi
+  1 ile $2^256$ arasında doğru sayı, ki bu neredeyse
+  evrende tanımlanmış bir atom bulmakla eşdeğerdir.
+reviewed: true

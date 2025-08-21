@@ -1,0 +1,10 @@
+question: Aşağıdaki cevaplardan hangisi kişinin doxxic değişimini yönetmek için önerilen bir uygulama değildir?
+answer: Doxxic UTXO'ları bir araya getirme.
+wrong_answers:
+  - Doxic UTXO'ların daha küçük bir havuzda karıştırılması.
+  - Birinin doxxic UTXO'larını bağışlamak.
+  - Kişinin doxxic UTXO'larının harcanamaz olarak işaretlenmesi.
+explanation: |
+  Kullanıcının Whirlpool'daki farklı girişleri arasında bağlantı kurulmasına izin verdiği için doxxic UTXO'ların bir araya getirilmemesi tavsiye edilir.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Modern bir kriptografi şemasını basit bir şifreleme şemasından ayıran nedir?
+answer: Mesaj bütünlüğü ve gerçekliğinin güvence altına alınması
+wrong_answers:
+  - Tek bir gizli anahtarın kullanılması
+  - Kilit noktaların ademi merkezileştirilmesi
+  - Mesajların anonimleştirilmesi
+explanation: |
+  Modern kriptografi, basit şifreleme şemalarından farklı olarak, bütünlük ve gerçekliğin yanı sıra inkar etmemeyi sağlamak için gizliliğin ötesine geçen şemaları içerir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin'ı altcoinlerden ayıran temel özellik nedir?
+answer: Adem-i Merkeziyetçilik
+wrong_answers:
+  - Likidite
+  - İtibar
+  - Gizlilik
+explanation: |
+  Bitcoin, az ya da çok merkezi olan çoğu altcoinin aksine, ademi merkeziyetçiliği ile ünlüdür.
+reviewed: false

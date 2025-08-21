@@ -972,11 +972,9 @@ Arch Linux-familjen kännetecknas av en filosofi som skiljer sig radikalt från 
 
 Detta tillvägagångssätt baseras på en *rullande release*-modell, där paket uppdateras kontinuerligt, utan att systemet behöver installeras om vid varje större release. Pakethanteraren Pacman är snabb och lättviktig, vilket gör det enkelt att installera och uppdatera programvara, och AUR (*Arch User Repository*), en community repository, ger tillgång till ett stort antal inofficiella och utvecklingspaket.
 
-
-
 Arch Linux riktar sig framför allt till avancerade användare som vill ha total kontroll över sin miljö, samtidigt som de accepterar en viss komplexitet i installation och underhåll. Detta tekniska krav har lett till uppkomsten av flera derivatdistributioner som syftar till att demokratisera dess användning.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Den mest kända är Manjaro, som behåller Archs tekniska bas men erbjuder förenklad installation, förkonfigurerade skrivbordsmiljöer och en något försenad utgivningscykel för att stabilisera uppdateringarna.
 
@@ -1064,7 +1062,7 @@ Ubuntu, som utvecklades av Canonical och lanserades 2004, är en av världens me
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Linux Mint lanserades 2006 och är en distribution som härrör från Ubuntu, ut
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint utmärker sig genom sin enkelhet, att multimedia-codecs finns med som standard och ett väldesignat uppdateringsverktyg. Å andra sidan är det starkt beroende av Ubuntus infrastruktur, vilket gör det beroende av Ubuntus tekniska val (särskilt på kärn- och arkivnivå). Mint är särskilt väl lämpat för icke-tekniska användare, eller för dem som vill ha ett färdigt system som inte kräver alltför mycket inlärning.
 
@@ -1108,9 +1106,9 @@ Installationen är smidig, nödvändig programvara är förinstallerad och med "
 
 - elementärt OS**:
 
-
-
 Elementary OS, som lanserades 2011, är en Ubuntu-baserad distribution som framför allt fokuserar på design och konsekvens i Interface. Dess Pantheon-skrivbordsmiljö, inspirerad av macOS, är minimalistisk, elegant och flytande. Systemet är dock fortfarande mindre anpassningsbart än andra distributioner, och vissa avancerade användare kan känna sig begränsade av Interface: s val och dess medvetet låsta struktur. Det passar bra för estetiskt känsliga användare som letar efter ett enkelt, sammanhängande system för daglig användning.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux är en minimalistisk distribution som uppdateras kontinuerligt och le
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specialiserad distribution
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux är en Debian-baserad distribution som är utformad för penetrationstestning och säkerhetsgranskning. Den innehåller hundratals pentestverktyg. Den här distributionen är inte riktigt lämplig som ett huvudsystem för daglig användning.
 
@@ -1252,7 +1246,7 @@ Tails är en Debian-baserad, integritetsfokuserad live-distribution. Allt passer
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Anmärkning:** En live-distribution är ett Linux-operativsystem som kan användas direkt från ett USB-minne eller en CD, utan installation på Hard-disken.
 
@@ -1306,9 +1300,9 @@ PureOS är en Debian-härledd distribution som utvecklats av Purism, helt fri (F
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (tidigare Raspbian) är en distribution som är optimerad för Raspberry Pi mikrodatorer. Den är baserad på Debian, med paket som är omkompilerade för ARM-arkitekturen. Den kan användas för utbildningsprojekt, elektronisk testning eller små personliga servrar.
 
@@ -1332,36 +1326,23 @@ Whonix kombinerar Debian med Tor-nätverket i en två-VM-arkitektur (gateway + a
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Detta panorama ger dig en överblick över det nuvarande ekosystemet för Linux-distributioner, så att du kan välja den distribution som passar bäst för din tekniska profil och dina mål.
-
-
 
 I nästa kapitel av SCU202 tittar vi närmare på den praktiska Linux-miljön, och börjar med de grafiska miljöer som utgör grunden för din dagliga interaktion med systemet.
 
-
-
 ## Linux skrivbordsmiljöer
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 I ett GNU/Linux-system spelar skrivbordsmiljön en av de viktigaste rollerna i din användarupplevelse. Det är den grafiska Layer som gör det möjligt att interagera med systemet, baserat på välbekanta visuella representationer: fönster, menyer, ikoner, paneler och förinstallerade program.
-
-
 
 I det här kapitlet går jag igenom skrivbordsmiljöns struktur och roll, dess typiska komponenter, de viktigaste tillgängliga familjerna, urvalskriterier och hur de integreras i de mest populära Linux-distributionerna.
 
-
-
 ### Vad är en kontorsmiljö?
 
-
-
 En skrivbordsmiljö (eller "*DE*" för *Desktop Environment*) avser den uppsättning program som utgör den kompletta grafiska Interface i ett operativsystem. I Windows och macOS erbjuds en enda skrivbordsmiljö som standard, integrerad i systemet, utan möjlighet att ändra den helt och hållet (endast vissa skal finns för att delvis ändra Interface). Linux-system är å andra sidan mycket mer modulära och behandlar skrivbordsmiljön som en oberoende komponent som fritt kan bytas ut.
-
-
 
 I Linux är det viktigt att tydligt skilja mellan alla lager: kärnan (som hanterar interaktionen med hårdvaran), displayservern (som fungerar som en mellanhand mellan applikationer, grafikdrivrutiner och hårdvara via kärnan) och slutligen själva skrivbordsmiljön, som förlitar sig på denna infrastruktur för att leverera en sammanhängande grafisk Interface till användaren. Denna distinktion kan ibland vara mindre tydlig, eftersom många Linux-distributioner levereras med en förinstallerad skrivbordsmiljö som ibland innehåller sin egen Wayland-kompositör, som sedan fungerar som en displayserver.
 
@@ -4869,12 +4850,7 @@ I macOS baseras systemdiskkrypteringen på *FileVault*, en inbyggd funktion som 
 
 När FileVault har aktiverats måste du välja en återställningsmetod i händelse av lösenordsförlust: antingen använda ditt *iCloud*-konto eller generate en unik säkerhetskopieringsnyckel. Denna nyckel måste förvaras på en säker plats, eftersom en förlust skulle göra dina data permanent oåtkomliga.
 
-
-
 För externa lagringsmedia (Hard-diskar, USB-minnen etc.) utförs krypteringen med hjälp av diskverktyget. Du måste formatera om volymen helt och hållet:
-
-
-
 
 - Välj enheten och klicka på "*Delete*"
 - Välj "GUID* Partition Table"-schemat
@@ -4882,41 +4858,25 @@ För externa lagringsmedia (Hard-diskar, USB-minnen etc.) utförs krypteringen m
 - Välj ett starkt lösenord
 - Klicka på "*Delete*" och sedan på "*OK*" och krypteringen är klar
 
-
-
 När krypteringen är på plats kan den externa hårddisken endast monteras genom att ange detta lösenord. Systemet kommer sedan att dekryptera den i farten.
-
-
 
 #### Några rekommendationer för dina krypterade säkerhetskopior
 
-
-
 Innan du krypterar ett medium måste du säkerhetskopiera alla data som finns på det (om det inte är tomt, förstås), eftersom krypteringsproceduren i allmänhet raderar det ursprungliga innehållet.
-
-
 
 Valet av lösenord är också mycket viktigt: det måste vara långt, komplext och unikt, eftersom det är det enda skyddet mellan dina uppgifter och en illvillig tredje part. Du måste också göra en säkerhetskopia, t.ex. i en lösenordshanterare, eftersom det till skillnad från onlinetjänster inte finns någon återställningsmekanism. Om du glömmer ditt lösenord är uppgifterna förlorade för gott.
 
-
-
 ### Selektiv kryptering av filer
-
-
 
 I vissa fall är det varken nödvändigt eller praktiskt att kryptera en hel Hard-disk eller ett externt media. I sådana fall kan du välja selektiv kryptering, vilket innebär att du bara säkrar vissa filer eller kataloger som innehåller känsliga data.
 
-
-
 En av de mest välkända metoderna för att kryptera filer är att använda GPG. Detta verktyg bygger på asymmetrisk kryptografi: du har ett par nycklar, en offentlig, som du kan dela ut fritt till dina korrespondenter, och en privat, som måste hållas strikt hemlig. Filerna krypteras med mottagarens publika nyckel, men kan endast dekrypteras med dennes privata nyckel.
-
-
 
 Detta protokoll är perfekt för att utbyta känsliga filer på ett säkert sätt med andra, utan att dela med sig av ett lösenord. För personlig eller tillfällig användning möjliggör GPG även symmetrisk kryptering: filen skyddas då av ett unikt lösenord som bara du känner till.
 
-
-
 Ett utmärkt alternativ är Cryptomator. Med denna programvara med öppen källkod kan du skapa ett kassaskåp: en speciell katalog där alla filer som deponeras automatiskt krypteras. Detta kassaskåp kan synkroniseras med molntjänster som Dropbox, Google Drive eller Nextcloud utan att leverantören någonsin får tillgång till de okrypterade uppgifterna. Applikationen finns tillgänglig på alla operativsystem, inklusive Android och iOS, och kräver inga speciella tekniska färdigheter för att användas.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Ett utmärkt alternativ är Cryptomator. Med denna programvara med öppen källk
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Slutligen är det också möjligt att använda VeraCrypt i containerläge, vilket skapar en fil som fungerar som ett krypterat arkiv som kan monteras som en disk.
-
-
 
 Nu när du har lärt dig hur du skyddar dina personuppgifter mot förlust och stöld tar nästa kapitel upp en annan viktig aspekt: hur du förhindrar att dina personliga filer blir attackvektorer genom sina metadata.
 
-
-
-
 ## Rensning av metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Varje gång du skapar en digital fil, oavsett om det är ett foto, ett kontorsdokument, en ljud- eller videofil, innehåller den metadata i bakgrunden. Denna information är inte direkt synlig när du öppnar filen, men den finns där och kan innehålla extremt känslig Elements.
-
-
 
 ### Varför är metadata en risk?
 
-
-
 Metadata är data som bifogas en fil och som har till uppgift att ge kontextuell information om innehållet. I en bild kan det handla om datum och tid för när bilden togs, exakta GPS-koordinater, vilken modell av kamera eller smartphone som användes och ibland även tekniska inställningar. I ett textdokument kan det handla om författarens namn, företagets namn, användarens sessions-ID, tidsstämplar för skapande och ändring eller till och med interna kommentarer som lämnats under redigeringen.
-
-
 
 Dessa metadata kan verka harmlösa, men de kan användas av illasinnade aktörer för att identifiera författaren till en fil, fysiskt lokalisera en person, rekonstruera händelser eller vanor, eller till och med utnyttja programvarufel baserat på vilken version av programvaran som används.
 
-
-
 Låt oss ta ett konkret exempel: du lägger upp ett förment anonymt foto på ett forum. Om du inte har tagit bort EXIF-metadata kan ett enda klick avslöja de exakta GPS-koordinaterna för ditt hem, modellen på din telefon och det exakta datumet då fotot togs. På samma sätt kan ett PDF-dokument som skickas anonymt innehålla ditt fullständiga namn i egenskaperna.
-
-
 
 Det är därför som vissa mediepublicerings- och kommunikationsplattformar automatiskt tar bort metadata från dina foton. Dessa inkluderar X (Twitter), Instagram, Signal och Session. Å andra sidan tar andra plattformar inte bort metadata alls: detta är fallet med de flesta onlineforum, många e-postklienter eller till och med när du publicerar direkt på en webbplats.
 
-
-
 Det är en viktig reflex att anta: så snart en fil lämnar din privata sfär måste du tänka på att städa upp dess metadata för att undvika att avslöja personlig eller känslig information utan din vetskap. Låt oss ta en titt på hur du gör detta, beroende på ditt operativsystem.
-
-
 
 ### På Linux (Debian)
 
-
-
 #### Använda ExifTool
-
-
 
 Det mest kompletta och tillförlitliga sättet att hantera och radera metadata är ExifTool, som utvecklats av Phil Harvey. Det är kompatibelt med ett stort antal filformat (JPG, PNG, PDF, MP3, DOCX...) och gör det möjligt att både visa och ta bort metadata.
 
-
-
-
-
 - Steg 1: Installera ExifTool
 
-
-
 För att installera det på en Debian-distribution (Ubuntu) öppnar du en terminal och skriver kommandot:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Detta paket installerar `exiftool`, som du sedan kan använda direkt från kommandoraden.
 
@@ -5835,15 +5761,11 @@ Nackdelen är en betydande prestandaförsämring (hög latens) och begränsad ko
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) är resultatet av ett samarbete mellan Tor Foundation och Mullvad VPN. Den är baserad på Tor-webbläsaren, som i sin tur är hämtad från Firefox ESR. Mullvad Browser är utformad för att maximera användarnas integritet. Som standard innehåller den avancerat skydd mot fingeravtryck, spårare och skript från tredje part.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de flesta av de säkerhets- och sekretessfunktioner som Tor Browser erbjuder, med en skillnad: den omdirigerar inte trafik via Tor-nätverket. För att undvika IP Address-läckor kan du använda den i kombination med ett VPN (helst Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ Som standard aktiverar LibreWolf Firefox avancerade säkerhetsinställningar (t.
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen webbläsare
-
-
 
 [Zen Browser] (https://zen-browser.app/) är en gratis webbläsare med öppen källkod baserad på Firefox (Gecko-motor) som lanserades 2024. Dess mål är att erbjuda en modern, elegant, mycket anpassningsbar och framför allt integritetscentrerad surfupplevelse, utan beroende av Chromium.
 
-
-
 Zen utmärker sig för sin radikala inställning till Interface och användbarhet, till stor del inspirerad av Arc-webbläsaren, men ändå frigjord från den genom sin öppna källkod och Gecko-motor. Den innehåller :
-
-
-
 
 - En minimalistisk, modulär Interface med ett vertikalt sidofält för flikar, en delad vy och ett *workspace*-system för gruppering av flikar efter projekt;
 - Ett system med anpassningsbara Interface-mallar (*Zen Mods*) som kan användas för att på djupet ändra webbläsarens utseende;
 - En originalfunktion som heter *Glance*, som öppnar en länk i ett lättviktigt tillfälligt fönster och undviker röran av flikar...
 
-
-
 Zen stöder också Firefox-tillägg samt synkronisering via ett Mozilla-konto.
-
-
 
 Ur säkerhets- och integritetssynpunkt har Zen inbyggd blockering av spårare från tredje part. Webbläsaren samlar inte in några data själv och det går också att inaktivera Mozillas telemetri. Den avvisar också automatiskt föråldrade eller icke-kompatibla SSL-certifikat.
 
-
-
 Zen Browser är ett intressant alternativ om du letar efter en Gecko-surfmiljö som är gratis, innovativ, snygg och respekterar din integritet.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserade webbläsare
 
-
-
 #### Safari
-
-
 
 Den huvudsakliga webbläsaren som fortfarande använder WebKit-renderingsmotorn (inte en Fork som Blink) är Safari. [Safari](https://www.apple.com/safari/) är Apples exklusiva webbläsare för macOS. Den erbjuder utmärkt integration med Apples ekosystem, hög prestanda och innehåller nu starkare skydd mot spårning och fingeravtryck.
 
-
-
 Safari är dock fortfarande stängt, begränsat till macOS för desktopversionen och beroende av Apples ekosystem. Även om Apple har en stark integritetspolicy, med en affärsmodell som främst bygger på hårdvaruförsäljning snarare än reklam, är det fortfarande oklart om vissa interna metoder.
-
-
 
 Här fokuserar vi på webbläsare för datorer, men det är viktigt att notera att Apple kräver att alla webbläsare på iOS använder renderingsmotorn WebKit (en begränsning som dock snart kan komma att ändras till följd av vissa europeiska bestämmelser). Detta innebär att webbläsare som Chrome, Firefox eller Brave på iOS måste erbjuda en applikation baserad på WebKit och inte på deras vanliga renderingsmotor.
 
@@ -6720,7 +6623,7 @@ GrapheneOS integrerar inga proprietära komponenter. Det står dig fritt att lä
 Graphene är endast kompatibel med de senaste Google Pixels (Pixel 6, 7, 8 och 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ De här verktygen fungerar som en liten DNS-server i ditt nätverk och blockerar
 
 ### Säker fjärråtkomst via VPN
 
-
 I vissa fall är det bra att kunna komma åt ditt hemnätverk när du är på resande fot: Konsultera filer på en NAS, använda en Bitcoin och Lightning-nod, komma åt en egen server eller administrera ditt nätverk. Den här fjärranslutningen måste dock vara säker.
-
 
 Det första tipset är att aldrig direkt öppna en port på din router för att komma åt en enhet (t.ex. via RDP, SSH eller FTP), eftersom detta exponerar den tjänsten för hela Internet, vilket utgör en sårbarhet. Automatiserade attacker som riktar sig mot öppna portar är många.
 
-
 Den lösning jag rekommenderar är att använda ett VPN (*Virtual Private Network*), dvs. en krypterad tunnel mellan din fjärrenhet (dator, smartphone etc.) och ditt lokala nätverk. När du är ansluten till VPN kan du få åtkomst till ditt hems resurser som om du vore fysiskt där, och på ett säkert sätt.
 
-
 De två huvudsakliga lösningarna för privatkunder är:
-
-
 
 - WireGuard: Modern, snabb och lättviktig
 - OpenVPN: Äldre, men mycket utvecklad och konfigurerbar
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Här är en komplett handledning om Tailscale, en VPN-lösning som är enkel att konfigurera och som använder WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan hosta detta VPN direkt på en kompatibel router, på en liten dator (t.ex. en Raspberry Pi) eller på en dedikerad server hemma. Du kan också installera det som en klient direkt på vilken enhet som helst.
 
-
 Men ett VPN är inte bara för fjärråtkomst. Du kan också använda en klassisk VPN-klient på dina enheter för att kryptera all din utgående trafik, även när du är borta hemifrån (offentligt Wi-Fi, hotell, universitet etc.). I det här fallet ansluter din enhet till en VPN-server från tredje part (kommersiell eller självhostad), som sedan vidarebefordrar dina anslutningar till Internet. Detta döljer din riktiga IP Address från internetleverantören, skyddar dina data från lokalt spionage och undviker vissa former av censur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Slutligen är det också möjligt att konfigurera ett VPN direkt på din router, så att du kan skydda alla enheter i ditt hem utan att behöva installera en VPN-klient på var och en av dem.
 
-
 ### Övervakning och upptäckt
-
 
 När nätverket har konfigurerats och segmenterats på rätt sätt är det viktigt att gå längre än till passiv säkerhet. Aktiv övervakning av det lokala nätverket kan upptäcka onormalt beteende, obehöriga anslutningar eller tecken på intrång. Målet är att upptäcka problem tidigt, innan de orsakar skada.
 
-
 Det första steget är att centralisera säkerhetsloggar. Varje enhet som är ansluten till nätverket genererar loggar som innehåller information om anslutningar, fel eller misstänkt aktivitet. I stället för att konsultera dessa loggar individuellt rekommenderar jag att du skickar dem till en server som kan gruppera, sortera och analysera dem. Med lösningar som Graylog eller Elastic Stack (ELK) kan du samla dessa loggar i en grafisk Interface där du kan söka efter specifika händelser, skapa varningar eller visualisera nätverksaktivitet.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Utför sedan regelbundna aktiva skanningar av ditt lokala nätverk, till exempel med Nmap. Då får du en överblick över alla enheter i nätverket och vilka portar de har öppnat. Om du identifierar en okänd enhet eller en ovanlig tjänst kan det vara ett tecken på en attack.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Om du vill gå ännu längre kan du installera ett IDS (*Intrusion Detection System*) eller till och med ett IPS (*Intrusion Prevention System*). Dessa verktyg, t.ex. Suricata eller Snort, övervakar nätverksflöden i realtid och upptäcker signaturer för kända attacker (portskanningar, injektioner, misstänkta anslutningar etc.). IDS varnar, medan IPS automatiskt kan blockera vissa åtgärder.
 
-
-
 Slutligen är övervakning av bandbreddsförbrukningen också en bra indikator på onormal aktivitet. Om en enhet plötsligt förbrukar mycket data utan någon uppenbar anledning kan detta tyda på en obehörig nedladdning, en dataläcka eller till och med en komprometterad enhet. Med verktyg som ntopng eller vnStat kan du visa inkommande och utgående flöden per enhet.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup och motståndskraft
 
-
 Även med ett perfekt säkrat nätverk kan hårdvarufel, konfigurationsfel eller oförutsedda händelser (strömavbrott, överspänning, Hard diskfel etc.) orsaka dataförlust eller avbrott i dina tjänster. För att garantera kontinuiteten i din digitala miljö och undvika att börja om från början i händelse av ett problem är det viktigt att implementera en strategi för säkerhetskopiering och motståndskraft.
-
 
 Börja med att regelbundet säkerhetskopiera konfigurationen av din nätverksutrustning, särskilt routern. Dessa konfigurationsfiler kan ofta exporteras via administrationen Interface. Genom att spara en kopia kan du snabbt återställa ett fungerande system i händelse av en återställning eller ett byte av enhet. Jag rekommenderar också att du krypterar den här säkerhetskopian.
 
-
 Slutligen, för att förbättra ditt nätverks motståndskraft vid strömavbrott, investera i en UPS. Den här enheten ger reservkraft under några minuter vid strömavbrott, så att du kan fortsätta använda Internet eller se till att kritiska enheter (NAS, router, Wi-Fi-åtkomstpunkt etc.) stängs av på ett snyggt sätt. Vissa modeller kan även skicka ett automatiskt avstängningskommando till anslutna enheter när de upptäcker att batterinivån är låg.
-
 
 Genom att följa dessa få steg bygger du upp en robust och säker nätverksmiljö som respekterar din integritet.
 
-
 # Sista delen
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recensioner & betyg
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Slutlig examination
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Slutsats
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

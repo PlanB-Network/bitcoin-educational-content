@@ -1,0 +1,9 @@
+question: Bir N tamsayısına eş tamsayıların sayısını hesaplamak için hangi fonksiyon kullanılır?
+answer: Euler'in Phi fonksiyonu
+wrong_answers:
+  - Logaritmik fonksiyon
+  - Euler'in Gamma fonksiyonu
+  - Gauss fonksiyonu
+explanation: |
+  Euler'in Phi fonksiyonu (veya totient fonksiyonu), özellikle asal olmayan tamsayılar için bir N tamsayısının eş asal sayısını hesaplamak için kullanılır.
+reviewed: false

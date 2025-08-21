@@ -100,7 +100,7 @@ Model ini sangat berbeda dengan sistem perbankan tradisional, yang mengandalkan 
 
 Bitcoin bekerja dengan cara yang berbeda. Konsep akun tidak ada, dan unit moneter tidak dikelola melalui saldo, tetapi melalui UTXO. UTXO mewakili jumlah bitcoin tertentu yang belum dibelanjakan, sehingga membentuk "sepotong bitcoin", yang bisa berukuran besar atau kecil. Sebagai contoh, satu UTXO dapat bernilai `500 BTC` atau hanya `700 SATS`.
 
-**> Satoshi, sering disingkat menjadi sat, adalah unit terkecil Bitcoin, sebanding dengan centime dalam mata uang fiat.
+**Mengingatkan:** Satoshi, sering disingkat menjadi sat, adalah unit terkecil Bitcoin, sebanding dengan centime dalam mata uang fiat.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin bekerja dengan cara yang berbeda. Konsep akun tidak ada, dan unit monete
 
 Secara teoritis, satu UTXO dapat mewakili nilai berapa pun dalam bitcoin, mulai dari nilai terendah hingga nilai maksimum teoritis sekitar 21 juta BTC. Namun, secara logika tidak mungkin untuk memiliki semua 21 juta bitcoin, dan ada ambang batas ekonomi yang lebih rendah yang disebut "debu", di bawahnya UTXO dianggap tidak menguntungkan secara ekonomi untuk dibelanjakan.
 
-**> UTXO terbesar yang pernah dibuat di Bitcoin memiliki nilai `500.000 BTC`. Ini dibuat oleh platform MtGox selama operasi konsolidasi pada bulan November 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Tahukah Anda?** UTXO terbesar yang pernah dibuat di Bitcoin memiliki nilai `500.000 BTC`. Ini dibuat oleh platform MtGox selama operasi konsolidasi pada bulan November 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO dan ketentuan pembelanjaan
 
@@ -148,7 +148,7 @@ Oleh karena itu, setiap transaksi Bitcoin terdiri dari satu atau lebih input dan
 
 ![BTC204](assets/fr/011.webp)
 
-**> Secara teoritis, sebuah transaksi bitcoin dapat memiliki jumlah input dan output yang tidak terbatas. Satu-satunya batasan adalah ukuran blok maksimum.
+**Tahukah Anda?** Secara teoritis, sebuah transaksi bitcoin dapat memiliki jumlah input dan output yang tidak terbatas. Satu-satunya batasan adalah ukuran blok maksimum.
 
 Setiap input dalam transaksi Bitcoin mengacu pada UTXO yang belum dibelanjakan sebelumnya. Untuk menggunakan UTXO sebagai input, pemegangnya harus menunjukkan bahwa ia adalah pemilik yang sah dengan memvalidasi skrip yang terkait, yaitu dengan memenuhi syarat pembelanjaan yang diberlakukan. Secara umum, ini berarti memberikan tanda tangan digital yang dihasilkan dengan kunci pribadi yang sesuai dengan kunci publik yang pada awalnya mengamankan UTXO ini. Oleh karena itu, skrip ini terdiri dari verifikasi bahwa tanda tangan tersebut sesuai dengan kunci publik yang digunakan ketika dana diterima.
 
@@ -211,7 +211,7 @@ Bitcoin yang disubsidi blok adalah BTC baru yang dibuat dari awal, sesuai dengan
 
 Sedangkan untuk biaya transaksi, meskipun biaya ini juga mewakili BTC yang baru dibuat, biaya ini tidak boleh melebihi selisih antara total input dan output semua transaksi dalam satu blok. Kita telah melihat sebelumnya bahwa biaya ini mewakili porsi input yang tidak digunakan dalam output transaksi. Bagian ini secara teknis "hilang" selama transaksi, dan penambang memiliki hak untuk membuat ulang nilai ini dalam bentuk satu atau lebih UTXO baru. Ini adalah transfer nilai antara penerbit transaksi dan penambang yang menambahkannya ke blockchain.
 
-**> Bitcoin yang dihasilkan oleh transaksi coinbase tunduk pada periode jatuh tempo 100 blok, di mana mereka tidak dapat dibelanjakan oleh penambang. Aturan ini dirancang untuk menghindari komplikasi yang terkait dengan penggunaan bitcoin yang baru dibuat pada sebuah rantai yang nantinya dapat menjadi usang.
+**Tahukah Anda?** Bitcoin yang dihasilkan oleh transaksi coinbase tunduk pada periode jatuh tempo 100 blok, di mana mereka tidak dapat dibelanjakan oleh penambang. Aturan ini dirancang untuk menghindari komplikasi yang terkait dengan penggunaan bitcoin yang baru dibuat pada sebuah rantai yang nantinya dapat menjadi usang.
 
 ### Implikasi dari model UTXO
 
@@ -235,10 +235,8 @@ Itulah mengapa kami menggunakan uang untuk memindahkan nilai dalam ruang dan wak
 ![BTC204](assets/fr/018.webp)
 
 Agar mata uang kripto dapat mengatasi masalah ini, sangat penting bahwa pihak yang menyediakan barang atau jasa yakin akan kemampuannya untuk membelanjakan uang tersebut di kemudian hari. Dengan demikian, setiap individu yang rasional yang ingin menerima koin, baik digital maupun fisik, akan memastikan bahwa koin tersebut memenuhi dua kriteria mendasar:
-
-
-- Karya tersebut harus memiliki integritas dan keaslian; **)
-- dan tidak boleh digunakan dua kali.**
+- **Karya tersebut harus memiliki integritas dan keaslian;**
+- **dan tidak boleh digunakan dua kali.**
 
 Jika Anda menggunakan mata uang fisik, ini adalah karakteristik pertama yang paling rumit untuk ditegaskan. Pada periode yang berbeda dalam sejarah, integritas koin logam sering kali dipengaruhi oleh praktik-praktik seperti pemangkasan atau penindikan. Di Romawi kuno, misalnya, adalah praktik umum bagi warga untuk mengikis tepi koin emas untuk mengumpulkan sedikit logam mulia, sambil menyimpannya untuk transaksi di masa depan. Dengan demikian, nilai intrinsik koin berkurang, tetapi nilai nominalnya tetap sama. Ini adalah salah satu alasan mengapa tepi koin kemudian bergalur.
 
@@ -303,11 +301,9 @@ Analisis blockchain adalah praktik melacak aliran bitcoin di blockchain. Secara 
 
 Dalam istilah awam, ada tiga tahap utama dalam analisis rantai:
 
-1. **Mengamati blockchain; ** Mengamati blockchain
-
-2. **Identifikasi fitur yang diketahui; ** Identifikasi fitur yang diketahui
-
-3. **Pengurangan asumsi ** Pengurangan asumsi
+1. **Mengamati blockchain;**
+2. **Identifikasi fitur yang diketahui;**
+3. **Pengurangan asumsi**
 
 ![BTC204](assets/fr/026.webp)
 

@@ -1,0 +1,11 @@
+question: AMF nedir?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Amerikan Para Fonu.
+  - Mining Tesisleri Birliği.
+  - Otomatik Para Akışı.
+explanation: |
+  AMF veya Autorité des Marchés Financiers, bir Fransız
+  bitcoinlerin satılabileceği platformları düzenleyen kuruluş
+  aldım.
+reviewed: true

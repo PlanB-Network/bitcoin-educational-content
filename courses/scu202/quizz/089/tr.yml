@@ -1,0 +1,9 @@
+question: Hangi haritalama hizmeti tamamen çevrimdışı kullanıma izin verir ve reklam takibi içermez?
+answer: Organik Haritalar
+wrong_answers:
+  - Google Haritalar
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps, OpenStreetMap tabanlı, tescilli alternatiflerin aksine izleyici veya veri toplama olmadan çevrimdışı çalışan açık kaynaklı bir uygulamadır.
+reviewed: false

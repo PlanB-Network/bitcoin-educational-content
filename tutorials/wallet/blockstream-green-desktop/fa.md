@@ -26,9 +26,9 @@ Blockstream Green یک نرم‌افزار کاربردی است که در مو�
 در این آموزش، ما به طور انحصاری بر استفاده از نرم‌افزار روی کامپیوتر تمرکز خواهیم کرد. برای بررسی سایر کاربردهای Green، لطفاً به آموزش‌های اختصاصی دیگر ما مراجعه کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## نصب و پیکربندی نرم‌افزار Blockstream Green
 
@@ -216,4 +216,5 @@ Hardware Wallet خود را به کامپیوتر وصل کرده و Green را 
 همچنین توصیه می‌کنم این آموزش جامع دیگر در مورد اپلیکیشن موبایل Blockstream Green برای راه‌اندازی Hot Wallet را بررسی کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

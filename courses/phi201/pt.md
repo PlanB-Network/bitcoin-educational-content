@@ -1438,9 +1438,6 @@ Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior est
 
 
 
-## Avaliações & Notas
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-<isCourseReview>true</isCourseReview>
 
 ## Conclusão: o poder das ideias
 

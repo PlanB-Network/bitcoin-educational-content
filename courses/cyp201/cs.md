@@ -1760,7 +1760,7 @@ Popisovač také zahrnuje rozšířený veřejný klíč použitý v této peně
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Dále, notace `/<0;1>/*` specifikuje, že popisovač může generovat adresy z externího řetězce (`0`) a interního řetězce (`1`), s použitím zástupného symbolu (`*`), což umožňuje sekvenční derivaci více adres v konfigurovatelný způsob, podobně jako správa "mezery limitu" v tradičním softwaru peněženky.
+Zápis `/<0;1>/*` označuje, že deskriptor může generovat adresy jak z externího řetězce (`0`), tak z interního řetězce (`1`). Zástupný znak (`*`) na konci cesty znamená, že lze sekvenčně odvodit všechny nezpevněné („*unhardened*“) podřízené klíče z této pozice, ať už jde o externí nebo interní adresy. Tato syntaxe přímo neimplikuje pojem *gap limit*, který souvisí s konkrétním mechanismem peněženek pro detekci adres, ale slouží zde pouze k označení, že jsou zohledněny všechny možné derivace na tomto místě.
 Nakonec, `#jy0l7nr4` představuje kontrolní součet pro ověření integrity popisovače.
 Nyní víte vše o fungování HD peněženky na Bitcoinu a procesu derivace klíčových párů. Nicméně, v posledních kapitolách jsme se omezili na generování soukromých a veřejných klíčů, aniž bychom se zabývali konstrukcí přijímacích adres. To bude přesně předmětem následující kapitoly!
 

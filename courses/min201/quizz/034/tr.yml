@@ -1,0 +1,13 @@
+question: Bitcoin topluluğunun ağ yönetimi açısından hedefi nedir?
+answer: Dağıtımı, sansüre karşı direnci ve ağın kırılganlık karşıtı özelliğini güçlendirmek.
+wrong_answers:
+  - Bitcoin'in fiyatını artırmak için.
+  - İşlemleri daha hızlı yapmak için.
+  - Mining zorluğunu artırmak için.
+explanation: |
+  Bitcoin topluluğu sürekli olarak aşağıdakileri güçlendirmek için çabalamaktadır
+  dağıtım, sansüre karşı direniş ve kırılganlık karşıtı
+  ağın. Bu, Bitcoin'ün temel ilkeleri ile uyumludur
+  sansüre dirençli bir değer olma misyonu Exchange
+  ağ.
+reviewed: true

@@ -972,11 +972,9 @@ Keluarga Arch Linux dibedakan oleh filosofi yang secara radikal berlawanan denga
 
 Pendekatan ini didasarkan pada model *rolling release*, di mana paket-paket diperbarui secara terus menerus, tanpa perlu menginstal ulang sistem pada setiap rilis utama. Manajer paket Pacman cepat dan ringan, membuatnya mudah untuk menginstal dan memperbarui perangkat lunak, dan AUR (*Arch User Repository*), sebuah repositori komunitas, menyediakan akses ke berbagai macam paket tidak resmi dan paket pengembangan.
 
-
-
 Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, sambil menerima kerumitan tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah menyebabkan munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Yang paling terkenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang telah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
 
@@ -1064,7 +1062,7 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, y
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, kehadiran codec multimedia secara default dan alat pembaruan yang dirancang dengan baik. Di sisi lain, Mint sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak membutuhkan banyak pembelajaran.
 
@@ -1108,9 +1106,9 @@ Pemasangannya lancar, perangkat lunak penting sudah terinstal sebelumnya, dan ve
 
 - oS dasar**:
 
-
-
 Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, minimalis, elegan, dan lancar. Namun, sistem ini masih kurang dapat dikustomisasi dibandingkan distribusi lainnya, dan beberapa pengguna tingkat lanjut mungkin merasa dibatasi oleh pilihan Interface dan strukturnya yang sengaja dikunci. Distribusi ini sangat cocok untuk pengguna yang sensitif secara estetika yang mencari sistem yang sederhana dan koheren untuk penggunaan sehari-hari.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux adalah distribusi minimalis yang dapat diperbarui secara terus-meneru
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribusi khusus
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini mencakup ratusan alat pentest. Distribusi ini tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
 
@@ -1252,7 +1246,7 @@ Tails adalah distribusi langsung berbasis Debian yang berfokus pada privasi. Sem
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan:** Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari stik USB atau CD, tanpa instalasi pada disk Hard.
 
@@ -1306,9 +1300,9 @@ PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, benar-ben
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini didasarkan pada Debian, dengan paket-paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek pendidikan, pengujian elektronik, atau server pribadi kecil.
 
@@ -1332,36 +1326,23 @@ Whonix menggabungkan Debian dengan jaringan Tor dalam arsitektur dua-VM (gateway
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Panorama ini memberikan gambaran umum tentang ekosistem distribusi Linux saat ini, sehingga Anda dapat memilih distribusi yang paling sesuai dengan profil teknis dan tujuan Anda.
-
-
 
 Pada bab berikutnya dari SCU202, kita akan melihat lebih dekat pada lingkungan Linux yang praktis, dimulai dengan lingkungan grafis yang menjadi dasar interaksi Anda sehari-hari dengan sistem.
 
-
-
 ## Lingkungan desktop Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Dalam sistem GNU/Linux, lingkungan desktop memainkan salah satu peran terpenting dalam pengalaman pengguna Anda. Ini adalah Layer grafis yang memungkinkan interaksi dengan sistem, berdasarkan representasi visual yang sudah dikenal: jendela, menu, ikon, panel, dan aplikasi yang sudah terinstal.
-
-
 
 Pada bab ini, saya akan menjelajahi struktur dan peran lingkungan desktop, komponen-komponennya yang khas, keluarga utama yang tersedia, kriteria pemilihan, dan integrasinya ke dalam distribusi Linux yang paling populer.
 
-
-
 ### Apa yang dimaksud dengan lingkungan kantor?
 
-
-
 Lingkungan desktop (atau "*DE*" untuk *Desktop Environment*) mengacu pada sekumpulan program yang membentuk Interface grafis lengkap dari sebuah sistem operasi. Pada Windows dan macOS, satu lingkungan desktop ditawarkan secara default, terintegrasi ke dalam sistem, tanpa kemungkinan untuk memodifikasinya secara keseluruhan (hanya shell tertentu yang dapat memodifikasi sebagian Interface). Sistem Linux, di sisi lain, jauh lebih modular, memperlakukan lingkungan desktop sebagai komponen independen yang dapat diganti secara bebas.
-
-
 
 Di Linux, penting untuk membedakan dengan jelas antara semua lapisan: kernel (yang mengelola interaksi dengan perangkat keras), server tampilan (yang bertindak sebagai perantara antara aplikasi, driver grafis, dan perangkat keras melalui kernel), dan akhirnya lingkungan desktop itu sendiri, yang mengandalkan infrastruktur ini untuk memberikan Interface grafis yang koheren kepada pengguna. Perbedaan ini terkadang kurang jelas, karena banyak distribusi Linux yang dilengkapi dengan lingkungan desktop yang sudah terinstal yang terkadang menyertakan komposer Wayland-nya sendiri, yang kemudian bertindak sebagai server tampilan.
 
@@ -4869,12 +4850,7 @@ Pada macOS, enkripsi disk sistem didasarkan pada *FileVault*, fitur asli yang da
 
 Setelah FileVault diaktifkan, Anda harus memilih metode pemulihan jika terjadi kehilangan kata sandi: gunakan akun *iCloud* Anda, atau generate, sebuah kunci cadangan yang unik. Kunci ini harus disimpan di tempat yang aman, karena jika hilang, data Anda tidak dapat diakses secara permanen.
 
-
-
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
-
-
-
 
 - Pilih perangkat, klik "*Hapus*"
 - Pilih skema "Tabel Partisi GUID*"
@@ -4882,41 +4858,25 @@ Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakuka
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
 
-
-
 Setelah enkripsi dilakukan, drive eksternal hanya dapat dipasang dengan memasukkan kata sandi ini. Sistem kemudian akan mendekripsi dengan cepat.
-
-
 
 #### Beberapa rekomendasi untuk cadangan terenkripsi Anda
 
-
-
 Sebelum mengenkripsi sebuah media, Anda perlu mencadangkan semua data yang ada di dalamnya (kecuali jika media itu kosong, tentu saja), karena prosedur enkripsi umumnya menghapus konten awal.
-
-
 
 Pemilihan kata sandi juga sangat penting: kata sandi harus panjang, rumit, dan unik, karena ini adalah satu-satunya perlindungan antara data Anda dan pihak ketiga yang jahat. Anda juga perlu membuat cadangan, misalnya di pengelola kata sandi, karena tidak seperti layanan online, tidak ada mekanisme pemulihan. Jika Anda lupa kata sandi Anda, data akan hilang untuk selamanya.
 
-
-
 ### Enkripsi file selektif
-
-
 
 Dalam beberapa kasus, tidak perlu atau tidak praktis untuk mengenkripsi seluruh disk Hard atau media eksternal. Dalam kasus seperti itu, Anda dapat memilih enkripsi selektif, yang hanya mengamankan file atau direktori tertentu yang berisi data sensitif.
 
-
-
 Salah satu metode yang paling terkenal untuk mengenkripsi file adalah dengan menggunakan GPG. Alat ini didasarkan pada kriptografi asimetris: Anda memiliki sepasang kunci, satu kunci publik, yang dapat Anda distribusikan secara bebas kepada koresponden Anda, dan kunci pribadi, yang harus tetap dirahasiakan. File dienkripsi menggunakan kunci publik penerima, tetapi hanya dapat didekripsi menggunakan kunci pribadinya.
-
-
 
 Protokol ini sangat cocok untuk bertukar file sensitif secara aman dengan orang lain, tanpa berbagi kata sandi. Untuk penggunaan pribadi atau sesekali, GPG juga memungkinkan enkripsi simetris: file kemudian dilindungi oleh kata sandi unik yang hanya diketahui oleh Anda.
 
-
-
 Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka ini memungkinkan Anda untuk membuat brankas: direktori khusus tempat semua file yang disimpan secara otomatis dienkripsi. Brankas ini bisa disinkronkan dengan layanan awan seperti Dropbox, Google Drive atau Nextcloud tanpa penyedia layanan memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka i
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Terakhir, Anda juga dapat menggunakan VeraCrypt dalam mode kontainer, yang membuat file yang bertindak sebagai arsip terenkripsi, yang dapat dipasang seperti sebuah disk.
-
-
 
 Setelah Anda mempelajari cara melindungi data pribadi Anda dari kehilangan dan pencurian, bab berikutnya akan membahas aspek penting lainnya: cara mencegah file pribadi Anda menjadi vektor serangan melalui metadatanya.
 
-
-
-
 ## Pembersihan metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Setiap kali Anda membuat file digital, baik itu foto, dokumen kantor, file audio atau video, file tersebut berisi metadata di latar belakang. Informasi ini tidak terlihat secara langsung ketika Anda membuka file, tetapi ada di sana, dan dapat berisi Elements yang sangat sensitif.
-
-
 
 ### Mengapa metadata merupakan risiko?
 
-
-
 Metadata adalah data yang dilampirkan pada file, yang perannya adalah memberikan informasi kontekstual tentang konten. Pada sebuah gambar, hal ini dapat mencakup tanggal dan waktu pengambilan gambar, koordinat GPS yang tepat, model kamera atau ponsel cerdas yang digunakan, dan terkadang bahkan pengaturan teknis. Dalam dokumen teks, informasi ini dapat mencakup nama penulis, nama perusahaan, ID sesi pengguna, stempel waktu pembuatan dan modifikasi, atau bahkan komentar internal yang ditinggalkan selama pengeditan.
-
-
 
 Metadata ini mungkin terlihat tidak berbahaya, tetapi dapat digunakan oleh pelaku kejahatan untuk mengidentifikasi penulis file, menemukan seseorang secara fisik, merekonstruksi peristiwa atau kebiasaan, atau bahkan mengeksploitasi kelemahan perangkat lunak berdasarkan versi perangkat lunak yang digunakan.
 
-
-
 Mari kita ambil contoh konkret: Anda memposting foto yang seharusnya anonim di sebuah forum. Jika Anda belum menghapus metadata EXIF, satu klik saja bisa mengungkap koordinat GPS yang tepat dari rumah Anda, model ponsel Anda, dan tanggal pengambilan foto tersebut. Demikian pula, dokumen PDF yang dikirim secara anonim dapat berisi nama lengkap Anda di propertinya.
-
-
 
 Itulah mengapa beberapa platform penerbitan media dan komunikasi secara otomatis menghapus metadata dari foto Anda. Ini termasuk X (Twitter), Instagram, Signal dan Session. Di sisi lain, platform lain tidak menghapus metadata sama sekali: ini terjadi pada sebagian besar forum online, banyak klien email, atau bahkan ketika Anda mempublikasikan secara langsung di situs web.
 
-
-
 Ini adalah refleks yang penting untuk diterapkan: segera setelah sebuah file meninggalkan ruang pribadi Anda, Anda perlu memikirkan untuk membersihkan metadatanya untuk menghindari pengungkapan informasi pribadi atau informasi sensitif tanpa sepengetahuan Anda. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem operasi Anda.
-
-
 
 ### Di Linux (Debian)
 
-
-
 #### Menggunakan ExifTool
-
-
 
 Cara yang paling lengkap dan dapat diandalkan untuk mengelola dan menghapus metadata adalah ExifTool, yang dikembangkan oleh Phil Harvey. Alat ini kompatibel dengan sejumlah besar format file (JPG, PNG, PDF, MP3, DOCX...) dan memungkinkan tampilan dan penghapusan metadata.
 
-
-
-
-
 - Langkah 1: Instal ExifTool
 
-
-
 Untuk menginstalnya pada distribusi Debian (Ubuntu), buka terminal dan ketik perintah:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsung dari baris perintah.
 
@@ -5835,15 +5761,11 @@ Kelemahannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompa
 
 #### Browser Mullvad
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. Peramban ini didasarkan pada peramban Tor, yang merupakan turunan dari Firefox ESR. Peramban Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 VPN ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: VPN ini tidak mengalihkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran IP Address, Anda bisa menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ Secara default, LibreWolf mengaktifkan pengaturan keamanan tingkat lanjut Firefo
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Browser Zen
-
-
 
 [Zen Browser] (https://zen-browser.app/) adalah peramban sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
 
-
-
 Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh peramban Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
-
-
-
 
 - Interface modular yang minimalis, dengan bilah sisi vertikal untuk tab, tampilan terpisah, dan sistem *ruang kerja* untuk mengelompokkan kumpulan tab berdasarkan proyek;
 - Sistem templat Interface yang dapat disesuaikan (*Zen Mods*) yang dapat digunakan untuk memodifikasi tampilan browser secara mendalam;
 - Fungsi orisinal yang disebut *Glance*, yang membuka tautan di jendela sementara yang ringan, menghindari kekacauan tab...
 
-
-
 Zen juga mendukung ekstensi Firefox, serta sinkronisasi melalui akun Mozilla.
-
-
 
 Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. Peramban ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. Peramban ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
 
-
-
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Browser berbasis WebKit
 
-
-
 #### Safari
-
-
 
 Peramban utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah peramban eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
 
-
-
 Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktopnya, dan bergantung pada ekosistem Apple. Meskipun Apple memiliki kebijakan privasi yang kuat, dengan model bisnisnya yang terutama didasarkan pada penjualan perangkat keras dan bukannya iklan, namun masih belum jelas tentang praktik internal tertentu.
-
-
 
 Di sini, kami berfokus pada peramban desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua peramban untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
 
@@ -6720,7 +6623,7 @@ GrapheneOS tidak mengintegrasikan komponen berpemilik. Anda bebas untuk menambah
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblok
 
 ### Akses jarak jauh yang aman melalui VPN
 
-
 Dalam beberapa kasus, akan sangat berguna untuk dapat mengakses jaringan rumah Anda ketika Anda sedang bepergian: Melihat file di NAS, menggunakan Bitcoin dan Lightning node, mengakses server yang dihosting sendiri, atau mengelola jaringan Anda. Namun, koneksi jarak jauh ini harus aman.
-
 
 Tips pertama adalah jangan pernah secara langsung membuka port pada router Anda untuk mengakses sebuah perangkat (misalnya melalui RDP, SSH atau FTP), karena hal ini akan mengekspos layanan tersebut ke seluruh Internet, yang merupakan sebuah kerentanan. Serangan otomatis yang menargetkan port yang terbuka sangat banyak.
 
-
 Solusi yang saya rekomendasikan adalah menggunakan VPN (*Virtual Private Network*), yaitu terowongan terenkripsi antara perangkat jarak jauh Anda (komputer, ponsel cerdas, dll.) dan jaringan lokal Anda. Setelah terhubung ke VPN, Anda dapat mengakses sumber daya rumah Anda seolah-olah Anda berada di sana secara fisik, dan dengan cara yang aman.
 
-
 Dua solusi utama untuk pelanggan pribadi adalah:
-
-
 
 - WireGuard: Modern, cepat dan ringan
 - OpenVPN: Lebih tua, tetapi sangat matang dan dapat dikonfigurasi
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigurasi yang menggunakan WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Anda bisa meng-host VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga bisa menginstalnya sebagai klien secara langsung pada perangkat apa pun.
 
-
 Tetapi VPN tidak hanya untuk akses jarak jauh. Anda juga bisa menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan ketika Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam hal ini, perangkat Anda tersambung ke server VPN pihak ketiga (komersial atau host sendiri), yang kemudian merelay koneksi Anda ke Internet. Hal ini menyembunyikan IP asli Anda Address dari ISP, melindungi data Anda dari mata-mata lokal dan menghindari bentuk-bentuk penyensoran tertentu.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Terakhir, Anda juga bisa menyiapkan VPN secara langsung pada router Anda, sehingga Anda bisa memproteksi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada masing-masing perangkat.
 
-
 ### Pemantauan dan deteksi
-
 
 Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk melampaui keamanan pasif. Pemantauan aktif jaringan lokal Anda dapat mendeteksi perilaku abnormal, koneksi tidak sah, atau tanda-tanda penyusupan. Tujuannya adalah untuk menemukan masalah lebih awal, sebelum menyebabkan kerusakan.
 
-
 Langkah pertama adalah memusatkan log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas yang mencurigakan. Daripada melihat log ini satu per satu, saya sarankan untuk mengirimkannya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa tertentu, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Selanjutnya, lakukan pemindaian aktif secara teratur pada jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah dibuka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda adanya serangan.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Untuk melangkah lebih jauh lagi, Anda bisa memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Alat-alat ini, seperti Suricata atau Snort, memonitor aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (pemindaian port, injeksi, koneksi yang mencurigakan, dll.). IDS memberi peringatan, sedangkan IPS dapat secara otomatis memblokir tindakan tertentu.
 
-
-
 Terakhir, memantau konsumsi bandwidth juga merupakan indikator yang baik untuk mengetahui aktivitas yang tidak normal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini bisa menjadi petunjuk adanya pengunduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Alat-alat seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Pencadangan dan ketahanan
 
-
 Bahkan dengan jaringan yang sangat aman, kegagalan perangkat keras, kesalahan konfigurasi, atau kejadian tak terduga (kegagalan daya, lonjakan daya, kegagalan disk Hard, dll.) dapat menyebabkan hilangnya data atau mengganggu layanan Anda. Untuk menjamin kelangsungan lingkungan digital Anda dan menghindari memulai dari awal jika terjadi masalah, penting untuk menerapkan strategi pencadangan dan ketahanan.
-
 
 Mulailah dengan mencadangkan konfigurasi peralatan jaringan Anda secara teratur, terutama router. File konfigurasi ini sering kali dapat diekspor melalui administrasi Interface. Menyimpan salinannya memungkinkan Anda untuk dengan cepat memulihkan sistem fungsional jika terjadi pengaturan ulang atau penggantian perangkat. Saya juga menyarankan untuk mengenkripsi cadangan ini.
 
-
 Terakhir, untuk meningkatkan ketahanan jaringan Anda jika terjadi kegagalan daya, berinvestasilah pada UPS. Perangkat ini menyediakan daya cadangan selama beberapa menit jika terjadi kegagalan daya, sehingga Anda dapat terus menggunakan Internet atau memastikan bahwa perangkat penting (NAS, router, titik akses Wi-Fi, dll.) mati dengan bersih. Beberapa model juga dapat mengirimkan perintah pematian otomatis ke perangkat yang tersambung apabila mendeteksi baterai hampir habis.
-
 
 Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan jaringan yang kuat dan aman yang menghormati privasi Anda.
 
-
 # Bagian akhir
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Ulasan & Peringkat
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Ujian akhir
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

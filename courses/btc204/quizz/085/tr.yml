@@ -1,0 +1,10 @@
+question: JoinMarket tarafından kullanılan özel kullanıcı eşleştirme modeli nedir?
+answer: Yapıcılar ve alıcılar arasında P2P piyasası.
+wrong_answers:
+  - Katılımcıları rastgele atayan sunucu.
+  - Hollanda açık artırmalarına dayalı borsalar.
+  - Katılımcıları manuel olarak seçen arabuluculuk hizmeti.
+explanation: |
+  JoinMarket, bazı kullanıcıların, yani üreticilerin, bitcoinlerini karıştırmak için sunduğu bir P2P Exchange piyasasında faaliyet gösterirken, diğerleri, yani alıcılar, bu fonları bir ücret karşılığında Exchange'de coinjoins gerçekleştirmek için kullanır.
+  
+reviewed: false

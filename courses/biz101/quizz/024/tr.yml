@@ -1,0 +1,9 @@
+question: Bitcoin satın alırken, fiyat oynaklığıyla başa çıkmak için önerilen yaklaşım nedir?
+answer: Bitcoin'i düzenli aralıklarla kademeli olarak biriktirin ve uzun vadeli bir bakış açısını koruyun.
+wrong_answers:
+  - Kısa vadeli piyasa zirvelerini tahmin etmeye çalışın ve hemen satış yapın.
+  - Şirketin tüm hazinesini tek seferde kullanın.
+  - Bitcoin'yi yalnızca fiyatının aniden yükseldiği günlerde satın alın.
+explanation: |
+  Zaman içinde düzenli alımlar (dolar maliyeti ortalaması) oynaklığı yumuşatmaya yardımcı olur. Daha uzun vadeli bir ufuk (örneğin 4 yıl) kısa vadeli fiyat dalgalanmalarının etkisini azaltır.
+reviewed: false

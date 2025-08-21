@@ -727,9 +727,9 @@ The Arch Linux family is distinguished by a philosophy radically opposed to that
 
 This approach is based on a *rolling release* model, where packages are updated continuously, without the need to reinstall the system with each major release. The Pacman package manager is fast and lightweight, making it easy to install and update software, and the AUR (*Arch User Repository*), a community repository, provides access to a vast array of unofficial and development packages.
 
-
 Arch Linux is aimed above all at advanced users who want total control over their environment, while accepting a certain complexity in installation and maintenance. This technical requirement has led to the emergence of several derivative distributions aimed at democratizing its use.
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 The best-known is Manjaro, which retains Arch's technical base while offering simplified installation, preconfigured desktop environments and a slightly delayed release cycle to stabilize updates.
 
@@ -795,7 +795,7 @@ Developed by Canonical and launched in 2004, Ubuntu is one of the world's most p
 ![Image](assets/fr/020.webp)
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Linux Mint**:
@@ -804,7 +804,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 Launched in 2006, Linux Mint is a distribution derived from Ubuntu, designed to offer a more intuitive alternative, closer to the ergonomics of Windows. It offers several desktop environments, including Cinnamon, a Fork of GNOME designed specifically by the Mint team, which provides a clear, classic and immediately familiar interface.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint stands out for its simplicity, the presence by default of multimedia codecs and a well-designed update tool. On the other hand, it relies heavily on Ubuntu's infrastructure, making it dependent on Ubuntu's technical choices (particularly at kernel and repository level). Mint is particularly well-suited to non-technical users, or those who want a ready-to-use system that doesn't require too much learning.
 
@@ -828,8 +828,9 @@ Installation is smooth, essential software is pre-installed, and the "Lite" vers
 
 - **elementary OS**:
 
-
 Launched in 2011, elementary OS is an Ubuntu-based distribution that focuses above all on the design and consistency of Interface. Its Pantheon desktop environment, inspired by macOS, is minimalist, elegant and fluid. However, the system remains less customizable than other distributions, and some advanced users may feel limited by Interface's choices and its deliberately locked-down structure. It is well suited to aesthetically sensitive users looking for a simple, coherent system for everyday use.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 ![Image](assets/fr/023.webp)
@@ -901,12 +902,11 @@ Arch Linux is a minimalist, continuously updatable distribution, delivered witho
 ![Image](assets/fr/029.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specialized distribution
 
-
-
 - **Kali Linux**:
-
 
 Kali Linux is a Debian-based distribution designed for penetration testing and security auditing. It includes hundreds of pentest tools. This distribution is not really suitable as a main system for everyday use.
 
@@ -931,7 +931,7 @@ Parrot OS is also derived from Debian. It offers an environment for pentesting, 
 Tails is a Debian-based, privacy-focused live distribution. Everything passes through the Tor network, and nothing is stored between user sessions. It's an ideal distribution for sensitive one-off uses (journalism, activism, seed Bitcoin generation...).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Note:** A live distribution is a Linux operating system that can be used directly from a USB stick or CD, without installation on the hard disk.
 
@@ -970,8 +970,9 @@ PureOS is a Debian-derived distribution developed by Purism, totally free (FSF a
 
 
 
-- **Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (formerly Raspbian) is a distribution optimized for Raspberry Pi microcomputers. It is based on Debian, with packages recompiled for the ARM architecture. It can be used for educational projects, electronic testing or small personal servers.
 
@@ -989,28 +990,23 @@ Whonix combines Debian with the Tor network in a two-VM architecture (gateway + 
 ![Image](assets/fr/037.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 This panorama gives you an overview of the current Linux distribution ecosystem, enabling you to select the distribution best suited to your technical profile and objectives.
 
-
 In the next chapter of SCU202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
-
 
 ## Linux desktop environments
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
 In a GNU/Linux system, the desktop environment plays one of the most important roles in your user experience. It is the graphical layer that enables interaction with the system, based on familiar visual representations: windows, menus, icons, panels and pre-installed applications.
-
 
 In this chapter, I'll be exploring the structure and role of a desktop environment, its typical components, the main families available, selection criteria and their integration into the most popular Linux distributions.
 
-
 ### What's an office environment?
 
-
 A desktop environment (or "*DE*" for *Desktop Environment*) refers to the set of programs that make up the complete graphical interface of an operating system. On Windows and macOS, a single desktop environment is offered by default, integrated into the system, with no possibility of modifying it entirely (only certain shells exist to partially modify the interface). Linux systems, on the other hand, are far more modular, treating the desktop environment as an independent component that can be freely replaced.
-
 
 In Linux, it's important to clearly distinguish between all the layers: the kernel (which manages interaction with the hardware), the display server (which acts as an intermediary between applications, graphics drivers, and hardware via the kernel), and finally the desktop environment itself, which relies on this infrastructure to deliver a coherent graphical interface to the user. This distinction can sometimes be less clear, as many Linux distributions come with a pre-installed desktop environment that sometimes includes its own Wayland compositor, which then acts as a display server.
 
@@ -3664,9 +3660,7 @@ On macOS, system disk encryption is based on *FileVault*, a native feature acces
 
 Once FileVault has been activated, you'll need to choose a recovery method in the event of password loss: either use your *iCloud* account, or generate a unique backup key. This key must be kept in a safe place, as its loss would render your data permanently inaccessible.
 
-
 For external storage media (hard disks, USB sticks, etc.), encryption is performed using the disk utility. You will need to completely reformat the volume:
-
 
 - Select the device, click on "*Delete*"
 - Select the "GUID* Partition Table" scheme
@@ -3674,91 +3668,68 @@ For external storage media (hard disks, USB sticks, etc.), encryption is perform
 - Choose a strong password
 - Click on "*Delete*" then "*OK*" and encryption is complete
 
-
 Once encryption is in place, the external drive can only be mounted by entering this password. The system will then decrypt it on the fly.
-
 
 #### A few recommendations for your encrypted backups
 
-
 Before encrypting a medium, you need to back up all the data it contains (unless it's empty, of course), as the encryption procedure generally erases the initial contents.
-
 
 The choice of password is also very important: it must be long, complex and unique, as it is the only protection between your data and a malicious third party. You also need to make a backup, for example in a password manager, because unlike online services, there is no recovery mechanism. If you forget your password, the data is lost for good.
 
-
 ### Selective file encryption
-
 
 In some cases, it is neither necessary nor practical to encrypt an entire hard disk or external media. In such cases, you can opt for selective encryption, which involves securing only certain files or directories containing sensitive data.
 
-
 One of the best-known methods for encrypting files is to use GPG. This tool is based on asymmetric cryptography: you have a pair of keys, one public, which you can distribute freely to your correspondents, and the other private, which must remain strictly secret. Files are encrypted using the recipient's public key, but can only be decrypted using his or her private key.
-
 
 This protocol is perfect for exchanging sensitive files securely with others, without sharing a password. For personal or occasional use, GPG also enables symmetrical encryption: the file is then protected by a unique password known only to you.
 
-
 An excellent alternative is Cryptomator. This open source software allows you to create a safe: a special directory in which all files deposited are automatically encrypted. This safe can be synchronized with cloud services such as Dropbox, Google Drive or Nextcloud without the provider ever having access to the unencrypted data. The application is available on all operating systems, including Android and iOS, and requires no special technical skills to use.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Finally, it is also possible to use VeraCrypt in container mode, which creates a file that acts as an encrypted archive, mountable like a disk.
 
-
 Now that you've learned how to protect your personal data against loss and theft, the next chapter looks at another important aspect: how to prevent your personal files from becoming attack vectors through their metadata.
-
-
 
 ## Metadata cleansing
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
 Every time you create a digital file, be it a photo, office document, audio or video file, it contains metadata in the background. This information isn't directly visible when you open the file, but it's there, and can contain extremely sensitive elements.
-
 
 ### Why is metadata a risk?
 
-
 Metadata is data attached to a file, the role of which is to provide contextual information about the content. In an image, this can include the date and time the image was taken, precise GPS coordinates, the model of camera or smartphone used, and sometimes even technical settings. In a text document, it can include the author's name, the company's name, the user's session ID, creation and modification timestamps, or even internal comments left during editing.
-
 
 This metadata may seem harmless, but it can be used by malicious actors to identify the author of a file, physically locate a person, reconstruct events or habits, or even exploit software flaws based on the version of software used.
 
-
 Let's take a concrete example: you post a supposedly anonymous photo on a forum. If you haven't removed the EXIF metadata, a single click can reveal the precise GPS coordinates of your home, the model of your phone and the exact date the photo was taken. Similarly, a PDF document sent anonymously may contain your full name in its properties.
-
 
 That's why some media publishing and communication platforms automatically remove metadata from your photos. These include X (Twitter), Instagram, Signal and Session. On the other hand, other platforms don't remove metadata at all: this is the case with most online forums, many e-mail clients, or even when you publish directly on a website.
 
-
 It's an essential reflex to adopt: as soon as a file leaves your private sphere, you need to think about cleaning up its metadata to avoid disclosing personal or sensitive information without your knowledge. Let's take a look at how to do this, depending on your operating system.
-
 
 ### On Linux (Debian)
 
-
 #### Using ExifTool
-
 
 The most complete and reliable means of managing and deleting metadata is the ExifTool, developed by Phil Harvey. It is compatible with a large number of file formats (JPG, PNG, PDF, MP3, DOCX...) and enables both display and removal of metadata.
 
-
-
 - Step 1: Install ExifTool
 
-
 To install it on a Debian distribution (Ubuntu), open a terminal and type the command:
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
 
 This package installs `exiftool`, which you can then use directly from the command line.
 
@@ -4393,12 +4364,11 @@ The downside is a significant reduction in performance (high latency) and limite
 
 #### Mullvad Browser
 
-
 [Mullvad Browser](https://mullvad.net/en/browser) is the result of collaboration between the Tor Foundation and Mullvad VPN. It is based on the Tor browser, which is itself derived from Firefox ESR. Mullvad Browser is designed to maximize user privacy. By default, it includes advanced protection against fingerprinting, trackers and third-party scripts.
 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 It has most of the security and privacy features offered by Tor Browser, with one difference: it doesn't redirect traffic via the Tor network. To avoid IP address leaks, you can use it in combination with a VPN (ideally, Mullvad VPN).
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -4420,40 +4390,33 @@ By default, LibreWolf activates Firefox's advanced security settings (such as st
 ![Image](assets/fr/115.webp)
 
 
-#### Zen Browser
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
+#### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) is a free and open source browser based on Firefox (Gecko engine), launched in 2024. Its aim is to offer a modern, elegant, highly customizable and above all privacy-centric browsing experience, without dependence on Chromium.
 
-
 Zen stands out for its radical approach to interface and usability, largely inspired by the Arc browser, yet emancipated from it by its open-source nature and Gecko engine. It includes :
-
 
 - A minimalist, modular interface, with a vertical sidebar for tabs, a split view, and a *workspace* system for grouping sets of tabs by project;
 - A system of customizable interface templates (*Zen Mods*) that can be used to deeply modify the browser's appearance;
 - An original function called *Glance*, which opens a link in a lightweight temporary window, avoiding the clutter of tabs...
 
-
 Zen also supports Firefox extensions, as well as synchronization via a Mozilla account.
-
 
 From a security and privacy point of view, Zen features native blocking of third-party trackers. The browser does not collect any data itself, and it also allows Mozilla telemetry to be disabled. It also automatically rejects obsolete or non-compliant SSL certificates.
 
-
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-based browsers
 
-
 #### Safari
-
 
 The main browser still using the WebKit rendering engine (not a fork like Blink) is Safari. [Safari](https://www.apple.com/safari/) is Apple's exclusive browser for macOS. It offers excellent integration with the Apple ecosystem, high performance, and now includes stronger protections against tracking and fingerprinting.
 
-
 However, Safari remains closed, limited to macOS for its desktop version, and dependent on the Apple ecosystem. While Apple has a strong privacy policy, with its business model based primarily on hardware sales rather than advertising, it remains unclear about certain internal practices.
-
 
 Here, we're focusing on desktop browsers, but it's important to note that on iOS, Apple requires all browsers to use the WebKit rendering engine (a constraint that may soon change, however, as a result of certain European regulations). This means that browsers such as Chrome, Firefox or Brave must, on iOS, offer an application based on WebKit, and not on their usual rendering engine.
 
@@ -5046,7 +5009,7 @@ GrapheneOS integrates no proprietary components. You are free to add Google serv
 
 Graphene is only compatible with recent Google Pixels (Pixel 6, 7, 8 and 9).
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6298,6 +6261,8 @@ The two main solutions for private customers are:
 - WireGuard: Modern, fast and lightweight
 - OpenVPN: Older, but very mature and configurable
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Here's a complete tutorial on Tailscale, an easy-to-configure VPN solution that uses WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -6318,11 +6283,13 @@ Once your network has been properly configured and segmented, it's important to 
 
 The first step is to centralize security logs. Every device connected to the network generates logs containing information on connections, errors or suspicious activity. Rather than consulting these logs individually, I recommend sending them to a server capable of grouping, sorting and analyzing them. Solutions such as Graylog or Elastic Stack (ELK) allow you to aggregate these logs into a graphical interface where you can search for specific events, create alerts or visualize network activity.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+
 Next, carry out regular active scans of your local network, for example with Nmap. This will give you an overview of all the devices on your network, and the ports they have opened. If you identify an unknown device or an unusual service, this could be the sign of an attack.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 To go even further, you can install an IDS (*Intrusion Detection System*), or even an IPS (*Intrusion Prevention System*). These tools, such as Suricata or Snort, monitor network flows in real time and detect signatures of known attacks (port scans, injections, suspicious connections, etc.). The IDS warns, while the IPS can automatically block certain actions.
-
 
 Finally, monitoring bandwidth consumption is also a good indicator of abnormal activity. If a device suddenly consumes a lot of data for no apparent reason, this may betray an unauthorized download, a data leak, or even a compromised device. Tools such as ntopng or vnStat enable you to view incoming and outgoing flows by device.
 
@@ -6359,3 +6326,4 @@ By following these few steps, you'll build a robust, secure network environment 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

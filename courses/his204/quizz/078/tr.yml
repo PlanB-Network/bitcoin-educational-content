@@ -1,0 +1,8 @@
+question: Turgot'nun Valeurs et monnaie'deki argümanı nedir?
+answer: Nesnelerin değeri insanların öznel takdirine bağlıdır
+wrong_answers:
+  - Nesnelerin değeri içsel niteliklerine bağlıdır
+  - Şeylerin değerini sadece para ile ölçebiliriz
+  - Değer iş tarafından belirlenir
+explanation: |
+  Turgot, bir malın değerinin bireye sağladığı faydaya ve onun kişisel takdirine bağlı olduğu öznel bir değer teorisini savunur.

@@ -1,0 +1,9 @@
+question: Bir tamsayının başka bir tamsayıya göre asal olmasının tanımı nedir?
+answer: Diğer tamsayı ile en büyük ortak böleni 1 olan tamsayı
+wrong_answers:
+  - Diğer tamsayıya kalansız bölünebilen bir tamsayı
+  - Asal olan bir tamsayı
+  - Diğerinden daha büyük bir tamsayı
+explanation: |
+  Bir tamsayı, en büyük ortak bölenleri 1 ise, yani başka bir ortak faktörü paylaşmıyorlarsa, başka bir tamsayı ile asaldır.
+reviewed: false

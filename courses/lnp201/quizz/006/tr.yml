@@ -1,0 +1,9 @@
+question: Bitcoin bağlamında bir UTXO nedir?
+answer: Bir senaryo ile ilişkili harcanmamış bitcoin parçası
+wrong_answers:
+  - Blockchain'de tamamen onaylanmış bir işlem
+  - Bitcoin adreslerini üreten bir ortak anahtar
+  - Birden fazla parçaya bölünmüş bir miktar Bitcoin
+explanation: |
+  Bir UTXO veya Harcanmamış İşlem Çıktısı, sahibinin kullanabileceği belirli miktarda bitcoini temsil eden harcanmamış bir işlem çıktısıdır.
+reviewed: false

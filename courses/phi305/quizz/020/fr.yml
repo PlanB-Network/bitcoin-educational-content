@@ -1,0 +1,9 @@
+question: Que retient-on de Copernic ?
+answer: Que la Terre tourne autour du Soleil.
+wrong_answers:
+- Que la Terre est plate.
+- Que la Terre est au centre de l'Univers.
+- Que les équations d'Euclide sont fausses.
+explanation: |
+  Nicolas Copernic (1473-1543) est célèbre pour avoir démontré que la Terre tourne autour du Soleil, révolutionnant ainsi notre conception de l'univers. Cette découverte a profondément influencé la philosophie moderne et le rationalisme.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kilit yönetim sorunu nedir?
+answer: Her bir istemci için bir çift anahtarın güvenliğinin sağlanması ve saklanmasının karmaşıklığı
+wrong_answers:
+  - Müşteriler tarafından kaybedilen anahtarların yenilenmesinin imkansızlığı
+  - İstemci tarafından kullanılmadan önce her bir anahtarın şifresinin çözülmesi ihtiyacı
+  - Her iletişim için anahtarların iletilmesi gerekliliği
+explanation: |
+  Anahtar yönetimi sorunu, özellikle istemci sayısı milyonlara ulaştığında, her kullanıcı için bir çift anahtarı saklamanın ve güvence altına almanın zorluğunda yatmaktadır.
+reviewed: false

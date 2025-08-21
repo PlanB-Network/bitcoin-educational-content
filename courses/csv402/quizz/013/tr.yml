@@ -1,0 +1,9 @@
+question: Bir RGB Contract'ın ana işlemleri nelerdir?
+answer: State Transition, Genesis ve State Extension
+wrong_answers:
+  - Seal Definition, Commitment ve Doğrulama
+  - Anchor Oluşturma, DAG Güncelleme ve İşlem İmzalama
+  - Genesis Blok, UTXO Tahsis ve Senaryo Doğrulama
+explanation: |
+  Bu işlemler bir Contract'un durumunu Schema'ine göre değiştirir veya tamamlar.
+reviewed: false

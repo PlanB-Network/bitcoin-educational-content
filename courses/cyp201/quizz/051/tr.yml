@@ -1,0 +1,9 @@
+question: Bir passphrase ile bir Bitcoin Wallet için PIN kodu arasındaki temel fark nedir?
+answer: passphrase PIN kodunu değil, anahtar türetmeyi değiştirir
+wrong_answers:
+  - PIN kodu Mnemonic cümlesiyle bağlantılıdır
+  - PIN kodu işlemleri şifrelemek için kullanılır ancak passphrase için kullanılmaz
+  - PIN kodu Bitcoin adreslerini oluşturur
+explanation: |
+  PIN kodunun aksine, passphrase doğrudan anahtar türetme sürecine dahil olur ve Wallet anahtarlarını değiştirir.
+reviewed: false

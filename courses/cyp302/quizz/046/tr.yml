@@ -1,0 +1,9 @@
+question: N'den küçük olan ve N ile asal olan tam sayıların sayısını hesaplamak için hangi fonksiyon kullanılır?
+answer: Euler'in Phi fonksiyonu
+wrong_answers:
+  - Euler'in Gamma fonksiyonu
+  - Euler'in Sigma fonksiyonu
+  - Dirichlet'in Beta fonksiyonu
+explanation: |
+  Euler'in Phi fonksiyonu, asal sayılara dayalı kriptografi teoremlerinde merkezi bir kavram olan N ile eş asal olan N'den küçük tam sayıların sayısını belirler.
+reviewed: false

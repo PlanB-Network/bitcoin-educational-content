@@ -972,11 +972,9 @@ La famiglia Arch Linux si distingue per una filosofia radicalmente opposta a que
 
 Questo approccio si basa su un modello di *rilascio continuo*, in cui i pacchetti vengono aggiornati continuamente, senza la necessità di reinstallare il sistema a ogni rilascio principale. Il gestore di pacchetti Pacman è veloce e leggero e rende facile l'installazione e l'aggiornamento del software, mentre AUR (*Arch User Repository*), un archivio della comunità, fornisce l'accesso a una vasta gamma di pacchetti non ufficiali e di sviluppo.
 
-
-
 Arch Linux si rivolge soprattutto a utenti avanzati che desiderano un controllo totale sul proprio ambiente, pur accettando una certa complessità nell'installazione e nella manutenzione. Questo requisito tecnico ha portato alla nascita di diverse distribuzioni derivate volte a democratizzarne l'uso.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Il più noto è Manjaro, che mantiene la base tecnica di Arch offrendo però un'installazione semplificata, ambienti desktop preconfigurati e un ciclo di rilascio leggermente ritardato per stabilizzare gli aggiornamenti.
 
@@ -1064,7 +1062,7 @@ Sviluppata da Canonical e lanciata nel 2004, Ubuntu è una delle distribuzioni p
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Lanciata nel 2006, Linux Mint è una distribuzione derivata da Ubuntu, progettat
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint si distingue per la sua semplicità, la presenza predefinita di codec multimediali e uno strumento di aggiornamento ben progettato. D'altra parte, si basa molto sull'infrastruttura di Ubuntu, il che lo rende dipendente dalle scelte tecniche di Ubuntu (in particolare a livello di kernel e repository). Mint è particolarmente adatto agli utenti non tecnici o a coloro che vogliono un sistema pronto all'uso che non richieda troppo apprendimento.
 
@@ -1108,9 +1106,9 @@ L'installazione è agevole, il software essenziale è preinstallato e la version
 
 - oS** elementare:
 
-
-
 Lanciata nel 2011, elementary OS è una distribuzione basata su Ubuntu che si concentra soprattutto sul design e sulla consistenza di Interface. Il suo ambiente desktop Pantheon, ispirato a macOS, è minimalista, elegante e fluido. Tuttavia, il sistema rimane meno personalizzabile di altre distribuzioni e alcuni utenti avanzati potrebbero sentirsi limitati dalle scelte di Interface e dalla sua struttura volutamente chiusa. È adatta agli utenti esteticamente sensibili che cercano un sistema semplice e coerente per l'uso quotidiano.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux è una distribuzione minimalista, continuamente aggiornabile, fornita
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribuzione specializzata
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux è una distribuzione basata su Debian progettata per i test di penetrazione e l'auditing della sicurezza. Include centinaia di strumenti di pentest. Questa distribuzione non è adatta come sistema principale per l'uso quotidiano.
 
@@ -1252,7 +1246,7 @@ Tails è una distribuzione live basata su Debian e incentrata sulla privacy. Tut
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 **Nota:** Una distribuzione live è un sistema operativo Linux che può essere utilizzato direttamente da una chiavetta USB o da un CD, senza installazione nel disco Hard.
 
@@ -1306,9 +1300,9 @@ PureOS è una distribuzione derivata da Debian sviluppata da Purism, totalmente 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (ex Raspbian) è una distribuzione ottimizzata per i microcomputer Raspberry Pi. È basata su Debian, con pacchetti ricompilati per l'architettura ARM. Può essere utilizzata per progetti educativi, test elettronici o piccoli server personali.
 
@@ -1332,36 +1326,23 @@ Whonix combina Debian con la rete Tor in un'architettura a due VM (gateway + wor
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Questo panorama offre una panoramica dell'attuale ecosistema delle distribuzioni Linux, consentendovi di scegliere la distribuzione più adatta al vostro profilo tecnico e ai vostri obiettivi.
-
-
 
 Nel prossimo capitolo di SCU202, daremo un'occhiata più da vicino all'ambiente pratico di Linux, iniziando dagli ambienti grafici che costituiscono la base delle interazioni quotidiane con il sistema.
 
-
-
 ## Ambienti desktop Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In un sistema GNU/Linux, l'ambiente desktop svolge uno dei ruoli più importanti nell'esperienza dell'utente. È la Layer grafica che consente l'interazione con il sistema, basata su rappresentazioni visive familiari: finestre, menu, icone, pannelli e applicazioni preinstallate.
-
-
 
 In questo capitolo esplorerò la struttura e il ruolo di un ambiente desktop, i suoi componenti tipici, le principali famiglie disponibili, i criteri di scelta e la loro integrazione nelle distribuzioni Linux più diffuse.
 
-
-
 ### Cos'è un ambiente d'ufficio?
 
-
-
 Un ambiente desktop (o "*DE*" per *Desktop Environment*) si riferisce all'insieme di programmi che costituiscono l'intera Interface grafica di un sistema operativo. Su Windows e macOS viene offerto di default un unico ambiente desktop, integrato nel sistema, senza possibilità di modificarlo interamente (esistono solo alcune shell per modificare parzialmente il Interface). I sistemi Linux, invece, sono molto più modulari e trattano l'ambiente desktop come un componente indipendente che può essere liberamente sostituito.
-
-
 
 In Linux è importante distinguere chiaramente tra tutti i livelli: il kernel (che gestisce l'interazione con l'hardware), il display server (che funge da intermediario tra le applicazioni, i driver grafici e l'hardware attraverso il kernel) e infine l'ambiente desktop stesso, che si basa su questa infrastruttura per offrire all'utente un Interface grafico coerente. Questa distinzione a volte può essere meno chiara, in quanto molte distribuzioni Linux sono dotate di un ambiente desktop preinstallato che a volte include il proprio compositor Wayland, che agisce quindi come display server.
 
@@ -4869,12 +4850,7 @@ Su macOS, la crittografia del disco di sistema si basa su *FileVault*, una funzi
 
 Una volta attivato FileVault, dovrete scegliere un metodo di recupero in caso di perdita della password: utilizzare il vostro account *iCloud* o generate una chiave di backup unica. Questa chiave deve essere conservata in un luogo sicuro, poiché la sua perdita renderebbe i dati permanentemente inaccessibili.
 
-
-
 Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la crittografia viene eseguita con l'utility disco. È necessario riformattare completamente il volume:
-
-
-
 
 - Selezionare il dispositivo, fare clic su "*Elimina*"
 - Selezionare lo schema "Tabella di partizione GUID*"
@@ -4882,41 +4858,25 @@ Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la 
 - Scegliere una password forte
 - Fare clic su "*Elimina*" e poi su "*OK*" per completare la crittografia
 
-
-
 Una volta effettuata la crittografia, l'unità esterna può essere montata solo immettendo questa password. Il sistema la decifrerà al volo.
-
-
 
 #### Alcune raccomandazioni per i vostri backup criptati
 
-
-
 Prima di crittografare un supporto, è necessario eseguire il backup di tutti i dati in esso contenuti (a meno che non sia vuoto, ovviamente), poiché la procedura di crittografia generalmente cancella il contenuto iniziale.
-
-
 
 Anche la scelta della password è molto importante: deve essere lunga, complessa e unica, perché è l'unica protezione tra i vostri dati e un terzo malintenzionato. È inoltre necessario effettuare un backup, ad esempio in un gestore di password, perché, a differenza dei servizi online, non esiste un meccanismo di recupero. Se si dimentica la password, i dati sono persi per sempre.
 
-
-
 ### Crittografia selettiva dei file
-
-
 
 In alcuni casi, non è necessario né pratico criptare un intero disco Hard o un supporto esterno. In questi casi, è possibile optare per la crittografia selettiva, che prevede la protezione solo di alcuni file o directory contenenti dati sensibili.
 
-
-
 Uno dei metodi più noti per criptare i file è l'utilizzo di GPG. Questo strumento si basa sulla crittografia asimmetrica: si dispone di una coppia di chiavi, una pubblica, che si può distribuire liberamente ai propri corrispondenti, e una privata, che deve rimanere strettamente segreta. I file vengono crittografati con la chiave pubblica del destinatario, ma possono essere decifrati solo con la sua chiave privata.
-
-
 
 Questo protocollo è perfetto per scambiare file sensibili in modo sicuro con altri, senza condividere la password. Per un uso personale o occasionale, GPG consente anche la crittografia simmetrica: il file è quindi protetto da una password unica nota solo a voi.
 
-
-
 Un'ottima alternativa è Cryptomator. Questo software open source consente di creare una cassaforte: una directory speciale in cui tutti i file depositati vengono automaticamente crittografati. Questa cassaforte può essere sincronizzata con servizi cloud come Dropbox, Google Drive o Nextcloud senza che il provider abbia mai accesso ai dati non crittografati. L'applicazione è disponibile su tutti i sistemi operativi, compresi Android e iOS, e non richiede particolari competenze tecniche per essere utilizzata.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4884,44 @@ Un'ottima alternativa è Cryptomator. Questo software open source consente di cr
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Infine, è anche possibile utilizzare VeraCrypt in modalità container, che crea un file che funge da archivio crittografato, montabile come un disco.
-
-
 
 Dopo aver appreso come proteggere i dati personali da perdite e furti, il prossimo capitolo affronta un altro aspetto importante: come evitare che i file personali diventino vettori di attacco attraverso i loro metadati.
 
-
-
-
 ## Pulizia dei metadati
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Ogni volta che si crea un file digitale, sia esso una foto, un documento d'ufficio, un file audio o video, contiene metadati in background. Queste informazioni non sono direttamente visibili quando si apre il file, ma sono presenti e possono contenere Elements estremamente sensibili.
-
-
 
 ### Perché i metadati sono un rischio?
 
-
-
 I metadati sono dati allegati a un file, il cui ruolo è quello di fornire informazioni contestuali sul contenuto. In un'immagine, possono includere la data e l'ora in cui è stata scattata, le coordinate GPS precise, il modello di fotocamera o di smartphone utilizzato e talvolta anche le impostazioni tecniche. In un documento di testo, può includere il nome dell'autore, il nome dell'azienda, l'ID di sessione dell'utente, i timestamp di creazione e modifica e persino i commenti interni lasciati durante la modifica.
-
-
 
 Questi metadati possono sembrare innocui, ma possono essere utilizzati da soggetti malintenzionati per identificare l'autore di un file, localizzare fisicamente una persona, ricostruire eventi o abitudini o persino sfruttare le falle del software in base alla versione del software utilizzato.
 
-
-
 Facciamo un esempio concreto: pubblicate una foto apparentemente anonima su un forum. Se non avete rimosso i metadati EXIF, un solo clic può rivelare le coordinate GPS precise della vostra casa, il modello del vostro telefono e la data esatta in cui è stata scattata la foto. Allo stesso modo, un documento PDF inviato in forma anonima può contenere il vostro nome e cognome nelle sue proprietà.
-
-
 
 Ecco perché alcune piattaforme di pubblicazione e comunicazione dei media rimuovono automaticamente i metadati dalle foto. Tra queste, X (Twitter), Instagram, Signal e Session. Altre piattaforme, invece, non rimuovono affatto i metadati: è il caso della maggior parte dei forum online, di molti client di posta elettronica o anche quando si pubblica direttamente su un sito web.
 
-
-
 È un riflesso essenziale da adottare: non appena un file lascia la vostra sfera privata, dovete pensare a ripulire i suoi metadati per evitare di divulgare informazioni personali o sensibili a vostra insaputa. Vediamo come fare, a seconda del sistema operativo in uso.
-
-
 
 ### Su Linux (Debian)
 
-
-
 #### Utilizzo di ExifTool
-
-
 
 Il mezzo più completo e affidabile per gestire ed eliminare i metadati è ExifTool, sviluppato da Phil Harvey. È compatibile con un gran numero di formati di file (JPG, PNG, PDF, MP3, DOCX...) e consente di visualizzare e rimuovere i metadati.
 
-
-
-
-
 - Passo 1: Installare ExifTool
 
-
-
 Per installarlo su una distribuzione Debian (Ubuntu), aprire un terminale e digitare il comando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Questo pacchetto installa `exiftool`, che può essere utilizzato direttamente dalla riga di comando.
 
@@ -5835,15 +5761,11 @@ Lo svantaggio è una riduzione significativa delle prestazioni (alta latenza) e 
 
 #### Browser Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) è il risultato della collaborazione tra la Tor Foundation e Mullvad VPN. È basato sul browser Tor, a sua volta derivato da Firefox ESR. Mullvad Browser è progettato per massimizzare la privacy degli utenti. Per impostazione predefinita, include una protezione avanzata contro le impronte digitali, i tracker e gli script di terze parti.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ha la maggior parte delle caratteristiche di sicurezza e privacy offerte da Tor Browser, con una differenza: non reindirizza il traffico attraverso la rete Tor. Per evitare le fughe di IP Address, è possibile utilizzarlo in combinazione con una VPN (idealmente, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5871,52 +5793,33 @@ Per impostazione predefinita, LibreWolf attiva le impostazioni di sicurezza avan
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Browser Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) è un browser libero e open source basato su Firefox (motore Gecko), lanciato nel 2024. Il suo obiettivo è offrire un'esperienza di navigazione moderna, elegante, altamente personalizzabile e soprattutto incentrata sulla privacy, senza dipendere da Chromium.
 
-
-
 Zen si distingue per il suo approccio radicale al Interface e all'usabilità, largamente ispirato al browser Arc, ma emancipato da esso grazie alla sua natura open-source e al motore Gecko. Include :
-
-
-
 
 - Un Interface minimalista e modulare, con una barra laterale verticale per le schede, una vista divisa e un sistema *workspace* per raggruppare le schede per progetto;
 - Un sistema di modelli personalizzabili di Interface (*Zen Mods*) che possono essere utilizzati per modificare profondamente l'aspetto del browser;
 - Una funzione originale chiamata *Glance*, che apre un link in una leggera finestra temporanea, evitando l'ingombro delle schede...
 
-
-
 Zen supporta anche le estensioni di Firefox e la sincronizzazione tramite un account Mozilla.
-
-
 
 Dal punto di vista della sicurezza e della privacy, Zen è dotato di un blocco nativo dei tracker di terze parti. Il browser non raccoglie alcun dato e consente di disattivare la telemetria di Mozilla. Inoltre, rifiuta automaticamente i certificati SSL obsoleti o non conformi.
 
-
-
 Zen Browser è un'alternativa interessante se siete alla ricerca di un ambiente di navigazione Gecko libero, innovativo, ordinato e rispettoso della vostra privacy.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Browser basati su WebKit
 
-
-
 #### Safari
-
-
 
 Il principale browser che utilizza ancora il motore di rendering WebKit (non un Fork come Blink) è Safari. [Safari](https://www.apple.com/safari/) è il browser esclusivo di Apple per macOS. Offre un'eccellente integrazione con l'ecosistema Apple, prestazioni elevate e ora include protezioni più severe contro il tracciamento e le impronte digitali.
 
-
-
 Tuttavia, Safari rimane chiuso, limitato a macOS per la sua versione desktop e dipendente dall'ecosistema Apple. Sebbene Apple abbia una forte politica sulla privacy, con il suo modello di business basato principalmente sulla vendita di hardware piuttosto che sulla pubblicità, rimane poco chiara su alcune pratiche interne.
-
-
 
 In questa sede, ci concentriamo sui browser desktop, ma è importante notare che su iOS, Apple richiede che tutti i browser utilizzino il motore di rendering WebKit (un vincolo che potrebbe presto cambiare, tuttavia, a seguito di alcune normative europee). Ciò significa che browser come Chrome, Firefox o Brave devono, su iOS, offrire un'applicazione basata su WebKit e non sul loro motore di rendering abituale.
 
@@ -6720,7 +6623,7 @@ GrapheneOS non integra alcun componente proprietario. L'utente è libero di aggi
 Graphene è compatibile solo con i Google Pixel recenti (Pixel 6, 7, 8 e 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8514,26 @@ Questi strumenti agiscono come un piccolo server DNS all'interno della rete, blo
 
 ### Accesso remoto sicuro tramite VPN
 
-
 In alcuni casi, è utile poter accedere alla rete domestica quando si è in viaggio: Consultare i file su un NAS, utilizzare un nodo Bitcoin e Lightning, accedere a un server self-hosted o amministrare la rete. Tuttavia, questa connessione remota deve essere sicura.
-
 
 Il primo consiglio è di non aprire mai direttamente una porta sul router per accedere a un dispositivo (ad esempio tramite RDP, SSH o FTP), in quanto ciò espone il servizio all'intera rete Internet, il che costituisce una vulnerabilità. Gli attacchi automatici che mirano alle porte aperte sono numerosi.
 
-
 La soluzione che vi consiglio è quella di utilizzare una VPN (*Virtual Private Network*), ovvero un tunnel crittografato tra il vostro dispositivo remoto (computer, smartphone, ecc.) e la vostra rete locale. Una volta connessi alla VPN, potrete accedere alle risorse di casa vostra come se foste fisicamente lì, e in modo sicuro.
 
-
 Le due soluzioni principali per i clienti privati sono:
-
-
 
 - WireGuard: Moderno, veloce e leggero
 - OpenVPN: più vecchio, ma molto maturo e configurabile
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Ecco un tutorial completo su Tailscale, una soluzione VPN facile da configurare che utilizza WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 È possibile ospitare questa VPN direttamente su un router compatibile, su un piccolo computer (come un Raspberry Pi) o su un server dedicato a casa. È anche possibile installarla come client direttamente su qualsiasi dispositivo.
 
-
 Ma una VPN non serve solo per l'accesso remoto. Potete anche utilizzare un classico client VPN sui vostri dispositivi per crittografare tutto il vostro traffico in uscita, anche quando siete fuori casa (Wi-Fi pubblico, hotel, università, ecc.). In questo caso, il dispositivo si connette a un server VPN di terze parti (commerciale o self-hosted), che poi ritrasmette le connessioni a Internet. In questo modo si nasconde il vostro vero IP Address all'ISP, si proteggono i dati dallo spionaggio locale e si evitano alcune forme di censura.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8541,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Infine, è anche possibile configurare una VPN direttamente sul router, consentendo di proteggere tutti i dispositivi di casa senza dover installare un client VPN su ciascuno di essi.
 
-
 ### Monitoraggio e rilevamento
-
 
 Una volta che la rete è stata configurata e segmentata correttamente, è importante andare oltre la sicurezza passiva. Il monitoraggio attivo della rete locale può rilevare comportamenti anomali, connessioni non autorizzate o segni di intrusione. L'obiettivo è individuare tempestivamente i problemi, prima che causino danni.
 
-
 Il primo passo è la centralizzazione dei registri di sicurezza. Ogni dispositivo collegato alla rete genera registri contenenti informazioni su connessioni, errori o attività sospette. Piuttosto che consultare questi log singolarmente, consiglio di inviarli a un server in grado di raggrupparli, ordinarli e analizzarli. Soluzioni come Graylog o Elastic Stack (ELK) consentono di aggregare questi registri in un Interface grafico in cui è possibile cercare eventi specifici, creare avvisi o visualizzare l'attività di rete.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Successivamente, eseguite regolarmente scansioni attive della rete locale, ad esempio con Nmap. In questo modo si ottiene una panoramica di tutti i dispositivi presenti sulla rete e delle porte aperte. Se si identifica un dispositivo sconosciuto o un servizio insolito, questo potrebbe essere il segno di un attacco.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Per andare oltre, è possibile installare un IDS (*Intrusion Detection System*) o addirittura un IPS (*Intrusion Prevention System*). Questi strumenti, come Suricata o Snort, monitorano i flussi di rete in tempo reale e rilevano le firme di attacchi noti (scansioni di porte, iniezioni, connessioni sospette, ecc.). L'IDS avvisa, mentre l'IPS può bloccare automaticamente determinate azioni.
 
-
-
 Infine, anche il monitoraggio del consumo di banda è un buon indicatore di attività anomale. Se un dispositivo consuma improvvisamente molti dati senza un motivo apparente, ciò potrebbe rivelare un download non autorizzato, una fuga di dati o addirittura un dispositivo compromesso. Strumenti come ntopng o vnStat consentono di visualizzare i flussi in entrata e in uscita per dispositivo.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup e resilienza
 
-
 Anche con una rete perfettamente sicura, guasti hardware, errori di configurazione o eventi imprevisti (interruzione di corrente, sbalzo di tensione, guasto del disco Hard, ecc.) possono causare la perdita di dati o l'interruzione dei servizi. Per garantire la continuità del vostro ambiente digitale ed evitare di ripartire da zero in caso di problemi, è importante implementare una strategia di backup e resilienza.
-
 
 Iniziare a eseguire regolarmente il backup della configurazione delle apparecchiature di rete, in particolare del router. Spesso questi file di configurazione possono essere esportati tramite l'amministrazione del Interface. Conservarne una copia consente di ripristinare rapidamente un sistema funzionante in caso di reset o sostituzione del dispositivo. Si consiglia inoltre di criptare questo backup.
 
-
 Infine, per migliorare la resistenza della rete in caso di interruzione di corrente, investite in un gruppo di continuità. Questo dispositivo fornisce un'alimentazione di riserva per alcuni minuti in caso di interruzione di corrente, consentendo di continuare a utilizzare Internet o di garantire che i dispositivi critici (NAS, router, punto di accesso Wi-Fi, ecc.) si spengano senza problemi. Alcuni modelli possono anche inviare un comando di spegnimento automatico ai dispositivi collegati quando rilevano che la batteria è scarica.
-
 
 Seguendo questi pochi passaggi, potrete creare un ambiente di rete solido e sicuro che rispetta la vostra privacy.
 
-
 # Parte finale
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recensioni e valutazioni
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Esame finale
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusione
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,12 @@
+question: Tüketici Fiyat Endeksi'nin (TÜFE) enflasyon ölçümü üzerindeki etkisi nedir?
+answer: TÜFE, gayrimenkul fiyatlarının gelişimini kapsamlı bir şekilde dikkate almadığından gerçek enflasyonu olduğundan düşük gösterebilir ve gerçek fiyat artışlarını dengeleyebilir veya maskeleyebilir.
+wrong_answers:
+  - TÜFE her zaman enflasyonu doğru bir şekilde ölçmektedir.
+  - TÜFE gerçek enflasyonu olduğundan fazla göstermektedir.
+  - TÜFE'nin enflasyon ölçümü üzerinde hiçbir etkisi yoktur.
+explanation: |
+  Bu bölümde, enflasyonun ana göstergesi olarak kullanılan TÜFE açıklanmaktadır,
+  bazı sınırlamalara sahiptir. Örneğin, aşağıdakileri kapsamlı bir şekilde dikkate almamaktadır
+  gayrimenkul fiyatlarının gelişimini yansıtmaktadır. Ayrıca, TÜFE'nin hesaplanmasında belirli
+  gerçek fiyat artışlarını dengeleyebilecek veya maskeleyebilecek metodolojiler.
+reviewed: false

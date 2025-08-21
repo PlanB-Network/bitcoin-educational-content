@@ -1,0 +1,9 @@
+question: Bitcoin sisteminin gizlilik modeli nedir?
+answer: İşlemler herkese açıktır, ancak kullanıcıların kimliği bilinmemektedir.
+wrong_answers:
+  - İşlem detaylarına yalnızca Satoshi Nakamoto'nun erişimi vardır.
+  - İşlemler şifrelenir ve ağ üzerinde görünmez.
+  - İşlem detaylarına yalnızca hükümetlerin erişimi vardır.
+explanation: |
+  Bitcoin durumunda, işlemler ile kamusal alan arasındaki bilgi akışı kesilemediğinden, gizlilik modeli kullanıcının kimliği ile işlemler arasındaki ayrıma dayanır.
+reviewed: false

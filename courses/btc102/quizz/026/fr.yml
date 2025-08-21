@@ -6,4 +6,4 @@ wrong_answers:
   - Les blocs de la blockchain
 explanation: |
   Sans détenir ses clés privées, on ne possède pas véritablement ses bitcoins.
-reviewed: false
+reviewed: true 

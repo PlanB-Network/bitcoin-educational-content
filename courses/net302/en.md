@@ -1973,9 +1973,9 @@ This displays the exact route a packet would take to reach `8.8.8.8`.
 
 ### Tracing tools
 
-One of the most effective tools for analyzing the route taken by IP packets between a source host and a target destination is the `traceroute` command. It allows you to visualize, step by step, the path taken by packets, identifying the intermediate routers crossed. In the event of a network link malfunction or service interruption, `traceroute` can be used to pinpoint the precise location of the fault.
+One of the most effective tools for analyzing the route taken by IP packets between a source host and a target destination is the `traceroute` command. It shows, step by step, the path followed by packets and identifies the intermediate routers they traverse. In the event of a network link malfunction or service outage, `traceroute` helps pinpoint the precise location of the problem.
 
-As with the `ping` command, you can target the remote host either by its full domain name (FQDN), or by its IP address. For example:
+As with the `ping` command, the target can be specified either by its fully qualified domain name (FQDN) or by its IP address. For example:
 
 ```bash
 traceroute mydmn.org
@@ -1983,16 +1983,16 @@ traceroute mydmn.org
 
 #### Operating principle
 
-How `traceroute` works is based on the TTL (*Time To Live*) field present in the header of IP packets. As explained above, this field is a counter that is decremented each time a packet passes through a router. If the TTL value reaches zero, the packet is considered lost and is discarded by the router, which then returns an ICMP "Time Exceeded" message to the sender. This prevents infinite loops in the event of incorrect routing.
+`traceroute` relies on the TTL (*Time To Live*) field in the IP packets header. As explained earlier, this field is a counter decremented by each router along the path. When the TTL reaches zero, the packet is discarded, and the router returns an ICMP "Time Exceeded" message to the sender. This mechanism prevents infinite loops in the event of misrouting.
 
-The `traceroute` tool exploits precisely this behavior to map the routers located between the sender and the recipient:
-- It sends a first series of UDP packets (usually three), with a TTL equal to 1. The first router then encounters a zero TTL, destroys the packet and sends an ICMP response. Its IP address and response time are recorded;
-- Then `traceroute` sends a new series of packets with a TTL equal to 2. The second router does the same;
-- This process repeats until the packet reaches its destination, which then returns an ICMP "Port unreachable" message indicating that the host has been reached.
+`traceroute` takes advantage of this behavior to map the routers between sender and recipient:
+- It first sends a series of UDP packets (usually three), with a TTL of 1. The first router encounters a TTL of 0 so it discards the packet and then replies with an ICMP message, revealing its IP address and response time.
+- Next, it sends another series of packets with a TTL of 2, revealing the second router.
+- The process repeats until the destination is reached, at which point the host responds with an ICMP Port Unreachable message, indicating that the endpoint has been reached.
 
-By default, the tool uses UDP packets sent on unused ports (typically from port 33434), but can be configured to use ICMP (like `ping`) or even TCP, depending on systems or command variants.
+By default, `traceroute` uses UDP packets sent to unused ports (typically starting at 33434), but can also be configured to use ICMP (like `ping`) or even TCP, depending on systems or command variants.
 
-Here is an example of the result obtained:
+Example output:
 
 ```bash
 traceroute to www.google.fr (216.58.210.35), 64 hops max, 52 byte packets
@@ -2016,21 +2016,20 @@ traceroute to www.google.fr (216.58.210.35), 64 hops max, 52 byte packets
 11  lhr25s11-in-f35.1e100.net (216.58.210.35)  34.094 ms  33.353 ms  33.718 ms
 ```
 
-Each line corresponds to a router traversed, with up to three time measurements (in milliseconds) indicating the latency of the round trip to that router. These times can be used to evaluate the performance of each segment of the path.
+Each line corresponds to a router traversed, with up to three time measurements (in milliseconds) indicating the latency of the round trip to that router. These values help assess the performance of each network segment.
 
+#### Result interpretation
 
-#### Interpretation of results
+If a router doesn't respond or filters ICMP messages, asterisks `*` are displayed instead of the response time. This may indicate :
+- a firewall blocking ICMP replies,
+- a device configured not to respond, or
+- a temporary connectivity issue along the path.
 
-If a router doesn't respond or filters ICMP messages, asterisks `*` are displayed instead of the response time. This may mean :
-- a firewall that blocks ICMP responses ;
-- equipment configured not to respond to these messages;
-- a temporary connectivity problem on the path.
+Thus, `traceroute` not only identifies the route taken but also highlights points of abnormal latency or interruptions.
 
-The `traceroute` command not only identifies the route taken, but also pinpoints areas of abnormal latency or connection breaks.
+On some systems, the equivalent `tracepath` command can be used, which does not require root privileges. For IPv6, use `traceroute6` or `tracepath6`.
 
-On some systems, the command can be replaced by `tracepath`, which does not require root privileges. For IPv6 connections, use `traceroute6` or `tracepath6`.
-
-Example for tracing an IPv6 route:
+Example for IPv6 tracing:
 
 ```bash
 traceroute6 ipv6.google.com
@@ -2038,62 +2037,59 @@ traceroute6 ipv6.google.com
 
 ### Tools for checking active connections
 
-To diagnose current network connections and get an overview of network activity on a Linux system, the `ss` command (for _socket statistics_) is today's benchmark tool. Part of the `iproute2` suite, it replaces the now obsolete `netstat`, offering superior performance and greater accuracy.
+To diagnose active network connections and monitor network activity on a Linux system, the `ss` command (short for _socket statistics_) is the modern reference tool. Part of the `iproute2` suite, it replaces the now-obsolete `netstat`, offering better performance and more accurate results.
 
-`ss` displays active TCP and UDP connections, listening ports, local and remote addresses, connection status and associated processes.
+`ss` displays active TCP and UDP connections, listening ports, local and remote addresses, connection states and associated processes.
 
 #### General use
 
-Executed without options, the `ss` command displays active TCP connections. Here's its basic syntax:
+When run without options, the `ss` command displays active TCP connections. Basic syntax:
 
 ```bash
 ss [options]
 ```
 
 Some common options for refining analysis :
-- `-t`: Displays TCP connections only;
-- `-u`: Displays UDP connections only;
-- `-l`: limits display to listening sockets ;
-- `-n`: disables name resolution (raw display of IP addresses and port numbers) ;
-- `-p`: displays the processes associated with each socket (PID and program name) ;
-- `-a`: Displays all connections, including inactive ones;
-- `-s`: provides high-level statistics on sockets.
+- `-t`: show TCP connections only;
+- `-u`: show UDP connections only;
+- `-l`: show listening sockets only;
+- `-n`: disable name resolution (raw IPs and port numbers) ;
+- `-p`: display each socket associated processes (PID and program name),
+- `-a`: show all connections, including inactive ones,
+- `-s`: display high-level socket statistics.
 
 #### Case studies
 
-If you want to display all active connections using TCP port 80 (HTTP), you can use :
+To display all active connections using TCP port 80 (HTTP):
 
 ```bash
 ss -ant | grep ':80'
 ```
 
-This command displays active TCP connections involving port 80. Typical states (such as `LISTEN`, `ESTABLISHED`, `TIME-WAIT`) are used to interpret the status of current exchanges.
+This shows active TCP connections involving port 80. States such as `LISTEN`, `ESTABLISHED`, `TIME-WAIT` indicate the current status of each exchange.
 
-Sample output:
-
+Example output:
 ```
 ESTAB 0 0 192.168.1.10:54321  93.184.216.34:80
 ```
 
-To display all network connections with associated processes :
+To display all network connections with associated processes:
 
 ```bash
 ss -tulnp
 ```
 
-For an overall statistical summary of the sockets used :
-
+To obtain an overall socket usage summary:
 ```bash
 ss -s
 ```
 
-To filter UDP connections only :
-
+To filter UDP connections only:
 ```bash
 ss -unp
 ```
 
-These commands are particularly useful for spotting suspicious connections, listening for unexpected ports, or monitoring the network activity of a particular service.
+These commands are particularly useful for detecting suspicious connections, unexpected listening ports, or monitoring the activity of a specific service.
 
 ## Transport and top layer tools
 
@@ -2101,50 +2097,46 @@ These commands are particularly useful for spotting suspicious connections, list
 
 ### DNS query tools
 
-In the upper layers of the TCP/IP model, and particularly at the Application layer, it's important to understand how name resolution works. DNS query tools can be used not only to check whether a domain name is correctly associated with an IP address, but also to diagnose DNS server configuration, propagation or inaccessibility problems. These tools are essential for any network administrator or user wishing to better understand DNS exchanges in an IP environment.
+In the upper layers of the TCP/IP model, especially at the Application layer, it's important to understand how name resolution works. DNS query tools let you check whether a domain name is correctly associated with an IP address, and also help diagnose DNS server issues such as misconfiguration, propagation delays, or unavailability. These tools are essential for any network administrator or any user wanting a deeper understanding of DNS exchanges in an IP environment.
 
 #### The `nslookup` command
 
-The simplest DNS query tool is `nslookup`. It allows you to submit a query to a DNS server and obtain in return the IP address associated with a domain name (or vice versa). Used without options, it queries the DNS server configured on the system by default, but you can explicitly indicate a server to query by specifying it directly in the command.
+The simplest DNS query tool is `nslookup`. It sends a query to a DNS server and returns the IP address associated with a domain name (or vice versa). By default, it queries the system's configured DNS server, but you can also specify a server directly in the command.
 
-Simple example of use with direct resolution :
-
+Example of a direct lookup:
 ```bash
 nslookup mydmn.org
 ```
 
-And to query a specific DNS server :
-
+Querying a specific DNS server:
 ```bash
 nslookup mydmn.org 192.6.23.4
 ```
 
-This request asks the server at address `192.6.23.4` to resolve the name `mydmn.org`. This is a useful method when you want to check whether or not a given DNS server knows a domain name, or to verify that the server is functioning correctly.
+The request asks the DNS server at `192.6.23.4` to resolve the name `mydmn.org`. This is particularly useful to check if a given DNS server recognizes a domain name or to verify that the server is working properly.
 
 #### The `dig` command
 
-More modern, more complete and more flexible than `nslookup`, the `dig` (*Domain Information Groper*) command lets you perform complex DNS queries, while providing detailed information on the resolution process, the hierarchy of servers consulted, the type of record obtained (A, AAAA, MX, TXT, etc.) and any problems encountered.
+`dig` (*Domain Information Groper*) is a more modern, complete, and flexible tool than `nslookup`. It supports complex queries and provides detailed information about the resolution process, the hierarchy of servers involved, the type of record returned (A, AAAA, MX, TXT, etc.), and any errors encountered.
 
-Here is an example of a standard query:
-
+Basic query example:
 ```bash
 dig mydmn.org
 ```
 
-Or to target a specific DNS server:
-
+Querying a specific DNS server:
 ```bash
 dig @192.6.23.4 mydmn.org
 ```
 
-This command is used to test the availability of a DNS record on a given server. One of the major advantages of `dig` is its ability to display the details of the returned DNS message, which is useful for diagnosing configuration errors.
-
+This command checks the availability of a DNS record on a given server. 
+One of `dig`'s key advantages is that it shows the details of the DNS response, making it very useful for diagnosing configuration errors.
 
 #### Manual configuration of DNS resolvers
 
-It is sometimes necessary to modify the DNS servers used locally, particularly in test environments or to force the use of specific servers. This can be done by editing the `/etc/resolv.conf` file, which defines the system's DNS lookup parameters.
+Sometimes its necessary to override the DNS servers used locally, for example, in test environments or to force the use of specific servers. This can be done by editing the `/etc/resolv.conf` file, which defines the system's DNS resolution settings.
 
-Here is an example configuration:
+Example configuration:
 
 ```bash
 vi /etc/resolv.conf
@@ -2154,52 +2146,49 @@ nameserver 192.168.1.10
 nameserver 192.168.1.11
 ```
 
-- The `search` field indicates the domain to be added automatically when resolving short names;
-- The `nameserver` directives specify the IP addresses of the DNS servers to be used. The order in which they appear determines the query priority.
+- The `search` field specifies a domain to append automatically when resolving short names.
+- The `nameserver` entries define the DNS servers to use, in order of priority.
 
-Note that this configuration is temporary in many modern distributions (especially with `systemd-resolved`) and may be overwritten each time you reboot or reconnect to the network. More permanent methods exist (such as using `resolvconf`, `systemd-resolved`, or modifying *NetworkManager* files).
+On many modern distributions (especially those using `systemd-resolved`), changes to `/etc/resolv.conf` are temporary and may be overwritten at reboot or network reconnection. More permanent methods include using `resolvconf`, `systemd-resolved`, or modifying *NetworkManager* configurations.
 
 #### The `host` command
 
-The `host` tool is another simple but effective DNS utility. It allows you to resolve domain names to IP addresses, or vice versa, and can also be used to diagnose DNS response errors or failures on a Interface network.
+Another simple but effective DNS tool is `host`. It resolves domain names into IP addresses (or the reverse) and can help diagnose DNS failures or misconfigurations on a network interface.
 
-Example of use:
-
+Examples:
 ```bash
 host mydmn.org
 ```
 
-Or for a reverse resolution :
-
+Reverse lookup:
 ```bash
 host 192.6.23.4
 ```
 
-It is particularly useful for spot checks, especially on the command line in automated scripts.
+`host` is particularly handy for quick checks, especially when used in command-line scripts.
 
-It's important to remember that repeatedly or intensively querying third-party DNS servers without authorization can be considered an intrusion attempt or malicious behavior. Certain commands, when misused (or used on networks that do not belong to you), can be assimilated to network reconnaissance, a first step in certain forms of attack. It is therefore important to limit the use of these tools to the environments you administer, or for which you are explicitly responsible.
+Repeated or intensive queries to third-party DNS servers without permission may be interpreted as intrusion attempts or malicious activity. Used improperly, or against networks you don't control, these commands can resemble reconnaissance scans, which are often a first step in an attack. Always restrict their use to environments you administer or where you have explicit authorization.
 
-### Network interrogation tools
+### Network Scanning Tools
 
-When monitoring or securing a local or wide area network, it's important to be able to identify active equipment and the services they expose. This is precisely what the `nmap` (*Network Mapper*) tool enables.
+When monitoring or securing a local or wide area network, it's crucial to identify active devices and the services they expose. This is exactly what the `nmap` (*Network Mapper*) tool does.
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-#### Introducing `nmap
+#### Introducing `nmap`
 
-`nmap` enables targeted interrogation of one or more hosts to detect open ports, accessible services (HTTP, SSH, DNS...) and sometimes even the type of operating system in use. Thanks to its numerous options, it is possible to obtain a precise and synthetic vision of the state of a network's exposure surface, which is essential in the auditing or hardening phases of an infrastructure.
+`nmap` allows targeted scanning of one or more hosts to detect open ports, available services (HTTP, SSH, DNS, etc.), and sometimes even the type of operating system in use. Thanks to its many options, `nmap` provides a precise overview of a network's exposure surface, essential during auditing or hardening phases of infrastructure management.
 
-As with the `host` command, it should never be used on a network or infrastructure that does not belong to you, or without explicit authorization. Unauthorized port scans can be considered as malicious reconnaissance attempts, and are often detected as such by security devices (firewalls, IDS/IPS), or even punished.
+Just like the `host` command, `nmap` must never be used on networks or infrastructures you don’t own, or without explicit authorization. Unauthorized port scans can be flagged as malicious reconnaissance attempts, are often detected by security systems (firewalls, IDS/IPS), and can even lead to legal consequences.
 
 #### Basic use
 
-To scan a specific host and view open ports, simply run :
-
+To scan a specific host and view its open ports:
 ```bash
 nmap 192.168.0.1
 ```
 
-This command will scan the 1000 most common ports on host `192.168.0.1` and display the services accessed and protocols used. If DNS is configured, it is also possible to use the host name instead of the IP address.
+This command scan the 1000 most common ports on host `192.168.0.1` and display the services accessed and protocols used. If DNS resolution is configured, you can also use the hostname instead of the IP address.
 
 #### Complete network scan
 

@@ -3927,348 +3927,229 @@ Saya tidak akan kembali membahas alternatif untuk browser dan pesan instan di si
 
 ### Email pelanggan
 
-
 Email tetap menjadi alat komunikasi yang penting, tetapi aplikasi yang paling populer, seperti Gmail atau Outlook, menimbulkan sejumlah masalah privasi. Layanan-layanan ini sering kali menganalisis pesan Anda, menyimpan metadata, dan berpartisipasi dalam pembuatan profil iklan.
 
-
 **Alternatif**:
-
-
 
 - [FairEmail](https://email.faircode.eu/)
 
-
 FairEmail adalah aplikasi Android yang komprehensif dan berorientasi pada keamanan. Aplikasi ini mendukung semua penyedia IMAP/SMTP, memungkinkan enkripsi pesan melalui OpenPGP, memblokir gambar jarak jauh (digunakan sebagai pelacak), dan tidak menggunakan layanan pihak ketiga. Aplikasi ini memberi Anda kontrol yang sangat baik atas koneksi, pemberitahuan, dan perilaku sinkronisasi.
 
+FairEmail adalah aplikasi Android yang lengkap dan berorientasi pada keamanan. Aplikasi ini mendukung semua penyedia IMAP/SMTP, memungkinkan enkripsi pesan melalui OpenPGP, memblokir gambar jarak jauh (yang digunakan sebagai tracker), dan tidak menggunakan layanan pihak ketiga. Aplikasi ini memberi Anda kontrol terperinci atas koneksi, notifikasi, dan cara kerja sinkronisasi.
 
 ![Image](assets/fr/155.webp)
 
-
-
 - [K-9 Mail](https://k9mail.app)
 
-
-K-9 Mail adalah klien email Android sumber terbuka, yang baru-baru ini diintegrasikan ke dalam ekosistem Thunderbird Mozilla. K-9 Mail mendukung banyak akun, enkripsi PGP melalui OpenKeychain, dan bekerja tanpa server perantara.
-
+K-9 Mail adalah aplikasi email Android open-source yang baru-baru ini diintegrasikan ke dalam ekosistem Thunderbird milik Mozilla. Aplikasi ini mendukung banyak akun, enkripsi PGP melalui OpenKeychain, dan bekerja tanpa server perantara.
 
 ![Image](assets/fr/156.webp)
 
-
-
 - [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
-
-Thunderbird Mobile adalah versi mobile dari klien email sumber terbuka populer yang dikembangkan oleh Mozilla Foundation. Sesuai dengan filosofi proyek, aplikasi ini menekankan kerahasiaan, transparansi kode, dan tidak adanya telemetri yang mengganggu. Thunderbird Mobile didasarkan pada aplikasi K-9 Mail, yang merupakan penerus resminya di Android. Aplikasi ini memiliki fitur manajemen akun IMAP dan POP yang canggih, enkripsi email (melalui OpenPGP), dan Interface yang sederhana dan efisien.
-
+Thunderbird Mobile adalah versi mobile dari aplikasi email open-source populer yang dikembangkan oleh Mozilla Foundation. Sesuai dengan filosofi proyek, aplikasi ini menekankan kerahasiaan, transparansi kode, dan tidak adanya telemetri yang mengganggu. Thunderbird Mobile didasarkan pada aplikasi K-9 Mail, yang merupakan penerus resminya di Android. Aplikasi ini memiliki manajemen lanjutan untuk akun IMAP dan POP, enkripsi email (melalui OpenPGP), dan Interface yang sederhana dan efisien.
 
 ![Image](assets/fr/157.webp)
 
-
-
 - [Tuta](https://tuta.com/)
 
-
-Tuta (sebelumnya "*Tutanota*") menawarkan solusi email terenkripsi end-to-end yang lengkap, tetapi klien selulernya hanya mendukung akun Tuta. Ini tidak bekerja dengan penyedia lain. Interface modern dan rapi, dan pendaftarannya tidak memerlukan data pribadi.
-
+Tuta (sebelumnya "_Tutanota_") menawarkan solusi email terenkripsi ujung-ke-ujung (end-to-end) yang lengkap, tetapi aplikasi mobile-nya hanya mendukung akun Tuta. Ini tidak berfungsi dengan penyedia lain. Interface modern dan rapi, dan pendaftaran tidak memerlukan data pribadi.
 
 ![Image](assets/fr/158.webp)
 
-
-
 - [Proton Mail](https://proton.me/mail)
 
-
-Proton Mail adalah layanan perpesanan aman yang berbasis di Swiss yang menawarkan enkripsi end-to-end asli antara pengguna Proton. Aplikasi seluler ini bersumber terbuka, bebas iklan, dan tidak mengumpulkan data pribadi saat pendaftaran. Proton Mail hanya mendukung akun Proton, tetapi memungkinkan pengiriman terenkripsi bahkan ke alamat eksternal melalui kata sandi.
-
+Proton Mail adalah layanan pesan instan aman yang berbasis di Swiss, menawarkan enkripsi end-to-end bawaan antara pengguna Proton. Aplikasi mobile-nya bersifat open-source, bebas iklan, dan tidak mengumpulkan data pribadi saat pendaftaran. Proton Mail hanya mendukung akun Proton, tetapi memungkinkan pengiriman terenkripsi bahkan ke alamat eksternal melalui kata sandi.
 
 ![Image](assets/fr/159.webp)
 
+Sistem email didasarkan pada 2 komponen yang berbeda: Penyedia email (seperti Gmail, Tuta, atau Proton Mail), yang menangani penerimaan, pengiriman, dan penyimpanan pesan melalui server; dan pengguna email, yang merupakan aplikasi yang digunakan untuk melihat dan menulis email Anda (seperti aplikasi Gmail, Outlook, K-9 Mail, atau Thunderbird). Pengguna dapat terhubung ke penyedia yang berbeda melalui protokol standar seperti IMAP atau SMTP.
 
-Sistem email didasarkan pada 2 komponen yang berbeda: Penyedia email (seperti Gmail, Tuta atau Proton Mail), yang menangani penerimaan, pengiriman dan penyimpanan pesan melalui server; dan klien email, yang merupakan aplikasi yang digunakan untuk melihat dan menulis email Anda (seperti aplikasi Gmail, Outlook, K-9 Mail atau Thunderbird). Klien dapat terhubung ke penyedia yang berbeda melalui protokol standar seperti IMAP atau SMTP.
-
-
-Oleh karena itu, dimungkinkan untuk menggunakan klien sumber terbuka yang ramah privasi sementara pada awalnya mempertahankan akun dengan penyedia yang lebih tradisional. Beberapa aplikasi, seperti Gmail, Proton Mail atau Tuta, menawarkan klien email yang juga berfungsi sebagai penyedia pesan, dan dengan demikian menawarkan solusi lengkap yang mengintegrasikan pembacaan dan pengiriman/penerimaan email Interface.
-
+Oleh karena itu, dimungkinkan untuk menggunakan aplikasi open-source yang ramah privasi sambil tetap menggunakan akun dari penyedia yang lebih tradisional. Beberapa aplikasi, seperti Gmail, Proton Mail, atau Tuta, menawarkan aplikasi email yang juga berfungsi sebagai penyedia pesan, dan dengan demikian menawarkan solusi lengkap yang mengintegrasikan Interface untuk membaca serta layanan pengiriman dan penerimaan email.
 
 Berikut adalah beberapa saran, di mana Anda memilih penyedia email Anda:
 
-
-
 - [Proton Mail](https://proton.me/mail)
 - [Tuta](https://tuta.com/)
-- [Kotak surat](https://mailbox.org/)
-- [Cabut](https://disroot.org/)
-- [Pagar Surat](https://mailfence.com/)
-
+- [Mailbox](https://mailbox.org/)
+- [Disroot](https://disroot.org/)
+- [Mailfence](https://mailfence.com/)
 
 ### Kartografi dan navigasi
 
-
 Sebagian besar aplikasi pemetaan klasik, seperti Google Maps, Waze, atau Citymapper, mengumpulkan banyak sekali data pribadi. Aplikasi-aplikasi ini merekam pergerakan, pencarian, dan kebiasaan Anda, dan menggunakannya untuk tujuan komersial.
-
 
 **Alternatif**:
 
+- [Organic Maps](https://organicmaps.app/)
 
+Organic Maps adalah aplikasi navigasi offline gratis. Aplikasi ini didasarkan pada data dari [OpenStreetMap](https://www.openstreetmap.org), sebuah basis data kolaboratif yang terbuka. Anda mengunduh peta dari wilayah yang Anda minati, lalu bernavigasi tanpa jaringan.
 
-- [Peta Organik](https://organicmaps.app/)
-
-
-Organic Maps adalah aplikasi navigasi offline gratis. Aplikasi ini didasarkan pada data dari [OpenStreetMap] (https://www.openstreetmap.org), sebuah basis data kolaboratif yang terbuka. Anda mengunduh peta wilayah yang Anda minati, lalu menavigasinya tanpa jaringan.
-
-
-Aplikasi ini tidak mengandung iklan, pelacakan atau pengumpulan data. Aplikasi ini sangat cocok untuk perjalanan dengan berjalan kaki, bersepeda, atau mobil, dengan Interface yang sederhana, cepat, dan bebas gangguan.
-
+Aplikasi ini tidak mengandung iklan, pelacakan, atau pengumpulan data. Aplikasi ini sangat cocok untuk perjalanan dengan berjalan kaki, sepeda, atau mobil, dengan Interface yang sederhana, cepat, dan bebas gangguan.
 
 ![Image](assets/fr/160.webp)
 
-
-
 - [OsmAnd](https://osmand.net/)
 
+OsmAnd (*OpenStreetMap Automated Navigation Directions*) adalah aplikasi pemetaan open-source lengkap lainnya. Aplikasi ini menawarkan navigasi GPS offline, peta yang terperinci (termasuk jalan setapak, jalur sepeda, dan bentang alam), serta penyesuaian ekstensif.
 
-OsmAnd (*OpenStreetMap Automated Navigation Directions*) adalah aplikasi pemetaan sumber terbuka yang komprehensif. Aplikasi ini menawarkan navigasi GPS offline, peta yang terperinci (termasuk jalur, jalur sepeda, dan bentang alam), dan penyesuaian yang ekstensif.
+Anda dapat mengaktifkan berbagai lapisan (zona pejalan kaki, transportasi umum, dll.), menentukan peringatan kecepatan, atau mengintegrasikan peta khusus seperti untuk rute pendakian atau rute laut.
 
-
-Anda dapat mengaktifkan lapisan yang berbeda (zona pejalan kaki, transportasi umum, dll.), menentukan peringatan kecepatan, atau mengintegrasikan peta khusus seperti peta untuk hiking atau rute bahari.
-
-
-Versi gratisnya sudah sangat kaya, dan versi berbayarnya memungkinkan Anda membuka lebih banyak fitur dan mendukung proyek.
-
+Versi gratisnya sudah sangat kaya fitur, dan versi berbayar memungkinkan Anda untuk membuka lebih banyak fitur dan mendukung proyek tersebut.
 
 ![Image](assets/fr/161.webp)
 
-
 ### Otomatisasi kantor dan dokumen
 
-
-Alat-alat kantor klasik seperti Google Docs atau Microsoft Office sangat praktis, tetapi menimbulkan masalah kerahasiaan yang serius. Dokumen disimpan di server mereka, dianalisis, dan terkadang digunakan untuk tujuan pemasaran atau untuk melatih model AI.
-
+Aplikasi-aplikasi kantor klasik seperti Google Docs atau Microsoft Office sangat praktis, tetapi menimbulkan masalah kerahasiaan yang serius. Dokumen disimpan di server mereka, dianalisis, dan terkadang digunakan untuk tujuan pemasaran atau untuk melatih model AI.
 
 **Alternatif**:
 
+- [Collabora Office](https://www.collaboraoffice.com/)
 
+Collabora Office adalah versi mobile dari LibreOffice, yang dirancang untuk smartphone dan tablet Android dan iOS. Aplikasi ini memungkinkan Anda membuat, mengedit, dan berbagi dokumen kantor tanpa pernah meninggalkan perangkat atau cloud pribadi Anda.
 
-- [Kantor Collabora](https://www.collaboraoffice.com/)
-
-
-Collabora Office adalah versi mobile dari LibreOffice, yang dirancang untuk smartphone dan tablet Android dan iOS. Aplikasi ini memungkinkan Anda membuat, mengedit, dan berbagi dokumen kantor tanpa harus meninggalkan perangkat atau cloud pribadi.
-
-
-Aplikasi ini mendukung pengeditan kolaboratif ketika terhubung ke instance Nextcloud dengan ekstensi Collabora Online. Hal ini memungkinkan untuk mereproduksi pengalaman seperti Google Docs, tetapi dengan meng-host file Anda sendiri.
-
+Aplikasi ini mendukung pengeditan kolaboratif saat terhubung ke instans Nextcloud dengan ekstensi Collabora Online. Ini memungkinkan untuk mereplikasi pengalaman mirip Google Docs, tetapi dengan hosting file Anda sendiri.
 
 ![Image](assets/fr/162.webp)
 
-
-
 - [ONLYOFFICE](https://www.onlyoffice.com/)
 
-
-ONLYOFFICE adalah paket perkantoran sumber terbuka. Aplikasi ini memungkinkan Anda membuka dan mengedit dokumen Word, Excel, dan PowerPoint secara langsung di ponsel, bahkan secara lokal. Anda juga dapat menghubungkannya ke berbagai layanan cloud untuk sinkronisasi otomatis, seperti Nextcloud.
-
+ONLYOFFICE adalah office suite yang open-source. Aplikasi ini memungkinkan Anda membuka dan mengedit dokumen Word, Excel, dan PowerPoint langsung di mobile Anda, bahkan secara lokal. Anda juga dapat menghubungkannya ke berbagai layanan cloud untuk sinkronisasi otomatis, seperti Nextcloud.
 
 ![Image](assets/fr/163.webp)
 
+### Pengelola file dan cloud
 
-### Manajer file dan cloud
-
-
-Layanan seperti Google Drive atau Dropbox menyimpan file Anda di server jarak jauh milik perusahaan swasta. Data Anda kemudian dapat dipindai dan digunakan untuk tujuan periklanan atau statistik. Terlebih lagi, Anda memerlukan koneksi Internet dan akun pihak ketiga untuk mengaksesnya.
-
+Layanan seperti Google Drive atau Dropbox menyimpan file Anda di server jarak jauh milik perusahaan swasta. Data Anda kemudian dapat dipindai dan digunakan untuk tujuan iklan atau statistik. Terlebih lagi, Anda memerlukan koneksi internet dan akun pihak ketiga untuk mengaksesnya.
 
 **Alternatif**:
 
-
-
 - [Nextcloud](https://nextcloud.com/)
 
+Nextcloud adalah solusi cloud pribadi yang open-source yang dapat Anda hosting sendiri atau gunakan melalui penyedia tepercaya. Ini memungkinkan Anda menyinkronkan, berbagi, dan mengedit file dari smartphone Anda, sambil mempertahankan kontrol total atas penyimpanannya.
 
-Nextcloud adalah solusi awan pribadi bersumber terbuka yang dapat Anda hosting sendiri atau digunakan melalui penyedia tepercaya. Solusi ini memungkinkan Anda menyinkronkan, berbagi, dan mengedit file dari ponsel cerdas Anda, sekaligus mempertahankan kendali penuh atas penyimpanannya.
-
-
-Di Android, Anda dapat menginstal aplikasi seluler Nextcloud resmi untuk mengakses awan pribadi Anda dari mana saja. Anda juga dapat menambahkan fungsi seperti manajemen foto, kantor, kalender, dan perpesanan.
-
+Di Android, Anda dapat memasang aplikasi mobile resmi Nextcloud untuk mengakses cloud pribadi Anda dari mana saja. Anda juga dapat menambahkan fungsi-fungsi seperti manajemen foto, pekerjaan kantor, kalender, dan pesan.
 
 ![Image](assets/fr/164.webp)
 
+- [Material Files](https://github.com/zhanghai/MaterialFiles)
 
+Material Files adalah pengelola file yang open-source yang ringan dan rapi. Aplikasi ini memungkinkan Anda untuk menjelajah, memindahkan, menyalin, atau menghapus file secara lokal di perangkat Android Anda.
 
-- [Berkas Materi](https://github.com/zhanghai/MaterialFiles)
-
-
-Material Files adalah pengelola berkas sumber terbuka yang ringan dan rapi. Aplikasi ini memungkinkan Anda menelusuri, memindahkan, menyalin, atau menghapus file secara lokal di perangkat Android.
-
-
-Aplikasi ini tidak mengandung iklan atau pelacak, dan tidak memerlukan izin yang tidak semestinya. Ini adalah alternatif yang menarik untuk penjelajah file yang disediakan Google, yang sering kali diintegrasikan ke dalam layanan cloud berpemilik lainnya.
-
+Aplikasi ini tidak mengandung iklan atau tracker, dan tidak meminta izin yang berlebihan. Ini adalah alternatif yang menarik untuk penjelajah file yang disediakan Google, yang sering kali terintegrasi ke dalam layanan cloud eksklusif lainnya.
 
 ![Image](assets/fr/165.webp)
 
 
 ### Kalender / Buku Harian
 
-
-Banyak orang menggunakan aplikasi seperti Google Kalender atau Kalender Outlook untuk mengelola janji temu mereka. Namun layanan ini terhubung ke akun online terpusat yang mengumpulkan data tentang kebiasaan, lokasi pertemuan, dan interaksi Anda.
-
+Banyak orang menggunakan aplikasi seperti Google Calendar atau Outlook Calendar untuk mengelola janji temu mereka. Namun, layanan ini terhubung ke akun online terpusat yang mengumpulkan data tentang kebiasaan Anda, lokasi pertemuan, dan interaksi.
 
 **Alternatif**:
-
-
 
 - [Etar](https://github.com/Etar-Group/Etar-Calendar)
 
-
-Etar adalah kalender yang sederhana, efisien, dan sepenuhnya bersumber terbuka. Kalender ini dapat berjalan secara lokal, tetapi juga memungkinkan sinkronisasi melalui CalDAV, protokol standar untuk menyinkronkan kalender dengan layanan yang ramah privasi (seperti Nextcloud atau EteSync).
-
+Etar adalah kalender yang sederhana, efisien, dan sepenuhnya open-source. Aplikasi ini dapat berjalan secara lokal, tetapi juga memungkinkan sinkronisasi melalui CalDAV, sebuah protokol standar untuk menyinkronkan kalender dengan layanan yang ramah privasi (seperti Nextcloud atau EteSync).
 
 ![Image](assets/fr/166.webp)
 
+- [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
-
-- [Kalender Sederhana](https://simplemobiletools.com/simplecalendar/)
-
-
-Aplikasi ini merupakan bagian dari rangkaian "*Simple Mobile Tools*". Aplikasi ini tidak memerlukan akun atau akses jaringan, sehingga sangat ideal untuk penggunaan yang sepenuhnya offline. Anda dapat menambahkan acara, mengatur pengingat, dan mengatur tampilan berdasarkan hari, minggu, atau bulan. Seperti rangkaian aplikasi lainnya, Simple Calendar bebas iklan, bebas pelacak, dan 100% sumber terbuka.
-
+Aplikasi ini adalah bagian dari suite "_Simple Mobile Tools_". Aplikasi ini tidak memerlukan akun atau akses jaringan, menjadikannya ideal untuk penggunaan offline sepenuhnya. Anda dapat menambahkan acara, mengatur pengingat, dan mengatur tampilan berdasarkan hari, minggu, atau bulan. Seperti rangkaian aplikasi lainnya ini, Simple Calendar bebas iklan, bebas pelacak, dan 100% open-source.
 
 ![Image](assets/fr/167.webp)
 
+- [Tuta Calendar](https://tuta.com/calendar)
 
-
-- [Kalender Tuta](https://tuta.com/calendar)
-
-
-Tuta Calendar, yang dikembangkan oleh tim di balik Tuta Mail, adalah kalender terenkripsi end-to-end yang dirancang untuk menjaga kerahasiaan acara Anda. Kalender ini dapat digunakan di Android, iOS, dan melalui klien web. Bahkan judul, deskripsi, dan metadata acara Anda dienkripsi, memastikan bahwa tidak ada pihak ketiga, termasuk Tuta, yang dapat mengakses data Anda.
-
+Tuta Calendar, yang dikembangkan oleh tim di balik Tuta Mail, adalah kalender yang sepenuhnya terenkripsi ujung-ke-ujung (end-to-end) yang dirancang untuk menjaga kerahasiaan acara Anda. Aplikasi ini berfungsi di Android, iOS, dan melalui aplikasi web. Bahkan judul, deskripsi, dan metadata acara Anda dienkripsi, memastikan bahwa tidak ada pihak ketiga, termasuk Tuta, yang dapat mengakses data Anda.
 
 ![Image](assets/fr/168.webp)
 
+- [Proton Calendar](https://proton.me/calendar)
 
-
-- [Kalender Proton](https://proton.me/calendar)
-
-
-Kalender Proton juga menawarkan enkripsi end-to-end asli untuk acara Anda dan metadata mereka. Layanan ini dapat diakses di perangkat seluler (Android, iOS) dan melalui klien web, dengan Interface yang jelas dan intuitif. Layanan ini memungkinkan pembuatan beberapa kalender, impor/ekspor acara dan opsi berbagi. Klien web adalah sumber terbuka, tetapi aplikasi seluler belum sepenuhnya sumber terbuka.
-
+Proton Calendar juga menawarkan enkripsi end-to-end bawaan untuk acara dan metadata-nya. Kalender ini dapat diakses di mobile (Android, iOS) dan melalui aplikasi web, dengan Interface yang jelas dan intuitif. Layanan ini memungkinkan pembuatan beberapa kalender, impor/ekspor acara, dan opsi berbagi. Aplikasi web-nya bersifat open-source, tetapi aplikasi mobile-nya belum sepenuhnya open-source.
 
 ![Image](assets/fr/169.webp)
 
-
 ### Pencatatan
 
-
-Aplikasi seperti Evernote, Google Keep atau OneNote digunakan untuk menangkap ide, mengatur tugas, atau menyimpan daftar. Namun, semua aplikasi ini bergantung pada layanan online berpemilik, yang memusatkan data Anda di server mereka dan sering kali menganalisis konten Anda untuk tujuan komersial.
-
+Aplikasi seperti Evernote, Google Keep, atau OneNote digunakan untuk mencatat ide, mengorganisasi tugas, atau menyimpan daftar. Namun, semuanya bergantung pada layanan online eksklusif, yang memusatkan data Anda di server mereka dan sering kali menganalisis konten Anda untuk tujuan komersial.
 
 **Alternatif**:
 
-
-
 - [Quillpad](https://quillpad.github.io/)
 
-
-Quillpad adalah aplikasi ringan yang dirancang khusus untuk pencatatan Markdown. Aplikasi ini memungkinkan Anda mengenkripsi catatan Anda secara opsional, mengatur konten Anda dengan tag dan warna, dan menambahkan pengingat. Semuanya bekerja tanpa akun atau koneksi, dan data tetap tersimpan di perangkat Anda. Catatan tersebut juga dapat disimpan secara terenkripsi di pCloud.
-
+Quillpad adalah aplikasi ringan yang dirancang khusus untuk membuat catatan Markdown. Aplikasi ini memungkinkan Anda untuk secara opsional mengenkripsi catatan Anda, mengorganisasi konten Anda berdasarkan tag dan warna, serta menambahkan pengingat. Semuanya berfungsi tanpa akun atau koneksi, dan data tetap tersimpan di perangkat Anda. Data juga dapat disimpan terenkripsi di pCloud.
 
 ![Image](assets/fr/170.webp)
 
-
-
 - [Joplin](https://joplinapp.org/)
 
+Joplin adalah solusi yang lebih lengkap, menawarkan sinkronisasi catatan terenkripsi melalui layanan yang kompatibel seperti Nextcloud, Dropbox, atau WebDAV. Anda dapat mengelola catatan sederhana atau terstruktur (dalam Markdown), mengklasifikasikan dokumen Anda, dan bahkan mengimpor lampiran file.
 
-Joplin adalah solusi yang lebih komprehensif, menawarkan sinkronisasi catatan terenkripsi melalui layanan yang kompatibel seperti Nextcloud, Dropbox, atau WebDAV. Anda bisa mengelola catatan sederhana atau terstruktur (dalam Markdown), mengklasifikasikan dokumen, dan bahkan mengimpor lampiran file.
-
-
-Interface sedikit lebih rumit daripada QuillNote, tetapi masih dapat digunakan dengan sempurna di perangkat seluler, dan cocok untuk penggunaan pribadi dan profesional.
-
+Interface sedikit lebih kompleks daripada Quillpad, tetapi masih dapat digunakan dengan sempurna di perangkat mobile, dan cocok untuk penggunaan pribadi maupun profesional.
 
 ![Image](assets/fr/171.webp)
 
 
-### Manajer kata sandi
+### Pengelola kata sandi
 
-
-Banyak pengguna yang membiarkan browser mereka menyimpan kata sandi mereka melalui solusi seperti Pengelola Kata Sandi Google. Meskipun nyaman, jenis manajemen terpusat ini tidak menawarkan enkripsi ujung ke ujung yang dikendalikan pengguna, dan mengekspos kredensial Anda pada risiko jika akun Google Anda dibobol. Untuk pengelolaan kata sandi Anda yang lebih aman dan berdaulat, beberapa alternatif sumber terbuka tersedia.
+Banyak pengguna membiarkan browser mereka menyimpan kata sandi melalui solusi seperti Google Password Manager. Meskipun nyaman, jenis manajemen terpusat ini tidak menawarkan enkripsi ujung-ke-ujung (end-to-end) yang dikontrol pengguna, dan membuat kredensial Anda berisiko jika akun Google Anda disusupi. Untuk manajemen kata sandi yang lebih aman dan mandiri, tersedia beberapa alternatif open-source.
 
 
 **Alternatif**:
 
-
-
 - [Bitwarden](https://bitwarden.com/)
 
+Bitwarden adalah salah satu pengelola kata sandi open-source paling lengkap yang tersedia. Aplikasi ini mengenkripsi semua kredensial Anda secara lokal, memungkinkan Anda menghasilkan kata sandi yang kuat, dan menawarkan sinkronisasi terenkripsi antar perangkat.
 
-Bitwarden merupakan salah satu pengelola kata sandi sumber terbuka paling komprehensif yang tersedia. Bitwarden mengenkripsi semua kredensial Anda secara lokal, memungkinkan Anda memiliki kata sandi yang kuat generate, dan menawarkan sinkronisasi terenkripsi antar perangkat.
-
-
-Anda bisa menggunakan peladen Bitwarden, atau meng-host sendiri jika Anda ingin mendapatkan kendali penuh. Ponsel Interface-nya jelas dan lancar, dengan integrasi yang mulus ke dalam sistem Android atau iOS.
-
+Anda dapat menggunakan server Bitwarden, atau mengelola sendiri (self-host) jika Anda suka untuk kontrol total. Interface mobile-nya jelas dan lancar, dengan integrasi yang mulus ke dalam sistem Android atau iOS.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
 
-
-KeePass adalah pengelola kata sandi historis yang didasarkan pada berkas lokal terenkripsi. Pada perangkat seluler, KeePassDX merupakan implementasi Android yang luar biasa, kompatibel dengan semua basis data KeePass. Ia bekerja secara offline, tanpa awan, menjadikannya solusi yang baik bagi mereka yang ingin menyimpan data mereka 100% lokal.
-
+KeePass adalah pengelola kata sandi yang sudah ada lama yang didasarkan pada file lokal terenkripsi. Di mobile, KeePassDX adalah implementasi Android yang sangat baik, kompatibel dengan semua basis data KeePass. Aplikasi ini bekerja offline, tanpa cloud, menjadikannya solusi yang baik bagi mereka yang ingin menjaga data mereka 100% lokal.
 
 ![Image](assets/fr/172.webp)
 
-
-Ada juga [KeePassium](https://keepassium.com/) untuk iOS, aplikasi yang terintegrasi dengan baik dalam ekosistem Apple, kompatibel dengan format KeePass dan sumber terbuka. Alternatif iOS lainnya untuk klien KeePass adalah Strongbox, tetapi perangkat lunak ini sudah tidak lagi menjadi sumber terbuka selama beberapa tahun.
-
+Ada juga [KeePassium](https://keepassium.com/) untuk iOS, aplikasi yang terintegrasi dengan baik dalam ekosistem Apple, kompatibel dengan format KeePass, dan open-source. Alternatif iOS lain untuk aplikasi KeePass adalah Strongbox, tetapi perangkat lunak ini tidak lagi open-source selama beberapa tahun.
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
 
-
-Diluncurkan oleh tim Proton (yang dikenal dengan Proton Mail dan Proton Drive), Proton Pass menggabungkan kemudahan penggunaan, enkripsi ujung ke ujung, dan infrastruktur Swiss yang ramah privasi. Aplikasi seluler ini intuitif, memungkinkan Anda menambahkan catatan yang aman, dan mendukung pelengkapan otomatis. Ini adalah alternatif yang sangat baik bagi mereka yang menginginkan solusi siap pakai, tanpa perlu mengkhawatirkan manajemen teknis.
-
+Diluncurkan oleh tim Proton (dikenal dengan Proton Mail dan Proton Drive, antara lain), Proton Pass menggabungkan kemudahan penggunaan, enkripsi end-to-end, dan infrastruktur Swiss yang ramah privasi. Aplikasi mobile-nya intuitif, memungkinkan Anda menambahkan catatan aman, dan mendukung pelengkapan otomatis (auto-completion). Ini adalah alternatif yang sangat baik bagi mereka yang menginginkan solusi siap pakai, tanpa harus khawatir tentang manajemen teknis.
 
 ![Image](assets/fr/173.webp)
 
-
 ### VPN
 
+VPN (*Virtual Private Network*) memungkinkan Anda untuk mengenkripsi lalu lintas internet Anda dan mengarahkannya melalui server perantara jarak jauh. Ini menyamarkan alamat IP Anda, mengamankan koneksi Anda di jaringan publik (Wi-Fi bandara, kafe...) dan melindungi Anda dari beberapa bentuk pengawasan.
 
-VPN (*Virtual Private Network*) memungkinkan Anda mengenkripsi lalu lintas Internet Anda dan merutekannya melalui server perantara jarak jauh. Hal ini akan menyembunyikan IP Address Anda, mengamankan koneksi Anda di jaringan publik (Wi-Fi bandara, kafe...) dan melindungi Anda dari bentuk-bentuk pengawasan tertentu.
-
-
-Namun, tidak semua VPN diciptakan sama. Layanan populer seperti NordVPN atau ExpressVPN berfungsi dengan baik, tetapi pendekatan mereka tetap komersial, dengan model berdasarkan pelacakan pengguna untuk pengoptimalan pemasaran. Mereka juga mengharuskan pembuatan akun dan sering kali mengumpulkan lebih banyak data daripada yang mereka sampaikan.
-
+Namun, tidak semua VPN diciptakan sama. Layanan populer seperti NordVPN atau ExpressVPN berfungsi dengan baik, tetapi pendekatan mereka tetap komersial, dengan model yang didasarkan pada pelacakan pengguna untuk optimasi pemasaran. Mereka juga memerlukan pembuatan akun dan sering kali mengumpulkan lebih banyak data dari yang mereka ungkapkan.
 
 **Alternatif**:
 
-
-
 - [Mullvad VPN](https://mullvad.net/)
 
-
-Mullvad merupakan salah satu VPN terbaik dalam hal proteksi privasi. Tidak memerlukan email atau kata sandi: Akun Anda ditautkan ke nomor acak sederhana. Pembayaran bisa dilakukan dengan bitcoin atau uang tunai. Klien selulernya bersumber terbuka, mudah digunakan dan tangguh. Mullvad tidak menyimpan catatan, tidak melacak penggunanya, dan secara teratur menerbitkan audit keamanan independen.
-
+Mullvad adalah salah satu VPN terbaik dalam hal perlindungan privasi. Aplikasi ini tidak memerlukan email atau kata sandi: Akun Anda terhubung ke nomor acak sederhana. Pembayaran dapat dilakukan dalam bitcoin atau tunai. Aplikasi mobile-nya open-source, mudah digunakan, dan kuat. Mullvad tidak menyimpan log, tidak melacak penggunanya, dan secara rutin mempublikasikan audit keamanan independen.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-
 - [IVPN] (https://www.ivpn.net/)
 
-
-IVPN merupakan alternatif lain yang berfokus pada privasi yang sangat baik. Menawarkan Interface seluler yang sederhana dan efisien, tidak ada pengumpulan log, dan memungkinkan pendaftaran anonim. Anda juga bisa membayar dengan bitcoin. Aplikasi ini dilengkapi dengan dinding api yang memblokir semua lalu lintas non-VPN, yang bisa sangat berguna pada ponsel cerdas. Kliennya bersumber terbuka.
-
+IVPN adalah alternatif berfokus pada privasi lain yang sangat baik. Aplikasi ini menawarkan Interface mobile yang sederhana dan efisien, tidak ada pengumpulan log, dan memungkinkan pendaftaran anonim. Anda juga dapat membayar dengan bitcoin. Aplikasi ini menggabungkan firewall yang memblokir semua lalu lintas non-VPN, yang bisa sangat berguna di smartphone. Aplikasi penggunanya juga open-source.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
 
-
-Dikembangkan oleh tim Proton, VPN ini menawarkan paket gratis dan bebas iklan. Proton VPN berbasis di Swiss, tunduk pada undang-undang privasi yang ketat, dan menerbitkan audit rutin. Klien-kliennya juga merupakan sumber terbuka.
-
+Dikembangkan oleh tim Proton, VPN ini menawarkan paket gratis dan bebas iklan. Proton VPN berbasis di Swiss, tunduk pada undang-undang privasi yang ketat, dan mempublikasikan audit rutin. Aplikasi penggunanya juga open-source.
 
 ![Image](assets/fr/174.webp)
 

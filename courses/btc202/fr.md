@@ -32,14 +32,43 @@ Faire tourner un nœud Bitcoin, ce n’est pas une option réservée aux experts
 ## Aperçu du cours
 <chapterId>916b1f86-38a4-4ede-bdb7-83841d5a7abe</chapterId>
 
-Présentation générale de la formation.
+Bienvenue dans ce cours BTC 202, où vous apprendrez à installer, configurer et utiliser un nœud Bitcoin de manière simple et autonome. Mais ce n’est pas tout : vous approfondirez également vos connaissances sur la place et le fonctionnement des nœuds dans le système Bitcoin. Ce cours alterne ainsi entre explications théoriques et mises en pratique guidées.
 
+### Partie 1 - Introduction
 
+Dans cette première partie du cours, nous allons clarifier les notions de base pour repartir sur des définitions précises. Qu’est-ce qu’un nœud ? Quelles sont les différences entre nœud, portefeuille et mineur ? Vous découvrirez ensuite ce que sont Bitcoin Core et les implémentations du protocole. Objectif : parler le même langage, éviter les confusions, et partir sur des bases théoriques solides pour la suite.
 
+### Partie 2 - Devenir un bitcoiner souverain
 
+Dans cette deuxième partie, je vous propose d’abord de comprendre pourquoi il est essentiel de faire tourner votre propre nœud Bitcoin. Nous explorerons ensuite les différents types de nœuds existants (complet, élagué, SPV…), leur fonctionnement et leurs implications techniques.
 
+Nous dresserons par la suite un panorama des logiciels permettant de faire tourner un nœud Bitcoin, en présentant les avantages et les inconvénients de chacun. Enfin, nous conclurons sur le choix du matériel le plus adapté en fonction de vos besoins et de votre budget, avec des recommandations très concrètes.
 
+Cette partie illustre donc le chemin du bitcoiner souverain : comprendre pourquoi il est nécessaire de faire tourner un nœud > choisir le type de nœud > en fonction de ce choix, sélectionner un logiciel > et, selon le logiciel retenu, déterminer le matériel adapté.
 
+### Partie 3 - Installer un nœud Bitcoin facilement
+
+Une fois cette préparation terminée, place à la pratique avec la partie 3 consacrée à Umbrel : l’OS home cloud qui simplifie le self-hosting et l’installation d’un nœud Bitcoin et Lightning.
+
+Après une brève présentation d’Umbrel, nous verrons comment l’installer et le configurer sur votre propre machine en DIY grâce à un tutoriel détaillé. L’objectif de cette partie est clair : disposer de votre premier nœud Bitcoin pleinement fonctionnel et synchronisé.
+
+### Partie 4 - Connecter son portefeuille à son nœud
+
+Maintenant que vous avez mis en place un nœud Bitcoin, il est temps de l’utiliser ! Dans cette partie, vous apprendrez à connecter vos logiciels de gestion de portefeuille (comme Sparrow Wallet) à votre propre indexeur d’adresses (Electrs ou Fulcrum), ou directement à Bitcoin Core, afin de ne plus dépendre de serveurs publics.
+
+Nous détaillerons également le rôle des indexeurs et les différents modes de connexion à votre nœud (LAN, Tor, Tailscale...). Enfin, dans le dernier chapitre, nous passerons en revue les applications les plus utiles disponibles sur Umbrel pour un bitcoiner au quotidien.
+
+### Partie 5 - Concepts avancés et bonnes pratiques
+
+Dans cette dernière partie de BTC 202, l’objectif est d’approfondir vos connaissances. Nous verrons d’abord les bonnes pratiques à adopter avec votre nouveau nœud Bitcoin et comment l’entretenir sur le long terme.
+
+Nous prendrons ensuite le temps de revenir sur certaines notions théoriques abordées plus tôt dans la formation : comprendre en détail le processus de l’IBD et la découverte des pairs, explorer l’anatomie d’un nœud, et enfin apprendre à utiliser le fichier `bitcoin.conf` pour ajuster vos paramètres.
+
+### Partie 6 - Partie finale
+
+Comme pour toutes les autres formations de Plan ₿ Network, vous trouverez dans la dernière partie un examen final pour évaluer vos connaissances sur les nœuds Bitcoin.
+
+Alors, êtes-vous prêt à faire tourner votre premier nœud Bitcoin ? Cap sur la souveraineté !
 
 ## Qu’est-ce qu’un nœud Bitcoin ?
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
@@ -49,9 +78,7 @@ Comme le décrit Satoshi Nakamoto, son créateur, Bitcoin se présente comme un 
 - Ensuite, il explique que ce système permet l’utilisation d’un cash électronique, c’est-à-dire une forme de monnaie immatérielle ;
 - Enfin, il précise que ce système ne dépend d’aucune entité centrale : il est "pair-à-pair", ce qui signifie que ce sont les utilisateurs eux-mêmes qui font fonctionner le système.
 
-Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines.
-
-Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
+Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
 
 Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open-source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 

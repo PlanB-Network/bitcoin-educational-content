@@ -1,100 +1,103 @@
 ---
 name: Satscard
-description: Mengatur dan menggunakan Satscard dengan Nunchuk
+description: Cara Mengatur dan menggunakan Satscard dengan Nunchuk
 ---
 ![cover](assets/cover.webp)
 
-Bitcoin adalah sistem uang elektronik yang memungkinkan kita untuk melakukan transaksi peer-to-peer. Namun, untuk meyakinkan bahwa sebuah transaksi tidak dapat diubah, diperlukan beberapa konfirmasi (biasanya 6), untuk menghindari kemungkinan pengeluaran ganda oleh pengirim. Keterlambatan validasi ini terkadang bisa menjadi tidak nyaman, terutama ketika kefinalan segera seperti uang tunai fisik diinginkan. Berbeda dengan uang tunai, di mana kepemilikan sebuah uang kertas ditransfer secara instan, transaksi Bitcoin melibatkan waktu tunggu sebelum dianggap tidak dapat dibalik secara definitif.
+Bitcoin adalah sistem uang elektronik yang memungkinkan kita melakukan transaksi peer-to-peer. Namun, supaya sebuah transaksi benar-benar nggak bisa diubah, dibutuhkan beberapa konfirmasi (biasanya 6) untuk mencegah kemungkinan pengeluaran ganda oleh pengirim. Keterlambatan validasi ini kadang bisa bikin nggak nyaman, terutama kalau kefinalan instan kayak uang tunai fisik yang diinginkan. Beda sama uang tunai, di mana kepemilikan selembar uang kertas langsung berpindah, transaksi Bitcoin butuh waktu tunggu sebelum dianggap benar-benar nggak bisa dibalik.
 
-Di sinilah Satscard berperan. Ini menawarkan metode untuk memungkinkan transmisi fisik dan instan bitcoin, tanpa perlu melakukan transaksi on-chain. Satscard berfungsi sebagai kartu pemegang yang memungkinkan transfer kepemilikan bitcoin secara aman, sehingga menawarkan pengalaman yang lebih dekat dengan uang tunai tradisional. Dalam tutorial ini, saya akan memperkenalkan Anda pada solusi ini.
+Di sinilah Satscard berperan. Kartu ini nawarin cara untuk ngirim bitcoin secara fisik dan instan, tanpa harus bikin transaksi on-chain. Satscard berfungsi sebagai kartu pemegang yang bisa mindahin kepemilikan bitcoin dengan aman, jadi pengalamannya lebih mirip sama uang tunai tradisional. Dalam tutorial ini, aku bakal ngenalin kamu sama solusi ini.
 
 ## Apa itu Satscard?
 
-Satscard dari Coinkite adalah penerus dari Opendime. Ini adalah kartu NFC yang memungkinkan transmisi fisik bitcoin, serupa dengan uang kertas atau koin. Tidak seperti dompet hardware tradisional, Satscard adalah kartu pemegang, yang berarti bahwa kepemilikan fisik kartu sama dengan kepemilikan bitcoin yang diamankan dengan kunci yang disimpan di dalamnya. Harganya berkisar antara $6.99 dan $17.99 tergantung pada desain yang dipilih.
+Satscard dari Coinkite adalah penerus Opendime. Ini adalah kartu NFC yang bisa ngirim bitcoin secara fisik, mirip kayak uang kertas atau koin. Beda dari dompet hardware tradisional, Satscard adalah kartu pemegang, yang artinya kepemilikan fisik kartu sama dengan kepemilikan bitcoin yang diamankan dengan kunci di dalamnya. Harganya ada di kisaran $6,99 sampai $17,99 tergantung desain yang kamu pilih.
 
 ![SATSCARD](assets/notext/01.webp)
 
-Chip Satscard dilengkapi dengan 10 slot, memungkinkannya untuk menyimpan bitcoin hingga 10 kali di 10 alamat berbeda. Setiap slot beroperasi secara independen dan secara teoritis harus digunakan hanya sekali untuk mengunci bitcoin di dalamnya. Untuk menghabiskan bitcoin, cukup buka segel slot dengan aplikasi yang kompatibel, seperti Nunchuk, dengan memasukkan kode verifikasi 6 digit yang tercatat di bagian belakang Satscard.
+Chip Satscard dilengkapi dengan 10 slot, yang bikin kamu bisa nyimpen bitcoin sampai 10 kali di 10 alamat berbeda. Setiap slot jalan secara independen dan secara teori harus dipakai sekali aja buat ngunci bitcoin di dalamnya. Buat ngabisin bitcoin, kamu cukup buka segel slot pakai aplikasi yang kompatibel, misalnya Nunchuk, dengan masukin kode verifikasi 6 digit yang tercetak di bagian belakang Satscard.
 
-Kartu ini memastikan bahwa kunci privat yang mengamankan bitcoin di blockchain tidak dapat ditahan oleh pemilik sebelumnya setelah mereka secara fisik berpisah dengan kartu. Penerima juga dapat memverifikasi validitas slot dan jumlah yang disimpan di dalamnya pada saat pertukaran.
+Kartu ini ngejamin kalau kunci privat yang ngamanin bitcoin di blockchain nggak bisa lagi dipegang pemilik sebelumnya setelah kartu itu berpindah tangan secara fisik. Penerima juga bisa langsung ngecek validitas slot dan jumlah yang tersimpan di dalamnya waktu pertukaran berlangsung.
 
-Sistem ini sangat berguna untuk membeli barang fisik dengan bitcoin, atau untuk memberikan bitcoin sebagai hadiah.
+Sistem ini sangat berguna buat belanja barang fisik pakai bitcoin, atau buat ngasih bitcoin sebagai hadiah.
 
 ## Bagaimana cara membeli Satscard?
 
-Satscard tersedia untuk dibeli [di situs resmi Coinkite](https://store.coinkite.com/store/category/satscard). Untuk membelinya di toko fisik, Anda juga dapat menemukan [daftar reseller bersertifikat](https://coinkite.com/resellers) di situs tersebut.
-Anda juga akan memerlukan telepon yang kompatibel dengan komunikasi NFC, atau perangkat USB untuk membaca kartu NFC pada frekuensi standar 13.56 MHz.
+Satscard bisa kamu beli [di situs resmi Coinkite](https://store.coinkite.com/store/category/satscard). Untuk belinya di toko fisik, kamu juga bisa nemuin [daftar reseller bersertifikat](https://coinkite.com/resellers) di situs tersebut.
+Kamu juga bakal butuh ponsel yang kompatibel dengan komunikasi NFC, atau perangkat USB buat baca kartu NFC di frekuensi standar 13,56 MHz.
+
 ## Bagaimana cara memuat slot di Satscard?
 
-Setelah Anda menerima Satscard Anda, langkah pertama adalah memeriksa kemasannya untuk memastikan tidak ada yang terbuka. Jika kemasan rusak, itu bisa menunjukkan bahwa kartu telah dikompromikan dan mungkin tidak asli.
+Setelah kamu nerima Satscard, langkah pertama adalah ngecek kemasannya buat pastiin nggak ada yang kebuka. Kalau kemasannya rusak, itu bisa jadi tanda kalau kartu udah dikompromikan dan mungkin nggak asli.
 
-Untuk mengelola Satscard, kita akan menggunakan aplikasi seluler **Nunchuk Wallet**. Pastikan smartphone Anda kompatibel dengan NFC, kemudian unduh Nunchuk dari [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073), atau langsung melalui file [`.apk`](https://github.com/nunchuk-io/nunchuk-android/releases) nya.
-Secara teori, Anda bisa langsung mengirim bitcoin ke alamat yang ditentukan di bagian belakang Satscard Anda tanpa menggunakan Nunchuk. Namun, saya menyarankan agar tidak melakukan ini, karena kami akan terlebih dahulu memverifikasi bahwa alamat slot pertama memang berasal dari kunci privat yang disimpan di Satscard dan bukan alamat palsu.
+Nah, Untuk mengelola Satscard, kita bakal pakai aplikasi seluler **Nunchuk Wallet.** Pastikan smartphone kamu kompatibel dengan NFC, lalu unduh Nunchuk dari [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073), atau bisa langsung melalui file [`.apk`](https://github.com/nunchuk-io/nunchuk-android/releases) nya.
+Secara teori, kamu bisa langsung ngirim bitcoin ke alamat yang tertera di bagian belakang Satscard tanpa pake Nunchuk. Tapi aku nyaranin jangan dulu, soalnya kita bakal verifikasi dulu kalau alamat slot pertama beneran berasal dari kunci privat yang disimpen di Satscard dan bukan alamat palsu.
 
-Jika Anda menggunakan Nunchuk untuk pertama kalinya, aplikasi akan menawarkan Anda untuk membuat akun. Untuk tujuan tutorial ini, tidak perlu membuat satu. Jadi, pilih "*Lanjutkan sebagai tamu*" untuk melanjutkan tanpa akun.
+Kalau kamu baru pertama kali pake Nunchuk, aplikasinya bakal nawarin buat bikin akun. Buat keperluan tutorial ini, kamu nggak perlu bikin akun. Jadi, pilih "*Lanjutkan sebagai tamu*" biar bisa lanjut tanpa akun.
 
-Kemudian klik pada "*Dompet tanpa bantuan*".
+Kemudian klik "*Dompet tanpa bantuan*".
 
-Selanjutnya, klik tombol "*Saya akan menjelajah sendiri*".
+Terus, klik tombol "*Saya akan menjelajah sendiri*".
 
 Setelah berada di layar utama Nunchuk, klik pada logo "*NFC*" di bagian atas layar.
 
-Dekatkan Satscard Anda ke bagian belakang ponsel Anda untuk memindainya.
+Tempelin Satscard ke bagian belakang ponsel kamu buat dipindai.
 
-Nunchuk menampilkan alamat penerima yang sesuai dengan slot pertama Satscard Anda. Biasanya, alamat ini harus identik dengan yang ditulis secara manual di bagian belakang kartu Anda. Salin alamat ini dan gunakannya untuk mentransfer bitcoin yang ingin Anda kunci dengan slot ini.
+Nunchuk bakal nampilin alamat penerima yang sesuai sama slot pertama Satscard kamu. Biasanya, alamat ini harus sama persis dengan yang ditulis manual di bagian belakang kartu. Salin alamat itu lalu pakai buat transfer bitcoin yang mau kamu kunci di slot ini.
 
 ## Bagaimana cara memeriksa bitcoin pada slot?
 
-Setelah transaksi dikonfirmasi, Anda dapat memeriksa saldo yang terkait dengan slot Satscard Anda dengan memindainya menggunakan Nunchuk. Dengan demikian, selama transaksi, penerima bitcoin dapat langsung memverifikasi, melalui aplikasi Nunchuk mereka, bahwa kartu memang mengandung bitcoin yang berhutang kepada mereka.
+Setelah transaksi terkonfirmasi, kamu bisa ngecek saldo yang terhubung ke slot Satscard dengan memindainya pakai Nunchuk. Dengan begitu, waktu transaksi berlangsung, penerima bitcoin bisa langsung verifikasi lewat aplikasi Nunchuk mereka kalau kartu itu beneran nyimpen bitcoin yang jadi hak mereka.
 
-Jika pihak lain tidak memiliki aplikasi Nunchuk, mereka masih dapat memverifikasi keabsahan Satscard. Cukup aktifkan NFC pada smartphone mereka dan letakkan Satscard di bagian belakang perangkat. Ini akan secara otomatis membuka situs web Satscard di browser, di mana seseorang dapat memeriksa keabsahan kartu serta jumlah bitcoin yang terkait dengannya.
+Kalau pihak lain nggak punya aplikasi Nunchuk, mereka tetap bisa verifikasi keaslian Satscard. Cukup aktifin NFC di smartphone mereka lalu tempelin Satscard ke bagian belakang perangkat. Browser bakal otomatis kebuka ke situs Satscard, di mana mereka bisa ngecek keaslian kartu sekaligus jumlah bitcoin yang terkait.
 
-## Bagaimana cara menarik bitcoin dari slot?
+## Bagaimana cara menarik Bitcoin dari slot?
 
-Sekarang setelah slot pertama Satscard telah diisi dengan sejumlah bitcoin, Anda dapat menyerahkan kartu tersebut kepada penerima pembayaran.
+Sekarang setelah slot pertama Satscard terisi dengan sejumlah bitcoin, kamu bisa langsung kasih kartu itu ke penerima pembayaran.
 
-Jika Anda adalah penerima, Anda perlu menginstal Nunchuk. Setelah di dalam aplikasi, klik pada logo "*NFC*" di bagian atas layar.
+Kalau kamu jadi penerima, kamu perlu instal Nunchuk. Setelah masuk ke aplikasi, klik logo "*NFC*" di bagian atas layar.
 
-Letakkan Satscard Anda di bagian belakang ponsel Anda.
+Tempelin Satscard ke bagian belakang ponsel kamu.
 
-Nunchuk akan mengungkapkan jumlah yang diamankan pada alamat tersebut.
+Nunchuk bakal nampilin jumlah yang diamankan di alamat itu.
 
-Untuk membuka kunci privat dan memindahkan bitcoin ke alamat yang Anda miliki, klik pada tombol "*Buka kunci dan sapu saldo*".
+Buat buka kunci privat dan mindahin bitcoin ke alamat yang kamu punya, klik tombol "*Buka kunci dan sapu saldo*".
 
-Opsi "*Sapu ke dompet*" memungkinkan Anda untuk langsung mengirim bitcoin ke dompet yang sudah ada di aplikasi Nunchuk Anda. Untuk mentransfer dana ke alamat penerima yang berbeda, pilih "*Tarik ke alamat*".
-Masukkan alamat penerima tempat Anda ingin mengirimkan bitcoin yang diamankan oleh Satscard. Pastikan alamat yang dimasukkan sudah benar (ini adalah satu-satunya waktu Anda dapat memverifikasinya), kemudian klik tombol "*Create transaction*".
+Opsi "*Sapu ke dompet*" bikin kamu bisa langsung ngirim bitcoin ke dompet yang udah ada di aplikasi Nunchuk. Kalau mau transfer dana ke alamat penerima lain, pilih "*Tarik ke alamat*".
+Masukin alamat penerima tempat kamu mau ngirim bitcoin yang diamankan Satscard. Pastikan alamat yang kamu masukin udah bener (ini satu-satunya waktu kamu bisa verifikasi), lalu klik tombol "*Create transaction*".
 
-Masukkan kode PIN dari Satscard Anda. Kode 6 digit ini tercatat di bagian belakang kartu fisik.
+Masukin kode PIN dari Satscard kamu. Kode 6 digit ini tercetak di bagian belakang kartu fisik.
 
-Simpan Satscard Anda di belakang smartphone Anda saat menandatangani transaksi dengan kunci privat yang tersimpan di kartu NFC.
+Tempelin Satscard di belakang smartphone kamu waktu menandatangani transaksi dengan kunci privat yang tersimpen di kartu NFC.
 
-Transaksi Anda sekarang telah ditandatangani dan disiarkan di jaringan Bitcoin, artinya slot yang digunakan di Satscard Anda sekarang kosong.
+Sekarang transaksi kamu udah ditandatangani dan disiarkan ke jaringan Bitcoin, yang berarti slot yang tadi dipakai di Satscard kamu sekarang kosong.
 
 ## Bagaimana cara menggunakan kembali Satscard?
 
-Berbeda dengan solusi sekali pakai seperti Opendime, Satscard dilengkapi dengan chip yang berisi 10 slot independen, memungkinkan hingga 10 operasi dengan satu kartu. Slot pertama, yang telah dikonfigurasi di pabrik oleh Coinkite, sesuai dengan alamat penerima yang tertulis di bagian belakang Satscard Anda.
+Beda dengan solusi sekali pakai kayak Opendime, Satscard dilengkapi chip dengan 10 slot independen, jadi bisa dipakai sampai 10 kali dalam satu kartu. Slot pertama, yang udah dikonfigurasi pabrik oleh Coinkite, sesuai sama alamat penerima yang tertulis di bagian belakang Satscard kamu.
 
-Untuk mengaktifkan 9 slot lainnya, Anda perlu menghasilkan pasangan kunci dan alamat melalui aplikasi Nunchuk. Di halaman utama aplikasi, klik pada logo "*NFC*" di bagian atas layar.
+Buat ngaktifin 9 slot lainnya, kamu perlu bikin pasangan kunci dan alamat lewat aplikasi Nunchuk. Dari halaman utama aplikasi, klik logo "*NFC*" di bagian atas layar.
 
-Letakkan Satscard Anda di belakang ponsel Anda.
+Tempelin Satscard di belakang ponsel kamu.
 
-Nunchuk menunjukkan bahwa tidak ada slot yang aktif di kartu, yang normal karena yang pertama sudah digunakan dan yang kedua belum dihasilkan. Untuk melihat slot yang sebelumnya digunakan, klik pada "*View unsealed slots*". Sangat disarankan untuk tidak menggunakan kembali slot ini, karena hal ini akan menyebabkan penggunaan alamat ulang yang merugikan privasi on-chain Anda. Oleh karena itu, kita akan menyiapkan slot baru dengan mengklik tombol "*Yes*".
+Nunchuk bakal nampilin kalau belum ada slot aktif di kartu, ini wajar karena slot pertama udah dipakai dan slot kedua belum dibuat. Buat lihat slot yang sebelumnya udah dipakai, klik "*View unsealed slots*". Sangat disarankan untuk nggak pake ulang slot itu, soalnya bisa bikin alamat kepake dua kali dan merugikan privasi on-chain kamu. Jadi, kita bakal siapin slot baru dengan klik tombol "*Yes*".
 
-Anda sekarang perlu memilih bagaimana Anda menghasilkan kode rantai induk Anda.
+Sekarang kamu perlu pilih gimana cara bikin kode rantai induk kamu.
 
-Slot di Satscard mengikuti standar BIP32, yang berarti bahwa derivasi kunci kriptografis yang mengamankan bitcoin tidak bergantung pada frasa mnemonik seperti di dompet BIP39, tetapi langsung pada kunci privat induk dan kode rantai induk. Kedua elemen ini digunakan sebagai input dalam fungsi HMAC-SHA512 untuk menghasilkan pasangan kunci anak. Setiap slot memiliki kunci induknya sendiri dan kode rantai induknya sendiri. Hanya ada satu tingkat derivasi untuk setiap slot.
+Slot di Satscard ngikutin standar BIP32, artinya turunan kunci kriptografis yang ngamanin bitcoin nggak bergantung pada frasa mnemonik kayak di dompet BIP39, tapi langsung pada kunci privat induk dan kode rantai induk. Dua elemen ini dipake sebagai input dalam fungsi HMAC-SHA512 buat bikin pasangan kunci anak. Setiap slot punya kunci induk dan kode rantai induknya masing-masing. Cuma ada satu tingkat derivasi buat tiap slot.
 
-Pasangan kunci untuk slot pertama telah dihasilkan sebelumnya oleh Coinkite. Inilah mengapa Anda memiliki akses langsung kepadanya melalui Nunchuk, dan mengapa alamat penerima tertulis di bagian belakang kartu NFC. Untuk slot lainnya, bagaimanapun, Anda bertanggung jawab untuk menghasilkan kuncinya.
+Pasangan kunci untuk slot pertama udah dibuat sebelumnya sama Coinkite. Itu kenapa kamu bisa langsung akses lewat Nunchuk, dan kenapa alamat penerimanya tercetak di bagian belakang kartu NFC. Tapi untuk slot-slot lainnya, kamu yang bertanggung jawab buat bikin kuncinya.
 
-Kunci privat induk untuk setiap slot dihasilkan langsung oleh Satscard, dan kode rantai induk harus disediakan dari luar. Untuk kode rantai slot baru Anda, Anda memiliki dua pilihan: biarkan Nunchuk menghasilkannya secara otomatis dengan memilih "*Automatic*", atau buatlah sendiri dengan memilih "*Advanced*" dan memasukkannya di ruang yang disediakan. Agar kode rantai efektif, perlu seacak mungkin.
-Masukkan PIN 6-digit yang tertera di bagian belakang Satscard Anda.
+Kunci privat induk untuk setiap slot dibikin langsung sama Satscard, sedangkan kode rantai induknya harus kamu sediakan dari luar. Buat kode rantai slot baru, kamu punya dua pilihan: biarin Nunchuk bikin otomatis dengan pilih "*Automatic*", atau bikin sendiri dengan pilih "*Advanced*" lalu masukin di kolom yang disediakan. Supaya kode rantai ini efektif, harus seacak mungkin.
+
+Terakhir, masukin PIN 6 digit yang tercetak di bagian belakang Satscard kamu.
+
 ![SATSCARD](assets/notext/26.webp)
 
-Letakkan Satscard Anda di bagian belakang ponsel Anda.
+Tempelin Satscard di bagian belakang ponsel kamu.
 
 ![SATSCARD](assets/notext/27.webp)
 
-Sebuah slot baru telah berhasil dikonfigurasi. Anda sekarang dapat melihat alamat penerima untuk menyetorkan bitcoin. Untuk melanjutkan dengan pengisian, ikuti instruksi pada bagian "*Cara mengisi slot pada Satscard?*" dari tutorial ini.
-Anda dapat mengulangi proses ini hingga 10 kali pada setiap Satscard.
+Sebuah slot baru berhasil dikonfigurasi. Sekarang kamu bisa lihat alamat penerima buat nyetor bitcoin. Buat lanjut ngisi, ikuti instruksi di bagian "*Cara mengisi slot pada Satscard?*" dari tutorial ini.
+Kamu bisa ngulang proses ini sampai 10 kali di tiap Satscard.
 
-Selamat, Anda sekarang sudah menguasai penggunaan Satscard! Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jika Anda bisa meninggalkan jempol ke atas di bawah ini. Jangan ragu untuk membagikan artikel ini di jaringan sosial Anda. Terima kasih banyak!
+Selamat, sekarang kamu udah menguasai cara pake Satscard! Kalau kamu ngerasa tutorial ini bermanfaat, aku bakal sangat senang kalau kamu mau kasih jempol ke atas di bawah ini. Jangan ragu juga buat bagiin artikel ini ke jaringan sosial kamu. Makasih banyak!

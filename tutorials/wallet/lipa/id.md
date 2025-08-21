@@ -1,63 +1,63 @@
 ---
 name: Lipa
-description: Menyiapkan dan menggunakan dompet seluler Lipa lightning
+description: Menyiapkan dan Menggunakan Dompet Seluler Lipa Lightning
 ---
 ![cover](assets/cover.webp)
 
-Dompet Bitcoin Lightning adalah sebuah aplikasi mobile yang memungkinkan transaksi instan dan berbiaya rendah pada jaringan Lightning Bitcoin. Tidak seperti transaksi pada blockchain utama (on-chain), pembayaran Lightning hampir seketika dan membutuhkan biaya minimal, sehingga sangat cocok untuk pembayaran kecil sehari-hari.
+Dompet Bitcoin Lightning adalah aplikasi mobile yang bikin kamu bisa transaksi instan dengan biaya super rendah lewat jaringan Lightning Bitcoin. Berbeda dengan transaksi di blockchain utama (on-chain), pembayaran Lightning berlangsung hampir seketika dan butuh biaya minimal, jadi pas banget dipakai buat pembayaran kecil sehari-hari.
 
-Dompet Lightning, seperti halnya semua dompet ponsel, dianggap sebagai dompet "panas" karena terhubung ke Internet. Oleh karena itu, dompet ini terutama ditujukan untuk mengelola sejumlah kecil uang untuk pengeluaran Anda sehari-hari. Untuk jumlah yang lebih besar, lebih baik menggunakan solusi penyimpanan yang lebih aman seperti dompet perangkat keras.
+Dompet Lightning, sama kayak dompet ponsel lainnya, termasuk kategori dompet "panas" karena selalu terhubung ke Internet. Itu sebabnya dompet ini lebih cocok buat nyimpen jumlah kecil yang memang kamu pakai untuk kebutuhan harian. Kalau buat nyimpen jumlah besar, jauh lebih aman pakai solusi lain seperti dompet perangkat keras.
 
-Jika Anda ingin mempelajari lebih lanjut tentang jaringan Lightning dan memahami cara kerjanya secara teknis, saya sarankan Anda mengikuti kursus ini:
+Kalau kamu pengin lebih dalam lagi belajar tentang jaringan Lightning dan cara kerjanya secara teknis, kamu bisa ikutin kursus ini:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Dalam tutorial ini, kita akan melihat **Lipa**, sebuah dompet Lightning yang sederhana dan efektif yang dikembangkan di Swiss.
+Di tutorial ini, kita bakal ngebahas **Lipa,** dompet Lightning yang simpel tapi efektif, dikembangkan di Swiss.
 
 ## Memperkenalkan Lipa
 
-Lipa adalah dompet Lightning non-kustodian yang dibedakan dari kesederhanaan penggunaannya dan antarmuka yang rapi. Dikembangkan oleh tim Swiss, Lipa menekankan kerahasiaan dan kemudahan penggunaan untuk pemula.
+Lipa adalah dompet Lightning non-kustodian yang punya ciri khas utama: simpel dipakai dan tampilannya rapi. Dibuat oleh tim asal Swiss, Lipa fokus pada privasi sekaligus kemudahan penggunaan, terutama buat pemula.
 
-Fitur-fitur utama meliputi:
-
-
+- Fitur-fitur utamanya antara lain:
 - Antarmuka pengguna yang intuitif
-- Manajemen saluran Petir Otonom
+- Manajemen saluran Lightning otomatis
 - Dukungan protokol LNURL
-- Kemungkinan untuk membeli bitcoin secara langsung di dalam aplikasi
+- Fitur beli bitcoin langsung dari aplikasi
 
-## Menginstalasi dan mengonfigurasi Lipa
+## Menginstalasi dan mengatur Lipa
 
-Langkah pertama adalah mengunduh aplikasi Lipa. Untuk saat ini, aplikasi ini hanya tersedia di iOS:
+Langkah pertama, unduh aplikasi Lipa. Untuk saat ini, aplikasi ini baru tersedia di iOS.
 
 
 - [Untuk Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
-Versi Android saat ini sedang dikembangkan dan akan segera tersedia.
+Versi Android saat ini masih dalam pengembangan dan bakal segera tersedia.
 
 ![Installation de Lipa](assets/fr/01.webp)
 
-Setelah Anda meluncurkan aplikasi, Anda akan tiba di layar beranda, yang menawarkan dua opsi:
+Begitu kamu buka aplikasi, kamu bakal langsung sampai di layar beranda yang kasih dua pilihan:
 
+- Bikin dompet baru
 
-- Membuat portofolio baru
-- Memulihkan portofolio yang ada dari cadangan
+ Pulihkan dompet yang sudah ada dari cadangan
 
-Setelah Anda memilih opsi, aplikasi akan meminta Anda untuk mengaktifkan pemberitahuan. Langkah ini penting, karena notifikasi diperlukan untuk aplikasi :
+Setelah kamu pilih salah satu, aplikasi bakal minta izin buat nyalain notifikasi. Ini penting banget, karena notifikasi dipakai aplikasi untuk:
 
+- Kasih peringatan saat ada pembayaran masuk, bahkan kalau aplikasinya lagi ditutup
 
-- Menerima peringatan ketika pembayaran diterima, bahkan ketika aplikasi ditutup
-- Dapatkan informasi tentang langkah-langkah yang terlibat dalam membeli bitcoin melalui solusi terintegrasi mereka
+- Ngasih info soal langkah-langkah pembelian bitcoin lewat solusi terintegrasi mereka
 
-Aplikasi ini kemudian menyajikan fungsi utamanya melalui serangkaian layar pengantar:
+Setelah itu, aplikasi ngenalin fitur-fitur utamanya lewat beberapa layar pengantar:
 
+- Penerimaan pembayaran mulus:** Kamu bisa tetap nerima pembayaran Bitcoin meskipun aplikasinya ditutup, jadi lebih andal dan nyaman.
 
-- Tanda terima pembayaran yang mulus**: Pengguna dapat menerima pembayaran Bitcoin bahkan ketika aplikasi ditutup, menjamin keandalan dan kenyamanan.
-- Alamat Lightning non-kustodian**: Lipa sekarang mendukung alamat Lightning non-kustodian, meningkatkan privasi dan keamanan dengan memberikan kontrol penuh kepada pengguna atas bitcoin mereka.
-- Kontrol atas data analitik**: Dengan mengutamakan transparansi dan kerahasiaan, pengguna dapat melihat jenis data yang dikumpulkan dan memilih preferensi berbagi.
-- Kirim melalui nomor telepon**: Tidak perlu alamat yang rumit - cukup pilih kontak, masukkan jumlahnya, dan kirimkan bitcoin langsung ke nomor telepon mereka.
+- Alamat Lightning non-kustodian:** Lipa sekarang dukung alamat Lightning non-kustodian, bikin privasi lebih terjaga dan kamu tetap punya kontrol penuh atas bitcoin milikmu.
 
-Aplikasi ini juga mendapat manfaat dari peningkatan berkelanjutan dalam hal stabilitas, keamanan dan keandalan, untuk menjamin pengalaman pengguna yang optimal.
+- Kontrol atas data analitik:** Demi transparansi dan privasi, kamu bisa lihat data apa aja yang dikumpulin dan atur sendiri preferensi berbagi.
+
+- Kirim via nomor telepon:** Gak perlu ribet pakai alamat panjang, cukup pilih kontak, masukin jumlahnya, dan kirim bitcoin langsung ke nomor telepon mereka.
+
+Lipa juga terus dapet peningkatan rutin soal stabilitas, keamanan, dan keandalan, supaya pengalaman pengguna makin optimal.
 
 ## Navigasi aplikasi
 
@@ -66,16 +66,16 @@ Antarmuka Lipa diatur di sekitar 4 tab utama yang dapat diakses melalui bilah na
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Beranda**: Menampilkan saldo dan riwayat transaksi Anda saat ini
-- Pemindai**: Memungkinkan Anda memindai kode QR untuk melakukan pembayaran
-- Peta**: Menampilkan peta interaktif bisnis yang menerima Bitcoin di wilayah Anda
-- Pengaturan**: Akses ke pengaturan aplikasi, pencadangan, dan preferensi
+- Beranda**: Nampilin saldo dan riwayat transaksi kamu saat ini
+- Pemindai**: Buat nge-scan kode QR waktu mau bayar
+- Peta**: Nampilin peta interaktif berisi bisnis yang nerima Bitcoin di sekitarmu
+- Pengaturan**: Akses ke setelan aplikasi, cadangan, dan preferensi pribadi
 
-Menu tambahan dapat diakses dengan menarik layar beranda ke bawah:
+Selain itu, ada menu tambahan yang bisa kamu buka dengan menarik layar beranda ke bawah.
 
 ![Menu supplémentaire](assets/fr/03.webp)
 
-Isyarat ini mengungkapkan fungsi tambahan, seperti :
+Gerakan ini bakal munculin fitur tambahan, seperti:
 
 
 - Membeli bitcoin
@@ -83,25 +83,27 @@ Isyarat ini mengungkapkan fungsi tambahan, seperti :
 - Membuat faktur Lightning untuk menerima bitcoin
 - Pembayaran faktur kilat
 
-## Simpan portofolio Anda
+## Simpan portofolio 
 
-Untuk mencadangkan dompet Anda, buka tab "Pengaturan" dan pilih "Frasa pemulihan". Lipa menggunakan frasa pemulihan yang sangat penting untuk ditulis dengan hati-hati pada media fisik (kertas, logam). Frasa ini adalah satu-satunya cara untuk memulihkan dana Anda jika ponsel Anda hilang atau dicuri. Untuk memvalidasi cadangan Anda, aplikasi akan meminta Anda untuk mengonfirmasi 3 kata acak dari frasa Anda.
+Untuk mencadangkan dompetmu, buka tab **Pengaturan** lalu pilih **frasa pemulihan**. Lipa pakai frasa pemulihan yang wajib banget kamu catat dengan hati-hati di media fisik (misalnya kertas atau logam). Frasa ini adalah satu-satunya cara buat balikin dana kamu kalau ponsel hilang atau dicuri.
+
+Buat validasi cadangan, aplikasi bakal minta kamu konfirmasi 3 kata acak dari frasa tersebut.
 
 ![Backup](assets/fr/04.webp)
 
-Untuk informasi lebih lanjut tentang cara mencadangkan dan mengelola frasa pemulihan Anda dengan benar, saya sangat menyarankan untuk mengikuti tutorial lainnya, terutama jika Anda seorang pemula:
+Kalau kamu mau info lebih lengkap soal cara mencadangkan dan ngatur frasa pemulihan dengan benar, aku saranin banget buat ikutin tutorial lain, apalagi kalau kamu masih pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Menerima bitcoin
 
-Untuk menerima bitcoin, Anda memiliki dua opsi. Untuk mengakses opsi-opsi ini, kembali ke layar beranda dan tarik layar ke bawah. Kemudian Anda dapat memilih :
+Buat nerima bitcoin, kamu punya dua opsi. Caranya, balik dulu ke layar beranda lalu tarik layar ke bawah. Setelah itu kamu bisa pilih:
 
+Pilih **Transfer BTC** buat nerima bitcoin secara on-chain. Tinggal scan aja kode QR pakai dompet lainmu lalu selesaikan transaksinya.
 
-- Pilih "Transfer BTC" untuk menerima bitcoin secara on-chain. Kemudian cukup pindai kode QR dengan dompet Anda yang lain dan selesaikan transaksi.
-- Pilih "Request" untuk menerima melalui jaringan Lightning dan masukkan jumlah yang ingin Anda terima.
+Pilih **Request** buat nerima lewat jaringan Lightning, lalu masukin jumlah yang pengin kamu terima.
 
-Dalam kedua kasus tersebut, Anda harus membayar biaya yang setara dengan 0,4% dari jumlah tersebut, atau sekitar 2.500 sat jika aplikasi harus membuka saluran pembayaran baru (yang pasti akan terjadi pada pembayaran pertama).
+Di kedua opsi ini, **ada biaya sekitar 0,4% dari jumlah transaksi, atau kira-kira 2.500 sat kalau aplikasi perlu buka saluran pembayaran baru** (biasanya ini kejadian di pembayaran pertama).
 
 ![Recevoir des bitcoins on chain](assets/fr/05.webp)
 
@@ -109,29 +111,27 @@ Dalam kedua kasus tersebut, Anda harus membayar biaya yang setara dengan 0,4% da
 
 ## Kirim bitcoin
 
-Untuk mengirim bitcoin, buka layar beranda, tarik layar ke bawah dan pilih "Bayar". Kemudian cukup dengan :
+Buat ngirim bitcoin, buka layar beranda, tarik layar ke bawah lalu pilih "Bayar". Setelah itu kamu bisa:
 
-
-- masukkan alamat LNURL kilat
-- pindai kode QR kilat untuk melakukan pembayaran.
-
-Anda juga dapat membuka tab kedua di bagian bawah layar untuk memindai kode QR secara langsung.
+- Masukin alamat Lightning (LNURL)
+- Scan kode QR Lightning buat langsung bayar
+- Kamu juga bisa langsung buka tab kedua di bagian bawah layar buat nge-scan kode QR secara instan.
 
 ![Envoi de bitcoins](assets/fr/07.webp)
 
 ## Beli bitcoin
 
-Lipa menawarkan kemungkinan untuk membeli bitcoin secara langsung dalam aplikasi dengan biaya 1,5%. Untuk melakukan pembelian, buka layar beranda dan tarik ke bawah untuk menampilkan menu. Kemudian pilih "Beli BTC". Tiga layar pengantar akan memandu Anda melalui proses pembelian.
+Lipa juga kasih opsi buat beli bitcoin langsung di dalam aplikasi dengan biaya 1,5%. Caranya gampang: buka layar beranda, tarik ke bawah buat munculin menu, lalu pilih "Beli BTC". Setelah itu, bakal ada tiga layar pengantar yang ngejelasin langkah-langkah pembeliannya.
 
 ![Menu d'achat](assets/fr/08.webp)
 
-Kemudian masukkan detail bank dari akun yang akan Anda gunakan untuk melakukan pembelian. Pilih mata uang dan masukkan alamat email Anda.
+Selanjutnya, masukin detail bank dari akun yang mau kamu pakai buat beli. Pilih mata uang, lalu masukin alamat email kamu.
 
-Setelah layar pemuatan, Anda akan menemukan nomor referensi yang akan disertakan dalam transfer yang akan Anda lakukan, serta detail bank untuk penukaran.
+Setelah layar loading selesai, kamu bakal dapet nomor referensi yang harus dicantumin di transfer, plus detail bank tujuan buat penukarannya.
 
 ![Sélection du montant](assets/fr/09.webp)
 
-Yang harus Anda lakukan adalah menggunakan bank Anda untuk mentransfer jumlah yang diinginkan, mengatur transfer dengan menunjukkan RIB yang sebelumnya diambil dan menunjukkan referensi pada saat transaksi sehingga Lipa dapat mengaitkan pergerakan bank ini dengan dompet Lipa Anda.
+Yang perlu kamu lakukan cuma transfer jumlah yang kamu mau lewat bank kamu, pakai RIB yang tadi udah dicatat, lalu masukin nomor referensi saat transaksi. Dengan begitu, Lipa bisa nyocokin transfer bank itu dengan dompet Lipa kamu.
 
 ![Confirmation d'achat](assets/fr/10.webp)
 
@@ -143,19 +143,19 @@ Yang harus Anda lakukan adalah menggunakan bank Anda untuk mentransfer jumlah ya
 - Antarmuka yang intuitif
 - Biaya layanan yang benar
 - Non kustodian
-- Solusi pembelian bitcoin terintegrasi
+- Fitur beli bitcoin langsung di aplikasi
 - Integrasi BTCmap
 - Dukungan NFC
 
 ### Kekurangan
 
 
-- Tidak mungkin mengirim bitcoin secara berantai
+- Kamu nggak bisa mengirim bitcoin secara berantai
 - Pembayaran sedikit lebih lama dari rata-rata
 
-Lipa adalah pilihan yang sangat baik untuk memulai dengan Lightning Network, terutama cocok untuk pengguna yang mencari solusi sederhana untuk pembayaran sehari-hari. Kemudahan penggunaan dan antarmuka yang rapi membuatnya menjadi dompet yang ideal untuk pemula, sekaligus menawarkan fitur-fitur penting untuk penggunaan Lightning sehari-hari.
+Lipa adalah pilihan yang sangat pas buat mulai pakai Lightning Network, terutama kalau kamu nyari solusi simpel buat pembayaran harian. Dengan kemudahan penggunaan dan tampilan yang rapi, Lipa jadi dompet ideal buat pemula, tapi tetap nyediain fitur penting yang dibutuhin buat penggunaan Lightning sehari-hari.
 
-## Sumber daya
+## Sumber informasi:
 
 
 - [Situs web resmi Lipa](https://lipa.swiss/)

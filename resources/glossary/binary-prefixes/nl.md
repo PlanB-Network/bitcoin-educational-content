@@ -1,0 +1,5 @@
+---
+term: BINAIRE VOORVOEGSELS
+---
+
+Eenheden die in de informatica worden gebruikt om veelvouden van gegevensgroottes te kwantificeren op basis van machten van 2. In tegenstelling tot de voorvoegsels van het metriek stelsel die een basis van 10 gebruiken, vermenigvuldigen binaire voorvoegsels, zoals kibi (Ki), mebi (Mi), gibi (Gi) en tebi (Ti), met machten van 2 (respectievelijk $2^{10}$, $2^{20}$, $2^{30}$, $2^{40}$). Deze voorvoegsels zijn geërfd van de vroege manieren om informatiegrootte op computers te meten. Ze komen soms voor in Bitcoin, bijvoorbeeld om de maximale bestandsgrootte aan te geven van `BLOCKS/BLK*.DAT` bestanden die gebruikt worden om de ruwe Blockchain gegevens op te slaan in de Bitcoin core software. Deze bestanden hebben een maximale capaciteit van 128 mebibytes (MiB), wat overeenkomt met iets meer dan 134 megabytes (MB).

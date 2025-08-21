@@ -1,0 +1,5 @@
+---
+term: AANVALSOPPERVLAK
+---
+
+Verwijst naar het totale aantal potentiële toegangspunten die een aanvaller zou kunnen misbruiken om toegang te krijgen tot een systeem. Het aanvalsoppervlak omvat alle interfaces, diensten, poorten, protocollen en andere communicatievectoren die blootgesteld kunnen worden. Een groter aanvalsoppervlak vergroot de kwetsbaarheden, waardoor het systeem vatbaarder wordt om aangevallen te worden. Het verkleinen van het aanvalsoppervlak is een goede beveiligingspraktijk die bestaat uit het uitschakelen van onnodige diensten. In de context van Bitcoin bijvoorbeeld, hebben hardware wallets een veel kleiner aanvalsoppervlak dan software wallets. Ze isoleren de sleutels op een apparaat dat niet verbonden is met het internet en hebben zeer weinig interfaces en diensten. Software wallets daarentegen worden geïnstalleerd op veelzijdige PC's, die een veel groter aanvalsoppervlak hebben door de vele functionaliteiten en netwerkverbindingen die ze ondersteunen.

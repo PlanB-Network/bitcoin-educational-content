@@ -1,0 +1,5 @@
+---
+term: BASIS (REKENEN)
+---
+
+Een basis is een getallensysteem dat een vast aantal tekens gebruikt om alle mogelijke getallen voor te stellen. De basis bepaalt het aantal verschillende symbolen dat beschikbaar is om de cijfers in dit systeem weer te geven. Het meest bekende systeem in ons dagelijks leven is bijvoorbeeld basis 10, ook wel het decimale systeem genoemd. Het gebruikt tien verschillende symbolen `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` om alle getallen weer te geven. Andere getallenstelsels die veel gebruikt worden op het gebied van rekenen en wiskunde zijn het binaire stelsel (basis 2), met twee symbolen `(0, 1)`, en het hexadecimale stelsel (basis 16), met zestien symbolen `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. In de context van Bitcoin kun je soms coderingen tegenkomen in basis 58 of in een aangepaste basis 32 (genaamd `Bech32`).

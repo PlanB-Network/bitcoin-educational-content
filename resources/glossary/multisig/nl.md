@@ -1,0 +1,8 @@
+---
+term: Multisig
+---
+
+Portemonnees met meerdere handtekeningen, vaak afgekort als "Multisig", zijn ontworpen om de veiligheid van bitcoins te verbeteren door meerdere handtekeningen van verschillende privésleutels te vereisen om een uitgave te autoriseren. Deze methode verdeelt het risico over meerdere sleutels, wat helpt om zowel het risico van verlies als diefstal te verminderen (afhankelijk van de Multisig configuratie). Multisig wallets werken op een "m-of-n" model, waarbij `m` staat voor het minimum aantal handtekeningen dat nodig is om een transactie te valideren, en `n` het totaal aantal betrokken sleutels is. Bijvoorbeeld, een 2-of-3 opstelling vereist twee van de drie mogelijke handtekeningen om een transactie te valideren. Deze aanpak biedt superieure beveiliging vergeleken met één-sleutel portemonnees, maar het introduceert ook meer complexiteit in termen van beheer en back-up. Bovendien zijn transacties die gebruik maken van oudere Multisig standaarden minder privé en duurder in kosten dan traditionele single-key transacties. Recente innovaties zoals Taproot en het gebruik van descriptoren zullen naar verwachting deze nadelen van multisigs minimaliseren, zo niet elimineren.
+
+
+> sommige bitcoiners maken onderscheid tussen de termen "Multisig" en "Threshold Multisig." Sommigen beweren dat een Multisig noodzakelijkerwijs een n-of-n is, terwijl een drempel Multisig een m-of-n is. In de omgangstaal wordt het echter geaccepteerd om te verwijzen naar "Multisig", zelfs voor m-of-n.*

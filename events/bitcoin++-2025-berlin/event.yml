@@ -1,11 +1,11 @@
 id: d2918e63-dacf-49a6-86e5-1e1fc59bd973
-start_date: 2025-10-02 02:00:00
-end_date: 2025-10-04 12:00:00
+start_date: 2025-10-02 08:00:00
+end_date: 2025-10-04 16:00:00
 timezone: Europe/Berlin
 address_city_country: Berlin, Germany
 address_line_2: Salt Galata
 address_line_3:
-name: bitcoin++ scales
+name: lightning++ is programming payments
 type: conference
 book_online: false
 book_in_person: false

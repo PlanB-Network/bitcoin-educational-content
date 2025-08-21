@@ -2192,7 +2192,7 @@ This command scan the 1000 most common ports on host `192.168.0.1` and display t
 
 #### Complete network scan
 
-One of the advantages of `nmap` is its ability to analyze a range of addresses with a single command. This makes it possible, for example, to draw up a quick inventory of the machines active on a given network:
+One of `nmap`'s advantages is its ability to scan an entire range of addresses with a single command. This makes it easy, for example, to quickly inventory all active machines on a network:
 
 ```bash
 nmap 192.168.0.0/24

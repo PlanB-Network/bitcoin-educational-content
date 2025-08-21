@@ -41,11 +41,6 @@ Présentation générale de la formation.
 
 
 
-
-
-
-
-
 ## Qu’est-ce qu’un nœud Bitcoin ?
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
@@ -191,22 +186,6 @@ On pourrait croire que les développeurs de Bitcoin Core ont un contrôle direct
 Cela signifie que si un changement dans Bitcoin Core ne fait pas consensus, il peut être ignoré par les nœuds, soit en ne mettant pas à jour Bitcoin Core, soit tout simplement en changeant d'implémentation. À l’inverse, si une fonctionnalité souhaitée par les utilisateurs est bloquée dans le processus de développement de Core, il est toujours possible de passer sur une autre implémentation ou de forker le projet.
 
 Comme nous l’aborderons plus loin dans ce cours, ce sont les nœuds, en fonction de leur poids économique (c’est-à-dire les commerçants) qui confèrent son utilité à une version du protocole (et donc à la monnaie correspondante), en acceptant les unités qui respectent ses règles. Le véritable pouvoir de gouvernance sur Bitcoin appartient donc à ces commerçants, et non aux développeurs.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Devenir un bitcoiner souverain
@@ -633,7 +612,54 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 ## Umbrel : bien plus qu'un nœud Bitcoin
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
-Introduction à Umbrel comme solution accessible et tout-en-un pour les débutants. Umbrel home + UmbrelOS. Cas d'usages.
+Umbrel est un système d’exploitation de serveur personnel conçu pour rendre le self-hosting accessible : vous installez Umbrel, vous ouvrez un navigateur sur `umbrel.local`, et vous gérez tout via une interface simple à distance.
+
+Le projet a d’abord popularisé l’idée d’un nœud Bitcoin et Lightning en un clic, puis s’est élargi en une véritable "home cloud" : stockage de fichiers et de photos, streaming multimédia, outils réseau, domotique, IA locale, et des centaines d’apps installables depuis un App Store intégré.
+
+Dans Umbrel, chaque application tourne en conteneur Docker (isolation, mises à jour atomiques, démarrage/arrêt indépendants). L’interface centralise l'accès à toutes ces apps :  authentification unique (avec 2FA optionnel), mises à jour en un clic pour l’OS et les apps, supervision en direct de la machine (CPU, RAM, température, stockage), gestion des permissions entre les apps et aperçu de leur consommation.
+
+L’objectif d'Umbrel est donc de vous redonner le contrôle et la confidentialité sur vos données, sans dépendre de services cloud, au-delà du simple fait d'opérer un nœud Bitcoin.
+
+### Umbrel Home vs umbrelOS
+
+Umbrel propose deux approches distinctes :
+
+- **Umbrel Home** : c'est un mini-serveur prêt à l’emploi, spécialement conçu et optimisé pour umbrelOS. Compact, silencieux, connecté en Ethernet, il est équipé d’un SSD NVMe (jusqu’à 4 To en option), de 16 Go de RAM et d’un CPU quad-core. Vous le commandez, vous le branchez, vous allez sur `umbrel.local`, et vous avez un Umbrel opérationnel en quelques minutes. C’est l'option "plug-and-play".
+
+- **umbrelOS** : c'est le système d’exploitation que vous pouvez installer vous-même sur votre propre matériel (mini-PC, NUC, tour, laptop dédié…). Vous avez la même interface et le même App Store que sur Umbrel Home.
+
+Dans les deux cas, l’expérience utilisateur est identique côté logiciel : administration via le navigateur, mises à jour en un clic, installation d’applications à la demande... La solution DIY est souvent plus économique que l’achat d’un Umbrel Home (selon la machine utilisée). Toutefois, je ne vous recommande pas forcément de toujours privilégier cette option DIY, car acheter un Umbrel Home contribue directement à financer le développement du projet, puisque son modèle économique repose sur la vente de hardware. Et honnêtement, à 389 € pour 2 To de stockage, le tarif reste très raisonnable au regard de la qualité de la machine proposée.  
+
+Dans le prochain chapitre, nous verrons ensemble comment installer umbrelOS en DIY sur votre propre machine, mais vous pourrez tout à fait suivre ce cours BTC 202 de la même manière si vous avez opté pour un Umbrel Home.
+
+### Cas d’usage : du nœud Bitcoin au home cloud
+
+Umbrel peut rester très minimaliste et centré uniquement sur Bitcoin, ou bien évoluer en un véritable serveur personnel multifonction selon vos besoins. Voici les principaux cas d’usage possibles avec Umbrel :
+
+- **Nœud Bitcoin** : c’est l’usage fondateur sur lequel Umbrel s’est appuyé dès le départ. Vous pouvez exécuter Bitcoin Core (ou Knots), connecter vos portefeuilles directement à votre nœud, exposer un serveur Electrum, héberger votre explorateur de blocs Mempool pour visualiser la blockchain et estimer les frais... C’est cet usage que nous allons approfondir en priorité dans cette formation.
+
+- **Lightning Network** : Umbrel permet aussi de déployer LND ou Core Lightning, deux implémentations du Lightning Network, afin de gérer votre propre nœud Lightning. Vous pourrez ainsi ouvrir des canaux, piloter votre liquidité, faire des paiements, automatiser son équilibrage, offrir des services, connecter un portefeuille distant, ou encore profiter d’une interface de gestion avancée grâce aux nombreuses applications disponibles. Nous étudierons ce cas d'usage sépcifique dans la prochaine formation LNP 202.
+
+- **Self-hosting généraliste** : avec Nextcloud, Immich, Jellyfin/Plex, les bloqueurs de publicité DNS-wide (Pi-hole/AdGuard), les VPN (WireGuard, Tailscale), la domotique (Home Assistant), les sauvegardes, la gestion de notes, les outils de bureautiques, les IA locales (Ollama + Open WebUI)... Umbrel peut devenir votre serveur personnel pour reprendre le contrôle de vos données. Vous hébergez vous-même les services que vous utilisez au quotidien, avec une expérience utilisateur soignée proche de celle des solutions externes, mais en conservant la maîtrise totale de vos données et de votre vie privée.
+
+Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umbrel à votre guise : commencer par un simple nœud Bitcoin et quelques apps liées à son écosystème, puis installer par la suite un nœud Lightning adossé à votre nœud Bitcoin, et progressivement enrichir votre instance avec les applications de self-hosting qui vous seront utiles.
+
+### Communauté et entraide
+
+L’un des grands atouts d’Umbrel par rapport à ses concurrents est sa vaste communauté d’utilisateurs très active. Vous pouvez la rejoindre principalement via [leur Discord](https://discord.gg/efNtFzqtdx) et [leur forum en ligne](https://community.umbrel.com/). Vous y trouverez non seulement des conseils pratiques, mais surtout des solutions pour résoudre vos problèmes ou corriger d’éventuels bugs. C’est un formidable point d’appui pour débuter, progresser et, à terme, apporter votre aide à d’autres utilisateurs, afin de ne pas rester seul dans votre coin.
+
+### La licence d'umbrelOS
+
+Le code d’Umbrel est publié publiquement (vous pouvez le consulter, le forker, le modifier...), mais il n’est pas placé sous une véritable licence open-source. En effet, umbrelOS est distribué sous la licence *PolyForm Noncommercial 1.0*, même si certains outils de développement associés sont disponibles sous licence MIT.
+
+Concrètement, vous pouvez faire à peu près tout ce que vous voulez avec umbrelOS tant que cela reste un usage personnel et non commercial : modification, redistribution à des fins non lucratives, création de dérivés pour vous-même ou pour des organisations sans but lucratif, à condition de respecter les mentions légales.
+
+En revanche, il est interdit de vendre Umbrel ou des dérivés (par exemple une machine préassemblée avec umbrelOS préinstallé), de proposer commercialement des services liés à Umbrel, ou encore d’intégrer son code dans un produit à but lucratif.
+
+Techniquement, cette licence ne limite pas l’installation, l’audit ou l’adaptation d’Umbrel pour un usage personnel. Juridiquement, elle protège le projet contre la revente ou l’hébergement commercial non autorisé, en particulier par des fournisseurs de cloud. Umbrel n’est donc pas open-source, même si son code reste accessible publiquement.
+
+Chaque application du Store conserve toutefois sa propre licence, souvent open-source.
+
 
 ## Installation d’un nœud complet avec Umbrel
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
@@ -971,35 +997,6 @@ Une fois l’installation terminée, Electrs procédera à une phase de synchron
 029
 
 Une fois la synchronisation terminée, vous pourrez connecter vos logiciels de portefeuille à votre serveur Electrum hébergé sur Umbrel.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Comment connecter son portefeuille à son nœud Bitcoin ?
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
@@ -1742,8 +1739,6 @@ Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique co
 En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
-
-
 
 
 # Partie finale

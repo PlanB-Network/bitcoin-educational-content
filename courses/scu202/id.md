@@ -3176,7 +3176,7 @@ Memperbarui browser, perangkat lunak, dan sistem operasi Anda adalah salah satu 
 
 ### Gunakan kata sandi yang kuat dan unik
 
-Dalam hal keamanan web, salah satu kesalahan paling umum (dan berbahaya) adalah menggunakan kembali kata sandi di beberapa situs. Praktik ini menyebabkan efek domino yang berbahaya: jika satu layanan saja disusupi (kebocoran basis data, phishing, serangan brute force...), penyerang kemudian dapat menguji kata sandi yang sama di platform lain, mendapatkan akses ke akun-akun penting seperti email, rekening bank, atau workspaces Anda.
+Dalam hal keamanan web, salah satu kesalahan paling umum (dan berbahaya) adalah menggunakan kembali kata sandi di beberapa situs. Praktik ini menyebabkan efek domino yang berbahaya: jika satu layanan saja disusupi (kebocoran database, phishing, serangan brute force...), penyerang kemudian dapat menguji kata sandi yang sama di platform lain, mendapatkan akses ke akun-akun penting seperti email, rekening bank, atau workspaces Anda.
 
 Prinsip pertama dalam hal kata sandi adalah tidak menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi yang unik, yang sepenuhnya berbeda dari yang lain. Memiliki kata sandi yang unik untuk setiap akun akan mengisolasi potensi serangan dan membatasi dampaknya.
 
@@ -3232,7 +3232,7 @@ VPN yang terkenal sebaiknya dihindari. Meskipun pemasaran mereka agresif, layana
 
 Setiap situs web yang Anda kunjungi merekam data sesi secara lokal di komputer Anda, yang terdiri dari dua jenis utama: riwayat penjelajahan dan cookie.
 
-Riwayat adalah basis data lokal sederhana yang mencantumkan semua situs yang dikunjungi, beserta tanggal, judul, dan terkadang waktu kunjungan. Ini memudahkan untuk menemukan halaman yang sebelumnya dibuka. Namun di sisi lain, ini mengekspos semua pencarian online Anda kepada siapa pun yang memiliki akses ke sesi Anda (termasuk perangkat lunak berbahaya, atau kerabat yang ingin tahu).
+Riwayat adalah database lokal sederhana yang mencantumkan semua situs yang dikunjungi, beserta tanggal, judul, dan terkadang waktu kunjungan. Ini memudahkan untuk menemukan halaman yang sebelumnya dibuka. Namun di sisi lain, ini mengekspos semua pencarian online Anda kepada siapa pun yang memiliki akses ke sesi Anda (termasuk perangkat lunak berbahaya, atau kerabat yang ingin tahu).
 
 Sementara itu, cookie adalah berkas kecil yang disimpan oleh browser atas permintaan situs web. Cookie digunakan untuk mengingat sesi Anda (misalnya, agar tetap terhubung ke suatu situs), menyimpan preferensi Anda, atau melacak perilaku Anda untuk tujuan statistik. Beberapa cookie bersifat fungsional (yaitu, diperlukan agar situs berfungsi dengan baik), sementara yang lain adalah cookie pihak ketiga (ditempatkan oleh agen periklanan atau pelacak di halaman yang dikunjungi). Cookie pihak ketiga memungkinkan pelacakan lintas situs, terkadang selama bertahun-tahun, dengan menyilangkan kebiasaan penjelajahan Anda untuk membangun profil periklanan.
 
@@ -3983,7 +3983,7 @@ Sebagian besar aplikasi pemetaan klasik, seperti Google Maps, Waze, atau Citymap
 
 - [Organic Maps](https://organicmaps.app/)
 
-Organic Maps adalah aplikasi navigasi offline gratis. Aplikasi ini didasarkan pada data dari [OpenStreetMap](https://www.openstreetmap.org), sebuah basis data kolaboratif yang terbuka. Anda mengunduh peta dari wilayah yang Anda minati, lalu bernavigasi tanpa jaringan.
+Organic Maps adalah aplikasi navigasi offline gratis. Aplikasi ini didasarkan pada data dari [OpenStreetMap](https://www.openstreetmap.org), sebuah database kolaboratif yang terbuka. Anda mengunduh peta dari wilayah yang Anda minati, lalu bernavigasi tanpa jaringan.
 
 Aplikasi ini tidak mengandung iklan, pelacakan, atau pengumpulan data. Aplikasi ini sangat cocok untuk perjalanan dengan berjalan kaki, sepeda, atau mobil, dengan Interface yang sederhana, cepat, dan bebas gangguan.
 
@@ -4092,11 +4092,9 @@ Interface sedikit lebih kompleks daripada Quillpad, tetapi masih dapat digunakan
 
 ![Image](assets/fr/171.webp)
 
-
 ### Pengelola kata sandi
 
 Banyak pengguna membiarkan browser mereka menyimpan kata sandi melalui solusi seperti Google Password Manager. Meskipun nyaman, jenis manajemen terpusat ini tidak menawarkan enkripsi ujung-ke-ujung (end-to-end) yang dikontrol pengguna, dan membuat kredensial Anda berisiko jika akun Google Anda disusupi. Untuk manajemen kata sandi yang lebih aman dan mandiri, tersedia beberapa alternatif open-source.
-
 
 **Alternatif**:
 
@@ -4108,17 +4106,15 @@ Anda dapat menggunakan server Bitwarden, atau mengelola sendiri (self-host) jika
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-
 - [KeePassDX](https://www.keepassdx.com/)
 
-KeePass adalah pengelola kata sandi yang sudah ada lama yang didasarkan pada file lokal terenkripsi. Di mobile, KeePassDX adalah implementasi Android yang sangat baik, kompatibel dengan semua basis data KeePass. Aplikasi ini bekerja offline, tanpa cloud, menjadikannya solusi yang baik bagi mereka yang ingin menjaga data mereka 100% lokal.
+KeePass adalah pengelola kata sandi yang sudah ada lama yang didasarkan pada file lokal terenkripsi. Di mobile, KeePassDX adalah implementasi Android yang sangat baik, kompatibel dengan semua database KeePass. Aplikasi ini bekerja offline, tanpa cloud, menjadikannya solusi yang baik bagi mereka yang ingin menjaga data mereka 100% lokal.
 
 ![Image](assets/fr/172.webp)
 
 Ada juga [KeePassium](https://keepassium.com/) untuk iOS, aplikasi yang terintegrasi dengan baik dalam ekosistem Apple, kompatibel dengan format KeePass, dan open-source. Alternatif iOS lain untuk aplikasi KeePass adalah Strongbox, tetapi perangkat lunak ini tidak lagi open-source selama beberapa tahun.
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
-
 
 - [Proton Pass](https://proton.me/pass)
 
@@ -4140,7 +4136,7 @@ Mullvad adalah salah satu VPN terbaik dalam hal perlindungan privasi. Aplikasi i
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-- [IVPN] (https://www.ivpn.net/)
+- [IVPN](https://www.ivpn.net/)
 
 IVPN adalah alternatif berfokus pada privasi lain yang sangat baik. Aplikasi ini menawarkan Interface mobile yang sederhana dan efisien, tidak ada pengumpulan log, dan memungkinkan pendaftaran anonim. Anda juga dapat membayar dengan bitcoin. Aplikasi ini menggabungkan firewall yang memblokir semua lalu lintas non-VPN, yang bisa sangat berguna di smartphone. Aplikasi penggunanya juga open-source.
 
@@ -4154,7 +4150,7 @@ Dikembangkan oleh tim Proton, VPN ini menawarkan paket gratis dan bebas iklan. P
 ![Image](assets/fr/174.webp)
 
 
-### autentikasi 2FA
+### Autentikasi 2FA
 
 Autentikasi dua faktor (2FA) adalah lapisan keamanan tambahan di atas kata sandi Anda. Ini sering kali mengandalkan kode sekali pakai yang dihasilkan setiap 30 detik oleh aplikasi otentikasi. Kode ini didasarkan pada rahasia yang dibagikan antara perangkat Anda dan layanan online, sesuai dengan protokol TOTP (_Time-based One-Time Password_). Aplikasi yang paling terkenal adalah Google Authenticator, tetapi tidak open-source dan membuat Anda bergantung pada ekosistem Google.
 
@@ -4162,7 +4158,7 @@ Autentikasi dua faktor (2FA) adalah lapisan keamanan tambahan di atas kata sandi
 
 - [Aegis Authenticator](https://getaegis.app/)
 
-Aegis adalah aplikasi open-source yang lengkap. Aplikasi ini mengenkripsi basis data 2FA Anda dengan kata sandi, menawarkan cadangan yang dapat diekspor (juga terenkripsi), dan memungkinkan Anda mengurutkan akun berdasarkan direktori. Interfacenya jelas, modern, dan mudah dipulihkan di perangkat baru, selama Anda memiliki file cadangan dan kata sandi terkait.
+Aegis adalah aplikasi open-source yang lengkap. Aplikasi ini mengenkripsi database 2FA Anda dengan kata sandi, menawarkan cadangan yang dapat diekspor (juga terenkripsi), dan memungkinkan Anda mengurutkan akun berdasarkan direktori. Interfacenya jelas, modern, dan mudah dipulihkan di perangkat baru, selama Anda memiliki file cadangan dan kata sandi terkait.
 
 ![Image](assets/fr/175.webp)
 
@@ -4189,8 +4185,6 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 Aplikasi cuaca klasik seperti AccuWeather atau Météo France sering kali mengumpulkan data pribadi, termasuk lokasi Anda yang tepat, kebiasaan penggunaan, dan terkadang bahkan pengenal perangkat, untuk tujuan komersial atau iklan. Layanan ini juga bergantung API eksklusif terpusat, yang membatasi kontrol Anda atas data yang ditampilkan atau dikirimkan.
 
 **Alternatif**:
-
-
 
 - [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
@@ -4224,18 +4218,17 @@ LibreTube adalah aplikasi Android yang memungkinkan Anda menonton video YouTube 
 
 ![Image](assets/fr/180.webp)
 
-- [NewPipe] (https://newpipe.net/)
+- [NewPipe](https://newpipe.net/)
 
 NewPipe adalah aplikasi alternatif YouTube lainnya. Ringan, bebas iklan, bebas pelacak, dan sepenuhnya open-source, aplikasi ini memungkinkan Anda untuk melihat, mengunduh, atau mendengarkan video dari YouTube (dan platform lain seperti SoundCloud atau PeerTube) di latar belakang. Tidak diperlukan koneksi ke Google. NewPipe bekerja sepenuhnya independen dari aplikasi YouTube resmi, dan tidak memerlukan layanan Google apa pun untuk beroperasi.
 
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
-
 Pemutar media VLC yang populer juga tersedia di Android. Pemutar ini mendukung berbagai format audio dan video, dan memungkinkan Anda memutar file secara lokal atau melalui jaringan, semuanya tanpa iklan atau pengumpulan data. Ini adalah solusi yang sangat baik untuk mengelola koleksi multimedia Anda sendiri secara lokal, tanpa koneksi ke layanan pihak ketiga.
 
 ![Image](assets/fr/181.webp)
 
-- (https://funkwhale.audio/):
+- [Funkwhale](https://funkwhale.audio/):
 
 Funkwhale adalah platform terdesentralisasi untuk berbagi dan mendengarkan musik, dengan aplikasi yang kompatibel.
 
@@ -4282,457 +4275,297 @@ F-Droid adalah katalog aplikasi yang secara eksklusif berisi open-source. Semua 
 
 - [Aurora Store](https://auroraoss.com/)
 
-
-Aurora Store memungkinkan Anda mengakses katalog Google Play Store secara anonim, tanpa akun Google. Ini adalah klien gratis yang berinteraksi langsung dengan server Google, sambil menyembunyikan identitas Anda melalui akun umum. Ini adalah solusi yang berharga untuk terus menggunakan hak milik tertentu yang diperlukan: Aplikasi, sambil menghindari telemetri Google Play.
-
+Aurora Store memungkinkan Anda mengakses katalog Google Play Store secara anonim, tanpa akun Google. Ini adalah aplikasi gratis yang berinteraksi langsung dengan server Google, sambil menyamarkan identitas Anda melalui akun generik. Ini adalah solusi yang berharga untuk terus menggunakan aplikasi eksklusif tertentu yang diperlukan, sambil menghindari telemetri Google Play.
 
 ### Berita
 
-
-Aplikasi Google News, meskipun praktis dan dipersonalisasi, bergantung pada analisis sistematis tentang minat, riwayat penelusuran, dan kebiasaan membaca Anda untuk menyempurnakan rekomendasinya. Hal ini melibatkan pengumpulan data pribadi yang ekstensif, yang sering kali digunakan untuk tujuan periklanan.
-
+Aplikasi Google News, meskipun praktis dan personal, bergantung pada analisis sistematis terhadap minat, riwayat penelusuran, dan kebiasaan membaca Anda untuk menyempurnakan rekomendasinya. Ini melibatkan pengumpulan data pribadi yang ekstensif, yang sering digunakan untuk tujuan iklan.
 
 **Alternatif**:
 
+- [News](https://github.com/bubelov/news)
 
-
-- [Berita](https://github.com/bubelov/news)
-
-
-Aplikasi *News*, yang dikembangkan oleh Bubelov, menawarkan pendekatan yang sangat berbeda. Ini adalah pembaca RSS minimalis, yang dirancang untuk membaca berita tanpa pelacak, iklan, atau algoritme rekomendasi yang tidak jelas. Anda dapat memilih sumber secara manual (pers, blog, podcast, media independen, dll.), Menjamin pengalaman membaca yang netral dan pribadi. Desainnya rapi, feed diperbarui secara otomatis, dan tidak ada data yang diteruskan ke pihak ketiga.
-
+Aplikasi _News_, yang dikembangkan oleh Bubelov, menawarkan pendekatan yang sangat berbeda. Ini adalah pembaca RSS minimalis, yang dirancang untuk membaca berita tanpa pelacak, iklan, atau algoritma rekomendasi yang tidak transparan. Anda dapat secara manual memilih sumber Anda (pers, blog, podcast, media independen, dll.), menjamin pengalaman membaca yang netral dan pribadi. Desainnya rapi, feed diperbarui secara otomatis, dan tidak ada data yang diteruskan ke pihak ketiga.
 
 ### Kontak
 
-
-Google Kontak, seperti banyak aplikasi bawaan di Android, secara permanen menyinkronkan buku Address Anda dengan server Google. Ini berarti bahwa semua informasi kontak Anda (nama, nomor, email, terkadang alamat pos atau foto) disimpan secara online dan dikaitkan dengan akun Anda. Pemusatan ini memfasilitasi pencadangan dan sinkronisasi, tetapi menimbulkan masalah privasi yang besar.
-
+Google Contacts, seperti banyak aplikasi standar di Android, secara permanen menyinkronkan buku alamat Anda dengan server Google. Ini berarti semua informasi kontak Anda (nama, nomor, email, terkadang alamat pos atau foto) disimpan secara online dan terkait dengan akun Anda. Sentralisasi ini memfasilitasi pencadangan dan sinkronisasi, tetapi menimbulkan masalah privasi yang besar.
 
 **Alternatif**:
 
-
-
-- [Hubungkan Anda] (https://github.com/you-apps/ConnectYou)
-
+- [Connect You](https://github.com/you-apps/ConnectYou)
 
 Connect You adalah alternatif sumber terbuka yang ringan dan rapi, dirancang untuk mereka yang ingin mengelola kontak mereka secara lokal, tanpa pengumpulan data atau sinkronisasi paksa dengan awan pihak ketiga. Aplikasi ini menawarkan Interface yang intuitif, memudahkan untuk menyortir, mencari, dan mengedit entri Anda, dan bisa berintegrasi dengan layanan CalDAV jika Anda menggunakan server kontak yang di-host sendiri (melalui Nextcloud, misalnya).
 
+Connect You adalah alternatif open-source yang ringan dan rapi, dirancang bagi mereka yang ingin mengelola kontak mereka secara lokal, tanpa pengumpulan data atau sinkronisasi paksa dengan cloud pihak ketiga. Aplikasi ini menawarkan Interface yang intuitif, memudahkan untuk mengurutkan, mencari, dan mengedit entri Anda, serta dapat berintegrasi dengan layanan CalDAV jika Anda menggunakan server kontak yang Anda hosting sendiri (melalui Nextcloud, misalnya).
 
 ### Manajemen foto
 
-
-Google Foto sangat bagus untuk menyimpan gambar secara otomatis di awan, mengaturnya, atau menemukannya dengan pengenalan wajah. Namun, kesederhanaan ini menyembunyikan pemrosesan data Anda secara sistematis: Setiap gambar dianalisis, diindeks, dan dirujuk silang dengan data Google Anda yang lain. Foto Anda dapat menjadi sumber informasi tambahan, yang dieksploitasi untuk tujuan komersial.
-
+Google Photos sangat bagus untuk secara otomatis menyimpan gambar di cloud, mengorganisasinya, atau mencarinya melalui pengenalan wajah. Namun, kesederhanaan ini menyembunyikan pemrosesan sistematis data Anda: Setiap gambar dianalisis, diindeks, dan disilangkan dengan data Google Anda yang lain. Foto-foto Anda dapat menjadi sumber informasi tambahan, yang dieksploitasi untuk tujuan komersial.
 
 **Alternatif**:
 
+- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 
+Simple Gallery adalah aplikasi open-source minimalis yang berfungsi sepenuhnya offline. Aplikasi ini adalah bagian dari suite "_Simple Mobile Tools_". Aplikasi ini memungkinkan Anda untuk mengelola, mengurutkan, melihat, dan mengedit gambar Anda tanpa ada data yang meninggalkan perangkat Anda. Aplikasi ini juga memiliki fitur retouching, perlindungan kata sandi, dan tempat sampah untuk memulihkan item yang dihapus. Tidak ada pelacakan, tidak ada sinkronisasi paksa: Foto-foto Anda tetap bersama Anda.
 
-- [Galeri Sederhana](https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Aves](https://github.com/deckerst/aves)
 
-
-Simple Gallery adalah aplikasi sumber terbuka minimalis yang bekerja sepenuhnya secara offline. Aplikasi ini merupakan bagian dari rangkaian *Simple Mobile Tools*. Aplikasi ini memungkinkan Anda mengelola, mengurutkan, melihat, dan mengedit gambar tanpa ada data yang keluar dari perangkat. Aplikasi ini juga memiliki fitur retouching, proteksi kata sandi, dan tempat sampah daur ulang untuk memulihkan item yang terhapus. Tidak ada pelacakan, tidak ada sinkronisasi yang dipaksakan: Foto Anda tetap bersama Anda.
-
-
-
-- [Aves] (https://github.com/deckerst/aves)
-
-
-Aves adalah alternatif dengan Interface yang lebih modern. Aves menyediakan navigasi album yang lancar dan pengaturan tingkat lanjut (tag, filter, penyortiran, dll.). Aplikasi ini tidak memerlukan koneksi Internet untuk mengoperasikannya, dan tidak mengumpulkan data pengguna.
-
+Aves adalah alternatif dengan Interface yang lebih modern. Aplikasi ini menyediakan navigasi album yang mulus dan organisasi tingkat lanjut (tag, filter, penyortiran, dll.). Aplikasi ini tidak memerlukan koneksi internet untuk beroperasi, dan tidak mengumpulkan data pengguna.
 
 ![Image](assets/fr/185.webp)
 
-
-
 - [Ente Photos](https://ente.io/)
 
-
-Ente Photos adalah layanan sumber terbuka (klien + server) untuk pencadangan foto otomatis dengan enkripsi ujung ke ujung. Gambar-gambar Anda dienkripsi pada perangkat sebelum dikirim, memastikan bahwa server Ente pun tidak dapat mengaksesnya. Ente juga menawarkan versi yang di-host sendiri untuk pengguna tingkat lanjut.
-
+Ente Photos adalah layanan open-source (klien + server) untuk pencadangan foto otomatis dengan enkripsi end-tp-end. Gambar Anda dienkripsi di perangkat sebelum dikirim, memastikan bahwa bahkan server Ente tidak dapat mengaksesnya. Ente juga menawarkan versi yang di-hosting sendiri (self-hosted) untuk pengguna tingkat lanjut.
 
 ![Image](assets/fr/186.webp)
 
-
-
 - [Stingle Photos](https://stingle.org/)
 
-
-Stingle adalah sebuah galeri foto dan aplikasi kamera, yang dikombinasikan dengan layanan pencadangan terenkripsi. Seperti Ente, foto-foto dilindungi oleh enkripsi ujung ke ujung. Anda bisa menggunakan layanan awan mereka (gratis 1 GB) atau meng-host sendiri server Stingle untuk kontrol penuh. Interface sederhana, tanpa iklan atau pelacak.
-
+Stingle adalah galeri foto dan aplikasi kamera, dikombinasikan dengan layanan cadangan terenkripsi. Seperti Ente, foto dilindungi oleh enkripsi end-to-end. Anda dapat menggunakan layanan cloud mereka (gratis 1 GB) atau meng-hosting server Stingle sendiri untuk kontrol total. Interface-nya sederhana, tanpa iklan atau pelacak.
 
 ![Image](assets/fr/187.webp)
 
-
 ### Pembaca PDF
 
+Adobe Acrobat Reader, yang banyak digunakan untuk membaca atau membuat anotasi dokumen PDF, hadir dengan sejumlah fungsi online yang dapat mengekspos data Anda: telemetry aktif, sinkronisasi cloud, dan pengumpulan informasi tentang file Anda atau kebiasaan membaca.
 
 **Alternatif**:
 
+- [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
-Adobe Acrobat Reader, yang banyak digunakan untuk membaca atau membuat anotasi dokumen PDF, dilengkapi dengan sejumlah fungsi online yang dapat mengekspos data Anda: Telemetri aktif, sinkronisasi awan, dan pengumpulan informasi tentang file atau kebiasaan membaca Anda.
-
-
-
-- [Penampil MuPDF](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
-
-
-MuPDF Viewer adalah pembaca PDF yang sangat ringan, cepat, dan sepenuhnya sumber terbuka. Aplikasi ini menggunakan sumber daya yang sangat sedikit. Meskipun tidak menawarkan fitur-fitur canggih seperti anotasi atau penandatanganan, aplikasi ini melakukan tugasnya dengan sempurna: Menampilkan dokumen Anda, tanpa memata-matai.
-
-
+MuPDF Viewer adalah pembaca PDF yang sangat ringan, cepat, dan sepenuhnya open-source. Aplikasi ini mengonsumsi sangat sedikit sumber daya. Meskipun tidak menawarkan fitur-fitur canggih seperti anotasi atau tanda tangan, aplikasi ini melakukan tugasnya dengan sempurna: Menampilkan dokumen Anda, tanpa memata-matai.
 
 - [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
-
-MJ PDF Reader adalah aplikasi sumber terbuka sederhana yang memungkinkan Anda membaca file PDF tanpa iklan atau koneksi ke akun online.
-
+MJ PDF Reader adalah aplikasi open-source sederhana yang memungkinkan Anda membaca berkas PDF tanpa iklan atau koneksi ke akun online.
 
 ### Telepon
 
-
-Aplikasi Telepon Google, yang diinstal secara default pada banyak smartphone Android, bekerja secara efisien tetapi mengumpulkan sejumlah besar data penggunaan.
-
+Aplikasi Google's Phone, yang dipasang secara standar di banyak smartphone Android, berfungsi secara efisien tetapi mengumpulkan sejumlah besar data penggunaan.
 
 **Alternatif**:
 
+- [Koler](https://github.com/Chooloo/koler)
 
-
-- [Koler] (https://github.com/Chooloo/koler)
-
-
-Koler adalah aplikasi telepon sumber terbuka yang dirancang untuk menjadi indah, mudah digunakan dan ramah privasi. Koler menawarkan Interface yang lancar dan intuitif untuk mengelola panggilan Anda, tanpa pelacak atau analisis data pribadi. Namun, saat ini aplikasi ini tidak menyertakan pemfilteran panggilan tingkat lanjut atau integrasi dengan layanan pihak ketiga.
-
+Koler adalah aplikasi telepon open-source yang dirancang agar bagus, mudah digunakan, dan ramah privasi. Aplikasi ini menawarkan Interface yang lancar dan intuitif untuk mengelola panggilan Anda, tanpa pelacak atau analisis data pribadi. Namun, saat ini tidak menyertakan penyaringan panggilan canggih atau integrasi dengan layanan pihak ketiga.
 
 ![Image](assets/fr/188.webp)
 
-
 ### Terjemahan
 
-
-Google Translate adalah tolok ukur dalam penerjemahan otomatis, tetapi penggunaannya secara sistematis melibatkan pengiriman semua pertanyaan Anda ke Google, dengan pelacakan bawaan dan kemungkinan pengumpulan data sensitif (teks yang diterjemahkan, riwayat, dll.).
-
+Google Translate adalah tolok ukur dalam terjemahan otomatis, tetapi penggunaannya secara sistematis melibatkan pengiriman semua permintaan Anda ke Google, dengan pelacakan bawaan dan kemungkinan pengumpulan data sensitif (Teks yang diterjemahkan, riwayat, dll.).
 
 **Alternatif**:
 
+- [TranslateYou](https://github.com/you-apps/TranslateYou)
 
+TranslateYou adalah aplikasi terjemahan open-source yang menghormati privasi penggunanya. Aplikasi ini berfungsi seperti Interface mesin terjemahan lainnya (LibreTranslate, LingvaTranslate, Mozhi, DeepL, dll.), dan memungkinkan Anda memilih layanan yang tidak mengeksploitasi data Anda.
 
-- [TerjemahkanAnda](https://github.com/you-apps/TranslateYou)
-
-
-TranslateYou adalah aplikasi penerjemahan sumber terbuka yang menghormati privasi penggunanya. Aplikasi ini bekerja seperti Interface untuk berbagai mesin penerjemahan (LibreTranslate, LingvaTranslate, Mozhi, DeepL, dll.), dan memungkinkan Anda memilih layanan yang tidak mengeksploitasi data Anda.
-
-
-Tanpa iklan, tanpa pelacak, dan Interface yang mudah digunakan menjadikan TranslateYou sebagai alternatif praktis untuk Google Translate.
-
+Tidak ada iklan, tidak ada pelacak, dan Interface yang mudah digunakan membuat TranslateYou menjadi alternatif praktis untuk Google Translate.
 
 ![Image](assets/fr/189.webp)
 
-
 ### Pemindai produk
 
-
-Yuka banyak digunakan untuk memindai produk makanan dan kosmetik dan menilai kualitasnya, tetapi bergantung pada model yang tidak jelas, dengan kriteria penilaian yang dipertanyakan, basis data yang sebagian dimiliki oleh perusahaan dan aplikasi yang tidak bersumber terbuka. Terlebih lagi, pengoperasiannya membutuhkan koneksi ke server terpusat, dengan potensi pengumpulan data penggunaan.
-
+Yuka banyak digunakan untuk memindai produk makanan dan kosmetik serta menilai kualitasnya, tetapi ia mengandalkan model yang tidak transparan, dengan kriteria penilaian yang dipertanyakan, database yang sebagian eksklusif, dan aplikasi yang tidak open-source. Terlebih lagi, operasinya memerlukan koneksi ke server terpusat, dengan kemungkinan pengumpulan data penggunaan.
 
 **Alternatif**:
-
-
 
 - [OpenFoodFacts](https://world.openfoodfacts.org/open-food-facts-mobile-app)
 
+OpenFoodFacts adalah alternatif yang jauh lebih transparan dan ramah privasi. Proyek open-source kolaboratif ini menawarkan datagase global, yang diisi oleh kontribusi pengguna. Informasi nutrisi, bahan, dan label dapat diakses secara transparan, tanpa pengumpulan data yang berlebihan.
 
-OpenFoodFacts adalah alternatif yang jauh lebih transparan dan ramah privasi. Proyek sumber terbuka kolaboratif ini menawarkan basis data global, yang diisi oleh kontribusi pengguna. Informasi nutrisi, bahan makanan, dan label dapat diakses secara transparan, tanpa pengumpulan data yang tidak semestinya.
+Aplikasi mobile-nya memungkinkan Anda memindai kode batang, segera mengakses lembar data produk, dan berkontribusi pada database itu sendiri. Aplikasi ini sepenuhnya gratis untuk digunakan, tanpa iklan atau pelacak.
 
+### Aplikasi berbagi
 
-Aplikasi seluler ini memungkinkan Anda memindai barcode, langsung mengakses lembar data produk, dan berkontribusi pada basis data Anda sendiri. Aplikasi ini sepenuhnya gratis untuk digunakan, tanpa iklan atau pelacak.
+Aplikasi fungsi seperti Quick Share (Android) atau AirDrop (iOS/macOS) memungkinkan Anda mengirim file antara perangkat terdekat melalui Bluetooth dan Wi-Fi langsung, tanpa koneksi internet. Fungsi-fungsi ini praktis, tetapi mengandalkan sistem tertutup, terkadang terhubung ke akun Google, Samsung, atau Apple.
 
-
-### Berbagi di sekitar
-
-
-Fungsi seperti Quick Share (Android) atau AirDrop (iOS/macOS) memungkinkan Anda mengirim file di antara perangkat terdekat melalui Bluetooth dan Wi-Fi langsung, tanpa koneksi Internet. Mereka praktis, tetapi bergantung pada sistem tertutup, terkadang ditautkan ke akun Google, Samsung, atau Apple.
-
-
-Quick Share sekarang menjadi standar di Android. Perangkat lunak ini, yang awalnya dikembangkan oleh Samsung, disatukan pada tahun 2024 dengan Nearby Share oleh Google, sehingga menghasilkan satu aplikasi tunggal untuk berbagi file di Android.
-
+Quick Share sekarang menjadi standar di Android. Perangkat lunak ini, yang awalnya dikembangkan oleh Samsung, disatukan pada tahun 2024 dengan Nearby Share oleh Google, menghasilkan satu aplikasi untuk berbagi file di Android.
 
 **Alternatif**:
-
-
 
 - [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
+Snapdrop adalah alternatif open-source gratis yang tidak memerlukan instalasi. Ini memungkinkan Anda berbagi file antar perangkat yang terhubung ke jaringan lokal yang sama, hanya melalui browser web. Transfer bersifat langsung (peer-to-peer) dan data tidak pernah melewati server jarak jauh.
 
-Snapdrop adalah alternatif sumber terbuka gratis yang tidak memerlukan instalasi. Snapdrop memungkinkan Anda berbagi file di antara perangkat yang terhubung ke jaringan lokal yang sama, cukup melalui browser web. Transfer bersifat langsung (peer-to-peer) dan data tidak pernah melewati server jarak jauh.
-
-
-Alternatif yang menarik adalah [PairDrop] (https://github.com/schlagmichdoch/pairdrop) (Fork dari Snapdrop), yang menawarkan beberapa fitur tambahan.
-
-
+Alternatif yang menarik adalah [PairDrop](https://github.com/schlagmichdoch/pairdrop) (Fork dari Snapdrop), yang menawarkan beberapa fitur tambahan.
 
 - [Warpinator](https://github.com/linuxmint/warpinator)
 
-
-Warpinator, yang dikembangkan oleh Linux Mint, memudahkan transfer file antar perangkat yang terhubung ke jaringan Wi-Fi yang sama. Aplikasi ini bekerja secara peer-to-peer, tanpa cloud atau server pihak ketiga, dengan Interface yang sederhana. Tersedia port untuk Android, memungkinkan file ditransfer antara ponsel dan komputer.
-
-
+Warpinator, yang dikembangkan oleh Linux Mint, memudahkan transfer file antar perangkat yang terhubung ke jaringan Wi-Fi yang sama. Aplikasi ini bekerja peer-to-peer, tanpa cloud atau server pihak ketiga, dengan Interface yang sederhana. Port ada untuk Android, memungkinkan file ditransfer antara telepon dan komputer.
 
 - [LocalSend](https://localsend.org/)
 
-
-LocalSend merupakan alternatif gratis lainnya yang berfitur lengkap dengan Interface yang rapi. Sepenuhnya sumber terbuka, aplikasi ini memungkinkan transfer file terenkripsi end-to-end yang terdesentralisasi dan terenkripsi antar perangkat yang terhubung ke jaringan lokal yang sama. Tidak ada server perantara yang digunakan, memastikan bahwa data Anda tidak pernah meninggalkan jaringan rumah Anda.
-
+LocalSend adalah alternatif gratis dan berfitur lengkap lainnya dengan Interface yang rapi. Sepenuhnya open-source, aplikasi ini memungkinkan transfer file terdesentralisasi dan terenkripsi end-to-end antara perangkat yang terhubung ke jaringan lokal yang sama. Tidak ada server perantara yang digunakan, memastikan bahwa data Anda tidak pernah meninggalkan jaringan lokal Anda.
 
 ![Image](assets/fr/190.webp)
 
-
 ### Buku
 
-
-Aplikasi seperti Goodreads, meskipun banyak digunakan, menimbulkan masalah privasi yang serius. Platform ini dimiliki oleh Amazon, yang mengumpulkan banyak sekali data tentang bacaan, preferensi, peringkat, dan ulasan Anda. Selain itu, Interface sangat bergantung pada pelacakan pengguna dan analisis perilaku untuk tujuan komersial.
-
+Aplikasi seperti Goodreads, meskipun banyak digunakan, menimbulkan masalah privasi yang serius. Platform ini dimiliki oleh Amazon, yang mengumpulkan banyak data tentang bacaan, preferensi, penilaian, dan ulasan Anda. Selain itu, Interface-nya sangat bergantung pada pelacakan pengguna dan analisis perilaku untuk tujuan komersial.
 
 **Alternatif**:
-
-
 
 - [Openreads](https://github.com/mateusz-bak/openreads)
 
-
-Openreads adalah alternatif sumber terbuka untuk pelacakan bacaan yang ramah privasi. Aplikasi ini memungkinkan Anda membuat perpustakaan digital pribadi, melacak kemajuan membaca, menilai dan mengomentari buku, serta mengakses rekomendasi berdasarkan kriteria Anda sendiri, tanpa analisis atau pelacakan terpusat. Semua data tetap berada di perangkat Anda atau disinkronkan melalui layanan yang dihosting sendiri.
-
+Openreads adalah alternatif open-source untuk pelacakan bacaan yang ramah privasi. Aplikasi ini memungkinkan Anda membuat perpustakaan digital pribadi, melacak kemajuan membaca Anda, menilai dan mengomentari buku, dan mengakses rekomendasi berdasarkan kriteria Anda sendiri, tanpa analisis atau pelacakan terpusat. Semua data tetap berada di perangkat Anda atau disinkronkan melalui layanan yang di-hosting sendiri (self-hosted).
 
 ### Jam, alarm, dan pengatur waktu
 
-
 **Alternatif**:
-
-
 
 - [Chrono] (https://github.com/vicolo-dev/chrono)
 
+Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface modern yang rapi, tanpa iklan atau pengumpulan data. Aplikasi ini memungkinkan Anda membuat alarm yang dapat disesuaikan: Pengulangan menurut hari atau rentang tanggal tertentu, pilihan suara, intensitas progresif, getar, atau bahkan tugas yang harus dilakukan untuk menonaktifkan alarm (Menyelesaikan perhitungan, membaca ulang teks, dll.).
 
-Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface yang modern dan rapi, tanpa iklan atau pengumpulan data. Anda dapat membuat alarm yang dapat disesuaikan: Pengulangan sesuai dengan rentang hari atau tanggal tertentu, pilihan suara, intensitas progresif, getar, atau bahkan tugas yang harus dilakukan untuk menonaktifkan alarm (Menyelesaikan perhitungan, membaca ulang teks, dll.).
-
-
-Aplikasi ini juga mengintegrasikan timer dan stopwatch, dengan perekaman putaran, statistik, perbandingan waktu, dan manajemen multi-timer. Anda dapat mengonfigurasi beberapa zona waktu, menyesuaikan tema (warna, gaya, animasi), dan bahkan mengatur alarm dan pengatur waktu dengan label.
-
+Aplikasi ini juga mengintegrasikan pengatur waktu (timer) dan stopwatch, dengan perekaman putaran, statistik, perbandingan waktu, dan manajemen multi-pengatur waktu. Anda dapat mengonfigurasi beberapa zona waktu, menyesuaikan tema (warna, gaya, animasi), dan bahkan mengorganisasi alarm dan pengatur waktu Anda dengan label.
 
 ___
 
+⚠️ ***Perhatian**: Meskipun alternatif-alternatif yang disajikan dalam bab ini sebagian besar open-source dan berorientasi pada privasi, mereka tidak luput dari keterbatasan atau risiko. Beberapa di antaranya mungkin tidak lagi dikelola, memiliki kerentanan yang belum diperbaiki, menjadi berlisensi, atau bahkan, berpotensi menjadi malware. Beberapa juga mungkin ilegal di yurisdiksi lokal Anda. Saya menulis bab ini pada Juni 2025, tetapi situasi untuk aplikasi-aplikasi ini mungkin telah berubah sejak saat itu.*
 
-⚠️ ***Perhatian**: Meskipun alternatif yang disajikan dalam bab ini sebagian besar merupakan sumber terbuka dan berorientasi pada privasi, namun bukan berarti tanpa keterbatasan atau risiko. Beberapa mungkin tidak lagi dipelihara, memiliki kerentanan yang belum ditambal, menjadi hak milik atau bahkan, berpotensi menjadi *malware*. Beberapa mungkin juga ilegal di yurisdiksi lokal Anda. Saya telah menulis bab ini pada bulan Juni 2025, tetapi situasi untuk aplikasi-aplikasi ini mungkin telah berubah sejak saat itu.*
-
-
-Selain itu, saya secara pribadi belum mengaudit kode semua alat yang disebutkan, dan rekomendasi saya sama sekali tidak boleh dilihat sebagai jaminan mutlak. Oleh karena itu, penting bagi setiap orang untuk melakukan penelitian sendiri sebelum menggunakan aplikasi-aplikasi ini.
-
-
+Selain itu, saya tidak secara pribadi mengaudit kode program dari semua aplikasi yang disebutkan, dan rekomendasi saya sama sekali tidak boleh dilihat sebagai jaminan mutlak. Oleh karena itu, penting bagi setiap orang untuk melakukan penelitian mereka sendiri sebelum menggunakan aplikasi-aplikasi ini.
 ___
 
 
 # Mengamankan jaringan lokal Anda
 
-
 <partId>23e49e48-34c9-435c-a36f-1c86b0254275</partId>
-
 
 ## Memahami jaringan rumah Anda dengan lebih baik
 
-
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
+Keamanan digital sering kali dimulai dengan pemahaman yang baik tentang jaringan rumah. Jaringan rumah Anda adalah titik masuk pertama internet ke dalam lingkungan pribadi Anda, dan internetlah yang menimbulkan ancaman terbesar bagi keamanan dan privasi Anda.
 
-Keamanan digital sering kali dimulai dengan penguasaan yang baik atas jaringan rumah. Jaringan rumah Anda adalah titik masuk pertama Internet ke dalam lingkungan pribadi Anda, dan Internet-lah yang menjadi ancaman terbesar bagi keamanan dan privasi Anda.
+Memahami cara kerja jaringan lokal Anda, bagaimana data Anda mengalir, dan perangkat mana yang bertanggung jawab untuk mengelola aliran-aliran ini sangat penting untuk kedaulatan digital Anda.
 
-
-Memahami cara kerja jaringan lokal Anda, bagaimana data Anda mengalir, dan perangkat mana yang bertanggung jawab untuk mengelola aliran data ini sangat penting bagi kedaulatan digital Anda.
-
-
-Pada bab ini, kita akan secara bertahap menjelajahi konsep dasar jaringan rumah, dari penjelasan tentang apa itu Internet hingga rincian konkret seperti alokasi alamat IP lokal dan peran router. Tujuannya adalah untuk mengulang kembali dasar-dasar teori yang penting untuk pemahaman yang tepat dari bab berikutnya, yang akan membahas aspek-aspek yang lebih praktis.
-
+Dalam bab ini, kita akan secara bertahap menjelajahi konsep dasar jaringan rumah, mulai dari penjelasan tentang apa itu internet hingga detail nyata seperti alokasi alamat IP lokal dan peran router. Tujuannya adalah untuk kembali membahas dasar-dasar teoretis yang penting untuk pemahaman yang tepat tentang bab berikutnya, yang akan membahas aspek-aspek yang lebih praktis.
 
 ### Internet
 
-
 #### Sejarah singkat Internet
 
-
-Sejarah Internet berawal pada akhir tahun 1960-an, dalam konteks penelitian ilmiah dan militer. Proyek awal, yang dijuluki "ARPANET", diluncurkan oleh lembaga Amerika ARPA (sekarang DARPA) untuk menghubungkan beberapa pusat penelitian dan memungkinkan berbagi sumber daya.
-
+Sejarah Internet dimulai pada akhir tahun 1960-an, dalam konteks penelitian ilmiah dan militer. Proyek awal, yang dijuluki "ARPANET", diluncurkan oleh badan Amerika ARPA (sekarang DARPA) untuk menghubungkan beberapa pusat penelitian dan memungkinkan berbagi sumber daya.
 
 ![Image](assets/fr/191.webp)
 
-
-Tujuannya juga untuk mendesain jaringan yang tangguh, yang mampu terus beroperasi meskipun sebagian dari simpul-simpulnya dihancurkan (suatu keharusan di tengah-tengah Perang Cold). ARPANET memungkinkan komunikasi pertama antara komputer jarak jauh pada tahun 1969.
-
+Tujuannya juga untuk merancang jaringan yang tangguh, yang mampu terus beroperasi bahkan jika sebagian node-nya hancur (sebuah keharusan di tengah-tengah Perang Dingin). ARPANET memungkinkan komunikasi pertama antara komputer jarak jauh pada tahun 1969.
 
 ![Image](assets/fr/192.webp)
 
-
-Selama beberapa dekade, proyek ini berkembang, terutama dengan standarisasi protokol TCP/IP pada tahun 1983, yang menjadi fondasi teknis umum untuk seluruh Internet. Pada tahun 1990-an, kemunculan *World Wide Web*, yang telah dibahas pada bab sebelumnya, membuat Internet dapat diakses oleh masyarakat umum dengan menyederhanakan akses ke dokumen melalui browser. Titik balik utama ini mengubah Internet menjadi alat komunikasi dan informasi yang universal.
-
+Selama beberapa dekade, proyek ini berkembang, terutama dengan standardisasi protokol TCP/IP pada tahun 1983, yang menjadi fondasi teknis umum dari seluruh Internet. Pada tahun 1990-an, munculnya _World Wide Web_, yang dibahas dalam bab sebelumnya, membuat Internet dapat diakses oleh masyarakat umum dengan menyederhanakan akses ke dokumen melalui browser. Titik balik besar ini mengubah Internet menjadi alat komunikasi dan informasi yang universal.
 
 #### Apa yang dimaksud dengan Internet?
 
+Internet, yang secara harfiah berarti "jaringan yang saling terhubung", adalah infrastruktur global yang memungkinkan miliaran perangkat untuk berkomunikasi satu sama lain. Ini bukan layanan tunggal, juga bukan lokasi tertentu, melainkan kumpulan jaringan komputer publik dan swasta, yang saling terhubung dalam skala planet. Setiap pihak (individu, perusahaan, otoritas publik, dll.) dapat menghubungkan jaringannya sendiri ke seluruh dunia, asalkan mematuhi protokol teknis standar tertentu yang memungkinkan perangkat untuk saling memahami.
 
-Internet, yang secara harfiah berarti "jaringan yang saling terhubung", adalah infrastruktur global yang memungkinkan miliaran perangkat untuk berkomunikasi satu sama lain. Internet bukanlah sebuah layanan tunggal, atau lokasi tertentu, melainkan kumpulan jaringan komputer publik dan pribadi, yang saling terhubung dalam skala planet. Setiap pemain (individu pribadi, perusahaan, otoritas publik, dll.) dapat menghubungkan jaringannya sendiri ke seluruh dunia, asalkan mematuhi protokol teknis standar tertentu yang memungkinkan perangkat untuk memahami satu sama lain.
+Infrastruktur Internet didasarkan terutama pada dua protokol:
 
+- **IP** (_Internet Protocol_) Mengidentifikasi setiap perangkat yang terhubung dan merutekan paket data.
+- **TCP** (_Transmission Control Protocol_) Membagi aliran, memeriksa kesalahan, dan mengurutkan kembali segmen-segmen secara berurutan.
 
-Infrastruktur Internet didasarkan pada dua protokol:
+→ Untuk penggunaan real time di mana keandalan kurang penting daripada latensi (VoIP, DNS, streaming, dll.), protokol transport lain sering digunakan sebagai ganti TCP: UDP (_User Datagram Protocol_).
 
+Kedua protokol ini bekerja sama untuk memastikan bahwa pesan yang dikirim dari satu titik ke titik lain tiba lengkap dan dalam urutan yang benar.
 
+Secara nyata, ketika Anda mengunjungi sebuah situs web, misalnya dengan mengetik alamat di browser Anda, beberapa operasi dipicu di latar belakang. Pertama, komputer atau smartphone Anda harus mengubah alamat yang mudah dibaca (seperti `planb.network`) menjadi alamat IP, menggunakan layanan yang disebut DNS (_Domain Name System_). Setelah alamat IP web server diperoleh, data dapat dikirim ke tujuannya.
 
-- IP** (*Internet Protocol*) Mengidentifikasi setiap perangkat yang tersambung dan merutekan paket data.
-- TCP** (*Transmission Control Protocol*) Memilah-milah aliran, memeriksa kesalahan, dan menempatkan kembali segmen-segmen secara berurutan.
-
-
-→ Untuk penggunaan waktu nyata di mana keandalan tidak terlalu penting dibandingkan latensi (VoIP, DNS, streaming, dll.), protokol transport lain sering digunakan sebagai pengganti TCP: UDP (*User Datagram Protocol*).
-
-
-Kedua protokol ini bekerja sama untuk memastikan bahwa pesan yang dikirim dari satu titik ke titik lainnya tiba dengan lengkap dan dalam urutan yang benar.
-
-
-Secara konkret, ketika Anda mengunjungi situs web, misalnya dengan mengetikkan Address pada browser Anda, beberapa operasi dipicu di latar belakang. Pertama, komputer atau ponsel cerdas Anda harus mengubah Address yang dapat dibaca (seperti `planb.network`) menjadi IP Address, dengan menggunakan layanan yang disebut DNS (*Domain Name System*). Setelah IP Address server web diperoleh, data dapat dikirim ke tujuannya.
-
-
-Data ini kemudian mengikuti jalur yang rumit. Pertama, data ini melewati router dan modem di rumah Anda, sebelum mencapai infrastruktur ISP Anda. Dari sana, data tersebut berpotensi melintasi beberapa jaringan perantara (kadang-kadang kabel lintas samudra, router transit, titik Internet Exchange, dll.) sebelum mencapai tujuannya: Server situs yang ingin Anda kunjungi. Kemudian, server akan mengirimkan data (konten situs) ke arah yang berlawanan.
-
+Data ini kemudian mengikuti jalur yang kompleks. Pertama, ia melewati router dan modem rumah Anda, sebelum mencapai infrastruktur ISP Anda. Dari sana, data berpotensi melintasi beberapa jaringan perantara (terkadang kabel trans-samudera, router transit, titik pertukaran Internet, dll.) sebelum mencapai tujuannya: Server situs yang ingin Anda kunjungi. Server ini pada gilirannya mengirimkan data (konten situs) ke arah yang berlawanan.
 
 ![Image](assets/fr/193.webp)
 
-
-Oleh karena itu, Internet dapat disimpulkan sebagai jaringan terdesentralisasi yang sangat besar, berdasarkan aturan umum, di mana setiap perangkat berpotensi untuk berkomunikasi dengan perangkat lainnya, di mana pun ia berada di dunia. Namun, meskipun keterbukaan ini memungkinkan pertukaran digital, ini juga mengharuskan Anda untuk bersikap waspada: Setiap tindakan online melewati infrastruktur yang tidak dapat Anda kendalikan, dan kerahasiaan bursa Anda bergantung pada bagaimana Anda mengonfigurasi dan menggunakan alat ini.
-
+Oleh karena itu, Internet dapat disimpulkan sebagai jaringan terdesentralisasi yang sangat besar, berdasarkan aturan umum, di mana setiap perangkat berpotensi dapat berkomunikasi dengan perangkat lain, di mana pun perangkat itu berada di dunia. Namun, meskipun keterbukaan ini memungkinkan pertukaran digital, Internet juga mengharuskan Anda untuk mengambil sikap waspada: Setiap tindakan online melewati infrastruktur yang tidak Anda kendalikan, dan kerahasiaan pertukaran Anda bergantung pada cara Anda mengonfigurasi dan menggunakan perangkat-perangkat ini.
 
 ### Peran modem dan router
 
-
 Di sebagian besar rumah modern, akses Internet disediakan melalui perangkat pusat yang berfungsi sebagai modem dan router. Nama perangkat ini bervariasi dari satu negara ke negara lain (di Prancis, perangkat ini disebut "Kotak Internet"). Perangkat multifungsi yang disediakan oleh ISP inilah yang menghubungkan Anda ke seluruh jaringan Internet.
 
+Di sebagian besar rumah modern, akses Internet disediakan melalui perangkat pusat yang berfungsi sebagai modem dan router. Nama perangkat ini bervariasi dari satu negara ke negara lain (di Prancis, ini disebut "_Internet Box_"). Perangkat multifungsi yang disediakan oleh ISP inilah yang menghubungkan Anda ke seluruh jaringan Internet.
 
-→ *ISP = Penyedia Layanan Internet*
+→ *ISP =  Internet Service Provider*
 
+Perangkat ini menggabungkan 2 fungsi utama:
 
-Perangkat ini memadukan 2 fungsi utama:
+- ** Peran modem**
 
-
-
-- Peran modem ** Peran modem**
-
-
-Modem (kependekan dari "*modulator-demodulator*") adalah komponen yang menghubungkan jaringan ISP ke rumah Anda. Modem mengadaptasi sinyal listrik atau optik yang diterima (melalui serat optik, kabel koaksial, ADSL, atau jaringan seluler) menjadi sinyal digital yang dapat dimengerti oleh perangkat Anda. Sebaliknya, ini mengubah data dari peralatan Anda ke dalam format yang dapat ditransmisikan melalui infrastruktur operator. Langkah ini sangat penting jika jaringan rumah Anda ingin berkomunikasi dengan Internet.
-
-
+Modem (kependekan dari "_modulator-demodulator_") adalah komponen yang menghubungkan jaringan ISP Anda ke rumah Anda. Modem menyesuaikan sinyal listrik atau optik yang diterima (melalui serat optik, kabel koaksial, ADSL atau jaringan mobile) menjadi sinyal digital yang dapat dipahami oleh perangkat Anda. Sebaliknya, Modem mengubah data dari peralatan Anda menjadi format yang dapat ditransmisikan melalui infrastruktur operator. Langkah ini penting agar jaringan rumah Anda dapat berkomunikasi dengan Internet.
 
 - Peran router**
 
+Router adalah jantung dari jaringan lokal Anda. Ia mendistribusikan koneksi Internet ke semua perangkat Anda: Komputer, smartphone, objek terhubung, printer, dll. Router menetapkan setiap perangkat alamat IP lokal (Berbeda dari IP publik Anda yang terlihat di Internet). Router kemudian mengorganisir lalu lintas masuk dan keluar, memastikan bahwa data mencapai perangkat yang tepat. Router juga dapat mengintegrasikan firewall, menyaring paket jaringan, atau mengelola aturan port forwarding. NAT menyembunyikan jaringan lokal Anda dari mata Internet, menggunakan satu alamat IP publik untuk merepresentasikan semua perangkat Anda. Hanya router yang tahu dari perangkat lokal mana yang memulai suatu permintaan.
 
-Router adalah jantung dari jaringan lokal Anda. Router mendistribusikan koneksi Internet ke semua perangkat Anda: Komputer, ponsel cerdas, benda-benda yang terhubung, printer, dll. Router memberikan IP lokal Address kepada masing-masing perangkat tersebut (berbeda dengan IP publik Anda yang terlihat di Internet). Router kemudian mengatur lalu lintas masuk dan keluar, memastikan bahwa data mencapai perangkat yang tepat. Router ini juga dapat mengintegrasikan firewall, memfilter paket jaringan, atau mengelola aturan penerusan port. NAT menyembunyikan jaringan lokal Anda dari mata Internet, menggunakan satu IP publik Address untuk mewakili semua perangkat Anda. Hanya router yang tahu perangkat lokal mana yang memulai permintaan yang mana.
+Di beberapa negara, kedua fungsi ini terkadang dibagi antara dua perangkat terpisah: modem dan router.
 
+Dalam praktiknya, modem router modern sering kali menyertakan fungsi pelengkap lainnya: Titik akses Wi-Fi, switch Ethernet, interface administrasi, dan terkadang bahkan server file serta fitur lainnya.
 
-Di beberapa negara, kedua fungsi ini terkadang dibagi antara dua perangkat yang terpisah: Modem dan router.
+Memahami peran modem router adalah faktor kunci dalam mengamankan jaringan lokal Anda. Dalam beberapa hal, perangkat ini membentuk batas antara dunia luar (Internet) dan lingkungan digital pribadi Anda. Konfigurasi yang salah, kata sandi yang lemah, atau firmware yang usang dapat mengubah gerbang ini menjadi lubang yang terbuka. Sebaliknya, modem-router yang dikonfigurasi dengan baik menjadi benteng pertahanan terhadap gangguan.
 
-
-Dalam praktiknya, router modem modern sering kali menyertakan fungsi pelengkap lainnya: Titik akses Wi-Fi, sakelar Ethernet, administrasi Interface, dan kadang-kadang bahkan server file dan fitur lainnya.
-
-
-Memahami peran router-modem adalah faktor kunci dalam mengamankan jaringan lokal Anda. Di satu sisi, perangkat ini membentuk batas antara dunia luar (Internet) dan lingkungan digital pribadi Anda. Konfigurasi yang salah, kata sandi yang lemah atau firmware yang sudah usang dapat mengubah gateway ini menjadi lubang yang menganga. Sebaliknya, modem-router yang dikonfigurasi dengan baik menjadi benteng pertahanan terhadap gangguan.
-
-
-Pada bab berikutnya, kita akan melihat cara mengoptimalkan konfigurasi ini, mengidentifikasi titik-titik lemah yang umum, dan mendapatkan kembali kendali atas perangkat ini.
-
+Pada bab berikutnya, kita akan melihat cara mengoptimalkan konfigurasi ini, mengidentifikasi titik lemah yang umum, dan mendapatkan kembali kendali atas perangkat ini.
 
 ### Jaringan area lokal (LAN)
 
+Jaringan lokal, atau "LAN" (_Local Area Network_), mengacu pada semua koneksi digital di dalam rumah Anda. Ini mencakup semua perangkat yang terhubung ke router Anda: Komputer, smartphone, tablet, printer, dll.
 
-Jaringan lokal, atau "LAN" (*Local Area Network*), mengacu pada semua koneksi digital di dalam rumah Anda. Jaringan ini mencakup semua perangkat yang terhubung ke router Anda: Komputer, ponsel cerdas, tablet, printer, dll.
-
-
-Tidak seperti Internet, yang merupakan jaringan publik global, jaringan lokal adalah ruang privat yang sebagian terisolasi yang dirancang untuk memungkinkan perangkat berkomunikasi satu sama lain, tanpa pertukarannya keluar dari rumah Anda. Sebagai contoh, ketika Anda mengirim file dari komputer Anda ke printer yang terhubung dengan Wi-Fi, atau mengontrol bola lampu yang terhubung melalui telepon Anda, komunikasi ini terjadi secara eksklusif secara lokal, tanpa melewati server jarak jauh.
-
+Tidak seperti Internet, yang merupakan jaringan global dan publik, jaringan lokal adalah ruang pribadi, yang sebagian terisolasi, yang dirancang untuk memungkinkan perangkat berkomunikasi satu sama lain, tanpa pertukaran mereka meninggalkan rumah Anda. Contohnya, saat Anda mengirim file dari komputer Anda ke printer yang terhubung Wi-Fi, atau mengontrol bola lampu terhubung melalui telepon Anda, komunikasi ini terjadi secara eksklusif secara lokal, tanpa melewati server jarak jauh.
 
 ![Image](assets/fr/194.webp)
 
+Hal ini didasarkan pada serangkaian teknologi dan protokol standar, yang paling penting adalah protokol IP. Setiap perangkat di jaringan lokal Anda diberi alamat IP lokal (biasanya dalam format `192.168.x.x`), yang berfungsi untuk mengidentifikasinya secara unik di dalam jaringan tersebut. Alamat ini tidak terlihat dari Internet. Hanya alamat IP publik Anda, yang dibagikan oleh semua perangkat melalui modem, yang terekspos di luar rumah Anda.
 
-Hal ini didasarkan pada seperangkat teknologi dan protokol standar, yang paling penting adalah protokol IP. Setiap perangkat di jaringan lokal Anda diberi IP lokal Address (biasanya dalam format `192.168.x.x`), yang berfungsi untuk mengidentifikasinya secara unik di dalam jaringan tersebut. IP Address ini tidak dapat dilihat dari Internet. Hanya IP Address publik Anda, yang digunakan bersama oleh semua perangkat melalui modem, yang terlihat di luar rumah Anda.
-
-
-Tetapi isolasi yang terlihat ini seharusnya tidak memberi Anda rasa aman yang palsu. Jaringan lokal yang tidak dikonfigurasi dengan baik bisa menjadi pintu gerbang untuk serangan, terutama dalam kasus-kasus berikut ini:
-
-
+Namun, isolasi yang tampak ini seharusnya tidak memberi Anda rasa aman yang keliru. Jaringan lokal yang dikonfigurasi dengan buruk dapat menjadi gerbang untuk serangan, terutama dalam kasus berikut:
 
 - Jika layanan terbuka (seperti berbagi file atau antarmuka administrasi) dapat diakses dari Internet
-- Jika Wi-Fi tidak aman (kata sandi yang lemah atau sistem enkripsi yang sudah usang)
-- Jika objek tertentu yang terhubung berkomunikasi dengan dunia luar dalam bentuk cleartext atau membiarkan port terbuka
+- Jika Wi-Fi tidak aman (kata sandi lemah atau sistem enkripsi usang)
+- Jika perangkat terhubung tertentu berkomunikasi dengan dunia luar dalam bentuk cleartext atau membiarkan port terbuka
 
-
-Jadi, penting untuk memahami aliran internal jaringan Anda, dan mengontrol perangkat mana yang dapat berinteraksi, baik dengan satu sama lain maupun dengan dunia luar.
-
+Jadi, penting untuk memahami aliran internal jaringan Anda, dan mengontrol perangkat mana yang dapat berinteraksi, baik satu sama lain maupun dengan dunia luar.
 
 ### Wi-Fi
 
+Wi-Fi (kependekan dari "*Wireless Fidelity*") adalah teknologi komunikasi nirkabel yang memungkinkan Anda menghubungkan perangkat Anda ke jaringan lokal, tanpa perlu kabel. Teknologi ini didasarkan pada transmisi data melalui gelombang radio, umumnya dalam pita frekuensi 2.4 GHz dan 5 GHz (atau bahkan 6 GHz untuk jaringan Wi-Fi 6E dan Wi-Fi 7).
 
-Wi-Fi (kependekan dari "*Wireless Fidelity*") adalah teknologi komunikasi nirkabel yang memungkinkan Anda menghubungkan perangkat Anda ke jaringan lokal, tanpa memerlukan kabel. Teknologi ini didasarkan pada transmisi data melalui gelombang radio, umumnya pada pita frekuensi 2,4 GHz dan 5 GHz (atau bahkan 6 GHz untuk jaringan Wi-Fi 6E dan Wi-Fi 7).
-
-
-Tetapi kemudahan penggunaan ini memiliki risiko tersendiri. Tidak seperti koneksi kabel (seperti Ethernet), sinyal Wi-Fi menembus dinding dan dapat ditangkap dari jarak puluhan meter. Ini berarti orang di luar rumah Anda (di jalan, di gedung tetangga, bahkan dari kendaraan yang diparkir di dekatnya) dapat mencoba mendeteksi jaringan Anda dan terhubung ke jaringan tersebut jika tidak diamankan dengan baik.
-
+Namun, kemudahan penggunaan ini memiliki risiko tersendiri. Tidak seperti koneksi kabel (seperti Ethernet), sinyal Wi-Fi menembus dinding dan dapat ditangkap dari puluhan meter jauhnya. Ini berarti bahwa orang-orang di luar rumah Anda (di jalan, di gedung tetangga, bahkan dari kendaraan yang diparkir di dekatnya) dapat mencoba mendeteksi jaringan Anda dan terhubung ke sana jika tidak diamankan dengan benar.
 
 ![Image](assets/fr/195.webp)
 
-
-Seorang penyerang yang memiliki akses ke jaringan Wi-Fi Anda dapat melakukannya:
-
-
+Seorang penyerang dengan akses ke jaringan Wi-Fi Anda kemudian dapat:
 
 - Mencegat data yang tidak terenkripsi yang melewati jaringan (misalnya permintaan DNS atau lalu lintas HTTP)
-- Mengakses file atau perangkat Anda jika tidak terlindungi dengan baik
-- Menyuntikkan konten berbahaya ke dalam browser Anda
-- Menggunakan koneksi Internet tanpa sepengetahuan Anda, atau bahkan melakukan serangan online dari IP publik Anda Address
+- Mengakses file atau perangkat Anda jika mereka tidak terlindungi dengan baik
+- Menyuntikkan konten berbahaya ke browser Anda
+- Menggunakan koneksi Internet Anda tanpa sepengetahuan Anda, atau bahkan melakukan serangan online dari alamat IP publik Anda
 
-
-Untuk melindungi diri dari ancaman-ancaman ini, Anda perlu mengamankan jaringan Wi-Fi Anda. Kita akan melihat cara melakukan hal ini dalam beberapa bab berikutnya.
-
+Untuk menjaga diri dari ancaman ini, Anda perlu mengamankan jaringan Wi-Fi Anda. Kita akan melihat cara melakukannya di beberapa bab berikutnya.
 
 ### Alamat IP lokal
 
+Saat Anda menghubungkan perangkat ke jaringan rumah Anda, perangkat menerima alamat IP lokal. Alamat ini terdiri dari empat angka yang dipisahkan oleh titik (misalnya `192.168.1.14`). Alamat ini digunakan untuk mengidentifikasi setiap perangkat secara unik di dalam jaringan lokal Anda. Dengan alamat inilah router Anda tahu ke perangkat mana yang akan dikirimi data (misalnya, halaman web atau video yang Anda minta).
 
-Ketika Anda menyambungkan perangkat ke jaringan rumah, perangkat akan menerima IP lokal Address. Address ini terdiri dari empat angka yang dipisahkan dengan titik (misalnya `192.168.1.14`). IP ini digunakan untuk mengidentifikasi secara unik setiap perangkat dalam jaringan lokal Anda. Dengan Address ini, router Anda mengetahui perangkat mana yang akan dikirimi data (misalnya, halaman web atau video yang Anda minta).
-
-
-Penting untuk dipahami bahwa alamat IP lokal ini tidak terlihat dari Internet. Alamat-alamat ini termasuk dalam rentang yang dipesan, yang ditentukan oleh standar internasional, yang tidak dapat digunakan di jaringan publik. Tiga rentang IP Address lokal yang paling umum adalah:
-
-
+Penting untuk dipahami bahwa alamat IP lokal ini tidak terlihat dari Internet. Alamat-alamat ini termasuk dalam rentang yang dikhususkan, yang ditentukan oleh standar internasional, yang tidak dapat digunakan di jaringan publik. Tiga rentang alamat IP lokal yang paling umum adalah:
 
 - `192.168.0.0` hingga `192.168.255.255` (umumnya untuk pengguna pribadi)
 - `10.0.0.0` hingga `10.255.255.255` (umumnya untuk perusahaan)
-- `172.16.0.0` ke `172.31.255.255`
+- `172.16.0.0` hingga `172.31.255.255`
 
+Perangkat yang sama dapat memiliki alamat IP seperti `192.168.1.42` di rumah, sementara pengguna lain di negara lain akan memiliki perangkat lain dengan alamat IP yang sama di jaringan lokalnya sendiri, tanpa pernah ada konflik, karena alamat-alamat ini tidak meninggalkan jaringan rumah. Router yang menyediakan tautan antara jaringan rumah Anda dan Internet publik, menerjemahkan alamat-alamat ini melalui mekanisme yang disebut "NAT" (*Network Address Translation*).
 
-Oleh karena itu, perangkat yang sama dapat memiliki IP Address seperti `192.168.1.42` di rumah, sementara pengguna lain di negara lain akan memiliki perangkat lain dengan IP Address yang sama di jaringan lokalnya sendiri, tanpa ada konflik, karena alamat ini tidak keluar dari jaringan rumah. Routerlah yang menyediakan hubungan antara jaringan rumah Anda dan Internet publik, menerjemahkan alamat-alamat ini melalui mekanisme yang disebut "NAT" (*Network Address Translation*).
+Alamat IP lokal umumnya ditetapkan secara dinamis, menggunakan DHCP (*Dynamic Host Configuration Protocol*). Saat Anda menghubungkan perangkat baru ke jaringan, perangkat mengirimkan permintaan DHCP untuk suatu alamat, dan router menetapkannya alamat yang tidak terpakai yang tersedia dalam rentang yang ditentukan. Alamat ini dapat bervariasi seiring waktu.
 
-
-Alamat IP lokal umumnya ditetapkan secara dinamis, menggunakan DHCP (*Dynamic Host Configuration Protocol*). Saat Anda menyambungkan perangkat baru ke jaringan, perangkat tersebut akan mengirimkan permintaan DHCP untuk mendapatkan Address, dan router akan memberikan Address gratis yang tersedia dalam rentang yang ditentukan. Address ini dapat bervariasi dari waktu ke waktu.
-
-
-Namun demikian, dimungkinkan untuk mengonfigurasi alamat IP tetap untuk perangkat tertentu. Ini berarti memesan Address tertentu untuk perangkat tertentu, secara permanen. Hal ini berguna dalam beberapa kasus, misalnya:
-
-
+Namun, dimungkinkan untuk mengonfigurasi alamat IP tetap untuk perangkat tertentu. Ini berarti memesan alamat tertentu untuk perangkat tertentu, secara permanen. Ini berguna dalam sejumlah kasus, misalnya:
 
 - Untuk akses mudah ke server pribadi atau NAS dari perangkat lain
-- Untuk mencetak dari jarak jauh ke printer jaringan tanpa harus mencari Address
-- Untuk membuat aturan pemfilteran atau penerusan port di router Anda
-
+- Untuk mencetak dari jarak jauh ke printer jaringan tanpa harus mencari alamatnya
+- Untuk membuat aturan pemfilteran atau port forwarding di router Anda
 
 ### Port jaringan
 
+Untuk memahami cara kerja jaringan lokal, Anda perlu tahu bahwa setiap alamat IP (baik lokal maupun publik) terkait dengan serangkaian port numerik, yang diberi nomor dari `0` hingga `65535`. Port ini tidak bersifat fisik: Port-port adalah titik masuk atau keluar virtual yang memungkinkan aplikasi dan layanan untuk berkomunikasi di seluruh jaringan.
 
-Untuk memahami cara kerja jaringan lokal, Anda perlu mengetahui bahwa setiap IP Address (baik lokal maupun publik) dikaitkan dengan serangkaian port numerik, yang diberi nomor dari `0` hingga `65535`. Port-port ini tidak berbentuk fisik: Port-port ini merupakan titik masuk atau keluar virtual yang memungkinkan aplikasi dan layanan untuk berkomunikasi di seluruh jaringan.
-
-
-Setiap kali perangkat berkomunikasi melalui Internet atau jaringan lokal, perangkat tersebut melakukannya dengan menggabungkan IP Address dan nomor port. Hal ini memungkinkan untuk mengidentifikasi tidak hanya perangkat mana yang akan dikirimi data, tetapi juga aplikasi atau layanan tertentu pada perangkat tersebut. Sebagai contoh:
-
-
+Setiap kali sebuah perangkat berkomunikasi melalui Internet atau jaringan lokal, ia melakukannya dengan menggabungkan alamat IP dan nomor port. Hal ini memungkinkan untuk mengidentifikasi tidak hanya perangkat mana yang akan dikirimi data, tetapi juga aplikasi atau layanan spesifik mana pada perangkat tersebut. Contohnya:
 
 - Port `80` digunakan untuk mengakses halaman web HTTP
 - Port `443` digunakan untuk mengakses halaman web HTTPS (koneksi terenkripsi)
@@ -4743,10 +4576,7 @@ Setiap kali perangkat berkomunikasi melalui Internet atau jaringan lokal, perang
 - Port `21` digunakan untuk transfer file melalui protokol FTP
 - Port `53` digunakan untuk permintaan DNS...
 
-
 Port ini juga digunakan dalam sistem seperti Bitcoin atau Tor, di mana port tertentu digunakan secara default untuk komunikasi peer-to-peer atau perutean lalu lintas:
-
-
 
 - Port `8333` digunakan untuk koneksi P2P pada Bitcoin Mainnet
 - Port `18333` digunakan untuk koneksi P2P pada Bitcoin Testnet
@@ -4754,158 +4584,109 @@ Port ini juga digunakan dalam sistem seperti Bitcoin atau Tor, di mana port tert
 - Port `9050` digunakan oleh proxy SOCKS5 Tor
 - Port `9150` digunakan oleh browser Tor
 
+Dengan kata lain, port itu seperti pintu khusus. Ketika Anda mengunjungi sebuah situs web, komputer Anda membuka port sumber dan mengirimkan permintaan ke alamat IP situs jarak jauh, menargetkan port `443` jika itu adalah koneksi terenkripsi. Server jarak jauh kemudian mengembalikan respons melalui saluran yang sama. Pada sebuah router, gagasan port ini penting: Router perlu tahu perangkat mana dan port lokal mana untuk mengalihkan paket data yang masuk.
 
-Dengan kata lain, port seperti pintu khusus. Ketika Anda mengunjungi sebuah situs web, komputer Anda membuka port sumber dan mengirimkan permintaan ke IP Address situs jarak jauh, menargetkan port `443` jika itu adalah koneksi terenkripsi. Server jarak jauh kemudian mengembalikan respons melalui saluran yang sama. Pada router, pengertian port ini penting: Router perlu mengetahui perangkat mana dan port lokal mana yang akan mengarahkan paket data yang masuk.
+Namun, kemampuan untuk membuka port ini juga menimbulkan risiko keamanan. Port yang dibiarkan terbuka secara tidak perlu dapat dideteksi oleh alat pemindai jaringan dan dieksploitasi oleh penyerang jika terkait dengan layanan yang rentan atau salah dikonfigurasi. Ini seperti meninggalkan pintu terbuka. Tapi lebih lanjut tentang itu nanti.
 
+Oleh karena itu, memahami operasi dasar jaringan rumah Anda sangat penting. Pemahaman yang baik tentang dasar-dasar modem, Wi-Fi, router, alamat IP lokal, dan port memungkinkan Anda untuk mengidentifikasi potensi risiko dan bertindak sesuai untuk memperkuat keamanan digital Anda.
 
-Tetapi kemampuan untuk membuka port ini juga menimbulkan risiko keamanan. Port yang dibiarkan terbuka secara tidak perlu bisa dideteksi oleh alat pemindaian jaringan dan dieksploitasi oleh penyerang jika port tersebut terkait dengan layanan yang rentan atau salah konfigurasi. Ini seperti membiarkan pintu terbuka. Tetapi lebih lanjut tentang itu nanti.
-
-
-Oleh karena itu, memahami pengoperasian dasar jaringan rumah Anda sangatlah penting. Pemahaman yang baik tentang dasar-dasar modem, Wi-Fi, router, alamat IP lokal, dan port Anda memungkinkan Anda untuk mengidentifikasi potensi risiko dan bertindak sesuai dengan itu untuk memperkuat keamanan digital Anda.
-
-
-Pada bab ini, kita telah membahas konsep-konsep penting dari jaringan rumah. Di bab berikutnya, kita akan melihat cara mengamankan infrastruktur Internet lokal Anda dalam praktiknya, dan cara mengonfigurasi Wi-Fi dengan benar untuk mengoptimalkan keamanan Anda.
-
+Dalam bab ini, kita telah membahas konsep-konsep penting dari jaringan rumah. Dalam bab berikutnya, kita akan melihat cara mengamankan infrastruktur Internet lokal Anda secara praktis, dan cara mengonfigurasi Wi-Fi Anda dengan benar untuk mengoptimalkan keamanan Anda.
 
 ## Amankan jaringan rumah Anda hanya dalam beberapa langkah
 
-
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
 
+Seperti yang kita ketahui di bab sebelumnya, mengamankan jaringan rumah Anda sangat penting untuk melindungi privasi Anda, data pribadi Anda, dan untuk menjamin kedaulatan digital Anda.
 
-Seperti yang telah kita ketahui pada bab sebelumnya, mengamankan jaringan rumah Anda sangat penting untuk melindungi privasi Anda, data pribadi Anda, dan menjamin kedaulatan digital Anda.
+Setelah meninjau dasar-dasar teoretis, bab ini akan memandu Anda melalui langkah-langkah yang jelas, praktis, dan efektif untuk meningkatkan keamanan jaringan lokal Anda.
 
-
-Setelah mengulas dasar-dasar teori, bab ini akan memandu Anda melalui langkah-langkah yang jelas, praktis dan efektif untuk meningkatkan keamanan jaringan lokal Anda.
-
-
-*Harap diperhatikan: Informasi yang diberikan di sini bersifat umum, karena Plan ₿ Network ditujukan untuk audiens internasional. Tergantung pada kondisi lokal dan ISP Anda, praktik terbaik tertentu mungkin tidak disebutkan di sini, atau mungkin berlaku dengan cara yang berbeda.*
-
+*Harap diperhatikan: Informasi yang diberikan di sini bersifat umum, karena Plan ₿ Network ditujukan untuk audiens internasional. Bergantung pada keadaan lokal Anda dan ISP Anda, cara terbaik tertentu mungkin tidak disebutkan di sini, atau mungkin berlaku dengan cara yang berbeda.*
 
 ### Memilih dan mengamankan peralatan jaringan Anda
 
+Keamanan jaringan rumah Anda dimulai dengan pilihan perangkat keras yang tepat: router, atau dalam beberapa kasus modem router. Perangkat ini menyediakan koneksi antara jaringan lokal Anda dan Internet. Oleh karena itu, perangkat ini memainkan peran sentral dalam melindungi data Anda.
 
-Keamanan jaringan rumah Anda dimulai dengan pilihan perangkat keras yang tepat: router, atau dalam beberapa kasus router modem. Perangkat ini menyediakan hubungan antara jaringan lokal Anda dan Internet. Oleh karena itu, perangkat ini memainkan peran sentral dalam melindungi data Anda.
+Penting untuk memilih peralatan modern, yang dirawat oleh pabrikannya, dan sesuai dengan standar keamanan terbaru. Saat ini (Juni 2025), disarankan untuk memilih perangkat yang kompatibel dengan protokol enkripsi WPA3 (*Wi-Fi Protected Access 3*), yang menggantikan WPA2 dan memperbaiki beberapa kekurangannya. Secara khusus, WPA3 meningkatkan resistensi terhadap serangan brute-force pada kata sandi Wi-Fi, dan memperkenalkan isolasi yang lebih baik antara klien jaringan.
 
+Router yang kompatibel dengan Wi-Fi 6, Wi-Fi 6E atau Wi-Fi 7 akan memberi Anda kecepatan yang lebih baik dan, yang terpenting, dukungan asli untuk teknologi keamanan modern. Sebaliknya, peralatan yang sangat lama, terutama yang tidak lagi menerima pembaruan perangkat lunak, mungkin mengandung kerentanan yang diketahui dan belum diperbaiki. Oleh karena itu, mereka merupakan risiko bagi seluruh jaringan Anda, bahkan jika Anda mengonfigurasinya dengan benar. Dibandingkan dengan smartphone atau komputer, router adalah peralatan yang cenderung kita simpan selama bertahun-tahun. Namun, mungkin merupakan ide yang baik untuk menggantinya secara lebih teratur, untuk mendapatkan manfaat dari model yang lebih modern, yang lebih aman.
 
-Penting untuk memilih peralatan modern, dipelihara oleh produsennya, dan sesuai dengan standar keamanan terkini. Saat ini (Juni 2025), disarankan untuk memilih perangkat yang kompatibel dengan protokol enkripsi WPA3 (*Wi-Fi Protected Access 3*), yang menggantikan WPA2 dan memperbaiki beberapa kekurangannya. Khususnya, WPA3 meningkatkan ketahanan terhadap serangan brute-force pada kata sandi Wi-Fi, dan memperkenalkan isolasi yang lebih baik di antara klien jaringan.
+Jadi, pastikan Anda secara sistematis memperbarui firmware router Anda. Pembaruan ini memperbaiki kerentanan, menambahkan fitur baru, dan meningkatkan stabilitas sistem secara keseluruhan. Beberapa pabrikan menawarkan pembaruan otomatis, tetapi dalam beberapa kasus Anda perlu memeriksa secara manual melalui fitur administrasi pada interface router Anda. Seperti halnya ponsel, komputer, sistem operasi, dan perangkat lunak Anda, penting untuk memperbarui router Anda secara teratur. Anda dapat menjadikannya bagian dari rutinitas mingguan Anda — Setiap hari Minggu, misalnya — dengan menyusun daftar semua item yang perlu Anda periksa dan perbarui.
 
+Jika router Anda tidak lagi dirawat tetapi masih berfungsi dengan benar dari sudut pandang perangkat keras, Anda dapat memasang firmware open-source alternatif, seperti:
 
-Router yang kompatibel dengan Wi-Fi 6, Wi-Fi 6E, atau Wi-Fi 7 akan memberikan Anda kecepatan yang lebih baik dan, yang terpenting, dukungan asli untuk teknologi keamanan modern. Sebaliknya, peralatan yang sangat tua, terutama yang tidak lagi menerima pembaruan perangkat lunak, mungkin mengandung kerentanan yang diketahui dan belum ditambal. Oleh karena itu, peralatan tersebut mewakili risiko untuk seluruh jaringan Anda, bahkan jika Anda mengkonfigurasinya dengan benar. Dibandingkan dengan ponsel atau komputer, router adalah peralatan yang cenderung kita simpan selama bertahun-tahun. Namun, mungkin ada baiknya untuk menggantinya secara lebih teratur, untuk mendapatkan manfaat dari model yang lebih modern dan lebih aman.
-
-
-Jadi, pastikan Anda memperbarui firmware router Anda secara sistematis. Pembaruan ini memperbaiki kerentanan, menambahkan fitur baru, dan meningkatkan stabilitas sistem secara keseluruhan. Beberapa produsen menawarkan pembaruan otomatis, tetapi dalam beberapa kasus Anda perlu memeriksa secara manual melalui alat administrasi Interface router Anda. Seperti halnya ponsel, komputer, sistem operasi, dan perangkat lunak Anda, penting untuk memperbarui router Anda secara teratur. Anda bisa menjadikan ini bagian dari rutinitas mingguan Anda - Setiap hari Minggu, misalnya - dengan membuat daftar semua item yang perlu Anda periksa dan perbarui.
-
-
-Jika router Anda sudah tidak lagi dirawat tetapi masih berfungsi dengan baik dari segi perangkat keras, Anda bisa menginstal firmware sumber terbuka alternatif, seperti:
-
-
-
-- OpenWrt, distribusi Linux yang mengkhususkan diri pada router, menawarkan fleksibilitas tinggi dan pembaruan rutin
-- pfSense dan OPNsense, dua sistem berbasis FreeBSD (mirip Unix) untuk firewall dan router x86
-
+- OpenWrt, distribusi Linux yang berspesialisasi dalam router, menawarkan fleksibilitas yang luar biasa dan pembaruan rutin
+- pfSense dan OPNsense, dua sistem berbasis FreeBSD (Unix-like) untuk firewall dan router x86
 
 ![Image](assets/fr/196.webp)
-
-
 
 https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
 https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
-Sistem ini memungkinkan kontrol yang lebih baik atas aturan firewall, koneksi keluar dan masuk, segmentasi jaringan (VLAN) dan manajemen DNS, tetapi lebih ditujukan untuk pengguna tingkat lanjut.
-
+Sistem-sistem ini memungkinkan kontrol yang lebih baik terhadap aturan firewall, koneksi keluar dan masuk, segmentasi jaringan (VLANs), dan manajemen DNS, tetapi lebih ditujukan untuk pengguna tingkat lanjut.
 
 **Kesimpulannya, saya merekomendasikan**:
-
-
 
 - Pilih router terbaru
 - Selalu perbarui sistem Anda
 - Pertimbangkan firmware alternatif jika perlu
 
-
 ### Mengubah login dan kata sandi default
 
+Salah satu kesalahan paling umum (dan berbahaya) adalah mempertahankan kredensial standar yang disediakan oleh pabrikan router, atau menggunakan kata sandi yang lemah.
 
-Salah satu kesalahan yang paling umum (dan berbahaya) adalah menyimpan kredensial default yang disediakan oleh produsen router, atau menggunakan kata sandi yang lemah.
+Secara historis, kredensial router standar sangat tidak aman dan sering kali identik untuk semua pengguna,seperti `admin/admin` yang terkenal. Kredensial dasar ini bersifat publik, didokumentasikan dalam manual pengguna dan tercatat secara luas dalam database yang digunakan oleh penyerang. Dalam kasus ini, siapa pun yang mendeteksi keberadaan router Anda dapat mencoba akses tidak sah hanya dengan menguji kombinasi yang diketahui ini.
 
+Saat ini, sebagian besar pabrikan menetapkan kata sandi yang unik dan kuat untuk setiap router. Namun, bahkan dalam kasus ini, saya tetap merekomendasikan untuk mengubah kredensial standar. Hal ini mengurangi risiko berlanjut, dan mencegah kata sandi asli (terkadang dicetak pada label router) membahayakan keamanan Anda.
 
-Secara historis, kredensial router default sangat tidak aman dan sering kali identik untuk semua pengguna, seperti `admin/admin` yang terkenal. Kredensial dasar ini bersifat publik, didokumentasikan dalam buku petunjuk pengguna dan secara luas dicatat dalam basis data yang digunakan oleh penyerang. Dalam kasus ini, siapa pun yang mendeteksi keberadaan router Anda dapat mencoba akses yang tidak sah hanya dengan menguji kombinasi yang diketahui ini.
+Oleh karena itu, sangat penting bagi Anda untuk mengubah identifier Anda segera setelah memasang router Anda:
 
-
-Saat ini, sebagian besar produsen memberikan kata sandi yang unik dan kuat untuk setiap router. Namun, bahkan dalam kasus ini, saya sarankan untuk mengubah kredensial default. Hal ini akan mengurangi risiko rantai Supply, dan mencegah kata sandi asli (terkadang tercetak pada label router) membahayakan keamanan Anda.
-
-
-Oleh karena itu, Anda harus segera mengubah pengenal Anda setelah menginstal router Anda:
-
-
-
-- Nama pengguna (jika tersedia) dari administrasi Interface
+- Nama pengguna (jika tersedia) dari menu administrasi
 - Dan yang terpenting, kata sandi administrasi, yang melindungi akses ke semua konfigurasi jaringan, serta kata sandi Wi-Fi
 
-
-Kata sandi ini harus panjang (40 karakter), kompleks (angka, huruf kecil, huruf besar dan simbol), unik (tidak akan digunakan di tempat lain), dan acak. Saya sangat menyarankan untuk menggunakan pengelola kata sandi untuk generate dan menyimpan kredensial ini dengan aman.
-
+Kata sandi ini harus panjang (40 karakter), kompleks (angka, huruf kecil, huruf besar, dan simbol), unik (tidak boleh digunakan kembali di tempat lain), dan acak. Saya jelas merekomendasikan untuk menggunakan password manager untuk membuat dan menyimpan kredensial ini dengan aman.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Peringatan: jangan sampai tertukar antara kata sandi administrasi router (yang melindungi akses ke konfigurasinya) dengan kata sandi Wi-Fi (yang memungkinkan Anda terhubung ke jaringan nirkabel). Ini adalah dua Elements yang berbeda, dan keduanya perlu diubah.
+Peringatan: Jangan bingung antara kata sandi administrasi router (yang melindungi akses ke konfigurasinya) dengan kata sandi Wi-Fi (yang memungkinkan Anda untuk terhubung ke jaringan nirkabel). Ini adalah dua elemen yang berbeda, dan keduanya perlu diubah.
 
-
-Terakhir, beberapa router modern memiliki dua antarmuka manajemen: Web Interface lokal (dapat diakses melalui Address seperti `192.168.1.1`) dan Interface awan (memungkinkan manajemen jarak jauh melalui Internet). Jika yang terakhir ini diaktifkan secara default, saya sarankan Anda untuk menonaktifkannya jika Anda tidak menggunakannya, atau memperkuat keamanannya dengan kata sandi yang kuat dan mungkin otentikasi dua faktor (2FA) jika tersedia.
-
+Terakhir, beberapa router modern memiliki dua antarmuka manajemen: Interface web lokal (dapat diakses melalui Address seperti `192.168.1.1`) dan Interface cloud (memungkinkan manajemen jarak jauh melalui Internet). Jika yang terakhir diaktifkan secara standar, saya menyarankan Anda untuk menonaktifkannya jika Anda tidak menggunakannya, atau memperkuat keamanannya dengan kata sandi yang kuat dan mungkin autentikasi dua faktor (2FA) jika tersedia.
 
 ### Konfigurasi router yang aman
 
 
 Router adalah jantung dari jaringan rumah Anda. Konfigurasinya memainkan peran penting dalam keamanan semua perangkat yang terhubung. Sayangnya, banyak fungsi yang diaktifkan secara default pada perangkat ini dapat secara tidak sengaja mengekspos jaringan Anda ke serangan eksternal. Itulah mengapa penting untuk melakukan tinjauan lengkap terhadap opsi yang diaktifkan, dan menonaktifkan opsi yang tidak benar-benar diperlukan untuk tujuan Anda.
 
+Router adalah jantung dari jaringan rumah Anda. Konfigurasinya memainkan peran penting dalam keamanan semua perangkat yang terhubung. Sayangnya, banyak fungsi yang diaktifkan secara standar pada perangkat ini dapat secara tidak sengaja mengekspos jaringan Anda ke serangan eksternal. Itulah mengapa penting untuk melakukan tinjauan lengkap terhadap opsi yang diaktifkan, dan menonaktifkan fungsi yang tidak benar-benar diperlukan untuk tujuan Anda.
 
 Beberapa fitur harus dihindari atau dinonaktifkan secara sistematis:
 
+- **UPnP (*Universal Plug and Play*)**:
 
+Fungsi ini memungkinkan perangkat di jaringan Anda untuk meminta router agar membuka port secara otomatis. Meskipun ini memfasilitasi penggunaan tertentu (game online, kamera terhubung, dll.), ini juga membuka pintu bagi aplikasi berbahaya yang mampu memodifikasi konfigurasi jaringan tanpa otorisasi Anda. UPnP adalah salah satu penyebab utama eksposur layanan internal yang tidak disengaja ke dunia luar.
 
-- UPnP (*Universal Plug and Play*)**:
+- **WPS (*Wi-Fi Protected Setup*)**:
 
+Awalnya dirancang untuk menyederhanakan koneksi perangkat ke Wi-Fi tanpa memasukkan kata sandi, sistem ini didasarkan pada kode PIN yang sering kali lemah dan mudah diserang secara brute force. Saya menyarankan Anda untuk menonaktifkannya.
 
-Fungsi ini memungkinkan perangkat di jaringan Anda untuk meminta router membuka port secara otomatis. Meskipun ini memfasilitasi penggunaan tertentu (game online, kamera yang terhubung, dll.), ini juga membuka pintu bagi aplikasi berbahaya yang mampu mengubah konfigurasi jaringan tanpa otorisasi Anda. UPnP adalah salah satu penyebab utama pemaparan layanan internal yang tidak disengaja ke dunia luar.
+- **Akses jarak jauh (*Remote Management*)**:
 
-
-
-- WPS (*Pengaturan Terproteksi Wi-Fi*)**:
-
-
-Awalnya dirancang untuk menyederhanakan menghubungkan perangkat ke Wi-Fi tanpa memasukkan kata sandi, sistem ini didasarkan pada kode PIN yang sering kali lemah dan mudah diserang dengan kekerasan. Saya menyarankan Anda untuk menonaktifkannya.
-
-
-
-- Akses jarak jauh (*Manajemen Jarak Jauh*)**:
-
-
-Beberapa router memungkinkan Anda untuk terhubung ke Interface administrasi mereka dari luar, melalui Internet. Fitur ini secara tidak wajar meningkatkan permukaan serangan router Anda. Nonaktifkan sepenuhnya, kecuali Anda memiliki kebutuhan khusus untuk manajemen jarak jauh. Meskipun begitu, selalu gunakan VPN.
-
+Beberapa router memungkinkan Anda untuk terhubung ke menu administrasinya dari luar, melalui Internet. Fitur ini secara tidak wajar meningkatkan celah serangan router Anda. Nonaktifkan sepenuhnya, kecuali jika Anda memiliki kebutuhan spesifik untuk manajemen jarak jauh. Bahkan kemudian, selalu gunakan VPN.
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Protokol yang sudah usang atau tidak aman**:
+- **Protokol yang sudah usang atau tidak aman**:
 
+Nonaktifkan layanan administrasi apa pun yang menggunakan protokol teks-biasa seperti Telnet, FTP, HTTP yang tidak terenkripsi, atau SMBv1. Protokol ini tidak menjamin kerahasiaan maupun integritas data yang dipertukarkan, dan sering ditargetkan oleh _malware_. Jika Anda memerlukan akses lokal atau jarak jauh, hanya gunakan koneksi melalui HTTPS (antarmuka terenkripsi), SSH, atau SFTP, sesuai kebutuhan.
 
-Nonaktifkan layanan administrasi apa pun yang menggunakan protokol teks biasa seperti Telnet, FTP, HTTP yang tidak dienkripsi, atau SMBv1. Protokol-protokol ini tidak menjamin kerahasiaan maupun integritas data yang dipertukarkan, dan sering kali menjadi sasaran *malware*. Jika Anda membutuhkan akses lokal atau jarak jauh, hanya gunakan koneksi melalui HTTPS (terenkripsi Interface), SSH atau SFTP, yang sesuai.
+- **Ping WAN / ICMP**:
 
+Beberapa router secara standar merespons permintaan ICMP yang dikirim dari luar (perintah `ping`). Ini memungkinkan penyerang untuk memeriksa bahwa jaringan Anda aktif dan dapat diakses. Jika Anda tidak membutuhkannya, nonaktifkan respons ini di firewall router.
 
-
-- Ping WAN / ICMP**:
-
-
-Beberapa router merespon secara default terhadap permintaan ICMP yang dikirim dari luar (perintah `ping`). Hal ini memungkinkan penyerang untuk memeriksa apakah jaringan Anda aktif dan dapat diakses. Jika Anda tidak memerlukannya, nonaktifkan respons ini di firewall router.
-
-
-Terakhir, ingatlah untuk membatasi akses ke administrasi router Interface hanya untuk perangkat tepercaya, membatasi aksesibilitasnya ke alamat IP tertentu, jika Interface mengizinkannya. Beberapa firmware, seperti OpenWrt, menawarkan kontrol yang sangat baik atas parameter ini.
-
+Terakhir, ingatlah untuk membatasi akses ke menu administrasi router hanya untuk perangkat tepercaya, membatasi aksesibilitasnya ke alamat IP tertentu, jika Interface mengizinkannya. Beberapa firmware, seperti OpenWrt, menawarkan kontrol yang sangat baik atas parameter ini.
 
 ### Memperkuat keamanan jaringan Wi-Fi
 

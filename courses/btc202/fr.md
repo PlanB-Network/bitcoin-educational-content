@@ -172,7 +172,7 @@ On différencie également parfois le rôle du mineur de celui du hacheur. Un ha
 
 054
 
-Enfin, il y a une différence fondamentale en termes d'incitation économique entre le mineur et le nœud. Faire tourner un nœud Bitcoin ne procure aucun avantage pécuniaire direct. En revanche, participer au minage permet de percevoir des récompenses (subvention et frais de transactions) à chaque bloc trouvé.
+Enfin, il y a une différence importante en termes d'incitation économique entre le mineur et le nœud. Faire tourner un nœud Bitcoin ne procure aucun avantage pécuniaire direct. En revanche, participer au minage permet de percevoir des récompenses (subvention et frais de transactions) à chaque bloc trouvé.
 
 Dans la partie 2, nous explorerons plus en détail les bénéfices pratiques et personnels liés à l'installation et à l'utilisation d'un nœud Bitcoin, au-delà du simple intérêt financier.
 
@@ -284,7 +284,7 @@ Acquérir cette connaissance renforce votre confiance dans l’outil et peut ré
 
 ### Choisir les règles que l’on applique
 
-Un aspect fondamental, souvent mal compris, réside dans le fait qu’exploiter un nœud permet de choisir localement les règles que l’on applique. On distingue alors deux grands types de règles :
+Un aspect important, souvent mal compris, réside dans le fait qu’exploiter un nœud permet de choisir localement les règles que l’on applique. On distingue alors deux grands types de règles :
 
 - **Les règles de consensus** :
 
@@ -322,7 +322,7 @@ En ce qui concerne l’influence de votre nœud sur les règles de consensus, c�
 
 Prenons l’exemple d’un village où de nombreux commerçants acceptent l’or en échange de biens : il y a alors de fortes chances que l’or possède une utilité monétaire pour les habitants du village. On comprend ainsi que l’utilité d’une monnaie dépend directement de la décision des commerçants de l’accepter ou non.
 
-Cette notion est fondamentale pour appréhender les rapports de force à l’œuvre dans le système Bitcoin. Satoshi le précise : Bitcoin est un système de cash électronique, autrement dit il rend le service de proposer une forme de monnaie, le bitcoin (ou BTC). Lorsque les règles du protocole sont modifiées de façon non rétrocompatible (hard fork), cela revient à créer un nouveau système et donc une nouvelle monnaie. Le succès ou l’échec de ce fork dépend alors de la taille de son économie, qui est elle-même déterminée par le nombre de commerçants acceptant cette nouvelle forme de monnaie.
+Cette notion est importante pour appréhender les rapports de force à l’œuvre dans le système Bitcoin. Satoshi le précise : Bitcoin est un système de cash électronique, autrement dit il rend le service de proposer une forme de monnaie, le bitcoin (ou BTC). Lorsque les règles du protocole sont modifiées de façon non rétrocompatible (hard fork), cela revient à créer un nouveau système et donc une nouvelle monnaie. Le succès ou l’échec de ce fork dépend alors de la taille de son économie, qui est elle-même déterminée par le nombre de commerçants acceptant cette nouvelle forme de monnaie.
 
 Prenons un exemple : supposons que Bitcoin subisse un hard fork. Il existerait alors deux formes de monnaies distinctes : BTC-1 (la version originelle, inchangée) et BTC-2 (la nouvelle monnaie avec des règles de consensus différentes). Si l’ensemble des commerçants qui acceptaient BTC-1 continuent à le faire, mais refusent le BTC-2, alors ce dernier n’aura, en théorie, qu’une utilité monétaire très limitée. En tant qu’utilisateur, je n’aurais aucun intérêt à conserver et utiliser du BTC-2, sachant qu’aucun commerçant n’en voudra en échange de biens ou de services. À l’inverse, si 50 % des commerçants choisissent d’accepter exclusivement le BTC-2 et les 50 % restants ne prennent que le BTC-1, alors l'utilité du BTC-1 aura, en théorie, diminué de moitié. J’emploie le terme "en théorie", car l’utilité demeure subjective au niveau individuel, et dépend d’une multitude de facteurs (territoire, habitudes de consommation, etc.) difficiles à appréhender au cas par cas.
 

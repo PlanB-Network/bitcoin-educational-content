@@ -36,6 +36,7 @@ En résumé, Proton Authenticator vise à être une solution 2FA sans compromis 
 Proton Authenticator est disponible gratuitement sur toutes les plateformes. Pour télécharger l'application, rendez-vous sur la page officielle : [https://proton.me/fr/authenticator/download](https://proton.me/fr/authenticator/download)
 
 ![PROTON AUTHENTICATOR](assets/fr/01.webp)
+
 *Page officielle de Proton Authenticator montrant les fonctionnalités principales et l'interface de l'application*
 
 Sur cette page, vous trouverez les liens de téléchargement pour tous les systèmes d'exploitation : Android, iOS, Windows, macOS et Linux. Il vous suffit de cliquer sur le système d'exploitation de votre choix et de suivre les étapes d'installation standard.
@@ -47,6 +48,7 @@ Dans ce tutoriel, nous allons vous montrer l'installation et la configuration su
 Une fois l'application téléchargée et installée, lancez Proton Authenticator. Au premier lancement, l'application vous guide à travers quelques écrans de configuration initiale :
 
 ![PROTON AUTHENTICATOR](assets/fr/02.webp)
+
 *Écran de bienvenue de Proton Authenticator avec le message "La sécurité dans chaque code" et le bouton "Commencez"*
 
 ### Importation initiale
@@ -54,9 +56,11 @@ Une fois l'application téléchargée et installée, lancez Proton Authenticator
 Si Proton Authenticator détecte que vous utilisiez auparavant une autre application 2FA, un assistant d'import peut apparaître. Il prend en charge l'import direct depuis certaines applications (Google Authenticator, 2FAS, Authy, Aegis, etc.). Vous pouvez sinon passer cette étape et ajouter vos comptes manuellement plus tard.
 
 ![PROTON AUTHENTICATOR](assets/fr/03.webp)
+
 *Assistant d'importation proposant de transférer vos codes depuis d'autres applications d'authentification*
 
 ![PROTON AUTHENTICATOR](assets/fr/04.webp)
+
 *Liste des applications compatibles pour l'import : 2FAS, Aegis Authenticator, Authy, Bitwarden Authenticator, Ente Auth et Google Authenticator*
 
 ### Protection locale de l'application
@@ -64,6 +68,7 @@ Si Proton Authenticator détecte que vous utilisiez auparavant une autre applica
 Définissez un code PIN de déverrouillage, ou activez le déverrouillage par biométrie (Touch ID) si proposé. Cette étape est cruciale pour empêcher quiconque utilisant votre Mac d'accéder librement à vos codes 2FA.
 
 ![PROTON AUTHENTICATOR](assets/fr/05.webp)
+
 *Écran de configuration de Touch ID avec le message "Protégez vos données" et le bouton "Activer Touch ID"*
 
 ### Options de synchronisation
@@ -71,11 +76,13 @@ Définissez un code PIN de déverrouillage, ou activez le déverrouillage par bi
 L'application vous propose également d'activer la synchronisation iCloud pour sauvegarder vos données de manière sécurisée entre vos appareils Apple.
 
 ![PROTON AUTHENTICATOR](assets/fr/06.webp)
+
 *Option de synchronisation iCloud avec le message "Sauvegardez vos données en toute sécurité grâce à la synchronisation iCloud chiffrée"*
 
 Une fois ces étapes franchies, Proton Authenticator est prêt à l'emploi.
 
 ![PROTON AUTHENTICATOR](assets/fr/07.webp)
+
 *Interface principale vide de Proton Authenticator avec les options "Créer un nouveau code" et "Importer des codes"*
 
 ## Ajouter un compte 2FA avec ProtonMail
@@ -91,21 +98,25 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Connectez-vous à votre compte ProtonMail et rendez-vous dans les paramètres de sécurité. Recherchez l'option "Two-factor authentication" et activez-la. 
 
 ![PROTON AUTHENTICATOR](assets/fr/08.webp)
+
 *Page des paramètres ProtonMail avec l'option "Authenticator app" dans la section "Two-factor authentication"*
 
 Cliquez sur le bouton pour activer l'authentificateur et ProtonMail vous proposera de choisir une application d'authentification.
 
 ![PROTON AUTHENTICATOR](assets/fr/09.webp)
+
 *Fenêtre de configuration 2FA de ProtonMail avec les boutons "Cancel" et "Next"*
 
 ProtonMail affichera alors un QR code à scanner avec votre application d'authentification.
 
 ![PROTON AUTHENTICATOR](assets/fr/10.webp)
+
 *QR code ProtonMail à scanner avec votre application d'authentification, avec l'option "Enter key manually instead" disponible*
 
 Si vous préférez saisir la clé manuellement, cliquez sur "Enter key manually instead" pour voir la clé secrète.
 
 ![PROTON AUTHENTICATOR](assets/fr/11.webp)
+
 *Saisie manuelle des informations 2FA : Key, Interval (30) et Digits (6)*
 
 ### Scanner le QR code avec Proton Authenticator
@@ -115,11 +126,13 @@ Dans Proton Authenticator sur macOS, cliquez sur "Créer un nouveau code". L'app
 Utilisez la caméra de votre Mac pour scanner le QR code affiché sur l'écran de ProtonMail. Une fois le QR code scanné, vous arriverez sur l'écran de configuration du nouveau code.
 
 ![PROTON AUTHENTICATOR](assets/fr/12.webp)
+
 *Fenêtre de création d'une nouvelle entrée avec les champs Titre (ProtonMail), Secret, Émetteur (Proton), paramètres de chiffres et intervalle*
 
 Proton Authenticator aura automatiquement rempli les informations. Vous pouvez personnaliser le nom si nécessaire, puis cliquez sur "Sauvegarder".
 
 ![PROTON AUTHENTICATOR](assets/fr/13.webp)
+
 *Code TOTP généré pour ProtonMail (848 812) avec le compte-temps restant affiché*
 
 ### Valider la configuration
@@ -127,6 +140,7 @@ Proton Authenticator aura automatiquement rempli les informations. Vous pouvez p
 ProtonMail vous demandera de saisir un code à 6 chiffres généré par Proton Authenticator pour confirmer que la 2FA fonctionne correctement. 
 
 ![PROTON AUTHENTICATOR](assets/fr/14.webp)
+
 *Écran de validation ProtonMail demandant de saisir le code à 6 chiffres (848812)
 
 Copiez le code depuis l'application (en cliquant dessus) et collez-le dans ProtonMail pour finaliser l'activation.
@@ -134,6 +148,7 @@ Copiez le code depuis l'application (en cliquant dessus) et collez-le dans Proto
 Une fois validé, ProtonMail vous proposera de télécharger vos codes de récupération. Il est crucial de les sauvegarder précieusement.
 
 ![PROTON AUTHENTICATOR](assets/fr/15.webp)
+
 *Écran des codes de récupération ProtonMail avec la liste des codes de secours et le bouton "Download"*
 
 ### Codes de secours
@@ -149,6 +164,7 @@ Maintenant que vous avez configuré Proton Authenticator sur macOS, vous souhait
 Rendez-vous sur l'App Store et recherchez "Proton Authenticator". Téléchargez et installez l'application sur votre appareil iOS.
 
 ![PROTON AUTHENTICATOR](assets/fr/16.webp)
+
 *Processus d'installation sur iOS : écran de bienvenue, assistant d'import, sélection des applications compatibles, et écran final "Importer des codes depuis Proton Authenticator"*
 
 ### Méthode 1 : Export/Import via fichier JSON
@@ -160,9 +176,11 @@ Si vous n'utilisez pas de synchronisation automatique (iCloud ou compte Proton),
 Sur votre Mac, ouvrez Proton Authenticator et accédez aux paramètres (icône engrenage). Dans le menu, cliquez sur "Exporter".
 
 ![PROTON AUTHENTICATOR](assets/fr/17.webp)
+
 *Menu des paramètres de Proton Authenticator sur macOS avec l'option "Exporter" visible*
 
 ![PROTON AUTHENTICATOR](assets/fr/18.webp)
+
 *Fenêtre d'export avec le nom du fichier "Proton_Authenticator_backup_2025" et le bouton "Enregistrer"*
 
 Sauvegardez le fichier JSON sur votre Mac. Vous pouvez l'envoyer par email sécurisé ou l'enregistrer dans iCloud Drive pour y accéder depuis votre iPhone.
@@ -172,6 +190,7 @@ Sauvegardez le fichier JSON sur votre Mac. Vous pouvez l'envoyer par email sécu
 Sur votre iPhone, installez Proton Authenticator et lors de la configuration, choisissez d'importer des codes. Sélectionnez "Proton Authenticator" dans la liste et importez le fichier JSON.
 
 ![PROTON AUTHENTICATOR](assets/fr/19.webp)
+
 *Processus d'import sur iOS : localisation du fichier JSON, confirmation d'import, et écrans de configuration avec les options Face ID et iCloud*
 
 ### Méthode 2 : Synchronisation automatique
@@ -181,6 +200,7 @@ Sur votre iPhone, installez Proton Authenticator et lors de la configuration, ch
 Si vous n'avez pas encore configuré de compte Proton et souhaitez synchroniser entre différents systèmes d'exploitation, l'application vous proposera de créer ou connecter un compte Proton.
 
 ![PROTON AUTHENTICATOR](assets/fr/20.webp)
+
 *Écran de synchronisation des appareils demandant de créer un compte Proton gratuit ou de se connecter à un compte existant*
 
 **Via iCloud (pour l'écosystème Apple uniquement)** :

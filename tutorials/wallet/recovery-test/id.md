@@ -1,37 +1,40 @@
 ---
 name: Tes Pemulihan
-description: Bagaimana cara menguji cadangan Anda untuk memastikan Anda tidak kehilangan bitcoin Anda?
+description: Bagaimana Cara Menguji Cadanganmu supaya Kamu Nggak Sampai Kehilangan Bitcoin?
 ---
 ![cover](assets/cover.webp)
 
-Saat membuat dompet Bitcoin, Anda diminta untuk mencatat frasa mnemonik, biasanya terdiri dari 12 atau 24 kata. Frasa ini memungkinkan Anda untuk memulihkan akses ke bitcoin Anda dalam kasus kehilangan, kerusakan, atau pencurian perangkat yang menyimpan dompet Anda. Sebelum Anda mulai menggunakan dompet Bitcoin baru Anda, sangat penting untuk memverifikasi validitas frasa mnemonik ini. Cara terbaik untuk melakukan ini adalah dengan melakukan tes pemulihan secara simulasi.
+Saat bikin dompet Bitcoin, kamu diminta untuk mencatat frasa mnemonik yang biasanya terdiri dari 12 atau 24 kata. Frasa ini memungkinkan kamu memulihkan akses ke bitcoin kalau perangkat penyimpan dompetmu hilang, rusak, atau dicuri. Sebelum mulai pakai dompet Bitcoin barumu, sangat penting untuk memverifikasi apakah frasa mnemonik ini benar. Cara terbaik untuk melakukannya adalah dengan melakukan tes pemulihan secara simulasi.
 
-Tes ini melibatkan simulasi pemulihan dompet sebelum menyetorkan bitcoin apa pun ke dalamnya. Selama dompet masih kosong, kita mensimulasikan situasi di mana perangkat yang menyimpan kunci kita hilang, dan yang kita miliki hanyalah frasa mnemonik kita untuk mencoba memulihkan bitcoin kita.
+Tes ini melibatkan simulasi pemulihan dompet sebelum kamu menyetorkan bitcoin apa pun ke dalamnya. Selama dompet masih kosong, kita mensimulasikan situasi di mana perangkat penyimpan kunci hilang, dan yang tersisa hanya frasa mnemonik untuk mencoba memulihkan bitcoin kita.
 
 ![TES PEMULIHAN](assets/notext/01.webp)
 
 ## Apa tujuannya?
 
-Proses pengujian ini memungkinkan Anda untuk memverifikasi bahwa cadangan fisik dari frasa mnemonik Anda, baik di kertas atau logam, berfungsi. Kegagalan selama tes pemulihan ini menandakan adanya kesalahan dalam cadangan frasa tersebut, sehingga menempatkan bitcoin Anda dalam risiko. Di sisi lain, jika tes berhasil, ini mengonfirmasi bahwa frasa mnemonik Anda sepenuhnya operasional, dan Anda kemudian dapat mengamankan bitcoin dengan tenang menggunakan dompet ini.
+Proses pengujian ini bikin kamu bisa memastikan kalau cadangan fisik dari frasa mnemonikmu, baik di kertas maupun logam, memang berfungsi. Kalau gagal saat tes pemulihan, itu berarti ada kesalahan dalam cadangan frasa, dan otomatis bikin bitcoinmu dalam risiko. Sebaliknya, kalau tes berhasil, itu mengonfirmasi kalau frasa mnemonikmu sepenuhnya bisa dipakai, jadi kamu bisa lebih tenang mengamankan bitcoin dengan dompet ini.
 
-Melakukan tes pemulihan secara simulasi memiliki keuntungan ganda. Tidak hanya memungkinkan Anda untuk memeriksa keakuratan frasa mnemonik Anda, tetapi juga memberi Anda kesempatan untuk membiasakan diri dengan proses pemulihan dompet. Dengan cara ini, Anda akan menemukan potensi kesulitan sebelum situasi nyata terjadi pada Anda. Pada hari Anda benar-benar perlu memulihkan dompet Anda, Anda akan kurang stres, karena Anda sudah tahu prosesnya, mengurangi risiko kesalahan. Itulah mengapa penting untuk tidak mengabaikan langkah pengujian ini dan mengambil waktu yang diperlukan untuk melakukannya dengan benar.
+Melakukan tes pemulihan secara simulasi punya dua keuntungan. Bukan cuma memastikan keakuratan frasa mnemonik, tapi juga bikin kamu terbiasa dengan proses pemulihan dompet. Dengan begitu, kamu bisa nemuin potensi masalah sebelum situasi beneran terjadi. Jadi ketika suatu hari kamu memang perlu memulihkan dompet, kamu nggak akan terlalu stres karena sudah tahu alurnya, dan risiko kesalahan jadi lebih kecil. Itulah kenapa langkah pengujian ini penting banget, dan kamu perlu meluangkan waktu untuk melakukannya dengan benar.
 
 ## Apa itu tes pemulihan?
 
-Proses tes cukup sederhana:
-- Setelah membuat dompet Bitcoin baru Anda, dan sebelum menyetorkan satoshi pertama Anda, catat informasi saksi seperti xpub, alamat penerimaan pertama, atau bahkan sidik jari kunci utama;
-- Kemudian, sengaja hapus dompet yang masih kosong, misalnya, dengan mereset dompet perangkat keras Anda ke pengaturan pabrik;
-- Selanjutnya, simulasi pemulihan dompet Anda hanya menggunakan cadangan kertas dari frasa mnemonik Anda dan passphrase Anda jika Anda menggunakannya;
-- Akhirnya, periksa apakah informasi saksi cocok dengan portofolio yang diregenerasi. Jika informasi cocok, Anda dapat yakin akan keandalan cadangan fisik Anda, dan Anda kemudian dapat mengirim bitcoin pertama Anda ke dompet ini.
-Hati-hati, selama tes pemulihan, **Anda harus menggunakan perangkat yang sama yang dimaksudkan untuk dompet akhir Anda**, agar tidak meningkatkan permukaan serangan dompet Anda. Misalnya, jika Anda membuat dompet di Trezor Safe 5, pastikan untuk melakukan tes pemulihan di Trezor Safe 5 yang sama. Penting untuk tidak memasukkan frasa pemulihan Anda ke dalam perangkat lunak lain, karena ini akan mengompromikan keamanan yang disediakan oleh dompet perangkat keras Anda, bahkan jika dompet masih kosong.
+Proses tes ini cukup sederhana:
+
+- Setelah bikin dompet Bitcoin baru, dan sebelum menyetorkan satoshi pertamamu, catat dulu informasi saksi seperti xpub, alamat penerimaan pertama, atau bahkan sidik jari kunci utama;
+- Lalu, hapus dompet yang masih kosong itu, misalnya dengan mereset dompet perangkat kerasmu ke pengaturan pabrik;
+- Setelah itu, lakukan simulasi pemulihan dompet hanya dengan cadangan kertas dari frasa mnemonik dan passphrase (kalau kamu memang memakainya);
+- Terakhir, cek apakah informasi saksi cocok dengan dompet yang berhasil diregenerasi. Kalau semua cocok, artinya cadangan fisikmu bisa diandalkan, dan kamu bisa dengan tenang mengirim bitcoin pertamamu ke dompet ini.
+
+Hati-hati, selama tes pemulihan **kamu harus pakai perangkat yang sama dengan dompet akhir yang memang akan kamu gunakan**, supaya nggak nambahin permukaan serangan. Misalnya, kalau kamu bikin dompet di Trezor Safe 5, pastikan tes pemulihan juga dilakukan di Trezor Safe 5 yang sama. Penting banget untuk tidak pernah memasukkan frasa pemulihan ke perangkat lunak lain, karena itu bakal mengompromikan keamanan yang diberikan dompet perangkat kerasmu, bahkan meskipun dompetnya masih kosong.
 
 ## Bagaimana cara melakukan tes pemulihan?
 
-Dalam tutorial ini, saya akan menjelaskan cara melakukan tes pemulihan pada dompet perangkat lunak Bitcoin, menggunakan Sparrow Wallet (untuk dompet panas). Namun, prosesnya tetap sama untuk jenis perangkat lain. Lagi pula, **jika Anda menggunakan dompet perangkat keras, jangan melakukan tes pemulihan di Sparrow Wallet** (lihat bagian sebelumnya).
-Saya baru saja membuat dompet panas baru di Sparrow Wallet. Saat ini, saya belum mengirimkan bitcoin apa pun ke sana. Ini masih kosong.
+Di tutorial ini, aku bakal nunjukin cara melakukan tes pemulihan di dompet perangkat lunak Bitcoin, pakai Sparrow Wallet (untuk dompet panas). Tapi sebenarnya, prosesnya sama aja buat jenis perangkat lain. Ingat ya, kalau kamu pakai dompet perangkat keras, **jangan lakukan tes pemulihan di Sparrow Wallet** (lihat bagian sebelumnya).
+
+Aku baru aja bikin dompet panas baru di Sparrow Wallet. Saat ini, aku belum kirim bitcoin apa pun ke sana. Dompet ini masih kosong.
 ![UJI PEMULIHAN](assets/notext/02.webp)
 
-Saya telah dengan hati-hati mencatat frasa mnemonik 12 kata saya di selembar kertas. Dan karena saya ingin meningkatkan keamanan dompet ini, saya juga telah menyiapkan frasa sandi BIP39 yang saya simpan di selembar kertas lain:
+Aku sudah dengan hati-hati mencatat frasa mnemonik 12 kata di selembar kertas. Dan karena pengin ningkatin keamanan dompet ini, aku juga menyiapkan frasa sandi BIP39 yang kusimpan di kertas lain:
 
 ```txt
 1. shield
@@ -52,37 +55,37 @@ Saya telah dengan hati-hati mencatat frasa mnemonik 12 kata saya di selembar ker
 Passphrase: YfaicGzXH9t5C#g&47Kzbc$JL
 ```
 
-***Jelas, Anda seharusnya tidak pernah membagikan frasa mnemonik dan frasa sandi Anda di internet, tidak seperti yang saya lakukan dalam tutorial ini. Dompet contoh ini tidak akan digunakan dan akan dihapus di akhir tutorial.***
+***Jelas, kamu seharusnya nggak pernah membagikan frasa mnemonik dan frasa sandimu di internet, beda dengan yang aku lakukan di tutorial ini. Dompet contoh ini nggak akan dipakai dan bakal dihapus setelah tutorial selesai.***
 
-Sekarang saya akan mencatat di draf sebuah informasi saksi dari dompet saya. Anda dapat memilih berbagai informasi, seperti alamat penerimaan pertama, xpub, atau sidik jari kunci utama. Secara pribadi, saya merekomendasikan memilih alamat penerimaan pertama. Ini memungkinkan Anda untuk memverifikasi bahwa Anda dapat menemukan jalur derivasi pertama lengkap yang menuju ke alamat ini.
+Sekarang aku bakal mencatat di draf sebuah informasi saksi dari dompetku. Kamu bisa pilih berbagai macam informasi, seperti alamat penerimaan pertama, xpub, atau sidik jari kunci utama. Secara pribadi, aku lebih nyaranin pakai alamat penerimaan pertama. Soalnya, ini bikin kamu bisa memverifikasi kalau jalur derivasi pertama lengkap yang menuju ke alamat itu memang bisa ditemukan.
 
 Di Sparrow, klik pada tab "*Alamat*".
 
 ![UJI PEMULIHAN](assets/notext/03.webp)
 
-Kemudian, catat di selembar kertas alamat penerimaan pertama dompet Anda. Dalam contoh saya, alamatnya adalah:
+Lalu, catat di selembar kertas alamat penerimaan pertama dari dompetmu. Dalam contohnya aku, alamatnya adalah:
 
 ```txt
 tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 ```
 
-Setelah mencatat informasi, pergi ke menu "*File*", lalu pilih "*Hapus Dompet*". Saya ingatkan sekali lagi bahwa dompet Bitcoin Anda harus kosong sebelum melanjutkan dengan operasi ini.
+Setelah mencatat informasinya, buka menu "*File*", lalu pilih "*Hapus Dompet*". Aku ingetin lagi, dompet Bitcoinmu harus benar-benar kosong sebelum lanjut ke langkah ini.
 
 ![UJI PEMULIHAN](assets/notext/04.webp)
 
-Jika dompet Anda memang kosong, konfirmasikan penghapusan dompet Anda.
+Kalau dompetmu memang kosong, lanjutkan dengan mengonfirmasi penghapusan dompet itu.
 
 ![UJI PEMULIHAN](assets/notext/05.webp)
 
-Sekarang Anda perlu mengulangi proses pembuatan dompet, tetapi menggunakan cadangan kertas kami. Klik pada menu "*File*" dan kemudian pada "*Dompet Baru*".
+Sekarang kamu perlu ngulang proses bikin dompet, tapi kali ini pakai cadangan kertas yang udah kamu catat. Klik menu "*File*", lalu pilih "*Dompet Baru*".
 
 ![UJI PEMULIHAN](assets/notext/06.webp)
 
-Masukkan nama dompet Anda lagi.
+Masukkan nama dompet lagi.
 
 ![UJI PEMULIHAN](assets/notext/07.webp)
 
-Di menu "*Tipe Skrip*", Anda perlu memilih tipe skrip yang sama dengan dompet yang sebelumnya Anda hapus.
+Di menu "*Tipe Skrip*", kamu perlu memilih tipe skrip yang sama dengan dompet yang sebelumnya kamu hapus.
 
 ![UJI PEMULIHAN](assets/notext/08.webp)
 
@@ -90,15 +93,15 @@ Kemudian klik pada tombol "*Dompet Perangkat Lunak Baru atau Diimpor*".
 
 ![UJI PEMULIHAN](assets/notext/09.webp)
 
-Pilih jumlah kata yang benar untuk benih Anda.
+Pilih jumlah kata yang benar untuk seed.
 
 ![UJI PEMULIHAN](assets/notext/10.webp)
 
-Masukkan frasa mnemonik Anda ke dalam perangkat lunak. Jika muncul pesan "*Checksum Tidak Valid*", ini menunjukkan bahwa cadangan frasa mnemonik Anda salah. Anda kemudian harus memulai pembuatan dompet Anda dari awal, karena tes pemulihan Anda telah gagal.
+Masukkan frasa mnemonikmu ke dalam perangkat lunak. Kalau muncul pesan "*Checksum Tidak Valid*", itu berarti cadangan frasa mnemonikmu salah. Dalam kasus ini, kamu harus mulai lagi dari awal bikin dompet, karena tes pemulihanmu dianggap gagal.
 
 ![UJI PEMULIHAN](assets/notext/11.webp)
 
-Jika Anda memiliki frasa sandi, seperti dalam kasus saya, masukkan juga.
+Kalau kamu punya frasa sandi, kayak di kasusku, masukkan juga.
 
 ![UJI PEMULIHAN](assets/notext/12.webp)
 
@@ -110,11 +113,11 @@ Dan akhirnya, klik pada tombol "*Terapkan*".
 
 ![UJI PEMULIHAN](assets/notext/14.webp)
 
-Anda sekarang dapat kembali ke tab "*Alamat*".
+Sekarang kamu bisa kembali ke tab "*Alamat*".
 
 ![UJI PEMULIHAN](assets/notext/15.webp)
-Akhirnya, verifikasi bahwa alamat penerima pertama cocok dengan yang telah Anda catat sebagai saksi pada draf Anda.
-![RECOVERY TEST](assets/notext/16.webp)
+Terakhir, pastikan alamat penerima pertama sama dengan yang sudah kamu catat sebagai saksi di drafmu.![RECOVERY TEST](assets/notext/16.webp)
 
-Jika alamat penerima cocok, tes pemulihan Anda berhasil, dan Anda dapat menggunakan dompet Bitcoin baru Anda. Jika tidak cocok, ini mungkin menunjukkan kesalahan dalam pemilihan jenis skrip, yang membuat jalur derivasi tidak benar, atau masalah dengan cadangan frasa mnemonik atau passphrase Anda. Dalam kedua kasus, saya sangat menyarankan untuk memulai dari awal dan membuat dompet Bitcoin baru dari awal untuk menghindari risiko apa pun. Kali ini, pastikan untuk mencatat frasa mnemonik tanpa kesalahan.
-Selamat, Anda sekarang sudah mengerti tentang melakukan tes pemulihan! Saya menyarankan Anda untuk menggeneralisasi proses ini untuk pembuatan semua dompet Bitcoin Anda. Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jika Anda bisa meninggalkan jempol ke atas di bawah ini. Jangan ragu untuk membagikan artikel ini di jaringan sosial Anda. Terima kasih banyak!
+Kalau alamat penerima cocok, berarti tes pemulihanmu berhasil dan kamu bisa langsung pakai dompet Bitcoin barumu. Tapi kalau nggak cocok, itu mungkin karena ada kesalahan dalam pemilihan jenis skrip yang bikin jalur derivasinya nggak benar, atau ada masalah di cadangan frasa mnemonik maupun passphrase-mu. Dalam dua kasus ini, aku sangat nyaranin buat mulai dari awal lagi dan bikin dompet Bitcoin baru supaya aman. Kali ini, pastikan frasa mnemonik dicatat tanpa ada kesalahan.
+
+Selamat, sekarang kamu udah paham cara melakukan tes pemulihan! Aku nyaranin kamu buat membiasakan proses ini setiap kali bikin dompet Bitcoin baru. Kalau kamu merasa tutorial ini bermanfaat, aku bakal sangat menghargai kalau kamu bisa kasih jempol ke atas di bawah ini. Jangan ragu juga buat bagiin artikel ini ke jejaring sosialmu. Makasih banyak!

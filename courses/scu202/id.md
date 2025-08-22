@@ -4156,199 +4156,129 @@ Dikembangkan oleh tim Proton, VPN ini menawarkan paket gratis dan bebas iklan. P
 
 ### autentikasi 2FA
 
-
-Autentikasi dua faktor (2FA) adalah keamanan tambahan Layer di atas kata sandi Anda. Ini sering kali bergantung pada kode satu kali yang dihasilkan setiap 30 detik oleh aplikasi autentikasi. Kode ini didasarkan pada rahasia yang dibagikan antara perangkat Anda dan layanan online, sesuai dengan protokol TOTP (*Kata Sandi Sekali Pakai Berbasis Waktu*). Aplikasi yang paling terkenal adalah Google Authenticator, tetapi ini bukan sumber terbuka dan membuat Anda bergantung pada ekosistem Google.
-
+Autentikasi dua faktor (2FA) adalah lapisan keamanan tambahan di atas kata sandi Anda. Ini sering kali mengandalkan kode sekali pakai yang dihasilkan setiap 30 detik oleh aplikasi otentikasi. Kode ini didasarkan pada rahasia yang dibagikan antara perangkat Anda dan layanan online, sesuai dengan protokol TOTP (_Time-based One-Time Password_). Aplikasi yang paling terkenal adalah Google Authenticator, tetapi tidak open-source dan membuat Anda bergantung pada ekosistem Google.
 
 **Alternatif**:
 
-
-
 - [Aegis Authenticator](https://getaegis.app/)
 
-
-Aegis merupakan aplikasi sumber terbuka yang komprehensif. Aplikasi ini mengenkripsi basis data 2FA Anda dengan kata sandi, menawarkan cadangan yang dapat diekspor (juga dienkripsi), dan memungkinkan Anda mengurutkan akun berdasarkan direktori. Interface jelas, modern, dan mudah dipulihkan pada perangkat baru, selama Anda memiliki file cadangan dan kata sandi terkait.
-
+Aegis adalah aplikasi open-source yang lengkap. Aplikasi ini mengenkripsi basis data 2FA Anda dengan kata sandi, menawarkan cadangan yang dapat diekspor (juga terenkripsi), dan memungkinkan Anda mengurutkan akun berdasarkan direktori. Interfacenya jelas, modern, dan mudah dipulihkan di perangkat baru, selama Anda memiliki file cadangan dan kata sandi terkait.
 
 ![Image](assets/fr/175.webp)
 
-
-
 - [Ente Auth](https://ente.io/auth/)
 
+Ente Auth adalah solusi modern, open-source, dan multi-platform dengan cadangan terenkripsi end-to-end. Ini memungkinkan Anda untuk menyinkronkan kode 2FA Anda dengan aman di mobile, desktop, dan web. Anda juga dapat menggunakannya offline, tanpa cadangan cloud atau pembuatan akun.
 
-Ente Auth adalah solusi multi-platform yang modern, open-source, dan multi-platform dengan pencadangan terenkripsi ujung ke ujung. Ente Auth memungkinkan Anda untuk menyinkronkan kode 2FA dengan aman di perangkat seluler, desktop, dan web. Anda juga bisa menggunakannya secara offline, tanpa pencadangan awan atau pembuatan akun.
-
-
-Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khusus untuk setiap layanan, catatan, favorit, pencarian terintegrasi, berbagi kode tim yang aman.
-
+Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khusus untuk setiap layanan, catatan, favorit, pencarian terintegrasi, berbagi kode kepda tim dengan aman.
 
 ![Image](assets/fr/176.webp)
 
-
-
 - [Authy](https://www.authy.com/)
 
-
-Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, tetapi aplikasinya bukan sumber terbuka dan memerlukan nomor telepon untuk pendaftaran. Namun, untuk pemula, aplikasi ini lebih lengkap daripada Google Authenticator, khususnya berkat fungsi pencadangan awannya.
-
+Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, tetapi aplikasi ini tidak open-source dan memerlukan nomor telepon untuk pendaftaran. Namun, bagi pemula, aplikasi ini lebih lengkap daripada Google Authenticator, berkat fungsi cadangan cloud-nya.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, autentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus dalam kursus SCU-101:
-
+Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, otentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus di kursus SCU-101:
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Cuaca
 
-
-Aplikasi cuaca klasik seperti AccuWeather atau Météo France sering kali mengumpulkan data pribadi, termasuk lokasi Anda yang tepat, kebiasaan penggunaan, dan terkadang bahkan pengidentifikasi perangkat, untuk tujuan komersial atau iklan. Layanan ini juga bergantung pada API terpusat, sehingga membatasi kontrol Anda atas data yang ditampilkan atau dikirimkan.
-
+Aplikasi cuaca klasik seperti AccuWeather atau Météo France sering kali mengumpulkan data pribadi, termasuk lokasi Anda yang tepat, kebiasaan penggunaan, dan terkadang bahkan pengenal perangkat, untuk tujuan komersial atau iklan. Layanan ini juga bergantung API eksklusif terpusat, yang membatasi kontrol Anda atas data yang ditampilkan atau dikirimkan.
 
 **Alternatif**:
 
 
 
-- [Cuaca Geometrik](https://github.com/WangDaYeeeeee/GeometricWeather)
+- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
-
-Geometric Weather menawarkan prakiraan cuaca yang mendetail dan widget yang dapat disesuaikan, semuanya tanpa iklan atau pengumpulan data yang mengganggu. Kodenya adalah sumber terbuka. Aplikasi ini mendukung beberapa penyedia cuaca.
-
+Geometric Weather menawarkan prakiraan terperinci dan widget yang dapat disesuaikan, semuanya tanpa iklan atau pengumpulan data yang mengganggu. Source code-nya open-source. Aplikasi ini mendukung beberapa penyedia cuaca.
 
 ![Image](assets/fr/177.webp)
 
-
-
 - [Prognoza](https://github.com/davidtakac/prognoza)
 
-
-Prognoza adalah aplikasi minimalis yang langsung menuju ke intinya: Menampilkan cuaca dan prakiraan cuaca saat ini. Aplikasi ini menawarkan beberapa widget. Prognoza bebas iklan, bebas pelacak, dan tidak memerlukan otorisasi yang tidak perlu.
-
+Prognoza adalah aplikasi minimalis yang langsung ke intinya: Menampilkan cuaca terkini dan prakiraannya. Aplikasi ini menawarkan beberapa widget. Prognoza bebas iklan, bebas pelacak, dan tidak memerlukan otorisasi yang tidak perlu.
 
 ![Image](assets/fr/178.webp)
 
-
-
 - [Forecastie](https://github.com/martykan/forecastie)
 
-
-Aplikasi cuaca sederhana, berdasarkan OpenWeatherMap, sumber terbuka, dapat dikonfigurasi, dengan widget.
-
+Aplikasi cuaca sederhana, berdasarkan OpenWeatherMap, open source, dapat dikonfigurasi, dengan widget.
 
 ![Image](assets/fr/179.webp)
 
-
 Secara umum, pada aplikasi cuaca, lebih baik mengonfigurasi lokasi yang Anda minati secara manual daripada mengaktifkan geolokasi otomatis.
-
 
 ### Streaming audio/video
 
-
-Platform populer seperti Spotify atau YouTube menawarkan pengalaman pengguna yang mulus, tetapi dengan mengorbankan kompromi yang signifikan pada privasi. Layanan-layanan ini secara konstan mengumpulkan data perilaku: Riwayat menonton atau mendengarkan, waktu yang dihabiskan, preferensi konten, perangkat yang digunakan. Informasi ini sering digunakan untuk tujuan pembuatan profil atau penargetan.
-
+Platform populer seperti Spotify atau YouTube menawarkan pengalaman pengguna yang nyaman, tetapi dengan mengorbankan hal yang signifikan terhadap privasi. Layanan ini terus-menerus mengumpulkan data kebiasaan kita: Riwayat penayangan atau mendengarkan, waktu yang dihabiskan, preferensi konten, perangkat yang digunakan. Informasi ini sering kali digunakan untuk tujuan pembuatan profil atau penargetan.
 
 **Alternatif**:
 
-
-
 - [LibreTube](https://libretube.dev/)
 
-
-LibreTube adalah aplikasi Android yang memungkinkan Anda menonton video YouTube tanpa dilacak Google. Semua permintaan dialihkan melalui server proxy Piped, yang menganonimkan akses ke video. Interface-nya modern, cepat, dan bebas iklan. Aplikasi ini tidak memerlukan akun Google, dan memungkinkan Anda berlangganan saluran secara anonim atau membuat daftar putar lokal.
-
+LibreTube adalah aplikasi Android yang memungkinkan Anda menonton video YouTube tanpa dilacak oleh Google. Semua permintaan dialihkan melalui server proxy Piped, yang menganonimkan akses ke video. Interface-nya modern, cepat, dan bebas iklan. Aplikasi ini tidak memerlukan akun Google, dan memungkinkan Anda untuk secara anonim berlangganan channel atau membuat playlist lokal.
 
 ![Image](assets/fr/180.webp)
 
-
-
 - [NewPipe] (https://newpipe.net/)
 
-
-NewPipe adalah klien YouTube alternatif lainnya. Ringan, bebas iklan, bebas pelacak, dan sepenuhnya open-source, aplikasi ini memungkinkan Anda melihat, mengunduh, atau mendengarkan video dari YouTube (dan platform lain seperti SoundCloud atau PeerTube) di latar belakang. Tidak diperlukan koneksi ke Google. NewPipe bekerja sepenuhnya secara independen dari aplikasi YouTube resmi, dan tidak memerlukan layanan Google apa pun untuk beroperasi.
-
-
+NewPipe adalah aplikasi alternatif YouTube lainnya. Ringan, bebas iklan, bebas pelacak, dan sepenuhnya open-source, aplikasi ini memungkinkan Anda untuk melihat, mengunduh, atau mendengarkan video dari YouTube (dan platform lain seperti SoundCloud atau PeerTube) di latar belakang. Tidak diperlukan koneksi ke Google. NewPipe bekerja sepenuhnya independen dari aplikasi YouTube resmi, dan tidak memerlukan layanan Google apa pun untuk beroperasi.
 
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
-Pemutar media VLC yang populer juga tersedia di Android. Aplikasi ini mendukung berbagai format audio dan video, dan memungkinkan Anda memutar file secara lokal atau melalui jaringan, semuanya tanpa iklan atau pengumpulan data. Ini adalah solusi yang sangat baik untuk mengelola perpustakaan multimedia Anda sendiri secara lokal, tanpa koneksi ke layanan pihak ketiga.
-
+Pemutar media VLC yang populer juga tersedia di Android. Pemutar ini mendukung berbagai format audio dan video, dan memungkinkan Anda memutar file secara lokal atau melalui jaringan, semuanya tanpa iklan atau pengumpulan data. Ini adalah solusi yang sangat baik untuk mengelola koleksi multimedia Anda sendiri secara lokal, tanpa koneksi ke layanan pihak ketiga.
 
 ![Image](assets/fr/181.webp)
 
-
-
 - (https://funkwhale.audio/):
 
-
-Funkwhale adalah platform terdesentralisasi untuk berbagi dan mendengarkan musik, dengan klien yang kompatibel.
-
+Funkwhale adalah platform terdesentralisasi untuk berbagi dan mendengarkan musik, dengan aplikasi yang kompatibel.
 
 ### Keyboard
 
-
-Papan ketik virtual seperti Gboard dari Google atau SwiftKey dari Microsoft ada di mana-mana di smartphone. Akan tetapi, keyboard ini memiliki risiko privasi yang besar: Setiap karakter yang diketik secara teoritis dapat direkam, dianalisis, atau dikirim ke server jarak jauh. Meskipun perusahaan-perusahaan ini mengklaim menganonimkan data, pengumpulan data masih mungkin terjadi.
-
+Papan ketik virtual seperti Gboard dari Google atau SwiftKey dari Microsoft ada di banyak smartphone. Namun, keduanya menimbulkan risiko privasi yang besar: Setiap karakter yang diketik secara teoretis dapat direkam, dianalisis, atau dikirimkan ke server jarak jauh. Meskipun perusahaan-perusahaan ini mengklaim menganonimkan data, pengumpulan masih mungkin terjadi.
 
 **Alternatif**:
-
-
 
 - [OpenBoard](https://github.com/dslul/openboard)
 
-
-OpenBoard adalah keyboard Android sumber terbuka yang minimalis berdasarkan keyboard AOSP (*Android open-source Project*). Keyboard ini tidak mengandung komponen atau pelacak berpemilik, dan tidak pernah berkomunikasi dengan server jarak jauh. Koreksi otomatis, pengetikan prediktif, dan kamus pribadi hanya bekerja secara lokal.
-
-
+OpenBoard adalah papan ketik Android open-source minimalis yang didasarkan pada papan ketik AOSP (_Android open-source Project_). Papan ketik ini tidak mengandung komponen eksklusif atau pelacak, dan tidak pernah berkomunikasi dengan server jarak jauh. Koreksi otomatis (autocorrection), pengetikan prediktif, dan kamus pribadi hanya berfungsi secara lokal.
 
 - [FlorisBoard](https://florisboard.org/)
 
-
-FlorisBoard menawarkan pendekatan yang lebih modern dan modular. Juga bersifat open-source, mengintegrasikan fungsi-fungsi canggih seperti input gerakan, tata letak tombol yang dipersonalisasi, dan manajemen multibahasa. Semua pemrosesan data dilakukan secara lokal, tanpa koneksi ke server eksternal. FlorisBoard masih dalam tahap pengembangan, tetapi sudah dapat digunakan sepenuhnya setiap hari bagi mereka yang menginginkan papan ketik yang kuat tanpa mengorbankan privasi mereka.
-
+FlorisBoard menawarkan pendekatan yang lebih modern dan modular. Juga open-source, papan ketik ini mengintegrasikan fungsi-fungsi canggih seperti masukan gestur, tata letak kunci yang dipersonalisasi, dan manajemen multibahasa. Semua pemrosesan data dilakukan secara lokal, tanpa koneksi ke server eksternal. FlorisBoard masih dalam tahap pengembangan, tetapi sudah sepenuhnya dapat digunakan setiap hari bagi mereka yang menginginkan papan ketik yang kuat tanpa mengorbankan privasi mereka.
 
 ![Image](assets/fr/182.webp)
 
-
 ### Kalkulator
-
 
 Aplikasi Kalkulator Google, meskipun efektif, masih merupakan produk Google dan memiliki risiko yang biasa terkait dengan pengumpulan data dan ketergantungan pada ekosistem terpusat.
 
-
 **Alternatif**:
-
-
 
 - [OpenCalc](https://github.com/Darkempire78/OpenCalc)
 
-
-OpenCalc adalah kalkulator sumber terbuka yang cepat dan mudah digunakan, sangat cocok untuk kebutuhan sehari-hari. Kalkulator ini tidak mengumpulkan data dan bekerja sepenuhnya secara offline, tanpa iklan atau ketergantungan pada layanan eksternal apa pun.
-
+OpenCalc adalah kalkulator oepn source yang cepat dan mudah digunakan, sangat cocok untuk kebutuhan sehari-hari. Kalkulator ini tidak mengumpulkan data dan bekerja sepenuhnya secara offline, tanpa iklan atau ketergantungan pada layanan eksternal apa pun.
 
 ![Image](assets/fr/183.webp)
 
 
 ### Toko aplikasi
 
-
-Google Play Store adalah sumber aplikasi default pada sebagian besar smartphone Android. Namun, aplikasi ini sangat terintegrasi dengan layanan Google dan melibatkan pengumpulan data yang sistematis, bahkan selama pencarian atau pembaruan yang sederhana.
-
+Google Play Store adalah sumber aplikasi standar di sebagian besar smartphone Android. Namun, aplikasi ini sangat terintegrasi dengan layanan Google dan melibatkan pengumpulan data sistematis, bahkan selama pencarian sederhana atau pembaruan.
 
 **Alternatif**:
 
-
-
 - [F-Cold](https://f-droid.org/)
 
-
-F-Droid adalah katalog aplikasi sumber terbuka yang eksklusif. Semua perangkat lunak yang tersedia dapat diaudit dan diunduh secara bebas, tanpa iklan, pelacakan, atau ketergantungan pada layanan Google. Aplikasi F-Droid sendiri tidak memerlukan akun pengguna.
-
+F-Droid adalah katalog aplikasi yang secara eksklusif berisi open-source. Semua perangkat lunak yang tersedia dapat diaudit dan diunduh secara bebas, tanpa iklan, pelacakan, atau ketergantungan pada layanan Google. Aplikasi F-Droid itu sendiri tidak memerlukan akun pengguna.
 
 ![Image](assets/fr/184.webp)
-
-
 
 - [Aurora Store](https://auroraoss.com/)
 

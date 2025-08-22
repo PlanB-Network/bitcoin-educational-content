@@ -1,14 +1,14 @@
 ---
 name: Mejorar su seguridad digital personal
-goal: Establezca un entorno digital personal seguro, estable y eficiente.
+goal: Establecer un entorno digital personal seguro, estable y eficiente.
 objectives: 
 
 
   - Entender cómo funcionan los sistemas operativos modernos y elegir con conocimiento de causa
-  - Gane autonomía técnica en Linux
+  - Obtener autonomía técnica en Linux
   - Aplicar las mejores prácticas de seguridad en un ordenador personal
   - Aumentar la seguridad de la navegación web y el uso del móvil mediante herramientas de código abierto y una configuración adecuada
-  - Implantar las protecciones necesarias en una red doméstica
+  - Implementar las protecciones necesarias en una red doméstica
 
 
 ---
@@ -17,7 +17,7 @@ objectives:
 
 
 
-En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger su propio entorno informático es una necesidad. Ya sea su ordenador, navegador, teléfono o red doméstica, cada uno de estos Elements puede ser una puerta potencial a su privacidad. Este curso le ayuda a recuperar el control de sus dispositivos digitales.
+En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger su propio entorno informático es una necesidad. Ya sea su ordenador, navegador, teléfono o red doméstica, cada uno de estos elementos puede ser una potencial puerta de acceso a su información privada. Este curso le ayuda a recuperar el control de sus dispositivos digitales.
 
 
 

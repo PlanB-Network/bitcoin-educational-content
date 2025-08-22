@@ -1,0 +1,5 @@
+---
+term: Anchor ÇIKIŞLAR
+---
+
+Lightning kanallarındaki işlem ücretlerinin yönetimini iyileştirmeyi amaçlayan bir teklif. Bir Lightning kanalındaki her durum değişikliğinde, paydaşlar kanal içindeki yeni fon dağılımını yansıtan yeni bir Commitment Transaction oluşturur ve imzalar. Bu mekanizma ile ilgili sorun, oluşturulduğu sırada işlem ücretlerinin belirlenmesinde yatmaktadır. Gerçekten de, Bitcoin ağındaki işlem ücretleri hem yukarı hem de aşağı doğru önemli dalgalanmalara maruz kalmaktadır. Son Commitment Transaction için belirlenen ücretler kanalın tek taraflı olarak kapatılması sırasında yetersizse, işlemin onaylanması sadece önemli miktarda zaman almakla kalmaz, aynı zamanda zamansal kilitleme mekanizmaları (timelocks) fonların çalınmasına da izin verebilir. Anchor çıkışları, gelecekteki ücretleri karşılamak için Commitment Transaction'deki fonların küçük bir kısmını ayırır. Ağ tıkanıklığı ve artan ücretler durumunda, Anchor çıktıları Commitment Transaction'in oluşturulmasından sonra işlem ücretlerinin değiştirilmesine izin verir, böylece Lightning kanalının yeterince hızlı bir şekilde kapanmasını sağlar.

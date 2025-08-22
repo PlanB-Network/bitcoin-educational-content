@@ -1,0 +1,8 @@
+description: |
+  Galoy, kurumsal ölçekte Bitcoin ve Lightning uygulamalarını başlatmak için tasarlanmış açık kaynaklı bir çekirdek bankacılık platformu sunmaktadır. Kendi kendine barındırılan altyapı veya yönetilen bir "Hizmet Olarak Bankacılık" uygulaması aracılığıyla Bitcoin bankacılık çözümlerinin hızlandırılmış bir şekilde geliştirilmesini sağlar.
+  
+  Platform, kuruluşların ortak bir saklama modeli ve kullanımı kolay bir Lightning Wallet kullanarak bir Bitcoin topluluk bankası kurmalarını sağlar. Bu, Bitcoin Beach'in döngüsel bir ekonomi oluşturmasına yardımcı olan teknolojinin aynısıdır. Bu kanıtlanmış altyapı, hükümetler tarafından cep telefonu ve internet bağlantısı olan herkese 21. yüzyıl finansal hizmetleri sağlamak için de kullanılabilir.
+  
+  Bitcoin'in para olduğu inancıyla kurulan Galoy, her büyüklükteki kuruluşun kendi Bitcoin tabanlı bankasını oluşturmasını sağlar. El Salvador, El Zonte'de sürdürülebilir bir Bitcoin ekonomisinin geliştirilmesinde etkili olan ve ülkenin Bitcoin'i yasal ödeme aracı olarak kabul etmesinden bu yana önemli bir büyüme kaydeden Bitcoin Plajı Wallet projesinin bel kemiğiydi.
+  
+  Galoy, Lightning Network ile entegre olmak isteyen kuruluşlar için bir köprü ve daha iyi bir finansal sistem oluşturmak için çabalayan açık kaynaklı katılımcılar için bir işarettir.

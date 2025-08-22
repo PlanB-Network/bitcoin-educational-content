@@ -1,0 +1,2 @@
+description: |
+  Bir veya daha fazla Lightning düğümünün (LND, Core Lightning, Eclair) kolay yönetimi için açık kaynaklı, web tabanlı Interface. RTL, kanal yönetimi, ödemeler, yedeklemeler ve takaslar dahil olmak üzere çok çeşitli işlevler sunar ve bunların tümü çok sayıda platformda dakikalar içinde dağıtılabilen sezgisel bir Interface'da bulunur.

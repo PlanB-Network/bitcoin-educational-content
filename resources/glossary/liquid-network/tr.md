@@ -1,0 +1,5 @@
+---
+term: Liquid Network
+---
+
+Blockstream tarafından hızlı ve Confidential Transactions sağlamak için geliştirilen bir Bitcoin Sidechain. Bitcoin'in ana Blockchain'sinden farklı olarak Liquid, bir federasyona (genellikle Bitcoin ile ilgili işletmeler olan seçilmiş bir düğüm operatörleri grubu) dayalı bir fikir birliği mekanizması kullanır ve böylece Nakamoto'nun fikir birliği mekanizmasının yerini alır. Bu yaklaşım, daha gelişmiş özellikler sunarken işlemleri önemli ölçüde hızlandırır ve maliyetleri düşürür. Liquid ayrıca diğer kripto para birimlerini temsil eden tokenlar da dahil olmak üzere dijital varlıkların ihraç edilmesine de izin vermektedir. L-BTC olarak bilinen Liquid'daki Bitcoinler, federasyonun bir parçasına dayanan iki yönlü bir peg sistemi aracılığıyla BTC'ye bağlanır. Bu federasyondaki katılımcılara "görevli" adı verilir ve bunlar hem "watchmen" hem de "blok imzalayıcı" olarak hizmet verebilirler

@@ -1,0 +1,5 @@
+---
+term: BETIKSIZ BETIKLER
+---
+
+İlk olarak Andrew Poelstra tarafından geliştirilen bu konsept, Contract'nin mantığını Bitcoin Blockchain üzerinde açıkça göstermeden akıllı sözleşmelerin yürütülmesine olanak tanır. "Senaryosuz senaryolar" adından da anlaşılacağı üzere, bu fikir senaryoları (ya da sözleşmeleri) açıkça senaryo kullanmadan yürütmeye dayanmaktadır. Bu sözleşmeler, özellikle *Atomic Swaps* yapmak için *Adaptor Signatures* kullanımını mümkün kılan Schnorr imzalarının özelliklerini kullanır. Contract koşulları, koşullardan haberdar olan tek taraf olan ilgili taraflarca off-chain olarak uygulanır ve yürütülür. Geleneksel akıllı sözleşmelerin aksine, *Scriptsiz Komut Dosyaları* Blockchain üzerindeki ayak izlerini en aza indirir, böylece işlem maliyetini azaltır. Bu sözleşmeler ayrıca Blockchain üzerinde iz bırakan geleneksel akıllı sözleşmelerden daha gizlidir. Böylece, sıradan işlemlere benzerler ve bu da anonimlik setlerini artırır.

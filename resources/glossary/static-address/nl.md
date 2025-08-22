@@ -1,0 +1,8 @@
+---
+term: STATISCH Address
+---
+
+In de context van Stille Betalingen verwijst dit naar een unieke identificatiecode die de ontvangst van betalingen mogelijk maakt zonder Address hergebruik, zonder interactie en zonder een zichtbare On-Chain link tussen de verschillende betalingen en de statische Address. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te verstrekken voor elke transactie. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te geven voor elke transactie, waardoor de gebruikelijke interacties in Bitcoin, waarbij de ontvanger een nieuwe Address moet geven aan de betaler, vermeden worden. Het is enigszins equivalent aan de herbruikbare betalingscode in de context van BIP47.
+
+
+Deze Address is samengesteld uit twee publieke sleutels: $B_{{scan}}$ voor scannen en $B_{{text{spend}}$ voor uitgeven, samengevoegd tot de statische Address $B = B_{{text{scan}} \‖ } B_{\text{spend}}}$. De ontvanger publiceert deze Address, waardoor verzenders unieke betalingsadressen kunnen afleiden zonder verdere interactie met de ontvanger. Om meerdere verschillende bronnen van betalingen te beheren, kan een label worden toegevoegd aan $B_{\text{spend}}$, waardoor verschillende gelabelde statische adressen van $B_1$, $B_2$, etc. ontstaan. Hierdoor kunnen betalingen worden gescheiden terwijl een enkele Address basis wordt gebruikt, waardoor de werklast voor het scannen van Blockchain wordt verminderd. Alle statische adressen van een entiteit kunnen echter gemakkelijk worden geassocieerd door het gemeenschappelijke gebruik van $B_{{scan}}$.

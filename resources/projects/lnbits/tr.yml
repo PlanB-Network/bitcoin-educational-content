@@ -1,0 +1,10 @@
+description: |
+  LNbits, Uzantıları olan ücretsiz ve açık kaynaklı bir Bitcoin Lightning Hesap Sistemidir. Kendiniz, arkadaşlarınız ve aileniz veya tüm dünya için olsun, kendi Lightning Network hesap sisteminizi çalıştırmanıza olanak tanır. LNbits, LND, c-lightning, Spark, LNpay, OpenNode, lntxbot ve daha fazlası dahil olmak üzere çeşitli Lightning Network finansman kaynaklarını destekler.
+  
+  LNbits ile birden fazla hesap veya cüzdan oluşturabilir ve katkıda bulunanlar tarafından oluşturulan çok çeşitli uzantılara erişebilirsiniz. Bu uzantılar, diğerlerinin yanı sıra musluklar, ödeme bağlantıları, paylaşılabilir satış noktaları, ödeme duvarları, etkinlik biletleri, zar oyunları, sunucu hizmetleri ve hatta paylaşılabilir bir müzik kutusu gibi işlevler eklemenizi sağlar. LNbits, birden fazla düğüme ve finansman kaynağına bağlanabilen basit bir API sağlayarak mevcut yığınınıza entegre edilmesini kolaylaştırır.
+  
+  LNbits'in avantajlarından biri, herhangi bir ek uygulama indirmenize gerek kalmadan anında ve doğrudan tarayıcınızda kullanabilmenizdir. Ön uç için Quasar ve VueJS çerçevelerinden yararlanarak yüksek performanslı ve duyarlı kullanıcı arayüzleri sağlar. Arka uçta LNbits, modern ve yüksek performanslı bir Python API çerçevesi olan FastAPI'yi kullanır.
+  
+  LNbits'i kullanmaya başlamak için GitHub belgelerine, YouTube eğitimlerine ve Awesome LNbits kaynağına göz atabilirsiniz. LNbits topluluğu aktif ve destekleyicidir, kullanıcılara ve geliştiricilere Exchange fikirleri için bir Telegram grubu sunar, yardım sağlar ve bu ücretsiz ve açık kaynaklı yazılımın geliştirilmesine katkıda bulunur.
+  
+  LNbits, Lightning Network hesaplarını yönetmek ve uzantı çerçevesi aracılığıyla çeşitli işlevleri entegre etmek için esnek ve genişletilebilir bir çözüm sunar.

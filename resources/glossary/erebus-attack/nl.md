@@ -1,0 +1,5 @@
+---
+term: EREBUS (AANVAL)
+---
+
+Een zeer geraffineerde vorm van aanval op het Bitcoin netwerk die een kwaadwillende Internet Service Provider in staat stelt om specifieke Bitcoin knooppunten te isoleren. Het is dus een vorm van Erebus aanval. De Erebus aanval buit de structuur van het internetnetwerk uit, in het bijzonder de verplichte doorgangspunten (of "bottlenecks") in de routering tussen Autonome Systemen (AS). Een aanvaller kan, door een autonoom systeem te controleren, netwerkverkeer manipuleren om een Bitcoin knooppunt te isoleren van de rest van het netwerk, waardoor het gaat geloven in een valse toestand van de Blockchain (blokken of transacties die niet bekend zijn bij het knooppunt). Deze isolatie kan leiden tot dubbele uitgaven of censuur tegen het geïsoleerde knooppunt. Deze aanval is veel moeilijker gemaakt sinds de uitgave van Bitcoin core versie 0.20.0 en de introductie van Asmap.

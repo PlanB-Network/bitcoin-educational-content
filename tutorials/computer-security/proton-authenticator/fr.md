@@ -2,7 +2,6 @@
 name: Proton Authenticator
 description: Comment utiliser Proton Authenticator pour sécuriser ses comptes avec la 2FA ?
 ---
-
 ![cover](assets/cover.webp)
 
 L'authentification à deux facteurs (2FA) ajoute une barrière de sécurité supplémentaire à vos comptes en exigeant, en plus de votre mot de passe, une preuve supplémentaire que vous seul possédez. Activer la 2FA réduit drastiquement les risques de piratage, même si votre mot de passe est compromis suite à du phishing ou une fuite de données. Sans 2FA, un attaquant n'a besoin que de votre mot de passe pour accéder à vos comptes ; avec 2FA, il lui faudrait aussi votre deuxième facteur, ce qui déjoue la plupart des tentatives de vol de compte.
@@ -141,7 +140,7 @@ ProtonMail vous demandera de saisir un code à 6 chiffres généré par Proton A
 
 ![PROTON AUTHENTICATOR](assets/fr/14.webp)
 
-*Écran de validation ProtonMail demandant de saisir le code à 6 chiffres (848812)
+*Écran de validation ProtonMail demandant de saisir le code à 6 chiffres (848812)*
 
 Copiez le code depuis l'application (en cliquant dessus) et collez-le dans ProtonMail pour finaliser l'activation.
 

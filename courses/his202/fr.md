@@ -1626,11 +1626,9 @@ Si l'activité économique a été largement dominée par le trafic de drogue su
 
 Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
 
-## La monnaie du vice et du crime : jeu d'argent, arnaques et piratages
+## La monnaie du vice : jeu d'argent et prostitution
 
-Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice (moralement voire légalement réprouvé) et pour le crime.
-
-- TradeHill : [8 juin 2011](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776)–[13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/), relancement en [mars 2013](https://bitcoinmagazine.com/markets/prime-tradehill-comes-back-to-bitcoin-1364507082), fermeture définitive le [30 août 2013](https://bitcoinmagazine.com/business/tradehill-confirms-trading-suspension-1377854467)
+Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice, qui peut être moralement réprouvé, voire légalement interdit.
 
 ### Le poker et le jeu d'argent en ligne
 
@@ -1702,7 +1700,7 @@ En dépit de la levée de bouclier, SatoshiDICE continue son chemin. Au fil des 
 
 C'est ce qui motive Erik Voorhees à aller encore plus loin. À partir du 24 août, il [réalise](https://web.archive.org/web/20121024050433/https://bitcointalk.org/index.php?topic=101902.0) une IPO informelle sur la bourse en ligne de Mircea Popescu, MPEx. Il émet ainsi 100 millions de parts (ayant le sigle boursier S.DICE), et en vend 10 pour recueillir 34 500 bitcoins, soit 371 910 $ au moment de la vente. Ces parts donnent droit à des dividendes issus des revenus du site. Les parts seront aussi [représentées](https://bitcointalk.org/index.php?topic=102181.msg1119046#msg1119046) sur GLBSE. Grâce à ses investisseurs, le site est [refait à neuf](https://bitcointalk.org/index.php?topic=77870.msg1250779#msg1250779) en octobre, et des applications pour Android et PC sont [publiées](https://bitcointalk.org/index.php?topic=124093.msg1333063#msg1333063) en novembre. En février 2013, Erik vendra 3 millions de parts supplémentaires pour 6 100 bitcoins, soit environ 337 827 $ au moment de la vente.
 
-Les profits du jeu en ligne [seront](https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/) énormes. En huit mois, SatoshiDICE gagnera 33 310 bitcoins, ce qui s'élèvera avec la hausse du cours à plus de 500 000 $. En janvier 2013, l'entreprise sera évaluée près de 9 millions de dollars de capitalisation. De même, BitZino réalisera un profit de l'ordre de 10 000 bitcoins. Le profit de Seals with Clubs sera lui estimé à 600 bitcoins par mois en moyenne.
+Les profits du jeu en ligne [seront](https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/) énormes. En huit mois, SatoshiDICE gagnera 33 310 bitcoins, ce qui s'élèvera avec la hausse du cours à plus de 500 000 $. En janvier 2013, l'entreprise sera évaluée à près de 9 millions de dollars de capitalisation. De même, BitZino réalisera un profit de l'ordre de 10 000 bitcoins. Le profit de Seals with Clubs sera lui estimé à 600 bitcoins par mois en moyenne.
 
 ### La prostitution
 
@@ -1716,13 +1714,15 @@ Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/cultu
 
 [8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
 
-### Le piratage de Linode
+"Porn, gambling, and malware", 8 juin 2012 : https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/
 
-En 2012, un certain nombre de piratage et de fermetures scandaleuses ont lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") est créée sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recense les évènements majeurs qui interviennent. La liste deviendra si grande qu'une nouvelle version à jour sera [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
+## La monnaie du crime : arnaques et piratages
+
+En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été créée sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
 
 [26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
-**TradeHill** Fermeture le [13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/)
+### Le piratage de Linode
 
 **Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush (3 000 BTC) et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
 
@@ -1769,14 +1769,6 @@ https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Busine
 4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
 
 19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
-
-### Misc
-
-"Porn, gambling, and malware", 8 juin 2012 : https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/
-
-Bitcoin botnet mining, [17 06 2011](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)
-
-Rançongiciels, CryptoLocker, 5 septembre 2013–mai 2014
 
 ### Le déclin du Far West
 

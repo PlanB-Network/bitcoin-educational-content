@@ -82,6 +82,8 @@ Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des
 
 047
 
+*S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
+
 Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open-source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
@@ -384,9 +386,15 @@ En résumé, le suivi de votre wallet fonctionne sans problème sur un nœud él
 
 Un nœud SPV (*Simplified Payment Verification*), ou nœud léger, ne conserve que les en-têtes de blocs, pas le détail des transactions, et s’appuie sur d'autres nœuds complets pour obtenir la preuve qu’une transaction figure dans un bloc (preuves de Merkle via les arbres) dont il dispose de l'en-tête. Cette idée de la vérification de paiement simplifiée est très ancienne, puisqu’elle a été formulée par Satoshi Nakamoto lui-même dans la partie 8 du White Paper.
 
+066
+
+*S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
+
 Ce type de nœud est évidemment beaucoup plus léger en stockage et en CPU qu'un nœud complet ou même qu'un nœud élagué. Le nœud SPV est donc adapté aux appareils modestes et aux connexions intermittentes. Il est d'ailleurs souvent intégré directement dans des logiciels de gestion de portefeuille, notamment mobiles, comme par exemple Blockstream App.
 
 Le compromis est la confiance et la confidentialité : un client SPV ne vérifie pas lui-même les scripts ni les politiques de validation ; il suppose que la chaîne avec le plus de travail est valide, et il dépend d’un ou plusieurs nœuds complets pour les réponses. L’utilisation de ce type de nœud est donc une meilleure option que de se connecter à un nœud tiers, mais elle reste moins avantageuse que de disposer d’un nœud complet, voire même d’un nœud élagué.
+
+065
 
 ### Quel nœud pour quel besoin ?
 
@@ -459,6 +467,8 @@ Voici maintenant un tour d’horizon des principales solutions de node-in-a-box 
 
 [Umbrel est aujourd’hui le leader des solutions de node-in-a-box](https://umbrel.com/). Son succès repose en grande partie sur la simplicité de son installation (à son lancement sur un simple Raspberry Pi), sur une interface élégante et intuitive, ainsi que sur un écosystème d’applications qui s’est rapidement développé et est désormais extrêmement vaste.
 
+067
+
 Lancé en 2020 comme un simple nœud Bitcoin accompagné de quelques applications annexes, Umbrel a progressivement évolué pour devenir un véritable home cloud moderne et complet.
 
 Je ne détaillerai pas davantage ici son fonctionnement et ses spécificités, car nous les examinerons plus en profondeur dans le premier chapitre de la prochaine partie. En effet, pour les besoins de ce cours BTC 202, j’ai choisi d’utiliser UmbrelOS, qui constitue selon moi la meilleure solution actuelle de node-in-a-box pour les utilisateurs débutants et intermédiaires.
@@ -471,6 +481,8 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 Du côté de Bitcoin, StartOS permet d’installer un nœud complet, un nœud Lightning, BTCPay Server, Electrs et de nombreux autres services. Mais l’intérêt de Start9 dépasse cela : il offre la possibilité de découvrir, configurer et exposer divers logiciels (cloud de fichiers, messagerie, monitoring...) de manière unifiée, avec un contrôle total. Le projet vise donc les utilisateurs souhaitant une plateforme robuste de self-hosting, et non pas uniquement un simple nœud Bitcoin. C’est probablement l’écosystème le plus complet après celui d’Umbrel.
 
+068
+
 La principale différence avec Umbrel réside dans l’interface. Umbrel mise sur une UX très soignée, tandis que Start9 propose une interface plus brute et fonctionnelle. L’écosystème applicatif de Start9 est moins riche que celui d’Umbrel, mais il compense par certains atouts techniques : l’accès aux paramètres avancés des applications est simplifié, là où Umbrel devient vite contraignant si l’option recherchée n’est pas prévue par l’interface. Start9 excelle également dans la gestion des sauvegardes : hormis la solution efficace d’Umbrel pour LND, il n’existe pas de mécanisme unifié, contrairement à Start9. De plus, il propose des outils de monitoring plus accessibles et une connexion à distance chiffrée (`https`), tandis que l’accès local à Umbrel se fait en `http`.
 
 En résumé, si vous avez simplement besoin des applications essentielles pour Bitcoin, sans intérêt particulier pour l’écosystème très riche d’Umbrel, et que l’interface utilisateur n’est pas une priorité, alors Start9 constitue une meilleure option. Dans le cas contraire, préférez Umbrel.
@@ -480,6 +492,8 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 ### MyNode
 
 [MyNode est une distribution centrée exclusivement sur Bitcoin et Lightning](https://mynodebtc.com/), qui propose une interface Web, une marketplace d’applications et des mises à jour en un clic. Vous pouvez soit acheter du matériel prêt à l’emploi (*Model Two* disponible à 549 $), soit installer gratuitement MyNode sur votre propre machine. Le projet offre également une version *Premium* du logiciel (94 $) qui inclut un support prioritaire et des fonctionnalités avancées.
+
+069
 
 En pratique, MyNode réunit toutes les briques de base nécessaires pour exploiter un nœud complet ainsi que les applications essentielles à l’utilisateur de Bitcoin. C’est donc une solution pertinente si vous n’avez pas besoin d’applications externes à l’écosystème Bitcoin, comme par exemple des apps de self-hosting, que l’on retrouve dans les systèmes Start9 et Umbrel.
 

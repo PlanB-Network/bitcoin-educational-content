@@ -1079,12 +1079,12 @@ Prerequisites :
 |Mode|Name|Principle|
 |---|---|---|
 |0|balance-rr|Round-robin, cyclic distribution of frames|
-|1|active-backup|Only one interface active at a time, with failover|
-|2|balance-xor|Select via XOR MAC src/dst|
-|3|broadcast|Simultaneous broadcast over all interfaces|
-|4|802.3ad (LACP)|Standards-based dynamic aggregation, requires a compatible switch|
-|5|tlb (Transmit Load Balancing)|Distribution based on transmit load|
-|6|alb (Adaptive Load Balancing)|Adaptive distribution, also balances reception via ARP|
+|1|active-backup|Single active interface with hot failover |
+|2|balance-xor|Selection based on XOR of src/dst MAC addresses|
+|3|broadcast|Broadcast simultaneously on all interfaces   |
+|4|802.3ad (LACP)|Standardized dynamic aggregation; requires compatible switch|
+|5|tlb (Transmit Load Balancing)|Balancing based on transmit load|
+|6|alb (Adaptive Load Balancing)|Adaptive balancing; also balances receive via ARP|
 
 #### Setting up with `ip link
 

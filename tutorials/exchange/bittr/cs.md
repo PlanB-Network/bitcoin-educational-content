@@ -1,6 +1,6 @@
 ---
-name: Jak si koupit Bitcoin do vlastního Wallet pomocí Bittr
-description: Jednoduchý průvodce krok za krokem pro nákupy Bitcoin ve vlastní péči
+name: Bittr
+description: Jak si koupit Bitcoin do vlastního Wallet pomocí Bittr
 ---
 
 ![cover](assets/cover.webp)

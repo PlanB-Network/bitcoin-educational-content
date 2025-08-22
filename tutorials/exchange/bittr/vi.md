@@ -1,6 +1,6 @@
 ---
-name: Cách mua Bitcoin vào Wallet của riêng bạn bằng Bittr
-description: Hướng dẫn từng bước đơn giản để tự mua Bitcoin
+name: Bittr
+description: Cách mua Bitcoin vào Wallet của riêng bạn bằng Bittr
 ---
 
 ![cover](assets/cover.webp)

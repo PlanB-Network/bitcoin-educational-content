@@ -1,6 +1,6 @@
 ---
-name: Como comprar Bitcoin para o seu próprio Wallet com Bittr
-description: Um guia simples passo-a-passo para a compra de Bitcoin em regime de guarda pessoal
+name: Bittr
+description: Como comprar Bitcoin para o seu próprio Wallet com Bittr
 ---
 
 ![cover](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
-name: Как купить Bitcoin в свой собственный Wallet с помощью Bittr
-description: Простое пошаговое руководство по самостоятельному приобретению Bitcoin
+name: Bittr
+description: Как купить Bitcoin в свой собственный Wallet с помощью Bittr
 ---
 
 ![cover](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
-name: Come acquistare il Bitcoin per trasformarlo nel proprio Wallet con Bittr
-description: Una semplice guida passo-passo per l'acquisto di Bitcoin in autocustodia
+name: Bittr
+description: Come acquistare il Bitcoin per trasformarlo nel proprio Wallet con Bittr
 ---
 
 ![cover](assets/cover.webp)

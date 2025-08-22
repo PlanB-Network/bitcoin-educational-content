@@ -1362,7 +1362,7 @@ Enfin, l'utilisation d'une passphrase est intéressante lorsque l’on souhaite 
 
 Pour que la passphrase soit efficace, elle doit être suffisamment longue et aléatoire. Comme pour un mot de passe fort, je vous recommande de choisir une passphrase la plus longue et aléatoire possible, avec une diversité de lettres, de chiffres et de symboles pour rendre toute attaque par brute force impossible.
 
-Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente irraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
+Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente déraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
 
 ![CYP201](assets/fr/042.webp)
 
@@ -1465,11 +1465,11 @@ La clé étendue se compose de deux parties :
 
 ### Fonctionnement des clés étendues
 
-Lorsque la clé étendue contient une clé privée, on dit que c'est une clé privée étendue. Elle se reconnait par son préfixe qui contient la mention `prv`. En plus de la clé privée, la clé privée étendue contient donc également le code chaîne associé à la clé. Avec ce type de clé étendue, il est possible de dériver tous les types de clés privées enfants, et donc par addition et doublement de points sur les courbes elliptiques, elle permet également de dériver l’intégralité des clés publiques enfants.
+Lorsque la clé étendue contient une clé privée, on dit que c'est une clé privée étendue. Elle se reconnait par son préfixe qui contient la mention `prv`. En plus de la clé privée, la clé privée étendue contient donc également le code chaîne associé à la clé. Avec ce type de clé étendue, il est possible de dériver tous les types de clés privées enfants. Ainsi, par addition et doublement de points sur les courbes elliptiques, la clé privé étendue permet également de dériver l’intégralité des clés publiques enfants.
 
 Lorsque la clé étendue ne contient pas une clé privée, mais à la place, une clé publique, on dit que c'est une clé publique étendue. Elle se reconnait par son préfixe qui contient la mention `pub`. Évidemment, en plus de la clé, elle contient également le code de chaîne associé. Contrairement à la clé privée étendue, la clé publique étendue permet de dériver uniquement les clés publiques enfants dites "normales" (c'est-à-dire qu'elle ne peut pas dériver les clés enfants "endurcies"). Nous verrons dans le chapitre suivant ce que signifient ces qualificatifs "normale" et "endurcie".
 
-Mais dans tous les cas, la clé publique étendue ne permet pas de dériver des clés privées enfants. Par conséquent, même si une personne a accès à une `xpub`, elle ne pourra pas dépenser les fonds associés, car elle n’aura pas accès aux clés privées correspondantes. Elle pourra seulement dériver les clés publiques enfant pour observer les transactions associées.
+Mais dans tous les cas, la clé publique étendue ne permet pas de dériver des clés privées enfants. Par conséquent, même si une personne a accès à une `xpub` (nous définirons plus tard à quoi correspond le `x`), elle ne pourra pas dépenser les fonds associés, car elle n’aura pas accès aux clés privées correspondantes. Elle pourra seulement dériver les clés publiques enfant pour observer les transactions associées.
 
 Pour la suite, nous adopterons la notation suivante :
 
@@ -1619,7 +1619,7 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non endurcie.
+Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non une clé endurcie.
 
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
 
@@ -1631,7 +1631,7 @@ $$
 h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
-La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme cela :
+La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme ceci :
 
 $$
 k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
@@ -1689,7 +1689,7 @@ On peut donc constater que la dérivation normale et la dérivation endurcie fon
 
 #### Dérivation d'une clé publique enfant à partir d’une clé publique parent
 
-Si l'on n'a connaissance que de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (_watch-only_).
+Si l'on a uniquement connaissance de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (_watch-only_).
 
 Pour réaliser ce calcul, on va calculer le $\text{hash}$ avec un index $i < 2^{31}$ (dérivation normale) :
 
@@ -1837,7 +1837,7 @@ Dans cet exemple :
 - $84'$ indique le standard P2WPKH (SegWit v0) ;
 - $0'$ indique la devise Bitcoin sur le mainnet ;
 - $1'$ correspond au deuxième compte dans le portefeuille ;
-- $0$ désigne que l'adresse est sur la chaîne externe ;
+- $0$ indique que l'adresse est sur la chaîne externe ;
 - $7$ désigne la 8ème adresse externe de ce compte.
 
 ### Résumé de la structure de dérivation
@@ -1861,13 +1861,13 @@ Dans le prochain chapitre, nous allons découvrir ce que sont les "_output scrip
 
 On vous dit souvent que la phrase mnémonique seule suffit pour récupérer l’accès à un portefeuille. En réalité, les choses sont un peu plus complexes. Dans le chapitre précédent, nous avons vu la structure de dérivation du portefeuille HD, et vous avez peut-être constaté que ce processus est assez complexe. Les chemins de dérivation indiquent à un logiciel la direction à suivre pour dériver les clés de l’utilisateur. Cependant, lors de la récupération d’un portefeuille Bitcoin, si l’on ne connaît pas ces chemins, la phrase mnémonique seule ne suffit pas. Elle permet d’obtenir la clé maîtresse et le code de chaîne maître, mais il est ensuite nécessaire de connaître les index utilisés pour atteindre les clés enfant.
 
-Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant un à un chaque standard, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _output script descriptors_.
+Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant chaque standard un par un, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _output script descriptors_.
 
 ### C'est quoi un "descriptor" ?
 
 Les "_output script descriptors_", ou simplement "_descriptors_", sont des expressions structurées qui décrivent intégralement un script de sortie (_scriptPubKey_) et fournissent toutes les informations nécessaires pour suivre les transactions associées à un script particulier. Ils facilitent la gestion des clés dans les portefeuilles HD en offrant une description standardisée et complète de la structure du portefeuille et des types d’adresses utilisés.
 
-L’avantage principal des descriptors réside dans leur capacité à encapsuler toutes les informations essentielles pour restaurer un portefeuille dans une seule chaîne de caractères (en complément de la phrase de récupération). En sauvegardant un descriptor avec les phrases mnémoniques associées, il devient possible de restaurer les clés privées en connaissant précisément leur position dans la hiérarchie. Pour les portefeuilles multisig, dont la sauvegarde était initialement plus complexe, le descriptor inclut les `xpub` de chaque facteur, ce qui garantit ainsi la possibilité de régénérer les adresses en cas de problème.
+L’avantage principal des descriptors réside dans leur capacité à encapsuler toutes les informations essentielles pour restaurer un portefeuille dans une seule chaîne de caractères (en complément de la phrase de récupération). En sauvegardant un descriptor avec les phrases mnémoniques associées, il devient possible de restaurer les clés privées en connaissant précisément leur position dans la hiérarchie. Pour les portefeuilles multisig, dont la sauvegarde était initialement plus complexe, le descriptor inclut les `xpub` de chaque facteur, ce qui garantit ainsi la possibilité de regénérer les adresses en cas de problème.
 
 ### Construction d'un descriptor
 
@@ -1901,7 +1901,7 @@ La notation `/<0;1>/*` indique que le descripteur peut produire des adresses iss
 
 Enfin, `#jy0l7nr4` représente la somme de contrôle pour vérifier l'intégrité du descriptor.
 
-Vous savez désormais tout sur le fonctionnement du portefeuille HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet du prochain chapitre !
+Vous savez désormais tout sur le fonctionnement des portefeuilles HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet du prochain chapitre !
 
 ## Les adresses de réception
 
@@ -1987,7 +1987,7 @@ Donc pour résumer, ce script permet de vérifier, à l’aide de la signature n
 
 ### Les différents types d'adresses Bitcoin
 
-Au fil de l’évolution de Bitcoin, plusieurs modèles de script standards ont été ajoutés. Chacun d’entre eux utilise un type d’adresse de réception distinct. Voici un aperçu des principaux modèles de script disponibles à ce jour :
+Au cours de l’évolution de Bitcoin, plusieurs modèles de script standards ont été ajoutés. Chacun d’entre eux utilise un type d’adresse de réception distinct. Voici un aperçu des principaux modèles de script disponibles à ce jour :
 
 **P2PK (_Pay-to-PubKey_)** :
 
@@ -2153,7 +2153,7 @@ Une fois le hash encodé en groupes de 5 bits, on ajoute une somme de contrôle 
 
 Pour les anciennes adresses Bitcoin _Legacy_, la somme de contrôle était simplement calculée à partir du début du hash de l'adresse avec la fonction HASH256. Avec l’introduction de SegWit et du format _bech32_, on utilise désormais des codes BCH (_Bose, Ray-Chaudhuri, et Hocquenghem_). Ces codes de correction d’erreurs sont utilisés pour détecter et corriger les erreurs dans des séquences de données. Ils garantissent que les informations transmises arrivent intactes à destination, même en cas d’altérations mineures. Les codes BCH sont utilisés dans de nombreux domaines, tels que les SSD, les DVD et les QR codes. Par exemple, grâce à ces codes BCH, un QR code partiellement masqué peut encore être lu et décodé.
 
-Dans le contexte de Bitcoin, les codes BCH offrent un meilleur compromis entre la taille et la capacité de détection d’erreurs par rapport aux simples fonctions de hachage utilisées pour les adresses _Legacy_. Cependant, sur Bitcoin, les codes BCH sont utilisés uniquement pour détecter les erreurs, et non pour les corriger. Ainsi, un logiciel de portefeuille signalera une adresse de réception incorrecte, mais ne la corrigera pas automatiquement. Cette limitation est délibérée : permettre la correction automatique réduirait la capacité de détection d’erreurs.
+Dans le contexte de Bitcoin, les codes BCH offrent un meilleur compromis entre la taille et la capacité de détection d’erreurs par rapport aux simples fonctions de hachage utilisées pour les adresses _Legacy_. Cependant, sur Bitcoin, les codes BCH sont utilisés uniquement pour détecter les erreurs, et non pour les corriger. Ainsi, un logiciel de portefeuille signalera une adresse de réception incorrecte, mais ne la corrigera pas automatiquement. Cette limitation est faite délibérément, car permettre la correction automatique réduirait la capacité de détection d’erreurs.
 
 Pour calculer la somme de contrôle avec les codes BCH, nous devons préparer plusieurs éléments :
 

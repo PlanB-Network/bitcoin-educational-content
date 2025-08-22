@@ -185,6 +185,8 @@ Une implémentation est donc un logiciel de nœud : un programme capable de s’
 
 Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
 
+055
+
 ### Une implémentation historique devenue référence
 
 Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009, et en constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
@@ -193,27 +195,33 @@ Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulem
 
 ### Répartition actuelle des implémentations
 
-Selon [les données collectées en juillet 2025 par Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (développeur bien connu dans l’écosystème), la répartition des implémentations parmi les nœuds publics du réseau est la suivante :
-- **Bitcoin Core** : 89 % des nœuds
-- **Bitcoin Knots** : 10,5 %
-- **Autres implémentations cumulées** : 0,5 % (btcsuite, Bcoin, BTCD...)
+Selon [les données collectées en août 2025 par Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (développeur bien connu dans l’écosystème), la répartition des implémentations parmi les nœuds publics du réseau est la suivante :
+- **Bitcoin Core** : 87,3 % des nœuds
+- **Bitcoin Knots** : 12,5 %
+- **Autres implémentations cumulées** : 0,2 % (btcsuite, Bcoin, BTCD...)
 
-Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le reste du réseau repose sur des clients plus marginaux (bien que la part de Knots ait fortement progressé ces derniers mois, notamment à la suite des débats concernant la limite de taille des OP_RETURN). Ils sont souvent maintenus par une seule personne ou une petite équipe.
+056
+
+Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le reste du réseau repose sur des clients plus marginaux (bien que la part de Knots ait fortement progressé ces derniers mois, notamment à la suite des débats concernant la limite de taille des `OP_RETURN`). Ces implémentations alternatives sont souvent maintenues par une seule personne ou une petite équipe.
 
 **Note :** Ces chiffres demeurent néanmoins des estimations, car ils se fondent avant tout sur les *listening nodes*, c’est-à-dire les nœuds acceptant les connexions entrantes (avec le port 8333 ouvert). Les *non-listening nodes* sont beaucoup plus complexes à recenser, puisqu’il est impossible de s’y connecter directement : il faut attendre que l’initiative vienne d’eux, sous forme de connexion sortante. Le site de Luke Dashjr affirme tenter de comptabiliser également ces *non-listening nodes*, mais il demeure impossible d’obtenir des données parfaitement exactes à leur sujet, et la mise à jour de ces statistiques accuse forcément un certain retard par rapport à la réalité.
 
 ### Fonctionnement interne de Bitcoin Core
 
-Bitcoin Core est un logiciel monolithique (tous les composants sont regroupés en un seul bloc indivisible) écrit en C++. C'est également un projet open-source sans véritable hiérarchie formelle. Il est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
+Bitcoin Core est un logiciel écrit en C++. C'est également un projet open-source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
 - Les **contributeurs** soumettent des propositions sous forme de _pull requests_ (PR). En principe, n'importe qui peut proposer une modification, mais celle-ci doit être testée, documentée et passer par un processus de relecture par les pairs ;
 - Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
 - Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
+
+057
 
 Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique, et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
 
 ### Les autres implémentations de Bitcoin
 
 Bien que marginales en termes d’adoption, d’autres clients existent. Le principal est Bitcoin Knots, développé par Luke Dashjr. Il s’agit d’un fork de Bitcoin Core qui intègre des options supplémentaires et une vision plus conservatrice du développement. Il propose notamment des restrictions renforcées en matière de format de transaction.
+
+058
 
 On peut aussi mentionner :
 - **Libbitcoin** : une bibliothèque C++ modulaire développée par Amir Taaki et maintenue par Eric Voskuil ;
@@ -248,6 +256,8 @@ Lorsqu’un logiciel de portefeuille se connecte à un nœud externe, il transme
 
 En effet, comme souligné dans un chapitre précédent, les portefeuilles ne communiquent pas avec le réseau Bitcoin par magie : ils doivent obligatoirement se connecter à un nœud pour consulter le solde ou diffuser des transactions. Si vous n’avez jamais configuré votre propre nœud, cela signifie que votre portefeuille dépend de l’infrastructure d’un tiers (le plus souvent celle de l’entreprise à l’origine du logiciel). Or, ce tiers, surtout s’il s’agit d’une entreprise, peut observer, exploiter ou même divulguer ces données : que ce soit dans une logique commerciale, sous contrainte légale, ou à la suite d’un piratage.
 
+059
+
 En faisant utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -261,6 +271,8 @@ Pour les mêmes raisons que précédemment évoquées, un logiciel de portefeuil
 ### Vérification indépendante des données
 
 Sans nœud personnel, vous demeurez tributaire d’un tiers pour accéder aux informations : solde de vos adresses, état de confirmation d’une transaction, validité d’un bloc… Cela implique une confiance implicite dans l’exactitude et l’intégrité du nœud externe.
+
+060
 
 Faire fonctionner un nœud complet permet de vérifier soi-même l’ensemble des règles du protocole, pour chaque transaction et chaque bloc. Ainsi, le solde affiché par votre portefeuille n’est pas une donnée reçue d’un serveur distant, mais un résultat calculé localement à partir d’une copie complète de la blockchain, validée bloc après bloc. Cette démarche donne tout son sens à la maxime des bitcoiners :
 

@@ -70,7 +70,7 @@ Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les
 
 ### Définition et principe du hachage
 
-Le hachage est un procédé qui permet de transformer une information de longueur arbitraire en une autre information de longueur fixe par le biais d'une fonction de hachage cryptographique. Autrement dit, une fonction de hachage prend en entrée de taille quelconque et la convertit en une empreinte de taille fixe, appelée "hash".
+Le hachage est un procédé qui permet de transformer une information de longueur arbitraire en une autre information de longueur fixe par le biais d'une fonction de hachage cryptographique. Autrement dit, une fonction de hachage prend une entrée de taille quelconque et la convertit en une empreinte de taille fixe, appelée "hash".
 
 Le hash peut également parfois être désigné par les termes "digest", "condensat", "condensé" ou "haché".
 

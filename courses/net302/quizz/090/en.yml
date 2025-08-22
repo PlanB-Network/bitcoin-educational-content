@@ -5,5 +5,5 @@ wrong_answers:
   - To display open ports
   - To specify a DNS server
 explanation: |
-  The -u option in lsof allows you to limit output to files opened by a given user or a specific UID.
+  The -u option in lsof restricts the output to files opened by a specific user or UID.
 reviewed: false

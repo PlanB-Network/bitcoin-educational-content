@@ -5,5 +5,5 @@ wrong_answers:
   - RFC
   - Google
 explanation: |
-  The Internet Assigned Numbers Authority (IANA) manages the allocation of IP protocol version numbers and the distribution of protocol ranges.
+  The Internet Assigned Numbers Authority (IANA) manages the assignment of IP protocol version numbers and the allocation of protocol ranges.
 reviewed: false

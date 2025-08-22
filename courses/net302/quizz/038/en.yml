@@ -5,5 +5,5 @@ wrong_answers:
   - /16
   - /24
 explanation: |
-  IANA divides the IPv4 space into blocks of size /8, i.e. 2^24 addresses per block.
+  IANA divides the IPv4 space into blocks of size /8, each containing 2^24 addresses.
 reviewed: false

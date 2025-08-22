@@ -1,4 +1,4 @@
-question: Which command can be used to observe the path taken by packets to an IP destination?
+question: Which command shows the path taken by packets to reach an IP destination?
 answer: traceroute
 wrong_answers:
   - ss

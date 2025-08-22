@@ -5,5 +5,5 @@ wrong_answers:
   - ONBOOT=dhcp
   - GATEWAY=dhcp
 explanation: |
-  The "BOOTPROTO=dhcp" parameter specifies that the Interface should retrieve its configuration via the DHCP protocol.
+  The "BOOTPROTO=dhcp" parameter specifies that the interface should obtain its configuration via the DHCP protocol.
 reviewed: false

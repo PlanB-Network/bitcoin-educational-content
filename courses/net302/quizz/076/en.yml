@@ -5,5 +5,5 @@ wrong_answers:
   - RFC 4861
   - RFC 1035
 explanation: |
-  RFC 6724 defines the algorithm for choosing which IP address (IPv4 or IPv6) to use when both are available for the same host name.
+  RFC 6724 defines the algorithm used to decide whether to use the IPv4 or IPv6 address  when both are available for the same host name.
 reviewed: false

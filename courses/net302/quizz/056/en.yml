@@ -1,9 +1,9 @@
-question: What is the main objective of network bonding?
+question: What is the main purpose of network bonding?
 answer: Aggregate multiple physical network interfaces
 wrong_answers:
   - Add virtual IP addresses to the local network
   - Creating a Wi-Fi bridge
-  - Reducing packet size on RJ45 cable
+  - Reduce packet size on RJ45 cable
 explanation: |
-  Bonding allows multiple physical interfaces to be used as a single logical interface, to guarantee redundancy or increase bandwidth.
+  Network bonding combines multiple physical interfaces into a single logical one, providing redundancy or increased bandwidth.
 reviewed: false

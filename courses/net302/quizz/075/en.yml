@@ -5,5 +5,5 @@ wrong_answers:
   - MX
   - SOA
 explanation: |
-  PTR (Pointer Record) enables reverse resolution, i.e. associating an IPv6 address with a domain name.
+  PTR (Pointer Record) enables reverse resolution, meaning it links an IPv6 address to a domain name.
 reviewed: false

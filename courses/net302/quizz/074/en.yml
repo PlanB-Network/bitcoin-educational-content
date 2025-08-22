@@ -5,5 +5,5 @@ wrong_answers:
   - RIPE NCC
   - ARIN
 explanation: |
-  IANA sits at the top of the allocation hierarchy, delegating IPv6 blocks to the five regional registries (RIRs).
+  IANA sits at the top of the allocation hierarchy, delegating IPv6 blocks to the five Regional Internet Registries (RIRs).
 reviewed: false

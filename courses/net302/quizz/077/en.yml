@@ -1,9 +1,9 @@
-question: Which resolution method requires inverting each hexadecimal digit of the IPv6 address for the inverse zone?
+question: Which resolution method requires reversing each hexadecimal digit of the IPv6 address for the reverse zone?
 answer: Reverse resolution
 wrong_answers:
   - Opposite resolution
   - Primary resolution
   - Secondary resolution
 explanation: |
-  For reverse resolution, each nibble of the full IPv6 address is inverted and separated by dots before being suffixed with ip6.arpa.
+  For reverse resolution, each nibble of the full IPv6 address is reversed and separated by dots before being suffixed with ip6.arpa.
 reviewed: false

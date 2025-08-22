@@ -1,9 +1,9 @@
-question: What must be added to NAT to really secure a network?
+question: What must be added to NAT to properly secure a network?
 answer: A firewall
 wrong_answers:
   - A local DNS server
-  - HTTP proxy
+  - An HTTP proxy
   - An antivirus
 explanation: |
-  NAT alone is not enough to filter out malicious flows: it must be complemented by firewall rules for fine-grained traffic control.
+  NAT alone is not sufficient to filter malicious traffic: it must be complemented by firewall rules for fine-grained traffic control.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Which modern protocol offers network resource management functionality comparable to that sought by IPv5?
+question: Which modern protocol provides functionality similar to what IPv5 aimed for in network quality of service management?
 answer: RSVP
 wrong_answers:
   - HTTP
   - ARP
   - FTP
 explanation: |
-  The Resource Reservation Protocol (RSVP) enables dynamic reservation of network resources, similar to IPv5's QoS objective.
+  The RSVP (Resource Reservation Protocol) allows dynamic reservation of network resources to guarantee Quality of Service (QoS), which was the original goal of IPv5.
 reviewed: false

@@ -1,4 +1,4 @@
-question: Where do you usually configure DNS servers on a Linux system?
+question: Where are DNS servers usually configured on a Linux system?
 answer: /etc/resolv.conf
 wrong_answers:
   - /etc/hostname

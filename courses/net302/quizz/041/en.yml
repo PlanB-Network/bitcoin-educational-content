@@ -5,5 +5,5 @@ wrong_answers:
   - /etc/network
   - /etc/resolve
 explanation: |
-  Before DNS became widespread, name resolution was based on the static /etc/hosts file on Unix/Linux systems.
+  Before DNS became widespread, name resolution relied on the static /etc/hosts file on Unix/Linux systems.
 reviewed: false

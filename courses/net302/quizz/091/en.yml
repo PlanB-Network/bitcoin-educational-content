@@ -1,4 +1,4 @@
-question: Which command scans a host's open ports and identifies accessible services?
+question: Which command is used to scan a host's open ports and identify accessible services?
 answer: nmap
 wrong_answers:
   - dig

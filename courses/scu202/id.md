@@ -12,7 +12,7 @@ objectives:
 
 
 ---
-# Selangkah lebih dekat menuju kemandirian digital
+# Selangkah lebih dekat menuju kedaulatan digital
 
 Di dunia di mana perangkat digital ada di mana-mana tetapi jarang dikuasai, mempelajari cara mengamankan lingkungan TI (teknologi informasi) Anda sendiri adalah suatu keharusan. Baik itu komputer, browser, ponsel, atau jaringan lokal Anda, setiap elemen ini dapat menjadi pintu gerbang potensial bagi privasi Anda. Kursus ini membantu Anda mendapatkan kembali kendali atas perangkat digital Anda.
 
@@ -4708,122 +4708,79 @@ Terakhir, sesuaikan daya pancar titik akses Wi-Fi Anda. Secara default, banyak r
 
 ### Segmentasi jaringan
 
+Salah satu strategi paling efektif untuk memperkuat keamanan jaringan rumah adalah segmentasi. Ini melibatkan pembagian jaringan lokal menjadi beberapa sub-jaringan independen yang disebut "VLAN" (*Virtual Local Area Networks*). VLANs ini memungkinkan untuk mengisolasi berbagai jenis perangkat atau penggunaan, bahkan jika mereka menggunakan perangkat keras fisik yang sama (router, kabel, terminal Wi-Fi, dll.).
 
-Salah satu strategi yang paling efektif untuk memperkuat keamanan jaringan rumah adalah segmentasi. Hal ini melibatkan pembagian jaringan lokal menjadi beberapa sub-jaringan independen yang disebut "VLAN" (*Virtual Local Area Networks*). VLAN ini memungkinkan untuk mengisolasi berbagai jenis perangkat atau penggunaan, meskipun mereka menggunakan perangkat keras fisik yang sama (router, kabel, terminal Wi-Fi, dll.).
-
-
-Setiap VLAN berfungsi sebagai jaringan kecil yang otonom dengan aturan komunikasinya sendiri. Pertukaran antar VLAN diblokir secara default atau dikontrol secara ketat. Hal ini mencegah, misalnya, TV yang tersambung yang disusupi agar tidak dapat menjangkau komputer pribadi atau NAS Anda. Pendekatan ini didasarkan pada 2 prinsip dasar keamanan siber yang telah kita pelajari di bab-bab sebelumnya: Kompartementalisasi dan hak istimewa yang paling sedikit.
-
+Setiap VLAN berfungsi sebagai jaringan kecil yang otonom dengan aturan komunikasinya sendiri. Pertukaran antar VLANs diblokir secara standar atau dikontrol secara ketat. Hal ini mencegah, misalnya, TV terhubung yang disusupi untuk menjangkau komputer pribadi atau NAS Anda. Pendekatan ini didasarkan pada 2 prinsip fundamental dari keamanan siber yang telah kita pelajari di bab-bab sebelumnya: Pengelompokkan dan hak istimewa terkecil (least privilege).
 
 ![Image](assets/fr/197.webp)
 
+Secara nyata, berikut adalah beberapa contoh segmentasi yang dapat Anda lakukan:
 
-Secara konkret, berikut adalah beberapa contoh segmentasi yang bisa Anda lakukan:
+- VLAN pribadi: Untuk perangkat tepercaya Anda seperti komputer, smartphone, atau server pribadi. Ini adalah segmen utama tempat data sensitif Anda beredar.
 
+- VLAN IoT: Untuk objek terhubung (lmapu, speaker, kamera, smart TV, dll.). Perangkat-perangkat ini sering kali tidak aman, kurang diperbarui, dan sering menjadi target serangan. Mengisolasinya secara ketat mengurangi risiko penyerang menggunakannya sebagai titik masuk ke jaringan Anda.
 
+- VLAN tamu: Dicadangkan untuk teman atau keluarga Anda saat mereka datang untuk tinggal bersama Anda. Ini memberikan akses ke Internet, tetapi tidak ada akses ke peralatan pribadi Anda.
 
-- VLAN pribadi: Untuk perangkat tepercaya Anda seperti komputer, smartphone, atau server pribadi. Ini adalah segmen utama di mana data sensitif Anda beredar.
-
-
-
-- VLAN IoT: Untuk benda-benda yang terhubung (bola lampu, speaker, kamera, TV pintar, dll.). Perangkat-perangkat ini sering kali tidak aman, kurang mutakhir, dan sering kali menjadi target serangan. Mengisolasi mereka akan sangat mengurangi risiko penyerang yang menggunakannya sebagai titik masuk ke jaringan Anda.
-
-
-
-- VLAN tamu: Diperuntukkan bagi teman atau keluarga Anda ketika mereka datang untuk menginap bersama Anda. VLAN ini memberikan akses ke Internet, tetapi tidak ada akses ke peralatan pribadi Anda.
-
-
-Terakhir, pendekatan ini juga menawarkan keuntungan dalam hal kinerja dan manajemen: Ini memungkinkan Anda untuk memprioritaskan jenis lalu lintas tertentu, menerapkan aturan keamanan tertentu tergantung pada VLAN (firewall, pembatasan kecepatan, pemfilteran DNS, dll.), dan memonitor perilaku jaringan yang tidak normal dengan lebih baik. Ini adalah praktik yang sangat saya rekomendasikan.
+Terakhir, pendekatan ini juga menawarkan keuntungan dalam hal kinerja dan manajemen: Ini memungkinkan Anda untuk memprioritaskan jenis lalu lintas tertentu, menerapkan aturan keamanan spesifik tergantung pada VLAN (firewall, pembatasan kecepatan, penyaringan DNS, dll.), dan memantau perilaku jaringan abnormal dengan lebih baik. Ini adalah cara yang sangat saya rekomendasikan.
 
 
 ### Manajemen DNS tingkat lanjut
 
+DNS (*Domain Name System*) adalah layanan Internet yang menerjemahkan alamat web yang mudah dipahami manusia (misalnya `planb.network`) menjadi alamat IP yang dapat dipahami mesin. Ketika sebuah perangkat di jaringan Anda ingin mengunjungi sebuah situs, perangkat meminta DNS server untuk mendapatkan alamat server yang akan dihubungi. Secara standar, permintaan DNS ini sering dikirim dalam teks biasa (tidak terenkripsi) ke ISP Anda, yang memungkinkannya (atau pihak ketiga seperti pemerintah) untuk melihat semua situs yang Anda kunjungi, bahkan jika kontennya dienkripsi melalui HTTPS.
 
-DNS (*Domain Name System*) adalah layanan Internet yang menerjemahkan alamat web yang dapat dimengerti manusia (misalnya `planb.network`) menjadi alamat IP yang dapat dimengerti mesin. Ketika perangkat di jaringan Anda ingin mengunjungi sebuah situs, perangkat tersebut akan meminta server DNS untuk mendapatkan Address dari server yang akan dihubungi. Secara default, permintaan DNS ini sering dikirim dalam teks yang jelas (tidak terenkripsi) ke ISP Anda, sehingga memungkinkan ISP (atau pihak ketiga seperti pemerintah) untuk melihat semua situs yang Anda kunjungi, meskipun kontennya dienkripsi melalui HTTPS.
+Untuk meningkatkan privasi penelusuran Anda dan memblokir konten yang tidak diinginkan langsung dari akarnya, Anda dapat mengendalikan resolusi DNS di dalam jaringan rumah Anda. Mulailah dengan mengganti DNS server yang disediakan secara standar dengan alternatif yang lebih ramah privasi seperti:
 
-
-Untuk meningkatkan privasi penjelajahan Anda dan memblokir konten tertentu yang tidak diinginkan langsung dari akarnya, Anda bisa mengendalikan resolusi DNS di dalam jaringan rumah Anda. Mulailah dengan mengganti server DNS yang disediakan secara default dengan alternatif yang lebih ramah privasi seperti :
-
-
-
-- [Quad9] (https://quad9.net/): Termasuk daftar pemblokiran untuk domain berbahaya dan tidak menyimpan catatan nama dalam jangka panjang
-
-
-
-- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): Cepat dan berkomitmen pada kebijakan tanpa pencatatan yang ketat
-
-
-
-- [NextDNS] (https://nextdns.io/): Sangat mudah disesuaikan, dengan fitur penyaringan dan statistik tingkat lanjut
-
-
-
-- [AdGuard DNS](https://adguard-dns.io/): Mudah dikonfigurasikan, dengan opsi pemblokiran iklan dan pelacak
-
+- [Quad9](https://quad9.net/): Menyertakan daftar pemblokiran untuk domain berbahaya dan tidak menyimpan log nama jangka panjang
+  
+- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): Cepat dan berkomitmen pada kebijakan tanpa pencatatan (no-logging policy) yang ketat
+  
+- [NextDNS](https://nextdns.io/): Sangat dapat disesuaikan, dengan fitur penyaringan dan statistik canggih
+  
+- [AdGuard DNS](https://adguard-dns.io/): Mudah dikonfigurasi, dengan opsi pemblokiran iklan dan pelacak
 
 ![Image](assets/fr/199.webp)
 
+Selanjutnya, aktifkan protokol enkripsi kueri DNS untuk mencegah kueri DNS dicegat atau dipantau. Ada 3 protokol utama untuk melakukan ini:
 
-Selanjutnya, aktifkan protokol enkripsi kueri DNS untuk mencegah kueri DNS dicegat atau dimonitor. Ada 2 protokol utama untuk melakukan hal ini:
+- **DoH (*DNS melalui HTTPS*)**: Mengenkapsulasi permintaan DNS dalam protokol HTTPS, membuatnya tidak dapat dibedakan dari lalu lintas web terenkripsi konvensional
 
+- **DoT (*DNS melalui TLS*)**: Menciptakan saluran terenkripsi khusus antara perangkat Anda dan DNS server
 
+- **DoQ (*DNS melalui QUIC*)**: Mentransmisikan permintaan DNS melalui protokol QUIC berbasis UDP
 
-- DoH (*DNS melalui HTTPS*)**: Mengenkapsulasi permintaan DNS dalam protokol HTTPS, sehingga tidak dapat dibedakan dari lalu lintas web terenkripsi konvensional
+Dalam praktik, enkripsi DNS dan penggantian server dapat diimplementasikan di berbagai tingkatan:
 
-
-
-- DoT (*DNS melalui TLS*)**: Membuat saluran terenkripsi khusus antara perangkat Anda dan server DNS
-
-
-
-- DoQ (*DNS melalui QUIC*)**: Mengirimkan permintaan DNS melalui protokol QUIC berbasis UDP
-
-
-Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada berbagai tingkatan:
-
-
-
-- Pada tingkat aplikasi: Beberapa aplikasi perangkat lunak, seperti browser Firefox, memungkinkan Anda untuk mengonfigurasi protokol enkripsi DNS, seperti DoH, secara langsung. Namun, solusi ini hanya melindungi permintaan yang dibuat melalui aplikasi, dan bukan seluruh komputer Anda.
-
+- Pada Tingkat aplikasi: Beberapa aplikasi perangkat lunak, seperti browser Firefox, memungkinkan Anda mengonfigurasi protokol enkripsi DNS, seperti DoH, secara langsung. Namun, solusi ini hanya melindungi permintaan yang dibuat melalui aplikasi, dan bukan seluruh komputer Anda.
 
 ![Image](assets/fr/198.webp)
 
+- Pada tingkat sistem operasi: Beberapa OS secara bawaan mengintegrasikan dukungan DNS terenkripsi (DoT atau DoH), yang mengamankan semua permintaan DNS yang melewati tumpukan jaringan sistem. Namun, ini tidak mengamankan seluruh komputer atau ponsel: Aplikasi dapat memintas pengaturan ini jika mereka dikonfigurasi untuk menggunakan DNS resolver atau protokol yang berbeda.
 
+- Pada tingkat jaringan: Enkripsi DNS dapat diterapkan ke seluruh jaringan lokal melalui konfigurasi router. Sekali lagi, router yang dikonfigurasi untuk DoH/DoT hanya melihat lalu lintas yang benar-benar dikirim kepadanya. Jadi, browser yang dikonfigurasi untuk menghubungi resolver jarak jauh secara langsung lolos dari kontrol ini. Untuk mengurangi celah ini, Anda perlu memblokir port 53 dalam teks biasa dan membatasi tujuan DoH/DoT yang tidak sah melalui firewall router.
 
-- Pada tingkat sistem operasi: Beberapa OS secara bawaan mengintegrasikan dukungan DNS terenkripsi (DoT atau DoH), yang mengamankan semua permintaan DNS yang melewati tumpukan jaringan sistem. Namun, hal ini tidak mengamankan seluruh komputer atau telepon: Aplikasi dapat melewati pengaturan ini jika dikonfigurasi untuk menggunakan resolver atau protokol DNS yang berbeda.
+Selain itu, modem router yang disediakan ISP tidak selalu mendukung fitur ini. Jika router terbatas, ada beberapa alternatif. Anda dapat memasang klien DNS yang dienkripsi secara manual di setiap perangkat, menambahkan router pribadi di belakang ISP (yang mampu menangani enkripsi DNS) atau menerapkan DNS server lokal (misalnya, pada Raspberry Pi) yang bertanggung jawab untuk mengenkripsi dan mengalihkan permintaan DNS ke resolver yang aman.
 
-
-
-- Pada tingkat jaringan: Enkripsi DNS dapat diterapkan ke seluruh jaringan lokal melalui konfigurasi router. Sekali lagi, router yang dikonfigurasi untuk DoH/DoT hanya melihat trafik yang benar-benar dikirim ke router tersebut. Jadi browser yang dikonfigurasi untuk menghubungi resolver jarak jauh secara langsung lolos dari kontrol ini. Untuk mengurangi celah ini, Anda perlu memblokir port 53 dengan teks yang jelas dan membatasi tujuan DoH/DoT yang tidak sah melalui firewall router.
-
-
-Selain itu, router modem yang disediakan ISP tidak selalu mendukung fitur-fitur ini. Jika terjadi keterbatasan router, ada beberapa alternatif. Anda dapat menginstal klien DNS yang dienkripsi secara manual pada setiap perangkat, menambahkan router pribadi di belakang ISP (yang mampu menangani enkripsi DNS) atau menggunakan server DNS lokal (misalnya, pada Raspberry Pi) yang bertanggung jawab untuk mengenkripsi dan mengalihkan permintaan DNS ke penyelesai yang aman.
-
-
-
-Untuk melangkah lebih jauh, Anda juga bisa menyiapkan solusi penyaringan DNS lokal seperti Pi-hole atau AdGuard Home.
-
+Untuk melangkah lebih jauh, Anda juga dapat menyiapkan solusi penyaringan DNS lokal seperti Pi-hole atau AdGuard Home. 
 
 https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblokir permintaan ke domain yang dikenal sebagai tempat iklan, pelacak browser, phishing, atau situs berbahaya. Alat-alat ini juga memungkinkan Anda untuk membuat daftar pemblokiran Anda sendiri atau menyesuaikan pemfilteran menurut perangkat yang terhubung.
-
+Aplikasi-aplikasi ini berfungsi seperti DNS server kecil di dalam jaringan Anda, memblokir permintaan ke domain yang dikenal sebagai tempat hosting iklan, pelacak browser, phishing, atau situs berbahaya. Aplikasiini juga memungkinkan Anda untuk membuat daftar pemblokiran Anda sendiri atau menyesuaikan penyaringan sesuai dengan perangkat yang terhubung.
 
 ![Image](assets/fr/200.webp)
 
-
 ### Akses jarak jauh yang aman melalui VPN
 
-Dalam beberapa kasus, akan sangat berguna untuk dapat mengakses jaringan rumah Anda ketika Anda sedang bepergian: Melihat file di NAS, menggunakan Bitcoin dan Lightning node, mengakses server yang dihosting sendiri, atau mengelola jaringan Anda. Namun, koneksi jarak jauh ini harus aman.
+Dalam beberapa kasus, akan sangat berguna untuk dapat mengakses jaringan rumah Anda saat bepergian: Mengakses file di NAS, menggunakan node Bitcoin dan Lightning, mengakses server yang di-hosting sendiri (self-hosted), atau mengelola jaringan Anda. Namun, koneksi jarak jauh ini harus aman.
 
-Tips pertama adalah jangan pernah secara langsung membuka port pada router Anda untuk mengakses sebuah perangkat (misalnya melalui RDP, SSH atau FTP), karena hal ini akan mengekspos layanan tersebut ke seluruh Internet, yang merupakan sebuah kerentanan. Serangan otomatis yang menargetkan port yang terbuka sangat banyak.
+Tip pertama adalah jangan pernah secara langsung membuka port pada router Anda untuk mengakses perangkat (misalnya melalui RDP, SSH, atau FTP), karena ini mengekspos layanan tersebut ke seluruh Internet, yang merupakan kerentanan. Serangan otomatis yang menargetkan port terbuka sangat banyak.
 
-Solusi yang saya rekomendasikan adalah menggunakan VPN (*Virtual Private Network*), yaitu terowongan terenkripsi antara perangkat jarak jauh Anda (komputer, ponsel cerdas, dll.) dan jaringan lokal Anda. Setelah terhubung ke VPN, Anda dapat mengakses sumber daya rumah Anda seolah-olah Anda berada di sana secara fisik, dan dengan cara yang aman.
+Solusi yang saya rekomendasikan adalah menggunakanVPN (*Virtual Private Network*), yaitu saluran terenkripsi antara perangkat jarak jauh Anda (komputer, smartphone, dll.) dan jaringan lokal Anda. Setelah terhubung ke VPN, Anda dapat mengakses sumber daya rumah Anda seolah-olah Anda berada di sana secara fisik, dan dengan cara yang aman.
 
 Dua solusi utama untuk pelanggan pribadi adalah:
 
 - WireGuard: Modern, cepat dan ringan
-- OpenVPN: Lebih tua, tetapi sangat matang dan dapat dikonfigurasi
+- OpenVPN: Lebih lama, tetapi sangat matang dan dapat dikonfigurasi
 
 https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
@@ -4831,15 +4788,15 @@ Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigur
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Anda bisa meng-host VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga bisa menginstalnya sebagai klien secara langsung pada perangkat apa pun.
+Anda dapat men-hosting VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga dapat memasangnya sebagai klien secara langsung di perangkat apa pun.
 
-Tetapi VPN tidak hanya untuk akses jarak jauh. Anda juga bisa menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan ketika Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam hal ini, perangkat Anda tersambung ke server VPN pihak ketiga (komersial atau host sendiri), yang kemudian merelay koneksi Anda ke Internet. Hal ini menyembunyikan IP asli Anda Address dari ISP, melindungi data Anda dari mata-mata lokal dan menghindari bentuk-bentuk penyensoran tertentu.
+Tetapi VPN bukan hanya untuk akses jarak jauh. Anda juga dapat menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan saat Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam kasus ini, perangkat Anda terhubung ke VPN server pihak ketiga (komersial atau di-hosting sendiri), yang kemudian mengalihkan koneksi Anda ke Internet. Ini menyembunyikan alamat IP asli Anda dari ISP, melindungi data Anda dari mata-mata lokal, dan menghindari bentuk sensor tertentu.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-Terakhir, Anda juga bisa menyiapkan VPN secara langsung pada router Anda, sehingga Anda bisa memproteksi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada masing-masing perangkat.
+Terakhir, juga dimungkinkan untuk menyiapkan VPN secara langsung pada router Anda, memungkinkan Anda untuk melindungi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada setiap perangkat.
 
 ### Pemantauan dan deteksi
 

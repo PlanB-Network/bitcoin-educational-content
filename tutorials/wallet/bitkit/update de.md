@@ -1,113 +1,107 @@
 ---
 name: Bitkit Wallet
 
-description: Richten Sie Ihr selbstverwaltetes On-Chain und Lightning Wallet ein
+description: Richte deine self-custodial On-Chain und Lightning Wallet ein
 ---
 
 ![cover](assets/cover.webp)
 
 
-Bitkit (https://www.bitkit.to) ist ein einfaches, aber leistungsfähiges Wallet zur Selbstabrechnung. Bezahlen Sie jeden, überall, zu jeder Zeit.
+Bitkit (https://www.bitkit.to) ist eine einfache, aber leistungsstarke selbstverwahrende (self-custodial) Wallet. Bezahle jeden, überall, zu jeder Zeit.
 
 
-Bitkit ist ein selbstverwaltetes mobiles Wallet, das es Ihnen ermöglicht, Ihr Bitcoin in die Hand zu nehmen, so dass Sie zu Ihren Bedingungen ausgeben können. Verbessert mit herausragenden Funktionen und einem schlanken Design, Bitkit schaltet sofortige Zahlungen an jeden, jederzeit und überall. Und das alles, während es vollständig quelloffen ist und von jedem überprüft werden kann.
+Bitkit ist ein self-custodial mobiles Wallet, die es dir ermöglicht, die volle Kontrolle über dein Bitcoin zu übernehmen, sodass du nach deinen Bedingungen ausgeben kannst. Mit herausragenden Funktionen und einem eleganten Design ermöglicht Bitkit sofortige Zahlungen an jede Person, zu jeder Zeit und an jedem Ort. Dabei ist die App vollständig Open-Source und kann von jedem überprüft werden.
 
 
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet_
+_das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet_
 
 
-## Leitfaden
+## Anleitung
 
 
 Bitkit ist wirklich sehr einfach zu bedienen.
 
 
-Als vollwertiger Bitcoin Wallet enthält Bitkit alle Funktionalitäten, die Sie erwarten:
+Als vollständige Bitcoin-Wallet enthält Bitkit alle Funktionen, die du erwartest:
 
 
-Sofortige Zahlungen: Kein Jonglieren mehr zwischen Wallets für On-Chain und Lightning-Transaktionen. Bitkit verbindet beides nahtlos.
+Sofortige Zahlungen: Kein Hin- und Herwechseln mehr zwischen Wallets für On-Chain- und Lightning-Transaktionen. Bitkit vereint beide nahtlos.
 
 
-Guthabenverwaltung: Übertragen Sie mühelos Guthaben zwischen Ihrem Spar- und Ihrem Ausgabenkonto, um sicherzustellen, dass Sie immer genug Kapazität für sofortige Zahlungen haben.
+Kontenverwaltung: Überweise mühelos Guthaben zwischen deinem Spar- und Ausgabekonto, um sicherzustellen, dass du immer genügend Kapazität für sofortige Zahlungen hast.
 
 
-Wiederherstellungsphrase: Stellen Sie Ihr Sparguthaben auf jedem Wallet wieder her, das BIP 39 unterstützt.
+Wiederherstellungsphrase: Stellen Sie Ihr Guthaben auf jedem Wallet wieder her, das BIP 39 unterstützt.
 
 
-Automatische Backups: Die nicht sensiblen Daten Ihres Wallet werden automatisch gesichert, so dass Sie Ihren Ausgabensaldo jederzeit wiederherstellen können.
+Automatische Backups: Die nicht sensiblen Daten Ihres Wallet werden automatisch gesichert, so dass du dein Ausgabensaldo jederzeit wiederherstellen können.
 
 
-Detaillierte Transaktionshistorie: Weisen Sie Kontakte zu und kennzeichnen Sie Ihre Transaktionen, um sie zu organisieren.
+Detaillierte Transaktionshistorie: Ordne deine Transaktionen, indem du Kontakte zuweist und Tags hinzufügst.
 
 
 ![image](assets/en/01.webp)
 
 
-Bitkit verfügt auch über einzigartige Fähigkeiten, die es von anderen abheben:
+Bitkit verfügt auch über einzigartige Funktionen, die es von anderen abhebt:
 
 
-Zahlbare Kontakte: Verabschieden Sie sich davon, nach Adressen oder Rechnungen zu fragen. Fügen Sie einfach Freunde zu Ihrer Kontaktliste hinzu und bezahlen Sie sie.
+Zahlbare Kontakte: Verabschiede dich vom Anfragen von Adressen oder Rechnungen. Füge einfach Freunde zu deiner Kontaktliste hinzu und bezahle sie.
 
 
-Live-Widgets: Verleihen Sie Ihrem Wallet-Startbildschirm mit ansprechenden Widgets einen Hauch von Spaß und Nutzen.
+Live-Widgets: Füge deinem Wallet-Startbildschirm einen Hauch von Spaß und Nützlichkeit mit ansprechenden Widgets hinzu.
 
 
-Soziales Profil: Übernehmen Sie die Kontrolle über Ihr öffentliches Profil und Ihre Links, damit Ihre Kontakte Sie jederzeit erreichen und bezahlen können.
+Soziales Profil: Nimm die Kontrolle über dein öffentliches Profil und deine Links, sodass deine Kontakte dich jederzeit erreichen und bezahlen können.
 
 
-Passwortlose Konten: Melden Sie sich bei Websites an, die Slashtags oder Lightning-Authentifizierung unterstützen.
+Passwortlose Konten: Melde dich bei Websites an, die Slashtags oder Lightning-Authentifizierung unterstützen.
 
+QuickPay: Lege einen benutzerdefinierten Grenzwert für Lightning-Zahlungen unter 50 USD fest, und jede Rechnung darunter wird sofort bezahlt – keine Wischbewegungen, keine Verzögerungen. Perfekt für Kaffeepausen oder das Teilen von Rechnungen.
 
-QuickPay: Legen Sie ein benutzerdefiniertes Limit für Blitzzahlungen unter 50 $ fest, und alle Invoice darunter werden sofort bezahlt - ohne Durchziehen, ohne Verzögerung. Perfekt für Kaffeefahrten oder zum Teilen von Rechnungen.
+Einkaufen: Bezahle für Netflix, Airbnb, Lebensmittel, mobiles Datenvolumen und mehr mit Bitcoin, direkt innerhalb von Bitkit.
 
-
-Einkaufen: Bezahlen Sie für Netflix, Airbnb, Lebensmittel, mobile Daten und mehr, mit Bitcoin, direkt in Bitkit.
-
-
-Keine Banken. Keine Reibung.
+Keine Banken. Keine Reibungsverluste.
 
 
 ![image](assets/en/02.webp)
 
 
-## Einsteigerhandbuch zu BitKit: Ein Schritt-für-Schritt-Tutorial
+## Anleitung für Einsteiger: Ein Schritt-für-Schritt-Tutorial
 
 
 ### 1. BitKit installieren
 
 
-Öffnen Sie den App Store (iOS) oder Google Play (Android).
+Öffne den App Store (iOS) oder Google Play (Android).
 
 
-Suchen Sie nach "BitKit" und bestätigen Sie, dass Sie das offizielle orangefarbene Markensymbol sehen.
+Suche nach „BitKit“ und stelle sicher, dass du das offizielle orangefarbene Markenicon siehst.
 
 
-Tippen Sie auf Abrufen oder Installieren und dann auf Öffnen, sobald der Download abgeschlossen ist.
+Tippe auf „Herunterladen“ oder „Installieren“ und öffne die App, sobald der Download abgeschlossen ist.
 
 
-Tipp: Wenn Sie eine gefälschte Anwendung entdecken, überprüfen Sie den Herausgeber. BitKit wird von Synonym Software Ltd. veröffentlicht.
-
+Tipp: Falls du falsche Apps entdeckst, überprüfe den Herausgeber. BitKit wird von Synonym Software Ltd. veröffentlicht.
 
 
 ### 2. Erster Start und Bedingungen
 
 
-Starten Sie BitKit, stimmen Sie den Nutzungsbedingungen zu und tippen Sie auf Weiter.
+Starte BitKit, akzeptiere die Nutzungsbedingungen und tippe auf „Weiter“.
+
+Tippe auf „Los geht's“, um den Einrichtungsprozess zu beginnen.
+
+Ignoriere „Wallet wiederherstellen“ vorerst; wir werden eine neue Wallet erstellen.
 
 
-Tippen Sie auf Beginnen, um den Einführungsprozess zu starten.
+### 3. Wallet-Seed sichern
 
 
-Ignorieren Sie Wallet wiederherstellen für den Moment; wir werden einen neuen Wallet erstellen.
-
-
-### 3. Sichern Sie Ihren Wallet seed
-
-
-BitKit ist selbstverwahrend, daher ist der seed-Satz mit zwölf Wörtern Ihre einzige Wiederherstellungsmethode.
+BitKit ist selbstverwahrend, daher ist die zwölfwörtige Seed-Phrase deine einzige Wiederherstellungsmethode.
 
 
 Tippen Sie auf Jetzt sichern, wenn Sie dazu aufgefordert werden.

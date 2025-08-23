@@ -17,13 +17,13 @@ Dive into the heart of the IP world and equip yourself with the knowledge to und
 
 You will learn how networks and IP addressing work, how to distinguish between IPv4 and IPv6, how to identify and use the different address categories, and how to grasp the full importance of the TCP/IP protocol and the links it forges between IP addresses, physical addresses and DNS names.
 
-NET 302 is aimed above all at students, Linux users or simply the curious who want to understand the basics of networking and strengthen their autonomy in managing, troubleshooting and optimizing infrastructures.
+NET 302 is aimed mostly at students, Linux users or simply the curious who want to understand the basics of networking and strengthen their autonomy in managing, troubleshooting and optimizing infrastructures.
 
 Join us and turn your knowledge into real operational expertise!
 
 ___
 
-This NET 302 course is an adapted of  *Les bases du réseau : TCP/IP, IPv4 et IPv6*, written by Philippe Pierre in French and published on [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), under Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+This NET 302 course is an adaption of  *Les bases du réseau: TCP/IP, IPv4 et IPv6*, written by Philippe Pierre in French and published on [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), under Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 
 Substantial changes have been made to the original version by Loïc Morel: the text has been entirely rewritten, expanded and enriched to provide updated, in-depth content, while preserving the educational spirit of Philippe Pierre's original work. The diagrams have also been revised.
@@ -40,7 +40,7 @@ Substantial changes have been made to the original version by Loïc Morel: the t
 
 <chapterId>9f238ecd-c9bb-4886-a205-2beba609fb13</chapterId>
 
-This course provides a complete introduction to the fundamentals of IP networks. It is structured into four main sections, each covering an essential aspect for understanding, configuring and diagnosing a computer network.
+This course provides a complete introduction to the fundamentals of IP networks. It is structured into four main sections, each covering an essential aspect for understanding, configuring and diagnosing issues in a computer network.
 
 ### TCP/IP protocol
 
@@ -60,9 +60,9 @@ Finally, we'll conclude with a presentation of the main network diagnostics tool
 
 By the end of this course, you'll have the fundamental knowledge to efficiently administer a network infrastructure and diagnose potential issues.
 
-Ready to dive into the world of computer networks? Let's go !
+Ready to dive into the world of computer networks? Let's go!
 
-**NOTE**: The descriptions are based on a GNU/Linux CentOS 7 system. However, network configurations are largely the same between a Debian and a CentOS system. So, we won't make any distinction. When there is one, we'll prefix it with a specific logo.
+**NOTE**: The descriptions are based on a GNU/Linux CentOS 7 system. However, network configurations are largely the same when comparing a Debian to a CentOS system. So, we won't make any distinction. When there is one, we'll prefix it with a specific logo.
 
 **N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
 
@@ -81,7 +81,7 @@ In this first module, we'll take an in-depth look at the TCP/IP protocol, the co
 
 We'll also detail the main components that structure this model, and explain how they interact to form an operational, reliable and scalable network. But first, it's essential to go back to the concept of a network.
 
-Etymologically, a network refers to a set of points connected to one another, forming an interconnected structure. In telecommunications and computing, this definition translates into a group of devices (computers, routers, switches, access points, etc.) capable of exchanging data via physical or wireless media. A network thus enables the continuous or intermittent flow of information, depending on requirements, the protocols in use and the nature of the deployed architecture.
+Etymologically, a network refers to a set of points linked to one another, forming an interconnected structure. In telecommunications and computing, this definition translates into a group of devices (computers, routers, switches, access points, etc.) capable of exchanging data via physical or wireless media. A network thus enables the continuous or intermittent flow of information, depending on requirements, on the protocols in use and on the nature of the deployed architecture.
 
 Over time, several classic topologies have been developed to meet different needs for cost, performance, resilience, and ease of maintenance. These include:
 - ring network,
@@ -103,9 +103,9 @@ The advantage of this arrangement lies in the simplicity of its cabling, and the
 
 ### Tree network
 
-The tree network, or hierarchical topology, , is modeled after the structure of a family tree. It consists of successive levels: a root node at the top connects to several lower-level nodes, which may themselves connect to other nodes, and so on.
+The tree network, or hierarchical topology, is modeled after the structure of a family tree. It consists of successive levels: a root node at the top connects to several lower-level nodes, which may themselves connect to other nodes, and so on.
 
-This hierarchical layout works particularly well for large networks that need a clear division of responsibilities and segmented management. However, it also makes the network vulnerable to the failure of higher-level nodes : losing the root or a main branch can cut off entire sections of the infrastructure.
+This hierarchical layout works particularly well for large networks that need a clear division of responsibilities and segmented management. However, it also makes the network vulnerable to the failure of higher-level nodes: losing the root or a main branch can cut off entire sections of the infrastructure.
 
 
 ![Image](assets/fr/002.webp)
@@ -115,7 +115,7 @@ This hierarchical layout works particularly well for large networks that need a 
 
 In a bus topology, all devices share the same transmission medium, typically a coaxial line or optical fiber. Each unit is passively connected, meaning it doesn't actively modify the signal, and it can send or receive data over this shared channel.
 
-The bus topology's main advantage is low installation cost, thanks to simplified cabling.  However, in older coaxial-based implementations (Ethernet 10BASE2/10BASE5), disconnecting or losing a single station could disrupt or even halt all traffic, as the bus's electrical continuity and termination impedance would no longer be maintained. Having a single physical medium is also a critical weakness : any break or fault stops communication for the entire network.
+The bus topology's main advantage is low installation cost, thanks to simplified cabling.  However, in older coaxial-based implementations (Ethernet 10BASE2/10BASE5), disconnecting or losing a single station could disrupt or even halt all traffic, as the bus electrical continuity and termination impedance would no longer be maintained. Having a single physical medium is also a critical weakness: any break or fault stops communication for the entire network.
 
 
 ![Image](assets/fr/003.webp)
@@ -125,7 +125,7 @@ The bus topology's main advantage is low installation cost, thanks to simplified
 
 The star topology, also known as "hub and spoke", is the most common today, especially in home and office Ethernet networks. Here, all devices connect to a single central device.
 
-This layout makes management and maintenance easy: if one peripheral device fails, the rest of the network remains unaffected. The downside is that the central device is a single point of failure, if it goes down, communication stops everywhere. Cable quality and link lengths must also be carefully considered to maintain good performance.
+This layout makes management and maintenance easy: if one peripheral device fails, the rest of the network remains unaffected. The downside is that the central device is a single point of failure: if it goes down, communication stops everywhere. Cable quality and link lengths must also be carefully considered to maintain good performance.
 
 
 ![Image](assets/fr/004.webp)
@@ -135,7 +135,7 @@ This layout makes management and maintenance easy: if one peripheral device fail
 
 ### Mesh network
 
-The mesh network is designed for maximum redundancy: every device is directly connected to every other device. This ensures service continuity even if multiple links or devices fail, as traffic can be rerouted along alternative paths.
+The mesh network is designed for maximum redundancy: every device is directly connected to every other device. This ensures service continuity even if multiple links or devices fail, as traffic can be re-routed along alternative paths.
 
 The trade-off is that the number of connections to be established increases rapidly with the number of terminals. For `N` connection points, `N × (N-1) / 2` separate links are required, making this topology expensive and complex to deploy. It's therefore used mainly in critical networks requiring very high availability, such as certain parts of the Internet or sensitive industrial systems.
 
@@ -145,7 +145,7 @@ The trade-off is that the number of connections to be established increases rapi
 
 Other variations exist, such as grid or hypercube networks, which are designed for specialized needs in distributed computing or parallel processing.
 
-On a global scale, the Internet is a massive interconnection of networks using diverse topologies, unified by common addressing (IPv4 and IPv6) and a collection of standardized protocols defined by the IETF (*Internet Engineering Task Force*). This diversity means the Internet follows no single topology : its structure is flexible, scalable and independent of the logical addressing scheme that makes it usable.
+On a global scale, the Internet is a massive interconnection of networks using diverse topologies, unified by common addressing (IPv4 and IPv6) and a collection of standardized protocols defined by the IETF (*Internet Engineering Task Force*). This diversity means the Internet follows no single topology: its structure is flexible, scalable and independent of the logical addressing scheme that makes it usable.
 
 
 ## The origins of TCP/IP
@@ -157,7 +157,7 @@ The origins of the TCP protocol lie with **ARPA** (*Advanced Research Projects A
 
 As part of this dynamic, ARPA financed the University of Berkeley to integrate the first TCP/IP protocols into its BSD Unix system. This played a major role in spreading and standardizing the protocol, first in the academic world, and later in industry.
 
-**Note**: at that time, computer scientists didn't yet have Linux (which wouldn't appear until the early 1990s), nor Minix, the educational system designed by Andrew Tanenbaum.  The main options were Unix, or sometimes proprietary mainframes like OpenVMS. Thanks to its flexibility and openness, Unix was instrumental in spreading the first networking concepts.
+**Note**: at that time, computer scientists didn't yet have Linux (which wouldn't appear until the early 1990s), nor Minix, the educational system designed by Andrew Tanenbaum.  The main options were Unix, or, sometimes, proprietary mainframes like OpenVMS. Thanks to its flexibility and openness, Unix was instrumental in spreading the first networking concepts.
 
 Strictly speaking, TCP/IP is not a single protocol but a suite of protocols built around TCP and IP. It rose to prominence because it provided a standardized programming interface for exchanging data between machines on the same network. This interface, based on primitives called "sockets", made it possible to create reliable and flexible connections while integrating essential application protocols.
 
@@ -168,10 +168,10 @@ ARPANET is therefore the historical foundation of today's Internet. Indeed, the 
 
 The governance and evolution of these protocols are overseen by the ***Internet Architecture Board*** (IAB). 
 This organization coordinates technical directions through two main structures:
-- IRTF** (_Internet Research Task Force_), which conducts long-term research on protocol evolution and improvement.
-- IETF** (_Internet Engineering Task Force_), which develops, standardizes, and documents the operational protocols used on the Internet
+- **IRTF** (_Internet Research Task Force_), which conducts long-term research on protocol evolution and improvement.
+- **IETF** (_Internet Engineering Task Force_), which develops, standardizes, and documents the operational protocols used on the Internet
 
-The distribution of network resources (IP address ranges, autonomous system numbers, root domain names, etc.) is coordinated internationally by **IANA/ICANN**. Operational management relies on : **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europe, Middle East, Central Asia), **ARIN**, **APNIC**, **LACNIC** and **AFRINIC**.
+The distribution of network resources (IP address ranges, autonomous system numbers, root domain names, etc.) is coordinated internationally by **IANA/ICANN**. Operational management relies on: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europe, Middle East, Central Asia), **ARIN**, **APNIC**, **LACNIC** and **AFRINIC**.
 
 All TCP/IP protocol specifications are recorded in documents called **RFC** (_Request For Comments_), which serve as authoritative technical references. RFCs are continually updated and numbered to reflect the ongoing evolution of the protocol suite.
 
@@ -187,7 +187,7 @@ The four layers of the TCP/IP model are:
 ![Image](assets/fr/006.webp)
 
 
-Today, the most widely used version of IP is IPv4, but its 32-bit address space has clear limitations. This led to the creation of IPv6, which uses 128-bit addressing and offers virtually unlimited capacity : essential for supporting the explosive growth of connected devices and meeting the challenges of the Internet of Things, mobility, and security.
+Today, the most widely used version of IP is IPv4, but its 32-bit address space has clear limitations. This led to the creation of IPv6, which uses 128-bit addressing and offers virtually unlimited capacity: essential for supporting the explosive growth of connected devices and meeting the challenges of the Internet of Things, mobility, and security.
 
 Each layer of the TCP/IP stack provides specific services, making it possible to address different networking needs in a modular way: physical transmission, logical addressing, data integrity, and application-level services.
 
@@ -238,7 +238,7 @@ However, IPv5 remained experimental and was implemented on only a small number o
 
 Although IPv5 never saw widespread use, it played an important role in shaping early thinking about QoS and traffic management. Today, it is more of a historical marker than a working standard.
 
-**Reminder**: A protocol is a set of communication rules : data structures, algorithms, packet formats, and conventions that allow different devices to exchange information reliably and understandably. A service is the concrete implementation of a protocol through specific programs (clients, servers) that follow these rules and make the functionality available to users and applications.
+**Reminder** - A protocol is a set of communication rules: data structures, algorithms, packet formats, and conventions that allow different devices to exchange information reliably and understandably. A service is the concrete implementation of a protocol through specific programs (clients, servers) that follow these rules and make the functionality available to users and applications.
 
 We can now take a closer look at the structure and operation of the IP protocol, the essential foundation of all network communication.
 
@@ -259,9 +259,9 @@ Three network configuration elements determine how a packet is sent on its way:
 - **Subnet mask**: specifies which part of the address identifies the network and which part identifies the host, enabling logical division into subnets.
 - **The gateway**: indicates the intermediate router through which the packet should pass to reach an external network or another segment of the local network.
 
-On the Internet, data doesn't flow as one continuous stream, it's sent as as **datagrams** : independent blocks of data, each encapsulated with all the information needed for delivery. This is the principle of **packet switching**, where information is split into self-contained units that may take different paths to reach the same recipient.
+On the Internet, data doesn't flow as one continuous stream, but it's sent as **datagrams**: independent blocks of data, each encapsulated with all the information needed for delivery. This is the principle of **packet switching**, where information is split into self-contained units that may take different paths to reach the same recipient.
 
-In addition to the payload (*payload*), each IP datagram contains a structured header with fields such as  the destination address, source address, type of service, protocol version number and other control information needed to manage the transmission.
+In addition to the payload (*payload*), each IP datagram contains a structured header with fields such as the destination address, source address, type of service, protocol version number and other control information needed to manage the transmission.
 
 The theoretical maximum size of an IP datagram is **65,536 octets**, a limit set by the total length field in the header. In practice, this size is rarely reached, as the physical networks carrying the packets (Ethernet, Wi-Fi, fiber optics...) usually impose a stricter limits known as **MTU** (_Maximum Transmission Unit_). If a datagram exceeds the MTU of the physical link, it must be split into smaller packets, each sent separately and reassembled on arrival.
 
@@ -270,7 +270,7 @@ This adaptability makes IP a robust and flexible protocol, able to operate over 
 
 ### Fragmentation of IP datagrams
 
-When an IP datagram needs to pass through a network whose transmission capacity is smaller than the datagram itself, it must be **fragmented** so it can travel without issue. This physical size limit is called the **MTU** (Maximum Transmission Unit) : the largest frame size that can pass over a given network without being split.
+When an IP datagram needs to pass through a network whose transmission capacity is smaller than the datagram itself, it must be **fragmented** so it can travel without issue. This physical size limit is called the **MTU** (Maximum Transmission Unit): the largest frame size that can pass over a given network without being split.
 
 Each network technology imposes its own MTU, determined by its hardware and protocol characteristics. Common values include:
 - **ARPANET**: 1000 bytes
@@ -338,8 +338,8 @@ Even with packet switching, fragmentation, and encapsulation in place, a network
 In IPv4, an IP address is coded on **32 bits** and written as four decimal numbers separated by dots, in the familiar N1.N2.N3.N4 format (for example: 192.168.1.12).
 
 An IP address has two parts:
-- **_netid_** : identifies the network the host belongs to
-- **_hostid_** : identifies the specific host within that network
+- **_netid_**: identifies the network that the host belongs to
+- **_hostid_**: identifies the specific host within that network
 This separation allows the global Internet to be logically structured into many interconnected networks.
 
 Historically, the IPv4 system relied on a class-based scheme, labeled from A to E, which defined the range of address and their intended use. Each class allocated a set number of bits to the _netid_ and _hostid_, directly affecting the possible number of networks and hosts.
@@ -355,11 +355,11 @@ Historically, the IPv4 system relied on a class-based scheme, labeled from A to 
 | E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
 
 Not all possible values can be assigned to hosts. For example, in a **class C** address, the last byte offers 8 bits (256 values). But two of these are reserved:
-- 0 : identifies the network itself
-- 255 : is the **broadcast** address, used to send a packet to all hosts in the network at once.
+- 0: identifies the network itself
+- 255: is the **broadcast** address, used to send a packet to all hosts in the network at once.
 That leaves 254 usable addresses for devices.
 
-The number of available addresses varies widely between classes : from large public networks in class A, to corporate networks in class B, to smaller local networks in class C.
+The number of available addresses varies widely between classes: from large public networks in class A, to corporate networks in class B, to smaller local networks in class C.
 
 
 ![Image](assets/fr/013.webp)
@@ -373,9 +373,9 @@ Some address ranges are reserved for private use and never routed directly on th
 When a device with a private address accesses the Internet, a NAT-enabled router or gateway replaces it with a valid public address.
 
 Example: If a host has the address **192.168.7.5**, we can deduce:
-- 192.168.7.0 : network address
-- 192.168.7.1 : often the local router
-- 192.168.7.5 : the host itself
+- 192.168.7.0: network address
+- 192.168.7.1: often the local router
+- 192.168.7.5: the host itself
 
 Another special case is **127.0.0.1**, known as the "***loopback***". 
 On Linux systems, it is associated with the Interface **lo**. This address allows a machine to address itself for local testing or diagnostics, without going through a physical Interface. The entire **127.0.0.0/8** range is reserved for this purpose.
@@ -434,7 +434,7 @@ While Class C networks initially had the greatest need for aggregation due to th
 
 With CIDR, the concept of fixed classes disappears. The address space is treated as a continuous range that can be divided or aggregated as needed. CIDR blocks are defined using subnet masks that are not limited to the defaults of A, B, or C classes. A CIDR block can represent either a single network or a contiguous set of subnetworks sharing the same prefix.
 
-A CIDR block is written in the format address/prefix, where the number after the slash indicates how many bits make up the network portion. For example, /17 means that the first 17 bits identify the network, while the remaining 15 bits identify hosts.
+A CIDR block is written in the format "address/prefix", where the number after the slash indicates how many bits make up the network portion. For example, /17 means that the first 17 bits identify the network, while the remaining 15 bits identify hosts.
 
 Example:
 A /17 block contains 2^(32-17) addresses so 2^15 = 32,768 total addresses. Subtracting the two reserved addresses (network and broadcast) leaves 32,766 usable host addresses. This allows network administrators to size their subnets precisely to match real-world needs, avoiding unnecessary waste.
@@ -457,9 +457,9 @@ To make CIDR sizing easier to understand, here is a table of common prefixes and
 | /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
 
 
-**NOTE**: Historically, RFC 950 discouraged the use of subnet zero, mainly to avoid confusion in routing.  This restriction became obsolete with RFC 1878, which fully allows its use. The old limitation was mostly due to older hardware that could not handle CIDR correctly. Modern equipment has no such problem.
+**NOTE**: Historically, RFC 950 discouraged the use of subnet zero, mainly to avoid confusion in routing.  This restriction became obsolete with RFC 1878, which fully allows its use. The old limitation was mostly due to imcompatibility with older hardware that could not handle CIDR correctly. Modern equipment has no such problem.
 
-For example, the subnet **1.0.0.0** with the mask **255.255.0.0** once ambiguous with the class A network identifier, is now perfectly valid and usable.
+For example, the subnet **1.0.0.0** with the subnet mask **255.255.0.0** once ambiguous with the class A network identifier, is now perfectly valid and usable.
 
 **TIP**: for error-free subnet calculations and rapid conversion of addresses to CIDR notation, there are handy tools like ***ipcalc***. This "network calculator" clearly shows address breakdowns, available ranges, and associated masks, ideal for both administrators and students learning CIDR.
 
@@ -489,7 +489,7 @@ TCP is a connection-oriented protocol, meaning it sets up an explicit, ongoing r
 ![Image](assets/fr/018.webp)
 
 
-To improve reliability, TCP uses a timer: once a segment is sent, a countdown starts. f an acknowledgement does not arrive within the timeout period, the sender automatically retransmits the segment, assuming it was lost in transit. This automatic retransmission mechanism offsets the losses inherent to IP networks, which can occur in cases of congestion, routing errors, or hardware failures.
+To improve reliability, TCP uses a timer: once a segment is sent, a countdown starts. If an acknowledgement does not arrive within the timeout period, the sender automatically retransmits the segment, assuming it was lost in transit. This automatic retransmission mechanism offsets the losses inherent to IP networks, which can occur in cases of congestion, routing errors, or hardware failures.
 
 
 ![Image](assets/fr/019.webp)
@@ -503,7 +503,7 @@ For this process to work, both machines must share a common understanding of the
 
 The sequence synchronization exchange is based on the famous **"*three-way handshake*"** mechanism, similar to the way two people greet each other to establish contact. This initialization phase, which ensures TCP's reliability, takes place in 3 stages:
 1. **SYN:** The client sends an initial synchronization segment (**SYN**) with the appropriate flag set and an initial sequence number (e.g., C);
-2. **SYN-ACK:** The receiving server responds with an acknowledgement segment (**SYN-ACK**), it acknowledges the client's sequence number and provides its own initial sequence number,
+2. **SYN-ACK:** The receiving server responds with an acknowledgement segment (**SYN-ACK**), it acknowledges the client's sequence number and provides its own initial sequence number;
 3. **ACK:** The client sends a final acknowledgement (**ACK**) confirming receipt of the server's sequence number, finalizing synchronization. The SYN flag is now disabled and the ACK flag remains set indicating that the connection is established.
 
 
@@ -514,7 +514,7 @@ This exchange protocol ensures that both parties share the same numbering base b
 
 This ***three-way handshake*** only concerns connection establishment. For closing, TCP uses a *four-way handshake*: FIN → ACK → FIN → ACK, which guarantees that no segment in transit is lost before the connection is completely released.
 
-Although designed for robustness and reliability, this process has also given rise to exploitable vulnerabilities. For example, attacks such as **IP Spoofing** aim to bypass or corrupt this trust relationship by impersonating an authorized machine through falsified sequence numbers, creating a breach that allows interception or manipulation of the data stream.
+Although designed for robustness and reliability, this process has also given rise to exploitable vulnerabilities. For example, attacks such as **IP Spoofing** aim to bypass or corrupt this trust relationship by posing as an authorized machine through falsified sequence numbers, creating a breach that allows interception or manipulation of the data stream.
 
 To limit the risks of sequence synchronization hijacking and to manage network load, the TCP protocol uses a flow management technique known as "**_Sliding Window_**". This system regulates how much data can be sent without requiring an immediate acknowledgement for each segment, thus reducing unnecessary overload on the network while maintaining good reliability.
 
@@ -538,7 +538,7 @@ This precise management,combining IP's flexible routing with TCP's strict contro
 ![Image](assets/fr/022.webp)
 
 
-In some cases, however, absolute reliability is not the priority : speed and simplicity are. This is true for applications like live streaming or VoIP, which can tolerate some packet loss without seriously affecting user experience. In such cases, **UDP** (_User Datagram Protocol_) is preferred.
+In some cases, however, absolute reliability is not the priority: speed and simplicity are. This is true for applications like live streaming or VoIP, which can tolerate some packet loss without seriously affecting user experience. In such cases, **UDP** (_User Datagram Protocol_) is preferred.
 
 UDP operates on a fundamentally different principle from TCP: it is **connectionless**, meaning no prior relationship is established between sender and receiver. When a machine sends packets via UDP, they are transmitted one way; the receiver does not send acknowledgements, and the sender has no confirmation that the message arrived. The UDP header is intentionally minimal, containing only the source port, destination port, segment length, and a checksum, with no built-in acknowledgment or state-control mechanism. As always, IP addresses are carried by the underlying IP header.
 
@@ -559,19 +559,19 @@ As we've seen, **services** are the concrete implementation of the protocols we'
 Each layer builds on the capabilities of the one below it, and in turn provides the layer above with a consistent Interface for managing data. In this architecture, every layer has its own **data structures**, carefully defined to ensure perfect compatibility with the other layers. This compatibility is essential for smooth, reliable, and clear communication from one endpoint to another.
 
 Two key aspects govern these exchanges:
-- **Vertical aspect** : the relationship between one layer and the one above or below it (from layer N to layer N+1, and vice versa).
+- **Vertical aspect**: the relationship between one layer and the one above or below it (from layer N to layer N+1, and vice versa).
 
 
 ![Image](assets/fr/023.webp)
 
 
-- **Horizontal aspect** : the interaction between remote applications, i.e., the dialogue between a **client** and a **server**, in either direction.
+- **Horizontal aspect**: the interaction between remote applications, i.e., the dialogue between a **client** and a **server**, in either direction.
 
 
 ![Image](assets/fr/024.webp)
 
 
-The layered architecture follows the principle that each layer processes only the information within its scope: data structures, headers and control mechanisms vary from one layer to another, but together they forms a coherent system, ensuring data is gradually routed to its final destination.
+The layered architecture follows the principle that each layer processes only the information within its scope: data structures, headers and control mechanisms vary from one layer to another, but together they form a coherent system, ensuring data is gradually routed to its final destination.
 
 **Reminder**: Specific terminology is used to describe the data units exchanged between layers: 
 - **message** for the Application layer, 
@@ -708,8 +708,9 @@ The addresses **127.0.0.1** and, more generally, the entire 127.0.0.0/8 range is
 To make better use of the address space, administrators often split networks into **subnets** using subnet masks or **CIDR** notation (_Classless Inter-Domain Routing_). CIDR allows more precise management and helps avoid wasting addresses. Today, CIDR is essential for fine-tuning IP ranges and reducing the size of routing tables.
 
 In modern networks, IP addressing is usually paired with other identifiers:
-- **domain name** registered in a **DNS** (_Domain Name System_) :Associates a numeric IP address with a human-friendly name.
-- **MAC address**: physical identifier engraved in the network card, used for local transport (_Ethernet_). When an IP packet needs to be physically transmitted, the ARP table matches the IP address with the MAC address of the destination.
+
+- **domain name** registered in a **DNS** (_Domain Name System_): It associates a numeric IP address with a human-friendly name.
+- **MAC address**: a physical identifier engraved in the network card, used for local transport (_Ethernet_). When an IP packet needs to be physically transmitted, the ARP table matches the IP address with the MAC address of the destination.
 
 To deal with IPv4 address shortages and to add a layer of security, networks often use address translation (_NAT_). NAT allows many private devices to share a single public IP address when accessing the Internet. 
 
@@ -778,7 +779,7 @@ DNS also plays a role in email routing. For example, a **MX** (_Mail Exchange_) 
 
 Thanks to its hierarchical, distributed structure, DNS remains a cornerstone of the Internet, allowing users to access services through clear, memorable domain names instead of long, technical IP addresses.
 
-In the next chapter, we'll explore another fundamental concept:  **Ethernet addresses**, also known as **MAC addresses**, which ensure data delivery at the physical layer of local networks.
+In the next chapter, we'll explore another fundamental concept: **Ethernet addresses**, also known as **MAC addresses**, which ensure data delivery at the physical layer of local networks.
 
 
 ## Discovering Ethernet addresses and ARP
@@ -826,19 +827,19 @@ arp –a 192.168.1.5
 The output will display the associated physical address (MAC), the nature of the input (static or dynamic) and the Interface concerned.
 
 ```
-Interface : 192.168.1.5 --- 0x5
+Interface: 192.168.1.5 --- 0x5
 IP Address            MAC Address                Type
 192.168.1.5           00:54:BC:17:14:6E          D
 ```
 
 It's important to remember that the MAC address and the IP address are two completely different identifiers, yet closely complementary. The MAC address is uniquely engraved into each network interface by the manufacturer and is used to physically identify the device on the local network. The IP address, on the other hand, is a logical address assigned either dynamically or statically, allowing the machine to join the IP network and exchange packets beyond its local network.
 
-- Visual example of MAC address :
+- Visual example of MAC address:
 
 ![Image](assets/fr/032.webp)
 
 
-- Visual example of an IP address :
+- Visual example of an IP address:
 
 ![Image](assets/fr/027.webp)
 
@@ -912,7 +913,7 @@ Each entry in this table links at least one pair: the internal IP address of the
 
 This dynamic translation principle relies on precise table management: each entry remains valid as long as there is active traffic to justify it. After a configurable period of inactivity, the entry is cleared and can be reused for new connections.
 
-_Example of a simplified NAT translation table :_
+_Example of a simplified NAT translation table:_
 
 | Internal IP   | External IP    | Duration (sec) | Reusable? |
 | ------------- | -------------- | -------------- | --------- |
@@ -945,7 +946,7 @@ In this scenario, an internal workstation can access the internal web server sim
 
 The same principle applies to any other server authorized to receive internet connections, such as the Extranet server (blue circuit in the diagram).
 
-**Practical note:** in virtualized environments, network interfaces called _virbrX_ (for _Virtual Bridge X_) are commonly used. These virtual bridges, provided in particular by the libvirt library or the Xen hypervisor, connect the virtual internal network of guest machines to the physical network while applying NAT. They are generally configured via scripts in `/etc/sysconfig/network-scripts/`, as shown below for `virbr0` :
+**Practical note:** in virtualized environments, network interfaces called _virbrX_ (for _Virtual Bridge X_) are commonly used. These virtual bridges, provided in particular by the libvirt library or the Xen hypervisor, connect the virtual internal network of guest machines to the physical network while applying NAT. They are generally configured via scripts in `/etc/sysconfig/network-scripts/`, as shown below for `virbr0`:
 
 ```ini
 NAME=""
@@ -961,7 +962,7 @@ NETWORK=192.168.0.0
 ONBOOT=yes
 ```
 
-Once the virtual bridge is in place, you need to enable IP routing and configure port translation with `iptables` :
+Once the virtual bridge is in place, you need to enable IP routing and configure port translation with `iptables`:
 
 ```shell
 echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -998,7 +999,7 @@ After covering the theoretical foundations of networking and understanding how I
 
 Example: assigning a static address and activating Interface
 
-Add address `192.168.1.2/24` to Interface `eth0` :
+Add address `192.168.1.2/24` to Interface `eth0`:
 
 ```shell
 ip addr add 192.168.1.2/24 dev eth0
@@ -1010,13 +1011,13 @@ Activate Interface:
 ip link set dev eth0 up
 ```
 
-Deactivate the same Interface :
+Deactivate the same Interface:
 
 ```shell
 ip link set dev eth0 down
 ```
 
-Display the status of a specific Interface :
+Display the status of a specific Interface:
 
 ```shell
 ip addr show dev eth2
@@ -1037,11 +1038,11 @@ ifup eth1
 ifdown eth2
 ```
 
-Configuration files (RHEL-like) :
+Configuration files (RHEL-like):
 - **/etc/sysconfig/network**: global settings (NETWORKING, HOSTNAME, GATEWAY...).
 - **ifcfg-**: settings specific to each interface.
 
-Static example (ifcfg-eth0) :
+Static example (ifcfg-eth0):
 
 ```ini
 DEVICE=eth0
@@ -1052,7 +1053,7 @@ NETMASK=255.255.255.0
 GATEWAY=192.168.2.1
 ```
 
-DHCP example :
+DHCP example:
 
 ```ini
 DEVICE=eth0
@@ -1070,11 +1071,11 @@ In professional environments, the aim is to guarantee service continuity and/or 
 ![Image](assets/fr/039.webp)
 
 
-Prerequisites :
+Prerequisites:
 - Load the `bonding` module (or use `teamd`) ;
 - Have at least two physical interfaces available.
 
-#### The various common bonding methods :
+#### The various common bonding methods:
 
 |Mode|Name|Principle|
 |---|---|---|
@@ -1088,7 +1089,7 @@ Prerequisites :
 
 #### Setting up with `ip link
 
-- Disable physical interfaces :
+- Disable physical interfaces:
 
 ```shell
 ip link set eth0 down
@@ -1107,7 +1108,7 @@ ip link add bond0 type bond mode balance-alb
 ip link set bond0 type bond miimon 100
 ```
 
-- Assign MAC and IP addresses :
+- Assign MAC and IP addresses:
 
 ```shell
 ip link set dev bond0 address 00:17:56:BC:02:3A
@@ -1115,7 +1116,7 @@ ip addr add 192.168.2.3/24 dev bond0
 ip route add default via 192.168.2.1
 ```
 
-- Attach slave interfaces :
+- Attach slave interfaces:
 
 ```shell
 ip link set eth0 master bond0
@@ -1134,7 +1135,7 @@ ip link set eth1 up
 
 #### Permanent configuration (RHEL-like)
 
-Create three files in `/etc/sysconfig/network-scripts` :
+Create three files in `/etc/sysconfig/network-scripts`:
 
 _ifcfg-bond0_
 
@@ -1167,7 +1168,7 @@ MASTER=bond0
 SLAVE=yes
 ```
 
-Then :
+Then:
 
 ```shell
 systemctl restart network
@@ -1200,7 +1201,7 @@ We now move to the next generation of IP addressing: the IPv6 protocol, original
 
 The motivations behind the adoption of IPv6 are varied, and address critical needs for the evolution of the Internet. Firstly, IPv6's role is to support the exponential growth in the number of connected devices (an objective unattainable with IPv4's limited address space). Secondly, the protocol aims to reduce the size of routing tables, making exchanges more efficient and reducing the workload of routers in the long term.
 
-IPv6 also seeks to simplify certain aspects of packet handling, improving datagram flow and optimizing transfer speeds between networks. From a security standpoint, the AH/ESP headers of the *IPsec* protocol are included in the base specification, and all IPv6 nodes must be able to support them (RFC 6434). Their use, however, remains optional : it is up to the administrator to enable them depending on the context.
+IPv6 also seeks to simplify certain aspects of packet handling, improving datagram flow and optimizing transfer speeds between networks. From a security standpoint, the AH/ESP headers of the *IPsec* protocol are included in the base specification, and all IPv6 nodes must be able to support them (RFC 6434). Their use, however, remains optional: it is up to the administrator to enable them depending on the context.
 
 Other objectives include more precise handling of service types, notably to ensure better quality for real-time applications (VoIP, videoconferencing, etc.). IPv6 is also designed to allow more flexible mobility management: a device can change access points without changing its address in a way that is visible to its peers.
 
@@ -1228,7 +1229,7 @@ To simplify notation, leading zeros in each group can be omitted. The above exam
 1987:c02:0:84c2:0:0:cf2a:9077
 ```
 
-In addition, a single continuous sequence of zero groups can be replaced with ::, further shortening the address:
+In addition, a single continuous sequence of zero groups can be replaced with::, further shortening the address:
 
 ```
 1987:c02:0:84c2::cf2a:9077
@@ -1238,13 +1239,13 @@ In addition, a single continuous sequence of zero groups can be replaced with ::
 
 **Important detail:** the `:` characterused to separate hexadecimal blocks can cause ambiguity in URLs, since `:` is also used to indicate a service port. To avoid confusion, IPv6 addresses in URL must be enclosed in square brackets `[ ]`.
 
-Example of HTTP access to a specific port for the address `2002:400:2A41:378::34A2:36` :
+Example of HTTP access to a specific port for the address `2002:400:2A41:378::34A2:36`:
 
 ```
 http://[2002:400:2A41:378::34A2:36]:8080
 ```
 
-When representing an IPv4 address in an IPv6 context, you can use a mixed notation in dotted decimal form, preceded by`::` :
+When representing an IPv4 address in an IPv6 context, you can use a mixed notation in dotted decimal form, preceded by`::`:
 
 ```
 ::192.168.1.5
@@ -1263,13 +1264,13 @@ An unspecified IPv6 address is represented by `::` or, more explicitly, `::0.0.0
 
 | IPv6 Address Prefix | Description                                 |
 | ------------------- | ------------------------------------------- |
-| ::/8                | Reserved addresses                          |
+|::/8                | Reserved addresses                          |
 | 2000::/3            | Unicast addresses, routable on the Internet |
 | fc00::/7            | Unique local addresses (1)                  |
 | fe80::/10           | Link-local addresses                        |
 | ff00::/8            | Multicast addresses                         |
 
-(1) : *On a private LAN, the `fd00::/8` prefix is preferred for assigning internal addresses that are not routable on the Internet.*
+(1): *On a private LAN, the `fd00::/8` prefix is preferred for assigning internal addresses that are not routable on the Internet.*
 
 #### Reserved addresses
 
@@ -1375,7 +1376,7 @@ Two main approaches are used to assign addresses to devices:
 - Automatic configuration,where devices generate or obtain their own addresses dynamically.
 
 In manual configuration, the administrator assigns the complete IPv6 address to each interface. Certain values remain reserved:
-- `::/128` : unspecified address, never permanently assigned ;
+- `::/128`: unspecified address, never permanently assigned ;
 - `::1/128`: loopback address (_loopback_), IPv4 equivalent: `127.0.0.1`.
 
 Unlike IPv4, there is no _broadcast_ concept; "all zeros" or "all ones" combinations in the host portion have no special meaning.
@@ -1384,7 +1385,7 @@ Manual configuration is still useful in controlled environments but becomes diff
 For automatic configuration, several methods exist:
 - The **NDP** (_Neighbor Discovery Protocol_) protocol, specified by RFC4862, enables *stateless* auto-configuration. In this mode, the host receives a network prefix from a local router, and completes the address itself with an identifier based on its MAC address. This method is simple to deploy, and requires no central server.
 - Implementations like those in Windows can generate the host portion pseudo-randomly to improve privacy by avoiding direct exposure of the MAC address. Revealing the MAC address in IPv6 packets can raise privacy concerns, as it allows tracking of a device across different networks.
-- DHCPv6 protocol : Defined in RFC3315 and similar to the DHCP used for IPv4, it enables more controlled and centralized configuration, including lease management, extra options (DNS, MTU...), and databases registration. DHCPv6 can operate alone or alongside stateless configuration to provide additional parameters without assigning the IP address itself.
+- DHCPv6 protocol: Defined in RFC3315 and similar to the DHCP used for IPv4, it enables more controlled and centralized configuration, including lease management, extra options (DNS, MTU...), and databases registration. DHCPv6 can operate alone or alongside stateless configuration to provide additional parameters without assigning the IP address itself.
 
 **Important note:** In the MAC-based method, the MAC address is converted to a 64-bit identifier using the EUI-64 format. This mechanism inserts the bytes `FF:FE` in the middle of the original MAC address (in 48 bits), and inverts the 7th bit to indicate global uniqueness. The result is a stable Interface identifier, used in the full IPv6 address.
 
@@ -1414,7 +1415,7 @@ In short, IPv6 offers a wide range of flexibility for address assignment: manual
 The IPv6 address allocation scheme has been structured to meet two objectives: to guarantee global address uniqueness, and to enable a logical hierarchy that favors the aggregation and simplification of routing tables. 
 As with IPv4, the *Internet Assigned Numbers Authority* (IANA) sits at the top of this hierarchy. It manages the global unicast address space and delegates address blocks to the five regional Internet registries (_RIR_).
 
-The five existing RIRs are :
+The five existing RIRs are:
 - ARIN (North America),
 - RIPE NCC (Europe, Middle East, Central Asia),
 - APNIC (Asia-Pacific),
@@ -1469,7 +1470,7 @@ IPv6 packet format differs from IPv4 by being both simpler and more extensible. 
 
 However, IPv6 does not remove functionality: instead of integrating numerous optional fields in the main header, it introduces a system of extension headers, placed immediately after the basic header. These optional headers make it possible to add data or instructions specific to certain functions, without unnecessarily burdening ordinary packets.
 
-Some extension headers follow a fixed structure, while others can hold a variable number of options. In These options are encoded as `{Type, Length, Value}` triplets :
+Some extension headers follow a fixed structure, while others can hold a variable number of options. In These options are encoded as `{Type, Length, Value}` triplets:
 - The "Type" field (1 byte) indicates the nature of the option;
 - The first two bits of the "Type" specify what routers should do if the option is not recognized:
  - Ignore the option and continue treatment,
@@ -1493,8 +1494,8 @@ The routing header specifies a list of intermediate addresses the packet must pa
 - Strict routing: the exact path is predefined
 - Loose routing: only certain mandatory steps are specified.
 
-The first four fields of this rooting header are :
-- **Next Header** : identifies the type of the next header;
+The first four fields of this rooting header are:
+- **Next Header**: identifies the type of the next header;
 - **Routing Type**: defines the routing method (usually `0`);
 - **Segments left**: number of segments remaining to traverse ;
 - **Address[n]**: list of intermediate addresses.
@@ -1555,7 +1556,7 @@ In addition, DNS supports reverse resolution, meaning it can look up the domain 
 
 Reverse resolution of an IPv6 address follows a strict process: 
 1) Expand the address into full hexadecimal notation (16 bytes, i.e. 32 hexadecimal digits).
-Example :  
+Example:  
 
 ```shell
 2001:66c:2a8:22::c100:68b
@@ -1597,7 +1598,7 @@ Integrating IPv6 into the DNS system therefore relies on new record types, a str
 
 ### Part summary
 
-In this section, we explored the fundamental principles of IPv6 addressing. We began by examining the structure of IPv6 address : its 128-bit length, hexadecimal notation, and the simplification rules used to shorten repetitive sequences of zeros. This design enables IPv6 to overcome the limitations of IPv4's address space, while guaranteeing scalability and efficient hierarchy.
+In this section, we explored the fundamental principles of IPv6 addressing. We began by examining the structure of IPv6 address: its 128-bit length, hexadecimal notation, and the simplification rules used to shorten repetitive sequences of zeros. This design enables IPv6 to overcome the limitations of IPv4's address space, while guaranteeing scalability and efficient hierarchy.
 
 We then looked at the different categories of IPv6 addresses: unicast, anycast and multicast, detailing their scope, typical use and representation in the address space.
 
@@ -1698,13 +1699,13 @@ Example output:
 
 This line indicates that the machine knows of a valid mapping between IP address `192.168.1.5` and MAC address `00:17:BC:56:4F:25` via Interface `eth0`.
 
-You can also filter entries by criteria such as IP address, interface, or state. For example, to query only address `192.168.1.7` :
+You can also filter entries by criteria such as IP address, interface, or state. For example, to query only address `192.168.1.7`:
 
 ```bash
 ip neigh show 192.168.1.7
 ```
 
-Or to display all entries for interface `eth1` :
+Or to display all entries for interface `eth1`:
 
 ```bash
 ip neigh show dev eth1
@@ -1718,7 +1719,7 @@ ip neigh add 192.168.1.7 lladdr 00:17:BC:56:4F:25 dev eth1 nud permanent
 
 This permanently associates the IP address `192.168.1.7` with the specified MAC address on interface `eth1`. The `nud permanent` option (for _Neighbor Unreachability Detection_) ensures that the entry will not be automatically invalidated.
 
-Conversely, to delete a cache entry :
+Conversely, to delete a cache entry:
 
 ```bash
 ip neigh del 192.168.1.7 dev eth1
@@ -1812,7 +1813,7 @@ This command outputs a detailed report on the `enp0s3` interface, a common namin
 
 `ethtool` is not limited to observation: it also allows you to adjust certain interface parameters without rebooting the machine. This makes it possible, for example, to force a specific link speed or enable features according to the needs of the local network.
 
-The `-s` option is used to dynamically configure parameters such as :
+The `-s` option is used to dynamically configure parameters such as:
 - link speed (`speed`), set explicitly (e.g. 1000 for 1 Gbit/s) ;
 - duplex mode (`duplex`), either `half` or `full` ;
 - enabling or disabling autonegotiation (`autoneg`) ;
@@ -1825,7 +1826,7 @@ Example 1: enable autonegotiation on an interface:
 ethtool -s enp0s3 autoneg on
 ```
 
-Example 2: enable the *Wake-on-LAN* feature (to allow the machine to wake up remotely via a magic packet) :
+Example 2: enable the *Wake-on-LAN* feature (to allow the machine to wake up remotely via a magic packet):
 
 ```bash
 ethtool -s enp0s3 wol p
@@ -1835,13 +1836,13 @@ In this example, the `p` option specifies that wake-up will occur as soon as a *
 
 #### Tool installation
 
-It is important to note that `ethtool` is not always installed by default. On Red Hat/CentOS distributions, it can be installed with the command :
+It is important to note that `ethtool` is not always installed by default. On Red Hat/CentOS distributions, it can be installed with the command:
 
 ```bash
 yum install -y ethtool
 ```
 
-On Debian and Ubuntu, the equivalent command is :
+On Debian and Ubuntu, the equivalent command is:
 
 ```bash
 sudo apt install ethtool
@@ -1929,7 +1930,7 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Each line represents a route. Key fields include:
 - **default**: the default route, used when no more specific route matches.
 - **via**: the gateway used to reach the destination.
-- **dev** : the network interface used.
+- **dev**: the network interface used.
 - **proto**: how the route was created (manual, DHCP, kernel, etc.).
 - **metric**: route cost, used to prioritize multiple possible paths.
 - **scope**: route scope (e.g. `link` for a directly connected route).
@@ -1939,7 +1940,7 @@ Each line represents a route. Key fields include:
 
 You can also modify the routing table dynamically, for example by adding or removing static routes.
 
-Adding a static route :
+Adding a static route:
 
 ```bash
 ip route add 192.168.1.0/24 via 192.168.1.1 dev eth0
@@ -1960,7 +1961,7 @@ This command deletes the previously defined route.
 Here are some useful variants for analysis or scripting:
 - `ip -4 route`: displays IPv4 routes only;
 - `ip -6 route`: displays IPv6 routes only;
-- `ip route list table main` : displays the main routing table (default value) ;
+- `ip route list table main`: displays the main routing table (default value) ;
 - `ip route get <Address>`: show which interface and gateway a packet to the given address would use.
 
 Example:
@@ -2020,7 +2021,7 @@ Each line corresponds to a router traversed, with up to three time measurements 
 
 #### Result interpretation
 
-If a router doesn't respond or filters ICMP messages, asterisks `*` are displayed instead of the response time. This may indicate :
+If a router doesn't respond or filters ICMP messages, asterisks `*` are displayed instead of the response time. This may indicate:
 - a firewall blocking ICMP replies,
 - a device configured not to respond, or
 - a temporary connectivity issue along the path.
@@ -2049,7 +2050,7 @@ When run without options, the `ss` command displays active TCP connections. Basi
 ss [options]
 ```
 
-Some common options for refining analysis :
+Some common options for refining analysis:
 - `-t`: show TCP connections only;
 - `-u`: show UDP connections only;
 - `-l`: show listening sockets only;

@@ -4800,31 +4800,31 @@ Terakhir, juga dimungkinkan untuk menyiapkan VPN secara langsung pada router And
 
 ### Pemantauan dan deteksi
 
-Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk melampaui keamanan pasif. Pemantauan aktif jaringan lokal Anda dapat mendeteksi perilaku abnormal, koneksi tidak sah, atau tanda-tanda penyusupan. Tujuannya adalah untuk menemukan masalah lebih awal, sebelum menyebabkan kerusakan.
+Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk melampaui keamanan pasif. Pemantauan aktif jaringan lokal Anda dapat mendeteksi perilaku abnormal, koneksi tidak sah, atau tanda-tanda intrusi. Tujuannya adalah untuk menemukan masalah sejak dini, sebelum mereka menyebabkan kerusakan.
 
-Langkah pertama adalah memusatkan log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas yang mencurigakan. Daripada melihat log ini satu per satu, saya sarankan untuk mengirimkannya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa tertentu, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
+Langkah pertama adalah mensentralisasi log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas mencurigakan. Daripada memeriksa log ini satu per satu, saya merekomendasikan untuk mengirimnya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa spesifik, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
 
 https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
-Selanjutnya, lakukan pemindaian aktif secara teratur pada jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah dibuka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda adanya serangan.
+Selanjutnya, lakukan pemindaian aktif secara berkala terhadap jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah mereka buka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda serangan.
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-Untuk melangkah lebih jauh lagi, Anda bisa memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Alat-alat ini, seperti Suricata atau Snort, memonitor aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (pemindaian port, injeksi, koneksi yang mencurigakan, dll.). IDS memberi peringatan, sedangkan IPS dapat secara otomatis memblokir tindakan tertentu.
+Untuk melangkah lebih jauh, Anda dapat memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Aplikasi-aplikasi, seperti Suricata atau Snort, memantau aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (port scans, injeksi, koneksi mencurigakan, dll.). IDS memberikan peringatan, sementara IPS dapat secara otomatis memblokir tindakan-tindakan tertentu.
 
-Terakhir, memantau konsumsi bandwidth juga merupakan indikator yang baik untuk mengetahui aktivitas yang tidak normal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini bisa menjadi petunjuk adanya pengunduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Alat-alat seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
+Terakhir, pemantauan konsumsi bandwidth juga merupakan indikator yang baik dari aktivitas abnormal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini mungkin mengindikasikan unduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Aplikasi seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Pencadangan dan ketahanan
 
-Bahkan dengan jaringan yang sangat aman, kegagalan perangkat keras, kesalahan konfigurasi, atau kejadian tak terduga (kegagalan daya, lonjakan daya, kegagalan disk Hard, dll.) dapat menyebabkan hilangnya data atau mengganggu layanan Anda. Untuk menjamin kelangsungan lingkungan digital Anda dan menghindari memulai dari awal jika terjadi masalah, penting untuk menerapkan strategi pencadangan dan ketahanan.
+Bahkan dengan jaringan yang sangat aman, kegagalan perangkat keras, kesalahan konfigurasi, atau peristiwa tak terduga (pemadaman listrik, lonjakan daya, kegagalan hard disk, dll.) dapat menyebabkan kehilangan data atau mengganggu layanan Anda. Untuk menjamin kelangsungan lingkungan digital Anda dan menghindari memulai dari awal jika terjadi masalah, penting untuk menerapkan strategi pencadangan dan ketahanan.
 
-Mulailah dengan mencadangkan konfigurasi peralatan jaringan Anda secara teratur, terutama router. File konfigurasi ini sering kali dapat diekspor melalui administrasi Interface. Menyimpan salinannya memungkinkan Anda untuk dengan cepat memulihkan sistem fungsional jika terjadi pengaturan ulang atau penggantian perangkat. Saya juga menyarankan untuk mengenkripsi cadangan ini.
+Mulailah dengan mencadangkan konfigurasi peralatan jaringan Anda secara teratur, terutama router. File konfigurasi ini sering kali dapat diekspor melalui Interface administrasi. Menyimpan salinan memungkinkan Anda untuk memulihkan sistem yang berfungsi dengan cepat jika terjadi reset atau penggantian perangkat. Saya juga merekomendasikan untuk mengenkripsi cadangan ini.
 
-Terakhir, untuk meningkatkan ketahanan jaringan Anda jika terjadi kegagalan daya, berinvestasilah pada UPS. Perangkat ini menyediakan daya cadangan selama beberapa menit jika terjadi kegagalan daya, sehingga Anda dapat terus menggunakan Internet atau memastikan bahwa perangkat penting (NAS, router, titik akses Wi-Fi, dll.) mati dengan bersih. Beberapa model juga dapat mengirimkan perintah pematian otomatis ke perangkat yang tersambung apabila mendeteksi baterai hampir habis.
+Terakhir, untuk meningkatkan ketahanan jaringan Anda jika terjadi pemadaman listrik, investasikan pada UPS (_Uninterruptible Power Supply_). Perangkat ini menyediakan daya cadangan selama beberapa menit jika terjadi pemadaman listrik, memungkinkan Anda untuk terus menggunakan Internet atau memastikan bahwa perangkat-perangkat penting (NAS, router, titik akses Wi-Fi, dll.) mati dengan benar. Beberapa model juga dapat mengirim perintah mati otomatis ke perangkat yang terhubung ketika mereka mendeteksi bahwa baterai hampir habis.
 
-Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan jaringan yang kuat dan aman yang menghormati privasi Anda.
+Dengan mengikuti beberapa langkah ini, Anda akan membangun lingkungan jaringan yang tangguh, aman, dan menghormati privasi Anda.
 
 # Bagian akhir
 

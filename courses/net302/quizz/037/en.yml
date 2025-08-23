@@ -6,3 +6,4 @@ wrong_answers:
   - To indicate an addressing or connection error at the local router
 explanation: |
   The 0.0.0.0 notation is used locally to represent the absence of an assigned address or to listen on all interfaces.
+reviewed: false

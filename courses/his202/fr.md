@@ -1626,9 +1626,9 @@ Si l'activité économique a été largement dominée par le trafic de drogue su
 
 Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
 
-## La monnaie du vice : jeu d'argent et prostitution
+## La monnaie du vice : le jeu d'argent et le travail du sexe
 
-Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice, qui peut être moralement réprouvé, voire légalement interdit.
+Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice, qui peut être moralement réprouvé, voire légalement interdit. Il y a évidemment la consommation de drogue, dont nous avons déjà parlé dans un chapitre précédent. Mais il y a aussi le jeu d'argent et le travail du sexe.
 
 ### Le poker et le jeu d'argent en ligne
 
@@ -1664,7 +1664,7 @@ Joseph est un développeur américain [de 30 ans](http://fireduck.com/index-sing
 
 Joseph Gleason, alias Fireduck, en février 2014 (source : [Twitter](https://twitter.com/Fireduck1209k))
 
-En 2012, il a l'idée d'un moyen. Le 9 avril, Joseph lance son casino en ligne, hébergé sur son site personnel, 1209k.com \[1209k BitCasino\]. Il le [présente](https://www.reddit.com/r/Bitcoin/comments/s1dn3/my_verifiable_bitcoin_casino/) sur le subreddit de Bitcoin (r/Bitcoin) comme un « casino de bitcoins vérifiable » (original: "Verifiable Bitcoin Casino"). Le site repose sur des adresses fixes qui donnent chacune une chance prédéfinie de multiplier la mise du joueur par un nombre précis. L'utilisateur envoie le montant à l'adresse et reçoit, si le tirage est favorable, la récompense correspondante sur son adresse personnelle. Par exemple, l'adresse `194udqXac9hGs5RvevjHR5L3EJaGXDzahe` donne une chance sur deux de doubler sa mise, moins les frais du casino qui sont de 1 à 3 %.
+En 2012, il a l'idée d'un moyen. Le 9 avril, Joseph lance son casino en ligne, hébergé sur son site personnel, 1209k.com \[1209k BitCasino\]. Il le [présente](https://www.reddit.com/r/Bitcoin/comments/s1dn3/my_verifiable_bitcoin_casino/) sur le sous-forum de Bitcoin sur Reddit (r/Bitcoin) comme un « casino de bitcoins vérifiable » (original: "Verifiable Bitcoin Casino"). Le site repose sur des adresses fixes qui donnent chacune une chance prédéfinie de multiplier la mise du joueur par un nombre précis. L'utilisateur envoie le montant à l'adresse et reçoit, si le tirage est favorable, la récompense correspondante sur son adresse personnelle. Par exemple, l'adresse `194udqXac9hGs5RvevjHR5L3EJaGXDzahe` donne une chance sur deux de doubler sa mise, moins les frais du casino qui sont de 1 à 3 %.
 
 Le jeu se présente comme un jeu de dés. Un tirage est réalisé à chaque transaction, et se trouve entre 0 et 65 536. Ce « nombre chanceux » (original: "lucky number") est [obtenu](https://web.archive.org/web/20120507154620/http://satoshidice.com/secrets.php) en sélectionnant les deux premiers octets du condensé (calculé par HMAC-SHA-512) d'une information secrète et de l'identifiant de la transaction entrante. Si ce nombre est strictement inférieur à une cible liée à l'adresse (32768 pour l'adresse multipliant la mise par deux), alors le tirage est gagnant et la personne reçoit le montant prévu. S'il est supérieur, alors il reçoit une petite fraction du montant, pour confirmer que le système a fonctionné. Chaque pari génère donc deux transactions qui sont ajoutées à la chaine.
 
@@ -1702,19 +1702,27 @@ C'est ce qui motive Erik Voorhees à aller encore plus loin. À partir du 24 ao�
 
 Les profits du jeu en ligne [seront](https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/) énormes. En huit mois, SatoshiDICE gagnera 33 310 bitcoins, ce qui s'élèvera avec la hausse du cours à plus de 500 000 $. En janvier 2013, l'entreprise sera évaluée à près de 9 millions de dollars de capitalisation. De même, BitZino réalisera un profit de l'ordre de 10 000 bitcoins. Le profit de Seals with Clubs sera lui estimé à 600 bitcoins par mois en moyenne.
 
-### La prostitution
+### Le travail du sexe
 
-travailleuses du sexe.
+Mais le jeu d'argent n'est pas la seule activité qui bénéficie de Bitcoin ; il y a aussi ce qu'on nomme le travail du sexe. Cela inclut les activités impliquant un contact physique direct (prostitution au sens strict), mais aussi la stimulation sexuelle indirecte, comme le striptease, le téléphone rose ou la pornographie. En particulier,avec Internet s'est développé le phénomène des camgirls qui profitent de la diffusion en direct sur Internet pour interagir directement avec leurs clients qui peuvent leur communiquer leurs désirs.
 
-- PIMPCOIN : https://bitcointalk.org/index.php?topic=57260.0
+Bitcoin est adapté pour le travail du sexe. Dans un secteur largement basé sur l'argent liquide, Bitcoin apparait comme une alternative [plus sûre](https://web.archive.org/web/20131217032819/http://internationalsocialistnetwork.org/index.php/ideas-and-arguments/301-mistress-magpie-a-left-defence-of-bitcoin). En ligne, non seulement Bitcoin permet de faire des transferts où la prostitution est interdite, mais il évite aussi, par son anonymat relatif, de subir des remontrances sociales de la part de la société. Satoshi l'avait très compris. En 2009, il [évoquait](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) ainsi le cas d'utilisation des « micropaiement pour les silte pour adultes » (original: "micropayments for adult sites"), et en 2010, il [écrivait](https://bitcointalk.org/index.php?topic=671.msg13844#msg13844) que « Bitcoin serait pratique pour les gens qui n'ont pas de carte de crédit ou qui ne veulent pas utiliser celles dont ils disposent, soit parce qu'ils ne veulent pas que leur conjoint voie les dépenses sur la facture, soit parce qu'ils ne veulent pas donner leur numéro aux "pros du porno", ou encore parce qu'ils ont peur des facturations récurrentes » (original: "Bitcoin would be convenient for people who don't have a credit card or don't want to use the cards they have, either don't want the spouse to see it on the bill or don't trust giving their number to 'porn guys', or afraid of recurring billing.").
 
-- Girls Gone Bitcoin : [Bitcointalk, 23/03/2012](https://bitcointalk.org/index.php?topic=73666.msg816065#msg816065)
+Il est donc logique que cette utilisation émerge, même si celle-ci reste plus ou moins bourgeonnante. En janvier 2012, Tony Gallippi [lance](https://web.archive.org/web/20120128135530/https://bitcointalk.org/index.php?topic=57260.0) par exemple un service appelé PimpCoin, qui permet de customiser une carte de dépôt pour accepter le bitcoin en tant que travailleuse du sexe.
 
-Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
+Le 26 mars 2012, un sous-forum sur Reddit nommé r/GirlsGoneBitcoin est [ouvert](https://bitcointalk.org/index.php?topic=73666.msg816065#msg816065) par Julian Tosh, dit « Tuxavant », un défenseur de Linux et de la vie privée vivant à Las Vegas. Il s'inspire du sous-forum pour adultes r/GoneWild, où les utilisatrices publient des photos dénudées d'elles-mêmes. L'intérêt de r/GirlsGoneBitcoin, c'est qu'elles peuvent ajouter une adresse à leurs photos afin de recevoir des pourboires en bitcoins. Une utilisatrice se présentant sous le pseudonyme LadyBytes réalise un [tutoriel](https://www.dailymotion.com/video/xpsy75) (NSFW) pour montrer comment elles peuvent utiliser Bitcoin facilement.
 
-[8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
+![LadyBytes en mars 2012](assets/en/ladybytes-photo-tutorial-20120329-imgur.webp)
 
-"Porn, gambling, and malware", 8 juin 2012 : https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/
+LadyBytes en mars 2012 (source : [Imgur](https://web.archive.org/web/20120401012310/http://imgur.com/a/JDVRZ))
+
+Le subreddit fera son bout de chemin et [comptera](https://subredditstats.com/r/girlsgonebitcoin) près de 2 000 membres à la fin de l'année.
+
+### Monnaie du vice, monnaie du crime
+
+Bitcoin a ainsi été une monnaie du vice. Outre le trafic de drogue, il s'est rapidement distingué pour soutenir le jeu d'argent, ainsi que la prostitution. En particulier, le succès de SatoshiDICE a fait exploser le nombre de transactions effectuées sur la chaine de blocs, montrant la capacité de Bitcoin à accueillir ce type d'activité.
+
+Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : elle était également la monnaie idéale pour le crime sur Internet. On a ainsi vu un certain nombre de piratages et de vols en tous genres se produire en 2012. C'est le sujet du prochain chapitre.
 
 ## La monnaie du crime : arnaques et piratages
 
@@ -1723,6 +1731,8 @@ En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu
 [26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
 ### Le piratage de Linode
+
+Cybercrime : ex : Bitcoin botnet mining ([17/06/2011](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)) par ZeuS (voir [rapport du FBI](https://cryptome.org/2012/05/fbi-bitcoin.pdf)), ou infection d'utilisateurs individuels ; mais le plus rentable est le piratage des platefromes de change, qui conservent de grandes quantités de bitcoins.
 
 **Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush (3 000 BTC) et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
 
@@ -1771,6 +1781,8 @@ https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Busine
 19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
 
 ### Le déclin du Far West
+
+"This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin’s community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)
 
 À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
 

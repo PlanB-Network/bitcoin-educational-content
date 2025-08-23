@@ -1,0 +1,5 @@
+---
+term: BIT GOUD
+---
+
+Bitgoud is een gedecentraliseerd digitaal muntsysteem, bedacht door Nick Szabo in 1998 en publiekelijk beschreven in 2005. Bitgoud was ontworpen om generate en Exchange een virtuele bron genaamd bitgoud. Dit systeem was niet gebaseerd op een fysiek goed, maar had als doel een vorm van onvervalsbare schaarste te creëren. Het bitgoudprotocol was gebaseerd op het creëren van valuta via Proof of Work, waarbij stukken bitgoud werden gecreëerd met behulp van de rekenkracht van computers en zo een keten van Proof of Work vormden. Elke Proof of Work werd voorzien van een tijdstempel en vervolgens toegevoegd aan een eigendomsregister. De verificatie en overdracht van bitgoud Ownership werd uitgevoerd via een publiek register, waar gebruikers werden geïdentificeerd door publieke sleutels. Bitgoud bleef in de conceptuele fase en werd nooit geïmplementeerd. Dit systeem is een van de voorlopers van Bitcoin, samen met b-geld en RPoW, maar Satoshi leek niet op de hoogte te zijn van het bestaan ervan voordat Bitcoin werd opgericht. Het werd later genoemd op de website en het forum van Bitcoin.

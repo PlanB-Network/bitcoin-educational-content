@@ -1,0 +1,25 @@
+id: 047ca2eb-a922-4e0e-8f75-1b89d23951ae
+
+project_id: d655e18b-d299-4c88-beb5-e6b688d86024
+
+tags:
+  - guides
+  - network-security
+  - personal-security
+
+category: authentication
+
+level: beginner
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-08-19
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

@@ -118,7 +118,7 @@ ASICs är chip som kan jämföras med ett CPU-chip, men de är utvecklade för a
 Numera använder miners uteslutande ASIC:er som är avsedda för denna operation, optimerade för att testa det maximala antalet kombinationer med minsta möjliga energiförbrukning och så snabbt som möjligt. Dessa datorer, som inte kan utföra andra uppgifter än Bitcoin Mining, är ett påtagligt bevis på den kontinuerliga utvecklingen och den ökande specialiseringen av Bitcoin Mining-industrin. Denna ständiga utveckling återspeglar den inneboende dynamiken i Bitcoin, där en svårighetsjustering säkerställer produktionen av ett block var tionde minut trots den exponentiella ökningen av Mining-kapaciteten.
 
 
-För att illustrera intensiteten i denna process kan man tänka sig en typisk Miner som kan uppnå 14 TeraHash per sekund, eller 14 biljoner försök varje sekund att hitta rätt Hash. I Bitcoin-nätverkets skala når vi nu cirka 300 HexaHash per sekund, vilket belyser den kollektiva kraften som mobiliserats i Bitcoin Mining.
+För att illustrera intensiteten i denna process kan man tänka sig en typisk Miner som kan uppnå 14 TeraHash per sekund, eller 14 biljoner försök varje sekund att hitta rätt Hash. I Bitcoin-nätverkets skala når vi nu cirka 300 ExaHash per sekund, vilket belyser den kollektiva kraften som mobiliserats i Bitcoin Mining.
 
 
 ### Justering av svårighetsgrad

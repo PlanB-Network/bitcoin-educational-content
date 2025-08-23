@@ -1,0 +1,4 @@
+description: |
+  Samourai, gizlilik ve güvenliğe adanmış bir Bitcoin Wallet'tir.
+  
+  Blockchain tabanlı gözetimi önlemek için gelişmiş teknolojiler kullanır ve çevrimdışı işlemlere izin verir. Gözetim altında olmayan Wallet, özel anahtarlar üzerinde tam kontrol sağlar. Ayrıca, yüksek performanslı, kendi kendine barındırılan bir Full node olan RoninDojo ve bitcoinler ile işlem geçmişleri arasındaki bağlantıyı kesmek için tasarlanmış Chaumian CoinJoin'ün bir uygulaması olan Whirlpool'yi de sunmaktadır. Samourai'nin arkasındaki ekip, Bitcoin ekosisteminde gizlilik ve güvenliğe öncelik veren yazılımlar yaratmaya kendini adamış gizlilik aktivistlerinden oluşmaktadır.

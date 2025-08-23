@@ -1,6 +1,6 @@
 ---
-name: Wie Sie mit Bittr Bitcoin in Ihr eigenes Wallet umwandeln
-description: Eine einfache Schritt-für-Schritt-Anleitung für Bitcoin-Käufe in Eigenregie
+name: Bittr
+description: Wie Sie mit Bittr Bitcoin in Ihr eigenes Wallet umwandeln
 ---
 
 ![cover](assets/cover.webp)

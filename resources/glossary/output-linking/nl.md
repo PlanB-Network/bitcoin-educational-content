@@ -1,0 +1,5 @@
+---
+term: UITVOER VERBINDING
+---
+
+Soms synoniem gebruikt om te verwijzen naar hergebruik van Address. Output linking verwijst naar de praktijk om dezelfde ontvangende Address te gebruiken om meerdere UTXO's te vergrendelen, soms over verschillende transacties. Bitcoins worden meestal vergrendeld met een cryptografisch sleutelpaar dat overeenkomt met een unieke Address. Omdat de Blockchain openbaar is, is het eenvoudig om te zien welke adressen geassocieerd zijn met hoeveel bitcoins. In het geval van hergebruik van dezelfde Address voor meerdere betalingen, kan worden aangenomen dat alle geassocieerde UTXO's aan dezelfde entiteit toebehoren. Daarom vormt hergebruik van Address een probleem voor de privacy van de gebruiker. Het maakt deterministische koppelingen tussen meerdere transacties en UTXO's mogelijk en bestendigt het volgen van On-Chain fondsen.

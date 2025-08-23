@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+---
+
+Controleert meerdere handtekeningen tegen meerdere openbare sleutels. Het neemt als invoer een serie van `N` openbare sleutels en `M` handtekeningen, waarbij `M` kleiner of gelijk aan `N` kan zijn. `OP_CHECKMULTISIG` controleert of tenminste `M` handtekeningen overeenkomen met `M` van de `N` openbare sleutels. Merk op dat door een historische off-by-one bug, een extra element wordt verwijderd door `OP_CHECKMULTISIG` van de stack. Dit element wordt het "*dummy element*" genoemd. Om een fout in het `scriptSig` te voorkomen, wordt daarom een `OP_0`, wat een nutteloos element is, toegevoegd om aan de verwijdering te voldoen en de bug te omzeilen. Sinds BIP147 (geïntroduceerd met SegWit in 2017) moet het nutteloze element dat door de bug wordt verbruikt `OP_0` zijn om het script geldig te laten zijn, omdat het een vector voor vervormbaarheid was. Deze opcode is verwijderd in Tapscript.

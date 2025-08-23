@@ -77,7 +77,7 @@ Na začátku dominovala éra CPU, kdy těžaři používali své osobní počít
 
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
-Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 HexaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
+Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 ExaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
 
 ### Úprava obtížnosti:
 

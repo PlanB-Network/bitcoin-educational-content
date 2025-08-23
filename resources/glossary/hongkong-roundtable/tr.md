@@ -1,0 +1,8 @@
+---
+term: HONG-KONG YUVARLAK MASA TOPLANTISI
+---
+
+Blocksize Savaşı'nın tarihi bir olayı 20 Şubat 2016 tarihinde Hong Kong'da gerçekleşti. Bitcoin core geliştiricileri ve madencileri arasında sistemin ölçeklenebilirliğini ve ölçeklendirme stratejisini tartışmak üzere yapılan önemli bir toplantıydı. Toplantı öncesinde, özellikle Gavin Andressen tarafından desteklenen ve blok boyutunu 2 MB'a çıkarmayı amaçlayan bir Hard Fork önerisi olan Bitcoin Classic'in yükselişi nedeniyle tansiyon yüksekti. Bitmain'in kurucu ortakları Jihan Wu ve Micree Zhan, Blockstream'in başkanı Adam Back ve Luke Dashjr, Matt Corallo ve Peter Todd gibi ekosistemin etkili isimleri tartışmalarda yer aldı.
+
+
+İlerleme kaydedilmemesinden dolayı hayal kırıklığına uğrayan madenciler, 2 MB Hard Fork'ün uygulanmaması halinde Bitcoin Classic'i desteklemekle tehdit etti. Geliştiriciler SegWit'nın uygulanabilir bir çözüm olduğunu savundu. Saatler süren gergin müzakerelerin ardından, Bitcoin core geliştiricilerinin SegWit'nın uygulanmasından sonra bir Hard Fork üzerinde çalışacaklarını belirten bir anlaşmaya varıldı. Bu anlaşmanın gerginliği azaltması bekleniyordu, ancak sonuçta daha fazla güvensizlik ve kafa karışıklığı yarattı. Her iki taraf da anlaşmayı farklı yorumladı ve topluluk içindeki bölünmeleri şiddetlendirdi. Bu anlaşma Bitcoin Classic'in ivmesini geçici olarak yavaşlatmış olsa da, birçok kişi tarafından tatmin edici olmayan ve beceriksiz bir çözüm olarak görüldü.

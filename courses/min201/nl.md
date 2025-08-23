@@ -118,7 +118,7 @@ ASIC's zijn chips, vergelijkbaar met een CPU-chip, maar ze zijn ontwikkeld om sl
 Tegenwoordig gebruiken mijnwerkers uitsluitend ASIC's die speciaal voor deze bewerking zijn geoptimaliseerd om het maximale aantal combinaties te testen met het kleinst mogelijke energieverbruik en zo snel mogelijk. Deze computers, die geen andere taken kunnen uitvoeren dan Bitcoin Mining, zijn een tastbaar bewijs van de voortdurende evolutie en toenemende specialisatie van de Bitcoin Mining industrie. Deze constante evolutie weerspiegelt de intrinsieke dynamiek van Bitcoin, waar een moeilijkheidsaanpassing zorgt voor de productie van een blok elke tien minuten, ondanks de exponentiële toename van de Mining capaciteit.
 
 
-Om de intensiteit van dit proces te illustreren, bekijk een typische Miner die 14 TeraHash per seconde kan bereiken, of 14 biljoen pogingen per seconde om de juiste Hash te vinden. Op de schaal van het Bitcoin netwerk bereiken we nu ongeveer 300 HexaHash per seconde, wat de collectieve kracht benadrukt die in Bitcoin Mining gemobiliseerd wordt.
+Om de intensiteit van dit proces te illustreren, bekijk een typische Miner die 14 TeraHash per seconde kan bereiken, of 14 biljoen pogingen per seconde om de juiste Hash te vinden. Op de schaal van het Bitcoin netwerk bereiken we nu ongeveer 300 ExaHash per seconde, wat de collectieve kracht benadrukt die in Bitcoin Mining gemobiliseerd wordt.
 
 
 ### Moeilijkheidsaanpassing

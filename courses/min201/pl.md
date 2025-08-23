@@ -118,7 +118,7 @@ Układy ASIC to układy porównywalne z układami CPU, jednak zostały one oprac
 Obecnie górnicy używają wyłącznie układów ASIC dedykowanych tej operacji, zoptymalizowanych pod kątem testowania maksymalnej liczby kombinacji przy jak najmniejszym zużyciu energii i tak szybko, jak to możliwe. Komputery te, niezdolne do wykonywania zadań innych niż Bitcoin Mining, są namacalnym świadectwem ciągłej ewolucji i rosnącej specjalizacji branży Bitcoin Mining. Ta ciągła ewolucja odzwierciedla wewnętrzną dynamikę Bitcoin, gdzie dostosowanie trudności zapewnia produkcję bloku co dziesięć minut, pomimo wykładniczego wzrostu wydajności Mining.
 
 
-Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 HexaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
+Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 ExaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
 
 
 ### Dostosowanie trudności

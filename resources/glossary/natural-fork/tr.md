@@ -1,0 +1,5 @@
+---
+term: DOĞAL Fork
+---
+
+Farklı madenciler tarafından aynı yükseklikte birkaç bloğun neredeyse eşzamanlı olarak yayınlanmasından kaynaklanan Blockchain'in geçici olarak ayrılması. Bu durum, $A$ ve $B$ olarak belirlenen iki blok neredeyse aynı anda bulunduğunda ortaya çıkar ve ağın geçici olarak bölünmesine neden olur. Her düğüm aldığı ilk bloğu geçerli olarak kabul ettiğinden, ancak herkes aynı bloğu ilk olarak almadığından, düğümlerin bir kısmı $A$ bloğunu içeren zinciri takip ederken, diğer kısmı $B$ bloğunu içeren zinciri takip eder. Bu Fork, iki rakip zincirden biri birikmiş iş açısından diğerini geçtiğinde çözülür. Bu noktada, ağdaki tüm düğümler otomatik olarak daha uzun zincir (en fazla birikmiş işe sahip) üzerinde anlaşır, bu süreç yeniden düzenleme veya yeniden senkronizasyon olarak bilinir. Bu doğal çatallanmalar Bitcoin'nin dağıtık çalışmasının doğasında vardır. Tamamen normaldirler ve birkaç blok sonra (genellikle sadece bir tane) kendiliğinden çözülürler. Bununla birlikte, çok sık meydana gelirlerse, bu çatallar yine de zararlı olabilir, çünkü sonunda kullanılmayacak bir dalda hesaplama gücünün boşa harcanmasına neden olurlar.

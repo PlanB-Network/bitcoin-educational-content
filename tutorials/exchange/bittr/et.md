@@ -1,6 +1,6 @@
 ---
-name: Kuidas osta Bitcoin oma Wallet-ks koos Bittriga
-description: Lihtne samm-sammuline juhend Bitcoin ostude eestkostmiseks iseenda eestkostel
+name: Bittr
+description: Kuidas osta Bitcoin oma Wallet-ks koos Bittr
 ---
 
 ![cover](assets/cover.webp)

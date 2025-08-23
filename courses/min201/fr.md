@@ -80,7 +80,7 @@ Les ASICs sont des puces, comparables à la puce d’un CPU, cependant, elles so
 
 De nos jours, les mineurs emploient exclusivement des ASICs dédiées à cette opération, optimisées pour tester un nombre maximal de combinaisons avec la plus petite consommation d’énergie possible et le plus rapidement possible. Ces ordinateurs, incapables d’exécuter des tâches autres que le minage de Bitcoin, sont un témoignage palpable de l'évolution continue et de la spécialisation croissante de l'industrie du minage de Bitcoin. Cette constante évolution reflète la dynamique intrinsèque du Bitcoin, où un ajustement de la difficulté garantit la production d’un bloc toutes les dix minutes malgré l'augmentation exponentielle de la capacité de minage.
 
-Pour illustrer l'intensité de ce processus, considérez un mineur typique capable de réaliser 14 TeraHash par seconde, soit 14 000 milliards d'essais chaque seconde pour trouver le hash correct. À l'échelle du réseau Bitcoin, on atteint aujourd'hui environ 300 HexaHash par seconde, soulignant la puissance collective mobilisée dans le minage de Bitcoin.
+Pour illustrer l'intensité de ce processus, considérez un mineur typique capable de réaliser 14 TeraHash par seconde, soit 14 000 milliards d'essais chaque seconde pour trouver le hash correct. À l'échelle du réseau Bitcoin, on atteint aujourd'hui environ 300 ExaHash par seconde, soulignant la puissance collective mobilisée dans le minage de Bitcoin.
 
 ### Ajustement de la difficulté:
 

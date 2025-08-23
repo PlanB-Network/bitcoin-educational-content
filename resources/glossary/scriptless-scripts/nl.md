@@ -1,0 +1,5 @@
+---
+term: SCRIPTLOZE SCRIPTS
+---
+
+Dit concept, oorspronkelijk ontwikkeld door Andrew Poelstra, maakt het mogelijk slimme contracten uit te voeren zonder de logica van de Contract expliciet bloot te leggen op de Bitcoin Blockchain. Zoals de naam "scriptloze scripts" al suggereert, is het idee gebaseerd op het uitvoeren van scripts (of contracten) zonder expliciet scripts te gebruiken. Deze contracten maken gebruik van de eigenschappen van Schnorr-handtekeningen, die het gebruik van *Adaptor-handtekeningen* mogelijk maken, met name voor het uitvoeren van *Atomic Swaps*. De Contract voorwaarden worden off-chain toegepast en uitgevoerd door de betrokken partijen, die als enige op de hoogte zijn van de voorwaarden. In tegenstelling tot traditionele slimme contracten, minimaliseren *Scriptless Scripts* hun voetafdruk op de Blockchain, waardoor de operationele kosten dalen. Deze contracten zijn ook discreter dan traditionele slimme contracten, die sporen op de Blockchain achterlaten. Ze lijken dus op gewone transacties, wat hun anonimiteit verhoogt.

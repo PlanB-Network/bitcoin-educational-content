@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+"*Secure Hash Algorithm 256 bits*" için kısaltma. 256-bit özet üreten bir kriptografik Hash fonksiyonudur. 2000'li yılların başında *Ulusal Güvenlik Ajansı* (NSA) tarafından tasarlanmış ve hassas verilerin işlenmesi için federal bir standart haline gelmiştir. Bitcoin protokolünde `SHA256` işlevi her yerde bulunur. Proof of Work'ın bir parçası olarak Hash blok başlıkları için kullanılır. sHA256 ayrıca bir açık anahtardan bir alıcı Address türetme sürecinde de kullanılır. Ek olarak, Merkle ağaçları içindeki işlemlerin ve tanıkların bloklar halinde toplanması için kullanılır. sHA256` ayrıca anahtar parmak izlerinin hesaplanmasında, belirli sağlama toplamlarının hesaplanmasında ve Bitcoin ile ilgili diğer birçok işlemde de bulunur. Art arda iki kez uygulandığında `HASH256` olarak adlandırılır. Bu çift uygulama Bitcoin üzerinde ağırlıklı olarak kullanılan uygulamadır. SHA256`, `RIPEMD160` işlevi ile birlikte kullanıldığında, `HASH160` olarak adlandırılır. Bu çift hashing, anahtar parmak izleri ve genel anahtarları hashing etmek için kullanılır. SHA256` işlevi SHA 2 ailesinin bir parçasıdır.

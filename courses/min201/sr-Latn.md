@@ -118,7 +118,7 @@ ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavlj
 Danas rudari isključivo koriste ASIC uređaje posvećene ovoj operaciji, optimizovane da testiraju maksimalan broj kombinacija uz najmanju moguću potrošnju energije i što je brže moguće. Ovi računari, nesposobni za obavljanje zadataka osim Bitcoin Mining, su opipljiv dokaz kontinuirane evolucije i sve veće specijalizacije Bitcoin Mining industrije. Ova stalna evolucija odražava intrinzičnu dinamiku Bitcoin, gde prilagođavanje težine osigurava proizvodnju bloka svakih deset minuta uprkos eksponencijalnom povećanju Mining kapaciteta.
 
 
-Da ilustrujemo intenzitet ovog procesa, razmotrite tipičan Miner sposoban da postigne 14 TeraHash-a po sekundi, ili 14 triliona pokušaja svake sekunde da pronađe tačan Hash. Na nivou Bitcoin mreže, sada dostižemo približno 300 HexaHash-a po sekundi, što ističe kolektivnu snagu mobilisanu u Bitcoin Mining.
+Da ilustrujemo intenzitet ovog procesa, razmotrite tipičan Miner sposoban da postigne 14 TeraHash-a po sekundi, ili 14 triliona pokušaja svake sekunde da pronađe tačan Hash. Na nivou Bitcoin mreže, sada dostižemo približno 300 ExaHash-a po sekundi, što ističe kolektivnu snagu mobilisanu u Bitcoin Mining.
 
 
 ### Podešavanje težine

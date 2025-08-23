@@ -1,0 +1,5 @@
+---
+term: AANDELEN MOEILIJKHEID
+---
+
+Een doelmoeilijkheid hoger dan die van Bitcoin (dus minder moeilijk), gedefinieerd door een Mining pool om een Hash van een aandeel te kwalificeren en de bijdrage van elke individuele Miner binnen de pool te beoordelen. Om de verificatielast efficiënt te beheren en ervoor te zorgen dat elke Miner, ongeacht zijn rekenkracht, regelmatig aandelen indient, passen pools de moeilijkheidsgraad van de aandelen aan. De moeilijkheidsgraad die aan elke Miner is toegewezen, bepaalt het aantal aandelen dat ze verzamelen: als een Miner bijvoorbeeld een moeilijkheidsgraad van 10 toegewezen krijgt en 5 geldige werkbewijzen indient met deze moeilijkheidsgraad, krijgt hij 50 aandelen. Een krachtigere Miner met een moeilijkheidsgraad van 100 die 7 geldige werkproeven instuurt, krijgt 700 aandelen. Dit systeem maakt het mogelijk om de Hashrate van elke Miner nauwkeurig te kwantificeren en de beloningen te verdelen volgens de gekozen berekeningsmethode voor compensatie (PPS, PPLNS, TIDES...).

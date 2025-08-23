@@ -1,6 +1,6 @@
 ---
-name: BittrでBitcoinを自分のWalletに買い換える方法
-description: Bitcoin購入のための簡単なステップ・バイ・ステップ・ガイド
+name: Bittr
+description: BittrでBitcoinを自分のWalletに買い換える方法
 ---
 
 ![cover](assets/cover.webp)

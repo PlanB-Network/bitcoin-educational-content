@@ -715,7 +715,8 @@ Le 3 janvier 2009, Satoshi a officiellement inauguré le réseau Bitcoin en cré
 
 > "Nous pouvons remporter une bataille majeure dans la course aux armements et gagner une place de choix dans l'histoire de l'Europe
 > nouveau territoire de liberté depuis plusieurs années" - Satoshi Nakamoto
-> ![image](assets/fr/42.webp)
+
+![image](assets/fr/42.webp)
 
 ### Le protocole Bitcoin prend vie
 
@@ -727,7 +728,7 @@ L'intérêt pour le Bitcoin s'est rapidement développé, amenant de nombreuses 
 
 Le forum est rapidement devenu le lieu de discussion privilégié des utilisateurs de Bitcoin, à tel point que des mèmes et symboles célèbres associés à Bitcoin en sont nés, tels que le [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), le célèbre [Hodl](https://bitcointalk.org/index.php?topic=375643.0), ou encore le [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-**Le 22 mai 2010**, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
+**Saviez-vous ?** Le 22 mai 2010, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
 
 ![image](assets/fr/44.webp)
 

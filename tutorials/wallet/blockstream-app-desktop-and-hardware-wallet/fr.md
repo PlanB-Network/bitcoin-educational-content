@@ -94,84 +94,84 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 ## 4. Connecter un hardware wallet à Blockstream App
 
-### 4.1. Lancer la connexion
+### 4.1. Considérations préalables
 
-- **Précaution** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
-- Depuis l’écran d’accueil, validez les conditions générales d'utilisation et cliquez sur "**Get Started**" :
+#### 4.1.1. Pour les utilisateurs de Ledger
 
-![image](assets/fr/08.webp)
+- Blockstream Green ne prend en charge que l’application **Bitcoin Legacy** sur les appareils Ledger (Nano S, Nano X).
+- Étapes à suivre dans **Ledger Live** avant de connecter votre appareil :
+	1. Allez dans **"Paramètres"** → **"Fonctionnalités expérimentales"** et activez le **mode développeur**.
+	2. Accédez à **"My Ledger"** → **"Catalogue d'apps"**, puis installez l’application **Bitcoin Legacy**
+	3. Ouvrez l’application **Bitcoin Legacy** sur votre Ledger avant de lancer Blockstream Green pour établir la connexion.
+- **Note** : Assurez-vous que votre Ledger est déverrouillé avec votre code PIN et que l’application Bitcoin Legacy est active lors de la connexion.
 
-- Sélectionnez l’option "**On Hardware Wallet**" pour gérer un portefeuille froid via un hardware wallet.
+#### 4.1.2. Initialisation d’un nouveau hardware wallet
 
-![image](assets/fr/09.webp)
+- Si votre hardware wallet (Ledger, Trezor, ou Blockstream Jade) n’a jamais été utilisé (ni avec Blockstream Green, ni avec un autre logiciel comme Ledger Live), vous devrez d’abord l’initialiser. Cette étape comprend, dans un environnement sécurisé, sans caméras ni observateurs :
+	1. **Génération de la seed phrase / phrase mnémonique** (12, 18 ou 24 mots) : Notez-la soigneusement sur un papier.
+	2. **Vérification de la seed phrase** : Testez l'importation du wallet à partir des mots notés, par exemple en vérifiant la clef publique étendue. A réaliser avant d'envoyer des fonds sur le wallet et de sécuriser définitivement la seed phrase.
+	3. **Sécurisation de la seed phrase** : Stockez la phrase sur un support physique (papier ou métal) et dans un endroit sûr. Ne la conservez jamais numériquement (pas de capture d’écran, cloud, ou messagerie).
+- **Important** : La seed phrase est votre seul moyen de récupérer vos fonds en cas de perte ou de dysfonctionnement de l’appareil. Toute personne y ayant accès peut voler vos bitcoins.
+- **Ressources** pour la sauvegarde et la vérification de la seed phrase :
 
-- Si vous utilisez un **Blockstream Jade**, cliquez sur le bouton correspondant. Sinon, sélectionnez "**Connect a different Hardware Device**". Pour les utilisateurs de Ledger, assurez-vous que l’application **Bitcoin Legacy** est installée sur votre appareil, car Blockstream App ne prend en charge que cette version.
-
-![image](assets/fr/10.webp)
-
-- Branchez votre hardware wallet à l’ordinateur via USB et sélectionnez-le dans Blockstream App.
-
-![image](assets/fr/.webp)
-
-- Patientez pendant que Blockstream App importe les informations de votre portefeuille.
-
-![image](assets/fr/.webp)
-
-### 4.2. Créer ou importer un compte
-
-- **Scénario 1 : Portefeuille existant** : Si votre hardware wallet a déjà été utilisé, votre compte apparaîtra automatiquement dans l’interface après l’importation.
-- **Scénario 2 : Nouveau portefeuille** : Si vous venez d’initialiser votre hardware wallet avec une nouvelle phrase mnémonique, créez un compte en cliquant sur "**Create Account**".
-
-![image](assets/fr/.webp)
-
-- Choisissez "**Standard**" pour configurer un portefeuille Bitcoin classique.
-
-![image](assets/fr/.webp)
-
-- Une fois le compte créé, vous accédez à l’interface principale de votre portefeuille.
-
-![image](assets/fr/.webp)
-
-### 4.3. Sauvegarder la phrase mnémonique
-
-- **Important** : La phrase mnémonique (12 ou 24 mots) est générée par votre hardware wallet, non par Blockstream App. Suivez les instructions de votre appareil (Ledger, Trezor, ou Jade) pour sauvegarder cette phrase.
-- Notez-la sur du papier ou du métal et conservez-la dans un endroit sûr (coffre-fort, lieu hors ligne). Cette phrase est le seul moyen de récupérer vos bitcoins en cas de perte ou de dysfonctionnement du hardware wallet.
-- **Sécurité** :
-    - Ne stockez jamais la phrase numériquement (pas de capture d’écran, pas de cloud, pas de messagerie).
-    - Toute personne ayant accès à cette phrase peut voler vos bitcoins.
-- Pour plus d’informations sur la sauvegarde :
+[https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895](https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895)
 
 [https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270](https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
 
 [https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
-### 4.4. Tester la phrase mnémonique
+#### Configuration pour ce tutoriel :
 
-Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots.
+- Nous considèrerons que le hardware wallet a déjà été initialisé avec une seed phrase et un code PIN de verrouillage.
+- Nous considérons que le hardware wallet n’a jamais été connecté à Blockstream App, ce qui nécessite la création d'un nouveau compte. Si le hardware wallet a déjà été utilisé avec Blockstream App, le compte apparaîtra automatiquement à l’ouverture de l’application.
 
-Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
+### 4.2. Lancer la connexion
 
-- Depuis l'écran d'accueil de votre wallet, ouvrez le menu déroulant du wallet, cliquez sur "Paramètres" puis sur "**Watch-only**". Notez la clé publique étendue (**xpub**, **ypub**, **zpub**).
+- Depuis l’écran d’accueil, cliquez sur "**Setup a New Wallet**", puis validez les conditions générales d'utilisation et cliquez sur "**Get Started**" :
 
-![image](assets/fr/.webp)
+![image](assets/fr/08.webp)
 
-Nota : une clé publique étendue peut être importée dans votre application Blockstream pour la fonction "Watch Only" (voir en Annexe).
+- Sélectionnez l’option "**On Hardware Wallet**" :
 
-- Réinitialisez votre hardware wallet, restaurez votre wallet avec la phrase mnémonique, et vérifiez que la clé publique étendue est identique.
-- Si la clef publique étendue correspond, votre sauvegarde est correcte. Pour plus de détails :
+![image](assets/fr/09.webp)
 
-[https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895](https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895)
+- Si vous utilisez un **Blockstream Jade**, cliquez sur le bouton correspondant. Sinon, sélectionnez "**Connect a different Hardware Device**" :
+
+![image](assets/fr/10.webp)
+
+- Branchez votre hardware wallet à l’ordinateur via USB et sélectionnez-le dans Blockstream App :
+
+![image](assets/fr/22.webp)
+
+- Patientez pendant que Blockstream App importe les informations de votre portefeuille :
+
+![image](assets/fr/23.webp)
+
+### 4.3. Créer un compte
+
+- Si votre hardware wallet a déjà été utilisé avec Blockstream App, votre compte apparaîtra automatiquement dans l’interface après l’importation. Sinon, créez un compte en cliquant sur "**Create Account**" :
+
+![image](assets/fr/24.webp)
+
+- Choisissez "**Standard**" pour configurer un portefeuille Bitcoin classique :
+
+![image](assets/fr/25.webp)
+
+- Une fois le compte créé, vous accédez à l’interface principale de votre portefeuille :
+
+![image](assets/fr/26.webp)
+
+
 
 ## 5. Utiliser le portefeuille onchain avec un hardware wallet
 
 ### 5.1. Recevoir des bitcoins
 
-- Depuis l’écran principal du portefeuille, cliquez sur "**Receive**".
+- Depuis l’écran principal du portefeuille, cliquez sur "**Receive**" :
 
-![image](assets/fr/.webp)
+![image](assets/fr/27.webp)
 
-- L’application affiche une **adresse de réception vierge** (format SegWit v0, commençant par `bc1q...`). Utiliser une nouvelle adresse pour chaque réception améliore votre confidentialité.
-- Cliquez sur "**Copy address**" pour copier l’adresse ou laissez l'expéditeur scanner le QR code affiché.
+- L’application affiche une **adresse de réception vierge**. Utiliser une nouvelle adresse pour chaque réception améliore votre confidentialité. Cliquez sur "**Copy address**" pour copier l’adresse ou laissez l'expéditeur scanner le QR code affiché :
 
 ![image](assets/fr/12.webp)
 
@@ -181,20 +181,20 @@ Nota : une clé publique étendue peut être importée dans votre application Bl
 
 ![image](assets/fr/13.webp)
 
-- (3) Pour ré-utiliser une adresse précédente, cliquez sur "**More options**" puis sur "**List of adresses**".
+- (3) Pour ré-utiliser une adresse précédente, cliquez sur "**More options**" puis sur "**List of adresses**" :
 
 ![image](assets/fr/14.webp)
 
 - **Vérification** : Vérifiez soigneusement l’adresse partagée pour éviter les erreurs ou attaques (ex. : malwares modifiant le presse-papiers).
 - Une fois la transaction diffusée sur le réseau, elle apparaîtra dans votre portefeuille. Attendez 1 à 6 confirmations pour considérer la transaction comme immuable.
 
-![image](assets/fr/.webp)
+![image](assets/fr/28.webp)
 
 ### 5.2. Envoyer des bitcoins
 
 - Depuis l’écran principal du portefeuille, cliquez sur "**Send**".
 
-![image](assets/fr/.webp)
+![image](assets/fr/29.webp)
 
 - **Saisir les détails** :
     - (1) Vérifiez que l’actif sélectionné est **Bitcoin** (onchain).
@@ -287,29 +287,29 @@ Nota : une clé publique étendue peut être importée dans votre application Bl
 ### A4. Ressources supplémentaires
 
 - **Liens officiels** :
-    
     - [Site officiel](https://blockstream.com/)
     - [Support pour Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Blockstream App/) : documentation et tchat
     - [GitHub](https://github.com/Blockstream/Blockstream App_desktop)
+
 - **Explorateurs de blocs** :
-    
     - Onchain : [Mempool.space](https://mempool.space/)
     - Liquid : [Blockstream Info](https://blockstream.info/liquid)
     - Lightning : [1ML (Lightning Network)](https://1ml.com/)
-- **Apprentissage et tutoriels** : [Plan ₿ Network](https://planb.network/) :
-    
-    - Sécuriser sa phrase de récupération :
+
+- **Sécuriser sa phrase de récupération :**
 
 [https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270](https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
 
 [https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 - **Liquid Network** :
-    - [Glossaire](https://planb.network/fr/resources/glossary/liquid-network)
+
+[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)
 
 [https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727](https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727)
 
 - **Lightning Network** :
-    - [Glossaire](https://planb.network/fr/resources/glossary/lightning-network)
+
+[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)
 
 [https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb](https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb)

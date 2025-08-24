@@ -56,8 +56,6 @@ Berikutnya, Anda dapat menyesuaikan opsi di bawah pengaturan yang sudah ditentuk
 
 ![Image](assets/fr/021.webp)
 
-Selanjutnya, Anda perlu menentukan kata sandi yang sesuai dengan kunci enkripsi. Kata sandi ini akan memungkinkan anda untuk membuka kunci brankas Cryptomator dan mengakses datanya. **Jika Anda kehilangan kata sandi ini, Anda akan kehilangan akses ke data Anda. Terakhir, anda masih memiliki pilihan untuk **membuat kunci cadangan** dengan mencentang opsi "**Ya, lebih baik aman daripada menyesal**", dengan semangat yang sama dengan kunci pemulihan [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Hal ini disarankan, tetapi jangan simpan kunci cadangan ini di root OneDrive Anda!
-
 Selanjutnya, Anda perlu menentukan **kata sandi yang digunakan untuk kunci enkripsi**. Kata sandi ini akan **memungkinkan Anda untuk membuka brankas Cryptomator** dan mengakses datanya. **Jika Anda kehilangannya, Anda kehilangan akses ke data Anda**.
 
 Terakhir, Anda masih memiliki opsi untuk membuat kunci cadangan dengan mencentang opsi "**Yes, better safe than sorry**" (Ya, lebih baik aman daripada menyesal), yang sangat mirip dengan kunci pemulihan [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Ini disarankan, tetapi jangan simpan kunci cadangan ini di folder OneDrive Anda!

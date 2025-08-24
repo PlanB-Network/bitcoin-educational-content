@@ -4,26 +4,26 @@ description: Menginstal dan menggunakan Phoenix Wallet
 ---
 ![cover](assets/cover.webp)
 
-Phoenix adalah dompet dan node Lightning kustodian mandiri yang dikembangkan oleh ACINQ, sebuah perusahaan Prancis yang berspesialisasi dalam solusi perangkat lunak berbasis Lightning. Tidak seperti dompet Lightning kustodian seperti Wallet of Satoshi, di mana bitcoin dipegang oleh pihak ketiga, Phoenix memungkinkan pengguna untuk memegang kendali penuh atas kunci pribadi mereka.
+Phoenix adalah dompet sekaligus node Lightning non-kustodian yang dikembangkan oleh ACINQ, perusahaan asal Prancis yang fokus pada solusi perangkat lunak berbasis Lightning. Berbeda dengan dompet Lightning kustodian seperti Wallet of Satoshi, di mana bitcoin kamu dipegang pihak ketiga, Phoenix bikin kamu bisa pegang kendali penuh atas kunci pribadimu sendiri.
 
-Phoenix berfungsi sebagai node Lightning yang sebenarnya yang tertanam di ponsel Anda, secara otomatis membuka saluran dengan node Lightning ACINQ. Aplikasi ini didasarkan pada Lightning-KMP, sebuah implementasi lintas platform Lightning Network dalam Kotlin yang dioptimalkan untuk dompet seluler. Tidak seperti solusi node Lightning lainnya, Phoenix sangat menyederhanakan pengelolaan. Pengguna tidak perlu menangani pembukaan dan penutupan saluran, menjalankan node Bitcoin, atau mengelola likuiditas di jaringan Lightning. Phoenix menangani semua operasi teknis ini di latar belakang.
+Phoenix bekerja sebagai node Lightning asli yang langsung tertanam di ponselmu, dan secara otomatis membuka saluran dengan node Lightning ACINQ. Aplikasi ini dibangun di atas Lightning-KMP, sebuah implementasi lintas platform Lightning Network berbasis Kotlin yang dioptimalkan untuk dompet seluler. Nggak seperti solusi node Lightning lain, Phoenix jauh lebih simpel dalam pengelolaannya. Kamu nggak perlu ribet buka atau tutup saluran, jalankan node Bitcoin, atau ngurus likuiditas di Lightning Network. Semua urusan teknis itu ditangani Phoenix di belakang layar.
 
-Aplikasi ini menggabungkan kemudahan penggunaan dan kenyamanan dompet Lightning seluler dengan keamanan dan kedaulatan simpul Lightning pribadi yang asli. Phoenix memungkinkan untuk menggunakan Lightning Network dengan aman, efisien, dan mandiri, sambil menikmati pengalaman pengguna yang lancar dan intuitif.
+Aplikasi ini ngasih kombinasi antara kemudahan dompet Lightning seluler dengan keamanan dan kedaulatan node Lightning pribadimu sendiri. Phoenix bikin kamu bisa pakai Lightning Network dengan aman, efisien, dan mandiri, sambil tetap dapet pengalaman pengguna yang mulus dan gampang dipahami.
 
-Sebagai imbalannya, dikenakan biaya tertentu:
+Sebagai gantinya, ada biaya tertentu yang berlaku:
 
 
-- Mengirim melalui Lightning dikenakan biaya 0,4% dari jumlah tersebut ditambah 4 sats ;
-- Jika uang tunai diperlukan untuk menerima melalui Lightning, maka akan dikenakan biaya sebesar 1% dari jumlah tersebut;
-- Setiap saluran membutuhkan biaya 1000 sat untuk dibuka.
+- Setiap kali kirim lewat Lightning, ada biaya 0,4% dari jumlah transaksi ditambah 4 sats.
+- Kalau butuh "uang muka" untuk bisa menerima lewat Lightning, akan dikenakan biaya 1% dari jumlah yang diterima.
+- Setiap kali buka saluran baru, ada biaya 1000 sats.
 
-Menurut pendapat saya, Phoenix merupakan solusi perantara yang sangat baik antara portofolio Lightning kustodian dan manajemen manual dari node Lightning. Aplikasi ini sama-sama cocok untuk pemula dan pengguna tingkat lanjut yang memilih untuk tidak berurusan dengan detail pengelolaan LND atau Core Lightning mereka sendiri. Mari kita cari tahu cara menggunakannya!
+Menurutku, Phoenix adalah solusi tengah yang keren banget antara dompet Lightning kustodian dan pengelolaan manual node Lightning. Aplikasi ini cocok dipakai baik oleh pemula maupun pengguna tingkat lanjut yang nggak mau ribet ngurus detail teknis LND atau Core Lightning sendiri. Yuk, kita pelajari bareng gimana cara pakainya!
 
 ![Image](assets/fr/01.webp)
 
 ## Instal aplikasi
 
-Buka toko aplikasi Anda dan instal Phoenix :
+Buka toko aplikasimu dan instal Phoenix :
 
 
 - Di [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
@@ -31,7 +31,7 @@ Buka toko aplikasi Anda dan instal Phoenix :
 
 ![Image](assets/fr/02.webp)
 
-Anda juga dapat menginstal aplikasi [dengan file apk di repositori GitHub mereka] (https://github.com/ACINQ/phoenix/releases).
+Kamu juga bisa menginstal aplikasi [dengan file apk di repositori GitHub mereka] (https://github.com/ACINQ/phoenix/releases).
 
 ![Image](assets/fr/03.webp)
 
@@ -45,23 +45,23 @@ Pilih "*Buat dompet baru*".
 
 ![Image](assets/fr/05.webp)
 
-Dan itu saja, dompet dan node Lightning Anda sekarang sudah dibuat.
+Dan itu saja, dompet dan node Lightning sekarang sudah dibuat.
 
 ![Image](assets/fr/06.webp)
 
 ## Menyimpan frasa mnemonik
 
-Sebelum memulai, kita perlu menyimpan frasa mnemonik 12 kata. Frasa ini memberikan akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini bisa mencuri dana Anda, bahkan tanpa akses fisik ke ponsel Anda.
+Sebelum mulai, kita perlu menyimpan seed phrase atau frasa pemulihan 12 kata. Frasa ini ngasih akses penuh dan tanpa batas ke semua bitcoin kamu. Siapa pun yang punya seed phrase ini bisa mencuri dana kamu, bahkan tanpa harus pegang ponselmu.
 
-Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada ponsel Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di tempat yang aman.
+Seed phrase 12 kata ini juga jadi kunci buat balikin akses ke bitcoin kalau ponselmu hilang, dicuri, atau rusak. Karena itu, penting banget buat nyimpennya dengan hati-hati di tempat yang aman.
 
-Anda bisa menuliskannya di atas kertas atau, untuk keamanan tambahan, mengukirnya di atas baja tahan karat untuk melindunginya dari kebakaran, banjir, atau keruntuhan. Pilihan media untuk mnemonik Anda akan bergantung pada strategi keamanan Anda, tetapi jika Anda menggunakan Phoenix sebagai portofolio pengeluaran yang berisi jumlah yang tidak terlalu banyak, kertas sudah cukup.
+Kamu bisa tulis di kertas atau, kalau mau lebih aman lagi, ukir di baja tahan karat supaya tahan dari kebakaran, banjir, atau kerusakan fisik lainnya. Media penyimpanan seed phrase ini tergantung strategi keamananmu, tapi kalau kamu pakai Phoenix cuma buat dompet sehari-hari dengan jumlah kecil, kertas aja udah cukup.
 
-Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
+Kalau mau tau lebih detail soal cara nyimpen dan ngatur seed phrase dengan benar, aku sangat nyaranin kamu ikutin tutorial lain, apalagi kalau kamu masih pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Klik pada pesan yang ditampilkan di bagian atas antarmuka "*Save your wallet...*".
+Klik pada pesan yang ditampilkan di bagian atas interface "*Save your wallet...*".
 
 ![Image](assets/fr/07.webp)
 
@@ -69,61 +69,61 @@ Kemudian klik "*Save my wallet*".
 
 ![Image](assets/fr/08.webp)
 
-Kemudian klik "*Lihat kunci saya*" dan simpan frasa mnemonik Anda pada media fisik.
+Kemudian klik "*Lihat kunci saya*" dan simpan frasa mnemonikmu pada media fisik.
 
 ![Image](assets/fr/09.webp)
 
-Centang dua kotak di bagian bawah antarmuka untuk mengonfirmasi bahwa pencadangan telah berhasil diselesaikan.
+Centang dua kotak di bagian bawah interface untuk mengonfirmasi bahwa pencadangan telah berhasil diselesaikan.
 
 ![Image](assets/fr/10.webp)
 
 ## Penyiapan aplikasi
 
-Sebelum melakukan transaksi pertama Anda, Anda bisa menyesuaikan pengaturan dengan mengeklik ikon roda gigi di bagian kiri bawah antarmuka.
+Sebelum melakukan transaksi pertama, kamu bisa atur pengaturan dengan ngeklik ikon roda gigi di pojok kiri bawah tampilan aplikasi.
 
 ![Image](assets/fr/11.webp)
 
-Pada menu "*Display*", Anda bisa memilih tema aplikasi, denominasi yang digunakan untuk bitcoin, dan mata uang fiat lokal Anda.
+Di menu Display, kamu bisa pilih tema aplikasi, denominasi yang dipakai buat bitcoin, dan mata uang fiat lokalmu.
 
 ![Image](assets/fr/12.webp)
 
-Dalam "*Pilihan pembayaran*", Anda akan menemukan berbagai pengaturan lanjutan untuk pembayaran Lightning. Anda dapat mempertahankan pengaturan default.
+Di menu "*Pilihan Pembayaran*", kamu bakal nemuin berbagai pengaturan lanjutan buat pembayaran Lightning. Kamu bisa biarin aja pakai pengaturan default.
 
 ![Image](assets/fr/13.webp)
 
-Di "*Manajemen saluran*", tetapkan biaya maksimum yang siap Anda bayarkan saat membuka saluran Lightning.
+Di "*Manajemen saluran*", tetapkan biaya maksimum yang siap kamu bayar saat membuka saluran Lightning.
 
 ![Image](assets/fr/14.webp)
 
-Dalam menu "*Access control*", saya sangat menyarankan agar Anda mengaktifkan sistem otentikasi untuk mengamankan akses ke aplikasi di ponsel Anda. Hal ini akan mencegah siapa pun yang memiliki akses ke ponsel Anda yang tidak terkunci untuk mengakses Phoenix dan mencuri bitcoin Anda.
+Di menu "*Access Control,*" aku sangat nyaranin kamu buat ngaktifin sistem autentikasi supaya akses ke aplikasi di ponselmu lebih aman. Ini bakal mencegah orang lain yang bisa buka ponselmu yang nggak terkunci buat masuk ke Phoenix dan nyuri bitcoin kamu.
 
 ![Image](assets/fr/15.webp)
 
-Pada menu "*Electrum server*", jika Anda memiliki server Electrs, Anda dapat menghubungkannya untuk menyiarkan transaksi Anda.
+Pada menu "*Electrum server*", jika kamu memiliki server Electrs, kamu bisa menghubungkannya untuk menyiarkan transaksimu.
 
 ![Image](assets/fr/16.webp)
 
-Untuk meningkatkan kerahasiaan koneksi Anda, aktifkan koneksi melalui Tor di menu "*Tor*". Meskipun menggunakan Tor mungkin sedikit memperlambat pembayaran Anda, dan mengharuskan aplikasi Phoenix terbuka di latar depan saat menerima, namun secara signifikan meningkatkan privasi Anda.
+Buat ningkatin privasi koneksimu, aktifin opsi koneksi lewat Tor di menu "*Tor.* Walaupun pakai Tor bisa bikin pembayaran agak sedikit lebih lambat dan butuh aplikasi Phoenix tetap kebuka di latar depan saat nerima, tapi fitur ini bakal ningkatin privasi kamu secara signifikan.
 
 ![Image](assets/fr/17.webp)
 
 ## Menerima bitcoin secara on-chain
 
-Saat pertama kali digunakan, Anda memiliki opsi untuk mengisi dompet Phoenix Anda dengan dana on-chain. Anda juga dapat melakukan deposit pertama ini langsung dari Lightning (lihat bagian selanjutnya), tetapi dalam kedua kasus tersebut, biaya tambahan akan dikenakan untuk membuka saluran pertama Anda.
+Waktu pertama kali dipakai, kamu bisa isi dompet Phoenix dengan dana on-chain. Kamu juga bisa lakuin deposit pertama langsung lewat Lightning (lihat bagian berikutnya). Tapi di kedua cara itu, bakal ada biaya tambahan buat buka saluran pertamamu.
 
 Klik pada tombol "*Terima*".
 
 ![Image](assets/fr/18.webp)
 
-Geser kode QR ke kiri untuk menampilkan alamat penerimaan Bitcoin. Kirim jumlah yang ingin Anda depositkan ke Phoenix ke alamat tersebut.
+Geser kode QR ke kiri buat nampilin alamat penerimaan Bitcoin. Kirim jumlah yang mau kamu depositin ke alamat itu supaya masuk ke Phoenix.
 
 ![Image](assets/fr/19.webp)
 
-Jumlah yang diterima secara on-chain akan muncul pertama kali sebagai tertunda di bawah saldo portofolio Anda. Diperlukan 3 kali konfirmasi sebelum dana dapat digunakan.
+Jumlah yang kamu terima lewat on-chain bakal pertama kali muncul sebagai tertunda di bawah saldo dompetmu. Dana baru bisa dipakai setelah dapet 3 konfirmasi.
 
 ![Image](assets/fr/20.webp)
 
-Setelah dana diterima, Phoenix secara otomatis membuka saluran Lightning untuk Anda. Sekarang Anda bisa mengirim dan menerima bitcoin melalui Lightning Network.
+Begitu dana udah masuk, Phoenix bakal otomatis buka saluran Lightning buat kamu. Setelah itu, kamu bisa langsung kirim dan nerima bitcoin lewat Lightning Network.
 
 ![Image](assets/fr/21.webp)
 
@@ -133,37 +133,36 @@ Untuk menerima satelit melalui Lightning Network, klik tombol "*Receive*".
 
 ![Image](assets/fr/22.webp)
 
-Phoenix menghasilkan faktur Lightning. Anda dapat memindainya atau mengirimkannya kepada orang yang ingin mentransfer tagihan kepada Anda.
+Phoenix bakal bikin faktur Lightning. Kamu bisa scan faktur itu atau kirim ke orang yang mau transfer pembayaran ke kamu.
 
 ![Image](assets/fr/23.webp)
 
-Dengan mengklik tombol "*Edit*", Anda dapat menambahkan deskripsi yang akan terlihat oleh pembayar pada faktur, dan menentukan jumlah tertentu yang harus dikirim oleh pembayar.
+Dengan ngeklik tombol "*Edit*", kamu bisa nambahin deskripsi yang bakal keliatan sama si pengirim di faktur, dan juga nentuin jumlah pasti yang harus mereka kirim.
 
 ![Image](assets/fr/24.webp)
 
-Faktur klasik yang disebutkan di atas hanya dapat digunakan satu kali. Untuk opsi pembayaran yang dapat digunakan kembali, Anda dapat menggunakan kode QR yang dapat digunakan kembali, yang merupakan penawaran BOLT12.
+Faktur klasik yang tadi disebut cuma bisa dipakai sekali aja. Kalau mau opsi pembayaran yang bisa dipakai berulang kali, kamu bisa pakai kode QR yang bisa digunakan terus, yaitu penawaran **BOLT12.**
 
 ![Image](assets/fr/25.webp)
 
-Setelah faktur atau penawaran BOLT12 dilunasi, transaksi akan muncul di dompet Lightning Anda.
+Begitu faktur atau penawaran BOLT12 dibayar, transaksinya bakal langsung muncul di dompet Lightning kamu.
 
 ![Image](assets/fr/26.webp)
 
 ## Kirim bitcoin melalui Lightning
 
-Sekarang setelah Anda memiliki satelit di Phoenix, Anda siap untuk melakukan pembayaran melalui Lightning Network. Mulailah dengan mengklik tombol "*Kirim*".
+Sekarang setelah kamu punya saldo sats di Phoenix, kamu udah siap buat ngelakuin pembayaran lewat Lightning Network. Mulai aja dengan ngeklik tombol Kirim.
 
 ![Image](assets/fr/27.webp)
 
-Beberapa opsi tersedia untuk Anda. Dengan mengklik "*Pindai kode QR*", Anda dapat memindai faktur Lightning, penawaran BOLT12, atau bahkan alamat penerima untuk pembayaran on-chain.
+Ada beberapa opsi yang bisa kamu pilih. Dengan ngeklik Pindai kode QR, kamu bisa scan faktur Lightning, penawaran BOLT12, atau bahkan alamat penerima buat pembayaran on-chain.
 
 ![Image](assets/fr/28.webp)
 
-Anda juga dapat memasukkan informasi ini secara manual melalui keyboard pada bidang di bagian atas antarmuka, atau memasukkan alamat Lightning (BOLT12 atau LNURL). Anda juga dapat menempelkan informasi secara langsung menggunakan tombol "*Paste*".
-
+Kamu juga bisa masukin informasi itu secara manual lewat keyboard di kolom bagian atas tampilan, atau masukin alamat Lightning (BOLT12 atau LNURL). Selain itu, kamu bisa langsung tempel informasi dengan tombol "*Paste.*"
 ![Image](assets/fr/29.webp)
 
-Dalam contoh ini, saya telah memindai faktur untuk 10.000 sat. Untuk melakukan pembayaran, cukup klik "*Bayar*".
+Di contoh ini, aku udah scan faktur sebesar 10.000 sat. Buat ngelakuin pembayaran, cukup klik Bayar.
 
 ![Image](assets/fr/30.webp)
 
@@ -171,12 +170,12 @@ Transaksi selesai.
 
 ![Image](assets/fr/31.webp)
 
-Selamat, Anda sekarang tahu cara mengkonfigurasi dan menggunakan Phoenix. Jika Anda merasa tutorial ini bermanfaat, saya akan berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih telah berbagi!
+Selamat, sekarang kamu udah tau cara ngatur dan pake Phoenix. Kalau kamu ngerasa tutorial ini bermanfaat, aku bakal seneng banget kalau kamu kasih jempol hijau di bawah. Jangan ragu juga buat share artikel ini di media sosialmu. Makasih banyak udah baca!
 
-Untuk melangkah lebih jauh, lihat tutorial tentang Alby Hub ini, solusi inovatif dan mudah digunakan lainnya untuk meluncurkan node Lightning Anda sendiri:
+Kalau mau lanjut lebih jauh, coba deh lihat tutorial tentang Alby Hub, solusi inovatif dan gampang dipake buat ngejalanin node Lightning kamu sendiri:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Dan untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat menemukan pelatihan gratis yang luar biasa dari Fanis Michalakis di Plan ₿ Network :
+Dan kalau kamu pengen ngerti lebih dalam soal cara kerja teknis Lightning Network, kamu bisa ikutin pelatihan gratis yang keren banget dari Fanis Michalakis di Plan ₿ Network:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

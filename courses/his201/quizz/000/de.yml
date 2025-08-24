@@ -6,4 +6,4 @@ wrong_answers:
   - 1876
 explanation: |
   Sie wurde von Whitfield Diffie und Martin Hellman, zwei Kryptografen der Stanford University, in einem im November 1976 veröffentlichten Papier vorgestellt.
-reviewed: false
+reviewed: true

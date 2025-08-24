@@ -5,195 +5,101 @@ description: Distribusi Linux yang terkenal dengan stabilitas, ketahanan, dan ko
 
 ![cover](assets/cover.webp)
 
-
-
-Debian adalah distribusi GNU/Linux gratis, yang terkenal dengan ketangguhan dan keandalannya. Kernel Linux dan semua paketnya telah diuji secara ketat untuk memastikan stabilitas yang kokoh dan tingkat keamanan yang tinggi. Cocok untuk server dan workstation, Debian menawarkan pengalaman yang mudah digunakan dan katalog perangkat lunak yang luas. Baik Anda mencari sistem yang aman untuk penggunaan sehari-hari atau lingkungan produksi, Debian adalah pilihan yang tepat.
-
-
+Debian adalah distribusi GNU/Linux gratis, yang terkenal karena ketahanan dan keandalannya. Kernel Linux dan semua paketnya diuji secara ketat untuk memastikan stabilitas yang sangat kuat dan tingkat keamanan yang tinggi. Cocok untuk server maupun workstation, Debian menawarkan pengalaman yang mudah digunakan dan katalog perangkat lunak yang luas. Baik Anda mencari sistem yang aman untuk penggunaan sehari-hari atau lingkungan produksi, Debian adalah pilihan yang tepat.
 
 ## Mengapa memilih Debian?
 
-
-
-
-
-- Gratis dan terbuka**: Debian sepenuhnya open source, menjamin transparansi dan tidak ada biaya lisensi.
-- Stabilitas dan keamanan**: setiap rilis telah melalui proses pengujian yang menyeluruh, membuat Debian menjadi salah satu distribusi yang paling dapat diandalkan dan aman di pasaran.
-- Komunitas aktif**: komunitas yang luas dan dokumentasi yang ekstensif tersedia untuk mendukung Anda kapan pun Anda membutuhkannya.
-- Ringan dan terukur**: Anda dapat menginstal Debian pada mesin dengan sumber daya yang tidak terlalu besar dengan tetap mempertahankan kinerja yang baik.
-- Katalog perangkat lunak yang luas**: lebih dari 50.000 paket resmi tersedia melalui repositori.
-
-
+- **Gratis dan open source**: Debian sepenuhnya open source, menjamin transparansi dan tanpa biaya lisensi.
+- **Stabilitas dan keamanan**: setiap rilis melalui proses pengujian menyeluruh, menjadikan Debian salah satu distribusi yang paling andal dan aman di pasar.
+- **Komunitas aktif**: komunitas yang luas dan dokumentasi yang ekstensif tersedia untuk mendukung Anda kapan pun Anda membutuhkannya.
+- **Ringan dan terukur**: Anda dapat memasang Debian pada komputer dengan sumber daya yang tidak terlalu besar sambil mempertahankan kinerja yang baik.
+- **Katalog perangkat lunak yang luas**: lebih dari 50.000 paket resmi tersedia melalui repositori.
 
 ## Memilih grafik Interface
 
-
-
 Debian menawarkan beberapa lingkungan desktop yang sesuai dengan kebutuhan Anda:
 
-
-
-
-
-- GNOME**: Interface yang modern dan intuitif, ideal untuk pemula. Menawarkan menu grafis yang lancar dan mudah digunakan untuk mengakses aplikasi.
-- XFCE**: ringan dan cepat, cocok untuk mesin yang tidak terlalu bertenaga.
-- KDE Plasma**: sangat dapat disesuaikan, dengan tampilan seperti Windows.
-- Cinnamon**: Interface yang sederhana dan elegan, terinspirasi oleh Windows.
-- LXDE / LXQt**: sangat ringan, cocok untuk komputer lama.
-- MATE**: sederhana dan klasik, mirip dengan GNOME lama.
-
-
+- **GNOME**: Interface yang modern dan intuitif, ideal untuk pemula. Menawarkan menu grafis yang lancar dan mudah digunakan untuk mengakses aplikasi.
+- **XFCE**: ringan dan cepat, cocok untuk komputer yang speks standar.
+- **KDE Plasma**: sangat dapat disesuaikan, dengan tampilan seperti Windows.
+- **Cinnamon**: Interface yang sederhana dan elegan, terinspirasi dari Windows.
+- **LXDE / LXQt**: sangat ringan, cocok untuk komputer lama.
+- **MATE**: sederhana dan klasik, mirip dengan GNOME lama.
 
 💡 Untuk pengalaman yang nyaman dan mudah digunakan, **GNOME sangat direkomendasikan**.
 
-
-
 ## Menginstalasi dan mengkonfigurasi Debian
-
 
 ### Persyaratan perangkat keras
 
-
-
 Sebelum memulai pemasangan, pastikan Anda memiliki peralatan berikut ini:
 
-
-
-
-
-- Kunci USB**: minimum 8 GB untuk menyimpan citra ISO yang dapat di-booting.
-- Memori Akses Acak (Random Access Memory (RAM))**: 4 GB untuk instalasi dan pengoperasian yang lancar.
-- Ruang disk**: setidaknya 15 GB ruang kosong untuk sistem dan pembaruan.
-
-
+- **Flash Drive USB**: minimum 8 GB untuk menyimpan Image ISO yang dapat di-booting.
+- **Random Access Memory (RAM)**: 4 GB untuk instalasi dan pengoperasian yang lancar.
+- **Disk space**: setidaknya 15 GB ruang kosong untuk sistem dan pembaruan.
 
 ### Unduh
 
-
-
 Pilihan image Debian tergantung pada arsitektur prosesor Anda:
 
-
-
-
-
-- AMD64**: unduh edisi "live hybrid" dari daftar [unduh] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: dapatkan image DVD dari situs web resmi [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/12.11.0/).
-
-
+- **AMD64**: unduh edisi "live hybrid" dari daftar [unduh](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: dapatkan image DVD dari situs web resmi [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Arsitektur lain**: temukan ISO yang sesuai dengan arsitektur Anda [di sini](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 ![download](assets/fr/01.webp)
 
+### Membuat flash drive USB yang dapat di-booting
 
+Setelah Anda mengunduh image ISO yang sesuai, lanjutkan dengan membuat media instalasi:
 
-### Membuat kunci USB yang dapat di-booting
-
-
-
-Setelah Anda mengunduh citra ISO yang sesuai, lanjutkan dengan membuat media instalasi:
-
-
-
-
-- Unduh Balena Etcher** dari [situs web resmi] (https://etcher.balena.io/), kemudian dapatkan biner untuk sistem Anda dan instal.
-
-
+- Unduh **Balena Etcher** dari [situs web resmi](https://etcher.balena.io/), kemudian dapatkan file untuk sistem Anda dan instal.
 
 ![etcher](assets/fr/02.webp)
 
-
-
-
-
-- Luncurkan Etcher**: buka perangkat lunak dan pilih citra ISO Debian yang telah diunduh sebelumnya.
-- Pilih kunci USB**: tentukan kunci Anda (8 GB+) sebagai target.
-- Mulai flash**: klik **Flash!** dan tunggu sampai prosesnya selesai.
-
-
+- **Jalankan Etcher**: buka perangkat lunak dan pilih image ISO Debian yang telah diunduh sebelumnya.
+- **Pilih flash drive USB**: tentukan kunci Anda (8 GB+) sebagai target.
+- **Mulai flash**: klik **Flash!** dan tunggu sampai prosesnya selesai.
 
 ![flash](assets/fr/03.webp)
 
-
-
-Kunci USB Anda sekarang siap untuk mulai menginstal Debian.
-
-
+Flash drive USB Anda sekarang siap untuk mulai menginstal Debian.
 
 ## Menginstal Debian pada sistem Anda
 
+### Mem-boot dari flash drive USB
 
+Untuk menjalankan penginstalan dari flash drive USB Anda:
 
-### Mem-boot dari kunci USB
+- **Matikan** komputer sepenuhnya.
+- **Reboot** lalu akses BIOS/UEFI dengan segera menekan `ESC`, `F2`, `F11` (atau tombol khusus, tergantung merek Anda).
+- Pada menu boot, **pilih flash drive USB Anda** sebagai perangkat boot.
+- **Konfirmasikan** dengan tombol Enter untuk memulai image Debian: ini akan membawa Anda ke layar selamat datang pemasang.
 
-
-
-Untuk meluncurkan penginstalan dari kunci USB Anda:
-
-
-
-
-- Matikan** komputer sepenuhnya.
-- Reboot** lalu akses BIOS/UEFI dengan segera menekan `ESC`, `F2`, `F11` (atau tombol khusus, tergantung merek Anda).
-- Pada menu boot, **pilih kunci USB Anda** sebagai perangkat boot.
-- Konfirmasikan** dengan tombol Enter untuk memulai image Debian: ini akan membawa Anda ke layar selamat datang pemasang.
-
-
-
-### Meluncurkan penginstalan
-
-
+### Menjalankan penginstalan
 
 Layar mulai :
 
-
-
 ![starting](assets/fr/04.webp)
 
+Saat mem-boot dari flash drive USB, layar selamat datang Debian menawarkan beberapa opsi:
 
+- **Live System**: menjalankan Debian tanpa menginstalnya, ideal untuk menguji lingkungan.
+- **Start Installer**: memulai penginstalan secara langsung pada Hard Drive.
+- **Opsi Pemasangan Lanjutan**: memberi Anda akses ke mode pemasangan yang disesuaikan.
 
-Saat mem-boot dari stik USB, layar selamat datang Debian menawarkan beberapa opsi:
-
-
-
-
-- Live System**: meluncurkan Debian tanpa menginstalnya, ideal untuk menguji lingkungan.
-- Start Installer**: memulai penginstalan secara langsung pada disk Hard.
-- Opsi Pemasangan Lanjutan**: memberi Anda akses ke mode pemasangan yang disesuaikan.
-
-
-
-Untuk menjelajahi Debian dalam mode live, pilih **Live System** dan konfirmasikan dengan **Enter**. Anda kemudian dapat meluncurkan instalasi dengan mengeklik **Install Debian** di lingkungan live.
-
-
+Untuk menjelajahi Debian dalam mode live, pilih **Live System** dan konfirmasikan dengan **Enter**. Anda kemudian dapat menjalankan instalasi dengan mengeklik **Install Debian** di lingkungan live.
 
 ![system](assets/fr/05.webp)
 
-
-
-
-
-- Pilihan bahasa** (opsional)
-
-
+- **Pilihan bahasa** (opsional)
 
 Pilih bahasa utama sistem Debian Anda dari daftar, lalu klik OK.
 
-
-
 ![language](assets/fr/06.webp)
 
-
-
-
-
-- Zona waktu** (GMT)
-
-
+- **Zona waktu** (GMT)
 
 Pilih zona geografis Anda untuk mengatur tanggal dan waktu secara otomatis.
-
-
 
 ![timezone](assets/fr/07.webp)
 

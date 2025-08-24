@@ -105,7 +105,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 	3. Ouvrez l’application **Bitcoin Legacy** sur votre Ledger avant de lancer Blockstream Green pour établir la connexion.
 - **Note** : Assurez-vous que votre Ledger est déverrouillé avec votre code PIN et que l’application Bitcoin Legacy est active lors de la connexion.
 
-#### 4.1.2. Initialisation d’un nouveau hardware wallet
+#### 4.1.2. Initialisation d’un hardware wallet
 
 - Si votre hardware wallet (Ledger, Trezor, ou Blockstream Jade) n’a jamais été utilisé (ni avec Blockstream Green, ni avec un autre logiciel comme Ledger Live), vous devrez d’abord l’initialiser. Cette étape comprend, dans un environnement sécurisé, sans caméras ni observateurs :
 	1. **Génération de la seed phrase / phrase mnémonique** (12, 18 ou 24 mots) : Notez-la soigneusement sur un papier.
@@ -120,7 +120,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 [https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
-#### Configuration pour ce tutoriel :
+#### 4.1.3. Configuration pour ce tutoriel :
 
 - Nous considèrerons que le hardware wallet a déjà été initialisé avec une seed phrase et un code PIN de verrouillage.
 - Nous considérons que le hardware wallet n’a jamais été connecté à Blockstream App, ce qui nécessite la création d'un nouveau compte. Si le hardware wallet a déjà été utilisé avec Blockstream App, le compte apparaîtra automatiquement à l’ouverture de l’application.

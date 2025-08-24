@@ -1,0 +1,9 @@
+question: Welche zwei Lebensdauern sind mit einem automatisch zugewiesenen IPv6 Address verbunden?
+answer: Bevorzugte Lebensdauer und gültige Lebensdauer
+wrong_answers:
+  - Mietzeit und Haltezeit
+  - Nutzungsdauer und Verfallsdatum
+  - Ursprüngliche Lebensdauer und sekundäre Lebensdauer
+explanation: |
+  Die bevorzugte Lebensdauer bestimmt den Zeitraum der normalen Nutzung des Address und die gültige Lebensdauer den gesamten Zeitraum der Gültigkeit.
+reviewed: false

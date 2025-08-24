@@ -1,0 +1,9 @@
+question: Mitä avoimen lähdekoodin ohjelmistoa käytetään yleisesti DNS-palvelimien referenssinä?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Kalmarit
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) on avoimen lähdekoodin viitetoteutus, jota suurin osa DNS-palvelimista käyttää maailmanlaajuisesti.
+reviewed: false

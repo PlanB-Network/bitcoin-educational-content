@@ -1,0 +1,9 @@
+question: Anycast Address trong IPv6 là gì?
+answer: Một Address được gán cho nhiều nút
+wrong_answers:
+  - Một Address dành riêng cho đa hướng toàn cầu
+  - Một Address thay đổi sau mỗi lần khởi động lại
+  - Một Address dành riêng cho tài liệu kỹ thuật
+explanation: |
+  Anycast Address được gán cho nhiều thiết bị và định tuyến sẽ chuyển gói tin đến thiết bị gần nhất về mặt cấu trúc.
+reviewed: false

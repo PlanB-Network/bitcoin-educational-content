@@ -1,0 +1,9 @@
+question: Který protokol používá příkaz ping k testování síťového připojení?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Příkaz ping používá protokol ICMP k odesílání echo požadavků a měření zpoždění sítě.
+reviewed: false

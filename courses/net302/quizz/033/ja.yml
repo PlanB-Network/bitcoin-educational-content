@@ -1,0 +1,9 @@
+question: 複数の社内マシンが1つのパブリックIP Addressを共有し、インターネットにアクセスできるようにする技術とは？
+answer: NAT（ネットワークAddress変換）
+wrong_answers:
+  - ARP（Address解決プロトコル）
+  - DHCP（動的ホスト構成プロトコル）
+  - CIDR（クラスレスドメイン間ルーティング）
+explanation: |
+  NATは、プライベートな内部アドレスをパブリックIP Addressに変換し、複数のデバイスが同じ外部接続を共有できるようにします。
+reviewed: false

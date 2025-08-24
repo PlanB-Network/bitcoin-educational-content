@@ -1,0 +1,9 @@
+question: Lệnh nào có thể được sử dụng để truy vấn máy chủ DNS nhằm lấy IP Address của một miền?
+answer: nslookup
+wrong_answers:
+  - thống kê mạng
+  - nmap
+  - ss
+explanation: |
+  nslookup là một công cụ truy vấn DNS để phân giải tên miền thành địa chỉ IP.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir Linux sisteminde DNS sunucuları genellikle nerede yapılandırılır?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Etc/resolv.conf dosyası, ad çözümlemesi için DNS sunucularını ve arama alanlarını belirtir.
+reviewed: false

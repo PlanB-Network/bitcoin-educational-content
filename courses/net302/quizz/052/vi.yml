@@ -1,0 +1,9 @@
+question: Cổng NAT phải ghi lại những thông tin cơ bản nào cho mỗi luồng mạng?
+answer: Ánh xạ giữa IP nội bộ và IP công cộng
+wrong_answers:
+  - Loại cáp mạng được sử dụng
+  - Ánh xạ giữa IP Address và máy chủ DNS
+  - Loại giao thức mạng được sử dụng
+explanation: |
+  NAT dựa vào bảng dịch để duy trì sự tương ứng, theo dõi quá trình ánh xạ giữa địa chỉ nội bộ và địa chỉ công cộng nhằm đảm bảo các gói tin được định tuyến chính xác.
+reviewed: false

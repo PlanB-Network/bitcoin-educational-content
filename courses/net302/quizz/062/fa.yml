@@ -1,0 +1,9 @@
+question: از چه نشانه‌گذاری برای وارد کردن یک IPv6 Address در یک URL استفاده می‌شود؟
+answer: IPv6 Address در کروشه قرار دارد
+wrong_answers:
+  - IPv6 Address در کروشه قرار دارد
+  - "IPv6 Address" در گیومه قرار دارد
+  - IPv6 Address به صورت خام نوشته شده است
+explanation: |
+  براکت‌های مربعی برای تمایز IPv6 Address از پورت در یک URL استفاده می‌شوند تا از هرگونه ابهام جلوگیری شود.
+reviewed: false

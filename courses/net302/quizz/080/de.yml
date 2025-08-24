@@ -1,0 +1,9 @@
+question: Welche Grafiksoftware kann verwendet werden, um eine detaillierte pädagogische Analyse von aufgezeichneten Netzwerkpaketen zu erstellen?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Route
+explanation: |
+  Wireshark ist ein grafischer Paketanalysator zur eingehenden Untersuchung des aufgezeichneten Netzwerkverkehrs.
+reviewed: false

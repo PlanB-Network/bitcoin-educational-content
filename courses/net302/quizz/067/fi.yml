@@ -1,0 +1,9 @@
+question: Mikä on tärkein syy käyttää satunnaisia Interface-tunnuksia MAC Address:n sijaan IPv6:ssa?
+answer: Yksityisyyden säilyttäminen
+wrong_answers:
+  - Pakettikoon pienentäminen
+  - DNS-resoluution nopeuttaminen
+  - ARP-yhteensopivuuden parantaminen
+explanation: |
+  Satunnaisten Interface-tunnisteiden käyttö auttaa suojautumaan MAC Address:een perustuvalta laitteen jäljittämiseltä.
+reviewed: false

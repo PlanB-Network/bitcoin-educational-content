@@ -1,0 +1,9 @@
+question: Vai trò chính của IPv4 Address trong mạng máy tính là gì?
+answer: Xác định duy nhất một mạng Interface
+wrong_answers:
+  - Xác định toàn bộ thiết bị trên mạng
+  - Gán địa chỉ MAC động trên mạng
+  - Tên DNS generate
+explanation: |
+  Mỗi Address của IPv4 được gán cho mỗi mạng Interface của thiết bị, cho phép thiết bị có thể được định vị và truy cập trên mạng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Topology" có nghĩa là gì trong mạng máy tính?
+answer: Các thiết bị được kết nối với nhau như thế nào
+wrong_answers:
+  - Tốc độ kết nối Internet
+  - Loại giao thức được sử dụng để giao tiếp
+  - Đến thương hiệu bộ định tuyến được sử dụng trên mạng
+explanation: |
+  Cấu trúc mạng đề cập đến cấu trúc vật lý hoặc logic của mạng và cách các thành phần của mạng được kết nối.
+reviewed: false

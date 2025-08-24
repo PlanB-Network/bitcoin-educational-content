@@ -1,0 +1,9 @@
+question: ¿Qué notación se utiliza para insertar un Address IPv6 en una URL?
+answer: IPv6 Address entre corchetes
+wrong_answers:
+  - IPv6 Address entre paréntesis
+  - El Address IPv6 va entre comillas
+  - El IPv6 Address se escribe en bruto
+explanation: |
+  Los corchetes se utilizan para distinguir el Address IPv6 del puerto en una URL, para evitar cualquier ambigüedad.
+reviewed: false

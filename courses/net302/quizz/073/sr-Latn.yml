@@ -1,0 +1,9 @@
+question: Koja je veličina IPv6 bloka koju IANA obično dodeljuje svakom Regionalnom Internet Registru (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Od 2006. godine, svaki RIR obično dobija /12 blok IPv6, obezbeđujući veoma veliku rezervu za regionalnu alokaciju.
+reviewed: false

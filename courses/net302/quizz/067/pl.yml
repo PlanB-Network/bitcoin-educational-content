@@ -1,0 +1,9 @@
+question: Jaka jest główna motywacja do używania losowych identyfikatorów Interface zamiast MAC Address w IPv6?
+answer: Zachowanie prywatności
+wrong_answers:
+  - Zmniejszanie rozmiaru pakietów
+  - Przyspieszenie rozpoznawania DNS
+  - Poprawa kompatybilności ARP
+explanation: |
+  Używanie losowych identyfikatorów Interface pomaga chronić przed śledzeniem urządzeń w oparciu o MAC Address.
+reviewed: false

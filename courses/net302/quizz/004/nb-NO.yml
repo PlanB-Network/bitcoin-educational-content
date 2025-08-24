@@ -1,0 +1,9 @@
+question: Hva betyr "topologi" i et datanettverk?
+answer: Hvordan enheter er sammenkoblet
+wrong_answers:
+  - Hastighet på Internett-tilkoblingen
+  - Hvilken type protokoll som brukes for kommunikasjon
+  - Til merket på ruterne som brukes i et nettverk
+explanation: |
+  Topologi refererer til den fysiske eller logiske strukturen i et nettverk og hvordan dets komponenter er koblet sammen.
+reviewed: false

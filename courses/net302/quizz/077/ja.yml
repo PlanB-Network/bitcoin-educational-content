@@ -1,0 +1,9 @@
+question: リバースゾーンのIPv6 Addressの各16進数桁を反転させる必要がある解決方法はどれですか？
+answer: 逆解決
+wrong_answers:
+  - 反対決議
+  - 主解像度
+  - セカンダリー・レゾリューション
+explanation: |
+  逆解決では、完全なIPv6 Addressの各ニブルが反転され、ドットで区切られた後、ip6.arpaで接尾辞が付けられる。
+reviewed: false

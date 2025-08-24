@@ -1,0 +1,9 @@
+question: Phân khúc ARPANET đầu tiên đi vào hoạt động vào năm nào?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Đoạn ARPANET đầu tiên đi vào hoạt động vào tháng 10 năm 1969, kết nối UCLA và Stanford.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken organisasjon overvåker den tekniske styringen av Internett-protokoller?
+answer: Styret for internettarkitektur
+wrong_answers:
+  - Internett-samfunn
+  - World Wide Web Consortium
+  - Institutt for elektro- og elektronikkingeniører
+explanation: |
+  Internet Architecture Board (IAB) fører tilsyn med den tekniske styringen og koordinerer utviklingen av Internett-protokoller.
+reviewed: false

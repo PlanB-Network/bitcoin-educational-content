@@ -1,0 +1,9 @@
+question: انگیزه اصلی برای استفاده از شناسه‌های تصادفی Interface به جای MAC Address در IPv6 چیست؟
+answer: حفظ حریم خصوصی
+wrong_answers:
+  - کاهش اندازه بسته
+  - تسریع حل DNS
+  - بهبود سازگاری ARP
+explanation: |
+  استفاده از شناسه‌های تصادفی Interface به محافظت در برابر ردیابی دستگاه بر اساس MAC Address کمک می‌کند.
+reviewed: false

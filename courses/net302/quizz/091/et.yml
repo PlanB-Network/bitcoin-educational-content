@@ -1,0 +1,9 @@
+question: Millist käsku kasutatakse host'i avatud portide skaneerimiseks ja ligipääsetavate teenuste tuvastamiseks?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - ip neigh
+explanation: |
+  nmap tuvastab avatud pordid, avatud teenused ja mõnikord ka eemal asuva operatsioonisüsteemi tüübi.
+reviewed: false

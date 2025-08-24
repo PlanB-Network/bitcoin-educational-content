@@ -1,0 +1,9 @@
+question: Какой протокол динамически назначает IP Address устройству?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Протокол DHCP автоматически назначает IP-адреса устройствам в сети, упрощая управление Address.
+reviewed: false

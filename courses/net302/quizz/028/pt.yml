@@ -1,0 +1,9 @@
+question: Qual é a unidade de dados que flui através do Transport Layer para TCP?
+answer: Segmento
+wrong_answers:
+  - Datagrama
+  - Moldura
+  - Fluxo
+explanation: |
+  No Transport Layer com TCP, a unidade de dados é chamada de segmento, enquanto o UDP usa o termo pacote.
+reviewed: false

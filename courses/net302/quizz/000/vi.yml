@@ -1,0 +1,9 @@
+question: Vai trò cơ bản của mạng trong CNTT là gì?
+answer: Cho phép dữ liệu Exchange
+wrong_answers:
+  - Tăng bộ nhớ máy tính
+  - Tạo bản sao lưu
+  - Kích hoạt Exchange của thiết bị máy tính
+explanation: |
+  Một mạng lưới kết nối nhiều thiết bị để cho phép lưu thông và truyền tải thông tin.
+reviewed: false

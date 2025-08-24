@@ -1,0 +1,9 @@
+question: Vilken term hänvisar till de tre första bytena i en MAC Address?
+answer: OUI (organisatoriskt unik identifieringskod)
+wrong_answers:
+  - SID (Sessionsidentifierare)
+  - LUI (lokal unik identifieringskod)
+  - PAN (fysiskt Address-nummer)
+explanation: |
+  OUI tilldelas av IEEE och identifierar tillverkaren av nätverkskortet i en MAC Address.
+reviewed: false

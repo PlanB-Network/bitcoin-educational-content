@@ -1,0 +1,9 @@
+question: Kui pikk on standardse IPv4 Address pikkus bittides?
+answer: 32-bitine
+wrong_answers:
+  - 8 bitti
+  - 128-bitine
+  - 16 bitti
+explanation: |
+  IPv4 Address on kodeeritud 32 bitiga, mis on jagatud neljaks 8-bitiseks baidiks.
+reviewed: false

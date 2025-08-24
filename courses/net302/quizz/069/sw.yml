@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa kawaida wa kiambishi awali cha mtandao kinachotumika katika IPv6 Address kwenye mtandao wa ndani?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bits
+  - 8 biti
+explanation: |
+  Biti 64 za kwanza za IPv6 Address kwa ujumla zimehifadhiwa kwa kiambishi awali cha subnet.
+reviewed: false

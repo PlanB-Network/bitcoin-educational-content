@@ -1,0 +1,9 @@
+question: In welchem Jahr wurde das erste ARPANET-Segment in Betrieb genommen?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Das erste ARPANET-Segment wurde im Oktober 1969 in Betrieb genommen und verband die UCLA und Stanford miteinander.
+reviewed: false

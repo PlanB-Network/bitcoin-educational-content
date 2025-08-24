@@ -1,0 +1,9 @@
+question: Milline organisatsioon määrab IP-protokolli versiooni numbrid?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) haldab IP-protokollide versiooninumbreid Assignment ja protokollide vahemike eraldamist.
+reviewed: false

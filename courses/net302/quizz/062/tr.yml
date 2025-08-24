@@ -1,0 +1,9 @@
+question: Bir URL'ye IPv6 Address eklemek için hangi gösterim kullanılır?
+answer: IPv6 Address köşeli parantez içine alınmıştır
+wrong_answers:
+  - IPv6 Address parantez içine alınmıştır
+  - IPv6 Address tırnak işareti içine alınır
+  - IPv6 Address ham olarak yazılmıştır
+explanation: |
+  Köşeli parantezler, herhangi bir belirsizliği önlemek için IPv6 Address'i bir URL'deki bağlantı noktasından ayırmak için kullanılır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä tietue on pakollinen jokaisessa DNS-vyöhyketiedostossa?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Osoitin)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  SOA-tietue määrittelee vyöhykeviranomaisen, ja sitä tarvitaan jokaisessa DNS-vyöhyketiedostossa.
+reviewed: false

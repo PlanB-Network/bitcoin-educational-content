@@ -1,0 +1,9 @@
+question: Que protocolo atribui dinamicamente um IP Address a um dispositivo?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  O protocolo DHCP atribui automaticamente endereços IP a dispositivos numa rede, simplificando a gestão do Address.
+reviewed: false

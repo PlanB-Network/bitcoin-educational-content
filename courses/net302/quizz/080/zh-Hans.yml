@@ -1,0 +1,9 @@
+question: 什么图形软件可用于对捕获的网络数据包进行详细的教学分析？
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - 跟踪路由
+  - 路线
+explanation: |
+  Wireshark 是一款图形化数据包分析仪，用于深入检查捕获的网络流量。
+reviewed: false

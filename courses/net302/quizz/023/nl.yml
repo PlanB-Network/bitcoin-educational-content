@@ -1,0 +1,9 @@
+question: Wat is de naam van de meerstaps verbindingsopbouwprocedure in TCP?
+answer: Drieweg handdruk
+wrong_answers:
+  - Vierwegs handdruk
+  - Schuifraam
+  - Checksum-proces
+explanation: |
+  De drieweg handdruk synchroniseert volgnummers tussen client en server voordat er Exchange van payload data plaatsvindt.
+reviewed: false

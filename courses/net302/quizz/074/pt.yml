@@ -1,0 +1,9 @@
+question: Que organização gere a atribuição inicial de blocos IPv6 Address a nível mundial?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  A IANA está no topo da hierarquia de atribuição, delegando blocos IPv6 aos cinco Registos Regionais da Internet (RIR).
+reviewed: false

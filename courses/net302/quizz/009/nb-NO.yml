@@ -1,0 +1,9 @@
+question: Hvilken amerikansk etat sto bak ARPANET-prosjektet?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) startet ARPANET, som la grunnlaget for utviklingen av TCP/IP-protokollen. I 1972 ble byrået omdøpt til DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

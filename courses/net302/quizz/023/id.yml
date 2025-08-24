@@ -1,0 +1,9 @@
+question: Apa nama prosedur pembuatan koneksi multi-langkah dalam TCP?
+answer: Jabat tangan tiga arah
+wrong_answers:
+  - Jabat tangan empat arah
+  - Jendela geser
+  - Proses checksum
+explanation: |
+  Jabat tangan tiga arah menyinkronkan nomor urut antara klien dan server sebelum data muatan Exchange.
+reviewed: false

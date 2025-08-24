@@ -1,0 +1,9 @@
+question: 在每個 DNS 區域檔案中，哪一項記錄是必須的？
+answer: SOA (權限開始)
+wrong_answers:
+  - PTR (指標)
+  - AAAA (IPv6 Address)
+  - SRV（服務定位器）
+explanation: |
+  SOA 記錄定義了區域權限，每個 DNS 區域檔案中都需要此記錄。
+reviewed: false

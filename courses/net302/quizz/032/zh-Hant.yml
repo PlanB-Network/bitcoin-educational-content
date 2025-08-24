@@ -1,0 +1,9 @@
+question: 標準 IPv4 Address 的長度是多少位元？
+answer: 32 位元
+wrong_answers:
+  - 8 位元
+  - 128 位元
+  - 16 位元
+explanation: |
+  IPv4 Address 以 32 位元編碼，分成四個位元組，每個位元組 8 位元。
+reviewed: false

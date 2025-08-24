@@ -1,0 +1,9 @@
+question: Mitä "topologia" tarkoittaa tietokoneverkossa?
+answer: Miten laitteet on liitetty toisiinsa
+wrong_answers:
+  - Internet-yhteyden nopeus
+  - Viestinnässä käytettävän protokollan tyyppi
+  - Verkossa käytettävien reitittimien merkkiin
+explanation: |
+  Topologialla tarkoitetaan verkon fyysistä tai loogista rakennetta ja sitä, miten sen osat on yhdistetty toisiinsa.
+reviewed: false

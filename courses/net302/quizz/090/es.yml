@@ -1,0 +1,9 @@
+question: ¿Cuándo se utiliza la opción -u en lsof?
+answer: Para filtrar por usuario
+wrong_answers:
+  - Para forzar la resolución DNS
+  - Para ver los puertos abiertos
+  - Para especificar un servidor DNS
+explanation: |
+  La opción -u de lsof restringe la salida a los archivos abiertos por un usuario o UID específico.
+reviewed: false

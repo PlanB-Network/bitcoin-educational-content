@@ -1,0 +1,9 @@
+question: Genel IPv4 Address ile özel IPv4 Address arasındaki temel fark nedir?
+answer: Genel bir Address benzersizdir ve İnternet üzerinde yönlendirilebilir
+wrong_answers:
+  - Özel bir Address benzersizdir ve İnternet üzerinde yönlendirilebilir
+  - Genel bir Address her zaman DHCP tarafından atanır
+  - Özel bir Address her zaman DHCP tarafından atanır
+explanation: |
+  Genel bir IPv4 Address küresel olarak benzersizdir ve İnternet üzerinde yönlendirilebilirken, özel bir Address yalnızca yerel bir ağ içinde geçerlidir.
+reviewed: false

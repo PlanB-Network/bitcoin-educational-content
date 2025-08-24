@@ -121,6 +121,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.93
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.88
 tags:
   - privacy
   - onchain

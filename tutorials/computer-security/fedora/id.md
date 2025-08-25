@@ -6,157 +6,78 @@ description: Distribusi Linux yang menyediakan ruang kerja gratis, lengkap, dan 
 
 ![cover](assets/cover.webp)
 
-
-
-
-
-Fedora adalah sistem operasi berbasis Linux sumber terbuka gratis yang diluncurkan pada tahun 2003, dikembangkan oleh komunitas **Fedora Project** dan didukung oleh **Red Hat Linux**. Fedora terkenal dengan stabilitas, kinerja yang baik, dan kemudahan penggunaannya, menjadikannya pilihan yang sangat baik untuk pemula dan pengguna tingkat lanjut. Sistem ini berjalan pada sebagian besar arsitektur prosesor modern, membuatnya mudah dipasang pada hampir semua komputer. Fedora juga tersedia dalam beberapa edisi yang telah dikonfigurasi sebelumnya, yang disebut "Fedora Spins" atau "Edisi Fedora", yang dirancang untuk kebutuhan khusus (video game, astronomi, pengembangan...).
-
-
+Fedora adalah sistem operasi berbasis Linux yang gratis dan open source, diluncurkan pada tahun 2003, dikembangkan oleh komunitas **Fedora Project** dan didukung oleh **Red Hat Linux**. Sistem ini terkenal karena stabilitas, kinerja yang baik, dan kemudahan penggunaannya, menjadikannya pilihan yang sangat baik untuk pemula maupun pengguna tingkat lanjut. Sistem ini berjalan pada sebagian besar arsitektur prosesor modern, membuatnya mudah dipasang di hampir semua komputer. Fedora juga tersedia dalam beberapa edisi yang telah dikonfigurasi sebelumnya, yang disebut "Fedora Spins" atau "Fedora Editions", yang dirancang untuk kebutuhan spesifik (video game, astronomi, pengembangan...).
 
 ## Arsitektur Linux Fedora
 
+Seperti yang Anda baca sebelumnya, Fedora adalah sistem operasi gratis yang didasarkan pada kernel Linux. Kernel Linux adalah bagian dari sistem operasi yang berkomunikasi dengan perangkat keras komputer dan mengelola sumber daya sistem seperti memori dan daya pemrosesan.
 
+Fedora Linux mencakup berbagai aplikasi perangkat lunak dan aplikasi yang diperlukan untuk menjalankan sistem operasi di atas kernel Linux. Arsitektur modular Fedora berarti bahwa sebagian besar terdiri dari kumpulan komponen individu yang dapat dengan mudah ditambahkan, dihapus, atau diganti sesuai kebutuhan. Ini memungkinkan Anda untuk membentuk sistem operasi hanya dengan menggunakan sumber daya yang Anda butuhkan.
 
-Seperti yang Anda baca sebelumnya, Fedora adalah sistem operasi gratis yang berbasis kernel Linux. Kernel Linux adalah bagian dari sistem operasi yang berkomunikasi dengan perangkat keras komputer dan mengelola sumber daya sistem seperti memori dan daya pemrosesan.
-
-
-
-Fedora Linux menyertakan berbagai alat perangkat lunak dan aplikasi yang diperlukan untuk menjalankan sistem operasi di atas kernel Linux. Arsitektur modular Fedora berarti bahwa Fedora sebagian besar terdiri dari kumpulan komponen individual yang dapat dengan mudah ditambahkan, dihapus, atau diganti sesuai kebutuhan. Hal ini memungkinkan Anda untuk membentuk sistem operasi hanya dengan menggunakan sumber daya yang Anda butuhkan.
-
-
-
-Fedora juga menyertakan lingkungan desktop, yang merupakan Interface yang digunakan pengguna untuk melakukan tugas dan mengakses aplikasi. Lingkungan desktop default Fedora adalah GNOME, lingkungan desktop yang ramah pengguna, mudah digunakan, dan sangat mudah dikustomisasi.
-
-
+Fedora juga mencakup lingkungan desktop, yang merupakan Interface di mana pengguna melakukan tugas dan mengakses aplikasi. Lingkungan desktop bawaan Fedora adalah GNOME, lingkungan desktop yang ramah pengguna, mudah digunakan, dan sangat dapat disesuaikan.
 
 ## Mengapa memilih Fedora?
 
+- **Modularitas**: Kompatibel dengan arsitektur prosesor yang berbeda, Fedora dapat dipasang di sebagian besar komputer, bahkan dengan kemampuan rendah, beradaptasi dengan sempurna dengan kebutuhan Anda.
 
+- **Interface yang sederhana dan intuitif**: Fedora menggabungkan Interface grafis modern dengan Interface baris perintah yang kuat, membuatnya mudah digunakan untuk semua profil.
 
-Di antara sekian banyak distribusi Linux yang tersedia, Fedora menonjol khususnya untuk distribusi :
+- **Stabilitas kernel**: Berbasis pada Red Hat, Fedora terkenal karena keandalan pembaruannya, terutama pembaruan kernel, yang dilakukan tanpa bug besar berkat kontribusi gratis dari komunitas yang besar.
 
-
-
-
-
-- Modularitas**: Kompatibel dengan arsitektur prosesor yang berbeda, Fedora dapat diinstal pada sebagian besar komputer, bahkan komputer dengan daya rendah, beradaptasi dengan sempurna dengan kebutuhan Anda.
-
-
-
-
-
-- Interface yang sederhana dan intuitif**: Fedora menggabungkan Interface grafis modern dengan Interface baris perintah yang kuat, membuatnya mudah digunakan untuk semua profil.
-
-
-
-
-
-- Stabilitas Kernel**: Berbasis Red Hat, Fedora terkenal dengan keandalan pembaruannya, terutama pembaruan kernel, yang dilakukan tanpa bug besar berkat kontribusi gratis dari komunitas yang besar.
-
-
-
-
-
-- Instalasi cepat dan mudah**: dengan ukuran gambar hanya 3 GB, instalasi menjadi cepat dan mudah, bahkan pada mesin dengan sumber daya yang terbatas.
-
-
+- **Pemasangan yang cepat dan mudah**: dengan ukuran image hanya 3 GB, pemasangan cepat dan mudah, bahkan pada komputer dengan sumber daya terbatas.
 
 ## Edisi Fedora
 
+Bergantung pada profil dan penggunaan Anda, Fedora menawarkan edisi yang sesuai dengan kebutuhan Anda. Anda akan menemukan yang utama:
 
+- **Fedora Workstation**: Ideal untuk penggunaan pribadi dan/atau profesional pada komputer Anda, edisi ini dipasang dengan utilitas umum seperti browser, office suite (penyunting teks), dan perangkat lunak pemutar media.
 
-Bergantung pada profil dan penggunaan Anda, Fedora menawarkan edisi yang sesuai dengan kebutuhan Anda. Anda terutama akan menemukan :
+- **Fedora Server**: Edisi ini didedikasikan untuk manajemen server. Fedora Server mencakup berbagai aplikasi untuk membantu Anda menyebarkan dan mengelola server dalam skala Anda sendiri.
 
-
-
-
-
-- Fedora Workstation**: Ideal untuk penggunaan pribadi dan/atau profesional pada komputer Anda, edisi ini diinstal dengan utilitas umum seperti peramban, office suite (editor teks), dan perangkat lunak pemutaran media.
-
-
-
-
-
-- Server Fedora**: Edisi ini didedikasikan untuk manajemen server. Fedora Server menyertakan berbagai alat untuk membantu Anda menggunakan dan mengelola server dalam skala Anda sendiri.
-
-
-
-
-
-- Fedora CoreOS**: Ingin menjalankan dan menggunakan aplikasi cloud dengan mudah? Fedora CoreOS adalah edisi yang memberi Anda alat untuk membuat dan mengelola image dengan Docker dan Kubernet, misalnya.
-
-
+- **Fedora CoreOS**: Ingin menjalankan dan menyebarkan aplikasi cloud dengan mudah? Fedora CoreOS adalah edisi yang memberi Anda aplikasi untuk membuat dan mengelola image dengan Docker dan Kubernetes, misalnya.
 
 Dalam tutorial ini, kita akan membahas edisi Fedora Workstation. Namun, proses yang dijelaskan di bawah ini serupa untuk edisi lainnya.
 
-
-
 ## Menginstalasi dan mengonfigurasi Fedora Workstation
-
-
 
 Menginstalasi Fedora Workstation membutuhkan konfigurasi perangkat keras berikut ini:
 
-
-
-
-- Kunci USB minimal **8 GB** untuk mem-boot sistem operasi.
+- Flash drive USB minimal **8 GB** untuk mem-boot sistem operasi.
 - Setidaknya **40 GB ruang kosong** pada disk Hard komputer Anda.
-- rAM 4 GB** untuk pengalaman yang lancar.
-
-
+- **RAM 4 GB** untuk pengalaman yang lancar.
 
 ### Unduh Fedora Workstation
 
-
-
-Anda dapat mengunduh edisi [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) dari situs web resmi proyek Fedora. Kemudian pilih versi yang sesuai dengan arsitektur prosesor Anda (32-bit - 64-bit) dan klik ikon **Download**.
-
-
+Anda dapat mengunduh edisi [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) dari situs web resmi proyek Fedora. Kemudian pilih versi yang sesuai dengan arsitektur prosesor Anda (32-bit - 64-bit) dan klik ikon **Download**.
 
 ![download](assets/fr/01.webp)
 
-
-
 ![telecharger](assets/fr/02.webp)
 
+### Membuat Flash drive USB yang dapat di-boot
 
-### Membuat kunci USB yang dapat di-boot
-
-
-
-Untuk menginstal Fedora, Anda perlu membuat kunci USB yang dapat di-boot menggunakan perangkat lunak seperti [Balena Etcher](https://etcher.balena.io/).
-
-
+Untuk menginstal Fedora, Anda perlu membuat Flash drive USB yang dapat di-boot menggunakan perangkat lunak seperti [Balena Etcher](https://etcher.balena.io/).
 
 ![flashOs](assets/fr/03.webp)
 
-
-
 ![flash](assets/fr/04.webp)
 
-
-
-Setelah Anda selesai menginstal Balena Etcher, buka aplikasi dan pilih citra ISO Fedora Workspace yang telah diunduh. Pilih kunci USB Anda sebagai media tujuan dan klik tombol **Flash** untuk mulai membuat kunci yang dapat di-boot.
-
-
+Setelah Anda selesai menginstal Balena Etcher, buka aplikasi dan pilih image ISO Fedora Workspace yang telah diunduh. Pilih Flash drive USB Anda sebagai media tujuan dan klik tombol **Flash** untuk mulai membuat kunci yang dapat di-boot.
 
 ![boot](assets/fr/05.webp)
-
 
 ### Menginstal Fedora
 
 
 
-Setelah Anda selesai mem-boot kunci USB, matikan komputer Anda.
+Setelah Anda selesai mem-boot Flash drive USB, matikan komputer Anda.
 
 
 Hidupkan komputer Anda, lalu akses BIOS selama pengaktifan dengan menekan tombol `F2`, `F12`, atau `ESC`, tergantung komputer Anda.
 
 
 
-Pada pilihan boot, pilih kunci USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang Fedora** yang ada pada kunci USB.
+Pada pilihan boot, pilih Flash drive USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang Fedora** yang ada pada Flash drive USB.
 
 
 

@@ -1,7 +1,7 @@
 ---
 name: Muun
 
-description: Menyiapkan dompet Muun Anda
+description: Menyiapkan dompet Muun
 ---
 
 ![cover](assets/cover.webp)
@@ -14,103 +14,104 @@ Muun (https://muun.com/) adalah dompet *self-custodial* untuk bitcoin dan lightn
 
 ## Panduan Lengkap untuk Pengguna Muun Wallet
 
-Berikut merupakan panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun Wallet; dompet Bitcoin *mobile* yang ramah pengguna yang memungkinkan Anda bertransaksi melalui Jaringan Lightning.
+Berikut panduan pengguna lengkap (dengan tangkapan layar) untuk aplikasi Muun Wallet; dompet Bitcoin mobile yang ramah pengguna dan memungkinkan kamu bertransaksi lewat Lightning Network.
 
 ![image](assets/0.5.webp)
 
-### Unduh Muun dan buat dompet Anda
+### Unduh Muun dan buat dompet milikmu
 
-Pertama, Anda perlu mengunduh aplikasi *mobile* Muun, tersedia baik di iOS maupun Android. Pastikan selalu untuk mengunduh versi yang benar. Terkadang ada versi palsu yang beredar di pasaran. Saya merekomendasikan untuk mengakses situs web dompet Muun resmi, yaitu https://muun.com/, dan menggunakan tautan untuk sistem operasi pilihan Anda (iOS/Android), dari sana Anda bisa yakin bahwa Anda akan mengunduh dan menggunakan aplikasi yang resmi.
+Pertama, kamu perlu mengunduh aplikasi *mobile* Muun, yang tersedia di iOS maupun Android. Pastikan selalu unduh versi yang benar, karena terkadang ada versi palsu yang beredar. Aku rekomendasikan kamu langsung ke situs resmi Muun di https://muun.com/
+dan gunakan tautan sesuai sistem operasi pilihanmu (iOS/Android), biar kamu yakin aplikasi yang dipakai benar-benar resmi.
 
 ![image](assets/1.webp)
 
-Ketika Anda membuka aplikasi, Anda akan memiliki opsi untuk membuat dompet baru atau memulihkan yang sudah ada. Mari kita mulai dengan membuat dompet baru. Setelah itu, saya akan menunjukkan langkah-langkah untuk pemulihan dompet. Tekan "*Create a new wallet*".
-
+Saat kamu membuka aplikasi, akan ada opsi untuk membuat dompet baru atau memulihkan yang sudah ada. Kita mulai dulu dengan membuat dompet baru. Setelah itu, aku bakal tunjukin langkah-langkah untuk pemulihan dompet. Tekan "**Create a new wallet**".
 ![image](assets/2.webp)
 
-Dompet Muun kemudian meminta Anda untuk membuat nomor identifikasi pribadi (PIN) empat digit. Dengan PIN, Anda meningkatkan keamanan dompet Anda dengan mencegah penjahat mencuri ponsel dan bitcoin Anda.
+Dompet Muun kemudian akan meminta kamu membuat nomor identifikasi pribadi (PIN) empat digit. Dengan PIN ini, kamu menambah lapisan keamanan dompet agar penjahat nggak bisa mencuri ponsel dan bitcoin kamu.
 
 ![image](assets/3.webp)
 
-Kemudian, dompet baru telah berhasil dibuat, dan yang sekarang ada di layar adalah halaman utama. Sebelum menyimpan dana, pastikan untuk mengamankan informasi pemulihan dompet Anda terlebih dahulu, karena menyimpan dana tanpa melakukannya bisa sangat berisiko.
+Setelah itu, dompet barumu berhasil dibuat dan yang muncul di layar adalah halaman utama. Sebelum menyimpan dana, pastikan dulu kamu mengamankan informasi pemulihan dompet, karena menyimpan dana tanpa langkah ini bisa sangat berisiko.
 
 ![image](assets/4.webp)
 
 ### Pencadangan Kunci
 
-Tekan kotak "*Back up your wallet*", dan Anda akan diarahkan ke tab "*Security*". Proses pencadangan Muun dibagi menjadi tiga langkah yang mudah diikuti. Meskipun Anda tidak perlu melakukan ketiganya, kombinasi dari ketiga langkah tersebut memberikan perlindungan maksimal bagi Anda.
+Tekan kotak "*Back up your wallet*", lalu kamu akan diarahkan ke tab "*Security*". Proses pencadangan di Muun dibagi jadi tiga langkah yang mudah diikuti. Walaupun kamu nggak wajib menjalankan semuanya, kombinasi ketiga langkah ini bakal kasih perlindungan maksimal buat kamu.
 
 ![image](assets/5.webp)
 
-Opsi pertama memungkinkan Anda untuk menghubungkan dompet Anda ke alamat email dan juga terdapat perlindungan password. Opsi ini opsional dan dapat dilewati. Jika Anda ingin menggunakannya, tekan "*1: Back up your wallet*" lalu tekan "*Start*" di layar berikutnya dan masukkan alamat email. Layar berikutnya akan memberi tahu Anda bahwa Anda perlu melakukan validasi email dengan mengakses kotak surat Anda dan mengklik tautan yang ada di dalam email dari Muun.
+Opsi pertama memungkinkan kamu menghubungkan dompet ke alamat email dengan tambahan perlindungan password. Opsi ini sifatnya opsional dan bisa dilewati. Kalau kamu mau pakai, tekan "*1: Back up your wallet*" lalu tekan "*Start*" di layar berikutnya dan masukkan alamat email. Setelah itu, layar akan kasih tahu kalau kamu perlu validasi email dengan membuka kotak masuk dan mengklik tautan yang dikirim Muun.
 
 ![image](assets/6.webp)
 
-Setelah email diverifikasi, Anda akan diminta untuk membuat kata sandi. Kemudian, Anda perlu mencentang dua kotak sebagai tanda bahwa Anda memahami bahwa pemulihan dompet, jika diperlukan, akan memerlukan email dan kata sandi yang baru saja Anda buat. Ini berbeda dengan program yang pada umumnya memungkinkan Anda untuk mengatur ulang kata sandi Anda jika Anda lupa atau kehilangan, jadi pastikan Anda telah mencatat semuanya dengan baik.
+Setelah email terverifikasi, kamu akan diminta membuat kata sandi. Lalu, kamu perlu mencentang dua kotak sebagai tanda bahwa kamu paham kalau pemulihan dompet nantinya bakal butuh email dan kata sandi yang baru saja kamu buat. Ini berbeda dengan layanan lain yang biasanya kasih opsi reset kata sandi kalau kamu lupa atau hilang, jadi pastikan semuanya sudah kamu catat dengan baik.
 
 ![image](assets/7.webp)
 ![image](assets/8.webp)
 
-Tab "*Security*" sekarang akan menampilkan bahwa Anda memiliki pencadangan pertama. Anda sekarang dapat kembali ke tab "*Wallet*" dan menggunakan aplikasi untuk melakukan transaksi (fitur-fitur ini akan dijelaskan lebih lanjut dalam panduan ini), dengan keyakinan bahwa dompet kini dapat dipulihkan. Namun, saya menyarankan Anda untuk menggunakan opsi keamanan #2 untuk menghasilkan kode pencadangan tambahan, jika kata sandi yang dimasukkan dalam opsi #1 diketahui oleh orang lain atau jika Anda lebih memilih untuk tidak menggunakan opsi pemulihan email.
+Tab "*Security*" sekarang akan menunjukkan bahwa kamu sudah punya pencadangan pertama. Kamu bisa kembali ke tab "Wallet" dan mulai pakai aplikasi untuk transaksi (fitur-fiturnya bakal dijelaskan lebih lanjut di panduan ini), dengan keyakinan bahwa dompetmu sekarang bisa dipulihkan. Tapi aku sarankan kamu juga pakai opsi keamanan #2 untuk bikin kode pencadangan tambahan, kalau-kalau kata sandi dari opsi #1 diketahui orang lain atau kalau kamu lebih pilih nggak pakai opsi pemulihan lewat email.
 
 ![image](assets/9.webp)
-Opsi "*Alternative backup*" Muun mirip dengan frasa pemulihan (*mnemonic phrase*) yang mirip standar umum yang dipakai oleh banyak dompet Bitcoin. Tekan "*Start*" untuk menampilkan kode pemulihan Anda dan tulislah pada selembar kertas (aplikasi tidak mengizinkan fitur tangkapan layar pada halaman yang menampilkan kode). Setelah mencatatnya, pastikan kode tersebut benar dan sesuai dengan yang ditampilkan di layar, karena Anda akan diminta untuk mengetikkannya kembali guna mengonfirmasi keakuratannya.
-Sekali lagi, Muun meminta Anda untuk mengonfirmasi bahwa Anda paham tentang hal ini, yaitu bahwa Anda akan memerlukan kode 32 karakter ini jika Anda kehilangan kata sandi yang telah Anda buat di langkah sebelumnya.
+Opsi "*Alternative backup*" di Muun mirip dengan seedphrase (mnemonic phrase) yang jadi standar umum di banyak dompet Bitcoin. Tekan "*Start*" untuk menampilkan kode pemulihan dan tulis di selembar kertas (aplikasi nggak mengizinkan tangkapan layar di halaman yang menampilkan kode ini). Setelah mencatat, pastikan kodenya benar dan sesuai dengan yang muncul di layar, karena kamu bakal diminta mengetikkannya kembali untuk mengonfirmasi keakuratannya.
+Sekali lagi, Muun bakal minta kamu mengonfirmasi bahwa kamu paham soal ini—bahwa kode 32 karakter ini wajib kamu simpan baik-baik, karena akan diperlukan kalau kamu kehilangan kata sandi yang sudah dibuat di langkah sebelumnya.
 
-Pencadangan dompet sekarang jauh lebih aman menurut standar modern yang kita ketahui. Namun, aplikasi Muun memiliki opsi keamanan ketiga yang disebut "*Emergency Kit*". Membuat *Emergency Kit* akan memungkinkan Anda untuk memulihkan dompet Anda tanpa menggunakan aplikasi Muun. Dengan kata lain, Anda bisa memulihkan dompet Anda dengan menggunakan perangkat lunak dompet Bitcoin lainnya.
+Sekarang, pencadangan dompetmu sudah jauh lebih aman sesuai standar modern yang kita kenal. Tapi, Muun juga punya opsi keamanan ketiga yang disebut "*Emergency Kit*". Dengan membuat Emergency Kit, kamu bisa memulihkan dompet tanpa harus pakai aplikasi Muun. Singkatnya, dompetmu bisa dipulihkan lewat perangkat lunak dompet Bitcoin lain.
 
 ![image](assets/10.webp)
 
-Setelah menekan "*Create an Emergency Kit*", Anda akan dijelaskan bahwa kit ini berbentuk dokumen PDF yang berisi informasi & instruksi mengenai cara bagaimana Anda dapat mentransfer dana Anda secara mandiri. Anda tidak perlu khawatir untuk Kit dapat disimpan di *cloud* karena memerlukan "*Recovery Code*" (dari langkah pencadangan nomor 2) Anda untuk digunakan, dan kode ini tidak disertakan dalam dokumen. Geser layar untuk mengakses halaman pembuatan *Emergency Kit*.
+Setelah menekan "*Create an Emergency Kit*", kamu akan dijelaskan bahwa kit ini berupa dokumen PDF yang berisi informasi dan instruksi tentang cara mentransfer dana kamu secara mandiri. Nggak perlu khawatir kalau kit ini disimpan di cloud, karena tetap memerlukan "*Recovery Code*" (dari langkah pencadangan nomor 2) untuk bisa digunakan, dan kode tersebut tidak disertakan di dalam dokumen. Geser layar untuk lanjut ke halaman pembuatan Emergency Kit.
 
 ![image](assets/11.webp)
 
-Ada tiga opsi penyimpanan kit ini untuk Anda:
+Ada tiga pilihan penyimpanan kit ini untukmu:
 
-- Simpan ke *cloud* akun Google Anda.
-- Kirim email ke alamat Anda sendiri untuk mencadangkan kit Anda dan mengaksesnya.
-- Pencadangan manual dengan aplikasi di perangkat Anda.
+- Simpan ke *cloud* akun Google kamu.
+- Kirim email ke alamatmu sendiri untuk mencadangkan kit dan bisa mengaksesnya kapan pun diperlukan.
+- Pencadangan manual dengan aplikasi di perangkat.
 
 ![image](assets/12.webp)
 
-Pastikan Anda dapat mengakses kit Anda setelah Anda mengirimkannya ke tujuan pencadangan pilihan Anda karena Muun kemudian akan meminta Anda untuk memasukkan kode enam digit yang ditemukan dalam kit untuk tujuan validasi.
+Pastikan kamu bisa mengakses kit setelah mengirimkannya ke tujuan pencadangan pilihanmu, karena Muun nanti akan minta kamu memasukkan kode enam digit yang ada di dalam kit untuk validasi.
 
 ![image](assets/13.webp)
 
-Setelah langkah terakhir ini, pengaturan keamanan dan pemulihan dompet Anda sekarang telah selesai. Kita sekarang akan menjelajahi berbagai cara untuk memulihkan dompet Anda menggunakan pencadangan yang baru saja dibuat.
+Setelah langkah terakhir ini, pengaturan keamanan dan pemulihan dompetmu sudah selesai. Sekarang kita akan menjelajahi berbagai cara untuk memulihkan dompet dengan pencadangan yang baru saja kamu buat.
 
 ## Pemulihan Dompet
 
 ![image](assets/14.webp)
 
-Ada banyak skenario di mana pengguna mungkin kehilangan akses ke dompet dan dana mereka secara sementara; misal karena kehilangan perangkat, aplikasi yang terhapus/hilang, lupa nomor PIN, pemutusan koneksi dompet, dan lain-lain. Oleh karena itu, sangat penting untuk mengetahui cara memulihkan akses ini. Saat Anda mau memulihkan melalui aplikasi Muun, tekan opsi "*I already have a wallet*" pada layar saat Muun pertama kali dibuka.
+Ada banyak skenario di mana pengguna bisa kehilangan akses sementara ke dompet dan dana mereka; misalnya karena perangkat hilang, aplikasi terhapus, lupa PIN, dompet terputus, dan lain-lain. Karena itu, penting banget buat tahu cara memulihkan akses. Kalau kamu mau memulihkan lewat aplikasi Muun, tekan opsi "I already have a wallet" di layar awal saat pertama kali membuka Muun.
 
 ![image](assets/15.webp)
 
 ### Pemulihan dengan alamat email
 
-Jika Anda menggunakan opsi backup #1 Muun, masukkan alamat email yang dipilih pada saat Anda mencadangkannya. Karena opsi ini opsional, Anda juga dapat memilih untuk melanjutkan dengan kode pemulihan, yang merupakan opsi #2 yang ditawarkan oleh Muun. Mari kita bahas terlebih dahulu cara pemulihan dengan opsi email.
+Kalau kamu pakai opsi backup #1 di Muun, masukkan alamat email yang kamu gunakan waktu mencadangkannya. Karena opsi ini sifatnya opsional, kamu juga bisa lanjut dengan kode pemulihan, yaitu opsi #2 yang ditawarkan Muun. Tapi mari kita bahas dulu cara pemulihan lewat email.
 
 ![image](assets/15.webp)
 
-Setelah alamat email Anda dimasukkan, Muun akan memberi tahu Anda bahwa terdapat email yang telah dikirim kepada Anda dan Anda perlu mengaksesnya untuk mengizinkan pemulihan dompet. Periksa kotak surat Anda (termasuk bagian spam) dan gunakan tautan yang ada di dalam email Muun. Anda akan diarahkan kembali ke aplikasi di mana layar sekarang akan meminta Anda untuk memasukkan kata sandi terkait dengan alamat email yang terdaftar.
+Setelah kamu memasukkan alamat email, Muun bakal kasih tahu bahwa ada email yang dikirim ke kotak masukmu dan kamu perlu membukanya untuk mengizinkan pemulihan dompet. Cek kotak surat (termasuk folder spam) lalu klik tautan di email dari Muun. Setelah itu, kamu akan diarahkan kembali ke aplikasi, di mana layar akan minta kamu memasukkan kata sandi yang terkait dengan alamat email tersebut.
 
 ![image](assets/16.webp)
 
-Langkah terakhir adalah membuat nomor identifikasi pribadi. Setelah itu, Anda akan kembali ke halaman utama dompet, yang menampilkan saldo Bitcoin Anda seperti sebelumnya.
+Langkah terakhir adalah membuat nomor identifikasi pribadi (PIN). Setelah itu, kamu akan kembali ke halaman utama dompet, dan saldo Bitcoin-mu akan tampil seperti sebelumnya.
 
 ![image](assets/17.webp)
 
 ### Penggunaan "Kode Pemulihan"
-Saat memulihkan akses ke dompet yang sudah ada, Anda dapat memilih untuk menggunakan kode pemulihan ("Recovery Code" sebagaimana ditetapkan oleh Muun) yang sebelumnya telah Anda catat jika Anda memilih opsi cadangan #2. Proses ini serupa dengan yang dijelaskan di bagian sebelumnya (pemulihan melalui email). Cukup pilih opsi "*Recover With Recovery Code*" dan masukkan kode tersebut ke dalam kolom yang ditampilkan di layar. Jika dompet Anda juga dicadangkan menggunakan email selain kode pemulihan, Muun akan meminta Anda untuk memeriksa kotak masuk email Anda untuk mengonfirmasi proses pemulihan. Anda dapat menyelesaikannya setelah kembali ke aplikasi melalui tautan yang disediakan. Sekali lagi, Anda harus membuat nomor PIN lagi. Kemudian, Anda dapat mengakses dompet Anda kembali.
+Saat memulihkan akses ke dompet yang sudah ada, kamu bisa memilih untuk pakai kode pemulihan ("Recovery Code" yang diberikan Muun) yang sebelumnya sudah kamu catat kalau kamu memilih opsi backup #2. Prosesnya mirip dengan pemulihan lewat email yang dijelaskan sebelumnya. Cukup pilih opsi "Recover With Recovery Code" lalu masukkan kode tersebut ke kolom yang muncul di layar. Kalau dompetmu juga dicadangkan dengan email selain kode pemulihan, Muun bakal minta kamu cek kotak masuk email untuk konfirmasi proses pemulihan. Setelah kembali ke aplikasi lewat tautan yang disediakan, kamu harus bikin PIN lagi. Setelah itu, dompetmu bisa diakses kembali.
 
 ### Pemulihan menggunakan Emergency Kit
 
-Untuk memulihkan dompet Anda tanpa menggunakan aplikasi Muun Wallet, Anda akan memerlukan *emergency kit*, opsi pemulihan ketiga yang ditawarkan oleh Muun. Opsi ini memungkinkan Anda untuk mengirim dana yang ada di dompet Muun Anda ke alamat Bitcoin lain. Jadi, pastikan Anda memiliki dompet alternatif dengan alamat tujuan pengiriman dana Anda.
+Untuk memulihkan dompet tanpa aplikasi Muun Wallet, kamu perlu Emergency Kit, yaitu opsi pemulihan ketiga yang ditawarkan Muun. Opsi ini memungkinkan kamu mengirim dana dari dompet Muun ke alamat Bitcoin lain. Jadi, pastikan kamu sudah punya dompet alternatif dengan alamat tujuan pengiriman dana.
 
-Buka dokumen PDF yang Anda simpan saat membuat kit. Dokumen ini berisi instruksi yang diperlukan untuk memulihkan dompet Anda. Perlu dicatat bahwa fitur ini memerlukan penggunaan komputer desktop atau laptop karena Anda perlu mengunduh skrip yang dibuat oleh tim pengembang Muun. Tautan tersebut sudah disertakan dalam email, tetapi saya akan melampirkannya di sini juga: https://github.com/muun/recovery
+Buka dokumen PDF yang kamu simpan saat membuat kit. Di dalamnya ada instruksi lengkap untuk memulihkan dompetmu. Perlu dicatat, fitur ini butuh komputer desktop atau laptop karena kamu harus mengunduh skrip yang dibuat tim pengembang Muun. Tautan unduhan sudah ada di email, tapi aku lampirkan juga di sini:
+https://github.com/muun/recovery
 
-Emergency kit dilengkapi dengan kode verifikasi, yang telah Anda gunakan untuk mengonfirmasi pembuatan kit, beserta dua buah kunci. Kunci-kunci ini akan diperlukan saat Anda mengaktifkan skrip pemulihan Muun. Jadi, pastikan Anda memilikinya selama proses pemulihan dompet.
+Emergency Kit dilengkapi dengan kode verifikasi (yang sebelumnya sudah kamu gunakan saat konfirmasi pembuatan kit) serta dua kunci. Kedua kunci ini nantinya diperlukan saat kamu menjalankan skrip pemulihan Muun. Jadi, pastikan kamu sudah menyiapkannya sebelum mulai proses pemulihan dompet.
 
 ![image](assets/19.webp)
 
@@ -118,21 +119,21 @@ Berikut adalah terjemahan dari instruksinya:
 
 Prosedur darurat ini akan membantu Anda memulihkan dana Anda jika Anda tidak dapat menggunakan Muun di perangkat Anda.
 
-1. Cari kode pemulihan Anda
+1. Cari kode pemulihanmu
 
-Anda menulis kode ini di selembar kertas sebelum membuat *emergency kit*. Anda akan membutuhkannya nanti.
+Kamu menulis kode ini di selembar kertas sebelum membuat *emergency kit*. Kamu bakal membutuhkannya nanti.
 
 2. Unduh alat pemulihan (*recovery tool*)
 
-Kunjungi halaman https://github.com/muun/recovery dan unduh alat tersebut ke komputer Anda.
+Kunjungi halaman https://github.com/muun/recovery dan unduh alat tersebut ke komputermu.
 
-3. Pulihkan dana Anda
+3. Pulihkan danamu
 
-Jalankan alat pemulihan dan ikuti langkah-langkahnya. Alat tersebut akan mentransfer dana Anda ke alamat Bitcoin pilihan Anda.
+Jalankan alat pemulihan dan ikuti langkah-langkahnya. Alat tersebut akan mentransfer dana ke alamat Bitcoin yang kamu pilih.
 
 ![image](assets/20.webp)
 
-Setelah berada di dalam skrip, yang harus Anda lakukan hanyalah memasukkan informasi yang diminta di layar. Skrip akan memproses pentrasferan dana untuk Anda. Dalam halaman "github" yang tertera atas, ada sebuah video animasi tentang menunjukkan proses ini, yang akan menunjukkan kepada Anda apa yang akan muncul saat Anda mulai menjalankan skrip pemulihan.
+Setelah masuk ke dalam skrip, yang perlu kamu lakukan hanyalah memasukkan informasi yang diminta di layar. Skrip akan memproses pengiriman dana untukmu. Pada halaman GitHub yang tertera di atas, ada video animasi yang memperlihatkan proses ini, sehingga kamu bisa tahu tampilan apa saja yang akan muncul saat mulai menjalankan skrip pemulihan.
 
 ![image](assets/21.webp)
 
@@ -140,39 +141,39 @@ Setelah berada di dalam skrip, yang harus Anda lakukan hanyalah memasukkan infor
 
 ### Tab Bitcoin
 
-Sekarang, kita akan membahas bagian "*Receive*" dari dompet Muun dan berbagai fungsinya. Halaman utama aplikasi Anda adalah tab "*Wallet*". Saldo Anda ditampilkan di tengah, dan Anda dapat menekannya untuk  menyembunyikan atau menampilkan saldo Anda. Kami akan membahas semua pengaturan aplikasi nanti dalam artikel ini. Untuk sekarang, mari kita tekan "*Receive*" untuk memahami fitur ini.
+Sekarang kita masuk ke bagian "*Receive*" dari dompet Muun dan berbagai fungsinya. Halaman utama aplikasi ada di tab "Wallet". Saldo kamu ditampilkan di tengah, dan bisa ditekan untuk menyembunyikan atau menampilkannya. Semua pengaturan aplikasi bakal kita bahas nanti di artikel ini. Untuk sekarang, mari tekan "Receive" biar kita bisa pahami fitur ini.
 
 ![image](assets/22.webp)
-Di halaman ini, Anda dapat memilih untuk menerima transaksi baik melalui jaringan Bitcoin maupun Lightning. Alamat baru (dan kode QR-nya) akan ditampilkan sesuai dengan jaringan yang diinginkan. Secara default, alamat Bitcoin ditampilkan ketika Anda membuka layar "*Receive*". Dengan menekan kode QR, alamat akan disalin ke papan klip perangkat Anda. Anda dapat dengan mudah membagikan alamat langsung ke aplikasi lain dengan tombol "*Share*", dan Anda juga dapat menyalin alamat dengan tombol "*Copy*". Menekan ikon mata di bagian ujung kanan alamat akan membuat Muun menampilkan alamat lengkap, sehingga Anda dapat membandingkannya dengan alamat yang disalin ke papan klip saat Anda menggunakan tombol "*Share*".
+Di halaman ini, kamu bisa pilih untuk menerima transaksi lewat jaringan Bitcoin atau Lightning. Alamat baru (beserta kode QR) akan muncul sesuai jaringan yang kamu pilih. Secara default, saat membuka layar "*Receive*", yang ditampilkan adalah alamat Bitcoin. Kalau kamu tekan kode QR, alamatnya otomatis tersalin ke papan klip perangkatmu. Kamu juga bisa langsung bagikan alamat ke aplikasi lain lewat tombol "*Share*", atau salin alamat dengan tombol "*Copy*". Menekan ikon mata di ujung kanan alamat akan membuat Muun menampilkan alamat lengkap, supaya kamu bisa membandingkannya dengan alamat yang sudah tersalin ke papan klip saat pakai tombol "*Share*".
 ![image](assets/23.webp)
 
-Informasi ini berisi segala yang Anda butuhkan untuk menerima transaksi di jaringan Bitcoin. Selain itu, Muun menawarkan Anda beberapa opsi pengaturan melalui menu "*Address settings*". Pertama, Anda dapat menambahkan nominal ke deskripsi alamat. Kedua, Anda dapat memilih untuk menggunakan alamat Segwit (opsi default) atau alamat tradisional (*legacy*).
+Informasi ini sudah mencakup semua yang kamu butuhkan untuk menerima transaksi di jaringan Bitcoin. Selain itu, Muun juga kasih beberapa opsi pengaturan lewat menu "*Address settings*". Pertama, kamu bisa menambahkan nominal ke deskripsi alamat. Kedua, kamu bisa pilih mau pakai alamat Segwit (default) atau alamat tradisional (legacy).
 
 ![image](assets/24.webp)
 
-Dengan menekan "*Add +*", Anda dapat menambahkan nominal tertentu ke alamat terkait, memudahkan langkah-langkah proses bagi pihak pengirim. Opsi ini bersifat opsional. Perhatikan bahwa setelah jumlah dimasukkan, tombol "*Copy*" di halaman sebelumnya akan menambahkan informasi ke alamat yang disalin ("bitcoin:" sebagai awalan, diikuti oleh jumlah sebagai akhiran). Untuk menghindari perubahan mendadak, cukup tekan kode QR langsung untuk menyalin alamat. Informasi nominal akan tetap terhubung pada alamat tersebut. Selain itu, aplikasi memungkinkan Anda untuk memilih memasukkan jumlah dalam mata uang pilihan Anda, memudahkan proses konversi ke BTC.
+Dengan menekan "*Add +*", kamu bisa menambahkan nominal tertentu ke alamat terkait, supaya prosesnya lebih mudah buat pihak pengirim. Opsi ini sifatnya opsional. Perlu diperhatikan, setelah jumlah dimasukkan, tombol "*Copy*" di halaman sebelumnya akan menyalin alamat dengan tambahan informasi ("*bitcoin:*" sebagai awalan dan jumlah sebagai akhiran). Kalau kamu mau hindari perubahan mendadak, cukup tekan kode QR langsung untuk menyalin alamat. Informasi nominal tetap bakal terhubung ke alamat itu. Selain itu, aplikasi juga memungkinkan kamu memasukkan jumlah dalam mata uang pilihanmu, jadi lebih gampang buat konversi ke BTC.
 
 ![image](assets/25.webp)
 
-Dalam aspek pemilihan jenis alamat, Segwit atau Legacy, saya menyarankan untuk tetap memakai Segwit. Jenis alamat ini (dicirkan dengan awalan dengan "bc1") membuat ukuran data transaksi menjadi kecil, dan dengan demikian, dapat mengecilkan biaya transaksi terkait. Namun, ada kalanya mungkin Anda perlu menggunakan sistem "Legacy" (alamat dengan awalan "3") apabila dompet atau perangkat lunak tidak kompatibel dengan alamat Segwit. Oleh karena itu, penting untuk mengetahui cara membedakan antara kedua jenis alamat tersebut.
+Dalam hal memilih jenis alamat, Segwit atau Legacy, aku sarankan tetap pakai Segwit. Alamat jenis ini (ditandai dengan awalan "bc1") bikin ukuran data transaksi lebih kecil, sehingga biaya transaksi juga bisa lebih rendah. Tapi, ada kalanya kamu mungkin perlu pakai sistem "*Legacy*" (alamat dengan awalan "3") kalau dompet atau perangkat lunak yang digunakan belum kompatibel dengan Segwit. Karena itu, penting buat tahu cara membedakan kedua jenis alamat ini.
 
 ![image](assets/26.webp)
 
 ## Tab Lightning
 
-Untuk menerima transaksi melalui jaringan Lightning, Anda perlu menekan tab Lightning di bagian atas layar. Kode QR yang berisi alamat Lightning sekarang akan ditampilkan, dan Anda dapat menyalin dan membagikannya dengan cara yang sama seperti alamat Bitcoin yang dijelaskan sebelumnya dalam panduan ini. Saya mengingatkan Anda bahwa jaringan Lightning memungkinkan Anda untuk melakukan transaksi yang hampir instan dengan biaya transaksi yang nilainya jauh lebih kecil daripada biaya pada jaringan Bitcoin.
+Untuk menerima transaksi lewat jaringan Lightning, kamu perlu menekan tab Lightning di bagian atas layar. Kode QR berisi alamat Lightning akan langsung muncul, dan kamu bisa menyalin atau membagikannya dengan cara yang sama seperti alamat Bitcoin yang sudah dijelaskan sebelumnya di panduan ini. Perlu diingat, jaringan Lightning memungkinkan kamu melakukan transaksi hampir instan dengan biaya yang jauh lebih kecil dibanding biaya di jaringan Bitcoin.
 
 ![image](assets/27.webp)
 
-Opsi pengaturan dapat ditemukan di bawah menu "*Invoice Settings*". Di sini, Anda dapat mengubah jumlah yang terkait dengan alamat dengan menekan "*Add +*". Berdasarkan pengalaman saya dengan jaringan Lightning, saya merasa Anda lebih baik memasukkan jumlah saat membuat transaksi karena beberapa dompet tidak bisa mendeteksi dengan baik invoice kosong. Anda juga akan melihat bahwa ada timer kedaluwarsa di menu ini. Dalam aplikasi ini, timer akan diatur selama 60 menit, setelah itu alamat akan menjadi tidak valid. Perlu dicatat bahwa Muun menghasilkan alamat Lightning baru setiap kali Anda membuat perubahan pada jumlah atau ketika Anda keluar dan kembali ke halaman tab Lightning.
+Opsi pengaturan bisa kamu temukan di bawah menu "*Invoice Settings*". Di sini, kamu bisa ubah jumlah yang terhubung dengan alamat dengan menekan "*Add +*". Dari pengalaman aku pakai jaringan Lightning, sebaiknya kamu langsung isi jumlah saat membuat transaksi, karena beberapa dompet nggak bisa membaca invoice kosong dengan baik. Kamu juga bakal lihat ada timer kedaluwarsa di menu ini. Di aplikasi Muun, timer ini diatur 60 menit, setelah itu alamat jadi nggak valid lagi. Perlu dicatat, Muun selalu bikin alamat Lightning baru setiap kali kamu ubah jumlah atau saat kamu keluar lalu balik lagi ke tab Lightning.
 
 ![image](assets/28.webp)
 
 ## Menggunakan fungsi LNURL
-Dompet Muun menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi. Fungsi ini, yang diaktifkan dengan mengetuk simbol pemindaian persegi yang terletak di pojok kanan atas halaman, memiliki beberapa keuntungan, termasuk menghindari kebutuhan untuk berbagi *invoice* untuk menerima transaksi. Sebagai gantinya, Anda perlu memindai kode QR untuk menerima informasi pembayaran, yang kemudian dapat Anda validasi untuk mengonfirmasi proses transaksi.
+Dompet Muun juga mendukung penggunaan LNURL untuk menerima transaksi. Fitur ini bisa kamu aktifkan dengan menekan ikon pemindaian berbentuk persegi di pojok kanan atas halaman. Keuntungannya, kamu nggak perlu lagi berbagi invoice untuk menerima transaksi. Sebagai gantinya, cukup pindai kode QR untuk mendapatkan informasi pembayaran, lalu validasi agar transaksi bisa dikonfirmasi.
 ![image](assets/29.webp)
 
-Muun akan awalnya menunjukkan kepada Anda sebuah halaman penjelasan (lihat tangkapan layar di atas) dan kemudian meminta Anda untuk mengizinkan kamera dari perangkat Anda, dimana langkah ini diperlukan untuk menggunakan aplikasi. Harap dicatat bahwa alamat LNURL saat ini tidak didukung oleh semua dompet Lightning. Dompet yang mendukungnya umumnya hanya menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi dan tidak untuk mengirimkannya.
+Muun pertama-tama akan menampilkan halaman penjelasan (lihat tangkapan layar di atas), lalu meminta izin akses kamera dari perangkatmu, karena langkah ini memang dibutuhkan untuk menjalankan fitur tersebut. Perlu dicatat, alamat LNURL saat ini belum didukung oleh semua dompet Lightning. Dompet yang mendukung biasanya hanya bisa memakai LNURL untuk menerima transaksi, bukan untuk mengirimkannya.
 
 ![image](assets/30.webp)
 
@@ -180,77 +181,80 @@ Muun akan awalnya menunjukkan kepada Anda sebuah halaman penjelasan (lihat tangk
 
 ### Melalui jaringan Bitcoin
 
-Sekarang setelah kita telah melihat cara menerima bitcoin dengan Muun, mari kita jelajahi cara mengirimkannya. Kembali ke beranda di bawah tab "*Wallet*", Anda perlu menekan "*Send*". Sebuah halaman akan muncul di mana Anda akan memiliki opsi untuk menyalin alamat Bitcoin atau Lightning ke dalam tempat yang ditentukan atau menekan ikon kode QR di sebelah kanan bidang ini untuk mengaktifkan kamera dan memindai alamat dalam bentuk kode QR.
+Sekarang setelah kita bahas cara menerima bitcoin dengan Muun, mari kita lanjut ke cara mengirimkannya. Dari beranda di tab "*Wallet*", tekan tombol "*Send*". Akan muncul halaman di mana kamu bisa menempelkan alamat Bitcoin atau Lightning ke kolom yang tersedia, atau menekan ikon kode QR di sebelah kanan kolom tersebut untuk mengaktifkan kamera dan memindai alamat dalam bentuk kode QR.
 
 ![image](assets/31.webp)
 ![image](assets/32.webp)
 
-Ketika Anda tiba di halaman "*Send*", jika Anda sudah memiliki alamat yang disalin pada perangkat Anda, Muun akan mengenali format alamat (Bitcoin atau Lightning) dan menyarankan menggunakannya untuk mengumumkan transaksi melalui sebuah pesan.
+Saat kamu masuk ke halaman "*Send*", kalau sudah ada alamat yang tersalin di perangkatmu, Muun akan otomatis mengenali format alamat tersebut (Bitcoin atau Lightning) dan menyarankan untuk langsung menggunakannya dalam transaksi lewat sebuah notifikasi pesan.
 
 ![image](assets/33.webp)
 ![image](assets/34.webp)
 
-Saat mempersiapkan transaksi Bitcoin, Anda perlu memasukkan jumlah yang akan dikirim. Pastikan bahwa alamat tujuan yang ditampilkan di bagian atas layar sesuai dengan alamat yang sebelumnya disalin. Di bawah jumlah yang akan dikirim, Muun akan menampilkan saldo dompet Anda dan memberi Anda opsi untuk menggunakan semua dana Anda, fitur yang sangat berguna jika Anda ingin mengosongkan dompet Anda sepenuhnya dan menghindari meninggalkan "debu" (beberapa satoshi).
+Saat menyiapkan transaksi Bitcoin, kamu perlu memasukkan jumlah yang mau dikirim. Pastikan alamat tujuan yang ditampilkan di bagian atas layar sesuai dengan alamat yang sebelumnya kamu salin. Di bawah kolom jumlah, Muun bakal menampilkan saldo dompetmu dan memberi opsi "*Use all funds*". Fitur ini sangat berguna kalau kamu mau mengosongkan dompet sepenuhnya dan menghindari meninggalkan "*debu*" (beberapa satoshi tersisa).
 
 ![image](assets/35.webp)
 
-Setelah mengonfirmasi jumlah yang akan dikirim, Muun akan meminta Anda untuk menulis catatan di halaman berikutnya. Catatan ini berfungsi sebagai validasi tambahan, dan Anda bebas menulis apa pun yang Anda inginkan pada kolom ini.
+Setelah kamu mengonfirmasi jumlah yang akan dikirim, Muun akan minta kamu menulis catatan di halaman berikutnya. Catatan ini berfungsi sebagai validasi tambahan, dan kamu bebas menuliskan apa saja di kolom tersebut.
 
 ![image](assets/36.webp)
 
-Tinjauan akhir dari detail transaksi diperlukan sebelum akhirnya dikirim ke jaringan Bitcoin. Validasi alamat dan jumlah yang dimasukkan, kemudian sesuaikan biaya transaksi jika diperlukan dengan menekan ikon pensil biru di sebelah kanan "*Network Fee*". Memahami dasar-dasar cara kerja kolam transaksi Bitcoin (mempool) adalah hal yang perlu dilakukan untuk memperoleh pengetahuan baru dan belajar tentang mekanisme biaya transaksi di Bitcoin yang dapat membantu Anda menghemat beberapa sats di masa depan!
+Sebelum transaksi dikirim ke jaringan Bitcoin, kamu perlu meninjau detailnya sekali lagi. Pastikan alamat dan jumlah sudah benar, lalu sesuaikan biaya transaksi kalau diperlukan dengan menekan ikon pensil biru di samping "*Network Fee*". Penting juga buat paham dasar cara kerja mempool (kolam transaksi Bitcoin), supaya kamu bisa ngerti mekanisme biaya transaksi dan belajar cara menghemat beberapa sats di masa depan!
 
 ![image](assets/37.webp)
 
 Perangkat lunak Muun secara default menggunakan algoritma yang menghitung biaya transaksi yang diperlukan untuk konfirmasi transaksi dalam 30 menit atau kurang. Inilah yang akan ditampilkan ketika Anda mencoba mengganti biaya transaksi. Tombol "*Enter Fee Manually*" memungkinkan Anda untuk menyesuaikan biaya ini sendiri, fitur yang bisa sangat berguna yang bergantung pada kebutuhan Anda akan perlu atau tidaknya konfirmasi transaksi secara cepat.
 
 ![image](assets/38.webp)
-Dengan memilih untuk memasukkan jumlah biaya transaksi sendiri, Anda akan dibawa ke halaman baru yang menunjukkan jumlah yang harus dimasukkan dalam sat/vbyte (satoshi per byte virtual). Muun bahkan menampilkan perkiraan waktu konfirmasi yang terkait dengan jumlah yang dipilih, serta biaya dalam BTC dan mata uang fiat pilihan Anda.
+Kalau kamu pilih untuk memasukkan jumlah biaya transaksi sendiri, Muun akan bawa kamu ke halaman baru yang menampilkan biaya dalam satuan sat/vbyte (satoshi per byte virtual). Di sana, Muun juga kasih perkiraan waktu konfirmasi sesuai jumlah yang kamu pilih, plus rincian biaya dalam BTC dan juga mata uang fiat pilihanmu.
 ![image](assets/39.webp)
-Kembali ke halaman ikhtisar detail transaksi dan tekan "*Send*". Voilà, transaksi Anda sudah terkirim ke jaringan Bitcoin! Anda akan diarahkan kembali ke halaman utama dompet di mana Anda akan melihat bahwa saldo Anda telah berkurang. Di bagian bawah layar, ada sebuah panah yang dapat Anda tekan untuk memeriksa riwayat transaksi Anda. Transaksi yang baru saja Anda lakukan akan ditambahkan pada saat awal munculnya.
+Kembali ke halaman ikhtisar detail transaksi lalu tekan "*Send*". Voilà, transaksi kamu sudah terkirim ke jaringan Bitcoin! Setelah itu kamu akan diarahkan kembali ke halaman utama dompet, dan saldo akan langsung berkurang. Di bagian bawah layar ada ikon panah yang bisa kamu tekan untuk melihat riwayat transaksi. Transaksi terbaru yang barusan kamu lakukan akan langsung muncul di daftar paling atas.
 ![image](assets/40.webp)
 
-Tekan salah satu transaksi untuk melihat detail dari transaksi tersebut. Transaksi Anda akan dikonfirmasi ketika seorang penambang menambahkan blok baru yang memasukkannya ke dalam rantai. Muun membagikan ID transaksi di bagian bawah layar, memungkinkan Anda untuk memeriksa status transaksi Anda pada sebuah *block explorer*.
+ChatGPT said:
+
+Tekan salah satu transaksi untuk melihat detailnya. Transaksimu akan terkonfirmasi setelah penambang menambahkan blok baru yang menyertakannya ke dalam rantai. Di bagian bawah layar, Muun menampilkan ID transaksi, yang bisa kamu gunakan untuk mengecek status transaksi lewat *block explorer.*
 
 ![image](assets/41.webp)
 
 ## Melalui Jaringan Lightning
 
-Sekarang mari kita gunakan invoice Bolt 11 (invoice Lightning tradisional/default) untuk melakukan transaksi. Salin atau pindai alamat Lightning di halaman "*Send*". Anda akan diarahkan ke halaman baru yang menunjukkan detail dari invoice saat ini. Jumlah transaksi akan ditampilkan (termasuk biaya jaringan), bersama dengan catatan atau deskripsi yang ditulis pada *invoice*, dan timer kedaluwarsa di bagian bawah. Perhatikan bahwa biaya transaksi tidak dapat dimodifikasi untuk transaksi Lightning. Biaya tersebut ditentukan oleh rute kanal yang harus dilalui untuk mencapai penerima.
+Sekarang mari kita coba pakai invoice Bolt 11 (invoice Lightning tradisional/default) untuk melakukan transaksi. Salin atau pindai alamat Lightning di halaman "*Send*". Kamu akan diarahkan ke halaman baru yang menampilkan detail invoice tersebut. Jumlah transaksi akan muncul (termasuk biaya jaringan), bersama dengan catatan atau deskripsi yang ditulis pada invoice, serta timer kedaluwarsa di bagian bawah. Perlu dicatat, biaya transaksi Lightning nggak bisa kamu ubah. Biaya ini otomatis ditentukan oleh rute kanal yang harus dilewati sampai ke penerima.
 
 ![image](assets/42.webp)
 
-(Ini adalah peringatan yang ditampilkan di layar ketika menggunakan *invoice* kosong, yang berarti tidak ada jumlah yang telah diisi sebelumnya. Beberapa dompet mendukung jenis *invoice* ini dan memungkinkan Anda untuk menyesuaikan jumlahnya sendiri. Muun tidak seperti demikian.)
+(Inilah peringatan yang muncul di layar saat kamu pakai *invoice* kosong, artinya nggak ada jumlah yang sudah diisi sebelumnya. Beberapa dompet memang mendukung invoice jenis ini dan memungkinkan kamu isi jumlah sendiri. Tapi Muun tidak mendukung hal tersebut.)
 
 ![image](assets/43.webp)
 
-Jika Anda menekan ikon mata, Muun akan menunjukkan detail dari node Lightning yang terkait dengan transaksi ini. Anda bahkan memiliki opsi untuk melihat *web explorer* untuk informasi lebih lanjut. Ini adalah contoh baik dari aspek teknis yang dicapai oleh Muun.
+Kalau kamu menekan ikon mata, Muun akan menampilkan detail node Lightning yang terhubung dengan transaksi tersebut. Kamu bahkan bisa pilih untuk melihatnya lewat *web explorer* untuk informasi lebih lanjut. Ini jadi contoh bagus dari sisi teknis yang berhasil dihadirkan Muun.
 
 ![image](assets/44.webp)
 
-Setelah Anda menekan "*Send*", transaksi Anda akan diluncurkan dan, biasanya, selesai dalam kurang dari 1 detik. Jumlah yang dibayarkan akan dipotong dari saldo Anda, dan terlihat di halaman utama aplikasi. Kembali ke riwayat transaksi Anda untuk melihat konfirmasi pembayaran secara instan.
+Setelah kamu menekan "*Send*", transaksi langsung dijalankan dan biasanya selesai dalam waktu kurang dari 1 detik. Jumlah yang dibayarkan otomatis terpotong dari saldo, dan langsung terlihat di halaman utama aplikasi. Kamu bisa kembali ke riwayat transaksi untuk melihat konfirmasi pembayaran secara instan.
 
 ![image](assets/45.webp)
 
-Perhatikan bahwa dalam riwayat, transaksi Lightning & Bitcoin dibedakan dengan simbol yang berbeda. Untuk melihat detail dari transaksi Lightning, ketuk pada riwayat layar Anda.
+Perlu diperhatikan, di riwayat transaksi, Lightning dan Bitcoin dibedakan dengan simbol yang berbeda. Untuk melihat detail transaksi Lightning, cukup ketuk transaksi tersebut di riwayat layarmu.
 
 ![image](assets/46.webp)
 
 ## Pengaturan Aplikasi
 
-Tab ketiga di halaman utama, "*Settings*" adalah tempat Anda dapat menemukan pengaturan aplikasi. Halaman ini cukup singkat, terutama jika dibandingkan dengan dompet seluler populer lainnya. Menurut saya, ini bukan sebuah kelemahan; sebaliknya, saya melihatnya sebagai keuntungan dalam hal kesederhanaan.
+Tab ketiga pada halaman utama, yaitu "*Settings*", adalah tempat di mana kamu dapat menemukan pengaturan aplikasi. Bagian ini relatif sederhana jika dibandingkan dengan dompet seluler populer lainnya. Namun, justru kesederhanaan inilah yang menjadi kelebihannya, karena membuat pengalaman pengguna lebih ringkas dan mudah dipahami.
 
 ![image](assets/47.webp)
 
-Dalam kategori umum, Anda dapat memilih unit akun dan mata uang aplikasi Muun, serta tema tampilan aplikasi (gelap atau terang), yang awalnya akan diatur berdasarkan sistem perangkat Anda.
+Dalam kategori umum, kamu bisa memilih unit akun dan mata uang aplikasi Muun, serta tema tampilan aplikasi (gelap atau terang), yang secara default mengikuti pengaturan sistem perangkatmu.
 
-Untuk unit akun aplikasi, Anda bisa memilih antara Bitcoin (BTC) atau Satoshi (SAT). Sebagai informasi, sebuah Satoshi adalah pecahan terkecil dari bitcoin, dimana 1 SAT = 0.00000001 BTC. Menggunakan SAT sebagai unit akun dompet dalam seringkali lebih disukai ketika menggunakan jaringan Lightning dengan jumlah kecil.
+Untuk unit akun, kamu dapat memilih antara Bitcoin (BTC) atau Satoshi (SAT). Sebagai informasi, sebuah Satoshi adalah pecahan terkecil dari Bitcoin, di mana 1 SAT = 0.00000001 BTC. Menggunakan SAT sebagai unit akun dompet seringkali lebih disukai ketika bertransaksi di jaringan Lightning dengan jumlah kecil.
 
-Muun menawarkan berbagai pilihan mata uang, membuatnya lebih mudah bagi Anda untuk menghitung konversi BTC yang diperlukan untuk kebutuhan transaksional dan/atau pribadi Anda.
-Jika Anda merasa perlu untuk mengubah kata sandi pemulihan dompet Anda, Anda dapat melakukannya di halaman *settings*. Pastikan Anda memiliki kata sandi saat ini atau kode pemulihan dan akses ke email Anda.
+Muun juga menawarkan berbagai pilihan mata uang, sehingga memudahkan kamu untuk menghitung konversi BTC sesuai kebutuhan transaksional maupun pribadi.
+
+Jika kamu merasa perlu mengubah kata sandi pemulihan dompet, hal itu bisa dilakukan di halaman Settings. Pastikan kamu memiliki kata sandi saat ini atau kode pemulihan, serta akses ke email yang terhubung.
 ![image](assets/48.webp)
 
-Masukkan kata sandi saat ini Anda atau pilih untuk memasukkan kode pemulihan Anda untuk memulai pengaturan ulang. Muun akan mengirimkan email ke alamat yang telah terdaftar sebelumnya.
+Masukkan kata sandi saat ini kamu atau pilih untuk memasukkan kode pemulihan kamu untuk memulai pengaturan ulang. Muun kemudian akan mengirimkan email ke alamat yang sudah kamu daftarkan sebelumnya.
 
 ![image](assets/49.webp)
 ![image](assets/50.webp)
@@ -259,18 +263,18 @@ Bagian pengaturan lanjutan berisi dua hal: Jaringan Bitcoin dan Jaringan Lightni
 
 ![image](assets/51.webp)
 
-Di dalam Jaringan Lightning, Anda akan menemukan:
+Di dalam Jaringan Lightning, kamu bakal menemukan:
 
-- *Receiving Protocol*: Pilih jaringan penerimaan default Anda yang ditampilkan di layar Terima. Sebuah fitur uji coba bernama Unified juga tersedia. Ini adalah kode QR yang bisa digunakan baik untuk alamat Bitcoin maupun Lightning. Namun, hanya ada sedikit perangkat lunak Bitcoin yang saat ini mendukung fitur ini.
+- *Receiving Protocol*: Pilih jaringan penerimaan default yang ditampilkan di layar "Receive". Ada juga fitur uji coba bernama Unified, yaitu kode QR yang bisa dipakai untuk alamat Bitcoin maupun Lightning. Namun, saat ini hanya sedikit perangkat lunak Bitcoin yang mendukung fitur ini.
 
-- *Turbo Channels*: Opsi ini memungkinkan Anda untuk mengaktifkan atau menonaktifkan fitur Turbo channels. Secara default, fitur ini diaktifkan.
+- *Turbo Channels*: Opsi ini memungkinkanmu untuk mengaktifkan atau menonaktifkan fitur Turbo channels. Secara default, fitur ini diaktifkan.
 
 ![image](assets/52.webp)
 
-Untuk memahami apa yang disebut *Turbo channels*, kita harus terlebih dahulu tahu bahwa transaksi Lightning dilakukan melalui saluran dari satu pengguna ke pengguna lain, dan bahwa saluran-saluran ini harus awalnya didanai melalui transaksi di *blockchain* Bitcoin.
+Untuk memahami apa yang disebut *Turbo channels*, kita harus terlebih dahulu tahu bahwa transaksi Lightning dilakukan melalui saluran dari satu pengguna ke pengguna lain, dan bahwa saluran-saluran ini harus didanai melalui transaksi di *blockchain* Bitcoin pada proses awalnya.
 
-*Turbo channels* memungkinkan Anda untuk bisa bertransaksi di jaringan Lightning bahkan sebelum transaksi *on-chain* apa pun telah dikonfirmasi. Jika Anda menonaktifkan fungsi ini, maka Anda harus menunggu jauh lebih lama untuk bertransaksi di jaringan Lightning, sebagai imbalan untuk peningkatan keamanan dana Anda, karena sebaliknya Anda harus percaya bahwa Muun tidak akan menggunakan cara yang merugikan (*double-spend* yang bersifat publik) sambil menunggu transaksi Anda dikonfirmasi di rantai blok Bitcoin.
+*Turbo channels* memungkinkanmu untuk bisa bertransaksi di jaringan Lightning bahkan sebelum transaksi *on-chain* apa pun telah dikonfirmasi. Kalau kamu menonaktifkan fungsi ini, maka kamu harus menunggu jauh lebih lama untuk bertransaksi di jaringan Lightning, sebagai imbalan untuk peningkatan keamanan dana-mu, karena sebaliknya kamu harus percaya bahwa Muun tidak akan menggunakan cara yang merugikan (*double-spend* yang bersifat publik) sambil menunggu transaksimu dikonfirmasi di rantai blok Bitcoin.
 
-Di bagian bawah halaman pengaturan adalah opsi "*Log out*". Anda dapat menggunakan fungsi ini jika Anda ingin aplikasi memutuskan koneksi dengan dompet saat ini. Hal ini akan memungkinkan Anda untuk membuat dompet baru atau mengimpor/memulihkan yang sudah ada.
+Di bagian bawah halaman pengaturan adalah opsi "*Log out*". kamu bisa menggunakan fungsi ini jika kamu ingin aplikasi memutuskan koneksi dengan dompet saat ini. Hal ini akan memungkinkanmu untuk membuat dompet baru atau mengimpor/memulihkan yang sudah ada.
 
 ![image](assets/53.webp)

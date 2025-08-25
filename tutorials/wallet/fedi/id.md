@@ -1,6 +1,6 @@
 ---
 name: Fedi
-description: Bitcoin super Wallet Anda yang didukung oleh komunitas
+description: Bitcoin super Wallet yang didukung oleh komunitas
 ---
 
 ![cover](assets/cover.webp)

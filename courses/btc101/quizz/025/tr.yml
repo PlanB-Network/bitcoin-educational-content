@@ -1,0 +1,12 @@
+question: Bitcoin'ın diğer para birimlerine göre temel avantajı nedir?
+answer: Kesinlikle sınırlı Supply ve tarafsızlığı nedeniyle mükemmel bir değer deposu sunar.
+wrong_answers:
+  - Bölünemez ve taşınamaz.
+  - Parasal enflasyona maruz kalan para birimine harika bir örnektir.
+  - Dünyadaki tüm tüccarlar tarafından ticarette yaygın olarak kabul edilmektedir.
+explanation: |
+  Bitcoin'nin diğer para birimlerine göre temel avantajı
+  nedeniyle mükemmel bir değer deposu sunmasıdır
+  kesinlikle sınırlı Supply ve güvenilir taraf eksikliği. Bu
+  uzun vadeli tasarruflar için iyi bir seçimdir.
+reviewed: true

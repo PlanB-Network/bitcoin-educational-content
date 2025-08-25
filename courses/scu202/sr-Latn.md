@@ -1300,9 +1300,9 @@ PureOS je distribucija izvedena iz Debiana koju razvija Purism, potpuno besplatn
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi mikroračunare. Bazirana je na Debianu, sa paketima rekompajliranim za ARM arhitekturu. Može se koristiti za obrazovne projekte, elektronsko testiranje ili male lične servere.
 
@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workst
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ova panorama vam daje pregled trenutnog ekosistema Linux distribucija, omogućavajući vam da odaberete distribuciju koja najbolje odgovara vašem tehničkom profilu i ciljevima.
-
-
 
 U sledećem poglavlju SCU202, detaljnije ćemo razmotriti praktično Linux okruženje, počevši od grafičkih okruženja koja čine osnovu vaših svakodnevnih interakcija sa sistemom.
 
-
-
 ## Linux desktop okruženja
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički Layer koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
-
-
 
 U ovom poglavlju istražujem strukturu i ulogu desktop okruženja, njegove tipične komponente, glavne dostupne porodice, kriterijume za odabir i njihovu integraciju u najpopularnije Linux distribucije.
 
-
-
 ### Šta je kancelarijsko okruženje?
 
-
-
 Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički Interface operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske za delimičnu modifikaciju Interface). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
-
-
 
 U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera preko kernela), i na kraju sam desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički Interface. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
 
@@ -5774,15 +5761,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Podrazumevano, LibreWolf aktivira napredna sigurnosna podešavanja Firefoxa (kao
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je besplatan i otvoren izvorni pregledač zasnovan na Firefoxu (Gecko engine), pokrenut 2024. godine. Njegov cilj je da ponudi moderno, elegantno, visoko prilagodljivo i pre svega iskustvo pregledanja usmereno na privatnost, bez oslanjanja na Chromium.
 
-
-
 Zen se ističe svojim radikalnim pristupom Interface i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko endžinom. Uključuje :
-
-
-
 
 - Minimalistički, modularni Interface, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
 - Sistem prilagodljivih Interface šablona (*Zen Mods*) koji se mogu koristiti za duboku izmenu izgleda pregledača;
 - Originalna funkcija pod nazivom *Glance*, koja otvara link u laganom privremenom prozoru, izbegavajući nered sa karticama...
 
-
-
 Zen takođe podržava ekstenzije za Firefox, kao i sinhronizaciju putem Mozilla naloga.
-
-
 
 Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih strana koje prate korisnike. Pregledač sam po sebi ne prikuplja nikakve podatke, a takođe omogućava da se onemogući Mozilla telemetrija. Takođe automatski odbacuje zastarele ili neusklađene SSL sertifikate.
 
-
-
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Pregledači zasnovani na WebKit-u
 
-
-
 #### Safari
-
-
 
 Glavni pregledač koji još uvek koristi WebKit rendering engine (nije Fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
 
-
-
 Međutim, Safari ostaje zatvoren, ograničen na macOS za svoju desktop verziju, i zavisan od Apple ekosistema. Iako Apple ima snažnu politiku privatnosti, sa poslovnim modelom koji se prvenstveno zasniva na prodaji hardvera, a ne na oglašavanju, ostaje nejasno u vezi sa određenim internim praksama.
-
-
 
 Ovde se fokusiramo na desktop pregledače, ali je važno napomenuti da na iOS-u, Apple zahteva da svi pregledači koriste WebKit rendering engine (ograničenje koje bi se, međutim, uskoro moglo promeniti kao rezultat određenih evropskih regulativa). To znači da pregledači kao što su Chrome, Firefox ili Brave moraju, na iOS-u, ponuditi aplikaciju zasnovanu na WebKit-u, a ne na njihovom uobičajenom rendering engine-u.
 

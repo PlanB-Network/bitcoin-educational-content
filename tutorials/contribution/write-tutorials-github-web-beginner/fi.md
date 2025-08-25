@@ -348,7 +348,7 @@ Huutomerkki alussa osoittaa kuvan. Vaihtoehtoinen teksti, joka helpottaa saavute
 Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Network -ohjelman graafisia ohjeita visuaalisen yhdenmukaisuuden varmistamiseksi:
 
 
-- Fontti**: Rubik](https://fonts.google.com/specimen/Rubik);
+- Fontti**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Värit** :
  - Oranssi: #FF5C00
  - Musta : #000000

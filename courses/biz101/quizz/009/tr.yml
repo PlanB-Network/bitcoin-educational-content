@@ -1,0 +1,9 @@
+question: Bitcoin'in üzerine inşa edilen Lightning Network'ın temel amacı nedir?
+answer: Minimum On-Chain etkileşimi ile daha hızlı, neredeyse anında ödeme yapılmasını sağlamak.
+wrong_answers:
+  - Bitcoin'ün Blockchain'ünü tamamen değiştirmek ve tüm işlemleri yerel olarak saklamak için.
+  - Tek bir varlık tarafından kontrol edilen izinli bir ağ sağlamak.
+  - Hükümetler tarafından tamamen izlenebilir kalmalarını sağlamak için işlemleri yavaşlatmak.
+explanation: |
+  Lightning Network, katılımcıların ödeme kanalları oluşturmasına, off-chain işlem yapmasına ve yalnızca Bitcoin Blockchain üzerindeki nihai net bakiyeyi kapatmasına olanak tanıyan bir "ikinci Layer" protokolüdür. Bu tasarım daha yüksek hızlara ve daha düşük maliyetlere ulaşır.
+reviewed: false

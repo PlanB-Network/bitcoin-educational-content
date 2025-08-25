@@ -479,7 +479,7 @@ Ako želite da kreirate sopstvene šeme, obavezno pratite Plan ₿ Network grafi
 
 
 
-- Font**: Koristite [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: Koristite [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Boje** :
  - Narandžasta: #FF5C00
  - Crna : #000000

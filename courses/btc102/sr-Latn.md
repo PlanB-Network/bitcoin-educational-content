@@ -2372,7 +2372,7 @@ Nekoliko najboljih praksi:
 Da biste pratili svoja sredstva bez ugrožavanja privatnih ključeva, razmislite o korišćenju Watch-only wallet. Omogućava vam praćenje stanja i transakcija koristeći samo vaše javne ključeve.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Strategija hodlera je jednostavna, ali moćna: kupi, osiguraj i zaboravi. Pravi izazov nije tehnički; on je psihološki. Najteži deo je odupreti se porivu da prodaš prerano ili da paničiš tokom pada cena. Ali ako ostaneš disciplinovan i razmišljaš dugoročno, hodlovanje se pokazalo kao pouzdan način za očuvanje vrednosti i izgradnju bogatstva tokom vremena.
 
@@ -2576,7 +2576,7 @@ Ključne navike:
 Za lako praćenje bez ugrožavanja bezbednosti, postavite Watch-only wallet za praćenje stanja koristeći javni ključ.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Proceni svoj profil slagalice
 
@@ -3654,6 +3654,7 @@ Još jednom, čestitam na tome koliko ste daleko stigli. I zapamtite; moj primar
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Chỉ sử dụng hình ảnh tự tạo hoặc không có bản quyền.
     - Hãy đảm bảo chúng có liên quan và chất lượng cao.
 - Hiến chương đồ họa**:
-    - Phông chữ: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Phông chữ: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Kế hoạch màu sắc ₿ Mạng lưới:
         - Màu cam: `#FF5C00`
         - Đen: `#000000`

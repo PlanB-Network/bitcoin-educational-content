@@ -380,7 +380,7 @@ description: [Description]
 Если вы хотите создать свои собственные диаграммы, обязательно придерживайтесь графического устава Plan ₿ Network, чтобы обеспечить визуальную согласованность:
 
 
-- Шрифт**: Используйте [Rubik](https://fonts.google.com/specimen/Rubik);
+- Шрифт**: Используйте [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Цвета**:
  - Оранжевый: #FF5C00
  - Черный: #000000

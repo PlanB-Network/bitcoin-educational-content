@@ -2350,7 +2350,7 @@ Beberapa praktik terbaik:
 Untuk memonitor kepemilikan Anda tanpa mengorbankan private key Anda, pertimbangkan untuk menggunakan Watch-only wallet. Alat ini memungkinkan Anda untuk melacak saldo dan transaksi dengan menggunakan public key Anda saja.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Strategi para penipu itu sederhana namun ampuh: beli, amankan, dan lupakan. Tantangan sebenarnya bukanlah masalah teknis, melainkan masalah psikologis. Bagian tersulit adalah menahan keinginan untuk menjual terlalu dini atau panik saat harga turun. Namun, jika Anda tetap disiplin dan berpikir jangka panjang, hodling telah terbukti menjadi cara yang dapat diandalkan untuk mempertahankan nilai dan membangun kekayaan dari waktu ke waktu.
 
@@ -2551,7 +2551,7 @@ Kebiasaan utama:
 Untuk pemantauan yang mudah tanpa mengorbankan keamanan, siapkan Watch-only wallet untuk melacak saldo menggunakan kunci publik.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Mengevaluasi profil stacker Anda
 
@@ -3617,6 +3617,7 @@ Sekali lagi, selamat atas pencapaian Anda. Dan ingatlah; tujuan utama saya akan 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

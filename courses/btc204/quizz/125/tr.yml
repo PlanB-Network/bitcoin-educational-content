@@ -1,0 +1,10 @@
+question: Coinwap'in ana amacı nedir?
+answer: Ownership bitcoini gizlice transfer etmek için
+wrong_answers:
+  - İşlemlerin hızını artırın
+  - Bitcoinleri karıştırın
+  - Bitcoin için gizlice Exchange ve Altcoin
+explanation: |
+  Coinswap, güvene ihtiyaç duymadan ve bu transfer Blockchain üzerinde açıkça görünmeden iki kullanıcı arasında Bitcoin Ownership transferini sağlamak için akıllı sözleşmeler kullanır.
+  
+reviewed: false

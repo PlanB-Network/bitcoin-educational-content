@@ -383,7 +383,7 @@ Hüüumärk alguses näitab, et tegemist on pildiga. Alternatiivne tekst, mis ai
 Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilist põhikirja, et tagada visuaalne järjepidevus:
 
 
-- Font**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Värvid**:
  - Oranž: #FF5C00
  - Must: #000000

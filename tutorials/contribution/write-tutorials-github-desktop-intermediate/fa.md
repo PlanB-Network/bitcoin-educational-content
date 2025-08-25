@@ -521,7 +521,7 @@ description: [Description]
 اگر می‌خواهید نمودارهای خود را ایجاد کنید، مطمئن شوید که به منشور گرافیکی Plan ₿ Network پایبند باشید تا از یکنواختی بصری اطمینان حاصل کنید:
 
 
-- فونت**: از [Rubik](https://fonts.google.com/specimen/Rubik) استفاده کنید؛
+- فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
 - رنگ‌ها**:
  - نارنجی: #FF5C00
  - سیاه: #000000

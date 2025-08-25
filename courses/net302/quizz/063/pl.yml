@@ -1,0 +1,9 @@
+question: Jaki jest główny cel wprowadzenia protokołu IPv6?
+answer: Zapewnia praktycznie nieograniczoną przestrzeń Address
+wrong_answers:
+  - 4-krotne zwiększenie przepustowości sieci Ethernet
+  - Stopniowe zastępowanie protokołu TCP protokołem UDP
+  - Zmniejszenie liczby bajtów na pakiet
+explanation: |
+  Głównym celem IPv6 jest rozwiązanie problemu niedoboru adresów IP poprzez znaczne rozszerzenie przestrzeni Address.
+reviewed: false

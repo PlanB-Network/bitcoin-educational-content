@@ -2350,7 +2350,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 Чтобы следить за состоянием своих активов, не подвергая риску свои закрытые ключи, воспользуйтесь Watch-only wallet. Он позволяет отслеживать баланс и транзакции только с помощью открытых ключей.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Стратегия Ходлера проста, но эффективна: купить, закрепить и забыть. Настоящая проблема не техническая, а психологическая. Самое сложное - не поддаться желанию продать слишком рано или запаниковать во время падения цен. Но если вы сохраняете дисциплину и думаете о долгосрочной перспективе, ходлинг оказывается надежным способом сохранения стоимости и наращивания богатства с течением времени.
 
@@ -2551,7 +2551,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Для удобства мониторинга без ущерба для безопасности настройте Watch-only wallet на отслеживание баланса с помощью открытого ключа.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Оцените профиль вашего штабелера
 
@@ -3617,6 +3617,7 @@ Bitcoin - это не просто финансовый инструмент, э
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

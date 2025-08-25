@@ -1,0 +1,9 @@
+question: Ni amri gani inayoweza kutumika kuangalia ni Interface na lango gani la pakiti hadi 8.8.8.8 lingepitishwa?
+answer: njia ya ip pata 8.8.8.8
+wrong_answers:
+  - ss njia -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> inaonyesha njia halisi ambayo pakiti inaweza kuchukua ili kufikia lengwa maalum.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tổ chức nào giám sát việc quản lý kỹ thuật các giao thức Internet?
+answer: Hội đồng Kiến trúc Internet
+wrong_answers:
+  - Cộng đồng Internet
+  - Liên minh World Wide Web
+  - Viện Kỹ sư Điện và Điện tử
+explanation: |
+  Hội đồng Kiến trúc Internet (IAB) giám sát hoạt động quản lý kỹ thuật và điều phối quá trình phát triển của các giao thức Internet.
+reviewed: false

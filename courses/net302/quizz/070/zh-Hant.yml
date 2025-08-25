@@ -1,0 +1,9 @@
+question: 誰允許分片 IPv6 封包？
+answer: 僅源主機
+wrong_answers:
+  - 只有第一個中間路由器
+  - 僅目的地路由器
+  - 所有路由器
+explanation: |
+  在 IPv6 中，分片完全由來源主機執行，絕不會由中間路由器執行。
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIP0322
+---
+
+Stelt een nieuwe standaard voor ter vervanging van BIP137 voor het ondertekenen van berichten met Bitcoin private sleutels en hun geassocieerde adressen, om Ownership van een Address aan te tonen. Deze handtekeningen zijn nuttig voor verschillende toepassingen, zoals geldbewijzen, audits en andere toepassingen die authenticatie van een Address via zijn private sleutel vereisen. Vergeleken met BIP137 breidt BIP322 de standaard voor het ondertekenen van berichten uit tot buiten de traditionele adressen, door gebruik te maken van een aanpak gebaseerd op scripts. Hiermee kan Wallet software een bericht ondertekenen voor elk script dat ze kunnen ontgrendelen om bitcoins uit te geven. Om dit te doen, omvat de methode het ondertekenen van een tekst door het produceren van een handtekening voor een virtuele Bitcoin transactie. Voor traditionele P2PKH adressen blijft BIP322 compatibel met het traditionele handtekeningformaat.

@@ -521,7 +521,7 @@ Uzvičnik na početku označava da je to slika. Alternativni tekst, koji pomaže
 Ako želite da kreirate sopstvene dijagrame, obavezno se pridržavajte grafičke povelje Plan ₿ Network kako biste osigurali vizuelnu doslednost:
 
 
-- Font**: Koristite [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: Koristite [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Boje**:
  - Narandžasta: #FF5C00
  - Crna: #000000

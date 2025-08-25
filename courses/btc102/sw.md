@@ -2367,7 +2367,7 @@ Mbinu chache bora:
 Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya pochi hukuruhusu kufuatilia salio na miamala kwa kutumia funguo zako za umma pekee.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Mbinu ya mshikaji ni rahisi lakini yenye nguvu: nunua, tunza kwa usalama, kisha sahau. Changamoto halisi si ya kiufundi—bali ni ya kisaikolojia. Sehemu ngumu zaidi ni kupinga hamu ya kuuza mapema sana au kuzidiwa na hofu wakati wa kushuka kwa bei. Lakini ukiwa na nidhamu na mtazamo wa muda mrefu, hodling imeonekana kuwa njia ya kuaminika ya kuhifadhi thamani na kujenga utajiri kadri muda unavyopita.
 
@@ -2571,7 +2571,7 @@ Tabia kuu:
 Kwa ufuatiliaji rahisi bila kuhatarisha usalama, weka Watch-only wallet ili kufuatilia salio kwa kutumia ufunguo wa umma.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Tathmini wasifu wako wa stacker
 
@@ -3651,6 +3651,7 @@ Kwa mara nyingine tena, hongera kwa jinsi ulivyofikia. Na kumbuka; lengo langu l
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

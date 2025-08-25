@@ -1,0 +1,25 @@
+id: 010d3a93-c2fc-4752-a3fe-59840eb0c020
+
+project_id: e7e41b75-49d5-4d2f-ba90-7288aac8da3b
+
+category: hardware
+
+level: advanced
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-20
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+tags:
+  - wallets
+  - guides
+  - hardware
+  - risks

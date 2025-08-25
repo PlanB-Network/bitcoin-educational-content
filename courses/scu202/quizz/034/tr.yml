@@ -1,0 +1,9 @@
+question: Kişisel bilgisayarınıza erişimi güvence altına almak için yapmanız gereken ilk şey nedir?
+answer: Güçlü bir oturum parolası belirleyin
+wrong_answers:
+  - Antivirüs yükleme
+  - UFW güvenlik duvarını yapılandırma
+  - Disk şifrelemeyi etkinleştirin
+explanation: |
+  Oturum parolası, diğer tüm ek önlemlerden önce makinenize yetkisiz erişimi önlemek için ilk güvenlik bariyeridir.
+reviewed: false

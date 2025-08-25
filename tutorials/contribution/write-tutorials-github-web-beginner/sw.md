@@ -479,7 +479,7 @@ Ikiwa ungependa kuunda michoro yako mwenyewe, hakikisha unafuata miongozo ya pic
 
 
 
-- **Fonti**: Tumia [Rubik](https://fonts.google.com/specimen/Rubik);
+- **Fonti**: Tumia [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - **Rangi** :
  - Chungwa: #FF5C00
  - Nyeusi : #000000

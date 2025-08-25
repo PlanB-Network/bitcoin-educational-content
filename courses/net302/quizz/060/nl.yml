@@ -1,0 +1,9 @@
+question: Wat is de IPv6 loopback Address, gelijk aan 127.0.0.1 in IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  De "::1/128" Address is de loopback Address, gebruikt voor interne machinetesten.
+reviewed: false

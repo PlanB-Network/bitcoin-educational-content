@@ -1,0 +1,9 @@
+question: Ni nini jukumu kuu la DNS katika usanifu wa mtandao?
+answer: Kupanga majina ya vikoa kwa anwani za IP
+wrong_answers:
+  - Simba mawasiliano kati ya vipanga njia
+  - Wape vifaa anwani za MAC
+  - Dhibiti ufikiaji wa seva za wavuti
+explanation: |
+  DNS (Mfumo wa Jina la Kikoa) hutafsiri majina ya vikoa vinavyoweza kusomeka na binadamu katika anwani za IP za nambari zinazohitajika kwa uelekezaji.
+reviewed: false

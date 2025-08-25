@@ -13,7 +13,9 @@ publication_year: 2009
 duration: 60
 
 # language of original audio of the content
-# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+# Insert a 2-digits language code (e.g. en for English, es for Spanish, th for Thai, etc...),
+# some languages are multiple-digits language code; e.g. Latin Serbian (sr-Latn), Chinese codes (zh-Hans, zh-Hant)
+# see here https://weblate.planb.network/projects/planb-network-website/ the list of all the available language codes (bring your mouse cursor over each language name to see the code)
 language: en
 
 # all the movies posted here must be legit, most of them will be published on hosted services like YouTube, but this is not a rule

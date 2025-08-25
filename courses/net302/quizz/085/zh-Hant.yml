@@ -1,0 +1,9 @@
+question: 哪一條指令可用來檢查傳送至 8.8.8.8 的封包會經由哪個 Interface 和閘道？
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> 會顯示封包到達特定目的地的確切路徑。
+reviewed: false

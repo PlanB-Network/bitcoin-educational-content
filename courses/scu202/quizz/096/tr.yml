@@ -1,0 +1,9 @@
+question: Yerel ağ ölçeğinde DNS isteklerini şifrelemek için ne tür bir protokol etkinleştirilmelidir?
+answer: Sağlık Bakanlığı
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (HTTPS üzerinden DNS) ve DoT (TLS üzerinden DNS) DNS isteklerini şifreleyerek ele geçirilmelerini önler.
+reviewed: false

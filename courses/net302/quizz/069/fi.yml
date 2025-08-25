@@ -1,0 +1,9 @@
+question: Mikä on tyypillinen IPv6 Address:ssa käytetyn verkko-etuliitteen koko paikallisverkossa?
+answer: 64-bittinen
+wrong_answers:
+  - 32-bittinen
+  - 48 bittiä
+  - 8 bittiä
+explanation: |
+  IPv6 Address:n ensimmäiset 64 bittiä on yleensä varattu aliverkon etuliitteelle.
+reviewed: false

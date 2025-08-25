@@ -1,0 +1,9 @@
+question: Hangi büyük oyuncu Bitcoin Mining için ASIC tasarlar?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry ABD
+explanation: |
+  Bitmain, Bitcoin Mining için özel donanımların önde gelen üreticilerinden biridir.
+reviewed: false

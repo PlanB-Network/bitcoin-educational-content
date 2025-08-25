@@ -1,0 +1,9 @@
+question: Milline kaasaegne protokoll pakub võrgu teenuse kvaliteedi haldamisel sarnast funktsionaalsust, mida IPv5 eesmärk oli?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) võimaldab dünaamiliselt reserveerida võrguressursse, et tagada teenuse kvaliteet (QoS), mis oli IPv5 algne eesmärk.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mining havuzlarının amacı nedir?
+answer: Mining havuzları, madencilerin bilgi işlem kaynaklarını bir araya getirmelerine ve daha küçük ama daha düzenli ödüller almalarına olanak tanır.
+wrong_answers:
+  - Mining havuzları, genel Bitcoin ağının Hashrate'sini artırmak için kullanılır.
+  - Mining havuzları Mining'in zorluğunu azaltmak için kullanılır.
+  - Mining havuzları Mining ödülünü artırmak için kullanılır.
+explanation: >-
+reviewed: true

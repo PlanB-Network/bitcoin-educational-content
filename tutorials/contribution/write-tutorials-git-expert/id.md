@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - Gunakan hanya visual yang dibuat sendiri atau bebas royalti.
     - Pastikan mereka relevan dan berkualitas tinggi.
 - Piagam grafis** :
-    - Font: [Rubik] (https://fonts.google.com/specimen/Rubik).
+    - Font: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Rencana Warna ₿ Jaringan :
         - Oranye: `#FF5C00`
         - Hitam: `#000000`

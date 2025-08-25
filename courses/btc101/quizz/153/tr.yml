@@ -1,0 +1,8 @@
+question: Bitcoin Mining'deki zorluk ayarlamasının amacı nedir?
+answer: Küresel Mining oyununu katılımcı sayısına göre yeniden dengeler.
+wrong_answers:
+  - Mining için ödülü artırır.
+  - Dolaşımdaki bitcoin sayısını azaltır.
+  - Bitcoin ağının güvenliğini artırır.
+explanation: >-
+reviewed: true

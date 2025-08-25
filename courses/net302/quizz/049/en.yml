@@ -1,0 +1,9 @@
+question: What is the main function of the MAC address in a local network?
+answer: Uniquely identify a network interface
+wrong_answers:
+  - Translate a domain name into an IP address
+  - Dynamically assign an IP address to a host
+  - Determine the speed of your internet connection
+explanation: |
+  The MAC address serves as a unique hardware identifier for each network interface, enabling devices to be physically distinguished on a local network.
+reviewed: false

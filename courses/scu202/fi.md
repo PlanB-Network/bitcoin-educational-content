@@ -1300,9 +1300,9 @@ PureOS on Purismin kehittämä Debianista johdettu jakelu, täysin ilmainen (FSF
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (aiemmin Raspbian) on Raspberry Pi -mikrotietokoneille optimoitu jakelu. Se perustuu Debianiin, ja paketit on käännetty uudelleen ARM-arkkitehtuuria varten. Sitä voidaan käyttää koulutusprojekteihin, elektroniikan testaukseen tai pieniin henkilökohtaisiin palvelimiin.
 
@@ -1326,36 +1326,23 @@ Whonix yhdistää Debianin ja Tor-verkon kahden VM:n arkkitehtuurissa (yhdyskäy
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Tämä yleiskuva antaa sinulle yleiskuvan nykyisestä Linux-jakelujen ekosysteemistä, jonka avulla voit valita tekniseen profiiliisi ja tavoitteisiisi parhaiten sopivan jakelun.
-
-
 
 SCU202:n seuraavassa luvussa tarkastelemme lähemmin käytännön Linux-ympäristöä, alkaen graafisista ympäristöistä, jotka muodostavat perustan päivittäiselle vuorovaikutukselle järjestelmän kanssa.
 
-
-
 ## Linux-työpöytäympäristöt
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linux-järjestelmässä työpöytäympäristöllä on yksi tärkeimmistä rooleista käyttäjäkokemuksen kannalta. Se on graafinen Layer, joka mahdollistaa vuorovaikutuksen järjestelmän kanssa ja perustuu tuttuihin visuaalisiin esityksiin: ikkunoihin, valikoihin, kuvakkeisiin, paneeleihin ja esiasennettuihin sovelluksiin.
-
-
 
 Tässä luvussa tarkastelen työpöytäympäristön rakennetta ja roolia, sen tyypillisiä komponentteja, tärkeimpiä saatavilla olevia perheitä, valintaperusteita ja niiden integrointia suosituimpiin Linux-jakeluihin.
 
-
-
 ### Mikä on toimistoympäristö?
 
-
-
 Työpöytäympäristöllä (tai *DE*, *Desktop Environment*) tarkoitetaan ohjelmia, jotka muodostavat käyttöjärjestelmän koko graafisen Interface:n. Windowsissa ja macOS:ssä tarjotaan oletusarvoisesti yksi työpöytäympäristö, joka on integroitu järjestelmään, eikä sitä ole mahdollista muuttaa kokonaan (vain tietyillä kuorilla on mahdollista muuttaa Interface:ää osittain). Linux-järjestelmät sen sijaan ovat paljon modulaarisempia, ja niissä työpöytäympäristöä pidetään itsenäisenä komponenttina, joka voidaan vaihtaa vapaasti.
-
-
 
 Linuxissa on tärkeää erottaa selvästi toisistaan kaikki kerrokset: ydin (joka hallinnoi vuorovaikutusta laitteiston kanssa), näyttöpalvelin (joka toimii välittäjänä sovellusten, grafiikka-ajurien ja laitteiston välillä ytimen kautta) ja lopuksi itse työpöytäympäristö, joka tukeutuu tähän infrastruktuuriin tarjotakseen käyttäjälle johdonmukaisen graafisen Interface:n. Tämä infrastruktuuri on myös tärkeä osa työpöytäympäristöä. Tämä ero voi joskus olla epäselvä, sillä monissa Linux-jakeluissa on esiasennettu työpöytäympäristö, joka joskus sisältää oman Wayland-sävellystoiminnon, joka toimii näyttöpalvelimena.
 
@@ -5774,15 +5761,11 @@ Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja raj
 
 #### Mullvad selain
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor-säätiön ja Mullvad VPN:n yhteistyön tulos. Se perustuu Tor-selaimeen, joka on puolestaan johdettu Firefox ESR:stä. Mullvad Browser on suunniteltu maksimoimaan käyttäjän yksityisyys. Se sisältää oletusarvoisesti kehittyneen suojan sormenjälkiä, seurantalaitteita ja kolmannen osapuolen skriptejä vastaan.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Siinä on suurin osa Tor Browserin tarjoamista turvallisuus- ja yksityisyysominaisuuksista yhdellä erolla: se ei ohjaa liikennettä Tor-verkon kautta. Jos haluat välttää IP Address -vuodot, voit käyttää sitä yhdessä VPN:n kanssa (mieluiten Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Oletusarvoisesti LibreWolf aktivoi Firefoxin kehittyneet tietoturva-asetukset (k
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-selain
-
-
 
 [Zen Browser] (https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
 
-
-
 Zen erottuu edukseen radikaalin Interface- ja käytettävyyslähestymistapansa vuoksi, joka on pitkälti Arc-selaimen innoittama, mutta vapautuu siitä avoimen lähdekoodin ja Gecko-moottorin ansiosta. Se sisältää :
-
-
-
 
 - Minimalistinen, modulaarinen Interface, jossa on pystysuora sivupalkki välilehtiä varten, jaettu näkymä ja *työtila*-järjestelmä välilehtien ryhmittelyyn projekteittain;
 - Muokattavien Interface-mallien (*Zen Mods*) järjestelmä, jonka avulla selaimen ulkoasua voidaan muokata perusteellisesti;
 - Alkuperäinen toiminto nimeltä *Glance*, joka avaa linkin kevyeen väliaikaiseen ikkunaan, välttäen välilehtien sekamelskaa....
 
-
-
 Zen tukee myös Firefox-laajennuksia sekä synkronointia Mozilla-tilin kautta.
-
-
 
 Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty kolmannen osapuolen seurantalaitteet. Selain ei kerää itse mitään tietoja, ja se mahdollistaa myös Mozillan telemetrian poistamisen käytöstä. Se myös hylkää automaattisesti vanhentuneet tai vaatimustenvastaiset SSL-varmenteet.
 
-
-
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-pohjaiset selaimet
 
-
-
 #### Safari
-
-
 
 Tärkein selain, joka käyttää edelleen WebKit-selainta (ei Fork:ää kuten Blink), on Safari. [Safari](https://www.apple.com/safari/) on Applen yksinomainen selain macOS:lle. Se integroituu erinomaisesti Applen ekosysteemiin, on erittäin suorituskykyinen ja sisältää nyt vahvemmat suojaukset jäljittämistä ja sormenjälkiä vastaan.
 
-
-
 Safari on kuitenkin edelleen suljettu, sen työpöytäversio on rajoitettu macOS-käyttöjärjestelmään ja se on riippuvainen Applen ekosysteemistä. Vaikka Applella on vahva tietosuojakäytäntö, ja sen liiketoimintamalli perustuu ensisijaisesti laitteistomyyntiin eikä mainontaan, sen tietyt sisäiset käytännöt ovat edelleen epäselviä.
-
-
 
 Tässä keskitymme työpöytäselaimiin, mutta on tärkeää huomata, että iOS:ssä Apple edellyttää, että kaikki selaimet käyttävät WebKit-selainta (tämä rajoitus saattaa kuitenkin pian muuttua tiettyjen eurooppalaisten säädösten vuoksi). Tämä tarkoittaa, että Chrome-, Firefox- tai Brave-selaimien kaltaisten selainten on iOS:ssä tarjottava WebKitiin perustuva sovellus eikä niiden tavanomaiseen renderöintimoottoriin perustuvaa sovellusta.
 

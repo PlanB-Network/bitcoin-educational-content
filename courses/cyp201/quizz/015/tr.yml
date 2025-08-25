@@ -1,0 +1,9 @@
+question: Bitcoin'da UTXO'ları kilitlemek için ne tür bir anahtar kullanılır?
+answer: Açık anahtar
+wrong_answers:
+  - Özel anahtar
+  - seed Hash
+  - Mnemonic ifade
+explanation: |
+  UTXO'lar bir genel anahtar veya onun Hash'ü ile kilitlenir ve ilgili özel anahtar ile açılır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Otomatik Vezne Makinelerinin (ATM) temel dezavantajı nedir?
+answer: Genellikle çok yüksek ücretler.
+wrong_answers:
+  - Hızlı bir internet bağlantısı ihtiyacı.
+  - Yerel para birimleri için destek eksikliği.
+  - İşlem güvenliği garanti edilmez.
+explanation: |
+  ATM'ler aracılığıyla bitcoin satın almak kullanıcı gizliliği için ilginç bir çözümdür, ancak ana dezavantajları genellikle fahiş ücretler talep etmeleridir.
+reviewed: false

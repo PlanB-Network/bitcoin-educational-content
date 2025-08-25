@@ -521,7 +521,7 @@ description: [Description]
 यदि आप अपना स्वयं का आरेख बनाना चाहते हैं, तो दृश्य संगति सुनिश्चित करने के लिए Plan ₿ Network के ग्राफिक चार्टर का पालन करना सुनिश्चित करें:
 
 
-- फ़ॉन्ट**: [रूबिक](https://fonts.google.com/specimen/Rubik) का उपयोग करें;
+- फ़ॉन्ट**: [रूबिक](https://fonts.google.com/specimen/IBM+Plex+Sans) का उपयोग करें;
 - रंग:**
  - नारंगी: #FF5C00
  - काला: #000000

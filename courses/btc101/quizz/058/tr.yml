@@ -1,0 +1,11 @@
+question: Nisan 2009'da Zimbabve dolarına ne oldu?
+answer: Maliye Bakanı Zimbabve dolarının askıya alındığını açıkladı ve ticaret için farklı yabancı para birimlerinin kullanılmasına izin verdi.
+wrong_answers:
+  - Zimbabve doları %72'nin üzerinde değer kaybetti.
+  - Hükümet savaş gazilerine 450 milyon ABD doları tutarında tazminat ödemeyi kabul etti.
+  - Hükümet matbaa işletmeye başvurmak zorunda kaldı.
+explanation: |
+  Nisan 2009'da Maliye Bakanı tarafından
+  zimbabve dolarının askıya alınması ve kullanımına izin verilmesi
+  ticaret için farklı yabancı para birimleri.
+reviewed: true

@@ -1,0 +1,9 @@
+question: MAC Address'ınızı yapay olarak değiştirme uygulaması nedir?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Kimlik Avı
+  - MAC Koklama
+  - Mac Keylogging
+explanation: |
+  MAC sahtekarlığı, genellikle gizlilik nedenleriyle veya kısıtlamaları atlamak için bir ağ Interface'in donanım Address'sini değiştirme eylemidir.
+reviewed: false

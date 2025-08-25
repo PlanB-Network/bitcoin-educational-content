@@ -1,0 +1,9 @@
+question: Jaká technika umožňuje více interním počítačům sdílet jednu veřejnou IP adresu Address pro přístup k internetu?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - Protokol ARP (Address Resolution Protocol)
+  - Protokol DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT překládá soukromé interní adresy na veřejnou IP adresu Address, což umožňuje více zařízením sdílet stejné externí připojení.
+reviewed: false

@@ -970,8 +970,9 @@ PureOS is a Debian-derived distribution developed by Purism, totally free (FSF a
 
 
 
-- **Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (formerly Raspbian) is a distribution optimized for Raspberry Pi microcomputers. It is based on Debian, with packages recompiled for the ARM architecture. It can be used for educational projects, electronic testing or small personal servers.
 
@@ -989,28 +990,23 @@ Whonix combines Debian with the Tor network in a two-VM architecture (gateway + 
 ![Image](assets/fr/037.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 This panorama gives you an overview of the current Linux distribution ecosystem, enabling you to select the distribution best suited to your technical profile and objectives.
 
-
 In the next chapter of SCU202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
-
 
 ## Linux desktop environments
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
 In a GNU/Linux system, the desktop environment plays one of the most important roles in your user experience. It is the graphical layer that enables interaction with the system, based on familiar visual representations: windows, menus, icons, panels and pre-installed applications.
-
 
 In this chapter, I'll be exploring the structure and role of a desktop environment, its typical components, the main families available, selection criteria and their integration into the most popular Linux distributions.
 
-
 ### What's an office environment?
 
-
 A desktop environment (or "*DE*" for *Desktop Environment*) refers to the set of programs that make up the complete graphical interface of an operating system. On Windows and macOS, a single desktop environment is offered by default, integrated into the system, with no possibility of modifying it entirely (only certain shells exist to partially modify the interface). Linux systems, on the other hand, are far more modular, treating the desktop environment as an independent component that can be freely replaced.
-
 
 In Linux, it's important to clearly distinguish between all the layers: the kernel (which manages interaction with the hardware), the display server (which acts as an intermediary between applications, graphics drivers, and hardware via the kernel), and finally the desktop environment itself, which relies on this infrastructure to deliver a coherent graphical interface to the user. This distinction can sometimes be less clear, as many Linux distributions come with a pre-installed desktop environment that sometimes includes its own Wayland compositor, which then acts as a display server.
 
@@ -4368,12 +4364,11 @@ The downside is a significant reduction in performance (high latency) and limite
 
 #### Mullvad Browser
 
-
 [Mullvad Browser](https://mullvad.net/en/browser) is the result of collaboration between the Tor Foundation and Mullvad VPN. It is based on the Tor browser, which is itself derived from Firefox ESR. Mullvad Browser is designed to maximize user privacy. By default, it includes advanced protection against fingerprinting, trackers and third-party scripts.
 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 It has most of the security and privacy features offered by Tor Browser, with one difference: it doesn't redirect traffic via the Tor network. To avoid IP address leaks, you can use it in combination with a VPN (ideally, Mullvad VPN).
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -4395,40 +4390,33 @@ By default, LibreWolf activates Firefox's advanced security settings (such as st
 ![Image](assets/fr/115.webp)
 
 
-#### Zen Browser
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
+#### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) is a free and open source browser based on Firefox (Gecko engine), launched in 2024. Its aim is to offer a modern, elegant, highly customizable and above all privacy-centric browsing experience, without dependence on Chromium.
 
-
 Zen stands out for its radical approach to interface and usability, largely inspired by the Arc browser, yet emancipated from it by its open-source nature and Gecko engine. It includes :
-
 
 - A minimalist, modular interface, with a vertical sidebar for tabs, a split view, and a *workspace* system for grouping sets of tabs by project;
 - A system of customizable interface templates (*Zen Mods*) that can be used to deeply modify the browser's appearance;
 - An original function called *Glance*, which opens a link in a lightweight temporary window, avoiding the clutter of tabs...
 
-
 Zen also supports Firefox extensions, as well as synchronization via a Mozilla account.
-
 
 From a security and privacy point of view, Zen features native blocking of third-party trackers. The browser does not collect any data itself, and it also allows Mozilla telemetry to be disabled. It also automatically rejects obsolete or non-compliant SSL certificates.
 
-
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
 
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-based browsers
 
-
 #### Safari
-
 
 The main browser still using the WebKit rendering engine (not a fork like Blink) is Safari. [Safari](https://www.apple.com/safari/) is Apple's exclusive browser for macOS. It offers excellent integration with the Apple ecosystem, high performance, and now includes stronger protections against tracking and fingerprinting.
 
-
 However, Safari remains closed, limited to macOS for its desktop version, and dependent on the Apple ecosystem. While Apple has a strong privacy policy, with its business model based primarily on hardware sales rather than advertising, it remains unclear about certain internal practices.
-
 
 Here, we're focusing on desktop browsers, but it's important to note that on iOS, Apple requires all browsers to use the WebKit rendering engine (a constraint that may soon change, however, as a result of certain European regulations). This means that browsers such as Chrome, Firefox or Brave must, on iOS, offer an application based on WebKit, and not on their usual rendering engine.
 

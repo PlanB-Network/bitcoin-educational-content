@@ -521,7 +521,7 @@ Utropstecknet i början anger att det är en bild. Den alternativa texten, som h
 Om du vill skapa dina egna diagram, se till att följa Plan ₿ Network:s grafiska stadgar för att säkerställa visuell enhetlighet:
 
 
-- Font**: Använd [Rubik](https://fonts.google.com/specimen/Rubik);
+- Font**: Använd [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Färger**:
  - Orange: #FF5C00
  - Svart: #000000

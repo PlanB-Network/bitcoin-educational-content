@@ -1,0 +1,9 @@
+question: واحده داده‌ای که از طریق Transport Layer برای TCP جریان می‌یابد چیست؟
+answer: بخش
+wrong_answers:
+  - دیتاگرام
+  - قاب
+  - جریان
+explanation: |
+  در Transport Layer با TCP، واحد داده به عنوان یک سگمنت شناخته می‌شود، در حالی که UDP از اصطلاح بسته استفاده می‌کند.
+reviewed: false

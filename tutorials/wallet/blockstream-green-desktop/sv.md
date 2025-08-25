@@ -28,7 +28,7 @@ I den här handledningen koncentrerar vi oss enbart på att använda programvara
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Installera och konfigurera Blockstream Green-programvaran
 
@@ -217,3 +217,4 @@ Jag rekommenderar också att du kollar in den här andra omfattande handledninge
 
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

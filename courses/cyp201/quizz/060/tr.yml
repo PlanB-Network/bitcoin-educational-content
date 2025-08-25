@@ -1,0 +1,9 @@
+question: Zpub önekiyle ilişkili anahtar türü nedir?
+answer: Mainnet üzerinde SegWit V0 için genişletilmiş bir ortak anahtar
+wrong_answers:
+  - Mainnet üzerinde SegWit V1 için genişletilmiş bir özel anahtar
+  - Testnet üzerinde Legacy için genişletilmiş bir genel anahtar
+  - Testnet üzerinde SegWit V2 için genişletilmiş bir ortak anahtar
+explanation: |
+  Zpub öneki, Mainnet üzerindeki SegWit V0 komut dosyaları için genişletilmiş bir genel anahtarı belirtir.
+reviewed: false

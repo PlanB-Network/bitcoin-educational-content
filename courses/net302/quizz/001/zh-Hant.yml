@@ -1,0 +1,9 @@
+question: 哪種拓樸結構可將所有設備連結至單一中心點？
+answer: 星級
+wrong_answers:
+  - 環
+  - 巴士
+  - 網布
+explanation: |
+  在星型拓樸結構中，每個裝置都連接到中央裝置，方便管理和維護。
+reviewed: false

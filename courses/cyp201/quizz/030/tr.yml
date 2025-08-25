@@ -1,0 +1,9 @@
+question: SIGHASH_SINGLE'ın amacı nedir?
+answer: Bir girişi ve ona karşılık gelen çıkışı kapsamak için
+wrong_answers:
+  - Tüm giriş ve çıkışları kapsayacak şekilde
+  - Yalnızca girişleri kapsamak için
+  - Biri hariç tüm çıkışları kapsamak için
+explanation: |
+  SIGHASH_SINGLE tek bir girişi ve işaretli girişin indeksine karşılık gelen tek bir çıkışı kapsar, geri kalanını değiştirilebilir bırakır.
+reviewed: false

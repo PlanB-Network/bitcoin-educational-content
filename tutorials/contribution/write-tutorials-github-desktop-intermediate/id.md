@@ -382,7 +382,7 @@ Tanda seru di awal mengindikasikan bahwa itu adalah gambar. Teks alternatif, yan
 Jika Anda ingin membuat diagram Anda sendiri, pastikan untuk mematuhi piagam grafis Plan ₿ Network untuk memastikan konsistensi visual:
 
 
-- Huruf **: Gunakan [Rubik] (https://fonts.google.com/specimen/Rubik);
+- Huruf **: Gunakan [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Warna**:
  - Oranye: #FF5C00
  - Hitam: #000000

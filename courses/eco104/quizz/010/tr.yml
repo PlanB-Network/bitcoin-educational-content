@@ -1,0 +1,11 @@
+question: Bitcoin ağındaki düğümlerin amacı nedir?
+answer: Blockchain'i korumak ve güvenliğini sağlamak için
+wrong_answers:
+  - İşlemleri gerçekleştirmek için
+  - Bitcoin kod tabanında değişiklikler önermek ve uygulamak
+  - Diğer madencilerle rekabet edebilmek için
+explanation: |
+  Düğümler, Bitcoin ağının bütünlüğü ve güvenliği için çok önemlidir.
+  Sistemin kapı bekçileri olarak görev yaparlar ve işlemlerin
+  doğru ve kurallara uygun olarak işlenir.
+reviewed: true

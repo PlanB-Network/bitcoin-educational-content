@@ -346,7 +346,7 @@ O ponto de exclamação no início indica uma imagem. O texto alternativo, que a
 Se pretender criar os seus próprios esquemas, certifique-se de que segue as diretrizes gráficas do Plano ₿ Rede para garantir a consistência visual:
 
 
-- Tipo de letra**: Utilizar [Rubik](https://fonts.google.com/specimen/Rubik);
+- Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Cores** :
  - Laranja: #FF5C00
  - Preto : #000000

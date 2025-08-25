@@ -1,0 +1,9 @@
+question: Dünya çapında IPv6 Address bloklarının ilk tahsisini hangi kuruluş yönetir?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA, IPv6 bloklarını beş Bölgesel İnternet Siciline (RIR) devrederek tahsis hiyerarşisinin en üstünde yer almaktadır.
+reviewed: false

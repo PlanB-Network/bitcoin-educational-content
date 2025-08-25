@@ -1,0 +1,9 @@
+question: Phần mềm nguồn mở nào thường được sử dụng làm tài liệu tham khảo cho máy chủ DNS?
+answer: BIND
+wrong_answers:
+  - Người Apache
+  - Mực ống
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) là triển khai tham chiếu nguồn mở được sử dụng bởi phần lớn các máy chủ DNS trên toàn thế giới.
+reviewed: false

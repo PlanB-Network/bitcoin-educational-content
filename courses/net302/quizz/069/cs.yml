@@ -1,0 +1,9 @@
+question: Jaká je typická velikost síťového prefixu používaného v protokolu IPv6 Address v místní síti?
+answer: 64bitové
+wrong_answers:
+  - 32bitové
+  - 48 bitů
+  - 8 bitů
+explanation: |
+  Prvních 64 bitů IPv6 Address je obecně vyhrazeno pro prefix podsítě.
+reviewed: false

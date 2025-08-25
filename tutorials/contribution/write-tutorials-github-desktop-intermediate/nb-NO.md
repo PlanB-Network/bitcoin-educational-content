@@ -381,7 +381,7 @@ Utropstegnet i begynnelsen indikerer at det er et bilde. Den alternative teksten
 Hvis du ønsker å lage dine egne diagrammer, må du sørge for å følge Plan ₿ Network sitt grafiske charter for å sikre visuell konsistens:
 
 
-- Skrifttype**: Bruk [Rubik] (https://fonts.google.com/specimen/Rubik);
+- Skrifttype**: Bruk [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Farger**:
  - Oransje: #FF5C00
  - Svart: #000000

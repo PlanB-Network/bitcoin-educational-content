@@ -341,7 +341,7 @@ Le point d'exclamation au début indique qu'il s'agit d'une image. Le texte alte
 ![GITHUB](assets/fr/35.webp)
 
 Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de Plan ₿ Network pour assurer la cohérence visuelle :
-- **Police** : Utilisez [Rubik](https://fonts.google.com/specimen/Rubik) ;
+- **Police** : Utilisez [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) ;
 - **Couleurs** :
 	- Orange : #FF5C00
 	- Noir : #000000

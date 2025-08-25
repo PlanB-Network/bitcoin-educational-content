@@ -1797,7 +1797,7 @@ Deskriptor juga mencakup kunci publik ekstensi yang digunakan dalam dompet ini:
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Selanjutnya, notasi `/<0;1>/*` menentukan bahwa deskriptor dapat menghasilkan alamat dari rantai eksternal (`0`) dan rantai internal (`1`), dengan wildcard (`*`) yang memungkinkan untuk derivasi sekuensial dari beberapa alamat secara konfiguratif, mirip dengan mengelola "batas gap" pada perangkat lunak dompet tradisional.
+Notasi `/<0;1>/*` menunjukkan bahwa deskriptor dapat menghasilkan alamat dari rantai eksternal (`0`) maupun rantai internal (`1`). Karakter wildcard (`*`) di akhir jalur berarti bahwa secara berurutan, semua kunci turunan yang tidak diperkuat (“*unhardened*”) dapat diturunkan dari posisi ini, baik itu alamat eksternal maupun internal. Sintaks ini tidak secara langsung menyiratkan konsep *gap limit*, yang merupakan bagian dari mekanisme spesifik dompet untuk deteksi alamat, tetapi di sini hanya berfungsi untuk menunjukkan bahwa semua turunan yang mungkin pada posisi ini dipertimbangkan.
 Akhirnya, `#jy0l7nr4` mewakili checksum untuk memverifikasi integritas deskriptor.
 Anda sekarang tahu segalanya tentang operasi dompet HD di Bitcoin dan proses derivasi pasangan kunci. Namun, dalam bab terakhir, kami membatasi diri pada generasi kunci privat dan publik, tanpa membahas konstruksi alamat penerima. Ini akan tepatnya menjadi subjek dari bab berikutnya!
 

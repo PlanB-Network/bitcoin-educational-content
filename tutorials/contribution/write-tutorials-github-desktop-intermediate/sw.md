@@ -521,7 +521,7 @@ Sehemu ya mshangao mwanzoni inaonyesha kuwa ni taswira. Maandishi mbadala, ambay
 Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa picha wa Plan ₿ Network ili kuhakikisha uthabiti wa kuona:
 
 
-- **Fonti**: Tumia [Rubik](https://fonts.google.com/specimen/Rubik);
+- **Fonti**: Tumia [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - **Rangi**:
  - Chungwa: #FF5C00
  - Nyeusi: #000000

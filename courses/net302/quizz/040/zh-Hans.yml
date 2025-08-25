@@ -1,0 +1,9 @@
+question: 哪个记录是每个 DNS 区域文件中的必备记录？
+answer: SOA（权限起始点）
+wrong_answers:
+  - PTR（指针）
+  - AAAA （IPv6 Address）
+  - SRV（服务定位器）
+explanation: |
+  SOA 记录定义了区域授权，每个 DNS 区域文件中都需要它。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale notazione viene utilizzata per inserire un indirizzo IPv6 in un URL?
+answer: indirizzo IPv6 è racchiuso tra parentesi quadre
+wrong_answers:
+  - indirizzo IPv6 è racchiuso tra parentesi
+  - Il Address IPv6 è racchiuso tra virgolette
+  - Il Address IPv6 è scritto in modo grezzo
+explanation: |
+  Le parentesi quadre sono utilizzate per distinguere l'indirizzo IPv6 dalla porta in un URL, per evitare qualsiasi ambiguità.
+reviewed: false

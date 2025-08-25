@@ -1,0 +1,9 @@
+question: Qual è la dimensione del blocco IPv6 generalmente assegnata dalla IANA a ciascun Regional Internet Registry (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Dal 2006, ogni RIR riceve tipicamente un blocco /12 di IPv6, fornendo una riserva molto ampia per l'allocazione regionale.
+reviewed: false

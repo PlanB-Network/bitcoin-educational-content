@@ -1,0 +1,9 @@
+question: Hvilket typisk CIDR-område representerer størrelsen på en IPv4-blokk som IANA har allokert til en RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA deler IPv4-området inn i blokker av størrelsen /8, som hver inneholder 2^24 adresser.
+reviewed: false

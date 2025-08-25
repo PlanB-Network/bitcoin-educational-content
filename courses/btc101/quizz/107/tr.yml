@@ -1,0 +1,11 @@
+question: Bitcoin miras bağlamında noterin rolü nedir?
+answer: Vergi uyumluluğunu sağlarlar.
+wrong_answers:
+  - Siz öldükten sonra bitcoinlerinizi yönetirler.
+  - Miras planınızı değiştirirler.
+  - Bitcoinlerinizi bir kasada güvence altına alırlar.
+explanation: |
+  Bitcoin kalıtımı bağlamında, aşağıdakilerin yapılması önemlidir
+  emin olmak için bitcoinlerin mirasını bir noter ile görüşün
+  vergi uyumu.
+reviewed: false

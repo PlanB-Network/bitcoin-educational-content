@@ -1300,9 +1300,9 @@ PureOS to dystrybucja wywodząca się z Debiana, opracowana przez Purism, całko
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (dawniej Raspbian) to dystrybucja zoptymalizowana dla mikrokomputerów Raspberry Pi. Opiera się na Debianie, z pakietami przekompilowanymi dla architektury ARM. Może być używana do projektów edukacyjnych, testów elektronicznych lub małych serwerów osobistych.
 
@@ -1326,36 +1326,23 @@ Whonix łączy Debiana z siecią Tor w architekturze dwóch maszyn wirtualnych (
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ta panorama daje przegląd obecnego ekosystemu dystrybucji Linuksa, umożliwiając wybór dystrybucji najlepiej dopasowanej do profilu technicznego i celów.
-
-
 
 W następnym rozdziale SCU202 przyjrzymy się bliżej praktycznemu środowisku Linuksa, zaczynając od środowisk graficznych, które stanowią podstawę codziennych interakcji z systemem.
 
-
-
 ## Środowiska graficzne Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 W systemie GNU/Linux środowisko graficzne odgrywa jedną z najważniejszych ról w doświadczeniu użytkownika. Jest to graficzny Layer, który umożliwia interakcję z systemem, w oparciu o znane wizualne reprezentacje: okna, menu, ikony, panele i preinstalowane aplikacje.
-
-
 
 W tym rozdziale zbadam strukturę i rolę środowiska graficznego, jego typowe komponenty, główne dostępne rodziny, kryteria wyboru i ich integrację z najpopularniejszymi dystrybucjami Linuksa.
 
-
-
 ### Co to jest środowisko biurowe?
 
-
-
 Środowisko graficzne (lub "*DE*" od *Desktop Environment*) odnosi się do zestawu programów, które tworzą kompletny graficzny Interface systemu operacyjnego. W systemach Windows i macOS domyślnie oferowane jest jedno środowisko graficzne, zintegrowane z systemem, bez możliwości jego całkowitej modyfikacji (istnieją tylko niektóre powłoki do częściowej modyfikacji Interface). Z drugiej strony systemy Linux są znacznie bardziej modułowe, traktując środowisko graficzne jako niezależny komponent, który można dowolnie wymieniać.
-
-
 
 W Linuksie ważne jest wyraźne rozróżnienie między wszystkimi warstwami: jądrem (które zarządza interakcją ze sprzętem), serwerem wyświetlania (który działa jako pośrednik między aplikacjami, sterownikami graficznymi i sprzętem za pośrednictwem jądra), a wreszcie samym środowiskiem graficznym, które opiera się na tej infrastrukturze, aby zapewnić użytkownikowi spójny graficzny Interface. Rozróżnienie to może być czasami mniej wyraźne, ponieważ wiele dystrybucji Linuksa jest dostarczanych z preinstalowanym środowiskiem graficznym, które czasami zawiera własny kompozytor Wayland, który następnie działa jako serwer wyświetlania.
 
@@ -5774,15 +5761,11 @@ Wadą jest znaczny spadek wydajności (duże opóźnienia) i ograniczona kompaty
 
 #### Przeglądarka Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) jest wynikiem współpracy pomiędzy Tor Foundation i Mullvad VPN. Opiera się na przeglądarce Tor, która sama wywodzi się z Firefoksa ESR. Mullvad Browser został zaprojektowany w celu maksymalizacji prywatności użytkownika. Domyślnie zawiera zaawansowaną ochronę przed odciskami palców, trackerami i skryptami stron trzecich.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Posiada większość funkcji bezpieczeństwa i prywatności oferowanych przez Tor Browser, z jedną różnicą: nie przekierowuje ruchu przez sieć Tor. Aby uniknąć wycieków IP Address, można go używać w połączeniu z VPN (najlepiej Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Domyślnie LibreWolf aktywuje zaawansowane ustawienia bezpieczeństwa Firefoksa 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Przeglądarka Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) to darmowa i otwarta przeglądarka oparta na Firefoksie (silnik Gecko), uruchomiona w 2024 roku. Jej celem jest oferowanie nowoczesnego, eleganckiego, wysoce konfigurowalnego, a przede wszystkim zorientowanego na prywatność przeglądania, bez zależności od Chromium.
 
-
-
 Zen wyróżnia się radykalnym podejściem do Interface i użyteczności, w dużej mierze inspirowanym przeglądarką Arc, ale wyemancypowanym z niej dzięki otwartemu oprogramowaniu i silnikowi Gecko. Zawiera :
-
-
-
 
 - Minimalistyczny, modułowy Interface, z pionowym paskiem bocznym dla zakładek, podzielonym widokiem i systemem *workspace* do grupowania zestawów zakładek według projektów;
 - System konfigurowalnych szablonów Interface (*Zen Mods*), które można wykorzystać do głębokiej modyfikacji wyglądu przeglądarki;
 - Oryginalna funkcja o nazwie *Glance*, która otwiera link w lekkim oknie tymczasowym, unikając bałaganu zakładek...
 
-
-
 Zen obsługuje również rozszerzenia Firefoksa, a także synchronizację za pośrednictwem konta Mozilla.
-
-
 
 Z punktu widzenia bezpieczeństwa i prywatności, Zen oferuje natywne blokowanie trackerów stron trzecich. Przeglądarka sama nie gromadzi żadnych danych, a także umożliwia wyłączenie telemetrii Mozilli. Automatycznie odrzuca również przestarzałe lub niezgodne certyfikaty SSL.
 
-
-
 Zen Browser to interesująca alternatywa, jeśli szukasz środowiska przeglądania Gecko, które jest bezpłatne, innowacyjne, przejrzyste i szanuje Twoją prywatność.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Przeglądarki oparte na WebKit
 
-
-
 #### Safari
-
-
 
 Główną przeglądarką nadal korzystającą z silnika renderującego WebKit (nie Fork jak Blink) jest Safari. [Safari](https://www.apple.com/safari/) jest wyłączną przeglądarką Apple dla macOS. Oferuje doskonałą integrację z ekosystemem Apple, wysoką wydajność, a teraz zawiera silniejsze zabezpieczenia przed śledzeniem i odciskami palców.
 
-
-
 Safari pozostaje jednak zamknięte, ograniczone do macOS w wersji na komputery stacjonarne i zależne od ekosystemu Apple. Chociaż Apple ma silną politykę prywatności, a jego model biznesowy opiera się głównie na sprzedaży sprzętu, a nie na reklamach, pozostaje niejasny co do niektórych wewnętrznych praktyk.
-
-
 
 Tutaj skupiamy się na przeglądarkach desktopowych, ale ważne jest, aby pamiętać, że na iOS Apple wymaga, aby wszystkie przeglądarki korzystały z silnika renderującego WebKit (ograniczenie, które może jednak wkrótce ulec zmianie w wyniku pewnych europejskich przepisów). Oznacza to, że przeglądarki takie jak Chrome, Firefox czy Brave muszą na iOS oferować aplikację opartą na WebKit, a nie na ich zwykłym silniku renderującym.
 

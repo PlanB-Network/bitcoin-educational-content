@@ -1,0 +1,9 @@
+question: Millist tüüpi IPv6-blokeering võimaldab ettevõttel säilitada oma eesliite ka siis, kui ta vahetab Interneti-teenuse pakkujat?
+answer: PI (teenuseosutaja sõltumatu)
+wrong_answers:
+  - PA (teenuseosutaja koondatav)
+  - LIR (kohalik internetiregister)
+  - IP (vahetatav teenusepakkuja)
+explanation: |
+  PI (Provider Independent) plokk eraldatakse organisatsioonile otse RIRi poolt, sõltumata Interneti-teenuse pakkujast.
+reviewed: false

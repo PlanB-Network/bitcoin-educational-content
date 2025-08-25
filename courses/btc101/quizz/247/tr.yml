@@ -1,0 +1,8 @@
+question: Finansın geleceğine ilişkin ortaya atılan temel sorulardan biri nedir?
+answer: Kullandığımız parayı kim tutmalı, yetkilendirmeli ve izlemelidir?
+wrong_answers:
+  - Parayı nasıl tamamen ortadan kaldırabiliriz?
+  - Herkesin aynı miktarda paraya sahip olmasını nasıl sağlayabiliriz?
+  - Parayı nasıl modası geçmiş hale getirebiliriz?
+explanation: >-
+reviewed: true

@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - Używaj tylko samodzielnie stworzonych lub bezpłatnych materiałów wizualnych.
     - Upewnij się, że są one istotne i wysokiej jakości.
 - Karta graficzna** :
-    - Czcionka: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Czcionka: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Kolory Plan ₿ Network :
         - Pomarańczowy: `#FF5C00`
         - Czarny: `#000000`

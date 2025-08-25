@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - فقط از تصاویر ایجاد شده توسط خود یا بدون حق امتیاز استفاده کنید.
     - مطمئن شوید که آن‌ها مرتبط و با کیفیت بالا هستند.
 - منشور گرافیکی** :
-    - فونت: [روبیک](https://fonts.google.com/specimen/Rubik).
+    - فونت: [روبیک](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - رنگ‌ها Plan ₿ Network :
         - نارنجی: `#FF5C00`
         - سیاه: `#000000`

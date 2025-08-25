@@ -1,0 +1,9 @@
+question: ¿Qué comando histórico se puede utilizar para consultar la caché ARP en la mayoría de los sistemas?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  El comando arp permite ver o modificar la caché ARP, que almacena localmente las asignaciones IP/MAC.
+reviewed: false

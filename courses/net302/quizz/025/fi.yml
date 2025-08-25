@@ -1,0 +1,9 @@
+question: Mihin TCP/IP-mallissa käytetään varattuja portteja?
+answer: Kuunnella tiettyjä palveluja koskevia pyyntöjä
+wrong_answers:
+  - generate:lle automaattinen datagrammin kapselointi
+  - Verkkokehysten fyysinen reitittäminen
+  - UDP-pakettien pirstaloitumisen hallinta
+explanation: |
+  Portit ovat loogisia kuuntelupisteitä, joiden avulla verkkosovellukset voivat erottaa toisistaan samassa isännässä toimivat eri palvelut.
+reviewed: false

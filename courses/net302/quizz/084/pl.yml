@@ -1,0 +1,9 @@
+question: Którego polecenia historycznego można użyć do sprawdzenia pamięci podręcznej ARP w większości systemów?
+answer: arp
+wrong_answers:
+  - kopać
+  - nslookup
+  - ping
+explanation: |
+  Polecenie arp umożliwia przeglądanie lub modyfikowanie pamięci podręcznej ARP, która lokalnie przechowuje mapowania IP/MAC.
+reviewed: false

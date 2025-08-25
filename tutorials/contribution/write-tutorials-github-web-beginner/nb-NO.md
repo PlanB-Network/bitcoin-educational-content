@@ -346,7 +346,7 @@ Utropstegnet i begynnelsen indikerer et bilde. Den alternative teksten, som bidr
 Hvis du ønsker å lage dine egne skjemaer, må du følge Plan ₿ Network grafiske retningslinjer for å sikre visuell konsistens:
 
 
-- Skrifttype**: Bruk [Rubik] (https://fonts.google.com/specimen/Rubik);
+- Skrifttype**: Bruk [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Farger** :
  - Oransje: #FF5C00
  - Svart : #000000

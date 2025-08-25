@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel principal del DNS en la arquitectura de Internet?
+answer: Asignación de nombres de dominio a direcciones IP
+wrong_answers:
+  - Cifrar las comunicaciones entre routers
+  - Asignación dinámica de direcciones MAC a los dispositivos
+  - Control de acceso a servidores web
+explanation: |
+  El DNS (Sistema de Nombres de Dominio) traduce los nombres de dominio legibles por el ser humano en direcciones IP numéricas necesarias para el enrutamiento.
+reviewed: false

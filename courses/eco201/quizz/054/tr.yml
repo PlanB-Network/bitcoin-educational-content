@@ -1,0 +1,12 @@
+question: Analiz yöntemleri açısından Avusturyalı ekonomistler ile Keynesyen veya parasalcı ekonomistler arasındaki temel fark nedir?
+answer: Avusturyalılar temel aksiyomlardan hareket ederken, Keynesyen veya parasalcı ekonomistler ampirik verilere dayanma eğilimindedir.
+wrong_answers:
+  - Avusturyalı ekonomistler ampirik verilere dayanırken, Keynesyen veya parasalcı ekonomistler temel aksiyomlardan yola çıkmaktadır.
+  - Avusturyalı ekonomistler ile Keynesyen veya parasalcı ekonomistler aynı analiz yöntemlerini kullanmaktadır.
+  - Avusturyalı ekonomistler hükümet politikalarına güvenirken, Keynesyen veya parasalcı ekonomistler piyasa güçlerine güvenmektedir.
+explanation: |
+  Avusturyalı ekonomistler ile Keynesyen veya monetarist ekonomistler arasındaki temel fark
+  ekonomistlerin analiz yöntemleri açısından Avusturyalılar akıl yürütürken
+  mantıksal çıkarımların yapılabileceği temel aksiyomlardan, Keynesyen veya
+  parasalcı ekonomistler, genel ekonomik yasalar oluşturmak için ampirik verilere güvenme eğilimindedir.
+reviewed: true

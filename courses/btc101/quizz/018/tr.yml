@@ -1,0 +1,13 @@
+question: İlk para birimleri nelerdi?
+answer: Tahıl ve canlı hayvan gibi mallar.
+wrong_answers:
+  - Altın ve gümüş.
+  - Kağıt notlar.
+  - Dijital varlıklar.
+explanation: |
+  İlk para birimleri genellikle temel ihtiyaçlarla bağlantılıydı
+  tahıl, canlı hayvan ve diğer emtia gibi mallar.
+  Ancak, bu malların aşağıdaki gibi önemli dezavantajları vardı
+  bozulabilirlik, bunların bir gıda maddesi olarak kullanılmasını zorlaştırır
+  uzun vadeli tasarruf aracı.
+reviewed: true

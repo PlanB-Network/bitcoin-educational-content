@@ -1603,7 +1603,7 @@ A few best practices:
 
 To monitor your holdings without compromising your private keys, consider using a watch-only wallet. It lets you track balances and transactions using your public keys only.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 The hodler's strategy is simple but powerful: buy, secure, and forget. The real challenge isn't technical; it's psychological. The hardest part is resisting the urge to sell too early or panic during price drops. But if you stay disciplined and think long-term, hodling has proven to be a reliable way to preserve value and build wealth over time.
 
@@ -1758,7 +1758,7 @@ Key habits:
 
 For easy monitoring without compromising security, set up a watch-only wallet to track balances using public key.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Evaluate your stacker profile
 
@@ -2540,6 +2540,7 @@ Once again, congratulations on how far you've come. And remember; my primary goa
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

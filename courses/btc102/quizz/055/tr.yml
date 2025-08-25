@@ -1,0 +1,9 @@
+question: Mnemonic ifadenizi güvenli bir şekilde yedeklemek için hangi ortam önerilir?
+answer: Kapalı opak zarflı metal yedek
+wrong_answers:
+  - Şifrelenmiş USB sürücü depolama
+  - Şeffaf kılıflı kağıt yedekleme
+  - Güvenli bir bulutta yedekleme
+explanation: |
+  Felaketlere dayanıklı metal yedek, hasara ve yetkisiz erişime karşı uzun süreli koruma sağlar. Mühürlü opak zarf, Mnemonic ifadesine herhangi birinin erişip erişmediğini doğrulamanıza olanak tanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre um IPv4 Address público e um IPv4 Address privado?
+answer: Um Address público é único e pode ser encaminhado na Internet
+wrong_answers:
+  - Um Address privado é único e pode ser encaminhado na Internet
+  - Um Address público é sempre atribuído por DHCP
+  - Um Address privado é sempre atribuído por DHCP
+explanation: |
+  Um IPv4 Address público é globalmente único e pode ser encaminhado na Internet, enquanto um Address privado só é válido numa rede local.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 计算机网络中的 "拓扑结构 "是什么意思？
+answer: 设备如何相互连接
+wrong_answers:
+  - 互联网连接速度
+  - 用于通信的协议类型
+  - 网络中使用的路由器品牌
+explanation: |
+  拓扑结构是指网络的物理或逻辑结构及其组件的连接方式。
+reviewed: false

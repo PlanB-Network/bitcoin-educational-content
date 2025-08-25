@@ -1,0 +1,9 @@
+question: Hva er IPv6-blokkstørrelsen som IANA vanligvis tildeler hvert regionale Internett-register (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Siden 2006 har hver RIR vanligvis mottatt en /12-blokk med IPv6, noe som gir en svært stor reserve for regional allokering.
+reviewed: false

@@ -1,0 +1,23 @@
+id: cb3e67d7-62bd-43ae-a81c-8e0533390d2c
+name: Bitcoin Keeper
+category: wallet
+
+links:
+  website: https://bitcoinkeeper.app/team/
+  twitter: https://twitter.com/bitcoinKeeper_
+  Github: https://github.com/bithyve/
+  youtube: https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ
+
+tags:
+  - business
+  - risks
+  - investment
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-20
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

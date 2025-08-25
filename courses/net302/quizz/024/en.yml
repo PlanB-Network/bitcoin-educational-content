@@ -1,0 +1,9 @@
+question: What is the main role of the TCP protocol in the TCP/IP model?
+answer: Ensure reliable and orderly data transfer
+wrong_answers:
+  - Encrypt network communications
+  - Assign IP addresses to machines
+  - Fragment datagrams at the physical level
+explanation: |
+  TCP ensures reliable data transmission by verifying integrity, maintaining order, and handling recovery in case of loss.
+reviewed: false

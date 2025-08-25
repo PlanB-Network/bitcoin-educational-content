@@ -381,7 +381,7 @@ Dấu chấm than ở đầu cho biết đó là hình ảnh. Văn bản thay th
 Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân thủ điều lệ đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
 
 
-- Phông chữ**: Sử dụng [Rubik](https://fonts.google.com/specimen/Rubik);
+- Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Màu sắc**:
  - Màu cam: #FF5C00
  - Đen: #000000

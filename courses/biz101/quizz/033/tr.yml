@@ -1,0 +1,9 @@
+question: Lightning Network, başlangıcından bu yana kullanıcı deneyimini iyileştirmek için nasıl gelişti?
+answer: Ekleme, statik Bolt12 faturaları ve daha iyi likidite yönetimi gibi özellikler sunarak işlemleri daha sorunsuz ve daha güvenilir hale getirdi.
+wrong_answers:
+  - İşlemleri hızlandırmak için tüm güvenlik özelliklerini kaldırmıştır.
+  - Artık her ödeme için hükümet onayı gerekiyor.
+  - Sadece orijinal tasarıma güvenerek yeni özellikler üzerinde çalışmayı bıraktı.
+explanation: |
+  Zaman içinde Lightning Network, kullanıcılar için sürtünmeyi azaltan teknik geliştirmeler gördü. Yeni özellikler ve daha iyi düğüm yönetimi araçları daha sorunsuz ve kullanıcı dostu bir deneyime katkıda bulunmuştur.
+reviewed: false

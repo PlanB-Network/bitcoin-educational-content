@@ -479,7 +479,7 @@ description: [Description]
 
 
 
-- फ़ॉन्ट**: [रूबिक](https://fonts.google.com/specimen/Rubik) का उपयोग करें;
+- फ़ॉन्ट**: [रूबिक](https://fonts.google.com/specimen/IBM+Plex+Sans) का उपयोग करें;
 - रंग** :
  - नारंगी: #FF5C00
  - काला : #000000

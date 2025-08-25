@@ -1,0 +1,13 @@
+question: Banka ve merkez bankası bilançolarının enflasyon üzerindeki etkisi nedir?
+answer: Yeni yaratılan para, ekonomik aktörlere borç verilmeden özel bankaların bilançolarında kalırsa, reel ekonomiyi doğrudan etkilemeyecek ve dolayısıyla enflasyona yol açmayacaktır.
+wrong_answers:
+  - Yeni yaratılan para özel bankaların bilançolarında kalırsa, her zaman enflasyona yol açacaktır.
+  - Banka ve merkez bankası bilançolarının enflasyon üzerinde hiçbir etkisi yoktur.
+  - Yeni yaratılan para ekonomik aktörlere ödünç verilirse, enflasyona yol açmayacaktır.
+explanation: |
+  Bu bölümde, parasal baskı ile para basma arasındaki ilişkinin
+  ve enflasyon, yeni yaratılan paranın ekonomiye nasıl sokulduğuna göre ayarlanır.
+  Eğer bu para özel bankaların bilançolarında borç verilmeden kalırsa
+  ekonomik aktörler için, reel ekonomiyi doğrudan etkilemeyecek ve bu nedenle,
+  enflasyona yol açmayacaktır.
+reviewed: false

@@ -299,7 +299,7 @@ print("Hello, Bitcoin!")
     - 自作またはロイヤリティフリーのビジュアルのみを使用すること。
     - 関連性があり、質の高いものであることを確認してください。
 - グラフィック・チャーター** ：
-    - フォント：[ルービック](https://fonts.google.com/specimen/Rubik)。
+    - フォント：[ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)。
     - カラーズプラン ȏ ネットワーク ：
         - オレンジ: `#FF5C00`
         - 黒: `#000000`

@@ -1,0 +1,12 @@
+question: Fonları dondurma kabiliyetlerine rağmen merkezi sabit coinlerin bir faydası nedir?
+answer: Belirli senaryolarda kullanıcıları korumak için hızlıca yanıt verebilirler
+wrong_answers:
+  - Tam ademi merkeziyetçilik ve güvenlik sunarlar
+  - Herhangi bir düzenleme veya müdahaleye tabi değildirler
+  - Kolluk kuvvetlerinden bağımsız olarak çalışırlar
+explanation: |
+  Merkezi sabit coinlerin müdahale etme kabiliyeti vardır
+  kullanıcıların ve genel istikrarın yararına olduğunda
+  dondurulmuş fonların kullanıldığı örneklerde görüldüğü gibi, sistemin
+  tüketicileri korumak ve bilgisayar korsanlarının kâr etmesini önlemek için kullanılır.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Tên của đơn vị dữ liệu được trao đổi tại Ứng dụng Layer (TCP/IP) là gì?
+answer: Tin nhắn
+wrong_answers:
+  - Khung
+  - Phân khúc
+  - Datagram
+explanation: |
+  Trong mô hình TCP/IP, dữ liệu được trao đổi tại Ứng dụng Layer được gọi là tin nhắn (hoặc luồng, tùy thuộc vào ngữ cảnh).
+reviewed: false

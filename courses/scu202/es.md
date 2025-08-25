@@ -1300,9 +1300,9 @@ PureOS es una distribución derivada de Debian desarrollada por Purism, totalmen
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (antes Raspbian) es una distribución optimizada para los microordenadores Raspberry Pi. Está basada en Debian, con paquetes recompilados para la arquitectura ARM. Puede utilizarse para proyectos educativos, pruebas electrónicas o pequeños servidores personales.
 
@@ -1326,36 +1326,23 @@ Whonix combina Debian con la red Tor en una arquitectura de dos VM (pasarela + e
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Este panorama le ofrece una visión general del ecosistema actual de distribuciones Linux, lo que le permitirá seleccionar la distribución que mejor se adapte a su perfil técnico y a sus objetivos.
-
-
 
 En el próximo capítulo de SCU202, echaremos un vistazo más de cerca al entorno Linux práctico, empezando por los entornos gráficos que forman la base de tus interacciones diarias con el sistema.
 
-
-
 ## Entornos de escritorio Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es el Layer gráfico que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
-
-
 
 En este capítulo, exploraré la estructura y el papel de un entorno de escritorio, sus componentes típicos, las principales familias disponibles, los criterios de selección y su integración en las distribuciones Linux más populares.
 
-
-
 ### ¿Qué es un entorno de oficina?
 
-
-
 Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el Interface gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
-
-
 
 En Linux, es importante distinguir claramente entre todas las capas: el núcleo (que gestiona la interacción con el hardware), el servidor de pantalla (que actúa como intermediario entre las aplicaciones, los controladores gráficos y el hardware a través del núcleo) y, por último, el propio entorno de escritorio, que se basa en esta infraestructura para ofrecer un Interface gráfico coherente al usuario. Esta distinción a veces puede ser menos clara, ya que muchas distribuciones de Linux vienen con un entorno de escritorio preinstalado que a veces incluye su propio compositor Wayland, que luego actúa como servidor de pantalla.
 
@@ -5774,15 +5761,11 @@ El inconveniente es una reducción significativa del rendimiento (alta latencia)
 
 #### Navegador Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) es el resultado de la colaboración entre la Fundación Tor y Mullvad VPN. Está basado en el navegador Tor, que a su vez deriva de Firefox ESR. Mullvad Browser está diseñado para maximizar la privacidad del usuario. Por defecto, incluye protección avanzada contra huellas digitales, rastreadores y scripts de terceros.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tiene la mayoría de las características de seguridad y privacidad ofrecidas por el Navegador Tor, con una diferencia: no redirige el tráfico a través de la red Tor. Para evitar fugas de IP Address, puedes usarlo en combinación con una VPN (idealmente, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5793,33 @@ Por defecto, LibreWolf activa la configuración de seguridad avanzada de Firefox
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Navegador Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) es un navegador gratuito y de código abierto basado en Firefox (motor Gecko), lanzado en 2024. Su objetivo es ofrecer una experiencia de navegación moderna, elegante, altamente personalizable y, sobre todo, centrada en la privacidad, sin depender de Chromium.
 
-
-
 Zen destaca por su enfoque radical de Interface y usabilidad, inspirado en gran medida en el navegador Arc, pero emancipado de él por su naturaleza de código abierto y su motor Gecko. Incluye :
-
-
-
 
 - Un Interface minimalista y modular, con una barra lateral vertical para pestañas, una vista dividida y un sistema *workspace* para agrupar conjuntos de pestañas por proyecto;
 - Un sistema de plantillas personalizables Interface (*Zen Mods*) que pueden utilizarse para modificar profundamente la apariencia del navegador;
 - Una función original llamada *Glance*, que abre un enlace en una ventana temporal ligera, evitando el desorden de las pestañas...
 
-
-
 Zen también es compatible con las extensiones de Firefox, así como con la sincronización a través de una cuenta de Mozilla.
-
-
 
 Desde el punto de vista de la seguridad y la privacidad, Zen cuenta con bloqueo nativo de rastreadores de terceros. El navegador no recopila datos por sí mismo, y también permite desactivar la telemetría de Mozilla. También rechaza automáticamente los certificados SSL obsoletos o que no cumplen las normas.
 
-
-
 Zen Browser es una alternativa interesante si buscas un entorno de navegación Gecko que sea gratuito, innovador, despejado y respetuoso con tu privacidad.
 
-
+https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navegadores basados en WebKit
 
-
-
 #### Safari
-
-
 
 El principal navegador que sigue utilizando el motor de renderizado WebKit (no un Fork como Blink) es Safari. [Safari](https://www.apple.com/safari/) es el navegador exclusivo de Apple para macOS. Ofrece una excelente integración con el ecosistema de Apple, un alto rendimiento y ahora incluye protecciones más fuertes contra el rastreo y las huellas dactilares.
 
-
-
 Sin embargo, Safari sigue siendo cerrado, limitado a macOS para su versión de escritorio y dependiente del ecosistema Apple. Aunque Apple tiene una sólida política de privacidad, con su modelo de negocio basado principalmente en la venta de hardware y no en la publicidad, sigue sin aclarar ciertas prácticas internas.
-
-
 
 Aquí nos centraremos en los navegadores de escritorio, pero es importante tener en cuenta que en iOS, Apple exige que todos los navegadores utilicen el motor de renderizado WebKit (una limitación que, sin embargo, podría cambiar pronto como consecuencia de ciertas normativas europeas). Esto significa que navegadores como Chrome, Firefox o Brave deben, en iOS, ofrecer una aplicación basada en WebKit, y no en su motor de renderizado habitual.
 

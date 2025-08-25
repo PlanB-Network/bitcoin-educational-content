@@ -1,0 +1,11 @@
+question: Kursun eğitmeni kimdir?
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - Yukarıdakilerin hiçbiri
+explanation: |
+  Bölümde kursun eğitmeninin şu isimlerden oluştuğu belirtilmektedir
+  Théo Mogenet, tutkulu ve yetkin bir profesör
+  Avusturya ekonomisi.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Bitcoin blok alanının kullanımına ilişkin gelecek kaygısı nedir?
+answer: Gelecekle ilgili endişe, Lightning Network'in beklenen büyümesi ve buna bağlı olarak kanal açılış ve kapanışlarındaki artışla birlikte, Bitcoin bloklarındaki alanın giderek daha değerli hale gelecek olmasıdır.
+wrong_answers:
+  - Gelecekteki endişe, Bitcoin bloklarının boyutunun yönetilemeyecek kadar büyük hale gelmesidir.
+  - Gelecekteki endişe, Bitcoin bloklarının sayısının ağın kapasitesini aşmasıdır.
+  - Gelecekle ilgili endişe, Bitcoin bloklarının karmaşıklığının artarak işlenmelerini zorlaştırmasıdır.
+explanation: |
+  Lightning Network'nın beklenen büyümesi ve
+  bunun sonucunda kanal açılış ve kapanışlarında artış, alan
+  gW-8 bloklarında giderek daha değerli hale gelecektir. Bu
+  blokların meşru kullanımı hakkında tartışmalara yol açmıştır
+  alanından Blockchain'ye spam gönderilmesi ile ilgili endişelerle
+  gerekli olmadığı düşünülen işlemler.
+reviewed: true

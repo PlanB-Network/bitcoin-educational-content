@@ -1,0 +1,11 @@
+question: Tüm 21 milyon bitcoin yaratıldıktan sonra madenciler tazminat için neye güvenecekler?
+answer: Madenciler tazminat için yalnızca işlem ücretlerine güveneceklerdir.
+wrong_answers:
+  - Madenciler tazminat için yalnızca blok ödüllerine güveneceklerdir.
+  - Madenciler tazminat için yalnızca işlem onaylarına güveneceklerdir.
+  - Madenciler tazminat için yalnızca ağ ücretlerine güveneceklerdir.
+explanation: |
+  2140 yılına kadar yeni bitcoin yaratılamayacak. Bu noktada,
+  madenciler sadece işlem ücretlerine güvenecek
+  tazminat.
+reviewed: true

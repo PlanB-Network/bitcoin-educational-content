@@ -1,0 +1,9 @@
+question: U kojoj godini je prvi segment ARPANET-a postao operativan?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Prvi segment ARPANET-a postao je operativan u oktobru 1969, povezujući UCLA i Stanford.
+reviewed: false

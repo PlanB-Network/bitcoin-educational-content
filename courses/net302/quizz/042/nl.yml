@@ -1,0 +1,9 @@
+question: Welk element van een domeinnaam vertegenwoordigt het topleveldomein (TLD)?
+answer: Het meest rechtse element
+wrong_answers:
+  - Het meest linkse element
+  - Het tweede niveau na de host
+  - De hoofdhostnaam
+explanation: |
+  De TLD is altijd het meest rechtse element van de FQDN, zoals .com, .org of .fr.
+reviewed: false

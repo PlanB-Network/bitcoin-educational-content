@@ -1,0 +1,9 @@
+question: Önyükleme sırasında imzasız kodun yürütülmesini önlemek için UEFI'de hangi mekanizma etkinleştirilmelidir?
+answer: Güvenli Önyükleme
+wrong_answers:
+  - Hızlı Önyükleme
+  - Hızlı Başlangıç
+  - Güvenilir Platform Modülü (TPM)
+explanation: |
+  Güvenli Önyükleme, yalnızca kimliği doğrulanmış yazılımların sistemi önyükleyebilmesini sağlar ve böylece bootkit/rootkit bulaşma riskini sınırlar.
+reviewed: false

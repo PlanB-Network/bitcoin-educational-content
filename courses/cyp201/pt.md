@@ -1866,7 +1866,7 @@ O descritor também inclui a chave pública estendida usada nesta carteira:
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Em seguida, a notação `/<0;1>/*` especifica que o descritor pode gerar endereços da cadeia externa (`0`) e da cadeia interna (`1`), com um curinga (`*`) permitindo a derivação sequencial de múltiplos endereços de maneira configurável, semelhante ao gerenciamento de um "limite de lacuna" em softwares de carteira tradicionais.
+A notação `/<0;1>/*` indica que o descritor pode gerar endereços tanto da cadeia externa (`0`) quanto da cadeia interna (`1`). O caractere curinga (`*`) no final do caminho significa que é possível derivar, de forma sequencial, todas as chaves filhas não reforçadas (“*unhardened*”) a partir desta posição, sejam elas endereços externos ou internos. Esta sintaxe não implica diretamente o conceito de *gap limit*, que pertence a um mecanismo específico das carteiras para deteção de endereços, mas serve aqui apenas para indicar que todas as derivações possíveis neste local são consideradas.
 Finalmente, `#jy0l7nr4` representa o checksum para verificar a integridade do descritor.
 Agora você sabe tudo sobre o funcionamento da carteira HD no Bitcoin e o processo de derivação de pares de chaves. No entanto, nos últimos capítulos, limitamo-nos à geração de chaves privadas e públicas, sem abordar a construção de endereços de recebimento. Este será precisamente o assunto do próximo capítulo!
 

@@ -383,7 +383,7 @@ El signo de exclamación al principio indica que se trata de una imagen. El text
 Si desea crear sus propios diagramas, asegúrese de respetar la carta gráfica del Plan ₿ Red para garantizar la coherencia visual:
 
 
-- Fuente**: Utilice [Rubik](https://fonts.google.com/specimen/Rubik);
+- Fuente**: Utilice [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
 - Colores**:
  - Naranja: #FF5C00
  - Negro #000000

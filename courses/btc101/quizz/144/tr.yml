@@ -1,0 +1,8 @@
+question: Her 10 dakikada 1 MB'lık 1 blok düşünüldüğünde, bir Bitcoin düğümünü çalıştırmak için bant genişliği gereksinimi nedir?
+answer: Aylık yaklaşık 5 GB.
+wrong_answers:
+  - Aylık yaklaşık 1GB.
+  - Aylık yaklaşık 10 GB.
+  - Aylık yaklaşık 20 GB.
+explanation: >-
+reviewed: true

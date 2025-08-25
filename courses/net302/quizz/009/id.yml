@@ -1,0 +1,9 @@
+question: Lembaga AS mana yang berada di balik proyek ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) memprakarsai ARPANET, yang meletakkan dasar bagi pengembangan protokol TCP/IP. Pada tahun 1972, lembaga ini berganti nama menjadi DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

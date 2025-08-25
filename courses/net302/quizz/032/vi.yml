@@ -1,0 +1,9 @@
+question: Độ dài của một IPv4 Address chuẩn là bao nhiêu, tính theo bit?
+answer: 32-bit
+wrong_answers:
+  - 8 bit
+  - 128-bit
+  - 16 bit
+explanation: |
+  IPv4 Address được mã hóa trên 32 bit, chia thành bốn byte, mỗi byte 8 bit.
+reviewed: false

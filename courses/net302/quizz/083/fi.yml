@@ -1,0 +1,9 @@
+question: Mikä on ip neigh-välimuistissa olevan merkinnän tila, kun IP/MAC-kohdistus on voimassa ja tuore?
+answer: REACHABLE
+wrong_answers:
+  - LIITETTY
+  - VALID
+  - STALE
+explanation: |
+  REACHABLE-tila tarkoittaa, että IP/MAC-kuviointi tunnetaan ja se toimii naapuruston välimuistissa.
+reviewed: false

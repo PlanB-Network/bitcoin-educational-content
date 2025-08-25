@@ -1,0 +1,9 @@
+question: Protokol mana yang secara dinamis menetapkan masa pakai untuk alamat IPv6 yang didistribusikan secara otomatis?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 secara eksplisit mengelola masa pakai melalui sewa, sementara NDP mengumumkannya dalam pesan konfigurasi router.
+reviewed: false

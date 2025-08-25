@@ -1,0 +1,9 @@
+question: Hvilket element i et domenenavn representerer toppnivådomenet (TLD)?
+answer: Elementet lengst til høyre
+wrong_answers:
+  - Elementet lengst til venstre
+  - Det andre nivået etter verten
+  - Det viktigste vertsnavnet
+explanation: |
+  Toppdomenet er alltid det høyre elementet i FQDN-et, for eksempel .com, .org eller .fr.
+reviewed: false

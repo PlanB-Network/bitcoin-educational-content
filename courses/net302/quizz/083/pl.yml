@@ -1,0 +1,9 @@
+question: Jaki jest stan wpisu w pamięci podręcznej ip neigh, gdy mapowanie IP/MAC jest prawidłowe i aktualne?
+answer: REACHABLE
+wrong_answers:
+  - POŁĄCZONY
+  - WARTOŚĆ
+  - STALE
+explanation: |
+  Stan REACHABLE oznacza, że mapowanie IP/MAC jest znane i działa w pamięci podręcznej sąsiedztwa.
+reviewed: false

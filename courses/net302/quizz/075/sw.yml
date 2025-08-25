@@ -1,0 +1,9 @@
+question: Ni aina gani ya rekodi ya DNS inatumika kupata jina linalohusishwa na IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Rekodi ya Kielekezi) huwezesha azimio la kurudi nyuma, kumaanisha inaunganisha IPv6 Address kwa jina la kikoa.
+reviewed: false

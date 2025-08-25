@@ -1,0 +1,9 @@
+question: Welke omzettingsmethode vereist het omkeren van elk hexadecimaal cijfer van de IPv6 Address voor de omgekeerde zone?
+answer: Omgekeerde resolutie
+wrong_answers:
+  - Tegengestelde resolutie
+  - Primaire resolutie
+  - Secundaire resolutie
+explanation: |
+  Voor reverse resolution wordt elke nibble van de volledige IPv6 Address omgekeerd en gescheiden door punten voordat het achtervoegsel ip6.arpa wordt.
+reviewed: false

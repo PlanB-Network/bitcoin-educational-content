@@ -1,0 +1,9 @@
+question: Welche Art von IPv6-Blockierung ermöglicht es einem Unternehmen, sein Präfix beizubehalten, auch wenn es den ISP wechselt?
+answer: PI (Provider unabhängig)
+wrong_answers:
+  - PA (Anbieter-aggregierbar)
+  - LIR (Lokales Internet-Register)
+  - IP (Interchangeable Provider)
+explanation: |
+  Ein PI-Block (Provider Independent) wird einer Organisation direkt von einem RIR zugewiesen, unabhängig vom Internetdienstanbieter.
+reviewed: false

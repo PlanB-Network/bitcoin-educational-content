@@ -1,0 +1,9 @@
+question: IPデータグラムの理論上の最大サイズは？
+answer: 65,536バイト
+wrong_answers:
+  - 1,500バイト
+  - 512バイト
+  - 255バイト
+explanation: |
+  IPデータグラムの最大サイズは65,536バイトであり、IPヘッダーの全長フィールドの制限によって決まる。
+reviewed: false

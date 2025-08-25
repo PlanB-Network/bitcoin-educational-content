@@ -1,0 +1,9 @@
+question: Mục đích chính của liên kết mạng là gì?
+answer: Tổng hợp nhiều giao diện mạng vật lý
+wrong_answers:
+  - Thêm địa chỉ IP ảo vào mạng cục bộ
+  - Tạo cầu nối Wi-Fi
+  - Giảm kích thước gói tin trên cáp RJ45
+explanation: |
+  Liên kết mạng kết hợp nhiều giao diện vật lý thành một giao diện logic duy nhất, cung cấp khả năng dự phòng hoặc tăng băng thông.
+reviewed: false

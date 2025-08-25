@@ -1,0 +1,9 @@
+question: DNS'in İnternet mimarisindeki ana rolü nedir?
+answer: Alan adlarını IP adresleriyle eşleme
+wrong_answers:
+  - Yönlendiriciler arasındaki iletişimi şifreleme
+  - MAC adreslerini cihazlara dinamik olarak atama
+  - Web sunucularına erişimi kontrol etme
+explanation: |
+  DNS (Alan Adı Sistemi) insan tarafından okunabilen alan adlarını yönlendirme için gereken sayısal IP adreslerine çevirir.
+reviewed: false

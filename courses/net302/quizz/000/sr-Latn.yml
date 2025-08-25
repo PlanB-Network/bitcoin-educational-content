@@ -1,0 +1,9 @@
+question: Koja je osnovna uloga mreže u IT-u?
+answer: Omogući podatke Exchange
+wrong_answers:
+  - Povećanje memorije računara
+  - Kreiraj rezervne kopije
+  - Omogući Exchange računarske opreme
+explanation: |
+  Mreža povezuje više uređaja kako bi omogućila cirkulaciju i Exchange informacija.
+reviewed: false

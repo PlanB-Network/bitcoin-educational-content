@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo da ligação de rede?
+answer: Agregar várias interfaces de rede física
+wrong_answers:
+  - Adicionar endereços IP virtuais à rede local
+  - Criar uma ponte Wi-Fi
+  - Reduzir o tamanho do pacote no cabo RJ45
+explanation: |
+  A ligação de rede combina várias interfaces físicas numa única interface lógica, proporcionando redundância ou maior largura de banda.
+reviewed: false

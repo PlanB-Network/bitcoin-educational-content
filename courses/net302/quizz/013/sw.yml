@@ -1,0 +1,9 @@
+question: Ni shirika gani hupeana nambari za toleo la itifaki ya IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Mamlaka ya Nambari Zilizogawiwa ya Mtandao (IANA) inasimamia Assignment ya nambari za toleo la itifaki ya IP na ugawaji wa safu za itifaki.
+reviewed: false

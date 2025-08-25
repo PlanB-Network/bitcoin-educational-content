@@ -6,7 +6,7 @@ description: Yksinkertainen vaiheittainen opas Bitcoin:n omahuoltajuushankintoja
 ![cover](assets/cover.webp)
 
 
-### Johdanto Bittriin
+### Johdanto Bittr
 
 
 Bittr on suoraviivainen työkalu kaikille, jotka haluavat kasvattaa säästöjään Bitcoin:ssa - ilman monimutkaista sovellusta, henkilöllisyystarkastuksia tai kolmannen osapuolen säilytystä. Se on suunniteltu ihmisille, jotka haluavat yksinkertaisuutta, yksityisyyttä ja täydellistä rahojensa hallintaa.

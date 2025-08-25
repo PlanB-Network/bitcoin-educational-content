@@ -1,0 +1,9 @@
+question: Wat moet er aan NAT toegevoegd worden om een netwerk goed te beveiligen?
+answer: Een firewall
+wrong_answers:
+  - Een lokale DNS-server
+  - Een HTTP-proxy
+  - Een antivirus
+explanation: |
+  NAT alleen is niet voldoende om kwaadaardig verkeer te filteren: het moet aangevuld worden met firewallregels voor fijnmazige verkeerscontrole.
+reviewed: false

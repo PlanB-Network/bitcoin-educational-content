@@ -1,0 +1,9 @@
+question: Milline on TCP puhul transpordivõrgu Layer läbiv andmeühik?
+answer: Segment
+wrong_answers:
+  - Datagramm
+  - Raam
+  - Stream
+explanation: |
+  Transpordi Layer puhul nimetatakse TCP puhul andmeühikut segmendiks, samas kui UDP kasutab terminit pakett.
+reviewed: false

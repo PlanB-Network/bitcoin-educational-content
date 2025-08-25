@@ -1,4 +1,4 @@
-question: What mechanism allows an internal service to be accessed from the outside via NAT?
+question: What mechanism allows an internal service to be accessed externally through NAT?
 answer: Port forwarding
 wrong_answers:
   - Packet fragmentation

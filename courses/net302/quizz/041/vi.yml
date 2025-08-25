@@ -1,0 +1,9 @@
+question: Tệp nào trước đây được sử dụng để giải quyết vấn đề cục bộ trước khi DNS toàn cầu ra đời?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/mạng
+  - /etc/giải quyết
+explanation: |
+  Trước khi DNS trở nên phổ biến, việc phân giải tên dựa vào tệp /etc/hosts tĩnh trên hệ thống Unix/Linux.
+reviewed: false

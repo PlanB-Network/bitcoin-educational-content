@@ -1,0 +1,5 @@
+---
+term: HISSE ZORLUKLARI
+---
+
+Bitcoin'den daha yüksek (dolayısıyla daha az zor) bir hedef zorluk derecesi, bir paylaşımın Hash'ünü nitelemek ve havuzdaki her bir Miner'ün katkısını değerlendirmek için bir Mining pool tarafından tanımlanır. Doğrulama yükünü verimli bir şekilde yönetmek ve hesaplama gücünden bağımsız olarak her bir KİS-3'ün düzenli olarak paylaşım yapmasını sağlamak için havuzlar paylaşımların zorluk derecesini ayarlar. Her bir Miner'e atanan zorluk derecesi, biriktirdikleri hisse sayısını belirler: örneğin, bir Miner'e atanan zorluk derecesi 10 ise ve bu zorluk derecesinde 5 geçerli çalışma kanıtı gönderirse, 50 hisse elde eder. Zorluk derecesi 100 olan ve 7 geçerli çalışma kanıtı sunan daha güçlü bir Miner ise 700 hisse alacaktır. Bu sistem, her bir Miner'ün Hashrate'inin kesin olarak ölçülmesine ve ödüllerin seçilen tazminat hesaplama yöntemine (PPS, PPLNS, TIDES...) göre dağıtılmasına olanak tanır.

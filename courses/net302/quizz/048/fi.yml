@@ -1,0 +1,9 @@
+question: Mihin OSI-mallin Layer:een MAC Address kuuluu?
+answer: Datayhteys Layer
+wrong_answers:
+  - Sovellus Layer
+  - Kuljetus Layer
+  - Verkko Layer
+explanation: |
+  MAC Address toimii OSI-mallin Layer 2:ssa, joka tunnetaan nimellä "datayhteys Layer", jossa sitä käytetään kehysten laitteisto-osoittamiseen.
+reviewed: false

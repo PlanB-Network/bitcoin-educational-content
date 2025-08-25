@@ -1,0 +1,9 @@
+question: Vad är det huvudsakliga motivet till att använda slumpmässiga Interface-identifierare i stället för MAC Address i IPv6?
+answer: Bevara privatlivet
+wrong_answers:
+  - Minska paketstorleken
+  - Snabbare DNS-upplösning
+  - Förbättrad ARP-kompatibilitet
+explanation: |
+  Att använda slumpmässiga Interface-identifierare skyddar mot spårning av enheter baserat på MAC Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de IPv6-blokgrootte die over het algemeen door IANA wordt toegewezen aan elk regionaal internetregister (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Sinds 2006 ontvangt elke RIR gewoonlijk een /12 blok IPv6, waardoor er een zeer grote reserve is voor regionale toewijzing.
+reviewed: false

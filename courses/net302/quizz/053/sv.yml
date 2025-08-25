@@ -1,0 +1,9 @@
+question: Vilket NAT-läge gör det möjligt för dussintals enheter att dela en enda offentlig IP Address genom att ändra portar?
+answer: PAT
+wrong_answers:
+  - Statisk NAT
+  - Dynamisk NAT
+  - Statisk routning
+explanation: |
+  PAT, även känt som NAT-overload eller IP-masquerading, ändrar portnummer för att särskilja sessioner, vilket gör att många enheter kan använda samma publika Address.
+reviewed: false

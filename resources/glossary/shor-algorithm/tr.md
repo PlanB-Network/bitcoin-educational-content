@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITMA)
+---
+
+Peter Shor tarafından 1994 yılında icat edilen ve büyük tamsayıların polinom zamanda asal sayıların çarpanlarına ayrılmasını sağlayan kuantum algoritması. Tamsayıları çarpanlarına ayırmak için gereken işlem sayısını azaltarak Shor, RSA gibi bu matematiksel problem üzerine kurulmuş kriptografi algoritmalarını kullanışsız hale getirebilir. Shor, bir grup yapısı kullanan neredeyse tüm algoritmalar üzerinde etkili olacak şekilde biraz değiştirilebilir. Özellikle eliptik eğri kriptografisi (ECDSA, Schnorr...) üzerinde zaten etkili bir varyantı vardır. Bu nedenle, Shor ve yakın varyantları asimetrik kriptografi algoritmaları üzerinde etkilidir. Şu anda, Shor'un algoritmasını başarılı bir şekilde yürütmek için yeterince güçlü ve kararlı bir kuantum bilgisayarına henüz sahip değiliz.

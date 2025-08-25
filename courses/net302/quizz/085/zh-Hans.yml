@@ -1,0 +1,9 @@
+question: 使用哪条命令可以检查发往 8.8.8.8 的数据包将通过哪个 Interface 和网关路由？
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> 显示数据包到达特定目的地的确切路径。
+reviewed: false

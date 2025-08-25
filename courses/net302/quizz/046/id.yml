@@ -1,0 +1,9 @@
+question: Protokol mana yang digunakan untuk mengaitkan IP Address dengan MAC Address pada jaringan Ethernet?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) memetakan alamat IP ke alamat MAC pada jaringan lokal.
+reviewed: false

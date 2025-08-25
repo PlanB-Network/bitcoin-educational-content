@@ -1,0 +1,9 @@
+question: Je, ni programu gani huria inayotumika kama marejeleo ya seva za DNS?
+answer: FUNGA
+wrong_answers:
+  - Apache
+  - Squid
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) ni utekelezaji wa marejeleo ya chanzo huria unaotumiwa na seva nyingi za DNS duniani kote.
+reviewed: false

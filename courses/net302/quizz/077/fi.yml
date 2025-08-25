@@ -1,0 +1,9 @@
+question: Mikä resoluutiomenetelmä edellyttää IPv6 Address:n jokaisen heksadesimaaliluvun kääntämistä käänteisvyöhykkeen osalta?
+answer: Käänteinen resoluutio
+wrong_answers:
+  - Vastakkainen päätöslauselma
+  - Ensisijainen resoluutio
+  - Toissijainen resoluutio
+explanation: |
+  Käänteistä resoluutiota varten koko IPv6 Address:n jokainen nibble käännetään ja erotetaan pisteillä ennen kuin se liitetään ip6.arpa-suffiksilla.
+reviewed: false

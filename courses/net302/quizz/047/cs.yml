@@ -1,0 +1,9 @@
+question: Který termín označuje první tři bajty MAC Address?
+answer: OUI (jedinečný identifikátor organizace)
+wrong_answers:
+  - SID (identifikátor relace)
+  - LUI (místní jedinečný identifikátor)
+  - PAN (fyzické číslo Address)
+explanation: |
+  OUI přiděluje IEEE a identifikuje výrobce síťové karty v MAC Address.
+reviewed: false

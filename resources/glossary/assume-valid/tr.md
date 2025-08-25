@@ -1,0 +1,8 @@
+---
+term: GEÇERLİ OLDUĞUNU VARSAYIN
+---
+
+Çoğunluk istemcisi Bitcoin core'daki yapılandırma parametresi, yeni başlatılmış (ancak henüz IBD'yi gerçekleştirmemiş) bir düğümün belirli bir bloktan önceki bloklarda yer alan tüm işlemler için imzaların doğrulanmasını atlamasına izin verir. Bu ünlü blok, başlığının, yani Hash'inin damgası ile tanımlanır. Seçilen blok Bitcoin core'ın her yeni versiyonu ile yenilenir. Başlangıçta, düğüm bu parametreyi etkinleştirmişse, bu nedenle en fazla birikmiş işe sahip dalı bulmak için blok başlığı zincirini kontrol edecektir. Düğüm, seçtiği dalda Çekirdek tarafından sağlanan Hash'i tespit ederse, önceki bloklar için imzaların doğrulanmasını atlayacaktır. Aksi takdirde, düğüm her şeyi kendi başına doğrulamak için geleneksel bir senkronizasyon (IBD) ile devam edecektir.
+
+
+Assume Valid'in amacı, ağın çoğunluğunun geçmişte bu işlemleri zaten doğrulamış olduğunu varsayarak, güvenlikten ödün vermeden bir düğümün ilk senkronizasyon sürecini hızlandırmaktır. Düğüm için tek gerçek uzlaşma, daha önce bitcoin çalınması durumunda kendisine haber verilmeyecek olmasıdır. Ancak, yine de verilen bitcoin miktarının doğruluğunu sağlayabilir. Düğümler, Assume Valid bloğundan sonraki işlemler için imzaların doğrulanmasına devam eder. Bu yaklaşım, bir işlemin ağ tarafından yeterince uzun bir süre boyunca itiraz edilmeden kabul edilmesi halinde hileli olma ihtimalinin düşük olduğu varsayımına dayanmaktadır.

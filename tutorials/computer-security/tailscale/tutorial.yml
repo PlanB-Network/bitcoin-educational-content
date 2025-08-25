@@ -129,3 +129,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.76
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.98

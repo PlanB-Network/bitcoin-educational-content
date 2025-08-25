@@ -1,0 +1,9 @@
+question: Milline tüüpiline CIDR vahemik kujutab endast IANA poolt RIRile eraldatud IPv4-bloki suurust?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA jagab IPv4-ruumi plokkideks suurusega /8, millest igaüks sisaldab 2^24 aadressi.
+reviewed: false

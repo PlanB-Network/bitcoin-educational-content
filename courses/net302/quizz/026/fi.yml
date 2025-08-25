@@ -1,0 +1,9 @@
+question: Mitä datayksikköä käytetään TCP/IP-mallin Internet Layer:ssa?
+answer: Datagram
+wrong_answers:
+  - Segmentti
+  - Kehys
+  - Viesti
+explanation: |
+  Internet Layer käsittelee datagrammeja kapseloimalla Transport Layer:n segmenttejä.
+reviewed: false

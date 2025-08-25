@@ -1,0 +1,9 @@
+question: IPv6でMAC AddressではなくランダムなInterface識別子を使用する主な動機は何ですか？
+answer: プライバシーの保護
+wrong_answers:
+  - パケットサイズの削減
+  - DNS解決の高速化
+  - ARP互換性の向上
+explanation: |
+  ランダムなInterface識別子を使用することは、MAC Addressに基づくデバイス・トラッキングからの保護に役立つ。
+reviewed: false

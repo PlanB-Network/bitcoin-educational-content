@@ -123,6 +123,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.19
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.21
 tags:
   - privacy
   - technical-analysis

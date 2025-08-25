@@ -1,0 +1,9 @@
+question: Je, ni masafa gani ya IPv4 Address yamehifadhiwa kwa ajili ya majaribio ya eneo la kitanzi?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Masafa 127.0.0.0/8 hutumiwa kwa urejeshaji wa ndani. Ombi lolote kwa masafa haya hukaa ndani ya mashine inayotoka.
+reviewed: false

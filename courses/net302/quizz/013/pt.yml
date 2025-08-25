@@ -1,0 +1,9 @@
+question: Qual é a organização que atribui os números de versão do protocolo IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  A Internet Assigned Numbers Authority (IANA) gere o Assignment dos números de versão do protocolo IP e a atribuição de gamas de protocolos.
+reviewed: false

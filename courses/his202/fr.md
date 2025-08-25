@@ -1782,13 +1782,17 @@ Un mois plus tard, c'est au tour de la plateforme de poker en ligne Betco.in, g�
 
 ### L'arnaque de Tony76
 
-https://eileenormsby.com/2012/05/30/the-great-420-scam/
+https://eileenormsby.com/2012/05/30/the-great-420-scam/ https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/ https://web.archive.org/web/20150321011113/http://www.dailydot.com/crime/tony76-420-sale-silk-road/ https://gwern.net/doc/darknet-market/silk-road/1/2012-01-18-tony76reviews.maff
 
-Tony76 : vendeur canadien
+Un incident [se produit](https://eileenormsby.com/2012/05/30/the-great-420-scam/) sur Silk Road le 20 avril 2012 sous la forme d'une escroquerie d'ampleur de la part d'un vendeur. Il s'agit d'un vendeur canadien utilisant le pseudonyme Tony76 (James Ellingson ?). Inscrit en janvier 2012, il a l'habitude d'expédier de la MDMA, de la cocaïne et de l'héroïne au Canada et aux États-Unis. À ce moment-là, il [a réalisé](https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/) plus de 500 ventes, et son fil d'avis sur le forum de Silk Road dépasse les 1 000 messages.
 
-Le système de réputation de Silk Road n'est pas parfait. dépôt fiduciaire, mais finalisation/clôture anticipée
+C'est grâce à cette réputation qu'il parvient à réaliser son escroquerie. Le système de réputation de la plateforme n'est pas parfait : on peut placer les bitcoins en dépôt fiduciaire, mais cela prend du temps et expose le vendeur aux fluctuations du taux de change. C'est pourquoi les vendeurs de confiance demandent souvent aux utilisateurs d'opter pour une finalisation anticipée. Tony76 demande systématiquement cette option.
 
-20 avril (ou 4/20 en format américain), date emblématique pour la consommation de cannabis
+Le 20 avril est une date emblématique pour les consommateurs de cannabis en Amérique du Nord. Ainsi, sur Silk Road, de nombreuses réductions sont affichées sur le site. Le 17 avril, Tony76 [annonce](https://antilop.cc/sr/users/tony76/messages/20120417-0804-26-Tony76_MASSIVE_4_20_SALE_When_i_say_massive_I_mean_massive.txt) participer, la raison étant « toutes \[les\] offres incroyables proposées par les autres vendeurs » qui lui ont « donné envie de \[se\] lancer » et ont « réveillé \[son\] esprit de compétition » (original: "seeing all these other amazing deals from vendors got me excited (and maybe brought out my competitive side a bit"). Il annonce également ouvrir les commandes aux acheteurs internationaux pour la première fois. La veille au soir du 20 avril, il propose ainsi des produits en tous genres à des prix réduits : cannabis, MDMA, LSD, kétamine, cocaïne, héroïne.
+
+Sa bonne réputation fait que les commandes s'enchainent. Durant toute la journée du 20 avril et après, il continue d'interagir avec les clients, mais il disparait complètement du forum le 25. Au bout d'une semaine, les utilisateurs commencent à s'inquiéter ; ils se rendront rapidement compte qu'ils se sont fait avoir.
+
+Il est [estimé](https://web.archive.org/web/20150321011113/http://www.dailydot.com/crime/tony76-420-sale-silk-road/) que Tony76 a obtenu entre 100 000 et 250 000 dollars en BTC de cette façon, pour un montant se comptant en dizaine de milliers de bitcoins. C'est le plus grand braquage de l'histoire de Silk Road. Cet incident est connu comme « la grande arnaque du 420 » (original: "The Great 420 Scam").
 
 ### La chute de Bitcoinica
 

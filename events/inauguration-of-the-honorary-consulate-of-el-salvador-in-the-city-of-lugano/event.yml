@@ -1,4 +1,5 @@
 id: 0bbd580d-7b10-4391-8ae0-1d83dacca20b
+test_only: true
 start_date: 2025-10-22 07:00:00
 end_date: 2025-10-22 09:00:00
 timezone: Europe/Zurich

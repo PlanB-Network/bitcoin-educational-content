@@ -1,6 +1,7 @@
 id: 8f389b69-5a4a-4f3f-9cc2-337b57da7b49
+test_only: true
 start_date: 2025-10-21 08:30:00
-end_date: 2025-08-25 11:00:00
+end_date: 2025-10-21 11:00:00
 timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Bitcoin Association Switzerland

@@ -1,6 +1,6 @@
 ---
-name: Blockstream App - Desktop avec Hardware Wallet
-description: Comment utiliser son hardware/cold wallet avec Blockstream App sur ordinateur
+name: Blockstream App - Desktop
+description: Comment utiliser son hardware wallet avec Blockstream App sur ordinateur ?
 ---
 ![cover](assets/cover.webp)
 
@@ -27,7 +27,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 ## 2. Présentation de Blockstream App
 
-- **Blockstream App** est une application mobile (iOS, Android) et desktop pour gérer des portefeuilles Bitcoin et des actifs sur le réseau Liquid. Acquise par [Blockstream](https://blockstream.com/) en 2016, elle était auparavant nommée *Blockstream App Address* puis *Blockstream App*.
+- **Blockstream App** est une application mobile (iOS, Android) et desktop pour gérer des portefeuilles Bitcoin et des actifs sur le réseau Liquid. Acquise par Blockstream en 2016, elle s’appelait _GreenAddress_, a été renommée _Blockstream Green_ (2019), et s’appelle aujourd’hui _Blockstream app_ (2025).
 - **Fonctionnalités principales** :
     - Transactions **onchain** sur la blockchain Bitcoin.
     - Transactions sur le réseau **Liquid** (sidechain pour des échanges rapides et confidentiels).
@@ -82,10 +82,12 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 ![image](assets/fr/06.webp)
 
+https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+
 #### 3.2.4. Vérification SPV
 
 - Dans le menu Paramètres, cliquez sur "**Custom servers and validation**".
-- **Fonction** : Utilise la **Simplified Payment Verification (SPV)** pour vérifier directement certaines données blockchain sans télécharger l’intégralité de la chaîne.
+- **Fonction** : Utilise la **Simplified Payment Verification (SPV)** qui télécharge les en-têtes de blocs et vérifie vos transactions par preuves d’inclusion (Merkle), sans stocker la blockchain complète.
 - **Pourquoi ?** : Réduit la dépendance au nœud par défaut de Blockstream, tout en restant léger pour les appareils.
 - **Inconvénient** : Moins sécurisé qu’un nœud complet, car il repose sur des nœuds tiers pour certaines informations.
 - **Recommandation** : Activez SPV si vous ne pouvez pas utiliser un nœud personnel, mais préférez un nœud complet pour une sécurité optimale.
@@ -109,7 +111,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 - Si votre hardware wallet (Ledger, Trezor, ou Blockstream Jade) n’a jamais été utilisé (ni avec Blockstream Green, ni avec un autre logiciel comme Ledger Live), vous devrez d’abord l’initialiser. Cette étape comprend, dans un environnement sécurisé, sans caméras ni observateurs :
 	1. **Génération de la seed phrase / phrase mnémonique** (12, 18 ou 24 mots) : Notez-la soigneusement sur un papier.
-	2. **Vérification de la seed phrase** : Testez l'importation du wallet à partir des mots notés, par exemple en vérifiant la clef publique étendue. A réaliser avant d'envoyer des fonds sur le wallet et de sécuriser définitivement la seed phrase.
+	2. **Vérification de la seed phrase** : Testez l'importation du wallet à partir des mots notés, par exemple en vérifiant la clé publique étendue. À réaliser avant d'envoyer des fonds sur le wallet et de sécuriser définitivement la seed phrase.
 	3. **Sécurisation de la seed phrase** : Stockez la phrase sur un support physique (papier ou métal) et dans un endroit sûr. Ne la conservez jamais numériquement (pas de capture d’écran, cloud, ou messagerie).
 - **Important** : La seed phrase est votre seul moyen de récupérer vos fonds en cas de perte ou de dysfonctionnement de l’appareil. Toute personne y ayant accès peut voler vos bitcoins.
 - **Ressources** pour la sauvegarde et la vérification de la seed phrase :
@@ -122,7 +124,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 #### 4.1.3. Configuration pour ce tutoriel :
 
-- Nous considèrerons que le hardware wallet a déjà été initialisé avec une seed phrase et un code PIN de verrouillage.
+- Nous considérerons que le hardware wallet a déjà été initialisé avec une seed phrase et un code PIN de verrouillage.
 - Nous considérons que le hardware wallet n’a jamais été connecté à Blockstream App, ce qui nécessite la création d'un nouveau compte. Si le hardware wallet a déjà été utilisé avec Blockstream App, le compte apparaîtra automatiquement à l’ouverture de l’application.
 
 ### 4.2. Lancer la connexion
@@ -177,11 +179,11 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 **Options** :
 - (1) Cliquez sur les flèches pour générer une nouvelle adresse liée à votre portefeuille.
-- (2) Pour demander un montant spécifique, cliquez sur "**More options**" puis sur "**Request Amount**". Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin. de type : `bitcoin:bc1q...?amount=0.00001`
+- (2) Pour demander un montant spécifique, cliquez sur "**More options**" puis sur "**Request Amount**". Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin de type : `bitcoin:bc1q...?amount=0.00001`
 
 ![image](assets/fr/13.webp)
 
-- (3) Pour ré-utiliser une adresse précédente, cliquez sur "**More options**" puis sur "**List of adresses**" :
+- (3) Pour réutiliser une adresse précédente, cliquez sur "**More options**" puis sur "**List of addresses**" :
 
 ![image](assets/fr/14.webp)
 
@@ -200,13 +202,13 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
     - (1) Vérifiez que l’actif sélectionné est **Bitcoin** (onchain).
     - (2) Entrez l’**adresse du destinataire** en la collant ou en scannant un QR code avec votre webcam.
     - (3) Indiquez le **montant** à envoyer (en BTC, satoshis, ou autre unité).
-      Montant minimal au 08/08/2025 : 546 satoshis.
+
 
 ![image](assets/fr/16.webp)
 
 - Sélectionnez les **frais de transaction** (optionnel) :
 	- Choisissez parmi les options suggérées (rapide, moyen, lent) selon l’urgence, avec une estimation du temps de confirmation.
-	- Pour des frais personnalisés, ajustez manuellement le nombre de satoshis par vbyte. Ils sont indiqués sur l'écran d'accueil. Vous pouvez aussi consultez [Mempool.space](https://mempool.space/).
+	- Pour des frais personnalisés, ajustez manuellement le nombre de satoshis par vbyte. Ils sont indiqués sur l'écran d'accueil. Vous pouvez aussi consulter [Mempool.space](https://mempool.space/).
 
 ![image](assets/fr/17.webp)
 
@@ -252,9 +254,7 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 - **Limites** :
     - RBF n’est pas disponible pour les transactions Liquid ou Lightning.
     - La transaction initiale doit être marquée comme RBF-compatible, ce que Blockstream App fait automatiquement.
-- **Plus d’info** :
-
-[https://planb.network/fr/resources/glossary/rbf-replacebyfee](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- Pour plus d'informations, consultez [notre glossaire](https://planb.network/resources/glossary/rbf-replacebyfee).
 
 ### A3. Bonnes pratiques
 
@@ -288,8 +288,8 @@ description: Comment utiliser son hardware/cold wallet avec Blockstream App sur 
 
 - **Liens officiels** :
     - [Site officiel](https://blockstream.com/)
-    - [Support pour Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Blockstream App/) : documentation et tchat
-    - [GitHub](https://github.com/Blockstream/Blockstream App_desktop)
+    - [Support pour Blockstream App](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : documentation et chat
+    - [GitHub](https://github.com/Blockstream/green_qt)
 
 - **Explorateurs de blocs** :
     - Onchain : [Mempool.space](https://mempool.space/)

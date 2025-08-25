@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Thunderstorm
 type: meetup
-description: The upcoming Bitcoin Lending and Capital Markets Conference, hosted
+description: |
+  The upcoming Bitcoin Lending and Capital Markets Conference, hosted
   in partnership with the Municipality of Lugano, promises to be a pivotal
   gathering for industry leaders exploring the future of sound finance on the
   Bitcoin standard. Set to unfold in the afternoon of the  23df of October, the

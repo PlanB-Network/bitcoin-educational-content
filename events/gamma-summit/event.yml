@@ -1,11 +1,12 @@
 id: 4ef683c2-673b-4827-ac3f-6a0ca089112f
-start_date: 2025-08-25 17:00:00
-end_date: 2025-08-25 20:30:00
-timezone: America/El_Salvador
-address_city_country: ""
+start_date: 2025-10-25 15:00:00
+end_date: 2025-10-25 20:00:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
 name: Gamma Summit
 type: conference
-description: Thalex and BitfinexAudience: invite only, targeting 50-70 people
+description: |
+  Thalex and BitfinexAudience: invite only, targeting 50-70 people
   (or whatever the venue can comfortably hold)Schedule (draft):11:00 - 11:25 |
   Doors open and initial networking
 language:

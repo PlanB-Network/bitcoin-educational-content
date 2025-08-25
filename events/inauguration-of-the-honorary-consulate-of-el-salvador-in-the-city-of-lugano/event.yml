@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: " Inauguration of the Honorary Consulate of El Salvador in the City of Lugano"
 type: meetup
-description: " Inauguration of the Honorary Consulate of El Salvador in the City of Lugano"
+description: |
+  " Inauguration of the Honorary Consulate of El Salvador in the City of Lugano"
 language:
   - en
 links:

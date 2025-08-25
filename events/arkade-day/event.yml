@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Arkade Day
 type: meetup
-description: A full-day immersion event bringing together industry leaders,
+description: |
+  A full-day immersion event bringing together industry leaders,
   developers, and Bitcoin enthusiasts to explore how Arkade transforms Bitcoin
   from static money into truly programmable money.
 language:

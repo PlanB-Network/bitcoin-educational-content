@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Terra Bitcoin Dinner
 type: meetup
-description: Dinner of Terra
+description: |
+  Dinner of Terra
 language:
   - en
 links:

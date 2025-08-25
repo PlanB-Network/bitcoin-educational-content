@@ -1,16 +1,16 @@
-id: d6dfd4fa-fe0f-45c6-b8e6-79a2848af0fe
-start_date: 2025-10-24 08:00:00
-end_date: 2025-10-24 16:00:00
+id: a3848497-2509-4223-9791-d609aca7f724
+start_date: 2025-10-24 12:00:00
+end_date: 2025-10-24 19:00:00
 timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
-name: VIP Speaker dinner
+name: Spazio 21 Day 2
 type: workshop
 description: |
-  " Plan ₿ Network Booth Day 1"
+  This a plan B week event
 language:
   - en
 links:
   website: https://planbtest.network/en/events
 tags:
-  - adoption
   - education
+  - market-trends

@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Satoshi Spritz Special
 type: meetup
-description: "Satoshi Spritz Special "
+description: |
+  "Satoshi Spritz Special "
 language:
   - en
 links:

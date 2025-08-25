@@ -1,16 +1,17 @@
-id: d6dfd4fa-fe0f-45c6-b8e6-79a2848af0fe
+id: 6044d43e-4d3e-4943-b27d-f71cce8154a6
 start_date: 2025-10-24 08:00:00
-end_date: 2025-10-24 16:00:00
+end_date: 2025-10-24 09:00:00
 timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
-name: VIP Speaker dinner
-type: workshop
+name: ₿ Cert Day Two Plan B Forum
+type: exam
 description: |
-  " Plan ₿ Network Booth Day 1"
+  B Cert
 language:
   - en
 links:
   website: https://planbtest.network/en/events
 tags:
-  - adoption
   - education
+  - proof-of-work
+  - finance

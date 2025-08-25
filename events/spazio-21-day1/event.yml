@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Spazio 21 Day 1
 type: workshop
-description: This a plan B week event
+description: |
+  This a plan B week event
 language:
   - en
 links:

@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Villaggio Bitcoin Paid
 type: workshop
-description: This will be a event for the Plan B Week
+description: |
+  This will be a event for the Plan B Week
 language:
   - en
 links:

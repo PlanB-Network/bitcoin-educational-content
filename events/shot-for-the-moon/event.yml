@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Shot for the moon
 type: meetup
-description: Shot for the moon
+description: |
+  Shot for the moon
 language:
   - en
 links:

@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Info Point
 type: workshop
-description: "New to Bitcoin or don’t know where to start your Bitcoin Lugano
+description: |
+  "New to Bitcoin or don’t know where to start your Bitcoin Lugano
   experience? No problem! Visit our info point at Plan B Expo (via Motta 7/a) to
   ask questions, learn more, and even win prizes along the way! "
 language:

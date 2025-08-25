@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: "Thunderstorm Dinner "
 type: meetup
-description: Presentation in the Patio from 3pm to 4pm then catering to PoS
+description: |
+  Presentation in the Patio from 3pm to 4pm then catering to PoS
 language:
   - en
 links:

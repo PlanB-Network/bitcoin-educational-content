@@ -5,7 +5,8 @@ timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Podcast recording with Knut and  Luc de Wolf
 type: workshop
-description: Podcast recording with Luc de Wolf
+description: |
+  Podcast recording with Luc de Wolf
 language:
   - en
 links:

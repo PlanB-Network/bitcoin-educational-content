@@ -5,38 +5,31 @@ description: Bagaimana cara menambahkan passphrase ke portofolio Trezor saya?
 ![cover](assets/cover.webp)
 
 
-
-passphrase BIP39 merupakan kata sandi opsional yang dikombinasikan dengan frasa Mnemonic, memberikan tambahan keamanan Layer untuk portofolio Bitcoin yang bersifat deterministik dan hirarkis. Dalam tutorial ini, kita akan bersama-sama mengetahui cara mengatur passphrase pada Bitcoin Wallet yang aman di Trezor (Safe 3, Safe 5, dan Model One).
-
+Passphrase BIP39 adalah kata sandi opsional yang digabungkan dengan seedphrase, berfungsi sebagai lapisan keamanan tambahan untuk wallet Bitcoin yang bersifat deterministik dan hierarkis. Dalam tutorial ini, kita bakal bareng-bareng belajar cara mengatur passphrase di Bitcoin Wallet dengan aman pakai Trezor (Safe 3, Safe 5, dan Model One).
 
 
 ![Image](assets/fr/01.webp)
 
-
-
-Sebelum memulai tutorial ini, jika Anda belum terbiasa dengan konsep passphrase, cara kerjanya dan implikasinya terhadap Bitcoin Wallet Anda, saya sangat menyarankan agar Anda membaca artikel teoritis lainnya di mana saya menjelaskan semuanya (ini sangat penting, karena menggunakan passphrase tanpa sepenuhnya memahami cara kerjanya dapat membahayakan bitcoin Anda):
-
-
+Sebelum mulai tutorial ini, kalau kamu belum terbiasa dengan konsep passphrase, cara kerjanya, dan dampaknya terhadap Bitcoin Wallet kamu, aku sangat nyaranin buat baca dulu artikel teori lain di mana aku jelasin semuanya. Ini penting banget, karena pakai passphrase tanpa benar-benar paham cara kerjanya bisa bikin bitcoin kamu dalam bahaya.
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-passphrase pada Trezor ditangani dengan cara klasik jika Anda memilih standar BIP39 selama konfigurasi (yang saya sarankan jika Anda tidak memerlukan *Cadangan Multi-Bagi*). Yang istimewa dari Trezor adalah Anda bisa memasukkan passphrase secara langsung ke Hardware Wallet, atau melalui keyboard komputer Anda menggunakan perangkat lunak Trezor Suite. Pilihan kedua ini jauh lebih tidak aman, karena komputer memiliki permukaan serangan yang jauh lebih besar daripada Hardware Wallet. Akan tetapi, mengetik passphrase yang rumit mungkin lebih cepat pada keyboard konvensional dibandingkan dengan Hardware Wallet, yang dapat mendorong penggunaan kata sandi yang kuat. Jadi selalu lebih baik menggunakan passphrase, bahkan jika harus diketik, daripada tidak menggunakannya sama sekali. Namun demikian, penting untuk tetap waspada terhadap peningkatan risiko serangan numerik yang diimplikasikan oleh hal ini.
+Passphrase di Trezor ditangani dengan cara klasik kalau kamu memilih standar BIP39 saat konfigurasi (dan ini yang aku saranin kalau kamu nggak butuh Multi-share Backup). Keunggulan Trezor adalah kamu bisa masukin passphrase langsung lewat Hardware Wallet, atau lewat keyboard komputer dengan aplikasi Trezor Suite. Pilihan kedua ini jauh lebih nggak aman, karena komputer punya permukaan serangan yang jauh lebih luas dibanding Hardware Wallet. Tapi, ngetik passphrase rumit biasanya memang lebih cepat di keyboard biasa ketimbang di Hardware Wallet, yang kadang bikin orang lebih semangat pakai kata sandi kuat. Jadi, tetap lebih baik pakai passphrase—meskipun harus diketik di komputer—daripada nggak pakai sama sekali. Meski begitu, kamu harus tetap waspada karena cara ini ningkatin risiko serangan brute force.
 
 
 
-Opsi-opsi ini tidak tersedia pada semua perangkat lunak manajemen portofolio yang kompatibel dengan Trezor. Sebagai contoh, untuk Model One, passphrase dapat dimasukkan melalui keyboard pada Sparrow Wallet. Untuk Model T, Model Safe 3 dan Model Safe 5, Anda harus menggunakan Trezor Suite atau memasukkan passphrase secara langsung pada Hardware Wallet, karena opsi untuk memasukkan melalui Sparrow telah dinonaktifkan oleh HWI beberapa tahun yang lalu.
-
+Opsi-opsi ini nggak tersedia di semua software manajemen wallet yang kompatibel sama Trezor. Contohnya, buat Model One, passphrase masih bisa dimasukin lewat keyboard di Sparrow Wallet. Tapi buat Model T, Safe 3, dan Safe 5, kamu harus pakai Trezor Suite atau masukin langsung di Hardware Wallet, soalnya opsi masukin lewat Sparrow udah dinonaktifin sama HWI beberapa tahun lalu.
 
 
 ![Image](assets/fr/02.webp)
 
 
 
-Di Trezor Suite, Anda memiliki dua cara berbeda untuk mengelola permintaan passphrase. Anda dapat mengaktifkan opsi "*passphrase*" di tab "*Perangkat*". Jika diaktifkan, Trezor Suite dan semua perangkat lunak manajemen portofolio lainnya akan secara sistematis meminta Anda untuk memasukkan passphrase setiap kali Anda memulai. Jika anda lebih memilih pendekatan yang lebih bijaksana untuk menggunakan passphrase, anda dapat mempertahankan pengaturan pada "*Standard*". Dalam hal ini, Anda harus mengakses menu Hardware Wallet secara manual di sudut kiri atas, dan klik tombol "*+ passphrase*" setiap kali Anda memulainya.
+Di Trezor Suite, kamu punya dua cara buat ngatur permintaan passphrase. Kamu bisa aktifin opsi "*passphrase*" di tab "*Perangkat*". Kalau ini diaktifin, Trezor Suite dan semua software manajemen wallet lainnya bakal otomatis minta kamu masukin passphrase setiap kali mulai. Kalau kamu lebih milih pendekatan yang lebih fleksibel, biarin aja pengaturannya di "*Standard*". Dalam mode ini, kamu harus masuk ke menu Hardware Wallet secara manual di pojok kiri atas, lalu klik tombol "*+ passphrase*" setiap kali kamu mulai.
 
 
 
-Sebelum memulai tutorial ini, pastikan Anda sudah menginisialisasi Trezor Anda dan membuat frasa Mnemonic. Jika belum, dan Trezor Anda masih baru, ikuti tutorial khusus model yang tersedia di Plan ₿ Network. Setelah Anda menyelesaikan langkah ini, Anda dapat kembali ke tutorial ini.
+Sebelum mulai tutorial ini, pastiin dulu kamu udah inisialisasi Trezor kamu dan bikin seedphrase. Kalau belum, dan Trezor kamu masih baru, ikuti dulu tutorial khusus sesuai model yang ada di Plan ₿ Network. Setelah langkah itu kelar, baru deh kamu balik lagi ke tutorial ini.
 
 
 
@@ -49,39 +42,31 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 ## Menambahkan passphrase ke Safe 3 atau Safe 5
 
-
-
-Setelah Anda membuat Wallet, menyimpan Mnemonic, dan mengatur PIN, Anda akan dibawa ke menu beranda Trezor Suite. Di sudut kiri atas, sebuah jendela akan muncul dan meminta Anda untuk mengaktifkan passphrase BIP39.
-
+Setelah kamu bikin Wallet, nyimpen seedphrase, dan ngatur PIN, kamu bakal dibawa ke menu utama Trezor Suite. Di pojok kiri atas, bakal muncul jendela yang minta kamu buat ngaktifin passphrase BIP39.
 
 
 ![Image](assets/fr/03.webp)
 
 
 
-Jika jendela ini tidak muncul, Anda harus mengaktifkan opsi "*passphrase*" secara manual di tab pengaturan "*Device*".
-
+Kalau jendela itu nggak muncul, kamu perlu ngaktifin opsi "passphrase" secara manual di tab pengaturan "Device".
 
 
 ![Image](assets/fr/04.webp)
 
 
 
-Jendela ini meminta Anda untuk memasukkan passphrase Anda. Pilih passphrase yang kuat dan segera buat cadangan fisik, pada media seperti kertas atau logam. Dalam contoh ini, saya memilih passphrase: `fH3&kL@9mP#2sD5qR!82`. Ini adalah contoh; namun demikian, saya sarankan Anda memilih passphrase yang sedikit lebih panjang. Antara 30 dan 40 karakter akan ideal (seperti kata sandi yang baik).
+Jendela ini bakal minta kamu masukin passphrase. Pilih passphrase yang kuat dan langsung bikin cadangan fisiknya, misalnya ditulis di kertas atau diukir di logam. Di contoh ini, aku pakai passphrase: fH3&kL@9mP#2sD5qR!82. Ini cuma contoh aja; aku saranin kamu pilih passphrase yang lebih panjang. Idealnya antara 30–40 karakter, mirip kayak password kuat pada umumnya.
 
+Tentu aja, jangan pernah bagiin passphrase kamu di Internet kayak yang aku lakuin di tutorial ini. Contoh wallet ini cuma dipakai di Testnet dan bakal dihapus setelah tutorial selesai.
 
-
-tentu saja, Anda tidak boleh membagikan passphrase Anda di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.**_
-
-
-
-Untuk rekomendasi yang lebih spesifik mengenai cara memilih passphrase, saya mengundang Anda sekali lagi untuk membaca artikel lain ini:
+Kalau kamu mau rekomendasi lebih detail tentang cara milih passphrase, aku saranin baca artikel lain ini:
 
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Jika Anda ingin memasukkan passphrase melalui keyboard komputer Anda, masukkan di kolom yang tersedia, lalu klik "*Akses passphrase Wallet*".
+Kalau kamu mau masukin passphrase lewat keyboard komputer, ketik aja di kolom yang tersedia, lalu klik "*Akses passphrase Wallet*".
 
 
 
@@ -89,23 +74,21 @@ Jika Anda ingin memasukkan passphrase melalui keyboard komputer Anda, masukkan d
 
 
 
-Hardware Wallet Anda kemudian akan menampilkan passphrase Anda. Pastikan bahwa cadangan fisik Anda sudah sesuai (kertas atau logam) sebelum mengklik layar untuk melanjutkan.
-
+Hardware Wallet kamu kemudian bakal nampilin passphrase yang udah kamu masukin. Pastikan cadangan fisik kamu (di kertas atau logam) udah benar-benar sesuai sebelum kamu klik layar buat lanjut.
 
 
 ![Image](assets/fr/06.webp)
 
 
 
-Ini akan memberi Anda akses ke portofolio Anda yang dilindungi passphrase.
-
+Ini bakal ngasih kamu akses ke wallet kamu yang udah dilindungi passphrase.
 
 
 ![Image](assets/fr/07.webp)
 
 
 
-Jika anda lebih memilih untuk meningkatkan keamanan dengan memasukkan passphrase anda hanya pada Trezor anda, ketika diminta, klik "*Masukkan passphrase pada Trezor*".
+Kalau kamu lebih milih ningkatin keamanan dengan masukin passphrase langsung di Trezor, saat diminta tinggal klik "*Masukkan passphrase pada Trezor*".
 
 
 
@@ -113,7 +96,7 @@ Jika anda lebih memilih untuk meningkatkan keamanan dengan memasukkan passphrase
 
 
 
-Keyboard T9 akan muncul di Trezor Anda, memungkinkan Anda untuk memasukkan passphrase. Setelah Anda menyelesaikan entri Anda, klik tanda centang Green untuk menerapkan passphrase ke Wallet Anda.
+Keyboard T9 bakal muncul di Trezor kamu, dan dari situ kamu bisa masukin passphrase. Setelah selesai ngetik, klik tanda centang hijau buat nerapin passphrase ke wallet kamu.
 
 
 
@@ -121,7 +104,7 @@ Keyboard T9 akan muncul di Trezor Anda, memungkinkan Anda untuk memasukkan passp
 
 
 
-Anda kemudian akan memiliki akses ke passphrase yang aman Wallet.
+Setelah itu, kamu bakal punya akses ke wallet yang aman dengan passphrase.
 
 
 
@@ -129,11 +112,9 @@ Anda kemudian akan memiliki akses ke passphrase yang aman Wallet.
 
 
 
-Untuk menggunakan Sparrow Wallet, prosedurnya serupa, tetapi untuk model T, Safe 3 dan Safe 5, passphrase harus dimasukkan pada Hardware Wallet dan bukan melalui keyboard komputer.
+Kalau pakai Sparrow Wallet, prosedurnya mirip, tapi khusus untuk Model T, Safe 3, dan Safe 5, passphrase wajib dimasukin lewat Hardware Wallet, bukan lewat keyboard komputer.
 
-
-
-Kapan pun Sparrow Wallet membutuhkan akses ke Trezor Anda, dan passphrase belum diterapkan sejak start-up terakhir, Anda harus memasukinya menggunakan keyboard T9.
+Setiap kali Sparrow Wallet butuh akses ke Trezor kamu, dan passphrase belum diterapin sejak terakhir kali start-up, kamu harus masukin passphrase itu pakai keyboard T9.
 
 
 
@@ -145,15 +126,11 @@ Kapan pun Sparrow Wallet membutuhkan akses ke Trezor Anda, dan passphrase belum 
 
 
 
-Pada Model One, penggunaan passphrase BIP39 hampir tidak dapat dipisahkan. Karena perangkat ini tidak menyertakan Secure Element, maka relatif mudah untuk mengekstrak informasi sensitif. Oleh karena itu, perangkat ini tidak tahan terhadap serangan fisik. Namun, karena passphrase tidak disimpan di perangkat setelah dimatikan, menggunakan passphrase yang kuat (tidak mudah dirusak) dapat melindungi Anda dari sebagian besar serangan fisik yang diketahui pada model ini.
+Di Model One, penggunaan passphrase BIP39 hampir jadi hal wajib. Soalnya perangkat ini nggak punya Secure Element, jadi relatif gampang buat nyedot informasi sensitif. Artinya, perangkat ini nggak tahan sama serangan fisik. Tapi karena passphrase nggak pernah disimpen di perangkat setelah dimatikan, pakai passphrase yang kuat (susah dibobol) bisa ngelindungin kamu dari sebagian besar serangan fisik yang dikenal di model ini.
 
+Di Model One juga nggak ada opsi buat masukin passphrase langsung di Hardware Wallet. Kamu harus masukin lewat keyboard komputer.
 
-
-Pada Model One, tidak memungkinkan untuk memasukkan passphrase secara langsung pada Hardware Wallet. Anda harus memasukkannya melalui keyboard komputer Anda.
-
-
-
-Setelah Anda membuat Wallet, menyimpan Mnemonic, dan mengatur PIN, Anda akan dibawa ke menu beranda Trezor Suite. Di sudut kiri atas, sebuah jendela yang mengundang Anda untuk mengaktifkan passphrase BIP39 akan muncul.
+Setelah kamu bikin Wallet, nyimpen seedphrase, dan ngatur PIN, kamu bakal dibawa ke menu utama Trezor Suite. Di pojok kiri atas, bakal muncul jendela yang ngajak kamu buat ngaktifin passphrase BIP39.
 
 
 
@@ -161,60 +138,49 @@ Setelah Anda membuat Wallet, menyimpan Mnemonic, dan mengatur PIN, Anda akan dib
 
 
 
-Jika jendela ini tidak muncul, Anda harus mengaktifkan opsi "*passphrase*" di tab "*Device*" pada pengaturan.
-
+Kalau jendela itu nggak muncul, kamu perlu ngaktifin opsi "*passphrase*" di tab "*Device*" pada menu pengaturan.
 
 
 ![Image](assets/fr/13.webp)
 
 
 
-Jendela ini meminta Anda untuk memasukkan passphrase Anda. Pilih passphrase yang kuat dan segera buat cadangan fisik, pada media seperti kertas atau logam. Dalam contoh ini, saya memilih passphrase: `fH3&kL@9mP#2sD5qR!82`. Ini hanya sebuah contoh; namun demikian, saya sarankan Anda memilih passphrase yang sedikit lebih panjang. Antara 30 dan 40 karakter akan ideal (seperti kata sandi yang baik).
+Jendela ini bakal minta kamu masukin passphrase. Pilih passphrase yang kuat dan langsung bikin cadangan fisiknya, misalnya ditulis di kertas atau diukir di logam. Di contoh ini, aku pakai passphrase: fH3&kL@9mP#2sD5qR!82. Ini cuma contoh aja; aku saranin kamu pilih passphrase yang lebih panjang, idealnya 30–40 karakter, biar setara sama password kuat yang bagus.
 
-
-
-Untuk rekomendasi yang lebih spesifik mengenai cara memilih passphrase, saya mengundang Anda untuk membaca artikel lain ini:
-
+Kalau kamu mau rekomendasi lebih detail soal cara milih passphrase, aku saranin kamu baca artikel lain ini:
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Masukkan passphrase Anda pada kolom yang tersedia, lalu klik tombol "*Akses passphrase Wallet*".
-
+Masukin passphrase kamu ke kolom yang tersedia, lalu klik tombol "*Akses passphrase Wallet*".
 
 
 ![Image](assets/fr/14.webp)
 
-
-
-Hardware Wallet Anda akan menampilkan passphrase Anda. Pastikan bahwa data tersebut cocok dengan cadangan fisik Anda (kertas atau logam), lalu klik tombol sebelah kanan untuk melanjutkan.
-
-
+Hardware Wallet kamu bakal nampilin passphrase kamu. Pastikan datanya cocok sama cadangan fisik kamu (kertas atau logam), lalu klik tombol kanan buat lanjut.
 
 ![Image](assets/fr/15.webp)
 
 
 
-Ini akan membawa Anda ke portofolio Anda yang dilindungi passphrase.
-
+Ini bakal ngebawa kamu ke wallet kamu yang udah dilindungi passphrase.
 
 
 ![Image](assets/fr/16.webp)
 
 
 
-Untuk menggunakan Sparrow Wallet setelahnya, prosedurnya tetap sama. Setiap kali Sparrow memerlukan akses ke Hardware Wallet Anda, dan passphrase belum dimasukkan sejak perangkat terakhir kali dinyalakan, Anda harus memasukkannya.
-
+Kalau mau pakai Sparrow Wallet setelahnya, prosedurnya tetap sama. Setiap kali Sparrow butuh akses ke Hardware Wallet kamu, dan passphrase belum dimasukin sejak terakhir kali perangkat dinyalain, kamu harus masukin lagi.
 
 
 ![Image](assets/fr/17.webp)
 
 
 
-Selamat, Anda sekarang sudah siap untuk menggunakan passphrase BIP39 pada dompet perangkat keras Trezor. Jika Anda ingin meningkatkan keamanan Wallet Anda selangkah lebih maju, lihat tutorial tentang sistem cadangan *Multi-share* Trezor (*Skema Berbagi Rahasia Shamir):
+Selamat, sekarang kamu udah siap pakai passphrase BIP39 di hardware wallet Trezor. Kalau kamu mau ningkatin keamanan wallet kamu ke level berikutnya, cek juga tutorial tentang sistem cadangan Multi-share Trezor (Shamir’s Secret Sharing).
 
 
 
 https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan berterima kasih jika Anda memberikan jempol Green di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
+Kalau kamu ngerasa tutorial ini bermanfaat, aku bakal seneng banget kalau kamu kasih jempol hijau di bawah. Jangan ragu juga buat share artikel ini di sosial media kamu. Makasih banyak!

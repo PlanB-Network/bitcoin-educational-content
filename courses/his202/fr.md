@@ -354,7 +354,7 @@ C'est ainsi qu'elle subit un piratage massif à partir du 16 juin. Un pirate (pe
 
 <!-- Le 17 juin, le pirate [annonce](https://web.archive.org/web/20110619054549/http://pastebin.com/xhnNdvte) vendre la base de données de Mt. Gox sur Pastebin. Il signe son message du pseudonyme cRazIeStinGeR. -->
 
-Toutefois, le dimanche 19 juin, la réalité rattrappe Mark. Vers 17 heures, le pirate parvient à accéder au compte de Jed McCaleb, qui contient beaucoup de fonds. Puisque la limite de retrait journalière est de 1 000 $, il cherche à faire baisser le prix le plus possible afin de retirer un maximum de bitcoins, et se met donc à vendre les bitcoins sur le compte. Cette opération provoque un krach éclair (*flash crash*) : le prix, qui stationnait autour des 17,5 $ dans la journée, baisse progressivement puis chute jusqu'à 0,01 $ à 17:51 UTC. Le pirate réussit à dérober ainsi 2 000 BTC.
+Toutefois, le dimanche 19 juin, la réalité rattrappe Mark. Vers 17 heures, le pirate parvient à accéder au compte de Jed McCaleb, qui contient beaucoup de fonds. Puisque la limite de retrait journalière est de 1 000 $, il cherche à faire baisser le prix le plus possible afin de retirer un maximum de bitcoins, et se met donc à vendre les bitcoins sur le compte. Cette opération provoque un krach éclair (*flash crash*) : le prix, qui stationnait autour des 17,5 $ dans la journée, baisse progressivement puis chute jusqu'à 0,01 $ à 17:51 UTC. Le pirate réussit à dérober ainsi 2 000 BTC, soit 35 000 $ au cours en vigueur.
 
 ![Bitcoin Report Volume 8](https://www.youtube.com/watch?v=T1X6qQt9ONg)
 
@@ -390,7 +390,7 @@ Les plateformes concurrentes mettent aussi une solution de double authentificati
 
 Lors de l'été 2011, la plupart des nouveaux utilisateurs optent pour MyBitcoin, l'application dépositaire permettant de gérer des bitcoins sans avoir à se soucier de faire fonctionner un logiciel complexe. Elle est disponible en ligne sous la forme d'une interface web, et il faut disposer d'un simple mot de passe pour accéder à un compte. L'application est [mise en avant](https://www.youtube.com/watch?v=ejiqbzqmxSE) par les [tutoriels](https://web.archive.org/web/20110613053345/http://bitcoinme.com/index.php/accept) de l'époque comme solution simple de recevoir des bitcoins. Bruce Wagner la [présente](https://web.archive.org/web/20110424221921/http://www.bitcoinme.com/) sur son site Bitcoinme.com comme un moyen « très rapide et facile de commencer à utiliser Bitcoin » (original: "super fast and easy to get started with using Bitcoin"). L'utilisation est si simple que beaucoup de gens ne suivent pas le [conseil de Satoshi](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) de juste conserver de la « petite monnaie » sur l'application, et s'en servent comme un compte d'épargne.
 
-Dans les jours qui suivent le 19 juin, MyBitcoin subit les conséquences de la fuite de données de Mt. Gox. Des personnes malintentionnées accèdent à de nombreux comptes appartenant à des personnes ayant un mot de passe faible réutilisé sur Mt. Gox (ce qui arrive aussi pour [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714) ou [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s)). Par exemple, [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), le membre du forum qui avait poussé l'EFF à accepter le bitcoin en 2010, perd l'intégralité de ses fonds. Le 25 juin, Tom Williams, le président anonyme de MyBitcoin, [explique](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) que 1 % des utilisateurs présents dans la fuite de données de Mt. Gox ont été touchés et que 4 019 bitcoins ont été volés.
+Dans les jours qui suivent le 19 juin, MyBitcoin subit les conséquences de la fuite de données de Mt. Gox. Des personnes malintentionnées accèdent à de nombreux comptes appartenant à des personnes ayant un mot de passe faible réutilisé sur Mt. Gox (ce qui arrive aussi pour [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714) ou [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s)). Par exemple, [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), le membre du forum qui avait poussé l'EFF à accepter le bitcoin en 2010, perd l'intégralité de ses fonds. Le 25 juin, Tom Williams, le président anonyme de MyBitcoin, [explique](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) que 1 % des utilisateurs présents dans la fuite de données de Mt. Gox ont été touchés et que 4 019 bitcoins ont été volés, soit 70 000 $.
 
 Toutefois, les déboires de l'application ne s'arrêtent pas là. Le 29 juillet, MyBitcoin connait une fermeture soudaine. Près de 78 740 bitcoins manquent à l'appel sur le portefeuille lié à l'application, un montant équivalent à plus d'un millions de dollars à ce moment-là et correspondant à 51 % des fonds présents sur les comptes des clients, ce qui contraint le service à rembourser le reste et à disparaître. Même si MyBitcoin [invoque](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) un piratage, des [éléments](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) laissent à penser que son fondateur anonyme, Tom Williams, est à l'origine du vol.
 
@@ -408,9 +408,13 @@ En parallèle, la plateforme polonaise Bitomat rencontre un problème majeur. Le
 
 Pour éviter de flouer ses clients, l'administrateur propose de vendre la plateforme pour 17 000 BTC. Cela intéresse Mark Karpelès, qui pourrait alors bénéficier du marché polonais. Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy"). Mais cela a pour conséquence de rajouter 17 000 BTC au passif de Mt. Gox.
 
+À cela s'ajoutera une mauvaise manipulation en octobre 2011, témoignant de l'amateurisme de Mark...
+
+- October 2011 Mt. Gox Loss, 2609.36304319 BTC: https://bitcointalk.org/index.php?topic=83794.msg923918#post_toc_27
+
 ### Une croissance fragile
 
-Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image de l'écosystème, la plateforme a connu un succès florrissant dans la première moitié de l'année 2011. Sous la direction de Mark Karpelès, elle a acquis une nouvelle dimension. Celui-ci a ouvert des bureaux et embauché un employé.
+Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image de l'écosystème, la plateforme a connu un succès florissant dans la première moitié de l'année 2011. Sous la direction de Mark Karpelès, elle a acquis une nouvelle dimension. Celui-ci a ouvert des bureaux et embauché un employé.
 
 Toutefois, cette croissance fulgurante cachait une grande fragilité. La plateforme Mt. Gox a subi plusieurs piratages durant cette période, ce qui fait qu'elle a accumulé les pertes au fil des mois : plus d'une centaine de milliers de bitcoins manquaient à l'appel à la fin de l'été. Cela présageait une chute abrupte. Mais Mt. Gox allait d'abord devenir une plateforme énorme en l'espace de deux ans et demi.
 
@@ -1724,25 +1728,77 @@ Bitcoin a ainsi été une monnaie du vice. Outre le trafic de drogue, il s'est r
 
 Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : elle était également la monnaie idéale pour le crime sur Internet. On a ainsi vu un certain nombre de piratages et de vols en tous genres se produire en 2012. C'est le sujet du prochain chapitre.
 
-## La monnaie du crime : arnaques et piratages
+## La monnaie du crime : les piratages et les arnaques
 
 En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été créée sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
 
 [26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
-### Le piratage de Linode
+List of events by USD equivalent of mBTC at time of theft:
 
-Cybercrime : ex : Bitcoin botnet mining ([17/06/2011](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)) par ZeuS (voir [rapport du FBI](https://cryptome.org/2012/05/fbi-bitcoin.pdf)), ou infection d'utilisateurs individuels ; mais le plus rentable est le piratage des platefromes de change, qui conservent de grandes quantités de bitcoins.
+1. **ici** Bitcoin Savings & Trust (1834303 $)
+2. **avant** MyBitcoin Theft (1110544 $)
+3. **avant** Allinvain Theft (502750.20 $)
+4. **ici** July 2012 Bitcoinica Theft (305200 $)
+5. **ici** Bitfloor Theft (248088 $)
+6. **ici** Linode Hacks (230468 $)
+7. **avant** Bitomat.pl Loss (236000 $)
+8. **ici** Tony Silk Road Scam (150000 $)
+9. **avant** Stefan Thomas Loss (128000 $)
+10. **après/ignoré** Just-Dice.com Incident (121000 $)
+11. **ignoré** Cdecker Theft (113894 $) Sept 2012
+12. **ici** May 2012 Bitcoinica Hack (91306.46 $)
+13. **après** BTCGuild Incident (58737 $)
+14. **après** Bit LC Theft (51000 $)
+15. **ignoré (scam?)** Bitcoin7 Hack (50000 $)
+16. **avant** June 2011 Mt. Gox Incident (46970.91 $)
+17. **ici** BTC-E Hack (42000 $) July 2012
+18. **après/ignoré: utilisateurs individuels** 2012 Trojan (38000 $) Oct. 2012
+19. **avant** Mooncoin Theft (24000 $)
+20. **ici** Betcoin Theft (15509 $)
+21. **ignoré: utilisateur individuel** Bitcoin Syndicate Theft (12134.61 $)
+22. **avant** Ubitex Scam (11668.70 $)
+23. Andrew Nollan Scam (10978 $)
+24. **après** October 2011 Mt. Gox Loss (8115.12 $) amateurisme de Mark Karpelès
+25. Bitscalper Scam (5000 $)
 
-**Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush (3 000 BTC) et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
+List of Hacked Exchanges, since 2011: https://bitcointalk.org/index.php?topic=5090869.0
 
-Bitcoinica perd 43 000 bitcoins dans le piratage de Linode (1/3/2012) https://bitcoinmagazine.com/business/the-bitcoinica-linode-theft-and-what-it-means-for-bitcoin-1330805009
+### Les piratages de Linode et de Betco.in
 
-**betco.in** 11 avril 2012, 3171,5 BTC https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855 https://betco.in/
+Le cybercrime lié à Bitcoin s'est développé dès 2011. L'été 2011 a en particulier été chaud, avec l'infection de l'ordinateur de l'utilisateur Allinvain (25 000 BTC, soit 500 000 $), le piratage de Mt. Gox et ses répercussions (au moins 6019 BTC, soit 105 000 $), et le vol de MyBitcoin (78 740 BTC, soit 1 000 000 $), qu'il soit interne ou externe. On peut aussi citer le minage de bitcoins par des machines zombies (généralement infectées par le trojan GameOver ZeuS), qui est initialement [apparu](https://cryptome.org/2012/05/fbi-bitcoin.pdf) durant cette période ; ce n'était [pas très rentable](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)), mais ce type de pratique préfigurait le rançongiciel Cryptolocker de 2013.
+
+En 2012, le cryptocrime prend une tout autre ampleur.
+
+Le premier évènement est le piratage du service d'hébergement Linode. Le 1er mars, un pirate [accède](https://web.archive.org/web/20120302143922/http://status.linode.com/2012/03/manager-security-incident.html) au portail du service client de l'entreprise et prend le contrôle de huit comptes, ayant tous une relation avec Bitcoin. En accédant au portefeuille courant hébergé sur les serveurs de Linode, il parvient à s'emparer des bitcoins des clients concernés.
+
+Parmi ces clients se trouve la plateforme de trading Bitcoinica, gérée par le jeune Chinois Zhou Tong. Elle [perd](https://bitcointalk.org/index.php?topic=66979.msg778578#msg778578) 43 554 bitcoins, soit plus de 210 000 dollars. Toutefois, la plateforme reste solvable grâce à l'argent des investisseurs.
+
+Le pirate [met aussi la main](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) sur 3 094 bitcoins appartenant à la coopérative de minage de Slush, qui représentent alors plus de 15 000 $. Ces bitcoins, présents sur le portefeuille chaud, étaient prêts à être versés aux hacheurs de la coopératives. Slush couvre personnellement la perte.
+
+Enfin, le troisième concerné est le *Bitcoin faucet* de Gavin Andresen. Le service [perd](https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html) uniquement 5 BTC (environ 25 $), mais cet incident poussera Gavin à vouloir en améliorer la sécurité, ce qui le conduira à le [fermer](https://web.archive.org/web/20121005191343/https://freebitcoins.appspot.com/) « pour maintenance » (original: "closed for maintenance") quelques mois plus tard.
+
+Un mois plus tard, c'est au tour de la plateforme de poker en ligne Betco.in, gérée par Pavel Karoukin depuis 2010, de se faire pirater. Le 11 avril, tout l'argent conservé sur le serveur et sur l'ordinateur personnel de Pavel [est siphonné](https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855) le 11 avril : 3 171 bitcoins au total, soit près de 16 000 $. Il est par conséquent [contraint](https://bitcointalk.org/index.php?topic=82100.msg904821#msg904821) de fermer les portes de son service et de le mettre en vente, après avoir remboursé les utilisateurs au mieux.
+
+### L'arnaque de Tony76
+
+https://eileenormsby.com/2012/05/30/the-great-420-scam/
+
+Tony76 : vendeur canadien
+
+Le système de réputation de Silk Road n'est pas parfait. dépôt fiduciaire, mais finalisation/clôture anticipée
+
+20 avril (ou 4/20 en format américain), date emblématique pour la consommation de cannabis
 
 ### La chute de Bitcoinica
 
 Bitcoinica a perdu 43 000 bitcoins dans le piratage de Linode
+
+Article JDC: Lorsqu’il crée Bitcoinica en 2011, Zhou Tong n’a que 17 ans et est encore considéré comme mineur dans la plupart des pays du monde. Lorsqu’un investisseur, vraisemblement le Wenden Group, le contacte pour racheter la plateforme, c’est tout naturellement qu’il accepte, pour des « préoccupations réglementaires » selon ses propres dires. La vente a lieu en janvier 2012 « pour un bon prix » selon lui. Zhou Tong continuera néanmoins de gérer la plateforme, avec l’aide d’autres personnes. \[...\] Heureusement, l’investisseur ayant repris Bitcoinica quelques mois plus tôt couvre la perte, pensant que les futurs profits la compenseront. Le 22 mars, la plateforme tente de se professionaliser et l’entreprise Bitcoinica LP est enregistrée comme fournisseur de services financier auprès des autorités néo-zélandaises. En outre, une seconde entreprise, du nom de Bitcoinica Consultancy Ltd., est formée afin d’enquêter sur le piratage et suivre les fonds perdus.
+
+
+
+
 
 **Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
 
@@ -1760,7 +1816,11 @@ TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https:
 
 Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.php?topic=119745.0 ; Raphael Nicolle, technicien informatique français
 
+- Piratage de BTC-e, environ 4500 BTC : https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
+
 ### La première pyramide de Ponzi : Bitcoin Savings & Trust
+
+17 août 2012
 
 **L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40, pirate@40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
 
@@ -1770,11 +1830,15 @@ Annonce, nov. 2011 : https://bitcointalk.org/index.php?topic=50822.msg607752#ms
 
 Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
 
+Bitcoin Rain, , ouverture le [10/10/2011](https://bitcointalk.org/index.php?topic=46750.msg556437#msg556437), « piratage » le [28/03/2013](https://bitcointalk.org/index.php?topic=160150.msg1692929#msg1692929)
+
+Jorge Stolfi : https://bitcointalk.org/index.php?topic=178336.msg11470642#msg11470642
+
 ### Le piratage de BitFloor
 
 BitFloor, Roman Shtylman, New-Yorkais de 25 ans, *Bitcoin Show* : https://www.youtube.com/watch?v=F7SsavHX6tc ; service de dépôt en espèces : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
 
-https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Business (MSB) aurpès du FinCEN, 15 mars 2012
+https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Business (MSB) auprès du FinCEN, 15 mars 2012
 
 4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
 
@@ -1783,6 +1847,10 @@ https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Busine
 ### Le déclin du Far West
 
 "This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin’s community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)
+
+La tendance ne s'est pas arrêtée et a poursuivi sur sa lancée en 2013, pour culminer en février 2014 avec la faillite de Mt. Gox. Cela a poussé les plateformes a améliorer leur sécurité. Ce qui n'a pas empêcher d'autres piratages de se produire.
+
+Le rapport du FBI. https://www.wired.com/2012/05/fbi-fears-bitcoin/ https://cryptome.org/2012/05/fbi-bitcoin.pdf
 
 À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
 

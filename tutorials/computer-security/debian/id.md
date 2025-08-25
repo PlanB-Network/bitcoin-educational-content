@@ -103,250 +103,126 @@ Pilih zona geografis Anda untuk mengatur tanggal dan waktu secara otomatis.
 
 ![timezone](assets/fr/07.webp)
 
+- Tata letak keyboard
 
-
-
-
-- Tata letak papan ketik
-
-
-
-Pilih bahasa dan tata letak keyboard Anda. Gunakan bidang uji bawaan untuk memeriksa apakah setiap tombol menghasilkan karakter yang diharapkan.
-
-
+Pilih bahasa dan tata letak keyboard Anda. Gunakan tampilan uji default untuk memeriksa apakah setiap tombol menghasilkan karakter yang diharapkan.
 
 ![keyboard](assets/fr/08.webp)
 
-
-
 ### Partisi disk
 
-
-
-
-
-- Hapus disk**: jika Anda memiliki partisi khusus, opsi ini akan menghapus semua isinya.
-- Pemartisian manual**: pilih opsi ini untuk membuat, mengubah ukuran, atau menghapus partisi sesuai kebutuhan.
-
-
+- **Hapus disk**: jika Anda memiliki partisi khusus, opsi ini akan menghapus semua isinya.
+- **Pemartisian manual**: pilih opsi ini untuk membuat, mengubah ukuran, atau menghapus partisi sesuai kebutuhan.
 
 ![disk](assets/fr/09.webp)
 
-
-
-
-
 - Membuat akun pengguna
-
-
 
 Masukkan nama lengkap, nama akun, dan kata sandi yang kuat untuk memastikan sesi Anda aman.
 
-
-
 ![user](assets/fr/10.webp)
 
+- **Ringkasan parameter**
 
-
-
-
-- Ringkasan parameter ** Rangkuman parameter
-
-
-
-Ringkasan pilihan Anda akan ditampilkan: centang setiap item dan kembali untuk memodifikasi jika perlu.
-
-
+Ringkasan pilihan Anda akan ditampilkan: periksa setiap item dan kembali untuk memodifikasi jika perlu.
 
 ![settings](assets/fr/11.webp)
 
+- **Menjalankan penginstalan**
 
-
-
-
-- Meluncurkan penginstalan
-
-
-
-Klik **Instalasi** untuk mulai menyalin file dan mengkonfigurasi sistem, lalu tunggu hingga prosesnya selesai.
-
-
+Klik **Install** untuk mulai menyalin file dan mengkonfigurasi sistem, lalu tunggu hingga prosesnya selesai.
 
 ![install](assets/fr/12.webp)
 
-
-
-
-
-- Mulai ulang**
-
-
+- **Mulai ulang**
 
 Setelah instalasi selesai, boot ulang komputer untuk menerapkan semua konfigurasi dan mengakses sistem Debian baru Anda.
 
-
-
 ![restart](assets/fr/13.webp)
 
-
-
-Saat pengaktifan, masukkan nama pengguna dan kata sandi untuk mengakses sistem.
-
-
+Saat startup sistem, masukkan nama pengguna dan kata sandi untuk mengakses sistem.
 
 ![login](assets/fr/14.webp)
 
-
-
 ## Pembaruan sistem
 
-
-
-Sebelum Anda mulai menggunakan sistem Anda, sangat penting untuk memperbaruinya. Hal ini memungkinkan Anda untuk mendapatkan manfaat dari tambalan perangkat lunak terbaru, repositori terbaru, dan dalam beberapa kasus, tambalan keamanan untuk sistem operasi itu sendiri.
-
-
+Sebelum Anda mulai menggunakan sistem Anda, penting untuk memperbarui sistem tersebut. Ini memungkinkan Anda mendapatkan manfaat dari patch perangkat lunak terbaru, repositori terkini, dan dalam beberapa kasus, patch keamanan untuk sistem operasi itu sendiri.
 
 ### Opsi 1: Memperbarui melalui grafis Interface (GNOME)
 
-
-
 Jika Anda telah menginstal Debian dengan lingkungan desktop GNOME, Anda dapat melakukan pembaruan secara grafis. Untuk melakukannya, buka aplikasi **Software**, lalu buka tab **Updates**. Kemudian klik **Restart and update** untuk memulai proses.
-
-
 
 ### Opsi 2: Memperbarui melalui terminal (disarankan)
 
-
-
 Metode ini menawarkan kontrol yang lebih lengkap. Metode ini memungkinkan Anda memperbarui repositori, paket perangkat lunak, dan, jika perlu, kernel.
-
-
-
 
 - Buka terminal dengan menggunakan pintasan `Ctrl + Alt + T`.
 - Perbarui daftar paket yang tersedia dengan perintah berikut:
-
-
 
 ```shell
 sudo apt update
 ```
 
-
-
 Masukkan kata sandi Anda saat diminta (perhatikan bahwa tidak ada karakter yang akan ditampilkan saat Anda mengetik - ini normal).
 
-
-
-
-
 - Untuk menginstal pembaruan yang tersedia :
-
-
 
 ```shell
 sudo apt full-upgrade
 ```
 
-
-
-## Temukan tugas-tugas dasar
-
-
+## Mencoba penggunaan dasar
 
 ### Menjelajahi Internet
 
-
-
-Peramban web default pada Debian adalah **Firefox**. Jika Anda lebih suka peramban lain, Anda dapat menginstal peramban lain, asalkan tersedia di repositori Debian (seperti Chromium, Brave...).
-
-
+Browser web default pada Debian adalah **Firefox**. Jika Anda lebih suka browser lain, Anda dapat menginstal browser lain, asalkan tersedia di repositori Debian (seperti Chromium, Brave...).
 
 ### Pengolah kata
 
-
-
 Paket **LibreOffice** terinstal secara default pada Debian.
-
-
-
-
 
 - Untuk menulis dokumen, gunakan **LibreOffice Writer**, yang setara dengan Microsoft Word.
 - Untuk spreadsheet, **LibreOffice Calc** bertindak sebagai alternatif untuk Excel.
 - Terakhir, **LibreOffice Impress** memungkinkan Anda membuat presentasi, seperti halnya PowerPoint.
 
-
-
 ## Menginstal aplikasi
-
-
 
 Ada dua cara untuk menginstal aplikasi pada Debian:
 
-
-
 ### Metode grafis :
-
-
 
 Anda dapat menggunakan **software manager** (dapat diakses melalui Interface grafis) untuk mencari dan menginstal aplikasi dengan mudah.
 
-
-
 ### Metode baris perintah :
 
-
-
 Jika aplikasi yang Anda cari tidak muncul di Interface grafis, atau jika Anda lebih suka terminal, gunakan perintah berikut:
-
-
 
 ```shell
 sudo apt install <name>
 ```
 
-
-
 Ganti `<nama>` dengan nama paket. Misalnya, untuk menginstal `curl` :
-
-
 
 ```shell
 sudo apt install curl
 ```
 
-
-
 ### Menginstal paket yang diunduh secara manual :
 
-
-
 Jika Anda telah mengunduh file `.deb` (paket Debian), Anda dapat menginstalnya dengan perintah berikut:
-
-
 
 ```shell
 sudo apt install ./name.deb
 ```
 
-
-
 https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Sistem Debian Anda sekarang telah terinstal dan siap digunakan untuk tugas sehari-hari.
 
-
 Berkat lingkungan desktop **GNOME**, Anda dapat mengakses berbagai macam aplikasi melalui Interface grafis yang mudah digunakan, ideal untuk pemula dan pengguna tingkat lanjut.
-
-
 
 Anda juga dapat mengubah lingkungan desktop Anda (misalnya ke XFCE, KDE, dll.) tanpa harus menginstal ulang Debian. Untuk melakukannya, cukup gunakan terminal dan instal lingkungan baru pilihan Anda.
 
-
-
 Untuk mempelajari lebih lanjut tentang Debian, dan secara umum tentang distribusi GNU/Linux, saya sarankan Anda untuk membaca kursus ini:
-
-
 
 https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

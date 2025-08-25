@@ -302,7 +302,7 @@ L'intestazione di un pacchetto IP è una struttura di dati essenziale, suddivisa
 Il primo campo dell'intestazione si chiama Versione. Questo valore di 4 bit specifica quale versione del protocollo IP segue il pacchetto. È importante perché indica a ciascun router o dispositivo intermedio come interpretare e gestire i dati incapsulati.
 
 
-**Nota: la gestione e il Assignment delle versioni del protocollo IP sono gestiti da **IANA**. Un campo di 4 bit consente 16 combinazioni binarie (valori da 0 a 15). Gli attuali Assignment sono:
+**Nota**: la gestione e l’assegnazione delle versioni dei protocolli IP rientrano nelle competenze dello **IANA**. Un campo a 4 bit consente 16 combinazioni binarie (valori da 0 a 15). Ad oggi, la loro assegnazione è la seguente:
 
 
 

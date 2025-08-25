@@ -302,7 +302,7 @@ Kichwa cha pakiti ya IP ni muundo muhimu wa data, umegawanywa katika sehemu kadh
 Sehemu ya kwanza kabisa kwenye kichwa inaitwa Toleo. Thamani hii ya 4-bit inabainisha ni toleo gani la itifaki ya IP ambalo pakiti inafuata. Ni muhimu kwa sababu inaambia kila kipanga njia au kifaa cha kati jinsi ya kutafsiri na kushughulikia data iliyoambatanishwa.
 
 
-**Kumbuka: usimamizi na Assignment wa matoleo ya itifaki ya IP hushughulikiwa na **IANA**. Sehemu ya 4-bit inaruhusu mchanganyiko 16 wa binary (thamani 0 hadi 15). Assignment yao ya sasa ni:
+**Kumbuka**: Usimamizi na ugawaji wa matoleo ya itifaki za IP uko chini ya **IANA**. Sehemu ya biti 4 inaruhusu mchanganyiko wa tarakimu 16 (thamani 0 hadi 15). Hadi sasa, ugawaji wao ni kama ifuatavyo:
 
 
 

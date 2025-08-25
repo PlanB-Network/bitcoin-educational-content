@@ -302,7 +302,7 @@ Zaglavlje IP paketa je suštinska struktura podataka, podeljena na nekoliko polj
 Prvo polje u zaglavlju naziva se Verzija. Ova 4-bitna vrednost određuje koju verziju IP protokola paket prati. To je važno jer govori svakom ruteru ili međuprostornom uređaju kako da interpretira i obradi enkapsulirane podatke.
 
 
-**Napomena: upravljanje i Assignment verzijama IP protokola rukuje **IANA**. Polje od 4 bita omogućava 16 binarnih kombinacija (vrednosti od 0 do 15). Njihovi trenutni Assignment su:
+**Napomena**: Upravljanje i dodela verzija IP protokola spada pod nadležnost **IANA**. Polje od 4 bita omogućava 16 binarnih kombinacija (vrednosti 0 do 15). Do danas, njihova dodela je sledeća:
 
 
 

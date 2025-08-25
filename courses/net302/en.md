@@ -216,7 +216,7 @@ The header of an IP packet is an essential data structure, divided into several 
 
 The very first field in the header is called Version. This 4-bit value specifies which version of the IP protocol the packet follows. It's important because it tells each router or intermediate device how to interpret and handle the encapsulated data.
 
-**Note: the management and assignment of IP protocol versions is handled by **IANA**. A 4-bit field allows for 16 binary combinations (values 0 to 15). Their current assignment are:
+**Note**: The management and assignment of IP protocol versions is under the responsibility of **IANA**. A 4-bit field allows for 16 binary combinations (values 0 to 15). As of today, their assignment is as follows:
 
 
 | Version Number | Protocol   | Version Description         | Reference               |

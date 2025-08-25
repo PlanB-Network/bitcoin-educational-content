@@ -302,7 +302,7 @@ De header van een IP pakket is een essentiële gegevensstructuur, verdeeld in ve
 Het allereerste veld in de header heet Version. Deze 4-bits waarde geeft aan welke versie van het IP-protocol het pakket volgt. Het is belangrijk omdat het elke router of tussenliggend apparaat vertelt hoe de ingekapselde gegevens moeten worden geïnterpreteerd en behandeld.
 
 
-**Noot: het beheer en Assignment van IP-protocolversies wordt afgehandeld door **IANA**. Een 4-bits veld laat 16 binaire combinaties toe (waarden 0 tot 15). De huidige Assignment zijn:
+**Opmerking**: Het beheer en de toewijzing van IP-protocolversies vallen onder de verantwoordelijkheid van **IANA**. Een 4-bits veld maakt 16 binaire combinaties mogelijk (waarden 0 tot 15). Tot op heden is hun toewijzing als volgt:
 
 
 

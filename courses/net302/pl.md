@@ -302,7 +302,7 @@ Nagłówek pakietu IP jest istotną strukturą danych, podzieloną na kilka pól
 Pierwsze pole w nagłówku nosi nazwę Version. Ta 4-bitowa wartość określa wersję protokołu IP, której używa pakiet. Jest to ważne, ponieważ mówi każdemu routerowi lub urządzeniu pośredniczącemu, jak interpretować i obsługiwać hermetyzowane dane.
 
 
-**Uwaga: zarządzanie i Assignment wersji protokołu IP jest obsługiwane przez **IANA**. 4-bitowe pole pozwala na 16 kombinacji binarnych (wartości od 0 do 15). Ich obecne Assignment to:
+**Uwaga**: Zarządzanie i przypisywanie wersji protokołów IP należy do **IANA**. Pole 4-bitowe pozwala na 16 kombinacji binarnych (wartości od 0 do 15). Na dzień dzisiejszy ich przypisanie wygląda następująco:
 
 
 

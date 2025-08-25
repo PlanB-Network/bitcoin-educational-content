@@ -302,7 +302,7 @@ La cabecera de un paquete IP es una estructura de datos esencial, dividida en va
 El primer campo de la cabecera se denomina Versión. Este valor de 4 bits especifica qué versión del protocolo IP sigue el paquete. Es importante porque indica a cada enrutador o dispositivo intermedio cómo interpretar y manejar los datos encapsulados.
 
 
-**Nota: la gestión y Assignment de las versiones del protocolo IP son gestionadas por **IANA**. Un campo de 4 bits permite 16 combinaciones binarias (valores de 0 a 15). Sus Assignment actuales son:
+**Nota**: La gestión y asignación de las versiones de protocolos IP corresponde a la **IANA**. Un campo de 4 bits permite 16 combinaciones binarias (valores de 0 a 15). A día de hoy, su asignación es la siguiente:
 
 
 

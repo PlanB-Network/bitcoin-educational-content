@@ -302,7 +302,7 @@ Headern i ett IP-paket är en viktig datastruktur som är indelad i flera fält,
 Det allra första fältet i rubriken heter Version. Detta 4-bitarsvärde anger vilken version av IP-protokollet som paketet följer. Det är viktigt eftersom det talar om för varje router eller mellanliggande enhet hur de ska tolka och hantera de inkapslade data.
 
 
-**Notera: Hanteringen och Assignment av IP-protokollversioner hanteras av **IANA**. Ett 4-bitarsfält ger möjlighet till 16 binära kombinationer (värdena 0 till 15). Deras nuvarande Assignment är:
+**Observera**: Hantering och tilldelning av IP-protokollversioner faller under **IANA**. Ett 4-bitars fält möjliggör 16 binära kombinationer (värden 0 till 15). Hittills är deras tilldelning följande:
 
 
 

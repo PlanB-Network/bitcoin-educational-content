@@ -302,7 +302,7 @@ IP-paketin otsikko on olennainen tietorakenne, joka on jaettu useisiin kenttiin,
 Otsikon ensimmäinen kenttä on nimeltään Version. Tämä 4-bittinen arvo määrittää, mitä IP-protokollan versiota paketti noudattaa. Se on tärkeä, koska se kertoo kullekin reitittimelle tai välilaitteelle, miten kapseloitua dataa on tulkittava ja käsiteltävä.
 
 
-**Huomaa: IP-protokollaversioiden hallinnoinnista ja Assignment:stä huolehtii **IANA**. 4-bittinen kenttä mahdollistaa 16 binääriyhdistelmää (arvot 0-15). Niiden nykyiset Assignment ovat:
+**Huomautus**: IP-protokollien versioiden hallinnasta ja jakamisesta vastaa **IANA**. 4-bittinen kenttä mahdollistaa 16 binaariyhdistelmää (arvot 0–15). Tähän päivään mennessä niiden jakautuminen on seuraava:
 
 
 

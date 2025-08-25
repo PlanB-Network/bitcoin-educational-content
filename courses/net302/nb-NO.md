@@ -302,7 +302,7 @@ Headeren i en IP-pakke er en viktig datastruktur som er delt inn i flere felt, h
 Det aller første feltet i headeren kalles Version. Denne 4-biters verdien angir hvilken versjon av IP-protokollen pakken følger. Det er viktig fordi det forteller hver ruter eller mellomliggende enhet hvordan de skal tolke og håndtere de innkapslede dataene.
 
 
-**Merk: Administrasjon og Assignment av IP-protokollversjoner håndteres av **IANA**. Et 4-biters felt gir mulighet for 16 binære kombinasjoner (verdiene 0 til 15). Deres nåværende Assignment er:
+**Merk**: Forvaltning og tildeling av IP-protokollversjoner er underlagt **IANA**. Et 4-bits felt tillater 16 binære kombinasjoner (verdier fra 0 til 15). Per i dag er deres tildeling som følger:
 
 
 

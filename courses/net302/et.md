@@ -302,7 +302,7 @@ IP-paketi päis on oluline andmestruktuur, mis on jagatud mitmeks väljaks, mill
 Kõige esimene väli päises kannab nime Version. See 4-bitine väärtus määrab, millise IP-protokolli versiooni järgi pakett on. See on oluline, sest see ütleb igale marsruuterile või vahepealsele seadmele, kuidas tõlgendada ja käsitleda kapseldatud andmeid.
 
 
-**Märkus: IP-protokollide versioonide haldamine ja Assignment haldamine toimub **IANA** kaudu. 4-bitine väli võimaldab 16 binaarkombinatsiooni (väärtused 0-15). Nende praegused Assignment on:
+**Märkus**: IP-protokollide versioonide haldamise ja määramise eest vastutab **IANA**. 4-bitine väli võimaldab 16 binaarset kombinatsiooni (väärtused 0 kuni 15). Tänaseks on nende jaotus järgmine:
 
 
 

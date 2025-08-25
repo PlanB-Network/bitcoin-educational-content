@@ -302,7 +302,7 @@ Záhlaví paketu IP je základní datová struktura rozdělená do několika pol
 Úplně první pole v záhlaví se nazývá Verze. Tato čtyřbitová hodnota určuje, jakou verzi protokolu IP paket používá. Je důležitá, protože každému směrovači nebo zprostředkujícímu zařízení říká, jak má zapouzdřená data interpretovat a zpracovávat.
 
 
-**Poznámka: správu a Assignment verzí protokolu IP zajišťuje **IANA**. Čtyřbitové pole umožňuje 16 binárních kombinací (hodnoty 0 až 15). Jejich aktuální hodnoty Assignment jsou:
+**Poznámka**: Správa a přiřazování verzí IP protokolů spadá pod **IANA**. Pole o velikosti 4 bitů umožňuje 16 binárních kombinací (hodnoty 0 až 15). K dnešnímu dni je jejich přiřazení následující:
 
 
 

@@ -302,7 +302,7 @@ O cabeçalho de um pacote IP é uma estrutura de dados essencial, dividida em v�
 O primeiro campo do cabeçalho chama-se Versão. Este valor de 4 bits especifica a versão do protocolo IP que o pacote segue. É importante porque indica a cada router ou dispositivo intermédio como interpretar e tratar os dados encapsulados.
 
 
-**Nota: a gestão e o Assignment das versões do protocolo IP são efectuados por **IANA**. Um campo de 4 bits permite 16 combinações binárias (valores de 0 a 15). Os seus actuais Assignment são:
+**Observação**: A gestão e atribuição das versões dos protocolos IP é de responsabilidade da **IANA**. Um campo de 4 bits permite 16 combinações binárias (valores de 0 a 15). Até hoje, sua atribuição é a seguinte:
 
 
 

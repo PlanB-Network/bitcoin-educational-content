@@ -302,7 +302,7 @@ Header dari paket IP adalah struktur data yang penting, dibagi menjadi beberapa 
 Bidang pertama dalam header disebut Versi. Nilai 4-bit ini menentukan versi protokol IP mana yang diikuti oleh paket. Ini penting karena memberi tahu setiap router atau perangkat perantara bagaimana menafsirkan dan menangani data yang dienkapsulasi.
 
 
-**Catatan: manajemen dan Assignment versi protokol IP ditangani oleh **IANA**. Bidang 4-bit memungkinkan 16 kombinasi biner (nilai 0 hingga 15). Assignment mereka saat ini adalah:
+**Catatan**: Pengelolaan dan penetapan versi protokol IP berada di bawah tanggung jawab **IANA**. Sebuah field 4-bit memungkinkan 16 kombinasi biner (nilai 0 hingga 15). Hingga saat ini, penetapannya adalah sebagai berikut:
 
 
 

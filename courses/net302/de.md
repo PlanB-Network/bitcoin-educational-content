@@ -302,7 +302,7 @@ Der Header eines IP-Pakets ist eine wesentliche Datenstruktur, die in mehrere Fe
 Das allererste Feld im Header heißt Version. Dieser 4-Bit-Wert gibt an, welcher Version des IP-Protokolls das Paket folgt. Er ist wichtig, weil er jedem Router oder Zwischengerät mitteilt, wie die eingekapselten Daten zu interpretieren und zu behandeln sind.
 
 
-**Anmerkung: Die Verwaltung und Assignment der IP-Protokollversionen wird von **IANA** übernommen. Ein 4-Bit-Feld ermöglicht 16 binäre Kombinationen (Werte 0 bis 15). Ihre aktuellen Assignment sind:
+**Hinweis**: Die Verwaltung und Zuweisung der IP-Protokollversionen liegt bei der **IANA**. Ein 4-Bit-Feld erlaubt 16 binäre Kombinationen (Werte 0 bis 15). Derzeit ist ihre Zuweisung wie folgt:
 
 
 

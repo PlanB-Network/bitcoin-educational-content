@@ -302,7 +302,7 @@ Bir IP paketinin başlığı, paketlerin ağ üzerinden geçerken doğru bir şe
 Başlıktaki ilk alan Sürüm olarak adlandırılır. Bu 4 bitlik değer, paketin IP protokolünün hangi sürümünü izlediğini belirtir. Bu önemlidir çünkü her yönlendiriciye veya ara cihaza kapsüllenmiş veriyi nasıl yorumlayacağını ve işleyeceğini söyler.
 
 
-**Not: IP protokol sürümlerinin yönetimi ve Assignment **IANA** tarafından gerçekleştirilir. 4 bitlik bir alan 16 ikili kombinasyona izin verir (0 ila 15 değerleri). Mevcut Assignment'leri şunlardır:
+**Not**: IP protokol sürümlerinin yönetimi ve tahsisi **IANA**’nın sorumluluğundadır. 4 bitlik bir alan 16 ikili kombinasyona izin verir (0’dan 15’e kadar değerler). Bugüne kadar, bunların tahsisi şu şekildedir:
 
 
 

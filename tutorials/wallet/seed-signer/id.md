@@ -12,12 +12,12 @@ description: Pengaturan Seed Signer Anda
 
 Raspberry Pi Zero
 
-Untuk solusi yang sepenuhnya terisolasi dari jaringan (air-gapped), pastikan untuk menggunakan versi 1.3 yang tidak memiliki kemampuan WiFi atau Bluetooth, tetapi model Raspberry Pi 2/3/4 atau Zero lainnya juga akan bekerja.
+Untuk solusi yang sepenuhnya terisolasi dari jaringan (air-gapped), pastikan untuk menggunakan versi 1.3 yang tidak memakai WiFi atau Bluetooth, tetapi juga bisa memilih model Raspberry Pi 2/3/4 atau Zero lainnya.
 
 Catatan: Raspberry Pi biasanya tidak datang dengan pin yang terpasang; pin-pin tersebut perlu disolder, atau bisa menggunakan sesuatu yang disebut "GPIO Hammer".
 GPIO Hammer
 
-Jika kemampuan solder Anda kurang baik, atau Anda belum memiliki solder, maka Anda bisa menggunakan "GPIO Hammer" sebagai alternatif untuk menyolder.
+Jika kemampuan solder kurang baik, atau kamu belum memiliki solder, maka kamu bisa menggunakan "GPIO Hammer" sebagai alternatif untuk menyolder.
 
 2. Chapeau LCD WaveShare 1,3 inci dengan layar 240 × 240 piksel
 
@@ -32,9 +32,9 @@ info lebih lanjut
 
 Raspberry Pi Camera
 
-Aokin / AuviPal 5MP 1080p dengan Modul Kamera Video Sensor OV5647; merek lain dengan modul sensor OV5647 seharusnya juga bekerja, tetapi mungkin tidak kompatibel dengan casing Orange Pill.
+Aokin / AuviPal 5MP 1080p dengan Modul Kamera Video Sensor OV5647; merek lain dengan modul sensor OV5647 seharusnya juga bisa, tetapi mungkin tidak kompatibel dengan casing Orange Pill.
 
-Catatan: Anda akan memerlukan kabel pita kamera yang khusus kompatibel dengan Raspberry Pi Zero.
+Catatan: Kamu akan memerlukan kabel pita kamera yang khusus kompatibel dengan Raspberry Pi Zero.
 
 4. Kartu MicroSD dengan kapasitas minimal 4 GB
 
@@ -64,33 +64,33 @@ _panduan diambil dari Southerbitcoiner, dibuat oleh Cole_
 
 ![image](assets/1.webp)
 
-SeedSigner adalah Perangkat Penandatanganan Bitcoin yang dapat Anda bangun dari awal. Terdengar sulit, tetapi seri 4 bagian ini seharusnya dapat membantu Anda :) Saya sarankan Anda menonton bagian 1 dan 2, kemudian putuskan apakah Anda ingin menggunakan desktop (tonton bagian 3) atau perangkat mobile (tonton bagian 4).
+SeedSigner adalah Perangkat Penandatanganan Bitcoin yang dapat kamu buat dari awal. Terdengar sulit, tetapi seri 4 bagian ini seharusnya dapat membantumu :) Aku sarankan kamu menonton bagian 1 dan 2, kemudian putuskan apakah kamu ingin menggunakan desktop (tonton bagian 3) atau perangkat mobile (tonton bagian 4).
 
-Semua yang perlu Anda ketahui akan ada di bawah ini. Tautan berguna lainnya termasuk situs web SeedSigner, Github mereka, Keybase mereka, rilis terbaru, dan persyaratan perangkat keras.
+Semua yang perlu kamu ketahui ada di bawah. Tautan berguna lainnya termasuk situs web SeedSigner, Github mereka, Keybase mereka, rilis terbaru, dan persyaratan perangkat keras.
 
-### Bagian 1: Cara membangun SeedSigner:
+### Bagian 1: Cara merakit SeedSigner:
 
-Dalam video ini saya menunjukkan kepada Anda cara mengunduh dan memverifikasi perangkat lunak SeedSigner, bagian apa saja yang diperlukan, dan cara merakit SeedSigner Anda.
+Dalam video ini aku akan menunjukkan kamu cara mengunduh dan memverifikasi perangkat lunak SeedSigner, bagian apa aja yang diperlukan, dan cara merakit SeedSigner milikmu.
 
 ![video](https://youtu.be/mGmNKYOXtxY)
 
 ### Bagian 2: Menguji SeedSigner Anda
-Sebelum saya menggunakan SeedSigner saya, saya melakukan beberapa tes untuk memastikan bahwa perangkat tersebut tidak melakukan hal yang berbahaya. Saya pikir akan bagus untuk berbagi langkah ini juga. Berikut cara memverifikasi bahwa SeedSigner Anda mengekspor dompet yang benar (xpub), cara memverifikasi matematika lemparan dadu SeedSigner, dan cara memverifikasi bibit anak bip-85 SeedSigner.
+Sebelum aku menggunakan SeedSigner milikku sendiri, aku melakukan beberapa tes untuk memastikan bahwa perangkat tersebut tidak melakukan hal yang berbahaya. Yah, aku pikir akan bagus untuk berbagi langkah ini juga. Ini adalah cara memverifikasi bahwa SeedSigner kamu mengekspor dompet yang benar (xpub), cara memverifikasi matematika lemparan dadu SeedSigner, dan cara memverifikasi seedphrase bip-85 SeedSigner.
 ![video](https://youtu.be/34W1IyTyXZE)
 
 ### Bagian 3: Cara menggunakan SeedSigner dengan Sparrow Wallet (desktop)
 
-SeedSigner mampu menghasilkan bibit dan menandatangani transaksi bitcoin. Namun, dengan sendirinya, perangkat ini tidak mampu membangun transaksi. Anda perlu menggunakan "koordinator" dompet dengan SeedSigner Anda. Inilah cara menggunakan Sparrow Wallet dengan SeedSigner Anda:
+SeedSigner mampu menghasilkan bibit dan menandatangani transaksi bitcoin. Namun, perangkat ini nggak mampu membuat transaksi. Kamu bakalan perlu menggunakan "koordinator" dompet dengan SeedSigner milikmu. Inilah cara menggunakan Sparrow Wallet dengan SeedSigner Anda:
 
 ![video](https://youtu.be/IQb8dh-VTOg)
 
 Bagian 4: Cara menggunakan SeedSigner dengan Blue Wallet (mobile)
 
-SeedSigner mampu menghasilkan bibit dan menandatangani transaksi bitcoin. Namun, dengan sendirinya, perangkat ini tidak mampu membuat transaksi. Anda perlu menggunakan "koordinator" dompet dengan SeedSigner Anda. Inilah cara menggunakan Blue Wallet dengan SeedSigner Anda:
+SeedSigner mampu menghasilkan bibit dan menandatangani transaksi bitcoin. Namun, perangkat ini nggak mampu membuat transaksi sendiri. Kamu perlu menggunakan "koordinator" dompet dengan SeedSigner milikmu. Inilah cara menggunakan Blue Wallet dengan SeedSigner:
 
 ![video](https://youtu.be/x0Ee35Ct0r4)
 
-Itu semua panduan SeedSigner, untuk saat ini! Beri tahu saya jika Anda pikir saya melewatkan sesuatu. Ini ada di daftar saya untuk video potensial:
+Itu semua panduan SeedSigner, untuk saat ini! Beri tahu kalau mungkin aku melewatkan sesuatu. Ini ada di my playlist untuk video potensial:
 
 > Ulasan keseluruhan SeedSigner. Apakah itu pilihan yang baik untuk perangkat penandatanganan? Pro/kontra?
 

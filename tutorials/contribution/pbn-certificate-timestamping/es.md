@@ -5,7 +5,7 @@ description: Comprende cómo Plan ₿ Network emite pruebas verificables para tu
 
 ![cover](assets/cover.webp)
 
-Si estás leyendo esto, hay una alta probabilidad de que hayas recibido un Certificado Bitcoin o un diploma de finalización por alguno de los cursos que realizaste en Plan ₿ Network, ¡así que felicitaciones por este logro!
+Si estás leyendo esto, hay una alta probabilidad de que hayas recibido un Certificado Bitcoin o un diploma de finalización por alguno de los cursos que realizaste en Plan ₿ Network, ¡Así que, felicitaciones por este logro!
 
 En este tutorial, vamos a ver cómo Plan ₿ Network emite pruebas verificables para tu Certificado Bitcoin o cualquier Diploma de Finalización de Curso. Luego, en una segunda parte, veremos cómo verificar la autenticidad de estas pruebas.
 
@@ -113,11 +113,12 @@ Si ves un mensaje como "BAD signature", eso significa que el archivo ha sido alt
 5. El sitio web verificará automáticamente el sello de tiempo abierto y mostrará el resultado.
 
 Si ves un mensaje como el siguiente tu sello de tiempo es válido:
+
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 ### Método CLI
 
-NOTA: este procedimiento **requerirá que se ejecute un nodo local de Bitcoin**
+NOTA: Este procedimiento **requerirá que se ejecute un nodo local de Bitcoin**
 
 1. Instala el cliente de OpenTimestamps desde el repositorio oficial: https://github.com/opentimestamps/opentimestamps-client ejecutando el siguiente comando:
 

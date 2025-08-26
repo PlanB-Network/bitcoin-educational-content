@@ -1,6 +1,11 @@
 ---
-name: 
-description: 
+name: OPENDIME
+description: Mettre en place son Opendime
 ---
 
 ![cover](assets/cover.webp)
+
+
+
+![Vidéo tutoriel de Rogzy](https://youtu.be/D96dLKmOqPA)
+

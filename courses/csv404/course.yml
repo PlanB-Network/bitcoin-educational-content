@@ -7,7 +7,8 @@ hours: 14
 testonly: true
 
 professors_id:
-  #TODO: create prof for LNDlabs
+  - 303993a1-6506-4c25-b0b6-6d3f0497859b
+
 contributor_names:
   - Asi0Flammeus
 published_at: 2025-08-29

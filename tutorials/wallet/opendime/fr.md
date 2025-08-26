@@ -1,6 +1,6 @@
 ---
 name: OPENDIME
-description: Mettre en place son Opendime
+description: Mettre en place son OPENDIME
 ---
 
 ![cover](assets/cover.webp)

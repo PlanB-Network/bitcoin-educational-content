@@ -569,6 +569,7 @@ Atualmente, o cenário de um proprietário maioritário a tomar a decisão é o 
 - Proprietários de empresas muito pequenas** : Empresários dos sectores dos serviços, da agricultura ou do artesanato que compreenderam o potencial da Bitcoin e afectam-lhe uma parte da sua tesouraria. A sua principal motivação reside na diversificação e na liberdade que esta proporciona
 - Empresas de capital aberto** como a MicroStrategy abriram um precedente ao converter uma parte significativa da sua tesouraria corporativa em Bitcoin, demonstrando uma mudança global nas estratégias de alocação de capital corporativo. No outono de 2024, muitas outras empresas seguiram o exemplo, legitimando ainda mais esta tendência.
 
+Descubra a lista atualizada das empresas que detêm mais bitcoins em tesouraria, bem como os montantes detidos, no site: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Tributação do bitcoin detido por empresas
 
 Para as empresas que não estão estruturadas como entidades jurídicas separadas - tais como empresas em nome individual ou outras entidades não constituídas em sociedade - a tributação das transacções de Bitcoin reflecte frequentemente o tratamento aplicado às pessoas singulares. Em muitos casos, aplicam-se as mesmas regras que regem as mais-valias ou rendimentos, tal como aconteceria se um indivíduo estivesse a vender Bitcoin. Por exemplo, nalguns países, os lucros podem ser considerados parte do rendimento pessoal do empresário, sujeito a **escalões de imposto sobre o rendimento pessoal**.

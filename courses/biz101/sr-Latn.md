@@ -562,6 +562,7 @@ Trenutno, scenario u kojem većinski vlasnik donosi odluku je najreprezentativni
 - **Vlasnici veoma malih preduzeća** : Preduzetnici u uslužnim delatnostima, poljoprivredi ili zanatskim industrijama koji su razumeli potencijal Bitkoina i izdvajaju deo svojih sredstava za to. Njihova primarna motivacija leži u diverzifikaciji i slobodi koju pruža.
 - **Kompanije čijim se akcijama trguje na berzi** poput MicroStrategy postavile su presedan konvertovanjem značajnog dela svoje korporativne imovine u bitkoin, pokazujući globalnu promenu u strategijama alokacije korporativnog kapitala. Do jeseni 2024. godine, brojne druge kompanije su sledile njihov primer, dodatno legitimizujući ovaj trend.
 
+Pogledajte ažuriranu listu kompanija koje drže najviše bitkoina u trezoru, kao i iznose, na sajtu: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Oporezivanje bitkoina koji drže preduzeća
 
 Za preduzeća koja nisu strukturirana kao zasebni pravni subjekti—kao što su samostalne delatnosti ili drugi neinkorporirani subjekti—oporezivanje bitkoin transakcija često odražava tretman koji se primenjuje na pojedince. U mnogim slučajevima, ista pravila koja regulišu kapitalne dobitke ili prihod se primenjuju, baš kao što bi se primenila da pojedinac prodaje bitkoin. Na primer, u nekim zemljama, profiti bi mogli biti smatrani delom ličnog prihoda preduzetnika, podložnog **ličnim poreskim razredima**.

@@ -15,11 +15,19 @@ In this expert guide we will help you set-up a coinjoin coordinator, essentially
 
 - VPS (hosted node) or computer/server (self-hosted node)
 - Pruned/Full Bitcoin Core node (tested with v29.0)
+
+Optional:
 - (sub)Domain forwarding traffic to the node (e.g. coinjoin.[yourdomain].io)
 
 ## Installation
 
-On the node we want to download and install the latest released version of Wasabi Wallet, which includes a backend and coordinator
+On the node we want to download and install the latest released version of Wasabi Wallet, which includes a backend and coordinator as standalone executables next to the wallet.
+
+Find the latest version: [Wasabi Wallet](https://github.com/WalletWasabi/WalletWasabi/releases)
+
+and verify the PGP signature of the release with the keys: [Wasabi Docs](https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html)
+
+For RaspiBlitz (tested with v1.11) nodes a deployment script building from source code can be used: [home.admin/config.scripts/bonus.wasabi.sh](https://github.com/kravens/raspiblitz/blob/dev/home.admin/config.scripts/bonus.wasabi.sh)
 
 ## Configuration
 
@@ -30,7 +38,8 @@ Before running the coordinator you need to edit the Config.yaml file with your:
 - Allowed input and output address types
 - Announcer configuration for publishing over nostr (name, description, Uri, minimum inputs, nostr relay, nostr private key)
 
-Also the traffic has to be forwarded to your node for this service in nginx, which can be done with this example:
+You can run the coordinator accesible only via the .onion address, or use your custom domain.
+In that case the traffic has to be forwarded to your node for this service in nginx, which can be done with this example:
 
 `this is code`
 
@@ -38,6 +47,6 @@ For the new nginx configuration to load, restart the nginx service.
 
 ## Running
 
-Once all the parameters have been set you can run the coordinator service and start your first round 🕶️
+Once all the parameters have been set you can run the coordinator service and start announcing your first round 🕶️
 
 ---

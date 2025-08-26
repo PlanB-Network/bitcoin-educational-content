@@ -1,6 +1,6 @@
 ---
 name: OPENDIME
-description: Mettre en place son Opendime
+description: Set up your OEPNDIME
 ---
 
 ![cover](assets/cover.webp)

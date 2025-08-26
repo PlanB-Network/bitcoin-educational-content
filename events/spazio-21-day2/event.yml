@@ -1,7 +1,7 @@
 id: a3848497-2509-4223-9791-d609aca7f724
 test_only: true
-start_date: 2025-10-24 12:00:00
-end_date: 2025-10-24 19:00:00
+start_date: 2025-10-25 12:00:00
+end_date: 2025-10-25 19:00:00
 timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 name: Spazio 21 Day 2
@@ -10,8 +10,6 @@ description: |
   This a plan B week event
 language:
   - en
-links:
-  website: https://planbtest.network/en/events
 tags:
   - education
   - market-trends

@@ -1,6 +1,6 @@
 id: 5de59a81-a84f-49ec-b275-9e5597fd042f
 test_only: true
-start_date: 2025-10-23 12:00:00
+start_date: 2025-10-23 06:00:00
 end_date: 2025-10-23 21:00:00
 timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
@@ -16,8 +16,6 @@ description: |
   Bitcoin-backed lending versus traditional fiat systems.
 language:
   - en
-links:
-  website: https://planbtest.network/en/events
 tags:
   - adoption
   - proof-of-work

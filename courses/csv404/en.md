@@ -295,3 +295,18 @@ The final verification step involves testing TAPD's connectivity to universe ser
 [video](https://www.youtube.com/watch?v=m0BSUqNZT_U)
 
 
+# Final Section
+<partId>cd74ea84-8293-11f0-9da4-87bd4622cb73</partId>
+
+## Evaluate this course
+<chapterId>d5758ad6-8293-11f0-b4c6-97311bec09e2</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Conclusion
+<chapterId>dbd7fee0-8293-11f0-b017-df3c796eed0d</chapterId>
+<isCourseConclusion>true</isCourseConclusion>
+
+
+
+
+

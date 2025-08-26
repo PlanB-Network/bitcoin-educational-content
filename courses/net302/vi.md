@@ -31,7 +31,7 @@ Hãy tham gia cùng chúng tôi và biến kiến thức của bạn thành chuy
 ___
 
 
-Khóa học NET 302 này là bản chuyển thể của *Les bases du réseau: TCP/IP, IPv4 et IPv6*, do Philippe Pierre biên soạn bằng tiếng Pháp và được xuất bản trên [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), theo Giấy phép Creative Commons Ghi công - Chia sẻ tương tự 4.0 Quốc tế ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Khóa học NET 302 này là bản chuyển thể của khóa học *Cơ bản về mạng: TCP/IP, IPv4 và IPv6*, được Philippe Pierre viết bằng tiếng Pháp và xuất bản trên [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), theo giấy phép Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 
 

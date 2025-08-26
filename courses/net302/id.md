@@ -31,7 +31,7 @@ Bergabunglah bersama kami dan ubah pengetahuan Anda menjadi keahlian operasional
 ___
 
 
-Kursus NET 302 ini merupakan adaptasi dari *Les bases du réseau: TCP/IP, IPv4 et IPv6*, yang ditulis oleh Philippe Pierre dalam bahasa Perancis dan dipublikasikan di [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), di bawah Atribusi Creative Commons - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Kursus NET 302 ini merupakan adaptasi dari kursus *Dasar-Dasar Jaringan: TCP/IP, IPv4 dan IPv6*, yang ditulis dalam bahasa Prancis oleh Philippe Pierre dan diterbitkan di [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), di bawah lisensi Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 
 

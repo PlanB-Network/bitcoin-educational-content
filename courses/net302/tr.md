@@ -31,7 +31,7 @@ Bize katılın ve bilginizi gerçek operasyonel uzmanlığa dönüştürün!
 ___
 
 
-Bu NET 302 kursu *Les bases du réseau'nun bir uyarlamasıdır: TCP/IP, IPv4 et IPv6*, Philippe Pierre tarafından Fransızca olarak yazılmış ve [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) altında yayınlanmıştır.
+Bu NET 302 dersi, Philippe Pierre tarafından Fransızca yazılan ve [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) sitesinde yayınlanan *Ağ Temelleri: TCP/IP, IPv4 ve IPv6* dersinin bir uyarlamasıdır ve Creative Commons Attribution-NonCommercial 4.0 International lisansı ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) altında sunulmaktadır.
 
 
 

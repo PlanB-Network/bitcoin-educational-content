@@ -31,7 +31,7 @@ NET 302 предназначен в основном для студентов, 
 ___
 
 
-Этот курс NET 302 является адаптацией *Les bases du réseau: TCP/IP, IPv4 et IPv6*, написанного Филиппом Пьером на французском языке и опубликованного на сайте [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) по лицензии Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Курс NET 302 является адаптацией курса *Основы сетей: TCP/IP, IPv4 и IPv6*, написанного Филиппом Пьером на французском языке и опубликованного на [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), под лицензией Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 
 

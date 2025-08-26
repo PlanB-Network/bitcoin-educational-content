@@ -29,7 +29,7 @@ NET 302 主要針對學生、Linux 使用者或只是想瞭解網路基礎知識
 ___
 
 
-本 NET 302 課程改編自 *Les bases du réseau：TCP/IP, IPv4 et IPv6*，由 Philippe Pierre 以法文撰寫，並發表於 [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) 網站，採用 Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) 授權。
+本NET 302課程是*網路基礎：TCP/IP、IPv4和IPv6*課程的改編版，由Philippe Pierre以法語撰寫，並發表於[IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/)，在Creative Commons Attribution-NonCommercial 4.0 International授權（[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)）下發布。
 
 
 

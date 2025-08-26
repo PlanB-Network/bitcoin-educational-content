@@ -31,7 +31,7 @@ objectives:
 ___
 
 
-本 NET 302 课程改编自 *Les bases du réseau：TCP/IP、IPv4 和 IPv6*，由 Philippe Pierre 以法语撰写，发布在 [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/) 上，采用知识共享署名-相同方式共享 4.0 国际（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。
+本NET 302课程是*网络基础：TCP/IP、IPv4和IPv6*课程的改编版，由Philippe Pierre用法语撰写，并发布在[IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/)，依据Creative Commons Attribution-NonCommercial 4.0 International许可协议（[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)）。
 
 
 

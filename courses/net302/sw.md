@@ -31,7 +31,7 @@ Jiunge nasi na ugeuze maarifa yako kuwa utaalamu halisi wa kiutendaji!
 ___
 
 
-Kozi hii ya NET 302 ni marekebisho ya *Les bases du réseau: TCP/IP, IPv4 et IPv6*, iliyoandikwa na Philippe Pierre kwa lugha ya Kifaransa na kuchapishwa kwenye [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-under-ipv6). ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Kozi hii ya NET 302 ni mabadiliko ya kozi *Msingi wa Mtandao: TCP/IP, IPv4 na IPv6*, iliyoandikwa kwa Kifaransa na Philippe Pierre na kuchapishwa kwenye [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), chini ya leseni ya Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 
 

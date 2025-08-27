@@ -157,15 +157,15 @@ By patiently building your knowledge, you'll be far less vulnerable to emotional
 
 This type of scam promises free Bitcoin or other rewards in exchange for you sending a small amount of money first. It's important to remember: no legitimate individual or organization will ever ask you to send cryptocurrency upfront with the promise of sending you more in return.
 
-Scammers often impersonate well-known public figures(like Elon Musk or other celebrities)to lure victims through social media. Always double-check the legitimacy of accounts and websites before engaging with them, and never trust offers that seem overly generous or too good to be true.
+Scammers often impersonate well-known public figures (like Elon Musk or other celebrities) to lure victims through social media. Always double-check the legitimacy of accounts and websites before engaging with them, and never trust offers that seem overly generous or too good to be true.
 
-Sometimes, these scams appear as "advance fee" frauds. You're promised a prize or reward(money, a product, or a service) but are first asked to pay a fee, supposedly to cover things like shipping, taxes, or transaction costs. Once the payment is made, the scammer vanishes, and the promised reward never arrives.
+Sometimes, these scams appear as "advance fee" frauds. You're promised a prize or reward (money, a product, or a service) but are first asked to pay a fee, supposedly to cover things like shipping, taxes, or transaction costs. Once the payment is made, the scammer vanishes, and the promised reward never arrives.
 
 ![BTC102-Bitcoin](assets/fr/006.webp)
 
 #### Shitcoins and cryptocurrencies on offer
 
-Centralized crypto-currency projects sometimes offer free tokens ("*airdrops*") to attract users.These tokens typically hold little to no real value and are mainly used to create the illusion of popularity or to fuel speculation. Be extremely cautious with these kinds of promotional offers; they're often marketing traps rather than genuine opportunities.
+Centralized crypto-currency projects sometimes offer free tokens ("*airdrops*") to attract users. These tokens typically hold little to no real value and are mainly used to create the illusion of popularity or to fuel speculation. Be extremely cautious with these kinds of promotional offers; they're often marketing traps rather than genuine opportunities.
 
 #### Identity theft and phishing
 
@@ -175,7 +175,7 @@ Before clicking on a link or taking any action, always double-check the sender's
 
 #### Bitcoin Hardforks
 
-Over the years, Bitcoin has experienced several *hard forks*, which resulted in the creation of alternative versions of the original cryptocurrency. In simple terms, a *hard fork* is a split in the network that leads to two separate blockchains, both sharing the same history up until the moment of the split. These forks typically happen when part of the developer community or broader Bitcoin ecosystem wants to introduce major changes to the original protocol but can't reach widespread consensus. Instead of abandoning their ideas, they decide to launch a new version of Bitcoin(with altered rules)hoping that users and miners will choose to follow their fork instead.
+Over the years, Bitcoin has experienced several *hard forks*, which resulted in the creation of alternative versions of the original cryptocurrency. In simple terms, a *hard fork* is a split in the network that leads to two separate blockchains, both sharing the same history up until the moment of the split. These forks typically happen when part of the developer community or broader Bitcoin ecosystem wants to introduce major changes to the original protocol but can't reach widespread consensus. Instead of abandoning their ideas, they decide to launch a new version of Bitcoin (with altered rules) hoping that users and miners will choose to follow their fork instead.
 
 ![BTC102-Bitcoin](assets/fr/007.webp)
 
@@ -187,7 +187,7 @@ To avoid falling into this trap, always verify the currency you're buying. The o
 
 #### Dishonest influencers and fake gurus
 
-As cryptocurrencies gain mainstream attention, social media has seen a surge of influencers, self-proclaimed experts, and so-called "*crypto gurus*". While a few may offer genuine educational insights, many others take advantage of their visibility to promote dubious projects or dangerously risky (and sometimes outright fraudulent)trading strategies.These individuals are usually motivated by personal financial interests, often receiving direct or indirect compensation for promoting certain tokens or platforms.
+As cryptocurrencies gain mainstream attention, social media has seen a surge of influencers, self-proclaimed experts, and so-called "*crypto gurus*". While a few may offer genuine educational insights, many others take advantage of their visibility to promote dubious projects or dangerously risky (and sometimes outright fraudulent) trading strategies. These individuals are usually motivated by personal financial interests, often receiving direct or indirect compensation for promoting certain tokens or platforms.
 
 ![BTC102-Bitcoin](assets/fr/008.webp)
 
@@ -245,9 +245,9 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Why Cybersecurity Matters
 
-Bitcoin gives you the power to hold your money directly(without banks), without intermediaries. But that kind of financial sovereignty comes with serious responsibility: if your BTC gets stolen due to a security lapse, there's no way to reverse the transaction. Unlike traditional banking, there's no help desk, no fraud claim, and no insurance to bail you out.
+Bitcoin gives you the power to hold your money directly (without banks), without intermediaries. But that kind of financial sovereignty comes with serious responsibility: if your BTC gets stolen due to a security lapse, there's no way to reverse the transaction. Unlike traditional banking, there's no help desk, no fraud claim, and no insurance to bail you out.
 
-On top of that, the financial value of Bitcoin makes it a high-value target. A hacker who compromises your wallet can instantly move your funds to an address they control(no questions asked, no way to get it back).
+On top of that, the financial value of Bitcoin makes it a high-value target. A hacker who compromises your wallet can instantly move your funds to an address they control (no questions asked, no way to get it back).
 
 ### A clean, up-to-date computer
 
@@ -272,7 +272,7 @@ A widely recommended backup strategy is the "3-2-1 rule". It is designed to prot
 The idea is simple:
 - Keep **at least 3 copies** of your important data,
 - Store them on **at least 2 different types of media** (e.g., an external hard drive and cloud storage),
-- And make sure **1 of those copies is stored off-site**(physically separated from your main location).
+- And make sure **1 of those copies is stored off-site** (physically separated from your main location).
 
 This approach offers strong resilience and helps ensure your data survives even if something goes seriously wrong.
 
@@ -287,7 +287,7 @@ A password manager lets you:
 - **Generate long, complex, and unique passwords** automatically for each account
 - **Use just one master password**,to access everything securely
 
-With a password manager, you'll never have to click "Forgot password" again or rely on weak, reused credentials. Plus, most password managers sync seamlessly across your devices(desktop, phone, tablet) and even autofill login forms, making secure access both effortless and efficient.
+With a password manager, you'll never have to click "Forgot password" again or rely on weak, reused credentials. Plus, most password managers sync seamlessly across your devices (desktop, phone, tablet) and even autofill login forms, making secure access both effortless and efficient.
 
 ![BTC102-Bitcoin](assets/fr/011.webp)
 
@@ -386,8 +386,8 @@ Here are the key points that we will go over together:
 - Know the difference between **trading** and **investing**;
 - Be aware of the **tax implications** of your investments;
 - Protect your **recovery phrase** carefully;
-- Stay humble and keep a **low profile**(discretion is part of security);
-- **Think long term**, zoom out and be patient(think of it as a marathon, not a sprint).
+- Stay humble and keep a **low profile** (discretion is part of security);
+- **Think long term**, zoom out and be patient (think of it as a marathon, not a sprint).
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
 
@@ -426,7 +426,7 @@ Approaching it this way ensures that you're not putting your financial well-bein
 Once your budget is defined, think about how you want to invest. One of the most beginner-friendly and widely recommended methods is Dollar Cost Averaging (DCA), buying a fixed amount of bitcoin at regular intervals (weekly, monthly, etc.). This strategy helps smooth out your average entry price over time and reduces the emotional impact of price swings. It's a smart approach for most people, especially newcomers.
 
 Then, ask yourself: What's my time horizon?
-Are you looking to make quick moves in and out of the market (trading)? Or are you more aligned with the long-term mindset of holding Bitcoin over several years(hodler)? If you're a hodler, you're probably less concerned with daily price swings and more focused on long-term security and self-custody. If you're trading, you'll be more exposed to short-term market noise, higher risk, and the stress that often comes with rapid decision-making. There's no one-size-fits-all answer, but knowing your own approach will help guide your decisions.
+Are you looking to make quick moves in and out of the market (trading)? Or are you more aligned with the long-term mindset of holding Bitcoin over several years (hodler)? If you're a hodler, you're probably less concerned with daily price swings and more focused on long-term security and self-custody. If you're trading, you'll be more exposed to short-term market noise, higher risk, and the stress that often comes with rapid decision-making. There's no one-size-fits-all answer, but knowing your own approach will help guide your decisions.
 
 Most importantly, don't make investment decisions based on emotion or fear. Set a strategy in advance, write it down, and stick to it.
 
@@ -441,16 +441,16 @@ Bitcoin is known for its dramatic price swings. Moves of 10%, 20%, or even 50% o
 
 That's why it's crucial to **understand and accept Bitcoin's volatility** before you invest. These price swings aren't a bug, they're a feature of a still-maturing asset. If sudden ups and downs are keeping you up at night or pushing you into emotional decisions, chances are you've put in more than you're comfortable risking. In that case, take a step back and reassess your strategy and risk tolerance. Don't hesitate to scale down your position until you feel more at ease.
 
-Above all, never invest more than you can afford to lose. Avoid borrowing money to buy bitcoin(especially if you're still learning the fundamentals). A solid foundation starts with measured steps, not reckless bets.
+Above all, never invest more than you can afford to lose. Avoid borrowing money to buy bitcoin (especially if you're still learning the fundamentals). A solid foundation starts with measured steps, not reckless bets.
 
 ### Managing and securing your Bitcoin wallet
 
-One of Bitcoin's most powerful(and often underestimated) features is **self-custody**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a seed phrase), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase(or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
+One of Bitcoin's most powerful (and often underestimated) features is **self-custody**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a seed phrase), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase (or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
 
 ![BTC102-Bitcoin](assets/fr/023.webp)
 
 That's why the golden rule in Bitcoin is:
- "***Not your keys, not your coins***". If you don't personally control your private keys, you don't truly own your bitcoin. While exchanges can be convenient(especially when starting out) they hold your keys for you. That means your funds are at risk if the platform gets hacked, freezes your account, or goes bankrupt.
+ "***Not your keys, not your coins***". If you don't personally control your private keys, you don't truly own your bitcoin. While exchanges can be convenient (especially when starting out) they hold your keys for you. That means your funds are at risk if the platform gets hacked, freezes your account, or goes bankrupt.
 
 ![BTC102-Bitcoin](assets/fr/024.webp)
 
@@ -497,14 +497,14 @@ Bitcoin is often surrounded by popular misconceptions; one of the most common be
 - **Trading :**
 
 Let's be honest:**you probably shouldn't be trading.**
-Trading involves short-term speculation(sometimes with leverage) aiming to profit from Bitcoin's price swings. While it may sound appealing, successful trading requires advanced technical knowledge (like chart analysis and risk management), emotional discipline, and constant attention to the market. It's mentally taxing and time-consuming, and the hard truth is that **most beginners lose money** because they underestimate how demanding it really is.
+Trading involves short-term speculation (sometimes with leverage) aiming to profit from Bitcoin's price swings. While it may sound appealing, successful trading requires advanced technical knowledge (like chart analysis and risk management), emotional discipline, and constant attention to the market. It's mentally taxing and time-consuming, and the hard truth is that **most beginners lose money** because they underestimate how demanding it really is.
 As Warren Buffett famously said:
 "**If you're not willing to hold a stock for ten years, don't even think about holding it for ten minutes**."
 Bitcoin isn't a get-rich-quick scheme.
 
 - **Investment:**
 
-Investors take a medium to long-term view, buying bitcoin with the belief that its value will grow over time(months, years, or even decades). There's still risk, of course, since the price of bitcoin can fluctuate significantly. But this approach is generally calmer and far more practical for most people, especially those who don't want to spend hours glued to the charts every day.
+Investors take a medium to long-term view, buying bitcoin with the belief that its value will grow over time (months, years, or even decades). There's still risk, of course, since the price of bitcoin can fluctuate significantly. But this approach is generally calmer and far more practical for most people, especially those who don't want to spend hours glued to the charts every day.
 
 - **Holding (HODL) :**
 
@@ -524,7 +524,7 @@ Hodlers are in it for the very long game; sometimes ten years or more. They stor
 
 ### Keep Learning
 
-It's never too early(or too late) to start educating yourself about money, investing, and how the financial system really works. You don't need to become an expert or dive into every technical detail; having a solid, big-picture understanding is enough to make informed decisions and avoid being misled by financial products that don't serve your interests (often promoted by banks or advisors).
+It's never too early (or too late) to start educating yourself about money, investing, and how the financial system really works. You don't need to become an expert or dive into every technical detail; having a solid, big-picture understanding is enough to make informed decisions and avoid being misled by financial products that don't serve your interests (often promoted by banks or advisors).
 
 A great starting point is the book *Rich Dad, Poor Dad* by Robert T. Kiyosaki. It's widely known for its approachable style and foundational lessons; like understanding the difference between assets and liabilities, and why financial education is key to long-term independence.
 
@@ -534,7 +534,7 @@ If you're ready to go deeper, podcasts like *The Investors Podcast* offer insigh
 
 ### Golden Rules to Keep in Mind
 
-To wrap things up, here are a few timeless principles that every Bitcoiner(especially beginners) should keep in mind:
+To wrap things up, here are a few timeless principles that every Bitcoiner (especially beginners) should keep in mind:
 
 - **Rule n°1**: Never invest more than you can afford to lose. Bitcoin is a volatile asset. Don't risk your financial stability chasing gains. Your essential needs and peace of mind should always come first.
 - **Rule n°2**: Don't blindly follow the hype or trust miracle advice. Ignore trends and flashy promises. Instead focus on making well-informed, rational decisions. When in doubt, sleep on it; talk it through with people you trust. It's better to move slowly and thoughtfully than to rush into costly mistakes.
@@ -553,7 +553,7 @@ By following these principles, you'll be able to approach Bitcoin investing with
 
 :::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
 
-In this course, the primary goal is to guide you through acquiring and securing your first bitcoins. But before diving into the practical steps(how to buy BTC, which wallets to use, and so on) it's important to take a step back and understand what Bitcoin really is. Grasping the deeper nature of Bitcoin will help you see why millions of people are turning to this technology, and why it's crucial to understand the fundamentals before putting your savings into such a new and volatile asset.
+In this course, the primary goal is to guide you through acquiring and securing your first bitcoins. But before diving into the practical steps (how to buy BTC, which wallets to use, and so on) it's important to take a step back and understand what Bitcoin really is. Grasping the deeper nature of Bitcoin will help you see why millions of people are turning to this technology, and why it's crucial to understand the fundamentals before putting your savings into such a new and volatile asset.
 
 Over the years, Bitcoin has gained recognition as a global monetary network. It's been called "digital gold", a "trust protocol", and even a "parallel financial system." But what do those terms really mean? To answer that, we'll take a closer look at Bitcoin's core: its origin story, technical foundations, monetary properties, and its potential impact; not only on individuals, but on the global financial system as a whole.
 
@@ -561,7 +561,7 @@ Over the years, Bitcoin has gained recognition as a global monetary network. It'
 
 #### Cypherpunks and the invention of a system beyond banking control
 
-Bitcoin wasn't born overnight. Its the result of decades of research and experimentation in cryptography, computer science, and monetary theory. Prior to its launch in 2009, several projects(like eCash, b-money, Bit Gold, and RPOW) attempted to create digital currencies. All faced the same core issue: how to prevent double spending in a decentralized system without relying on a central authority.
+Bitcoin wasn't born overnight. Its the result of decades of research and experimentation in cryptography, computer science, and monetary theory. Prior to its launch in 2009, several projects (like eCash, b-money, Bit Gold, and RPOW) attempted to create digital currencies. All faced the same core issue: how to prevent double spending in a decentralized system without relying on a central authority.
 
 That challenge remained unsolved until late 2008, when someone using the name Satoshi Nakamoto published the Bitcoin white paper. A few months later, the first version of Bitcoin's open-source software went live, launching a system that could operate independently of banks or governments.
 
@@ -576,7 +576,7 @@ A major milestone in the movement came in 1992 with the creation of the Cypherpu
 
 ![BTC102-Bitcoin](assets/fr/032.webp)
 
-The idea of a digital currency that operates independently of any central authority(like Bitcoin)is deeply rooted in Cypherpunk philosophy.
+The idea of a digital currency that operates independently of any central authority (like Bitcoin) is deeply rooted in Cypherpunk philosophy.
 
 #### Post-Financial Crisis Moment
 
@@ -634,7 +634,7 @@ Eventually, around the year 2140, the subsidy will reach zero, as Bitcoin's tota
 
 #### Scarcity and a Fixed Monetary Policy
 
-One of Bitcoin's most powerful features is its *predictable and unchangeable monetary policy*. Unlike traditional fiat currencies (like the dollar, euro, or yen), which can be printed at will by central banks(often leading to inflation or economic distortions)Bitcoin operates under a transparent set of rules embedded in its code.
+One of Bitcoin's most powerful features is its *predictable and unchangeable monetary policy*. Unlike traditional fiat currencies (like the dollar, euro, or yen), which can be printed at will by central banks (often leading to inflation or economic distortions) Bitcoin operates under a transparent set of rules embedded in its code.
 There will only ever be 21 million bitcoins, and the rate at which new coins are issued is known in advance by everyone in the network.
 
 No government, institution, or individual can unilaterally change this supply cap or the distribution rules. The only way to alter these parameters would be to change Bitcoin's protocol; and even that would require consensus from a majority of the network's economic participants.
@@ -651,7 +651,7 @@ One of Bitcoin's most underrated strengths is its divisibility. Each bitcoin can
 
 #### A public protocol, verifiable by all
 
-Bitcoin runs on a public, **open-source** protocol(most notably through [Bitcoin Core](https://github.com/bitcoin/bitcoin)). This means its code is freely available for anyone to inspect, audit, and improve. There are no hidden mechanisms or closed systems; everything about how Bitcoin works is out in the open.
+Bitcoin runs on a public, **open-source** protocol (most notably through [Bitcoin Core](https://github.com/bitcoin/bitcoin)). This means its code is freely available for anyone to inspect, audit, and improve. There are no hidden mechanisms or closed systems; everything about how Bitcoin works is out in the open.
 This level of transparency makes it incredibly difficult to introduce backdoors or make secret changes. Anyone with the technical skills can run a node, contribute to development, or build compatible tools. In Bitcoin, trust is earned through code and consensus, not through centralized control.
 
 ![BTC102-Bitcoin](assets/fr/030.webp)
@@ -769,15 +769,15 @@ In this light, Bitcoin is more than technology. It's a tool of natural law, a wa
 
 **Did you know**? Bitcoin is pseudonymous, not anonymous. Users can create wallet addresses without revealing their real identity, allowing them to send and receive funds outside the traditional banking system.
 
-However, contrary to popular belief, Bitcoin does not offer full anonymity. Every transaction is recorded on a public ledger(the blockchain) which anyone can access and verify. While wallet addresses aren't tied to names, a user's financial activity can still be traced and analyzed if proper privacy practices aren't followed.
+However, contrary to popular belief, Bitcoin does not offer full anonymity. Every transaction is recorded on a public ledger (the blockchain) which anyone can access and verify. While wallet addresses aren't tied to names, a user's financial activity can still be traced and analyzed if proper privacy practices aren't followed.
 
 ### A Solution to Monetary and Banking Corruption
 
-Central banks, through their expansionary monetary policies, are constantly eroding your purchasing power. Through inflation and excessive money printing(often disguised as Quantitative Easing) they steadily dilute the value of the currency in circulation. This acts as an invisible tax that, year after year, diminishes the wealth of those who save in government-issued money.
+Central banks, through their expansionary monetary policies, are constantly eroding your purchasing power. Through inflation and excessive money printing (often disguised as Quantitative Easing) they steadily dilute the value of the currency in circulation. This acts as an invisible tax that, year after year, diminishes the wealth of those who save in government-issued money.
 
 Contrary to the common belief that inflation is a natural economic phenomenon, it is in fact a monetary control tool; one that slowly impoverishes the general population while benefiting those who hold financial assets.
 
-If your wealth isn't secured in non-monetary assets(such as real estate, bonds, or stocks);your savings will inevitably lose value over time. Meanwhile, those with access to financial instruments continue to grow their wealth, widening the gap between the economic elite and the rest of society.
+If your wealth isn't secured in non-monetary assets (such as real estate, bonds, or stocks);your savings will inevitably lose value over time. Meanwhile, those with access to financial instruments continue to grow their wealth, widening the gap between the economic elite and the rest of society.
 
 This isn't a flaw in the system; it's a deliberate mechanism. Central banks and governments use it to artificially stimulate economic growth and to push people toward constant consumption and increasing debt.
 
@@ -791,7 +791,7 @@ Unlike fiat currencies, Bitcoin is governed by rules enforced by consensus. Its 
 
 This means Bitcoin operates under a predictable monetary framework; one where inflation is not only transparent, but designed to taper off completely once the final bitcoin is mined.
 
-In the past, gold served as a check against unchecked monetary expansion. But since the collapse of the gold standard in 1971, no national currency(be it the dollar, euro, or yen) is backed by a tangible asset. This detachment gave central banks free rein to print money without restraint, paving the way for decades of aggressive monetary expansion, repeated asset bubbles, and recurring financial crises.
+In the past, gold served as a check against unchecked monetary expansion. But since the collapse of the gold standard in 1971, no national currency (be it the dollar, euro, or yen) is backed by a tangible asset. This detachment gave central banks free rein to print money without restraint, paving the way for decades of aggressive monetary expansion, repeated asset bubbles, and recurring financial crises.
 
 ![BTC102-Bitcoin](assets/fr/042.webp)
 
@@ -823,7 +823,7 @@ Bitcoiners come from all walks of life, yet they share a common vision: a world 
 
 ![BTC102-Bitcoin](assets/fr/043.webp)
 
-Bitcoin, by design, transcends political and ideological divides. It is not left or right, libertarian or collectivist. It is a neutral protocol, governed by rules(not ruler) applied equally to everyone. Yet its mere existence challenges the global financial status quo. Bitcoin has become a symbol of resistance because people have adopted it as an alternative to fiat currencies and centralized financial infrastructure; systems increasingly seen as unjust, manipulable, and exclusionary.
+Bitcoin, by design, transcends political and ideological divides. It is not left or right, libertarian or collectivist. It is a neutral protocol, governed by rules (not ruler) applied equally to everyone. Yet its mere existence challenges the global financial status quo. Bitcoin has become a symbol of resistance because people have adopted it as an alternative to fiat currencies and centralized financial infrastructure; systems increasingly seen as unjust, manipulable, and exclusionary.
 
 To the cypherpunk mind, Bitcoin is more than a digital asset. It stands against the steady erosion of privacy in a world where the disappearance of cash is often justified under the guise of "security."
 Bitcoin enables censorship-resistant, peer-to-peer digital transactions; free from intermediaries or gatekeepers. As Satoshi Nakamoto envisioned, it offers the digital equivalent of cash: a way to exchange value freely, without needing permission.
@@ -843,7 +843,7 @@ Now that we've explored the profound significance of Satoshi Nakamoto's inventio
 
 :::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
-Since its launch in 2009 by the pseudonymous creator Satoshi Nakamoto, Bitcoin has sparked the rise of an entirely new industry; now valued in the hundreds of billions of dollars. Despite its relatively short history, this ecosystem has experienced explosive growth, evolving at an exponential pace over the past decade. Every day, new players(ranging from institutional investors and agile startups to tech giants) pour significant capital and resources into staking their claim in this rapidly expanding sector.
+Since its launch in 2009 by the pseudonymous creator Satoshi Nakamoto, Bitcoin has sparked the rise of an entirely new industry; now valued in the hundreds of billions of dollars. Despite its relatively short history, this ecosystem has experienced explosive growth, evolving at an exponential pace over the past decade. Every day, new players (ranging from institutional investors and agile startups to tech giants) pour significant capital and resources into staking their claim in this rapidly expanding sector.
 
 Today, Bitcoin has reached a critical threshold; a point of no return. Governments, central banks, fintech corporations, and traditional financial institutions can no longer afford to ignore it. Whether through regulation, cautious adoption, or open confrontation, they now recognize Bitcoin's inevitable impact on the global economy.
 
@@ -853,7 +853,7 @@ Bitcoin is a radical innovation, a leap from zero to one. It represents a total 
 
 ![BTC102-Bitcoin](assets/fr/050.webp)
 
-Others, however, see Bitcoin as a once-in-a-generation opportunity: a tool for individual freedom, a catalyst for transforming the global financial system, and a path toward a more transparent and equitable alternative. These are the builders, adopters, and contributors(the ones shaping the future).
+Others, however, see Bitcoin as a once-in-a-generation opportunity: a tool for individual freedom, a catalyst for transforming the global financial system, and a path toward a more transparent and equitable alternative. These are the builders, adopters, and contributors (the ones shaping the future).
 
 **Bitcoin** itself remains neutral. It doesn't seek permission. It doesn't ask for approval.
 **It simply exists.**
@@ -863,12 +863,12 @@ In this chapter, we'll explore the key players driving the Bitcoin industry forw
 ### The proliferation of altcoins
 
 Technically speaking, creating a new cryptocurrency is incredibly easy; it can take just a few minutes and requires little to no actual innovation. The real challenge isn't in the creation, but in the value. And value, in the world of digital assets, is purely determined by the market; by the confidence and demand of its users.
-Back in December 2019, CoinMarketCap listed over 5,000 tokens. By 2025, that number has exploded into the millions, thanks to the rise of NFTs, decentralized finance (DeFi), and countless other applications(some legitimate, many questionable). These tokens come in all shapes and forms: some claim to be currencies, others function as securities, platform utilities, sidechains, or tokenized representations of digital art.
+Back in December 2019, CoinMarketCap listed over 5,000 tokens. By 2025, that number has exploded into the millions, thanks to the rise of NFTs, decentralized finance (DeFi), and countless other applications (some legitimate, many questionable). These tokens come in all shapes and forms: some claim to be currencies, others function as securities, platform utilities, sidechains, or tokenized representations of digital art.
 
 But let's be clear: **most of these cryptocurrencies are little more than scams.**. 
 Behind the veil of flashy technology and slick branding, many of these projects are powered by aggressive marketing strategies designed to do one thing, **extract your bitcoin**. They play on investor greed and ignorance, spinning seductive narratives about revolutionary tech or guaranteed returns; claims that rarely hold up under scrutiny.
 
-Of course, within this sea of noise, a small handful of projects genuinely attempt to push the boundaries. Some focus on solving real technical challenges(scalability, privacy, programmability) and may contribute valuable ideas to the broader space. It's likely that over time, a few of these experiments will lead to useful innovations
+Of course, within this sea of noise, a small handful of projects genuinely attempt to push the boundaries. Some focus on solving real technical challenges (scalability, privacy, programmability) and may contribute valuable ideas to the broader space. It's likely that over time, a few of these experiments will lead to useful innovations
 
 But the fundamental question remains:
 **Can these innovations thrive outside of Bitcoin?**
@@ -914,13 +914,13 @@ Tech giants have joined the race too. Facebook (now Meta) launched its stablecoi
 
 Despite bold marketing, these initiatives don't compete with Bitcoin; they imitate its language while rejecting its core principles. They're built for compliance, not freedom. They're designed to extend surveillance, not protect privacy. They entrench control rather than distribute it.
 
-Facebook's Libra was never meant to challenge the status quo; it was built to work with the system. In contrast, Bitcoin exists entirely outside that system. It doesn't ask for permission. It doesn't rely on trust. And it's been running flawlessly(without leaders, downtime, or central control) for over a decade.
+Facebook's Libra was never meant to challenge the status quo; it was built to work with the system. In contrast, Bitcoin exists entirely outside that system. It doesn't ask for permission. It doesn't rely on trust. And it's been running flawlessly (without leaders, downtime, or central control) for over a decade.
 
 ![BTC102-Bitcoin](assets/fr/051.webp)
 
 ### Regulation and Government Approaches
 
-Bitcoin, by its very nature, operates outside traditional frameworks. It doesn't rely on a central authority and can't be controlled or altered by any single entity. But while the protocol itself is immune to regulation, the participants who interact with it(exchanges, businesses, and users) are still subject to national laws.
+Bitcoin, by its very nature, operates outside traditional frameworks. It doesn't rely on a central authority and can't be controlled or altered by any single entity. But while the protocol itself is immune to regulation, the participants who interact with it (exchanges, businesses, and users) are still subject to national laws.
 
 ![BTC102-Bitcoin](assets/fr/052.webp)
 
@@ -934,7 +934,7 @@ Since Bitcoin is a global network, countries have responded in vastly different 
 
 ![BTC102-Bitcoin](assets/fr/056.webp)
 
-Governments and institutions often struggle to classify Bitcoin accurately(is it money, property, or something entirely new?). As a result, regulations tend to be reactive, inconsistent, and constantly evolving. If you're involved in Bitcoin, it's essential to stay informed about your local landscape; especially when it comes to taxes, banking access, and compliance rules.
+Governments and institutions often struggle to classify Bitcoin accurately (is it money, property, or something entirely new?). As a result, regulations tend to be reactive, inconsistent, and constantly evolving. If you're involved in Bitcoin, it's essential to stay informed about your local landscape; especially when it comes to taxes, banking access, and compliance rules.
 
 ### The Banks' Stance on Bitcoin
 
@@ -1063,7 +1063,7 @@ Bitcoin development can be understood through a few distinct groups of contribut
 
 - **Bitcoin Core developers**, These are the individuals who maintain and improve the main software client. Among these are the maintainers, who hold the keys to managing the repository. In 2025, there are five of them: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao and Ryan Ofsky. Then there are the contributors who submit code changes, bug fixes, or improvements. These proposals go through peer review and community discussion before being accepted.
 - **Developers of Layered protocols**,This group works on technologies that build on top of Bitcoin, like the Lightning Network or RGB, aiming to extend Bitcoin's capabilities without changing its core.
-- **Independent developers**, These developers focus on creating tools and applications to improve the user experience, such as Mempool.space(a visual interface for tracking transaction activity) or Alby( tools for using Lightning payments in browsers and apps).
+- **Independent developers**, These developers focus on creating tools and applications to improve the user experience, such as Mempool.space (a visual interface for tracking transaction activity) or Alby (tools for using Lightning payments in browsers and apps).
 
 Anyone can propose changes to Bitcoin Core, but the process is intentionally rigorous. New ideas often take years to refine and require deep technical understanding, broad community engagement, and multiple layers of review. Proposals are typically submitted in the form of **Bitcoin Improvement Proposals (BIPs)**;some of which never make it into the protocol.
 Innovation is welcome, but only when it's backed by solid reasoning, community consensus, and careful testing.
@@ -1099,7 +1099,7 @@ The Lightning Network, created by Thaddeus Dryja and Joseph Poon in 2016, is a s
 
 ![BTC102-Bitcoin](assets/fr/059.webp)
 
-Let's say you're buying a coffee with Bitcoin using the base layer. For the payment to be confirmed(and for the café to be sure you've actually paid) the transaction needs to be included in a block. That can take several minutes, depending on the fee you've chosen. Technically, the merchant should wait for six confirmations (about an hour) to be fully confident the payment is final. Obviously, that kind of wait doesn't work when you're standing at the counter. With the Lightning Network, the payment goes through in just a few seconds; so your coffee is paid for and served before it even has time to get cool.
+Let's say you're buying a coffee with Bitcoin using the base layer. For the payment to be confirmed (and for the café to be sure you've actually paid) the transaction needs to be included in a block. That can take several minutes, depending on the fee you've chosen. Technically, the merchant should wait for six confirmations (about an hour) to be fully confident the payment is final. Obviously, that kind of wait doesn't work when you're standing at the counter. With the Lightning Network, the payment goes through in just a few seconds; so your coffee is paid for and served before it even has time to get cool.
 
 If you're interested in learning more about how Lightning works, we offer an excellent second-year course dedicated to this topic:
 
@@ -1119,9 +1119,9 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 - **RGB** :
 
-RGB is a decentralized and privacy-focused smart contract system designed to work on top of Bitcoin and the Lightning Network. Unlike traditional smart contract platforms, RGB uses a client-side validation model(meaning that the full contract state is stored off-chain, and only cryptographic commitments are published to the Bitcoin blockchain). This design improves both scalability and privacy. With RGB, users can create advanced smart contracts for issuing tokens, NFTs, decentralized identities, or even DeFi applications, directly on Bitcoin or Lightning.
+RGB is a decentralized and privacy-focused smart contract system designed to work on top of Bitcoin and the Lightning Network. Unlike traditional smart contract platforms, RGB uses a client-side validation model (meaning that the full contract state is stored off-chain, and only cryptographic commitments are published to the Bitcoin blockchain). This design improves both scalability and privacy. With RGB, users can create advanced smart contracts for issuing tokens, NFTs, decentralized identities, or even DeFi applications, directly on Bitcoin or Lightning.
 
-A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's UTXOs (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history(from its creation to its current state).
+A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's UTXOs (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history (from its creation to its current state).
 
 ![BTC102-Bitcoin](assets/fr/060.webp)
 
@@ -1131,7 +1131,7 @@ https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB is just one of many protocols built on top of Bitcoin. While some are more widely adopted than others, new ones continue to emerge. The common thread is the idea of optimizing each layer for a specific task, while preserving the integrity and immutability of Bitcoin's base protocol.
 
-This layered design stands in contrast to much of the broader crypto industry, which often seeks to bundle many features into a single protocol. By keeping Bitcoin simple and narrowly focused, we reduce its attack surface; which means greater security. A lean protocol is easier to secure, maintain, and scale. Bitcoin is designed to do one thing extremely well: provide sound, decentralized money. Everything else(smart contracts, tokens, payments, and more)can be layered on top, allowing innovation without compromising the core.
+This layered design stands in contrast to much of the broader crypto industry, which often seeks to bundle many features into a single protocol. By keeping Bitcoin simple and narrowly focused, we reduce its attack surface; which means greater security. A lean protocol is easier to secure, maintain, and scale. Bitcoin is designed to do one thing extremely well: provide sound, decentralized money. Everything else (smart contracts, tokens, payments, and more) can be layered on top, allowing innovation without compromising the core.
 
 ![BTC102-Bitcoin](assets/fr/058.webp)
 
@@ -1139,7 +1139,7 @@ This layered design stands in contrast to much of the broader crypto industry, w
 
 ### Merchant Tools for Accepting Bitcoin
 
-Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a hot wallet(or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
+Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a hot wallet (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
 
 If you prefer a hands-off solution and want to receive fiat currency directly into your bank account, custodial services like OpenNode offer a streamlined experience:
 
@@ -1153,7 +1153,7 @@ Somewhere in between, you'll find Swiss Bitcoin Pay, a user-friendly yet powerfu
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Accepting Bitcoin can bring several practical and financial benefits to a business. Just like cash, Bitcoin allows for direct payments between the customer and the merchant(no need for a traditional bank). Payments made through the Lightning Network are instant and final, reducing the risk of chargebacks. And when merchants hold their own Bitcoin (self-custody), they gain greater financial autonomy.
+Accepting Bitcoin can bring several practical and financial benefits to a business. Just like cash, Bitcoin allows for direct payments between the customer and the merchant (no need for a traditional bank). Payments made through the Lightning Network are instant and final, reducing the risk of chargebacks. And when merchants hold their own Bitcoin (self-custody), they gain greater financial autonomy.
 
 It can also help cut costs by eliminating banking fees and the need for traditional payment terminals; a smartphone or laptop is often all you need. Even with payment processors involved, fees are generally lower than those charged by banks.
 
@@ -1161,9 +1161,9 @@ Unlike traditional currencies that lose value over time due to inflation, Bitcoi
 
 In day-to-day operations, Bitcoin simplifies payments by removing the need for physical cash, reducing theft risks, and eliminating the possibility of counterfeit money. It's a global currency, making it ideal for international customers since there's no need for currency conversion. For online stores, Bitcoin is especially secure and efficient.
 
-On top of that, accepting Bitcoin can be a smart marketing move. It shows your business is forward-thinking and can attract new customers(especially among younger generations like Gen Z). It's a low-risk, strategic opportunity with minimal costs, mostly limited to the initial setup; which is now easier than ever with the right tools.
+On top of that, accepting Bitcoin can be a smart marketing move. It shows your business is forward-thinking and can attract new customers (especially among younger generations like Gen Z). It's a low-risk, strategic opportunity with minimal costs, mostly limited to the initial setup; which is now easier than ever with the right tools.
 
-If you'd like to explore how Bitcoin can be integrated into your business(whether as a payment method, a treasury asset, or both) we offer a beginner-level course tailored to that need:
+If you'd like to explore how Bitcoin can be integrated into your business (whether as a payment method, a treasury asset, or both) we offer a beginner-level course tailored to that need:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
@@ -1176,13 +1176,13 @@ Bitcoin is now unstoppable.
 
 ### My personal Perspective
 
-I've always found the "Bitcoin highway" metaphor to be one of the most accurate and compelling ways to understand how the ecosystem is evolving; and where it's headinge. Bitcoin isn't just digital money; it's **a growing alternative financial system**, with its own strengths and flaws. While still young and facing challenges, its resilience is undeniable. It's not going away. On the contrary, like a black hole, it will gradually absorb everything around it until it becomes an undeniable monetary standard.
+I've always found the "Bitcoin highway" metaphor to be one of the most accurate and compelling ways to understand how the ecosystem is evolving; and where it's heading. Bitcoin isn't just digital money; it's **a growing alternative financial system**, with its own strengths and flaws. While still young and facing challenges, its resilience is undeniable. It's not going away. On the contrary, like a black hole, it will gradually absorb everything around it until it becomes an undeniable monetary standard.
 
 Picture Bitcoin as a road you're driving on. Right now, to take care of everyday essentials (buying groceries, paying for services, or getting your car fixed), you sometimes have to exit this road; meaning you temporarily return to the old financial system. That's because the Bitcoin infrastructure is still under construction, and some parts of daily life still rely on fiat currency and banks.
 
-But over time, this road will become a fully built-out highway. But over time, this road will become a fully built-out highway.
+But over time, this road will become a fully built-out highway.
 
-That's how I see Bitcoin's future playing out. It might not completely replace traditional finance, but it will outperform it in key areas(efficiency, security, and user adoption) until it becomes the standard for most of the world.
+That's how I see Bitcoin's future playing out. It might not completely replace traditional finance, but it will outperform it in key areas (efficiency, security, and user adoption) until it becomes the standard for most of the world.
 
 If I remember correctly, this metaphor of the Bitcoin highway was first introduced by Andreas Antonopoulos. His vision still holds up today, and with every step forward, we're getting closer to living it.[@aantonop](https://x.com/aantonop)
 
@@ -1281,7 +1281,7 @@ Here are the four key things to decide:
 
 ### Wallets and Security Strategies
 
-Securing your private keys(the ones that give access to your bitcoins) is the most important part of owning and using Bitcoin. Unlike a traditional bank account, where a third party manages your funds, Bitcoin puts you in full control. But with that freedom comes responsibility: if you lose your keys, your bitcoin is gone forever. There are several types of wallets you can use. Each has its own pros and cons depending on your needs and level of experience.
+Securing your private keys (the ones that give access to your bitcoins) is the most important part of owning and using Bitcoin. Unlike a traditional bank account, where a third party manages your funds, Bitcoin puts you in full control. But with that freedom comes responsibility: if you lose your keys, your bitcoin is gone forever. There are several types of wallets you can use. Each has its own pros and cons depending on your needs and level of experience.
 
 ![BTC102-Bitcoin](assets/fr/067.webp)
 
@@ -1325,7 +1325,7 @@ Best for: Long-term holders and anyone securing larger amounts.
 
 #### Multisignature Wallets
 
-Multisig(Multi-signature) wallets require more than one key to approve a transaction. Think of it like a vault that needs two or three combinations to open. These setups are ideal for advanced users, businesses, or anyone looking for top-tier security.
+Multisig (Multi-signature) wallets require more than one key to approve a transaction. Think of it like a vault that needs two or three combinations to open. These setups are ideal for advanced users, businesses, or anyone looking for top-tier security.
 
 Examples: Liana, Casa, Specter, Sparrow
 
@@ -1456,7 +1456,7 @@ The Hodler sees Bitcoin as a store of value, similar to an investor in physical 
 
 #### 2. The stacker
 
-The Stacker is someone who takes a more gradual, consistent approach. They buy Bitcoin regularly, often through a Dollar-Cost Averaging (DCA) strategy.Their goal is to spread out their purchase price over time and reduce the impact of Bitcoin's volatility.
+The Stacker is someone who takes a more gradual, consistent approach. They buy Bitcoin regularly, often through a Dollar-Cost Averaging (DCA) strategy. Their goal is to spread out their purchase price over time and reduce the impact of Bitcoin's volatility.
 
 Preferred strategy :
 
@@ -1512,7 +1512,7 @@ In the Bitcoin community, the term "hodler" refers to someone who takes a long-t
 
 ![BTC102-Bitcoin](assets/fr/071.webp)
 
-Hodlers believe in Bitcoin's value proposition. With a fixed supply of 21 million coins, they see Bitcoin as a long-term store of value(digital gold).
+Hodlers believe in Bitcoin's value proposition. With a fixed supply of 21 million coins, they see Bitcoin as a long-term store of value (digital gold).
 
 ### Why Choose a Hodling Strategy?
 
@@ -1615,7 +1615,7 @@ The hodler's strategy is simple but powerful: buy, secure, and forget. The real 
 
 If you recognize yourself in these personality traits, you're probably a natural Hodler:
 
-- **Patience**: A hodler displays exceptional patience. They're willing to hold Bitcoin for years(sometimes decades)without being rattled by daily price swings. They understand that Bitcoin moves in cycles and don't panic when the price crashes. Corrections are just part of the game. For hodlers, value is measured not in months, but over the long term.;
+- **Patience**: A hodler displays exceptional patience. They're willing to hold Bitcoin for years (sometimes decades) without being rattled by daily price swings. They understand that Bitcoin moves in cycles and don't panic when the price crashes. Corrections are just part of the game. For hodlers, value is measured not in months, but over the long term.;
 - **Long-term vision** : The hodler thinks far beyond short-term profits. They believe in Bitcoin's structural growth and gradual global adoption. Despite the volatility, they see an upward trajectory; one of expansion followed by consolidation. To them, Bitcoin is a long-lasting asset, a hedge against inflation, and a key part of a larger monetary revolution;
 - **Self-discipline**: Mental discipline is core to the hodler mindset. Paradoxically, their greatest challenge is not acting. They resist the urge to sell during price surges and don't give in to fear during crashes. They understand Bitcoin has survived many brutal bear markets; and that those who hold through the pain often benefit the most;
 - **Emotional resilience** : Bitcoin's price can drop 50% or more in a matter of weeks; and yet, the hodler remains calm. They've internalized the idea that volatility doesn't undermine Bitcoin's fundamentals. This emotional toughness allows them to keep a level head during uncertainty and maintain a rational outlook when others panic;
@@ -1894,7 +1894,7 @@ Active users need to strike a balance between their long-term savings and the am
 
 There are several ways to acquire Bitcoin, depending on the level of privacy you're looking for:
 
-- **Traditional purchase through regulated platforms** like Bitfinex or Bull Bitcoin(ideal for topping up your cold wallet);
+- **Traditional purchase through regulated platforms** like Bitfinex or Bull Bitcoin (ideal for topping up your cold wallet);
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
@@ -1975,7 +1975,7 @@ In the next chapter, we'll explore the final and perhaps most intriguing Bitcoin
 
 :::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
-For the paranoid Bitcoiner, privacy isn't optional; its essential. In a world where nearly every financial move is tracked, they see protecting their identity and transaction history as a non-negotiable part of using Bitcoin. They're usually very aware of the risks involved in exposing personal data(especially when using KYC-compliant exchanges that require ID verification).
+For the paranoid Bitcoiner, privacy isn't optional; its essential. In a world where nearly every financial move is tracked, they see protecting their identity and transaction history as a non-negotiable part of using Bitcoin. They're usually very aware of the risks involved in exposing personal data (especially when using KYC-compliant exchanges that require ID verification).
 
 To them, every action matters. Every transaction, every wallet setup, and every interaction with the network is carefully considered. A single slip-up could reveal sensitive information that links their identity to their Bitcoin holdings. Their ultimate goal? Use Bitcoin in a way that keeps their identity, location, and financial situation completely private.
 
@@ -2049,7 +2049,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-When it comes to securing savings, they may implement more sophisticated setups such as multisignature wallets(with or without timelocks).
+When it comes to securing savings, they may implement more sophisticated setups such as multisignature wallets (with or without timelocks).
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
@@ -2170,8 +2170,8 @@ Here are the key traits of a paranoid bitcoiner:
 - **Vigilant and Security-Conscious**: You place immense value on your privacy and are willing to take extra precautions to prevent any leaks of personal information. You see financial surveillance as a serious threat and actively seek ways to protect yourself from it.
 - **Independent**: You refuse to rely on any third-party service to store, manage, or transfer your bitcoins. You're prepared to host your own Bitcoin and Lightning nodes, use complex wallets, and take full responsibility for managing your backups and private keys.
 - **Distrustful**: You actively avoid KYC platforms and prefer anonymous P2P acquisition methods, even if it means paying a premium for them. You understand that any personal data shared could one day be used against you.
-- **Knowledgeable and Disciplined**:You have a passion for cybersecurity and privacy-enhancing technologies. You take the time to study available solutions, test tools, educate yourself on best practices, and apply strict methodologies to minimize risks.
-- **Pragmatic and Realistic**:You understand that complete anonymity is nearly impossible, but you strive to reduce your exposure as much as possible while balancing privacy, security, and usability. Your approach continuously evolves in response to new threats and technological developments.
+- **Knowledgeable and Disciplined**: You have a passion for cybersecurity and privacy-enhancing technologies. You take the time to study available solutions, test tools, educate yourself on best practices, and apply strict methodologies to minimize risks.
+- **Pragmatic and Realistic**: You understand that complete anonymity is nearly impossible, but you strive to reduce your exposure as much as possible while balancing privacy, security, and usability. Your approach continuously evolves in response to new threats and technological developments.
 
 If these traits sound familiar, this strategy is likely a good fit for you. It's demanding and requires consistent effort, but it provides a high level of financial sovereignty and protection against surveillance, seizure, or traceability of your funds.
 
@@ -2199,7 +2199,7 @@ Ensuring the transmission of your bitcoins is a responsibility that is often ove
 
 ### Why it'a necessary to prepare a Bitcoin succession plan?
 
-Imagine a sudden event(an accident or unforeseen circumstance)and you're no longer here. Your family, already grieving, is now faced with another challenge: accessing your bitcoins. They may have heard you talk about private keys, mnemonic phrases, and the irreversibility of transactions, but these concepts may be unclear to them. They're left trying to figure it out on their own.
+Imagine a sudden event (an accident or unforeseen circumstance) and you're no longer here. Your family, already grieving, is now faced with another challenge: accessing your bitcoins. They may have heard you talk about private keys, mnemonic phrases, and the irreversibility of transactions, but these concepts may be unclear to them. They're left trying to figure it out on their own.
 
 You then have two options:
 
@@ -2212,7 +2212,7 @@ Spending just 15 minutes to an hour on an inheritance plan could make all the di
 
 Pamela Morgan, in her book *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, outlines four key goals for a solid inheritance plan:
 
-- Ensure your heirs can access your bitcoins at the right time(but not before);
+- Ensure your heirs can access your bitcoins at the right time (but not before);
 - Minimize the risk of theft or compromise before they inherit the bitcoins;
 - Make sure your heirs know how to secure the bitcoins long-term if they wish;
 - Avoid family disputes and limit legal complications when passing down crypto-assets.
@@ -2261,8 +2261,8 @@ Many people delay this step because of misconceptions that prevent them from tak
 
 - **"*I need to hire a lawyer.*"** → **False**. While a lawyer may be helpful for legal matters, a technical Bitcoin inheritance plan can be set up without one. The most important thing is to have clear and accessible instructions;
 - **"*I need to trust a third party.*"** → **False**. Your plan can be designed in such a way that minimizes the need for trust, such as distributing information across multiple parties or using multi-signature solutions, with or without a timelock;
-- **"*Planning will make my assets easy to steal.*"** → **False**.A well-thought-out plan protects against theft attempts while ensuring that your heirs can recover your funds safely. However, it's important to note that no solution is foolproof: an inheritance plan does increase the risk of theft, depending on what information is shared. We'll discuss this in more detail later;
-- **"*The value of my bitcoins is too small to plan.*"** → **False**.  it's always better to plan ahead. Your loved ones likely don't know the exact amount of Bitcoin you own, and that's a good thing. But if something happens to you, wouldn't they want to recover it, even if they don't know the exact amount? The value of Bitcoin can grow significantly over time, so it's wise to make it easier for them to access your funds, and to avoid giving them false hope about the value or leaving them searching for something that might not exist.
+- **"*Planning will make my assets easy to steal.*"** → **False**. A well-thought-out plan protects against theft attempts while ensuring that your heirs can recover your funds safely. However, it's important to note that no solution is foolproof: an inheritance plan does increase the risk of theft, depending on what information is shared. We'll discuss this in more detail later;
+- **"*The value of my bitcoins is too small to plan.*"** → **False**. It's always better to plan ahead. Your loved ones likely don't know the exact amount of Bitcoin you own, and that's a good thing. But if something happens to you, wouldn't they want to recover it, even if they don't know the exact amount? The value of Bitcoin can grow significantly over time, so it's wise to make it easier for them to access your funds, and to avoid giving them false hope about the value or leaving them searching for something that might not exist.
 - **"*My heirs will figure it out on their own.*"** → **False**. Bitcoin isn't like a regular bank account. Without clear instructions, your loved ones might never be able to access your funds, or only find part of them. Unlike bank accounts, where financial institutions or notaries contact family members upon death, there's no intermediary that will inform your family about your Bitcoin wallet. Therefore, it's up to you to explicitly include it in your estate plan;
 - **"*A smart contract can manage everything.*"** → **False**. A smart contract, such as a multi-sig wallet with a timelock, can be part of the solution, but it will never replace a well-structured plan, especially for people unfamiliar with Bitcoin. Both solutions are complementary.
 
@@ -2446,7 +2446,7 @@ One thing is certain: Bitcoin will continue to exist; producing a new block appr
 
 As global crises continue and inflation erodes the purchasing power of fiat currencies, Bitcoin will naturally draw more people in, those seeking financial freedom and individual sovereignty. This dynamic will keep strengthening Bitcoin and attracting new talent to improve its protocol, its scaling layers, and its everyday use cases in terms of security, privacy, and utility.
 
-### what's your next move?
+### What's your next move?
 
 Ironically, the biggest change won't be Bitcoin; it will be you.
 You'll evolve in how you use, understand, and relate to Bitcoin. Maybe you'll develop a true passion for it, enough to start teaching others, get involved in the community, or simply preserve your wealth for the long term. Whatever your path, Bitcoin will have changed your worldview; and likely your relationship to freedom and financial responsibility.
@@ -2506,7 +2506,7 @@ If you'd like to help educate others, Plan ₿ Network is always looking for con
 
 Thank you so much for taking the BTC102 course.
 
-My name is Rogzy, founder of Découvre Bitcoin and co-founder of the Plan ₿ Network;a platform made possible by our incredible new partners, Tether and Fulgur Ventures, and by our shared mission to educate as many people as possible about Bitcoin.
+My name is Rogzy, founder of Découvre Bitcoin and co-founder of the Plan ₿ Network; a platform made possible by our incredible new partners, Tether and Fulgur Ventures, and by our shared mission to educate as many people as possible about Bitcoin.
 
 Your feedback is incredibly valuable. Feel free to leave comments on the platform and let us know what you thought of this updated version of the course. Your suggestions help us keep improving the quality of our content.
 

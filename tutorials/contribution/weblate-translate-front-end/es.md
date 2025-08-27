@@ -8,8 +8,8 @@ La misión de Plan ₿ Network es proporcionar recursos educativos de primera cl
 
 En este tutorial, te mostraremos cómo contribuir fácilmente a la traducción de los elementos estáticos de nuestro sitio web. Los datos de la plataforma se dividen en dos categorías principales:
 
-- los datos/elementos estáticos del frontend (páginas, botones, etc.);
-- el contenido educativo (tutoriales, cursos, recursos...).
+- Los datos/elementos estáticos del frontend (páginas, botones, etc.);
+- El contenido educativo (tutoriales, cursos, recursos...).
 
 Para traducir los contenidos educativos, utilizamos [inteligencia artificial](https://github.com/Asi0Flammeus/LLM-Translator). Luego, para corregir los eventuales errores de estos archivos, invitamos a los correctores a contribuir. Si deseas corregir algún contenido, consulta el siguiente tutorial:
 

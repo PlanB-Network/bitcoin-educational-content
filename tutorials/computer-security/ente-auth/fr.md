@@ -48,6 +48,7 @@ Ente Auth a été développé par l'équipe derrière Ente Photos, un service de
 Ente Auth est disponible sur la plupart des plateformes courantes. Vous pouvez télécharger l'application depuis [le site officiel](https://ente.io/auth) ou depuis les stores officiels.
 
 ![Installation d'Ente Auth](assets/fr/01.webp)
+
 *Page de téléchargement d'Ente Auth avec toutes les plateformes disponibles*
 
 ### Android
@@ -78,6 +79,7 @@ Sans installation, vous pouvez accéder à vos codes via [auth.ente.io](https://
 Au premier lancement d'Ente Auth, vous avez deux options :
 
 ![Premier lancement d'Ente Auth](assets/fr/02.webp)
+
 *Écran d'accueil d'Ente Auth avec les options de création de compte*
 
 **Avec compte (recommandé)** : Choisissez "Create Account" et saisissez votre adresse e-mail et un mot de passe. **Important** : ce mot de passe sert de master password pour chiffrer vos données. Choisissez-le robuste et unique car il n'existe pas de procédure de réinitialisation classique sans perte de données. Si vous l'égarez, vos données chiffrées seront irrécupérables.
@@ -85,6 +87,7 @@ Au premier lancement d'Ente Auth, vous avez deux options :
 **Mode hors-ligne** : Sélectionnez "Use without backups" pour utiliser l'application localement sans cloud. Dans ce mode, vos codes restent sur l'appareil mais vous devrez les exporter manuellement pour éviter leur perte.
 
 ![Vérification email et récupération de clé](assets/fr/03.webp)
+
 *Processus de vérification email et génération de la clé de récupération de 24 mots*
 
 Une vérification par e-mail peut être demandée pour valider la création du compte et permettre la restauration sur un nouvel appareil. Ente Auth vous fournira également une clé de récupération de 24 mots (basée sur la méthode BIP39). **Sauvegardez impérativement cette clé** dans un endroit sûr : c'est votre seul moyen de récupérer vos données si vous oubliez votre mot de passe.
@@ -106,24 +109,29 @@ Cette protection empêche un accès non autorisé à vos codes si quelqu'un acc�
 Pour ajouter un nouveau compte 2FA, nous allons prendre l'exemple concret d'activation de la 2FA sur Bull Bitcoin :
 
 ![Configuration du premier compte](assets/fr/04.webp)
+
 *Interface principale d'Ente Auth prête pour ajouter le premier compte 2FA*
 
 **Côté service (Bull Bitcoin)** : Connectez-vous à votre compte Bull Bitcoin, allez dans les paramètres de sécurité, et activez l'authentification à deux facteurs.
 
 ![Paramètres de sécurité Bull Bitcoin](assets/fr/05.webp)
+
 *Menu des paramètres de sécurité dans l'interface Bull Bitcoin*
 
 ![Activation 2FA Bull Bitcoin](assets/fr/06.webp)
+
 *Option d'activation de l'authentification à deux facteurs sur Bull Bitcoin*
 
 Le service affichera alors un QR code à scanner avec votre application d'authentification :
 
 ![QR code 2FA Bull Bitcoin](assets/fr/07.webp)
+
 *QR code généré par Bull Bitcoin à scanner avec votre authentificateur*
 
 **Dans Ente Auth** : Cliquez sur "Enter a setup key" puis scannez le QR code affiché par Bull Bitcoin. Ente Auth reconnaîtra automatiquement le compte et remplira les champs.
 
 ![Ajout du compte dans Ente Auth](assets/fr/08.webp)
+
 *Configuration des détails du compte Bull Bitcoin dans Ente Auth*
 
 Vous pouvez personnaliser le nom du service et votre identifiant pour un meilleur repérage. Les paramètres avancés (algorithme SHA1, période 30s, 6 chiffres) sont généralement corrects par défaut.
@@ -131,17 +139,21 @@ Vous pouvez personnaliser le nom du service et votre identifiant pour un meilleu
 **Validation côté service** : Retournez sur Bull Bitcoin et saisissez le code à 6 chiffres généré par Ente Auth pour finaliser l'activation.
 
 ![Saisie du code 2FA](assets/fr/09.webp)
+
 *Saisie du code généré par Ente Auth pour valider l'activation 2FA*
 
 ![2FA activée](assets/fr/10.webp)
+
 *Confirmation de l'activation réussie de la 2FA sur Bull Bitcoin*
 
 **Codes de sauvegarde** : Bull Bitcoin vous proposera des codes de récupération. **Sauvegardez-les impérativement** dans un endroit sûr, séparé de votre authentificateur.
 
 ![Gestion des codes de sauvegarde](assets/fr/11.webp)
+
 *Option pour générer des codes de sauvegarde d'urgence sur Bull Bitcoin*
 
 ![Codes de récupération](assets/fr/12.webp)
+
 *Liste des codes de récupération à conserver en lieu sûr*
 
 ### Organisation et gestion
@@ -155,9 +167,11 @@ Ente Auth propose plusieurs fonctionnalités pratiques :
 **Tags et recherche** : Organisez vos comptes avec des étiquettes (personnel/professionnel, par catégorie de service) et utilisez la barre de recherche pour filtrer rapidement.
 
 ![Création d'un tag](assets/fr/17.webp)
+
 *Processus de création d'un tag : menu contextuel et dialogue de création*
 
 ![Tag appliqué](assets/fr/18.webp)
+
 *Tag "bitcoin" appliqué avec succès sur le compte Bull Bitcoin*
 
 **Icônes automatiques** : Chaque entrée peut être illustrée par le logo du service grâce à l'intégration du pack d'icônes [Simple Icons](https://simpleicons.org/).
@@ -165,6 +179,7 @@ Ente Auth propose plusieurs fonctionnalités pratiques :
 **Partage sécurisé temporaire** : Fonctionnalité unique d'Ente Auth, le partage sécurisé permet de transmettre un code 2FA à un collègue sans révéler le secret sous-jacent. Générez un lien chiffré valable 2, 5 ou 10 minutes maximum - le destinataire voit le code en temps réel mais ne peut ni l'exporter ni accéder aux données du compte. Cette méthode est idéale pour l'assistance technique ou la collaboration temporaire, offrant un niveau de sécurité impossible avec une simple capture d'écran ou message texte.
 
 ![Partage sécurisé](assets/fr/19.webp)
+
 *Interface de partage sécurisé temporaire : choix de la durée (5 min)*
 
 **Export/Import sécurisé** : Ente Auth permet d'exporter vos codes vers d'autres applications ou d'importer depuis Google Authenticator et d'autres solutions. L'export se fait via un fichier chiffré ou un QR code, garantissant la portabilité de vos données sans compromettre leur sécurité.
@@ -176,11 +191,13 @@ Ente Auth propose plusieurs fonctionnalités pratiques :
 Ente Auth offre de nombreuses options de personnalisation accessibles via les paramètres de l'application :
 
 ![Paramètres principaux d'Ente Auth](assets/fr/13.webp)
+
 *Vue d'ensemble des paramètres disponibles dans Ente Auth*
 
 ### Gestion du compte et des données
 
 ![Paramètres de sécurité](assets/fr/14.webp)
+
 *Options de sécurité avancées : vérification email, code PIN, sessions actives*
 
 Les paramètres de sécurité permettent de :
@@ -192,6 +209,7 @@ Les paramètres de sécurité permettent de :
 ### Options d'interface et d'usage
 
 ![Paramètres généraux](assets/fr/15.webp)
+
 *Paramètres d'interface et de personnalisation de l'application*
 
 Les paramètres généraux incluent :
@@ -213,6 +231,7 @@ Grâce à ce mécanisme, une sauvegarde cloud chiffrée de bout en bout de vos c
 Si vous utilisez Ente Auth sur smartphone et ordinateur, tout ajout ou modification sur un appareil apparaît en quelques secondes sur l'autre. Cette synchronisation passe par le cloud d'Ente, mais comme les données sont chiffrées de bout en bout, le serveur ne voit que du contenu crypté illisible.
 
 ![Synchronisation mobile](assets/fr/16.webp)
+
 *Démonstration de la synchronisation : même compte Bull Bitcoin accessible sur mobile et desktop*
 
 La synchronisation est transparente : installez Ente Auth sur votre smartphone, connectez-vous avec vos identifiants, et tous vos codes 2FA (ici Bull Bitcoin) apparaissent automatiquement. L'exemple ci-dessus montre la synchronisation parfaite entre desktop et mobile - le même code Bull Bitcoin est accessible sur les deux appareils.

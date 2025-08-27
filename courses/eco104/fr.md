@@ -23,13 +23,13 @@ Si ce que vous venez de lire a suscité votre intérêt, nous espérons que vous
 
 À quoi s'attendre :
 
-Accessible aux débutants.
-Environ 3 heures de contenu à votre propre rythme.
-Quizz interactifs pour tester vos connaissances.
-Écrit par des professionnels de l'industrie.
-Exemples du monde entier et de tous les horizons.
+- Accessible aux débutants
+- Environ 3 heures de contenu à votre propre rythme
+- Quizz interactifs pour tester vos connaissances
+- Écrit par des professionnels de l'industrie
+- Exemples du monde entier et de tous les horizons
 
-Exigences : Une passion pour l'apprentissage.
+Exigences : Une passion pour l'apprentissage
 
 Ce cours a été sponsorisé par TETHER.
 

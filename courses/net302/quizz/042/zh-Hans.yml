@@ -1,0 +1,9 @@
+question: 域名的哪个要素代表顶级域名 (TLD)？
+answer: 最右边的元素
+wrong_answers:
+  - 最左边的元素
+  - 主机之后的第二级
+  - 主主机名
+explanation: |
+  顶级域名总是 FQDN 最右边的元素，如 .com、.org 或 .fr。
+reviewed: false

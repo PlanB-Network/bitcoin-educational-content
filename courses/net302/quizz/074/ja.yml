@@ -1,0 +1,9 @@
+question: 世界中のIPv6 Addressブロックの初期割り当てを管理する組織はどこですか？
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - アリン
+explanation: |
+  IANAは割り当て階層の最上位に位置し、IPv6ブロックを5つの地域インターネットレジストリ（RIR）に委譲している。
+reviewed: false

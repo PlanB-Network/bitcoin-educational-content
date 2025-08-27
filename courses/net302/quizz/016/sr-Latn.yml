@@ -1,0 +1,9 @@
+question: Šta IP protokol radi ako datagram premaši MTU mreže kroz koju prolazi?
+answer: On to fragmentiše na nekoliko delova
+wrong_answers:
+  - Šifruje ceo datagram pre slanja
+  - Uvek ga odbija i šalje poruku o grešci
+  - On to kompresuje pre nego što prenese
+explanation: |
+  Ako veličina datagrama premašuje MTU, ruter ga fragmentira u nekoliko manjih paketa koji odgovaraju ciljnoj mreži.
+reviewed: false

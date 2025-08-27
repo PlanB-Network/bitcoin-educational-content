@@ -1,0 +1,9 @@
+question: Welche grundlegenden Informationen muss ein NAT-Gateway für jeden Netzwerkfluss aufzeichnen?
+answer: Die Zuordnung zwischen interner IP und öffentlicher IP
+wrong_answers:
+  - Typ des verwendeten Netzwerkkabels
+  - Die Zuordnung zwischen IP Address und DNS-Server
+  - Art des verwendeten Netzwerkprotokolls
+explanation: |
+  NAT stützt sich auf eine Übersetzungstabelle, die die Zuordnung zwischen internen und öffentlichen Adressen festhält, um sicherzustellen, dass die Pakete korrekt weitergeleitet werden.
+reviewed: false

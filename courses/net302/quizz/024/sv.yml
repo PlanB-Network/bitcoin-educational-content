@@ -1,0 +1,9 @@
+question: Vilken är TCP-protokollets viktigaste roll i TCP/IP-modellen?
+answer: Säkerställa tillförlitlig och ordnad dataöverföring
+wrong_answers:
+  - Kryptera nätverkskommunikation
+  - Tilldela IP-adresser till maskiner
+  - Fragmentera datagram på den fysiska nivån
+explanation: |
+  TCP säkerställer tillförlitlig dataöverföring genom att verifiera integriteten, upprätthålla ordningen och hantera återställning vid förlust.
+reviewed: false

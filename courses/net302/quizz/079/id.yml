@@ -1,0 +1,9 @@
+question: Jenis record DNS apa yang digunakan untuk memetakan nama domain dengan IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Tipe AAAA (quad-A) digunakan untuk memetakan nama domain dengan IPv6 Address, sedangkan tipe A dicadangkan untuk IPv4.
+reviewed: false

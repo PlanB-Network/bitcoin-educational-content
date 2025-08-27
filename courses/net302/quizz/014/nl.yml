@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van IPv5 (Stream Protocol, ST)?
+answer: Servicekwaliteit garanderen voor bepaalde stromen
+wrong_answers:
+  - IP-adresseringscapaciteit uitbreiden
+  - Achterwaartse compatibiliteit met IPv6 bieden
+  - De grootte van TCP/IP-netwerkpakketten verkleinen
+explanation: |
+  IPv5 (ST) werd ontworpen om quality of service (QoS) te bieden voor multimediastromen, zoals VoIP, door bandbreedte en prioriteit te garanderen.
+reviewed: false

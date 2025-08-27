@@ -1,0 +1,9 @@
+question: Wie lang ist die Länge eines Standard-IPv4-Address in Bits?
+answer: 32-Bit
+wrong_answers:
+  - 8 Bits
+  - 128-Bit
+  - 16 Bits
+explanation: |
+  Ein IPv4 Address ist mit 32 Bits kodiert, die in vier Bytes zu je 8 Bits unterteilt sind.
+reviewed: false

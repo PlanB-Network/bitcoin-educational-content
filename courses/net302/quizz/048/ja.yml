@@ -1,0 +1,9 @@
+question: MAC AddressはOSIモデルのどのLayerに属するか？
+answer: データリンク Layer
+wrong_answers:
+  - アプリケーション Layer
+  - 輸送 Layer
+  - ネットワーク Layer
+explanation: |
+  MAC Addressは、「データリンクLayer」として知られるOSIモデルのLayer 2で動作し、フレームのハードウェアアドレス指定に使用される。
+reviewed: false

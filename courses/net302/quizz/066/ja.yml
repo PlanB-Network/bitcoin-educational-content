@@ -1,0 +1,9 @@
+question: 自動的に割り当てられたIPv6のAddressに関連する2つのライフタイムは何ですか？
+answer: 優先寿命と有効寿命
+wrong_answers:
+  - リースタイムとホールドタイム
+  - 有効期限と期限切れ
+  - 初期寿命と二次寿命
+explanation: |
+  プリファード・ライフタイムは、Addressの通常使用期間を決定し、有効ライフタイムは、有効期間の合計を決定する。
+reviewed: false

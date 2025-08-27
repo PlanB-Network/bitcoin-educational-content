@@ -1,0 +1,9 @@
+question: Welk document dient als technische referentie voor de TCP/IP protocolspecificaties?
+answer: RFC
+wrong_answers:
+  - Witboek
+  - ISO
+  - IIP
+explanation: |
+  RFC's (Request For Comments) zijn de referentiedocumenten die de TCP/IP-protocolspecificaties definiëren.
+reviewed: false

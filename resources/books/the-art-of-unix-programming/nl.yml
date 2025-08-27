@@ -1,0 +1,6 @@
+title: "De kunst van Unix programmeren"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  The Art of Unix Programming van Eric S. Raymond is een gids voor gemiddeld niveau die de filosofie, ontwerpprincipes en praktische aspecten van Unix-programmeren verkent. Het behandelt onderwerpen zoals de Unix programmeeromgeving, shell scripting, system calls en interprocess communicatie. Met duidelijke uitleg en voorbeelden laat het boek de kracht en flexibiliteit van Unix als programmeerplatform zien, terwijl de nadruk wordt gelegd op eenvoud en modulair ontwerp. Het bespreekt ook de geschiedenis en het collaboratieve karakter van Unix ontwikkeling. Over het algemeen biedt het waardevolle inzichten voor ontwikkelaars die hun Unix programmeervaardigheden willen verbeteren.

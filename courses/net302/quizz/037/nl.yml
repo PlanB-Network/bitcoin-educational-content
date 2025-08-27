@@ -1,0 +1,9 @@
+question: Wat is het doel van de speciale IPv4-notatie 0.0.0.0?
+answer: Om alle interfaces of een niet toegewezen Address aan te wijzen
+wrong_answers:
+  - Een bericht naar alle netwerken sturen
+  - De lokale verbinding van een apparaat testen
+  - Om een adresserings- of verbindingsfout op de lokale router aan te geven
+explanation: |
+  De 0.0.0.0 notatie wordt lokaal gebruikt om de afwezigheid van een toegewezen Address weer te geven of om op alle interfaces te luisteren.
+reviewed: false

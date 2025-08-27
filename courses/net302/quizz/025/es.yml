@@ -1,0 +1,9 @@
+question: ¿Para qué se utilizan los puertos reservados en el modelo TCP/IP?
+answer: Escuchar las solicitudes de servicios específicos
+wrong_answers:
+  - Para la encapsulación automática de datagramas generate
+  - Enrutar físicamente las tramas de red
+  - Para controlar la fragmentación de paquetes UDP
+explanation: |
+  Los puertos son puntos de escucha lógicos que permiten a las aplicaciones de red diferenciar entre varios servicios que se ejecutan en el mismo host.
+reviewed: false

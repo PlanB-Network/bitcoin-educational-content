@@ -1,0 +1,9 @@
+question: Mitä protokollaa käytetään IP Address:n ja MAC Address:n yhdistämiseen Ethernet-verkossa?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) kartoittaa IP-osoitteet paikallisverkon MAC-osoitteisiin.
+reviewed: false

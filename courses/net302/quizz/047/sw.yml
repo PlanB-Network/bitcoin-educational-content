@@ -1,0 +1,9 @@
+question: Ni neno gani linalorejelea baiti tatu za kwanza za MAC Address?
+answer: OUI (Kitambulisho cha Kipekee cha Shirika)
+wrong_answers:
+  - SID (Kitambulisho cha Kikao)
+  - LUI (Kitambulisho cha Kipekee cha Ndani)
+  - PAN (Nambari halisi ya Address)
+explanation: |
+  OUI imetolewa na IEEE na inamtambulisha mtengenezaji wa kadi ya mtandao katika MAC Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni amri gani ya kihistoria inayoweza kutumika kushauriana na kashe ya ARP kwenye mifumo mingi?
+answer: arp
+wrong_answers:
+  - kuchimba
+  - kuangalia
+  - ping
+explanation: |
+  Amri ya arp hukuruhusu kuona au kurekebisha kashe ya ARP, ambayo huhifadhi ramani za IP/MAC ndani ya nchi.
+reviewed: false

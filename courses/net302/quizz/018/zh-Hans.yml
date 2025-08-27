@@ -1,0 +1,9 @@
+question: 什么是 IP 协议中的数据报？
+answer: 通过网络传输的独立数据块
+wrong_answers:
+  - 发送给单个设备的加密信息
+  - 用 UDP 封装的 TCP 网段
+  - 来自网络接入 Layer 的物理信号
+explanation: |
+  IP 数据以数据报的形式传输，数据报是独立的数据块，包含传输所需的全部信息。
+reviewed: false

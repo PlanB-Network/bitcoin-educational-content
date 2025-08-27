@@ -1,0 +1,9 @@
+question: 什麼是 IPv6 中的 anycast Address？
+answer: 指派給多個節點的 Address
+wrong_answers:
+  - 專用於全球多點傳送的 Address
+  - 每次重新開機都會變更的 Address
+  - 預留給技術文件的 Address
+explanation: |
+  一個 anycast Address 會被指派給多個裝置，而路由會將封包傳送到拓樸學上最接近的裝置。
+reviewed: false

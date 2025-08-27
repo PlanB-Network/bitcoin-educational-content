@@ -1,0 +1,9 @@
+question: Điểm yếu chính của mạng vòng là gì?
+answer: Sự cố của một thiết bị duy nhất có thể làm gián đoạn toàn bộ mạng
+wrong_answers:
+  - Cần rất nhiều dây cáp để kết nối từng thiết bị
+  - Thật khó để mở rộng
+  - Việc quản lý nó rất phức tạp
+explanation: |
+  Trong cấu trúc vòng, lỗi của một thiết bị sẽ phá vỡ vòng lặp và ngăn dữ liệu lưu thông.
+reviewed: false

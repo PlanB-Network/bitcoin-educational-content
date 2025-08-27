@@ -1,0 +1,9 @@
+question: Milline organisatsioon haldab IPv6 Address plokkide esialgset jaotamist kogu maailmas?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA asub jaotamise hierarhia tipus, delegeerides IPv6-blokid viiele piirkondlikule internetiregistrile (RIR).
+reviewed: false

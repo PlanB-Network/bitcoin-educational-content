@@ -546,6 +546,7 @@ Currently, the scenario of a majority owner making the decision is the most repr
 - **Owners of very small businesses** : Entrepreneurs in services, agriculture, or craft industries who have understood Bitcoin’s potential and allocate a portion of their treasury to it. Their primary motivation lies in diversification and the freedom it provides
 - **Publicly traded companies** like MicroStrategy have set a precedent by converting a significant portion of their corporate treasury into Bitcoin, demonstrating a global shift in corporate capital allocation strategies. By the fall of 2024, numerous other companies had followed suit, further legitimizing this trend.
 
+Discover the updated list of companies holding the most bitcoins in treasury, as well as the amounts held, on the site: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Taxation of bitcoin held by businesses
 
 For businesses that are not structured as separate legal entities—such as sole proprietorships or other non-incorporated entities—the taxation of Bitcoin transactions often mirrors the treatment applied to individuals. In many cases, the same rules governing capital gains or income apply, just as they would if an individual were selling Bitcoin. For instance, in some countries, profits might be considered part of the entrepreneur’s personal income, subject to **personal income tax brackets**.

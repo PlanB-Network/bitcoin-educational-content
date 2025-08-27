@@ -1,0 +1,9 @@
+question: کدام فایل به‌طور تاریخی برای حل محلی قبل از ظهور DNS جهانی استفاده می‌شد؟
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  قبل از اینکه DNS به طور گسترده مورد استفاده قرار گیرد، حل نام به فایل استاتیک /etc/hosts در سیستم‌های یونیکس/لینوکس متکی بود.
+reviewed: false

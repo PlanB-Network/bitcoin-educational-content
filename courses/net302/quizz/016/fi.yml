@@ -1,0 +1,9 @@
+question: Mitä IP-protokolla tekee, jos datagrammi ylittää sen läpi kulkevan verkon MTU:n?
+answer: Hän hajottaa sen useisiin osiin
+wrong_answers:
+  - Se salaa koko datagrammin ennen lähettämistä
+  - Se hylkää sen aina ja lähettää virheilmoituksen
+  - Hän tiivistää sen ennen lähettämistä
+explanation: |
+  Jos datagrammin koko ylittää MTU:n, reititin pirstoo sen useisiin pienempiin paketteihin, jotka sopivat kohdeverkkoon.
+reviewed: false

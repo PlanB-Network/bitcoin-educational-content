@@ -1,0 +1,9 @@
+question: 什么拓扑结构能将所有设备连接到一个中心点？
+answer: 明星
+wrong_answers:
+  - 环
+  - 巴士
+  - 网眼
+explanation: |
+  在星型拓扑结构中，每台设备都与中央设备相连，便于管理和维护。
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Jinsi ya kununua Bitcoin kwenye Wallet yako mwenyewe na Bittr
+name: Bittr
 description: Mwongozo rahisi wa hatua kwa hatua wa ununuzi wa Bitcoin wa kujilinda
 ---
 

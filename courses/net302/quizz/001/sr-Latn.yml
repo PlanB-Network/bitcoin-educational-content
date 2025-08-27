@@ -1,0 +1,9 @@
+question: Koja topologija povezuje svu opremu na jednu centralnu tačku?
+answer: Zvezda
+wrong_answers:
+  - Prsten
+  - Autobus
+  - Mreža
+explanation: |
+  U zvezdastoj topologiji, svaki uređaj je povezan sa centralnim uređajem, što olakšava upravljanje i održavanje.
+reviewed: false

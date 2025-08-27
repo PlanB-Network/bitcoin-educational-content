@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la IPv4 Address katika mtandao wa kompyuta?
+answer: Tambua mtandao wa Interface pekee
+wrong_answers:
+  - Tambua kifaa kizima kwenye mtandao
+  - Weka kwa nguvu anwani za MAC kwenye mtandao
+  - Majina ya generate DNS
+explanation: |
+  IPv4 Address imepewa kila mtandao Interface wa kifaa, kuwezesha kupatikana na kufikiwa kwenye mtandao.
+reviewed: false

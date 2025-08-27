@@ -1,0 +1,9 @@
+question: Vilken är MAC Address:s huvudsakliga funktion i ett lokalt nätverk?
+answer: Identifiera ett nätverk på ett unikt sätt Interface
+wrong_answers:
+  - Översätt ett domännamn till en IP Address
+  - Dynamisk tilldelning av en IP Address till en värd
+  - Bestäm hastigheten på din internetanslutning
+explanation: |
+  MAC Address fungerar som en unik hårdvaruidentifierare för varje nätverk Interface, vilket gör det möjligt att fysiskt skilja enheter åt i ett lokalt nätverk.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist protokolli kasutab käsk ping võrguühenduse testimiseks?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Käsk ping kasutab ICMP-protokolli, et saata kaja päringuid ja mõõta võrgu latentsust.
+reviewed: false

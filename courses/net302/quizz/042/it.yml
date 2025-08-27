@@ -1,0 +1,9 @@
+question: Quale elemento di un nome di dominio rappresenta il dominio di primo livello (TLD)?
+answer: L'elemento più a destra
+wrong_answers:
+  - L'elemento più a sinistra
+  - Il secondo livello dopo l'host
+  - Il nome dell'host principale
+explanation: |
+  Il TLD è sempre l'elemento più a destra dell'FQDN, come .com, .org o .fr.
+reviewed: false

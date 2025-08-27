@@ -1,0 +1,9 @@
+question: Mikä on IPv6:n käyttöönoton päätavoite?
+answer: Tarjota käytännössä rajoittamaton Address-tila
+wrong_answers:
+  - Ethernetin läpäisykyvyn lisääminen 4-kertaiseksi
+  - TCP:n korvaaminen asteittain UDP:llä
+  - Vähennä tavujen määrää pakettia kohti
+explanation: |
+  IPv6:n päätarkoituksena on ratkaista IP-osoitteiden puute laajentamalla Address-avaruutta huomattavasti.
+reviewed: false

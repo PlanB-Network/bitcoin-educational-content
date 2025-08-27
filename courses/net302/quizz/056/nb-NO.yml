@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med nettverksbinding?
+answer: Aggregerer flere fysiske nettverksgrensesnitt
+wrong_answers:
+  - Legg til virtuelle IP-adresser i det lokale nettverket
+  - Opprette en Wi-Fi-bro
+  - Reduser pakkestørrelsen på RJ45-kabelen
+explanation: |
+  Network bonding kombinerer flere fysiske grensesnitt til ett enkelt logisk grensesnitt, noe som gir redundans eller økt båndbredde.
+reviewed: false

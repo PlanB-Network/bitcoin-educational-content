@@ -1,0 +1,9 @@
+question: Na czym polega sztuczna modyfikacja MAC Address?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Phishing
+  - MAC Sniffing
+  - Keylogging na komputerach Mac
+explanation: |
+  MAC spoofing to działanie polegające na zmianie sprzętowego Address sieci Interface, często ze względów prywatności lub w celu ominięcia ograniczeń.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: 如何使用 Bittr 將 Bitcoin 購買成自己的 Wallet
+name: Bittr
 description: 自行保管 Bitcoin 購買的簡易步驟指南
 ---
 

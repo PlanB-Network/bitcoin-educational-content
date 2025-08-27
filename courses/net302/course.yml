@@ -17,8 +17,6 @@ contributor_names:
 
 published_at: 2025-07-22
 
-test_only: true
-
 tags:
   - protocols
   - network-security
@@ -40,3 +38,108 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 74.26
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 173.14
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.7
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 148.42
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.26
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 148.42
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.7
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.7

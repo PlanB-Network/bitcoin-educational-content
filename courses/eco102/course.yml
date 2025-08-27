@@ -132,6 +132,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 17.45
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.23
 tags:
   - finance
   - historical

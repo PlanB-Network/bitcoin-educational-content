@@ -1,0 +1,9 @@
+question: Mit welchem Befehl kann man einen DNS-Server abfragen, um die IP Address einer Domain zu erhalten?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup ist ein DNS-Abfragetool zur Auflösung von Domänennamen in IP-Adressen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Datei wurde in der Vergangenheit vor der Einführung des globalen DNS für die lokale Auflösung verwendet?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Bevor DNS weit verbreitet war, basierte die Namensauflösung auf der statischen Datei /etc/hosts auf Unix/Linux-Systemen.
+reviewed: false

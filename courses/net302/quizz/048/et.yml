@@ -1,0 +1,9 @@
+question: Millisesse OSI mudeli Layer kuulub MAC Address?
+answer: Andmelink Layer
+wrong_answers:
+  - Taotlus Layer
+  - Transport Layer
+  - Võrk Layer
+explanation: |
+  MAC Address töötab OSI-mudeli Layer 2-s, mida tuntakse kui "andmelink Layer", kus seda kasutatakse raamide riistvaraliseks adresseerimiseks.
+reviewed: false

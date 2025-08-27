@@ -1,0 +1,9 @@
+question: 哪種解析方法需要將 IPv6 Address 的每個十六進位數字反轉為反向區域？
+answer: 反向解析度
+wrong_answers:
+  - 相反解析度
+  - 主要解析度
+  - 二次解析度
+explanation: |
+  對於反向解析，完整 IPv6 Address 的每個 nibble 都會反向，並以點分隔，然後以 ip6.arpa 為後綴。
+reviewed: false

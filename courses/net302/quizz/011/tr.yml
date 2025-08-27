@@ -1,0 +1,9 @@
+question: IPv5'in hiçbir zaman yaygın olarak kullanılmamasının ana nedeni nedir?
+answer: Deneysel olarak kaldı
+wrong_answers:
+  - Konuşlandırılması çok maliyetliydi
+  - IPv6 ile uyumlu değildi
+  - Büyük güvenlik açıkları vardı
+explanation: |
+  IPv5 yalnızca deneysel olarak uygulanmıştır. Hiçbir zaman standartlaştırılmadı veya yaygın olarak benimsenmedi ve sonunda IPv6 lehine terk edildi.
+reviewed: false

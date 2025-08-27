@@ -1,0 +1,9 @@
+question: Mikä TCP:n ominaisuus optimoi läpäisykyvyn mukauttamalla ilman välitöntä kuittausta lähetettävien segmenttien määrää?
+answer: Liukuikkuna
+wrong_answers:
+  - Dynaaminen pirstoutuminen
+  - Pakettikytkentä
+  - Staattinen reititys
+explanation: |
+  Liukuva ikkuna" mahdollistaa useiden segmenttien lähettämisen peräkkäin ja siirtää sitten aluetta jokaisen kuittauksen yhteydessä virtauksen optimoimiseksi.
+reviewed: false

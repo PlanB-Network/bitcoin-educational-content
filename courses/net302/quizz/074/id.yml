@@ -1,0 +1,9 @@
+question: Organisasi mana yang mengelola alokasi awal blok IPv6 Address di seluruh dunia?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA berada di puncak hierarki alokasi, mendelegasikan blok IPv6 ke lima Regional Internet Registries (RIR).
+reviewed: false

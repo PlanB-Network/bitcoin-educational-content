@@ -1,0 +1,30 @@
+id: 637d4252-cd09-4b9f-93e8-41726cf75ae8
+
+category: point-of-sale
+
+level: beginner
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-07
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+  - language: it
+    last_contribution_date: 2025-08-07
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+tags:
+  - business
+  - adoption
+  - investment
+  - market-trends

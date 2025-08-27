@@ -1,0 +1,9 @@
+question: Jaká je číselná hodnota klasické verze internetového protokolu (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 odpovídá hodnotě 4 v poli "Version" v záhlaví IP.
+reviewed: false

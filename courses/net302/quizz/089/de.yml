@@ -1,0 +1,9 @@
+question: Welches Protokoll verwendet der Ping-Befehl, um die Netzwerkkonnektivität zu testen?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Der Ping-Befehl verwendet das ICMP-Protokoll, um Echoanfragen zu senden und die Netzwerklatenz zu messen.
+reviewed: false

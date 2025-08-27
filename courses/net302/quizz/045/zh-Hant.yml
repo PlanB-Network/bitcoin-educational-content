@@ -1,0 +1,9 @@
+question: 人為修改您的 MAC Address 的做法是什麼？
+answer: MAC 詐騙
+wrong_answers:
+  - MAC 網路釣魚
+  - MAC 嗅探
+  - Mac 鍵盤記錄
+explanation: |
+  MAC 詐騙是變更網路 Interface 的硬體 Address 的行為，通常是為了隱私理由或繞過限制。
+reviewed: false

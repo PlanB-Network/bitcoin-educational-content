@@ -1,0 +1,9 @@
+question: Millised on kaks automaatselt määratud IPv6 Address-ga seotud kasutusiga?
+answer: Eelistatud kasutusiga ja kehtivusaeg
+wrong_answers:
+  - Rendiaeg ja ooteaeg
+  - Eluaeg ja aegumine
+  - Esialgne eluiga ja teisene eluiga
+explanation: |
+  Eelistatud kasutusiga määrab Address normaalse kasutusaja ja kehtivusaeg selle kogu kehtivusaja.
+reviewed: false

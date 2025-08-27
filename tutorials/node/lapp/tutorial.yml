@@ -124,6 +124,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.97
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
 tags:
   - development
   - lightning

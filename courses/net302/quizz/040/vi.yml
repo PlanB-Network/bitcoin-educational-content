@@ -1,0 +1,9 @@
+question: Bản ghi nào là bắt buộc trong mọi tệp vùng DNS?
+answer: SOA (Bắt đầu của thẩm quyền)
+wrong_answers:
+  - PTR (Con trỏ)
+  - AAAA (IPv6 Address)
+  - SRV (Trình định vị dịch vụ)
+explanation: |
+  Bản ghi SOA xác định quyền hạn vùng và là bắt buộc trong mọi tệp vùng DNS.
+reviewed: false

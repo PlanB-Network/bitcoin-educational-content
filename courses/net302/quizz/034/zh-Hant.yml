@@ -1,0 +1,9 @@
+question: IPv4 Address 在電腦網路中的主要角色是什麼？
+answer: 唯一識別網路 Interface
+wrong_answers:
+  - 識別網路中的整個裝置
+  - 在網路上動態指定 MAC 位址
+  - generate DNS 名稱
+explanation: |
+  IPv4 Address 會指定給裝置的每個網路 Interface，使其能在網路上被定位及連線。
+reviewed: false

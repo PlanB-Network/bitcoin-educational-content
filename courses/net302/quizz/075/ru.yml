@@ -1,0 +1,9 @@
+question: Какой тип записи DNS используется для поиска имени, связанного с IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) обеспечивает обратное разрешение, то есть связывает IPv6 Address с доменным именем.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Kecepatan Wallet
+name: Speed Wallet
 description: Bayar dan Exchange dalam bitcoin dan USDT secara instan
 ---
 ![cover](assets/cover.webp)

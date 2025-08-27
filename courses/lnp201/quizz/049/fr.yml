@@ -6,4 +6,4 @@ wrong_answers:
   - Ouvrir un nouveau canal Lightning
 explanation: |
   Une invoice Lightning est une demande de paiement, transmise par le nœud destinataire au nœud émetteur pour initier un paiement sur le Lightning Network.
-reviewed: false
+reviewed: true 

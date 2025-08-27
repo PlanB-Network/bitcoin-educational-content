@@ -1239,7 +1239,7 @@ Bien que de nombreuses idées reçues entourent Bitcoin, abordons les neuf plus 
 
 Plongeons…
 
-#### Idée fausse Une : Bitcoin est une bulle prête à éclater
+#### Idée reçue n°1 : Bitcoin est une bulle prête à éclater
 
 Depuis sa création, le Bitcoin a été déclaré "mort" [473 fois](https://99bitcoins.com/bitcoin-obituaries/) dans les médias grands publics (en mars 2023), et pourtant il continue de fonctionner sans faille.
 
@@ -1267,7 +1267,7 @@ En somme, lorsque les gens qualifient le bitcoin de bulle, soit :
 1. Ils n'ont pas fait la recherche pour comprendre ses nombreux avantages et cas d'utilisation.
 2. Ou ils méconnaissent la fonctionnalité de Bitcoin et le montant total de valeur stockée dans les actifs mentionnés ci-dessus, dont Bitcoin a le potentiel de prendre une part au fil du temps.
 
-#### Idée fausse Deux : Bitcoin est trop volatile pour avoir de la valeur
+#### Idée reçue n°2 : Bitcoin est trop volatile pour avoir de la valeur
 
 Les critiques soulignent souvent que la volatilité de Bitcoin en fait une mauvaise option d'investissement, mais cet argument ignore quelques faits cruciaux sur les raisons de cette volatilité.
 
@@ -1289,7 +1289,7 @@ Pour illustrer cela :
 
 Avec cela à l'esprit, il est important de considérer la volatilité de bitcoin dans le contexte du système économique plus large et de ne pas simplement la rejeter comme un défaut. Le potentiel de bitcoin comme réserve de valeur et moyen d'échange ne devrait pas être sous-estimé sur la base de fluctuations de prix à court terme.
 
-#### Idée fausse Trois : Bitcoin ne vaut rien car il n'est soutenu par rien
+#### Idée reçue n°3 : Bitcoin ne vaut rien car il n'est soutenu par rien
 
 Bitcoin est souvent rejeté pour ne pas être soutenu par quelque chose de valeur, comme l'or ou la monnaie gouvernementale. L'idée que, étant donné que bitcoin n'est soutenu par rien de tangible, il doit être sans valeur est une erreur.
 
@@ -1304,7 +1304,7 @@ De plus, l'idée que la monnaie doit être soutenue par quelque chose de valeur 
 
 En fin de compte, l'idée qu'une chose doit être soutenue par quelque chose d'autre de valeur pour être précieuse est un contresens. La valeur est subjective et basée sur les expériences et croyances des gens. Juste parce qu'une personne considère quelque chose comme sans valeur ne signifie pas que tout le monde le fait, et vice versa.
 
-#### Idée fausse Quatre : La technologie de Bitcoin est déjà obsolète
+#### Idée reçue n°4 : La technologie de Bitcoin est déjà obsolète
 
 Plongeons maintenant dans l'argument répété que Bitcoin est obsolète, en décomposant pourquoi cela ne pourrait pas être plus éloigné de la vérité.
 
@@ -1326,7 +1326,7 @@ Cependant, il convient de noter que le paysage de la "cryptomonnaie" est souvent
 
 Par conséquent, une fois de plus, l'argument selon lequel Bitcoin est obsolète est infondé. Il peut ne pas être parfait pour tout le monde, mais il continue d'évoluer et de s'améliorer.
 
-#### Idée fausse Cinq : Bitcoin est trop lent et coûteux pour être un moyen d'échange efficace
+#### Idée reçue n°5 : Bitcoin est trop lent et coûteux pour être un moyen d'échange efficace
 
 Si vous vous souvenez de la Section Quatre du Module Deux, la blockchain de Bitcoin est composée de blocs, chacun ayant une taille maximale d'environ 1Mo. En raison de la taille limitée des blocs, la couche de base de Bitcoin a une limite supérieure de traitement d'environ sept transactions par seconde (tps), bien inférieure à des réseaux comme Visa ou Mastercard, qui traitent à 1 700 tps. Ainsi, on dit souvent que Bitcoin est trop lent pour fonctionner comme un moyen d'échange viable.
 
@@ -1334,7 +1334,7 @@ Cependant, il est important de souligner que Bitcoin ne cherche pas à concurren
 
 Mais Bitcoin concurrence également avec les méthodes de transaction de couche deux (*layer two*), avec des technologies comme Lightning construites au-dessus de la couche un. Lightning permet des transactions quasi-instantanées avec des frais minimaux, rendant les microtransactions et les petits achats possibles. Depuis que le Salvador a adopté Bitcoin comme monnaie légale, la population générale utilise Lightning pour effectuer des transactions en Bitcoin en raison de ses avantages inégalés, tels que des temps de transaction presque instantanés et des frais pour une fraction de centime. Cela en fait un choix parfait pour les petits commerçants et les individus.
 
-#### Idée fausse Six : Bitcoin est principalement utilisé pour des activités illégales
+#### Idée reçue n°6 : Bitcoin est principalement utilisé pour des activités illégales
 
 Malgré les nombreuses études réfutant les fausses affirmations, Bitcoin est encore souvent critiqué comme étant principalement utilisé pour des activités illicites. Encore une fois, cela ne pourrait pas être plus éloigné de la vérité.
 
@@ -1356,7 +1356,7 @@ Cependant, il est important de ne pas peindre tout comportement illégal avec le
 
 ...sont considérés illégaux dans leurs juridictions respectives. Cela souligne que ce qui est considéré comme illégal n'est pas noir ou blanc. Il existe une relation complexe entre les définitions légales et les diverses valeurs défendues à travers différentes régions.
 
-#### Idée fausse Sept : N'importe qui peut dupliquer le code de Bitcoin, le rendant sans valeur
+#### Idée reçue n°7 : N'importe qui peut dupliquer le code de Bitcoin, le rendant sans valeur
 
 L'argument selon lequel le code de Bitcoin peut être facilement copié et, par conséquent, est sans valeur, néglige un aspect crucial de ce qui donne sa valeur à bitcoin. Bien qu'il soit vrai que le code de Bitcoin est open source et peut être copié, la valeur de bitcoin ne provient pas uniquement de l'utilité qu'il offre.
 
@@ -1368,7 +1368,7 @@ En résumé, tout comme vous ne pouvez pas lancer un nouveau Facebook demain et 
 
 En résumé, bien que le code de Bitcoin soit open source et puisse être copié, sa valeur est dérivée de son réseau d'utilisateurs, de la confiance et de l'adoption qu'il a construites au fil du temps. Un nouveau jeton avec les mêmes fonctionnalités que Bitcoin n'aurait pas le même niveau de confiance et d'adoption et, par conséquent, ne serait pas un substitut viable pour Bitcoin.
 
-#### Idée fausse Huit : Bitcoin consomme trop d'énergie
+#### Idée reçue n°8 : Bitcoin consomme trop d'énergie
 
 Bitcoin devient fréquemment la cible de campagnes de diffamation, affirmant qu'il consomme plus d'énergie que de petits pays ou qu'il va faire bouillir les océans. Cependant, ces critiques passent commodément sous silence des exemples comparables d'autres entreprises consommant de l'énergie pour fournir une référence.
 
@@ -1454,7 +1454,7 @@ Pour terminer, nous espérons que ces idées fausses sur Bitcoin vous ont donné
 
 Portons maintenant notre attention sur les idées fausses communes entourant les stablecoins…
 
-### Idées Fausses sur les Stablecoins
+### Idées reçues sur les Stablecoins
 
 1. La plupart des stablecoins ne sont pas entièrement couverts par des réserves
 2. Même les stablecoins les plus stables se détachent de leur ancrage
@@ -1462,7 +1462,7 @@ Portons maintenant notre attention sur les idées fausses communes entourant les
 4. Vous perdrez vos fonds si la chaîne sous-jacente tombe en panne
 5. Les Bitcoin et stablecoins profitent aux riches dans les pays en développement
 
-#### Idée Fausse Une : La plupart des stablecoins ne sont pas entièrement couverts par des réserves
+#### Idée reçue n°1 : La plupart des stablecoins ne sont pas entièrement couverts par des réserves
 
 Lorsqu'il s'agit de comprendre les stablecoins, il est essentiel de reconnaître que chaque stablecoin fonctionne selon des principes et des cadres uniques. Certains projets de stablecoin font preuve d'une diligence et d'une transparence exceptionnelles en fournissant des informations détaillées sur leurs réserves et en publiant régulièrement des attestations les vérifiant.
 
@@ -1480,51 +1480,54 @@ Nous tenons à être clairs. Cette observation ne signifie pas que nous devrions
 
 Dans l'ensemble, bien que des idées fausses sur les stablecoins existent, et à juste titre dans de nombreux cas, il est essentiel de reconnaître que chaque stablecoin fonctionne de manière unique, avec des degrés variables de transparence et de diligence. En effectuant des recherches approfondies sur le stablecoin dans lequel vous décidez d'investir, vous pouvez atténuer bon nombre des pièges courants associés aux cryptomonnaies.
 
-#### Idée fausse Deux : Même les stablecoins les plus stables se désancrent
+#### Idée reçue n°2 : Même les stablecoins les plus stables peuvent perdre leur parité
 
-Concernant l'idée fausse que même les stablecoins les plus stables se désancrent, il est important de différencier les marchés primaire et secondaire.
+Concernant l'idée reçue que même les stablecoins les plus stables perdent leur parité, il est important de différencier les marchés primaire et secondaire.
 
 Le marché primaire existe entre l'émetteur du stablecoin, par exemple Tether, et les principales bourses qui ont la capacité de racheter l'actif sous-jacent de valeur, tel que l'USD, ou d'émettre des stablecoins pour maintenir la stabilité des prix. Ces transactions sur le marché primaire garantissent que le stablecoin reste étroitement ancré à sa valeur prévue.
 
 D'autre part, le marché secondaire est entre les clients et les bourses. C'est là que les individus peuvent acheter et vendre des stablecoins, que ce soit pour le trading, l'investissement ou tout autre désir.
 
-Un désancrage se produit lorsque un stablecoin n'a plus les réserves nécessaires pour répondre aux demandes de retrait de ses détenteurs ou en cas de piratage compromettant le stablecoin. Cependant, il est important de noter que la plupart des volatilités de prix à court terme vécues par les stablecoins ne sont pas indicatives d'un désancrage. Au lieu de cela, c'est souvent le résultat de problèmes de liquidité.
+Une perte de parité se produit lorsqu'un stablecoin n'a plus les réserves nécessaires pour répondre aux demandes de retrait de ses détenteurs ou en cas de piratage compromettant le stablecoin. Cependant, il est important de noter que la plupart des volatilités de prix à court terme vécues par les stablecoins ne sont pas indicatives d'un désancrage. Au lieu de cela, c'est souvent le résultat de problèmes de liquidité.
 
-Expliquons. Supposons qu'une petite bourse manque de capacité à racheter l'actif sous-jacent de valeur, et qu'il y ait une forte pression de vente de la part des personnes cherchant à retirer l'actif sous-jacent de valeur soutenant le stablecoin. Dans ce cas, le prix du stablecoin peut temporairement chuter en dessous de son prix ancré idéal. Ce décalage temporaire par rapport à l'ancrage est un phénomène à court terme et devrait se normaliser une fois que la bourse obtient les actifs sous-jacents nécessaires pour répondre aux besoins de ses clients. Cette volatilité de prix temporaire n'indique pas nécessairement que le stablecoin a échoué et est en train de s'effondrer. Au lieu de cela, elle reflète des niveaux de liquidité faibles impactant la capacité des utilisateurs à retirer des fonds en temps opportun.
+Expliquons. Supposons qu'une petite bourse manque de capacité à racheter l'actif sous-jacent de valeur, et qu'il y ait une forte pression de vente de la part des personnes cherchant à retirer l'actif sous-jacent de valeur soutenant le stablecoin. Dans ce cas, le prix du stablecoin peut temporairement chuter en dessous de son prix ancré idéal. Ce décalage temporaire par rapport à la parité est un phénomène à court terme et devrait se normaliser une fois que la bourse obtient les actifs sous-jacents nécessaires pour répondre aux besoins de ses clients. Cette volatilité de prix temporaire n'indique pas nécessairement que le stablecoin a échoué et est en train de s'effondrer. Au lieu de cela, elle reflète des niveaux de liquidité faibles impactant la capacité des utilisateurs à retirer des fonds en temps opportun.
 
-À l'inverse, il est également possible d'observer un stablecoin se négociant au-dessus de son prix ancré. Cette situation se produit lorsque la demande de stablecoins dépasse la capacité d'une bourse à répondre aux demandes des clients. Typiquement, ce phénomène se produit sur des petites bourses qui manquent d'un lien direct avec le stablecoin et lorsque l'actif sous-jacent détient une valeur significative, incitant les individus à payer une prime pour l'acquérir. Par exemple, considérez un scénario où des individus résidant dans un pays autoritaire connaissant une inflation galopante cherchent refuge dans des stablecoins comme USDt. Dans de tels cas, les gens peuvent être prêts à payer une prime pour obtenir des dollars sous forme de USDt. Cette volonté découle de la compréhension que ne pas le faire les exposerait à une baisse plus importante de leur pouvoir d'achat causée par l'environnement inflationniste.
+À l'inverse, il est également possible d'observer un stablecoin se négociant au-dessus de son prix de parité. Cette situation se produit lorsque la demande de stablecoins dépasse la capacité d'une bourse à répondre aux demandes des clients. Typiquement, ce phénomène se produit sur des petites bourses qui manquent d'un lien direct avec le stablecoin et lorsque l'actif sous-jacent détient une valeur significative, incitant les individus à payer une prime pour l'acquérir. Par exemple, considérez un scénario où des individus résidant dans un pays autoritaire connaissant une inflation galopante cherchent refuge dans des stablecoins comme l'USDt. Dans de tels cas, les gens peuvent être prêts à payer une prime pour obtenir des dollars sous forme d'USDt. Cette volonté découle de la compréhension que ne pas le faire les exposerait à une baisse plus importante de leur pouvoir d'achat causée par l'environnement inflationniste.
 
 À la lumière de cela, la volatilité des prix échappe aux émetteurs de stablecoin, tels que Tether, car ils n'interagissent pas directement avec le client. Au lieu de cela, les clients obtiennent USDt par le biais des bourses. Ils dépendent donc de la bourse pour maintenir une liquidité stablecoin/actif sous-jacent adéquate pour répondre aux besoins de leurs clients.
 
 En résumé, la prochaine fois qu'un stablecoin se négocie au-dessus ou en dessous de son prix prévu, soyez conscient de la distinction entre la volatilité des prix à court terme causée par des problèmes de liquidité et un véritable événement de désancrage.
 
-#### Idée fausse Trois : Étant donné que la plupart des stablecoins sont centralisés, l'émetteur peut geler vos fonds
+#### Idée reçue n°3 : Étant donné que la plupart des stablecoins sont centralisés, l'émetteur peut geler vos fonds
 
 En abordant le malentendu selon lequel les stablecoins peuvent geler vos fonds en raison de leur nature centralisée, il est important de souligner la distinction entre les entités centralisées et décentralisées, chacune ayant ses propres avantages et inconvénients. Bien que nous plaidions fortement en faveur des actifs décentralisés comme Bitcoin, cela ne signifie pas que les stablecoins centralisés manquent de valeur ou d'avantages.
-L'un des principaux avantages de la centralisation est la capacité d'intervenir lorsque cela est dans le meilleur intérêt des utilisateurs et de la stabilité globale du système. Bien qu'il soit vrai que les émetteurs de stablecoins ont le potentiel de geler les fonds, dans pratiquement tous les cas, cela n'est pas utilisé comme une attaque malveillante contre le détenteur du stablecoin. Au contraire, cela se fait en conjonction avec les forces de l'ordre pour protéger les consommateurs. Un exemple notable est le cas de l'effondrement de l'échange FTX. En collaboration avec les forces de l'ordre, Tether a gelé [46 millions de dollars](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) de USDt pour protéger les fonds des consommateurs.
 
-Un autre cas démontrant les avantages de l'intervention centralisée s'est produit après le [piratage de KuCoin](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) en septembre 2020. Tether a gelé environ 35 millions de dollars de USDt pour empêcher les pirates de profiter de leurs activités illicites. Ces exemples soulignent comment les stablecoins centralisés, dans certains scénarios, peuvent répondre rapidement aux acteurs malveillants et protéger les intérêts de leurs utilisateurs.
+L'un des principaux avantages de la centralisation est la capacité d'intervenir lorsque cela est dans le meilleur intérêt des utilisateurs et de la stabilité globale du système. Bien qu'il soit vrai que les émetteurs de stablecoins ont le potentiel de geler les fonds, dans pratiquement tous les cas, cela n'est pas utilisé comme une attaque malveillante contre le détenteur du stablecoin. Au contraire, cela se fait en conjonction avec les forces de l'ordre pour protéger les consommateurs. Un exemple notable est le cas de l'effondrement de l'échange FTX. En collaboration avec les forces de l'ordre, Tether a gelé [46 millions de dollars](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) d'USDt pour protéger les fonds des consommateurs.
+
+Un autre cas démontrant les avantages de l'intervention centralisée s'est produit après le [piratage de KuCoin](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) en septembre 2020. Tether a gelé environ 35 millions de dollars d'USDt pour empêcher les pirates de profiter de leurs activités illicites. Ces exemples soulignent comment les stablecoins centralisés, dans certains scénarios, peuvent répondre rapidement aux acteurs malveillants et protéger les intérêts de leurs utilisateurs.
 
 Avec cela à l'esprit, bien que nous privilégions le bitcoin pour les économies à long terme en raison de l'absence d'intermédiaires ou d'individus pouvant coopter le réseau, les stablecoins centralisés détiennent toujours plusieurs avantages, c'est-à-dire que la nature centralisée des stablecoins permet le gel potentiel des fonds, cette caractéristique peut être un outil précieux dans la lutte contre les activités illicites et la protection des utilisateurs.
 
-#### Malentendu Quatre : Vous perdrez vos fonds si la chaîne sous-jacente tombe en panne
+#### Idée reçue n°4 : Vous perdrez vos fonds si la chaîne sous-jacente tombe en panne
 
-L'un des malentendus courants à propos des stablecoins est que vous perdrez vos fonds si la chaîne sous-jacente d'un stablecoin tombe en panne. Nous pensons donc qu'il est important d'expliquer comment les stablecoins fonctionnent sur leur couche de transport, tels que TRON, Ethereum et Algorand, entre autres. Bien qu'il puisse initialement sembler préoccupant de perdre l'accès à vos stablecoins lorsque la chaîne sous-jacente rencontre des problèmes, vous serez heureux de savoir qu'il existe des mesures en place pour protéger vos fonds.
+L'une des idées reçues courantes à propos des stablecoins est que vous perdrez vos fonds si la chaîne sous-jacente d'un stablecoin tombe en panne. Nous pensons donc qu'il est important d'expliquer comment les stablecoins fonctionnent sur leur couche de transport, tels que TRON, Ethereum et Algorand, entre autres. Bien qu'il puisse initialement sembler préoccupant de perdre l'accès à vos stablecoins lorsque la chaîne sous-jacente rencontre des problèmes, vous serez heureux de savoir qu'il existe des mesures en place pour protéger vos fonds.
 
-Prenons l'exemple de USDt. Beaucoup tombent dans le piège de penser que le soutien en USD de USDt se trouve sur la couche de transport. En réalité, l'USD est détenu en réserves par Tether et non directement par la chaîne sous-jacente. Par conséquent, si la chaîne sur laquelle vous détenez USDt connaît une perturbation, cela ne signifie pas que les réserves sous-jacentes en USD sont perdues. Au lieu de cela, l'un des deux scénarios est susceptible de se dérouler :
+Prenons l'exemple de l'USDt. Beaucoup tombent dans le piège de penser que le soutien en USD de l'USDt se trouve sur la couche de transport. En réalité, l'USD est détenu en réserves par Tether et non directement par la chaîne sous-jacente. Par conséquent, si la chaîne sur laquelle vous détenez USDt connaît une perturbation, cela ne signifie pas que les réserves sous-jacentes en USD sont perdues. Au lieu de cela, l'un des deux scénarios est susceptible de se dérouler :
 
 1. Dans la plupart des cas, les perturbations dans la chaîne sous-jacente sont des hoquets temporaires, et la chaîne reprendra son fonctionnement peu après. Ces interruptions sont souvent résolues, permettant aux utilisateurs de récupérer l'accès à leurs stablecoins.
-2. Dans des cas plus significatifs, comme un piratage majeur ou une défaillance de la chaîne, Tether peut prendre des mesures correctives. Ils peuvent établir un site web provisoire pour les détenteurs de USDt de la chaîne non fonctionnelle. Par ce site, les utilisateurs peuvent alors prouver la propriété de leurs jetons USDt en utilisant leurs clés privées. Une fois la propriété confirmée, Tether peut brûler les jetons USDt non fonctionnels détenus par les utilisateurs et les réémettre sur une chaîne fonctionnelle. Ces jetons USDt réémis sont ensuite envoyés aux utilisateurs, assurant la continuité de leurs fonds.
-   Avec cela à l'esprit, il existe des mesures en place qui, même si la chaîne sous-jacente d'un stablecoin rencontre des difficultés, permettent aux émetteurs de stablecoin de prendre des mesures pour que vous puissiez récupérer vos fonds.
-   En résumé, bien qu'il soit naturel de s'inquiéter de perdre l'accès à vos fonds si la chaîne sous-jacente d'un stablecoin est compromise, il est important de reconnaître les plans de contingence et les processus établis par les émetteurs de stablecoin.
+2. Dans des cas plus significatifs, comme un piratage majeur ou une défaillance de la chaîne, Tether peut prendre des mesures correctives. Ils peuvent établir un site web provisoire pour les détenteurs d'USDt de la chaîne non fonctionnelle. Par ce site, les utilisateurs peuvent alors prouver la propriété de leurs jetons USDt en utilisant leurs clés privées. Une fois la propriété confirmée, Tether peut brûler les jetons USDt non fonctionnels détenus par les utilisateurs et les réémettre sur une chaîne fonctionnelle. Ces jetons USDt réémis sont ensuite envoyés aux utilisateurs, assurant la continuité de leurs fonds.
+
+Avec cela à l'esprit, il existe des mesures en place qui, même si la chaîne sous-jacente d'un stablecoin rencontre des difficultés, permettent aux émetteurs de stablecoin de prendre des mesures pour que vous puissiez récupérer vos fonds.
+
+En résumé, bien qu'il soit naturel de s'inquiéter de perdre l'accès à vos fonds si la chaîne sous-jacente d'un stablecoin est compromise, il est important de reconnaître les plans de contingence et les processus établis par les émetteurs de stablecoin.
 
 Avant de continuer, nous voulons souligner, une fois de plus, que chaque stablecoin fonctionne différemment. Par conséquent, il est impératif que vous recherchiez tout stablecoin que vous avez l'intention d'utiliser pour vous familiariser avec les mesures de sécurité mises en place pour protéger les fonds des clients.
 
 **Conclusion**
 
-Pour conclure... Souvenez-vous, Bitcoin et les stablecoins remettent naturellement en question les structures de pouvoir établies et l'autorité des gouvernements, ce qui invite naturellement à la résistance. Une grande partie de cette résistance provient souvent de la peur de perturber le système financier existant et de remettre en question le contrôle des gouvernements sur la monnaie et les politiques monétaires. Cela dit, toute cette résistance n'est pas fondée sur des faits. Il est donc impératif d'aborder ces critiques avec un esprit critique.
+Pour conclure... Souvenez-vous, Bitcoin et les stablecoins remettent naturellement en question les structures de pouvoir établies et l'autorité des gouvernements, ce qui invite naturellement à la résistance. Une grande partie de cette résistance provient souvent de la peur de perturber le système financier existant et de remettre en question le contrôle des gouvernements sur la monnaie et les politiques monétaires. Cela dit, toute cette résistance et ces critiques ne sont pas fondées sur des faits. Il est donc impératif de les aborder avec un esprit critique.
 
-En évaluant objectivement toute résistance que vous rencontrez, vous pouvez mieux naviguer dans la mer des critiques infondées. Prenez l'initiative de vous éduquer sur les subtilités de Bitcoin et des stablecoins, plongez dans leur technologie sous-jacente et explorez davantage leur potentiel pour l'innovation financière et l'autonomisation.
+En évaluant objectivement toute résistance que vous rencontrez, vous pouvez mieux naviguer dans la mer des critiques infondées. Prenez l'initiative de vous éduquer sur les subtilités de Bitcoin et des stablecoins, plongez dans leur technologie sous-jacente et explorez davantage leur potentiel en matière d'innovation financière et d'autonomisation.
 
 En fin de compte, l'avenir de la finance décentralisée repose sur ceux qui sont prêts à sortir des sentiers battus, à remettre en question les idées préconçues et à évaluer les informations de manière objective. Efforcez-vous de prendre des décisions éclairées concernant Bitcoin et les stablecoins, basées sur une connaissance précise et une compréhension équilibrée de leurs capacités et de leurs limites.
 
@@ -1532,13 +1535,14 @@ En fin de compte, l'avenir de la finance décentralisée repose sur ceux qui son
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Dans le monde globalisé d'aujourd'hui, l'accès aux services financiers est un composant critique de la participation économique et de l'indépendance. Malgré cela, bien trop d'individus sont encore exclus du système bancaire traditionnel, les femmes portant souvent le poids de cette exclusion. Choquamment, bien qu'inutilement, un quart de la population mondiale reste non bancarisée, dans des pays comme l'Arabie Saoudite, 36,5% des femmes n'ont pas accès aux services bancaires de base, les empêchant de participer pleinement à l'économie et à la société de leur pays.
+Dans le monde globalisé d'aujourd'hui, l'accès aux services financiers est un composant critique de la participation économique et de l'indépendance. Malgré cela, bien trop d'individus sont encore exclus du système bancaire traditionnel, les femmes portant souvent le poids de cette exclusion. Il est choquant de constater qu'[un quart](https://www.worldbank.org/en/publication/globalfindex) de la population mondiale reste non bancarisée, dans des pays comme l'Arabie Saoudite, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) des femmes n'ont pas accès aux services bancaires de base, les empêchant de participer pleinement à l'économie et à la société de leur pays.
 
 Voici juste quelques exemples des conditions que les femmes dans le monde endurent encore aujourd'hui :
 
-1. Restrictions à l'ouverture de comptes bancaires : Dans 72 pays à travers le monde, il est interdit aux femmes d'ouvrir des comptes bancaires à leur nom. Cela signifie qu'elles ne peuvent pas accéder aux services financiers, économiser de l'argent ou prendre le contrôle de leur vie financière.
+1. Restrictions à l'ouverture de comptes bancaires : Dans [72](https://www3.weforum.org/docs/WEF_GGGR_2020.pdf) pays à travers le monde, il est interdit aux femmes d'ouvrir des comptes bancaires à leur nom. Cela signifie qu'elles ne peuvent pas accéder aux services financiers, économiser de l'argent ou prendre le contrôle de leur vie financière.
 2. Dépendance vis-à-vis des parents masculins : Dans de nombreuses sociétés patriarcales, les femmes dépendent des parents masculins pour le soutien financier. Cela signifie qu'elles ne peuvent pas prendre de décisions financières par elles-mêmes et sont souvent à la merci de leurs parents masculins. Par exemple, en Afghanistan, les femmes doivent souvent compter sur les membres masculins de la famille pour une assistance financière, et elles peuvent ne pas pouvoir accéder aux services financiers sans la permission d'un tuteur masculin.
-3. Restrictions sur l'emploi : Dans certains pays, il est interdit aux femmes de travailler à l'extérieur du foyer, ce qui rend difficile pour elles d'atteindre l'indépendance financière. Par exemple, en Syrie, en Irak, en Afghanistan, en Algérie, en Palestine, en Jordanie et en Iran, les femmes ne représentent que [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) de la main-d'œuvre. 4. Manque de droits de propriété : Il y a encore [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) nations dans le monde où les femmes n'ont pas de droits de propriété, ce qui signifie qu'elles sont limitées dans leur capacité à posséder des terres ou d'autres biens. Cela rend difficile pour elles de démarrer des entreprises ou d'accéder à des crédits, car elles n'ont aucun collatéral à offrir. Par exemple, dans certaines régions de l'Inde, il est interdit aux femmes de posséder des biens, et elles peuvent ne pas être en mesure d'accéder à des crédits sans la permission d'un parent masculin.
+3. Restrictions sur l'emploi : Dans certains pays, il est interdit aux femmes de travailler à l'extérieur du foyer, ce qui rend difficile pour elles d'atteindre l'indépendance financière. Par exemple, en Syrie, en Irak, en Afghanistan, en Algérie, en Palestine, en Jordanie et en Iran, les femmes ne représentent que [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) de la main-d'œuvre.
+4. Manque de droits de propriété : Il y a encore [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) nations dans le monde où les femmes n'ont pas de droits de propriété, ce qui signifie qu'elles sont limitées dans leur capacité à posséder des terres ou d'autres biens. Cela rend difficile pour elles de démarrer des entreprises ou d'accéder à des crédits, car elles n'ont aucun collatéral à offrir. Par exemple, dans certaines régions de l'Inde, il est interdit aux femmes de posséder des biens, et elles peuvent ne pas être en mesure d'accéder à des crédits sans la permission d'un parent masculin.
 
 Ce ne sont là que quelques exemples des types d'obstacles auxquels les femmes dans de nombreuses sociétés actuelles sont encore confrontées lorsqu'il s'agit d'accéder aux services financiers et d'atteindre l'indépendance financière.
 
@@ -1552,8 +1556,11 @@ Cependant, ces dernières années, Bitcoin est apparu comme un outil puissant po
 
 Alors que le monde regardait avec horreur les Talibans prendre le contrôle de l'Afghanistan en [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), cette jeune fille, Roya, vivait au cœur du conflit. À seulement sept ans, elle se retrouvait prise dans la tourmente et l'incertitude de la guerre alors que sa ville natale était envahie et occupée par les Talibans. Malgré le danger et l'adversité auxquels elle était confrontée, en plus du fait qu'elle ne pouvait pas aller à l'école, Roya refusait d'être vaincue. Au lieu de cela, elle s'est tournée vers l'éducation comme moyen de surmonter les limitations imposées par sa situation.
 
-![image](assets/5.webp) \***Figure :** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
-Roya Mahboob est une pionnière dans le domaine de la technologie et de l'entrepreneuriat en Afghanistan. Non seulement elle a été [nommée](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) parmi les 100 personnes les plus influentes du monde par le magazine TIME en 2013 après avoir "construit des salles de classe internet dans des lycées en Afghanistan", mais elle a également fondé l'Afghan Citadel Software Company en 2010, qui vise à "créer des emplois pour les jeunes diplômés universitaires - en particulier pour les femmes". Et comme si cela ne suffisait pas, elle a ensuite créé le Digital Citizen Fund. Cette organisation à but non lucratif travaille à autonomiser les femmes et les enfants dans les pays en développement grâce à la technologie.
+![image](assets/5.webp) 
+
+***Figure :** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)*
+
+Roya Mahboob est une pionnière dans le domaine de la technologie et de l'entrepreneuriat en Afghanistan. Non seulement elle a été [nommée](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) parmi les 100 personnes les plus influentes du monde par le magazine *TIME* en 2013 après avoir "construit des salles de classe internet dans des lycées en Afghanistan", mais elle a également fondé l'Afghan Citadel Software Company en 2010, qui vise à "créer des emplois pour les jeunes diplômés universitaires - en particulier pour les femmes". Et comme si cela ne suffisait pas, elle a ensuite créé le Digital Citizen Fund. Cette organisation à but non lucratif travaille à autonomiser les femmes et les enfants dans les pays en développement grâce à la technologie.
 
 Cependant, tout au long de ce parcours, Roya n'était pas seule. Le Bitcoin s'est révélé être un outil inestimable dans sa mission d'autonomisation des femmes. Malgré de nombreux obstacles, y compris des barrières légales empêchant les femmes de travailler et d'ouvrir des comptes bancaires, Roya était déterminée à trouver un moyen de payer les femmes qui travaillaient avec elle.
 
@@ -1563,12 +1570,12 @@ Par conséquent, étant donné ses caractéristiques sans confiance, sans permis
 
 Roya Mahboob a reconnu ce potentiel dès le début et a commencé à l'incorporer dans son travail avec le Digital Citizen Fund. Elle a vu que le Bitcoin pouvait fournir un moyen pour les femmes en Afghanistan d'accéder aux services financiers et de prendre le contrôle de leur vie financière.
 
-L'une des manières dont Roya Mahboob a utilisé le Bitcoin est à travers un programme appelé la Women's Annex Foundation. La Women's Annex Foundation est une plateforme qui fournit des opportunités éducatives et d'emploi pour les femmes en Afghanistan. Elle donne aux femmes l'opportunité de créer du contenu tel que des blogs, des vidéos et des publications sur les réseaux sociaux. Ce contenu est ensuite partagé sur la plateforme Women's Annex, leur permettant de se connecter avec un public mondial et de gagner de l'argent sous forme de bitcoin en échange de leur travail. C'est quelque chose qui aurait été auparavant impossible avant l'émergence du Bitcoin.
+L'une des manières dont Roya Mahboob a utilisé le Bitcoin est à travers un programme appelé la Women's Annex Foundation. La Women's Annex Foundation est une plateforme qui fournit des opportunités éducatives et d'emploi pour les femmes en Afghanistan. Elle donne aux femmes l'opportunité de créer du contenu tel que des blogs, des vidéos et des publications sur les réseaux sociaux. Ce contenu est ensuite partagé sur la plateforme Women's Annex, leur permettant de se connecter avec un public mondial et de gagner de l'argent sous forme de bitcoin en échange de leur travail. C'est quelque chose qui aurait été auparavant impossible avant l'émergence de Bitcoin.
 Depuis sa création, la Women's Annex Foundation a été un énorme succès, aidant d'innombrables femmes en Afghanistan à acquérir l'indépendance financière et à prendre le contrôle de leur vie financière. En gagnant du bitcoin, ces femmes peuvent contourner les institutions financières traditionnelles et accéder à des services financiers qui leur seraient autrement inaccessibles.
 
 En plus de fournir l'indépendance financière, le Bitcoin a également redonné leur dignité aux femmes en Afghanistan. Parce que le Bitcoin est décentralisé, il a permis aux femmes de prendre le contrôle de leur vie financière sans avoir besoin d'un tuteur masculin. C'est un pas en avant significatif dans un pays où les femmes sont souvent traitées comme des citoyennes de seconde classe.
 
-De plus, avec l'aide de Mahboob et du Bitcoin, ces femmes en Afghanistan peuvent désormais se connecter avec un public mondial. Espérons que, dans les années à venir, ces femmes continueront à partager leurs histoires et perspectives avec le monde, aidant à briser les barrières qui existent entre différentes cultures et communautés.
+De plus, avec l'aide de Mahboob et de Bitcoin, ces femmes en Afghanistan peuvent désormais se connecter avec un public mondial. Espérons que, dans les années à venir, ces femmes continueront à partager leurs histoires et perspectives avec le monde, aidant à briser les barrières qui existent entre différentes cultures et communautés.
 
 Dans l'ensemble, le Bitcoin a été un outil puissant pour l'autonomisation financière des femmes.
 
@@ -1577,100 +1584,108 @@ Dans l'ensemble, le Bitcoin a été un outil puissant pour l'autonomisation fina
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 Née au Mexique en 1949 dans des circonstances d'extrême pauvreté, Mercedes a été confrontée dès son plus jeune âge aux inégalités flagrantes qui rongeaient sa société. Tout au long de son enfance, elle a dû faire face à de nombreux défis, y compris la répression gouvernementale des mouvements étudiants et les luttes uniques vécues par les femmes en situation de pauvreté. De plus, l'énorme fossé entre les riches et les pauvres, combiné à un accès limité à une éducation de qualité, a piégé sa famille et d'innombrables autres dans la pauvreté. Frustrée par ces injustices, Mercedes s'est tournée vers le marxisme (communisme), plaidant pour un changement social et une réforme économique.
 
-Malgré ses fortes convictions marxistes, Mercedes en est finalement venue à reconnaître les contraintes inhérentes à ces systèmes traditionnels en matière de distribution du pouvoir et de la richesse. Cette prise de conscience l'a poussée à chercher ailleurs, moment auquel elle a découvert le Bitcoin et son potentiel pour remettre en question les systèmes financiers qu'elle avait longtemps critiqués. Motivée par la perspective de favoriser la libération financière et l'autonomisation, Mercedes a redirigé son énergie vers la promotion du potentiel transformateur du Bitcoin.
+Malgré ses fortes convictions marxistes, Mercedes en est finalement venue à reconnaître les contraintes inhérentes à ces systèmes traditionnels en matière de distribution du pouvoir et de la richesse. Cette prise de conscience l'a poussée à chercher ailleurs, moment auquel elle a découvert le Bitcoin et son potentiel pour remettre en question les systèmes financiers qu'elle avait longtemps critiqués. Motivée par la perspective de favoriser la libération financière et l'autonomisation, Mercedes a redirigé son énergie vers la promotion du potentiel transformateur de Bitcoin.
 
-Dans son Mexique natal, où la violence liée à la drogue et l'instabilité économique affectent de manière disproportionnée les femmes, Mercedes travaille sans relâche pour fournir à ces individus un accès au bitcoin comme moyen sécurisé et alternatif de gérer leurs finances. En leur apprenant à configurer et à utiliser des portefeuilles numériques, elle leur permet de prendre davantage le contrôle de leur argent et de s'affranchir des cycles traditionnels de pauvreté et de criminalité.
+Dans son Mexique natal, où la violence liée à la drogue et l'instabilité économique affectent de manière disproportionnée les femmes, Mercedes travaille sans relâche pour fournir à ces personnes un accès au bitcoin comme moyen sécurisé et alternatif de gérer leurs finances. En leur apprenant à configurer et à utiliser des portefeuilles numériques, elle leur permet de prendre davantage le contrôle de leur argent et de s'affranchir des cycles traditionnels de pauvreté et de criminalité.
 
-Mercedes croit que l'autonomisation des femmes est la clé pour débloquer le plein potentiel du Bitcoin. En fournissant aux femmes du monde entier un accès au bitcoin et les outils nécessaires pour le comprendre et l'utiliser, elle espère leur permettre de s'affranchir de la pauvreté et de l'oppression, créant ainsi un avenir meilleur pour elles-mêmes et leurs familles.
+Mercedes croit que l'autonomisation des femmes est la clé pour débloquer le plein potentiel de Bitcoin. En fournissant aux femmes du monde entier un accès au bitcoin et les outils nécessaires pour le comprendre et l'utiliser, elle espère leur permettre de s'affranchir de la pauvreté et de l'oppression, créant ainsi un avenir meilleur pour elles-mêmes et leurs familles.
 
-Ses expériences dans des pays tels que le Mozambique, le Mexique, le Venezuela et l'Argentine témoignent de son engagement indéfectible à autonomiser les femmes par le biais du Bitcoin. Au Mozambique, où l'accès aux services financiers est limité pour les femmes des zones rurales, Mercedes les aide activement à apprendre comment le Bitcoin peut être utilisé pour des transactions plus sûres, des économies sécurisées et une autonomie financière accrue.
+Ses expériences dans des pays tels que le Mozambique, le Mexique, le Venezuela et l'Argentine témoignent de son engagement indéfectible à autonomiser les femmes par le biais de Bitcoin. Au Mozambique, où l'accès aux services financiers est limité pour les femmes des zones rurales, Mercedes les aide activement à apprendre comment le Bitcoin peut être utilisé pour des transactions plus sûres, des économies sécurisées et une autonomie financière accrue.
 
-Au Venezuela et en Argentine, pays touchés par l'instabilité économique et des taux d'inflation élevés, Mercedes a été activement impliquée dans la promotion de l'adoption du Bitcoin. Elle combat l'hyperinflation paralysante au Venezuela qui a laissé d'innombrables femmes en difficulté pour subvenir aux besoins de leurs familles en introduisant le Bitcoin comme une monnaie plus stable, leur permettant de protéger leurs économies durement gagnées et d'assurer l'accès à des biens et services essentiels. Pendant ce temps, en Argentine, Mercedes se concentre sur la guidage des femmes entrepreneures dans le processus de configuration de leurs entreprises pour accepter les paiements en Bitcoin, ouvrant de nouvelles opportunités de croissance et d'indépendance financière dans un climat économique difficile.
+Au Venezuela et en Argentine, pays touchés par l'instabilité économique et des taux d'inflation élevés, Mercedes a été activement impliquée dans la promotion de l'adoption de Bitcoin. Elle combat l'hyperinflation paralysante au Venezuela qui a laissé d'innombrables femmes en difficulté pour subvenir aux besoins de leurs familles en introduisant le Bitcoin comme une monnaie plus stable, leur permettant de protéger leurs économies durement gagnées et d'assurer l'accès à des biens et services essentiels. Pendant ce temps, en Argentine, Mercedes se concentre à accompagner des femmes entrepreneures dans le processus de configuration de leurs entreprises pour accepter les paiements en Bitcoin, ouvrant de nouvelles opportunités de croissance et d'indépendance financière dans un climat économique difficile.
 
-L'engagement indéfectible de Mercedes face aux difficultés distinctes endurées par ceux vivant dans la pauvreté, couplé à ses efforts pionniers pour combler le fossé entre la technologie et l'impact réel, témoigne de l'influence transformatrice profonde du Bitcoin et de l'esprit d'humanité. Réfléchissant à son parcours du marxisme à l'enthousiasme pour le Bitcoin, elle a réalisé que l'argent et le pouvoir n'étaient pas aussi importants que les connexions, la compassion et l'impact positif en ce qui concerne les relations humaines et le véritable sens de la vie.
+L'engagement indéfectible de Mercedes face aux difficultés distinctes endurées par ceux vivant dans la pauvreté, couplé à ses efforts pionniers pour combler le fossé entre la technologie et l'impact réel, témoigne de l'influence transformatrice profonde de Bitcoin et de l'esprit d'humanité. Réfléchissant à son parcours du marxisme à l'enthousiasme pour le Bitcoin, elle a réalisé que l'argent et le pouvoir n'étaient pas aussi importants que les connexions, la compassion et l'impact positif en ce qui concerne les relations humaines et le véritable sens de la vie.
 
-Remplie d'espoir et d'excitation, Mercedes voit le potentiel du Bitcoin pour changer le monde en mieux, à condition qu'il soit entre les mains d'individus passionnés et engagés. Avec les femmes à l'avant-garde de ce changement, elle croit qu'il n'y aura aucune limite à ce qu'elles peuvent accomplir ensemble.
+Remplie d'espoir et d'excitation, Mercedes voit le potentiel de Bitcoin pour changer le monde en mieux, à condition qu'il soit entre les mains d'individus passionnés et engagés. Avec les femmes à l'avant-garde de ce changement, elle croit qu'il n'y aura aucune limite à ce qu'elles peuvent accomplir ensemble.
 
-La vie de Mercedes a été un incroyable voyage, et l'impact du Bitcoin sur sa vie est véritablement remarquable. Son histoire sert de phare d'espoir pour que le Bitcoin apporte un changement significatif et autonomise les individus de tous horizons. En tant que défenseure de l'égalité financière, elle utilise ses vastes connaissances et expériences de voyage pour éduquer et élever ceux qui sont marginalisés par les systèmes financiers traditionnels. Ses efforts continus illustrent comment la passion et la détermination d'une personne peuvent inspirer un changement positif dans les communautés du monde entier.
+La vie de Mercedes a été un incroyable voyage, et l'impact de Bitcoin sur sa vie est véritablement remarquable. Son histoire sert de phare d'espoir pour que le Bitcoin apporte un changement significatif et autonomise les individus de tous horizons. En tant que défenseure de l'égalité financière, elle utilise ses vastes connaissances et expériences de voyage pour éduquer et élever ceux qui sont marginalisés par les systèmes financiers traditionnels. Ses efforts continus illustrent comment la passion et la détermination d'une personne peuvent inspirer un changement positif dans les communautés du monde entier.
 
 ## Histoires de Stablecoin
 
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Alors que nous approchons de la fin de ce cours, nous aimerions présenter une collection d'histoires inspirantes sur les stablecoins. Ces témoignages mettent en avant des expériences réelles de particuliers, de propriétaires d'entreprises et de sociétés qui ont utilisé le pouvoir des stablecoins pour améliorer leur vie.
+
 Dans les exemples suivants, vous découvrirez des récits de première main sur la manière dont les stablecoins ont permis à ce groupe diversifié de personnes de naviguer plus facilement et efficacement dans le paysage financier moderne. Des transactions internationales fluides et des opportunités d'affaires élargies à une inclusivité financière améliorée et une réserve de valeur plus stable, chaque histoire souligne l'impact des stablecoins sur leur parcours respectif.
 
-Loc
-Propriétaire d'un café, Vietnam
+Loc - Propriétaire d'un café, Vietnam
 
 “Dans mon café du district de Binh Thanh, nous servons une clientèle jeune et occasionnellement des touristes, offrant une variété de boissons, y compris du café, des boissons non alcoolisées et des cocktails. Tether est devenu notre solution privilégiée pour traiter les paiements des clients étrangers qui manquent de monnaie locale ou de comptes bancaires. Bien que les ventes via Tether soient actuellement modestes, cela nous offre un moyen pratique de combler le fossé monétaire et d'accueillir nos clients internationaux. Les clients sont souvent étonnés par notre ouverture à accepter les paiements en cryptomonnaie, laissant une impression durable sur leur expérience."
 
 ![image](assets/6.webp)
-Parvinee Ratchaphokhinpiti
-Retraité, Thaïlande
 
-“USDt a révolutionné mes transferts d'argent internationaux. En tant que retraité, je comptais auparavant sur les virements bancaires lents. Grâce à USDt, je peux maintenant envoyer de l'argent sans effort via une plateforme d'échange d'actifs numériques. En 30 minutes, ma sœur a reçu les fonds. Les avantages en termes de gain de temps sont inestimables, assurant des transactions rapides et sans tracas.”
+Parvinee Ratchaphokhinpiti - Retraité, Thaïlande
+
+“L'USDt a révolutionné mes transferts d'argent internationaux. En tant que retraité, je comptais auparavant sur les virements bancaires lents. Grâce à l'USDt, je peux maintenant envoyer de l'argent sans effort via une plateforme d'échange d'actifs numériques. En 30 minutes, ma sœur a reçu les fonds. Les avantages en termes de gain de temps sont inestimables, assurant des transactions rapides et sans tracas.”
 
 ![image](assets/7.webp)
-Jamie Tran
-Professeur de piano, Vietnam
 
-"Envoyer de l'argent à mes proches à l'étranger a été une nécessité fréquente, mais le processus de conversion de devises dans les bureaux de change locaux s'est avéré à la fois chronophage et coûteux. Pour relever ces défis, j'ai initié mes proches à la commodité d'utiliser USDt. Ce simple changement a permis à notre famille d'économiser beaucoup de temps et d'argent dans nos transactions financières. Avec USDt, nous profitons maintenant de transferts outre-mer simplifiés, assurant un soutien efficace et économique pour nos êtres chers."
+Jamie Tran - Professeur de piano, Vietnam
+
+"Envoyer de l'argent à mes proches à l'étranger a été une nécessité fréquente, mais le processus de conversion de devises dans les bureaux de change locaux s'est avéré à la fois chronophage et coûteux. Pour relever ces défis, j'ai initié mes proches à la commodité d'utiliser l'USDt. Ce simple changement a permis à notre famille d'économiser beaucoup de temps et d'argent dans nos transactions financières. Avec l'USDt, nous profitons maintenant de transferts outre-mer simplifiés, assurant un soutien efficace et économique pour nos êtres chers."
 
 ![image](assets/8.webp)
-Roman
-Expatrié russe vivant au Vietnam
+
+Roman - Expatrié russe vivant au Vietnam
 
 “Vivant au Vietnam, j'envoie fréquemment du Tether à mes proches et cousins en Russie. Transférer de l'argent à l'étranger avec Tether est sans tracas comparé à l'utilisation des méthodes bancaires traditionnelles. Pas besoin de visiter les banques, de documents notariés, ou d'explications. Sans limites d'envoi, avec des frais minimaux et des transactions rapides, les fonds sont livrés en quelques minutes.”
 
 ![image](assets/9.webp)
-Luis Graterol
-Audiovisuel, Venezuela
 
-“Je m'appelle Luis Graterol, et Tether m'a aidé à sécuriser mes économies d'une autre manière. Au Venezuela, nous souffrons à cause de la forte inflation, et Tether a beaucoup aidé. Son utilisation est simple, et dans de nombreux cas, vous pouvez effectuer des transactions sans aucun frais. USDt rend ma vie plus facile ! Cela m'aide également à éduquer et encourager son utilisation dans les médias audiovisuels ; depuis que j'ai découvert sa facilité, je reçois mes paiements en USDt, et j'économise le fastidieux fiat local qui affecte beaucoup d'entre nous !”
+Luis Graterol - Audiovisuel, Venezuela
+
+“Je m'appelle Luis Graterol, et Tether m'a aidé à sécuriser mes économies d'une autre manière. Au Venezuela, nous souffrons à cause de la forte inflation, et Tether a beaucoup aidé. Son utilisation est simple, et dans de nombreux cas, vous pouvez effectuer des transactions sans aucun frais. L'USDt rend ma vie plus facile ! Cela m'aide également à éduquer et encourager son utilisation dans les médias audiovisuels ; depuis que j'ai découvert sa facilité, je reçois mes paiements en USDt, et j'économise le fastidieux fiat local qui affecte beaucoup d'entre nous !”
 
 ![image](assets/10.webp)
-Dubraska Villanloga
-PDG de Tu Cachapa Caricuao, Caracas, Venezuela
 
-“Je suis du Venezuela et je dirige une petite entreprise de livraison de petit-déjeuner. Tether USDt a été une solution viable pour le problème de l'argent physique pour moi. USDt m'a également aidé avec mes économies car si je gardais les comptes de mon entreprise en Bolivar vénézuélien, je n'aurais pas pu planifier à l'avance avec mes approvisionnements en nourriture en raison de la dévaluation constante.”
-Marcela Romero
-Responsable Marketing et Relations Publiques, Guanacaste, Costa Rica
+Dubraska Villanloga - PDG de Tu Cachapa Caricuao, Caracas, Venezuela
+
+“Je suis du Venezuela et je dirige une petite entreprise de livraison de petit-déjeuner. Tether USDt a été une solution viable pour le problème de l'argent physique pour moi. L'USDt m'a également aidé avec mes économies car si je gardais les comptes de mon entreprise en Bolivar vénézuélien, je n'aurais pas pu planifier à l'avance avec mes approvisionnements en nourriture en raison de la dévaluation constante.”
+
+![image](assets/11.webp)
+
+Marcela Romero - Responsable Marketing et Relations Publiques, Guanacaste, Costa Rica
 
 "Il y a quelques années, j'ai déménagé dans le pays de mon mari. En raison de la pandémie, j'ai été confrontée à une condition migratoire unique, résultant en une longue attente pour obtenir la résidence ou la citoyenneté. Pendant près de trois ans, je n'ai pas eu accès à un compte bancaire et je ne pouvais pas travailler légalement dans le pays. Cependant, en tirant parti de mes capacités de travail en ligne et en recevant mon salaire en USDt, j'ai continué ma carrière à distance avec des entreprises internationales. Avec Tether, je peux instantanément envoyer de l'argent à ma famille sans frais élevés ni retards. Tether m'a permis de poursuivre mes objectifs professionnels et de maintenir mon indépendance financière malgré les restrictions gouvernementales."
 
-Simoneth Gomez
-Ingénieure QA, Venezuela, vivant en Argentine
+![image](assets/12.webp)
 
-"Bonjour, je m'appelle Simoneth Gomez. Je suis originaire du Venezuela, mais je vis actuellement à Buenos Aires, où je travaille en tant qu'analyste de la qualité logicielle. Lorsque je suis arrivée en Argentine, il y avait une distance de 12 km entre mon travail et l'endroit où je devais changer de l'argent pour envoyer à ma famille au Venezuela. J'ai donc été introduite à USDt et j'ai commencé à l'utiliser parce qu'au lieu de devoir faire ce trajet pour 5 ou 10 dollars en bus, je pouvais résoudre cela depuis mon bureau en deux minutes."
+Simoneth Gomez - Ingénieure QA, Venezuela, vivant en Argentine
 
-Carlos Caballero
-Psychologue, Argentine
+"Bonjour, je m'appelle Simoneth Gomez. Je suis originaire du Venezuela, mais je vis actuellement à Buenos Aires, où je travaille en tant qu'analyste de la qualité logicielle. Lorsque je suis arrivée en Argentine, il y avait une distance de 12 km entre mon travail et l'endroit où je devais changer de l'argent pour envoyer à ma famille au Venezuela. J'ai donc été introduite à l'USDt et j'ai commencé à l'utiliser parce qu'au lieu de devoir faire ce trajet pour 5 ou 10 dollars en bus, je pouvais résoudre cela depuis mon bureau en deux minutes."
+
+![image](assets/13.webp)
+
+Carlos Caballero - Psychologue, Argentine
 
 "Tether a été la solution qui m'a permis de continuer à travailler dans ma profession pendant les années de pandémie. Le fait d'être une monnaie ancrée au dollar lui permet d'avoir une valeur de référence internationale. Et sa stabilité et sécurité face à la volatilité des autres cryptomonnaies est la principale raison qui m'a amené à la choisir."
 
-Heloisa Passos
-PDG de Sp4ce Games, Brésil
+![image](assets/14.webp)
 
-"Je travaille à distance pour des entreprises internationales depuis environ cinq ans maintenant, et la plupart du temps, j'ai souffert des taux d'intérêt élevés des banques nationales, qui prélèvent un pourcentage important pour chaque envoi de fonds international, en plus du temps d'attente pour le déblocage des paiements via le système Swift (environ 24 heures). Quand j'ai commencé à recevoir mon salaire en Tether, j'ai réalisé combien de temps et d'argent j'ai commencé à économiser juste en étant payé en USDt."
+Heloisa Passos - PDG de Sp4ce Games, Brésil
 
-Samuel
-Entreprise de Trading, Nigeria
+"Je travaille à distance pour des entreprises internationales depuis environ cinq ans maintenant, et la plupart du temps, j'ai souffert des taux d'intérêt élevés des banques nationales, qui prélèvent un pourcentage important pour chaque envoi de fonds international, en plus du délai d'attente pour le déblocage des paiements via le système SWIFT (environ 24 heures). Quand j'ai commencé à recevoir mon salaire en Tether, j'ai réalisé combien de temps et d'argent j'ai commencé à économiser juste en étant payé en USDt."
 
-"Utiliser USDt a fait économiser beaucoup de temps à notre entreprise car, en tant qu'entreprise nigériane obtenant des USD nécessite d'aller à notre banque tout en passant un temps précieux à remplir des formulaires et à faire la queue pendant des heures pour effectuer des retraits ou des transferts. Avec USDt, cependant, nous pouvons l'échanger contre de la monnaie locale en moins de 5 minutes et exécuter toute transaction que nous pourrions avoir."
+![image](assets/15.webp)
 
-Joshua
-Étudiant, Nigeria
+Samuel - Entreprise de Trading, Nigeria
+
+"Utiliser l'USDt a fait économiser beaucoup de temps à notre entreprise car, en tant qu'entreprise nigériane obtenant des USD nécessite d'aller à notre banque tout en passant un temps précieux à remplir des formulaires et à faire la queue pendant des heures pour effectuer des retraits ou des transferts. Avec l'USDt, cependant, nous pouvons l'échanger contre de la monnaie locale en moins de 5 minutes et exécuter toute transaction que nous pourrions avoir."
+
+![image](assets/16.webp)
+
+Joshua - Étudiant, Nigeria
 
 "Tether m'a aidé de nombreuses manières. Gagner en Tether m'a aidé à surmonter la tension de l'inflation croissante dans le pays, et cela m'a aidé à réduire les dépenses inutiles. De plus, cela aide mes économies à conserver leur valeur car je ne suis pas gravement affecté par la dévaluation du Naira."
 
-Esther
-Agence RH, Nigeria
+![image](assets/17.webp)
+
+Esther - Agence RH, Nigeria
 
 "Dans l'industrie des RH, nous avons beaucoup de personnes à payer dans différents pays. Et nous ne pouvons tout simplement pas payer tout le monde dans leur monnaie nationale. Avec Tether USDt, nous pouvons payer tout le monde indépendamment de leur nationalité et où qu'ils travaillent, et ils peuvent échanger l'USDt eux-mêmes chaque fois qu'ils le souhaitent.“
 
 ### **Conclusion**
 
-Nous espérons que vous avez trouvé ces histoires inspirantes. Cela dit, il devrait être clair que les stablecoins, tels que USDt, jouent un rôle pivot en permettant aux individus d'accéder à des transferts internationaux rapides et efficaces, à la facturation et aux paiements en USD, aux salaires dénommés en USD et, plus important encore, à une réserve de valeur relativement stable comparée aux innombrables monnaies volatiles. Sans les stablecoins, beaucoup de ces individus feraient face à des barrières significatives lorsqu'ils cherchent à s'engager dans le marché global, à se connecter avec des membres de la famille internationaux, ou à atteindre des clients autrement inaccessibles. Les stablecoins ont indéniablement amélioré leur connectivité financière et fourni un outil précieux pour naviguer dans les complexités de notre économie globale.
+Nous espérons que vous avez trouvé ces histoires inspirantes. Cela dit, il devrait être clair que les stablecoins, tels que l'USDt, jouent un rôle pivot en permettant aux individus d'accéder à des transferts internationaux rapides et efficaces, à la facturation et aux paiements en USD, aux salaires dénommés en USD et, plus important encore, à une réserve de valeur relativement stable comparée aux innombrables monnaies volatiles. Sans les stablecoins, beaucoup de ces individus feraient face à des barrières significatives lorsqu'ils cherchent à s'engager dans le marché global, à se connecter avec des membres de la famille internationaux, ou à atteindre des clients autrement inaccessibles. Les stablecoins ont indéniablement amélioré leur connectivité financière et fourni un outil précieux pour naviguer dans les complexités de notre économie globale.
 
 ## Examen
 
@@ -1679,10 +1694,10 @@ Nous espérons que vous avez trouvé ces histoires inspirantes. Cela dit, il dev
 Maintenant que vous avez suivi le Module "Surmonter les Doutes", vous devrez tester vos connaissances nouvellement acquises pour vous assurer que vous avez compris les dernières sections. Nous commencerons par plusieurs questions ouvertes, puis un petit quiz.
 
 1. Comment percevez-vous le concept de valeur en relation avec le bitcoin ? Pensez-vous qu'il est nécessaire qu'une monnaie soit soutenue par quelque chose de tangible pour avoir de la valeur ?
-2. En réfléchissant au travail de Roya Mahboob avec le Digital Citizen Fund et la Women's Annex Foundation, quels sont, selon vous, les principaux avantages de l'incorporation de la technologie et du Bitcoin dans les initiatives visant à autonomiser les femmes dans les pays en développement ?
-3. À quel point l'indépendance financière est-elle importante pour l'autonomisation des femmes, particulièrement dans les pays où elles font face à diverses formes de discrimination et à des opportunités limitées ? Pouvez-vous penser à d'autres moyens, en dehors du Bitcoin, qui pourraient aider les femmes à atteindre l'indépendance financière dans de tels contextes ?
+2. En réfléchissant au travail de Roya Mahboob avec le Digital Citizen Fund et la Women's Annex Foundation, quels sont, selon vous, les principaux avantages de l'incorporation de la technologie et de Bitcoin dans les initiatives visant à autonomiser les femmes dans les pays en développement ?
+3. À quel point l'indépendance financière est-elle importante pour l'autonomisation des femmes, particulièrement dans les pays où elles font face à diverses formes de discrimination et à des opportunités limitées ? Pouvez-vous penser à d'autres moyens, en dehors de Bitcoin, qui pourraient aider les femmes à atteindre l'indépendance financière dans de tels contextes ?
 4. Étant donné que le Bitcoin offre aux producteurs d'énergie la possibilité de monétiser directement l'énergie, pensez-vous que cela présente des avantages significatifs pour les producteurs d'énergie et le marché de l'énergie dans son ensemble ?
-5. En réfléchissant aux comparaisons entre la consommation d'énergie du Bitcoin et d'autres industries, est-il juste de cibler le Bitcoin pour son utilisation d'énergie ? Pourquoi ou pourquoi pas ?
+5. En réfléchissant aux comparaisons entre la consommation d'énergie de Bitcoin et d'autres industries, est-il juste de cibler le Bitcoin pour son utilisation d'énergie ? Pourquoi ou pourquoi pas ?
 
 ## Remarques de fin de cours
 
@@ -1693,12 +1708,13 @@ Félicitations pour être arrivé à la fin du cours ! Vous avez parcouru un lon
 - L'histoire fascinante de l'argent.
 - L'invention révolutionnaire qu'est le Bitcoin.
 - Le monde de Tether et ses différentes offres de stablecoins.
-- La séparation des faits et des fictions entourant les nombreuses idées fausses associées au Bitcoin et aux Stablecoins.
+- La séparation des faits et des fictions entourant les nombreuses idées fausses associées à Bitcoin et aux Stablecoins.
 - Divers exemples de la vie réelle montrant comment ces technologies sont activement utilisées dans notre monde dynamique et en constante évolution.
 
 Cela dit, s'il y avait une prise de conscience primordiale de ce cours, elle tournerait autour de la compréhension de la distinction entre le Bitcoin et les stablecoins en reconnaissant les propositions de valeur uniques que chacune de ces technologies apporte à la table.
 
 Les stablecoins de Tether offrent une solution précieuse pour les individus confrontés à des défis économiques, vivant sous des régimes autoritaires, ou manquant d'accès à des monnaies stables ou à des systèmes bancaires traditionnels. Ils fournissent à quiconque les moyens d'accéder à des monnaies plus stables, de faciliter les paiements numériques et d'activer la mobilité de richesse transfrontalière. Cependant, il est essentiel de reconnaître que les stablecoins ne sont pas sans risques. Non seulement les monnaies fiat ont prouvé qu'elles perdent de la valeur à long terme, mais la plupart des stablecoins dépendent d'émetteurs tiers, nécessitant une confiance inhérente. Cela ne devrait pas être pris à la légère. Il est donc de la plus haute importance de mener une diligence raisonnable approfondie avant de stocker des richesses dans des stablecoins.
+
 D'un autre côté, Bitcoin propose une solution aux problèmes historiques associés à la plupart des formes d'argent — centralisées et sujettes à la dévaluation — en offrant un potentiel à long terme pour une augmentation du pouvoir d'achat grâce à une couche de base numérique décentralisée construite autour de la rareté de l'offre, ce qui place la gouvernance entre les mains des utilisateurs. Bien que la volatilité à court terme du bitcoin puisse être un obstacle à l'entrée pour les personnes disposant d'un capital limité, pour ceux qui ont la capacité de regarder à long terme, sa capacité à transformer des vies par l'accumulation de richesses à long terme est remarquable et incontestée.
 
 Tout au long de notre voyage ensemble, notre objectif a été double : vous fournir une compréhension plus profonde de la manière dont l'argent détient le potentiel de façonner l'avenir et, plus important encore, vous donner les connaissances nécessaires pour prendre des décisions plus éclairées et participer avec plus de confiance dans le monde numérique global. Nous espérons avoir atteint ces objectifs.
@@ -1706,6 +1722,7 @@ Tout au long de notre voyage ensemble, notre objectif a été double : vous four
 En concluant ce cours, nous espérons que vous appliquerez les connaissances acquises ici à vos poursuites personnelles ou professionnelles. Que vous vous trouviez à naviguer des défis financiers, poussé par la curiosité, aspirant à investir, ou cherchant à exploiter ces technologies pour des entreprises, nous espérons que les précieuses informations tirées de ce cours deviendront inestimables dans votre parcours.
 
 Puisse cette nouvelle compréhension vous permettre de naviguer dans le monde évolutif de la finance avec confiance et objectif. Bonne chance sur votre chemin de croissance et de découverte !
+
 L'avenir est radieux !
 
 # Section finale

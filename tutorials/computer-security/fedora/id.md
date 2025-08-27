@@ -68,248 +68,126 @@ Setelah Anda selesai menginstal Balena Etcher, buka aplikasi dan pilih image ISO
 
 ### Menginstal Fedora
 
-
-
 Setelah Anda selesai mem-boot Flash drive USB, matikan komputer Anda.
-
 
 Hidupkan komputer Anda, lalu akses BIOS selama pengaktifan dengan menekan tombol `F2`, `F12`, atau `ESC`, tergantung komputer Anda.
 
+Pada pilihan boot, pilih Flash drive USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang **Fedora** yang ada pada Flash drive USB.
 
-
-Pada pilihan boot, pilih Flash drive USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang Fedora** yang ada pada Flash drive USB.
-
-
-
-Setelah komputer Anda melakukan booting dari stik USB, layar **GRUB** akan muncul.
-
-
+Setelah komputer Anda melakukan booting dari Flash drive USB, layar **GRUB** akan muncul.
 
 Pada tahap ini, Anda memiliki opsi berikut:
 
+- **Test media**: Opsi ini memungkinkan Anda memeriksa integritas stik USB dan memastikan bahwa semua dependensi yang diperlukan untuk instalasi yang benar sudah ada. Ini adalah langkah opsional, tetapi disarankan jika Anda ragu dengan stik USB.
 
-
-
-- Media uji**: Opsi ini memungkinkan Anda memeriksa integritas stik USB dan memastikan bahwa semua dependensi yang diperlukan untuk instalasi yang benar sudah ada. Ini adalah langkah opsional, tetapi disarankan jika Anda ragu dengan stik USB.
-
-
+Opsi ini memungkinkan Anda untuk memeriksa Flash drive USB dan memastikan bahwa semua dependensi yang diperlukan untuk pemasangan yang benar ada. Ini adalah langkah opsional, tetapi disarankan jika Anda memiliki keraguan tentang Flash drive USB.
 
 ![install](assets/fr/06.webp)
 
-
-
 ![testing](assets/fr/07.webp)
 
+- **Mulai Fedora**: Ini meluncurkan Fedora dalam mode "Live", tanpa instalasi.
 
-
-
-
-- Mulai Fedora**: Ini meluncurkan Fedora dalam mode "langsung", tanpa instalasi.
-
-
-
-Pada desktop Fedora (mode langsung), klik **Instal Fedora** (atau Instal pada disk Hard) untuk memulai proses instalasi. Anda dapat memilih untuk menginstal nanti dan menguji Fedora tanpa harus menginstalnya.
-
-
+Di desktop Fedora (mode live), klik **Install Fedora** (atau Install on hard disk) untuk memulai proses pemasangan. Anda dapat memilih untuk memasang nanti dan menguji Fedora tanpa harus memasangnya.
 
 ![install-live](assets/fr/08.webp)
 
-
-
 Langkah pertama adalah memilih **bahasa instalasi** dan **tata letak keyboard** Fedora
-
-
 
 ![language](assets/fr/10.webp)
 
+- **Memilih disk instalasi** :
 
-
-
-
-- Memilih disk instalasi :
-
-
-
-Pilih disk Hard tempat Anda ingin menginstal Fedora.
-
-
+Pilih hard disk tempat Anda ingin menginstal Fedora.
 
 Jika disk kosong, Fedora akan secara otomatis menggunakan semua ruang yang tersedia. Jika tidak, Anda dapat menyesuaikan partisi (manual atau otomatis).
 
-
-
 ![disk](assets/fr/11.webp)
 
+- **Enkripsi** :
 
-
-
-
-- Enkripsi :
-
-
-
-Pada tahap ini, Fedora menyarankan untuk mengenkripsi disk Anda untuk menambahkan keamanan ekstra Layer. Ini memastikan bahwa data Anda hanya dapat dibaca oleh sistem Fedora Anda.
-
-
+Pada tahap ini, Fedora menyarankan untuk mengenkripsi disk Anda untuk menambahkan lapisan keamanan ekstra. Ini memastikan bahwa data Anda hanya dapat dibaca oleh sistem Fedora Anda.
 
 ![chiffrement](assets/fr/12.webp)
 
-
-
-Sebelum meluncurkan instalasi, Fedora menampilkan ringkasan pilihan Anda. Konfirmasikan dan klik pada tombol instal untuk memulai instalasi Fedora.
-
-
+Sebelum meluncurkan pemasangan, Fedora menampilkan ringkasan pilihan Anda. Konfirmasi dan klik tombol pasang untuk memulai pemasangan Fedora.
 
 ![resume](assets/fr/13.webp)
 
-
-
-Selama instalasi, Fedora menyalin file dan mengonfigurasi sistem. Setelah selesai, komputer akan melakukan boot ulang secara otomatis.
-
-
+Selama pemasangan, Fedora menyalin file dan mengonfigurasi sistem. Setelah selesai, komputer memulai ulang secara otomatis.
 
 ![installation](assets/fr/14.webp)
 
-
-
 ### Konfigurasi dasar
-
 
 Pada penggunaan pertama kali, Anda harus menyelesaikan beberapa pengaturan:
 
-
-
-
 - Ubah bahasa sistem jika perlu.
-
-
 
 ![language](assets/fr/15.webp)
 
-
-
-
-
 - Pilih tata letak keyboard yang sesuai dengan preferensi Anda.
-
-
 
 ![keyboard](assets/fr/16.webp)
 
-
-
-
-
 - Pilih zona waktu Anda dengan mengetikkan nama kota Anda di bilah pencarian, lalu klik saran yang sesuai.
-
-
 
 ![timezone](assets/fr/17.webp)
 
-
-
-
-
- - Mengaktifkan atau menonaktifkan akses ke posisi Anda untuk aplikasi yang membutuhkannya, serta pengiriman laporan bug secara otomatis.
-
-
+- Mengaktifkan atau menonaktifkan akses ke posisi Anda untuk aplikasi yang membutuhkannya, serta pengiriman laporan bug secara otomatis.
 
 ![location](assets/fr/18.webp)
-
-
-
-
 
 - Tentukan apakah Anda ingin mengaktifkan repositori perangkat lunak pihak ketiga.
 
 
-
 ![logs](assets/fr/19.webp)
-
-
-
-
 
 - Masukkan nama lengkap Anda dan tentukan nama pengguna untuk akun Anda.
 
-
-
 ![name](assets/fr/20.webp)
-
-
-
-
 
 - Buat kata sandi yang aman untuk sesi Anda: sepanjang mungkin (minimal 20 karakter), seacak mungkin, dan dengan berbagai karakter (huruf kecil, huruf besar, angka, dan simbol). Ingatlah untuk menyimpan kata sandi Anda.
 
-
-
 ![mdp](assets/fr/21.webp)
-
-
 
 Setelah semua langkah ini selesai, luncurkan Fedora dan segera mulai menggunakannya, tanpa perlu reboot.
 
-
-
 ![welcome](assets/fr/22.webp)
-
-
 
 ![start](assets/fr/23.webp)
 
-
-
-Setelah instalasi Anda selesai, Anda dapat berkonsultasi dengan rumah Interface Anda dengan beberapa utilitas yang sudah terpasang.
-
-
+Setelah pemasangan Anda selesai, Anda dapat melihat beranda Interface Anda dengan beberapa utilitas yang sudah terpasang sebelumnya.
 
 ![install-now](assets/fr/09.webp)
 
-
-
-## Temukan tugas-tugas dasar
-
-
+## Mencoba tugas-tugas dasar
 
 ### Menjelajahi Internet
 
-
-Peramban bawaan Fedora adalah **Firefox**. Browser ini mudah digunakan dan cocok untuk sebagian besar kebutuhan.
-
+Browser bawaan Fedora adalah **Firefox**. Browser ini mudah digunakan dan cocok untuk sebagian besar kebutuhan.
 
 Jika Anda lebih suka browser lain, Anda dapat menginstalnya dari **manajer perangkat lunak** atau melalui **terminal**.
 
-
 ### Pengolah kata
 
+Fedora menyertakan paket perkantoran **LibreOffice** secara default, yang menawarkan beberapa aplikasi yang berguna:
 
-Fedora menyertakan paket perkantoran **LibreOffice** secara default, yang menawarkan beberapa alat yang berguna:
-
-
-
-
-- Writer** untuk pengolah kata.
-- Calc** untuk spreadsheet.
-- Impress** untuk membuat presentasi.
-
+- **Writer** untuk pengolah kata.
+- **Calc** untuk spreadsheet.
+- **Impress** untuk membuat presentasi.
 
 ## Menginstal aplikasi
 
-
 Untuk menginstal aplikasi baru, Anda dapat menggunakan **manajer perangkat lunak** Fedora (disebut _Software_), yang membuat instalasi menjadi mudah dan visual.  Namun, menggunakan **terminal** sering kali lebih cepat dan akurat.
-
-
 
 Sebelum menginstal perangkat lunak apa pun, selalu ingat untuk memperbarui **repositori** untuk memastikan Anda memiliki akses ke versi terbaru yang tersedia.
 
-
-
 Kemudian gunakan perintah berikut ini untuk meluncurkan penginstalan aplikasi yang diinginkan:
 
-
+```shell
 sudo dnf instal nama_perangkat_lunak`
-
+```
 
 ## Memperbarui sistem operasi Anda
 
@@ -319,47 +197,26 @@ Setelah instalasi, penting untuk memperbarui Fedora untuk mengambil keuntungan d
 
 ### Opsi 1: Melalui grafik Interface
 
-
-
-
-- Buka **Pengaturan** Fedora, lalu buka bagian **Sistem**.
-- Klik **Pembaruan perangkat lunak**.
+- Buka **Settings** Fedora, lalu buka bagian **System**.
+- Klik **Software update**.
 - Mulailah mengunduh pembaruan dan tunggu hingga prosesnya selesai.
 
-
-
-Pengaktifan ulang **restart** mungkin diperlukan setelah pembaruan diinstal.
-
+Komputer akan **restart** mungkin diperlukan setelah pembaruan diinstal.
 
 ### Opsi 2: Melalui terminal
 
-
-
-
 - Buka terminal dan mulailah dengan memperbarui **repositori** untuk memastikan Anda memiliki versi terbaru dari :
-
-
 
 ```shell
 sudo dnf check-update
 ```
 
-
-
-
-
 - Selanjutnya, perbarui semua perangkat lunak yang terinstal dengan perintah berikut:
-
-
 
 ```shell
 sudo dnf upgrade
 ```
 
-
-
-Sekarang sistem Fedora Anda sudah mutakhir dan siap digunakan untuk semua tugas sehari-hari. Temukan tutorial kami tentang Linux Mint, distribusi Linux lainnya, dan cara menyiapkan lingkungan yang sehat dan aman untuk transaksi Bitcoin Anda.
-
-
+Sekarang sistem Fedora Anda sudah terbaharui dan siap digunakan untuk semua tugas sehari-hari. Temukan tutorial kami tentang Linux Mint, distribusi Linux lainnya, dan cara menyiapkan lingkungan yang sehat dan aman untuk transaksi Bitcoin Anda.
 
 https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

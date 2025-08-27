@@ -20,7 +20,7 @@ Ente Auth a été développé par l'équipe derrière Ente Photos, un service de
 
 **Codes TOTP standards** : Ente Auth génère des codes temporaires compatibles avec la majorité des services (GitHub, Google, Binance, ProtonMail, etc.). Vous pouvez ajouter autant de comptes 2FA que nécessaire et l'application se charge de calculer les codes à partir des secrets fournis.
 
-**Sauvegarde cloud chiffrée de bout en bout** : Vos codes sont sauvegardés en ligne de manière sécurisée. Seul vous pouvez les déchiffrer – la clé de chiffrement est dérivée de votre mot de passe et n'est connue que de vous. Ente (le serveur) n'a aucune connaissance de vos secrets ni même des intitulés de vos comptes, car tout est chiffré côté client selon une architecture zero-knowledge.
+**Sauvegarde cloud chiffrée de bout en bout** : Vos codes sont sauvegardés en ligne de manière sécurisée. Vous seul pouvez les déchiffrer – la clé de chiffrement est dérivée de votre mot de passe et n'est connue que de vous. Ente (le serveur) n'a aucune connaissance de vos secrets ni même des intitulés de vos comptes, car tout est chiffré côté client selon une architecture zero-knowledge.
 
 **Synchronisation multi-appareils** : Vous pouvez installer Ente Auth sur plusieurs appareils (smartphone, tablette, ordinateurs) et accéder à vos codes sur chacun d'eux. Toute modification est propagée automatiquement et instantanément sur vos autres appareils via le cloud chiffré, vous apportant une grande flexibilité au quotidien.
 

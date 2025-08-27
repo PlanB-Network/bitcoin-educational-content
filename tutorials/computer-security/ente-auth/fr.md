@@ -1,6 +1,6 @@
 ---
 name: Ente Auth
-description: Comment utiliser l'authentificateur 2FA open source et chiffré de bout en bout
+description: Un authentificateur 2FA open source et chiffré de bout en bout
 ---
 ![cover](assets/cover.webp)
 
@@ -67,7 +67,7 @@ Ente Auth propose des applications de bureau natives. Rendez-vous sur [ente.io/d
 - **macOS** : Une image disque DMG à glisser-déposer dans Applications
 - **Linux** : Plusieurs formats disponibles (AppImage portable, .deb pour Debian/Ubuntu, .rpm pour Fedora/Red Hat)
 
-> **Note :** Ce tutoriel est basé sur Ente Auth v4.4.4 et versions ultérieures. Les versions antérieures peuvent présenter des différences d'interface mineures.
+**Note :** Ce tutoriel est basé sur Ente Auth v4.4.4 et versions ultérieures. Les versions antérieures peuvent présenter des différences d'interface mineures.
 
 ### Interface Web
 Sans installation, vous pouvez accéder à vos codes via [auth.ente.io](https://auth.ente.io) depuis un navigateur. L'interface web est limitée à la consultation des codes (utile pour le dépannage), car l'ajout de comptes nécessite l'application mobile ou desktop pour des raisons de sécurité.

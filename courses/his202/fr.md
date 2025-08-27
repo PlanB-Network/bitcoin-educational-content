@@ -26,7 +26,7 @@ Le Far West a une image forte dans l'imaginaire américain, et par extension dan
 >
 > original: "Bitcoin is absolutely the Wild West of finance, and thank goodness. It represents a whole legion of adventurers and entrepreneurs, of risk takers, inventors, and problem solvers. It is the frontier. Huge amounts of wealth will be created and destroyed as this new landscape is mapped out. I believe the effects of this adventure will be profound, for while the 'Wild West' was a uniquely American phenomenon, Bitcoin is a global one."
 
-Ce n'est pas non plus pour rien que le blogueur Jimbobway [qualifiait](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) le développement du minage de Bitcoin en 2010 comme une « ruée vers l'or numérique » (original: "digital gold rush"). En 2013, le journaliste Alec Liu [ferait](https://web.archive.org/web/20130328041052/http://motherboard.vice.com/blog/engineering-the-bitcoin-gold-rush-an-interview-with-yifu-guo-creator-of-the-first-asic-based-miner) aussi la référence dans un article pour Motherload à propos de Yifu Guo, l'inventeur d'un des premiers ASIC fonctionnels. Dans un mouvement qui se prolongerait jusqu'en 2014 au moins, les individus pourraient miner des bitcoins eux-mêmes grâce à des outils de plus en plus perfectionnés, jusqu'à la généralisation des circuits intégrés spécialisés et au développement des premières fermes de taille industrielle.
+Ce n'est pas non plus pour rien que le blogueur Jimbobway [qualifiait](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) le développement du minage de Bitcoin en 2010 comme une « ruée vers l'or numérique » (original: "digital gold rush"), une analogie qui a été [reprise](https://www.hpcwire.com/2012/10/09/digital_gold_rush_powered_by_gpus/) dans les années qui ont suivi. En 2013, le journaliste Alec Liu [ferait](https://web.archive.org/web/20130328041052/http://motherboard.vice.com/blog/engineering-the-bitcoin-gold-rush-an-interview-with-yifu-guo-creator-of-the-first-asic-based-miner) aussi la référence dans un article pour Motherload à propos de Yifu Guo, l'inventeur d'un des premiers ASIC fonctionnels. Dans un mouvement qui se prolongerait jusqu'en 2014 au moins, les individus pourraient miner des bitcoins eux-mêmes grâce à des outils de plus en plus perfectionnés, jusqu'à la généralisation des circuits intégrés spécialisés et au développement des premières fermes de taille industrielle.
 
 Le « Far West de la cryptomonnaie » (original: "the Wild West of cryptocurrency") est une période durant laquelle, comme l'a expliqué [Michael del Castillo](https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/), « on pensait que le bitcoin n'était pas règlementé, ni ne *pouvait* être règlementé » (original: "bitcoin was thought to be both unregulated and *unregulatable*"). Cette caractéristique fait que les utilisations réprouvées par le grand public — illégales, immorales, ou susceptibles de le devenir — ont fleuri.
 
@@ -632,7 +632,7 @@ Interface de BitInstant en juin 2012 (source : [archive de Bitinstant.com](http
 
 Les plateformes n'offrent que des manières d'échanger des monnaies classiques avec du bitcoin et n'intègrent aucune opération financière évoluée. En particulier, il manque une plateforme sur laquelle effectuer du trading sur marge (*margin trading*) permettant d'utiliser de l'effet de levier (*leverage*) et ouvrant la possibilité la vente à découvert (*short selling*). C'est pour répondre à ce besoin que la plateforme Bitcoinica est apparue.
 
-La plateforme Bitcoinica est [lancée](https://bitcointalk.org/index.php?topic=42267.msg514429#msg514429) le 8 septembre 2011 par un jeune Chinois de 17 ans qui se fait appeler Zhou Tong, de son vrai nom Ryan Tong Zhou. Celui-ci est un surdoué qui étudie alors à Singapour. Il est inspiré par le développement personnel, ayant notamment lu *Père riche, père pauvre* de Robert Kiyosaki et s'étant intéressé à la vie d'entrepreneurs à succès comme Tony Hsieh (de Zappos) et Steve Jobs (d'Apple). Il a également acquis des connaissances en développement web.
+La plateforme Bitcoinica est [lancée](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) le 8 septembre 2011 par un jeune Chinois de 17 ans qui se fait appeler Zhou Tong, de son vrai nom Ryan Tong Zhou. Celui-ci est un surdoué qui étudie alors à Singapour. Il est inspiré par le développement personnel, ayant notamment lu *Père riche, père pauvre* de Robert Kiyosaki et s'étant intéressé à la vie d'entrepreneurs à succès comme Tony Hsieh (de Zappos) et Steve Jobs (d'Apple). Il a également acquis des connaissances en développement web.
 
 ![Zhou Tong en janvier 2010](assets/en/zhou-tong-flickr-20100130.webp)
 
@@ -650,7 +650,7 @@ Le succès est au rendez-vous dès le début. Durant les premières 24 heures, 3
 
 La plateforme héberge notamment la spéculation : l'effet de levier permet de décupler les gains (et les pertes), ce qui convient aux gros joueurus qui souhaitent tout miser sur un mouvement de prix. Le succès spéculatif est tel que le fait de se faire liquider sur la plateforme acquiert sa propre [appellation](https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749) : « get Zhou Tonged » (qu'on peut traduire par « se faire zhou-tonguer » en français). Cette expression [donne son nom](https://www.youtube.com/watch?v=kdvTkddp1F0) à la chaîne Youtube *Zhou Tonged*, qui est lancée en mars 2012 pour héberger des parodies musicales à propos de Bitcoin et du trading. La plateforme a également l'intérêt d'offrir de la vente à découverte et de permettre aux acteurs économiques (comme les commerçants détenant du bitcoin en réserve) de se couvrir contre une éventuelle baisse du cours.
 
-Début mars 2012, Bitcoinica accepte plus d'une dizaine de méthodes de dépôt et de retrait, dont le bitcoin directement, Liberty Reserve, PerfectMoney, Pecunix, ainsi que les virements SEPA en euros. Elle cumule alors quasiment autant de volume que Mt. Gox.
+Début mars 2012, Bitcoinica [accepte](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) plus d'une dizaine de méthodes de dépôt et de retrait, dont le bitcoin directement, Liberty Reserve, PerfectMoney, Pecunix, ainsi que les virements SEPA en euros. Elle cumule alors quasiment autant de volume que Mt. Gox.
 
 ### L'émission de titres financiers avec GLBSE
 
@@ -737,7 +737,7 @@ Toutefois, ce commentaire ne vaut pas pour les implémentations partielles, dest
 
 L'implémentation logicielle de Mike Hearn est BitCoinJ, qui est une mise en œuvre de la vérification de paiement simplifiée (SPV) telle que décrite dans le livre blanc, de sorte à interagir essentiellement avec les clients légers, notamment pour les téléphones utilisant le système d'exploitation Android. Il développe ce projet [à partir](https://plan99.net/~mike/satoshi-emails/thread3.html) de la fin de l'année 2010 et en [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) une première version le 7 mars 2011. Comme Mike travaille en tant qu'ingénieur pour Google, le code doit être attribué à la multinationale, mais la licence (Apache 2) est libre.
 
-Mais la ré-implémentation du protocole Bitcoin ne s'arrête pas là. En juillet 2011, après le départ de Satoshi, les membres de la *Bitcoin Consultancy* Amir Taaki (Genjix) et Patrick Strateman (Phantomcircuit) [lancent](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, qui est une implémentation en C++ visant l'extensibilité, la scalabilité et configurabilité les plus élevées possibles. Leur objectif est de « réécrire bitcoin, de le rendre super-branchable, très facile à manipuler et à bidouiller à tous les niveaux, et très configurable » (original: "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable"). Le code est publié sous licence libre copyleft (AGPL), qui obligent ceux qui réutilisent le logiciel à publier leur travail avec la même licence.
+Mais la ré-implémentation du protocole Bitcoin ne s'arrête pas là. En juillet 2011, après le départ de Satoshi, les membres de la Bitcoin Consultancy Amir Taaki (Genjix) et Patrick Strateman (Phantomcircuit) [lancent](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, qui est une implémentation en C++ visant l'extensibilité, la scalabilité et configurabilité les plus élevées possibles. Leur objectif est de « réécrire bitcoin, de le rendre super-branchable, très facile à manipuler et à bidouiller à tous les niveaux, et très configurable » (original: "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable"). Le code est publié sous licence libre copyleft (AGPL), qui obligent ceux qui réutilisent le logiciel à publier leur travail avec la même licence.
 
 ![Logo de Libbitcoin en septembre 2013](assets/en/libbitcoin-logo-sept-2013.webp)
 
@@ -954,6 +954,8 @@ Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surper
 Le regroupement en coopératives, qui amène à une plus grande centralisation du minage.
 
 La spécialisation du minage s'accroit encore plus avec le développement des FGPA et des premiers modèles d'ASIC.
+
+https://www.hpcwire.com/2012/10/09/digital_gold_rush_powered_by_gpus/
 
 ### Nouvelles coopératives
 
@@ -1545,7 +1547,7 @@ WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour
 
 CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
 
-- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
+- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway. (...) Coinabul was founded inside the United States and is dedicated to transparency and safety. Incorporated in Wyoming, with distribution centers in California, Coinabul ships both nationally, and internationally!" https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
 
 - 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666 ; Critique de Mt. Gox, 19 déc. 2012 (Brewster Kahle, Internet Archive cofounder) : https://blog.archive.org/2012/12/19/i-donated-bitcoins-to-the-internet-archive/
 
@@ -1776,7 +1778,7 @@ Parmi ces clients se trouve la plateforme de trading Bitcoinica, gérée par le 
 
 Le pirate [met aussi la main](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) sur 3 094 bitcoins appartenant à la coopérative de minage de Slush, qui représentent alors plus de 15 000 $. Ces bitcoins, présents sur le portefeuille chaud, étaient prêts à être versés aux hacheurs de la coopératives. Slush couvre personnellement la perte.
 
-Enfin, le troisième concerné est le *Bitcoin faucet* de Gavin Andresen. Le service [perd](https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html) uniquement 5 BTC (environ 25 $), mais cet incident poussera Gavin à vouloir en améliorer la sécurité, ce qui le conduira à le [fermer](https://web.archive.org/web/20121005191343/https://freebitcoins.appspot.com/) « pour maintenance » (original: "closed for maintenance") quelques mois plus tard.
+Enfin, le troisième concerné est le *Bitcoin faucet* de Gavin Andresen. Le service [perd](https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html) uniquement 5 BTC (environ 25 $), mais cet incident poussera Gavin à vouloir en améliorer la sécurité, ce qui le conduira à le [fermer](https://web.archive.org/web/20121005191343/https://freebitcoins.appspot.com/) « pour maintenance » (original: "closed for maintenance") quelques mois plus tard. Le « robinet à bitcoins » ne rouvrira jamais.
 
 Un mois plus tard, c'est au tour de la plateforme de poker en ligne Betco.in, gérée par Pavel Karoukin depuis 2010, de se faire pirater. Le 11 avril, tout l'argent conservé sur le serveur et sur l'ordinateur personnel de Pavel [est siphonné](https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855) le 11 avril : 3 171 bitcoins au total, soit près de 16 000 $. Il est par conséquent [contraint](https://bitcointalk.org/index.php?topic=82100.msg904821#msg904821) de fermer les portes de son service et de le mettre en vente, après avoir remboursé les utilisateurs au mieux.
 
@@ -1796,31 +1798,114 @@ Il est [estimé](https://web.archive.org/web/20150321011113/http://www.dailydot.
 
 ### La chute de Bitcoinica
 
-Bitcoinica a perdu 43 000 bitcoins dans le piratage de Linode
+https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/ https://www.youtube.com/watch?v=6k-eKLatmNI
 
-Article JDC: Lorsqu’il crée Bitcoinica en 2011, Zhou Tong n’a que 17 ans et est encore considéré comme mineur dans la plupart des pays du monde. Lorsqu’un investisseur, vraisemblement le Wenden Group, le contacte pour racheter la plateforme, c’est tout naturellement qu’il accepte, pour des « préoccupations réglementaires » selon ses propres dires. La vente a lieu en janvier 2012 « pour un bon prix » selon lui. Zhou Tong continuera néanmoins de gérer la plateforme, avec l’aide d’autres personnes. \[...\] Heureusement, l’investisseur ayant repris Bitcoinica quelques mois plus tôt couvre la perte, pensant que les futurs profits la compenseront. Le 22 mars, la plateforme tente de se professionaliser et l’entreprise Bitcoinica LP est enregistrée comme fournisseur de services financier auprès des autorités néo-zélandaises. En outre, une seconde entreprise, du nom de Bitcoinica Consultancy Ltd., est formée afin d’enquêter sur le piratage et suivre les fonds perdus.
+timeline par Donald Norman : https://docs.google.com/document/d/1-QMiae2yQthRMZgSq8KisK5NcjYDxkyDjzLcDp3FoTQ/edit?tab=t.0
+
+OPEN LETTER by Tihan Seale : https://bitcointalk.org/index.php?topic=109316.msg1189028#msg1189028
+
+Comme nous l'avons expliqué dans le chapitre 4, la plateforme de trading sur marge Bitcoinica connait un franc succès dès son lancement en septembre 2011. Elle est gérée par Zhou Tong, de son vrai nom Ryan Zhou, qui n'a alors que 17 ans. En novembre, un fonds d'investissement américain lui [propose](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) de racheter la plateforme « pour un bon prix » (original: "for a good price") et de lui payer un généreux salaire : il s'agit du Wendon Group, qui est représenté par un certain Tihan Seale et qui est [lié](https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900) à la société CoinLab de Peter Vessenes. Zhou Tong accepte « en raison de préoccupations réglementaires » (original: "Due to regulatory concerns") : il est encore mineur d'un point de vue légal et ne peut par conséquent pas monter d'entreprise pour exercer son activité dans les règles. La passation a lieu en janvier 2012.
+
+Zhou Tong continue de gérer la plateforme jusqu'au printemps. En mars-avril, une entreprise Bitcoinica LP est créée en Nouvelle-Zélande et [enregistrée](https://web.archive.org/web/20120505125011/https://www.bitcoinica.com/posts/registered-financial-services-provider) comme prestataire de services financiers auprès de la Financial Markets Authority. Le 24 avril, grâce aux négociations de Tihan Seale, Zhou Tong est [rejoint](https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160) par les membres de la Bitcoin Consultancy (Amir Taaki, Patrick Stratemen et Donald Norman), qui gèrent alors déjà plusieurs projets dont la plateforme de change Intersango. Ils forment une société spécifique pour l'occasion, appelée Bitcoinica Consultancy Ltd. Ainsi, malgré la perte des 43 000 bitcoins dans le piratage de Linode (couverte par le fonds d'investissement), Bitcoinica semble être sur la bonne voie.
+
+Zhou Tong, "\[Emergency ANN\] Bitcoinica site is taken offline for security investigation", [11/5](https://bitcointalk.org/index.php?topic=81045.msg894277#msg894277) ; tx: 7a22917744aa9ed740faf3068a2f895424ed816ed1a04012b47df7a493f056e8 ‎2012-05-11 12:30:33 UTC 18 547,66867623 BTC
+
+Toutefois, les choses ne se passent pas comme prévu, car un deuxième piratage [a lieu](https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html). Le 11 mai 2012, un pirate parvient à accéder au serveur de courrier électronique de Bitcoinica (qui est hébergé par Rackspace) et à utiliser la fonctionnalité d’oubli de mot de passe pour se connecter avec l'un des comptes administrateurs à la plateforme. Il réussit à [retirer](https://bitcointalk.org/index.php?topic=81045.0) 18 574 bitcoins, soit près de 92 000 $. En outre, il accède à la base de données des utilisateurs, qu'il copie et qu'il supprime du serveur. Il n'y a [pas de sauvegarde](https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159) de cette base, de sorte que l'évènement est catastrophique. Les activités de la plateforme sont suspendues dans l'heure qui suit.
+
+genjix: "no database backup" https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159
+zhoutong: "database deletion" https://bitcointalk.org/index.php?topic=81045.msg921245#msg921245
+vampire: "Complete compromise, all cloud instances were deleted, all up-to-date backups gone. It will take months to refund the customers." https://bitcointalk.org/index.php?topic=81045.msg921163#msg921163
 
 
+Le 13, Zhou Tong [publie](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) un long message sur le forum de Bitcoin dans lequel il annonce qu'il « quitte Bitcoin » (original: "I'm leaving Bitcoin"). Il explique que sa décision « n'a rien à voir avec le piratage de Bitcoinica » (original: "this isn't related to the Bitcoinica hack"), et qu'elle repose sur un manque de sens : il n'a pas réussi à « créer de la valeur pour la société » (original: "generating value for the society"), considérant que « la spéculation est un jeu à somme nulle » (original: "speculation is a zero-sum game"). Il veut « créer des produits qui font gagner du temps et de l'argent aux gens et qui leur évitent des maux de tête » (original: "build products that save people time, money and headaches"), et Bitcoin « ne répond pas à \[ses\] besoins réels » (original: "it doesn't help address my real need"). Il a à ce moment-là déménagé en Australie pour continuer ses études, et souhaite continuer à entreprendre ([NameTerrific](https://bitcointalk.org/index.php?topic=82566.msg910076#msg910076)). Il reste cependant attaché à Bitcoin, et affirme conserver une pièce de Casascius de 1 000 bitcoins. Il reviendra ainsi en 2013 en co-fondant CoinJar avec Asher Tan, une plateforme de change australienne.
+
+Pièces de Casascius actives :<br>
+1Au17NJipcVz2CDbVJBYBajR4AkinbLT7P bd52df5d27a8c3dfe0a855e66eb581372cdaf15f0193418f29d065c54441ed0f ‎2012-10-20 05:54:07<br>
+1Au1PEH71fsKfhgHSGN77CmH9tVmURriAY 10c8a0b692aa8e7c1e70b67373087a880b12528cb482a140a34e82c1617620f2 ‎2012-08-06 14:55:14<br>
+1Au1uZnK87eUMoJKRL9S3wroM29AiUQtL5 0cbe7d6ada866040e81b577c35b46dbea496b2c2826ed56a5b50d1f360872997 ‎2011-12-21 00:36:38
+
+Pièces de Casascius ouvertes :<br>
+1Au17eNBueeFn8i6bGRTk7M4KN4Q7YryxL dafacf250c363110299f71fb956790eae54b6bfd8e0799e03c0771a5913f8a2e ‎2012-01-14 19:22:31<br>
+                                   ca1c74f833af5de771aa54bcd20c8278699df409ca8f8e959a2abfedcbf96819 ‎2013-11-05 20:17:16<br>
+1Au1SVcaeYiahsg815K6Mo96oY6ASS9r5R 0ee7a563042f0ea25b005dcd295b1063c12efaaaf1dad41d2e0537b32e3c5389 ‎2012-04-25 06:25:27<br>
+                                   381da2b24ee6f43333227ead4073ee5482cc95e72ee3b322ce439687751afd8c ‎2013-03-25 22:24:22
+
+![Ryan Zhou, dit « Zhou Tong », en 2012](assets/en/zhou-tong-2012-coinabul.webp)
+
+Ryan Zhou, dit « Zhou Tong », en 2012 (source : [archive](https://web.archive.org/web/20120617170206/http://coinabul.tumblr.com/post/24022841613/10qs-zhou-tong-bitcoinica) du blog de Coinabul)
+
+La gestion est donc confiée à la Bitcoin(ica) Consultancy. Dans un article de blog publié le 15, elle [annonce](https://bitcoinica.blogspot.com/2012/05/bitcoinica-hack-post-mortem.html) « maintenir Bitcoinica hors ligne jusqu'à ce qu'une nouvelle plateforme ait pu être créée et testée à partir de zéro, en intégrant les meilleures pratiques en matière de sécurité intégrées » (original: "We are choosing to leave Bitcoinica offline until such time as a new platform can be built and tested with security best-practices built-in from scratch."), pour une période se comptant « en mois » (original: "measured in months").
+
+Cela n'a pas d'impact sur le taux de change, mais beaucoup de personnes sont lésées. C'est le cas par exemple de Roger Ver qui [conservait](https://bitcointalk.org/index.php?topic=93110.msg1027941#msg1027941) 24 841 BTC sur la plateforme (pour profiter des intérêts). Un système de demande de remboursement partiel est mis en place.
+
+Le plan est de payer 50 % des fonds aux créanciers, pour ensuite verser la moitié manquante. En l'absence de base de données, il faut en effet deviner quelle demande de remboursement est réelle.
+
+Fournir les copies des courriels reçus de Bitcoinica, les codes Mt. Gox éventuels, une photo de sa pièce d'identité, les identifiants des transactions sur Bitcoin interagissant avec la plateforme. [infos](https://bitcointalk.org/index.php?topic=84042.msg1001751#msg1001751)
+
+[payout updates by genjix](https://bitcointalk.org/index.php?topic=84042.msg926035#msg926035), edit : "13 June 15:00: Initial payouts have been made to verified people for 50% of their claim."
+
+[2012-06-13](https://web.archive.org/web/20120720064802/https://bitcoinica.com/): "Claims Payments: Claims which have been internally identified as reasonably accurate based on records and for which the ownership of the claim has been determined will receive an initial payment of 50%"
+
+genjix [14/6](https://bitcointalk.org/index.php?topic=84042.msg962559#msg962559), raison du 50 % : "No database, a huge mass of data (much of it useless) and a number of false claims that could push out legitimate claims. The data makes sense only as a whole which makes payouts difficult (you have to build a case and gather evidence based on the known data). Being careless and paying people without being sure is stupid as you cannot reverse payments if more evidence later ends up contradicting your early guess. That's why the initial payouts so far have been for only 50%. And only for people we're highly certain of."
+
+[17/6](https://bitcointalk.org/index.php?topic=84042.msg970495#msg970495) : "'How many customers have received 50% payments so far?' (...) – less than 1%. I'm not sure if it's a good idea to say how many people. But it's a small number."
+
+ninjarobot [30/6](https://bitcointalk.org/index.php?topic=84042.msg999726#msg999726) "Can we please get an update with some real factual data? The last one was made half a month ago. And so far all we know is that ~5% of the smaller accounts got 50% of their BTC balance back and 0% of their USD balance."
+
+genjix, [30/6](https://bitcointalk.org/index.php?topic=84042.msg999980#msg999980) "I'm seeing a lot of claims marked accurate (especially the larger ones). 75% of the claimed value has been marked as accurate with the remaining ones marked 'undecided' (the vast majority). This number is hugely skewed by a few people with very large balances."
+
+[1/7](https://bitcointalk.org/index.php?topic=84042.msg1001019#msg1001019) "And 27% of the claimed value (not 1 in 6) has been paid out so far. Consider that's for 50% of their claimed value."
+
+[3/7](https://bitcointalk.org/index.php?topic=84042.msg1005432#msg1005432) "So far ~50 people have been paid out. Around 4x as many people are marked accurate. Right now, I think people marked as accurate will be paid back first."
+
+[4/7](https://bitcointalk.org/index.php?topic=84042.msg1007938#msg1007938) "~35% of claimants are marked accurate; ~86% of total funds are marked accurate; ~25% of total funds have been repaid"
+
+[13/7](https://bitcointalk.org/index.php?topic=84042.msg1027285#msg1027285) "it is very bad news - a third of claims money stolen"
+
+[19/7](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) "Update 19th July: payments are still stuck at 38%. Considering that those are 50% payouts, that means a good 76% of the claims. That's not 76% of claimants, but 76% of the total funds."
 
 
+7 juillet 2012, fuite du code source par Amir Taaki. https://web.archive.org/web/20120716233550/https://www.cyberwarnews.info/2012/07/14/bitcoinica-breach-done-by-leaked-source-code-results-in-40000-being-stolen/ https://www.reddit.com/r/Bitcoin/comments/w6xen/bitcoinica_press_release/
 
-**Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
+[admission d'Amir le 14 août](https://bitcointalk.org/index.php?topic=67199.msg1099607#msg1099607)
 
-11 mai 2012 Piratage et fermeture de Bitcoinica, 18 547 BTC, 92 000 $ https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/
+raison [5/5/2013](https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900) : "After the first compromise, despite huge problems in the setup and design of the website, they wanted to put it back up as fast as possible. I was against this strongly which is why I released the code. After an employee used this as an excuse to steal more funds (the evidence is definitive), they were upset more over the loss of the 'Intellectual Property'."
 
-17 juillet 2012, troisième piratage : https://bitcoinmagazine.com/business/bitcoinica-stolen-from-again
+JDC : Le code source contenait la clé API pour le compte Mt. Gox, qui s’avérait aussi être le mot de passe du compte LastPass de Bitcoinica (mauvaise pratique de réutilisation de mot de passe). Si la clé API ne permettait pas de retirer des fonds, le compte LastPass, lui, contenait le mot de passe pour le faire : c’est ainsi que les pirates ont pu accéder pleinement au compte Mt. Gox de Bitcoinica.
+
+https://bitcoinmagazine.com/business/bitcoinica-stolen-from-again
+
+Le 13 juillet, un pirate [parvient](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) à accéder au compte de Bitcoinica sur Mt. Gox et à retirer 40 000 bitcoins et 40 000 LR-USD, ce qui représente près de 350 000 dollars au total ! Cela sonne le glas de la plateforme, qui ne rouvrira pas.
+
+Total : 210k + 92k + 350k = 652k
+
+![Les piratages de Bitcoinica résumés par Jeremias Kangas lors de l'Assembly Summer 2014](assets/en/bitcoinica-hacks-jeremias-kangas-assembly-summer-2014.webp)
+
+Les piratages de Bitcoinica résumés par Jeremias Kangas lors de l'Assembly Summer 2014 (source : capture d'[AssemblyTV](https://www.youtube.com/watch?v=CgcK3xZpjdI))
+
+[13/7 9:00:07](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) : Amir Taaki, "Bitcoinica MtGox account compromised"
+
+[13/7 14:18:02](https://bitcointalk.org/index.php?topic=93100.msg1027825#msg1027825) : Zhou Tong, "Personal contribution of 5,000 BTC to affected Bitcoinica customers" (+101 par la communauté)
+
+James Sutton "Class action Litigation vs. Bitcoinica Consultancy LTD & Intersango LTD", [13/7 15:11:54](https://bitcointalk.org/index.php?topic=93109.msg1027935#msg1027935)
+
+Roger Ver: "A public plea for help regarding Bitcoinica and my 24,841 BTC" [13/7 15:14:54](https://bitcointalk.org/index.php?topic=93110.msg1027941#msg1027941) ; bitcoins reçus de Zhou Tong le [15/7](https://mempool.space/fr/tx/50ec12d08970ade781bda0b65c4b17cf59745828898094567c0f7bec5fce988f#vout=27) : 1549,3209 BTC
+
+DarkEmi: "I will state publicly that I had 5k btc on bitcoinica and thats basically a majority of my wealth, which was accumulated trough \[sic\] hard work..." [13/7](https://bitcointalk.org/index.php?topic=93074.msg1027322#msg1027322) ; "5021 bitcoins. Got nothing back so far." [13/7](https://bitcointalk.org/index.php?topic=93109.msg1028263#msg1028263) ; [bitcoins reçus](https://bitcointalk.org/index.php?topic=93100.msg1031983#msg1031983) de Zhou Tong le [15/7](https://mempool.space/tx/50ec12d08970ade781bda0b65c4b17cf59745828898094567c0f7bec5fce988f#vout=24) : 313,1561 BTC
+
+Zhou Tong est suspecté d'être responsable du 3e piratage, par Roberto Gutierrez (AurumXchange), Charlie Shrem et Mark Karpelès : https://bitcoinmagazine.com/business/the-july-13-bitcoinica-investigation-and-sound-justice-1343490976 https://bitcointalk.org/index.php?topic=95738.msg1054890#msg1054890  ; Zhou Tong se défend en disant qu'il a été piraté : https://bitcointalk.org/index.php?topic=95738.msg1055046#msg1055046 , par un certain Chen Jianhai https://bitcointalk.org/index.php?topic=95795.msg1055627#msg1055627
+
+Liquidation, annoncée le [1er août](https://bitcointalk.org/index.php?topic=97272.msg1071263#msg1071263) ; effective en octobre : https://bitcointalk.org/index.php?topic=121474.0 ; avec l'aide de Patrick Murck : https://bitcoinmagazine.com/culture/data-series-interview-patrick-murck-general-council-bitcoin-foundation
 
 Poursuites contre Zhou Tong et Amir Taaki https://www.theverge.com/2012/8/10/3233711/second-bitcoin-lawsuit-is-filed-in-california
 
+---
+
+genjix, "Coinlab are sneaky bastards, investors behind Bitcoinica" https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900
+
 "Bitcoinica was hacked, tens of thousands of Bitcoin were stolen, including over 25,000 of my own. While an offer was on the table to buy the entire company, and make every single user 100% whole again, without permission, Amir released the source code publicly, destroying any chance for the company to be sold, and the users to be made whole again. In short, Amir has a long history of irresponsible behavior in the Bitcoin space and we should be very wary of having him be entrusted with any responsibility at all." [Roger Ver, 2016](https://web.archive.org/web/20201109031604/http://forum.bitcoin.com/bitcoin-discussion/amir-taaki-and-the-segway-in-austria-t7749.html)
 
-JDC: Après sa chute, Bitcoinica a été remplacée par d'autres plateformes de trading sur marge comme Kronos.io, et surtout par Bitfinex qui a été lancée le 22 octobre 2012. Quant à Zhou Tong, il a continué son bout de chemin en co-fondant CoinJar en 2013 avec Asher Tan, entreprise où il travaille toujours.
-
-TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https://www.youtube.com/watch?v=-L-FHB_-qT4
-
-Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.php?topic=119745.0 ; Raphael Nicolle, technicien informatique français
-
-- Piratage de BTC-e, environ 4500 BTC : https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
+À cette débâcle, se rajoute un piratage supplémentaire : celui de de BTC-e. L'équivalent de 4 500 BTC en bitcoins, namecoins et litecoins [sont dérobés](https://web.archive.org/web/20120731215829/https://btc-e.com/news/81), ce qui représente plus de 42 000 $. https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
 
 ### La première pyramide de Ponzi : Bitcoin Savings & Trust
 
@@ -1855,6 +1940,10 @@ https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Busine
 La tendance ne s'est pas arrêtée et a poursuivi sur sa lancée en 2013, pour culminer en février 2014 avec la faillite de Mt. Gox. Cela a poussé les plateformes a améliorer leur sécurité. Ce qui n'a pas empêcher d'autres piratages de se produire.
 
 Le rapport du FBI. https://www.wired.com/2012/05/fbi-fears-bitcoin/ https://cryptome.org/2012/05/fbi-bitcoin.pdf
+
+Le chantage de Dr. Evil (Michael Mancil Brown) à l'encontre du candidat républicain à l'élection présidentielle, Mitt Romney : menace de révéler les documents fiscaux d'une entreprise lui appartenant (PricewaterhouseCoopers LLC).
+
+Les piratages ont encouragement l'intervention de l'État et le développement de l'analyse de chaine.
 
 À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
 

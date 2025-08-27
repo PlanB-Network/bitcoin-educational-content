@@ -6,4 +6,4 @@ wrong_answers:
   - Le nombre de paiements effectués par le nœud cible
 explanation: |
   La capacité totale des canaux peut indiquer une probabilité de succès plus élevée, car elle suggère une plus grande disponibilité de liquidités pour les transactions.
-reviewed: false
+reviewed: true 

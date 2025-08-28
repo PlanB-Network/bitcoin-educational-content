@@ -1351,6 +1351,7 @@ Ključna poruka je da postoji nekoliko strategija za prevazilaženje hiperinflac
 [Otkrijte skeniranu kolekciju u *Bitcoin Educational Toolkit* (takođe dostupno iz odeljka *Resursi* na Plan ₿ Network platformi.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
+![slika](assets/fr/072.webp)
 # Kako smo stigli ovde?
 
 

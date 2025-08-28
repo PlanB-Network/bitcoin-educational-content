@@ -869,6 +869,7 @@ Lo más importante a tener en cuenta es que existen varias estrategias para sali
 
 [Descubre la colección escaneada en el *Bitcoin Educational Toolkit* (también accesible desde la sección *Recursos* de la plataforma Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
+![imagen](assets/fr/072.webp)
 # ¿Cómo llegamos aquí?
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>

@@ -882,6 +882,7 @@ Bernold提出的一个有趣观点是，货币改革的成功不仅取决于其�
 
 [在 *Bitcoin Educational Toolkit* 中发现扫描的收藏（也可从 Plan ₿ Network 平台的 *资源* 部分访问。](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
+![图片](assets/fr/072.webp)
 # 我们是如何到达这里的？
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>

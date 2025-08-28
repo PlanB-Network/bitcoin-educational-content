@@ -1353,6 +1353,7 @@ De belangrijkste conclusie is dat er verschillende strategieën zijn om hyperinf
 [Ontdek de gescande collectie in de *Bitcoin Educational Toolkit* (ook toegankelijk via de sectie *Bronnen* van het Plan ₿ Network-platform.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
+![afbeelding](assets/fr/072.webp)
 # Hoe zijn we hier gekomen?
 
 

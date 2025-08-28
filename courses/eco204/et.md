@@ -877,6 +877,7 @@ Peamine õppetund on see, et hüperinflatsioonist ülesaamiseks on mitmeid strat
 
 [Avastage skaneeritud kollektsioon *Bitcoin Educational Toolkit*-is (saadaval ka Plan ₿ Network platvormi jaotisest *Ressursid*.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
+![pilt](assets/fr/072.webp)
 # Kuidas me siia jõudsime?
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>

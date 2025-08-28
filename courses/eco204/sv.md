@@ -861,7 +861,7 @@ Zimbabwe: "De var också valutaväxlare. De verkade ostraffat mellan 2nd och 6th
 Argentina: "Så jag gick dit alla argentinare går: till cuevas, 'grottorna', som finns i stadsdelen Florida i hjärtat av Buenos Aires." - DenStoraValen
 
 
-9. Valutan Exchange var olaglig
+#### 9. Växling av utländsk valuta var olaglig
 
 
 I ett försök att stabilisera den egna valutan och kontrollera kapitalflödet kan regeringar göra dessa transaktioner i utländsk valuta olagliga. Dessa repressiva åtgärder, som visserligen är avsedda att skydda den nationella ekonomin, kan ofta få motsatt effekt genom att förvärra allmänhetens misstro och uppmuntra den svarta marknaden.

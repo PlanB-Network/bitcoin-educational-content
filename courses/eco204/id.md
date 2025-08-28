@@ -523,7 +523,7 @@ Weimar: "Transaksi mereka terutama dilakukan melalui apa yang disebut Winkelbank
 Zimbabwe: "Mereka juga penukar mata uang. Mereka beroperasi dengan bebas antara 2nd dan 6th Avenue dan Fort Street di Bulawayo, berkat keterampilan bisnis licik mereka yang melibatkan korupsi dan praktik lainnya. Area kota ini dikenal sebagai 'Bank Dunia'."
 Argentina: "Jadi saya pergi ke tempat semua orang Argentina pergi: cuevas, 'gua', yang ditemukan di lingkungan Florida di jantung Buenos Aires." - TheBigWhale
 
-9. Pertukaran mata uang adalah ilegal
+#### 9. Pertukaran mata uang asing adalah ilegal
 
 Pemerintah, dalam upaya untuk menstabilkan mata uang mereka sendiri dan mengontrol aliran modal, dapat membuat transaksi mata uang asing ini ilegal. Meskipun tindakan represif ini dimaksudkan untuk melindungi ekonomi nasional, seringkali dapat memiliki efek sebaliknya, memperburuk ketidakpercayaan publik dan mendorong pasar gelap.
 

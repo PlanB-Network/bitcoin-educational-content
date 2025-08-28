@@ -861,7 +861,7 @@ Zimbabwe: "Het waren ook geldwisselaars. Ze opereerden ongestraft tussen 2nd en 
 Argentinië: "Dus ging ik waar alle Argentijnen gaan: de cuevas, de 'grotten', die te vinden zijn in de wijk Florida in het hart van Buenos Aires." - TheBigWhale
 
 
-9. Valuta Exchange was illegaal
+#### 9. Het wisselen van buitenlandse valuta was illegaal
 
 
 In een poging om hun eigen valuta te stabiliseren en de kapitaalstroom te beheersen, kunnen regeringen deze transacties in vreemde valuta illegaal maken. Hoewel deze repressieve maatregelen bedoeld zijn om de nationale economie te beschermen, kunnen ze vaak het tegenovergestelde effect hebben: het wantrouwen van het publiek wordt versterkt en de zwarte markt wordt aangemoedigd.

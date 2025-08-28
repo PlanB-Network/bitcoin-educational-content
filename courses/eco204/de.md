@@ -544,7 +544,7 @@ Weimar: "Ihre Transaktionen wurden hauptsächlich über die sogenannten Winkelba
 Zimbabwe: "Sie waren auch Geldwechsler. Sie operierten straffrei zwischen der 2. und der 6. Avenue und der Fort Street in Bulawayo, dank ihrer geschickten Geschäftsfähigkeiten, die Korruption und andere Praktiken beinhalteten. Dieser Teil der Stadt war als 'Weltbank' bekannt."
 Argentinien: "Also ging ich dorthin, wo alle Argentinier hingehen: zu den 'cuevas', den 'Höhlen', die man im Stadtteil Florida im Herzen von Buenos Aires findet." - TheBigWhale
 
-9. Der Devisenhandel war illegal
+#### 9. Der Handel mit Fremdwährungen war illegal
 
 Regierungen können in dem Bestreben, ihre eigene Währung zu stabilisieren und den Kapitalfluss zu kontrollieren, den Devisenhandel illegal machen. Diese repressiven Maßnahmen, die dazu dienen sollen, die nationale Wirtschaft zu schützen, können oft das Gegenteil bewirken, indem sie das Misstrauen der Öffentlichkeit verstärken und den Schwarzmarkt fördern.
 

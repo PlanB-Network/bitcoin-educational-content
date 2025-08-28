@@ -506,7 +506,7 @@ Weimar: "Sus transacciones se realizaban principalmente a través de los llamado
 Zimbabwe: "También eran cambistas de moneda. Operaban impunemente entre la 2ª y la 6ª Avenida y Fort Street en Bulawayo, gracias a sus astutas habilidades comerciales que implicaban corrupción y otras prácticas. Esta zona de la ciudad era conocida como el 'Banco Mundial'".
 Argentina: "Así que fui a donde van todos los argentinos: las cuevas, que se encuentran en el barrio de Florida, en el corazón de Buenos Aires" - TheBigWhale.
 
-9. El cambio de moneda era ilegal.
+#### 9. Los intercambios de moneda extranjera eran ilegales
 
 Los gobiernos, en un esfuerzo por estabilizar su propia moneda y controlar el flujo de capitales, pueden hacer ilegales estas transacciones en divisas extranjeras. Estas medidas represivas, aunque destinadas a proteger la economía nacional, a menudo pueden tener el efecto contrario, exacerbando la desconfianza del público y fomentando el mercado negro.
 Weimar: "La gente comenzó a comerciar a través del trueque y gradualmente recurrió a las divisas extranjeras como única forma de intercambio confiable. Se introdujeron nuevos decretos sobre la compra de letras de cambio extranjeras y el uso de divisas extranjeras para pagos internos. Además de la prisión, ahora se podían imponer multas de hasta diez veces el monto de una transacción ilegal".

@@ -518,7 +518,7 @@ Weimar: "Heidän toimensa suoritettiin pääasiassa niin kutsuttujen Winkelbanki
 Zimbabwe: "He olivat myös valuutanvaihtajia. He toimivat rankaisematta 2. ja 6. Avenuen sekä Fort Streetin välillä Bulawayossa, kiitos heidän ovelien liiketoimintataitojensa, jotka sisälsivät korruptiota ja muita käytäntöjä. Tätä kaupungin aluetta kutsuttiin 'Maailmanpankiksi'."
 Argentiina: "Joten menin sinne, minne kaikki argentiinalaiset menevät: cuevasiin, 'luoliin', jotka sijaitsevat Floridan naapurustossa Buenos Airesin sydämessä." - TheBigWhale
 
-9. Valuutanvaihto oli laitonta
+#### 9. Ulkomaan valuutan vaihto oli laitonta
 
 Hallitukset pyrkivät vakauttamaan omaa valuuttaansa ja hallitsemaan pääoman liikkuvuutta tekemällä näistä ulkomaanvaluuttatransaktioista laittomia. Nämä sortotoimet, vaikka ne on tarkoitettu suojelemaan kansallista taloutta, voivat usein saada aikaan päinvastaisen vaikutuksen, lisäten julkista epäluottamusta ja rohkaisten mustan markkinan toimintaa.
 

@@ -553,7 +553,7 @@ Zimbabwe: "Eles também eram cambistas. Eles operavam impunemente entre a 2ª e 
 
 Argentina: "Então eu fui onde todos os argentinos vão: as cuevas, as 'cavernas', que são encontradas no bairro de Florida, no coração de Buenos Aires." - TheBigWhale
 
-9. A troca de moeda era ilegal
+#### 9. As trocas de moeda estrangeira eram ilegais
 
 Os governos, em um esforço para estabilizar sua própria moeda e controlar o fluxo de capital, podem tornar essas transações em moeda estrangeira ilegais. Essas medidas repressivas, embora destinadas a proteger a economia nacional, muitas vezes podem ter o efeito oposto, exacerbando a desconfiança do público e incentivando o mercado negro.
 

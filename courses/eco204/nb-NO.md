@@ -524,7 +524,7 @@ Weimar: "Transaksjonene deres ble hovedsakelig utført gjennom de såkalte Winke
 Zimbabwe: "De var også valutavekslere. De opererte ustraffet mellom 2. og 6. avenue og Fort Street i Bulawayo, takket være deres slu forretningsferdigheter som involverte korrupsjon og andre praksiser. Dette området av byen var kjent som 'Verdensbanken'."
 Argentina: "Så jeg gikk dit alle argentinere går: til cuevas, 'hulene', som finnes i Florida-nabolaget i hjertet av Buenos Aires." - TheBigWhale
 
-9. Valutaveksling var ulovlig
+#### 9. Vekslingshandel med utenlandsk valuta var ulovlig
 
 Regjeringer, i et forsøk på å stabilisere sin egen valuta og kontrollere kapitalstrømmen, kan gjøre disse utenlandske valutatransaksjonene ulovlige. Disse undertrykkende tiltakene, selv om de er ment å beskytte den nasjonale økonomien, kan ofte ha motsatt effekt, forsterke offentlig mistillit og oppmuntre til svartemarkedet.
 

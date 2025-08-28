@@ -548,7 +548,7 @@ Weimar: "Their transactions were mainly carried out through the so-called Winkel
 Zimbabwe: "They were also currency changers. They operated with impunity between 2nd and 6th Avenue and Fort Street in Bulawayo, thanks to their cunning business skills involving corruption and other practices. This area of the city was known as the 'World Bank'."
 Argentina: "So I went where all Argentines go: the cuevas, the 'caves', which are found in the Florida neighborhood in the heart of Buenos Aires." - TheBigWhale
 
-9. Currency exchange was illegal
+#### 9. Foreign currency exchanges were illegal
 
 Governments, in an effort to stabilize their own currency and control the flow of capital, may make these foreign currency transactions illegal. These repressive measures, although intended to protect the national economy, can often have the opposite effect, exacerbating public mistrust and encouraging the black market.
 

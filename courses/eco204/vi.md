@@ -524,7 +524,7 @@ Zimbabwe: "Họ cũng là những người đổi tiền. Họ hoạt động m�
 
 Argentina: "Vì vậy, tôi đã đến nơi mà tất cả người Argentina đều đến: các cuevas, 'hang động - caves', được tìm thấy ở khu vực Florida trong trái tim của Buenos Aires." - TheBigWhale
 
-9. Việc đổi tiền là bất hợp pháp
+#### 9. Việc trao đổi ngoại tệ là bất hợp pháp
 
 Chính phủ, trong nỗ lực ổn định đồng tiền của chính họ và kiểm soát dòng vốn, có thể làm cho các giao dịch ngoại tệ trở thành bất hợp pháp. Những biện pháp đàn áp này, mặc dù nhằm mục đích bảo vệ nền kinh tế quốc gia, thường phản tác dụng, làm gia tăng sự mất lòng tin của công chúng và khuyến khích thị trường chợ đen.
 

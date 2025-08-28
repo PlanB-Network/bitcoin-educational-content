@@ -515,7 +515,7 @@ Zimbabwe: «Erano anche cambiavalute. Operavano impunemente tra la 2ª e la 6ª 
 Argentina: «Così andai dove vanno tutti gli argentini: nelle cuevas, le “grotte”, che si trovano nel quartiere Florida, nel cuore di Buenos Aires.» – TheBigWhale
 
 
-9. Il cambio di valuta era illegale
+#### 9. Gli scambi di valuta estera erano illegali
 
 I governi, nel tentativo di stabilizzare la propria valuta e controllare il flusso di capitali, possono rendere illegali queste transazioni in valuta estera. Queste misure repressive, sebbene destinate a proteggere l'economia nazionale, possono spesso avere l'effetto opposto, aumentando la diffidenza del pubblico e incoraggiando il mercato nero.
 

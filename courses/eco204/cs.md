@@ -524,7 +524,7 @@ Weimar: "Jejich transakce byly převážně prováděny takzvanými Winkelbankie
 Zimbabwe: "Byli to také směnárníci. Operovali bez trestu mezi 2. a 6. Avenue a Fort Street v Bulawayo, díky svým vychytralým obchodním dovednostem zahrnujícím korupci a další praktiky. Tato oblast města byla známá jako 'Světová banka'."
 Argentina: "Tak jsem šel tam, kam chodí všichni Argentinci: do cuevas, 'jeskyní', které se nacházejí ve čtvrti Florida v srdci Buenos Aires." - TheBigWhale
 
-9. Směna měn byla nelegální
+#### 9. Směna cizích měn byla nezákonná
 
 Vlády se v úsilí stabilizovat vlastní měnu a kontrolovat tok kapitálu mohou rozhodnout tyto transakce s cizími měnami prohlásit za nelegální. Tyto represivní opatření, ačkoli mají za cíl chránit národní ekonomiku, často mají opačný efekt, zvyšují veřejnou nedůvěru a podporují černý trh.
 

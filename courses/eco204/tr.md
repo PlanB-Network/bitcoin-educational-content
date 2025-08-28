@@ -861,7 +861,7 @@ Zimbabve: "Aynı zamanda döviz bozdurucularıydılar. Yolsuzluk ve diğer uygul
 Arjantin: "Ben de tüm Arjantinlilerin gittiği yere gittim: Buenos Aires'in kalbindeki Florida mahallesinde bulunan cuevalara, yani 'mağaralara'." - TheBigWhale
 
 
-9. Para Birimi Exchange yasa dışıydı
+#### 9. Yabancı para takasları yasadışıydı
 
 
 Hükümetler, kendi para birimlerini istikrara kavuşturmak ve sermaye akışını kontrol etmek amacıyla bu döviz işlemlerini yasadışı hale getirebilirler. Bu baskıcı önlemler, ulusal ekonomiyi korumayı amaçlasa da, genellikle ters etki yaratarak halkın güvensizliğini artırabilir ve karaborsayı teşvik edebilir.

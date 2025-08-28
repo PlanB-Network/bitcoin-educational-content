@@ -861,7 +861,7 @@ Zimbabve: "Bili su i menjači novca. Delovali su nekažnjeno između 2. i 6. Ave
 Argentina: "Tako sam otišao tamo gde idu svi Argentinci: u cuevas, 'pećine', koje se nalaze u četvrti Florida u srcu Buenos Airesa." - TheBigWhale
 
 
-9. Valuta Exchange bila je ilegalna
+#### 9. Razmena strane valute bila je nelegalna
 
 
 Vlade, u nastojanju da stabilizuju sopstvenu valutu i kontrolišu tok kapitala, mogu učiniti ove transakcije sa stranim valutama ilegalnim. Ove represivne mere, iako namenjene zaštiti nacionalne ekonomije, često mogu imati suprotan efekat, pogoršavajući nepoverenje javnosti i podstičući crno tržište.

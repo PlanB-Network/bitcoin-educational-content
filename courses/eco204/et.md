@@ -526,7 +526,7 @@ Weimar: "Nende tehingud viidi peamiselt läbi nn Winkelbankiers'ide kaudu, täna
 Zimbabwe: "Nad olid ka valuutavahetajad. Nad tegutsesid karistamatult 2. ja 6. avenüü ning Fort Streeti vahel Bulawayos, tänu oma kavala ärioskusele, mis hõlmas korruptsiooni ja muid praktikaid. Seda linnaosa tunti kui 'Maailmapanka'."
 Argentina: "Niisiis läksin sinna, kuhu kõik argentiinlased lähevad: cuevas'desse, 'koobastesse', mis asuvad Florida naabruskonnas Buenos Airese südames." - TheBigWhale
 
-9. Valuutavahetus oli ebaseaduslik
+#### 9. Välisvaluutavahetus oli ebaseaduslik
 
 Valitsused, püüdes stabiliseerida oma valuutat ja kontrollida kapitali liikumist, võivad muuta need välisvaluuta tehingud ebaseaduslikuks. Need repressiivsed meetmed, kuigi mõeldud rahvusliku majanduse kaitsmiseks, võivad sageli avaldada vastupidist mõju, suurendades avalikku usaldamatust ja julgustades musta turgu.
 

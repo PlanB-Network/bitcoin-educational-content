@@ -630,7 +630,7 @@ Zimbabwe: "Pia walikuwa wabadilishaji fedha. Walifanya kazi bila ya kuadhibiwa k
 
 Argentina: "Kwa hivyo nilienda ambapo Waajentina wote wanaenda: cuevas, 'mapango', ambayo yanapatikana katika kitongoji cha Florida katikati ya Buenos Aires." - TheBigWhale
 
-9. Sarafu ya Ubadilishanaji ilikuwa kinyume cha sheria
+#### 9. Mabadilishano ya fedha za kigeni yalikuwa haramu
 
 Fiat money (pesa za serikali), katika jitihada za kuleta utulivu wa sarafu zao na kudhibiti mtiririko wa mtaji, zinaweza kufanya miamala hii ya fedha za kigeni kuwa haramu. Hatua hizi za ukandamizaji, ingawa zimekusudiwa kulinda uchumi wa taifa, mara nyingi zinaweza kuwa na athari tofauti, kuzidisha kutoaminiana kwa umma na kuhimiza soko nyeusi.
 

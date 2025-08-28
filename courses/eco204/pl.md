@@ -861,7 +861,7 @@ Zimbabwe: "Zajmowali się również wymianą walut. Działali bezkarnie między 
 Argentyna: "Poszedłem więc tam, gdzie chodzą wszyscy Argentyńczycy: do jaskiń, które znajdują się w dzielnicy Florida w samym sercu Buenos Aires" - TheBigWhale
 
 
-9. Waluta Exchange była nielegalna
+#### 9. Wymiana walut obcych była nielegalna
 
 
 Rządy, starając się ustabilizować własną walutę i kontrolować przepływ kapitału, mogą uczynić te transakcje walutowe nielegalnymi. Te represyjne środki, choć mają na celu ochronę krajowej gospodarki, często mogą mieć odwrotny skutek, pogłębiając nieufność społeczną i zachęcając do czarnego rynku.

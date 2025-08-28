@@ -76,7 +76,7 @@ Mfumuko wa bei ni dhana ambayo mara nyingi haieleweki kutokana na fasili nyingi 
 - Ufafanuzi kutoka kwa Robert: Mfumuko wa bei ni ongezeko kubwa la njia za malipo (noti, mtaji) na kusababisha kupanda kwa bei na kushuka kwa thamani ya sarafu.
 - Ufafanuzi kutoka kwa Larousse: Mfumuko wa bei ni jambo linalojulikana na kupanda kwa jumla na kuendelea kwa kiwango cha bei. Hapa, neno "jumla" ni muhimu.
 
-![image](assets/chapitre-2.1/4.webp)
+![image](assets/fr/001.webp)
 
 Kwa kuzingatia ufafanuzi huu, ni muhimu kuelewa kwamba, kwa Robert, mfumuko wa bei unahusu hasa ongezeko la usambazaji wa fedha. Kwa upande mwingine, Larousse inazingatia matokeo ya upanuzi huu, yaani kupanda kwa bei kwa jumla.
 
@@ -99,7 +99,7 @@ Katika mifumo ya jadi ya fedha, ongezeko la usambazaji wa fedha lilipatikana kwa
 
 Njia nyingine ilikuwa kupunguza kiasi cha madini ya thamani katika sarafu kulingana na metali kama vile fedha au dhahabu. Mfano wa kutokeza unaweza kupatikana katika Milki ya Kirumi, ambapo dinari, ambayo hapo awali ilitungwa karibu kabisa na fedha, iliona maudhui yake ya fedha yamepungua sana kwa muda. Hii ilifikia aina ya mfumuko wa bei, lakini si lazima mfumuko wa bei.
 
-![image](assets/chapitre-2.1/1.webp)
+![image](assets/fr/002.webp)
 
 Ni muhimu kusisitiza kwamba mfumuko mkubwa wa bei hutokea hasa pale ambapo sarafu imetenganishwa na mali zake za msingi, kama vile madini ya thamani. Kihistoria, wakati sarafu ilikuwa imefungwa na mali kama hizo, kulikuwepo na vipindi vya mfumuko wa bei (kwa mfano, kupitia kupungua kwa thamani ya maudhui ya metali), lakini vipindi hivyo havikuwahi kufikia viwango vya juu sana vya mfumuko wa bei. Katika sehemu zifuatazo, tutajifunza kwa undani kuhusu vipindi vya kushuka kwa thamani ya fedha na athari za mifumo hii tofauti ya fedha kwenye mfumuko wa bei.
 
@@ -111,7 +111,7 @@ Katika historia, ustaarabu mbalimbali umepitia vipindi vya kushuka kwa thamani y
 
 Vita vya Peloponnesian, mzozo kati ya Athene na Sparta, na Vita vya Pili vya Punic, kati ya Jamhuri ya Roma na Carthage, ni mifano ya mwanzo zaidi ya kushuka kwa thamani ya sarafu iliyopatikana katika kumbukumbu. Ili kufadhili vita hivi, ustaarabu huu ulipunguza thamani ya sarafu zao kwa kupunguza kiwango cha fedha na kuingiza metali nyingine, huku wakiongeza idadi ya sarafu zinazozalishwa.
 
-![image](assets/chapitre-2.1/8.webp)
+![image](assets/fr/003.webp)
 
 Mchoro unaoonyesha mauaji ya watu wa Athene kwenye ukingo wa Assinaros.
 
@@ -121,7 +121,7 @@ Baada ya enzi ya Jamhuri ya Kirumi, wakati wa Dola, karne ya 3 na 4 ilipata kush
 
 Ingawa vipindi hivi vilipata mfumuko mkubwa wa bei, havikufikia viwango vya mfumuko wa bei ambavyo tunaweza kuona katika hali zingine za kisasa. Sababu ya hii ni kwamba, ingawa sarafu ilipunguzwa thamani, bado ilitegemea madini ya thamani. Msingi huu thabiti ulitoa ulinzi fulani dhidi ya viwango vya juu vya mfumuko wa bei. Katika sehemu zifuatazo, tutachunguza kwa undani zaidi asili na matokeo ya mfumuko wa bei.
 
-![image](assets/chapitre-2.1/2.webp)
+![image](assets/fr/004.webp)
 
 
 - Dinari ya Marcus Aurelius (160 BK):
@@ -135,13 +135,13 @@ Kwa kushuka kwa thamani ya fedha, sarafu mpya, Antoninianus, ilionekana. Sarafu 
 
 Wakati wa kulinganisha sarafu mbili kwa upande, tofauti ni ya kushangaza. Dinari kutoka 160 AD ina mwonekano tofauti wa fedha, wakati Antoninianus kutoka mwishoni mwa karne ya 3 AD ni dhaifu sana, ikionyesha kupungua kwa kiasi kikubwa kwa kiwango cha fedha. Ulinganisho huu wa kuona unatoa kielelezo wazi cha kushuka kwa thamani ya fedha ambako Roma ya kale ilipitia kwa karne chache.
 
-![image](assets/chapitre-2.1/3.webp)
+![image](assets/fr/005.webp)
 
 Ili kukamilisha onyesho hili, grafu inayoonyesha kushuka kwa thamani ya sarafu hizi baada ya muda itakuwa na manufaa makubwa. Ingawa ni vigumu kuiwasilisha moja kwa moja kupitia jukwaa hili, fikiria grafu inayoonyesha thamani ya dinari, ikifuatiwa na kushuka kwake kuelekea mwisho wa karne ya pili, na nafasi yake kuchukuliwa na Antoninianus, sarafu iliyodhaniwa kuwa na thamani ya dinari mbili, lakini ikiwa na kiwango cha chini cha fedha. Mabaki haya ni mashahidi wa kimya wa mabadiliko ya kiuchumi ya ustaarabu wa kale.
 
 #### 3. Maravedi wa Kihispania: Shahidi wa Kushuka kwa Thamani Inayolengwa
 
-![image](assets/chapitre-2.1/5.webp)
+![image](assets/fr/006.webp)
 
 Maravedi, kama sarafu ya shaba, inachukua nafasi maalum katika historia ya dola ya Kihispania. Kama ilivyotajwa hapo awali, dola ya Uhispania hapo awali ilikuwa kiwango cha kimataifa, sarafu muhimu ya hifadhi kwa Uhispania. Walakini, ikikabiliwa na changamoto fulani za kiuchumi, Uhispania ililazimika kutumia mikakati ya ujanja ya kifedha.
 
@@ -155,7 +155,7 @@ Mkakati huu uliruhusu Fiat money (pesa za serikali) kupunguza thamani ya sarafu,
 
 Kisa cha Maravedi kinaonyesha jinsi Fiat money (pesa za serikali) inavyoweza kupunguza kwa makusudi thamani ya sarafu ya ndan ili kukidhi mahitaji yake ya ndani ya kiuchumi, huku ikihifadhi thamani ya sarafu ya akiba kwenye jukwaa la kimataifa. Ni mfano unaoangazia kwa uzuri na utata ya sera ya fedha katika historia.
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 Zaidi kuhusu nini? -> [Kiungo](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -167,7 +167,7 @@ Kati ya karne ya 15 na 17, Ulaya iliyoshuhudia hali ya ajabu ya kiuchumi, ambayo
 
 Katika karne ya 18, historia ya uchumi wa Ufaransa iliwekwa alama na matukio mawili muhimu yanayohusiana na sarafu. Kwanza, John Law, mwanauchumi na mfadhili wa Scotland, aliishawishi Fiat money (pesa za serikali) ya Ufaransa kupitisha mfumo wa fedha unaotegemea pesa za karatasi. Ingawa mwanzoni ilichukuliwa kuwa suluhisho la kiubunifu kwa matatizo ya kifedha ya nchi, mpango huu ulisababisha haraka mfumuko wa bei. Kisha, muda mfupi baadaye, wakati wa msukosuko wa Mapinduzi ya Ufaransa, Fiat money (pesa za serikali) ilianzisha "kazi".
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 Mgawo kutoka 1793
 
@@ -182,7 +182,7 @@ Nchini Marekani, mapema miaka ya 1930 ilishuhudia mabadiliko makubwa katika sera
 
 - 1928 $20 Bill
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 Mnamo 1928, mswada wa dola 20 huko Merika ulisema: "inaweza kukombolewa kwa dhahabu inapohitajika." Hii ina maana kwamba kila mswada ulibadilishwa kihalisi kuwa dhahabu. Hasa, noti ya $20.67 ilikuwa sawa na wakia moja ya dhahabu.
 
@@ -191,18 +191,18 @@ Mnamo 1928, mswada wa dola 20 huko Merika ulisema: "inaweza kukombolewa kwa dhah
 
 Mnamo 1933, msukosuko mkubwa ulitokea kwa kutolewa kwa Agizo la Utendaji 6102. Amri hii ilifanya iwe kinyume cha sheria kwa raia kumiliki dhahabu, iwe katika umbo la baa, sarafu, au vyeti.
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 Cheti cha Dhahabu ni mfano mzuri. Kiliwekwa alama: "Katika sarafu ya dhahabu inayolipwa kwa mbebaji inapohitajika." Kuwa na cheti kama hicho kulikua haramu na kubaki hivyo hadi 1964.
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 
 - Utangulizi wa Noti Mpya
 
 Kufuatia kukamatwa kwa dhahabu mnamo 1934, Layer (Safu) mpya ya noti iliwekwa kwenye mzunguko.
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 
 Mtajo unaoonyesha kugeuzwa kwao kuwa dhahabu umeondolewa na nafasi yake kuchukuliwa na "Noti hii ni zabuni halali kwa madeni yote" (Ce billet est une monnaie légale pour toutes dettes).
 
@@ -221,7 +221,7 @@ Hapo awali, wakati wa Renaissance, florin ya Italia iliyotolewa na Florence kati
 
 Kwa moyo huohuo, Uhispania na Uholanzi, zikiwa na fedha za akiba ya dunia kutokana na kustawi kwa biashara yao ya kimataifa, zilidumisha uadilifu wa sarafu yao ili kuhifadhi imani na hali ilivyo katika mabadilishano ya kimataifa. Uholanzi hata ilishuhudia kuundwa kwa benki kuu ya kwanza, hatua muhimu katika mageuzi ya fedha duniani.
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 
 Walakini, hali ilibadilika na kuongezeka kwa Merika kama nguvu kuu ya kiuchumi. Walichagua kupunguza thamani ya fedha zao za akiba, hivyo kutumia mfumuko wa bei kwa manufaa yao. Uamuzi huu mara nyingi unahusishwa na mabadiliko ya mienendo, ambapo uchaguzi wa sarafu ya hifadhi haukuwa huru tena kama hapo awali. Utawala wa Marekani ulianzisha dola kama sarafu ya hifadhi ya dunia, ikiruhusu upotoshaji wa thamani yake. Mabadiliko haya yanaonyesha athari zinazoweza kutokea za sera za fedha kwenye biashara ya kimataifa katika uchumi wa utandawazi, na hivyo kuashiria mabadiliko makubwa katika usimamizi wa sarafu za hifadhi za kimataifa.
 
@@ -229,11 +229,11 @@ Walakini, hali ilibadilika na kuongezeka kwa Merika kama nguvu kuu ya kiuchumi. 
 
 Dinari ya Uswisi inaonyesha kipengele kingine cha kuvutia cha kushuka kwa thamani ya fedha, wakati huu kukiwa na muktadha wa kabla ya Vita vya Ghuba vya Iraq. Imepewa jina la ubora wa noti zake, sarafu hii ilitolewa na Benki Kuu ya Iraq na kufurahia sifa ya utulivu katika eneo la Mashariki ya Kati. Ujasiri huu ulitokana hasa na ubora wa uchapishaji wa noti, ambao ulifanyika Uingereza, ikimaanisha uimara fulani dhidi ya kushuka kwa thamani.
 
-![image](assets/chapitre-2.1/16.webp)
+![image](assets/fr/014.webp)
 
 Walakini, Vita vya Ghuba viliashiria mabadiliko katika historia ya Dinari ya Uswizi. Iraq, ikiwa haiwezi tena kutegemea msambazaji wake wa Kiingereza kwa uchapishaji wa noti, iligeukia Uchina. Mpito huu ulisababisha tofauti ya wazi katika ubora wa noti, huku toleo la Kichina likichukuliwa kuwa duni. Mtazamo huu haukuwa na msingi; noti za Kichina zilikuwa za kughushi kwa urahisi na kuathiriwa na uchapaji kupita kiasi na Fiat money (pesa za serikali), hivyo kutishia thamani yake.
 
-![image](assets/chapitre-2.1/17.webp)
+![image](assets/fr/015.webp)
 
 Jambo la kipekee liliibuka katika uchumi wa Iraq baada ya Vita vya Ghuba: mfumo wa bei mbili. Wafanyabiashara walitoa bei tofauti kulingana na aina ya noti iliyotumika kwa malipo, wakipendelea Dinari asilia ya Uswisi kuliko noti ya Uchina. Mfumo huu uliakisi imani iliyodumishwa katika noti za ubora wa juu, ambazo hazikukabiliwa na kushuka kwa thamani, hata katika muktadha ambapo thamani iliwekwa na Fiat money (pesa za serikali). Kipindi hiki kinaonyesha umuhimu wa sifa za ndani za sarafu na jinsi, hata katika mfumo wa sarafu ya Fiat money (pesa za serikali), ubora unaotambulika wa sarafu unaweza kuathiri thamani yake linganishi na, kwa kuongeza, imani ya watendaji wa kiuchumi.
 
@@ -241,7 +241,7 @@ Jambo la kipekee liliibuka katika uchumi wa Iraq baada ya Vita vya Ghuba: mfumo 
 
 Mtazamo wa kawaida mara nyingi huhusisha sarafu na uundaji wa Fiat money (pesa za serikali), ambapo utoaji na thamani yake inadhibitiwa na Fiat money (pesa za serikali). Dhana hii ina mizizi yake katika ustaarabu wa kale kama vile Roma, ambapo sarafu zilisanifiwa na kupigwa chapa na Dola, hivyo kutoa thamani rasmi kwa sarafu. Hata hivyo, uchunguzi wa kina unaonyesha kwamba thamani ya ndani ya sarafu ilitokana hasa na maudhui yake ya madini ya thamani.
 
-![image](assets/chapitre-2.1/18.webp)
+![image](assets/fr/016.webp)
 
 Mfano unaonyeshwa kupitia uchunguzi wa uzani wa pesa sawa na reales nane za Uhispania, au dola moja ya Uhispania. Uzito huu, ulio na nambari ya Kirumi inayoonyesha thamani yake, ulitumiwa na wabadilishanaji wa sarafu kutathmini thamani ya sarafu kulingana na uzito wao, badala ya kugonga tu. Kwa kupima sarafu, wabadilishanaji wanaweza kuamua ikiwa walikuwa wamebadilishwa au kuharibiwa, ambayo inaweza kupunguza thamani yao. Zoezi hili linaangazia kwamba, ingawa upigaji chapa uliosawazishwa na Fiat money (pesa za serikali) ulitoa thamani fulani ya kawaida kwa sarafu, thamani ya kweli ilikaa katika uzito wa madini ya thamani yaliyomo.
 
@@ -259,7 +259,7 @@ Kwa kumalizia, utafiti huu wa kushuka kwa thamani ya fedha unafungua mlango kwa 
 
 Katika sehemu hii, tutachunguza vipimo tofauti vya mfumuko wa bei, jambo ambalo mara nyingi halieleweki. Ingawa mfumuko wa bei mara kwa mara unachukuliwa kuwa jambo la mambo mengi katika vyombo vya habari na mijadala ya kila siku, ni muhimu kukumbuka kuwa kimsingi ni jambo la kifedha.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 Hapa kuna mgawanyiko wa mada katika mambo kadhaa muhimu:
 
@@ -306,7 +306,7 @@ Maelezo ya kwanza yapo katika namna mfumuko wa bei unavyopimwa. Fahirisi ya Bei 
 
 Kwa kuongeza, hesabu ya CPI inajumuisha mbinu fulani ambazo zinaweza kukabiliana au kuzuia ongezeko la bei halisi. Kwa mfano, uboreshaji wa ubora wa bidhaa unaweza kutumika kurekebisha index. Ikiwa bei ya bidhaa itaongezeka, lakini ubora au vipengele vyake pia vinaboresha, CPI inaweza kuzingatia kwamba thamani halisi ya mtumiaji haijabadilika, na kwa hiyo haiakisi mfumuko wa bei. Kesi ya kielelezo ni moja ambapo, licha ya ongezeko la bei ya nyama ya ng'ombe na kompyuta kutokana na sindano ya fedha, uboreshaji wa utendaji wa kompyuta hutumiwa kukabiliana na ongezeko hili. Iwapo kompyuta itagharimu mara mbili zaidi lakini ina nguvu mara nne zaidi, CPI inaweza kutafsiri hili kama kupungua kwa bei, hivyo kuficha ongezeko la bei ya nyama ya ng'ombe.
 
-![image](assets/chapitre-2.2/2.webp)
+![image](assets/fr/019.webp)
 
 Nuances hizi katika kupima mfumuko wa bei na CPI zinaonyesha utata wa uhusiano kati ya uchapishaji wa fedha na mfumuko wa bei. Pia zinapendekeza kwamba mfumuko wa bei halisi unaweza kuwa mkubwa kuliko ilivyoripotiwa ikiwa bei zote zitaongezeka, haswa katika sekta muhimu kama vile mali isiyohamishika, zitazingatiwa kwa undani zaidi. Uchanganuzi huu unaangazia umuhimu wa kuelewa taratibu za msingi za mfumuko wa bei na vikwazo vya fahirisi za kawaida zinazotumika kuupima, ili kuelewa vyema athari za kiuchumi za sera za fedha.
 
@@ -314,7 +314,7 @@ Nuances hizi katika kupima mfumuko wa bei na CPI zinaonyesha utata wa uhusiano k
 
 Nadharia ya Kisasa ya Fedha (MMT) inatoa mtazamo tofauti juu ya uundaji wa pesa na mfumuko wa bei. Kulingana na MMT, pesa kimsingi hutoka kwa Fiat money (pesa za serikali), ambayo inaweza kuchapisha kiasi kikubwa kufadhili mahitaji yake bila kusababisha mfumuko wa bei mradi tu sekta zinazolengwa na fedha hizi hazijashiba. Huu ni mkabala unaokiuka nadharia za jadi za fedha na kusisitiza umuhimu wa uwezo wa kisekta wa kunyonya katika mienendo ya mfumuko wa bei.
 
-![image](assets/chapitre-2.2/4.webp)
+![image](assets/fr/020.webp)
 
 Mfano wa kielelezo wa MMT ni tata ya kijeshi na viwanda ya Marekani. Kulingana na MMT, mamia ya mabilioni ya dola yanaweza kutengwa kwa sekta hii bila kusababisha mfumuko wa bei, kutokana na uwezo wake wa kufyonza. Kinyume chake, ikiwa fedha nyingi zitaingizwa katika ujenzi wa barabara nchini Marekani, ambako kuna idadi ndogo ya makampuni na wafanyakazi, mfumuko wa bei unaweza kutokea kutokana na uhaba wa rasilimali na kuongezeka kwa gharama zinazohitajika na wasambazaji.
 
@@ -326,7 +326,7 @@ Uchanganuzi wa Japani (https://ideas.repec.org/p/ces/ceswps/_9821.html) pia unao
 
 Mfano wa tatu wa kwa nini uchapishaji wa fedha haungesababisha mfumuko wa bei ni kwamba uhusiano kati ya uchapishaji wa fedha na mfumuko wa bei unarekebishwa na jinsi fedha zilizoundwa upya zinavyoingizwa katika uchumi. Ikiwa pesa hizi zitabaki kwenye mizania ya benki za kibinafsi bila kukopeshwa kwa wahusika wa kiuchumi, haitaathiri moja kwa moja uchumi halisi na, kwa hivyo, haitasababisha mfumuko wa bei.
 
-![image](assets/chapitre-2.2/5.webp)
+![image](assets/fr/021.webp)
 
 Uchapishaji wa pesa unaweza kuonekana kama upanga wa Damocles unaoning'inia juu ya uchumi. Pesa zilizoundwa zinaweza kubaki siri kwa muda fulani, bila athari inayoonekana ya mfumuko wa bei, mradi tu hazijaingizwa kwenye uchumi kupitia mikopo ya benki au mifumo mingine. Hata hivyo, pesa hizi fiche zinapowekwa hatimaye kwenye mzunguko, athari za mfumuko wa bei zinaweza kudhihirika. Hili ndilo lililoonekana katika miaka ya 2020, ambapo fedha zilizoundwa hapo awali zimepata njia yake katika uchumi, na kusababisha mfumuko wa bei.
 
@@ -336,7 +336,7 @@ Hali hii inaangazia umuhimu wa njia za utumaji pesa katika kubainisha athari za 
 
 Mfano wa Jamhuri ya Weimar unaonyesha kipengele kingine muhimu cha uhusiano kati ya uchapishaji wa pesa na mfumuko wa bei: jukumu la matarajio na tabia ya mawakala wa kiuchumi. Wakati Benki Kuu ya Jamhuri ya Weimar ilipoanza kuchapisha kiasi kikubwa cha fedha, kutokuwa na uhakika wa kiuchumi kulifanya watu binafsi kuhodhi, yaani, kuhifadhi fedha badala ya kuzitumia. Mwitikio huu ulichelewesha kwa muda athari za mfumuko wa bei za uchapishaji wa pesa.
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 Hata hivyo, hali ya kiuchumi ilipoanza kuboreka kidogo, imani ilirejeshwa hatua kwa hatua. Watu kisha wakaondoa akiba zao kutoka kwa maficho yao na kuanza kutumia pesa nyingi katika uchumi. Mabadiliko haya ya ghafla ya tabia, pamoja na Usambazaji wa pesa tayari, ilisababisha mlipuko wa mahitaji. Kwa pesa nyingi katika mzunguko na kuongezeka kwa mahitaji, bei zilianza kupanda kwa kasi, na kusababisha mfumuko wa bei unaoonekana.
 
@@ -354,43 +354,43 @@ Mfano huu unaonyesha umuhimu wa muda na tabia ya mawakala katika udhihirisho wa 
 
 Mifano hii inaweza kutumika katika majadiliano kueleza kwa nini mfumuko wa bei si mara yote tokeo la haraka la uchapishaji wa fedha, na jinsi mazingira ya kiuchumi na tabia za mawakala huathiri mfumuko wa bei.
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 
 Kwa sababu, kama [thread] hii (https://twitter.com/saifedean/status/1673639779433590786) inavyoonyesha: Mfumuko wa bei ni kila kitu isipokuwa kosa la benki kuu.
 
 
 - Wanauchumi wanalaumu mfumuko wa bei juu ya mabadiliko ya hali ya hewa
 
-![image](assets/chapitre-2.2/8.webp)
+![image](assets/fr/024.webp)
 
 
 - Mfano wa Uswidi inayomlaumu Beyoncé kwa mfumuko wa bei katika mwezi mahususi.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 
 - Benki kuu nchini Poland ikihusisha mfumuko wa bei kwa uchokozi wa Urusi nchini Ukraine na janga hilo
 
-![image](assets/chapitre-2.2/7.webp)
+![image](assets/fr/025.webp)
 
 
 - Brexit inalaumiwa kwa mfumuko wa bei nchini Uingereza.
 
-![image](assets/chapitre-2.2/9.webp)
+![image](assets/fr/026.webp)
 
 
 - Kutolewa kwa mchezo wa Zelda unaohusishwa na mshtuko wa mfumuko wa bei.
 
-![image](assets/chapitre-2.2/12.webp)
+![image](assets/fr/027.webp)
 
 
 - Taylor Swift anadaiwa kusababisha mfumuko wa bei.
 
-![image](assets/chapitre-2.2/15.webp)
+![image](assets/fr/028.webp)
 
 Je, ni kwa jinsi gani Beyoncé au Taylor Swift, wanaweza kuniambia, kuelezea kupanda kwa bei kwa kiasi kikubwa? Unaona, haina maana yoyote. Kwa kifupi:
 
-![image](assets/chapitre-2.2/14.webp)
+![image](assets/fr/029.webp)
 
 ### Uchunguzi wa Aina za Mfumuko wa Bei
 
@@ -402,7 +402,7 @@ Ni muhimu kuelewa tofauti kati ya aina tofauti za mfumuko wa bei, uelewa unaotuw
 - Mfumuko wa bei wa kasi: Mfumuko wa bei unaozidi kuongezeka, ambao mara nyingi hujulikana kama mfumuko wa bei wa tarakimu mbili, hutokea wakati mfumuko wa bei wa kila mwaka unazidi 10%. Inaashiria kupanda kwa bei kubwa ambayo inaweza kuathiri utulivu wa kiuchumi.
 - Mfumuko wa bei: Mfumuko wa bei ni hali iliyokithiri ambapo kasi ya mfumuko wa bei inazidi 50% kwa mwezi, ambayo, kwa sababu ya hali ya juu ya mfumuko wa bei, ni sawa na kiwango cha kila mwaka cha zaidi ya 13,000%. Kiwango hiki cha mfumuko wa bei hudhoofisha uchumi kwa kiasi kikubwa, na kuifanya sarafu hiyo kutokuwa na thamani na kusababisha kupoteza imani katika mfumo wa fedha.
 
-![image](assets/chapitre-2.2/17.webp)
+![image](assets/fr/030.webp)
 
 Wakati wa kuchunguza aina za mfumuko wa bei, ni kawaida kukutana na maneno kama "Demand Vuta" na "Cost Push" katika nyenzo za elimu. Dhana hizi, ingawa ni halali, huwa zinaelezea ongezeko la bei badala ya mfumuko wa bei kama jambo la kifedha. Hapa kuna uchambuzi wa kina zaidi:
 
@@ -422,7 +422,7 @@ Maelezo haya ya kitamaduni mara nyingi huhusisha ongezeko la bei na mfumuko wa b
 
 Bernholz anapendekeza uainishaji uliorahisishwa lakini sahihi wa mfumuko wa bei katika kategoria tatu, kuruhusu uelewa mzuri wa hali hii changamano ya fedha:
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 
 - Mfumuko wa Bei Wastani:
@@ -487,11 +487,11 @@ Kwa mfano, ikiwa mfumuko wa bei unashuka hadi 40% mwezi wa Julai na haupanda zai
 
 Ufafanuzi huu umepitishwa katika meza ya Hanke-Krus, ambayo inaandika matukio 56 ya mfumuko wa bei. Hata hivyo, jedwali hilo haliangazii vipindi vyote, kama vile ile ya Venezuela mwaka wa 2016, na kufanya jumla kuwa 57.
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
 zoom
 
-![image](assets/chapitre-3.1/0.webp)
+![image](assets/fr/033.webp)
 
 Ikumbukwe kwamba ufafanuzi huu, ingawa ni sahihi, unaweza kuwa na uwezekano wa kutenga vipindi fulani vya mfumuko wa bei kutokana na ukali wa kizingiti cha 50%. Kuna uwezekano wa kupanua ufafanuzi huu ili kujumuisha vipindi vingine ambavyo, ingawa havikidhi kikamilifu vigezo vya Cagan, hata hivyo vinawakilisha vipindi vya mfumuko wa bei wa juu sana. Uchunguzi huu unafungua mlango wa uchunguzi mpana wa matukio ya mfumuko wa bei, kuruhusu uelewa wa kina zaidi wa sababu na madhara yake. Katika majadiliano yajayo, tutazingatia kupitia upya ufafanuzi huu na kuchunguza vipindi vya mfumuko wa bei ambavyo havijashughulikiwa na vigezo vikali vya Cagan.
 
@@ -499,7 +499,7 @@ Ikumbukwe kwamba ufafanuzi huu, ingawa ni sahihi, unaweza kuwa na uwezekano wa k
 
 Philip Cagan anaweza kuwa ameweka hatua ya kiholela na kiwango cha juu cha mfumuko wa bei cha 50% kila mwezi wakati wa kufafanua mfumuko wa bei. Yeye mwenyewe anakiri kwamba ufafanuzi huu ni wa kiholela na kimsingi ulitumikia uchambuzi wake kulingana na sehemu saba za mfumuko wa bei. Uchunguzi wa data ya Cagan unaonyesha kuwa vipindi vitatu vya mfumuko wa bei vilivyo na viwango vya chini kabisa vya mfumuko wa bei wa kila mwezi vilikuwa karibu 47%, 46% na 57%. Inaonekana kwamba kiwango cha 50% kilichaguliwa kujumuisha kesi hii katika utafiti wake.
 
-![image](assets/chapitre-3.1/4.webp)
+![image](assets/fr/034.webp)
 
 
 - Muktadha wa Kihistoria:
@@ -518,7 +518,7 @@ Wanauchumi wengine, kama vile Bernholz, mwandishi wa Udhibiti wa Fedha na Mfumuk
 
 Bernholz anabainisha kuwa kuna matukio ya mfumuko wa bei wa juu na sifa za ubora sawa na matukio ya mfumuko wa bei, bila kufikia kizingiti cha 50%.
 
-![image](assets/chapitre-3.1/3.webp)
+![image](assets/fr/035.webp)
 
 Tafakari hii hutuongoza kuhoji uthabiti wa ufafanuzi wa kimapokeo wa mfumuko wa bei na kuangazia hitaji labda la kutazama upya kiwango hiki kwa kujumuisha vipindi zaidi na data ya kihistoria. Ufafanuzi wa mfumuko wa bei unaweza kuhitaji kubadilika ili kujumuisha maonyesho mbalimbali ya mfumuko wa bei uliokithiri katika miktadha tofauti ya kiuchumi na kihistoria.
 
@@ -528,7 +528,7 @@ Kwa hivyo, kuna kesi ngapi za mfumuko wa bei kwa jumla?
 
 Ufafanuzi wa kawaida wa mfumuko wa bei, kama vile ule uliotolewa na Kagan unaosema kiwango cha mfumuko wa bei wa kila mwezi wa 50%, wakati mwingine unaweza kutatanisha au kurahisishwa kupita kiasi. Kwa mfano, nchi mbili zinazopitia viwango vya mfumuko wa bei vya kila mwaka vya 1,000% na 3,000% vinaweza kuzingatiwa tofauti kulingana na mgawanyo wa kila mwezi wa mfumuko huu wa bei. Ikiwa hakuna mwezi unaozidi kizingiti cha 50%, kulingana na ufafanuzi wa Kagan, nchi hizi hazitakuwa katika hali ya mfumuko wa bei. Kwa hivyo mbinu hii inaweza kusababisha hitilafu katika uainishaji wa mfumuko wa bei, haswa wakati wa kulinganisha mfumuko wa bei ulioongezeka zaidi ya mwaka.
 
-![image](assets/chapitre-3.1/7.webp)
+![image](assets/fr/038.webp)
 
 
 - Kazi ya Kagan, "Dynamics ya Fedha ya Hyperinflation," ambayo hutoa uchambuzi wa kimsingi wa mfumuko wa bei.
@@ -548,13 +548,13 @@ Katika sura hii, tutachunguza athari za mfumuko mkubwa wa bei, tukizingatia kesi
 
 Vitabu vingi vimekuwa vya kuelimisha hasa:
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 
 - "Pesa Zinapokufa" na Adam Ferguson, inafuatilia mfumuko wa bei wa baada ya Vita vya Kwanza vya Kidunia nchini Ujerumani, na vile vile huko Austria na Hungaria.
 - Vitabu viwili kuhusu mfumuko wa bei nchini Zimbabwe, "Zimbabwe Warm Heart Ugly Face" na "Hard Boiled Egg Index" vya Jérôme Gardner na Kudzai Joseph Gou Min-Yu mtawalia, vinatoa ushuhuda wa kuhuzunisha kutoka kwa Mkurugenzi Mtendaji wa msururu wa maduka ya nguo na mwanabenki wa kilimo kuhusu uzoefu wao katika kipindi hiki cha misukosuko.
 
-![image](assets/chapitre-3.2/1.webp)
+![image](assets/fr/040.webp)
 
 Wakati nikiunganisha maelezo yangu, niliona mfanano mwingi kati ya uzoefu wa mfumuko wa bei nchini Zimbabwe na Jamhuri ya Weimar, licha ya pengo la miaka 90 kati yao. Nilitambua karibu kufanana 17, huku 13 zikionyesha aina ya maendeleo kuelekea maafa ya kiuchumi yaliyoonyeshwa katika shuhuda hizi. Uwiano huu unaovutia unaonyesha hali ya kujirudia na yenye uharibifu ya mfumuko wa bei kupita kiasi katika muda na mipaka. Leo, tutachunguza mfanano huu na jinsi unavyoonyesha mwelekeo wa kutisha wakati wa mfumuko wa bei.
 
@@ -581,7 +581,7 @@ Katika hali fulani za kiuchumi, thamani halisi ya noti inaweza kuwa chini kuliko
 > Weimar: "Madhehebu yote ya noti ya alama yalikuwa karibu kukosa thamani mara tu yalipotoka kwenye mashine ya uchapishaji."
 > Zimbabwe: "Benki kuu ilipoteza pesa kwa kuchapisha noti ambayo haikuwa na thamani ya karatasi iliyochapishwa. Kwa maneno mengine, thamani yake ilikuwa chini kuliko ile ya karatasi ya chooni. Ingawa inaweza kuonekana kuwa ni upuuzi, ilikuwa nafuu kutumia noti ya ZWD trilioni 100 kama karatasi ya chooni kuliko kununua karatasi halisi ya choo."
 
-![image](assets/chapitre-3.2/3.webp)
+![image](assets/fr/041.webp)
 
 4. Kuhesabu Pesa
 
@@ -613,7 +613,7 @@ Weimar: "Kama fadhila za zamani za uwekevu, uaminifu, na kazi ngumu zilipoteza m
 
 Zimbabwe: "Vitendo hivi, pamoja na kuwatajirisha watu wachache, vilifukarisha wafanyakazi wa mijini na wakazi wa vijijini. Elimu ilipoteza thamani yake, kwani biashara hii iliendeshwa na watu ambao hawakuhitaji elimu au kazi ngumu ili kuhalalisha. Walichohitaji ni miunganisho na mtaji wa awali ili kuanzisha biashara yao ya pesa rahisi."
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
 8. "Benki za Dunia"
 
@@ -641,7 +641,7 @@ Weimar: "Wafanyabiashara walikuwa wamelazimishwa hivi majuzi na amri mpya kukuba
 
 Zimbabwe: "Fiat money (pesa za serikali) ilianzisha SI 175/2008 mnamo Desemba 12, 2008, kuhusu malipo kwa hundi. Ilisema, 'Adhabu ya kukataa malipo kwa hundi/kadi ya benki au njia yoyote ya malipo ya kielektroniki ya upatanishi wa benki itakuwa faini ya kiwango cha 8 au kifungo cha miezi sita au vyote kwa pamoja.' Ni wazi, tulipuuza SI kwa sababu ilikuwa nje ya uhusiano kabisa na ukweli."
 
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
 11. Kulazimishwa kuweka maduka yao wazi
 
@@ -665,7 +665,7 @@ Ununuzi mkali wa fedha za kigeni mara nyingi umeashiria mabadiliko muhimu katika
 > Zimbabwe: Imedaiwa kuwa walipewa malengo ya kila siku kutimiza, kwani baadhi ya mahitaji ya forex yalikuwa ya dharura na wangenunua kwa kiwango chochote ili kukusanya forex ili kufikia tarehe za mwisho. Kitendo hiki kinachodaiwa kilishutumiwa kuchochea moto wa kushuka thamani huku thamani ya dola ya Zimbabwe ikiendelea kushuka kwa kasi."
 ### Muhtasari wa mchakato
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 Wakati wa kuchambua trajectory ya kiuchumi, ni dhahiri kwamba wakati mfumuko wa bei wa juu unafikiwa, thamani ya wingi wa fedha huharibika. Kushuka kwa thamani hii husababisha matatizo kadhaa, ikiwa ni pamoja na uhaba wa noti. Katika muktadha huu, fursa za usuluhishi huibuka, haswa na mabadiliko ya kiwango cha Ubadilishanaji. Kama matokeo, watu wengi hugeukia usuluhishi huu, wakiwekeza sana katika mali inayoonekana kwa kutarajia kushuka kwa thamani ya sarafu ya siku zijazo ambazo zingewaruhusu kulipa deni zao kwa sarafu iliyodhoofika. Mazingira haya ya kiuchumi yanadhoofisha mvuto wa kazi za kitamaduni na, hivyo basi, kumomonyoa mshikamano wa kijamii.
 
@@ -673,7 +673,7 @@ Katika kukabiliana na hali hii, Fiat money (pesa za serikali) inaweka kanuni kal
 
 ### 4 Kufanana kwa matokeo ya mfumuko wa bei
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
 1. Mafuta na metali
 
@@ -704,7 +704,7 @@ Katika sura hii, tutachunguza tofauti na ulinganifu wa kisasa kati ya vipindi vy
 
 Nchini Ujerumani, ilikuwa kawaida kwa idadi ya watu kuhusisha mfumuko wa bei na kupanda kwa dola badala ya kushuka kwa thamani ya ndani ya sarafu yao wenyewe. Wengi waliamini kuwa jambo lililoonekana lilitokana na kuthaminiwa kwa dola. Mtazamo huu ulitupilia mbali utambuzi wowote wa uhusiano kati ya ugumu wao wa kiuchumi na kushuka kwa thamani ya fedha, hasa kwa kuchochewa na uundaji wa pesa nyingi. Kitabu "When Money Dies" kinaonyesha wazi ukosefu huu wa uelewa kati ya wakazi wa Ujerumani. Kinyume chake, nchini Zimbabwe, hali ilikuwa tofauti: wananchi walikuwa wanafahamu kikamilifu sababu ya msingi ya mfumuko mkubwa wa bei waliokuwa wakiupata.
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
 2. Sarafu ya lazima (Notgeld)
 
@@ -712,14 +712,14 @@ Ikikabiliana na mzozo wa kifedha na kiuchumi, Ujerumani iliamua kutumia "Notgeld
 
 Inafurahisha, Ufaransa pia ilikimbilia Notgeld, haswa katika miaka ya 1920. Mpango huu haukuwa tu tokeo la moja kwa moja la mfumuko mkubwa wa bei bali pia ulitokana na usumbufu uliosababishwa na Vita vya Kwanza vya Kidunia. Vita hivyo havikuvuruga uchumi tu bali pia viliongeza gharama ya metali. Kwa hiyo, thamani ya asili ya sarafu za chuma mara nyingi ilizidi thamani ya uso, na kusababisha watu kuzihifadhi. Kwa kukosekana kwa sarafu, taasisi nyingine, kama vile Chama cha Wafanyabiashara cha Lyon, zilichapisha Notgeld yao wenyewe.
 
-![image](assets/chapitre-3.3/0.webp)
+![image](assets/fr/048.webp)
 
 > "Ni nini kifanyike, lazima kifanyike." - msemo wa kienyeji
 Kati ya Notgeld, noti moja maalum inajitokeza. Inaangazia kielelezo cha kuhuzunisha: katikati, mtu anaonyeshwa akitoa Alama. Kwa upande wa nyuma, jedwali la bei kutoka 1913 hadi 1921 linaonyesha kupanda kwa mfumuko wa bei katika kipindi hiki.
 
 Msanii anayehusika na Notgeld hii anaonekana kuwa na ukosoaji wa kejeli kwa mamlaka zinazohusika na mgogoro wa mfumuko wa bei. Noti hiyo ina maandishi "Umuhimu haujui sheria". Msemo mwingine maalum kwa eneo la asili ya Notgeld unasema: "Ni nini kinapaswa kufanywa, lazima kifanyike".
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/fr/047.webp)
 
 > "Lazima haijui sheria"
 > Shitcoin ya kwanza: Kinadharia, ukiangalia kielelezo cha kati cha noti, ambapo sarafu inapunguzwa thamani halisi na hatua ya mtu binafsi, inaweza kuitwa "shitcoin" ya kwanza.
@@ -731,7 +731,7 @@ Katika Weimar, baadhi ya madeni yalithaminiwa ili kufidia athari za mfumuko wa b
 > Zimbabwe: "Mnamo Julai 2007 (miaka mitatu baadaye), ningeweza kuchukua noti iliyoshuka ya ZDW 500,000 (bt "000") kutoka mfukoni mwangu, ambayo sasa ina thamani ya $1.67 kwa kiwango cha soko sambamba, na kulipa mkopo wa rehani, ambao ulipaswa kulipwa kwa zaidi ya miaka ishirini. Zaidi ya hayo, asilimia 0 ya mshahara wangu wa mwezi huu tu.
 Ili kujifunza zaidi kuhusu usimamizi wa mgogoro wa Ujerumani, kitabu hiki pia ni muhimu.
 
-![image](assets/chapitre-3.3/4.webp)
+![image](assets/fr/049.webp)
 
 ### Sambamba za Kisasa
 
@@ -758,7 +758,7 @@ Historia ya Jamhuri ya Weimar inaonyesha kwamba katika kipindi hiki, mali na mit
 > Kampuni ya zombie ni kampuni ambayo, chini ya hali ya kawaida ya soko, itakuwa imefilisika au karibu na kufilisika, lakini inaendelea kufanya kazi hasa kwa kukopa kwa gharama nafuu. Kampuni hizi hupata pesa za kutosha kufidia deni zao lakini haziwezi kukua kwa kiasi kikubwa.
 Wazo la kampuni za zombie sio mpya. Kwa kweli, ilikuwepo katika Jamhuri ya Weimar. Wakati huo, makampuni mengi yalionekana kustawi, yakifaidika pakubwa kutokana na kupata mikopo bila malipo. Walikopa kiasi kikubwa, kwa matarajio ya kurejesha baadaye kwa sarafu iliyopungua kutokana na mfumuko wa bei uliokithiri. Hata hivyo, wakati mfumuko wa bei uliposimama na alama ya Ujerumani ilipata tena thamani, makampuni haya, ambayo hayakuwa na ufanisi katika masuala ya uendeshaji na kifedha, yalikosa faida na ilibidi kufunga milango yao.
 
-![image](assets/chapitre-3.3/5.webp)
+![image](assets/fr/050.webp)
 
 Jambo la makampuni ya zombie sio mdogo kwa historia ya baada ya vita ya Ujerumani. Hata leo, makampuni mengi makubwa yanaishi kutokana na upatikanaji wa fursa ya mikopo yenye riba ya chini sana. Ikiwa walipaswa kukopa kwa viwango vya kawaida zaidi, wengi wao wangeacha kuwa na faida. Hili ni muhimu hasa kwa vile tuko mwaka wa 2023, na baada ya muda mrefu wa viwango vya riba karibu sifuri, vimeanza kupanda. Maendeleo haya ya hivi majuzi katika hali ya kifedha bila shaka yatakuwa mtihani madhubuti kwa kampuni hizi ambazo hapo awali ziliitwa "zombies".
 
@@ -766,7 +766,7 @@ Jambo la makampuni ya zombie sio mdogo kwa historia ya baada ya vita ya Ujeruman
 
 Katika historia, kumekuwa na nyakati ambapo watu binafsi wanatafuta kutajirika haraka, kama ilivyokuwa katika Weimar na Zimbabwe kupitia usuluhishi. Leo, tunaona mwelekeo sawa na kuibuka kwa fedha fulani za crypto. Watu wanajaribiwa na faida za haraka, wakichukua hatari kwa matumaini ya kuzidisha kwa kasi kwa uwekezaji (investment) wao. Njia hii inaweza kukumbusha kile kinachozingatiwa wakati wa mfumuko wa bei, ambapo usuluhishi hutumiwa kupata faida ya haraka, mara nyingi kwa gharama ya wengine.
 
-![image](assets/chapitre-3.3/6.webp)
+![image](assets/fr/051.webp)
 
 6. Akiba, dawa dhidi ya kutokuwa na uhakika
 
@@ -786,7 +786,7 @@ Sasa tutaangalia vipindi tofauti vya upatanisho katika nchi za Amerika Kusini.
 
 Kwenye slaidi, upande wa kushoto, kuna miaka ya kubadilishwa upya, jina la sarafu mpya, na kiwango cha Exchange na sarafu ya zamani. Kwa kuchukua mfano wa Ajentina, peso moneda nacional ilibadilishwa kwa kiwango cha 25 hadi 1 kutoka sarafu ya awali, peso halisi. Katika muktadha huu, tutachunguza mabadiliko ya sarafu ya Argentina kwa wakati. Zaidi ya hayo, tutaonyesha madhehebu ya awali na ya mwisho ya noti kwa kila kipindi.
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Kwenye upande wa kulia wa slaidi, kuna grafu ya mfumuko wa bei. Mishale nyekundu inawakilisha miaka ya mfumuko mkubwa wa bei, unaofafanuliwa kulingana na kigezo cha Kagan kama kiwango cha mfumuko wa bei cha 50% kwa mwezi. Kigezo hiki wakati mwingine kinaweza kusababisha tafsiri zisizoeleweka, kwa miaka kuwa na viwango vya juu vya mfumuko wa bei lakini haifikii ufafanuzi mkali wa mfumuko wa bei.
 
@@ -796,13 +796,13 @@ Baada ya Ajentina, somo letu litahusu Brazili, Bolivia, Peru, Nicaragua, na Vene
 
 ### Argentina
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Kabla ya 1826, Argentina ilitumia dola ya Uhispania. Baada ya uhuru wake mwaka wa 1816, ilianzisha sarafu yake mwenyewe kulingana na halisi ya Kihispania, na kusababisha kuundwa kwa sarafu sawa. Jedwali linaanza mnamo 1881, mwaka wa kuanzishwa kwa "peso moneda nacional" na noti hadi 10,000. Hii ilifuatiwa na "peso ley," iliyobadilishwa kwa kiwango cha 100 hadi 1 na kwa noti hadi milioni moja. Kisha, "peso ya Argentina" ilifika na kiwango cha Exchange cha 10,000 hadi 1 (sawa na kuondoa zero nne), na noti hadi 10,000. Mnamo 1985, "australes" ilianzishwa na kubadilishana kwa 1,000 hadi 1, na noti hadi 500,000. Mnamo 1992, "peso ley" ya sasa ilianzishwa kwa kiwango cha 10,000 hadi 1, kwa mara nyingine tena ikiondoa zero nne. Ni miaka ya 1989 na 1990 tu ilikumbwa na mfumuko wa bei.
 
 ### Brazil
 
-![image](assets/chapitre-3.4/2.webp)
+![image](assets/fr/053.webp)
 
 Brazili ni mfano wa uundaji upya wa fedha, kama inavyoonyeshwa na historia yake ya mabadiliko ya sarafu. Kabla ya uhuru wake, Brazil ilitumia Kireno halisi. Hata hivyo, mapema kama 1747, nchi ilianza kutumia "halisi ya Brazil" yake mwenyewe, muda mrefu kabla ya tangazo lake la uhuru katika 1822. Jedwali linaanza mwaka wa 1818, kuashiria mwanzo wa utoaji wa noti za Brazili. Kabla ya hapo, sarafu ilikuwa hasa katika mfumo wa sarafu. Noti hizi zilifikia thamani ya hadi real milioni moja.
 
@@ -822,7 +822,7 @@ Muswada wa juu zaidi wa madhehebu ulifikia 500,000, na urekebishaji wa mwisho mn
 
 ### Bolivia
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 Bolivia ni mfano mwingine wa nchi ambayo imepitia vipindi vya mfumuko mkubwa wa bei, unaohitaji mabadiliko ya sarafu. Huu hapa ni muhtasari wa historia yake ya fedha:
 
@@ -838,7 +838,7 @@ Huo ni muhtasari wa historia yenye misukosuko ya fedha ya Bolivia, inayoangaziwa
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 
 Peru inatoa kesi ya kufurahisha kuhusu athari za sheria ya 50%. Kuanzia na historia yake ya fedha, Peru ilitumia dhahabu ya Kihispania hadi karne ya 19 na ilitangaza uhuru wake mwaka wa 1821. Dola ya Peru ilitumika kutoka 1822 hadi 1863. Mnamo 1863, halisi ya Peru ilibadilishwa na soldi oro, kwa kiwango cha 10 hadi 1, kufikia thamani ya juu ya 50. Mnamo 1985, sarafu "Inti" ilianzishwa kwa kiwango cha ubadilishaji cha 1000 hadi 1, ikifikia kilele cha milioni 5. Mnamo 1991, "SOL" ilizinduliwa kwa kiwango cha Exchange cha milioni 1 hadi 1, na noti kutoka 10 hadi 200.
 
@@ -850,25 +850,25 @@ Kuchunguza vipindi vya urekebishaji, 1988 inachukuliwa kuwa mwaka wa mfumuko wa 
 > Jambo la msingi la kuelewa kuhusu mabadiliko ya sarafu ni kwamba thamani ya sarafu inapofikia takwimu za unajimu, kama vile milioni 5 au 10, inabadilishwa upya. Utaratibu huu unaweza kurudiwa mara kadhaa, ikijumuisha mabadiliko ya sarafu. Matokeo yake ni kwamba akiba ya watu binafsi inaweza kuathiriwa sana, hata ikiwa hakuna mfumuko wa bei. Kwa mfano, ikiwa mtu ataokoa $1,000 kwa mwaka mmoja na afaulu kutenga $100, mwaka unaofuata bili ya chini kabisa ya madhehebu inaweza kuwa $1,000, na kufanya $100 iliyohifadhiwa hapo awali kutokuwa na thamani. Mmomonyoko huo wa akiba hauhitaji mfumuko wa bei dhahiri. Hata kama mtu amehifadhi $10,000 katika kipindi cha miaka kumi iliyopita, kiasi hicho kinaweza kuishia kuwa na thamani ya kiasi kidogo, hawezi kununua chupa rahisi ya maji. Ukweli huu unaonekana katika nchi nyingi ambazo zimepitia mabadiliko mapya, hata kama miezi michache tu iliainishwa kama mfumuko wa bei kupita kiasi. Kinyume chake, baadhi ya nchi, kama Nicaragua, zimepata miaka mfululizo ya mfumuko wa bei.
 ### Nikaragua
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 
 Nikaragua, iliyokuwa chini ya utawala wa Uhispania, hapo awali ilitumia dola ya Uhispania, kama nchi zingine nyingi zilizotawaliwa na Uhispania. Baada ya kuunganishwa katika Milki ya Uhispania, Milki ya Mexico, na kisha Jamhuri ya Shirikisho ya Amerika ya Kati, Nikaragua ilitangaza uhuru wake. Kuanzia mwaka wa 1878, peso ikawa fedha rasmi ya nchi, huku thamani zikibadilika-badilika kati ya 1 na 100. Mnamo 1912, nchi hiyo ilianzisha Cordoba ya kwanza, ikifuatiwa na ya pili mwaka wa 1988 na ya tatu mwaka wa 1991, ambayo bado inatumika leo. Cordoba ya kwanza ilifikia thamani ya milioni 1, na ya pili milioni 10. Kufanywa upya mwaka 1991 kulifuata miaka kadhaa ya mfumuko mkubwa wa bei.
 
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 
 Venezuela ndiyo nchi ya mwisho iliyotajwa kwenye video hii. Nchi imepitia mabadiliko manne ya sarafu kwa wakati. Katika siku zake za mwanzo, Venezuela ilitumia dola ya Uhispania kabla ya kutangaza uhuru wake mnamo 1811. Mnamo 1879, ilitambulisha bolivar kama sarafu rasmi, ambayo iliendelea kutumika hadi 1983, wakati Fiat money (pesa za serikali) ilipochagua dola ya kiwango cha Exchange inayoelea.
 
 Ukweli unaojulikana kuhusu Venezuela ni uanachama wake katika Umoja wa Fedha wa Kilatini. Muungano huu ulijumuisha sarafu kama vile peseta 5 kutoka Uhispania, drakma 5 kutoka Ugiriki, bolivar 5 kutoka Venezuela, lire 5 kutoka Italia, faranga 5 za Ubelgiji, na faranga 5 za Ufaransa.
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 Katika kipindi hiki, sarafu 5 za bolivar kutoka Venezuela zilikuwa na uzito sawa na zile za nchi wanachama wa Muungano, zikiwemo Italia, Uhispania, Ubelgiji na Ufaransa. Bolivar hizi zilitengenezwa kwa fedha, na sarafu maalum kutoka 1929 yenye uzito wa gramu 25 na kuwa na usafi wa 900, au 90% ya fedha safi. Kwa bei ya sasa ya fedha, sarafu hii ina thamani ya takriban dola 17 hadi 18 za Kimarekani.
 
@@ -912,13 +912,13 @@ Jambo la kuvutia lililotolewa na Bernold ni kwamba mafanikio ya mageuzi ya fedha
 
 ### Kesi ya Zimbabwe
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 
 Zimbabwe ilipata uhuru mwaka 1980 na kuanzisha dola ya Zimbabwe. Hapo awali, dola mbili za Zimbabwe zilikuwa na thamani ya takriban dola za Kimarekani 1.60. Walakini, mnamo 1997, kufuatia hatua za kijamii za kupendelea maveterani wa vita, sarafu ilishuka kwa 72% kwa siku moja wakati wa Ijumaa Nyeusi. Kisha, mwanzoni mwa miaka ya 2000, nchi ilizindua mpango wa ugawaji upya wa ardhi, kuchukua ardhi kutoka kwa wamiliki wazungu na kuwapa wakazi wa eneo hilo. Uamuzi huu ulidhuru mauzo ya nje kwa sababu wamiliki wapya mara nyingi walikosa utaalamu muhimu wa kusimamia mashamba makubwa. Matokeo yake, wakati Zimbabwe ilikuwa muuzaji mkuu wa bidhaa nje mwaka 1999, ikawa muagizaji mkuu mwaka 2003.
 
 Mwaka 2006, nchi ilianzisha toleo jipya la sarafu yake, ZWN, yenye kiwango cha Exchange cha 1 hadi 1,000. Mnamo 2008, dhehebu lingine, ZWR, lilianzishwa kwa kiwango cha Exchange cha 1 hadi 10 bilioni. Hii ilisababisha kuundwa kwa noti za benki za trilioni 100.
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 #### Uwekaji Dola na Utatuzi wa Mgogoro
 
@@ -934,11 +934,11 @@ Inatia wasiwasi kutambua kwamba Zimbabwe tangu wakati huo imejaribu kurejesha sa
 
 Katika kitabu changu kiitwacho "Everything About Bitcoin," nilijitolea sura nzima kwa mfumuko wa bei nchini Zimbabwe. Ninaelezea kwa undani matukio muhimu, nikitoa mifano mbalimbali inayoonyesha jinsi nchi hatimaye ilikomesha mfumuko wa bei.
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 Kwa wale wanaotamani kujua uzoefu wa Ujerumani baada ya Vita vya Kwanza vya Kidunia, ninapendekeza sana kitabu cha vichekesho "The Reich's Banker." Inasimulia jinsi Ujerumani iliweza kushinda mfumuko wa bei, haswa kupitia uundaji wa Rentenmark.
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 Jambo kuu la kuchukua ni kwamba kuna mikakati kadhaa ya kushinda mfumuko wa bei. Mtu anaweza kuchagua dola au kuanzisha sarafu mpya. Suluhu hizi zitafanya kazi tu ikiwa idadi ya watu wana imani nazo. Ni muhimu kuweka vikwazo vikali. Benki kuu inayojitegemea kweli ni muhimu. Ni lazima isiongeze pesa Supply ili kufidia nakisi ya Fiat money (pesa za serikali). Katika kesi ya mfumuko wa bei mdogo, kupunguza ukuaji wa fedha Supply inapaswa kutosha. Hata hivyo, unapokabiliwa na mfumuko wa bei, ni muhimu kwanza kuwa na pesa zinazofaa Supply kwa ukubwa wa uchumi unaohusika. Kisha, ni muhimu kuweka vikwazo vikali kwa Fiat money (pesa za serikali) ili kuleta utulivu wa hali hiyo.
 
@@ -960,7 +960,7 @@ Nakala:
 
 Kuibuka kwa Layer ya pili ya pesa na benki kuu za kwanza ni somo la kuvutia. Mada hii imejadiliwa sana katika kitabu "Layered Money" na Nick Battia. Ninaipendekeza sana kwa wale wanaopenda mageuzi na ugumu wa mifumo yetu ya fedha. Madhumuni ya sehemu hii ni kuelewa asili ya uundaji wa pesa na jinsi inaweza kusababisha mfumuko wa bei.
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 ### Pesa ya Piramidi na Benki Kuu
 
@@ -968,9 +968,9 @@ Kuibuka kwa Layer ya pili ya pesa na benki kuu za kwanza ni somo la kuvutia. Mad
 
 Historia ya pesa ilianza karne ya 13 Italia, haswa Florence. Wakati huo, florin na bili za Exchange zilikuwa za kawaida. Mfano mashuhuri ni florin, iliyopambwa na sura ya Mtakatifu Yohana Mbatizaji.
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 Ingawa kumiliki florin halisi ni ghali leo, uzazi unapatikana. Pia kuna sarafu zingine za wakati huo, kama vile soko kutoka majimbo ya Italia ya karne ya 17, ambayo ina picha ya Kristo.
 
@@ -988,13 +988,13 @@ Wazo hili, ingawa linahusishwa na Nick Bell kupitia jina lake bandia la Twitter 
 
 #### VOC na Soko la Hisa la Amsterdam (karne ya 17)
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 Baada ya Antwerp Stock Exchange, hatua kubwa ilikuwa kuanzishwa kwa VOC, Kampuni ya Uholanzi Mashariki ya India. Kampuni hii, iliyoko Uholanzi, hata ilitoa sarafu yake mwenyewe. Kufuatia kuundwa kwa VOC, soko la kwanza la hisa lilianzishwa Amsterdam, na kuwa soko la kwanza la hisa kwa kampuni hii. Kinachovutia kutambua ni jinsi Waholanzi walivyoweza kumaliza ukuu wa Antwerp kama kituo cha uchumi wa kimataifa. Walizuia tu ufikiaji wa Mto Scheldt. Mkakati huu ulikuwa sehemu ya harakati kubwa ya kihistoria, uasi wa ombaomba. Tukio muhimu katika historia ya Uropa.
 
 #### Uingiliaji kati wa Benki ya Amsterdam
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 
 Baada ya kuundwa kwa VOC, kipengele kingine muhimu katika historia ya fedha ilikuwa kuanzishwa kwa sarafu za dhahabu na Benki ya Amsterdam. Sarafu hizi, zilizoanzia 1722, zilitengenezwa kwa fedha. Walakini, ni nini kilibadilisha fedha wakati huo sio sarafu yenyewe, lakini akaunti zinazohusiana na sarafu hii katika Benki ya Amsterdam. Akaunti hizi zikawa njia kuu za kimataifa za Exchange. Shughuli zilirekodiwa tu kwenye rejista au leja. Shukrani kwa mfumo huu, Amsterdam ikawa kituo cha uchumi wa kimataifa. Baada ya muda, Benki ya Amsterdam iliamua kulazimisha matumizi ya akaunti hizi. Wabadilishaji pesa wanaojitegemea walihitajika kwa Exchange sarafu zao kwa amana kwenye benki kila siku.
 
@@ -1006,7 +1006,7 @@ Hapo awali, Layer ya kwanza ya sarafu iliwakilishwa na dhahabu. Amana zilizofany
 
 #### Hofu ya 1796
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 
 Hofu ya benki katika Benki ya Akiba ya Seamen wakati wa Hofu ya 1857.
 

@@ -83,7 +83,7 @@ Ajaloo vältel on erinevad tsivilisatsioonid kogenud rahandusliku devalveerimise
 #### 1. Peloponnesose sõda ja Teine Puunia sõda:
 
 Peloponnesose sõda, konflikt Ateena ja Sparta vahel, ning Teine Puunia sõda, Rooma Vabariigi ja Karthago vaheline konflikt, on varaseimad valuuta devalveerimise näited arhiivides. Nende sõdade rahastamiseks devalveerisid need tsivilisatsioonid oma valuutasid, vähendades hõbedasisaldust ja lisades teisi metalle, samal ajal suurendades toodetud müntide hulka.
-![pilt](assets/chapitre-2.1/8.webp)
+![pilt](assets/fr/003.webp)
 Gravüür, mis kujutab ateenlaste massimõrva Assinarose jõe kallastel.
 
 #### 2. Vana-Rooma impeeriumi ajal:
@@ -92,7 +92,7 @@ Pärast Rooma Vabariigi ajastut koges impeeriumi ajal, 3. ja 4. sajandil, märki
 
 Kuigi nendel perioodidel kogesid olulist inflatsiooni, ei saavutanud need hüperinflatsiooni tasemeid, mida võime mõnes kaasaegses olukorras täheldada. Selle põhjuseks on see, et kuigi valuuta devalveeriti, põhines see siiski väärismetallidel. See kindel alus pakkus teatud kaitset äärmuslike inflatsioonitasemete vastu. Järgmistes jaotistes uurime üksikasjalikumalt hüperinflatsiooni olemust ja tagajärgi.
 
-![pilt](assets/chapitre-2.1/2.webp)
+![pilt](assets/fr/004.webp)
 
 - Marcus Aureliuse denaar (160 pKr):
   Üks Vana-Rooma kõige ikoonilisemaid münte on denaar, hõbemünt. Mul on konkreetne Marcus Aureliusest pärit münt aastast 160 pKr, enne suurt devalveerimist. Kuigi kaamera võib vaevu tabada peeneid detaile, on palja silmaga näha, et see on kaunis hõbemünt, mis peegeldab suhteliselt kõrget hõbedasisaldust.
@@ -101,13 +101,13 @@ Kuigi nendel perioodidel kogesid olulist inflatsiooni, ei saavutanud need hüper
   Rahalise devalveerimisega ilmus uus valuuta, Antoninianus. See valuuta pidi olema väärt kaks denaari, kuid sisaldas palju vähem hõbedat. Minu Antoninianuse münt näitab selgelt, et hõbedasisaldus on oluliselt vähenenud. Seda kaunistab kroon, mis on tüüpiline selle perioodi Rooma müntidele, mida nimetatakse "kiirgavateks". Värvi ja kvaliteedi võrdlemisel on näha, et Antoninianus on kaugel puhtast hõbemündist.
   Kahe mündi kõrvuti võrdlemisel on erinevus silmatorkav. 160 pKr denaaril on eristuv hõbedane välimus, samas kui 3. sajandi lõpu Antoninianus on palju tuhmim, näidates olulist hõbedasisalduse vähenemist. See visuaalne võrdlus pakub selget illustratsiooni rahalise devalveerimise kohta, mida Vana-Rooma koges mõne sajandi jooksul.
 
-![pilt](assets/chapitre-2.1/3.webp)
+![pilt](assets/fr/005.webp)
 
 Selle demonstratsiooni täiendamiseks oleks ideaalne graafik, mis illustreerib nende müntide devalveerimist ajas. Kuigi selle platvormi kaudu on seda raske visualiseerida, kujutage ette graafikut, mis näitab denaari väärtust, seejärel selle langust 2. sajandi lõpus, asendatuna Antoninianusega, mis pidi olema väärt kaks denaari, kuid millel oli palju madalam hõbedasisaldus. Need esemed on vaikivad tunnistajad mineviku tsivilisatsioonide majanduslikele kõikumistele.
 
 #### 3. Hispaania Maravedi: Sihipärase Devalveerimise Tunnistaja
 
-![pilt](assets/chapitre-2.1/5.webp)
+![pilt](assets/fr/006.webp)
 Maravedi, olles vaskraha, omab erilist kohta Hispaania valuuta ajaloos. Nagu varem mainitud, oli Hispaania dollar algselt rahvusvaheline standard, oluline reservvaluuta Hispaania jaoks. Siiski, teatud majanduslike väljakutsetega silmitsi seistes, pidi Hispaania kasutama nutikaid rahandusstrateegiaid.
 Rahaline devalveerimine on vahend, mida riigid tihti kasutavad oma kulutuste finantseerimiseks või majanduse stimuleerimiseks. Kuid Hispaania leidis end delikaatsest olukorrast. Hispaania dollari lahjendamine oleks ohustanud selle positsiooni rahvusvahelises kaubanduses. Selle dilemmaga toime tulemiseks pöördus Hispaania Maravedi poole.
 
@@ -118,7 +118,7 @@ See strateegia võimaldas riigil tõhusalt devalveerida valuutat, luues inflatsi
 
 Maravedi juhtum illustreerib, kuidas riik saab selektiivselt devalveerida kohalikku valuutat, et rahuldada oma sisemajanduslikke vajadusi, samal ajal säilitades reservvaluuta väärtust globaalsel tasandil. See on silmapaistev näide rahapoliitika keerukusest ja peenusest ajaloos.
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 Rohkem infot? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -130,7 +130,7 @@ Rohkem infot? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQd
 
 18. sajandil märkis Prantsuse majandusajalugu kahte olulist sündmust seoses valuutaga. Esiteks veenis John Law, Šoti majandusteadlane ja finantseerija, Prantsuse valitsust võtma kasutusele paberrahal põhinev rahandussüsteem. Kuigi alguses peeti seda riigi finantsprobleemide innovaatiliseks lahenduseks, viis see algatus kiiresti kontrollimatu inflatsioonini. Seejärel, varsti pärast Prantsuse revolutsiooni keerises, tutvustas valitsus "assignaate".
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 Assignaadid aastast 1793
 Need pangatähed on elavaks tunnistuseks ajaloo esimesest suurest hüperinflatsiooni perioodist. Algselt kujundatud järjestikuste finantskriiside vastuseks, muutusid assignaadid kiiresti rahalise ebastabiilsuse sümboliks. Valitsus, toetudes liigselt sellele paberrahale oma kulutuste finantseerimiseks, põhjustas enneolematu majanduskriisi ja lõi Prantsusmaal pärast revolutsiooni suure hüperinflatsiooni perioodi.
@@ -143,7 +143,7 @@ Ameerika Ühendriikides tunnistati 1930ndate alguses suurt muutust rahapoliitika
 
 - 1928. aasta 20-dollariline rahatäht
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 1928. aastal oli Ameerika Ühendriikides 20-dollarilisel rahatähel kirjas: "vahetatav kullaks nõudmisel". See tähendab, et iga rahatäht oli sõna otseses mõttes vahetatav kullaks. Täpsemalt oli 20,67-dollariline rahatäht võrdne ühe untsi kullaga.
 
@@ -151,17 +151,17 @@ Ameerika Ühendriikides tunnistati 1930ndate alguses suurt muutust rahapoliitika
 
 1933. aastal toimus suur muutus täitevkorralduse 6102 väljaandmisega. See dekreet muutis kodanikele kulla omamise ebaseaduslikuks, olgu see siis kangide, müntide või sertifikaatide kujul.
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 Kullasertifikaat on hea näide. Sellel oli märgitud: "Makstav kullamündis kandjale nõudmisel." Sellise sertifikaadi omamine muutus ebaseaduslikuks ja jäi selliseks kuni 1964. aastani.
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 - Uute pangatähtede väljaandmine
 
 Pärast kulla konfiskeerimist 1934. aastal lasti ringlusse uus seeria pangatähti.
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 Märge nende vahetatavuse kohta kullaks on eemaldatud ja asendatud fraasiga "See rahatäht on seaduslik maksevahend kõigi võlgade puhul".
 
 - Kulla ümberhindamine
@@ -178,17 +178,17 @@ Varem, renessansi ajal, oli 13. sajandil Firenze poolt välja antud Itaalia flor
 
 Sama vaimus säilitasid Hispaania ja Holland, olles maailma reservvaluuta hoidjad tänu oma õitsvale rahvusvahelisele kaubandusele, oma valuuta terviklikkuse, et säilitada usaldus ja status quo rahvusvahelistes vahetustes. Hollandis isegi tunnistati esimese keskpanga loomist, mis on oluline verstapost globaalses rahanduse evolutsioonis.
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 Siiski muutus olukord, kui Ameerika Ühendriigid tõusid domineerivaks majandusjõuks. Nad otsustasid oma reservvaluuta väärtust alandada, kasutades inflatsiooni enda kasuks. Seda otsust peetakse sageli muutunud dünaamika tagajärjeks, kus reservvaluuta valik ei olnud enam nii vaba kui varem. Ameerika hegemoonia kehtestas dollari maailma reservvaluutana, võimaldades selle väärtusega manipuleerida. See nihe paljastab rahapoliitika potentsiaalse mõju rahvusvahelisele kaubandusele globaliseerunud majanduses, märkides olulist üleminekut globaalsete reservvaluutade haldamises.
 
 ### Viimane näide teele kaasa: Šveitsi Dinaar
 
 Šveitsi Dinaar illustreerib veel üht huvitavat aspekti rahalise devalveerimise kohta, seekord ankurdatuna eel-Lahesõja Iraagi konteksti. Nimetatud oma pangatähtede märkimisväärse kvaliteedi järgi, emiteeris selle valuuta Iraagi Keskpank ja see nautis stabiilsuse mainet Lähis-Ida piirkonnas. See usaldus oli peamiselt tingitud pangatähtede trükkimise kvaliteedist, mis toimus Inglismaal, vihjates teatud vastupidavusele devalveerimise vastu.
-![image](assets/chapitre-2.1/16.webp)
+![image](assets/fr/014.webp)
 
 Siiski märkisid Lahesõjad pöördepunkti Šveitsi Dinaari ajaloos. Iraak, enam ei suutnud loota oma Inglise tarnijale pangatähtede trükkimisel, pöördus Hiina poole. See üleminek tõi kaasa selge erinevuse pangatähtede kvaliteedis, kus Hiina versiooni peeti alamväärseks. See tajumine ei olnud alusetu; Hiina pangatähed olid kergemini võltsitavad ja valitsuse poolt ületrükkimisele vastuvõtlikumad, seega ähvardades nende väärtust.
 
-![image](assets/chapitre-2.1/17.webp)
+![image](assets/fr/015.webp)
 
 Post-Lahesõja Iraagi majanduses tekkis eristuv nähtus: kahehinnasüsteem. Kaupmehed pakkusid erinevaid hindu sõltuvalt maksmiseks kasutatud pangatähe tüübist, eelistades algset Šveitsi Dinaari Hiina pangatähele. See süsteem peegeldas säilinud usaldust kõrgema kvaliteediga pangatähtede vastu, mis olid vähem altid devalveerimisele, isegi kontekstis, kus väärtus oli peamiselt riigi poolt peale surutud. See episood demonstreerib valuuta sisemiste omaduste tähtsust ja kuidas isegi fiat-valuuta režiimis võib valuuta tajutav kvaliteet mõjutada selle suhtelist väärtust ja laiendatult majandustegelaste usaldust.
 
@@ -196,7 +196,7 @@ Post-Lahesõja Iraagi majanduses tekkis eristuv nähtus: kahehinnasüsteem. Kaup
 
 Üldine arusaam seostab valuutat sageli riigi loomisega, kus selle emiteerimist ja väärtust reguleerib riik. See kontseptsioon pärineb iidsetest tsivilisatsioonidest nagu Rooma, kus mündid standardiseeriti ja tembeldati Impeeriumi poolt, andes seeläbi valuutadele ametliku väärtuse. Siiski sügavam uurimine paljastab, et valuuta sisemine väärtus tulenes peamiselt selle sisaldava väärtusliku metalli sisust.
 
-![image](assets/chapitre-2.1/18.webp)
+![image](assets/fr/016.webp)
 Näide on illustreeritud läbi kaalu uurimise, mis vastas kaheksale Hispaania reaalile või ühele Hispaania dollarile. See kaal, millele oli märgitud Rooma numbriga selle väärtus, kasutati valuutavahetajate poolt müntide väärtuse hindamiseks nende kaalu, mitte ainult nende tembelduse põhjal. Münte kaaludes suutsid vahetajad kindlaks teha, kas neid oli muudetud või kahjustatud, mis oleks võinud nende väärtust vähendada. See praktika rõhutab, et kuigi riigi poolt standardiseeritud tembeldamine andis valuutale teatud nominaalse väärtuse, peitus tõeline väärtus sisalduva väärtusliku metalli kaalus.
 See analüüs näitab, et usaldus valuuta vastu, ja laiendatult selle väärtus, oli kinnitatud selle käegakatsutavas aines, mitte pelgalt riigi väites. See rõhutab duaalsust riigi poolt peale pandud nimiväärtuse ja väärtusliku metalli sisalduse poolt dikteeritud sisemise väärtuse vahel. Seega, valuuta ületab olemuselt lihtsalt riigi instrumenti, olles oma fundamentaalses väärtuses lahutamatult seotud käegakatsutavate ja mõõdetavate elementidega.
 
@@ -212,7 +212,7 @@ Kokkuvõttes avab see uuring rahalise devalveerimise teemal ukse sügavamale inf
 
 Selles jaotises uurime inflatsiooni erinevaid dimensioone, nähtust, mida tihti valesti mõistetakse. Kuigi inflatsiooni peetakse meedias ja igapäevastes aruteludes sageli multifaktoriaalseks nähtuseks, on oluline meeles pidada, et see on põhimõtteliselt rahaline nähtus.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 Siin on teema jaotus mitmeks põhipunktiks:
 
@@ -264,7 +264,7 @@ Jaapani analüüs (https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti 
 
 Kolmas näide, miks rahatrükk ei pruugi põhjustada inflatsiooni, on see, et rahatrüki ja inflatsiooni vaheline suhe on moduleeritud selle järgi, kuidas uus loodud raha majandusse tuuakse. Kui see raha jääb eraõiguslike pankade bilanssidesse ilma, et see laenataks majandustegelastele, ei mõjuta see otseselt reaalmajandust ja seetõttu ei põhjusta see inflatsiooni.
 
-![image](assets/chapitre-2.2/5.webp)
+![image](assets/fr/021.webp)
 
 Rahatrükki võib vaadelda kui Damoklese mõõka, mis ripub majanduse kohal. Loodud raha võib teatud aja jooksul püsida latentne, ilma igasuguse nähtava inflatsioonilise mõjuta, seni kuni seda ei süstita majandusse pangalaenude või muude mehhanismide kaudu. Siiski, kui see latentne raha lõpuks ringlusse lastakse, võivad inflatsioonilised mõjud siis ilmneda. Just seda on täheldatud 2020. aastatel, kus varem loodud raha on leidnud tee majandusse, põhjustades inflatsiooni.
 See stsenaarium rõhutab rahalise ülekandemehhanismi tähtsust rahatrüki inflatsioonilise mõju määramisel. Keskpankade rahaloomine on vaid üks osa mõistatusest. Eraõiguslike pankade käitumine, kes otsustavad laenude mahu üle, ja laenuvõtjate käitumine, kes otsustavad, kuidas nad laenatud raha kulutavad, on samuti olulised elemendid selles dünaamikas.
@@ -273,7 +273,7 @@ See stsenaarium rõhutab rahalise ülekandemehhanismi tähtsust rahatrüki infla
 
 Weimari Vabariigi näide illustreerib veel üht olulist aspekti rahatrüki ja inflatsiooni vahelises suhtes: ootuste ja majandusagentide käitumise rolli. Kui Weimari Vabariigi Keskpank hakkas trükkima suures koguses raha, viis majanduslik ebakindlus inimesi raha koguma, st hoidma raha pigem kulutamata. See reaktsioon lükkas ajutiselt edasi rahatrüki inflatsioonilisi mõjusid.
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 Siiski, kui majanduslik olukord hakkas veidi paranema, taastus järk-järgult usaldus. Inimesed võtsid oma säästud peidukohtadest välja ja hakkasid majanduses massiliselt kulutama. See järsk käitumismuutus, kombineerituna juba kõrge rahapakkumisega, viis nõudluse plahvatuseni. Rohkema raha ringluses ja suurenenud nõudlusega hakkasid hinnad kiiresti tõusma, põhjustades märgatavat inflatsiooni.
 
@@ -293,37 +293,37 @@ See näide rõhutab ajastuse ja agentide käitumise tähtsust inflatsiooni ilmne
 
 Neid näiteid saab kasutada aruteludes, et selgitada, miks inflatsioon ei ole alati raha trükkimise otsene tagajärg, ning kuidas majanduslikud kontekstid ja agentide käitumine mõjutavad inflatsiooni.
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 
 Sest, nagu see [niit](https://twitter.com/saifedean/status/1673639779433590786) näitab: Inflatsioon on kõike muud, välja arvatud keskpankade süü.
 
 - Majandusteadlased, kes süüdistavad inflatsioonis kliimamuutusi
 
-![image](assets/chapitre-2.2/8.webp)
+![image](assets/fr/024.webp)
 
 - Näide Rootsist, kes süüdistab Beyoncé'd inflatsioonis kindla kuu jooksul.
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 - Poola keskpank, mis omistab inflatsiooni Venemaa agressioonile Ukrainas ja pandeemiale
 
-![image](assets/chapitre-2.2/7.webp)
+![image](assets/fr/025.webp)
 
 - Brexitit süüdistatakse inflatsioonis Ühendkuningriigis.
 
-![image](assets/chapitre-2.2/9.webp)
+![image](assets/fr/026.webp)
 
 - Zelda mängu väljalaskmist seostatakse inflatsioonilise šokiga.
 
-![image](assets/chapitre-2.2/12.webp)
+![image](assets/fr/027.webp)
 
 - Taylor Swift väidetavalt põhjustab inflatsiooni.
 
-![image](assets/chapitre-2.2/15.webp)
+![image](assets/fr/028.webp)
 
 Kuidas võiksid Beyoncé või Taylor Swift, öelge mulle, seletada üldist hinnatõusu? Näete, see ei oma mingit mõtet. Lühidalt:
 
-![image](assets/chapitre-2.2/14.webp)
+![image](assets/fr/029.webp)
 
 ### Inflatsiooni tüüpide uurimine
 
@@ -335,7 +335,7 @@ On oluline mõista erinevate inflatsioonitüüpide vahelist eristust, mõistmine
 
 - Hüperinflatsioon: Hüperinflatsioon on äärmuslik nähtus, kus inflatsioonimäär ületab 50% kuus, mis eksponentsiaalse inflatsiooni tõttu on võrdne aastase inflatsioonimääraga üle 13 000%. Selline inflatsioonitase destabiliseerib majandust tugevalt, muutes valuuta peaaegu väärtusetuks ja põhjustades usalduse kaotuse rahandussüsteemi vastu.
 
-![image](assets/chapitre-2.2/17.webp)
+![image](assets/fr/030.webp)
 Inflatsiooni tüüpide uurimisel kohtab sageli termineid nagu "Nõudluse Tõmme" ja "Kulude Tõuge" haridusallikates. Need kontseptsioonid, kuigi kehtivad, kipuvad seletama pigem hinnatõuse kui inflatsiooni kui rahandusnähtust. Siin on sügavam analüüs:
 
 - Nõudluse Tõmme:
@@ -349,7 +349,7 @@ Inflatsiooni tüüpide uurimisel kohtab sageli termineid nagu "Nõudluse Tõmme"
 
 Bernholz pakub lihtsustatud, kuid täpset inflatsiooni klassifikatsiooni kolme kategooriasse, võimaldades paremini mõista seda keerulist rahandusnähtust:
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 - Mõõdukas Inflatsioon:
   Mõõdukas inflatsioon toimub, kui rahapakkumise tase on tavapärasest kõrgem, kuid ilma et riik pöörduks suurte puudujääkide rahastamise poole raha loomise teel. Kuigi termin "mõõdukas" võib tunduda ebaoluline, võib see inflatsiooni vorm põhjustada olulisi probleeme, kuigi seda ei klassifitseerita kõrge inflatsioonina.
@@ -399,16 +399,16 @@ Näiteks, kui inflatsioon langeb juulis 40%-ni ja ei tõuse üle 50% kuni järgm
 
 Seda definitsiooni on kasutatud Hanke-Krus tabelis, mis dokumenteerib 56 hüperinflatsiooni episoodi. Siiski tabel ei kata kõiki episoode, nagu näiteks see Venezuelas 2016. aastal, tuues koguarvuks 57.
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
 zoom
-![pilt](assets/chapitre-3.1/0.webp)Tuleb märkida, et kuigi see definitsioon on täpne, võib see teatud hüperinflatsiooni episoodid 50% lävendi range tõttu välistada. On võimalus laiendada seda definitsiooni, et hõlmata ka teisi episoode, mis, kuigi ei vasta rangelt Cagani kriteeriumidele, esindavad siiski äärmiselt kõrge inflatsiooni perioode. See tähelepanek avab ukse hüperinflatsiooni nähtuste laiemale uurimisele, võimaldades põhjalikumat arusaamist selle põhjustest ja mõjudest. Järgnevates aruteludes kaalume selle definitsiooni ülevaatamist ja Cagani rangeid kriteeriume mitte hõlmavate hüperinflatsiooni episoodide uurimist.
+![pilt](assets/fr/033.webp)Tuleb märkida, et kuigi see definitsioon on täpne, võib see teatud hüperinflatsiooni episoodid 50% lävendi range tõttu välistada. On võimalus laiendada seda definitsiooni, et hõlmata ka teisi episoode, mis, kuigi ei vasta rangelt Cagani kriteeriumidele, esindavad siiski äärmiselt kõrge inflatsiooni perioode. See tähelepanek avab ukse hüperinflatsiooni nähtuste laiemale uurimisele, võimaldades põhjalikumat arusaamist selle põhjustest ja mõjudest. Järgnevates aruteludes kaalume selle definitsiooni ülevaatamist ja Cagani rangeid kriteeriume mitte hõlmavate hüperinflatsiooni episoodide uurimist.
 
 ### Hüperinflatsiooni definitsioon Cagani järgi
 
 Philip Cagan võis seada suvalise verstaposti 50% kuise inflatsiooni lävendiga, kui ta defineeris hüperinflatsiooni. Ta ise tunnistab, et see definitsioon on suvaline ja teenis peamiselt tema analüüsi, mis põhines seitsmel hüperinflatsiooni episoodil. Cagani andmete uurimine näitab, et kolmel madalaima kuu inflatsioonimääraga hüperinflatsiooni episoodil olid määrad umbes 47%, 46% ja 57%. Tundub, et 50% lävend valiti nende juhtumite hõlmamiseks tema uuringus.
 
-![pilt](assets/chapitre-3.1/4.webp)
+![pilt](assets/fr/034.webp)
 
 - Ajalooline kontekst:
   Cagani definitsioon pärineb aastast 1956 ja põhineb tol ajal saada olnud piiratud arvul hüperinflatsiooni episoodidel.
@@ -420,7 +420,7 @@ Philip Cagan võis seada suvalise verstaposti 50% kuise inflatsiooni lävendiga,
   Teised majandusteadlased, nagu Bernholz, raamatu "Monetary Regime and Inflation" autor, on samuti kirjeldanud 50% lävendit kui suvalist.
   Bernholz märgib, et on olemas kõrge inflatsiooni episoodid, millel on samad kvalitatiivsed omadused nagu hüperinflatsiooni episoodidel, ilma et jõutaks 50% lävendini.
 
-![pilt](assets/chapitre-3.1/3.webp)
+![pilt](assets/fr/035.webp)
 
 See peegeldus paneb meid küsima hüperinflatsiooni traditsioonilise definitsiooni jäikuse üle ja rõhutab vajadust võib-olla selle lävendi ülevaatamiseks, lisades rohkem episoode ja ajaloolisi andmeid. Hüperinflatsiooni definitsioon võib vajada paindlikkust, et hõlmata erinevaid äärmusliku inflatsiooni ilminguid erinevates majandus- ja ajaloolistes kontekstides.
 
@@ -429,7 +429,7 @@ See peegeldus paneb meid küsima hüperinflatsiooni traditsioonilise definitsioo
 Niisiis, kui palju hüperinflatsiooni juhtumeid kokku on?
 Üldised hüperinflatsiooni definitsioonid, nagu see, mille esitas Kagan, öeldes, et kuine inflatsioonimäär on 50%, võivad mõnikord olla segadusttekitavad või lihtsustatud. Näiteks kahte riiki, mis kogevad vastavalt 1000% ja 3000% aastast inflatsioonimäära, võidakse tajuda erinevalt sõltuvalt selle inflatsiooni kuulisest jaotusest. Kui ükski kuu ei ületa Kagan'i definitsiooni kohast 50% lävendit, ei oleks need riigid hüperinflatsiooni seisundis. See lähenemine võib seega viia hüperinflatsiooni klassifikatsiooni anomaaliateni, eriti kui võrrelda aasta jooksul kumulatiivset inflatsiooni.
 
-![pilt](assets/chapitre-3.1/7.webp)
+![pilt](assets/fr/038.webp)
 
 - Kagan'i töö, "Monetary Dynamics of Hyperinflation", mis pakub hüperinflatsiooni põhjalikku analüüsi.
 - Bernoldi raamat, mis uurib 30 erinevat hüperinflatsiooni perioodi, laiendades seeläbi analüüsi ulatust.
@@ -447,11 +447,11 @@ Sel peatükis uurime hüperinflatsiooni mõjusid, keskendudes Zimbabwei ja Weima
 
 Mitmed raamatud on olnud eriti informatiivsed:
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 - "When Money Dies" autorilt Adam Ferguson, jälitab Esimese maailmasõja järgset hüperinflatsiooni Saksamaal, samuti Austrias ja Ungaris.
 - Kaks raamatut hüperinflatsioonist Zimbabwes, "Zimbabwe Warm Heart Ugly Face" ja "Hard Boiled Egg Index" autoritelt Jérôme Gardner ja Kudzai Joseph Gou Min-Yu vastavalt, pakuvad liigutavaid tunnistusi rõivapoodide keti tegevjuhilt ja põllumajanduspankurilt nende kogemuste kohta selle segase perioodi jooksul.
-  ![image](assets/chapitre-3.2/1.webp)
+  ![image](assets/fr/040.webp)
 
 Märkmeid konsolideerides märkasin arvukalt sarnasusi Zimbabwei ja Weimari Vabariigi hüperinflatsiooni kogemuste vahel, hoolimata 90-aastasest vahest nende vahel. Ma tuvastasin umbes 17 sarnasust, millest 13 illustreerivad teatud sorti progressiooni majanduskatastroofi suunas, mida need tunnistused kujutavad. Need huvitavad paralleelid demonstreerivad hüperinflatsiooni korduvat ja laastavat olemust läbi aja ja piiride. Täna uurime neid sarnasusi ja kuidas need kujutavad murettekitavat trajektoori hüperinflatsiooni perioodidel.
 
@@ -479,7 +479,7 @@ Zimbabwe: "17. septembril 2006 kuulutas RBZ-i kuberner Gideon Gono: '10 triljoni
 
 > Zimbabwe: "Keskpank raiskas raha, trükkides pangatähe, mis polnud väärt paberit, millele see oli trükitud. Teisisõnu, selle väärtus oli madalam kui tualettpaberil. Nii absurdne kui see ka ei tundu, oli odavam kasutada ZWD 100 triljoni pangatähte tualettpaberina kui osta tegelikku tualettpaberit."
 
-![image](assets/chapitre-3.2/3.webp)
+![image](assets/fr/041.webp)
 
 4. Raha Lugemine
 
@@ -512,7 +512,7 @@ Zimbabwe: "Põletusettevõtjad"
 
 Zimbabwe: "Need praktikad, kuigi rikastasid mõningaid üksikisikuid, vaesestasid linna töölisklassi ja maapiirkondade elanikkonda. Haridus kaotas oma väärtuse, kuna see kaubandus oli juhitud inimeste poolt, kes ei vajanud haridust ega raske tööd selle õigustamiseks. Kõik, mida nad vajasid, olid sidemed ja algkapital, et alustada oma kerge raha äri."
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
 8. "Maailmapangad"
 
@@ -534,7 +534,7 @@ Zimbabwe: "Äridele korraldatud reidid viisid mitme Bulawayo ärimehe vangistami
 Kui riik seisab silmitsi rahandus- või majanduskriisiga, on valitsuste üks tavaline vastus kapitali liikumise ja vormide range kontrollimine. Olgu selleks siis korraldused devalveeritud rahvusvaluutade aktsepteerimiseks või ranged sanktsioonid nende vastu, kes teatud makseviise tagasi lükkavad, need meetmed on sageli suunatud paanika ohjeldamisele ja usalduse taastamisele. Siiski varieerub nende tõhusus ja mõnikord võivad need meetmed osutuda vastupidiseks või kodanike poolt kogetud reaalsusest irdunuks.
 Weimar: "Kaupmehed olid hiljuti sunnitud uue dekreediga aktsepteerima riigipanga rahatähti; kuid kuna see lubas jätkuvalt välisvaluutade kasutamist kõikide ostude puhul, leidsid kaupmehed üldiselt vabandusi, et aktsepteerida peaaegu mitte midagi muud."
 Zimbabwe: "Valitsus tutvustas 12. detsembril 2008 SI 175/2008 seoses maksmisega tšekkidega. Selles öeldi: 'Karistus maksmisest keeldumise eest tšeki/pangakaardi või mis tahes muu panga vahendatud elektroonilise makseviisi abil on 8. taseme trahv või kuuekuuline vanglakaristus või mõlemad.' Ilmselgelt me ignoreerisime SI-d, kuna see oli täielikult reaalsusest irdunud."
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
 11. Sunnitud hoidma oma poode avatuna
 
@@ -559,14 +559,14 @@ Võõrvaluutade meeleheitlik ostmine on sageli märgistanud kriitilist pöördep
 
 ### Protsessi kokkuvõte
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 Majandustrajektoori analüüsides on ilmne, et kõrge inflatsiooni saavutamisel halveneb rahamassi väärtus. See devalveerimine toob kaasa mitmeid komplikatsioone, sealhulgas pangatähtede nappuse. Selles kontekstis tekivad arbitraaživõimalused, eriti vahetuskursside kõikumisel. Selle tulemusena pöörduvad paljud inimesed selle arbitraaži poole, investeerides raskelt materiaalsetesse varadesse, eeldades, et tulevane valuuta devalveerimine võimaldab neil oma võlad nõrgenenud valuutas tasuda. See majanduskeskkond õõnestab traditsiooniliste töökohtade atraktiivsust ja seeläbi kahandab sotsiaalset sidusust.
 Vastuseks olukorrale kehtestab valitsus rangeid regulatsioone, sealhulgas kapitalikontrolli. Samuti nõutakse kaupmeestelt riikliku valuuta ja tšekkide aktsepteerimist. Aja jooksul võetakse vastu uusi seadusi, laiendades kriminaalse käitumise definitsiooni. Lõpuks tõuseb vahetuskurss eksponentsiaalselt, kuna valitsus on valmis oma madalama maksumusega trükitud valuutat vahetama tugevamate välisvaluutade vastu.
 
 ### 4 Sarnasust hüperinflatsiooni tagajärgedes
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
 1. Nafta ja metallid
 
@@ -598,7 +598,7 @@ Sel peatükis uurime erinevusi ja kaasaegseid paralleele mineviku ja oleviku hü
 
 Saksamaal oli rahvastiku seas levinud arvamus, et inflatsiooni põhjustab dollari tõus, mitte nende enda valuuta sisemine devalveerimine. Paljud uskusid, et täheldatud nähtus oli tingitud dollari väärtuse tõusust. See taju eitas igasugust seost nende majandusraskuste ja peamiselt liigse rahatrüki tõttu esile kutsutud rahalise devalveerimise vahel. Raamat "When Money Dies" illustreerib selgelt seda arusaamise puudumist Saksa elanikkonna seas. Seevastu Zimbabwes oli olukord erinev: kodanikud olid täielikult teadlikud hüperinflatsiooni aluseks olevast põhjusest, mida nad kogesid.
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
 2. Hädavajalik valuuta (Notgeld)
    Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
@@ -651,13 +651,13 @@ Weimar: "Kogu Saksamaa kapital, mis hoiti välismaal, oli konfiskeeritud."
 
 Zombiettevõtete kontseptsioon ei ole uus. Tegelikult oli see olemas juba Weimari Vabariigi ajal. Sel ajal tundusid paljud ettevõtted õitsevat, saades suurt kasu vabast krediidi juurdepääsust. Nad laenasid märkimisväärseid summasid, lootuses hiljem tagasi maksta devalveeritud valuutaga tänu möllavale inflatsioonile. Kuid kui inflatsioon peatus ja Saksa mark taastas oma väärtuse, muutusid need ettevõtted, mis tegelikult ei olnud operatiivselt ja finantsiliselt elujõulised, kasumituks ja pidid oma uksed sulgema.
 
-![image](assets/chapitre-3.3/5.webp)
+![image](assets/fr/050.webp)
 
 Zombiettevõtete nähtus ei piirdu ainult Saksamaa järgsesõja ajalooga. Isegi tänapäeval ellujäävad paljud suured ettevõtted tänu privileegitud juurdepääsule väga madala intressimääraga krediidile. Kui nad peaksid laenama tavapärasemate määrade juures, lõpetaks paljud neist kasumlik olemise. See on eriti asjakohane, kuna me elame 2023. aastal ja pärast pikka peaaegu nullilähedase intressimäära perioodi on need hakanud tõusma. See hiljutine areng finantsmaastikul saab kahtlemata olema otsustav test nendele ettevõtetele, mida kunagi nimetati "zombideks".
 
 5. Rikkaks saamine kiiresti!
    Ajaloo vältel on olnud hetki, mil inimesed püüavad kiiresti rikkaks saada, nagu juhtus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval näeme sarnast trendi teatud krüptovaluutade esilekerkimisega. Inimesi ahvatlevad kiired kasumid, võttes riske lootuses oma investeeringut eksponentsiaalselt suurendada. See lähenemine võib meenutada seda, mida täheldatakse hüperinflatsiooni perioodidel, kus arbitraaži kasutatakse kiirete kasumite saamiseks, sageli teiste arvelt.
-   ![image](assets/chapitre-3.3/6.webp)
+   ![image](assets/fr/051.webp)
 
 6. Säästmine, ravim ebakindluse vastu
 
@@ -678,7 +678,7 @@ Nüüd vaatame erinevaid redenominatsiooni perioode Ladina-Ameerika riikides.
 
 Slaidil vasakul on redenominatsiooni aastad, uue valuuta nimi ja vahetuskurss vana valuutaga. Võttes näiteks Argentina, konverteeriti peso moneda nacional vahetuskursiga 25 kuni 1 eelmisest valuutast, peso real. Selles kontekstis uurime Argentina valuuta arengut ajas. Lisaks märgime iga perioodi alg- ja lõppdenominatsioonid pangatähtedel.
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Slaidi paremal küljel on inflatsiooni graafik. Punased nooled tähistavad hüperinflatsiooni aastaid, mida Kagan'i kriteeriumi järgi määratletakse kui 50% inflatsioonimäära kuus. See kriteerium võib mõnikord viia ebamääraste tõlgendusteni, aastatega, millel on kõrge inflatsioonimäär, kuid mis ei vasta hüperinflatsiooni rangele definitsioonile.
 Tuleb märkida, et redenominatsioon, inflatsiooni perioodidel, on valitsuste poolt tavaliselt võetav meede. Siiski ei lahenda see inflatsiooni või hüperinflatsiooni aluseks olevat probleemi. See on ainult viis valuuta ümber nimetamiseks ja nullide eemaldamiseks, ilma et tegelikult puudutataks hüperinflatsiooni põhjust: rahapakkumise laienemist. Hilisemas videos arutame tegelikke lahendusi hüperinflatsiooni probleemi lahendamiseks ja kõrvaldamiseks. Selles sarjas rõhutame lihtsa redenominatsiooni tagajärgi ilma piisavate reformideta: inflatsioon püsib.
@@ -686,13 +686,13 @@ Pärast Argentinat katab meie uuring Brasiiliat, Boliiviat, Peruu, Nicaraguat ja
 
 ### Argentina
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 Enne 1826. aastat kasutas Argentina Hispaania dollarit. Pärast oma iseseisvuse saavutamist 1816. aastal tutvustas riik omaenda valuutat, mis põhines Hispaania realil, mille tulemusena loodi sarnane valuuta. Tabel algab 1881. aastast, mil tutvustati "peso moneda nacional" koos pangatähtedega kuni 10 000-ni. Sellele järgnes "peso ley", mida vahetati kursiga 100:1 ja mille pangatähed ulatusid kuni ühe miljonini. Seejärel tuli "argentiina peso" vahetuskursiga 10 000:1 (mis on võrdne nelja nulli eemaldamisega) ja pangatähtedega kuni 10 000-ni. 1985. aastal tutvustati "australes", mida vahetati kursiga 1000:1 ja mille pangatähed ulatusid kuni 500 000-ni. 1992. aastal kehtestati praegune "peso ley" kursiga 10 000:1, eemaldades taas neli nulli. Ainult aastatel 1989 ja 1990 koges riik hüperinflatsiooni.
 
 ### Brasiilia
 
-![image](assets/chapitre-3.4/2.webp)
+![image](assets/fr/053.webp)
 
 Brasiilia on märkimisväärne näide rahareformist, nagu on näha selle valuutamuutuste ajaloost. Enne iseseisvust kasutas Brasiilia Portugali reali. Siiski, juba 1747. aastal hakkas riik kasutama oma "Brasiilia reali", kaua enne iseseisvusdeklaratsiooni 1822. aastal. Tabel algab 1818. aastast, mis tähistab Brasiilia pangatähtede emiteerimise algust. Enne seda oli valuuta peamiselt müntide kujul. Need pangatähed saavutasid väärtusi kuni ühe miljoni realini.
 Alates 1942. aastast alustas Brasiilia mitmeid rahareforme. Enamikul juhtudel (1942, 1967, 1986, 1989, 1993) oli konversioonimäär 1 000:1. 1990. aastal toimus nimevahetus ilma konversioonita. Nende valuutade järjestus on järgmine:
@@ -710,7 +710,7 @@ Kõrgeima nimiväärtusega pangatäht oli 500 000 ja viimane rahareform 1994. aa
 
 ### Boliivia
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 Boliivia on veel üks näide riigist, mis on läbinud ägeda inflatsiooni perioode, nõudes valuuta redenominatsioone. Siin on kokkuvõte selle rahandusajaloost:
 Enne oma iseseisvust 1825. aastal kasutas Boliivia valuutana Hispaania dollarit. Pärast iseseisvumist tutvustas riik Boliivia Soli vahemikus 1827 kuni 1864, asendades Hispaania dollari. Siiski tuleb märkida, et esimesed pangatähed Boliivias ilmusid alles 1864. aastal. 1864. aastal tutvustati esimest "Bolivianot", mille vahetuskurss oli 1000:1 võrreldes Boliivia Soliga. See valuuta oli käibel kuni saavutas denominatsiooni 10 000 Bolivianot.
@@ -722,7 +722,7 @@ See on ülevaade Boliivia tormilisest rahandusajaloost, mida iseloomustavad hüp
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 
 Peruu esitab huvitava juhtumi seoses suvalise 50% reegli mõjudega. Alustades oma rahandusajaloost, kasutas Peruu Hispaania kulda kuni 19. sajandini ja kuulutas välja oma iseseisvuse 1821. aastal. Peruu dollar oli kasutusel aastatel 1822 kuni 1863. 1863. aastal asendati Peruu reaal valuutaga soldi oro, kursiga 10:1, saavutades maksimaalse väärtuse 50 000. 1985. aastal tutvustati valuutat "Inti" konversioonimääraga 1000:1, tipnes 5 miljoniga. 1991. aastal käivitati "SOL" vahetuskursiga 1 miljon:1, pangatähtedega vahemikus 10 kuni 200.
 Vaadates ümbernimetamise perioode, peetakse 1988. aastat hüperinflatsiooni aastaks, eriti septembris. Juuli-august 1990 nägi samuti hüperinflatsiooni perioodi. 1988. aastal oli aastane inflatsioonimäär 667%, tipnes 50%-ga septembris. Vastupidiselt, 1989. aastal koges inflatsioonimäär 3000%, ilma et ükski kuu ületaks 50%, seega seda ei klassifitseeritud hüperinflatsiooniks. 1990. aastal tipnes inflatsioon 7481%-ga. On selge, et 50% reegel võib olla suvaline, kuna 1988. aastat peeti hüperinflatsiooni aastaks, erinevalt 1989. aastast. Kui seda reeglit kaalutaks ümber, võiks olla mõistlik läve alandada, et hõlmata perioode nagu see, mida Peruu koges 1989. aastal.
@@ -732,24 +732,24 @@ Vaadates ümbernimetamise perioode, peetakse 1988. aastat hüperinflatsiooni aas
 
 ### Nicaragua
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 Nicaragua, mis oli varem Hispaania valitsemise all, kasutas algselt Hispaania dollarit, nagu paljud teised Hispaania poolt koloniseeritud riigid. Pärast integreerimist Hispaania Impeeriumi, seejärel Mehhiko Impeeriumi ja seejärel Kesk-Ameerika Föderaalvabariigi koosseisu, kuulutas Nicaragua välja oma iseseisvuse. Alates 1878. aastast sai pesost riigi ametlik valuuta, väärtustega kõikudes 1 ja 100 vahel. 1912. aastal tutvustati riigis esimest Cordobat, millele järgnes teine 1988. aastal ja kolmas 1991. aastal, mis on kasutusel tänaseni. Esimene Cordoba jõudis väärtuseni 1 miljon ja teine 10 miljonit. Ümberarvestus 1991. aastal järgnes mitmele hüperinflatsiooni aastale.
 
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 
 Venezuela on viimane selles videos mainitud riik. Riik on aja jooksul läbinud neli valuuta ümberarvestust. Oma varajastel päevadel kasutas Venezuela Hispaania dollarit enne iseseisvuse väljakuulutamist 1811. aastal. 1879. aastal tutvustati bolivari kui ametlikku valuutat, mis püsis kehtivana kuni 1983. aastani, mil valitsus valis ujuva vahetuskursi dollari.
 
 Märkimisväärne fakt Venezuelast on selle liikmelisus Ladina Rahaliidus. See liit hõlmas münte nagu 5 pesetat Hispaaniast, 5 drakhmat Kreekast, 5 bolivari Venezuelast, 5 liiri Itaaliast, 5 Belgia franki ja 5 Prantsuse franki.
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 Sellel perioodil oli Venezuela 5 bolivari mündi kaal sama kui Liidu liikmesriikide, sealhulgas Itaalia, Hispaania, Belgia ja Prantsusmaa müntidel. Need bolivarid olid valmistatud hõbedast, konkreetse 1929. aasta mündi kaaluga 25 grammi ja puhtusega 900 ehk 90% puhas hõbe. Praeguse hõbeda hinna juures on see münt väärt umbes 17 kuni 18 USA dollarit.
 
@@ -789,13 +789,13 @@ Huvitav aspekt, mille Bernold tõstatas, on see, et rahareformi edu sõltub mitt
 
 ### Zimbabwe juhtum
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 
 Zimbabwe saavutas iseseisvuse 1980. aastal ja tutvustas Zimbabwe dollarit. Alguses oli kaks Zimbabwe dollarit väärt umbes 1.60 USA dollarit. Siiski, 1997. aastal, pärast sotsiaalmeetmeid sõjaveteranide kasuks, devalveerus valuuta ühe päeva jooksul, Mustal Reedel, 72%. Seejärel, 2000. aastate alguses, käivitas riik maareformi programmi, võttes maad valgetelt omanikelt ja andes selle kohalikule elanikkonnale. See otsus kahjustas eksporti, sest uued omanikud tihti puudus vajalik ekspertiis suurte farmide haldamiseks. Selle tulemusena, kuigi Zimbabwe oli 1999. aastal netoeksportija, sai sellest 2003. aastal netoimportija.
 
 2006. aastal tutvustas riik oma valuuta uut versiooni, ZWN, vahetuskursiga 1 kuni 1000. 2008. aastal tutvustati teist denominatsiooni, ZWR, vahetuskursiga 1 kuni 10 miljardit. See viis ikoonilise 100 triljoni pangatähe loomiseni.
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 #### Dollariseerimine & kriisi lahendamine
 
@@ -807,11 +807,11 @@ Siiski, dollariseerimine ei ole imelahendus. Kuigi see võib lõpetada hüperinf
 
 Minu raamatus pealkirjaga "Kõik Bitcoini kohta" olen pühendanud terve peatüki Zimbabwe hüperinflatsioonile. Ma kirjeldan olulisi sündmusi, pakkudes mitmesuguseid näiteid, mis illustreerivad, kuidas riik lõpuks hüperinflatsioonile lõpu tegi.
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 Neile, kes on huvitatud Saksamaa kogemusest pärast Esimest maailmasõda, soovitan väga koomiksiraamatut "Reichsbanki pankur". See jutustab, kuidas Saksamaa suutis hüperinflatsioonist üle saada, eriti tänu Rentenmarki loomisele.
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 Peamine õppetund on see, et hüperinflatsioonist ülesaamiseks on mitmeid strateegiaid. Võib valida dollariseerimise või uue valuuta kasutuselevõtu. Need lahendused toimivad ainult siis, kui elanikkonnal on nendesse usku. On hädavajalik kehtestada ranged piirangud. Täiesti sõltumatu keskpank on oluline. See ei tohi rahapakkumist suurendada, et katta valitsuse puudujääke. Mõõduka inflatsiooni korral piisab rahapakkumise kasvu piiramisest. Siiski, kui tegemist on hüperinflatsiooniga, on hädavajalik esmalt tagada sobiv rahapakkumine majanduse suuruse jaoks. Seejärel on imperatiivne kehtestada valitsusele ranged piirangud olukorra stabiliseerimiseks.
 
@@ -833,7 +833,7 @@ Transkript:
 
 Teise tasandi raha ja esimeste keskpankade tekkimine on põnev teema. Seda teemat arutatakse põhjalikult raamatus "Layered Money" autorilt Nick Battia. Soovitan seda väga neile, kes on huvitatud meie rahandussüsteemide arengust ja keerukusest. Selle jaotise eesmärk on mõista raha loomise päritolu ja kuidas see võib viia hüperinflatsioonini.
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 ### Püramiidraha ja Keskpangad
 
@@ -841,9 +841,9 @@ Teise tasandi raha ja esimeste keskpankade tekkimine on põnev teema. Seda teema
 
 Raha ajalugu ulatub tagasi 13. sajandi Itaaliasse, täpsemalt Firenzesse. Sel ajal olid levinud floriinid ja vekslid. Märkimisväärne näide on floriin, mida kaunistas Püha Johannese Kastija kuju.
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 Kuigi tänapäeval on ehtsa floriini omamine kallis, on saadaval reproduktsioonid. Samuti on olemas teisi tolleaegseid valuutasid, nagu 17. sajandi Itaalia riikide soldo, millel on Kristuse kujutis.
 
@@ -860,13 +860,13 @@ Kuigi see kontseptsioon on seotud Nick Belliga läbi tema Twitteri pseudonüümi
 
 #### VOC ja Amsterdami Börs (17. sajand)
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 Pärast Antwerpeni Börsi oli oluline verstapost Hollandi Ida-India Kompanii (VOC) asutamine. See ettevõte, mis asus Madalmaades, andis isegi välja oma valuuta. VOC loomise järel rajati Amsterdami esimene börs, mis sai selle ettevõtte esimeseks börsiks. Huvitav on märkida, kuidas hollandlased suutsid lõpetada Antwerpeni ülemvõimu rahvusvahelise majanduskeskusena. Nad lihtsalt blokeerisid juurdepääsu Scheldti jõele. See strateegia oli osa laiemast ajaloolisest liikumisest, kerjuste ülestõusust. Euroopa ajaloos oluline sündmus.
 
 #### Amsterdami Panga sekkumine
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 Pärast VOC loomist oli rahandusajaloo teine oluline element Amsterdami Panga poolt kuld- ja hõbemüntide kasutuselevõtt. Need mündid, mis pärinevad aastast 1722, olid tehtud hõbedast. Siiski, mis tõeliselt revolutsioneeris rahandust tol ajal, ei olnud niivõrd münt ise, vaid sellega seotud kontod Amsterdami Pangas. Need kontod said rahvusvahelise vahetuse peamiseks vahendiks. Tehingud lihtsalt registreeriti registrites või pearaamatutes. Tänu sellele süsteemile sai Amsterdamist globaalne majanduskeskus. Aja jooksul otsustas Amsterdami Pank nende kontode kasutamise peale suruda. Sõltumatud rahavahetajad pidid iga päev oma mündid panga hoiustele vahetama.
 
 #### Inglismaa Panga loomine sõja rahastamiseks
@@ -876,7 +876,7 @@ Algselt esindas esimest valuutatasandit kuld. Era pankades tehtud hoiused moodus
 
 #### 1796. aasta paanika
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 Pangapaanika Seamen's Savings Bank'is 1857. aasta paanika ajal.
 
 Järgnedes 1796. aasta pangapaanikale, toimus nähtus, kus kõik üritasid "rahapüramiidis" ülespoole liikuda. Inimesed tahtsid vahetada oma kolmanda tasandi valuuta teise tasandi valuutaks ja lõpuks esimese tasandi valuutaks, kullaks. Selle massilise tormijooksu ees oli Inglismaa Pank sunnitud võtma meetmeid olukorra stabiliseerimiseks. Et vältida potentsiaalset kullavarude deflatsiooni, otsustas pank peatada oma pangatähtede vahetatavuse kullaks. See peatamine, algselt mõeldud ajutise meetmena, kestis kahe aastakümne vältel.

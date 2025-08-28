@@ -55,7 +55,7 @@ Lạm phát là một khái niệm thường bị hiểu nhầm do có nhiều �
 
 - Định nghĩa từ Larousse: Lạm phát là hiện tượng được đặc trưng bởi sự tăng liên tục và chung trên diện rộng của giá cả. Ở đây, yếu tố "chung trên diện rộng" là rất quan trọng.
 
-![image](assets/chapitre-2.1/4.webp)
+![image](assets/fr/001.webp)
 Đi sâu vào những định nghĩa này, điều cần thiết là phải hiểu rằng, đối với Robert, lạm phát chủ yếu liên quan đến sự tăng lên của nguồn cung tiền. Trong khi, Larousse tập trung vào hậu quả của sự mở rộng này, cụ thể là sự tăng giá chung trên diện rộng.
 Trong nghiên cứu của chúng ta về siêu lạm phát, chúng ta sẽ chấp nhận định nghĩa thứ hai, đó là sự tăng giá chung trên diện rộng, vì nó phù hợp và rõ ràng hơn cho chủ đề của chúng ta. Tuy nhiên, điều quan trọng là phải nhớ rằng, nhìn chung, sự tăng giá này là kết quả của việc mở rộng nguồn cung tiền.
 Nhà kinh tế học nổi tiếng Milton Friedman từng nói:
@@ -74,7 +74,7 @@ Khi đề cập đến hiện tượng tiền tệ, chúng ta đang nói về c�
 2. Giảm hàm lượng kim loại:
    Một phương pháp khác là giảm lượng kim loại quý trong các đồng tiền được bảo chứng bằng kim loại như bạc hoặc vàng. Một ví dụ nổi bật có thể được tìm thấy trong Đế chế La Mã, nơi đồng denarius, ban đầu gần như hoàn toàn được làm từ bạc, đã chứng kiến sự sụt giảm mạnh hàm lượng bạc theo thời gian. Điều này tương đương với một dạng lạm phát, nhưng không nhất thiết là siêu lạm phát.
 
-![image](assets/chapitre-2.1/1.webp)
+![image](assets/fr/002.webp)
 
 Điều quan trọng cần nhấn mạnh là siêu lạm phát chủ yếu được quan sát với các đồng tiền pháp định không liên kết với tài sản cơ bản của chúng, như kim loại quý. Lịch sử cho thấy, khi một đồng tiền được bảo chứng bởi những tài sản như vậy, đã có các đợt lạm phát (ví dụ, thông qua việc phá giá bằng cách làm giảm hàm lượng kim loại), nhưng những đợt này không bao giờ đạt đến mức độ của siêu lạm phát. Trong các phần tiếp theo, chúng ta sẽ nghiên cứu chi tiết các thời kỳ đồng tiền bị phá giá và hậu quả của các hệ thống tiền tệ khác nhau này đối với lạm phát.
 
@@ -85,7 +85,7 @@ Trong suốt lịch sử nhân loại, các nền văn minh khác nhau đã tr�
 #### 1. Chiến tranh Peloponnesian và Chiến tranh Punic thứ hai:
 
 Chiến tranh Peloponnesian, một cuộc xung đột giữa Athens và Sparta, và Chiến tranh Punic thứ hai, giữa Cộng hòa La Mã và Carthage, là những ví dụ sớm nhất được ghi lại về hiện tượng phá giá đồng tiền. Để tài trợ cho những cuộc chiến này, các nền văn minh này đã phá giá đồng tiền của mình bằng cách làm giảm hàm lượng bạc và đưa các kim loại khác vào trong đồng tiền, từ đó tăng số lượng đồng tiền được tạo ra.
-![image](assets/chapitre-2.1/8.webp)
+![image](assets/fr/003.webp)
 
 Khắc họa vụ thảm sát người Athens trên bờ sông Assinaros.
 
@@ -95,7 +95,7 @@ Sau thời kỳ của Cộng hòa La Mã, trong thời kỳ Đế chế, thế k
 
 Mặc dù những giai đoạn này đã trải qua lạm phát tương đối cao, nhưng chúng không đạt đến mức độ của siêu lạm phát mà chúng ta có thể quan sát trong một số ví dụ của thời hiện đại. Lý do cho điều này là, mặc dù đồng tiền đã bị mất giá, nhưng nó vẫn dựa trên kim loại quý. Nền tảng vững chắc này đã mang lại sự bảo vệ để chống lại mức độ cực đoan của lạm phát. Trong các phần tiếp theo, chúng ta sẽ khám phá chi tiết hơn về bản chất và hậu quả của siêu lạm phát.
 
-![image](assets/chapitre-2.1/2.webp)
+![image](assets/fr/004.webp)
 
 - Đồng Denarius của Marcus Aurelius (160 SCN):
   Một trong những đồng tiền tiêu biểu và có tính biểu tượng nhất của La Mã cổ đại là đồng denarius, một đồng tiền xu bằng bạc. Tôi có sở hữu một đồng tiền denarius từ Marcus Aurelius có niên đại từ năm 160 SCN, trước khi xảy ra sự mất giá nghiêm trọng. Mặc dù máy ảnh có thể gặp khó khăn trong việc ghi lại những chi tiết tinh tế của nó, nhưng bằng mắt thường, có thể thấy đó là một đồng tiền bạc đẹp, phản ánh một lượng bạc tương đối cao.
@@ -104,13 +104,13 @@ Mặc dù những giai đoạn này đã trải qua lạm phát tương đối c
   Do sự mất giá của denarius, một loại tiền mới, đồng Antoninianus, đã xuất hiện. Loại tiền này được gán cho là có giá trị bằng hai đồng denarii, nhưng chứa ít bạc hơn nhiều. Đồng Antoninianus của tôi cho thấy rõ ràng rằng lượng bạc đã giảm đi đáng kể. Nó được trang trí bằng một chiếc vương miện, điển hình cho các đồng tiền La Mã của thời kỳ này, được gọi là "radiates". Khi so sánh màu sắc và chất lượng, có thể thấy rằng đồng Antoninianus quá kém để so với một đồng tiền bạc nguyên chất.
   Khi so sánh hai đồng tiền cạnh nhau, sự khác biệt là rõ ràng. Đồng denarius từ năm 160 SCN có vẻ ngoài đặc trưng của bạc, trong khi đồng Antoninianus từ cuối thế kỷ 3 SCN mờ hơn nhiều, chỉ ra sự suy giảm đáng kể về hàm lượng bạc. Sự so sánh hình ảnh này mang lại một minh họa rõ ràng về sự mất giá đồng tiền mà Đế chế La Mã cổ đại đã trải qua trong vài thế kỷ.
 
-![image](assets/chapitre-2.1/3.webp)
+![image](assets/fr/005.webp)
 
 Để kết thúc phần này, một biểu đồ minh họa sự mất giá của các đồng tiền này theo thời gian sẽ là lý tưởng. Mặc dù khó để hình dung theo cách này, hãy tưởng tượng một biểu đồ cho thấy giá trị của đồng denarius, sau đó là sự suy giảm của nó ở đoạn cuối thế kỷ 2, được thay thế bằng đồng Antoninianus được cho là có giá trị bằng hai đồng denarii nhưng với lượng bạc ít hơn nhiều. Những hiện vật này là nhân chứng im lặng cho những biến động kinh tế của các nền văn minh trong quá khứ.
 
 #### 3. Đồng Maravedi của Tây Ban Nha: Chứng tích của việc phá giá có mục tiêu
 
-![image](assets/chapitre-2.1/5.webp)
+![image](assets/fr/006.webp)
 
 Đồng Maravedi, như một loại tiền xu bằng đồng, chiếm một vị trí đặc biệt trong lịch sử tiền tệ của Tây Ban Nha. Như đã đề cập trước đó, đồng đô la Tây Ban Nha ban đầu là tiêu chuẩn quốc tế, một loại tiền tệ dự trữ thiết yếu cho Tây Ban Nha. Tuy nhiên, khi đối mặt với một số thách thức kinh tế, Tây Ban Nha đã phải sử dụng những chiến lược tiền tệ tinh vi.
 Phá giá đồng tiền là một công cụ thường được các quốc gia sử dụng để tài trợ cho chi tiêu của mình hoặc kích thích nền kinh tế. Tuy nhiên, Tây Ban Nha đã rơi vào một tình huống thế nguy hiểm. Việc pha loãng đồng đô la Tây Ban Nha sẽ làm ảnh hưởng đến vị thế của nó trên trường quốc tế. Để vượt qua tình trạng khó khăn này, Tây Ban Nha đã chuyển sang sử dụng đồng Maravedi.
@@ -121,7 +121,7 @@ Chiến lược này cho phép nhà nước phá giá một loại tiền tệ m
 
 Trường hợp của Maravedis minh họa cách một quốc gia có thể chọn lọc để phá giá một đồng tiền địa phương nhằm đáp ứng nhu cầu kinh tế nội địa của mình, trong khi vẫn bảo toàn giá trị của một đồng tiền dự trữ trên sân khấu toàn cầu. Đây là một ví dụ nổi bật về sự phức tạp và tinh vi của chính sách tiền tệ trong lịch sử.
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 Thêm thông tin? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -133,7 +133,7 @@ Giữa thế kỷ 15 và 17, Châu Âu chứng kiến một hiện tượng kinh
 
 Trong thế kỷ 18, lịch sử kinh tế của nước Pháp được đánh dấu bởi hai sự kiện đáng chú ý liên quan đến tiền tệ. Đầu tiên, John Law, một nhà kinh tế và tài chính người Scotland, đã thuyết phục được chính phủ Pháp áp dụng một hệ thống tiền tệ dựa trên tiền giấy. Mặc dù ban đầu nó được coi là một giải pháp sáng tạo cho các vấn đề tài chính của đất nước, sáng kiến này nhanh chóng dẫn đến lạm phát tràn lan. Ngay sau đó, trong bối cảnh hỗn loạn của Cách mạng Pháp, chính phủ đã giới thiệu "assignats".
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 Assignats từ năm 1793
 
@@ -145,7 +145,7 @@ Những tờ tiền giấy này là bằng chứng sống động cho giai đo�
 
 - Tờ 20 đô la vào năm 1928
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 Năm 1928, một tờ 20 đô la ở Hoa Kỳ ghi rằng: "có thể đổi thành vàng theo yêu cầu." Điều này có nghĩa là mỗi tờ tiền có thể được chuyển đổi trực tiếp thành vàng. Cụ thể, lượng tiền 20.67 đô la tương đương với một ounce vàng.
 
@@ -153,17 +153,17 @@ Năm 1928, một tờ 20 đô la ở Hoa Kỳ ghi rằng: "có thể đổi thà
 
 Năm 1933, một biến động lớn xảy ra với sự kiện ban hành Sắc lệnh 6102. Sắc lệnh này biến việc sở hữu vàng trở thành bất hợp pháp, dù là dưới dạng thanh, đồng xu, hay giấy chứng nhận.
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 Giấy chứng nhận vàng là một ví dụ điển hình. Nó được ghi rằng: "Đồng xu bằng vàng có thể được trả cho người nắm giữ theo yêu cầu." Việc sở hữu loại giấy chứng nhận này trở nên bất hợp pháp và duy trì như vậy cho đến năm 1964.
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 - Giới thiệu tiền giấy mới
 
 Sau việc thu giữ vàng vào năm 1934, một loạt tiền giấy mới được đưa vào lưu thông.
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 Cụm từ chỉ cam kết quyền được chuyển đổi thành vàng đã bị loại bỏ và thay thế bằng "Tờ tiền này là đồng tiền hợp pháp để thanh toán cho mọi khoản nợ" (Ce billet est une monnaie légale pour toutes dettes).
 
 - Định giá lại vàng
@@ -180,7 +180,7 @@ Trước đó, trong thời kỳ Phục Hưng, đồng florin của Ý do Floren
 
 Cùng tinh thần đó, Tây Ban Nha và Hà Lan, với tư cách là những quốc gia nắm giữ đồng tiền dự trữ thế giới do thương mại quốc tế phát triển, đã duy trì tính toàn vẹn đồng tiền của họ để bảo tồn lòng tin và trạng thái hiện hành trong giao dịch quốc tế. Hà Lan thậm chí còn chứng kiến sự ra đời của ngân hàng trung ương đầu tiên, một cột mốc quan trọng trong sự phát triển của tiền tệ toàn cầu.
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 
 Tuy nhiên, tình hình thay đổi với sự trỗi dậy của Hoa Kỳ như một cường quốc thống trị về kinh tế. Họ đã chọn phá giá đồng tiền dự trữ của mình, từ đó khai thác lợi ích từ lạm phát. Quyết định này thường được cho là do động lực đã thay đổi, nơi việc lựa chọn đồng tiền dự trữ thế giới không còn tự do như trước nữa. Sự thống trị của Mỹ đã thiết lập đô la trở thành đồng tiền dự trữ thế giới, cho phép họ thao túng giá trị của nó. Sự chuyển đổi này tiết lộ tiềm năng gây ra ảnh hưởng thới thương mại quốc tế trong một nền kinh tế toàn cầu hoá của chính sách tiền tệ, đánh dấu một sự chuyển đổi đáng kể trong việc quản lý các đồng tiền dự trữ toàn cầu.
 
@@ -211,7 +211,7 @@ Kết luận, nghiên cứu về hiện tượng phá giá tiền tệ này đã
 ### Lạm phát không phải là một hiện tượng đa yếu tố
 
 Trong phần này, chúng ta sẽ khám phá các khía cạnh khác nhau của lạm phát, một hiện tượng thường bị hiểu lầm. Mặc dù lạm phát thường được nhìn nhận như một hiện tượng đa yếu tố trong truyền thông và các cuộc thảo luận hàng ngày, điều quan trọng cần nhớ là về bản chất, nó là một hiện tượng tiền tệ.
-![hình ảnh](assets/chapitre-2.2/0.webp)
+![hình ảnh](assets/fr/017.webp)
 
 Dưới đây là một bản tóm tắt về các điểm chính của chủ đề này:
 
@@ -267,7 +267,7 @@ Việc in tiền có thể được coi như thanh gươm của Damocles treo l�
 
 Ví dụ về Cộng hòa Weimar minh họa một khía cạnh quan trọng khác trong mối quan hệ giữa việc in tiền và lạm phát: vai trò của kỳ vọng và hành vi của các chủ thể kinh tế. Khi Ngân hàng trung ương Cộng hòa Weimar bắt đầu in một lượng lớn tiền, sự không chắc chắn về kinh tế đã dẫn đến việc cá nhân tích trữ, tức là, giữ tiền thay vì chi tiêu. Phản ứng này của xã hội tạm thời trì hoãn hiệu ứng lạm phát của việc in tiền.
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 Tuy nhiên, khi tình hình kinh tế bắt đầu cải thiện một chút, lòng tin dần được phục hồi. Các cá nhân sau đó rút tiền tiết kiệm của họ từ nơi ẩn náu và bắt đầu chi tiêu mạnh mẽ trong nền kinh tế. Sự thay đổi đột ngột trong hành vi, kết hợp với nguồn cung tiền đang ở mức cao sẵn, đã dẫn đến một sự bùng nổ trong nhu cầu. Với nhiều tiền hơn lưu thông và nhu cầu tăng lên, giá cả bắt đầu tăng nhanh chóng, dẫn đến lạm phát đáng chú ý.
 
@@ -287,36 +287,36 @@ Ví dụ này nhấn mạnh tầm quan trọng của thời điểm và hành vi
 
 Những ví dụ này có thể được sử dụng trong các cuộc thảo luận để giải thích tại sao lạm phát không phải lúc nào cũng là hậu quả tức thì của việc in tiền, và cách mà các bối cảnh kinh tế và hành vi của các chủ thể trong xã hội ảnh hưởng đến lạm phát.
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 Bởi vì, như [chuỗi tweet này](https://twitter.com/saifedean/status/1673639779433590786) cho thấy: Lạm phát là mọi thứ, những ngoại trừ lỗi của các ngân hàng trung ương.
 
 - Các nhà kinh tế đổ lỗi gây ra lạm phát cho biến đổi khí hậu
 
-![hình ảnh](assets/chapitre-2.2/8.webp)
+![hình ảnh](assets/fr/024.webp)
 
 - Ví dụ về việc Thụy Điển đổ lỗi cho Beyoncé về lạm phát trong một tháng cụ thể.
 
-![hình ảnh](assets/chapitre-2.2/0.webp)
+![hình ảnh](assets/fr/017.webp)
 
 - Ngân hàng trung ương ở Ba Lan kết tội cuộc xâm lược của Nga vào Ukraine và đại dịch đã gây ra lạm phát
 
-![hình ảnh](assets/chapitre-2.2/7.webp)
+![hình ảnh](assets/fr/025.webp)
 
 - Brexit bị đổ lỗi là nguyên nhân gây ra lạm phát ở Vương quốc Anh.
 
-![hình ảnh](assets/chapitre-2.2/9.webp)
+![hình ảnh](assets/fr/026.webp)
 
 - Sự kiện phát hành trò chơi Zelda được liên kết với một cú sốc lạm phát.
 
-![hình ảnh](assets/chapitre-2.2/12.webp)
+![hình ảnh](assets/fr/027.webp)
 
 - Taylor Swift bị cáo buộc là đã gây ra lạm phát.
 
-![hình ảnh](assets/chapitre-2.2/15.webp)
+![hình ảnh](assets/fr/028.webp)
 
 Hãy nói cho tôi biết, bằng cách nào, Beyoncé hoặc Taylor Swift, bạn nói cho tôi, có thể là nguyên nhân gây ra sự tăng giá trên diện rộng? Bạn thấy đấy, nó không hợp lý chút nào. Tóm lại:
 
-![hình ảnh](assets/chapitre-2.2/14.webp)
+![hình ảnh](assets/fr/029.webp)
 
 ### Tìm hiểu về phân loại lạm phát
 
@@ -328,7 +328,7 @@ Hiểu biết về sự khác biệt giữa các mức độ lạm phát là r�
 
 - Siêu lạm phát: Siêu lạm phát là một hiện tượng cực đoan khi tỷ lệ lạm phát vượt quá 50% mỗi tháng, điều này, do bản chất luỹ thừa của lạm phát, tương đương với tỷ lệ lạm phát hàng năm hơn 13,000%. Mức lạm phát này làm cho nền kinh tế cực kỳ bất ổn, tiền tệ gần như mất giá trị và gây mất lòng tin vào hệ thống tiền tệ.
 
-![hình ảnh](assets/chapitre-2.2/17.webp)
+![hình ảnh](assets/fr/030.webp)
 
 Khi khám phá các dạng lạm phát, chúng thường gặp các thuật ngữ như "Cầu kéo - Demand Pull" và "Chi phí đẩy - Cost Push" trong các quyển sách giáo khoa. Những khái niệm này, mặc dù hợp lệ, thường giải thích về sự tăng giá hơn là về lạm phát như một hiện tượng tiền tệ. Dưới đây là một phân tích sâu hơn:
 
@@ -343,7 +343,7 @@ Khi khám phá các dạng lạm phát, chúng thường gặp các thuật ng�
 
 Bernholz đề xuất một cách phân loại đơn giản nhưng chính xác về lạm phát, giúp chúng ta hiểu rõ hơn về hiện tượng có bản chất tiền tệ này. Ông chia lạm phát thành ba loại:
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 - Lạm phát vừa phải - Moderate Inflation:
   Lạm phát vừa phải xảy ra khi lượng cung tiền cao hơn bình thường, nhưng không có sự can thiệp của nhà nước thông qua việc tài trợ cho các khoản thâm hụt lớn bằng cách in tiền. Mặc dù thuật ngữ "ôn hòa" có vẻ không đáng kể lắm, dạng lạm phát này có thể gây ra những vấn đề đáng kể, mặc dù nó không được phân loại là lạm phát cao.
@@ -393,16 +393,16 @@ Ví dụ, nếu lạm phát giảm xuống 40% vào tháng Bảy và không tăn
 
 Định nghĩa này đã được áp dụng trong bảng Hanke-Krus, tài liệu ghi nhận 56 đợt siêu lạm phát. Tuy nhiên, bảng này không bao gồm tất cả các đợt, như đợt ở Venezuela vào năm 2016, nâng tổng số lên 57.
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
-![image](assets/chapitre-3.1/0.webp)
+![image](assets/fr/033.webp)
 Cần lưu ý rằng định nghĩa này, mặc dù chính xác, có thể loại trừ một số đợt siêu lạm phát do tính chặt chẽ của ngưỡng 50%. Chúng ta có thể mở rộng định nghĩa này để bao gồm các đợt khác mà, mặc dù không hoàn toàn đáp ứng tiêu chí của Cagan, vẫn đại diện cho các giai đoạn siêu lạm phát. Quan sát này mở ra cánh cửa cho việc tìm hiểu rộng rãi hơn về hiện tượng siêu lạm phát, mang lại hiểu biết tinh tế hơn về nguyên nhân và hậu quả của nó. Trong các cuộc thảo luận tiếp theo, chúng ta sẽ xem xét việc xem lại định nghĩa này và xem xét các đợt siêu lạm phát không được bao gồm bởi những tiêu chí chặt chẽ của Cagan.
 
 ### Định nghĩa về siêu lạm phát của Cagan
 
 Ngưỡng lạm phát hàng tháng 50% khi định nghĩa siêu lạm phát có thể đã được Philip Cagan đặt ra một cách tuỳ ý. Chính ông thừa nhận rằng định nghĩa này là tùy ý và chủ yếu phục vụ cho phân tích của mình dựa trên bảy đợt siêu lạm phát. Việc xem xét dữ liệu của Cagan cho thấy ba đợt siêu lạm phát với tỷ lệ lạm phát hàng tháng thấp nhất là khoảng 47%, 46%, và 57%. Có vẻ như ngưỡng 50% đã được chọn để bao gồm các trường hợp này trong nghiên cứu của ông.
 
-![image](assets/chapitre-3.1/4.webp)
+![image](assets/fr/034.webp)
 
 - Bối cảnh lịch sử:
   Định nghĩa của Cagan có từ năm 1956 và dựa trên một số lượng hạn chế các trường hợp siêu lạm phát có sẵn vào thời điểm đó.
@@ -413,7 +413,7 @@ Ngưỡng lạm phát hàng tháng 50% khi định nghĩa siêu lạm phát có 
   Các nhà kinh tế khác, như Bernholz, tác giả của "Monetary Regime and Inflation", cũng cho rằng ngưỡng 50% là tùy tiện.
   Bernholz lưu ý rằng có các trường hợp lạm phát cao với các đặc điểm giống như các trường hợp siêu lạm phát, mà không đạt ngưỡng 50%.
 
-![image](assets/chapitre-3.1/3.webp)
+![image](assets/fr/035.webp)
 
 Sự suy ngẫm này dẫn chúng ta đặt câu hỏi về tính cứng nhắc của định nghĩa truyền thống về siêu lạm phát và nêu bật nhu cầu có thể cần phải xem xét lại ngưỡng này bằng cách kết hợp thêm các trường hợp và dữ liệu lịch sử. Định nghĩa về siêu lạm phát có thể cần sự linh hoạt để bao gồm các biểu hiện khác nhau của siêu lạm phát trong các bối cảnh kinh tế và lịch sử khác nhau.
 
@@ -422,7 +422,7 @@ Sự suy ngẫm này dẫn chúng ta đặt câu hỏi về tính cứng nhắc 
 Vậy, tổng cộng có bao nhiêu đợt siêu lạm phát?
 Các định nghĩa phổ biến về siêu lạm phát, như định nghĩa được đưa ra bởi Cagan về tỷ lệ lạm phát hàng tháng là 50%, đôi khi có thể gây nhầm lẫn hoặc quá đơn giản. Ví dụ, hai quốc gia trải qua tỷ lệ lạm phát hàng năm lần lượt là 1,000% và 3,000% có thể được nhìn nhận khác nhau tùy thuộc vào sự phân bổ hàng tháng của các mức độ lạm phát. Nếu không có tháng nào vượt qua ngưỡng 50%, theo định nghĩa của Cagan, những quốc gia này sẽ không được coi là đang trong trạng thái siêu lạm phát. Cách tiếp cận này do đó có thể dẫn đến những bất thường trong việc phân loại siêu lạm phát, đặc biệt khi so sánh lạm phát tích lũy theo năm.
 
-![image](assets/chapitre-3.1/7.webp)
+![image](assets/fr/038.webp)
 
 - Công trình "Monetary Dynamics of Hyperinflation" của Cagan, mang đến một phân tích có tính nền tảng về siêu lạm phát.
 - Cuốn sách của Bernold, nghiên cứu 30 đợt siêu lạm phát riêng biệt, do đó mở rộng phạm vi phân tích.
@@ -441,11 +441,11 @@ Trong chương này, chúng ta sẽ tìm hiểu ảnh hưởng của siêu lạm
 
 Một số cuốn sách đã đặc biệt hữu ích về mặt thông tin:
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 - "Khi tiền tệ chết - When Money Dies" của Adam Ferguson, theo vết của đợt siêu lạm phát sau Chiến tranh thế giới thứ nhất ở Đức, cũng như ở Áo và Hungary.
 - - Hai cuốn sách về siêu lạm phát ở Zimbabwe, "Zimbabwe Warm Heart Ugly Face" và "Hard Boiled Egg Index" lần lượt của Jérôme Gardner và Kudzai Joseph Gou Min-Yu, cung cấp những lời chứng thực đầy xúc động từ một CEO của chuỗi cửa hàng quần áo và một nhân viên ngân hàng nông nghiệp về trải nghiệm của họ trong giai đoạn hỗn loạn này.
-    ![image](assets/chapitre-3.2/1.webp)
+    ![image](assets/fr/040.webp)
 
 Trong khi tổng hợp ghi chú của mình, tôi nhận thấy nhiều điểm tương đồng giữa trải nghiệm siêu lạm phát ở Zimbabwe và Cộng hòa Weimar, mặc dù chúng cách nhau đến 90 năm. Tôi đã xác định được khoảng 17 điểm tương đồng, trong đó, 13 điểm mô tả một loại tiến trình hướng tới thảm họa kinh tế được mô tả trong những lời chứng thực này. Những điểm tương đồng thú vị này chứng minh bản chất lặp đi lặp lại và tàn phá của siêu lạm phát vượt qua cả thời gian và biên giới. Hôm nay, chúng ta sẽ xem xét những điểm tương đồng này và cách chúng mô tả một quỹ đạo đáng lo ngại trong các đợt siêu lạm phát.
 
@@ -475,7 +475,7 @@ Tốc độ mà đồng tiền có thể bị mất giá trị trong một số 
 
 > Zimbabwe: "Ngân hàng trung ương đã lãng phí tiền bằng cách in một tờ tiền giấy không đáng giá bằng tờ giấy in. Nói cách khác, giá trị của nó thấp hơn giấy vệ sinh. Dù nghe có vẻ vô lý, nhưng việc sử dụng tờ tiền 100 nghìn tỷ ZWD để làm giấy vệ sinh còn rẻ hơn là mua giấy vệ sinh thực sự."
 
-![image](assets/chapitre-3.2/3.webp)
+![image](assets/fr/041.webp)
 
 4. Đếm tiền
 
@@ -511,7 +511,7 @@ Weimar: "Khi những đức tính cũ về tiết kiệm, trung thực và làm 
 
 Zimbabwe: "Những hoạt động này, mặc dù làm giàu cho một số cá nhân, nhưng đã làm nghèo đi tầng lớp lao động đô thị và dân số nông thôn. Giáo dục bị mất giá trị, vì hoạt động thương mại lúc này được thúc đẩy bởi những người không cần giáo dục hay làm việc chăm chỉ đó thực hiện chúng. Tất cả những gì họ cần là các mối quan hệ và vốn ban đầu để bắt đầu kinh doanh những đồng tiền dễ dàng của họ."
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
 8. Các "ngân hàng thế giới"
 
@@ -537,7 +537,7 @@ Weimar: "Các thương nhân gần đây đã bị buộc phải chấp nhận t
 
 Zimbabwe: "Chính phủ đã giới thiệu sắc lệnh 175/2008 vào ngày 12 tháng 12 năm 2008, liên quan đến việc thanh toán bằng séc. Nó nêu rõ, 'Hình phạt cho việc từ chối thanh toán bằng séc/thẻ ngân hàng hoặc bất kỳ phương thức thanh toán điện tử qua ngân hàng nào khác sẽ là một khoản phạt cấp độ 8 hoặc án tù sáu tháng hoặc cả hai.' Rõ ràng, chúng tôi đã phớt lờ sắc lệnh vì nó hoàn toàn xa rời thực tế."
 
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
 11. Bắt buộc phải giữ cửa hàng mở cửa
 
@@ -563,7 +563,7 @@ Zimbabwe: "Mỗi cư dân ở Zimbabwe đều là tội phạm. Dù nghe có v�
 
 ### Tóm tắt quá trình
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 Khi phân tích quỹ đạo của nền kinh tế, rõ ràng là khi chạm tới lạm phát cao, giá trị của đồng tiền bị ăn mòn. Sự mất giá này dẫn đến nhiều biến chứng, bao gồm cả tình trạng thiếu hụt tiền mặt. Trong bối cảnh này, cơ hội đầu cơ xuất hiện, đặc biệt là với sự biến động của tỷ giá hối đoái. Kết quả là, nhiều cá nhân chuyển hướng sang đầu cơ tỷ giá này, đầu tư mạnh vào tài sản hữu hình với hy vọng về một sự mất giá tiền tệ trong tương lai sẽ cho phép họ trả nợ bằng một đồng tiền yếu hơn. Môi trường kinh tế này làm giảm sức hấp dẫn của các công việc truyền thống và do đó, làm suy yếu sự gắn kết xã hội.
 
@@ -571,7 +571,7 @@ Khi phân tích quỹ đạo của nền kinh tế, rõ ràng là khi chạm t�
 
 ### 4 Điểm tương đồng trong hậu quả của siêu lạm phát
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
 1. Dầu và kim loại
 
@@ -604,13 +604,13 @@ Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và 
 
 Ở Đức, người dân thường quy lỗi gây ra lạm phát là do sự tăng giá của đô la chứ không phải do sự mất giá trị nội tại đồng tiền của họ. Nhiều người tin rằng hiện tượng lạm phát là do giá trị của đồng đô la tăng. Quan điểm này không nhận ra mối liên kết giữa khó khăn kinh tế của họ và sự mất giá tiền tệ, chủ yếu do việc tạo ra quá nhiều tiền. Cuốn sách "When Money Dies" minh họa rõ ràng sự thiếu hiểu biết này trong dân chúng Đức. Ngược lại, tại Zimbabwe, tình hình khác biệt: công dân hoàn toàn nhận thức được nguyên nhân nền tảng đợt siêu lạm phát mà họ đang trải qua.
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
 2. Tiền tệ khẩn cấp (Notgeld)
 
 Đối mặt với khủng hoảng tiền tệ và kinh tế, Đức đã sử dụng "Notgeld" (tiền khẩn cấp). Những tờ tiền này, được in bởi các thành phố hoặc một số công ty, được thiết kế để giải quyết tình trạng thiếu hụt đồng tiền thông thường.
 Thú vị là, Pháp cũng đã sử dụng Notgeld, đặc biệt là vào những năm 1920. Sáng kiến này không chỉ là hậu quả trực tiếp của siêu lạm phát mà còn có nguồn gốc từ những gián đoạn do Thế chiến thứ nhất gây ra. Cuộc chiến không chỉ làm mất ổn định nền kinh tế mà còn làm tăng giá của kim loại. Kết quả là, giá trị nội tại của đồng tiền kim loại thường vượt quá mệnh giá danh nghĩa, khiến mọi người tích trữ chúng. Trong tình trạng thiếu hụt đồng xu, một số tổ chức, như Phòng thương mại Lyon, đã in ra đồng tiền khẩn cấp của riêng mình.
-![image](assets/chapitre-3.3/0.webp)
+![image](assets/fr/048.webp)
 
 > "Việc gì phải làm, thì phải làm." - một câu ngạn ngữ
 
@@ -618,7 +618,7 @@ Trong số các đồng tiền khẩn cấp, một tờ tiền đặc biệt n�
 
 Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lời chỉ trích mỉa mai đối với các cơ quan chức năng chịu trách nhiệm về cuộc khủng hoảng siêu lạm phát. Tờ tiền ghi dòng chữ "Necessity knows no law". Một biểu hiện khác cụ thể cho địa phương xuất xứ của Notgeld nói: "Việc gì phải làm, thì phải làm".
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/fr/047.webp)
 
 > "necessity knows no law"
 > Đồng tiền Shitcoin đầu tiên: Theo giai thoại, nhìn vào hình minh họa trung tâm của tờ tiền, nơi giá trị của đồng tiền bị giảm sút bởi hành động của cá nhân, nó có thể được gọi là "shitcoin" đầu tiên.
@@ -633,7 +633,7 @@ Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lờ
 
 Để tìm hiểu thêm về cách quản lý cuộc khủng hoảng của Đức, bạn có thể đọc cuốn sách này.
 
-![hình ảnh](assets/chapitre-3.3/4.webp)
+![hình ảnh](assets/fr/049.webp)
 
 ### Thế giới song song hiện đại
 
@@ -676,7 +676,7 @@ Một công ty zombie là công ty mà, dưới điều kiện thị trường b
 
 Khái niệm về các công ty zombie không phải là mới. Thực tế, nó đã tồn tại trong Cộng hòa Weimar. Tại thời điểm đó, nhiều công ty dường như đang phát triển mạnh mẽ, hưởng lợi lớn từ đặc quyền tiếp cận với tín dụng miễn phí. Họ vay mượn một số tiền lớn, với triển vọng trả lại sau này bằng một đồng tiền mất giá do lạm phát. Tuy nhiên, khi lạm phát dừng lại và đồng mark Đức lấy lại giá trị, những công ty này, không có khả năng hoạt động và không khả thi về mặt tài chính, trở nên không có lợi nhuận và phải đóng cửa.
 
-![image](assets/chapitre-3.3/5.webp)
+![image](assets/fr/050.webp)
 
 Hiện tượng của các công ty zombie không chỉ giới hạn trong lịch sử hậu chiến của Đức. Ngay cả ngày nay, nhiều công ty lớn vẫn tồn tại nhờ đặc quyền được truy cập vào nguồn tín dụng với lãi suất rất thấp. Nếu phải vay với lãi suất thông thường, nhiều trong số họ sẽ không còn lợi nhuận. Điều này đặc biệt đúng vào năm 2023, và sau một thời gian dài của lãi suất gần như bằng không, giờ đây, chúng đã bắt đầu tăng. Diễn biến của bối cảnh thị trường tài chính trong thời gian này chính là bài test để xác định xem công ty nào được gọi là "zombie".
 
@@ -684,7 +684,7 @@ Hiện tượng của các công ty zombie không chỉ giới hạn trong lịc
 
 Trong lịch sử, đã có những thời điểm mà cá nhân tìm cách làm giàu nhanh chóng thông qua việc đầu cơ chênh lệch giá, như đã xảy ra ở Weimar và Zimbabwe. Ngày nay, chúng ta thấy một xu hướng tương tự với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi lợi nhuận nhanh chóng, chấp nhận rủi ro với hy vọng nhân lên nhiều lần khoản đầu tư của mình một cách nhanh chóng. Cách tiếp cận này có thể gợi nhớ lại những gì được quan sát trong các giai đoạn của siêu lạm phát, nơi đầu cơ được sử dụng để thu được lợi nhuận nhanh chóng, và đó thường là cái giá mà người khác phải trả.
 
-![image](assets/chapitre-3.3/6.webp)
+![image](assets/fr/051.webp)
 
 7. Tiết kiệm, phương thuốc chống lại sự không chắc chắn trong tương lai
 
@@ -705,7 +705,7 @@ Bây giờ, chúng ta sẽ xem xét các đợt đổi tiền khác nhau ở cá
 ### Giải thích các biểu đồ
 
 Trên biểu đò, bên trái, là các năm xảy ra việc đổi tiền mới, tên của đồng tiền mới, và tỷ giá hối đoái với đồng tiền cũ. Lấy ví dụ về Argentina, peso moneda nacional được chuyển đổi với tỷ lệ 25 đối 1 từ đồng tiền trước đó, peso real. Trong bối cảnh này, chúng ta sẽ xem xét sự phát triển của đồng tiền Argentina theo thời gian. Ngoài ra, chúng ta sẽ chỉ ra mệnh giá ban đầu và cuối cùng của các tờ tiền cho mỗi giai đoạn.
-![hình ảnh](assets/chapitre-3.4/1.webp)
+![hình ảnh](assets/fr/052.webp)
 
 Ở phía bên phải của slide, có một biểu đồ về lạm phát. Các mũi tên màu đỏ đại diện cho các năm của siêu lạm phát, được định nghĩa theo tiêu chí của Cagan là tỷ lệ lạm phát trên 50% mỗi tháng. Tiêu chí này đôi khi có thể dẫn đến những giải thích mơ hồ, với những năm có tỷ lệ siêu lạm phát nhưng không đáp ứng định nghĩa chặt chẽ này về siêu lạm phát.
 Cần lưu ý rằng, việc đổi tiền mới, trong các giai đoạn lạm phát, là một biện pháp phổ biến được các chính phủ áp dụng. Tuy nhiên, điều này không giải quyết được vấn đề căn cơ của lạm phát hoặc siêu lạm phát. Đó chỉ là cách để đổi tên đồng tiền và loại bỏ các số không, mà không thực sự giải quyết nguyên nhân gốc rễ của siêu lạm phát: sự mở rộng của nguồn cung tiền. Trong phần sau, chúng ta sẽ thảo luận về các giải pháp thực sự để giải quyết và khắc phục vấn đề siêu lạm phát. Trong loạt bài này, chúng ta sẽ nêu bật hậu quả của việc chỉ đơn giản là đổi tiền mới mà không có các cải cách thích hợp: lạm phát vẫn tiếp diễn.
@@ -713,13 +713,13 @@ Sau Argentina, nghiên cứu của chúng ta sẽ bao gồm Brazil, Bolivia, Per
 
 ### Argentina
 
-![hình ảnh](assets/chapitre-3.4/1.webp)
+![hình ảnh](assets/fr/052.webp)
 
 Trước năm 1826, Argentina sử dụng đồng đô la Tây Ban Nha. Sau khi độc lập vào năm 1816, nước này đã giới thiệu đồng tiền của riêng mình dựa trên đồng real Tây Ban Nha, dẫn đến việc tạo ra một đồng tiền tương tự. Bảng bắt đầu thống kế từ năm 1881, năm giới thiệu "peso moneda nacional" với các tờ tiền có mệnh giá lên đến 10,000. Tiếp theo là "peso ley," được chuyển đổi với tỷ lệ 100 đối 1 và có các tờ tiền có mệnh giá lên đến một triệu. Sau đó, "argentine peso" xuất hiện với tỷ lệ chuyển đổi 10,000 đối 1 (tương đương với việc loại bỏ bốn số không), và các tờ tiền lại có mệnh giá lên đến 10,000. Năm 1985, "australes" được giới thiệu và chuyển đổi với tỷ lệ 1,000 đối 1, có các tờ tiền có mệnh giá lên đến 500,000. Năm 1992, "peso ley" hiện tại được thiết lập với tỷ lệ 10,000 đối 1, một lần nữa loại bỏ bốn số không. Chỉ có các năm 1989 và 1990 là trải qua siêu lạm phát.
 
 ### Brazil
 
-![hình ảnh](assets/chapitre-3.4/2.webp)
+![hình ảnh](assets/fr/053.webp)
 
 Brazil là một trường hợp điển hình về việc đổi tiền, như được minh họa bởi lịch sử thay đổi tiền tệ của nước này. Trước khi độc lập, Brazil sử dụng đồng real Bồ Đào Nha. Tuy nhiên, ngay từ năm 1747, đất nước này bắt đầu sử dụng "Brazilian real" của riêng mình, rất lâu trước khi tuyên bố độc lập vào năm 1822. Bảng bắt đầu thống kê từ năm 1818, đánh dấu sự bắt đầu của việc phát hành tiền giấy Brazil. Trước đó, tiền tệ chủ yếu ở dạng tiền xu. Những tờ tiền giấy này có mệnh giálên đến một triệu reals.
 Bắt đầu từ năm 1942, Brazil đã bắt đầu một loạt các đợt đổi tiền. Trong hầu hết các trường hợp (1942, 1967, 1986, 1989, 1993), tỷ lệ chuyển đổi là 1.000 thành 1. Năm 1990, một đợt đổi tên nhưng không chuyển đổi tỷ giá diễn ra. Chuỗi các loại tiền tệ này như sau:
@@ -737,7 +737,7 @@ Mệnh giá cao nhất đạt 500.000 real, và lần đổi tiền cuối cùng
 
 ### Bolivia
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 Bolivia là một ví dụ khác về một quốc gia đã trải qua các đợt siêu lạm phát, bắt buộc phải đổi mới tiền tệ. Dưới đây là một bản tóm tắt về lịch sử tiền tệ của Bolivia:
 
@@ -752,7 +752,7 @@ Sau đó, Bolivia đã thay đổi đồng tièn của mình sang "Bolivian Peso
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 Peru là một trường hợp thú vị liên quan đến hiệu ứng của con số 50% tùy ý. Bắt đầu với lịch sử tiền tệ, Peru sử dụng vàng Tây Ban Nha cho đến thế kỷ 19 và tuyên bố độc lập vào năm 1821. Đồng đô la Peru được sử dụng từ năm 1822 đến 1863. Năm 1863, đồng real Peru được thay thế bằng soldi oro, với tỷ lệ 10 ăn 1, đạt mệnh giá tối đa 50,000. Năm 1985, đồng tiền "Inti" được giới thiệu với tỷ lệ chuyển đổi 1000 ăn 1, mệnh giá đạt đỉnh 5 triệu. Năm 1991, "SOL" được ra mắt với tỷ giá 1 triệu ăn 1, với các tờ tiền giấy có mệnh giá từ 10 đến 200. Xem xét các giai đoạn đổi tiền, năm 1988 được coi là một năm của siêu lạm phát, đặc biệt là vào tháng 9. Tháng 7-8 năm 1990 Peru cũng trải qua một giai đoạn siêu lạm phát. Năm 1988, tỷ lệ lạm phát hàng năm là 667%, với đỉnh điểm 50% vào tháng 9. Ngược lại, năm 1989, Peru trải qua tỷ lệ lạm phát 3000% mà không có tháng nào vượt quá ngưỡng 50%, do đó không được phân loại là siêu lạm phát. Năm 1990, lạm phát đạt đỉnh 7481%. Rõ ràng là quy tắc 50% thể hiện sự tùy ý, vì năm 1988 được coi là một năm của siêu lạm phát, trong khi năm 1989 thì không. Nếu quy tắc này được xem xét lại, có lẽ sẽ hợp lý hơn khi hạ thấp ngưỡng để bao gồm các giai đoạn như Peru đã trải qua vào năm 1989.
 
 #### Hiểu những gì đang xảy ra
@@ -761,23 +761,23 @@ Peru là một trường hợp thú vị liên quan đến hiệu ứng của co
 
 ### Nicaragua
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 Nicaragua, trước đây dưới sự cai trị của Tây Ban Nha, ban đầu sử dụng đồng đô la Tây Ban Nha, giống như nhiều quốc gia khác bị Tây Ban Nha thuộc địa hóa. Sau khi được hợp nhất vào Đế quốc Tây Ban Nha, Đế quốc Mexico, và sau đó là Cộng hòa Liên bang Trung Mỹ, Nicaragua tuyên bố độc lập. Bắt đầu từ năm 1878, peso trở thành đồng tiền chính thức của đất nước, với mệnh giá từ 1 đến 100. Năm 1912, họ giới thiệu đồng Cordoba thế hệ đầu tiên, tiếp theo là đồng Cordoba thế hệ thứ hai vào năm 1988 và đồng Cordoba thế hệ thứ ba vào năm 1991, vẫn đang được sử dụng cho đến ngày nay. Đồng Cordoba thế hệ đầu tiên có mệnh giá cao nhất đạt 1 triệu, và đồng Cordoba thế hệ thứ hai là 10 triệu. Việc tái định giá vào năm 1991 diễn ra sau nhiều năm siêu lạm phát.
 
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 Venezuela là quốc gia cuối cùng được nhắc đến trong phần này. Quốc gia này đã trải qua bốn lần đổi tiền trong thời gian qua. Trong những ngày đầu, Venezuela sử dụng đồng đô la Tây Ban Nha trước khi tuyên bố độc lập vào năm 1811. Năm 1879, họ giới thiệu bolivar là đồng tiền chính thức, và đồng tiền này vẫn được sử dụng cho đến năm 1983, khi chính phủ chọn lựa chế độ tỷ giá hối đoái thả nổi.
 
 Một sự thật đáng chú ý về Venezuela là sự tham gia của nó vào Liên minh Tiền tệ Latin. Liên minh này bao gồm các đồng tiền như 5 pesetas của Tây Ban Nha, 5 drachmas của Hy Lạp, 5 bolivars của Venezuela, 5 lire của Ý, 5 francs của Bỉ, và 5 francs của Pháp.
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 Trong giai đoạn này, đồng 5 bolivar của Venezuela có trọng lượng tương đương với các đồng tiền của các quốc gia thành viên trong Liên minh, bao gồm Ý, Tây Ban Nha, Bỉ, và Pháp. Những đồng bolivar này được làm từ bạc, với một đồng tiền từ năm 1929 nặng 25 gram và có độ tinh khiết 900, hay 90% bạc nguyên chất. Với giá bạc hiện tại, đồng tiền này có giá khoảng 17 đến 18 đô la Mỹ.
 
@@ -816,12 +816,12 @@ Một khía cạnh thú vị được Bernold nêu lên là thành công của m
 
 ### Trường hợp của Zimbabwe
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 Zimbabwe giành được độc lập vào năm 1980 và giới thiệu đồng đô la Zimbabwe. Ban đầu, đồng 2 đô la Zimbabwe có giá trị khoảng 1.60 đô la Mỹ. Tuy nhiên, vào năm 1997, sau các biện pháp xã hội ủng hộ các cựu chiến binh, đồng tiền này đã mất giá 72% trong một ngày trong sự kiện Black Friday. Sau đó, vào đầu những năm 2000, đất nước này đã triển khai chương trình phân phối lại đất đai, lấy đất từ các chủ sở hữu da trắng và trao cho người dân địa phương. Quyết định này đã phá huỷ hoạt động xuất khẩu vì những chủ mới thiếu kinh nghiệm quản lý các trang trại quy mô lớn. Kết quả, Zimbabwe từ là một quốc gia xuất khẩu ròng vào năm 1999, đã trở thành một quốc gia nhập khẩu ròng vào năm 2003.
 
 Vào năm 2006, đất nước này đã giới thiệu phiên bản mới cho đồng tiền của mình, ZWN, với tỷ giá hối đoái 1 đổi 1,000. Vào năm 2008, một đơn vị tiền tệ khác, ZWR, được giới thiệu với tỷ giá hối đoái 1 đổi 10 tỷ. Điều này dẫn đến việc tạo ra tờ tiền có mệnh giá 100 nghìn tỷ đồng.
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 #### Đô la hóa & Giải quyết Khủng hoảng
 
@@ -836,11 +836,11 @@ Vào năm 2007, tỷ lệ lạm phát của Zimbabwe đã đạt ngưỡng 50% m
 
 Trong cuốn sách của tôi có tựa đề "Tất cả về Bitcoin - Everything About Bitcoin" tôi đã dành một chương để nói về lạm phát ở Zimbabwe. Tôi chi tiết hoá các sự kiện quan trọng, cung cấp nhiều ví dụ minh họa về cách quốc gia này cuối cùng đã chấm dứt lạm phát.
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 Đối với những ai tò mò về trải nghiệm của Đức sau Thế chiến I, tôi rất khuyến khích cuốn truyện tranh "Ngân hàng của Đế chế - The Reich's Banker". Nó kể về cách Đức đã vượt qua lạm phát, đặc biệt là thông qua việc tạo ra đồng Rentenmark.
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 Thông điệp chính ở đây là có nhiều chiến lược để vượt qua siêu lạm phát. Người ta có thể chọn đô la hóa hoặc giới thiệu một đồng tiền mới. Những giải pháp này chỉ hiệu quả nếu người dân tin tưởng vào chúng. Việc áp đặt các hạn chế nghiêm ngặt là rất quan trọng. Một ngân hàng trung ương thực sự độc lập là cần thiết. Nó không được phép bơm tiền vào lưu thông để bù đắp cho thâm hụt ngân sách của chính phủ. Trong trường hợp lạm phát nhẹ, chỉ cần hạn chế sự tăng trưởng của nguồn cung tiền là đủ. Tuy nhiên, khi đối mặt với siêu lạm phát, điều quan trọng đầu tiên là phải có một nguồn cung tiền phù hợp với kích thước của nền kinh tế đang xét. Sau đó, việc áp đặt các hạn chế nghiêm ngặt đối với chính phủ để ổn định tình hình là bắt buộc.
 
@@ -860,7 +860,7 @@ Liên kết đến bộ sưu tập đã được scan có sẵn trong Bitcoin Ed
 
 Sự xuất hiện của tiền tệ lớp thứ hai và các ngân hàng trung ương đầu tiên là một chủ đề hấp dẫn. Chủ đề này được thảo luận rộng rãi trong cuốn sách "Layered Money" của Nick Battia. Tôi rất khuyến khích những ai quan tâm đến sự phát triển và phức tạp của hệ thống tiền tệ nên đọc. Mục tiêu của phần này là hiểu về nguồn gốc của việc tạo ra tiền và làm thế nào nó có thể dẫn đến siêu lạm phát.
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 ### Tiền kim tự tháp và Ngân hàng trung ương
 
@@ -868,9 +868,9 @@ Sự xuất hiện của tiền tệ lớp thứ hai và các ngân hàng trung 
 
 Lịch sử của tiền tệ bắt đầu từ thế kỷ 13 ở Ý, cụ thể là Florence. Tại thời điểm đó, đồng florin và hối phiếu được sử dụng phổ biến. Một ví dụ nổi bật là đồng florin, được trang trí với hình ảnh của Thánh John the Baptist.
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 Mặc dù, ngày nay, sở hữu một đồng florin thật là việc rất đắt đỏ, nhưng các bản sao lại có sẵn. Cũng có các loại tiền tệ khác từ thời đó, như đồng soldo từ các quốc gia Ý của thế kỷ 17, có hình ảnh của Chúa Kitô.
 
@@ -886,13 +886,13 @@ Khái niệm này, mặc dù được liên kết với Nick Bell thông qua bí
 
 #### VOC và Thị trường chứng khoán Amsterdam (thế kỷ 17)
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 Sau Sở giao dịch chứng khoán Antwerp, một cột mốc quan trọng khác là sự thành lập của VOC, Công ty Đông Ấn Hà Lan. Công ty này, có trụ sở tại Hà Lan, thậm chí đã phát hành tiền tệ riêng cho mình. Sau khi VOC được thành lập, thị trường chứng khoán đầu tiên đã được thiết lập tại Amsterdam, trở thành thị trường chứng khoán đầu tiên cho công ty này. Điều thú vị cần lưu ý là cách người Hà Lan sử dụng để chấm dứt sự thống trị của Antwerp như một trung tâm kinh tế quốc tế. Họ đơn giản là chặn quyền truy cập vào sông Scheldt. Chiến lược này là một phần của một phong trào lịch sử lớn hơn, cuộc nổi dậy của những kẻ ăn mày. Một sự kiện quan trọng trong lịch sử châu Âu.
 
 #### Sự can thiệp của Ngân hàng Amsterdam
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 
 Sau khi VOC được thành lập, một yếu tố quan trọng khác trong lịch sử tiền tệ là việc giới thiệu đồng tiền vàng bởi Ngân hàng Amsterdam. Những đồng tiền này, có từ năm 1722, được làm từ bạc. Tuy nhiên, điều thực sự cách mạng hóa ngành tài chính vào thời điểm đó không phải là chính đồng tiền, mà là các tài khoản liên quan đến đồng tiền này tại Ngân hàng Amsterdam. Những tài khoản này trở thành phương tiện chính của giao dịch quốc tế. Các giao dịch chỉ đơn giản được ghi chép trong sổ cái. Nhờ hệ thống này, Amsterdam trở thành trung tâm kinh tế toàn cầu. Theo thời gian, Ngân hàng Amsterdam quyết định áp đặt việc sử dụng những tài khoản này. Hàng ngày, các nhà đổi tiền độc lập được yêu cầu phải đổi tiền xu của họ lấy tiền gửi tại ngân hàng.
 
@@ -903,7 +903,7 @@ Ban đầu, lớp tiền tệ đầu tiên được bảo chứng bằng vàng. 
 
 #### Cơn hoảng loạn năm 1796
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 Cảnh hoảng loạn tại Ngân hàng Tiết kiệm Seamen's trong Cơn hoảng loạn năm 1857.
 
 Theo sau cơn hoảng loạn ngân hàng năm 1796, một hiện tượng xảy ra khi mọi người cố gắng di chuyển lên phía trên "kim tự tháp tiền tệ". Mọi người muốn đổi tiền tệ lớp ba của họ lấy tiền tệ lớp hai, và cuối cùng là tiền tệ lớp đầu tiên, vàng. Đối mặt với làn sóng dồn dập này, Ngân hàng trung ương Anh buộc phải hành động để ổn định tình hình. Để ngăn chặn sự giảm phát tiềm năng của dự trữ vàng, nó quyết định tạm thời ngừng chuyển đổi tiền giấy của mình thành vàng. Sự tạm ngừng này, ban đầu được dự định là một biện pháp tạm thời, sau đó nó kéo dài đến hai thập kỷ.

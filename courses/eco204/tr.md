@@ -83,7 +83,7 @@ Enflasyon, kendisiyle ilişkilendirilen çoklu tanımlar nedeniyle genellikle ya
 - Larousse'dan tanım: Enflasyon, fiyatlar düzeyinde genel ve sürekli bir artışla karakterize edilen bir olgudur. Burada "genelleştirilmiş" kelimesi çok önemlidir.
 
 
-![image](assets/chapitre-2.1/4.webp)
+![image](assets/fr/001.webp)
 
 
 Bu tanımlar ışığında, Robert'e göre enflasyonun esas olarak para miktarındaki artışla ilgili olduğunu anlamak önemlidir-1. Öte yandan Larousse, bu genişlemenin sonuçlarına, yani fiyatlardaki genel artışa odaklanmaktadır.
@@ -115,7 +115,7 @@ Geleneksel para sistemlerinde, para Supply'teki artış fiziksel olarak yeni ban
 Bir başka yöntem de gümüş ya da altın gibi metallere dayalı para birimlerindeki değerli metal miktarını azaltmaktı. Bunun çarpıcı bir örneği, başlangıçta neredeyse tamamen gümüşten oluşan denarius'un zaman içinde gümüş içeriğinin büyük ölçüde azaldığı Roma İmparatorluğu'nda görülebilir. Bu bir tür enflasyon anlamına geliyordu, ancak hiperenflasyon olması gerekmiyordu.
 
 
-![image](assets/chapitre-2.1/1.webp)
+![image](assets/fr/002.webp)
 
 
 Hiperenflasyonun esas olarak değerli metaller gibi temel varlıklarından kopuk itibari para birimlerinde gözlemlendiğini vurgulamak çok önemlidir. Tarihsel olarak, bir para birimi bu tür varlıklara dayandığında, enflasyon dönemleri olmuştur (örneğin, metal içeriğinin devalüasyonu yoluyla), ancak bu dönemler hiçbir zaman hiperenflasyonun aşırı seviyelerine ulaşmamıştır. İlerleyen bölümlerde, parasal devalüasyon dönemlerini ve bu farklı para sistemlerinin enflasyon üzerindeki etkilerini ayrıntılı olarak inceleyeceğiz.
@@ -132,7 +132,7 @@ Tarih boyunca çeşitli medeniyetler parasal devalüasyon dönemleri yaşamışt
 
 Atina ve Sparta arasındaki bir çatışma olan Peloponez Savaşı ve Roma Cumhuriyeti ile Kartaca arasındaki İkinci Pön Savaşı, arşivlerde bulunan en eski para devalüasyonu örnekleridir. Bu savaşları finanse etmek için, bu uygarlıklar gümüş içeriğini azaltarak ve diğer metalleri dahil ederek para birimlerini devalüe etmiş ve üretilen sikke sayısını arttırmışlardır.
 
-![image](assets/chapitre-2.1/8.webp)
+![image](assets/fr/003.webp)
 
 
 Atinalıların Assinaros kıyılarında katledilmesini tasvir eden gravür.
@@ -147,7 +147,7 @@ Roma Cumhuriyeti döneminden sonra, İmparatorluk döneminde, 3. ve 4. yüzyıll
 Bu dönemlerde önemli ölçüde enflasyon yaşanmış olsa da, bazı modern durumlarda gözlemleyebileceğimiz hiperenflasyon seviyelerine ulaşmamışlardır. Bunun nedeni, para birimi devalüe edilmiş olsa da, hala değerli metallere dayanıyor olmasıdır. Bu sağlam temel, aşırı enflasyon seviyelerine karşı bir miktar koruma sağlamıştır. İlerleyen bölümlerde hiperenflasyonun doğasını ve sonuçlarını daha ayrıntılı olarak inceleyeceğiz.
 
 
-![image](assets/chapitre-2.1/2.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -164,7 +164,7 @@ Parasal devalüasyonla birlikte yeni bir para birimi olan Antoninianus ortaya ç
 İki sikke yan yana karşılaştırıldığında aradaki fark çarpıcıdır. MS 160 yılına ait denarius belirgin bir gümüş görünümüne sahipken, MS 3. yüzyılın sonlarına ait Antoninianus çok daha mattır ve gümüş içeriğinde önemli bir düşüş olduğunu gösterir. Bu görsel karşılaştırma, antik Roma'nın birkaç yüzyıl boyunca geçirdiği parasal devalüasyonun açık bir örneğini sunmaktadır.
 
 
-![image](assets/chapitre-2.1/3.webp)
+![image](assets/fr/005.webp)
 
 
 Bu gösterimi tamamlamak için, bu sikkelerin zaman içindeki değer kaybını gösteren bir grafik ideal olacaktır. Bu platformda görselleştirmek zor olsa da, denarius'un değerini, ardından 2. yüzyılın sonlarına doğru düşüşünü ve yerini iki denarii değerinde olduğu varsayılan ancak çok daha düşük gümüş içeriğine sahip Antoninianus'a bıraktığını gösteren bir grafik hayal edin. Bu eserler, geçmiş uygarlıkların ekonomik dalgalanmalarının sessiz tanıklarıdır.
@@ -173,7 +173,7 @@ Bu gösterimi tamamlamak için, bu sikkelerin zaman içindeki değer kaybını g
 #### 3. İspanyol Maravedi: Hedeflenen Devalüasyonun Tanığı
 
 
-![image](assets/chapitre-2.1/5.webp)
+![image](assets/fr/006.webp)
 
 
 Bakır para birimi olarak Maravedi, İspanyol para birimi tarihinde özel bir yere sahiptir. Daha önce de belirtildiği gibi, İspanyol doları başlangıçta uluslararası standarttı ve İspanya için önemli bir rezerv para birimiydi. Ancak bazı ekonomik zorluklarla karşılaşan İspanya, akıllıca parasal stratejilere başvurmak zorunda kaldı.
@@ -193,7 +193,7 @@ Bu strateji devletin bir para birimini etkin bir şekilde devalüe etmesine, enf
 Maravedis vakası, bir devletin kendi iç ekonomik ihtiyaçlarını karşılamak için yerel bir para birimini seçici bir şekilde devalüe ederken, küresel sahnede bir rezerv para biriminin değerini nasıl koruyabileceğini göstermektedir. Bu, tarihteki para politikasının karmaşıklığı ve inceliğine dair çarpıcı bir örnektir.
 
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 
 Ne hakkında daha fazla bilgi? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
@@ -211,7 +211,7 @@ Ne hakkında daha fazla bilgi? -> [Link](https://docs.google.com/document/d/1aZa
 18. yüzyılda Fransız ekonomi tarihine para birimiyle ilgili iki önemli olay damgasını vurmuştur. İlk olarak, İskoç bir ekonomist ve finansçı olan John Law, Fransız hükümetini kağıt paraya dayalı bir para sistemini benimsemeye ikna etti. Başlangıçta ülkenin mali sorunlarına yenilikçi bir çözüm olarak görülse de, bu girişim hızla yaygın bir enflasyona yol açtı. Kısa bir süre sonra, Fransız Devrimi'nin kargaşası sırasında hükümet "assignat "ları tanıttı.
 
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 
 1793'ten Assignats
@@ -233,7 +233,7 @@ Amerika Birleşik Devletleri'nde 1930'ların başı para politikasında büyük 
 - 1928 20 Dolarlık Banknot
 
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 
 1928 yılında Amerika Birleşik Devletleri'nde 20 dolarlık bir banknotta şöyle yazıyordu: "Talep edildiğinde altın olarak itfa edilebilir." Bu, her bir banknotun tam anlamıyla altına dönüştürülebilir olduğu anlamına geliyordu. Özellikle, 20.67 dolarlık bir banknot bir ons altına eşdeğerdi.
@@ -246,13 +246,13 @@ Amerika Birleşik Devletleri'nde 1930'ların başı para politikasında büyük 
 1933 yılında, 6102 sayılı İcra Emri'nin çıkarılmasıyla büyük bir karışıklık meydana geldi. Bu kararname, vatandaşların külçe, sikke veya sertifika şeklinde altın bulundurmasını yasadışı hale getirdi.
 
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 
 Altın Sertifika buna iyi bir örnektir. Üzerinde şöyle yazıyordu: "Coin altın olarak, talep üzerine hamiline ödenebilir." Böyle bir sertifikaya sahip olmak yasadışı hale geldi ve 1964 yılına kadar da öyle kaldı.
 
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -262,7 +262,7 @@ Altın Sertifika buna iyi bir örnektir. Üzerinde şöyle yazıyordu: "Coin alt
 1934'te altına el konulmasının ardından yeni bir banknot serisi tedavüle çıkarıldı.
 
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 
 Altına çevrilebilirliklerini belirten ifade kaldırılmış ve yerine "Bu senet tüm borçlar için yasal ödeme aracıdır" (Ce billet est une monnaie légale pour toutes dettes) ifadesi eklenmiştir.
 
@@ -289,7 +289,7 @@ Daha önce, Rönesans döneminde, 13. yüzyılda Floransa tarafından çıkarıl
 Aynı ruhla, gelişen uluslararası ticaretleri nedeniyle dünya rezerv para biriminin sahipleri olan İspanya ve Hollanda, uluslararası mübadelelerde güveni ve statükoyu korumak için para birimlerinin bütünlüğünü korudular. Hatta Hollanda, küresel parasal evrimde önemli bir kilometre taşı olan ilk merkez bankasının kuruluşuna tanıklık etmiştir.
 
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 
 
 Ancak, Amerika Birleşik Devletleri'nin baskın ekonomik güç olarak yükselmesiyle durum değişti. Rezerv para birimlerinin değerini düşürmeyi seçtiler ve böylece enflasyonu kendi avantajlarına kullandılar. Bu karar genellikle rezerv para seçiminin artık eskisi kadar serbest olmadığı değişen dinamiklere bağlanır. Amerikan hegemonyası doları dünya rezerv para birimi olarak belirlemiş ve değerinin manipüle edilmesine izin vermiştir. Bu değişim, küreselleşmiş bir ekonomide para politikalarının uluslararası ticaret üzerindeki potansiyel etkisini ortaya koymakta ve küresel rezerv para birimlerinin yönetiminde önemli bir geçişe işaret etmektedir.
@@ -300,13 +300,13 @@ Ancak, Amerika Birleşik Devletleri'nin baskın ekonomik güç olarak yükselmes
 
 İsviçre Dinarı, parasal devalüasyonun bir başka büyüleyici yönünü, bu kez Körfez Savaşı öncesi Irak bağlamında göstermektedir. Adını banknotlarının dikkat çekici kalitesinden alan bu para birimi Irak Merkez Bankası tarafından çıkarılmış ve Orta Doğu bölgesinde istikrar konusunda bir üne sahip olmuştur. Bu güven esas olarak İngiltere'de yapılan ve devalüasyona karşı belirli bir sağlamlık ima eden banknot baskısının kalitesinden kaynaklanıyordu.
 
-![image](assets/chapitre-2.1/16.webp)
+![image](assets/fr/014.webp)
 
 
 Ancak Körfez Savaşları İsviçre Dinarı'nın tarihinde bir dönüm noktası oldu. Banknot basımı için artık İngiliz tedarikçisine güvenemeyen Irak, Çin'e yöneldi. Bu geçiş banknotların kalitesinde belirgin bir farka yol açtı ve Çin versiyonu daha düşük olarak algılandı. Bu algı temelsiz değildi; Çin banknotları daha kolay taklit edilebiliyordu ve hükümet tarafından aşırı baskıya açıktı, dolayısıyla değerlerini tehdit ediyordu.
 
 
-![image](assets/chapitre-2.1/17.webp)
+![image](assets/fr/015.webp)
 
 
 Körfez Savaşı sonrası Irak ekonomisinde kendine özgü bir olgu ortaya çıktı: ikili fiyatlandırma sistemi. Tüccarlar ödeme için kullanılan banknotun türüne göre farklı fiyatlar sunuyor, orijinal İsviçre Dinarı'nı Çin banknotuna tercih ediyorlardı. Bu sistem, değerin esas olarak devlet tarafından empoze edildiği bir bağlamda bile, devalüasyona daha az eğilimli olan daha yüksek kaliteli banknotlara duyulan güveni yansıtıyordu. Bu olay, para biriminin içsel özelliklerinin önemini ve itibari para rejiminde bile bir para biriminin algılanan kalitesinin göreceli değerini ve dolayısıyla ekonomik aktörlerin güvenini nasıl etkileyebileceğini göstermektedir.
@@ -318,7 +318,7 @@ Körfez Savaşı sonrası Irak ekonomisinde kendine özgü bir olgu ortaya çık
 Yaygın algı genellikle para birimini, basımının ve değerinin devlet tarafından düzenlendiği devlet yaratımı ile ilişkilendirir. Bu kavramın kökleri, madeni paraların İmparatorluk tarafından standartlaştırıldığı ve damgalandığı, böylece para birimlerine resmi değer kazandırıldığı Roma gibi eski uygarlıklara dayanmaktadır. Ancak daha derin bir araştırma, para biriminin içsel değerinin esas olarak değerli metal içeriğinden kaynaklandığını ortaya koymaktadır.
 
 
-![image](assets/chapitre-2.1/18.webp)
+![image](assets/fr/016.webp)
 
 Bir örnek, sekiz İspanyol realine veya bir İspanyol dolarına eşdeğer bir parasal ağırlığın incelenmesiyle gösterilmiştir. Değerini belirten bir Roma rakamıyla işaretlenmiş olan bu ağırlık, para bozduranlar tarafından sikkelerin değerini sadece damgalarına göre değil ağırlıklarına göre değerlendirmek için kullanılıyordu. Kambiyo memurları sikkeleri tartarak, değerlerini düşürebilecek şekilde değiştirilip değiştirilmediklerini veya hasar görüp görmediklerini belirleyebiliyorlardı. Bu uygulama, devlet tarafından standartlaştırılmış damganın paraya belirli bir nominal değer kazandırmasına rağmen, gerçek değerin içerdiği değerli metalin ağırlığında yattığını vurgulamaktadır.
 
@@ -344,7 +344,7 @@ Sonuç olarak, parasal devalüasyon üzerine yapılan bu çalışma, ilerleyen v
 Bu bölümde, sıklıkla yanlış anlaşılan bir olgu olan enflasyonun farklı boyutlarını inceleyeceğiz. Enflasyon medyada ve günlük tartışmalarda sıklıkla çok faktörlü bir olgu olarak algılansa da, temelde parasal bir olgu olduğunu unutmamak çok önemlidir.
 
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 
 İşte konunun birkaç kilit noktaya ayrılmış bir dökümü:
@@ -407,7 +407,7 @@ Enflasyon, genellikle para arzındaki artışla ilişkilendirilse de, 2008 finan
 Buna ek olarak, TÜFE'nin hesaplanması gerçek fiyat artışlarını dengeleyebilecek veya maskeleyebilecek bazı metodolojiler içermektedir. Örneğin, ürünlerdeki niteliksel iyileştirmeler endeksi ayarlamak için kullanılabilir. Bir ürünün fiyatı artar ancak kalitesi veya özellikleri de iyileşirse, TÜFE tüketici için gerçek değerin değişmediğini ve dolayısıyla enflasyonu yansıtmadığını düşünebilir. Parasal enjeksiyon nedeniyle sığır eti ve bilgisayar fiyatlarındaki artışa rağmen bilgisayar performansındaki iyileşmenin bu artışı dengelemek için kullanıldığı bir durum örnek olarak verilebilir. Eğer bir bilgisayar iki kat daha pahalı ama dört kat daha güçlü ise, TÜFE bunu fiyatlarda bir düşüş olarak yorumlayabilir ve böylece sığır eti fiyatlarındaki artışı maskeleyebilir.
 
 
-![image](assets/chapitre-2.2/2.webp)
+![image](assets/fr/019.webp)
 
 
 Enflasyonun TÜFE ile ölçülmesindeki bu nüanslar, parasal baskı ile enflasyon arasındaki ilişkinin karmaşıklığını vurgulamaktadır. Ayrıca, özellikle gayrimenkul gibi kilit sektörlerdeki tüm fiyat artışlarının daha kapsamlı bir şekilde dikkate alınması halinde gerçek enflasyonun rapor edilenden daha yüksek olabileceğine işaret etmektedir. Bu analiz, para politikalarının ekonomik etkilerini daha iyi anlayabilmek için enflasyonun altında yatan mekanizmaları ve enflasyonu ölçmek için kullanılan geleneksel endekslerin kısıtlarını anlamanın önemini vurgulamaktadır.
@@ -419,7 +419,7 @@ Enflasyonun TÜFE ile ölçülmesindeki bu nüanslar, parasal baskı ile enflasy
 Modern Para Teorisi (MMT) para yaratma ve enflasyon konusunda farklı bir bakış açısı sunmaktadır. MMT'ye göre para öncelikle hükümetten kaynaklanır ve hükümet, bu fonların hedeflediği sektörler doygunluğa ulaşmadığı sürece enflasyona yol açmadan ihtiyaçlarını finanse etmek için önemli miktarlarda para basabilir. Bu, geleneksel para teorilerinden ayrılan ve sektörel hazmetme kapasitelerinin enflasyonist dinamiklerdeki önemini vurgulayan bir yaklaşımdır.
 
 
-![image](assets/chapitre-2.2/4.webp)
+![image](assets/fr/020.webp)
 
 
 MMT'nin açıklayıcı bir örneği Amerikan askeri-endüstriyel kompleksidir. MMT'ye göre, emme kapasitesi sayesinde bu sektöre enflasyona neden olmadan yüz milyarlarca dolar tahsis edilebilir. Buna karşılık, sınırlı sayıda şirket ve işgücünün bulunduğu ABD'de yol yapımına büyük miktarda fon aktarılması halinde, kaynak kıtlığı ve tedarikçilerin talep ettiği artan maliyetler nedeniyle enflasyon ortaya çıkabilir.
@@ -436,7 +436,7 @@ Japonya'ya ilişkin analiz (https://ideas.repec.org/p/ces/ceswps/_9821.html), T�
 Para basmanın neden enflasyona yol açmayacağına dair üçüncü bir örnek de para basma ile enflasyon arasındaki ilişkinin yeni yaratılan paranın ekonomiye nasıl girdiğine bağlı olmasıdır. Eğer bu para ekonomik aktörlere borç verilmeden özel bankaların bilançolarında kalırsa, reel ekonomiyi doğrudan etkilemeyecek ve dolayısıyla enflasyona yol açmayacaktır.
 
 
-![image](assets/chapitre-2.2/5.webp)
+![image](assets/fr/021.webp)
 
 
 Parasal baskı, ekonominin üzerinde sallanan Demokles'in kılıcı olarak görülebilir. Yaratılan para, banka kredileri veya diğer mekanizmalar yoluyla ekonomiye enjekte edilmediği sürece, görünür bir enflasyonist etki olmaksızın belirli bir süre boyunca gizli kalabilir. Ancak, bu gizli para nihayet dolaşıma sokulduğunda, enflasyonist etkiler ortaya çıkabilir. Daha önce yaratılmış olan paranın ekonomiye girerek enflasyona yol açtığı 2020'lerde gözlemlenen budur.
@@ -450,7 +450,7 @@ Bu senaryo, para basmanın enflasyonist etkisini belirlemede parasal aktarım me
 Weimar Cumhuriyeti örneği, para basımı ve enflasyon arasındaki ilişkinin bir başka önemli yönünü göstermektedir: beklentilerin ve ekonomik aktörlerin davranışlarının rolü. Weimar Cumhuriyeti Merkez Bankası büyük miktarda para basmaya başladığında, ekonomik belirsizlik bireylerin parayı harcamak yerine istiflemelerine, yani depolamalarına yol açmıştır. Bu tepki para basımının enflasyonist etkilerini geçici olarak geciktirmiştir.
 
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 
 Ancak, ekonomik durum biraz iyileşmeye başladığında, güven yavaş yavaş yeniden tesis edildi. Bunun üzerine bireyler tasarruflarını sakladıkları yerlerden çekerek ekonomide kitlesel harcamalar yapmaya başladılar. Davranışlardaki bu ani değişim, zaten yüksek olan para miktarı ile birleşince talepte bir patlamaya yol açtı. Dolaşımdaki daha fazla para ve artan taleple birlikte fiyatlar hızla yükselmeye başladı ve gözle görülür bir enflasyona yol açtı.
@@ -483,7 +483,7 @@ Bu örnek, enflasyonun ortaya çıkmasında zamanlamanın ve aracı davranışı
 Bu örnekler, enflasyonun neden her zaman para basmanın doğrudan bir sonucu olmadığını ve ekonomik bağlamların ve ajan davranışlarının enflasyonu nasıl etkilediğini açıklamak için tartışmalarda kullanılabilir.
 
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 
 
 Çünkü bu [thread](https://twitter.com/saifedean/status/1673639779433590786)'in gösterdiği gibi: Enflasyon, merkez bankalarının suçu dışında her şeydir.
@@ -493,48 +493,48 @@ Bu örnekler, enflasyonun neden her zaman para basmanın doğrudan bir sonucu ol
 - Ekonomistler enflasyonu iklim değişikliğine bağlıyor
 
 
-![image](assets/chapitre-2.2/8.webp)
+![image](assets/fr/024.webp)
 
 
 
 - İsveç'in belirli bir aydaki enflasyon için Beyoncé'yi suçlaması örneği.
 
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 
 
 - Polonya Merkez Bankası enflasyonu Rusya'nın Ukrayna'daki saldırganlığına ve pandemiye bağlıyor
 
 
-![image](assets/chapitre-2.2/7.webp)
+![image](assets/fr/025.webp)
 
 
 
 - Birleşik Krallık'ta enflasyondan Brexit sorumlu tutuluyor.
 
 
-![image](assets/chapitre-2.2/9.webp)
+![image](assets/fr/026.webp)
 
 
 
 - Zelda oyununun piyasaya sürülmesi enflasyonist bir şokla ilişkilendirilmiştir.
 
 
-![image](assets/chapitre-2.2/12.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Taylor Swift'in enflasyona neden olduğu iddia ediliyor.
 
 
-![image](assets/chapitre-2.2/15.webp)
+![image](assets/fr/028.webp)
 
 
 Beyoncé ya da Taylor Swift, söyleyin bana, fiyatlardaki yaygın artışı nasıl açıklayabilir? Gördüğünüz gibi, hiç mantıklı değil. Kısacası:
 
 
-![image](assets/chapitre-2.2/14.webp)
+![image](assets/fr/029.webp)
 
 
 ### Enflasyon Türlerinin Keşfi
@@ -553,7 +553,7 @@ Farklı enflasyon türleri arasındaki ayrımı anlamak çok önemlidir; bu anla
 - Hiperenflasyon: Hiperenflasyon, enflasyon oranının aylık %50'yi aştığı aşırı bir olgudur; bu da enflasyonun üstel doğası nedeniyle yıllık %13.000'in üzerinde bir enflasyon oranına eşdeğerdir. Bu düzeydeki bir enflasyon ekonomiyi ciddi şekilde istikrarsızlaştırır, para birimini neredeyse değersiz hale getirir ve parasal sisteme olan güvenin kaybolmasına neden olur.
 
 
-![image](assets/chapitre-2.2/17.webp)
+![image](assets/fr/030.webp)
 
 
 Enflasyon türlerini araştırırken, eğitim kaynaklarında "Talep Çekişi" ve "Maliyet İtişi" gibi terimlerle karşılaşmak yaygındır. Bu kavramlar geçerli olmakla birlikte, parasal bir olgu olarak enflasyondan ziyade fiyat artışlarını açıklama eğilimindedir. İşte daha derinlemesine bir analiz:
@@ -579,7 +579,7 @@ Bu geleneksel açıklamalar genellikle fiyat artışlarını enflasyonla ilişki
 Bernholz, bu karmaşık parasal olgunun daha iyi anlaşılmasına olanak tanıyan basitleştirilmiş ancak kesin bir enflasyon sınıflandırmasını üç kategoride önermektedir:
 
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -664,13 +664,13 @@ Bu bölümde, aşırı parasal olguların incelenmesinde önemli bir terim olan 
 Bu tanım, 56 hiperenflasyon dönemini belgeleyen Hanke-Krus tablosunda benimsenmiştir. Ancak tablo 2016'da Venezuela'da yaşanan ve toplamda 57'ye ulaşan olay gibi tüm olayları kapsamamaktadır.
 
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
 
 yakınlaştırma
 
 
-![image](assets/chapitre-3.1/0.webp)
+![image](assets/fr/033.webp)
 
 Bu tanımın, kesin olmasına rağmen, %50 eşiğinin katılığı nedeniyle bazı hiperenflasyon dönemlerini dışarıda bırakabileceği unutulmamalıdır. Bu tanımı, Cagan'ın kriterlerini tam olarak karşılamasa da yine de aşırı yüksek enflasyon dönemlerini temsil eden diğer dönemleri de içerecek şekilde genişletme olasılığı vardır. Bu gözlem, hiperenflasyon olgusunun daha geniş bir şekilde incelenmesine kapı açmakta ve nedenleri ile etkilerinin daha incelikli bir şekilde anlaşılmasına olanak sağlamaktadır. Sonraki tartışmalarda, bu tanımı yeniden gözden geçirmeyi ve Cagan'ın katı kriterleri kapsamına girmeyen hiperenflasyon dönemlerini incelemeyi düşüneceğiz.
 
@@ -681,7 +681,7 @@ Bu tanımın, kesin olmasına rağmen, %50 eşiğinin katılığı nedeniyle baz
 Philip Cagan hiperenflasyonu tanımlarken aylık %50 enflasyon eşiği ile keyfi bir dönüm noktası belirlemiş olabilir. Kendisi de bu tanımın keyfi olduğunu kabul etmekte ve analizini öncelikle yedi hiperenflasyon dönemine dayandırmaktadır. Cagan'ın verileri incelendiğinde, en düşük aylık enflasyon oranlarına sahip üç hiperenflasyon döneminin %47, %46 ve %57 civarında olduğu görülmektedir. Cagan'ın çalışmasında %50 eşiğinin bu vakaları kapsayacak şekilde seçildiği anlaşılmaktadır.
 
 
-![image](assets/chapitre-3.1/4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -704,7 +704,7 @@ Monetary Regime and Inflation kitabının yazarı Bernholz gibi diğer ekonomist
 Bernholz, %50 eşiğine ulaşmadan hiperenflasyon dönemleriyle aynı niteliksel özelliklere sahip yüksek enflasyon dönemleri olduğunu belirtmektedir.
 
 
-![image](assets/chapitre-3.1/3.webp)
+![image](assets/fr/035.webp)
 
 
 Bu düşünce bizi geleneksel hiperenflasyon tanımının katılığını sorgulamaya itmekte ve belki de daha fazla dönem ve tarihsel veriyi dahil ederek bu eşiği yeniden gözden geçirme ihtiyacını vurgulamaktadır. Hiperenflasyon tanımı, farklı ekonomik ve tarihsel bağlamlarda aşırı enflasyonun çeşitli tezahürlerini kapsayacak şekilde esneklik gerektirebilir.
@@ -718,7 +718,7 @@ Peki, toplamda kaç tane hiperenflasyon vakası var?
 Kagan tarafından öne sürülen ve aylık enflasyon oranını %50 olarak ifade eden tanım gibi yaygın hiperenflasyon tanımları bazen kafa karıştırıcı veya aşırı basitleştirilmiş olabilir. Örneğin, yıllık enflasyon oranları %1,000 ve %3,000 olan iki ülke, bu enflasyonun aylık dağılımına bağlı olarak farklı algılanabilir. Kagan'ın tanımına göre hiçbir ay %50 eşiğini aşmıyorsa, bu ülkeler hiperenflasyon durumunda olmayacaktır. Dolayısıyla bu yaklaşım, özellikle yıl içindeki kümülatif enflasyonları karşılaştırırken hiperenflasyon sınıflandırmasında anormalliklere yol açabilir.
 
 
-![image](assets/chapitre-3.1/7.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -746,14 +746,14 @@ Bu bölümde, Zimbabwe ve Weimar Cumhuriyeti örneklerine odaklanarak hiperenfla
 Birkaç kitap özellikle bilgilendirici olmuştur:
 
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 
 
 - adam Ferguson'un "Para Öldüğünde" adlı kitabı, Birinci Dünya Savaşı sonrasında Almanya'nın yanı sıra Avusturya ve Macaristan'da yaşanan hiperenflasyonun izini sürüyor.
 - Zimbabve'deki hiperenflasyon üzerine Jérôme Gardner ve Kudzai Joseph Gou Min-Yu tarafından yazılan "Zimbabve Sıcak Kalp Çirkin Yüz" ve "Hard Haşlanmış Yumurta Endeksi" adlı iki kitap, bir giyim mağazası zincirinin CEO'su ve bir ziraat bankacısının bu çalkantılı dönemde yaşadıklarına dair dokunaklı tanıklıklar sunuyor.
 
-![image](assets/chapitre-3.2/1.webp)
+![image](assets/fr/040.webp)
 
 
 Notlarımı birleştirirken, aralarındaki 90 yıllık farka rağmen Zimbabwe ve Weimar Cumhuriyeti'ndeki hiperenflasyon deneyimleri arasında çok sayıda benzerlik olduğunu fark ettim. Yaklaşık 17 benzerlik tespit ettim ve bunlardan 13'ü bu tanıklıklarda tasvir edilen ekonomik felakete doğru bir tür ilerlemeyi gösteriyor. Bu büyüleyici paralellikler, hiperenflasyonun zaman ve sınırlar ötesinde tekrarlayan ve yıkıcı doğasını göstermektedir. Bugün bu benzerlikleri ve hiperenflasyon dönemlerinde nasıl endişe verici bir yörünge çizdiklerini inceleyeceğiz.
@@ -793,7 +793,7 @@ Belirli ekonomik koşullarda, bir banknotun gerçek değeri, üzerine basıldı�
 
 > Zimbabve: "Merkez bankası, üzerine basıldığı kâğıda değmeyen bir banknot basarak parayı boşa harcadı. Başka bir deyişle, değeri tuvalet kağıdından daha düşüktü. Kulağa ne kadar saçma gelse de, 100 trilyon ZWD'lik banknotu tuvalet kağıdı olarak kullanmak, gerçek tuvalet kağıdı almaktan daha ucuzdu."
 
-![image](assets/chapitre-3.2/3.webp)
+![image](assets/fr/041.webp)
 
 
 4. Para Sayma
@@ -842,7 +842,7 @@ Weimar: "Tutumluluk, dürüstlük ve Hard çalışması gibi eski erdemler cazib
 Zimbabve: "Bu uygulamalar birkaç kişiyi zenginleştirirken, kentli işçi sınıfını ve kırsal nüfusu yoksullaştırdı. Eğitim değerini yitirdi, çünkü bu ticaret, bunu haklı çıkarmak için eğitime ya da Hard çalışmasına ihtiyaç duymayan insanlar tarafından yürütülüyordu. İhtiyaç duydukları tek şey kolay para işlerine başlamak için bağlantılar ve başlangıç sermayesiydi."
 
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
 
 8. "Dünya Bankaları"
@@ -880,7 +880,7 @@ Weimar: "Tüccarlar kısa süre önce yeni bir kararnameyle devlet banknotların
 Zimbabve: "Hükümet 12 Aralık 2008 tarihinde çekle ödemeye ilişkin SI 175/2008 sayılı yasayı yürürlüğe koymuştur. Buna göre, 'Çek/banka kartı veya banka aracılı diğer elektronik ödeme yöntemleriyle ödeme yapmayı reddetmenin cezası 8. seviye para cezası veya altı ay hapis cezası ya da her ikisidir' Açıkçası, SI'yı görmezden geldik çünkü gerçeklikle tamamen bağlantısızdı."
 
 
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
 
 11. Dükkanlarını açık tutmaya zorlandılar
@@ -916,7 +916,7 @@ Yabancı para birimlerinin çılgınca satın alınması, genellikle para birimi
 ### Sürecin özeti
 
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 
 Ekonomik gidişat analiz edildiğinde, yüksek enflasyona ulaşıldığında parasal kütlenin değerinin düştüğü görülmektedir. Bu devalüasyon, banknot sıkıntısı da dahil olmak üzere çeşitli komplikasyonlara yol açmaktadır. Bu bağlamda, özellikle Exchange kur dalgalanmalarıyla birlikte arbitraj fırsatları ortaya çıkmaktadır. Sonuç olarak, birçok kişi bu arbitraja yönelir ve gelecekteki devalüasyon beklentisiyle maddi varlıklara büyük yatırımlar yaparak borçlarını zayıflamış bir para birimiyle geri ödeyebilir. Bu ekonomik ortam geleneksel işlerin cazibesini zayıflatmakta ve sonuç olarak sosyal uyumu aşındırmaktadır.
@@ -928,7 +928,7 @@ Bu duruma karşılık olarak hükümet, sermaye kontrolleri de dahil olmak üzer
 ### 4 Hiperenflasyonun sonuçlarındaki benzerlikler
 
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
 
 1. Petrol ve metaller
@@ -974,7 +974,7 @@ Bu bölümde, geçmişteki ve günümüzdeki hiperenflasyon dönemleri arasında
 Almanya'da halkın enflasyonu, kendi para birimlerinin içsel değer kaybından ziyade doların yükselişine bağlaması yaygındı. Pek çok kişi gözlemlenen olgunun doların değer kazanmasından kaynaklandığına inanıyordu. Bu algı, yaşadıkları ekonomik zorluklar ile esasen aşırı para yaratımının neden olduğu parasal devalüasyon arasındaki bağlantının fark edilmesini engelledi. "Para Öldüğünde" adlı kitap, Alman halkı arasındaki bu anlayış eksikliğini açıkça göstermektedir. Buna karşılık Zimbabve'de durum farklıydı: vatandaşlar yaşadıkları hiperenflasyonun altında yatan nedenin tamamen farkındaydı.
 
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
 
 2. İhtiyaç para birimi (Notgeld)
@@ -984,7 +984,7 @@ Parasal ve ekonomik krizle karşı karşıya kalan Almanya "Notgeld "e (acil dur
 
 İlginçtir ki Fransa da özellikle 1920'lerde Notgeld'e başvurmuştur. Bu girişim sadece hiperenflasyonun doğrudan bir sonucu değildi, aynı zamanda kökleri I. Dünya Savaşı'nın neden olduğu aksaklıklara dayanıyordu. Savaş sadece ekonomiyi istikrarsızlaştırmakla kalmadı, aynı zamanda metallerin maliyetini de arttırdı. Sonuç olarak, metal sikkelerin gerçek değeri çoğu zaman nominal değerlerini aştı ve insanları bunları istiflemeye teşvik etti. Madeni para yokluğunda, Lyon Ticaret Odası gibi bazı kurumlar kendi Notgeld'lerini bastı.
 
-![image](assets/chapitre-3.3/0.webp)
+![image](assets/fr/048.webp)
 
 
 > "Yapılması gereken, yapılmalıdır." - yerel bir deyiş
@@ -995,7 +995,7 @@ Notgeldler arasında belirli bir banknot öne çıkmaktadır. Dokunaklı bir ill
 Bu Notgeld'in arkasındaki sanatçı, hiperenflasyon krizinden sorumlu yetkililere ironik bir eleştiri getiriyor gibi görünüyor. Banknotun üzerinde "Zorunluluk kanun tanımaz" yazıyor. Notgeld'in menşei olan bölgeye özgü bir başka ifade de şu şekildedir: "Yapılması gereken, yapılmalıdır".
 
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/fr/047.webp)
 
 
 > "zorunluluk kanun tanimaz"
@@ -1015,7 +1015,7 @@ Weimar'da, enflasyonun etkisini telafi etmek için bazı borçlar yeniden değer
 Almanya krizinin yönetimi hakkında daha fazla bilgi edinmek için bu kitap da çok önemli.
 
 
-![image](assets/chapitre-3.3/4.webp)
+![image](assets/fr/049.webp)
 
 
 ### Çağdaş Paralellikler
@@ -1056,7 +1056,7 @@ Weimar Cumhuriyeti'nin tarihi, bu dönemde yurtdışında tutulan varlıklara ve
 Zombi şirketler kavramı yeni değildir. Aslında Weimar Cumhuriyeti'nde de mevcuttu. O dönemde birçok şirket, serbest krediye erişimden büyük ölçüde faydalanarak gelişiyor gibi görünüyordu. Yüksek enflasyon nedeniyle değer kaybetmiş bir para birimiyle daha sonra geri ödeme umuduyla önemli miktarlarda borç aldılar. Ancak enflasyon durduğunda ve Alman Markı yeniden değer kazandığında, operasyonel ve finansal açıdan gerçek anlamda yaşayabilir olmayan bu şirketler kârsız hale geldi ve kapılarını kapatmak zorunda kaldı.
 
 
-![image](assets/chapitre-3.3/5.webp)
+![image](assets/fr/050.webp)
 
 
 Zombi şirketler olgusu Almanya'nın savaş sonrası tarihiyle sınırlı değil. Bugün bile pek çok büyük şirket, çok düşük faizli kredilere ayrıcalıklı erişim sayesinde ayakta kalmaktadır. Eğer daha geleneksel oranlarda borçlanmak zorunda kalsalardı, birçoğu karlı olmaktan çıkardı. Bu durum, 2023 yılında olduğumuz ve uzun bir süre sıfıra yakın seyreden faiz oranları yükselmeye başladığı için özellikle önemlidir. Finansal ortamdaki bu son gelişme, bir zamanlar "zombi" olarak adlandırılan bu şirketler için şüphesiz belirleyici bir sınav olacaktır.
@@ -1068,7 +1068,7 @@ Zombi şirketler olgusu Almanya'nın savaş sonrası tarihiyle sınırlı değil
 Tarih boyunca, Weimar ve Zimbabwe'de olduğu gibi, arbitraj yoluyla bireylerin hızla zengin olmaya çalıştığı anlar olmuştur. Bugün, belirli kripto para birimlerinin ortaya çıkmasıyla benzer bir eğilim görüyoruz. İnsanlar hızlı kazançların cazibesine kapılıyor ve yatırımlarının katlanarak artması umuduyla risk alıyorlar. Bu yaklaşım, genellikle başkalarının zararına olacak şekilde hızlı kazançlar elde etmek için arbitrajın kullanıldığı hiperenflasyon dönemlerinde gözlemlenenleri anımsatabilir.
 
 
-![image](assets/chapitre-3.3/6.webp)
+![image](assets/fr/051.webp)
 
 
 6. Tasarruf, belirsizliğe karşı çare
@@ -1098,7 +1098,7 @@ Günümüzde satın alma gücünün azalması karşısında yatırım ön plana 
 Slaytta, solda, yeniden değerlemenin yapıldığı yıllar, yeni para biriminin adı ve eski para birimiyle Exchange oranı yer almaktadır. Arjantin örneğini ele alırsak, peso moneda nacional bir önceki para birimi olan peso real'den 25'e 1 oranında dönüştürülmüştür. Bu bağlamda, Arjantin para biriminin zaman içindeki gelişimini inceleyeceğiz. Ayrıca, her dönem için banknotların ilk ve son değerlerini belirteceğiz.
 
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 
 Slaydın sağ tarafında bir enflasyon grafiği yer almaktadır. Kırmızı oklar, Kagan'ın kriterine göre aylık %50 enflasyon oranı olarak tanımlanan hiperenflasyon yıllarını temsil etmektedir. Bu kriter bazen yüksek enflasyon oranlarına sahip olan ancak hiperenflasyonun kesin tanımını karşılamayan yıllarla birlikte belirsiz yorumlara yol açabilir.
@@ -1111,7 +1111,7 @@ Arjantin'den sonra çalışmamız Brezilya, Bolivya, Peru, Nikaragua ve Venezuel
 ### Arjantin
 
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 
 Arjantin 1826'dan önce İspanyol dolarını kullanıyordu. 1816'da bağımsızlığını kazandıktan sonra, İspanyol realine dayalı kendi para birimini uygulamaya koymuş ve benzer bir para biriminin yaratılmasına neden olmuştur. Tablo, 10.000'e kadar olan banknotlarla "peso moneda nacional "in piyasaya sürüldüğü yıl olan 1881'de başlıyor. Bunu, 100'e 1 oranında ve bir milyona kadar banknotlarla değiştirilen "peso ley" takip etti. Ardından, 10,000'e 1 Exchange oranıyla (dört sıfırın atılmasına eşdeğer) ve 10,000'e kadar banknotlarla "Arjantin pesosu" geldi. 1985 yılında "australes" piyasaya sürüldü ve 1,000'e 1 oranıyla 500,000'e kadar banknotlarla değiştirildi. 1992 yılında, mevcut "peso ley" 10.000'e 1 oranında oluşturuldu ve bir kez daha dört sıfır kaldırıldı. Sadece 1989 ve 1990 yıllarında hiperenflasyon yaşanmıştır.
@@ -1120,7 +1120,7 @@ Arjantin 1826'dan önce İspanyol dolarını kullanıyordu. 1816'da bağımsızl
 ### Brezilya
 
 
-![image](assets/chapitre-3.4/2.webp)
+![image](assets/fr/053.webp)
 
 
 Brezilya, para birimi değişiklikleri tarihinin de gösterdiği gibi, parasal yeniden değerlemenin sembolik bir örneğidir. Bağımsızlığından önce Brezilya Portekiz realini kullanıyordu. Ancak ülke, 1822'deki bağımsızlık ilanından çok önce, 1747 gibi erken bir tarihte kendi "Brezilya realini" kullanmaya başlamıştır. Tablo, Brezilya banknotlarının ihracının başlangıcını işaret eden 1818'de başlıyor. Bundan önce para birimi çoğunlukla madeni para şeklindeydi. Bu banknotlar bir milyon reale kadar ulaşan değerlere sahipti.
@@ -1145,7 +1145,7 @@ En yüksek kupürlü banknot 500.000'e ulaştı ve 1994'teki son yeniden değerl
 ### Bolivya
 
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 
 Bolivya, para biriminin yeniden değerlenmesini gerektiren akut enflasyon dönemlerinden geçen bir başka ülke örneğidir. İşte parasal geçmişinin bir özeti:
@@ -1168,7 +1168,7 @@ Bu, Bolivya'nın hiperenflasyon ve yeniden değerlenme dönemlerinin damgasını
 ### Peru
 
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 
 
 Peru, keyfi %50 kuralının etkileri açısından ilginç bir örnek teşkil etmektedir. Parasal tarihiyle başlayan Peru, 19. yüzyıla kadar İspanyol altını kullanmış ve 1821 yılında bağımsızlığını ilan etmiştir. Peru doları 1822'den 1863'e kadar kullanıldı. 1863 yılında Peru reali, 10'a 1 oranında soldi oro ile değiştirildi ve maksimum 50.000 değerine ulaştı. 1985 yılında, "Inti" para birimi 1000'e 1 dönüşüm oranıyla tanıtıldı ve 5 milyona ulaştı. 1991 yılında "SOL", 10 ila 200 arasında değişen banknotlarla 1 milyona 1 Exchange oranıyla piyasaya sürüldü.
@@ -1184,7 +1184,7 @@ Yeniden değerleme dönemleri incelendiğinde, 1988 yılı özellikle Eylül ay�
 ### Nikaragua
 
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 
 Eskiden İspanyol egemenliği altında olan Nikaragua, İspanya tarafından sömürgeleştirilen diğer birçok ülke gibi başlangıçta İspanyol dolarını kullanmıştır. İspanyol İmparatorluğu, Meksika İmparatorluğu ve ardından Orta Amerika Federal Cumhuriyeti ile bütünleştikten sonra Nikaragua bağımsızlığını ilan etti. 1878'den itibaren peso ülkenin resmi para birimi haline geldi ve değerleri 1 ile 100 arasında dalgalandı. Ülke 1912'de ilk Cordoba'yı, 1988'de ikincisini ve 1991'de üçüncüsünü piyasaya sürdü ve bugün hala kullanılıyor. İlk Cordoba 1 milyon, ikincisi ise 10 milyon değerine ulaşmıştır. 1991'deki yeniden değerleme birkaç yıl süren hiperenflasyonu takip etmiştir.
 
@@ -1192,7 +1192,7 @@ Eskiden İspanyol egemenliği altında olan Nikaragua, İspanya tarafından söm
 ### Venezuela
 
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 
 
 Venezuela bu videoda bahsedilen son ülkedir. Ülke zaman içinde dört kez para birimini değiştirmiştir. Venezuela, 1811 yılında bağımsızlığını ilan etmeden önce ilk günlerinde İspanyol dolarını kullanmıştır. 1879 yılında resmi para birimi olarak bolivar kullanılmaya başlandı ve bu para birimi, hükümetin dalgalı Exchange kurlu doları tercih ettiği 1983 yılına kadar yürürlükte kaldı.
@@ -1201,16 +1201,16 @@ Venezuela bu videoda bahsedilen son ülkedir. Ülke zaman içinde dört kez para
 Venezüella ile ilgili kayda değer bir gerçek de Latin Para Birliği'ne üye olmasıdır. Bu birliğe İspanya'dan 5 peseta, Yunanistan'dan 5 drahmi, Venezuela'dan 5 bolivar, İtalya'dan 5 liret, 5 Belçika frangı ve 5 Fransız frangı gibi madeni paralar dahildir.
 
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 
 Bu dönemde Venezüella'nın 5 bolivarlık Coin'i İtalya, İspanya, Belçika ve Fransa'nın da aralarında bulunduğu Birlik üyesi ülkelerin bolivarlarıyla aynı ağırlığa sahipti. Bu bolivarlar gümüşten yapılmıştır. 1929 yılına ait belirli bir Coin 25 gram ağırlığında ve 900 saflık derecesine, yani %90 saf gümüşe sahiptir. Mevcut gümüş fiyatıyla bu Coin yaklaşık 17 ila 18 ABD doları değerindedir.
@@ -1273,7 +1273,7 @@ Bernold tarafından dile getirilen ilginç bir husus, bir para reformunun başar
 ### Zimbabve örneği
 
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 
 
 Zimbabve 1980 yılında bağımsızlığını kazanmış ve Zimbabve dolarını kullanmaya başlamıştır. Başlangıçta iki Zimbabve doları yaklaşık 1.60 ABD doları değerindeydi. Ancak 1997'de savaş gazileri lehine alınan sosyal önlemlerin ardından para birimi Kara Cuma sırasında bir günde %72 oranında değer kaybetti. Ardından 2000'li yılların başında ülke bir toprak yeniden dağıtım programı başlatarak arazileri beyaz sahiplerinden aldı ve yerel halka verdi. Bu karar ihracata zarar verdi çünkü yeni sahipler genellikle büyük ölçekli çiftlikleri yönetmek için gerekli uzmanlıktan yoksundu. Sonuç olarak Zimbabve 1999 yılında net ihracatçı iken 2003 yılında net ithalatçı konumuna geldi.
@@ -1282,7 +1282,7 @@ Zimbabve 1980 yılında bağımsızlığını kazanmış ve Zimbabve dolarını 
 2006 yılında ülke, 1'e 1.000 Exchange oranıyla para birimi ZWN'nin yeni bir versiyonunu tanıtmıştır. 2008 yılında, 1'e 10 milyar Exchange oranıyla başka bir para birimi olan ZWR tanıtıldı. Bu, ikonik 100 trilyonluk banknotların yaratılmasına yol açtı.
 
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 
 #### Dolarizasyon ve Kriz Çözümü
@@ -1305,13 +1305,13 @@ Zimbabve'nin o zamandan beri kendi para birimini yeniden yürürlüğe koymaya �
 "Bitcoin Hakkında Her Şey" başlıklı kitabımda Zimbabwe'deki hiperenflasyona tam bir bölüm ayırdım. Ülkenin hiperenflasyona nasıl son verdiğini gösteren çeşitli örnekler sunarak önemli olayları detaylandırdım.
 
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 
 Birinci Dünya Savaşı sonrası Alman deneyimini merak edenler için "Reich'ın Bankeri" adlı çizgi romanı şiddetle tavsiye ederim Almanya'nın özellikle Rentenmark'ı yaratarak hiperenflasyonun üstesinden nasıl geldiğini anlatıyor.
 
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 
 Buradan çıkarılacak en önemli sonuç, hiperenflasyonun üstesinden gelmek için çeşitli stratejiler olduğudur. Dolarizasyon tercih edilebilir ya da yeni bir para birimi getirilebilir. Bu çözümler ancak halkın bunlara güven duyması halinde işe yarayacaktır. Sıkı kısıtlamalar getirmek çok önemlidir. Gerçekten bağımsız bir merkez bankası şarttır. Hükümet açıklarını kapatmak için Supply parasını şişirmemelidir. Hafif enflasyon durumunda, paranın büyümesini sınırlamak yeterli olacaktır. Ancak hiperenflasyonla karşı karşıya kalındığında, öncelikle söz konusu ekonominin büyüklüğüne uygun bir parasal büyüklüğe sahip olmak çok önemlidir. Ardından, durumu istikrara kavuşturmak için hükümete katı kısıtlamalar getirilmesi zorunludur.
@@ -1344,7 +1344,7 @@ Transkript:
 Paranın ikinci Layer'ünün ve ilk merkez bankalarının ortaya çıkışı büyüleyici bir konudur. Bu konu Nick Battia'nın "Katmanlı Para" adlı kitabında kapsamlı bir şekilde ele alınmıştır. Parasal sistemlerimizin evrimi ve incelikleriyle ilgilenenlere bu kitabı şiddetle tavsiye ederim. Bu bölümün amacı para yaratmanın kökenini ve bunun nasıl hiperenflasyona yol açabileceğini anlamaktır.
 
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 
 ### Piramit Para ve Merkez Bankaları
@@ -1356,10 +1356,10 @@ Paranın ikinci Layer'ünün ve ilk merkez bankalarının ortaya çıkışı bü
 Paranın tarihi 13. yüzyıl İtalya'sına, özellikle de Floransa'ya kadar uzanmaktadır. O dönemde florin ve Exchange banknotları yaygındı. Dikkate değer bir örnek, Vaftizci Aziz John figürüyle süslenmiş florindir.
 
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 
 Günümüzde gerçek bir florine sahip olmak pahalı olsa da, reprodüksiyonları mevcuttur. O döneme ait, üzerinde İsa'nın resmi bulunan 17. yüzyıl İtalyan devletlerine ait soldo gibi başka para birimleri de vardır.
@@ -1385,7 +1385,7 @@ Bu kavram, Twitter'daki takma adı "BTC'nin zaman değeri" aracılığıyla Nick
 #### VOC ve Amsterdam Borsası (17. yüzyıl)
 
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 
 Antwerp Stock Exchange'ten sonra, önemli bir dönüm noktası VOC'nin, Hollanda Doğu Hindistan Şirketi'nin kurulmasıydı. Merkezi Hollanda'da bulunan bu şirket kendi para birimini bile çıkarmıştır. VOC'nin kurulmasının ardından ilk borsa Amsterdam'da kuruldu ve bu şirket için ilk borsa oldu. İlginç olan, Hollandalıların Antwerp'in uluslararası bir ekonomik merkez olarak üstünlüğüne nasıl son vermeyi başardıklarıdır. Basitçe Scheldt Nehri'ne erişimi engellediler. Bu strateji daha büyük bir tarihsel hareketin, dilencilerin isyanının bir parçasıydı. Avrupa tarihinde çok önemli bir olay.
@@ -1394,7 +1394,7 @@ Antwerp Stock Exchange'ten sonra, önemli bir dönüm noktası VOC'nin, Hollanda
 #### Amsterdam Merkez Bankası'nın müdahalesi
 
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 
 
 VOC'nin kurulmasından sonra, para tarihindeki bir diğer önemli unsur da Amsterdam Bankası tarafından altın sikkelerin piyasaya sürülmesiydi. Geçmişi 1722 yılına kadar uzanan bu sikkeler gümüşten yapılmıştı. Ancak o dönemde finansta gerçek anlamda devrim yaratan şey Coin'nin kendisi değil, Amsterdam Bankası'nda bu para birimiyle ilişkili hesaplardı. Bu hesaplar uluslararası Exchange'nın birincil aracı haline geldi. İşlemler basitçe kayıtlara ya da defterlere kaydediliyordu. Bu sistem sayesinde Amsterdam küresel ekonomi merkezi haline geldi. Zamanla, Amsterdam Bankası bu hesapların kullanımını dayatmaya karar verdi. Bağımsız para değiştiricilerin her gün bankaya para yatırmak için madeni paralarını Exchange yapmaları gerekiyordu.
@@ -1411,7 +1411,7 @@ Başlangıçta, para biriminin ilk Layer'u altın ile temsil ediliyordu. Özel b
 #### 1796 Paniği
 
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 
 1857'deki Panik sırasında Seamen's Savings Bank'ta yaşanan banka paniği.
 

@@ -1909,19 +1909,51 @@ genjix, "Coinlab are sneaky bastards, investors behind Bitcoinica" https://bitco
 
 ### La première pyramide de Ponzi : Bitcoin Savings & Trust
 
-17 août 2012
+https://gwern.net/doc/bitcoin/pirateat40/index https://bitcoinmagazine.com/business/bitcoin-savings-trust-genuine-or-joke-1345305053 https://bitcoinmagazine.com/business/ponzi-schemes-the-danger-of-high-interest-savings-funds-1338461999 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust
 
-**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40, pirate@40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
+Mais le Far West implique aussi la présence d'escroqueries pures et simples. Parmi ces arnaques, il y a les programmes d'investissement à haut rendement (*high-yield investment programs* ou HYIP) qui fleurissent sur Internet dans les sphères des monnaies alternatives (e-gold, Liberty Reserve). Ces programmes promettent des taux d'intérêt anormalement élevés pour de courtes périodes, pour encourager leurs clients à déposer rapidement de l'argent. Ce sont la plupart du temps des pyramides de Ponzi, qui reposent sur les afflux des nouveaux entrants pour rémunérer ceux qui réclament leurs intérêts.
 
-Annonce, nov. 2011 : https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752 ; update, jan. 2012 : https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957
+Il va de soi que Bitcoin est parfaitement adapté à ce type d'escroquerie. Il y a par exemple le site brésilien [Bitcoin Rain](https://bitcointalk.org/index.php?topic=178336.msg11470642#msg11470642) qui a ouvert en octobre 2011 et qui promet 12 % de rendement *par mois*. Mais la plus importante d'entre elles est Bitcoin Savings & Trust. Ce fonds est lancé par Trendon Shavers, un Texan de 29 ans se faisant appeler Pirate@40 (ou PirateAt40) sur le forum de Bitcoin et ailleurs. Son pseudonyme est une référence à la chanson « *A Pirate Looks At Forty* » (Un pirate à quarante ans) de Jimmy Buffett sortie en 1974, dans laquelle un trafiquant de drogue moderne se lamente d'être né trop tard pour avoir pu être un flibustier.
 
-[Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.")
+![Trendon Shavers à la sortie du tribunal fédéral de Manhattan en novembre 2014](assets/en/trendon-shavers-pirateat40-manhattan-federal-court-20141124-brendan-mcdermid-reuters.webp)
 
-Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
+Trendon Shavers à la sortie du tribunal fédéral de Manhattan en novembre 2014 (source : Brendan McDermid pour [Reuters](https://www.reuters.com/article/world/us/texan-gets-one-and-a-half-years-in-prison-for-running-bitcoin-ponzi-scheme-idUSKCN1012W7/))
 
-Bitcoin Rain, , ouverture le [10/10/2011](https://bitcointalk.org/index.php?topic=46750.msg556437#msg556437), « piratage » le [28/03/2013](https://bitcointalk.org/index.php?topic=160150.msg1692929#msg1692929)
+À la fin de l'année 2011, Trendon est actif sur la plateforme de change de gré à gré \#bitcoin-otc, où il acquiert une [bonne réputation](https://web.archive.org/web/20111031165817/http://bitcoin-otc.com/viewratingdetail.php?nick=pirateat40). Le 3 novembre 2011, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752) sur le forum être « à la recherche de prêteurs » (original: "looking for lenders") afin de pouvoir exercer une activité de revendeur local. Il propose deux manières de prêter de l'argent. L'une des méthodes, appelée « stockage », consiste à laisser son argent en dépôt. Le taux d'intérêt promis est de 1 % *par jour* !
 
-Jorge Stolfi : https://bitcointalk.org/index.php?topic=178336.msg11470642#msg11470642
+Trendon dit avoir « créé \[son\] propre logiciel de gestion personnalisé afin de surveiller les dépôts, les retraits et les paiements d'intérêts » (original: "I've created my own custom management software that I've built to monitor deposits, withdraws and interest payments"). Il gère initialement l'investissement des clients par message privé sur le forum, avant de [déployer](https://bitcointalk.org/index.php?topic=50822.msg649434#msg649434) une interface à l'adresse Btclending.com un mois et demi plus tard.
+
+En parallèle, Trendon gère un service de cloud mining, [GPUMAX](https://bitcointalk.org/index.php?topic=55819.msg664029#msg664029), ouvert le 27 décembre 2011, où les clients peuvent louer de la puissance de minage.
+
+Au début de l'année 2012, le plan [est](https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) simplifié et offre des intérêts versés de manière hebdomadaire. La somme minimale [est](https://bitcointalk.org/index.php?topic=50822.msg738835#msg738835) de 100 BTC, soit environ 570 $. Les taux d'intérêt sont progressifs en fonction du montant investi, de façon à encourager les gros dépôts : 100 BTC rapportent 4,2 % *par semaine* tandis que 1 000 BTC (et plus) rapportent 7 %. Les inscriptions [passent](https://bitcointalk.org/index.php?topic=50822.msg736031#msg736031) uniquement par le parrainage (ce qui permet aux membres existants de gagner plus). Le nom du fonds [devient](https://bitcointalk.org/index.php?topic=50822.msg678316#msg678316) First Pirate Savings & Trust (FPS&T), faisant référence au nom de certaines banques américaines.
+
+En avril, le service change à nouveau de nom et [devient](https://bitcointalk.org/index.php?topic=50822.msg844657#msg844657) Bitcoin Savings & Trust. Il est hébergé à l'adresse BTCST.com.
+
+![Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart](assets/en/btcst-unofficial-logo-johnbigheart-20120418.webp)
+
+Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart (source : [archive](https://web.archive.org/web/20140429144117/https://bitcointalk.org/index.php?topic=76689.0) de Bitcointalk.org)
+
+suspicions : [Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.") ; "pirateat40's end game" [20/4/2012](https://bitcointalk.org/index.php?topic=77457.msg861247#msg861247) ; pari avec vandroiy... https://bitcointalk.org/index.php?topic=91661.msg1013607#msg1013607 https://bitcointalk.org/index.php?topic=91661.msg1013858#msg1013858 (gagné par Vandroiy : https://bitcointalk.org/index.php?topic=91661.msg1147937#msg1147937)
+
+Début de la fin. Début juillet, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg1004091#msg1004091) abaisser le taux d'intérêt à 3,9 % pour tous les montants. [23/7](https://bitcointalk.org/index.php?topic=50822.msg1048498#msg1048498) "Starting today, I've lifted the referral only requirement to open a Savings account." ; [17 août 2012](https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) "After much consideration, I’ve decided to close down Bitcoin Savings & Trust. "
+
+logos : https://web.archive.org/web/20140429144117/https://bitcointalk.org/index.php?topic=76689.0
+
+Aide ? copumpkin, janvier 2012 ?
+
+Combien de bitcoins volés ?
+
+"500+K of BTC" https://bitcointalk.org/index.php?topic=101958.0
+
+https://www.vice.com/en/article/lawyer-reveals-details-about-the-man-behind-bitcoins-45-million-ponzi-scheme/
+
+"The Feds calculated that Shavers, drawing from about 100 investors, had siphoned 193,000 BTC for himself, worth up to $1.5 million back then and $16 billion today (coincidentally similar to the BTC supposedly held by the US government)" https://blockworks.co/news/bitcoin-ponzi-scheme-history-savings-trust-shavers
+
+"In total, SHAVERS raised at least 764,000 Bitcoin in BCS&T investments, which amounted to more than $4.5 million based on the average price of Bitcoin during the period of the scheme." https://www.justice.gov/archive/usao/nys/pressreleases/November14/TrendonShaversArrest.php
+
+"In total, SHAVERS fraudulently obtained approximately 146,000 Bitcoin in BCS&T investments, which amounted to approximately $807,380 based on the average price of Bitcoin over the duration of the scheme." https://www.justice.gov/usao-sdny/pr/texas-man-sentenced-operating-bitcoin-ponzi-scheme
+
+- Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
 
 ### Le piratage de BitFloor
 

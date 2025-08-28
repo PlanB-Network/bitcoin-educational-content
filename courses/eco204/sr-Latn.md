@@ -809,7 +809,7 @@ Kada valuta brzo gubi svoju vrednost, čak i najjednostavnije transakcije mogu p
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 
-Tehnika brojanja novca iz Uzbekistana
+Uzbečka tehnika brojanja novca
 
 
 #### 5. Plaćanja čekom

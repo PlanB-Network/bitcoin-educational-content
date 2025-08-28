@@ -512,7 +512,7 @@ When currency rapidly loses its value, even the simplest transactions can become
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Money counting technique from Uzbekistan
+Uzbek technique of counting money
 
 #### 5. Payments by check
 

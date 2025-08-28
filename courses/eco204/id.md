@@ -489,7 +489,7 @@ Ketika mata uang cepat kehilangan nilainya, bahkan transaksi paling sederhana pu
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Teknik menghitung uang dari Uzbekistan
+Teknik Uzbekistan menghitung uang
 
 #### 5. Pembayaran dengan cek
 

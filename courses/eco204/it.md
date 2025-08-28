@@ -478,7 +478,7 @@ Quando la valuta perde rapidamente valore, anche le transazioni più semplici po
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Tecnica di conteggio del denaro dall'Uzbekistan
+Tecnica uzbeka di conteggio del denaro
 
 #### 5. Pagamenti con assegno
 

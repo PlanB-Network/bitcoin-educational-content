@@ -809,7 +809,7 @@ Gdy waluta gwałtownie traci na wartości, nawet najprostsze transakcje mogą st
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 
-Technika liczenia pieniędzy z Uzbekistanu
+Uzbecka technika liczenia pieniędzy
 
 
 #### 5. Płatności czekiem

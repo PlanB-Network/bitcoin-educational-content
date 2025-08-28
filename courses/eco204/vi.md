@@ -487,7 +487,7 @@ Zimbabwe: "Các quản lý cửa hàng cũng được phép thuê một nhân vi
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Kỹ thuật đếm tiền từ Uzbekistan
+Kỹ thuật đếm tiền của Uzbekistan
 
 #### 5. Thanh toán bằng séc
 

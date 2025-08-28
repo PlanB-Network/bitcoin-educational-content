@@ -490,7 +490,7 @@ Když měna rychle ztrácí svou hodnotu, i ty nejjednodušší transakce se moh
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Technika počítání peněz z Uzbekistánu
+Uzbecká technika počítání peněz
 
 #### 5. Platby šekem
 

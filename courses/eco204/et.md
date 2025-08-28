@@ -492,7 +492,7 @@ Kui valuuta kiiresti oma väärtust kaotab, võivad isegi lihtsaimad tehingud mu
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Raha lugemise tehnika Usbekistanist
+Usbeki rahalugemise tehnika
 
 #### 5. Maksmised tšekiga
 

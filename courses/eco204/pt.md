@@ -514,7 +514,7 @@ Quando a moeda perde rapidamente seu valor, até mesmo as transações mais simp
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Técnica de contagem de dinheiro do Uzbequistão
+Técnica uzbeque de contagem de dinheiro
 
 #### 5. Pagamentos por cheque
 

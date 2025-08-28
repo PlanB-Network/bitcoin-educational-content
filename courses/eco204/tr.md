@@ -809,7 +809,7 @@ Para birimi hızla değer kaybettiğinde, en basit işlemler bile zahmetli göre
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 
-Özbekistan'dan para sayma tekniği
+Özbek para sayma tekniği
 
 
 #### 5. Çek ile ödemeler

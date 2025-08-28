@@ -470,7 +470,7 @@ Cuando la moneda pierde rápidamente su valor, incluso las transacciones más si
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Técnica de conteo de dinero de Uzbekistán
+Técnica uzbeka de conteo de dinero
 
 #### 5. Pagos con cheque
 

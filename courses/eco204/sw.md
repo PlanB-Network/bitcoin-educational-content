@@ -591,7 +591,7 @@ Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza
 > Zimbabwe: "Wasimamizi wa maduka pia waliruhusiwa kuajiri mfanyakazi wa muda kuchukua nafasi ya mfanyakazi ambaye alihesabu pesa siku nzima. Bila shaka, kuhesabu fedha katika duka kwa ajili ya usimamizi na amana ya benki ilikuwa jambo moja, lakini mchakato mzima ulipaswa kurudiwa katika benki wakati wa kuweka amana."
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Mbinu ya kuhesabu pesa kutoka Uzbekistan
+Mbinu ya Kizbeki ya kuhesabu pesa
 
 #### 5. Malipo kwa hundi
 

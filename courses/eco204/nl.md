@@ -809,7 +809,7 @@ Wanneer geld snel zijn waarde verliest, kunnen zelfs de eenvoudigste transacties
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 
-Geldteltechniek uit Oezbekistan
+Oezbeekse techniek van geld tellen
 
 
 #### 5. Betalingen met cheque

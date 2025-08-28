@@ -484,7 +484,7 @@ Kun valuutta menettää nopeasti arvoaan, jopa yksinkertaisimmat transaktiot voi
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Rahojen laskentatekniikka Uzbekistanista
+Uzbekkilainen rahanlaskutekniikka
 
 #### 5. Shekkimaksut
 

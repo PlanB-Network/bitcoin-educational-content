@@ -567,7 +567,7 @@ Lorsque la monnaie perd rapidement de sa valeur, même les transactions les plus
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Money counting technique from Uzbekistan
+Technique ouzbèke de comptage de l’argent
 
 #### 5. Les paiements par chèque
 

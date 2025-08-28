@@ -490,7 +490,7 @@ Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbe
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Teknikk for pengeregning fra Usbekistan
+Usbekisk teknikk for å telle penger
 
 #### 5. Betalinger med sjekk
 

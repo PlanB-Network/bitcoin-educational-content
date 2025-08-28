@@ -508,7 +508,7 @@ Wenn eine Währung schnell an Wert verliert, können selbst einfache Transaktion
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
-Money counting technique from Uzbekistan
+Usbekische Technik des Geldzählens
 
 #### 5. Zahlungen per Scheck
 

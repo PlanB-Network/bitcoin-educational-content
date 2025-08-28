@@ -1020,7 +1020,7 @@ Umjetnik iza ovog Notgelda čini se da pravi ironičnu kritiku vlasti odgovornih
 
 > Prva Shitcoin: Anecdotalno, gledajući centralnu ilustraciju novčanice, gde je valuta doslovno devalvirana akcijom pojedinca, mogla bi se nazvati prvom "shitcoin".
 
-3. Obveznice i Hipoteke
+#### 3. Obveznice i hipoteke
 
 
 U Vajmaru su neki dugovi revalorizovani kako bi se nadoknadio uticaj inflacije. Ova mera nije usvojena u Zimbabveu.

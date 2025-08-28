@@ -1021,7 +1021,7 @@ De kunstenaar achter dit notgeld lijkt een ironische kritiek te leveren op de au
 
 > De eerste shitcoin: Anekdotisch gezien, kijkend naar de centrale illustratie van het bankbiljet, waar de munt letterlijk gedevalueerd wordt door de actie van het individu, zou het de eerste "shitcoin" genoemd kunnen worden.
 
-3. Obligaties en hypotheken
+#### 3. Obligaties en hypotheken
 
 
 In Weimar werden sommige schulden geherwaardeerd om de gevolgen van inflatie te compenseren. Deze maatregel werd niet toegepast in Zimbabwe.

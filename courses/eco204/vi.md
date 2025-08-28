@@ -649,7 +649,7 @@ Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lờ
 > "necessity knows no law"
 > Đồng tiền Shitcoin đầu tiên: Theo giai thoại, nhìn vào hình minh họa trung tâm của tờ tiền, nơi giá trị của đồng tiền bị giảm sút bởi hành động của cá nhân, nó có thể được gọi là "shitcoin" đầu tiên.
 
-3. Trái phiếu và thế chấp
+#### 3. Trái phiếu và thế chấp
 
 Ở Weimar, một số khoản nợ được định giá lại để bù đắp cho ảnh hưởng của lạm phát. Biện pháp này không được áp dụng ở Zimbabwe.
 

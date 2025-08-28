@@ -1023,7 +1023,7 @@ Bu Notgeld'in arkasındaki sanatçı, hiperenflasyon krizinden sorumlu yetkilile
 
 > İlk Shitcoin: Anekdot olarak, para biriminin bireyin eylemiyle tam anlamıyla değersizleştirildiği banknotun merkezi resmine bakıldığında, buna ilk "shitcoin" denebilir.
 
-3. Borç Senetleri ve İpotekler
+#### 3. Tahviller ve ipotekler
 
 
 Weimar'da, enflasyonun etkisini telafi etmek için bazı borçlar yeniden değerlendi. Bu önlem Zimbabve'de benimsenmemiştir.

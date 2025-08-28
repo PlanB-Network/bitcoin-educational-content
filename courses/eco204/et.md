@@ -632,7 +632,7 @@ Saksamaal oli rahvastiku seas levinud arvamus, et inflatsiooni põhjustab dollar
 
 Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
 
-![image](assets/fr/047.webp)
+![image](assets/fr/048.webp)
 
 > "Mis tehtud, see tehtud." - kohalik ütlus
 
@@ -640,11 +640,13 @@ Notgeldide seas paistab silma üks eriline rahatäht. Sellel on liigutav illustr
 
 Selle Notgeldi taga olev kunstnik näib tegevat iroonilist kriitikat hüperinflatsioonikriisi eest vastutavate ametivõimude suhtes. Rahatähel on kiri "Häda ei tunne seadust". Teine kohaliku päritolu Notgeldi väljend ütleb: "Mis tehtud, see tehtud".
 
+![image](assets/fr/047.webp)
+
 > "häda ei tunne seadust"
 
 > Esimene Shitcoin: Anekdootlikult, vaadates rahatähe keskset illustratsiooni, kus valuuta on sõna otseses mõttes isiku tegevuse tõttu devalveeritud, võiks seda nimetada esimeseks "shitcoiniks".
 
-3. Võlakirjad ja hüpoteegid
+#### 3. Võlakirjad ja hüpoteegid
 
 Weimaris hinnati mõned võlad ümber, et kompenseerida inflatsiooni mõju. Seda meedet ei võetud kasutusele Zimbabwes.
 
@@ -652,7 +654,11 @@ Weimaris hinnati mõned võlad ümber, et kompenseerida inflatsiooni mõju. Seda
 
 > Zimbabwe: "Juulis 2007 (kolm aastat hiljem) võisin oma taskust välja võtta devalveeritud ZDW 500 000 (bt "000") märkuse, mis oli nüüd paralleelturul väärt 1,67 dollarit, ja tasuda hüpoteeklaenu, mis pidi olema tagastatud kahekümne aasta jooksul. Lisaks esindas see märkus ainult 0,49 protsenti minu sama kuu kuupalgast."
 
+
+
 Saksamaa kriisi haldamise kohta lisateabe saamiseks on see raamat samuti hädavajalik.
+
+![image](assets/fr/049.webp)
 
 ### Kaasaegsed paralleelid
 

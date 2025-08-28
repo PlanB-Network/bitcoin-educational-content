@@ -633,7 +633,7 @@ Tämän Notgeldin taiteilija vaikuttaa tekevän ironisen kritiikin hyperinflaati
 
 > Ensimmäinen Shitcoin: Anekdoottisesti, katsoen setelin keskellä olevaa kuvitusta, jossa valuutta kirjaimellisesti menettää arvonsa henkilön toiminnan seurauksena, sitä voitaisiin kutsua ensimmäiseksi "shitcoiniksi".
 
-3. Vaihtovelkakirjat ja kiinnitykset
+#### 3. Joukkovelkakirjat ja asuntolainat
 
 Weimarissa jotkin velat arvostettiin uudelleen inflaation vaikutuksen kompensoimiseksi. Tätä toimenpidettä ei otettu käyttöön Zimbabwessa.
 

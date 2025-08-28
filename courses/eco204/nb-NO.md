@@ -643,7 +643,7 @@ Kunstneren bak dette Notgeldet ser ut til å gjøre en ironisk kritikk av myndig
 
 > Den første Shitcoin: Anekdotisk, ved å se på den sentrale illustrasjonen av seddelen, hvor valutaen bokstavelig talt blir devaluert av individets handling, kunne den kalles den første "shitcoin".
 
-3. Obligasjoner og Pantelån
+#### 3. Obligasjoner og pantelån
 
 I Weimar ble noen gjeld omvurdert for å kompensere for inflasjonens innvirkning. Dette tiltaket ble ikke vedtatt i Zimbabwe.
 

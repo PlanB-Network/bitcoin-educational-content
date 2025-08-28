@@ -679,7 +679,7 @@ O artista por trás desse Notgeld parece fazer uma crítica irônica às autorid
 
 > A primeira Shitcoin: De forma anedótica, ao olhar para a ilustração central da nota, onde a moeda é literalmente desvalorizada pela ação da pessoa, ela poderia ser chamada de primeira "shitcoin".
 
-3. Debêntures e hipotecas
+#### 3. Debêntures e hipotecas
 
 Em Weimar, algumas dívidas foram reavaliadas para compensar o impacto da inflação. Essa medida não foi adotada no Zimbábue.
 

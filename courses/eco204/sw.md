@@ -752,7 +752,7 @@ Msanii anayehusika na Notgeld hii anaonekana kuwa na ukosoaji wa kejeli kwa maml
 
 > "Lazima haijui sheria"
 > Shitcoin ya kwanza: Kinadharia, ukiangalia kielelezo cha kati cha noti, ambapo sarafu inapunguzwa thamani halisi na hatua ya mtu binafsi, inaweza kuitwa "shitcoin" ya kwanza.
-3. Hati fungani na Rehani
+#### 3. Dhamana na rehani
 
 Katika Weimar, baadhi ya madeni yalithaminiwa ili kufidia athari za mfumuko wa bei. Hatua hii haikupitishwa nchini Zimbabwe.
 

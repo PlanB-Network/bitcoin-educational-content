@@ -669,7 +669,7 @@ The artist behind this Notgeld seems to be making an ironic critique of the auth
 
 > The first Shitcoin: Anecdotally, looking at the central illustration of the banknote, where the currency is literally devalued by the individual's action, it could be called the first "shitcoin".
 
-3. Debentures and Mortgages
+#### 3. Debentures and mortgages
 
 In Weimar, some debts were revalued to compensate for the impact of inflation. This measure was not adopted in Zimbabwe.
 

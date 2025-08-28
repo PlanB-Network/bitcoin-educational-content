@@ -1022,7 +1022,7 @@ Konstnären bakom denna Notgeld verkar göra en ironisk kritik av de myndigheter
 
 > Det första skitmyntet: Anekdotiskt sett, om man tittar på den centrala illustrationen av sedeln, där valutan bokstavligen devalveras av individens handling, skulle den kunna kallas det första "skitmyntet".
 
-3. Skuldebrev och inteckningar
+#### 3. Obligationer och inteckningar
 
 
 I Weimar revalverades vissa skulder för att kompensera för inflationens effekter. Denna åtgärd tillämpades inte i Zimbabwe.

@@ -624,7 +624,7 @@ In Germania, era comune che la popolazione attribuisse l'inflazione all'ascesa d
 Di fronte alla crisi monetaria ed economica, la Germania ricorreva al "Notgeld" (denaro d'emergenza). Queste banconote, stampate da città o alcune aziende, erano progettate per affrontare la carenza di moneta comune.
 Curiosamente, anche la Francia ha fatto ricorso al Notgeld, in particolare negli anni '20. Questa iniziativa non fu solo una diretta conseguenza dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo destabilizzò l'economia, ma aumentò anche il costo dei metalli. Di conseguenza, il valore intrinseco delle monete metalliche spesso superava il loro valore nominale, spingendo le persone a tesaurizzarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, stamparono il loro proprio Notgeld.
 
-![image](assets/fr/047.webp)
+![image](assets/fr/048.webp)
 
 > "Quello che deve essere fatto, deve essere fatto." - un detto locale
 
@@ -632,11 +632,13 @@ Tra i Notgeld, spicca una particolare banconota. Presenta un'illustrazione tocca
 
 L'artista dietro questo Notgeld sembra fare una critica ironica alle autorità responsabili della crisi dell'iperinflazione. La banconota porta l'iscrizione "La necessità non conosce legge". Un'altra espressione specifica della località di origine del Notgeld afferma: "Quello che deve essere fatto, deve essere fatto".
 
+![image](assets/fr/047.webp)
+
 > "la necessità non conosce legge"
 
 > La prima Shitcoin: Aneddoticamente, guardando l'illustrazione centrale della banconota, dove la valuta è letteralmente svalutata dall'azione dell'individuo, potrebbe essere chiamata la prima "shitcoin".
 
-3. Obbligazioni e Mutui
+#### 3. Debenture e ipoteche
 
 A Weimar, alcuni debiti sono stati rivalutati per compensare l'impatto dell'inflazione. Questa misura non è stata adottata in Zimbabwe.
 

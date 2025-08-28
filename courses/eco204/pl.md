@@ -1022,7 +1022,7 @@ Artysta stojący za tym Notgeld wydaje się w ironiczny sposób krytykować wła
 
 > Pierwszy Shitcoin: Anegdotycznie, patrząc na centralną ilustrację banknotu, gdzie waluta jest dosłownie dewaluowana przez działania jednostki, można by ją nazwać pierwszym "shitcoinem".
 
-3. Skrypty dłużne i hipoteki
+#### 3. Obligacje i hipoteki
 
 
 W Weimarze niektóre długi zostały przeszacowane, aby zrekompensować wpływ inflacji. Środek ten nie został przyjęty w Zimbabwe.

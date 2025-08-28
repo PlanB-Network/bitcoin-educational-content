@@ -641,7 +641,7 @@ Umělec za tímto Notgeld se zdá dělat ironickou kritiku autorit odpovědných
 
 > První Shitcoin: Anekdota, pohled na centrální ilustraci bankovky, kde je měna doslova znehodnocena akcí jedince, by se mohla nazvat prvním "shitcoinem".
 
-3. Dluhopisy a Hypotéky
+#### 3. Dluhopisy a hypotéky
 
 Ve Výmarské republice byly některé dluhy přeceněny, aby kompenzovaly dopad inflace. Toto opatření nebylo přijato v Zimbabwe.
 

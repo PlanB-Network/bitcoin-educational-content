@@ -628,7 +628,7 @@ El artista detrás de este Notgeld parece dirigir una crítica irónica hacia la
 
 > La primera Shitcoin: De manera anecdótica, al observar la ilustración central del billete, donde la moneda es literalmente devaluada por la acción de la persona, podría ser considerada la primera "shitcoin".
 
-3. Los bonos y las hipotecas
+#### 3. Obligaciones y hipotecas
 
 En Weimar, algunas deudas fueron reevaluadas para compensar el impacto de la inflación. Esta medida no fue adoptada en Zimbabwe.
 

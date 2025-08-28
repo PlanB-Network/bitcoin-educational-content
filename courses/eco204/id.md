@@ -639,7 +639,7 @@ Seniman di balik Notgeld ini tampaknya membuat kritik ironis terhadap otoritas y
 
 > Shitcoin pertama: Secara anekdot, melihat ilustrasi sentral dari uang kertas, di mana mata uang secara harfiah dinilai rendah oleh tindakan individu, itu bisa disebut sebagai "shitcoin" pertama.
 
-3. Debentures dan Hipotek
+#### 3. Obligasi dan hipotek
 
 Di Weimar, beberapa utang dinilai ulang untuk mengkompensasi dampak inflasi. Langkah ini tidak diadopsi di Zimbabwe.
 

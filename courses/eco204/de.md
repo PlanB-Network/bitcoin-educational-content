@@ -665,7 +665,7 @@ Der Künstler hinter diesem Notgeld scheint eine ironische Kritik an die Autorit
 
 > Die erste Shitcoin: Anekdotisch betrachtet könnte der Schein aufgrund der zentralen Illustration, bei der die Währung buchstäblich durch die Handlung der Person entwertet wird, als erste "Shitcoin" bezeichnet werden.
 
-3. Schuldverschreibungen und Hypotheken
+#### 3. Schuldverschreibungen und Hypotheken
 
 In Weimar wurden einige Schulden neu bewertet, um die Auswirkungen der Inflation auszugleichen. Diese Maßnahme wurde im Simbabwe nicht übernommen.
 

@@ -1,0 +1,10 @@
+id: 12ac2785-3df6-4287-8288-c65bc976ec45
+name: runningbitcoin
+
+
+tips:
+  lightning_address: runningbitcoin@rizful.com
+
+tags:
+  - user-friendly
+  - guides

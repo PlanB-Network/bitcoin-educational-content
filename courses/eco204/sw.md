@@ -568,7 +568,7 @@ Sarafu inaposhuka kwa kasi ya ajabu, hata majaribio makubwa ya kujaza soko na no
 
 > Weimar: "Katika mwezi huu, itaongezeka hadi karibu alama bilioni 4 za karatasi, takwimu ambayo inatarajiwa kuwa uhaba wa sarafu utashindwa kabisa."
 > Zimbabwe: "Kuanzia mwaka 2002 hadi Januari 2009, kulikuwa na uhaba mkubwa wa ukwasi. Hakukuwa na noti za kutosha zilizochapishwa au kuzunguka kuendana na kupanda kwa mfumuko wa bei."
-2. "Na ni mbolea!"
+#### 2. "Na hiyo ni samadi!"
 
 Kasi ambayo sarafu inaweza kupoteza thamani yake katika hali fulani za kiuchumi ni ya kushangaza. Kiasi cha astronomia cha noti kinaweza kutolewa kwa muda wa rekodi, na kubadilisha papo hapo kiasi kikubwa kuwa kitu kidogo kama samadi.
 

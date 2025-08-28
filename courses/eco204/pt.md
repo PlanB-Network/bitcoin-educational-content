@@ -488,7 +488,7 @@ Quando a moeda se deprecia a uma velocidade vertiginosa, até mesmo as tentativa
 
 > Zimbábue: "De 2002 a janeiro de 2009, houve várias carências críticas de liquidez. Simplesmente não havia cédulas suficientes impressas ou em circulação para acompanhar a inflação galopante."
 
-2. "E virou esterco!"
+#### 2. "E isso é estrume!"
 
 A velocidade com que a moeda pode perder seu valor em determinadas situações econômicas é surpreendente. Quantias astronômicas de cédulas podem ser emitidas em tempo recorde, transformando instantaneamente somas outrora consideráveis em algo tão insignificante quanto esterco.
 

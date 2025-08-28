@@ -775,7 +775,7 @@ Wanneer valuta met een duizelingwekkende snelheid in waarde daalt, kunnen zelfs 
 
 > Zimbabwe: "Van 2002 tot januari 2009 waren er verschillende kritieke liquiditeitstekorten. Er waren gewoon niet genoeg bankbiljetten gedrukt of in omloop om de torenhoge inflatie bij te houden."
 
-2. "En het is mest!"
+#### 2. "En dat is mest!"
 
 
 De snelheid waarmee geld zijn waarde kan verliezen in bepaalde economische situaties is verbazingwekkend. Astronomische hoeveelheden bankbiljetten kunnen in recordtijd worden uitgegeven, waardoor ooit aanzienlijke bedragen in iets onbeduidends als mest veranderen.

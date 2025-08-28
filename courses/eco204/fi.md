@@ -460,7 +460,7 @@ Kun valuutta arvostetaan nopeasti alas, jopa kunnianhimoisimmat yritykset tulvit
 
 > Zimbabwe: "Vuodesta 2002 tammikuuhun 2009 oli useita kriittisiä likviditeettipuutteita. Painettuja tai liikkeessä olevia seteleitä ei yksinkertaisesti ollut tarpeeksi kattamaan räjähdysmäisesti kasvavaa inflaatiota."
 
-2. "Ja se on lantaa!"
+#### 2. "Ja se on lantaa!"
 
 Se nopeus, jolla valuutta voi menettää arvonsa tietyissä taloustilanteissa, on hämmästyttävä. Astronomisia määriä seteleitä voidaan laskea liikkeelle ennätysajassa, muuttaen kerralla merkittävät summat joksikin yhtä merkityksettömäksi kuin lanta.
 Weimar: "Nykyinen kokonaisliikkeeseenlasku on 63 000 miljardia. Muutaman päivän sisällä voimme siis laskea liikkeeseen kaksi kolmasosaa koko kierrosta yhdessä päivässä."

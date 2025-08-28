@@ -443,7 +443,7 @@ Cuando la moneda se deprecia a una velocidad vertiginosa, incluso los intentos m
 
 > Zimbabue: "Desde 2002 hasta enero de 2009, hubo varias graves carencias de liquidez. Simplemente no había suficientes billetes impresos o en circulación para mantener el ritmo de la inflación galopante."
 
-2. "¡Y es estiércol!"
+#### 2. "¡Y eso es estiércol!"
 
 La velocidad con la que la moneda puede perder su valor en ciertas situaciones económicas es asombrosa. Cantidades astronómicas de billetes pueden ser emitidas en tiempo récord, transformando instantáneamente sumas que alguna vez fueron considerables en algo tan insignificante como estiércol.
 

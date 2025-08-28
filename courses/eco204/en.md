@@ -486,7 +486,7 @@ When currency depreciates at a dizzying speed, even the most ambitious attempts 
 
 > Zimbabwe: "From 2002 to January 2009, there were several critical liquidity shortages. There simply weren't enough banknotes printed or in circulation to keep up with the skyrocketing inflation."
 
-2. "And it's manure!"
+#### 2. "And that's manure!"
 
 The speed at which currency can lose its value in certain economic situations is astonishing. Astronomical amounts of banknotes can be issued in record time, instantly transforming once considerable sums into something as insignificant as manure.
 

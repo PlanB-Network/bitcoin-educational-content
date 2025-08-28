@@ -482,7 +482,7 @@ Wenn die Währung in atemberaubender Geschwindigkeit an Wert verliert, können s
 
 > Simbabwe: "Von 2002 bis Januar 2009 gab es mehrere kritische Liquiditätsengpässe. Es gab einfach nicht genug gedruckte oder im Umlauf befindliche Banknoten, um mit der galoppierenden Inflation Schritt zu halten."
 
-2. "Und das ist Mist!"
+#### 2. "Und das ist Mist!"
 
 Die Geschwindigkeit, mit der die Währung in bestimmten wirtschaftlichen Situationen an Wert verlieren kann, ist erstaunlich. Astronomische Mengen an Banknoten können in kürzester Zeit ausgegeben werden und verwandeln einst beträchtliche Summen fast augenblicklich in etwas so bedeutungsloses wie Mist.
 

@@ -775,7 +775,7 @@ Kada valuta deprecira vrtoglavom brzinom, čak i najambiciozniji pokušaji da se
 
 > Zimbabve: "Od 2002. do januara 2009. bilo je nekoliko kritičnih nestašica likvidnosti. Jednostavno nije bilo dovoljno odštampanih novčanica ili u opticaju da bi se pratila vrtoglava inflacija."
 
-2. "I to je stajsko đubrivo!"
+#### 2. "I to je stajnjak!"
 
 
 Brzina kojom valuta može izgubiti svoju vrednost u određenim ekonomskim situacijama je zapanjujuća. Astronomske količine novčanica mogu biti izdate u rekordnom vremenu, momentalno pretvarajući nekada značajne sume u nešto beznačajno poput đubriva.

@@ -775,7 +775,7 @@ Gdy waluta traci na wartości w zawrotnym tempie, nawet najbardziej ambitne pró
 
 > Zimbabwe: "Od 2002 r. do stycznia 2009 r. wystąpiło kilka krytycznych niedoborów płynności. Po prostu nie było wystarczającej liczby banknotów wydrukowanych lub znajdujących się w obiegu, aby nadążyć za gwałtownie rosnącą inflacją"
 
-2. "I to jest nawóz!"
+#### 2. "A to jest gnój!"
 
 
 Szybkość, z jaką waluta może stracić na wartości w pewnych sytuacjach gospodarczych, jest zdumiewająca. Astronomiczne ilości banknotów mogą zostać wyemitowane w rekordowym czasie, natychmiast przekształcając niegdyś znaczne sumy w coś tak nieznaczącego jak obornik.

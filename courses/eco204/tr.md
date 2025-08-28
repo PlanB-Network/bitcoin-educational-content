@@ -775,7 +775,7 @@ Para baş döndürücü bir hızla değer kaybettiğinde, piyasayı yeni banknot
 
 > Zimbabve: "2002'den Ocak 2009'a kadar çok sayıda kritik likidite sıkıntısı yaşandı. Hızla artan enflasyonu karşılamaya yetecek kadar banknot basılmadı ya da dolaşımda değildi."
 
-2. "Ve bu gübre!"
+#### 2. "Ve bu gübre!"
 
 
 Belirli ekonomik durumlarda paranın değerini kaybetme hızı hayret vericidir. Rekor sürede astronomik miktarlarda banknot basılabilir ve bir zamanlar hatırı sayılır meblağlar anında gübre kadar önemsiz bir şeye dönüşebilir.

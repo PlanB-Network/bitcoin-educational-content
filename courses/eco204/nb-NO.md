@@ -466,7 +466,7 @@ Når valutaen avskrives med svimlende fart, kan selv de mest ambisiøse forsøke
 
 > Zimbabwe: "Fra 2002 til januar 2009 var det flere kritiske likviditetsmangler. Det var rett og slett ikke nok sedler trykket eller i omløp for å holde tritt med den skyhøye inflasjonen."
 
-2. "Og det er gjødsel!"
+#### 2. "Og det er gjødsel!"
 
 Farten som valuta kan miste sin verdi i visse økonomiske situasjoner er forbløffende. Astronomiske mengder sedler kan bli utstedt på rekordtid, og øyeblikkelig forvandle en gang betydelige summer til noe så ubetydelig som gjødsel.
 Weimar: "Det nåværende totale utstedelsesbeløpet er på 63 000 milliarder. Om noen dager vil vi derfor kunne utstede to tredjedeler av den totale sirkulasjonen på én dag."

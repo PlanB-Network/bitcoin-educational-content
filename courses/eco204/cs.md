@@ -466,7 +466,7 @@ Když měna ztrácí hodnotu závratnou rychlostí, i ty nejambicióznější po
 
 > Zimbabwe: "Od roku 2002 do ledna 2009 bylo několik kritických nedostatků likvidity. Jednoduše nebylo dostatek tištěných bankovek nebo bankovek v oběhu, aby udržely krok se strmě rostoucí inflací."
 
-2. "A je to hnoj!"
+#### 2. "A to je hnůj!"
 
 Rychlost, s jakou může měna ztrácet hodnotu v určitých ekonomických situacích, je ohromující. Astronomické částky bankovek mohou být vydány v rekordním čase, okamžitě proměňující kdysi značné sumy na něco tak nepatrného jako hnoj.
 Weimar: "Současná celková emise činí 63 000 miliard. Za několik dní budeme tedy schopni vydat dvě třetiny celkového oběhu za jeden den."

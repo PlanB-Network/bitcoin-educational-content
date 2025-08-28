@@ -465,7 +465,7 @@ Ketika mata uang terdepresiasi dengan kecepatan yang memusingkan, bahkan upaya p
 
 > Zimbabwe: "Dari tahun 2002 hingga Januari 2009, terjadi beberapa kekurangan likuiditas kritis. Sederhananya, tidak ada cukup uang kertas yang dicetak atau beredar untuk mengimbangi inflasi yang melonjak."
 
-2. "Dan itu adalah pupuk!"
+#### 2. "Dan itu pupuk kandang!"
 
 Kecepatan di mana mata uang dapat kehilangan nilainya dalam situasi ekonomi tertentu sangat menakjubkan. Jumlah uang kertas yang astronomis dapat diterbitkan dalam waktu rekor, seketika mengubah jumlah yang dulunya besar menjadi sesuatu yang tidak signifikan seperti pupuk.
 Weimar: "Total penerbitan saat ini mencapai 63.000 miliar. Dalam beberapa hari, kami akan dapat menerbitkan dua pertiga dari total peredaran dalam satu hari."

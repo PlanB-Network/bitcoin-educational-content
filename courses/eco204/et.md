@@ -468,7 +468,7 @@ Kui valuuta väärtus langeb pöörase kiirusega, võivad isegi kõige ambitsioo
 
 > Zimbabwe: "2002. aastast kuni jaanuarini 2009 oli mitmeid kriitilisi likviidsuspuudujääke. Lihtsalt ei olnud piisavalt trükitud pangatähti või ringluses, et sammu pidada hüppeliselt tõusva inflatsiooniga."
 
-2. "Ja see on sõnnik!"
+#### 2. "Ja see on sõnnik!"
 
 Valuuta väärtuse kiire kaotamine teatud majandusolukordades on hämmastav. Astronoomilisi pangatähtede summasid võib välja anda rekordajaga, muutes kord arvestatavad summad midagi nii tühiseks kui sõnnik.
 Weimar: "Praegune koguväljaanne ulatub 63 000 miljardi euroni. Mõne päeva pärast suudame seega ühe päevaga välja lasta kaks kolmandikku kogu ringlusest."

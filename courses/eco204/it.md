@@ -450,7 +450,7 @@ Quando la moneta si deprezza a una velocità vertiginosa, anche i tentativi più
 
 > Zimbabwe: "Dal 2002 a gennaio 2009, ci furono diverse gravi carenze di liquidità. Semplicemente non c'erano abbastanza banconote stampate o in circolazione per tenere il passo con l'inflazione galoppante."
 
-2. "Ed è letame!"
+#### 2. "Ed è letame!"
 
 La velocità con cui la moneta può perdere il suo valore in certe situazioni economiche è sconcertante. Importi astronomici di banconote possono essere emessi in tempi record, trasformando quasi istantaneamente somme un tempo considerevoli in qualcosa di insignificante come il letame.
 

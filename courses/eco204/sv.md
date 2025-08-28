@@ -775,7 +775,7 @@ När valutan deprecierar i en svindlande hastighet kan även de mest ambitiösa 
 
 > Zimbabwe: "Från 2002 till januari 2009 rådde flera kritiska likviditetsbrister. Det fanns helt enkelt inte tillräckligt med sedlar tryckta eller i omlopp för att hålla jämna steg med den skyhöga inflationen."
 
-2. "Och det är gödsel!"
+#### 2. "Och det är gödsel!"
 
 
 Den hastighet med vilken valuta kan förlora sitt värde i vissa ekonomiska situationer är häpnadsväckande. Astronomiska mängder sedlar kan ges ut på rekordtid, vilket omedelbart förvandlar en gång betydande summor till något så obetydligt som gödsel.

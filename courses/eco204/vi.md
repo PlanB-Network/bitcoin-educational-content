@@ -462,7 +462,7 @@ Khi đồng tiền mất giá với tốc độ chóng mặt, ngay cả những 
 
 > Zimbabwe: "Từ năm 2002 đến tháng 1 năm 2009, đã có một số cuộc khủng hoảng thanh khoản nghiêm trọng. Đơn giản là không có đủ tiền giấy được in ra hoặc trong lưu thông để theo kịp với mức lạm phát cao chót vót."
 
-2. "Và nó là phân bón!"
+#### 2. "Và đó là phân chuồng!"
 
 Tốc độ mà đồng tiền có thể bị mất giá trị trong một số tình huống kinh tế là rất đáng kinh ngạc. Số lượng tiền giấy khổng lồ có thể được phát hành trong thời gian kỷ lục, biến một số tiền từng được coi là đáng kể trở thành vô giá trị như phân bón.
 

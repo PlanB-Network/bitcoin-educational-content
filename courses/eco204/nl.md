@@ -887,7 +887,7 @@ Zimbabwe: "De regering voerde op 12 december 2008 SI 175/2008 in met betrekking 
 ![image](assets/fr/043.webp)
 
 
-11. Gedwongen om hun winkels open te houden
+#### 11. Gedwongen hun winkels open te houden
 
 
 Wanneer de economie instort en de munt zijn waarde verliest, kunnen regeringen hun toevlucht nemen tot drastische maatregelen om de schijn van normale gang van zaken op te houden.

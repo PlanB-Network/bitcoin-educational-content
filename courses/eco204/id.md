@@ -538,7 +538,7 @@ Weimar: "Para pedagang baru-baru ini dipaksa oleh dekrit baru untuk menerima uan
 Zimbabwe: "Pemerintah memperkenalkan SI 175/2008 pada tanggal 12 Desember 2008, mengenai pembayaran dengan cek. Dinyatakan, 'Denda untuk menolak pembayaran dengan cek/kartu bank atau metode pembayaran elektronik yang dimediasi bank lainnya akan dikenakan denda level 8 atau hukuman penjara enam bulan atau keduanya.' Jelas, kami mengabaikan SI tersebut karena itu sama sekali tidak sesuai dengan realitas."
 ![image](assets/fr/043.webp)
 
-11. Dipaksa untuk Menjaga Toko Tetap Buka
+#### 11. Dipaksa untuk tetap membuka toko mereka
 
 Ketika ekonomi runtuh dan mata uang kehilangan nilainya, pemerintah dapat mengambil langkah drastis untuk mempertahankan penampilan normalitas.
 

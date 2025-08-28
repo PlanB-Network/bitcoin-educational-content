@@ -560,7 +560,7 @@ Simbabwe: "Die Regierung führte am 12. Dezember 2008 die SI 175/2008 ein, die s
 
 ![image](assets/fr/043.webp)
 
-11. Gezwungen, ihre Geschäfte offen zu halten
+#### 11. Gezwungen, ihre Geschäfte offen zu halten
 
 Wenn die Wirtschaft zusammenbricht und die Währung an Wert verliert, können Regierungen drastische Maßnahmen ergreifen, um den Anschein von Normalität aufrechtzuerhalten.
 

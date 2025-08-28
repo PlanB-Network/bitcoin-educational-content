@@ -532,7 +532,7 @@ Zimbabwe: "Il governo ha introdotto il SI 175/2008 il 12 dicembre 2008 riguardan
 
 ![imagen](assets/fr/043.webp)
 
-11. Obbligati a tenere aperti i loro negozi
+#### 11. Costretti a tenere aperti i loro negozi
 
 Quando l'economia collassa e la moneta perde valore, i governi possono adottare misure drastiche per mantenere un'apparenza di normalità.
 

@@ -887,7 +887,7 @@ Zimbabwe: "Regeringen införde SI 175/2008 den 12 december 2008 avseende betalni
 ![image](assets/fr/043.webp)
 
 
-11. Tvingade att hålla sina butiker öppna
+#### 11. Tvingade att hålla sina butiker öppna
 
 
 När ekonomin kollapsar och valutan förlorar sitt värde kan regeringar ta till drastiska åtgärder för att upprätthålla ett sken av normalitet.

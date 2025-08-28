@@ -539,7 +539,7 @@ Weimar: "Obchodníci byli nedávno novým dekretem donuceni přijímat státní 
 Zimbabwe: "Vláda zavedla SI 175/2008 dne 12. prosince 2008, které se týkalo platby šeky. Uvádělo se v něm: 'Pokuta za odmítnutí platby šekem/bankovní kartou nebo jakoukoli jinou elektronickou platební metodou prostřednictvím banky bude pokuta osmého stupně nebo vězení na šest měsíců, nebo obojí.' Samozřejmě jsme SI ignorovali, protože to bylo naprosto mimo realitu."
 ![image](assets/fr/043.webp)
 
-11. Nuceni udržovat své obchody otevřené
+#### 11. Donuceni držet své obchody otevřené
 
 Když ekonomika kolabuje a měna ztrácí svou hodnotu, vlády mohou sáhnout k drastickým opatřením, aby udržely zdání normálnosti.
 

@@ -648,7 +648,7 @@ Zimbabwe: "Fiat money (pesa za serikali) ilianzisha SI 175/2008 mnamo Desemba 12
 
 ![image](assets/fr/043.webp)
 
-11. Kulazimishwa kuweka maduka yao wazi
+#### 11. Wamelazimishwa kuendelea kufungua maduka yao
 
 Uchumi unapoporomoka na sarafu ikapoteza thamani yake, Fiat money (pesa za serikali) zinaweza kuchukua hatua kali ili kudumisha mwonekano wa hali ya kawaida.
 

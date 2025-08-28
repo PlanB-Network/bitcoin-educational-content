@@ -542,7 +542,7 @@ Zimbabwe: "Chính phủ đã giới thiệu sắc lệnh 175/2008 vào ngày 12 
 
 ![image](assets/fr/043.webp)
 
-11. Bắt buộc phải giữ cửa hàng mở cửa
+#### 11. Bị buộc phải giữ cửa hàng của họ mở
 
 Khi nền kinh tế sụp đổ và đồng tiền mất giá trị, chính phủ có thể sử dụng các biện pháp mạnh mẽ để duy trì vẻ ngoài bình thường.
 

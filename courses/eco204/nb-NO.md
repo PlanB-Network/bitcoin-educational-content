@@ -539,7 +539,7 @@ Weimar: "Handelsmenn hadde nylig blitt tvunget av et nytt dekret til å aksepter
 Zimbabwe: "Regjeringen innførte SI 175/2008 den 12. desember 2008, angående betaling med sjekker. Det ble uttalt, 'Straffen for å nekte betaling med sjekk/bankkort eller annen bankformidlet elektronisk betalingsmetode skal være en bot på nivå 8 eller en fengselsstraff på seks måneder eller begge deler.' Åpenbart ignorerte vi SI fordi den var fullstendig ute av kontakt med virkeligheten."
 ![bilde](assets/fr/043.webp)
 
-11. Tvunget til å holde butikkene åpne
+#### 11. Tvunget til å holde butikkene sine åpne
 
 Når økonomien kollapser og valutaen mister sin verdi, kan regjeringer ty til drastiske tiltak for å opprettholde et skinn av normalitet.
 

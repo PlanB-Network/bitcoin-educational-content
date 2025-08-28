@@ -887,7 +887,7 @@ Zimbabwe: "W dniu 12 grudnia 2008 r. rząd wprowadził SI 175/2008 dotyczący p�
 ![image](assets/fr/043.webp)
 
 
-11. Zmuszeni do utrzymywania otwartych sklepów
+#### 11. Zmuszeni do utrzymywania swoich sklepów otwartych
 
 
 Kiedy gospodarka się załamuje, a waluta traci na wartości, rządy mogą uciekać się do drastycznych środków, aby zachować pozory normalności.

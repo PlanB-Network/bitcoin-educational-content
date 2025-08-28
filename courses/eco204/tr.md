@@ -887,7 +887,7 @@ Zimbabve: "Hükümet 12 Aralık 2008 tarihinde çekle ödemeye ilişkin SI 175/2
 ![image](assets/fr/043.webp)
 
 
-11. Dükkanlarını açık tutmaya zorlandılar
+#### 11. Dükkânlarını açık tutmaya zorlandılar
 
 
 Ekonomi çöktüğünde ve para birimi değer kaybettiğinde, hükümetler normallik görüntüsünü korumak için sert önlemlere başvurabilir.

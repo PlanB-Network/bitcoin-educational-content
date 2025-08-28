@@ -571,7 +571,7 @@ Zimbabwe: "O governo introduziu o SI 175/2008 em 12 de dezembro de 2008, referen
 
 ![imagen](assets/fr/043.webp)
 
-11. Obrigados a manter suas lojas abertas
+#### 11. Forçados a manter suas lojas abertas
 
 Quando a economia entra em colapso e a moeda perde seu valor, os governos podem recorrer a medidas drásticas para manter uma aparência de normalidade.
 

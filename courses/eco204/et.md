@@ -541,7 +541,7 @@ Weimar: "Kaupmehed olid hiljuti sunnitud uue dekreediga aktsepteerima riigipanga
 Zimbabwe: "Valitsus tutvustas 12. detsembril 2008 SI 175/2008 seoses maksmisega tšekkidega. Selles öeldi: 'Karistus maksmisest keeldumise eest tšeki/pangakaardi või mis tahes muu panga vahendatud elektroonilise makseviisi abil on 8. taseme trahv või kuuekuuline vanglakaristus või mõlemad.' Ilmselgelt me ignoreerisime SI-d, kuna see oli täielikult reaalsusest irdunud."
 ![image](assets/fr/043.webp)
 
-11. Sunnitud hoidma oma poode avatuna
+#### 11. Sunnitud hoidma oma poode avatuna
 
 Kui majandus kokku variseb ja valuuta kaotab oma väärtuse, võivad valitsused kasutada drastilisi meetmeid normaalsuse mulje säilitamiseks.
 

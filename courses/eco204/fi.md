@@ -531,7 +531,7 @@ Weimar: "Kauppiaat olivat äskettäin pakotettu uudella asetuksella hyväksymä�
 Zimbabwe: "Hallitus otti käyttöön SI 175/2008 -asetuksen 12. joulukuuta 2008, joka koski maksamista shekeillä. Siinä todettiin, että 'rangaistus maksun kieltämisestä shekillä/pankkikortilla tai muulla pankin välittämällä elektronisella maksutavalla on tason 8 sakko tai kuuden kuukauden vankeusrangaistus tai molemmat.' Ilmiselvästi me jätimme SI:n huomiotta, koska se oli täysin irti todellisuudesta."
 ![kuva](assets/fr/043.webp)
 
-11. Pakotettu pitämään kauppansa auki
+#### 11. Pakotettu pitämään kauppansa auki
 
 Kun talous romahtaa ja valuutta menettää arvonsa, hallitukset voivat turvautua radikaaleihin toimenpiteisiin säilyttääkseen normaaliuden vaikutelman.
 

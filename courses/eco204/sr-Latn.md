@@ -887,7 +887,7 @@ Zimbabve: "Vlada je uvela SI 175/2008 12. decembra 2008. godine, u vezi sa plać
 ![image](assets/fr/043.webp)
 
 
-11. Primorani da drže svoje radnje otvorene
+#### 11. Primorani da drže svoje prodavnice otvorene
 
 
 Kada ekonomija kolabira i valuta izgubi svoju vrednost, vlade mogu pribegavati drastičnim merama kako bi održale privid normalnosti.

@@ -565,7 +565,7 @@ Zimbabwe: "The government introduced SI 175/2008 on December 12, 2008, regarding
 
 ![image](assets/fr/043.webp)
 
-11. Forced to keep their shops open
+#### 11. Forced to keep their shops open
 
 When the economy collapses and the currency loses its value, governments can resort to drastic measures to maintain an appearance of normalcy.
 

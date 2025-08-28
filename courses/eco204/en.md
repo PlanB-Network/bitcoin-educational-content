@@ -499,7 +499,7 @@ The speed at which currency can lose its value in certain economic situations is
 
 > Zimbabwe: "The central bank wasted money by printing a banknote that was not worth the paper it was printed on. In other words, its value was lower than that of toilet paper. As absurd as it may sound, it was cheaper to use the ZWD 100 trillion banknote as toilet paper than to buy actual toilet paper."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Money Counting
 

@@ -793,7 +793,7 @@ Belirli ekonomik koşullarda, bir banknotun gerçek değeri, üzerine basıldı�
 
 > Zimbabve: "Merkez bankası, üzerine basıldığı kâğıda değmeyen bir banknot basarak parayı boşa harcadı. Başka bir deyişle, değeri tuvalet kağıdından daha düşüktü. Kulağa ne kadar saçma gelse de, 100 trilyon ZWD'lik banknotu tuvalet kağıdı olarak kullanmak, gerçek tuvalet kağıdı almaktan daha ucuzdu."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 
 4. Para Sayma

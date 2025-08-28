@@ -793,7 +793,7 @@ Under vissa ekonomiska omständigheter kan en sedels inneboende värde bli lägr
 
 > Zimbabwe: "Centralbanken slösade bort pengar genom att trycka en sedel som inte var värd pappret den trycktes på. Med andra ord var dess värde lägre än för toalettpapper. Hur absurt det än kan låta var det billigare att använda en sedel på 100 biljoner zWD som toalettpapper än att köpa riktigt toalettpapper."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 
 4. Räkning av pengar

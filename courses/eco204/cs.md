@@ -477,7 +477,7 @@ Zimbabwe: "Dne 17. září 2006 prohlásil guvernér RBZ, Gideon Gono: 'Ještě 
 
 > Zimbabwe: "Centrální banka promrhala peníze tiskem bankovky, která nestála ani za papír, na kterém byla tištěna. Jinými slovy, její hodnota byla nižší než hodnota toaletního papíru. Jak absurdní to může znít, bylo levnější použít bankovku ZWD 100 bilionů jako toaletní papír než koupit skutečný toaletní papír."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Počítání peněz
 

@@ -475,7 +475,7 @@ Tốc độ mà đồng tiền có thể bị mất giá trị trong một số 
 
 > Zimbabwe: "Ngân hàng trung ương đã lãng phí tiền bằng cách in một tờ tiền giấy không đáng giá bằng tờ giấy in. Nói cách khác, giá trị của nó thấp hơn giấy vệ sinh. Dù nghe có vẻ vô lý, nhưng việc sử dụng tờ tiền 100 nghìn tỷ ZWD để làm giấy vệ sinh còn rẻ hơn là mua giấy vệ sinh thực sự."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Đếm tiền
 

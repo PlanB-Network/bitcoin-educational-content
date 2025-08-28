@@ -793,7 +793,7 @@ U određenim ekonomskim okolnostima, intrinzična vrednost novčanice može post
 
 > Zimbabve: "Centralna banka je protraćila novac štampajući novčanicu koja nije vredela ni papira na kojem je odštampana. Drugim rečima, njena vrednost je bila niža od vrednosti toalet papira. Koliko god apsurdno zvučalo, bilo je jeftinije koristiti novčanicu od 100 triliona ZWD kao toalet papir nego kupiti pravi toalet papir."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 
 4. Brojanje Novca

@@ -479,7 +479,7 @@ Zimbabwe: "17. septembril 2006 kuulutas RBZ-i kuberner Gideon Gono: '10 triljoni
 
 > Zimbabwe: "Keskpank raiskas raha, trükkides pangatähe, mis polnud väärt paberit, millele see oli trükitud. Teisisõnu, selle väärtus oli madalam kui tualettpaberil. Nii absurdne kui see ka ei tundu, oli odavam kasutada ZWD 100 triljoni pangatähte tualettpaberina kui osta tegelikku tualettpaberit."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Raha Lugemine
 

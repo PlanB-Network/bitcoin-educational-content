@@ -793,7 +793,7 @@ In bepaalde economische omstandigheden kan de intrinsieke waarde van een bankbil
 
 > Zimbabwe: "De centrale bank verspilde geld door een bankbiljet te drukken dat het papier waarop het gedrukt werd niet waard was. Met andere woorden, het was minder waard dan toiletpapier. Hoe absurd het ook klinkt, het was goedkoper om het bankbiljet van 100 biljoen ZWD als toiletpapier te gebruiken dan om echt toiletpapier te kopen."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 
 4. Geld tellen

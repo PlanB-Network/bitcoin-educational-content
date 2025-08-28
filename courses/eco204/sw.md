@@ -580,7 +580,8 @@ Katika hali fulani za kiuchumi, thamani halisi ya noti inaweza kuwa chini kuliko
 
 > Weimar: "Madhehebu yote ya noti ya alama yalikuwa karibu kukosa thamani mara tu yalipotoka kwenye mashine ya uchapishaji."
 > Zimbabwe: "Benki kuu ilipoteza pesa kwa kuchapisha noti ambayo haikuwa na thamani ya karatasi iliyochapishwa. Kwa maneno mengine, thamani yake ilikuwa chini kuliko ile ya karatasi ya chooni. Ingawa inaweza kuonekana kuwa ni upuuzi, ilikuwa nafuu kutumia noti ya ZWD trilioni 100 kama karatasi ya chooni kuliko kununua karatasi halisi ya choo."
-![image](assets/chapitre-3.2/PN3.webp)
+
+![image](assets/chapitre-3.2/3.webp)
 
 4. Kuhesabu Pesa
 

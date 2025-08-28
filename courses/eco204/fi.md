@@ -471,7 +471,7 @@ Zimbabwe: "17. syyskuuta 2006 RBZ:n pääjohtaja Gideon Gono julisti: '10 biljoo
 
 > Zimbabwe: "Keskuspankki tuhlasi rahaa painamalla setelin, joka ei ollut painopaperinsa arvoinen. Toisin sanoen, sen arvo oli alempi kuin vessapaperin. Niin absurdilta kuin se kuulostaakin, oli halvempaa käyttää ZWD 100 biljoonan seteliä vessapaperina kuin ostaa oikeaa vessapaperia."
 
-![kuva](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Rahojen laskeminen
 

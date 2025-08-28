@@ -477,7 +477,7 @@ Zimbabwe: "Den 17. september 2006 erklærte guvernøren i RBZ, Gideon Gono: '10 
 
 > Zimbabwe: "Sentralbanken sløste bort penger ved å trykke en seddel som ikke var verdt papiret den var trykket på. Med andre ord, dens verdi var lavere enn toalettpapir. Så absurd det enn høres ut, var det billigere å bruke ZWD 100 billioner-seddelen som toalettpapir enn å kjøpe faktisk toalettpapir."
 
-![bilde](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Pengeregning
 

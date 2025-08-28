@@ -476,7 +476,7 @@ Zimbabwe: "Pada 17 September 2006, gubernur RBZ, Gideon Gono, menyatakan: 'Masih
 
 > Zimbabwe: "Bank sentral membuang-buang uang dengan mencetak uang kertas yang tidak sebanding dengan kertas tempat ia dicetak. Dengan kata lain, nilainya lebih rendah dari kertas toilet. Seabsurd mungkin terdengar, lebih murah menggunakan uang kertas ZWD 100 triliun sebagai kertas toilet daripada membeli kertas toilet yang sebenarnya."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 4. Menghitung Uang
 

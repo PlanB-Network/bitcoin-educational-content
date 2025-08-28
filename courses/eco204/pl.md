@@ -793,7 +793,7 @@ W pewnych okolicznościach gospodarczych wartość wewnętrzna banknotu może st
 
 > Zimbabwe: "Bank centralny zmarnował pieniądze, drukując banknot, który nie był wart papieru, na którym został wydrukowany. Innymi słowy, jego wartość była niższa niż papieru toaletowego. Choć może to zabrzmieć absurdalnie, taniej było użyć banknotu o wartości 100 bilionów ZWD jako papieru toaletowego niż kupić prawdziwy papier toaletowy"
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/chapitre-3.2/3.webp)
 
 
 4. Liczenie pieniędzy

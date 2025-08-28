@@ -52,7 +52,7 @@ Loại này nhanh hơn, nhưng không cần thiết và đắt:
 Đi tới [trang web GitHub của Raspiblitz](https://github.com/rootzoll/raspiblitz), và tìm liên kết “download image”:
 ![image](assets/4.webp)
 
-Mã hash sha-256 của tệp đã tải xuống được cung cấp trên trang web. Mã này sẽ thay đổi với mỗi bản cập nhật. Nếu bạn không hiểu điều này là gì, bạn nên tìm hiểu, vì vậy tôi đã viết một hướng dẫn bạn có thể đọc tại đây.
+Hash sha-256 của tệp đã tải xuống được cung cấp trên trang web. Nó sẽ thay đổi với mỗi bản cập nhật. Nếu bạn không hiểu đây là gì, bạn nên hiểu, vì vậy tôi đã viết một [hướng dẫn mà bạn có thể đọc tại đây.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 

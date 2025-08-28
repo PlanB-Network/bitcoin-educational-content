@@ -53,7 +53,7 @@ Navega al [sitio web de GitHub de Raspiblitz](https://github.com/rootzoll/raspib
 
 ![image](assets/4.webp)
 
-El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará con cada actualización. Si no entiendes de qué se trata esto, deberías hacerlo, así que escribí una guía que puedes leer aquí.
+El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará con cada actualización. Si no entiende de qué se trata, debería hacerlo, por eso escribí una [guía que puede leer aquí.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 

@@ -52,7 +52,7 @@ Tämä on nopeampi, mutta tarpeettoman kallis:
 Siirry [Raspiblitzin GitHub-sivustolle](https://github.com/rootzoll/raspiblitz) ja etsi linkki ”download image”:
 ![kuva](assets/4.webp)
 
-Ladatun tiedoston sha-256-tiiviste on annettu verkkosivustolla. Se muuttuu jokaisen päivityksen yhteydessä. Jos et ymmärrä, mistä tässä on kyse, sinun pitäisi, joten kirjoitin oppaan, jonka voit lukea täältä.
+Ladatun tiedoston sha-256-hajautus on saatavilla verkkosivustolla. Se muuttuu jokaisen päivityksen myötä. Jos et ymmärrä, mistä on kyse, sinun pitäisi, joten kirjoitin [oppaan, jonka voit lukea täältä.](https://armantheparman.com/gpg/)
 
 ![kuva](assets/5.webp)
 

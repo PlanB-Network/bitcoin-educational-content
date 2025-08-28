@@ -52,7 +52,7 @@ Dette er raskere, men unødvendig dyrt:
 Naviger til [Raspiblitz GitHub-nettstedet](https://github.com/rootzoll/raspiblitz), og finn lenken “download image”:
 ![bilde](assets/4.webp)
 
-SHA-256-hashen til den nedlastede filen er oppgitt på nettsiden. Den vil endre seg med hver oppdatering. Hvis du ikke forstår hva dette handler om, burde du det, så jeg skrev en guide du kan lese her.
+Sha-256-hashen til den nedlastede filen er oppgitt på nettstedet. Den vil endre seg med hver oppdatering. Hvis du ikke forstår hva dette handler om, bør du gjøre det, så jeg skrev en [veiledning du kan lese her.](https://armantheparman.com/gpg/)
 
 ![bilde](assets/5.webp)
 

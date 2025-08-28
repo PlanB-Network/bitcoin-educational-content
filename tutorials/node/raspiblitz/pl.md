@@ -78,7 +78,7 @@ Przejdź do [strony GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz) i
 ![image](assets/4.webp)
 
 
-Kod sha-256 Hash pobranego pliku jest dostępny na stronie internetowej. Będzie się on zmieniał z każdą aktualizacją. Jeśli nie rozumiesz, o co chodzi, powinieneś, więc napisałem przewodnik, który możesz przeczytać tutaj.
+Hash sha-256 pobranego pliku jest podany na stronie internetowej. Będzie się zmieniał przy każdej aktualizacji. Jeśli nie rozumiesz, o co chodzi, powinieneś, dlatego napisałem [przewodnik, który możesz przeczytać tutaj.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)

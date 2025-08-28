@@ -78,7 +78,7 @@ Navigera till [Raspiblitz GitHub-webbplatsen](https://github.com/rootzoll/raspib
 ![image](assets/4.webp)
 
 
-Den nedladdade filens sha-256 Hash tillhandahålls på webbplatsen. Det kommer att ändras med varje uppdatering. Om du inte förstår vad det här handlar om bör du göra det, så jag skrev en guide som du kan läsa här.
+Sha-256-hashen för den nedladdade filen finns på webbplatsen. Den kommer att ändras med varje uppdatering. Om du inte förstår vad detta handlar om bör du göra det, därför skrev jag en [guide som du kan läsa här.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)

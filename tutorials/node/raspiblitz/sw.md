@@ -78,7 +78,7 @@ Nenda kwenye [tovuti ya GitHub ya Raspiblitz](https://github.com/rootzoll/raspib
 ![image](assets/4.webp)
 
 
-Sha-256 Hash ya faili iliyopakuliwa imetolewa kwenye tovuti. Itabadilika kwa kila sasisho. Huelewi hii inahusu nini, unapaswa, kwa hivyo niliandika mwongozo ambao unaweza kusoma hapa.
+Hash ya sha-256 ya faili lililopakuliwa imetolewa kwenye tovuti. Itabadilika kila sasisho. Ikiwa huelewi hii inahusu nini, unapaswa kuelewa, kwa hivyo niliandika [mwongozo ambao unaweza kusoma hapa.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)

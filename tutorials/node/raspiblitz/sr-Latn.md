@@ -78,7 +78,7 @@ Idite na [Raspiblitz GitHub veb stranicu](https://github.com/rootzoll/raspiblitz
 ![image](assets/4.webp)
 
 
-Sha-256 Hash preuzetog fajla je obezbeđen na vebsajtu. Menjaće se sa svakim ažuriranjem. Ako ne razumete o čemu se radi, trebalo bi, pa sam napisao vodič koji možete pročitati ovde.
+Sha-256 heš preuzetog fajla je dostupan na veb-sajtu. Menjaće se sa svakim ažuriranjem. Ako ne razumete o čemu se radi, trebalo bi, pa sam napisao [vodič koji možete pročitati ovde.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)

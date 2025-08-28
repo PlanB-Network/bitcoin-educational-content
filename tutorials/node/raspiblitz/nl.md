@@ -78,7 +78,7 @@ Ga naar de [Raspiblitz GitHub-website](https://github.com/rootzoll/raspiblitz) e
 ![image](assets/4.webp)
 
 
-De sha-256 Hash van het gedownloade bestand staat op de website. Deze verandert bij elke update. Als je niet begrijpt waar dit over gaat, zou je dat wel moeten doen. Daarom heb ik een handleiding geschreven die je hier kunt lezen.
+De sha-256-hash van het gedownloade bestand wordt op de website vermeld. Deze verandert bij elke update. Als u niet begrijpt waar dit over gaat, zou u dat wel moeten doen, daarom heb ik een [handleiding geschreven die u hier kunt lezen.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)

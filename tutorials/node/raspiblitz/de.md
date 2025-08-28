@@ -54,7 +54,7 @@ Navigieren Sie zur [Raspiblitz-GitHub-Website](https://github.com/rootzoll/raspi
 
 ![image](assets/4.webp)
 
-Der SHA-256-Hash der heruntergeladenen Datei wird auf der Website bereitgestellt. Er ändert sich bei jedem Update. Wenn Sie nicht verstehen, worum es geht, sollten Sie dies tun, daher habe ich einen Leitfaden geschrieben, den Sie hier lesen können.
+Der sha-256-Hash der heruntergeladenen Datei wird auf der Website bereitgestellt. Er ändert sich mit jedem Update. Wenn Sie nicht verstehen, worum es hier geht, sollten Sie es tun, daher habe ich eine [Anleitung geschrieben, die Sie hier lesen können.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 

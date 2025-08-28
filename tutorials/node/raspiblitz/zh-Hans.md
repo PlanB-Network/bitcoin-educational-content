@@ -52,7 +52,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 导航到 [Raspiblitz GitHub 网站](https://github.com/rootzoll/raspiblitz)，然后找到“download image”链接：
 ![image](assets/4.webp)
 
-网站上提供了下载文件的sha-256哈希值。每次更新时这个值都会改变。如果你不明白这是什么意思，你应该去了解一下，所以我写了一个指南，你可以在这里阅读。
+下载文件的 sha-256 哈希值在网站上提供。它会随着每次更新而改变。如果你不明白这是关于什么的，你应该明白，所以我写了一份[你可以在这里阅读的指南。](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 

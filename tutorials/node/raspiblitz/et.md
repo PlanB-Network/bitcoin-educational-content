@@ -52,7 +52,7 @@ See on kiirem, kuid tarbetult kallis:
 Liigu [Raspiblitz GitHubi veebisaidile](https://github.com/rootzoll/raspiblitz) ja leia link „download image“:
 ![image](assets/4.webp)
 
-Allalaaditud faili sha-256 räsi on veebilehel saadaval. See muutub iga uuendusega. Kui te ei saa aru, mis see on, siis peaksite seda tegema, seega kirjutasin juhendi, mida saate siin lugeda.
+Allalaaditud faili sha-256 räsi on veebisaidil esitatud. See muutub iga värskendusega. Kui te ei saa aru, milles asi on, peaksite, seetõttu kirjutasin [juhendi, mida saate lugeda siit.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 

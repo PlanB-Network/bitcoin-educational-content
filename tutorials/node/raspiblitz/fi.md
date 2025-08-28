@@ -63,6 +63,7 @@ Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on help
 Tässä on [hyödyllinen video Linuxille, mutta se pätee myös Maciin](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Windowsille tässä on [yksinkertainen opetusohjelma](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_PÄIVITYS: pgp/gpg-varmennus on nyt saatavilla. Tarvitset Openomsin julkisen avaimen. [Tässä](http://parman.org/downloadable/openoms.txt) se on (saatat tarvita incognito-tilaa, jotta linkki toimii – http, ei https)_
 Mac/Linux
 
 Odota, että tiedosto on valmis latautumaan (tärkeää!), ja avaa sitten terminaali, siirry kansioon, johon latasit tiedoston, ja kirjoita seuraava komento...

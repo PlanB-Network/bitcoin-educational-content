@@ -63,6 +63,7 @@ Sebelum melanjutkan, jika Anda tidak tahu cara berkeliling sistem file di baris 
 Berikut adalah [video yang berguna untuk Linux, tetapi juga berlaku untuk Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Untuk Windows, berikut adalah [tutorial sederhana](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_PEMBARUAN: Verifikasi pgp/gpg sekarang tersedia. Anda memerlukan kunci publik Openoms. [Di sini](http://parman.org/downloadable/openoms.txt) ada (Anda mungkin perlu mode penyamaran agar tautan berfungsi – http, bukan https)_
 Mac/Linux
 
 Tunggu file selesai diunduh (penting!), dan kemudian buka terminal, navigasikan ke tempat Anda mengunduh file, dan ketik perintah berikut…

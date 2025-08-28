@@ -96,6 +96,7 @@ Oto [przydatne wideo dla systemu Linux, ale dotyczy także Maca](https://youtu.b
 Dla systemu Windows oto [prosty samouczek](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_AKTUALIZACJA: Weryfikacja pgp/gpg jest już dostępna. Będziesz potrzebować klucza publicznego Openoms. [Tutaj](http://parman.org/downloadable/openoms.txt) on jest (może być konieczne użycie trybu incognito, aby link działał – http, nie https)_
 Mac/Linux
 
 

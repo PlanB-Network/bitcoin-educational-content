@@ -67,6 +67,8 @@ Here is a [useful video for Linux, but applies to Mac](https://youtu.be/id3DGvl
 
 For windows, here’s a [simple tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
+_UPDATE: pgp/gpg verification is now available. You’ll need Openoms’s public key. [Here](http://parman.org/downloadable/openoms.txt) it is (you might need incognito mode for the link to work – http, not https)_
+
 Mac/Linux
 
 Wait for the file to finish downloading (important!), then with terminal open, navigate to where you downloaded the file, and type the following command:

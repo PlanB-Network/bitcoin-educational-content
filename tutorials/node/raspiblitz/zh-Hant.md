@@ -96,6 +96,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 對於 Windows，這裡有一個[簡單的教學](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)。
 
 
+_更新：pgp/gpg 驗證現已可用。您需要 Openoms 的公鑰。[在這裡](http://parman.org/downloadable/openoms.txt)（連結可能需要隱身模式才能運作 – http，而非 https）_
 Mac/Linux
 
 

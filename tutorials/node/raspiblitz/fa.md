@@ -96,6 +96,7 @@ Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌ک�
 برای ویندوز، اینجا یک [آموزش ساده](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) است.
 
 
+_به‌روزرسانی: تأیید pgp/gpg اکنون در دسترس است. شما به کلید عمومی Openoms نیاز دارید. [اینجا](http://parman.org/downloadable/openoms.txt) است (ممکن است برای کارکردن لینک به حالت ناشناس نیاز داشته باشید – http، نه https)_
 مک/لینوکس
 
 

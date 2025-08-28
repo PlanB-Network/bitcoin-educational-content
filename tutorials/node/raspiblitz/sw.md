@@ -96,6 +96,7 @@ Hapa kuna [video yenye msaada kwa Linux, lakini pia inatumika kwa Mac](https://y
 Kwa Windows, hapa kuna [mafunzo rahisi](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_SASISHO: Uthibitishaji wa pgp/gpg sasa unapatikana. Utahitaji ufunguo wa umma wa Openoms. [Hapa](http://parman.org/downloadable/openoms.txt) ndio ulipo (huenda ukahitaji hali fiche ili kiungo kifanye kazi – http, sio https)_
 Mac/Linux
 
 

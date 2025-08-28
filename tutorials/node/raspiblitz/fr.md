@@ -65,6 +65,7 @@ Avant de continuer, si vous ne connaissez pas le système de fichiers en ligne d
 Voici une [vidéo utile pour Linux, mais qui s’applique aussi à Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Pour Windows, voici un [tutoriel simple](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_MISE À JOUR : la vérification pgp/gpg est désormais disponible. Vous aurez besoin de la clé publique d’Openoms. [La voici](http://parman.org/downloadable/openoms.txt) (il se peut que vous ayez besoin du mode navigation privée pour que le lien fonctionne – http, pas https)_
 Mac/Linux
 
 Attendez que le téléchargement du fichier soit terminé (important!), puis ouvrez le terminal, accédez à l'endroit où vous avez téléchargé le fichier et tapez la commande suivante...

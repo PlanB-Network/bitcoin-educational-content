@@ -96,6 +96,7 @@ Hier is een [nuttige video voor Linux, maar die geldt ook voor Mac](https://yout
 Voor Windows is hier een [eenvoudige handleiding](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_UPDATE: pgp/gpg-verificatie is nu beschikbaar. Je hebt de openbare sleutel van Openoms nodig. [Hier](http://parman.org/downloadable/openoms.txt) is deze (mogelijk moet je incognitomodus gebruiken zodat de link werkt – http, niet https)_
 Mac/Linux
 
 

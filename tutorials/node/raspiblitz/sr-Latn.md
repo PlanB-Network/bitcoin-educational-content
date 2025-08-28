@@ -96,6 +96,7 @@ Evo [korisnog videa za Linux, ali se odnosi i na Mac](https://youtu.be/id3DGvljh
 Za Windows, evo [jednostavnog tutorijala](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_AŽURIRANJE: pgp/gpg verifikacija je sada dostupna. Trebaće vam Openoms-ov javni ključ. [Ovde](http://parman.org/downloadable/openoms.txt) je (možda ćete morati da koristite inkognito režim da bi link radio – http, ne https)_
 Mac/Linux
 
 

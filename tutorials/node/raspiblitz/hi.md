@@ -96,6 +96,7 @@ Raspiblitz एक उत्कृष्ट प्रणाली है जो �
 विंडोज़ के लिए, यहाँ एक [सरल ट्यूटोरियल](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) है।
 
 
+_अपडेट: pgp/gpg सत्यापन अब उपलब्ध है। आपको Openoms की सार्वजनिक कुंजी की आवश्यकता होगी। [यहाँ](http://parman.org/downloadable/openoms.txt) यह है (लिंक काम करने के लिए आपको गुप्त मोड की आवश्यकता हो सकती है – http, https नहीं)_
 मैक/लिनक्स
 
 

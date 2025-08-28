@@ -65,6 +65,7 @@ Bevor Sie fortfahren, wenn Sie sich auf der Befehlszeile nicht im Dateisystem au
 Hier ist ein [nützliches Video für Linux, das aber auch für Mac gilt](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Für Windows gibt es hier ein [einfaches Tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_AKTUALISIERUNG: Die pgp/gpg-Verifizierung ist jetzt verfügbar. Sie benötigen den öffentlichen Schlüssel von Openoms. [Hier](http://parman.org/downloadable/openoms.txt) ist er (möglicherweise müssen Sie den Inkognito-Modus verwenden, damit der Link funktioniert – http, nicht https)_
 Mac/Linux
 
 Warten Sie, bis der Download der Datei abgeschlossen ist (wichtig!) und öffnen Sie dann das Terminal, navigieren Sie zum Speicherort der heruntergeladenen Datei und geben Sie den folgenden Befehl ein...

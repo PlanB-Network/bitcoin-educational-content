@@ -553,7 +553,7 @@ Dans certaines circonstances économiques, la valeur intrinsèque d'un billet pe
 
 > Zimbabwe: “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
 
-![image](assets/chapitre-3.2/PN3.webpG)
+![image](assets/chapitre-3.2/3.webp)
 
 #### 4. Comptage de l'argent
 

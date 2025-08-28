@@ -819,7 +819,11 @@ Bozulan ekonomilerde çek gibi geleneksel ödeme yöntemleri etkinliğini hızla
 
 
 > Weimar: "Fiyat artışları hem devlet hem de diğer işverenler tarafından paraya olan talebi yoğunlaştırdı. Özel bankalar bu talebi karşılayamadı ve çeklerin bozdurulmasını karneye bağlamak zorunda kaldı, bu nedenle bozdurulmamış çekler donmuş halde kaldı ve satın alma güçleri azaldı."
-> Zimbabwe: "Paranın zaman değeri, mal ve hizmetler için üç fiyat yarattı; yani nakit fiyatı, gerçek zamanlı brüt ödeme fiyatı ve çek fiyatı. Sonunda kimse çek kabul etmedi ve çeklerin bozdurulması beş gün sürdü." 6. "Burner-preneurs"
+> Zimbabve: “Paranın zaman değeri, mal ve hizmetler için üç fiyat yarattı; yani, nakit fiyat, anlık brüt mutabakat fiyatı ve çek fiyatı. Sonunda, tahsil edilmesi beş gün süren çekleri kimse kabul etmedi.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Para biriminin değeri düştükçe, piyasa çarpıklıklarından faydalanan yeni ekonomik fırsatlar ortaya çıkar. Genellikle "Burner-preneurs" gibi yaratıcı isimlerle anılan bu girişimciler, maddi varlıklara yatırım yapmak için değeri düşmüş para birimini borç alarak ve ardından borçlarını daha da değeri düşmüş para birimiyle geri ödeyerek başarılı olabilirler.
 

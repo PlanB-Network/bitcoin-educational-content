@@ -819,7 +819,11 @@ I ekonomier med störningar kan traditionella betalningsmetoder som checkar snab
 
 
 > Weimar: "Prisökningarna ökade efterfrågan på pengar, både från staten och från andra arbetsgivare. De privata bankerna kunde inte alls möta efterfrågan och var tvungna att ransonera inlösningen av checkar, vilket innebar att oinlösta checkar förblev frysta medan deras köpkraft minskade."
-> Zimbabwe: "Pengarnas tidsvärde har skapat tre priser för varor och tjänster, nämligen ett kontantpris, ett bruttoavvecklingspris i realtid och ett checkpris. Till slut var det ingen som accepterade checkar, som tog fem dagar att lösa in." 6. "Brännar-prenumeranterna"
+> Zimbabwe: “Pengars tidsvärde skapade tre priser för varor och tjänster; nämligen ett kontantpris, ett pris vid realtidsbruttoavveckling och ett checkpris. Till slut accepterade ingen checkar, som tog fem dagar att lösas in.”
+
+
+
+#### 6. "Burner-preneurs"
 
 I takt med att valutans värde urholkas uppstår nya ekonomiska möjligheter som utnyttjar snedvridningar på marknaden. Dessa entreprenörer, som ofta går under fantasifulla namn som "Burner-preneurs", kan blomstra genom att låna devalverad valuta för att investera i materiella tillgångar och sedan betala tillbaka sina skulder med ännu mer devalverad valuta.
 

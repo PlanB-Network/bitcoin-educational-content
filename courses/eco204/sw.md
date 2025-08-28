@@ -598,7 +598,12 @@ Mbinu ya Kizbeki ya kuhesabu pesa
 Katika uchumi uliotatizika, njia za kawaida za malipo kama vile hundi zinaweza kupoteza ufanisi wake haraka. Benki, zikizidiwa na ongezeko la mahitaji ya sarafu kutokana na mfumuko mkubwa wa bei, zinaweza kugawa au kuchelewesha uchukuaji wa hundi, na hivyo kupunguza thamani yake halisi. Kukosekana kwa uthabiti huku mara nyingi husababisha kutanguliza njia za malipo, ambapo bei zinaweza kutofautiana kulingana na jinsi mtu atakavyochagua kulipa.
 
 > Weimar: "Ongezeko la bei lilizidisha mahitaji ya pesa, na Fiat money (pesa za serikali) na waajiri wengine. Benki za kibinafsi hazikuweza kukidhi mahitaji kabisa na zililazimika kugawa pesa za hundi, kwa hivyo hundi ambazo hazikulipwa zilibaki zikiwa zimegandishwa huku uwezo wao wa kununua ukipungua."
-> Zimbabwe: "Thamani ya muda wa pesa imeunda bei tatu za bidhaa na huduma; ambazo ni, bei ya fedha, bei ya papo hapo ya papo hapo, na bei ya hundi. Hatimaye, hakuna aliyekubali hundi, ambayo ilichukua siku tano kuifuta." 6. "Burner-preneurs"
+> Zimbabwe: “Thamani ya muda ya pesa ilileta bei tatu kwa bidhaa na huduma; yaani, bei ya pesa taslimu, bei ya makazi ya jumla kwa muda halisi, na bei ya hundi. Hatimaye, hakuna aliyekubali hundi, ambazo zilichukua siku tano ili kulipwa.”
+
+
+
+#### 6. "Burner-preneurs"
+
 Thamani ya sarafu inapodidimia, fursa mpya za kiuchumi zinaibuka, zikitumia upotoshaji wa soko. Wajasiriamali hawa, ambao mara nyingi hupewa majina ya uvumbuzi kama "Burner-preneurs," wanaweza kustawi kwa kukopa sarafu isiyo na thamani ili kuwekeza katika mali inayoonekana, na kisha kulipa madeni yao kwa sarafu iliyopunguzwa thamani zaidi.
 
 Weimar: "Uvumi juu ya mfumuko wa bei ulihusisha kukopa alama za karatasi, kuzibadilisha kuwa bidhaa na viwanda, na kisha kuwalipa wakopeshaji kwa karatasi iliyopungua thamani."

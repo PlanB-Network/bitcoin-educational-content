@@ -496,7 +496,11 @@ Teknik Uzbekistan menghitung uang
 Dalam ekonomi yang terganggu, metode pembayaran tradisional seperti cek dapat dengan cepat kehilangan efektivitasnya. Bank, yang kewalahan oleh permintaan mata uang yang meningkat karena hiperinflasi, dapat merasionalkan atau menunda pencairan cek, sehingga mengurangi nilai nyata mereka. Ketidakstabilan ini sering kali mengarah pada prioritas metode pembayaran, di mana harga dapat bervariasi tergantung pada cara seseorang memilih untuk membayar.
 
 > Weimar: "Peningkatan harga meningkatkan permintaan akan uang, baik oleh negara maupun pemberi kerja lainnya. Bank swasta sama sekali tidak dapat memenuhi permintaan dan harus merasionalkan pencairan cek, sehingga cek yang tidak dicairkan tetap beku sementara daya beli mereka berkurang."
-> Zimbabwe: "Nilai waktu uang telah menciptakan tiga harga untuk barang dan jasa; yaitu, harga tunai, harga penyelesaian bruto waktu nyata, dan harga cek. Akhirnya, tidak ada yang menerima cek, yang membutuhkan waktu lima hari untuk dicairkan." 6. Para "Burner-preneurs"
+> Zimbabwe: “Nilai waktu uang menciptakan tiga harga untuk barang dan jasa; yaitu, harga tunai, harga penyelesaian bruto waktu nyata, dan harga cek. Akhirnya, tidak ada yang menerima cek, yang memerlukan lima hari untuk dicairkan.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Seiring dengan terkikisnya nilai mata uang, muncul peluang ekonomi baru, memanfaatkan distorsi pasar. Para pengusaha ini, sering kali diberi nama inventif seperti "Burner-preneurs," dapat berkembang dengan meminjam mata uang yang telah terdepresiasi untuk berinvestasi dalam aset nyata, dan kemudian membayar kembali hutang mereka dengan mata uang yang lebih terdepresiasi lagi.
 

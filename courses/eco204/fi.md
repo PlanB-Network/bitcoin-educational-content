@@ -491,7 +491,11 @@ Uzbekkilainen rahanlaskutekniikka
 Häiriintyneissä talouksissa perinteiset maksutavat, kuten sekit, voivat nopeasti menettää tehokkuutensa. Pankit, jotka ovat ylikuormitettuja hyperinflaation vuoksi kasvavan valuutan kysynnän takia, voivat rajoittaa tai viivästyttää sekkejen lunastamista, mikä vähentää niiden todellista arvoa. Tämä epävakaus johtaa usein maksutapojen priorisointiin, jossa hinnat voivat vaihdella sen mukaan, miten maksaa.
 
 > Weimar: "Hintojen nousu lisäsi rahan kysyntää sekä valtion että muiden työnantajien toimesta. Yksityiset pankit eivät voineet lainkaan täyttää kysyntää ja joutuivat rajoittamaan sekkejen lunastamista, joten lunastamattomat sekit jäivät jäädytetyiksi samalla kun niiden ostovoima heikkeni."
-> Zimbabwe: "Rahan aika-arvo loi kolme hintaa tavaroille ja palveluille; nimittäin käteishinnan, reaaliaikaisen bruttoselvityshinnan ja sekkien hinnan. Lopulta kukaan ei hyväksynyt sekkejä, joiden selvittäminen kesti viisi päivää." 6. "Burner-preneurs"
+> Zimbabwe: ”Rahan aika-arvo loi kolme hintaa tavaroille ja palveluille; nimittäin käteishinnan, reaaliaikaisen brutto­selvityksen hinnan ja šekkihinnan. Lopulta kukaan ei hyväksynyt sekkejä, joiden lunastaminen kesti viisi päivää.”
+
+
+
+#### 6. "Burner-preneurit"
 
 Kun valuutan arvo rapautuu, uusia taloudellisia mahdollisuuksia ilmaantuu hyödyntämään markkinoiden vääristymiä. Nämä yrittäjät, joita usein kutsutaan kekseliäillä nimillä kuten "Burner-preneurs", voivat menestyä lainaamalla arvottomaksi muuttunutta valuuttaa sijoittaakseen konkreettisiin hyödykkeisiin ja maksamalla sitten velkansa vielä enemmän arvottomalla valuutalla.
 

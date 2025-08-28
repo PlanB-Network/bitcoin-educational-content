@@ -515,7 +515,11 @@ Usbekische Technik des Geldzählens
 In gestörten Volkswirtschaften können traditionelle Zahlungsmethoden wie Schecks schnell an Effizienz verlieren. Banken, die mit der steigenden Nachfrage nach Geld aufgrund der Hyperinflation überfordert sind, können Schecks rationieren oder deren Einlösung verzögern, wodurch ihr tatsächlicher Wert reduziert wird. Diese Instabilität führt oft zu einer Hierarchisierung der Zahlungsmethoden, bei der die Preise je nach gewählter Zahlungsweise variieren können.
 
 > Weimar: "Der Preisanstieg hat die Nachfrage nach Geld sowohl vom Staat als auch von anderen Arbeitgebern verstärkt. Die Privatbanken konnten der Nachfrage überhaupt nicht gerecht werden und mussten die Einlösung von Schecks rationieren, sodass nicht eingelöste Schecks eingefroren blieben, während ihre Kaufkraft schwand."
-> Zimbabwe: "Der Zeitwert des Geldes hat drei Preise für Waren und Dienstleistungen geschaffen: einen Bargeldpreis, einen Preis für Echtzeit-Bruttoabrechnung und einen Scheckpreis. Schließlich akzeptierte niemand mehr Schecks, die fünf Tage dauerten, um eingelöst zu werden." 6. Die "Burner-preneurs"
+> Simbabwe: „Der Zeitwert des Geldes führte zu drei Preisen für Waren und Dienstleistungen; nämlich einen Barpreis, einen Preis bei Echtzeit-Bruttoabwicklung und einen Preis per Scheck. Schließlich akzeptierte niemand mehr Schecks, deren Einlösung fünf Tage dauerte.“
+
+
+
+#### 6. Die "Burner-preneure"
 
 Mit dem Verfall des Geldwertes entstehen neue wirtschaftliche Möglichkeiten, die Marktverzerrungen ausnutzen. Diese Unternehmer, oft mit kreativen Namen wie "Burner-preneurs" bezeichnet, können gedeihen, indem sie abgewertetes Geld leihen, um in greifbare Güter zu investieren und dann ihre Schulden mit noch stärker abgewertetem Geld zurückzuzahlen.
 

@@ -819,7 +819,11 @@ W zakłóconych gospodarkach tradycyjne metody płatności, takie jak czeki, mog
 
 
 > Weimar: "Wzrost cen zwiększył popyt na pieniądz, zarówno ze strony państwa, jak i innych pracodawców. Prywatne banki nie mogły w ogóle zaspokoić popytu i musiały racjonować realizację czeków, więc niezrealizowane czeki pozostawały zamrożone, a ich siła nabywcza malała"
-> Zimbabwe: "Wartość pieniądza w czasie stworzyła trzy ceny towarów i usług: cenę gotówki, cenę rozliczenia brutto w czasie rzeczywistym i cenę czeku. Ostatecznie nikt nie akceptował czeków, których realizacja trwała pięć dni" 6. "Burner-preneurs"
+> Zimbabwe: „Wartość czasowa pieniądza stworzyła trzy ceny za towary i usługi; mianowicie cenę gotówkową, cenę w rozliczeniu brutto w czasie rzeczywistym oraz cenę czekową. Ostatecznie nikt nie przyjmował czeków, których realizacja zajmowała pięć dni.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Wraz ze spadkiem wartości waluty pojawiają się nowe możliwości gospodarcze, wykorzystujące zakłócenia na rynku. Przedsiębiorcy ci, często określani pomysłowymi nazwami, takimi jak "Burner-preneurs", mogą prosperować, pożyczając zdewaluowaną walutę w celu inwestowania w aktywa materialne, a następnie spłacając swoje długi jeszcze bardziej zdewaluowaną walutą.
 

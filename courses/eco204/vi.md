@@ -494,9 +494,11 @@ Kỹ thuật đếm tiền của Uzbekistan
 Trong những nền kinh tế bị gián đoạn, các phương thức thanh toán truyền thống như séc có thể nhanh chóng mất hiệu quả. Do bị quá tải bởi nhu cầu tiền tệ tăng cao do siêu lạm phát, các ngân hàng có thể hạn chế hoặc trì hoãn việc đổi séc thành tiền mặt, từ đó giảm giá trị thực của chúng. Sự bất ổn này thường dẫn đến việc ưu tiên các phương thức thanh toán, nơi giá cả có thể thay đổi tùy thuộc vào cách một người chọn để thanh toán.
 
 Weimar: "Sự tăng giá đã làm tăng nhu cầu về tiền, cả từ phía nhà nước và các nhà tuyển dụng khác. Các ngân hàng tư nhân không thể đáp ứng được nhu cầu và phải hạn chế việc đổi séc, vì vậy những séc chưa đổi tiếp tục bị đóng băng trong khi sức mua của chúng giảm sút."
-Zimbabwe: "Giá trị thời gian của tiền đã tạo ra ba mức giá cho hàng hóa và dịch vụ; cụ thể là giá tiền mặt, giá tất toán tổng thời gian thực, và giá séc. Cuối cùng, không ai chấp nhận séc, mất năm ngày để xử lý."
+> Zimbabwe: “Giá trị thời gian của tiền đã tạo ra ba mức giá cho hàng hóa và dịch vụ; cụ thể là giá tiền mặt, giá thanh toán tổng thời gian thực và giá bằng séc. Cuối cùng, không ai chấp nhận séc, vốn mất năm ngày để được thanh toán.”
 
-6. Các "Burner-preneurs"
+
+
+#### 6. "Burner-preneurs"
 
 Khi giá trị của đồng tiền suy giảm, các cơ hội kinh tế mới xuất hiện, khai thác các méo mó trên thị trường. Những doanh nhân này, thường được gọi bằng những cái tên sáng tạo như "Burner-preneurs," có thể phát triển bằng cách vay đồng tiền bị mất giá để đầu tư vào tài sản hữu hình, và sau đó trả nợ bằng những đồng tiền mất giá sâu hơn.
 

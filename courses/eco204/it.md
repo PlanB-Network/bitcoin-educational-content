@@ -485,9 +485,11 @@ Tecnica uzbeka di conteggio del denaro
 Nelle economie sconvolte, i metodi di pagamento tradizionali come gli assegni possono perdere rapidamente la loro efficacia. Le banche, sopraffatte dall’aumento della domanda di contante dovuto all’iperinflazione, possono razionare o ritardare l’incasso degli assegni, riducendone così il valore reale. Questa instabilità conduce spesso a una gerarchia dei mezzi di pagamento, per cui i prezzi variano a seconda della modalità scelta.
 
 > Weimar: «L’aumento dei prezzi intensificò la domanda di moneta, sia da parte dello Stato sia degli altri datori di lavoro. Le banche private non riuscivano affatto a soddisfarla e dovettero razionare l’incasso degli assegni, cosicché gli assegni non incassati restavano congelati mentre il loro potere d’acquisto si riduceva.»
-> Zimbabwe: «Il valore temporale del denaro ha creato tre prezzi per beni e servizi: un prezzo in contanti, un prezzo con regolamento lordo in tempo reale e un prezzo con assegno. Alla fine, nessuno accettava più gli assegni, che richiedevano cinque giorni per l’accredito.»
+> Zimbabwe: “Il valore temporale del denaro ha creato tre prezzi per beni e servizi; ossia, un prezzo in contanti, un prezzo con regolamento lordo in tempo reale e un prezzo con assegno. Alla fine, nessuno accettava più assegni, che richiedevano cinque giorni per essere incassati.”
 
-6. I «Burner-preneurs»
+
+
+#### 6. I "Burner-preneurs"
 
 Man mano che il valore della moneta si erode, emergono nuove opportunità economiche che sfruttano le distorsioni di mercato. Questi imprenditori, spesso soprannominati con nomi fantasiosi come «Burner-preneurs», possono prosperare prendendo in prestito valuta svalutata per investirla in beni tangibili e poi rimborsare i debiti con moneta ancora più svalutata.
 

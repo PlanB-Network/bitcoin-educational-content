@@ -522,9 +522,11 @@ Em economias perturbadas, os métodos de pagamento tradicionais, como cheques, p
 
 > Weimar: "O aumento dos preços intensificou a demanda por dinheiro, tanto pelo Estado quanto por outros empregadores. Os bancos privados não conseguiam atender à demanda e precisavam racionar o depósito de cheques, de modo que os cheques não depositados permaneciam congelados enquanto seu poder de compra se esgotava."
 
-Zimbábue: "O valor temporal do dinheiro criou três preços para bens e serviços; a saber, um preço em dinheiro, um preço em pagamento bruto em tempo real e um preço por cheque. No final, ninguém aceitava cheques, que levavam cinco dias para serem descontados."
+> Zimbábue: “O valor temporal do dinheiro criou três preços para bens e serviços; a saber, um preço em dinheiro, um preço em liquidação bruta em tempo real e um preço em cheque. Por fim, ninguém aceitava cheques, que demoravam cinco dias para serem compensados.”
 
-6. Os "Burner-preneurs"
+
+
+#### 6. Os "Burner-preneurs"
 
 À medida que o valor da moeda se deteriora, surgem novas oportunidades econômicas, explorando distorções de mercado. Esses empreendedores, frequentemente chamados de forma inventiva de "Burner-preneurs", podem prosperar ao tomar empréstimos em moeda desvalorizada para investir em bens tangíveis e, em seguida, pagar suas dívidas com uma moeda ainda mais desvalorizada.
 

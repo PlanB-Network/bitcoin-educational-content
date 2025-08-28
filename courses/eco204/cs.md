@@ -497,7 +497,11 @@ Uzbecká technika počítání peněz
 V nestabilních ekonomikách mohou tradiční platební metody, jako jsou šeky, rychle ztratit svou účinnost. Banky, přetížené rostoucí poptávkou po měně kvůli hyperinflaci, mohou omezit nebo zpozdit vyplácení šeků, čímž snižují jejich skutečnou hodnotu. Tato nestabilita často vede k prioritizaci platebních metod, kde ceny se mohou lišit v závislosti na způsobu platby.
 
 > Weimar: "Zvýšení cen zintenzivnilo poptávku po penězích, jak ze strany státu, tak i dalších zaměstnavatelů. Soukromé banky vůbec nemohly poptávku uspokojit a musely omezit vyplácení šeků, takže nevyplacené šeky zůstaly zamrzlé, zatímco jejich kupní síla klesala."
-> Zimbabwe: "Časová hodnota peněz vytvořila tři ceny za zboží a služby; konkrétně hotovostní cenu, cenu v reálném čase hrubého vyrovnání a cenu šeku. Nakonec nikdo nepřijímal šeky, které trvalo pět dní, než byly vyčištěny." 6. "Burner-preneurs"
+> Zimbabwe: „Časová hodnota peněz vytvořila tři ceny za zboží a služby; konkrétně hotovostní cenu, cenu při hrubém vypořádání v reálném čase a cenu šekem. Nakonec nikdo nepřijímal šeky, jejichž proplacení trvalo pět dní.“
+
+
+
+#### 6. "Burner-preneuři"
 
 Jak hodnota měny klesá, objevují se nové ekonomické příležitosti, které využívají tržní zkreslení. Tito podnikatelé, často označovaní vynalézavými jmény jako "Burner-preneurs", mohou prosperovat tím, že si půjčují znehodnocenou měnu na investice do hmatatelných aktiv a poté své dluhy splácí ještě více znehodnocenou měnou.
 

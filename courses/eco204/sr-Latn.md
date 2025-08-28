@@ -819,7 +819,11 @@ U poremećenim ekonomijama, tradicionalne metode plaćanja poput čekova mogu br
 
 
 > Weimar: "Povećanje cena je pojačalo potražnju za novcem, kako od strane države, tako i od drugih poslodavaca. Privatne banke nisu mogle uopšte da zadovolje potražnju i morale su da racionalizuju unovčavanje čekova, tako da su neunovčeni čekovi ostali zamrznuti dok je njihova kupovna moć opadala."
-> Zimbabve: "Vremenska vrednost novca je stvorila tri cene za robu i usluge; naime, cenu za gotovinu, cenu za bruto poravnanje u realnom vremenu i cenu za ček. Na kraju, niko nije prihvatao čekove, koji su se čistili pet dana." 6. "Burner-preneurs"
+> Zimbabve: “Vremenska vrednost novca stvorila je tri cene za robu i usluge; naime, cenu u gotovini, cenu u bruto poravnanju u realnom vremenu i cenu čekom. Na kraju, niko nije prihvatao čekove, čije je unovčavanje trajalo pet dana.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Kako vrednost valute opada, pojavljuju se nove ekonomske prilike, iskorišćavajući distorzije na tržištu. Ovi preduzetnici, često nazvani inventivnim imenima poput "Burner-preneurs", mogu napredovati pozajmljivanjem devalvirane valute za ulaganje u opipljivu imovinu, a zatim vraćanjem svojih dugova još više devalviranom valutom.
 

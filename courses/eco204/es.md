@@ -477,7 +477,11 @@ Técnica uzbeka de conteo de dinero
 En economías perturbadas, los métodos de pago tradicionales, como los cheques, pueden perder rápidamente su eficacia. Los bancos, abrumados por la creciente demanda de dinero debido a la hiperinflación, pueden racionar o retrasar el cobro de los cheques, reduciendo así su valor real. Esta inestabilidad a menudo conduce a una jerarquización de los métodos de pago, donde los precios pueden variar según la forma de pago elegida.
 
 > Weimar: "El aumento de los precios intensificó la demanda de dinero, tanto por parte del Estado como por parte de otros empleadores. Los bancos privados no podían satisfacer la demanda y tenían que racionar el cobro de los cheques, por lo que los cheques no cobrados quedaban congelados mientras su poder adquisitivo se agotaba".
-> Zimbabwe: "El valor temporal del dinero ha creado tres precios para bienes y servicios; a saber, un precio en efectivo, un precio en pago bruto en tiempo real y un precio por cheque. Finalmente, nadie aceptaba cheques, que tardaban cinco días en ser cobrados". 6. Los "Burner-preneurs"
+> Zimbabue: “El valor temporal del dinero creó tres precios para los bienes y servicios; a saber, un precio en efectivo, un precio en liquidación bruta en tiempo real y un precio con cheque. Finalmente, nadie aceptaba cheques, que tardaban cinco días en cobrarse.”
+
+
+
+#### 6. Los "Burner-preneurs"
 
 A medida que el valor de la moneda se erosiona, surgen nuevas oportunidades económicas que aprovechan las distorsiones del mercado. Estos emprendedores, a menudo llamados de manera inventiva "Burner-preneurs", pueden prosperar tomando prestada una moneda devaluada para invertir en bienes tangibles, y luego pagar sus deudas con una moneda aún más devaluada.
 

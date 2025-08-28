@@ -497,7 +497,11 @@ Usbekisk teknikk for å telle penger
 I forstyrrede økonomier kan tradisjonelle betalingsmetoder som sjekker raskt miste sin effektivitet. Banker, overveldet av den økende etterspørselen etter valuta på grunn av hyperinflasjon, kan rasjonere eller forsinke innløsningen av sjekker, noe som reduserer deres reelle verdi. Denne ustabiliteten fører ofte til en prioritering av betalingsmetoder, der priser kan variere avhengig av hvordan man velger å betale.
 
 > Weimar: "Prisøkninger intensiverte etterspørselen etter penger, både fra staten og andre arbeidsgivere. Private banker kunne ikke møte etterspørselen i det hele tatt og måtte rasjonere innløsningen av sjekker, så ubehandlede sjekker forble frosset mens deres kjøpekraft minket."
-> Zimbabwe: "Tidsverdien av penger har skapt tre priser for varer og tjenester; nemlig en kontantpris, en realtids bruttooppgjørspris, og en sjekkpris. Til slutt aksepterte ingen sjekker, som tok fem dager å innløse." 6. "Brenner-entreprenørene"
+> Zimbabwe: “Tidverdien av penger skapte tre priser for varer og tjenester; nemlig en kontantpris, en pris ved sanntids bruttooppgjør, og en sjekkpris. Til slutt aksepterte ingen sjekker, som tok fem dager å heve.”
+
+
+
+#### 6. "Burner-preneurs"
 
 Ettersom valutaens verdi forvitrer, dukker det opp nye økonomiske muligheter som utnytter markedets forvrengninger. Disse entreprenørene, ofte gitt oppfinnsomme navn som "Brenner-entreprenørene", kan trives ved å låne devaluert valuta for å investere i håndfaste eiendeler, og deretter tilbakebetale gjelden sin med enda mer devaluert valuta.
 

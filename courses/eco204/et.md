@@ -499,7 +499,11 @@ Usbeki rahalugemise tehnika
 Häiritud majandustes võivad traditsioonilised maksemeetodid nagu tšekid kiiresti oma efektiivsuse kaotada. Pangad, mida koormab hüperinflatsiooni tõttu valuuta järele kasvav nõudlus, võivad piirata või viivitada tšekkide sularahaks muutmist, vähendades seeläbi nende tegelikku väärtust. See ebastabiilsus viib sageli maksemeetodite prioriseerimiseni, kus hinnad võivad sõltuda sellest, kuidas keegi otsustab maksta.
 
 > Weimar: "Hinnatõusud suurendasid raha nõudlust nii riigi kui ka teiste tööandjate poolt. Eraettevõtted ei suutnud nõudlust üldse rahuldada ja pidid piirama tšekkide sularahaks muutmist, nii et lunastamata tšekid jäid külmuma, samal ajal kui nende ostujõud vähenes."
-> Zimbabwe: "Raha ajaväärtus lõi kaupadele ja teenustele kolm hinda; nimelt sularaha hind, reaalajas brutosettlemendi hind ja tšeki hind. Lõpuks ei aktsepteerinud keegi tšekke, mille puhastamiseks kulus viis päeva." 6. "Põletusettevõtjad"
+> Zimbabwe: „Raha ajaväärtus lõi kaupadele ja teenustele kolm hinda; nimelt sularahahind, reaalajas brutotasaarveldushind ja tšekihind. Lõpuks ei aktsepteerinud keegi enam tšekke, mille lunastamine võttis viis päeva.“
+
+
+
+#### 6. "Burner-preneurid"
 
 Kui valuuta väärtus kahaneb, tekivad uued majandusvõimalused, ära kasutades turu moonutusi. Need ettevõtjad, keda tihti nimetatakse leidlike nimedega nagu "Põletusettevõtjad", võivad õitseda, laenates devalveeritud valuutat, investeerides seejärel materiaalsetesse varadesse ja seejärel tagastades oma võlad veelgi enam devalveeritud valuutaga.
 

@@ -819,7 +819,11 @@ In verstoorde economieën kunnen traditionele betaalmethodes zoals cheques snel 
 
 
 > Weimar: "Prijsstijgingen verhoogden de vraag naar geld, zowel door de staat als door andere werkgevers. Particuliere banken konden helemaal niet aan de vraag voldoen en moesten het verzilveren van cheques rantsoeneren, zodat ongedekte cheques bevroren bleven terwijl hun koopkracht afnam."
-> Zimbabwe: "De tijdwaarde van geld heeft drie prijzen voor goederen en diensten gecreëerd: een contante prijs, een real-time brutovereffeningsprijs en een chequeprijs. Uiteindelijk accepteerde niemand nog cheques, die er vijf dagen over deden om te innen." 6. De "Brander-preneurs"
+> Zimbabwe: “De tijdswaarde van geld creëerde drie prijzen voor goederen en diensten; namelijk een contante prijs, een prijs bij realtime bruto-afwikkeling en een chequeprijs. Uiteindelijk accepteerde niemand meer cheques, die vijf dagen nodig hadden om te worden geïnd.”
+
+
+
+#### 6. De "Burner-preneurs"
 
 Naarmate de waarde van de valuta erodeert, ontstaan er nieuwe economische mogelijkheden die gebruik maken van marktverstoringen. Deze ondernemers, vaak aangeduid met inventieve namen als "Burner-preneurs", kunnen gedijen door gedevalueerde valuta te lenen om te investeren in tastbare activa en vervolgens hun schulden terug te betalen met nog meer gedevalueerde valuta.
 

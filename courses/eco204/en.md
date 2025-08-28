@@ -519,7 +519,11 @@ Uzbek technique of counting money
 In disrupted economies, traditional payment methods like checks can quickly lose their effectiveness. Banks, overwhelmed by the increasing demand for currency due to hyperinflation, may ration or delay the cashing of checks, thereby reducing their real value. This instability often leads to a prioritization of payment methods, where prices can vary depending on how one chooses to pay.
 
 > Weimar: "Price increases intensified the demand for money, both by the state and other employers. Private banks could not meet the demand at all and had to ration the cashing of checks, so uncashed checks remained frozen while their purchasing power dwindled."
-> Zimbabwe: "The time value of money has created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear." 6. The "Burner-preneurs"
+> Zimbabwe: “The time value of money created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear.”
+
+
+
+#### 6. The "Burner-preneurs"
 
 As the value of the currency erodes, new economic opportunities emerge, exploiting market distortions. These entrepreneurs, often dubbed with inventive names like "Burner-preneurs," can thrive by borrowing devalued currency to invest in tangible assets, and then repaying their debts with even more devalued currency.
 

@@ -509,7 +509,7 @@ Weimar: "Spekulace na inflaci zahrnovala půjčování papírových marek, jejic
 
 Zimbabwe: "Burner-preneurs"
 
-7. Čestnost a tvrdá práce ztrácejí svou přitažlivost
+#### 7. Poctivost a tvrdá práce ztrácejí svůj půvab
    V nestabilních ekonomických kontextech mohou tradiční hodnoty tvrdé práce, spořivosti a integrity být zastiňovány lákavostí rychlého bohatství. Spekulace a obchodování s měnami často nabízejí mnohem vyšší odměny než pravidelná práce, což způsobuje narušení společenských priorit.
    Weimar: "Když staré ctnosti spořivosti, poctivosti a tvrdé práce ztratily své kouzlo, každý se snažil rychle zbohatnout, obzvláště proto, že spekulace s měnami nebo akciemi mohly zjevně přinést mnohem více než práce."
 

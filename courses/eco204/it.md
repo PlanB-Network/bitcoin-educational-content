@@ -497,7 +497,7 @@ Weimar: «La speculazione sull’inflazione consisteva nel prendere a prestito m
 
 Zimbabwe: I «Burner-preneurs»
 
-7. Onestà e duro lavoro perdono attrattiva
+#### 7. L'onestà e il duro lavoro perdono il loro fascino
 
 In contesti economici instabili, i valori tradizionali del duro lavoro, del risparmio e dell’integrità possono essere offuscati dal richiamo della ricchezza facile. La speculazione e il commercio valutario offrono spesso ricompense molto più alte del lavoro ordinario, alterando le priorità sociali.
 

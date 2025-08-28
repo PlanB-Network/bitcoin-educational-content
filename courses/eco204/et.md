@@ -511,7 +511,7 @@ Weimar: "Inflatsioonispekulatsioon hõlmas pabermärkide laenamist, nende muutmi
 
 Zimbabwe: "Põletusettevõtjad"
 
-7. Ausus ja kõva töö kaotavad oma võlu
+#### 7. Ausameelsus ja raske töö kaotavad oma veetluse
    Ebastabiilsetes majandusolukordades võivad traditsioonilised väärtused nagu raske töö, kokkuhoid ja ausus jääda kiire rikkuse ahvatluse varju. Spekulatsioon ja valuutakauplemine pakuvad tihti palju suuremaid tulusid kui tavaline töö, põhjustades ühiskondlike prioriteetide muutumist.
    Weimar: "Kui vanad voorused nagu kokkuhoid, ausus ja raske töö kaotasid oma võlu, püüdis igaüks kiiresti rikkaks saada, eriti kuna valuuta või aktsiaspekulatsioonid võisid ilmselt tuua palju rohkem kui töö."
 

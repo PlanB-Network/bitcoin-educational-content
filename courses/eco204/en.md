@@ -531,7 +531,7 @@ Weimar: "Speculation on inflation involved borrowing paper marks, converting the
 
 Zimbabwe: The "Burner-preneurs"
 
-7. Honesty and hard work lose their appeal
+#### 7. Honesty and hard work lose their appeal
 
 In unstable economic contexts, traditional values of hard work, thrift, and integrity can be overshadowed by the allure of quick wealth. Speculation and currency trading often offer much higher rewards than regular work, causing a disruption in societal priorities.
 

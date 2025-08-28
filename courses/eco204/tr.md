@@ -834,7 +834,7 @@ Weimar: "Enflasyon spekülasyonu, kağıt markların ödünç alınmasını, bun
 Zimbabve: "Burner-preneurs"
 
 
-7. Dürüstlük ve Hard çalışması cazibesini yitiriyor
+#### 7. Dürüstlük ve sıkı çalışma cazibesini kaybediyor
 
 
 İstikrarsız ekonomik bağlamlarda, Hard çalışma, tasarruf ve dürüstlük gibi geleneksel değerler, hızlı zenginliğin cazibesi tarafından gölgede bırakılabilir. Spekülasyon ve döviz ticareti genellikle düzenli çalışmadan çok daha yüksek ödüller sunarak toplumsal önceliklerde bir bozulmaya neden olur.

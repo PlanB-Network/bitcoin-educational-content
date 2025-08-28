@@ -834,7 +834,7 @@ Weimar: "Spekulacje na temat inflacji polegały na pożyczaniu papierowych marek
 Zimbabwe: "Spalacze-preneurs"
 
 
-7. Uczciwość i praca Hard tracą na atrakcyjności
+#### 7. Uczciwość i ciężka praca tracą swój urok
 
 
 W niestabilnym kontekście ekonomicznym tradycyjne wartości pracy, gospodarności i uczciwości mogą zostać przyćmione przez pokusę szybkiego wzbogacenia się. Spekulacje i handel walutami często oferują znacznie wyższe nagrody niż zwykła praca, powodując zakłócenie priorytetów społecznych.

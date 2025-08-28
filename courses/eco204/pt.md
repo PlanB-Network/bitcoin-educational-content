@@ -534,7 +534,7 @@ Weimar: "A especulação sobre a inflação consistia em pegar empréstimos em m
 
 Zimbábue: Os "Burner-preneurs"
 
-7. Honestidade e trabalho árduo perdem seu apelo
+#### 7. A honestidade e o trabalho árduo perdem seu apelo
 
 Em contextos econômicos instáveis, os valores tradicionais de trabalho árduo, economia e integridade podem ser eclipsados pelo apelo da riqueza rápida. A especulação e o comércio de moedas frequentemente oferecem recompensas muito maiores do que o trabalho regular, causando uma mudança nas prioridades sociais.
 

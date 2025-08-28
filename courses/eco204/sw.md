@@ -610,7 +610,7 @@ Weimar: "Uvumi juu ya mfumuko wa bei ulihusisha kukopa alama za karatasi, kuziba
 
 Zimbabwe: The "Burner-preneurs"
 
-7. Uaminifu na kazi ngumu hupoteza mvuto wao
+#### 7. Uadilifu na kazi ngumu vinapoteza mvuto wao
 
 Katika miktadha ya kiuchumi isiyo thabiti, maadili ya kitamaduni ya kazi ngumu, uwekevu na uadilifu yanaweza kufunikwa na mvuto wa utajiri wa haraka. Ubashiri na biashara ya sarafu mara nyingi hutoa thawabu kubwa zaidi kuliko kazi ya kawaida, na kusababisha usumbufu katika vipaumbele vya jamii.
 

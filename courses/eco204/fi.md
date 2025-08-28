@@ -503,7 +503,7 @@ Weimar: "Inflaatioon spekulointiin kuului paperimarkkojen lainaaminen, niiden mu
 
 Zimbabwe: "Burner-preneurs"
 
-7. Rehellisyys ja kova työ menettävät viehätyksensä
+#### 7. Rehellisyys ja kova työ menettävät vetovoimansa
    Epävakaissa taloudellisissa yhteyksissä perinteiset arvot, kuten ahkeruus, säästäväisyys ja rehellisyys, voivat jäädä nopean rikastumisen viehätyksen varjoon. Spekulointi ja valuuttakauppa tarjoavat usein paljon suurempia palkkioita kuin säännöllinen työ, aiheuttaen häiriöitä yhteiskunnallisiin prioriteetteihin.
    Weimar: "Kun vanhat hyveet, kuten säästäväisyys, rehellisyys ja ahkeruus, menettivät viehätyksensä, kaikki halusivat rikastua nopeasti, varsinkin kun valuutta- tai osakespekulaatio näytti ilmeisesti tuottavan paljon enemmän kuin työ."
 

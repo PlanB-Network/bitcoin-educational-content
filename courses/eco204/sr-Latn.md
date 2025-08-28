@@ -834,7 +834,7 @@ Weimar: "Spekulacija o inflaciji uključivala je zaduživanje u papirnim markama
 Zimbabve: "Burner-preneurs"
 
 
-7. Iskrenost i Hard rad gube svoju privlačnost
+#### 7. Poštenje i naporan rad gube svoj privlačnost
 
 
 U nestabilnim ekonomskim kontekstima, tradicionalne vrednosti Hard rada, štedljivosti i integriteta mogu biti zasenjene privlačnošću brzog bogatstva. Špekulacije i trgovanje valutama često nude mnogo veće nagrade od redovnog rada, što izaziva poremećaj u društvenim prioritetima.

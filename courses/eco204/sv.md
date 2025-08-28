@@ -834,7 +834,7 @@ Weimar: "Spekulation i inflation innebar att man lånade pappersmark, omvandlade
 Zimbabwe: "Brännar-prenumeranterna"
 
 
-7. Ärlighet och Hard-arbete förlorar sin dragningskraft
+#### 7. Ärlighet och hårt arbete förlorar sin dragningskraft
 
 
 I instabila ekonomiska sammanhang kan traditionella värderingar som Hard-arbete, sparsamhet och integritet överskuggas av lockelsen att snabbt bli rik. Spekulation och valutahandel erbjuder ofta mycket högre belöningar än vanligt arbete, vilket leder till att samhällets prioriteringar rubbas.

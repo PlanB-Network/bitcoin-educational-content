@@ -506,7 +506,7 @@ Weimar: "Hoạt động đầu cơ dựa trên lạm phát bao gồm việc vay 
 
 Zimbabwe: Các "Burner-preneurs"
 
-7. Tính trung thực và chăm chỉ làm việc bị mất đi sự hấp dẫn
+#### 7. Sự trung thực và làm việc chăm chỉ mất đi sức hấp dẫn của nó
 
 Trong bối cảnh kinh tế không ổn định, các giá trị truyền thống về làm việc chăm chỉ, tiết kiệm và trung thực có thể bị lu mờ bởi sự hấp dẫn của việc giàu có nhanh chóng. Đầu cơ và giao dịch tiền tệ thường mang lại phần thưởng cao hơn nhiều so với công việc bình thường, gây ra sự xáo trộn trong các giá trị của xã hội.
 

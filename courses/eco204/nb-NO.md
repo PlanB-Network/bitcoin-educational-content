@@ -509,7 +509,7 @@ Weimar: "Spekulasjon på inflasjon involverte å låne papirmark, konvertere dem
 
 Zimbabwe: "Brenner-entreprenørene"
 
-7. Ærlighet og hardt arbeid mister sin tiltrekningskraft
+#### 7. Ærlighet og hardt arbeid mister sin tiltrekningskraft
    I ustabile økonomiske kontekster kan tradisjonelle verdier som hardt arbeid, sparsommelighet og integritet bli overskygget av lokket fra rask rikdom. Spekulasjon og valutahandel tilbyr ofte mye høyere belønninger enn vanlig arbeid, noe som forårsaker en forstyrrelse i samfunnets prioriteringer.
    Weimar: "Ettersom de gamle dydene sparsommelighet, ærlighet og hardt arbeid mistet sin tiltrekning, søkte alle å bli raskt rike, spesielt siden valuta- eller aksjespekulasjon tilsynelatende kunne gi mye mer enn arbeid."
 

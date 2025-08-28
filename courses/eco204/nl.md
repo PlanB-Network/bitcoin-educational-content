@@ -834,7 +834,7 @@ Weimar: "Speculatie op inflatie bestond uit het lenen van papieren marken, deze 
 Zimbabwe: de "brander-preneurs
 
 
-7. Eerlijkheid en Hard werk verliezen hun aantrekkingskracht
+#### 7. Eerlijkheid en hard werken verliezen hun aantrekkingskracht
 
 
 In instabiele economische contexten kunnen traditionele waarden als Hard werk, spaarzaamheid en integriteit overschaduwd worden door de allure van snelle rijkdom. Speculatie en valutahandel bieden vaak veel hogere beloningen dan regulier werk, waardoor maatschappelijke prioriteiten worden verstoord.

@@ -527,7 +527,7 @@ Weimar: "Die Spekulation auf Inflation bestand darin, Papiermark zu leihen, sie 
 
 Zimbabwe: Die "Burner-preneurs"
 
-7. Ehrlichkeit und harte Arbeit verlieren an Attraktivität
+#### 7. Ehrlichkeit und harte Arbeit verlieren ihre Anziehungskraft
 
 In wirtschaftlich instabilen Kontexten können traditionelle Werte wie harte Arbeit, Sparsamkeit und Integrität von der Attraktivität des schnellen Reichtums überschattet werden. Spekulation und Devisenhandel bieten oft weit höhere Belohnungen als reguläre Arbeit und führen zu einer Verschiebung der gesellschaftlichen Prioritäten.
 

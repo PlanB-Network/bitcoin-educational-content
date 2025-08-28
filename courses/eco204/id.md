@@ -508,7 +508,7 @@ Weimar: "Spekulasi pada inflasi melibatkan peminjaman mark kertas, mengubahnya m
 
 Zimbabwe: Para "Burner-preneurs"
 
-7. Kejujuran dan kerja keras kehilangan daya tariknya
+#### 7. Kejujuran dan kerja keras kehilangan daya tariknya
    Dalam konteks ekonomi yang tidak stabil, nilai-nilai tradisional seperti kerja keras, hemat, dan integritas bisa tertutupi oleh daya tarik kekayaan cepat. Spekulasi dan perdagangan mata uang seringkali menawarkan imbalan yang jauh lebih tinggi daripada pekerjaan reguler, menyebabkan gangguan dalam prioritas masyarakat.
    Weimar: "Ketika nilai-nilai lama seperti hemat, jujur, dan kerja keras kehilangan daya tariknya, semua orang berusaha untuk cepat kaya, terutama karena spekulasi mata uang atau saham tampaknya bisa menghasilkan jauh lebih banyak daripada bekerja."
 

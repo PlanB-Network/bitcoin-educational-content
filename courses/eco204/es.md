@@ -489,7 +489,7 @@ Weimar: "La especulación sobre la inflación consistía en pedir prestados bill
 
 Zimbabwe: Los "Burner-preneurs"
 
-7. La honestidad y el trabajo duro pierden su atractivo
+#### 7. La honestidad y el trabajo duro pierden su atractivo
 
 En contextos económicos inestables, los valores tradicionales de trabajo duro, ahorro e integridad pueden ser eclipsados por la atracción de la riqueza rápida. La especulación y el comercio de divisas a menudo ofrecen recompensas mucho mayores que el trabajo regular, lo que provoca un cambio en las prioridades sociales.
 

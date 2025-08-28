@@ -1,0 +1,9 @@
+question: 在區域網路中，MAC Address 的主要功能是什麼？
+answer: 唯一識別網路 Interface
+wrong_answers:
+  - 將網域名稱轉換為 IP Address
+  - 動態指定 IP Address 至主機
+  - 確定您的網際網路連線速度
+explanation: |
+  MAC Address 可作為每個網路 Interface 的唯一硬體識別碼，讓裝置在區域網路中得以實體區分。
+reviewed: false

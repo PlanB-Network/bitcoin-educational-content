@@ -1,0 +1,9 @@
+question: パケットがIP宛先に到達するまでの経路を示すコマンドはどれか。
+answer: トレースルート
+wrong_answers:
+  - 勾配
+  - アープ
+  - tcpdump
+explanation: |
+  tracerouteは、TTLを使用して、送信者とターゲット間の各中間ルータを表示します。
+reviewed: false

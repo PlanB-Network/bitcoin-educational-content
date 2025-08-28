@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: Hoe Bitcoin kopen in je eigen Wallet met Bittr
+description: Een eenvoudige stap-voor-stap handleiding voor het zelf in bewaring nemen van Bitcoin aankopen
 ---
 
 ![cover](assets/cover.webp)

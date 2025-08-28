@@ -158,6 +158,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 62.31
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 83.05
 tags:
   - guides
   - business

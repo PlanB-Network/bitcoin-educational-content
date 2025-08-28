@@ -1,0 +1,9 @@
+question: Ni mfumo gani wa uendeshaji wa chuo kikuu uliwezesha kuenea kwa itifaki za TCP/IP katika ulimwengu wa kitaaluma?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, ilianzisha Chuo Kikuu cha Berkeley, ilikuwa mojawapo ya mifumo ya kwanza ya kuunganisha itifaki za TCP/IP na ilisaidia kuzieneza sana katika ulimwengu wa kitaaluma.
+reviewed: false

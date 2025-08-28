@@ -1,0 +1,9 @@
+question: MAC Addressの最初の3バイトを指す用語はどれか？
+answer: OUI（組織固有識別子）
+wrong_answers:
+  - SID（セッション識別子）
+  - LUI（地域固有識別子）
+  - PAN（物理Address番号）
+explanation: |
+  OUIはIEEEによって割り当てられ、MAC Address内のネットワーク・カード・メーカーを識別する。
+reviewed: false

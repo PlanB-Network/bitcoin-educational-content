@@ -1,0 +1,9 @@
+question: IP 协议在 TCP/IP 模型中的主要作用是什么？
+answer: 将数据包从一台主机传送到另一台主机
+wrong_answers:
+  - 管理网络通信加密
+  - 确保应用程序之间的持久连接
+  - 将 MAC 地址转换为 IP 地址
+explanation: |
+  IP 协议处理设备的逻辑寻址，并确保数据包在互连网络中的路由。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual comando pode ser usado para verificar por qual Interface e gateway um pacote para 8.8.8.8 seria roteado?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8.8
+explanation: |
+  ip route get <Address> mostra o caminho exato que um pacote tomaria para chegar a um destino específico.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline tööriist kuvab üksikasjalikke DNS-teateid, sealhulgas kirjeid ja lahendamise protsessi?
+answer: dig
+wrong_answers:
+  - vastuvõtja
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) pakub üksikasjalikku teavet DNS-lahenduse, sealhulgas kirjete tüüpide kohta.
+reviewed: false

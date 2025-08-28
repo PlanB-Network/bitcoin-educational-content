@@ -116,6 +116,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.55
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.7
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.7
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
 tags:
   - proof-of-work
   - onchain

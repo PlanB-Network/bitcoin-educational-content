@@ -1,0 +1,9 @@
+question: Mis on bussitopoloogias peamine eelis?
+answer: Madalad paigalduskulud
+wrong_answers:
+  - Kõrge reduktiivsus
+  - Madal latentsus
+  - Kõrge kättesaadavus
+explanation: |
+  Buss tugineb ühele füüsilisele andmekandjale, mis vähendab paigalduskulusid, kuid tekitab ka ühe tõrkepunkti.
+reviewed: false

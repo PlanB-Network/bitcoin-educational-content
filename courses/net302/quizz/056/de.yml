@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck von Network Bonding?
+answer: Aggregieren mehrerer physischer Netzwerkschnittstellen
+wrong_answers:
+  - Hinzufügen von virtuellen IP-Adressen zum lokalen Netz
+  - Erstellen einer Wi-Fi-Brücke
+  - Verringern der Paketgröße auf dem RJ45-Kabel
+explanation: |
+  Beim Network Bonding werden mehrere physische Schnittstellen zu einer einzigen logischen Schnittstelle zusammengefasst, die Redundanz oder eine höhere Bandbreite bietet.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: बिटर के साथ अपने Wallet में Bitcoin कैसे खरीदें
+description: स्व-संरक्षित Bitcoin खरीद के लिए एक सरल चरण-दर-चरण मार्गदर्शिका
 ---
 
 ![cover](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: 如何使用 Bittr 將 Bitcoin 購買成自己的 Wallet
+description: 自行保管 Bitcoin 購買的簡易步驟指南
 ---
 
 ![cover](assets/cover.webp)

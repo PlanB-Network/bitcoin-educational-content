@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan IPv6 loopback Address, setara dengan 127.0.0.1 di IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  Address "::1/128" adalah Address loopback, yang digunakan untuk pengujian mesin internal.
+reviewed: false

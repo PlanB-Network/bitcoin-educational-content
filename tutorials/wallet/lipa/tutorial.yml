@@ -123,6 +123,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.16
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.52
 tags:
   - lightning
   - wallets

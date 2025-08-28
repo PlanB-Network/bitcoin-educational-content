@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: نحوه خرید Bitcoin به Wallet خودتان با Bittr
+description: راهنمای ساده گام به گام برای خریدهای Bitcoin با نگهداری شخصی
 ---
 
 ![cover](assets/cover.webp)

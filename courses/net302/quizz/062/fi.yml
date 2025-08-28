@@ -1,0 +1,9 @@
+question: Mitä merkintää käytetään IPv6 Address:n lisäämiseen URL-osoitteeseen?
+answer: IPv6 Address on suljettu hakasulkeisiin
+wrong_answers:
+  - IPv6 Address on suluissa
+  - IPv6 Address on suljettu lainausmerkkeihin
+  - IPv6 Address kirjoitetaan raakana
+explanation: |
+  Hakasulkeita käytetään erottamaan IPv6 Address URL-osoitteessa olevasta portista, jotta vältetään epäselvyyksiä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který dokument slouží jako technická reference pro specifikace protokolu TCP/IP?
+answer: RFC
+wrong_answers:
+  - Bílá kniha
+  - ISO
+  - IIP
+explanation: |
+  RFC (Request For Comments) jsou referenční dokumenty, které definují specifikace protokolů TCP/IP.
+reviewed: false

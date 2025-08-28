@@ -1,0 +1,9 @@
+question: 哪個現代通訊協定提供的功能與 IPv5 在網路服務品質管理方面的目標相似？
+answer: RSVP
+wrong_answers:
+  - 超文件傳輸協定
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol，資源預約通訊協定) 允許動態預約網路資源，以保證服務品質 (QoS)，這是 IPv5 的原始目標。
+reviewed: false

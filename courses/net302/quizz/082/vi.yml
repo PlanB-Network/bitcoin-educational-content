@@ -1,0 +1,9 @@
+question: Công cụ hiện đại nào thay thế arp trên các bản phân phối Linux gần đây?
+answer: ip neigh
+wrong_answers:
+  - nếu cấu hình
+  - theo dõi tuyến đường
+  - tuyến đường
+explanation: |
+  ip neigh, từ bộ iproute2, thay thế arp để quản lý liên kết IP/MAC trên Linux hiện đại.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní úloha protokolu IP v modelu TCP/IP?
+answer: Doručování datových paketů z jednoho hostitele na druhého
+wrong_answers:
+  - Správa šifrování síťové komunikace
+  - Zajištění trvalých spojení mezi aplikacemi
+  - Překlad adres MAC na adresy IP
+explanation: |
+  Protokol IP se stará o logické adresování zařízení a zajišťuje směrování paketů v propojených sítích.
+reviewed: false

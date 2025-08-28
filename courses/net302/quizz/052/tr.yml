@@ -1,0 +1,9 @@
+question: Bir NAT ağ geçidi her ağ akışı için hangi temel bilgileri kaydetmelidir?
+answer: Dahili IP ve genel IP arasındaki eşleme
+wrong_answers:
+  - Kullanılan ağ kablosunun türü
+  - IP Address ve DNS sunucusu arasındaki eşleme
+  - Kullanılan ağ protokolü türü
+explanation: |
+  NAT, paketlerin doğru yönlendirildiğinden emin olmak için dahili ve genel adresler arasındaki eşleşmeyi takip eden yazışmaları sürdürmek için bir çeviri tablosuna dayanır.
+reviewed: false

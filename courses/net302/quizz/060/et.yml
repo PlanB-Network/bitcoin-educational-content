@@ -1,0 +1,9 @@
+question: Mis on IPv6 tagasiside Address, mis vastab 127.0.0.1 IPv4-le?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  Address "::1/128" on Address, mida kasutatakse masinasiseseks testimiseks.
+reviewed: false

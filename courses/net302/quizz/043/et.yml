@@ -1,0 +1,9 @@
+question: Millist avatud lähtekoodiga tarkvara kasutatakse tavaliselt DNS-serverite viitena?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Squid
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) on avatud lähtekoodiga referentsrakendus, mida kasutab enamik DNS-servereid kogu maailmas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken del av ett domännamn representerar toppdomänen (TLD)?
+answer: Elementet längst till höger
+wrong_answers:
+  - Elementet längst till vänster
+  - Den andra nivån efter värden
+  - Det huvudsakliga värdnamnet
+explanation: |
+  Toppdomänen är alltid det element som står längst till höger i FQDN, t.ex. .com, .org eller .fr.
+reviewed: false

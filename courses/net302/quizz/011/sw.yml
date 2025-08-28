@@ -1,0 +1,9 @@
+question: Ni nini sababu kuu kwa nini IPv5 haijawahi kutumwa kwa wingi?
+answer: Ilibaki kuwa majaribio
+wrong_answers:
+  - Upelekaji wake ulikuwa wa gharama kubwa sana
+  - Haikuwa sambamba na IPv6
+  - Ilikuwa na dosari kubwa za usalama
+explanation: |
+  IPv5 ilitekelezwa kwa majaribio pekee. Haikuwahi kusanifishwa au kupitishwa kwa wingi, na hatimaye iliachwa na kupendelea IPv6.
+reviewed: false

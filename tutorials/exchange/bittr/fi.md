@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: Kuinka ostaa Bitcoin omaksi Wallet:ksi Bittr avulla?
+description: Yksinkertainen vaiheittainen opas Bitcoin:n omahuoltajuushankintoja varten
 ---
 
 ![cover](assets/cover.webp)

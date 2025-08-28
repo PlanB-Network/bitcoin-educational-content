@@ -1,0 +1,9 @@
+question: Jaka jest główna rola protokołu TCP w modelu TCP/IP?
+answer: Zapewnienie niezawodnego i uporządkowanego transferu danych
+wrong_answers:
+  - Szyfrowanie komunikacji sieciowej
+  - Przypisywanie adresów IP do maszyn
+  - Fragmentacja datagramów na poziomie fizycznym
+explanation: |
+  TCP zapewnia niezawodną transmisję danych poprzez weryfikację integralności, utrzymanie porządku i odzyskiwanie danych w przypadku ich utraty.
+reviewed: false

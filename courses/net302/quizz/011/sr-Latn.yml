@@ -1,0 +1,9 @@
+question: Koji je glavni razlog zašto IPv5 nikada nije bio široko implementiran?
+answer: Ostalo je eksperimentalno
+wrong_answers:
+  - Njegovo raspoređivanje je bilo previše skupo.
+  - Nije bilo kompatibilno sa IPv6
+  - Imalo je velike sigurnosne propuste
+explanation: |
+  IPv5 je bio implementiran samo eksperimentalno. Nikada nije standardizovan ili široko prihvaćen, i na kraju je napušten u korist IPv6.
+reviewed: false

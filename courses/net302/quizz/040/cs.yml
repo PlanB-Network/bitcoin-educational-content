@@ -1,0 +1,9 @@
+question: Který záznam je povinný v každém souboru zóny DNS?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (ukazatel)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Záznam SOA definuje autoritu zóny a je vyžadován v každém souboru zóny DNS.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué mecanismo permite acceder externamente a un servicio interno a través de NAT?
+answer: Reenvío de puertos
+wrong_answers:
+  - Fragmentación de paquetes
+  - Enrutamiento RIP
+  - Compresión NAT
+explanation: |
+  El reenvío de puertos permite reenviar una conexión externa a un host interno específico a través de la pasarela NAT.
+reviewed: false

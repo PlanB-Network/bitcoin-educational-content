@@ -1,0 +1,9 @@
+question: Jaká je hlavní úloha protokolu IPv4 Address v počítačové síti?
+answer: Jedinečná identifikace sítě Interface
+wrong_answers:
+  - Identifikace celého zařízení v síti
+  - Dynamické přidělování adres MAC v síti
+  - Názvy DNS generate
+explanation: |
+  Každému síťovému Interface zařízení je přiřazen IPv4 Address, což umožňuje jeho lokalizaci a dosažení v síti.
+reviewed: false

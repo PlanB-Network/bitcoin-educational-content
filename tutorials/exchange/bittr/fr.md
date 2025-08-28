@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: Comment acheter du bitcoin directement dans votre wallet avec Bittr ?
+description: Un guide simple, étape par étape, pour l'achat d'une Bitcoin en autodétention
 ---
 
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Vilken post är obligatorisk i varje DNS-zonfil?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (pekare)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  SOA-posten definierar zonauktoriteten och krävs i alla DNS-zonfiler.
+reviewed: false

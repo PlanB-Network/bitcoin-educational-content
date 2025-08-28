@@ -1,5 +1,4 @@
 node_modules
-scripts/.env
 .DS_Store
 **/plan.txt
 courses/**/scripts/
@@ -17,3 +16,5 @@ scripts/auto-translate/translation_logic/argon-edge-450706-b7-55a6efa2821f.json
 CLAUDE.md
 sync-errors-summary.md
 AGENTS.md
+.serena
+.env

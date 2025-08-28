@@ -565,6 +565,7 @@ Praegu on enamusomaniku stsenaarium, mille kohaselt teeb otsuse enamusomanik, k�
 - Väga väikeste ettevõtete omanikud** : Ettevõtjad teenuste, põllumajanduse või käsitöö valdkonnas, kes on mõistnud Bitcoini potentsiaali ja eraldavad osa oma riigikassast sellele. Nende peamine motivatsioon seisneb mitmekesistamises ja sellega kaasnevas vabaduses
 - Börsil noteeritud ettevõtted**, nagu MicroStrategy, on loonud pretsedendi, konverteerides märkimisväärse osa oma ettevõtte varadest Bitcoiniks, näidates ülemaailmset muutust ettevõtete kapitali jaotamise strateegiates. 2024. aasta sügiseks olid paljud teised ettevõtted järginud oma eeskuju, mis seadustab seda suundumust veelgi.
 
+Avastage ajakohastatud nimekiri ettevõtetest, kes hoiavad kõige rohkem bitcoine kassas, samuti hoitavad summad, saidil: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Ettevõtete valduses olevate bitcoinide maksustamine
 
 Ettevõtete puhul, mis ei ole struktureeritud eraldi juriidiliste isikutena - näiteks füüsilisest isikust ettevõtjad või muud juriidilise isiku staatuseta isikud - peegeldab Bitcoini tehingute maksustamine sageli üksikisikute suhtes kohaldatavat kohtlemist. Paljudel juhtudel kohaldatakse samu eeskirju, mis kehtivad kapitalikasumi või tulu suhtes, nagu siis, kui üksikisik müüb Bitcoini. Näiteks mõnes riigis võidakse kasumit käsitleda osana ettevõtja isiklikust sissetulekust, mille suhtes kohaldatakse **isiku tulumaksu astmestikku**.

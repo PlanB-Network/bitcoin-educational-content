@@ -1,0 +1,9 @@
+question: Hvilken kommando brukes til å skanne en verts åpne porter og identifisere tilgjengelige tjenester?
+answer: nmap
+wrong_answers:
+  - grave
+  - ethtool
+  - ip nabo
+explanation: |
+  nmap oppdager åpne porter, eksponerte tjenester og noen ganger typen eksternt operativsystem.
+reviewed: false

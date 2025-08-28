@@ -1,6 +1,6 @@
 ---
 name: Bittr
-description: Cómo convertir Bitcoin en tu propia Wallet con Bittr
+description: Una sencilla guía paso a paso para las compras de Bitcoin en régimen de autocustodia
 ---
 
 ![cover](assets/cover.webp)

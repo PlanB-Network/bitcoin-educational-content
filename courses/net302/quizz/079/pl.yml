@@ -1,0 +1,9 @@
+question: Jaki typ rekordu DNS jest używany do mapowania nazwy domeny z IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Typ AAAA (quad-A) jest używany do mapowania nazwy domeny z Address IPv6, podczas gdy typ A jest zarezerwowany dla IPv4.
+reviewed: false

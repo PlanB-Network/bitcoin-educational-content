@@ -1,0 +1,9 @@
+question: ほとんどのシステムでARPキャッシュを参照するために使用できる履歴コマンドはどれか？
+answer: アープ
+wrong_answers:
+  - 掘る
+  - エヌエスルックアップ
+  - ピング
+explanation: |
+  arpコマンドは、IP/MACマッピングをローカルに保存するARPキャッシュを表示または変更できます。
+reviewed: false

@@ -812,7 +812,7 @@ Wanneer geld snel zijn waarde verliest, kunnen zelfs de eenvoudigste transacties
 Geldteltechniek uit Oezbekistan
 
 
-5. Betalingen per cheque
+#### 5. Betalingen met cheque
 
 
 In verstoorde economieën kunnen traditionele betaalmethodes zoals cheques snel hun effectiviteit verliezen. Banken, overweldigd door de stijgende vraag naar valuta als gevolg van hyperinflatie, kunnen het innen van cheques rantsoeneren of uitstellen, waardoor hun reële waarde daalt. Deze instabiliteit leidt vaak tot een prioritering van betaalmethoden, waarbij de prijzen kunnen variëren afhankelijk van de manier van betalen.

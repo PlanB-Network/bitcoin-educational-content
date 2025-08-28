@@ -491,7 +491,7 @@ Ketika mata uang cepat kehilangan nilainya, bahkan transaksi paling sederhana pu
 
 Teknik menghitung uang dari Uzbekistan
 
-5. Pembayaran Cek
+#### 5. Pembayaran dengan cek
 
 Dalam ekonomi yang terganggu, metode pembayaran tradisional seperti cek dapat dengan cepat kehilangan efektivitasnya. Bank, yang kewalahan oleh permintaan mata uang yang meningkat karena hiperinflasi, dapat merasionalkan atau menunda pencairan cek, sehingga mengurangi nilai nyata mereka. Ketidakstabilan ini sering kali mengarah pada prioritas metode pembayaran, di mana harga dapat bervariasi tergantung pada cara seseorang memilih untuk membayar.
 

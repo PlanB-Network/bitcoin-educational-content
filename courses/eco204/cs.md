@@ -492,7 +492,7 @@ Když měna rychle ztrácí svou hodnotu, i ty nejjednodušší transakce se moh
 
 Technika počítání peněz z Uzbekistánu
 
-5. Platby šekem
+#### 5. Platby šekem
 
 V nestabilních ekonomikách mohou tradiční platební metody, jako jsou šeky, rychle ztratit svou účinnost. Banky, přetížené rostoucí poptávkou po měně kvůli hyperinflaci, mohou omezit nebo zpozdit vyplácení šeků, čímž snižují jejich skutečnou hodnotu. Tato nestabilita často vede k prioritizaci platebních metod, kde ceny se mohou lišit v závislosti na způsobu platby.
 

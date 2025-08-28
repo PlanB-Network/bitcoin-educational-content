@@ -494,7 +494,7 @@ Kui valuuta kiiresti oma väärtust kaotab, võivad isegi lihtsaimad tehingud mu
 
 Raha lugemise tehnika Usbekistanist
 
-5. Tšekimaksed
+#### 5. Maksmised tšekiga
 
 Häiritud majandustes võivad traditsioonilised maksemeetodid nagu tšekid kiiresti oma efektiivsuse kaotada. Pangad, mida koormab hüperinflatsiooni tõttu valuuta järele kasvav nõudlus, võivad piirata või viivitada tšekkide sularahaks muutmist, vähendades seeläbi nende tegelikku väärtust. See ebastabiilsus viib sageli maksemeetodite prioriseerimiseni, kus hinnad võivad sõltuda sellest, kuidas keegi otsustab maksta.
 

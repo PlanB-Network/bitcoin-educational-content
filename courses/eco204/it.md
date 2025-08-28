@@ -468,7 +468,7 @@ La velocità con cui la moneta può perdere il suo valore in certe situazioni ec
 
 ![image](assets/fr/041.webp)
 
-4. Conteggio del denaro
+#### 4. Conteggio del denaro
 
 Quando la valuta perde rapidamente valore, anche le transazioni più semplici possono diventare complesse. Calcolare il prezzo di un articolo o semplicemente contare le banconote necessarie per un pagamento può richiedere diversi minuti, aggiungendo un livello di complessità alle interazioni quotidiane.
 

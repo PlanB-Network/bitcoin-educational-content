@@ -492,7 +492,7 @@ Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbe
 
 Teknikk for pengeregning fra Usbekistan
 
-5. Sjekkbetalinger
+#### 5. Betalinger med sjekk
 
 I forstyrrede økonomier kan tradisjonelle betalingsmetoder som sjekker raskt miste sin effektivitet. Banker, overveldet av den økende etterspørselen etter valuta på grunn av hyperinflasjon, kan rasjonere eller forsinke innløsningen av sjekker, noe som reduserer deres reelle verdi. Denne ustabiliteten fører ofte til en prioritering av betalingsmetoder, der priser kan variere avhengig av hvordan man velger å betale.
 

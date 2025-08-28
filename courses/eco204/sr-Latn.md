@@ -812,7 +812,7 @@ Kada valuta brzo gubi svoju vrednost, čak i najjednostavnije transakcije mogu p
 Tehnika brojanja novca iz Uzbekistana
 
 
-5. Plaćanja čekom
+#### 5. Plaćanja čekom
 
 
 U poremećenim ekonomijama, tradicionalne metode plaćanja poput čekova mogu brzo izgubiti svoju efikasnost. Banke, preopterećene rastućom potražnjom za valutom zbog hiperinflacije, mogu racionalizovati ili odlagati unovčavanje čekova, čime se smanjuje njihova stvarna vrednost. Ova nestabilnost često dovodi do prioritizacije metoda plaćanja, gde cene mogu varirati u zavisnosti od načina plaćanja.

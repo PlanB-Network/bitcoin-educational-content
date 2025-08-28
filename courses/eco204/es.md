@@ -460,7 +460,7 @@ La velocidad con la que la moneda puede perder su valor en ciertas situaciones e
 
 ![imagen](assets/fr/041.webp)
 
-4. Conteo de dinero
+#### 4. Conteo del dinero
 
 Cuando la moneda pierde rápidamente su valor, incluso las transacciones más simples pueden convertirse en tareas laboriosas. Calcular el precio de un artículo o simplemente contar los billetes necesarios para un pago puede llevar varios minutos, añadiendo una capa de complejidad a las interacciones diarias.
 

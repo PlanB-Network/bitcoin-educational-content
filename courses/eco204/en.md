@@ -514,7 +514,7 @@ When currency rapidly loses its value, even the simplest transactions can become
 
 Money counting technique from Uzbekistan
 
-5. Check Payments
+#### 5. Payments by check
 
 In disrupted economies, traditional payment methods like checks can quickly lose their effectiveness. Banks, overwhelmed by the increasing demand for currency due to hyperinflation, may ration or delay the cashing of checks, thereby reducing their real value. This instability often leads to a prioritization of payment methods, where prices can vary depending on how one chooses to pay.
 

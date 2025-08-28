@@ -812,7 +812,7 @@ Para birimi hızla değer kaybettiğinde, en basit işlemler bile zahmetli göre
 Özbekistan'dan para sayma tekniği
 
 
-5. Çek Ödemeleri
+#### 5. Çek ile ödemeler
 
 
 Bozulan ekonomilerde çek gibi geleneksel ödeme yöntemleri etkinliğini hızla yitirebilir. Hiperenflasyon nedeniyle artan para talebinden bunalan bankalar, çeklerin bozdurulmasını kısıtlayabilir veya geciktirebilir, böylece gerçek değerlerini düşürebilirler. Bu istikrarsızlık genellikle ödeme yöntemlerinin öncelik sırasına göre belirlenmesine yol açar ve fiyatlar ödeme şekline göre değişebilir.

@@ -593,7 +593,7 @@ Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza
 
 Mbinu ya kuhesabu pesa kutoka Uzbekistan
 
-5. Angalia Malipo
+#### 5. Malipo kwa hundi
 
 Katika uchumi uliotatizika, njia za kawaida za malipo kama vile hundi zinaweza kupoteza ufanisi wake haraka. Benki, zikizidiwa na ongezeko la mahitaji ya sarafu kutokana na mfumuko mkubwa wa bei, zinaweza kugawa au kuchelewesha uchukuaji wa hundi, na hivyo kupunguza thamani yake halisi. Kukosekana kwa uthabiti huku mara nyingi husababisha kutanguliza njia za malipo, ambapo bei zinaweza kutofautiana kulingana na jinsi mtu atakavyochagua kulipa.
 

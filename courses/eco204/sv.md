@@ -812,7 +812,7 @@ När valutan snabbt förlorar sitt värde kan även de enklaste transaktionerna 
 Räkna pengar - en teknik från Uzbekistan
 
 
-5. Checkbetalningar
+#### 5. Betalningar med check
 
 
 I ekonomier med störningar kan traditionella betalningsmetoder som checkar snabbt förlora sin effektivitet. Banker som är överväldigade av den ökande efterfrågan på valuta på grund av hyperinflation kan ransonera eller försena inlösen av checkar, vilket minskar deras verkliga värde. Denna instabilitet leder ofta till en prioritering av betalningsmetoder, där priserna kan variera beroende på hur man väljer att betala.

@@ -486,7 +486,7 @@ Kun valuutta menettää nopeasti arvoaan, jopa yksinkertaisimmat transaktiot voi
 
 Rahojen laskentatekniikka Uzbekistanista
 
-5. Sekkimaksut
+#### 5. Shekkimaksut
 
 Häiriintyneissä talouksissa perinteiset maksutavat, kuten sekit, voivat nopeasti menettää tehokkuutensa. Pankit, jotka ovat ylikuormitettuja hyperinflaation vuoksi kasvavan valuutan kysynnän takia, voivat rajoittaa tai viivästyttää sekkejen lunastamista, mikä vähentää niiden todellista arvoa. Tämä epävakaus johtaa usein maksutapojen priorisointiin, jossa hinnat voivat vaihdella sen mukaan, miten maksaa.
 

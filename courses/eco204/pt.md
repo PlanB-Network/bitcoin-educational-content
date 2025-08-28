@@ -516,7 +516,7 @@ Quando a moeda perde rapidamente seu valor, até mesmo as transações mais simp
 
 Técnica de contagem de dinheiro do Uzbequistão
 
-5. Pagamentos com cheque
+#### 5. Pagamentos por cheque
 
 Em economias perturbadas, os métodos de pagamento tradicionais, como cheques, podem rapidamente perder sua eficácia. Os bancos, sobrecarregados pela crescente demanda por dinheiro devido à hiperinflação, podem racionar ou atrasar o depósito de cheques, reduzindo assim seu valor real. Essa instabilidade muitas vezes leva a uma hierarquização dos métodos de pagamento, onde os preços podem variar dependendo de como se escolhe pagar.
 

@@ -498,13 +498,17 @@ Die Geschwindigkeit, mit der die Währung in bestimmten wirtschaftlichen Situati
 
 ![image](assets/fr/041.webp)
 
-4. Geldzählung
+#### 4. Geldzählen
 
 Wenn eine Währung schnell an Wert verliert, können selbst einfache Transaktionen zu mühsamen Aufgaben werden. Das Berechnen des Preises eines Artikels oder das einfache Zählen der benötigten Banknoten für eine Zahlung kann mehrere Minuten dauern und eine zusätzliche Ebene der Komplexität in den täglichen Interaktionen hinzufügen.
 
 > Weimar: "Der gewöhnlichste Einkauf im Laden erforderte drei oder vier Minuten Berechnung, und nachdem der Preis festgelegt war, waren in der Regel noch mehrere Minuten erforderlich, um die Banknoten zu zählen."
 
 > Simbabwe: "Die Ladenbesitzer durften auch eine Aushilfskraft einstellen, um das Personal zu ersetzen, das den ganzen Tag Geld zählte. Natürlich war das Zählen des Geldes im Laden für die Verwaltung und die Einzahlung auf die Bank eine Sache, aber der gesamte Prozess musste bei der Einzahlung in der Bank wiederholt werden."
+
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
+
+Money counting technique from Uzbekistan
 
 5. Scheckzahlungen
 

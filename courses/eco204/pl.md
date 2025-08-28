@@ -812,7 +812,7 @@ Gdy waluta gwałtownie traci na wartości, nawet najprostsze transakcje mogą st
 Technika liczenia pieniędzy z Uzbekistanu
 
 
-5. Płatności czekiem
+#### 5. Płatności czekiem
 
 
 W zakłóconych gospodarkach tradycyjne metody płatności, takie jak czeki, mogą szybko stracić swoją skuteczność. Banki, przytłoczone rosnącym popytem na walutę z powodu hiperinflacji, mogą racjonować lub opóźniać realizację czeków, zmniejszając w ten sposób ich rzeczywistą wartość. Ta niestabilność często prowadzi do priorytetyzacji metod płatności, w których ceny mogą się różnić w zależności od wybranego sposobu płatności.

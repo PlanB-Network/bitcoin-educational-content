@@ -489,7 +489,7 @@ Zimbabwe: "Các quản lý cửa hàng cũng được phép thuê một nhân vi
 
 Kỹ thuật đếm tiền từ Uzbekistan
 
-5. Kiểm tra các khoản thanh toán
+#### 5. Thanh toán bằng séc
 
 Trong những nền kinh tế bị gián đoạn, các phương thức thanh toán truyền thống như séc có thể nhanh chóng mất hiệu quả. Do bị quá tải bởi nhu cầu tiền tệ tăng cao do siêu lạm phát, các ngân hàng có thể hạn chế hoặc trì hoãn việc đổi séc thành tiền mặt, từ đó giảm giá trị thực của chúng. Sự bất ổn này thường dẫn đến việc ưu tiên các phương thức thanh toán, nơi giá cả có thể thay đổi tùy thuộc vào cách một người chọn để thanh toán.
 

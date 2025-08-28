@@ -89,7 +89,7 @@ Počítač přemýšlí asi 20 sekund. Zkontrolujte, že výstupní hash soubor 
 
 ## Krok 4: Příprava SD karty
 
-K tomu můžete použít Balena Etcher. Stáhněte si ho zde.
+K tomu můžete použít Balena Etcher. [Stáhněte si jej zde](https://www.balena.io/etcher/).
 
 Použití Etcher je intuitivní. Vložte vaši micro SD kartu a naflashujte na ni software Raspiblitz (.img soubor).
 

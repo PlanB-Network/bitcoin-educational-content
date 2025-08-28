@@ -89,7 +89,7 @@ Máy tính sẽ xử lý trong khoảng 20 giây hoặc hơn. Kiểm tra xem mã
 
 ## Bước 4: Ghi vào thẻ SD
 
-Bạn có thể sử dụng Balena Etcher để thực hiện việc này. Tải về tại đây.
+Bạn có thể sử dụng Balena Etcher để làm điều này. [Tải xuống tại đây](https://www.balena.io/etcher/).
 
 Etcher rất dễ sử dụng. Chèn thẻ micro SD của bạn và ghi phần mềm Raspiblitz (.img file) vào thẻ SD.
 

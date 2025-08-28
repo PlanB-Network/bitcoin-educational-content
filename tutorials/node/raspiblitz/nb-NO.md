@@ -89,7 +89,7 @@ Datamaskinen tenker i 20 sekunder eller så. Sjekk at utdata-hashfilen stemmer o
 
 ## Steg 4: Flash SD-kortet
 
-Du kan bruke Balena Etcher til dette. Last det ned her.
+Du kan bruke Balena Etcher til dette. [Last det ned her](https://www.balena.io/etcher/).
 
 Etcher er selvforklarende å bruke. Sett inn ditt micro SD-kort og flash Raspiblitz-programvaren (.img-fil) på SD-kortet.
 

@@ -132,7 +132,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 ## चरण 4: SD कार्ड फ़्लैश करें
 
 
-आप ऐसा करने के लिए Balena Etcher का उपयोग कर सकते हैं। इसे यहाँ से डाउनलोड करें।
+आप इसके लिए Balena Etcher का उपयोग कर सकते हैं। [इसे यहाँ डाउनलोड करें](https://www.balena.io/etcher/).
 
 
 Etcher का उपयोग करना स्वयं ही आसान है। अपना माइक्रो SD कार्ड डालें और Raspiblitz सॉफ़्टवेयर (.img फ़ाइल) को SD कार्ड पर फ़्लैश करें।

@@ -132,7 +132,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 ## 步驟 4：快閃記憶卡
 
 
-您可以使用 Balena Etcher 進行此操作。在此下載。
+您可以使用 Balena Etcher 來完成此操作。[在此下載](https://www.balena.io/etcher/)。
 
 
 Etcher 的使用方法很簡單。插入您的 micro SD 卡，並將 Raspiblitz 軟體 (.img檔案) 更新至 SD 卡。

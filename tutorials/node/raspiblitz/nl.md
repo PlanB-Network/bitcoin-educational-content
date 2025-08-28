@@ -132,7 +132,7 @@ De computer denkt ongeveer 20 seconden na. Controleer of het uitvoer-hashbestand
 ## Stap 4: De SD-kaart flashen
 
 
-Je kunt hiervoor Balena Etcher gebruiken. Download het hier.
+Je kunt Balena Etcher gebruiken om dit te doen. [Download het hier](https://www.balena.io/etcher/).
 
 
 Het gebruik van Etcher spreekt voor zich. Plaats je micro SD kaart en flash de Raspiblitz software (.img bestand) op de SD kaart.

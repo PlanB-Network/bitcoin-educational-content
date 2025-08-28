@@ -89,7 +89,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 
 ## 步骤4：刷写SD卡
 
-你可以使用Balena Etcher来完成这个操作。在这里下载它。
+您可以使用 Balena Etcher 来完成此操作。[在此下载](https://www.balena.io/etcher/)。
 
 Etcher的使用非常直观。插入你的micro SD卡并将Raspiblitz软件（.img文件）刷写到SD卡上。
 

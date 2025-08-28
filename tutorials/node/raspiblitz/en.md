@@ -93,7 +93,7 @@ The computer thinks for 20 seconds or so. Check that the output hashfile matches
 
 ## Step 4: Flash the SD card
 
-You can use Balena Etcher to do this. Download it here.
+You can use Balena Etcher to do this. [Download it here](https://www.balena.io/etcher/).
 
 Etcher is self explanatory to use. Insert your micro SD card and flash the Raspiblitz software (.img file) onto the SD card.
 

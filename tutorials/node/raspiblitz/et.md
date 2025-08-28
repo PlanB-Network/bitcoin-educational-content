@@ -89,7 +89,7 @@ Arvuti mõtleb umbes 20 sekundit või nii. Kontrollige, et väljundräsi vastab 
 
 ## 4. samm: Kirjutage SD-kaart
 
-Selleks võite kasutada Balena Etcherit. Laadige see siit alla.
+Selle tegemiseks saate kasutada Balena Etcherit. [Laadige see siit alla](https://www.balena.io/etcher/).
 
 Etcher on iseõpetav kasutamiseks. Sisestage oma mikro-SD kaart ja kirjutage Raspiblitz tarkvara (.img fail) SD-kaardile.
 

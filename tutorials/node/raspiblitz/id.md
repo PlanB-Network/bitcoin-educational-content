@@ -89,7 +89,7 @@ Komputer berpikir selama sekitar 20 detik atau lebih. Periksa bahwa hashfile kel
 
 ## Langkah 4: Flash kartu SD
 
-Anda dapat menggunakan Balena Etcher untuk melakukan ini. Unduh di sini.
+Anda dapat menggunakan Balena Etcher untuk melakukan ini. [Unduh di sini](https://www.balena.io/etcher/).
 
 Etcher mudah digunakan. Masukkan kartu micro SD Anda dan flash perangkat lunak Raspiblitz (.img file) ke kartu SD.
 

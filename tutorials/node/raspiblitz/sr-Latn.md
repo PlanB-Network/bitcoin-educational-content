@@ -132,7 +132,7 @@ Računar razmišlja oko 20 sekundi. Proverite da li izlazna hash datoteka odgova
 ## Korak 4: Flashujte SD karticu
 
 
-Možete koristiti Balena Etcher za ovo. Preuzmite ga ovde.
+Možete koristiti Balena Etcher da to uradite. [Preuzmite ga ovde](https://www.balena.io/etcher/).
 
 
 Etcher je sam po sebi jasan za korišćenje. Ubacite svoju micro SD karticu i flešujte Raspiblitz softver (.img fajl) na SD karticu.

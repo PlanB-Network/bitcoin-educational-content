@@ -132,7 +132,7 @@ Kompyuta inafikiri kwa sekunde 20 au hivyo. Angalia kuwa faili ya pato inalingan
 ## Hatua ya 4: Flash kadi ya SD
 
 
-Unaweza kutumia Balena Etcher kufanya hivi. Ipakue hapa.
+Unaweza kutumia Balena Etcher kufanya hivi. [Ipakue hapa](https://www.balena.io/etcher/).
 
 
 Etcher inajieleza mwenyewe kutumia. Ingiza kadi yako ndogo ya SD na uangaze programu ya Raspiblitz (faili.img) kwenye kadi ya SD.

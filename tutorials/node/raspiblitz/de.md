@@ -91,7 +91,7 @@ Der Computer denkt etwa 20 Sekunden lang nach. Überprüfen Sie, ob die Ausgabed
 
 ## Schritt 4: SD-Karte flashen
 
-Sie können Balena Etcher verwenden, um dies zu tun. Laden Sie es hier herunter.
+Sie können Balena Etcher dafür verwenden. [Laden Sie es hier herunter](https://www.balena.io/etcher/).
 
 Etcher ist selbsterklärend zu verwenden. Legen Sie Ihre Micro-SD-Karte ein und flashen Sie die Raspiblitz-Software (.img-Datei) auf die SD-Karte.
 

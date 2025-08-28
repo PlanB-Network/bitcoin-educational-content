@@ -90,7 +90,7 @@ O computador pensa por cerca de 20 segundos. Verifique se o hash do arquivo de s
 
 ## Passo 4: Grave o cartão SD
 
-Você pode usar o Balena Etcher para fazer isso. Baixe-o aqui.
+Você pode usar o Balena Etcher para fazer isso. [Baixe aqui](https://www.balena.io/etcher/).
 
 O Etcher é autoexplicativo de usar. Insira seu cartão micro SD e grave o software Raspiblitz (arquivo .img) no cartão SD.
 

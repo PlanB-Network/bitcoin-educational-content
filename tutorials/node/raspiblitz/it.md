@@ -90,7 +90,7 @@ Il computer ci pensa per circa 20 secondi. Verifica che l'hashfile di output cor
 
 ## Passo 4: Flash della scheda SD
 
-Puoi usare Balena Etcher per farlo. Scaricalo qui.
+Puoi usare Balena Etcher per farlo. [Scaricalo qui](https://www.balena.io/etcher/).
 
 Etcher è autoesplicativo da usare. Inserisci la tua scheda micro SD e flasha il software Raspiblitz (.img file) sulla scheda SD.
 

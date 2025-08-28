@@ -90,7 +90,7 @@ La computadora piensa durante unos 20 segundos. Verifica que el hash del archivo
 
 ## Paso 4: Flashear la tarjeta SD
 
-Puedes usar Balena Etcher para hacer esto. Descárgalo aquí.
+Puedes usar Balena Etcher para hacer esto. [Descárgalo aquí](https://www.balena.io/etcher/).
 
 Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de Raspiblitz (archivo .img) en la tarjeta SD.
 

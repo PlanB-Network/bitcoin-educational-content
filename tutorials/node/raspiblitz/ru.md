@@ -89,7 +89,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 
 ## Шаг 4: Запись на SD-карту
 
-Для этого можно использовать Balena Etcher. Скачайте его здесь.
+Вы можете использовать Balena Etcher для этого. [Скачайте его здесь](https://www.balena.io/etcher/).
 
 Использование Etcher интуитивно понятно. Вставьте вашу micro SD карту и запишите на неё программное обеспечение Raspiblitz (.img файл).
 

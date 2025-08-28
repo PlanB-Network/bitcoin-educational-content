@@ -89,7 +89,7 @@ Tietokone ajattelee noin 20 sekuntia. Tarkista, että tulosteen tiiviste vastaa 
 
 ## Vaihe 4: Flashaa SD-kortti
 
-Voit käyttää tähän Balena Etcheria. Lataa se täältä.
+Voit käyttää tähän Balena Etcheriä. [Lataa se täältä](https://www.balena.io/etcher/).
 
 Etcher on itsestään selvä käyttää. Aseta micro SD -korttisi ja flashaa Raspiblitz-ohjelmisto (.img-tiedosto) SD-kortille.
 

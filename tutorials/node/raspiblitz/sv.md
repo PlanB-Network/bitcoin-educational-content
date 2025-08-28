@@ -132,7 +132,7 @@ Datorn funderar i ungefär 20 sekunder. Kontrollera att den utgående hashfilen 
 ## Steg 4: Flasha SD-kortet
 
 
-Du kan använda Balena Etcher för att göra detta. Ladda ner den här.
+Du kan använda Balena Etcher för att göra detta. [Ladda ner det här](https://www.balena.io/etcher/).
 
 
 Etcher är självförklarande att använda. Sätt i ditt micro SD-kort och flasha Raspiblitz-programvaran (.img-fil) på SD-kortet.

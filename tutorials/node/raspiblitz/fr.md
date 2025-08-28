@@ -91,7 +91,7 @@ L'ordinateur réfléchit pendant environ 20 secondes. Vérifiez que le hash du f
 
 ## Étape 4: Flasher la carte SD
 
-Vous pouvez utiliser Balena Etcher pour cela. Téléchargez-le ici.
+Vous pouvez utiliser Balena Etcher pour faire cela. [Téléchargez-le ici](https://www.balena.io/etcher/).
 
 Etcher est facile à utiliser. Insérez votre carte micro SD et flashez le logiciel Raspiblitz (.img) sur la carte SD.
 

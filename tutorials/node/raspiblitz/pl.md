@@ -132,7 +132,7 @@ Komputer zastanawia się przez około 20 sekund. Sprawdź, czy wyjściowy plik s
 ## Krok 4: Flashowanie karty SD
 
 
-Możesz to zrobić za pomocą Balena Etcher. Można go pobrać tutaj.
+Możesz użyć Balena Etcher, aby to zrobić. [Pobierz go tutaj](https://www.balena.io/etcher/).
 
 
 Etcher jest intuicyjny w obsłudze. Włóż kartę micro SD i sflashuj oprogramowanie Raspiblitz (plik .img) na kartę SD.

@@ -89,7 +89,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 
 ## ステップ 4: SDカードのフラッシュ
 
-これにはBalena Etcherを使用できます。こちらからダウンロードしてください。
+これを行うには Balena Etcher を使用できます。[ここからダウンロードしてください](https://www.balena.io/etcher/)。
 
 Etcherの使用方法は自明です。マイクロSDカードを挿入し、Raspiblitzソフトウェア（.imgファイル）をSDカードにフラッシュしてください。
 

@@ -873,7 +873,7 @@ Weimar: "Ljudi su pribegavali trampi i postepeno se okretali stranim valutama ka
 Zimbabve: "Racije na preduzeća dovele su do zatvaranja nekoliko biznismena iz Bulavaja tokom vikenda i kazni u iznosu dvostruko većem od zaplenjene strane valute, ova hrabrost je potom splasnula."
 
 
-10. Kontrole kapitala
+#### 10. Kontrola kapitala
 
 
 Kada se neka zemlja suoči sa monetarnom ili ekonomskom krizom, jedan od uobičajenih odgovora vlada je stroga kontrola nad kretanjem i oblicima kapitala. Bilo kroz naredbe koje prisiljavaju na prihvatanje devalviranih nacionalnih valuta ili kroz stroge sankcije protiv onih koji odbijaju određene metode plaćanja, ove mere često imaju za cilj da obuzdaju paniku i povrate poverenje. Međutim, njihova efikasnost varira, i ponekad ove mere mogu biti kontraproduktivne ili nepovezane sa stvarnošću koju građani doživljavaju.

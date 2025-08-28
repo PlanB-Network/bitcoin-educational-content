@@ -551,7 +551,7 @@ Regierungen können in dem Bestreben, ihre eigene Währung zu stabilisieren und 
 Weimar: "Die Menschen begannen mit dem Tauschhandel und wandten sich allmählich ausländischen Währungen als einzig zuverlässigem Zahlungsmittel zu. Es wurden neue Verordnungen eingeführt, die den Kauf ausländischer Wechsel und die Verwendung ausländischer Währungen zur Abwicklung von Inlandszahlungen betrafen. Neben Gefängnisstrafen konnten nun Geldstrafen in Höhe von bis zu zehnmal dem Betrag einer illegalen Transaktion verhängt werden."
 Zimbabwe: "Razzien in Unternehmen führten zur Inhaftierung mehrerer Geschäftsleute aus Bulawayo über das Wochenende und zu Geldstrafen in Höhe des doppelten Betrags der beschlagnahmten Devisen, danach ließ der Mut nach."
 
-10. Kapitalverkehrskontrollen
+#### 10. Kapitalverkehrskontrollen
 
 Wenn ein Land mit einer Währungs- oder Wirtschaftskrise konfrontiert ist, ist eine häufige Reaktion der Regierungen, eine strenge Kontrolle über die Bewegungen und Formen des Kapitals auszuüben. Ob durch Verordnungen, die die Annahme abgewerteter nationaler Währungen erzwingen, oder durch strenge Strafen gegen diejenigen, die bestimmte Zahlungsmethoden ablehnen, zielen diese Maßnahmen oft darauf ab, Panik einzudämmen und das Vertrauen wiederherzustellen. Die Effektivität variiert jedoch, und manchmal können sich diese Maßnahmen als kontraproduktiv oder von der Realität der Bürger abgekoppelt erweisen.
 Weimar: "Die Händler waren kürzlich durch eine neue Verordnung gezwungen, die Banknoten des Staates anzunehmen; da sie jedoch weiterhin ausländische Währungen für alle Einkäufe akzeptierten, fanden die Händler in der Regel Ausreden, um fast nichts anderes anzunehmen."

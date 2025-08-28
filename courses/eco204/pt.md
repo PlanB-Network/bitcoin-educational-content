@@ -561,7 +561,7 @@ Weimar: "As pessoas passaram a fazer comércio por meio de trocas e gradualmente
 
 Zimbabwe: "Invasões em empresas levaram à prisão de vários empresários de Bulawayo durante o fim de semana e a multas equivalentes ao dobro do valor em moeda estrangeira recuperada, essa coragem então diminuiu."
 
-10. Controle de capitais
+#### 10. Controlo de capitais
 
 Quando um país enfrenta uma crise monetária ou econômica, uma das respostas comuns dos governos é exercer um controle rigoroso sobre os movimentos e formas de capital. Seja por meio de ordens que forçam a aceitação de moedas nacionais desvalorizadas ou por meio de sanções severas contra aqueles que rejeitam certos métodos de pagamento, essas medidas geralmente visam conter o pânico e restaurar a confiança. No entanto, a eficácia varia e, às vezes, essas medidas podem se mostrar contraproducentes ou desconectadas da realidade vivida pelos cidadãos.
 

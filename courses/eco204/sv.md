@@ -873,7 +873,7 @@ Weimar: "Människor tog till byteshandel och vände sig gradvis till utländska 
 Zimbabwe: "Tillslag mot företag ledde till att flera affärsmän från Bulawayo fängslades över helgen och böter motsvarande dubbla beloppet av återvunnen utländsk valuta, denna tapperhet avtog sedan."
 
 
-10. Kapitalkontroll
+#### 10. Kapital­kontroller
 
 
 När ett land står inför en monetär eller ekonomisk kris är en vanlig reaktion från regeringarna att utöva strikt kontroll över kapitalets rörelser och former. Dessa åtgärder syftar ofta till att dämpa paniken och återställa förtroendet, vare sig det handlar om order som tvingar fram acceptans av devalverade nationella valutor eller om stränga sanktioner mot dem som avvisar vissa betalningsmetoder. Effektiviteten varierar dock, och ibland kan åtgärderna visa sig vara kontraproduktiva eller frikopplade från den verklighet som medborgarna upplever.

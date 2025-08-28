@@ -532,7 +532,7 @@ Weimar: "Folk tydde til byttehandel og gradvis vendte seg til utenlandske valuta
 
 Zimbabwe: "Raid mot bedrifter førte til fengsling av flere forretningsmenn fra Bulawayo for helgen og bøter tilsvarende to ganger beløpet av gjenvunnet utenlandsk valuta, denne tapperheten avtok deretter."
 
-10. Kapitalkontroll
+#### 10. Kapital­kontroll
 
 Når et land står overfor en monetær eller økonomisk krise, er et vanlig svar fra regjeringer å utøve streng kontroll over bevegelsen og formene av kapital. Enten gjennom ordrer som tvinger aksept av devaluerte nasjonale valutaer eller gjennom alvorlige sanksjoner mot de som avviser visse betalingsmetoder, har disse tiltakene ofte som mål å inneholde panikk og gjenopprette tillit. Imidlertid varierer deres effektivitet, og noen ganger kan disse tiltakene vise seg å være motproduktive eller frakoblet fra virkeligheten som oppleves av borgerne.
 Weimar: "Handelsmenn hadde nylig blitt tvunget av et nytt dekret til å akseptere statsbanknoter; men siden det også tillot fortsatt bruk av utenlandsk valuta for alle kjøp, fant handelsmenn generelt unnskyldninger for å akseptere nesten ingenting annet."

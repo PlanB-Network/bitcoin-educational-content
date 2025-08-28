@@ -531,7 +531,7 @@ Weimar: "Orang-orang beralih ke barter dan secara bertahap beralih ke mata uang 
 
 Zimbabwe: "Penggerebekan terhadap bisnis menyebabkan beberapa pengusaha dari Bulawayo dipenjara selama akhir pekan dan denda setara dengan dua kali jumlah mata uang asing yang ditemukan, keberanian ini kemudian mereda."
 
-10. Kontrol Modal
+#### 10. Pengendalian modal
 
 Ketika sebuah negara menghadapi krisis moneter atau ekonomi, salah satu respons umum oleh pemerintah adalah untuk menerapkan kontrol ketat atas pergerakan dan bentuk modal. Baik melalui perintah yang memaksa penerimaan mata uang nasional yang terdepresiasi atau melalui sanksi berat terhadap mereka yang menolak metode pembayaran tertentu, tindakan-tindakan ini sering bertujuan untuk menahan panik dan memulihkan kepercayaan. Namun, efektivitas mereka bervariasi, dan terkadang tindakan-tindakan ini dapat terbukti kontraproduktif atau tidak terhubung dengan realitas yang dialami oleh warga negara.
 Weimar: "Para pedagang baru-baru ini dipaksa oleh dekrit baru untuk menerima uang kertas bank negara; tetapi karena itu juga memungkinkan penggunaan mata uang asing untuk semua pembelian, pedagang umumnya menemukan alasan untuk menerima hampir tidak ada yang lain."

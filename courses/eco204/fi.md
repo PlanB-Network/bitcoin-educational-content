@@ -526,7 +526,7 @@ Weimar: "Ihmiset turvautuivat vaihtokauppaan ja kääntyivät vähitellen ulkoma
 
 10. Pääomakontrollit
 
-Kun maa kohtaa rahataloudellisen tai taloudellisen kriisin, yksi hallitusten yleinen vastaus on harjoittaa tiukkaa kontrollia pääoman liikkumisen ja muotojen yli. Olipa kyse määräyksistä, jotka pakottavat hyväksymään arvonalennetut kansalliset valuutat tai ankaria sanktioita niille, jotka hylkäävät tietyt maksutavat, nämä toimenpiteet pyrkivät usein hillitsemään paniikkia ja palauttamaan luottamuksen. Kuitenkin niiden tehokkuus vaihtelee, ja joskus nämä toimenpiteet voivat osoittautua vastaproduktiivisiksi tai irtautuneiksi kansalaisten kokemasta todellisuudesta.
+#### 10. Pääomavalvonta
 Weimar: "Kauppiaat olivat äskettäin pakotettu uudella asetuksella hyväksymään valtion setelit; mutta koska se salli myös ulkomaanvaluuttojen jatkuvan käytön kaikissa ostoksissa, kauppiaat yleensä keksivät tekosyitä hyväksyä melkein mitä tahansa muuta."
 Zimbabwe: "Hallitus otti käyttöön SI 175/2008 -asetuksen 12. joulukuuta 2008, joka koski maksamista shekeillä. Siinä todettiin, että 'rangaistus maksun kieltämisestä shekillä/pankkikortilla tai muulla pankin välittämällä elektronisella maksutavalla on tason 8 sakko tai kuuden kuukauden vankeusrangaistus tai molemmat.' Ilmiselvästi me jätimme SI:n huomiotta, koska se oli täysin irti todellisuudesta."
 ![kuva](assets/fr/043.webp)

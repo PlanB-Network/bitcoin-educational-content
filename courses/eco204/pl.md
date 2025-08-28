@@ -873,7 +873,7 @@ Weimar: "Ludzie uciekali się do handlu wymiennego i stopniowo zwracali się ku 
 Zimbabwe: "Naloty na firmy doprowadziły do uwięzienia kilku biznesmenów z Bulawayo na weekend i nałożenia grzywien w wysokości dwukrotności odzyskanej waluty obcej, po czym ta odwaga ustąpiła"
 
 
-10. Kontrola kapitału
+#### 10. Kontrola kapitału
 
 
 Kiedy kraj staje w obliczu kryzysu walutowego lub gospodarczego, jedną z powszechnych reakcji rządów jest ścisła kontrola nad przepływem i formami kapitału. Czy to poprzez nakazy wymuszające akceptację zdewaluowanych walut krajowych, czy też poprzez surowe sankcje wobec tych, którzy odrzucają określone metody płatności, środki te często mają na celu powstrzymanie paniki i przywrócenie zaufania. Jednak ich skuteczność jest różna, a czasami środki te mogą okazać się przeciwskuteczne lub oderwane od rzeczywistości doświadczanej przez obywateli.

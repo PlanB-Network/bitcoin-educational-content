@@ -873,7 +873,7 @@ Weimar: "İnsanlar takasa başvurdu ve giderek tek güvenilir Exchange aracı ol
 Zimbabve: "İşyerlerine yapılan baskınlar, Bulawayo'dan birkaç işadamının hafta sonu için hapsedilmesine ve ele geçirilen döviz miktarının iki katına eşdeğer para cezalarına yol açtı, bu cesaret daha sonra azaldı."
 
 
-10. Sermaye kontrolleri
+#### 10. Sermaye kontrolleri
 
 
 Bir ülke parasal veya ekonomik bir krizle karşı karşıya kaldığında, hükümetlerin verdiği yaygın tepkilerden biri sermayenin hareketleri ve biçimleri üzerinde sıkı bir kontrol uygulamaktır. İster devalüe edilmiş ulusal para birimlerinin kabulünü zorlayan emirler yoluyla olsun, ister belirli ödeme yöntemlerini reddedenlere karşı ağır yaptırımlar yoluyla olsun, bu önlemler genellikle paniği kontrol altına almayı ve güveni yeniden tesis etmeyi amaçlar. Ancak bunların etkinliği değişkenlik gösterir ve bazen bu önlemler ters etki yaratabilir ya da vatandaşların deneyimlediği gerçeklikten kopuk olabilir.

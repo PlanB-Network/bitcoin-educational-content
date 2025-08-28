@@ -534,7 +534,7 @@ Weimar: "Inimesed pöördusid bartertehingute poole ja järk-järgult välisvalu
 
 Zimbabwe: "Äridele korraldatud reidid viisid mitme Bulawayo ärimehe vangistamiseni nädalavahetuseks ja trahvideni, mis olid võrdväärsed kahekordse tagasi võetud välisvaluuta summaga, see julgus seejärel vaibus."
 
-10. Kapitalikontroll
+#### 10. Kapitalikontroll
 
 Kui riik seisab silmitsi rahandus- või majanduskriisiga, on valitsuste üks tavaline vastus kapitali liikumise ja vormide range kontrollimine. Olgu selleks siis korraldused devalveeritud rahvusvaluutade aktsepteerimiseks või ranged sanktsioonid nende vastu, kes teatud makseviise tagasi lükkavad, need meetmed on sageli suunatud paanika ohjeldamisele ja usalduse taastamisele. Siiski varieerub nende tõhusus ja mõnikord võivad need meetmed osutuda vastupidiseks või kodanike poolt kogetud reaalsusest irdunuks.
 Weimar: "Kaupmehed olid hiljuti sunnitud uue dekreediga aktsepteerima riigipanga rahatähti; kuid kuna see lubas jätkuvalt välisvaluutade kasutamist kõikide ostude puhul, leidsid kaupmehed üldiselt vabandusi, et aktsepteerida peaaegu mitte midagi muud."

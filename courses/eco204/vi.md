@@ -532,7 +532,7 @@ Weimar: "Mọi người chuyển sang dùng hàng đổi hàng và dần dần c
 
 Zimbabwe: "Những cuộc đột kích vào doanh nghiệp đã dẫn đến việc giam giữ nhiều doanh nhân từ Bulawayo vào cuối tuần và phạt tương đương với gấp đôi số ngoại tệ thu hồi, sự liều lĩnh này sau đó đã giảm bớt."
 
-10. Kiểm soát vốn
+#### 10. Kiểm soát vốn
 
 Khi một quốc gia đối mặt với một cuộc khủng hoảng tiền tệ hoặc kinh tế, một phản ứng phổ biến của các chính phủ là thực hiện kiểm soát chặt chẽ đối với việc di chuyển và hình thức của vốn. Cho dù là thông qua các lệnh buộc phải chấp nhận đồng tiền quốc gia bị mất giá hay thông qua các biện pháp trừng phạt nghiêm ngặt đối với những người từ chối một số phương thức thanh toán nhất định, những biện pháp này thường nhằm mục đích kiềm chế hoảng loạn và phục hồi niềm tin. Tuy nhiên, hiệu quả của chúng thay đổi, và đôi khi những biện pháp này lại phản tác dụng hoặc không liên quan đến thực tế mà người dân đang trải qua.
 

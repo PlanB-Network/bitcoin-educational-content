@@ -556,7 +556,7 @@ Weimar: "People resorted to bartering and gradually turned to foreign currencies
 
 Zimbabwe: "Raids on businesses led to the imprisonment of several businessmen from Bulawayo for the weekend and fines equivalent to twice the amount of recovered foreign currency, this bravery then subsided."
 
-10. Capital controls
+#### 10. Capital controls
 
 When a country faces a monetary or economic crisis, one common response by governments is to exert strict control over the movement and forms of capital. Whether through orders forcing the acceptance of devalued national currencies or through severe sanctions against those who reject certain payment methods, these measures often aim to contain panic and restore confidence. However, their effectiveness varies, and sometimes these measures can prove counterproductive or disconnected from the reality experienced by citizens.
 Weimar: "Merchants had recently been forced by a new decree to accept state banknotes; but since it also allowed the continued use of foreign currencies for all purchases, merchants generally found excuses to accept almost nothing else."

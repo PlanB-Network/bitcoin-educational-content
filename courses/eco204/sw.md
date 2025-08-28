@@ -638,7 +638,7 @@ Weimar: "Watu waliamua kubadilishana fedha na hatua kwa hatua wakageukia fedha z
 
 Zimbabwe: "Uvamizi wa biashara ulisababisha kufungwa kwa wafanyabiashara kadhaa kutoka Bulawayo mwishoni mwa wiki na faini sawa na mara mbili ya fedha za kigeni zilizopatikana, ushujaa huu ulipungua."
 
-10. Udhibiti wa mtaji
+#### 10. Udhibiti wa mtaji
 
 Wakati nchi inakabiliwa na mzozo wa kifedha au kiuchumi, jibu moja la kawaida la Fiat money (pesa za serikali) ni kuweka udhibiti mkali juu ya harakati na aina za mtaji. Iwe kupitia maagizo ya kulazimisha kukubalika kwa sarafu za taifa zilizoshuka thamani au kupitia vikwazo vikali dhidi ya wale wanaokataa njia fulani za kulipa, hatua hizi mara nyingi hulenga kuzuia hofu na kurejesha imani. Hata hivyo, ufanisi wao unatofautiana, na wakati mwingine hatua hizi zinaweza kuthibitisha kuwa hazina tija au zimetenganishwa na ukweli wanaoupata wananchi.
 

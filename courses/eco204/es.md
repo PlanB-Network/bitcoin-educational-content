@@ -512,7 +512,7 @@ Los gobiernos, en un esfuerzo por estabilizar su propia moneda y controlar el fl
 Weimar: "La gente comenzó a comerciar a través del trueque y gradualmente recurrió a las divisas extranjeras como única forma de intercambio confiable. Se introdujeron nuevos decretos sobre la compra de letras de cambio extranjeras y el uso de divisas extranjeras para pagos internos. Además de la prisión, ahora se podían imponer multas de hasta diez veces el monto de una transacción ilegal".
 Zimbabwe: "Las redadas en las empresas llevaron al encarcelamiento de varios hombres de negocios de Bulawayo durante el fin de semana y a multas equivalentes al doble del monto en divisas recuperado, luego esta valentía se desvaneció".
 
-10. Control de capitales.
+#### 10. Control de capitales
 
 Cuando un país enfrenta una crisis monetaria o económica, una de las respuestas comunes de los gobiernos es ejercer un estricto control sobre los movimientos y formas de capital. Ya sea a través de órdenes que obligan a aceptar monedas nacionales devaluadas o mediante sanciones severas contra aquellos que rechazan ciertos métodos de pago, estas medidas a menudo buscan contener el pánico y restaurar la confianza. Sin embargo, la efectividad varía y, a veces, estas medidas pueden resultar contraproducentes o desconectadas de la realidad experimentada por los ciudadanos.
 Weimar: "Los comerciantes recientemente se vieron obligados por un nuevo edicto a aceptar los billetes de banco del Estado; pero como también permitía el uso continuo de monedas extranjeras para todas las compras, los comerciantes generalmente encontraban excusas para no aceptar casi nada más".

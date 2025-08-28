@@ -523,7 +523,7 @@ I governi, nel tentativo di stabilizzare la propria valuta e controllare il flus
 
 > Zimbabwe: "Raid nelle aziende hanno portato all'arresto di diversi uomini d'affari di Bulawayo per il fine settimana e a multe pari al doppio dell'importo delle valute recuperate, poi questa audacia si è attenuata."
 
-10. Controllo dei capitali
+#### 10. Controllo dei capitali
 
 Quando un paese si trova di fronte a una crisi monetaria o economica, una delle risposte comuni dei governi è esercitare un controllo rigoroso sui movimenti e le forme di capitale. Che sia attraverso ordinanze che impongono l'accettazione di valute nazionali svalutate o attraverso severe sanzioni contro coloro che rifiutano determinati metodi di pagamento, queste misure spesso mirano a contenere il panico e ripristinare la fiducia. Tuttavia, l'efficacia varia e a volte queste misure possono rivelarsi controproducenti o distanti dalla realtà vissuta dai cittadini.
 Weimar: "I commercianti erano recentemente stati costretti da un nuovo editto ad accettare le banconote dello Stato; ma poiché consentiva anche l'uso continuo di valute straniere per tutti gli acquisti, i commercianti trovavano di solito scuse per accettare quasi nulla di diverso."

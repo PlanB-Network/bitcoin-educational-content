@@ -873,7 +873,7 @@ Weimar: "Mensen namen hun toevlucht tot ruilhandel en wendden zich geleidelijk a
 Zimbabwe: "Overvallen op bedrijven leidden tot de opsluiting van verschillende zakenlieden uit Bulawayo voor het weekend en boetes ter waarde van twee keer het bedrag aan teruggevorderde buitenlandse valuta, daarna nam deze dapperheid af."
 
 
-10. Kapitaalcontroles
+#### 10. Kapitaalcontroles
 
 
 Wanneer een land geconfronteerd wordt met een monetaire of economische crisis, is een veel voorkomende reactie van regeringen om strenge controle uit te oefenen op het verkeer en de vormen van kapitaal. Deze maatregelen zijn vaak bedoeld om paniek te voorkomen en het vertrouwen te herstellen, of het nu gaat om orders die de acceptatie van gedevalueerde nationale valuta's afdwingen of om strenge sancties tegen mensen die bepaalde betaalmethoden afwijzen. Hun doeltreffendheid varieert echter en soms blijken deze maatregelen contraproductief te zijn of los te staan van de realiteit die burgers ervaren.

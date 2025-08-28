@@ -532,7 +532,7 @@ Weimar: "Lidé se uchylovali k barteru a postupně přešli na cizí měny jako 
 
 Zimbabwe: "Razie na podniky vedly k uvěznění několika podnikatelů z Bulawayo na víkend a k pokutám ve výši dvojnásobku částky získané cizí měny, poté tato odvaha opadla."
 
-10. Kontroly kapitálu
+#### 10. Kontrola kapitálu
 
 Když země čelí měnové nebo ekonomické krizi, jednou z běžných reakcí vlád je přísná kontrola pohybu a forem kapitálu. Ať už prostřednictvím nařízení, která vyžadují přijetí znehodnocených národních měn, nebo prostřednictvím vážných sankcí vůči těm, kdo odmítají určité platební metody, tyto opatření často mají za cíl omezit paniku a obnovit důvěru. Avšak jejich účinnost se liší a někdy mohou tyto opatření být kontraproduktivní nebo odpojené od reality, kterou občané zažívají.
 Weimar: "Obchodníci byli nedávno novým dekretem donuceni přijímat státní bankovky; ale protože to také umožňovalo pokračování používání cizích měn pro všechny nákupy, obchodníci obecně hledali výmluvy, aby přijímali skoro nic jiného."

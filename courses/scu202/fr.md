@@ -3040,6 +3040,8 @@ Orion se distingue de Safari par plusieurs éléments techniques :
 
 Orion est entièrement développé par l’équipe de Kagi (connue pour son moteur de recherche sans publicité). Son développement est financé uniquement par ses utilisateurs via l’offre *Orion+* qui donne accès à quelques avantages.
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+
 ### Navigateurs sans moteur de rendu
 
 Enfin, je voudrais terminer ce panorama en vous exposant une alternative beaucoup moins connue et très marginale : les navigateurs en mode texte, dont le plus connu est [Lynx Browser](https://lynx.invisible-island.net/).

@@ -4444,6 +4444,7 @@ Orion differs from Safari in several technical respects:
 Orion is entirely developed by the Kagi team (known for its ad-free search engine). Its development is funded solely by its users via the *Orion+* subscription, which gives access to a number of advantages.
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers without rendering engines
 
 

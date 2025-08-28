@@ -90,7 +90,7 @@ Hash ya sha-256 ya faili lililopakuliwa imetolewa kwenye tovuti. Itabadilika kil
 Kabla ya kuendelea, ikiwa hujui njia yako karibu na mfumo wa faili kwenye mstari wa amri, ni rahisi kujifunza, na unapaswa.
 
 
-Hapa kuna video muhimu kwa Linux, lakini inatumika kwa Mac pia.
+Hapa kuna [video yenye msaada kwa Linux, lakini pia inatumika kwa Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
 Kwa Windows, hapa kuna mafunzo rahisi.

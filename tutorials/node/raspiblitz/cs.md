@@ -60,7 +60,7 @@ Sha-256 hash staženého souboru je uveden na webových stránkách. Při každ�
 
 Před pokračováním, pokud nevíte, jak se orientovat v souborovém systému přes příkazovou řádku, je to snadné se naučit a měli byste to udělat.
 
-Zde je užitečné video pro Linux, ale platí to i pro Mac.
+Zde je [užitečné video pro Linux, ale platí také pro Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Pro Windows zde je jednoduchý tutoriál.
 Mac/Linux

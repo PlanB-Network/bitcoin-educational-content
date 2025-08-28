@@ -90,7 +90,7 @@ Sha-256 heš preuzetog fajla je dostupan na veb-sajtu. Menjaće se sa svakim až
 Pre nego što nastavite, ako ne znate kako da se krećete kroz sistem datoteka u komandnoj liniji, lako je naučiti, i trebalo bi.
 
 
-Evo koristan video za Linux, ali važi i za Mac.
+Evo [korisnog videa za Linux, ali se odnosi i na Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
 Za Windows, evo jednostavnog vodiča.

@@ -90,7 +90,7 @@ Hash sha-256 pobranego pliku jest podany na stronie internetowej. Będzie się z
 Przed kontynuowaniem, jeśli nie znasz się na systemie plików w wierszu poleceń, łatwo się tego nauczyć i powinieneś to zrobić.
 
 
-Oto przydatny film dla systemu Linux, ale dotyczy również komputerów Mac.
+Oto [przydatne wideo dla systemu Linux, ale dotyczy także Maca](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
 Dla systemu Windows, oto prosty samouczek.

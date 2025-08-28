@@ -60,7 +60,7 @@ Ladatun tiedoston sha-256-hajautus on saatavilla verkkosivustolla. Se muuttuu jo
 
 Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on helppo oppia, ja sinun pitäisi.
 
-Tässä on hyödyllinen video Linuxille, mutta se pätee myös Maciin.
+Tässä on [hyödyllinen video Linuxille, mutta se pätee myös Maciin](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Windowsille, tässä on yksinkertainen opas.
 Mac/Linux

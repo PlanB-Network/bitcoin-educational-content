@@ -60,7 +60,7 @@ Hash sha-256 của tệp đã tải xuống được cung cấp trên trang web.
 
 Trước khi tiếp tục, nếu bạn không biết cách sử dụng hệ thống tệp trên dòng lệnh, việc học cách sử dụng nó rất dễ dàng, và bạn nên làm.
 
-Dưới đây là một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac.
+Đây là [một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Đối với Windows, đây là một hướng dẫn đơn giản.
 Mac/Linux

@@ -60,7 +60,7 @@ Sha-256-hashen til den nedlastede filen er oppgitt på nettstedet. Den vil endre
 
 Før du fortsetter, hvis du ikke kjenner din vei rundt filsystemet på kommandolinjen, er det enkelt å lære, og du burde.
 
-Her er en nyttig video for Linux, men gjelder også for Mac.
+Her er en [nyttig video for Linux, men den gjelder også for Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 For Windows, her er en enkel opplæring.
 Mac/Linux

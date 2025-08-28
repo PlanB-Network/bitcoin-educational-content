@@ -60,7 +60,7 @@ Hash sha-256 dari file yang diunduh disediakan di situs web. Itu akan berubah de
 
 Sebelum melanjutkan, jika Anda tidak tahu cara berkeliling sistem file di baris perintah, itu mudah untuk dipelajari, dan Anda seharusnya.
 
-Berikut adalah video yang berguna untuk Linux, tetapi berlaku untuk Mac juga.
+Berikut adalah [video yang berguna untuk Linux, tetapi juga berlaku untuk Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Untuk Windows, berikut adalah tutorial sederhana.
 Mac/Linux

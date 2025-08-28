@@ -60,7 +60,7 @@ MyNodeノードを実行するのと全く同じ機材が必要です。一方�
 
 進む前に、コマンドラインでファイルシステムを扱う方法が分からない場合は、学ぶのは簡単ですし、学ぶべきです。
 
-Linux用の役立つビデオがこちらにありますが、Macにも適用されます。
+こちらは[Linux向けの役立つ動画ですが、Macにも適用されます](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 Windowsの場合、こちらが簡単なチュートリアルです。
 Mac/Linux

@@ -60,7 +60,7 @@ Allalaaditud faili sha-256 räsi on veebisaidil esitatud. See muutub iga värske
 
 Enne jätkamist, kui te ei tunne end käsureal failisüsteemis liikudes kindlalt, on see lihtne õppida ja te peaksite seda tegema.
 
-Siin on kasulik video Linuxile, kuid see kehtib ka Maci kohta.
+Siin on [kasulik video Linuxi jaoks, kuid see kehtib ka Macile](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Windowsi jaoks on siin lihtne õpetus.
 Mac/Linux

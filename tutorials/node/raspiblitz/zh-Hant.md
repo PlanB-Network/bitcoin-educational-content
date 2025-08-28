@@ -90,7 +90,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 在繼續之前，如果您不熟悉命令列上的檔案系統，很容易學會，而且您應該學會。
 
 
-這裡有一個適用於 Linux 的實用視訊，但也適用於 Mac。
+這是一個[對 Linux 有用的影片，但也適用於 Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 
 對於 Windows，這裡有一個簡單的教學。

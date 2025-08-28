@@ -90,7 +90,7 @@ De sha-256-hash van het gedownloade bestand wordt op de website vermeld. Deze ve
 Voordat we verder gaan, als je nog geen weg weet in het bestandssysteem op de commandoregel, het is makkelijk te leren en je zou het moeten doen.
 
 
-Hier is een nuttige video voor Linux, maar hij is ook van toepassing op Mac.
+Hier is een [nuttige video voor Linux, maar die geldt ook voor Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
 Voor Windows is hier een eenvoudige tutorial.

@@ -90,7 +90,7 @@ Sha-256-hashen för den nedladdade filen finns på webbplatsen. Den kommer att �
 Innan du fortsätter, om du inte känner till filsystemet på kommandoraden, är det lätt att lära sig, och du borde göra det.
 
 
-Här är en användbar video för Linux, men den gäller även för Mac.
+Här är en [användbar video för Linux, men den gäller även för Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
 För Windows finns här en enkel handledning.

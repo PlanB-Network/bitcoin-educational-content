@@ -62,7 +62,7 @@ Le hachage sha-256 du fichier téléchargé est fourni sur le site web. Il chang
 
 Avant de continuer, si vous ne connaissez pas le système de fichiers en ligne de commande, il est facile d'apprendre et vous devriez le faire.
 
-Voici une vidéo utile pour Linux, mais qui s'applique également à Mac.
+Voici une [vidéo utile pour Linux, mais qui s’applique aussi à Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Pour Windows, voici un tutoriel simple.
 Mac/Linux

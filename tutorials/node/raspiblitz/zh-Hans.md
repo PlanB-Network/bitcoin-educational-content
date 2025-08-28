@@ -60,7 +60,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 在继续之前，如果你不熟悉命令行下的文件系统操作，这很容易学，你应该去了解一下。
 
-这里有一个对Linux很有用的视频，但也适用于Mac。
+这是一个[对 Linux 有用的视频，但也适用于 Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 对于Windows，这里有一个简单的教程。
 Mac/Linux

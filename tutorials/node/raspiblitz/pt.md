@@ -61,7 +61,7 @@ O hash sha-256 do arquivo baixado é fornecido no site. Ele mudará a cada atual
 
 Antes de prosseguir, se você não conhece o sistema de arquivos na linha de comando, é fácil aprender e você deveria.
 
-Aqui está um vídeo útil para Linux, mas também se aplica ao Mac.
+Aqui está um [vídeo útil para Linux, mas que também se aplica ao Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Para o Windows, aqui está um tutorial simples.
 Mac/Linux

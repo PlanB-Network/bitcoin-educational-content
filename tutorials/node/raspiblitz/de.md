@@ -62,7 +62,7 @@ Der sha-256-Hash der heruntergeladenen Datei wird auf der Website bereitgestellt
 
 Bevor Sie fortfahren, wenn Sie sich auf der Befehlszeile nicht im Dateisystem auskennen, ist es einfach zu erlernen und Sie sollten es tun.
 
-Hier ist ein nützliches Video für Linux, das auch für Mac gilt.
+Hier ist ein [nützliches Video für Linux, das aber auch für Mac gilt](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 Für Windows gibt es hier ein einfaches Tutorial.
 Mac/Linux

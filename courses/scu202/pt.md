@@ -7999,6 +7999,7 @@ Disponível no F-Droid e totalmente de código aberto, o Chrono oferece um Inter
 A aplicação também integra um temporizador e um cronómetro, com registo de voltas, estatísticas, comparações de tempo e gestão de vários temporizadores. Pode configurar vários fusos horários, personalizar o tema (cores, estilos, animações) e até organizar os seus alarmes e temporizadores com etiquetas.
 
 
+Para aprofundar o assunto, recomendo visitar o site [*Awesome Privacy*](https://awesome-privacy.xyz/), que lista as melhores alternativas que respeitam a privacidade em relação aos softwares que você utiliza diariamente.
 ___
 
 

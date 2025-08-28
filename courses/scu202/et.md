@@ -7999,6 +7999,7 @@ F-Droidil saadaval ja täielikult avatud lähtekoodiga, pakub Chrono kaasaegset,
 Rakendus sisaldab ka taimerit ja stopperit, ringide salvestamist, statistikat, ajavõrdlusi ja mitme ajamiga haldamist. Saate konfigureerida mitu ajavööndit, kohandada teemat (värvid, stiilid, animatsioonid) ja isegi organiseerida oma alarmid ja taimerid siltidega.
 
 
+Teema sügavamaks uurimiseks soovitan külastada lehte [*Awesome Privacy*](https://awesome-privacy.xyz/), mis loetleb parimad privaatsust austavad alternatiivid igapäevaselt kasutatavale tarkvarale.
 ___
 
 

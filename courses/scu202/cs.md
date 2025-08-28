@@ -7999,6 +7999,7 @@ Aplikace Chrono, která je k dispozici na platformě F-Droid a je zcela otevřen
 Aplikace také integruje časovač a stopky se záznamem kol, statistikami, porovnáváním časů a správou více časovačů. Můžete konfigurovat více časových pásem, přizpůsobit téma (barvy, styly, animace) a dokonce uspořádat budíky a časovače pomocí štítků.
 
 
+Pro hlubší pochopení tématu vám doporučuji navštívit stránku [*Awesome Privacy*](https://awesome-privacy.xyz/), která uvádí nejlepší alternativy šetrné k ochraně soukromí k softwaru, který používáte každý den.
 ___
 
 

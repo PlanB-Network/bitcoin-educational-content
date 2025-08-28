@@ -7999,6 +7999,7 @@ F-Droidissa saatavilla oleva ja täysin avoimen lähdekoodin Chrono tarjoaa mode
 Sovellus sisältää myös ajastimen ja sekuntikellon, jossa on kierrosten tallennus, tilastoja, aikavertailuja ja usean ajastimen hallinta. Voit määrittää useita aikavyöhykkeitä, muokata teemaa (värit, tyylit, animaatiot) ja jopa järjestää hälytykset ja ajastimet tarroilla.
 
 
+Aiheeseen perehtyäksesi suosittelen vierailemaan sivustolla [*Awesome Privacy*](https://awesome-privacy.xyz/), joka listaa parhaat yksityisyyttä kunnioittavat vaihtoehdot ohjelmistoille, joita käytät päivittäin.
 ___
 
 

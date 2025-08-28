@@ -7999,6 +7999,7 @@ Dostępny na F-Droid i całkowicie open-source, Chrono oferuje nowoczesny, przej
 Aplikacja integruje również minutnik i stoper, z możliwością rejestrowania okrążeń, statystykami, porównywaniem czasu i zarządzaniem wieloma minutnikami. Możesz skonfigurować wiele stref czasowych, dostosować motyw (kolory, style, animacje), a nawet organizować alarmy i timery za pomocą etykiet.
 
 
+Aby zgłębić temat, polecam odwiedzenie strony [*Awesome Privacy*](https://awesome-privacy.xyz/), która przedstawia najlepsze alternatywy dbające o prywatność dla oprogramowania używanego na co dzień.
 ___
 
 

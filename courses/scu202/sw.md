@@ -7999,6 +7999,7 @@ Inapatikana kwenye F-Droid na chanzo huria kabisa, Chrono inatoa Interface ya ki
 Programu pia inaunganisha kipima saa na saa, pamoja na kurekodi kwa paja, takwimu, ulinganisho wa wakati na usimamizi wa saa nyingi. Unaweza kusanidi saa nyingi za eneo, kubinafsisha mandhari (rangi, mitindo, uhuishaji), na hata kupanga kengele na vipima muda kwa lebo.
 
 
+Ili kuchunguza mada hii kwa kina zaidi, ninapendekeza utembelee tovuti ya [*Awesome Privacy*](https://awesome-privacy.xyz/), ambayo inataja mbadala bora zinazoheshimu faragha kwa programu unazotumia kila siku.
 ___
 
 

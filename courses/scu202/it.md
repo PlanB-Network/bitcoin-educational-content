@@ -7999,6 +7999,7 @@ Disponibile su F-Droid e interamente open-source, Chrono offre un Interface mode
 L'applicazione integra anche un timer e un cronometro, con registrazione dei giri, statistiche, confronti dei tempi e gestione di più timer. È possibile configurare più fusi orari, personalizzare il tema (colori, stili, animazioni) e persino organizzare gli allarmi e i timer con etichette.
 
 
+Per approfondire l’argomento, vi consiglio di visitare il sito [*Awesome Privacy*](https://awesome-privacy.xyz/), che elenca le migliori alternative rispettose della privacy ai software che utilizzate quotidianamente.
 ___
 
 

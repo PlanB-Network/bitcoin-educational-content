@@ -7999,6 +7999,7 @@ Có sẵn trên F-Droid và hoàn toàn mã nguồn mở, Chrono cung cấp mộ
 Ứng dụng cũng tích hợp bộ đếm thời gian và đồng hồ bấm giờ, với tính năng ghi lại vòng chạy, thống kê, so sánh thời gian và quản lý nhiều bộ đếm thời gian. Bạn có thể cấu hình nhiều múi giờ, tùy chỉnh giao diện (màu sắc, kiểu dáng, hình động) và thậm chí sắp xếp báo thức và bộ đếm thời gian bằng nhãn.
 
 
+Để tìm hiểu sâu hơn về chủ đề, tôi khuyên bạn nên truy cập trang web [*Awesome Privacy*](https://awesome-privacy.xyz/), nơi liệt kê những lựa chọn thay thế thân thiện với quyền riêng tư tốt nhất cho các phần mềm bạn sử dụng hàng ngày.
 ___
 
 

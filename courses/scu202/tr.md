@@ -8059,6 +8059,7 @@ F-Droid'de bulunan ve tamamen açık kaynaklı olan Chrono, reklam veya veri top
 Uygulama ayrıca tur kaydı, istatistikler, zaman karşılaştırmaları ve çoklu zamanlayıcı yönetimi ile bir zamanlayıcı ve kronometreyi entegre eder. Birden fazla zaman dilimi yapılandırabilir, temayı (renkler, stiller, animasyonlar) özelleştirebilir ve hatta alarmlarınızı ve zamanlayıcılarınızı etiketlerle düzenleyebilirsiniz.
 
 
+Konuyu daha derinlemesine incelemek için [*Awesome Privacy*](https://awesome-privacy.xyz/) sitesini ziyaret etmenizi tavsiye ederim; burada günlük olarak kullandığınız yazılımlara yönelik en iyi gizlilik dostu alternatifler listelenmektedir.
 ___
 
 

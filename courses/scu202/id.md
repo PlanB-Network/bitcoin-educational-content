@@ -7999,6 +7999,7 @@ Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface yang
 Aplikasi ini juga mengintegrasikan timer dan stopwatch, dengan perekaman putaran, statistik, perbandingan waktu, dan manajemen multi-timer. Anda dapat mengonfigurasi beberapa zona waktu, menyesuaikan tema (warna, gaya, animasi), dan bahkan mengatur alarm dan pengatur waktu dengan label.
 
 
+Untuk memperdalam topik ini, saya merekomendasikan Anda mengunjungi situs [*Awesome Privacy*](https://awesome-privacy.xyz/), yang mencantumkan alternatif terbaik yang ramah privasi untuk perangkat lunak yang Anda gunakan setiap hari.
 ___
 
 

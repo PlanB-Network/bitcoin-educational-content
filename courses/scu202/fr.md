@@ -4348,6 +4348,8 @@ Disponible sur F-Droid et entièrement open source, Chrono propose une interface
 
 L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
 
+Pour approfondir le sujet, je vous recommande de visiter le site [*Awesome Privacy*](https://awesome-privacy.xyz/), qui recense les meilleures alternatives respectueuses de la vie privée aux logiciels que vous utilisez au quotidien.
+
 ___
 
 ⚠️ ***Attention** : bien que les alternatives présentées dans ce chapitre soient majoritairement open source et orientées protection de la vie privée, elles ne sont pas sans limites ou sans risques. Certaines peuvent cesser d’être maintenues, comporter des vulnérabilités non corrigées, devenir propriétaires ou même, potentiellement, être des logiciels malveillants. Certaines peuvent également être illégales selon votre juridiction locale. J’ai rédigé ce chapitre en juin 2025, mais il est possible que la situation de ces applications ait évolué depuis.*

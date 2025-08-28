@@ -7999,6 +7999,7 @@ Chrono finns på F-Droid och är helt öppen källkod och erbjuder en modern, sn
 Programmet innehåller också en timer och ett stoppur, med varvregistrering, statistik, tidsjämförelser och hantering av flera timers. Du kan konfigurera flera tidszoner, anpassa temat (färger, stilar, animationer) och till och med organisera dina larm och timers med etiketter.
 
 
+För att fördjupa dig i ämnet rekommenderar jag att du besöker webbplatsen [*Awesome Privacy*](https://awesome-privacy.xyz/), som listar de bästa integritetsvänliga alternativen till de program du använder dagligen.
 ___
 
 

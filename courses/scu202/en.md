@@ -5913,6 +5913,7 @@ Available on F-Droid and entirely open-source, Chrono offers a modern, unclutter
 
 The application also integrates a timer and stopwatch, with lap recording, statistics, time comparisons and multi-timer management. You can configure multiple time zones, customize the theme (colors, styles, animations), and even organize your alarms and timers with labels.
 
+To explore the topic further, I recommend visiting the website [*Awesome Privacy*](https://awesome-privacy.xyz/), which lists the best privacy-friendly alternatives to the software you use daily.
 ___
 
 ⚠️ ***Caution**: Although the alternatives presented in this chapter are mostly open-source and privacy-oriented, they are not without their limitations or risks. Some may cease to be maintained, have unpatched vulnerabilities, become proprietary or even, potentially, be malware. Some may also be illegal in your local jurisdiction. I have written this chapter in June 2025, but the situation for these applications may have changed since then.*

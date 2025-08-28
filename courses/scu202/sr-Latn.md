@@ -7999,6 +7999,7 @@ Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan I
 Aplikacija takođe integriše tajmer i štopericu, sa snimanjem krugova, statistikom, poređenjem vremena i upravljanjem više tajmera. Možete konfigurisati više vremenskih zona, prilagoditi temu (boje, stilove, animacije), pa čak i organizovati svoje alarme i tajmere sa oznakama.
 
 
+Da biste dublje istražili temu, preporučujem da posetite sajt [*Awesome Privacy*](https://awesome-privacy.xyz/), koji navodi najbolje alternative koje poštuju privatnost za softver koji koristite svakodnevno.
 ___
 
 

@@ -7999,6 +7999,7 @@ Chrono ist auf F-Droid verfügbar und vollständig quelloffen. Es bietet ein mod
 Die Anwendung enthält auch einen Timer und eine Stoppuhr mit Rundenaufzeichnung, Statistiken, Zeitvergleichen und Verwaltung mehrerer Timer. Sie können mehrere Zeitzonen konfigurieren, das Thema anpassen (Farben, Stile, Animationen) und sogar Ihre Alarme und Timer mit Etiketten organisieren.
 
 
+Um das Thema zu vertiefen, empfehle ich Ihnen, die Website [*Awesome Privacy*](https://awesome-privacy.xyz/) zu besuchen, die die besten datenschutzfreundlichen Alternativen zu den Programmen auflistet, die Sie täglich verwenden.
 ___
 
 

@@ -7999,6 +7999,7 @@ Chrono is beschikbaar op F-Droid en volledig open-source. Het biedt een moderne,
 De applicatie integreert ook een timer en stopwatch, met rondeopname, statistieken, tijdvergelijkingen en beheer van meerdere timers. Je kunt meerdere tijdzones instellen, het thema aanpassen (kleuren, stijlen, animaties) en zelfs je alarmen en timers organiseren met labels.
 
 
+Om dieper op het onderwerp in te gaan, raad ik u aan de website [*Awesome Privacy*](https://awesome-privacy.xyz/) te bezoeken, die de beste privacyvriendelijke alternatieven opsomt voor de software die u dagelijks gebruikt.
 ___
 
 

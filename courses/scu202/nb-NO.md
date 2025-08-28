@@ -7999,6 +7999,7 @@ Chrono er tilgjengelig på F-Droid og har helt åpen kildekode, og tilbyr en mod
 Programmet integrerer også en tidtaker og stoppeklokke, med runderegistrering, statistikk, tidssammenligninger og administrasjon av flere tidtakere. Du kan konfigurere flere tidssoner, tilpasse temaet (farger, stiler, animasjoner) og til og med organisere alarmer og tidtakere med etiketter.
 
 
+For å gå dypere inn i temaet, anbefaler jeg å besøke nettstedet [*Awesome Privacy*](https://awesome-privacy.xyz/), som lister de beste personvernvennlige alternativene til programvaren du bruker daglig.
 ___
 
 

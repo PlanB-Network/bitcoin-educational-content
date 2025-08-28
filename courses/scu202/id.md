@@ -7610,6 +7610,7 @@ Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, teta
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, autentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus dalam kursus SCU-101:
 
 

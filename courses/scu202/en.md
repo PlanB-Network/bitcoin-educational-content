@@ -5673,6 +5673,7 @@ Authy offers 2FA synchronization across multiple devices, which can be handy, bu
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 If you'd like to find out more about password managers, 2FA authentication and VPNs, I recommend you read the dedicated chapters in the SCU-101 course:
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47

@@ -7610,6 +7610,7 @@ Authy nudi sinhronizaciju 2FA na više uređaja, što može biti korisno, ali ap
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-ovima, preporučujem da pročitate posvećena poglavlja u kursu SCU-101:
 
 

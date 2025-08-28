@@ -7610,6 +7610,7 @@ Authy tarjoaa 2FA-synkronoinnin useisiin laitteisiin, mikä voi olla kätevää,
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jos haluat lisätietoja salasanahallinnasta, 2FA-todennuksesta ja VPN:stä, suosittelen lukemaan SCU-101-kurssin omat luvut:
 
 

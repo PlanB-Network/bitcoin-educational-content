@@ -7610,6 +7610,7 @@ Authy tilbyr 2FA-synkronisering på tvers av flere enheter, noe som kan være pr
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Hvis du vil vite mer om passordadministratorer, 2FA-autentisering og VPN-er, anbefaler jeg at du leser de dedikerte kapitlene i SCU-101-kurset:
 
 

@@ -7610,6 +7610,7 @@ Authy 可在多台设备上同步使用 2FA，非常方便，但它不是开源�
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想了解有关密码管理器、2FA 身份验证和 VPN 的更多信息，我建议您阅读 SCU-101 课程中的专门章节：
 
 

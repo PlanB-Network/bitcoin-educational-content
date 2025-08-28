@@ -7610,6 +7610,7 @@ Authy cung cấp tính năng đồng bộ hóa 2FA trên nhiều thiết bị, r
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Nếu bạn muốn tìm hiểu thêm về trình quản lý mật khẩu, xác thực 2FA và VPN, tôi khuyên bạn nên đọc các chương chuyên sâu trong khóa học SCU-101:
 
 

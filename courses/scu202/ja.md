@@ -7610,6 +7610,7 @@ Authyは複数のデバイス間で2FAの同期が可能で便利だが、アプ
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 パスワードマネージャー、2FA認証、VPNについてもっと知りたい方は、SCU-101コースの専用章を読むことをお勧めします：
 
 

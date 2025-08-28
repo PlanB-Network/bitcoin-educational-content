@@ -7610,6 +7610,7 @@ Authy همگام‌سازی 2FA را در چندین دستگاه ارائه م�
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 اگر مایلید اطلاعات بیشتری درباره مدیران رمز عبور، احراز هویت 2FA و VPNها کسب کنید، توصیه می‌کنم فصل‌های اختصاصی در دوره SCU-101 را مطالعه کنید:
 
 

@@ -7610,6 +7610,7 @@ Authy offre la sincronizzazione 2FA su più dispositivi, il che può essere util
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Se volete saperne di più sui gestori di password, l'autenticazione 2FA e le VPN, vi consiglio di leggere i capitoli dedicati nel corso SCU-101:
 
 

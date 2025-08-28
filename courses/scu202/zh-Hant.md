@@ -7610,6 +7610,7 @@ Authy 提供跨多個裝置的 2FA 同步功能，非常方便，但此應用程
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想瞭解更多關於密碼管理器、2FA 認證和 VPN 的資訊，我建議您閱讀 SCU-101 課程中的專門章節：
 
 

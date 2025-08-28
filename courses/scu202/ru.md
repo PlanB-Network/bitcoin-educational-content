@@ -7610,6 +7610,7 @@ Authy предлагает синхронизацию 2FA на нескольк�
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Если вы хотите узнать больше о менеджерах паролей, аутентификации 2FA и VPN, я рекомендую вам прочитать соответствующие главы в курсе SCU-101:
 
 

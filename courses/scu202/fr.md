@@ -4112,6 +4112,8 @@ Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+
 Si vous souhaitez en savoir plus sur les gestionnaires de mots de passe, l'authentification 2FA et les VPN, je vous conseille de lire les chapitres dédiés dans la formation SCU 101 :
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47

@@ -7610,6 +7610,7 @@ Ente Auth एक आधुनिक, ओपन-सोर्स, मल्टी-
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 यदि आप पासवर्ड मैनेजर, 2FA प्रमाणीकरण और VPN के बारे में अधिक जानना चाहते हैं, तो मैं आपको SCU-101 पाठ्यक्रम में समर्पित अध्याय पढ़ने की सलाह देता हूं:
 
 

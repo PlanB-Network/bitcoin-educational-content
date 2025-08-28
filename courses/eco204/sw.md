@@ -779,7 +779,7 @@ Historia ya Jamhuri ya Weimar inaonyesha kwamba katika kipindi hiki, mali na mit
 
 > Weimar: "Mji mkuu wote wa Ujerumani uliokuwa nje ya nchi ulikuwa umechukuliwa."
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russses-vol-non-redistribuer-kiev-poserait-lourdes-maswali): "Takriban dola bilioni 300 nje ya nchi zimekuwa zikizuiliwa nje ya nchi kama sehemu ya hifadhi ya Magharibi ya Urusi $ 640 bilioni katika akiba iliyohifadhiwa na Benki Kuu ya Urusi."
-3. Dhana ya bei za soko.
+#### 3. Dhana ya bei ya soko
 
 > Weimar : "Les entreprises Riddick"
 > Kisasa: "Les entreprises Riddick"

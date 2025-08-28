@@ -671,7 +671,7 @@ La storia della Repubblica di Weimar rivela che, durante questo periodo, gli ave
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Circa 300 miliardi di dollari delle riserve russe detenute all'estero sono stati congelati nell'ambito delle sanzioni occidentali, su un totale di 640 miliardi di dollari di riserve detenute dalla Banca centrale russa."
 
-3. Il concetto di prezzo di mercato
+#### 3. La nozione di prezzo di mercato
    > Weimar : "Les entreprises zombies"
 
 > Compagnies zombies : Les entreprises qui sont en faillite ou qui sont incapables de rembourser leurs dettes, mais qui continuent d'exister grâce à des prêts ou des subventions gouvernementales.

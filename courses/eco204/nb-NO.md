@@ -674,7 +674,7 @@ Historien om Weimarrepublikken avslører at i løpet av denne perioden ble eiend
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver holdt i utlandet har faktisk blitt frosset som en del av vestlige sanksjoner, ut av de 640 milliarder dollar i reserver holdt av den russiske sentralbanken."
 
-3. Konseptet med markedspriser.
+#### 3. Begrepet markedspris
    > Weimar: "Zombiebedrifter"
 
 > Samtids: "Zombiebedrifter"

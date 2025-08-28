@@ -1063,7 +1063,7 @@ Istorija Vajmarske Republike otkriva da su tokom ovog perioda, imovina i kapital
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Približno 300 milijardi dolara ruskih rezervi koje se drže u inostranstvu zaista je zamrznuto kao deo zapadnih sankcija, od ukupno 640 milijardi dolara rezervi koje drži Ruska centralna banka."
 
-3. Koncept tržišnih cena.
+#### 3. Pojam tržišne cene
 
 > Weimar : "Preduzeća zombiji"
 

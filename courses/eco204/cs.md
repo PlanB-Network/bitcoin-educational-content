@@ -672,7 +672,7 @@ Historie Výmarské republiky odhaluje, že v tomto období byla aktiva a kapit�
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Přibližně 300 miliard dolarů ruských rezerv držených v zahraničí bylo skutečně zmrazeno jako součást západních sankcí, z celkových 640 miliard dolarů rezerv držených Ruskou centrální bankou."
 
-3. Koncept tržních cen.
+#### 3. Pojem tržní ceny
    > Weimar: "Zombie firmy"
 
 > Současnost: "Zombie firmy"

@@ -780,7 +780,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 
 > 魏瑪：「德國在海外持有的所有資本已被沒收」。
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions)：「在俄羅斯中央銀行持有的 6400 億美元儲備中，作為西方制裁的一部分，俄羅斯在海外持有的約 3000 億美元儲備確實已被凍結」。
-3.市場價格的概念。
+#### 3. 市場價格的概念
 
 > Weimar : "Les entreprises zombies" (殭屍企業)
 > 當代：「殭屍企業」

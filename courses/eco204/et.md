@@ -679,7 +679,7 @@ Weimar: "Kogu Saksamaa kapital, mis hoiti välismaal, oli konfiskeeritud."
 
 [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Umbes 300 miljardit dollarit Venemaa reservidest, mis hoiti välismaal, on tõepoolest lääne sanktsioonide osana külmutatud, 640 miljardist dollarist reservidest, mida hoidis Venemaa Keskpank."
 
-3. Turuhindade kontseptsioon.
+#### 3. Turuhinna mõiste
    > Weimar: "Zombiettevõtted"
 
 > Kaasaegne: "Zombiettevõtted"

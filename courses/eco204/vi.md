@@ -682,7 +682,7 @@ Lịch sử của Cộng hòa Weimar tiết lộ rằng trong giai đoạn này,
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Khoảng 300 tỷ đô la dự trữ của Nga được giữ ở nước ngoài thực sự đã bị đóng băng như là một phần trong các biện pháp trừng phạt của phương Tây, trong số 640 tỷ đô la dự trữ được Ngân hàng Trung ương Nga nắm giữ."
 
-3. Khái niệm về giá thị trường.
+#### 3. Khái niệm giá thị trường
    Trong thời kỳ Cộng hoà Weimar, các nông dân đã thể hiện sự không hài lòng với "Umlage", thuế này yêu cầu họ phải nộp 2 triệu tấn lúa mì đầu tiên được sản xuất ra mỗi năm. Quy định này dẫn tới một nửa nguồn cung bánh mì trên thị trường được bán ra với giá trợ cấp. Từ tháng Tám trở đi, nông dân phải được trả theo giá thế giới, bởi vì mặc dù họ bị ép bán lúa mì theo giá thấp của nhà nước, họ vẫn phải mua phân theo giá thế giới.
 
 Tình trạng này gây ra một vấn đề tập trung liên quan đến khái niệm giá cả thị trường trong giai đoạn siêu lạm phát. Trong bối cảnh Weimar, những người nông dẫn bị ép buộc bán lúa mì của họ với giá thấp hơn giá trị thực, trong khi phải mua phân bón theo giá thế giới. Sự khác biệt kinh tế này cũng làm nổi bật vấn đề liên quan tới giá thực phẩm ngày nay. Các nhà sản xuất nông nghiệp, đối mặt với việc gia tăng chi phí đầu vào do lạm phát, phải chuyển những chi phí này vào giá sản phẩm cuối cùng. Chỉ trích việc họ tăng giá tức là đang bỏ qua động lực của giá thị trường và những áp lực kinh tế mà họ đang gặp phải. Bán với giá thấp nhân tạo trong khi phải chịu chi phí đầu vào cao không thể giúp bất kỳ doanh nghiệp nào hoạt động bền vững được cả.

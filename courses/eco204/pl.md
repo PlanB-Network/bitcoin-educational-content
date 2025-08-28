@@ -1065,7 +1065,7 @@ Historia Republiki Weimarskiej pokazuje, że w tym okresie aktywa i kapitał prz
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Około 300 miliardów dolarów rosyjskich rezerw przechowywanych za granicą rzeczywiście zostało zamrożonych w ramach zachodnich sankcji, z 640 miliardów dolarów rezerw przechowywanych przez rosyjski bank centralny"
 
-3. Koncepcja cen rynkowych.
+#### 3. Pojęcie ceny rynkowej
 
 > Weimar: "Przedsiębiorstwa zombie"
 

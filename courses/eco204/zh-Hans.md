@@ -681,7 +681,7 @@ Philip Cagan在定义超级通货膨胀时，可能设定了一个随意的里�
 
    [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions)：“作为西方制裁的一部分，大约3000亿美元的俄罗斯储备在国外确实被冻结了，这是俄罗斯中央银行持有的6400亿美元储备中的一部分。”
 
-1. 市场价格的概念。
+#### 3. 市场价格的概念
    魏玛：“僵尸企业”
 
    当代：“僵尸企业”

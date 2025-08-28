@@ -670,7 +670,7 @@ Sejarah Republik Weimar mengungkapkan bahwa selama periode ini, aset dan modal y
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Sekitar $300 miliar cadangan Rusia yang dipegang di luar negeri memang telah dibekukan sebagai bagian dari sanksi Barat, dari $640 miliar cadangan yang dipegang oleh Bank Sentral Rusia."
 
-3. Konsep harga pasar.
+#### 3. Konsep harga pasar
    > Weimar : "Perusahaan zombie"
 
 > Kontemporer: "Perusahaan zombie"

@@ -1064,7 +1064,7 @@ De geschiedenis van de Weimarrepubliek onthult dat in deze periode bezittingen e
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Ongeveer 300 miljard dollar aan Russische reserves in het buitenland zijn inderdaad bevroren als onderdeel van de westerse sancties, van de 640 miljard dollar aan reserves die de Russische Centrale Bank aanhoudt."
 
-3. Het concept van marktprijzen.
+#### 3. Het begrip marktprijs
 
 > Weimar: "Zombies"
 

@@ -712,7 +712,7 @@ A história da República de Weimar revela que, durante esse período, os ativos
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Aproximadamente 300 bilhões de dólares das reservas russas mantidas no exterior foram congelados no âmbito das sanções ocidentais, de um total de 640 bilhões de dólares em reservas do Banco Central Russo."
 
-3. O conceito de preço de mercado
+#### 3. A noção de preço de mercado
 
 > Weimar : "Les entreprises zombies"
 

@@ -702,7 +702,7 @@ The history of the Weimar Republic reveals that during this period, assets and c
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Approximately $300 billion of Russian reserves held abroad have indeed been frozen as part of Western sanctions, out of the $640 billion in reserves held by the Russian Central Bank."
 
-3. The concept of market prices.
+#### 3. The notion of market price
    > Weimar : "Les entreprises zombies"
 
 > Contemporary: "Les entreprises zombies"

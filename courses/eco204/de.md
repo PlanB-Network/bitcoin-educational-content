@@ -698,7 +698,7 @@ Die Geschichte der Weimarer Republik zeigt, dass während dieser Zeit Vermögens
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Etwa 300 Milliarden Dollar der russischen Reserven im Ausland wurden im Rahmen der westlichen Sanktionen eingefroren, von den insgesamt 640 Milliarden Dollar an Reserven der russischen Zentralbank."
 
-3. Das Konzept des Marktpreises
+#### 3. Der Begriff des Marktpreises
    > Weimar : "Les entreprises zombies"
    > Weimar: "Die Stabilisierung beendete die Zeit, in der Unternehmer auf Kosten aller anderen so viel leihen konnten, wie sie wollten. Eine große Anzahl von Unternehmen, die während der Geldflut gegründet oder entwickelt wurden, wurden schnell unproduktiv, als Kapital knapp wurde."
    > Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen insolvent oder nahe der Insolvenz wäre, aber weiterhin funktioniert, hauptsächlich durch kostengünstige Kredite. Diese Unternehmen verdienen gerade genug Geld, um ihre Schulden zu decken, können aber nicht signifikant wachsen.

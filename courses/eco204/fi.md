@@ -664,7 +664,7 @@ Weimarin tasavallan historiasta paljastuu, että tänä aikana ulkomailla pidett
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Noin 300 miljardia dollaria Venäjän ulkomailla pidetyistä varoista on todellakin jäädytetty osana länsimaiden pakotteita, 640 miljardista dollarista, jotka Venäjän keskuspankki piti varoina."
 
-3. Markkinahintojen käsite.
+#### 3. Markkinahinnan käsite
    > Weimar: "Zombiyritykset"
 
 > Nykyaika: "Zombiyritykset"

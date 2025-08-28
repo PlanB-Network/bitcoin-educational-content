@@ -661,7 +661,7 @@ La historia de la República de Weimar revela que, durante este período, los ac
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Alrededor de 300 mil millones de dólares de las reservas rusas en el extranjero han sido congelados como parte de las sanciones occidentales, de los 640 mil millones de dólares de reservas que tiene el Banco Central de Rusia".
 
-3. El concepto de precio de mercado.
+#### 3. La noción de precio de mercado
    > Weimar : "Les entreprises zombies"
 
 > De manière contemporaine, les entreprises zombies sont un problème persistant.

@@ -1065,7 +1065,7 @@ Av Weimarrepublikens historia framgår att tillgångar och kapital som innehades
 
 > [20minutes.fr] (https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Cirka 300 miljarder dollar i ryska reserver utomlands har frysts som en del av västvärldens sanktioner, av de 640 miljarder dollar i reserver som innehas av den ryska centralbanken."
 
-3. Begreppet marknadspriser.
+#### 3. Begreppet marknadspris
 
 > Weimar : "Les entreprises zombies"
 

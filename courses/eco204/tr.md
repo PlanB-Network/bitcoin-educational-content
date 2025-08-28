@@ -1066,7 +1066,7 @@ Weimar Cumhuriyeti'nin tarihi, bu dönemde yurtdışında tutulan varlıklara ve
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Rusya Merkez Bankası'nın elinde bulunan 640 milyar dolarlık rezervin yaklaşık 300 milyar dolarlık kısmı Batı'nın yaptırımları kapsamında dondurulmuştur."
 
-3. Piyasa fiyatları kavramı.
+#### 3. Piyasa fiyatı kavramı
 
 > Weimar : "Les entreprises zombies"
 

@@ -149,7 +149,7 @@ For Mac/Linux, in the terminal type:
 ssh admin@You_Pi's_IP_address
 ```
 
-For Windows, you’ll need to install putty to ssh into the Pi. Type the same command as above.
+For Windows, you’ll need to install [putty](http://putty.org/) to ssh into the Pi. Type the same command as above.
 
 The first time you do this, or whenever you change the OS of the Pi by switching the SD card, you may or may not get this error…
 

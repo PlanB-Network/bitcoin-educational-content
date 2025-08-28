@@ -143,7 +143,7 @@ Nhớ đặt thẻ SD vào Pi trước khi bật nó lên. Đợi vài phút, sa
 ssh admin@Địa_chỉ_IP_của_Pi_của_bạn
 ```
 
-Đối với Windows, bạn sẽ cần cài đặt putty để ssh vào Pi. Gõ lệnh giống như trên.
+Đối với Windows, bạn cần cài đặt [putty](http://putty.org/) để ssh vào Pi. Gõ cùng lệnh như ở trên.
 
 Lần đầu tiên bạn thực hiện điều này, hoặc bất cứ khi nào bạn thay đổi OS của Pi bằng cách thay đổi thẻ SD, bạn có thể hoặc không nhận được lỗi này…
 

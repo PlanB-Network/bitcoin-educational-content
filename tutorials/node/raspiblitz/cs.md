@@ -143,7 +143,7 @@ Pro Mac/Linux, v terminálu napište:
 ssh admin@vaše_Pi_IP_adresa
 ```
 
-Pro Windows, budete muset nainstalovat putty pro ssh připojení k Pi. Napište stejný příkaz jako výše.
+Pro Windows budete muset nainstalovat [putty](http://putty.org/), abyste se mohli připojit k Pi pomocí ssh. Zadejte stejný příkaz jako výše.
 
 Poprvé, když to uděláte, nebo kdykoli změníte OS Pi vyměněním SD karty, můžete dostat tuto chybu…
 

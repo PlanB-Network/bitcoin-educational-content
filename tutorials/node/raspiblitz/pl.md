@@ -215,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-W przypadku systemu Windows należy zainstalować putty, aby połączyć się z Pi przez ssh. Wpisz to samo polecenie, co powyżej.
+Dla systemu Windows musisz zainstalować [putty](http://putty.org/), aby połączyć się z Pi przez ssh. Wpisz tę samą komendę, co powyżej.
 
 
 Za pierwszym razem lub przy każdej zmianie systemu operacyjnego Pi poprzez zmianę karty SD, może pojawić się ten błąd..

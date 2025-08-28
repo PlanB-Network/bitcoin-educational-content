@@ -215,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-Za Windows, trebaće da instalirate putty da biste se ssh-ovali u Pi. Ukucajte istu komandu kao gore.
+Za Windows, moraćete da instalirate [putty](http://putty.org/) da biste se povezali na Pi putem ssh. Ukucajte istu komandu kao gore.
 
 
 Prvi put kada to uradite, ili kad god promenite OS Pi-a zamenom SD kartice, možete, ali i ne morate dobiti ovu grešku…

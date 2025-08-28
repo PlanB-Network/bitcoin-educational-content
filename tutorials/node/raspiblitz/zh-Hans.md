@@ -143,7 +143,7 @@ micro SD卡放在这里：
 ssh admin@您的树莓派IP地址
 ```
 
-对于Windows，您需要安装putty来ssh进入树莓派。输入上述相同的命令。
+在 Windows 上，你需要安装 [putty](http://putty.org/) 才能通过 ssh 连接到 Pi。输入与上面相同的命令。
 
 您第一次这样做，或者当您通过更换SD卡更改树莓派的操作系统时，您可能会也可能不会遇到这个错误...
 

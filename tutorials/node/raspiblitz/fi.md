@@ -143,7 +143,7 @@ Mac/Linuxille, terminaalissa kirjoita:
 ssh admin@Sinun_Pi:n_IP_osoite
 ```
 
-Windowsille, sinun täytyy asentaa putty, jotta voit muodostaa ssh-yhteyden Pi:hin. Kirjoita sama komento kuin yllä.
+Windowsille sinun täytyy asentaa [putty](http://putty.org/) yhdistääksesi Pi:hin ssh:n kautta. Kirjoita sama komento kuin yllä.
 
 Ensimmäisellä kerralla, tai aina kun vaihdat Pi:n käyttöjärjestelmää vaihtamalla SD-korttia, saatat saada tämän virheen...
 

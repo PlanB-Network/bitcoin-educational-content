@@ -143,7 +143,7 @@ Maci/Linuxi jaoks, terminalis tüüpige:
 ssh admin@sinu_Pi_IP_aadress
 ```
 
-Windowsi puhul pead installima putty, et ssh'ga Pi'le ühenduda. Tüüpige sama käsk nagu eespool.
+Windowsi jaoks peate installima [putty](http://putty.org/), et ssh kaudu Pi-ga ühenduda. Sisestage sama käsk nagu ülal.
 
 Esimesel korral, kui seda teed, või kui muudad Pi OS-i, vahetades SD-kaarti, võid saada selle vea...
 

@@ -215,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-對於 Windows，您需要安裝 putty 來 ssh 到 Pi。輸入與上述相同的指令。
+在 Windows 上，你需要安裝 [putty](http://putty.org/) 才能透過 ssh 連線至 Pi。輸入與上面相同的指令。
 
 
 第一次這樣做，或每當您透過切換 SD 卡來變更 Pi 的作業系統時，您可能會或可能不會收到此錯誤...

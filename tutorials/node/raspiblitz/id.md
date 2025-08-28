@@ -143,7 +143,7 @@ Untuk Mac/Linux, di terminal ketik:
 ssh admin@Alamat_IP_Pi_Anda
 ```
 
-Untuk Windows, Anda perlu menginstal putty untuk ssh ke Pi. Ketik perintah yang sama seperti di atas.
+Untuk Windows, Anda perlu menginstal [putty](http://putty.org/) untuk ssh ke Pi. Ketik perintah yang sama seperti di atas.
 
 Pertama kali Anda melakukan ini, atau kapan pun Anda mengganti OS Pi dengan mengganti kartu SD, Anda mungkin atau mungkin tidak mendapatkan kesalahan ini…
 

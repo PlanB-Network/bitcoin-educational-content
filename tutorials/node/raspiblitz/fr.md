@@ -146,7 +146,7 @@ Pour Mac/Linux, dans le terminal, tapez :
 ssh admin@adresse_IP_de_votre_Pi
 ```
 
-Pour Windows, vous devrez installer putty pour vous connecter en SSH au Pi. Tapez la même commande que ci-dessus.
+Pour Windows, vous devez installer [putty](http://putty.org/) afin de vous connecter en ssh au Pi. Tapez la même commande que ci-dessus.
 
 La première fois que vous le faites, ou chaque fois que vous changez le système d'exploitation du Pi en changeant la carte SD, vous pouvez obtenir cette erreur ou non...
 

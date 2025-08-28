@@ -215,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-Kwa Windows, utahitaji kusakinisha putty ili ssh kwenye Pi. Andika amri sawa na hapo juu.
+Kwa Windows, utahitaji kusakinisha [putty](http://putty.org/) ili kuingia kwenye Pi kwa ssh. Andika amri ile ile kama hapo juu.
 
 
 Mara ya kwanza unapofanya hivi, au wakati wowote unapobadilisha OS ya Pi kwa kubadili kadi ya SD, unaweza kupata au usipate hitilafu hii...

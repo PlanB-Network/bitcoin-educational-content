@@ -143,7 +143,7 @@ For Mac/Linux, skriv i terminalen:
 ssh admin@Din_Pi's_IP_adresse
 ```
 
-For Windows, må du installere putty for å ssh inn i Pi. Skriv samme kommando som ovenfor.
+For Windows må du installere [putty](http://putty.org/) for å ssh inn i Pi. Skriv inn samme kommando som ovenfor.
 
 Første gang du gjør dette, eller når du endrer OS på Pi ved å bytte SD-kort, kan du få denne feilen…
 

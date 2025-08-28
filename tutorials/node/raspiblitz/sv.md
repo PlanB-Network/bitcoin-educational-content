@@ -215,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-För Windows måste du installera putty för att kunna ssh:a in i Pi. Skriv samma kommando som ovan.
+För Windows behöver du installera [putty](http://putty.org/) för att ssh in i Pi. Skriv samma kommando som ovan.
 
 
 Första gången du gör detta, eller när du byter operativsystem på Pi genom att byta SD-kort, kan du få det här felet eller inte..

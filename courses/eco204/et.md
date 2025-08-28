@@ -451,7 +451,8 @@ Mitmed raamatud on olnud eriti informatiivsed:
 
 - "When Money Dies" autorilt Adam Ferguson, jälitab Esimese maailmasõja järgset hüperinflatsiooni Saksamaal, samuti Austrias ja Ungaris.
 - Kaks raamatut hüperinflatsioonist Zimbabwes, "Zimbabwe Warm Heart Ugly Face" ja "Hard Boiled Egg Index" autoritelt Jérôme Gardner ja Kudzai Joseph Gou Min-Yu vastavalt, pakuvad liigutavaid tunnistusi rõivapoodide keti tegevjuhilt ja põllumajanduspankurilt nende kogemuste kohta selle segase perioodi jooksul.
-  ![image](assets/fr/040.webp)
+
+![image](assets/fr/040.webp)
 
 Märkmeid konsolideerides märkasin arvukalt sarnasusi Zimbabwei ja Weimari Vabariigi hüperinflatsiooni kogemuste vahel, hoolimata 90-aastasest vahest nende vahel. Ma tuvastasin umbes 17 sarnasust, millest 13 illustreerivad teatud sorti progressiooni majanduskatastroofi suunas, mida need tunnistused kujutavad. Need huvitavad paralleelid demonstreerivad hüperinflatsiooni korduvat ja laastavat olemust läbi aja ja piiride. Täna uurime neid sarnasusi ja kuidas need kujutavad murettekitavat trajektoori hüperinflatsiooni perioodidel.
 
@@ -459,7 +460,7 @@ Märkmeid konsolideerides märkasin arvukalt sarnasusi Zimbabwei ja Weimari Vaba
 
 14 erinevuse mäng!
 
-1. Valuuta puudus
+#### 1. Raha nappus
 
 Kui valuuta väärtus langeb pöörase kiirusega, võivad isegi kõige ambitsioonikamad katsed turule uusi pangatähti tuua osutuda ebapiisavaks. Pidev nõudlus käegakatsutava valuuta järele võib kaugelt ületada keskpankade võimet pangatähti toota, luues enneolematuid likviidsuskriise.
 

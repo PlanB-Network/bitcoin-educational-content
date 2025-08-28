@@ -449,7 +449,8 @@ Flere bøker har vært spesielt informative:
 
 - "When Money Dies" av Adam Ferguson, sporer hyperinflasjonen etter første verdenskrig i Tyskland, samt i Østerrike og Ungarn.
 - To bøker om hyperinflasjon i Zimbabwe, "Zimbabwe Warm Heart Ugly Face" og "Hard Boiled Egg Index" av Jérôme Gardner og Kudzai Joseph Gou Min-Yu henholdsvis, tilbyr gripende vitnesbyrd fra en administrerende direktør i en klesbutikkjede og en landbruksbanker om deres opplevelser i løpet av denne tumultfulle perioden.
-  ![bilde](assets/fr/040.webp)
+
+![bilde](assets/fr/040.webp)
 
 Mens jeg konsoliderte notatene mine, la jeg merke til mange likheter mellom opplevelsene av hyperinflasjon i Zimbabwe og Weimarrepublikken, til tross for 90-års gapet mellom dem. Jeg identifiserte rundt 17 likheter, med 13 som illustrerer en slags progresjon mot den økonomiske katastrofen skildret i disse vitnesbyrdene. Disse fascinerende parallellene demonstrerer den gjentakende og ødeleggende naturen til hyperinflasjon gjennom tid og grenser. I dag vil vi undersøke disse likhetene og hvordan de skildrer en bekymringsfull bane under perioder med hyperinflasjon.
 
@@ -457,7 +458,7 @@ Mens jeg konsoliderte notatene mine, la jeg merke til mange likheter mellom oppl
 
 Spillet med 14 forskjeller!
 
-1. Valutamangel
+#### 1. Mangel på penger
 
 Når valutaen avskrives med svimlende fart, kan selv de mest ambisiøse forsøkene på å oversvømme markedet med nye sedler vise seg å være utilstrekkelige. Den ustanselige etterspørselen etter fysisk valuta kan langt overstige sentralbankenes kapasitet til å produsere sedler, og skape enestående likviditetskriser.
 

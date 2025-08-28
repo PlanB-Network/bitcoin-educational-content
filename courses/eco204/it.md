@@ -233,6 +233,7 @@ La Modern Monetary Theory (MMT) propone una prospettiva distinta sulla creazione
 ![image](assets/fr/020.webp)
 
 Un esempio illustrativo della MMT è il complesso militaro-industriale americano. Secondo la MMT, centinaia di miliardi di dollari possono essere destinati a questo settore senza causare inflazione, grazie alla sua capacità di assorbimento. Al contrario, se fondi consistenti vengono investiti nella costruzione di strade negli Stati Uniti, dove esiste un numero limitato di imprese e manodopera, potrebbe verificarsi un'inflazione a causa della scarsità delle risorse e dell'aumento dei costi richiesti dai fornitori.
+
 Il caso del Giappone è spesso citato dai sostenitori della MMT come un altro esempio dell'assenza di inflazione nonostante una significativa creazione di moneta. Tuttavia, la situazione in Giappone evidenzia anche i limiti delle misure tradizionali dell'inflazione come l'Indice dei Prezzi al Consumo (IPC). In Giappone, gran parte del denaro stampato viene risparmiato o investito nell'immobiliare o nei mercati azionari, anziché essere speso nell'economia di consumo ordinaria. L'IPC, non catturando appieno queste dinamiche, può sottovalutare l'inflazione reale.
 
 L'analisi del Giappone (https://ideas.repec.org/p/ces/ceswps/_9821.html) mette anche in luce come il comportamento degli agenti economici, come il risparmio o l'investimento in attività non incluse nell'IPC, possa mascherare l'impatto inflazionistico della creazione di moneta. Inoltre, la capacità dei diversi settori di assorbire la liquidità iniettata svolge un ruolo cruciale nella manifestazione o meno dell'inflazione.
@@ -431,35 +432,37 @@ Alcuni libri sono stati particolarmente istruttivi:
 ![image](assets/fr/039.webp)
 
 - "When Money Dies" di Adam Ferguson, ripercorre l'iperinflazione post-Prima Guerra Mondiale in Germania, così come in Austria e Ungheria.
-- Two books on hyperinflation in Zimbabwe: "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
+- Due libri sull'iperinflazione in Zimbabwe: "Zimbabwe Warm Heart Ugly Face" e "Hard Boiled Egg Index" di Jérôme Gardner e Kudzai Joseph Gou Min-Yu rispettivamente, offrono testimonianze toccanti di un CEO di una catena di negozi di abbigliamento e di un banchiere agricolo sulle loro esperienze durante questo periodo turbolento.
 
-![image](assets/chapter-3.2/1.webp)
+![image](assets/fr/040.webp)
 
-As I consolidated my notes, I discerned a multitude of similarities between the experiences of hyperinflation in Zimbabwe and the Weimar Republic, despite the 90-year gap between them. I identified about 17 similarities, of which 13 illustrated a sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
+Mentre consolidavo i miei appunti, ho colto una moltitudine di somiglianze tra le esperienze di iperinflazione nello Zimbabwe e nella Repubblica di Weimar, nonostante i 90 anni che le separano. Ho identificato circa 17 somiglianze, di cui 13 mostravano una sorta di progressione verso il disastro economico descritto in queste testimonianze. Questi affascinanti parallelismi dimostrano la natura ripetitiva e devastante dell'iperinflazione attraverso il tempo e i confini. Oggi esamineremo queste somiglianze e come esse rappresentino una traiettoria preoccupante durante i periodi di iperinflazione.
 
-### Comparative Analysis: Zimbabwe and the Weimar Republic
+### Analisi comparativa: Zimbabwe e Repubblica di Weimar
 
-The game of 14 differences!
+Il gioco delle 14 differenze!
 
-1. Currency shortage
+#### 1. Carenza di denaro
 
-When currency depreciates at a dizzying speed, even the most ambitious attempts to flood the market with new banknotes can prove insufficient. The incessant demand for tangible currency can far surpass the capacity of central banks to produce banknotes, creating unprecedented liquidity crises.
+Quando la moneta si deprezza a una velocità vertiginosa, anche i tentativi più ambiziosi di inondare il mercato con nuove banconote possono rivelarsi insufficienti. L'incessante domanda di moneta tangibile può superare di gran lunga la capacità delle banche centrali di produrre banconote, creando crisi di liquidità senza precedenti.
 
-> Weimar: "During this month, it will be increased to almost 4 billion paper marks, a figure with which it is hoped that the currency shortage will be definitively overcome."
+> Weimar: "Durante questo mese, sarà aumentata a quasi 4 miliardi di marchi cartacei, una cifra con la quale si spera che la carenza di valuta venga definitivamente superata."
 
-> Zimbabwe: "From 2002 to January 2009, there were several critical liquidity shortages. There simply weren't enough banknotes printed or in circulation to keep up with the galloping inflation."
+> Zimbabwe: "Dal 2002 a gennaio 2009, ci furono diverse gravi carenze di liquidità. Semplicemente non c'erano abbastanza banconote stampate o in circolazione per tenere il passo con l'inflazione galoppante."
 
-2. "And it's manure!"
+2. "Ed è letame!"
 
-The speed at which currency can lose its value in certain economic situations is staggering. Astronomical amounts of banknotes can be issued in record time, almost instantly turning once considerable sums into something as insignificant as manure.
+La velocità con cui la moneta può perdere il suo valore in certe situazioni economiche è sconcertante. Importi astronomici di banconote possono essere emessi in tempi record, trasformando quasi istantaneamente somme un tempo considerevoli in qualcosa di insignificante come il letame.
 
-> Weimar: "The current total issue amounts to 63,000 billion. In a few days, we will therefore be able to issue two-thirds of the total circulation in one day."
+> Weimar: "L'emissione totale attuale ammonta a 63.000 miliardi. In pochi giorni, saremo quindi in grado di emettere due terzi della circolazione totale in un solo giorno."
 
-> Zimbabwe: "On September 17, 2006, the governor of the RBZ, Gideon Gono, declared: '10 trillion is still out there and it has become manure.'"
+> Zimbabwe: "Il 17 settembre 2006, il governatore della RBZ, Gideon Gono, dichiarò: '10 trilioni sono ancora in circolazione ed è diventato letame.'"
 
-3. Banknotes worth less than the paper they are printed on
+
+3. Banconote che valgono meno della carta su cui sono stampate
    In alcune circostanze economiche, il valore intrinseco di una banconota può diventare inferiore al valore della carta su cui è stampata. Questa drastica svalutazione trasforma le banconote, normalmente simboli di valore e potere d'acquisto, in semplici pezzi di carta senza valore di mercato.
-   > Weimar: "Interi tagli di banconote in marchi erano senza valore quasi appena usciti dalla stampa."
+
+> Weimar: "Interi tagli di banconote in marchi erano senza valore quasi appena usciti dalla stampa."
 
 > Zimbabwe: "La Banca centrale aveva sprecato denaro stampando una banconota che non valeva nemmeno la carta su cui era stampata. In altre parole, il suo valore era inferiore a quello della carta igienica. Per quanto assurdo possa sembrare, era più conveniente utilizzare la banconota da ZWD 100 trilioni come carta igienica anziché acquistare la vera carta igienica."
 

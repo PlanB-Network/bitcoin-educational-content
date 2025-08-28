@@ -529,6 +529,8 @@ En consolidant mes notes, j'ai discerné une multitude de similitudes entre les 
 
 ### Analyse Comparative : Zimbabwe et République de Weimar
 
+Le jeu des 14 différences !
+
 #### 1. Pénurie de monnaie
 
 Lorsque la monnaie se déprécie à une vitesse vertigineuse, même les tentatives les plus ambitieuses pour inonder le marché avec de nouveaux billets peuvent se révéler insuffisantes. La demande incessante pour la monnaie tangibles peut surpasser de loin la capacité des banques centrales à produire des billets, créant des crises de liquidités sans précédent.

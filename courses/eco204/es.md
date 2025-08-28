@@ -424,33 +424,35 @@ Varios libros han sido particularmente instructivos:
 
 ![image](assets/fr/039.webp)
 
-- "When Money Dies" por Adam Ferguson, narra la hiperinflación posterior a la Primera Guerra Mundial en Alemania, así como en Austria y Hungría.
-- Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
-  ![image](assets/chapter-3.2/1.webp)
+- "When Money Dies" por Adam Ferguson narra la hiperinflación posterior a la Primera Guerra Mundial en Alemania, así como en Austria y Hungría.  
+- Dos libros sobre la hiperinflación en Zimbabue, "Zimbabwe Warm Heart Ugly Face" y "Hard Boiled Egg Index" de Jérôme Gardner y Kudzai Joseph Gou Min-Yu respectivamente, ofrecen conmovedores testimonios de un CEO de una cadena de tiendas de ropa y de un banquero agrícola sobre sus experiencias durante este turbulento período.
 
-In consolidating my notes, I discerned a multitude of similarities between the experiences of hyperinflation in Zimbabwe and in the Weimar Republic, despite the 90-year gap separating them. I identified about 17 similarities, 13 of which illustrated some sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
+![image](assets/fr/040.webp)
 
-### Comparative Analysis: Zimbabwe and Weimar Republic
+Al consolidar mis notas, percibí una multitud de similitudes entre las experiencias de hiperinflación en Zimbabue y en la República de Weimar, a pesar de los 90 años que las separan. Identifiqué alrededor de 17 similitudes, 13 de las cuales mostraban una especie de progresión hacia el desastre económico descrito en estos testimonios. Estos fascinantes paralelismos demuestran la naturaleza repetitiva y devastadora de la hiperinflación a través del tiempo y las fronteras. Hoy examinaremos estas similitudes y cómo representan una trayectoria preocupante durante los períodos de hiperinflación.
 
-The game of 14 differences!
+### Análisis comparativo: Zimbabue y la República de Weimar
 
-1. Currency shortage
+¡El juego de las 14 diferencias!
 
-When currency depreciates at a dizzying speed, even the most ambitious attempts to flood the market with new banknotes can prove insufficient. The incessant demand for tangible currency can far surpass the central banks' capacity to produce banknotes, creating unprecedented liquidity crises.
+#### 1. Escasez de dinero
 
-> Weimar: "During this month, it will be increased to almost 4 billion paper marks, a figure with which it is hoped that the currency shortage will be definitively overcome."
+Cuando la moneda se deprecia a una velocidad vertiginosa, incluso los intentos más ambiciosos de inundar el mercado con nuevos billetes pueden resultar insuficientes. La demanda incesante de efectivo tangible puede superar con creces la capacidad de los bancos centrales para producir billetes, creando crisis de liquidez sin precedentes.
 
-> Zimbabwe: "From 2002 to January 2009, there were several critical liquidity shortages. There simply weren't enough banknotes printed or in circulation to keep up with the galloping inflation."
+> Weimar: "Durante este mes, se aumentará a casi 4 mil millones de marcos de papel, una cifra con la que se espera que la escasez de moneda quede definitivamente superada."
 
-2. "And it's manure!"
+> Zimbabue: "Desde 2002 hasta enero de 2009, hubo varias graves carencias de liquidez. Simplemente no había suficientes billetes impresos o en circulación para mantener el ritmo de la inflación galopante."
 
-The speed at which currency can lose its value in certain economic situations is astonishing. Astronomical amounts of banknotes can be issued in record time, instantly transforming once considerable sums into something as insignificant as manure.
+2. "¡Y es estiércol!"
 
-> Weimar: "The current total issue amounts to 63,000 billion. In a few days, we will therefore be able to issue two-thirds of the total circulation in one day."
+La velocidad con la que la moneda puede perder su valor en ciertas situaciones económicas es asombrosa. Cantidades astronómicas de billetes pueden ser emitidas en tiempo récord, transformando instantáneamente sumas que alguna vez fueron considerables en algo tan insignificante como estiércol.
 
-> Zimbabwe: "On September 17, 2006, the governor of the RBZ, Gideon Gono, declared: '10 trillion is still out there and it has become manure.'"
+> Weimar: "La emisión total actual asciende a 63.000 mil millones. En pocos días, podremos emitir dos tercios de la circulación total en un solo día."
 
-3. Banknotes worth less than the paper they are printed on
+> Zimbabue: "El 17 de septiembre de 2006, el gobernador del RBZ, Gideon Gono, declaró: '10 billones aún están ahí fuera y se han convertido en estiércol.'"
+
+
+3. Billetes que valen menos que el papel en el que están impresos
    En ciertas circunstancias económicas, el valor intrínseco de un billete puede llegar a ser inferior al valor del papel en el que está impreso. Esta depreciación drástica convierte a los billetes de banco, que normalmente son símbolos de valor y poder adquisitivo, en simples trozos de papel sin valor de mercado.
    > Weimar: "Las denominaciones enteras de billetes en marcos no tenían valor casi desde que salían de la imprenta".
 

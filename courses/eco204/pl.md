@@ -765,7 +765,7 @@ Podczas konsolidacji moich notatek zauważyłem liczne podobieństwa między do�
 Gra 14 różnic!
 
 
-1. Niedobór waluty
+#### 1. Niedobór pieniędzy
 
 
 Gdy waluta traci na wartości w zawrotnym tempie, nawet najbardziej ambitne próby zalania rynku nowymi banknotami mogą okazać się niewystarczające. Nieustanny popyt na namacalną walutę może znacznie przewyższyć zdolność banków centralnych do produkcji banknotów, powodując bezprecedensowe kryzysy płynności.

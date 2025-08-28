@@ -449,7 +449,8 @@ Několik knih bylo obzvláště poučných:
 
 - "When Money Dies" od Adama Fergusona, sleduje poválečnou hyperinflaci v Německu, stejně jako v Rakousku a Maďarsku.
 - Dvě knihy o hyperinflaci v Zimbabwe, "Zimbabwe Warm Heart Ugly Face" a "Hard Boiled Egg Index" od Jérôma Gardnera a Kudzai Josepha Gou Min-Yu, nabízejí dojemná svědectví od generálního ředitele řetězce obchodů s oblečením a zemědělského bankéře o jejich zkušenostech během tohoto bouřlivého období.
-  ![image](assets/fr/040.webp)
+
+![image](assets/fr/040.webp)
 
 Při konsolidaci mých poznámek jsem si všiml mnoha podobností mezi zkušenostmi s hyperinflací v Zimbabwe a ve Výmarské republice, přestože mezi nimi byl 90letý rozdíl. Identifikoval jsem asi 17 podobností, přičemž 13 ilustruje jakýsi postup směrem k ekonomické katastrofě popsané v těchto svědectvích. Tyto fascinující paralely ukazují opakující se a ničivou povahu hyperinflace napříč časem a hranicemi. Dnes prozkoumáme tyto podobnosti a jak ukazují znepokojivou trajektorii během období hyperinflace.
 
@@ -457,7 +458,7 @@ Při konsolidaci mých poznámek jsem si všiml mnoha podobností mezi zkušenos
 
 Hra na 14 rozdílů!
 
-1. Nedostatek měny
+#### 1. Nedostatek peněz
 
 Když měna ztrácí hodnotu závratnou rychlostí, i ty nejambicióznější pokusy zaplavit trh novými bankovkami se mohou ukázat jako nedostatečné. Neustálá poptávka po hmatatelné měně může daleko přesáhnout kapacitu centrálních bank vyrábět bankovky, což vytváří bezprecedentní likviditní krize.
 

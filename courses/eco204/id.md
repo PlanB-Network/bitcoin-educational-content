@@ -448,7 +448,8 @@ Beberapa buku telah sangat informatif:
 
 - "When Money Dies" oleh Adam Ferguson, menggambarkan hiperinflasi pasca-Perang Dunia I di Jerman, serta di Austria dan Hungaria.
 - Dua buku tentang hiperinflasi di Zimbabwe, "Zimbabwe Warm Heart Ugly Face" dan "Hard Boiled Egg Index" oleh Jérôme Gardner dan Kudzai Joseph Gou Min-Yu masing-masing, menawarkan kesaksian menyentuh dari seorang CEO rantai toko pakaian dan seorang bankir pertanian tentang pengalaman mereka selama periode tumultuous ini.
-  ![image](assets/fr/040.webp)
+
+![image](assets/fr/040.webp)
 
 Saat mengkonsolidasikan catatan saya, saya memperhatikan banyak kesamaan antara pengalaman hiperinflasi di Zimbabwe dan Republik Weimar, meskipun ada jarak 90 tahun antara mereka. Saya mengidentifikasi sekitar 17 kesamaan, dengan 13 menggambarkan semacam progresi menuju bencana ekonomi yang digambarkan dalam kesaksian ini. Paralel menarik ini menunjukkan sifat berulang dan menghancurkan dari hiperinflasi sepanjang waktu dan batas. Hari ini, kita akan memeriksa kesamaan-kesamaan ini dan bagaimana mereka menggambarkan lintasan yang mengkhawatirkan selama periode hiperinflasi.
 
@@ -456,7 +457,7 @@ Saat mengkonsolidasikan catatan saya, saya memperhatikan banyak kesamaan antara 
 
 Permainan 14 perbedaan!
 
-1. Kekurangan Mata Uang
+#### 1. Kekurangan uang
 
 Ketika mata uang terdepresiasi dengan kecepatan yang memusingkan, bahkan upaya paling ambisius untuk membanjiri pasar dengan uang kertas baru dapat terbukti tidak cukup. Permintaan yang tak henti-hentinya untuk mata uang nyata dapat jauh melampaui kapasitas bank sentral untuk memproduksi uang kertas, menciptakan krisis likuiditas yang belum pernah terjadi sebelumnya.
 

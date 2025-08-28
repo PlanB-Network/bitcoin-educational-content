@@ -765,7 +765,7 @@ Bij het consolideren van mijn aantekeningen zag ik talrijke overeenkomsten tusse
 Het spel van 14 verschillen!
 
 
-1. Geld tekort
+#### 1. Geldtekort
 
 
 Wanneer valuta met een duizelingwekkende snelheid in waarde daalt, kunnen zelfs de meest ambitieuze pogingen om de markt te overspoelen met nieuwe bankbiljetten onvoldoende blijken. De onophoudelijke vraag naar tastbaar geld kan de capaciteit van de centrale banken om bankbiljetten te produceren ver overstijgen, waardoor ongekende liquiditeitscrises ontstaan.

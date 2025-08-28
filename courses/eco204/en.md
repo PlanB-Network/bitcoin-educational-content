@@ -469,7 +469,8 @@ Several books have been particularly informative:
 
 - "When Money Dies" by Adam Ferguson, traces the post-World War I hyperinflation in Germany, as well as in Austria and Hungary.
 - Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
-  ![image](assets/fr/040.webp)
+
+![image](assets/fr/040.webp)
 
 While consolidating my notes, I noticed numerous similarities between the experiences of hyperinflation in Zimbabwe and the Weimar Republic, despite the 90-year gap between them. I identified around 17 similarities, with 13 illustrating a sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
 
@@ -477,7 +478,7 @@ While consolidating my notes, I noticed numerous similarities between the experi
 
 The game of 14 differences!
 
-1. Currency Shortage
+#### 1. Shortage of money
 
 When currency depreciates at a dizzying speed, even the most ambitious attempts to flood the market with new banknotes can prove insufficient. The incessant demand for tangible currency can far surpass the central banks' capacity to produce banknotes, creating unprecedented liquidity crises.
 

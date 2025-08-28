@@ -474,7 +474,7 @@ Beim Konsolidieren meiner Notizen habe ich eine Vielzahl von Ähnlichkeiten zwis
 
 Das Spiel der 14 Unterschiede!
 
-1. Geldknappheit
+#### 1. Geldknappheit
 
 Wenn die Währung in atemberaubender Geschwindigkeit an Wert verliert, können selbst die ehrgeizigsten Versuche, den Markt mit neuen Banknoten zu überschwemmen, unzureichend sein. Die ständige Nachfrage nach greifbarem Geld kann die Fähigkeit der Zentralbanken, Banknoten zu produzieren, bei weitem übersteigen und beispiellose Liquiditätskrisen verursachen.
 
@@ -495,6 +495,8 @@ Die Geschwindigkeit, mit der die Währung in bestimmten wirtschaftlichen Situati
    > Weimar: "Ganze Geldscheine in Mark waren praktisch wertlos, sobald sie die Druckerei verließen."
 
 > Simbabwe: "Die Zentralbank hatte Geld verschwendet, indem sie einen Geldschein gedruckt hatte, der nicht den Wert des Papiers hatte, auf dem er gedruckt war. Mit anderen Worten, sein Wert war geringer als der von Toilettenpapier. So absurd es auch klingen mag, es war damals billiger, den ZWD 100 Billionen Geldschein als Toilettenpapier zu verwenden, als echtes Toilettenpapier zu kaufen."
+
+![image](assets/fr/041.webp)
 
 4. Geldzählung
 

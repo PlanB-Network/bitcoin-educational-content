@@ -765,7 +765,7 @@ När jag sammanställde mina anteckningar lade jag märke till många likheter m
 Spelet med 14 skillnader!
 
 
-1. Brist på valuta
+#### 1. Brist på pengar
 
 
 När valutan deprecierar i en svindlande hastighet kan även de mest ambitiösa försök att översvämma marknaden med nya sedlar visa sig vara otillräckliga. Den ständiga efterfrågan på konkret valuta kan vida överstiga centralbankernas kapacitet att tillverka sedlar och skapa likviditetskriser utan motstycke.

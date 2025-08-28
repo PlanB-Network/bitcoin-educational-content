@@ -765,7 +765,7 @@ Dok konsolidujem svoje beleške, primetio sam brojne sličnosti između iskustav
 Igra od 14 razlika!
 
 
-1. Nedostatak Valute
+#### 1. Nedostatak novca
 
 
 Kada valuta deprecira vrtoglavom brzinom, čak i najambiciozniji pokušaji da se tržište preplavi novim novčanicama mogu se pokazati nedovoljnim. Neprestana potražnja za opipljivom valutom može daleko nadmašiti kapacitet centralnih banaka da proizvode novčanice, stvarajući neviđene krize likvidnosti.

@@ -765,7 +765,7 @@ Notlarımı birleştirirken, aralarındaki 90 yıllık farka rağmen Zimbabwe ve
 14 fark oyunu!
 
 
-1. Para Birimi Sıkıntısı
+#### 1. Para kıtlığı
 
 
 Para baş döndürücü bir hızla değer kaybettiğinde, piyasayı yeni banknotlarla doldurmaya yönelik en iddialı girişimler bile yetersiz kalabilir. Somut para birimine yönelik bitmek bilmeyen talep, merkez bankalarının banknot üretme kapasitesini çok aşarak benzeri görülmemiş likidite krizleri yaratabilir.

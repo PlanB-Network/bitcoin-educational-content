@@ -562,7 +562,7 @@ Wakati nikiunganisha maelezo yangu, niliona mfanano mwingi kati ya uzoefu wa mfu
 
 Mchezo wa tofauti 14!
 
-1. Upungufu wa Fedha
+#### 1. Uhaba wa pesa
 
 Sarafu inaposhuka kwa kasi ya ajabu, hata majaribio makubwa ya kujaza soko na noti mpya yanaweza kuwa hayatoshi. Mahitaji ya kudumu ya fedha yanayoonekana yanaweza kupita uwezo wa benki kuu wa kuzalisha noti, na hivyo kusababisha migogoro ya ukwasi isiyo na kifani.
 

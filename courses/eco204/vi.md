@@ -445,7 +445,8 @@ Một số cuốn sách đã đặc biệt hữu ích về mặt thông tin:
 
 - "Khi tiền tệ chết - When Money Dies" của Adam Ferguson, theo vết của đợt siêu lạm phát sau Chiến tranh thế giới thứ nhất ở Đức, cũng như ở Áo và Hungary.
 - - Hai cuốn sách về siêu lạm phát ở Zimbabwe, "Zimbabwe Warm Heart Ugly Face" và "Hard Boiled Egg Index" lần lượt của Jérôme Gardner và Kudzai Joseph Gou Min-Yu, cung cấp những lời chứng thực đầy xúc động từ một CEO của chuỗi cửa hàng quần áo và một nhân viên ngân hàng nông nghiệp về trải nghiệm của họ trong giai đoạn hỗn loạn này.
-    ![image](assets/fr/040.webp)
+
+![image](assets/fr/040.webp)
 
 Trong khi tổng hợp ghi chú của mình, tôi nhận thấy nhiều điểm tương đồng giữa trải nghiệm siêu lạm phát ở Zimbabwe và Cộng hòa Weimar, mặc dù chúng cách nhau đến 90 năm. Tôi đã xác định được khoảng 17 điểm tương đồng, trong đó, 13 điểm mô tả một loại tiến trình hướng tới thảm họa kinh tế được mô tả trong những lời chứng thực này. Những điểm tương đồng thú vị này chứng minh bản chất lặp đi lặp lại và tàn phá của siêu lạm phát vượt qua cả thời gian và biên giới. Hôm nay, chúng ta sẽ xem xét những điểm tương đồng này và cách chúng mô tả một quỹ đạo đáng lo ngại trong các đợt siêu lạm phát.
 
@@ -453,7 +454,7 @@ Trong khi tổng hợp ghi chú của mình, tôi nhận thấy nhiều điểm 
 
 Trò chơi 14 điểm khác biệt!
 
-1. Thiếu hụt tiền tệ
+#### 1. Thiếu tiền
 
 Khi đồng tiền mất giá với tốc độ chóng mặt, ngay cả những nỗ lực tham vọng nhất để bơm thêm tiền mới vào thị trường cũng có thể được chứng minh là không đủ. Nhu cầu không ngừng về tiền mặt có thể vượt xa khả năng in tiền giấy của ngân hàng trung ương, tạo ra khủng hoảng thanh khoản chưa từng có.
 

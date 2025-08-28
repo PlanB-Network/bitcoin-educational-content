@@ -63,7 +63,7 @@ Antes de prosseguir, se você não conhece o sistema de arquivos na linha de com
 
 Aqui está um [vídeo útil para Linux, mas que também se aplica ao Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Para o Windows, aqui está um tutorial simples.
+Para Windows, aqui está um [tutorial simples](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Aguarde o término do download do arquivo (importante!), em seguida, abra o terminal, navegue até onde você baixou o arquivo e digite o seguinte comando...

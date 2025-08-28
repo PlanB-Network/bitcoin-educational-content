@@ -93,7 +93,7 @@ Voordat we verder gaan, als je nog geen weg weet in het bestandssysteem op de co
 Hier is een [nuttige video voor Linux, maar die geldt ook voor Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-Voor Windows is hier een eenvoudige tutorial.
+Voor Windows is hier een [eenvoudige handleiding](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 Mac/Linux

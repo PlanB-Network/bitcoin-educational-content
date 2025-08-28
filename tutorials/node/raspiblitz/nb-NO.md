@@ -62,7 +62,7 @@ Før du fortsetter, hvis du ikke kjenner din vei rundt filsystemet på kommandol
 
 Her er en [nyttig video for Linux, men den gjelder også for Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-For Windows, her er en enkel opplæring.
+For Windows, her er en [enkel veiledning](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Vent til filen er ferdig nedlastet (viktig!), og åpne deretter terminalen, naviger til hvor du lastet ned filen, og skriv inn følgende kommando...

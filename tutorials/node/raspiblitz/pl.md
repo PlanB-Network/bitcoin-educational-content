@@ -93,7 +93,7 @@ Przed kontynuowaniem, jeśli nie znasz się na systemie plików w wierszu polece
 Oto [przydatne wideo dla systemu Linux, ale dotyczy także Maca](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-Dla systemu Windows, oto prosty samouczek.
+Dla systemu Windows oto [prosty samouczek](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 Mac/Linux

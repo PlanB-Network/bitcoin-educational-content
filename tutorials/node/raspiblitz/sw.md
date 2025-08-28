@@ -93,7 +93,7 @@ Kabla ya kuendelea, ikiwa hujui njia yako karibu na mfumo wa faili kwenye mstari
 Hapa kuna [video yenye msaada kwa Linux, lakini pia inatumika kwa Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-Kwa Windows, hapa kuna mafunzo rahisi.
+Kwa Windows, hapa kuna [mafunzo rahisi](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 Mac/Linux

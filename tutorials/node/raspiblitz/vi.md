@@ -62,7 +62,7 @@ Trước khi tiếp tục, nếu bạn không biết cách sử dụng hệ th�
 
 Đây là [một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Đối với Windows, đây là một hướng dẫn đơn giản.
+Đối với Windows, đây là một [hướng dẫn đơn giản](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Chờ tệp tải xuống hoàn tất (quimportant!), sau đó mở terminal, điều hướng đến nơi bạn đã tải tệp xuống, và gõ lệnh sau...

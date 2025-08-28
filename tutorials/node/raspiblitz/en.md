@@ -65,7 +65,7 @@ Before proceeding, if you don’t know your way around the file system on the co
 
 Here is a [useful video for Linux, but applies to Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK) as well.
 
-For Windows, here’s a simple tutorial.
+For windows, here’s a [simple tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 Mac/Linux
 

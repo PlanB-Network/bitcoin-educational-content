@@ -93,7 +93,7 @@ Pre nego što nastavite, ako ne znate kako da se krećete kroz sistem datoteka u
 Evo [korisnog videa za Linux, ali se odnosi i na Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-Za Windows, evo jednostavnog vodiča.
+Za Windows, evo [jednostavnog tutorijala](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 Mac/Linux

@@ -62,7 +62,7 @@ Sebelum melanjutkan, jika Anda tidak tahu cara berkeliling sistem file di baris 
 
 Berikut adalah [video yang berguna untuk Linux, tetapi juga berlaku untuk Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Untuk Windows, berikut adalah tutorial sederhana.
+Untuk Windows, berikut adalah [tutorial sederhana](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Tunggu file selesai diunduh (penting!), dan kemudian buka terminal, navigasikan ke tempat Anda mengunduh file, dan ketik perintah berikut…

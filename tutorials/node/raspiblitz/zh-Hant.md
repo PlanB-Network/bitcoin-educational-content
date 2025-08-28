@@ -93,7 +93,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 這是一個[對 Linux 有用的影片，但也適用於 Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
 
-對於 Windows，這裡有一個簡單的教學。
+對於 Windows，這裡有一個[簡單的教學](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)。
 
 
 Mac/Linux

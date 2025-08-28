@@ -62,7 +62,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 这是一个[对 Linux 有用的视频，但也适用于 Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
-对于Windows，这里有一个简单的教程。
+对于 Windows，这里有一个[简单的教程](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)。
 Mac/Linux
 
 等待文件下载完成（很重要！），然后打开终端，导航到你下载文件的位置，并输入以下命令...

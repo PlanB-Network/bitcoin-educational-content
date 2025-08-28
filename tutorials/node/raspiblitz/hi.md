@@ -93,7 +93,7 @@ Raspiblitz एक उत्कृष्ट प्रणाली है जो �
 यहाँ एक [लिनक्स के लिए उपयोगी वीडियो है, लेकिन यह मैक पर भी लागू होता है](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)।
 
 
-विंडोज़ के लिए, यहाँ एक सरल ट्यूटोरियल है।
+विंडोज़ के लिए, यहाँ एक [सरल ट्यूटोरियल](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) है।
 
 
 मैक/लिनक्स

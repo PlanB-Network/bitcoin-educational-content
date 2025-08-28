@@ -63,7 +63,7 @@ Prima di procedere, se non conosci il sistema di file sulla riga di comando, è 
 
 Ecco un [video utile per Linux, ma vale anche per Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Per Windows, ecco un semplice tutorial.
+Per Windows, ecco un [semplice tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Aspetta che il file finisca di scaricare (importante!), quindi apri il terminale, vai nella cartella in cui hai scaricato il file e digita il seguente comando...

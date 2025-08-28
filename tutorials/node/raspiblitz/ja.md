@@ -62,7 +62,7 @@ MyNodeノードを実行するのと全く同じ機材が必要です。一方�
 
 こちらは[Linux向けの役立つ動画ですが、Macにも適用されます](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)。
 
-Windowsの場合、こちらが簡単なチュートリアルです。
+Windows用に、こちらは[簡単なチュートリアル](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s)です。
 Mac/Linux
 
 ファイルのダウンロードが完了するのを待ち（重要！）、次にターミナルを開き、ダウンロードしたファイルがある場所に移動し、以下のコマンドを入力してください…

@@ -62,7 +62,7 @@ Před pokračováním, pokud nevíte, jak se orientovat v souborovém systému p
 
 Zde je [užitečné video pro Linux, ale platí také pro Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Pro Windows zde je jednoduchý tutoriál.
+Pro Windows je zde [jednoduchý návod](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Počkejte, až se soubor dokončí stahování (důležité!), a poté otevřete terminál, přejděte do složky, kam jste soubor stáhli, a zadejte následující příkaz…

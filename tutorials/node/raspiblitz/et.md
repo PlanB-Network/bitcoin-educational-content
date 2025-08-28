@@ -62,7 +62,7 @@ Enne jätkamist, kui te ei tunne end käsureal failisüsteemis liikudes kindlalt
 
 Siin on [kasulik video Linuxi jaoks, kuid see kehtib ka Macile](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Windowsi jaoks on siin lihtne õpetus.
+Windowsi jaoks on siin [lihtne õpetus](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 Mac/Linux
 
 Oodake, kuni fail on lõpetanud allalaadimise (tähtis!), ja seejärel avage terminal, navigeerige sinna, kuhu faili alla laadisite, ja tippige järgmine käsk...

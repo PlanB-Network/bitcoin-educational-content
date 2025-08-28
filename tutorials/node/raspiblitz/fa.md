@@ -93,7 +93,7 @@ Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌ک�
 اینجا یک [ویدیوی مفید برای لینوکس است، اما برای مک نیز کاربرد دارد](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-برای ویندوز، اینجا یک آموزش ساده است.
+برای ویندوز، اینجا یک [آموزش ساده](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s) است.
 
 
 مک/لینوکس

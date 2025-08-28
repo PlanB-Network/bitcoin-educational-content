@@ -93,7 +93,7 @@ Innan du fortsätter, om du inte känner till filsystemet på kommandoraden, är
 Här är en [användbar video för Linux, men den gäller även för Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-För Windows finns här en enkel handledning.
+För Windows, här är en [enkel handledning](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
 Mac/Linux

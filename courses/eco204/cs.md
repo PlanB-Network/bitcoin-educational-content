@@ -574,23 +574,42 @@ V reakci na tuto situaci vláda uvalila drakonická nařízení, včetně kontro
 
 ![obrázek](assets/fr/045.webp)
 
-1. Ropa a kovy
+#### 1. Ropa a kovy
 
-V Německu během Výmarské republiky byla krádež cenných materiálů taková, že olovo ze střech bylo často kradeno. V Zimbabwe zoufalství vedlo některé k přerušení elektrické sítě, aby z transformátorů extrahovali ropu a používali ji ve svých vozidlech.
-V kontextu zhoršující se ekonomiky a nedostatku zdrojů mohou vlády zavést systémy přídělů, aby kontrolovaly distribuci základních zboží. To zahrnuje použití kupónů nebo poukázek na regulaci nákupu benzínu nebo paliva.
+V Německu během období Výmarské republiky bylo krádeží cenných materiálů tolik, že olovo ze střech bylo často odcizováno. V Zimbabwe zoufalství přimělo některé lidi přerušit elektrickou síť, aby mohli získat olej z transformátorů a použít jej ve svých vozidlech.
 
-> Výmarská republika: "V Berlíně, kvůli nedostatku benzínu, byl zaveden systém kupónů na regulaci jeho distribuce. Každému občanu bylo přiděleno určité množství kupónů, které mu umožňovaly zakoupit omezené množství paliva."
+Weimar: „Kovové desky z národních památek musely být odstraněny a uloženy do bezpečí. Mosazné zvonkové destičky byly ukradeny z dveří britského velvyslanectví v Berlíně.“
 
-> Zimbabwe: "Během krize s palivem vláda zavedla systém kupónů na správu distribuce benzínu. Každému jednotlivci byl dán určitý počet kupónů, které mohl vyměnit za určité množství paliva."
-> Populace hledají stabilní alternativy pro transakce. Ve Výmarské republice sloužily produkty jako mosaz a palivo jako prostředek směny kvůli jejich stálé vnitřní hodnotě. V Zimbabwe, čelící rychlé devalvaci zimbabwského dolaru, se kupóny na benzín, které představovaly pevné množství základního produktu, staly de facto měnou. Tyto situace zdůrazňují, jak se společnosti přizpůsobují extrémním ekonomickým podmínkám, hledajíce inovativní řešení, jak udržet obchod a ekonomiku v pohybu.
+Zimbabwe: „Aby toho nebylo málo, kvůli nedostatku cizích měn došlo k nedostatku mazacího oleje pro automobily a transformátory se staly snadným cílem pro zloděje, kteří během výpadků elektřiny odsávali chladicí olej.“
 
-Výmarská republika: "Barter byl již běžnou formou směny; ale nyní se zboží jako mosaz a palivo stalo běžnou měnou pro nákup a platbu."
+#### 2. Vlaky
 
-Zimbabwe: "Nyní jsme tyto poukázky používali k platbě nájemného pronajímatelům, městským daním, telefonním účtům, ve skutečnosti téměř za vše, protože každý přestal přijímat platby v zimbabwských dolarech a šecích."
+Znehodnocení měny může občany přimět k přežití založenému na vandalismu. Tvrdě zkoušená ekonomika může ohrozit nákladnou veřejnou infrastrukturu, jako jsou dopravní systémy, což vede k katastrofálním společenským důsledkům.
+
+> Weimar: „V Berlíně přestal fungovat tramvajový systém z důvodu nedostatku prostředků.“
+
+> Zimbabwe: „Jedním z nejznepokojivějších a nejsmutnějších scénářů bylo, když byla téměř celá elektrická měděná linka spojující Harare a Dabuku (více než 280 kilometrů) ukradena. Při dokončení byla pýchou Zimbabwe, rychlé elektrické vlaky pro cestující i náklad po ní jezdily.“
+
+#### 3. „Mealie Meal“
+
+V kontextu mizivých platů a nestabilní ekonomiky byly podniky nuceny poskytovat zaměstnancům jídlo, aby zůstali produktivní a schopní pracovat. Tato iniciativa byla nejen prostředkem, jak čelit nedostatku a vysokým cenám potravin, ale také strategií, jak si udržet pracovní sílu v obtížném hospodářském prostředí.
+
+> Weimar: „V Berlíně měli kancelářští zaměstnanci, kteří tvořili velmi důležitou třídu v hlavním městě, zcela neadekvátní platy pohybující se od 12 000 do 20 000 měsíčně (tedy mezi 12 a 19 librami ročně), které se neustále snižovaly; většina z nich si však stále mohla zajistit obědy za symbolickou částku, poskytovanou jejich úřady, takže tělo a duše mohly být alespoň udrženy pohromadě.“
+
+> Zimbabwe: „V této fázi jsme poskytovali všem našim zaměstnancům bezplatný oběd. Kukuřičná mouka byla nezbytná pro nepřetržitý chod našeho podniku, protože v mnoha případech to bylo jediné jídlo, které naši zaměstnanci každý den dostali.“
+
+#### 4. Benzínové kupony
+
+Obyvatelstvo hledá stabilní alternativy pro transakce. Ve Výmaru sloužily výrobky jako mosaz a palivo jako prostředky směny díky své trvalé vnitřní hodnotě. V Zimbabwe, tváří v tvář rychlé devalvaci zimbabwského dolaru, se benzínové kupony, představující pevné množství základní komodity, staly de facto měnou. Tyto situace ukazují, jak se společnosti přizpůsobují extrémním ekonomickým podmínkám a hledají inovativní řešení, aby udržely obchod a ekonomiku v chodu.
+
+Weimar: „Trojka byla již běžnou formou směny; nyní se však zboží jako mosaz a palivo stalo běžnou měnou nákupu a plateb.“
+
+Zimbabwe: „Tyto poukázky jsme nyní používali k placení nájmů majitelům, městských poplatků, telefonních účtů, vlastně téměř všeho, protože všichni přestali přijímat platby v zimbabwských dolarech a šecích.“
 
 #### Závěr
 
-To uzavírá toto video o podobnostech zkušeností během období hyperinflace v Zimbabwe a Výmarské republice. V dalším videu budeme diskutovat o rozdílech a současných paralelách. Děkuji.
+Tímto se uzavírá toto video o podobnostech zkušeností během období hyperinflace v Zimbabwe a ve Výmarské republice. V příštím videu budeme hovořit o rozdílech a současných paralelách. Děkuji.
+
 
 ## Výmarská republika vs Zimbabwe: Rozdíly a současné paralely
 

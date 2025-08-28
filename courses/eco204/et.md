@@ -576,23 +576,43 @@ Vastuseks olukorrale kehtestab valitsus rangeid regulatsioone, sealhulgas kapita
 
 ![image](assets/fr/045.webp)
 
-1. Nafta ja metallid
 
-Saksamaal Weimari perioodil oli väärtuslike materjalide vargus nii levinud, et katustelt varastati sageli pliid. Zimbabwes viis meeleheide mõned inimesed elektrivõrgu katkestamiseni, et transformaatoritest naftat välja võtta ja seda oma sõidukites kasutada.
-Halveneva majanduse ja ressursside nappuse kontekstis võivad valitsused rakendada jaotussüsteeme oluliste kaupade jaotamise kontrollimiseks. See hõlmab kupongide või vautšerite kasutamist bensiini või kütuse ostmise reguleerimiseks.
+#### 1. Nafta ja metallid
 
-> Weimar: "Berliinis, bensiini nappuse tõttu, rakendati selle jaotamise reguleerimiseks kupongisüsteemi. Iga kodanikule määrati kindel hulk kuponge, mis võimaldasid neil osta piiratud koguse kütust."
+Saksamaal Weimari perioodil olid väärtuslike materjalide vargused nii sagedased, et katustelt varastati tihti pliid. Zimbabwes ajendas meeleheide mõningaid inimesi katkestama elektrivõrku, et võtta transformaatoreist õli ja kasutada seda oma sõidukites.
 
-> Zimbabwe: "Kütusekriisi ajal tutvustas valitsus bensiini jaotamise haldamiseks kupongisüsteemi. Igaühele anti kindel arv kuponge, mida sai vahetada teatud koguse kütuse vastu."
-> Rahvastik otsib stabiilseid alternatiive tehinguteks. Weimaris kasutati vahetusvahenditena selliseid tooteid nagu messing ja kütus, kuna nende sisemine väärtus oli püsiv. Zimbabwes, seistes silmitsi Zimbabwe dollari kiire devalveerimisega, muutusid bensiinikupongid, mis esindasid olulise toote fikseeritud kogust, de facto valuutaks. Need olukorrad rõhutavad, kuidas ühiskonnad kohanevad äärmuslike majanduslike tingimustega, leides innovaatilisi lahendusi kaubanduse ja majanduse liikumise hoidmiseks.
+Weimar: «Rahvusmonumentide metallplaadid tuli eemaldada ja turvalisse kohta viia. Messingist uksekella plaadid varastati Berliinis Briti saatkonna ustelt.»
 
-Weimar: "Barter oli juba levinud vahetusviis; kuid nüüd muutusid kaubad nagu messing ja kütus tavaliseks valuutaks ostude ja maksete jaoks."
+Zimbabwe: «Asja hullemaks muutmiseks oli välisvaluuta nappuse tõttu puudus määrdeõlist autode jaoks ning trafod olid kergeks sihtmärgiks varastele, kes elektrikatkestuste ajal jahutusõli välja imesid.»
 
-Zimbabwe: "Nüüd kasutasime neid vautšereid üüri maksmiseks üürileandjatele, kohalikele maksudele, telefoniarvetele, tegelikult peaaegu kõigele, kuna kõik olid lõpetanud maksete vastuvõtmise Zimbabwe dollarites ja tšekkides."
+#### 2. Rongid
 
-#### Järeldus
+Raha devalveerumine võib sundida kodanikke ellujäämiskäitumisele, mis põhineb vandalismil. Majanduse kokkuvarisemisel võivad kallid avalikud infrastruktuurid, nagu transpordisüsteemid, sattuda ohtu, tuues kaasa katastroofilisi ühiskondlikke tagajärgi.
 
-See lõpetab selle video sarnasustest hüperinflatsiooni perioodidel Zimbabwes ja Weimari Vabariigis. Järgmises videos arutame erinevusi ja kaasaegseid paralleele. Aitäh.
+> Weimar: «Berliinis lõpetas trammisüsteem töö rahapuuduse tõttu.»
+
+> Zimbabwe: «Üks kõige häirivamaid ja kurvemaid olukordi oli see, kui peaaegu kogu elektriline vasest liin Harare ja Dabuka vahel (üle 280 kilomeetri) varastati. Selle valmimisel oli see olnud Zimbabwe uhkus, kiirete elektriliste reisijate- ja kaubarongidega, mis seda marsruuti kasutasid.»
+
+#### 3. “Mealie Meal”
+
+Tühiste palkade ja ebastabiilse majanduse kontekstis olid ettevõtted sunnitud oma töötajatele toitu pakkuma, et hoida neid produktiivsete ja töövõimelistena. See algatus oli mitte ainult vahend toidupuuduse ja kõrgete hindade leevendamiseks, vaid ka strateegia personali hoidmiseks raskes majanduslikus olukorras.
+
+> Weimar: «Berliinis said kontoritöötajad, kes moodustasid pealinnas väga olulise klassi, täiesti ebapiisavaid palku vahemikus 12 000 kuni 20 000 kuus (see tähendab 12 kuni 19 naela aastas), mis pidevalt vähenesid; kuid enamik neist suutis siiski saada oma lõunasöögi sümboolse tasu eest, mida nende kontorid pakkusid, nii et keha ja hing said vaevu koos püsida.»
+
+> Zimbabwe: «Selles etapis pakkusime kogu oma personalile tasuta lõunasööki. Maisijahu oli meie ettevõtte pideva toimimise seisukohalt hädavajalik, sest paljudel juhtudel oli see ainus eine, mida meie töötajad iga päev said.»
+
+#### 4. Bensiinitalongid
+
+Inimesed otsisid stabiilseid alternatiive tehingute jaoks. Weimaris teenisid sellised tooted nagu messing ja kütus vahetusvahendina tänu nende püsivale sisemisele väärtusele. Zimbabwes, silmitsi Zimbabwe dollari kiire devalveerimisega, said bensiinitalongid, mis esindasid kindlat kogust olulist kaupa, de facto valuutaks. Need olukorrad näitavad, kuidas ühiskonnad kohanevad äärmuslike majanduslike tingimustega, leides uuenduslikke lahendusi, et hoida kaubandus ja majandus toimimas.
+
+Weimar: «Vahetuskaubandus oli juba tavapärane vahetusvorm; kuid nüüd muutusid sellised kaubad nagu messing ja kütus ostude ja maksete tavaliseks valuutaks.»
+
+Zimbabwe: «Neid talonge kasutasime nüüd üüride maksmiseks omanikele, linnamaksude, telefoniarvete eest – tegelikult peaaegu kõige eest, sest kõik olid lõpetanud maksete vastuvõtmise Zimbabwe dollarites ja tšekkides.»
+
+#### Kokkuvõte
+
+Sellega lõpeb see video Zimbabwe ja Weimari Vabariigi hüperinflatsiooni perioodide kogemuste sarnasuste teemal. Järgmises videos räägime erinevustest ja kaasaegsetest paralleelidest. Aitäh.
+
 
 ## Weimar vs Zimbabwe: Erinevused ja Kaasaegsed Paralleelid
 

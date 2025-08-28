@@ -937,29 +937,44 @@ Bu duruma karşılık olarak hükümet, sermaye kontrolleri de dahil olmak üzer
 ![image](assets/fr/045.webp)
 
 
-1. Petrol ve metaller
 
+#### 1. Petrol ve metaller
 
-Weimar dönemi Almanya'sında değerli malzemelerin çalınması öyle bir hal almıştı ki çatılardan kurşun çalınması sıkça rastlanan bir durumdu. Zimbabve'de çaresizlik, bazılarının elektrik şebekesini keserek trafolardan yağ çıkarmasına ve bunu araçlarında kullanmasına yol açtı.
+Almanya’da Weimar dönemi sırasında, değerli malzemelerin hırsızlığı o kadar yaygındı ki çatılardan kurşun sık sık çalınıyordu. Zimbabve’de ise umutsuzluk, bazılarını elektrik şebekesini kesmeye ve transformatörlerden yağ çıkararak araçlarında kullanmaya itti.
 
-Kötüleşen bir ekonomi ve kaynak kıtlığı bağlamında, hükümetler temel malların dağıtımını kontrol etmek için tayınlama sistemleri uygulayabilir. Benzin veya yakıt alımını düzenlemek için kupon veya fişlerin kullanılması da buna dahildir.
+Weimar: «Ulusal anıtlardaki metal levhalar güvenlik için kaldırılmak zorundaydı. Berlin’deki İngiliz Büyükelçiliği’nin kapılarından pirinç zil levhaları çalındı.»
 
+Zimbabve: «Durumu daha da kötüleştirmek için, döviz eksikliği nedeniyle arabalar için yağlayıcı yağ kıtlığı vardı ve elektrik kesintileri sırasında soğutma yağını sifonlayan hırsızlar için transformatörler kolay bir hedef haline geldi.»
 
-> Weimar: "Berlin'de benzin kıtlığı nedeniyle, dağıtımını düzenlemek için bir kupon sistemi uygulandı. Her vatandaşa, sınırlı miktarda yakıt satın almalarını sağlayan belirli miktarda kupon tahsis edildi."
+#### 2. Trenler
 
-> Zimbabve: "Akaryakıt krizi sırasında hükümet benzin dağıtımını yönetmek için bir kupon sistemi getirdi. Her bireye belirli miktarda yakıtla değiştirilebilecek belirli sayıda kupon verildi."
-> Nüfus, işlemler için istikrarlı alternatifler aramaktadır. Weimar'da pirinç ve yakıt gibi ürünler, sabit içsel değerleri nedeniyle Exchange aracı olarak kullanılıyordu. Zimbabve'de, Zimbabve dolarının hızlı devalüasyonu karşısında, temel bir ürünün sabit bir miktarını temsil eden benzin kuponları fiili bir para birimi haline geldi. Bu durumlar, toplumların aşırı ekonomik koşullara nasıl uyum sağladığını, ticareti ve ekonomiyi devam ettirmek için yenilikçi çözümler bulduğunu vurgulamaktadır.
+Paranın değer kaybı, vatandaşları vandalizme dayalı bir hayatta kalma davranışına itebilir. Çökmekte olan bir ekonomi karşısında, ulaşım sistemleri gibi pahalı kamu altyapıları tehlikeye girebilir ve bu da yıkıcı toplumsal sonuçlara yol açabilir.
 
-Weimar: "Takas zaten yaygın bir Exchange biçimiydi; ancak şimdi pirinç ve yakıt gibi mallar satın alma ve ödeme için ortak para birimi haline geldi."
+> Weimar: «Berlin’de, tramvay sistemi kaynak yetersizliğinden çalışmayı durdurdu.»
 
+> Zimbabve: «En rahatsız edici ve üzücü senaryolardan biri, Harare’yi Dabuka’ya bağlayan (280 kilometreden fazla) neredeyse tüm elektrikli bakır hattının çalınmasıydı. Tamamlandığında, bu hat Zimbabve’nin gururuydu; bu güzergâhta hızlı elektrikli yolcu ve yük trenleri işliyordu.»
 
-Zimbabve: "Artık bu kuponları ev sahiplerine kira, belediye vergileri, telefon faturaları, aslında neredeyse her şeyi ödemek için kullanıyorduk, çünkü herkes Zimbabve doları ve çekleriyle ödeme kabul etmeyi bırakmıştı."
+#### 3. “Mealie Meal” (mısır unu)
 
+Çok düşük maaşlar ve istikrarsız bir ekonomi bağlamında, şirketler çalışanlarını üretken ve işlevsel tutmak için onlara yiyecek sağlamak zorunda kaldılar. Bu girişim sadece kıtlık ve yüksek gıda maliyetlerini telafi etmenin bir yolu değil, aynı zamanda zor ekonomik koşullarda personeli elde tutma stratejisiydi.
+
+> Weimar: «Berlin’de başkentte çok önemli bir sınıf oluşturan büro çalışanları, ayda 12.000 ila 20.000 arasında (yılda 12 ila 19 sterlin) tamamen yetersiz maaşlar alıyorlardı ve bu maaşlar sürekli azalmakta idi; ancak çoğu hâlâ ofisleri tarafından sağlanan sembolik bir miktar karşılığında öğle yemeği alabiliyordu, böylece beden ve ruh zar zor ayakta tutulabiliyordu.»
+
+> Zimbabve: «Bu aşamada, tüm personelimize ücretsiz öğle yemeği sağlıyorduk. Mısır unu şirketimizin sürekli işleyişi için hayati önem taşıyordu çünkü birçok durumda bu, personelimizin her gün aldığı tek öğündü.»
+
+#### 4. Benzin kuponları
+
+Halk, işlemler için istikrarlı alternatifler arıyordu. Weimar’da pirinç ve yakıt gibi ürünler, sabit içsel değerleri nedeniyle değişim aracı olarak hizmet etti. Zimbabve’de ise Zimbabve dolarının hızlı değer kaybıyla karşı karşıya kalındığında, sabit bir miktar temel ürünü temsil eden benzin kuponları fiili bir para birimi haline geldi. Bu durumlar, toplumların aşırı ekonomik koşullara nasıl uyum sağladığını ve ticareti ve ekonomiyi sürdürmek için yenilikçi çözümler bulduğunu gösteriyor.
+
+Weimar: «Takas zaten yaygın bir değişim biçimiydi; ancak şimdi pirinç ve yakıt gibi mallar alış ve ödeme için yaygın para birimi haline gelmişti.»
+
+Zimbabve: «Bu kuponları artık ev sahiplerine kira, belediye vergileri, telefon faturaları — aslında neredeyse her şey — için kullanıyorduk; çünkü herkes Zimbabve dolarları ve çeklerle yapılan ödemeleri kabul etmeyi bırakmıştı.»
 
 #### Sonuç
 
+Bu video, Zimbabve ve Weimar Cumhuriyeti’nde hiperenflasyon dönemlerinde yaşanan deneyimlerin benzerlikleri hakkında burada sona eriyor. Bir sonraki videoda farklılıklar ve çağdaş paralellikler hakkında konuşacağız. Teşekkürler.
 
-Zimbabwe ve Weimar Cumhuriyeti'ndeki hiperenflasyon dönemlerinde yaşananların benzerliklerini ele aldığımız bu videonun sonuna geldik. Bir sonraki videoda farklılıkları ve çağdaş paralellikleri tartışacağız. Teşekkür ederim.
+
 
 
 ## Weimar ve Zimbabwe: Farklılıklar ve Çağdaş Paralellikler

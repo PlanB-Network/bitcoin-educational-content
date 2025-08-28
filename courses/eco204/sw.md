@@ -682,22 +682,44 @@ Katika kukabiliana na hali hii, Fiat money (pesa za serikali) inaweka kanuni kal
 
 ![image](assets/fr/045.webp)
 
-1. Mafuta na metali
 
-Huko Ujerumani wakati wa kipindi cha Weimar, wizi wa vifaa vya thamani ulikuwa hivi kwamba risasi kutoka kwa paa iliyoibiwa mara kwa mara. Nchini Zimbabwe, hali ya kukata tamaa ilisababisha baadhi ya watu kukatiza gridi ya nishati ya kuchimba mafuta kutoka kwa transfoma na kuyatumia kwenye magari yao.
+#### 1. Mafuta na metali
 
-Katika muktadha wa kuzorota kwa uchumi na uhaba wa rasilimali, Fiat money (pesa za serikali) zinaweza kutekeleza mifumo ya mgao ili kudhibiti usambazaji wa bidhaa muhimu. Hii ni pamoja na matumizi ya kuponi au vocha ili kudhibiti ununuzi wa petroli au mafuta.
+Nchini Ujerumani wakati wa kipindi cha Weimar, wizi wa vifaa vya thamani ulikuwa wa kawaida kiasi kwamba risasi kutoka paa mara nyingi iliibiwa. Nchini Zimbabwe, kukata tamaa kuliwafanya baadhi ya watu kukatiza mtandao wa umeme ili kutoa mafuta kutoka kwa transfoma na kuyatumia kwenye magari yao.
 
-> Weimar: "Huko Berlin, kutokana na uhaba wa petroli, mfumo wa kuponi ulitekelezwa ili kudhibiti usambazaji wake. Kila raia alipewa kiasi maalum cha kuponi ambacho kiliwaruhusu kununua kiasi kidogo cha mafuta."
-> Zimbabwe: "Wakati wa shida ya mafuta, Fiat money (pesa za serikali) ilianzisha mfumo wa kuponi ili kusimamia usambazaji wa petroli. Kila mtu alipewa idadi maalum ya kuponi ambazo zingeweza kubadilishwa kwa kiwango fulani cha mafuta."
-> Idadi ya watu inatafuta njia mbadala thabiti za miamala. Huko Weimar, bidhaa kama vile shaba na mafuta zilitumika kama njia ya Ubadilishanaji kutokana na thamani yao ya asili isiyobadilika. Nchini Zimbabwe, inakabiliwa na kushuka kwa thamani ya haraka ya dola ya Zimbabwe, kuponi za petroli, ambazo ziliwakilisha kiasi fulani cha bidhaa muhimu, zimekuwa sarafu ya kweli. Hali hizi zinaangazia jinsi jamii zinavyokabiliana na hali mbaya ya kiuchumi, kutafuta suluhisho za kibunifu ili kuweka biashara na uchumi kusonga mbele.
-Weimar: "Kubadilishana ilikuwa tayari aina ya kawaida ya Ubadilishanaji; lakini sasa, bidhaa kama shaba na mafuta zimekuwa sarafu za kawaida za ununuzi na malipo."
+Weimar: «Sahani za chuma kutoka kwa makaburi ya kitaifa zililazimika kuondolewa ili kuwekwa salama. Sahani za shaba za kengele ziliibiwa kutoka kwenye milango ya ubalozi wa Uingereza huko Berlin.»
 
-Zimbabwe: "Sasa tulitumia vocha hizi kulipa kodi kwa wamiliki wa nyumba, ushuru wa manispaa, bili za simu, kwa kweli, karibu kila kitu, kwani kila mtu alikuwa ameacha kukubali malipo kwa dola za Zimbabwe na hundi."
+Zimbabwe: «Kuzidisha hali, kutokana na ukosefu wa fedha za kigeni, kulikuwa na upungufu wa mafuta ya kulainisha magari, na transfoma zikawa shabaha rahisi kwa wezi waliokuwa wakivuta mafuta ya baridi wakati wa kukatika kwa umeme.»
+
+#### 2. Treni
+
+Kuporomoka kwa thamani ya sarafu kunaweza kuwasukuma raia katika tabia za kujinusuru zinazotegemea uharibifu. Wakati wa kukabiliana na uchumi ulioporomoka, miundombinu ya gharama kubwa ya umma kama mifumo ya usafirishaji inaweza kuathirika, na kusababisha madhara makubwa ya kijamii.
+
+> Weimar: «Huko Berlin, mfumo wa tramu ulisimama kufanya kazi kwa sababu ya ukosefu wa fedha.»
+
+> Zimbabwe: «Moja ya matukio ya kusikitisha na yenye kuvunja moyo zaidi ilikuwa pale karibu laini yote ya umeme ya shaba iliyounganisha Harare na Dabuka (zaidi ya kilomita 280) iliibiwa. Wakati ilipokamilika, ilikuwa fahari ya Zimbabwe, ikiwa na treni za haraka za abiria na mizigo za umeme zinazotumia njia hiyo.»
+
+#### 3. “Mealie Meal” (unga wa mahindi)
+
+Katika muktadha wa mishahara midogo na uchumi usiotulia, makampuni yalilazimishwa kuwapa wafanyakazi wao chakula ili kuwaweka wazalishaji na kuendelea kufanya kazi. Hatua hii haikuwa tu njia ya kupunguza upungufu na gharama kubwa za chakula, bali pia mkakati wa kuwazuia wafanyakazi kuondoka katika mazingira magumu ya kiuchumi.
+
+> Weimar: «Huko Berlin, wafanyakazi wa ofisi, waliokuwa darasa muhimu sana katika mji mkuu, walikuwa na mishahara isiyotosha kabisa kuanzia 12,000 hadi 20,000 kwa mwezi (sawa na kati ya pauni 12 na 19 kwa mwaka), ambayo ilikuwa ikipungua kila mara; lakini wengi waliweza bado kupata chakula cha mchana kwa kiasi cha alama, kilichotolewa na ofisi zao, ili mwili na roho viendelee kushikamana.»
+
+> Zimbabwe: «Katika hatua hii, tulikuwa tukiwapa wafanyakazi wetu wote chakula cha mchana cha bure. Unga wa mahindi ulikuwa muhimu kwa uendeshaji endelevu wa kampuni yetu, kwani katika visa vingi huo ndio ulikuwa mlo pekee ambao wafanyakazi wetu walipata kila siku.»
+
+#### 4. Kuponi za petroli
+
+Watu walikuwa wakitafuta mbadala thabiti wa miamala. Huko Weimar, bidhaa kama shaba na mafuta zilihudumu kama njia ya kubadilishana kutokana na thamani yao ya kudumu ya ndani. Huko Zimbabwe, kutokana na kushuka kwa haraka kwa dola ya Zimbabwe, kuponi za petroli, ambazo zilikuwa zinawakilisha kiasi fulani cha bidhaa muhimu, zikawa sarafu ya de facto. Hali hizi zinaonyesha jinsi jamii zinavyoweza kuzoea mazingira magumu ya kiuchumi, na kupata suluhisho za ubunifu ili kuendeleza biashara na uchumi.
+
+Weimar: «Kubadilishana kulikuwa tayari njia ya kawaida ya biashara; lakini sasa, bidhaa kama shaba na mafuta zikawa sarafu ya kawaida ya ununuzi na malipo.»
+
+Zimbabwe: «Kuponi hizi, sasa tulizitumia kulipia kodi ya nyumba kwa wamiliki, kodi za manispaa, bili za simu — kwa kweli karibu kila kitu — kwa kuwa kila mtu alikuwa ameacha kukubali malipo kwa dola za Zimbabwe na hundi.»
 
 #### Hitimisho
 
-Hii inahitimisha video hii kuhusu mfanano wa matukio katika vipindi vya mfumuko wa bei nchini Zimbabwe na Jamhuri ya Weimar. Katika video inayofuata, tutajadili tofauti na ulinganifu wa kisasa. Asante.
+Hii inakamilisha video hii kuhusu kufanana kwa uzoefu wa nyakati za mfumuko wa bei mkubwa nchini Zimbabwe na Jamhuri ya Weimar. Katika video inayofuata, tutazungumza kuhusu tofauti na mlinganisho wa kisasa. Asante.
+
+
 
 ## Weimar vs Zimbabwe: Tofauti na Uwiano wa Kisasa
 

@@ -577,24 +577,46 @@ Khi phân tích quỹ đạo của nền kinh tế, rõ ràng là khi chạm t�
 
 ![image](assets/fr/045.webp)
 
-1. Dầu và kim loại
 
-Ở Đức trong thời kỳ Weimar, việc trộm cắp vật liệu quý như chì từ mái nhà diễn ra thường xuyên. Ở Zimbabwe, sự tuyệt vọng đã khiến một số người ngắt lưới điện để lấy dầu từ máy biến áp và sử dụng cho xe cộ của họ.
-Trong bối cảnh kinh tế suy thoái và khan hiếm tài nguyên, chính phủ có thể thực hiện các hệ thống phân phối theo định mức để kiểm soát việc phân phối hàng hóa thiết yếu. Điều này bao gồm việc sử dụng phiếu hoặc voucher để kiểm soát việc mua xăng dầu.
 
-> Weimar: "Ở Berlin, do tình trạng khan hiếm xăng dầu, một hệ thống phiếu đã được triển khai để điều chỉnh việc phân phối. Mỗi công dân được phân bổ một số lượng phiếu nhất định cho phép họ mua một lượng nhiên liệu hạn chế."
 
-> Zimbabwe: "Trong cuộc khủng hoảng nhiên liệu, chính phủ đã giới thiệu một hệ thống tem phiếu để quản lý việc phân phối xăng dầu. Mỗi cá nhân được cấp một số lượng phiếu để có thể đổi lấy một lượng nhiên liệu nhất định."
+#### 1. Dầu và kim loại
 
-Người dân đang tìm kiếm những phương thức giao dịch ổn định thay thế. Tại Weimar, các sản phẩm như đồng và nhiên liệu đã được sử dụng như phương tiện trao đổi do giá trị nội tại ổn định của chúng. Tại Zimbabwe, đối mặt với sự mất giá nhanh chóng của đồng đô la Zimbabwe, phiếu giảm giá xăng dầu, đại diện cho một lượng sản phẩm thiết yếu cố định, đã trở thành tiền tệ trong thực tế. Những tình huống này nêu bật cách mà các xã hội thích nghi với điều kiện kinh tế cực đoan, tìm ra các giải pháp sáng tạo để duy trì hoạt động thương mại và nền kinh tế.
+Tại Đức trong thời kỳ Weimar, việc trộm cắp các vật liệu quý hiếm phổ biến đến mức chì từ mái nhà thường xuyên bị lấy đi. Ở Zimbabwe, sự tuyệt vọng đã khiến một số người ngắt mạng lưới điện để lấy dầu từ các máy biến áp và sử dụng trong phương tiện của họ.
 
-> Weimar: "Việc dùng hàng đổi hàng đã trở nên phổ biến; nhưng bây giờ, các mặt hàng như đồng và nhiên liệu trở thành tiền tệ phổ biến cho mua bán và thanh toán."
+Weimar: «Các tấm kim loại từ các tượng đài quốc gia phải được tháo dỡ để đảm bảo an toàn. Các tấm đồng thau của chuông cửa đã bị đánh cắp từ cửa của Đại sứ quán Anh ở Berlin.»
 
-> Zimbabwe: "Chúng tôi giờ đây sử dụng những phiếu giảm giá này để trả tiền thuê cho chủ nhà, thuế thành phố, hóa đơn điện thoại, thực tế là gần như mọi thứ, vì mọi người đã ngừng chấp nhận thanh toán bằng đồng đô la Zimbabwe và séc."
+Zimbabwe: «Để làm tình hình tồi tệ hơn, do thiếu ngoại tệ, đã có tình trạng khan hiếm dầu bôi trơn cho ô tô, và các máy biến áp trở thành mục tiêu dễ dàng cho những kẻ trộm hút dầu làm mát trong các đợt mất điện.»
+
+#### 2. Tàu hỏa
+
+Sự mất giá của đồng tiền có thể đẩy người dân vào hành vi sinh tồn dựa trên sự phá hoại. Trước một nền kinh tế sụp đổ, cơ sở hạ tầng công cộng tốn kém như hệ thống giao thông có thể bị tổn hại, dẫn đến những hậu quả xã hội thảm khốc.
+
+> Weimar: «Tại Berlin, hệ thống xe điện ngừng hoạt động do thiếu kinh phí.»
+
+> Zimbabwe: «Một trong những kịch bản đáng lo ngại và buồn nhất là khi gần như toàn bộ đường dây điện bằng đồng nối Harare với Dabuka (hơn 280 km) bị đánh cắp. Khi hoàn thành, nó từng là niềm tự hào của Zimbabwe, với các đoàn tàu điện nhanh chở khách và hàng hóa chạy trên tuyến đường này.»
+
+#### 3. “Mealie Meal” (bột ngô)
+
+Trong bối cảnh tiền lương rẻ mạt và nền kinh tế bất ổn, các công ty buộc phải cung cấp thực phẩm cho nhân viên để giữ họ làm việc hiệu quả và duy trì hoạt động. Sáng kiến này không chỉ là một cách để giảm bớt tình trạng khan hiếm và chi phí lương thực cao, mà còn là chiến lược để giữ chân nhân sự trong môi trường kinh tế khó khăn.
+
+> Weimar: «Tại Berlin, các nhân viên văn phòng, một tầng lớp rất quan trọng trong thủ đô, có mức lương hoàn toàn không đủ, từ 12.000 đến 20.000 mỗi tháng (tương đương từ 12 đến 19 bảng mỗi năm), liên tục giảm; nhưng phần lớn vẫn có thể nhận được bữa trưa với số tiền tượng trưng, do văn phòng của họ cung cấp, để thân thể và tinh thần vừa đủ duy trì.»
+
+> Zimbabwe: «Ở giai đoạn này, chúng tôi cung cấp cho tất cả nhân viên một bữa trưa miễn phí. Bột ngô là yếu tố thiết yếu cho hoạt động liên tục của công ty chúng tôi, vì trong nhiều trường hợp, đó là bữa ăn duy nhất mà nhân viên của chúng tôi nhận được mỗi ngày.»
+
+#### 4. Phiếu xăng
+
+Người dân tìm kiếm các giải pháp thay thế ổn định cho các giao dịch. Ở Weimar, các sản phẩm như đồng thau và nhiên liệu đã được sử dụng như phương tiện trao đổi nhờ giá trị nội tại ổn định của chúng. Ở Zimbabwe, trước sự mất giá nhanh chóng của đồng đô la Zimbabwe, các phiếu xăng, vốn đại diện cho một lượng cố định của một sản phẩm thiết yếu, đã trở thành một loại tiền tệ trên thực tế. Những tình huống này cho thấy xã hội thích nghi như thế nào với điều kiện kinh tế khắc nghiệt, tìm ra các giải pháp sáng tạo để duy trì thương mại và nền kinh tế.
+
+Weimar: «Hình thức trao đổi hàng hóa đã là một phương thức phổ biến; nhưng giờ đây, các mặt hàng như đồng thau và nhiên liệu đã trở thành đồng tiền phổ biến cho việc mua bán và thanh toán.»
+
+Zimbabwe: «Những phiếu này, chúng tôi hiện dùng để trả tiền thuê nhà cho chủ nhà, thuế thành phố, hóa đơn điện thoại — thực tế là gần như mọi thứ — vì mọi người đã ngừng chấp nhận thanh toán bằng đô la Zimbabwe và séc.»
 
 #### Kết luận
 
-Điều này kết thúc phần này về những điểm tương đồng trong các giai đoạn siêu lạm phát ở Zimbabwe và Cộng hòa Weimar. Trong phần tiếp theo, chúng ta sẽ thảo luận về những điểm khác biệt và các thế giới song song hiện đại. Cảm ơn bạn.
+Đây là phần kết thúc của video về những điểm tương đồng trong trải nghiệm trong các thời kỳ siêu lạm phát ở Zimbabwe và Cộng hòa Weimar. Trong video tiếp theo, chúng ta sẽ nói về những khác biệt và các phép so sánh đương đại. Xin cảm ơn.
+
+
 
 ## Weimar vs Zimbabwe: Những điểm khác biệt và thế giới song song hiện đại
 

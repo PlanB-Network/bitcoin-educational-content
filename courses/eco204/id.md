@@ -573,23 +573,41 @@ Menanggapi situasi ini, pemerintah memberlakukan regulasi yang sangat ketat, ter
 
 ![image](assets/fr/045.webp)
 
-1. Minyak dan logam
+#### 1. Minyak dan logam
 
-Di Jerman selama periode Weimar, pencurian bahan berharga sedemikian rupa sehingga timah dari atap sering dicuri. Di Zimbabwe, keputusasaan membuat beberapa orang mengganggu jaringan listrik untuk mengambil minyak dari transformator dan menggunakannya di kendaraan mereka.
-Dalam konteks ekonomi yang memburuk dan kelangkaan sumber daya, pemerintah dapat menerapkan sistem ransum untuk mengontrol distribusi barang-barang penting. Ini termasuk penggunaan kupon atau voucher untuk mengatur pembelian bensin atau bahan bakar.
+Di Jerman selama periode Weimar, pencurian bahan berharga begitu meluas sehingga timbal dari atap sering dicuri. Di Zimbabwe, keputusasaan mendorong beberapa orang memutus jaringan listrik untuk mengekstrak minyak dari transformator dan menggunakannya di kendaraan mereka.
 
-> Weimar: "Di Berlin, karena kelangkaan bensin, sistem kupon diterapkan untuk mengatur distribusinya. Setiap warga diberikan jumlah kupon tertentu yang memungkinkan mereka untuk membeli jumlah bahan bakar yang terbatas."
+Weimar: «Pelat logam dari monumen nasional harus dilepas untuk diamankan. Pelat bel pintu dari kuningan dicuri dari pintu Kedutaan Besar Inggris di Berlin.»
 
-> Zimbabwe: "Selama krisis bahan bakar, pemerintah memperkenalkan sistem kupon untuk mengelola distribusi bensin. Setiap individu diberikan sejumlah kupon yang dapat ditukar dengan jumlah bahan bakar tertentu."
-> Populasi mencari alternatif stabil untuk transaksi. Di Weimar, produk seperti kuningan dan bahan bakar berfungsi sebagai alat tukar karena nilai intrinsiknya yang konstan. Di Zimbabwe, menghadapi depresiasi cepat dolar Zimbabwe, kupon bensin, yang mewakili jumlah tetap produk penting, menjadi mata uang de facto. Situasi ini menyoroti bagaimana masyarakat beradaptasi dengan kondisi ekonomi ekstrem, menemukan solusi inovatif untuk menjaga perdagangan dan ekonomi tetap bergerak.
+Zimbabwe: «Untuk memperburuk keadaan, karena kurangnya mata uang asing, terjadi kekurangan minyak pelumas untuk mobil, dan transformator menjadi sasaran mudah bagi pencuri yang menyedot minyak pendingin selama pemadaman listrik.»
 
-Weimar: "Barter sudah menjadi bentuk pertukaran yang umum; tetapi sekarang, barang-barang seperti kuningan dan bahan bakar menjadi mata uang umum untuk pembelian dan pembayaran."
+#### 2. Kereta api
 
-Zimbabwe: "Kami sekarang menggunakan voucher ini untuk membayar sewa kepada pemilik rumah, pajak daerah, tagihan telepon, bahkan hampir semua hal, karena semua orang telah berhenti menerima pembayaran dalam dolar Zimbabwe dan cek."
+Depresiasi mata uang dapat mendorong warga pada perilaku bertahan hidup yang didasarkan pada vandalisme. Menghadapi ekonomi yang runtuh, infrastruktur publik yang mahal seperti sistem transportasi dapat terancam, yang mengarah pada konsekuensi sosial yang menghancurkan.
+
+> Weimar: «Di Berlin, sistem trem berhenti beroperasi karena kekurangan dana.»
+
+> Zimbabwe: «Salah satu skenario yang paling mengganggu dan menyedihkan adalah ketika hampir seluruh jalur listrik tembaga yang menghubungkan Harare ke Dabuka (lebih dari 280 kilometer) dicuri. Saat selesai dibangun, jalur itu merupakan kebanggaan Zimbabwe, dengan kereta listrik cepat untuk penumpang dan barang yang melewati rute ini.»
+
+#### 3. “Mealie Meal”
+
+Dalam konteks upah yang sangat rendah dan ekonomi yang tidak stabil, perusahaan-perusahaan terpaksa menyediakan makanan bagi karyawannya untuk menjaga mereka tetap produktif dan operasional. Inisiatif ini bukan hanya cara untuk mengatasi kelangkaan dan tingginya biaya makanan, tetapi juga strategi untuk mempertahankan tenaga kerja dalam lingkungan ekonomi yang sulit.
+
+> Weimar: «Di Berlin, pegawai kantor, yang merupakan kelas yang sangat penting di ibu kota, memiliki gaji yang sama sekali tidak memadai, berkisar antara 12.000 hingga 20.000 per bulan (setara dengan antara 12 dan 19 pound per tahun), yang terus menurun; tetapi sebagian besar masih bisa mendapatkan makan siang mereka dengan jumlah simbolis, yang disediakan oleh kantor mereka, sehingga tubuh dan jiwa hampir bisa tetap bersatu.»
+
+> Zimbabwe: «Pada tahap ini, kami menyediakan makan siang gratis untuk seluruh staf kami. Tepung jagung sangat penting bagi kelangsungan operasional perusahaan kami, karena dalam banyak kasus itu adalah satu-satunya makanan yang diterima staf kami setiap hari.»
+
+#### 4. Kupon bensin
+
+Masyarakat mencari alternatif yang stabil untuk transaksi. Di Weimar, produk seperti kuningan dan bahan bakar berfungsi sebagai alat tukar karena nilai intrinsiknya yang tetap. Di Zimbabwe, menghadapi depresiasi cepat dolar Zimbabwe, kupon bensin, yang mewakili jumlah tetap dari suatu produk penting, menjadi mata uang de facto. Situasi ini menyoroti bagaimana masyarakat beradaptasi dengan kondisi ekonomi ekstrem, menemukan solusi inovatif untuk menjaga perdagangan dan ekonomi tetap berjalan.
+
+Weimar: «Barter sudah menjadi bentuk pertukaran yang lazim; tetapi sekarang, barang-barang seperti kuningan dan bahan bakar menjadi mata uang umum untuk pembelian dan pembayaran.»
+
+Zimbabwe: «Kupon-kupon ini sekarang kami gunakan untuk membayar sewa kepada pemilik, pajak kota, tagihan telepon – pada kenyataannya hampir semua hal – karena semua orang berhenti menerima pembayaran dalam dolar Zimbabwe dan cek.»
 
 #### Kesimpulan
 
-Ini mengakhiri video ini tentang kesamaan pengalaman selama periode hiperinflasi di Zimbabwe dan Republik Weimar. Dalam video berikutnya, kami akan membahas perbedaan dan paralel kontemporer. Terima kasih.
+Demikianlah video ini tentang kesamaan pengalaman selama periode hiperinflasi di Zimbabwe dan Republik Weimar. Dalam video berikutnya, kita akan membahas perbedaan dan paralel kontemporer. Terima kasih.
 
 ## Weimar vs Zimbabwe: Perbedaan dan Paralel Kontemporer
 

@@ -568,23 +568,42 @@ Di fronte a questa situazione, lo Stato impone regolamentazioni draconiane, tra 
 
 ![immagine](assets/fr/045.webp)
 
-1. Petrolio e metalli
+#### 1. Petrolio e metalli
 
-In Germania durante il periodo di Weimar, il furto di materiali preziosi era tale che il piombo dai tetti veniva frequentemente rubato. In Zimbabwe, la disperazione ha spinto alcuni a interrompere la rete elettrica per estrarre olio dai trasformatori e usarlo nei loro veicoli.
-Nel contesto di un'economia in deterioramento e scarsità di risorse, i governi possono implementare sistemi di razionamento per controllare la distribuzione di beni essenziali. Questo include l'uso di buoni o voucher per regolare l'acquisto di benzina o carburante.
+In Germania durante il periodo di Weimar, il furto di materiali preziosi era così diffuso che il piombo dei tetti veniva frequentemente rubato. In Zimbabwe, la disperazione spinse alcuni a interrompere la rete elettrica per estrarre l’olio dai trasformatori e utilizzarlo nei propri veicoli.
 
-> Weimar: "A Berlino, a causa della scarsità di benzina, è stato implementato un sistema di buoni per regolare la sua distribuzione. Ogni cittadino riceveva una quantità specifica di buoni che gli permetteva di acquistare una quantità limitata di carburante."
+Weimar: «Le targhe metalliche dei monumenti nazionali dovettero essere rimosse per essere messe al sicuro. Le targhette in ottone dei campanelli furono rubate dalle porte dell’ambasciata britannica a Berlino.»
 
-> Zimbabwe: "Durante la crisi del carburante, il governo ha introdotto un sistema di buoni per gestire la distribuzione della benzina. Ogni individuo riceveva un numero determinato di buoni che potevano essere scambiati per una certa quantità di carburante."
-> Le popolazioni cercano alternative stabili per le transazioni. A Weimar, prodotti come l'ottone e il carburante servivano come mezzi di scambio a causa del loro costante valore intrinseco. In Zimbabwe, di fronte alla rapida svalutazione del dollaro zimbabwese, i buoni benzina, che rappresentavano una quantità fissa di un prodotto essenziale, diventavano una valuta de facto. Queste situazioni evidenziano come le società si adattino a condizioni economiche estreme, trovando soluzioni innovative per mantenere il commercio e l'economia in movimento.
+Zimbabwe: «Per peggiorare le cose, a causa della mancanza di valuta estera, vi era una carenza di olio lubrificante per le automobili, e i trasformatori divennero un bersaglio facile per i ladri che aspiravano l’olio di raffreddamento durante i blackout elettrici.»
 
-Weimar: "Il baratto era già una forma comune di scambio; ma ora, beni come l'ottone e il carburante diventavano la valuta comune per acquisti e pagamenti."
+#### 2. Treni
 
-Zimbabwe: "Ora usavamo questi voucher per pagare l'affitto ai proprietari di immobili, le tasse comunali, le bollette telefoniche, infatti, quasi tutto, poiché tutti avevano smesso di accettare pagamenti in dollari zimbabwesi e assegni."
+La svalutazione della moneta può spingere i cittadini a comportamenti di sopravvivenza basati sul vandalismo. Di fronte a un’economia in rovina, infrastrutture pubbliche costose come i sistemi di trasporto possono essere compromesse, con conseguenze sociali disastrose.
+
+> Weimar: «A Berlino, il sistema tranviario cessò di funzionare per mancanza di fondi.»
+
+> Zimbabwe: «Uno degli scenari più inquietanti e tristi fu quando quasi tutta la linea elettrica in rame che collegava Harare a Dabuka (più di 280 chilometri) venne rubata. Al momento del completamento, era stato l’orgoglio dello Zimbabwe, con treni elettrici veloci sia passeggeri che merci che percorrevano questa tratta.»
+
+#### 3. “Mealie Meal”
+
+Nel contesto di salari irrisori e di un’economia instabile, le imprese furono costrette a fornire cibo ai propri dipendenti per mantenerli produttivi e operativi. Questa iniziativa non era soltanto un mezzo per sopperire alla scarsità e agli elevati costi del cibo, ma anche una strategia per trattenere il personale in un ambiente economico difficile.
+
+> Weimar: «A Berlino, gli impiegati d’ufficio, che costituivano una classe molto importante nella capitale, avevano stipendi del tutto inadeguati che andavano da 12.000 a 20.000 al mese (equivalenti a 12–19 sterline all’anno), in costante diminuzione; ma la maggior parte poteva ancora ottenere il pranzo per una somma simbolica, fornita dai propri uffici, così che corpo e anima potessero appena essere mantenuti insieme.»
+
+> Zimbabwe: «A questo punto, fornivamo a tutto il nostro personale un pranzo gratuito. La farina di mais era essenziale per il funzionamento continuo della nostra azienda, poiché in molti casi era l’unico pasto che il nostro personale riceveva ogni giorno.»
+
+#### 4. Buoni benzina
+
+Le popolazioni cercavano alternative stabili per le transazioni. A Weimar, prodotti come l’ottone e il carburante servirono come mezzi di scambio grazie al loro valore intrinseco costante. In Zimbabwe, di fronte alla rapida svalutazione del dollaro zimbabwese, i buoni benzina, che rappresentavano una quantità fissa di un bene essenziale, divennero una moneta de facto. Queste situazioni mettono in evidenza come le società si adattino a condizioni economiche estreme, trovando soluzioni innovative per mantenere attivi il commercio e l’economia.
+
+Weimar: «Il baratto era già una forma abituale di scambio; ma ora merci come l’ottone e il carburante divennero la valuta comune per gli acquisti e i pagamenti.»
+
+Zimbabwe: «Questi buoni li usavamo ormai per pagare gli affitti ai proprietari, le tasse comunali, le bollette telefoniche – praticamente quasi tutto – poiché tutti avevano smesso di accettare pagamenti in dollari zimbabwesi e assegni.»
 
 #### Conclusione
 
-Questo conclude questo video sulle somiglianze delle esperienze durante i periodi di iperinflazione in Zimbabwe e nella Repubblica di Weimar. Nel prossimo video, discuteremo le differenze e i paralleli contemporanei. Grazie.
+Questo conclude il video riguardante le somiglianze delle esperienze vissute durante i periodi di iperinflazione nello Zimbabwe e nella Repubblica di Weimar. Nel prossimo video parleremo delle differenze e dei paralleli contemporanei. Grazie.
+
 
 ## Weimar vs Zimbabwe: Differenze e Paralleli Contemporanei
 

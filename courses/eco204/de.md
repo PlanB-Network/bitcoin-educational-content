@@ -596,23 +596,42 @@ Angesichts dieser Situation erlässt der Staat drakonische Vorschriften, einschl
 
 ![image](assets/fr/045.webp)
 
-1. Öl und Metalle
+#### 1. Öl und Metalle
 
-In Deutschland während der Weimarer Zeit wurde so viel wertvolles Material gestohlen, dass Blei von den Dächern häufig gestohlen wurde. In Simbabwe hat die Verzweiflung einige dazu gebracht, das Stromnetz zu unterbrechen, um Öl aus den Transformatoren zu extrahieren und es in ihren Fahrzeugen zu verwenden.
-Im Originaltext wird über die Verwendung von Benzin-Gutscheinen in Weimar und Zimbabwe gesprochen. In beiden Fällen wurden diese Gutscheine als eine Möglichkeit eingesetzt, den begrenzten Zugang zu Treibstoff in Zeiten wirtschaftlicher Instabilität zu regeln.
+In Deutschland während der Weimarer Zeit war der Diebstahl von wertvollen Materialien so verbreitet, dass Blei von den Dächern häufig gestohlen wurde. In Simbabwe trieb die Verzweiflung einige Menschen dazu, das Stromnetz zu unterbrechen, um Öl aus Transformatoren zu gewinnen und es in ihren Fahrzeugen zu verwenden.
 
-> Weimar: "En raison de la pénurie de carburant, des coupons d'essence ont été introduits à Berlin pour réguler la distribution et garantir que les véhicules essentiels, tels que les ambulances et les véhicules de secours, puissent continuer à fonctionner."
+Weimar: „Die Metallplatten von Nationaldenkmälern mussten entfernt und in Sicherheit gebracht werden. Messingklingelschilder wurden von den Türen der britischen Botschaft in Berlin gestohlen.“
 
-> Zimbabwe: "En raison de la pénurie de carburant, des coupons d'essence ont été introduits pour réguler la distribution et garantir que les véhicules prioritaires, tels que les véhicules de transport de marchandises et les véhicules de secours, puissent continuer à fonctionner."
-> Die Bevölkerung sucht nach stabilen Alternativen für Transaktionen. In Weimar wurden Produkte wie Messing und Treibstoff als Tauschmittel verwendet, aufgrund ihres konstanten inneren Wertes. In Simbabwe wurden aufgrund der schnellen Abwertung des simbabwischen Dollars Benzingutscheine, die eine feste Menge an einem wichtigen Produkt repräsentierten, zur de facto Währung. Diese Situationen verdeutlichen, wie Gesellschaften sich an extreme wirtschaftliche Bedingungen anpassen und innovative Lösungen finden, um den Handel und die Wirtschaft am Laufen zu halten.
+Simbabwe: „Um die Situation noch zu verschlimmern, gab es aufgrund des Mangels an Devisen einen Mangel an Schmieröl für Autos, und die Transformatoren waren ein leichtes Ziel für Diebe, die während der Stromausfälle das Kühlöl abzapften.“
 
-Weimar: "Tauschhandel war bereits eine übliche Form des Austauschs; aber jetzt wurden Waren wie Messing und Treibstoff zur gängigen Währung für Kauf und Zahlung."
+#### 2. Züge
 
-Simbabwe: "Diese Gutscheine verwendeten wir nun, um Mieten an Vermieter, Kommunalsteuern, Telefonrechnungen und praktisch alles zu bezahlen, da jeder aufgehört hatte, simbabwische Dollar und Schecks anzunehmen."
+Die Abwertung der Währung kann Bürger zu Überlebensverhalten treiben, das auf Vandalismus basiert. Angesichts einer zusammenbrechenden Wirtschaft kann teure öffentliche Infrastruktur wie Transportsysteme beeinträchtigt werden, was zu katastrophalen gesellschaftlichen Folgen führt.
 
-#### Schlussfolgerung
+> Weimar: „In Berlin stellte das Straßenbahnsystem wegen Geldmangels den Betrieb ein.“
 
-Das schließt dieses Video über die Ähnlichkeiten der Erfahrungen während der Hyperinflationsperioden in Simbabwe und der Weimarer Republik ab. Im nächsten Video werden wir über die Unterschiede und zeitgenössischen Parallelen sprechen. Danke.
+> Simbabwe: „Eines der beunruhigendsten und traurigsten Szenarien war, als fast die gesamte elektrische Kupferleitung zwischen Harare und Dabuka (mehr als 280 Kilometer) gestohlen wurde. Bei ihrer Fertigstellung war sie der Stolz Simbabwes gewesen, mit schnellen elektrischen Personen- und Güterzügen, die diese Strecke befuhren.“
+
+#### 3. „Mealie Meal“
+
+Vor dem Hintergrund lächerlich niedriger Löhne und einer instabilen Wirtschaft sahen sich Unternehmen gezwungen, ihren Angestellten Lebensmittel zur Verfügung zu stellen, um sie produktiv und arbeitsfähig zu halten. Diese Initiative war nicht nur ein Mittel, um Knappheit und hohe Lebensmittelpreise auszugleichen, sondern auch eine Strategie, um Personal in einem schwierigen wirtschaftlichen Umfeld zu halten.
+
+> Weimar: „In Berlin hatten Büroangestellte, die eine sehr wichtige Klasse in der Hauptstadt darstellten, völlig unzureichende Gehälter zwischen 12.000 und 20.000 pro Monat (also zwischen 12 und 19 Pfund pro Jahr), die ständig sanken; aber die meisten konnten immer noch ein Mittagessen für eine symbolische Summe erhalten, das von ihren Büros bereitgestellt wurde, sodass Körper und Seele gerade so zusammengehalten werden konnten.“
+
+> Simbabwe: „Zu diesem Zeitpunkt stellten wir all unseren Mitarbeitern ein kostenloses Mittagessen zur Verfügung. Maismehl war für den kontinuierlichen Betrieb unseres Unternehmens unerlässlich, da es in vielen Fällen die einzige Mahlzeit war, die unsere Mitarbeiter jeden Tag erhielten.“
+
+#### 4. Benzingutscheine
+
+Die Menschen suchten nach stabilen Alternativen für Transaktionen. In Weimar dienten Produkte wie Messing und Treibstoff als Tauschmittel aufgrund ihres konstanten inneren Wertes. In Simbabwe, angesichts der raschen Abwertung des Simbabwe-Dollars, wurden Benzingutscheine, die eine feste Menge eines lebenswichtigen Produkts darstellten, zu einer de-facto-Währung. Diese Situationen verdeutlichen, wie Gesellschaften sich an extreme wirtschaftliche Bedingungen anpassen und innovative Lösungen finden, um Handel und Wirtschaft am Laufen zu halten.
+
+Weimar: „Tauschhandel war bereits eine übliche Form des Austauschs; doch nun wurden Waren wie Messing und Treibstoff zur gängigen Währung für Kauf und Zahlung.“
+
+Simbabwe: „Diese Gutscheine nutzten wir nun, um Mieten an Vermieter zu zahlen, Gemeindesteuern, Telefonrechnungen – praktisch alles, da niemand mehr Zahlungen in Simbabwe-Dollars oder Schecks akzeptierte.“
+
+#### Fazit
+
+Damit endet dieses Video über die Gemeinsamkeiten der Erfahrungen während der Hyperinflation in Simbabwe und in der Weimarer Republik. Im nächsten Video werden wir über die Unterschiede und zeitgenössische Parallelen sprechen. Vielen Dank.
+
 
 ## Unterschiede zwischen Weimar und Simbabwe und zeitgenössische Parallelen
 

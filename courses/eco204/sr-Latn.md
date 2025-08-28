@@ -937,29 +937,41 @@ Kao odgovor na ovu situaciju, vlada uvodi drakonske propise, uključujući kontr
 ![image](assets/fr/045.webp)
 
 
-1. Nafta i metali
+#### 1. Nafta i metali
 
+U Nemačkoj tokom perioda Vajmarske republike krađa vrednih materijala bila je toliko česta da je olovo sa krovova često bilo ukradeno. U Zimbabveu je očaj naveo neke ljude da isključe električnu mrežu kako bi izvukli ulje iz transformatora i koristili ga u svojim vozilima.
 
-U Nemačkoj tokom Vajmarskog perioda, krađa dragocenih materijala bila je tolika da je olovo sa krovova često bilo kradeno. U Zimbabveu, očaj je naveo neke da prekinu električnu mrežu kako bi izvukli ulje iz transformatora i koristili ga u svojim vozilima.
+Vajmar: «Metalne ploče sa nacionalnih spomenika morale su biti uklonjene radi bezbednosti. Mesingane pločice sa zvona ukradene su sa vrata britanske ambasade u Berlinu.»
 
-U kontekstu pogoršanja ekonomije i oskudice resursa, vlade mogu uvesti sisteme racionalizacije kako bi kontrolisale distribuciju osnovnih dobara. Ovo uključuje korišćenje kupona ili vaučera za regulisanje kupovine benzina ili goriva.
+Zimbabve: «Da bi stvar bila još gora, zbog nedostatka strane valute došlo je do nestašice ulja za podmazivanje automobila, a transformatori su postali laka meta za lopove koji su tokom nestanaka struje isisavali rashladno ulje.»
 
+#### 2. Vozovi
 
-> Weimar: "U Berlinu, zbog nestašice benzina, uveden je sistem kupona kako bi se regulisala njegova distribucija. Svakom građaninu je dodeljena određena količina kupona koja im je omogućavala kupovinu ograničene količine goriva."
+Devalvacija valute može naterati građane na ponašanje zasnovano na preživljavanju kroz vandalizam. Suočeni sa ekonomijom u raspadu, skupa javna infrastruktura poput transportnih sistema može biti ugrožena, što dovodi do katastrofalnih društvenih posledica.
 
-> Zimbabve: "Tokom krize sa gorivom, vlada je uvela sistem kupona za upravljanje distribucijom benzina. Svaka osoba je dobila određen broj kupona koji su se mogli zameniti za određenu količinu goriva."
-> Populacije traže stabilne alternative za transakcije. U Vajmaru, proizvodi kao što su mesing i gorivo služili su kao sredstva Exchange zbog njihove stalne intrinzične vrednosti. U Zimbabveu, suočeni sa brzom devalvacijom zimbabveanskog dolara, kuponi za benzin, koji su predstavljali fiksnu količinu esencijalnog proizvoda, postali su de facto valuta. Ove situacije ističu kako se društva prilagođavaju ekstremnim ekonomskim uslovima, pronalazeći inovativna rešenja za održavanje trgovine i ekonomije u pokretu.
+> Vajmar: «U Berlinu je tramvajski sistem prestao da radi zbog nedostatka sredstava.»
 
-Weimar: "Trampa je već bila uobičajen oblik Exchange; ali sada su dobra poput mesinga i goriva postala uobičajena valuta za kupovinu i plaćanje."
+> Zimbabve: «Jedan od najuznemirujućih i najtužnijih scenarija bio je kada je gotovo čitava električna bakarna linija koja je povezivala Harare i Dabuku (više od 280 kilometara) bila ukradena. Kada je završena, bila je ponos Zimbabvea, sa brzim električnim putničkim i teretnim vozovima na toj ruti.»
 
+#### 3. “Mealie Meal” (brašno od kukuruza)
 
-Zimbabve: "Sada koristimo ove vaučere za plaćanje rente stanodavcima, opštinskih poreza, telefonskih računa, zapravo, skoro svega, jer su svi prestali prihvatati plaćanja u zimbabveanskim dolarima i čekovima."
+U kontekstu bednih plata i nestabilne ekonomije, kompanije su bile prinuđene da obezbede hranu svojim zaposlenima kako bi ih održale produktivnim i operativnim. Ova inicijativa nije bila samo način da se prevaziđe nestašica i visoka cena hrane, već i strategija da se zadrži osoblje u teškom ekonomskom okruženju.
 
+> Vajmar: «U Berlinu su kancelarijski radnici, koji su činili veoma važnu klasu u prestonici, imali potpuno neadekvatne plate od 12.000 do 20.000 mesečno (odnosno između 12 i 19 funti godišnje), koje su stalno opadale; ali većina je ipak mogla da dobije ručak za simboličan iznos, koji su obezbeđivale njihove kancelarije, tako da su telo i duša jedva ostajali zajedno.»
+
+> Zimbabve: «U ovoj fazi, svim našim zaposlenima obezbeđivali smo besplatan ručak. Kukuruzno brašno bilo je ključno za kontinuirani rad naše kompanije, jer je u mnogim slučajevima to bio jedini obrok koji su naši zaposleni dobijali svakog dana.»
+
+#### 4. Bonovi za benzin
+
+Stanovništvo je tražilo stabilne alternative za transakcije. U Vajmaru su proizvodi poput mesinga i goriva služili kao sredstva razmene zbog svoje stalne intrinzične vrednosti. U Zimbabveu, suočeni sa brzom devalvacijom zimbabveanskog dolara, bonovi za benzin, koji su predstavljali fiksnu količinu osnovnog proizvoda, postali su de facto valuta. Ove situacije pokazuju kako se društva prilagođavaju ekstremnim ekonomskim uslovima, pronalazeći inovativna rešenja da održe trgovinu i ekonomiju u pokretu.
+
+Vajmar: «Trampa je već bila uobičajen oblik razmene; ali sada su dobra poput mesinga i goriva postala uobičajena valuta za kupovinu i plaćanje.»
+
+Zimbabve: «Te bonove smo sada koristili za plaćanje stanarina vlasnicima, komunalnih poreza, telefonskih računa – zapravo skoro svega – jer su svi prestali da prihvataju plaćanja u zimbabveanskim dolarima i čekovima.»
 
 #### Zaključak
 
-
-Ovo zaključuje ovaj video o sličnostima iskustava tokom perioda hiperinflacije u Zimbabveu i Vajmarskoj Republici. U sledećem videu ćemo diskutovati o razlikama i savremenim paralelama. Hvala vam.
+Ovim se završava ovaj video o sličnostima iskustava tokom perioda hiperinflacije u Zimbabveu i Vajmarskoj republici. U narednom videu govorićemo o razlikama i savremenim paralelama. Hvala.
 
 
 ## Weimar vs Zimbabwe: Razlike i savremene paralele

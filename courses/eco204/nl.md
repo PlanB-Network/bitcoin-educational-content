@@ -937,29 +937,42 @@ Als reactie op deze situatie legt de regering draconische regels op, waaronder k
 ![image](assets/fr/045.webp)
 
 
-1. Olie en metalen
+#### 1. Olie en metalen
 
+In Duitsland tijdens de Weimar-periode was de diefstal van waardevolle materialen zo wijdverbreid dat lood van daken vaak werd gestolen. In Zimbabwe dreef de wanhoop sommigen ertoe het elektriciteitsnet af te sluiten om olie uit transformatoren te halen en in hun voertuigen te gebruiken.
 
-In Duitsland tijdens de Weimar-periode was de diefstal van kostbare materialen zo omvangrijk dat lood van daken vaak werd gestolen. In Zimbabwe leidde wanhoop ertoe dat sommigen het elektriciteitsnet onderbraken om olie uit transformatoren te halen en die in hun voertuigen te gebruiken.
+Weimar: «De metalen platen van nationale monumenten moesten worden verwijderd om veiliggesteld te worden. Messing deurbelplaten werden gestolen van de deuren van de Britse ambassade in Berlijn.»
 
-In de context van een verslechterende economie en schaarse middelen kunnen overheden rantsoeneringssystemen invoeren om de distributie van essentiële goederen te controleren. Dit omvat het gebruik van bonnen of vouchers om de aankoop van benzine of brandstof te regelen.
+Zimbabwe: «Om de zaken nog erger te maken, was er door het gebrek aan buitenlandse valuta een tekort aan smeerolie voor auto’s, en werden transformatoren een gemakkelijk doelwit voor dieven die tijdens stroomuitval de koelolie aftapten.»
 
+#### 2. Treinen
 
-> Weimar: "In Berlijn werd vanwege de schaarste aan benzine een bonnensysteem ingevoerd om de distributie te regelen. Elke burger kreeg een bepaald aantal coupons toegewezen waarmee hij een beperkte hoeveelheid brandstof kon kopen."
+De waardevermindering van de munt kan burgers aanzetten tot overlevingsgedrag gebaseerd op vandalisme. Geconfronteerd met een instortende economie kan dure publieke infrastructuur zoals transportsystemen worden aangetast, wat leidt tot rampzalige maatschappelijke gevolgen.
 
-> Zimbabwe: "Tijdens de brandstofcrisis voerde de overheid een couponsysteem in om de distributie van benzine te beheren. Iedereen kreeg een vast aantal coupons die konden worden ingewisseld voor een bepaalde hoeveelheid brandstof."
-> De bevolking zoekt stabiele alternatieven voor transacties. In Weimar dienden producten zoals messing en brandstof als Exchange vanwege hun constante intrinsieke waarde. In Zimbabwe, dat geconfronteerd werd met de snelle devaluatie van de Zimbabwaanse dollar, werden benzinebonnen, die een vaste hoeveelheid van een essentieel product vertegenwoordigden, een de facto betaalmiddel. Deze situaties laten zien hoe samenlevingen zich aanpassen aan extreme economische omstandigheden en innovatieve oplossingen vinden om de handel en de economie draaiende te houden.
+> Weimar: «In Berlijn stopte het tramsysteem met functioneren wegens gebrek aan middelen.»
 
-Weimar: "Ruilen was al een gebruikelijke vorm van Exchange; maar nu werden goederen zoals koper en brandstof de gemeenschappelijke valuta voor aankoop en betaling."
+> Zimbabwe: «Een van de meest verontrustende en trieste scenario’s was toen bijna de hele elektrische koperlijn die Harare met Dabuka verbond (meer dan 280 kilometer) werd gestolen. Bij de voltooiing was het de trots van Zimbabwe geweest, met snelle elektrische passagiers- en goederentreinen die deze route gebruikten.»
 
+#### 3. “Mealie Meal”
 
-Zimbabwe: "We gebruikten deze vouchers nu om huur te betalen aan huisbazen, gemeentebelastingen, telefoonrekeningen, in feite bijna alles, omdat iedereen geen betalingen in Zimbabwaanse dollars en cheques meer accepteerde."
+In de context van belachelijk lage lonen en een instabiele economie werden bedrijven gedwongen hun werknemers voedsel te verstrekken om hen productief en operationeel te houden. Dit initiatief was niet alleen een manier om het tekort en de hoge kosten van voedsel te compenseren, maar ook een strategie om personeel te behouden in een moeilijke economische omgeving.
 
+> Weimar: «In Berlijn ontvingen kantoormedewerkers, die een zeer belangrijke klasse in de hoofdstad vormden, volledig ontoereikende salarissen variërend van 12.000 tot 20.000 per maand (d.w.z. tussen 12 en 19 pond per jaar), die voortdurend afnamen; maar de meesten konden nog steeds hun lunch verkrijgen voor een symbolisch bedrag, verstrekt door hun kantoren, zodat lichaam en ziel net bijeen konden worden gehouden.»
+
+> Zimbabwe: «Op dit moment gaven we al ons personeel een gratis lunch. Maïsmeel was essentieel voor het voortdurende functioneren van ons bedrijf, omdat het in veel gevallen de enige maaltijd was die ons personeel elke dag kreeg.»
+
+#### 4. Benzinebonnen
+
+De bevolking zocht naar stabiele alternatieven voor transacties. In Weimar fungeerden producten zoals messing en brandstof als ruilmiddelen vanwege hun constante intrinsieke waarde. In Zimbabwe, geconfronteerd met de snelle devaluatie van de Zimbabwaanse dollar, werden benzinebonnen, die een vaste hoeveelheid van een essentieel product vertegenwoordigden, een de facto munt. Deze situaties benadrukken hoe samenlevingen zich aanpassen aan extreme economische omstandigheden en innovatieve oplossingen vinden om handel en economie draaiende te houden.
+
+Weimar: «Ruilhandel was al een gebruikelijke vorm van uitwisseling; maar nu werden goederen zoals messing en brandstof de gangbare munt voor aankopen en betalingen.»
+
+Zimbabwe: «Deze bonnen gebruikten we nu om huur aan verhuurders te betalen, gemeentebelastingen, telefoonrekeningen – eigenlijk bijna alles – omdat iedereen was gestopt met het accepteren van betalingen in Zimbabwaanse dollars en cheques.»
 
 #### Conclusie
 
+Dit besluit deze video over de overeenkomsten in de ervaringen tijdens de hyperinflatieperiodes in Zimbabwe en de Weimarrepubliek. In de volgende video zullen we het hebben over de verschillen en hedendaagse parallellen. Dank u.
 
-Tot zover deze video over de overeenkomsten tussen de ervaringen tijdens de periodes van hyperinflatie in Zimbabwe en de Weimarrepubliek. In de volgende video bespreken we de verschillen en hedendaagse parallellen. Dank je wel.
 
 
 ## Weimar vs Zimbabwe: Verschillen en hedendaagse parallellen

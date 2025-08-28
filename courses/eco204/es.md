@@ -557,22 +557,43 @@ Ante esta situación, el Estado impone regulaciones draconianas, incluidos los c
 
 ![imagen](assets/fr/045.webp)
 
-1. Petróleo y metales
 
-En Alemania durante el período de Weimar, el robo de materiales preciosos era tan común que el plomo de los techos se robaba con frecuencia. En Zimbabwe, la desesperación llevó a algunos a interrumpir el suministro eléctrico para extraer el aceite de los transformadores y usarlo en sus vehículos.
-En el contexto de la escasez de combustible y la necesidad de racionar su uso, se implementaron cupones de gasolina para controlar y limitar la cantidad de combustible que cada persona podía adquirir.
+#### 1. Petróleo y metales
 
-> Weimar: "Les coupons d'essence étaient distribués aux automobilistes pour limiter leur consommation de carburant."
+En Alemania, durante el período de Weimar, el robo de materiales valiosos fue tan común que el plomo de los tejados era frecuentemente sustraído. En Zimbabue, la desesperación llevó a algunos a interrumpir la red eléctrica para extraer el aceite de los transformadores y utilizarlo en sus vehículos.
 
-> Zimbabwe: "Les coupons d'essence étaient utilisés pour rationner le carburant et garantir que chaque personne ne pouvait acheter qu'une quantité limitée de carburant."
-> Las poblaciones buscan alternativas estables para las transacciones. En Weimar, productos como el latón y el combustible se utilizaron como medios de intercambio debido a su valor intrínseco constante. En Zimbabwe, ante la rápida devaluación del dólar zimbabuense, los cupones de gasolina, que representaban una cantidad fija de un producto esencial, se convirtieron en una moneda de facto. Estas situaciones destacan cómo las sociedades se adaptan a condiciones económicas extremas, encontrando soluciones innovadoras para mantener el comercio y la economía en movimiento.
-> Weimar: "El trueque ya era una forma común de intercambio; pero ahora, productos como el latón y el combustible se convirtieron en la moneda corriente de compra y pago".
+Weimar: «Las placas metálicas de los monumentos nacionales tuvieron que ser retiradas para ser puestas a salvo. Las placas de timbre de latón fueron robadas de las puertas de la embajada británica en Berlín.»
 
-Zimbabwe: "Estos vales los usábamos ahora para pagar alquileres a los propietarios, impuestos municipales, facturas de teléfono, en realidad casi todo, porque todos habían dejado de aceptar pagos en dólares zimbabuenses y cheques".
+Zimbabue: «Para agravar las cosas, debido a la falta de divisas extranjeras, hubo una escasez de aceite lubricante para los automóviles, y los transformadores se convirtieron en un blanco fácil para los ladrones que extraían el aceite de refrigeración durante los cortes de electricidad.»
+
+#### 2. Trenes
+
+La devaluación de la moneda puede empujar a los ciudadanos a un comportamiento de supervivencia basado en el vandalismo. Ante una economía en colapso, infraestructuras públicas costosas como los sistemas de transporte pueden verse comprometidas, lo que conduce a consecuencias sociales desastrosas.
+
+> Weimar: «En Berlín, el sistema de tranvías dejó de funcionar por falta de fondos.»
+
+> Zimbabue: «Uno de los escenarios más inquietantes y tristes fue cuando casi toda la línea eléctrica de cobre que unía Harare con Dabuka (más de 280 kilómetros) fue robada. En el momento de su finalización, había sido el orgullo de Zimbabue, con rápidos trenes eléctricos de pasajeros y de carga circulando por esta ruta.»
+
+#### 3. “Mealie Meal”
+
+En el contexto de salarios miserables y una economía inestable, las empresas se vieron obligadas a ofrecer alimentos a sus empleados para mantenerlos productivos y operativos. Esta iniciativa no solo fue un medio para paliar la escasez y los altos costos de los alimentos, sino también una estrategia para retener al personal en un entorno económico difícil.
+
+> Weimar: «En Berlín, los empleados de oficina, que constituían una clase muy importante en la capital, tenían salarios totalmente inadecuados que iban de 12 000 a 20 000 al mes (es decir, entre 12 y 19 libras al año), disminuyendo constantemente; pero la mayoría todavía podía obtener sus almuerzos por una suma simbólica, proporcionados por sus oficinas, de modo que apenas podían mantener juntos el cuerpo y el alma.»
+
+> Zimbabue: «En esta etapa, proporcionábamos a todo nuestro personal un almuerzo gratuito. La harina de maíz era esencial para el funcionamiento continuo de nuestra empresa, ya que en muchos casos era la única comida que nuestro personal recibía cada día.»
+
+#### 4. Cupones de gasolina
+
+Las poblaciones buscaban alternativas estables para las transacciones. En Weimar, productos como el latón y el combustible sirvieron como medios de intercambio debido a su valor intrínseco constante. En Zimbabue, ante la rápida devaluación del dólar zimbabuense, los cupones de gasolina, que representaban una cantidad fija de un producto esencial, se convirtieron en una moneda de facto. Estas situaciones destacan cómo las sociedades se adaptan a condiciones económicas extremas, encontrando soluciones innovadoras para mantener el comercio y la economía en movimiento.
+
+Weimar: «El trueque ya era una forma habitual de intercambio; pero ahora, mercancías como el latón y el combustible se convirtieron en la moneda común de compra y pago.»
+
+Zimbabue: «Estos cupones los utilizábamos ahora para pagar alquileres a los propietarios, impuestos municipales, facturas de teléfono, en realidad casi todo, porque todos habían dejado de aceptar pagos en dólares zimbabuenses y cheques.»
 
 #### Conclusión
 
-Esto completa este video sobre las similitudes de las experiencias vividas durante los períodos de hiperinflación en Zimbabwe y la República de Weimar. En el próximo video, hablaremos sobre las diferencias y paralelismos contemporáneos. Gracias.
+Esto concluye este video sobre las similitudes de las experiencias vividas durante los períodos de hiperinflación en Zimbabue y en la República de Weimar. En el próximo video, hablaremos de las diferencias y de los paralelismos contemporáneos. Gracias.
+
 
 ## Diferencias entre Weimar y Zimbabwe y paralelismos contemporáneos
 

@@ -601,23 +601,41 @@ In response to this situation, the government imposes draconian regulations, inc
 
 ![image](assets/fr/045.webp)
 
-1. Oil and metals
+#### 1. Oil and metals
 
-In Germany during the Weimar period, the theft of precious materials was such that lead from roofs was frequently stolen. In Zimbabwe, desperation led some to interrupt the power grid to extract oil from transformers and use it in their vehicles.
-In the context of a deteriorating economy and scarcity of resources, governments may implement rationing systems to control the distribution of essential goods. This includes the use of coupons or vouchers to regulate the purchase of gasoline or fuel.
+In Germany during the Weimar period, the theft of valuable materials was so widespread that roof lead was frequently stolen. In Zimbabwe, desperation drove some to disrupt the power grid in order to extract oil from transformers and use it in their vehicles.
 
-> Weimar: "In Berlin, due to the scarcity of gasoline, a coupon system was implemented to regulate its distribution. Each citizen was assigned a specific amount of coupons that allowed them to purchase a limited quantity of fuel."
+Weimar: “The metal plaques of national monuments had to be removed for safekeeping. Brass doorbell plates were stolen from the doors of the British Embassy in Berlin.”
 
-> Zimbabwe: "During the fuel crisis, the government introduced a coupon system to manage the distribution of gasoline. Each individual was given a set number of coupons that could be exchanged for a certain amount of fuel."
-> The populations are looking for stable alternatives for transactions. In Weimar, products such as brass and fuel served as means of exchange due to their constant intrinsic value. In Zimbabwe, facing the rapid devaluation of the Zimbabwean dollar, gasoline coupons, which represented a fixed quantity of an essential product, became a de facto currency. These situations highlight how societies adapt to extreme economic conditions, finding innovative solutions to keep trade and the economy moving.
+Zimbabwe: “To make matters worse, due to the lack of foreign currency, there was a shortage of lubricating oil for cars, and transformers became an easy target for thieves who siphoned off the cooling oil during power cuts.”
 
-Weimar: "Bartering was already a common form of exchange; but now, goods like brass and fuel became the common currency for purchase and payment."
+#### 2. Trains
 
-Zimbabwe: "We now used these vouchers to pay rent to landlords, municipal taxes, phone bills, in fact, almost everything, as everyone had stopped accepting payments in Zimbabwean dollars and checks."
+Currency devaluation can drive citizens to survival behavior rooted in vandalism. Faced with a collapsing economy, costly public infrastructure such as transport systems can be compromised, leading to disastrous societal consequences.
+
+> Weimar: “In Berlin, the tram system ceased to operate for lack of funds.”
+
+> Zimbabwe: “One of the most troubling and saddest scenarios was when almost the entire electric copper line linking Harare to Dabuka (over 280 kilometers) was stolen. At its completion, it had been the pride of Zimbabwe, with fast electric passenger and freight trains running along this route.”
+
+#### 3. “Mealie Meal”
+
+In the context of meager wages and an unstable economy, businesses were forced to provide food to their employees in order to keep them productive and operational. This initiative was not only a way to offset shortages and high food costs, but also a strategy to retain staff in a difficult economic environment.
+
+> Weimar: “In Berlin, office employees, who formed a very important class in the capital, had totally inadequate salaries ranging from 12,000 to 20,000 per month (equivalent to between 12 and 19 pounds a year), which were constantly shrinking; but most could still obtain their lunches for a symbolic amount, provided by their offices, so that body and soul could just barely be kept together.”
+
+> Zimbabwe: “At this stage, we were providing all our staff with a free lunch. Maize meal was essential to the continued functioning of our company, as in many cases it was the only meal our staff received each day.”
+
+#### 4. Gasoline coupons
+
+Populations sought stable alternatives for transactions. In Weimar, products such as brass and fuel served as mediums of exchange due to their constant intrinsic value. In Zimbabwe, faced with the rapid devaluation of the Zimbabwean dollar, gasoline coupons, which represented a fixed quantity of an essential product, became a de facto currency. These situations highlight how societies adapt to extreme economic conditions, finding innovative solutions to keep trade and the economy moving.
+
+Weimar: “Barter was already a customary form of exchange; but now, goods such as brass and fuel became the common currency of purchase and payment.”
+
+Zimbabwe: “These vouchers we now used to pay rent to landlords, municipal taxes, telephone bills – in fact almost everything – because everyone had stopped accepting payments in Zimbabwean dollars and checks.”
 
 #### Conclusion
 
-This concludes this video on the similarities of the experiences during the periods of hyperinflation in Zimbabwe and the Weimar Republic. In the next video, we will discuss the differences and contemporary parallels. Thank you.
+This concludes this video on the similarities of experiences during the periods of hyperinflation in Zimbabwe and the Weimar Republic. In the next video, we will discuss the differences and contemporary parallels. Thank you.
 
 ## Weimar vs Zimbabwe: Differences and Contemporary Parallels
 

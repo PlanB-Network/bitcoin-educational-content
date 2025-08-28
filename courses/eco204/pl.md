@@ -937,29 +937,43 @@ W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontro
 ![image](assets/fr/045.webp)
 
 
-1. Ropa naftowa i metale
 
+#### 1. Ropa i metale
 
-W Niemczech w okresie weimarskim kradzież cennych materiałów była tak duża, że ołów z dachów był często kradziony. W Zimbabwe desperacja doprowadziła niektórych do przerwania sieci energetycznej w celu wydobycia oleju z transformatorów i wykorzystania go w swoich pojazdach.
+W Niemczech w okresie Republiki Weimarskiej kradzieże cennych materiałów były tak powszechne, że ołów z dachów był często zabierany. W Zimbabwe rozpacz doprowadziła niektórych do odłączania sieci elektrycznej, aby wydobywać olej z transformatorów i używać go w swoich pojazdach.
 
-W kontekście pogarszającej się sytuacji gospodarczej i niedoboru zasobów, rządy mogą wdrażać systemy racjonowania w celu kontrolowania dystrybucji podstawowych towarów. Obejmuje to wykorzystanie kuponów lub voucherów do regulowania zakupu benzyny lub paliwa.
+Weimar: «Metalowe tablice z pomników narodowych musiały zostać usunięte i zabezpieczone. Mosiężne tabliczki od dzwonków zostały skradzione z drzwi ambasady brytyjskiej w Berlinie.»
 
+Zimbabwe: «Na domiar złego, z powodu braku walut obcych, wystąpił niedobór oleju smarowego do samochodów, a transformatory stały się łatwym celem dla złodziei, którzy spuszczali olej chłodzący podczas przerw w dostawie prądu.»
 
-> Weimar: "W Berlinie, ze względu na niedobór benzyny, wdrożono system kuponów, aby regulować jej dystrybucję. Każdemu obywatelowi przydzielono określoną liczbę kuponów, które pozwalały mu na zakup ograniczonej ilości paliwa"
+#### 2. Pociągi
 
-> Zimbabwe: "Podczas kryzysu paliwowego rząd wprowadził system kuponów do zarządzania dystrybucją benzyny. Każda osoba otrzymała określoną liczbę kuponów, które można było wymienić na określoną ilość paliwa"
-> Społeczeństwa szukają stabilnych alternatyw dla transakcji. W Weimarze produkty takie jak mosiądz i paliwo służyły jako środki Exchange ze względu na ich stałą wartość wewnętrzną. W Zimbabwe, w obliczu gwałtownej dewaluacji dolara zimbabweńskiego, kupony na benzynę, które reprezentowały stałą ilość niezbędnego produktu, stały się de facto walutą. Sytuacje te pokazują, jak społeczeństwa dostosowują się do ekstremalnych warunków ekonomicznych, znajdując innowacyjne rozwiązania, aby utrzymać handel i gospodarkę w ruchu.
+Dewaluacja waluty może skłaniać obywateli do zachowań przetrwania opartych na wandalizmie. W obliczu upadającej gospodarki kosztowna infrastruktura publiczna, taka jak systemy transportowe, może zostać zagrożona, prowadząc do katastrofalnych konsekwencji społecznych.
 
-Weimar: "Wymiana barterowa była już powszechną formą Exchange; ale teraz towary takie jak mosiądz i paliwo stały się wspólną walutą zakupów i płatności"
+> Weimar: «W Berlinie system tramwajowy przestał funkcjonować z powodu braku środków.»
 
+> Zimbabwe: «Jednym z najbardziej niepokojących i smutnych scenariuszy było to, gdy prawie cała linia elektryczna z miedzi łącząca Harare z Dabuką (ponad 280 kilometrów) została skradziona. W momencie ukończenia była dumą Zimbabwe, z szybkimi elektrycznymi pociągami pasażerskimi i towarowymi kursującymi tą trasą.»
 
-Zimbabwe: "Używaliśmy teraz tych bonów do płacenia czynszu właścicielom nieruchomości, podatków miejskich, rachunków telefonicznych, w rzeczywistości prawie wszystkiego, ponieważ wszyscy przestali akceptować płatności w dolarach zimbabweńskich i czekach"
+#### 3. “Mealie Meal”
 
+W kontekście nędznych płac i niestabilnej gospodarki przedsiębiorstwa były zmuszone zapewniać pracownikom jedzenie, aby utrzymać ich produktywność i zdolność do pracy. Inicjatywa ta była nie tylko sposobem na złagodzenie niedoboru i wysokich kosztów żywności, ale także strategią zatrzymania pracowników w trudnym środowisku gospodarczym.
 
-#### Wnioski
+> Weimar: «W Berlinie pracownicy biurowi, którzy stanowili bardzo ważną klasę w stolicy, otrzymywali całkowicie nieadekwatne pensje w wysokości od 12 000 do 20 000 miesięcznie (czyli między 12 a 19 funtów rocznie), które stale malały; ale większość wciąż mogła dostać lunch za symboliczną kwotę, zapewniany przez ich biura, tak że ciało i dusza mogły ledwie trzymać się razem.»
 
+> Zimbabwe: «Na tym etapie zapewnialiśmy wszystkim naszym pracownikom darmowy lunch. Mąka kukurydziana była niezbędna do ciągłego funkcjonowania naszej firmy, ponieważ w wielu przypadkach był to jedyny posiłek, jaki nasi pracownicy otrzymywali każdego dnia.»
 
-Na tym kończymy ten materiał wideo poświęcony podobieństwom doświadczeń w okresach hiperinflacji w Zimbabwe i Republice Weimarskiej. W następnym filmie omówimy różnice i współczesne podobieństwa. Dziękujemy.
+#### 4. Kupony na benzynę
+
+Ludzie szukali stabilnych alternatyw dla transakcji. W Weimarze produkty takie jak mosiądz i paliwo służyły jako środek wymiany ze względu na ich stałą wartość wewnętrzną. W Zimbabwe, w obliczu szybkiej dewaluacji dolara zimbabweńskiego, kupony na benzynę, które reprezentowały stałą ilość niezbędnego produktu, stały się de facto walutą. Sytuacje te pokazują, jak społeczeństwa dostosowują się do ekstremalnych warunków gospodarczych, znajdując innowacyjne rozwiązania, aby utrzymać handel i gospodarkę w ruchu.
+
+Weimar: «Handel wymienny był już zwyczajową formą wymiany; ale teraz towary takie jak mosiądz i paliwo stały się powszechną walutą zakupu i płatności.»
+
+Zimbabwe: «Tych bonów używaliśmy teraz do płacenia czynszu właścicielom, podatków miejskich, rachunków telefonicznych – właściwie prawie wszystkiego – ponieważ wszyscy przestali akceptować płatności w dolarach zimbabweńskich i czekach.»
+
+#### Zakończenie
+
+To kończy ten film na temat podobieństw doświadczeń z okresów hiperinflacji w Zimbabwe i Republice Weimarskiej. W następnym filmie porozmawiamy o różnicach i współczesnych paralelach. Dziękuję.
+
 
 
 ## Weimar kontra Zimbabwe: Różnice i współczesne podobieństwa

@@ -574,23 +574,44 @@ Som svar på denne situasjonen innfører regjeringen strenge reguleringer, inklu
 
 ![bilde](assets/fr/045.webp)
 
-1. Olje og metaller
 
-I Tyskland under Weimar-perioden var tyveri av verdifulle materialer så utbredt at bly fra tak ofte ble stjålet. I Zimbabwe førte desperasjon noen til å avbryte strømnettet for å utvinne olje fra transformatorer og bruke den i kjøretøyene sine.
-I konteksten av en forverrende økonomi og mangel på ressurser, kan regjeringer implementere rasjoneringssystemer for å kontrollere distribusjonen av essensielle varer. Dette inkluderer bruk av kuponger eller verdikuponger for å regulere kjøpet av bensin eller drivstoff.
+#### 1. Olje og metaller
 
-> Weimar: "I Berlin, på grunn av mangel på bensin, ble et kupongsystem implementert for å regulere distribusjonen. Hver borger ble tildelt en spesifikk mengde kuponger som tillot dem å kjøpe en begrenset mengde drivstoff."
+I Tyskland under Weimar-perioden var tyveriet av verdifulle materialer så utbredt at bly fra tak ofte ble stjålet. I Zimbabwe drev desperasjonen noen til å kutte strømnettet for å hente olje fra transformatorer og bruke den i sine kjøretøy.
 
-> Zimbabwe: "Under drivstoffkrisen introduserte regjeringen et kupongsystem for å håndtere distribusjonen av bensin. Hver enkelt ble gitt et bestemt antall kuponger som kunne byttes mot en viss mengde drivstoff."
-> Befolkningene ser etter stabile alternativer for transaksjoner. I Weimar tjente produkter som messing og drivstoff som byttemidler på grunn av deres konstante iboende verdi. I Zimbabwe, med den raske devalueringen av den zimbabwiske dollaren, ble bensinkuponger, som representerte en fast mengde av et essensielt produkt, en de facto valuta. Disse situasjonene fremhever hvordan samfunn tilpasser seg ekstreme økonomiske forhold, og finner innovative løsninger for å holde handel og økonomi i gang.
+Weimar: «De metalliske platene fra nasjonale monumenter måtte fjernes for å settes i sikkerhet. Messingdørskilt ble stjålet fra dørene til den britiske ambassaden i Berlin.»
 
-Weimar: "Byttehandel var allerede en vanlig form for utveksling; men nå ble varer som messing og drivstoff den vanlige valutaen for kjøp og betaling."
+Zimbabwe: «For å gjøre vondt verre, på grunn av mangel på utenlandsk valuta, var det en knapphet på smøreolje til biler, og transformatorene ble et lett mål for tyver som tappet kjøleoljen under strømbrudd.»
 
-Zimbabwe: "Vi brukte nå disse kupongene til å betale husleie til utleiere, kommunale avgifter, telefonregninger, faktisk nesten alt, ettersom alle hadde sluttet å akseptere betalinger i zimbabwiske dollar og sjekker."
+#### 2. Tog
+
+Devaluering av valuta kan presse innbyggerne til en overlevelsesadferd preget av hærverk. Overfor en økonomi i oppløsning kan kostbar offentlig infrastruktur som transportsystemer bli kompromittert, noe som fører til katastrofale sosiale konsekvenser.
+
+> Weimar: «I Berlin sluttet trikkesystemet å fungere på grunn av mangel på midler.»
+
+> Zimbabwe: «Et av de mest urovekkende og triste scenariene var da nesten hele den elektriske kobberlinjen som forbandt Harare med Dabuka (over 280 kilometer) ble stjålet. Da den ble fullført, hadde den vært Zimbabwes stolthet, med raske elektriske passasjer- og godstog som benyttet denne ruten.»
+
+#### 3. “Mealie Meal”
+
+I sammenheng med elendige lønninger og en ustabil økonomi ble bedrifter tvunget til å tilby mat til sine ansatte for å holde dem produktive og i arbeid. Dette initiativet var ikke bare en måte å bøte på mangel og høye matkostnader, men også en strategi for å beholde arbeidskraften i et vanskelig økonomisk miljø.
+
+> Weimar: «I Berlin hadde kontoransatte, som utgjorde en svært viktig klasse i hovedstaden, fullstendig utilstrekkelige lønninger fra 12 000 til 20 000 per måned (tilsvarende mellom 12 og 19 pund per år), som stadig ble redusert; men de fleste kunne fortsatt få lunsj for en symbolsk sum, levert av kontorene deres, slik at kropp og sjel så vidt kunne holdes sammen.»
+
+> Zimbabwe: «På dette tidspunktet ga vi alle våre ansatte en gratis lunsj. Maismelet var avgjørende for vår bedrifts kontinuerlige drift, ettersom det i mange tilfeller var det eneste måltidet våre ansatte fikk hver dag.»
+
+#### 4. Bensinkuponger
+
+Befolkningen søkte stabile alternativer for transaksjoner. I Weimar fungerte produkter som messing og drivstoff som byttemidler på grunn av deres konstante iboende verdi. I Zimbabwe, i møte med den raske devalueringen av den zimbabwiske dollaren, ble bensinkuponger, som representerte en fast mengde av et essensielt produkt, en de facto valuta. Disse situasjonene viser hvordan samfunn tilpasser seg ekstreme økonomiske forhold og finner innovative løsninger for å holde handel og økonomi i gang.
+
+Weimar: «Byttehandel var allerede en vanlig form for utveksling; men nå ble varer som messing og drivstoff den vanlige valutaen for kjøp og betaling.»
+
+Zimbabwe: «Disse kupongene brukte vi nå til å betale husleie til utleiere, kommunale avgifter, telefonregninger – faktisk nesten alt – fordi alle hadde sluttet å akseptere betalinger i zimbabwiske dollar og sjekker.»
 
 #### Konklusjon
 
-Dette avslutter denne videoen om likhetene i opplevelsene under periodene med hyperinflasjon i Zimbabwe og Weimar-republikken. I neste video vil vi diskutere forskjellene og samtidige paralleller. Takk.
+Dette avslutter denne videoen om likhetene mellom erfaringene under hyperinflasjonsperiodene i Zimbabwe og Weimar-republikken. I neste video skal vi snakke om forskjellene og de moderne parallellene. Takk.
+
+
 
 ## Weimar vs Zimbabwe: Forskjeller og Samtidige Paralleller
 

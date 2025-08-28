@@ -566,23 +566,42 @@ Vastauksena tähän tilanteeseen hallitus asettaa ankaria säädöksiä, mukaan 
 
 ![kuva](assets/fr/045.webp)
 
-1. Öljy ja metallit
+#### 1. Öljy ja metallit
 
-Saksassa Weimarin aikana arvokkaiden materiaalien varastaminen oli niin yleistä, että katoilta varastettiin usein lyijyä. Zimbabwessa epätoivo johti jotkut keskeyttämään sähköverkon toiminnan öljyn saamiseksi muuntajista ja käyttämään sitä ajoneuvoissaan.
-Talouden heikentyessä ja resurssien niukkuuden vallitessa hallitukset voivat ottaa käyttöön kiintiöjärjestelmiä välttämättömien hyödykkeiden jakelun hallitsemiseksi. Tämä sisältää kuponkien tai arvosetelien käytön bensiinin tai polttoaineen ostamisen säätelyyn.
+Saksassa Weimarin aikana arvokkaiden materiaalien varkaus oli niin yleistä, että kattolyijyä varastettiin usein. Zimbabwessa epätoivo ajoi jotkut katkaisemaan sähköverkon saadakseen öljyä muuntajista ja käyttää sitä ajoneuvoissaan.
 
-> Weimar: "Berliinissä bensiinin niukkuuden vuoksi otettiin käyttöön kuponkijärjestelmä sen jakelun säätelyyn. Jokaiselle kansalaiselle jaettiin tietty määrä kuponkeja, jotka oikeuttivat ostamaan rajatun määrän polttoainetta."
+Weimar: «Kansallisten muistomerkkien metallilaatat oli poistettava ja vietävä turvaan. Messinkiset ovikellon kilvet varastettiin Britannian suurlähetystön ovilta Berliinissä.»
 
-> Zimbabwe: "Polttoainekriisin aikana hallitus esitteli kuponkijärjestelmän bensiinin jakelun hallitsemiseksi. Jokaiselle henkilölle annettiin tietty määrä kuponkeja, jotka voi vaihtaa tiettyyn määrään polttoainetta."
-> Ihmiset etsivät vakaita vaihtoehtoja transaktioihin. Weimarissa tuotteet, kuten messinki ja polttoaine, toimivat vaihdon välineinä niiden jatkuvan sisäisen arvon vuoksi. Zimbabwessa, Zimbabwean dollarin nopean arvon alenemisen edessä, bensiinikupongit, jotka edustivat kiinteää määrää välttämätöntä tuotetta, tulivat de facto valuutaksi. Nämä tilanteet korostavat, miten yhteiskunnat sopeutuvat äärimmäisiin taloudellisiin olosuhteisiin, löytäen innovatiivisia ratkaisuja kaupan ja talouden liikkeessä pitämiseksi.
+Zimbabwe: «Tilannetta pahensi se, että ulkomaanvaluutan puutteen vuoksi autojen voiteluöljystä oli pulaa, ja muuntajat olivat helppo kohde varkaille, jotka imivät jäähdytysöljyä sähkökatkosten aikana.»
 
-Weimar: "Vaihtokauppa oli jo yleinen vaihdon muoto; mutta nyt, tavarat kuten messinki ja polttoaine tulivat yleisiksi valuutoiksi ostoihin ja maksuihin."
+#### 2. Junat
 
-Zimbabwe: "Nyt käytimme näitä arvoseteleitä vuokran maksuun vuokranantajille, kunnallisveroihin, puhelinlaskuihin, itse asiassa melkein kaikkeen, koska kaikki olivat lopettaneet maksujen vastaanottamisen Zimbabwen dollareissa ja shekeissä."
+Rahan arvon aleneminen voi ajaa kansalaiset selviytymiskäyttäytymiseen, joka perustuu vandalismiin. Talouden romahtaessa kalliit julkiset infrastruktuurit, kuten liikennejärjestelmät, voivat vaarantua, mikä johtaa tuhoisiin yhteiskunnallisiin seurauksiin.
+
+> Weimar: «Berliinissä raitiovaunujärjestelmä lakkasi toimimasta varojen puutteen vuoksi.»
+
+> Zimbabwe: «Yksi huolestuttavimmista ja surullisimmista tilanteista oli, kun lähes koko sähköinen kuparilinja Hararen ja Dabukan välillä (yli 280 kilometriä) varastettiin. Valmistuessaan se oli ollut Zimbabwen ylpeydenaihe, nopeiden sähköisten henkilö- ja tavarajunien kulkiessa tätä reittiä pitkin.»
+
+#### 3. “Mealie Meal”
+
+Naurettavan pienten palkkojen ja epävakaan talouden oloissa yritykset joutuivat tarjoamaan ruokaa työntekijöilleen pitääkseen heidät tuottavina ja toimintakykyisinä. Tämä aloite oli paitsi keino lievittää elintarvikepulaa ja korkeita hintoja, myös strategia henkilöstön säilyttämiseksi vaikeassa talousympäristössä.
+
+> Weimar: «Berliinissä toimistotyöntekijät, jotka muodostivat erittäin tärkeän luokan pääkaupungissa, saivat täysin riittämättömiä palkkoja, jotka vaihtelivat 12 000:sta 20 000:een kuukaudessa (eli 12–19 puntaa vuodessa), ja ne vähenivät jatkuvasti; mutta useimmat pystyivät silti saamaan lounaansa nimellisellä summalla, jonka heidän toimistonsa tarjosi, jotta ruumis ja sielu voitiin juuri ja juuri pitää yhdessä.»
+
+> Zimbabwe: «Tässä vaiheessa tarjosimme koko henkilökunnallemme ilmaisen lounaan. Maissijauho oli välttämätöntä yrityksemme jatkuvan toiminnan kannalta, sillä monissa tapauksissa se oli ainoa ateria, jonka työntekijämme saivat päivittäin.»
+
+#### 4. Bensiinikupongit
+
+Ihmiset etsivät vakaita vaihtoehtoja maksutapahtumille. Weimarissa tuotteet kuten messinki ja polttoaine toimivat vaihtovälineinä niiden pysyvän sisäisen arvon vuoksi. Zimbabwessa, Zimbabwen dollarin nopean devalvoitumisen edessä, bensiinikupongit, jotka edustivat kiinteää määrää välttämätöntä hyödykettä, muuttuivat de facto -valuutaksi. Nämä tilanteet osoittavat, kuinka yhteiskunnat sopeutuvat äärimmäisiin taloudellisiin olosuhteisiin ja löytävät innovatiivisia ratkaisuja kaupan ja talouden ylläpitämiseksi.
+
+Weimar: «Vaihtokauppa oli jo tavanomainen vaihdon muoto; mutta nyt tavaroista kuten messingistä ja polttoaineesta tuli yleinen valuutta ostojen ja maksujen suorittamiseksi.»
+
+Zimbabwe: «Näitä kuponkeja käytimme nyt vuokrien maksamiseen vuokranantajille, kunnallisverojen, puhelinlaskujen – oikeastaan melkein kaiken maksamiseen, sillä kaikki olivat lakanneet hyväksymästä maksuja Zimbabwen dollareissa ja sekkejä.»
 
 #### Johtopäätös
 
-Tämä päättyy tähän videoon hyperinflaation aikojen yhtäläisyyksistä Zimbabwessa ja Weimarin tasavallassa. Seuraavassa videossa käsittelemme eroja ja nykyaikaisia paralleeleja. Kiitos.
+Tämä päättää tämän videon Zimbabwen ja Weimarin tasavallan hyperinflaatiokauden kokemusten samankaltaisuuksista. Seuraavassa videossa puhumme eroista ja nykyaikaisista rinnastuksista. Kiitos.
+
 
 ## Weimar vs Zimbabwe: Eroja ja nykyaikaisia paralleeleja
 

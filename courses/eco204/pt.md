@@ -607,22 +607,44 @@ Diante dessa situação, o Estado impõe regulamentações draconianas, incluind
 
 ![imagem](assets/fr/045.webp)
 
-1. Petróleo e metais
 
-Na Alemanha durante o período de Weimar, o roubo de materiais preciosos era tão comum que o chumbo dos telhados era frequentemente roubado. No Zimbábue, o desespero levou algumas pessoas a interromper a rede elétrica para extrair óleo dos transformadores e usá-lo em seus veículos.
-No contexto de escassez de recursos e dificuldades econômicas, os cupons de gasolina foram introduzidos como uma forma de racionar o combustível disponível. Isso permitia que as pessoas obtivessem uma quantidade limitada de gasolina para uso pessoal ou profissional.
+#### 1. Petróleo e metais
 
-> Weimar: "À Berlin, des coupons d'essence ont été introduits pour limiter l'utilisation de carburant par les citoyens. Chaque personne avait droit à un certain nombre de coupons par mois, en fonction de ses besoins et de sa situation professionnelle."
+Na Alemanha, durante o período de Weimar, o roubo de materiais preciosos era tão comum que o chumbo dos telhados era frequentemente furtado. No Zimbábue, o desespero levou alguns a interromper a rede elétrica para extrair o óleo dos transformadores e utilizá-lo em seus veículos.
 
-> Zimbabwe: "En raison de la pénurie de carburant, des coupons d'essence ont été introduits pour rationner l'approvisionnement en carburant. Chaque personne recevait un certain nombre de coupons par mois, en fonction de ses besoins et de sa profession."
-> As populações estão procurando alternativas estáveis para transações. Em Weimar, produtos como latão e combustível foram usados como meio de troca devido ao seu valor intrínseco constante. No Zimbábue, diante da rápida desvalorização do dólar zimbabuano, os cupons de gasolina, que representavam uma quantidade fixa de um produto essencial, se tornaram uma moeda de fato. Essas situações destacam como as sociedades se adaptam a condições econômicas extremas, encontrando soluções inovadoras para manter o comércio e a economia em movimento.
-> Weimar: "A troca já era uma forma comum de comércio; mas agora, produtos como latão e combustível se tornaram a moeda comum de compra e pagamento."
+Weimar: «As placas metálicas dos monumentos nacionais tiveram de ser retiradas para serem colocadas em segurança. As placas de campainha de latão foram roubadas das portas da embaixada britânica em Berlim.»
 
-Zimbábue: "Esses vales, agora os usamos para pagar aluguéis aos proprietários, impostos municipais, contas de telefone, na verdade, quase tudo, porque todos pararam de aceitar pagamentos em dólares zimbabuanos e cheques."
+Zimbábue: «Para piorar a situação, devido à falta de moeda estrangeira, houve uma escassez de óleo lubrificante para carros, e os transformadores tornaram-se um alvo fácil para ladrões que sifonavam o óleo de arrefecimento durante os cortes de eletricidade.»
+
+#### 2. Trens
+
+A desvalorização da moeda pode levar os cidadãos a um comportamento de sobrevivência baseado no vandalismo. Diante de uma economia em colapso, infraestruturas públicas caras, como os sistemas de transporte, podem ser comprometidas, conduzindo a consequências sociais desastrosas.
+
+> Weimar: «Em Berlim, o sistema de bondes deixou de funcionar por falta de recursos.»
+
+> Zimbábue: «Um dos cenários mais perturbadores e tristes foi quando quase toda a linha elétrica de cobre que ligava Harare a Dabuka (mais de 280 quilômetros) foi roubada. Na sua conclusão, tinha sido o orgulho do Zimbábue, com rápidos trens elétricos de passageiros e de carga percorrendo essa rota.»
+
+#### 3. “Mealie Meal”
+
+No contexto de salários irrisórios e de uma economia instável, as empresas foram obrigadas a fornecer alimentos aos seus funcionários para os manter produtivos e operacionais. Esta iniciativa não era apenas uma forma de colmatar a escassez e os elevados custos dos alimentos, mas também uma estratégia para reter pessoal num ambiente económico difícil.
+
+> Weimar: «Em Berlim, os empregados de escritório, que constituíam uma classe muito importante na capital, recebiam salários totalmente inadequados que variavam de 12.000 a 20.000 por mês (ou seja, entre 12 e 19 libras por ano), diminuindo constantemente; mas a maioria ainda conseguia obter os seus almoços por uma quantia simbólica, fornecida pelos seus escritórios, de modo que corpo e alma mal podiam ser mantidos juntos.»
+
+> Zimbábue: «Neste momento, fornecíamos a todo o nosso pessoal um almoço gratuito. A farinha de milho era essencial para o funcionamento contínuo da nossa empresa, pois em muitos casos era a única refeição que o nosso pessoal recebia diariamente.»
+
+#### 4. Cupons de gasolina
+
+As populações procuravam alternativas estáveis para as transações. Em Weimar, produtos como o latão e o combustível serviam como meios de troca devido ao seu valor intrínseco constante. No Zimbábue, perante a rápida desvalorização do dólar zimbabuano, os cupons de gasolina, que representavam uma quantidade fixa de um produto essencial, tornaram-se uma moeda de facto. Estas situações sublinham a forma como as sociedades se adaptam a condições económicas extremas, encontrando soluções inovadoras para manter o comércio e a economia em movimento.
+
+Weimar: «O escambo já era uma forma habitual de troca; mas agora, mercadorias como o latão e o combustível tornaram-se a moeda corrente de compra e pagamento.»
+
+Zimbábue: «Estes cupons, nós os utilizávamos então para pagar as rendas aos proprietários, os impostos municipais, as contas de telefone – praticamente tudo – porque todos tinham deixado de aceitar pagamentos em dólares zimbabuanos e em cheques.»
 
 #### Conclusão
 
-Isso conclui este vídeo sobre as semelhanças das experiências vividas durante os períodos de hiperinflação no Zimbábue e na República de Weimar. No próximo vídeo, falaremos sobre as diferenças e paralelos contemporâneos. Obrigado.
+Isto conclui este vídeo sobre as semelhanças das experiências vividas durante os períodos de hiperinflação no Zimbábue e na República de Weimar. No próximo vídeo, vamos falar das diferenças e dos paralelos contemporâneos. Obrigado.
+
+
 
 ## Diferenças entre Weimar e Zimbábue e paralelos contemporâneos
 

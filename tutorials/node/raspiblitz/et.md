@@ -20,7 +20,7 @@ Võid osta valmis sõlme koos külge kinnitatud mini ekraaniga, või võid selle
 
 [Juhend GitHubi lehel](https://github.com/rootzoll/raspiblitz) on suurepärane, kuid võib-olla liiga üksikasjalik keskmise kogemusega kasutaja jaoks. Minu juhised on lühemad ja loodetavasti lihtsamini järgitavad.
 
-Põhimõtteliselt on protsess väga sarnane MyNode node'i seadistamisega Raspberry Pi 4-ga. Raspiblitzi juhend soovitab osta monitori, kuid tegelikult pole seda vaja ja ma ei soovitaks seda. Sul pole isegi vaja lisaklaviatuuri või hiirt. Lihtsalt pääse seadme terminali menüüsse juurde arvuti kaudu samas koduvõrgus ja kasuta ssh käsku terminalis. See on võimalik Linux/Mac'iga (lihtne) ja natuke raskem Windowsiga.
+Sisuliselt on protsess väga sarnane [MyNode node'i](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) seadistamise protsessiga Raspberry Pi 4 abil. Raspiblitzi juhend soovitab osta monitori, kuid tegelikult ei ole seda vaja ja ma ei soovitaks seda. Sul pole vaja isegi lisaklaviatuuri ega hiirt. Lihtsalt pääse seadme terminalimenüüsse arvutist, mis on samas koduvõrgus, ja kasuta terminalis ssh käsku. See on võimalik Linuxi/Maci (lihtne) ja Windowsi (veidi raskem) puhul.
 
 ## 1. samm: Osta varustus.
 

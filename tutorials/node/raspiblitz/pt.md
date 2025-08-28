@@ -20,7 +20,7 @@ Você pode comprar um nó pronto com uma tela mini acoplada, ou pode construí-l
 
 O [guia na página do GitHub](https://github.com/rootzoll/raspiblitz) é excelente, mas possivelmente demasiado detalhado para um utilizador com experiência moderada. As minhas instruções serão mais sucintas e, espero, mais fáceis de seguir.
 
-Essencialmente, o processo é muito semelhante ao processo de configuração de um nó MyNode com um Raspberry Pi 4. O guia Raspiblitz sugere que você compre um monitor, mas você realmente não precisa de um, e eu não recomendaria. Você nem precisa de um teclado ou mouse extras. Acesse o menu do terminal do dispositivo por meio de um computador na mesma rede doméstica e use o comando ssh usando o terminal. Isso é possível com Linux/Mac (fácil) e um pouco mais difícil com o Windows.
+Essencialmente, o processo é muito semelhante ao de configurar um [nó MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) com um Raspberry Pi 4. O guia do Raspiblitz sugere que você compre um monitor, mas você realmente não precisa de um e eu não recomendaria. Você nem precisa de um teclado ou mouse extra. Basta acessar o menu do terminal do dispositivo através de um computador na mesma rede doméstica e usar o comando ssh no terminal. Isso é possível com Linux/Mac (fácil) e um pouco mais difícil com Windows.
 
 ## Passo 1: Compre o equipamento.
 

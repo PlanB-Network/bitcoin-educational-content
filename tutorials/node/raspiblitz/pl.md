@@ -29,7 +29,7 @@ Możesz kupić gotowy węzeł z dołączonym mini ekranem lub zbudować go samod
 [Przewodnik na stronie GitHub](https://github.com/rootzoll/raspiblitz) jest doskonały, ale być może zbyt szczegółowy dla użytkownika o umiarkowanym doświadczeniu. Moje instrukcje będą bardziej zwięzłe i, mam nadzieję, łatwiejsze do naśladowania.
 
 
-Zasadniczo proces jest bardzo podobny do procesu konfigurowania węzła MyNode z Raspberry Pi 4. Przewodnik Raspiblitz sugeruje zakup monitora, ale tak naprawdę nie jest on potrzebny i nie polecam go. Nie potrzebujesz nawet dodatkowej klawiatury ani myszy. Wystarczy uzyskać dostęp do menu terminala urządzenia za pośrednictwem komputera w tej samej sieci domowej i użyć polecenia ssh za pomocą terminala. Jest to możliwe w systemie Linux/Mac (łatwe) i nieco trudniejsze w systemie Windows.
+Zasadniczo proces jest bardzo podobny do procesu konfiguracji [węzła MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) z Raspberry Pi 4. Przewodnik Raspiblitz sugeruje zakup monitora, ale naprawdę go nie potrzebujesz i nie polecałbym tego. Nie potrzebujesz nawet dodatkowej klawiatury ani myszy. Wystarczy uzyskać dostęp do menu terminala urządzenia za pomocą komputera w tej samej sieci domowej i użyć polecenia ssh w terminalu. Jest to możliwe w systemie Linux/Mac (łatwe) i trochę trudniejsze w systemie Windows.
 
 
 ## Krok 1: Zakup sprzętu.

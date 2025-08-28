@@ -20,7 +20,7 @@ Můžete koupit připravený uzel s připojeným mini displejem, nebo si ho mů�
 
 [průvodce na githubu](https://github.com/rootzoll/raspiblitz) je vynikající, ale možná příliš podrobný pro uživatele se středními zkušenostmi. Mé pokyny budou stručnější a doufejme, že se budou snáze následovat.
 
-V podstatě je proces velmi podobný procesu nastavení uzlu MyNode s Raspberry Pi 4. Průvodce Raspiblitz navrhuje koupit monitor, ale opravdu ho nepotřebujete a nedoporučoval bych to. Nepotřebujete ani extra klávesnici nebo myš. Stačí přistupovat k terminálu zařízení přes počítač ve stejné domácí síti a použít příkaz ssh pomocí terminálu. To je možné s Linuxem/Macem (snadno) a trochu těžší s Windows.
+V podstatě je proces velmi podobný procesu nastavení [MyNode uzlu](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) s Raspberry Pi 4. Příručka Raspiblitz doporučuje koupit monitor, ale ve skutečnosti ho nepotřebujete a já bych to ani nedoporučil. Dokonce nepotřebujete ani další klávesnici nebo myš. Stačí získat přístup k terminálovému menu zařízení prostřednictvím počítače ve stejné domácí síti a použít příkaz ssh v terminálu. To je možné v Linuxu/Macu (snadno) a o něco obtížnější ve Windows.
 
 ## Krok 1: Kupte si vybavení.
 

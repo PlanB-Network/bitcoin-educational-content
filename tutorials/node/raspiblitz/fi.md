@@ -20,7 +20,7 @@ Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen i
 
 [Opas GitHub-sivulla](https://github.com/rootzoll/raspiblitz) on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat tiiviimmät ja toivottavasti helpommin seurattavat.
 
-Käytännössä prosessi on hyvin samanlainen kuin MyNode-noden asettaminen Raspberry Pi 4:lle. Raspiblitzin opas ehdottaa monitorin ostamista, mutta todellisuudessa et tarvitse sitä, enkä suosittelisi. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneella samassa kotiverkossa ja käytät ssh-komentoa terminaalissa. Tämä on mahdollista Linux/Macilla (helppo) ja hieman vaikeampaa Windowsilla.
+Periaatteessa prosessi on hyvin samanlainen kuin [MyNode-solmun](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) asettaminen Raspberry Pi 4:llä. Raspiblitz-opas ehdottaa monitorin ostamista, mutta et oikeasti tarvitse sellaista, enkä suosittelisi sitä. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneelta, joka on samassa kotiverkossa, ja käytät ssh-komentoa terminaalissa. Tämä onnistuu Linuxilla/Macilla (helppoa) ja hieman vaikeampaa Windowsilla.
 
 ## Vaihe 1: Osta laitteet.
 

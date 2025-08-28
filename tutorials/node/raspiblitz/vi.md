@@ -20,7 +20,7 @@ Bạn có thể mua một node đã được làm sẵn với một màn hình m
 
 [Hướng dẫn trên trang GitHub](https://github.com/rootzoll/raspiblitz) rất tuyệt vời, nhưng có thể quá chi tiết đối với người dùng có kinh nghiệm vừa phải. Hướng dẫn của tôi sẽ ngắn gọn hơn và hy vọng sẽ dễ dàng hơn để làm theo.
 
-Cơ bản, quy trình rất giống với quy trình thiết lập một node MyNode với Raspberry Pi 4. Hướng dẫn Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần, và tôi không khuyến khích. Bạn thậm chí không cần bàn phím hoặc chuột phụ. Chỉ cần truy cập menu terminal của thiết bị qua một máy tính trên cùng mạng nhà, và sử dụng lệnh ssh qua terminal. Điều này khả thi với Linux/Mac (dễ dàng) và hơi khó hơn với Windows.
+Về cơ bản, quá trình này rất giống với việc thiết lập một [nút MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) với Raspberry Pi 4. Hướng dẫn của Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần một cái, và tôi cũng không khuyên dùng. Bạn thậm chí không cần bàn phím hoặc chuột bổ sung. Chỉ cần truy cập menu terminal của thiết bị thông qua một máy tính trong cùng mạng gia đình và sử dụng lệnh ssh trong terminal. Điều này có thể thực hiện được với Linux/Mac (dễ dàng) và khó hơn một chút với Windows.
 
 ## Bước 1: Mua thiết bị.
 

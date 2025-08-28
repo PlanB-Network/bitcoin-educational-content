@@ -29,7 +29,7 @@ Možete kupiti gotov čvor sa priloženim mini ekranom, ili ga možete sami napr
 [Vodič na GitHub stranici](https://github.com/rootzoll/raspiblitz) je odličan, ali možda previše detaljan za korisnika sa srednjim iskustvom. Moja uputstva će biti sažetija i, nadam se, lakša za praćenje.
 
 
-U suštini, proces je veoma sličan procesu postavljanja MyNode čvora sa Raspberry Pi 4. Raspiblitz vodič predlaže da kupite monitor, ali vam zaista nije potreban, i ne bih ga preporučio. Čak vam nije potrebna dodatna tastatura ili miš. Samo pristupite terminal meniju uređaja putem računara na istoj kućnoj mreži, i koristite ssh komandu putem terminala. Ovo je moguće sa Linux/Mac (lako) i malo teže sa Windows.
+U suštini, proces je veoma sličan procesu postavljanja [MyNode noda](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) sa Raspberry Pi 4. Raspiblitz vodič predlaže da kupite monitor, ali vam zaista nije potreban i ja to ne bih preporučio. Ne treba vam čak ni dodatna tastatura ili miš. Samo pristupite terminal meniju uređaja preko računara na istoj kućnoj mreži i koristite ssh komandu u terminalu. Ovo je moguće sa Linux/Mac (lako) i malo teže sa Windowsom.
 
 
 ## Korak 1: Kupite opremu.

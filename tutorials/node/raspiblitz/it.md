@@ -20,7 +20,7 @@ Puoi acquistare un nodo già pronto con uno schermo miniaturizzato allegato, opp
 
 La [guida sulla pagina GitHub](https://github.com/rootzoll/raspiblitz) è eccellente, ma forse troppo dettagliata per un utente con esperienza moderata. Le mie istruzioni saranno più concise e, si spera, più facili da seguire.
 
-Essenzialmente, il processo è molto simile al processo di configurazione di un nodo MyNode con un Raspberry Pi 4. La guida Raspiblitz suggerisce di acquistare un monitor, ma in realtà non ne hai bisogno e non lo consiglierei. Non hai nemmeno bisogno di una tastiera o di un mouse aggiuntivi. Accedi semplicemente al menu terminale del dispositivo tramite un computer sulla stessa rete domestica e utilizza il comando ssh tramite il terminale. Questo è possibile con Linux/Mac (facile) e un po' più difficile con Windows.
+Fondamentalmente, il processo è molto simile a quello per configurare un [nodo MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) con un Raspberry Pi 4. La guida Raspiblitz suggerisce di acquistare un monitor, ma in realtà non ne hai bisogno e non lo consiglierei. Non hai nemmeno bisogno di una tastiera o di un mouse aggiuntivi. Basta accedere al menu del terminale del dispositivo tramite un computer sulla stessa rete domestica e usare il comando ssh dal terminale. Questo è possibile con Linux/Mac (facile) e un po' più difficile con Windows.
 
 ## Passo 1: Acquista l'attrezzatura.
 

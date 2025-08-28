@@ -20,7 +20,7 @@ Anda dapat membeli node yang sudah jadi dengan layar mini terpasang, atau Anda d
 
 [Panduan di halaman GitHub](https://github.com/rootzoll/raspiblitz) sangat bagus, tetapi mungkin terlalu rinci untuk pengguna dengan pengalaman sedang. Instruksi saya akan lebih ringkas dan semoga lebih mudah diikuti.
 
-Pada dasarnya, prosesnya sangat mirip dengan proses pengaturan node MyNode dengan Raspberry Pi 4. Panduan Raspiblitz menyarankan Anda membeli monitor, tetapi Anda benar-benar tidak memerlukannya, dan saya tidak merekomendasikannya. Anda bahkan tidak memerlukan keyboard atau mouse tambahan. Cukup akses menu terminal perangkat melalui komputer di jaringan rumah yang sama, dan gunakan perintah ssh menggunakan terminal. Ini mungkin dilakukan dengan Linux/Mac (mudah) dan sedikit lebih sulit dengan Windows.
+Pada dasarnya, proses ini sangat mirip dengan proses menyiapkan [node MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) dengan Raspberry Pi 4. Panduan Raspiblitz menyarankan Anda membeli monitor, tetapi sebenarnya Anda tidak membutuhkannya, dan saya tidak akan merekomendasikannya. Anda bahkan tidak memerlukan keyboard atau mouse tambahan. Cukup akses menu terminal perangkat melalui komputer di jaringan rumah yang sama, dan gunakan perintah ssh menggunakan terminal. Ini bisa dilakukan dengan Linux/Mac (mudah) dan sedikit lebih sulit dengan Windows.
 
 ## Langkah 1: Beli peralatan.
 

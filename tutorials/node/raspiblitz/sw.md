@@ -29,7 +29,7 @@ Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaw
 [Mwongozo kwenye ukurasa wa GitHub](https://github.com/rootzoll/raspiblitz) ni bora, lakini huenda ukawa na maelezo mengi sana kwa mtumiaji mwenye uzoefu wa wastani. Maelekezo yangu yatakuwa mafupi zaidi na natumai rahisi kufuata.
 
 
-Kimsingi, mchakato huo unafanana sana na mchakato wa kuanzisha node ya MyNode na Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza kununua na kufuatilia, lakini kwa kweli huhitaji moja, na singependekeza. Huhitaji hata kibodi au panya ya ziada. Fikia tu menyu ya terminal ya kifaa kupitia kompyuta kwenye mtandao huo wa nyumbani, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana kwa Linux/Mac (rahisi) na ngumu kidogo na Windows.
+Kimsingi, mchakato huu ni sawa sana na mchakato wa kusanidi [node ya MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) kwa kutumia Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza ununue skrini, lakini kwa kweli huhitaji moja, na mimi nisingependekeza. Hata huhitaji kibodi au kipanya cha ziada. Ingia tu kwenye menyu ya terminal ya kifaa kupitia kompyuta iliyo kwenye mtandao wa nyumbani huo huo, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana na Linux/Mac (rahisi) na ni ngumu kidogo na Windows.
 
 
 ## Hatua ya 1: Nunua vifaa.

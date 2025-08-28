@@ -29,7 +29,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 [GitHub頁面上的指南](https://github.com/rootzoll/raspiblitz)非常出色，但對於具有中等經驗的用戶來說可能過於詳細。我的說明將更簡潔，希望更容易遵循。
 
 
-基本上，這個過程與使用 Raspberry Pi 4 設定 MyNode 節點的過程非常相似。Raspiblitz 指南建議您購買顯示器，但您真的不需要，而且我也不建議您購買。您甚至不需要額外的鍵盤或滑鼠。只要透過同一個家庭網路中的電腦進入裝置的終端選單，並使用終端機的 ssh 指令即可。這在 Linux/Mac 上是可行的 (很容易)，在 Windows 上則稍微困難一點。
+基本上，該過程與使用Raspberry Pi 4設置[MyNode節點](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/)的過程非常相似。Raspiblitz指南建議您購買顯示器，但實際上您並不需要，而且我也不會建議這樣做。您甚至不需要額外的鍵盤或滑鼠。只需通過同一家庭網路上的電腦訪問設備的終端選單，並在終端中使用ssh指令即可。這在Linux/Mac（簡單）上可行，而在Windows上則稍微困難一些。
 
 
 ## 步驟 1：購買設備。

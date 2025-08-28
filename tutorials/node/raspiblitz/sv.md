@@ -29,7 +29,7 @@ Du kan köpa en färdig nod med en monterad miniskärm, eller så kan du bygga d
 [Guiden på GitHub-sidan](https://github.com/rootzoll/raspiblitz) är utmärkt, men möjligen för detaljerad för en användare med måttlig erfarenhet. Mina instruktioner kommer att vara mer kortfattade och förhoppningsvis lättare att följa.
 
 
-I grund och botten är processen mycket lik processen för att ställa in en MyNode-nod med en Raspberry Pi 4. Raspiblitz-guiden föreslår att du köper en bildskärm, men du behöver verkligen inte en, och jag skulle inte rekommendera det. Du behöver inte ens ett extra tangentbord eller mus. Öppna bara enhetens terminalmeny via en dator i samma hemnätverk och använd ssh-kommandot med hjälp av terminal. Detta är möjligt med Linux/Mac (enkelt) och lite svårare med Windows.
+I huvudsak är processen mycket lik processen att konfigurera en [MyNode-nod](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) med en Raspberry Pi 4. Raspiblitz-guiden föreslår att du köper en bildskärm, men du behöver verkligen ingen, och jag skulle inte rekommendera det. Du behöver inte ens ett extra tangentbord eller en mus. Få bara åtkomst till enhetens terminalmeny via en dator på samma hemnätverk och använd ssh-kommandot i terminalen. Detta är möjligt med Linux/Mac (enkelt) och lite svårare med Windows.
 
 
 ## Steg 1: Köp utrustningen.

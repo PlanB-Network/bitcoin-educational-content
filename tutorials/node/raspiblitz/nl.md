@@ -29,7 +29,7 @@ Je kunt een kant-en-klaar knooppunt kopen met een bevestigd minischerm, of je ku
 De [handleiding op de GitHub-pagina](https://github.com/rootzoll/raspiblitz) is uitstekend, maar mogelijk te gedetailleerd voor een gebruiker met gemiddelde ervaring. Mijn instructies zullen beknopter zijn en hopelijk makkelijker te volgen.
 
 
-In essentie lijkt het proces erg op het proces van het opzetten van een MyNode-node met een Raspberry Pi 4. De Raspiblitz gids suggereert dat je een monitor moet kopen, maar die heb je echt niet nodig en ik zou het ook niet aanraden. Je hebt zelfs geen extra toetsenbord of muis nodig. Ga gewoon naar het terminalmenu van het apparaat via een computer in hetzelfde thuisnetwerk en gebruik het ssh-commando met behulp van terminal. Dit is mogelijk met Linux/Mac (eenvoudig) en een klein beetje moeilijker met Windows.
+In wezen is het proces erg vergelijkbaar met het instellen van een [MyNode-node](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) met een Raspberry Pi 4. De Raspiblitz-gids stelt voor dat je een monitor koopt, maar je hebt er echt geen nodig, en ik zou het niet aanbevelen. Je hebt niet eens een extra toetsenbord of muis nodig. Toegang krijgen tot het terminalmenu van het apparaat via een computer op hetzelfde thuisnetwerk en gebruik de ssh-opdracht in de terminal. Dit is mogelijk met Linux/Mac (gemakkelijk) en iets moeilijker met Windows.
 
 
 ## Stap 1: Koop de apparatuur.

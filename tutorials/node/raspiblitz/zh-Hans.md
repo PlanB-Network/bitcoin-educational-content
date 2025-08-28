@@ -20,7 +20,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 [GitHub页面上的指南](https://github.com/rootzoll/raspiblitz)非常出色，但可能对有中等经验的用户来说过于详细。我的说明将更简洁，希望更容易遵循。
 
-本质上，这个过程与使用树莓派4设置MyNode节点的过程非常相似。Raspiblitz指南建议你购买一个显示器，但你真的不需要，我也不推荐。你甚至不需要额外的键盘或鼠标。只需通过同一家庭网络上的计算机访问设备的终端菜单，并使用终端的ssh命令。这在Linux/Mac上很容易（简单），在Windows上稍微难一点。
+基本上，该过程与使用Raspberry Pi 4设置[MyNode节点](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/)的过程非常相似。Raspiblitz指南建议您购买显示器，但实际上您并不需要，而且我也不推荐这样做。您甚至不需要额外的键盘或鼠标。只需通过同一家庭网络上的计算机访问设备的终端菜单，并在终端中使用ssh命令即可。这在Linux/Mac（简单）上可行，而在Windows上则稍微困难一些。
 
 ## 第1步：购买设备。
 

@@ -988,7 +988,7 @@ W tym rozdziale zbadamy różnice i współczesne podobieństwa między przeszł
 ### Różnice między Republiką Weimarską a Zimbabwe
 
 
-1. To wina dolara!
+#### 1. To wina dolara!
 
 
 W Niemczech powszechne było przypisywanie inflacji wzrostowi wartości dolara, a nie wewnętrznej dewaluacji własnej waluty. Wielu uważało, że obserwowane zjawisko było spowodowane aprecjacją dolara. Takie postrzeganie odrzucało jakiekolwiek uznanie związku między ich trudnościami gospodarczymi a dewaluacją pieniądza, głównie wywołaną nadmierną kreacją pieniądza. Książka "When Money Dies" wyraźnie ilustruje ten brak zrozumienia wśród niemieckiej ludności. Z kolei w Zimbabwe sytuacja wyglądała inaczej: obywatele byli w pełni świadomi przyczyn hiperinflacji, której doświadczali.

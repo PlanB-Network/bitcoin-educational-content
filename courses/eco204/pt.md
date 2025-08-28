@@ -654,7 +654,7 @@ Neste capítulo, exploraremos as diferenças e paralelos entre os períodos de h
 
 ### As diferenças entre a República de Weimar e o Zimbábue
 
-1. A culpa é do dólar!
+#### 1. A culpa é do dólar!
 
 Na Alemanha, era comum a população atribuir a inflação ao aumento do dólar, em vez da desvalorização intrínseca de sua própria moeda. Muitos acreditavam que o fenômeno observado era devido à valorização do dólar. Essa percepção descartava qualquer reconhecimento da ligação entre suas dificuldades econômicas e a desvalorização monetária, principalmente induzida pela criação excessiva de moeda. O livro "When Money Dies" ilustra claramente essa falta de conhecimento entre a população alemã. Por outro lado, no Zimbábue, a situação era diferente: os cidadãos estavam plenamente conscientes da causa subjacente da hiperinflação que estavam enfrentando.
 

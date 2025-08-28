@@ -989,7 +989,7 @@ Bu bölümde, geçmişteki ve günümüzdeki hiperenflasyon dönemleri arasında
 ### Weimar Cumhuriyeti ve Zimbabve arasındaki farklar
 
 
-1. Bu doların suçu!
+#### 1. Suç doların!
 
 
 Almanya'da halkın enflasyonu, kendi para birimlerinin içsel değer kaybından ziyade doların yükselişine bağlaması yaygındı. Pek çok kişi gözlemlenen olgunun doların değer kazanmasından kaynaklandığına inanıyordu. Bu algı, yaşadıkları ekonomik zorluklar ile esasen aşırı para yaratımının neden olduğu parasal devalüasyon arasındaki bağlantının fark edilmesini engelledi. "Para Öldüğünde" adlı kitap, Alman halkı arasındaki bu anlayış eksikliğini açıkça göstermektedir. Buna karşılık Zimbabve'de durum farklıydı: vatandaşlar yaşadıkları hiperenflasyonun altında yatan nedenin tamamen farkındaydı.

@@ -613,7 +613,7 @@ In questo capitolo, esploreremo le differenze e i paralleli contemporanei tra i 
 
 ### Differenze tra la Repubblica di Weimar e lo Zimbabwe
 
-1. È colpa del dollaro!
+#### 1. È colpa del dollaro!
 
 In Germania, era comune che la popolazione attribuisse l'inflazione all'ascesa del dollaro piuttosto che alla svalutazione intrinseca della propria moneta. Molti credevano che il fenomeno osservato fosse dovuto a un apprezzamento del dollaro. Questa percezione negava qualsiasi riconoscimento del legame tra le loro difficoltà economiche e la svalutazione monetaria, principalmente indotta dalla creazione eccessiva di denaro. Il libro "When Money Dies" illustra chiaramente questa mancanza di comprensione tra la popolazione tedesca. Al contrario, in Zimbabwe, la situazione era diversa: i cittadini erano pienamente consapevoli della causa sottostante dell'iperinflazione che stavano vivendo.
 

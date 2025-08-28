@@ -637,13 +637,11 @@ Damit endet dieses Video über die Gemeinsamkeiten der Erfahrungen während der 
 
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-Transkript:
-
 In diesem Kapitel werden wir die Unterschiede und Parallelen zwischen vergangenen und zeitgenössischen Hyperinflationsperioden erkunden, ergänzt durch Anekdoten und relevante Vergleiche für heute.
 
 ### Unterschiede zwischen der Weimarer Republik und Simbabwe
 
-1. Es ist die Schuld des Dollars!
+#### 1. Es ist die Schuld des Dollars!
 
 In Deutschland war es üblich, dass die Bevölkerung die Inflation auf den Anstieg des Dollars zurückführte, anstatt auf die intrinsische Abwertung ihrer eigenen Währung. Viele waren überzeugt, dass das beobachtete Phänomen auf eine Aufwertung des Dollars zurückzuführen war. Diese Wahrnehmung ließ jede Anerkennung des Zusammenhangs zwischen ihrer wirtschaftlichen Schwierigkeit und der Währungsabwertung, die hauptsächlich durch übermäßige Geldschöpfung verursacht wurde, vermissen. Das Buch "When Money Dies" illustriert diese Unkenntnis deutlich unter der deutschen Bevölkerung. Im Gegensatz dazu war die Situation in Simbabwe anders: Die Bürger waren sich vollständig der zugrunde liegenden Ursache der Hyperinflation bewusst, der sie ausgesetzt waren.
 

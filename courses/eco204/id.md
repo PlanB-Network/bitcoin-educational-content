@@ -617,7 +617,7 @@ Dalam bab ini, kami akan menjelajahi perbedaan dan paralel kontemporer antara pe
 
 ### Perbedaan antara Republik Weimar dan Zimbabwe
 
-1. Ini salah dolar!
+#### 1. Ini salah dolar!
 
 Di Jerman, umum untuk populasi mengatributkan inflasi pada kenaikan dolar daripada depresiasi intrinsik mata uang mereka sendiri. Banyak yang percaya bahwa fenomena yang diamati disebabkan oleh apresiasi dolar. Persepsi ini menolak pengakuan terhadap hubungan antara kesulitan ekonomi mereka dan devaluasi moneter, terutama yang disebabkan oleh penciptaan uang berlebihan. Buku "When Money Dies" dengan jelas menggambarkan kurangnya pemahaman di antara populasi Jerman. Sebaliknya, di Zimbabwe, situasinya berbeda: warga sepenuhnya sadar akan penyebab dasar hiperinflasi yang mereka alami.
 

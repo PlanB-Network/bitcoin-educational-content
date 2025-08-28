@@ -729,7 +729,7 @@ Katika sura hii, tutachunguza tofauti na ulinganifu wa kisasa kati ya vipindi vy
 
 ### Tofauti kati ya Jamhuri ya Weimar na Zimbabwe
 
-1. Ni kosa la dola!
+#### 1. Ni kosa ya dola!
 
 Nchini Ujerumani, ilikuwa kawaida kwa idadi ya watu kuhusisha mfumuko wa bei na kupanda kwa dola badala ya kushuka kwa thamani ya ndani ya sarafu yao wenyewe. Wengi waliamini kuwa jambo lililoonekana lilitokana na kuthaminiwa kwa dola. Mtazamo huu ulitupilia mbali utambuzi wowote wa uhusiano kati ya ugumu wao wa kiuchumi na kushuka kwa thamani ya fedha, hasa kwa kuchochewa na uundaji wa pesa nyingi. Kitabu "When Money Dies" kinaonyesha wazi ukosefu huu wa uelewa kati ya wakazi wa Ujerumani. Kinyume chake, nchini Zimbabwe, hali ilikuwa tofauti: wananchi walikuwa wanafahamu kikamilifu sababu ya msingi ya mfumuko mkubwa wa bei waliokuwa wakiupata.
 

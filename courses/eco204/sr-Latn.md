@@ -986,7 +986,7 @@ U ovom poglavlju istražićemo razlike i savremene paralele između prošlih i s
 ### Razlike između Vajmarske Republike i Zimbabvea
 
 
-1. To je krivica dolara!
+#### 1. To je krivica dolara!
 
 
 U Nemačkoj je bilo uobičajeno da stanovništvo pripisuje inflaciju rastu dolara, a ne intrinzičnoj devalvaciji sopstvene valute. Mnogi su verovali da je posmatrani fenomen posledica aprecijacije dolara. Ova percepcija je odbacivala bilo kakvo priznanje veze između njihovih ekonomskih poteškoća i monetarne devalvacije, uglavnom izazvane prekomernim stvaranjem novca. Knjiga "When Money Dies" jasno ilustruje ovaj nedostatak razumevanja među nemačkim stanovništvom. Nasuprot tome, u Zimbabveu je situacija bila drugačija: građani su bili potpuno svesni osnovnog uzroka hiperinflacije koju su doživljavali.

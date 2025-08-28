@@ -619,7 +619,7 @@ V této kapitole prozkoumáme rozdíly a současné paralely mezi minulými a so
 
 ### Rozdíly mezi Výmarskou republikou a Zimbabwe
 
-1. Je to chyba dolaru!
+#### 1. To je vina dolaru!
 
 V Německu bylo běžné, že populace připisovala inflaci vzestupu dolaru spíše než vnitřní devalvaci vlastní měny. Mnozí věřili, že pozorovaný jev byl způsoben oceněním dolaru. Toto vnímání odmítalo jakékoli uznání spojitosti mezi jejich ekonomickými obtížemi a monetární devalvací, hlavně způsobenou nadměrnou tvorbou peněz. Kniha "When Money Dies" jasně ilustruje tento nedostatek porozumění mezi německou populací. Na rozdíl od toho, v Zimbabwe byla situace jiná: občané byli plně vědomi skutečné příčiny hyperinflace, kterou zažívali.
 

@@ -626,7 +626,7 @@ Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và 
 
 ### Những điểm khác biệt giữa Cộng hòa Weimar và Zimbabwe
 
-1. Lỗi của đô la!
+#### 1. Đó là lỗi của đồng đô la!
 
 Ở Đức, người dân thường quy lỗi gây ra lạm phát là do sự tăng giá của đô la chứ không phải do sự mất giá trị nội tại đồng tiền của họ. Nhiều người tin rằng hiện tượng lạm phát là do giá trị của đồng đô la tăng. Quan điểm này không nhận ra mối liên kết giữa khó khăn kinh tế của họ và sự mất giá tiền tệ, chủ yếu do việc tạo ra quá nhiều tiền. Cuốn sách "When Money Dies" minh họa rõ ràng sự thiếu hiểu biết này trong dân chúng Đức. Ngược lại, tại Zimbabwe, tình hình khác biệt: công dân hoàn toàn nhận thức được nguyên nhân nền tảng đợt siêu lạm phát mà họ đang trải qua.
 

@@ -988,7 +988,7 @@ I detta kapitel kommer vi att undersöka skillnaderna och parallellerna mellan t
 ### Skillnader mellan Weimarrepubliken och Zimbabwe
 
 
-1. Det är dollarns fel!
+#### 1. Det är dollarns fel!
 
 
 I Tyskland var det vanligt att befolkningen hänförde inflationen till dollarns uppgång snarare än till en inneboende devalvering av den egna valutan. Många trodde att det observerade fenomenet berodde på en appreciering av dollarn. Denna uppfattning gjorde att man inte insåg sambandet mellan de ekonomiska svårigheterna och den monetära devalveringen, som främst orsakats av överdrivet penningskapande. Boken "When Money Dies" illustrerar tydligt denna brist på förståelse hos den tyska befolkningen. I Zimbabwe var situationen däremot annorlunda: medborgarna var fullt medvetna om den bakomliggande orsaken till den hyperinflation som de upplevde.

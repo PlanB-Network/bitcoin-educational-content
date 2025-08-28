@@ -599,13 +599,11 @@ Esto concluye este video sobre las similitudes de las experiencias vividas duran
 
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-Transcripción:
-
 En este capítulo, exploraremos las diferencias y paralelismos entre los períodos de hiperinflación pasados y contemporáneos, con anécdotas y comparaciones relevantes para hoy.
 
 ### Las diferencias entre la República de Weimar y Zimbabwe
 
-1. ¡Es culpa del dólar!
+#### 1. ¡Es culpa del dólar!
 
 En Alemania, era común que la población atribuyera la inflación al aumento del dólar en lugar de la devaluación intrínseca de su propia moneda. Muchos estaban convencidos de que el fenómeno observado se debía a una apreciación del dólar. Esta percepción descartaba cualquier reconocimiento de la conexión entre su dificultad económica y la devaluación monetaria, principalmente inducida por la creación excesiva de dinero. El libro "When Money Dies" ilustra claramente esta falta de conocimiento entre la población alemana. En cambio, en Zimbabwe, la situación era diferente: los ciudadanos eran plenamente conscientes de la causa subyacente de la hiperinflación que estaban experimentando.
 

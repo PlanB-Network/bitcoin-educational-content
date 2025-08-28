@@ -987,7 +987,7 @@ In dit hoofdstuk verkennen we de verschillen en hedendaagse parallellen tussen v
 ### Verschillen tussen de Weimarrepubliek en Zimbabwe
 
 
-1. Het is de schuld van de dollar!
+#### 1. Het is de schuld van de dollar!
 
 
 In Duitsland was het gebruikelijk dat de bevolking de inflatie toeschreef aan de stijging van de dollar in plaats van aan de intrinsieke devaluatie van hun eigen munt. Velen geloofden dat het waargenomen fenomeen te wijten was aan een waardestijging van de dollar. Deze perceptie verwierp elke erkenning van het verband tussen hun economische problemen en monetaire devaluatie, voornamelijk veroorzaakt door buitensporige geldcreatie. Het boek "When Money Dies" illustreert duidelijk dit onbegrip bij de Duitse bevolking. In Zimbabwe daarentegen was de situatie anders: de burgers waren zich volledig bewust van de onderliggende oorzaak van de hyperinflatie die ze meemaakten.

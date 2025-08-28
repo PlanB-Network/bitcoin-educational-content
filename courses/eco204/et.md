@@ -622,7 +622,7 @@ Sel peatükis uurime erinevusi ja kaasaegseid paralleele mineviku ja oleviku hü
 
 ### Erinevused Weimari Vabariigi ja Zimbabwe vahel
 
-1. See on dollari süü!
+#### 1. See on dollari süü!
 
 Saksamaal oli rahvastiku seas levinud arvamus, et inflatsiooni põhjustab dollari tõus, mitte nende enda valuuta sisemine devalveerimine. Paljud uskusid, et täheldatud nähtus oli tingitud dollari väärtuse tõusust. See taju eitas igasugust seost nende majandusraskuste ja peamiselt liigse rahatrüki tõttu esile kutsutud rahalise devalveerimise vahel. Raamat "When Money Dies" illustreerib selgelt seda arusaamise puudumist Saksa elanikkonna seas. Seevastu Zimbabwes oli olukord erinev: kodanikud olid täielikult teadlikud hüperinflatsiooni aluseks olevast põhjusest, mida nad kogesid.
 

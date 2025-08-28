@@ -611,7 +611,7 @@ Tässä luvussa tutkimme eroja ja nykyaikaisia paralleeleja menneiden ja nykyist
 
 ### Eroja Weimarin tasavallan ja Zimbabwen välillä
 
-1. Se on dollarin syy!
+#### 1. Se on dollarin syy!
 
 Saksassa oli yleistä, että väestö syytti inflaatiota dollarin noususta pikemminkin kuin oman valuuttansa sisäisestä arvon alenemisesta. Monet uskoivat, että havaittu ilmiö johtui dollarin arvostuksesta. Tämä käsitys hylkäsi tunnustuksen taloudellisen vaikeuden ja rahallisen arvon alenemisen välisestä yhteydestä, joka pääasiassa johtui liiallisesta rahan luomisesta. Kirja "When Money Dies" kuvaa selvästi tätä ymmärryksen puutetta Saksan väestön keskuudessa. Sitä vastoin Zimbabwessa tilanne oli erilainen: kansalaiset olivat täysin tietoisia hyperinflaation taustalla olevasta syystä.
 

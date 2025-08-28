@@ -645,7 +645,7 @@ In this chapter, we will explore the differences and contemporary parallels betw
 
 ### Differences between the Weimar Republic and Zimbabwe
 
-1. It's the dollar's fault!
+#### 1. It's the dollar's fault!
 
 In Germany, it was common for the population to attribute inflation to the rise of the dollar rather than the intrinsic devaluation of their own currency. Many believed that the observed phenomenon was due to an appreciation of the dollar. This perception dismissed any recognition of the link between their economic difficulty and monetary devaluation, mainly induced by excessive money creation. The book "When Money Dies" clearly illustrates this lack of understanding among the German population. In contrast, in Zimbabwe, the situation was different: citizens were fully aware of the underlying cause of the hyperinflation they were experiencing.
 

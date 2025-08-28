@@ -2992,6 +2992,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Ofis paketi
 
 
@@ -7317,6 +7318,7 @@ Thunderbird Mobile, Mozilla Vakfı tarafından geliştirilen popüler açık kay
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 

@@ -2235,6 +2235,7 @@ sudo apt install thunderbird
 ```
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office suite
 
 
@@ -5447,6 +5448,7 @@ Thunderbird Mobile is the mobile version of the popular open-source e-mail clien
 
 ![Image](assets/fr/157.webp)
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 Tuta (formerly "*Tutanota*") offers a complete end-to-end encrypted email solution, but its mobile client only supports Tuta accounts. It does not work with other providers. interface is modern and uncluttered, and registration requires no personal data.

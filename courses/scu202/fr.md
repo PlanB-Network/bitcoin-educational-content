@@ -1496,6 +1496,8 @@ Thunderbird est le client de messagerie open source de référence, développé 
 sudo apt install thunderbird
 ```
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+
 #### Suite bureautique
 
 LibreOffice est la suite bureautique libre la plus complète. Elle propose des alternatives à Word, Excel et PowerPoint, avec une excellente compatibilité avec les formats Microsoft Office (.docx, .xlsx, .pptx).
@@ -3882,6 +3884,8 @@ K-9 Mail est un client mail open source Android, récemment intégré à l’éc
 Thunderbird Mobile est la version mobile du célèbre client de messagerie open source développé par la Mozilla Foundation. Fidèle à la philosophie du projet, l'application met l'accent sur la confidentialité, la transparence du code et l'absence de télémétrie intrusive. Thunderbird Mobile est basée sur l'application K-9 Mail, dont elle est le successeur officiel sur Android. Elle permet une gestion avancée des comptes IMAP et POP, le chiffrement des courriels (via OpenPGP), et dispose d'une interface sobre et efficace.
 
 ![Image](assets/fr/157.webp)
+
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 - [Tuta](https://tuta.com/)
 

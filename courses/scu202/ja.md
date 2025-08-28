@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### オフィススイート
 
 
@@ -7257,6 +7258,7 @@ Thunderbird Mobileは、Mozilla Foundationによって開発された人気の�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [ツタ](https://tuta.com/)
 
 

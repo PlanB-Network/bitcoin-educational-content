@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontorspaket
 
 
@@ -7257,6 +7258,7 @@ Thunderbird Mobile är den mobila versionen av den populära e-postklienten med 
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta] (https://tuta.com/)
 
 

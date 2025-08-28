@@ -478,7 +478,7 @@ Tốc độ mà đồng tiền có thể bị mất giá trị trong một số 
 
 ![image](assets/fr/041.webp)
 
-4. Đếm tiền
+#### 4. Đếm tiền
 
 Khi đồng tiền nhanh chóng mất giá trị, ngay cả những giao dịch đơn giản nhất cũng có thể trở nên phức tạp. Việc tính giá của một mặt hàng hoặc đơn giản là đếm số tiền cần thanh toán có thể mất tới vài phút, tạo ra thêm một tầng phức tạp vào các tương tác hàng ngày.
 Weimar: "Việc mua sắm bình thường nhất tại cửa hàng cũng đòi hỏi ba hoặc bốn phút để tính toán, và sau khi giá cả được xác định, thường cần thêm vài phút nữa để đếm tiền giấy."

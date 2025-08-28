@@ -583,7 +583,7 @@ Katika hali fulani za kiuchumi, thamani halisi ya noti inaweza kuwa chini kuliko
 
 ![image](assets/fr/041.webp)
 
-4. Kuhesabu Pesa
+#### 4. Kuhesabu pesa
 
 Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza kuwa kazi ngumu. Kuhesabu bei ya bidhaa au kuhesabu tu bili zinazohitajika kwa malipo kunaweza kuchukua dakika kadhaa, na kuongeza utata wa Layer (Safu) kwa mwingiliano wa kila siku.
 

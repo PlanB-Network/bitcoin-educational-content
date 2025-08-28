@@ -796,7 +796,7 @@ Belirli ekonomik koşullarda, bir banknotun gerçek değeri, üzerine basıldı�
 ![image](assets/fr/041.webp)
 
 
-4. Para Sayma
+#### 4. Para sayma
 
 
 Para birimi hızla değer kaybettiğinde, en basit işlemler bile zahmetli görevler haline gelebilir. Bir ürünün fiyatını hesaplamak veya sadece ödeme için gereken banknotları saymak birkaç dakika sürebilir ve günlük etkileşimlere bir Layer karmaşıklığı ekleyebilir.

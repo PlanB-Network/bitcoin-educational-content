@@ -480,7 +480,7 @@ Zimbabwe: "Dne 17. září 2006 prohlásil guvernér RBZ, Gideon Gono: 'Ještě 
 
 ![image](assets/fr/041.webp)
 
-4. Počítání peněz
+#### 4. Počítání peněz
 
 Když měna rychle ztrácí svou hodnotu, i ty nejjednodušší transakce se mohou stát náročnými úkoly. Výpočet ceny zboží nebo pouhé počítání bankovek potřebných k platbě může trvat několik minut, což přidává další vrstvu složitosti každodenním interakcím.
 

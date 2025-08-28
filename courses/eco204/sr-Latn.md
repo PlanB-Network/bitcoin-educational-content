@@ -796,7 +796,7 @@ U određenim ekonomskim okolnostima, intrinzična vrednost novčanice može post
 ![image](assets/fr/041.webp)
 
 
-4. Brojanje Novca
+#### 4. Prebrojavanje novca
 
 
 Kada valuta brzo gubi svoju vrednost, čak i najjednostavnije transakcije mogu postati mukotrpni zadaci. Izračunavanje cene artikla ili jednostavno brojanje novčanica potrebnih za plaćanje može potrajati nekoliko minuta, dodajući Layer složenosti svakodnevnim interakcijama.

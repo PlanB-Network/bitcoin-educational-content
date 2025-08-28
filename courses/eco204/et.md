@@ -482,7 +482,7 @@ Zimbabwe: "17. septembril 2006 kuulutas RBZ-i kuberner Gideon Gono: '10 triljoni
 
 ![image](assets/fr/041.webp)
 
-4. Raha Lugemine
+#### 4. Raha lugemine
 
 Kui valuuta kiiresti oma väärtust kaotab, võivad isegi lihtsaimad tehingud muutuda tülikateks ülesanneteks. Eseme hinna arvutamine või lihtsalt maksmiseks vajalike pangatähtede lugemine võib võtta mitu minutit, lisades igapäevastele suhtlustele keerukuse kihi.
 

@@ -502,7 +502,7 @@ The speed at which currency can lose its value in certain economic situations is
 
 ![image](assets/fr/041.webp)
 
-4. Money Counting
+#### 4. Counting money
 
 When currency rapidly loses its value, even the simplest transactions can become laborious tasks. Calculating the price of an item or simply counting the bills needed for payment can take several minutes, adding a layer of complexity to daily interactions.
 

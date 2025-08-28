@@ -796,7 +796,7 @@ W pewnych okolicznościach gospodarczych wartość wewnętrzna banknotu może st
 ![image](assets/fr/041.webp)
 
 
-4. Liczenie pieniędzy
+#### 4. Liczenie pieniędzy
 
 
 Gdy waluta gwałtownie traci na wartości, nawet najprostsze transakcje mogą stać się pracochłonnymi zadaniami. Obliczenie ceny przedmiotu lub po prostu policzenie banknotów potrzebnych do zapłaty może zająć kilka minut, dodając Layer złożoności do codziennych interakcji.

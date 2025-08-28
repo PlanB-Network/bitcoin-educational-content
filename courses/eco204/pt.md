@@ -504,7 +504,7 @@ A velocidade com que a moeda pode perder seu valor em determinadas situações e
 
 ![imagem](assets/fr/041.webp)
 
-4. Contagem de dinheiro
+#### 4. Contagem do dinheiro
 
 Quando a moeda perde rapidamente seu valor, até mesmo as transações mais simples podem se tornar tarefas trabalhosas. Calcular o preço de um item ou simplesmente contar as notas necessárias para um pagamento pode levar vários minutos, adicionando uma camada de complexidade às interações diárias.
 

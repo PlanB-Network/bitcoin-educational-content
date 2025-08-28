@@ -479,7 +479,7 @@ Zimbabwe: "Pada 17 September 2006, gubernur RBZ, Gideon Gono, menyatakan: 'Masih
 
 ![image](assets/fr/041.webp)
 
-4. Menghitung Uang
+#### 4. Menghitung uang
 
 Ketika mata uang cepat kehilangan nilainya, bahkan transaksi paling sederhana pun dapat menjadi tugas yang berat. Menghitung harga suatu barang atau sekadar menghitung uang kertas yang diperlukan untuk pembayaran dapat memakan waktu beberapa menit, menambahkan lapisan kompleksitas pada interaksi sehari-hari.
 

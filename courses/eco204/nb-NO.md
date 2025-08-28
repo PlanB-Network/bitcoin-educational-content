@@ -480,7 +480,7 @@ Zimbabwe: "Den 17. september 2006 erklærte guvernøren i RBZ, Gideon Gono: '10 
 
 ![image](assets/fr/041.webp)
 
-4. Pengeregning
+#### 4. Pengeopptelling
 
 Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbeidskrevende oppgaver. Å beregne prisen på en vare eller bare å telle sedlene som trengs for betaling kan ta flere minutter, noe som legger et ekstra lag av kompleksitet til daglige interaksjoner.
 

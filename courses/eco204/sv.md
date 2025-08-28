@@ -796,7 +796,7 @@ Under vissa ekonomiska omständigheter kan en sedels inneboende värde bli lägr
 ![image](assets/fr/041.webp)
 
 
-4. Räkning av pengar
+#### 4. Räkna pengar
 
 
 När valutan snabbt förlorar sitt värde kan även de enklaste transaktionerna bli mödosamma uppgifter. Att beräkna priset på en vara eller att helt enkelt räkna de sedlar som behövs för betalning kan ta flera minuter, vilket gör de dagliga interaktionerna extra komplicerade.

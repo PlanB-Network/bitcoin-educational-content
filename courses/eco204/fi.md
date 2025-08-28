@@ -474,7 +474,7 @@ Zimbabwe: "17. syyskuuta 2006 RBZ:n pääjohtaja Gideon Gono julisti: '10 biljoo
 
 ![image](assets/fr/041.webp)
 
-4. Rahojen laskeminen
+#### 4. Rahan laskeminen
 
 Kun valuutta menettää nopeasti arvoaan, jopa yksinkertaisimmat transaktiot voivat muuttua työlääksi. Tuotteen hinnan laskeminen tai tarvittavien seteleiden laskeminen maksua varten voi kestää useita minuutteja, lisäten monimutkaisuutta päivittäisiin vuorovaikutuksiin.
 

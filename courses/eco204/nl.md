@@ -796,7 +796,7 @@ In bepaalde economische omstandigheden kan de intrinsieke waarde van een bankbil
 ![image](assets/fr/041.webp)
 
 
-4. Geld tellen
+#### 4. Geld tellen
 
 
 Wanneer geld snel zijn waarde verliest, kunnen zelfs de eenvoudigste transacties omslachtige taken worden. Het berekenen van de prijs van een artikel of het tellen van de biljetten die nodig zijn voor de betaling kan enkele minuten duren, wat de dagelijkse interacties complexer maakt.

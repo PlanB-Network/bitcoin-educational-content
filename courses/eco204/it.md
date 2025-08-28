@@ -480,16 +480,38 @@ Quando la valuta perde rapidamente valore, anche le transazioni più semplici po
 
 Tecnica di conteggio del denaro dall'Uzbekistan
 
-5. Pagamenti con assegno
+#### 5. Pagamenti con assegno
 
-In economie turbate, i metodi di pagamento tradizionali, come gli assegni, possono rapidamente perdere efficacia. Le banche, sopraffatte dalla crescente domanda di denaro dovuta all'iperinflazione, possono razionare o ritardare l'incasso degli assegni, riducendone così il valore effettivo. Questa instabilità porta spesso a una gerarchia dei metodi di pagamento, in cui i prezzi possono variare a seconda del modo scelto per pagare.
+Nelle economie sconvolte, i metodi di pagamento tradizionali come gli assegni possono perdere rapidamente la loro efficacia. Le banche, sopraffatte dall’aumento della domanda di contante dovuto all’iperinflazione, possono razionare o ritardare l’incasso degli assegni, riducendone così il valore reale. Questa instabilità conduce spesso a una gerarchia dei mezzi di pagamento, per cui i prezzi variano a seconda della modalità scelta.
 
-> Weimar: "L'aumento dei prezzi ha intensificato la domanda di denaro, sia da parte dello Stato che da parte di altri datori di lavoro. Le banche private non potevano soddisfare affatto la domanda e dovevano razionare l'incasso degli assegni, in modo che gli assegni non incassati rimanessero bloccati mentre il loro potere d'acquisto si esauriva."
-> Weimar: “Les banques du monde”
-> Weimar: "Le loro transazioni venivano effettuate principalmente attraverso i cosiddetti Winkelbankiers, gli operatori di strada che erano emersi con l'inflazione e che, prosperando in un'economia malata, vivevano interamente sfruttando la differenza tra i prezzi di acquisto e di vendita delle valute estere."
-> Zimbabwe: "Erano anche cambiavalute. Operavano impunemente tra la Seconda e la Sesta Avenue e Fort Street a Bulawayo, grazie alle loro abili pratiche commerciali che coinvolgevano la corruzione e altre pratiche. Questa zona della città era conosciuta come 'Banca Mondiale'."
+> Weimar: «L’aumento dei prezzi intensificò la domanda di moneta, sia da parte dello Stato sia degli altri datori di lavoro. Le banche private non riuscivano affatto a soddisfarla e dovettero razionare l’incasso degli assegni, cosicché gli assegni non incassati restavano congelati mentre il loro potere d’acquisto si riduceva.»
+> Zimbabwe: «Il valore temporale del denaro ha creato tre prezzi per beni e servizi: un prezzo in contanti, un prezzo con regolamento lordo in tempo reale e un prezzo con assegno. Alla fine, nessuno accettava più gli assegni, che richiedevano cinque giorni per l’accredito.»
 
-> Argentina: "Quindi sono andato dove vanno tutti gli argentini: le cuevas, le 'grotte', che si trovano nel quartiere di Florida nel cuore di Buenos Aires." - TheBigWhale
+6. I «Burner-preneurs»
+
+Man mano che il valore della moneta si erode, emergono nuove opportunità economiche che sfruttano le distorsioni di mercato. Questi imprenditori, spesso soprannominati con nomi fantasiosi come «Burner-preneurs», possono prosperare prendendo in prestito valuta svalutata per investirla in beni tangibili e poi rimborsare i debiti con moneta ancora più svalutata.
+
+Weimar: «La speculazione sull’inflazione consisteva nel prendere a prestito marchi cartacei, convertirli in beni e fabbriche e poi rimborsare i creditori con carta deprezzata.»
+
+Zimbabwe: I «Burner-preneurs»
+
+7. Onestà e duro lavoro perdono attrattiva
+
+In contesti economici instabili, i valori tradizionali del duro lavoro, del risparmio e dell’integrità possono essere offuscati dal richiamo della ricchezza facile. La speculazione e il commercio valutario offrono spesso ricompense molto più alte del lavoro ordinario, alterando le priorità sociali.
+
+Weimar: «Via via che le antiche virtù del risparmio, dell’onestà e del duro lavoro perdevano attrattiva, tutti cercavano di arricchirsi rapidamente, anche perché la speculazione valutaria o azionaria sembrava rendere molto più del lavoro.»
+
+Zimbabwe: «Queste pratiche, pur arricchendo pochi individui, impoverirono la classe operaia urbana e la popolazione rurale. L’istruzione perse valore, poiché tale commercio era guidato da persone che non avevano bisogno né di istruzione né di duro lavoro per giustificarlo. Tutto ciò di cui avevano bisogno erano relazioni e capitale iniziale per avviare il loro business di denaro facile.»
+
+![image](assets/fr/042.webp)
+
+8. Le «banche del mondo»
+
+In situazioni di iperinflazione o di crisi monetaria tendono a proliferare mercati paralleli e non regolamentati per le valute estere. Queste «banche» informali, spesso chiamate ironicamente «banche del mondo» o con altri nomi locali, offrono un rifugio a chi cerca di proteggere i propri beni dalla svalutazione. Benché possano costituire un’ancora di salvezza economica, evidenziano spesso una diffusa sfiducia nelle istituzioni finanziarie ufficiali e nelle politiche governative.
+Weimar: «Le loro operazioni si svolgevano principalmente attraverso i cosiddetti Winkelbankiers, gli operatori di strada emersi con l’inflazione che, prosperando in un’economia malata, vivevano interamente sfruttando la differenza tra i prezzi di acquisto e di vendita delle valute estere.»
+Zimbabwe: «Erano anche cambiavalute. Operavano impunemente tra la 2ª e la 6ª Avenue e Fort Street a Bulawayo, grazie a scaltri metodi d’affari che includevano corruzione e altre pratiche. Quest’area della città era conosciuta come la “World Bank”.»
+Argentina: «Così andai dove vanno tutti gli argentini: nelle cuevas, le “grotte”, che si trovano nel quartiere Florida, nel cuore di Buenos Aires.» – TheBigWhale
+
 
 9. Il cambio di valuta era illegale
 

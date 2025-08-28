@@ -472,7 +472,7 @@ Cuando la moneda pierde rápidamente su valor, incluso las transacciones más si
 
 Técnica de conteo de dinero de Uzbekistán
 
-5. Pagos con cheque
+#### 5. Pagos con cheque
 
 En economías perturbadas, los métodos de pago tradicionales, como los cheques, pueden perder rápidamente su eficacia. Los bancos, abrumados por la creciente demanda de dinero debido a la hiperinflación, pueden racionar o retrasar el cobro de los cheques, reduciendo así su valor real. Esta inestabilidad a menudo conduce a una jerarquización de los métodos de pago, donde los precios pueden variar según la forma de pago elegida.
 
@@ -492,6 +492,8 @@ En contextos económicos inestables, los valores tradicionales de trabajo duro, 
 Weimar: "A medida que las antiguas virtudes de ahorro, honestidad y trabajo duro perdían su atractivo, todos buscaban enriquecerse rápidamente, especialmente porque la especulación en moneda o acciones podía claramente generar mucho más que el trabajo".
 
 Zimbabwe: "Estas prácticas, si bien enriquecieron a algunas personas, empobrecieron a la clase trabajadora urbana y a la población rural. La educación perdió su valor, ya que este comercio era impulsado por personas que no necesitaban ni educación ni trabajo duro para justificarlo. Todo lo que necesitaban eran relaciones y un capital inicial para comenzar su negocio de dinero fácil".
+
+![image](assets/fr/042.webp)
 
 8. Los "bancos del mundo"
 

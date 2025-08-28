@@ -510,7 +510,7 @@ Wenn eine Währung schnell an Wert verliert, können selbst einfache Transaktion
 
 Money counting technique from Uzbekistan
 
-5. Scheckzahlungen
+#### 5. Zahlungen per Scheck
 
 In gestörten Volkswirtschaften können traditionelle Zahlungsmethoden wie Schecks schnell an Effizienz verlieren. Banken, die mit der steigenden Nachfrage nach Geld aufgrund der Hyperinflation überfordert sind, können Schecks rationieren oder deren Einlösung verzögern, wodurch ihr tatsächlicher Wert reduziert wird. Diese Instabilität führt oft zu einer Hierarchisierung der Zahlungsmethoden, bei der die Preise je nach gewählter Zahlungsweise variieren können.
 
@@ -530,6 +530,8 @@ In wirtschaftlich instabilen Kontexten können traditionelle Werte wie harte Arb
 Weimar: "Während die alten Tugenden von Sparsamkeit, Ehrlichkeit und harter Arbeit an Attraktivität verloren, strebte jeder nach schnellem Reichtum, insbesondere weil die Spekulation mit Währungen oder Aktien offensichtlich viel mehr einbringen konnte als Arbeit."
 
 Zimbabwe: "Diese Praktiken haben zwar einige Menschen bereichert, aber die städtische Arbeiterklasse und die ländliche Bevölkerung verarmt. Bildung hat an Wert verloren, da dieses Geschäft von Menschen betrieben wurde, die weder Bildung noch harte Arbeit benötigten, um es zu rechtfertigen. Alles, was sie brauchten, waren Beziehungen und anfängliches Kapital, um ihr Geschäft mit leichtem Geld zu starten."
+
+![image](assets/fr/042.webp)
 
 8. Die "Weltbanken"
 

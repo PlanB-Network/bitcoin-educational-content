@@ -680,26 +680,27 @@ Da allora in poi, il razionalismo religioso avrebbe definitivamente prevalso sul
 
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
-Nel Medioevo, la Chiesa e le monarchie cristiane ereditarono un modello politico dall'Impero Romano, che gli storici chiamano il sistema teologico-politico, ovvero un sistema in cui il potere è sacro, cioè in cui il leader politico è anche un leader religioso.
-Ecco perché le società medievali sono caratterizzate dall'unanimismo politico-religioso. Il potere politico basa la sua legittimità, autorità e unità sulla fede cristiana (o musulmana). Si considera il custode dell'ortodossia culturale e religiosa e tratta come paria coloro che si allontanano da questa unanimità. In questo contesto, anche se una certa tolleranza poteva essere concessa a coloro che si distaccano dalla visione culturale comune (come gli ebrei), non poteva essere riconosciuto loro alcun diritto al pluralismo. Non fu fino alla fine del Medioevo, con la conquista dell'America, che il problema delle libertà civili divenne cruciale per la Chiesa e vide l'emergere di una prima filosofia del diritto che affermava e proteggeva le libertà individuali, legittimava il pluralismo e condannava la coercizione statale.
+Nel Medioevo, la Chiesa e le monarchie cristiane ereditarono un modello politico dall'Impero Romano, che gli storici chiamano il sistema teologico-politico. Ovvero un sistema in cui il potere è sacro, cioè in cui il leader politico è anche un leader religioso.
+Ecco perché le società medievali sono caratterizzate dall'unanimismo politico-religioso. Il potere politico basa la sua legittimità, autorità e unità sulla fede cristiana (o musulmana). Si considera il custode dell'ortodossia culturale e religiosa e tratta come pariah (ovvero come individui di condizione sociale molto bassa) coloro che si allontanano da questa unanimità. In questo contesto, anche se una certa tolleranza poteva essere concessa a coloro che si distaccano dalla visione culturale comune (come gli ebrei), non poteva essere riconosciuto loro alcun diritto al pluralismo. Non fu fino alla fine del Medioevo, con la conquista dell'America, che il problema delle libertà civili divenne cruciale per la Chiesa e vide l'emergere di una prima filosofia del diritto che affermava e proteggeva le libertà individuali, legittimava il pluralismo e condannava la coercizione statale.
 
-### Sant'Agostino e la Tentazione Teocratica
+### Sant'Agostino e la tentazione teocratica
 
 La questione del rapporto tra politica e religione prese forma con l'opera di Sant'Agostino _Civitas Dei_ (_La Città di Dio_). In essa, egli spiega che coesistono due sfere:
-Due amori hanno dunque fatto due città: l'amore di sé fino al disprezzo di Dio, la città terrena; l'amore di Dio, fino al disprezzo di sé, la città celeste.
+
+"Due amori hanno dunque fatto due città: l'amore di sé fino al disprezzo di Dio, la città terrena; l'amore di Dio, fino al disprezzo di sé, la città celeste."
 
 Abbiamo, quindi:
 
-- Un potere spirituale derivato da Dio è incarnato dal Papa ed è esercitato su tutta la Cristianità (questa è la Città di Dio).
-- La città degli uomini, che è terrena e fatta di un potere locale e temporale. Origina dal peccato originale, dal Male.
+- Un potere spirituale derivato da Dio, incarnato dal Papa ed esercitato su tutta la Cristianità (questa è la Città di Dio).
+- La città degli uomini, che è terrena e fatta di un potere locale e temporale. Nasce dal peccato originale, dal Male.
 
-Tuttavia, per Agostino, questa città terrena è necessaria. È necessaria perché garantisce la pace. Così, la coesistenza con il religioso deve essere ben gestita, e dovrebbe essere regolata da una predominanza del potere spirituale sul potere temporale. Ma non dovrebbe esserci una separazione radicale o un conflitto aperto, e entrambe le entità dovrebbero lavorare insieme. Gli storici hanno chiamato questa dottrina politico-agostinianesimo.
+Tuttavia, per Agostino, questa città terrena è necessaria. È necessaria perché garantisce la pace. Così, la coesistenza con il religioso deve essere ben gestita, e dovrebbe essere regolata da una predominanza del potere spirituale sul potere temporale. Ma non dovrebbe esserci una separazione radicale o un conflitto aperto: entrambe le entità dovrebbero lavorare insieme. Gli storici hanno chiamato questa dottrina politico-agostinianesimo.
 
 ### La rivalità tra potere temporale e potere spirituale
 
 Tuttavia, né i papi né i re furono soddisfatti di questa alleanza. La Chiesa cercò di rivendicare la sua autorità sul potere politico mentre il potere politico tentò di liberarsi per affermare la sua sovranità.
 
-Così, la Chiesa da parte sua svilupperà il suo diritto e i suoi tribunali e postulerà che il Papa possa risolvere le dispute terrene. Da parte loro, i re inizieranno a sviluppare un apparato statale il più potente possibile. Cercheranno anche di centralizzare la risoluzione dei conflitti legali, poi gradualmente generalizzeranno la tassazione, svilupperanno l'amministrazione territoriale e alzeranno eserciti: porranno le basi dello Stato moderno.
+Così, la Chiesa da parte sua svilupperà il suo diritto e i suoi tribunali, dichiarando che il Papa possa risolvere le dispute terrene. Da parte loro, i re inizieranno a sviluppare un apparato statale il più potente possibile. Tenteranno inoltre di centralizzare la risoluzione dei conflitti legali, di generalizzare gradualmente la tassazione, di sviluppare l'amministrazione territoriale e di formare eserciti, gettando così le basi per lo Stato moderno.
 
 In realtà, la competizione tra i poteri portò a numerosi conflitti. Ogni Principe o ogni Papa cercava sempre di avere l'ultima parola e di convincere di detenere l'autorità suprema, in ultima istanza. Così, Papa Gregorio VII dichiarò:
 
@@ -707,32 +708,51 @@ In realtà, la competizione tra i poteri portò a numerosi conflitti. Ogni Princ
 
 Da parte sua, San Luigi non esitò ad opporsi a Papa Innocenzo IV che aveva scomunicato e deposto l'Imperatore Federico II, privandolo così di ogni credibilità tra il suo popolo. Suo nipote, Filippo il Bello, avrebbe fatto lo stesso.
 
-La tentazione teocratica della Chiesa si scontra anche con la teoria del "diritto divino". Se i re di Francia si proclamano monarchi per "diritto divino", è per sfuggire alla presa del Papa e trarre la loro autorità direttamente da Dio, senza dover ricevere ordini dal clero.
+La tentazione teocratica della Chiesa si scontra anche con la teoria del "diritto divino". Se i re di Francia si proclamano monarchi per "diritto divino", è per sfuggire alla morsa del Papa e trarre la loro autorità direttamente da Dio, senza dover ricevere ordini dal clero.
 
-## Etica Biblica: Il Valore Sacro dell'Individuo
+## Etica biblica: Il valore sacro dell'individuo
 
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
 Il pensiero antico subordinava l'uomo a un cosmo divino, ovvero, a un universo perfetto di cui egli era solamente una parte. Il monoteismo, d'altra parte, afferma il valore infinitamente superiore dell'uomo rispetto alla natura, in quanto l'uomo è creato a immagine di Dio. Questo punto cruciale è all'origine di una vera rivoluzione etica. La Bibbia afferma il valore sacro e infinito di ogni essere umano.
 Ecco perché l'etica biblica cambia il nostro rapporto con il male. Porta una sensibilità acuta e senza precedenti alla sofferenza umana. Ci incoraggia quindi a considerare come anormali e insopportabili mali che l'umanità fino ad allora aveva trovato perfettamente sopportabili, specialmente il male fatto agli altri, ai deboli, agli innocenti.
 
-### La Transizione da un'Etica Simmetrica a un'Etica Asimmetrica
+### La transizione da un'etica simmetrica a un'etica asimmetrica
 
-L'etica simmetrica riguarda l'instaurazione di una stretta uguaglianza nelle relazioni umane o una stretta reciprocità. Appare nella virtù della giustizia, la suprema virtù per i Greci. La giustizia è dare agli altri ciò che è loro dovuto: a ciascuno il suo. E percepire il tempo come ciclico porta a non sentirsi responsabili del male fatto dagli altri. C'è il male sulla Terra ma è sempre esistito e sempre esisterà. Questo deve essere considerato come un fatto da accettare, e la somma di esso è costante. Non c'è nulla da fare, sarà sempre così, questo è il fatalismo greco e romano.
+L'etica simmetrica riguarda l'instaurazione di una stretta uguaglianza nelle relazioni umane o una stretta reciprocità. Appare nella virtù della giustizia, la suprema virtù per i Greci. La giustizia è dare agli altri ciò che è loro dovuto: a ciascuno il suo. E percepire il tempo come ciclico porta a non sentirsi responsabili del male fatto dagli altri. C'è il male sulla Terra ma è sempre esistito e sempre esisterà. Questo deve essere considerato come un fatto da accettare, e la somma è costante. Non c'è nulla da fare, sarà sempre così, questo è il fatalismo greco e romano.
 
 L'etica biblica è asimmetrica, nel senso che si deve dare più di ciò che è dovuto. Ognuno si sente responsabile del male, anche di quello che non ha commesso. Etica del donare, etica del perdono, etica della compassione. Non si può rimanere indifferenti alla sofferenza altrui e non si deve tollerare la sofferenza gratuita, anche quando non proviene da noi. La tranquillità del saggio stoico che accetta il destino diventa impossibile. Questo è il significato della parabola del Buon Samaritano. Nulla lo obbliga a fermarsi e prendersi cura di un uomo ferito dai banditi. Dalla rivoluzione etica portata dalla Bibbia, tutta l'umanità diventa una sorta di Buon Samaritano. È invitata a non tollerare il male fatto agli altri e a combatterlo.
 Inoltre, poiché Dio è il creatore, vediamo emergere un nuovo concetto, quello dell'uguaglianza: davanti a Dio, tutti gli uomini sono uguali. Non ci sono individui privilegiati di fronte all'immensità trascendente di Dio, e tutti gli uomini sono uguali.
 
-### I Diritti degli Indiani
+### I diritti degli indiani
 
-La più nota incarnazione di questa dottrina emergente è la Scuola di Salamanca, in Spagna nel XVI secolo. Francisco de Vitoria, uno dei suoi rappresentanti, afferma che se ogni uomo è creato a immagine di Dio, nessun uomo può essere dichiarato inferiore a un altro, non il ebreo, né lo schiavo nero, né l'indiano.
+La più nota incarnazione di questa dottrina emergente è la Scuola di Salamanca, in Spagna nel XVI secolo. Francisco de Vitoria, uno dei suoi rappresentanti, afferma che se ogni uomo è creato a immagine di Dio, nessun uomo può essere dichiarato inferiore a un altro, che sia l'ebreo, lo schiavo nero o l'indiano.
 
 La scoperta delle Americhe costituì un vero shock culturale, una prima breccia nell'unanimismo politico-religioso ereditato dall'Antichità. La famosa controversia sui diritti degli Indiani divise infatti i teologi in due campi opposti e inconciliabili.
 
-In un campo, c'erano i sostenitori del monolitismo culturale e del principio di coercizione. Per loro, gli indiani vivevano al di fuori del messaggio biblico. Questo poteva significare che Dio non aveva voluto rivelarsi a loro. Perché? Due ipotesi sono allora concepibili: 1° Sono grandi peccatori (cannibalismo) 2° Sono arretrati e più vicini alla bestia che all'uomo. Ecco perché hanno il diritto di trattarli come schiavi e prendere le loro terre con la forza, sul presupposto che siano sia infedeli che barbari.
-Nell'altro campo, c'erano i sostenitori del pluralismo e delle libertà civili: questi sono i teologi della Scuola di Salamanca, discepoli di San Tommaso. Secondo Francisco de Vitoria e Bartolomeo de Las Casas, i diritti devono essere riconosciuti agli Indiani come esseri umani e non perché hanno aderito o meno alla fede cattolica. Non solo non dovrebbero essere convertiti con la forza, ma non dovrebbero essere privati delle loro proprietà, né dovrebbero essere sottoposti a qualsiasi forma di schiavitù. La loro argomentazione si basa sulla concezione tomistica della legge naturale, distinta dalla legge divina.
-Nella _Summa Theologica_, San Tommaso pone la seguente domanda: si deve obbedire a un Principe infedele, che non crede in Dio? E risponde di sì, perché l'autorità legittima è per diritto naturale, e l'infedeltà o l'ateismo del Principe non è motivo di ribellione. L'ordine politico è primariamente un ordine naturale. Pone inoltre la domanda: si deve fare guerra agli infedeli e imporre loro la fede? Risponde di no: una guerra è giusta solo se è difensiva. Infine, la fede può essere solo un atto libero.
-Gli studiosi di Salamanca applicarono questo ragionamento al caso dei popoli indigeni: la proprietà è un diritto naturale. Pertanto, prendere le terre dai popoli indigeni equivale a commettere un furto, proprio come se fossero cristiani. Non è inoltre permesso fare guerra a loro dato che non c'è aggressione da parte loro, ma piuttosto da parte nostra.
+Da una parte, c'erano i sostenitori del monolitismo culturale e del principio di coercizione. Per loro, gli indiani vivevano al di fuori del messaggio biblico. Questo poteva significare che Dio non aveva voluto rivelarsi a loro. Perché? Due ipotesi sono allora concepibili: 
+
+1° Sono grandi peccatori (cannibalismo) 
+
+2° Sono arretrati e più vicini alla bestia che all'uomo. 
+
+Ecco perché hanno il diritto di trattarli come schiavi e prendere le loro terre con la forza, sul presupposto che siano sia infedeli che barbari.
+
+Dall'altra parte, c'erano i sostenitori del pluralismo e delle libertà civili: questi sono i teologi della Scuola di Salamanca, discepoli di San Tommaso. Secondo Francisco de Vitoria e Bartolomeo de Las Casas, i diritti devono essere riconosciuti agli Indiani come esseri umani e non perché hanno aderito o meno alla fede cattolica. Non solo non dovrebbero essere convertiti con la forza, ma non dovrebbero essere privati delle loro proprietà, né dovrebbero essere sottoposti a qualsiasi forma di schiavitù. La loro argomentazione si basa sulla concezione tomistica della legge naturale, distinta dalla legge divina.
+
+Nella _Summa Theologica_, San Tommaso pone la seguente domanda: 
+
+"si deve obbedire a un Principe infedele, che non crede in Dio?"
+
+La sua risposta è sì, perché l'autorità legittima è per diritto naturale, e l'infedeltà o l'ateismo del Principe non è motivo di ribellione. L'ordine politico è innanzitutto un ordine naturale. 
+
+Pone inoltre la domanda: 
+
+"si deve fare guerra agli infedeli e imporre loro la fede?"
+
+La sua risposta è no: una guerra è giusta solo se è difensiva. Quindi la fede può essere solo un atto libero.
+
+Gli studiosi di Salamanca applicarono questo ragionamento al caso dei popoli indigeni: la proprietà è un diritto naturale. Pertanto, prendere le terre dai popoli indigeni equivale a commettere un furto, proprio come se fossero cristiani. Non è inoltre permesso fargli la guerra dato che non c'è aggressione da parte loro, ma piuttosto da parte nostra.
 
 La questione dei popoli indigeni fu la prima crepa nel monolite politico-religioso. Mostrò che l'unità della società politica poteva poggiare su una base diversa dall'unità religiosa degli abitanti dello stesso territorio, sulla base di un'appartenenza comune alla natura umana.
 
@@ -744,14 +764,15 @@ L'idea di umanità progredisce. Venne effettivamente considerato che esiste solo
 
 Abbiamo visto che il cristianesimo impone un dovere morale alle persone di lavorare per il miglioramento del mondo. Dio vuole che l'uomo sia felice ma non vuole realizzare il suo bene al suo posto. Spetta quindi al cristiano combattere il male morale, amare il prossimo, aiutare le vittime, insomma, lavorare per un mondo più giusto e umano. Il capitalismo, cioè l'economia libera basata sulla proprietà privata e sulla libertà dei contratti, è compatibile con il dovere cristiano?
 
-Parte della risposta risiede nel fatto che il capitalismo ha origine in un contesto religioso, ben prima della Riforma protestante. L'altra parte della risposta consiste nell'osservare il fatto che il capitalismo è il miglior mezzo per migliorare la condizione materiale e morale degli individui. Solo un'economia libera, basata sui diritti di proprietà e sulla cooperazione volontaria, è capace di sollevare in modo sostenibile le persone dalla miseria.
+Parte della risposta risiede nel fatto che il capitalismo ha origine in un contesto religioso, ben prima della riforma protestante. L'altra parte della risposta consiste nell'osservare il fatto che il capitalismo è il miglior mezzo per migliorare la condizione materiale e morale degli individui. Solo un'economia libera, basata sui diritti di proprietà e sulla cooperazione volontaria, è capace di sollevare in modo sostenibile le persone dalla miseria.
 
 Concentriamoci sul primo punto. Il secondo punto verrà affrontato nella sezione seguente.
 
 ### L'ascesa delle città italiane
 
 Henri Pirenne, uno storico belga del primo Novecento, ha dedicato parte del suo lavoro all'analisi dell'emergere del capitalismo in Europa. Nel suo libro _Storia dell'Europa_, afferma:
-Tutte le caratteristiche essenziali del capitalismo — impresa individuale, il progresso del credito, i profitti commerciali, la speculazione, ecc. — esistevano già dal XII secolo nelle città-stato italiane, Venezia, Genova o Firenze. Secondo Pirenne, queste città commerciali, grazie al loro dinamismo commerciale e alla posizione strategica sulle rotte marittime, avevano sviluppato pratiche economiche caratteristiche del capitalismo nascente. Egli evidenzia in particolare:
+
+> Tutte le caratteristiche essenziali del capitalismo — impresa individuale, il progresso del credito, i profitti commerciali, la speculazione, ecc. — esistevano già dal XII secolo nelle città-stato italiane, Venezia, Genova o Firenze. Secondo Pirenne, queste città commerciali, grazie al loro dinamismo commerciale e alla posizione strategica sulle rotte marittime, avevano sviluppato pratiche economiche caratteristiche del capitalismo nascente. Egli evidenzia in particolare:
 
 - **L'ascesa dell'impresa individuale:** i mercanti italiani, spesso provenienti da famiglie benestanti, investivano i propri fondi in spedizioni commerciali lontane, assumendosi così i rischi e aspettandosi profitti sostanziali.
 - **L'espansione del credito:** Lo sviluppo del commercio internazionale stimolava l'uso di vari strumenti di credito, come le cambiali e le operazioni bancarie, consentendo il finanziamento delle transazioni e facilitando i movimenti di capitale.

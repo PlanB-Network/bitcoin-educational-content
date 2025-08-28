@@ -656,7 +656,7 @@ Nykyajan rinnastus voidaan tehdä Christine Lagarden lausuntoihin, jotka viittaa
 
 > Christine Lagarde: "Meidän tulisi olla onnellisempia siitä, että meillä on työpaikka kuin siitä, että säästömme ovat suojattuja."
 
-2. Yksityisomaisuus konfliktien aikana.
+#### 2. Yksityisomaisuus konfliktien aikana
 
 Weimarin tasavallan historiasta paljastuu, että tänä aikana ulkomailla pidetty omaisuus ja pääoma takavarikoitiin. Tämä toimenpide muistuttaa Venäjällä äskettäin, erityisesti konfliktin alussa, tapahtuneita tapahtumia. Nämä tilanteet korostavat huolestuttavaa todellisuutta: kriisiaikoina yksityisomaisuuden kunnioitus voi olla vaarassa. Tämä on historiallinen ja nykyaikainen rinnastus, joka korostaa kriisien mahdollisia seurauksia yksilön oikeuksille.
 

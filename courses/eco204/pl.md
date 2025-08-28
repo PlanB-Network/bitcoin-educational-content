@@ -1055,7 +1055,7 @@ Współczesną paralelę można nakreślić z wypowiedziami Christine Lagarde, s
 
 > Christine Lagarde: "Powinniśmy być szczęśliwsi, mając pracę, niż widząc, że nasze oszczędności są chronione"
 
-2. Własność prywatna w czasach konfliktu.
+#### 2. Własność prywatna w czasach konfliktów
 
 
 Historia Republiki Weimarskiej pokazuje, że w tym okresie aktywa i kapitał przechowywane za granicą zostały skonfiskowane. Środek ten przypomina niedawne wydarzenia w Rosji, zwłaszcza na początku konfliktu. Sytuacje te podkreślają niepokojącą rzeczywistość: w czasach kryzysu poszanowanie własności prywatnej może być zagrożone. Jest to historyczna i współczesna analogia, która podkreśla potencjalne reperkusje kryzysów dla praw jednostki.

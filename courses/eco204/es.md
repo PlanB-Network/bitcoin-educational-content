@@ -653,7 +653,7 @@ Un paralelo contemporáneo se puede trazar con las declaraciones de Christine La
 
 > Christine Lagarde: "Deberíamos estar más contentos de tener un empleo que de ver protegidos nuestros ahorros".
 
-2. Propiedad privada en tiempos de conflictos.
+#### 2. Propiedad privada en tiempos de conflictos
 
 La historia de la República de Weimar revela que, durante este período, los activos y capitales en el extranjero fueron confiscados. Esta medida recuerda eventos más recientes en Rusia, especialmente al comienzo de un conflicto. Estas situaciones ponen de manifiesto una realidad preocupante: en tiempos de crisis, el respeto a la propiedad privada puede verse comprometido. Es un paralelo histórico y contemporáneo que destaca las posibles repercusiones de las crisis en los derechos individuales.
 

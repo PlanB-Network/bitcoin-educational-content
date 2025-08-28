@@ -671,7 +671,7 @@ Kaasaegse paralleeli võib tõmmata Christine Lagarde'i avaldustega, vihjates, e
 
 Christine Lagarde: "Me peaksime olema õnnelikumad töö omamise üle kui näha oma säästude kaitstud olevat."
 
-2. Eraomand konflikti aegadel.
+#### 2. Eraomand konfliktide ajal
 
 Weimari Vabariigi ajalugu paljastab, et sel perioodil konfiskeeriti välismaal hoitavad varad ja kapital. See meede meenutab hiljutisi sündmusi Venemaal, eriti konflikti alguses. Need olukorrad tõstavad esile murettekitava reaalsuse: kriisi ajal võib eraomandi austamine olla ohus. See on ajalooline ja kaasaegne paralleel, mis rõhutab kriiside potentsiaalseid tagajärgi üksikisiku õigustele.
 

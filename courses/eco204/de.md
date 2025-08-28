@@ -690,7 +690,7 @@ Ein zeitgenössischer Vergleich kann mit den Aussagen von Christine Lagarde gezo
 
 > Christine Lagarde: "Wir sollten glücklicher sein, einen Job zu haben, als unsere Ersparnisse geschützt zu sehen."
 
-2. Privateigentum in Konfliktsituationen
+#### 2. Privateigentum in Zeiten von Konflikten
 
 Die Geschichte der Weimarer Republik zeigt, dass während dieser Zeit Vermögenswerte und Kapital im Ausland beschlagnahmt wurden. Diese Maßnahme erinnert an jüngere Ereignisse in Russland, insbesondere zu Beginn eines Konflikts. Diese Situationen verdeutlichen eine besorgniserregende Realität: In Krisenzeiten kann der Respekt vor dem Privateigentum gefährdet sein. Dies ist eine historische und zeitgenössische Parallele, die die potenziellen Auswirkungen von Krisen auf individuelle Rechte aufzeigt.
 

@@ -666,7 +666,7 @@ En samtidsparallell kan trekkes med uttalelsene fra Christine Lagarde, som antyd
 
 > Christine Lagarde: "Vi burde være gladere for å ha en jobb enn å se våre sparepenger beskyttet."
 
-2. Privat eiendom i konfliktperioder.
+#### 2. Privat eiendom i tider med konflikter
 
 Historien om Weimarrepublikken avslører at i løpet av denne perioden ble eiendeler og kapital holdt i utlandet konfiskert. Dette tiltaket minner om mer nylige hendelser i Russland, spesielt ved begynnelsen av en konflikt. Disse situasjonene fremhever en bekymringsfull realitet: i krisetider kan respekten for privat eiendom bli kompromittert. Dette er en historisk og samtidig parallell som understreker de potensielle konsekvensene av kriser på individuelle rettigheter.
 

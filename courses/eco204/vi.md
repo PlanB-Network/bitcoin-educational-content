@@ -674,7 +674,7 @@ Một thế giới song song hiện đại có thể được rút ra từ các 
 
 > Christine Lagarde: "Chúng ta nên hạnh phúc khi có việc làm hơn là thấy khoản tiết kiệm của mình được bảo vệ."
 
-2. Tài sản tư nhân trong thời kỳ xung đột.
+#### 2. Tài sản tư nhân trong thời kỳ xung đột
 
 Lịch sử của Cộng hòa Weimar tiết lộ rằng trong giai đoạn này, tài sản và vốn được giữ ở nước ngoài đã bị tịch thu. Biện pháp này nhắc nhở về các sự kiện gần đây hơn ở Nga, đặc biệt là vào đầu một cuộc xung đột. Những tình huống này làm nổi bật một thực tế đáng lo ngại: trong thời kỳ khủng hoảng, sự tôn trọng đối với tài sản tư nhân có thể bị xâm phạm. Đây là một thế giới song song giữa lịch sử và hiện đại nhấn mạnh về những hậu quả tiềm ẩn của các cuộc khủng hoảng đối với quyền cá nhân.
 

@@ -1054,7 +1054,7 @@ Er is een hedendaagse parallel te trekken met de uitspraken van Christine Lagard
 
 > Christine Lagarde: "We zouden blijer moeten zijn dat we een baan hebben dan dat ons spaargeld beschermd is."
 
-2. Privébezit in tijden van conflict.
+#### 2. Privé-eigendom in tijden van conflicten
 
 
 De geschiedenis van de Weimarrepubliek onthult dat in deze periode bezittingen en kapitaal in het buitenland in beslag werden genomen. Deze maatregel doet denken aan meer recente gebeurtenissen in Rusland, vooral aan het begin van een conflict. Deze situaties benadrukken een verontrustende realiteit: in tijden van crisis kan het respect voor privébezit in het gedrang komen. Dit is een historische en hedendaagse parallel die de mogelijke repercussies van crises op individuele rechten onderstreept.

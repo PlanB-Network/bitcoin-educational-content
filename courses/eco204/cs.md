@@ -664,7 +664,7 @@ Současný paralelismus lze nalézt ve vyjádřeních Christine Lagardeové, kte
 
 > Christine Lagardeová: "Měli bychom být šťastnější mít práci, než vidět naše úspory chráněné."
 
-2. Soukromý majetek v dobách konfliktu.
+#### 2. Soukromý majetek v době konfliktů
 
 Historie Výmarské republiky odhaluje, že v tomto období byla aktiva a kapitál držený v zahraničí konfiskován. Toto opatření připomíná nedávné události v Rusku, zejména na začátku konfliktu. Tyto situace zdůrazňují znepokojivou realitu: v dobách krize může být ohrožen respekt k soukromému majetku. Jedná se o historický a současný paralelismus, který zdůrazňuje možné důsledky krizí na individuální práva.
 

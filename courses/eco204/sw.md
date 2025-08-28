@@ -773,7 +773,7 @@ Katika historia ya Jamhuri ya Weimar, ni dhahiri kwamba wenye viwanda walisita k
 Uwiano wa kisasa unaweza kuchorwa na kauli za Christine Lagarde, akipendekeza kwamba wananchi wanapaswa kutanguliza matarajio ya ajira badala ya ulinzi wa akiba zao. Kama tu wanaviwanda wa Weimar, anaonekana kutetea uchapishaji wa fedha kama chombo cha kuchochea ajira, kwa gharama ya thamani ya akiba.
 
 > Christine Lagarde: "Tunapaswa kuwa na furaha zaidi kuwa na kazi kuliko kuona akiba yetu inalindwa."
-2. Mali ya kibinafsi wakati wa migogoro.
+#### 2. Mali binafsi wakati wa migogoro
 
 Historia ya Jamhuri ya Weimar inaonyesha kwamba katika kipindi hiki, mali na mitaji iliyoshikiliwa nje ya nchi ilichukuliwa. Hatua hii inakumbuka matukio ya hivi karibuni zaidi nchini Urusi, hasa mwanzoni mwa mzozo. Hali hizi zinaangazia ukweli unaohusu: wakati wa shida, heshima kwa mali ya kibinafsi inaweza kuathiriwa. Huu ni ulinganifu wa kihistoria na wa kisasa ambao unasisitiza uwezekano wa athari za migogoro kwenye haki za mtu binafsi.
 

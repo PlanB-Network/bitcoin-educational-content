@@ -662,7 +662,7 @@ Sebuah paralel kontemporer dapat ditarik dengan pernyataan Christine Lagarde, ya
 
 > Christine Lagarde: "Kita seharusnya lebih senang memiliki pekerjaan daripada melihat tabungan kita dilindungi."
 
-2. Properti pribadi di masa konflik.
+#### 2. Properti pribadi pada masa konflik
 
 Sejarah Republik Weimar mengungkapkan bahwa selama periode ini, aset dan modal yang dipegang di luar negeri disita. Langkah ini mengingatkan pada peristiwa lebih baru di Rusia, terutama di awal konflik. Situasi-situasi ini menyoroti realitas yang mengkhawatirkan: dalam masa krisis, penghormatan terhadap properti pribadi dapat dikompromikan. Ini adalah paralel historis dan kontemporer yang menekankan potensi dampak krisis terhadap hak individu.
 

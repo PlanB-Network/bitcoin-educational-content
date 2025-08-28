@@ -663,7 +663,7 @@ Un parallelo contemporaneo può essere tracciato con le dichiarazioni di Christi
 
 > Christine Lagarde: "Dovremmo essere più felici di avere un lavoro piuttosto che vedere i nostri risparmi protetti."
 
-2. Proprietà privata in tempi di conflitto
+#### 2. Proprietà privata in tempi di conflitti
 
 La storia della Repubblica di Weimar rivela che, durante questo periodo, gli averi e i capitali detenuti all'estero furono confiscati. Questa misura richiama eventi più recenti in Russia, soprattutto all'inizio di un conflitto. Queste situazioni mettono in evidenza una realtà preoccupante: in periodi di crisi, il rispetto della proprietà privata può essere compromesso. È un parallelo storico e contemporaneo che sottolinea le potenziali ripercussioni delle crisi sui diritti individuali.
 

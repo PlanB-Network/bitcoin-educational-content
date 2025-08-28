@@ -1053,7 +1053,7 @@ Savremena paralela može se povući sa izjavama Christine Lagarde, koje sugeriš
 
 > Christine Lagarde: "Treba da budemo srećniji što imamo posao nego što su nam ušteđevine zaštićene."
 
-2. Privatna svojina u vremenima sukoba.
+#### 2. Privatna svojina u vreme sukoba
 
 
 Istorija Vajmarske Republike otkriva da su tokom ovog perioda, imovina i kapital držani u inostranstvu bili konfiskovani. Ova mera podseća na novije događaje u Rusiji, posebno na početku konflikta. Ove situacije ističu zabrinjavajuću stvarnost: u vremenima krize, poštovanje privatne svojine može biti ugroženo. Ovo je istorijska i savremena paralela koja naglašava potencijalne posledice kriza na individualna prava.

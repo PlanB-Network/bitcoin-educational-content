@@ -1055,7 +1055,7 @@ En nutida parallell kan dras till Christine Lagardes uttalanden, där hon föres
 
 > Christine Lagarde: "Vi borde vara gladare över att ha ett jobb än att se våra besparingar skyddade."
 
-2. Privat egendom i konflikttider.
+#### 2. Privat egendom i tider av konflikter
 
 
 Av Weimarrepublikens historia framgår att tillgångar och kapital som innehades utomlands konfiskerades under denna period. Denna åtgärd påminner om mer aktuella händelser i Ryssland, särskilt i början av en konflikt. Dessa situationer belyser en oroande verklighet: i kristider kan respekten för privat egendom äventyras. Detta är en historisk och nutida parallell som understryker krisers potentiella återverkningar på individuella rättigheter.

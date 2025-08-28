@@ -1056,7 +1056,7 @@ Christine Lagarde'ın vatandaşların tasarruflarını korumak yerine istihdam b
 
 > Christine Lagarde: "Tasarruflarımızın korunduğunu görmektense bir iş sahibi olmaktan daha mutlu olmalıyız."
 
-2. Çatışma zamanlarında özel mülkiyet.
+#### 2. Çatışma zamanlarında özel mülkiyet
 
 
 Weimar Cumhuriyeti'nin tarihi, bu dönemde yurtdışında tutulan varlıklara ve sermayeye el konulduğunu ortaya koymaktadır. Bu önlem, Rusya'da daha yakın zamanda, özellikle de bir çatışmanın başlangıcında yaşanan olayları hatırlatmaktadır. Bu durumlar endişe verici bir gerçeğin altını çizmektedir: kriz zamanlarında özel mülkiyete saygı tehlikeye girebilir. Bu, krizlerin bireysel haklar üzerindeki potansiyel yansımalarının altını çizen tarihsel ve güncel bir paralelliktir.

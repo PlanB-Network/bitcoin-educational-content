@@ -694,7 +694,7 @@ A contemporary parallel can be drawn with Christine Lagarde's statements, sugges
 
 > Christine Lagarde: "We should be happier to have a job than to see our savings protected."
 
-2. Private property in times of conflict.
+#### 2. Private property in times of conflict
 
 The history of the Weimar Republic reveals that during this period, assets and capital held abroad were confiscated. This measure recalls more recent events in Russia, especially at the beginning of a conflict. These situations highlight a concerning reality: in times of crisis, respect for private property can be compromised. This is a historical and contemporary parallel that underscores the potential repercussions of crises on individual rights.
 

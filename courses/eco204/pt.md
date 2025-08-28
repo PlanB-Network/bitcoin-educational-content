@@ -496,7 +496,7 @@ A velocidade com que a moeda pode perder seu valor em determinadas situações e
 
 > Zimbábue: "Em 17 de setembro de 2006, o governador do RBZ, Gideon Gono, declarou: '10 trilhões ainda estão por aí e viraram esterco.'"
 
-3. Cédulas que valem menos do que o papel em que são impressas
+#### 3. As notas valem menos do que o papel em que são impressas
    Em certas circunstâncias econômicas, o valor intrínseco de uma nota pode se tornar inferior ao valor do papel em que ela é impressa. Essa desvalorização drástica transforma as notas de dinheiro, normalmente símbolos de valor e poder de compra, em simples pedaços de papel sem valor de mercado.
    > Weimar: "Denominações inteiras de notas em marcos não tinham valor quase imediatamente após saírem da impressora."
 

@@ -785,7 +785,7 @@ Szybkość, z jaką waluta może stracić na wartości w pewnych sytuacjach gosp
 
 > Zimbabwe: "17 września 2006 r. gubernator RBZ, Gideon Gono, oświadczył: '10 bilionów wciąż tam jest i stało się gnojem'"
 
-3. Banknoty warte mniej niż papier, na którym zostały wydrukowane
+#### 3. Banknoty są warte mniej niż papier, na którym są drukowane
 
 W pewnych okolicznościach gospodarczych wartość wewnętrzna banknotu może stać się niższa niż wartość papieru, na którym został wydrukowany. Ta drastyczna deprecjacja sprawia, że banknoty, które normalnie są symbolem wartości i siły nabywczej, stają się zwykłymi kawałkami bezwartościowego papieru.
 

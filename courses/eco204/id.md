@@ -471,7 +471,7 @@ Kecepatan di mana mata uang dapat kehilangan nilainya dalam situasi ekonomi tert
 Weimar: "Total penerbitan saat ini mencapai 63.000 miliar. Dalam beberapa hari, kami akan dapat menerbitkan dua pertiga dari total peredaran dalam satu hari."
 Zimbabwe: "Pada 17 September 2006, gubernur RBZ, Gideon Gono, menyatakan: 'Masih ada 10 triliun di luar sana, dan itu telah menjadi pupuk.'"
 
-3. Uang kertas bernilai lebih rendah dari kertas tempat mereka dicetak
+#### 3. Uang kertas bernilai lebih rendah daripada kertas tempat mereka dicetak
    Dalam kondisi ekonomi tertentu, nilai intrinsik uang kertas dapat menjadi lebih rendah dari nilai kertas tempat mereka dicetak. Penurunan nilai drastis ini mengubah uang kertas, yang biasanya merupakan simbol nilai dan kekuatan beli, menjadi sekadar potongan kertas tak bernilai.
    > Weimar: "Seluruh denominasi uang kertas mark hampir tidak bernilai segera setelah keluar dari mesin cetak."
 

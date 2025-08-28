@@ -785,7 +785,7 @@ De snelheid waarmee geld zijn waarde kan verliezen in bepaalde economische situa
 
 > Zimbabwe: "Op 17 september 2006 verklaarde de gouverneur van de RBZ, Gideon Gono: '10 biljoen is er nog steeds, en het is mest geworden
 
-3. Bankbiljetten die minder waard zijn dan het papier waarop ze gedrukt zijn
+#### 3. Bankbiljetten zijn minder waard dan het papier waarop ze zijn gedrukt
 
 In bepaalde economische omstandigheden kan de intrinsieke waarde van een bankbiljet lager worden dan de waarde van het papier waarop het gedrukt is. Door deze drastische waardevermindering worden bankbiljetten, die normaal gesproken symbolen van waarde en koopkracht zijn, slechts stukken waardeloos papier.
 

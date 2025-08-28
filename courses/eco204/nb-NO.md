@@ -472,7 +472,7 @@ Farten som valuta kan miste sin verdi i visse økonomiske situasjoner er forblø
 Weimar: "Det nåværende totale utstedelsesbeløpet er på 63 000 milliarder. Om noen dager vil vi derfor kunne utstede to tredjedeler av den totale sirkulasjonen på én dag."
 Zimbabwe: "Den 17. september 2006 erklærte guvernøren i RBZ, Gideon Gono: '10 billioner er fortsatt der ute, og det har blitt til gjødsel.'"
 
-3. Sedler verdt mindre enn papiret de er trykket på
+#### 3. Sedlene er mindre verdt enn papiret de er trykt på
    I visse økonomiske situasjoner kan den iboende verdien av en seddel bli lavere enn verdien av papiret den er trykket på. Denne drastiske verdiforringelsen gjør sedler, som normalt er symboler på verdi og kjøpekraft, til rene verdiløse papirbiter.
    > Weimar: "Hele valører av mark-sedler var nesten verdiløse så snart de kom ut av trykkpressen."
 

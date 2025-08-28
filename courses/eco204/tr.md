@@ -785,7 +785,7 @@ Belirli ekonomik durumlarda paranın değerini kaybetme hızı hayret vericidir.
 
 > Zimbabve: "17 Eylül 2006'da RBZ Başkanı Gideon Gono, '10 trilyon hala dışarıda ve gübre haline geldi' dedi."
 
-3. Banknotların değeri basıldıkları kağıttan daha azdır
+#### 3. Banknotlar, basıldıkları kağıttan daha az değerlidir
 
 Belirli ekonomik koşullarda, bir banknotun gerçek değeri, üzerine basıldığı kağıdın değerinden daha düşük hale gelebilir. Bu ciddi değer kaybı, normalde değer ve satın alma gücü sembolü olan banknotları sadece değersiz kağıt parçalarına dönüştürür.
 

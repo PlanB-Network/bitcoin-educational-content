@@ -785,7 +785,7 @@ Den hastighet med vilken valuta kan förlora sitt värde i vissa ekonomiska situ
 
 > Zimbabwe: "Den 17 september 2006 förklarade chefen för RBZ, Gideon Gono: '10 biljoner finns fortfarande där ute, och de har blivit gödsel'."
 
-3. Sedlar värda mindre än det papper de är tryckta på
+#### 3. Sedlar är mindre värda än papperet de är tryckta på
 
 Under vissa ekonomiska omständigheter kan en sedels inneboende värde bli lägre än värdet på det papper som den är tryckt på. Denna drastiska värdeminskning gör att sedlar, som normalt är symboler för värde och köpkraft, bara blir värdelösa pappersbitar.
 

@@ -472,7 +472,7 @@ Rychlost, s jakou může měna ztrácet hodnotu v určitých ekonomických situa
 Weimar: "Současná celková emise činí 63 000 miliard. Za několik dní budeme tedy schopni vydat dvě třetiny celkového oběhu za jeden den."
 Zimbabwe: "Dne 17. září 2006 prohlásil guvernér RBZ, Gideon Gono: 'Ještě je venku 10 bilionů a stalo se z nich hnojivo.'"
 
-3. Bankovky méně hodnotné než papír, na kterém jsou tištěné
+#### 3. Bankovky mají menší hodnotu než papír, na kterém jsou vytištěny
    V určitých ekonomických situacích může být vnitřní hodnota bankovky nižší než hodnota papíru, na kterém je tištěna. Tato drastická devalvace proměňuje bankovky, které jsou obvykle symbolem hodnoty a kupní síly, v pouhé kusy bezcenného papíru.
    > Weimar: "Celé nominální hodnoty markových bankovek byly téměř bezcenné, jakmile vyšly z tiskárny."
 

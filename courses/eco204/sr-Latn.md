@@ -785,7 +785,7 @@ Brzina kojom valuta može izgubiti svoju vrednost u određenim ekonomskim situac
 
 > Zimbabve: "Dana 17. septembra 2006. godine, guverner RBZ-a, Gideon Gono, izjavio je: '10 triliona je još uvek tamo, i postalo je đubrivo.'"
 
-3. Novčanice vredne manje od papira na kojem su odštampane
+#### 3. Novčanice vrede manje od papira na kojem su odštampane
 
 U određenim ekonomskim okolnostima, intrinzična vrednost novčanice može postati niža od vrednosti papira na kojem je odštampana. Ova drastična deprecijacija pretvara novčanice, koje su inače simboli vrednosti i kupovne moći, u obične komade bezvrednog papira.
 

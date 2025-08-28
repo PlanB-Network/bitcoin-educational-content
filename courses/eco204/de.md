@@ -490,7 +490,7 @@ Die Geschwindigkeit, mit der die Währung in bestimmten wirtschaftlichen Situati
 
 > Simbabwe: "Am 17. September 2006 erklärte der Gouverneur der RBZ, Gideon Gono: '10 Billionen sind immer noch da und es ist zu Mist geworden.'"
 
-3. Die Banknoten sind weniger wert als das Papier, auf dem sie gedruckt sind.
+#### 3. Die Geldscheine sind weniger wert als das Papier, auf dem sie gedruckt sind
    In bestimmten wirtschaftlichen Umständen kann der intrinsische Wert eines Geldscheins geringer sein als der Wert des Papiers, auf dem er gedruckt ist. Diese drastische Abwertung verwandelt Banknoten, die normalerweise Symbole für Wert und Kaufkraft sind, in wertlose Stücke Papier.
    > Weimar: "Ganze Geldscheine in Mark waren praktisch wertlos, sobald sie die Druckerei verließen."
 

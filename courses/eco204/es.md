@@ -452,7 +452,7 @@ La velocidad con la que la moneda puede perder su valor en ciertas situaciones e
 > Zimbabue: "El 17 de septiembre de 2006, el gobernador del RBZ, Gideon Gono, declaró: '10 billones aún están ahí fuera y se han convertido en estiércol.'"
 
 
-3. Billetes que valen menos que el papel en el que están impresos
+#### 3. Los billetes valen menos que el papel en el que están impresos
    En ciertas circunstancias económicas, el valor intrínseco de un billete puede llegar a ser inferior al valor del papel en el que está impreso. Esta depreciación drástica convierte a los billetes de banco, que normalmente son símbolos de valor y poder adquisitivo, en simples trozos de papel sin valor de mercado.
    > Weimar: "Las denominaciones enteras de billetes en marcos no tenían valor casi desde que salían de la imprenta".
 

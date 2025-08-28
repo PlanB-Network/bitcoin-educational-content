@@ -459,7 +459,7 @@ La velocità con cui la moneta può perdere il suo valore in certe situazioni ec
 > Zimbabwe: "Il 17 settembre 2006, il governatore della RBZ, Gideon Gono, dichiarò: '10 trilioni sono ancora in circolazione ed è diventato letame.'"
 
 
-3. Banconote che valgono meno della carta su cui sono stampate
+#### 3. Le banconote valgono meno della carta su cui sono stampate
    In alcune circostanze economiche, il valore intrinseco di una banconota può diventare inferiore al valore della carta su cui è stampata. Questa drastica svalutazione trasforma le banconote, normalmente simboli di valore e potere d'acquisto, in semplici pezzi di carta senza valore di mercato.
 
 > Weimar: "Interi tagli di banconote in marchi erano senza valore quasi appena usciti dalla stampa."

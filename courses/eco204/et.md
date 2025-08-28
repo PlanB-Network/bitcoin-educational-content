@@ -474,7 +474,7 @@ Valuuta väärtuse kiire kaotamine teatud majandusolukordades on hämmastav. Ast
 Weimar: "Praegune koguväljaanne ulatub 63 000 miljardi euroni. Mõne päeva pärast suudame seega ühe päevaga välja lasta kaks kolmandikku kogu ringlusest."
 Zimbabwe: "17. septembril 2006 kuulutas RBZ-i kuberner Gideon Gono: '10 triljonit on endiselt väljas ja see on muutunud sõnnikuks.'"
 
-3. Pangatähed, mis on vähem väärt kui paber, millele need on trükitud
+#### 3. Paberraha on vähem väärt kui paber, millele see on trükitud
    Teatud majandusolukordades võib pangatähe sisemine väärtus muutuda madalamaks kui paber, millele see on trükitud. See drastiline väärtuse langus muudab pangatähed, mis on tavaliselt väärtuse ja ostujõu sümbolid, lihtsalt väärtusetuteks paberitükkideks.
    > Weimar: "Terveid markade pangatähtede nimiväärtusi peeti peaaegu väärtusetuks kohe, kui need trükikojast väljusid."
 

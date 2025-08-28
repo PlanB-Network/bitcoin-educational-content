@@ -574,7 +574,7 @@ Kasi ambayo sarafu inaweza kupoteza thamani yake katika hali fulani za kiuchumi 
 
 > Weimar: "Toleo la sasa la jumla linafikia bilioni 63,000. Katika siku chache, kwa hiyo tutaweza kutoa theluthi mbili ya mzunguko wa jumla kwa siku moja."
 > Zimbabwe: "Mnamo Septemba 17, 2006, gavana wa RBZ, Gideon Gono, alitangaza: 'trilioni 10 bado ziko nje, na imekuwa mbolea."
-3. Noti zenye thamani ndogo kuliko karatasi ambazo zimechapishwa
+#### 3. Noti zina thamani ndogo kuliko karatasi ambazo zimechapishwa juu yake
 
 Katika hali fulani za kiuchumi, thamani halisi ya noti inaweza kuwa chini kuliko thamani ya karatasi iliyochapishwa. Uchakavu huu wa hali ya juu hugeuza noti, ambazo kwa kawaida ni alama za thamani na uwezo wa kununua, kuwa vipande tu vya karatasi zisizo na thamani.
 

@@ -470,7 +470,7 @@ Tốc độ mà đồng tiền có thể bị mất giá trị trong một số 
 
 > Zimbabwe: "Vào ngày 17 tháng 9 năm 2006, thống đốc RBZ, Gideon Gono, tuyên bố: '10 nghìn tỷ vẫn còn ở ngoài đó, và chúng đã trở thành phân bón.'"
 
-3. Tiền giấy ít giá trị hơn giấy in
+#### 3. Tiền giấy có giá trị thấp hơn tờ giấy mà chúng được in trên đó
    Trong một số hoàn cảnh kinh tế, giá trị nội tại của một tờ tiền giấy có thể trở nên thấp hơn giá trị của giấy in. Sự mất giá trị nghiêm trọng này biến tiền giấy, thường là biểu tượng của giá trị và sức mua, thành những mảnh giấy vô giá trị.
    > Weimar: "Toàn bộ các tờ tiền giấy theo mệnh giá mark gần như không có giá trị ngay từ khi chúng ra khỏi máy in."
 

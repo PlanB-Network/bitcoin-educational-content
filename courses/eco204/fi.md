@@ -466,7 +466,7 @@ Se nopeus, jolla valuutta voi menettää arvonsa tietyissä taloustilanteissa, o
 Weimar: "Nykyinen kokonaisliikkeeseenlasku on 63 000 miljardia. Muutaman päivän sisällä voimme siis laskea liikkeeseen kaksi kolmasosaa koko kierrosta yhdessä päivässä."
 Zimbabwe: "17. syyskuuta 2006 RBZ:n pääjohtaja Gideon Gono julisti: '10 biljoonaa on yhä ulkona, ja siitä on tullut lantaa.'"
 
-3. Setelit, jotka ovat arvottomampia kuin niiden painopaperi
+#### 3. Setelit ovat vähemmän arvokkaita kuin paperi, jolle ne on painettu
    Tietyissä taloudellisissa olosuhteissa setelin sisäinen arvo voi muuttua alemmaksi kuin sen painopaperin arvo. Tämä jyrkkä arvon aleneminen muuttaa setelit, jotka ovat normaalisti arvon ja ostovoiman symboleita, pelkiksi arvottomiksi paperipaloiksi.
    > Weimar: "Koko markkasetelisarjat olivat lähes arvottomia heti tullessaan painokoneesta."
 

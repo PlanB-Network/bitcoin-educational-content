@@ -494,7 +494,7 @@ The speed at which currency can lose its value in certain economic situations is
 
 > Zimbabwe: "On September 17, 2006, the governor of the RBZ, Gideon Gono, declared: '10 trillion is still out there, and it has become manure.'"
 
-3. Banknotes worth less than the paper they are printed on
+#### 3. Banknotes are worth less than the paper they are printed on
    In certain economic circumstances, the intrinsic value of a banknote can become lower than the value of the paper it is printed on. This drastic depreciation turns banknotes, which are normally symbols of value and purchasing power, into mere pieces of worthless paper.
    > Weimar: "Entire denominations of marks banknotes were almost worthless as soon as they came out of the printing press."
 

@@ -555,7 +555,10 @@ Kokkuvariseva majanduse ja laialdaste regulatsioonide valguses muutub ellujääm
 
 Weimar: "Kõik riigi vastased kuriteod, igaüks neist erineval määral, said üksikisikute ellujäämise küsimuseks."
 
-Zimbabwe: "Iga Zimbabwe elanik oli kurjategija. Nii karmilt kui see ka ei kõla, oli see tõsi. Arvukate väikeste seaduste tõttu, mis reguleerisid elu igat aspekti, oli paratamatu, et igaüks rikkus iga päev mingit seadust. Välisvaluuta omamine oli ebaseaduslik, vastavalt 2004. aastal avaldatud SI-le. Mitme pangakonto omamine, et mööda minna igapäevasest väljavõtmise piirangust, oli ebaseaduslik. Õigete numbrimärkide puudumine autol või autoraadio litsentsi või generaatori loa puudumine olid kõik seadused, mida keegi, kuskil rikkus." 13. Võõrvaluutade ostmine igas hinnas
+> Zimbabwe: „Iga Zimbabwe elanik oli kurjategija. Nii karm kui see ka ei kõla, see oli tõsi. Lugematute väikeste seadustega, mis reguleerisid iga elu aspekti, oli vältimatu, et igaüks rikkus iga päev mõnda seadust. Välisvaluuta omamine oli ebaseaduslik vastavalt 2004. aastal avaldatud SI-le. Mitme pangakonto omamine, et mööda hiilida igapäevasest väljavõtupiirangust, oli ebaseaduslik. Valede numbrimärkide puudumine autol, autoradio litsentsi või generaatori loa puudumine olid kõik seadused, mida keegi kuskil rikkus.“
+
+#### 13. Osta välisvaluutat iga hinna eest
+
 Võõrvaluutade meeleheitlik ostmine on sageli märgistanud kriitilist pöördepunkti valuuta devalveerimises, süvendades langust sisemises väärtuses.
 
 > Weimar: "Mannheimer, oma ülemuse juhiste järgi, läks augustis 1921 välja ja hakkas ostma võõrvaluutasid igas hinnas - 'sest Saksamaal oli lõputu hulk paberimarke, kuid mitte võõrvaluutasid.' See oli esimene märk margi väärtuse absoluutsest kokkuvarisemisest."

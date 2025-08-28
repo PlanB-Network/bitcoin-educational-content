@@ -908,7 +908,9 @@ In het licht van een instortende economie en alomtegenwoordige regelgeving verva
 Weimar: "Alle misdaden tegen de staat, stuk voor stuk, in verschillende mate, werden een kwestie van overleven voor individuen."
 
 
-Zimbabwe: "Elke inwoner van Zimbabwe was een crimineel. Hoe hard het ook mag klinken, het was waar. Met de talloze kleine wetten die elk aspect van het leven regelden, was het onvermijdelijk dat iedereen elke dag een wet overtrad. Vreemde valuta bezitten was illegaal, volgens een SI gepubliceerd in 2004. Het hebben van meerdere bankrekeningen om de dagelijkse opnamelimiet te omzeilen was illegaal. Het niet hebben van de juiste nummerplaten op je auto, of geen autoradiovergunning of generatorvergunning, waren allemaal wetten die iemand, ergens, overtrad." 13. Buitenlandse valuta kopen tegen elke prijs
+> Zimbabwe: “Elke inwoner van Zimbabwe was een crimineel. Hoe hard het ook klinkt, het was waar. Met de talloze kleine wetten die elk aspect van het leven regelden, was het onvermijdelijk dat iedereen elke dag een wet overtrad. Het bezitten van vreemde valuta was illegaal, volgens een SI gepubliceerd in 2004. Het hebben van meerdere bankrekeningen om de dagelijkse opnamebeperking te omzeilen was illegaal. Het niet hebben van de juiste kentekenplaten op uw auto, of geen autoradiolicentie of geen generatorvergunning, waren allemaal wetten die iemand, ergens, overtrad.”
+
+#### 13. Buitenlandse valuta kopen tegen elke prijs
 
 De verwoede aankoop van vreemde valuta's is vaak een kritiek keerpunt geweest in de devaluatie van valuta's, waardoor de daling van de intrinsieke waarde verergerd is.
 

@@ -546,9 +546,9 @@ Di fronte a un'economia in rovina e a regolamentazioni onnipresenti, il confine 
 
 Weimar: "Tutti i crimini contro lo Stato, ognuno di essi, in varie misure, diventavano una questione di sopravvivenza per gli individui."
 
-Zimbabwe: "Ogni residente in Zimbabwe era un criminale. Per quanto duro possa sembrare, era vero. Con la miriade di piccole leggi che regolavano ogni aspetto della vita, era inevitabile che ognuno violasse una legge ogni giorno. Possedere valute straniere era illegale, secondo un SI pubblicato nel 2004. Avere più conti bancari per aggirare il limite giornaliero di prelievo era illegale. Non avere le giuste targhe sulla tua auto, o non avere una licenza radio per l'auto o non avere un permesso per il generatore, erano tutte leggi che qualcuno, da qualche parte, stava violando."
+> Zimbabwe: “Ogni residente in Zimbabwe era un criminale. Per quanto duro possa sembrare, era vero. Con la miriade di piccole leggi che regolavano ogni aspetto della vita, era inevitabile che ciascuno infrangesse una legge ogni giorno. Possedere valuta estera era illegale, secondo un SI pubblicato nel 2004. Avere più conti bancari per aggirare il limite giornaliero di prelievo era illegale. Non avere le targhe corrette sull’auto, o la licenza per la radio dell’auto o il permesso per il generatore, erano tutte leggi che qualcuno, da qualche parte, stava violando.”
 
-13. Acquistare valuta estera a qualsiasi prezzo
+#### 13. Comprare valuta estera a qualsiasi prezzo
 
 L'acquisto frenetico di valuta estera spesso ha segnato una svolta critica nella svalutazione monetaria, aggravando la caduta del valore intrinseco.
 

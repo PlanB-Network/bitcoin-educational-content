@@ -535,9 +535,9 @@ Ante una economía en ruinas y regulaciones omnipresentes, la línea entre la su
 
 Weimar: "Todos los delitos contra el Estado, cada uno de ellos, en diferentes grados, se convirtieron en una cuestión de supervivencia para los individuos".
 
-Zimbabwe: "Cada residente en Zimbabwe era un criminal. Por más duro que suene, era cierto. Con la miríada de pequeñas leyes que regulaban cada aspecto de la vida, era inevitable que cada uno infringiera una ley todos los días. Poseer moneda extranjera era ilegal, según un SI publicado en 2004. Tener varias cuentas bancarias para evadir el límite diario de retiro era ilegal. No tener las placas de matrícula correctas en tu automóvil, o no tener una licencia de radio para el automóvil o un permiso para el generador, eran tantas leyes que alguien, en algún lugar, estaba infringiendo".
+> Zimbabue: “Cada residente en Zimbabue era un criminal. Por duro que parezca, era verdad. Con la miríada de pequeñas leyes que regulaban cada aspecto de la vida, era inevitable que todos infringieran una ley cada día. Poseer moneda extranjera era ilegal, según un SI publicado en 2004. Tener varias cuentas bancarias para eludir el límite diario de retiro era ilegal. No tener las matrículas correctas en el coche, o la licencia de radio de coche, o el permiso de generador, eran todas leyes que alguien, en algún lugar, infringía.”
 
-13. Compra de divisas extranjeras a cualquier precio
+#### 13. Comprar divisas extranjeras a cualquier precio
 
 La compra frenética de divisas extranjeras a menudo ha marcado un punto crítico en la devaluación monetaria, exacerbando la caída del valor intrínseco.
 

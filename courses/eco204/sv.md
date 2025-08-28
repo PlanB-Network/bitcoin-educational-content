@@ -908,7 +908,9 @@ I en ekonomi som kollapsar och med omfattande regleringar blir gränsen mellan �
 Weimar: "Alla brott mot staten, vart och ett av dem, i varierande grad, blev en fråga om överlevnad för individer."
 
 
-Zimbabwe: "Varje invånare i Zimbabwe var en brottsling. Hur hårt det än kan låta så var det sant. Med den myriad av små lagar som styr varje aspekt av livet var det oundvikligt att alla skulle bryta mot en lag varje dag. Att äga utländsk valuta var olagligt, enligt en SI-rapport som publicerades 2004. Att ha flera bankkonton för att kringgå den dagliga uttagsgränsen var olagligt. Att inte ha rätt registreringsskyltar på sin bil, eller att inte ha tillstånd för bilradio eller generator, var lagar som någon, någonstans, bröt mot." 13. Köpa utländska valutor till vilket pris som helst
+> Zimbabwe: ”Varje invånare i Zimbabwe var en brottsling. Hur hårt det än låter, var det sant. Med de otaliga små lagar som reglerade varje aspekt av livet var det oundvikligt att alla bröt mot en lag varje dag. Att inneha utländsk valuta var olagligt, enligt ett SI publicerat 2004. Att ha flera bankkonton för att kringgå det dagliga uttagsbegränsningen var olagligt. Att inte ha rätt registreringsskyltar på bilen, eller ingen bilradiolicens eller inget generatorstillstånd, var alla lagar som någon, någonstans, bröt mot.”
+
+#### 13. Köp utländsk valuta till varje pris
 
 Det frenetiska köpet av utländsk valuta har ofta markerat en kritisk vändpunkt i valutadevalveringen och förvärrat nedgången i det inneboende värdet.
 

@@ -545,10 +545,11 @@ Kun talous romahtaa ja sääntely on kaikkialla läsnä, selviytymisen ja rikoll
 
 Weimar: "Kaikki valtiota vastaan tehdyt rikokset, jokainen niistä eri asteissa, tulivat yksilöiden selviytymiskysymykseksi."
 
-Zimbabwe: "Jokainen Zimbabwen asukas oli rikollinen. Vaikka se kuulostaa kovalta, se oli totta. Lukuisien pienten lakien hallitessa jokaista elämän osa-aluetta, oli väistämätöntä, että jokainen rikkoi lakia joka päivä. Ulkomaan valuutan omistaminen oli laitonta, 2004 julkaistun SI:n mukaan. Useiden pankkitilien pitäminen päivittäisen nostorajan kiertämiseksi oli laitonta. Auton oikeiden rekisterikilpien puuttuminen, tai auton radion luvan tai generaattoriluvan puuttuminen, olivat kaikki lakeja, joita joku, jossain rikkoi."
+> Zimbabwe: ”Jokainen Zimbabwen asukas oli rikollinen. Niin kovalta kuin se saattaa kuulostaa, se oli totta. Lukuisien pienten lakien hallitessa jokaista elämän osa-aluetta oli väistämätöntä, että jokainen rikkoi lakia joka päivä. Ulkomaisen valuutan hallussapito oli laitonta SI:n mukaan, joka julkaistiin vuonna 2004. Useiden pankkitilien omistaminen päivittäisen nostorajan kiertämiseksi oli laitonta. Väärien rekisterikilpien puuttuminen autosta, autoradioluvan tai generaattoriluvan puuttuminen olivat kaikki lakeja, joita joku, jossain, rikkoi.”
 
-13. Ulkomaan valuuttojen ostaminen hinnalla millä hyvänsä
-    Ulkomaan valuuttojen epätoivoinen ostaminen on usein merkinnyt kriittistä käännekohtaa valuutan arvon alenemisessa, pahentaen sen sisäisen arvon laskua.
+#### 13. Osta ulkomaan valuuttaa hinnalla millä hyvänsä
+
+Ulkomaan valuuttojen epätoivoinen ostaminen on usein merkinnyt kriittistä käännekohtaa valuutan arvon alenemisessa, pahentaen sen sisäisen arvon laskua.
 
 > Weimar: "Mannheimer, pomonsa ohjeiden mukaan, lähti elokuussa 1921 ostamaan ulkomaan valuuttoja hinnalla millä hyvänsä - 'koska Saksalla oli loputtomasti paperimarkkoja mutta ei ulkomaan valuuttoja.' Tämä oli ensimmäinen merkki markan arvon täydellisestä romahduksesta."
 

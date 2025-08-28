@@ -574,7 +574,10 @@ Angesichts einer zusammenbrechenden Wirtschaft und allgegenwärtiger Vorschrifte
 
 Weimar: "Alle Verbrechen gegen den Staat, jedes einzelne von ihnen, wurden für die Menschen zu einer Frage des Überlebens."
 
-Simbabwe: "Jeder Einwohner in Simbabwe war ein Verbrecher. So hart es auch klingen mag, es war wahr. Mit der Vielzahl von kleinen Gesetzen, die jeden Aspekt des Lebens regelten, war es unvermeidlich, dass jeder jeden Tag gegen ein Gesetz verstieß. Der Besitz ausländischer Währungen war laut einer 2004 veröffentlichten SI illegal. Mehrere Bankkonten zu haben, um das tägliche Abhebungslimit zu umgehen, war illegal. Falsche Nummernschilder am Auto zu haben, keine Autoradio-Lizenz oder keine Generatorlizenz zu haben, waren alles Gesetze, gegen die irgendjemand, irgendwo, verstoßen hat." 13. Kauf von ausländischen Währungen zu jedem Preis
+> Simbabwe: „Jeder Einwohner Simbabwes war ein Verbrecher. So hart es auch klingen mag, es war wahr. Mit der Vielzahl kleiner Gesetze, die jeden Aspekt des Lebens regelten, war es unvermeidlich, dass jeder täglich ein Gesetz brach. Der Besitz von Fremdwährungen war illegal, gemäß einem 2004 veröffentlichten SI. Mehrere Bankkonten zu führen, um das tägliche Auszahlungslimit zu umgehen, war illegal. Falsche Kfz-Kennzeichen, keine Autoradiolizenz oder keine Generatorlizenz – all das waren Gesetze, die jemand, irgendwo, brach.“
+
+#### 13. Fremdwährungen um jeden Preis kaufen
+
 Der frenetische Kauf von ausländischen Währungen hat oft einen kritischen Wendepunkt in der Währungsabwertung markiert und die Abwertung verstärkt.
 
 > Weimar: "Mannheimer ging im August 1921 auf Anweisung seines Chefs aus und begann, ausländische Währungen zu jedem Preis zu kaufen - 'weil Deutschland unendlich viele Papiermark hatte, aber keine ausländischen Währungen.' Dies war das erste Anzeichen für den absoluten Zusammenbruch des Marktwerts."

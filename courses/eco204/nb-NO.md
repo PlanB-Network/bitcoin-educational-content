@@ -553,7 +553,10 @@ I møte med en kollapsende økonomi og gjennomgripende reguleringer, blir linjen
 
 Weimar: "Alle forbrytelser mot staten, hver og en av dem, i varierende grad, ble et spørsmål om overlevelse for individene."
 
-Zimbabwe: "Hver innbygger i Zimbabwe var en kriminell. Hardt som det kan høres ut, var det sant. Med mylderet av små lover som styrte alle aspekter av livet, var det uunngåelig at alle ville bryte en lov hver dag. Å eie utenlandsk valuta var ulovlig, ifølge en SI publisert i 2004. Å ha flere bankkontoer for å omgå den daglige uttaksgrensen var ulovlig. Å ikke ha de riktige bilskiltene på bilen din, eller ingen bilradiolisens eller generator tillatelse, var alle lover som noen, et sted, brøt." 13. Kjøper utenlandsk valuta til enhver pris
+> Zimbabwe: "Hver innbygger i Zimbabwe var en kriminell. Så hardt som det kan høres ut, var det sant. Med utallige små lover som regulerte alle aspekter av livet, var det uunngåelig at alle brøt en lov hver dag. Å eie utenlandsk valuta var ulovlig, ifølge en SI publisert i 2004. Å ha flere bankkontoer for å omgå den daglige uttaksgrensen var ulovlig. Å ikke ha riktige bilskilter på bilen, eller bilradiolisens eller generatorlisens, var alle lover som noen, et sted, brøt.”
+
+#### 13. Kjøp utenlandsk valuta for enhver pris
+
 Den frenetiske kjøpingen av utenlandsk valuta har ofte markert et kritisk vendepunkt i valutadevaluering, noe som forverrer fallet i den iboende verdien.
 
 > Weimar: "Mannheimer, på instruks fra sjefen sin, gikk ut i august 1921 og begynte å kjøpe utenlandsk valuta til enhver pris - 'fordi Tyskland hadde en uendelig mengde papirmark, men ingen utenlandske valutaer.' Dette var det første tegnet på det absolutte kollapsen i verdien av marken."

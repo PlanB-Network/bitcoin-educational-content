@@ -908,7 +908,9 @@ W obliczu upadającej gospodarki i wszechobecnych regulacji granica między prze
 Weimar: "Wszystkie przestępstwa przeciwko państwu, każde z nich, w różnym stopniu, stały się kwestią przetrwania dla jednostek"
 
 
-Zimbabwe: "Każdy mieszkaniec Zimbabwe był przestępcą. Choć może to zabrzmieć szorstko, była to prawda. Przy niezliczonej liczbie drobnych przepisów regulujących każdy aspekt życia, nieuniknione było, że każdy codziennie łamał jakieś prawo. Posiadanie obcej waluty było nielegalne, zgodnie z SI opublikowanym w 2004 roku. Posiadanie wielu kont bankowych w celu ominięcia dziennego limitu wypłat było nielegalne. Nieposiadanie odpowiednich tablic rejestracyjnych na samochodzie, brak licencji na radio samochodowe lub pozwolenia na generator były prawami, które ktoś, gdzieś, łamał" 13. Kupowanie walut obcych za wszelką cenę
+> Zimbabwe: „Każdy mieszkaniec Zimbabwe był przestępcą. Choć brzmi to surowo, to była prawda. Przy ogromie drobnych przepisów regulujących każdy aspekt życia, nieuchronne było, że każdy codziennie łamał jakieś prawo. Posiadanie obcej waluty było nielegalne, zgodnie z SI opublikowanym w 2004 roku. Posiadanie kilku kont bankowych w celu obejścia dziennego limitu wypłat było nielegalne. Brak odpowiednich tablic rejestracyjnych w samochodzie, brak licencji na radio samochodowe czy brak pozwolenia na generator – to wszystko były przepisy, które ktoś, gdzieś, łamał.”
+
+#### 13. Kupować walutę obcą za wszelką cenę
 
 Szaleńczy zakup walut obcych często stanowił krytyczny punkt zwrotny w dewaluacji waluty, pogłębiając spadek wartości wewnętrznej.
 

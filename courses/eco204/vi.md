@@ -555,10 +555,11 @@ Zimbabwe: "Chỉ còn lại những kệ thép trống rỗng và tủ lạnh, m
 Trước một nền kinh tế sụp đổ và sự lan rộng của các quy định hà khắc, ranh giới giữa sự sống còn và tội phạm trở nên mờ nhạt.
 
 Weimar: "Tất cả các hành vi tội phạm đều bị xem là chống lại nhà nước, mỗi một tội phạm, ở các mức độ khác nhau, trở thành vấn đề sống còn cho các cá nhân."
-Zimbabwe: "Mỗi cư dân ở Zimbabwe đều là tội phạm. Dù nghe có vẻ khắc nghiệt, nhưng đó là sự thật. Với vô số luật lệ nhỏ lẻ điều chỉnh mọi khía cạnh của cuộc sống, việc mỗi người vi phạm một luật nào đó hàng ngày là điều không thể tránh khỏi. Việc sở hữu ngoại tệ là bất hợp pháp, theo một sắc lệnh được công bố vào năm 2004. Việc có nhiều tài khoản ngân hàng để vượt qua giới hạn rút tiền hàng ngày là bất hợp pháp. Không có biển số xe đúng quy định, hoặc không có giấy phép radio xe hơi hoặc giấy phép máy phát điện, đều là những luật lệ mà ai đó, ở đâu đó, đang vi phạm."
+> Zimbabwe: “Mỗi cư dân ở Zimbabwe đều là tội phạm. Nghe có vẻ khắc nghiệt, nhưng đó là sự thật. Với vô số luật nhỏ điều chỉnh mọi khía cạnh của cuộc sống, việc ai đó vi phạm luật mỗi ngày là điều không thể tránh khỏi. Sở hữu ngoại tệ là bất hợp pháp, theo một SI được ban hành năm 2004. Có nhiều tài khoản ngân hàng để né giới hạn rút tiền hàng ngày là bất hợp pháp. Không có biển số xe đúng, hoặc giấy phép radio ô tô hoặc giấy phép máy phát điện đều là những luật mà ai đó, ở đâu đó, đang vi phạm.”
 
-13. Chính phủ thu mua ngoại tệ với bất kỳ giá nào
-    Việc mua ngoại tệ một cách điên cuồng thường đánh dấu một bước ngoặt quan trọng trong quá trình mất giá đồng tiền, làm trầm trọng thêm sự sụt giảm giá trị nội tại.
+#### 13. Mua ngoại tệ bằng mọi giá
+
+Việc mua ngoại tệ một cách điên cuồng thường đánh dấu một bước ngoặt quan trọng trong quá trình mất giá đồng tiền, làm trầm trọng thêm sự sụt giảm giá trị nội tại.
 
 > Weimar: "Mannheimer, theo chỉ đạo của sếp mình, đã ra ngoài vào tháng 8 năm 1921 và bắt đầu mua ngoại tệ với bất kỳ giá nào - 'vì Đức có vô số tiền giấy nhưng không có ngoại tệ.' Đây là dấu hiệu đầu tiên cho sự sụp đổ hoàn toàn trong giá trị của đồng mark."
 

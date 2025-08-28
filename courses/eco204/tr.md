@@ -908,7 +908,9 @@ Zimbabve: "Geriye sadece boş çelik raflar ve buzdolapları, soğutucular ve do
 Weimar: "Devlete karşı işlenen tüm suçlar, her biri farklı derecelerde olmak üzere, bireyler için bir hayatta kalma meselesi haline geldi."
 
 
-Zimbabve: "Zimbabve'de yaşayan herkes bir suçluydu. Kulağa ne kadar sert gelse de bu doğruydu. Hayatın her alanını düzenleyen sayısız küçük yasayla birlikte, herkesin her gün bir yasayı çiğnemesi kaçınılmazdı. 2004'te yayınlanan bir SI'ya göre döviz sahibi olmak yasa dışıydı. Günlük para çekme limitini aşmak için birden fazla banka hesabına sahip olmak yasa dışıydı. Aracınızda doğru plakaların olmaması ya da araç telsiz ruhsatınızın veya jeneratör izninizin olmaması, bir yerlerde birilerinin çiğnediği kanunlardı." 13. Herhangi bir fiyattan döviz satın almak
+> Zimbabve: “Zimbabve’deki her sakin bir suçluydu. Ne kadar sert gelse de, bu doğruydu. Hayatın her yönünü düzenleyen sayısız küçük yasa ile, herkesin her gün bir yasayı ihlal etmesi kaçınılmazdı. Yabancı para bulundurmak, 2004’te yayımlanan bir SI’ye göre yasadışıydı. Günlük para çekme limitini aşmak için birden fazla banka hesabına sahip olmak yasadışıydı. Arabada doğru plakaların olmaması, araba radyosu lisansı ya da jeneratör ruhsatı olmaması—bunların hepsi birilerinin bir yerlerde ihlal ettiği yasalardı.”
+
+#### 13. Yabancı para birimini ne pahasına olursa olsun satın alın
 
 Yabancı para birimlerinin çılgınca satın alınması, genellikle para biriminin devalüasyonunda kritik bir dönüm noktası olmuş ve içsel değerdeki düşüşü şiddetlendirmiştir.
 

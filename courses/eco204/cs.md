@@ -553,10 +553,11 @@ V situaci kolabující ekonomiky a všudypřítomných regulací se hranice mezi
 
 Weimar: "Všechny zločiny proti státu, každý z nich, v různé míře, se stal otázkou přežití jednotlivců."
 
-Zimbabwe: "Každý obyvatel Zimbabwe byl zločincem. I když to zní tvrdě, byla to pravda. S množstvím drobných zákonů, které řídily každý aspekt života, bylo nevyhnutelné, že každý každý den poruší nějaký zákon. Vlastnictví cizí měny bylo nelegální, podle SI vydaného v roce 2004. Vlastnění více bankovních účtů, aby se obešel denní limit výběru, bylo nelegální. Nemít správné poznávací značky na autě, nebo žádnou licenci na autorádio nebo povolení pro generátor, to vše byly zákony, které někdo, někde porušoval."
+> Zimbabwe: „Každý obyvatel Zimbabwe byl zločinec. Ačkoli to může znít tvrdě, byla to pravda. Díky nesčetným malým zákonům upravujícím každý aspekt života bylo nevyhnutelné, že každý den někdo porušil zákon. Vlastnit cizí měnu bylo nezákonné podle SI vydaného v roce 2004. Mít více bankovních účtů k obcházení denního limitu výběru bylo nezákonné. Nemít správné poznávací značky na autě, nebo licenci na autorádio či povolení pro generátor, byly všechno zákony, které někdo, někde, porušoval.“
 
-13. Kupování cizích měn za jakoukoli cenu
-    Zoufalé kupování cizích měn často označovalo kritický bod v devalvaci měny, který zhoršoval pokles vnitřní hodnoty.
+#### 13. Koupit cizí měnu za každou cenu
+
+Zoufalé kupování cizích měn často označovalo kritický bod v devalvaci měny, který zhoršoval pokles vnitřní hodnoty.
 
 > Weimar: "Mannheimer na pokyn svého šéfa vyšel v srpnu 1921 a začal kupovat cizí měny za jakoukoli cenu - 'protože Německo mělo nekonečné množství papírových marek, ale žádné cizí měny.' To byl první znak absolutního kolapsu hodnoty marky."
 

@@ -585,9 +585,9 @@ Diante de uma economia em colapso e regulamentações onipresentes, a fronteira 
 
 Weimar: "Todos os crimes contra o Estado, cada um deles, em diferentes graus, se tornavam uma questão de sobrevivência para os indivíduos."
 
-Zimbabwe: "Cada residente no Zimbábue era um criminoso. Por mais difícil que possa parecer, era verdade. Com a miríade de pequenas leis que regiam cada aspecto da vida, era inevitável que cada um infringisse uma lei todos os dias. Possuir moedas estrangeiras era ilegal, de acordo com um SI publicado em 2004. Ter várias contas bancárias para contornar o limite diário de saque era ilegal. Não ter as placas de identificação corretas em seu carro, ou não ter uma licença de rádio para o carro ou uma licença para o gerador, eram tantas leis que alguém, em algum lugar, estava infringindo."
+> Zimbábue: “Cada residente no Zimbábue era um criminoso. Por mais duro que isso possa parecer, era verdade. Com a miríade de pequenas leis que regiam todos os aspectos da vida, era inevitável que todos violassem uma lei a cada dia. Possuir moeda estrangeira era ilegal, de acordo com um SI publicado em 2004. Ter várias contas bancárias para contornar o limite diário de saque era ilegal. Não ter as placas corretas no carro, ou a licença de rádio do carro ou a licença do gerador eram todas leis que alguém, em algum lugar, estava violando.”
 
-13. Compra de moeda estrangeira a qualquer preço
+#### 13. Comprar moeda estrangeira a qualquer preço
 
 A compra frenética de moeda estrangeira muitas vezes marcou uma virada crítica na desvalorização monetária, exacerbando a queda do valor intrínseco.
 

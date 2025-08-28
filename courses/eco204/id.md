@@ -552,10 +552,11 @@ Dalam menghadapi ekonomi yang runtuh dan peraturan yang merajalela, batas antara
 
 Weimar: "Semua kejahatan terhadap negara, masing-masing dan setiap satu dari mereka, dalam berbagai tingkat, menjadi masalah bertahan hidup bagi individu."
 
-Zimbabwe: "Setiap penduduk di Zimbabwe adalah seorang kriminal. Seberat apa pun kedengarannya, itu adalah kenyataan. Dengan berbagai peraturan kecil yang mengatur setiap aspek kehidupan, tidak terhindarkan bahwa setiap orang akan melanggar hukum setiap hari. Memiliki mata uang asing adalah ilegal, menurut SI yang diterbitkan pada tahun 2004. Memiliki beberapa rekening bank untuk menghindari batas penarikan harian adalah ilegal. Tidak memiliki plat nomor yang benar pada mobil Anda, atau tidak memiliki lisensi radio mobil atau izin generator, semuanya adalah hukum yang dilanggar oleh seseorang, di suatu tempat."
+> Zimbabwe: “Setiap penduduk di Zimbabwe adalah seorang penjahat. Seberat apapun kedengarannya, itu benar. Dengan banyaknya hukum kecil yang mengatur setiap aspek kehidupan, tak terhindarkan bahwa setiap orang melanggar hukum setiap hari. Memiliki mata uang asing adalah ilegal, menurut SI yang diterbitkan pada 2004. Memiliki beberapa rekening bank untuk menghindari batas penarikan harian adalah ilegal. Tidak memiliki plat nomor yang benar di mobil Anda, atau lisensi radio mobil, atau izin generator, semuanya adalah hukum yang dilanggar oleh seseorang di suatu tempat.”
 
-13. Membeli Mata Uang Asing dengan Harga Berapapun
-    Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
+#### 13. Membeli mata uang asing dengan harga berapa pun
+
+Pembelian panik mata uang asing sering kali menandai titik kritis dalam devaluasi mata uang, memperburuk penurunan nilai intrinsik.
 
 > Weimar: "Mannheimer, atas instruksi bosnya, keluar pada Agustus 1921 dan mulai membeli mata uang asing dengan harga berapapun - 'karena Jerman memiliki jumlah mark kertas yang tak terbatas tetapi tidak memiliki mata uang asing.' Ini adalah tanda pertama dari kehancuran nilai mark secara absolut."
 

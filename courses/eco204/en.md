@@ -579,7 +579,10 @@ In the face of a collapsing economy and pervasive regulations, the line between 
 
 Weimar: "All crimes against the state, each and every one of them, to varying degrees, became a matter of survival for individuals."
 
-Zimbabwe: "Every resident in Zimbabwe was a criminal. Harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone would break a law every day. Owning foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the correct license plates on your car, or no car radio license or generator permit, were all laws that someone, somewhere, was breaking." 13. Buying foreign currencies at any price
+> Zimbabwe: “Every resident in Zimbabwe was a criminal. As harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone broke a law each day. Possessing foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the proper license plates on your car, or a car radio license, or a generator permit, were all laws that someone, somewhere, was breaking.”
+
+#### 13. Buy foreign currency at any cost
+
 The frantic purchase of foreign currencies has often marked a critical turning point in currency devaluation, exacerbating the fall in intrinsic value.
 
 > Weimar: "Mannheimer, on the instructions of his boss, went out in August 1921 and started buying foreign currencies at any price - 'because Germany had an infinite amount of paper marks but no foreign currencies.' This was the first sign of the absolute collapse in the value of the mark."

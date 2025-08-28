@@ -908,7 +908,9 @@ Suočeni sa kolabirajućom ekonomijom i sveprisutnim regulacijama, granica izme�
 Weimar: "Svi zločini protiv države, svaki od njih, u različitim stepenima, postali su pitanje opstanka za pojedince."
 
 
-Zimbabve: "Svaki stanovnik Zimbabvea bio je kriminalac. Koliko god grubo zvučalo, bilo je istinito. Sa mnoštvom malih zakona koji regulišu svaki aspekt života, bilo je neizbežno da svako prekrši neki zakon svakog dana. Posedovanje strane valute bilo je ilegalno, prema SI objavljenom 2004. godine. Imati više bankovnih računa da bi se zaobišlo dnevno ograničenje podizanja novca bilo je ilegalno. Nemati odgovarajuće registarske tablice na automobilu, ili dozvolu za auto radio ili generator, bili su zakoni koje je neko, negde, kršio." 13. Kupovina stranih valuta po bilo kojoj ceni
+> Zimbabve: “Svaki stanovnik Zimbabvea bio je kriminalac. Koliko god to grubo zvučalo, bila je istina. Sa bezbroj malih zakona koji su uređivali svaki aspekt života, bilo je neizbežno da svako svakodnevno prekrši neki zakon. Posedovanje strane valute bilo je ilegalno, prema SI objavljenom 2004. godine. Imati više bankovnih računa da bi se zaobišlo dnevno ograničenje za podizanje bilo je ilegalno. Nemati prave registarske tablice na automobilu, dozvolu za auto-radio ili dozvolu za generator bili su sve zakoni koje je neko, negde, kršio.”
+
+#### 13. Kupiti stranu valutu po svaku cenu
 
 Užurbana kupovina stranih valuta često je označavala kritičnu prekretnicu u devalvaciji valute, pogoršavajući pad unutrašnje vrednosti.
 

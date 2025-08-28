@@ -662,7 +662,9 @@ Katika uso wa uchumi unaoporomoka na kanuni zinazoenea, mstari kati ya kuishi na
 
 Weimar: "Uhalifu wote dhidi ya Fiat money (pesa za serikali), kila mmoja wao, kwa viwango tofauti, umekuwa suala la kuishi kwa watu binafsi."
 
-Zimbabwe: "Kila mkazi wa Zimbabwe alikuwa mhalifu. Ingawa inaweza kuonekana kuwa kali, ilikuwa kweli. Kwa maelfu ya sheria ndogo zinazoongoza kila nyanja za maisha, ilikuwa ni lazima kwamba kila mtu angevunja sheria kila siku. Kumiliki fedha za kigeni ilikuwa kinyume cha sheria, kulingana na SI iliyochapishwa mwaka wa 2004. Kuwa na akaunti nyingi za benki ili kukwepa kikomo cha uondoaji wa kila siku ilikuwa kinyume cha sheria. Kutokuwa na leseni sahihi ya gari au redio ya gari ilikuwa kinyume cha sheria. sheria ambazo mtu, mahali fulani, alikuwa akivunja." 13. Kununua fedha za kigeni kwa bei yoyote
+> Zimbabwe: “Kila mkazi wa Zimbabwe alikuwa mhalifu. Ingawa inaweza kuonekana ngumu, ilikuwa kweli. Kwa wingi wa sheria ndogo ndogo zinazodhibiti kila kipengele cha maisha, haikuwezekana kwamba kila mtu alivunja sheria kila siku. Kumiliki sarafu za kigeni kulikuwa kinyume cha sheria, kulingana na SI iliyochapishwa mwaka wa 2004. Kuwa na akaunti nyingi za benki ili kuzunguka kikomo cha uondoaji wa kila siku kulikuwa kinyume cha sheria. Kukosa nambari sahihi za gari kwenye gari lako, au leseni ya redio ya gari au kibali cha jenereta, vyote vilikuwa sheria ambazo mtu fulani, mahali fulani, alivunja.”
+
+#### 13. Nunua fedha za kigeni kwa gharama yoyote
 
 Ununuzi mkali wa fedha za kigeni mara nyingi umeashiria mabadiliko muhimu katika upunguzaji wa thamani ya sarafu, na hivyo kuzidisha kushuka kwa thamani ya asili.
 

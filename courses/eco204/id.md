@@ -546,7 +546,7 @@ Weimar: "Pedagang yang melanjutkan kegiatan mereka tunduk pada peraturan baru, y
 
 Zimbabwe: "Hanya rak baja kosong dan lemari es, pendingin, dan freezer yang tersisa. Tragedinya adalah toko tersebut masih terbuka karena mereka tidak berani menutupnya karena ketegangan politik dan ketakutan akan ditangkap oleh pasukan pengendali harga pemerintah. Bahkan para pekerja tidak dipecat karena semua orang berpikir akan ada solusi cepat."
 
-12. Semua Orang Menjadi Kriminal
+#### 12. Semua orang adalah penjahat
 
 Dalam menghadapi ekonomi yang runtuh dan peraturan yang merajalela, batas antara bertahan hidup dan kriminalitas menjadi kabur.
 

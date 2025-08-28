@@ -899,7 +899,7 @@ Weimar: "Kupcy, którzy kontynuowali swoją działalność, podlegali nowemu roz
 Zimbabwe: "Pozostały tylko puste stalowe półki oraz lodówki, chłodziarki i zamrażarki. Tragedia polegała na tym, że sklep był nadal otwarty, ponieważ nie odważono się go zamknąć z powodu napięć politycznych i strachu przed aresztowaniem przywódców przez rządowe siły kontroli cen. Nawet pracownicy nie zostali zwolnieni, ponieważ wszyscy myśleli, że znajdzie się szybkie rozwiązanie"
 
 
-12. Każdy jest przestępcą
+#### 12. Wszyscy są przestępcami
 
 
 W obliczu upadającej gospodarki i wszechobecnych regulacji granica między przetrwaniem a przestępczością zaciera się.

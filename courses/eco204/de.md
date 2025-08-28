@@ -568,7 +568,7 @@ Weimar: "Die Händler, die ihre Geschäfte weiterführten, waren einer neuen Ver
 
 Simbabwe: "Es gab nur noch leere Stahlschränke und leere Kühlschränke, Kühlboxen und Gefrierschränke. Die Tragödie war, dass der Laden immer noch geöffnet war, weil sie sich aufgrund politischer Spannungen und der Angst der Führungskräfte vor Verhaftungen durch die Preisüberwachungsbehörde der Regierung nicht trauten, ihn zu schließen. Selbst die Arbeiter wurden nicht entlassen, da jeder dachte, es würde eine schnelle Lösung geben."
 
-12. Jeder ist ein Verbrecher
+#### 12. Jeder ist ein Krimineller
 
 Angesichts einer zusammenbrechenden Wirtschaft und allgegenwärtiger Vorschriften verschwimmt die Grenze zwischen Überleben und Kriminalität.
 

@@ -579,7 +579,7 @@ Weimar: "Os comerciantes que continuavam suas atividades estavam sujeitos a uma 
 
 Zimbabwe: "Restavam apenas prateleiras de aço vazias e geladeiras, refrigeradores e freezers vazios. A tragédia era que a loja ainda estava aberta, pois eles não ousavam fechar devido às tensões políticas e ao medo de serem presos pela força de controle de preços do governo. Nem mesmo os trabalhadores eram demitidos, pois todos pensavam que haveria uma solução rápida."
 
-12. Todo mundo é um criminoso
+#### 12. Todos são criminosos
 
 Diante de uma economia em colapso e regulamentações onipresentes, a fronteira entre sobrevivência e criminalidade se torna turva.
 

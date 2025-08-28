@@ -549,7 +549,7 @@ Weimar: "Kaupmehed, kes jätkasid oma tegevust, olid uue määruse alusel, mis v
 
 Zimbabwe: "Ainult tühjad terasest riiulid ja külmikud, jahutid ning sügavkülmikud jäid alles. Tragöödia seisnes selles, et pood oli endiselt avatud, kuna nad ei julgenud poliitiliste pingete ja valitsuse hinnakontrolli jõudude poolt juhtide vahistamise hirmus sulgeda. Isegi töötajaid ei koondatud, kuna kõik arvasid, et kiire lahendus on tulemas."
 
-12. Kõik on kurjategijad
+#### 12. Kõik on kurjategijad
 
 Kokkuvariseva majanduse ja laialdaste regulatsioonide valguses muutub ellujäämise ja kriminaliteedi vaheline joon häguseks.
 

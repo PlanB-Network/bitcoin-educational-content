@@ -547,7 +547,7 @@ Weimar: "Obchodníci, kteří pokračovali ve své činnosti, byli předmětem n
 
 Zimbabwe: "Zůstaly pouze prázdné ocelové regály a chladničky, chladiče a mrazáky. Tragédií bylo, že obchod byl stále otevřený, protože se neodvážili zavřít kvůli politickým napětím a strachu z toho, že by lídři byli zatčeni vládními silami kontroly cen. Dokonce ani pracovníci nebyli propuštěni, protože každý si myslel, že brzy přijde rychlé řešení."
 
-12. Každý je zločinec
+#### 12. Každý je zločinec
 
 V situaci kolabující ekonomiky a všudypřítomných regulací se hranice mezi přežitím a kriminalitou stává nejasnou.
 

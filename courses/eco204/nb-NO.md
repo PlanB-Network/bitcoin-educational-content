@@ -547,7 +547,7 @@ Weimar: "Handelsmenn som fortsatte sin virksomhet var underlagt en ny forordning
 
 Zimbabwe: "Bare tomme stålhyller og kjøleskap, kjølere og frysere gjensto. Tragedien var at butikken fremdeles var åpen fordi de ikke våget å stenge på grunn av politiske spenninger og frykten for at ledere skulle bli arrestert av regjeringens prisreguleringsstyrke. Selv arbeiderne ble ikke sagt opp fordi alle trodde det ville komme en rask løsning."
 
-12. Alle er en kriminell
+#### 12. Alle er kriminelle
 
 I møte med en kollapsende økonomi og gjennomgripende reguleringer, blir linjen mellom overlevelse og kriminalitet utydelig.
 

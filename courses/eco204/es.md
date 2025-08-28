@@ -529,7 +529,7 @@ Weimar: "Los comerciantes que continuaban con sus actividades estaban sujetos a 
 
 Zimbabwe: "Solo quedaban estantes de acero vacíos y refrigeradores, enfriadores y congeladores vacíos. La tragedia era que la tienda seguía abierta, ya que no se atrevían a cerrar debido a las tensiones políticas y al temor de que los líderes fueran arrestados por la fuerza de control de precios del gobierno. Incluso los trabajadores no eran despedidos, ya que todos pensaban que habría una solución rápida".
 
-12. Todo el mundo es un criminal
+#### 12. Todo el mundo es un criminal
 
 Ante una economía en ruinas y regulaciones omnipresentes, la línea entre la supervivencia y el delito se vuelve borrosa.
 

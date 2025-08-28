@@ -656,7 +656,7 @@ Weimar: "Wafanyabiashara ambao waliendelea na shughuli zao walikuwa chini ya she
 
 Zimbabwe: "Ilibaki rafu tupu za chuma na jokofu, friji na friza. Mkasa ni kwamba duka lilikuwa bado wazi kwa sababu hawakuthubutu kufunga kutokana na mvutano wa kisiasa na hofu ya viongozi kukamatwa kwa nguvu na Fiat money (pesa za serikali) ya kudhibiti bei. Hata wafanyakazi hawakupunguziwa kazi kwa sababu kila mtu alidhani kungekuwa na suluhisho la haraka."
 
-12. Kila mtu ni mhalifu
+#### 12. Kila mtu ni mhalifu
 
 Katika uso wa uchumi unaoporomoka na kanuni zinazoenea, mstari kati ya kuishi na uhalifu unakuwa wazi.
 

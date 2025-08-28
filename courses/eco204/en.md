@@ -573,7 +573,7 @@ Weimar: "Merchants who continued their activities were subject to a new ordinanc
 
 Zimbabwe: "Only empty steel shelves and refrigerators, coolers, and freezers remained. The tragedy was that the store was still open because they dared not close due to political tensions and the fear of leaders being arrested by the government's price control force. Even the workers were not laid off because everyone thought there would be a quick solution."
 
-12. Everyone is a criminal
+#### 12. Everyone is a criminal
 
 In the face of a collapsing economy and pervasive regulations, the line between survival and criminality becomes blurred.
 

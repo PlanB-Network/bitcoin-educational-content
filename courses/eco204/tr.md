@@ -899,7 +899,7 @@ Weimar: "Faaliyetlerine devam eden tüccarlar, 22 Ekim'de yürürlüğe giren ve
 Zimbabve: "Geriye sadece boş çelik raflar ve buzdolapları, soğutucular ve dondurucular kaldı. Asıl trajedi, siyasi gerilimler ve liderlerin hükümetin fiyat kontrol gücü tarafından tutuklanma korkusu nedeniyle kapatmaya cesaret edemedikleri için mağazanın hala açık olmasıydı. İşçiler bile işten çıkarılmadı çünkü herkes hızlı bir çözüm bulunacağını düşünüyordu."
 
 
-12. Herkes suçludur
+#### 12. Herkes bir suçludur
 
 
 Çöken bir ekonomi ve yaygın düzenlemeler karşısında, hayatta kalma ve suç işleme arasındaki çizgi bulanıklaşıyor.

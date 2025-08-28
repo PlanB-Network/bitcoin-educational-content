@@ -899,7 +899,7 @@ Weimar: "Kooplieden die hun activiteiten voortzetten, werden onderworpen aan een
 Zimbabwe: "Alleen lege stalen schappen en koelkasten, koelers en vriezers bleven over. De tragedie was dat de winkel nog open was omdat ze niet durfden te sluiten vanwege de politieke spanningen en de angst dat de leiders zouden worden gearresteerd door de prijscontrolemacht van de regering. Zelfs de arbeiders werden niet ontslagen omdat iedereen dacht dat er een snelle oplossing zou zijn."
 
 
-12. Iedereen is een crimineel
+#### 12. Iedereen is een crimineel
 
 
 In het licht van een instortende economie en alomtegenwoordige regelgeving vervaagt de grens tussen overleven en criminaliteit.

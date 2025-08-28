@@ -539,7 +539,7 @@ Weimar: "Kauppiaat, jotka jatkoivat toimintaansa, olivat uuden asetuksen alaisia
 
 Zimbabwe: "Vain tyhjät teräshyllyt sekä jääkaapit, kylmäkaapit ja pakastimet jäivät jäljelle. Tragedia oli, että kauppa oli edelleen auki, koska he eivät uskaltaneet sulkea sitä poliittisten jännitteiden ja pelon vuoksi, että hallituksen hintavalvontavoimat pidättäisivät johtajat. Työntekijöitäkään ei irtisanottu, koska kaikki ajattelivat, että nopea ratkaisu löytyisi."
 
-12. Kaikki ovat rikollisia
+#### 12. Kaikki ovat rikollisia
 
 Kun talous romahtaa ja sääntely on kaikkialla läsnä, selviytymisen ja rikollisuuden välinen raja hämärtyy.
 

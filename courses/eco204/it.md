@@ -540,7 +540,7 @@ Weimar: "I commercianti che continuavano la loro attività erano soggetti a un n
 
 Zimbabwe: "C'erano solo scaffali di acciaio vuoti e frigoriferi, refrigeratori e congelatori vuoti. La tragedia era che il negozio era ancora aperto, perché non osavano chiudere a causa delle tensioni politiche e della paura che i leader fossero arrestati dalla forza di controllo dei prezzi del governo. Anche i lavoratori non venivano licenziati, perché tutti pensavano che ci sarebbe stata una soluzione rapida."
 
-12. Tutti sono criminali
+#### 12. Tutti sono criminali
 
 Di fronte a un'economia in rovina e a regolamentazioni onnipresenti, il confine tra sopravvivenza e criminalità diventa sfocato.
 

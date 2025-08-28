@@ -550,7 +550,7 @@ Weimar: "Các thương nhân tiếp tục hoạt động của họ đã phải 
 
 Zimbabwe: "Chỉ còn lại những kệ thép trống rỗng và tủ lạnh, máy làm mát, và tủ đông. Thảm kịch là cửa hàng vẫn mở cửa vì họ không dám đóng cửa do căng thẳng chính trị và chủ cửa hàng thì sợ bị lực lượng kiểm soát giá của chính phủ bắt. Ngay cả nhân viên cũng không bị sa thải vì mọi người đều nghĩ sẽ có một giải pháp nhanh chóng."
 
-12. Mọi người đều là tội phạm
+#### 12. Ai cũng là tội phạm
 
 Trước một nền kinh tế sụp đổ và sự lan rộng của các quy định hà khắc, ranh giới giữa sự sống còn và tội phạm trở nên mờ nhạt.
 

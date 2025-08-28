@@ -899,7 +899,7 @@ Weimar: "Trgovci koji su nastavili svoje aktivnosti bili su podložni novoj ured
 Zimbabve: "Ostale su samo prazne čelične police i frižideri, rashladni uređaji i zamrzivači. Tragedija je bila u tome što je prodavnica još uvek bila otvorena jer se nisu usuđivali da je zatvore zbog političkih tenzija i straha da će lideri biti uhapšeni od strane vladine snage za kontrolu cena. Čak ni radnici nisu otpušteni jer su svi mislili da će brzo doći do rešenja."
 
 
-12. Svi su kriminalci
+#### 12. Svi su kriminalci
 
 
 Suočeni sa kolabirajućom ekonomijom i sveprisutnim regulacijama, granica između preživljavanja i kriminala postaje nejasna.

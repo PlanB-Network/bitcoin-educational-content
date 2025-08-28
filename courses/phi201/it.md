@@ -783,7 +783,7 @@ Pirenne osserva che queste pratiche, sebbene presenti in altre regioni d'Europa,
 
 ### La questione dei prestiti a interesse
 
-Le Scritture condannano i prestiti a interesse, chiamati usura, considerando che prestare denaro a interesse equivaleva a sfruttare i mutuatari vulnerabili. Tuttavia, nella pratica, la Chiesa chiudeva un occhio sulla questione.
+Le Scritture condannano i prestiti a interesse, chiamati usura, considerando che prestare denaro a interesse equivaleva a sfruttare i debitori vulnerabili. Tuttavia, nella pratica, la Chiesa chiudeva un occhio sulla questione.
 
 Jacques Le Goff è uno storico francese specializzato nella cultura e nelle mentalità del Medioevo. Seguendo Pirenne, riconosce la presenza dei semi del capitalismo già nel Medioevo, in particolare nelle città italiane, dove pratiche come l'impresa individuale, la ricerca del profitto e l'uso di strumenti di credito erano già presenti. O Le Goff evidenzia in _L'usure au Moyen Âge_ (1967, ripubblicato nel 1986 sotto il titolo: _La bourse et la vie; économie et religion au moyen-age_) che già nel XIII secolo, Sant'Alberto Magno aveva teorizzato la nozione di "interesse legittimo" che fu ulteriormente sviluppata da San Tommaso d'Aquino dopo di lui. Nonostante i divieti religiosi, la pratica del prestito esisteva e soddisfaceva reali esigenze economiche. Ben prima di Adam Smith, capirono che l'interesse sui prestiti non era usura ma un modo per permettere la remunerazione del rischio per il prestatore e l'investimento per il mutuatario, che sono alla base del capitalismo.
 
@@ -791,12 +791,17 @@ Tuttavia, secondo lo storico francese, l'ascesa del capitalismo deve essere coll
 
 ### Una critica alle manipolazioni monetarie
 
-Lo studio sistematico delle leggi economiche inizia nel Medioevo avanzato. I primi economisti sono i teologi scolastici della Scuola di Parigi. Il primo tra loro a scrivere un trattato scientifico interamente dedicato a un argomento economico è Nicolas Oresme (1325-1382). Intorno al 1360, compose il suo _Trattato sull'Origine, Natura, Legge e Alterazioni della Moneta_, che riassume e sviluppa le idee degli scolastici del suo tempo.
+Lo studio sistematico delle leggi economiche inizia nel Medioevo avanzato. I primi economisti sono i teologi scolastici della Scuola di Parigi. Il primo tra loro a scrivere un trattato scientifico di economia è Nicolas Oresme (1325-1382). Intorno al 1360, compose il suo _Trattato sull'Origine, Natura, Legge e Alterazioni della Moneta_, che riassume e sviluppa le idee degli studiosi dell'epoca.
 
-Al centro della sua analisi monetaria si trova il problema delle "mutazioni" del denaro, ovvero le alterazioni nel contenuto metallico delle monete e nella loro denominazione. Queste alterazioni si verificano dall'alba dei tempi e sono ben documentate per l'Antichità e il Medioevo. Il loro effetto più visibile è cambiare il potere d'acquisto dell'unità monetaria, specialmente per diminuirlo. Questa è una forma primitiva di inflazione che Oresme condanna chiaramente come un male.
+Al centro della sua analisi monetaria si trova il problema delle "mutazioni" del denaro, ovvero le alterazioni nel contenuto metallico delle monete e nella loro denominazione. Queste alterazioni si verificano dall'alba dei tempi e sono ben documentate durante i periodi più antichi e del Medioevo. Il loro effetto più visibile è cambiare il potere d'acquisto dell'unità monetaria, specialmente per diminuirlo. Questa è una forma primitiva di inflazione che Oresme condanna chiaramente come un male.
 
-Oresme pone immediatamente una domanda centrale: l'inflazione è vantaggiosa per la comunità? Risponde in modo negativo, sostenendo che l'inflazione non rende il denaro più o meno utile per gli scambi. L'economia può funzionare bene indipendentemente dal livello dei prezzi, e quindi indipendentemente dall'offerta nominale di denaro.
-Ma se questo è il caso, sorge ovviamente un'altra domanda: perché esistono alterazioni della valuta? E in particolare, perché cercare di aumentare l'offerta di denaro? Oresme risponde che queste alterazioni non hanno le stesse conseguenze per i diversi membri della comunità. Beneficiano alcune persone a spese di altre. I vincitori delle alterazioni valutarie hanno un interesse materiale nell'attuarle. Generalmente, questi vincitori sono gli uomini al potere. Oresme scrive:
+Oresme pone immediatamente una domanda centrale: 
+
+"l'inflazione è vantaggiosa per la comunità?"
+
+Risponde in modo negativo, sostenendo che l'inflazione non rende il denaro più o meno utile per gli scambi. L'economia può funzionare bene indipendentemente dal livello dei prezzi, e quindi indipendentemente dall'offerta nominale di denaro.
+
+Ma se questo è il caso, sorge ovviamente un'altra domanda: perché esistono alterazioni della valuta? E in particolare, perché cercare di aumentare l'offerta di denaro? Oresme risponde che queste alterazioni non hanno le stesse conseguenze per i diversi membri della comunità. Beneficiano alcune persone a spese di altre. Chi beneficia delle alterazioni valutarie ha un interesse materiale nell'attuarle. Generalmente, questi che ne beneficiano, sono gli uomini al potere. Oresme scrive:
 
 > Mi sembra che la ragione primaria e ultima per cui il principe vuole impadronirsi del potere di cambiare le valute sia il guadagno o il profitto che ne può derivare, altrimenti, sarebbe senza ragione che farebbe tante e così considerevoli mutazioni.
 
@@ -808,11 +813,11 @@ Oresme sottolinea che le alterazioni valutarie non sono semplicemente un gioco d
 
 Inoltre, se due diverse valute beneficiano del corso legale, gli agenti accumuleranno quella che vale di più, così che solo la valuta inferiore rimane in circolazione. (Oresme qui anticipa la famosa "legge di Gresham": il denaro cattivo scaccia quello buono in un regime di corso legale.) Conclude che le manipolazioni valutarie sono peggiori dell'usura e che, probabilmente, sono state una causa significativa del declino dell'Impero Romano, come abbiamo visto precedentemente.
 
-# L'Ascesa della Libertà: Dal Rinascimento all'Illuminismo
+# L'ascesa della libertà: dal Rinascimento all'Illuminismo
 
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
-## Appello per la Tolleranza Religiosa
+## Appello per la tolleranza religiosa
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
@@ -824,7 +829,7 @@ Voltaire pensava lo stesso riguardo al commercio. Esso potrebbe stabilire la tol
 
 ### Il profitto come "religione pacifica"
 
-Per Voltaire, è principalmente la fallibilità dell'uomo a costituire il fondamento di una dottrina di tolleranza e libertà politica. Egli scrive nel suo _Dizionario Filosofico_ (1764):
+Per Voltaire, la fallibilità dell'uomo giustifica una dottrina di tolleranza e di libertà politica. Egli scrive nel suo _Dizionario Filosofico_ (1764):
 
 > La tolleranza è la conseguenza necessaria della nostra consapevolezza di essere fallibili. Errare è umano, e tutti noi commettiamo costantemente errori. Perdoniamoci a vicenda le nostre follie; questa è la prima legge della natura.
 
@@ -839,29 +844,36 @@ Tre punti sono da considerare secondo Voltaire:
 3. Infine, il commercio è buono perché promuove relazioni civilizzate e quindi pacifiche tra le persone.
 
 Più il commercio è valorizzato, più i pregiudizi svaniscono di fronte agli interessi economici. Nonostante le loro differenze confessionali, gli uomini che commerciano hanno tutti lo stesso oggetto al centro delle loro preoccupazioni: il profitto. La comune ricerca del profitto porta alla cooperazione e al rispetto delle opinioni altrui, specialmente delle loro credenze religiose.
-Nella _Sesta Lettera_, _"Sui Presbiteriani"_, Voltaire fornisce l'esempio della Borsa di Londra. In questo apice del commercio internazionale, "l'ebreo, il musulmano e il cristiano" fanno affari insieme, "come se fossero della stessa Religione". Riservano "il nome di infedeli solo per coloro che falliscono".
+
+Nella _Sesta Lettera_, _"Sui Presbiteriani"_, Voltaire fornisce l'esempio della Borsa di Londra. In questo apice del commercio internazionale, "l'ebreo, il musulmano e il cristiano" fanno affari insieme, "come se fossero della stessa Religione". Chiamano "infedeli coloro che falliscono".
 
 Il passaggio vale la pena di essere citato integralmente perché è molto famoso:
-Entra nella Borsa di Londra, un luogo più rispettabile di molti tribunali; lì vedi delegati di tutte le nazioni riuniti per l'utilità dell'umanità. Lì, l'ebreo, il musulmano e il cristiano trattano l'uno con l'altro come se fossero della stessa religione, e chiamano infedeli solo coloro che falliscono; lì, il presbiteriano si fida dell'anabattista, e l'anglicano accetta la promessa del quacchero. Dopo aver lasciato queste assemblee pacifiche e libere, alcuni vanno alla sinagoga, altri vanno a bere; uno va a essere battezzato in una grande vasca nel nome del Padre dal Figlio nello Spirito Santo; un altro fa tagliare il prepuzio del figlio e mormora parole ebraiche sul bambino che non capisce; altri vanno alla loro chiesa per attendere l'ispirazione di Dio, i loro cappelli sulle teste, e tutti sono contenti.
+
+Entra nella Borsa di Londra, un luogo più rispettabile di molti tribunali; lì vedi delegati di tutte le nazioni riuniti per l'utilità dell'umanità. Lì, l'ebreo, il musulmano e il cristiano trattano l'uno con l'altro come se fossero della stessa religione, e chiamano infedeli solo coloro che falliscono; lì, il presbiteriano si fida dell'anabattista, e l'anglicano accetta la promessa del quacchero. Dopo aver lasciato queste assemblee pacifiche e libere, alcuni vanno alla sinagoga, altri vanno a bere; uno va a essere battezzato in una grande vasca nel nome del Padre dal Figlio nello Spirito Santo; un altro fa tagliare il prepuzio del figlio e mormora parole ebraiche sul bambino che non capisce; altri vanno alla loro chiesa per attendere l'ispirazione di Dio, con il cappello in testa, e tutti sono contenti.
+
 Il commercio, quindi, unisce gli uomini attorno a una "stessa religione", il profitto. E permette agli individui di trascurare le differenze religiose o di classe, che sono le origini dei conflitti. In Inghilterra, il profitto è quindi una religione pacifica. Ma che dire in Francia?
 
-Nella _Decima Lettera_, "Sul Commercio", Voltaire descrive il modo di pensare francese come segue: "il commerciante spesso sente parlare della sua professione con disprezzo, al punto che è abbastanza sciocco da vergognarsene." Al contrario, in Inghilterra, il commerciante prova un "giusto orgoglio", e si paragona "non senza motivo, a un cittadino romano". Voltaire rende omaggio alla classe media inglese, al loro commercio e alla loro società pacifica.
+Nella _Decima Lettera_, "Sul Commercio", Voltaire descrive il modo di pensare francese come segue: "il commerciante spesso sente parlare della sua professione con disprezzo, al punto da essere abbastanza sciocco da vergognarsene." Al contrario, in Inghilterra, il commerciante prova un "giusto orgoglio", e si paragona "non senza motivo, a un cittadino romano". Voltaire rende omaggio alla classe media inglese, al loro commercio e alla loro società pacifica.
 
-### La Verità Richiede Libertà
+### La verità richiede libertà
 
 Eppure, alla Francia non mancavano grandi menti. È poco noto ma Anne Robert Jacques Turgot, Barone de Laulne era prima di tutto un pensatore di spicco prima di diventare il Controllore Generale delle Finanze sotto Luigi XVI. Fu l'autore di un trattato magistrale sull'economia politica, _Riflessioni sulla Formazione e Distribuzione della Ricchezza_ (1766), che precedette _La Ricchezza delle Nazioni_ di Adam Smith (1776).
 
 ![image](assets/4/img-074.webp)
+
 I suoi primi scritti riflettono il suo impegno nella filosofia dell'Illuminismo. Nel 1754, pubblicò le sue _Lettere sulla Tolleranza Civile_ e nel 1757, diversi articoli scritti per _L'Enciclopedia_ di Diderot e d'Alembert.
+
 Nelle sue lettere, Turgot presenta una definizione di tolleranza. Tollerare significa rifiutare di usare la violenza contro l'errore. In altre parole, la tolleranza non è l'accettazione dell'errore. Si può combattere contro di esso ma con le armi della convinzione e della ragione, non con la violenza.
 
 Successivamente, Turgot si adoperò per far rimuovere a Luigi XVI la frase: "Giuro di sopprimere l'eresia" dal giuramento preso il giorno dell'incoronazione. Nel _Memoriale al Re sulla Tolleranza_ (1775), scrive:
-I difensori dell'intolleranza diranno che il principe ha il diritto di comandare quando la sua religione è vera e che allora si deve obbedirgli? No, anche in quel caso, non si può e non si deve obbedirgli; perché se si deve seguire la religione che egli prescrive, non è perché lui lo comanda, ma perché è vera; e non è, né può essere, perché il principe la prescrive che essa è vera. Non c'è uomo abbastanza stolto da credere vera una religione per tale motivo. Pertanto, chi si sottomette ad essa in buona fede non obbedisce al principe, obbedisce solo alla propria coscienza; e l'ordine del principe non aggiunge peso all'obbligo che questa coscienza impone su di lui. Che il principe creda o non creda in una religione, che comandi o non comandi di seguirla, essa è né più né meno ciò che è, vera o falsa. L'opinione del principe è quindi assolutamente estranea alla verità di una religione, e di conseguenza all'obbligo di seguirla: il principe, quindi, come principe, non ha alcun diritto di giudicare, nessun diritto di comandare a questo riguardo; la sua incompetenza è assoluta in materia di questo ordine, che non rientra nelle sue competenze, e in cui la coscienza di ciascun individuo può e deve avere solo Dio come unico giudice.
+
+> I difensori dell'intolleranza diranno che il principe ha il diritto di comandare quando la sua religione è vera e che allora si deve obbedirgli? No, anche in quel caso, non si può e non si deve obbedirgli; perché se si deve seguire la religione che egli prescrive, non è perché lui lo comanda, ma perché è vera; e non è, né può essere, perché il principe la prescrive che essa è vera. Non c'è uomo abbastanza stolto da credere vera una religione per tale motivo. Pertanto, chi si sottomette ad essa in buona fede non obbedisce al principe, obbedisce solo alla propria coscienza; e l'ordine del principe non aggiunge peso all'obbligo che questa coscienza impone su di lui. Che il principe creda o non creda in una religione, che comandi o non comandi di seguirla, essa è né più né meno ciò che è, vera o falsa. L'opinione del principe è quindi assolutamente estranea alla verità di una religione, e di conseguenza all'obbligo di seguirla: il principe, quindi, come principe, non ha alcun diritto di giudicare, nessun diritto di comandare a questo riguardo; la sua incompetenza è assoluta in materia di questo ordine, che non rientra nelle sue competenze, e in cui la coscienza di ciascun individuo può e deve avere solo Dio come unico giudice.
+
 In altre parole, essere tolleranti non significa essere ostili alla religione. Significa considerare che la credenza religiosa non rientra nel potere politico ma nella coscienza di ogni individuo. La verità richiede libertà; non deve mai essere imposta sotto pena di diventare corrotta.
 
-- Le idee dovrebbero essere scambiate, proprio come le merci
+- Le idee dovrebbero essere scambiate, proprio come le merci.
 
-## Appello per la Libertà Economica
+## Appello per la libertà economica
 
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
@@ -882,18 +894,19 @@ Da questo punto, iniziarono a emergere due concezioni molto diverse all'interno 
 - Da un lato, ci sono coloro che credono che questa armonia sociale debba essere raggiunta artificialmente e attraverso il vincolo dello Stato; queste sono le teorie del contratto.
 - Dall'altro lato, ci sono coloro che credono che la governance possa essere raggiunta attraverso gli interessi, nel senso di permettere agli interessi individuali di armonizzarsi all'interno del quadro di regole del gioco che sono conosciute e accettate da tutti: queste sono le teorie del mercato.
 
-### Contro il Colbertismo
+### Contro il colbertismo
 
 Questa frase apparve quando Jean-Baptiste Colbert, principale consigliere di Luigi XIV, chiese un giorno ai mercanti: "Cosa posso fare per voi?" Uno di loro, di nome François Legendre, rispose: "Lasciateci fare!"
 La frase fu adottata dai Fisiocratici, François Quesnay, il Marchese d'Argenson e poi da Vincent de Gournay: "Laissez-faire, laissez passer." Divenne il loro motto.
 
 Facendo riferimento alla legge naturale (il termine deriva da _phusis_, natura, e _cratos_, potere o regola), i fisiocratici credevano che esistessero leggi economiche, che non dipendevano dal potere politico o religioso ma dalla stessa natura dell'uomo e delle società. L'ordine economico è l'ordine naturale delle società. Il potere politico deve sottomettersi ad esso.
+
 I Fisiocratici si prefissero di dimostrare che il mercantilismo, la politica economica in Francia così come in Inghilterra, non era solo inefficiente ma anche immorale. Colbert fu uno dei primi statisti moderni. Era convinto che la regolamentazione governativa potesse generare prosperità nazionale. Lo Stato agiva come banchiere, commerciante e fornitore. Controllava la valuta, dirigeva il commercio e redistribuiva la ricchezza.
 Secondo Colbert, l'obiettivo era cercare "un aumento della ricchezza incoraggiando l'industria." E aggiungeva anche: "La Francia può arricchirsi solo a spese dell'Inghilterra e dell'Olanda."
 
 Al contrario, per i Fisiocratici, il libero scambio era l'unica buona politica economica perché era un gioco a somma positiva e l'economia era governata da leggi naturali che non dovevano essere disturbate da leggi arbitrarie.
 
-### I Benefici del Mercato Libero
+### I benefici del mercato libero
 
 Fino alla Rivoluzione Francese, la società viveva in un'economia aristocratica basata su dono e privilegio. Azioni arbitrarie e vessazioni rendevano difficile l'accesso al mercato per i cittadini comuni.
 
@@ -905,7 +918,7 @@ Infatti, gli esseri umani vogliono naturalmente migliorare la propria condizione
 
 Per i Fisiocratici, la libertà non divide. Combattere i privilegi politici e combattere le rendite economiche sono una cosa sola. La grande novità degli economisti moderni, all'alba del XVIII secolo, fu che si concentrarono su ogni individuo con l'intenzione di ripristinare la loro capacità di azione pensando a come contenere passioni e interessi attraverso il libero mercato.
 
-Infatti, come far coesistere uomini con interessi divergenti? Cosa fare se gli uomini entrano in conflitto, se commettono errori, se sono avidi e egoisti?
+Infatti, come far coesistere uomini con interessi divergenti? Cosa fare se gli uomini entrano in conflitto, se commettono errori, se sono avidi ed egoisti?
 
 I Fisiocratici risposero in tre fasi:
 
@@ -915,35 +928,36 @@ I Fisiocratici risposero in tre fasi:
 
 In breve, se tutti possono liberamente perseguire il proprio interesse privato nel rispetto della legge naturale, la pace e la prosperità di tutti saranno meglio garantite che da un'organizzazione politica che definirebbe l'interesse generale dall'alto e lo imporrebbe attraverso il vincolo della legge. La libertà politica è una cosa utile ma non è sufficiente a dare agli individui l'autonomia di decisione e azione di cui hanno bisogno. Tale è la lezione dei fisiocratici. La scuola liberale francese del XIX secolo, con Say, Constant, Dunoyer, Bastiat e Molinari, ricorderà questo e difenderà brillantemente questo patrimonio contro il socialismo emergente.
 
-## Un Anno Chiave per il Mondo Libero: 1776
+## Un anno chiave per il mondo libero: 1776
 
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
 1776 è un anno che spesso passa inosservato nei libri di storia. Ma in tre paesi, Francia, Scozia e Nord America, diversi eventi lasceranno un segno indelebile sulla storia della libertà.
 
-### La Disgrazia di Turgot
+### La disgrazia di Turgot
 
-Durante il suo breve mandato come Ministro delle Finanze (Controllore Generale), da agosto 1774 a maggio 1776, Ann-Robert Jacques Turgot tentò importanti riforme per porre fine alle spese sfrenate, ai numerosi monopoli locali e per tornare al libero scambio. Andò persino fino a rimproverare il Re Luigi XVI con questi termini:
+Durante il suo breve mandato come Ministro delle Finanze (Controllore Generale), da agosto 1774 a maggio 1776, Ann-Robert Jacques Turgot tentò importanti riforme per porre fine alle spese sfrenate, ai numerosi monopoli locali e per tornare al libero scambio. Andò persino a rimproverare il Re Luigi XVI con questi termini:
 
 > Dovete, Sire, armare voi stessi contro la vostra bontà, con la vostra stessa bontà, considerando da dove provengono i soldi che potete distribuire ai vostri cortigiani.
-> Nel 1774, pubblicò i suoi Sei Editti per abolire le corporazioni e maestranze (corporazioni che erano diventate monopoli e barriere all'ingresso nel mercato del lavoro), abolire i dazi interni sul commercio del grano, abolire il lavoro forzato (corvée) e stabilire la tolleranza verso i protestanti.
+
+Nel 1774, pubblicò i suoi Sei Editti per abolire le corporazioni e maestranze (corporazioni che erano diventate monopoli e barriere all'ingresso nel mercato del lavoro), abolire i dazi interni sul commercio del grano, abolire il lavoro forzato (corvée) e stabilire la tolleranza verso i protestanti.
 
 Sfortunatamente, l'impennata dei prezzi del grano, a seguito di un cattivo raccolto, mise in dubbio le sue riforme. Turgot scrisse in sua difesa:
 
 > Quando nelle province ci sarebbero ancora state carestie, non dovrebbe essere preso come un'obiezione contro la libertà; si dovrebbe solo concludere che la libertà non è stata stabilita abbastanza a lungo per aver prodotto tutti i suoi effetti.
 
 Tuttavia, incontrò principalmente l'ira dei nobili, che tentarono di difendere i loro privilegi. Di fronte a una cabala montata dal Principe di Conti, preferì dimettersi nel maggio 1776 piuttosto che cedere su ciò che considerava la salvezza della monarchia e della Francia. La sua caduta concluse il primo esperimento in Francia con un'economia di libero mercato (Per ulteriori letture, vedere Edgar Faure, _La disgrâce de Turgot_).
-L'opera principale di Turgot, _Riflessioni sulla formazione e distribuzione della ricchezza_ (1766), deve molto alla dottrina dei Fisiocratici. Turgot rivisita ed estende il modello di libero mercato proposto da Quesnay e, prima di lui, da Boisguilbert contro i mercantilisti. Ma le sue idee sono almeno altrettanto influenzate dal suo amico Jacques Vincent de Gournay, nominato intendente del commercio nel 1751. Turgot viaggiò con lui in tutto il paese durante i suoi tour di ispezione.
+L'opera principale di Turgot, _Riflessioni sulla formazione e distribuzione della ricchezza_ (1766), deve molto alla dottrina dei Fisiocratici. Turgot rivisita ed estende il modello di libero mercato proposto da Quesnay e, prima di lui, da Boisguilbert contro i mercantilisti. Ma le sue idee sono almeno altrettanto influenzate dal suo amico Jacques Vincent de Gournay, nominato intendente del commercio (ovvero, l'equivalente del nostro "agente di commercio") nel 1751. Turgot viaggiò con lui in tutto il paese durante i suoi tour di ispezione.
 
-Turgot è un apostolo del diritto naturale, che chiama anche il "sistema della libertà". Sottolinea spesso che la concorrenza in un mercato libero regola naturalmente i prezzi e previene gli abusi. Inoltre, rende il commerciante la pietra angolare del meccanismo di mercato. Infatti, gli agenti statali sono meno motivati e soprattutto meno informati dei commercianti. Pertanto, è più efficiente lasciare il commercio nelle mani degli interessi privati.
+Turgot è un apostolo del diritto naturale, che egli definisce anche "sistema della libertà". Sottolinea spesso che la concorrenza in un mercato libero regola naturalmente i prezzi e previene gli abusi. Inoltre, rende il commerciante la pietra angolare del mercato. Infatti, gli agenti statali sono meno motivati e soprattutto meno informati dei commercianti. Pertanto, è più efficiente lasciare il commercio nelle mani degli interessi privati.
 
-Non è necessario dimostrare che ogni individuo è l'unico giudice dell'uso più vantaggioso della propria mente e delle proprie braccia. Solo loro possiedono la conoscenza locale senza la quale l'uomo più illuminato può solo ragionare alla cieca. Solo loro hanno un'esperienza tanto più affidabile quanto è limitata a un singolo oggetto. Imparano attraverso i loro ripetuti tentativi, i loro successi, le loro perdite e acquisiscono un tatto la cui finezza, affilata dal sentimento del bisogno, supera di gran lunga tutta la teoria dello speculatore indifferente. (_Elogio di Vincent de Gournay_).
+Non serve dimostrare che ogni individuo è l'unico responsabile dell'uso della propria mente e delle proprie braccia. Solo loro possiedono la conoscenza locale senza la quale l'uomo più illuminato può solo ragionare alla cieca. Solo loro hanno un'esperienza tanto più affidabile quanto è limitata a un singolo oggetto. Imparano attraverso i loro ripetuti tentativi, i loro successi, le loro perdite e acquisiscono un tatto la cui finezza, affilata dal sentimento del bisogno, supera di gran lunga tutta la teoria dello speculatore indifferente. (_Elogio di Vincent de Gournay_).
 
 Qui, Turgot anticipa in gran parte l'argomento di Mises e Hayek sull'impossibilità di qualsiasi calcolo economico in un sistema economico socialista.
 
 Dedicando un capitolo alla "Brillantezza di Turgot", Murray Rothbard nella sua storia economica da una prospettiva austriaca, sottolinea che "l'influenza di Turgot sul pensiero economico successivo fu seriamente limitata (...) dal mito successivo che Adam Smith fosse il fondatore dell'economia politica." E aggiunge, "fu sul francese J.B. Say, ufficialmente un seguace di Smith, che Turgot alla fine ebbe la maggior influenza, in particolare la sua teoria del valore di utilità."
 
-### Il Capolavoro di Condillac
+### Il capolavoro di Condillac
 
 Nel 1776, il filosofo Étienne Bonnot de Condillac pubblicò _Commercio e Governo_, forse uno dei più magnifici appelli di quell'epoca a favore del libero scambio e della libertà individuale.
 
@@ -952,11 +966,12 @@ _Commercio e Governo_ contiene quella che in seguito sarebbe stata chiamata una 
 > Il valore delle cose, scrive, si basa sulla loro utilità, o, che equivale alla stessa cosa, sul bisogno che ne abbiamo; o, che ancora equivale alla stessa cosa, sull'uso che possiamo farne. E aggiunge: "Una cosa non ha valore perché costa, come si suppone; ma costa, perché ha un valore.
 
 Così, il valore non risiede all'interno della cosa sotto forma di una quantità di lavoro che avrebbe dovuto essere prodotta (la tesi del valore lavoro che sarebbe stata quella di Adam Smith e Ricardo) ma all'esterno della cosa, in altre parole, nell'intensità del desiderio che l'acquirente prova.
-È anche un trattato di filosofia in quanto dimostra come lo scambio libero e volontario sia uno strumento di emancipazione più giusto dell'intervento statale perché è egualitario e anti-gerarchico. È capace di stabilire cittadini maturi e responsabili ed è la risposta alle derive tiranniche dell'Ancien Régime. Infatti, se gli eccessi dell'individualismo possono essere regolati dal mercato, nulla può regolare gli abusi del potere centrale. Questo è il motivo per cui Condillac invita il potere a liberare il commercio da qualsiasi ostacolo e a rinunciare a qualsiasi intervento nella sfera economica.
 
-### Un Manifesto per la Libertà in America
+È anche un trattato di filosofia in quanto dimostra come lo scambio libero e volontario sia uno strumento di emancipazione più giusto dell'intervento statale perché è egualitario e anti-gerarchico. È capace di formare cittadini maturi e responsabili ed è la risposta alle derive tiranniche dell'Ancien Régime. Infatti, se gli eccessi dell'individualismo possono essere regolati dal mercato, nulla può regolare gli abusi del potere centrale. Questo è il motivo per cui Condillac invita il potere a liberare il commercio da qualsiasi ostacolo e a rinunciare a qualsiasi intervento nella sfera economica.
 
-Nel 1776, un inglese di nome Thomas Paine pubblicò in America un pamphlet virulento che criticava la monarchia inglese e sosteneva l'indipendenza dei coloni americani: _Common Sense_.
+### Un manifesto per la libertà in America
+
+Nel 1776, un inglese di nome Thomas Paine pubblicò in America un opuscolo che criticava aspramente la monarchia inglese e sosteneva l'indipendenza dei coloni americani: _Common Sense_.
 
 ![immagine](assets/4/img-065.webp)
 
@@ -970,60 +985,63 @@ Paine sostiene che:
 
 L'autore si prende cura di distinguere tra società civile e Stato:
 
-> La società è il risultato delle nostre necessità, il governo è quello della nostra malvagità. \[…\] Lo stato sociale è un bene sotto tutte le ipotesi. Il governo, anche nella sua perfezione, è solo un male necessario; nella sua imperfezione, è un male insopportabile.
+> La società è il risultato delle nostre necessità, il governo è quello della nostra malvagità. \[…\] Lo stato sociale è un bene sotto tutti gli aspetti. Il governo, anche nella sua perfezione, è solo un male necessario; nella sua imperfezione, è un male insopportabile.
 
 Il successo del libro è immenso. Vendette circa 100.000 copie in pochi mesi, in un paese di tre milioni di abitanti e contribuì a galvanizzare il sentimento americano di indipendenza.
 
-Thomas Paine, attraverso il suo pamphlet, ha giocato un ruolo cruciale nella Rivoluzione Americana e nell'ispirare gli ideali di libertà e democrazia. Ha influenzato direttamente la Dichiarazione d'Indipendenza Americana adottata pochi mesi dopo.
+Thomas Paine, attraverso il suo opuscolo, ha giocato un ruolo cruciale nella Rivoluzione Americana e nell'ispirare gli ideali di libertà e democrazia. Ha influenzato direttamente la Dichiarazione d'Indipendenza Americana adottata pochi mesi dopo.
 
-### Il Congresso di Filadelfia
+### Il congresso di Filadelfia
 
 Il 4 luglio 1776, a Filadelfia, dove sono riuniti in congresso (in inglese, "Convention"), i rappresentanti delle Tredici Colonie Inglesi del Nord America adottano una risoluzione che afferma che gli "Stati Uniti sono, e di diritto devono essere, Stati liberi e indipendenti". La risoluzione è sostenuta da John Adams, (uno degli ispiratori del Tea Party) e Benjamin Franklin, delegati del Massachusetts. La Dichiarazione d'Indipendenza sarà redatta da Thomas Jefferson, delegato della Virginia.
 
 ![immagine](assets/4/img-066.webp)
+
 Negli anni successivi, i francesi La Fayette, Rochambeau, l'ammiraglio de Grasse, il conte d'Estaing, il generale Duportail, il marchese de la Rouerie, il comandante Pierre L'Enfant, lo scrittore Beaumarchais e molti altri combatterono al fianco degli Insorgenti per liberarli dal giogo del Re d'Inghilterra.
+
 ![immagine](assets/4/img-081.webp)
 
 141 anni dopo, il 4 luglio 1917, nel bel mezzo della Prima Guerra Mondiale, fu organizzata una cerimonia per i primi soldati dell'AEF arrivati a Parigi al Cimitero di Picpus sulla tomba di La Fayette, l'"eroe dei due mondi". In questa occasione, il capitano Charles E. Stanton dello staff del generale Pershing pronunciò un famoso discorso:
-Mi rammarico di non poter rivolgermi alla popolazione francese nella bella lingua del suo fedele paese. Non si può dimenticare che la vostra nazione è stata nostra amica quando l'America ha combattuto per la sua esistenza, quando un pugno di uomini coraggiosi e patriottici erano determinati a difendere i diritti che il loro Creatore aveva loro dato -- che la Francia, nella persona di Lafayette, è venuta in nostro aiuto con parole e azioni. Sarebbe ingrato non ricordare questo, e l'America non mancherà ai suoi obblighi...
 
-Pertanto, è con grande orgoglio che abbracciamo i colori in tributo di rispetto verso questo cittadino della vostra grande Repubblica, e qui e ora all'ombra degli illustri defunti gli assicuriamo il nostro cuore e il nostro onore per dare a questa guerra un esito favorevole.
-
-Lafayette, siamo qui!
+> Mi rammarico di non poter rivolgermi alla popolazione francese nella bella lingua del suo fedele paese. Non si può dimenticare che la vostra nazione è stata nostra amica quando l'America ha combattuto per la sua esistenza, quando un pugno di uomini coraggiosi e patriottici erano determinati a difendere i diritti che il loro Creatore aveva loro dato -- che la Francia, nella persona di Lafayette, è venuta in nostro aiuto con parole e azioni. Sarebbe ingrato non ricordare questo, e l'America non mancherà ai suoi obblighi...
+> Pertanto, è con grande orgoglio che abbracciamo i colori in tributo di rispetto verso questo cittadino della vostra grande Repubblica, e qui e ora all'ombra degli illustri defunti gli assicuriamo il nostro cuore e il nostro onore per dare a questa guerra un esito favorevole.
+> Lafayette, siamo qui!
 
 Nel 1789, fu ancora La Fayette, con Jefferson, a porre le prime fondamenta della Dichiarazione dei Diritti dell'Uomo del 1789.
 
-### La Ricchezza delle Nazioni
+### La ricchezza delle Nazioni
 
 Adam Smith pubblicò nel 1776 _Un'indagine sulla natura e le cause della Ricchezza delle Nazioni_. Un'opera prolifica che spesso lo categorizza come economista anche se insegnava filosofia morale all'Università di Glasgow. In modo caricaturale, è ricordato come il padre dell'economia moderna.
 
 ![immagine](assets/4/img-070.webp)
 
-In realtà, Smith deveva molto agli economisti Quesnay e Turgot che incontrò durante un viaggio di più di un anno in Francia. In questo libro, descrive in particolare un "semplice sistema di libertà naturale" in cui gli individui, perseguendo i propri interessi, sono condotti "da una mano invisibile" a promuovere il benessere della società nel suo insieme.
+In realtà, Smith doveva molto agli economisti Quesnay e Turgot che incontrò durante un viaggio di più di un anno in Francia. In questo libro, descrive in particolare un "semplice sistema di libertà naturale" in cui gli individui, perseguendo i propri interessi, sono condotti "da una mano invisibile" a promuovere il benessere della società nel suo insieme.
 
 Ecco il passaggio più famoso:
-Favorire il successo dell'industria nazionale rispetto a quella straniera, pensa solo a garantirsi una maggiore sicurezza; e dirigendo questa industria in modo che il suo prodotto sia del massimo valore possibile, pensa solo al proprio guadagno; in questo, come in molti altri casi, è condotto da una mano invisibile a raggiungere un fine che non fa affatto parte delle sue intenzioni; e non è sempre la cosa peggiore per la società che questo fine non faccia parte delle sue intenzioni. (_La Ricchezza delle Nazioni_)
+
+> Favorire il successo dell'industria nazionale rispetto a quella straniera, l'individuo pensa solo a garantirsi una maggiore sicurezza; e dirigendo questa industria in modo che il suo prodotto sia del massimo valore possibile, pensa solo al proprio guadagno; in questo, come in molti altri casi, è condotto da una mano invisibile a raggiungere un fine che non fa affatto parte delle sue intenzioni; e non è sempre la cosa peggiore per la società che questo fine non faccia parte delle sue intenzioni. (_La Ricchezza delle Nazioni_)
 
 Questa famosa mano invisibile illustra l'idea che la libera concorrenza in un mercato libero porta a un'allocazione efficiente delle risorse e a una massimizzazione del benessere generale.
 
-Il contributo più importante di Smith alla libertà fu chiarire l'idea di ordine spontaneo. Infatti, Smith sostiene che gli individui, cercando di soddisfare i propri bisogni e desideri, sono incoraggiati a produrre e scambiare beni e servizi in un modo che soddisfa le esigenze della società più efficacemente di quanto potrebbe fare la pianificazione centrale.
+Il contributo più importante di Smith alla libertà fu chiarire l'idea di ordine spontaneo. Infatti, Smith sostiene che gli individui, cercando di soddisfare i propri bisogni e desideri, sono incoraggiati a produrre e scambiare beni e servizi in un modo che soddisfa meglio le esigenze della società di quanto potrebbe fare la pianificazione centrale.
 
 Questa idea di ordine spontaneo diventerà un concetto chiave nel lavoro di Friedrich Hayek, che riconoscerà il suo debito verso l'Illuminismo scozzese e in particolare verso Adam Smith.
 
-## L'Età delle Rivoluzioni
+## L'Età delle rivoluzioni
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 La grande novità di questo periodo moderno nella storia occidentale è l'emergere di una società che si organizza al di fuori della dipendenza religiosa. Ciò non significa la scomparsa della credenza religiosa o la morte di Dio. Ma Dio diventa una questione privata, non più mescolata con gli affari politici. Non c'è scomparsa della religione ma un detronizzare del suo ruolo guida. Diventa un sistema di credenze individuali.
 
 Questa secolarizzazione del mondo occidentale non è avvenuta dall'oggi al domani. È stata preparata dalle idee. Come spesso accade, la filosofia è all'avanguardia dei grandi cambiamenti culturali.
-Dall'epoca di Machiavelli e Hobbes, l'uomo è inteso come un essere di passioni, animato da tendenze contraddittorie. Era quindi necessario trovare principi regolatori per queste passioni per evitare i conflitti e la violenza che portano.
+
+Dall'epoca di Machiavelli e Hobbes, l'uomo è inteso come un essere di passioni, animato da tendenze contraddittorie. Era quindi necessario trovare dei principi regolatori per queste passioni per evitare i conflitti e la violenza che ne derivano.
 
 Abbiamo parlato di economisti e del loro sostegno al libero mercato. Ma per molti filosofi, la soluzione al problema presuppone piuttosto l'istituzione di un potere sovrano attraverso un contratto legale.
 
 Fino al XVIII secolo, il principale problema politico per questi filosofi è quindi quello della sovranità. È principalmente una questione di giustizia: chi può legittimamente esercitare la sovranità?
 
-### Sovranità Popolare
+### Sovranità popolare
 
 L'idea fu ispirata da Locke nel XVII secolo e poi ripresa da Rousseau. Il potere sovrano non deve solo provenire dalla libera volontà del popolo, ma deve anche risiedere in esso. Questa è la teoria rousseauiana della sovranità della volontà generale, ciò che oggi chiamiamo democrazia.
 
@@ -1042,13 +1060,14 @@ Locke assegna allo stato la missione di difendere la proprietà individuale, int
 > Il grande e principale fine, quindi, per cui gli uomini si uniscono in comunità e si sottomettono al governo, è la conservazione della loro proprietà. (Due trattati sul governo, § 87).
 
 Thomas Jefferson ha iscritto la teoria dei diritti inalienabili di Locke nella Dichiarazione di Indipendenza:
-Riteniamo queste verità evidenti, che tutti gli uomini sono creati uguali, che sono dotati dal loro Creatore di certi diritti inalienabili, tra questi, la vita, la libertà e la ricerca della felicità.
+
+> Riteniamo queste verità evidenti, che tutti gli uomini sono creati uguali, che sono dotati dal loro Creatore di certi diritti inalienabili, tra questi, la vita, la libertà e la ricerca della felicità.
 
 Inoltre, l'articolo 2 della Dichiarazione dei Diritti del 1789 si ispira anche a questa tradizione lockiana del diritto naturale:
 
 > Lo scopo di qualsiasi associazione politica è la conservazione dei diritti naturali e imprescrittibili dell'uomo. Questi diritti sono libertà, proprietà, sicurezza e resistenza all'oppressione.
 
-### Due Rivoluzioni a Confronto
+### Due rivoluzioni a confronto
 
 La Rivoluzione Americana fu guidata da uomini che parlavano di diritti fondamentali inalienabili. Portò alla formazione di uno stato di diritto decentralizzato e limitato. Dall'altro lato dell'Atlantico, si svolse un altro esperimento politico: la Rivoluzione Francese, che iniziò come un coraggioso sollevamento del popolo, terminò in una serie di massacri, sanguinosi conflitti interni e spianò la strada alla dittatura militare di Napoleone Bonaparte. Perché una tale differenza?
 Nel XIX secolo, Alexis de Tocqueville, un filosofo politico francese, tentò di individuare queste differenze tra le due rivoluzioni sorelle. Attribuisce il successo della Rivoluzione Americana a diversi fattori.
@@ -1058,11 +1077,12 @@ Primo, nel modo di definire la repubblica. La Repubblica Francese è una e indiv
 Sostiene anche che la fede dell'America in una legge superiore ha giocato un ruolo decisivo. La Dichiarazione d'Indipendenza proclama che tutti gli uomini sono creati uguali, che sono dotati di certi diritti inalienabili (vita, libertà, proprietà e ricerca della felicità) e che lo scopo di un governo è unicamente quello di garantire questi diritti. Si trattava di ripristinare principi e ideali che erano stati calpestati dalla corona britannica.
 
 Il Primo Emendamento della Costituzione Americana, redatto nel 1789, afferma:
-Il Congresso non farà alcuna legge riguardante l'istituzione di una religione, o proibendo il libero esercizio di essa; o limitando la libertà di parola, o della stampa; o il diritto delle persone di riunirsi pacificamente, e di presentare petizioni al Governo per un risarcimento dei torti.
+
+> Il Congresso non farà alcuna legge riguardante l'istituzione di una religione, o proibendo il libero esercizio di essa; o limitando la libertà di parola, o della stampa; o il diritto delle persone di riunirsi pacificamente, e di presentare petizioni al Governo per un risarcimento dei torti.
 
 Questa formulazione protegge esplicitamente contro la tirannia della maggioranza. Tuttavia, la Rivoluzione Francese fu piuttosto diversa. I francesi volevano staccarsi completamente dal passato. I principi secolari dell'eredità cristiana non soddisfacevano più le aspettative di rivoluzionari come Robespierre.
 
-### Dalla Rivolta del Terzo Stato al Terrore Giacobino
+### Dalla rivolta del terzo stato al terrore giacobino
 
 Abbé Sieyès (1748-1836) è considerato il padre della Rivoluzione Francese. È l'autore di _Che cos'è il Terzo Stato?_, nel gennaio 1789
 
@@ -1071,7 +1091,8 @@ Il Terzo Stato comprendeva tutti coloro che non appartenevano al clero o alla no
 > Non è noto l'effetto del monopolio? Se scoraggia coloro che esclude, non è noto che rende meno abili coloro che favorisce? Non è noto che qualsiasi lavoro dal quale viene rimossa la libera concorrenza sarà svolto in modo più costoso e peggiore?
 
 La notte del 4 agosto 1789 è l'evento fondativo della Rivoluzione Francese, ancor più del 14 luglio, che è stato scelto come festa nazionale. Infatti, durante la sessione che si tenne allora, l'Assemblea Costituente mise fine al sistema feudale. I privilegi furono aboliti, quelli dei nobili e quelli del clero. Nel marzo 1791, dopo diversi mesi di una sorta di limbo legale, furono abolite anche le corporazioni, e fu stabilita la completa libertà di lavoro. La Rivoluzione ratificò l'opera di Turgot. Ma non per molto...
-In Francia, alla fine del 1791, la carestia esacerbò il malcontento popolare. Le rivolte paralizzarono il commercio del grano e il pane era scarso. Un vasto movimento richiedeva la legge agraria, ovvero la distribuzione da parte dello Stato della produzione di grano. L'Assemblea, tuttavia, resistette a questo tentativo di collettivizzazione. Inizialmente, votò per la confisca dei beni della Chiesa e, in un secondo momento, la Costituzione Civile del Clero. La confisca dei beni della Chiesa mirava ad evitare la crisi finanziaria; era intesa a servire come garanzia per gli Assignat, significando un'emissione massiccia di moneta cartacea. Inoltre, come Dupont de Nemours aveva previsto, l'emissione di valuta falsa peggiorò solo la crisi, causando un'inflazione diffusa e un forte calo del valore degli Assignat. Ad agosto 1792, le rivolte della fame a loro volta portarono all'insurrezione di Parigi, all'esecuzione di Luigi XVI nel gennaio 1793 e poi al Regno del Terrore.
+
+In Francia, alla fine del 1791, la carestia esacerbò il malcontento popolare. Le rivolte paralizzarono il commercio del grano e il pane era scarso. Un vasto movimento richiedeva la legge agraria, ovvero la distribuzione da parte dello Stato della produzione di grano. L'Assemblea, tuttavia, resistette a questo tentativo di collettivizzazione. Inizialmente, votò per la confisca dei beni della Chiesa e, in un secondo momento, la Costituzione Civile del Clero. La confisca dei beni della Chiesa mirava ad evitare la crisi finanziaria; era intesa a servire come garanzia per gli Assignat (Certificati di credito sostitutivi della moneta), significando un'emissione massiccia di moneta cartacea. Inoltre, come Dupont de Nemours aveva previsto, l'emissione di valuta falsa peggiorò solo la crisi, causando un'inflazione diffusa e un forte calo del valore degli Assignat. Ad agosto 1792, le rivolte della fame a loro volta portarono all'insurrezione di Parigi, all'esecuzione di Luigi XVI nel gennaio 1793 e poi al Regno del Terrore.
 
 Nel 1795, cinque anni dopo la prima emissione, la moneta cartacea aveva perso il 99% del suo valore. La Rivoluzione Francese continuò sotto il Direttorio fino al 1799, quando Napoleone prese il potere attraverso un colpo di stato. Divenne il Primo Console della Repubblica Francese prima di essere incoronato Imperatore nel 1804. Questa fu una delle prime evidenti contraddizioni con la Dichiarazione dei Diritti dell'Uomo, che proclamava che la proprietà privata era inviolabile.
 
@@ -1081,19 +1102,19 @@ Con Rousseau e Robespierre, i francesi volevano credere che la Nazione o la volo
 
 Questo è, peraltro, il senso dell'osservazione di Friedrich Hayek nel suo libro _La Costituzione della Libertà_:
 
-> Il fattore decisivo che rese vane le sforzi della Rivoluzione a favore della promozione della libertà individuale fu che creò l'illusione che, in quanto tutto il potere era stato consegnato al popolo, tutte le precauzioni contro l'abuso di questo potere fossero diventate inutili.
+> Il fattore decisivo che rese vani gli sforzi della Rivoluzione a favore della promozione della libertà individuale fu che creò l'illusione che, in quanto tutto il potere era stato consegnato al popolo, tutte le precauzioni contro l'abuso di questo potere fossero diventate inutili.
 
-# Apogeo e Declino: Dal XIX al XX Secolo
+# Apogeo e declino: dal XIX al XX secolo
 
 <partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
 
-## La Libertà dei Moderni
+## La libertà dei moderni
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
 Secondo Benjamin Constant, la libertà, nelle nostre società moderne, non può più essere intesa alla maniera delle società dell'Antichità come partecipazione diretta agli affari della città.
 
-### Libertà nella Vita Privata
+### Libertà nella vita privata
 
 Nell'antichità, l'individuo era sovrano negli affari pubblici ma schiavizzato in tutte le sue relazioni private. Il sacrificio della libertà individuale era compensato dall'uso dei diritti politici: il diritto di esercitare direttamente varie parti della sovranità, di deliberare nella piazza pubblica, di votare le leggi, di pronunciare giudizi, di valutare e giudicare i magistrati. Si tratta di una libertà politica e collettiva:
 La libertà degli Antichi consisteva in una partecipazione attiva e costante al potere collettivo. La nostra libertà, invece, deve consistere nel godimento pacifico dell'indipendenza privata; ne consegue che dobbiamo essere molto più attaccati degli antichi alla nostra indipendenza individuale. (_Sulla libertà degli Antichi paragonata a quella dei Moderni_ (1819))
@@ -1102,14 +1123,15 @@ La libertà moderna è la libertà civile, che include la libertà economica ed 
 
 Questa definizione di libertà si trova in John Stuart Mill:
 
-> L'unica libertà che merita questo nome, è quella di perseguire il nostro bene a modo nostro, finché non tentiamo di privare gli altri del loro o di impedire i loro sforzi per ottenerlo. (...) L'umanità guadagna di più lasciando che ogni persona viva come crede sia meglio piuttosto che costringendola a vivere come sembra buono agli altri. (_Sulla libertà_, 1859)
+> L'unica libertà che merita questo nome è quella di perseguire il nostro bene a modo nostro, purché non tentiamo di privare gli altri del loro o di ostacolare i loro sforzi per ottenerlo. (...) L'umanità guadagna di più lasciando che ciascuno viva come ritiene opportuno piuttosto che costringendolo a vivere come gli altri ritengono giusto (_Sulla libertà_, 1859).
 
 Mill delinea i limiti della sovranità statale: si ferma dove inizia la sovranità dell'individuo. Se un'azione individuale non ha conseguenze dannose per gli altri, allora l'individuo è completamente libero di compierla. Lo Stato deve regolare le relazioni interindividuali, ma non può andare oltre, interferendo nella vita privata degli individui. Se l'individuo si danneggia, lo Stato non può fare altro che "rimproverare" o cercare di "ragionare" o "persuadere": non può costringere o punire. Poiché Mill aggiunge: "L'unica ragione legittima per cui uno stato può usare la forza contro uno dei suoi membri, contro la loro volontà, è per prevenire che venga fatto del male ad altri."
+
 Il potere politico corrispondente alla libertà dei Moderni è quindi un potere limitato: "Lasciate che l'autorità si limiti ad essere giusta, ci prenderemo cura della nostra felicità," proclama Benjamin Constant. Non spetta allo Stato dirci come essere felici.
 
-### La Confusione Rousseauiana
+### La confusione Rousseauiana
 
-Secondo Constant, "la confusione di questi due tipi di libertà è stata, tra noi, durante epoche troppo famose della nostra rivoluzione, la causa di molto male." Jean-Jacques Rousseau, concependo la libertà solamente come la partecipazione collettiva dei cittadini all'azione politica, ha incoraggiato Robespierre a costringere i cittadini attraverso il terrore. I passi falsi della Rivoluzione sono quindi il risultato dell'applicazione moderna di principi politici validi tra gli antichi.
+Secondo Constant, "la confusione di questi due tipi di libertà è stata, tra noi, durante le epoche più famose della nostra rivoluzione, causa di molto male." Jean-Jacques Rousseau, concependo la libertà solamente come la partecipazione collettiva dei cittadini all'azione politica, ha incoraggiato Robespierre a costringere i cittadini attraverso il terrore. I passi falsi della Rivoluzione sono quindi il risultato dell'applicazione moderna di principi politici validi tra gli antichi.
 
 Ma ciò non significa sacrificare la libertà politica, la partecipazione al potere. Constant specifica che se la libertà moderna differisce dalla libertà antica, è minacciata da un pericolo di tipo diverso. Il pericolo della libertà degli antichi era l'arbitrio. Il pericolo della libertà dei Moderni sarebbe quello di rinunciare alle garanzie politiche di questa libertà attraverso una sorta di indifferenza al bene pubblico. In altre parole, spetta ai cittadini esercitare una vigilanza permanente sui loro rappresentanti.
 
@@ -1119,7 +1141,7 @@ Infatti, nei suoi _Principi di Politica_, Benjamin Constant afferma:
 > Questa è una nuova critica di Rousseau e del _Contratto Sociale_: anche una volontà generale è soggetta a limiti e non può cambiare ciò che rientra nella legge naturale. Esiste un diritto anteriore e superiore all'autorità politica: è la legge naturale. Questo diritto stabilisce i confini del potere politico e limita le libertà individuali.
 > Dire che tutto il potere legittimo deve essere fondato sulla volontà generale non significa che tutto ciò che la volontà generale decide sia legittimo. Constant si allinea così alla Dichiarazione dei Diritti dell'Uomo del 1789, Articolo II, che stabilisce che lo Stato è istituito solo per preservare i diritti naturali, ovvero la libertà, la responsabilità e la proprietà. Ci sono quindi ambiti in cui il potere politico non ha influenza: la morale e la religione, ma anche le scienze che rientrano nell'autorità della conoscenza e infine l'industria, aggiunge Constant.
 
-### Libertà Politica e Libertà Economica
+### Libertà politica e libertà economica
 
 La libertà politica senza altre libertà è solo un'illusione secondo Benjamin Constant. La libertà politica è la libertà di partecipare all'esercizio del potere. Tuttavia, il potere del popolo o delle masse può essere distruttivo delle libertà perché concede alla maggioranza votante il diritto di imporre la sua volontà a tutta la società, inclusi i suoi capricci o la sua ideologia del momento: tasse confiscatorie senza compensazione, applicazione di un pensiero unico, censura, repressione e terrorismo intellettuale. Ecco perché non può esserci vera libertà senza le libertà civili, inclusa la libertà religiosa e la libertà economica. Benjamin Constant non separa il liberalismo politico dal liberalismo economico:
 
@@ -1127,7 +1149,7 @@ La libertà politica senza altre libertà è solo un'illusione secondo Benjamin 
 
 In altre parole, in una società libera, è necessario stabilire un confine rigoroso tra la sfera pubblica e la sfera privata. Il principio di questo confine risiede nel non danneggiare gli altri, ovvero nel non violare la loro proprietà.
 
-## Punti di Forza e debolezze della Democrazia
+## Punti di forza e debolezze della democrazia
 
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
@@ -1135,25 +1157,28 @@ Alexis de Tocqueville è stato un acuto osservatore della democrazia e un critic
 
 ![image](assets/5/img-095.webp)
 
-L'analisi della democrazia di Tocqueville estende essenzialmente la distinzione fatta da Constant tra la libertà degli Antichi e quella dei Moderni. Nel suo articolo del 1836 (_Stato Sociale e Politico della Francia Prima e Dopo il 1789_), Tocqueville confronta metodicamente la libertà aristocratica con la libertà democratica. La prima è definita come "Il godimento di un privilegio," e Tocqueville cita l'esempio del cittadino romano che deriva la sua libertà non dalla natura ma dal suo appartenere a Roma.
+L'analisi della democrazia di Tocqueville estende essenzialmente la distinzione fatta da Constant tra la libertà degli Antichi e quella dei Moderni. Nel suo articolo del 1836 (_Stato Sociale e Politico della Francia Prima e Dopo il 1789_), Tocqueville confronta metodicamente la libertà aristocratica con la libertà democratica. La prima è definita come "Il godimento di un privilegio," e Tocqueville cita l'esempio del cittadino romano che ottiene la sua libertà non dalla natura ma dal suo appartenere a Roma.
 Il secondo concetto, che è "la nozione corretta di libertà," consiste in un "diritto uguale e inalienabile di vivere indipendentemente dai propri pari." Questa nozione moderna di libertà non è quindi come la prima una nozione politica; si basa sulla legge naturale ed è "corretta" perché si estende ugualmente a ogni uomo. È scritto:
-Secondo la nozione moderna, la nozione democratica, e oserei dire la nozione corretta di libertà, ogni uomo, presumendo di aver ricevuto dalla natura l'illuminazione necessaria per condurre se stesso, porta alla nascita un diritto uguale e inalienabile di vivere indipendentemente dai suoi simili, in tutto ciò che riguarda solo se stesso, e di regolare come crede opportuno il proprio destino. Tocqueville è attento a identificare tutti gli effetti politici e culturali di questo nuovo modo di essere, tipicamente moderno. Ammiratore di Pascal, mira a dipingere la grandezza e le miserie della democrazia.
+
+> Secondo la nozione moderna, la nozione democratica, e oserei dire la nozione corretta di libertà, ogni uomo, presumendo di aver ricevuto dalla natura l'illuminazione necessaria per condurre se stesso, porta alla nascita un diritto uguale e inalienabile di vivere indipendentemente dai suoi simili, in tutto ciò che riguarda solo se stesso, e di regolare come crede opportuno il proprio destino. Tocqueville è attento a identificare tutti gli effetti politici e culturali di questo nuovo modo di essere, tipicamente moderno. Ammiratore di Pascal, mira a dipingere la grandezza e le miserie della democrazia.
 
 Nel 1841 in _Democrazia in America_, analizza questo principio democratico che si afferma nell'eguaglianza delle condizioni contro la gerarchia delle classi e l'autorità delle tradizioni. E osserva che questo processo accompagna logicamente la dissoluzione delle influenze sociali, i legami di dipendenza, e atomizza il legame sociale, minacciando così il vero esercizio della libertà e della responsabilità politica del cittadino. Inoltre, la perdita dei grandi ideali antichi (virtù, il bene comune) porta all'impoverimento del significato della vita, a "piccoli e volgari piaceri", alla noia e al disagio.
 
-Infatti, l'uguaglianza di condizione, che caratterizza la democrazia, significa che ogni persona tende a ritirarsi in se stessa, senza un legame che li attacchi agli altri. L'indipendenza individuale che questa nuova libertà consacra rende difficile l'esercizio delle virtù civiche favorendo l'indifferenza al bene pubblico. Di conseguenza, le democrazie moderne si espongono al "despotismo morbido e regolare" dello statalismo, questa nuova forma di servitù resa possibile dal crescente disinteresse della gente per la vita politica. La democrazia tende così simmetricamente verso due eccessi che si alimentano a vicenda:
+Infatti, l'uguaglianza di condizione, che caratterizza la democrazia, significa che ogni persona tende a ritirarsi in se stessa, senza un legame che li attacchi agli altri. L'indipendenza individuale che questa nuova libertà consacra rende difficile l'esercizio delle virtù favorendo l'indifferenza al bene pubblico. Di conseguenza, le democrazie moderne si espongono al "despotismo morbido e regolare" dello statalismo, questa nuova forma di servitù resa possibile dal crescente disinteresse della gente per la vita politica. La democrazia tende così simmetricamente verso due eccessi che si alimentano a vicenda:
 
 Da un lato, l'individualismo, cioè il "disinteresse per gli affari pubblici" e "l'amore per i piaceri materiali". Tocqueville definisce l'individualismo precisamente come un sentimento di autosufficienza che porta il cittadino a isolarsi dagli altri e a ritirarsi in se stesso. Questo è il narcisismo edonistico.
 
 E dall'altro, lo statalismo, che distrugge gli individui mantenendoli in uno stato di infanzia. Lo Stato "lavora volentieri per la loro felicità ma vuole essere l'unico agente".
-Infatti, l'equalizzazione è accompagnata da una maggiore fragilità degli individui che diventano isolati e separati gli uni dagli altri. Per evitare l'anarchia e proteggere i loro beni, si affidano a un potere unico e centrale al quale delegano tutti i loro diritti. Pertanto, secondo Tocqueville, è necessario sviluppare associazioni civili e "democrazia locale" per mantenere contropoteri e combattere così sia l'individualismo che il dispotismo, entrambi assassini della libertà.
+
+In effetti, l'eguaglianza si accompagna a una maggiore fragilità degli individui, che si isolano e si separano gli uni dagli altri. Per evitare l'anarchia e proteggere i propri beni, si affidano a un potere unico e centrale, a cui delegano tutti i loro diritti. Pertanto, secondo Tocqueville, è necessario sviluppare associazioni civili e "democrazia locale" per mantenere i contropoteri e combattere così sia l'individualismo che il dispotismo, entrambi liberticidi.
 
 L'autore di _Democrazia in America_ ci avverte:
 
-> Infatti, c'è una passione nobile e legittima per l'uguaglianza che eccita gli uomini a voler essere tutti forti e stimati. Questa passione tende ad elevare i piccoli al rango dei grandi; ma c'è anche nel cuore umano un gusto depravato per l'uguaglianza, che porta i deboli a voler abbassare i forti al loro livello, e che riduce gli uomini a preferire l'uguaglianza nella servitù all'ineguaglianza nella libertà. (...) Le nazioni dei nostri giorni non possono fare in modo che le condizioni al loro interno non siano uguali; ma spetta a loro se l'uguaglianza li conduce alla servitù o alla libertà, all'illuminazione o alla barbarie, alla prosperità o alla miseria.
-> Per Tocqueville, l'uomo è molto più attratto dall'uguaglianza che dalla libertà. E vede questo come un grande pericolo per la democrazia. Perché l'uomo preferisce la passione per l'uguaglianza tra le due? Perché la libertà produce costi direttamente visibili, e i suoi benefici sono più distanti, iscritti nel lungo termine (la libertà non fornisce contenuto, solo la capacità di cercare la felicità secondo il proprio giudizio). Al contrario, l'uguaglianza porta risultati positivi immediatamente visibili e i suoi difetti si rivelano solo nel lungo termine.
+> In effetti, esiste una nobile e legittima passione per l'uguaglianza che spinge gli uomini a voler essere forti e stimati. Questa passione tende a elevare i piccoli al rango dei grandi. Tuttavia, esiste anche nel cuore umano un gusto depravato per l'uguaglianza, che porta i deboli a voler abbassare i forti al loro livello e che riduce gli uomini a preferire l'uguaglianza nella servitù alla disuguaglianza nella libertà. (...) Le nazioni odierne non possono far sì che le condizioni al loro interno siano uguali. Tuttavia, spetta a loro decidere se l'uguaglianza le conduca alla servitù o alla libertà, all'illuminismo o alla barbarie, alla prosperità o alla miseria.
 
-### Il Diritto al Lavoro
+Per Tocqueville, l'uomo è molto più attratto dall'uguaglianza che dalla libertà. E vede questo come un grande pericolo per la democrazia. Perché l'uomo preferisce la passione per l'uguaglianza tra le due? Perché la libertà produce costi direttamente visibili, e i suoi benefici sono più distanti, iscritti nel lungo termine (la libertà non fornisce contenuto, solo la capacità di cercare la felicità secondo il proprio giudizio). Al contrario, l'uguaglianza porta risultati positivi immediatamente visibili e i suoi difetti si rivelano solo nel lungo termine.
+
+### Il diritto al lavoro
 
 Il diritto al lavoro è un buon esempio delle derive dell'egualitarismo democratico. In un discorso all'Assemblea Costituente nel 1848, Tocqueville si è espresso contro il diritto al lavoro nella bozza della costituzione. Se lo Stato si impegna a fornire lavoro per tutti i lavoratori, ha argomentato, o se assicura che essi lo trovino sempre nel mercato del lavoro, come vogliono i socialisti, sarà portato a diventare "il grande e unico organizzatore del lavoro."
 
@@ -1165,7 +1190,7 @@ In questo discorso, Tocqueville confronta il socialismo all'Ancien Régime, per 
 
 3. Economicamente, è inefficiente perché elimina la concorrenza attraverso le sue regolamentazioni e il suo rifiuto della proprietà privata.
 
-### La Legge e i Suoi Abusi
+### La legge e i suoi abusi
 
 Cosa pensava Frédéric Bastiat della democrazia? Rispose già nel 1846:
 

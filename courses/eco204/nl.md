@@ -1064,42 +1064,50 @@ De geschiedenis van de Weimarrepubliek onthult dat in deze periode bezittingen e
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Ongeveer 300 miljard dollar aan Russische reserves in het buitenland zijn inderdaad bevroren als onderdeel van de westerse sancties, van de 640 miljard dollar aan reserves die de Russische Centrale Bank aanhoudt."
 
+
+
+
 #### 3. Het begrip marktprijs
 
-> Weimar: "Zombies"
+Tijdens de Weimarrepubliek uitten boeren hun ongenoegen over de "Umlage", die hen verplichtte de eerste twee miljoen ton tarwe die elk jaar werd geproduceerd te leveren. Deze regelgeving had tot gevolg dat de helft van de totale broodvoorraad op de markt werd gebracht tegen gesubsidieerde prijzen. Vanaf augustus moesten deze boeren naar wereldmarktprijzen worden betaald, want hoewel ze gedwongen waren hun tarwe tegen lage prijzen af te staan, moesten ze meststoffen tegen wereldmarktprijzen kopen.
 
-> Hedendaags: "Ondernemingen zombies"
-> Weimar: "Stabilisatie maakte een einde aan de periode waarin ondernemers zoveel konden lenen als ze wilden ten koste van alle anderen. Een groot aantal bedrijven, opgericht of ontwikkeld tijdens de monetaire overvloed, werd snel onproductief toen kapitaal schaars werd."
-> Een zombiebedrijf is een bedrijf dat onder normale marktomstandigheden insolvent of bijna failliet zou zijn, maar voornamelijk blijft opereren door goedkoop te lenen. Deze bedrijven verdienen net genoeg geld om hun schulden te dekken, maar zijn niet in staat om significant te groeien.
+Deze situatie roept een centraal probleem op met betrekking tot het begrip marktprijs tijdens hyperinflatie. In de Duitse context van die tijd werden boeren gedwongen hun tarwe onder de werkelijke waarde te verkopen, terwijl ze zich van meststoffen moesten voorzien tegen wereldwijde kosten. Een dergelijke economische discrepantie benadrukt de uitdagingen die de voedselprijzen vandaag de dag vertegenwoordigen. Landbouwproducenten, geconfronteerd met de stijging van de kosten van inputs als gevolg van inflatie, berekenen deze kosten door in de eindproducten. Hen bekritiseren voor deze stijging komt neer op het negeren van de dynamiek van de marktprijs en de economische druk waarmee zij worden geconfronteerd. Verkopen tegen kunstmatig lage prijzen terwijl men hoge kosten moet dragen, is onhoudbaar voor elk bedrijf.
 
-Het concept van zombiebedrijven is niet nieuw. Het bestond al in de Weimarrepubliek. In die tijd leken veel bedrijven te floreren en te profiteren van de toegang tot gratis krediet. Ze leenden aanzienlijke bedragen, met het vooruitzicht dat ze die later zouden terugbetalen met een gedeprecieerde munt als gevolg van de ongebreidelde inflatie. Toen de inflatie echter stopte en de Duitse mark weer aan waarde won, werden deze bedrijven, die operationeel en financieel niet echt levensvatbaar waren, onrendabel en moesten ze hun deuren sluiten.
+> Weimar: "De landbouwbelangen waren ontevreden over de 'Umlage', de verplichte levering van de eerste twee miljoen ton tarwe die elk jaar werd geproduceerd, waardoor de helft van de totale broodvoorraad tegen lage prijzen kon worden verkocht. Vanaf augustus moesten boeren naar wereldmarktprijzen worden betaald, want wanneer zij gedwongen werden tarwe goedkoop te verkopen, moesten zij nog steeds de wereldprijs betalen voor meststoffen."
 
+#### 4. De ontkenning van het verband tussen geldhoeveelheid en inflatie
+
+> Weimar: «Hij bleef stevig vasthouden aan zijn standpunt dat de geldhoeveelheid noch verband hield met het prijsniveau, noch met de wisselkoersen;»
+
+In de hedendaagse tijd houdt deze tendens aan, zoals blijkt uit het voorbeeld in het vorige hoofdstuk met een lijst van verklaringen die door verschillende economen en economische instituten zijn voorgesteld om inflatie te rechtvaardigen. Deze redenen variëren van culturele gebeurtenissen en beroemdheden zoals Taylor Swift, Zelda of Beyoncé, tot mondiale factoren zoals oorlog en pandemie. Al deze redenen, hoewel ze mogelijk bijdragen aan kortetermijnschommelingen in de economie, leiden de aandacht af van de werkelijke onderliggende oorzaak, namelijk de uitbreiding van de geldhoeveelheid.
+
+#### 5. Zombiebedrijven
+
+> Weimar: "De stabilisatie had een einde gemaakt aan de periode waarin ondernemers zoveel konden lenen als ze wilden ten koste van alle anderen. Een zeer groot aantal bedrijven, opgericht of uitgebreid tijdens de monetaire overvloed, werd snel onproductief toen kapitaal schaars werd."
+
+Een zombiebedrijf is een onderneming die onder normale marktomstandigheden insolvent of bijna failliet zou zijn, maar die blijft bestaan, voornamelijk dankzij goedkope leningen. Deze bedrijven verdienen net genoeg om hun schulden te dekken, maar zijn niet in staat om significant te groeien.
+
+Dit idee van een zombiebedrijf is niet nieuw. Het bestond namelijk al in de Weimarrepubliek. In die tijd leken veel bedrijven welvarend, grotendeels profiterend van toegang tot gratis krediet. Ze leenden aanzienlijke bedragen met het vooruitzicht om later terug te betalen met een door de hyperinflatie gedevalueerde munt. Toen de inflatie echter stopte en de Duitse mark zijn waarde terugkreeg, werden deze bedrijven, die operationeel en financieel eigenlijk niet levensvatbaar waren, onrendabel en moesten ze hun deuren sluiten.
 
 ![image](assets/fr/050.webp)
 
+Het fenomeen van zombiebedrijven beperkt zich niet tot de naoorlogse Duitse geschiedenis. Ook vandaag nog overleven veel grote bedrijven dankzij bevoorrechte toegang tot kredieten met zeer lage rentetarieven. Als ze zouden moeten lenen tegen meer conventionele tarieven, zouden veel van hen ophouden rendabel te zijn. Dit is des te relevanter in 2023, nu, na een lange periode van bijna nulrentetarieven, de rente is begonnen te stijgen. Deze recente ontwikkeling van het financiële landschap zal ongetwijfeld een beslissende test zijn voor deze bedrijven die ooit als "zombies" werden bestempeld.
 
-Het fenomeen van zombiebedrijven is niet beperkt tot de naoorlogse geschiedenis van Duitsland. Zelfs vandaag de dag overleven veel grote bedrijven dankzij de bevoorrechte toegang tot zeer laagrentende kredieten. Als ze tegen conventionelere tarieven zouden moeten lenen, zouden veel van hen niet langer winstgevend zijn. Dit is vooral relevant nu we in 2023 zijn, en na een lange periode van bijna-nul rentetarieven, zijn deze nu aan het stijgen. Deze recente ontwikkeling in het financiële landschap zal ongetwijfeld een beslissende test zijn voor deze bedrijven die ooit "zombies" werden genoemd.
+#### 6. Snel rijk worden!
 
-
-5. Snel rijk worden!
-
-
-Door de geschiedenis heen zijn er momenten geweest waarop individuen snel rijk wilden worden, zoals in Weimar en Zimbabwe door middel van arbitrage. Vandaag zien we een gelijkaardige trend met de opkomst van bepaalde cryptocurrencies. Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële vermenigvuldiging van hun investering. Deze aanpak kan doen denken aan wat wordt waargenomen tijdens perioden van hyperinflatie, waar arbitrage wordt gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
-
+In de geschiedenis zien we momenten waarop individuen proberen snel rijk te worden, zoals het geval was in Weimar en Zimbabwe via arbitrage. Vandaag de dag zien we een vergelijkbare trend met de opkomst van bepaalde cryptovaluta. Mensen worden verleid door snelle winsten, nemen risico's in de hoop op een exponentiële vermenigvuldiging van hun investering. Deze benadering doet denken aan die welke werd waargenomen in perioden van hyperinflatie, waarin arbitrage werd gebruikt om snel winst te behalen, vaak ten koste van anderen.
 
 ![image](assets/fr/051.webp)
 
+#### 7. Sparen, het middel tegen onzekerheid
 
-6. Besparingen, de remedie tegen onzekerheid
+> De alomtegenwoordige en destructieve invloed van de voortdurende erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst.
 
+Het is interessant een citaat te benadrukken dat de destructieve invloed van de erosie van de kapitaalwaarde op de sociale cohesie benadrukt, evenals de onzekerheid die zij veroorzaakt. Het luidt: "de alomtegenwoordige en destructieve invloed van de voortdurende erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst."
 
-> de invasieve en destructieve invloed van de constante erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst.
-> Het is interessant om een citaat te benadrukken dat het destructieve effect van de erosie van de waarde van kapitaal op sociale cohesie benadrukt, evenals de onzekerheid die het genereert. Er staat: "de invasieve en destructieve invloed van de constante erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst."
+Stel je een scenario voor waarin je een gezin of dierbaren hebt die je wilt beschermen. Je werkt hard, spaart, om toekomstige onzekerheden voor te zijn. Als alles voorspelbaar was, zou sparen nutteloos zijn. Maar geconfronteerd met het onverwachte, zoals een kapotte auto, wordt sparen een reddingsboei. Het vermindert de onzekerheid van de wereld. In een periode van hyperinflatie wordt sparen echter een uitdaging. Geld verliest snel zijn waarde, waardoor langetermijnplanning moeilijk wordt. Deze financiële instabiliteit kan stress en angst veroorzaken.
 
-Stel je een scenario voor waarbij je een gezin of dierbaren hebt die je wilt beschermen. Je werkt Hard, spaart geld om te anticiperen op toekomstige onzekerheden. Als alles voorspelbaar was, zou sparen zinloos zijn. Maar in het onverwachte, zoals een kapotte auto, wordt sparen een reddingslijn. Het vermindert de onzekerheid van de wereld. In een periode van hyperinflatie wordt sparen echter een uitdaging. Geld verliest snel zijn waarde, waardoor langetermijnplanning moeilijk wordt. Deze financiële instabiliteit kan stress en angst veroorzaken.
-
-
-Nu de koopkracht daalt, neemt beleggen de overhand. Deze aanpak brengt echter zijn eigen risico's met zich mee. Sparen is altijd een middel geweest tegen onzekerheid. Het hebben van financiële reserves om onvoorziene situaties het hoofd te bieden, draagt bij aan gemoedsrust en versterkt de sociale cohesie. Kortom, het beschermen van onze koopkracht is essentieel om sociale en individuele stabiliteit te behouden.
+Vandaag de dag neemt investeren het over, gezien de daling van de spaarcapaciteit. Deze aanpak brengt echter zijn eigen risico's met zich mee. Sparen is altijd een remedie geweest tegen onzekerheid. Financiële reserves hebben om onvoorziene situaties het hoofd te bieden, draagt bij aan gemoedsrust en versterkt de sociale cohesie. Concluderend is de bescherming van onze spaarcapaciteit essentieel om sociale en individuele stabiliteit te behouden.
 
 
 ## Redenominaties in Latijns-Amerika

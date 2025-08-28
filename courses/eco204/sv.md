@@ -1067,40 +1067,47 @@ Av Weimarrepublikens historia framgår att tillgångar och kapital som innehades
 
 #### 3. Begreppet marknadspris
 
-> Weimar : "Les entreprises zombies"
+Under Weimarrepubliken uttryckte bönderna sitt missnöje över ”Umlage”, som tvingade dem att leverera de första två miljoner ton vete som producerades varje år. Denna reglering innebar att hälften av den totala brödförsörjningen sattes på marknaden till subventionerade priser. Från och med augusti skulle dessa bönder ersättas till världsmarknadspris, eftersom de, trots att de tvingades lämna ifrån sig sitt vete till reducerade priser, var tvungna att köpa gödsel till världsmarknadspris.
 
-> Samtida: "Les entreprises zombies"
-> Weimar: "Stabiliseringen satte stopp för den period då entreprenörer kunde låna så mycket de ville på bekostnad av alla andra. Ett stort antal företag, som skapats eller utvecklats under det monetära överflödet, blev snabbt improduktiva när kapitalet blev knappare."
-> Ett zombieföretag är ett företag som under normala marknadsförhållanden skulle vara insolvent eller nära konkurs, men som fortsätter sin verksamhet främst genom att låna till låg kostnad. Dessa företag tjänar precis tillräckligt med pengar för att täcka sina skulder men kan inte växa nämnvärt.
+Denna situation lyfter fram en central problematik kopplad till begreppet marknadspris under en hyperinflation. I det tyska sammanhanget vid denna tidpunkt tvingades bönderna sälja sitt vete till ett pris under dess verkliga värde, samtidigt som de var tvungna att skaffa gödsel till globala priser. En sådan ekonomisk diskrepans belyser de utmaningar som livsmedelspriserna fortfarande innebär idag. Jordbruksproducenter, som möter ökade kostnader för insatsvaror på grund av inflationen, överför dessa kostnader till de slutliga produkterna. Att kritisera dem för denna prisökning innebär att ignorera marknadsprisets dynamik och det ekonomiska tryck de står inför. Att sälja till konstlat låga priser samtidigt som man utsätts för höga kostnader är ohållbart för vilket företag som helst.
 
-Begreppet zombieföretag är inte nytt. Faktum är att det fanns i Weimarrepubliken. På den tiden verkade många företag blomstra och drog stor nytta av tillgången till gratis krediter. De lånade stora summor med förhoppningen att senare kunna betala tillbaka med en valuta som försvagats på grund av den skenande inflationen. Men när inflationen upphörde och den tyska marken återfick sitt värde blev dessa företag, som inte var riktigt livskraftiga i operativa och finansiella termer, olönsamma och tvingades stänga sina dörrar.
+> Weimar: ”De jordbruksintressen var missnöjda med ‘Umlage’, den tvångsmässiga leveransen av de första två miljoner ton vete som producerades varje år, vilket gjorde det möjligt att sälja hälften av hela brödförsörjningen till låga priser. Från och med augusti skulle bönderna betalas till världsmarknadspris eftersom, när de tvingades sälja vete billigt, de ändå var tvungna att betala världsmarknadspris för gödsel.”
 
+#### 4. Förnekandet av sambandet mellan penningmängd och inflation
+
+> Weimar: ”Han höll fast vid sin uppfattning att penningutbudet varken var kopplat till prisnivåer eller växelkurser.”
+
+I modern tid kvarstår denna tendens, vilket framgår av exemplet i föregående kapitel med en lista över förklaringar som olika ekonomer och ekonomiska institut lagt fram för att rättfärdiga inflationen.  
+Dessa förklaringar varierar, från kulturella händelser och kändisar som Taylor Swift, Zelda eller Beyoncé, till globala faktorer som krig och pandemi. Alla dessa förklaringar, även om de möjligen bidrar till kortsiktiga ekonomiska fluktuationer, avleder uppmärksamheten från den verkliga underliggande orsaken: expansionen av penningmängden.
+
+#### 5. Zombieföretag
+
+> Weimar: ”Stabiliseringen hade satt stopp för perioden då entreprenörer kunde låna så mycket de ville på bekostnad av alla andra. Ett mycket stort antal företag, skapade eller utvecklade under monetärt överflöd, blev snabbt improduktiva när kapital blev en bristvara.”
+
+Ett zombieföretag är ett företag som, under normala marknadsförhållanden, skulle vara insolvent eller nära konkurs, men som fortsätter att verka främst tack vare lån till låg kostnad. Dessa företag tjänar precis tillräckligt för att täcka sina skulder, men är oförmögna att växa på ett betydande sätt.
+
+Begreppet zombieföretag är inte nytt. Det existerade redan under Weimarrepubliken. Vid den tiden blomstrade många företag till synes, i hög grad tack vare tillgången till gratis krediter. De lånade stora summor med förväntan att senare återbetala med en devalverad valuta till följd av skenande inflation. Men när inflationen upphörde och den tyska marken återfick sitt värde, blev dessa företag, som inte var verkligt hållbara varken operativt eller finansiellt, olönsamma och tvingades stänga.
 
 ![image](assets/fr/050.webp)
 
+Fenomenet zombieföretag är inte begränsat till efterkrigstidens Tyskland. Än idag överlever många stora företag tack vare privilegierad tillgång till krediter med mycket låga räntor. Om de tvingades låna till mer konventionella räntor skulle många sluta vara lönsamma. Detta är särskilt relevant år 2023, då räntorna, efter en lång period nära noll, har börjat stiga. Denna senaste förändring i det finansiella landskapet kommer utan tvekan att bli ett avgörande test för dessa företag som en gång kallades ”zombier”.
 
-Fenomenet med zombieföretag är inte begränsat till Tysklands efterkrigshistoria. Än idag överlever många stora företag tack vare att de har privilegierad tillgång till krediter med mycket låg ränta. Om de skulle behöva låna till mer konventionella räntor skulle många av dem upphöra att vara lönsamma. Detta är särskilt relevant eftersom vi befinner oss år 2023, och efter en lång period med räntor nära noll har de börjat stiga. Denna nya utveckling i det finansiella landskapet kommer utan tvekan att bli ett avgörande test för dessa företag som en gång kallades "zombies".
+#### 6. Get rich quick!
 
-
-5. Bli rik snabbt!
-
-
-Genom historien har det funnits tillfällen då individer försöker bli rika snabbt, som var fallet i Weimar och Zimbabwe genom arbitrage. Idag ser vi en liknande trend med framväxten av vissa kryptovalutor. Människor frestas av snabba vinster och tar risker i hopp om exponentiell multiplicering av sin investering. Detta tillvägagångssätt kan påminna om vad som observeras under perioder av hyperinflation, där arbitrage används för att få snabba vinster, ofta på bekostnad av andra.
-
+I historien kan man se perioder då människor har försökt bli rika snabbt, som i Weimar och Zimbabwe genom arbitrage. Idag ser vi en liknande tendens med framväxten av vissa kryptovalutor. Människor lockas av snabba vinster, tar risker och hoppas på en exponentiell ökning av sina investeringar. Detta tillvägagångssätt påminner om det som observerades under hyperinflation, där arbitrage användes för att uppnå snabba vinster, ofta på andras bekostnad.
 
 ![image](assets/fr/051.webp)
 
+#### 7. Sparande — botemedlet mot osäkerhet
 
-6. Sparande, botemedlet mot osäkerhet
+> Det genomträngande och destruktiva inflytandet av den ständiga eroderingen av kapitalets och inkomsterna värde samt osäkerheten inför framtiden.
 
+Det är intressant att framhäva ett citat som betonar den destruktiva effekten av kapitalets erodering på social sammanhållning, samt den osäkerhet den skapar. Citatet lyder: ”det genomträngande och destruktiva inflytandet av den ständiga eroderingen av kapitalets och inkomsterna värde samt osäkerheten inför framtiden.”
 
-> det invasiva och destruktiva inflytandet av den ständiga urholkningen av värdet på kapital och inkomst samt osäkerheten om framtiden.
-> Det är intressant att lyfta fram ett citat som betonar den destruktiva effekt som erosionen av kapitalvärdet har på den sociala sammanhållningen, liksom den osäkerhet som den genererar. Det står: "det invasiva och destruktiva inflytandet av den ständiga urholkningen av värdet på kapital och inkomst, liksom osäkerheten om framtiden."
+Föreställ dig ett scenario där du har en familj eller nära och kära som du vill skydda. Du arbetar hårt, sparar, för att förbereda dig för framtida osäkerheter. Om allt vore förutsägbart skulle sparande vara onödigt. Men när det oväntade inträffar — som en bil som går sönder — blir sparande en livlina. Det minskar världens osäkerhet. Under hyperinflation blir det dock en utmaning att spara. Pengar förlorar snabbt sitt värde, vilket gör långsiktig planering svår. Denna finansiella instabilitet kan leda till stress och ångest.
 
-Föreställ dig ett scenario där du har en familj eller nära och kära som du vill skydda. Du arbetar Hard, sparar pengar för att förutse framtida osäkerheter. Om allt vore förutsägbart skulle det vara meningslöst att spara. Men inför det oväntade, som en bil som går sönder, blir sparandet en livlina. Det minskar osäkerheten i världen. Men i en period av hyperinflation blir sparande en utmaning. Pengar förlorar snabbt sitt värde, vilket gör det svårt att planera långsiktigt. Denna finansiella instabilitet kan orsaka stress och ångest.
+Idag, i takt med att sparandets köpkraft minskar, tar investeringar över. Denna strategi har dock sina egna risker. Sparande har alltid varit ett botemedel mot osäkerhet. Att ha finansiella reserver för att hantera oförutsedda situationer bidrar till sinnesro och stärker den sociala sammanhållningen. Sammanfattningsvis är skyddet av vår sparförmåga avgörande för att upprätthålla social och individuell stabilitet.
 
-
-I dag, när köpkraften minskar, är det investeringarna som tar över. Detta tillvägagångssätt medför dock sina egna risker. Sparande har alltid varit ett botemedel mot osäkerhet. Att ha ekonomiska reserver för att hantera oförutsedda situationer bidrar till sinnesfrid och stärker den sociala sammanhållningen. Sammanfattningsvis är det viktigt att skydda vår köpkraft för att upprätthålla social och individuell stabilitet.
 
 
 ## Redenomineringar i Latinamerika

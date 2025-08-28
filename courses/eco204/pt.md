@@ -712,34 +712,50 @@ A história da República de Weimar revela que, durante esse período, os ativos
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Aproximadamente 300 bilhões de dólares das reservas russas mantidas no exterior foram congelados no âmbito das sanções ocidentais, de um total de 640 bilhões de dólares em reservas do Banco Central Russo."
 
+
 #### 3. A noção de preço de mercado
 
-> Weimar : "Les entreprises zombies"
+Durante a República de Weimar, os agricultores expressaram seu descontentamento com a "Umlage", que os obrigava a fornecer os primeiros dois milhões de toneladas de trigo produzidos a cada ano. Essa regulamentação tinha como consequência colocar metade do abastecimento total de pão no mercado a preços subsidiados. A partir de agosto, esses agricultores deveriam ser remunerados ao preço mundial, pois, embora fossem obrigados a ceder seu trigo a preços reduzidos, precisavam adquirir fertilizantes a preços de mercado internacional.
 
-sont des entreprises qui sont en faillite mais qui continuent d'exister grâce à des prêts bancaires ou à des subventions gouvernementales. Ces entreprises ne sont pas viables économiquement et ne contribuent pas à la croissance économique. Elles occupent des ressources et des capitaux qui pourraient être utilisés de manière plus productive ailleurs. La persistance de ces entreprises zombies peut être un signe de distorsions dans l'économie et peut entraver la reprise économique. Il est important de prendre des mesures pour identifier et éliminer ces entreprises afin de favoriser un environnement économique sain et dynamique.
+Essa situação levanta uma questão central relacionada à noção de preço de mercado durante uma hiperinflação. No contexto alemão da época, os agricultores eram forçados a vender seu trigo a preços inferiores ao seu valor, enquanto tinham que comprar fertilizantes a custos globais. Tal discrepância econômica evidencia os desafios representados hoje pelos preços dos alimentos. Os produtores agrícolas, enfrentando o aumento dos custos dos insumos devido à inflação, repassam esses custos aos produtos finais. Criticá-los por esse aumento equivale a ignorar a dinâmica do preço de mercado e as pressões econômicas a que estão submetidos. Vender a preços artificialmente baixos, ao mesmo tempo em que se arcam com custos elevados, é insustentável para qualquer empresa.
 
-Weimar: "A estabilização pôs fim ao período em que os empresários podiam tomar empréstimos à vontade às custas de todos os outros. Um grande número de empresas, criadas ou desenvolvidas durante a abundância monetária, rapidamente se tornaram improdutivas quando o capital se tornou escasso."
-Uma empresa zumbi é uma empresa que, em condições normais de mercado, seria insolvente ou à beira da falência, mas que continua a operar, principalmente devido a empréstimos de baixo custo. Essas empresas ganham apenas dinheiro suficiente para cobrir suas dívidas, mas são incapazes de crescer significativamente.
+> Weimar: "Os interesses agrícolas estavam insatisfeitos com a 'Umlage', a entrega forçada dos primeiros dois milhões de toneladas de trigo produzidos a cada ano, o que permitia vender metade do abastecimento total de pão a preços baixos. A partir de agosto, os agricultores deveriam ser pagos ao preço mundial, pois, quando eram obrigados a vender trigo a preços baixos, ainda tinham que pagar o preço mundial pelos fertilizantes."
 
-Essa noção de empresa zumbi não é nova. Na verdade, ela estava presente na República de Weimar. Naquela época, muitas empresas pareciam prósperas, aproveitando amplamente o acesso ao crédito gratuito. Elas tomavam empréstimos consideráveis, com a perspectiva de pagar posteriormente com uma moeda desvalorizada devido à inflação galopante. No entanto, quando a inflação parou e o marco alemão voltou a ter valor, essas empresas, que não eram verdadeiramente viáveis em termos operacionais e financeiros, se tornaram não lucrativas e tiveram que fechar suas portas.
+#### 4. A negação do vínculo entre a massa monetária e a inflação
+
+> Weimar: «Ele permanecia firmemente apegado à sua visão de que a oferta de moeda não estava ligada nem aos níveis de preços nem às taxas de câmbio;»
+
+De maneira contemporânea, essa tendência persiste, como mostrado no exemplo do capítulo anterior com uma lista de explicações avançadas por diversos economistas e institutos econômicos para justificar a inflação. Essas razões variam, indo de eventos culturais e celebridades como Taylor Swift, Zelda ou Beyoncé, até fatores globais como a guerra e a pandemia. Todas essas razões, embora possam contribuir para flutuações econômicas de curto prazo, desviam a atenção da verdadeira causa subjacente: a expansão da massa monetária.
+
+#### 5. As empresas zumbis
+
+> Weimar: "A estabilização havia colocado fim ao período em que os empreendedores podiam tomar emprestado quanto desejassem às custas de todos os outros. Um grande número de empresas, criadas ou desenvolvidas durante a abundância monetária, rapidamente se tornaram improdutivas quando o capital se tornou escasso."
+
+Uma empresa zumbi é aquela que, em condições normais de mercado, seria insolvente ou próxima da falência, mas que continua a operar, principalmente graças a empréstimos de baixo custo. Essas empresas ganham apenas o suficiente para cobrir suas dívidas, mas são incapazes de crescer de forma significativa.
+
+Essa noção de empresa zumbi não é nova. De fato, já estava presente na República de Weimar. Naquela época, muitas empresas pareciam florescentes, aproveitando amplamente o acesso ao crédito gratuito. Elas tomavam emprestadas somas consideráveis, com a perspectiva de reembolsar posteriormente com uma moeda desvalorizada devido à inflação galopante. No entanto, quando a inflação cessou e o marco alemão recuperou valor, essas empresas, que não eram verdadeiramente viáveis do ponto de vista operacional e financeiro, tornaram-se não lucrativas e tiveram de fechar as portas.
 
 ![image](assets/fr/050.webp)
 
-O fenômeno das empresas zumbis não se limita à história da Alemanha pós-guerra. Até hoje, muitas grandes empresas sobrevivem graças ao acesso privilegiado a créditos com juros muito baixos. Se tivessem que tomar empréstimos com taxas mais convencionais, muitas delas deixariam de ser lucrativas. Isso é ainda mais relevante em 2023, após um longo período de taxas de juros próximas de zero, que começaram a aumentar. Essa evolução recente do cenário financeiro certamente será um teste decisivo para essas empresas anteriormente chamadas de "zumbis".
+O fenômeno das empresas zumbis não se limita à história da Alemanha do pós-guerra. Hoje ainda, muitas grandes empresas sobrevivem graças ao acesso privilegiado a créditos com taxas de juros muito baixas. Se tivessem de tomar empréstimos a taxas mais convencionais, muitas delas deixariam de ser rentáveis. Isso é ainda mais relevante em 2023, quando, após um longo período de taxas de juros próximas de zero, estas começaram a subir. Essa evolução recente do cenário financeiro será sem dúvida um teste decisivo para essas empresas outrora qualificadas de "zumbis".
 
-5. Ficar rico rápido!
+#### 6. Enriqueça rapidamente!
 
-Na história, observamos momentos em que as pessoas buscam enriquecer rapidamente, como foi o caso em Weimar e no Zimbábue por meio de arbitragem. Hoje, observamos uma tendência semelhante com o surgimento de certas criptomoedas. As pessoas são tentadas por ganhos rápidos, assumindo riscos na esperança de multiplicar exponencialmente seu investimento. Essa abordagem pode lembrar a observada em períodos de hiperinflação, onde a arbitragem é usada para obter ganhos rápidos, muitas vezes em detrimento de outros.
+Na história, observam-se momentos em que indivíduos buscam enriquecer rapidamente, como foi o caso em Weimar e no Zimbábue por meio da arbitragem. Hoje, nota-se uma tendência semelhante com o surgimento de certas criptomoedas. As pessoas são tentadas por ganhos rápidos, assumindo riscos na esperança de uma multiplicação exponencial de seu investimento. Essa abordagem pode lembrar a observada em períodos de hiperinflação, em que a arbitragem era usada para obter ganhos rápidos, muitas vezes em detrimento de outros.
 
 ![image](assets/fr/051.webp)
 
-6. Poupança, o remédio contra a incerteza
+#### 7. A poupança, o remédio contra a incerteza
 
-> a influência invasiva e destrutiva da constante erosão do valor do capital e da renda, bem como a incerteza em relação ao futuro.
-> É interessante destacar uma citação que destaca o efeito destrutivo da erosão do valor do capital na coesão social, bem como a incerteza que ela gera. Ela diz: "a influência invasiva e destrutiva da erosão constante do valor do capital e da renda, bem como a incerteza em relação ao futuro."
-> Imagine um cenário em que você tem uma família ou entes queridos que você deseja proteger. Você trabalha duro, economiza, para antecipar as incertezas futuras. Se tudo fosse previsível, a poupança seria inútil. Mas diante do imprevisto, como um carro quebrado, a poupança se torna um salva-vidas. Ela reduz a incerteza do mundo. No entanto, em períodos de hiperinflação, poupar se torna um desafio. O dinheiro perde rapidamente seu valor, tornando difícil o planejamento a longo prazo. Essa instabilidade financeira pode causar estresse e ansiedade.
+> A influência avassaladora e destrutiva da erosão constante do valor do capital e da renda, bem como a incerteza quanto ao futuro.
 
-Hoje, diante da queda do poder de compra, o investimento assume o controle. No entanto, essa abordagem tem seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a paz de espírito e fortalece a coesão social. Em conclusão, a proteção do nosso poder de compra é essencial para manter a estabilidade social e individual.
+É interessante destacar uma citação que põe em evidência o efeito destrutivo da erosão do valor do capital sobre a coesão social, assim como a incerteza que ela gera. Ela diz: "a influência avassaladora e destrutiva da erosão constante do valor do capital e da renda, bem como a incerteza quanto ao futuro."
+
+Imagine um cenário em que você tem uma família ou entes queridos que deseja proteger. Você trabalha duro, poupa, para antecipar as incertezas futuras. Se tudo fosse previsível, poupar seria inútil. Mas diante do imprevisto, como uma avaria no carro, a poupança torna-se um salva-vidas. Ela reduz a incerteza do mundo. No entanto, em períodos de hiperinflação, poupar torna-se um desafio. O dinheiro perde rapidamente seu valor, tornando difícil o planejamento a longo prazo. Essa instabilidade financeira pode gerar estresse e ansiedade.
+
+Hoje, diante da queda do poder de poupança, o investimento assume o papel. Contudo, essa abordagem traz seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a tranquilidade e fortalece a coesão social. Em conclusão, proteger nosso poder de poupança é essencial para manter a estabilidade social e individual.
+
+
 
 ## As redenominações na América Latina
 

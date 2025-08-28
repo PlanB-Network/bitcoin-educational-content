@@ -1066,42 +1066,50 @@ Weimar Cumhuriyeti'nin tarihi, bu dönemde yurtdışında tutulan varlıklara ve
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Rusya Merkez Bankası'nın elinde bulunan 640 milyar dolarlık rezervin yaklaşık 300 milyar dolarlık kısmı Batı'nın yaptırımları kapsamında dondurulmuştur."
 
+
 #### 3. Piyasa fiyatı kavramı
 
-> Weimar : "Les entreprises zombies"
+Weimar Cumhuriyeti döneminde çiftçiler, her yıl üretilen ilk iki milyon ton buğdayı teslim etmeye zorlayan “Umlage” uygulamasına karşı memnuniyetsizliklerini dile getirdiler. Bu düzenleme, toplam ekmek arzının yarısının sübvanse edilmiş fiyatlarla piyasaya sürülmesine yol açıyordu. Ağustos ayından itibaren bu çiftçilerin dünya fiyatı üzerinden ödeme almaları gerekiyordu; zira buğdaylarını düşük fiyatlarla vermeye zorlanmalarına rağmen, gübrelerini dünya fiyatlarından satın almak zorundaydılar.
 
-> Çağdaş: "Les entreprises zombies"
-> Weimar: "İstikrar, girişimcilerin herkesin zararına istedikleri kadar borç alabildikleri döneme son verdi. Parasal bolluk döneminde yaratılan ya da geliştirilen çok sayıda şirket, sermaye kıtlaştığında hızla verimsizleşti."
-> Zombi şirket, normal piyasa koşullarında iflas etmiş ya da iflasın eşiğinde olması gereken, ancak düşük maliyetli borçlanma yoluyla faaliyetlerini sürdüren şirketlerdir. Bu şirketler sadece borçlarını karşılayacak kadar para kazanırlar ancak önemli ölçüde büyüyemezler.
+Bu durum, hiperenflasyon sırasında piyasa fiyatı kavramıyla ilgili temel bir sorunu gündeme getirir. O dönemin Alman bağlamında, çiftçiler buğdaylarını değerinin altında satmaya zorlanırken, gübrelerini küresel maliyetlerle tedarik etmek durumundaydılar. Böylesine bir ekonomik uyumsuzluk, günümüzde gıda fiyatlarının yarattığı zorlukları gözler önüne seriyor. Tarımsal üreticiler, enflasyon nedeniyle artan girdi maliyetleriyle karşı karşıya kaldıklarında bu maliyetleri nihai ürünlere yansıtırlar. Bu artış nedeniyle onları eleştirmek, piyasa fiyatının dinamiklerini ve karşılaştıkları ekonomik baskıları görmezden gelmek anlamına gelir. Yüksek maliyetler altında yapay olarak düşük fiyatlarla satış yapmak, herhangi bir işletme için sürdürülemezdir.
 
-Zombi şirketler kavramı yeni değildir. Aslında Weimar Cumhuriyeti'nde de mevcuttu. O dönemde birçok şirket, serbest krediye erişimden büyük ölçüde faydalanarak gelişiyor gibi görünüyordu. Yüksek enflasyon nedeniyle değer kaybetmiş bir para birimiyle daha sonra geri ödeme umuduyla önemli miktarlarda borç aldılar. Ancak enflasyon durduğunda ve Alman Markı yeniden değer kazandığında, operasyonel ve finansal açıdan gerçek anlamda yaşayabilir olmayan bu şirketler kârsız hale geldi ve kapılarını kapatmak zorunda kaldı.
+> Weimar: “Tarımsal çıkarlar, her yıl üretilen ilk iki milyon ton buğdayın zorunlu teslimi olan ‘Umlage’ uygulamasından memnun değildi; bu uygulama, toplam ekmek arzının yarısının düşük fiyatlarla satılmasına imkân tanıyordu. Ağustos ayından itibaren çiftçilere dünya fiyatı üzerinden ödeme yapılması gerekiyordu; çünkü buğdaylarını düşük fiyatlarla satmaya zorlandıklarında dahi gübrelerini dünya fiyatı üzerinden almak zorundaydılar.”
 
+#### 4. Para arzı ile enflasyon arasındaki bağlantının inkârı
+
+> Weimar: “Para arzının ne fiyat seviyeleriyle ne de döviz kurlarıyla bağlantılı olmadığını savunmaya sıkı sıkıya bağlıydı.”
+
+Günümüzde de bu eğilim devam etmektedir. Bir önceki bölümde verilen örnekte olduğu gibi, enflasyonu haklı çıkarmak için çeşitli ekonomistler ve ekonomik kurumlar tarafından öne sürülen açıklamaların listesi buna kanıt teşkil etmektedir.  
+Bu gerekçeler, Taylor Swift, Zelda veya Beyoncé gibi kültürel olaylar ve ünlülerden, savaş ve pandemi gibi küresel faktörlere kadar çeşitlilik gösterir. Bu nedenlerin tümü, kısa vadeli ekonomik dalgalanmalara katkıda bulunabilse de, asıl temel sebep olan para arzının genişlemesinden dikkati uzaklaştırmaktadır.
+
+#### 5. Zombi şirketler
+
+> Weimar: “İstikrar, girişimcilerin diğer herkesin pahasına istedikleri kadar borç alabildikleri dönemi sona erdirdi. Parasal bolluk sırasında kurulan veya genişletilen çok sayıda şirket, sermaye kıt hale geldiğinde hızla verimsiz hale geldi.”
+
+Bir zombi şirket, normal piyasa koşullarında iflas etmiş veya iflasın eşiğinde olması gereken, ancak çoğunlukla düşük maliyetli borçlar sayesinde faaliyet göstermeye devam eden bir işletmedir. Bu şirketler, borçlarını karşılamaya yetecek kadar gelir elde ederler, ancak anlamlı bir büyüme kaydedemezler.
+
+Zombi şirket kavramı yeni değildir. Gerçekten de, Weimar Cumhuriyeti döneminde zaten vardı. O dönemde, birçok şirket görünüşte başarılıydı ve ücretsiz krediye erişimden büyük ölçüde yararlanıyordu. Hızla değer kaybeden para nedeniyle gelecekte daha kolay geri ödeme beklentisiyle büyük meblağlar borç alıyorlardı. Ancak enflasyon sona erip Alman markı değer kazandığında, operasyonel ve finansal açıdan gerçekten sürdürülebilir olmayan bu şirketler kârsız hale geldi ve kapılarını kapatmak zorunda kaldılar.
 
 ![image](assets/fr/050.webp)
 
+Zombi şirket olgusu, savaş sonrası Almanya tarihiyle sınırlı değildir. Günümüzde de birçok büyük şirket, çok düşük faizli kredilere ayrıcalıklı erişim sayesinde varlığını sürdürmektedir. Daha geleneksel oranlardan borçlanmak zorunda kalsalar, çoğu kârlılığını yitirecektir. Bu, özellikle 2023 yılında önemlidir; uzun bir süre neredeyse sıfır olan faiz oranları yükselmeye başlamıştır. Bu finansal ortamın son değişimi, bir zamanlar “zombi” olarak adlandırılan bu şirketler için kuşkusuz belirleyici bir test olacaktır.
 
-Zombi şirketler olgusu Almanya'nın savaş sonrası tarihiyle sınırlı değil. Bugün bile pek çok büyük şirket, çok düşük faizli kredilere ayrıcalıklı erişim sayesinde ayakta kalmaktadır. Eğer daha geleneksel oranlarda borçlanmak zorunda kalsalardı, birçoğu karlı olmaktan çıkardı. Bu durum, 2023 yılında olduğumuz ve uzun bir süre sıfıra yakın seyreden faiz oranları yükselmeye başladığı için özellikle önemlidir. Finansal ortamdaki bu son gelişme, bir zamanlar "zombi" olarak adlandırılan bu şirketler için şüphesiz belirleyici bir sınav olacaktır.
+#### 6. Hızlı zengin ol!
 
-
-5. Çabuk zengin olun!
-
-
-Tarih boyunca, Weimar ve Zimbabwe'de olduğu gibi, arbitraj yoluyla bireylerin hızla zengin olmaya çalıştığı anlar olmuştur. Bugün, belirli kripto para birimlerinin ortaya çıkmasıyla benzer bir eğilim görüyoruz. İnsanlar hızlı kazançların cazibesine kapılıyor ve yatırımlarının katlanarak artması umuduyla risk alıyorlar. Bu yaklaşım, genellikle başkalarının zararına olacak şekilde hızlı kazançlar elde etmek için arbitrajın kullanıldığı hiperenflasyon dönemlerinde gözlemlenenleri anımsatabilir.
-
+Tarih boyunca, bireylerin hızlıca zenginleşmeye çalıştıkları anlara tanık olunmuştur; tıpkı Weimar ve Zimbabve’de arbitraj yoluyla olduğu gibi. Bugün de bazı kripto paraların ortaya çıkışıyla benzer bir eğilim gözlemlenmektedir. İnsanlar hızlı kazançlar cazibesine kapılmakta, yatırımlarının katlanarak artacağını umarak risk almaktadırlar. Bu yaklaşım, hiperenflasyon dönemlerinde görülen ve sıklıkla başkalarının zararına kullanılan arbitraj uygulamasını hatırlatmaktadır.
 
 ![image](assets/fr/051.webp)
 
+#### 7. Belirsizliğe karşı çare olarak tasarruf
 
-6. Tasarruf, belirsizliğe karşı çare
+> Sermaye ve gelirlerin değerindeki sürekli erozyonun ve geleceğe dair belirsizliğin yaygın ve yıkıcı etkisi.
 
+Sosyal uyumu zayıflatan sermaye değerindeki erozyonun yıkıcı etkisini ve bunun yarattığı belirsizliği vurgulayan bir alıntıyı belirtmek önemlidir. Şöyle denmektedir: “sermaye ve gelirlerin değerindeki sürekli erozyonun, geleceğe dair belirsizliğin yaygın ve yıkıcı etkisi.”
 
-> sermaye ve gelir değerinin sürekli aşınmasının yanı sıra geleceğe ilişkin belirsizliğin istilacı ve yıkıcı etkisi.
-> Sermayenin değerindeki erozyonun sosyal uyum üzerindeki yıkıcı etkisinin yanı sıra yarattığı belirsizliği vurgulayan bir alıntının altını çizmek ilginçtir. Diyor ki: "sermaye ve gelir değerinin sürekli erozyona uğramasının yanı sıra gelecekle ilgili belirsizliğin istilacı ve yıkıcı etkisi."
+Bir aileniz veya korumak istediğiniz yakınlarınız olduğunu hayal edin. Çok çalışıyor, tasarruf ediyor ve gelecekteki belirsizliklere hazırlık yapıyorsunuz. Eğer her şey öngörülebilir olsaydı, tasarrufun hiçbir anlamı olmazdı. Ancak beklenmedik durumlarda — örneğin bozulmuş bir araba gibi — tasarruf bir can simidi haline gelir. Dünyadaki belirsizliği azaltır. Ancak hiperenflasyon dönemlerinde tasarruf etmek büyük bir zorluk haline gelir. Para hızla değer kaybeder, bu da uzun vadeli planlamayı zorlaştırır. Bu mali istikrarsızlık stres ve kaygı yaratabilir.
 
-Korumak istediğiniz bir ailenizin veya sevdiklerinizin olduğu bir senaryo düşünün. Gelecekteki belirsizlikleri öngörmek için Hard çalışıyor, para biriktiriyorsunuz. Eğer her şey öngörülebilir olsaydı, tasarruf etmek işe yaramazdı. Ancak beklenmedik bir durumla karşılaştığınızda, örneğin arabanız bozulduğunda, tasarruflar bir can simidi haline gelir. Dünyanın belirsizliğini azaltır. Ancak hiperenflasyon döneminde tasarruf yapmak zorlaşır. Para hızla değer kaybederek uzun vadeli planlamayı zorlaştırır. Bu finansal istikrarsızlık stres ve kaygıya neden olabilir.
+Bugün, tasarruf gücünün azalmasıyla birlikte yatırım ön plana çıkmaktadır. Ancak bu yaklaşım kendi risklerini barındırır. Tasarruf, her zaman belirsizliğe karşı bir çare olmuştur. Öngörülemeyen durumlarla başa çıkmak için mali rezervlere sahip olmak, huzur ve sosyal uyumu güçlendirir. Sonuç olarak, tasarruf gücümüzün korunması, toplumsal ve bireysel istikrarı sürdürmek için hayati önem taşır.
 
-
-Günümüzde satın alma gücünün azalması karşısında yatırım ön plana çıkmaktadır. Ancak bu yaklaşım kendi risklerini de beraberinde getiriyor. Tasarruf her zaman belirsizliğe karşı bir çare olmuştur. Öngörülemeyen durumları yönetmek için finansal rezervlere sahip olmak iç huzura katkıda bulunur ve sosyal uyumu güçlendirir. Sonuç olarak, satın alma gücümüzü korumak toplumsal ve bireysel istikrarı sürdürmek için elzemdir.
 
 
 ## Latin Amerika'da Yeniden Nominasyonlar

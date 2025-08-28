@@ -1063,42 +1063,49 @@ Istorija Vajmarske Republike otkriva da su tokom ovog perioda, imovina i kapital
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Približno 300 milijardi dolara ruskih rezervi koje se drže u inostranstvu zaista je zamrznuto kao deo zapadnih sankcija, od ukupno 640 milijardi dolara rezervi koje drži Ruska centralna banka."
 
+
 #### 3. Pojam tržišne cene
 
-> Weimar : "Preduzeća zombiji"
+Tokom Vajmarske Republike, poljoprivrednici su izražavali nezadovoljstvo zbog „Umlage“, koja ih je obavezivala da svake godine isporuče prva dva miliona tona pšenice. Ova regulativa je dovodila do toga da se polovina ukupne zalihe hleba plasira na tržište po subvencionisanim cenama. Od avgusta, ovi poljoprivrednici su trebalo da budu plaćeni po svetskoj ceni, jer iako su bili primorani da predaju pšenicu po sniženim cenama, morali su da nabavljaju đubrivo po svetskim tarifama.
 
-> Savremeno: "Preduzeća zombiji"
-> Weimar: "Stabilizacija je okončala period kada su preduzetnici mogli da pozajmljuju koliko su želeli na račun svih ostalih. Veliki broj kompanija, stvorenih ili razvijenih tokom monetarnog obilja, brzo je postao neproduktivan kada je kapital postao oskudan."
-> Zombi kompanija je kompanija koja bi, u normalnim tržišnim uslovima, bila nesolventna ili blizu bankrota, ali nastavlja da posluje uglavnom kroz niskokamatno zaduživanje. Ove kompanije zarađuju tek toliko da pokriju svoje dugove, ali nisu u mogućnosti da značajno rastu.
+Ova situacija pokreće ključno pitanje vezano za pojam tržišne cene tokom hiperinflacije. U nemačkom kontekstu tog vremena, farmeri su bili prisiljeni da prodaju pšenicu ispod njene vrednosti, dok su istovremeno morali da kupuju đubrivo po svetskim cenama. Takva ekonomska nepodudarnost jasno ukazuje na izazove koje danas predstavljaju cene prehrambenih proizvoda. Poljoprivredni proizvođači, suočeni sa rastom troškova inputa usled inflacije, prenose te troškove na krajnje proizvode. Kritika njihovog poskupljenja znači zanemarivanje dinamike tržišne cene i ekonomskih pritisaka kojima su izloženi. Prodavati po veštački niskim cenama, dok se trpe visoki troškovi, neodrživo je za bilo koje preduzeće.
 
-Koncept zombijskih kompanija nije nov. Zapravo, bio je prisutan u Vajmarskoj Republici. U to vreme, mnoge kompanije su izgledale kao da cvetaju, u velikoj meri koristeći pristup besplatnom kreditu. Pozajmljivale su znatne sume, s perspektivom da će kasnije vratiti dug sa devalviranom valutom zbog galopirajuće inflacije. Međutim, kada je inflacija prestala i nemačka marka povratila vrednost, te kompanije, koje nisu bile zaista održive u operativnom i finansijskom smislu, postale su neprofitabilne i morale su zatvoriti svoja vrata.
+> Vajmar: „Poljoprivredni interesi bili su nezadovoljni ‘Umlage’, prinudnom isporukom prva dva miliona tona pšenice proizvedene svake godine, što je omogućavalo prodaju polovine ukupnih zaliha hleba po niskim cenama. Od avgusta, poljoprivrednici su morali biti plaćeni po svetskoj ceni jer, kada su bili primorani da prodaju pšenicu jeftino, i dalje su morali da plaćaju svetsku cenu za đubrivo.“
 
+#### 4. Negiranje veze između novčane mase i inflacije
+
+> Vajmar: „On je čvrsto ostajao pri svom stavu da ponuda novca nije povezana ni sa nivoima cena ni sa deviznim kursevima.“
+
+U savremenom vremenu, ova tendencija i dalje postoji, što se vidi na primeru navedenom u prethodnom poglavlju: listi objašnjenja koje su različiti ekonomisti i ekonomski instituti iznosili da bi opravdali inflaciju.  
+Ta objašnjenja variraju — od kulturnih događaja i poznatih ličnosti poput Tejlor Svift, Zelde ili Bijonse, do globalnih faktora kao što su rat i pandemija. Svi ovi razlozi, iako mogu doprineti kratkoročnim ekonomskim oscilacijama, skreću pažnju sa pravog uzroka — širenja novčane mase.
+
+#### 5. Zombi kompanije
+
+> Vajmar: „Stabilizacija je okončala period u kome su preduzetnici mogli da pozajmljuju koliko su želeli na štetu svih ostalih. Veoma veliki broj preduzeća, osnovanih ili proširenih tokom novčanog izobilja, brzo je postao neproduktivan kada je kapital postao oskudan.“
+
+Zombi kompanija je preduzeće koje bi, u normalnim tržišnim uslovima, bilo nesolventno ili blizu bankrota, ali nastavlja da posluje uglavnom zahvaljujući jeftinim kreditima. Takva preduzeća zarađuju tek dovoljno da pokriju svoje dugove, ali nisu sposobna za značajan rast.
+
+Ovaj pojam nije nov. Zaista, bio je prisutan i u Vajmarskoj Republici. U to vreme, mnoge kompanije su izgledale kao da cvetaju, obilno koristeći besplatan kredit. Pozajmljivale su značajne sume uz očekivanje da će ih vratiti obezvređenom valutom usled galopirajuće inflacije. Međutim, kada je inflacija prestala i nemačka marka povratila vrednost, ta preduzeća, koja nisu bila istinski održiva ni operativno ni finansijski, postala su neprofitabilna i morala su zatvoriti svoja vrata.
 
 ![image](assets/fr/050.webp)
 
+Fenomen zombi kompanija nije ograničen na istoriju posleratne Nemačke. I danas mnoge velike firme opstaju zahvaljujući privilegovanom pristupu kreditima sa veoma niskim kamatnim stopama. Kada bi morale da pozajmljuju po uobičajenijim stopama, mnoge bi prestale da budu profitabilne. To je naročito relevantno 2023. godine, jer su nakon dugog perioda skoro nultih kamatnih stopa, one počele da rastu. Ova nedavna promena u finansijskom pejzažu verovatno će biti odlučujući test za te nekadašnje „zombi“ kompanije.
 
-Fenomen zombijskih kompanija nije ograničen na posleratnu istoriju Nemačke. Čak i danas, mnoge velike kompanije opstaju zahvaljujući privilegovanom pristupu kreditima sa veoma niskim kamatama. Kada bi morale da pozajmljuju po konvencionalnijim stopama, mnoge od njih bi prestale da budu profitabilne. Ovo je posebno relevantno jer smo u 2023. godini, i nakon dugog perioda skoro nultih kamatnih stopa, one su počele da rastu. Ovaj nedavni razvoj u finansijskom pejzažu nesumnjivo će biti odlučujući test za ove kompanije koje su nekada nazivane "zombijima".
+#### 6. Get rich quick!
 
-
-5. Obogati se brzo!
-
-
-Kroz istoriju, bilo je trenutaka kada su pojedinci želeli brzo da se obogate, kao što je bio slučaj u Vajmaru i Zimbabveu kroz arbitražu. Danas vidimo sličan trend sa pojavom određenih kriptovaluta. Ljudi su u iskušenju brzih dobitaka, preuzimajući rizike u nadi za eksponencijalnim umnožavanjem svoje investicije. Ovakav pristup može podsećati na ono što se primećuje tokom perioda hiperinflacije, gde se arbitraža koristi za postizanje brzih dobitaka, često na štetu drugih.
-
+U istoriji se mogu uočiti trenuci kada su ljudi želeli brzo da se obogate, kao što je bio slučaj u Vajmaru i Zimbabveu kroz arbitražu. Danas primećujemo sličan trend sa pojavom određenih kriptovaluta. Ljude privlače brze zarade: rizikuju u nadi da će njihov ulog višestruko porasti. Ovakav pristup podseća na ponašanje u periodima hiperinflacije, kada se arbitraža koristila za brzu dobit, često na štetu drugih.
 
 ![image](assets/fr/051.webp)
 
+#### 7. Štednja — lek protiv neizvesnosti
 
-6. Štednja, lek protiv neizvesnosti
+> Sveprožimajući i razorni uticaj stalne erozije vrednosti kapitala i prihoda, kao i neizvesnosti u pogledu budućnosti.
 
+Važno je istaći citat koji naglašava razorni efekat erozije vrednosti kapitala na društvenu koheziju, kao i neizvesnost koju ona izaziva. U njemu se kaže: „sveprožimajući i razorni uticaj stalne erozije vrednosti kapitala i prihoda, kao i neizvesnosti u pogledu budućnosti.“
 
-> invazivni i destruktivni uticaj stalne erozije vrednosti kapitala i prihoda, kao i neizvesnost u vezi sa budućnošću.
-> Zanimljivo je istaći citat koji naglašava destruktivni efekat erozije vrednosti kapitala na društvenu koheziju, kao i neizvesnost koju ona stvara. Kaže se: "invazivni i destruktivni uticaj stalne erozije vrednosti kapitala i prihoda, kao i neizvesnost u vezi sa budućnošću."
+Zamislite situaciju u kojoj imate porodicu ili bližnje koje želite da zaštitite. Radite vredno, štedite, da biste se pripremili za buduće neizvesnosti. Kada bi sve bilo predvidljivo, štednja ne bi imala smisla. Ali suočeni sa nepredviđenim — poput kvara automobila — štednja postaje spasonosni pojas. Ona smanjuje neizvesnost sveta. Međutim, u periodima hiperinflacije, štednja postaje izuzetno teška. Novac brzo gubi vrednost, što dugoročno planiranje čini skoro nemogućim. Takva finansijska nestabilnost dovodi do stresa i teskobe.
 
-Zamislite scenario u kojem imate porodicu ili voljene osobe koje želite zaštititi. Radite Hard, štedite novac, kako biste predvideli buduće neizvesnosti. Da je sve predvidivo, štednja bi bila beskorisna. Ali suočeni sa neočekivanim, poput pokvarenog automobila, štednja postaje spas. Ona smanjuje neizvesnost sveta. Međutim, u periodu hiperinflacije, štednja postaje izazov. Novac brzo gubi svoju vrednost, što otežava dugoročno planiranje. Ova finansijska nestabilnost može izazvati stres i anksioznost.
-
-
-Danas, suočeni sa opadajućom kupovnom moći, investicije preuzimaju primat. Međutim, ovaj pristup nosi sopstvene rizike. Štednja je oduvek bila lek protiv neizvesnosti. Imati finansijske rezerve za upravljanje nepredviđenim situacijama doprinosi miru uma i jača društvenu koheziju. Zaključno, zaštita naše kupovne moći je ključna za održavanje društvene i individualne stabilnosti.
+Danas, suočeni sa padom kupovne moći štednje, ulaganje preuzima glavnu ulogu. Ipak, ovaj pristup nosi sopstvene rizike. Štednja je oduvek bila lek protiv neizvesnosti. Imati finansijske rezerve za suočavanje sa neočekivanim situacijama doprinosi duševnom miru i jača društvenu koheziju. U zaključku, zaštita naše sposobnosti štednje je od suštinskog značaja za očuvanje društvene i lične stabilnosti.
 
 
 ## Redominacije u Latinskoj Americi

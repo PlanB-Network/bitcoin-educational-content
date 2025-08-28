@@ -661,32 +661,49 @@ La historia de la República de Weimar revela que, durante este período, los ac
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Alrededor de 300 mil millones de dólares de las reservas rusas en el extranjero han sido congelados como parte de las sanciones occidentales, de los 640 mil millones de dólares de reservas que tiene el Banco Central de Rusia".
 
+
 #### 3. La noción de precio de mercado
-   > Weimar : "Les entreprises zombies"
 
-> De manière contemporaine, les entreprises zombies sont un problème persistant.
-> Weimar: "La estabilización puso fin al período en el que los empresarios podían pedir prestado tanto como quisieran a expensas de todos los demás. Un gran número de empresas, creadas o desarrolladas durante la abundancia monetaria, se volvieron rápidamente improductivas cuando el capital se volvió escaso".
-> Una empresa zombie es una empresa que, en condiciones normales de mercado, sería insolvente o estaría cerca de la quiebra, pero que sigue funcionando, principalmente gracias a préstamos de bajo costo. Estas empresas ganan lo suficiente para cubrir sus deudas, pero son incapaces de crecer de manera significativa.
+Durante la República de Weimar, los agricultores expresaban su descontento con la "Umlage", que los obligaba a entregar los dos primeros millones de toneladas de trigo producidas cada año. Esta normativa tenía como consecuencia que la mitad del suministro total de pan se pusiera en el mercado a precios subvencionados. A partir de agosto, estos agricultores debían ser remunerados al precio mundial, ya que, aunque se veían forzados a ceder su trigo a precios reducidos, tenían que adquirir fertilizantes a la tarifa mundial.
 
-Este concepto de empresa zombie no es nuevo. De hecho, estaba presente en la República de Weimar. En ese momento, muchas empresas parecían prósperas, aprovechando ampliamente el acceso al crédito gratuito. Tomaban préstamos considerables, con la perspectiva de pagar más tarde con una moneda devaluada debido a la inflación galopante. Sin embargo, cuando la inflación cesó y el marco alemán recuperó valor, estas empresas, que no eran realmente viables en términos operativos y financieros, se volvieron no rentables y tuvieron que cerrar.
+Esta situación plantea una problemática central vinculada a la noción de precio de mercado durante una hiperinflación. En el contexto alemán de la época, los agricultores se veían obligados a vender su trigo por debajo de su valor, al tiempo que debían aprovisionarse de fertilizantes a costes internacionales. Tal discordancia económica pone en evidencia los desafíos que representan hoy los precios de los alimentos. Los productores agrícolas, enfrentados al aumento de los costos de los insumos debido a la inflación, trasladan esos costes a los productos finales. Criticarlos por este aumento equivale a ignorar la dinámica del precio de mercado y las presiones económicas a las que se enfrentan. Vender a precios artificialmente bajos mientras se soportan altos costes es insostenible para cualquier empresa.
 
-![imagen](assets/fr/050.webp)
+> Weimar: "Los intereses agrícolas estaban descontentos con la 'Umlage', la entrega forzosa de los dos primeros millones de toneladas de trigo producidas cada año, lo que permitía vender la mitad del suministro total de pan a bajo precio. A partir de agosto, los agricultores debían ser pagados al precio mundial ya que, cuando se veían obligados a vender trigo barato, siempre tenían que pagar el precio mundial por los fertilizantes."
 
-El fenómeno de las empresas zombies no se limita a la historia de la Alemania de posguerra. Incluso hoy en día, muchas grandes empresas sobreviven gracias a un acceso privilegiado a créditos con tasas de interés muy bajas. Si tuvieran que pedir prestado a tasas más convencionales, muchas de ellas dejarían de ser rentables. Esto es especialmente relevante ahora que estamos en 2023, y después de un largo período de tasas de interés cercanas a cero, estas tasas han comenzado a aumentar. Esta evolución reciente del panorama financiero sin duda será una prueba decisiva para estas empresas que alguna vez fueron calificadas como "zombies".
+#### 4. La negación del vínculo entre la masa monetaria y la inflación
 
-5. ¡Enriquecerse rápidamente!
+> Weimar: «Se mantenía firmemente apegado a su punto de vista de que la oferta monetaria no estaba relacionada ni con los niveles de precios ni con los tipos de cambio;»
 
-En la historia, se observan momentos en los que las personas buscan enriquecerse rápidamente, como fue el caso en Weimar y en Zimbabwe a través del arbitraje. Hoy en día, se nota una tendencia similar con la aparición de ciertas criptomonedas. Las personas son tentadas por ganancias rápidas, asumiendo riesgos con la esperanza de multiplicar exponencialmente su inversión. Este enfoque puede recordar al observado en períodos de hiperinflación, donde el arbitraje se utiliza para obtener ganancias rápidas, a menudo a expensas de otros.
+En la actualidad, esta tendencia persiste, como muestra el ejemplo del capítulo anterior con una lista de explicaciones propuestas por diversos economistas e institutos económicos para justificar la inflación. Estas razones varían, desde eventos culturales y celebridades como Taylor Swift, Zelda o Beyoncé, hasta factores globales como la guerra y la pandemia. Todas estas razones, aunque potencialmente contribuyentes a fluctuaciones económicas a corto plazo, desvían la atención de la verdadera causa subyacente: la expansión de la masa monetaria.
 
-![imagen](assets/fr/051.webp)
+#### 5. Las compañías zombis
 
-6. El ahorro, el remedio contra la incertidumbre
+> Weimar: "La estabilización había puesto fin al período en el que los empresarios podían endeudarse cuanto quisieran a expensas de todos los demás. Un gran número de empresas, creadas o desarrolladas durante la abundancia monetaria, se volvieron rápidamente improductivas cuando el capital se volvió escaso."
 
-> la influencia invasiva y destructiva de la constante erosión del valor del capital y los ingresos, así como la incertidumbre sobre el futuro.
-> Es interesante destacar una cita que resalta el efecto destructivo de la erosión del valor del capital en la cohesión social, así como la incertidumbre que genera. Esta cita dice: "la influencia invasiva y destructiva de la erosión constante del valor del capital y los ingresos, así como la incertidumbre sobre el futuro".
-> Imagina un escenario en el que tienes una familia o seres queridos a los que deseas proteger. Trabajas duro, ahorras, para anticipar las incertidumbres futuras. Si todo fuera previsible, el ahorro sería inútil. Pero frente a lo imprevisto, como un automóvil averiado, el ahorro se convierte en un salvavidas. Reduce la incertidumbre del mundo. Sin embargo, en períodos de hiperinflación, ahorrar se vuelve un desafío. El dinero pierde rápidamente su valor, lo que dificulta la planificación a largo plazo. Esta inestabilidad financiera puede generar estrés y angustia.
+Una compañía zombi es una empresa que, en condiciones de mercado normales, sería insolvente o cercana a la quiebra, pero que continúa funcionando, principalmente gracias a préstamos a bajo coste. Estas empresas generan lo justo para cubrir sus deudas, pero son incapaces de crecer de manera significativa.
 
-Hoy en día, frente a la disminución del poder adquisitivo, la inversión toma el relevo. Sin embargo, este enfoque conlleva sus propios riesgos. El ahorro siempre ha sido un remedio contra la incertidumbre. Tener reservas financieras para manejar situaciones imprevistas contribuye a la tranquilidad mental y fortalece la cohesión social. En conclusión, la protección de nuestro poder adquisitivo es esencial para mantener la estabilidad social e individual.
+Esta noción de compañía zombi no es nueva. De hecho, ya estaba presente en la República de Weimar. En esa época, muchas compañías parecían prosperar, aprovechando ampliamente el acceso al crédito gratuito. Pedían prestadas sumas considerables con la perspectiva de devolverlas posteriormente con una moneda depreciada debido a la inflación galopante. Sin embargo, cuando la inflación cesó y el marco alemán recuperó su valor, estas empresas, que no eran realmente viables en términos operativos ni financieros, se volvieron no rentables y tuvieron que cerrar sus puertas.
+
+![image](assets/fr/050.webp)
+
+El fenómeno de las compañías zombis no se limita a la historia de la Alemania de posguerra. Hoy en día, todavía muchas grandes empresas subsisten gracias a un acceso privilegiado a créditos con tipos de interés muy bajos. Si tuvieran que endeudarse a tasas más convencionales, muchas de ellas dejarían de ser rentables. Esto es aún más relevante en 2023, cuando, después de un largo período de tipos de interés cercanos a cero, estos han empezado a subir. Esta reciente evolución del panorama financiero será sin duda una prueba decisiva para estas compañías antaño calificadas de "zombis".
+
+#### 6. ¡Enriquecerse rápido!
+
+En la historia se observan momentos en los que los individuos buscan enriquecerse rápidamente, como ocurrió en Weimar y en Zimbabue mediante el arbitraje. Hoy se nota una tendencia similar con la aparición de ciertas criptomonedas. La gente se siente tentada por ganancias rápidas, asumiendo riesgos con la esperanza de multiplicar exponencialmente su inversión. Este enfoque recuerda al observado en períodos de hiperinflación, donde el arbitraje se utilizaba para obtener beneficios rápidos, a menudo a expensas de otros.
+
+![image](assets/fr/051.webp)
+
+#### 7. El ahorro, el remedio contra la incertidumbre
+
+> La influencia omnipresente y destructiva de la erosión constante del valor del capital y de los ingresos, así como la incertidumbre frente al futuro.
+
+Es interesante destacar una cita que subraya el efecto destructivo de la erosión del valor del capital sobre la cohesión social, así como la incertidumbre que esta genera. Dice: "la influencia omnipresente y destructiva de la erosión constante del valor del capital y de los ingresos, así como la incertidumbre frente al futuro."
+
+Imagine un escenario en el que tiene una familia o seres queridos que desea proteger. Trabaja duro, ahorra, para anticipar las incertidumbres futuras. Si todo fuera previsible, el ahorro sería inútil. Pero frente a lo imprevisto, como la avería de un coche, el ahorro se convierte en un salvavidas. Reduce la incertidumbre del mundo. Sin embargo, en un período de hiperinflación, ahorrar se convierte en un desafío. El dinero pierde rápidamente su valor, lo que dificulta la planificación a largo plazo. Esta inestabilidad financiera puede generar estrés y angustia.
+
+Hoy, ante la disminución del poder de ahorro, la inversión toma el relevo. Sin embargo, este enfoque conlleva sus propios riesgos. El ahorro siempre ha sido un remedio contra la incertidumbre. Tener reservas financieras para enfrentar situaciones imprevistas contribuye a la serenidad de espíritu y refuerza la cohesión social. En conclusión, la protección de nuestro poder de ahorro es esencial para mantener la estabilidad social e individual.
+
 
 ## Las redenominaciones en América Latina
 

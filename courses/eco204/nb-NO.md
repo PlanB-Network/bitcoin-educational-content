@@ -674,31 +674,49 @@ Historien om Weimarrepublikken avslører at i løpet av denne perioden ble eiend
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver holdt i utlandet har faktisk blitt frosset som en del av vestlige sanksjoner, ut av de 640 milliarder dollar i reserver holdt av den russiske sentralbanken."
 
+
 #### 3. Begrepet markedspris
-   > Weimar: "Zombiebedrifter"
 
-> Samtids: "Zombiebedrifter"
-> Weimar: "Stabilisering satte en stopper for perioden da entreprenører kunne låne så mye de ville på bekostning av alle andre. Et stort antall selskaper, opprettet eller utviklet under den monetære overfloden, ble raskt uproduktive når kapital ble knapp."
-> En zombiebedrift er et selskap som, under normale markedsforhold, ville vært insolvent eller nær konkurs, men fortsetter å operere hovedsakelig gjennom lån med lav kostnad. Disse selskapene tjener akkurat nok penger til å dekke sine gjeld, men er ute av stand til å vokse betydelig.
+Under Weimar-republikken uttrykte bøndene sin misnøye med "Umlage", som tvang dem til å levere de første to millioner tonnene hvete som ble produsert hvert år. Denne reguleringen hadde som konsekvens at halvparten av den totale brødtilførselen ble satt på markedet til subsidierte priser. Fra august skulle disse bøndene betales etter verdensmarkedsprisen, for selv om de ble tvunget til å avgi hveten sin til reduserte priser, måtte de kjøpe gjødsel til verdenspriser.
 
-Konseptet med zombiebedrifter er ikke nytt. Faktisk var det til stede i Weimarrepublikken. På den tiden syntes mange selskaper å blomstre, og hadde stor nytte av tilgangen til gratis kreditt. De lånte betydelige summer, med utsikten til å betale tilbake senere med en devaluert valuta på grunn av galopperende inflasjon. Men når inflasjonen stoppet og den tyske marken gjenvant sin verdi, ble disse selskapene, som ikke var virkelig levedyktige i operasjonelle og finansielle termer, ulønnsomme og måtte stenge dørene.
+Denne situasjonen reiser et sentralt problem knyttet til begrepet markedspris under en hyperinflasjon. I den tyske konteksten på den tiden ble bøndene tvunget til å selge hveten sin til priser under dens verdi, samtidig som de måtte skaffe gjødsel til globale kostnader. En slik økonomisk uoverensstemmelse belyser utfordringene som dagens matvarepriser representerer. Landbruksprodusenter, som står overfor økte kostnader på innsatsvarer på grunn av inflasjon, velter disse kostnadene over på sluttproduktene. Å kritisere dem for denne økningen er å ignorere markedsprisens dynamikk og det økonomiske presset de står overfor. Å selge til kunstig lave priser mens man lider under høye kostnader er uholdbart for enhver virksomhet.
 
-![bilde](assets/fr/050.webp)
+> Weimar: "Landbruksinteressene var misfornøyde med 'Umlage', den tvungne leveringen av de første to millioner tonnene hvete som ble produsert hvert år, noe som gjorde det mulig å selge halvparten av den totale brødtilførselen til lave priser. Fra august skulle bøndene betales etter verdensmarkedsprisen, fordi når de ble tvunget til å selge hvete billig, måtte de alltid betale verdensprisen for gjødsel."
 
-Fenomenet med zombiebedrifter er ikke begrenset til Tysklands etterkrigshistorie. Selv i dag overlever mange store selskaper takket være privilegert tilgang til svært lavrentelån. Hvis de måtte låne til mer konvensjonelle renter, ville mange av dem opphøre å være lønnsomme. Dette er spesielt relevant ettersom vi er i 2023, og etter en lang periode med nesten null renter, har de begynt å stige. Denne nylige utviklingen i det finansielle landskapet vil utvilsomt være en avgjørende test for disse selskapene som en gang ble kalt "zombier".
+#### 4. Benektelsen av sammenhengen mellom pengemengden og inflasjon
 
-5. Bli rik raskt!
-   Gjennom historien har det vært øyeblikk der individer søker å bli rike raskt, som det var tilfellet i Weimar og Zimbabwe gjennom arbitrasje. I dag ser vi en lignende trend med fremveksten av visse kryptovalutaer. Folk fristes av raske gevinster, tar risiko i håp om eksponentiell multiplikasjon av investeringen sin. Denne tilnærmingen kan minne om det som observeres under perioder med hyperinflasjon, der arbitrasje brukes til å oppnå raske gevinster, ofte på bekostning av andre.
-   ![bilde](assets/fr/051.webp)
+> Weimar: «Han holdt fast ved sitt syn om at pengemengden verken var knyttet til prisnivået eller til valutakursene;»
 
-6. Sparepenger, botemiddelet mot usikkerhet
+I vår tid vedvarer denne tendensen, som vist i eksempelet i forrige kapittel med en liste over forklaringer fremført av ulike økonomer og økonomiske institutter for å rettferdiggjøre inflasjonen. Disse årsakene varierer, fra kulturelle hendelser og kjendiser som Taylor Swift, Zelda eller Beyoncé, til globale faktorer som krig og pandemi. Alle disse årsakene, selv om de kan bidra til kortsiktige økonomiske svingninger, trekker oppmerksomheten bort fra den egentlige underliggende årsaken, nemlig ekspansjonen av pengemengden.
 
-> den invasive og destruktive innflytelsen av den konstante erosjonen av verdien av kapital og inntekt, samt usikkerheten om fremtiden.
-> Det er interessant å fremheve et sitat som understreker den destruktive effekten av erosjonen av kapitalverdien på sosial samhørighet, samt den usikkerheten det genererer. Det sier: "den invasive og destruktive innflytelsen av den konstante erosjonen av verdien av kapital og inntekt, samt usikkerheten om fremtiden."
+#### 5. Zombie-selskaper
 
-Forestil deg et scenario der du har en familie eller kjære du vil beskytte. Du jobber hardt, sparer penger, for å forutse fremtidige usikkerheter. Hvis alt var forutsigbart, ville sparing være unødvendig. Men i møte med det uventede, som en bil som bryter sammen, blir sparepenger en livline. Det reduserer usikkerheten i verden. Imidlertid, i en periode med hyperinflasjon, blir sparing en utfordring. Penger mister raskt sin verdi, noe som gjør langsiktig planlegging vanskelig. Denne finansielle ustabiliteten kan forårsake stress og angst.
+> Weimar: "Stabiliseringen satte en stopper for perioden da entreprenører kunne låne så mye de ønsket på bekostning av alle andre. Et meget stort antall selskaper, opprettet eller utviklet under pengeoverflod, ble raskt uproduktive da kapitalen ble knapp."
 
-I dag, i møte med fallende kjøpekraft, tar investering over. Imidlertid kommer denne tilnærmingen med sine egne risikoer. Sparepenger har alltid vært et botemiddel mot usikkerhet. Å ha finansielle reserver for å håndtere uforutsette situasjoner bidrar til sinnsro og styrker sosial samhørighet. I konklusjonen, å beskytte vår kjøpekraft er essensielt for å opprettholde sosial og individuell stabilitet.
+Et zombie-selskap er et selskap som, under normale markedsforhold, ville vært insolvent eller nær konkurs, men som fortsetter å fungere hovedsakelig takket være billige lån. Disse selskapene tjener akkurat nok til å dekke gjelden sin, men klarer ikke å vokse betydelig.
+
+Denne ideen om zombie-selskaper er ikke ny. Den eksisterte faktisk i Weimar-republikken. På den tiden virket mange selskaper blomstrende, idet de i stor grad nøt godt av tilgang til gratis kreditt. De lånte betydelige summer med utsikten til å tilbakebetale senere med en valuta som var devaluert på grunn av hyperinflasjon. Men da inflasjonen stoppet og den tyske marken gjenvant verdi, ble disse selskapene, som egentlig ikke var levedyktige verken operasjonelt eller økonomisk, ulønnsomme og måtte stenge dørene.
+
+![image](assets/fr/050.webp)
+
+Fenomenet zombie-selskaper er ikke begrenset til Tysklands etterkrigshistorie. Selv i dag overlever mange store selskaper takket være privilegert tilgang til kreditter med svært lave renter. Hvis de måtte låne til mer konvensjonelle renter, ville mange av dem slutte å være lønnsomme. Dette er spesielt relevant i 2023, da rentene etter en lang periode nær null har begynt å stige. Denne nylige utviklingen i det finansielle landskapet vil uten tvil være en avgjørende prøve for disse selskapene, som tidligere ble kalt "zombier".
+
+#### 6. Bli rik raskt!
+
+I historien ser man øyeblikk der individer søker å bli rike raskt, slik det var tilfelle i Weimar og Zimbabwe gjennom arbitrasje. I dag ser man en lignende tendens med fremveksten av visse kryptovalutaer. Folk blir fristet av raske gevinster, tar risiko i håp om en eksponentiell vekst i investeringen sin. Denne tilnærmingen kan minne om den som ble observert under hyperinflasjon, der arbitrasje ble brukt for å oppnå raske gevinster, ofte på bekostning av andre.
+
+![image](assets/fr/051.webp)
+
+#### 7. Sparing, motgiften mot usikkerhet
+
+> Den altomfattende og ødeleggende innflytelsen av den konstante erosjonen av kapital- og inntektsverdien samt usikkerheten om fremtiden.
+
+Det er interessant å fremheve et sitat som belyser den ødeleggende effekten av kapitalverdiens erosjon på sosial samhørighet, samt usikkerheten den skaper. Det sier: "den altomfattende og ødeleggende innflytelsen av den konstante erosjonen av kapital- og inntektsverdien samt usikkerheten om fremtiden."
+
+Tenk deg et scenario der du har en familie eller kjære du ønsker å beskytte. Du jobber hardt, sparer, for å forutse fremtidig usikkerhet. Hvis alt var forutsigbart, ville sparing vært unødvendig. Men når det uforutsette skjer, som en bil som bryter sammen, blir sparing en livbøye. Det reduserer verdens usikkerhet. Men i en periode med hyperinflasjon blir det en utfordring å spare. Penger mister raskt sin verdi, noe som gjør langsiktig planlegging vanskelig. Denne økonomiske ustabiliteten kan skape stress og angst.
+
+I dag, i møte med redusert sparekraft, tar investeringer over. Men denne tilnærmingen innebærer egne risikoer. Sparing har alltid vært en motgift mot usikkerhet. Å ha finansielle reserver for å håndtere uforutsette situasjoner bidrar til sinnsro og styrker sosial samhørighet. Avslutningsvis er det avgjørende å beskytte vår sparekraft for å opprettholde sosial og individuell stabilitet.
+
 
 ## Redenominasjoner i Latin-Amerika
 

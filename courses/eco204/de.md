@@ -698,31 +698,51 @@ Die Geschichte der Weimarer Republik zeigt, dass während dieser Zeit Vermögens
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Etwa 300 Milliarden Dollar der russischen Reserven im Ausland wurden im Rahmen der westlichen Sanktionen eingefroren, von den insgesamt 640 Milliarden Dollar an Reserven der russischen Zentralbank."
 
-#### 3. Der Begriff des Marktpreises
-   > Weimar : "Les entreprises zombies"
-   > Weimar: "Die Stabilisierung beendete die Zeit, in der Unternehmer auf Kosten aller anderen so viel leihen konnten, wie sie wollten. Eine große Anzahl von Unternehmen, die während der Geldflut gegründet oder entwickelt wurden, wurden schnell unproduktiv, als Kapital knapp wurde."
-   > Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen insolvent oder nahe der Insolvenz wäre, aber weiterhin funktioniert, hauptsächlich durch kostengünstige Kredite. Diese Unternehmen verdienen gerade genug Geld, um ihre Schulden zu decken, können aber nicht signifikant wachsen.
 
-Das Konzept des Zombie-Unternehmens ist nicht neu. Tatsächlich gab es dies bereits in der Weimarer Republik. Zu dieser Zeit florierten viele Unternehmen scheinbar und profitierten stark von kostenlosem Kredit. Sie liehen beträchtliche Summen, in der Erwartung, diese später mit einer aufgrund der galoppierenden Inflation abgewerteten Währung zurückzuzahlen. Als die Inflation jedoch aufhörte und die deutsche Mark an Wert gewann, wurden diese Unternehmen, die in operativer und finanzieller Hinsicht nicht wirklich lebensfähig waren, unrentabel und mussten schließen.
+
+#### 3. Der Begriff des Marktpreises
+
+Während der Weimarer Republik äußerten Landwirte ihre Unzufriedenheit über die „Umlage“, die sie verpflichtete, die ersten zwei Millionen Tonnen jährlich produzierten Weizens abzuliefern. Diese Regelung hatte zur Folge, dass die Hälfte der gesamten Brotversorgung zu subventionierten Preisen auf den Markt gelangte. Ab August sollten diese Landwirte zum Weltmarktpreis entlohnt werden, da sie zwar gezwungen waren, ihren Weizen zu reduzierten Preisen abzugeben, aber gleichzeitig Dünger zu Weltmarktpreisen erwerben mussten.
+
+Diese Situation wirft ein zentrales Problem im Zusammenhang mit dem Begriff des Marktpreises während einer Hyperinflation auf. Im damaligen deutschen Kontext waren die Bauern gezwungen, ihren Weizen unter Wert zu verkaufen, während sie Dünger zu Weltmarktpreisen einkaufen mussten. Eine solche wirtschaftliche Diskrepanz verdeutlicht die Herausforderungen, die die Nahrungsmittelpreise heute darstellen. Landwirtschaftliche Produzenten, die mit steigenden Kosten für Betriebsmittel infolge der Inflation konfrontiert sind, geben diese Kosten an die Endprodukte weiter. Sie für diese Preiserhöhungen zu kritisieren bedeutet, die Dynamik des Marktpreises und den ökonomischen Druck, dem sie ausgesetzt sind, zu ignorieren. Zu künstlich niedrigen Preisen zu verkaufen und gleichzeitig hohe Kosten zu tragen, ist für jedes Unternehmen untragbar.
+
+> Weimar: „Die landwirtschaftlichen Interessen waren mit der ‚Umlage‘ unzufrieden, der Zwangsablieferung der ersten zwei Millionen Tonnen jährlich produzierten Weizens, die es erlaubte, die Hälfte der gesamten Brotversorgung zu niedrigen Preisen zu verkaufen. Ab August sollten die Landwirte zum Weltmarktpreis bezahlt werden, denn während sie gezwungen waren, Weizen billig zu verkaufen, mussten sie stets den Weltmarktpreis für Dünger bezahlen.“
+
+#### 4. Die Leugnung des Zusammenhangs zwischen Geldmenge und Inflation
+
+> Weimar: „Er hielt hartnäckig an seiner Auffassung fest, dass das Geldangebot weder mit dem Preisniveau noch mit den Wechselkursen zusammenhing;“
+
+In der Gegenwart hält dieser Trend an, wie das Beispiel aus dem vorherigen Kapitel zeigt, in dem verschiedene Ökonomen und Wirtschaftsinstitute eine Liste von Erklärungen anführen, um die Inflation zu rechtfertigen. Diese Gründe reichen von kulturellen Ereignissen und Berühmtheiten wie Taylor Swift, Zelda oder Beyoncé bis hin zu globalen Faktoren wie Krieg und Pandemie. All diese Gründe, die zwar kurzfristig zu wirtschaftlichen Schwankungen beitragen können, lenken jedoch von der eigentlichen Ursache ab, nämlich der Ausweitung der Geldmenge.
+
+#### 5. Die Zombie-Unternehmen
+
+> Weimar: „Die Stabilisierung hatte der Zeit ein Ende gesetzt, in der Unternehmer auf Kosten aller anderen so viel leihen konnten, wie sie wollten. Eine sehr große Zahl von Unternehmen, die während des monetären Überflusses gegründet oder ausgebaut worden waren, wurden schnell unproduktiv, als Kapital knapp wurde.“
+
+Ein Zombie-Unternehmen ist ein Betrieb, der unter normalen Marktbedingungen insolvent oder nahe der Pleite wäre, aber weiterbesteht, hauptsächlich dank billiger Kredite. Diese Unternehmen erwirtschaften gerade genug, um ihre Schulden zu decken, sind jedoch nicht in der Lage, signifikant zu wachsen.
+
+Das Konzept der Zombie-Unternehmen ist nicht neu. Es war bereits in der Weimarer Republik präsent. Damals schienen viele Unternehmen auf den ersten Blick zu florieren, da sie stark vom Zugang zu kostenlosem Kredit profitierten. Sie liehen sich beträchtliche Summen mit der Aussicht, später mit einer durch Hyperinflation entwerteten Währung zurückzuzahlen. Als die Inflation jedoch endete und die deutsche Mark wieder an Wert gewann, wurden diese Unternehmen, die operativ und finanziell nicht wirklich lebensfähig waren, unrentabel und mussten schließen.
 
 ![image](assets/fr/050.webp)
 
-Das Phänomen der Zombie-Unternehmen beschränkt sich nicht auf die Nachkriegszeit in Deutschland. Heutzutage existieren viele große Unternehmen immer noch dank privilegiertem Zugang zu sehr niedrigen Zinssätzen. Wenn sie zu konventionelleren Zinssätzen leihen müssten, wären viele von ihnen nicht mehr rentabel. Dies ist umso relevanter, da wir uns im Jahr 2023 befinden und nach einer langen Zeit mit nahezu null Zinssätzen diese nun zu steigen begonnen haben. Diese jüngste Entwicklung der Finanzlandschaft wird zweifellos ein entscheidender Test für diese einst als "Zombies" bezeichneten Unternehmen sein.
+Das Phänomen der Zombie-Unternehmen beschränkt sich nicht auf die Nachkriegsgeschichte Deutschlands. Auch heute überleben viele große Unternehmen dank eines privilegierten Zugangs zu Krediten mit sehr niedrigen Zinssätzen. Müssten sie zu konventionelleren Zinssätzen leihen, würden viele von ihnen unrentabel werden. Dies ist umso relevanter, als wir uns im Jahr 2023 befinden und nach einer langen Phase nahezu null Zinsen diese nun zu steigen begonnen haben. Diese jüngste Entwicklung der Finanzlandschaft wird zweifellos ein entscheidender Test für diese einst als „Zombies“ bezeichneten Unternehmen sein.
 
-5. Schnell reich werden!
+#### 6. Schnell reich werden!
 
-In der Geschichte gibt es Momente, in denen Menschen versuchen, schnell reich zu werden, wie es in Weimar und Simbabwe durch Arbitrage der Fall war. Heutzutage gibt es eine ähnliche Tendenz mit dem Aufkommen bestimmter Kryptowährungen. Die Menschen werden von schnellen Gewinnen verführt und gehen Risiken ein, in der Hoffnung auf eine exponentielle Vermehrung ihrer Investition. Diese Herangehensweise erinnert an die Zeit der Hyperinflation, in der Arbitrage genutzt wurde, um schnelle Gewinne zu erzielen, oft auf Kosten anderer.
+In der Geschichte lassen sich Momente beobachten, in denen Menschen versuchten, schnell reich zu werden, wie es in Weimar und in Simbabwe durch Arbitrage der Fall war. Heute zeigt sich eine ähnliche Tendenz mit dem Aufkommen bestimmter Kryptowährungen. Menschen werden durch schnelle Gewinne verlockt, gehen Risiken ein und hoffen auf eine exponentielle Vervielfachung ihrer Investition. Dieser Ansatz erinnert an Zeiten der Hyperinflation, in denen Arbitrage genutzt wurde, um schnelle Gewinne zu erzielen, oft auf Kosten anderer.
 
 ![image](assets/fr/051.webp)
 
-6. Sparen als Heilmittel gegen Unsicherheit
+#### 7. Das Sparen, das Heilmittel gegen Unsicherheit
 
-> den überwältigenden und zerstörerischen Einfluss der ständigen Erosion des Wertes von Kapital und Einkommen sowie der Unsicherheit über die Zukunft.
-> Es ist interessant, ein Zitat hervorzuheben, das die zerstörerische Wirkung der Kapitalwerterosion auf den sozialen Zusammenhalt sowie die Unsicherheit, die sie mit sich bringt, betont. Es besagt: "Der überwältigende und zerstörerische Einfluss der ständigen Erosion des Kapital- und Einkommenswerts sowie die Unsicherheit über die Zukunft."
+> Der allgegenwärtige und zerstörerische Einfluss der ständigen Erosion des Wertes von Kapital und Einkommen sowie die Unsicherheit in Bezug auf die Zukunft.
 
-Stellen Sie sich eine Situation vor, in der Sie eine Familie oder nahestehende Personen haben, die Sie schützen möchten. Sie arbeiten hart, sparen, um zukünftige Unsicherheiten vorherzusehen. Wenn alles vorhersehbar wäre, wäre das Sparen nutzlos. Aber bei unvorhergesehenen Ereignissen wie einem Autounfall wird das Sparen zu einem Rettungsanker. Es reduziert die Unsicherheit in der Welt. In Zeiten von Hyperinflation wird das Sparen jedoch zu einer Herausforderung. Das Geld verliert schnell an Wert, was langfristige Planung erschwert. Diese finanzielle Instabilität kann Stress und Angst verursachen.
+Es ist interessant, ein Zitat hervorzuheben, das die zerstörerische Wirkung der Erosion des Kapitalwertes auf den sozialen Zusammenhalt sowie die Unsicherheit, die sie hervorruft, betont. Es lautet: „der allgegenwärtige und zerstörerische Einfluss der ständigen Erosion des Wertes von Kapital und Einkommen sowie die Unsicherheit in Bezug auf die Zukunft.“
 
-Heutzutage übernimmt die Investition die Rolle des Schutzes vor dem Verlust der Kaufkraft. Diese Herangehensweise birgt jedoch ihre eigenen Risiken. Sparen war schon immer ein Mittel gegen Unsicherheit. Finanzielle Rücklagen für unvorhergesehene Situationen zu haben, trägt zu innerer Ruhe bei und stärkt den sozialen Zusammenhalt. Zusammenfassend ist der Schutz unserer Kaufkraft entscheidend, um soziale und individuelle Stabilität aufrechtzuerhalten.
+Stellen Sie sich ein Szenario vor, in dem Sie eine Familie oder Angehörige haben, die Sie schützen möchten. Sie arbeiten hart, sparen, um zukünftige Unsicherheiten abzufangen. Wäre alles vorhersehbar, wäre das Sparen nutzlos. Angesichts des Unvorhersehbaren, etwa eines Autodefekts, wird das Sparen jedoch zu einem Rettungsanker. Es reduziert die Unsicherheit der Welt. Während einer Hyperinflation wird das Sparen jedoch zur Herausforderung. Geld verliert schnell an Wert, was eine langfristige Planung erschwert. Diese finanzielle Instabilität kann Stress und Angst hervorrufen.
+
+Heute, da die Sparfähigkeit sinkt, tritt die Investition an ihre Stelle. Dieser Ansatz birgt jedoch eigene Risiken. Das Sparen war stets ein Heilmittel gegen Unsicherheit. Finanzielle Rücklagen für unvorhergesehene Situationen tragen zu innerer Ruhe bei und stärken den sozialen Zusammenhalt. Zusammenfassend lässt sich sagen, dass der Schutz unserer Sparfähigkeit entscheidend ist, um soziale und individuelle Stabilität zu bewahren.
+
+
 
 ## Währungsumstellungen in Lateinamerika
 

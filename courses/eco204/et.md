@@ -679,31 +679,50 @@ Weimar: "Kogu Saksamaa kapital, mis hoiti välismaal, oli konfiskeeritud."
 
 [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Umbes 300 miljardit dollarit Venemaa reservidest, mis hoiti välismaal, on tõepoolest lääne sanktsioonide osana külmutatud, 640 miljardist dollarist reservidest, mida hoidis Venemaa Keskpank."
 
+
 #### 3. Turuhinna mõiste
-   > Weimar: "Zombiettevõtted"
 
-> Kaasaegne: "Zombiettevõtted"
-> Weimar: "Stabiliseerimine lõpetas perioodi, mil ettevõtjad võisid laenata nii palju kui nad tahtsid kõigi teiste arvelt. Suur hulk ettevõtteid, mis loodi või arendati rahalise külluse ajal, muutusid kiiresti tootmatuks, kui kapital muutus nappiks."
-> Zombiettevõte on ettevõte, mis normaalsetes turutingimustes oleks maksejõuetu või pankroti äärel, kuid jätkab peamiselt madalate laenukulude kaudu tegutsemist. Need ettevõtted teenivad just piisavalt raha oma võlgade katmiseks, kuid ei suuda oluliselt kasvada.
+Weimari Vabariigi ajal väljendasid põllumehed oma rahulolematust "Umlage" suhtes, mis kohustas neid tarnima igal aastal esimesed kaks miljonit tonni toodetud nisu. Selle määruse tagajärjel jõudis pool kogu leivavarustusest turule subsideeritud hindadega. Alates augustist pidid need põllumehed saama tasu maailmaturu hinna järgi, sest kuigi nad olid sunnitud oma nisu madalama hinnaga loovutama, pidid nad samal ajal ostma väetisi maailmaturu hinnaga.
 
-Zombiettevõtete kontseptsioon ei ole uus. Tegelikult oli see olemas juba Weimari Vabariigi ajal. Sel ajal tundusid paljud ettevõtted õitsevat, saades suurt kasu vabast krediidi juurdepääsust. Nad laenasid märkimisväärseid summasid, lootuses hiljem tagasi maksta devalveeritud valuutaga tänu möllavale inflatsioonile. Kuid kui inflatsioon peatus ja Saksa mark taastas oma väärtuse, muutusid need ettevõtted, mis tegelikult ei olnud operatiivselt ja finantsiliselt elujõulised, kasumituks ja pidid oma uksed sulgema.
+See olukord tõstatab keskse probleemi, mis on seotud turuhinna mõistega hüperinflatsiooni ajal. Saksa tollases kontekstis olid põllumehed sunnitud müüma oma nisu alla selle tegeliku väärtuse, samal ajal kui nad pidid väetisi hankima maailmaturu kuludega. Selline majanduslik vastuolu rõhutab toiduainete hindadega seotud tänapäevaseid väljakutseid. Põllumajandustootjad, kes seisavad inflatsiooni tõttu silmitsi sisendite kallinemisega, kannavad need kulud lõpptoodete hindadesse. Nende kritiseerimine selle hinnatõusu pärast tähendab turuhinna dünaamika ja majandusliku surve ignoreerimist, millega nad silmitsi seisavad. Kunstlikult madalate hindadega müümine samal ajal kõrgeid kulusid kandes on iga ettevõtte jaoks jätkusuutmatu.
+
+> Weimar: "Põllumajanduslikud huvid olid rahulolematud 'Umlage'ga, esimese kahe miljoni tonni nisu sunniviisilise tarnimisega igal aastal, mis võimaldas müüa poole kogu leivavarustusest odava hinnaga. Alates augustist pidid põllumehed saama tasu maailmaturu hinna järgi, sest kui nad olid sunnitud nisu odavalt müüma, pidid nad siiski alati maksma väetiste eest maailmaturu hinda."
+
+#### 4. Raha hulga ja inflatsiooni seose eitamine
+
+> Weimar: «Ta jäi kindlalt oma seisukoha juurde, et rahapakkumine ei olnud seotud ei hinnatasemete ega vahetuskurssidega;»
+
+Tänapäeval püsib see tendents, nagu näitab eelmises peatükis toodud näide, kus erinevad majandusteadlased ja majandusinstituudid tõid välja mitmesuguseid põhjendusi inflatsiooni õigustamiseks. Need põhjused varieeruvad kultuurisündmustest ja kuulsustest nagu Taylor Swift, Zelda või Beyoncé kuni globaalsete teguriteni nagu sõda ja pandeemia. Kõik need põhjused, ehkki lühiajaliselt võivad majanduslikke kõikumisi mõjutada, juhivad tähelepanu kõrvale tegelikust algpõhjusest – rahapakkumise laienemisest.
+
+#### 5. Zombiettevõtted
+
+> Weimar: "Stabiliseerimine oli lõpetanud ajastu, mil ettevõtjad said kõigi teiste arvelt nii palju laenata, kui tahtsid. Väga suur hulk ettevõtteid, mis olid loodud või arendatud rahalise külluse ajal, muutusid kiiresti mitteproduktiivseks, kui kapitalist sai napp kaup."
+
+Zombiettevõte on selline äri, mis normaalses turuolukorras oleks maksejõuetu või pankroti äärel, kuid jätkab tegutsemist peamiselt tänu odavatele laenudele. Need ettevõtted teenivad just piisavalt, et katta oma võlad, kuid ei suuda märkimisväärselt kasvada.
+
+Zombiettevõtte mõiste ei ole uus. Tegelikult eksisteeris see juba Weimari Vabariigis. Tollal paistsid paljud ettevõtted näiliselt õitsevad, kasutades laialdaselt ära tasuta krediidi kättesaadavust. Nad võtsid suuri laene, lootes hiljem tagasi maksta, kui raha inflatsiooni tõttu väärtust kaotab. Kui aga inflatsioon lakkas ja Saksa mark oma väärtuse tagasi sai, muutusid need ettevõtted, mis ei olnud tegelikult ei tegevuslikult ega finantsiliselt elujõulised, kahjumlikuks ja pidid oma uksed sulgema.
 
 ![image](assets/fr/050.webp)
 
-Zombiettevõtete nähtus ei piirdu ainult Saksamaa järgsesõja ajalooga. Isegi tänapäeval ellujäävad paljud suured ettevõtted tänu privileegitud juurdepääsule väga madala intressimääraga krediidile. Kui nad peaksid laenama tavapärasemate määrade juures, lõpetaks paljud neist kasumlik olemise. See on eriti asjakohane, kuna me elame 2023. aastal ja pärast pikka peaaegu nullilähedase intressimäära perioodi on need hakanud tõusma. See hiljutine areng finantsmaastikul saab kahtlemata olema otsustav test nendele ettevõtetele, mida kunagi nimetati "zombideks".
+Zombiettevõtete fenomen ei piirdu ainult sõjajärgse Saksamaaga. Ka tänapäeval püsivad paljud suured ettevõtted tänu privileegilisele juurdepääsule väga madala intressimääraga laenudele. Kui nad peaksid laenama tavapärasemate intressimääradega, lõpetaksid paljud neist kasumlikkuse. See on eriti asjakohane aastal 2023, kui pärast pikka nullilähedaste intressimäärade perioodi on need hakanud tõusma. See hiljutine finantskeskkonna areng on kahtlemata otsustavaks proovikiviks neile ettevõtetele, mida varem nimetati "zombideks".
 
-5. Rikkaks saamine kiiresti!
-   Ajaloo vältel on olnud hetki, mil inimesed püüavad kiiresti rikkaks saada, nagu juhtus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval näeme sarnast trendi teatud krüptovaluutade esilekerkimisega. Inimesi ahvatlevad kiired kasumid, võttes riske lootuses oma investeeringut eksponentsiaalselt suurendada. See lähenemine võib meenutada seda, mida täheldatakse hüperinflatsiooni perioodidel, kus arbitraaži kasutatakse kiirete kasumite saamiseks, sageli teiste arvelt.
-   ![image](assets/fr/051.webp)
+#### 6. Ruttu rikkaks!
 
-6. Säästmine, ravim ebakindluse vastu
+Ajalugu näitab hetki, mil inimesed püüdsid kiiresti rikkaks saada, nagu see toimus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval on täheldatav sarnane tendents teatud krüptovaluutade esiletõusuga. Inimesi ahvatlevad kiired võidud, nad võtavad riske, lootes oma investeeringut eksponentsiaalselt kasvatada. See lähenemine meenutab hüperinflatsiooni perioode, mil arbitraaži kasutati kiire kasumi saamiseks, sageli teiste arvelt.
 
-> pideva kapitali ja tulu väärtuse kulumise invasiivne ja hävitav mõju, samuti tuleviku ebakindlus.
-> On huvitav esile tõsta tsitaati, mis rõhutab kapitali väärtuse erosiooni hävitavat mõju sotsiaalsele sidususele, samuti sellest tulenevat ebakindlust. See ütleb: "pideva kapitali ja tulu väärtuse kulumise invasiivne ja hävitav mõju, samuti tuleviku ebakindlus."
+![image](assets/fr/051.webp)
 
-Kujutage ette stsenaariumi, kus teil on perekond või lähedased, keda soovite kaitsta. Te töötate kõvasti, säästate raha, et ette näha tulevasi ebakindlusi. Kui kõik oleks etteaimatav, oleks säästmine mõttetu. Kuid ootamatute sündmuste, nagu katkine auto, ees muutuvad säästud päästerõngaks. See vähendab maailma ebakindlust. Siiski, hüperinflatsiooni perioodil muutub säästmine väljakutseks. Raha kaotab kiiresti oma väärtuse, muutes pikaajalise planeerimise keeruliseks. See finantsiline ebastabiilsus võib põhjustada stressi ja ärevust.
+#### 7. Säästmine, ravim ebakindluse vastu
 
-Täna, ostujõu languse ees, võtab investeerimine üle. Siiski kaasneb selle lähenemisega oma riskid. Säästmine on alati olnud ravim ebakindluse vastu. Finantsreservide olemasolu ettenägematute olukordade haldamiseks aitab kaasa meelerahule ja tugevdab sotsiaalset sidusust. Kokkuvõttes on meie ostujõu kaitsmine oluline sotsiaalse ja individuaalse stabiilsuse säilitamiseks.
+> Pideva kapitali ja sissetulekute väärtuse erosiooni kõikjalleviv ja hävitav mõju ning ebakindlus tuleviku ees.
+
+On huvitav esile tõsta tsitaati, mis rõhutab kapitali väärtuse erosiooni hävitavat mõju sotsiaalsele sidususele ning ebakindlust, mida see tekitab. See ütleb: "kapitali ja sissetulekute väärtuse pideva erosiooni kõikjalleviv ja hävitav mõju ning ebakindlus tuleviku ees."
+
+Kujutage ette olukorda, kus teil on pere või lähedased, keda soovite kaitsta. Te töötate kõvasti, säästate, et tulla toime tulevaste ebakindlustega. Kui kõik oleks ettenähtav, oleks säästmine mõttetu. Kuid ettearvamatu ees, näiteks auto rikke korral, muutub säästmine päästerõngaks. See vähendab maailma ebakindlust. Hüperinflatsiooni ajal on aga säästmine keeruline. Raha kaotab kiiresti väärtust, muutes pikaajalise planeerimise raskeks. See finantsiline ebastabiilsus võib tekitada stressi ja ärevust.
+
+Tänapäeval, kui säästmisvõime väheneb, astub asemele investeerimine. Kuid see lähenemine sisaldab oma riske. Säästmine on alati olnud ravim ebakindluse vastu. Rahaliste reservide omamine ettenägematute olukordade lahendamiseks aitab kaasa meelerahule ja tugevdab sotsiaalset sidusust. Kokkuvõtteks võib öelda, et meie säästmisvõime kaitsmine on oluline nii sotsiaalse kui ka individuaalse stabiilsuse säilitamiseks.
+
+
 
 ## Redenominatsioonid Ladina-Ameerikas
 

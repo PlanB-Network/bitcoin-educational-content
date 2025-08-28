@@ -779,31 +779,51 @@ Historia ya Jamhuri ya Weimar inaonyesha kwamba katika kipindi hiki, mali na mit
 
 > Weimar: "Mji mkuu wote wa Ujerumani uliokuwa nje ya nchi ulikuwa umechukuliwa."
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russses-vol-non-redistribuer-kiev-poserait-lourdes-maswali): "Takriban dola bilioni 300 nje ya nchi zimekuwa zikizuiliwa nje ya nchi kama sehemu ya hifadhi ya Magharibi ya Urusi $ 640 bilioni katika akiba iliyohifadhiwa na Benki Kuu ya Urusi."
+
+
 #### 3. Dhana ya bei ya soko
 
-> Weimar : "Les entreprises Riddick"
-> Kisasa: "Les entreprises Riddick"
-> Weimar: "Utulivu ulikomesha kipindi ambacho wajasiriamali wangeweza kukopa kadri walivyotaka kwa gharama ya kila mtu mwingine. Idadi kubwa ya makampuni, yaliyoundwa au kuendelezwa wakati wa wingi wa fedha, haraka ikawa isiyo na tija wakati mtaji ulipopungua."
-> Kampuni ya zombie ni kampuni ambayo, chini ya hali ya kawaida ya soko, itakuwa imefilisika au karibu na kufilisika, lakini inaendelea kufanya kazi hasa kwa kukopa kwa gharama nafuu. Kampuni hizi hupata pesa za kutosha kufidia deni zao lakini haziwezi kukua kwa kiasi kikubwa.
-Wazo la kampuni za zombie sio mpya. Kwa kweli, ilikuwepo katika Jamhuri ya Weimar. Wakati huo, makampuni mengi yalionekana kustawi, yakifaidika pakubwa kutokana na kupata mikopo bila malipo. Walikopa kiasi kikubwa, kwa matarajio ya kurejesha baadaye kwa sarafu iliyopungua kutokana na mfumuko wa bei uliokithiri. Hata hivyo, wakati mfumuko wa bei uliposimama na alama ya Ujerumani ilipata tena thamani, makampuni haya, ambayo hayakuwa na ufanisi katika masuala ya uendeshaji na kifedha, yalikosa faida na ilibidi kufunga milango yao.
+Wakati wa Jamhuri ya Weimar, wakulima walionyesha kutoridhishwa kwao na “Umlage”, ambayo iliwalazimisha kutoa tani milioni mbili za kwanza za ngano zinazozalishwa kila mwaka. Kanuni hii ilisababisha nusu ya usambazaji wote wa mkate kuingia sokoni kwa bei zilizopunguzwa na kusubsidiwa. Kuanzia mwezi wa Agosti, wakulima hawa walipaswa kulipwa kwa bei ya dunia, kwani ingawa walilazimishwa kutoa ngano yao kwa bei ya chini, walilazimika pia kununua mbolea kwa bei ya dunia.
+
+Hali hii inainua swali kuu linalohusiana na dhana ya bei ya soko wakati wa mfumuko mkubwa wa bei. Katika muktadha wa Kijerumani wa wakati huo, wakulima walilazimishwa kuuza ngano yao kwa bei ya chini kuliko thamani yake, huku wakilazimika kupata mbolea kwa gharama za dunia. Tofauti kama hii ya kiuchumi inaonyesha changamoto zinazowakabili leo bei za bidhaa za chakula. Wazalishaji wa kilimo, wanapokabiliana na ongezeko la gharama za pembejeo kutokana na mfumuko wa bei, hupeleka gharama hizo kwa bidhaa za mwisho. Kuwakosoa kwa ongezeko hili ni kupuuza mienendo ya bei ya soko na shinikizo la kiuchumi wanalokabiliana nalo. Kuuza kwa bei za bandia zilizopunguzwa huku ukibeba gharama kubwa si jambo endelevu kwa biashara yoyote.
+
+> Weimar: “Maslahi ya kilimo hayakuridhishwa na ‘Umlage’, usambazaji wa lazima wa tani milioni mbili za kwanza za ngano zinazozalishwa kila mwaka, jambo lililoruhusu nusu ya usambazaji wote wa mkate kuuzwa kwa bei ya chini. Kuanzia Agosti, wakulima walipaswa kulipwa kwa bei ya dunia kwa sababu, walipolazimishwa kuuza ngano kwa bei ya chini, walipaswa bado kulipa bei ya dunia kwa mbolea.”
+
+#### 4. Kukataa uhusiano kati ya kiasi cha fedha na mfumuko wa bei
+
+> Weimar: “Aliendelea kushikilia msimamo wake kwamba usambazaji wa fedha haukuhusiana na viwango vya bei wala na thamani za kubadilisha fedha.”
+
+Katika nyakati za sasa, mwelekeo huu bado upo, jambo linaloonekana katika mfano uliotolewa katika sura iliyopita kuhusu orodha ya maelezo yaliyotolewa na wachumi na taasisi mbalimbali za kiuchumi ili kuhalalisha mfumuko wa bei.  
+Sababu hizi zinatofautiana, kuanzia matukio ya kitamaduni na watu maarufu kama Taylor Swift, Zelda au Beyoncé, hadi sababu za ulimwengu kama vile vita na janga. Sababu hizi zote, ingawa zinaweza kuchangia katika kuyumba kwa uchumi kwa muda mfupi, zinapotosha kutoka kwenye sababu ya msingi — upanuzi wa kiasi cha fedha.
+
+#### 5. Kampuni za zombi
+
+> Weimar: “Uthabiti ulihitimisha kipindi ambacho wajasiriamali wangeweza kukopa kiasi walichotaka kwa gharama ya wengine wote. Idadi kubwa ya makampuni, yaliyoanzishwa au kupanuliwa wakati wa wingi wa fedha, haraka yakawa hayazalishi pale mtaji ulipopungua.”
+
+Kampuni ya zombi ni biashara ambayo, chini ya hali za kawaida za soko, ingekuwa haina uwezo wa kulipa madeni au karibu na kufilisika, lakini inaendelea kufanya kazi, hasa kutokana na mikopo ya gharama ya chini. Kampuni hizi hupata pesa za kutosha tu kulipa madeni yao, lakini haziwezi kukua kwa kiwango kikubwa.
+
+Dhana ya kampuni za zombi si mpya. Ilikuwepo hata katika Jamhuri ya Weimar. Wakati huo, makampuni mengi yalionekana kustawi, yakifaidika sana na upatikanaji wa mkopo wa bure. Walikopa kiasi kikubwa cha fedha wakiwa na matarajio ya kulipa baadaye kwa sarafu iliyopungua thamani kutokana na mfumuko wa bei uliokithiri. Hata hivyo, mfumuko uliposimama na sarafu ya Kijerumani ikapata tena thamani, makampuni haya, ambayo hayakuwa thabiti kweli kwa upande wa uendeshaji na kifedha, yakawa hayana faida na yakalazimika kufunga.
 
 ![image](assets/fr/050.webp)
 
-Jambo la makampuni ya zombie sio mdogo kwa historia ya baada ya vita ya Ujerumani. Hata leo, makampuni mengi makubwa yanaishi kutokana na upatikanaji wa fursa ya mikopo yenye riba ya chini sana. Ikiwa walipaswa kukopa kwa viwango vya kawaida zaidi, wengi wao wangeacha kuwa na faida. Hili ni muhimu hasa kwa vile tuko mwaka wa 2023, na baada ya muda mrefu wa viwango vya riba karibu sifuri, vimeanza kupanda. Maendeleo haya ya hivi majuzi katika hali ya kifedha bila shaka yatakuwa mtihani madhubuti kwa kampuni hizi ambazo hapo awali ziliitwa "zombies".
+Tukio la makampuni ya zombi halijapunguzwa kwa historia ya Ujerumani baada ya vita. Hata leo, makampuni mengi makubwa bado yapo kutokana na upatikanaji wa kipaumbele wa mikopo yenye viwango vya chini sana vya riba. Ikiwa yangelazimika kukopa kwa viwango vya kawaida zaidi, mengi yangepoteza faida. Hili ni muhimu zaidi tunapokaribia mwaka wa 2023, na baada ya kipindi kirefu cha viwango vya riba karibu na sifuri, vimeanza kuongezeka. Mageuzi haya ya hivi karibuni katika mandhari ya kifedha bila shaka yatakuwa jaribio kuu kwa makampuni haya ambayo zamani yaliitwa “zombi”.
 
-5. Tajirika haraka!
+#### 6. Tajirika haraka!
 
-Katika historia, kumekuwa na nyakati ambapo watu binafsi wanatafuta kutajirika haraka, kama ilivyokuwa katika Weimar na Zimbabwe kupitia usuluhishi. Leo, tunaona mwelekeo sawa na kuibuka kwa fedha fulani za crypto. Watu wanajaribiwa na faida za haraka, wakichukua hatari kwa matumaini ya kuzidisha kwa kasi kwa uwekezaji (investment) wao. Njia hii inaweza kukumbusha kile kinachozingatiwa wakati wa mfumuko wa bei, ambapo usuluhishi hutumiwa kupata faida ya haraka, mara nyingi kwa gharama ya wengine.
+Katika historia, tunaona nyakati ambapo watu walitafuta kutajirika haraka, kama ilivyokuwa Weimar na Zimbabwe kupitia arbitrage. Leo, tunaona mwelekeo sawa na kuibuka kwa baadhi ya sarafu za kidijitali. Watu wanavutiwa na faida za haraka, wakichukua hatari wakitumaini mara nyingi kuongezeka kwa uwekezaji wao. Mbinu hii inaweza kufanana na ile iliyoshuhudiwa wakati wa mfumuko mkubwa wa bei, ambapo arbitrage ilitumika kupata faida za haraka, mara nyingi kwa hasara ya wengine.
 
 ![image](assets/fr/051.webp)
 
-6. Akiba, dawa dhidi ya kutokuwa na uhakika
+#### 7. Akiba — tiba dhidi ya kutokuwa na uhakika
 
-> ushawishi vamizi na wa uharibifu wa mmomonyoko wa mara kwa mara wa thamani ya mtaji na mapato, pamoja na kutokuwa na uhakika juu ya siku zijazo.
-> Inafurahisha kuangazia nukuu ambayo inasisitiza athari ya uharibifu ya mmomonyoko wa thamani ya mtaji kwenye mshikamano wa kijamii, pamoja na kutokuwa na uhakika kunakozalisha. Inasema: "ushawishi wa vamizi na wa uharibifu wa mmomonyoko wa mara kwa mara wa thamani ya mtaji na mapato, pamoja na kutokuwa na uhakika juu ya siku zijazo."
-Hebu wazia hali ambapo una familia au wapendwa unaotaka kuwalinda. Unafanya kazi Hard, kuokoa pesa, ili kutarajia kutokuwa na uhakika wa siku zijazo. Ikiwa kila kitu kilitabirika, kuokoa hakutakuwa na maana. Lakini katika uso wa zisizotarajiwa, kama gari iliyoharibika, akiba inakuwa njia ya kuokoa maisha. Inapunguza kutokuwa na uhakika wa ulimwengu. Walakini, katika kipindi cha mfumuko wa bei, kuokoa inakuwa changamoto. Pesa hupoteza thamani yake haraka, na kufanya upangaji wa muda mrefu kuwa mgumu. Kukosekana kwa utulivu wa kifedha kunaweza kusababisha mafadhaiko na wasiwasi.
+> Mvuto unaopenya na wa uharibifu wa mmomonyoko wa mara kwa mara wa thamani ya mtaji na mapato pamoja na kutokuwa na uhakika kuhusu siku zijazo.
 
-Leo, katika hali ya kupungua kwa uwezo wa ununuzi, uwekezaji (investment) unachukua nafasi. Walakini, njia hii inakuja na hatari zake. Akiba daima imekuwa suluhisho dhidi ya kutokuwa na uhakika. Kuwa na akiba ya fedha ili kudhibiti hali zisizotarajiwa huchangia amani ya akili na kuimarisha mshikamano wa kijamii. Kwa kumalizia, kulinda uwezo wetu wa ununuzi ni muhimu ili kudumisha utulivu wa kijamii na mtu binafsi.
+Ni jambo la kuvutia kuangazia nukuu inayosisitiza athari ya uharibifu wa mmomonyoko wa thamani ya mtaji juu ya mshikamano wa kijamii, na pia kutokuwa na uhakika kunakotokana na hilo. Nukuu hiyo inasema: “mvuto unaopenya na wa uharibifu wa mmomonyoko wa mara kwa mara wa thamani ya mtaji na mapato, pamoja na kutokuwa na uhakika kuhusu siku zijazo.”
+
+Fikiria hali ambapo una familia au wapendwa unaotaka kuwalinda. Unafanya kazi kwa bidii, unaweka akiba, ili kukabiliana na kutokuwa na uhakika wa baadaye. Ikiwa kila kitu kingekuwa kinatabirika, kuweka akiba kusingekuwa na maana. Lakini mbele ya mambo yasiyotarajiwa — kama gari kuvunjika — akiba inakuwa kama boya la kuokoa maisha. Inapunguza kutokuwa na uhakika wa dunia. Hata hivyo, wakati wa mfumuko mkubwa wa bei, kuweka akiba kunakuwa changamoto kubwa. Pesa hupoteza thamani yake haraka, na kufanya mpango wa muda mrefu kuwa mgumu. Kutokuwa na uthabiti wa kifedha kunaweza kusababisha msongo wa mawazo na wasiwasi.
+
+Leo, kutokana na kupungua kwa nguvu ya akiba, uwekezaji unachukua nafasi. Hata hivyo, mbinu hii ina hatari zake. Akiba imekuwa daima tiba dhidi ya kutokuwa na uhakika. Kuwa na akiba ya kifedha ya kukabiliana na hali zisizotarajiwa kunachangia utulivu wa akili na kuimarisha mshikamano wa kijamii. Kwa kumalizia, kulinda uwezo wetu wa kuweka akiba ni jambo la msingi kwa kudumisha uthabiti wa kijamii na binafsi.
+
 
 ## Redenominations katika Amerika ya Kusini
 

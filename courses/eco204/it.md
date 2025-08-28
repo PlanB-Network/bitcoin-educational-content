@@ -671,30 +671,50 @@ La storia della Repubblica di Weimar rivela che, durante questo periodo, gli ave
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Circa 300 miliardi di dollari delle riserve russe detenute all'estero sono stati congelati nell'ambito delle sanzioni occidentali, su un totale di 640 miliardi di dollari di riserve detenute dalla Banca centrale russa."
 
+
 #### 3. La nozione di prezzo di mercato
-   > Weimar : "Les entreprises zombies"
 
-> Compagnies zombies : Les entreprises qui sont en faillite ou qui sont incapables de rembourser leurs dettes, mais qui continuent d'exister grâce à des prêts ou des subventions gouvernementales.
-> Weimar: "La stabilizzazione aveva posto fine al periodo in cui gli imprenditori potevano prendere in prestito quanto desideravano a spese di tutti gli altri. Un gran numero di aziende, create o sviluppate durante l'abbondanza monetaria, sono diventate rapidamente non produttive quando il capitale è diventato scarso."
-> Una compagnia zombie è un'azienda che, in condizioni di mercato normali, sarebbe insolvente o vicina al fallimento, ma che continua a funzionare principalmente grazie a prestiti a basso costo. Queste aziende guadagnano appena abbastanza soldi per coprire i loro debiti, ma sono incapaci di crescere in modo significativo.
+Durante la Repubblica di Weimar, gli agricoltori esprimevano il loro malcontento verso l’"Umlage", che li obbligava a fornire i primi due milioni di tonnellate di grano prodotte ogni anno. Questa regolamentazione aveva come conseguenza che metà della fornitura totale di pane fosse immessa sul mercato a prezzi sovvenzionati. A partire dal mese di agosto, questi agricoltori avrebbero dovuto essere remunerati al prezzo mondiale, poiché, sebbene fossero costretti a cedere il loro grano a prezzi ridotti, dovevano acquistare i fertilizzanti al prezzo mondiale.
 
-Questo concetto di compagnia zombie non è nuovo. Infatti, era presente nella Repubblica di Weimar. In quel periodo, molte aziende sembravano prosperare, beneficiando ampiamente dell'accesso al credito gratuito. Prendevano in prestito somme considerevoli, con la prospettiva di restituire successivamente con una valuta svalutata a causa dell'inflazione galoppante. Tuttavia, quando l'inflazione si è fermata e il marco tedesco ha ripreso valore, queste aziende, che non erano veramente sostenibili in termini operativi e finanziari, sono diventate non redditizie e hanno dovuto chiudere.
+Questa situazione solleva una problematica centrale legata alla nozione di prezzo di mercato durante un’iperinflazione. Nel contesto tedesco dell’epoca, i contadini erano costretti a vendere il loro grano a un prezzo inferiore al suo valore, pur dovendo rifornirsi di fertilizzanti a costi mondiali. Una tale discrepanza economica mette in evidenza le sfide rappresentate oggi dai prezzi dei prodotti alimentari. I produttori agricoli, confrontati con l’aumento dei costi degli input a causa dell’inflazione, riversano tali costi sui prodotti finali. Criticarli per questo aumento significa ignorare la dinamica del prezzo di mercato e le pressioni economiche a cui sono sottoposti. Vendere a prezzi artificialmente bassi, subendo al contempo costi elevati, è insostenibile per qualsiasi impresa.
+
+> Weimar: "Gli interessi agricoli erano scontenti dell’'Umlage', la consegna forzata dei primi due milioni di tonnellate di grano prodotte ogni anno, che permetteva di vendere metà della fornitura totale di pane a basso prezzo. Da agosto, gli agricoltori dovevano essere pagati al prezzo mondiale, poiché, mentre erano obbligati a vendere il grano a basso prezzo, dovevano comunque pagare il prezzo mondiale per i fertilizzanti."
+
+#### 4. La negazione del legame tra massa monetaria e inflazione
+
+> Weimar: «Rimase fermamente legato alla sua opinione secondo cui l’offerta di moneta non era legata né ai livelli dei prezzi né ai tassi di cambio;»
+
+In epoca contemporanea, questa tendenza persiste, come mostra l’esempio del capitolo precedente con un elenco di spiegazioni avanzate da diversi economisti e istituti economici per giustificare l’inflazione. Queste ragioni variano, andando da eventi culturali e celebrità come Taylor Swift, Zelda o Beyoncé, fino a fattori globali come la guerra e la pandemia. Tutte queste ragioni, sebbene possano contribuire a fluttuazioni economiche a breve termine, distolgono l’attenzione dalla vera causa sottostante, ossia l’espansione della massa monetaria.
+
+#### 5. Le imprese zombie
+
+> Weimar: "La stabilizzazione aveva posto fine al periodo in cui gli imprenditori potevano indebitarsi quanto volevano a spese di tutti gli altri. Un grandissimo numero di imprese, create o sviluppate durante l’abbondanza monetaria, divennero rapidamente improduttive quando il capitale divenne scarso."
+
+Un’impresa zombie è un’azienda che, in condizioni normali di mercato, sarebbe insolvente o vicina al fallimento, ma che continua a funzionare principalmente grazie a prestiti a basso costo. Queste aziende guadagnano appena abbastanza per coprire i propri debiti, ma sono incapaci di crescere in modo significativo.
+
+La nozione di impresa zombie non è nuova. Infatti, era già presente nella Repubblica di Weimar. All’epoca molte aziende sembravano fiorenti, approfittando ampiamente dell’accesso al credito gratuito. Prendevano in prestito somme considerevoli con la prospettiva di rimborsare successivamente con una moneta svalutata a causa dell’inflazione galoppante. Tuttavia, quando l’inflazione cessò e il marco tedesco riprese valore, queste imprese, che non erano realmente sostenibili dal punto di vista operativo e finanziario, divennero non redditizie e dovettero chiudere i battenti.
 
 ![image](assets/fr/050.webp)
 
-Il fenomeno delle compagnie zombie non si limita alla storia della Germania del dopoguerra. Oggi ancora molte grandi aziende sopravvivono grazie all'accesso privilegiato a crediti a tassi di interesse molto bassi. Se dovessero prendere in prestito a tassi più convenzionali, molte di loro smetterebbero di essere redditizie. Questo è particolarmente rilevante nel 2023, dopo un lungo periodo di tassi di interesse vicini allo zero, che hanno iniziato ad aumentare. Questa recente evoluzione del panorama finanziario sarà senza dubbio una prova decisiva per queste aziende un tempo definite "zombie".
+Il fenomeno delle imprese zombie non si limita alla storia della Germania del dopoguerra. Ancora oggi, molte grandi aziende sopravvivono grazie a un accesso privilegiato a crediti a tassi d’interesse molto bassi. Se dovessero indebitarsi a tassi più convenzionali, molte di esse cesserebbero di essere redditizie. Ciò è tanto più rilevante nel 2023, dopo un lungo periodo di tassi d’interesse prossimi allo zero, che hanno iniziato ad aumentare. Questa recente evoluzione del panorama finanziario sarà senza dubbio una prova decisiva per queste imprese un tempo definite "zombie".
 
-5. Arricchirsi velocemente!
+#### 6. Arricchirsi in fretta!
 
-Nella storia, si osservano momenti in cui le persone cercano di arricchirsi rapidamente, come è stato il caso a Weimar e in Zimbabwe attraverso l'arbitraggio. Oggi, si nota una tendenza simile con l'emergere di alcune criptovalute. Le persone sono tentate da guadagni rapidi, prendendo rischi nella speranza di una crescita esponenziale del loro investimento. Questo approccio può ricordare quello osservato durante periodi di iperinflazione, in cui l'arbitraggio viene utilizzato per ottenere guadagni rapidi, spesso a discapito degli altri.
+Nella storia si osservano momenti in cui gli individui cercano di arricchirsi rapidamente, come accadde a Weimar e in Zimbabwe attraverso l’arbitraggio. Oggi si nota una tendenza simile con l’emergere di alcune criptovalute. Le persone sono tentate da guadagni rapidi, assumendo rischi nella speranza di moltiplicare esponenzialmente il loro investimento. Questo approccio può ricordare quello osservato nei periodi di iperinflazione, in cui l’arbitraggio veniva utilizzato per ottenere profitti rapidi, spesso a spese di altri.
 
-6. Il risparmio, il rimedio contro l'incertezza
+![image](assets/fr/051.webp)
 
-> l'influenza invasiva e distruttiva dell'erosione costante del valore del capitale e dei redditi, così come l'incertezza sul futuro.
-> È interessante sottolineare una citazione che mette in evidenza l'effetto distruttivo dell'erosione del valore del capitale sulla coesione sociale, così come l'incertezza che essa genera. Questa dice: "l'influenza invasiva e distruttiva dell'erosione costante del valore del capitale e dei redditi, così come l'incertezza per il futuro".
-> Immagina uno scenario in cui hai una famiglia o delle persone care che desideri proteggere. Lavori duramente, risparmi, per anticipare le incertezze future. Se tutto fosse prevedibile, il risparmio sarebbe inutile. Ma di fronte all'imprevisto, come un'auto che si guasta, il risparmio diventa un salvagente. Riduce l'incertezza del mondo. Tuttavia, in periodi di iperinflazione, risparmiare diventa una sfida. Il denaro perde rapidamente valore, rendendo difficile la pianificazione a lungo termine. Questa instabilità finanziaria può generare stress e ansia.
+#### 7. Il risparmio, il rimedio contro l’incertezza
 
-Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendono il sopravvento. Tuttavia, questo approccio comporta i suoi rischi. Il risparmio è sempre stato un rimedio contro l'incertezza. Avere riserve finanziarie per gestire situazioni impreviste contribuisce a una serenità mentale e rafforza la coesione sociale. In conclusione, la protezione del nostro potere d'acquisto è essenziale per mantenere la stabilità sociale e individuale.
+> L’influenza pervasiva e distruttiva dell’erosione costante del valore del capitale e dei redditi, nonché l’incertezza riguardo al futuro.
+
+È interessante sottolineare una citazione che mette in evidenza l’effetto distruttivo dell’erosione del valore del capitale sulla coesione sociale, nonché l’incertezza che essa genera. Essa afferma: "l’influenza pervasiva e distruttiva dell’erosione costante del valore del capitale e dei redditi, nonché l’incertezza riguardo al futuro."
+
+Immaginate uno scenario in cui avete una famiglia o persone care che desiderate proteggere. Lavorate sodo, risparmiate, per anticipare le incertezze future. Se tutto fosse prevedibile, il risparmio sarebbe inutile. Ma di fronte all’imprevisto, come un guasto dell’auto, il risparmio diventa un’ancora di salvezza. Riduce l’incertezza del mondo. Tuttavia, in un periodo di iperinflazione, risparmiare diventa una sfida. Il denaro perde rapidamente valore, rendendo difficile la pianificazione a lungo termine. Questa instabilità finanziaria può generare stress e ansia.
+
+Oggi, di fronte al calo del potere di risparmio, l’investimento prende il sopravvento. Tuttavia, questo approccio comporta i propri rischi. Il risparmio è sempre stato un rimedio contro l’incertezza. Disporre di riserve finanziarie per affrontare situazioni impreviste contribuisce alla serenità d’animo e rafforza la coesione sociale. In conclusione, la protezione del nostro potere di risparmio è essenziale per mantenere la stabilità sociale e individuale.
+
+
 
 ## Le riforme valutarie in America Latina
 

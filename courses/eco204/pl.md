@@ -1065,42 +1065,49 @@ Historia Republiki Weimarskiej pokazuje, że w tym okresie aktywa i kapitał prz
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Około 300 miliardów dolarów rosyjskich rezerw przechowywanych za granicą rzeczywiście zostało zamrożonych w ramach zachodnich sankcji, z 640 miliardów dolarów rezerw przechowywanych przez rosyjski bank centralny"
 
+
 #### 3. Pojęcie ceny rynkowej
 
-> Weimar: "Przedsiębiorstwa zombie"
+W czasie Republiki Weimarskiej rolnicy wyrażali swoje niezadowolenie wobec "Umlage", które zobowiązywało ich do dostarczenia pierwszych dwóch milionów ton pszenicy produkowanych każdego roku. Regulacja ta skutkowała tym, że połowa całkowitej podaży chleba trafiała na rynek po cenach subsydiowanych. Od sierpnia ci rolnicy mieli być wynagradzani według cen światowych, ponieważ choć byli zmuszeni oddawać swoją pszenicę po obniżonych cenach, musieli nabywać nawozy po cenach światowych.
 
-> Współczesność: "Les entreprises zombies"
-> Weimar: "Stabilizacja położyła kres okresowi, w którym przedsiębiorcy mogli pożyczać tyle, ile chcieli, kosztem wszystkich innych. Duża liczba firm, utworzonych lub rozwiniętych w okresie obfitości monetarnej, szybko stała się nieproduktywna, gdy zabrakło kapitału"
-> Spółka zombie to spółka, która w normalnych warunkach rynkowych byłaby niewypłacalna lub bliska bankructwa, ale kontynuuje działalność głównie dzięki tanim pożyczkom. Firmy te zarabiają wystarczająco dużo pieniędzy, aby pokryć swoje długi, ale nie są w stanie znacząco się rozwijać.
+Ta sytuacja rodzi centralny problem związany z pojęciem ceny rynkowej w okresie hiperinflacji. W ówczesnym kontekście niemieckim rolnicy byli zmuszeni sprzedawać swoją pszenicę poniżej jej wartości, jednocześnie musząc zaopatrywać się w nawozy po kosztach światowych. Taka rozbieżność gospodarcza uwydatnia wyzwania, jakie dziś stwarzają ceny żywności. Producenci rolni, stając wobec wzrostu kosztów nakładów w wyniku inflacji, przenoszą te koszty na produkty końcowe. Krytykowanie ich za ten wzrost oznacza ignorowanie dynamiki ceny rynkowej i presji ekonomicznych, z jakimi się borykają. Sprzedaż po sztucznie niskich cenach przy jednoczesnym ponoszeniu wysokich kosztów jest nie do utrzymania dla jakiegokolwiek przedsiębiorstwa.
 
-Koncepcja spółek zombie nie jest nowa. W rzeczywistości była ona obecna w Republice Weimarskiej. W tym czasie wiele firm zdawało się kwitnąć, czerpiąc ogromne korzyści z dostępu do darmowych kredytów. Pożyczały one znaczne sumy, z perspektywą późniejszej spłaty w zdeprecjonowanej walucie z powodu szalejącej inflacji. Jednak gdy inflacja ustała, a marka niemiecka odzyskała wartość, firmy te, które nie były naprawdę rentowne pod względem operacyjnym i finansowym, stały się nierentowne i musiały zamknąć swoje podwoje.
+> Weimar: "Interesy rolnicze były niezadowolone z 'Umlage', obowiązkowej dostawy pierwszych dwóch milionów ton pszenicy produkowanych każdego roku, co umożliwiało sprzedaż połowy całkowitej podaży chleba po niskiej cenie. Od sierpnia rolnicy mieli być opłacani według cen światowych, ponieważ gdy byli zmuszani do sprzedaży pszenicy tanio, musieli nadal płacić cenę światową za nawozy."
 
+#### 4. Zaprzeczanie związkowi między podażą pieniądza a inflacją
+
+> Weimar: «Nadal twardo trzymał się poglądu, że podaż pieniądza nie była związana ani z poziomem cen, ani z kursami walutowymi;»
+
+Współcześnie tendencja ta utrzymuje się, jak pokazuje przykład z poprzedniego rozdziału, gdzie przedstawiono listę wyjaśnień wysuwanych przez różnych ekonomistów i instytuty ekonomiczne w celu uzasadnienia inflacji. Powody te są różne, począwszy od wydarzeń kulturalnych i celebrytów, takich jak Taylor Swift, Zelda czy Beyoncé, aż po czynniki globalne, jak wojna czy pandemia. Wszystkie te przyczyny, choć potencjalnie wpływające na krótkoterminowe wahania gospodarcze, odwracają uwagę od prawdziwej przyczyny leżącej u podstaw, czyli ekspansji podaży pieniądza.
+
+#### 5. Firmy zombie
+
+> Weimar: "Stabilizacja zakończyła okres, w którym przedsiębiorcy mogli pożyczać tyle, ile chcieli, kosztem wszystkich innych. Bardzo duża liczba przedsiębiorstw, stworzonych lub rozwiniętych w czasie nadmiaru pieniądza, szybko stała się nieproduktywna, gdy kapitał stał się rzadki."
+
+Firma zombie to przedsiębiorstwo, które w normalnych warunkach rynkowych byłoby niewypłacalne lub bliskie bankructwa, ale które nadal funkcjonuje głównie dzięki tanim pożyczkom. Firmy te zarabiają tylko tyle, aby pokryć swoje długi, ale nie są w stanie znacząco się rozwijać.
+
+Pojęcie firmy zombie nie jest nowe. Faktycznie istniało ono w Republice Weimarskiej. W tamtym czasie wiele firm wydawało się kwitnąć, szeroko korzystając z dostępu do darmowego kredytu. Pożyczały znaczne sumy z perspektywą spłaty później zdeprecjonowaną walutą, w wyniku galopującej inflacji. Jednak gdy inflacja ustała, a marka niemiecka odzyskała swoją wartość, te przedsiębiorstwa, które nie były faktycznie operacyjnie ani finansowo rentowne, stały się nierentowne i musiały zamknąć swoje drzwi.
 
 ![image](assets/fr/050.webp)
 
+Zjawisko firm zombie nie ogranicza się do historii powojennych Niemiec. Nawet dziś wiele dużych przedsiębiorstw istnieje dzięki uprzywilejowanemu dostępowi do kredytów o bardzo niskich stopach procentowych. Gdyby musiały pożyczać po bardziej konwencjonalnych stopach, wiele z nich przestałoby być rentownych. Jest to tym bardziej istotne w 2023 roku, kiedy po długim okresie stóp procentowych bliskich zeru zaczęły one rosnąć. Ta ostatnia zmiana w krajobrazie finansowym będzie bez wątpienia decydującym testem dla tych firm, które kiedyś określano mianem "zombie".
 
-Zjawisko firm-zombie nie ogranicza się do powojennej historii Niemiec. Nawet dziś wiele dużych firm przetrwało dzięki uprzywilejowanemu dostępowi do bardzo nisko oprocentowanych kredytów. Gdyby musiały pożyczać na bardziej konwencjonalnych warunkach, wiele z nich przestałoby być rentownych. Jest to szczególnie istotne, ponieważ mamy rok 2023, a po długim okresie niemal zerowych stóp procentowych zaczęły one rosnąć. Ta niedawna zmiana w krajobrazie finansowym będzie niewątpliwie decydującym testem dla tych firm, które kiedyś nazywano "zombie".
+#### 6. Szybko się wzbogacić!
 
-
-5. Szybkie wzbogacenie się!
-
-
-W historii zdarzały się momenty, w których jednostki starały się szybko wzbogacić, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś obserwujemy podobny trend wraz z pojawieniem się niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładnicze pomnożenie swoich inwestycji. Takie podejście może przypominać to, co obserwuje się w okresach hiperinflacji, gdzie arbitraż jest wykorzystywany do uzyskania szybkich zysków, często kosztem innych.
-
+W historii można zaobserwować momenty, gdy ludzie starali się szybko wzbogacić, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś obserwuje się podobną tendencję wraz z pojawieniem się niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładniczy wzrost swojej inwestycji. Takie podejście może przypominać to, które obserwowano w okresie hiperinflacji, gdy arbitraż był wykorzystywany do osiągania szybkich zysków, często kosztem innych.
 
 ![image](assets/fr/051.webp)
 
+#### 7. Oszczędności, lekarstwo na niepewność
 
-6. Oszczędności, lekarstwo na niepewność
+> Wszechobecny i niszczący wpływ stałej erozji wartości kapitału i dochodów oraz niepewności co do przyszłości.
 
+Warto podkreślić cytat, który wskazuje na destrukcyjny wpływ erozji wartości kapitału na spójność społeczną, a także na niepewność, jaką ona rodzi. Brzmi on: "wszechobecny i niszczący wpływ stałej erozji wartości kapitału i dochodów, a także niepewności co do przyszłości."
 
-> inwazyjny i destrukcyjny wpływ ciągłej erozji wartości kapitału i dochodu, a także niepewność co do przyszłości.
-> Warto zwrócić uwagę na cytat, który podkreśla destrukcyjny wpływ erozji wartości kapitału na spójność społeczną, a także niepewność, jaką ona generuje. Mówi on o "inwazyjnym i destrukcyjnym wpływie ciągłej erozji wartości kapitału i dochodów, a także niepewności co do przyszłości"
+Wyobraź sobie scenariusz, w którym masz rodzinę lub bliskich, których chcesz chronić. Ciężko pracujesz, oszczędzasz, aby przewidzieć przyszłe niepewności. Gdyby wszystko było przewidywalne, oszczędzanie byłoby bezużyteczne. Ale wobec niespodziewanego, jak awaria samochodu, oszczędności stają się kołem ratunkowym. Zmniejszają one niepewność świata. Jednak w okresie hiperinflacji oszczędzanie staje się wyzwaniem. Pieniądze szybko tracą na wartości, co utrudnia długoterminowe planowanie. Ta niestabilność finansowa może powodować stres i niepokój.
 
-Wyobraź sobie scenariusz, w którym masz rodzinę lub bliskich, których chcesz chronić. Pracujesz w Hard, oszczędzasz pieniądze, aby przewidzieć przyszłą niepewność. Gdyby wszystko było przewidywalne, oszczędzanie byłoby bezużyteczne. Ale w obliczu nieoczekiwanego, jak zepsuty samochód, oszczędności stają się kołem ratunkowym. Zmniejszają niepewność świata. Jednak w okresie hiperinflacji oszczędzanie staje się wyzwaniem. Pieniądze szybko tracą na wartości, co utrudnia długoterminowe planowanie. Ta niestabilność finansowa może powodować stres i niepokój.
+Dziś, wobec spadku siły oszczędzania, inwestycje przejmują rolę. Jednak podejście to wiąże się z własnym ryzykiem. Oszczędzanie zawsze było lekarstwem na niepewność. Posiadanie rezerw finansowych do radzenia sobie z nieprzewidzianymi sytuacjami przyczynia się do spokoju ducha i wzmacnia spójność społeczną. Podsumowując, ochrona naszej siły oszczędzania jest kluczowa dla utrzymania stabilności społecznej i indywidualnej.
 
-
-Dziś, w obliczu malejącej siły nabywczej, inwestycje przejmują kontrolę. Takie podejście wiąże się jednak z pewnym ryzykiem. Oszczędności zawsze były lekarstwem na niepewność. Posiadanie rezerw finansowych na wypadek nieprzewidzianych sytuacji przyczynia się do spokoju ducha i wzmacnia spójność społeczną. Podsumowując, ochrona naszej siły nabywczej jest niezbędna do utrzymania stabilności społecznej i indywidualnej.
 
 
 ## Redenominacje w Ameryce Łacińskiej

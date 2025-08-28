@@ -682,45 +682,50 @@ Lịch sử của Cộng hòa Weimar tiết lộ rằng trong giai đoạn này,
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Khoảng 300 tỷ đô la dự trữ của Nga được giữ ở nước ngoài thực sự đã bị đóng băng như là một phần trong các biện pháp trừng phạt của phương Tây, trong số 640 tỷ đô la dự trữ được Ngân hàng Trung ương Nga nắm giữ."
 
+
 #### 3. Khái niệm giá thị trường
-   Trong thời kỳ Cộng hoà Weimar, các nông dân đã thể hiện sự không hài lòng với "Umlage", thuế này yêu cầu họ phải nộp 2 triệu tấn lúa mì đầu tiên được sản xuất ra mỗi năm. Quy định này dẫn tới một nửa nguồn cung bánh mì trên thị trường được bán ra với giá trợ cấp. Từ tháng Tám trở đi, nông dân phải được trả theo giá thế giới, bởi vì mặc dù họ bị ép bán lúa mì theo giá thấp của nhà nước, họ vẫn phải mua phân theo giá thế giới.
 
-Tình trạng này gây ra một vấn đề tập trung liên quan đến khái niệm giá cả thị trường trong giai đoạn siêu lạm phát. Trong bối cảnh Weimar, những người nông dẫn bị ép buộc bán lúa mì của họ với giá thấp hơn giá trị thực, trong khi phải mua phân bón theo giá thế giới. Sự khác biệt kinh tế này cũng làm nổi bật vấn đề liên quan tới giá thực phẩm ngày nay. Các nhà sản xuất nông nghiệp, đối mặt với việc gia tăng chi phí đầu vào do lạm phát, phải chuyển những chi phí này vào giá sản phẩm cuối cùng. Chỉ trích việc họ tăng giá tức là đang bỏ qua động lực của giá thị trường và những áp lực kinh tế mà họ đang gặp phải. Bán với giá thấp nhân tạo trong khi phải chịu chi phí đầu vào cao không thể giúp bất kỳ doanh nghiệp nào hoạt động bền vững được cả.
+Trong thời Cộng hòa Weimar, nông dân bày tỏ sự bất mãn với “Umlage”, quy định buộc họ phải cung cấp hai triệu tấn lúa mì đầu tiên được sản xuất mỗi năm. Quy định này dẫn đến việc một nửa lượng cung cấp bánh mì được đưa ra thị trường với giá được trợ cấp. Bắt đầu từ tháng Tám, những nông dân này lẽ ra phải được trả theo giá thế giới, vì mặc dù họ buộc phải giao lúa mì với giá thấp, họ vẫn phải mua phân bón theo giá thế giới.
 
-> Weimar: "Ngành nông nghiệp không hài lòng với "Umlage", việc bị ép buộc phải giao 2 triệu tấn lúa mì đầu tiên được sản xuất ra mỗi năm, điều sẽ làm cho một nửa số bánh mì làm ra được bán với giá trợ cấp. Từ tháng Tám trở đi, những người nông dân phải được trả theo giá thế giới, bởi vì mặc dù họ bị ép buộc phải bán lúa mì theo giá trợ cấp, nhưng họ phải mua phân bón theo giá thế giới".
+Tình huống này nêu bật một vấn đề cốt lõi liên quan đến khái niệm giá thị trường trong thời kỳ siêu lạm phát. Trong bối cảnh nước Đức lúc bấy giờ, nông dân buộc phải bán lúa mì với giá thấp hơn giá trị của nó, trong khi vẫn phải mua phân bón theo chi phí toàn cầu. Sự mất cân đối kinh tế như vậy làm nổi bật những thách thức mà giá lương thực hiện nay đang đặt ra. Những nhà sản xuất nông nghiệp, khi đối mặt với sự gia tăng chi phí đầu vào do lạm phát, thường chuyển những chi phí này sang sản phẩm cuối cùng. Chỉ trích họ vì sự tăng giá này là bỏ qua động lực của giá thị trường và áp lực kinh tế mà họ đang phải chịu. Bán với giá nhân tạo thấp trong khi gánh chịu chi phí cao là điều không thể bền vững đối với bất kỳ doanh nghiệp nào.
 
-4. Sự phủ nhận mối liên hệ giữa cung tiền và lạm phát
-   > Weimar: "Ông ấy vẫn kiên định với quan điểm là cung tiền không liên quan tới mức giá hoặc tỷ giá hối đoái."
+> Weimar: “Các lợi ích nông nghiệp không hài lòng với ‘Umlage’, việc giao bắt buộc hai triệu tấn lúa mì đầu tiên được sản xuất mỗi năm, điều này cho phép bán một nửa tổng lượng cung cấp bánh mì với giá thấp. Kể từ tháng Tám, nông dân phải được trả theo giá thế giới vì, khi buộc phải bán lúa mì với giá rẻ, họ vẫn phải trả giá thế giới cho phân bón.”
 
-Trong thời hiện đại, xu hướng này vẫn tiếp tục, ví dụ như chương trước đã chỉ ra về các giải thích được các nhà kinh tế và các viện nghiên cứu đã đưa ra để diễn giải lạm phát. Họ đưa ra những lý do khác nhau, nhưng đều rất đâu đâu, từ các sự kiện văn hoá hoặc do người nổi tiếng như Taylor Swift, Zelda, hoặc Beyoncé, cho đến các yếu tố toàn cầu như chiến tranh, đại dịch. Mặc dù tất cả những yếu tố này có thể góp một phần nào đó vào biến động kinh tế ngăn hạng, nhưng chúng làm phân tán sự chú ý khỏi nguyên nhân thực sự, đó là sự mở rộng cung tiền.
+#### 4. Phủ nhận mối liên hệ giữa cung tiền và lạm phát
 
-5.  Các công ty thây ma
-    > Hiện đại: "Các doanh nghiệp zombie"
-    > Weimar: "Sự ổn định đã chấm dứt giai đoạn mà các doanh nhân có thể vay mượn bao nhiêu tùy thích trong khi không cần phải chịu trách nhiệm với bất kỳ ai khác. Một số lượng lớn công ty, được tạo ra hoặc phát triển trong thời kỳ dồi dào tiền tệ, nhanh chóng tê liệt không thể sản xuất khi vốn trở nên khan hiếm."
+> Weimar: “Ông ta kiên quyết giữ quan điểm rằng cung tiền không liên quan đến mức giá cũng như tỷ giá hối đoái.”
 
-Một công ty zombie là công ty mà, dưới điều kiện thị trường bình thường, sẽ không còn khả năng thanh toán hoặc gần như phá sản, nhưng vẫn co thẻ tiếp tục hoạt động chủ yếu thông qua việc vay vốn với chi phí thấp. Những công ty này kiếm đủ tiền để trang trải nợ nhưng không thể phát triển.
+Ngày nay, xu hướng này vẫn tiếp diễn, như ví dụ trong chương trước cho thấy danh sách các lời giải thích do nhiều nhà kinh tế và viện kinh tế đưa ra nhằm biện minh cho lạm phát.  
+Những lý do này thay đổi, từ các sự kiện văn hóa và người nổi tiếng như Taylor Swift, Zelda hay Beyoncé, đến những yếu tố toàn cầu như chiến tranh và đại dịch. Tất cả những lý do này, dù có thể góp phần vào các biến động kinh tế ngắn hạn, nhưng lại làm xao nhãng khỏi nguyên nhân thực sự nằm ở việc mở rộng cung tiền.
 
-Khái niệm về các công ty zombie không phải là mới. Thực tế, nó đã tồn tại trong Cộng hòa Weimar. Tại thời điểm đó, nhiều công ty dường như đang phát triển mạnh mẽ, hưởng lợi lớn từ đặc quyền tiếp cận với tín dụng miễn phí. Họ vay mượn một số tiền lớn, với triển vọng trả lại sau này bằng một đồng tiền mất giá do lạm phát. Tuy nhiên, khi lạm phát dừng lại và đồng mark Đức lấy lại giá trị, những công ty này, không có khả năng hoạt động và không khả thi về mặt tài chính, trở nên không có lợi nhuận và phải đóng cửa.
+#### 5. Các công ty “xác sống”
+
+> Weimar: “Sự ổn định đã chấm dứt giai đoạn mà các doanh nhân có thể vay bao nhiêu tùy thích, gây thiệt hại cho tất cả những người khác. Một số lượng lớn các công ty, được thành lập hoặc phát triển trong thời kỳ dư thừa tiền tệ, nhanh chóng trở nên không còn hiệu quả khi vốn trở nên khan hiếm.”
+
+Một công ty “xác sống” là một doanh nghiệp mà trong điều kiện thị trường bình thường sẽ mất khả năng thanh toán hoặc gần phá sản, nhưng vẫn tiếp tục hoạt động chủ yếu nhờ vào các khoản vay chi phí thấp. Các công ty này chỉ kiếm đủ tiền để trang trải nợ, nhưng không thể tăng trưởng đáng kể.
+
+Khái niệm công ty “xác sống” không phải là mới. Thực tế, nó đã tồn tại trong Cộng hòa Weimar. Vào thời điểm đó, nhiều công ty dường như đang phát triển thịnh vượng, hưởng lợi đáng kể từ việc tiếp cận tín dụng miễn phí. Họ vay những khoản lớn với kỳ vọng sẽ trả lại sau này bằng đồng tiền bị mất giá do lạm phát phi mã. Tuy nhiên, khi lạm phát chấm dứt và đồng mark Đức lấy lại giá trị, những công ty này, vốn không thực sự khả thi về mặt hoạt động và tài chính, trở nên không có lãi và buộc phải đóng cửa.
 
 ![image](assets/fr/050.webp)
 
-Hiện tượng của các công ty zombie không chỉ giới hạn trong lịch sử hậu chiến của Đức. Ngay cả ngày nay, nhiều công ty lớn vẫn tồn tại nhờ đặc quyền được truy cập vào nguồn tín dụng với lãi suất rất thấp. Nếu phải vay với lãi suất thông thường, nhiều trong số họ sẽ không còn lợi nhuận. Điều này đặc biệt đúng vào năm 2023, và sau một thời gian dài của lãi suất gần như bằng không, giờ đây, chúng đã bắt đầu tăng. Diễn biến của bối cảnh thị trường tài chính trong thời gian này chính là bài test để xác định xem công ty nào được gọi là "zombie".
+Hiện tượng các công ty “xác sống” không chỉ giới hạn trong lịch sử nước Đức sau chiến tranh. Ngày nay, nhiều công ty lớn vẫn tồn tại nhờ được tiếp cận đặc quyền với các khoản tín dụng lãi suất rất thấp. Nếu họ buộc phải vay với lãi suất thông thường hơn, nhiều công ty trong số đó sẽ không còn lợi nhuận. Điều này đặc biệt liên quan trong năm 2023, sau một thời gian dài lãi suất gần bằng 0, chúng đã bắt đầu tăng. Sự thay đổi gần đây trong bối cảnh tài chính chắc chắn sẽ là một thử thách quyết định đối với những công ty từng được gọi là “xác sống” này.
 
-6. Làm giàu nhanh chóng!
+#### 6. Làm giàu nhanh chóng!
 
-Trong lịch sử, đã có những thời điểm mà cá nhân tìm cách làm giàu nhanh chóng thông qua việc đầu cơ chênh lệch giá, như đã xảy ra ở Weimar và Zimbabwe. Ngày nay, chúng ta thấy một xu hướng tương tự với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi lợi nhuận nhanh chóng, chấp nhận rủi ro với hy vọng nhân lên nhiều lần khoản đầu tư của mình một cách nhanh chóng. Cách tiếp cận này có thể gợi nhớ lại những gì được quan sát trong các giai đoạn của siêu lạm phát, nơi đầu cơ được sử dụng để thu được lợi nhuận nhanh chóng, và đó thường là cái giá mà người khác phải trả.
+Trong lịch sử, có thể thấy những thời điểm khi con người tìm cách làm giàu nhanh chóng, như ở Weimar và Zimbabwe thông qua hoạt động kinh doanh chênh lệch giá. Ngày nay, một xu hướng tương tự được ghi nhận với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi những khoản lợi nhuận nhanh, chấp nhận rủi ro với hy vọng đầu tư của họ sẽ nhân lên nhiều lần. Cách tiếp cận này gợi nhớ đến những gì được thấy trong thời kỳ siêu lạm phát, khi việc kinh doanh chênh lệch giá được sử dụng để đạt được lợi nhuận nhanh, thường gây thiệt hại cho người khác.
 
 ![image](assets/fr/051.webp)
 
-7. Tiết kiệm, phương thuốc chống lại sự không chắc chắn trong tương lai
+#### 7. Tiết kiệm — phương thuốc chống lại sự bất định
 
-Thật thú vị khi nhấn mạnh một trích dẫn nhấn mạnh tác động phá hủy của việc giảm giá trị đồng vốn đối với sự gắn kết xã hội, cũng như sự không chắc chắn mà nó tạo ra. Nó nói:
+> Ảnh hưởng lan tỏa và mang tính hủy diệt của sự xói mòn liên tục giá trị của vốn và thu nhập cũng như sự bất định về tương lai.
 
-> "ảnh hưởng xâm lấn và phá hủy của việc giảm giá trị liên tục của đồng vốn và thu nhập, cũng như sự không chắc chắn về tương lai."
+Thật thú vị khi nhấn mạnh một câu trích dẫn nêu bật tác động hủy diệt của sự xói mòn giá trị vốn đối với sự gắn kết xã hội, cũng như sự bất định mà nó gây ra. Câu nói này như sau: “ảnh hưởng lan tỏa và mang tính hủy diệt của sự xói mòn liên tục giá trị của vốn và thu nhập, cũng như sự bất định về tương lai.”
 
-Hãy tưởng tượng một kịch bản bạn có gia đình hoặc người thân mà bạn muốn bảo vệ. Bạn làm việc chăm chỉ, tiết kiệm tiền, để dự phòng cho những điều không chắc chắn trong tương lai. Nếu mọi thứ đều có thể dự đoán, chúng ta sẽ không cần tiết kiệm, vì nó vô ích. Nhưng trước những điều bất ngờ, như một chiếc xe bị hỏng, tiết kiệm trở thành phao cứu sinh. Nó giảm bớt sự không chắc chắn trong cuộc sống. Tuy nhiên, trong một thời kỳ siêu lạm phát, việc tiết kiệm trở thành một thách thức. Tiền nhanh chóng mất giá, làm cho việc lập kế hoạch dài hạn trở nên khó khăn. Sự bất ổn tài chính này có thể gây ra sự căng thẳng và lo lắng.
+Hãy tưởng tượng một tình huống bạn có gia đình hoặc người thân mà bạn muốn bảo vệ. Bạn làm việc chăm chỉ, tiết kiệm để chuẩn bị cho những bất định trong tương lai. Nếu mọi thứ đều có thể dự đoán được, việc tiết kiệm sẽ trở nên vô nghĩa. Nhưng trước những điều bất ngờ — như một chiếc xe bị hỏng — tiết kiệm trở thành một phao cứu sinh. Nó làm giảm sự bất định của thế giới. Tuy nhiên, trong thời kỳ siêu lạm phát, việc tiết kiệm trở nên vô cùng khó khăn. Tiền mất giá nhanh chóng, khiến việc lập kế hoạch dài hạn trở nên khó khăn. Sự bất ổn tài chính này có thể gây ra căng thẳng và lo lắng.
 
-Ngày nay, đối mặt với suy suy giảm giảm sức mua, đầu tư lên ngôi. Tuy nhiên, cách tiếp cận này đi kèm với những rủi ro riêng của nó. Tiết kiệm luôn là phương thuốc chống lại sự không chắc chắn. Có dự trữ tài chính để xử lý các tình huống không lường trước được góp phần vào sự yên tâm và tăng cường sự gắn kết xã hội. Tóm lại, việc bảo vệ sức mua của chúng ta là cần thiết để duy trì sự ổn định của xã hội và mỗi cá nhân.
+Ngày nay, trước sự suy giảm sức mạnh tiết kiệm, đầu tư đang thay thế. Tuy nhiên, cách tiếp cận này cũng có những rủi ro riêng. Tiết kiệm luôn là phương thuốc chống lại sự bất định. Có dự trữ tài chính để xử lý các tình huống bất ngờ giúp mang lại sự an tâm và củng cố sự gắn kết xã hội. Kết luận lại, bảo vệ khả năng tiết kiệm của chúng ta là điều cần thiết để duy trì sự ổn định xã hội và cá nhân.
+
 
 ## Đổi tiền ở Mỹ Latinh
 

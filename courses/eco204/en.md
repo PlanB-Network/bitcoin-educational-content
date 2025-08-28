@@ -702,33 +702,48 @@ The history of the Weimar Republic reveals that during this period, assets and c
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Approximately $300 billion of Russian reserves held abroad have indeed been frozen as part of Western sanctions, out of the $640 billion in reserves held by the Russian Central Bank."
 
-#### 3. The notion of market price
-   > Weimar : "Les entreprises zombies"
+#### 3. The Notion of Market Price
 
-> Contemporary: "Les entreprises zombies"
-> Weimar: "Stabilization put an end to the period when entrepreneurs could borrow as much as they wanted at the expense of everyone else. A large number of companies, created or developed during the monetary abundance, quickly became unproductive when capital became scarce."
-> A zombie company is a company that, under normal market conditions, would be insolvent or close to bankruptcy, but continues to operate mainly through low-cost borrowing. These companies earn just enough money to cover their debts but are unable to grow significantly.
+During the Weimar Republic, farmers expressed their dissatisfaction with the "Umlage," which forced them to deliver the first two million tons of wheat produced each year. This regulation resulted in half of the total bread supply being placed on the market at subsidized prices. From August onward, these farmers were supposed to be paid the world market price, because although they were forced to surrender their wheat at reduced prices, they still had to purchase fertilizers at world market rates.
 
-The concept of zombie companies is not new. In fact, it was present in the Weimar Republic. At that time, many companies appeared to be flourishing, benefiting greatly from access to free credit. They borrowed considerable sums, with the prospect of repaying later with a depreciated currency due to rampant inflation. However, when inflation stopped and the German mark regained value, these companies, which were not truly viable in operational and financial terms, became unprofitable and had to close their doors.
+This situation raises a central issue related to the notion of market price during hyperinflation. In the German context of the time, farmers were compelled to sell their wheat below its value, while having to procure fertilizers at world market costs. Such an economic discrepancy highlights the challenges posed by food prices today. Agricultural producers, faced with rising input costs due to inflation, pass these costs on to final products. Criticizing them for this increase amounts to ignoring the dynamics of market pricing and the economic pressures they face. Selling at artificially low prices while incurring high costs is unsustainable for any business.
+
+> Weimar: "Agricultural interests were dissatisfied with the 'Umlage,' the forced delivery of the first two million tons of wheat produced each year, which allowed half of the total bread supply to be sold at low prices. From August, farmers were to be paid the world market price because, while they were obliged to sell wheat at low prices, they always had to pay the world market price for fertilizers."
+
+#### 4. Denial of the Link Between Money Supply and Inflation
+
+> Weimar: "He remained firmly attached to his view that the money supply was related neither to price levels nor to exchange rates;"
+
+In modern times, this trend persists, as seen in the previous chapter's example of a list of explanations put forward by various economists and economic institutes to justify inflation. These reasons vary, ranging from cultural events and celebrities such as Taylor Swift, Zelda, or Beyoncé, to global factors like war and the pandemic. All these reasons, though potentially contributing to short-term economic fluctuations, divert attention from the real underlying cause, namely the expansion of the money supply.
+
+#### 5. Zombie Companies
+
+> Weimar: "Stabilization had ended the period when entrepreneurs could borrow as much as they wanted at the expense of everyone else. A very large number of companies, created or expanded during monetary abundance, quickly became unproductive once capital became scarce."
+
+A zombie company is a business that, under normal market conditions, would be insolvent or near bankruptcy, but continues to operate mainly thanks to low-cost borrowing. These firms earn just enough to cover their debts but are unable to grow significantly.
+
+The notion of zombie companies is not new. In fact, it existed during the Weimar Republic. At that time, many companies appeared to be flourishing, largely benefiting from access to free credit. They borrowed substantial sums with the expectation of repaying later with a depreciated currency due to rampant inflation. However, when inflation ceased and the German mark regained value, these companies, which were not truly viable operationally or financially, became unprofitable and had to shut down.
 
 ![image](assets/fr/050.webp)
 
-The phenomenon of zombie companies is not limited to the post-war history of Germany. Even today, many large companies survive thanks to privileged access to very low-interest credit. If they had to borrow at more conventional rates, many of them would cease to be profitable. This is particularly relevant as we are in 2023, and after a long period of near-zero interest rates, they have started to rise. This recent development in the financial landscape will undoubtedly be a decisive test for these companies that were once called "zombies".
+The phenomenon of zombie companies is not limited to postwar Germany. Even today, many large corporations survive thanks to privileged access to credit at very low interest rates. If they had to borrow at more conventional rates, many of them would cease to be profitable. This is particularly relevant in 2023, after a long period of near-zero interest rates, as these have now begun to rise. This recent shift in the financial landscape will no doubt be a decisive test for these companies once labeled "zombies."
 
-5. Get rich quick!
+#### 6. Get Rich Quick!
 
-Throughout history, there have been moments when individuals seek to get rich quickly, as was the case in Weimar and Zimbabwe through arbitrage. Today, we see a similar trend with the emergence of certain cryptocurrencies. People are tempted by quick gains, taking risks in the hope of exponential multiplication of their investment. This approach can be reminiscent of what is observed during periods of hyperinflation, where arbitrage is used to obtain quick gains, often at the expense of others.
+History shows moments when individuals sought to get rich quickly, as was the case in Weimar and Zimbabwe through arbitrage. Today, a similar trend can be observed with the rise of certain cryptocurrencies. People are tempted by quick gains, taking risks in hopes of an exponential increase in their investment. This approach recalls that seen during periods of hyperinflation, where arbitrage was used to obtain quick profits, often at the expense of others.
 
 ![image](assets/fr/051.webp)
 
-6. Savings, the remedy against uncertainty
+#### 7. Savings, the Remedy Against Uncertainty
 
-> the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future.
-> It is interesting to highlight a quote that emphasizes the destructive effect of the erosion of the value of capital on social cohesion, as well as the uncertainty it generates. It says: "the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
+> The pervasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future.
 
-Imagine a scenario where you have a family or loved ones that you want to protect. You work hard, save money, to anticipate future uncertainties. If everything was predictable, saving would be useless. But in the face of the unexpected, like a broken-down car, savings become a lifeline. It reduces the uncertainty of the world. However, in a period of hyperinflation, saving becomes a challenge. Money quickly loses its value, making long-term planning difficult. This financial instability can cause stress and anxiety.
+It is worth highlighting a quotation that underscores the destructive effect of the erosion of capital value on social cohesion, as well as the uncertainty it generates. It states: "the pervasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
 
-Today, in the face of declining purchasing power, investment takes over. However, this approach comes with its own risks. Savings have always been a remedy against uncertainty. Having financial reserves to manage unforeseen situations contributes to peace of mind and strengthens social cohesion. In conclusion, protecting our purchasing power is essential to maintain social and individual stability.
+Imagine a scenario where you have a family or loved ones you wish to protect. You work hard and save to anticipate future uncertainties. If everything were predictable, saving would be useless. But in the face of the unforeseen, such as a broken-down car, savings become a lifeline. They reduce the uncertainty of the world. However, during hyperinflation, saving becomes a challenge. Money quickly loses its value, making long-term planning difficult. This financial instability can generate stress and anxiety.
+
+Today, with declining saving power, investment has taken its place. However, this approach carries its own risks. Saving has always been a remedy against uncertainty. Having financial reserves to handle unforeseen situations contributes to peace of mind and strengthens social cohesion. In conclusion, protecting our saving power is essential to maintaining both social and individual stability.
+
 
 ## Redenominations in Latin America
 

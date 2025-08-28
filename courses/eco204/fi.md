@@ -664,31 +664,50 @@ Weimarin tasavallan historiasta paljastuu, että tänä aikana ulkomailla pidett
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Noin 300 miljardia dollaria Venäjän ulkomailla pidetyistä varoista on todellakin jäädytetty osana länsimaiden pakotteita, 640 miljardista dollarista, jotka Venäjän keskuspankki piti varoina."
 
+
 #### 3. Markkinahinnan käsite
-   > Weimar: "Zombiyritykset"
 
-> Nykyaika: "Zombiyritykset"
-> Weimar: "Vakauttaminen lopetti ajanjakson, jolloin yrittäjät saattoivat lainata niin paljon kuin halusivat muiden kustannuksella. Suuri määrä yrityksiä, jotka luotiin tai kehitettiin rahan runsauden aikana, muuttui nopeasti tuottamattomiksi, kun pääoma muuttui niukaksi."
-> Zombiyritys on yritys, joka normaaleissa markkinaolosuhteissa olisi maksukyvytön tai lähellä konkurssia, mutta jatkaa toimintaansa pääasiassa matalakorkoisen lainan avulla. Nämä yritykset ansaitsevat juuri tarpeeksi rahaa kattaakseen velkansa, mutta eivät kykene kasvamaan merkittävästi.
+Weimarin tasavallan aikana maanviljelijät ilmaisivat tyytymättömyytensä "Umlagea" kohtaan, joka velvoitti heidät toimittamaan ensimmäiset kaksi miljoonaa tonnia vuosittain tuotettua vehnää. Tämän sääntelyn seurauksena puolet koko leipätoimituksesta tuli markkinoille tuetuin hinnoin. Elokuusta alkaen näiden maanviljelijöiden piti saada korvaus maailmanmarkkinahinnan mukaan, sillä vaikka heidät pakotettiin luovuttamaan vehnänsä alennetuin hinnoin, heidän täytyi hankkia lannoitteita maailmanmarkkinahintaan.
 
-Zombiyritysten käsite ei ole uusi. Itse asiassa se oli läsnä jo Weimarin tasavallassa. Tuolloin monet yritykset vaikuttivat kukoistavan, hyötyen suuresti vapaasta luotosta. Ne lainasivat huomattavia summia sillä näkymällä, että ne maksaisivat myöhemmin takaisin arvottomammalla valuutalla kiihtyvän inflaation vuoksi. Kuitenkin, kun inflaatio pysähtyi ja Saksan markka sai arvoaan takaisin, nämä yritykset, jotka eivät todellisuudessa olleet elinkelpoisia toiminnallisesti ja taloudellisesti, muuttuivat kannattamattomiksi ja joutuivat sulkemaan ovensa.
+Tämä tilanne nostaa esiin keskeisen ongelman, joka liittyy markkinahinnan käsitteeseen hyperinflaation aikana. Saksan tuolloisessa kontekstissa maanviljelijät joutuivat myymään vehnänsä sen todellista arvoa alhaisempaan hintaan, samalla kun heidän oli hankittava lannoitteita maailmanmarkkinakustannuksin. Tällainen taloudellinen ristiriita korostaa nykypäivän elintarvikkeiden hintojen haasteita. Maataloustuottajat, jotka kohtaavat panoshintojen nousun inflaation seurauksena, siirtävät nämä kustannukset lopputuotteisiin. Heitä kritisoida tästä hinnannoususta tarkoittaa markkinahinnan dynamiikan ja heidän kohtaamansa taloudellisen paineen sivuuttamista. Keinotekoisesti alhaisilla hinnoilla myyminen samalla kun kärsitään korkeista kustannuksista, on kestämätöntä mille tahansa yritykselle.
 
-![kuva](assets/fr/050.webp)
+> Weimar: "Maatalouden edustajat olivat tyytymättömiä 'Umlageen', ensimmäisten kahden miljoonan tonnin vuosittaisen vehnän pakolliseen toimittamiseen, mikä mahdollisti puolet koko leipätoimituksesta myytävän halvalla. Elokuusta alkaen maanviljelijöille piti maksaa maailmanmarkkinahinta, koska vaikka heidät pakotettiin myymään vehnää halvalla, heidän täytyi silti aina maksaa maailmanmarkkinahinta lannoitteista."
 
-Zombiyritysten ilmiö ei rajoitu vain Saksan jälkisodan historiaan. Jopa tänä päivänä monet suuret yritykset selviävät kiitos etuoikeutetun pääsyn erittäin matalakorkoiseen luottoon. Jos niiden pitäisi lainata tavallisemmilla koroilla, monet niistä lakkaisivat olemasta kannattavia. Tämä on erityisen relevanttia, koska olemme vuodessa 2023, ja pitkän lähes nollakorkojen kauden jälkeen, korot ovat alkaneet nousta. Tämä äskettäinen kehitys rahoitusmaisemassa on epäilemättä ratkaiseva testi näille yrityksille, joita kerran kutsuttiin "zombeiksi".
+#### 4. Rahamäärän ja inflaation välisen yhteyden kieltäminen
 
-5. Rikastu nopeasti!
-   Historian saatossa on ollut hetkiä, jolloin yksilöt ovat pyrkineet rikastumaan nopeasti, kuten tapahtui Weimarissa ja Zimbabwessa arbitraasin kautta. Nykyään näemme samankaltaisen trendin tiettyjen kryptovaluuttojen esiinmarssissa. Ihmisiä houkuttelevat nopeat voitot, ottaen riskejä toivoen sijoituksensa eksponentiaalista moninkertaistumista. Tämä lähestymistapa voi muistuttaa sitä, mitä havaitaan hyperinflaation aikoina, jolloin arbitraasia käytetään nopeiden voittojen saamiseen, usein muiden kustannuksella.
-   ![kuva](assets/fr/051.webp)
+> Weimar: «Hän pysyi lujasti näkemyksessään, jonka mukaan rahatarjonta ei ollut yhteydessä sen paremmin hintatasoon kuin valuuttakursseihin;»
 
-6. Säästäminen, lääke epävarmuutta vastaan
+Nykypäivänä tämä suuntaus jatkuu, kuten edellisessä luvussa esitetty esimerkki osoittaa, jossa erilaiset taloustieteilijät ja talousinstituutit esittivät selityksiä inflaation perustelemiseksi. Nämä syyt vaihtelevat kulttuuritapahtumista ja kuuluisuuksista, kuten Taylor Swift, Zelda tai Beyoncé, aina globaaleihin tekijöihin, kuten sotaan ja pandemiaan. Kaikki nämä syyt, vaikka ne voivatkin lyhyellä aikavälillä vaikuttaa taloudellisiin vaihteluihin, vievät huomion pois todellisesta perimmäisestä syystä: rahamäärän kasvusta.
 
-> jatkuva pääoman ja tulon arvon heikkenemisen sekä tulevaisuuden epävarmuuden invasiivinen ja tuhoisa vaikutus.
-> On mielenkiintoista tuoda esiin lainaus, joka korostaa pääoman arvon heikkenemisen tuhoisaa vaikutusta sosiaaliseen yhteenkuuluvuuteen sekä sen aiheuttamaa epävarmuutta. Siinä sanotaan: "jatkuva pääoman ja tulon arvon heikkenemisen sekä tulevaisuuden epävarmuuden invasiivinen ja tuhoisa vaikutus."
+#### 5. Zombiyritykset
 
-Kuvittele skenaario, jossa sinulla on perhe tai läheisiä, joita haluat suojella. Teet kovasti töitä, säästät rahaa, ennakoimaan tulevaisuuden epävarmuuksia. Jos kaikki olisi ennustettavissa, säästäminen olisi hyödytöntä. Mutta odottamattomien tapahtumien, kuten rikkoutuneen auton, edessä säästöt muodostuvat pelastusrenkaaksi. Se vähentää maailman epävarmuutta. Kuitenkin hyperinflaation aikana säästäminen muuttuu haasteeksi. Rahalla menettää nopeasti arvonsa, mikä tekee pitkän aikavälin suunnittelusta vaikeaa. Tämä taloudellinen epävakaus voi aiheuttaa stressiä ja ahdistusta.
+> Weimar: "Vakaannuttaminen oli päättänyt ajanjakson, jolloin yrittäjät saattoivat lainata niin paljon kuin halusivat kaikkien muiden kustannuksella. Hyvin suuri määrä yrityksiä, jotka oli perustettu tai laajennettu rahallisen runsauden aikana, muuttui nopeasti tuottamattomiksi, kun pääomasta tuli niukkaa."
 
-Nykyään, ostovoiman heikentyessä, sijoittaminen ottaa vallan. Tämä lähestymistapa sisältää kuitenkin omat riskinsä. Säästäminen on aina ollut lääke epävarmuutta vastaan. Taloudellisten varantojen olemassaolo odottamattomien tilanteiden hallitsemiseksi edistää mielenrauhaa ja vahvistaa sosiaalista yhteenkuuluvuutta. Yhteenvetona voidaan todeta, että ostovoimamme suojeleminen on olennaista ylläpitääksemme sosiaalista ja yksilöllistä vakautta.
+Zombiyritys on yritys, joka normaalien markkinaolosuhteiden vallitessa olisi maksukyvytön tai lähellä konkurssia, mutta joka jatkaa toimintaansa pääasiassa edullisten lainojen ansiosta. Nämä yritykset ansaitsevat juuri tarpeeksi kattaakseen velkansa, mutta eivät kykene kasvamaan merkittävästi.
+
+Zombiyrityksen käsite ei ole uusi. Se oli olemassa jo Weimarin tasavallassa. Tuolloin monet yritykset näyttivät menestyviltä, sillä ne hyödynsivät laajasti ilmaisen luoton saatavuutta. Ne lainasivat huomattavia summia aikomuksenaan maksaa takaisin myöhemmin, kun hyperinflaation vuoksi arvonsa menettänyttä valuuttaa käytettäisiin. Kuitenkin, kun inflaatio lakkasi ja Saksan markka vahvistui, nämä yritykset, jotka eivät todellisuudessa olleet toiminnallisesti tai taloudellisesti elinkelpoisia, muuttuivat tappiollisiksi ja joutuivat sulkemaan ovensa.
+
+![image](assets/fr/050.webp)
+
+Zombiyritysten ilmiö ei rajoitu vain sodanjälkeiseen Saksaan. Vielä nykyäänkin monet suuret yritykset selviytyvät erityisen edullisten, erittäin alhaisten korkojen lainojen ansiosta. Jos niiden pitäisi lainata tavanomaisemmilla koroilla, monet niistä menettäisivät kannattavuutensa. Tämä on erityisen merkityksellistä vuonna 2023, sillä pitkän lähes nollakorkojen kauden jälkeen korot ovat alkaneet nousta. Tämä viimeaikainen muutos rahoitusympäristössä on epäilemättä ratkaiseva koetus näille yrityksille, joita aiemmin kutsuttiin "zombeiksi".
+
+#### 6. Rikastu nopeasti!
+
+Historiassa on nähtävissä hetkiä, jolloin yksilöt pyrkivät rikastumaan nopeasti, kuten tapahtui Weimarissa ja Zimbabwessa arbitraasin kautta. Nykyään havaitaan samanlainen suuntaus tiettyjen kryptovaluuttojen nousun myötä. Ihmiset houkuttelevat nopeat voitot, he ottavat riskejä toivoen sijoituksensa eksponentiaalista kasvua. Tämä lähestymistapa muistuttaa hyperinflaation aikoja, jolloin arbitraasia käytettiin nopeiden voittojen saavuttamiseen, usein muiden kustannuksella.
+
+![image](assets/fr/051.webp)
+
+#### 7. Säästäminen, lääke epävarmuutta vastaan
+
+> Pääoman ja tulojen arvon jatkuvan kulumisen kaikkialle ulottuva ja tuhoava vaikutus sekä epävarmuus tulevaisuudesta.
+
+On mielenkiintoista tuoda esiin lainaus, joka korostaa pääoman arvon kulumisen tuhoavaa vaikutusta sosiaaliseen yhtenäisyyteen sekä epävarmuutta, jota se aiheuttaa. Siinä sanotaan: "pääoman ja tulojen arvon jatkuvan kulumisen kaikkialle ulottuva ja tuhoava vaikutus sekä epävarmuus tulevaisuudesta."
+
+Kuvittele tilanne, jossa sinulla on perhe tai läheisiä, joita haluat suojella. Teet kovasti töitä, säästät ennakoidaksesi tulevia epävarmuuksia. Jos kaikki olisi ennustettavissa, säästäminen olisi turhaa. Mutta odottamattoman edessä, kuten auton rikkoutuessa, säästäminen muuttuu pelastusrenkaaksi. Se vähentää maailman epävarmuutta. Kuitenkin hyperinflaation aikana säästäminen on haaste. Raha menettää nopeasti arvonsa, mikä tekee pitkäaikaisesta suunnittelusta vaikeaa. Tämä taloudellinen epävakaus voi aiheuttaa stressiä ja ahdistusta.
+
+Nykyään, säästövoiman laskiessa, sijoittaminen astuu sen tilalle. Tämä lähestymistapa sisältää kuitenkin omat riskinsä. Säästäminen on aina ollut lääke epävarmuutta vastaan. Taloudellisten varojen pitäminen odottamattomien tilanteiden hallitsemiseksi auttaa mielenrauhan saavuttamisessa ja vahvistaa sosiaalista yhteenkuuluvuutta. Yhteenvetona voidaan todeta, että säästövoimamme suojaaminen on olennaista sosiaalisen ja yksilöllisen vakauden ylläpitämiseksi.
+
+
 
 ## Uudelleennimetys Latinalaisessa Amerikassa
 

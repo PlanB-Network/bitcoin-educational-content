@@ -670,31 +670,50 @@ Sejarah Republik Weimar mengungkapkan bahwa selama periode ini, aset dan modal y
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Sekitar $300 miliar cadangan Rusia yang dipegang di luar negeri memang telah dibekukan sebagai bagian dari sanksi Barat, dari $640 miliar cadangan yang dipegang oleh Bank Sentral Rusia."
 
+
 #### 3. Konsep harga pasar
-   > Weimar : "Perusahaan zombie"
 
-> Kontemporer: "Perusahaan zombie"
-> Weimar: "Stabilisasi mengakhiri periode ketika pengusaha bisa meminjam sebanyak yang mereka inginkan dengan mengorbankan orang lain. Sejumlah besar perusahaan, yang dibuat atau dikembangkan selama kelimpahan moneter, dengan cepat menjadi tidak produktif ketika modal menjadi langka."
-> Perusahaan zombie adalah perusahaan yang, dalam kondisi pasar normal, akan bangkrut atau hampir bangkrut, tetapi terus beroperasi terutama melalui pinjaman berbiaya rendah. Perusahaan-perusahaan ini hanya mendapatkan cukup uang untuk menutupi utang mereka tetapi tidak mampu tumbuh secara signifikan.
+Selama Republik Weimar, para petani mengungkapkan ketidakpuasan mereka terhadap "Umlage", yang mewajibkan mereka untuk menyerahkan dua juta ton pertama gandum yang diproduksi setiap tahun. Peraturan ini mengakibatkan setengah dari total pasokan roti dipasarkan dengan harga bersubsidi. Mulai bulan Agustus, para petani ini seharusnya dibayar dengan harga dunia, karena meskipun mereka dipaksa menyerahkan gandum mereka dengan harga rendah, mereka tetap harus membeli pupuk dengan tarif dunia.
 
-Konsep perusahaan zombie bukanlah hal baru. Faktanya, hal ini sudah ada di Republik Weimar. Pada waktu itu, banyak perusahaan tampak berkembang, sangat diuntungkan dari akses ke kredit gratis. Mereka meminjam jumlah yang besar, dengan prospek membayar kembali nanti dengan mata uang yang terdepresiasi karena inflasi yang merajalela. Namun, ketika inflasi berhenti dan mark Jerman kembali mendapatkan nilai, perusahaan-perusahaan ini, yang sebenarnya tidak layak secara operasional dan finansial, menjadi tidak menguntungkan dan harus menutup pintu mereka.
+Situasi ini menimbulkan masalah sentral terkait dengan konsep harga pasar selama hiperinflasi. Dalam konteks Jerman pada masa itu, para petani terpaksa menjual gandum mereka dengan harga di bawah nilainya, sementara mereka harus membeli pupuk dengan biaya global. Ketidaksesuaian ekonomi semacam ini menyoroti tantangan yang dihadapi oleh harga bahan makanan saat ini. Produsen pertanian, yang menghadapi kenaikan biaya input akibat inflasi, membebankan biaya ini pada produk akhir. Mengkritik mereka atas kenaikan ini berarti mengabaikan dinamika harga pasar dan tekanan ekonomi yang mereka hadapi. Menjual dengan harga yang secara artifisial rendah sambil menanggung biaya tinggi tidak dapat dipertahankan bagi perusahaan mana pun.
+
+> Weimar: "Kepentingan pertanian tidak puas dengan 'Umlage', penyerahan wajib dua juta ton pertama gandum yang diproduksi setiap tahun, yang memungkinkan setengah dari total pasokan roti dijual dengan harga murah. Mulai Agustus, para petani harus dibayar dengan harga dunia karena, ketika mereka dipaksa menjual gandum dengan harga murah, mereka tetap harus membayar harga dunia untuk pupuk."
+
+#### 4. Penyangkalan hubungan antara jumlah uang beredar dan inflasi
+
+> Weimar: «Ia tetap teguh pada pandangannya bahwa jumlah uang beredar tidak terkait dengan tingkat harga maupun nilai tukar;»
+
+Di masa kontemporer, kecenderungan ini masih berlanjut, seperti yang ditunjukkan dalam contoh pada bab sebelumnya berupa daftar penjelasan yang diajukan oleh berbagai ekonom dan lembaga ekonomi untuk membenarkan inflasi. Alasan-alasan ini bervariasi, mulai dari peristiwa budaya dan selebriti seperti Taylor Swift, Zelda atau Beyoncé, hingga faktor global seperti perang dan pandemi. Semua alasan ini, meskipun mungkin berkontribusi terhadap fluktuasi ekonomi jangka pendek, mengalihkan perhatian dari penyebab utama yang sebenarnya, yaitu ekspansi jumlah uang beredar.
+
+#### 5. Perusahaan zombie
+
+> Weimar: "Stabilisasi telah mengakhiri periode di mana para pengusaha dapat meminjam sebanyak yang mereka inginkan dengan mengorbankan orang lain. Sejumlah besar perusahaan, yang didirikan atau berkembang selama masa kelimpahan moneter, dengan cepat menjadi tidak produktif ketika modal menjadi langka."
+
+Perusahaan zombie adalah perusahaan yang, dalam kondisi pasar normal, akan bangkrut atau hampir bangkrut, tetapi tetap beroperasi terutama berkat pinjaman berbiaya rendah. Perusahaan-perusahaan ini menghasilkan cukup banyak uang untuk menutupi utangnya, tetapi tidak mampu tumbuh secara signifikan.
+
+Konsep perusahaan zombie bukanlah hal baru. Faktanya, konsep ini sudah ada di Republik Weimar. Pada masa itu, banyak perusahaan tampak makmur, sangat diuntungkan oleh akses terhadap kredit gratis. Mereka meminjam sejumlah besar uang dengan harapan dapat membayarnya kembali kemudian dengan mata uang yang terdepresiasi akibat inflasi yang meroket. Namun, ketika inflasi berhenti dan mark Jerman kembali bernilai, perusahaan-perusahaan ini, yang sebenarnya tidak benar-benar layak secara operasional maupun finansial, menjadi tidak menguntungkan dan terpaksa tutup.
 
 ![image](assets/fr/050.webp)
 
-Fenomena perusahaan zombie tidak terbatas pada sejarah pasca-perang Jerman. Bahkan hari ini, banyak perusahaan besar bertahan berkat akses istimewa ke kredit bunga sangat rendah. Jika mereka harus meminjam dengan suku bunga yang lebih konvensional, banyak di antara mereka yang akan berhenti menguntungkan. Ini sangat relevan karena kita berada di tahun 2023, dan setelah periode panjang suku bunga hampir nol, mereka telah mulai naik. Perkembangan terbaru dalam lanskap keuangan ini pasti akan menjadi ujian yang menentukan bagi perusahaan-perusahaan yang pernah disebut "zombie".
+Fenomena perusahaan zombie tidak terbatas pada sejarah Jerman pascaperang. Bahkan hingga kini, banyak perusahaan besar masih bertahan berkat akses istimewa terhadap pinjaman dengan suku bunga sangat rendah. Jika mereka harus meminjam dengan suku bunga yang lebih konvensional, banyak di antaranya akan berhenti menjadi menguntungkan. Hal ini semakin relevan pada tahun 2023, ketika setelah periode panjang suku bunga mendekati nol, tingkat suku bunga mulai meningkat. Perubahan terbaru dalam lanskap keuangan ini tidak diragukan lagi akan menjadi ujian penting bagi perusahaan-perusahaan yang sebelumnya dijuluki "zombie".
 
-5. Cepat kaya!
-   Sepanjang sejarah, telah ada momen ketika individu berusaha untuk cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, kita melihat tren serupa dengan munculnya beberapa cryptocurrency. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan penggandaan eksponensial investasi mereka. Pendekatan ini dapat mengingatkan kita pada apa yang diamati selama periode hiperinflasi, di mana arbitrase digunakan untuk memperoleh keuntungan cepat, seringkali dengan mengorbankan orang lain.
-   ![image](assets/fr/051.webp)
+#### 6. Kaya dengan cepat!
 
-6. Tabungan, Obat terhadap Ketidakpastian
+Dalam sejarah, terdapat momen ketika individu berusaha cepat kaya, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, tren serupa terlihat dengan munculnya beberapa mata uang kripto. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan investasi mereka meningkat secara eksponensial. Pendekatan ini mengingatkan pada periode hiperinflasi, ketika arbitrase digunakan untuk memperoleh keuntungan cepat, sering kali dengan mengorbankan orang lain.
 
-> pengaruh invasif dan merusak dari erosi nilai modal dan pendapatan yang konstan, serta ketidakpastian tentang masa depan.
-> Menarik untuk menyoroti sebuah kutipan yang menekankan efek merusak dari erosi nilai modal terhadap koherensi sosial, serta ketidakpastian yang ditimbulkannya. Kutipan tersebut mengatakan: "pengaruh invasif dan merusak dari erosi nilai modal dan pendapatan yang konstan, serta ketidakpastian tentang masa depan."
+![image](assets/fr/051.webp)
 
-Bayangkan skenario di mana Anda memiliki keluarga atau orang-orang terkasih yang ingin Anda lindungi. Anda bekerja keras, menabung, untuk mengantisipasi ketidakpastian masa depan. Jika semuanya dapat diprediksi, menabung akan menjadi tidak berguna. Namun, di hadapan hal yang tak terduga, seperti mobil yang rusak, tabungan menjadi penyelamat. Ini mengurangi ketidakpastian dunia. Namun, dalam periode hiperinflasi, menabung menjadi tantangan. Uang dengan cepat kehilangan nilainya, membuat perencanaan jangka panjang menjadi sulit. Ketidakstabilan finansial ini dapat menyebabkan stres dan kecemasan.
+#### 7. Menabung, obat melawan ketidakpastian
 
-Hari ini, di hadapan penurunan daya beli, investasi mengambil alih. Namun, pendekatan ini datang dengan risiko tersendiri. Tabungan selalu menjadi obat terhadap ketidakpastian. Memiliki cadangan finansial untuk mengelola situasi tak terduga berkontribusi pada ketenangan pikiran dan memperkuat koherensi sosial. Kesimpulannya, melindungi daya beli kita penting untuk menjaga stabilitas sosial dan individu.
+> Pengaruh yang meresap dan merusak dari erosi terus-menerus terhadap nilai modal dan pendapatan serta ketidakpastian tentang masa depan.
+
+Patut dicatat sebuah kutipan yang menyoroti dampak merusak dari erosi nilai modal terhadap kohesi sosial, serta ketidakpastian yang ditimbulkannya. Dikatakan: "pengaruh yang meresap dan merusak dari erosi terus-menerus terhadap nilai modal dan pendapatan, serta ketidakpastian tentang masa depan."
+
+Bayangkan sebuah skenario di mana Anda memiliki keluarga atau orang-orang terkasih yang ingin Anda lindungi. Anda bekerja keras, menabung, untuk mengantisipasi ketidakpastian di masa depan. Jika semuanya dapat diprediksi, menabung akan sia-sia. Tetapi menghadapi hal yang tidak terduga, seperti mobil mogok, tabungan menjadi penyelamat. Tabungan mengurangi ketidakpastian dunia. Namun, selama periode hiperinflasi, menabung menjadi tantangan. Uang dengan cepat kehilangan nilainya, sehingga menyulitkan perencanaan jangka panjang. Ketidakstabilan finansial ini dapat menimbulkan stres dan kecemasan.
+
+Saat ini, dengan menurunnya daya tabung, investasi mengambil alih. Namun, pendekatan ini memiliki risikonya sendiri. Menabung selalu menjadi obat melawan ketidakpastian. Memiliki cadangan keuangan untuk menghadapi situasi tak terduga membantu menumbuhkan ketenangan pikiran dan memperkuat kohesi sosial. Kesimpulannya, melindungi daya tabung kita sangat penting untuk menjaga stabilitas sosial dan individual.
+
+
 
 ## Redenominasi di Amerika Latin
 

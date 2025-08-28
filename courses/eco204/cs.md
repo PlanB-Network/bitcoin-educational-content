@@ -672,31 +672,50 @@ Historie Výmarské republiky odhaluje, že v tomto období byla aktiva a kapit�
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Přibližně 300 miliard dolarů ruských rezerv držených v zahraničí bylo skutečně zmrazeno jako součást západních sankcí, z celkových 640 miliard dolarů rezerv držených Ruskou centrální bankou."
 
+
 #### 3. Pojem tržní ceny
-   > Weimar: "Zombie firmy"
 
-> Současnost: "Zombie firmy"
-> Weimar: "Stabilizace ukončila období, kdy mohli podnikatelé půjčovat kolik chtěli na úkor ostatních. Velké množství společností, založených nebo rozvinutých během období měnové hojnosti, rychle ztratilo produktivitu, když se kapitál stal vzácným."
-> Zombie firma je společnost, která by za normálních tržních podmínek byla neschopná splácet dluhy nebo blízko bankrotu, ale pokračuje v provozu hlavně díky půjčkám s nízkými náklady. Tyto firmy vydělávají právě dost peněz na pokrytí svých dluhů, ale nejsou schopny významně růst.
+Během Výmarské republiky vyjadřovali zemědělci svou nespokojenost s „Umlage“, která je nutila odevzdávat první dva miliony tun pšenice vyprodukované každý rok. Tato regulace měla za následek, že polovina celkové dodávky chleba byla uvedena na trh za dotované ceny. Od srpna měli být tito zemědělci placeni za světovou cenu, protože přestože byli nuceni odevzdávat svou pšenici za snížené ceny, museli zároveň nakupovat hnojiva za světové sazby.
 
-Koncept zombie firem není nový. Ve skutečnosti byl přítomen již ve Výmarské republice. V té době se mnoho společností jevilo jako prosperující, těžící z velkého přístupu k bezúročným úvěrům. Půjčovaly si značné sumy s vyhlídkou na pozdější splacení devalvovanou měnou kvůli galopující inflaci. Když však inflace ustala a německá marka znovu získala hodnotu, tyto společnosti, které nebyly skutečně životaschopné z operativního a finančního hlediska, se staly neziskovými a musely zavřít své dveře.
+Tato situace vyvolává klíčovou otázku spojenou s pojmem tržní ceny během hyperinflace. V tehdejším německém kontextu byli zemědělci nuceni prodávat svou pšenici pod její skutečnou hodnotou, zatímco museli nakupovat hnojiva za světové ceny. Takový ekonomický nesoulad zdůrazňuje výzvy, které dnes představují ceny potravin. Zemědělští producenti, čelící růstu nákladů na vstupy v důsledku inflace, tyto náklady promítají do konečných produktů. Kritizovat je za toto zvýšení znamená ignorovat dynamiku tržní ceny a ekonomické tlaky, kterým čelí. Prodávat za uměle nízké ceny při vysokých nákladech je pro jakýkoli podnik neudržitelné.
+
+> Weimar: „Zemědělské zájmy byly nespokojeny s 'Umlage', povinným odevzdáním prvních dvou milionů tun pšenice vyprodukovaných každý rok, což umožňovalo prodávat polovinu celkové zásoby chleba za nízké ceny. Od srpna měli být zemědělci placeni za světovou cenu, protože když byli nuceni prodávat pšenici levně, museli vždy platit světovou cenu za hnojiva.“
+
+#### 4. Popírání souvislosti mezi peněžní zásobou a inflací
+
+> Weimar: „Pevně se držel svého názoru, že nabídka peněz nesouvisí ani s cenovými hladinami, ani s měnovými kurzy;“
+
+V současné době tento trend přetrvává, jak ukazuje příklad z předchozí kapitoly, kde různí ekonomové a ekonomické instituce uvádějí seznam vysvětlení pro ospravedlnění inflace. Tyto důvody se různí: od kulturních událostí a celebrit, jako Taylor Swift, Zelda nebo Beyoncé, až po globální faktory, jako je válka a pandemie. Všechny tyto důvody, i když mohou krátkodobě přispět k ekonomickým výkyvům, odvádějí pozornost od skutečné příčiny, kterou je expanze peněžní zásoby.
+
+#### 5. Zombie společnosti
+
+> Weimar: „Stabilizace ukončila období, kdy si podnikatelé mohli půjčovat, kolik chtěli, na úkor všech ostatních. Velké množství podniků, založených nebo rozvinutých během peněžní hojnosti, se rychle stalo neproduktivními, když se kapitál stal vzácným.“
+
+Zombie společnost je podnik, který by za normálních tržních podmínek byl insolventní nebo blízko bankrotu, ale který nadále funguje, především díky levným půjčkám. Tyto společnosti vydělávají právě tolik, aby pokryly své dluhy, ale nejsou schopny výrazně růst.
+
+Pojem zombie společností není nový. Již ve Výmarské republice existoval. V té době mnoho podniků vypadalo naoko prosperující, protože hojně využívalo přístup k bezplatnému úvěru. Půjčovaly si značné částky s perspektivou splácení později znehodnocenou měnou kvůli prudké inflaci. Když však inflace skončila a německá marka znovu nabyla hodnoty, tyto podniky, které nebyly skutečně životaschopné z provozního ani finančního hlediska, se staly nerentabilními a musely zavřít své brány.
 
 ![image](assets/fr/050.webp)
 
-Fenomén zombie firem není omezen pouze na poválečnou historii Německa. I dnes mnoho velkých společností přežívá díky privilegovanému přístupu k velmi nízkoúročeným úvěrům. Pokud by musely půjčovat za běžnější sazby, mnoho z nich by přestalo být ziskových. To je obzvláště relevantní, protože jsme v roce 2023 a po dlouhém období téměř nulových úrokových sazeb začaly sazby stoupat. Tento nedávný vývoj ve finanční krajině bude nepochybně rozhodujícím testem pro tyto společnosti, které byly kdysi nazývány "zombiemi".
+Fenomen zombie společností se neomezuje pouze na poválečné Německo. I dnes mnohé velké podniky přežívají díky privilegovanému přístupu k půjčkám s velmi nízkými úrokovými sazbami. Pokud by si musely půjčovat za běžnější sazby, mnohé z nich by přestaly být ziskové. To je zvláště relevantní v roce 2023, kdy po dlouhém období téměř nulových úrokových sazeb začaly tyto sazby růst. Tento vývoj finančního prostředí bude nepochybně rozhodující zkouškou pro tyto dříve označované „zombie“ společnosti.
 
-5. Zbohatnout rychle!
-   V průběhu historie byly chvíle, kdy jednotlivci usilovali o rychlé zbohatnutí, jak tomu bylo ve Weimaru a Zimbabwe prostřednictvím arbitráže. Dnes vidíme podobný trend s nástupem některých kryptoměn. Lidé jsou lákáni rychlými zisky, riskují v naději exponenciálního násobení své investice. Tento přístup může připomínat to, co je pozorováno během období hyperinflace, kde je arbitráž využívána k získání rychlých zisků, často na úkor ostatních.
-   ![image](assets/fr/051.webp)
+#### 6. Rychlé zbohatnutí!
 
-6. Spoření, lék proti nejistotě
+Historie ukazuje chvíle, kdy se jednotlivci snažili rychle zbohatnout, jako tomu bylo ve Výmaru a v Zimbabwe prostřednictvím arbitráže. Dnes lze pozorovat podobný trend s nástupem některých kryptoměn. Lidé jsou lákáni rychlými zisky, riskují v naději na exponenciální zhodnocení své investice. Tento přístup může připomínat období hyperinflace, kdy byla arbitráž využívána k rychlému zisku, často na úkor ostatních.
 
-> invazivní a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů, stejně jako nejistota ohledně budoucnosti.
-> Je zajímavé zdůraznit citát, který poukazuje na destruktivní účinek eroze hodnoty kapitálu na sociální soudržnost, stejně jako na nejistotu, kterou generuje. Říká: "invazivní a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů, stejně jako nejistota ohledně budoucnosti."
+![image](assets/fr/051.webp)
 
-Představte si scénář, kdy máte rodinu nebo blízké, které chcete chránit. Tvrdě pracujete, šetříte peníze, abyste předvídali budoucí nejistoty. Pokud by bylo vše předvídatelné, spoření by bylo zbytečné. Ale v případě neočekávaných událostí, jako je porouchané auto, se spoření stává záchranným lanem. Sníží nejistotu světa. Nicméně, v období hyperinflace se spoření stává výzvou. Peníze rychle ztrácejí svou hodnotu, což činí dlouhodobé plánování obtížným. Tato finanční nestabilita může způsobovat stres a úzkost.
+#### 7. Úspory, lék proti nejistotě
 
-Dnes, v období klesající kupní síly, přebírá roli investice. Tento přístup však přináší vlastní rizika. Spoření bylo vždy lékem proti nejistotě. Mít finanční rezervy na zvládání nepředvídaných situací přispívá k duševnímu klidu a posiluje sociální soudržnost. Závěrem, ochrana naší kupní síly je zásadní pro udržení sociální a individuální stability.
+> Všeprostupující a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů a nejistota ohledně budoucnosti.
+
+Stojí za zmínku citát, který zdůrazňuje destruktivní vliv eroze hodnoty kapitálu na sociální soudržnost a nejistotu, kterou vyvolává. Říká: „všeprostupující a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů a nejistota ohledně budoucnosti.“
+
+Představte si scénář, kdy máte rodinu nebo blízké, které chcete chránit. Tvrdě pracujete, spoříte, abyste se připravili na budoucí nejistoty. Kdyby bylo vše předvídatelné, úspory by byly zbytečné. Avšak tváří v tvář nepředvídatelnému, například poruše auta, se úspory stávají záchranným kruhem. Snižují nejistotu světa. Během hyperinflace je však spoření výzvou. Peníze rychle ztrácejí hodnotu, což ztěžuje dlouhodobé plánování. Tato finanční nestabilita může vyvolat stres a úzkost.
+
+Dnes, kdy klesá schopnost spořit, přebírá roli investování. Tento přístup má však svá rizika. Úspory byly vždy lékem proti nejistotě. Mít finanční rezervy k řešení nepředvídaných situací přispívá k duševnímu klidu a posiluje sociální soudržnost. Závěrem lze říci, že ochrana naší schopnosti spořit je zásadní pro udržení sociální a individuální stability.
+
+
 
 ## Redenominace v Latinské Americe
 

@@ -623,7 +623,7 @@ Di Jerman, umum untuk populasi mengatributkan inflasi pada kenaikan dolar daripa
 
 ![image](assets/fr/046.webp)
 
-2. Mata uang kebutuhan (Notgeld)
+#### 2. Uang darurat (Notgeld)
    Menghadapi krisis moneter dan ekonomi, Jerman beralih ke "Notgeld" (uang darurat). Nota-nota ini, dicetak oleh kota atau perusahaan tertentu, dirancang untuk mengatasi kekurangan mata uang umum. Menariknya, Prancis juga menggunakan Notgeld, khususnya pada tahun 1920-an. Inisiatif ini bukan hanya sebagai konsekuensi langsung dari hiperinflasi tetapi juga memiliki akar pada gangguan yang disebabkan oleh Perang Dunia I. Perang tidak hanya mengganggu ekonomi tetapi juga meningkatkan biaya logam. Akibatnya, nilai intrinsik koin logam seringkali melebihi nilai nominalnya, mendorong orang untuk menyimpannya. Dalam ketiadaan koin, beberapa institusi, seperti Kamar Dagang Lyon, mencetak Notgeld mereka sendiri.
    ![image](assets/fr/048.webp)
 

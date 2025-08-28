@@ -628,8 +628,11 @@ Saksamaal oli rahvastiku seas levinud arvamus, et inflatsiooni põhjustab dollar
 
 ![image](assets/fr/046.webp)
 
-2. Hädavajalik valuuta (Notgeld)
-   Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
+#### 2. Hädavajalik raha (Notgeld)
+
+Rahalise ja majanduskriisi ees seistes pöördus Saksamaa "Notgeldi" (hädaabi raha) poole. Need märkmed, mida trükkisid linnad või teatud ettevõtted, olid mõeldud üldise valuuta nappuse lahendamiseks. Huvitaval kombel kasutas ka Prantsusmaa Notgeldi, eriti 1920. aastatel. See algatus ei olnud ainult hüperinflatsiooni otsene tagajärg, vaid sellel olid juured ka Esimese maailmasõja poolt põhjustatud häiretes. Sõda mitte ainult ei destabiliseerinud majandust, vaid suurendas ka metallide hinda. Selle tulemusena ületas metallmüntide sisemine väärtus sageli nende nimiväärtust, mis ajendas inimesi neid koguma. Müntide puudumisel trükkisid mõned asutused, nagu Lyon'i Kaubanduskoda, oma Notgeldi.
+
+![image](assets/fr/047.webp)
 
 > "Mis tehtud, see tehtud." - kohalik ütlus
 

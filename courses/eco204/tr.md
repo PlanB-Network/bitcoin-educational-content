@@ -998,7 +998,7 @@ Almanya'da halkın enflasyonu, kendi para birimlerinin içsel değer kaybından 
 ![image](assets/fr/046.webp)
 
 
-2. İhtiyaç para birimi (Notgeld)
+#### 2. Zorunlu para (Notgeld)
 
 
 Parasal ve ekonomik krizle karşı karşıya kalan Almanya "Notgeld "e (acil durum parası) başvurdu. Şehirler ya da belirli şirketler tarafından basılan bu banknotlar, Address ortak para birimi sıkıntısı için tasarlanmıştı.

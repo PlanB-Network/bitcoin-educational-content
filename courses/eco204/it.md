@@ -619,10 +619,12 @@ In Germania, era comune che la popolazione attribuisse l'inflazione all'ascesa d
 
 ![immagine](assets/fr/046.webp)
 
-2. Moneta di necessità (Notgeld)
+#### 2. La moneta di necessità (Notgeld)
 
 Di fronte alla crisi monetaria ed economica, la Germania ricorreva al "Notgeld" (denaro d'emergenza). Queste banconote, stampate da città o alcune aziende, erano progettate per affrontare la carenza di moneta comune.
 Curiosamente, anche la Francia ha fatto ricorso al Notgeld, in particolare negli anni '20. Questa iniziativa non fu solo una diretta conseguenza dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo destabilizzò l'economia, ma aumentò anche il costo dei metalli. Di conseguenza, il valore intrinseco delle monete metalliche spesso superava il loro valore nominale, spingendo le persone a tesaurizzarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, stamparono il loro proprio Notgeld.
+
+![image](assets/fr/047.webp)
 
 > "Quello che deve essere fatto, deve essere fatto." - un detto locale
 

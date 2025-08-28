@@ -651,7 +651,7 @@ In Germany, it was common for the population to attribute inflation to the rise 
 
 ![image](assets/fr/046.webp)
 
-2. Necessity currency (Notgeld)
+#### 2. Emergency money (Notgeld)
 
 Facing the monetary and economic crisis, Germany resorted to "Notgeld" (emergency money). These notes, printed by cities or certain companies, were designed to address a shortage of common currency.
 Interestingly, France also resorted to Notgeld, particularly in the 1920s. This initiative was not only a direct consequence of hyperinflation but also had roots in the disruptions caused by World War I. The war not only destabilized the economy but also increased the cost of metals. As a result, the intrinsic value of metal coins often exceeded their face value, prompting people to hoard them. In the absence of coins, some institutions, such as the Lyon Chamber of Commerce, printed their own Notgeld.

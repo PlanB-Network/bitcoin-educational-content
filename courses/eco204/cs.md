@@ -625,7 +625,7 @@ V Německu bylo běžné, že populace připisovala inflaci vzestupu dolaru spí
 
 ![obrázek](assets/fr/046.webp)
 
-2. Náhradní měna (Notgeld)
+#### 2. Nouzové peníze (Notgeld)
    Čelící měnové a ekonomické krizi, Německo sáhlo po "Notgeld" (nouzové peníze). Tyto bankovky, tisknuté městy nebo určitými společnostmi, byly navrženy k řešení nedostatku běžné měny. Zajímavě, Francie také sáhla po Notgeld, zejména ve 20. letech 20. století. Tato iniciativa nebyla jen přímým důsledkem hyperinflace, ale měla také kořeny v narušeních způsobených první světovou válkou. Válka nejen destabilizovala ekonomiku, ale také zvýšila cenu kovů. V důsledku toho často vnitřní hodnota kovových mincí převyšovala jejich nominální hodnotu, což vedlo lidi k jejich hromadění. V nepřítomnosti mincí některé instituce, jako například Obchodní komora v Lyonu, tiskly své vlastní Notgeld.
    ![image](assets/fr/048.webp)
 

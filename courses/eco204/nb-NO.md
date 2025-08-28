@@ -627,7 +627,7 @@ I Tyskland var det vanlig for befolkningen å tilskrive inflasjonen til stigning
 
 ![bilde](assets/fr/046.webp)
 
-2. Nødvendighetsvaluta (Notgeld)
+#### 2. Nødmynt (Notgeld)
    I møte med den monetære og økonomiske krisen, tydde Tyskland til "Notgeld" (nødpenger). Disse sedlene, trykket av byer eller visse selskaper, var designet for å adressere en mangel på vanlig valuta. Interessant nok tydde også Frankrike til Notgeld, spesielt på 1920-tallet. Dette tiltaket var ikke bare en direkte konsekvens av hyperinflasjon, men hadde også røtter i forstyrrelsene forårsaket av første verdenskrig. Krigen destabiliserte ikke bare økonomien, men økte også kostnaden for metaller. Som et resultat oversteg den iboende verdien av metallmynter ofte deres pålydende verdi, noe som fikk folk til å hamstre dem. I fraværet av mynter, trykket noen institusjoner, som Lyon Handelskammer, sine egne Notgeld.
    ![bilde](assets/fr/048.webp)
 

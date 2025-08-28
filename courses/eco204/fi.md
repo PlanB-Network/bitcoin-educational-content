@@ -617,7 +617,7 @@ Saksassa oli yleistä, että väestö syytti inflaatiota dollarin noususta pikem
 
 ![kuva](assets/fr/046.webp)
 
-2. Välttämättömyysvaluutta (Notgeld)
+#### 2. Hätäraha (Notgeld)
    Kohdatessaan rahataloudellisen ja taloudellisen kriisin, Saksa turvautui "Notgeldiin" (hätäraha). Nämä setelit, jotka kaupungit tai tietyt yritykset painoivat, oli suunniteltu puuttuvan yleisen valuutan korvaamiseen. Mielenkiintoisesti myös Ranska turvautui Notgeldiin, erityisesti 1920-luvulla. Tämä aloite ei ollut vain suoranainen seuraus hyperinflaatiosta, vaan sillä oli juurensa myös ensimmäisen maailmansodan aiheuttamissa häiriöissä. Sota ei ainoastaan epävakauttanut taloutta, vaan lisäsi myös metallien kustannuksia. Tämän seurauksena metallikolikoiden sisäinen arvo usein ylitti niiden nimellisarvon, mikä kannusti ihmisiä hamstraamaan niitä. Kolikoiden puuttuessa jotkut laitokset, kuten Lyonin kauppakamari, painoivat omaa Notgeldiaan.
    ![kuva](assets/fr/048.webp)
 

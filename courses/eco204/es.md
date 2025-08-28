@@ -609,7 +609,7 @@ En Alemania, era común que la población atribuyera la inflación al aumento de
 
 ![imagen](assets/fr/046.webp)
 
-2. La moneda de necesidad (Notgeld)
+#### 2. El dinero de necesidad (Notgeld)
 
 Ante la crisis monetaria y económica, Alemania recurrió al "Notgeld" (moneda de necesidad). Estos billetes, impresos por ciudades o ciertas empresas, fueron diseñados para remediar la escasez de moneda corriente.
 De manera interesante, Francia también recurrió a los Notgeld, especialmente en la década de 1920. Esta iniciativa no fue solo una consecuencia directa de la hiperinflación, sino que también tuvo sus raíces en las perturbaciones causadas por la Primera Guerra Mundial. La guerra no solo desestabilizó la economía, sino que también aumentó el costo de los metales. Por lo tanto, el valor intrínseco de las monedas de metal a menudo superaba su valor nominal, lo que llevaba a las personas a almacenarlas. En ausencia de monedas, algunas instituciones, como la Cámara de Comercio de Lyon, imprimieron sus propios Notgeld.

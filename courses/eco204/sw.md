@@ -735,7 +735,7 @@ Nchini Ujerumani, ilikuwa kawaida kwa idadi ya watu kuhusisha mfumuko wa bei na 
 
 ![image](assets/fr/046.webp)
 
-2. Sarafu ya lazima (Notgeld)
+#### 2. Pesa ya dharura (Notgeld)
 
 Ikikabiliana na mzozo wa kifedha na kiuchumi, Ujerumani iliamua kutumia "Notgeld" (fedha za dharura). Vidokezo hivi, vilivyochapishwa na miji au makampuni fulani, viliundwa kwa Address uhaba wa sarafu ya kawaida.
 

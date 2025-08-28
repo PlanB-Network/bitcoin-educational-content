@@ -632,7 +632,7 @@ Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và 
 
 ![image](assets/fr/046.webp)
 
-2. Tiền tệ khẩn cấp (Notgeld)
+#### 2. Tiền khẩn cấp (Notgeld)
 
 Đối mặt với khủng hoảng tiền tệ và kinh tế, Đức đã sử dụng "Notgeld" (tiền khẩn cấp). Những tờ tiền này, được in bởi các thành phố hoặc một số công ty, được thiết kế để giải quyết tình trạng thiếu hụt đồng tiền thông thường.
 Thú vị là, Pháp cũng đã sử dụng Notgeld, đặc biệt là vào những năm 1920. Sáng kiến này không chỉ là hậu quả trực tiếp của siêu lạm phát mà còn có nguồn gốc từ những gián đoạn do Thế chiến thứ nhất gây ra. Cuộc chiến không chỉ làm mất ổn định nền kinh tế mà còn làm tăng giá của kim loại. Kết quả là, giá trị nội tại của đồng tiền kim loại thường vượt quá mệnh giá danh nghĩa, khiến mọi người tích trữ chúng. Trong tình trạng thiếu hụt đồng xu, một số tổ chức, như Phòng thương mại Lyon, đã in ra đồng tiền khẩn cấp của riêng mình.

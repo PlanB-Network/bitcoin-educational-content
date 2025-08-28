@@ -995,7 +995,7 @@ U Nemačkoj je bilo uobičajeno da stanovništvo pripisuje inflaciju rastu dolar
 ![image](assets/fr/046.webp)
 
 
-2. Nužnički novac (Notgeld)
+#### 2. Nužni novac (Notgeld)
 
 
 Suočena sa monetarnom i ekonomskom krizom, Nemačka je pribegla "Notgeld-u" (hitnom novcu). Ove novčanice, štampane od strane gradova ili određenih kompanija, bile su dizajnirane da Address nedostatak uobičajene valute.

@@ -647,7 +647,7 @@ In Deutschland war es üblich, dass die Bevölkerung die Inflation auf den Ansti
 
 ![Bild](assets/fr/046.webp)
 
-2. Notgeld
+#### 2. Das Notgeld (Notgeld)
 
 Angesichts der Währungs- und Wirtschaftskrise griff Deutschland auf "Notgeld" zurück. Diese von Städten oder bestimmten Unternehmen gedruckten Banknoten wurden entwickelt, um den Mangel an gängigem Geld zu beheben.
 Interessanterweise griff auch Frankreich in den 1920er Jahren auf Notgeld zurück. Diese Initiative war nicht nur eine direkte Folge der Hyperinflation, sondern hatte auch ihre Wurzeln in den Störungen, die der Erste Weltkrieg verursacht hatte. Der Krieg destabilisierte nicht nur die Wirtschaft, sondern erhöhte auch die Kosten für Metalle. Daher überstieg der intrinsische Wert von Metallmünzen oft ihren Nennwert, was die Menschen dazu veranlasste, sie zu horten. In Abwesenheit von Münzen druckten einige Institutionen wie die Handelskammer von Lyon ihr eigenes Notgeld.

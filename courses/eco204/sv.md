@@ -997,7 +997,7 @@ I Tyskland var det vanligt att befolkningen hänförde inflationen till dollarns
 ![image](assets/fr/046.webp)
 
 
-2. Nödvändighet valuta (Notgeld)
+#### 2. Nödmynt (Notgeld)
 
 
 Inför den monetära och ekonomiska krisen använde sig Tyskland av "Notgeld" (nödpengar). Dessa sedlar, som trycktes av städer eller vissa företag, var utformade för att Address en brist på gemensam valuta.

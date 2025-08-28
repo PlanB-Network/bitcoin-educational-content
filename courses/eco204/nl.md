@@ -996,7 +996,7 @@ In Duitsland was het gebruikelijk dat de bevolking de inflatie toeschreef aan de
 ![image](assets/fr/046.webp)
 
 
-2. Noodzakelijke valuta (Notgeld)
+#### 2. Noodgeld (Notgeld)
 
 
 Geconfronteerd met de monetaire en economische crisis nam Duitsland zijn toevlucht tot "Notgeld" (noodgeld). Deze biljetten, gedrukt door steden of bepaalde bedrijven, waren bedoeld om een tekort aan gemeenschappelijke valuta op te vangen.

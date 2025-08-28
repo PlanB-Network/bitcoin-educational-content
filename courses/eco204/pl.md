@@ -997,7 +997,7 @@ W Niemczech powszechne było przypisywanie inflacji wzrostowi wartości dolara, 
 ![image](assets/fr/046.webp)
 
 
-2. Waluta niezbędna (Notgeld)
+#### 2. Pieniądz zastępczy (Notgeld)
 
 
 W obliczu kryzysu monetarnego i gospodarczego Niemcy uciekły się do "Notgeld" (pieniądza awaryjnego). Banknoty te, drukowane przez miasta lub określone firmy, miały na celu Address niedobór wspólnej waluty.

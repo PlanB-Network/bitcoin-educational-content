@@ -867,7 +867,7 @@ Lo más importante a tener en cuenta es que existen varias estrategias para sali
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-El enlace a la colección escaneada está disponible en el Bitcoin Educational Toolkit, accesible desde la sección de Recursos de la plataforma.
+[Descubre la colección escaneada en el *Bitcoin Educational Toolkit* (también accesible desde la sección *Recursos* de la plataforma Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 # ¿Cómo llegamos aquí?
 

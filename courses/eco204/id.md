@@ -872,7 +872,7 @@ Poin kunci adalah ada beberapa strategi untuk mengatasi hiperinflasi. Seseorang 
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-Link ke koleksi yang telah discan tersedia di Bitcoin Educational Toolkit, dapat diakses dari bagian Resources dari platform.
+[Temukan koleksi yang dipindai dalam *Bitcoin Educational Toolkit* (juga dapat diakses dari bagian *Sumber Daya* di platform Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 # Bagaimana kita bisa sampai di sini?
 

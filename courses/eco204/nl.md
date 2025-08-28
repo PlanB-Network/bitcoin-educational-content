@@ -1350,7 +1350,7 @@ De belangrijkste conclusie is dat er verschillende strategieën zijn om hyperinf
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-De link naar de gescande collectie is beschikbaar in de Bitcoin Educational Toolkit, toegankelijk via het Resources gedeelte van het platform.
+[Ontdek de gescande collectie in de *Bitcoin Educational Toolkit* (ook toegankelijk via de sectie *Bronnen* van het Plan ₿ Network-platform.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 # Hoe zijn we hier gekomen?

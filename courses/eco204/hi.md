@@ -1024,7 +1024,7 @@ MMT के समर्थक अक्सर जापान को एक औ�
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-स्कैन किए गए संग्रह का लिंक Bitcoin एजुकेशनल टूलकिट में उपलब्ध है, जो प्लेटफॉर्म के रिसोर्सेज सेक्शन से एक्सेस किया जा सकता है।
+[*Bitcoin Educational Toolkit* में स्कैन किए गए संग्रह की खोज करें (जो Plan ₿ Network प्लेटफ़ॉर्म के *संसाधन* अनुभाग से भी सुलभ है।](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 # हम यहाँ तक कैसे पहुँचे?
 

@@ -20,7 +20,7 @@ RASPIBLITZ - Kako pokrenuti Lightning i Bitcoin Full node po BTC sesiji
 # Parmanov Vodič za Postavljanje Raspiblitz-a
 
 
-Raspiblitz je odličan sistem za pokretanje Bitcoin čvora i povezanih aplikacija. Preporučujem ovo i My Node čvor većini korisnika (Idealno je imati dva čvora za redundanciju.) Jedna od glavnih prednosti je da je Raspiblitz čvor „Besplatan softver otvorenog koda“, za razliku od MyNode ili Umbrel. Zašto je to važno? Vlad Costa objašnjava. Takođe možete pokrenuti RaspbiBlitz sa WiFi vezom umesto ethernet-a – ovde je dodatni vodič za to. (Nisam pronašao način da to uradim sa MyNode).
+Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija. Preporučujem ovo i MyNode nod većini korisnika (idealno imati dva noda radi redundanse). Jedna velika prednost je to što je Raspiblitz nod „Free Open Source Software“, za razliku od MyNode ili Umbrel. [Zašto je to važno? Vlad Costa objašnjava.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Takođe možete pokrenuti Raspiblitz preko WiFi veze umesto ethernet – evo [dopunskog vodiča](https://armantheparman.com/headless-wifi/) za to. (Nisam pronašao način da ovo uradim sa MyNode).
 
 
 Možete kupiti gotov čvor sa priloženim mini ekranom, ili ga možete sami napraviti (nije vam potreban ekran).

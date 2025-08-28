@@ -14,7 +14,7 @@ RASPIBLITZ - 如何运行一个闪电和比特币全节点，由BTC session提�
 
 # Parman的Raspiblitz设置指南
 
-Raspiblitz是运行比特币节点和相关应用的优秀系统。我推荐这个和My Node节点给大多数用户（理想情况下有两个节点以备份）。一个主要优势是Raspiblitz节点是“自由开源软件”，不像MyNode或Umbrel。为什么这很重要？Vlad Costa解释了。你也可以通过WiFi连接而不是以太网来运行RaspbiBlitz——这里有一个补充指南。（我还没找到用MyNode做这个的方法）。
+Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用。我向大多数用户推荐它和MyNode节点（理想情况下应有两个节点以实现冗余）。一个主要优势是Raspiblitz节点是“Free Open Source Software”，而MyNode或Umbrel则不是。[为什么这很重要？Vlad Costa 解释道。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) 你还可以通过WiFi连接而不是以太网运行Raspiblitz – 这里有一个[补充指南](https://armantheparman.com/headless-wifi/)供参考。（我还没有找到在MyNode上实现这一点的方法）。
 
 你可以购买一个带有小屏幕的现成节点，或者你可以自己构建一个（你不需要屏幕）。
 

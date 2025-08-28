@@ -10,11 +10,12 @@ The RaspiBlitz is a do-it-yourself Lightning Node (LND and/or Core Lightning) ru
 RaspiBlitz is mainly targeted for learning how to run your own node decentralized from home - because: Not your Node, Not your Rules. Discover & develop the growing ecosystem of the Lightning Network by becoming a full part of it. Build it as part of a workshop or as a weekend project yourself.
 
 ![video](https://youtu.be/DTHlSPMz3ns)
+
 RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
 
 # Parman’s Raspiblitz Setup Guide
 
-The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. Why is that important? Vlad Costa explains. You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a supplemental guide for that. (I haven’t found a way to do this with MyNode).
+The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. [Why is that important? Vlad Costa explains.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a [supplemental guide](https://armantheparman.com/headless-wifi/) for that. (I haven’t found a way to do this with MyNode).
 
 You can buy a ready made node with an attached mini screen, or you can build it yourself (you don’t need a screen).
 

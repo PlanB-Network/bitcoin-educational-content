@@ -14,7 +14,7 @@ RASPIBLITZ - Jak provozovat Lightning a Bitcoin Full Node od BTC session
 
 # Parmanův průvodce nastavením Raspiblitz
 
-Raspiblitz je vynikající systém pro provoz Bitcoin Node a přidružených aplikací. Doporučuji toto a My Node uzly většině uživatelů (ideálně mít dva uzly pro redundanci.) Jednou z hlavních výhod je, že Raspiblitz uzel je "Free Open Source Software", na rozdíl od MyNode nebo Umbrel. Proč je to důležité? Vysvětluje Vlad Costa. RaspbiBlitz můžete také provozovat s WiFi připojením místo ethernetu – zde je doplňující průvodce pro to. (S MyNode jsem nenašel způsob, jak to udělat).
+Raspiblitz je vynikající systém pro provozování Bitcoin uzlu a souvisejících aplikací. Doporučuji jej spolu s uzlem MyNode většině uživatelů (ideálně mít dva uzly pro redundanci). Jednou z hlavních výhod je, že uzel Raspiblitz je „Free Open Source Software“, na rozdíl od MyNode nebo Umbrel. [Proč je to důležité? Vysvětluje Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitz můžete také provozovat přes WiFi připojení místo ethernetu – zde je [doplňkový návod](https://armantheparman.com/headless-wifi/) k tomu. (U MyNode jsem nenašel způsob, jak to udělat).
 
 Můžete koupit připravený uzel s připojeným mini displejem, nebo si ho můžete postavit sami (nepotřebujete displej).
 

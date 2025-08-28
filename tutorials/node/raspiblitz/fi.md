@@ -14,7 +14,7 @@ RASPIBLITZ - Kuinka Pyörittää Lightning ja Bitcoin Full Nodea BTC sessionin t
 
 # Parmanin Raspiblitzin asennusopas
 
-Raspiblitz on erinomainen järjestelmä Bitcoin Noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja My Node -nodea useimmille käyttäjille (Ideaalitilanteessa kaksi nodea redundanssin vuoksi.) Yksi merkittävä etu on, että Raspiblitz-node on "Vapaa Avoin Lähdekoodi Ohjelmisto", toisin kuin MyNode tai Umbrel. Miksi se on tärkeää? Vlad Costa selittää. Voit myös ajaa RaspbiBlitzin WiFi-yhteydellä ethernetin sijaan – tässä on lisäopas siihen. (En ole löytänyt tapaa tehdä tätä MyNoden kanssa).
+Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costa selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
 
 Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen itse (et tarvitse näyttöä).
 

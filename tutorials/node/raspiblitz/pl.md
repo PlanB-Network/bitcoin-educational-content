@@ -20,7 +20,7 @@ RASPIBLITZ - Jak uruchomić piorun i Bitcoin Full node przez sesję BTC
 # Podręcznik konfiguracji Raspiblitz firmy Parman
 
 
-Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych aplikacji. Polecam go i węzeł My Node większości użytkowników (najlepiej mieć dwa węzły dla redundancji). Jedną z głównych zalet jest to, że węzeł Raspiblitz jest "wolnym oprogramowaniem open source", w przeciwieństwie do MyNode lub Umbrel. Dlaczego jest to ważne? Vlad Costa wyjaśnia. RaspbiBlitz można również uruchomić za pomocą połączenia WiFi, a nie ethernet - oto dodatkowy przewodnik na ten temat. (Nie znalazłem sposobu na zrobienie tego z MyNode).
+Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych aplikacji. Polecam go wraz z węzłem MyNode większości użytkowników (najlepiej mieć dwa węzły dla redundancji). Jedną z głównych zalet jest to, że węzeł Raspiblitz jest „Free Open Source Software”, w przeciwieństwie do MyNode lub Umbrel. [Dlaczego to jest ważne? Wyjaśnia Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Możesz także uruchomić Raspiblitz z połączeniem WiFi zamiast ethernet – oto [dodatkowy przewodnik](https://armantheparman.com/headless-wifi/) do tego. (Nie znalazłem sposobu, aby zrobić to z MyNode).
 
 
 Możesz kupić gotowy węzeł z dołączonym mini ekranem lub zbudować go samodzielnie (nie potrzebujesz ekranu).

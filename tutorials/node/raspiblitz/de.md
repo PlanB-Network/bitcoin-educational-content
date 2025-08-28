@@ -15,7 +15,7 @@ RASPIBLITZ - Anleitung zum Betreiben eines Lightning- und Bitcoin-Fullnodes von 
 
 # Parman's Raspiblitz-Einrichtungsanleitung
 
-Der Raspiblitz ist ein ausgezeichnetes System zum Betreiben eines Bitcoin-Nodes und zugehöriger Apps. Ich empfehle dies und den My Node Node den meisten Benutzern (idealerweise zwei Nodes für Redundanz). Ein großer Vorteil ist, dass der Raspiblitz-Node "Free Open Source Software" ist, im Gegensatz zu MyNode oder Umbrel. Warum ist das wichtig? Vlad Costa erklärt es. Sie können den RaspbiBlitz auch mit einer WLAN-Verbindung anstelle von Ethernet betreiben - hier finden Sie eine ergänzende Anleitung dazu. (Ich habe noch keine Möglichkeit gefunden, dies mit MyNode zu tun).
+Der Raspiblitz ist ein ausgezeichnetes System zum Betrieb eines Bitcoin-Nodes und zugehöriger Apps. Ich empfehle dies zusammen mit dem MyNode-Node den meisten Nutzern (idealerweise zwei Nodes für Redundanz). Ein großer Vorteil ist, dass der Raspiblitz-Node „Free Open Source Software“ ist, im Gegensatz zu MyNode oder Umbrel. [Warum ist das wichtig? Vlad Costa erklärt.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Sie können den Raspiblitz auch mit einer WiFi-Verbindung anstelle von Ethernet betreiben – hier ist ein [zusätzlicher Leitfaden](https://armantheparman.com/headless-wifi/) dafür. (Ich habe keine Möglichkeit gefunden, dies mit MyNode zu tun).
 
 Sie können einen fertigen Node mit einem angeschlossenen Minibildschirm kaufen oder ihn selbst bauen (Sie benötigen keinen Bildschirm).
 

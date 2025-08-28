@@ -20,7 +20,7 @@ RASPIBLITZ - Jinsi ya Kuendesha Umeme na Bitcoin Full node kwa kipindi cha BTC
 # Mwongozo wa Kuweka Raspiblitz wa Parman
 
 
-Raspiblitz ni mfumo bora wa kuendesha Njia ya Bitcoin na programu zinazohusiana. Ninapendekeza hii ya Nodi Yangu kwa watumiaji wengi (Kuwa na nodi mbili za upunguzaji kwa njia bora.) Faida moja kuu ni kwamba nodi ya Raspiblitz ni "Programu ya Bure ya Open Source", tofauti na MyNode au Umbrel. Kwa nini hilo ni muhimu? Vlad Costa anaelezea. Unaweza pia kuendesha RaspbiBlitz kwa muunganisho wa WiFi badala ya ethernet - huu ni mwongozo wa ziada kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
+Raspiblitz ni mfumo bora wa kuendesha Node ya Bitcoin na programu zinazohusiana. Ninapendekeza hii na Node ya MyNode kwa watumiaji wengi (iwe bora kuwa na nodes mbili kwa upungufu wa hatari). Faida kuu ni kwamba Node ya Raspiblitz ni "Free Open Source Software", tofauti na MyNode au Umbrel. [Kwa nini hilo ni muhimu? Vlad Costa anaeleza.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Pia unaweza kuendesha Raspiblitz kwa muunganisho wa WiFi badala ya ethernet – hapa kuna [mwongozo wa ziada](https://armantheparman.com/headless-wifi/) kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
 
 
 Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaweza kuijenga mwenyewe (huhitaji skrini).

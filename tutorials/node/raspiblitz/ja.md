@@ -14,7 +14,7 @@ RASPIBLITZ - BTCセッションによるLightningおよびBitcoinフルノード
 
 # ParmanのRaspiblitzセットアップガイド
 
-Raspiblitzは、Bitcoin Nodeと関連アプリを運用するための優れたシステムです。ほとんどのユーザーにこれとMy Nodeノードを推奨します（理想的には冗長性のために2つのノードを持っています）。一つの大きな利点は、Raspiblitzノードが「Free Open Source Software」であることです。MyNodeやUmbrelとは異なります。なぜそれが重要なのか、Vlad Costaが説明しています。また、RaspbiBlitzをイーサネットではなくWiFi接続で実行することもできます - そのための補足ガイドがこちらです。（MyNodeでこれを行う方法は見つかりませんでした）。
+Raspiblitzは、ビットコインノードと関連アプリを実行するための優れたシステムです。私はほとんどのユーザーに、これとMyNodeノードを推奨します（理想的には冗長性のために2つのノードを持つべきです）。大きな利点の1つは、RaspiblitzノードがMyNodeやUmbrelとは異なり「Free Open Source Software」であることです。[なぜそれが重要なのか？ Vlad Costaが説明します。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitzは、イーサネットではなくWiFi接続でも実行できます – そのための[補足ガイド](https://armantheparman.com/headless-wifi/)があります。（MyNodeでこれを行う方法は見つかりませんでした）。
 
 既製のノードをミニスクリーン付きで購入することも、自分で構築することもできます（スクリーンは必要ありません）。
 

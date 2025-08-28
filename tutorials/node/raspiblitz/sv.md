@@ -20,7 +20,7 @@ RASPIBLITZ - Hur man kör en blixt och Bitcoin Full node av BTC-session
 # Parman's Raspiblitz installationsguide
 
 
-Raspiblitz är ett utmärkt system för att köra en Bitcoin-nod och tillhörande appar. Jag rekommenderar detta och My Node-noden till de flesta användare (Ha helst två noder för redundans.) En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. Varför är det viktigt? Vlad Costa förklarar. Du kan också köra RaspbiBlitz med en WiFi-anslutning snarare än ethernet - här är en kompletterande guide för det. (Jag har inte hittat något sätt att göra detta med MyNode).
+Raspiblitz är ett utmärkt system för att köra en Bitcoin-node och tillhörande appar. Jag rekommenderar denna och MyNode-noden till de flesta användare (helst två noder för redundans). En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. [Varför är det viktigt? Vlad Costa förklarar.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Du kan också köra Raspiblitz med en WiFi-anslutning istället för ethernet – här är en [kompletterande guide](https://armantheparman.com/headless-wifi/) för det. (Jag har inte hittat något sätt att göra detta med MyNode).
 
 
 Du kan köpa en färdig nod med en monterad miniskärm, eller så kan du bygga den själv (du behöver ingen skärm).

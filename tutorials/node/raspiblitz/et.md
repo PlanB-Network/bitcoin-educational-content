@@ -14,7 +14,7 @@ RASPIBLITZ - Kuidas käitada Lightning ja Bitcoin Full Node'i BTC sessiooni pool
 
 # Parmani Raspiblitzi seadistamise juhend
 
-Raspiblitz on suurepärane süsteem Bitcoin Node'i ja sellega seotud rakenduste käitamiseks. Soovitan seda ja My Node node'i enamikule kasutajatele (ideaalis omage kahte sõlme redundantsuse jaoks.) Üks suur eelis on see, et Raspiblitzi sõlm on "Tasuta Avatud Lähtekoodiga Tarkvara", erinevalt MyNode'ist või Umbrel'ist. Miks see on oluline? Vlad Costa selgitab. Samuti võid RaspbiBlitzi käitada WiFi ühendusega, mitte etherneti kaudu – siin on selleks täiendav juhend. (MyNode'iga seda teha ei ole ma leidnud.)
+Raspiblitz on suurepärane süsteem Bitcoini node’i ja seotud rakenduste käitamiseks. Soovitan seda ja MyNode node’i enamikule kasutajatele (ideaalis kaks node’i reduntsuse jaoks). Üks peamisi eeliseid on see, et Raspiblitz node on „Free Open Source Software“, erinevalt MyNode’ist või Umbrelist. [Miks see on oluline? Vlad Costa selgitab.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitzi saab ka käitada WiFi-ühenduse kaudu, mitte ainult ethernetiga – selleks on siin [täiendav juhend](https://armantheparman.com/headless-wifi/). (Ma ei ole leidnud viisi, kuidas seda MyNode’iga teha).
 
 Võid osta valmis sõlme koos külge kinnitatud mini ekraaniga, või võid selle ise ehitada (ekraani pole vaja).
 

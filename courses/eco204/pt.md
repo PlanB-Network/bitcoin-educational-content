@@ -544,7 +544,7 @@ Zimbábue: "Essas práticas, embora tenham enriquecido algumas pessoas, empobrec
 
 ![imagem](assets/fr/042.webp)
 
-8. Os "bancos do mundo"
+#### 8. Os "bancos do mundo"
 
 Em situações de hiperinflação ou crise monetária, os mercados paralelos e não regulamentados de moedas estrangeiras tendem a proliferar. Esses "bancos" informais, frequentemente chamados de forma humorística de "bancos do mundo" ou por outros nomes locais, oferecem refúgio para aqueles que buscam proteger seus ativos da desvalorização. Embora esses mercados possam fornecer um salva-vidas econômico necessário, muitas vezes destacam a desconfiança generalizada em relação às instituições financeiras oficiais e às políticas governamentais.
 
@@ -568,6 +568,8 @@ Quando um país enfrenta uma crise monetária ou econômica, uma das respostas c
 Weimar: "Os comerciantes recentemente foram obrigados por um novo decreto a aceitar notas bancárias do Estado; no entanto, como também permitia o uso contínuo de moedas estrangeiras para todas as compras, os comerciantes geralmente encontravam desculpas para aceitar quase nada além disso."
 
 Zimbabwe: "O governo introduziu o SI 175/2008 em 12 de dezembro de 2008, referente ao pagamento com cheques. Ele estipulava: 'A penalidade por recusar um pagamento com cheque/cartão de crédito ou qualquer outro método de pagamento eletrônico intermediado por um banco será uma multa de nível 8 ou uma pena de prisão de seis meses, ou ambos.' Obviamente, ignoramos o SI, pois estava completamente desconectado da realidade."
+
+![imagen](assets/fr/043.webp)
 
 11. Obrigados a manter suas lojas abertas
 

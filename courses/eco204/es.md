@@ -499,7 +499,7 @@ Zimbabwe: "Estas prácticas, si bien enriquecieron a algunas personas, empobreci
 
 ![image](assets/fr/042.webp)
 
-8. Los "bancos del mundo"
+#### 8. Los "bancos del mundo"
 
 En situaciones de hiperinflación o crisis monetaria, los mercados paralelos y no regulados de divisas extranjeras tienden a proliferar. Estos "bancos" informales, a menudo llamados de manera humorística "bancos del mundo" u otros nombres locales, ofrecen refugio a aquellos que buscan proteger sus activos de la devaluación. Aunque estos mercados pueden proporcionar un salvavidas económico necesario, a menudo destacan la desconfianza generalizada hacia las instituciones financieras oficiales y las políticas gubernamentales.
 Weimar: "Sus transacciones se realizaban principalmente a través de los llamados banqueros de esquina, los operadores callejeros que surgieron con la inflación y que, prosperando en una economía enferma, vivían completamente aprovechando la diferencia entre los precios de compra y venta de divisas extranjeras".

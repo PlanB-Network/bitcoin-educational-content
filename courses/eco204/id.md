@@ -516,7 +516,7 @@ Zimbabwe: "Praktik-praktik ini, sementara memperkaya beberapa individu, membuat 
 
 ![image](assets/fr/042.webp)
 
-8. "Bank Dunia"
+#### 8. "Bank-bank dunia"
 
 Dalam situasi hiperinflasi atau krisis moneter, pasar paralel dan tidak teratur untuk mata uang asing cenderung berkembang. "Bank" informal ini, seringkali secara humoris disebut sebagai "bank dunia" atau dengan nama lokal lainnya, menyediakan tempat perlindungan bagi mereka yang berusaha melindungi aset mereka dari depresiasi. Meskipun pasar ini dapat menyediakan jalan keluar ekonomi yang diperlukan, mereka sering menyoroti ketidakpercayaan luas terhadap lembaga keuangan resmi dan kebijakan pemerintah.
 Weimar: "Transaksi mereka terutama dilakukan melalui apa yang disebut Winkelbankiers, operator jalanan yang muncul dengan inflasi dan yang, berkembang dalam ekonomi yang sakit, hidup sepenuhnya dengan mengambil keuntungan dari perbedaan antara harga beli dan harga jual mata uang asing."

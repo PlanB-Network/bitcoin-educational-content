@@ -849,7 +849,7 @@ Zimbabve: "Bu uygulamalar birkaç kişiyi zenginleştirirken, kentli işçi sın
 ![image](assets/fr/042.webp)
 
 
-8. "Dünya Bankaları"
+#### 8. "Dünyanın bankaları"
 
 
 Hiperenflasyon veya parasal kriz durumlarında, yabancı para birimleri için paralel ve düzenlenmemiş piyasalar çoğalma eğilimindedir. Genellikle esprili bir şekilde "dünya bankaları" ya da başka yerel isimlerle anılan bu gayrı resmi "bankalar", varlıklarını devalüasyondan korumak isteyenler için bir sığınak sağlar. Bu piyasalar gerekli bir ekonomik can simidi sağlayabilseler de, genellikle resmi finans kurumlarına ve hükümet politikalarına karşı yaygın güvensizliği vurgularlar.

@@ -517,7 +517,7 @@ Zimbabwe: "Disse praksisene, mens de beriket noen få individer, fattiggjorde de
 
 ![bilde](assets/fr/042.webp)
 
-8. "Verdensbankene"
+#### 8. "Verdens banker"
 
 I situasjoner med hyperinflasjon eller monetær krise, har det en tendens til å blomstre parallell og uregulerte markeder for utenlandsk valuta. Disse uformelle "bankene", ofte humoristisk referert til som "verdensbanker" eller ved andre lokale navn, tilbyr en tilflukt for de som søker å beskytte sine eiendeler fra devaluering. Selv om disse markedene kan tilby en nødvendig økonomisk livline, fremhever de ofte utbredt mistillit til offisielle finansinstitusjoner og regjeringspolitikk.
 Weimar: "Transaksjonene deres ble hovedsakelig utført gjennom de såkalte Winkelbankiers, gateoperatørene som hadde dukket opp med inflasjonen og som, ved å trives i en syk økonomi, levde helt og holdent av å utnytte forskjellen mellom kjøps- og salgsprisene på utenlandsk valuta."

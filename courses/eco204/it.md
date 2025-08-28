@@ -507,7 +507,7 @@ Zimbabwe: «Queste pratiche, pur arricchendo pochi individui, impoverirono la cl
 
 ![image](assets/fr/042.webp)
 
-8. Le «banche del mondo»
+#### 8. Le "banche del mondo"
 
 In situazioni di iperinflazione o di crisi monetaria tendono a proliferare mercati paralleli e non regolamentati per le valute estere. Queste «banche» informali, spesso chiamate ironicamente «banche del mondo» o con altri nomi locali, offrono un rifugio a chi cerca di proteggere i propri beni dalla svalutazione. Benché possano costituire un’ancora di salvezza economica, evidenziano spesso una diffusa sfiducia nelle istituzioni finanziarie ufficiali e nelle politiche governative.
 Weimar: «Le loro operazioni si svolgevano principalmente attraverso i cosiddetti Winkelbankiers, gli operatori di strada emersi con l’inflazione che, prosperando in un’economia malata, vivevano interamente sfruttando la differenza tra i prezzi di acquisto e di vendita delle valute estere.»
@@ -529,6 +529,8 @@ Quando un paese si trova di fronte a una crisi monetaria o economica, una delle 
 Weimar: "I commercianti erano recentemente stati costretti da un nuovo editto ad accettare le banconote dello Stato; ma poiché consentiva anche l'uso continuo di valute straniere per tutti gli acquisti, i commercianti trovavano di solito scuse per accettare quasi nulla di diverso."
 
 Zimbabwe: "Il governo ha introdotto il SI 175/2008 il 12 dicembre 2008 riguardante il pagamento con assegni. Stabiliva: 'La pena per aver rifiutato un pagamento con assegno/carta di credito o un altro metodo di pagamento elettronico mediato da una banca sarà una multa di livello 8 o una pena detentiva di sei mesi o entrambe'. Ovviamente, abbiamo ignorato il SI perché era completamente fuori dalla realtà."
+
+![imagen](assets/fr/043.webp)
 
 11. Obbligati a tenere aperti i loro negozi
 

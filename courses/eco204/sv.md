@@ -849,7 +849,7 @@ Zimbabwe: "Dessa metoder berikade ett fåtal individer, men utarmade arbetarklas
 ![image](assets/fr/042.webp)
 
 
-8. "Världsbankerna"
+#### 8. "Världens banker"
 
 
 I situationer med hyperinflation eller monetär kris tenderar parallella och oreglerade marknader för utländska valutor att spridas. Dessa informella "banker", som ofta på ett humoristiskt sätt kallas "världsbanker" eller andra lokala namn, utgör en tillflyktsort för dem som vill skydda sina tillgångar från devalvering. Även om dessa marknader kan utgöra en nödvändig ekonomisk livlina, visar de ofta på en utbredd misstro mot officiella finansiella institutioner och regeringens politik.

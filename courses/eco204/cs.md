@@ -517,7 +517,7 @@ Zimbabwe: "Tyto praktiky, ačkoli obohatily několik jedinců, zchudly městskou
 
 ![image](assets/fr/042.webp)
 
-8. "Světové banky"
+#### 8. "Banky světa"
 
 V situacích hyperinflace nebo měnové krize mají tendenci se množit paralelní a neregulované trhy s cizími měnami. Tyto neformální "banky", často humorně označované jako "světové banky" nebo jinými místními názvy, poskytují útočiště těm, kteří se snaží chránit svá aktiva před devalvací. Ačkoli tyto trhy mohou poskytovat nezbytnou ekonomickou životní linku, často poukazují na rozšířenou nedůvěru v oficiální finanční instituce a vládní politiky.
 Weimar: "Jejich transakce byly převážně prováděny takzvanými Winkelbankiers, uličními operátory, kteří se objevili s inflací a kteří, prosperující v nemocné ekonomice, žili zcela tím, že využívali rozdílu mezi nákupními a prodejními cenami cizích měn."

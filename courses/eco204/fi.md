@@ -511,7 +511,7 @@ Zimbabwe: "Nämä käytännöt rikastuttivat muutamia yksilöitä, mutta köyhdy
 
 ![kuva](assets/fr/042.webp)
 
-8. "Maailmanpankit"
+#### 8. "Maailman pankit"
 
 Hyperinflaation tai rahakriisin tilanteissa epäviralliset ja sääntelemättömät valuuttamarkkinat yleistyvät. Näitä epävirallisia "pankkeja", joita usein leikillisesti kutsutaan "maailmanpankeiksi" tai muilla paikallisilla nimillä, tarjoavat turvapaikan niille, jotka haluavat suojata omaisuutensa arvon alenemiselta. Vaikka nämä markkinat voivat tarjota tarpeellisen taloudellisen elämänlangan, ne usein korostavat laajalle levinnyttä epäluottamusta virallisia rahoituslaitoksia ja hallituksen politiikkoja kohtaan.
 Weimar: "Heidän toimensa suoritettiin pääasiassa niin kutsuttujen Winkelbankiersin, inflaation myötä esiin nousseiden katukauppiaiden, kautta, jotka menestyivät sairaassa taloudessa eläen täysin hyödyntämällä eroa ulkomaanvaluuttojen ostamisen ja myymisen hintojen välillä."

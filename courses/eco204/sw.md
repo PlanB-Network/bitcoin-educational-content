@@ -620,7 +620,7 @@ Zimbabwe: "Vitendo hivi, pamoja na kuwatajirisha watu wachache, vilifukarisha wa
 
 ![image](assets/fr/042.webp)
 
-8. "Benki za Dunia"
+#### 8. "Benki za dunia"
 
 Katika hali ya mfumuko mkubwa wa bei au mgogoro wa kifedha, masoko ya sambamba na yasiyodhibitiwa ya fedha za kigeni huwa yanaongezeka. "Benki" hizi zisizo rasmi, ambazo mara nyingi hujulikana kwa ucheshi kama "benki za dunia" au kwa majina mengine ya ndani, hutoa kimbilio kwa wale wanaotaka kulinda mali zao dhidi ya kushuka kwa thamani. Ingawa masoko haya yanaweza kutoa tegemeo muhimu la kiuchumi, mara nyingi yanaangazia kutokuamini kwa taasisi rasmi za kifedha na sera za Fiat money (pesa za serikali).
 

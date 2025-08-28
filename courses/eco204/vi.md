@@ -516,7 +516,7 @@ Zimbabwe: "Những hoạt động này, mặc dù làm giàu cho một số cá 
 
 ![image](assets/fr/042.webp)
 
-8. Các "ngân hàng thế giới"
+#### 8. "Các ngân hàng của thế giới"
 
 Trong tình huống siêu lạm phát hoặc khủng hoảng tiền tệ, thị trường song song và không được quản lý (thị trường chợ đên) cho các đồng ngoại tệ có xu hướng phát triển mạnh. Những "ngân hàng" không chính thức này, thường được gọi một cách hài hước là "ngân hàng thế giới" hoặc bằng các tên địa phương khác, mang lại một nơi trú ẩn cho những người tìm cách bảo vệ tài sản của họ khỏi bị mất giá. Mặc dù những thị trường này có thể cung cấp một chiếc phao cứu sinh kinh tế cần thiết, chúng thường làm nổi bật sự thiếu tin tưởng vào các tổ chức tài chính chính thức và các chính sách của chính phủ trên diện rộng.
 Weimar: "Giao dịch của họ chủ yếu được thực hiện thông qua các Winkelbankiers, những người hoạt động trên đường phố đã xuất hiện cùng với với lạm phát và sống hoàn toàn bằng cách tận dụng sự chênh lệch giữa giá mua và bán của các đồng ngoại tệ."

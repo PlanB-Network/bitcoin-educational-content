@@ -541,7 +541,7 @@ Zimbabwe: "These practices, while enriching a few individuals, impoverished the 
 
 ![image](assets/fr/042.webp)
 
-8. The "world banks"
+#### 8. The "banks of the world"
 
 In situations of hyperinflation or monetary crisis, parallel and unregulated markets for foreign currencies tend to proliferate. These informal "banks," often humorously referred to as "world banks" or by other local names, provide a refuge for those seeking to protect their assets from devaluation. Although these markets can provide a necessary economic lifeline, they often highlight widespread distrust of official financial institutions and government policies.
 Weimar: "Their transactions were mainly carried out through the so-called Winkelbankiers, the street operators who had emerged with inflation and who, thriving in a sick economy, lived entirely by taking advantage of the difference between the buying and selling prices of foreign currencies."

@@ -537,7 +537,7 @@ Zimbabwe: "Diese Praktiken haben zwar einige Menschen bereichert, aber die städ
 
 ![image](assets/fr/042.webp)
 
-8. Die "Weltbanken"
+#### 8. Die "Banken der Welt"
 
 In Zeiten von Hyperinflation oder Währungskrisen neigen parallele und unregulierte Märkte für ausländische Währungen dazu, sich zu verbreiten. Diese informellen "Banken", oft humorvoll als "Weltbanken" oder mit anderen lokalen Namen bezeichnet, bieten einen Schutz für diejenigen, die ihre Vermögenswerte vor Abwertung schützen möchten. Obwohl diese Märkte eine notwendige wirtschaftliche Rettungsleine bieten können, verdeutlichen sie oft das weit verbreitete Misstrauen gegenüber offiziellen Finanzinstitutionen und Regierungspolitiken.
 Weimar: "Ihre Transaktionen wurden hauptsächlich über die sogenannten Winkelbankiers abgewickelt, die Straßenhändler, die mit der Inflation aufgetaucht waren und in einer kranken Wirtschaft gediehen, indem sie vollständig von der Differenz zwischen den An- und Verkaufspreisen ausländischer Währungen profitierten."

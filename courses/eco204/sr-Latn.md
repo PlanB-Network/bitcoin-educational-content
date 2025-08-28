@@ -849,7 +849,7 @@ Zimbabve: "Ove prakse, iako su obogatile nekolicinu pojedinaca, osiromašile su 
 ![image](assets/fr/042.webp)
 
 
-8. "svetske banke"
+#### 8. "Banke sveta"
 
 
 U situacijama hiperinflacije ili monetarne krize, paralelni i neregulisani tržišta za strane valute imaju tendenciju da se šire. Ove neformalne "banke," često humoristično nazvane "svetske banke" ili drugim lokalnim imenima, pružaju utočište onima koji žele zaštititi svoju imovinu od devalvacije. Iako ova tržišta mogu pružiti neophodnu ekonomsku liniju spasa, često ističu rašireno nepoverenje u zvanične finansijske institucije i vladine politike.

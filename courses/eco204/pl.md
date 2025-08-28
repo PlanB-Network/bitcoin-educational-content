@@ -849,7 +849,7 @@ Zimbabwe: "Praktyki te, choć wzbogaciły kilka osób, zubożyły miejską klas�
 ![image](assets/fr/042.webp)
 
 
-8. "Banki światowe"
+#### 8. "Banki świata"
 
 
 W sytuacjach hiperinflacji lub kryzysu monetarnego, równoległe i nieuregulowane rynki walut obcych mają tendencję do mnożenia się. Te nieformalne "banki", często humorystycznie nazywane "bankami światowymi" lub innymi lokalnymi nazwami, stanowią schronienie dla tych, którzy chcą chronić swoje aktywa przed dewaluacją. Chociaż rynki te mogą zapewnić niezbędną ekonomiczną linię życia, często podkreślają powszechną nieufność wobec oficjalnych instytucji finansowych i polityki rządu.

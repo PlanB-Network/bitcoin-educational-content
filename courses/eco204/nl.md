@@ -849,7 +849,7 @@ Zimbabwe: "Deze praktijken verrijkten een paar individuen, maar verarmden de ste
 ![image](assets/fr/042.webp)
 
 
-8. De "wereldbanken
+#### 8. De "banken van de wereld"
 
 
 In situaties van hyperinflatie of monetaire crisis ontstaan er vaak parallelle en ongereguleerde markten voor vreemde valuta. Deze informele "banken", die vaak met humor "wereldbanken" of andere lokale namen worden genoemd, bieden een toevluchtsoord voor mensen die hun bezittingen willen beschermen tegen devaluatie. Hoewel deze markten een noodzakelijke economische reddingslijn kunnen vormen, benadrukken ze vaak het wijdverspreide wantrouwen tegenover officiële financiële instellingen en overheidsbeleid.

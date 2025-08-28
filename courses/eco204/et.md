@@ -519,7 +519,7 @@ Zimbabwe: "Need praktikad, kuigi rikastasid mõningaid üksikisikuid, vaesestasi
 
 ![image](assets/fr/042.webp)
 
-8. "Maailmapangad"
+#### 8. "Maailma pangad"
 
 Hüperinflatsiooni või rahanduskriisi olukordades kipuvad tekkima paralleelsed ja reguleerimata turud välisvaluutadele. Neid mitteametlikke "panku", mida tihti huumoriga nimetatakse "maailmapankadeks" või muude kohalike nimedega, pakuvad varjupaika neile, kes soovivad kaitsta oma varasid devalveerimise eest. Kuigi need turud võivad pakkuda vajalikku majanduslikku eluliini, toovad nad sageli esile laialdase usaldamatuse ametlike finantsasutuste ja valitsuspoliitika vastu.
 Weimar: "Nende tehingud viidi peamiselt läbi nn Winkelbankiers'ide kaudu, tänavakauplejate kaudu, kes olid tekkinud inflatsiooni ajal ja kes, õitsedes haiges majanduses, elasid täielikult ära välisvaluutade ostu- ja müügihindade vahelt teenimisest."

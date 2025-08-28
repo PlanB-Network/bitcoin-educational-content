@@ -5742,6 +5742,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### टोर ब्राउज़र
 
 
@@ -8493,6 +8494,7 @@ DNS (*डोमेन नेम सिस्टम*) एक इंटरने�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - ऑपरेटिंग सिस्टम स्तर पर: कुछ ऑपरेटिंग सिस्टम मूल रूप से एन्क्रिप्टेड DNS समर्थन (DoT या DoH) को एकीकृत करते हैं, जो सिस्टम के नेटवर्क स्टैक से गुजरने वाले सभी DNS अनुरोधों को सुरक्षित करता है। हालाँकि, यह पूरे कंप्यूटर या टेलीफ़ोन को सुरक्षित नहीं करता है: यदि एप्लिकेशन किसी भिन्न DNS रिज़ॉल्वर या प्रोटोकॉल का उपयोग करने के लिए कॉन्फ़िगर किए गए हैं, तो वे इस सेटिंग को बायपास कर सकते हैं।
 
 

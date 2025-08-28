@@ -5742,6 +5742,7 @@ Firefox blijft een benchmark voor beveiliging en privacy, ondanks het feit dat h
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-browser
 
 
@@ -8493,6 +8494,7 @@ In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveau
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Op het niveau van het besturingssysteem: Sommige besturingssystemen integreren standaard versleutelde DNS-ondersteuning (DoT of DoH), waardoor alle DNS-verzoeken die door de netwerkstack van het systeem gaan beveiligd worden. Dit beveiligt echter niet de hele computer of telefoon: Toepassingen kunnen deze instelling omzeilen als ze geconfigureerd zijn om een andere DNS-resolver of een ander protocol te gebruiken.
 
 

@@ -5787,6 +5787,7 @@ Firefox, bazı performans alanlarında Blink tabanlı tarayıcıların biraz ger
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Tarayıcı
 
 
@@ -8553,6 +8554,7 @@ Pratik açıdan, DNS şifreleme ve sunucu değiştirme çeşitli düzeylerde uyg
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - İşletim sistemi düzeyinde: Bazı işletim sistemleri, sistemin ağ yığınından geçen tüm DNS isteklerini güvence altına alan şifreli DNS desteğini (DoT veya DoH) yerel olarak entegre eder. Ancak bu, bilgisayarın veya telefonun tamamını güvence altına almaz: Uygulamalar farklı bir DNS çözümleyici ya da protokol kullanacak şekilde yapılandırılmışlarsa bu ayarı atlayabilirler.
 
 

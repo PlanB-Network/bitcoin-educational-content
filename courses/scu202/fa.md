@@ -5742,6 +5742,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### مرورگر تور
 
 
@@ -8493,6 +8494,7 @@ DNS (*سیستم نام دامنه*) سرویسی در اینترنت است ک�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - در سطح سیستم‌عامل: برخی از سیستم‌عامل‌ها به‌طور بومی از پشتیبانی DNS رمزگذاری‌شده (DoT یا DoH) برخوردارند که تمامی درخواست‌های DNS عبوری از پشته شبکه سیستم را ایمن می‌کند. با این حال، این امر کل کامپیوتر یا تلفن را ایمن نمی‌کند: برنامه‌ها می‌توانند این تنظیم را دور بزنند اگر به گونه‌ای تنظیم شده باشند که از یک حل‌کننده DNS یا پروتکل متفاوت استفاده کنند.
 
 

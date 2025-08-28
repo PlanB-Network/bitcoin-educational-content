@@ -5742,6 +5742,7 @@ Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit te
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Peramban Tor
 
 
@@ -8493,6 +8494,7 @@ Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada be
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Pada tingkat sistem operasi: Beberapa OS secara bawaan mengintegrasikan dukungan DNS terenkripsi (DoT atau DoH), yang mengamankan semua permintaan DNS yang melewati tumpukan jaringan sistem. Namun, hal ini tidak mengamankan seluruh komputer atau telepon: Aplikasi dapat melewati pengaturan ini jika dikonfigurasi untuk menggunakan resolver atau protokol DNS yang berbeda.
 
 

@@ -5742,6 +5742,7 @@ Firefox sigue siendo una referencia en materia de seguridad y privacidad, a pesa
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Navegador Tor
 
 
@@ -8493,6 +8494,7 @@ En la práctica, el cifrado DNS y la conmutación de servidores pueden aplicarse
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - A nivel de sistema operativo: Algunos sistemas operativos integran de forma nativa soporte DNS cifrado (DoT o DoH), que asegura todas las peticiones DNS que pasan por la pila de red del sistema. Sin embargo, esto no asegura todo el ordenador o el teléfono: Las aplicaciones pueden eludir este ajuste si están configuradas para utilizar un resolver DNS o protocolo diferente.
 
 

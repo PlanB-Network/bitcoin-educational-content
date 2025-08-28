@@ -4349,6 +4349,7 @@ Firefox is an open source browser, distributed under the MPL (*Mozilla Public Li
 Firefox remains a benchmark for security and privacy, despite lagging slightly behind Blink-based browsers in certain performance areas. It can be a very good browser, as long as it is configured properly.
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Browser
 
 
@@ -6236,6 +6237,7 @@ In practical terms, DNS encryption and server switching can be implemented at va
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - At operating system level: Some OSes natively integrate encrypted DNS support (DoT or DoH), which secures all DNS requests passing through the system's network stack. This does not, however, secure the entire computer or telephone: Applications can bypass this setting if they are configured to use a different DNS resolver or protocol.
 
 - At network level: DNS encryption can be applied to the entire local network via router configuration. Once again, a router configured for DoH/DoT only sees traffic that is actually sent to it. So a browser configured to contact a remote resolver directly escapes this control. To reduce these loopholes, you need to block port 53 in clear text and restrict unauthorized DoH/DoT destinations via the router's firewall.

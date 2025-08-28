@@ -5742,6 +5742,7 @@ Firefox jääb turvalisuse ja privaatsuse osas endiselt eeskujuks, kuigi jääb 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor brauser
 
 
@@ -8493,6 +8494,7 @@ Praktikas saab DNS-i krüpteerimist ja serveri vahetamist rakendada erinevatel t
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Operatsioonisüsteemi tasandil: Mõned operatsioonisüsteemid integreerivad algselt krüpteeritud DNS-toe (DoT või DoH), mis turvab kõik DNS-päringud, mis läbivad süsteemi võrgupinu. See ei taga siiski kogu arvuti või telefoni turvalisust: Rakendused võivad sellest seadistusest mööda minna, kui nad on konfigureeritud kasutama teistsugust DNS-resolverit või -protokolli.
 
 

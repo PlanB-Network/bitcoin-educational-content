@@ -5742,6 +5742,7 @@ Mozilla 是一个非营利组织，这使它相对独立于纯粹的商业利益
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 浏览器
 
 
@@ -8493,6 +8494,7 @@ DNS（*域名系统*）是将人类可理解的网址（如 "planb.network"）�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 操作系统层面：一些操作系统本机集成了加密 DNS 支持（DoT 或 DoH），可确保通过系统网络堆栈的所有 DNS 请求的安全。但这并不能确保整个计算机或电话的安全：如果将应用程序配置为使用不同的 DNS 解析器或协议，它们可以绕过此设置。
 
 

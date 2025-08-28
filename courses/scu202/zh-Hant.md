@@ -5742,6 +5742,7 @@ Firefox 儘管在某些效能領域稍稍落後於以 Blink 為基礎的瀏覽�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 瀏覽器
 
 
@@ -8493,6 +8494,7 @@ DNS (*Domain Name System*) 是一種網際網路服務，可將人類可理解�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 在作業系統層級：有些作業系統原生整合了加密 DNS 支援 (DoT 或 DoH)，可保護所有通過系統網路堆疊的 DNS 請求。不過，這並不能確保整個電腦或電話的安全：如果應用程式設定為使用不同的 DNS 解析器或通訊協定，就可以繞過此設定。
 
 

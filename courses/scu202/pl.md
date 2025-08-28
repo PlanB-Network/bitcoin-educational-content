@@ -5742,6 +5742,7 @@ Firefox pozostaje punktem odniesienia dla bezpieczeństwa i prywatności, mimo �
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Przeglądarka Tor
 
 
@@ -8493,6 +8494,7 @@ W praktyce szyfrowanie DNS i przełączanie serwerów może być realizowane na 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na poziomie systemu operacyjnego: Niektóre systemy operacyjne natywnie integrują szyfrowaną obsługę DNS (DoT lub DoH), która zabezpiecza wszystkie żądania DNS przechodzące przez stos sieciowy systemu. Nie zabezpiecza to jednak całego komputera lub telefonu: Aplikacje mogą ominąć to ustawienie, jeśli są skonfigurowane do korzystania z innego resolwera DNS lub protokołu.
 
 

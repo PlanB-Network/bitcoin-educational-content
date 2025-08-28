@@ -5742,6 +5742,7 @@ Firefox on edelleen turvallisuuden ja yksityisyydensuojan vertailukohde, vaikka 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-selain
 
 
@@ -8493,6 +8494,7 @@ Käytännössä DNS-salaus ja palvelimen vaihto voidaan toteuttaa eri tasoilla:
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Käyttöjärjestelmätasolla: Tämä suojaa kaikki DNS-pyynnöt, jotka kulkevat järjestelmän verkkopinon läpi. Tämä ei kuitenkaan suojaa koko tietokonetta tai puhelinta: Sovellukset voivat ohittaa tämän asetuksen, jos ne on määritetty käyttämään eri DNS-resolveria tai -protokollaa.
 
 

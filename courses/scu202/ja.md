@@ -5742,6 +5742,7 @@ Firefoxは、Blinkベースのブラウザにパフォーマンス面で若干�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Torブラウザ
 
 
@@ -8493,6 +8494,7 @@ DNS (*Domain Name System*) は、人間が理解できるウェブアドレス (
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - オペレーティングシステムレベル：一部のOSは、暗号化DNSサポート（DoTまたはDoH）をネイティブに統合しており、システムのネットワークスタックを通過するすべてのDNSリクエストを保護します。しかし、これはコンピュータや電話全体を保護するものではありません：アプリケーションは、別のDNSリゾルバやプロトコルを使うように設定されていれば、この設定をバイパスすることができる。
 
 

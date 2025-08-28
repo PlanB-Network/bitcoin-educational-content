@@ -5742,6 +5742,7 @@ Firefox ist nach wie vor ein Maßstab für Sicherheit und Datenschutz, auch wenn
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-Browser
 
 
@@ -8493,6 +8494,7 @@ In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen E
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Auf der Ebene des Betriebssystems: Einige Betriebssysteme bieten von Haus aus eine verschlüsselte DNS-Unterstützung (DoT oder DoH), mit der alle DNS-Anfragen, die den Netzwerkstapel des Systems passieren, gesichert werden. Dadurch wird jedoch nicht der gesamte Computer oder das Telefon gesichert: Anwendungen können diese Einstellung umgehen, wenn sie für die Verwendung eines anderen DNS-Auflösers oder -Protokolls konfiguriert sind.
 
 

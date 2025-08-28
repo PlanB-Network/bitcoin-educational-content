@@ -5742,6 +5742,7 @@ Firefox rimane un punto di riferimento per la sicurezza e la privacy, nonostante
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Browser Tor
 
 
@@ -8493,6 +8494,7 @@ In pratica, la crittografia DNS e il cambio di server possono essere implementat
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - A livello di sistema operativo: Alcuni sistemi operativi integrano nativamente il supporto DNS criptato (DoT o DoH), che protegge tutte le richieste DNS che passano attraverso lo stack di rete del sistema. Tuttavia, questo non protegge l'intero computer o telefono: Le applicazioni possono aggirare questa impostazione se sono configurate per utilizzare un risolutore o un protocollo DNS diverso.
 
 

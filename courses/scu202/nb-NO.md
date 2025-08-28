@@ -5742,6 +5742,7 @@ Firefox er fortsatt en referanse for sikkerhet og personvern, til tross for at d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-nettleser
 
 
@@ -8493,6 +8494,7 @@ I praksis kan DNS-kryptering og serverbytte implementeres på ulike nivåer:
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - På operativsystemnivå: Noen operativsystemer har innebygd støtte for kryptert DNS (DoT eller DoH), noe som sikrer alle DNS-forespørsler som går gjennom systemets nettverksstack. Dette sikrer imidlertid ikke hele datamaskinen eller telefonen: Programmer kan omgå denne innstillingen hvis de er konfigurert til å bruke en annen DNS-resolver eller -protokoll.
 
 

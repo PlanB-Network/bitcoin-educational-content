@@ -5742,6 +5742,7 @@ Firefox zůstává měřítkem bezpečnosti a ochrany soukromí, přestože v n�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Prohlížeč Tor
 
 
@@ -8493,6 +8494,7 @@ V praxi lze šifrování DNS a přepínání serverů realizovat na různých ú
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na úrovni operačního systému: Některé operační systémy mají nativně integrovanou podporu šifrovaného DNS (DoT nebo DoH), která zabezpečuje všechny požadavky DNS procházející síťovým zásobníkem systému. Tím však není zabezpečen celý počítač nebo telefon: Aplikace mohou toto nastavení obejít, pokud jsou nakonfigurovány tak, aby používaly jiný resolver DNS nebo protokol.
 
 

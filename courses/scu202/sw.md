@@ -5742,6 +5742,7 @@ Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kuwa nyuma kidogo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Kivinjari cha Tor
 
 
@@ -8493,6 +8494,7 @@ Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kut
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Katika kiwango cha mfumo wa uendeshaji: Baadhi ya mifumo ya uendeshaji huunganisha usaidizi wa DNS uliosimbwa kwa njia fiche (DoT au DoH), ambao hulinda maombi yote ya DNS yanayopitia mrundikano wa mtandao wa mfumo. Hii, hata hivyo, hailindi kompyuta au simu nzima: Programu zinaweza kukwepa mpangilio huu ikiwa zimesanidiwa kutumia kisuluhishi au itifaki tofauti ya DNS.
 
 

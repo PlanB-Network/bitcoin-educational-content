@@ -5742,6 +5742,7 @@ Firefox vẫn là chuẩn mực về bảo mật và quyền riêng tư, mặc d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Trình duyệt Tor
 
 
@@ -8493,6 +8494,7 @@ Trên thực tế, mã hóa DNS và chuyển đổi máy chủ có thể đượ
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Ở cấp độ hệ điều hành: Một số hệ điều hành tích hợp sẵn hỗ trợ DNS được mã hóa (DoT hoặc DoH), giúp bảo mật tất cả các yêu cầu DNS đi qua ngăn xếp mạng của hệ thống. Tuy nhiên, điều này không bảo mật toàn bộ máy tính hoặc điện thoại: Các ứng dụng có thể bỏ qua cài đặt này nếu chúng được cấu hình để sử dụng trình phân giải DNS hoặc giao thức khác.
 
 

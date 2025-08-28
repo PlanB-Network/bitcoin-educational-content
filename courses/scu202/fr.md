@@ -2963,6 +2963,8 @@ Firefox est un navigateur open source, distribué sous licence MPL (*Mozilla Pub
 
 Firefox demeure une référence incontournable en matière de sécurité et de protection de la vie privée, malgré un léger retard technique sur certains aspects de performance face aux navigateurs basés sur Blink. Cela peut être un très bon navigateur, à condition de bien le paramétrer.
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 #### Tor Browser
 
 [Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web.
@@ -4664,6 +4666,8 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 - Au niveau applicatif : certains logiciels, comme le navigateur Firefox, permettent de configurer directement des protocoles de chiffrement DNS, notamment DoH. Cette solution ne protège toutefois que les requêtes effectuées via l'application, et pas le reste de votre ordinateur.
 
 ![Image](assets/fr/198.webp)
+
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 
 - Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
 

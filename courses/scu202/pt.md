@@ -5742,6 +5742,7 @@ O Firefox continua a ser uma referência em termos de segurança e privacidade, 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Navegador Tor
 
 
@@ -8493,6 +8494,7 @@ Em termos práticos, a encriptação do DNS e a comutação de servidores podem 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Ao nível do sistema operativo: Alguns sistemas operativos integram nativamente o suporte de DNS encriptado (DoT ou DoH), que protege todos os pedidos de DNS que passam pela pilha de rede do sistema. No entanto, isto não protege todo o computador ou telefone: As aplicações podem contornar esta definição se estiverem configuradas para utilizar um resolvedor ou protocolo DNS diferente.
 
 

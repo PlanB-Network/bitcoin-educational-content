@@ -652,7 +652,7 @@ Per saperne di più sulla gestione della crisi tedesca, questo libro è altresì
 
 ### Paralleli contemporanei
 
-1. Manipolazione della politica monetaria per controllare l'economia.
+#### 1. Manipolazione della politica monetaria per controllare l'economia.
    Nella storia della Repubblica di Weimar, è evidente che gli industriali erano restii all'apprezzamento del Marco. La loro capacità di prendere in prestito e rimborsare i loro debiti con una valuta fortemente svalutata offriva loro un vantaggio considerevole. Questo meccanismo ha facilitato la costruzione di enormi complessi industriali a costi quasi nulli. Questi industriali temevano un'apprezzamento del Marco perché ostacolava le loro attività. Alcuni vedevano addirittura di buon occhio l'inflazione galoppante, ritenendo che garantisse l'occupazione alla popolazione. Tuttavia, non misuravano l'impatto negativo di questa inflazione sul risparmio e sull'economia in generale. Per questi attori economici, la stampa di moneta era una manna dal cielo.
 
 > Weimar: "È per questa ragione che un'apprezzamento del Marco era fortemente temuto, e anche le poche settimane di 'stabilità' dopo Genova hanno causato una stagnazione degli affari."
@@ -679,6 +679,8 @@ La storia della Repubblica di Weimar rivela che, durante questo periodo, gli ave
 > Una compagnia zombie è un'azienda che, in condizioni di mercato normali, sarebbe insolvente o vicina al fallimento, ma che continua a funzionare principalmente grazie a prestiti a basso costo. Queste aziende guadagnano appena abbastanza soldi per coprire i loro debiti, ma sono incapaci di crescere in modo significativo.
 
 Questo concetto di compagnia zombie non è nuovo. Infatti, era presente nella Repubblica di Weimar. In quel periodo, molte aziende sembravano prosperare, beneficiando ampiamente dell'accesso al credito gratuito. Prendevano in prestito somme considerevoli, con la prospettiva di restituire successivamente con una valuta svalutata a causa dell'inflazione galoppante. Tuttavia, quando l'inflazione si è fermata e il marco tedesco ha ripreso valore, queste aziende, che non erano veramente sostenibili in termini operativi e finanziari, sono diventate non redditizie e hanno dovuto chiudere.
+
+![image](assets/fr/050.webp)
 
 Il fenomeno delle compagnie zombie non si limita alla storia della Germania del dopoguerra. Oggi ancora molte grandi aziende sopravvivono grazie all'accesso privilegiato a crediti a tassi di interesse molto bassi. Se dovessero prendere in prestito a tassi più convenzionali, molte di loro smetterebbero di essere redditizie. Questo è particolarmente rilevante nel 2023, dopo un lungo periodo di tassi di interesse vicini allo zero, che hanno iniziato ad aumentare. Questa recente evoluzione del panorama finanziario sarà senza dubbio una prova decisiva per queste aziende un tempo definite "zombie".
 

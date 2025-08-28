@@ -647,7 +647,7 @@ Lisätietoja Saksan kriisin hallinnasta, myös tämä kirja on olennainen.
 
 ### Nykyaikaiset Paralleelit
 
-1. Raha- ja talouspolitiikan manipulointi talouden ohjaamiseksi.
+#### 1. Rahapolitiikan manipulointi talouden hallitsemiseksi.
    Weimarin tasavallan historiassa on ilmeistä, että teollisuusjohtajat olivat haluttomia näkemään Markan arvostuksen nousua. Heidän kykynsä lainata ja maksaa velkansa takaisin voimakkaasti arvottomalla valuutalla antoi heille merkittävän edun. Tämä mekanismi mahdollisti valtavien teollisuuskompleksien rakentamisen lähes ilman kustannuksia. Nämä teollisuusjohtajat pelkäsivät Markan arvostuksen nousua, koska se haittasi heidän toimintaansa. Jotkut jopa pitivät rajua inflaatiota hyvänä asiana, uskoen sen takaavan työllisyyden väestölle. He eivät kuitenkaan ymmärtäneet tämän inflaation haitallista vaikutusta säästöihin ja talouteen yleensä. Näille talouden toimijoille rahan painaminen oli siunaus.
    Weimar: "Tämän vuoksi markan arvostuksen pelättiin nousevan suuresti, ja jopa Genovan jälkeiset muutamat viikot 'vakauden' aikana aiheuttivat liiketoiminnan pysähtymisen."
    Weimar: "Teollisuuspiireissä kohdattiin vaara, että käteinen muuttuisi arvokkaammaksi kuin tavarat, ja romahdus tapahtuisi, kun kaikki yrittivät muuttaa omaisuutensa käteiseksi."

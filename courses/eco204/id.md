@@ -653,7 +653,7 @@ Untuk mempelajari lebih lanjut tentang pengelolaan krisis Jerman, buku ini juga 
 
 ### Paralel Kontemporer
 
-1. Manipulasi kebijakan moneter untuk mengendalikan ekonomi.
+#### 1. Manipulasi kebijakan moneter untuk mengendalikan ekonomi.
    Dalam sejarah Republik Weimar, jelas bahwa para industrialis enggan melihat apresiasi Mark. Kemampuan mereka untuk meminjam dan melunasi utang mereka dengan mata uang yang sangat terdepresiasi memberi mereka keuntungan yang signifikan. Mekanisme ini memfasilitasi pembangunan kompleks industri besar dengan hampir tanpa biaya. Para industrialis ini khawatir akan apresiasi Mark karena menghambat aktivitas mereka. Beberapa bahkan melihat inflasi yang merajalela sebagai hal yang baik, percaya itu menjamin pekerjaan untuk populasi. Namun, mereka tidak menyadari dampak merugikan inflasi ini terhadap tabungan dan ekonomi pada umumnya. Bagi para aktor ekonomi ini, pencetakan uang adalah berkah.
    Weimar: "Inilah mengapa apresiasi terhadap mark sangat ditakuti, dan bahkan beberapa minggu 'stabilitas' setelah Genoa menyebabkan stagnasi bisnis."
    Weimar: "Kalangan industri menghadapi bahaya di mana uang tunai akan menjadi lebih berharga daripada barang, dan sebuah kehancuran akan terjadi ketika semua orang mencoba mengubah aset mereka menjadi uang tunai."

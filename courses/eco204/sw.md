@@ -764,7 +764,7 @@ Ili kujifunza zaidi kuhusu usimamizi wa mgogoro wa Ujerumani, kitabu hiki pia ni
 
 ### Sambamba za Kisasa
 
-1. Udanganyifu wa sera ya fedha ili kudhibiti uchumi.
+#### 1. Udanganyifu wa sera ya fedha ili kudhibiti uchumi.
 
 Katika historia ya Jamhuri ya Weimar, ni dhahiri kwamba wenye viwanda walisita kuona kuthaminiwa kwa Alama. Uwezo wao wa kukopa na kulipa madeni yao kwa sarafu iliyopungua sana uliwapa faida kubwa. Utaratibu huu uliwezesha ujenzi wa majengo makubwa ya viwanda kwa karibu bila gharama yoyote. Wafanyabiashara hawa wa viwanda waliogopa kuthamini Alama kwani ilizuia shughuli zao. Wengine hata waliona mfumuko wa bei uliokithiri kuwa jambo zuri, wakiamini kuwa unahakikisha ajira kwa watu. Hata hivyo, hawakutambua madhara ya mfumuko huu wa bei kwenye akiba na uchumi kwa ujumla. Kwa watendaji hawa wa kiuchumi, uchapishaji wa pesa ulikuwa baraka.
 

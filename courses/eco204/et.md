@@ -662,7 +662,7 @@ Saksamaa kriisi haldamise kohta lisateabe saamiseks on see raamat samuti hädava
 
 ### Kaasaegsed paralleelid
 
-1. Rahapoliitika manipuleerimine majanduse kontrollimiseks.
+#### 1. Rahapoliitika manipuleerimine majanduse kontrollimiseks.
    Weimari Vabariigi ajaloost on ilmne, et töösturid olid vastumeelsed Marki väärtuse tõusu nägemisele. Nende võime laenata ja tagasi maksta oma võlgu tugevalt devalveeritud valuutas andis neile märkimisväärse eelise. See mehhanism hõlbustas tohutute tööstuskomplekside ehitamist peaaegu ilma kuludeta. Need töösturid kartsid Marki väärtuse tõusu, kuna see takistas nende tegevust. Mõned isegi pidasid möllavat inflatsiooni heaks asjaks, uskudes, et see tagab elanikkonnale tööhõive. Siiski ei mõistnud nad selle inflatsiooni kahjulikku mõju säästudele ja majandusele üldiselt. Nende majandustegelaste jaoks oli rahatrükk õnnistus.
    Weimar: "Sellepärast kardeti marka väärtuse tõusu väga ja isegi mõned nädalad 'stabiilsust' pärast Genovat põhjustasid äritegevuse seiskumise."
    Weimar: "Tööstusringkonnad seisid silmitsi ohuga, et sularaha muutub kaupadest väärtuslikumaks ja kokkuvarisemine toimub, kui kõik üritavad oma varad sularahaks teisendada."

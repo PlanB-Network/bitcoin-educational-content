@@ -693,7 +693,7 @@ Para saber mais sobre a gestão da crise alemã, este livro também é fundament
 
 ### Paralelos contemporâneos
 
-1. Manipulação da política monetária para controlar a economia.
+#### 1. Manipulação da política monetária para controlar a economia.
    Na história da República de Weimar, é evidente que os industriais eram relutantes em relação à valorização do Marco. Sua capacidade de tomar empréstimos e pagar suas dívidas com uma moeda fortemente desvalorizada lhes proporcionou uma vantagem considerável. Esse mecanismo facilitou a construção de enormes complexos industriais a custos quase nulos. Esses industriais temiam a valorização do Marco, pois isso prejudicava suas atividades. Alguns até viam a inflação galopante com bons olhos, acreditando que ela garantia emprego para a população. No entanto, eles não percebiam o impacto negativo dessa inflação na poupança e na economia em geral. Para esses atores econômicos, a impressão de dinheiro era uma bênção.
 
 > Weimar: "É por essa razão que a valorização do marco era grandemente temida, e mesmo as poucas semanas de 'estabilidade' após Gênova causaram uma estagnação nos negócios."

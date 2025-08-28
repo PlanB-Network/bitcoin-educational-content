@@ -663,7 +663,7 @@ Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lờ
 
 ### Thế giới song song hiện đại
 
-1. Thao túng chính sách tiền tệ để kiểm soát nền kinh tế.
+#### 1. Thao túng chính sách tiền tệ để kiểm soát nền kinh tế.
    Trong lịch sử của Cộng hòa Weimar, rõ ràng là các nhà công nghiệp không muốn thấy đồng Mark tăng giá. Khả năng vay mượn và trả nợ bằng một đồng tiền bị phá giá nặng nề đã mang lại cho họ một lợi thế rất lớn. Cơ chế này đã tạo điều kiện cho việc xây dựng các khu công nghiệp lớn với chi phí gần như bằng không. Những nhà công nghiệp này lo sợ việc đồng Mark tăng giá vì nó cản trở hoạt động của họ. Thậm chí một số xem lạm phát mạnh mẽ là điều tốt, tin rằng nó đảm bảo việc làm cho dân chúng. Tuy nhiên, họ không nhận ra tác động tiêu cực của lạm phát đối với việc tiết kiệm và nền kinh tế nói chung. Đối với những người tay chơi này (các nhà công nghiệp, những người đi vay mượn để đầu tư), việc in tiền là một phước lành.
 
 > Weimar: "Đó là lý do tại sao việc đồng mark tăng giá rất bị sợ hãi, và ngay cả những tuần lễ 'ổn định' sau Hội nghị Genoa cũng đã gây ra sự đình trệ của kinh doanh."

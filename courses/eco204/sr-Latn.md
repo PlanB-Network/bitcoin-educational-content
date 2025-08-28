@@ -1039,7 +1039,7 @@ Da biste saznali više o upravljanju nemačkom krizom, ova knjiga je takođe neo
 ### Savremene Paralele
 
 
-1. Manipulacija monetarnom politikom za kontrolu ekonomije.
+#### 1. Manipulacija monetarnom politikom radi kontrole ekonomije.
 
 U istoriji Vajmarske Republike, evidentno je da su industrijalci bili nevoljni da vide aprecijaciju Marka. Njihova sposobnost da pozajmljuju i vraćaju dugove uz jako devalviranu valutu davala im je značajnu prednost. Ovaj mehanizam je omogućavao izgradnju ogromnih industrijskih kompleksa gotovo bez troškova. Ovi industrijalci su se plašili aprecijacije Marka jer je ometala njihove aktivnosti. Neki su čak smatrali da je galopirajuća inflacija dobra stvar, verujući da garantuje zaposlenost za populaciju. Međutim, nisu shvatali štetan uticaj te inflacije na štednju i ekonomiju uopšte. Za ove ekonomske aktere, štampanje novca je bilo blagoslov.
 

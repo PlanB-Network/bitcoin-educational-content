@@ -1041,7 +1041,7 @@ Aby dowiedzieć się więcej o zarządzaniu niemieckim kryzysem, ta książka je
 ### Współczesne podobieństwa
 
 
-1. Manipulowanie polityką pieniężną w celu kontrolowania gospodarki.
+#### 1. Manipulacja polityką monetarną w celu kontrolowania gospodarki.
 
 W historii Republiki Weimarskiej wyraźnie widać, że przemysłowcy niechętnie patrzyli na aprecjację marki. Ich zdolność do zaciągania pożyczek i spłacania długów za pomocą mocno zdeprecjonowanej waluty dawała im znaczną przewagę. Mechanizm ten ułatwiał budowę ogromnych kompleksów przemysłowych przy niemal zerowych kosztach. Przemysłowcy obawiali się aprecjacji marki, ponieważ utrudniała ona ich działalność. Niektórzy nawet postrzegali szalejącą inflację jako dobrą rzecz, wierząc, że gwarantuje ona zatrudnienie dla ludności. Nie zdawali sobie jednak sprawy ze szkodliwego wpływu tej inflacji na oszczędności i gospodarkę w ogóle. Dla tych podmiotów gospodarczych druk monetarny był błogosławieństwem.
 

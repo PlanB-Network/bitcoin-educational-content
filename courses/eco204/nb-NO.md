@@ -657,7 +657,7 @@ For å lære mer om håndteringen av den tyske krisen, er denne boken også esse
 
 ### Samtidige Paralleller
 
-1. Manipulasjon av pengepolitikk for å kontrollere økonomien.
+#### 1. Manipulering av pengepolitikken for å kontrollere økonomien.
    I historien om Weimarrepublikken er det tydelig at industrielle var motvillige til å se en verdistigning av Marken. Deres evne til å låne og tilbakebetale gjelden sin med en sterkt devaluert valuta ga dem en betydelig fordel. Denne mekanismen lettet byggingen av enorme industrielle komplekser til nesten ingen kostnad. Disse industrielle fryktet en verdistigning av Marken da det hindret deres aktiviteter. Noen så til og med på galopperende inflasjon som en god ting, da de trodde det garanterte sysselsetting for befolkningen. Imidlertid innså de ikke den skadelige innvirkningen av denne inflasjonen på sparing og økonomien generelt. For disse økonomiske aktørene var pengetrykking en velsignelse.
    Weimar: "Dette er grunnen til at en verdsettelse av marken var svært fryktet, og selv de få ukene med 'stabilitet' etter Genova førte til en stagnasjon i næringslivet."
    Weimar: "Industrikretser sto overfor faren for at kontanter ville bli mer verdifulle enn varer, og et kollaps ville inntreffe når alle forsøkte å konvertere sine eiendeler til kontanter."

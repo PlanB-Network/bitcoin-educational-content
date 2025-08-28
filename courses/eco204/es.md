@@ -642,7 +642,7 @@ Para aprender más sobre la gestión de la crisis alemana, este libro también e
 
 ### Los paralelos contemporáneos
 
-1. Manipulación de la política monetaria para controlar la economía.
+#### 1. Manipulación de la política monetaria para controlar la economía.
    En la historia de la República de Weimar, es evidente que los industriales se mostraban reacios a la apreciación del Marco. Su capacidad para pedir prestado y pagar sus deudas con una moneda fuertemente devaluada les ofrecía una ventaja considerable. Este mecanismo facilitó la construcción de enormes complejos industriales a costos casi nulos. Estos industriales temían una apreciación del Marco ya que obstaculizaba sus actividades. Incluso algunos veían con buenos ojos la inflación galopante, ya que consideraban que garantizaba el empleo para la población. Sin embargo, no medían el impacto negativo de esta inflación en el ahorro y en la economía en general. Para estos actores económicos, la impresión de dinero era una bendición.
 
 > Weimar: "Es por esta razón que se temía enormemente una apreciación del marco, y incluso las pocas semanas de 'estabilidad' después de Génova provocaron una paralización de los negocios".

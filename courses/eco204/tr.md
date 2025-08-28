@@ -1042,7 +1042,7 @@ Almanya krizinin yönetimi hakkında daha fazla bilgi edinmek için bu kitap da 
 ### Çağdaş Paralellikler
 
 
-1. Ekonomiyi kontrol etmek için para politikasının manipülasyonu.
+#### 1. Ekonomiyi kontrol etmek için para politikasının manipülasyonu.
 
 Weimar Cumhuriyeti'nin tarihine bakıldığında, sanayicilerin Mark'ın değer kazanması konusunda isteksiz oldukları görülmektedir. Aşırı değer kaybetmiş bir para birimiyle borçlanabilme ve borçlarını geri ödeyebilme kabiliyetleri onlara önemli bir avantaj sağladı. Bu mekanizma, devasa sanayi komplekslerinin neredeyse hiç maliyet olmadan inşa edilmesini kolaylaştırdı. Bu sanayiciler, faaliyetlerini engellediği için Mark'ın değer kazanmasından korkuyorlardı. Hatta bazıları yaygın enflasyonu iyi bir şey olarak görüyor, bunun nüfus için istihdamı garanti ettiğine inanıyordu. Ancak bu enflasyonun tasarruflar ve genel olarak ekonomi üzerindeki zararlı etkisinin farkında değillerdi. Bu ekonomik aktörler için parasal baskı bir lütuftu.
 

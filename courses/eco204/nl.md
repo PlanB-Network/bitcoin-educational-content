@@ -1040,7 +1040,7 @@ Om meer te weten te komen over het beheer van de Duitse crisis, is dit boek ook 
 ### Hedendaagse parallellen
 
 
-1. Manipulatie van monetair beleid om de economie te controleren.
+#### 1. Manipulatie van het monetaire beleid om de economie te beheersen.
 
 In de geschiedenis van de Weimarrepubliek is het duidelijk dat industriëlen de waardestijging van de Mark niet graag zagen. Hun mogelijkheid om te lenen en hun schulden terug te betalen met een sterk gedeprecieerde munt gaf hen een aanzienlijk voordeel. Dit mechanisme maakte de bouw van enorme industriële complexen tegen bijna geen kosten mogelijk. Deze industriëlen vreesden een waardestijging van de Mark omdat dit hun activiteiten belemmerde. Sommigen zagen de ongebreidelde inflatie zelfs als een goede zaak, in de overtuiging dat dit de werkgelegenheid voor de bevolking garandeerde. Ze realiseerden zich echter niet de nadelige gevolgen van deze inflatie voor het spaargeld en de economie in het algemeen. Voor deze economische actoren was het drukken van geld een zegen.
 

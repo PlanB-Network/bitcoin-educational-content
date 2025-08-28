@@ -679,7 +679,7 @@ Um mehr über das Management der deutschen Krise zu erfahren, ist dieses Buch eb
 
 ### Zeitgenössische Parallelen
 
-1. Manipulation der Geldpolitik zur Kontrolle der Wirtschaft.
+#### 1. Manipulation der Geldpolitik zur Steuerung der Wirtschaft.
    In der Geschichte der Weimarer Republik ist offensichtlich, dass die Industriellen gegenüber einer Aufwertung der Mark zögerten. Ihre Fähigkeit, mit einer stark abgewerteten Währung zu leihen und ihre Schulden zurückzuzahlen, verschaffte ihnen einen erheblichen Vorteil. Dieser Mechanismus ermöglichte den Bau riesiger Industriekomplexe zu nahezu keinen Kosten. Diese Industriellen fürchteten eine Aufwertung der Mark, da sie ihre Aktivitäten behinderte. Einige betrachteten sogar die galoppierende Inflation als positiv, da sie für Beschäftigung in der Bevölkerung sorgte. Sie erkannten jedoch nicht die schädlichen Auswirkungen dieser Inflation auf Ersparnisse und die Wirtschaft im Allgemeinen. Für diese Wirtschaftsakteure war die Geldschöpfung ein Glücksfall.
 
 > Weimar: "Aus diesem Grund wurde eine Aufwertung der Mark stark gefürchtet, und selbst die wenigen Wochen der 'Stabilität' nach Genua führten zu einer Stagnation der Geschäfte."

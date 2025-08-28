@@ -683,7 +683,7 @@ To learn more about the management of the German crisis, this book is also essen
 
 ### Contemporary Parallels
 
-1. Manipulation of monetary policy to control the economy.
+#### 1. Manipulation of monetary policy to control the economy.
    In the history of the Weimar Republic, it is evident that industrialists were reluctant to see the appreciation of the Mark. Their ability to borrow and repay their debts with a heavily depreciated currency gave them a considerable advantage. This mechanism facilitated the construction of huge industrial complexes at almost no cost. These industrialists feared an appreciation of the Mark as it hindered their activities. Some even saw rampant inflation as a good thing, believing it guaranteed employment for the population. However, they did not realize the detrimental impact of this inflation on savings and the economy in general. For these economic actors, monetary printing was a blessing.
 
 > Weimar: "This is why an appreciation of the mark was greatly feared, and even the few weeks of 'stability' after Genoa caused a stagnation of business."

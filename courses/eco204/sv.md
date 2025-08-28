@@ -1041,7 +1041,7 @@ För att lära sig mer om hanteringen av den tyska krisen är denna bok också n
 ### Paralleller i samtiden
 
 
-1. Manipulation av penningpolitiken för att styra ekonomin.
+#### 1. Manipulation av penningpolitiken för att kontrollera ekonomin.
 
 I Weimarrepublikens historia är det uppenbart att industrialisterna var ovilliga att se en appreciering av marken. Deras förmåga att låna och återbetala sina skulder med en kraftigt deprecierad valuta gav dem en avsevärd fördel. Denna mekanism underlättade byggandet av enorma industrikomplex nästan utan kostnad. Dessa industrialister fruktade en appreciering av marken eftersom den skulle hindra deras verksamhet. Vissa såg till och med den skenande inflationen som något positivt, eftersom de trodde att den garanterade sysselsättning för befolkningen. De insåg dock inte inflationens skadliga inverkan på sparandet och ekonomin i allmänhet. För dessa ekonomiska aktörer var sedeltryckningen en välsignelse.
 

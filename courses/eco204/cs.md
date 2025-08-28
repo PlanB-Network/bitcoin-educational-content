@@ -655,7 +655,7 @@ Pro další informace o zvládání německé krize je také nezbytná tato knih
 
 ### Současné paralely
 
-1. Manipulace s měnovou politikou k ovládání ekonomiky.
+#### 1. Manipulace měnové politiky k řízení ekonomiky.
    V historii Výmarské republiky je zřejmé, že průmyslníci byli neochotní vidět ocenění Marky. Jejich schopnost půjčovat si a splácet své dluhy silně znehodnocenou měnou jim dávala značnou výhodu. Tento mechanismus usnadnil stavbu obrovských průmyslových komplexů téměř bez nákladů. Tito průmyslníci se obávali ocenění Marky, protože to bránilo jejich aktivitám. Někteří dokonce považovali nekontrolovanou inflaci za dobrou věc, protože věřili, že zaručuje zaměstnanost pro populaci. Nicméně si neuvědomovali škodlivý dopad této inflace na úspory a ekonomiku obecně. Pro tyto ekonomické aktéry byl tisk peněz požehnáním.
 1. Weimar: "To je důvod, proč se velmi obávalo zhodnocení marky, a dokonce i několik týdnů 'stability' po Janově způsobilo stagnaci v podnikání."
    > Weimar: "Průmyslové kruhy čelily nebezpečí, že hotovost by se stala cennější než zboží, a když by se každý pokusil přeměnit svá aktiva na hotovost, došlo by k zániku."

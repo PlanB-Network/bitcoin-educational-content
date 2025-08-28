@@ -26,7 +26,7 @@ Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych a
 Możesz kupić gotowy węzeł z dołączonym mini ekranem lub zbudować go samodzielnie (nie potrzebujesz ekranu).
 
 
-Przewodnik na stronie github jest doskonały, ale prawdopodobnie zbyt szczegółowy dla średnio doświadczonego użytkownika. Moje instrukcje będą bardziej zwięzłe i miejmy nadzieję łatwiejsze do wykonania.
+[Przewodnik na stronie GitHub](https://github.com/rootzoll/raspiblitz) jest doskonały, ale być może zbyt szczegółowy dla użytkownika o umiarkowanym doświadczeniu. Moje instrukcje będą bardziej zwięzłe i, mam nadzieję, łatwiejsze do naśladowania.
 
 
 Zasadniczo proces jest bardzo podobny do procesu konfigurowania węzła MyNode z Raspberry Pi 4. Przewodnik Raspiblitz sugeruje zakup monitora, ale tak naprawdę nie jest on potrzebny i nie polecam go. Nie potrzebujesz nawet dodatkowej klawiatury ani myszy. Wystarczy uzyskać dostęp do menu terminala urządzenia za pośrednictwem komputera w tej samej sieci domowej i użyć polecenia ssh za pomocą terminala. Jest to możliwe w systemie Linux/Mac (łatwe) i nieco trudniejsze w systemie Windows.

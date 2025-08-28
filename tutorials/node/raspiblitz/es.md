@@ -18,7 +18,7 @@ El Raspiblitz es un excelente sistema para ejecutar un Nodo Bitcoin y aplicacion
 
 Puedes comprar un nodo preconfigurado con una pantalla miniatura adjunta, o puedes construirlo tú mismo (no necesitas una pantalla).
 
-La guía en la página de GitHub es excelente, pero posiblemente demasiado detallada para un usuario moderadamente experimentado. Mis instrucciones serán más concisas y espero que sean más fáciles de seguir.
+La [guía en la página de GitHub](https://github.com/rootzoll/raspiblitz) es excelente, pero posiblemente demasiado detallada para un usuario con experiencia moderada. Mis instrucciones serán más concisas y, con suerte, más fáciles de seguir.
 
 Básicamente, el proceso es muy similar al proceso de configuración de un nodo MyNode con una Raspberry Pi 4. La guía de Raspiblitz sugiere que compres un monitor, pero realmente no lo necesitas y no lo recomendaría. Ni siquiera necesitas un teclado o un ratón adicional. Simplemente accede al menú de terminal del dispositivo a través de una computadora en la misma red doméstica y usa el comando ssh en la terminal. Esto es posible con Linux/Mac (fácil) y un poco más difícil con Windows.
 

@@ -18,7 +18,7 @@ Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin 
 
 Bạn có thể mua một node đã được làm sẵn với một màn hình mini gắn kèm, hoặc bạn có thể tự xây dựng nó (bạn không cần màn hình).
 
-Hướng dẫn trên trang github rất tốt, nhưng có thể quá chi tiết đối với người dùng có kinh nghiệm vừa phải. Hướng dẫn của tôi sẽ ngắn gọn và hy vọng dễ theo dõi hơn.
+[Hướng dẫn trên trang GitHub](https://github.com/rootzoll/raspiblitz) rất tuyệt vời, nhưng có thể quá chi tiết đối với người dùng có kinh nghiệm vừa phải. Hướng dẫn của tôi sẽ ngắn gọn hơn và hy vọng sẽ dễ dàng hơn để làm theo.
 
 Cơ bản, quy trình rất giống với quy trình thiết lập một node MyNode với Raspberry Pi 4. Hướng dẫn Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần, và tôi không khuyến khích. Bạn thậm chí không cần bàn phím hoặc chuột phụ. Chỉ cần truy cập menu terminal của thiết bị qua một máy tính trên cùng mạng nhà, và sử dụng lệnh ssh qua terminal. Điều này khả thi với Linux/Mac (dễ dàng) và hơi khó hơn với Windows.
 

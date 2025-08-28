@@ -18,7 +18,7 @@ Raspiblitz on suurepärane süsteem Bitcoini node’i ja seotud rakenduste käit
 
 Võid osta valmis sõlme koos külge kinnitatud mini ekraaniga, või võid selle ise ehitada (ekraani pole vaja).
 
-Githubi lehel olev juhend on suurepärane, kuid võib-olla liiga detailne mõõdukalt kogenud kasutajale. Minu juhised on lühemad ja loodetavasti lihtsamini järgitavad.
+[Juhend GitHubi lehel](https://github.com/rootzoll/raspiblitz) on suurepärane, kuid võib-olla liiga üksikasjalik keskmise kogemusega kasutaja jaoks. Minu juhised on lühemad ja loodetavasti lihtsamini järgitavad.
 
 Põhimõtteliselt on protsess väga sarnane MyNode node'i seadistamisega Raspberry Pi 4-ga. Raspiblitzi juhend soovitab osta monitori, kuid tegelikult pole seda vaja ja ma ei soovitaks seda. Sul pole isegi vaja lisaklaviatuuri või hiirt. Lihtsalt pääse seadme terminali menüüsse juurde arvuti kaudu samas koduvõrgus ja kasuta ssh käsku terminalis. See on võimalik Linux/Mac'iga (lihtne) ja natuke raskem Windowsiga.
 

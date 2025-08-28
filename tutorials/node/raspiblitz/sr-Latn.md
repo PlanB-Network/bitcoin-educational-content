@@ -26,7 +26,7 @@ Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija.
 Možete kupiti gotov čvor sa priloženim mini ekranom, ili ga možete sami napraviti (nije vam potreban ekran).
 
 
-Vodič na github stranici je odličan, ali možda previše detaljan za korisnika sa srednjim iskustvom. Moja uputstva će biti sažetija i nadam se lakša za praćenje.
+[Vodič na GitHub stranici](https://github.com/rootzoll/raspiblitz) je odličan, ali možda previše detaljan za korisnika sa srednjim iskustvom. Moja uputstva će biti sažetija i, nadam se, lakša za praćenje.
 
 
 U suštini, proces je veoma sličan procesu postavljanja MyNode čvora sa Raspberry Pi 4. Raspiblitz vodič predlaže da kupite monitor, ali vam zaista nije potreban, i ne bih ga preporučio. Čak vam nije potrebna dodatna tastatura ili miš. Samo pristupite terminal meniju uređaja putem računara na istoj kućnoj mreži, i koristite ssh komandu putem terminala. Ovo je moguće sa Linux/Mac (lako) i malo teže sa Windows.

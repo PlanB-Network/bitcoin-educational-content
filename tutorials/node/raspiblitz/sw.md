@@ -26,7 +26,7 @@ Raspiblitz ni mfumo bora wa kuendesha Node ya Bitcoin na programu zinazohusiana.
 Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaweza kuijenga mwenyewe (huhitaji skrini).
 
 
-Mwongozo kwenye ukurasa wa github ni bora, lakini ikiwezekana ni wa kina sana kwa mtumiaji mwenye uzoefu wa wastani. Maagizo yangu yatakuwa mafupi zaidi na tunatumahi kuwa rahisi kuyafuata.
+[Mwongozo kwenye ukurasa wa GitHub](https://github.com/rootzoll/raspiblitz) ni bora, lakini huenda ukawa na maelezo mengi sana kwa mtumiaji mwenye uzoefu wa wastani. Maelekezo yangu yatakuwa mafupi zaidi na natumai rahisi kufuata.
 
 
 Kimsingi, mchakato huo unafanana sana na mchakato wa kuanzisha node ya MyNode na Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza kununua na kufuatilia, lakini kwa kweli huhitaji moja, na singependekeza. Huhitaji hata kibodi au panya ya ziada. Fikia tu menyu ya terminal ya kifaa kupitia kompyuta kwenye mtandao huo wa nyumbani, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana kwa Linux/Mac (rahisi) na ngumu kidogo na Windows.

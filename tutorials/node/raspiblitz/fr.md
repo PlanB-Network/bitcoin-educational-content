@@ -19,7 +19,7 @@ Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des a
 
 Vous pouvez acheter un nœud préfabriqué avec un écran miniaturisé intégré, ou vous pouvez le construire vous-même (vous n'avez pas besoin d'un écran).
 
-Le guide sur la page GitHub est excellent, mais peut-être trop détaillé pour un utilisateur moyennement expérimenté. Mes instructions seront plus succinctes et, espérons-le, plus faciles à suivre.
+Le [guide sur la page GitHub](https://github.com/rootzoll/raspiblitz) est excellent, mais peut-être trop détaillé pour un utilisateur ayant une expérience modérée. Mes instructions seront plus concises et, espérons-le, plus faciles à suivre.
 
 Essentiellement, le processus est très similaire au processus de configuration d'un nœud MyNode avec un Raspberry Pi 4. Le guide Raspiblitz suggère d'acheter un moniteur, mais vous n'en avez vraiment pas besoin, et je ne le recommanderais pas. Vous n'avez même pas besoin d'un clavier ou d'une souris supplémentaires. Accédez simplement au menu terminal de l'appareil via un ordinateur connecté au même réseau domestique et utilisez la commande ssh dans le terminal. Cela est possible avec Linux/Mac (facile) et un peu plus difficile avec Windows.
 

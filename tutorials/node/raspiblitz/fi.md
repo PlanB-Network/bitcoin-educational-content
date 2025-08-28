@@ -18,7 +18,7 @@ Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovel
 
 Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen itse (et tarvitse näyttöä).
 
-Github-sivun opas on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat ytimekkäämmät ja toivottavasti helpommat seurata.
+[Opas GitHub-sivulla](https://github.com/rootzoll/raspiblitz) on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat tiiviimmät ja toivottavasti helpommin seurattavat.
 
 Käytännössä prosessi on hyvin samanlainen kuin MyNode-noden asettaminen Raspberry Pi 4:lle. Raspiblitzin opas ehdottaa monitorin ostamista, mutta todellisuudessa et tarvitse sitä, enkä suosittelisi. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneella samassa kotiverkossa ja käytät ssh-komentoa terminaalissa. Tämä on mahdollista Linux/Macilla (helppo) ja hieman vaikeampaa Windowsilla.
 

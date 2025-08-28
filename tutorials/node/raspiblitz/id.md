@@ -18,7 +18,7 @@ Raspiblitz adalah sistem yang sangat baik untuk menjalankan Node Bitcoin dan apl
 
 Anda dapat membeli node yang sudah jadi dengan layar mini terpasang, atau Anda dapat membangunnya sendiri (Anda tidak memerlukan layar).
 
-Panduan di halaman github sangat baik, tetapi mungkin terlalu rinci untuk pengguna yang cukup berpengalaman. Instruksi saya akan lebih ringkas dan mudah-mudahan lebih mudah Anda ikuti.
+[Panduan di halaman GitHub](https://github.com/rootzoll/raspiblitz) sangat bagus, tetapi mungkin terlalu rinci untuk pengguna dengan pengalaman sedang. Instruksi saya akan lebih ringkas dan semoga lebih mudah diikuti.
 
 Pada dasarnya, prosesnya sangat mirip dengan proses pengaturan node MyNode dengan Raspberry Pi 4. Panduan Raspiblitz menyarankan Anda membeli monitor, tetapi Anda benar-benar tidak memerlukannya, dan saya tidak merekomendasikannya. Anda bahkan tidak memerlukan keyboard atau mouse tambahan. Cukup akses menu terminal perangkat melalui komputer di jaringan rumah yang sama, dan gunakan perintah ssh menggunakan terminal. Ini mungkin dilakukan dengan Linux/Mac (mudah) dan sedikit lebih sulit dengan Windows.
 

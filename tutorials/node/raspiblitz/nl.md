@@ -72,7 +72,7 @@ Dit is sneller, maar onnodig duur:
 ## Stap 2: Raspiblitz Afbeelding downloaden
 
 
-Navigeer naar de Raspiblitz github website en zoek de "download image" link:
+Ga naar de [Raspiblitz GitHub-website](https://github.com/rootzoll/raspiblitz) en zoek de link “download image”:
 
 
 ![image](assets/4.webp)

@@ -49,7 +49,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 ![image](assets/3.webp)
 
 ## 第2步：下载Raspiblitz镜像
-导航到Raspiblitz的GitHub网站，并找到“下载镜像”链接：
+导航到 [Raspiblitz GitHub 网站](https://github.com/rootzoll/raspiblitz)，然后找到“download image”链接：
 ![image](assets/4.webp)
 
 网站上提供了下载文件的sha-256哈希值。每次更新时这个值都会改变。如果你不明白这是什么意思，你应该去了解一下，所以我写了一个指南，你可以在这里阅读。

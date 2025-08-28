@@ -49,7 +49,7 @@ See on kiirem, kuid tarbetult kallis:
 ![pilt](assets/3.webp)
 
 ## 2. samm: Laadi alla Raspiblitzi Image
-Navigeerige Raspiblitz GitHubi veebilehele ja leidke "download image" link:
+Liigu [Raspiblitz GitHubi veebisaidile](https://github.com/rootzoll/raspiblitz) ja leia link „download image“:
 ![image](assets/4.webp)
 
 Allalaaditud faili sha-256 räsi on veebilehel saadaval. See muutub iga uuendusega. Kui te ei saa aru, mis see on, siis peaksite seda tegema, seega kirjutasin juhendi, mida saate siin lugeda.

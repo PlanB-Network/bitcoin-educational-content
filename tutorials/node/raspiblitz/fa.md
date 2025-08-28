@@ -72,7 +72,7 @@ Raspiblitz یک سیستم عالی برای اجرای یک نود بیت‌ک�
 ## مرحله 2: دانلود تصویر Raspiblitz
 
 
-به وب‌سایت گیت‌هاب Raspiblitz بروید و لینک "دانلود تصویر" را پیدا کنید:
+به [وبسایت گیت‌هاب Raspiblitz](https://github.com/rootzoll/raspiblitz) بروید و لینک «download image» را پیدا کنید:
 
 
 ![image](assets/4.webp)

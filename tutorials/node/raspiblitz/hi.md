@@ -72,7 +72,7 @@ Raspiblitz एक उत्कृष्ट प्रणाली है जो �
 ## चरण 2: रास्पिब्लिट्ज़ छवि डाउनलोड करें
 
 
-रास्पिब्लिट्ज़ गिटहब वेबसाइट पर जाएँ, और “छवि डाउनलोड करें” लिंक ढूंढें:
+[Raspiblitz GitHub वेबसाइट](https://github.com/rootzoll/raspiblitz) पर जाएं, और “download image” लिंक खोजें:
 
 
 ![image](assets/4.webp)

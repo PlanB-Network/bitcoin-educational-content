@@ -49,7 +49,7 @@ Dette er raskere, men unødvendig dyrt:
 ![bilde](assets/3.webp)
 
 ## Steg 2: Last ned Raspiblitz-bildet
-Naviger til Raspiblitz GitHub-nettsiden, og finn "download image"-lenken:
+Naviger til [Raspiblitz GitHub-nettstedet](https://github.com/rootzoll/raspiblitz), og finn lenken “download image”:
 ![bilde](assets/4.webp)
 
 SHA-256-hashen til den nedlastede filen er oppgitt på nettsiden. Den vil endre seg med hver oppdatering. Hvis du ikke forstår hva dette handler om, burde du det, så jeg skrev en guide du kan lese her.

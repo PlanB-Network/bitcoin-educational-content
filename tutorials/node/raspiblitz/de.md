@@ -50,7 +50,7 @@ Dies ist schneller, aber unnötig teuer:
 
 ## Schritt 2: Raspiblitz-Image herunterladen
 
-Navigieren Sie zur Raspiblitz-Github-Website und suchen Sie den Link "Image herunterladen":
+Navigieren Sie zur [Raspiblitz-GitHub-Website](https://github.com/rootzoll/raspiblitz) und suchen Sie den Link „download image“:
 
 ![image](assets/4.webp)
 

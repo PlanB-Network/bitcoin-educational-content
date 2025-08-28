@@ -72,7 +72,7 @@ Hii ni haraka, lakini ni ghali sana:
 ## Hatua ya 2: Pakua Picha ya Raspiblitz
 
 
-Nenda kwenye tovuti ya Raspiblitz github, na upate kiungo cha "pakua picha":
+Nenda kwenye [tovuti ya GitHub ya Raspiblitz](https://github.com/rootzoll/raspiblitz), na upate kiungo cha “download image”:
 
 
 ![image](assets/4.webp)

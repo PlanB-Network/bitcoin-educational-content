@@ -72,7 +72,7 @@ Ovo je brže, ali nepotrebno skupo:
 ## Korak 2: Preuzmite Raspiblitz sliku
 
 
-Idite na Raspiblitz github vebsajt i pronađite link za „preuzimanje slike“:
+Idite na [Raspiblitz GitHub veb stranicu](https://github.com/rootzoll/raspiblitz) i pronađite link „download image“:
 
 
 ![image](assets/4.webp)

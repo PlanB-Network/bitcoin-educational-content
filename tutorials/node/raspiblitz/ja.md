@@ -49,7 +49,7 @@ MyNodeノードを実行するのと全く同じ機材が必要です。一方�
 ![image](assets/3.webp)
 
 ## ステップ2: Raspiblitzイメージをダウンロードする
-RaspiblitzのGitHubウェブサイトにアクセスし、「download image」リンクを見つけてください：
+[Raspiblitz GitHubのウェブサイト](https://github.com/rootzoll/raspiblitz)に移動し、「download image」リンクを探してください:
 ![image](assets/4.webp)
 
 ダウンロードしたファイルのsha-256ハッシュはウェブサイト上で提供されています。これは各アップデートごとに変更されます。これが何についての話か分からない場合は、理解するべきですので、こちらにガイドを書きましたので読んでください。

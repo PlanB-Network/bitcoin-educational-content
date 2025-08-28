@@ -49,7 +49,7 @@ Isso é mais rápido, mas desnecessariamente caro:
 
 ## Passo 2: Baixe a imagem do Raspiblitz
 
-Acesse o site do Raspiblitz no GitHub e encontre o link "download image":
+Acesse o [site do GitHub do Raspiblitz](https://github.com/rootzoll/raspiblitz) e encontre o link “download image”:
 
 ![image](assets/4.webp)
 

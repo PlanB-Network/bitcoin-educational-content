@@ -51,7 +51,7 @@ This is faster, but unnecessarily expensive:
 
 ## Step 2: Download Raspiblitz Image
 
-Navigate to the Raspiblitz github website, and find the “download image” link:
+Navigate to the [Raspiblitz github website](https://github.com/rootzoll/raspiblitz), and find the “download image” link:
 
 ![image](assets/4.webp)
 

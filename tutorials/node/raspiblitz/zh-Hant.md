@@ -72,7 +72,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 ## 步驟 2：下載 Raspiblitz Image
 
 
-瀏覽 Raspiblitz github 網站，找到「下載影像」連結：
+導航到 [Raspiblitz GitHub 網站](https://github.com/rootzoll/raspiblitz)，然後找到「download image」連結：
 
 
 ![image](assets/4.webp)

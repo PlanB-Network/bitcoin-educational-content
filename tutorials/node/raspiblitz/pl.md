@@ -72,7 +72,7 @@ Jest to szybsze rozwiązanie, ale niepotrzebnie kosztowne:
 ## Krok 2: Pobierz obraz Raspiblitz
 
 
-Przejdź do strony github Raspiblitz i znajdź link "pobierz obraz":
+Przejdź do [strony GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz) i znajdź link „download image”:
 
 
 ![image](assets/4.webp)

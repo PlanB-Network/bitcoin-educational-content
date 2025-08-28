@@ -7595,6 +7595,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogrammen voor elke dienst, notities, favorieten, geïntegreerd zoeken, veilig delen van teamcode.
 
 

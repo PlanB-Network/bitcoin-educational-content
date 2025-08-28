@@ -7595,6 +7595,7 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 Ente Auth ni suluhisho la kisasa, la chanzo huria, la mifumo mingi na chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Unaweza pia kuitumia nje ya mtandao, bila kuhifadhi nakala ya wingu au kuunda akaunti.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzwa kukufaa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, kushiriki msimbo salama wa timu.
 
 

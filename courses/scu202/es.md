@@ -7595,6 +7595,7 @@ Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA
 Ente Auth es una solución moderna, de código abierto y multiplataforma con copias de seguridad cifradas de extremo a extremo. Te permite sincronizar tus códigos 2FA de forma segura en móvil, escritorio y web. También puede utilizarla sin conexión, sin copias de seguridad en la nube ni creación de cuentas.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, iconos personalizados para cada servicio, notas, favoritos, búsqueda integrada, compartición segura de códigos de equipo.
 
 

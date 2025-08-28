@@ -7595,6 +7595,7 @@ Aegis on terviklik avatud lähtekoodiga rakendus. See krüpteerib teie 2FA-andme
 Ente Auth on kaasaegne, avatud lähtekoodiga, mitmeplatvormiline lahendus, millel on läbivalt krüpteeritud varukoopiad. See võimaldab teil sünkroonida oma 2FA-koode turvaliselt mobiilis, lauaarvutis ja veebis. Saate seda kasutada ka võrguühenduseta, ilma pilve varundamise või konto loomiseta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth pakub palju lisafunktsioone: Ente Ente pakub: organiseerimine siltide järgi, kohandatud ikoonid iga teenuse jaoks, märkmed, lemmikud, integreeritud otsing, turvaline meeskonnakoodi jagamine.
 
 

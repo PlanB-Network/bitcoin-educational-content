@@ -7595,6 +7595,7 @@ Aegis on kattava avoimen lähdekoodin sovellus. Se salaa 2FA-tietokantasi salasa
 Ente Auth on nykyaikainen, avoimen lähdekoodin monialustaratkaisu, jossa on päästä päähän salatut varmuuskopiot. Sen avulla voit synkronoida 2FA-koodisi turvallisesti mobiilissa, työpöydällä ja verkossa. Voit käyttää sitä myös offline-tilassa ilman pilvivarmistusta tai tilin luomista.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tarjoaa monia lisäominaisuuksia: Muistiinpanot, suosikit, integroitu haku, turvallinen tiimikoodin jakaminen.
 
 

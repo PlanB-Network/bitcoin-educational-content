@@ -7595,6 +7595,7 @@ Aegis là một ứng dụng mã nguồn mở toàn diện. Ứng dụng này m�
 Ente Auth là một giải pháp hiện đại, mã nguồn mở, đa nền tảng với các bản sao lưu được mã hóa đầu cuối. Giải pháp này cho phép bạn đồng bộ hóa mã 2FA một cách an toàn trên thiết bị di động, máy tính để bàn và web. Bạn cũng có thể sử dụng ngoại tuyến, không cần sao lưu đám mây hoặc tạo tài khoản.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth cung cấp nhiều tính năng bổ sung: Sắp xếp theo thẻ, biểu tượng tùy chỉnh cho từng dịch vụ, ghi chú, mục yêu thích, tìm kiếm tích hợp, chia sẻ mã nhóm an toàn.
 
 

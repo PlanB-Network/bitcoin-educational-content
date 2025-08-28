@@ -4102,6 +4102,8 @@ Aegis est une application open source très complète. Elle chiffre votre base d
 
 Ente Auth est une solution moderne, open source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
 
 ![Image](assets/fr/176.webp)

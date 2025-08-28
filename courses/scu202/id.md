@@ -7595,6 +7595,7 @@ Aegis merupakan aplikasi sumber terbuka yang komprehensif. Aplikasi ini mengenkr
 Ente Auth adalah solusi multi-platform yang modern, open-source, dan multi-platform dengan pencadangan terenkripsi ujung ke ujung. Ente Auth memungkinkan Anda untuk menyinkronkan kode 2FA dengan aman di perangkat seluler, desktop, dan web. Anda juga bisa menggunakannya secara offline, tanpa pencadangan awan atau pembuatan akun.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khusus untuk setiap layanan, catatan, favorit, pencarian terintegrasi, berbagi kode tim yang aman.
 
 

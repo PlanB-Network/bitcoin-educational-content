@@ -7655,6 +7655,7 @@ Aegis kapsamlı bir açık kaynak uygulamasıdır. 2FA veritabanınızı bir par
 Ente Auth, uçtan uca şifrelenmiş yedeklemelere sahip modern, açık kaynaklı, çok platformlu bir çözümdür. 2FA kodlarınızı mobil, masaüstü ve web üzerinde güvenli bir şekilde senkronize etmenizi sağlar. Bulut yedekleme veya hesap oluşturma olmadan çevrimdışı olarak da kullanabilirsiniz.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth birçok ek özellik sunar: Etiketlere göre organizasyon, her hizmet için özelleştirilmiş simgeler, notlar, favoriler, entegre arama, güvenli ekip kodu paylaşımı.
 
 

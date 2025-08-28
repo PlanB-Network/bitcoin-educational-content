@@ -7595,6 +7595,7 @@ Aegis 是一款全面的开源应用程序。它用密码加密你的2FA数据�
 Ente Auth 是一个现代化、开源、多平台的解决方案，具有端到端加密备份功能。它能让您在手机、桌面和网络上安全地同步 2FA 代码。您还可以离线使用它，无需云备份或创建账户。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 还提供许多附加功能：按标签组织、为每项服务定制图标、备注、收藏、集成搜索、安全团队代码共享。
 
 

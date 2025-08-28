@@ -7595,6 +7595,7 @@ Aegis er et omfattende program med åpen kildekode. Den krypterer 2FA-databasen 
 Ente Auth er en moderne løsning med åpen kildekode og flere plattformer, med ende-til-ende-krypterte sikkerhetskopier. Den lar deg synkronisere 2FA-kodene dine på en sikker måte på mobil, datamaskin og nett. Du kan også bruke den offline, uten sikkerhetskopiering i skyen eller kontoopprettelse.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede ikoner for hver tjeneste, notater, favoritter, integrert søk, sikker deling av teamkoder.
 
 

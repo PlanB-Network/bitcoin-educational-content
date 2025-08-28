@@ -7595,6 +7595,7 @@ Aegis je komplexní open-source aplikace. Šifruje databázi 2FA pomocí hesla, 
 Ente Auth je moderní multiplatformní řešení s otevřeným zdrojovým kódem a end-to-end šifrovaným zálohováním. Umožňuje bezpečnou synchronizaci kódů 2FA na mobilních zařízeních, počítačích a webu. Můžete jej používat i offline, bez cloudového zálohování nebo vytváření účtu.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nabízí mnoho dalších funkcí: Ente Ente nabízí: uspořádání podle značek, vlastní ikony pro každou službu, poznámky, oblíbené položky, integrované vyhledávání, bezpečné sdílení týmového kódu.
 
 

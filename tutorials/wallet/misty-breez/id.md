@@ -1,13 +1,13 @@
 ---
 name: Misty Breez
-description: Lightning Wallet tanpa busur.
+description: Lightning Wallet tanpa Ribet.
 ---
 
 ![misty-breez-cover](assets/cover.webp)
 
 
 
-Misty Breez adalah Lightning self-holding Wallet yang dikembangkan oleh Breez berdasarkan Kit Pengembangan Perangkat Lunak mereka dan jaringan **Liquid** yang dikembangkan oleh BlockStream.
+Misty Breez adalah **Lightning self-custody wallet** yang dikembangkan oleh Breez, dibangun menggunakan Software Development Kit (SDK) mereka dan terhubung dengan **jaringan Liquid** yang dikembangkan oleh Blockstream.
 
 
 Hadir dengan pendekatan yang benar-benar baru untuk beroperasi tanpa node Lightning: potensi **GAME CHANGER** dalam transfer antar-jaringan Bitcoin.

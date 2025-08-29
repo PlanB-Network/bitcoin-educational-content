@@ -1,14 +1,14 @@
-id: 63b2ff1c-4be5-11f0-9024-97513e9d2cf5
+id: bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 topic: protocol
-subtopic: protocol
-level: intermediate
+subtopic: development
+level: begginer
 hours: 8
 
 
 professors_id:
-  - 736e2e8e-4e62-11f0-b62a-0f5712b72cd7
-published_at: 2025-06-21
+
+published_at: 2025-08-29
 contributor_names:
   - Asi0Flammeus
 
@@ -16,17 +16,9 @@ contributor_names:
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2025-06-20
+    last_contribution_date: 2025-08-29
     urgency: 1
     contributor_names:
       - Asi0Flammeus
     reward: 1
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.21
-tags:
-  - proof-of-work
-  - onchain
-  - smart-contracts
+

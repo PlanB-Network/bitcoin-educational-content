@@ -50,7 +50,7 @@ This course emphasizes hands-on implementation with real code examples, API inte
 ## Taproot Assets: A New Protocol for Multi-Asset Bitcoin and Lightning
 <chapterId>4731ef2b-3cd7-512c-880f-dcb3144d5f1f</chapterId>
 
-[video](https://www.youtube.com/watch?v=-yiTtO_p3Cw)
+![video](https://www.youtube.com/watch?v=-yiTtO_p3Cw)
 
 ### Understanding Taro
 
@@ -84,7 +84,7 @@ Universe services play a crucial supporting role by providing information about 
 ## Taproot Assets Demo
 <chapterId>5baeb5aa-0034-537a-b1d5-89085a9ebaba</chapterId>
 
-[video](https://www.youtube.com/watch?v=xtklaJHfKIY)
+![video](https://www.youtube.com/watch?v=xtklaJHfKIY)
 
 ### Introduction to Taro Client
 
@@ -119,7 +119,7 @@ For continued learning and more detailed information about Taro's capabilities, 
 ## Tap into the Universe
 <chapterId>88370fbe-0c65-5a5f-ac3d-83825e9fe27e</chapterId>
 
-[video](https://www.youtube.com/watch?v=8Qi7VOvKe5o)
+![video](https://www.youtube.com/watch?v=8Qi7VOvKe5o)
 
 ### Taproot Assets Version 0.2: Advanced Features and Implementation
 
@@ -157,7 +157,7 @@ The REST API provides practical access to universe functionality through standar
 
 ## Install from Source
 <chapterId>5fd4d827-5ae7-5814-9984-e7a3a1d8a01a</chapterId>
-[video](https://www.youtube.com/watch?v=Z7KLo-pGBJA)
+![video](https://www.youtube.com/watch?v=Z7KLo-pGBJA)
 
 ### Installing TAPD: A Complete Setup Guide
 
@@ -191,7 +191,7 @@ The most frequent installation problems relate to Go version compatibility, inco
 
 ## Prototype with Polar
 <chapterId>c9219d04-538c-57bc-be83-144e7666c304</chapterId>
-[video](https://www.youtube.com/watch?v=pYh-4EfdZaM)
+![video](https://www.youtube.com/watch?v=pYh-4EfdZaM)
 
 ### Setting Up TAPD with Polar Development Environment
 
@@ -222,7 +222,7 @@ Effective TAPD development using Polar follows a structured workflow that begins
 ## Launch with Litd
 <chapterId>dd0a5315-f6ad-5bf4-b487-1afdc5e335d7</chapterId>
 
-[video](https://www.youtube.com/watch?v=EaPZ3EbTWhE)
+![video](https://www.youtube.com/watch?v=EaPZ3EbTWhE)
 
 ### Installing TAPD via Lightning Terminal from Source
 
@@ -250,49 +250,124 @@ The final verification step involves testing TAPD's connectivity to universe ser
 
 ## Join a Universe Federation
 <chapterId>f4382e26-bab7-5ad1-b7d2-a689ba9d3f27</chapterId>
-[video](https://www.youtube.com/watch?v=o6U812eSE_Q)
+![video](https://www.youtube.com/watch?v=o6U812eSE_Q)
+
+### Dicovering Universe Concepts
+
+In the Taproot Assets ecosystem, a universe serves as a fundamental data storage mechanism that enables nodes to share and synchronize asset information across the network. A universe functions like a library storing books with taproot asset data and proofs, operates similarly to a block explorer with searchable records, or resembles a GitHub repository hosting distributed data.
+
+When you initialize a TAPD (Taproot Assets Daemon) node, it automatically includes its own universe data store. The true power emerges when nodes connect to share data with other universes across the network. Adding another TAPD node's universe and establishing data sharing relationships is called "adding a universe to your federation" - your node's collection of trusted universe connections for accessing and synchronizing asset data from multiple sources.
+
+### Managing Universe Federations via CLI
+
+The command-line interface provides comprehensive federation management tools. The `tapcli universe federation list` command shows how many universes your node connects with, typically displaying at least one default universe that connects automatically upon startup.
+
+Adding universes requires specifying the target universe's location using `tapcli universe federation add` followed by the network address. This user-controlled process allows strategic connections to universes serving specific needs. For example, connecting to a trading partner's universe enables access to relevant asset data and proofs for successful transactions.
+
+Periodic synchronization via `tapcli universe sync` ensures your local universe contains the most recent asset data from connected universes - particularly important in active trading scenarios. The `tapcli universe roots` command reveals all assets your universe has discovered through federation connections, providing a comprehensive view of the accessible taproot asset ecosystem. Federation management remains flexible with the ability to remove universes using `tapcli universe federation delete`.
+
+### API-Based Universe Management
+
+Working with universes through the API requires proper TAPD node REST interface configuration and security practices. The REST API enables programmatic access to all universe management functions for custom applications and automated workflows. Configuration involves setting the `restlisten` parameter to specify which network interfaces accept API connections.
+
+Security considerations are paramount, requiring careful implementation of authentication mechanisms using macaroon files for granular permission control. The TLS certificate system ensures encrypted communication, protecting sensitive data from network interception.
+
+Python scripts for universe management typically import the requests module, configure connection parameters including REST host address, authentication macaroons, and TLS certificates. Adding universes involves POST requests to the `universe/federation` endpoint with properly formatted target universe location data.
+
+The API provides rich statistics through endpoints like `universe/stats`, returning comprehensive data about asset awareness and federation status. These metrics help monitor your node's network integration, identify synchronization issues, reveal asset diversity growth, and provide insights into activity patterns influencing trading decisions.
+
+### Practical Applications and Best Practices
+
+Universe management serves various purposes from simple asset discovery to complex multi-party trading arrangements. Asset exchanges represent common use cases where parties need access to each other's asset data for verification, validation, and successful transfers. Adding relevant universes ensures access to necessary transaction information.
+
+Best practices include maintaining a curated federation serving specific needs rather than connecting to every available universe, which could overwhelm your node and create security exposure. Regular synchronization schedules ensure data currency without excessive network overhead. Periodic federation review allows removal of inactive or irrelevant connections.
+
+The combination of CLI and API access provides operational flexibility - CLI commands for manual administration and testing, API integration for automated workflows and applications. Understanding both approaches ensures choosing the most appropriate method for each universe management task while maintaining consistent operational practices across your taproot asset infrastructure.
 
 # First Mints and Transactions
 <partId>b9cee471-85be-5718-8b1f-be4f6706514b</partId>
 
+### Introduction to Asset Minting
+
+At this stage, you have successfully installed TAPD and joined relevant universes. Now you're ready to create your first assets using the command line interface. Asset minting represents a fundamental operation in the Taproot Assets protocol, where you create digital assets and commit their existence to the Bitcoin blockchain through generating comprehensive asset data, creating Merkle trees, and broadcasting transactions that permanently record your assets on Bitcoin's immutable ledger.
+
+### Prerequisites and Wallet Requirements
+
+Before beginning the minting process, ensure your Lightning Network Daemon (LND) wallet contains sufficient Bitcoin to cover transaction fees. When minting assets, TAPD creates extensive data and commits it to the Bitcoin blockchain through an on-chain transaction requiring satoshis for network fees.
+
+Common errors often relate to insufficient funds or unavailable UTXOs. If you encounter "unable to fund PSBT" errors, this typically indicates either an empty LND wallet or funds tied up in unconfirmed transactions. Always verify you have accessible UTXOs before attempting to mint assets. The command `tap CLI assets list` displays all current holdings, initially returning zero assets to confirm you're starting clean.
+
+### Understanding Asset Types and Emissions
+
+TAPD supports different asset types, with "normal" assets representing fungible tokens that can be divided and exchanged interchangeably. When specifying `type normal`, you're creating assets functioning similarly to traditional cryptocurrencies, where each unit holds identical value. This contrasts with collectible assets requiring `type collectible` specification.
+
+The `enable emissions` flag serves as a crucial parameter that instructs TAPD to create a group key during initial minting. This group key acts as a cryptographic identifier allowing you to mint additional rounds of the same asset in the future, with the protocol recognizing these new tokens as fungible with the original mint. Without enabling emissions during the initial mint, you cannot create additional units of that specific asset later.
+
+### Basic Minting Command Structure
+
+The fundamental minting command requires several key parameters. For demonstration, the complete command structure includes: `tap CLI assets mint type normal name "CLI demo bucks" supply 100 enable emissions`. This provides TAPD with all information needed to create comprehensive asset data and prepare for blockchain commitment.
+
+TAPD supports metadata inclusion during minting using the `metabytes` flag followed by hexadecimal-encoded data. This capability enables embedding descriptive information or relevant data that should be permanently associated with your asset, offering flexibility in formatting and functionality depending on specific use case requirements.
+
+### Understanding the Batch System
+
+TAPD employs a sophisticated batch system optimizing blockchain efficiency and reducing transaction costs. When executing a minting command, TAPD creates all necessary asset data but doesn't immediately broadcast the transaction. Instead, the system enters a "batch state pending" status, indicating asset data is prepared but not yet committed.
+
+This batching approach allows minting multiple different assets within a single on-chain transaction. You could create various assets, then commit them simultaneously in one blockchain transaction, significantly reducing block space usage and minimizing fees compared to individual transactions for each asset.
+
+### Finalizing Asset Creation
+
+After preparing your asset batch, execute the finalization command to commit data to the Bitcoin blockchain. The `tap CLI assets mint finalize` command instructs TAPD to broadcast the transaction containing all batched asset data, transforming prepared assets from pending status to confirmed, blockchain-committed assets.
+
+Upon successful finalization, TAPD provides comprehensive feedback including transaction ID, batch state confirmation, and detailed asset information. The system generates a group key (if emissions were enabled) and provides all cryptographic identifiers necessary for future operations. Following successful minting, verify your newly created assets using `tap CLI assets list` for detailed information or `tap CLI assets balance` for a condensed summary.
+
+### Minting Additional Asset Rounds
+
+To mint additional rounds of an existing asset, first extract the tweaked group key from your asset data. This key appears in the `tap CLI assets list` output and serves as the cryptographic link between different minting batches of the same asset. The tweaked group key ensures different batches of tokens are recognized as belonging to the same fungible asset class.
+
+Minting additional rounds follows a similar command structure with the crucial addition of the group key parameter: `tap CLI assets mint type normal name "CLI demo bucks" supply 100 group_key [your_tweaked_group_key]`. This ensures new tokens will be recognized as fungible with the existing supply.
+
+The finalization process for additional rounds follows the identical procedure. Execute `tap CLI assets mint finalize` to commit new tokens to the blockchain. Upon successful completion, your asset balance reflects the combined total of all minting rounds, confirming both batches are recognized as the same fungible asset.
+
+
 ## Mint from the CLI
 <chapterId>f6a287f8-4fdc-57d3-86cf-be929e76a115</chapterId>
-[video](https://www.youtube.com/watch?v=FccI6j0mxuE)
+![video](https://www.youtube.com/watch?v=FccI6j0mxuE)
 
 ## Mint from the API
 <chapterId>bb2bccd2-d462-575d-b325-fcac9ccae81b</chapterId>
-[video](https://www.youtube.com/watch?v=IL4ojWyFPSk)
+![video](https://www.youtube.com/watch?v=IL4ojWyFPSk)
 
 ## Send from the CLI
 <chapterId>e484324d-5d0e-5243-9f92-92cca48e9cf4</chapterId>
-[video](https://www.youtube.com/watch?v=o30AiqbsYhw)
+![video](https://www.youtube.com/watch?v=o30AiqbsYhw)
 
 ## Send from the API
 <chapterId>b6fc3598-1e2d-5c28-82d1-b058802a8538</chapterId>
-[video](https://www.youtube.com/watch?v=UEaNXu8me24)
+![video](https://www.youtube.com/watch?v=UEaNXu8me24)
 
 ## Burn from the CLI
 <chapterId>04545b41-c2f5-51d5-8cad-d8833d7cffc9</chapterId>
-[video](https://www.youtube.com/watch?v=qBTGxSHpyDo)
+![video](https://www.youtube.com/watch?v=qBTGxSHpyDo)
 
 ## Burn from the API
 <chapterId>b8ee3461-e23b-5f91-bb52-7b243968de3e</chapterId>
-[video](https://www.youtube.com/watch?v=hYUBA-AxrtE)
+![video](https://www.youtube.com/watch?v=hYUBA-AxrtE)
 
 # Diving deeper into Taproot Assets 
 <partId>1dd5432a-516a-53bd-92a7-ef816d29a4e3</partId>
 
 ## Update Tapd
 <chapterId>99d5c2d5-721d-5363-b2e8-f5e23a9cdabd</chapterId>
-[video](https://www.youtube.com/watch?v=0nvkrWfxW3k)
+![video](https://www.youtube.com/watch?v=0nvkrWfxW3k)
 
 ## Building a Node from Scratch
 <chapterId>8f3752bb-815f-5e48-bfbf-f6b5d6f0ffad</chapterId>
-[video](https://www.youtube.com/watch?v=lopHP_nF0tE)
+![video](https://www.youtube.com/watch?v=lopHP_nF0tE)
 
 ## Running a Taproot Assets Price Oracle
 <chapterId>daff6e65-2a0b-54b3-8409-e49a6ed87d95</chapterId>
-[video](https://www.youtube.com/watch?v=m0BSUqNZT_U)
+![video](https://www.youtube.com/watch?v=m0BSUqNZT_U)
 
 
 # Final Section

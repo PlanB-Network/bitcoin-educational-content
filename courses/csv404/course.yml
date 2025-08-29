@@ -1,10 +1,11 @@
-id: dae80c0c-8273-11f0-876c-6bfe961bca05
+id: 922b0564-84c6-11f0-8121-b7a29b946d30
+
 
 topic: protocol
 subtopic: client side validation
 level: expert
 hours: 14
-testonly: true
+test_only: true
 
 professors_id:
   - 303993a1-6506-4c25-b0b6-6d3f0497859b

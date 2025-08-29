@@ -692,7 +692,7 @@ Tato iniciativa nevyvolala okamžité nadšení, pravděpodobně kvůli předcho
 
 > "Můžeme vyhrát velkou bitvu v závodech ve zbrojení a získat
 > nové území svobody na několik let." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Protokol Bitcoin ožívá
 
@@ -706,7 +706,7 @@ Fórum se rychle stalo oblíbeným místem pro diskusi uživatelů bitcoinu, a t
 
 **Věděli jste to?** 22. května 2010 se Laszlo Hanyecz zapsal do historie, když nabídl nákup dvou pizz za 10 000 BTC: bylo to poprvé, kdy byl Bitcoin použit k nákupu fyzického zboží.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Zmizení Satoshiho Nakamota
 

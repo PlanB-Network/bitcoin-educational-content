@@ -713,7 +713,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 > 「我們可以在這場軍備競賽中贏得一場重大勝利，
 > 並在數年間獲得一片新的自由領域。」- 中本聰
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### 比特幣協議的誕生
 
@@ -725,7 +725,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 **您知道嗎？** 2010 年 5 月 22 日，Laszlo Hanyecz 以 10.000 BTC 的價格購買了兩個披薩，創造了歷史：這是比特幣第一次被用來購買實體商品。
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### 中本聰的消失
 

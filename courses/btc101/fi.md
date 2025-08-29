@@ -692,7 +692,7 @@ Tammikuun 3. päivänä 2009 Satoshi avasi virallisesti Bitcoin-verkon luomalla 
 
 > "Voimme voittaa merkittävän taistelun asevarustelukilpailussa ja saavuttaa
 > vapauden uudella alueella useiden vuosien ajan." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Bitcoin-protokolla herää henkiin
 
@@ -706,7 +706,7 @@ Foorumista tuli nopeasti Bitcoin-käyttäjien suosima keskustelupaikka, ja se sy
 
 **Tiesitkö?** 22. toukokuuta 2010 Laszlo Hanyecz teki historiaa tarjoutumalla ostamaan kaksi pizzaa 10 000 BTC:llä: se oli ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamoton katoaminen
 

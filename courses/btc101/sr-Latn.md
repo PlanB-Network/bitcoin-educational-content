@@ -1022,7 +1022,7 @@ Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kr
 > "Možemo dobiti veliku bitku u trci u naoružanju i steći"
 > novu teritoriju slobode za nekoliko godina.” - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 
 ### Bitkoin Protokol Oživljava
@@ -1042,7 +1042,7 @@ Forum je brzo postao preferirano mesto za diskusiju među korisnicima Bitkoin-a,
 **Da li ste znali?** Dana 22. maja 2010. godine, Laszlo Hanyecz je ušao u istoriju ponudivši da kupi dve pice za 10.000 BTC: to je bio prvi put da je bitkoin korišćen za kupovinu fizičke robe.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 
 ### Nestanak Satoshi-ja Nakamoto-a

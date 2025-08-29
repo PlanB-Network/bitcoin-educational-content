@@ -692,7 +692,7 @@ Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er de
 ![image](assets/en/41.webp)
 
 > "Wir können eine wichtige Schlacht im Wettrüsten und ein neues Territorium der Freiheit für mehrere Jahre gewinnen" - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Das Bitcoin-Protokoll erwacht zum Leben
 
@@ -706,7 +706,7 @@ Das Forum wurde schnell zum bevorzugten Diskussionsort für Bitcoin-Nutzer, und 
 
 **Wusstest du schon?** Am 22. Mai 2010 schrieb Laszlo Hanyecz Geschichte, als er anbot, zwei Pizzen für 10.000 BTC zu kaufen: Es war das erste Mal, dass Bitcoin zum Kauf physischer Güter verwendet wurde.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Das Verschwinden von Satoshi Nakamoto
 

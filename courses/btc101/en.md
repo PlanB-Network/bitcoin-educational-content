@@ -688,7 +688,7 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### The Bitcoin protocol comes to life
 
@@ -701,7 +701,7 @@ The forum quickly became the preferred place of discussion for Bitcoin users, so
 
 **Did you know?** On May 22, 2010, Laszlo Hanyecz made history by offering to buy two pizzas for 10.000 BTC: it was the first time that Bitcoin was used to purchase physical goods.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### The disappearance of Satoshi Nakamoto
 

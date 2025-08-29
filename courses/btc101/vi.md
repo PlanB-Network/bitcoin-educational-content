@@ -720,7 +720,7 @@ Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lư�
 
 > "Chúng ta có thể giành chiến thắng trong một trận chiến lớn trong cuộc chạy đua vũ trang và đạt được
 > lãnh thổ tự do mới trong nhiều năm.” - Satoshi Nakamoto
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### Giao thức Bitcoin đi vào cuộc sống
 
@@ -734,7 +734,7 @@ Diễn đàn nhanh chóng trở thành nơi thảo luận được người sử
 
 **Bạn có biết?** Vào ngày 22 tháng 5 năm 2010, Laszlo Hanyecz đã tạo nên lịch sử khi đề nghị mua hai chiếc pizza với giá 10.000 BTC: đây là lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật chất.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Sự biến mất của Satoshi Nakamoto
 

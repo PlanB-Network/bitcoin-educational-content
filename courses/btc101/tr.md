@@ -1022,7 +1022,7 @@ Bu girişim, muhtemelen dijital nakit sistemleri oluşturma girişimlerindeki ö
 > "Silahlanma yarışında büyük bir savaşı kazanabilir ve
 > birkaç yıl boyunca yeni özgürlük alanı." - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 
 ### Bitcoin protokolü hayata geçiyor
@@ -1042,7 +1042,7 @@ Forum kısa sürede Bitcoin kullanıcıları için tercih edilen tartışma yeri
 **Laszlo Hanyecz 22 Mayıs 2010 tarihinde 10.000 BTC karşılığında iki pizza almayı teklif ederek tarihe geçti: Bitcoin ilk kez fiziksel mal satın almak için kullanıldı.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 
 ### Satoshi Nakamoto'nun ortadan kaybolması

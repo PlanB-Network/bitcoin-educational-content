@@ -692,7 +692,7 @@ Den 3. januar 2009 innviet Satoshi offisielt Bitcoin-nettverket ved å opprette 
 
 > "Vi kan vinne et viktig slag i våpenkappløpet og få en
 > nytt territorium av frihet i flere år." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Bitcoin-protokollen våkner til liv
 
@@ -706,7 +706,7 @@ Forumet ble raskt det foretrukne diskusjonsstedet for Bitcoin-brukere, så mye a
 
 \*\*Den 22. mai 2010 skrev Laszlo Hanyecz historie ved å tilby å kjøpe to pizzaer for 10 000 BTC: Det var første gang Bitcoin ble brukt til å kjøpe fysiske varer.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamotos forsvinning
 

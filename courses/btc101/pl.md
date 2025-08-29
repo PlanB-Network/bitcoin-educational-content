@@ -1022,7 +1022,7 @@ W dniu 3 stycznia 2009 r. Satoshi oficjalnie zainaugurował sieć Bitcoin, tworz
 > "Możemy wygrać główną bitwę w wyścigu zbrojeń i zyskać
 > nowe terytorium wolności na kilka lat" - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 
 ### Protokół Bitcoin ożywa
@@ -1042,7 +1042,7 @@ Forum szybko stało się ulubionym miejscem dyskusji użytkowników Bitcoin, do 
 **22 maja 2010 r. Laszlo Hanyecz przeszedł do historii, oferując zakup dwóch pizz za 10 000 BTC: był to pierwszy raz, gdy Bitcoin został użyty do zakupu fizycznych towarów.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 
 ### Zniknięcie Satoshi Nakamoto

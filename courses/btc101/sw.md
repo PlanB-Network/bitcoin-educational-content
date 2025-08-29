@@ -715,7 +715,7 @@ Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda blo
 
 > "Tunaweza kushinda vita kuu katika mbio za silaha na kupata a
 > eneo jipya la uhuru kwa miaka kadhaa." - Satoshi Nakamoto
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### Itifaki ya Bitcoin inakuwa hai
 
@@ -729,7 +729,7 @@ Jukwaa hilo likawa mahali pazuri pa majadiliano kwa watumiaji wa Bitcoin, kiasi 
 
 **Je, wajua?** Mnamo Mei 22, 2010, Laszlo Hanyecz aliandika historia kwa kujitolea kununua pizza mbili kwa 10.000 BTC: ilikuwa mara ya kwanza kwa Bitcoin kutumika kununua bidhaa halisi.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Kutoweka kwa Satoshi Nakamoto
 

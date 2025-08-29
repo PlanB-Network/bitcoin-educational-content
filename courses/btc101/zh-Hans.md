@@ -692,7 +692,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 > "我们可以在军备竞赛中赢得一场重大战役，并获得
 > 自由的新领域。 - 中本聪
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### 比特币协议栩栩如生
 
@@ -706,7 +706,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 **你知道吗？** 2010 年 5 月 22 日，拉斯洛-哈耶茨（Laszlo Hanyecz）以 10.000 BTC 的价格购买了两个披萨，创造了历史：这是比特币第一次被用来购买实物商品。
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### 中本聪的失踪
 

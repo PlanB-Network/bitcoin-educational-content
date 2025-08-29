@@ -692,7 +692,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 > 「我々は軍拡競争において大きな戦いに勝つことができる。
 > 数年にわたる自由の新領域" - サトシ・ナカモト
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### ビットコインのプロトコルに命が吹き込まれる
 
@@ -706,7 +706,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 \*\*2010 年 5 月 22 日、Laszlo Hanyecz は 10,000BTC でピザ 2 枚を購入することを提案し、歴史に名を刻んだ。
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### サトシ・ナカモトの失踪
 

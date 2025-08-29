@@ -691,7 +691,7 @@ Il 3 gennaio 2009 Satoshi ha inaugurato ufficialmente la rete Bitcoin creando il
 ![image](assets/it/41.webp)
 
 > "Possiamo vincere un'importante battaglia nella corsa agli armamenti e ottenere nuove prospettive di libertà per diversi anni" - Satoshi Nakamoto
-> ![image](assets/it/42.webp)
+> ![image](assets/it/44.webp)
 
 ### Il protocollo Bitcoin prende vita
 
@@ -705,7 +705,7 @@ Il forum è diventato rapidamente il luogo di discussione preferito dagli utenti
 
 **Lo sapevi?** Il 22 maggio 2010, Laszlo Hanyecz è entrato nella storia offrendosi di pagare due pizze per 10.000 BTC: è stata la prima volta che Bitcoin è stato utilizzato per acquistare beni fisici.
 
-![image](assets/it/44.webp)
+![image](assets/it/42.webp)
 
 ### La scomparsa di Satoshi Nakamoto
 

@@ -180,79 +180,46 @@ Simpan dan tutup file ini.
 
 #### C. Mengkonfigurasi Java (JVM)
 
-
-
 Anda perlu mengonfigurasi Java Virtual Machine yang digunakan oleh OpenSearch untuk menyesuaikan jumlah memori yang dapat digunakan oleh layanan ini. Edit file konfigurasi berikut ini:
-
-
-
 ```
 sudo nano /etc/opensearch/jvm.options
 ```
 
-
-
-Dengan konfigurasi yang digunakan di sini, **OpenSearch akan dimulai dengan memori yang dialokasikan sebesar 4 GB dan dapat bertambah hingga 4 GB**, sehingga tidak akan ada variasi memori selama pengoperasian. Di sini, konfigurasi memperhitungkan fakta bahwa mesin virtual memiliki total **8 GB RAM**. Kedua parameter harus memiliki nilai yang sama. Ini berarti mengganti baris :
-
-
+Dengan konfigurasi yang diterapkan di sini, **OpenSearch akan dimulai dengan memori yang dialokasikan sebesar 4 GB dan dapat bertambah hingga 4 GB**, sehingga tidak akan ada variasi memori selama operasi. Di sini, konfigurasi tersebut memperhitungkan bahwa mesin virtual memiliki total **8 GB RAM**. Kedua parameter harus memiliki nilai yang sama. Ini berarti mengganti baris :
 
 ```
 -Xms1g
 -Xmx1g
 ```
 
-
-
 Dengan garis-garis ini :
-
-
 
 ```
 -Xms4g
 -Xmx4g
 ```
 
-
-
 Berikut ini gambar modifikasi yang akan dilakukan:
-
-
 
 ![Image](assets/fr/022.webp)
 
-
-
 Tutup file ini setelah menyimpannya.
-
-
 
 Sebagai tambahan, kita perlu memeriksa konfigurasi parameter "**max_map_count**" pada kernel Linux. Parameter ini mendefinisikan batas area memori yang dipetakan per proses, untuk memenuhi kebutuhan aplikasi kita. **OpenSearch**, seperti Elasticsearch**, merekomendasikan untuk mengatur nilai ini ke "262144" untuk menghindari kesalahan manajemen memori.
 
-
-
-Pada prinsipnya, pada mesin Debian 12 yang baru diinstal, nilainya sudah benar. Tetapi mari kita periksa. Jalankan perintah ini:
-
-
+Pada prinsipnya, pada komputer Debian 12 yang baru diinstal, nilainya sudah benar. Tetapi mari kita periksa. Jalankan perintah ini:
 
 ```
 cat /proc/sys/vm/max_map_count
 ```
 
-
-
 Jika Anda mendapatkan nilai selain "**262144**", jalankan perintah berikut ini, jika tidak, perintah ini tidak diperlukan.
-
-
 
 ```
 sudo sysctl -w vm.max_map_count=262144
 ```
 
-
-
 Terakhir, aktifkan mulai otomatis OpenSearch dan luncurkan layanan terkait.
-
-
 
 ```
 sudo systemctl daemon-reload
@@ -260,33 +227,19 @@ sudo systemctl enable opensearch
 sudo systemctl restart opensearch
 ```
 
-
-
 Jika Anda menampilkan status sistem, Anda akan melihat proses Java dengan RAM 4 GB.
-
-
 
 ```
 top
 ```
 
-
-
 ![Image](assets/fr/029.webp)
-
-
 
 Langkah selanjutnya: instalasi Graylog yang sudah lama ditunggu-tunggu!
 
-
-
 #### D. Menginstal Graylog
 
-
-
 Untuk **menginstal Graylog 6.1** dalam versi terbarunya, jalankan 4 perintah berikut untuk **mengunduh dan menginstal Graylog Server**:
-
-
 
 ```
 wget https://packages.graylog2.org/repo/packages/graylog-6.1-repository_latest.deb
@@ -295,554 +248,296 @@ sudo apt-get update
 sudo apt-get install graylog-server
 ```
 
-
-
 Setelah ini selesai, kita perlu membuat beberapa perubahan pada konfigurasi Graylog sebelum mencoba meluncurkannya.
-
-
 
 Mari kita mulai dengan mengonfigurasi kedua opsi ini:
 
-
-
-
-
-- password_secret**: parameter ini digunakan untuk mendefinisikan kunci yang digunakan oleh Graylog untuk mengamankan penyimpanan kata sandi pengguna (dalam semangat kunci pengasinan). Kunci ini haruslah **unik** dan **acak**.
-- root_password_sha2** : parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
-
-
+- **password_secret**: parameter ini digunakan untuk mendefinisikan sebuah kunci yang digunakan oleh Graylog untuk mengamankan penyimpanan kata sandi pengguna (mirip cara kerja  salting key). Kunci ini harus **unik dan acak**.
+- **root_password_sha2** : parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
 
 Kita akan mulai dengan membuat kunci 96 karakter untuk parameter **password_secret**:
-
-
 
 ```
 pwgen -N 1 -s 96
 wVSGYwOmwBIDmtQvGzSuBevWoXe0MWpNWCzhorBfvMMhia2zIjHguTbfl4uXZJdHOA0EEb1sOXJTZKINhIIBm3V57vwfQV59
 ```
 
-
-
 Salin nilai yang dikembalikan, lalu buka file konfigurasi Graylog:
-
-
 
 ```
 sudo nano /etc/graylog/server/server.conf
 ```
 
-
-
-Rekatkan kunci ke dalam parameter **password_secret**, seperti ini:
-
-
+Salin kunci ke dalam parameter **password_secret**, seperti ini:
 
 ![Image](assets/fr/027.webp)
 
-
-
 Simpan dan tutup file.
 
-
-
 Selanjutnya, Anda perlu mengatur kata sandi untuk akun "**admin**" yang dibuat secara default. Dalam file konfigurasi, Hash dari kata sandi harus disimpan, yang berarti kata sandi tersebut harus dihitung. Contoh di bawah ini memberikan Hash dari kata sandi "**LogsWells@**": sesuaikan nilainya dengan kata sandi Anda.
-
-
 
 ```
 echo -n "PuitsDeLogs@" | shasum -a 256
 6b297230efaa2905c9a746fb33a628f4d7aba4fa9d5c1b3daa6846c68e602d71
 ```
 
-
-
 Salin nilai yang diperoleh sebagai keluaran (tanpa tanda hubung di akhir baris).
 
-
-
 Buka kembali file konfigurasi Graylog:
-
-
 
 ```
 sudo nano /etc/graylog/server/server.conf
 ```
 
-
-
-Rekatkan nilai tersebut ke dalam opsi **root_password_sha2** seperti ini:
-
-
+Salin nilai tersebut ke dalam opsi **root_password_sha2** seperti ini:
 
 ![Image](assets/fr/026.webp)
 
-
-
-Ketika Anda berada dalam berkas konfigurasi, tetapkan opsi "**http_bind_address**". Tentukan "**0.0.0.0:9000**" sehingga web Interface Graylog dapat diakses pada port **9000**, melalui IP server Address.
-
-
+Ketika Anda berada dalam file konfigurasi, tetapkan opsi "**http_bind_address**". Tentukan "**0.0.0.0:9000**" sehingga web Interface Graylog dapat diakses pada port **9000**, melalui IP server Address.
 
 ![Image](assets/fr/024.webp)
 
-
-
 Kemudian atur opsi "**elasticsearch_hosts**" ke `http://127.0.0.1:9200` untuk mendeklarasikan instans OpenSearch lokal kita. Ini diperlukan, karena kita tidak menggunakan **Graylog Data Node**. Dan tanpa opsi ini, kita tidak dapat melangkah lebih jauh...
-
-
 
 ![Image](assets/fr/025.webp)
 
-
-
 Simpan dan tutup file.
 
-
-
 Perintah ini mengaktifkan Graylog sehingga memulai secara otomatis pada boot berikutnya, dan segera meluncurkan server Graylog.
-
-
 
 ```
 sudo systemctl enable --now graylog-server
 ```
 
-
-
-Setelah ini selesai, cobalah untuk menyambung ke Graylog dari peramban. Masukkan IP server Address (atau nama) dan port 9000.
-
-
+Setelah ini selesai, cobalah untuk masuk ke Graylog dari browser. Masukkan IP server Address (atau nama) dan port 9000.
 
 **Untuk informasi Anda:**
 
-
-
-Belum lama ini, jendela autentikasi yang mirip dengan jendela di bawah ini muncul ketika Anda pertama kali masuk ke Graylog. Anda harus memasukkan login "**admin**" dan kata sandi Anda. Dan kemudian Anda akan terkejut ketika mengetahui bahwa koneksi tidak berhasil.
-
-
+Jika sebuah window autentikasi yang mirip dengan jendela di bawah ini muncul ketika Anda pertama kali masuk ke Graylog. Anda harus memasukkan login "**admin**" dan kata sandi Anda. Dan kemudian Anda akan terkejut ketika mengetahui bahwa koneksi tidak berhasil.
 
 ![Image](assets/fr/031.webp)
 
-
-
-Perlu untuk kembali ke baris perintah pada server Graylog dan membaca log. Kita kemudian dapat melihat bahwa **untuk koneksi pertama**, perlu **menggunakan kata sandi sementara**, yang ditentukan dalam log.
-
-
-
+Anda perlu untuk kembali ke baris perintah pada server Graylog dan membaca log. Kita kemudian dapat melihat bahwa **untuk koneksi pertama**, perlu **menggunakan kata sandi sementara**, yang ditentukan dalam log.
 ```
 tail -f /var/log/graylog-server/server.log
 ```
 
-
-
 ![Image](assets/fr/021.webp)
 
+Anda kemudian harus mencoba kembali masuk dengan pengguna "**admin**" dan kata sandi sementara, dan ini memungkinkan Anda untuk masuk!
 
-
-Anda kemudian harus mencoba kembali koneksi dengan pengguna "**admin**" dan kata sandi sementara, dan ini memungkinkan Anda untuk masuk!
-
-
-
-**Hal ini sudah tidak berlaku lagi. Yang harus Anda lakukan adalah masuk dengan akun admin dan kata sandi yang dikonfigurasikan pada baris perintah
-
-
+**Hal ini hanya berlaku sekali saja. Yang harus Anda lakukan adalah masuk dengan akun admin dan kata sandi yang dikonfigurasikan pada baris perintah**
 
 ![Image](assets/fr/033.webp)
 
-
-
-**Selamat datang di Interface Graylog!
-
-
+**Selamat datang di Interface Graylog!**
 
 ![Image](assets/fr/019.webp)
 
-
-
 #### E. Graylog: membuat akun administrator baru
 
-
-
-Daripada menggunakan akun admin yang dibuat secara bawaan oleh Graylog, Anda dapat membuat akun administrator pribadi Anda sendiri. Klik pada menu "**Sistem**", lalu pada "**Pengguna dan Tim**" untuk mengklik tombol "**Buat pengguna**". Kemudian isi formulir dan tetapkan peran administrator ke akun Anda.
-
-
+Daripada menggunakan akun admin yang dibuat secara bawaan oleh Graylog, Anda dapat membuat akun administrator pribadi Anda sendiri. Klik pada menu "**System**", lalu pada "**Users and Teams**" untuk mengklik tombol "**Create user**". Kemudian isi formulir dan tetapkan peran administrator ke akun Anda.
 
 ![Image](assets/fr/020.webp)
 
-
-
 Akun yang dipersonalisasi dapat berisi informasi tambahan, seperti nama depan dan belakang serta email Address, tidak seperti akun admin asli. Selain itu, hal ini memastikan penelusuran yang lebih baik ketika setiap orang bekerja dengan akun bernama.
-
-
 
 ## Kirim log ke Graylog dengan rsyslog
 
-
-
 ### I. Presentasi
 
-
-
-Pada bagian kedua ini, kita akan mempelajari cara mengonfigurasi mesin Linux untuk mengirim log ke server Graylog. Untuk melakukannya, kita akan menginstal dan mengkonfigurasi Rsyslog pada sistem.
-
-
+Pada bagian kedua ini, kita akan mempelajari cara mengonfigurasi komputer Linux untuk mengirim log ke server Graylog. Untuk melakukannya, kita akan menginstal dan mengkonfigurasi Rsyslog pada sistem.
 
 ### II. Mengkonfigurasi Graylog untuk menerima log Linux
 
-
-
 Kita akan mulai dengan mengkonfigurasi Graylog. Ada tiga langkah yang harus diselesaikan:
 
-
-
-
-
-- Pembuatan **Input** untuk membuat titik masuk yang memungkinkan mesin Linux untuk **mengirim log Syslog melalui UDP**.
+- Pembuatan **Input** untuk membuat titik masuk yang memungkinkan komputer Linux untuk **mengirim log Syslog melalui UDP**.
 - Pembuatan **Indeks** baru untuk menyimpan dan **mengindeks semua log Linux**.
 - Pembuatan **Stream** untuk **mengalihkan** log yang diterima oleh Graylog ke Indeks Linux yang baru.
 
-
-
 #### A. Membuat Input untuk Syslog
 
-
-
-Masuk ke Graylog Interface, klik "**System**" pada menu dan kemudian pada "**Input**". Pada daftar drop-down, pilih "**Syslog UDP**" kemudian klik tombol berlabel "**Luncurkan input baru**". Anda juga dapat membuat Input Syslog TCP, tetapi ini memerlukan penggunaan sertifikat TLS: nilai tambah untuk keamanan, tetapi tidak dibahas dalam artikel ini.
-
-
+Masuk ke Graylog Interface, klik "**System**" pada menu dan kemudian pada "**Input**". Pada daftar drop-down, pilih "**Syslog UDP**" kemudian klik tombol berlabel "**Launch new input**". Anda juga dapat membuat Input Syslog TCP, tetapi ini memerlukan penggunaan sertifikat TLS: nilai tambah untuk keamanan, tetapi tidak dibahas dalam artikel ini.
 
 ![Image](assets/fr/001.webp)
 
-
-
 Sebuah wizard akan muncul di layar. Mulailah dengan memberi nama pada Input ini, misalnya "**Graylog_UDP_Rsyslog_Linux**" dan pilih port. Secara default, portnya adalah "**514**", tetapi Anda dapat mengubahnya. Di sini, port "**12514**" dipilih.
-
-
 
 ![Image](assets/fr/016.webp)
 
-
-
-Anda juga dapat mencentang opsi "**Simpan pesan lengkap**" untuk menyimpan pesan log lengkap di Graylog. Klik "**Luncurkan Input**".
-
-
+Anda juga dapat mencentang opsi "**Store full message**" untuk menyimpan pesan log lengkap di Graylog. Klik "**Launch Input**".
 
 ![Image](assets/fr/017.webp)
 
-
-
 Input baru telah dibuat dan sekarang aktif. Graylog sekarang dapat menerima log Syslog pada port 12514/UDP, tetapi kita belum selesai mengonfigurasi aplikasi.
-
-
 
 ![Image](assets/fr/018.webp)
 
-
-**Catatan: satu Input dapat digunakan untuk menyimpan log dari beberapa mesin Linux.
-
-
+**Catatan**: satu Input dapat digunakan untuk menyimpan log dari beberapa komputer Linux.
 
 #### B. Membuat Indeks Linux baru
 
-
-
-Kita perlu membuat Indeks di Graylog untuk menyimpan log dari mesin Linux. Sebuah **index** di Graylog adalah struktur penyimpanan yang berisi log yang diterima, yaitu pesan yang diterima. Graylog menggunakan OpenSearch sebagai mesin penyimpanannya, dan pesan-pesan diindeks untuk memungkinkan pencarian yang cepat dan efisien.
-
-
+Kita perlu membuat Indeks di Graylog untuk menyimpan log dari komputer Linux. Sebuah **indeks** di Graylog adalah struktur penyimpanan yang berisi log yang diterima, yaitu pesan-pesan yang masuk. Graylog menggunakan OpenSearch sebagai storage engine-nya, dan pesan-pesan diindeks untuk memungkinkan pencarian yang cepat dan efisien.
 
 Dari Graylog, klik "**System**" pada menu, kemudian pada "**Indices**". Pada halaman baru yang muncul, klik "**Create index set**".
 
-
-
 ![Image](assets/fr/005.webp)
 
-
-
-Beri nama indeks ini, misalnya "**Linux Index**", tambahkan deskripsi dan awalan, sebelum mengonfirmasi. Di sini, kita akan menyimpan semua log Linux dalam indeks ini. Anda juga dapat membuat indeks khusus untuk menyimpan log tertentu saja (hanya log [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), log layanan Web, dll.).
-
-
+Beri nama indeks ini, misalnya "**Linux Index**", tambahkan deskripsi dan awalan, sebelum mengonfirmasi. Di sini, kita akan menyimpan semua log Linux dalam indeks ini. Anda juga dapat membuat indeks khusus untuk menyimpan log tertentu saja (hanya log [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), log layanan Web, dll.).
 
 ![Image](assets/fr/006.webp)
 
-
-
 Sekarang kita perlu membuat stream baru untuk merutekan pesan ke indeks ini.
 
+#### C. Membuat Stream
 
+Untuk membuat stream baru, klik "**Streams**" di menu utama Graylog. Kemudian klik tombol "**Create stream**" di sebelah kanan. Pada jendela yang muncul, beri nama stream, misalnya "**Linux Stream**" dan pilih indeks "**Linux Index**" untuk bidang bernama "**Index Set**". Konfirmasikan pilihan Anda.
 
-#### C. Membuat Aliran
-
-
-
-Untuk membuat stream baru, klik "**Streams**" di menu utama Graylog. Kemudian klik tombol "**Buat stream**" di sebelah kanan. Pada jendela yang muncul, beri nama stream, misalnya "**Linux Stream**" dan pilih indeks "**Linux Index**" untuk bidang bernama "**Index Set**". Konfirmasikan pilihan Anda.
-
-
-
-**Catatan: pesan yang terkait dengan stream ini juga akan disertakan dalam "**Default Stream**", kecuali jika Anda mencentang opsi "**Hapus kecocokan dari 'Default Stream'**".
-
-
+**Catatan**: pesan yang terkait dengan stream ini juga akan disertakan dalam "**Default Stream**", kecuali jika Anda mencentang opsi "**Remove matches from 'Default Stream'**".
 
 ![Image](assets/fr/002.webp)
 
-
-
 Kemudian, dalam pengaturan steam Anda, klik tombol "**Tambahkan aturan stream**" untuk menambahkan aturan perutean pesan baru. Jika Anda tidak dapat menemukan jendela ini, klik "**Streams**" pada menu, lalu pada baris yang sesuai dengan stream Anda, klik "**Lebih Banyak**" lalu "**Kelola Aturan**".
 
-
-
-Pilih jenis "**cocokkan input**" dan pilih **input Rsyslog yang telah dibuat sebelumnya di UDP**. Konfirmasikan dengan tombol "**Buat Aturan**". Semua pesan ke Input baru kita sekarang akan dikirim ke Index untuk Linux.
-
-
+Pilih jenis "**match input**" dan pilih **input Rsyslog yang telah dibuat sebelumnya di UDP**. Konfirmasikan dengan tombol "**Create Rule**". Semua pesan ke Input baru kita sekarang akan dikirim ke Index untuk Linux.
 
 ![Image](assets/fr/003.webp)
 
-
-
-Stream baru Anda akan muncul dalam daftar dan harus dalam status "**Berjalan**". Bandwidth pesan menunjukkan "**0 msg/s**", karena saat ini kami tidak mengirimkan log apa pun ke input UDP Rsyslog. Untuk melihat log aliran, cukup klik pada namanya.
-
-
+Stream baru Anda akan muncul dalam daftar dan harus dalam status "**Running**". Bandwidth pesan menunjukkan "**0 msg/s**", karena saat ini kami tidak mengirimkan log apa pun ke input UDP Rsyslog. Untuk melihat log aliran, cukup klik pada namanya.
 
 ![Image](assets/fr/004.webp)
 
-
-
-**Semuanya sudah siap di sisi Graylog**. Langkah selanjutnya adalah mengkonfigurasi mesin Linux.
-
-
+**Semuanya sudah siap di sisi Graylog**. Langkah selanjutnya adalah mengkonfigurasi komputer Linux.
 
 ### III. Menginstalasi dan mengkonfigurasi Rsyslog pada Linux
 
-
-
-Masuk ke mesin Linux, baik secara lokal maupun jarak jauh, dan gunakan akun pengguna dengan hak akses untuk meningkatkan privilese (melalui sudo). Jika tidak, gunakan akun "root" secara langsung.
-
-
+Masuk ke komputer Linux, baik secara lokal maupun jarak jauh, dan gunakan akun pengguna dengan hak akses untuk meningkatkan privilese (melalui sudo). Jika tidak, gunakan akun "root" secara langsung.
 
 #### A. Menginstal paket Rsyslog
 
-
-
 Mulailah dengan memperbarui cache paket dan menginstal paket bernama "**rsyslog**".
-
-
 
 ```
 sudo apt-get update
 sudo apt-get install rsyslog
 ```
 
-
-
 Kemudian periksa status layanan. Pada kebanyakan kasus, layanan ini sudah berjalan.
-
-
 
 ```
 sudo systemctl status rsyslog
 ```
 
-
-
 #### B. Mengkonfigurasi Rsyslog
 
-
-
 Rsyslog memiliki file konfigurasi utama yang terletak di sini:
-
-
 
 ```
 /etc/rsyslog.conf
 ```
 
+Selain itu, direktori "**/etc/rsyslog.d/**" digunakan untuk menyimpan file konfigurasi tambahan untuk Rsyslog. Pada berkas konfigurasi utama, terdapat perintah Include untuk mengimpor semua file "**.conf**" yang berada pada direktori ini. Hal ini memungkinkan adanya file tambahan untuk mengkonfigurasi Rsyslog tanpa mengubah file utama.
 
+Pada direktori ini, Anda harus menggunakan angka untuk menentukan urutan pemuatan, karena file dimuat dalam urutan abjad. Menambahkan awalan numerik memungkinkan Anda untuk mengatur prioritas di antara beberapa file konfigurasi. Di sini, kita hanya memiliki satu file tambahan, jadi tidak masalah.
 
-Selain itu, direktori "**/etc/rsyslog.d/**" digunakan untuk menyimpan file konfigurasi tambahan untuk Rsyslog. Pada berkas konfigurasi utama, terdapat perintah Include untuk mengimpor semua berkas "**.conf**" yang berada pada direktori ini. Hal ini memungkinkan adanya file tambahan untuk mengkonfigurasi Rsyslog tanpa mengubah file utama.
-
-
-
-Pada direktori ini, Anda harus menggunakan angka untuk menentukan urutan pemuatan, karena file dimuat dalam urutan abjad. Menambahkan awalan numerik memungkinkan Anda untuk mengatur prioritas di antara beberapa file konfigurasi. Di sini, kita hanya memiliki satu berkas tambahan, jadi tidak masalah.
-
-
-
-Dalam direktori ini, kita akan membuat berkas bernama "**10-graylog.conf**" :
-
-
+Dalam direktori ini, kita akan membuat file bernama "**10-graylog.conf**" :
 
 ```
 sudo nano /etc/rsyslog.d/10-graylog.conf
 ```
 
-
-
 Dalam file ini, sisipkan baris ini :
-
-
 
 ```
 *.* @192.168.10.220:12514;RSYSLOG_SyslogProtocol23Format
 ```
 
-
-
 Berikut ini cara menafsirkan baris ini:
 
-
-
-
-
-- `*.*`: berarti mengirim semua log Syslog dari mesin Linux ke Graylog.
+- `*.*`: berarti mengirim semua log Syslog dari komputer Linux ke Graylog.
 - `@`: mengindikasikan bahwa transportasi dilakukan dalam UDP. Anda harus menentukan "**@@**" untuk beralih ke TCP.
 - `192.168.10.220:12514`: menunjukkan Address dari server Graylog, dan port yang digunakan untuk mengirim log (sesuai dengan Input).
 - `RSYSLOG_SyslogProtocol23Format`: sesuai dengan format pesan yang akan dikirim ke Graylog.
-
-
-
+  
 Setelah selesai, simpan file dan mulai ulang Rsyslog.
-
-
 
 ```
 sudo systemctl restart rsyslog.service
 ```
 
-
-
 Setelah tindakan ini, pesan pertama akan tiba di server Graylog Anda!
-
-
 
 ### IV. Menampilkan log Linux di Graylog
 
-
-
-Dari Graylog, Anda dapat mengklik "**Streams**" dan pilih stream baru Anda untuk melihat pesan terkait. Atau, klik "**Pencarian**" dan pilih Steam Anda dan luncurkan pencarian.
-
-
+Dari Graylog, Anda dapat mengklik "**Streams**" dan pilih stream baru Anda untuk melihat pesan terkait. Atau, klik "**Search**" dan pilih Steam Anda dan luncurkan pencarian.
 
 Berikut ini sebagian fitur utama Interface:
 
-
-
 **1** - Pilih periode untuk menampilkan pesan. Secara default, pesan dari 5 menit terakhir ditampilkan.
-
-
 
 **2** - Pilih stream yang akan ditampilkan.
 
-
-
 **3** - Aktifkan penyegaran otomatis daftar pesan (setiap 5 detik, misalnya). Jika tidak, daftar pesan akan menjadi statis dan Anda harus menyegarkannya secara manual.
-
-
 
 **4** - Klik pada kaca pembesar untuk meluncurkan pencarian setelah mengubah periode, aliran, atau filter.
 
-
-
-**5** - Bilah masukan untuk menentukan filter pencarian Anda. Di sini, saya menetapkan "**source:srv\-docker**" untuk hanya menampilkan log dari mesin baru yang baru saja saya siapkan Rsyslog.
-
-
+**5** - Bilah masukan untuk menentukan filter pencarian Anda. Di sini, saya menetapkan "**source:srv\-docker**" untuk hanya menampilkan log dari perangkat baru yang baru saja saya siapkan Rsyslog.
 
 Log dikirim oleh mesin Linux:
 
-
-
 ![Image](assets/fr/015.webp)
-
-
 
 ### V. Mengidentifikasi kegagalan sambungan SSH
 
-
-
-Kekuatan Graylog terletak pada kemampuannya untuk mengindeks log dan memungkinkan pencarian dilakukan menurut berbagai kriteria: mesin sumber, Timestamp, isi pesan, dll... Kita bisa mencari untuk mengidentifikasi koneksi SSH yang gagal.
-
-
+Kekuatan Graylog terletak pada kemampuannya untuk mengindeks log dan memungkinkan pencarian dilakukan menurut berbagai kriteria: perangkat sumber, Timestamp, isi pesan, dll... Kita bisa mencari untuk mengidentifikasi koneksi SSH yang gagal.
 
 Dari mesin jarak jauh (server Graylog, misalnya), coba sambungkan ke server Linux yang baru saja Anda konfigurasikan Rsyslog. Sebagai contoh:
-
-
 
 ```
 ssh [email protected]
 ```
 
-
-
-Kemudian dengan sengaja memasukkan **username** dan **password** yang salah, untuk **kesalahan koneksi generate**. Pada file "**/var/log/auth.log**", ini akan mencatat pesan log generate yang serupa dengan yang berikut ini:
-
-
+Kemudian dengan sengaja memasukkan **username** dan **password** yang salah, untuk membuat **generate connection errors**. Pada file "**/var/log/auth.log**", ini akan mencatat pesan log generate yang serupa dengan yang berikut ini:
 
 ```
 Failed password for invalid user it-connect from 192.168.10.199 port 50352 ssh2
 ```
 
-
-
 Anda akan menemukan pesan-pesan ini di Graylog.
 
-
-
 Pada Graylog, gunakan filter pencarian berikut untuk menampilkan hanya pesan yang cocok:
-
-
 
 ```
 message:Failed password AND application_name:sshd
 ```
 
-
-
 Jika Anda memiliki beberapa server dan ingin menganalisis log server tertentu, tentukan namanya sebagai tambahan:
-
-
 
 ```
 message:Failed password AND application_name:sshd AND source:srv\-docker
 ```
 
-
-
-Berikut ini adalah ikhtisar hasil pada mesin di mana saya menghasilkan beberapa kesalahan koneksi, pada waktu yang berbeda dalam sehari:
-
-
+Berikut ini adalah rangkuman hasil pada perangkat di mana saya menghasilkan beberapa kesalahan koneksi, pada waktu yang berbeda dalam sehari:
 
 ![Image](assets/fr/009.webp)
 
-
-
-Upaya koneksi yang gagal dilakukan dari mesin dengan IP Address "**192.168.10.199**". Jika Anda ingin tahu lebih banyak tentang aktivitas host ini, Anda dapat **mencari IP Address ini**. Graylog akan menampilkan semua log di mana IP Address ini direferensikan, pada semua host (yang pengiriman lognya dikonfigurasi).
-
-
+Upaya koneksi yang gagal dilakukan dari perangkat dengan IP Address "**192.168.10.199**". Jika Anda ingin tahu lebih banyak tentang aktivitas host ini, Anda dapat **mencari IP Address ini**. Graylog akan menampilkan semua log di mana IP Address ini direferensikan, pada semua host (yang pengiriman lognya dikonfigurasi).
 
 Dalam hal ini, filter yang akan digunakan dapat berupa :
-
-
 
 ```
 message:"192.168.10.199"
 ```
 
-
-
 Kami mendapatkan hasil tambahan (tidak mengherankan, karena kami tidak memfilter pada aplikasi SSH):
-
-
 
 ![Image](assets/fr/008.webp)
 
-
-
 ### VI. Kesimpulan
 
-
-
-Dengan mengikuti tutorial ini, Anda seharusnya dapat mengonfigurasi mesin Linux untuk mengirim lognya ke server Graylog. Dengan cara ini, Anda akan dapat memusatkan log dari hos Linux Anda di log sink Anda!
-
-
+Dengan mengikuti tutorial ini, Anda seharusnya dapat mengonfigurasi komputer Linux untuk mengirim lognya ke server Graylog. Dengan cara ini, Anda akan dapat memusatkan log dari host Linux Anda di log sink Anda!
 
 Untuk melangkah lebih jauh, pertimbangkan untuk membuat dasbor dan peringatan untuk menerima notifikasi ketika anomali terdeteksi.
-
-
 
 ![Image](assets/fr/007.webp)

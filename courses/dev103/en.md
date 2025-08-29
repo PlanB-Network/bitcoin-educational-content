@@ -35,7 +35,7 @@ The commands they contain are written in the JavaScript programming language.
 
 A JavaScript runtime is a special program that executes these files.
 
-![](assets/en/1.png)
+![](assets/en/1.webp)
 
 ### NodeJS installation
 
@@ -49,7 +49,7 @@ Since NodeJS is available for all three OSs, the programs that you write will be
 
 This means you can, for example, write a simple videogame in JavaScript on your Windows PC and pass it to your friend to run it on his Mac.
 
-![](assets/en/2.png)
+![](assets/en/2.webp)
 
 ### Text editing
 
@@ -514,7 +514,7 @@ You can combine booleans using logic operators:
 * `||` means “or”, and it will return `true` if **at least one** of the values is `true`, otherwise (if they're both false) it will return `false`
 * `!` means “not”, it's applied before a boolean,  and it will flip it: if the boolean it's `true` it will return `false`, and vice versa.
 
-![](assets/en/3.png)
+![](assets/en/3.webp)
 
 Examples:
 
@@ -1783,7 +1783,7 @@ class Car extends Vehicle {
 
 The `Car` class now **inherits** everything from `Vehicle`. It gets the `brand` property, and we’ve replaced the `start()` method with our own version.
 
-![](assets/en/4.png)
+![](assets/en/4.webp)
 
 Let’s try it out:
 
@@ -1829,7 +1829,7 @@ const myCar = new Car("Toyota", "Corolla")
 myCar.start()
 ```
 
-![](assets/en/5.png)
+![](assets/en/5.webp)
 
 
 This prints:
@@ -4074,7 +4074,7 @@ JavaScript is an interpreted language, as opposed to compiled languages like C.
 
 Code written in a compiled language gets turned into a binary, and the binary gets fed directly to the CPU of the computer.
 
-![](assets/en/6.png)
+![](assets/en/6.webp)
 
 Interpred languages, on the other hand, tend to be more user-friendly, and are closer to how humans think ("high level") rather than to how machines work ("low level"); so they usually have a virtual machine built to run their code. 
 
@@ -4096,13 +4096,13 @@ Why is that a problem?
 
 Well, since browsers execute code fetched from millions of different sources on the internet, they can easily incur into malware, so they're "sandboxed" from the rest of the operating system. 
 
-![](assets/en/7.png)
+![](assets/en/7.webp)
 
 JavaScript could not access the file system and other local resources on your computer (at least not easily like other languages could), so that was a significant limitation on what kind of applications you could build with it.
 
 In 2009, Ryan Dahl published NodeJS, which is a runtime that allows you to use the V8 engine outside the browser, directly on the native operating system of your computer. It also adds many features that are useful for writing server-side and command-line programs. For example, you can use NodeJS to create a web server, read and write files, or build tools that automate tasks. 
 
-![](assets/en/8.png)
+![](assets/en/8.webp)
 
 In this course so far, we've explored the JavaScript features that are present in both the browser and in NodeJS. Those features allowed us to define data and manipulate it in abstract ways. In the next few lessons, we'll explore the features that are specific to NodeJS and allow us to interact with the operating system.
 

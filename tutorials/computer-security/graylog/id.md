@@ -8,144 +8,78 @@ description: Memusatkan dan menganalisis log Anda dengan mudah
 
 ___
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Florian BURNEL yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
-
-
-
+*Tutorial ini didasarkan pada konten asli oleh Florian BURNEL yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
 ___
-
-
 
 ## Menerapkan Graylog pada Debian 12
 
-
-
 ### I. Presentasi
 
+Graylog adalah solusi "log sink" open source yang dirancang untuk memusatkan, menyimpan, dan menganalisis log dari komputer dan perangkat jaringan Anda secara real time. Dalam tutorial ini, kita akan belajar cara memasang Graylog versi gratis pada komputer Debian 12!
 
+Dalam sebuah sistem informasi, setiap **server**, baik yang menjalankan **Linux** atau **Windows**, dan **setiap perangkat jaringan** (switch, router, firewall, dll.) **menghasilkan lognya sendiri**, yang disimpan secara lokal. Dengan log yang disimpan secara lokal di setiap perangkat, analisis dan korelasi peristiwa menjadi sangat sulit. Di sinilah **Graylog** berperan. Aplikasi ini akan bertindak sebagai **log sink**, yang berarti **semua perangkat Anda akan mengirimkan lognya ke sana** (misalnya, melalui syslog). **Graylog kemudian akan menyimpan dan mengindeks log ini**, sambil memungkinkan Anda untuk melakukan pencarian global dan membuat peringatan.
 
-Graylog adalah solusi "log sink" sumber terbuka yang dirancang untuk memusatkan, menyimpan, dan menganalisis log dari mesin dan perangkat jaringan Anda secara real time. Dalam tutorial ini, kita akan belajar cara menginstal Graylog versi gratis pada mesin Debian 12!
-
-
-
-Dalam sebuah sistem informasi, setiap **server**, baik yang menjalankan **Linux** atau **Windows**, dan setiap **perangkat jaringan** (sakelar, router, firewall, dll...) **menghasilkan lognya sendiri**, yang disimpan secara lokal. Dengan log yang disimpan secara lokal di setiap mesin, analisis peristiwa dan korelasi menjadi sangat sulit... Di sinilah **Graylog** masuk. Ini akan bertindak sebagai **log sink**, yang berarti bahwa **semua mesin Anda akan mengirimkan log mereka (melalui syslog, misalnya). Graylog kemudian akan menyimpan dan mengindeks log-log ini, dan mengizinkan Anda untuk melakukan pencarian global dan membuat peringatan.
-
-
-
-Graylog adalah alat analisis dan pemantauan yang memudahkan untuk mengidentifikasi perilaku yang mencurigakan dan berbagai masalah (stabilitas, kinerja, dll.).
-
-
-
+Graylog adalah aplikasi analisis dan pemantauan yang mempermudah identifikasi perilaku mencurigakan dan berbagai masalah (stabilitas, kinerja, dll.).
 
 ![Image](assets/fr/034.webp)
 
-
-
-**Catatan: versi gratisnya, **Graylog Open**, bukanlah SIEM seperti Wazuh, terutama karena tidak memiliki fungsi deteksi penyusupan yang nyata.
-
-
+**Catatan**: Versi gratis, **Graylog Open**, bukanlah SIEM (_Security Information and Event Management_) seperti Wazuh, terutama karena tidak memiliki fungsi deteksi penyusupan yang sesungguhnya.
 
 ### II. Prasyarat
 
+**Stack Graylog** didasarkan pada **beberapa komponen** yang perlu kita pasang dan konfigurasikan. Di sini, kita akan memasang semua komponen pada server yang sama, tetapi dimungkinkan untuk membuat cluster berdasarkan beberapa node dan mendistribusikan peran di beberapa server. Untuk tujuan tutorial ini, kita akan memasang **Graylog 6.1**, versi terbaru hingga saat ini.
 
+- **MongoDB 7**, versi yang direkomendasikan saat ini untuk Graylog (minimum 5.0.7, maksimum 7.x)
+- **OpenSearch**, sebuah fork open source dari Elasticsearch yang dibuat oleh Amazon (minimum 1.1.x, maksimum 2.15.x)
+- **OpenJDK 17**
 
-Tumpukan Graylog didasarkan pada **beberapa komponen** yang harus kita instal dan konfigurasi. Di sini, kita akan menginstal semua komponen pada server yang sama, tetapi dimungkinkan untuk membuat cluster berdasarkan beberapa node dan mendistribusikan peran di beberapa server. Untuk keperluan tutorial ini, kita akan menginstal **Graylog 6.1**, versi terbaru hingga saat ini.
-
-
-
-
-
-- MongoDB 7**, versi yang direkomendasikan saat ini untuk Graylog (minimum 5.0.7, maksimum 7.x)
-- OpenSearch**, sumber terbuka Fork dari Elasticsearch yang dibuat oleh Amazon (minimum 1.1.x, maksimum 2.15.x)
-- OpenJDK 17**
-
-
-
-Server **Graylog** berjalan pada **Debian 12**, tetapi instalasi dapat dilakukan pada distribusi lain, termasuk melalui Docker. Mesin virtual ini dilengkapi dengan **8 GB RAM** dan **256 GB ruang disk**, agar memiliki sumber daya yang cukup untuk semua komponen (jika tidak, hal ini dapat berdampak signifikan pada kinerja). Namun, saya memberikan ini sebagai panduan kasar, karena **ukuran arsitektur Graylog tergantung pada jumlah informasi yang akan diproses**. Graylog dapat memproses 30 MB atau 300 MB data per hari, serta 300 GB data per hari... Ini adalah **solusi yang dapat diskalakan** yang mampu menangani **terabyte log** (lihat [halaman ini] (https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
-
-
+Server **Graylog** berjalan di **Debian 12**, tetapi pemasangan juga dimungkinkan pada distribusi lain, termasuk melalui Docker. Mesin virtual dilengkapi dengan **8 GB RAM dan 256 GB disk space**, untuk memiliki sumber daya yang cukup bagi semua komponen (jika tidak, ini dapat memiliki dampak signifikan pada kinerja). Namun, ini saya berikan sebagai panduan umum, karena **ukuran arsitektur Graylog bergantung pada jumlah informasi yang akan diproses**. Graylog dapat memproses 30 MB atau 300 MB data per hari, serta 300 GB data per hari. Ini adalah **solusi yang scalable** yang mampu menangani **terabyte log** (lihat [halaman ini](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
 
 ![Image](assets/fr/032.webp)
 
-
-
 Sumber: Graylog
 
-
-
-Sebelum memulai konfigurasi, tetapkan IP statis Address ke mesin Graylog dan instal pembaruan terbaru. Pastikan untuk mengatur zona waktu mesin lokal dan menentukan server NTP untuk sinkronisasi tanggal dan waktu. Inilah perintah yang harus dijalankan:
-
-
+Sebelum memulai konfigurasi, tetapkan alamat IP statis ke perangkat Graylog dan pasang pembaruan terbaru. Pastikan untuk menetapkan zona waktu lokal dan menentukan server NTP untuk sinkronisasi tanggal dan waktu. Berikut adalah perintah yang harus dijalankan:
 
 ```
 sudo timedatectl set-timezone Europe/Paris
 ```
 
-
-
-**Catatan: **Penginstalan OpenSearch bersifat opsional** jika Anda menggunakan **Graylog Data Node** sebagai gantinya.
-
-
+**Catatan**: **Penginstalan OpenSearch bersifat opsional** jika Anda menggunakan **Graylog Data Node** sebagai gantinya.
 
 ### III Instalasi Graylog langkah demi langkah
 
-
-
-Mari kita mulai dengan memperbarui cache paket dan menginstal alat yang kita perlukan untuk yang akan datang.
-
-
+Mari kita mulai dengan memperbarui cache paket dan menginstal aplikasi yang kita perlukan untuk langkah selanjutnya.
 
 ```
 sudo apt-get update
 sudo apt-get install curl lsb-release ca-certificates gnupg2 pwgen
 ```
 
-
-
 ![Image](assets/fr/030.webp)
-
-
 
 #### A. Menginstal MongoDB
 
-
-
 Setelah selesai, kita akan mulai menginstal MongoDB. Unduh kunci GPG yang sesuai dengan repositori MongoDB:
-
-
 
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg --dearmor
 ```
 
-
-
-Kemudian tambahkan repositori MongoDB 6 ke mesin Debian 12:
-
-
+Kemudian tambahkan repositori MongoDB 6 ke komputer Debian 12:
 
 ```
 echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-
-
 Selanjutnya, kita akan memperbarui cache paket dan mencoba menginstal MongoDB :
-
-
 
 ```
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
-
-
 MongoDB tidak dapat diinstal karena ketergantungan hilang: **libssl1.1**. Kita harus menginstal paket ini secara manual sebelum dapat melanjutkan, karena Debian 12 tidak memilikinya di repositori.
-
-
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
@@ -154,36 +88,22 @@ mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
-
-
 Kita akan mengunduh paket DEB bernama "**libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb**" (versi terbaru) dengan perintah **wget**, lalu menginstalnya dengan perintah **dpkg**. Ini menghasilkan dua perintah berikut:
-
-
 
 ```
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 ```
 
-
-
 ![Image](assets/fr/028.webp)
 
-
-
 Mulai ulang instalasi MongoDB:
-
-
 
 ```
 sudo apt-get install -y mongodb-org
 ```
 
-
-
-Kemudian mulai ulang layanan MongoDB dan aktifkan untuk memulai secara otomatis saat server Debian diluncurkan.
-
-
+Kemudian mulai ulang layanan MongoDB dan aktifkan untuk memulai secara otomatis saat server Debian dijalankan.
 
 ```
 sudo systemctl daemon-reload
@@ -192,73 +112,43 @@ sudo systemctl restart mongod.service
 sudo systemctl --type=service --state=active | grep mongod
 ```
 
-
-
 Setelah MongoDB terinstal, kita dapat melanjutkan untuk menginstal komponen berikutnya.
-
-
 
 #### B. Menginstal OpenSearch
 
-
-
 Mari kita lanjutkan dengan menginstal OpenSearch pada server. Perintah berikut ini menambahkan kunci tanda tangan untuk paket OpenSearch:
-
-
 
 ```
 curl -o- https://artifacts.opensearch.org/publickeys/opensearch.pgp | sudo gpg --dearmor --batch --yes -o /usr/share/keyrings/opensearch-keyring
 ```
 
-
-
 Kemudian tambahkan repositori OpenSearch sehingga kita dapat mengunduh paket dengan **apt** setelahnya:
-
-
 
 ```
 echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.opensearch.org/releases/bundle/opensearch/2.x/apt stable main" | sudo tee /etc/apt/sources.list.d/opensearch-2.x.list
 ```
 
-
-
 Perbarui cache paket Anda :
-
-
 
 ```
 sudo apt-get update
 ```
 
-
-
-Kemudian **instal OpenSearch**, dengan hati-hati menentukan kata sandi default untuk akun Admin** instans Anda. Di sini, kata sandinya adalah "**IT-Connect2024!**", tetapi ganti nilai ini dengan kata sandi yang kuat. **Hindari kata sandi yang lemah** seperti "**P@ssword123**" dan gunakan setidaknya **8 karakter** dengan setidaknya satu karakter dari setiap jenisnya (huruf kecil, huruf besar, angka, dan karakter khusus), jika tidak, maka akan terjadi kesalahan pada akhir instalasi. **Ini adalah prasyarat sejak OpenSearch 2.12.**
-
-
+Kemudian **instal OpenSearch**, **dengan hati-hati menentukan kata sandi default untuk akun Admin** instans Anda. Di sini, kata sandinya adalah "**IT-Connect2024!**", tetapi ganti nilai ini dengan kata sandi yang kuat. **Hindari kata sandi yang lemah** seperti "**P@ssword123**" dan gunakan setidaknya **8 karakter** dengan setidaknya satu karakter dari setiap jenisnya (huruf kecil, huruf besar, angka, dan karakter khusus), jika tidak, maka akan terjadi kesalahan pada akhir instalasi. **Ini adalah prasyarat sejak OpenSearch 2.12.**
 
 ```
 sudo env OPENSEARCH_INITIAL_ADMIN_PASSWORD=IT-Connect2024! apt-get install opensearch
 ```
 
-
-
 Harap bersabar selama pemasangan...
 
-
-
 Setelah selesai, luangkan waktu sejenak untuk melakukan konfigurasi minimum. Buka file konfigurasi dalam format YAML:
-
-
 
 ```
 sudo nano /etc/opensearch/opensearch.yml
 ```
 
-
-
 Apabila file sudah terbuka, tetapkan opsi berikut ini:
-
-
 
 ```
 cluster.name: graylog
@@ -271,36 +161,22 @@ action.auto_create_index: false
 plugins.security.disabled: true
 ```
 
-
-
 Konfigurasi OpenSearch ini dirancang untuk menyiapkan satu node. Berikut ini beberapa penjelasan tentang berbagai parameter yang kami gunakan:
 
+- **cluster.name: graylog** : parameter ini menamai kluster OpenSearch dengan nama "**graylog**".
+- **node.name: ${HOSTNAME}**: Nama node ditetapkan secara dinamis agar sesuai dengan nama komputer Linux lokal. Meskipun kita hanya memiliki satu node, penting untuk menamainya dengan benar.
+- **path.data: /var/lib/opensearch**: jalur ini menentukan di mana OpenSearch menyimpan datanya di komputer lokal, dalam kasus ini di "**/var/lib/opensearch**".
+- **path.logs: /var/log/opensearch**: jalur ini mendefinisikan di mana file log OpenSearch disimpan, di sini, di "**/var/log/opensearch**".
+- **discovery.type: single-node**: Parameter ini mengonfigurasi OpenSearch untuk bekerja dengan satu node, oleh karena itu dipilih opsi "**single-node**".
+- **network.host: 127.0.0.1**: Konfigurasi ini memastikan bahwa OpenSearch hanya memperhatikan pada Interface local loop-nya, yang sudah cukup karena berada pada server yang sama dengan Graylog.
+- **action.auto_create_index: false**: dengan menonaktifkan pembuatan indeks otomatis, OpenSearch tidak akan secara otomatis membuat indeks ketika dokumen dikirim tanpa indeks yang ada.
+- **plugins.security.disabled: true**: Opsi ini menonaktifkan plugin keamanan OpenSearch, yang berarti tidak akan ada autentikasi, manajemen akses, atau enkripsi komunikasi. Pengaturan ini menghemat waktu saat menyiapkan Graylog, tetapi harus dihindari dalam produksi. (lihat [halaman ini](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
-
-
-
-- cluster.name: graylog** : parameter ini memberi nama kluster OpenSearch dengan nama "**graylog**".
-- node.name: ${HOSTNAME}**: nama simpul diatur secara dinamis agar sesuai dengan nama mesin Linux lokal. Meskipun kita hanya memiliki satu node, penting untuk menamainya dengan benar.
-- path.data: /var/lib/opensearch**: jalur ini menentukan di mana OpenSearch menyimpan datanya di mesin lokal, dalam kasus ini di "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: jalur ini mendefinisikan di mana file log OpenSearch disimpan, di sini, di "**/var/log/opensearch**".
-- discovery.type: single-node**: parameter ini mengonfigurasi OpenSearch untuk bekerja dengan simpul tunggal, oleh karena itu, pilihlah opsi "**single-node**".
-- network.host: 127.0.0.1**: konfigurasi ini memastikan bahwa OpenSearch hanya mendengarkan pada loop lokal Interface, yang sudah cukup karena berada di server yang sama dengan Graylog.
-- action.auto_create_index: false**: dengan menonaktifkan pembuatan indeks otomatis, OpenSearch tidak akan secara otomatis membuat indeks ketika dokumen dikirim tanpa indeks yang ada.
-- plugins.security.disabled: true**: opsi ini menonaktifkan plugin keamanan OpenSearch, yang berarti tidak akan ada autentikasi, manajemen akses, atau enkripsi komunikasi. Pengaturan ini menghemat waktu ketika menyiapkan Graylog, tetapi sebaiknya dihindari dalam produksi (lihat [halaman ini] (https://opensearch.org/docs/1.0/security-plugin/index/)).
-
-
-
-Beberapa opsi sudah tersedia, jadi Anda hanya perlu menghapus "#" untuk mengaktifkannya, lalu tunjukkan nilai Anda. Jika Anda tidak dapat menemukan opsi, Anda dapat mendeklarasikannya secara langsung di akhir file.
-
-
+Beberapa opsi sudah tersedia, jadi Anda hanya perlu menghapus tanda "#" untuk mengaktifkannya, lalu tunjukkan nilai Anda. Jika Anda tidak dapat menemukan suatu opsi, Anda dapat mendeklarasikannya secara langsung di akhir file.
 
 ![Image](assets/fr/023.webp)
 
-
-
 Simpan dan tutup file ini.
-
-
 
 #### C. Mengkonfigurasi Java (JVM)
 

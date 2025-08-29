@@ -647,7 +647,6 @@ Bitcoin gwarantuje rozsądne zarządzanie monetarne poprzez ograniczenie jego tw
 Podsumowując, Bitcoin, ze swoją zdecentralizowaną naturą, zaprogramowanym niedoborem i przejrzystością, oferuje unikalną alternatywę dla tradycyjnych systemów monetarnych. Ilustruje on, w jaki sposób można wykorzystać technologię do stworzenia waluty, która jest nie tylko użyteczna i weryfikowalna, ale także zachowuje wartość oszczędności użytkowników poprzez ścisłe ograniczenie Supply.
 
 
-### Zakończenie sekcji 2!
 
 
 # Portfele Bitcoin

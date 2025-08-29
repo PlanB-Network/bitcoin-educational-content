@@ -440,7 +440,6 @@ Bitcoin takaa terveen rahanhallinnan rajoittamalla sen luomista, mikä tekee sii
 
 Yhteenvetona voidaan todeta, että Bitcoin tarjoaa hajautetun luonteensa, ohjelmoidun niukkuutensa ja avoimuutensa ansiosta ainutlaatuisen vaihtoehdon perinteisille rahajärjestelmille. Se osoittaa, miten teknologiaa voidaan käyttää sellaisen valuutan luomiseen, joka ei ole vain hyödyllinen ja todennettavissa, vaan myös säilyttää käyttäjien säästöjen arvon rajoittamalla tiukasti niiden tarjontaa.
 
-### Jakson 1 päätelmät!
 
 # Bitcoin-lompakot
 

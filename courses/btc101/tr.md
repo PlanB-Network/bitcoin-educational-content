@@ -647,7 +647,6 @@ Bitcoin, tasarım gereği yaratımını sınırlandırarak sağlam bir parasal y
 Özetle Bitcoin, merkezi olmayan yapısı, programlanmış kıtlığı ve şeffaflığı ile geleneksel para sistemlerine benzersiz bir alternatif sunmaktadır. Sadece kullanışlı ve doğrulanabilir olmakla kalmayıp aynı zamanda Supply'yi sıkı bir şekilde sınırlandırarak kullanıcıların birikimlerinin değerini koruyan bir para birimi yaratmak için teknolojinin nasıl kullanılabileceğini göstermektedir.
 
 
-### Bölüm 2'nin sonucu!
 
 
 # Bitcoin Cüzdanlar

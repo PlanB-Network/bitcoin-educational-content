@@ -440,7 +440,6 @@ Bitcoin garanterer en sunn pengestyring ved å begrense opprettelsen av den, noe
 
 Oppsummert kan vi si at Bitcoin, med sin desentraliserte natur, programmerte knapphet og gjennomsiktighet, tilbyr et unikt alternativ til tradisjonelle pengesystemer. Den illustrerer hvordan teknologi kan brukes til å skape en valuta som ikke bare er nyttig og verifiserbar, men som også bevarer verdien av brukernes sparepenger ved å begrense tilbudet strengt.
 
-### Konklusjon av del 1!
 
 # Bitcoin-lommebøker
 

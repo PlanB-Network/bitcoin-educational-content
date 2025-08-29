@@ -647,7 +647,6 @@ Bitkoin garantuje solidno monetarno upravljanje ograničavanjem svog stvaranja p
 Ukratko, Bitkoin, sa svojom decentralizovanom prirodom, programiranom oskudicom i transparentnošću, nudi jedinstvenu alternativu tradicionalnim monetarnim sistemima. Ilustruje kako se tehnologija može koristiti za kreiranje valute koja nije samo korisna i proverljiva, već i čuva vrednost ušteđevine korisnika strogo ograničavajući svoju ponudu.
 
 
-### Zaključak odeljka 2!
 
 
 # Bitkoin Novčanici

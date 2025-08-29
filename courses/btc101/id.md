@@ -442,7 +442,6 @@ Bitcoin menjamin manajemen moneter yang baik dengan membatasi pembuatannya berda
 
 Singkatnya, Bitcoin, dengan sifatnya yang terdesentralisasi, kelangkaan yang terprogram, dan transparansi, menawarkan sebuah alternatif yang unik untuk sistem moneter tradisional. Hal ini mengilustrasikan bagaimana teknologi dapat digunakan untuk menciptakan mata uang yang tidak hanya berguna dan dapat diverifikasi, tetapi juga menjaga nilai tabungan pengguna dengan membatasi pasokannya secara ketat.
 
-### Kesimpulan bagian 1!
 
 # Dompet Bitcoin
 

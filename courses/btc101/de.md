@@ -442,7 +442,6 @@ Bitcoin garantiert eine solide Geldverwaltung, da seine Schöpfung von vornherei
 
 Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, seiner programmierten Knappheit und seiner Transparenz eine einzigartige Alternative zu traditionellen Geldsystemen bietet. Er veranschaulicht, wie Technologie genutzt werden kann, um eine Währung zu schaffen, die nicht nur nützlich und überprüfbar ist, sondern auch den Wert der Ersparnisse der Nutzer durch eine strikte Begrenzung des Angebots bewahrt.
 
-### Abschluss von Abschnitt 2!
 
 # Bitcoin-Wallets
 

@@ -460,7 +460,6 @@ Bitcoin garanterar en sund monetär hantering genom att begränsa dess skapande 
 
 Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmerade knapphet och transparens, ett unikt alternativ till traditionella monetära system. Den illustrerar hur teknik kan användas för att skapa en valuta som inte bara är användbar och verifierbar, utan också bevarar värdet på användarnas besparingar genom att strikt begränsa tillgången.
 
-### Slutsats av avsnitt 1!
 
 # Bitcoin-plånböcker
 

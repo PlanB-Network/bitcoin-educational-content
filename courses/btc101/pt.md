@@ -440,7 +440,6 @@ A Bitcoin garante uma boa gestão monetária limitando a sua criação por conce
 
 Em resumo, a Bitcoin, com a sua natureza descentralizada, escassez programada e transparência, oferece uma alternativa única aos sistemas monetários tradicionais. Ilustra como a tecnologia pode ser usada para criar uma moeda que não só é útil e verificável, mas também preserva o valor das poupanças dos utilizadores ao limitar estritamente a sua oferta.
 
-### Conclusão da secção 1!
 
 # Carteiras Bitcoin
 

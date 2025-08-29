@@ -442,7 +442,6 @@ Bitcoin tagab usaldusväärse rahanduse juhtimise, piirates selle loomist, mis m
 
 Kokkuvõttes pakub Bitcoin oma detsentraliseeritud olemuse, programmeeritud nappuse ja läbipaistvusega ainulaadset alternatiivi traditsioonilistele rahasüsteemidele. See näitab, kuidas tehnoloogiat saab kasutada sellise valuuta loomiseks, mis ei ole mitte ainult kasulik ja kontrollitav, vaid säilitab ka kasutajate säästude väärtuse, piirates rangelt nende pakkumist.
 
-### Lõike 1 kokkuvõte!
 
 # Bitcoin rahakotid
 

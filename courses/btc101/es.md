@@ -442,7 +442,6 @@ Bitcoin garantiza una gestión monetaria sólida al limitar su creación por dis
 
 En resumen, Bitcoin, con su naturaleza descentralizada, escasez programada y transparencia, ofrece una alternativa única a los sistemas monetarios tradicionales. Ilustra cómo la tecnología puede utilizarse para crear una moneda que no solo es útil y verificable, sino que también preserva el valor de los ahorros de los usuarios al limitar estrictamente su oferta.
 
-### Conclusión de la sección 1
 
 # Monederos Bitcoin
 

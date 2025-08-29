@@ -463,7 +463,6 @@ Bitcoin đảm bảo quản lý tiền tệ lành mạnh bằng cách hạn ch�
 
 Tóm lại, Bitcoin, với bản chất phi tập trung, tính khan hiếm được và tính minh bạch lập trình sẵn, cung cấp một giải pháp thay thế độc đáo cho các hệ thống tiền tệ truyền thống. Nó minh họa cách công nghệ có thể được sử dụng để tạo ra một loại tiền tệ\tài sản không chỉ hữu ích và có thể xác minh được mà còn bảo toàn giá trị tiết kiệm của người tham gia bằng cách hạn chế nghiêm ngặt nguồn cung đơn vị.
 
-### Kết thúc chương 1!
 
 # Ví Bitcoin
 

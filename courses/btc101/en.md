@@ -435,7 +435,6 @@ Bitcoin guarantees a sound monetary management by limiting its creation by desig
 
 In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
-### Conclusion of section 2!
 
 # Bitcoin Wallets
 

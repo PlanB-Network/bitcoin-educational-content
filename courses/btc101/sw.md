@@ -458,7 +458,6 @@ Bitcoin inahakikisha usimamizi mzuri wa fedha kwa kupunguza uundaji wake wa muun
 
 Kwa muhtasari, Bitcoin, pamoja na hali yake ya ugatuzi, uhaba uliopangwa, na uwazi, inatoa njia mbadala ya kipekee kwa mifumo ya jadi ya fedha. Inaonyesha jinsi teknolojia inaweza kutumika kuunda sarafu ambayo sio tu ni muhimu na inayoweza kuthibitishwa, lakini pia kuhifadhi thamani ya akiba ya watumiaji kwa kuweka kikomo kwa usambazaji wake.
 
-### Hitimisho la kifungu cha 1!
 
 # Pochi za Bitcoin
 

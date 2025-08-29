@@ -440,7 +440,6 @@ Bitcoin zaručuje zdravou správu peněz tím, že omezuje jejich tvorbu, čím�
 
 Souhrnně lze říci, že Bitcoin díky své decentralizované povaze, naprogramovanému nedostatku a transparentnosti nabízí jedinečnou alternativu k tradičním peněžním systémům. Ukazuje, jak lze pomocí technologie vytvořit měnu, která je nejen užitečná a ověřitelná, ale také zachovává hodnotu úspor uživatelů tím, že přísně omezuje jejich nabídku.
 
-### Závěr oddílu 1!
 
 # Peněženky Bitcoin
 

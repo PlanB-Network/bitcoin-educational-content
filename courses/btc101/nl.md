@@ -435,7 +435,6 @@ Bitcoin garandeert een gezond monetair management door de creatie ervan te beper
 
 Samengevat biedt Bitcoin, met zijn gedecentraliseerde aard, geprogrammeerde schaarste en transparantie, een uniek alternatief voor traditionele monetaire systemen. Het illustreert hoe technologie gebruikt kan worden om een valuta te creëren die niet alleen nuttig en controleerbaar is, maar ook de waarde van het spaargeld van gebruikers behoudt door de geldhoeveelheid strikt te beperken.
 
-### Conclusie van sectie 2!
 
 # Bitcoin Wallets (Portefeuilles)
 

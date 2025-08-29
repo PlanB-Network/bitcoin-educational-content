@@ -440,7 +440,6 @@ Bitcoin garantisce una sana gestione monetaria limitando l'emissione per design,
 
 In sintesi, con la sua natura decentralizzata, la scarsità programmata e la trasparenza, Bitcoin offre un'alternativa unica ai sistemi monetari tradizionali. Illustra come la tecnologia possa essere utilizzata per creare una moneta che non solo sia utile e verificabile, ma che preservi anche il valore dei risparmi degli utenti limitandone rigorosamente l'offerta.
 
-### Conclusione della sezione 1!
 
 # Wallet Bitcoin
 

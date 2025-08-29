@@ -494,7 +494,6 @@ En effet, il est déjà arrivé qu'un groupe Telegram d'une communauté Bitcoin 
 
 Enfin, dans la partie "Administrateurs", il est possible d'ajouter un "Anti-spam agressif" qui supprime automatiquement les messages considérés comme tel. Cela n'est toutefois pas forcément nécessaire.
 
-
 ##  Insérer un bot multi-fonction dans un canal Telegram
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
@@ -519,13 +518,13 @@ Trois autres possibilités simples sont :
 - même chose pour obtenir les réseaux sociaux ("/reseaux") ou votre potentiel règlement en cas de modération ("/reglement") ;
 - **bloquer l'entrée de bots** et les "entrées/sorties".
 
-D'innombrables options supplémentaires s'offrent également à vous. Un conseil toutefois: **ne cherchez pas à trop brider les échanges**.
+D'innombrables options supplémentaires s'offrent également à vous. Un conseil toutefois : **ne cherchez pas à trop brider les échanges**.
 
-Tutoriel pour ajouter un bot multi-fonction à un groupe ou super-groupe Telegram:
+Tutoriel pour ajouter un bot multi-fonction à un groupe ou super-groupe Telegram :
 
 :::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
-Petite remarque: comme dit précédemment, toute cette procédure peut être désormais réalisée sur téléphone. Il n'y a en effet plus besoin de l'application Telegram+.
+Petite remarque : comme dit précédemment, toute cette procédure peut être désormais réalisée sur téléphone. Il n'y a en effet plus besoin de l'application Telegram+.
 
 ## Créer un serveur Discord
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
@@ -533,19 +532,19 @@ Petite remarque: comme dit précédemment, toute cette procédure peut être dé
 Lorsque le nombre de membres dans votre groupe Telegram sera trop important, le transformer en un super-groupe Telegram peut être la solution.
 Toutefois, comme dit précédemment, **les potentielles "difficultés d'utilisation" et l'augmentation du nombre de sujets et de messages pourront entraîner un début de désintérêt pour une partie des membres actifs**.
 
-**Discord se présente alors comme une alternative** à la création d'un super-groupe Telegram puisqu'il permet de **créer des salons textuels et vocaux spécifiques**. Mais aussi, que ses utilisateurs peuvent rendre muet tous les salons qui ne les intéressent pas. En plus de Telegram et de Twitter, cela demande évidemment un peu plus de temps pour s'en occuper; en particulier lors de sa configuration et de son lancement.
+**Discord se présente alors comme une alternative** à la création d'un super-groupe Telegram, puisqu'il permet de **créer des salons textuels et vocaux spécifiques**. Mais aussi parce que ses utilisateurs peuvent rendre muet tous les salons qui ne les intéressent pas. En plus de Telegram et de Twitter, cela demande évidemment un peu plus de temps pour s'en occuper ; en particulier lors de sa configuration et de son lancement.
 
-Dans l'objectif de vous faciliter la tâche, **nous vous partageons donc un [serveur Discord pré-fait, duplicable et modifiable](https://discord.com/template/bDY4eXXJk2C8) à votre guise**:
+Dans l'objectif de vous faciliter la tâche, **nous vous partageons donc un [serveur Discord pré-fait, duplicable et modifiable](https://discord.com/template/bDY4eXXJk2C8) à votre guise** :
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 Lorsqu'il est bien construit, un serveur Discord peut être un véritable atout pour sa communauté. En effet, de nombreux bitcoiners utilisent déjà quotidiennement cette application, et leur **permettre de suivre les conversations du groupe Telegram directement au sein même du serveur Discord est un gain conséquent de temps**. Et inversement.
 
-C'est la raison pour laquelle un bot open-source nommé [TediCross](https://github.com/TediCross/TediCross) a été développé. Son objectif est simple: transférer automatiquement les messages d'un salon textuel Discord vers un groupe Telegram (ou un sujet d'un super-groupe Telegram); et inversement. Cela peut donc être très intéressant à mettre en place.
+C'est la raison pour laquelle un bot open-source nommé [TediCross](https://github.com/TediCross/TediCross) a été développé. Son objectif est simple : transférer automatiquement les messages d'un salon textuel Discord vers un groupe Telegram (ou un sujet d'un super-groupe Telegram) ; et inversement. Cela peut donc être très intéressant à mettre en place.
 
-Toutefois, il n'est pas sans noter que son installation n'est pas très évidente, qu'**il faut continuellement faire tourner une invite de commande (CMD) sur un ordinateur pour que ce bot fonctionne**; mais aussi, qu'il y a parfois un bug d'erreur. Heureusement, dans cette situation, il suffit simplement de le relancer; et tout rentre alors dans l'ordre.
+Toutefois, il n'est pas sans noter que son installation n'est pas très évidente, qu'**il faut continuellement faire tourner une invite de commande (CMD) sur un ordinateur pour que ce bot fonctionne** ; mais aussi, qu'il y a parfois un bug d'erreur. Heureusement, dans cette situation, il suffit simplement de le relancer ; et tout rentre alors dans l'ordre.
 
-Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expliquant comment ajouter ce bot multi-fonction à un groupe ou super-groupe Telegram:
+Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expliquant comment ajouter ce bot multi-fonction à un groupe ou super-groupe Telegram :
 
 :::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
@@ -553,15 +552,15 @@ Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expli
 <chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
 
 Comme dit précédemment dans cette partie, Twitter et Telegram sont les deux principaux canaux de communication utilisés en Europe (voire dans le monde).
-Toutefois, vous n'êtes pas sans savoir que **Telegram n'est pas la messagerie la plus sécurisée et la plus confidentielle et que Twitter l'entreprise la plus libre de ses mouvements du monde**.
+Toutefois, vous n'êtes pas sans savoir que **Telegram n'est pas la messagerie la plus sécurisée et la plus confidentielle, et que Twitter l'entreprise la plus libre de ses mouvements du monde**.
 En ce sens, **il est tout à fait pertinent - lorsque vous aurez du temps à y allouer - de commencer à réfléchir à des alternatives**.
 
-C'est d'ailleurs la raison pour laquelle, dans les prochains mois, des tutoriels d'utilisation de protocoles de communication plus confidentiels et plus sécurisés seront proposés au sein même de ce cours et sur planb.network; en particulier sur les applications de communication décentralisées, sécurisées et paramétrables que sont Simplex et Element.
+C'est d'ailleurs la raison pour laquelle, dans les prochains mois, des tutoriels d'utilisation de protocoles de communication plus confidentiels et plus sécurisés seront proposés au sein même de ce cours et sur planb.network ; en particulier sur les applications de communication décentralisées, sécurisées et paramétrables que sont Simplex et Element.
 
-Mais pourquoi réfléchir à ces alternatives? 
+Mais pourquoi réfléchir à ces alternatives ? 
 Tout simplement parce qu'à l'image du réseau social NOSTR, ces dernières sont décentralisées et chiffrées. En plus du **gain de confidentialité** pour votre communauté, cela permet également de **se prémunir d'une fermeture (voire censure) de votre groupe ou super-groupe Telegram**.
 
-Qu'y a-t-il donc de mieux, à l'image du protocole Bitcoin, que d'**être incensurable et immuable**?
+Qu'y a-t-il donc de mieux, à l'image du protocole Bitcoin, que d'**être incensurable et immuable** ?
 
 # Lancer ses réseaux sociaux
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
@@ -574,8 +573,8 @@ Malheureusement, vous y êtes pour le moment... seul(e). Il va donc falloir **fa
 
 En effet, si personne ne parvient à accéder aux canaux de communication sur lesquels vous postez régulièrement les informations de votre communauté (date du prochain meet-up, projets, etc.), il est évident que vous allez oeuvrer dans le vide. C'est la raison pour laquelle **les réseaux sociaux - et certaines plateformes précises, dont nous parlerons par la suite - vont jouer un rôle prépondérant dans le développement de votre communauté**.
 
-Parmi eux, **Twitter se positionne comme quasi-incontournable dans la bitcoinsphère**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être irréprochables.
-C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, en particulier si vous avec en tête d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
+Parmi eux, **Twitter se positionne comme quasi-incontournable dans la bitcoinsphère**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme** ; quand bien même sa centralisation et son développement sont loin d'être irréprochables.
+C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, en particulier si vous avec en tête d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout : mieux vaut prévenir que guérir.
 C'est notamment ce qu'a décidé de faire le collectif FREE Madeira, à Madère.
 
 ![image](assets/fr/023.webp)
@@ -589,55 +588,56 @@ Néanmoins, il est à rappeller que **plus il y a de canaux de communication et 
 
 Très simple d'utilisation, Twitter est un réseau social nécessitant la modification de certains paramètres afin de gagner en confidentialité.
 
-**Lors de la création d'un nouveau compte Twitter, quatre informations essentielles doivent être renseignées**:
-1/ **le @ Twitter**, qui définira votre identité et vous permettra d'être facilement recherchable. Si votre communauté se nomme "Bitcoin [VILLE]", il est donc tout à fait pertinent de choisir "@Bitcoin[VILLE]";
-2/ **le logo et la bannière** que vous aurez créés pour votre communauté ou votre meet-up (voir section [Créer un logo, une affiche et une bannière](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
-3/ **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être:
+**Lors de la création d'un nouveau compte Twitter, quatre informations essentielles doivent être renseignées** :
+1. **le @ Twitter**, qui définira votre identité et vous permettra d'être facilement recherchable. Si votre communauté se nomme "Bitcoin [VILLE]", il est donc tout à fait pertinent de choisir "@Bitcoin[VILLE]" ;
+2. **le logo et la bannière** que vous aurez créés pour votre communauté ou votre meet-up (voir section "[Créer un logo, une affiche et une bannière](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef)") ;
+3. **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être :
 > Compte officiel de la communauté Bitcoin [VILLE] #BTC | Meet-ups tous les 1ers mercredis du mois à [NOM_DU_BAR] de [VILLE] 🍻 | Nous rejoindre sur Telegram 🔽
-4/ En dessous de cette description, il est possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram. À vous de choisir ce que vous souhaitez mettre en valeur.
+4. En dessous de cette description, il est possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram. À vous de choisir ce que vous souhaitez mettre en valeur.
 
 ![image](assets/fr/024.webp)
 
-De plus, **quelques paramètres de confidentialité sont pertinents à modifier**:
-* **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui);
-* **pouvoir être identifiable par tout le monde**;
+De plus, **quelques paramètres de confidentialité sont pertinents à modifier** :
+* **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui) ;
+* **pouvoir être identifiable par tout le monde** ;
 * **désactiver le suivi de localisation et le partage de données à d'autres entités** (dans les paramètres de confidentialité).
 
 
 À chaque événement, vous viendrez alors certainement annoncer sur Twitter les informations utiles. Or, comme l'immense majorité des réseaux sociaux, **la visibilité est le nerf de la guerre**.
 
 Afin de vous faire gagner une quantité de temps assez conséquente, nous avons pris le temps d'étudier le [code open-source de l'algorithme de classement de Twitter](https://github.com/twitter).
-Voici donc **les principaux points auxquels il faut faire attention pour que votre visibilité s'accroisse**:
-* Généralités:
-    - **tweetez dans la langue que vous avez paramétrée** sur votre compte Twitter, ou en anglais (sinon, vous serez pénalisé démentiellement);
-    - **ne tweetez que des informations liées au domaine d'expertise de votre compte** (pénalité forte sinon);
-    - tweetez 1 à 2 fois par jour;
-    - **tweetez sur des horaires à forte visibilité** (le plus intéressant étant le jeudi ou vendredi entre 8h et 10h; voir le "Twitter Analytics" de votre compte).
 
-* Lors de l'écriture d'un tweet:
-    - **ajoutez une photo** (voire une vidéo);
-    - **ajoutez un seul hashtag à votre tweet** (#Bitcoin est généralement le plus pertinent. Si cela a du sens, et à condition qu'il soit lié au domaine d'expertise de votre compte, ajoutez un hashtag en tendance);
-    - **encouragez votre communauté à liker** (poids de 0,5), **à retweeter** (poids de 1) **mais surtout à répondre** (poids de 27 !!);
-    - **répondez aux personnes qui répondent à vos tweets** (poids de 75 !!);
-    - **n'ajoutez pas de lien dans votre tweet initial** (cela peut se faire dans le premier commentaire par exemple);
+Voici donc **les principaux points auxquels il faut faire attention pour que votre visibilité s'accroisse** :
+* Généralités :
+    - **tweetez dans la langue que vous avez paramétrée** sur votre compte Twitter, ou en anglais (sinon, vous serez pénalisé démentiellement) ;
+    - **ne tweetez que des informations liées au domaine d'expertise de votre compte** (pénalité forte sinon) ;
+    - tweetez 1 à 2 fois par jour ;
+    - **tweetez sur des horaires à forte visibilité** (le plus intéressant étant le jeudi ou vendredi entre 8h et 10h ; voir le "Twitter Analytics" de votre compte).
+
+* Lors de l'écriture d'un tweet :
+    - **ajoutez une photo** (voire une vidéo) ;
+    - **ajoutez un seul hashtag à votre tweet** (#Bitcoin est généralement le plus pertinent. Si cela a du sens, et à condition qu'il soit lié au domaine d'expertise de votre compte, ajoutez un hashtag en tendance) ;
+    - **encouragez votre communauté à liker** (poids de 0,5), **à retweeter** (poids de 1) **mais surtout à répondre** (poids de 27 !!) ;
+    - **répondez aux personnes qui répondent à vos tweets** (poids de 75 !!) ;
+    - **n'ajoutez pas de lien dans votre tweet initial** (cela peut se faire dans le premier commentaire par exemple) ;
     - écrivez les mots en entier, sans utiliser d'abréviations.
 
-* D'autres points à noter:
-    - tweetez en fonction des tendances, à condition qu'elles soient dans le domaine d'expertise de votre compte;
-    - **repostez / retweetez vos tweets les plus vus**;
-    - **réalisez de temps en temps des sondages**;
-    - **écrivez si possible des threads**;
-    - encouragez votre communauté à aller voir puis à suivre votre profil.
+* D'autres points à noter :
+    - tweetez en fonction des tendances, à condition qu'elles soient dans le domaine d'expertise de votre compte ;
+    - **repostez / retweetez vos tweets les plus vus** ;
+    - **réalisez de temps en temps des sondages** ;
+    - **écrivez si possible des threads** ;
+    - encouragez votre communauté à aller voir, puis à suivre votre profil.
 
 De plus, **il est possible d'épingler sur votre profil Twitter un tweet ou thread auquel vous souhaiteriez donner une visibilité importante**, à l'image de la communauté Bitcoin Witsand en Afrique du Sud.
 
 ![image](assets/fr/025.webp)
 
-Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous en soirée... Prudence, donc !
+Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire ; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous en soirée... Prudence, donc !
 
 Enfin, bien que votre nom d'utilisateur "@Bitcoin[VILLE]" est unique et vous appartient désormais, il peut être pertinent d'anticiper de potentiels faux comptes et donc de créer en amont les comptes "@Bitcoin_[VILLE]", "@[VILLE]Bitcoin" ou "@[VILLE]_Bitcoin". Vous serez alors **presque certain que personne ne cherchera à dupliquer l'identité du compte de votre communauté**.
 
-Tutoriel pour créer un compte Twitter:
+Tutoriel pour créer un compte Twitter :
 
 :::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
@@ -646,20 +646,23 @@ Tutoriel pour créer un compte Twitter:
 
 Maintenant que vos canaux de communication et réseaux sociaux ont été créés, paramétrés et saupoudrés de l'empreinte visuelle de votre ville / communauté / meet-up, il est désormais venu le moment de suivre les "bonnes personnes".
 
-Sur Twitter, cela peut commencer par **suivre certains comptes oeuvrant au développement de Bitcoin au niveau international**, comme [@Bitcoin](https://twitter.com/Bitcoin) et [@planb_network](https://twitter.com/planb_network); d'initiatives, comme [@FBCEglobal](https://twitter.com/FBCEglobal); par retweeter le fameux "Running bitcoin" du 11 janvier 2009 de [@halfin](https://twitter.com/halfin); mais aussi - et surtout - par **suivre les comptes des communautés et meet-ups Bitcoin de son pays**.
-En effet, **cela permettra mutuellement de se suivre, de se taguer et donc de collectivement gagner en visibilité**.
-C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin françaises; et il en est de même avec la majorité des initiatives "Satoshi Spritz" en Italie et "Einundzwanzig" en Allemagne.
+Sur Twitter, cela peut commencer par **suivre certains comptes oeuvrant au développement de Bitcoin au niveau international**, comme [@Bitcoin](https://twitter.com/Bitcoin) et [@planb_network](https://twitter.com/planb_network) ; d'initiatives, comme [@FBCEglobal](https://twitter.com/FBCEglobal) ; par retweeter le fameux "Running bitcoin" du 11 janvier 2009 de [@halfin](https://twitter.com/halfin) ; mais aussi - et surtout - par **suivre les comptes des communautés et meet-ups Bitcoin de son pays**.
 
-Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
+En effet, **cela permettra mutuellement de se suivre, de se taguer et donc de collectivement gagner en visibilité**.
+C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin françaises ; et il en est de même avec la majorité des initiatives "Satoshi Spritz" en Italie et "Einundzwanzig" en Allemagne.
+
+Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille) ; les amenant désormais à effectuer au moins une fois par an un meet-up commun.
 Le cas des repas du **Cercle du Coin** est un autre exemple.
 
 ![image](assets/fr/026.webp)
 
-De plus, en France, il peut également être pertinent de **suivre les initiatives [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) et [@btcmap](https://twitter.com/btcmap)**. Ce ne sont évidemment que des propositions, et chaque communauté est évidemment libre de faire ce qu'il lui plaît; en toute décentralisation et en toute autonomie.
-Néanmoins, comme dit précédemment, l'intérêt de se suivre est de s'apporter mutuellement de la visibilité. Ainsi, plus vous mettrez en avant votre communauté et celles de votre région / pays sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. 
+De plus, en France, il peut également être pertinent de **suivre les initiatives [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) et [@btcmap](https://twitter.com/btcmap)**. Ce ne sont évidemment que des propositions, et chaque communauté est évidemment libre de faire ce qu'il lui plaît ; en toute décentralisation et en toute autonomie.
+
+Néanmoins, comme dit précédemment, l'intérêt de se suivre est de s'apporter mutuellement de la visibilité. Ainsi, plus vous mettrez en avant votre communauté et celles de votre région / pays sur les réseaux, plus l'on parlera de vous ; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements.
+
 Liker et retweeter sur les réseaux sociaux les posts des autres communautés peut donc aider fortement à leur (et à votre) développement.
 
-En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir deux ou trois fois dans l'année en visio afin de faire un point sur l'évolution des projets nationaux et des communautés associées. Cela peut également se faire lors des événements physiques**, l'objectif étant simple: écouter le ressenti de chacun, discuter de l'évolution des communautés présentes, mais aussi partager des idées et projets qui ont aboutis, de proposer des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut même être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
+En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir deux ou trois fois dans l'année en visio afin de faire un point sur l'évolution des projets nationaux et des communautés associées. Cela peut également se faire lors des événements physiques**, l'objectif étant simple : écouter le ressenti de chacun, discuter de l'évolution des communautés présentes, mais aussi partager des idées et projets qui ont aboutis, de proposer des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut même être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
 ## Btcmap.org
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
@@ -669,38 +672,38 @@ En parallèle, il est évidemment possible de **proposer aux organisateurs de me
 Cependant, vous ne pouvez pas aller plus loin sans savoir qu'**il existe des plateformes permettant aux bitcoiners intéressés de trouver les communautés et meet-ups près de chez eux**.
 C'est la raison pour laquelle **il est crucial que vous preniez quelques minutes pour faire une demande de référencement sur ces sites / plateformes**.
 
-Parmi celles-ci, on note notamment:
-* **[Btcmap.org](https://btcmap.org/)**, site internet qui regroupe deux cartes mis à jour quotidiennement: **[la carte mondiale des commerces acceptant Bitcoin](https://btcmap.org/map)** et **[la carte des communautés mondiales](https://btcmap.org/communities/map)**. De nombreux bitcoiners, lors de leurs vacances ou même dans leur quotidien, scrutent régulièrement ces cartes afin de pouvoir faire de nouvelles rencontres ou de nouveaux achats. **Btcmap est clairement LA référence mondiale. Et pour votre visibilité, votre communauté se doit d'y être référencée.**
+Parmi celles-ci, on note notamment :
+* **[Btcmap.org](https://btcmap.org/)**, site internet qui regroupe deux cartes mis à jour quotidiennement : **[la carte mondiale des commerces acceptant Bitcoin](https://btcmap.org/map)** et **[la carte des communautés mondiales](https://btcmap.org/communities/map)**. De nombreux bitcoiners, lors de leurs vacances ou même dans leur quotidien, scrutent régulièrement ces cartes afin de pouvoir faire de nouvelles rencontres ou de nouveaux achats. **Btcmap est clairement LA référence mondiale. Et pour votre visibilité, votre communauté se doit d'y être référencée.**
 * **[BitcoinerEvents](https://www.bitcoinerevents.com/)**, site internet créé par des bitcoiners, pour les bitcoiners. Il est possible d'**y poster les prochains événements de sa communauté**. Toutefois, en France, cette plateforme est relativement peu utilisée.
-* en fonction des pays, il existe également des initiatives spécifiques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin dans le pays**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude:**
-    * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté**;
+* en fonction des pays, il existe également des initiatives spécifiques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin dans le pays**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude :**
+    * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté** ;
     * **d'épingler dans son groupe Telegram communautaire les annonces de nouveaux événements**.
 
 ![image](assets/fr/027.webp)
 
 Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles, et il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement et de chercher ceux autour de chez soi.
-Malheureusement, pour pouvoir y créer des événements, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis; son principal intérêt étant qu'elle permet de gérer les inscriptions aux rencontres.
+Malheureusement, pour pouvoir y créer des événements, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis ; son principal intérêt étant qu'elle permet de gérer les inscriptions aux rencontres.
 
 En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 sats/an, ou 200 000 sats à vie).
 
 
 Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont pas conseillées au lancement de votre communauté, tout simplement car elles sont payantes.
-**Débuter avec un référencement sur [btcmap.org](https://btcmap.org/), sur [BitcoinerEvents](https://www.bitcoinerevents.com/); et pour les communautés françaises, sur [bitcoin.fr](https://bitcoin.fr) est donc clairement suffisant**.
+**Débuter avec un référencement sur [btcmap.org](https://btcmap.org/), sur [BitcoinerEvents](https://www.bitcoinerevents.com/) ; et pour les communautés françaises, sur [bitcoin.fr](https://bitcoin.fr) est donc clairement suffisant**.
 
 
 Toutes nos félicitations ! Votre **communauté est désormais créée**, vos **visuels réalisés**, vos **objectifs fixés**, vos **canaux de communication établis**, vos **réseaux sociaux lancés** et votre **stratégie de visibilité décidée**.
-Une fois qu'un petit groupe de bitcoiners vous aura rejoint, il n'y aura plus qu'à passer à l'étape supérieure: **se lancer dans la folle aventure d'un meet-up Bitcoin !**
+Une fois qu'un petit groupe de bitcoiners vous aura rejoint, il n'y aura plus qu'à passer à l'étape supérieure : **se lancer dans la folle aventure d'un meet-up Bitcoin !**
 
 # Organiser un meet-up Bitcoin
 <partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
 
-## Pourquoi lancer un meet-up régulier avec sa communauté?
+## Pourquoi lancer un meet-up régulier avec sa communauté ?
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
 Maintenant que les réseaux sociaux et les canaux de communication de votre communauté ont été lancés, il n'y a plus qu'à faire acte de présence sur ces plateformes. Les nouveaux membres devraient par la suite se présenter d'eux-même, engageant petit à petit la discussion.
-Cela vous permettra donc de vous libérer du temps, qui pourrait par exemple vous perrmettre de réfléchir à la création d'une rencontre de type "meet-up"; quelqu'en soit son format. Cela s'accentuera d'ailleurs lorsque vous commencerez à sentir une certaine ferveur au sein de votre communauté.
+Cela vous permettra donc de vous libérer du temps, qui pourrait par exemple vous perrmettre de réfléchir à la création d'une rencontre de type "meet-up" ; quelqu'en soit son format. Cela s'accentuera d'ailleurs lorsque vous commencerez à sentir une certaine ferveur au sein de votre communauté.
 
-Comme dit précédemment, **un meet-up Bitcoin peut donc être vu comme le "niveau" suivant d'une communauté**. Il permet d'une part, **à ses membres bitcoiners, de se rencontrer**; et d'autre part, d'**éduquer les nouvelles personnes intéressées par cet écosystème**.
+Comme dit précédemment, **un meet-up Bitcoin peut donc être vu comme le "niveau" suivant d'une communauté**. Il permet d'une part, **à ses membres bitcoiners, de se rencontrer** ; et d'autre part, d'**éduquer les nouvelles personnes intéressées par cet écosystème**.
 Un événement de ce type va ainsi permettre à votre échelle de **créer dans votre ville un engouement autour de Bitcoin**, qui pourra s'étoffer au fil du temps en fonction des projets que votre communauté réalisera.
 
 ![image](assets/fr/028.webp)
@@ -708,50 +711,49 @@ Un événement de ce type va ainsi permettre à votre échelle de **créer dans 
 Bien évidemment, plus les objectifs que vous aurez fixés pour le développement de votre communauté seront importants, plus il sera nécessaire - pour vous et vos membres - d'y passer du temps.
 Il est donc important de **commencer par se fixer des objectifs atteignables pour l'organisation de ce meet-up**.
 
-## Le premier meet-up: quand, et (pour)quoi?
+## Le premier meet-up : quand, et (pour)quoi ?
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
 Il est tout à fait possible que vous décidiez de lancer un événement de type meet-up à peine quelques semaines après la création de votre communauté.
 Cependant, dans cette situation, votre communauté ne se sera certainement pas beaucoup développée. Cela signifie donc qu'il est envisageable que personne ne se présente à votre événement.
-Par conséquent, il semble pertinent de n'**organiser un meet-up qu'à partir du moment où il commence à y avoir quelques personnes impliquées dans les canaux de communication** de votre communauté; disons par exemple **une petite dizaine de membres**. Cela peut donc être assez rapide, mais est également dépendant des personnalités de chacun.
+Par conséquent, il semble pertinent de n'**organiser un meet-up qu'à partir du moment où il commence à y avoir quelques personnes impliquées dans les canaux de communication** de votre communauté ; disons par exemple **une petite dizaine de membres**. Cela peut donc être assez rapide, mais est également dépendant des personnalités de chacun.
 
 Une fois que vous sentirez cette petite étincelle, viendra alors la possibilité de proposer l'idée d'une rencontre en présentiel. Si cette idée recueille l'intérêt d'autres personnes, il vous suffira alors de **définir la date de votre premier meet-up**.
-Pour ce faire, il est certainement préférable de ne pas vous-même la fixer mais de plutôt **proposer - une dizaine de jours avant - un sondage contenant différents jours et plages horaires**. Ainsi, en fonction des votes de chacun, vous pourrez **maximiser la présence de membres**, de créer plus d'émulations; mais aussi, de **mieux "optimiser" votre temps**.
+Pour ce faire, il est certainement préférable de ne pas vous-même la fixer mais de plutôt **proposer - une dizaine de jours avant - un sondage contenant différents jours et plages horaires**. Ainsi, en fonction des votes de chacun, vous pourrez **maximiser la présence de membres**, de créer plus d'émulations ; mais aussi, de **mieux "optimiser" votre temps**.
 
 ![image](assets/fr/029.webp)
 
-Il est alors important que vous ne vous fixiez pas d'idée préconçue de comment ce meet-up se déroulera, de combien vous serez, des thèmes de discussion, etc. En effet, vous risqueriez d'être déçu; et les participants, de se sentir potentiellement "oppressés".
-Il semble en ce sens préférable de laisser les choses se faire naturellement, autour d'un verre par exemple. Les discussions devraient alors être faciles; et cela, quitte à recentrer la discussion autour de Bitcoin si vous êtes en tête à tête avec une brebis égarée.
+Il est alors important que vous ne vous fixiez pas d'idée préconçue de comment ce meet-up se déroulera, de combien vous serez, des thèmes de discussion, etc. En effet, vous risqueriez d'être déçu ; et les participants, de se sentir potentiellement "oppressés".
+Il semble en ce sens préférable de laisser les choses se faire naturellement, autour d'un verre par exemple. Les discussions devraient alors être faciles ; et cela, quitte à recentrer la discussion autour de Bitcoin si vous êtes en tête à tête avec une brebis égarée.
 
-Si vous souhaitez toutefois **anticiper certains blancs, vous pouvez prévoir différentes "activités" ou points de chute**. Cela peut être:
-- un ordinateur ou un smartphone avec la **[mempool](https://mempool.space/)**;
-- l'apport d'un livre;
-- l'apport d'un **Nerdminer**, Bitaxe, FPGA voire même ASIC;
-- la présence d'un **flyer Bitcoin**;
-- la réflexion autour d'un visuel / logo Bitcoin pour votre communauté;
-- un **[jeu de cartes Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- la **[carte btcmap.org](https://btcmap.org/)** des communautés et des commerces;
+Si vous souhaitez toutefois **anticiper certains blancs, vous pouvez prévoir différentes "activités" ou points de chute**. Cela peut être :
+- un ordinateur ou un smartphone avec la **[mempool](https://mempool.space/)** ;
+- l'apport d'un livre ;
+- l'apport d'un **Nerdminer**, Bitaxe, FPGA voire même ASIC ;
+- la présence d'un **flyer Bitcoin** ;
+- la réflexion autour d'un visuel / logo Bitcoin pour votre communauté ;
+- un **[jeu de cartes Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)** ;
+- la **[carte btcmap.org](https://btcmap.org/)** des communautés et des commerces ;
 - l'envoi / la réception de Bitcoin en **Lightning**.
 
-À noter toutefois: lorsque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semble en effet préférable de réaliser cela sous la forme de discussion, de manière plus ouverte et plus conviviale.
+À noter toutefois : lorsque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semble en effet préférable de réaliser cela sous la forme de discussion, de manière plus ouverte et plus conviviale.
 
 ![image](assets/fr/030.webp)
 
-Une fois que votre meet-up se sera déroulé, vous aurez probablement envie d'en réaliser un autre. **Tant que votre communauté est encore petite, il semble préférable de continuer à proposer la date par sondage; par exemple, une fois par mois (voire tous les deux mois)**. À vous d'en discuter sur les canaux de communication que vous utilisez.
+Une fois que votre meet-up se sera déroulé, vous aurez probablement envie d'en réaliser un autre. **Tant que votre communauté est encore petite, il semble préférable de continuer à proposer la date par sondage ; par exemple, une fois par mois (voire tous les deux mois)**. À vous d'en discuter sur les canaux de communication que vous utilisez.
 
-Toutefois, dans le cas où **un groupe régulier de bitcoiners et d'intéressés se développe**, il semble pertinent de **planifier ce moment de manière plus régulière**; pour plusieurs raisons:
-1) cela permet pour tout le monde de plus facilement planifier sa venue;
+Toutefois, dans le cas où **un groupe régulier de bitcoiners et d'intéressés se développe**, il semble pertinent de **planifier ce moment de manière plus régulière** ; pour plusieurs raisons :
+1) cela permet pour tout le monde de plus facilement planifier sa venue ;
 2) cela permet également d'**instaurer une "habitude"**. Ainsi, quelqu'un ne suivant plus quotidiennement les canaux de communication ou réseaux du meet-up (par manque de temps par exemple) et connaissant le jour habituel de votre rencontre peut alors passer, "comme d'habitude".
 
 Ce second point est très important. C'est d'ailleurs une des raisons pour lesquelles, **en France, la majorité des meet-ups se déroulent le premier mercredi de chaque mois** (voir l'initiative des "ambassadeurs", lancée par [DecouvreBitcoin](https://decouvrebitcoin.fr/) en 2022).
-En Allemagne, il n'y a pas au niveau national de jour prédéfini; de même en Italie.
+En Allemagne, il n'y a pas au niveau national de jour prédéfini ; de même en Italie.
 
 Toutefois, il est à souligner qu'**avoir tous les meet-ups nationaux le même jour engendre un problème de centralisation**. En plus de la question de la sûreté, les bitcoiners présents au meet-up de leur ville respective ne peuvent donc pas participer aux événements Bitcoin des communautés limitrophes.
-À vous donc de vous positionner; et pour ce faire, **échanger avec le (ou les) meet-up(s) le(s) plus proche(s) peut permettre d'arriver à une décision commune pertinente**.
+À vous donc de vous positionner ; et pour ce faire, **échanger avec le (ou les) meet-up(s) le(s) plus proche(s) peut permettre d'arriver à une décision commune pertinente**.
 
-
-Enfin, lorsque votre communauté deviendra conséquente et que vos meet-ups se rempliront, il est tout à fait possible de proposer:
-* **un objectif précis à chacun de vos meet-ups**;
+Enfin, lorsque votre communauté deviendra conséquente et que vos meet-ups se rempliront, il est tout à fait possible de proposer :
+* **un objectif précis à chacun de vos meet-ups** ;
 * voire même **un second événement dans le mois**.
 
 Dans le premier cas, bien qu'il faille être attentif à la sensibilité et aux envies de chacun, cela peut permettre à toutes les personnes présentes de **sortir de l'événement avec de nouvelles connaissances**, tout en recentrant les sujets de conversation autour de Bitcoin (si ces derniers divergeaient).
@@ -759,7 +761,7 @@ Dans le second cas, un deuxième événement dans le mois peut par exemple perme
 
 ![image](assets/fr/031.webp)
 
-Gardez toutefois en tête que **cela demande une organisation plus importante; et vous prendra donc plus de temps**. Mais heureusement, dans la [partie 6/8 de ce cours](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), vous seront proposées de nombreuses ressources open-source réutilisables.
+Gardez toutefois en tête que **cela demande une organisation plus importante ; et vous prendra donc plus de temps**. Mais heureusement, dans la [partie 6/8 de ce cours](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), vous seront proposées de nombreuses ressources open-source réutilisables.
 
 Quoi qu'il en soit, tout cela dépendra du plan d'action à court, à moyen et à long terme que vous (ou votre communauté) vous serez fixés.
 
@@ -767,14 +769,14 @@ Quoi qu'il en soit, tout cela dépendra du plan d'action à court, à moyen et �
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
 La recherche d'un lieu pour l'organisation d'événements n'est souvent pas évidente. En plus de cela, il semble essentiel **que ce lieu se situe dans la ville de votre communauté**.
-De nombreux critères sont donc à prendre en compte. Parmi eux:
-1) le positionnement du lieu: est-il facilement **accessible en transport? En voiture?** Peut-on s'y garer sans difficulté?
-2) le lieu est-il **agréable et pas trop bruyant?** Cherchez-vous un endroit formel (espace de coworking, salle de réunion) ou informel (bar, voire restaurant)? 
-3) l'endroit a-t-il une **capacité suffisante pour vous accueillir?** Y compris un soir de match de rugby ou de ligue des champions?
-4) le lieu dispose-t-il d'un **vidéo-projecteur et d'un espace calme pour réaliser vos présentations?**
-5) enfin, dans le cas d'un bar (voire d'un restaurant), **la carte permet-elle à tous de manger et de boire?**
+De nombreux critères sont donc à prendre en compte. Parmi eux :
+1) le positionnement du lieu : est-il facilement **accessible en transport ? En voiture ?** Peut-on s'y garer sans difficulté ?
+2) le lieu est-il **agréable et pas trop bruyant ?** Cherchez-vous un endroit formel (espace de coworking, salle de réunion) ou informel (bar, voire restaurant) ? 
+3) l'endroit a-t-il une **capacité suffisante pour vous accueillir ?** Y compris un soir de match de rugby ou de ligue des champions ?
+4) le lieu dispose-t-il d'un **vidéo-projecteur et d'un espace calme pour réaliser vos présentations ?**
+5) enfin, dans le cas d'un bar (voire d'un restaurant), **la carte permet-elle à tous de manger et de boire ?**
 
-En plus de cela, trois remarques importantes peuvent être ajoutées:
+En plus de cela, trois remarques importantes peuvent être ajoutées :
 - dans le cas où vous souhaiteriez **scinder la soirée en deux temps** (tout d'abord, une **présentation dans un espace formel** afin de permettre à tous d'être plus concentré; puis **changer de lieu pour continuer la soirée de manière plus détendue dans un bar** ou un restaurant), l'expérience a montré que changer de lieu en milieu de soirée amène **une partie des participants à profiter de la césure pour s'en aller. Ce type de fonctionnement n'est donc pas conseillé**;
 - lors de vos premiers meet-ups, peu de personnes devraient se présenter, et vous ne réaliserez donc probablement pas de présentation. En ce sens, il ne semble pas nécessaire de vous faire connaître auprès du(de la) patron(ne) et de lui présenter vos objectifs, etc. Toutefois, **une fois que vos meet-ups seront réguliés et fréquentés, il semble pertinent de le faire afin de montrer votre sérieux et de faire valoir votre souhait de revenir mensuellement**. Cela peut ainsi amener de nombreuses discussions (réservation mensuelle automatique, consommations et/ou planches gratuites, réductions, discussion autour de Bitcoin, acceptation de Bitcoin comme moyen de paiement, etc.) Évidemment, dans le cas où vous cherchez spécifiquement un lieu avec vidéo-projecteur pour réaliser des présentations, il semble essentiel de demander en amont un échange (en présentiel, voire par téléphone) avec le(la) patron(ne) et/ou le(la) manageur(se) afin de présenter votre projet et vos objectifs;
 

@@ -1216,21 +1216,23 @@ Nei casi in cui la legge si limita a far rispettare i diritti di ogni individuo 
 
 Secondo Bastiat, la democrazia socialista porta a un deficit permanente nei bilanci e, in ultima analisi, alla violenza. Infatti, moltiplicando senza sosta le promesse e non essendo in grado di mantenerle, la macchina elettorale sviluppa un'amarezza che pone le basi per le rivoluzioni. Egli scrive:
 
-> Ma se il governo si assume il compito di aumentare e regolare i salari e non può farlo; se si assume il compito di assistere tutte le sfortune e non può farlo; se si assume il compito di fornire pensioni a tutti i lavoratori e non può farlo... non vediamo che al termine di ogni delusione, ahimè! più che probabile, c'è una rivoluzione altrettanto inevitabile? ([_La Legge_](http://bastiat.org/fr/la_loi.html))
+> Ma se il governo si assume il compito di aumentare e regolare i salari e non può farlo; se si assume il compito di assistere tutte le sfortune e non può farlo; se si assume il compito di fornire pensioni a tutti i lavoratori e non può farlo... non lo vediamo, ahimè, alla fine di ogni delusione? più che probabile, c'è una rivoluzione altrettanto inevitabile. ([_La Legge_](http://bastiat.org/fr/la_loi.html))
 
 La conclusione di Bastiat:
-Guardate il globo. Quali sono i popoli più felici, più morali e più pacifici? Quelli dove la Legge interviene meno nell'attività privata; dove il governo si fa sentire di meno; dove l'individualità ha più resilienza e l'opinione pubblica più influenza; dove i meccanismi amministrativi sono meno numerosi e meno complicati; le tasse meno onerose e meno diseguali; il malcontento popolare meno provocato e meno giustificabile; dove la responsabilità degli individui e delle classi è più attiva, e dove, di conseguenza, se la moralità non è perfetta, tende inesorabilmente a correggersi; dove le transazioni, gli accordi, le associazioni sono meno ostacolati; dove il lavoro, il capitale e la popolazione soffrono i meno spostamenti artificiali ([_La Legge_](http://bastiat.org/fr/la_loi.html))
 
-## La Critica Marxista al Capitalismo
+> Guardate il globo. Quali sono i popoli più felici, più morali e più pacifici? Quelli dove la Legge interviene meno nell'attività privata; dove il governo si fa sentire di meno; dove l'individualità ha più resilienza e l'opinione pubblica più influenza; dove i meccanismi amministrativi sono meno numerosi e meno complicati; le tasse meno onerose e meno diseguali; il malcontento popolare meno provocato e meno giustificabile; dove la responsabilità degli individui e delle classi è più attiva, e dove, di conseguenza, se la moralità non è perfetta, tende inesorabilmente a correggersi; dove le transazioni, gli accordi, le associazioni sono meno ostacolati; dove il lavoro, il capitale e la popolazione soffron0 meno i spostamenti artificiali ([_La Legge_](http://bastiat.org/fr/la_loi.html))
+
+## La critica marxista al capitalismo
 
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
 Fu durante il XIX secolo che emerse la critica al capitalismo, e in particolare la critica marxista.
 
 ![image](assets/5/img-089.webp)
+
 Che senso ha il diritto di parlare, scrivere e votare, esclamava Marx, se la vita quotidiana è una lotta per la sopravvivenza? Oltre una certa soglia, la povertà equivale a servitù. L'ordine sociale quindi giova a tutti solo se viene applicato il principio di una giusta distribuzione dei beni. Fu questa critica al liberalismo che portò Marx a considerare la necessità di un controllo razionale e pianificato dell'ordine sociale. Da qui in poi, lo stato minimo dei liberali deve essere succeduto da uno stato forte capace di stabilire una vera eguaglianza, che, secondo Marx, arriva fino all'abolizione della proprietà privata e alla sua collettivizzazione. In una versione più mitigata, la "democrazia sociale", si chiede allo stato di garantire non solo i diritti astratti dell'uomo ma i diritti concreti dell'uomo. Vengono creati nuovi diritti, diritti sociali ed economici, garantiti dallo stato: il diritto al lavoro, il diritto all'abitazione, il diritto alla salute (gratuita), il diritto all'istruzione (gratuita).
 
-### Il Mito dello Stato Imparziale
+### Il mito dello stato imparziale
 
 La critica fondamentale che Marx fa al liberalismo politico, in particolare nei suoi scritti giovanili (_Critica della filosofia del diritto di Hegel_ e _Sulla questione ebraica_), si concentra sulla separazione tra società civile e stato. Questa critica deve essere compresa all'interno del quadro generale della sua interpretazione della "Rivoluzione Borghese". È questa rivoluzione che porta alla formazione di uno stato separato dalla società civile, che si suppone miri all'universale, intendendo l'interesse comune, svolgendo il ruolo di arbitro imparziale.
 
@@ -1240,13 +1242,13 @@ L'emancipazione del cittadino, secondo Marx, non significa affatto l'emancipazio
 
 Questa illusione politica del liberalismo è il lato secolare dell'illusione religiosa, aggiunge Marx. La formula è ben nota: "la religione è l'oppio dei popoli". La religione è una consolazione, fornisce euforia e promette emancipazione nell'aldilà. Ma distoglie l'uomo dalla sua vera emancipazione qui sulla terra. La cittadinanza è, rispetto all'attività del lavoratore, come il regno di Dio rispetto all'esistenza miserabile su questa terra. Non si realizza mai. Questa doppia separazione costituisce una doppia alienazione, significando il mancato compimento da parte dell'uomo della sua umanità o il suo compimento immaginario.
 
-### Alienazione Economica
+### Alienazione economica
 
 Infatti, per Marx e in accordo con il materialismo storico, è l'alienazione economica che sta alla radice dell'alienazione politica così come dell'alienazione religiosa. Nell'alienazione economica, risultato del capitalismo (definito come la proprietà privata dei mezzi di produzione), il lavoratore è costretto a vendere la sua forza lavoro come una merce. Inoltre, è privato del prodotto del suo lavoro, che è di proprietà del datore di lavoro. Egli è quindi alienato, nel senso che è separato da se stesso perché il suo lavoro diventa qualcosa di estraneo a lui che compie per forza, per sopravvivere. Eppure, il lavoro, per Marx, è l'atto quintessenzialmente umano, quello attraverso il quale l'essenza stessa dell'uomo, cioè la libertà, si realizza. Questo è il motivo per cui la liberazione del lavoro significa anche restituire all'uomo la sua dignità e umanità.
 
 La rivoluzione politica è quindi un'illusione, secondo lui, finché non è accompagnata da una rivoluzione economica e sociale capace di liberare l'uomo dalla servitù capitalista e quindi di realizzare l'unità tra il lavoratore e il cittadino, tra la società e lo stato, la sfera privata e la sfera pubblica. La libertà formale e l'uguaglianza del cittadino diventeranno così reali, in una società senza classi.
 
-## La Critica Austriaca al Marxismo
+## La critica austriaca al marxismo
 
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
@@ -1254,7 +1256,7 @@ La Scuola Austriaca di Economia, fondata da Carl Menger alla fine del XIX secolo
 
 ![image](assets/5/img-083.webp)
 
-### La Lotta di Classe
+### La lotta di classe
 
 Gli economisti austriaci rifiutano la nozione marxista di lotta di classe, secondo la quale il conflitto tra la classe capitalista e la classe lavoratrice sarebbe inevitabile e sarebbe il motore del cambiamento sociale.
 
@@ -1279,21 +1281,23 @@ Mises coniò il termine "polilogismo" per spiegare questo sofisma. "Poly" signif
 Eppure, fino alla metà del XIX secolo, nessuno osò contestare il fatto che la struttura logica della mente fosse identica e comune a tutti gli esseri umani. Tutte le relazioni umane si basano sull'assunzione di una struttura logica uniforme. Le persone possono impegnarsi in discussioni perché possono appellarsi a qualcosa di comune a tutti, ovvero la struttura logica della ragione.
 
 Mises scrive:
-Marx e i marxisti (...) hanno insegnato che il pensiero è determinato dalla situazione di classe del pensatore. Ciò che il pensiero produce non è la verità, ma ideologie. Nel contesto della filosofia marxista, questa parola significa un travestimento dell'interesse egoistico della classe di appartenenza dell'individuo pensante. Ecco perché è inutile discutere di qualsiasi cosa con persone di un'altra classe sociale. Le ideologie non devono essere confutate con il ragionamento deduttivo; devono essere smascherate denunciando la situazione di classe, il contesto sociale dei loro autori. Così, i marxisti non discutono i meriti delle teorie fisiche; semplicemente rivelano l'origine borghese dei fisici. (_The Omnipotent Government_).
+
+> Marx e i marxisti (...) hanno insegnato che il pensiero è determinato dalla situazione di classe del pensatore. Ciò che il pensiero produce non è la verità, ma ideologie. Nel contesto della filosofia marxista, questa parola significa un travestimento dell'interesse egoistico della classe di appartenenza dell'individuo pensante. Ecco perché è inutile discutere di qualsiasi cosa con persone di un'altra classe sociale. Le ideologie non devono essere confutate con il ragionamento deduttivo; devono essere smascherate denunciando la situazione di classe, il contesto sociale dei loro autori. Così, i marxisti non discutono i meriti delle teorie fisiche; semplicemente rivelano l'origine borghese dei fisici. (_The Omnipotent Government_).
 
 A giudizio dei marxisti, Ricardo, Freud, Bergson ed Einstein sbagliano perché sono borghesi. Così, i marxisti sostengono che la struttura logica della mente sarebbe diversa a seconda dell'appartenenza di classe. Ogni classe avrebbe la propria logica e quindi la propria economia, matematica, fisica, e così via. L'unica logica e l'unica scienza esatta, corretta ed eterna sarebbero quelle dei marxisti.
 
 Ecco perché Georges Sorel, l'importatore del marxismo in Francia, direbbe che la violenza è benefica, purché sia "proletaria". Non sorprende che lo stesso ragionamento si ritrovi negli scritti di Lenin, e poi di Trotsky. Poiché la morale e il diritto classici sono invenzioni della classe dominante, tutto è permesso.
 
-### Lavoro e Profitto
+### Lavoro e profitto
 
 Gli austriaci affermano che la teoria del valore-lavoro di Marx, secondo cui il valore di una merce è determinato dalla quantità di lavoro necessaria per la sua produzione, è errata. Sostengono che il valore è soggettivo e determinato dalle preferenze dei consumatori, non dai costi di produzione.
 
 ![immagine](assets/5/img-087.webp)
+
 Eugen von Böhm-Bawerk, uno dei primi economisti austriaci, criticò la teoria del valore del lavoro di Marx nella sua opera _Wert, Kapital und Zins_ (1886). Böhm-Bawerk sosteneva che la teoria di Marx si basasse su un errore fondamentale, ovvero che tutte le unità di lavoro siano identiche. In realtà, argomentava, alcuni lavori sono più ardui o più produttivi di altri, e questo è ciò che determina il valore di una merce. Riguardo alla teoria del profitto, Marx sosteneva che il profitto è una forma di furto. È il concetto di sfruttamento, secondo il quale i capitalisti estraggono un valore in eccesso ingiusto dal lavoro dei lavoratori. Gli austriaci confutano questa idea sostenendo che i salari sono determinati dal valore che i lavoratori apportano alle aziende, e che i profitti sono la ricompensa per gli imprenditori che assumono rischi e investono in modo efficiente. Il profitto è quindi una ricompensa per l'imprenditore che assume rischi e investe in nuovi prodotti e processi.
 Friedrich Hayek sviluppò una teoria del profitto basata sul concetto di incertezza, che affonda le radici nell'opera di Jean-Baptiste Say. Secondo Hayek, gli imprenditori guadagnano un profitto perché sono in grado di prevedere meglio le future esigenze dei consumatori rispetto ad altri attori economici.
 
-### L'Impossibilità del Calcolo Economico
+### L'Impossibilità del calcolo economico
 
 I marxisti credono che il socialismo, un sistema economico in cui i mezzi di produzione sono di proprietà e controllati dai lavoratori, sia inevitabilmente superiore al capitalismo. Gli austriaci, d'altra parte, affermano che il socialismo sia impossibile da realizzare nella pratica, in quanto richiederebbe un grado irrealistico di pianificazione centrale.
 
@@ -1301,7 +1305,7 @@ I marxisti credono che il socialismo, un sistema economico in cui i mezzi di pro
 
 Già nel 1922, nel suo libro _Socialismo,_ Ludwig von Mises dimostrò che il socialismo avrebbe portato a carenze diffuse, poiché i pianificatori centrali non sarebbero stati in grado di effettuare calcoli economici accurati senza il sistema dei prezzi fornito dal mercato.
 
-## La Strada della Servitù
+## La strada della servitù
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
@@ -1309,7 +1313,7 @@ Allarmato dalla crescita dell'interventismo governativo nelle economie delle dem
 
 ![immagine](assets/5/img-100.webp)
 
-### Il Fascino del Collettivismo
+### Il fascino del collettivismo
 
 Scritto tra il 1940 e il 1943, questo breve saggio mira a fornire una valutazione iniziale degli esperimenti dirigisti tentati nella seconda metà degli anni '30: le nazionalizzazioni e la gestione keynesiana della domanda che hanno preso piede nell'Europa socialdemocratica e nella Nuova America del Deal. Dedicato ai "socialisti di tutti i partiti", cerca di dimostrare che "l'Occidente ha gradualmente abbandonato il principio della libertà economica senza il quale nessuna libertà individuale o politica è stata precedentemente possibile."
 Infatti, lo stesso processo di centralizzazione politica e lo stesso desiderio di sostituire un'organizzazione dirigista con i meccanismi tradizionali del mercato si trovano ovunque. In Gran Bretagna come negli Stati Uniti, si afferma che il potere pubblico deve pianificare tutto e può risolvere tutto.
@@ -1317,19 +1321,23 @@ Infatti, lo stesso processo di centralizzazione politica e lo stesso desiderio d
 Per quanto riguarda il liberalismo autentico, esso si preoccupa della giustizia. Ma Hayek ci ricorda che spetta alla società civile e non allo Stato organizzare questa solidarietà. Ciò che differenzia il liberalismo dal socialismo non sono i fini, ma i mezzi. Secondo Hayek,
 
 > Il liberalismo vuole che facciamo il miglior uso possibile delle forze della concorrenza come mezzo per coordinare gli sforzi umani; non vuole che lasciamo le cose come stanno.
-> Ecco perché, aggiunge Hayek, lo Stato ha un'indiscutibile area di attività:
-> Creare le condizioni in cui la concorrenza sarà il più efficace possibile, sostituirla dove non può essere efficace, fornire servizi che sono di natura tale che il profitto, secondo la formula di Smith, non può rimborsare il costo a nessun gruppo.
+
+Ecco perché, aggiunge Hayek, lo Stato ha un'indiscutibile area di attività:
+
+> Creare le condizioni in cui la concorrenza sia il più efficace possibile, sostituirla dove non può esserlo, fornire servizi di natura tale che il profitto, secondo la formula di Smith, non possa rimborsare i costi a nessun gruppo.
 
 Al contrario, la pianificazione dell'economia e della società in generale, l'essenza del socialismo, è diretta contro la concorrenza in quanto tale. Tuttavia, secondo Hayek, esiste un'incompatibilità tra gli obiettivi del socialismo (giustizia sociale, uguaglianza e sicurezza) e i mezzi previsti dal socialismo per raggiungerli (abolizione della proprietà privata, collettivizzazione dei mezzi di produzione, economia pianificata).
 
-### Le Radici Socialiste del Nazismo
+### Le radici socialiste del nazismo
 
 Fin dalle prime pagine, Hayek stabilisce un parallelo tra il trionfo degli ideali socialisti in Occidente e il successo contemporaneo delle utopie totalitarie.
 
 ![immagine](assets/5/img-093.webp)
 
-> Pochi, avverte nella sua prefazione, sono disposti a riconoscere che l'ascesa del fascismo e del nazismo non è stata una reazione contro le tendenze (...) del periodo precedente, ma un risultato inevitabile di queste tendenze. Questo è qualcosa che la maggior parte delle persone ha rifiutato di vedere, anche nel momento in cui si sono rese conto della somiglianza offerta da certi tratti negativi dei regimi interni della Russia Comunista e della Germania Nazista. Il risultato è che molte persone che si considerano molto al di sopra delle aberrazioni del nazismo e che odiano sinceramente tutte le sue manifestazioni, stanno allo stesso tempo lavorando per ideali la cui realizzazione porterebbe direttamente a questa tirannia aborrita.
+> Pochi, avverte nella sua prefazione, sono disposti a riconoscere che l'ascesa del fascismo e del nazismo non è stata una reazione contro le tendenze (...) del periodo precedente, ma un risultato inevitabile di queste tendenze. Questo è qualcosa che la maggior parte delle persone ha rifiutato di vedere, anche nel momento in cui si sono rese conto della somiglianza di certi tratti negativi dei regimi interni della Russia Comunista e della Germania Nazista. Il risultato è che molte persone che si considerano molto al di sopra delle aberrazioni del nazismo e che odiano sinceramente tutte le sue manifestazioni, stanno allo stesso tempo lavorando per ideali la cui realizzazione porterebbe direttamente a questa tirannia aborrita.
+>
 > Secondo Hayek, socialismo e nazismo condividono una serie di fondamentali affinità, in particolare il rifiuto dell'individualismo e l'ordine spontaneo del mercato. Entrambe le ideologie danno priorità al benessere del gruppo rispetto ai diritti e alle libertà degli individui e cercano di creare una società omogenea unita da valori e obiettivi comuni. Né i socialisti né i nazisti esitano a usare la forza e la coercizione per raggiungere i loro obiettivi. Sono disposti a sopprimere le libertà individuali e reprimere il dissenso in nome del bene maggiore della società.
+>
 > Nel capitolo intitolato "Le Radici Socialiste del Nazismo", Hayek sottolinea che il nazismo rivendica la pianificazione socialista (da qui il suo nome, nazionalsocialismo) dell'economia come mezzo per stabilire un controllo totale sulla popolazione.
 
 I socialisti tedeschi e italiani hanno semplicemente aperto la strada al nazismo istituendo partiti politici che dirigevano tutte le attività dell'individuo, dalla nascita alla morte, dettando le loro opinioni su tutto. Non furono i fascisti, ma i socialisti a iniziare a regimentare i bambini in organizzazioni politiche, a controllare la loro vita privata e i loro pensieri.
@@ -1338,24 +1346,25 @@ I nazisti hanno semplicemente adottato il discorso statalista, dirigista e inter
 
 In conclusione, Hayek invita i suoi contemporanei a voltare le spalle alla "follia" e all'"oscurantismo contemporaneo" per liberare l'umanità dagli "errori che hanno dominato le nostre vite nel recente passato". Secondo lui, la migliore garanzia di libertà è la proprietà privata. Quando tutti i mezzi di produzione sono concentrati nelle mani di pochi organizzatori, siamo sottoposti a un potere totale perché questo potere economico diventa uno strumento politico di controllo su tutta la nostra vita.
 
-# L'Ascesa dello Stato Sociale nel XX Secolo
+# L'Ascesa dello Stato Sociale nel XX secolo
 
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
-## Il Trionfo di Keynes
+## Il trionfo di Keynes
 
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
 Il capitalismo è spesso accusato di essere la fonte dell'iniziativa: "dobbiamo sempre produrre di più", o della formula: "consumare è buono per la crescita". Tuttavia, queste idee non derivano dal capitalismo tradizionale, ma dal Keynesismo, che ha dominato il campo della scienza economica e la classe politica dagli anni '30.
 
 ![image](assets/6/img-011.webp)
 
-### L'Analisi della Crisi del 1929
+### L'analisi della crisi del 1929
 
 Pubblicato nel 1936, il libro di John Maynard Keynes: _La Teoria Generale dell'Occupazione, dell'Interesse e della Moneta_, ha spazzato via tutto sul suo cammino. Interrogandosi sulle cause della Grande Depressione e sui mezzi per uscirne, descrive un nuovo paradigma economico, che avrebbe convertito generazioni di economisti e politici.
 
 ![image](assets/6/img-005.webp)
 
-Per riassumere ampiamente, la spesa pubblica produce crescita e per sostenere il deficit di bilancio, deve essere implementata una politica monetaria di bassi tassi di interesse. Inizialmente, quindi, l'aumento discrezionale della spesa pubblica avrebbe un effetto moltiplicatore sull'attività economica, capace di limitare la recessione e accelerare la ripresa. Poi, in una seconda fase, il denaro sarebbe considerato come uno strumento di politica economica da utilizzare da parte delle autorità pubbliche ai fini della stabilizzazione macroeconomica.
+Riassumendo, la spesa pubblica produce crescita e, per sostenere il deficit di bilancio, deve essere implementata una politica monetaria di bassi tassi di interesse. Inizialmente, quindi, l'aumento discrezionale della spesa pubblica avrebbe un effetto moltiplicatore sull'attività economica, capace di limitare la recessione e accelerare la ripresa. Poi, in una seconda fase, il denaro sarebbe considerato come uno strumento di politica economica da utilizzare da parte delle autorità pubbliche ai fini della stabilizzazione macroeconomica.
 
 ![image](assets/6/img-001.webp)
 
@@ -1367,23 +1376,25 @@ Secondo Keynes, questo nemico può essere combattuto con liquidità a basso inte
 
 Con Keynes, il XX secolo è diventato il secolo della fiducia negli esperti e nella pianificazione. Gli ingegneri sociali al timone del governo e della politica monetaria possono tirare le leve che dovrebbero ripristinare la prosperità, poiché possiedono una visione macro-economica del mondo.
 
-### L'Eredità Controversa di Keynes
+### L'eredità controversa di Keynes
 
-Per Keynes, l'intervento dello stato è necessario per stimolare la domanda e riavviare il motore economico. Questa dottrina ha trionfato nelle università e nei libri di testo. Eppure, l'intervento dello stato ha i suoi difetti e può esacerbare le crisi a lungo termine invece di risolverle.
+Per Keynes, l'intervento dello stato è necessario per stimolare la domanda e riavviare il motore economico. Questa dottrina ha trionfato nelle università e nei libri di testo. Eppure, l'intervento dello Stato ha i suoi difetti e può esacerbare le crisi a lungo termine invece di risolverle.
 
 ![image](assets/6/img-010.webp)
 
-Ecco perché alcuni economisti, in minoranza, criticano Keynes per il suo corto termine e sostengono un ritorno ai meccanismi di mercato come alternativa migliore all'intervento dello stato.
+Ecco perché alcuni economisti, in minoranza, criticano Keynes per il suo corto termine e sostengono un ritorno ai meccanismi di mercato come alternativa migliore all'intervento dello Stato.
 Così, Friedrich Hayek spiegava che la continua riduzione dei tassi di interesse da parte delle banche centrali e l'espansione artificiale del credito potevano solo ingannare gli attori economici, facendoli investire come se esistessero molte risorse risparmiate (poiché i tassi di interesse diminuiscono naturalmente in risposta ad un aumento del risparmio). Questa allocazione errata delle risorse alimenta poi un'ascesa artificiale della crescita, una bolla, che è seguita da una recessione brutale. È questo contributo alla teoria dei cicli che valse a Hayek il Premio Nobel per l'Economia nel 1974.
-Insieme ad altri, ha anche evidenziato il pericolo della centralizzazione e manipolazione della valuta. Questo è notevolmente il caso del francese Jacques Rueff, anch'egli discepolo e amico di Ludwig von Mises.
+Insieme ad altri, ha anche evidenziato il pericolo della centralizzazione e manipolazione della valuta. Questo è il caso del francese Jacques Rueff, anch'egli discepolo e amico di Ludwig von Mises.
 
 ![image](assets/6/img-012.webp)
+
 Diplomatosi all'École Polytechnique nel 1919, Rueff ha avuto una carriera come alto funzionario e consulente economico per numerosi governi negli anni '20 e '30. La sua opera principale è apparsa nel 1945: _L’ordre social_ (L'Ordine Sociale), in cui sviluppa un potente argomento a favore del libero mercato, da punti di vista economico, filosofico e morale.
 
 Questo libro include un capitolo chiave intitolato: "Moneta sana o Stato totalitario". In questo capitolo, sviluppa due proposizioni. La prima: "La moneta falsa genera disordine sociale". La seconda proposizione deriva dalla prima: "Il disordine sociale genera schiavitù sociale". La moneta falsa è la valuta cartacea, scollegata da qualsiasi realtà fisica e manipolata dal potere dominante. Il disordine sociale è l'inflazione e il consumismo che ne derivano. La schiavitù sociale è la dipendenza della società dallo stato, la perdita di tutta l'autonomia finanziaria, morale e politica.
 
-Nel 1947, cinque anni dopo la traduzione francese della _Teoria Generale_, pubblicò un articolo intitolato: _Gli errori della Teoria Generale di Lord Keynes_. Emette i seguenti avvertimenti:
-È probabile che il prossimo periodo di depressione porterà alla diffusa applicazione della politica suggerita da Lord Keynes in tutto il mondo. Non ho paura di sbagliarmi affermando che questa politica ridurrà solo in piccola parte la disoccupazione, ma avrà profonde conseguenze sull'evoluzione dei paesi in cui sarà applicata. (...) A causa di Lord Keynes, il prossimo ciclo sarà un'opportunità per profondi cambiamenti politici, che alcuni sperano, mentre altri temono. In ogni caso, basandosi su una teoria falsa, i rimedi che saranno implementati avranno ripercussioni profondamente diverse da quelle che erano intese promuovere. La loro inefficacia sarà, per una grande parte dell'opinione pubblica, un nuovo motivo per richiedere la sostituzione di un regime che, negando se stesso, si sarà distrutto.
+Nel 1947, cinque anni dopo la traduzione francese della _Teoria Generale_, pubblicò un articolo intitolato: _Gli errori della Teoria Generale di Lord Keynes_. Espone i seguenti avvertimenti:
+
+> È probabile che il prossimo periodo di depressione porterà alla diffusa applicazione della politica suggerita da Lord Keynes in tutto il mondo. Non ho paura di sbagliarmi affermando che questa politica ridurrà solo in piccola parte la disoccupazione, ma avrà profonde conseguenze sull'evoluzione dei paesi in cui sarà applicata. (...) A causa di Lord Keynes, il prossimo ciclo sarà un'opportunità per profondi cambiamenti politici, che alcuni sperano, mentre altri temono. In ogni caso, basandosi su una teoria falsa, i rimedi che saranno implementati avranno ripercussioni profondamente diverse da quelle che erano intese promuovere. La loro inefficacia sarà, per una grande parte dell'opinione pubblica, un nuovo motivo per richiedere la sostituzione di un regime che, negando se stesso, si sarà distrutto.
 
 A partire dal 1958, una politica per rettificare l'economia francese, ispirata da Jacques Rueff, sarà condotta sotto l'autorità del Generale de Gaulle. Porterà alle famose "Trente Glorieuses" (Trent'anni Gloriosi).
 
@@ -1391,18 +1402,18 @@ Nel _Peccato Monetario dell'Occidente_, nel 1971, Rueff scrive:
 
 > È attraverso il deficit di bilancio che gli uomini perdono la loro libertà.
 
-Aggiunge: "L'inflazione consiste nel sovvenzionare spese che non rendono nulla con denaro che non esiste." Secondo lui: "Si potrebbe pensare, osservando l'evoluzione del sistema monetario internazionale, che l'Occidente stia applicando il consiglio di Lenin, secondo il quale: Per distruggere il regime borghese, basta corrompere la sua moneta.
+Aggiunge: "L'inflazione consiste nel sovvenzionare spese che non fruttano nulla con denaro che non esiste." Secondo lui: "Si potrebbe pensare, osservando l'evoluzione del sistema monetario internazionale, che l'Occidente stia applicando il consiglio di Lenin, secondo il quale: Per distruggere il regime borghese, basta corrompere la sua moneta.
 
 Nel 1976, attacca una ultima volta il Keynesismo in un articolo per il giornale _Le Monde_.
-Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occupazione. Spinta dal ricordo delle tragedie della disoccupazione che hanno devastato l'Inghilterra e la Germania durante gli anni '20, è diventata il principio fondamentale, espresso o implicito, della politica economica in quasi ogni paese del mondo. Nascondendo il suo scopo sotto l'astuto e specioso travestimento della "teoria generale", elevata da discepoli entusiasti e ciechi allo status di bibbia dell'azione governativa, ha mascherato il vero volto delle politiche inflazionistiche che copriva. Attraverso questo deviazione, ha dato una buona coscienza ai governi che, avendo esaurito le loro possibilità di tasse e prestiti, hanno fatto ricorso ai piaceri ingannevoli della creazione monetaria. (_La fine dell'era Keynesiana o: Quando il lungo periodo è scaduto_, Euromoney, aprile 1976, pp.70-7.)
+Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occupazione. Spinta dal ricordo delle tragedie della disoccupazione che hanno devastato l'Inghilterra e la Germania durante gli anni '20, è diventata il principio fondamentale, espresso o implicito, della politica economica in quasi ogni paese del mondo. Nascondendo il suo scopo sotto l'astuto e specioso travestimento della "teoria generale", elevata da discepoli entusiasti e ciechi davanti all'azione governativa, ha mascherato il vero volto delle politiche inflazionistiche che copriva. Attraverso questo deviazione, ha dato una buona coscienza ai governi che, avendo esaurito le loro possibilità di tasse e prestiti, hanno fatto ricorso ai piaceri ingannevoli della creazione monetaria. (_La fine dell'era Keynesiana o: Quando il lungo periodo è scaduto_, Euromoney, aprile 1976, pp.70-7.)
 
-## Abbandonando lo Standard Oro
+## L'abbandono del gold standard
 
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 Il denaro è uno strumento che ha permesso agli esseri umani di andare oltre il baratto, di risparmiare e di coordinarsi su larga scala attraverso il mercato. Ha reso possibile la specializzazione del lavoro, i vantaggi comparativi, i guadagni dal commercio, il calcolo economico. Senza denaro, non c'è civiltà moderna.
 
-### L'oro come Standard Globale
+### L'oro come standard globale
 
 E si scopre che una particolare forma di denaro si è gradualmente distinta dagli altri per diventare nei secoli lo standard globale di riferimento, che è l'oro.
 
@@ -1413,31 +1424,34 @@ Infatti, l'oro è una valuta solida, difficile da produrre, costosa da contraffa
 Ecco perché, in _Azione Umana_, Ludwig von Mises scrive:
 
 > Lo standard oro era lo standard mondiale dell'era capitalista, di crescente prosperità, libertà e democrazia \[…\] Era lo standard internazionale di cui il commercio internazionale e i mercati mondiali del capitale avevano bisogno \[…\] Ha portato industria, capitale e civiltà occidentale nei più remoti angoli del pianeta, creando una ricchezza precedentemente sconosciuta.
-> Ma lo standard oro costringe i governi a finanziare le loro spese tramite tasse piuttosto che inflazione, il che spiega una certa ostilità da parte delle élite politiche ed economiche verso questo sistema. Perché collegare la valuta a un metallo prezioso limita la capacità delle banche centrali di finanziare la crescita dello stato sociale attraverso la tassa indiretta che è l'inflazione.
-> Ecco perché già nel 1923, Keynes dichiarava:
+> Ma il gold standard costringe i governi a finanziare le loro spese tramite tasse piuttosto che inflazione, il che spiega una certa ostilità da parte delle élite politiche ed economiche verso questo sistema. Perché collegare la valuta a un metallo prezioso limita la capacità delle banche centrali di finanziare la crescita dello stato sociale attraverso la tassa indiretta che è l'inflazione.
 
-> In verità, lo standard oro è già un relitto barbaro. (...) I difensori del vecchio standard non si accorgono di quanto sia ormai lontano dallo spirito e dalle esigenze dei nuovi tempi. (J.M. Keynes, _Riforma Monetaria_).
+Ecco perché già nel 1923, Keynes dichiarava:
 
-### Lo "Shock Nixon"
+> In verità, il gold standard è già un relitto barbaro. (...) I difensori del vecchio standard non si accorgono di quanto sia ormai lontano dallo spirito e dalle esigenze dei nuovi tempi. (J.M. Keynes, _Riforma Monetaria_).
+
+### Il "Nixon shock"
 
 Il sistema di Bretton Woods, progettato nel 1944 e pienamente implementato nel 1959, si basava sia sull'oro che sul dollaro, l'unica valuta convertibile in oro. Pertanto, era necessario accumulare dollari per poter ottenere oro.
 
 ![image](assets/6/img-007.webp)
+
 In quel periodo, con la Guerra del Vietnam in particolare, l'aumento dei deficit del governo degli Stati Uniti portò molti paesi stranieri, inclusa la Francia, a voler convertire i loro dollari in oro presso la FED. Il 15 agosto 1971, il Presidente Nixon decise di annullare la promessa di convertibilità del dollaro in oro, creando così la prima valuta interamente cartacea nella storia degli Stati Uniti. Da questo giorno può essere datato il momento in cui il denaro passò completamente sotto il controllo delle banche centrali. In un'intervista, si dice che Richard Nixon abbia affermato:
 
 > Siamo tutti keynesiani oggi.
 
-Infatti, per molti economisti keynesiani, l'abbandono dello standard oro diede ai governi la flessibilità necessaria per rispondere o prevenire le crisi economiche.
+Infatti, per molti economisti keynesiani, l'abbandono del gold standard diede ai governi la flessibilità necessaria per rispondere o prevenire le crisi economiche.
 
 ![immagine](assets/6/img-009.webp)
 
-Secondo Alan Greenspan, ex presidente della FED, la banca centrale americana, lo standard oro è incompatibile con il debito statale e il finanziamento dello stato sociale:
+Secondo Alan Greenspan, ex presidente della FED (banca centrale americana) il gold standard è incompatibile con il debito statale e il finanziamento dello stato sociale:
 
-> Ho sempre nutrito nostalgia per la stabilità dei prezzi intrinseca allo standard oro; un obiettivo primario era una valuta stabile. Ma da tempo ho ammesso che lo standard oro non si adatta facilmente alla visione prevalente della funzione di un governo, in particolare il dovere di garantire un sistema di sicurezza sociale. \[…\] La maggior parte degli americani ha tollerato l'inflazione come prezzo da pagare per avere uno stato sociale moderno. Non ci sono più sostenitori dello standard oro, e vedo poche possibilità del suo ritorno. (_The Age of Turbulence_).
-> Al contrario, per persone come Jacques Rueff, abbandonare il metallo prezioso è un errore che può solo portare a una continua diminuzione del potere d'acquisto, accompagnata da una diminuzione degli standard di vita, un aumento della disuguaglianza dei redditi e una crescente instabilità economica.
+> Ho sempre nutrito nostalgia per la stabilità dei prezzi intrinseca al gold standard; un obiettivo primario era una valuta stabile. Ma da tempo ho ammesso che il gold standard non si adatta facilmente al predominio di un governo, in particolare il dovere di garantire un sistema di sicurezza sociale. \[…\] La maggior parte degli americani ha tollerato l'inflazione come prezzo da pagare per avere uno stato sociale moderno. Non ci sono più sostenitori del gold standard, e vedo poche possibilità del suo ritorno. (_The Age of Turbulence_).
+> Al contrario, per persone come Jacques Rueff, abbandonare il metallo prezioso è un errore che può solo portare a una continua diminuzione del potere d'acquisto, accompagnata da una diminuzione della qualità di vita, un aumento della disuguaglianza dei redditi e una crescente instabilità economica.
+> 
 > ![immagine](assets/6/img-008.webp)
 
-Nel febbraio 1965, durante una conferenza stampa televisiva, il Generale de Gaulle, direttamente ispirato da Rueff, aveva proposto un ritorno allo standard oro. Egli affermò:
+Nel febbraio 1965, durante una conferenza stampa televisiva, il Generale de Gaulle, direttamente ispirato da Rueff, aveva proposto un ritorno al gold standard. Egli affermò:
 
 > L'oro, che non cambia la sua natura, che non ha nazionalità, che è tenuto, eternamente e universalmente, come il valore inalterabile per eccellenza.
 
@@ -1449,11 +1463,12 @@ Nel 1976, Hayek propose un'alternativa al monopolio dello Stato sulla creazione 
 
 Egli scrive:
 
-> Finché non avremo ripristinato una situazione in cui i governi (così come altre autorità pubbliche) sappiano che se spendono troppo saranno, come chiunque altro, incapaci di far fronte ai loro obblighi, non ci sarà pausa in questo processo che, sostituendo l'attività collettiva all'attività privata, minaccia di soffocare l'iniziativa individuale. Nell'attuale democrazia illimitata, in cui il governo ha il potere di conferire benefici materiali speciali a gruppi particolari, è costretto ad acquistare il sostegno di abbastanza di loro per costituire una maggioranza. (Ch. XXI, Gli effetti delle finanze e della spesa pubblica).
+> Finché non avremo ripristinato una situazione in cui i governi (così come altre autorità pubbliche) sappiano che se spendono troppo saranno, come chiunque altro, incapaci di far fronte ai loro obblighi, non ci sarà pausa in questo processo che, sostituendo l'attività collettiva all'attività privata, minaccia di soffocare l'iniziativa individuale. Nell'attuale democrazia illimitata, in cui il governo ha il potere di conferire speciali benefici materiali a gruppi particolari, è costretto a comprare il sostegno di un numero sufficiente di essi per costituire la maggioranza. (Ch. XXI, Gli effetti delle finanze e della spesa pubblica).
 
 Per Hayek, l'instabilità passata dell'economia di mercato deriva dal fatto che il regolatore più importante dei meccanismi di mercato, ovvero il denaro, non poteva di per sé essere il prodotto di un processo di mercato.
 
 ![immagine](assets/6/img-006.webp)
+
 Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una criptovaluta come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
 
 
@@ -1471,14 +1486,17 @@ Questa situazione è in realtà la conseguenza di un cambiamento intellettuale r
 
 Nel 1941, George Orwell fece questa valutazione:
 
-> È chiaro che l'epoca del capitalismo libero sta giungendo al termine e che un paese dopo l'altro sta adottando un'economia centralizzata che può essere chiamata socialismo o capitalismo di stato, come preferite. In questo sistema, la libertà economica dell'individuo e, in larga misura, la sua libertà in generale - libertà di agire, di scegliere il proprio lavoro, di spostarsi - scompaiono. Solo molto recentemente abbiamo iniziato a intravedere le implicazioni di questo fenomeno. In precedenza, non era mai stato immaginato che la scomparsa della libertà economica potesse influenzare la libertà intellettuale. Si pensava solitamente che il socialismo fosse una sorta di liberalismo arricchito con una morale. Lo stato si sarebbe preso carico della tua vita economica e ti avrebbe liberato dalla paura della povertà, della disoccupazione, ecc., ma non avrebbe avuto bisogno di interferire nella tua vita intellettuale privata. Ora è stato dimostrato che queste visioni erano false.
+> È chiaro che l'epoca del capitalismo libero sta giungendo al termine e che un paese dopo l'altro sta adottando un'economia centralizzata che può essere chiamata socialismo o capitalismo di stato, come preferite. In questo sistema, la libertà economica dell'individuo e, in larga misura, la sua libertà in generale - libertà di agire, di scegliere il proprio lavoro, di spostarsi - scompaiono. Solo molto recentemente abbiamo iniziato a intravedere le implicazioni di questo fenomeno. In precedenza, non era mai stato immaginato che la scomparsa della libertà economica potesse influenzare la libertà intellettuale. Si pensava solitamente che il socialismo fosse una sorta di liberalismo arricchito con una morale. Lo Stato si sarebbe preso carico della tua vita economica e ti avrebbe liberato dalla paura della povertà, della disoccupazione, ecc., ma non avrebbe avuto bisogno di interferire nella tua vita intellettuale privata. Ora è stato dimostrato che queste visioni erano false.
 
 Ma contrariamente a quanto annunciano i profeti di sventura, la civiltà occidentale non è destinata a scomparire nel XXI secolo. Non ha esaurito le sue potenzialità. La libertà deve ancora venire.
 
 Questo è ciò che Murray Rothbard suggeriva nel 1982:
-Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. Ovunque nel mondo occidentale all'inizio del XX secolo, leader aziendali, politici e intellettuali avevano iniziato a chiamare per un sistema di economia mista "nuovo", di dominazione statale, in luogo del relativo laissez-faire del secolo precedente. Nuove panacee, attraenti a prima vista, come il socialismo, lo stato corporativo, lo Stato del Benessere-Guerra, ecc., sono state provate e tutte hanno evidentemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come suppliche per un sistema vecchio, esausto e fallito. Cosa resta da provare se non la libertà?
+
+> Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. Ovunque nel mondo occidentale all'inizio del XX secolo, leader aziendali, politici e intellettuali avevano iniziato a chiamare per un sistema di economia mista "nuovo", di dominazione statale, in luogo del relativo laissez-faire del secolo precedente. Nuove panacee, attraenti a prima vista, come il socialismo, lo Stato corporativo, lo Stato del Benessere-Guerra, ecc., sono state provate e tutte hanno evidentemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come suppliche per un sistema vecchio, esausto e fallito. Cosa resta da provare se non la libertà?
+
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
-Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
+
+> Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
 # Sezione finale

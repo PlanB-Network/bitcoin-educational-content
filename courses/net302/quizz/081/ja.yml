@@ -1,0 +1,9 @@
+question: リアルタイム分析のためにネットワーク・トラフィックをキャプチャするコマンドライン・ツールはどれか？
+answer: tcpdump
+wrong_answers:
+  - 掘る
+  - ナマップ
+  - エスツール
+explanation: |
+  tcpdumpは、ネットワークInterface上を循環するパケットをキャプチャし、解析のためにログに記録する。
+reviewed: false

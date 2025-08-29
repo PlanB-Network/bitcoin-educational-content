@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kantoorpakket
 
 
@@ -5741,6 +5742,7 @@ Firefox blijft een benchmark voor beveiliging en privacy, ondanks het feit dat h
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-browser
 
 
@@ -5853,6 +5855,7 @@ Orion is volledig ontwikkeld door het Kagi-team (bekend van de reclamevrije zoek
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers zonder rendering engines
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile is de mobiele versie van de populaire open-source e-mailclien
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogrammen voor elke dienst, notities, favorieten, geïntegreerd zoeken, veilig delen van teamcode.
 
 
@@ -7606,6 +7611,7 @@ Authy biedt 2FA synchronisatie op meerdere apparaten, wat handig kan zijn, maar 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Als u meer wilt weten over wachtwoordmanagers, 2FA-authenticatie en VPN's, raad ik u aan de hoofdstukken in de SCU-101-cursus te lezen:
 
 
@@ -7999,6 +8005,7 @@ Chrono is beschikbaar op F-Droid en volledig open-source. Het biedt een moderne,
 De applicatie integreert ook een timer en stopwatch, met rondeopname, statistieken, tijdvergelijkingen en beheer van meerdere timers. Je kunt meerdere tijdzones instellen, het thema aanpassen (kleuren, stijlen, animaties) en zelfs je alarmen en timers organiseren met labels.
 
 
+Om dieper op het onderwerp in te gaan, raad ik u aan de website [*Awesome Privacy*](https://awesome-privacy.xyz/) te bezoeken, die de beste privacyvriendelijke alternatieven opsomt voor de software die u dagelijks gebruikt.
 ___
 
 
@@ -8490,6 +8497,7 @@ In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveau
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Op het niveau van het besturingssysteem: Sommige besturingssystemen integreren standaard versleutelde DNS-ondersteuning (DoT of DoH), waardoor alle DNS-verzoeken die door de netwerkstack van het systeem gaan beveiligd worden. Dit beveiligt echter niet de hele computer of telefoon: Toepassingen kunnen deze instelling omzeilen als ze geconfigureerd zijn om een andere DNS-resolver of een ander protocol te gebruiken.
 
 

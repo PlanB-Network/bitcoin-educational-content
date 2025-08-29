@@ -1,0 +1,5 @@
+---
+term: DLC (DISCREET LOG Contract)
+---
+
+Type Smart contract op Bitcoin dat de uitvoering van contractuele voorwaarden mogelijk maakt op basis van de uitkomst van externe gebeurtenissen, gevalideerd door een of meer orakels, zonder dat deze orakels de details van de Contract kennen. DLC's werden in 2018 uitgevonden door Tadge Dryja. Deze slimme contracten zijn vooral nuttig in financiële toepassingen, waardoor financiële instrumenten of voorwaardelijke weddenschappen kunnen worden gecreëerd, terwijl tegenpartijrisico's worden beperkt. Om een DLC te construeren, zetten meerdere partijen bitcoins vast in een Multisig Address. Deze bitcoins kunnen alleen worden ontgrendeld door een andere partij. Deze bitcoins kunnen alleen worden ontgrendeld als het orakel op een bepaald moment de gespecificeerde informatie publiceert.

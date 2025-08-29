@@ -1,0 +1,9 @@
+question: Ne tür IPv6 bloğu bir şirketin İSS değiştirirken bile önekini korumasını sağlar?
+answer: PI (Sağlayıcıdan Bağımsız)
+wrong_answers:
+  - PA (Sağlayıcı Birleştirilebilir)
+  - LIR (Yerel İnternet Kayıt Defteri)
+  - IP (Değiştirilebilir Sağlayıcı)
+explanation: |
+  Bir PI (Sağlayıcıdan Bağımsız) bloğu, İnternet Hizmet Sağlayıcısından bağımsız olarak bir RIR tarafından doğrudan bir kuruluşa tahsis edilir.
+reviewed: false

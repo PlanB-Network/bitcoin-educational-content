@@ -1,0 +1,9 @@
+question: 公有 IPv4 Address 與私有 IPv4 Address 的主要差異是什麼？
+answer: 公用 Address 在網際網路上是唯一且可路由的
+wrong_answers:
+  - 專用 Address 在網際網路上是唯一且可路由的
+  - 公用 Address 始終由 DHCP 指定
+  - 私人 Address 始終由 DHCP 指定
+explanation: |
+  公有 IPv4 Address 是全球唯一的，可在網際網路上路由，而私有 Address 只在區域網路內有效。
+reviewed: false

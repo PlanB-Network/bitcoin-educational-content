@@ -1,0 +1,9 @@
+question: Koji tip DNS zapisa se koristi za pronalaženje imena povezanog sa IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) omogućava obrnuto razrešavanje, što znači da povezuje IPv6 Address sa imenom domena.
+reviewed: false

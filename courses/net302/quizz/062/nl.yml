@@ -1,0 +1,9 @@
+question: Welke notatie wordt gebruikt om een IPv6 Address in een URL in te voegen?
+answer: IPv6 Address staat tussen vierkante haakjes
+wrong_answers:
+  - IPv6 Address staat tussen haakjes
+  - De IPv6 Address staat tussen aanhalingstekens
+  - De IPv6 Address wordt rauw geschreven
+explanation: |
+  Vierkante haakjes worden gebruikt om onderscheid te maken tussen de IPv6 Address en de poort in een URL, om ambiguïteit te voorkomen.
+reviewed: false

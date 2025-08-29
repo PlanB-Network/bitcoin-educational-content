@@ -1,0 +1,9 @@
+question: Özel IPv4 gösterimi olan 0.0.0.0'ın amacı nedir?
+answer: Tüm arayüzleri veya atanmamış bir Address'ı belirlemek için
+wrong_answers:
+  - Tüm ağlara mesaj göndermek için
+  - Bir cihazın yerel bağlantısını test etmek için
+  - Yerel yönlendiricide bir adresleme veya bağlantı hatası olduğunu belirtmek için
+explanation: |
+  0.0.0.0 gösterimi yerel olarak atanmış bir Address'in olmadığını göstermek veya tüm arayüzleri dinlemek için kullanılır.
+reviewed: false

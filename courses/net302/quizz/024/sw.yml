@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la itifaki ya TCP katika muundo wa TCP/IP?
+answer: Hakikisha uhamishaji wa data wa kuaminika na wa utaratibu
+wrong_answers:
+  - Simba mawasiliano ya mtandao kwa njia fiche
+  - Weka anwani za IP kwa mashine
+  - Datagramu za vipande katika kiwango cha kimwili
+explanation: |
+  TCP inahakikisha uwasilishaji wa data unaotegemewa kwa kuthibitisha uadilifu, kudumisha utaratibu, na kushughulikia uokoaji katika kesi ya hasara.
+reviewed: false

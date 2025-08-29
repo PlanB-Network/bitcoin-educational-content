@@ -1,0 +1,9 @@
+question: Je, urefu wa IPv4 Address wa kawaida ni upi?
+answer: 32-bit
+wrong_answers:
+  - 8 biti
+  - 128-bit
+  - 16 bits
+explanation: |
+  IPv4 Address imesimbwa kwa biti 32, imegawanywa katika baiti nne za biti 8 kila moja.
+reviewed: false

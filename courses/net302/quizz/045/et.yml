@@ -1,0 +1,9 @@
+question: Mis on teie MAC Address kunstlik muutmine?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Phishing
+  - MAC Sniffing
+  - Mac klahvilogimine
+explanation: |
+  MAC võltsimine on võrgu Interface riistvara Address muutmine, sageli privaatsuse säilitamise eesmärgil või piirangutest möödahiilimiseks.
+reviewed: false

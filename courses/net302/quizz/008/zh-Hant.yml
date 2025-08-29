@@ -1,0 +1,9 @@
+question: 第一個 ARPANET 區段在哪一年開始運作？
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  第一個 ARPANET 區段於 1969 年 10 月開始運作，將 UCLA 和 Stanford 互連。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on Application Layer:n (TCP/IP) kautta vaihdettavan datayksikön nimi?
+answer: Viesti
+wrong_answers:
+  - Kehys
+  - Segmentti
+  - Datagram
+explanation: |
+  TCP/IP-mallissa Application Layer:ssä vaihdettuja tietoja kutsutaan viesteiksi (tai virroiksi, kontekstista riippuen).
+reviewed: false

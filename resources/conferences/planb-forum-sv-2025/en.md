@@ -209,13 +209,6 @@ description: The Plan ₿ Forum is a conference that explores the impact of digi
 
 ![video](https://rumble.com/embed/v6f3bug/)
 
-## Trending
-
-![video](https://rumble.com/embed/videos/)
-
-## Latest
-
-![video](https://rumble.com/embed/videos/)
 
 # UTXO Stage (ES)
 
@@ -483,11 +476,4 @@ description: The Plan ₿ Forum is a conference that explores the impact of digi
 
 ![video](https://rumble.com/embed/v6nnzeg/)
 
-## Trending
-
-![video](https://rumble.com/embed/videos/)
-
-## Latest
-
-![video](https://rumble.com/embed/videos/)
 

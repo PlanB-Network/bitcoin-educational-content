@@ -1,0 +1,9 @@
+question: 哪条命令显示数据包到达 IP 目的地的路径？
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute 会使用 TTL 显示发送方和目标方之间的每个中间路由器。
+reviewed: false

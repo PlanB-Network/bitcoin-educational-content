@@ -131,6 +131,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 47.94
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 63.89
 tags:
   - keys
   - wallets

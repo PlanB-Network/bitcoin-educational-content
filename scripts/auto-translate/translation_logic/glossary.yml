@@ -10,7 +10,7 @@ non_translatable:
   - Anchor
   - Aqua
   - Assignment
-  - Attacco Sybil # ?
+  - Sybil Attack
   - B-CERT
   - BDK
   - Biz School
@@ -20,6 +20,8 @@ non_translatable:
   - Bitcoin core
   - Bitcoin Dev Kit
   - Bitcoin Game Show
+  - BIP
+  - BIPs
   - Blinding key
   - Blinded ranges
   - Block explorer

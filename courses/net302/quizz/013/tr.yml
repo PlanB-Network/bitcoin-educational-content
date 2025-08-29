@@ -1,0 +1,9 @@
+question: IP protokolü sürüm numaralarını hangi kuruluş atar?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) IP protokolü sürüm numaralarının Assignment'ını ve protokol aralıklarının tahsisini yönetir.
+reviewed: false

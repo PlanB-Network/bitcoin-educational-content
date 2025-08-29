@@ -1,5 +1,5 @@
 ---
-name: Cara membeli Bitcoin menjadi Wallet Anda sendiri dengan Bittr
+name: Bittr
 description: Panduan langkah demi langkah sederhana untuk pembelian Bitcoin dengan penitipan mandiri
 ---
 

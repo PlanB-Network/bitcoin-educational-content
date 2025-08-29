@@ -1,0 +1,9 @@
+question: Hva må legges til NAT for å sikre et nettverk på riktig måte?
+answer: En brannmur
+wrong_answers:
+  - En lokal DNS-server
+  - En HTTP-proxy
+  - Et antivirusprogram
+explanation: |
+  NAT alene er ikke tilstrekkelig for å filtrere ondsinnet trafikk: Det må suppleres med brannmurregler for finkornet trafikkontroll.
+reviewed: false

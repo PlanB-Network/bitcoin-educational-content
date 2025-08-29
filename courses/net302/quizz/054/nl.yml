@@ -1,0 +1,9 @@
+question: Welke vorm van NAT associeert een private IP Address permanent met een publieke IP Address?
+answer: Statische vertaling
+wrong_answers:
+  - Dynamische vertaling
+  - PAT (Port Address Vertaling)
+  - Dynamisch routeren
+explanation: |
+  Statische vertaling creëert een vaste mapping tussen een intern IP Address en een publiek IP Address, handig om interne bronnen toegankelijk te maken van buitenaf.
+reviewed: false

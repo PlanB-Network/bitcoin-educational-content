@@ -1022,7 +1022,7 @@ Ku wa 3 Mukwambere 2009, Satoshi yatanguje ku mugaragaro urubuga rwa Bitcoin mu 
 > "Turashobora gutsinda intambara ikomeye mu mahiganwa y'ibirwanisho maze tukaronka
 > akarere gashasha k’umwidegemvyo mu myaka myinshi.” - Satoshi
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 
 ### Urukwirikirane rwa Bitcoin rurabaho
@@ -1042,7 +1042,7 @@ Iryo huriro ryacitse ahantu abakoresha Bitcoin bakunda kuganira, ku buryo ibimen
 **Wari ubizi?** Ku wa 22 z'ukwa Gatanu  2010, Laszlo Hanyecz yarakoze amateka mu gusaba kugura pizza zibiri ku 10.000 BTC: ni bwo bwa mbere Bitcoin yakoreshejwe mu kugura ibintu.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 
 ### Izimangana rya Satoshi Nakamoto

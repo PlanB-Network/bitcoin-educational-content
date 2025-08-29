@@ -1,0 +1,9 @@
+question: Mikä on IPv6-silmukan Address, joka vastaa 127.0.0.1:tä IPv4:ssä?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address on sisäiseen konetestaukseen käytettävä loopback Address.
+reviewed: false

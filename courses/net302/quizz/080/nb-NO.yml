@@ -1,0 +1,9 @@
+question: Hvilken grafikkprogramvare kan brukes til å gi en detaljert pedagogisk analyse av innfangede nettverkspakker?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Rute
+explanation: |
+  Wireshark er en grafisk pakkeanalysator som gjør det mulig å undersøke nettverkstrafikk i dybden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какая единица данных используется в Интернет Layer модели TCP/IP?
+answer: Датаграмма
+wrong_answers:
+  - Сегмент
+  - Рама
+  - Сообщение
+explanation: |
+  Internet Layer манипулирует дейтаграммами, инкапсулируя сегменты от Transport Layer.
+reviewed: false

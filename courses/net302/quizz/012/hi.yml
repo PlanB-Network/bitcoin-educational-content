@@ -1,0 +1,9 @@
+question: क्लासिक इंटरनेट प्रोटोकॉल संस्करण (IPv4) का संख्यात्मक मान क्या है?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4, IP हेडर के "संस्करण" फ़ील्ड में मान 4 के अनुरूप है।
+reviewed: false

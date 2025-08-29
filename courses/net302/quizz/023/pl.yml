@@ -1,0 +1,9 @@
+question: Jak nazywa się wieloetapowa procedura nawiązywania połączenia w protokole TCP?
+answer: Trójstronny uścisk dłoni
+wrong_answers:
+  - Czterokierunkowy uścisk dłoni
+  - Okno przesuwne
+  - Proces sumy kontrolnej
+explanation: |
+  Trójstronny uścisk dłoni synchronizuje numery sekwencji między klientem a serwerem przed jakimkolwiek Exchange danych ładunku.
+reviewed: false

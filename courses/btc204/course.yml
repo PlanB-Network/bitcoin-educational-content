@@ -131,6 +131,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 103.91
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.51
 tags:
   - privacy
   - personal-security

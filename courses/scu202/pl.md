@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Pakiet biurowy
 
 
@@ -5741,6 +5742,7 @@ Firefox pozostaje punktem odniesienia dla bezpieczeństwa i prywatności, mimo �
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Przeglądarka Tor
 
 
@@ -5853,6 +5855,7 @@ Orion jest w całości rozwijany przez zespół Kagi (znany z wyszukiwarki bez r
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Przeglądarki bez silników renderujących
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile to mobilna wersja popularnego klienta poczty e-mail o otwarty
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis to kompleksowa aplikacja typu open source. Szyfruje bazę danych 2FA za po
 Ente Auth to nowoczesne, wieloplatformowe rozwiązanie o otwartym kodzie źródłowym z szyfrowanymi kopiami zapasowymi end-to-end. Umożliwia bezpieczną synchronizację kodów 2FA na urządzeniach mobilnych, komputerach stacjonarnych i w Internecie. Można go również używać w trybie offline, bez tworzenia kopii zapasowych w chmurze lub tworzenia konta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth oferuje wiele dodatkowych funkcji: Organizacja według tagów, niestandardowe ikony dla każdej usługi, notatki, ulubione, zintegrowane wyszukiwanie, bezpieczne udostępnianie kodu zespołu.
 
 
@@ -7606,6 +7611,7 @@ Authy oferuje synchronizację 2FA na wielu urządzeniach, co może być przydatn
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jeśli chcesz dowiedzieć się więcej o menedżerach haseł, uwierzytelnianiu 2FA i VPN, polecam przeczytać dedykowane rozdziały w kursie SCU-101:
 
 
@@ -7999,6 +8005,7 @@ Dostępny na F-Droid i całkowicie open-source, Chrono oferuje nowoczesny, przej
 Aplikacja integruje również minutnik i stoper, z możliwością rejestrowania okrążeń, statystykami, porównywaniem czasu i zarządzaniem wieloma minutnikami. Możesz skonfigurować wiele stref czasowych, dostosować motyw (kolory, style, animacje), a nawet organizować alarmy i timery za pomocą etykiet.
 
 
+Aby zgłębić temat, polecam odwiedzenie strony [*Awesome Privacy*](https://awesome-privacy.xyz/), która przedstawia najlepsze alternatywy dbające o prywatność dla oprogramowania używanego na co dzień.
 ___
 
 
@@ -8490,6 +8497,7 @@ W praktyce szyfrowanie DNS i przełączanie serwerów może być realizowane na 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na poziomie systemu operacyjnego: Niektóre systemy operacyjne natywnie integrują szyfrowaną obsługę DNS (DoT lub DoH), która zabezpiecza wszystkie żądania DNS przechodzące przez stos sieciowy systemu. Nie zabezpiecza to jednak całego komputera lub telefonu: Aplikacje mogą ominąć to ustawienie, jeśli są skonfigurowane do korzystania z innego resolwera DNS lub protokołu.
 
 

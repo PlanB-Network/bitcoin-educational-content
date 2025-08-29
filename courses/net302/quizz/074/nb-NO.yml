@@ -1,0 +1,9 @@
+question: Hvilken organisasjon administrerer den første tildelingen av IPv6 Address-blokker på verdensbasis?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA sitter på toppen av allokeringshierarkiet og delegerer IPv6-blokker til de fem regionale Internett-registrene (RIR).
+reviewed: false

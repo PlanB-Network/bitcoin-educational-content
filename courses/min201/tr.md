@@ -118,7 +118,7 @@ ASIC'ler bir CPU çipi ile karşılaştırılabilir çiplerdir, ancak yalnızca 
 Günümüzde madenciler, mümkün olan en az enerji tüketimiyle ve mümkün olan en kısa sürede maksimum sayıda kombinasyonu test etmek için optimize edilmiş, yalnızca bu işleme adanmış ASIC'ler kullanmaktadır. Bitcoin Mining dışındaki görevleri yerine getiremeyen bu bilgisayarlar, Bitcoin Mining endüstrisinin sürekli evriminin ve artan uzmanlaşmasının somut bir kanıtıdır. Bu sürekli evrim, Bitcoin'in içsel dinamiklerini yansıtmaktadır; Mining kapasitesindeki üstel artışa rağmen zorluk ayarlaması her on dakikada bir blok üretilmesini sağlamaktadır.
 
 
-Bu sürecin yoğunluğunu göstermek için, saniyede 14 TeraHash veya doğru Hash'ü bulmak için her saniye 14 trilyon deneme yapabilen tipik bir Miner düşünün. Bitcoin ağının ölçeğinde, şimdi saniyede yaklaşık 300 HexaHash'e ulaşıyoruz ve Bitcoin Mining'de harekete geçirilen kolektif gücü vurguluyoruz.
+Bu sürecin yoğunluğunu göstermek için, saniyede 14 TeraHash veya doğru Hash'ü bulmak için her saniye 14 trilyon deneme yapabilen tipik bir Miner düşünün. Bitcoin ağının ölçeğinde, şimdi saniyede yaklaşık 300 ExaHash'e ulaşıyoruz ve Bitcoin Mining'de harekete geçirilen kolektif gücü vurguluyoruz.
 
 
 ### Zorluk ayarı

@@ -171,6 +171,12 @@ proofreading:
     contributor_names:
       - Petrahodl
     reward: 8.25
+  - language: nl
+    last_contribution_date: 2025-08-24
+    urgency: 1
+    contributor_names:
+      - rogerbracket
+    reward: 10.99
 tags:
   - user-friendly
   - wallets

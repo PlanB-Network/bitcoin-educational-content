@@ -1,0 +1,9 @@
+question: Waar worden DNS-servers meestal geconfigureerd op een Linux-systeem?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostnaam
+  - /etc/netwerk/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Het bestand /etc/resolv.conf specificeert DNS-servers en zoekdomeinen voor naamresolutie.
+reviewed: false

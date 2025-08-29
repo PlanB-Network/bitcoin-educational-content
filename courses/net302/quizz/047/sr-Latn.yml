@@ -1,0 +1,9 @@
+question: Koji termin se odnosi na prva tri bajta MAC Address?
+answer: OUI (Organizacijski Jedinstveni Identifikator)
+wrong_answers:
+  - SID (Identifikator sesije)
+  - LUI (Lokalni jedinstveni identifikator)
+  - PAN (Fizički Address broj)
+explanation: |
+  OUI dodeljuje IEEE i identifikuje proizvođača mrežne kartice u MAC Address.
+reviewed: false

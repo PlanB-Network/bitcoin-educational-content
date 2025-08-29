@@ -1,0 +1,9 @@
+question: Datagram ni nini katika muktadha wa itifaki ya IP?
+answer: Sehemu inayojitosheleza ya data iliyobebwa kwenye mtandao
+wrong_answers:
+  - Ujumbe uliosimbwa kwa njia fiche unaokusudiwa kwa kifaa kimoja
+  - Sehemu ya TCP iliyojumuishwa katika UDP
+  - Ishara halisi kutoka kwa Ufikiaji wa Mtandao Layer
+explanation: |
+  Data ya IP hupitishwa kwa njia ya datagrams, vitalu vya kujitegemea ambavyo vina habari zote zinazohitajika kwa utoaji.
+reviewed: false

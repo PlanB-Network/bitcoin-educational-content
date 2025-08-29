@@ -1,0 +1,9 @@
+question: Koja je glavna uloga IPv4 Address u računarskoj mreži?
+answer: Jedinstveno identifikovati mrežu Interface
+wrong_answers:
+  - Identifikuj ceo uređaj na mreži
+  - Dinamički dodeli MAC adrese na mreži
+  - generate DNS imena
+explanation: |
+  IPv4 Address je dodeljen svakoj mreži Interface uređaja, omogućavajući da bude lociran i dostupan na mreži.
+reviewed: false

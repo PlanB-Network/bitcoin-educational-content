@@ -1,0 +1,9 @@
+question: Mitkä kaksi käyttöikää liittyvät automaattisesti määritettyyn IPv6 Address:een?
+answer: Suositeltava käyttöikä ja voimassaoloaika
+wrong_answers:
+  - Vuokra-aika ja pitoaika
+  - Elinaika ja päättyminen
+  - Alkuperäinen käyttöikä ja toissijainen käyttöikä
+explanation: |
+  Preferred lifetime määrittää Address:n normaalin käyttöajan ja valid lifetime sen kokonaiskeston.
+reviewed: false

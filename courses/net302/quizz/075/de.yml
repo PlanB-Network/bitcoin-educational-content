@@ -1,0 +1,9 @@
+question: Welche Art von DNS-Eintrag wird verwendet, um den mit einem IPv6 Address verbundenen Namen zu finden?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) ermöglicht die umgekehrte Auflösung, d. h. er verknüpft einen IPv6 Address mit einem Domänennamen.
+reviewed: false

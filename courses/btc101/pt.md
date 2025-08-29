@@ -440,7 +440,6 @@ A Bitcoin garante uma boa gestão monetária limitando a sua criação por conce
 
 Em resumo, a Bitcoin, com a sua natureza descentralizada, escassez programada e transparência, oferece uma alternativa única aos sistemas monetários tradicionais. Ilustra como a tecnologia pode ser usada para criar uma moeda que não só é útil e verificável, mas também preserva o valor das poupanças dos utilizadores ao limitar estritamente a sua oferta.
 
-### Conclusão da secção 1!
 
 # Carteiras Bitcoin
 
@@ -692,7 +691,7 @@ Em 3 de janeiro de 2009, Satoshi inaugurou oficialmente a rede Bitcoin ao criar 
 
 > "Podemos ganhar uma batalha importante na corrida ao armamento e ganhar um
 > novo território de liberdade durante vários anos" - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### O protocolo Bitcoin ganha vida
 
@@ -706,7 +705,7 @@ O fórum tornou-se rapidamente o local de discussão preferido dos utilizadores 
 
 \*\*Em 22 de maio de 2010, Laszlo Hanyecz fez história ao oferecer-se para comprar duas pizzas por 10.000 BTC: foi a primeira vez que a Bitcoin foi utilizada para comprar bens físicos.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### O desaparecimento de Satoshi Nakamoto
 

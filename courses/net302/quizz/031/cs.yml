@@ -1,0 +1,9 @@
+question: Který rozsah IPv4 Address je vyhrazen pro testování místní smyčky?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Pro místní zpětnou smyčku se používá rozsah 127.0.0.0/8. Jakýkoli požadavek na tento rozsah zůstane v rámci původního počítače.
+reviewed: false

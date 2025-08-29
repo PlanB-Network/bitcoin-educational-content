@@ -1,0 +1,9 @@
+question: Que documento serve de referência técnica para as especificações do protocolo TCP/IP?
+answer: RFC
+wrong_answers:
+  - Livro Branco
+  - ISO
+  - PII
+explanation: |
+  Os RFC (Request For Comments) são os documentos de referência que definem as especificações dos protocolos TCP/IP.
+reviewed: false

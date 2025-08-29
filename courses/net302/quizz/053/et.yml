@@ -1,0 +1,9 @@
+question: Milline NAT-režiim võimaldab kümnetel seadmetel jagada ühte avalikku IP-aadressi Address, muutes pordid?
+answer: PAT
+wrong_answers:
+  - Staatiline NAT
+  - Dünaamiline NAT
+  - Staatiline marsruutimine
+explanation: |
+  PAT, mida tuntakse ka NAT-i ülekoormuse või IP-maskeeringuna, muudab portide numbreid, et eristada seansse, võimaldades mitmel seadmel kasutada sama avalikku Address.
+reviewed: false

@@ -503,6 +503,8 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 [RaspiBlitz est un projet 100 % open-source](https://docs.raspiblitz.org/) (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un node-in-a-box fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
 
+070
+
 Si vous possédez un Raspberry Pi, c’est une excellente option, car les systèmes plus complets comme Umbrel deviennent de plus en plus lourds pour ce type de mini-PC.
 
 https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
@@ -513,6 +515,8 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 Le principe est simple : si vous utilisez Ashigaru Wallet (le fork successeur de Samourai Wallet à la suite de l’arrestation de ses développeurs) ou que vous souhaitez bénéficier d’outils de confidentialité avancés, RoninDojo est fait pour vous.
 
+071
+
 Le projet proposait auparavant une machine préconfigurée appelée le Tanto, mais celle-ci est pour l’instant indisponible. Elle pourrait cependant revenir ultérieurement. En attendant, il est possible d’installer RoninDojo facilement sur un Rock5B+ ou un Rockpro64, voire de manière détournée sur un Raspberry Pi.
 
 https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
@@ -522,6 +526,8 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 Une autre solution de [node-in-a-box est Nodl](https://www.nodl.eu/). Comme pour les projets précédents, vous pouvez soit acheter le matériel préconfiguré (entre 599 € et 799 € selon le modèle), soit l’installer vous-même en mode DIY.
 
 Sur le plan logiciel, Nodl intègre Bitcoin Core, LND, BTCPay Server, Electrs, Dojo et Whirlpool, Lightning Terminal, RTL, ainsi que BTC RPC Explorer, le tout avec une chaîne de mises à jour intégrées et un code ouvert sous licence MIT.
+
+072
 
 Après avoir exploré les différentes solutions logicielles, il est désormais temps de choisir la machine qui hébergera votre nœud !
 
@@ -535,7 +541,9 @@ Maintenant que nous avons passé en revue l’ensemble des possibilités logicie
 
 Ces dernières années, une idée reçue s’est largement répandue chez les bitcoiners, notamment avec la popularisation des node-in-a-box au début des années 2020 : un nœud Bitcoin devrait forcément tourner sur une machine exclusivement dédiée à cet usage. Or, c’est faux. Vous n’avez pas nécessairement besoin d’un ordinateur dédié pour exécuter un nœud Bitcoin : Bitcoin Core peut tout à fait fonctionner sur votre PC du quotidien. Si vous disposez de suffisamment d’espace disque pour la blockchain, ou si vous activez l’élagage, vous pouvez valider la chaîne, connecter votre logiciel de portefeuille, et même fermer le programme une fois votre utilisation terminée. Cette approche présente un avantage considérable : zéro investissement initial et une complexité minimale.
 
-Cela dit, utiliser une machine dédiée reste souvent plus confortable. Elle peut tourner en continu (24/7), être accessible à distance à tout moment, ne pas monopoliser les ressources de votre machine principale, et surtout isoler les usages (bonne pratique de sécurité : si votre PC personnel rencontre un problème, votre nœud continue de fonctionner, et inversement). La question n’est donc pas "*faut-il obligatoirement dédier une machine ?*", mais plutôt "*ai-je besoin d’un nœud constamment en ligne, accessible par d’autres appareils et capable d’évoluer ?*" (Lightning, indexeurs, applications supplémentaires…). Si la réponse est oui, opter pour une machine à part rendra les choses bien plus simples.
+074
+
+Cela dit, utiliser une machine dédiée reste souvent plus confortable. Elle peut tourner en continu (24/7), être accessible à distance à tout moment, ne pas monopoliser les ressources de votre machine principale, et surtout isoler les usages (bonne pratique de sécurité : si votre PC personnel rencontre un problème, votre nœud continue de fonctionner, et inversement). La question n’est donc pas "*faut-il obligatoirement dédier une machine ?*", mais plutôt "***ai-je besoin d’un nœud constamment en ligne, accessible par d’autres appareils et capable d’évoluer ?***" (Lightning, indexeurs, applications supplémentaires…). Si la réponse est oui, opter pour une machine à part rendra les choses bien plus simples.
 
 ### 3 voies d’acquisition : recyclage, occasion et neuf
 
@@ -543,7 +551,7 @@ Cela dit, utiliser une machine dédiée reste souvent plus confortable. Elle peu
 
 C’est la solution la plus économique. Nous avons presque tous chez nous, ou dans notre entourage, un vieux PC qui prend la poussière : c’est l’occasion idéale de le remettre en service ! Pour le réadapter à l’usage d’un nœud Bitcoin, il suffit généralement d’ajouter un SSD de 2 To et, selon vos besoins, de remplacer ou d’ajouter des barrettes de RAM afin d’augmenter la mémoire vive. Comptez entre 100 € et 200 € de matériel pour obtenir une machine parfaitement fonctionnelle.
 
-Avant tout achat, vérifiez le nombre d’emplacements disponibles pour les disques et le type de connectique (M.2 ou SATA), le format de RAM (SODIMM ou DIMM) ainsi que sa génération (DDR4, etc.). Profitez-en également pour nettoyer la machine, notamment le ventilateur, afin de garantir de bonnes performances.
+Avant tout achat de matériel, vérifiez le nombre d’emplacements disponibles pour les disques et le type de connectique (M.2 ou SATA), le format de RAM (SODIMM ou DIMM) ainsi que sa génération (DDR4, etc.). Profitez-en également pour nettoyer la machine, notamment le ventilateur, afin de garantir de bonnes performances.
 
 Soyez toutefois vigilant si vous utilisez un ordinateur portable : la batterie peut poser problème au fil du temps (nous y reviendrons plus loin dans le chapitre).
 
@@ -551,9 +559,11 @@ Soyez toutefois vigilant si vous utilisez un ordinateur portable : la batterie p
 
 Le marché regorge de mini-PC d’entreprise reconditionnés tels que les *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini* ou *Dell OptiPlex Micro*. Ces machines sont solides, compactes, silencieuses et peu gourmandes en énergie. Leur prix est largement inférieur au neuf, et l’on trouve facilement des modèles équipés de processeurs i5/i7 de 6e à 10e génération avec 8 à 16 Go de RAM, le tout pour des tarifs très attractifs, généralement entre 70 € et 200 € selon la configuration. À mon sens, c’est probablement la meilleure option si vous souhaitez acquérir une nouvelle machine dédiée à votre nœud Bitcoin.
 
+075
+
 Il est également possible de trouver en ligne des PC fixes ou portables datant de quelques années, d’occasion, avec des configurations intéressantes et un excellent rapport qualité/prix.
 
-Remarque : les machines issues du parc d’entreprises, comme les *ThinkCentre Tiny*, sont souvent équipées uniquement d’un port *DisplayPort* (DP) pour l’écran, sans sortie HDMI. Pensez donc à prévoir un adaptateur ou un câble DP vers HDMI le cas échéant.
+**Remarque :** les machines issues d'un parc d’entreprises, comme les *ThinkCentre Tiny*, sont souvent équipées uniquement d’un port *DisplayPort* (DP) pour l’écran, sans sortie HDMI. Pensez donc à prévoir un adaptateur ou un câble DP vers HDMI le cas échéant.
 
 #### Acheter du neuf
 
@@ -567,6 +577,8 @@ Les mini-PC constituent, selon moi, le meilleur compromis pour héberger un nœu
 
 Personnellement, j’ai une préférence pour les *Lenovo ThinkCentre Tiny* : très répandus sur le marché de l’occasion (issus de flottes d’entreprise), ils sont particulièrement robustes et faciles à modifier. Mais il existe bien sûr de nombreux équivalents chez d’autres constructeurs : *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*…
 
+001
+
 **Points forts :** encombrement minimal, consommation modérée, bruit faible, évolutivité (selon modèle) et fiabilité.
 
 **Points faibles :** légèrement plus chers qu’un SBC type Raspberry Pi, absence d’écran intégré (accès à distance ou via moniteur externe), pas de batterie (extinction brutale en cas de coupure).
@@ -575,30 +587,33 @@ Personnellement, j’ai une préférence pour les *Lenovo ThinkCentre Tiny* : tr
 
 C’est une excellente alternative low-cost au mini-PC : on trouve aujourd’hui des ordinateurs portables d’occasion ou même neufs à bas prix, équipés de processeurs corrects, de nombreux ports, ainsi que d’un écran et d’un clavier intégrés (très pratiques pour l’installation initiale). Surtout, la batterie joue le rôle d’onduleur naturel : en cas de micro-coupure électrique, le nœud ne s’éteint pas brutalement et peut même rester opérationnel plusieurs heures.
 
+076
+
 **Points forts :** solution tout-en-un, batterie jouant le rôle d’UPS (pas de coupure), installation simplifiée grâce à l’écran et au clavier intégrés, carte Wi-Fi intégrée, vaste choix sur le marché de l’occasion comme du neuf (ce qui permet souvent de négocier les prix).  
 
 **Points faibles :** consommation légèrement plus élevée qu’un mini-PC nu, usure progressive de la batterie en fonctionnement 24/7 avec perte de capacité, risque rare mais réel de gonflement ou d’emballement thermique de la batterie avec l’âge. C’est principalement cet aspect qui me fait considérer le mini-PC comme une meilleure option que le laptop : la dégradation progressive de la batterie et les risques associés.  
 
 Si vous choisissez cette solution, je vous recommande de surveiller attentivement l’état de la batterie pour prévenir tout danger : soyez attentif à la chaleur excessive, aux odeurs inhabituelles, à une instabilité ou à une coque qui se déforme. En cas d’alerte, éteignez et débranchez immédiatement l’ordinateur, puis déposez la batterie dans une filière spécialisée de recyclage.  
 
-Astuce : si le BIOS/UEFI ou l’outil constructeur le permet, fixez une limite de charge (par exemple 60 % ou 80 %) afin de prolonger la durée de vie de la batterie.
+**Astuce :** si le BIOS/UEFI ou l’outil constructeur le permet, fixez une limite de charge (par exemple 60 % ou 80 %) afin de prolonger la durée de vie de la batterie.
 
 #### Raspberry Pi et autres SBC : la fausse bonne idée
 
 Au début des années 2020, avec l’essor des logiciels de node-in-a-box, est également apparue la mode des Raspberry Pi pour faire tourner un nœud Bitcoin. L’idée semblait séduisante : peu coûteuse, compacte et accessible.
 
+073
+
 En pratique, si votre objectif est uniquement de faire tourner un nœud Bitcoin sans applications supplémentaires, un Raspberry Pi peut suffire. Mais dès que vous souhaitez utiliser Umbrel, Start9 ou un écosystème plus riche (explorateur de blocs, indexeur d’adresses, nœud Lightning, apps de self-hosting...), la machine atteint vite ses limites.
 
 En effet, les Raspberry Pi cumulent de nombreux inconvénients :  
-- processeurs trop justes, avec une architecture ARM parfois incompatible avec certains logiciels ou demandant davantage de manipulations ;  
-- RAM soudée, impossible à upgrader, avec des configurations limitées (souvent un maximum de 8 Go) ;  
-- boîtiers externes pour SSD reliés par câble, sources fréquentes de bugs, nécessitant l’achat d’une carte spécifique pour un SSD stable ;  
-- tendance à chauffer rapidement et difficulté à assurer un refroidissement correct ;  
-- nécessité d’acheter du matériel supplémentaire (boîtier, ventilateur, carte SSD, etc.) ;  
-- connectique très limitée.  
+- processeurs trop justes, avec une architecture ARM parfois incompatible avec certains logiciels ou demandant davantage de manipulations ;
+- RAM soudée, impossible à upgrader, avec des configurations limitées (souvent un maximum de 8 Go) ;
+- boîtiers externes pour SSD reliés par câble, sources fréquentes de bugs, nécessitant l’achat d’une carte spécifique pour un SSD stable ;
+- tendance à chauffer rapidement et difficulté à assurer un refroidissement correct ;
+- nécessité d’acheter du matériel supplémentaire (boîtier, ventilateur, carte SSD, etc.) ;
+- connectique très limitée.
 
-Historiquement, le grand avantage des SBC comme le Raspberry Pi était leur prix : pour quelques dizaines d’euros, on pouvait obtenir une machine dédiée. Mais aujourd’hui, les tarifs ont fortement augmenté et, une fois ajouté tout le matériel complémentaire indispensable, le coût se rapproche de celui des premiers mini-PC x86 d’occasion ou reconditionnés, qui offrent bien plus d’avantages. C’est pour cette raison que je ne recommande pas d’opter pour un SBC.
-
+Historiquement, le grand avantage des SBC comme le Raspberry Pi était leur prix : pour quelques dizaines d’euros, on pouvait obtenir une machine dédiée. Mais aujourd’hui, les tarifs ont fortement augmenté et, une fois ajouté tout le matériel complémentaire indispensable, le coût se rapproche de celui des premiers mini-PC x86 d’occasion ou reconditionnés, qui offrent bien plus d’avantages selon moi. C’est pour cette raison que je ne recommande pas d’opter pour un SBC.
 
 ### Choisir ses composants
 
@@ -608,7 +623,11 @@ Techniquement, il est possible de faire tourner un nœud Bitcoin sur un HDD. Le 
 
 Le SSD change radicalement  votre expérience utilisateur : tout devient plus rapide et plus fluide, avec une fiabilité nettement supérieure. L’utilisation d’un SSD est donc (presque) obligatoire pour votre nœud, et vous ne le regretterez pas, d’autant plus que les modèles de grande capacité sont aujourd’hui relativement abordables.
 
+077
+
 En termes de capacité, la capacité de 2 To s’impose progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
+
+078
 
 Quant au format, il dépendra des ports disponibles sur votre machine, mais je vous recommande, si possible, de privilégier un SSD NVMe M.2.
 

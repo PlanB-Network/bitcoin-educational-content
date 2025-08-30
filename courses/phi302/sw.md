@@ -829,7 +829,7 @@ Miongoni mwa mambo mengine, anataja barua pepe ya Shaolinfry kwa orodha ya barua
 Shaolinfry pia aliangazia tafsiri potofu ya kawaida ya kuashiria Miner: watu kwa ujumla walidhani kuwa ilikuwa njia ambayo wachimbaji wangeweza kuamua juu ya uboreshaji wa protocol, badala ya hatua ambayo ilisaidia kuratibu uboreshaji. Kwa sababu ya kutokuelewana huku, miners  pia walihisi kulazimika kutangaza hadharani maoni yao kuhusu Soft Fork fulani, kana kwamba hiyo iliipa pendekezo hilo uzito.
 
 
-> Pendekezo la UASF ni, kwa ufupi, "siku ya bendera" ambapo node huanza kutekeleza sheria mpya maalum. Kwa njia hii, wachimbaji si lazima waratibu juhudi za pamoja za kusasisha, lakini inaweza kuruhusu kuwezesha mapema kuliko siku ya kuripoti ikiwa msaada kutoka kwa block za kutosha utaizuia:
+Pendekezo la UASF ni, kwa ufupi, "siku ya bendera" ambapo node huanza kutekeleza sheria mpya maalum. Kwa njia hii, wachimbaji si lazima waratibu juhudi za pamoja za kusasisha, lakini inaweza kuruhusu kuwezesha mapema kuliko siku ya kuripoti ikiwa msaada kutoka kwa block za kutosha utaizuia:
 
 
 > Maoni yangu ni kuwa na ulimwengu bora zaidi. Kwa kuwa mtumiaji aliyeamilishwa Soft Fork anahitaji muda mrefu kiasi kabla ya kuwezesha, tunaweza kuchanganya na BIP9 ili kutoa chaguo la kuwezesha uratibu wa nishati ya Hash au kuwezesha kufikia siku ya bendera, yoyote itakayokuja hivi karibuni.

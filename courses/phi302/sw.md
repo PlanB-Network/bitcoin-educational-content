@@ -308,7 +308,7 @@ David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://Bitcoin.or
 > Kwa bahati mbaya, watumiaji wengi hutoa nguvu zao za kutekeleza. Hii inaacha ugatuaji wa Bitcoin katika hali dhaifu ambapo miners wachache wanaweza kushirikiana na benki chache na huduma za bure kubadilisha sheria za Bitcoin kwa wale watumiaji wote wasiothibitisha ambao walitumia nguvu zao nje.
 >
 
-> Tofauti na wallts nyingine, Bitcoin Core hutekeleza sheria—kwa hivyo miners na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulipa uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
+> Tofauti na wallets nyingine, Bitcoin Core hutekeleza sheria—kwa hivyo miners na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulipa uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
 
 
 Anasema kuwa kuendesha Full node kutakusaidia kuthibitisha kila element ya Blockchain bila kumwamini mtu mwingine yeyote, ili kuhakikisha kuwa sarafu unazopokea kutoka kwa wengine ni halisi. Hii ni nzuri, lakini kuna jambo moja muhimu ambalo Full node haiwezi kukusaidia: haiwezi kuzuia multiple spend kupitia kuandika upya kwa mnyororo:

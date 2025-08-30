@@ -1475,6 +1475,7 @@ Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supp
 
 Vertical scaling ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa node kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
 
+
 Mbinu inayojadiliwa zaidi ya vertical scaling katika Bitcoin ni ongezeko la kikomo cha block size. Hii itahitaji node zingine kamili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Hasara yake ni kwamba hutokea kwa gharama ya centralization.
 
 

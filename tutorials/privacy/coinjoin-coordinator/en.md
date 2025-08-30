@@ -282,15 +282,15 @@ cd /
 
 nix --extra-experimental-features nix-command --extra-experimental-features flakes build github:/WalletWasabi/WalletWasabi 
 
-
+```
 **WORKINGDIRECTORY, EXECSTART, AND ENVIRONMENT MUST BE MODIFIED**
 For environment, look in /nix/store and use
-ls -d *-openssl*
+```ls -d *-openssl*
 ls -d *-zlib*
 ls -d *-icu4c*
-
+```
 Set environment to the lib path of each (concatenated with colons, encapsulated by quotes, set equal to LD_LIBRARY_PATH)
-
+```
 
 nano /etc/systemd/system/walletwasabi-backend.service
                     
@@ -420,7 +420,8 @@ certbot --nginx -d coinjoin.domain --register-unsafely-without-email
 Before running the coordinator you need to edit the Config.yaml file with your:
 - Bitcoin RPC credentials
 - Preferred round parameters
-- Coordinator Extended Public Key (create a new wallet for receiving collected dust)
+- Coordinator Extended Public Key (create a new SegWit wallet for receiving collected dust) 
+<br>Warning: Taproot wallet will result in unspendable UTXO's!
 - Allowed input and output address types
 - Announcer configuration for publishing over nostr (name, description, Uri, minimum inputs, nostr relay, nostr private key)
 

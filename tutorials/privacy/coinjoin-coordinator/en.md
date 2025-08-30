@@ -9,7 +9,7 @@ description: How to setup and run a coinjoin coordinator following the WabiSabi 
 
 ## Introduction
 
-In this expert guide we will help you set-up a coinjoin coordinator, essentially a server that brings together people that want to save on transaction fees or increase their onchain privacy in collaborative transactions. Since there is no longer a company run coordinator bundled with Wasabi Wallet, users have to find and select their own preferred coordinator server. Only a few coordinators have shown up asking a 0% coordination fee, so the developers of Wasabi Wallet have been working hard to make it as easy as possible to start running your own community coordinator (on hardware as small as a Raspberry Pi5!). The currently active coordinators that ask 0% coordination fee can be found on [LiquiSabi](https://liquisabi.com).
+In this expert guide we will help you set-up a coinjoin coordinator, essentially a server that brings together people that want to save on transaction fees or increase their onchain privacy in collaborative transactions. Since there is no longer a company run coordinator bundled with Wasabi Wallet, users have to find and select their own preferred coordinator server. Only a few coordinators have shown up asking a 0% coordination fee, so the developers of Wasabi Wallet have been working hard to make it as easy as possible to start running your own community coordinator (on hardware as small as a Raspberry Pi5!). The currently active coordinators that ask 0% coordination fee can be found on [LiquiSabi](https://liquisabi.com) and more importantly on [nostr](https://github.com/Kukks/WasabiNostr).
 
 ## Requirements
 

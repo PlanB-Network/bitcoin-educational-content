@@ -1466,6 +1466,7 @@ mbinu zimetekelezwa.
 ### Mbinu za kuongeza kiwango
 
 
+
 Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supply ya  blocksize au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
 
 

@@ -1474,26 +1474,34 @@ Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supp
 
 
 
+
 Vertical scaling ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa node kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
+
 
 
 Mbinu inayojadiliwa zaidi ya vertical scaling katika Bitcoin ni ongezeko la kikomo cha block size. Hii itahitaji node zingine kamili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Hasara yake ni kwamba hutokea kwa gharama ya centralization.
 
 
+
 Kando na athari hasi kwenye ugatuaji wa full node, vertical scaling inaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi miners “wanapaswa” kufanya kazi. Tuseme miner anachimba block katika urefu wa 7 na kuchapisha block hiyo kwenye mtandao wa Bitcoin. Itachukua muda kwa block hii kufikia kukubalika kwa upana, na hii ni kwa sababu ya sababu mbili:
+
 
 
 - Uhamisho wa block kati ya wenzao huchukua muda kwa sababu ya mapungufu ya bandwidth.
 - Uthibitishaji wa block huchukua muda.
 
 
+
 Wakati block 7 inaenezwa kupitia mtandao, miners wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata block mpya kwa urefu wa 7, kutakuwa na blocks mbili zinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
+
 
 
 Kwa kifupi, blocks zilivyochakaa hutokea kwa sababu inachukua muda kwa kila block kueneza, na jinsi uenezi unavyochukua muda, ndivyo uwezekano wa vitalu vilivyochakaa unavyoongezeka.
 
 
+
 Tuseme kwamba kikomo cha Blocksize kimeondolewa na kwamba ukubwa wa wastani wa block huongezeka sana. blocks basi zitaenea polepole kwenye mtandao kutokana na vikwazo vya kipimo data na muda wa uthibitishaji. Kuongezeka kwa wakati wa uenezi pia kutaongeza nafasi za vitalu vya zamani.
+
 
 
 Miners hawapendi kuzuiwa kwa blocks zao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
@@ -1530,6 +1538,7 @@ Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au
 
 > Kuna tatizo kubwa ingawa: takatifu !@#$ ni tata iliyo hapo juu ikilinganishwa na Bitcoin! Hata toleo la "kiddy" la sharding - mpango wangu wa uwekaji mstari badala ya zk-SNARKS - labda ni agizo moja au mbili za ukubwa zaidi kuliko kutumia itifaki ya Bitcoin ni hivi sasa, lakini hivi sasa asilimia kubwa ya kampuni katika nafasi hii inaonekana kuwa wameinua mikono yao juu na kutumia watoa huduma wa API wa kati badala yake. Kwa kweli kutekeleza yaliyo hapo juu na kuipata mikononi mwa watumiaji wa mwisho haitakuwa rahisi.
 >
+
 
 > Kwa upande mwingine, ugatuaji sio nafuu: kutumia PayPal ni amri moja au mbili za ukubwa rahisi zaidi kuliko itifaki ya Bitcoin.
 

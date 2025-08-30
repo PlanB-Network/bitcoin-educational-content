@@ -173,7 +173,7 @@ Vous n'êtes cependant pas sans savoir que trinquer permet de faciliter les inte
 En ce sens, **se fixer des objectifs et projets concrets semble nécessaire**.
 
 
-2 - Est-ce pertinent de **donner une dimension physique à ma communauté** ? Si oui, quels types d'événements pourraient être réalisés?
+2 - Est-ce pertinent de **donner une dimension physique à ma communauté** ? Si oui, quels types d'événements pourraient être réalisés ?
 
 Dans le cas où vous souhaitez donner une dimension physique à votre communauté, votre premier événement sera certainement un meet-up. Son objectif sera alors sans doute la rencontre des bitcoiners vivant près de chez vous.
 
@@ -275,7 +275,7 @@ Afin de pouvoir vous aiguiller plus en détail, nous vous proposons ci-dessous u
 
 Voici également quelques fichiers préconçus, duplicables et modifiables à votre guise que l'association Bitcoin Lille utilise :
 - **affiche d'annonce de meet-up** (pour les réseaux sociaux, et imprimée en A4 ou A3) : [lien](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- 
+
 ![image](assets/fr/010.webp)
 
 - **affiche d'annonce de rencontres** (pour les réseaux sociaux, et imprimée en A4 ou A3) : [lien](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -326,7 +326,7 @@ Pour ce faire, de nombreuses IAs existent. On compte notamment :
 - [leonardo](https://leonardo.ai/) (gratuite, limitée par compte) ;
 - [copilot](https://copilot.microsoft.com/) (gratuite, limitée par compte) ;
 - [DALL-E](https://www.dall-efree.com/) (payante).
-- 
+
 Évidemment, de nombreuses autres intelligences artificielles ont vu le jour ces derniers mois dans le domaine de la création de contenus visuels. Cette liste est donc non-exhaustive.
 
 Dans le cas où l'on souhaiterait par exemple réaliser une image ou un logo futuriste du meet-up "Bitcoin Londres", on peut alors demander à l'IA "copilot" :

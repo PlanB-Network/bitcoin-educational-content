@@ -1473,6 +1473,7 @@ Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supp
 #### vertical scaling
 
 
+
 Vertical scaling ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa node kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
 
 
@@ -1497,7 +1498,6 @@ Tuseme kwamba kikomo cha Blocksize kimeondolewa na kwamba ukubwa wa wastani wa b
 
 
 Miners hawapendi kuzuiwa kwa blocks zao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
-
 
 mazingira. Hatua wanazoweza kuchukua ni pamoja na:
 
@@ -1530,11 +1530,9 @@ Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au
 > Kuna tatizo kubwa ingawa: takatifu !@#$ ni tata iliyo hapo juu ikilinganishwa na Bitcoin! Hata toleo la "kiddy" la sharding - mpango wangu wa uwekaji mstari badala ya zk-SNARKS - labda ni agizo moja au mbili za ukubwa zaidi kuliko kutumia itifaki ya Bitcoin ni hivi sasa, lakini hivi sasa asilimia kubwa ya kampuni katika nafasi hii inaonekana kuwa wameinua mikono yao juu na kutumia watoa huduma wa API wa kati badala yake. Kwa kweli kutekeleza yaliyo hapo juu na kuipata mikononi mwa watumiaji wa mwisho haitakuwa rahisi.
 >
 
-
 > Kwa upande mwingine, ugatuaji sio nafuu: kutumia PayPal ni amri moja au mbili za ukubwa rahisi zaidi kuliko itifaki ya Bitcoin.
 
 Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa nguvu kuwashawishi kutumia kitu ngumu zaidi.
-
 
 #### Inward scaling 
 
@@ -1888,9 +1886,8 @@ Katika mazungumzo yanayohusiana, [Satoshi ilichapisha](https://bitcointalk.org/i
 
 > Kiraka cha programu cha kwanza kitakuwa katika SVN rev 132. Bado hakijapakiwa. Ninasukuma mabadiliko mengine ya ziada kutoka kwa trunk kwanza, kisha nitapakia kiraka cha programu cha hii.
 
-Mpango wake ulikuwa kufanya Soft Fork kufanya miamala kama ile iliyojadiliwa hapa kuwa batili, na hivyo kubatilisha blocks (hasa block 74638) ambavyo Kiraka cha programu cha kwanza kitakuwa katika SVN rev 132. Bado hakijapakiwa. Ninasukuma mabadiliko mengine ya ziada kutoka kwa trunk kwanza, kisha nitapakia kiraka cha programu cha hii.
 
- na miamala kama hiyo. Chini ya saa moja baadaye, aliweka [kiraka katika marekebisho 132](https://sourceforge.net/p/Bitcoin/code/132/) ya hazina ya Ubadilishaji na [kuchapishwa kwenye jukwaa](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548 watumiaji wanapaswa kufanya nini)
+Mpango wake ulikuwa kufanya Soft Fork kufanya miamala kama ile iliyojadiliwa hapa kuwa batili, na hivyo kubatilisha blocks (hasa block 74638) ambavyo Kiraka cha programu cha kwanza kitakuwa katika SVN rev 132. Bado hakijapakiwa. Ninasukuma mabadiliko mengine ya ziada kutoka kwa trunk kwanza, kisha nitapakia kiraka cha programu cha hii na miamala kama hiyo. Chini ya saa moja baadaye, aliweka [kiraka katika marekebisho 132](https://sourceforge.net/p/Bitcoin/code/132/) ya hazina ya Ubadilishaji na [kuchapishwa kwenye jukwaa](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548 watumiaji wanapaswa kufanya nini)
 
 
 > Kiraka kimepakiwa kwa SVN rev 132!

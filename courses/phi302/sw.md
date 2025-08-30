@@ -1469,9 +1469,7 @@ mbinu zimetekelezwa.
 
 Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supply ya  blocksize au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
 
-
 #### vertical scaling
-
 
 
 Vertical scaling ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa node kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
@@ -1533,7 +1531,9 @@ Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au
 
 Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa nguvu kuwashawishi kutumia kitu ngumu zaidi.
 
+
 #### Inward scaling 
+
 
 
 Ingawa horizontal na vertical scaling zimefanya vyema kihistoria katika mifumo ya kati kama hifadhidata na seva za wavuti, haionekani kufaa kwa mtandao uliogatuliwa kama Bitcoin kutokana na athari zao za kuleta centralization.

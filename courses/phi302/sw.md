@@ -1470,7 +1470,6 @@ mbinu zimetekelezwa.
 Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza supply ya  blocksize au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
 
 
-
 #### vertical scaling
 
 
@@ -1499,6 +1498,7 @@ Tuseme kwamba kikomo cha Blocksize kimeondolewa na kwamba ukubwa wa wastani wa b
 Miners hawapendi kuzuiwa kwa blocks zao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
 
 mazingira. Hatua wanazoweza kuchukua ni pamoja na:
+
 
 
 - Kuahirisha uthibitishaji wa block inayoingia, pia kinachojulikana kama *Mining* isiyothibitishwa. Miners wanaweza tu kuangalia Proof-of-Work ya kichwa cha block na yangu juu yake, wakati huo huo wanapakua block kamili na kuhalalisha.

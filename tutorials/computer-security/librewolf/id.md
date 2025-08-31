@@ -152,143 +152,71 @@ _Pada halaman yang sama, lebih ke bawah, ditampilkan opsi untuk menghapus cookie
 
 ### Menambahkan ekstensi yang berguna
 
+Pada dasarnya, LibreWolf tidak menganjurkan penambahan ekstensi yang tidak perlu, karena setiap ekstensi bisa menjadi celah pelacakan. Namun, beberapa ekstensi terpercaya dapat meningkatkan pengalaman Anda:
 
+- **Firefox Multi-Account Containers** (oleh Mozilla) untuk penjelajahan yang tersegmentasi
+- **Decentraleyes atau LocalCDN** untuk menyajikan pustaka umum secara lokal
 
-Pada prinsipnya, LibreWolf tidak menyarankan penambahan ekstensi yang tidak perlu, karena setiap ekstensi bisa menjadi vektor pelacakan. Namun demikian, beberapa ekstensi yang memiliki reputasi baik dapat meningkatkan pengalaman Anda:
-
-
-
-
-- Wadah Multi-Akun Firefox** (oleh Mozilla) untuk penjelajahan terkotak-kotak
-- Decentraleyes** atau **LocalCDN** untuk melayani perpustakaan umum secara lokal
-
-
-
-Terutama hindari ekstensi "VPN gratis" atau proksi yang meragukan - uBlock Origin sudah mencakup 99% kebutuhan Anda.
-
-
+Terutama, hindari ekstensi "VPN gratis" atau proksi yang meragukan, uBlock Origin sudah mencakup 99% dari kebutuhan Anda.
 
 ## Penggunaan sehari-hari
 
-
-
 ### Penjelajahan web harian
 
-
-Gunakan LibreWolf untuk aktivitas Internet Anda sehari-hari. Perbedaan utama dengan peramban lain adalah Anda meninggalkan jejak iklan yang jauh lebih sedikit. Spanduk "Terima cookie" menghilang di banyak situs, berkat daftar penyaringan uBlock.
-
-
+Gunakan LibreWolf untuk aktivitas Internet harian Anda. Perbedaan utama dengan browser lain adalah Anda meninggalkan jejak iklan yang jauh lebih sedikit. Spanduk "accept cookie" menghilang di banyak situs, berkat daftar penyaringan uBlock.
 
 ### Gunakan tab pribadi untuk mengelompokkan
 
-
-Meskipun LibreWolf menghapus semuanya di akhir sesi, membuka jendela peramban pribadi (Ctrl+Shift+P) untuk tugas-tugas tertentu selama sesi dapat berguna untuk mempartisi identitas tertentu.
-
-
+Meskipun LibreWolf menghapus semuanya di akhir sesi, akan sangat berguna untuk membuka jendela browser pribadi (Ctrl+Shift+P) untuk tugas-tugas tertentu selama sesi, guna mempartisi identitas tertentu.
 
 ### Manfaatkan wadah multi-akun
 
-
-Memasang ekstensi Wadah Multi-Akun dapat sangat membantu Anda mengelompokkan aktivitas Anda ke dalam silo-silo kedap air. Sebagai contoh, Anda bisa menentukan kontainer "Perbankan" untuk situs perbankan Anda, kontainer "Jejaring Sosial" untuk Facebook/Twitter, dll. Setiap kontainer memiliki cookie, sesi, dan penyimpanan terisolasi. Setiap kontainer memiliki cookie, sesi, dan penyimpanan tersendiri.
-
-
+Memasang ekstensi Multi-Account Containers dapat sangat membantu Anda memisahkan aktivitas ke dalam ruang-ruang tertutup. Misalnya, Anda dapat menentukan container "Perbankan" untuk situs perbankan Anda, container "Social Media" untuk Facebook/Twitter, dll. Setiap container memiliki cookies, sesi, dan penyimpanan tersendiri.
 
 ### Manajemen izin yang disempurnakan berdasarkan situs
 
-
-LibreWolf memungkinkan Anda mengontrol izin yang Anda berikan pada situs (Lokasi, Kamera, Mikrofon, Pemberitahuan) berdasarkan kasus per kasus. Berikan izin hanya ke situs yang Anda percayai dan jika diperlukan.
-
-
+LibreWolf memungkinkan Anda mengontrol izin yang Anda berikan ke situs (Lokasi, Kamera, Mikrofon, Notifikasi) berdasarkan kasus per kasus. Berikan izin hanya untuk situs yang Anda percayai dan saat diperlukan.
 
 ## Praktik terbaik dengan LibreWolf
 
-
-
-1. **Selalu perbarui LibreWolf:** Periksa situs ini secara teratur untuk versi baru, terutama setelah rilis Firefox yang stabil.
-
-
-
-2. **Hindari pencampuran identitas pribadi dan penjelajahan pribadi:** Idealnya, Anda tidak boleh masuk dengan akun pribadi pada sesi yang sama saat Anda melakukan penelitian yang sensitif.
-
-
-
-3. **Jangan membebani LibreWolf dengan ekstensi yang tidak perlu:** Setiap ekstensi yang Anda pasang dapat menimbulkan risiko keamanan atau sidik jari.
-
-
-
-4. **Sebagai tambahan, gunakan proxy VPN atau Tor:** LibreWolf tidak membuat Anda menjadi anonim bagi ISP Anda. Untuk anonimitas jaringan, Anda bisa menggunakan LibreWolf di belakang VPN tepercaya.
-
-
-
-5. **Simpan data penting Anda:** Penanda, kata sandi jika disimpan secara lokal. Pertimbangkan pengelola kata sandi eksternal (KeePassXC, Bitwarden) daripada pengelola kata sandi dasar peramban.
-
-
+1. **Selalu perbarui LibreWolf:** Periksa situs resmi secara berkala untuk versi baru, terutama setelah rilis Firefox yang stabil.
+2. **Hindari mencampurkan identitas pribadi dan penjelajahan pribadi:** IIdealnya, Anda tidak boleh masuk dengan akun pribadi Anda pada sesi yang sama di mana Anda melakukan riset sensitif.
+3. **Jangan membebani LibreWolf dengan ekstensi yang tidak perlu:** Setiap ekstensi yang Anda pasang dapat menimbulkan risiko keamanan atau fingerprinting.
+4. **Sebagai tambahan, gunakan proxy VPN atau Tor:** LibreWolf tidak membuat Anda menjadi anonim bagi ISP Anda. Untuk anonimitas jaringan, Anda bisa menggunakan LibreWolf di balik VPN terpercaya.
+5. **Simpan data penting Anda:** Bookmark, kata sandi jika disimpan secara lokal. Pertimbangkan pengelola kata sandi eksternal (KeePassXC, Bitwarden) daripada pengelola kata sandi bawaan browser.
 
 ## Perbandingan dengan browser lain
 
+LibreWolf adalah bagian dari "aplikasi" browser berorientasi privasi:
 
+**LibreWolf vs Firefox:** LibreWolf sudah disempurnakan dan tanpa telemetri. Firefox mempertahankan keunggulan sinkronisasi multi-perangkat dan basis pengguna yang sangat besar, tetapi membutuhkan konfigurasi manual untuk mencapai tingkat kerahasiaan seperti LibreWolf.
 
-LibreWolf adalah bagian dari "kotak peralatan" peramban berorientasi privasi:
+**LibreWolf vs Brave:** Brave menggunakan kode Chrome/Chromium dan mengintegrasikan model bisnis melalui program iklannya yang opsional. LibreWolf, sebagai fork komunitas untuk Firefox, mempertahankan ekosistem gratis Mozilla dan tidak memiliki ikatan dengan Google.
 
+**LibreWolf vs Tor Browser:** Tor Browser tak tergantikan untuk anonimitas dalam menghadapi pengawasan yang kuat, tetapi lambat dan tidak nyaman dalam penggunaan sehari-hari. LibreWolf, untuk penjelajahan harian di web klasik, jauh lebih cepat dan lebih praktis.
 
-
-**LibreWolf vs Firefox:** LibreWolf hadir dalam keadaan sudah dikeraskan dan tanpa telemetri. Firefox mempertahankan keunggulan sinkronisasi multi-perangkat dan basis pengguna yang sangat besar, tetapi membutuhkan konfigurasi manual untuk mencapai tingkat kerahasiaan LibreWolf.
-
-
-
-**Brave menggunakan kode Chrome/Chromium dan mengintegrasikan model bisnis melalui program periklanan opsional. LibreWolf, sebagai komunitas Fork untuk Firefox, mempertahankan ekosistem bebas Mozilla dan tidak memiliki hubungan dengan Google.
-
-
-
-**LibreWolf vs Tor Browser:** Tor Browser tak tergantikan untuk anonimitas dalam menghadapi pengawasan yang kuat, tetapi lambat dan tidak nyaman dalam penggunaan sehari-hari. LibreWolf, untuk penjelajahan sehari-hari di web klasik, jauh lebih cepat dan praktis.
-
-
-
-**LibreWolf vs Peramban Mullvad:** Peramban Mullvad melangkah lebih jauh lagi dalam hal standarisasi, tetapi dengan mengorbankan kegunaan yang berkurang (tidak mungkin menyimpan kuki login). LibreWolf memberikan keseimbangan: sangat pribadi, tetapi dapat digunakan setiap hari.
-
-
+**LibreWolf vs Mullvad Browser:** Mullvad Browser melangkah lebih jauh dalam standardisasi, tetapi dengan mengorbankan kemudahan penggunaan (tidak mungkin untuk menyimpan login cookie). LibreWolf menemukan keseimbangan: sangat pribadi, tetapi dapat digunakan sehari-hari.
 
 ## Kesimpulan
 
+LibreWolf merepresentasikan solusi yang sangat baik bagi mereka yang mencari browser harian yang sangat privat tanpa harus menggunakan anonimitas ekstrem seperti Tor. Ini adalah pilihan yang ideal untuk aktivis, jurnalis, pengembang, atau pengguna mahir yang menginginkan penjelajahan web klasik (cepat, kompatibel dengan situs modern) sambil menghindari pelacakan iklan dan Big Tech.
 
+Meskipun memiliki keterbatasan tertentu (tidak ada pembaruan otomatis, kompatibilitas yang berkurang dengan layanan tertentu), LibreWolf adalah aplikasi yang berharga dalam gudang senjata siapa pun yang ingin mendapatkan kembali kendali atas privasi digital mereka. Kemudahan penggunaan dan konfigurasi bawaannya menjadikannya pilihan yang bijak bagi pengguna yang peduli privasi.
 
-LibreWolf merupakan solusi yang sangat baik bagi mereka yang mencari peramban "sehari-hari" yang sangat privat tanpa harus menggunakan anonimitas ekstrim seperti Tor. Ini adalah pilihan ideal bagi para aktivis, jurnalis, pengembang, atau pengguna yang menginginkan penjelajahan web klasik (cepat, kompatibel dengan situs-situs modern) sambil menghindari pelacakan iklan dan Big Tech.
-
-
-
-Meskipun memiliki keterbatasan tertentu (tidak ada pembaruan otomatis, kompatibilitas yang berkurang dengan layanan tertentu), LibreWolf merupakan alat yang berharga bagi siapa pun yang ingin mendapatkan kembali kendali atas privasi digital mereka. Kemudahan penggunaan dan konfigurasi standarnya menjadikannya pilihan yang bijaksana bagi pengguna yang sadar akan privasi.
-
-
-
-## Sumber daya
-
-
+## Refrensi
 
 ### Dokumentasi resmi
 
-
-
-
 - [Situs web resmi LibreWolf](https://librewolf.net)
-- [Kode sumber di Codeberg](https://codeberg.org/librewolf)
+- [Source code di Codeberg](https://codeberg.org/librewolf)
 - [Pertanyaan Umum Resmi](https://librewolf.net/docs/faq)
 
-
-
 ### Panduan dan perbandingan
-
-
-
 
 - [Panduan Privasi](https://www.privacyguides.org/en/desktop-browsers/)
 - [Tes privasi komparatif](https://privacytests.org)
 
-
-
 ### Dukungan komunitas
 
-
-
-
-- [Subreddit r/LibreWolf](https://www.reddit.com/r/LibreWolf/)
+- [Subreddit LibreWolf](https://www.reddit.com/r/LibreWolf/)
 - [Kanal Matriks LibreWolf](https://matrix.to/#/#librewolf:matrix.org)

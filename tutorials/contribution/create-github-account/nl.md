@@ -100,7 +100,7 @@ Op Git en GitHub zul je commando's en functies tegenkomen waarvan de namen ingew
 Deze lijst is natuurlijk niet volledig. Er zijn veel andere technische termen die specifiek zijn voor Git en GitHub. Maar degene die hier genoemd zijn, zijn de belangrijkste die je vaak zult tegenkomen.
 
 
-Na het lezen van dit artikel is het mogelijk dat sommige aspecten van Git en GitHub nog onduidelijk voor je zijn, dus ik moedig je aan om deze tools zelf te gaan gebruiken. Oefening baart vaak de meeste opzien! En om te beginnen kun je deze 2 andere tutorials ontdekken:
+Na het lezen van dit artikel is het mogelijk dat sommige aspecten van Git en GitHub nog onduidelijk voor je zijn, dus ik moedig je aan om deze tools zelf te gaan gebruiken. Oefening baart vaak het meeste opzien! En om te beginnen kun je deze 2 andere tutorials ontdekken:
 
 
 ## Hoe een GitHub account aanmaken

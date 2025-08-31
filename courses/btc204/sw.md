@@ -175,7 +175,7 @@ Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matoke
 Frais = total inputs - total outputs
 ```
 
-
+Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
 
 ![BTC204](assets/fr/015.webp)
 
@@ -256,9 +256,7 @@ Njia pekee ya kuepuka marudio haya ya mali ya dijiti ni kufahamu ubadilishanaji 
 
 ![BTC204](assets/fr/021.webp)
 
-Kwa upande mwingine, kuhakikisha kuwa hakuna double-spending ni ngumu zaidi, kwani bidhaa zote za dijitali ziko katika habari ya asili. Tofauti na bidhaa za kimwili, habari haijagawanywi wakati inabadilishwa, bali huenea kwa kuzidishwa. Kwa mfano, nikikutumia hati kwa barua pepe, itarudiwa. Huwezi kuwa na uhakika kwamba nimefuta hati asili.
-
-Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu miamala yote.
+Kwenye Bitcoin, Matumizi ya mara mbili yanazuiwa kwa njia sawa. Tunatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa sarafu hazijawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Kanuni hii ilielezewa na Satoshi Nakamoto kwenye Karatasi Nyeupe na kifungu maarufu:
 
 Lakini tofauti na mtindo wa benki, hatutaki kuamini huluki kuu kwenye Bitcoin. Kwa hivyo watumiaji wote wanahitaji kuwa na uwezo wa kudhibitisha kutokuwepo kwa double-spending, bila kutegemea mtu wa tatu. Kwa hivyo kila mtu anahitaji kufahamu miamala yote ya Bitcoin. Hii ndiyo sababu miamala ya Bitcoin hutangazwa hadharani kwenye nodi zote za mtandao na kurekodiwa kwa maandishi wazi kwenye block.
 
@@ -512,11 +510,11 @@ Kwa ujumla, aina hii ya mbinu ya ndani ya kubashiri itatuwezesha kutambua ubadil
 
 ![BTC204](assets/fr/044.webp)
 
-Kwa mara nyingine tena, wacha nikukumbushe kwamba heuristics hizi si sahihi kabisa. Zikitazamwa kila moja peke yake, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa heuristics kadhaa ndio unaosaidia kutoa makisio yanayofaa. Kuna itifaki nyingine nyingi zilizo na miundo yao maalum. Kwa mfano, kuna miamala ya Wabisabi, miamala ya Stempu, na miamala ya Runes. Bado kuna hali ya kutokuwa na uhakika, bila uwezo wa kuiondoa kabisa.
+Kwa mara nyingine tena, wacha nikukumbushe kwamba Legacy (Urithi) huu sio sahihi kabisa. Zikichukuliwa kibinafsi, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa Legacy (Urithi) kadhaa ambao husaidia kupunguza kutokuwa na uhakika, bila kuwa na uwezo wa kuiondoa kabisa.
 
 ### Kufanana kwa ndani
 
-Legacy huu inahusisha utafiti wa kufanana kati ya pembejeo na matokeo ya muamala huo huo. Ikiwa sifa hiyo hiyo itazingatiwa kwenye pembejeo na kwenye matokeo moja tu ya muamala, basi kuna uwezekano kuwa na matokeo haya yanayojumuisha Ubadilishanaji.
+Legacy hii inahusisha utafiti wa kufanana kati ya pembejeo na matokeo ya muamala huo huo. Ikiwa sifa hiyo hiyo itazingatiwa kwenye pembejeo na kwenye matokeo moja tu ya muamala, basi kuna uwezekano kuwa na matokeo haya yanayojumuisha Ubadilishanaji.
 
 Kipengele dhahiri zaidi ni utumiaji tena wa Anwani (address) inayopokea katika shughuli hiyo hiyo.
 
@@ -1795,11 +1793,14 @@ Hatimaye, wakati wa kusajili toleo lake katika muamala huo, mtumiaji wa CoinJoin
 Kwa upande mwingine, kuna element ya umma: mpiga kura anataka kuwa na uhakika kwamba kura yake imejumuishwa kwenye sanduku la kura; vile vile, mtumiaji wa CoinJoin anataka kuwa na uhakika kwamba toleo lake limejumuishwa katika muamala wa CoinJoin. Hakika, washiriki wa CoinJoin lazima wawe na uwezo wa kuthibitisha uwepo wa toleo lao kabla ya kutia saini muamala, vinginevyo mratibu anaweza kuiba fedha hizo.
 
 Ni hasa vipengele hivi viwili—cha umma na cha faragha—vinavyowezeshwa na matumizi ya saini za upofu za David Chaum, ambavyo vinawahakikishia washiriki katika ushirikiano wa Chaumian kwamba bitcoins zao hazitaibiwa na kwamba fedha zao haziwezi kufuatiliwa.
+
 ### Nani aligundua dhana ya Kuunga sarafu?
 
 Ni vigumu kusema kwa uhakika ni nani aliyeanzisha wazo la kuunga sarafu kwa Bitcoin kwanza, na ni nani alikuja na wazo la kutumia saini za upofu za David Chaum katika muktadha huu. Mara nyingi inafikiriwa kuwa ni Gregory Maxwell ambaye aliitaja kwa mara ya kwanza katika [ujumbe kwenye BitcoinTalk mnamo 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> Ni hasa vipengele hivi viwili—cha umma na cha faragha—vinavyowezeshwa na matumizi ya saini za upofu za David Chaum, ambavyo vinawahakikishia washiriki katika ushirikiano wa Chaumian kwamba bitcoins zao hazitaibiwa na kwamba fedha zao haziwezi kufuatiliwa.
+
+ *"Kwa kutumia sahihi za upofu za Chaum: Watumiaji huingia na kutoa pembejeo (na Anwani (address) za Ubadilishanaji) pamoja na toleo la siri la blinded la Anwani (address) ambalo wangependa kutuma sehemu zao za siri; seva hutia sahihi ishara na kuzirejesha. Watumiaji huunganisha tena bila kujulikana, funua Anwani (address) zao za matokeo ambayo seva inaweza kuzituma tena, na seva inaweza kuzituma tena. kwa hivyo, matokeo yote yanatoka kwa washiriki halali Baadaye, watu huunganisha tena na kuingia
+Maxwell, G. (2013, Agosti 22). *CoinJoin: Faragha ya Bitcoin kwa ulimwengu halisi*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
 ![BTC204](assets/fr/124.webp)
@@ -2320,16 +2321,6 @@ $$
 **Kiashiria hiki pia kinaonyeshwa kama asilimia.**
 Formula iliyotumika ni kama ifuatavyo:
 
-$$
-Ef\% = \frac{E_R}{E_M} \times 100
-$$
-
-Ambapo:
-
-* \$Ef%\$ ni ufanisi wa muamala kwa asilimia,
-* \$E\_R\$ ni entropy halisi ya muamala,
-* \$E\_M\$ ni entropy ya juu zaidi inayowezekana kwa muundo wa muamala.
-
 
 - c_R$ : idadi ya tafsiri halisi zinazowezekana;
 - c_M$: idadi ya juu ya tafsiri zinazowezekana za muundo sawa;
@@ -2356,18 +2347,10 @@ Ili kuihesabu, tunagawanya tu jumla ya entropy ya muamala kwa jumla ya idadi ya 
 * \$e\$: entropy ya muamala iliyoonyeshwa kwa bits;
 * \$t\$: jumla ya idadi ya pembejeo na matokeo katika muamala:
 
-$$
-e_D = \frac{e}{t}
-$$
-
-$$
-E_D = \frac{E}{T}
-$$
-
 Wacha tuchukue mfano wa Whirlpool 5x5 kuunga sarafu:
 
 $$
-\begin{align*}
+\begin{align*} v
 T &= 5 + 5 = 10 \\
 E &= 10.5469 \\
 E_D &= \frac{E}{T} \\
@@ -2414,11 +2397,6 @@ Kwa wazi, kila ingizo lina nafasi sawa ya kuhusishwa na matokeo yoyote, ambayo h
 
 Alama ya Boltzmann inakokotolewa kwa kugawanya idadi ya tafsiri ambazo tukio fulani hutokea kwa jumla ya idadi ya tafsiri zilizopo. Kwa hivyo, ili kubaini alama inayohusisha ingizo #0 na pato #3 (tukio lililopo katika tafsiri za \$512\$), tunaendelea kama ifuatavyo:
 
-$$
-\text{Boltzmann} = \frac{\text{Idadi ya tafsiri zinazowezesha (In.0 > Out.3)}}{\text{Jumla ya tafsiri zote}} = \frac{512}{1496} = 0.3424
-$$
-
-Hii inaonyesha kuwa kuna uwezekano wa asilimia 34.24% kwamba ingizo #0 linaweza kuhusishwa na pato #3, kulingana na tafsiri zilizopo katika usanidi wa muamala huu.
 
 $$
 \begin{align*}
@@ -2489,7 +2467,7 @@ Kwa bahati mbaya, kufuatia kukamatwa kwa waanzilishi wa Samourai, zana hizi hazi
 
 Kwa kuwa sasa tumeangazia sainjoins kwa kina, tutaangalia mbinu zingine za faragha zinazopatikana kwenye Bitcoin katika sehemu ya mwisho ya kozi yetu. Tutaangalia viungo vya malipo, aina maalum za miamala ya pseudo-CoinJoin, itifaki tuli za Anwani (address), pamoja na hatua za kuimarisha usiri sio kwa kiwango cha muamala yenyewe, lakini kwa kiwango cha mtandao wa nodi.
 
-[https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+[https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe]
 
 # Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
 
@@ -3672,8 +3650,9 @@ $$ S = (Sx, Sy) $$
 
 $$ s = \text{SHA256}(Sx) $$
 
-
-- 
+Alice anatumia $s$ hii ya siri iliyoshirikiwa kukokotoa mapokezi ya malipo ya Anwani (address) ya Bitcoin . Kwanza, anakagua kuwa $s$ iko katika mpangilio wa curve ya secp256k1. Ikiwa sivyo hivyo, anaongeza faharasa ya ufunguo wa umma wa Bob ili kupata siri nyingine iliyoshirikiwa;
+- Katika hatua ya pili, anakokotoa ufunguo wa umma $K0$ kwa kuongeza pointi $B$ na $s-G$ kwenye kona ya duaradufu. Kwa maneno mengine, Alice anaongeza ufunguo wa umma unaotokana na msimbo wa malipo wa Bob $B$ hadi hatua nyingine iliyokokotwa kwenye mkunjo wa duaradufu kwa kuongeza na kurudia pointi kwa siri iliyoshirikiwa $s$ kutoka sehemu ya jenereta ya secp256k1 ya $G$. Hoja hii mpya inawakilisha ufunguo wa umma, na tunaiita $K0$ :
+  
 
 $$ K0 = B + s \cdot G $$
 

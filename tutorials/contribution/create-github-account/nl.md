@@ -27,7 +27,7 @@ Een van de belangrijkste functies van Git is branch management. Een branch is ee
 
 Een van de bijzonderheden van Git is de mogelijkheid om gedistribueerd te werken. Elke ontwikkelaar heeft een complete kopie van het project op de harde schijf van zijn eigen computer, waardoor ze offline kunnen werken en wijzigingen later kunnen samenvoegen als er een internetverbinding beschikbaar is. Dit vermindert het risico op conflicten en staat meerdere ontwikkelaars toe om tegelijkertijd aan hetzelfde project te werken zonder op elkaars tenen te trappen.
 
-Git is in eerste instantie vooral ontworpen voor softwareontwikkelingsprojecten. Het kan echter ook gebruikt worden om projecten voor het schrijven van inhoud te beheren. In plaats van samen te werken aan code, werken we samen aan tekst. En het is precies deze methode die Plan ₿ Network gebruikt om haar inhoud te beheren! Git vergemakkelijkt de samenwerking bij het schrijven van cursussen en tutorials, omdat het het nauwkeurig bijhouden van wijzigingen en efficiënt versiebeheer mogelijk maakt, evenals het beoordelen en verbeteren van inhoud door andere bijdragers.
+Git is in eerste instantie vooral ontworpen voor softwareontwikkelingsprojecten. Het kan echter ook gebruikt worden voor het beheren van projecten die gericht zijn op het schrijven van inhoud. In plaats van samen te werken aan code, werken we samen aan tekst. En het is precies deze methode die Plan ₿ Network gebruikt om haar inhoud te beheren! Git vergemakkelijkt de samenwerking bij het schrijven van cursussen en tutorials, omdat het het nauwkeurig bijhouden van wijzigingen en efficiënt versiebeheer mogelijk maakt, evenals het beoordelen en verbeteren van inhoud door andere bijdragers.
 
 
 ## Wat is GitHub?

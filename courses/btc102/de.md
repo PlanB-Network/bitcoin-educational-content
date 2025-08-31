@@ -350,7 +350,7 @@ Sich vor Betrug zu schützen, ist ein wichtiger erster Schritt zum Schutz deines
 
 
 
-Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Du ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
+Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Sie ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
 
 
 Dieses Kapitel führt dich durch einige einfache, praktische Schritte, um deine digitale Hygiene zu verbessern und sich in diesem Bereich zu schützen.
@@ -384,12 +384,12 @@ Es wird auch dringend empfohlen, ein zuverlässiges Antivirenprogramm zu verwend
 
 Abgesehen von Systemaktualisierungen und Virenschutz solltest du beim Herunterladen von Software von zweifelhaften Websites oder sogenannten "universellen" Download-Portalen äusserst vorsichtig sein. Wenn du ein Tool oder eine Anwendung benötigst, gehe immer direkt zur offiziellen Quelle; dadurch wird das Risiko der Installation von Malware, die als legitime Software getarnt ist, drastisch reduziert.
 
-Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installieren. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Du führt dich durch den Prozess:
+Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installierst. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Sie führt dich durch den Prozess:
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du werden es dir später danken.
+Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du wirst es dir später danken.
 
 
 Wenn du Cloud-Lösungen bevorzugst, solltest du einen sicheren Dienst wie Proton Drive nutzen. Stelle nur sicher, dass die von dir gewählte Option deine Privatsphäre respektiert und eine starke Verschlüsselung bietet.
@@ -397,7 +397,7 @@ Wenn du Cloud-Lösungen bevorzugst, solltest du einen sicheren Dienst wie Proton
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Du soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
+Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Sie soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
 
 Die Idee ist einfach:
 

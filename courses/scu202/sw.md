@@ -1462,7 +1462,7 @@ Haya ndiyo mazingira chaguo-msingi ya Fedora Workstation, Ubuntu na ugawaji mwin
 
 Mradi wa KDE ulizinduliwa mwaka wa 1996, na toleo la kwanza la Desktop Environment lilitolewa mwaka wa 1998. Mnamo 2014, tofauti ilifanywa kati ya Desktop Environment na components nyingine za mradi huo. Desktop Environment wakati huo liliitwa "Plasma".
 
-
+KDE Plasma inategemea Qt 6, mfumo mtambuka wa C++, na Mifumo ya KDE, mkusanyiko wa moduli wa maktaba zinazowezesha uundaji wa programu zilizounganishwa. Kidhibiti chake cha dirisha, KWin, pia hufanya kazi kama mtunzi kamili wa Wayland: inashughulikia madoido ya kuona (ukungu, uwazi, mabadiliko), kugawanyika kwa skrini kwa kuongeza kasi ya GPU, na ishara za kugusa nyingi kupitia libinput.
 
 ![Image](assets/fr/055.webp)
 
@@ -3998,7 +3998,7 @@ Kwa hivyo, kuangalia integrity na authenticity ya programu kabla ya kusakinisha 
 
 
 
-Kwa hivyo, kuangalia integrity na authenticity ya programu kabla ya kusakinisha ni mbinu muhimu sana ya usalama, hasa inapokuja kwa programu nyeti kama vile Bitcoin wallets au password managers. Zoezi hili huhakikisha kuwa programu iliyopakuliwa inalingana haswa na ile iliyotolewa na developer wa asili, bila kubadilishwa.
+Katika sura hii, tutaangalia jinsi ya kuangalia uadilifu na uhalisi wa faili, na jinsi ya kuitekeleza kwenye mfumo wako wa uendeshaji.
 
 
 
@@ -6503,11 +6503,9 @@ Android ilikumbwa na ongezeko la haraka: ilishinda iOS katika hisa mapema Julai 
 #### Chanzo huria dhidi ya Google
 
 
-Mradi wa Android unategemea uwili wa muundo. Kwa upande mmoja, AOSP (Android Open Source Project) inawakilisha msingi wa chanzo huria wa mfumo: inajumuisha kernel ya Linux, rundo la programu ya mfumo, michoro ndogo ya Interface na seti ya API. Msingi huu umechapishwa chini ya leseni ya Apache 2.0, na inabaki kupatikana kwa wote. Kwa upande mwingine, mazingira yanayotumiwa na watumiaji wengi wa Android hutegemea kwa karibu vipengele miliki vilivyotengenezwa na Google: Huduma za Simu za Google (Google Mobile Services – GMS), ambazo ni pakiti ya programu na API zinazojumuisha Google Play Store, Google Maps, Gmail, YouTube na Google Play Services zinazowezesha huduma muhimu kama arifa, eneo na uthibitishaji.
+Mradi wa Android unategemea uwili wa muundo. Kwa upande mmoja, AOSP (Android Open Source Project) inawakilisha msingi wa chanzo huria wa mfumo: inajumuisha kernel ya Linux, rundo la programu ya mfumo, michoro ndogo ya Interface na seti ya API. Msingi huu umechapishwa chini ya leseni ya Apache 2.0, na inabaki kupatikana kwa wote. Kwa upande mwingine, mazingira yanayotumiwa na watumiaji wengi wa Android hutegemea kwa karibu vipengele miliki vilivyotengenezwa na Google: Huduma za Simu za Google (Google Mobile Services – GMS), 
 
-
-Vipengele hivi si chanzo-wazi: haviwezi kukaguliwa kwa uhuru na jumuiya, wala kubadilishwa kwa urahisi. Ili kuzisakinisha mapema kwenye vifaa vyao, ni lazima watengenezaji watie saini mikataba ya leseni na Google na watii masharti magumu ya kiufundi na kibiashara. Mahitaji haya ni pamoja na kuhakikisha upatanifu na (Compatibility Test Suite - CTS), kujumuisha seti ya programu za lazima za Google, na kuwezesha huduma muhimu kama (Google Play Services) ili mfumo uweze kufikia soko la programu na huduma nyingine za Google:
-
+Vipengele hivi si chanzo-wazi: haviwezi kukaguliwa kwa uhuru na jumuiya, wala kubadilishwa kwa urahisi. Ili kuzisakinisha mapema kwenye vifaa vyao, ni lazima watengenezaji watie saini mikataba ya leseni na Google na watii masharti magumu ya kiufundi na kibiashara. Mahitaji haya ni pamoja na kuhakikisha upatanifu na (Compatibility Test Suite - CTS)
 
 
 - ujumuishaji wa lazima wa programu kadhaa za Google kama programu za mfumo zisizoweza kusakinishwa
@@ -6851,9 +6849,7 @@ Kuhusu mtandao wako wa nyumbani wa Wi-Fi, tutazungumzia hilo katika sehemu ya mw
 #### Bluetooth, NFC na GPS
 
 
-Bluetooth (wireless short-range communication protocol), address huongezwa kupitia viungo vya muda au address tuli (vitambulisho vya kudumu lakini vinavyoweza kutenduliwa). Unaweza pia kuchagua kati ya exchange ya muda mfupi au hali ya kawaida zaidi, yenye vidhibiti bora vya mwonekano na uidhinishaji (kwa mfano, kuficha jina lako halisi nyuma ya jina bandia, la kipekee kwa kila address).
-
- mawasiliano ya masafa mafupi), NFC (Near Field Communication) na GPS (satellite positioning) huwezeshwa kwa chaguomsingi kwenye simu mahiri nyingi. Teknolojia hizi zinaweza kutumika kama lango la mashambulizi ya ndani: utekelezaji wa msimbo wa mbali, ufikiaji usioidhinishwa, ufuatiliaji wa eneo, hata kuingilia mawasiliano katika kesi ya Bluetooth (kwa mfano, udhaifu wa BlueBorne).
+Bluetooth (short-range wireless communication protocol), NFC (Near Field Communication) na GPS (Global Positioning System) huwashwa kwa chaguo-msingi kwenye simu nyingi mahiri. Teknolojia hizi zinaweza kutumika kama lango la mashambulizi ya ndani: utekelezaji wa msimbo wa mbali, ufikiaji usioidhinishwa, ufuatiliaji wa eneo, na hata kuingilia mawasiliano katika hali ya Bluetooth (kwa mfano, udhaifu wa BlueBorne).
 
 
 Ili kupunguza hatari hizi, zima kila mara vipengele hivi wakati huvitumii. Hii inapunguza kwa kiasi kikubwa eneo la mashambulizi na kuzuia jaribio lolote la unyonyaji.
@@ -7280,7 +7276,7 @@ Proton Mail ni huduma salama ya utumaji ujumbe ya Uswizi inayotoa usimbaji fiche
 Mfumo wa barua pepe unategemea vipengele viwili tofauti: mtoa huduma wa barua pepe (kama Gmail, Tuta au Proton Mail), anayeshughulikia kupokea, kutuma na kuhifadhi ujumbe kupitia seva; na mteja wa barua pepe, ambayo ni programu inayotumika kutazama na kuandika barua pepe zako (kama Gmail app, Outlook, K-9 Mail au Thunderbird). Mteja anaweza kuunganishwa na watoa huduma mbalimbali kupitia itifaki za kawaida kama IMAP au SMTP.
 
 
-Mfumo wa barua pepe unategemea vipengele viwili tofauti: mtoa huduma wa barua pepe (kama Gmail, Tuta au Proton Mail), anayeshughulikia kupokea, kutuma na kuhifadhi ujumbe kupitia seva; na mteja wa barua pepe, ambayo ni programu inayotumika kutazama na kuandika barua pepe zako (kama Gmail app, Outlook, K-9 Mail au Thunderbird). Mteja anaweza kuunganishwa na watoa huduma mbalimbali kupitia itifaki za kawaida kama IMAP au SMTP.
+Kwa hivyo inawezekana kutumia mteja wa programu huria ambayo ni rafiki wa faragha huku mwanzoni ukidumisha akaunti na mtoa huduma wa kitamaduni. Baadhi ya programu, kama vile Gmail, Proton Mail au Tuta, hutoa wateja wa barua pepe ambao pia hufanya kama mtoaji ujumbe, na hivyo kutoa suluhisho kamili la kuunganisha huduma ya Interface ya kusoma na kutuma/kupokea barua pepe.
 
 
 Hapa kuna mapendekezo machache, ambapo unachagua mtoaji wako wa barua pepe:
@@ -8474,9 +8470,6 @@ Kisha, washa protocol ya usimbaji wa hoja ya DNS ili kuzuia hoja za DNS kuingili
 
 - **DoT (*DNS over TLS*)**: Huunda chaneli mahususi iliyosimbwa kati ya kifaa chako na seva ya DNS
 
-
-
--kuwa IP address zinazoeleweka na mashine. Wakati kifaa kwenye mtandao wako kinapotaka kutembelea tovuti, huuliza DNS server ili kupata IP address ya seva inayohitajika kuwasiliana nayo. Kwa default, maombi haya ya DNS mara nyingi hutumwa kwa maandishi wazi (yasiyosimbwa) kwa Internet Service Provider, na kuiwezesha (au wahusika wengine kama serikali) kuona tovuti zote unazotembelea, hata kama maudhui yake yamesimbwa kupitia HTTPS.
 
  **DoQ= (*DNS over QUIC*)**: Husafirisha maombi ya DNS kupitia itifaki ya QUIC yenye msingi wa UDP
 

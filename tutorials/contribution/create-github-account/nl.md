@@ -46,7 +46,7 @@ Stel je Git voor als een soort logboek dat elke ontwikkelaar op zijn eigen compu
 Het fundamentele verschil tussen Git en GitHub ligt in hun functie: Git is de tool die elke ontwikkelaar lokaal gebruikt om hun codeversies te beheren, terwijl GitHub het online platform is dat deze versies host en samenwerking vergemakkelijkt.
 
 
-GitHub is veel meer dan alleen een service voor het hosten van code. Het is een samenwerkingsplatform dat ontwikkelaars in staat stelt om efficiënt samen te werken. En inderdaad, Plan ₿ Network gebruikt dit platform niet alleen om alle code te hosten die de website aandrijft, maar ook, en dit is wat ons interesseert, alle inhoud (tutorials, training, bronnen...).
+GitHub is veel meer dan alleen een service voor het hosten van code. Het is een samenwerkingsplatform dat ontwikkelaars in staat stelt om efficiënt samen te werken. En inderdaad, Plan ₿ Network gebruikt dit platform niet alleen om alle code te hosten die de website aandrijft, maar ook, en dit is wat ons interesseert, alle inhoud (tutorials, cursussen, bronnen...).
 
 
 ## Enkele technische termen

@@ -61,7 +61,7 @@ Op Git en GitHub zul je commando's en functies tegenkomen waarvan de namen ingew
 
 
 - Pull origin:** Commando dat updates ophaalt van een remote repository en deze direct integreert in je lokale branch om deze te synchroniseren. Dit combineert de stappen van fetch en merge in een enkel commando.
-- Sync Fork:** Een functie op GitHub waarmee je je Fork van een project kunt bijwerken met de laatste wijzigingen uit de bronrepository. Dit zorgt ervoor dat jouw kopie van het project up-to-date blijft met de hoofdontwikkeling.
+- Sync Fork:** Een functie op GitHub waarmee je je fork van een project kunt bijwerken met de laatste wijzigingen uit de bronrepository. Dit zorgt ervoor dat jouw kopie van het project up-to-date blijft met de hoofdontwikkeling.
 - Push origin:** Commando om je lokale wijzigingen naar een remote repository te sturen.
 
 
@@ -111,7 +111,7 @@ Als je wilt bijdragen aan het PlanB Network, heb je een GitHub account nodig. In
 
 
 - Ga naar [https://github.com/signup](https://github.com/signup).
-- Voer je e-mail Address in en klik dan op de Green `Doorgaan` knop:
+- Voer je e-mail adres in en klik dan op de Green `Doorgaan` knop:
 
 ![github](assets/1.webp)
 

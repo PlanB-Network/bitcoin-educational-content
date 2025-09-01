@@ -1,0 +1,9 @@
+question: Jakie nowoczesne narzędzie zastępuje arp w najnowszych dystrybucjach Linuksa?
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - trasa
+explanation: |
+  ip neigh, z pakietu iproute2, zastępuje arp do zarządzania skojarzeniami IP/MAC w nowoczesnym systemie Linux.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który protokół dynamicznie przypisuje IP Address do urządzenia?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Protokół DHCP automatycznie przypisuje adresy IP do urządzeń w sieci, upraszczając zarządzanie Address.
+reviewed: false

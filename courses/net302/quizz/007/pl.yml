@@ -1,0 +1,9 @@
+question: Który uniwersytecki system operacyjny ułatwił rozpowszechnienie protokołów TCP/IP w świecie akademickim?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, opracowany na Uniwersytecie Berkeley, był jednym z pierwszych systemów integrujących protokoły TCP/IP i pomógł rozpowszechnić je w świecie akademickim.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 总线拓扑结构的主要优势是什么？
+answer: 安装成本低
+wrong_answers:
+  - 高度冗余
+  - 低延迟
+  - 高可用性
+explanation: |
+  总线依靠单一物理介质，这降低了安装成本，但也带来了单点故障。
+reviewed: false

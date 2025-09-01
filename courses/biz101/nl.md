@@ -807,6 +807,7 @@ Momenteel is het scenario van een meerderheidsaandeelhouder die de beslissing ne
 - Beursgenoteerde bedrijven** zoals MicroStrategy hebben een precedent geschapen door een aanzienlijk deel van hun bedrijfskas om te zetten in Bitcoin, wat een wereldwijde verschuiving aantoont in de strategieën voor de allocatie van bedrijfskapitaal. Tegen de herfst van 2024 hebben tal van andere bedrijven dit voorbeeld gevolgd, waardoor deze trend verder wordt gelegitimeerd.
 
 
+Ontdek de bijgewerkte lijst van bedrijven die de meeste bitcoins in kas hebben, evenals de aangehouden bedragen, op de site: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Belasting op Bitcoin aangehouden door bedrijven
 
 

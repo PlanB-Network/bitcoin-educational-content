@@ -1,5 +1,5 @@
 ---
-name: Kako kupiti Bitcoin u svoj Wallet sa Bittr
+name: Bittr
 description: Jednostavan vodič korak po korak za samostalno čuvanje Bitcoin kupovina
 ---
 

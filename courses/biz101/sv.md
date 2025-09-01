@@ -566,6 +566,7 @@ För närvarande är scenariot med en majoritetsägare som fattar beslut det mes
 - **Ägare av mycket små företag**: Entreprenörer inom tjänster, jordbruk eller hantverk som har förstått Bitcoins potential och avsätter en del av sin kassa till den. Deras primära motivation ligger i diversifiering och den frihet som det ger.
 - **Börsnoterade företag** som MicroStrategy har skapat ett prejudikat genom att konvertera en betydande del av sin företagskassa till Bitcoin, vilket visar på ett globalt skifte i företagens allokeringsstrategier. Hösten 2024 hade många andra företag följt efter, vilket ytterligare legitimerade denna trend.
 
+Upptäck den uppdaterade listan över företag som innehar flest bitcoins i kassan, samt de belopp som innehas, på webbplatsen: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Beskattning av Bitcoin som ägs av företag
 
 För företag som inte är strukturerade som separata juridiska personer - t.ex. enskilda firmor eller andra icke inkorporerade enheter - speglar beskattningen av Bitcoin-transaktioner ofta den behandling som tillämpas på enskilda personer. I många fall gäller samma regler för kapitalvinster eller inkomster, precis som de skulle göra om en individ sålde Bitcoin. Till exempel kan vinster i vissa länder betraktas som en del av entreprenörens personliga inkomst, som omfattas av **personliga inkomstskatteparenteser**.

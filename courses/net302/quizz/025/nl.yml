@@ -1,0 +1,9 @@
+question: Waar worden gereserveerde poorten voor gebruikt in het TCP/IP-model?
+answer: Luisteren naar aanvragen voor specifieke diensten
+wrong_answers:
+  - Naar generate automatische datagraminkapseling
+  - Om netwerkframes fysiek te routeren
+  - UDP pakketfragmentatie regelen
+explanation: |
+  Poorten zijn logische luisterpunten waarmee netwerktoepassingen onderscheid kunnen maken tussen verschillende diensten die op dezelfde host draaien.
+reviewed: false

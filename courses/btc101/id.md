@@ -442,7 +442,6 @@ Bitcoin menjamin manajemen moneter yang baik dengan membatasi pembuatannya berda
 
 Singkatnya, Bitcoin, dengan sifatnya yang terdesentralisasi, kelangkaan yang terprogram, dan transparansi, menawarkan sebuah alternatif yang unik untuk sistem moneter tradisional. Hal ini mengilustrasikan bagaimana teknologi dapat digunakan untuk menciptakan mata uang yang tidak hanya berguna dan dapat diverifikasi, tetapi juga menjaga nilai tabungan pengguna dengan membatasi pasokannya secara ketat.
 
-### Kesimpulan bagian 1!
 
 # Dompet Bitcoin
 
@@ -694,7 +693,7 @@ Pada tanggal 3 Januari 2009, Satoshi secara resmi meresmikan jaringan Bitcoin de
 
 > "Kita dapat memenangkan pertempuran besar dalam perlombaan senjata dan mendapatkan
 > wilayah kebebasan baru selama beberapa tahun." - Satoshi Nakamoto
-> ![image](assets/id/42.webp)
+> ![image](assets/id/44.webp)
 
 ### Protokol Bitcoin menjadi lebih hidup
 
@@ -708,7 +707,7 @@ Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh para pengguna Bi
 
 \*\*Tahukah Anda? Pada tanggal 22 Mei 2010, Laszlo Hanyecz membuat sejarah dengan menawarkan untuk membeli dua pizza seharga 10.000 BTC: ini adalah pertama kalinya Bitcoin digunakan untuk membeli barang fisik.
 
-![image](assets/id/44.webp)
+![image](assets/id/42.webp)
 
 ### Hilangnya Satoshi Nakamoto
 

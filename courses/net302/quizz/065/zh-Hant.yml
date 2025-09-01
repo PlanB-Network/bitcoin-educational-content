@@ -1,0 +1,9 @@
+question: 哪個通訊協定會動態地為自動分發的 IPv6 位址指派使用期限？
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 明確地透過租約管理使用期限，而 NDP 則在其路由器組態訊息中公佈使用期限。
+reviewed: false

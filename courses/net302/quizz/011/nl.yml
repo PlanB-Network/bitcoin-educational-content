@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste reden waarom IPv5 nooit op grote schaal is ingevoerd?
+answer: Het bleef experimenteel
+wrong_answers:
+  - De inzet ervan was te duur
+  - Het was niet compatibel met IPv6
+  - Het had grote beveiligingsfouten
+explanation: |
+  IPv5 werd alleen experimenteel geïmplementeerd. Het werd nooit gestandaardiseerd of op grote schaal toegepast en werd uiteindelijk verlaten ten gunste van IPv6.
+reviewed: false

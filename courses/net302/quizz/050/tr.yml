@@ -1,0 +1,9 @@
+question: Bir ağın düzgün bir şekilde güvenliğini sağlamak için NAT'a ne eklenmelidir?
+answer: Bir güvenlik duvarı
+wrong_answers:
+  - Yerel bir DNS sunucusu
+  - Bir HTTP proxy'si
+  - Bir antivirüs
+explanation: |
+  NAT tek başına kötü niyetli trafiği filtrelemek için yeterli değildir: ince taneli trafik kontrolü için güvenlik duvarı kuralları ile tamamlanmalıdır.
+reviewed: false

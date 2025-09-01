@@ -1,0 +1,2 @@
+description: |
+  Merkezi hizmetlere güvenli bir alternatif sunmak için tasarlanmış, şifreli iletişim için ücretsiz, merkezi olmayan bir protokol. Tox, libsodium tabanlı uçtan uca şifreleme sayesinde alışverişlerin gizliliğini garanti ederken, anlık mesajlaşma, sesli arama, video konferans ve dosya aktarımı sağlayan eşler arası bir temelde çalışır. Edward Snowden ifşaatlarının ardından 2013 yılında doğan Tox, modüler bir mimari ve platformlar arası istemciler aracılığıyla basit, gizlilik dostu iletişim sunmayı amaçlamaktadır.

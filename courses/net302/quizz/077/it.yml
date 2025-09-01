@@ -1,0 +1,9 @@
+question: Quale metodo di risoluzione richiede l'inversione di ogni cifra esadecimale dell'indirizzo IPv6 per la zona inversa?
+answer: Risoluzione inversa
+wrong_answers:
+  - Risoluzione opposta
+  - Risoluzione primaria
+  - Risoluzione secondaria
+explanation: |
+  Per la risoluzione inversa, ogni nibble dell'intero indirizzo IPv6 viene invertito e separato da punti prima di essere suffisso con ip6.arpa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký zápis se používá pro vložení IPv6 Address do adresy URL?
+answer: IPv6 Address je uzavřen v hranatých závorkách
+wrong_answers:
+  - IPv6 Address je uzavřen v závorkách
+  - Protokol IPv6 Address je uveden v uvozovkách
+  - Protokol IPv6 Address je zapsán v surovém stavu
+explanation: |
+  Hranaté závorky se používají k odlišení IPv6 Address od portu v adrese URL, aby se předešlo nejednoznačnosti.
+reviewed: false

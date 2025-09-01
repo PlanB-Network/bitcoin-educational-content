@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med att införa IPv6?
+answer: Tillhandahåller ett praktiskt taget obegränsat Address-utrymme
+wrong_answers:
+  - Öka Ethernet-genomströmningen med en faktor 4
+  - Gradvis ersätta TCP med UDP
+  - Minska antalet byte per paket
+explanation: |
+  Huvudsyftet med IPv6 är att lösa problemet med bristen på IP-adresser genom att kraftigt utöka Address-utrymmet.
+reviewed: false

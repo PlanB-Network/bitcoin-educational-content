@@ -1,0 +1,9 @@
+question: Giao thức nào gán thời gian sống động cho các địa chỉ IPv6 được phân phối tự động?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 quản lý rõ ràng thời gian sống thông qua hợp đồng thuê, trong khi NDP thông báo chúng trong các thông báo cấu hình bộ định tuyến.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní úloha systému DNS v architektuře internetu?
+answer: Mapování názvů domén na IP adresy
+wrong_answers:
+  - Šifrování komunikace mezi směrovači
+  - Dynamické přiřazování adres MAC zařízením
+  - Řízení přístupu k webovým serverům
+explanation: |
+  Systém DNS (Domain Name System) převádí lidsky čitelné názvy domén na číselné IP adresy potřebné pro směrování.
+reviewed: false

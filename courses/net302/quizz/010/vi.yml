@@ -1,0 +1,9 @@
+question: Giao thức hiện đại nào cung cấp chức năng tương tự như mục tiêu của IPv5 trong quản lý chất lượng dịch vụ mạng?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Giao thức đặt trước tài nguyên) cho phép đặt trước tài nguyên mạng một cách linh hoạt để đảm bảo Chất lượng dịch vụ (QoS), đây là mục tiêu ban đầu của IPv5.
+reviewed: false

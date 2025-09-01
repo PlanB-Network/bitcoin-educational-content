@@ -5,5 +5,5 @@ wrong_answers:
   - Squid
   - Samba
 explanation: |
-  BIND (Berkeley Internet Name Domain) is the open-source reference for most of the world's DNS servers.
+  BIND (Berkeley Internet Name Domain) is the open-source reference implementation used by the majority of DNS servers worldwide.
 reviewed: false

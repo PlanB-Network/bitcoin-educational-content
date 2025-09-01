@@ -1,0 +1,9 @@
+question: Công cụ nào hiển thị thông báo DNS chi tiết, bao gồm hồ sơ và quy trình giải quyết?
+answer: đào
+wrong_answers:
+  - chủ nhà
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) cung cấp thông tin chi tiết về giải quyết DNS, bao gồm các loại bản ghi.
+reviewed: false

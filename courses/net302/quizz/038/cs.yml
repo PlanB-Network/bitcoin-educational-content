@@ -1,0 +1,9 @@
+question: Jaký typický rozsah CIDR představuje velikost bloku IPv4 přiděleného organizací IANA pro RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA rozděluje prostor IPv4 do bloků o velikosti /8, z nichž každý obsahuje 2^24 adres.
+reviewed: false

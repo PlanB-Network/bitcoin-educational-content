@@ -1,0 +1,9 @@
+question: Quali informazioni fondamentali deve registrare un gateway NAT per ogni flusso di rete?
+answer: La mappatura tra IP interno e IP pubblico
+wrong_answers:
+  - Tipo di cavo di rete utilizzato
+  - La mappatura tra IP Address e server DNS
+  - Tipo di protocollo di rete utilizzato
+explanation: |
+  Il NAT si basa su una tabella di traduzione per mantenere la corrispondenza che tiene traccia della mappatura tra indirizzi interni e pubblici per garantire che i pacchetti siano instradati correttamente.
+reviewed: false

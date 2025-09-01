@@ -1,0 +1,9 @@
+question: Ni amri gani inatumika kuchanganua milango wazi ya mwenyeji na kutambua huduma zinazoweza kufikiwa?
+answer: nmap
+wrong_answers:
+  - kuchimba
+  - ethtool
+  - ip jirani
+explanation: |
+  nmap hutambua bandari zilizo wazi, huduma wazi na wakati mwingine aina ya mfumo wa uendeshaji wa mbali.
+reviewed: false

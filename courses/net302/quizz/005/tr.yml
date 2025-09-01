@@ -1,0 +1,9 @@
+question: TCP/IP protokol özellikleri için teknik referans olarak hangi belge kullanılır?
+answer: RFC
+wrong_answers:
+  - Beyaz Kitap
+  - ISO
+  - IIP
+explanation: |
+  RFC'ler (Request For Comments) TCP/IP protokollerinin özelliklerini tanımlayan referans belgelerdir.
+reviewed: false

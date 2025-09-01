@@ -1,0 +1,9 @@
+question: Jaki jest cel specjalnej notacji IPv4 0.0.0.0?
+answer: Aby wyznaczyć wszystkie interfejsy lub nieprzypisany Address
+wrong_answers:
+  - Aby wysłać wiadomość do wszystkich sieci
+  - Aby przetestować połączenie lokalne urządzenia
+  - Aby wskazać błąd adresowania lub połączenia na lokalnym routerze
+explanation: |
+  Notacja 0.0.0.0 jest używana lokalnie do reprezentowania braku przypisanego Address lub nasłuchiwania na wszystkich interfejsach.
+reviewed: false

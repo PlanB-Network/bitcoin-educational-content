@@ -1,0 +1,9 @@
+question: ¿Cómo se denomina la unidad de datos que se intercambia en el Layer de aplicación (TCP/IP)?
+answer: Mensaje
+wrong_answers:
+  - Marco
+  - Segmento
+  - Datagrama
+explanation: |
+  En el modelo TCP/IP, los datos intercambiados en el Layer de aplicación se denominan mensajes (o flujos, según el contexto).
+reviewed: false

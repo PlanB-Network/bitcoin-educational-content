@@ -1,0 +1,9 @@
+question: Zašto je migracija na IPv6 postala neophodna?
+answer: IPv4 Address iscrpljenost
+wrong_answers:
+  - Neuspeh NAT protokola na IPv4
+  - Nepodudarnost subnet maske
+  - Kraj podrške za DHCP
+explanation: |
+  Iscrpljivanje IPv4 adresa dovelo je do prelaska na IPv6, koji obezbeđuje znatno veći Address prostor.
+reviewed: false

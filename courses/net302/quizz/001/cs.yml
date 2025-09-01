@@ -1,0 +1,9 @@
+question: Jaká topologie propojuje všechna zařízení s jediným centrálním bodem?
+answer: Hvězda
+wrong_answers:
+  - Kroužek
+  - Autobus
+  - Síťovina
+explanation: |
+  V topologii hvězdy je každé zařízení připojeno k centrálnímu zařízení, což usnadňuje správu a údržbu.
+reviewed: false

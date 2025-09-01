@@ -1,0 +1,9 @@
+question: Welk Linux commando geeft de actieve netwerk routeringstabel weer?
+answer: ip route tonen
+wrong_answers:
+  - ifconfig -a
+  - ping-route
+  - netstat -s
+explanation: |
+  ip route show toont de routes die bekend zijn bij de kernel en de paden die door IP pakketten worden genomen.
+reviewed: false

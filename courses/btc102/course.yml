@@ -93,7 +93,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 12.55
+    reward: 25.1
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -135,6 +135,12 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 30.16
+  - language: nl
+    last_contribution_date: 2025-08-24
+    urgency: 1
+    contributor_names:
+      - rogerbracket
+    reward: 20.09
 tags:
   - wallets
   - user-friendly

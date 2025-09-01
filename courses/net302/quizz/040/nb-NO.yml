@@ -1,0 +1,9 @@
+question: Hvilken post er obligatorisk i alle DNS-sonefiler?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (peker)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  SOA-oppføringen definerer soneautoriteten og er påkrevd i alle DNS-sonefiler.
+reviewed: false

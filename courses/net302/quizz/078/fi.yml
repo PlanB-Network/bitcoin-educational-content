@@ -1,0 +1,9 @@
+question: Mihin DNS-alueeseen PTR-tietueet sijoitetaan IPv6:n käänteistä resoluutiota varten?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Vyöhyke ip6.arpa on tarkoitettu erityisesti IPv6-osoitteiden käänteiseen resoluutioon, kun taas in-addr.arpa-vyöhykettä käytetään IPv4-osoitteisiin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kapan opsi -u dalam lsof digunakan?
+answer: Untuk memfilter menurut pengguna
+wrong_answers:
+  - Untuk memaksa resolusi DNS
+  - Untuk menampilkan port terbuka
+  - Untuk menentukan server DNS
+explanation: |
+  Opsi -u dalam lsof membatasi output untuk file yang dibuka oleh pengguna atau UID tertentu.
+reviewed: false

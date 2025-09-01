@@ -1,0 +1,9 @@
+question: Je, thamani ya MTU inawakilisha nini kwenye mtandao?
+answer: Upeo wa ukubwa wa fremu unaoweza kusambazwa bila kugawanyika
+wrong_answers:
+  - Kiwango cha juu cha uhifadhi wa router bila kugawanyika
+  - Idadi ya juu zaidi ya seva pangishi kwenye mtandao bila kugawanyika
+  - Urefu wa chini wa kichwa cha IP bila kugawanyika
+explanation: |
+  MTU (Kitengo cha Upeo wa Usambazaji) hufafanua ukubwa wa juu zaidi wa fremu ambayo inaweza kupitishwa kwenye sehemu bila kuhitaji kugawanyika.
+reviewed: false

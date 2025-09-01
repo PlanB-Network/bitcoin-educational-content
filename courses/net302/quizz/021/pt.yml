@@ -1,0 +1,9 @@
+question: Que caraterística do TCP optimiza o débito adaptando o número de segmentos enviados sem confirmação imediata?
+answer: A janela deslizante
+wrong_answers:
+  - Fragmentação dinâmica
+  - Comutação de pacotes
+  - Encaminhamento estático
+explanation: |
+  A "janela deslizante" permite o envio de vários segmentos em sucessão e, em seguida, desloca o intervalo com cada confirmação de receção para otimizar o fluxo.
+reviewed: false

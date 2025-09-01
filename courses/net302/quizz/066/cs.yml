@@ -1,0 +1,9 @@
+question: Jaké jsou dvě doby životnosti spojené s automaticky přiděleným protokolem IPv6 Address?
+answer: Preferovaná životnost a platná životnost
+wrong_answers:
+  - Doba pronájmu a doba podržení
+  - Doba do konce životnosti a vypršení platnosti
+  - Počáteční životnost a sekundární životnost
+explanation: |
+  Preferovaná životnost určuje dobu běžného používání Address a platná životnost jeho celkovou dobu platnosti.
+reviewed: false

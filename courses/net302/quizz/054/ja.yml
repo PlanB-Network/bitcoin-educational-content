@@ -1,0 +1,9 @@
+question: プライベートIPのAddressとパブリックIPのAddressを恒久的に関連付けるNATの形式は？
+answer: 静的翻訳
+wrong_answers:
+  - ダイナミック翻訳
+  - PAT（ポートAddressトランスレーション）
+  - ダイナミック・ルーティング
+explanation: |
+  静的変換は、内部IP AddressとパブリックIP Addressの間に固定マッピングを作成し、内部リソースを外部からアクセス可能にするのに便利です。
+reviewed: false

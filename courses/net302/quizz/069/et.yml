@@ -1,0 +1,9 @@
+question: Milline on IPv6 Address võrgus kasutatava võrgu eesliite tüüpiline suurus kohalikus võrgus?
+answer: 64-bitine
+wrong_answers:
+  - 32-bitine
+  - 48 bitti
+  - 8 bitti
+explanation: |
+  IPv6 Address esimesed 64 bitti on üldiselt reserveeritud alamvõrgu eesliite jaoks.
+reviewed: false

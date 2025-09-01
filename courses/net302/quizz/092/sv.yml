@@ -1,0 +1,9 @@
+question: Var brukar DNS-servrar konfigureras på ett Linux-system?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostnamn
+  - /etc/nätverk/gränssnitt
+  - /etc/hosts.allow
+explanation: |
+  I filen /etc/resolv.conf anges DNS-servrar och sökdomäner för namnmatchning.
+reviewed: false

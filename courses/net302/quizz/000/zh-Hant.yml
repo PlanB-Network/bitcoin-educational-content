@@ -1,0 +1,9 @@
+question: 網路在 IT 中的基本角色是什麼？
+answer: 啟用資料 Exchange
+wrong_answers:
+  - 增加電腦記憶體
+  - 建立備份複本
+  - 啟用電腦設備的 Exchange
+explanation: |
+  網路連接多個裝置，讓資訊流通和 Exchange 。
+reviewed: false

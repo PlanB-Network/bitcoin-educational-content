@@ -1,0 +1,9 @@
+question: Какая команда рекомендуется для анализа активных TCP- и UDP-соединений в системе Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ip-ссылка
+  - ifup
+explanation: |
+  Команда ss заменяет netstat для быстрого отображения всех активных сетевых соединений.
+reviewed: false

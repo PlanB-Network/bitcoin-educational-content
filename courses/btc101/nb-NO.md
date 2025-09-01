@@ -440,7 +440,6 @@ Bitcoin garanterer en sunn pengestyring ved å begrense opprettelsen av den, noe
 
 Oppsummert kan vi si at Bitcoin, med sin desentraliserte natur, programmerte knapphet og gjennomsiktighet, tilbyr et unikt alternativ til tradisjonelle pengesystemer. Den illustrerer hvordan teknologi kan brukes til å skape en valuta som ikke bare er nyttig og verifiserbar, men som også bevarer verdien av brukernes sparepenger ved å begrense tilbudet strengt.
 
-### Konklusjon av del 1!
 
 # Bitcoin-lommebøker
 
@@ -692,7 +691,7 @@ Den 3. januar 2009 innviet Satoshi offisielt Bitcoin-nettverket ved å opprette 
 
 > "Vi kan vinne et viktig slag i våpenkappløpet og få en
 > nytt territorium av frihet i flere år." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Bitcoin-protokollen våkner til liv
 
@@ -706,7 +705,7 @@ Forumet ble raskt det foretrukne diskusjonsstedet for Bitcoin-brukere, så mye a
 
 \*\*Den 22. mai 2010 skrev Laszlo Hanyecz historie ved å tilby å kjøpe to pizzaer for 10 000 BTC: Det var første gang Bitcoin ble brukt til å kjøpe fysiske varer.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamotos forsvinning
 

@@ -1,0 +1,9 @@
+question: IPv5が目指したネットワークサービス品質管理と同様の機能を提供する最新のプロトコルはどれか？
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - アープ
+  - ファイル転送プロトコル
+explanation: |
+  RSVP（Resource Reservation Protocol）は、IPv5の当初の目的であったQoS（Quality of Service）を保証するために、ネットワークリソースの動的な予約を可能にする。
+reviewed: false

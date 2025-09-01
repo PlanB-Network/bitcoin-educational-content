@@ -1,0 +1,9 @@
+question: MAC Address thuộc về Layer nào của mô hình OSI?
+answer: Liên kết dữ liệu Layer
+wrong_answers:
+  - Ứng dụng Layer
+  - Vận tải Layer
+  - Mạng Layer
+explanation: |
+  MAC Address hoạt động ở Layer 2 của mô hình OSI, được gọi là "liên kết dữ liệu Layer", nơi nó được sử dụng để định địa chỉ phần cứng cho các khung.
+reviewed: false

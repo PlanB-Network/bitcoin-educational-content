@@ -1,0 +1,9 @@
+question: Özel bir IP Address'ı genel bir IP Address ile kalıcı olarak ilişkilendiren NAT biçimi hangisidir?
+answer: Statik çeviri
+wrong_answers:
+  - Dinamik çeviri
+  - PAT (Port Address Çevirisi)
+  - Dinamik yönlendirme
+explanation: |
+  Statik çeviri, dahili bir IP Address ile genel bir IP Address arasında sabit bir eşleme oluşturur ve dahili kaynakları dışarıdan erişilebilir kılmak için kullanışlıdır.
+reviewed: false

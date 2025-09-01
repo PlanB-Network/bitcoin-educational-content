@@ -572,6 +572,7 @@ Attualmente, lo scenario di un proprietario di maggioranza che prende le decisio
 - **Proprietari di imprese molto piccole**: imprenditori del settore dei servizi, dell'agricoltura o dell'artigianato che hanno compreso il potenziale di Bitcoin e vi destinano una parte del loro patrimonio. La loro motivazione principale è la diversificazione e la libertà che offre.
 - **Società quotate in borsa**: come MicroStrategy hanno creato un precedente convertendo una parte significativa della loro tesoreria aziendale in bitcoin, dimostrando un cambiamento globale nelle strategie di allocazione del capitale aziendale. Entro l'autunno del 2024, numerose altre società hanno seguito l'esempio, legittimando ulteriormente questa tendenza.
 
+Scopri l'elenco aggiornato delle aziende che detengono più bitcoin in tesoreria, nonché gli importi detenuti, sul sito: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Tassazione dei bitcoin detenuti dalle imprese
 
 Per le imprese che non sono strutturate come entità legali separate - come le ditte individuali o altre entità non costituite in società - la tassazione delle transazioni in bitcoin spesso rispecchia il trattamento applicato alle persone fisiche. In molti casi, si applicano le stesse norme che regolano le plusvalenze o i redditi, proprio come nel caso di una persona fisica che vende bitcoin. Ad esempio, in alcuni Paesi i profitti possono essere considerati parte del reddito personale dell'imprenditore, soggetto a **scaglioni di imposta sul reddito personale**.

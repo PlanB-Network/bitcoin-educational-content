@@ -1,0 +1,9 @@
+question: Loại bản ghi DNS nào được sử dụng để ánh xạ tên miền với IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - MỘT
+  - PTR
+  - MX
+explanation: |
+  Loại AAAA (quad-A) được sử dụng để ánh xạ tên miền với IPv6 Address, trong khi loại A dành riêng cho IPv4.
+reviewed: false

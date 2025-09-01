@@ -1,0 +1,9 @@
+question: 哪個通訊協定會動態指定 IP Address 給裝置？
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP 通訊協定會自動指派 IP 位址給網路上的裝置，簡化 Address 的管理。
+reviewed: false

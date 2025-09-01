@@ -1,0 +1,9 @@
+question: 建議使用哪個指令來分析 Linux 系統上的作用中 TCP 和 UDP 連線？
+answer: ss
+wrong_answers:
+  - arp
+  - IP 連結
+  - 如果
+explanation: |
+  ss 指令取代 netstat 快速顯示所有作用中的網路連線。
+reviewed: false

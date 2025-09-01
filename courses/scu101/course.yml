@@ -134,6 +134,12 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 7.06
+  - language: nl
+    last_contribution_date: 2025-08-24
+    urgency: 1
+    contributor_names:
+      - rogerbracket
+    reward: 4.69
 tags:
   - personal-security
   - privacy

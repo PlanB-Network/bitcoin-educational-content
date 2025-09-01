@@ -1,0 +1,9 @@
+question: Mikä protokolla määrittää dynaamisesti IP Address:n laitteelle?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP-protokolla määrittää automaattisesti IP-osoitteet verkon laitteille, mikä yksinkertaistaa Address:n hallintaa.
+reviewed: false

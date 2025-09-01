@@ -1443,7 +1443,7 @@ Sa première décision en tant que DPR est d'interdire la vente d'armes à feu s
 
 ### L'essor silencieux de l'Amazon de la drogue
 
-Cependant, l'activité sur Silk Road est florissante, contrairement à ce que les membres de la communauté de Bitcoin imaginent, à l'instar de Vitalik Buterin qui, en juillet 2012, [déclare](https://bitcoinmagazine.com/culture/the-silk-road-report) à tort que Silk Road « est loin d'être le moteur économique de Bitcoin » (original: "it is far from being Bitcoin’s economic powerhouse"). D'après un rapport de Nicolas Christin, chercheur à l'université Carnegie-Mellon de Pittsburgh, qui [sera publié](https://arxiv.org/pdf/1207.7139) en août, la plateforme connait une croissance extraordinaire. Entre mars et juillet, le nombre de vendeurs double presque en passant de 300 à plus de 550, et près de 97,8 % des clients laissent un avis positif à propos de leur transaction.
+Cependant, l'activité sur Silk Road est florissante, contrairement à ce que les membres de la communauté de Bitcoin imaginent, à l'instar de Vitalik Buterin qui, en juillet 2012, [déclare](https://bitcoinmagazine.com/culture/the-silk-road-report) à tort que Silk Road « est loin d'être le moteur économique de Bitcoin » (original: "it is far from being Bitcoin's economic powerhouse"). D'après un rapport de Nicolas Christin, chercheur à l'université Carnegie-Mellon de Pittsburgh, qui [sera publié](https://arxiv.org/pdf/1207.7139) en août, la plateforme connait une croissance extraordinaire. Entre mars et juillet, le nombre de vendeurs double presque en passant de 300 à plus de 550, et près de 97,8 % des clients laissent un avis positif à propos de leur transaction.
 
 Le volume de vente journalier double lui aussi en passant de 8 000 BTC en mars à 15 000 BTC en mai, avant de sembler reculer à 11 000 BTC en juillet. Cela s'explique par le fait que le prix du bitcoin, qui a stagné autour de 5 $ pendant des mois, s'est mis à augmenter à nouveau à partir de l'été, dépassant 8 $ en juillet. En juillet, le volume correspond ainsi à un chiffre d'affaires record de 1,9 million de dollars. Par comparaison, le volume du change sur Mt. Gox s'élève à près 60 000 bitcoins en juillet.
 
@@ -1501,7 +1501,7 @@ Jeremias Kangas est un programmeur et hackeur finlandais approchant de la trenta
 
 Jeremias Kangas vers 2012 (source : [Blogger](https://www.blogger.com/profile/12265387388248206585))
 
-Le 22 mai, il [fait remarquer](https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432) que les « sites de change en espèces existent déjà » mais qu'« ils sont nuls », et que « quand le modèle économique n'est pas bon, on se retrouve avec des sites merdiques » (original: "These cash exchange sites already exist, they just suck. When there isn't a good business model, you get crappy sites."). C'est pourquoi il décide de développer sa propre plateforme de mise en relation, avec l'aide de son frère. La plateforme, nommée LocalBitcoin, est [lancée](https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497) le 7 juin. Elle est accompagnée d'un [guide](https://web.archive.org/web/20120616084213/https://localbitcoins.com/cash_exchange_howto), qui explique comment devenir un changeur en espèces.
+Le 22 mai, il [fait remarquer](https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432) que les « sites de change en espèces existent déjà » mais qu'« ils sont nuls », et que « quand le modèle économique n'est pas bon, on se retrouve avec des sites merdiques » (original: "These cash exchange sites already exist, they just suck. When there isn't a good business model, you get crappy sites."). C'est pourquoi il décide de développer sa propre plateforme de mise en relation, avec l'aide de son frère. La plateforme, nommée LocalBitcoins, est [lancée](https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497) le 7 juin. Elle est accompagnée d'un [guide](https://web.archive.org/web/20120616084213/https://localbitcoins.com/cash_exchange_howto), qui explique comment devenir un changeur en espèces.
 
 ![Interface de LocalBitcoins en septembre 2012](assets/en/localbitcoins-screenshot-20120919.webp)
 
@@ -1732,7 +1732,7 @@ Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : 
 
 ## La monnaie du crime : les piratages et les arnaques
 
-En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été créée sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
+En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été [créée](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
 
 [26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
@@ -1810,7 +1810,7 @@ Zhou Tong continue de gérer la plateforme jusqu'au printemps. En mars-avril, un
 
 Zhou Tong, "\[Emergency ANN\] Bitcoinica site is taken offline for security investigation", [11/5](https://bitcointalk.org/index.php?topic=81045.msg894277#msg894277) ; tx: 7a22917744aa9ed740faf3068a2f895424ed816ed1a04012b47df7a493f056e8 ‎2012-05-11 12:30:33 UTC 18 547,66867623 BTC
 
-Toutefois, les choses ne se passent pas comme prévu, car un deuxième piratage [a lieu](https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html). Le 11 mai 2012, un pirate parvient à accéder au serveur de courrier électronique de Bitcoinica (qui est hébergé par Rackspace) et à utiliser la fonctionnalité d’oubli de mot de passe pour se connecter avec l'un des comptes administrateurs à la plateforme. Il réussit à [retirer](https://bitcointalk.org/index.php?topic=81045.0) 18 574 bitcoins, soit près de 92 000 $. En outre, il accède à la base de données des utilisateurs, qu'il copie et qu'il supprime du serveur. Il n'y a [pas de sauvegarde](https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159) de cette base, de sorte que l'évènement est catastrophique. Les activités de la plateforme sont suspendues dans l'heure qui suit.
+Toutefois, les choses ne se passent pas comme prévu, car un deuxième piratage [a lieu](https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html). Le 11 mai 2012, un pirate parvient à accéder au serveur de courrier électronique de Bitcoinica (qui est hébergé par Rackspace) et à utiliser la fonctionnalité d'oubli de mot de passe pour se connecter avec l'un des comptes administrateurs à la plateforme. Il réussit à [retirer](https://bitcointalk.org/index.php?topic=81045.0) 18 574 bitcoins, soit près de 92 000 $. En outre, il accède à la base de données des utilisateurs, qu'il copie et qu'il supprime du serveur. Il n'y a [pas de sauvegarde](https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159) de cette base, de sorte que l'évènement est catastrophique. Les activités de la plateforme sont suspendues dans l'heure qui suit.
 
 genjix: "no database backup" https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159
 zhoutong: "database deletion" https://bitcointalk.org/index.php?topic=81045.msg921245#msg921245
@@ -1871,7 +1871,7 @@ genjix, [30/6](https://bitcointalk.org/index.php?topic=84042.msg999980#msg999980
 
 raison [5/5/2013](https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900) : "After the first compromise, despite huge problems in the setup and design of the website, they wanted to put it back up as fast as possible. I was against this strongly which is why I released the code. After an employee used this as an excuse to steal more funds (the evidence is definitive), they were upset more over the loss of the 'Intellectual Property'."
 
-JDC : Le code source contenait la clé API pour le compte Mt. Gox, qui s’avérait aussi être le mot de passe du compte LastPass de Bitcoinica (mauvaise pratique de réutilisation de mot de passe). Si la clé API ne permettait pas de retirer des fonds, le compte LastPass, lui, contenait le mot de passe pour le faire : c’est ainsi que les pirates ont pu accéder pleinement au compte Mt. Gox de Bitcoinica.
+JDC : Le code source contenait la clé API pour le compte Mt. Gox, qui s'avérait aussi être le mot de passe du compte LastPass de Bitcoinica (mauvaise pratique de réutilisation de mot de passe). Si la clé API ne permettait pas de retirer des fonds, le compte LastPass, lui, contenait le mot de passe pour le faire : c'est ainsi que les pirates ont pu accéder pleinement au compte Mt. Gox de Bitcoinica.
 
 https://bitcoinmagazine.com/business/bitcoinica-stolen-from-again
 
@@ -1905,11 +1905,10 @@ genjix, "Coinlab are sneaky bastards, investors behind Bitcoinica" https://bitco
 
 "Bitcoinica was hacked, tens of thousands of Bitcoin were stolen, including over 25,000 of my own. While an offer was on the table to buy the entire company, and make every single user 100% whole again, without permission, Amir released the source code publicly, destroying any chance for the company to be sold, and the users to be made whole again. In short, Amir has a long history of irresponsible behavior in the Bitcoin space and we should be very wary of having him be entrusted with any responsibility at all." [Roger Ver, 2016](https://web.archive.org/web/20201109031604/http://forum.bitcoin.com/bitcoin-discussion/amir-taaki-and-the-segway-in-austria-t7749.html)
 
-À cette débâcle, se rajoute un piratage supplémentaire : celui de de BTC-e. L'équivalent de 4 500 BTC en bitcoins, namecoins et litecoins [sont dérobés](https://web.archive.org/web/20120731215829/https://btc-e.com/news/81), ce qui représente plus de 42 000 $. https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
 
 ### La première pyramide de Ponzi : Bitcoin Savings & Trust
 
-https://gwern.net/doc/bitcoin/pirateat40/index https://bitcoinmagazine.com/business/bitcoin-savings-trust-genuine-or-joke-1345305053 https://bitcoinmagazine.com/business/ponzi-schemes-the-danger-of-high-interest-savings-funds-1338461999 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust
+https://gwern.net/doc/bitcoin/pirateat40/index https://bitcoinmagazine.com/business/bitcoin-savings-trust-genuine-or-joke-1345305053 https://bitcoinmagazine.com/business/ponzi-schemes-the-danger-of-high-interest-savings-funds-1338461999 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://bitcointalk.org/index.php?topic=4464504.msg40018451#msg40018451
 
 Mais le Far West implique aussi la présence d'escroqueries pures et simples. Parmi ces arnaques, il y a les programmes d'investissement à haut rendement (*high-yield investment programs* ou HYIP) qui fleurissent sur Internet dans les sphères des monnaies alternatives (e-gold, Liberty Reserve). Ces programmes promettent des taux d'intérêt anormalement élevés pour de courtes périodes, pour encourager leurs clients à déposer rapidement de l'argent. Ce sont la plupart du temps des pyramides de Ponzi, qui reposent sur les afflux des nouveaux entrants pour rémunérer ceux qui réclament leurs intérêts.
 
@@ -1919,13 +1918,11 @@ Il va de soi que Bitcoin est parfaitement adapté à ce type d'escroquerie. Il y
 
 Trendon Shavers à la sortie du tribunal fédéral de Manhattan en novembre 2014 (source : Brendan McDermid pour [Reuters](https://www.reuters.com/article/world/us/texan-gets-one-and-a-half-years-in-prison-for-running-bitcoin-ponzi-scheme-idUSKCN1012W7/))
 
-À la fin de l'année 2011, Trendon est actif sur la plateforme de change de gré à gré \#bitcoin-otc, où il acquiert une [bonne réputation](https://web.archive.org/web/20111031165817/http://bitcoin-otc.com/viewratingdetail.php?nick=pirateat40). Le 3 novembre 2011, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752) sur le forum être « à la recherche de prêteurs » (original: "looking for lenders") afin de pouvoir exercer une activité de revendeur local ([via](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf) LocalBitcoins et Craiglist). Il propose deux manières de prêter de l'argent. L'une des méthodes, appelée « stockage », consiste à laisser son argent en dépôt. Le taux d'intérêt promis est de 1 % *par jour* !
+À la fin de l'année 2011, Trendon est actif sur la plateforme de change de gré à gré \#bitcoin-otc, où il acquiert une [bonne réputation](https://web.archive.org/web/20111031165817/http://bitcoin-otc.com/viewratingdetail.php?nick=pirateat40). Il vend du bitcoin à un taux de change plus élevé que sur Mt. Gox : ayant une forte demande, il commence à contracter des emprunts auprès de personnes de confiance. Le 3 novembre 2011, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752) sur le forum être « à la recherche de prêteurs » (original: "looking for lenders") afin de pouvoir exercer une activité de revendeur local ([via](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf) les services de change en espèces et Craiglist). Il propose deux manières de prêter de l'argent. L'une des méthodes, appelée « stockage » (original: "storage"), et qui sera renommée « épargne » (original: "savings"), consiste à laisser son argent en dépôt contre un taux d'intérêt pouvant être envoyé à une adresse spécifique ou être réinvesti. Le taux d'intérêt promis est de 1 % *par jour* !
 
-Trendon dit avoir « créé \[son\] propre logiciel de gestion personnalisé afin de surveiller les dépôts, les retraits et les paiements d'intérêts » (original: "I've created my own custom management software that I've built to monitor deposits, withdraws and interest payments"). Il gère initialement l'investissement des clients par message privé sur le forum, avant de [déployer](https://bitcointalk.org/index.php?topic=50822.msg649434#msg649434) une interface à l'adresse Btclending.com un mois et demi plus tard.
+Trendon dit avoir « créé \[son\] propre logiciel de gestion personnalisé afin de surveiller les dépôts, les retraits et les paiements d'intérêts » (original: "I've created my own custom management software that I've built to monitor deposits, withdraws and interest payments"). Il gère initialement l'investissement des clients par message privé sur le forum, avant de [déployer](https://bitcointalk.org/index.php?topic=50822.msg649434#msg649434) une interface à l'adresse Btclending.com un mois et demi plus tard. En parallèle, Trendon [ouvre](https://bitcointalk.org/index.php?topic=55819.msg664029#msg664029) un service de cloud mining, appelé GPUMAX, qui permet aux utilisateurs de prêter et d'emprunter de la puissance de minage.
 
-En parallèle, Trendon gère un service de cloud mining, [GPUMAX](https://bitcointalk.org/index.php?topic=55819.msg664029#msg664029), ouvert le 27 décembre 2011, où les clients peuvent louer de la puissance de minage.
-
-Au début de l'année 2012, le plan [est](https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) simplifié et offre des intérêts versés de manière hebdomadaire. La somme minimale [est](https://bitcointalk.org/index.php?topic=50822.msg738835#msg738835) de 100 BTC, soit environ 570 $, et l'absence de egstion des petits clients permet à des intermédiaires (« Pirate passthroughts » ou PPT) d'émerger, [notamment](https://bitcointalk.org/index.php?topic=76594.msg850275#msg850275) sur GLBSE. Les taux d'intérêt sont progressifs en fonction du montant investi, de façon à encourager les gros dépôts : 100 BTC rapportent 4,2 % *par semaine* tandis que 1 000 BTC (et plus) rapportent 7 %. Les inscriptions [passent](https://bitcointalk.org/index.php?topic=50822.msg736031#msg736031) uniquement par le parrainage (ce qui permet aux membres existants de gagner plus). Le nom du fonds [devient](https://bitcointalk.org/index.php?topic=50822.msg678316#msg678316) First Pirate Savings & Trust (FPS&T), faisant référence au nom de certaines banques américaines. En avril, le service change à nouveau de nom et [devient](https://bitcointalk.org/index.php?topic=50822.msg844657#msg844657) Bitcoin Savings & Trust. L'interface est mise à niveau et est hébergé à l'adresse BTCST.com.
+Au début de l'année 2012, le plan d'investissement [est](https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) simplifié et offre des intérêts versés de manière hebdomadaire. Les taux d'intérêt sont progressifs en fonction du montant investi, de façon à encourager les gros dépôts : 100 BTC rapportent 4,2 % *par semaine* tandis que 1 000 BTC (et plus) rapportent 7 %. Les inscriptions [passent](https://bitcointalk.org/index.php?topic=50822.msg736031#msg736031) uniquement par le parrainage (ce qui permet aux membres existants de gagner plus). Une somme minimale de 100 BTC (570 $ environ) [est](https://bitcointalk.org/index.php?topic=50822.msg738835#msg738835) instaurée afin de ne plus avoir à gérer les petits prêteurs, ce qui entraine l'apparition d'intermédiaires, [notamment](https://bitcointalk.org/index.php?topic=76594.msg850275#msg850275) par l'[émission](https://bitcointalk.org/index.php?topic=91252.msg1063296#msg1063296) d'obligations (« Pirate passthroughts » ou PPT) sur GLBSE. Le nom du fonds [devient](https://bitcointalk.org/index.php?topic=50822.msg678316#msg678316) First Pirate Savings & Trust (FPS&T), faisant référence au nom de certaines banques américaines. En avril, le service change à nouveau de nom et [devient](https://bitcointalk.org/index.php?topic=50822.msg844657#msg844657) Bitcoin Savings & Trust. L'interface est mise à niveau et est hébergé à l'adresse BTCST.com.
 
 ![Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart](assets/en/btcst-unofficial-logo-johnbigheart-20120418.webp)
 
@@ -1933,13 +1930,15 @@ Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart (source : 
 
 Le succès est phénoménal, et il est estimé que le total des bitcoins gérés par BTCS&T atteint plus de 500 000 bitcoins \[source ?\], ce qui représente plus de 5 % de tous les bitcoins en circulation (9,5 millions en juillet) !
 
-Bien sûr, le fonctionnement de BTCS&T attire les soupçons. À la suite de la première annonce sur le forum, un membre utilisant le pseudonyme d'ElectricMucus [fait remarquer](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) que ce que propose Trendon « ressemble à une arnaque HYIP typique » (original: "Smells like a classical HYIP scam."). Plus tard,
+Source des profits : "SHAVERS claimed that the Bitcoin invested by BCS&T investors would be used to support a Bitcoin market-arbitrage strategy, which included (i) lending Bitcoin to others for a fixed period of time; (ii) trading Bitcoin via online exchanges; and (iii) selling Bitcoin locally via private, off-market transactions – i.e., 'over-the-counter transactions.'" https://www.justice.gov/usao-sdny/pr/texas-man-sentenced-operating-bitcoin-ponzi-scheme
 
-suspicions : [Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.") ; "pirateat40's end game" [20/4/2012](https://bitcointalk.org/index.php?topic=77457.msg861247#msg861247) ; pari avec vandroiy... https://bitcointalk.org/index.php?topic=91661.msg1013607#msg1013607 https://bitcointalk.org/index.php?topic=91661.msg1013858#msg1013858 (gagné par Vandroiy : https://bitcointalk.org/index.php?topic=91661.msg1147937#msg1147937) ; popescu : https://bitcointalk.org/index.php?topic=50822.msg855012#msg855012
+Bien sûr, le fonctionnement opaque de BTCS&T attire les soupçons. À la suite de la première annonce sur le forum, un membre utilisant le pseudonyme d'ElectricMucus [fait remarquer](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) que ce que propose Trendon « ressemble à une arnaque HYIP typique » (original: "Smells like a classical HYIP scam."). Avec le succès, les accusations se font de plus en plus [insistantes](https://bitcointalk.org/index.php?topic=50822.msg855012#msg855012). Un membre du forum (Vandroiy) va même jusqu'à [parier](https://bitcointalk.org/index.php?topic=91661.msg1013589#msg1013589) 5 000 BTC avec Trendon sur BTCS&T sera en défaut de paiement avant octobre 2013.
 
-"what business make this high profits? — Groups of people that want to be off the radar, buy large quantities and instant availability.  I would say its the Hard Money sector of Bitcoin." https://bitcointalk.org/index.php?topic=50822.msg614885#msg614885
+soupçons : [Première réponse](https://bitcointalk.org/index.php?topic=50822.msg605977#msg605977) (ElectricMucus) : « Ça ressemble à une arnaque HYIP typique. » (original: "Smells like a classical HYIP scam.") ; "pirateat40's end game" [20/4/2012](https://bitcointalk.org/index.php?topic=77457.msg861247#msg861247) ; pari avec vandroiy... https://bitcointalk.org/index.php?topic=91661.msg1013607#msg1013607 https://bitcointalk.org/index.php?topic=91661.msg1013858#msg1013858 (gagné par Vandroiy : https://bitcointalk.org/index.php?topic=91661.msg1147937#msg1147937) ; popescu : https://bitcointalk.org/index.php?topic=50822.msg855012#msg855012
 
-Début de la fin. Hausse du prix du bitcoin (de 5 à 6,5). Début juillet, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg1004091#msg1004091) abaisser le taux d'intérêt à 3,9 % pour tous les montants. [23/7](https://bitcointalk.org/index.php?topic=50822.msg1048498#msg1048498) "Starting today, I've lifted the referral only requirement to open a Savings account." ; [17 août 2012, 17:57 UTC](https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) "After much consideration, I’ve decided to close down Bitcoin Savings & Trust."
+
+
+Début de la fin. Hausse du prix du bitcoin (de 5 à 6,5). Début juillet, il [annonce](https://bitcointalk.org/index.php?topic=50822.msg1004091#msg1004091) abaisser le taux d'intérêt à 3,9 % pour tous les montants. [23/7](https://bitcointalk.org/index.php?topic=50822.msg1048498#msg1048498) "Starting today, I've lifted the referral only requirement to open a Savings account." ; Le 17 août 2012, il [prend la décision](https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) de fermer BTCS&T. [17 août 2012, 17:57 UTC](https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) "After much consideration, I've decided to close down Bitcoin Savings & Trust."
 
 En conséquence, le prix sur Mt. Gox subit une chute vertigineuse et est divisé par deux en l'espace de 48 heures : il part de 15,4 $ le 17 (sommet local) pour passer brièvement sous les 8 $ le 19. Dans les jours qui suivent, il se stabilise autour de 10 $ avant de remonter à un niveau acceptable.
 
@@ -1947,21 +1946,31 @@ En conséquence, le prix sur Mt. Gox subit une chute vertigineuse et est divisé
 
 Évolution du prix du BTC sur Mt. Gox entre le 12 et le 22 août (source : Bitcoin Charts via [Forbes](https://www.forbes.com/sites/timothylee/2013/04/11/an-illustrated-history-of-bitcoin-crashes/))
 
+témoignage de pirate sept. 2012 : https://pastebin.com/DVNsx7xz
+
 logos : https://web.archive.org/web/20140429144117/https://bitcointalk.org/index.php?topic=76689.0
+
+
+"what business make this high profits? — Groups of people that want to be off the radar, buy large quantities and instant availability.  I would say its the Hard Money sector of Bitcoin." https://bitcointalk.org/index.php?topic=50822.msg614885#msg614885
+
 
 Aide ? Daniel Peebles copumpkin, janvier 2012 ?
 
 Deux individus à qui il prête de l'argent : Big One à partir de décembre 2011 (Shavers: "This person could take 100,000 coins and return 115,000 coinsin less than a week.") et Number Two à partir du deuxième trimestre de 2012.
 
-"Q And the business of Bitooin Savings & Trust was generating returns throughlendingbitcoin, correct? — A Primarily, Ninely percent. — Q And what was the other ten percent? — A Buying and selling bitcoins locally." [sec, 2013](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf)
+"Q And the business of Bitcoin Savings & Trust was generating returns throughlendingbitcoin, correct? — A Primarily, Ninely percent. — Q And what was the other ten percent? — A Buying and selling bitcoins locally." [déposition, 2013](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf)
 
-"Second, he could be investing in a larger Ponzi scheme outside of Bitcoin – Sergey Mavrodi’s MMM is a likely possibility because of the heavy Russian presence in the Bitcoin community. Finally, he could be even further down the chain, investing in high-interest funds outside of the Bitcoin community which are themselves investing in a Ponzi scheme; in this case, perhaps Pirate does not even realize that he’s investing into a Ponzi scheme at all." [Vitalik, mai](https://bitcoinmagazine.com/business/ponzi-schemes-the-danger-of-high-interest-savings-funds-1338461999) — "A third possibility is that BST is itself a pass-through for another Ponzi scheme, such as Sergey Mavrodi’s MMM-2011, although that possibility has become a remote one since MMM defaulted in June and BST continued operating for two months afterwards." [Vitalik, août](https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends)
+"Second, he could be investing in a larger Ponzi scheme outside of Bitcoin – Sergey Mavrodi's MMM is a likely possibility because of the heavy Russian presence in the Bitcoin community. Finally, he could be even further down the chain, investing in high-interest funds outside of the Bitcoin community which are themselves investing in a Ponzi scheme; in this case, perhaps Pirate does not even realize that he's investing into a Ponzi scheme at all." [Vitalik, mai](https://bitcoinmagazine.com/business/ponzi-schemes-the-danger-of-high-interest-savings-funds-1338461999) — "A third possibility is that BST is itself a pass-through for another Ponzi scheme, such as Sergey Mavrodi's MMM-2011, although that possibility has become a remote one since MMM defaulted in June and BST continued operating for two months afterwards." [Vitalik, août](https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends)
 
 D'après sa déposition [auprès de la SEC](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf), il prête ... Les choses se sont gâtées à la fin du mois de juillet lorsque son principal créancier se volatilise dans la nature avec 202 000 bitcoins.
 
+https://blockchair.com/bitcoin/transaction/cea22747487e8a2824566fa362981782871fea50fdfb690a3b63d85bd3189593
+
 "perjured himself", [jcpham, 2023](https://news.ycombinator.com/item?id=34278001)
 
-[Bitcoin Uncensored 2016-08-16](https://whyp.it/tracks/234351/20160816-bitcoin-uncensored-extra-trendon-shavers-08-16-16) : manipulation du marché, profits sur Bitcoinica (short leverage 10)
+[Bitcoin Uncensored 2016-08-16](https://whyp.it/tracks/234351/20160816-bitcoin-uncensored-extra-trendon-shavers-08-16-16) : manipulation du marché, profits sur Bitcoinica (short leverage 10), avant l'arrivée de Big One
+
+"Q How were you generating the returns for Bitcoin Savings & Trust prior to December of 2011? — It was either done through Bitcoinica in the early parts. or local transactions andthe mining. I could rent huge amounts of mining power and mine them, return more bitcoins than Pd pay them or pay them in dollars and get bitcoins and the bitcoin price was moving up and work out. – I mean, there's tons of ways to make money." [déposition, 2013](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf)
 
 Combien de bitcoins volés/perdus ? [Daphne P. Downes](https://gwern.net/doc/bitcoin/pirateat40/gov.uscourts.txed.146063.4.5.pdf) : 263 024 BTC, soit 1 834 303 $ "based on the daily average price of BTC when ney purchased their BTCST investments"
 
@@ -1975,23 +1984,39 @@ https://www.vice.com/en/article/lawyer-reveals-details-about-the-man-behind-bitc
 
 "In total, SHAVERS fraudulently obtained approximately 146,000 Bitcoin in BCS&T investments, which amounted to approximately $807,380 based on the average price of Bitcoin over the duration of the scheme." https://www.justice.gov/usao-sdny/pr/texas-man-sentenced-operating-bitcoin-ponzi-scheme
 
+Defcon à Las Vegas, 27–29 juillet 2012 : https://bitcointalk.org/index.php?topic=91252.msg1004534#msg1004534 ; son nom est dévoilé : https://www.reddit.com/r/Bitcoin/comments/w48km/trendon_shavers_pirateat40_the_shadowy_megabanker/ photo : https://dl.dropboxusercontent.com/u/53757294/thecrew.png
+
 - Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
 
 Trendon sera poursuivi par la SEC en 2013 et arrêté en 2014.
 
-### Le piratage de BitFloor
+### Les piratages de BTC-e et de BitFloor
 
-BitFloor, Roman Shtylman, New-Yorkais de 25 ans, *Bitcoin Show* : https://www.youtube.com/watch?v=F7SsavHX6tc ; service de dépôt en espèces : https://bitcointalk.org/index.php?topic=94993.msg1051219#msg1051219
+L'été 2012 poursuit aussi sur sa lancée en ce qui concerne les piratages...
 
-https://en.bitcoin.it/wiki/Bitfloor enregistré en tant que Money Service Business (MSB) auprès du FinCEN, 15 mars 2012
+À cette débâcle, se rajoute un piratage supplémentaire : celui de de BTC-e. L'équivalent de 4 500 BTC en bitcoins, namecoins et litecoins [sont dérobés](https://web.archive.org/web/20120731215829/https://btc-e.com/news/81), ce qui représente plus de 42 000 $. https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
 
-4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
+Il y a aussi le piratage de Bitfloor qui survient en septembre. BitFloor est une plateforme de change américaine installée à New-York. Elle a été [lancée](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260) en octobre 2011 par un jeune homme de 25 ans appelé Roman Shtylman, à l'aide d'un ami (Vadim). La plateforme a réussi à attirer rapidement des utilisateurs en [récompensant](https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833) les founisseurs de liquidités (*makers*) par des « remises » (original: "rebates") créditées lorsqu'un échange a lieu. En mai 2012, BitFloor a également commencé à [accepter](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) les dépôts en espèces, fonctionnalité très attractive comme nous l'avons expliqué.
+
+![Roman Shtylman en février 2012](assets/en/roman-shtylman-bitfloor-20120223-bitcoin-show.webp)
+
+Roman Shtylman en février 2012 (source : [Bitcoin Show](https://www.youtube.com/watch?v=F7SsavHX6tc) sur Youtube)
+
+À la fin de l'été 2012, BitFloor représente une plateforme montante : il [s'agit](https://web.archive.org/web/20120902173725/https://bitcoincharts.com/markets/) de la quatrième plateforme en ce qui concerne le volume d'échange avec le dollar, derrière Mt. Gox, Bitstamp et BTC-e. En août, un membre de Bitcointalk [prédit](https://bitcointalk.org/index.php?topic=93655.msg1073739#msg1073739) qu'à terme, Bitfloor « occupera la deuxième place » (original: "bitfloor will have the #2 spot in BTC trade volume"), en ajoutant que « les plateformes de change classées en deuxième position ont un bilan désastreux » (original: "exchanges at #2 have a terrible track record").
+
+Dans la nuit du 3 au 4 septembre 2012, un piratage [accède](https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) à quelques-uns des serveur de Bitfloor et met la main sur une sauvegarde non chiffrée des clés du portefeuille. La grande majorité des bitcoins de la plateforme sont retirés : un peu plus de 24 000 BTC, soit environ 250 000 $ à ce moment-là. L'activité d'échange est suspendue en conséquence.
+
+Le 21 septembre, Bitfloor rouvre ses portes.
+
+"back in business" https://bitcoinmagazine.com/markets/bitfloor-back-in-business-1348315019 https://web.archive.org/web/20141014070427/https://plus.google.com/109620439233076225324/posts/bLJRDHApjSP
+
+Néanmoins, la plateforme fermera définitivement en 2013, sans avoir remboursé l'intégralité de ses clients ?
 
 19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
 
 ### Le déclin du Far West
 
-"This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin’s community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)
+"This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin's community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)
 
 La tendance ne s'est pas arrêtée et a poursuivi sur sa lancée en 2013, pour culminer en février 2014 avec la faillite de Mt. Gox. Cela a poussé les plateformes a améliorer leur sécurité. Ce qui n'a pas empêcher d'autres piratages de se produire.
 

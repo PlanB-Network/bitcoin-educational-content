@@ -249,32 +249,32 @@ proofreading:
 
 Siin on kohustuslikud väljad:
 
-- **id** : UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
+- **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id** : Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-- **tags** : 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Õpetuse raskusaste, valitud järgmistest tasemetest:
+- **level**: Õpetuse raskusaste, valitud järgmistest tasemetest:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Õpetuse algne keel (näiteks `fr`, `en`, jne);
+- **original_language**: Õpetuse algne keel (näiteks `fr`, `en`, jne);
 
-- **proofreading** : Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
-    - **language** : Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
-    - **last_contribution_date** : Käesoleva päeva kuupäev.
-    - **urgency** : 1
-    - **contributor_names** : Teie GitHub ID.
-    - **reward** : 0
+- **proofreading**: Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
+    - **language**: Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
+    - **last_contribution_date**: Käesoleva päeva kuupäev.
+    - **urgency**: 1
+    - **contributor_names**: Teie GitHub ID.
+    - **reward**: 0
 
-Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
+Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 

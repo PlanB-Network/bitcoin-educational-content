@@ -158,7 +158,7 @@ Pilih jumlah, pilih mata uang kripto yang ingin Anda dapatkan, lalu konfirmasika
 Untuk transaksi ini, Anda dapat memilih di antara berbagai jenis order: *Market*, *Limit*, atau *Stop-Loss*:
 
 
-- Pasar* : Memungkinkan pembelian langsung dengan harga pasar saat ini;
+- Pasar*: Memungkinkan pembelian langsung dengan harga pasar saat ini;
 - Limit*: Memungkinkan Anda untuk menentukan harga pembelian, dan order hanya akan dieksekusi jika harga pasar mencapai jumlah ini;
 - Stop-Loss*: Menjual secara otomatis ketika harga mencapai ambang batas tertentu.
 

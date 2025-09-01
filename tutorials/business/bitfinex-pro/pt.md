@@ -24,11 +24,11 @@ Preencha as informações necessárias: introduza o seu endereço de correio ele
 
 ![BITFINEX](assets/fr/02.webp)
 
-Para obter dicas sobre como utilizar e proteger palavras-passe fortes e únicas, consulte também este tutorial :
+Para obter dicas sobre como utilizar e proteger palavras-passe fortes e únicas, consulte também este tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Vamos agora configurar o 2FA para proteger a conta. Utilize uma aplicação de autenticação no seu smartphone, como o Google Authenticator ou o Authy, por exemplo. Encontrará um tutorial sobre esta ferramenta aqui :
+Vamos agora configurar o 2FA para proteger a conta. Utilize uma aplicação de autenticação no seu smartphone, como o Google Authenticator ou o Authy, por exemplo. Encontrará um tutorial sobre esta ferramenta aqui:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ Em "*Account Type*" (Tipo de conta), selecione "*Corporate*" (Empresa). No meu c
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completar as etapas fornecendo :
+Completar as etapas fornecendo:
 
 
 - Informações sobre a empresa (nome da empresa, dados de contacto, sector de atividade, etc.) ;
@@ -77,7 +77,7 @@ Uma vez preenchida e submetida a sua candidatura, pode demorar vários dias até
 
 ## 3 - Introdução rápida à interface Bitfinex
 
-Depois de iniciar sessão, verá uma barra de navegação na parte superior da interface com: "*Trading*", "*Derivativos*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. A Bitfinex oferece uma vasta gama de funcionalidades, incluindo :
+Depois de iniciar sessão, verá uma barra de navegação na parte superior da interface com: "*Trading*", "*Derivativos*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. A Bitfinex oferece uma vasta gama de funcionalidades, incluindo:
 
 
 - Negociação**: mercado "*clássico*" onde pode colocar ordens de compra e venda de criptomoedas (incluindo bitcoin) ;

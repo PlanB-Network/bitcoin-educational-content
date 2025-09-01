@@ -442,7 +442,6 @@ Bitcoin tagab usaldusväärse rahanduse juhtimise, piirates selle loomist, mis m
 
 Kokkuvõttes pakub Bitcoin oma detsentraliseeritud olemuse, programmeeritud nappuse ja läbipaistvusega ainulaadset alternatiivi traditsioonilistele rahasüsteemidele. See näitab, kuidas tehnoloogiat saab kasutada sellise valuuta loomiseks, mis ei ole mitte ainult kasulik ja kontrollitav, vaid säilitab ka kasutajate säästude väärtuse, piirates rangelt nende pakkumist.
 
-### Lõike 1 kokkuvõte!
 
 # Bitcoin rahakotid
 
@@ -694,7 +693,7 @@ See algatus ei tekitanud kohe entusiasmi, ilmselt seetõttu, et varasemad katsed
 
 > "Me võime võita suure lahingu relvajõududes ja saada
 > uus vabaduse territoorium mitu aastat." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Bitcoini protokoll ärkab ellu
 
@@ -708,7 +707,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 
 **Teadsite?** 22. mail 2010 tegi Laszlo Hanyecz ajalugu, pakkudes 10 000 BTC eest kaks pitsat: see oli esimene kord, kui Bitcoini kasutati füüsiliste kaupade ostmiseks.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamoto kadumine
 

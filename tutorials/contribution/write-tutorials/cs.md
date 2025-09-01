@@ -87,11 +87,11 @@ Chcete-li přispět do sítě Plan ₿, máte tři možnosti v závislosti na ú
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Středně pokročilý (GitHub Desktop)** : Pokud nejste obeznámeni s používáním systému Git, první možností je snadné nastavení vlastního místního prostředí pro přispívání do sítě Plan ₿. Tento přístup se doporučuje pro významné příspěvky, jako je například napsání celého výukového programu. Chcete-li tak učinit, postupujte podle níže uvedeného návodu krok za krokem :
+- Středně pokročilý (GitHub Desktop)**: Pokud nejste obeznámeni s používáním systému Git, první možností je snadné nastavení vlastního místního prostředí pro přispívání do sítě Plan ₿. Tento přístup se doporučuje pro významné příspěvky, jako je například napsání celého výukového programu. Chcete-li tak učinit, postupujte podle níže uvedeného návodu krok za krokem:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Začátečníci (webové rozhraní)** : Můžete se také rozhodnout používat webové rozhraní GitHubu přímo, aniž byste museli nastavovat kompletní místní prostředí. Tuto metodu lze zvážit pro drobné příspěvky. U větších příspěvků, jako je například přidání kompletního nového výukového programu, se však tato možnost může ukázat jako složitější než nastavení místního prostředí. Jak to udělat, vysvětlím v tomto návodu:
+- Začátečníci (webové rozhraní)**: Můžete se také rozhodnout používat webové rozhraní GitHubu přímo, aniž byste museli nastavovat kompletní místní prostředí. Tuto metodu lze zvážit pro drobné příspěvky. U větších příspěvků, jako je například přidání kompletního nového výukového programu, se však tato možnost může ukázat jako složitější než nastavení místního prostředí. Jak to udělat, vysvětlím v tomto návodu:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

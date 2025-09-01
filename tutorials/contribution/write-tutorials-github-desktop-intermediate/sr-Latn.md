@@ -340,23 +340,23 @@ Evo potrebna polja:
 
 
 
-- id** : A UUID (_Universally Unique Identifier_) koji jedinstveno identifikuje tutorijal. Možete ga generate koristiti [online alat](https://www.uuidgenerator.net/version4). Jedini zahtev je da ovaj UUID bude nasumičan kako bi se izbegli konflikti sa drugim UUID-om na platformi;
+- id**: A UUID (_Universally Unique Identifier_) koji jedinstveno identifikuje tutorijal. Možete ga generate koristiti [online alat](https://www.uuidgenerator.net/version4). Jedini zahtev je da ovaj UUID bude nasumičan kako bi se izbegli konflikti sa drugim UUID-om na platformi;
 
 
 
-- project_id** : UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
+- project_id**: UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
 
 
 
-- tagovi** : 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategorija** : Podkategorija koja odgovara sadržaju tutorijala, prema strukturi vebsajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
+- kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi vebsajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- nivo** : Nivo težine tutorijala, izabran iz:
+- nivo**: Nivo težine tutorijala, izabran iz:
     - `početnik`
     - `srednji`
     - `napredno`
@@ -364,23 +364,23 @@ Evo potrebna polja:
 
 
 
-- professor_id** : Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Originalni jezik tutorijala (npr. `fr`, `en`, itd.);
+- original_language**: Originalni jezik tutorijala (npr. `fr`, `en`, itd.);
 
 
 
-- lektura** : Informacije o procesu lekture. Završite prvi deo, jer lektura sopstvenog tutorijala se računa kao prva validacija:
-    - jezik** : Jezički kod za lekturu (npr., `fr`, `en`, itd.).
-    - last_contribution_date** : Datum dana.
-    - hitnost** : 1
-    - contributor_names** : Vaš GitHub ID.
-    - nagrada** : 0
+- lektura**: Informacije o procesu lekture. Završite prvi deo, jer lektura sopstvenog tutorijala se računa kao prva validacija:
+    - jezik**: Jezički kod za lekturu (npr., `fr`, `en`, itd.).
+    - last_contribution_date**: Datum dana.
+    - hitnost**: 1
+    - contributor_names**: Vaš GitHub ID.
+    - nagrada**: 0
 
 
-Za više detalja o vašem ID-u nastavnika, pogledajte odgovarajući vodič :
+Za više detalja o vašem ID-u nastavnika, pogledajte odgovarajući vodič:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4

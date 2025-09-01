@@ -100,7 +100,7 @@ Mullvad brauseri väljatöötamisel on silmas peetud ühte peamist eesmärki: **
 
 
 
-Mullvad Browser sisaldab mitmeid **turbe- ja privaatsusfunktsioone**, mis on otseselt inspireeritud Tor Browserist :
+Mullvad Browser sisaldab mitmeid **turbe- ja privaatsusfunktsioone**, mis on otseselt inspireeritud Tor Browserist:
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser sisaldab **kolme eelinstalleeritud laiendust**, mis moodustavad 
 ### **uBlock Origin**
 
 
-See reklaami- ja jälgimisblokeerija laiendus on eelnevalt konfigureeritud **optimeeritud filtrite nimekirjadega**, et blokeerida :
+See reklaami- ja jälgimisblokeerija laiendus on eelnevalt konfigureeritud **optimeeritud filtrite nimekirjadega**, et blokeerida:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin Mullvad Browseris kasutab standardiseeritud parameetreid, et tagad
 ### **NoScript**
 
 
-NoScript töötab taustal, et hallata brauseri **turvalisuse taset**. See :
+NoScript töötab taustal, et hallata brauseri **turvalisuse taset**. See:
 
 
 
@@ -328,7 +328,7 @@ Klõpsake oma operatsioonisüsteemile vastaval nupul **"Download "**.
 
 
 
-Linuxi puhul saate valida erinevate vormingute vahel sõltuvalt teie distributsioonist. Kui allalaadimine on lõpetatud :
+Linuxi puhul saate valida erinevate vormingute vahel sõltuvalt teie distributsioonist. Kui allalaadimine on lõpetatud:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser pakub kolme turvataset:
 
 
 
-- Normaalne** (praegune vaikimisi tase) : Kõik brauseri ja veebisaidi funktsioonid on lubatud
+- Normaalne** (praegune vaikimisi tase): Kõik brauseri ja veebisaidi funktsioonid on lubatud
 
 
 
@@ -489,7 +489,7 @@ Kui otsustate siiski laiendusi paigaldada, olge teadlik, et loote unikaalse sõr
 
 
 
-4. **Valige oma vajadustele kõige paremini vastav turvatase** :
+4. **Valige oma vajadustele kõige paremini vastav turvatase**:
 
 
 

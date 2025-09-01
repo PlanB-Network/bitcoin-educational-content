@@ -223,7 +223,7 @@ Ikiwa diski ni tupu, Fedora itatumia kiotomati nafasi zote zinazopatikana. Vingi
 
 
 
-- Usimbaji fiche :
+- Usimbaji fiche:
 
 
 
@@ -415,7 +415,7 @@ Baada ya usakinishaji, ni muhimu kusasisha Fedora ili kuchukua fursa ya viraka v
 
 
 
-- Fungua terminal na anza kwa kusasisha **hazina** ili kuhakikisha kuwa una matoleo mapya zaidi ya :
+- Fungua terminal na anza kwa kusasisha **hazina** ili kuhakikisha kuwa una matoleo mapya zaidi ya:
 
 
 

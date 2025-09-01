@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-La risposta indica chiaramente che il pacchetto "nmap" esiste nei repository (qui, quelli di Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). D'ora in poi, potrete installare Nmap tramite i soliti comandi di installazione, niente di disarmante per il momento 🙂 :
+La risposta indica chiaramente che il pacchetto "nmap" esiste nei repository (qui, quelli di Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). D'ora in poi, potrete installare Nmap tramite i soliti comandi di installazione, niente di disarmante per il momento 🙂:
 
 
 
@@ -389,7 +389,7 @@ Per installarlo su un sistema operativo Windows, iniziate scaricando il binario 
 
 
 
-È quindi necessario scaricare il file binario denominato `nmap-<VERSION>-setup.exe` :
+È quindi necessario scaricare il file binario denominato `nmap-<VERSION>-setup.exe`:
 
 
 
@@ -562,13 +562,13 @@ D'ora in poi, ricordatevi di scansionare solo gli host in un ambiente controllat
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Piattaforma di addestramento all'hacking, Hack The Box mette costantemente a disposizione sistemi vulnerabili da attaccare come meglio credete. Sono disponibili diverse centinaia di sistemi, ma un pool rinnovato di 20 macchine è offerto gratuitamente tutto l'anno, con accesso tramite una VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Piattaforma di addestramento all'hacking, Hack The Box mette costantemente a disposizione sistemi vulnerabili da attaccare come meglio credete. Sono disponibili diverse centinaia di sistemi, ma un pool rinnovato di 20 macchine è offerto gratuitamente tutto l'anno, con accesso tramite una VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Questa piattaforma offre numerosi sistemi intenzionalmente vulnerabili da scaricare, che possono essere utilizzati tramite VirtualBox (anch'essa una soluzione gratuita) o altri mezzi. Una volta scaricati, non c'è bisogno di una VPN: tutto è locale.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Questa piattaforma offre numerosi sistemi intenzionalmente vulnerabili da scaricare, che possono essere utilizzati tramite VirtualBox (anch'essa una soluzione gratuita) o altri mezzi. Una volta scaricati, non c'è bisogno di una VPN: tutto è locale.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Infine, Nmap ci informa che 998 porte TCP identificate come chiuse non vengono visualizzate nel file :
+Infine, Nmap ci informa che 998 porte TCP identificate come chiuse non vengono visualizzate nel file:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-In questo modo si risparmiano quasi 1.000 righe di output che assomigliano a :
+In questo modo si risparmiano quasi 1.000 righe di output che assomigliano a:
 
 
 
@@ -913,7 +913,7 @@ estratto da RFC 1122._
 
 
 
-Diamo un'occhiata più da vicino a questa acquisizione di Wireshark, che mostra **i tre possibili scenari** in UDP :
+Diamo un'occhiata più da vicino a questa acquisizione di Wireshark, che mostra **i tre possibili scenari** in UDP:
 
 
 
@@ -1064,7 +1064,7 @@ Indipendentemente dall'ordine, Nmap controllerà tutte queste porte e solo quell
 
 
 
-Se il numero di porte da scansionare è troppo grande, è possibile specificarle per intervallo, ad esempio :
+Se il numero di porte da scansionare è troppo grande, è possibile specificarle per intervallo, ad esempio:
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-È anche possibile, come per le porte nella sezione precedente, specificare più host, più reti o un intervallo :
+È anche possibile, come per le porte nella sezione precedente, specificare più host, più reti o un intervallo:
 
 
 
@@ -1437,7 +1437,7 @@ Per dettagliare le opzioni del nostro ultimo ordine:
 
 
 
-- "`-PP` : abilita l'eco ICMP (ping scan) per la scoperta degli host.
+- "`-PP`: abilita l'eco ICMP (ping scan) per la scoperta degli host.
 
 
 
@@ -1547,7 +1547,7 @@ Esempi frequenti di tali esigenze si hanno quando un'azienda possiede apparecchi
 
 
 
-Per escludere indirizzi IP o reti dalla nostra scansione, possiamo usare l'opzione "--exclude" di Nmap, ad esempio :
+Per escludere indirizzi IP o reti dalla nostra scansione, possiamo usare l'opzione "--exclude" di Nmap, ad esempio:
 
 
 
@@ -2012,7 +2012,7 @@ Per raggiungere questo obiettivo, Nmap si affida agli script NSE (_Nmap Scriptin
 
 
 
-Con le giuste opzioni, chiederemo a Nmap di utilizzare i suoi vari script NSE su ogni servizio scoperto, permettendoci di scoprire :
+Con le giuste opzioni, chiederemo a Nmap di utilizzare i suoi vari script NSE su ogni servizio scoperto, permettendoci di scoprire:
 
 
 
@@ -2240,20 +2240,20 @@ Gli script sono organizzati per categoria e uno stesso script può appartenere a
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Tecnicamente, le categorie a cui appartiene uno script sono indicate direttamente nel suo codice.
@@ -2300,7 +2300,7 @@ elenco degli script NSE Nmap con nomi che iniziano con `ftp-`._
 
 
 
-Nmap non offre un'opzione per sfogliare ed elencare gli script NSE; si può usare il comando `-script-help` seguito dal nome di una categoria o da una parola :
+Nmap non offre un'opzione per sfogliare ed elencare gli script NSE; si può usare il comando `-script-help` seguito dal nome di una categoria o da una parola:
 
 
 
@@ -3669,7 +3669,7 @@ sniffing di rete durante una scansione TCP Connect per una porta aperta
 
 
 
-Possiamo vedere che il primo pacchetto TCP inviato è un `TCP SYN` inviato dal client, e il server risponderà con un `TCP SYN/ACK`, indicando che la porta è aperta e ospita un servizio attivo. Per simulare un client legittimo, Nmap invia un `TCP ACK` al server. Al contrario, quando si scansiona una porta chiusa :
+Possiamo vedere che il primo pacchetto TCP inviato è un `TCP SYN` inviato dal client, e il server risponderà con un `TCP SYN/ACK`, indicando che la porta è aperta e ospita un servizio attivo. Per simulare un client legittimo, Nmap invia un `TCP ACK` al server. Al contrario, quando si scansiona una porta chiusa:
 
 
 
@@ -3928,7 +3928,7 @@ acquisizione della rete durante una scansione TCP Null per una porta aperta
 
 
 
-La macchina di scansione invia un pacchetto senza flag (`[<None>]` in Wireshark) senza alcuna risposta dal server. Al contrario, quando la porta di destinazione è chiusa :
+La macchina di scansione invia un pacchetto senza flag (`[<None>]` in Wireshark) senza alcuna risposta dal server. Al contrario, quando la porta di destinazione è chiusa:
 
 
 

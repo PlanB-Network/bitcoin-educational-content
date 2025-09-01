@@ -38,7 +38,7 @@ Skener **Angry IP** je méně komplexní než Nmap, přesto je zajímavý pro ry
 
 
 
-Pokud chcete pokračovat, podívejte se na výukový program Nmap :
+Pokud chcete pokračovat, podívejte se na výukový program Nmap:
 
 
 

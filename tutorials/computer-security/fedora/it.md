@@ -34,7 +34,7 @@ Fedora include anche un ambiente desktop, che è il Interface attraverso il qual
 
 
 
-Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in particolare per :
+Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in particolare per:
 
 
 
@@ -66,7 +66,7 @@ Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in pa
 
 
 
-A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle vostre esigenze. Si trovano principalmente le edizioni :
+A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle vostre esigenze. Si trovano principalmente le edizioni:
 
 
 
@@ -205,7 +205,7 @@ Il primo passo è quello di selezionare la **lingua di installazione** e il **di
 
 
 
-- Selezione del disco di installazione :
+- Selezione del disco di installazione:
 
 
 
@@ -223,7 +223,7 @@ Se il disco è vuoto, Fedora utilizzerà automaticamente tutto lo spazio disponi
 
 
 
-- Crittografia :
+- Crittografia:
 
 
 
@@ -415,7 +415,7 @@ Una volta installati gli aggiornamenti, potrebbe essere necessario un **riavvio*
 
 
 
-- Aprite un terminale e iniziate ad aggiornare i **repository** per assicurarvi di avere le ultime versioni di :
+- Aprite un terminale e iniziate ad aggiornare i **repository** per assicurarvi di avere le ultime versioni di:
 
 
 

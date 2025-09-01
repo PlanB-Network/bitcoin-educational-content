@@ -119,19 +119,19 @@ För att bidra till Plan ₿ Network har du 3 alternativ beroende på din erfare
 
 
 
-- Erfarna användare**: Fortsätt med dina vanliga metoder och konsultera helt enkelt den korta handledningen nedan som sammanfattar Plan ₿ Network-arkivets filstruktur, specifika krav och arbetsmetod :
+- Erfarna användare**: Fortsätt med dina vanliga metoder och konsultera helt enkelt den korta handledningen nedan som sammanfattar Plan ₿ Network-arkivets filstruktur, specifika krav och arbetsmetod:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Mellanliggande (GitHub Desktop)** : Om du inte är bekant med att använda Git är det första alternativet att enkelt ställa in din egen lokala miljö för att bidra till Plan ₿ Network. Detta tillvägagångssätt rekommenderas för betydande bidrag, till exempel att skriva en fullständig handledning. För att göra detta, följ steg-för-steg-handledningen nedan :
+- Mellanliggande (GitHub Desktop)**: Om du inte är bekant med att använda Git är det första alternativet att enkelt ställa in din egen lokala miljö för att bidra till Plan ₿ Network. Detta tillvägagångssätt rekommenderas för betydande bidrag, till exempel att skriva en fullständig handledning. För att göra detta, följ steg-för-steg-handledningen nedan:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Nybörjare (webb-Interface)** : Du kan också välja att använda GitHubs webb-Interface direkt, utan att behöva sätta upp en komplett lokal miljö. Den här metoden kan övervägas för mindre bidrag. Men för större bidrag, som att lägga till en helt ny handledning, kan det här alternativet visa sig vara mer komplext än att sätta upp en lokal miljö. Jag kommer att förklara hur man gör detta i denna handledning:
+- Nybörjare (webb-Interface)**: Du kan också välja att använda GitHubs webb-Interface direkt, utan att behöva sätta upp en komplett lokal miljö. Den här metoden kan övervägas för mindre bidrag. Men för större bidrag, som att lägga till en helt ny handledning, kan det här alternativet visa sig vara mer komplext än att sätta upp en lokal miljö. Jag kommer att förklara hur man gör detta i denna handledning:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

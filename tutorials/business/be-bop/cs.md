@@ -15,7 +15,7 @@ description: Praktický průvodce zpeněžením vašeho podnikání pomocí be-B
 
 
 
-V tomto návodu vás krok za krokem provedeme :
+V tomto návodu vás krok za krokem provedeme:
 
 
 
@@ -44,7 +44,7 @@ Než začnete instalovat be-BOP, ujistěte se, že máte k dispozici následují
 
 
 
-be-BOP používá ke správě souborů (například obrázků produktů) systém ukládání. To vyžaduje přístup ke službě S3, například :
+be-BOP používá ke správě souborů (například obrázků produktů) systém ukládání. To vyžaduje přístup ke službě S3, například:
 
 
 
@@ -302,7 +302,7 @@ Pokud nechcete spravovat uzel Lightning sami, **Swiss Bitcoin Pay** je řešení
 
 
 
-Kroky konfigurace :
+Kroky konfigurace:
 
 
 
@@ -330,7 +330,7 @@ Kromě služby Bitcoin umožňuje be-BOP přijímat platby v hotovosti také pro
 
 
 
-Kroky konfigurace :
+Kroky konfigurace:
 
 
 
@@ -467,7 +467,7 @@ Konfigurace **Top Bar** umožňuje přizpůsobit vizuální identitu softwaru zo
 
 
 
-#### Kroky konfigurace :
+#### Kroky konfigurace:
 
 
 
@@ -491,7 +491,7 @@ Sekce `Odkazy` na horním panelu umožňuje přidávat zkratky na důležité st
 
 
 
-#### Kroky konfigurace :
+#### Kroky konfigurace:
 
 
 
@@ -760,7 +760,7 @@ Chcete-li přidat nebo upravit produkt, přejděte na `Admin > Merch > Products`
 
 - Cena**: cena produktu (např. `25,00`).
 - Cena Měna**: měna (EUR, USD, BTC atd.).
-- Speciální produkty** :
+- Speciální produkty**:
   - jedná se o bezplatný produkt.
   - jedná se o produkt, za který se platí.
 
@@ -773,10 +773,10 @@ Chcete-li přidat nebo upravit produkt, přejděte na `Admin > Merch > Products`
 
 
 - Jednotlivý produkt (`samostatný`)**: v jedné objednávce je možné přidat pouze jeden produkt (např. dar, vstupenku).
-- Výrobek s variantami** :
+- Výrobek s variantami**:
   - Nezkoušejte `Standalone`.
   - Zaškrtněte políčko `Výrobek má lehké odchylky (bez rozdílu skladových zásob)`.
-  - Přidat :
+  - Přidat:
     - Název** (např. *Velikost*),
     - Hodnoty** (např.: S, M, L, XL),
     - Případné cenové rozdíly** (např.: `+2 USD` za XL).
@@ -803,7 +803,7 @@ Pokud váš produkt není k dispozici v neomezeném množství, zaškrtněte pol
 
 
 
-Systém spravuje :
+Systém spravuje:
 
 
 
@@ -872,7 +872,7 @@ Přejděte na `Admin > Merch > CMS`. Zobrazí se seznam existujících stránek 
 
 
 
-Stránky CMS jsou důležité pro :
+Stránky CMS jsou důležité pro:
 
 
 
@@ -906,7 +906,7 @@ Podle potřeby můžete přidat další stránky:
 
 
 
-Přejít na : `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální stránku Elements:
+Přejít na: `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální stránku Elements:
 
 
 
@@ -932,7 +932,7 @@ Přejít na : `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální str
 
 
 - V šedé oblasti pod horní lištou
-- Obsahuje rychlý přístup k : `Konfigurace`, `Nastavení plateb`, `Transakce`, `Správa uzlů`, `Widgety` atd.
+- Obsahuje rychlý přístup k: `Konfigurace`, `Nastavení plateb`, `Transakce`, `Správa uzlů`, `Widgety` atd.
 - Pouze ředitelé
 
 
@@ -956,7 +956,7 @@ Přejít na: `Admin > Merch > Pictures`
 
 
 
-Můžete :
+Můžete:
 
 
 
@@ -1004,7 +1004,7 @@ Příklady dostupných widgetů:
 - Výzvy**: výzvy nebo mise
 - Štítky**: kategorie nebo klíčová slova
 - Posuvníky**: karusely obrázků
-- Specifikace** : Tabulky specifikací
+- Specifikace**: Tabulky specifikací
 - Formuláře**: formuláře (kontakt, zpětná vazba atd.)
 - Odpočítávání**: časovače
 - Galerie**: galerie obrázků
@@ -1033,7 +1033,7 @@ V obsahu stránek CMS používejte **šortkové kódy**:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuální parametry** :
+**Aktuální parametry**:
 
 
 
@@ -1046,7 +1046,7 @@ V obsahu stránek CMS používejte **šortkové kódy**:
 
 
 
-**Výhody** :
+**Výhody**:
 
 
 
@@ -1103,7 +1103,7 @@ Tyto filtry usnadňují rychlé vyhledávání a cílenou správu.
 
 
 
-Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujícímu :
+Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujícímu:
 
 
 
@@ -1120,7 +1120,7 @@ Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujíc
 
 
 
-Můžete :
+Můžete:
 
 
 
@@ -1141,7 +1141,7 @@ Můžete :
 
 
 
-Přístup ke statistikám prodeje a plateb :
+Přístup ke statistikám prodeje a plateb:
 
 
 správce > Nastavení > Hlášení
@@ -1176,7 +1176,7 @@ Zprávy jsou rozděleny do oddílů:
 
 
 
-Každá sekce obsahuje tlačítko **Export CSV**, které umožňuje :
+Každá sekce obsahuje tlačítko **Export CSV**, které umožňuje:
 
 
 
@@ -1217,7 +1217,7 @@ Platforma podporuje protokol **Nostr** pro některé pokročilé funkce:
 
 
 
-Přejít na :
+Přejít na:
 
 
 admin > Správa uzlů > Nostr
@@ -1304,7 +1304,7 @@ Zde najdete všechny možnosti pro **vytvoření** a **konfiguraci** vlastního 
 
 
 
-Při vytváření nebo úpravě motivu můžete definovat :
+Při vytváření nebo úpravě motivu můžete definovat:
 
 
 
@@ -1328,7 +1328,7 @@ Každou část webu lze upravit samostatně:
 
 - Záhlaví**: horní navigační panel
 - Tělo**: hlavní obsah
-- Zápatí** : spodní část stránky
+- Zápatí**: spodní část stránky
 
 
 
@@ -1340,7 +1340,7 @@ Každou část webu lze upravit samostatně:
 
 
 
-Jakmile je téma nakonfigurováno :
+Jakmile je téma nakonfigurováno:
 
 
 
@@ -1371,7 +1371,7 @@ Platforma umožňuje přizpůsobit e-maily automaticky zasílané uživatelům. 
 
 
 
-Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má :
+Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má:
 
 
 
@@ -1390,14 +1390,14 @@ Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má :
 
 
 
-Chcete-li, aby e-maily byly dynamické, vložte proměnné, například :
+Chcete-li, aby e-maily byly dynamické, vložte proměnné, například:
 
 
 
 
 
-- `{orderNumber}}` : nahrazeno skutečným číslem objednávky
-- `{invoiceLink}}` : odkaz na Invoice
+- `{orderNumber}}`: nahrazeno skutečným číslem objednávky
+- `{invoiceLink}}`: odkaz na Invoice
 - `{websiteLink}}`: URL vaší webové stránky
 
 
@@ -1454,7 +1454,7 @@ Vyplňte následující pole:
 
 
 
-#### Dostupné rodiny :
+#### Dostupné rodiny:
 
 
 
@@ -1489,7 +1489,7 @@ Tato pole lze použít k obohacení značky, jako by se jednalo o stránku s obs
 
 
 
-Tagy mohou být :
+Tagy mohou být:
 
 
 
@@ -1515,7 +1515,7 @@ Nabídka dokumentů ke stažení pro vaše zákazníky: `Admin > Merch > Files`
 1. Klikněte na **Nový soubor**
 
 
-2. Informovat :
+2. Informovat:
 
 
 
@@ -1533,7 +1533,7 @@ Nabídka dokumentů ke stažení pro vaše zákazníky: `Admin > Merch > Files`
 
 
 
-Tento odkaz pak lze vložit do :
+Tento odkaz pak lze vložit do:
 
 
 
@@ -1557,7 +1557,7 @@ Platforma nabízí pokročilou integraci s protokolem **Nostr** prostřednictví
 
 
 
-Přejděte na : Správa uzlů > Nostr
+Přejděte na: Správa uzlů > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Přejděte na : Správa uzlů > Nostr
 
 
 - Aktivace automatické zprávy při **první interakci uživatele**
-- Ideální pro :
+- Ideální pro:
   - Představení služby
   - Odeslání užitečného odkazu (např. FAQ, kontakt, objednávka)
 
@@ -1629,7 +1629,7 @@ Chcete-li tak učinit, přejděte na: `Nastavení > Jazyk`
 
 
 
-Překladové soubory jsou ve formátu JSON. Můžete :
+Překladové soubory jsou ve formátu JSON. Můžete:
 
 
 
@@ -1641,7 +1641,7 @@ Překladové soubory jsou ve formátu JSON. Můžete :
 
 
 
-Odkaz na původní soubory :
+Odkaz na původní soubory:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Kliknutím na **Vytvořit roli** vytvoříte roli (např. `Super Admin`, `POS`, 
 
 
 
-Každá role obsahuje :
+Každá role obsahuje:
 
 
 
@@ -1688,7 +1688,7 @@ Každá role obsahuje :
 
 
 
-Ve stejné nabídce `Admin > Nastavení > ARM` přidejte uživatele s :
+Ve stejné nabídce `Admin > Nastavení > ARM` přidejte uživatele s:
 
 
 
@@ -1760,7 +1760,7 @@ V poli `/cart` můžete přidat produkt:
 
 
 
-POS podporuje :
+POS podporuje:
 
 
 
@@ -1779,7 +1779,7 @@ K dispozici jsou dvě pokročilé možnosti:
 
 
 
-- Osvobození od DPH** : platí pro zdůvodnění (nevládní organizace, cizinci...)
+- Osvobození od DPH**: platí pro zdůvodnění (nevládní organizace, cizinci...)
 - Dárková sleva**: mimořádná sleva s povinným komentářem
 
 

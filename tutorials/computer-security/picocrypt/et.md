@@ -74,11 +74,11 @@ Picocrypt** krüpteerimistarkvara on **alternatiiv** teistele tuntud lahendustel
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Allikas : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Allikas: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt on **väga kerge**, kaaludes vaid **3 MB**, ja seda ei ole vaja paigaldada: see on **kandjalik rakendus**, mille eeliseks on see, et see ei nõua administraatori õigusi! Siiski ei unusta see turvalisust, kuna tugineb **kindlatele ja usaldusväärsetele algoritmidele** :
+Picocrypt on **väga kerge**, kaaludes vaid **3 MB**, ja seda ei ole vaja paigaldada: see on **kandjalik rakendus**, mille eeliseks on see, et see ei nõua administraatori õigusi! Siiski ei unusta see turvalisust, kuna tugineb **kindlatele ja usaldusväärsetele algoritmidele**:
 
 
 

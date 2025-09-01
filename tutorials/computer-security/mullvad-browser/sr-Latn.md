@@ -100,7 +100,7 @@ Mullvad pregledač je dizajniran sa jednim glavnim ciljem: **zaštita privatnost
 
 
 
-Mullvad Browser uključuje niz **sigurnosnih i privatnih funkcija** direktno inspirisanih Tor Browser-om :
+Mullvad Browser uključuje niz **sigurnosnih i privatnih funkcija** direktno inspirisanih Tor Browser-om:
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser uključuje **tri unapred instalirana ekstenzije** koje čine sr�
 ### **uBlock Origin**
 
 
-Ovo proširenje za blokiranje oglasa i praćenja dolazi unapred konfigurisano sa **optimizovanim listama filtera** za blokiranje :
+Ovo proširenje za blokiranje oglasa i praćenja dolazi unapred konfigurisano sa **optimizovanim listama filtera** za blokiranje:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin u Mullvad Browser koristi standardizovane parametre kako bi osigur
 ### **NoScript**
 
 
-NoScript radi u pozadini kako bi upravljao **nivoima bezbednosti** pregledača. Ovo :
+NoScript radi u pozadini kako bi upravljao **nivoima bezbednosti** pregledača. Ovo:
 
 
 
@@ -328,7 +328,7 @@ Kliknite na dugme **"Download "** koje odgovara vašem operativnom sistemu.
 
 
 
-Za Linux, možete birati između različitih formata u zavisnosti od vaše distribucije. Kada se preuzimanje završi :
+Za Linux, možete birati između različitih formata u zavisnosti od vaše distribucije. Kada se preuzimanje završi:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser nudi tri nivoa sigurnosti:
 
 
 
-- Normalno** (trenutni podrazumevani nivo) : Sve funkcije pregledača i vebsajta su omogućene
+- Normalno** (trenutni podrazumevani nivo): Sve funkcije pregledača i vebsajta su omogućene
 
 
 
@@ -489,7 +489,7 @@ Ako ipak odlučite da instalirate ekstenzije, budite svesni da time kreirate jed
 
 
 
-4. **Izaberite nivo bezbednosti koji najbolje odgovara vašim potrebama** :
+4. **Izaberite nivo bezbednosti koji najbolje odgovara vašim potrebama**:
 
 
 

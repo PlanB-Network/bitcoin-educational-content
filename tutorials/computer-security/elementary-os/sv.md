@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Enkelhet och användarvänlighet** : Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
+- Enkelhet och användarvänlighet**: Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Gratis** : Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
+- Gratis**: Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
 
 
 
 
 
-- Aktiv gemenskap** : Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
+- Aktiv gemenskap**: Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
 
 
 

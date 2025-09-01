@@ -30,7 +30,7 @@ WireGuard jest stosunkowo nowym rozwiązaniem, dostępnym jako stabilne wydanie 
 
 
 
-Kilka kluczowych punktów dotyczących WireGuard :
+Kilka kluczowych punktów dotyczących WireGuard:
 
 
 
@@ -95,7 +95,7 @@ W tym przykładzie skupię się na następującym przypadku: **z mojego Windows 
 
 
 
-Pod względem adresów IP daje to :
+Pod względem adresów IP daje to:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Wartość klucza publicznego zostanie zwrócona w konsoli. W pliku konfiguracyjnym WireGuard musimy **dodać wartość naszego klucza prywatnego**. Aby pobrać tę wartość, wprowadź poniższe polecenie i skopiuj wartość :
+Wartość klucza publicznego zostanie zwrócona w konsoli. W pliku konfiguracyjnym WireGuard musimy **dodać wartość naszego klucza prywatnego**. Aby pobrać tę wartość, wprowadź poniższe polecenie i skopiuj wartość:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Na koniec musimy aktywować automatyczne uruchamianie naszego Interface wg0 WireGuard :
+Na koniec musimy aktywować automatyczne uruchamianie naszego Interface wg0 WireGuard:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Dodaj następującą dyrektywę na końcu pliku i zapisz :
+Dodaj następującą dyrektywę na końcu pliku i zapisz:
 
 
 
@@ -318,7 +318,7 @@ Aby nasz serwer mógł poprawnie kierować pakiety i aby zdalna sieć LAN była 
 
 
 
-Jeśli nie masz jeszcze UFW i chcesz go skonfigurować (możesz też użyć Nftables), zacznij od zainstalowania :
+Jeśli nie masz jeszcze UFW i chcesz go skonfigurować (możesz też użyć Nftables), zacznij od zainstalowania:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Zdjęcie przedstawia :
+Zdjęcie przedstawia:
 
 
 
@@ -490,7 +490,7 @@ Musimy uzupełnić tę konfigurację, w szczególności zadeklarować IP Address
 
 
 
-Zacznijmy od bloku `[Interface]`, dodając IP Address "**192.168.110.2**"; pamiętaj, że serwer ma IP Address "**192.168.110.121**" w tym segmencie sieci. Daje to :
+Zacznijmy od bloku `[Interface]`, dodając IP Address "**192.168.110.2**"; pamiętaj, że serwer ma IP Address "**192.168.110.121**" w tym segmencie sieci. Daje to:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Na zdjęciach :
+Na zdjęciach:
 
 
 
@@ -691,7 +691,7 @@ Przy obecnej konfiguracji część ruchu przepływa przez VPN, a reszta przez po
 
 
 
-Najpierw należy zainstalować pakiet "resolvconf" na serwerze :
+Najpierw należy zainstalować pakiet "resolvconf" na serwerze:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Zapisz plik, a następnie uruchom ponownie Interface :
+Zapisz plik, a następnie uruchom ponownie Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Wreszcie, w konfiguracji tunelu na stacji roboczej z systemem Windows 10 należy zmodyfikować sekcję "AllowedIPs", aby wskazać, że wszystko musi przechodzić przez tunel. Zastąp :
+Wreszcie, w konfiguracji tunelu na stacji roboczej z systemem Windows 10 należy zmodyfikować sekcję "AllowedIPs", aby wskazać, że wszystko musi przechodzić przez tunel. Zastąp:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Przez :
+Przez:
 
 
 
@@ -772,7 +772,7 @@ Konfiguracja WireGuard jest dość prosta i łatwa do zrozumienia, a przede wszy
 
 
 
-Dodatkowa dokumentacja :
+Dodatkowa dokumentacja:
 
 
 

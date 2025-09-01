@@ -74,7 +74,7 @@ Perangkat lunak enkripsi Picocrypt** menampilkan dirinya sebagai **alternatif** 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Sumber : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Sumber: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

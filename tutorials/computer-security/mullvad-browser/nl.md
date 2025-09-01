@@ -169,7 +169,7 @@ uBlock Origin in Mullvad Browser gebruikt gestandaardiseerde parameters om ervoo
 ### **NoScript**
 
 
-NoScript draait op de achtergrond om de **veiligheidsniveaus** van de browser te beheren. Deze :
+NoScript draait op de achtergrond om de **veiligheidsniveaus** van de browser te beheren. Deze:
 
 
 
@@ -328,7 +328,7 @@ Klik op de knop **"Downloaden"** die overeenkomt met je besturingssysteem.
 
 
 
-Voor Linux kun je kiezen uit verschillende formaten, afhankelijk van je distributie. Zodra de download is voltooid :
+Voor Linux kun je kiezen uit verschillende formaten, afhankelijk van je distributie. Zodra de download is voltooid:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser biedt drie beveiligingsniveaus:
 
 
 
-- Normaal** (huidig standaardniveau) : Alle browser- en websitefuncties ingeschakeld
+- Normaal** (huidig standaardniveau): Alle browser- en websitefuncties ingeschakeld
 
 
 
@@ -489,7 +489,7 @@ Als je er toch voor kiest om extensies te installeren, wees je er dan van bewust
 
 
 
-4. **Kies het beveiligingsniveau dat het beste bij uw behoeften past** :
+4. **Kies het beveiligingsniveau dat het beste bij uw behoeften past**:
 
 
 

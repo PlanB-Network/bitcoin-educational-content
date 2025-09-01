@@ -4,31 +4,31 @@ description: Komplett guide til Plan ₿ Nettverksopplæring med GitHub Web
 ---
 ![cover](assets/cover.webp)
 
-Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit :
+Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Du har allerede :
+Du har allerede:
 
 
 - Velg et tema for opplæringen din;
 - Kontaktet Plan ₿ Network-teamet via [Telegramgruppe] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Velg dine bidragsverktøy.
 
-I denne veiledningen skal vi se på hvordan du legger til opplæringen din i Plan ₿ Network ved hjelp av nettversjonen av GitHub. Hvis du allerede behersker Git, er det ikke sikkert at denne svært detaljerte opplæringen er nødvendig for deg. I stedet anbefaler jeg at du tar en titt på en av disse to andre veiledningene, der jeg beskriver retningslinjene som skal følges og trinnene for å gjøre endringer fra en lokal :
+I denne veiledningen skal vi se på hvordan du legger til opplæringen din i Plan ₿ Network ved hjelp av nettversjonen av GitHub. Hvis du allerede behersker Git, er det ikke sikkert at denne svært detaljerte opplæringen er nødvendig for deg. I stedet anbefaler jeg at du tar en titt på en av disse to andre veiledningene, der jeg beskriver retningslinjene som skal følges og trinnene for å gjøre endringer fra en lokal:
 
 
-- Erfarne brukere** :
+- Erfarne brukere**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Mellomnivå (GitHub Desktop)** :
+- Mellomnivå (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Forutsetninger
 
-Forutsetninger før du starter opplæringen :
+Forutsetninger før du starter opplæringen:
 
 
 - Har en [GitHub-konto] (https://github.com/signup);
@@ -48,7 +48,7 @@ Når alt er på plass og du har en gaffel av Plan ₿ Network-depotet, kan du be
 
 ## 1 - Opprett en ny filial
 
-Åpne nettleseren din og naviger til gaffelsiden din i Plan ₿ Network repository. Dette er gaffelen du har opprettet på GitHub. URL-adressen til gaffelen din skal se slik ut: `https://github.com/[ditt-brukernavn]/bitcoin-educational-content` :
+Åpne nettleseren din og naviger til gaffelsiden din i Plan ₿ Network repository. Dette er gaffelen du har opprettet på GitHub. URL-adressen til gaffelen din skal se slik ut: `https://github.com/[ditt-brukernavn]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -56,7 +56,7 @@ Sørg for at du er på hovedgrenen `dev`, og klikk deretter på "*Sync fork*"-kn
 
 ![GITHUB](assets/fr/02.webp)
 
-Klikk på `dev`-grenen, og gi arbeidsgrenen din et navn som tydelig gjenspeiler formålet, og bruk bindestreker for å skille ordene fra hverandre. Hvis vi for eksempel har som mål å skrive en veiledning om hvordan du bruker Green Wallet, kan grenen hete `tuto-green-wallet-loic`. Når du har skrevet inn et passende navn, klikker du på "*Opprett gren*" for å bekrefte opprettelsen av den nye grenen basert på `dev` :
+Klikk på `dev`-grenen, og gi arbeidsgrenen din et navn som tydelig gjenspeiler formålet, og bruk bindestreker for å skille ordene fra hverandre. Hvis vi for eksempel har som mål å skrive en veiledning om hvordan du bruker Green Wallet, kan grenen hete `tuto-green-wallet-loic`. Når du har skrevet inn et passende navn, klikker du på "*Opprett gren*" for å bekrefte opprettelsen av den nye grenen basert på `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
@@ -109,7 +109,7 @@ bitcoin-educational-content/
 
 ## 3 - Fyll inn YAML-filen
 
-La oss begynne med YAML-filen. I boksen for å opprette en ny fil skriver du inn `tutorial.yml` :
+La oss begynne med YAML-filen. I boksen for å opprette en ny fil skriver du inn `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
@@ -145,32 +145,32 @@ proofreading:
 
 Her er de obligatoriske feltene:
 
-- **id** : En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
+- **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id** : UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags** : 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Vanskelighetsnivået for veiledningen, valgt blant:
+- **level**: Vanskelighetsnivået for veiledningen, valgt blant:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
+- **original_language**: Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
 
-- **proofreading** : Informasjon om korrekturprosessen. Fullfør den første delen, da korrekturlesing av din egen veiledning regnes som en første validering:
-    - **language** : Språkkoden for korrekturlesing (f.eks. `fr`, `en`, etc.).
-    - **last_contribution_date** : Dagens dato.
-    - **urgency** : 1
-    - **contributor_names** : Din GitHub-ID.
-    - **reward** : 0
+- **proofreading**: Informasjon om korrekturprosessen. Fullfør den første delen, da korrekturlesing av din egen veiledning regnes som en første validering:
+    - **language**: Språkkoden for korrekturlesing (f.eks. `fr`, `en`, etc.).
+    - **last_contribution_date**: Dagens dato.
+    - **urgency**: 1
+    - **contributor_names**: Din GitHub-ID.
+    - **reward**: 0
 
-For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
+For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -234,7 +234,7 @@ Sjekk igjen at du er på riktig gren, og klikk deretter på "*Commit changes*".
 
 ## 5 - Opprettelse av Markdown-filen
 
-Nå skal vi opprette filen som skal være vert for opplæringen din, og navngi den i henhold til språkkoden din, for eksempel `fr.md` hvis vi skriver på fransk. Gå til opplæringsmappen din :
+Nå skal vi opprette filen som skal være vert for opplæringen din, og navngi den i henhold til språkkoden din, for eksempel `fr.md` hvis vi skriver på fransk. Gå til opplæringsmappen din:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -261,7 +261,7 @@ Skriv inn navnet på opplæringen og en kort beskrivelse:
 
 ![GITHUB](assets/fr/20.webp)
 
-Legg deretter til banen til forsidebildet i begynnelsen av opplæringen. Dette gjør du ved å notere :
+Legg deretter til banen til forsidebildet i begynnelsen av opplæringen. Dette gjør du ved å notere:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -299,7 +299,7 @@ Du bør nå se at bildene vises i mappen.
 
 ## 7 - Skrive veiledningen
 
-Fortsett å skrive opplæringen ved å notere innholdet i Markdown-filen med språkkoden (i mitt eksempel, på fransk, er det filen `fr.md`). Gå til filen og klikk på blyantikonet :
+Fortsett å skrive opplæringen ved å notere innholdet i Markdown-filen med språkkoden (i mitt eksempel, på fransk, er det filen `fr.md`). Gå til filen og klikk på blyantikonet:
 
 ![GITHUB](assets/fr/28.webp)
 
@@ -347,9 +347,9 @@ Hvis du ønsker å lage dine egne skjemaer, må du følge Plan ₿ Network grafi
 
 
 - Skrifttype**: Bruk [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Farger** :
+- Farger**:
  - Oransje: #FF5C00
- - Svart : #000000
+ - Svart: #000000
  - Hvit: #FFFFFFFF
 
 **Det er viktig at alle bilder som integreres i opplæringsvideoene dine er fri for opphavsrett eller respekterer kildefilens lisens**. Derfor er alle diagrammer som publiseres på Plan ₿ Network gjort tilgjengelig under en CC-BY-SA-lisens, på samme måte som teksten.
@@ -360,7 +360,7 @@ Hvis du ønsker å lage dine egne skjemaer, må du følge Plan ₿ Network grafi
 
 Når du er ferdig med å skrive opplæringen på det språket du ønsker, er neste trinn å sende inn en **Pull Request**. Administratoren vil deretter legge til de manglende oversettelsene i opplæringen din, ved hjelp av vår automatiserte oversettelsesmetode med menneskelig korrekturlesing.
 
-For å gå videre med pull-forespørselen, etter at du har lagret alle endringene dine, klikker du på "*Bidra*"-knappen og deretter på "*Åpne pull-forespørsel*" :
+For å gå videre med pull-forespørselen, etter at du har lagret alle endringene dine, klikker du på "*Bidra*"-knappen og deretter på "*Åpne pull-forespørsel*":
 
 ![GITHUB](assets/fr/36.webp)
 

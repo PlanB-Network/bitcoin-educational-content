@@ -34,12 +34,12 @@ Vul de vereiste informatie in: voer uw zakelijke e-mailadres Address in en het l
 ![BITFINEX](assets/fr/02.webp)
 
 
-Voor tips over het gebruik en de beveiliging van sterke, unieke wachtwoorden, zie ook deze tutorial :
+Voor tips over het gebruik en de beveiliging van sterke, unieke wachtwoorden, zie ook deze tutorial:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-We gaan nu de 2FA configureren om het account te beveiligen. Gebruik een authenticatietoepassing op je smartphone, zoals Google Authenticator of Authy. Je vindt een tutorial over deze tool hier :
+We gaan nu de 2FA configureren om het account te beveiligen. Gebruik een authenticatietoepassing op je smartphone, zoals Google Authenticator of Authy. Je vindt een tutorial over deze tool hier:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -92,7 +92,7 @@ Selecteer onder "*Account Type*" "*Corporate*". In mijn geval ben ik aan het upg
 ![BITFINEX](assets/fr/09.webp)
 
 
-Voltooi de stappen door :
+Voltooi de stappen door:
 
 
 
@@ -111,7 +111,7 @@ Zodra je aanvraag voltooid en ingediend is, kan het enkele dagen duren voor het 
 ## 3 - Snelle introductie tot de Bitfinex Interface
 
 
-Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*", "*Derivaten*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex biedt een breed scala aan functionaliteiten, waaronder :
+Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*", "*Derivaten*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex biedt een breed scala aan functionaliteiten, waaronder:
 
 
 

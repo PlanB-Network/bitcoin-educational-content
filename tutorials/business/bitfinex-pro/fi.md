@@ -24,11 +24,11 @@ Täytä vaaditut tiedot: anna yrityksesi sähköpostiosoite ja yrityksesi kotima
 
 ![BITFINEX](assets/fr/02.webp)
 
-Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa :
+Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä :
+Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ Valitse "*Tilityyppi*" -kohdasta "*Yritys*". Omassa tapauksessani päivitän til
 
 ![BITFINEX](assets/fr/09.webp)
 
-Suorita vaiheet loppuun antamalla :
+Suorita vaiheet loppuun antamalla:
 
 
 - Yrityksen tiedot (yrityksen nimi, yhteystiedot, toimiala jne.) ;
@@ -77,7 +77,7 @@ Kun hakemuksesi on täytetty ja lähetetty, voi kestää useita päiviä, ennen 
 
 ## 3 - Pikaesittely Bitfinexin käyttöliittymään
 
-Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten :
+Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten:
 
 
 - Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
@@ -239,6 +239,6 @@ Bitfinexin käyttö voi vaihdella yrityksesi tavoitteista ja rakenteesta riippue
 - Pidä bitcoineja alustalla tai nosta ne itsesäilytystä varten. Voit myös nostaa euroja pankkitilillesi;
 - Vie tapahtumahistoriat tarpeen mukaan.
 
-Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito :
+Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

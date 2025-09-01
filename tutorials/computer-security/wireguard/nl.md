@@ -30,7 +30,7 @@ WireGuard is een relatief recente oplossing, die beschikbaar is als stabiele rel
 
 
 
-Enkele belangrijke punten over WireGuard :
+Enkele belangrijke punten over WireGuard:
 
 
 
@@ -95,7 +95,7 @@ In dit voorbeeld richt ik me op het volgende geval: **vanuit mijn Windows Peer 1
 
 
 
-In termen van IP-adressen geeft dit :
+In termen van IP-adressen geeft dit:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-De waarde van de publieke sleutel wordt teruggegeven in de console. In het WireGuard configuratiebestand moeten we **de waarde van onze private key** toevoegen. Om deze waarde op te halen, voert u het onderstaande commando in en kopieert u de waarde :
+De waarde van de publieke sleutel wordt teruggegeven in de console. In het WireGuard configuratiebestand moeten we **de waarde van onze private key** toevoegen. Om deze waarde op te halen, voert u het onderstaande commando in en kopieert u de waarde:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Als je de IP adressen van je Debian 11 server opsomt, zie je een nieuwe Interface genaamd "wg0" met het IP Address gedefinieerd in het config bestand :
+Als je de IP adressen van je Debian 11 server opsomt, zie je een nieuwe Interface genaamd "wg0" met het IP Address gedefinieerd in het config bestand:
 
 
 
@@ -286,7 +286,7 @@ Om ervoor te zorgen dat onze Debian 11 machine pakketten kan **routeren tussen v
 
 
 
-Wijzig dit configuratiebestand :
+Wijzig dit configuratiebestand:
 
 
 
@@ -318,7 +318,7 @@ Om ervoor te zorgen dat onze server pakketten correct routeert en het externe LA
 
 
 
-Als je nog geen UFW hebt en het wilt instellen (je kunt ook Nftables gebruiken), begin dan met het installeren van :
+Als je nog geen UFW hebt en het wilt instellen (je kunt ook Nftables gebruiken), begin dan met het installeren van:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-De afbeelding toont :
+De afbeelding toont:
 
 
 
@@ -490,7 +490,7 @@ We moeten deze configuratie voltooien, in het bijzonder om het IP Address op dez
 
 
 
-Laten we beginnen met het `[Interface]` blok en het IP Address "**192.168.110.2**" toevoegen; onthoud dat de server het IP Address "**192.168.110.121**" heeft op dit netwerksegment. Dit geeft :
+Laten we beginnen met het `[Interface]` blok en het IP Address "**192.168.110.2**" toevoegen; onthoud dat de server het IP Address "**192.168.110.121**" heeft op dit netwerksegment. Dit geeft:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-In beeld :
+In beeld:
 
 
 
@@ -691,7 +691,7 @@ Met de huidige configuratie stroomt een deel van het verkeer via het VPN en de r
 
 
 
-Eerst moet je het pakket "resolvconf" installeren op de :
+Eerst moet je het pakket "resolvconf" installeren op de:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Ten slotte moet je in de tunnelconfiguratie op het Windows 10 werkstation de sectie "AllowedIPs" aanpassen om aan te geven dat alles door de tunnel moet. Vervangen :
+Ten slotte moet je in de tunnelconfiguratie op het Windows 10 werkstation de sectie "AllowedIPs" aanpassen om aan te geven dat alles door de tunnel moet. Vervangen:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Door :
+Door:
 
 
 
@@ -772,7 +772,7 @@ De configuratie van WireGuard is vrij eenvoudig en gemakkelijk te begrijpen en v
 
 
 
-Aanvullende documentatie :
+Aanvullende documentatie:
 
 
 

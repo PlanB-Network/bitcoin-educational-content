@@ -51,7 +51,7 @@ Verktyget används av ett stort antal användare, bland annat systemadministrat�
 
 
 
-Projektet finns tillgängligt på denna Address på **Github** :
+Projektet finns tillgängligt på denna Address på **Github**:
 
 
 
@@ -82,7 +82,7 @@ Detta installationsläge gör att du kan använda kommandot **lynis** var som he
 
 
 
-Anslut till din server via SSH och ange följande kommandon för att installera Lynis :
+Anslut till din server via SSH och ange följande kommandon för att installera Lynis:
 
 
 
@@ -209,7 +209,7 @@ Om du vill visa tillgängliga kommandon skriver du in följande kommando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Det här är vad du får:
 
 
 
-Om du vill visa alla alternativ måste du trycka på :
+Om du vill visa alla alternativ måste du trycka på:
 
 
 
@@ -336,7 +336,7 @@ Här kan vi se att Lynis rekommenderar att du installerar **fail2ban**:
 
 
 
-I avsnittet "**Start och tjänster**" ser vi att tjänsteskyddet via *systemd* kan förbättras. På den positiva sidan är Grub2 närvarande och det finns inga problem med behörigheter på :
+I avsnittet "**Start och tjänster**" ser vi att tjänsteskyddet via *systemd* kan förbättras. På den positiva sidan är Grub2 närvarande och det finns inga problem med behörigheter på:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Lite information om de installerade paketen :
+Lite information om de installerade paketen:
 
 
 
@@ -623,7 +623,7 @@ Låt oss ta en titt på SSH-rekommendationerna. De är listade nedan. Oroa dig i
 
 
 
-Låt oss ta en närmare titt på min nuvarande **SSH**-konfiguration i :**/etc/ssh/sshd_config**
+Låt oss ta en närmare titt på min nuvarande **SSH**-konfiguration i:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Den konfiguration som föreslås nedan kan fortfarande optimeras, men ger dig en
 
 
 
-Vi kommer att :
+Vi kommer att:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Behåll lösenordsautentisering :
+- Behåll lösenordsautentisering:
 
 
 
@@ -804,7 +804,7 @@ Det är värt att notera att det i vissa jurisdiktioner kan vara en förutsättn
 
 
 
-I bilder ger detta :
+I bilder ger detta:
 
 
 

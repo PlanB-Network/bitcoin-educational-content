@@ -74,11 +74,11 @@ Picocrypt**-salausohjelmisto on **vaihtoehto** muille tunnetuille ratkaisuille, 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Lähde : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Lähde: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt on **erittäin kevyt**, vain **3 MB**, eikä sitä tarvitse asentaa: se on **kannettava sovellus**, jonka etuna on, ettei se vaadi järjestelmänvalvojan oikeuksia! Se ei kuitenkaan laiminlyö tietoturvaa, sillä se luottaa **kestäviin ja luotettaviin algoritmeihin** :
+Picocrypt on **erittäin kevyt**, vain **3 MB**, eikä sitä tarvitse asentaa: se on **kannettava sovellus**, jonka etuna on, ettei se vaadi järjestelmänvalvojan oikeuksia! Se ei kuitenkaan laiminlyö tietoturvaa, sillä se luottaa **kestäviin ja luotettaviin algoritmeihin**:
 
 
 

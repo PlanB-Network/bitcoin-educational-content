@@ -20,7 +20,7 @@ Tietojenkeruun digitaalisella aikakaudella yksityisyydestä verkossa on tullut m
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Tähän periaatteeseen perustuva [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) on avoimen lähdekoodin VPN-palvelu, jonka Mozilla Foundation kehitti vuonna 2020. Se on saatavilla osoitteessa :
+Tähän periaatteeseen perustuva [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) on avoimen lähdekoodin VPN-palvelu, jonka Mozilla Foundation kehitti vuonna 2020. Se on saatavilla osoitteessa:
 
 
 
@@ -39,7 +39,7 @@ Tähän periaatteeseen perustuva [Mozilla VPN] (https://www.mozilla.org/fr/produ
 
 
 
-Se on käytettävissä yli 30 maassa, ja sillä on yli 500 palvelinta, jotka vastaavat IP Address -palvelimesi peittämisestä, jotta voit siirtää sijaintisi ja varmistaa samalla vuorovaikutuksesi luottamuksellisuuden Internetissä. Mozilla VPN:n erottaa :
+Se on käytettävissä yli 30 maassa, ja sillä on yli 500 palvelinta, jotka vastaavat IP Address -palvelimesi peittämisestä, jotta voit siirtää sijaintisi ja varmistaa samalla vuorovaikutuksesi luottamuksellisuuden Internetissä. Mozilla VPN:n erottaa:
 
 
 

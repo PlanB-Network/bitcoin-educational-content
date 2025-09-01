@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Hapa, "**usbkey1**" ndio jina ninalotoa kwa mlima wa kizigeu katika muktadha wangu. Unaweza kuchagua chochote unachopenda. Kisha tunahitaji kufomati kizigeu hiki kilichomo kwenye kizigeu cha LUKS, kwa mfano, hapa kama **ext4** :
+Hapa, "**usbkey1**" ndio jina ninalotoa kwa mlima wa kizigeu katika muktadha wangu. Unaweza kuchagua chochote unachopenda. Kisha tunahitaji kufomati kizigeu hiki kilichomo kwenye kizigeu cha LUKS, kwa mfano, hapa kama **ext4**:
 
 
 
@@ -353,7 +353,7 @@ Hii inamaanisha kuwa tunaweza kufikia data kwenye fimbo yetu ya USB kwa uhuru na
 
 
 
-Operesheni yetu inapokamilika, usisahau kufunga kila kitu ipasavyo ili kuhakikisha kuwa hatuharibu sauti yetu. Hatua ya kwanza ni kuondoa :
+Operesheni yetu inapokamilika, usisahau kufunga kila kitu ipasavyo ili kuhakikisha kuwa hatuharibu sauti yetu. Hatua ya kwanza ni kuondoa:
 
 
 

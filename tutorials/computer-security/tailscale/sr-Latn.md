@@ -159,7 +159,7 @@ Kada kreirate svoj nalog, možete instalirati Tailscale na svoje uređaje:
 
 
 
-- **Na Linuxu (Debian, Ubuntu, itd.):** Imate nekoliko opcija. Najjednostavnija metoda je pokretanje zvaničnog instalacionog skripta: na primer, na Debian/Ubuntu :
+- **Na Linuxu (Debian, Ubuntu, itd.):** Imate nekoliko opcija. Najjednostavnija metoda je pokretanje zvaničnog instalacionog skripta: na primer, na Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Konzola za administraciju veba omogućava vam da pregledate i upravljate svim va
 
 
 
-- **Interface Web (Admin Console)** : dostupno na [https://login.tailscale.com](https://login.tailscale.com), ova web konzola je centralna kontrolna tabla za vašu Tailscale mrežu. Prikazuje sve uređaje (*Machines*), njihov online/offline status, njihove Tailscale IP adrese i više. Ovde možete **upravljati uređajima** (preimenovati, isteći ključeve, autorizovati rute, onemogućiti čvor), **upravljati korisnicima** (u organizacionom kontekstu) i definisati sigurnosna pravila (ACLs). Takođe, ovde konfigurišete globalne opcije kao što su MagicDNS, oznake ili auth ključevi (unapred generisani auth ključevi za automatsko dodavanje uređaja). Interface web je veoma koristan za dobijanje pregleda i primenu promena koje će biti propagirane putem koordinacionog servera na sve čvorove. *Primer:* Aktiviranje **subnet rute** ili **exit čvora** se vrši jednim klikom u konzoli, kada se čvor u pitanju najavi kao takav.
+- **Interface Web (Admin Console)**: dostupno na [https://login.tailscale.com](https://login.tailscale.com), ova web konzola je centralna kontrolna tabla za vašu Tailscale mrežu. Prikazuje sve uređaje (*Machines*), njihov online/offline status, njihove Tailscale IP adrese i više. Ovde možete **upravljati uređajima** (preimenovati, isteći ključeve, autorizovati rute, onemogućiti čvor), **upravljati korisnicima** (u organizacionom kontekstu) i definisati sigurnosna pravila (ACLs). Takođe, ovde konfigurišete globalne opcije kao što su MagicDNS, oznake ili auth ključevi (unapred generisani auth ključevi za automatsko dodavanje uređaja). Interface web je veoma koristan za dobijanje pregleda i primenu promena koje će biti propagirane putem koordinacionog servera na sve čvorove. *Primer:* Aktiviranje **subnet rute** ili **exit čvora** se vrši jednim klikom u konzoli, kada se čvor u pitanju najavi kao takav.
 
 
 
@@ -387,7 +387,7 @@ Pristup je izuzetno jednostavan: umesto korišćenja `umbrel.local` (što funkci
 
 
 
-**Povežite spoljne novčanike sa vašim Bitcoin ili lightning čvorovima putem Tailscale :**
+**Povežite spoljne novčanike sa vašim Bitcoin ili lightning čvorovima putem Tailscale:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Da biste konfigurisali Zeus sa vašim Lightning čvorom, pogledajte naš detaljni vodič :
+Da biste konfigurisali Zeus sa vašim Lightning čvorom, pogledajte naš detaljni vodič:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Da biste saznali više o Lightning mređi i kako funkcioniše na Umbrel-u, posetite :
+Da biste saznali više o Lightning mređi i kako funkcioniše na Umbrel-u, posetite:
 
 
 
@@ -608,7 +608,7 @@ Tailscale je ključni alat za samostalno hostovanje, zahvaljujući svojoj jednos
 
 
 - **Homelab** tutorijali: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifični vodiči za samostalno hostovanje.
-- **Konfigurisanje izlaznog čvora** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljan vodič za konfigurisanje izlaznih čvorova.
+- **Konfigurisanje izlaznog čvora**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljan vodič za konfigurisanje izlaznih čvorova.
 - **Koristite Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Prenosite fajlove između Tailscale uređaja.
 
 

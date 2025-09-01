@@ -25,13 +25,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 
-- کاربران با تجربه** :
+- کاربران با تجربه**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- متوسط (GitHub Desktop)** :
+- متوسط (GitHub Desktop)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -39,7 +39,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## پیش‌نیازها
 
 
-پیش‌نیازها قبل از شروع آموزش :
+پیش‌نیازها قبل از شروع آموزش:
 
 
 
@@ -65,7 +65,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ## ۱ - ایجاد یک شاخه جدید
 
 
-مرورگر خود را باز کرده و به صفحه Fork خود در مخزن Plan ₿ Network بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content` :
+مرورگر خود را باز کرده و به صفحه Fork خود در مخزن Plan ₿ Network بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -110,7 +110,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![GITHUB](assets/fr/05.webp)
 
 
-در پوشه `Wallet`، یک دایرکتوری جدید به‌طور خاص برای آموزش خود ایجاد کنید. نام این پوشه باید به‌وضوح نرم‌افزار پوشش داده‌شده در آموزش را نشان دهد و از خط تیره برای اتصال کلمات استفاده کند. برای مثال من، پوشه به نام `Green-Wallet` خواهد بود. روی "*Add File*" کلیک کنید و سپس روی "*Create new file*" :
+در پوشه `Wallet`، یک دایرکتوری جدید به‌طور خاص برای آموزش خود ایجاد کنید. نام این پوشه باید به‌وضوح نرم‌افزار پوشش داده‌شده در آموزش را نشان دهد و از خط تیره برای اتصال کلمات استفاده کند. برای مثال من، پوشه به نام `Green-Wallet` خواهد بود. روی "*Add File*" کلیک کنید و سپس روی "*Create new file*":
 
 
 ![GITHUB](assets/fr/06.webp)
@@ -193,23 +193,23 @@ reward:
 
 
 
-- شناسه** : یک UUID (_شناسه‌ی یکتا به صورت جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
+- شناسه**: یک UUID (_شناسه‌ی یکتا به صورت جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
 
 
 
-- project_id** : شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش خود، یک پیوند بین دو Elements ایجاد می‌کنید؛
+- project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش خود، یک پیوند بین دو Elements ایجاد می‌کنید؛
 
 
 
-- برچسب‌ها** : 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- دسته‌بندی** : زیرمجموعه مربوط به محتوای آموزشی، مطابق با ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف‌پول‌ها: `desktop`، `hardware`، `mobile`، `backup`);
+- دسته‌بندی**: زیرمجموعه مربوط به محتوای آموزشی، مطابق با ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف‌پول‌ها: `desktop`، `hardware`، `mobile`، `backup`);
 
 
 
-- سطح** : سطح دشواری آموزش، انتخاب شده از:
+- سطح**: سطح دشواری آموزش، انتخاب شده از:
     - `مبتدی`
     - `متوسط`
     - `پیشرفته`
@@ -217,20 +217,20 @@ reward:
 
 
 
-- شناسه_استاد** : `شناسه_استاد` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- شناسه_استاد**: `شناسه_استاد` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 
-- original_language** : زبان اصلی آموزش (به عنوان مثال، `fr`، `en`، و غیره)؛
+- original_language**: زبان اصلی آموزش (به عنوان مثال، `fr`، `en`، و غیره)؛
 
 
 
-- بازخوانی** : اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
-    - زبان** : کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
-    - last_contribution_date** : تاریخ روز.
-    - فوریت** : 1
-    - نام‌های_مشارکت‌کننده** : شناسه GitHub شما.
-    - پاداش** : 0
+- بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
+    - زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
+    - last_contribution_date**: تاریخ روز.
+    - فوریت**: 1
+    - نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
+    - پاداش**: 0
 
 
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
@@ -282,7 +282,7 @@ reward: 0
 ## ۴ - ایجاد زیرپوشه‌ها برای تصاویر
 
 
-روی "*Add File*" دوباره کلیک کنید و سپس روی "*Create new file*" :
+روی "*Add File*" دوباره کلیک کنید و سپس روی "*Create new file*":
 
 
 ![GITHUB](assets/fr/11.webp)
@@ -480,9 +480,9 @@ description: [Description]
 
 
 - فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
-- رنگ‌ها** :
+- رنگ‌ها**:
  - نارنجی: #FF5C00
- - سیاه : #000000
+ - سیاه: #000000
  - سفید: #FFFFFF
 
 
@@ -498,7 +498,7 @@ description: [Description]
 پس از اتمام نوشتن آموزش خود به زبان دلخواه، مرحله بعدی ارسال یک **Pull Request** است. سپس مدیر، ترجمه‌های ناقص را با استفاده از روش ترجمه خودکار ما و بازبینی انسانی به آموزش شما اضافه خواهد کرد.
 
 
-برای ادامه با Pull Request، پس از ذخیره تمام تغییرات خود، روی دکمه "*Contribute*" کلیک کنید، سپس روی "*Open pull request*" :
+برای ادامه با Pull Request، پس از ذخیره تمام تغییرات خود، روی دکمه "*Contribute*" کلیک کنید، سپس روی "*Open pull request*":
 
 
 ![GITHUB](assets/fr/36.webp)

@@ -340,23 +340,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **id** : UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
+- **id**: UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
 
 
 
-- **project_id** : UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- **tags** : Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategoria** : Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
-- **kiwango** : Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
+- **kiwango**: Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
     - `Mwanzo`
     - `katikati`
     - `advanced`
@@ -364,23 +364,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **profesa_id** : `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **profesa_id**: `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- **lugha_asilia** : Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
+- **lugha_asilia**: Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
 
 
 
-- **kusahihisha** : Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
-    - **lugha** : Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
-    - **tarehe_ya_mwisho_mchango** : Tarehe ya siku.
-    - **dharura** : 1
-    - **contributor_names** : Kitambulisho chako cha GitHub.
-    - **malipo** : 0
+- **kusahihisha**: Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
+    - **lugha**: Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
+    - **tarehe_ya_mwisho_mchango**: Tarehe ya siku.
+    - **dharura**: 1
+    - **contributor_names**: Kitambulisho chako cha GitHub.
+    - **malipo**: 0
 
 
-Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana :
+Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4

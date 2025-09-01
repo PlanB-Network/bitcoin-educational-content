@@ -23,13 +23,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 
-- متوسط (GitHub Desktop) :
+- متوسط (GitHub Desktop):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- مبتدیان (وب Interface) :
+- مبتدیان (وب Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## ابزارهای پیشنهادی
 
 
-برای ویرایش فایل‌های Markdown :
+برای ویرایش فایل‌های Markdown:
 
 
 
@@ -47,7 +47,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 - Typora (نرم‌افزار پولی، ~€15، متن‌باز نیست)
 
 
-برای گیت :
+برای گیت:
 
 
 
@@ -56,7 +56,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 - Sourcetree (رایگان، متن‌بسته)
 
 
-برای ویرایش فایل‌های YAML :
+برای ویرایش فایل‌های YAML:
 
 
 
@@ -209,23 +209,23 @@ reward:
 
 
 
-- شناسه** : یک UUID (_شناسه منحصربه‌فرد جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
+- شناسه**: یک UUID (_شناسه منحصربه‌فرد جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
 
 
 
-- project_id** : شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش شما، یک پیوند بین دو Elements ایجاد می‌کنید؛
+- project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش شما، یک پیوند بین دو Elements ایجاد می‌کنید؛
 
 
 
-- برچسب‌ها** : 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- دسته‌بندی** : زیرمجموعه‌ای که با محتوای آموزشی مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
+- دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزشی مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- سطح** : سطح دشواری آموزش، انتخاب شده از:
+- سطح**: سطح دشواری آموزش، انتخاب شده از:
     - `مبتدی`
     - `متوسط`
     - `پیشرفته`
@@ -233,20 +233,20 @@ reward:
 
 
 
-- professor_id** : `professor_id` (UUID) شما همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- professor_id**: `professor_id` (UUID) شما همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 
-- زبان_اصلی** : زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
+- زبان_اصلی**: زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
 
 
 
-- بازخوانی** : اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
-    - زبان** : کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
-    - last_contribution_date** : تاریخ روز.
-    - فوریت** : 1
-    - نام‌های_مشارکت‌کننده** : شناسه GitHub شما.
-    - پاداش** : 0
+- بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
+    - زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
+    - last_contribution_date**: تاریخ روز.
+    - فوریت**: 1
+    - نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
+    - پاداش**: 0
 
 
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
@@ -299,7 +299,7 @@ reward: 0
 
 
 
-- آموزش نوشتن محتوا در Markdown :
+- آموزش نوشتن محتوا در Markdown:
     - از عناوین ساختارمند (`##`)، لیست‌ها و پاراگراف‌ها به خوبی استفاده کنید.
     - تصاویر را با استفاده از نحو Markdown وارد کنید:
 
@@ -361,11 +361,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- قالب‌بندی پشتیبانی شده در پلتفرم** :
+- قالب‌بندی پشتیبانی شده در پلتفرم**:
     - کلاسیک مارک‌داون: لیست‌ها، لینک‌ها، تصاویر، نقل‌قول‌ها، **بولد**، *ایتالیک*، و غیره.
     - LaTeX (فقط بلوک، نه درون‌خطی): با `$$` محدود شده است.
     - کد درون‌خطی: نحو با یک بک‌تیک.
-    - بلوک‌های کد: نحو با سه بک‌تیک، به عنوان مثال :
+    - بلوک‌های کد: نحو با سه بک‌تیک، به عنوان مثال:
 
 
 ```
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- تصاویر و نمودارها** :
+- تصاویر و نمودارها**:
     - همه تصاویر باید در قالب WebP باشند. در صورت نیاز از این ابزار رایگان برای تبدیل آنها استفاده کنید: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - نام تصاویر با ۲ یا ۳ رقم (مثلاً `001.webp`, `002.webp`).
     - برای آموزش‌های موبایل یا Hardware Wallet، از ماک‌آپ‌ها استفاده کنید.
     - فقط از تصاویر ایجاد شده توسط خود یا بدون حق امتیاز استفاده کنید.
     - مطمئن شوید که آن‌ها مرتبط و با کیفیت بالا هستند.
-- منشور گرافیکی** :
+- منشور گرافیکی**:
     - فونت: [روبیک](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - رنگ‌ها Plan ₿ Network :
+    - رنگ‌ها Plan ₿ Network:
         - نارنجی: `#FF5C00`
         - سیاه: `#000000`
         - سفید: `#FFFFFF`

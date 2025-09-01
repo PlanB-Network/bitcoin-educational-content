@@ -74,7 +74,7 @@ The Mullvad browser has been designed with one main goal in mind: **protecting u
 ### Key Mullvad Browser features
 
 
-Mullvad Browser includes a series of **security and privacy features** directly inspired by Tor Browser :
+Mullvad Browser includes a series of **security and privacy features** directly inspired by Tor Browser:
 
 
 
@@ -110,7 +110,7 @@ Mullvad Browser includes **three pre-installed extensions** which form the core 
 
 ### **uBlock Origin**
 
-This ad and tracker blocker extension comes pre-configured with **optimized filter lists** to block :
+This ad and tracker blocker extension comes pre-configured with **optimized filter lists** to block:
 
 
 - Intrusive advertising
@@ -124,7 +124,7 @@ uBlock Origin in Mullvad Browser uses standardized parameters to ensure that all
 
 ### **NoScript**
 
-NoScript runs in the background to manage the browser's **security levels**. This :
+NoScript runs in the background to manage the browser's **security levels**. This:
 
 
 - Controls JavaScript** execution according to selected level (Normal/Most Secure/Most Secure)
@@ -238,7 +238,7 @@ Mullvad Browser is available free of charge for Windows, macOS and Linux. To ins
 Click on the **"Download "** button corresponding to your operating system.
 
 
-For Linux, you can choose between different formats depending on your distribution. Once the download is complete :
+For Linux, you can choose between different formats depending on your distribution. Once the download is complete:
 
 
 ### On Windows
@@ -290,7 +290,7 @@ Mullvad Browser offers three levels of security:
 
 
 
-- Normal** (current default level) : All browser and website functions enabled
+- Normal** (current default level): All browser and website functions enabled
 
 
 
@@ -358,7 +358,7 @@ If you choose to install extensions anyway, be aware that you are creating a uni
 3. **Use the new session button**: Between different activities, use the reset function to partition your sessions.
 
 
-4. **Choose the level of security that best suits your needs** :
+4. **Choose the level of security that best suits your needs**:
 
 
    - Normal (recommended)**: For everyday browsing. Already offers excellent protection while keeping websites functional. This is the best balance for 95% of users.

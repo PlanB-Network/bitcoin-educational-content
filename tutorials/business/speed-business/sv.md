@@ -22,7 +22,7 @@ Den världsomspännande användningen av Bitcoin baseras på konkreta användnin
 
 
 
-Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta :
+Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta:
 
 
 

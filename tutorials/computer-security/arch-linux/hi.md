@@ -294,7 +294,7 @@ cfdisk /dev/nom-du-disque
 
 
 
-- यूईएफआई** :
+- यूईएफआई**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- पुनः आरंभ करें :
+- पुनः आरंभ करें:
 
 
 ```shell

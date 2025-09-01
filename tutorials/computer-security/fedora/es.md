@@ -34,7 +34,7 @@ Fedora también incluye un entorno de escritorio, que es el Interface a través 
 
 
 
-Entre la multitud de distribuciones Linux disponibles, Fedora destaca especialmente por :
+Entre la multitud de distribuciones Linux disponibles, Fedora destaca especialmente por:
 
 
 
@@ -66,7 +66,7 @@ Entre la multitud de distribuciones Linux disponibles, Fedora destaca especialme
 
 
 
-En función de su perfil y uso, Fedora ofrece ediciones que se adaptan a sus necesidades. Principalmente encontrarás ediciones :
+En función de su perfil y uso, Fedora ofrece ediciones que se adaptan a sus necesidades. Principalmente encontrarás ediciones:
 
 
 
@@ -205,7 +205,7 @@ El primer paso es seleccionar el **idioma de instalación** de Fedora y la **dis
 
 
 
-- Selección del disco de instalación :
+- Selección del disco de instalación:
 
 
 
@@ -223,7 +223,7 @@ Si el disco está vacío, Fedora utilizará automáticamente todo el espacio dis
 
 
 
-- Cifrado :
+- Cifrado:
 
 
 
@@ -415,7 +415,7 @@ Puede ser necesario un **reinicio** una vez instaladas las actualizaciones.
 
 
 
-- Abre un terminal y empieza por actualizar los **repositorios** para asegurarte de que tienes las últimas versiones de :
+- Abre un terminal y empieza por actualizar los **repositorios** para asegurarte de que tienes las últimas versiones de:
 
 
 

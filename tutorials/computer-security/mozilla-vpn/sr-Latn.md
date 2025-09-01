@@ -20,7 +20,7 @@ U digitalnom dobu prikupljanja podataka, online privatnost je postala veliki pro
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Na osnovu ovog principa, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) je VPN servis otvorenog koda koji je razvila Mozilla Foundation 2020. godine. Dostupan je na :
+Na osnovu ovog principa, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) je VPN servis otvorenog koda koji je razvila Mozilla Foundation 2020. godine. Dostupan je na:
 
 
 

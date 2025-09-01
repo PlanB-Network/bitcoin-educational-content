@@ -124,7 +124,7 @@ Dit is slechts een overzicht van de functies die OPNsense biedt. Bovendien kunt 
 
 
 
-Allereerst moet je beslissen waar je OPNsense gaat installeren. Er zijn verschillende mogelijke oplossingen, waaronder installatie op :
+Allereerst moet je beslissen waar je OPNsense gaat installeren. Er zijn verschillende mogelijke oplossingen, waaronder installatie op:
 
 
 
@@ -349,7 +349,7 @@ Zo werkt het:
 
 
 
-We hebben nu :
+We hebben nu:
 
 
 
@@ -546,7 +546,7 @@ Dus moeten we firewallregels maken... Blader als volgt door het menu: **Firewall
 
 
 
-Maak vervolgens drie nieuwe regels aan om het **LAN netwerk** (d.w.z. "**LAN net**") te autoriseren voor :
+Maak vervolgens drie nieuwe regels aan om het **LAN netwerk** (d.w.z. "**LAN net**") te autoriseren voor:
 
 
 

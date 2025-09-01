@@ -29,7 +29,7 @@ Here, we'll be using it on **Windows 11**, but it's perfectly possible to use it
 Less comprehensive than Nmap, **Angry IP** Scanner is still interesting for a quick, basic network analysis, but also because it's within everyone's reach. It will **detect hosts connected to the network** and identify **host names** and **open ports**.
 
 
-If you want to go further, see the tutorial on Nmap :
+If you want to go further, see the tutorial on Nmap:
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

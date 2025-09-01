@@ -66,7 +66,7 @@ Sedan 2017 har Arch Linux inte längre stöd för 32-bitarsarkitekturer. Endast 
 
 
 
-För att skapa ett startbart USB-minne kan du använda ett verktyg som **Balena Etcher** :
+För att skapa ett startbart USB-minne kan du använda ett verktyg som **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ På startskärmen väljer du det första alternativet för att starta installati
 
 
 
-Du kan visa de tillgängliga layouterna med :
+Du kan visa de tillgängliga layouterna med:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Ladda sedan en layout med :
+Ladda sedan en layout med:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux använder verktyget `timedatectl` för att hantera systemklockan.
 
 
 
-- Ställ in din tidszon med :
+- Ställ in din tidszon med:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Kontrollera att automatisk synkronisering är aktiverad med :
+- Kontrollera att automatisk synkronisering är aktiverad med:
 
 
 ```shell
@@ -208,7 +208,7 @@ Detta aktiverar NTP, protokollet för automatisk synkronisering med tidsservrar.
 
 
 
-- Kontrollera om ditt system startar i **UEFI** eller **BIOS** med :
+- Kontrollera om ditt system startar i **UEFI** eller **BIOS** med:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Starta Partition Manager :
+- Starta Partition Manager:
 
 
 
@@ -294,7 +294,7 @@ Välj **Write**, skriv **yes** och sedan **Quit**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Montera **root**-partitionen:
 
 
 
-- Om BIOS :
+- Om BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- på UEFI :
+- på UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Installera en textredigerare för att redigera :
+- Installera en textredigerare för att redigera:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Ställa in språk :
+- Ställa in språk:
 
 
 Redigera `/etc/locale.gen` och kommentera sedan bort raden `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Redigera `/etc/locale.gen` och kommentera sedan bort raden `en_US.UTF-8 UTF-8`
 
 
 
-- Ställ in maskinens namn :
+- Ställ in maskinens namn:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Ange root-lösenord :
+- Ange root-lösenord:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Installera :
+Installera:
 
 
 
@@ -472,7 +472,7 @@ När du har hämtat den måste du installera den enligt diskpartitionsformatet.
 
 
 
-- För **BIOS** :
+- För **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- För **UEFI** :
+- För **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Starta om :
+- Starta om:
 
 
 ```shell
@@ -551,7 +551,7 @@ Vid uppstart loggar du in med ditt **root**-inloggningsnamn och lösenord.
 
 
 
-Det kan hända att ingen nätverksanslutning är aktiv vid omstart. Du kan lista gränssnitten med :
+Det kan hända att ingen nätverksanslutning är aktiv vid omstart. Du kan lista gränssnitten med:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Som standard innehåller **Arch Linux** ingen grafisk Interface. För att lägga till en :
+Som standard innehåller **Arch Linux** ingen grafisk Interface. För att lägga till en:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktivera **session manager** :
+Aktivera **session manager**:
 
 
 
@@ -652,7 +652,7 @@ När du väl är i **Interface GNOME** måste du skapa en ny användare för ök
 
 
 
-- Lägg till en användare :
+- Lägg till en användare:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Installera **sudo** :
+- Installera **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Ta sedan bort raden :
+- Ta sedan bort raden:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Om du till exempel vill installera textredigeraren **nano** kan du skriva :
+Om du till exempel vill installera textredigeraren **nano** kan du skriva:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-För att installera en lättviktig webbläsare som `firefox`, använd :
+För att installera en lättviktig webbläsare som `firefox`, använd:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Slutligen, om du vill lägga till viktiga nätverksverktyg som `net-tools`, skulle kommandot vara :
+Slutligen, om du vill lägga till viktiga nätverksverktyg som `net-tools`, skulle kommandot vara:
 
 
 

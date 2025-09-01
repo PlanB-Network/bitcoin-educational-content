@@ -124,7 +124,7 @@ Detta är bara en översikt över de funktioner som OPNsense erbjuder. Med hjäl
 
 
 
-Först och främst måste du bestämma var du ska installera OPNsense. Det finns flera möjliga lösningar, inklusive installation på :
+Först och främst måste du bestämma var du ska installera OPNsense. Det finns flera möjliga lösningar, inklusive installation på:
 
 
 
@@ -349,7 +349,7 @@ Så här fungerar det:
 
 
 
-Vi har nu :
+Vi har nu:
 
 
 
@@ -546,7 +546,7 @@ Så vi måste skapa brandväggsregler ... Bläddra i menyn på följande sätt: 
 
 
 
-Skapa sedan tre nya regler för att auktorisera **LAN-nätverket** (dvs. "**LAN-nätverket**") till :
+Skapa sedan tre nya regler för att auktorisera **LAN-nätverket** (dvs. "**LAN-nätverket**") till:
 
 
 

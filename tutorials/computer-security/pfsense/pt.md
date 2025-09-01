@@ -30,7 +30,7 @@ o pfSense é um sistema operativo gratuito e de código aberto que transforma qu
 
 
 
-As suas principais funções evoluíram consideravelmente ao longo dos anos e foram melhoradas a cada nova versão. Até à data, o pfSense oferece :
+As suas principais funções evoluíram consideravelmente ao longo dos anos e foram melhoradas a cada nova versão. Até à data, o pfSense oferece:
 
 
 
@@ -63,7 +63,7 @@ Finalmente, vale a pena lembrar que o pfSense requer pelo menos duas interfaces 
 
 
 
-A última versão estável do pfSense, no momento da redação deste tutorial, é a 2.8 (lançada em junho de 2025). Pode descarregar a imagem ISO ou o ficheiro de instalação adaptado ao seu ambiente de hardware diretamente do sítio Web oficial :
+A última versão estável do pfSense, no momento da redação deste tutorial, é a 2.8 (lançada em junho de 2025). Pode descarregar a imagem ISO ou o ficheiro de instalação adaptado ao seu ambiente de hardware diretamente do sítio Web oficial:
 
 
 
@@ -73,7 +73,7 @@ A última versão estável do pfSense, no momento da redação deste tutorial, �
 
 
 
-O portal de descarregamento permite-lhe selecionar :
+O portal de descarregamento permite-lhe selecionar:
 
 
 
@@ -105,7 +105,7 @@ Neste exemplo, a instalação é efectuada numa máquina virtual com o VirtualBo
 
 
 
-Para uma implantação padrão, recomendamos o :
+Para uma implantação padrão, recomendamos o:
 
 
 
@@ -221,7 +221,7 @@ A primeira pergunta diz respeito à configuração de VLANs. Nesta fase, para um
 
 
 
-o pfSense então pede para definir qual Interface será usado para WAN (acesso à Internet). É possível escolher entre :
+o pfSense então pede para definir qual Interface será usado para WAN (acesso à Internet). É possível escolher entre:
 
 
 
@@ -304,7 +304,7 @@ No seu navegador, vá para o Address indicado pelo console (por padrão `https:/
 
 
 
-É apresentado o ecrã de início de sessão. As credenciais predefinidas são :
+É apresentado o ecrã de início de sessão. As credenciais predefinidas são:
 
 
 
@@ -330,7 +330,7 @@ Na primeira ligação, o pfSense pede-lhe para seguir o seu **Assistente de Conf
 
 
 
-Pode :
+Pode:
 
 
 
@@ -352,7 +352,7 @@ Indique o fuso horário do seu sítio para que os registos e os horários sejam 
 
 
 
-Configurar a ligação WAN :
+Configurar a ligação WAN:
 
 
 
@@ -383,7 +383,7 @@ Proteja seu pfSense definindo imediatamente uma senha forte para o usuário `adm
 
 
 
-Antes de implementar a firewall, certifique-se de que tem a versão mais recente do :
+Antes de implementar a firewall, certifique-se de que tem a versão mais recente do:
 
 
 
@@ -423,7 +423,7 @@ Para ambientes de missão crítica, considere a possibilidade de efetuar uma có
 
 
 
-Para terminar o seu destacamento com paz de espírito :
+Para terminar o seu destacamento com paz de espírito:
 
 
 

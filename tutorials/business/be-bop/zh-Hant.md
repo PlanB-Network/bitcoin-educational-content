@@ -1397,7 +1397,7 @@ admin > 節點管理 > Nostr
 
 
 - `{orderNumber}} `：以實際訂單號碼取代
-- `{invoiceLink}} ` : 連結至 Invoice
+- `{invoiceLink}} `: 連結至 Invoice
 - `{websiteLink}}`：您網站的 URL
 
 
@@ -1557,7 +1557,7 @@ admin > 節點管理 > Nostr
 
 
 
-移至 : 節點管理 > Nostr
+移至: 節點管理 > Nostr
 
 
 

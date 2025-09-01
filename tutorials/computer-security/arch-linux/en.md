@@ -50,7 +50,7 @@ Since 2017, Arch Linux no longer supports 32-bit architectures. Only 64-bit vers
 ### Create a bootable key
 
 
-To create a bootable USB flash drive, you can use a tool like **Balena Etcher** :
+To create a bootable USB flash drive, you can use a tool like **Balena Etcher**:
 
 
 
@@ -94,7 +94,7 @@ On the boot screen, choose the first option to launch the installation. Note tha
 ### Keyboard configuration
 
 
-You can display the available layouts with :
+You can display the available layouts with:
 
 
 ```shell
@@ -105,7 +105,7 @@ localectl list-keymaps
 ![0_6](assets/fr/06.webp)
 
 
-Then load a layout with :
+Then load a layout with:
 
 
 ```shell
@@ -126,7 +126,7 @@ Arch Linux uses the `timedatectl` tool to manage the system clock.
 
 
 
-- Set your time zone with :
+- Set your time zone with:
 
 ```shell
 timedatectl set-timezone Europe/Paris
@@ -134,7 +134,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Check that automatic synchronization is enabled with :
+- Check that automatic synchronization is enabled with:
 
 ```shell
 timedatectl status
@@ -157,7 +157,7 @@ This activates NTP, the protocol for automatic synchronization with time servers
 
 
 
-- Check if your system boots in **UEFI** or **BIOS** with :
+- Check if your system boots in **UEFI** or **BIOS** with:
 
 
 ```shell
@@ -179,7 +179,7 @@ lsblk
 
 
 
-- Start Partition Manager :
+- Start Partition Manager:
 
 
 ```shell
@@ -223,7 +223,7 @@ Select **Write**, type **yes**, then **Quit**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 ```shell
@@ -235,7 +235,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 ```shell
@@ -255,14 +255,14 @@ Mount the **root** partition:
 
 
 
-- On the BIOS :
+- On the BIOS:
 
 ```shell
 mount /dev/sda2 /mnt
 ```
 
 
-- on UEFI :
+- on UEFI:
 
 ```shell
 mount /dev/sda3 /mnt
@@ -303,7 +303,7 @@ arch-chroot /mnt
 
 
 
-- Install a text editor to edit :
+- Install a text editor to edit:
 
 
 ```shell
@@ -312,7 +312,7 @@ pacman -S vim
 
 
 
-- Set the language :
+- Set the language:
 
 Edit `/etc/locale.gen` then uncomment the line `en_US.UTF-8 UTF-8`
 
@@ -321,7 +321,7 @@ Edit `/etc/locale.gen` then uncomment the line `en_US.UTF-8 UTF-8`
 
 
 
-- Set the machine name :
+- Set the machine name:
 
 
 ```shell
@@ -330,7 +330,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Set root password :
+- Set root password:
 
 
 ```shell
@@ -344,7 +344,7 @@ passwd
 ### Installing GRUB
 
 
-Install the :
+Install the:
 
 
 ```shell
@@ -358,7 +358,7 @@ pacman -S grub
 Once downloaded, you need to install it according to the disk partition format.
 
 
-- For **BIOS** :
+- For **BIOS**:
 
 
 ```shell
@@ -371,7 +371,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- For **UEFI** :
+- For **UEFI**:
 
 
 ```shell
@@ -403,7 +403,7 @@ umount -R /mnt
 
 
 
-- Restart :
+- Restart:
 
 ```shell
 reboot
@@ -418,7 +418,7 @@ On startup, log in with your **root** login and password.
 ## Network connection after reboot
 
 
-It may happen that no network connection is active on reboot. You can list the interfaces with :
+It may happen that no network connection is active on reboot. You can list the interfaces with:
 
 
 ```shell
@@ -443,7 +443,7 @@ EOF
 ## Interface graphics (GNOME)
 
 
-By default, **Arch Linux** contains no graphical Interface. To add one :
+By default, **Arch Linux** contains no graphical Interface. To add one:
 
 
 Update the system:
@@ -476,7 +476,7 @@ pacman -S gnome gnome-extra
 ![0_20](assets/fr/20.webp)
 
 
-Activate the **session manager** :
+Activate the **session manager**:
 
 
 ```shell
@@ -498,7 +498,7 @@ Once in **Interface GNOME**, you'll need to create a new user for greater securi
 
 
 
-- Add a user :
+- Add a user:
 
 
 ```shell
@@ -511,7 +511,7 @@ passwd nom_utilisateur
 
 
 
-- Install **sudo** :
+- Install **sudo**:
 
 ```shell
 pacman -S sudo
@@ -528,7 +528,7 @@ EDITOR=nano visudo
 
 
 
-- Then uncomment the line :
+- Then uncomment the line:
 
 
 ```shell
@@ -557,7 +557,7 @@ pacman -S nom_du_paquet_a_installe
 ```
 
 
-For example, to install the **nano** text editor, you can type :
+For example, to install the **nano** text editor, you can type:
 
 
 ```shell
@@ -565,7 +565,7 @@ pacman -S nano
 ```
 
 
-To install a lightweight web browser such as `firefox`, use :
+To install a lightweight web browser such as `firefox`, use:
 
 
 ```shell
@@ -573,7 +573,7 @@ pacman -S firefox
 ```
 
 
-Finally, if you want to add essential network tools such as `net-tools`, the command would be :
+Finally, if you want to add essential network tools such as `net-tools`, the command would be:
 
 
 ```shell

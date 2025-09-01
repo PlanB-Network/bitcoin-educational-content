@@ -71,7 +71,7 @@ Graylog är ett analys- och övervakningsverktyg som gör det lättare att ident
 
 
 
-Källa : Graylog
+Källa: Graylog
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Nu ska vi uppdatera paketcachen och försöka installera MongoDB :
+Nu ska vi uppdatera paketcachen och försöka installera MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB kan inte installeras eftersom ett beroende saknas: **libssl1.1**. Vi må
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Uppdatera din paketcache :
+Uppdatera din paketcache:
 
 
 
@@ -279,7 +279,7 @@ Den här OpenSearch-konfigurationen är utformad för att konfigurera en enda no
 
 
 
-- cluster.name: graylog** : denna parameter namnger OpenSearch-klustret med namnet "**graylog**".
+- cluster.name: graylog**: denna parameter namnger OpenSearch-klustret med namnet "**graylog**".
 - node.name: ${HOSTNAME}**: nodnamnet ställs in dynamiskt så att det matchar namnet på den lokala Linux-maskinen. Även om vi bara har en nod är det viktigt att namnge den korrekt.
 - sökväg.data: /var/lib/opensearch**: den här sökvägen anger var OpenSearch lagrar sina data på den lokala datorn, i det här fallet i "**/var/lib/opensearch**".
 - sökväg.loggar: /var/log/opensearch**: denna sökväg definierar var OpenSearchs loggfiler lagras, här i "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Med den konfiguration som används här startar **OpenSearch med 4 GB allokerat minne och kan växa upp till 4 GB**, så det blir ingen minnesvariation under drift. Här tar konfigurationen hänsyn till det faktum att den virtuella maskinen har totalt **8 GB RAM**. Båda parametrarna måste ha samma värde. Detta innebär att man ersätter raderna :
+Med den konfiguration som används här startar **OpenSearch med 4 GB allokerat minne och kan växa upp till 4 GB**, så det blir ingen minnesvariation under drift. Här tar konfigurationen hänsyn till det faktum att den virtuella maskinen har totalt **8 GB RAM**. Båda parametrarna måste ha samma värde. Detta innebär att man ersätter raderna:
 
 
 
@@ -327,7 +327,7 @@ Med den konfiguration som används här startar **OpenSearch med 4 GB allokerat 
 
 
 
-Med dessa rader :
+Med dessa rader:
 
 
 
@@ -408,7 +408,7 @@ Nästa steg: den efterlängtade installationen av Graylog!
 
 
 
-För att **installera Graylog 6.1** i dess senaste version, kör följande 4 kommandon för att **ladda ner och installera Graylog Server** :
+För att **installera Graylog 6.1** i dess senaste version, kör följande 4 kommandon för att **ladda ner och installera Graylog Server**:
 
 
 
@@ -432,7 +432,7 @@ Låt oss börja med att konfigurera dessa två alternativ:
 
 
 - password_secret**: Denna parameter används för att definiera en nyckel som används av Graylog för att säkra lagringen av användarlösenord (i samma anda som en saltningsnyckel). Denna nyckel måste vara **unik** och **slumpmässig**.
-- root_password_sha2** : denna parameter motsvarar standardlösenordet för administratören i Graylog. Det lagras som en Hash SHA-256.
+- root_password_sha2**: denna parameter motsvarar standardlösenordet för administratören i Graylog. Det lagras som en Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ I den här katalogen måste du använda siffror för att definiera laddningsordn
 
 
 
-I den här katalogen skapar vi en fil som heter "**10-graylog.conf**" :
+I den här katalogen skapar vi en fil som heter "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-I den här filen, infoga den här raden :
+I den här filen, infoga den här raden:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Om du har flera servrar och vill analysera loggarna för en viss server, anger du dess namn i tillägget :
+Om du har flera servrar och vill analysera loggarna för en viss server, anger du dess namn i tillägget:
 
 
 
@@ -939,7 +939,7 @@ Misslyckade anslutningsförsök görs från maskinen med IP Address "**192.168.1
 
 
 
-I detta fall kan det filter som ska användas vara :
+I detta fall kan det filter som ska användas vara:
 
 
 

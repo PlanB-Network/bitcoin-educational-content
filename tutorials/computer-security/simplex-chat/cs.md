@@ -243,7 +243,7 @@ SimpleX pak vygeneruje odkaz na jedno použití. Můžete jej přeposlat svému 
 
 
 
-Můžete také zvolit, který profil se má s tímto odkazem na pozvánku spojit. To provedete kliknutím na svůj profil hned pod QR kódem. Poté budete moci :
+Můžete také zvolit, který profil se má s tímto odkazem na pozvánku spojit. To provedete kliknutím na svůj profil hned pod QR kódem. Poté budete moci:
 
 
 
@@ -313,7 +313,7 @@ Jednou z nejvýkonnějších funkcí systému SimpleX je možnost spravovat něk
 
 
 
-Můžete například vytvořit :
+Můžete například vytvořit:
 
 
 

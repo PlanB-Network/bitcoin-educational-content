@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Lihtsus ja kasutusmugavus** : Elementary OS-i graafiline Interface on MacOs ja Windows'i graafilise Interface vahel. See tuttavlikkus muudab selle hõlpsasti kasutatavaks ka kogenematuile kasutajatele.
+- Lihtsus ja kasutusmugavus**: Elementary OS-i graafiline Interface on MacOs ja Windows'i graafilise Interface vahel. See tuttavlikkus muudab selle hõlpsasti kasutatavaks ka kogenematuile kasutajatele.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Tasuta** : Süsteem on täiesti tasuta. Kuid kui te seda alla laadite, võite teha annetuse, et toetada arendajaid.
+- Tasuta**: Süsteem on täiesti tasuta. Kuid kui te seda alla laadite, võite teha annetuse, et toetada arendajaid.
 
 
 
 
 
-- Aktiivne kogukond** : Elementaarse operatsioonisüsteemi ümbritsev kogukond on mitmekesine ja tundlik. Kui teil tekib raskusi, võite kergesti leida abi foorumitest või sotsiaalvõrgustikest.
+- Aktiivne kogukond**: Elementaarse operatsioonisüsteemi ümbritsev kogukond on mitmekesine ja tundlik. Kui teil tekib raskusi, võite kergesti leida abi foorumitest või sotsiaalvõrgustikest.
 
 
 

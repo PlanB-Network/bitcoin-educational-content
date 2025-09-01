@@ -10,7 +10,7 @@ Innan du följer denna handledning om hur du lägger till en ny handledning mås
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Du har redan :
+Du har redan:
 
 
 
@@ -19,17 +19,17 @@ Du har redan :
 - Välj dina bidragsverktyg.
 
 
-I denna handledning för erfarna Git-användare sammanfattar vi kort de viktigaste stegen och de viktigaste riktlinjerna för att erbjuda en ny Plan ₿ Network-handledning. Om du inte är bekant med Git och GitHub rekommenderar jag att du istället följer en av dessa andra 2 mer detaljerade handledningar som tar dig steg för steg :
+I denna handledning för erfarna Git-användare sammanfattar vi kort de viktigaste stegen och de viktigaste riktlinjerna för att erbjuda en ny Plan ₿ Network-handledning. Om du inte är bekant med Git och GitHub rekommenderar jag att du istället följer en av dessa andra 2 mer detaljerade handledningar som tar dig steg för steg:
 
 
 
-- Mellanliggande (GitHub Desktop) :
+- Mellanliggande (GitHub Desktop):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Nybörjare (webb Interface) :
+- Nybörjare (webb Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## Förslag på verktyg
 
 
-För redigering av Markdown-filer :
+För redigering av Markdown-filer:
 
 
 
@@ -47,7 +47,7 @@ För redigering av Markdown-filer :
 - Typora (betalprogram, ~€15, ej öppen källkod)
 
 
-För Git :
+För Git:
 
 
 
@@ -56,7 +56,7 @@ För Git :
 - Sourcetree (gratis, inte öppen källkod)
 
 
-För redigering av YAML-filer :
+För redigering av YAML-filer:
 
 
 
@@ -64,7 +64,7 @@ För redigering av YAML-filer :
 - Sublime Text (gratis med begränsningar, inte öppen källkod)
 
 
-För att skapa diagram och visuella bilder :
+För att skapa diagram och visuella bilder:
 
 
 
@@ -134,14 +134,14 @@ git push -u origin tuto-green-wallet-loic
 ***Anmärkning:*** Du kan automatisera steg 3 och 4 med hjälp av [mitt Python GUI-skript] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kör det direkt från dess mapp i din lokala klon och fyll sedan i de obligatoriska fälten i GUI. För mer information om hur du installerar och använder det, se [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
-Om du föredrar att göra det manuellt följer du dessa steg :
+Om du föredrar att göra det manuellt följer du dessa steg:
 
 
 
 - Leta reda på lämplig mapp i det lokala arkivet (t.ex. `tutorials/Wallet`).
 - Skapa en katalog som är avsedd för handledningen med ett tydligt namn (t.ex. `Green-Wallet`). Detta mappnamn kommer också att bestämma URL-sökvägen för handledningen. Namnet ska vara skrivet med gemener, utan specialtecken (utom bindestreck) och utan mellanslag.
 - Lägg till följande objekt i den här katalogen:
-    - En undermapp med namnet `assets` som innehåller :
+    - En undermapp med namnet `assets` som innehåller:
         - Två `.webp`-bilder:
             - `logo.webp`: Handledningens logotyp (fyrkantigt format med bakgrund). Denna logotyp måste representera den programvara eller det verktyg som presenteras. Om handledningen inte är specifik för ett verktyg (t.ex. en allmän guide för att generera en Mnemonic-fras) kan du välja en lämplig bild (t.ex. en generisk ikon).
             - `omslag.webp`: En omslagsbild som visas i början av handledningen.
@@ -209,23 +209,23 @@ Här är de obligatoriska fälten:
 
 
 
-- id** : En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
+- id**: En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
 
 
 
-- projekt_id** : UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- taggar** : 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori** : Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: `dator`, `hårdvara`, `mobil`, `backup`);
+- kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: `dator`, `hårdvara`, `mobil`, `backup`);
 
 
 
-- nivå** : Handledningens svårighetsgrad, vald från:
+- nivå**: Handledningens svårighetsgrad, vald från:
     - "nybörjare
     - "mellanliggande
     - "Avancerad
@@ -233,23 +233,23 @@ Här är de obligatoriska fälten:
 
 
 
-- professor_id** : Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
+- original_language**: Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
 
 
 
-- korrekturläsning** : Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
-    - språk** : Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
-    - last_contribution_date** : Datum för dagen.
-    - brådskande** : 1
-    - bidragsgivarens_namn** : Ditt GitHub-ID.
-    - belöning** : 0
+- korrekturläsning**: Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
+    - språk**: Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
+    - last_contribution_date**: Datum för dagen.
+    - brådskande**: 1
+    - bidragsgivarens_namn**: Ditt GitHub-ID.
+    - belöning**: 0
 
 
-För mer information om ditt lärar-ID, se motsvarande handledning :
+För mer information om ditt lärar-ID, se motsvarande handledning:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -287,7 +287,7 @@ reward: 0
 
 
 
-- Fyll i filegenskaperna för Markdown med :
+- Fyll i filegenskaperna för Markdown med:
     - Titeln (`namn`).
     - En kort beskrivning (`description`).
 - Lägg till omslagsbilden högst upp i handledningen med hjälp av Markdown-syntax (ersätt "Green" med namnet på det verktyg som visas):
@@ -299,9 +299,9 @@ reward: 0
 
 
 
-- Skriv innehållet i handledningen i Markdown :
+- Skriv innehållet i handledningen i Markdown:
     - Använd välstrukturerade rubriker (`##`), listor och stycken.
-    - Infoga bilder med hjälp av Markdown-syntax :
+    - Infoga bilder med hjälp av Markdown-syntax:
 
 
 ```
@@ -361,11 +361,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Formatering stöds på plattformen** :
+- Formatering stöds på plattformen**:
     - Klassisk Markdown: listor, länkar, bilder, citat, fetstil, kursiv stil etc.
     - LaTeX (endast block, inte inline): avgränsas av `$$`.
     - Inline-kod: Syntax med en enda backtick.
-    - Kodblock: Syntax med tre bakåtstreck, till exempel :
+    - Kodblock: Syntax med tre bakåtstreck, till exempel:
 
 
 ```
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- Illustrationer och diagram** :
+- Illustrationer och diagram**:
     - Alla bilder måste vara i WebP-format. Använd det här gratisverktyget för att konvertera dem om det behövs: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
     - Namnge bilderna med 2 eller 3 siffror (t.ex. `001.webp`, `002.webp`).
     - Använd mock-ups för handledning om mobiler eller Hardware Wallet.
     - Använd endast egenhändigt skapade eller royaltyfria bilder.
     - Se till att de är relevanta och av hög kvalitet.
-- Grafisk charter** :
+- Grafisk charter**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Färger Plan ₿ Network :
+    - Färger Plan ₿ Network:
         - Orange: `#FF5C00`
         - Svart: `#000000`
         - Vit: `#FFFFFFFF`

@@ -74,11 +74,11 @@ Krypteringsprogrammet Picocrypt** presenterar sig som **ett alternativ** till an
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Källa : [Github.com] (https://github.com/Picocrypt/Picocrypt)
+Källa: [Github.com] (https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt är ** mycket lätt**, väger bara ** 3 MB ** och behöver inte installeras: det är en ** bärbar applikation ** med fördelen att den inte kräver administratörsrättigheter! Det försummar dock inte säkerheten, eftersom det förlitar sig på **robusta och pålitliga algoritmer** :
+Picocrypt är ** mycket lätt**, väger bara ** 3 MB ** och behöver inte installeras: det är en ** bärbar applikation ** med fördelen att den inte kräver administratörsrättigheter! Det försummar dock inte säkerheten, eftersom det förlitar sig på **robusta och pålitliga algoritmer**:
 
 
 

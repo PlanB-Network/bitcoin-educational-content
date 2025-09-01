@@ -120,7 +120,7 @@ Mục tiêu: tăng cường đáng kể quyền riêng tư mà không làm gián
 
 
 
-Để truy cập cài đặt, hãy nhấp vào menu ☰ ở trên cùng bên phải, sau đó nhấp vào **"Cài đặt"** :
+Để truy cập cài đặt, hãy nhấp vào menu ☰ ở trên cùng bên phải, sau đó nhấp vào **"Cài đặt"**:
 
 
 
@@ -615,7 +615,7 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Bảo vệ theo dõi nâng cao](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Hướng dẫn chính thức về bảo vệ theo dõi nâng cao
+- [Bảo vệ theo dõi nâng cao](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Hướng dẫn chính thức về bảo vệ theo dõi nâng cao
 - [Phân vùng trạng thái](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tài liệu kỹ thuật về phân vùng trạng thái
 - [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Tài liệu tham khảo đầy đủ về bảo mật web
 

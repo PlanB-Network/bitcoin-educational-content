@@ -28,7 +28,7 @@ Aby se usnadnilo přijetí Bitcoin v komunitách po celém světě, zřídila sp
 
 
 
-Zkušenosti s místem prodeje, které nabízí Wallet z Satoshi, se od ostatních možností liší především svou jednoduchostí a plynulostí. Kromě toho, že nevyžaduje nic víc než mobilní aplikaci dostupnou v obchodě Google Play a iOS, můžete pomocí Wallet :
+Zkušenosti s místem prodeje, které nabízí Wallet z Satoshi, se od ostatních možností liší především svou jednoduchostí a plynulostí. Kromě toho, že nevyžaduje nic víc než mobilní aplikaci dostupnou v obchodě Google Play a iOS, můžete pomocí Wallet:
 
 
 
@@ -176,13 +176,13 @@ Nyní máte k dispozici nástroj, který vám umožní přijmout Bitcoin ve vaš
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-A pokud hledáte kompletní PoS vhodný pro malé a střední podniky, doporučuji také švýcarský Bitcoin Pay :
+A pokud hledáte kompletní PoS vhodný pro malé a střední podniky, doporučuji také švýcarský Bitcoin Pay:
 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Nakonec najdete náš kompletní školící kurz, kde se naučíte základy plateb Bitcoin a cash flow pro podniky :
+Nakonec najdete náš kompletní školící kurz, kde se naučíte základy plateb Bitcoin a cash flow pro podniky:
 
 
 

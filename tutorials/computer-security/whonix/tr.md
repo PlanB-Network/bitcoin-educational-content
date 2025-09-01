@@ -18,7 +18,7 @@ description: Gizliliğinizi ve mahremiyetinizi koruyun.
 
 
 - Ücretsiz**: Çoğu Linux dağıtımı gibi Whonix de tamamen ücretsiz olarak lisanslanmış açık kaynaklı bir sistemdir. Aktif ve şeffaf bir topluluk ile açık kaynak kodlu olarak geliştirilmiştir.
-- Gizlilik, güvenlik ve anonimlik** : Whonix'in ana hedefi, tüm verilerinizin korunduğu ve iletişiminizin Tor ağı üzerinden şifrelendiği ultra güvenli bir ortam sunmaktır.
+- Gizlilik, güvenlik ve anonimlik**: Whonix'in ana hedefi, tüm verilerinizin korunduğu ve iletişiminizin Tor ağı üzerinden şifrelendiği ultra güvenli bir ortam sunmaktır.
 - Kolay kullanım**: Whonix, acemi kullanıcılar için bile uygun, sezgisel, önceden yapılandırılmış bir grafik Interface sunar. Gelişmiş korumadan faydalanmak için uzman olmanıza gerek yok.
 - Güvenli geliştirme için ideal ortam**: Whonix, gerçek IP Address'inizi asla açığa çıkarmadan veya tarama veya ağ iletişim alışkanlıklarınızı ifşa etmeden programlar geliştirmenize, test etmenize, denetlemenize veya çalıştırmanıza olanak tanır.
 - Tek kullanımlık oturumlar ve Canlı mod**: Whonix, Canlı modda veya tek kullanımlık makineler aracılığıyla (örneğin **Qubes OS** aracılığıyla) başlatılabilir ve oturum sona erdiğinde kalıcı izler bırakmadan kritik görevlerin gerçekleştirilmesini sağlar.

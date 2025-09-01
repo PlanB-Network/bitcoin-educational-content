@@ -28,7 +28,7 @@ Bitcoin'ün dünyanın dört bir yanındaki topluluklarda benimsenmesini kolayla
 
 
 
-Wallet of Satoshi tarafından sunulan Satış Noktası deneyimi, öncelikle basitliği ve akıcılığı ile diğer seçeneklerden ayrılır. Google Play Store ve iOS'ta bulunan mobil uygulamadan başka bir şey gerektirmemesinin yanı sıra, Wallet'yi :
+Wallet of Satoshi tarafından sunulan Satış Noktası deneyimi, öncelikle basitliği ve akıcılığı ile diğer seçeneklerden ayrılır. Google Play Store ve iOS'ta bulunan mobil uygulamadan başka bir şey gerektirmemesinin yanı sıra, Wallet'yi:
 
 
 

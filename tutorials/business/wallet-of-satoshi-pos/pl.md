@@ -28,7 +28,7 @@ Aby ułatwić przyjęcie Bitcoin w społecznościach na całym świecie, Wallet 
 
 
 
-Doświadczenie w punkcie sprzedaży oferowane przez Wallet z Satoshi wyróżnia się spośród innych opcji przede wszystkim prostotą i płynnością. Oprócz tego, że nie wymaga niczego więcej niż aplikacji mobilnej dostępnej w Google Play Store i iOS, możesz użyć Wallet do :
+Doświadczenie w punkcie sprzedaży oferowane przez Wallet z Satoshi wyróżnia się spośród innych opcji przede wszystkim prostotą i płynnością. Oprócz tego, że nie wymaga niczego więcej niż aplikacji mobilnej dostępnej w Google Play Store i iOS, możesz użyć Wallet do:
 
 
 
@@ -176,7 +176,7 @@ Masz teraz narzędzie do akceptacji Bitcoin w swojej firmie w zaledwie kilka min
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-A jeśli szukasz kompletnego PoS odpowiedniego dla małych i średnich firm, polecam również Swiss Bitcoin Pay :
+A jeśli szukasz kompletnego PoS odpowiedniego dla małych i średnich firm, polecam również Swiss Bitcoin Pay:
 
 
 

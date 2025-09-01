@@ -38,7 +38,7 @@ Meno completo di Nmap, **Angry IP** Scanner è comunque interessante per una rap
 
 
 
-Se volete approfondire, consultate il tutorial su Nmap :
+Se volete approfondire, consultate il tutorial su Nmap:
 
 
 

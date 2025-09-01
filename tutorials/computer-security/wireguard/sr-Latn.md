@@ -30,7 +30,7 @@ WireGuard je relativno nedavno rešenje, dostupno kao stabilna verzija od marta 
 
 
 
-Neke ključne tačke o WireGuard-u :
+Neke ključne tačke o WireGuard-u:
 
 
 
@@ -95,7 +95,7 @@ U ovom primeru, fokusiraću se na sledeći slučaj: **sa mog Windows Peer 1 pove
 
 
 
-U smislu IP adresa, ovo daje :
+U smislu IP adresa, ovo daje:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Ako navedete IP adrese vašeg Debian 11 servera, videćete novi Interface nazvan "wg0" sa IP Address definisanim u konfiguracionoj datoteci :
+Ako navedete IP adrese vašeg Debian 11 servera, videćete novi Interface nazvan "wg0" sa IP Address definisanim u konfiguracionoj datoteci:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Konačno, treba da aktiviramo automatsko pokretanje našeg Interface wg0 WireGuard :
+Konačno, treba da aktiviramo automatsko pokretanje našeg Interface wg0 WireGuard:
 
 
 
@@ -286,7 +286,7 @@ Da bi naš Debian 11 mašina mogla **rutirati pakete između različitih mreža 
 
 
 
-Izmenite ovu konfiguracionu datoteku :
+Izmenite ovu konfiguracionu datoteku:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Dodajte sledeću direktivu na kraj datoteke i sačuvajte :
+Dodajte sledeću direktivu na kraj datoteke i sačuvajte:
 
 
 
@@ -318,7 +318,7 @@ Da bi naš server ispravno rutirao pakete i da bi udaljeni LAN bio dostupan Wind
 
 
 
-Ako već nemate UFW i želite da ga postavite (takođe možete koristiti Nftables), počnite instaliranjem :
+Ako već nemate UFW i želite da ga postavite (takođe možete koristiti Nftables), počnite instaliranjem:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Slika prikazuje :
+Slika prikazuje:
 
 
 
@@ -490,7 +490,7 @@ Moramo dovršiti ovu konfiguraciju, posebno da deklariramo IP Address na ovom In
 
 
 
-Hajde da počnemo sa blokom `[Interface]`, dodajući IP Address "**192.168.110.2**"; zapamti da server ima IP Address "**192.168.110.121**" na ovom segmentu mreže. Ovo daje :
+Hajde da počnemo sa blokom `[Interface]`, dodajući IP Address "**192.168.110.2**"; zapamti da server ima IP Address "**192.168.110.121**" na ovom segmentu mreže. Ovo daje:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Na slikama :
+Na slikama:
 
 
 
@@ -691,7 +691,7 @@ Sa trenutnom konfiguracijom, deo saobraćaja prolazi kroz VPN, a ostatak kroz ko
 
 
 
-Prvo, treba da instalirate paket "resolvconf" na :
+Prvo, treba da instalirate paket "resolvconf" na:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Sačuvaj datoteku, zatim ponovo pokreni Interface :
+Sačuvaj datoteku, zatim ponovo pokreni Interface:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Od :
+Od:
 
 
 
@@ -772,7 +772,7 @@ WireGuardova konfiguracija je prilično jednostavna i laka za razumevanje, a pre
 
 
 
-Dodatna dokumentacija :
+Dodatna dokumentacija:
 
 
 

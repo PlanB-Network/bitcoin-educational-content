@@ -18,7 +18,7 @@ description: Preservare la vostra privacy e riservatezza.
 
 
 - Gratuito**: Come la maggior parte delle distribuzioni Linux, Whonix è un sistema open-source con licenza completamente gratuita. È sviluppato in open source, con una comunità attiva e trasparente.
-- Privacy, sicurezza e anonimato** : L'obiettivo principale di Whonix è offrire un ambiente ultra-sicuro, in cui tutti i dati sono protetti e le comunicazioni criptate attraverso la rete Tor.
+- Privacy, sicurezza e anonimato**: L'obiettivo principale di Whonix è offrire un ambiente ultra-sicuro, in cui tutti i dati sono protetti e le comunicazioni criptate attraverso la rete Tor.
 - Facile da usare**: Whonix offre un Interface intuitivo e preconfigurato, adatto anche agli utenti meno esperti. Non è necessario essere esperti per beneficiare di una protezione avanzata.
 - Ambiente ideale per lo sviluppo sicuro**: Whonix consente di sviluppare, testare, verificare o eseguire programmi senza mai rivelare il vostro vero IP Address o esporre le vostre abitudini di navigazione o di comunicazione in rete.
 - Sessioni monouso e modalità Live**: Whonix può essere lanciato in modalità Live o tramite macchine usa e getta (ad esempio tramite **Qubes OS**), consentendo di eseguire attività critiche senza lasciare tracce persistenti una volta terminata la sessione.
@@ -153,7 +153,7 @@ Accedere alla scheda **Sistema**, dove l'allocazione predefinita della RAM è di
 
 
 
-Affinché Whonix funzioni in modo corretto e sicuro, **è necessario seguire questa sequenza di avvio** :
+Affinché Whonix funzioni in modo corretto e sicuro, **è necessario seguire questa sequenza di avvio**:
 
 
 

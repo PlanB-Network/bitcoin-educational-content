@@ -15,7 +15,7 @@ Rešenje je jednostavno, lagano i autonomno. Omogućava kreiranje online prodavn
 
 
 
-U ovom vodiču, provest ćemo vas korak po korak kroz :
+U ovom vodiču, provest ćemo vas korak po korak kroz:
 
 
 
@@ -44,7 +44,7 @@ Pre nego što počnete sa instalacijom be-BOP, uverite se da imate sledeću tehn
 
 
 
-be-BOP koristi sistem skladištenja za upravljanje fajlovima (kao što su slike proizvoda). Ovo zahteva pristup S3 servisu, kao što je :
+be-BOP koristi sistem skladištenja za upravljanje fajlovima (kao što su slike proizvoda). Ovo zahteva pristup S3 servisu, kao što je:
 
 
 
@@ -302,7 +302,7 @@ Ako ne želite sami da upravljate Lightning čvorom, **Swiss Bitcoin Pay** je sp
 
 
 
-Koraci konfiguracije :
+Koraci konfiguracije:
 
 
 
@@ -330,7 +330,7 @@ Pored Bitcoin, be-BOP vam takođe omogućava da prihvatite gotovinske uplate put
 
 
 
-Koraci konfiguracije :
+Koraci konfiguracije:
 
 
 
@@ -467,7 +467,7 @@ Konfiguracija **Top Bar** omogućava personalizaciju vizuelnog identiteta vašeg
 
 
 
-#### Koraci konfiguracije :
+#### Koraci konfiguracije:
 
 
 
@@ -491,7 +491,7 @@ Odjeljak `Linkovi` u Gornjoj traci omogućava vam dodavanje prečica do važnih 
 
 
 
-#### Koraci konfiguracije :
+#### Koraci konfiguracije:
 
 
 
@@ -760,7 +760,7 @@ Idite na `Admin > Merch > Products` da biste dodali ili izmenili proizvod. Popun
 
 - Cena Iznos**: cena proizvoda (npr. `25.00`).
 - Cena Valuta**: valuta (EUR, USD, BTC, itd.).
-- Specijalni proizvodi** :
+- Specijalni proizvodi**:
   - ovo je besplatan proizvod.
   - ovo je proizvod plati-koliko-želiš.
 
@@ -773,7 +773,7 @@ Idite na `Admin > Merch > Products` da biste dodali ili izmenili proizvod. Popun
 
 
 - Jedan proizvod (`standalone`)**: samo jedno dodavanje moguće po narudžbini (npr. donacija, ulaznica).
-- Proizvod sa varijacijama** :
+- Proizvod sa varijacijama**:
   - Nemoj proveravati `Standalone`.
   - Proveri `Proizvod ima male varijacije (nema razlike u zalihama)`.
   - Dodaj:
@@ -803,7 +803,7 @@ Ako vaš proizvod nije dostupan u neograničenim količinama, označite `Proizvo
 
 
 
-Sistem upravlja :
+Sistem upravlja:
 
 
 
@@ -872,7 +872,7 @@ Idite na `Admin > Merch > CMS`. Videćete listu postojećih stranica i možete d
 
 
 
-CMS stranice su važne za :
+CMS stranice su važne za:
 
 
 
@@ -956,7 +956,7 @@ Idite na: `Admin > Merch > Pictures`
 
 
 
-Možete :
+Možete:
 
 
 
@@ -1004,7 +1004,7 @@ Primeri dostupnih widgeta:
 - Izazovi**: izazovi ili misije
 - Tagovi**: kategorije ili ključne reči
 - Slajderi**: karuseli sa slikama
-- Specifikacije** : Tabele specifikacija
+- Specifikacije**: Tabele specifikacija
 - Forms**: forme (kontakt, povratne informacije, itd.)
 - Odbrojavanja**: tajmeri
 - Galerije**: galerije slika
@@ -1033,7 +1033,7 @@ Koristite **shortcodes** u sadržaju vaših CMS stranica:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Trenutni parametri** :
+**Trenutni parametri**:
 
 
 
@@ -1046,7 +1046,7 @@ Koristite **shortcodes** u sadržaju vaših CMS stranica:
 
 
 
-**Prednosti** :
+**Prednosti**:
 
 
 
@@ -1103,7 +1103,7 @@ Ovi filteri olakšavaju brze pretrage i ciljani menadžment.
 
 
 
-Klikom na narudžbinu možete pristupiti kompletnom fajlu koji sadrži :
+Klikom na narudžbinu možete pristupiti kompletnom fajlu koji sadrži:
 
 
 
@@ -1120,7 +1120,7 @@ Klikom na narudžbinu možete pristupiti kompletnom fajlu koji sadrži :
 
 
 
-Možete :
+Možete:
 
 
 
@@ -1141,7 +1141,7 @@ Možete :
 
 
 
-Da pristupite statistikama prodaje i plaćanja :
+Da pristupite statistikama prodaje i plaćanja:
 
 
 administrator > Settings > Reporting
@@ -1217,7 +1217,7 @@ Platforma podržava protokol **Nostr** za određene napredne funkcije:
 
 
 
-Idi na :
+Idi na:
 
 
 admin > Upravljanje čvorovima > Nostr
@@ -1304,7 +1304,7 @@ Ovde ćete pronaći sve opcije za **kreiranje** i **konfigurisanje** prilagođen
 
 
 
-Kada kreirate ili modifikujete temu, možete definisati :
+Kada kreirate ili modifikujete temu, možete definisati:
 
 
 
@@ -1328,7 +1328,7 @@ Svaki deo sajta može se podešavati nezavisno:
 
 - Zaglavlje**: gornja navigaciona traka
 - Body**: glavni sadržaj
-- Futer** : dno stranice
+- Futer**: dno stranice
 
 
 
@@ -1340,7 +1340,7 @@ Svaki deo sajta može se podešavati nezavisno:
 
 
 
-Kada je tema konfigurisana :
+Kada je tema konfigurisana:
 
 
 
@@ -1371,7 +1371,7 @@ Platforma vam omogućava da personalizujete e-poštu koja se automatski šalje k
 
 
 
-Svaki email (potvrda narudžbine, zaboravljena lozinka, itd.) ima :
+Svaki email (potvrda narudžbine, zaboravljena lozinka, itd.) ima:
 
 
 
@@ -1390,14 +1390,14 @@ Svaki email (potvrda narudžbine, zaboravljena lozinka, itd.) ima :
 
 
 
-Da bi mejlovi bili dinamični, ubacite promenljive kao što su :
+Da bi mejlovi bili dinamični, ubacite promenljive kao što su:
 
 
 
 
 
-- `{orderNumber}}` : zamenjeno stvarnim brojem narudžbine
-- `{invoiceLink}}` : link ka Invoice
+- `{orderNumber}}`: zamenjeno stvarnim brojem narudžbine
+- `{invoiceLink}}`: link ka Invoice
 - `{websiteLink}}`: URL vaše veb stranice
 
 
@@ -1454,7 +1454,7 @@ Popunite sledeća polja:
 
 
 
-#### Dostupne porodice :
+#### Dostupne porodice:
 
 
 
@@ -1489,7 +1489,7 @@ Ova polja se mogu koristiti za obogaćivanje oznake kao da je stranica sa sadrž
 
 
 
-Oznake mogu biti :
+Oznake mogu biti:
 
 
 
@@ -1515,7 +1515,7 @@ Da biste ponudili dokumente za preuzimanje svojim kupcima: `Admin > Merch > File
 1. Kliknite na **New file**
 
 
-2. Informi :
+2. Informi:
 
 
 
@@ -1533,7 +1533,7 @@ Da biste ponudili dokumente za preuzimanje svojim kupcima: `Admin > Merch > File
 
 
 
-Ovaj link se zatim može umetnuti u :
+Ovaj link se zatim može umetnuti u:
 
 
 
@@ -1583,7 +1583,7 @@ Idite na: node Management > Nostr
 
 
 - Aktivirajte automatsku poruku pri **prvoj interakciji korisnika**
-- Idealno za :
+- Idealno za:
   - Predstavljanje vaše usluge
   - Pošaljite koristan link (npr. FAQ, kontakt, narudžba)
 
@@ -1641,7 +1641,7 @@ Datoteke za prevod su u JSON formatu. Možete:
 
 
 
-Link ka originalnim fajlovima :
+Link ka originalnim fajlovima:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Kliknite na **Create a role** da kreirate ulogu (npr. `Super Admin`, `POS`, `Tic
 
 
 
-Svaka uloga sadrži :
+Svaka uloga sadrži:
 
 
 
@@ -1688,7 +1688,7 @@ Svaka uloga sadrži :
 
 
 
-U istom meniju `Admin > Settings > ARM`, dodajte korisnika sa :
+U istom meniju `Admin > Settings > ARM`, dodajte korisnika sa:
 
 
 
@@ -1760,7 +1760,7 @@ U `/cart`, polje vam omogućava da dodate proizvod:
 
 
 
-POS podržava :
+POS podržava:
 
 
 
@@ -1779,7 +1779,7 @@ Dve napredne opcije su dostupne:
 
 
 
-- Izuzimanje od PDV-a** : primenljivo uz opravdanje (NVO, stranci...)
+- Izuzimanje od PDV-a**: primenljivo uz opravdanje (NVO, stranci...)
 - Poklon popust**: izuzetan popust uz obavezan komentar
 
 

@@ -30,7 +30,7 @@ WireGuard er en relativt ny løsning, som har vært tilgjengelig som en stabil v
 
 
 
-Noen viktige punkter om WireGuard :
+Noen viktige punkter om WireGuard:
 
 
 
@@ -95,7 +95,7 @@ I dette eksempelet vil jeg fokusere på følgende tilfelle: **fra min Windows Pe
 
 
 
-Når det gjelder IP-adresser, gir dette :
+Når det gjelder IP-adresser, gir dette:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Verdien av den offentlige nøkkelen vil bli returnert i konsollen. I WireGuard-konfigurasjonsfilen må vi **legge til verdien av vår private nøkkel**. For å hente denne verdien, skriv inn kommandoen nedenfor og kopier verdien :
+Verdien av den offentlige nøkkelen vil bli returnert i konsollen. I WireGuard-konfigurasjonsfilen må vi **legge til verdien av vår private nøkkel**. For å hente denne verdien, skriv inn kommandoen nedenfor og kopier verdien:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Hvis du lister opp IP-adressene til Debian 11-serveren din, vil du se en ny Interface med navnet "wg0" med IP Address definert i konfigurasjonsfilen :
+Hvis du lister opp IP-adressene til Debian 11-serveren din, vil du se en ny Interface med navnet "wg0" med IP Address definert i konfigurasjonsfilen:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Til slutt må vi aktivere automatisk oppstart av vår Interface wg0 WireGuard :
+Til slutt må vi aktivere automatisk oppstart av vår Interface wg0 WireGuard:
 
 
 
@@ -286,7 +286,7 @@ For at Debian 11-maskinen vår skal kunne **rute pakker mellom forskjellige nett
 
 
 
-Endre denne konfigurasjonsfilen :
+Endre denne konfigurasjonsfilen:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Legg til følgende direktiv på slutten av filen, og lagre :
+Legg til følgende direktiv på slutten av filen, og lagre:
 
 
 
@@ -318,7 +318,7 @@ For at serveren vår skal kunne rute pakker riktig og for at det eksterne LAN-ne
 
 
 
-Hvis du ikke allerede har UFW og ønsker å sette det opp (du kan også bruke Nftables), begynner du med å installere :
+Hvis du ikke allerede har UFW og ønsker å sette det opp (du kan også bruke Nftables), begynner du med å installere:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Bildet viser :
+Bildet viser:
 
 
 
@@ -490,7 +490,7 @@ Vi må fullføre denne konfigurasjonen, spesielt for å deklarere IP Address på
 
 
 
-La oss starte med `[Interface]`-blokken, og legge til IP Address "**192.168.110.2**"; husk at serveren har IP Address "**192.168.110.121**" på dette nettverkssegmentet. Dette gir :
+La oss starte med `[Interface]`-blokken, og legge til IP Address "**192.168.110.2**"; husk at serveren har IP Address "**192.168.110.121**" på dette nettverkssegmentet. Dette gir:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-I bilder :
+I bilder:
 
 
 
@@ -691,7 +691,7 @@ Med den nåværende konfigurasjonen flyter en del av trafikken gjennom VPN-et, o
 
 
 
-Først må du installere pakken "resolvconf" på :
+Først må du installere pakken "resolvconf" på:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Til slutt, i tunnelkonfigurasjonen på Windows 10-arbeidsstasjonen, må du endre delen "AllowedIPs" for å indikere at alt må passere gjennom tunnelen. Erstatt :
+Til slutt, i tunnelkonfigurasjonen på Windows 10-arbeidsstasjonen, må du endre delen "AllowedIPs" for å indikere at alt må passere gjennom tunnelen. Erstatt:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Av :
+Av:
 
 
 
@@ -772,7 +772,7 @@ WireGuards konfigurasjon er ganske enkel og lett å forstå, og fremfor alt å v
 
 
 
-Ytterligere dokumentasjon :
+Ytterligere dokumentasjon:
 
 
 

@@ -62,7 +62,7 @@ A sua caraterística única? O Orion é o **único navegador WebKit** que instal
 
 - Disponibilidade limitada**: Atualmente reservado para macOS e iOS/iPadOS. Uma versão para Linux está a atingir os marcos de desenvolvimento (marco 2 em 2025), mas não está disponível uma versão pública. O Windows e o Android não estão a ser desenvolvidos por falta de recursos.
 - Código-fonte fechado**: Embora alguns componentes sejam de código aberto, o Orion continua a ser predominantemente proprietário, um ponto de debate na comunidade da privacidade.
-- Extensões experimentais** : O suporte de extensões permanece em versão beta, com incompatibilidades frequentes. As extensões podem afetar o desempenho e algumas não funcionam de todo.
+- Extensões experimentais**: O suporte de extensões permanece em versão beta, com incompatibilidades frequentes. As extensões podem afetar o desempenho e algumas não funcionam de todo.
 - Segurança do WebKit**: Ao contrário do Chromium, o WebKit não oferece um isolamento de processos por site tão robusto, o que pode representar riscos de segurança em determinados cenários.
 - Testes de bloqueio**: O Orion tem um desempenho deliberadamente fraco nos testes de publicidade online (26-35%), uma vez que a Kagi considera que estes testes são "fundamentalmente imperfeitos". A eficácia real na utilização quotidiana é muito superior.
 
@@ -105,7 +105,7 @@ A sua caraterística única? O Orion é o **único navegador WebKit** que instal
 
 
 
-**Alternativa Homebrew** :
+**Alternativa Homebrew**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Estas ferramentas estão sempre disponíveis e permitem-lhe controlar a sua expe
 
 
 
-**Orion+ (opcional)**: Para apoiar o desenvolvimento de projectos, a Kagi oferece o Orion+ ($5/mês, $50/ano ou $150 vitalício). Esta subscrição voluntária permite :
+**Orion+ (opcional)**: Para apoiar o desenvolvimento de projectos, a Kagi oferece o Orion+ ($5/mês, $50/ano ou $150 vitalício). Esta subscrição voluntária permite:
 
 
 
@@ -234,7 +234,7 @@ Orion+ garante a independência do projeto: "A sua contribuição financeira aju
 
 
 
-Aceder às preferências através de **Orion → Preferências** (ou ⌘,) :
+Aceder às preferências através de **Orion → Preferências** (ou ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Aceder às preferências através de **Orion → Preferências** (ou ⌘,) :
 
 
 
-**Bloqueador de conteúdos ativo por defeito** :
+**Bloqueador de conteúdos ativo por defeito**:
 
 
 
 
-- EasyList** : mais de 119 mil regras de bloqueio de anúncios
+- EasyList**: mais de 119 mil regras de bloqueio de anúncios
 - EasyPrivacy**: Proteção contra o rastreio
 - Gerenciar listas de filtros**: Adicionar listas adicionais (recomendado pelo Hagezi)
 
 
 
-**Opções de privacidade** :
+**Opções de privacidade**:
 
 
 
@@ -307,7 +307,7 @@ Aceder às preferências através de **Orion → Preferências** (ou ⌘,) :
 
 
 
-**Acesso rápido**: Clique na engrenagem ⚙️ na barra Address para ajustar :
+**Acesso rápido**: Clique na engrenagem ⚙️ na barra Address para ajustar:
 
 
 
@@ -323,11 +323,11 @@ Aceder às preferências através de **Orion → Preferências** (ou ⌘,) :
 
 
 
-**Criar filtros personalizados** (Privacidade → Gerir listas de filtros → Filtros personalizados) :
+**Criar filtros personalizados** (Privacidade → Gerir listas de filtros → Filtros personalizados):
 
 
 
-**Sintaxe simplificada** (compatível com Adblock Plus) :
+**Sintaxe simplificada** (compatível com Adblock Plus):
 
 
 
@@ -350,7 +350,7 @@ O Orion suporta nativamente as extensões do Chrome e do Firefox. Instale-as dir
 
 
 
-**Elementos essenciais** :
+**Elementos essenciais**:
 
 
 
@@ -361,7 +361,7 @@ O Orion suporta nativamente as extensões do Chrome e do Firefox. Instale-as dir
 
 
 
-**Opcional** :
+**Opcional**:
 
 
 
@@ -372,7 +372,7 @@ O Orion suporta nativamente as extensões do Chrome e do Firefox. Instale-as dir
 
 
 
-Para instalar um :
+Para instalar um:
 
 
 
@@ -411,7 +411,7 @@ A ferramenta **brush** do Orion é uma caraterística única que lhe permite per
 
 
 
-**Opções de tema** :
+**Opções de tema**:
 
 
 
@@ -421,7 +421,7 @@ A ferramenta **brush** do Orion é uma caraterística única que lhe permite per
 
 
 
-**Controlo tipográfico** :
+**Controlo tipográfico**:
 
 
 
@@ -431,7 +431,7 @@ A ferramenta **brush** do Orion é uma caraterística única que lhe permite per
 
 
 
-**Limpeza do Interface** :
+**Limpeza do Interface**:
 
 
 
@@ -447,13 +447,13 @@ A ferramenta **brush** do Orion é uma caraterística única que lhe permite per
 
 
 
-**Gestão avançada de separadores** :
+**Gestão avançada de separadores**:
 
 
 
 
 - Separadores verticais**: Ativar através da barra de menus (função Separadores laterais)
-- Separadores compactos** : Em Preferências → Separadores → Layout "Compacto" para poupar espaço
+- Separadores compactos**: Em Preferências → Separadores → Layout "Compacto" para poupar espaço
 - Grupos de separadores**: Organize as suas sessões por tema
 - Múltiplos perfis**: Criar identidades separadas através da barra de menu (função Perfis) com dados completamente isolados
 
@@ -463,7 +463,7 @@ A ferramenta **brush** do Orion é uma caraterística única que lhe permite per
 
 
 
-**Ferramentas incorporadas** (menu Editar e outras) :
+**Ferramentas incorporadas** (menu Editar e outras):
 
 
 
@@ -507,7 +507,7 @@ Para manter Orion rápido e privado:
 
 
 
-- Extensões** : Limitar ao mínimo estritamente necessário (pode reduzir o desempenho)
+- Extensões**: Limitar ao mínimo estritamente necessário (pode reduzir o desempenho)
 - Modo de baixo consumo**: Ativar para sessões longas (90% de poupança possível)
 - Relatório de privacidade**: Clique no escudo 🛡️ para ver os bloqueios em tempo real
 - Personalização visual**: Utilize o pincel 🖌️ para adaptar o ecrã e remover o Elements que distrai
@@ -552,7 +552,7 @@ Para manter Orion rápido e privado:
 
 
 
-**Ideal para** :
+**Ideal para**:
 
 
 
@@ -566,7 +566,7 @@ Para manter Orion rápido e privado:
 
 
 
-**Evitar se** :
+**Evitar se**:
 
 
 
@@ -645,8 +645,8 @@ Lembre-se: a proteção da sua privacidade não depende apenas do seu browser. C
 - FAQ completo**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Fórum da comunidade**: [community.kagi.com](https://community.kagi.com)
 - Acompanhamento de bugs**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Componentes de código aberto
-- Blogue Kagi** : [blog.kagi.com](https://blog.kagi.com) - Notícias e actualizações
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Componentes de código aberto
+- Blogue Kagi**: [blog.kagi.com](https://blog.kagi.com) - Notícias e actualizações
 
 
 
@@ -679,7 +679,7 @@ Para uma proteção máxima, consulte os nossos outros guias:
 
 
 
-Se quiser saber mais sobre a história e o funcionamento dos navegadores, bem como sobre os principais objectos digitais da sua vida quotidiana, convido-o a descobrir o nosso novo curso de formação gratuito SCU 202, disponível em Plan ₿ Network :
+Se quiser saber mais sobre a história e o funcionamento dos navegadores, bem como sobre os principais objectos digitais da sua vida quotidiana, convido-o a descobrir o nosso novo curso de formação gratuito SCU 202, disponível em Plan ₿ Network:
 
 
 

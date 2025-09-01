@@ -279,7 +279,7 @@ Cel: rozdzielenie działań i ograniczenie wycieków sieciowych.
 
 
 - Status domyślny**: Aktywowane automatycznie w niektórych regionach (USA, Kanada, Rosja, Ukraina). W innych regionach wymagana jest ręczna aktywacja.
-- Konfiguracja** : Ustawienia → Ogólne → Ustawienia sieci → **Włącz DoH** → **Cloudflare** lub **Quad9** → **Maksymalna ochrona**.
+- Konfiguracja**: Ustawienia → Ogólne → Ustawienia sieci → **Włącz DoH** → **Cloudflare** lub **Quad9** → **Maksymalna ochrona**.
 - Maksymalna ochrona = tylko TRR** (bez powrotu do systemowego DNS). Jeśli sieć korporacyjna/hotelowa blokuje, przełącz się z powrotem na **Standard** lub wyłącz DoH.
 - Redundancja**: Jeśli korzystasz już z zaufanej sieci VPN z własnym bezpiecznym DNS, DoH może być nadmiarowy.
 - Test weryfikacyjny**: `https://www.dnsleaktest.com/` powinien wyświetlać tylko wybranego dostawcę DoH.
@@ -559,7 +559,7 @@ Najlepsze praktyki
 - Wzmocniona przeglądarka ≠ anonimowość sieci: bez **VPN** Twój adres IP pozostaje widoczny; nawet z nim korelacja pozostaje możliwa.
 - Zbyt duża modyfikacja może uczynić cię **unikalnym**. **RFP** standaryzuje; narzędzia do randomizacji (np. Chameleon) mogą cię... wyróżnić. Testuj, porównuj, dostosowuj.
 - Alternatywy/uzupełnienia:
- - Tor Browser: anonimowość w sieci dzięki przeglądarce Tor; wolniejsza. Zobacz nasz kompletny przewodnik instalacji i konfiguracji** :
+ - Tor Browser: anonimowość w sieci dzięki przeglądarce Tor; wolniejsza. Zobacz nasz kompletny przewodnik instalacji i konfiguracji**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Oficjalny przewodnik po rozszerzonej ochronie przed śledzeniem
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Oficjalny przewodnik po rozszerzonej ochronie przed śledzeniem
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Dokumentacja techniczna dotycząca partycjonowania stanów
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Kompletne informacje na temat bezpieczeństwa sieci
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Kompletne informacje na temat bezpieczeństwa sieci
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Kompletny zestaw testów (WebRTC, Canvas, Czcionki, itp.)
 - [BadSSL](https://badssl.com/): Testy sprawdzania poprawności certyfikatów SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Zaawansowana analiza 50+ wektorów fingerprintingu
-- [Test DNS Cloudflare](https://1.1.1.1/help) : Sprawdzanie, czy Cloudflare DoH działa poprawnie
+- [Test DNS Cloudflare](https://1.1.1.1/help): Sprawdzanie, czy Cloudflare DoH działa poprawnie

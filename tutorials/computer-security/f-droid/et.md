@@ -71,7 +71,7 @@ F-Droid pakub põhjalikku teavet iga rakenduse kohta, mida soovite paigaldada.
 
 
 
-Kui klõpsate taotlusel, leiate muu hulgas :
+Kui klõpsate taotlusel, leiate muu hulgas:
 
 
 
@@ -96,7 +96,7 @@ Kui klõpsate taotlusel, leiate muu hulgas :
 
 
 
-Lisateavet leiate meie Thunderbirdi õpetusest :
+Lisateavet leiate meie Thunderbirdi õpetusest:
 
 
 
@@ -117,7 +117,7 @@ Andke F-Droidile paigaldusõigused, lubades selle võimaluse oma seadetes.
 
 
 
-F-Droid julgustab avatud lähtekoodiga ja kogukonna panust, eelkõige oma **Near By** Exchange valiku kaudu. Ühendage end ümbritsevate kasutajatega läbi :
+F-Droid julgustab avatud lähtekoodiga ja kogukonna panust, eelkõige oma **Near By** Exchange valiku kaudu. Ühendage end ümbritsevate kasutajatega läbi:
 
 
 

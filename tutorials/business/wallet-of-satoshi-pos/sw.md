@@ -176,13 +176,13 @@ Sasa una zana ya kukubali Bitcoin katika biashara yako kwa dakika chache tu. Iki
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-Na ikiwa unatafuta PoS kamili inayofaa kwa biashara ndogo na za kati, pia ninapendekeza Uswisi Bitcoin Pay :
+Na ikiwa unatafuta PoS kamili inayofaa kwa biashara ndogo na za kati, pia ninapendekeza Uswisi Bitcoin Pay:
 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Hatimaye, pata kozi yetu kamili ya mafunzo ili kujifunza misingi ya malipo ya Bitcoin na mtiririko wa pesa kwa biashara :
+Hatimaye, pata kozi yetu kamili ya mafunzo ili kujifunza misingi ya malipo ya Bitcoin na mtiririko wa pesa kwa biashara:
 
 
 

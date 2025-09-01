@@ -18,7 +18,7 @@ description: Bevar personvernet og konfidensialiteten din.
 
 
 - Gratis**: I likhet med de fleste Linux-distribusjoner er Whonix et system med åpen kildekode som lisensieres helt gratis. Det er utviklet i åpen kildekode, med et aktivt og åpent fellesskap.
-- Personvern, sikkerhet og anonymitet** : Whonix' hovedmål er å tilby et ultrasikkert miljø, der alle dataene dine er beskyttet og kommunikasjonen din kryptert via Tor-nettverket.
+- Personvern, sikkerhet og anonymitet**: Whonix' hovedmål er å tilby et ultrasikkert miljø, der alle dataene dine er beskyttet og kommunikasjonen din kryptert via Tor-nettverket.
 - Enkel å bruke**: Whonix tilbyr en intuitiv, forhåndskonfigurert grafisk Interface, som passer selv for nybegynnere. Du trenger ikke å være ekspert for å dra nytte av avansert beskyttelse.
 - Ideelt miljø for sikker utvikling**: Med Whonix kan du utvikle, teste, revidere eller kjøre programmer uten å avsløre din virkelige IP Address eller eksponere dine surfe- eller nettverkskommunikasjonsvaner.
 - Engangsøkter og Live-modus**: Whonix kan startes i Live-modus eller via engangsmaskiner (f.eks. via **Qubes OS**), noe som gjør det mulig å utføre kritiske oppgaver uten å etterlate vedvarende spor når økten er avsluttet.
@@ -153,7 +153,7 @@ Gå til fanen **System**, der standard RAM-allokering er 2048 MB. Vi anbefaler a
 
 
 
-For at Whonix skal fungere korrekt og sikkert, **må du følge denne oppstartssekvensen** :
+For at Whonix skal fungere korrekt og sikkert, **må du følge denne oppstartssekvensen**:
 
 
 

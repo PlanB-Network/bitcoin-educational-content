@@ -122,7 +122,7 @@ Sonda için, minimal kurulumda bir **Debian 11** makinesi seçiyorum.
 
 
 
-İlk adım, her zaman aynı, :
+İlk adım, her zaman aynı,:
 
 
 
@@ -212,7 +212,7 @@ iface ens36 inet manual
 
 
 - auto *Interface***: sistem başlangıcında Interface'u otomatik olarak "başlatır"
-- iface *Interface* inet manual** : Interface'u herhangi bir IP Address olmadan kullanmak için. Statik bir IP Address tanımlamak için "static" veya dinamik adresleme kullanmak için "dhcp" anahtar kelimesi gibi
+- iface *Interface* inet manual**: Interface'u herhangi bir IP Address olmadan kullanmak için. Statik bir IP Address tanımlamak için "static" veya dinamik adresleme kullanmak için "dhcp" anahtar kelimesi gibi
 
 
 
@@ -286,7 +286,7 @@ Varsayılan olarak, paket kaynakları yalnızca **main** anahtar sözcüğü ile
 
 
 
-Etc/apt/sources.list içinde bir satır örneği :
+Etc/apt/sources.list içinde bir satır örneği:
 
 
 
@@ -300,7 +300,7 @@ Bu yüzden bu gibi satırlara sadece **contrib** kelimesini ekleyeceğim.
 
 
 
-Adımların geri kalanı [NtopNG] sitesinde (https://packages.ntop.org/apt/) listelenmiştir, burada Debian 11 için gelecekteki kurulum için Ntop kaynaklarını eklemeniz gerekir. Bu ekleme otomatik olarak bir :
+Adımların geri kalanı [NtopNG] sitesinde (https://packages.ntop.org/apt/) listelenmiştir, burada Debian 11 için gelecekteki kurulum için Ntop kaynaklarını eklemeniz gerekir. Bu ekleme otomatik olarak bir:
 
 
 
@@ -474,7 +474,7 @@ Bu şekle tıklandığında uyarıların ayrıntıları görüntülenir. Burada 
 
 
 
-Bununla birlikte, ücretsiz sürümü kullandığım için, uyarıların kaynağı olan alan adlarını veya ana bilgisayarları hariç tutamıyorum, bu nedenle çok daha endişe verici bir şeyi kaçırmamak için onlara göz kulak olmanız gerekecek. NtopNG, :
+Bununla birlikte, ücretsiz sürümü kullandığım için, uyarıların kaynağı olan alan adlarını veya ana bilgisayarları hariç tutamıyorum, bu nedenle çok daha endişe verici bir şeyi kaçırmamak için onlara göz kulak olmanız gerekecek. NtopNG,:
 
 
 

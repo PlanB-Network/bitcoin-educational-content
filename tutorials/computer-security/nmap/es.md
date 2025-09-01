@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-La respuesta aquí indica claramente que el paquete "nmap" existe en los repositorios (aquí, los de Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). A partir de ahora, puede instalar Nmap a través de los comandos de instalación habituales, nada desarma por el momento 🙂 :
+La respuesta aquí indica claramente que el paquete "nmap" existe en los repositorios (aquí, los de Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). A partir de ahora, puede instalar Nmap a través de los comandos de instalación habituales, nada desarma por el momento 🙂:
 
 
 
@@ -389,7 +389,7 @@ Para instalarlo en un sistema operativo Windows, empieza por descargar el binari
 
 
 
-A continuación, deberá descargar el binario llamado `nmap-<VERSION>-setup.exe` :
+A continuación, deberá descargar el binario llamado `nmap-<VERSION>-setup.exe`:
 
 
 
@@ -562,13 +562,13 @@ A partir de ahora, recuerde escanear únicamente hosts en un entorno controlado 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Plataforma de formación en hacking, Hack The Box pone constantemente a tu disposición sistemas vulnerables para que los ataques a tu antojo. Hay varios centenares de sistemas disponibles, pero durante todo el año se ofrece gratuitamente un fondo renovado de 20 máquinas, con acceso a través de una VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Plataforma de formación en hacking, Hack The Box pone constantemente a tu disposición sistemas vulnerables para que los ataques a tu antojo. Hay varios centenares de sistemas disponibles, pero durante todo el año se ofrece gratuitamente un fondo renovado de 20 máquinas, con acceso a través de una VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Esta plataforma ofrece numerosos sistemas intencionadamente vulnerables para su descarga, que pueden utilizarse a través de VirtualBox (también una solución gratuita) u otros medios. Una vez descargados, no es necesaria una VPN: todo es local.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Esta plataforma ofrece numerosos sistemas intencionadamente vulnerables para su descarga, que pueden utilizarse a través de VirtualBox (también una solución gratuita) u otros medios. Una vez descargados, no es necesaria una VPN: todo es local.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Por último, Nmap nos informa de que 998 puertos TCP identificados como cerrados no se muestran en el archivo :
+Por último, Nmap nos informa de que 998 puertos TCP identificados como cerrados no se muestran en el archivo:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-Esto nos ahorra casi 1.000 líneas de salida con el aspecto :
+Esto nos ahorra casi 1.000 líneas de salida con el aspecto:
 
 
 
@@ -715,7 +715,7 @@ Siguiendo esta información, encontramos lo más interesante: una tabla organiza
 
 
 
-Si echa un vistazo al archivo "/etc/services" de un sistema Linux, encontrará un enlace "port/protocol - service" similar al que muestra Nmap :
+Si echa un vistazo al archivo "/etc/services" de un sistema Linux, encontrará un enlace "port/protocol - service" similar al que muestra Nmap:
 
 
 
@@ -913,7 +913,7 @@ extracto de RFC 1122._
 
 
 
-Echemos un vistazo más de cerca a esta captura de Wireshark, que muestra **los tres escenarios posibles** en UDP :
+Echemos un vistazo más de cerca a esta captura de Wireshark, que muestra **los tres escenarios posibles** en UDP:
 
 
 
@@ -1030,7 +1030,7 @@ Como resultado, el sondeo será naturalmente mucho más rápido y Nmap sólo emi
 
 
 
-Del mismo modo, podemos especificar varios puertos a Nmap, utilizando la misma opción y concatenando los puertos especificados con una coma :
+Del mismo modo, podemos especificar varios puertos a Nmap, utilizando la misma opción y concatenando los puertos especificados con una coma:
 
 
 
@@ -1064,7 +1064,7 @@ Independientemente del orden, Nmap comprobará todos estos puertos, y sólo los 
 
 
 
-Si el número de puertos que desea escanear es demasiado grande, puede especificarlos por rangos, por ejemplo :
+Si el número de puertos que desea escanear es demasiado grande, puede especificarlos por rangos, por ejemplo:
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-También es posible, como en el caso de los puertos de la sección anterior, especificar varios hosts, varias redes o un rango :
+También es posible, como en el caso de los puertos de la sección anterior, especificar varios hosts, varias redes o un rango:
 
 
 
@@ -1437,7 +1437,7 @@ Para detallar las opciones de nuestro último pedido:
 
 
 
-- "`-PP` : habilita el eco ICMP (escaneo ping) para el descubrimiento de hosts.
+- "`-PP`: habilita el eco ICMP (escaneo ping) para el descubrimiento de hosts.
 
 
 
@@ -1547,7 +1547,7 @@ Ejemplos frecuentes de este tipo de necesidades se dan cuando una empresa posee 
 
 
 
-Para excluir direcciones IP o redes de nuestro escaneo, podemos utilizar la opción "--exclude" de Nmap, por ejemplo :
+Para excluir direcciones IP o redes de nuestro escaneo, podemos utilizar la opción "--exclude" de Nmap, por ejemplo:
 
 
 
@@ -2012,7 +2012,7 @@ Para lograrlo, Nmap se basa en scripts NSE (_Nmap Scripting Engine_), que pueden
 
 
 
-Con las opciones adecuadas, pediremos a Nmap que utilice sus diversos scripts NSE en cada servicio descubierto, permitiéndonos descubrir :
+Con las opciones adecuadas, pediremos a Nmap que utilice sus diversos scripts NSE en cada servicio descubierto, permitiéndonos descubrir:
 
 
 
@@ -2240,20 +2240,20 @@ Estos guiones están organizados por categorías, y un mismo guión puede perten
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Técnicamente, las categorías a las que pertenece un script se indican directamente en su código.
@@ -2300,7 +2300,7 @@ lista de scripts NSE Nmap con nombres que empiezan por `ftp-`._
 
 
 
-Nmap no ofrece realmente una opción para navegar y listar sus scripts NSE; puede utilizar el comando `--script-help` seguido del nombre de una categoría o una palabra :
+Nmap no ofrece realmente una opción para navegar y listar sus scripts NSE; puede utilizar el comando `--script-help` seguido del nombre de una categoría o una palabra:
 
 
 
@@ -2356,7 +2356,7 @@ Ahora vamos a aprender a realizar escaneos de vulnerabilidades seleccionando cui
 
 
 
-Para empezar, podemos elegir ejecutar todos los scripts que pertenezcan a una categoría específica. Tenemos que indicar esta categoría o estas categorías a Nmap con el argumento `--script <category>` :
+Para empezar, podemos elegir ejecutar todos los scripts que pertenezcan a una categoría específica. Tenemos que indicar esta categoría o estas categorías a Nmap con el argumento `--script <category>`:
 
 
 
@@ -2606,7 +2606,7 @@ Por defecto, Nmap ofrece una vista detallada de los resultados de los escaneos y
 
 
 
-Para facilitar las cosas, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) hace que sea muy fácil guardar su salida en un fichero de texto. Esto puede ser útil para archivar, comparar con otras pruebas, pero también para examinar esta salida con herramientas especializadas de procesamiento de textos o lenguajes de scripting, como Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. Para almacenar la salida estándar de Nmap en un fichero de texto, podemos utilizar la opción `-oN <nombre de fichero>` (la "N" de "normal") :
+Para facilitar las cosas, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) hace que sea muy fácil guardar su salida en un fichero de texto. Esto puede ser útil para archivar, comparar con otras pruebas, pero también para examinar esta salida con herramientas especializadas de procesamiento de textos o lenguajes de scripting, como Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. Para almacenar la salida estándar de Nmap en un fichero de texto, podemos utilizar la opción `-oN <nombre de fichero>` (la "N" de "normal"):
 
 
 
@@ -2720,7 +2720,7 @@ Dentro de Nmap, el formato XML se utiliza para generate informes detallados sobr
 
 
 
-Para generate un archivo de salida en formato XML, debemos utilizar la opción `-oX` ("O" de "XML") :
+Para generate un archivo de salida en formato XML, debemos utilizar la opción `-oX` ("O" de "XML"):
 
 
 
@@ -2892,7 +2892,7 @@ En un sondeo dirigido a muchos hosts y puertos, la salida del terminal será dif
 
 
 
-Para seguir la actividad de Nmap durante su sondeo, puede utilizar la opción `--packet-trace`. Con la opción `-v` obtenemos un registro en tiempo real de todos los puertos abiertos descubiertos por Nmap, mientras que con esta opción obtenemos una línea de registro por cada paquete enviado a un puerto. Esto produce naturalmente una salida muy verbosa, pero permite una monitorización detallada de la actividad de Nmap, aquí tiene un ejemplo :
+Para seguir la actividad de Nmap durante su sondeo, puede utilizar la opción `--packet-trace`. Con la opción `-v` obtenemos un registro en tiempo real de todos los puertos abiertos descubiertos por Nmap, mientras que con esta opción obtenemos una línea de registro por cada paquete enviado a un puerto. Esto produce naturalmente una salida muy verbosa, pero permite una monitorización detallada de la actividad de Nmap, aquí tiene un ejemplo:
 
 
 
@@ -3457,7 +3457,7 @@ Como resultado, Nmap puede ser visto como un componente sensible del sistema en 
 
 
 
-Si ha optado por utilizar Nmap no a través de una sesión como `root`, sino otorgando privilegios específicos a un usuario privilegiado para que tenga todo lo que necesita para utilizar Nmap (`sudo` o _capabilities_), tenga en cuenta que Nmap puede utilizarse como parte de una elevación completa de privilegios :
+Si ha optado por utilizar Nmap no a través de una sesión como `root`, sino otorgando privilegios específicos a un usuario privilegiado para que tenga todo lo que necesita para utilizar Nmap (`sudo` o _capabilities_), tenga en cuenta que Nmap puede utilizarse como parte de una elevación completa de privilegios:
 
 
 
@@ -3669,7 +3669,7 @@ sniffing de red durante una exploración de TCP Connect en busca de un puerto ab
 
 
 
-Podemos ver que el primer paquete TCP enviado es un `TCP SYN` enviado por el cliente, y el servidor responderá con un `TCP SYN/ACK`, indicando que el puerto está abierto y albergando un servicio activo. Para simular un cliente legítimo, Nmap enviará un `TCP ACK` de vuelta al servidor. Por el contrario, al escanear un puerto cerrado :
+Podemos ver que el primer paquete TCP enviado es un `TCP SYN` enviado por el cliente, y el servidor responderá con un `TCP SYN/ACK`, indicando que el puerto está abierto y albergando un servicio activo. Para simular un cliente legítimo, Nmap enviará un `TCP ACK` de vuelta al servidor. Por el contrario, al escanear un puerto cerrado:
 
 
 
@@ -3928,7 +3928,7 @@ captura de red durante una exploración TCP Null en busca de un puerto abierto
 
 
 
-La máquina de exploración envía un paquete sin bandera (`[<None>]` en Wireshark) sin ninguna respuesta del servidor. Por el contrario, cuando el puerto de destino está cerrado :
+La máquina de exploración envía un paquete sin bandera (`[<None>]` en Wireshark) sin ninguna respuesta del servidor. Por el contrario, cuando el puerto de destino está cerrado:
 
 
 

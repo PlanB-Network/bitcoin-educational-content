@@ -153,7 +153,7 @@ Buka tab **System**, di mana alokasi RAM default adalah 2048 MB. Kami menyaranka
 
 
 
-Agar Whonix dapat bekerja dengan baik dan aman, **Anda harus mengikuti urutan penginstalan ini** :
+Agar Whonix dapat bekerja dengan baik dan aman, **Anda harus mengikuti urutan penginstalan ini**:
 
 
 

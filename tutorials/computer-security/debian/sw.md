@@ -128,7 +128,7 @@ Ufunguo wako wa USB sasa uko tayari kuanza kusakinisha Debian.
 
 
 
-Ili kuzindua usakinishaji kutoka kwa ufunguo wako wa USB :
+Ili kuzindua usakinishaji kutoka kwa ufunguo wako wa USB:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Badilisha `<jina>` na jina la kifurushi. Kwa mfano, kusakinisha `curl` :
+Badilisha `<jina>` na jina la kifurushi. Kwa mfano, kusakinisha `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Kusakinisha kifurushi kilichopakuliwa kwa mikono :
+### Kusakinisha kifurushi kilichopakuliwa kwa mikono:
 
 
 

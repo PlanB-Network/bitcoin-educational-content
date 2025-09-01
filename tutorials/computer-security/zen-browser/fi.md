@@ -53,13 +53,13 @@ Sivusto tunnistaa järjestelmäsi automaattisesti ja ehdottaa sopivaa linkkiä:
 
 
 
-- Windows :** .exe-asennusohjelma Windows 10/11:lle (x64- ja ARM64-versiot)
-- macOS :** Intel- ja Apple Silicon -yhteensopiva .dmg-levykuva (macOS Monterey ja uudemmat)
+- Windows:** .exe-asennusohjelma Windows 10/11:lle (x64- ja ARM64-versiot)
+- macOS:** Intel- ja Apple Silicon -yhteensopiva .dmg-levykuva (macOS Monterey ja uudemmat)
 - Linux:** Useita vaihtoehtoja saatavilla:
   - Flatpak** (suositellaan): zen_browser.Zen`
   - AppImage**: Kannettava, suoraan suoritettava
-  - Arkisto tar.gz** : Puretaan manuaalisesti
-  - AUR** (Arch Linux) : Zen-selainpaketti
+  - Arkisto tar.gz**: Puretaan manuaalisesti
+  - AUR** (Arch Linux): Zen-selainpaketti
 
 
 
@@ -97,8 +97,8 @@ Sivusto tunnistaa järjestelmäsi automaattisesti ja ehdottaa sopivaa linkkiä:
 
 
 - Flatpak:** Automaattinen asennus paketinhallinnan kautta
-- AppImage :** `chmod +x ZenBrowser.AppImage` ja kaksoisnapsauta sitten sitä
-- tar.gz :** Pura ja suorita zen-selaimen suoritusohjelma
+- AppImage:** `chmod +x ZenBrowser.AppImage` ja kaksoisnapsauta sitten sitä
+- tar.gz:** Pura ja suorita zen-selaimen suoritusohjelma
 
 
 
@@ -320,7 +320,7 @@ Koska Zen perustuu Firefoxiin, se on yhteensopiva koko Firefoxin laajennusekosys
 
 
 
-Pääset Zen Browserin asetuksiin :
+Pääset Zen Browserin asetuksiin:
 
 
 
@@ -348,7 +348,7 @@ Zen Browser käyttää alusta alkaen korkean yksityisyydensuojan asetuksia, jotk
 
 
 
-- Tiukka jäljityksenestosuojaus:** "Standard" -taso on oletusarvoisesti aktivoitu ja estää :
+- Tiukka jäljityksenestosuojaus:** "Standard" -taso on oletusarvoisesti aktivoitu ja estää:
   - Sivustojen väliset seurantaevästeet ja supercookiet
   - Mainosten seurantasarjat (Google Analytics, Facebook Pixel jne.)
   - Kryptominterit, jotka käyttävät suorittimesi Miner-kryptovaluuttojen käyttämiseen
@@ -416,7 +416,7 @@ Asetukset > Tietosuoja ja turvallisuus > Parannettu jäljityssuojaus
 **2. Vaihda hakukonetta:**
 
 
-Asetukset > Haku > Oletushakukone :
+Asetukset > Haku > Oletushakukone:
 
 
 
@@ -496,7 +496,7 @@ Asetukset > Tietosuoja ja suojaus > Vain HTTPS-tila > **Käytössä**
 **5. Hallitse oletusoikeuksia:**
 
 
-Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet :
+Asetukset > Tietosuoja ja turvallisuus > Käyttöoikeudet:
 
 
 

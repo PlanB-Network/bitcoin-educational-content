@@ -71,7 +71,7 @@ F-Droid ger omfattande information om varje applikation som du vill installera.
 
 
 
-Genom att klicka på applikationen hittar du bland annat :
+Genom att klicka på applikationen hittar du bland annat:
 
 
 
@@ -96,7 +96,7 @@ Genom att klicka på applikationen hittar du bland annat :
 
 
 
-Läs mer i vår Thunderbird-handledning :
+Läs mer i vår Thunderbird-handledning:
 
 
 
@@ -117,7 +117,7 @@ Ge F-Droid installationsrättigheter genom att aktivera alternativet i dina inst
 
 
 
-F-Droid uppmuntrar öppen källkod och bidrag från samhället, särskilt via dess **Near By** Exchange-alternativ. Anslut till användarna runt omkring dig via :
+F-Droid uppmuntrar öppen källkod och bidrag från samhället, särskilt via dess **Near By** Exchange-alternativ. Anslut till användarna runt omkring dig via:
 
 
 

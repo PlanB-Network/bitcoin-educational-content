@@ -120,7 +120,7 @@ Cilj: veliki dobici u privatnosti bez narušavanja weba. Za 90% korisnika.
 
 
 
-Da biste pristupili podešavanjima, kliknite na meni ☰ u gornjem desnom uglu, zatim **"Settings "** :
+Da biste pristupili podešavanjima, kliknite na meni ☰ u gornjem desnom uglu, zatim **"Settings "**:
 
 
 
@@ -279,7 +279,7 @@ Cilj: podeliti aktivnosti i smanjiti curenje mreže.
 
 
 - Podrazumevani status**: Automatski aktiviran u nekim regionima (SAD, Kanada, Rusija, Ukrajina). Drugde je potrebna ručna aktivacija.
-- Konfiguracija** : Postavke → Opšte → Mrežna podešavanja → **Omogući DoH** → **Cloudflare** ili **Quad9** → **Maksimalna zaštita**.
+- Konfiguracija**: Postavke → Opšte → Mrežna podešavanja → **Omogući DoH** → **Cloudflare** ili **Quad9** → **Maksimalna zaštita**.
 - Maksimalna zaštita = samo TRR** (bez povratka na sistemski DNS). Ako korporativna/hotelska mreža blokira, prebacite se nazad na **Standard** ili onemogućite DoH.
 - Redundancy**: Ako već koristite pouzdan VPN sa sopstvenim sigurnim DNS-om, DoH može biti suvišan.
 - Test verifikacije**: `https://www.dnsleaktest.com/` treba da prikazuje samo izabranog DoH provajdera.
@@ -559,7 +559,7 @@ Najbolje prakse
 - Ojačani pregledač ≠ anonimnost na mreži: bez **VPN-a**, vaša IP adresa ostaje vidljiva; čak i sa njim, korelacija je i dalje moguća.
 - Previše modifikovanja može vas učiniti **jedinstvenim**. **RFP** standardizuje; alati za randomizaciju (npr. Chameleon) mogu... izdvojiti vas. Testirajte, uporedite, prilagodite.
 - Alternative/dopune:
- - Tor Browser: mreža anonimnosti putem Tor-a; sporije. Pogledajte naš kompletan vodič za instalaciju i konfiguraciju** :
+ - Tor Browser: mreža anonimnosti putem Tor-a; sporije. Pogledajte naš kompletan vodič za instalaciju i konfiguraciju**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor bez Tor-a", za kombinovanje sa VPN-om; standardizovan otisak. Saznajte kako da ga instalirate u našem posvećenom vodiču** :
+ - Mullvad Browser: "Tor bez Tor-a", za kombinovanje sa VPN-om; standardizovan otisak. Saznajte kako da ga instalirate u našem posvećenom vodiču**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Važna zaštita od praćenja](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Zvanični vodič za važnu zaštitu od praćenja
+- [Važna zaštita od praćenja](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Zvanični vodič za važnu zaštitu od praćenja
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tehnička dokumentacija o particionisanju stanja
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Kompletna referenca o veb bezbednosti
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Kompletna referenca o veb bezbednosti
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Kompletan testni paket (WebRTC, Canvas, Fontovi, itd.)
 - [BadSSL](https://badssl.com/): SSL/TLS testovi validacije sertifikata
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Napredna analiza 50+ vektora otiska prsta
-- [Test Cloudflare DNS](https://1.1.1.1/help) : Provera da li Cloudflare DoH radi ispravno
+- [Test Cloudflare DNS](https://1.1.1.1/help): Provera da li Cloudflare DoH radi ispravno

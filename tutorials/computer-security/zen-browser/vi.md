@@ -53,8 +53,8 @@ Trang web sẽ tự động phát hiện hệ thống của bạn và đề xu�
 
 
 
-- Windows :** Trình cài đặt .exe cho Windows 10/11 (phiên bản x64 và ARM64)
-- macOS :** Ảnh đĩa .dmg tương thích với Intel và Apple Silicon (macOS Monterey trở lên)
+- Windows:** Trình cài đặt .exe cho Windows 10/11 (phiên bản x64 và ARM64)
+- macOS:** Ảnh đĩa .dmg tương thích với Intel và Apple Silicon (macOS Monterey trở lên)
 - Linux:** Có một số tùy chọn sau:
   - Flatpak** (khuyến nghị): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Di động, có thể thực thi trực tiếp
@@ -97,8 +97,8 @@ Trang web sẽ tự động phát hiện hệ thống của bạn và đề xu�
 
 
 - Flatpak:** Cài đặt tự động thông qua trình quản lý gói
-- AppImage :** `chmod +x ZenBrowser.AppImage` sau đó nhấp đúp
-- tar.gz :** Giải nén và chạy tệp thực thi zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` sau đó nhấp đúp
+- tar.gz:** Giải nén và chạy tệp thực thi zen-browser
 
 
 

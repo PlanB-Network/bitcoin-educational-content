@@ -125,13 +125,13 @@ Plan ₿ Network'e katkıda bulunmak için GitHub'daki deneyim seviyenize bağl�
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Orta Düzey (GitHub Masaüstü)** : Git'i kullanmaya aşina değilseniz, ilk seçenek Plan ₿ Network'e katkıda bulunmak için kendi yerel ortamınızı kolayca kurmaktır. Bu yaklaşım, tam bir öğretici yazmak gibi önemli katkılar için önerilir. Bunu yapmak için aşağıdaki adım adım öğreticiyi izleyin:
+- Orta Düzey (GitHub Masaüstü)**: Git'i kullanmaya aşina değilseniz, ilk seçenek Plan ₿ Network'e katkıda bulunmak için kendi yerel ortamınızı kolayca kurmaktır. Bu yaklaşım, tam bir öğretici yazmak gibi önemli katkılar için önerilir. Bunu yapmak için aşağıdaki adım adım öğreticiyi izleyin:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Yeni Başlayanlar (web Interface)** : Tam bir yerel ortam kurmak zorunda kalmadan GitHub'ın web Interface'sını doğrudan kullanmayı da tercih edebilirsiniz. Bu yöntem küçük katkılar için düşünülebilir. Ancak, tamamen yeni bir öğretici eklemek gibi büyük katkılar için bu seçenek yerel bir ortam kurmaktan daha karmaşık olabilir. Bunun nasıl yapılacağını bu eğitimde açıklayacağım:
+- Yeni Başlayanlar (web Interface)**: Tam bir yerel ortam kurmak zorunda kalmadan GitHub'ın web Interface'sını doğrudan kullanmayı da tercih edebilirsiniz. Bu yöntem küçük katkılar için düşünülebilir. Ancak, tamamen yeni bir öğretici eklemek gibi büyük katkılar için bu seçenek yerel bir ortam kurmaktan daha karmaşık olabilir. Bunun nasıl yapılacağını bu eğitimde açıklayacağım:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

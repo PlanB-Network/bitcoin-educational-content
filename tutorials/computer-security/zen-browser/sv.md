@@ -53,13 +53,13 @@ Webbplatsen känner automatiskt av ditt system och föreslår lämplig länk:
 
 
 
-- Windows :** .exe-installationsprogram för Windows 10/11 (x64- och ARM64-versioner)
-- macOS :** Intel- och Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey och senare)
+- Windows:** .exe-installationsprogram för Windows 10/11 (x64- och ARM64-versioner)
+- macOS:** Intel- och Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey och senare)
 - Linux:** Flera alternativ tillgängliga:
   - Flatpak** (rekommenderas): `flatpak installera flathub app.zen_browser.Zen`
   - AppImage**: Portabel, direkt körbar
-  - Arkiv tar.gz** : Ska extraheras manuellt
-  - AUR** (Arch Linux) : Zen-webbläsarpaket
+  - Arkiv tar.gz**: Ska extraheras manuellt
+  - AUR** (Arch Linux): Zen-webbläsarpaket
 
 
 
@@ -97,8 +97,8 @@ Webbplatsen känner automatiskt av ditt system och föreslår lämplig länk:
 
 
 - Flatpak:** Automatisk installation via pakethanteraren
-- AppImage :** `chmod +x ZenBrowser.AppImage` dubbelklicka sedan på
-- tar.gz :** Extrahera och kör den körbara filen för zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklicka sedan på
+- tar.gz:** Extrahera och kör den körbara filen för zen-browser
 
 
 
@@ -320,7 +320,7 @@ Eftersom Zen är Firefox-baserat är det dessutom kompatibelt med hela ekosystem
 
 
 
-Så här kommer du åt inställningarna för Zen Browser :
+Så här kommer du åt inställningarna för Zen Browser:
 
 
 
@@ -348,7 +348,7 @@ Redan från början tillämpar Zen Browser en konfiguration med hög integritet 
 
 
 
-- Strikt antispårningsskydd:** "Standard"-nivån är aktiverad som standard och blockerar :
+- Strikt antispårningsskydd:** "Standard"-nivån är aktiverad som standard och blockerar:
   - Cookies för spårning av webbplatser och supercookies
   - Skript för annonsspårning (Google Analytics, Facebook Pixel, etc.)
   - Kryptominters som använder din CPU för att Miner kryptovalutor
@@ -416,7 +416,7 @@ Inställningar > Sekretess och säkerhet > Förbättrat spårningsskydd
 **2. Ändra sökmotor:**
 
 
-Inställningar > Sök > Standard sökmotor :
+Inställningar > Sök > Standard sökmotor:
 
 
 
@@ -496,7 +496,7 @@ Inställningar > Sekretess och säkerhet > Endast HTTPS-läge > **Aktiverad**
 **5. Hantera standardbehörigheter:**
 
 
-Inställningar > Sekretess och säkerhet > Behörigheter :
+Inställningar > Sekretess och säkerhet > Behörigheter:
 
 
 

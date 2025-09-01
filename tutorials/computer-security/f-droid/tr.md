@@ -71,7 +71,7 @@ F-Droid, yüklemek istediğiniz her uygulama hakkında kapsamlı bilgi sağlar.
 
 
 
-Uygulamaya tıkladığınızda, diğer şeylerin yanı sıra şunları bulacaksınız :
+Uygulamaya tıkladığınızda, diğer şeylerin yanı sıra şunları bulacaksınız:
 
 
 

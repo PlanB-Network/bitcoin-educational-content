@@ -71,7 +71,7 @@ git push -u origin add-professor-loic-morel
 ### 3 - Öğretmen profilinizi oluşturun
 
 
-Yerel klonunuzdaki `scripts/tutorial-related/data-creator/` klasörüne gidin. Yazılım için gerekli tüm bağımlılıkları yüklediğinizden emin olun, önce Python :
+Yerel klonunuzdaki `scripts/tutorial-related/data-creator/` klasörüne gidin. Yazılım için gerekli tüm bağımlılıkları yüklediğinizden emin olun, önce Python:
 
 
 ```bash
@@ -96,7 +96,7 @@ Ardından "*Yeni Profesör*" düğmesine tıklayın.
 ![Image](assets/fr/01.webp)
 
 
-Gerekli bilgileri doldurun (lütfen tüm bu bilgilerin GitHub'da olduğu gibi platformumuzda da herkese açık olacağını unutmayın) :
+Gerekli bilgileri doldurun (lütfen tüm bu bilgilerin GitHub'da olduğu gibi platformumuzda da herkese açık olacağını unutmayın):
 
 
 

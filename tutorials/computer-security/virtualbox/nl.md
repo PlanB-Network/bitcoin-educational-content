@@ -67,7 +67,7 @@ Het installeren van VirtualBox** is eenvoudig en het proces is hetzelfde voor al
 
 
 
-Deze installatie is aanpasbaar, maar ik raad je aan om alle functies te installeren: wat het geval is met de standaard selectie. In de afbeelding hieronder zie je verschillende Elements, waaronder :
+Deze installatie is aanpasbaar, maar ik raad je aan om alle functies te installeren: wat het geval is met de standaard selectie. In de afbeelding hieronder zie je verschillende Elements, waaronder:
 
 
 

@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Jawaban di sini dengan jelas menunjukkan bahwa paket "nmap" ada di repositori (di sini, repositori Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Mulai sekarang, Anda dapat menginstal Nmap melalui perintah instalasi biasa, tidak ada yang dilucuti untuk saat ini 🙂 :
+Jawaban di sini dengan jelas menunjukkan bahwa paket "nmap" ada di repositori (di sini, repositori Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Mulai sekarang, Anda dapat menginstal Nmap melalui perintah instalasi biasa, tidak ada yang dilucuti untuk saat ini 🙂:
 
 
 
@@ -568,7 +568,7 @@ Mulai sekarang, ingatlah untuk memindai hanya host di lingkungan terkendali yang
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang bisa digunakan melalui VirtualBox (juga solusi gratis) atau cara lainnya. Setelah diunduh, tidak perlu VPN - semuanya bersifat lokal.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang bisa digunakan melalui VirtualBox (juga solusi gratis) atau cara lainnya. Setelah diunduh, tidak perlu VPN - semuanya bersifat lokal.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Terakhir, Nmap memberi tahu kita bahwa 998 port TCP yang diidentifikasi sebagai port yang ditutup tidak ditampilkan dalam file :
+Terakhir, Nmap memberi tahu kita bahwa 998 port TCP yang diidentifikasi sebagai port yang ditutup tidak ditampilkan dalam file:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-Hal ini menghemat hampir 1.000 baris output yang terlihat seperti :
+Hal ini menghemat hampir 1.000 baris output yang terlihat seperti:
 
 
 
@@ -715,7 +715,7 @@ Mengikuti informasi ini, kami menemukan hal yang paling menarik: tabel yang disu
 
 
 
-Jika Anda melihat file "/etc/services" pada sistem Linux, Anda akan menemukan tautan "port/protocol - service" yang mirip dengan yang ditampilkan oleh Nmap :
+Jika Anda melihat file "/etc/services" pada sistem Linux, Anda akan menemukan tautan "port/protocol - service" yang mirip dengan yang ditampilkan oleh Nmap:
 
 
 
@@ -913,7 +913,7 @@ ekstrak dari RFC 1122._
 
 
 
-Mari kita cermati lebih dekat tangkapan Wireshark ini, yang menunjukkan **tiga skenario yang mungkin terjadi** dalam UDP :
+Mari kita cermati lebih dekat tangkapan Wireshark ini, yang menunjukkan **tiga skenario yang mungkin terjadi** dalam UDP:
 
 
 
@@ -1030,7 +1030,7 @@ Hasilnya, pemindaian secara alami akan jauh lebih cepat dan Nmap hanya akan mema
 
 
 
-Dengan cara yang sama, kita dapat menentukan beberapa port ke Nmap, menggunakan opsi yang sama dan menggabungkan port yang ditentukan dengan koma :
+Dengan cara yang sama, kita dapat menentukan beberapa port ke Nmap, menggunakan opsi yang sama dan menggabungkan port yang ditentukan dengan koma:
 
 
 
@@ -1064,7 +1064,7 @@ Terlepas dari urutannya, Nmap akan memeriksa semua port ini, dan hanya port yang
 
 
 
-Jika jumlah port yang ingin Anda pindai terlalu banyak, Anda dapat menentukannya berdasarkan rentang, misalnya :
+Jika jumlah port yang ingin Anda pindai terlalu banyak, Anda dapat menentukannya berdasarkan rentang, misalnya:
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-Hal ini juga memungkinkan, seperti halnya dengan port pada bagian sebelumnya, untuk menentukan beberapa host, beberapa jaringan, atau jangkauan :
+Hal ini juga memungkinkan, seperti halnya dengan port pada bagian sebelumnya, untuk menentukan beberapa host, beberapa jaringan, atau jangkauan:
 
 
 
@@ -1437,7 +1437,7 @@ Untuk merinci opsi dari pesanan terakhir kami:
 
 
 
-- "`-PP` : mengaktifkan ICMP echo (ping scan) untuk penemuan host.
+- "`-PP`: mengaktifkan ICMP echo (ping scan) untuk penemuan host.
 
 
 
@@ -1547,7 +1547,7 @@ Contoh yang sering terjadi dari kebutuhan tersebut adalah ketika sebuah perusaha
 
 
 
-Untuk mengecualikan alamat IP atau jaringan dari pemindaian, kita dapat menggunakan opsi "--exclude" dari Nmap, misalnya :
+Untuk mengecualikan alamat IP atau jaringan dari pemindaian, kita dapat menggunakan opsi "--exclude" dari Nmap, misalnya:
 
 
 
@@ -2012,7 +2012,7 @@ Untuk mencapai hal ini, Nmap bergantung pada skrip NSE (_Nmap Scripting Engine_)
 
 
 
-Dengan opsi yang tepat, kita akan meminta Nmap untuk menggunakan berbagai skrip NSE pada setiap layanan yang ditemukan, sehingga kita dapat menemukan layanan :
+Dengan opsi yang tepat, kita akan meminta Nmap untuk menggunakan berbagai skrip NSE pada setiap layanan yang ditemukan, sehingga kita dapat menemukan layanan:
 
 
 
@@ -2240,20 +2240,20 @@ Naskah-naskah ini disusun berdasarkan kategori, dan satu naskah dapat menjadi ba
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Secara teknis, kategori yang dimiliki skrip ditunjukkan secara langsung dalam kodenya.
@@ -2300,7 +2300,7 @@ daftar skrip NSE Nmap dengan nama yang dimulai dengan `ftp-`._
 
 
 
-Nmap tidak menawarkan pilihan untuk menelusuri dan membuat daftar skrip NSE; Anda dapat menggunakan perintah `--script-help` diikuti dengan nama kategori atau kata :
+Nmap tidak menawarkan pilihan untuk menelusuri dan membuat daftar skrip NSE; Anda dapat menggunakan perintah `--script-help` diikuti dengan nama kategori atau kata:
 
 
 
@@ -2356,7 +2356,7 @@ Sekarang kita akan mempelajari cara melakukan pemindaian kerentanan dengan memil
 
 
 
-Untuk memulainya, kita dapat memilih untuk mengeksekusi semua skrip yang termasuk dalam kategori tertentu. Kita perlu menunjukkan kategori ini atau kategori-kategori ini pada Nmap dengan argumen `--script <kategori>` :
+Untuk memulainya, kita dapat memilih untuk mengeksekusi semua skrip yang termasuk dalam kategori tertentu. Kita perlu menunjukkan kategori ini atau kategori-kategori ini pada Nmap dengan argumen `--script <kategori>`:
 
 
 

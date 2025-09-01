@@ -28,7 +28,7 @@ Helpottaakseen Bitcoin:n käyttöönottoa yhteisöissä eri puolilla maailmaa Sa
 
 
 
-Wallet:n ja Satoshi:n tarjoama myyntipistekokemus erottuu muista vaihtoehdoista ennen kaikkea yksinkertaisuutensa ja sujuvuutensa vuoksi. Sen lisäksi, että et tarvitse muuta kuin mobiilisovelluksen, joka on saatavilla Google Play Storesta ja iOS:stä, voit käyttää Wallet:ää :
+Wallet:n ja Satoshi:n tarjoama myyntipistekokemus erottuu muista vaihtoehdoista ennen kaikkea yksinkertaisuutensa ja sujuvuutensa vuoksi. Sen lisäksi, että et tarvitse muuta kuin mobiilisovelluksen, joka on saatavilla Google Play Storesta ja iOS:stä, voit käyttää Wallet:ää:
 
 
 
@@ -182,7 +182,7 @@ Jos etsit täydellistä PoS-palvelua, joka sopii pienille ja keskisuurille yrity
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Löydät lopuksi täydellisen koulutuskurssimme, jolla opit Bitcoin-maksamisen ja kassavirran perusteet yrityksille :
+Löydät lopuksi täydellisen koulutuskurssimme, jolla opit Bitcoin-maksamisen ja kassavirran perusteet yrityksille:
 
 
 

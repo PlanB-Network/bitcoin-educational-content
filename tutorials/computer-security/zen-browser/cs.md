@@ -53,13 +53,13 @@ Stránka automaticky rozpozná váš systém a navrhne příslušný odkaz:
 
 
 
-- Windows :** Instalační soubor .exe pro Windows 10/11 (verze x64 a ARM64)
-- macOS :** Obraz disku .dmg kompatibilní se systémy Intel a Apple Silicon (macOS Monterey a novější)
+- Windows:** Instalační soubor .exe pro Windows 10/11 (verze x64 a ARM64)
+- macOS:** Obraz disku .dmg kompatibilní se systémy Intel a Apple Silicon (macOS Monterey a novější)
 - Linux:** K dispozici je několik možností:
   - Flatpak** (doporučeno): zen_browser.Zen`
   - AppImage**: Přenosný, přímo spustitelný
-  - Archiv tar.gz** : Rozbalí se ručně
-  - AUR** (Arch Linux) : Balíček Zen-browser
+  - Archiv tar.gz**: Rozbalí se ručně
+  - AUR** (Arch Linux): Balíček Zen-browser
 
 
 
@@ -97,8 +97,8 @@ Stránka automaticky rozpozná váš systém a navrhne příslušný odkaz:
 
 
 - Flatpak:** Automatická instalace prostřednictvím správce balíčků
-- AppImage :** `chmod +x ZenBrowser.AppImage` a poté dvakrát klikněte na tlačítko
-- tar.gz :** Rozbalte a spusťte spustitelný soubor zen-browseru
+- AppImage:** `chmod +x ZenBrowser.AppImage` a poté dvakrát klikněte na tlačítko
+- tar.gz:** Rozbalte a spusťte spustitelný soubor zen-browseru
 
 
 
@@ -320,7 +320,7 @@ Vzhledem k tomu, že je Zen založen na prohlížeči Firefox, je navíc kompati
 
 
 
-Přístup k nastavení prohlížeče Zen :
+Přístup k nastavení prohlížeče Zen:
 
 
 
@@ -348,7 +348,7 @@ Prohlížeč Zen Browser od samého počátku používá konfiguraci s vysokou m
 
 
 
-- Přísná ochrana proti sledování:** Ve výchozím nastavení je aktivována úroveň "Standardní", která blokuje :
+- Přísná ochrana proti sledování:** Ve výchozím nastavení je aktivována úroveň "Standardní", která blokuje:
   - Soubory cookie pro sledování napříč stránkami a soubory supercookies
   - Skripty pro sledování reklam (Google Analytics, Facebook Pixel atd.)
   - Kryptoměny, které využívají váš procesor ke Miner kryptoměn
@@ -416,7 +416,7 @@ Nastavení > Soukromí a zabezpečení > Vylepšená ochrana sledování
 **2. Změna vyhledávače:**
 
 
-Nastavení > Hledání > Výchozí vyhledávač :
+Nastavení > Hledání > Výchozí vyhledávač:
 
 
 
@@ -496,7 +496,7 @@ Nastavení > Soukromí a zabezpečení > Pouze režim HTTPS > **Povoleno**
 **5. Správa výchozích oprávnění:**
 
 
-Nastavení > Soukromí a zabezpečení > Oprávnění :
+Nastavení > Soukromí a zabezpečení > Oprávnění:
 
 
 

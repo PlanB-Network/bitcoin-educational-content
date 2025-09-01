@@ -62,7 +62,7 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 - Upatikanaji mdogo**: Kwa sasa imehifadhiwa kwa ajili ya macOS na iOS/iPadOS. Toleo la Linux linafikia hatua muhimu za maendeleo (Milestone 2 mnamo 2025), lakini hakuna muundo wa umma unaopatikana. Windows na Android hazijatengenezwa kwa kukosa rasilimali.
 - Msimbo wa chanzo uliofungwa**: Ingawa baadhi ya vipengele ni chanzo huria, Orion inasalia kuwa wamiliki, jambo la mjadala katika jumuiya ya faragha.
-- Viendelezi vya majaribio** : Usaidizi wa kiendelezi unasalia katika beta, pamoja na kutopatana mara kwa mara. Viendelezi vinaweza kuathiri utendakazi, na vingine havifanyi kazi hata kidogo.
+- Viendelezi vya majaribio**: Usaidizi wa kiendelezi unasalia katika beta, pamoja na kutopatana mara kwa mara. Viendelezi vinaweza kuathiri utendakazi, na vingine havifanyi kazi hata kidogo.
 - Usalama wa WebKit**: Tofauti na Chromium, WebKit haitoi utengaji wa mchakato thabiti kwa kila tovuti, ambao unaweza kuleta hatari za usalama katika hali fulani.
 - Majaribio ya kuzuia**: Orion hufanya vibaya kimakusudi katika majaribio ya utangazaji mtandaoni (26-35%), kwani Kagi anachukulia majaribio haya kuwa "mapungufu kimsingi". Ufanisi halisi katika matumizi ya kila siku ni bora zaidi.
 
@@ -105,7 +105,7 @@ Kipengele chake cha kipekee? Orion ndicho kivinjari **pekee cha WebKit** ambacho
 
 
 
-**Mbadala Mbadala** :
+**Mbadala Mbadala**:
 
 
 ```bash
@@ -234,7 +234,7 @@ Orion+ inahakikisha uhuru wa mradi: "Mchango wako wa kifedha hutusaidia kubaki h
 
 
 
-Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,) :
+Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,) :
 
 
 
-**Kizuia Maudhui kinatumika kwa chaguomsingi** :
+**Kizuia Maudhui kinatumika kwa chaguomsingi**:
 
 
 
 
-- EasyList** : 119k+ sheria za kuzuia matangazo
+- EasyList**: 119k+ sheria za kuzuia matangazo
 - EasyPrivacy**: Ulinzi dhidi ya ufuatiliaji
 - Dhibiti Orodha za Vichujio**: Ongeza orodha za ziada (Hagezi inapendekezwa)
 
 
 
-**Chaguo za faragha** :
+**Chaguo za faragha**:
 
 
 
@@ -307,7 +307,7 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,) :
 
 
 
-**Ufikiaji wa haraka**: Bofya gia ⚙️ katika upau wa Address ili kurekebisha :
+**Ufikiaji wa haraka**: Bofya gia ⚙️ katika upau wa Address ili kurekebisha:
 
 
 
@@ -323,11 +323,11 @@ Fikia mapendeleo kupitia **Orion → Mapendeleo** (au ⌘,) :
 
 
 
-**Unda vichujio maalum** (Faragha → Dhibiti Orodha za Vichujio → Vichujio Maalum) :
+**Unda vichujio maalum** (Faragha → Dhibiti Orodha za Vichujio → Vichujio Maalum):
 
 
 
-**Sintaksia iliyorahisishwa** (Adblock Plus inaendana) :
+**Sintaksia iliyorahisishwa** (Adblock Plus inaendana):
 
 
 
@@ -350,7 +350,7 @@ Orion asilia inasaidia viendelezi vya Chrome na Firefox. Sakinisha moja kwa moja
 
 
 
-**Muhimu** :
+**Muhimu**:
 
 
 
@@ -361,7 +361,7 @@ Orion asilia inasaidia viendelezi vya Chrome na Firefox. Sakinisha moja kwa moja
 
 
 
-**Chaguo** :
+**Chaguo**:
 
 
 
@@ -411,7 +411,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-**Chaguo za mandhari** :
+**Chaguo za mandhari**:
 
 
 
@@ -421,7 +421,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-**Udhibiti wa uandishi** :
+**Udhibiti wa uandishi**:
 
 
 
@@ -431,7 +431,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-**Interface kusafisha** :
+**Interface kusafisha**:
 
 
 
@@ -447,13 +447,13 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-**Udhibiti wa hali ya juu wa kichupo** :
+**Udhibiti wa hali ya juu wa kichupo**:
 
 
 
 
 - Vichupo vya wima**: Amilisha kupitia upau wa menyu (Vichupo kwenye kitendakazi cha Upande)
-- Vichupo vilivyoshikamana** : Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
+- Vichupo vilivyoshikamana**: Katika Mapendeleo → Vichupo → Mpangilio "Compact" ili kuhifadhi nafasi
 - Vikundi vya kichupo**: Panga vipindi vyako kulingana na mada
 - Profaili nyingi**: Unda vitambulisho tofauti kupitia upau wa menyu (Kitendaji cha Wasifu) na data iliyotengwa kabisa
 
@@ -463,7 +463,7 @@ Zana ya **brashi** ya Orion ni kipengele cha kipekee ambacho hukuwezesha kubinaf
 
 
 
-**Zana zilizojengewa ndani** (Menyu ya kuhariri na zingine) :
+**Zana zilizojengewa ndani** (Menyu ya kuhariri na zingine):
 
 
 
@@ -507,7 +507,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-- Viendelezi** : Kikomo kwa kiwango cha chini kabisa (kinaweza kupunguza utendakazi)
+- Viendelezi**: Kikomo kwa kiwango cha chini kabisa (kinaweza kupunguza utendakazi)
 - Hali ya Nishati ya Chini**: Washa kwa vipindi virefu (90% ya kuokoa inawezekana)
 - Ripoti ya Faragha**: Bofya ngao 🛡️ ili kuona vizuizi kwa wakati halisi
 - Ubinafsishaji unaoonekana**: Tumia 🖌️ brashi kurekebisha onyesho na kuondoa Elements inayokengeusha.
@@ -552,7 +552,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-**Inafaa kwa ** :
+**Inafaa kwa **:
 
 
 
@@ -566,7 +566,7 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-**Epuka ikiwa** :
+**Epuka ikiwa**:
 
 
 
@@ -645,8 +645,8 @@ Kumbuka: kulinda faragha yako hakutegemei tu kivinjari chako. Changanya Orion na
 - Maswali Yanayoulizwa Mara kwa Mara**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Jukwaa la jumuiya**: [community.kagi.com](https://community.kagi.com)
 - Ufuatiliaji wa hitilafu**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
-- Blogu Kagi** : [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Vipengele vya chanzo-wazi
+- Blogu Kagi**: [blog.kagi.com](https://blog.kagi.com) - Habari na masasisho
 
 
 
@@ -679,7 +679,7 @@ Kwa ulinzi wa hali ya juu, wasiliana na miongozo yetu mingine:
 
 
 
-Iwapo ungependa kujifunza zaidi kuhusu historia na uendeshaji wa vivinjari, pamoja na vitu vikuu vya kidijitali katika maisha yako ya kila siku, ninakualika ugundue kozi yetu mpya ya mafunzo bila malipo SCU 202, inayopatikana kwenye Plan ₿ Network :
+Iwapo ungependa kujifunza zaidi kuhusu historia na uendeshaji wa vivinjari, pamoja na vitu vikuu vya kidijitali katika maisha yako ya kila siku, ninakualika ugundue kozi yetu mpya ya mafunzo bila malipo SCU 202, inayopatikana kwenye Plan ₿ Network:
 
 
 

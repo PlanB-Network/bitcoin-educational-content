@@ -62,7 +62,7 @@ De unieke eigenschap? Orion is de **enige WebKit** browser die zowel Chrome **al
 
 - Beperkt beschikbaar**: Momenteel gereserveerd voor macOS en iOS/iPadOS. Een Linux-versie bereikt mijlpalen in de ontwikkeling (mijlpaal 2 in 2025), maar er is geen openbare build beschikbaar. Windows en Android zijn niet in ontwikkeling wegens gebrek aan middelen.
 - Gesloten broncode**: Hoewel sommige onderdelen open-source zijn, blijft Orion voornamelijk gesloten, een punt van discussie in de privacygemeenschap.
-- Experimentele extensies** : Ondersteuning voor extensies blijft in bèta, met frequente incompatibiliteiten. Extensies kunnen de prestaties beïnvloeden en sommige werken helemaal niet.
+- Experimentele extensies**: Ondersteuning voor extensies blijft in bèta, met frequente incompatibiliteiten. Extensies kunnen de prestaties beïnvloeden en sommige werken helemaal niet.
 - WebKit-beveiliging**: In tegenstelling tot Chromium biedt WebKit niet zo'n robuuste procesisolatie per site, wat in bepaalde scenario's beveiligingsrisico's kan opleveren.
 - Blokkeringstests**: Orion presteert bewust slecht in online reclametests (26-35%), omdat Kagi deze tests als "fundamenteel gebrekkig" beschouwt. De werkelijke effectiviteit bij dagelijks gebruik is veel beter.
 
@@ -105,7 +105,7 @@ De unieke eigenschap? Orion is de **enige WebKit** browser die zowel Chrome **al
 
 
 
-**Alternatieve Homebrew** :
+**Alternatieve Homebrew**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Deze tools zijn altijd beschikbaar en stellen je in staat om je surfervaring per
 
 
 
-**Orion+ (optioneel)**: Ter ondersteuning van projectontwikkeling biedt Kagi Orion+ ($5/maand, $50/jaar of $150 lifetime). Dit vrijwillige abonnement maakt :
+**Orion+ (optioneel)**: Ter ondersteuning van projectontwikkeling biedt Kagi Orion+ ($5/maand, $50/jaar of $150 lifetime). Dit vrijwillige abonnement maakt:
 
 
 
@@ -234,7 +234,7 @@ Orion+ garandeert de onafhankelijkheid van het project: "Uw financiële bijdrage
 
 
 
-Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,) :
+Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,) :
 
 
 
-**Content Blocker standaard actief** :
+**Content Blocker standaard actief**:
 
 
 
 
-- EasyList** : 119k+ advertentie-blokkeer regels
+- EasyList**: 119k+ advertentie-blokkeer regels
 - EasyPrivacy**: Bescherming tegen tracking
 - Beheer filterlijsten**: Extra lijsten toevoegen (Hagezi aanbevolen)
 
 
 
-**Privacyopties** :
+**Privacyopties**:
 
 
 
@@ -323,11 +323,11 @@ Ga naar de voorkeuren via **Orion → Voorkeuren** (of ⌘,) :
 
 
 
-**Maak aangepaste filters** (Privacy → Filterlijsten beheren → Aangepaste filters) :
+**Maak aangepaste filters** (Privacy → Filterlijsten beheren → Aangepaste filters):
 
 
 
-**Vereenvoudigde syntaxis** (compatibel met Adblock Plus) :
+**Vereenvoudigde syntaxis** (compatibel met Adblock Plus):
 
 
 
@@ -350,7 +350,7 @@ Orion ondersteunt extensies voor Chrome en Firefox. Installeer ze rechtstreeks v
 
 
 
-**Essentials** :
+**Essentials**:
 
 
 
@@ -361,7 +361,7 @@ Orion ondersteunt extensies voor Chrome en Firefox. Installeer ze rechtstreeks v
 
 
 
-**Optioneel** :
+**Optioneel**:
 
 
 
@@ -372,7 +372,7 @@ Orion ondersteunt extensies voor Chrome en Firefox. Installeer ze rechtstreeks v
 
 
 
-Om een :
+Om een:
 
 
 
@@ -411,7 +411,7 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-**Thema-opties** :
+**Thema-opties**:
 
 
 
@@ -421,7 +421,7 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-**Typografische controle** :
+**Typografische controle**:
 
 
 
@@ -431,7 +431,7 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-**Interface reiniging** :
+**Interface reiniging**:
 
 
 
@@ -447,13 +447,13 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-**Geavanceerd tabbladbeheer** :
+**Geavanceerd tabbladbeheer**:
 
 
 
 
 - Verticale tabbladen**: Activeren via de menubalk (functie Tabbladen aan de zijkant)
-- Tabbladen comprimeren** : In Voorkeuren → Tabbladen → Lay-out "Compact" om ruimte te besparen
+- Tabbladen comprimeren**: In Voorkeuren → Tabbladen → Lay-out "Compact" om ruimte te besparen
 - Tabbladgroepen**: Organiseer uw sessies op thema
 - Meerdere profielen**: Maak afzonderlijke identiteiten aan via de menubalk (functie Profielen) met volledig geïsoleerde gegevens
 
@@ -463,7 +463,7 @@ Orion's **brush** tool is een unieke functie waarmee je de weergave van elke web
 
 
 
-**Ingebouwde tools** (menu Bewerken en andere) :
+**Ingebouwde tools** (menu Bewerken en andere):
 
 
 
@@ -507,7 +507,7 @@ Om Orion snel en privé te houden:
 
 
 
-- Uitbreidingen** : Beperken tot het strikte minimum (kan de prestaties verminderen)
+- Uitbreidingen**: Beperken tot het strikte minimum (kan de prestaties verminderen)
 - Modus Laag stroomverbruik**: Activeren voor lange sessies (90% besparing mogelijk)
 - Privacyrapport**: Klik op het schild 🛡️ om blokkades in realtime te bekijken
 - Visueel aanpassen**: Gebruik het penseel 🖌️ om de weergave aan te passen en storende Elements te verwijderen
@@ -552,7 +552,7 @@ Om Orion snel en privé te houden:
 
 
 
-**Ideaal voor** :
+**Ideaal voor**:
 
 
 
@@ -566,7 +566,7 @@ Om Orion snel en privé te houden:
 
 
 
-**Vermijd als** :
+**Vermijd als**:
 
 
 
@@ -645,8 +645,8 @@ Onthoud: het beschermen van je privacy hangt niet alleen af van je browser. Comb
 - Volledige FAQ**: [browser.kagi.com/faq] (https://browser.kagi.com/faq)
 - Community-forum**: [community.kagi.com](https://community.kagi.com)
 - Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source componenten
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Nieuws en updates
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source componenten
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nieuws en updates
 
 
 

@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Deretter oppdaterer vi pakkebufferen og prøver å installere MongoDB :
+Deretter oppdaterer vi pakkebufferen og prøver å installere MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB kan ikke installeres fordi en avhengighet mangler: **libssl1.1**. Vi må
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Oppdater pakkebufferen din :
+Oppdater pakkebufferen din:
 
 
 
@@ -279,7 +279,7 @@ Denne OpenSearch-konfigurasjonen er utformet for å sette opp en enkelt node. He
 
 
 
-- cluster.name: graylog** : denne parameteren navngir OpenSearch-klyngen med navnet "**graylog**".
+- cluster.name: graylog**: denne parameteren navngir OpenSearch-klyngen med navnet "**graylog**".
 - node.name: ${HOSTNAME}**: Nodenavnet settes dynamisk slik at det samsvarer med navnet på den lokale Linux-maskinen. Selv om vi bare har én node, er det viktig å gi den riktig navn.
 - path.data: /var/lib/opensearch**: Denne stien angir hvor OpenSearch lagrer dataene sine på den lokale maskinen, i dette tilfellet i "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: Denne banen definerer hvor OpenSearch-loggfiler lagres, her i "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert minne og kan vokse opp til 4 GB**, slik at det ikke blir noen minnevariasjon under drift. Her tar konfigurasjonen hensyn til at den virtuelle maskinen har totalt **8 GB RAM**. Begge parameterne må ha samme verdi. Dette betyr at du må bytte ut linjene :
+Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert minne og kan vokse opp til 4 GB**, slik at det ikke blir noen minnevariasjon under drift. Her tar konfigurasjonen hensyn til at den virtuelle maskinen har totalt **8 GB RAM**. Begge parameterne må ha samme verdi. Dette betyr at du må bytte ut linjene:
 
 
 
@@ -327,7 +327,7 @@ Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert 
 
 
 
-Med disse linjene :
+Med disse linjene:
 
 
 
@@ -408,7 +408,7 @@ Neste skritt: den etterlengtede installasjonen av Graylog!
 
 
 
-For å **installere Graylog 6.1** i den nyeste versjonen, kjør følgende 4 kommandoer for å **laste ned og installere Graylog Server** :
+For å **installere Graylog 6.1** i den nyeste versjonen, kjør følgende 4 kommandoer for å **laste ned og installere Graylog Server**:
 
 
 
@@ -432,7 +432,7 @@ La oss begynne med å konfigurere disse to alternativene:
 
 
 - password_secret**: Denne parameteren brukes til å definere en nøkkel som brukes av Graylog for å sikre lagringen av brukerpassord (i samme ånd som en saltingsnøkkel). Denne nøkkelen må være **unik** og **tilfeldig**.
-- root_password_sha2** : denne parameteren tilsvarer standard administratorpassord i Graylog. Det lagres som en Hash SHA-256.
+- root_password_sha2**: denne parameteren tilsvarer standard administratorpassord i Graylog. Det lagres som en Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ I denne katalogen må du bruke tall for å definere innlastingsrekkefølgen, for
 
 
 
-I denne katalogen oppretter vi en fil som heter "**10-graylog.conf**" :
+I denne katalogen oppretter vi en fil som heter "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-I denne filen setter du inn denne linjen :
+I denne filen setter du inn denne linjen:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Hvis du har flere servere og ønsker å analysere loggene til en bestemt server, angir du navnet i tillegg til :
+Hvis du har flere servere og ønsker å analysere loggene til en bestemt server, angir du navnet i tillegg til:
 
 
 
@@ -939,7 +939,7 @@ Mislykkede tilkoblingsforsøk gjøres fra maskinen med IP Address "**192.168.10.
 
 
 
-I dette tilfellet kan filteret som skal brukes, være :
+I dette tilfellet kan filteret som skal brukes, være:
 
 
 

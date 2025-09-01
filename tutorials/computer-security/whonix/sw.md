@@ -18,7 +18,7 @@ description: Hifadhi faragha na usiri wako.
 
 
 - Bila malipo**: Kama ugawaji mwingi wa Linux, Whonix ni mfumo wa chanzo huria uliopewa leseni bila malipo kabisa. Inatengenezwa katika chanzo wazi, na jumuiya inayofanya kazi na ya uwazi.
-- Faragha, usalama na kutokujulikana** : Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
+- Faragha, usalama na kutokujulikana**: Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
 - Rahisi kutumia**: Whonix inatoa angavu, iliyosanidiwa awali ya Interface, inayofaa hata kwa watumiaji wapya. Hakuna haja ya kuwa mtaalam ili kufaidika na ulinzi wa hali ya juu.
 - Mazingira yanayofaa kwa maendeleo salama**: Whonix hukuruhusu kuunda, kujaribu, kukagua au kuendesha programu bila kamwe kufichua IP yako halisi ya Address au kufichua tabia zako za kuvinjari au mawasiliano ya mtandao.
 - Vipindi vinavyoweza kutumika na Hali ya Moja kwa Moja**: Whonix inaweza kuzinduliwa katika Hali ya Moja kwa Moja au kupitia mashine zinazoweza kutumika (k.m. kupitia **Qubes OS**), kuwezesha majukumu muhimu kutekelezwa bila kuacha ufuatiliaji unaoendelea punde tu kipindi kitakapokamilika.
@@ -153,7 +153,7 @@ Nenda kwenye kichupo cha **Mfumo**, ambapo mgao chaguomsingi wa RAM ni 2048 MB. 
 
 
 
-Ili Whonix ifanye kazi vizuri na kwa usalama, **ni lazima ufuate mlolongo huu wa uanzishaji** :
+Ili Whonix ifanye kazi vizuri na kwa usalama, **ni lazima ufuate mlolongo huu wa uanzishaji**:
 
 
 

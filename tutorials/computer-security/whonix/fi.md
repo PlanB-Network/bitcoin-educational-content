@@ -18,7 +18,7 @@ description: Säilytä yksityisyytesi ja luottamuksellisuutesi.
 
 
 - Ilmainen**: Whonix on avoimen lähdekoodin järjestelmä, joka on lisensoitu täysin ilmaiseksi, kuten useimmat Linux-jakelut. Sitä kehitetään avoimen lähdekoodin periaatteella, ja sillä on aktiivinen ja avoin yhteisö.
-- Yksityisyys, turvallisuus ja anonymiteetti** : Whonixin päätavoitteena on tarjota erittäin turvallinen ympäristö, jossa kaikki tietosi on suojattu ja viestisi salattu Tor-verkon kautta.
+- Yksityisyys, turvallisuus ja anonymiteetti**: Whonixin päätavoitteena on tarjota erittäin turvallinen ympäristö, jossa kaikki tietosi on suojattu ja viestisi salattu Tor-verkon kautta.
 - Helppokäyttöinen**: Whonix tarjoaa intuitiivisen, valmiiksi konfiguroidun graafisen Interface:n, joka sopii jopa aloitteleville käyttäjille. Sinun ei tarvitse olla asiantuntija voidaksesi hyötyä kehittyneestä suojauksesta.
 - Ihanteellinen ympäristö turvalliselle kehitykselle**: Whonixin avulla voit kehittää, testata, tarkastaa tai suorittaa ohjelmia paljastamatta koskaan todellista IP Address:täsi tai paljastamatta selaus- tai verkkoviestintätottumuksiasi.
 - Kertakäyttöistunnot ja Live-tila**: Whonix voidaan käynnistää Live-tilassa tai kertakäyttöisten koneiden kautta (esim. **Qubes OS**:n kautta), jolloin kriittiset tehtävät voidaan suorittaa jättämättä pysyviä jälkiä istunnon päätyttyä.
@@ -153,7 +153,7 @@ Siirry **System**-välilehdelle, jossa RAM-muistin oletusarvoinen varaus on 2048
 
 
 
-Jotta Whonix toimisi kunnolla ja turvallisesti, **sinun on noudatettava tätä käynnistysjärjestystä** :
+Jotta Whonix toimisi kunnolla ja turvallisesti, **sinun on noudatettava tätä käynnistysjärjestystä**:
 
 
 

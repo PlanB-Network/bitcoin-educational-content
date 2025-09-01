@@ -169,7 +169,7 @@ uBlock Origin di Mullvad Browser menggunakan parameter standar untuk memastikan 
 ### **Tanpa Naskah**
 
 
-NoScript berjalan di latar belakang untuk mengelola **tingkat keamanan** peramban. Ini :
+NoScript berjalan di latar belakang untuk mengelola **tingkat keamanan** peramban. Ini:
 
 
 
@@ -328,7 +328,7 @@ Klik tombol **"Unduh "** yang sesuai dengan sistem operasi Anda.
 
 
 
-Untuk Linux, Anda dapat memilih di antara format yang berbeda tergantung pada distribusi Anda. Setelah pengunduhan selesai :
+Untuk Linux, Anda dapat memilih di antara format yang berbeda tergantung pada distribusi Anda. Setelah pengunduhan selesai:
 
 
 

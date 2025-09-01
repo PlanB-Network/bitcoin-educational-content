@@ -128,7 +128,7 @@ Vaš USB ključ je sada spreman za početak instalacije Debiana.
 
 
 
-Da pokrenete instalaciju sa vašeg USB ključa :
+Da pokrenete instalaciju sa vašeg USB ključa:
 
 
 
@@ -144,7 +144,7 @@ Da pokrenete instalaciju sa vašeg USB ključa :
 
 
 
-Početni ekran :
+Početni ekran:
 
 
 
@@ -334,7 +334,7 @@ Unesite svoju lozinku kada se to zatraži (imajte na umu da se prilikom kucanja 
 
 
 
-- Da biste instalirali dostupna ažuriranja :
+- Da biste instalirali dostupna ažuriranja:
 
 
 
@@ -380,7 +380,7 @@ Postoje dva načina za instaliranje aplikacija na Debian:
 
 
 
-### Grafički metod :
+### Grafički metod:
 
 
 
@@ -388,7 +388,7 @@ Možete koristiti **menadžer softvera** (dostupan putem grafičkog Interface) z
 
 
 
-### Metod komandne linije :
+### Metod komandne linije:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Zamenite `<name>` sa imenom paketa. Na primer, za instalaciju `curl` :
+Zamenite `<name>` sa imenom paketa. Na primer, za instalaciju `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Instaliranje ručno preuzetog paketa :
+### Instaliranje ručno preuzetog paketa:
 
 
 

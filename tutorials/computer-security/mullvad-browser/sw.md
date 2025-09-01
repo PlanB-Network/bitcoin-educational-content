@@ -100,7 +100,7 @@ Kivinjari cha Mullvad kimeundwa kwa lengo moja kuu akilini: **kulinda faragha ya
 
 
 
-Kivinjari cha Mullvad kinajumuisha mfululizo wa **vipengele vya usalama na faragha** vilivyochochewa moja kwa moja na Kivinjari cha Tor :
+Kivinjari cha Mullvad kinajumuisha mfululizo wa **vipengele vya usalama na faragha** vilivyochochewa moja kwa moja na Kivinjari cha Tor:
 
 
 
@@ -150,7 +150,7 @@ Kivinjari cha Mullvad kinajumuisha **viendelezi vitatu vilivyosakinishwa awali**
 ### **uBlock Origin**
 
 
-Kiendelezi hiki cha kizuizi cha tangazo na kifuatiliaji huja kikiwa kimesanidiwa awali na **orodha za vichungi vilivyoboreshwa** ili kuzuia :
+Kiendelezi hiki cha kizuizi cha tangazo na kifuatiliaji huja kikiwa kimesanidiwa awali na **orodha za vichungi vilivyoboreshwa** ili kuzuia:
 
 
 
@@ -399,7 +399,7 @@ Kivinjari cha Mullvad kinatoa viwango vitatu vya usalama:
 
 
 
-- Kawaida** (kiwango chaguo-msingi cha sasa) : Vitendaji vyote vya kivinjari na tovuti vimewashwa
+- Kawaida** (kiwango chaguo-msingi cha sasa): Vitendaji vyote vya kivinjari na tovuti vimewashwa
 
 
 
@@ -489,7 +489,7 @@ Ukichagua kusakinisha viendelezi hata hivyo, fahamu kwamba unaunda alama ya kido
 
 
 
-4. **Chagua kiwango cha usalama ambacho kinafaa zaidi mahitaji yako** :
+4. **Chagua kiwango cha usalama ambacho kinafaa zaidi mahitaji yako**:
 
 
 

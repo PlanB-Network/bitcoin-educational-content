@@ -614,7 +614,7 @@ LNbits her türlü [açık API] (https://legend.lnbits.com/docs) ve milyonlarca 
 - Lightning:lnurl1234xyz eklenmesi, taramada bu Invoice için Wallet kullanıcılarını açmayı talep eden bir QR oluşturacaktır (iOS'ta son yüklenen lightning uygulaması, Android'de ayar)
 - Bir esp32'yi web üzerinden yanıp sönüyorsanız yalnızca bu tarayıcılarla çalışacaktır (TL:DR Chrome, Edge ve Opera).
 - Lütfen esp için bu PIN-OUT referansına dikkat edin
-- FOSSoftware veya FOSGuides kullandığınızda lütfen her zaman yazarla bağlantı kurun. Herkes bebeğinin büyümesini izlemeyi sever ve bu aynı zamanda izlemesi oldukça harika olan bir yapı zincirini başlatır :)
+- FOSSoftware veya FOSGuides kullandığınızda lütfen her zaman yazarla bağlantı kurun. Herkes bebeğinin büyümesini izlemeyi sever ve bu aynı zamanda izlemesi oldukça harika olan bir yapı zincirini başlatır:)
 
 
 Bir projede yardıma ihtiyacınız varsa [Makerbits Telegram Group]'a (https://t.me/makerbits) gelin - sizi bulduk!

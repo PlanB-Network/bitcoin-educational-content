@@ -120,7 +120,7 @@ Kusudi: faida kubwa za faragha bila kuvunja wavuti. Kwa 90% ya watumiaji.
 
 
 
-Ili kufikia mipangilio, bofya kwenye menyu ☰ iliyo juu kulia, kisha **"Mipangilio "** :
+Ili kufikia mipangilio, bofya kwenye menyu ☰ iliyo juu kulia, kisha **"Mipangilio "**:
 
 
 
@@ -279,7 +279,7 @@ Lengo: kugawanya shughuli na kupunguza uvujaji wa mtandao.
 
 
 - Hali chaguo-msingi**: Imewashwa kiotomatiki katika baadhi ya maeneo (Marekani, Kanada, Urusi, Ukraini). Kwingineko, uwezeshaji mwenyewe unahitajika.
-- Usanidi** : Mipangilio → Jumla → Mipangilio ya mtandao → **Washa DoH** → **Cloudflare** au **Quad9** → **Upeo wa ulinzi**.
+- Usanidi**: Mipangilio → Jumla → Mipangilio ya mtandao → **Washa DoH** → **Cloudflare** au **Quad9** → **Upeo wa ulinzi**.
 - Ulinzi wa juu = TRR-pekee** (hakuna njia mbadala kwa mfumo wa DNS). Ikiwa mtandao wa shirika/hoteli utazuia, rudi kwenye **Kawaida** au uzime DoH.
 - Uhitaji**: Ikiwa tayari unatumia VPN inayoaminika iliyo na DNS yake salama, DoH inaweza kutumika tena.
 - Jaribio la uthibitishaji**: `https://www.dnsleaktest.com/` inapaswa kuonyesha mtoa huduma aliyechaguliwa wa DoH pekee.
@@ -559,7 +559,7 @@ Mbinu bora
 - Kivinjari kigumu ≠ kutokujulikana kwa mtandao: bila **VPN**, IP yako itaendelea kuonekana; hata nayo, uwiano unabaki kuwa unawezekana.
 - Kurekebisha kupita kiasi kunaweza kukufanya uwe **kipekee**. **RFP** inasawazisha; zana za kubahatisha (k.m. Kinyonga) zinaweza... kukutofautisha. Jaribu, kulinganisha, kurekebisha.
 - Mbadala/vijazo:
- - Kivinjari cha Tor: kutokujulikana kwa mtandao kupitia Tor; polepole zaidi. Tazama mwongozo wetu kamili wa usakinishaji na usanidi** :
+ - Kivinjari cha Tor: kutokujulikana kwa mtandao kupitia Tor; polepole zaidi. Tazama mwongozo wetu kamili wa usakinishaji na usanidi**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Kivinjari cha Mullvad: "Tor bila Tor", kuunganishwa na VPN; nyayo sanifu. Jua jinsi ya kusakinisha katika mafunzo yetu ya kujitolea** :
+ - Kivinjari cha Mullvad: "Tor bila Tor", kuunganishwa na VPN; nyayo sanifu. Jua jinsi ya kusakinisha katika mafunzo yetu ya kujitolea**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Ulinzi Ulioimarishwa wa Ufuatiliaji](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Mwongozo rasmi wa ulinzi ulioimarishwa wa ufuatiliaji
+- [Ulinzi Ulioimarishwa wa Ufuatiliaji](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Mwongozo rasmi wa ulinzi ulioimarishwa wa ufuatiliaji
 - [Ugawaji wa Jimbo](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Hati za kiufundi kuhusu ugawaji wa serikali
-- [MDN Usalama wa Wavuti](https://developer.mozilla.org/docs/Web/Security) : Rejelea kamili juu ya usalama wa wavuti
+- [MDN Usalama wa Wavuti](https://developer.mozilla.org/docs/Web/Security): Rejelea kamili juu ya usalama wa wavuti
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Jaribio kamili (WebRTC, Canvas, Fonti, n.k.)
 - [BadSSL](https://badssl.com/): Majaribio ya uthibitishaji wa cheti cha SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Uchanganuzi wa kina wa vekta 50+ za alama za vidole
-- [Mtihani wa Cloudflare DNS](https://1.1.1.1/help) : Kuangalia kama Cloudflare DoH inafanya kazi ipasavyo
+- [Mtihani wa Cloudflare DNS](https://1.1.1.1/help): Kuangalia kama Cloudflare DoH inafanya kazi ipasavyo

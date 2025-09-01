@@ -212,7 +212,7 @@ iface ens36 inet manual
 
 
 - ऑटो *Interface***: सिस्टम स्टार्टअप पर Interface को स्वचालित रूप से "स्टार्ट" करेगा
-- iface *Interface* inet manual** : बिना किसी IP Address के Interface का उपयोग करने के लिए। जैसे, स्थिर IP Address को परिभाषित करने के लिए "static" कीवर्ड या डायनामिक एड्रेसिंग का उपयोग करने के लिए "dhcp" कीवर्ड का उपयोग करें।
+- iface *Interface* inet manual**: बिना किसी IP Address के Interface का उपयोग करने के लिए। जैसे, स्थिर IP Address को परिभाषित करने के लिए "static" कीवर्ड या डायनामिक एड्रेसिंग का उपयोग करने के लिए "dhcp" कीवर्ड का उपयोग करें।
 
 
 

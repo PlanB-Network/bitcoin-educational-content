@@ -218,7 +218,7 @@ Bu yapıldıktan sonra, herhangi bir cihaz daha önce açılmışsa, eski ayarla
 
 
 
-Windows iş istasyonlarında, bir komut istemi ile :
+Windows iş istasyonlarında, bir komut istemi ile:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Bir Linux iş istasyonunda :
+Bir Linux iş istasyonunda:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-DNS alanında, Pi-Hole'unuzun Address'si olmalıdır, benim durumumda 192.168.1.42 :
+DNS alanında, Pi-Hole'unuzun Address'si olmalıdır, benim durumumda 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ DNS alanında, Pi-Hole'unuzun Address'si olmalıdır, benim durumumda 192.168.1.
 
 
 
-Yönetimi kolaylaştırmak için **Pi-Hole** iyi tasarlanmış bir Interface web Interface'dan yararlanır. Kullanıcı dostu ve erişilebilir, size izin verir :
+Yönetimi kolaylaştırmak için **Pi-Hole** iyi tasarlanmış bir Interface web Interface'dan yararlanır. Kullanıcı dostu ve erişilebilir, size izin verir:
 
 
 
@@ -322,7 +322,7 @@ Pi-Hole'da liste ekleme
 
 
 
-Geriye kalan tek şey eklemek için "**Ekle**" düğmesine tıklamak. Etkinleştirmek için, Pi-Hole'u bu listeyi devralması için "uyarmak" için ek bir adım gerçekleştirmemiz gerekiyor. Bunu yapmak için :
+Geriye kalan tek şey eklemek için "**Ekle**" düğmesine tıklamak. Etkinleştirmek için, Pi-Hole'u bu listeyi devralması için "uyarmak" için ek bir adım gerçekleştirmemiz gerekiyor. Bunu yapmak için:
 
 
 

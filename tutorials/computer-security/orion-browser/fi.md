@@ -62,7 +62,7 @@ Sen ainutlaatuinen ominaisuus? Orion on **yksinomainen WebKit**-selain, joka ase
 
 - Rajoitettu saatavuus**: Tällä hetkellä varattu macOS:lle ja iOS/iPadOS:lle. Linux-versio on saavuttamassa kehityksen virstanpylväitä (virstanpylväs 2 vuonna 2025), mutta julkista versiota ei ole saatavilla. Windows- ja Android-versioita ei kehitetä resurssipulan vuoksi.
 - Suljettu lähdekoodi**: Vaikka jotkin osat ovat avoimen lähdekoodin ohjelmistoja, Orion on edelleen pääosin suojattu, mikä on keskustelun aihe yksityisyyden suojaa käsittelevässä yhteisössä.
-- Kokeelliset laajennukset** : Laajennustuki on edelleen beta-asteella, ja se on usein yhteensopimaton. Laajennukset voivat vaikuttaa suorituskykyyn, ja jotkut eivät toimi lainkaan.
+- Kokeelliset laajennukset**: Laajennustuki on edelleen beta-asteella, ja se on usein yhteensopimaton. Laajennukset voivat vaikuttaa suorituskykyyn, ja jotkut eivät toimi lainkaan.
 - WebKit-turvallisuus**: WebKit ei tarjoa yhtä vankkaa sivustokohtaista prosessieristystä kuin Chromium, mikä voi aiheuttaa tietoturvariskejä tietyissä skenaarioissa.
 - Estotestit**: (26-35 %), koska Kagi pitää näitä testejä "perustavanlaatuisesti virheellisinä". Todellinen tehokkuus jokapäiväisessä käytössä on paljon parempi.
 
@@ -105,7 +105,7 @@ Sen ainutlaatuinen ominaisuus? Orion on **yksinomainen WebKit**-selain, joka ase
 
 
 
-**Vaihtoehtoinen kotisivukone** :
+**Vaihtoehtoinen kotisivukone**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Nämä työkalut ovat aina käytettävissä, ja niiden avulla voit hallita selau
 
 
 
-**Orion+ (valinnainen)**: Projektikehityksen tueksi Kagi tarjoaa Orion+ -palvelun (5 dollaria/kk, 50 dollaria/vuosi tai 150 dollaria koko käyttöiän ajan). Tämä vapaaehtoinen tilaus mahdollistaa :
+**Orion+ (valinnainen)**: Projektikehityksen tueksi Kagi tarjoaa Orion+ -palvelun (5 dollaria/kk, 50 dollaria/vuosi tai 150 dollaria koko käyttöiän ajan). Tämä vapaaehtoinen tilaus mahdollistaa:
 
 
 
@@ -234,7 +234,7 @@ Orion+ takaa hankkeen riippumattomuuden: "Taloudellinen tukesi auttaa meitä pys
 
 
 
-Pääset asetuksiin **Orion → Asetukset** (tai ⌘,) :
+Pääset asetuksiin **Orion → Asetukset** (tai ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,) :
 
 
 
-**Sisällönesto oletusarvoisesti aktiivinen** :
+**Sisällönesto oletusarvoisesti aktiivinen**:
 
 
 
 
-- EasyList** : 119k+ mainosten estosääntöä
+- EasyList**: 119k+ mainosten estosääntöä
 - EasyPrivacy**: Suojaus seurantaa vastaan
 - Suodatinluetteloiden hallinta**: Lisää lisäluetteloita (Hagezi suositellaan)
 
 
 
-**Tietosuoja-asetukset** :
+**Tietosuoja-asetukset**:
 
 
 
@@ -307,7 +307,7 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,) :
 
 
 
-**Nopea pääsy**: Napsauta Address-palkissa olevaa vaihdetta ⚙️ säätääksesi :
+**Nopea pääsy**: Napsauta Address-palkissa olevaa vaihdetta ⚙️ säätääksesi:
 
 
 
@@ -323,11 +323,11 @@ Pääset asetuksiin **Orion → Asetukset** (tai ⌘,) :
 
 
 
-**Luo mukautettuja suodattimia** (Tietosuoja → Suodatinluetteloiden hallinta → Mukautetut suodattimet) :
+**Luo mukautettuja suodattimia** (Tietosuoja → Suodatinluetteloiden hallinta → Mukautetut suodattimet):
 
 
 
-**Yhennetty syntaksi** (Adblock Plus -yhteensopiva) :
+**Yhennetty syntaksi** (Adblock Plus -yhteensopiva):
 
 
 
@@ -350,7 +350,7 @@ Orion tukee natiivisti Chrome- ja Firefox-laajennuksia. Asenna ne suoraan virall
 
 
 
-**Välttämättömyysvaatimukset** :
+**Välttämättömyysvaatimukset**:
 
 
 
@@ -361,7 +361,7 @@ Orion tukee natiivisti Chrome- ja Firefox-laajennuksia. Asenna ne suoraan virall
 
 
 
-**Vaihtoehtoinen** :
+**Vaihtoehtoinen**:
 
 
 
@@ -372,7 +372,7 @@ Orion tukee natiivisti Chrome- ja Firefox-laajennuksia. Asenna ne suoraan virall
 
 
 
-Asenna :
+Asenna:
 
 
 
@@ -411,7 +411,7 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-**Teemavaihtoehdot** :
+**Teemavaihtoehdot**:
 
 
 
@@ -421,7 +421,7 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-**Kirjoitusvalvonta** :
+**Kirjoitusvalvonta**:
 
 
 
@@ -431,7 +431,7 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-**Interface puhdistus** :
+**Interface puhdistus**:
 
 
 
@@ -447,13 +447,13 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-**Edistynyt välilehtien hallinta** :
+**Edistynyt välilehtien hallinta**:
 
 
 
 
 - Pystysuorat välilehdet**: Aktivoi valikkorivin kautta (Välilehdet sivulla -toiminto)
-- Kompaktit välilehdet** : Asetuksissa → Välilehdet → Asettelu "Kompakti" tilan säästämiseksi
+- Kompaktit välilehdet**: Asetuksissa → Välilehdet → Asettelu "Kompakti" tilan säästämiseksi
 - Välilehtiryhmät**: Järjestä istunnot teemoittain
 - Useita profiileja**: Luo erillisiä identiteettejä valikkopalkin kautta (Profiilit-toiminto) täysin erillisillä tiedoilla
 
@@ -463,7 +463,7 @@ Orionin **harja**-työkalu on ainutlaatuinen ominaisuus, jonka avulla voit mukau
 
 
 
-**Sisäänrakennetut työkalut** (Muokkaa-valikko ja muut) :
+**Sisäänrakennetut työkalut** (Muokkaa-valikko ja muut):
 
 
 
@@ -507,7 +507,7 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-- Laajennukset** : Rajoita minimiin (voi heikentää suorituskykyä)
+- Laajennukset**: Rajoita minimiin (voi heikentää suorituskykyä)
 - Vähävirtainen tila**: Aktivoi pitkien istuntojen ajaksi (90 %:n säästö mahdollinen)
 - Tietosuojaraportti**: Klikkaa suojaa 🛡️ nähdäksesi estot reaaliajassa
 - Visuaalinen mukauttaminen**: Käytä 🖌️ -sivellintä näytön mukauttamiseen ja häiritsevien Elements:n poistamiseen
@@ -552,7 +552,7 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-**Ideaalinen** :
+**Ideaalinen**:
 
 
 
@@ -566,7 +566,7 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-**Vältä jos** :
+**Vältä jos**:
 
 
 
@@ -645,8 +645,8 @@ Muista: yksityisyyden suojaaminen ei riipu vain selaimesta. Yhdistämällä Orio
 - Täydellinen FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Yhteisön foorumi**: [community.kagi.com](https://community.kagi.com)
 - Vikojen seuranta**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avoimen lähdekoodin komponentit
-- Blogi Kagi** : [blog.kagi.com](https://blog.kagi.com) - Uutiset ja päivitykset
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avoimen lähdekoodin komponentit
+- Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uutiset ja päivitykset
 
 
 

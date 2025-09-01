@@ -38,7 +38,7 @@ Kina maelezo kidogo kuliko Nmap, **Kichanganuzi cha IP** chenye hasira bado kina
 
 
 
-Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap :
+Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap:
 
 
 

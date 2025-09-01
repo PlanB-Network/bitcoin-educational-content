@@ -66,7 +66,7 @@ Alates 2017. aastast ei toeta Arch Linux enam 32-bitiseid arhitektuure. Saadaval
 
 
 
-Käivitatava USB-mäluseadme loomiseks saate kasutada sellist tööriista nagu **Balena Etcher** :
+Käivitatava USB-mäluseadme loomiseks saate kasutada sellist tööriista nagu **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Käivitamisekraanil valige paigaldamise käivitamiseks esimene valik. Pange täh
 
 
 
-Saate kuvada olemasolevad kujundused koos :
+Saate kuvada olemasolevad kujundused koos:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Seejärel laadige paigutus :
+Seejärel laadige paigutus:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux kasutab süsteemi kella haldamiseks tööriista `timedatectl`.
 
 
 
-- Seadistage oma ajavööndiga :
+- Seadistage oma ajavööndiga:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Kontrollige, et automaatne sünkroniseerimine on lubatud funktsiooniga :
+- Kontrollige, et automaatne sünkroniseerimine on lubatud funktsiooniga:
 
 
 ```shell
@@ -208,7 +208,7 @@ See aktiveerib NTP, protokolli automaatse sünkroniseerimise ajaserveritega. See
 
 
 
-- Kontrollige, kas teie süsteem käivitub **UEFI** või **BIOS** süsteemiga :
+- Kontrollige, kas teie süsteem käivitub **UEFI** või **BIOS** süsteemiga:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Käivitage Partition Manager :
+- Käivitage Partition Manager:
 
 
 
@@ -294,7 +294,7 @@ Valige **Kirjuta**, sisestage **jah** ja seejärel **Lõpeta**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Paigaldage **juur** partitsiooni:
 
 
 
-- BIOSis :
+- BIOSis:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- uEFIs :
+- uEFIs:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Paigaldage tekstiredaktor, et muuta :
+- Paigaldage tekstiredaktor, et muuta:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Määrake keel :
+- Määrake keel:
 
 
 Redigeeri `/etc/locale.gen` ja eemalda kommentaarid realt `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Redigeeri `/etc/locale.gen` ja eemalda kommentaarid realt `en_US.UTF-8 UTF-8`
 
 
 
-- Määra masina nimi :
+- Määra masina nimi:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Seadistage juurkasutaja parool :
+- Seadistage juurkasutaja parool:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Paigaldage :
+Paigaldage:
 
 
 
@@ -472,7 +472,7 @@ Pärast allalaadimist peate selle paigaldama vastavalt kettapartitsiooni formaad
 
 
 
-- **BIOS** puhul :
+- **BIOS** puhul:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- **UEFI** puhul :
+- **UEFI** puhul:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Restart :
+- Restart:
 
 
 ```shell
@@ -551,7 +551,7 @@ Käivitamisel logige sisse oma **juurtunnuse** ja parooliga.
 
 
 
-Võib juhtuda, et taaskäivitamisel ei ole võrguühendus aktiivne. Liidesed saate loetleda koos :
+Võib juhtuda, et taaskäivitamisel ei ole võrguühendus aktiivne. Liidesed saate loetleda koos:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Vaikimisi ei sisalda **Arch Linux** graafilist Interface. Et lisada üks :
+Vaikimisi ei sisalda **Arch Linux** graafilist Interface. Et lisada üks:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktiveerige **sessioonihaldur** :
+Aktiveerige **sessioonihaldur**:
 
 
 
@@ -652,7 +652,7 @@ Kui olete **Interface GNOME's**, peate suurema turvalisuse ja turvalisema, riski
 
 
 
-- Lisa kasutaja :
+- Lisa kasutaja:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Paigalda **sudo** :
+- Paigalda **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Seejärel eemaldage kommentaarid realt :
+- Seejärel eemaldage kommentaarid realt:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Näiteks tekstiredaktori **nano** installimiseks võite kirjutada :
+Näiteks tekstiredaktori **nano** installimiseks võite kirjutada:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Kergema veebibrauseri, näiteks `firefox` paigaldamiseks kasutage :
+Kergema veebibrauseri, näiteks `firefox` paigaldamiseks kasutage:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Lõpuks, kui soovite lisada olulisi võrguvahendeid nagu `net-tools`, siis on käsk :
+Lõpuks, kui soovite lisada olulisi võrguvahendeid nagu `net-tools`, siis on käsk:
 
 
 

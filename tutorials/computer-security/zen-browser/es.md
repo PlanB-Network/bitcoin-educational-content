@@ -53,13 +53,13 @@ El sitio detecta automáticamente su sistema y le propone el enlace adecuado:
 
 
 
-- Windows :** Instalador .exe para Windows 10/11 (versiones x64 y ARM64)
-- macOS :** Imagen de disco .dmg compatible con Intel y Apple Silicon (macOS Monterey y posterior)
+- Windows:** Instalador .exe para Windows 10/11 (versiones x64 y ARM64)
+- macOS:** Imagen de disco .dmg compatible con Intel y Apple Silicon (macOS Monterey y posterior)
 - Linux:** Varias opciones disponibles:
   - Flatpak** (recomendado): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Portátil, directamente ejecutable
-  - Archivo tar.gz** : Para extraer manualmente
-  - AUR** (Arch Linux) : Paquete Zen-browser
+  - Archivo tar.gz**: Para extraer manualmente
+  - AUR** (Arch Linux): Paquete Zen-browser
 
 
 
@@ -97,8 +97,8 @@ El sitio detecta automáticamente su sistema y le propone el enlace adecuado:
 
 
 - Flatpak:** Instalación automática a través del gestor de paquetes
-- AppImage :** `chmod +x ZenBrowser.AppImage` y haga doble clic en
-- tar.gz :** Extraer y ejecutar el ejecutable zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` y haga doble clic en
+- tar.gz:** Extraer y ejecutar el ejecutable zen-browser
 
 
 
@@ -320,7 +320,7 @@ Además, al estar basado en Firefox, Zen es compatible con todo el ecosistema de
 
 
 
-Para acceder a la configuración de Zen Browser :
+Para acceder a la configuración de Zen Browser:
 
 
 
@@ -348,7 +348,7 @@ Desde el principio, Zen Browser aplica una configuración de alta privacidad que
 
 
 
-- Estricta protección anti-seguimiento:** Nivel "Estándar" activado por defecto, bloqueando :
+- Estricta protección anti-seguimiento:** Nivel "Estándar" activado por defecto, bloqueando:
   - Cookies de seguimiento cruzado y supercookies
   - Scripts de seguimiento de anuncios (Google Analytics, Facebook Pixel, etc.)
   - Criptomineros que utilizan tu CPU para Miner criptomonedas
@@ -416,7 +416,7 @@ Configuración > Privacidad y seguridad > Protección de rastreo mejorada
 **2. Cambiar motor de búsqueda:**
 
 
-Configuración > Búsqueda > Motor de búsqueda predeterminado :
+Configuración > Búsqueda > Motor de búsqueda predeterminado:
 
 
 
@@ -496,7 +496,7 @@ Configuración > Privacidad y seguridad > Sólo modo HTTPS > **Activado**
 **5. Gestionar permisos por defecto:**
 
 
-Configuración > Privacidad y seguridad > Permisos :
+Configuración > Privacidad y seguridad > Permisos:
 
 
 

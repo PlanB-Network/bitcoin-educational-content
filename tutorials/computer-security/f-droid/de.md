@@ -71,7 +71,7 @@ F-Droid bietet umfassende Informationen zu jeder Anwendung, die Sie installieren
 
 
 
-Wenn Sie auf die Anwendung klicken, finden Sie u.a. :
+Wenn Sie auf die Anwendung klicken, finden Sie u.a.:
 
 
 
@@ -117,7 +117,7 @@ Erteilen Sie F-Droid Installationsrechte, indem Sie die Option in Ihren Einstell
 
 
 
-F-Droid fördert die Praxis von Open Source und Community-Beiträgen, insbesondere durch die Option **Near By** Exchange. Verbinden Sie sich mit den Nutzern um Sie herum über :
+F-Droid fördert die Praxis von Open Source und Community-Beiträgen, insbesondere durch die Option **Near By** Exchange. Verbinden Sie sich mit den Nutzern um Sie herum über:
 
 
 

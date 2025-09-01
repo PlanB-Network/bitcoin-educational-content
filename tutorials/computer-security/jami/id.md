@@ -332,7 +332,7 @@ Untuk mengembangkan plugin Anda sendiri, lihat postingan blog **[Temukan Jami Pl
 
 
 
-Jami juga menawarkan **fitur lanjutan** untuk pengguna yang ingin melangkah lebih jauh dalam mengkonfigurasi dan menggunakan aplikasi. Opsi ini termasuk :
+Jami juga menawarkan **fitur lanjutan** untuk pengguna yang ingin melangkah lebih jauh dalam mengkonfigurasi dan menggunakan aplikasi. Opsi ini termasuk:
 
 
 

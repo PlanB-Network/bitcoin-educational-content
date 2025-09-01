@@ -53,8 +53,8 @@ Zen Browser 適用於 Windows、macOS 和 Linux。請造訪官方網站：zen-br
 
 
 
-- Windows :** .exe 安裝程式，適用於 Windows 10/11 (x64 與 ARM64 版本)
-- macOS :** Intel 與 Apple Silicon 相容的 .dmg 磁碟映像檔 (macOS Monterey 與更新版本)
+- Windows:** .exe 安裝程式，適用於 Windows 10/11 (x64 與 ARM64 版本)
+- macOS:** Intel 與 Apple Silicon 相容的 .dmg 磁碟映像檔 (macOS Monterey 與更新版本)
 - Linux:** 提供多種選項：
   - Flatpak** (建議)：`flatpak install flathub app.zen_browser.Zen`.
   - AppImage**：可攜式、直接執行
@@ -97,8 +97,8 @@ Zen Browser 適用於 Windows、macOS 和 Linux。請造訪官方網站：zen-br
 
 
 - Flatpak:** 透過套件管理員自動安裝
-- AppImage :** `chmod +x ZenBrowser.AppImage` 然後按兩下
-- tar.gz :** 解壓縮並執行 zen-browser 可執行檔
+- AppImage:** `chmod +x ZenBrowser.AppImage` 然後按兩下
+- tar.gz:** 解壓縮並執行 zen-browser 可執行檔
 
 
 

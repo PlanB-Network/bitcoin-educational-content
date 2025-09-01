@@ -332,7 +332,7 @@ Chcete-li vyvíjet vlastní zásuvné moduly, podívejte se na příspěvek na b
 
 
 
-Jami nabízí také **pokročilé funkce** pro uživatele, kteří chtějí jít v konfiguraci a používání aplikace dále. Tyto možnosti zahrnují :
+Jami nabízí také **pokročilé funkce** pro uživatele, kteří chtějí jít v konfiguraci a používání aplikace dále. Tyto možnosti zahrnují:
 
 
 

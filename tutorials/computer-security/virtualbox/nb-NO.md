@@ -67,7 +67,7 @@ Det er enkelt å installere VirtualBox**, og prosessen er den samme for alle Win
 
 
 
-Denne installasjonen kan tilpasses, men jeg anbefaler at du installerer alle funksjonene: som er tilfelle med standardvalget. På bildet nedenfor kan du se forskjellige Elements, inkludert :
+Denne installasjonen kan tilpasses, men jeg anbefaler at du installerer alle funksjonene: som er tilfelle med standardvalget. På bildet nedenfor kan du se forskjellige Elements, inkludert:
 
 
 

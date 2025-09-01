@@ -62,7 +62,7 @@ Seine einzigartige Eigenschaft? Orion ist der **einzige WebKit**-Browser, der Ch
 
 - Begrenzte Verfügbarkeit**: Derzeit reserviert für macOS und iOS/iPadOS. Eine Linux-Version erreicht Entwicklungsmeilensteine (Meilenstein 2 im Jahr 2025), aber es ist kein öffentlicher Build verfügbar. Windows und Android befinden sich mangels Ressourcen nicht in der Entwicklung.
 - Geschlossener Quellcode**: Obwohl einige Komponenten quelloffen sind, bleibt Orion überwiegend proprietär, ein Punkt, der in der Datenschutzgemeinschaft diskutiert wird.
-- Experimentelle Erweiterungen** : Die Unterstützung von Erweiterungen befindet sich noch in der Beta-Phase, mit häufigen Inkompatibilitäten. Erweiterungen können die Leistung beeinträchtigen, und einige funktionieren überhaupt nicht.
+- Experimentelle Erweiterungen**: Die Unterstützung von Erweiterungen befindet sich noch in der Beta-Phase, mit häufigen Inkompatibilitäten. Erweiterungen können die Leistung beeinträchtigen, und einige funktionieren überhaupt nicht.
 - WebKit-Sicherheit**: Im Gegensatz zu Chromium bietet WebKit keine so robuste standortbezogene Prozessisolierung, was in bestimmten Szenarien zu Sicherheitsrisiken führen kann.
 - Blockierungstests**: Orion schneidet in Online-Werbetests absichtlich schlecht ab (26-35%), da Kagi diese Tests für "grundsätzlich fehlerhaft" hält. Die tatsächliche Wirksamkeit im täglichen Gebrauch ist weitaus besser.
 
@@ -105,7 +105,7 @@ Seine einzigartige Eigenschaft? Orion ist der **einzige WebKit**-Browser, der Ch
 
 
 
-**Alternative Homebrew** :
+**Alternative Homebrew**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Diese Tools sind immer verfügbar und ermöglichen es Ihnen, Ihr Surferlebnis au
 
 
 
-**Orion+ (optional)**: Um die Projektentwicklung zu unterstützen, bietet Kagi Orion+ ($5/Monat, $50/Jahr oder $150 auf Lebenszeit). Dieses freiwillige Abonnement ermöglicht :
+**Orion+ (optional)**: Um die Projektentwicklung zu unterstützen, bietet Kagi Orion+ ($5/Monat, $50/Jahr oder $150 auf Lebenszeit). Dieses freiwillige Abonnement ermöglicht:
 
 
 
@@ -267,18 +267,18 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-**Inhaltsblocker standardmäßig aktiv** :
+**Inhaltsblocker standardmäßig aktiv**:
 
 
 
 
-- EasyList** : 119k+ Werbeblocker-Regeln
+- EasyList**: 119k+ Werbeblocker-Regeln
 - EasyPrivacy**: Schutz vor Tracking
 - Filter-Listen verwalten**: Zusätzliche Listen hinzufügen (Hagezi empfohlen)
 
 
 
-**Datenschutzoptionen** :
+**Datenschutzoptionen**:
 
 
 
@@ -323,11 +323,11 @@ Rufen Sie die Einstellungen über **Orion → Einstellungen** (oder ⌘,) auf:
 
 
 
-**Eigene Filter erstellen** (Datenschutz → Filterlisten verwalten → Eigene Filter) :
+**Eigene Filter erstellen** (Datenschutz → Filterlisten verwalten → Eigene Filter):
 
 
 
-**Vereinfachte Syntax** (kompatibel mit Adblock Plus) :
+**Vereinfachte Syntax** (kompatibel mit Adblock Plus):
 
 
 
@@ -350,7 +350,7 @@ Orion unterstützt von Haus aus Erweiterungen für Chrome und Firefox. Installie
 
 
 
-**Essentials** :
+**Essentials**:
 
 
 
@@ -361,7 +361,7 @@ Orion unterstützt von Haus aus Erweiterungen für Chrome und Firefox. Installie
 
 
 
-**Optional** :
+**Optional**:
 
 
 
@@ -372,7 +372,7 @@ Orion unterstützt von Haus aus Erweiterungen für Chrome und Firefox. Installie
 
 
 
-Zur Installation einer :
+Zur Installation einer:
 
 
 
@@ -411,7 +411,7 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-**Themenoptionen** :
+**Themenoptionen**:
 
 
 
@@ -421,7 +421,7 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-**Typografische Kontrolle** :
+**Typografische Kontrolle**:
 
 
 
@@ -431,7 +431,7 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-**Interface Reinigung** :
+**Interface Reinigung**:
 
 
 
@@ -447,13 +447,13 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-**Erweiterte Registerkartenverwaltung** :
+**Erweiterte Registerkartenverwaltung**:
 
 
 
 
 - Vertikale Registerkarten**: Aktivieren über die Menüleiste (Funktion "Tabs on the Side")
-- Kompakte Registerkarten** : In Voreinstellungen → Registerkarten → Layout "Kompakt", um Platz zu sparen
+- Kompakte Registerkarten**: In Voreinstellungen → Registerkarten → Layout "Kompakt", um Platz zu sparen
 - Registerkartengruppen**: Organisieren Sie Ihre Sitzungen nach Thema
 - Mehrere Profile**: Erstellen Sie über die Menüleiste (Funktion "Profile") separate Identitäten mit vollständig isolierten Daten
 
@@ -463,7 +463,7 @@ Das **Pinsel**-Tool von Orion ist eine einzigartige Funktion, mit der Sie die An
 
 
 
-**Eingebaute Werkzeuge** (Menü Bearbeiten und andere) :
+**Eingebaute Werkzeuge** (Menü Bearbeiten und andere):
 
 
 
@@ -507,7 +507,7 @@ Um Orion schnell und privat zu halten:
 
 
 
-- Erweiterungen** : Auf das absolute Minimum beschränken (kann die Leistung verringern)
+- Erweiterungen**: Auf das absolute Minimum beschränken (kann die Leistung verringern)
 - Energiesparmodus**: Aktivieren Sie diesen Modus für lange Sitzungen (90% Einsparung möglich)
 - Datenschutzbericht**: Klicken Sie auf das Schild 🛡️, um Blockierungen in Echtzeit zu sehen
 - Visuelle Anpassung**: Verwenden Sie den 🖌️ Pinsel, um die Anzeige anzupassen und ablenkende Elements zu entfernen
@@ -552,7 +552,7 @@ Um Orion schnell und privat zu halten:
 
 
 
-**Ideal für** :
+**Ideal für**:
 
 
 
@@ -566,7 +566,7 @@ Um Orion schnell und privat zu halten:
 
 
 
-**Vermeiden, wenn** :
+**Vermeiden, wenn**:
 
 
 
@@ -645,8 +645,8 @@ Denken Sie daran: Der Schutz Ihrer Privatsphäre hängt nicht nur von Ihrem Brow
 - Vollständige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Gemeinschaftsforum**: [community.kagi.com](https://community.kagi.com)
 - Fehlerverfolgung**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-Source-Komponenten
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Nachrichten und Aktualisierungen
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-Source-Komponenten
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nachrichten und Aktualisierungen
 
 
 

@@ -30,7 +30,7 @@ pfSense, herhangi bir bilgisayarı, özel sunucuyu veya donanım cihazını yük
 
 
 
-Ana işlevleri yıllar içinde önemli ölçüde gelişti ve her yeni sürümde geliştirildi. Bugüne kadar, pfSense :
+Ana işlevleri yıllar içinde önemli ölçüde gelişti ve her yeni sürümde geliştirildi. Bugüne kadar, pfSense:
 
 
 
@@ -105,7 +105,7 @@ Bu örnekte, kurulum VirtualBox çalıştıran bir sanal makine üzerinde gerçe
 
 
 
-Standart bir dağıtım için :
+Standart bir dağıtım için:
 
 
 
@@ -221,7 +221,7 @@ Başlatıldığında, pfSense mevcut tüm ağ arayüzlerini otomatik olarak alg�
 
 
 
-pfSense daha sonra WAN (İnternet erişimi) için hangi Interface'nın kullanılacağını tanımlamanızı ister. Arasında seçim yapabilirsiniz :
+pfSense daha sonra WAN (İnternet erişimi) için hangi Interface'nın kullanılacağını tanımlamanızı ister. Arasında seçim yapabilirsiniz:
 
 
 
@@ -304,7 +304,7 @@ Tarayıcınızda, konsol tarafından belirtilen Address'e gidin (varsayılan ola
 
 
 
-Oturum açma ekranı görünür. Varsayılan kimlik bilgileri :
+Oturum açma ekranı görünür. Varsayılan kimlik bilgileri:
 
 
 
@@ -330,7 +330,7 @@ Bu tanımlayıcılar ilk yapılandırma sihirbazı sırasında değiştirilecekt
 
 
 
-Yapabilirsin :
+Yapabilirsin:
 
 
 
@@ -352,7 +352,7 @@ Günlüklerin ve programların tutarlı olması için sitenizin saat dilimini be
 
 
 
-WAN bağlantısını yapılandırma :
+WAN bağlantısını yapılandırma:
 
 
 
@@ -383,7 +383,7 @@ Hemen `admin` kullanıcısı için güçlü bir parola belirleyerek pfSense'iniz
 
 
 
-Güvenlik duvarınızı dağıtmadan önce, en son :
+Güvenlik duvarınızı dağıtmadan önce, en son:
 
 
 
@@ -423,7 +423,7 @@ Görev açısından kritik ortamlar için, harici bir sunucuda veya programlanm�
 
 
 
-Görevinizi gönül rahatlığıyla sonlandırmak için :
+Görevinizi gönül rahatlığıyla sonlandırmak için:
 
 
 

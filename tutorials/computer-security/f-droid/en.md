@@ -54,7 +54,7 @@ Would you like to install a specific application? Click on the **Search** button
 F-Droid provides comprehensive information on every application you wish to install.
 
 
-By clicking on the application, you will find, among other things :
+By clicking on the application, you will find, among other things:
 
 
 - Features and changes added in the latest available version
@@ -72,7 +72,7 @@ By clicking on the application, you will find, among other things :
 ![permissions](assets/fr/06.webp)
 
 
-Find out more in our Thunderbird tutorial :
+Find out more in our Thunderbird tutorial:
 
 
 https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
@@ -88,7 +88,7 @@ Grant F-Droid installation rights by enabling the option in your settings.
 ## Exchange your applications
 
 
-F-Droid encourages the practice of open source and community contribution, notably via its **Near By** exchange option. Connect to the users around you via :
+F-Droid encourages the practice of open source and community contribution, notably via its **Near By** exchange option. Connect to the users around you via:
 
 
 - Bluetooth detection;

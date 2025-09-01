@@ -120,7 +120,7 @@ Tavoite: yksityisyyden suojaa halutaan parantaa rikkomatta verkkoa. 90 prosentti
 
 
 
-Pääset asetuksiin napsauttamalla oikeassa yläkulmassa olevaa valikkoa ☰ ja sitten **"Asetukset "** :
+Pääset asetuksiin napsauttamalla oikeassa yläkulmassa olevaa valikkoa ☰ ja sitten **"Asetukset "**:
 
 
 
@@ -279,7 +279,7 @@ Tavoite: toimintojen lokerointi ja verkkovuodon vähentäminen.
 
 
 - Oletustila**: Automaattisesti aktivoitu joillakin alueilla (USA, Kanada, Venäjä, Ukraina). Muualla vaaditaan manuaalinen aktivointi.
-- Kokoonpano** : Asetukset → Yleiset → Verkkoasetukset → **Verkkoasetukset → **Valmis DoH** → **Cloudflare** tai **Quad9** → **Maksimaalinen suojaus**.
+- Kokoonpano**: Asetukset → Yleiset → Verkkoasetukset → **Verkkoasetukset → **Valmis DoH** → **Cloudflare** tai **Quad9** → **Maksimaalinen suojaus**.
 - Suurin suojaus = vain TRR** (ei palautusta järjestelmän DNS:ään). Jos yrityksen/hotellin verkko estää, vaihda takaisin **Standardiin** tai poista DoH käytöstä.
 - Redundanssi**: DoH voi olla tarpeeton, jos käytät jo luotettavaa VPN:ää, jolla on oma suojattu DNS.
 - Tarkistustesti**: `https://www.dnsleaktest.com/` pitäisi näyttää vain valitun DoH-palveluntarjoajan.
@@ -559,7 +559,7 @@ Parhaat käytännöt
 - Karkaistu selain ≠ verkon anonymiteetti: ilman **VPN**:ää IP-osoitteesi pysyy näkyvissä, ja jopa sen kanssa korrelaatio on edelleen mahdollista.
 - Liiallinen muokkaaminen voi tehdä sinusta **yksilöllisen**. **RFP** standardoi; satunnaistamisvälineet (esim. Chameleon) voivat... erottaa sinut muista. Testaa, vertaa, säädä.
 - Vaihtoehdot/täydennykset:
- - Tor Browser: verkon anonymiteetti Torin kautta; hitaampi. Katso täydellinen asennus- ja konfigurointioppaamme** :
+ - Tor Browser: verkon anonymiteetti Torin kautta; hitaampi. Katso täydellinen asennus- ja konfigurointioppaamme**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: mullvad: "Tor ilman Toria", yhdistettävissä VPN:n kanssa; standardoitu jalanjälki. Lue, miten se asennetaan omassa opetusohjelmassamme** :
+ - Mullvad Browser: mullvad: "Tor ilman Toria", yhdistettävissä VPN:n kanssa; standardoitu jalanjälki. Lue, miten se asennetaan omassa opetusohjelmassamme**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Enhanced Tracking Protection] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Virallinen opas parannettuun jäljityssuojaukseen
+- [Enhanced Tracking Protection] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Virallinen opas parannettuun jäljityssuojaukseen
 - [State Partitioning] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tekninen dokumentaatio tilojen jakamisesta
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Täydellinen referenssi verkkoturvallisuudesta
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Täydellinen referenssi verkkoturvallisuudesta
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): (WebRTC, Canvas, fontit jne.): Täydellinen testisarja (WebRTC, Canvas, fontit jne.)
 - [BadSSL](https://badssl.com/): SSL/TLS-varmenteen validointitestit
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Kehittynyt analyysi 50+ sormenjälkivektorista
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Tarkistetaan, että Cloudflare DoH toimii oikein
+- [Cloudflare DNS Test](https://1.1.1.1/help): Tarkistetaan, että Cloudflare DoH toimii oikein

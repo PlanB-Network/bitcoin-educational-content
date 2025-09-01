@@ -332,7 +332,7 @@ Aby opracować własne wtyczki, zapoznaj się z wpisem na blogu **[Odkryj Jami P
 
 
 
-Jami oferuje również **zaawansowane funkcje** dla użytkowników, którzy chcą pójść dalej w konfiguracji i korzystaniu z aplikacji. Opcje te obejmują :
+Jami oferuje również **zaawansowane funkcje** dla użytkowników, którzy chcą pójść dalej w konfiguracji i korzystaniu z aplikacji. Opcje te obejmują:
 
 
 

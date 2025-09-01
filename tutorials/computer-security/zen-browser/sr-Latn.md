@@ -53,13 +53,13 @@ Sajt automatski detektuje vaš sistem i predlaže odgovarajući link:
 
 
 
-- Windows :** .exe instalacioni program za Windows 10/11 (x64 i ARM64 verzije)
-- macOS :** Kompatibilna .dmg disk slika za Intel i Apple Silicon (macOS Monterey i noviji)
+- Windows:** .exe instalacioni program za Windows 10/11 (x64 i ARM64 verzije)
+- macOS:** Kompatibilna .dmg disk slika za Intel i Apple Silicon (macOS Monterey i noviji)
 - Linux:** Nekoliko dostupnih opcija:
   - Flatpak** (preporučeno): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Prenosivo, direktno izvršno
-  - Arhiva tar.gz** : Da se ekstrahuje ručno
-  - AUR** (Arch Linux) : Zen-browser paket
+  - Arhiva tar.gz**: Da se ekstrahuje ručno
+  - AUR** (Arch Linux): Zen-browser paket
 
 
 
@@ -97,8 +97,8 @@ Sajt automatski detektuje vaš sistem i predlaže odgovarajući link:
 
 
 - Flatpak:** Automatska instalacija putem upravitelja paketa
-- AppImage :** `chmod +x ZenBrowser.AppImage` zatim dvokliknite
-- tar.gz :** Izdvojite i pokrenite izvršnu datoteku zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` zatim dvokliknite
+- tar.gz:** Izdvojite i pokrenite izvršnu datoteku zen-browser
 
 
 
@@ -320,7 +320,7 @@ Zen Browser je izabrao korisničko iskustvo umesto savršene anonimnosti. Ako va
 
 
 
-Da pristupite podešavanjima Zen Browser-a :
+Da pristupite podešavanjima Zen Browser-a:
 
 
 
@@ -416,7 +416,7 @@ Podešavanja > Privatnost i bezbednost > Poboljšana zaštita od praćenja
 **2. Promeni pretraživač:**
 
 
-Podešavanja > Pretraga > Podrazumevani pretraživač :
+Podešavanja > Pretraga > Podrazumevani pretraživač:
 
 
 
@@ -496,7 +496,7 @@ Podešavanja > Privatnost i bezbednost > Samo HTTPS režim > **Omogućeno**
 **5. Upravljaj podrazumevanim dozvolama:**
 
 
-Podešavanja > Privatnost i bezbednost > Dozvole :
+Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 

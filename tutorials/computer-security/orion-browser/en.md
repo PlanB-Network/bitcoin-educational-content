@@ -47,7 +47,7 @@ Its unique feature? Orion is the **only WebKit** browser to natively install Chr
 
 - Limited availability**: Currently reserved for macOS and iOS/iPadOS. A Linux version is reaching development milestones (Milestone 2 in 2025), but no public build is available. Windows and Android are not in development for lack of resources.
 - Closed source code**: Although some components are open-source, Orion remains predominantly proprietary, a point of debate in the privacy community.
-- Experimental extensions** : Extension support remains in beta, with frequent incompatibilities. Extensions can affect performance, and some don't work at all.
+- Experimental extensions**: Extension support remains in beta, with frequent incompatibilities. Extensions can affect performance, and some don't work at all.
 - WebKit security**: Unlike Chromium, WebKit doesn't offer such robust per-site process isolation, which can pose security risks in certain scenarios.
 - Blocking tests**: Orion performs deliberately poorly in online advertising tests (26-35%), as Kagi considers these tests to be "fundamentally flawed". Actual effectiveness in everyday use is far superior.
 
@@ -79,7 +79,7 @@ Its unique feature? Orion is the **only WebKit** browser to natively install Chr
 - On first launch, macOS will ask you to confirm opening
 
 
-**Alternative Homebrew** :
+**Alternative Homebrew**:
 
 ```bash
 brew install --cask orion
@@ -155,7 +155,7 @@ These tools are always available and allow you to control your browsing experien
 *Orion+ subscription screen in preferences, offering an optional subscription to support development*
 
 
-**Orion+ (optional)**: To support project development, Kagi offers Orion+ ($5/month, $50/year, or $150 lifetime). This voluntary subscription enables :
+**Orion+ (optional)**: To support project development, Kagi offers Orion+ ($5/month, $50/year, or $150 lifetime). This voluntary subscription enables:
 
 
 - Communicate directly with the development team
@@ -174,7 +174,7 @@ Orion+ guarantees the project's independence: "Your financial contribution helps
 ### Essential parameters
 
 
-Access preferences via **Orion → Preferences** (or ⌘,) :
+Access preferences via **Orion → Preferences** (or ⌘,):
 
 
 **1. Search - Private search engine**
@@ -198,15 +198,15 @@ Access preferences via **Orion → Preferences** (or ⌘,) :
 *Orion privacy settings showing Content Blocker with 119,156 active rules, tracker removal options and custom user agent*
 
 
-**Content Blocker active by default** :
+**Content Blocker active by default**:
 
 
-- EasyList** : 119k+ ad-blocking rules
+- EasyList**: 119k+ ad-blocking rules
 - EasyPrivacy**: Protection against tracking
 - Manage Filter Lists**: Add additional lists (Hagezi recommended)
 
 
-**Privacy options** :
+**Privacy options**:
 
 
 - Remove trackers from URLs**: "For Private Browsing only" cleans up copied links
@@ -227,7 +227,7 @@ Access preferences via **Orion → Preferences** (or ⌘,) :
 *Website Settings for YouTube showing compatibility options, content blocking and site-specific permissions*
 
 
-**Quick access**: Click on the gear ⚙️ in the address bar to adjust :
+**Quick access**: Click on the gear ⚙️ in the address bar to adjust:
 
 
 - Compatibility Mode**: Solves display problems by suspending extensions
@@ -239,10 +239,10 @@ Access preferences via **Orion → Preferences** (or ⌘,) :
 **4. Advanced Custom Filters** (see below)
 
 
-**Create custom filters** (Privacy → Manage Filter Lists → Custom Filters) :
+**Create custom filters** (Privacy → Manage Filter Lists → Custom Filters):
 
 
-**Simplified syntax** (Adblock Plus compatible) :
+**Simplified syntax** (Adblock Plus compatible):
 
 
 - `reddit.com##.promotedlink`: Hides sponsored Reddit posts
@@ -259,7 +259,7 @@ Access preferences via **Orion → Preferences** (or ⌘,) :
 Orion natively supports Chrome and Firefox extensions. Install them directly from the official stores:
 
 
-**Essentials** :
+**Essentials**:
 
 
 - uBlock Origin**: Adds granular control to the native blocker
@@ -267,7 +267,7 @@ Orion natively supports Chrome and Firefox extensions. Install them directly fro
 - ClearURLs**: Deletes URL tracking parameters
 
 
-**Optional** :
+**Optional**:
 
 
 - LocalCDN**: Serves shared libraries locally
@@ -275,7 +275,7 @@ Orion natively supports Chrome and Firefox extensions. Install them directly fro
 - NoScript**: Total control over JavaScript execution (advanced users)
 
 
-To install a :
+To install a:
 
 
 - Visit [chrome.google.com/webstore](https://chrome.google.com/webstore) or [addons.mozilla.org](https://addons.mozilla.org)
@@ -304,21 +304,21 @@ To install a :
 Orion's **brush** tool is a unique feature that lets you customize the display of each website:
 
 
-**Theme options** :
+**Theme options**:
 
 
 - Switch between light and dark themes for each site
 - Automatic adaptation to your system preferences
 
 
-**Typographical control** :
+**Typographical control**:
 
 
 - Font size**: Adjust legibility with the A- and A+ buttons
 - Font style**: Change font family (default or custom)
 
 
-**Interface cleaning** :
+**Interface cleaning**:
 
 
 - Disable sticky headers**: Removes headers that remain stuck at the top when scrolling
@@ -330,11 +330,11 @@ Orion's **brush** tool is a unique feature that lets you customize the display o
 **Persistence**: All these settings are saved per domain and automatically reapplied the next time you visit.
 
 
-**Advanced tab management** :
+**Advanced tab management**:
 
 
 - Vertical tabs**: Activate via the menu bar (Tabs on the Side function)
-- Compact tabs** : In Preferences → Tabs → Layout "Compact" to save space
+- Compact tabs**: In Preferences → Tabs → Layout "Compact" to save space
 - Tab groups**: Organize your sessions by theme
 - Multiple profiles**: Create separate identities via the menu bar (Profiles function) with completely isolated data
 
@@ -342,7 +342,7 @@ Orion's **brush** tool is a unique feature that lets you customize the display o
 **Low Power Mode**: Inspired by the iPhone, this mode automatically suspends inactive tabs after 5 minutes and can reduce energy consumption by up to 90%. Activate it via Orion's menu bar on Mac, or in settings on iOS.
 
 
-**Built-in tools** (Edit menu and others) :
+**Built-in tools** (Edit menu and others):
 
 
 - Edit Text on Page**: temporarily modify any text (Edit menu)
@@ -375,7 +375,7 @@ Orion's private navigation (⌘⇧N) offers:
 To keep Orion fast and private:
 
 
-- Extensions** : Limit to the strict minimum (may reduce performance)
+- Extensions**: Limit to the strict minimum (may reduce performance)
 - Low Power Mode**: Activate for long sessions (90% savings possible)
 - Privacy Report**: Click on the shield 🛡️ to see blockages in real time
 - Visual customization**: Use the 🖌️ brush to adapt the display and remove distracting elements
@@ -413,7 +413,7 @@ To keep Orion fast and private:
 ## Recommended use cases
 
 
-**Ideal for** :
+**Ideal for**:
 
 
 - Apple users seeking more privacy than Safari
@@ -424,7 +424,7 @@ To keep Orion fast and private:
 - Mobile users looking for better battery management (Low Power Mode)
 
 
-**Avoid if** :
+**Avoid if**:
 
 
 - You mainly use Windows/Linux (no version available)
@@ -484,8 +484,8 @@ Remember: protecting your privacy doesn't just depend on your browser. Combine O
 - Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Community forum**: [community.kagi.com](https://community.kagi.com)
 - Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source components
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - News and updates
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source components
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - News and updates
 
 
 ### Recommended verification tests
@@ -509,7 +509,7 @@ For maximum protection, consult our other guides:
 - [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Maximum fingerprinting protection
 
 
-If you'd like to learn more about the history and operation of browsers, as well as the main digital objects in your daily life, I invite you to discover our new free training course SCU 202, available on Plan ₿ Network :
+If you'd like to learn more about the history and operation of browsers, as well as the main digital objects in your daily life, I invite you to discover our new free training course SCU 202, available on Plan ₿ Network:
 
 
 https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -349,7 +349,7 @@ Aşağıda gösterilen ekran görünecektir. Makinenin ağ kartlarını OPNsense
 
 
 
-Artık elimizde :
+Artık elimizde:
 
 
 

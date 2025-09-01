@@ -18,7 +18,7 @@ description: Behoud je privacy en vertrouwelijkheid.
 
 
 - Gratis**: Net als de meeste Linux-distributies is Whonix een open-source systeem met een volledig gratis licentie. Het is ontwikkeld in open source, met een actieve en transparante gemeenschap.
-- Privacy, veiligheid en anonimiteit** : De belangrijkste doelstelling van Whonix is het bieden van een ultraveilige omgeving, waarin al je gegevens worden beschermd en je communicatie wordt versleuteld via het Tor-netwerk.
+- Privacy, veiligheid en anonimiteit**: De belangrijkste doelstelling van Whonix is het bieden van een ultraveilige omgeving, waarin al je gegevens worden beschermd en je communicatie wordt versleuteld via het Tor-netwerk.
 - Gebruiksvriendelijk**: Whonix biedt een intuïtieve, vooraf geconfigureerde grafische Interface, die zelfs geschikt is voor beginnende gebruikers. Je hoeft geen expert te zijn om te profiteren van geavanceerde bescherming.
 - Ideale omgeving voor veilige ontwikkeling**: Met Whonix kun je programma's ontwikkelen, testen, controleren of uitvoeren zonder ooit je echte IP Address te onthullen of je surf- of netwerkcommunicatiegewoonten bloot te leggen.
 - Wegwerpsessies en Live-modus**: Whonix kan worden gestart in Live-modus of via wegwerpmachines (bijvoorbeeld via **Qubes OS**), zodat kritieke taken kunnen worden uitgevoerd zonder persistente sporen achter te laten zodra de sessie is beëindigd.

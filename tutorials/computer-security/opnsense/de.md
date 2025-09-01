@@ -124,7 +124,7 @@ Dies ist nur ein Überblick über die von OPNsense angebotenen Funktionen. Darü
 
 
 
-Als erstes müssen Sie entscheiden, wo Sie OPNsense installieren wollen. Es gibt mehrere mögliche Lösungen, einschließlich der Installation auf :
+Als erstes müssen Sie entscheiden, wo Sie OPNsense installieren wollen. Es gibt mehrere mögliche Lösungen, einschließlich der Installation auf:
 
 
 
@@ -349,7 +349,7 @@ Und so funktioniert es:
 
 
 
-Wir haben jetzt :
+Wir haben jetzt:
 
 
 
@@ -546,7 +546,7 @@ Wir müssen also Firewall-Regeln erstellen... Navigieren Sie wie folgt durch das
 
 
 
-Erstellen Sie dann drei neue Regeln, um das **LAN-Netz** (d.h. "**LAN net**") zu autorisieren, :
+Erstellen Sie dann drei neue Regeln, um das **LAN-Netz** (d.h. "**LAN net**") zu autorisieren,:
 
 
 

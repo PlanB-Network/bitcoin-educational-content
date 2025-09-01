@@ -10,7 +10,7 @@ Voordat je deze tutorial over het toevoegen van een nieuwe tutorial volgt, moet 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Je hebt al :
+Je hebt al:
 
 
 
@@ -23,13 +23,13 @@ In deze tutorial voor ervaren Git gebruikers, zullen we kort de belangrijkste st
 
 
 
-- Intermediair (GitHub Desktop) :
+- Intermediair (GitHub Desktop):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Beginners (web Interface) :
+- Beginners (web Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## Voorgestelde hulpmiddelen
 
 
-Markdown-bestanden bewerken :
+Markdown-bestanden bewerken:
 
 
 
@@ -47,7 +47,7 @@ Markdown-bestanden bewerken :
 - Typora (Payware, ~€15, niet open-source)
 
 
-Voor Git :
+Voor Git:
 
 
 
@@ -56,7 +56,7 @@ Voor Git :
 - Sourcetree (gratis, niet open-source)
 
 
-Voor het bewerken van YAML-bestanden :
+Voor het bewerken van YAML-bestanden:
 
 
 
@@ -64,7 +64,7 @@ Voor het bewerken van YAML-bestanden :
 - Sublime Text (gratis met beperkingen, niet open-source)
 
 
-Diagrammen en visuals maken :
+Diagrammen en visuals maken:
 
 
 
@@ -134,14 +134,14 @@ git push -u origin tuto-green-wallet-loic
 ***Noot:*** Je kunt stappen 3 en 4 automatiseren met [mijn Python GUI-script] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Start het direct vanuit de map in je lokale kloon en vul dan de vereiste velden in op de GUI. Zie de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) voor meer informatie over de installatie en het gebruik ervan.
 
 
-Als je het liever handmatig doet, volg dan deze stappen :
+Als je het liever handmatig doet, volg dan deze stappen:
 
 
 
 - Zoek de juiste map in het lokale archief (bijvoorbeeld `tutorials/Wallet`).
 - Maak een map aan voor de zelfstudie met een duidelijke naam (bijvoorbeeld `Green-Wallet`). Deze mapnaam zal ook het URL-pad van de zelfstudie bepalen. De naam moet in kleine letters zijn, zonder speciale tekens (behalve koppeltekens) en zonder spaties.
 - Voeg de volgende items toe aan deze map:
-    - Een submap met de naam `assets` die :
+    - Een submap met de naam `assets` die:
         - Twee `.webp` afbeeldingen:
             - `logo.webp`: Het tutoriallogo (vierkant formaat met achtergrond). Dit logo moet de gepresenteerde software of het gereedschap voorstellen. Als de tutorial niet specifiek is voor een tool (bijv.: een algemene gids voor het genereren van een Mnemonic zin), kun je een geschikte visual kiezen (bijv.: een generiek icoon).
             - `cover.webp`: Een coverafbeelding die aan het begin van de tutorial wordt weergegeven.
@@ -209,23 +209,23 @@ Dit zijn de verplichte velden:
 
 
 
-- id** : Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt generate gebruiken met [een online tool] (https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
+- id**: Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt generate gebruiken met [een online tool] (https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
 
 
 
-- project_id** : De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die op Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je zelfstudie, creëer je een link tussen de twee Elements;
+- project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die op Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je zelfstudie, creëer je een link tussen de twee Elements;
 
 
 
-- tags** : 2 of 3 relevante trefwoorden die verband houden met de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- categorie** : De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Network website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
+- categorie**: De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Network website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
 
 
 
-- level** : De moeilijkheidsgraad van de zelfstudie, gekozen uit:
+- level**: De moeilijkheidsgraad van de zelfstudie, gekozen uit:
     - beginner
     - gemiddeld
     - geavanceerd
@@ -233,20 +233,20 @@ Dit zijn de verplichte velden:
 
 
 
-- professor_id** : Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- oorspronkelijke_taal** : De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
+- oorspronkelijke_taal**: De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
 
 
 
-- proeflezen** : Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
-    - language** : Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
-    - last_contribution_date** : Datum van de dag.
-    - urgentie** : 1
-    - contributor_names** : Je GitHub ID.
-    - beloning** : 0
+- proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
+    - language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
+    - last_contribution_date**: Datum van de dag.
+    - urgentie**: 1
+    - contributor_names**: Je GitHub ID.
+    - beloning**: 0
 
 
 Raadpleeg de bijbehorende handleiding voor meer informatie over je leraren-ID:
@@ -287,7 +287,7 @@ reward: 0
 
 
 
-- Vul de Markdown bestandseigenschappen aan met :
+- Vul de Markdown bestandseigenschappen aan met:
     - De titel (`naam`).
     - Een korte beschrijving (`description`).
 - Voeg de omslagafbeelding bovenaan de tutorial toe met Markdown syntaxis (vervang "Green" door de naam van het getoonde gereedschap):
@@ -299,9 +299,9 @@ reward: 0
 
 
 
-- Schrijf de inhoud van de tutorial in Markdown :
+- Schrijf de inhoud van de tutorial in Markdown:
     - Gebruik goed gestructureerde koppen (`##`), lijsten en alinea's.
-    - Visuals invoegen met Markdown syntaxis :
+    - Visuals invoegen met Markdown syntaxis:
 
 
 ```
@@ -361,11 +361,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Opmaak ondersteund op het platform** :
+- Opmaak ondersteund op het platform**:
     - Klassieke Markdown: lijsten, links, afbeeldingen, citaten, vet, cursief enz.
     - LaTeX (alleen blok, niet inline): begrensd door `$$`.
     - Inline code: Syntaxis met een enkele backtick.
-    - Codeblokken: Syntaxis met drie backticks, bijvoorbeeld :
+    - Codeblokken: Syntaxis met drie backticks, bijvoorbeeld:
 
 
 ```
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- Illustraties en diagrammen** :
+- Illustraties en diagrammen**:
     - Alle afbeeldingen moeten het WebP-formaat hebben. Gebruik deze gratis tool om ze indien nodig te converteren: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Geef visuals een naam met 2 of 3 cijfers (bijvoorbeeld `001.webp`, `002.webp`).
     - Gebruik mock-ups voor mobiele of Hardware Wallet tutorials.
     - Gebruik alleen zelfgemaakte of rechtenvrije afbeeldingen.
     - Zorg ervoor dat ze relevant en van hoge kwaliteit zijn.
-- Grafisch charter** :
+- Grafisch charter**:
     - Lettertype: [Rubik](https://fonts.google.com/specimen/Rubik).
-    - Kleuren Plan ₿ Network :
+    - Kleuren Plan ₿ Network:
         - Oranje: `#FF5C00`
         - Zwart: `#000000`
         - Wit: `#FFFFFF`

@@ -218,7 +218,7 @@ Als dit is gebeurd, zullen apparaten die eerder zijn ingeschakeld de oude instel
 
 
 
-Op Windows-werkstations, met een opdrachtprompt :
+Op Windows-werkstations, met een opdrachtprompt:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Op een Linux-werkstation :
+Op een Linux-werkstation:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-In het DNS-veld moet de Address van je Pi-Hole staan, in mijn geval 192.168.1.42 :
+In het DNS-veld moet de Address van je Pi-Hole staan, in mijn geval 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ In het DNS-veld moet de Address van je Pi-Hole staan, in mijn geval 192.168.1.42
 
 
 
-Om het beheer te vereenvoudigen, beschikt **Pi-Hole** over een goed ontworpen Interface web Interface. Gebruiksvriendelijk en toegankelijk, het laat je :
+Om het beheer te vereenvoudigen, beschikt **Pi-Hole** over een goed ontworpen Interface web Interface. Gebruiksvriendelijk en toegankelijk, het laat je:
 
 
 
@@ -322,7 +322,7 @@ Een lijst toevoegen in Pi-Hole
 
 
 
-We hoeven alleen nog maar op "**Add**" te klikken om het toe te voegen. Om het te activeren, moeten we een extra stap uitvoeren om Pi-Hole te "waarschuwen" om deze lijst over te nemen. Om dit te doen :
+We hoeven alleen nog maar op "**Add**" te klikken om het toe te voegen. Om het te activeren, moeten we een extra stap uitvoeren om Pi-Hole te "waarschuwen" om deze lijst over te nemen. Om dit te doen:
 
 
 

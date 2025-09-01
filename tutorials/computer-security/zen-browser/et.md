@@ -53,13 +53,13 @@ Sait tuvastab automaatselt teie süsteemi ja pakub sobiva lingi:
 
 
 
-- Windows :** .exe paigaldaja Windows 10/11 (x64 ja ARM64 versioonid)
-- macOS :** Inteli ja Apple Siliconiga ühilduv .dmg disk image (macOS Monterey ja uuemad)
+- Windows:** .exe paigaldaja Windows 10/11 (x64 ja ARM64 versioonid)
+- macOS:** Inteli ja Apple Siliconiga ühilduv .dmg disk image (macOS Monterey ja uuemad)
 - Linux:** Saadaval on mitu võimalust:
   - Flatpak** (soovitatav): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Kaasaskantav, otse käivitatav
-  - Arhiiv tar.gz** : Manuaalselt ekstraheeritav
-  - AUR** (Arch Linux) : Zen-browser pakett
+  - Arhiiv tar.gz**: Manuaalselt ekstraheeritav
+  - AUR** (Arch Linux): Zen-browser pakett
 
 
 
@@ -97,8 +97,8 @@ Sait tuvastab automaatselt teie süsteemi ja pakub sobiva lingi:
 
 
 - Flatpak:** Automaatne paigaldus paketihalduri kaudu
-- AppImage :** `chmod +x ZenBrowser.AppImage` seejärel topeltklõpsake
-- tar.gz :** Ekstrakt ja käivitage zen-browser'i käivitatav fail
+- AppImage:** `chmod +x ZenBrowser.AppImage` seejärel topeltklõpsake
+- tar.gz:** Ekstrakt ja käivitage zen-browser'i käivitatav fail
 
 
 
@@ -320,7 +320,7 @@ Veelgi enam, kuna Zen põhineb Firefoxil, ühildub Zen kogu Firefoxi laienduste 
 
 
 
-Zen Brauseri seadetele juurdepääsemiseks :
+Zen Brauseri seadetele juurdepääsemiseks:
 
 
 
@@ -348,7 +348,7 @@ Zen Browser rakendab algusest peale kõrge privaatsusega konfiguratsiooni, mis �
 
 
 
-- Range jälgimisvastane kaitse:** "Standard" tase on vaikimisi aktiveeritud, blokeerides :
+- Range jälgimisvastane kaitse:** "Standard" tase on vaikimisi aktiveeritud, blokeerides:
   - Saitidevahelised jälgimisküpsised ja superküpsised
   - Reklaami jälgimisskriptid (Google Analytics, Facebook Pixel jne.)
   - Krüptominterid, mis kasutavad teie protsessorit Miner krüptovaluutade jaoks
@@ -416,7 +416,7 @@ Seaded > Privaatsus ja turvalisus > Täiustatud jälgimiskaitse
 **2. Muuda otsingumootorit:**
 
 
-Seaded > Otsing > Vaikimisi otsingumootor :
+Seaded > Otsing > Vaikimisi otsingumootor:
 
 
 
@@ -496,7 +496,7 @@ Seaded > Privaatsus ja turvalisus > Ainult HTTPS-režiim > **Võimaldab**
 **5. Vaikimisi õiguste haldamine:**
 
 
-Seaded > Privaatsus ja turvalisus > Õigused :
+Seaded > Privaatsus ja turvalisus > Õigused:
 
 
 

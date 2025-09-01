@@ -233,9 +233,9 @@ Bu işlemler için farklı emir türleri arasından seçim yapabilirsiniz: *Piya
 
 
 
-- Piyasa* : Mevcut piyasa fiyatından anında satın almaya izin verir;
+- Piyasa*: Mevcut piyasa fiyatından anında satın almaya izin verir;
 - Limit*: Bir satın alma fiyatı belirlemenizi sağlar ve emir yalnızca piyasa fiyatı bu tutara ulaştığında gerçekleştirilir;
-- Stop-Loss* : Fiyat belirli bir eşiğe ulaştığında otomatik olarak satış yapar.
+- Stop-Loss*: Fiyat belirli bir eşiğe ulaştığında otomatik olarak satış yapar.
 
 
 ## 7 - İşlem yönetimi ve muhasebe

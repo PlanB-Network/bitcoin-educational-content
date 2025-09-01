@@ -176,13 +176,13 @@ Sada imate alat za prihvatanje Bitcoin u svom poslovanju za samo nekoliko minuta
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-A ako tražite kompletan PoS pogodan za mala i srednja preduzeća, takođe preporučujem Swiss Bitcoin Pay :
+A ako tražite kompletan PoS pogodan za mala i srednja preduzeća, takođe preporučujem Swiss Bitcoin Pay:
 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Na kraju, pronađite naš kompletan kurs obuke za učenje osnova Bitcoin plaćanja i novčanog toka za preduzeća :
+Na kraju, pronađite naš kompletan kurs obuke za učenje osnova Bitcoin plaćanja i novčanog toka za preduzeća:
 
 
 

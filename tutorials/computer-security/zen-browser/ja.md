@@ -53,8 +53,8 @@ Zen BrowserはWindows、macOS、Linuxに対応しています。公式ウェブ�
 
 
 
-- Windows :** Windows 10/11 用 .exe インストーラー（x64 および ARM64 バージョン）
-- macOS :** IntelおよびApple Silicon互換の.dmgディスクイメージ（macOS Monterey以降）
+- Windows:** Windows 10/11 用 .exe インストーラー（x64 および ARM64 バージョン）
+- macOS:** IntelおよびApple Silicon互換の.dmgディスクイメージ（macOS Monterey以降）
 - Linux:**いくつかのオプションが利用可能です：
   - Flatpak**（推奨）：flatpak install flathub app.zen_browser.Zen`.
   - AppImage**：ポータブル、直接実行可能
@@ -97,8 +97,8 @@ Zen BrowserはWindows、macOS、Linuxに対応しています。公式ウェブ�
 
 
 - Flatpak:**パッケージマネージャーによる自動インストール
-- AppImage :** `chmod +x ZenBrowser.AppImage` をダブルクリックします。
-- tar.gz :** zen-browser 実行ファイルを解凍して実行します。
+- AppImage:** `chmod +x ZenBrowser.AppImage` をダブルクリックします。
+- tar.gz:** zen-browser 実行ファイルを解凍して実行します。
 
 
 

@@ -120,7 +120,7 @@ Tujuan: keuntungan privasi yang besar tanpa merusak web. Untuk 90% pengguna.
 
 
 
-Untuk mengakses pengaturan, klik pada menu ☰ di kanan atas, kemudian **"Pengaturan "** :
+Untuk mengakses pengaturan, klik pada menu ☰ di kanan atas, kemudian **"Pengaturan "**:
 
 
 
@@ -279,7 +279,7 @@ Tujuan: mengkotak-kotakkan aktivitas dan mengurangi kebocoran jaringan.
 
 
 - Status default**: Diaktifkan secara otomatis di beberapa wilayah (Amerika Serikat, Kanada, Rusia, Ukraina). Di tempat lain, diperlukan aktivasi manual.
-- Konfigurasi** : Pengaturan → Umum → Pengaturan jaringan → **Aktifkan DoH** → **Cloudflare** atau **Quad9** → **Perlindungan maksimum**.
+- Konfigurasi**: Pengaturan → Umum → Pengaturan jaringan → **Aktifkan DoH** → **Cloudflare** atau **Quad9** → **Perlindungan maksimum**.
 - Perlindungan maksimum = Hanya TRR** (tidak ada fallback ke DNS sistem). Jika jaringan perusahaan/hotel memblokir, alihkan kembali ke **Standar** atau nonaktifkan DoH.
 - Redundansi**: Jika Anda sudah menggunakan VPN tepercaya dengan DNS-nya sendiri yang aman, DoH bisa jadi berlebihan.
 - Uji verifikasi**: `https://www.dnsleaktest.com/` seharusnya hanya menampilkan penyedia layanan kesehatan yang dipilih.
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Panduan resmi untuk perlindungan pelacakan yang ditingkatkan
+- [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Panduan resmi untuk perlindungan pelacakan yang ditingkatkan
 - [Pemisahan Negara](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Dokumentasi teknis tentang partisi state
-- [Keamanan Web MDN](https://developer.mozilla.org/docs/Web/Security) : Referensi lengkap tentang keamanan web
+- [Keamanan Web MDN](https://developer.mozilla.org/docs/Web/Security): Referensi lengkap tentang keamanan web
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Rangkaian pengujian lengkap (WebRTC, Kanvas, Font, dll.)
 - [BadSSL] (https://badssl.com/): Tes validasi sertifikat SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Analisis lanjutan dari 50+ vektor sidik jari
-- [Uji DNS Cloudflare](https://1.1.1.1/help) : Memeriksa apakah Cloudflare DoH berfungsi dengan baik
+- [Uji DNS Cloudflare](https://1.1.1.1/help): Memeriksa apakah Cloudflare DoH berfungsi dengan baik

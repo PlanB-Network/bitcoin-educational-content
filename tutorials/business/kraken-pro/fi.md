@@ -76,7 +76,7 @@ Siirry tilisi kuvakkeeseen ja napsauta "*Turvallisuus*".
 
 ![KRAKEN](assets/fr/11.webp)
 
-Lisätietoja tämäntyyppisen laitteen käytöstä on erillisessä oppaassamme :
+Lisätietoja tämäntyyppisen laitteen käytöstä on erillisessä oppaassamme:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ Tämän menetelmän aktivoimiseksi skannaa QR-koodi valitsemallasi sovelluksella
 
 ![KRAKEN](assets/fr/13.webp)
 
-Jos haluat lisätietoja todennussovelluksista, voit tutustua myös tähän opetusohjelmaan :
+Jos haluat lisätietoja todennussovelluksista, voit tutustua myös tähän opetusohjelmaan:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ Voit myös vaihtaa bitcoinisi muihin kryptovaluuttoihin, kuten stablecoineihin, 
 
 Valitse summa, valitse haluamasi kryptovaluutta ja vahvista tapahtuma.
 
-Näissä tapahtumissa voit valita eri tilaustyyppien välillä: *Markkinat*, *Limit* tai *Stop-Loss* :
+Näissä tapahtumissa voit valita eri tilaustyyppien välillä: *Markkinat*, *Limit* tai *Stop-Loss*:
 
 
-- Markkinat* : Mahdollistaa välittömän oston nykyiseen markkinahintaan;
+- Markkinat*: Mahdollistaa välittömän oston nykyiseen markkinahintaan;
 - Raja*: Toimeksianto toteutetaan vain, jos markkinahinta saavuttaa tämän summan;
-- Stop-Loss* : Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
+- Stop-Loss*: Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
 
 ## 7 - Tapahtumien hallinta ja kirjanpito
 
@@ -217,6 +217,6 @@ Krakenin käyttö voi vaihdella yrityksesi tavoitteista ja rakenteesta riippuen.
 - Pidä bitcoineja alustalla tai nosta ne itsesäilytystä varten. Voit myös nostaa euroja pankkitilillesi;
 - Vie tapahtumahistoriat tarpeen mukaan.
 
-Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito :
+Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

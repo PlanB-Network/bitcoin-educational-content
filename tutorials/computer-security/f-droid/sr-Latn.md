@@ -96,7 +96,7 @@ Klikom na aplikaciju, između ostalog, pronaći ćete:
 
 
 
-Saznajte više u našem vodiču za Thunderbird :
+Saznajte više u našem vodiču za Thunderbird:
 
 
 
@@ -117,7 +117,7 @@ Omogućite prava za instalaciju F-Droid aplikacije uključivanjem opcije u vaši
 
 
 
-F-Droid podstiče praksu otvorenog koda i doprinos zajednice, posebno putem svoje opcije **Near By** Exchange. Povežite se sa korisnicima oko vas putem :
+F-Droid podstiče praksu otvorenog koda i doprinos zajednice, posebno putem svoje opcije **Near By** Exchange. Povežite se sa korisnicima oko vas putem:
 
 
 

@@ -154,7 +154,7 @@ Anda sekarang dapat dengan bebas kirim pesan, panggilan, dan file dengan Bob, te
 
 Salah satu fitur yang paling hebat SimpleX adalah kemampuannya untuk mengelola beberapa profil pengguna yang sepenuhnya terpisah, semuanya dapat diakses dari akun lokal yang sama. Ini memungkinkan Anda memisahkan identitas-identitas berbeda Anda dengan rapi, tanpa mempersulit pengelolaan pesan.
 
-Contohnya, Anda bisa membuat file :
+Contohnya, Anda bisa membuat file:
 - Profil dengan nama asli dan foto asli untuk percakapan profesional Anda;
 - Profil dengan nama asli Anda dan foto lucu untuk percakapan keluarga Anda;
 - Profil dengan foto palsu dan nama samaran untuk percakapan pribadi Anda;

@@ -144,7 +144,7 @@ So starten Sie die Installation von Ihrem USB-Stick:
 
 
 
-Startbildschirm :
+Startbildschirm:
 
 
 
@@ -380,7 +380,7 @@ Es gibt zwei Möglichkeiten, Anwendungen unter Debian zu installieren:
 
 
 
-### Grafische Methode :
+### Grafische Methode:
 
 
 
@@ -388,7 +388,7 @@ Sie können den **Softwaremanager** (zugänglich über die grafische Interface) 
 
 
 
-### Befehlszeilenmethode :
+### Befehlszeilenmethode:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Installieren eines manuell heruntergeladenen Pakets :
+### Installieren eines manuell heruntergeladenen Pakets:
 
 
 

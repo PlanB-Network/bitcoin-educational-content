@@ -62,7 +62,7 @@ Eşsiz özelliği mi? Orion, Chrome **ve** Firefox uzantılarını yerel olarak 
 
 - Sınırlı kullanılabilirlik**: Şu anda macOS ve iOS/iPadOS için ayrılmıştır. Bir Linux sürümü geliştirme kilometre taşlarına ulaşıyor (Milestone 2 2025'te), ancak herkese açık bir yapı mevcut değil. Windows ve Android kaynak yetersizliği nedeniyle geliştirme aşamasında değildir.
 - Kapalı kaynak kodu**: Bazı bileşenler açık kaynaklı olsa da, Orion ağırlıklı olarak tescilli olmaya devam ediyor ve bu da gizlilik topluluğunda bir tartışma konusu.
-- Deneysel uzantılar** : Uzantı desteği beta aşamasındadır ve sık sık uyumsuzluklar yaşanmaktadır. Uzantılar performansı etkileyebilir ve bazıları hiç çalışmaz.
+- Deneysel uzantılar**: Uzantı desteği beta aşamasındadır ve sık sık uyumsuzluklar yaşanmaktadır. Uzantılar performansı etkileyebilir ve bazıları hiç çalışmaz.
 - WebKit güvenliği**: Chromium'un aksine WebKit, belirli senaryolarda güvenlik riskleri oluşturabilecek kadar sağlam site başına işlem yalıtımı sunmaz.
 - Engelleme testleri**: Kagi bu testlerin "temelde kusurlu" olduğunu düşündüğünden, Orion çevrimiçi reklam testlerinde kasıtlı olarak düşük performans göstermektedir (%26-35). Günlük kullanımdaki gerçek etkinlik çok daha üstündür.
 
@@ -105,7 +105,7 @@ Eşsiz özelliği mi? Orion, Chrome **ve** Firefox uzantılarını yerel olarak 
 
 
 
-**Alternatif Homebrew** :
+**Alternatif Homebrew**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Bu araçlar her zaman kullanılabilir ve tarama deneyiminizi site bazında kontr
 
 
 
-**Orion+ (isteğe bağlı)**: Proje geliştirmeyi desteklemek için Kagi, Orion+ (ayda 5 dolar, yılda 50 dolar veya ömür boyu 150 dolar) sunmaktadır. Bu gönüllü abonelik, :
+**Orion+ (isteğe bağlı)**: Proje geliştirmeyi desteklemek için Kagi, Orion+ (ayda 5 dolar, yılda 50 dolar veya ömür boyu 150 dolar) sunmaktadır. Bu gönüllü abonelik,:
 
 
 
@@ -267,18 +267,18 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-**İçerik Engelleyici varsayılan olarak etkin** :
+**İçerik Engelleyici varsayılan olarak etkin**:
 
 
 
 
-- EasyList** : 119 binden fazla reklam engelleme kuralı
+- EasyList**: 119 binden fazla reklam engelleme kuralı
 - EasyPrivacy**: İzlemeye karşı koruma
 - Filtre Listelerini Yönet**: Ek listeler ekleyin (Hagezi önerilir)
 
 
 
-**Gizlilik seçenekleri** :
+**Gizlilik seçenekleri**:
 
 
 
@@ -323,11 +323,11 @@ Tercihlere **Orion → Tercihler** (veya ⌘,) aracılığıyla erişin:
 
 
 
-**Özel filtreler oluşturun** (Gizlilik → Filtre Listelerini Yönet → Özel Filtreler) :
+**Özel filtreler oluşturun** (Gizlilik → Filtre Listelerini Yönet → Özel Filtreler):
 
 
 
-**Basitleştirilmiş sözdizimi** (Adblock Plus uyumlu) :
+**Basitleştirilmiş sözdizimi** (Adblock Plus uyumlu):
 
 
 
@@ -350,7 +350,7 @@ Orion, Chrome ve Firefox uzantılarını yerel olarak destekler. Bunları doğru
 
 
 
-**Essentials** :
+**Essentials**:
 
 
 
@@ -361,7 +361,7 @@ Orion, Chrome ve Firefox uzantılarını yerel olarak destekler. Bunları doğru
 
 
 
-**Opsiyonel** :
+**Opsiyonel**:
 
 
 
@@ -372,7 +372,7 @@ Orion, Chrome ve Firefox uzantılarını yerel olarak destekler. Bunları doğru
 
 
 
-Yüklemek için :
+Yüklemek için:
 
 
 
@@ -411,7 +411,7 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-**Tema seçenekleri** :
+**Tema seçenekleri**:
 
 
 
@@ -421,7 +421,7 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-**Tipografik kontrol** :
+**Tipografik kontrol**:
 
 
 
@@ -431,7 +431,7 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-**Interface temizliği** :
+**Interface temizliği**:
 
 
 
@@ -447,13 +447,13 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-**Gelişmiş sekme yönetimi** :
+**Gelişmiş sekme yönetimi**:
 
 
 
 
 - Dikey sekmeler**: Menü çubuğu üzerinden etkinleştirin (Yandaki Sekmeler işlevi)
-- Sıkıştırılmış sekmeler** : Yer kazanmak için Tercihler → Sekmeler → Düzen "Sıkıştır"
+- Sıkıştırılmış sekmeler**: Yer kazanmak için Tercihler → Sekmeler → Düzen "Sıkıştır"
 - Sekme grupları**: Oturumlarınızı temaya göre düzenleyin
 - Çoklu profiller**: Tamamen izole edilmiş verilerle menü çubuğu (Profiller işlevi) aracılığıyla ayrı kimlikler oluşturun
 
@@ -463,7 +463,7 @@ Orion'un **fırça** aracı, her web sitesinin görüntüsünü özelleştirmeni
 
 
 
-**Yerleşik araçlar** (Düzen menüsü ve diğerleri) :
+**Yerleşik araçlar** (Düzen menüsü ve diğerleri):
 
 
 
@@ -507,7 +507,7 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-- Uzantılar** : Katı minimum ile sınırlayın (performansı düşürebilir)
+- Uzantılar**: Katı minimum ile sınırlayın (performansı düşürebilir)
 - Düşük Güç Modu**: Uzun oturumlar için etkinleştirin (%90 tasarruf mümkündür)
 - Gizlilik Raporu**: Engellemeleri gerçek zamanlı olarak görmek için 🛡️ kalkanına tıklayın
 - Görsel özelleştirme**: Görüntüyü uyarlamak ve dikkat dağıtan Elements'ü kaldırmak için 🖌️ fırçasını kullanın
@@ -552,7 +552,7 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-**İdealdir** :
+**İdealdir**:
 
 
 
@@ -566,7 +566,7 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-**Avoid if** :
+**Avoid if**:
 
 
 
@@ -645,8 +645,8 @@ Unutmayın: gizliliğinizi korumak sadece tarayıcınıza bağlı değildir. Opt
 - Tam SSS**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Topluluk forumu**: [community.kagi.com](https://community.kagi.com)
 - Hata izleme**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Açık kaynaklı bileşenler
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Haberler ve güncellemeler
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Açık kaynaklı bileşenler
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Haberler ve güncellemeler
 
 
 

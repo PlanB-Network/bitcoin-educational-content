@@ -53,13 +53,13 @@ O sítio detecta automaticamente o seu sistema e propõe a ligação adequada:
 
 
 
-- Windows :** Instalador .exe para Windows 10/11 (versões x64 e ARM64)
-- macOS :** Imagem de disco .dmg compatível com Intel e Apple Silicon (macOS Monterey e posterior)
+- Windows:** Instalador .exe para Windows 10/11 (versões x64 e ARM64)
+- macOS:** Imagem de disco .dmg compatível com Intel e Apple Silicon (macOS Monterey e posterior)
 - Linux:** Várias opções disponíveis:
   - Flatpak** (recomendado): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Portátil, diretamente executável
-  - Arquivo tar.gz** : Para ser extraído manualmente
-  - AUR** (Arch Linux) : Pacote Zen-browser
+  - Arquivo tar.gz**: Para ser extraído manualmente
+  - AUR** (Arch Linux): Pacote Zen-browser
 
 
 
@@ -97,8 +97,8 @@ O sítio detecta automaticamente o seu sistema e propõe a ligação adequada:
 
 
 - Flatpak:** Instalação automática através do gestor de pacotes
-- AppImage :** `chmod +x ZenBrowser.AppImage` depois faça duplo clique
-- tar.gz :** Extrair e executar o executável do zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` depois faça duplo clique
+- tar.gz:** Extrair e executar o executável do zen-browser
 
 
 
@@ -320,7 +320,7 @@ Para além disso, sendo baseado no Firefox, o Zen é compatível com todo o ecos
 
 
 
-Para aceder às definições do navegador Zen :
+Para aceder às definições do navegador Zen:
 
 
 
@@ -348,7 +348,7 @@ Desde o início, o Zen Browser aplica uma configuração de alta privacidade que
 
 
 
-- Proteção anti-rastreamento rigorosa:** Nível "Standard" ativado por defeito, bloqueando :
+- Proteção anti-rastreamento rigorosa:** Nível "Standard" ativado por defeito, bloqueando:
   - Cookies de rastreio entre sítios e supercookies
   - Scripts de rastreio de anúncios (Google Analytics, Facebook Pixel, etc.)
   - Criptomineradores que utilizam o seu CPU para Miner criptomoedas
@@ -416,7 +416,7 @@ Definições > Privacidade e segurança > Proteção melhorada de rastreio
 **2. Alterar o motor de busca:**
 
 
-Definições > Pesquisar > Motor de pesquisa predefinido :
+Definições > Pesquisar > Motor de pesquisa predefinido:
 
 
 
@@ -496,7 +496,7 @@ Definições > Privacidade e segurança > Apenas modo HTTPS > **Ativado**
 **5. Gerir as permissões predefinidas:**
 
 
-Definições > Privacidade e segurança > Permissões :
+Definições > Privacidade e segurança > Permissões:
 
 
 

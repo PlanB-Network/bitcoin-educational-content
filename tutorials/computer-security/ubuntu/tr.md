@@ -16,12 +16,12 @@ Bir işletim sistemi (OS), bilgisayarınızın tüm kaynaklarını yöneten ana 
 
 
 
-- Geliştirilmiş güvenlik** : Linux dağıtımları güvenlik ve sağlamlıklarıyla ünlüdür
+- Geliştirilmiş güvenlik**: Linux dağıtımları güvenlik ve sağlamlıklarıyla ünlüdür
 - Sıfır maliyet**: Ubuntu ve çoğu Linux dağıtımı ücretsizdir
 - Geniş topluluk**: Forumlar ve eğitimler aracılığıyla yardım etmeye hazır bir kullanıcı topluluğu
 - Mahremiyete saygı**: Daha fazla şeffaflık için açık kaynak sistemi
 - Basitlik**: Kullanıcı dostu Interface ve kullanım kolaylığı
-- Zengin ekosistem** : Kapsamlı açık kaynak yazılım kataloğu
+- Zengin ekosistem**: Kapsamlı açık kaynak yazılım kataloğu
 - Düzenli destek**: Canonical'dan güvenli güncellemeler
 
 
@@ -303,7 +303,7 @@ Açmak için: Etkinlikler > "LibreOffice Writer" için arama yapın veya çubukt
 Yazılım yöneticisi ("Ubuntu Software" olarak adlandırılır): uygulamaları aramak ve yüklemek için grafiksel Interface.
 
 
-Terminal'den şu komutu kullanın :
+Terminal'den şu komutu kullanın:
 
 
 ```bash

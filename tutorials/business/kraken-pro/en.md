@@ -76,7 +76,7 @@ In the 2FA options, you can choose to use a physical security key as a second fa
 
 ![KRAKEN](assets/fr/11.webp)
 
-For more information on how to use this type of device, see our dedicated tutorial :
+For more information on how to use this type of device, see our dedicated tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ To activate this method, scan the QR code with the application of your choice on
 
 ![KRAKEN](assets/fr/13.webp)
 
-For more information on authentication applications, you can also consult this tutorial :
+For more information on authentication applications, you can also consult this tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ You can also exchange your bitcoins for other cryptocurrencies, such as stableco
 
 Select the amount, choose the cryptocurrency you wish to obtain, then confirm the transaction.
 
-For these transactions, you can choose between different order types: *Market*, *Limit*, or *Stop-Loss* :
+For these transactions, you can choose between different order types: *Market*, *Limit*, or *Stop-Loss*:
 
 
-- Market* : Allows immediate purchase at current market price;
+- Market*: Allows immediate purchase at current market price;
 - Limit*: Allows you to specify a purchase price, and the order will only be executed if the market price reaches this amount;
-- Stop-Loss* : Automatically sells when the price reaches a certain threshold.
+- Stop-Loss*: Automatically sells when the price reaches a certain threshold.
 
 ## 7 - Transaction management and accounting
 
@@ -217,6 +217,6 @@ Depending on your company's objectives and structure, the use of Kraken may vary
 - Keep bitcoins on the platform or withdraw them for self-custody. You can also withdraw euros to your bank account;
 - Export transaction histories as required.
 
-For a more in-depth look at this topic, I recommend this comprehensive training course on integrating bitcoin into businesses, which covers in detail adding to cash flow, accepting bitcoin payments, and accounting :
+For a more in-depth look at this topic, I recommend this comprehensive training course on integrating bitcoin into businesses, which covers in detail adding to cash flow, accepting bitcoin payments, and accounting:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

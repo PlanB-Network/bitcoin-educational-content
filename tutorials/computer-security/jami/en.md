@@ -258,7 +258,7 @@ To develop your own plugins, check out the blog post **[Discover the Jami Plugin
 ## Advanced features
 
 
-Jami also offers **advanced features** for users wishing to go further in configuring and using the application. These options include :
+Jami also offers **advanced features** for users wishing to go further in configuring and using the application. These options include:
 
 
 

@@ -18,7 +18,7 @@ description: Zachovejte své soukromí a důvěrnost.
 
 
 - Zdarma**: Stejně jako většina linuxových distribucí je i Whonix open-source systém licencovaný zcela zdarma. Je vyvíjen jako open source, s aktivní a transparentní komunitou.
-- Soukromí, bezpečnost a anonymita** : Hlavním cílem společnosti Whonix je nabídnout mimořádně bezpečné prostředí, ve kterém jsou všechna vaše data chráněna a vaše komunikace šifrována prostřednictvím sítě Tor.
+- Soukromí, bezpečnost a anonymita**: Hlavním cílem společnosti Whonix je nabídnout mimořádně bezpečné prostředí, ve kterém jsou všechna vaše data chráněna a vaše komunikace šifrována prostřednictvím sítě Tor.
 - Snadné použití**: Whonix nabízí intuitivní, předem nakonfigurovanou grafickou aplikaci Interface, vhodnou i pro začínající uživatele. Není třeba být odborníkem, abyste mohli využívat výhod pokročilé ochrany.
 - Ideální prostředí pro bezpečný vývoj**: Whonix vám umožní vyvíjet, testovat, kontrolovat nebo spouštět programy, aniž byste odhalili svou skutečnou IP adresu Address nebo prozradili své zvyky při prohlížení webu nebo síťové komunikaci.
 - Jednorázové relace a režim Live**: Whonix lze spustit v režimu Live nebo prostřednictvím jednorázových počítačů (např. prostřednictvím **Qubes OS**), což umožňuje provádět kritické úlohy bez zanechání trvalých stop po ukončení relace.
@@ -153,7 +153,7 @@ Přejděte na kartu **Systém**, kde je výchozí přidělení paměti RAM 2048 
 
 
 
-Aby systém Whonix fungoval správně a bezpečně, **musíte dodržet tuto spouštěcí sekvenci** :
+Aby systém Whonix fungoval správně a bezpečně, **musíte dodržet tuto spouštěcí sekvenci**:
 
 
 

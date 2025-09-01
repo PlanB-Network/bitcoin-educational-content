@@ -332,7 +332,7 @@ För att utveckla dina egna plugins, kolla in blogginlägget **[Upptäck Jami Pl
 
 
 
-Jami erbjuder också **avancerade funktioner** för användare som vill gå längre i konfigurering och användning av applikationen. Dessa alternativ inkluderar :
+Jami erbjuder också **avancerade funktioner** för användare som vill gå längre i konfigurering och användning av applikationen. Dessa alternativ inkluderar:
 
 
 

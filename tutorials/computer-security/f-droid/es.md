@@ -71,7 +71,7 @@ F-Droid proporciona información completa sobre cada aplicación que desee insta
 
 
 
-Al hacer clic en la aplicación, encontrará, entre otras cosas :
+Al hacer clic en la aplicación, encontrará, entre otras cosas:
 
 
 
@@ -96,7 +96,7 @@ Al hacer clic en la aplicación, encontrará, entre otras cosas :
 
 
 
-Más información en nuestro tutorial sobre Thunderbird :
+Más información en nuestro tutorial sobre Thunderbird:
 
 
 
@@ -117,7 +117,7 @@ Conceda derechos de instalación a F-Droid activando la opción en su configurac
 
 
 
-F-Droid fomenta la práctica del código abierto y la contribución de la comunidad, especialmente a través de su opción **Near By** Exchange. Conéctate con los usuarios que te rodean a través de :
+F-Droid fomenta la práctica del código abierto y la contribución de la comunidad, especialmente a través de su opción **Near By** Exchange. Conéctate con los usuarios que te rodean a través de:
 
 
 

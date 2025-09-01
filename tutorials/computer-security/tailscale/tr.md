@@ -159,7 +159,7 @@ Hesabınızı oluşturduktan sonra, Tailscale'i cihazlarınıza yükleyebilirsin
 
 
 
-- Linux'ta (Debian, Ubuntu, vb.):** Birkaç seçeneğiniz vardır. En basit yöntem resmi kurulum betiğini çalıştırmaktır: örneğin Debian/Ubuntu'da :
+- Linux'ta (Debian, Ubuntu, vb.):** Birkaç seçeneğiniz vardır. En basit yöntem resmi kurulum betiğini çalıştırmaktır: örneğin Debian/Ubuntu'da:
 
 
 
@@ -261,7 +261,7 @@ Web yönetim konsolu, bağlı tüm cihazlarınızı görüntülemenizi ve yönet
 
 
 
-- Interface Web (Yönetici Konsolu)** : [https://login.tailscale.com](https://login.tailscale.com) adresinden erişilebilen bu web konsolu, Tailscale ağınız için merkezi kontrol panelidir. Tüm cihazları (*Makineler*), çevrimiçi/çevrimdışı durumlarını, Tailscale IP adreslerini ve daha fazlasını listeler. Burada **cihazları yönetebilir** (yeniden adlandırabilir, anahtarların süresini uzatabilir, rotaları yetkilendirebilir, bir düğümü devre dışı bırakabilir), **kullanıcıları yönetebilir** (organizasyonel bağlamda) ve güvenlik kurallarını (ACL'ler) tanımlayabilirsiniz. Burası aynı zamanda MagicDNS, etiketler veya auth anahtarları (otomatik cihaz ekleme için generate öncesi auth anahtarları) gibi global seçenekleri yapılandırdığınız yerdir. Interface web, genel bir bakış elde etmek ve koordinasyon sunucusu aracılığıyla tüm düğümlere yayılacak değişiklikleri uygulamak için çok kullanışlıdır. *Örnek:* Bir **alt ağ rotasını** veya bir **çıkış düğümünü** etkinleştirmek, söz konusu düğüm kendini bu şekilde duyurduktan sonra konsolda tek bir tıklama ile yapılır.
+- Interface Web (Yönetici Konsolu)**: [https://login.tailscale.com](https://login.tailscale.com) adresinden erişilebilen bu web konsolu, Tailscale ağınız için merkezi kontrol panelidir. Tüm cihazları (*Makineler*), çevrimiçi/çevrimdışı durumlarını, Tailscale IP adreslerini ve daha fazlasını listeler. Burada **cihazları yönetebilir** (yeniden adlandırabilir, anahtarların süresini uzatabilir, rotaları yetkilendirebilir, bir düğümü devre dışı bırakabilir), **kullanıcıları yönetebilir** (organizasyonel bağlamda) ve güvenlik kurallarını (ACL'ler) tanımlayabilirsiniz. Burası aynı zamanda MagicDNS, etiketler veya auth anahtarları (otomatik cihaz ekleme için generate öncesi auth anahtarları) gibi global seçenekleri yapılandırdığınız yerdir. Interface web, genel bir bakış elde etmek ve koordinasyon sunucusu aracılığıyla tüm düğümlere yayılacak değişiklikleri uygulamak için çok kullanışlıdır. *Örnek:* Bir **alt ağ rotasını** veya bir **çıkış düğümünü** etkinleştirmek, söz konusu düğüm kendini bu şekilde duyurduktan sonra konsolda tek bir tıklama ile yapılır.
 
 
 
@@ -387,7 +387,7 @@ Erişim son derece basittir: `umbrel.local` (yalnızca yerel ağınızda çalı�
 
 
 
-**Harici cüzdanları Tailscale aracılığıyla Bitcoin veya lightning düğümlerinize bağlayın :**
+**Harici cüzdanları Tailscale aracılığıyla Bitcoin veya lightning düğümlerinize bağlayın:**
 
 
 
@@ -608,7 +608,7 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 - Homelab** eğitimleri: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Kendi kendine barındırma için özel kılavuzlar.
-- Bir Çıkış Düğümünü Yapılandırma** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Çıkış Düğümlerini yapılandırmak için ayrıntılı kılavuz.
+- Bir Çıkış Düğümünü Yapılandırma**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Çıkış Düğümlerini yapılandırmak için ayrıntılı kılavuz.
 - Taildrop** kullanın: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscale cihazları arasında dosya aktarın.
 
 

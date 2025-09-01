@@ -5,7 +5,7 @@ description: GitHub Web ile Plan ₿ Network eğitimleri için eksiksiz kılavuz
 ![cover](assets/cover.webp)
 
 
-Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, birkaç ön adımı tamamlamış olmanız gerekir. Henüz yapmadıysanız, lütfen önce bu giriş eğitimine bir göz atın, ardından buraya geri dönün :
+Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, birkaç ön adımı tamamlamış olmanız gerekir. Henüz yapmadıysanız, lütfen önce bu giriş eğitimine bir göz atın, ardından buraya geri dönün:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
@@ -20,18 +20,18 @@ Sende zaten var:
 - Katkı araçlarınızı seçin.
 
 
-Bu eğitimde, GitHub'ın web sürümünü kullanarak eğitiminizi Plan ₿ Network'ye nasıl ekleyeceğinizi inceleyeceğiz. Git'te zaten ustalaştıysanız, bu çok ayrıntılı eğitim sizin için gerekli olmayabilir. Bunun yerine, izlenecek yönergeleri ve yerel bir :
+Bu eğitimde, GitHub'ın web sürümünü kullanarak eğitiminizi Plan ₿ Network'ye nasıl ekleyeceğinizi inceleyeceğiz. Git'te zaten ustalaştıysanız, bu çok ayrıntılı eğitim sizin için gerekli olmayabilir. Bunun yerine, izlenecek yönergeleri ve yerel bir:
 
 
 
 
-- Deneyimli kullanıcılar** :
+- Deneyimli kullanıcılar**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Orta Düzey (GitHub Masaüstü)** :
+- Orta Düzey (GitHub Masaüstü)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -39,7 +39,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## Ön Koşullar
 
 
-Eğitime başlamadan önce önkoşullar :
+Eğitime başlamadan önce önkoşullar:
 
 
 
@@ -193,23 +193,23 @@ reward:
 
 
 
-- id** : Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
+- id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
 
 
 
-- project_id** : Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- etiketler** : özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- etiketler**: özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori** : Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
+- kategori**: Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
 
 
 
-- seviye** : Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
+- seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
     - `başlangıç`
     - `intermediate`
     - `gelişmiş`
@@ -217,20 +217,20 @@ reward:
 
 
 
-- professor_id** : Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- professor_id**: Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 
-- original_language** : Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
+- original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
 
 
 
-- redaksiyon** : Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
-    - dil** : Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
-    - last_contribution_date** : Günün tarihi.
-    - aciliyet** : 1
-    - contributor_names** : GitHub kimliğiniz.
-    - ödül** : 0
+- redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
+    - dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
+    - last_contribution_date**: Günün tarihi.
+    - aciliyet**: 1
+    - contributor_names**: GitHub kimliğiniz.
+    - ödül**: 0
 
 
 Öğretmen kimliğiniz hakkında daha fazla bilgi için lütfen ilgili eğitime bakın:
@@ -315,7 +315,7 @@ Doğru dalda olduğunuzu tekrar kontrol edin ve ardından "*Değişiklikleri yap
 ## 5 - Markdown dosyası oluşturma
 
 
-Şimdi öğreticinizi barındıracak dosyayı oluşturacağız, dil kodunuza göre adlandıracağız, örneğin Fransızca yazıyorsak `fr.md`. Eğitim klasörünüze gidin :
+Şimdi öğreticinizi barındıracak dosyayı oluşturacağız, dil kodunuza göre adlandıracağız, örneğin Fransızca yazıyorsak `fr.md`. Eğitim klasörünüze gidin:
 
 
 ![GITHUB](assets/fr/16.webp)
@@ -353,7 +353,7 @@ Eğitiminizin adını ve kısa bir açıklamasını girin:
 ![GITHUB](assets/fr/20.webp)
 
 
-Ardından öğreticinizin başındaki kapak resmine giden yolu ekleyin. Bunu yapmak için, not :
+Ardından öğreticinizin başındaki kapak resmine giden yolu ekleyin. Bunu yapmak için, not:
 
 
 ```
@@ -409,7 +409,7 @@ Görselleri `/assets` klasörüne eklemek için yerel dosyalarınızdan sürükl
 ## 7 - Öğreticinin yazılması
 
 
-İçeriğinizi Markdown dosyasına dil koduyla not ederek öğreticinizi yazmaya devam edin (benim örneğimde, Fransızca, `fr.md` dosyası). Dosyaya gidin ve kalem simgesine tıklayın :
+İçeriğinizi Markdown dosyasına dil koduyla not ederek öğreticinizi yazmaya devam edin (benim örneğimde, Fransızca, `fr.md` dosyası). Dosyaya gidin ve kalem simgesine tıklayın:
 
 
 ![GITHUB](assets/fr/28.webp)
@@ -480,9 +480,9 @@ Kendi şemalarınızı oluşturmak isterseniz, görsel tutarlılığı sağlamak
 
 
 - Yazı tipi**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) kullanın;
-- Renkler** :
+- Renkler**:
  - Turuncu: #FF5C00
- - Siyah : #000000
+ - Siyah: #000000
  - Beyaz: #FFFFFF
 
 

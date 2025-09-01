@@ -332,7 +332,7 @@ Om uw eigen plugins te ontwikkelen, bekijk de blogpost **[Ontdek de Jami Plugin 
 
 
 
-Jami biedt ook **uitgebreide functies** voor gebruikers die verder willen gaan in het configureren en gebruiken van de applicatie. Deze opties omvatten :
+Jami biedt ook **uitgebreide functies** voor gebruikers die verder willen gaan in het configureren en gebruiken van de applicatie. Deze opties omvatten:
 
 
 

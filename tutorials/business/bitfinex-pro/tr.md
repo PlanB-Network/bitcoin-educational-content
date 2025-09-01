@@ -111,7 +111,7 @@ Başvurunuz tamamlandıktan ve gönderildikten sonra, platformun iş doğrulamas
 ## 3 - Bitfinex Interface'a hızlı giriş
 
 
-Giriş yaptıktan sonra, Interface'un üst kısmında bir gezinme çubuğu göreceksiniz: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", vb. Bitfinex, aşağıdakiler de dahil olmak üzere çok çeşitli işlevler sunar :
+Giriş yaptıktan sonra, Interface'un üst kısmında bir gezinme çubuğu göreceksiniz: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", vb. Bitfinex, aşağıdakiler de dahil olmak üzere çok çeşitli işlevler sunar:
 
 
 

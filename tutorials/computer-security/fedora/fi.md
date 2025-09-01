@@ -34,7 +34,7 @@ Fedora sisältää myös työpöytäympäristön, joka on Interface, jonka kautt
 
 
 
-Lukuisista saatavilla olevista Linux-jakeluista Fedora erottuu erityisesti :
+Lukuisista saatavilla olevista Linux-jakeluista Fedora erottuu erityisesti:
 
 
 
@@ -66,7 +66,7 @@ Lukuisista saatavilla olevista Linux-jakeluista Fedora erottuu erityisesti :
 
 
 
-Profiilisi ja käyttötarkoituksesi mukaan Fedora tarjoaa tarpeisiisi sopivia versioita. Löydät pääasiassa :
+Profiilisi ja käyttötarkoituksesi mukaan Fedora tarjoaa tarpeisiisi sopivia versioita. Löydät pääasiassa:
 
 
 
@@ -205,7 +205,7 @@ Ensimmäinen vaihe on Fedoran **asennuskielen** ja **näppäimistön asettelun**
 
 
 
-- Asennuslevyn valitseminen :
+- Asennuslevyn valitseminen:
 
 
 
@@ -223,7 +223,7 @@ Jos levy on tyhjä, Fedora käyttää automaattisesti kaiken käytettävissä ol
 
 
 
-- Salaus :
+- Salaus:
 
 
 
@@ -415,7 +415,7 @@ Päivitysten asentamisen jälkeen saatetaan tarvita **pysäytys**.
 
 
 
-- Avaa terminaali ja aloita päivittämällä **repositoryt** varmistaaksesi, että sinulla on uusimmat versiot :
+- Avaa terminaali ja aloita päivittämällä **repositoryt** varmistaaksesi, että sinulla on uusimmat versiot:
 
 
 

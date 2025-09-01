@@ -123,7 +123,7 @@ Daha sonra Lightning Address'nızı doğrulamak için 1 sat ödemeniz gerekecekt
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Son olarak, bir yönlendirme kodu ekleme seçeneğiniz vardır. Bizi desteklemek isterseniz, komisyonlarınızın bir kısmının bizimle paylaşılması için "*DiscoverBitcoin*" kodunu kullanabilirsiniz. Teşekkür ederim! :)![SWISS Bitcoin PAY](assets/notext/12.webp)
+Son olarak, bir yönlendirme kodu ekleme seçeneğiniz vardır. Bizi desteklemek isterseniz, komisyonlarınızın bir kısmının bizimle paylaşılması için "*DiscoverBitcoin*" kodunu kullanabilirsiniz. Teşekkür ederim!:)![SWISS Bitcoin PAY](assets/notext/12.webp)
 
 Tüm bilgiler doldurulduktan sonra "*Gönder*" düğmesine tıklayın.
 

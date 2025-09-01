@@ -15,7 +15,7 @@ description: Be-BOP ile işletmenizden para kazanmaya yönelik pratik kılavuz
 
 
 
-Bu eğitimde sizi adım adım :
+Bu eğitimde sizi adım adım:
 
 
 
@@ -44,7 +44,7 @@ Be-BOP'u kurmaya başlamadan önce aşağıdaki teknik altyapıya sahip olduğun
 
 
 
-be-BOP, dosyaları (ürün resimleri gibi) yönetmek için bir depolama sistemi kullanır. Bu, bir S3 hizmetine erişim gerektirir, örneğin :
+be-BOP, dosyaları (ürün resimleri gibi) yönetmek için bir depolama sistemi kullanır. Bu, bir S3 hizmetine erişim gerektirir, örneğin:
 
 
 
@@ -302,7 +302,7 @@ Bir Lightning düğümünü kendiniz yönetmek istemiyorsanız, **Swiss Bitcoin 
 
 
 
-Yapılandırma adımları :
+Yapılandırma adımları:
 
 
 
@@ -330,7 +330,7 @@ Bitcoin'e ek olarak be-BOP, iyi bilinen ve yaygın olarak kullanılan uluslarara
 
 
 
-Yapılandırma adımları :
+Yapılandırma adımları:
 
 
 
@@ -467,7 +467,7 @@ Yazılım, uluslararası bir kitleye uyum sağlamak ve kullanıcı deneyimini ge
 
 
 
-#### Yapılandırma adımları :
+#### Yapılandırma adımları:
 
 
 
@@ -491,7 +491,7 @@ Bu bilgiler girildikten sonra **Üst Çubuk** çözümünüzün net, profesyonel
 
 
 
-#### Yapılandırma adımları :
+#### Yapılandırma adımları:
 
 
 
@@ -760,7 +760,7 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 - Fiyat Tutarı**: ürün fiyatı (örneğin `25,00`).
 - Fiyat Para Birimi**: para birimi (EUR, USD, BTC, vb.).
-- Özel ürünler** :
+- Özel ürünler**:
   - bu ücretsi̇z bi̇r üründür.
   - bu bi̇r i̇stedi̇ği̇ni̇ öde ürünüdür.
 
@@ -773,10 +773,10 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 
 - Tek ürün (`standalone`)**: sipariş başına yalnızca bir ekleme mümkündür (örn. bağış, giriş bileti).
-- Varyasyonlu ürün** :
+- Varyasyonlu ürün**:
   - Standalone'u kontrol etme.
   - Üründe hafif farklılıklar var (stok farkı yok)` seçeneğini işaretleyin.
-  - Ekle :
+  - Ekle:
     - İsim** (örneğin *Boyut*),
     - Değerler** (örneğin: S, M, L, XL),
     - Varsa fiyat farkları** (örneğin: XL için `+2 USD`).
@@ -803,7 +803,7 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 
 
-Sistem yönetir :
+Sistem yönetir:
 
 
 
@@ -872,7 +872,7 @@ Yönetici > Merch > CMS'ye gidin. Mevcut sayfaların bir listesini göreceksiniz
 
 
 
-CMS sayfaları aşağıdakiler için önemlidir :
+CMS sayfaları aşağıdakiler için önemlidir:
 
 
 
@@ -956,7 +956,7 @@ Gitmek için: `Yönetici > Merch > Resimler`
 
 
 
-Yapabilirsin :
+Yapabilirsin:
 
 
 
@@ -1004,7 +1004,7 @@ Kullanılabilir widget örnekleri:
 - Challenges**: zorluklar veya görevler
 - Etiketler**: kategoriler veya anahtar kelimeler
 - Kaydırıcılar**: görüntü karuselleri
-- Teknik Özellikler** : Teknik özellikler tabloları
+- Teknik Özellikler**: Teknik özellikler tabloları
 - Formlar**: formlar (iletişim, geri bildirim, vb.)
 - Geri sayımlar**: zamanlayıcılar
 - Galeriler**: resim galerileri
@@ -1033,7 +1033,7 @@ CMS sayfalarınızın içeriğinde **kısa kodlar** kullanın:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Mevcut parametreler** :
+**Mevcut parametreler**:
 
 
 
@@ -1046,7 +1046,7 @@ CMS sayfalarınızın içeriğinde **kısa kodlar** kullanın:
 
 
 
-**Avantajlar** :
+**Avantajlar**:
 
 
 
@@ -1120,7 +1120,7 @@ Bir siparişin üzerine tıklayarak, . içeren eksiksiz bir dosyaya erişebilirs
 
 
 
-Yapabilirsin :
+Yapabilirsin:
 
 
 
@@ -1141,7 +1141,7 @@ Yapabilirsin :
 
 
 
-Satış ve ödeme istatistiklerine erişmek için :
+Satış ve ödeme istatistiklerine erişmek için:
 
 
 yönetici > Ayarlar > Raporlama
@@ -1176,7 +1176,7 @@ Raporlar bölümlere ayrılmıştır:
 
 
 
-Her bölümde bir **Export CSV** düğmesi bulunur ve bu düğme ile :
+Her bölümde bir **Export CSV** düğmesi bulunur ve bu düğme ile:
 
 
 
@@ -1304,7 +1304,7 @@ Burada özel bir tema **oluşturmak** ve **konfigüre etmek** için tüm seçene
 
 
 
-Bir tema oluştururken veya değiştirirken, :
+Bir tema oluştururken veya değiştirirken,:
 
 
 
@@ -1328,7 +1328,7 @@ Sitenin her bir bölümü bağımsız olarak ayarlanabilir:
 
 - Başlık**: üst gezinme çubuğu
 - Gövde**: ana içerik
-- Altbilgi** : sayfanın altı
+- Altbilgi**: sayfanın altı
 
 
 
@@ -1340,7 +1340,7 @@ Sitenin her bir bölümü bağımsız olarak ayarlanabilir:
 
 
 
-Tema yapılandırıldıktan sonra :
+Tema yapılandırıldıktan sonra:
 
 
 
@@ -1371,7 +1371,7 @@ Platform, kullanıcılara otomatik olarak gönderilen e-postaları kişiselleşt
 
 
 
-Her e-posta (sipariş onayı, unutulan şifre vb.) :
+Her e-posta (sipariş onayı, unutulan şifre vb.):
 
 
 
@@ -1396,8 +1396,8 @@ E-postaları dinamik hale getirmek için aşağıdaki gibi değişkenler ekleyin
 
 
 
-- `{orderNumber}} : gerçek sipariş numarası ile değiştirilir
-- `{invoiceLink}}` : Invoice'e bağlantı
+- `{orderNumber}}: gerçek sipariş numarası ile değiştirilir
+- `{invoiceLink}}`: Invoice'e bağlantı
 - `{websiteLink}}: Web sitenizin URL'si
 
 
@@ -1454,7 +1454,7 @@ Aşağıdaki alanları doldurun:
 
 
 
-#### Mevcut aileler :
+#### Mevcut aileler:
 
 
 
@@ -1489,7 +1489,7 @@ Bu alanlar, bir etiketi bir içerik sayfasıymış gibi zenginleştirmek için k
 
 
 
-Etiketler olabilir :
+Etiketler olabilir:
 
 
 
@@ -1533,7 +1533,7 @@ Müşterilerinize indirilebilir belgeler sunmak için: `Admin > Merch > Files`
 
 
 
-Bu bağlantı daha sonra :
+Bu bağlantı daha sonra:
 
 
 
@@ -1629,7 +1629,7 @@ Bunu yapmak için şuraya gidin: `Ayarlar > Dil`
 
 
 
-Çeviri dosyaları JSON'dadır. Yapabilirsin :
+Çeviri dosyaları JSON'dadır. Yapabilirsin:
 
 
 
@@ -1641,7 +1641,7 @@ Bunu yapmak için şuraya gidin: `Ayarlar > Dil`
 
 
 
-Orijinal dosyalara bağlantı :
+Orijinal dosyalara bağlantı:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Bir rol oluşturmak için **Rol oluştur** seçeneğine tıklayın (örn. `Süpe
 
 
 
-Her rol şunları içerir :
+Her rol şunları içerir:
 
 
 
@@ -1760,7 +1760,7 @@ Cart` içinde bir alan ürün eklemenizi sağlar:
 
 
 
-POS destekleri :
+POS destekleri:
 
 
 
@@ -1779,7 +1779,7 @@ POS destekleri :
 
 
 
-- KDV muafiyeti** : gerekçelendirmede uygulanabilir (STK'lar, yabancılar...)
+- KDV muafiyeti**: gerekçelendirmede uygulanabilir (STK'lar, yabancılar...)
 - Hediye indirimi**: zorunlu yorum ile istisnai indirim
 
 

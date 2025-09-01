@@ -62,7 +62,7 @@ Selle unikaalne omadus? Orion on **väike** WebKit** brauser, mis suudab install
 
 - Piiratud kättesaadavus**: Praegu reserveeritud macOS ja iOS/iPadOS jaoks. Linuxi versioon on jõudmas arenduse verstapostini (Milestone 2 2025), kuid avalik build ei ole saadaval. Windows ja Android ei ole ressursside puudumise tõttu arenduses.
 - Suletud lähtekood**: Kuigi mõned komponendid on avatud lähtekoodiga, jääb Orion valdavalt omandis olevaks, mis on eraelu puutumatuse kogukonnas vaidluse objektiks.
-- Eksperimentaalsed laiendused** : Laienduste tugi on endiselt beeta-staadiumis, kus esineb sageli vastuolusid. Laiendused võivad mõjutada jõudlust ja mõned ei tööta üldse.
+- Eksperimentaalsed laiendused**: Laienduste tugi on endiselt beeta-staadiumis, kus esineb sageli vastuolusid. Laiendused võivad mõjutada jõudlust ja mõned ei tööta üldse.
 - WebKit turvalisus**: Erinevalt Chromiumist ei paku WebKit nii tugevat saitidevahelist protsesside isoleerimist, mis võib teatud stsenaariumides tekitada turvariske.
 - Blokeerimiskatsed**: Orioni tulemused veebireklaami testides on tahtlikult kehvad (26-35%), kuna Kagi peab neid teste "põhimõtteliselt vigaseks". Tegelik tõhusus igapäevases kasutuses on palju parem.
 
@@ -105,7 +105,7 @@ Selle unikaalne omadus? Orion on **väike** WebKit** brauser, mis suudab install
 
 
 
-**Alternatiivsed kodupruudid** :
+**Alternatiivsed kodupruudid**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Need tööriistad on alati saadaval ja võimaldavad teil kontrollida oma sirvimi
 
 
 
-**Orion+ (valikuline)**: Kagi pakub projektiarenduse toetamiseks Orion+ (5 $/kuu, 50 $/aasta või 150 $ kogu eluaeg). See vabatahtlik tellimus võimaldab :
+**Orion+ (valikuline)**: Kagi pakub projektiarenduse toetamiseks Orion+ (5 $/kuu, 50 $/aasta või 150 $ kogu eluaeg). See vabatahtlik tellimus võimaldab:
 
 
 
@@ -234,7 +234,7 @@ Orion+ tagab projekti sõltumatuse: "Teie rahaline panus aitab meil jääda sõl
 
 
 
-Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,) :
+Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,) :
 
 
 
-**Vaikimisi aktiivne sisublokeerija** :
+**Vaikimisi aktiivne sisublokeerija**:
 
 
 
 
-- EasyList** : 119k+ reklaami blokeerimise reeglit
+- EasyList**: 119k+ reklaami blokeerimise reeglit
 - EasyPrivacy**: Kaitse jälgimise eest
 - Filtrite nimekirjade haldamine**: Lisada täiendavaid nimekirju (Hagezi soovitatav)
 
 
 
-**Privaatsusvalikud** :
+**Privaatsusvalikud**:
 
 
 
@@ -307,7 +307,7 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,) :
 
 
 
-**Pikajuurdepääs**: Klõpsake Address riba hammasratast ⚙️, et reguleerida :
+**Pikajuurdepääs**: Klõpsake Address riba hammasratast ⚙️, et reguleerida:
 
 
 
@@ -323,11 +323,11 @@ Juurdepääs eelistustele on **Orion → Eelistused** (või ⌘,) :
 
 
 
-**Looge kohandatud filtrid** (Privaatsus → Filtrite nimekirjade haldamine → Kohandatud filtrid) :
+**Looge kohandatud filtrid** (Privaatsus → Filtrite nimekirjade haldamine → Kohandatud filtrid):
 
 
 
-**Ühendatud süntaks** (Adblock Plus'iga ühilduv) :
+**Ühendatud süntaks** (Adblock Plus'iga ühilduv):
 
 
 
@@ -350,7 +350,7 @@ Orion toetab algselt Chrome'i ja Firefoxi laiendusi. Paigaldage need otse ametli
 
 
 
-**Esentsiaalid** :
+**Esentsiaalid**:
 
 
 
@@ -361,7 +361,7 @@ Orion toetab algselt Chrome'i ja Firefoxi laiendusi. Paigaldage need otse ametli
 
 
 
-**Võimalik** :
+**Võimalik**:
 
 
 
@@ -372,7 +372,7 @@ Orion toetab algselt Chrome'i ja Firefoxi laiendusi. Paigaldage need otse ametli
 
 
 
-Paigaldada :
+Paigaldada:
 
 
 
@@ -411,7 +411,7 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-**Teemavalikud** :
+**Teemavalikud**:
 
 
 
@@ -421,7 +421,7 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-**Tüpograafiline kontroll** :
+**Tüpograafiline kontroll**:
 
 
 
@@ -431,7 +431,7 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-**Interface puhastamine** :
+**Interface puhastamine**:
 
 
 
@@ -447,13 +447,13 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-**Täiustatud vahekaartide haldamine** :
+**Täiustatud vahekaartide haldamine**:
 
 
 
 
 - Vertikaalsed vahekaardid**: Aktiveerimine menüüriba kaudu (Tabs on the Side funktsioon)
-- Kompaktsed vahekaardid** : Eelistustes → Registrid → paigutus "Kompaktne", et säästa ruumi
+- Kompaktsed vahekaardid**: Eelistustes → Registrid → paigutus "Kompaktne", et säästa ruumi
 - Registrite rühmad**: Korraldage oma seansse teemade kaupa
 - Mitu profiili**: Looge eraldi identiteedid menüüriba kaudu (funktsioon "Profiilid") täiesti isoleeritud andmetega
 
@@ -463,7 +463,7 @@ Orioni **pintsli** tööriist on ainulaadne funktsioon, mis võimaldab teil koha
 
 
 
-**Eesitatud tööriistad** (Redigeerimise menüü ja muud) :
+**Eesitatud tööriistad** (Redigeerimise menüü ja muud):
 
 
 
@@ -507,7 +507,7 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-- Laiendused** : Piirake rangelt miinimumini (võib vähendada jõudlust)
+- Laiendused**: Piirake rangelt miinimumini (võib vähendada jõudlust)
 - Madala energiatarbimise režiim**: Aktiveeri pikkade seansside jaoks (90% säästu võimalik)
 - Privaatsusaruanne**: Klõpsake kilbil 🛡️, et näha blokeeringuid reaalajas
 - Visuaalne kohandamine**: Kasutage 🖌️ pintslit, et kohandada ekraani ja eemaldada häiriv Elements
@@ -552,7 +552,7 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-**Ideaalne** :
+**Ideaalne**:
 
 
 
@@ -566,7 +566,7 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-**Vältida, kui** :
+**Vältida, kui**:
 
 
 
@@ -645,8 +645,8 @@ Pidage meeles: teie privaatsuse kaitsmine ei sõltu ainult teie brauserist. Opti
 - Täielik KKK**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Ühenduse foorum**: [community.kagi.com](https://community.kagi.com)
 - Vigade jälgimine**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avatud lähtekoodiga komponendid
-- Blogi Kagi** : [blog.kagi.com](https://blog.kagi.com) - Uudised ja uuendused
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avatud lähtekoodiga komponendid
+- Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uudised ja uuendused
 
 
 
@@ -679,7 +679,7 @@ Maksimaalse kaitse tagamiseks konsulteerige meie teiste juhenditega:
 
 
 
-Kui soovite rohkem teada saada brauserite ajaloost ja toimimisest ning peamistest digitaalsetest objektidest teie igapäevaelus, siis kutsun teid avastama meie uut tasuta koolituskursust SCU 202, mis on saadaval Plan ₿ Network :
+Kui soovite rohkem teada saada brauserite ajaloost ja toimimisest ning peamistest digitaalsetest objektidest teie igapäevaelus, siis kutsun teid avastama meie uut tasuta koolituskursust SCU 202, mis on saadaval Plan ₿ Network:
 
 
 

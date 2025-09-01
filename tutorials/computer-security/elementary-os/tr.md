@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Basitlik ve kullanım kolaylığı** : Elementary OS'nin grafiksel Interface'i, MacOs ve Windows'unkilerin ortasındadır. Bu aşinalık, deneyimsiz kullanıcılar için bile benimsenmesini kolaylaştırır.
+- Basitlik ve kullanım kolaylığı**: Elementary OS'nin grafiksel Interface'i, MacOs ve Windows'unkilerin ortasındadır. Bu aşinalık, deneyimsiz kullanıcılar için bile benimsenmesini kolaylaştırır.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Ücretsiz** : Sistem tamamen ücretsizdir. Ancak, indirdiğinizde geliştiricileri desteklemek için bağışta bulunabilirsiniz.
+- Ücretsiz**: Sistem tamamen ücretsizdir. Ancak, indirdiğinizde geliştiricileri desteklemek için bağışta bulunabilirsiniz.
 
 
 
 
 
-- Aktif topluluk** : Elementary OS etrafındaki topluluk çeşitli ve duyarlıdır. Zorluklarla karşılaşırsanız, forumlarda veya sosyal ağlarda kolayca yardım bulabilirsiniz.
+- Aktif topluluk**: Elementary OS etrafındaki topluluk çeşitli ve duyarlıdır. Zorluklarla karşılaşırsanız, forumlarda veya sosyal ağlarda kolayca yardım bulabilirsiniz.
 
 
 

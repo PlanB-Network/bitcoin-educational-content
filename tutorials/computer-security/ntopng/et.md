@@ -122,7 +122,7 @@ Sondi jaoks valisin **Debian 11** masina minimaalses paigalduses.
 
 
 
-Esimene samm, alati sama, uuendada :
+Esimene samm, alati sama, uuendada:
 
 
 
@@ -212,7 +212,7 @@ Siin on mõned selgitused nende esimeste muudatuste kohta:
 
 
 - auto *Interface***: "käivitab" Interface automaatselt süsteemi käivitamisel
-- iface *Interface* inet manual** : Interface kasutamiseks ilma IP Address-ta. Nagu märksõna "static", et määrata staatiline IP Address või "dhcp", et kasutada dünaamilist adresseerimist
+- iface *Interface* inet manual**: Interface kasutamiseks ilma IP Address-ta. Nagu märksõna "static", et määrata staatiline IP Address või "dhcp", et kasutada dünaamilist adresseerimist
 
 
 
@@ -286,7 +286,7 @@ Vaikimisi sisaldavad pakettide allikad ainult DFSG (*Debian Free Sotftware Guide
 
 
 
-Näide reast failis /etc/apt/sources.list :
+Näide reast failis /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Nii et ma lihtsalt lisan sellistele ridadele sõna **contrib**.
 
 
 
-Ülejäänud sammud on loetletud [NtopNG] saidil (https://packages.ntop.org/apt/), kus Debian 11 puhul peate lisama Ntopi allikad edaspidiseks paigaldamiseks. See lisamine on automatiseeritud, kasutades :
+Ülejäänud sammud on loetletud [NtopNG] saidil (https://packages.ntop.org/apt/), kus Debian 11 puhul peate lisama Ntopi allikad edaspidiseks paigaldamiseks. See lisamine on automatiseeritud, kasutades:
 
 
 
@@ -474,7 +474,7 @@ Sellel joonisel klõpsates kuvatakse hoiatuste üksikasjad. Siin ei ole midagi m
 
 
 
-Kuna ma kasutan tasuta versiooni, ei saa ma siiski välistada domeene või hoste, mis on hoiatuste allikaks, nii et sa pead neil silma peal hoidma, et mitte jääda ilma millestki palju murettekitavamast. NtopNG generate hoiatusi juhul, kui :
+Kuna ma kasutan tasuta versiooni, ei saa ma siiski välistada domeene või hoste, mis on hoiatuste allikaks, nii et sa pead neil silma peal hoidma, et mitte jääda ilma millestki palju murettekitavamast. NtopNG generate hoiatusi juhul, kui:
 
 
 

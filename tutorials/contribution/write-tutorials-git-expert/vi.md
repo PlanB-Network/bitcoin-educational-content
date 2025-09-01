@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,30 +164,30 @@ proofreading:
 
 Dưới đây là các trường bắt buộc:
 
-- **id** : Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
+- **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id** : UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
-- **tags** : 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Mức độ khó của hướng dẫn, được chọn từ:
+- **level**: Mức độ khó của hướng dẫn, được chọn từ:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
+- **original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
 
-- **proofreading** : Thông tin về quá trình hiệu đính. Hoàn thành phần đầu tiên, vì việc tự kiểm tra hướng dẫn của bạn được tính là một lần xác nhận:
-    - **language** : Mã ngôn ngữ của quá trình hiệu đính (ví dụ: `fr`, `en`, v.v.).
-    - **last_contribution_date** : Ngày hiện tại.
-    - **urgency** : 1
-    - **contributor_names** : ID GitHub của bạn.
-    - **reward** : 0
+- **proofreading**: Thông tin về quá trình hiệu đính. Hoàn thành phần đầu tiên, vì việc tự kiểm tra hướng dẫn của bạn được tính là một lần xác nhận:
+    - **language**: Mã ngôn ngữ của quá trình hiệu đính (ví dụ: `fr`, `en`, v.v.).
+    - **last_contribution_date**: Ngày hiện tại.
+    - **urgency**: 1
+    - **contributor_names**: ID GitHub của bạn.
+    - **reward**: 0
 
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 

@@ -74,7 +74,7 @@ Picocrypt** şifreleme yazılımı kendisini **VeraCrypt** ve **Cryptomator** (*
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Kaynak : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Kaynak: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

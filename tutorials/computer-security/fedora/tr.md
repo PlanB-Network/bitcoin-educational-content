@@ -34,7 +34,7 @@ Fedora ayrıca kullanıcıların görevleri yerine getirdiği ve uygulamalara er
 
 
 
-Mevcut çok sayıda Linux dağıtımı arasında Fedora, özellikle :
+Mevcut çok sayıda Linux dağıtımı arasında Fedora, özellikle:
 
 
 
@@ -66,7 +66,7 @@ Mevcut çok sayıda Linux dağıtımı arasında Fedora, özellikle :
 
 
 
-Profilinize ve kullanımınıza bağlı olarak, Fedora ihtiyaçlarınıza uygun sürümler sunar. Esas olarak şunları bulacaksınız :
+Profilinize ve kullanımınıza bağlı olarak, Fedora ihtiyaçlarınıza uygun sürümler sunar. Esas olarak şunları bulacaksınız:
 
 
 
@@ -205,7 +205,7 @@ Fedora masaüstünde (canlı mod), yükleme işlemini başlatmak için **Install
 
 
 
-- Kurulum diskinin seçilmesi :
+- Kurulum diskinin seçilmesi:
 
 
 
@@ -223,7 +223,7 @@ Eğer disk boşsa, Fedora otomatik olarak tüm kullanılabilir alanı kullanacak
 
 
 
-- Şifreleme :
+- Şifreleme:
 
 
 

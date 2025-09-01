@@ -58,8 +58,8 @@ Situs ini secara otomatis mendeteksi sistem Anda dan mengusulkan tautan yang ses
 - Linux:** Tersedia beberapa opsi:
   - Flatpak** (disarankan): `flatpak instal flathub app.zen_browser.Zen`
   - AppImage**: Portabel, dapat dieksekusi secara langsung
-  - Arsipkan tar.gz** : Untuk diekstrak secara manual
-  - AUR** (Arch Linux) : Paket peramban Zen
+  - Arsipkan tar.gz**: Untuk diekstrak secara manual
+  - AUR** (Arch Linux): Paket peramban Zen
 
 
 
@@ -97,8 +97,8 @@ Situs ini secara otomatis mendeteksi sistem Anda dan mengusulkan tautan yang ses
 
 
 - Flatpak:** Instalasi otomatis melalui manajer paket
-- AppImage :** `chmod +x ZenBrowser.AppImage` lalu klik dua kali
-- tar.gz :** Ekstrak dan jalankan eksekusi zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` lalu klik dua kali
+- tar.gz:** Ekstrak dan jalankan eksekusi zen-browser
 
 
 
@@ -320,7 +320,7 @@ Terlebih lagi, karena berbasis Firefox, Zen kompatibel dengan seluruh ekosistem 
 
 
 
-Untuk mengakses pengaturan Zen Browser :
+Untuk mengakses pengaturan Zen Browser:
 
 
 
@@ -348,7 +348,7 @@ Sejak awal, Zen Browser menerapkan konfigurasi privasi tinggi yang mengungguli s
 
 
 
-- Perlindungan anti-pelacakan yang ketat:** Tingkat "Standar" diaktifkan secara default, memblokir :
+- Perlindungan anti-pelacakan yang ketat:** Tingkat "Standar" diaktifkan secara default, memblokir:
   - Cookie pelacakan lintas situs dan cookie super
   - Skrip pelacak iklan (Google Analytics, Facebook Pixel, dll.)
   - Cryptominters yang menggunakan CPU Anda untuk Miner mata uang kripto
@@ -416,7 +416,7 @@ Pengaturan > Privasi & Keamanan > Perlindungan Pelacakan yang Ditingkatkan
 **2. Mengubah mesin pencarian:**
 
 
-Pengaturan > Pencarian > Mesin pencari default :
+Pengaturan > Pencarian > Mesin pencari default:
 
 
 
@@ -496,7 +496,7 @@ Pengaturan > Privasi dan keamanan > Hanya mode HTTPS > **Diaktifkan**
 **5. Mengelola izin default:**
 
 
-Pengaturan > Privasi & Keamanan > Izin :
+Pengaturan > Privasi & Keamanan > Izin:
 
 
 

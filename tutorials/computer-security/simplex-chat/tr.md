@@ -243,7 +243,7 @@ SimpleX daha sonra tek kullanımlık bir bağlantı oluşturur. Bunu herhangi bi
 
 
 
-Bu davet bağlantısının hangi profille ilişkilendirileceğini de seçebilirsiniz. Bunu yapmak için QR kodunun hemen altındaki profilinize tıklayın. Daha sonra şunları yapabileceksiniz :
+Bu davet bağlantısının hangi profille ilişkilendirileceğini de seçebilirsiniz. Bunu yapmak için QR kodunun hemen altındaki profilinize tıklayın. Daha sonra şunları yapabileceksiniz:
 
 
 
@@ -313,7 +313,7 @@ SimpleX'in en güçlü özelliklerinden biri, hepsine aynı yerel hesaptan eriş
 
 
 
-Örneğin, :
+Örneğin,:
 
 
 

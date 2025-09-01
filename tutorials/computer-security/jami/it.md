@@ -332,7 +332,7 @@ Per sviluppare i propri plugin, consultare il post del blog **[Scoprire il Jami 
 
 
 
-Jami offre anche **funzioni avanzate** per gli utenti che desiderano approfondire la configurazione e l'utilizzo dell'applicazione. Queste opzioni includono :
+Jami offre anche **funzioni avanzate** per gli utenti che desiderano approfondire la configurazione e l'utilizzo dell'applicazione. Queste opzioni includono:
 
 
 

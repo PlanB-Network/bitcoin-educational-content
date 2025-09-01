@@ -34,7 +34,7 @@ Kamilisha maelezo yanayohitajika: weka barua pepe yako ya biashara Address na nc
 ![BITFINEX](assets/fr/02.webp)
 
 
-Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya :
+Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -111,7 +111,7 @@ Baada ya ombi lako kukamilika na kuwasilishwa, inaweza kuchukua siku kadhaa kwa 
 ## 3 - Utangulizi wa haraka wa Bitfinex Interface
 
 
-Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Derivatives*", "*Ufadhili*", "*OTC*", "*P2P*", "*Wallet*", n.k. Bitfinex inatoa utendakazi mbalimbali, ikiwa ni pamoja na :
+Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Derivatives*", "*Ufadhili*", "*OTC*", "*P2P*", "*Wallet*", n.k. Bitfinex inatoa utendakazi mbalimbali, ikiwa ni pamoja na:
 
 
 
@@ -349,7 +349,7 @@ Kulingana na malengo na muundo wa kampuni yako, matumizi ya Bitfinex yanaweza ku
 - Hamisha historia za miamala inavyohitajika.
 
 
-Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo kuhusu kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu :
+Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo kuhusu kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

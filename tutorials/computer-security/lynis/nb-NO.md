@@ -51,7 +51,7 @@ Verktøyet er mye brukt av et bredt spekter av brukere, inkludert systemadminist
 
 
 
-Prosjektet er tilgjengelig på denne Address på **Github** :
+Prosjektet er tilgjengelig på denne Address på **Github**:
 
 
 
@@ -82,7 +82,7 @@ Denne installasjonsmodusen gjør at du kan bruke kommandoen **lynis** fra hvor s
 
 
 
-Koble til serveren din via SSH, og skriv inn følgende kommandoer for å installere Lynis :
+Koble til serveren din via SSH, og skriv inn følgende kommandoer for å installere Lynis:
 
 
 
@@ -209,7 +209,7 @@ Du kan vise de tilgjengelige kommandoene ved å skrive inn følgende kommando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Dette er hva du får:
 
 
 
-Hvis du ønsker å vise alle alternativene, må du taste inn :
+Hvis du ønsker å vise alle alternativene, må du taste inn:
 
 
 
@@ -336,7 +336,7 @@ Her kan vi se at Lynis anbefaler å installere **fail2ban**:
 
 
 
-I avsnittet "**Boot and services**" ser vi at tjenestebeskyttelsen via *systemd* kan forbedres. På den positive siden er Grub2 til stede, og det er ingen problemer med tillatelser på :
+I avsnittet "**Boot and services**" ser vi at tjenestebeskyttelsen via *systemd* kan forbedres. På den positive siden er Grub2 til stede, og det er ingen problemer med tillatelser på:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Litt informasjon om de installerte pakkene :
+Litt informasjon om de installerte pakkene:
 
 
 
@@ -623,7 +623,7 @@ La oss ta en titt på SSH-anbefalingene. De er listet opp nedenfor. Ikke bekymre
 
 
 
-La oss ta en nærmere titt på min nåværende **SSH**-konfigurasjon i :**/etc/ssh/sshd_config**
+La oss ta en nærmere titt på min nåværende **SSH**-konfigurasjon i:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Konfigurasjonen som er foreslått nedenfor, kan fortsatt optimaliseres, men gir 
 
 
 
-Vi vil :
+Vi vil:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Behold passordgodkjenning :
+- Behold passordgodkjenning:
 
 
 
@@ -804,7 +804,7 @@ Det er verdt å merke seg at i enkelte jurisdiksjoner kan det å sende en meldin
 
 
 
-I bilder gir dette :
+I bilder gir dette:
 
 
 

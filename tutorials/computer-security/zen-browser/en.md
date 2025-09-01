@@ -40,13 +40,13 @@ The site automatically detects your system and proposes the appropriate link:
 
 
 
-- Windows :** .exe installer for Windows 10/11 (x64 and ARM64 versions)
-- macOS :** Intel and Apple Silicon compatible .dmg disk image (macOS Monterey and later)
+- Windows:** .exe installer for Windows 10/11 (x64 and ARM64 versions)
+- macOS:** Intel and Apple Silicon compatible .dmg disk image (macOS Monterey and later)
 - Linux:** Several options available:
   - Flatpak** (recommended): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Portable, directly executable
-  - Archive tar.gz** : To be extracted manually
-  - AUR** (Arch Linux) : Zen-browser package
+  - Archive tar.gz**: To be extracted manually
+  - AUR** (Arch Linux): Zen-browser package
 
 
 ### Step-by-step installation
@@ -74,8 +74,8 @@ The site automatically detects your system and proposes the appropriate link:
 
 
 - Flatpak:** Automatic installation via the package manager
-- AppImage :** `chmod +x ZenBrowser.AppImage` then double-click
-- tar.gz :** Extract and run the zen-browser executable
+- AppImage:** `chmod +x ZenBrowser.AppImage` then double-click
+- tar.gz:** Extract and run the zen-browser executable
 
 
 ### First launch and initial configuration
@@ -240,7 +240,7 @@ What's more, being Firefox-based, Zen is compatible with the entire Firefox exte
 ## Advanced configuration for privacy and security
 
 
-To access Zen Browser settings :
+To access Zen Browser settings:
 
 
 ![Accès aux paramètres](assets/fr/14.webp)
@@ -260,7 +260,7 @@ Right from the start, Zen Browser applies a high-privacy configuration that outp
 
 
 
-- Strict anti-tracking protection:** "Standard" level activated by default, blocking :
+- Strict anti-tracking protection:** "Standard" level activated by default, blocking:
   - Cross-site tracking cookies and supercookies
   - Ad tracker scripts (Google Analytics, Facebook Pixel, etc.)
   - Cryptominters that use your CPU to Miner cryptocurrencies
@@ -311,7 +311,7 @@ Settings > Privacy & Security > Enhanced Tracking Protection
 
 **2. Change search engine:**
 
-Settings > Search > Default search engine :
+Settings > Search > Default search engine:
 
 
 ![Configuration moteur de recherche](assets/fr/20.webp)
@@ -370,7 +370,7 @@ Settings > Privacy and security > HTTPS mode only > **Enabled**
 
 **5. Manage default permissions:**
 
-Settings > Privacy & Security > Permissions :
+Settings > Privacy & Security > Permissions:
 
 
 - Location**: Block (except card services)

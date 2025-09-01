@@ -67,7 +67,7 @@ VirtualBoxin** asentaminen on yksinkertaista, ja prosessi on sama kaikille Windo
 
 
 
-Tämä asennus on muokattavissa, mutta suosittelen, että asennat kaikki ominaisuudet: mikä on oletusvalinta. Alla olevassa kuvassa näet erilaisia Elements, kuten :
+Tämä asennus on muokattavissa, mutta suosittelen, että asennat kaikki ominaisuudet: mikä on oletusvalinta. Alla olevassa kuvassa näet erilaisia Elements, kuten:
 
 
 

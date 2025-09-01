@@ -224,7 +224,7 @@ Ayrıca, sahip olduğunuz her tartışma için dosya paylaşım yapılandırmala
 
 
 
-Interface ayrıntılarından, alıcınıza verdiğiniz yetkileri yönetebilirsiniz :
+Interface ayrıntılarından, alıcınıza verdiğiniz yetkileri yönetebilirsiniz:
 
 
 

@@ -53,13 +53,13 @@ Witryna automatycznie wykrywa system i proponuje odpowiedni link:
 
 
 
-- Windows :** Instalator .exe dla Windows 10/11 (wersje x64 i ARM64)
-- macOS :** Obraz dysku .dmg zgodny z systemami Intel i Apple Silicon (macOS Monterey i nowsze)
+- Windows:** Instalator .exe dla Windows 10/11 (wersje x64 i ARM64)
+- macOS:** Obraz dysku .dmg zgodny z systemami Intel i Apple Silicon (macOS Monterey i nowsze)
 - Linux:** Dostępnych jest kilka opcji:
   - Flatpak** (zalecane): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Przenośny, bezpośrednio wykonywalny
-  - Archiwum tar.gz** : Do ręcznego rozpakowania
-  - AUR** (Arch Linux) : Pakiet Zen-browser
+  - Archiwum tar.gz**: Do ręcznego rozpakowania
+  - AUR** (Arch Linux): Pakiet Zen-browser
 
 
 
@@ -97,8 +97,8 @@ Witryna automatycznie wykrywa system i proponuje odpowiedni link:
 
 
 - Flatpak:** Automatyczna instalacja za pomocą menedżera pakietów
-- AppImage :** `chmod +x ZenBrowser.AppImage` następnie kliknij dwukrotnie
-- tar.gz :** Wypakuj i uruchom plik wykonywalny zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` następnie kliknij dwukrotnie
+- tar.gz:** Wypakuj i uruchom plik wykonywalny zen-browser
 
 
 
@@ -320,7 +320,7 @@ Co więcej, jako aplikacja oparta na Firefoksie, Zen jest kompatybilna z całym 
 
 
 
-Aby uzyskać dostęp do ustawień Zen Browser :
+Aby uzyskać dostęp do ustawień Zen Browser:
 
 
 
@@ -348,7 +348,7 @@ Od samego początku Zen Browser stosuje konfigurację o wysokim poziomie prywatn
 
 
 
-- Ścisła ochrona przed śledzeniem:** Domyślnie aktywowany jest poziom "Standardowy", blokujący :
+- Ścisła ochrona przed śledzeniem:** Domyślnie aktywowany jest poziom "Standardowy", blokujący:
   - Pliki cookie śledzące różne witryny i supercookies
   - Skrypty śledzące reklamy (Google Analytics, Facebook Pixel itp.)
   - Kryptomintery wykorzystujące procesor użytkownika do Miner kryptowalut
@@ -416,7 +416,7 @@ Ustawienia > Prywatność i bezpieczeństwo > Rozszerzona ochrona przed śledzen
 **2. Zmiana wyszukiwarki:**
 
 
-Ustawienia > Wyszukiwanie > Domyślna wyszukiwarka :
+Ustawienia > Wyszukiwanie > Domyślna wyszukiwarka:
 
 
 
@@ -496,7 +496,7 @@ Ustawienia > Prywatność i bezpieczeństwo > Tylko tryb HTTPS > **Włączone**
 **5. Zarządzanie domyślnymi uprawnieniami:**
 
 
-Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia :
+Ustawienia > Prywatność i bezpieczeństwo > Uprawnienia:
 
 
 

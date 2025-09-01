@@ -90,7 +90,7 @@ But choosing Firefox is only the first step. By default, even Firefox requires a
 Objective: big privacy gains without breaking the web. For 90% of users.
 
 
-To access the settings, click on the menu ☰ at the top right, then **"Settings "** :
+To access the settings, click on the menu ☰ at the top right, then **"Settings "**:
 
 
 ![Paramètres généraux](assets/fr/07.webp)
@@ -204,7 +204,7 @@ Objective: compartmentalize activities and reduce network leakage.
 
 
 - Default status**: Automatically activated in some regions (USA, Canada, Russia, Ukraine). Elsewhere, manual activation required.
-- Configuration** : Settings → General → Network settings → **Enable DoH** → **Cloudflare** or **Quad9** → **Maximum protection**.
+- Configuration**: Settings → General → Network settings → **Enable DoH** → **Cloudflare** or **Quad9** → **Maximum protection**.
 - Maximum protection = TRR-only** (no fallback to system DNS). If a corporate/hotel network blocks, switch back to **Standard** or disable DoH.
 - Redundancy**: If you're already using a trusted VPN with its own secure DNS, DoH can be redundant.
 - Verification test**: `https://www.dnsleaktest.com/` should display only the chosen DoH provider.
@@ -419,13 +419,13 @@ Best practices
 - A hardened browser ≠ network anonymity: without **VPN**, your IP remains visible; even with it, correlation remains possible.
 - Modifying too much can make you **unique**. **RFP** standardizes; randomization tools (e.g. Chameleon) can... set you apart. Test, compare, adjust.
 - Alternatives/complements:
- - Tor Browser: network anonymity via Tor; slower. See our complete installation and configuration guide** :
+ - Tor Browser: network anonymity via Tor; slower. See our complete installation and configuration guide**:
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
- - Mullvad Browser: "Tor without Tor", to be combined with VPN; standardized footprint. Find out how to install it in our dedicated tutorial** :
+ - Mullvad Browser: "Tor without Tor", to be combined with VPN; standardized footprint. Find out how to install it in our dedicated tutorial**:
 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
@@ -460,9 +460,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 ### Mozilla documentation
 
 
-- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Official guide to enhanced tracking protection
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Official guide to enhanced tracking protection
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Technical documentation on state partitioning
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Complete reference on web security
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Complete reference on web security
 
 
 ### Arkenfox
@@ -488,4 +488,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Complete test suite (WebRTC, Canvas, Fonts, etc.)
 - [BadSSL](https://badssl.com/): SSL/TLS certificate validation tests
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Advanced analysis of 50+ fingerprinting vectors
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Checking that Cloudflare DoH is working properly
+- [Cloudflare DNS Test](https://1.1.1.1/help): Checking that Cloudflare DoH is working properly

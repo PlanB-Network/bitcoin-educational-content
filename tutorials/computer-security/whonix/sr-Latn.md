@@ -18,7 +18,7 @@ description: Sačuvajte svoju privatnost i poverljivost.
 
 
 - Besplatno**: Kao većina Linux distribucija, Whonix je open-source sistem licenciran potpuno besplatno. Razvija se kao open source, uz aktivnu i transparentnu zajednicu.
-- Privatnost, bezbednost i anonimnost** : Glavni cilj Whonix-a je da ponudi ultra-bezbedno okruženje, u kojem su svi vaši podaci zaštićeni, a vaše komunikacije šifrovane putem Tor mreže.
+- Privatnost, bezbednost i anonimnost**: Glavni cilj Whonix-a je da ponudi ultra-bezbedno okruženje, u kojem su svi vaši podaci zaštićeni, a vaše komunikacije šifrovane putem Tor mreže.
 - Lako za korišćenje**: Whonix nudi intuitivan, unapred konfigurisan grafički Interface, pogodan čak i za početnike. Nema potrebe da budete stručnjak da biste imali koristi od napredne zaštite.
 - Idealno okruženje za siguran razvoj**: Whonix vam omogućava da razvijate, testirate, proveravate ili pokrećete programe bez otkrivanja vašeg pravog IP Address ili izlaganja vaših navika pretraživanja ili mrežne komunikacije.
 - Raspršive sesije i režim uživo**: Whonix se može pokrenuti u režimu uživo ili putem raspršivih mašina (npr. putem **Qubes OS**), omogućavajući obavljanje kritičnih zadataka bez ostavljanja trajnih tragova nakon završetka sesije.
@@ -153,7 +153,7 @@ Idite na karticu **System**, gde je podrazumevana dodela RAM-a 2048 MB. Preporu�
 
 
 
-Da bi Whonix radio ispravno i sigurno, **morate pratiti ovaj redosled pokretanja** :
+Da bi Whonix radio ispravno i sigurno, **morate pratiti ovaj redosled pokretanja**:
 
 
 

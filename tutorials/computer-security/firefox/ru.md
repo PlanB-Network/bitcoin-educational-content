@@ -279,7 +279,7 @@ description: Как настроить Firefox для защиты конфид�
 
 
 - Состояние по умолчанию**: Автоматически активируется в некоторых регионах (США, Канада, Россия, Украина). В других регионах требуется ручная активация.
-- Конфигурация** : Настройки → Общие → Настройки сети → **Включить DoH** → **Cloudflare** или **Quad9** → **Максимальная защита**.
+- Конфигурация**: Настройки → Общие → Настройки сети → **Включить DoH** → **Cloudflare** или **Quad9** → **Максимальная защита**.
 - Максимальная защита = только TRR** (без возврата к системному DNS). Если корпоративная сеть/отель блокирует, переключитесь обратно на **Стандарт** или отключите DoH.
 - Избыточность**: Если вы уже используете надежную VPN с собственным безопасным DNS, DoH может оказаться лишним.
 - Тест на верификацию**: `https://www.dnsleaktest.com/` должен отображать только выбранного провайдера DoH.
@@ -559,7 +559,7 @@ user_pref("network.http.referer.trimOnCrossOrigin", true);
 - Усиленный браузер ≠ анонимность в сети: без **VPN** ваш IP остается видимым; даже с ним корреляция остается возможной.
 - Слишком сильные изменения могут сделать вас **уникальным**. **RFP** стандартизирует; инструменты рандомизации (например, Chameleon) могут... выделить вас из толпы. Тестируйте, сравнивайте, корректируйте.
 - Альтернативы/дополнения:
- - Tor Browser: анонимность в сети через Tor; медленнее. См. наше полное руководство по установке и настройке** :
+ - Tor Browser: анонимность в сети через Tor; медленнее. См. наше полное руководство по установке и настройке**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Официальное руководство по усиленной защите от слежения
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Официальное руководство по усиленной защите от слежения
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Техническая документация по разделению состояний
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Полный справочник по веб-безопасности
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Полный справочник по веб-безопасности
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Полный набор тестов (WebRTC, Canvas, шрифты и т.д.)
 - [BadSSL](https://badssl.com/): Тесты проверки сертификатов SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Расширенный анализ 50+ векторов фингерпринтинга
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Проверка правильности работы Cloudflare DoH
+- [Cloudflare DNS Test](https://1.1.1.1/help): Проверка правильности работы Cloudflare DoH

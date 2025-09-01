@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,30 +164,30 @@ proofreading:
 
 必須フィールドは次のとおりです：
 
-- **id** : チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
+- **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id** : チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags** : チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category** : Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
-- **level** : チュートリアルの難易度レベル、以下から選択：
+- **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
+- **professor_id**: [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
 
-- **original_language** : チュートリアルの元の言語（例：`fr`、`en` など）;
+- **original_language**: チュートリアルの元の言語（例：`fr`、`en` など）;
 
-- **proofreading** : 校正プロセスに関する情報。 自分自身のチュートリアルを校正することは、最初の検証としてカウントされるため、最初の部分を記入してください：
-    - **language** : 校正言語のコード（例：`fr`、`en` など）。
-    - **last_contribution_date** : 本日の日付。
-    - **urgency** : 1
-    - **contributor_names** : あなたの GitHub ID。
-    - **reward** : 0
+- **proofreading**: 校正プロセスに関する情報。 自分自身のチュートリアルを校正することは、最初の検証としてカウントされるため、最初の部分を記入してください：
+    - **language**: 校正言語のコード（例：`fr`、`en` など）。
+    - **last_contribution_date**: 本日の日付。
+    - **urgency**: 1
+    - **contributor_names**: あなたの GitHub ID。
+    - **reward**: 0
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 

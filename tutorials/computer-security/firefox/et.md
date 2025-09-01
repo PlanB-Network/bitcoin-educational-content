@@ -120,7 +120,7 @@ Eesmärk: suur privaatsuse suurendamine ilma veebi lõhkumata. 90% kasutajate ja
 
 
 
-Seadetele juurdepääsemiseks klõpsake üleval paremal menüüs ☰ ja seejärel **"Seaded "** :
+Seadetele juurdepääsemiseks klõpsake üleval paremal menüüs ☰ ja seejärel **"Seaded "**:
 
 
 
@@ -279,7 +279,7 @@ Eesmärk: jaotada tegevus osadeks ja vähendada võrgulekkeid.
 
 
 - Vaikimisi staatus**: Automaatselt aktiveeritud mõnes piirkonnas (USA, Kanada, Venemaa, Ukraina). Mujal on vajalik käsitsi aktiveerimine.
-- Konfiguratsioon** : Seaded → Üldine → Võrgu seaded → **Enable DoH** → **Cloudflare** või **Quad9** → **Maximumkaitse**.
+- Konfiguratsioon**: Seaded → Üldine → Võrgu seaded → **Enable DoH** → **Cloudflare** või **Quad9** → **Maximumkaitse**.
 - Maksimaalne kaitse = ainult TRR** (ei taganeta süsteemi DNS-i). Kui ettevõtte/hotelli võrk blokeerib, lülitage tagasi **Standard** või keelake DoH.
 - Koondamine**: DoH võib olla üleliigne, kui kasutate juba usaldusväärset VPN-i, millel on oma turvaline DNS.
 - Kontrolltest**: "https://www.dnsleaktest.com/" peaks kuvama ainult valitud DoH teenusepakkujat.
@@ -559,7 +559,7 @@ Parimad tavad
 - Karastatud brauser ≠ võrgu anonüümsus: ilma **VPNita** jääb teie IP nähtavaks; isegi sellega on korrelatsioon võimalik.
 - Liiga palju muutmine võib muuta teid **unikaalseks**. **RFP** standardiseerib; randomiseerimisvahendid (nt Chameleon) võivad teid... eristada. Testige, võrrelge, kohandage.
 - Alternatiivid/täiendused:
- - Tor Browser: võrgu anonüümsus Tor'i kaudu; aeglasem. Vaata meie täielikku paigaldus- ja seadistusjuhendit** :
+ - Tor Browser: võrgu anonüümsus Tor'i kaudu; aeglasem. Vaata meie täielikku paigaldus- ja seadistusjuhendit**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor ilma Torita, kombineeritav VPN-iga; standardiseeritud jalajälg. Uuri, kuidas seda paigaldada meie spetsiaalsest õpetusest** :
+ - Mullvad Browser: "Tor ilma Torita, kombineeritav VPN-iga; standardiseeritud jalajälg. Uuri, kuidas seda paigaldada meie spetsiaalsest õpetusest**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Tõhustatud jälgimiskaitse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Ametlik juhend tõhustatud jälgimiskaitse kohta
+- [Tõhustatud jälgimiskaitse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Ametlik juhend tõhustatud jälgimiskaitse kohta
 - [Riigi jaotamine](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tehniline dokumentatsioon riigi partitsioneerimise kohta
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Täielik viide veebiturvalisuse kohta
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Täielik viide veebiturvalisuse kohta
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): (WebRTC, Canvas, kirjatüübid jne.)
 - [BadSSL](https://badssl.com/): SSL/TLS sertifikaadi valideerimise testid
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Rohkem kui 50 sõrmejälgede vektori täiustatud analüüs
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Kontrollida, et Cloudflare DoH töötab korralikult
+- [Cloudflare DNS Test](https://1.1.1.1/help): Kontrollida, et Cloudflare DoH töötab korralikult

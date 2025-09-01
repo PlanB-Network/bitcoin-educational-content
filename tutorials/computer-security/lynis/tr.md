@@ -209,7 +209,7 @@ Mevcut komutları görüntülemek için aşağıdaki komutu girmeniz yeterlidir:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Alacağın şey bu:
 
 
 
-Eğer tüm seçenekleri görüntülemek isterseniz, :
+Eğer tüm seçenekleri görüntülemek isterseniz,:
 
 
 
@@ -336,7 +336,7 @@ Burada, Lynis'in **fail2ban** yüklemesini önerdiğini görebiliriz:
 
 
 
-"**Boot and services**" bölümünde, *systemd* aracılığıyla hizmet korumasının geliştirilebileceğini görüyoruz. Olumlu tarafı, Grub2 mevcut ve izinlerle ilgili herhangi bir sorun yok :
+"**Boot and services**" bölümünde, *systemd* aracılığıyla hizmet korumasının geliştirilebileceğini görüyoruz. Olumlu tarafı, Grub2 mevcut ve izinlerle ilgili herhangi bir sorun yok:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Yüklü paketler hakkında bazı bilgiler :
+Yüklü paketler hakkında bazı bilgiler:
 
 
 
@@ -623,7 +623,7 @@ SSH önerilerine bir göz atalım. Bunlar aşağıda listelenmiştir. Merak etme
 
 
 
-Şimdi :**/etc/ssh/sshd_config** içindeki mevcut **SSH** yapılandırmama daha yakından bakalım
+Şimdi:**/etc/ssh/sshd_config** içindeki mevcut **SSH** yapılandırmama daha yakından bakalım
 
 
 
@@ -635,7 +635,7 @@ Aşağıda önerilen yapılandırma yine de optimize edilebilir, ancak size iyi 
 
 
 
-Biz :
+Biz:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Parola kimlik doğrulamasını koru :
+- Parola kimlik doğrulamasını koru:
 
 
 
@@ -804,7 +804,7 @@ Bazı yargı bölgelerinde, kimlik doğrulamadan önce bir mesaj göndermenin ya
 
 
 
-Görüntülerde bu, :
+Görüntülerde bu,:
 
 
 

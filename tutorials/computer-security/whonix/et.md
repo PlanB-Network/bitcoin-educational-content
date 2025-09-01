@@ -18,7 +18,7 @@ description: Säilitage oma privaatsust ja konfidentsiaalsust.
 
 
 - Tasuta**: Whonix on avatud lähtekoodiga süsteem, mis on litsentseeritud täiesti tasuta. Seda arendatakse avatud lähtekoodiga, aktiivse ja läbipaistva kogukonnaga.
-- Privaatsus, turvalisus ja anonüümsus** : Whonixi peamine eesmärk on pakkuda üliturvalist keskkonda, kus kõik teie andmed on kaitstud ja teie suhtlus Tor-võrgu kaudu krüpteeritud.
+- Privaatsus, turvalisus ja anonüümsus**: Whonixi peamine eesmärk on pakkuda üliturvalist keskkonda, kus kõik teie andmed on kaitstud ja teie suhtlus Tor-võrgu kaudu krüpteeritud.
 - Lihtne kasutada**: Whonix pakub intuitiivset, eelkonfigureeritud graafilist Interface, mis sobib isegi algajatele kasutajatele. Täiustatud kaitsest kasu saamiseks ei pea olema ekspert.
 - Ideaalne keskkond turvaliseks arendamiseks**: Whonix võimaldab teil programme arendada, testida, auditeerida või käivitada, ilma et te kunagi paljastaksite oma tegelikku IP Address või paljastaksite oma sirvimis- või võrgukommunikatsiooniharjumusi.
 - Ühekordsed seansid ja Live-režiim**: Whonixi saab käivitada Live-režiimis või ühekordsete masinate kaudu (nt **Qubes OS** kaudu), mis võimaldab kriitilisi ülesandeid täita ilma püsivaid jälgi jätmata, kui seanss on lõppenud.
@@ -153,7 +153,7 @@ Minge vahekaardile **Süsteem**, kus vaikimisi RAM-i eraldus on 2048 MB. Soovita
 
 
 
-Selleks, et Whonix töötaks korralikult ja turvaliselt, **peate järgima järgmist käivitamisjärjekorda** :
+Selleks, et Whonix töötaks korralikult ja turvaliselt, **peate järgima järgmist käivitamisjärjekorda**:
 
 
 

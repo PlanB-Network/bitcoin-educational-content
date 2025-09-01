@@ -51,7 +51,7 @@ A ferramenta é amplamente utilizada por uma vasta gama de utilizadores, incluin
 
 
 
-O projeto está disponível neste Address no **Github** :
+O projeto está disponível neste Address no **Github**:
 
 
 
@@ -82,7 +82,7 @@ Este modo de instalação permite-lhe utilizar o comando **lynis** a partir de q
 
 
 
-Ligue-se ao seu servidor através de SSH e introduza os seguintes comandos para instalar o Lynis :
+Ligue-se ao seu servidor através de SSH e introduza os seguintes comandos para instalar o Lynis:
 
 
 
@@ -209,7 +209,7 @@ Para visualizar os comandos disponíveis, basta introduzir o seguinte comando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Isto é o que se obtém:
 
 
 
-Para visualizar todas as opções, é necessário introduzir :
+Para visualizar todas as opções, é necessário introduzir:
 
 
 
@@ -336,7 +336,7 @@ Aqui, podemos ver que Lynis recomenda a instalação do **fail2ban**:
 
 
 
-Na secção "**Boot and services**", vemos que a proteção dos serviços através do *systemd* poderia ser melhorada. No lado positivo, o Grub2 está presente e não há problemas com permissões no :
+Na secção "**Boot and services**", vemos que a proteção dos serviços através do *systemd* poderia ser melhorada. No lado positivo, o Grub2 está presente e não há problemas com permissões no:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Algumas informações sobre os pacotes instalados :
+Algumas informações sobre os pacotes instalados:
 
 
 
@@ -623,7 +623,7 @@ Vamos dar uma olhadela às recomendações do SSH. Elas estão listadas abaixo. 
 
 
 
-Vamos dar uma olhada mais de perto na minha configuração **SSH** atual em :**/etc/ssh/sshd_config**
+Vamos dar uma olhada mais de perto na minha configuração **SSH** atual em:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ A configuração sugerida abaixo ainda pode ser optimizada, mas dá-lhe uma boa 
 
 
 
-Iremos :
+Iremos:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Manter a autenticação da palavra-passe :
+- Manter a autenticação da palavra-passe:
 
 
 
@@ -804,7 +804,7 @@ Banner none
 
 
 
-Em imagens, isto dá :
+Em imagens, isto dá:
 
 
 

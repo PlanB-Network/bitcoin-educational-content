@@ -122,7 +122,7 @@ Valitsin koettimeksi **Debian 11** -koneen minimaalisessa asennuksessa.
 
 
 
-Ensimmäinen askel, aina sama, päivitä :
+Ensimmäinen askel, aina sama, päivitä:
 
 
 
@@ -212,7 +212,7 @@ Seuraavassa on joitakin selityksiä näistä ensimmäisistä muutoksista:
 
 
 - auto *Interface***: käynnistää Interface:n automaattisesti järjestelmän käynnistyessä
-- iface *Interface* inet manual** : Interface:n käyttö ilman IP Address:tä. Kuten avainsana "static" määrittää staattisen IP Address:n tai "dhcp" käyttää dynaamista osoitteistusta
+- iface *Interface* inet manual**: Interface:n käyttö ilman IP Address:tä. Kuten avainsana "static" määrittää staattisen IP Address:n tai "dhcp" käyttää dynaamista osoitteistusta
 
 
 
@@ -286,7 +286,7 @@ Oletusarvoisesti pakettilähteet sisältävät vain DFSG (*Debian Free Sotftware
 
 
 
-Esimerkki rivistä tiedostossa /etc/apt/sources.list :
+Esimerkki rivistä tiedostossa /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Lisään siis vain sanan **contrib** tällaisiin riveihin.
 
 
 
-Loput vaiheet on lueteltu [NtopNG]-sivustolla (https://packages.ntop.org/apt/), jossa Debian 11:n osalta sinun on lisättävä Ntop-lähteet tulevaa asennusta varten. Tämä lisäys on automatisoitu käyttämällä :
+Loput vaiheet on lueteltu [NtopNG]-sivustolla (https://packages.ntop.org/apt/), jossa Debian 11:n osalta sinun on lisättävä Ntop-lähteet tulevaa asennusta varten. Tämä lisäys on automatisoitu käyttämällä:
 
 
 
@@ -474,7 +474,7 @@ Klikkaamalla tätä kuviota saat näkyviin hälytysten tiedot. Tässä ei ole mi
 
 
 
-Koska käytän kuitenkin ilmaisversiota, en voi sulkea pois verkkotunnuksia tai isäntiä, jotka ovat hälytysten lähde, joten sinun on pidettävä niitä silmällä, jotta et jää paitsi jostain paljon huolestuttavammasta. NtopNG tekee generate-hälytyksiä, jos :
+Koska käytän kuitenkin ilmaisversiota, en voi sulkea pois verkkotunnuksia tai isäntiä, jotka ovat hälytysten lähde, joten sinun on pidettävä niitä silmällä, jotta et jää paitsi jostain paljon huolestuttavammasta. NtopNG tekee generate-hälytyksiä, jos:
 
 
 

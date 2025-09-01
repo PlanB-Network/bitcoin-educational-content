@@ -54,7 +54,7 @@ The **Graylog server** is running on **Debian 12**, but installation is possible
 ![Image](assets/fr/032.webp)
 
 
-Source : Graylog
+Source: Graylog
 
 
 Before starting configuration, assign a static IP address to the Graylog machine and install the latest updates. Be sure to set the local machine's time zone and define an NTP server for date and time synchronization. Here's the command to run:
@@ -102,7 +102,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 ```
 
 
-Next, we'll update the package cache and attempt to install MongoDB :
+Next, we'll update the package cache and attempt to install MongoDB:
 
 
 ```
@@ -116,8 +116,8 @@ MongoDB cannot be installed because a dependency is missing: **libssl1.1**. We'l
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -175,7 +175,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 ```
 
 
-Update your package cache :
+Update your package cache:
 
 
 ```
@@ -221,7 +221,7 @@ This OpenSearch configuration is designed to set up a single node. Here are some
 
 
 
-- cluster.name: graylog** : this parameter names the OpenSearch cluster with the name "**graylog**".
+- cluster.name: graylog**: this parameter names the OpenSearch cluster with the name "**graylog**".
 - node.name: ${HOSTNAME}**: the node name is set dynamically to match that of the local Linux machine. Even if we only have one node, it's important to name it correctly.
 - path.data: /var/lib/opensearch**: this path specifies where OpenSearch stores its data on the local machine, in this case in "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: this path defines where OpenSearch log files are stored, here in "**/var/log/opensearch**".
@@ -251,7 +251,7 @@ sudo nano /etc/opensearch/jvm.options
 ```
 
 
-With the configuration deployed here, **OpenSearch will start with 4 GB of allocated memory and can grow up to 4 GB**, so there will be no memory variation during operation. Here, the configuration takes into account the fact that the virtual machine has a total of **8 GB RAM**. Both parameters must have the same value. This means replacing the lines :
+With the configuration deployed here, **OpenSearch will start with 4 GB of allocated memory and can grow up to 4 GB**, so there will be no memory variation during operation. Here, the configuration takes into account the fact that the virtual machine has a total of **8 GB RAM**. Both parameters must have the same value. This means replacing the lines:
 
 
 ```
@@ -260,7 +260,7 @@ With the configuration deployed here, **OpenSearch will start with 4 GB of alloc
 ```
 
 
-With these lines :
+With these lines:
 
 
 ```
@@ -324,7 +324,7 @@ Next step: the long-awaited installation of Graylog!
 #### D. Installing Graylog
 
 
-To **install Graylog 6.1** in its latest version, run the following 4 commands to **download and install Graylog Server** :
+To **install Graylog 6.1** in its latest version, run the following 4 commands to **download and install Graylog Server**:
 
 
 ```
@@ -343,7 +343,7 @@ Let's start by configuring these two options:
 
 
 - password_secret**: this parameter is used to define a key used by Graylog to secure the storage of user passwords (in the spirit of a salting key). This key must be **unique** and **random**.
-- root_password_sha2** : this parameter corresponds to the default administrator password in Graylog. It is stored as a Hash SHA-256.
+- root_password_sha2**: this parameter corresponds to the default administrator password in Graylog. It is stored as a Hash SHA-256.
 
 
 We'll start by generating a 96-character key for the **password_secret** parameter:
@@ -615,7 +615,7 @@ In addition, the "**/etc/rsyslog.d/**" directory is used to store additional con
 In this directory, you must use numbers to define the loading order, because files are loaded in alphabetical order. Adding a numerical prefix allows you to manage the priority between several configuration files. Here, we only have one additional file, so it's not a problem.
 
 
-In this directory, we will create a file called "**10-graylog.conf**" :
+In this directory, we will create a file called "**10-graylog.conf**":
 
 
 ```
@@ -623,7 +623,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 ```
 
 
-In this file, insert this line :
+In this file, insert this line:
 
 
 ```
@@ -715,7 +715,7 @@ message:Failed password AND application_name:sshd
 ```
 
 
-If you have several servers and wish to analyze the logs of a specific server, specify its name in addition :
+If you have several servers and wish to analyze the logs of a specific server, specify its name in addition:
 
 
 ```
@@ -732,7 +732,7 @@ Here's an overview of the result on a machine where I generated several connecti
 Unsuccessful connection attempts are made from the machine with IP address "**192.168.10.199**". If you want to know more about the activity of this host, you can **search for this IP address**. Graylog will output all logs where this IP address is referenced, on all hosts (for which log sending is configured).
 
 
-In this case, the filter to be used can be :
+In this case, the filter to be used can be:
 
 
 ```

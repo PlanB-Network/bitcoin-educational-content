@@ -279,7 +279,7 @@ Amaç: faaliyetleri bölümlere ayırmak ve ağ sızıntısını azaltmak.
 
 
 - Varsayılan durum**: Bazı bölgelerde otomatik olarak etkinleştirilir (ABD, Kanada, Rusya, Ukrayna). Diğer yerlerde manuel aktivasyon gereklidir.
-- Yapılandırma** : Ayarlar → Genel → Ağ ayarları → ** DoH'u etkinleştir** → **Cloudflare** veya **Quad9** → **Maksimum koruma**.
+- Yapılandırma**: Ayarlar → Genel → Ağ ayarları → ** DoH'u etkinleştir** → **Cloudflare** veya **Quad9** → **Maksimum koruma**.
 - Maksimum koruma = Yalnızca TRR** (sistem DNS'sine geri dönüş yok). Bir şirket/otel ağı engellerse, **Standart** seçeneğine geri dönün veya DoH'yi devre dışı bırakın.
 - Yedeklilik**: Zaten kendi güvenli DNS'sine sahip güvenilir bir VPN kullanıyorsanız, DoH gereksiz olabilir.
 - Doğrulama testi**: `https://www.dnsleaktest.com/` yalnızca seçilen DoH sağlayıcısını görüntülemelidir.
@@ -559,7 +559,7 @@ En iyi uygulamalar
 - Sertleştirilmiş bir tarayıcı ≠ ağ anonimliği: **VPN** olmadan IP'niz görünür kalır; onunla bile korelasyon mümkün olmaya devam eder.
 - Çok fazla değişiklik yapmak sizi **eşsiz** kılabilir. **RFP** standartlaştırır; randomizasyon araçları (örneğin Chameleon) sizi farklı kılabilir. Test edin, karşılaştırın, ayarlayın.
 - Alternatifler/tamamlayıcılar:
- - Tor Browser: Tor üzerinden ağ anonimliği; daha yavaş. Tam kurulum ve yapılandırma kılavuzumuza bakın** :
+ - Tor Browser: Tor üzerinden ağ anonimliği; daha yavaş. Tam kurulum ve yapılandırma kılavuzumuza bakın**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Tarayıcı: vPN ile birleştirilecek "Tor'suz Tor"; standartlaştırılmış ayak izi. Özel eğitimimizde nasıl kurulacağını öğrenin** :
+ - Mullvad Tarayıcı: vPN ile birleştirilecek "Tor'suz Tor"; standartlaştırılmış ayak izi. Özel eğitimimizde nasıl kurulacağını öğrenin**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Gelişmiş Takip Koruması](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Gelişmiş izleme koruması için resmi kılavuz
+- [Gelişmiş Takip Koruması](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Gelişmiş izleme koruması için resmi kılavuz
 - [Durum Bölümleme] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Durum bölümleme hakkında teknik dokümantasyon
-- [MDN Web Güvenliği](https://developer.mozilla.org/docs/Web/Security) : Web güvenliği hakkında eksiksiz referans
+- [MDN Web Güvenliği](https://developer.mozilla.org/docs/Web/Security): Web güvenliği hakkında eksiksiz referans
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Eksiksiz test paketi (WebRTC, Canvas, Yazı Tipleri, vb.)
 - [BadSSL](https://badssl.com/): SSL/TLS sertifika doğrulama testleri
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): 50'den fazla parmak izi vektörünün gelişmiş analizi
-- [Cloudflare DNS Testi](https://1.1.1.1/help) : Cloudflare DoH'un düzgün çalışıp çalışmadığını kontrol etme
+- [Cloudflare DNS Testi](https://1.1.1.1/help): Cloudflare DoH'un düzgün çalışıp çalışmadığını kontrol etme

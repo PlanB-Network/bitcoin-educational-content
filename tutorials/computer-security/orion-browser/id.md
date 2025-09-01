@@ -62,7 +62,7 @@ Fitur uniknya? Orion adalah peramban WebKit **satu-satunya** yang dapat memasang
 
 - Ketersediaan terbatas**: Saat ini disediakan untuk macOS dan iOS/iPadOS. Versi Linux sedang mencapai tonggak pengembangan (Milestone 2 pada tahun 2025), tetapi tidak ada versi publik yang tersedia. Windows dan Android tidak dalam pengembangan karena kurangnya sumber daya.
 - Kode sumber tertutup**: Meskipun beberapa komponen merupakan sumber terbuka, Orion tetap didominasi oleh hak milik, sebuah titik perdebatan dalam komunitas privasi.
-- Ekstensi eksperimental** : Dukungan ekstensi masih dalam versi beta, dengan ketidaksesuaian yang sering terjadi. Ekstensi dapat memengaruhi kinerja, dan beberapa tidak berfungsi sama sekali.
+- Ekstensi eksperimental**: Dukungan ekstensi masih dalam versi beta, dengan ketidaksesuaian yang sering terjadi. Ekstensi dapat memengaruhi kinerja, dan beberapa tidak berfungsi sama sekali.
 - Keamanan WebKit**: Tidak seperti Chromium, WebKit tidak menawarkan isolasi proses per situs yang kuat, yang dapat menimbulkan risiko keamanan dalam skenario tertentu.
 - Tes pemblokiran**: Orion memiliki kinerja yang sengaja buruk dalam tes iklan online (26-35%), karena Kagi menganggap tes ini "cacat secara fundamental". Efektivitas aktual dalam penggunaan sehari-hari jauh lebih unggul.
 
@@ -105,7 +105,7 @@ Fitur uniknya? Orion adalah peramban WebKit **satu-satunya** yang dapat memasang
 
 
 
-**Alternatif Homebrew** :
+**Alternatif Homebrew**:
 
 
 ```bash
@@ -234,7 +234,7 @@ Orion+ menjamin kemandirian proyek ini: "Kontribusi keuangan Anda membantu kami 
 
 
 
-Akses preferensi melalui **Orion → Preferensi** (atau ⌘,) :
+Akses preferensi melalui **Orion → Preferensi** (atau ⌘,):
 
 
 
@@ -272,13 +272,13 @@ Akses preferensi melalui **Orion → Preferensi** (atau ⌘,) :
 
 
 
-- Daftar Mudah** : 119 ribu+ aturan pemblokiran iklan
+- Daftar Mudah**: 119 ribu+ aturan pemblokiran iklan
 - EasyPrivacy**: Perlindungan terhadap pelacakan
 - Mengelola Daftar Filter**: Menambahkan daftar tambahan (disarankan oleh Hagezi)
 
 
 
-**Opsi privasi** :
+**Opsi privasi**:
 
 
 
@@ -350,7 +350,7 @@ Orion secara bawaan mendukung ekstensi Chrome dan Firefox. Instal langsung dari 
 
 
 
-**Penting** :
+**Penting**:
 
 
 
@@ -372,7 +372,7 @@ Orion secara bawaan mendukung ekstensi Chrome dan Firefox. Instal langsung dari 
 
 
 
-Untuk menginstal file :
+Untuk menginstal file:
 
 
 
@@ -411,7 +411,7 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-**Pilihan tema** :
+**Pilihan tema**:
 
 
 
@@ -447,13 +447,13 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-**Manajemen tab lanjutan** :
+**Manajemen tab lanjutan**:
 
 
 
 
 - Tab vertikal**: Aktifkan melalui bilah menu (Fungsi Tab di Samping)
-- Tab yang ringkas** : Dalam Preferensi → Tab → Tata Letak "Ringkas" untuk menghemat ruang
+- Tab yang ringkas**: Dalam Preferensi → Tab → Tata Letak "Ringkas" untuk menghemat ruang
 - Grup tab**: Atur sesi Anda berdasarkan tema
 - Beberapa profil**: Buat identitas terpisah melalui bilah menu (fungsi Profil) dengan data yang sepenuhnya terisolasi
 
@@ -463,7 +463,7 @@ Alat **brush** Orion adalah fitur unik yang memungkinkan Anda menyesuaikan tampi
 
 
 
-**Alat bantu bawaan** (Menu edit dan lainnya) :
+**Alat bantu bawaan** (Menu edit dan lainnya):
 
 
 
@@ -507,7 +507,7 @@ Untuk menjaga Orion tetap cepat dan privat:
 
 
 
-- Ekstensi** : Batasi hingga batas minimum yang ketat (dapat mengurangi kinerja)
+- Ekstensi**: Batasi hingga batas minimum yang ketat (dapat mengurangi kinerja)
 - Mode Daya Rendah**: Aktifkan untuk sesi yang panjang (kemungkinan penghematan 90%)
 - Laporan Privasi**: Klik pada perisai 🛡️ untuk melihat penyumbatan secara real time
 - Kustomisasi visual**: Gunakan kuas 🖌️ untuk menyesuaikan tampilan dan menghapus Elements yang mengganggu
@@ -566,7 +566,7 @@ Untuk menjaga Orion tetap cepat dan privat:
 
 
 
-**Hindari jika ** :
+**Hindari jika **:
 
 
 
@@ -645,8 +645,8 @@ Ingat: melindungi privasi Anda tidak hanya bergantung pada peramban Anda. Kombin
 - Pertanyaan Umum Lengkap**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Forum komunitas**: [community.kagi.com](https://community.kagi.com)
 - Pelacakan bug**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponen sumber terbuka
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Berita dan pembaruan
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponen sumber terbuka
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Berita dan pembaruan
 
 
 

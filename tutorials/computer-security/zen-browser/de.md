@@ -53,13 +53,13 @@ Die Website erkennt Ihr System automatisch und schlägt Ihnen den entsprechenden
 
 
 
-- Windows :** .exe-Installationsprogramm für Windows 10/11 (x64- und ARM64-Versionen)
-- macOS :** Intel und Apple Silicon kompatibles .dmg Disketten-Image (macOS Monterey und höher)
+- Windows:** .exe-Installationsprogramm für Windows 10/11 (x64- und ARM64-Versionen)
+- macOS:** Intel und Apple Silicon kompatibles .dmg Disketten-Image (macOS Monterey und höher)
 - Linux:** Mehrere Optionen verfügbar:
   - Flatpak** (empfohlen): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Portabel, direkt ausführbar
-  - Archiv tar.gz** : Muss manuell entpackt werden
-  - AUR** (Arch Linux) : Zen-Browser-Paket
+  - Archiv tar.gz**: Muss manuell entpackt werden
+  - AUR** (Arch Linux): Zen-Browser-Paket
 
 
 
@@ -97,8 +97,8 @@ Die Website erkennt Ihr System automatisch und schlägt Ihnen den entsprechenden
 
 
 - Flatpak:** Automatische Installation über den Paketmanager
-- AppImage :** `chmod +x ZenBrowser.AppImage`, dann Doppelklick
-- tar.gz :** Entpacken und Ausführen des zen-browser-Programms
+- AppImage:** `chmod +x ZenBrowser.AppImage`, dann Doppelklick
+- tar.gz:** Entpacken und Ausführen des zen-browser-Programms
 
 
 
@@ -348,7 +348,7 @@ Zen Browser wendet von Anfang an eine Konfiguration mit hohem Datenschutz an, di
 
 
 
-- Strenger Anti-Tracking-Schutz:** Standardmäßig ist die Stufe "Standard" aktiviert, die das :
+- Strenger Anti-Tracking-Schutz:** Standardmäßig ist die Stufe "Standard" aktiviert, die das:
   - Website-übergreifende Tracking-Cookies und Supercookies
   - Skripte für Werbetracker (Google Analytics, Facebook Pixel, usw.)
   - Kryptominter, die Ihre CPU für Miner-Kryptowährungen verwenden
@@ -416,7 +416,7 @@ Einstellungen > Datenschutz und Sicherheit > Erweiterter Tracking-Schutz
 **2. Suchmaschine ändern:**
 
 
-Einstellungen > Suche > Standardsuchmaschine :
+Einstellungen > Suche > Standardsuchmaschine:
 
 
 
@@ -496,7 +496,7 @@ Einstellungen > Datenschutz und Sicherheit > Nur HTTPS-Modus > **Aktiviert**
 **5. Verwalten von Standardberechtigungen:**
 
 
-Einstellungen > Datenschutz und Sicherheit > Berechtigungen :
+Einstellungen > Datenschutz und Sicherheit > Berechtigungen:
 
 
 

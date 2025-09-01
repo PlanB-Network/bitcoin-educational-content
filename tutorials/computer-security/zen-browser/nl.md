@@ -53,13 +53,13 @@ De site detecteert automatisch je systeem en stelt de juiste koppeling voor:
 
 
 
-- Windows :** .exe-installatieprogramma voor Windows 10/11 (x64- en ARM64-versies)
-- macOS :** Intel- en Apple Silicon-compatibele .dmg-schijfimage (macOS Monterey en hoger)
+- Windows:** .exe-installatieprogramma voor Windows 10/11 (x64- en ARM64-versies)
+- macOS:** Intel- en Apple Silicon-compatibele .dmg-schijfimage (macOS Monterey en hoger)
 - Linux:** Verschillende opties beschikbaar:
   - Flatpak** (aanbevolen): `flatpak installeer flathub app.zen_browser.Zen`
   - AppImage**: Draagbaar, direct uitvoerbaar
-  - Archief tar.gz** : Handmatig uitpakken
-  - AUR** (Arch Linux) : Zen-browser pakket
+  - Archief tar.gz**: Handmatig uitpakken
+  - AUR** (Arch Linux): Zen-browser pakket
 
 
 
@@ -97,8 +97,8 @@ De site detecteert automatisch je systeem en stelt de juiste koppeling voor:
 
 
 - Flatpak:** Automatische installatie via de pakketbeheerder
-- AppImage :** `chmod +x ZenBrowser.AppImage` dubbelklik dan
-- tar.gz :** De zen-browser executable uitpakken en uitvoeren
+- AppImage:** `chmod +x ZenBrowser.AppImage` dubbelklik dan
+- tar.gz:** De zen-browser executable uitpakken en uitvoeren
 
 
 
@@ -320,7 +320,7 @@ En omdat Zen op Firefox is gebaseerd, is het compatibel met het hele ecosysteem 
 
 
 
-Om de instellingen van de Zen Browser te openen :
+Om de instellingen van de Zen Browser te openen:
 
 
 
@@ -348,7 +348,7 @@ Meteen vanaf het begin past Zen Browser een configuratie met hoge privacy toe di
 
 
 
-- Strenge anti-trackingbeveiliging:** "Standaard" niveau standaard geactiveerd, blokkeert :
+- Strenge anti-trackingbeveiliging:** "Standaard" niveau standaard geactiveerd, blokkeert:
   - Cross-site tracking cookies en supercookies
   - Advertentie tracker scripts (Google Analytics, Facebook Pixel, etc.)
   - Cryptomunten die je CPU gebruiken om cryptocurrencies te Miner-en
@@ -416,7 +416,7 @@ Instellingen > Privacy en beveiliging > Verbeterde trackingbescherming
 **2. Zoekmachine wijzigen:**
 
 
-Instellingen > Zoeken > Standaardzoekmachine :
+Instellingen > Zoeken > Standaardzoekmachine:
 
 
 
@@ -496,7 +496,7 @@ Instellingen > Privacy en beveiliging > Alleen HTTPS-modus > **Ingeschakeld**
 **5. Standaardmachtigingen beheren:**
 
 
-Instellingen > Privacy en beveiliging > Machtigingen :
+Instellingen > Privacy en beveiliging > Machtigingen:
 
 
 

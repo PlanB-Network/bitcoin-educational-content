@@ -14,7 +14,7 @@ description: Preserve your privacy and confidentiality.
 
 
 - Free**: Like most Linux distributions, Whonix is an open-source system licensed completely free of charge. It is developed in open source, with an active and transparent community.
-- Privacy, security and anonymity** : Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
+- Privacy, security and anonymity**: Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
 - Easy to use**: Whonix offers an intuitive, pre-configured graphical Interface, suitable even for novice users. No need to be an expert to benefit from advanced protection.
 - Ideal environment for secure development**: Whonix lets you develop, test, audit or run programs without ever revealing your real IP address or exposing your browsing or network communication habits.
 - Disposable sessions and Live mode**: Whonix can be launched in Live mode or via disposable machines (e.g. via **Qubes OS**), enabling critical tasks to be carried out without leaving persistent traces once the session has ended.
@@ -116,7 +116,7 @@ Go to the **System** tab, where the default RAM allocation is 2048 MB. We recomm
 ### Getting started with Whonix
 
 
-For Whonix to work properly and securely, **you must follow this startup sequence** :
+For Whonix to work properly and securely, **you must follow this startup sequence**:
 
 
 First, start the **Whonix-Gateway-Xfce** machine. This machine is responsible for routing all traffic through the **Tor** network. Without the gateway running, no traffic will be routed via Tor and you'll lose anonymity.

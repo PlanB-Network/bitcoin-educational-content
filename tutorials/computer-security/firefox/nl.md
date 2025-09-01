@@ -120,7 +120,7 @@ Doel: grote privacywinst zonder het web kapot te maken. Voor 90% van de gebruike
 
 
 
-Om de instellingen te openen, klikt u op het menu ☰ rechtsboven en vervolgens op **"Instellingen"** :
+Om de instellingen te openen, klikt u op het menu ☰ rechtsboven en vervolgens op **"Instellingen"**:
 
 
 
@@ -279,7 +279,7 @@ Doel: activiteiten compartimenteren en netwerklekken verminderen.
 
 
 - Standaardstatus**: Automatisch geactiveerd in sommige regio's (VS, Canada, Rusland, Oekraïne). Elders handmatige activering vereist.
-- Configuratie** : Instellingen → Algemeen → Netwerkinstellingen → **DoH inschakelen** → **Cloudflare** of **Quad9** → **Maximale bescherming**.
+- Configuratie**: Instellingen → Algemeen → Netwerkinstellingen → **DoH inschakelen** → **Cloudflare** of **Quad9** → **Maximale bescherming**.
 - Maximale bescherming = alleen TRR** (geen fallback naar systeem DNS). Als een bedrijfs-/hotelnetwerk blokkeert, schakel dan terug naar **Standaard** of schakel DoH uit.
 - Redundantie**: Als je al een vertrouwd VPN gebruikt met een eigen beveiligde DNS, kan DoH overbodig zijn.
 - Controletest**: `https://www.dnsleaktest.com/` moet alleen de gekozen DoH provider weergeven.
@@ -559,7 +559,7 @@ Beste praktijken
 - Een verharde browser ≠ netwerkanonimiteit: zonder **VPN** blijft je IP zichtbaar; zelfs met blijft correlatie mogelijk.
 - Te veel aanpassen kan je **uniek** maken. **RFP** standaardiseert; randomisatietools (bijv. Kameleon) kunnen... je onderscheiden. Test, vergelijk, pas aan.
 - Alternatieven/complementen:
- - Tor Browser: netwerkanonimiteit via Tor; langzamer. Bekijk onze volledige installatie- en configuratiegids** :
+ - Tor Browser: netwerkanonimiteit via Tor; langzamer. Bekijk onze volledige installatie- en configuratiegids**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad-browser: "Tor zonder Tor", te combineren met VPN; gestandaardiseerde footprint. Ontdek hoe je het installeert in onze speciale tutorial** :
+ - Mullvad-browser: "Tor zonder Tor", te combineren met VPN; gestandaardiseerde footprint. Ontdek hoe je het installeert in onze speciale tutorial**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Verbeterde Trackingbescherming](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Officiële gids voor verbeterde trackingbescherming
+- [Verbeterde Trackingbescherming](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Officiële gids voor verbeterde trackingbescherming
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Technische documentatie over partitionering van toestanden
-- [MDN Webbeveiliging](https://developer.mozilla.org/docs/Web/Security) : Volledige referentie over webbeveiliging
+- [MDN Webbeveiliging](https://developer.mozilla.org/docs/Web/Security): Volledige referentie over webbeveiliging
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Volledige testsuite (WebRTC, Canvas, lettertypen, enz.)
 - [BadSSL](https://badssl.com/): SSL/TLS-certificaat validatietests
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Geavanceerde analyse van 50+ vingerafdrukvectoren
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Controleren of Cloudflare DoH goed werkt
+- [Cloudflare DNS Test](https://1.1.1.1/help): Controleren of Cloudflare DoH goed werkt

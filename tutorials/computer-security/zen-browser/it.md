@@ -53,13 +53,13 @@ Il sito rileva automaticamente il sistema e propone il link appropriato:
 
 
 
-- Windows :** Programma di installazione .exe per Windows 10/11 (versioni x64 e ARM64)
-- macOS :** Immagine disco .dmg compatibile con Intel e Apple Silicon (macOS Monterey e successivi)
+- Windows:** Programma di installazione .exe per Windows 10/11 (versioni x64 e ARM64)
+- macOS:** Immagine disco .dmg compatibile con Intel e Apple Silicon (macOS Monterey e successivi)
 - Linux:** Sono disponibili diverse opzioni:
   - Flatpak** (consigliato): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Portatile, direttamente eseguibile
-  - Archivio tar.gz** : Da estrarre manualmente
-  - AUR** (Arch Linux) : Pacchetto Zen-browser
+  - Archivio tar.gz**: Da estrarre manualmente
+  - AUR** (Arch Linux): Pacchetto Zen-browser
 
 
 
@@ -97,8 +97,8 @@ Il sito rileva automaticamente il sistema e propone il link appropriato:
 
 
 - Flatpak:** Installazione automatica tramite il gestore di pacchetti
-- AppImage :** `chmod +x ZenBrowser.AppImage` quindi fare doppio clic su
-- tar.gz :** Estrarre ed eseguire l'eseguibile di zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` quindi fare doppio clic su
+- tar.gz:** Estrarre ed eseguire l'eseguibile di zen-browser
 
 
 
@@ -320,7 +320,7 @@ Inoltre, essendo basato su Firefox, Zen è compatibile con l'intero ecosistema d
 
 
 
-Per accedere alle impostazioni del browser Zen :
+Per accedere alle impostazioni del browser Zen:
 
 
 
@@ -348,7 +348,7 @@ Fin dall'inizio, Zen Browser applica una configurazione ad alta privacy che supe
 
 
 
-- Protezione anti-tracciamento rigorosa:** livello "Standard" attivato per impostazione predefinita, che blocca :
+- Protezione anti-tracciamento rigorosa:** livello "Standard" attivato per impostazione predefinita, che blocca:
   - Cookie per il tracciamento dei siti e supercookie
   - Script di tracciamento degli annunci (Google Analytics, Facebook Pixel, ecc.)
   - Criptomanti che utilizzano la vostra CPU per Miner criptovalute
@@ -416,7 +416,7 @@ Impostazioni > Privacy e sicurezza > Protezione avanzata dal tracciamento
 **2. Cambia motore di ricerca:**
 
 
-Impostazioni > Ricerca > Motore di ricerca predefinito :
+Impostazioni > Ricerca > Motore di ricerca predefinito:
 
 
 
@@ -496,7 +496,7 @@ Impostazioni > Privacy e sicurezza > Solo modalità HTTPS > **Abilitato**
 **5. Gestire le autorizzazioni predefinite:**
 
 
-Impostazioni > Privacy e sicurezza > Autorizzazioni :
+Impostazioni > Privacy e sicurezza > Autorizzazioni:
 
 
 

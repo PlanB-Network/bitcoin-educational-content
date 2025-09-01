@@ -16,12 +16,12 @@ Een besturingssysteem (OS) is de belangrijkste software die alle bronnen van je 
 
 
 
-- Verbeterde beveiliging** : Linux-distributies staan bekend om hun veiligheid en robuustheid
+- Verbeterde beveiliging**: Linux-distributies staan bekend om hun veiligheid en robuustheid
 - Geen kosten**: Ubuntu en de meeste Linux-distributies zijn gratis
 - Grote gemeenschap**: Een gemeenschap van gebruikers die klaar staan om te helpen via forums en tutorials
 - Respect voor privacy**: Open source systeem voor meer transparantie
 - Eenvoud**: Gebruiksvriendelijke Interface en gebruiksgemak
-- Rijk ecosysteem** : Uitgebreide catalogus van open source software
+- Rijk ecosysteem**: Uitgebreide catalogus van open source software
 - Regelmatige ondersteuning**: Veilige updates van Canonical
 
 
@@ -59,7 +59,7 @@ Een besturingssysteem (OS) is de belangrijkste software die alle bronnen van je 
 ### 3. Een opstartbare USB-sleutel maken
 
 
-Je kunt verschillende hulpmiddelen gebruiken, zoals Balena Etcher :
+Je kunt verschillende hulpmiddelen gebruiken, zoals Balena Etcher:
 
 
 
@@ -257,7 +257,7 @@ sudo apt update
 
 
 - Voer je wachtwoord in wanneer daarom wordt gevraagd
-- Om updates te installeren, typt u :
+- Om updates te installeren, typt u:
 
 
 ```bash
@@ -291,7 +291,7 @@ Andere browsers (Chrome, Brave, enz.) kunnen worden geïnstalleerd via de Softwa
 Ubuntu wordt geleverd met de LibreOffice-suite (Writer voor tekstverwerking).
 
 
-Om het te openen : Activiteiten > Zoeken naar "LibreOffice Writer" of klik op het pictogram als het in de balk verschijnt.
+Om het te openen: Activiteiten > Zoeken naar "LibreOffice Writer" of klik op het pictogram als het in de balk verschijnt.
 
 
 Je kunt documenten in verschillende indelingen (waaronder .docx) maken, bewerken en opslaan.
@@ -303,7 +303,7 @@ Je kunt documenten in verschillende indelingen (waaronder .docx) maken, bewerken
 Software manager (genaamd "Ubuntu Software"): grafische Interface voor het zoeken en installeren van applicaties.
 
 
-Gebruik in Terminal het commando :
+Gebruik in Terminal het commando:
 
 
 ```bash

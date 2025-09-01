@@ -28,7 +28,7 @@ Untuk memfasilitasi adopsi Bitcoin di komunitas di seluruh dunia, Wallet dari Sa
 
 
 
-Pengalaman Point-of-Sale yang ditawarkan oleh Wallet dari Satoshi menonjol dari opsi lainnya, terutama karena kesederhanaan dan kelancarannya. Selain hanya memerlukan aplikasi seluler yang tersedia di Google Play Store dan iOS, Anda dapat menggunakan Wallet untuk :
+Pengalaman Point-of-Sale yang ditawarkan oleh Wallet dari Satoshi menonjol dari opsi lainnya, terutama karena kesederhanaan dan kelancarannya. Selain hanya memerlukan aplikasi seluler yang tersedia di Google Play Store dan iOS, Anda dapat menggunakan Wallet untuk:
 
 
 
@@ -176,7 +176,7 @@ Anda sekarang memiliki alat untuk menerima Bitcoin dalam bisnis Anda hanya dalam
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-Dan jika Anda mencari PoS lengkap yang cocok untuk usaha kecil dan menengah, saya juga merekomendasikan Swiss Bitcoin Pay :
+Dan jika Anda mencari PoS lengkap yang cocok untuk usaha kecil dan menengah, saya juga merekomendasikan Swiss Bitcoin Pay:
 
 
 

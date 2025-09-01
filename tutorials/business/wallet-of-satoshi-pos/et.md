@@ -28,7 +28,7 @@ Bitcoin kasutuselevõtu hõlbustamiseks kogukondades üle kogu maailma on Satosh
 
 
 
-Wallet ja Satoshi pakutav müügikogemus eristub teistest võimalustest eelkõige oma lihtsuse ja sujuvuse poolest. Lisaks sellele, et te ei vaja midagi muud kui Google Play Store'is ja iOS-is saadaval olevat mobiilirakendust, saate Wallet abil :
+Wallet ja Satoshi pakutav müügikogemus eristub teistest võimalustest eelkõige oma lihtsuse ja sujuvuse poolest. Lisaks sellele, et te ei vaja midagi muud kui Google Play Store'is ja iOS-is saadaval olevat mobiilirakendust, saate Wallet abil:
 
 
 
@@ -176,13 +176,13 @@ Nüüd on teil olemas vahend, millega saate Bitcoin oma ettevõttes vaid mõne m
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-Ja kui otsite täielikku PoS-i, mis sobib väikestele ja keskmise suurusega ettevõtetele, siis soovitan ka Swiss Bitcoin Pay :
+Ja kui otsite täielikku PoS-i, mis sobib väikestele ja keskmise suurusega ettevõtetele, siis soovitan ka Swiss Bitcoin Pay:
 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Lõpuks leiate meie täieliku koolituskursuse, et õppida Bitcoin maksmise ja rahavoogude põhitõdesid ettevõtetele :
+Lõpuks leiate meie täieliku koolituskursuse, et õppida Bitcoin maksmise ja rahavoogude põhitõdesid ettevõtetele:
 
 
 

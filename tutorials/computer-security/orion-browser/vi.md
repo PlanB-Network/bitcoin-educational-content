@@ -361,7 +361,7 @@ Orion hỗ trợ sẵn tiện ích mở rộng của Chrome và Firefox. Cài đ
 
 
 
-**Không bắt buộc** :
+**Không bắt buộc**:
 
 
 
@@ -421,7 +421,7 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-**Kiểm soát lỗi đánh máy** :
+**Kiểm soát lỗi đánh máy**:
 
 
 
@@ -431,7 +431,7 @@ Công cụ **cọ** của Orion là một tính năng độc đáo cho phép b�
 
 
 
-**Vệ sinh Interface** :
+**Vệ sinh Interface**:
 
 
 
@@ -552,7 +552,7 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-**Lý tưởng cho** :
+**Lý tưởng cho**:
 
 
 
@@ -566,7 +566,7 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-**Tránh nếu** :
+**Tránh nếu**:
 
 
 
@@ -646,7 +646,7 @@ Hãy nhớ: bảo vệ quyền riêng tư của bạn không chỉ phụ thuộc
 - Diễn đàn cộng đồng**: [community.kagi.com](https://community.kagi.com)
 - Theo dõi lỗi**: [orionfeedback.org](https://orionfeedback.org)
 - GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Các thành phần nguồn mở
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Tin tức và cập nhật
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Tin tức và cập nhật
 
 
 

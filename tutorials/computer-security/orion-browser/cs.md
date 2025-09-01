@@ -62,7 +62,7 @@ Jeho jedinečná vlastnost? Orion je **jediným prohlížečem WebKit**, který 
 
 - Omezená dostupnost**: V současné době vyhrazeno pro macOS a iOS/iPadOS. Verze pro Linux dosahuje milníků vývoje (milník 2 v roce 2025), ale není k dispozici žádné veřejné sestavení. Verze pro Windows a Android nejsou ve vývoji z důvodu nedostatku zdrojů.
 - Uzavřený zdrojový kód**: Přestože některé komponenty jsou open-source, Orion zůstává převážně proprietární, což je předmětem diskusí v komunitě zabývající se ochranou soukromí.
-- Experimentální rozšíření** : Podpora rozšíření zůstává ve fázi beta s častými nekompatibilitami. Rozšíření mohou mít vliv na výkon a některá nefungují vůbec.
+- Experimentální rozšíření**: Podpora rozšíření zůstává ve fázi beta s častými nekompatibilitami. Rozšíření mohou mít vliv na výkon a některá nefungují vůbec.
 - Zabezpečení WebKit**: Na rozdíl od Chromu WebKit nenabízí tak robustní izolaci procesů na webu, což může v určitých scénářích představovat bezpečnostní riziko.
 - Blokovací testy**: Kagi považuje tyto testy za "zásadně chybné". Skutečná účinnost při každodenním používání je mnohem lepší.
 
@@ -105,7 +105,7 @@ Jeho jedinečná vlastnost? Orion je **jediným prohlížečem WebKit**, který 
 
 
 
-**Alternativní Homebrew** :
+**Alternativní Homebrew**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Tyto nástroje jsou vždy k dispozici a umožňují vám kontrolovat prohlížen
 
 
 
-**Orion+ (volitelně)**: Pro podporu vývoje projektů nabízí Kagi Orion+ (5 USD/měsíc, 50 USD/rok nebo 150 USD doživotně). Toto dobrovolné předplatné umožňuje :
+**Orion+ (volitelně)**: Pro podporu vývoje projektů nabízí Kagi Orion+ (5 USD/měsíc, 50 USD/rok nebo 150 USD doživotně). Toto dobrovolné předplatné umožňuje:
 
 
 
@@ -234,7 +234,7 @@ Orion+ zaručuje nezávislost projektu: "Váš finanční příspěvek nám pom�
 
 
 
-Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (nebo ⌘,) :
+Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (nebo ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-**Blokátor obsahu je ve výchozím nastavení aktivní** :
+**Blokátor obsahu je ve výchozím nastavení aktivní**:
 
 
 
 
-- EasyList** : 119k+ pravidel pro blokování reklam
+- EasyList**: 119k+ pravidel pro blokování reklam
 - EasyPrivacy**: Ochrana proti sledování
 - Správa seznamů filtrů**: Přidejte další seznamy (doporučujeme Hagezi)
 
 
 
-**Možnosti ochrany osobních údajů** :
+**Možnosti ochrany osobních údajů**:
 
 
 
@@ -307,7 +307,7 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-**Rychlý přístup**: Kliknutím na ozubené kolečko ⚙️ v liště Address nastavíte :
+**Rychlý přístup**: Kliknutím na ozubené kolečko ⚙️ v liště Address nastavíte:
 
 
 
@@ -323,11 +323,11 @@ Přístup k předvolbám získáte prostřednictvím **Orion → Předvolby** (n
 
 
 
-**Vytvoření vlastních filtrů** (Soukromí → Správa seznamů filtrů → Vlastní filtry) :
+**Vytvoření vlastních filtrů** (Soukromí → Správa seznamů filtrů → Vlastní filtry):
 
 
 
-**Zjednodušená syntaxe** (kompatibilní s Adblock Plus) :
+**Zjednodušená syntaxe** (kompatibilní s Adblock Plus):
 
 
 
@@ -350,7 +350,7 @@ Orion nativně podporuje rozšíření pro Chrome a Firefox. Nainstalujte si je 
 
 
 
-**Podstatné** :
+**Podstatné**:
 
 
 
@@ -361,7 +361,7 @@ Orion nativně podporuje rozšíření pro Chrome a Firefox. Nainstalujte si je 
 
 
 
-**Volitelné** :
+**Volitelné**:
 
 
 
@@ -372,7 +372,7 @@ Orion nativně podporuje rozšíření pro Chrome a Firefox. Nainstalujte si je 
 
 
 
-Instalace zařízení :
+Instalace zařízení:
 
 
 
@@ -411,7 +411,7 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-**Možnosti tématu** :
+**Možnosti tématu**:
 
 
 
@@ -421,7 +421,7 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-**Typografická kontrola** :
+**Typografická kontrola**:
 
 
 
@@ -431,7 +431,7 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-**Čištění Interface** :
+**Čištění Interface**:
 
 
 
@@ -447,13 +447,13 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-**Pokročilá správa karet** :
+**Pokročilá správa karet**:
 
 
 
 
 - Svislé záložky**: Aktivace přes panel nabídek (funkce Karty na boku)
-- Kompaktní karty** : V Předvolbách → Karty → Rozložení "Kompaktní" pro úsporu místa
+- Kompaktní karty**: V Předvolbách → Karty → Rozložení "Kompaktní" pro úsporu místa
 - Skupiny karet**: Uspořádejte si relace podle témat
 - Více profilů**: Vytvářejte samostatné identity prostřednictvím panelu nabídek (funkce Profily) se zcela izolovanými údaji
 
@@ -463,7 +463,7 @@ Nástroj **brush** společnosti Orion je jedinečná funkce, která umožňuje p
 
 
 
-**Vestavěné nástroje** (nabídka Úpravy a další) :
+**Vestavěné nástroje** (nabídka Úpravy a další):
 
 
 
@@ -507,7 +507,7 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-- Rozšíření** : Omezte na nezbytné minimum (může snížit výkon)
+- Rozšíření**: Omezte na nezbytné minimum (může snížit výkon)
 - Režim nízké spotřeby**: Aktivujte při dlouhých sezeních (možná úspora 90 %)
 - Zpráva o ochraně osobních údajů**: Kliknutím na štít 🛡️ zobrazíte blokování v reálném čase
 - Vizuální přizpůsobení**: Pomocí štětce 🖌️ můžete přizpůsobit zobrazení a odstranit rušivý prvek Elements
@@ -552,7 +552,7 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-**Ideální pro** :
+**Ideální pro**:
 
 
 
@@ -566,7 +566,7 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-**Vyhněte se, pokud** :
+**Vyhněte se, pokud**:
 
 
 
@@ -645,8 +645,8 @@ Nezapomeňte, že ochrana vašeho soukromí nezávisí jen na prohlížeči. Pro
 - Úplné znění často kladených otázek**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Fórum Společenství**: [community.kagi.com](https://community.kagi.com)
 - Sledování chyb**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source komponenty
-- Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Novinky a aktualizace
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source komponenty
+- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Novinky a aktualizace
 
 
 
@@ -679,7 +679,7 @@ Pro maximální ochranu si přečtěte naše další průvodce:
 
 
 
-Pokud se chcete dozvědět více o historii a fungování prohlížečů a také o hlavních digitálních objektech ve vašem každodenním životě, zvu vás k návštěvě našeho nového bezplatného školení SCU 202, které je k dispozici na Plan ₿ Network :
+Pokud se chcete dozvědět více o historii a fungování prohlížečů a také o hlavních digitálních objektech ve vašem každodenním životě, zvu vás k návštěvě našeho nového bezplatného školení SCU 202, které je k dispozici na Plan ₿ Network:
 
 
 

@@ -53,13 +53,13 @@ Nettstedet oppdager automatisk systemet ditt og foreslår den riktige lenken:
 
 
 
-- Windows :** .exe-installasjonsprogram for Windows 10/11 (x64- og ARM64-versjoner)
-- macOS :** Intel- og Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey og nyere)
+- Windows:** .exe-installasjonsprogram for Windows 10/11 (x64- og ARM64-versjoner)
+- macOS:** Intel- og Apple Silicon-kompatibel .dmg-diskavbildning (macOS Monterey og nyere)
 - Linux:** Flere alternativer er tilgjengelige:
   - Flatpak** (anbefalt): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Bærbar, direkte kjørbar
-  - Arkiv tar.gz** : Må pakkes ut manuelt
-  - AUR** (Arch Linux) : Zen-browser-pakke
+  - Arkiv tar.gz**: Må pakkes ut manuelt
+  - AUR** (Arch Linux): Zen-browser-pakke
 
 
 
@@ -97,8 +97,8 @@ Nettstedet oppdager automatisk systemet ditt og foreslår den riktige lenken:
 
 
 - Flatpak:** Automatisk installasjon via pakkebehandleren
-- AppImage :** `chmod +x ZenBrowser.AppImage` og dobbeltklikk deretter
-- tar.gz :** Pakk ut og kjør den kjørbare filen for zen-browser
+- AppImage:** `chmod +x ZenBrowser.AppImage` og dobbeltklikk deretter
+- tar.gz:** Pakk ut og kjør den kjørbare filen for zen-browser
 
 
 
@@ -320,7 +320,7 @@ Siden Zen er Firefox-basert, er den dessuten kompatibel med hele økosystemet av
 
 
 
-Slik får du tilgang til innstillingene for Zen Browser :
+Slik får du tilgang til innstillingene for Zen Browser:
 
 
 
@@ -348,7 +348,7 @@ Helt fra starten av bruker Zen Browser en konfigurasjon med høy grad av personv
 
 
 
-- Streng antisporingsbeskyttelse:** "Standard"-nivå er aktivert som standard, og blokkerer :
+- Streng antisporingsbeskyttelse:** "Standard"-nivå er aktivert som standard, og blokkerer:
   - Informasjonskapsler for sporing på tvers av nettsteder og supercookies
   - Skript for sporing av annonser (Google Analytics, Facebook Pixel osv.)
   - Kryptomintere som bruker CPU-en din til å Miner kryptovalutaer
@@ -416,7 +416,7 @@ Innstillinger > Personvern og sikkerhet > Forbedret sporingsbeskyttelse
 **2. Endre søkemotor:**
 
 
-Innstillinger > Søk > Standard søkemotor :
+Innstillinger > Søk > Standard søkemotor:
 
 
 
@@ -496,7 +496,7 @@ Innstillinger > Personvern og sikkerhet > Kun HTTPS-modus > **Aktivert**
 **5. Administrer standardtillatelser:**
 
 
-Innstillinger > Personvern og sikkerhet > Tillatelser :
+Innstillinger > Personvern og sikkerhet > Tillatelser:
 
 
 

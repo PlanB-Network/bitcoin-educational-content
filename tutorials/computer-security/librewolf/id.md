@@ -224,7 +224,7 @@ Pemasangannya berbeda-beda, tergantung pada OS Anda:
 ### Di Linux
 
 
-LibreWolf menawarkan build untuk banyak distribusi. Pada Debian/Ubuntu dan turunannya, tersedia repositori APT resmi. Sebagai alternatif, LibreWolf dipublikasikan di Flatpak di Flathub :
+LibreWolf menawarkan build untuk banyak distribusi. Pada Debian/Ubuntu dan turunannya, tersedia repositori APT resmi. Sebagai alternatif, LibreWolf dipublikasikan di Flatpak di Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Pada Windows
 
 
-Unduh penginstal (.exe) dari situs web resmi atau gunakan ekstensi :
+Unduh penginstal (.exe) dari situs web resmi atau gunakan ekstensi:
 
 
 
 
-- Cokelat :** `choco instal librewolf`
-- WinGet :** `winget instal librewolf`
+- Cokelat:** `choco instal librewolf`
+- WinGet:** `winget instal librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf secara otomatis memuat halaman Anda dalam mode "ketat" (anti-pelacakan
 
 
 
-LibreWolf sudah dikonfigurasi secara optimal untuk privasi. Pada Menu → Opsi → Privasi & Keamanan, Anda akan melihat bahwa LibreWolf diatur ke mode Perlindungan Pelacakan yang Ditingkatkan: Ketat. Mode ini memblokir :
+LibreWolf sudah dikonfigurasi secara optimal untuk privasi. Pada Menu → Opsi → Privasi & Keamanan, Anda akan melihat bahwa LibreWolf diatur ke mode Perlindungan Pelacakan yang Ditingkatkan: Ketat. Mode ini memblokir:
 
 
 

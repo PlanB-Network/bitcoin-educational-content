@@ -332,7 +332,7 @@ Kendi eklentilerinizi geliştirmek için **[Jami Plugin SDK'yı keşfedin ve ken
 
 
 
-Jami ayrıca, uygulamayı yapılandırma ve kullanma konusunda daha ileri gitmek isteyen kullanıcılar için **gelişmiş özellikler** sunar. Bu seçenekler şunları içerir :
+Jami ayrıca, uygulamayı yapılandırma ve kullanma konusunda daha ileri gitmek isteyen kullanıcılar için **gelişmiş özellikler** sunar. Bu seçenekler şunları içerir:
 
 
 

@@ -279,7 +279,7 @@ Ziel: Abschottung der Aktivitäten und Verringerung von Lecks im Netz.
 
 
 - Standardstatus**: In einigen Regionen (USA, Kanada, Russland, Ukraine) automatisch aktiviert. In anderen Regionen ist eine manuelle Aktivierung erforderlich.
-- Konfiguration** : Einstellungen → Allgemein → Netzwerkeinstellungen → **DoH aktivieren** → **Cloudflare** oder **Quad9** → **Maximaler Schutz**.
+- Konfiguration**: Einstellungen → Allgemein → Netzwerkeinstellungen → **DoH aktivieren** → **Cloudflare** oder **Quad9** → **Maximaler Schutz**.
 - Maximaler Schutz = nur TRR** (kein Rückgriff auf System-DNS). Wenn ein Firmen-/Hotelnetzwerk blockiert, wechseln Sie zurück zu **Standard** oder deaktivieren Sie DoH.
 - Redundanz**: Wenn Sie bereits ein vertrauenswürdiges VPN mit einem eigenen sicheren DNS verwenden, kann DoH redundant sein.
 - Verifizierungstest**: unter "https://www.dnsleaktest.com/" sollte nur der gewählte DoH-Anbieter angezeigt werden.
@@ -559,7 +559,7 @@ Bewährte Praktiken
 - Ein gehärteter Browser ≠ Anonymität im Netz: Ohne **VPN** bleibt Ihre IP sichtbar; auch damit bleibt eine Zuordnung möglich.
 - Wenn Sie zu viel ändern, können Sie **einzigartig** werden. **RFP** standardisiert; Tools zur Randomisierung (z. B. Chameleon) können... Sie von anderen abheben. Testen, vergleichen, anpassen.
 - Alternativen/Ergänzungen:
- - Tor Browser: Netzwerkanonymität über Tor; langsamer. Siehe unsere vollständige Installations- und Konfigurationsanleitung** :
+ - Tor Browser: Netzwerkanonymität über Tor; langsamer. Siehe unsere vollständige Installations- und Konfigurationsanleitung**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Erhöhter Verfolgungsschutz](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Offizieller Leitfaden zum verbesserten Verfolgungsschutz
+- [Erhöhter Verfolgungsschutz](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Offizieller Leitfaden zum verbesserten Verfolgungsschutz
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Technische Dokumentation über State Partitioning
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Vollständige Referenz zur Web-Sicherheit
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Vollständige Referenz zur Web-Sicherheit
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Vollständige Test-Suite (WebRTC, Canvas, Schriftarten, etc.)
 - [BadSSL](https://badssl.com/): SSL/TLS-Zertifikat-Validierungstests
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Erweiterte Analyse von mehr als 50 Fingerprinting-Vektoren
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Prüfen, ob Cloudflare DoH richtig funktioniert
+- [Cloudflare DNS Test](https://1.1.1.1/help): Prüfen, ob Cloudflare DoH richtig funktioniert

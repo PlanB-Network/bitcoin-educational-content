@@ -120,7 +120,7 @@ Mål: store personverngevinster uten å ødelegge nettet. For 90 % av brukerne.
 
 
 
-For å få tilgang til innstillingene, klikk på menyen ☰ øverst til høyre, og deretter **"Innstillinger"** :
+For å få tilgang til innstillingene, klikk på menyen ☰ øverst til høyre, og deretter **"Innstillinger"**:
 
 
 
@@ -279,7 +279,7 @@ Mål: Oppdele aktiviteter og redusere nettverkslekkasje.
 
 
 - Standard status**: Automatisk aktivert i enkelte regioner (USA, Canada, Russland, Ukraina). Andre steder kreves manuell aktivering.
-- Konfigurasjon** : Innstillinger → Generelt → Nettverksinnstillinger → **Aktiver DoH** → **Cloudflare** eller **Quad9** → **Maksimal beskyttelse**.
+- Konfigurasjon**: Innstillinger → Generelt → Nettverksinnstillinger → **Aktiver DoH** → **Cloudflare** eller **Quad9** → **Maksimal beskyttelse**.
 - Maksimal beskyttelse = kun TRR** (ingen tilbakefall til system-DNS). Hvis et bedrifts-/hotellnettverk blokkerer, bytter du tilbake til **Standard** eller deaktiverer DoH.
 - Redundans**: Hvis du allerede bruker et pålitelig VPN med egen sikker DNS, kan DoH være overflødig.
 - Verifikasjonstest**: `https://www.dnsleaktest.com/` skal bare vise den valgte DoH-leverandøren.
@@ -559,7 +559,7 @@ Beste praksis
 - En herdet nettleser ≠ nettverksanonymitet: Uten **VPN** forblir IP-en din synlig; selv med den er korrelasjon fortsatt mulig.
 - Hvis du modifiserer for mye, kan det gjøre deg **unik**. **RFP** standardiserer; randomiseringsverktøy (f.eks. Chameleon) kan ... gjøre deg unik. Test, sammenlign, juster.
 - Alternativer/supplementer:
- - Tor Browser: nettverksanonymitet via Tor; tregere. Se vår komplette installasjons- og konfigurasjonsveiledning** :
+ - Tor Browser: nettverksanonymitet via Tor; tregere. Se vår komplette installasjons- og konfigurasjonsveiledning**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor uten Tor", som kan kombineres med VPN; standardisert fotavtrykk. Finn ut hvordan du installerer den i vår dedikerte veiledning** :
+ - Mullvad Browser: "Tor uten Tor", som kan kombineres med VPN; standardisert fotavtrykk. Finn ut hvordan du installerer den i vår dedikerte veiledning**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Forbedret sporingsbeskyttelse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Offisiell guide til forbedret sporingsbeskyttelse
+- [Forbedret sporingsbeskyttelse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Offisiell guide til forbedret sporingsbeskyttelse
 - [State Partitioning] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Teknisk dokumentasjon om tilstandspartisjonering
-- [MDN Web Security] (https://developer.mozilla.org/docs/Web/Security) : Komplett referanse om websikkerhet
+- [MDN Web Security] (https://developer.mozilla.org/docs/Web/Security): Komplett referanse om websikkerhet
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks] (https://browserleaks.com/): Komplett testpakke (WebRTC, Canvas, fonter osv.)
 - [BadSSL] (https://badssl.com/): SSL/TLS-sertifikatvalideringstester
 - [CreepJS] (https://abrahamjuliot.github.io/creepjs/): Avansert analyse av mer enn 50 fingeravtrykksvektorer
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Kontrollerer at Cloudflare DoH fungerer som den skal
+- [Cloudflare DNS Test](https://1.1.1.1/help): Kontrollerer at Cloudflare DoH fungerer som den skal

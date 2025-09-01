@@ -30,7 +30,7 @@ pfSense is een gratis, open source besturingssysteem dat elke computer, dedicate
 
 
 
-De belangrijkste functies zijn in de loop der jaren aanzienlijk geëvolueerd en met elke nieuwe versie verbeterd. Tot op heden biedt pfSense :
+De belangrijkste functies zijn in de loop der jaren aanzienlijk geëvolueerd en met elke nieuwe versie verbeterd. Tot op heden biedt pfSense:
 
 
 
@@ -73,7 +73,7 @@ De laatste stabiele versie van pfSense, op het moment van schrijven van deze tut
 
 
 
-Via het downloadportaal kunt u :
+Via het downloadportaal kunt u:
 
 
 
@@ -105,7 +105,7 @@ In dit voorbeeld wordt de installatie uitgevoerd op een virtuele machine met Vir
 
 
 
-Voor een standaardimplementatie raden we :
+Voor een standaardimplementatie raden we:
 
 
 
@@ -221,7 +221,7 @@ De eerste vraag betreft de configuratie van VLANs. In dit stadium, voor een basi
 
 
 
-pfSense vraagt je dan om te definiëren welke Interface gebruikt zal worden voor WAN (internettoegang). Je kunt kiezen tussen :
+pfSense vraagt je dan om te definiëren welke Interface gebruikt zal worden voor WAN (internettoegang). Je kunt kiezen tussen:
 
 
 
@@ -304,7 +304,7 @@ Ga in je browser naar de Address die de console aangeeft (standaard `https://192
 
 
 
-Het inlogscherm verschijnt. De standaardgegevens zijn :
+Het inlogscherm verschijnt. De standaardgegevens zijn:
 
 
 
@@ -330,7 +330,7 @@ Bij de eerste verbinding vraagt pfSense je om de **Setup Wizard** te volgen. We 
 
 
 
-U kunt :
+U kunt:
 
 
 
@@ -352,7 +352,7 @@ Geef de tijdzone van je site aan zodat logs en schema's consistent zijn (bijvoor
 
 
 
-De WAN-verbinding configureren :
+De WAN-verbinding configureren:
 
 
 
@@ -383,7 +383,7 @@ Beveilig je pfSense door direct een sterk wachtwoord in te stellen voor de `admi
 
 
 
-Voordat u uw firewall inzet, moet u ervoor zorgen dat u de nieuwste versie van :
+Voordat u uw firewall inzet, moet u ervoor zorgen dat u de nieuwste versie van:
 
 
 

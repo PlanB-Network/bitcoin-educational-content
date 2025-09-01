@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Basitçe `<CREDENTIAL_ID>` yerine tanımlayıcılarınızdan birini yazın. Örneğin, benim durumumda bu, :
+Basitçe `<CREDENTIAL_ID>` yerine tanımlayıcılarınızdan birini yazın. Örneğin, benim durumumda bu,:
 
 
 

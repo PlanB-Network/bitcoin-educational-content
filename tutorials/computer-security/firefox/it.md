@@ -120,7 +120,7 @@ Obiettivo: grandi guadagni in termini di privacy senza distruggere il web. Per i
 
 
 
-Per accedere alle impostazioni, fare clic sul menu ☰ in alto a destra, quindi su **"Impostazioni "** :
+Per accedere alle impostazioni, fare clic sul menu ☰ in alto a destra, quindi su **"Impostazioni "**:
 
 
 
@@ -279,7 +279,7 @@ Obiettivo: compartimentare le attività e ridurre le perdite di rete.
 
 
 - Stato predefinito**: Attivato automaticamente in alcune regioni (USA, Canada, Russia, Ucraina). Nelle altre regioni è necessaria l'attivazione manuale.
-- Configurazione** : Impostazioni → Generale → Impostazioni di rete → **Abilita DoH** → **Cloudflare** o **Quad9** → **Protezione massima**.
+- Configurazione**: Impostazioni → Generale → Impostazioni di rete → **Abilita DoH** → **Cloudflare** o **Quad9** → **Protezione massima**.
 - Massima protezione = solo TRR** (nessun fallback al DNS di sistema). Se una rete aziendale/alberghiera si blocca, tornare a **Standard** o disabilitare DoH.
 - Ridondanza**: Se si utilizza già una VPN affidabile con un proprio DNS sicuro, DoH può essere ridondante.
 - Test di verifica**: `https://www.dnsleaktest.com/` deve visualizzare solo il fornitore DoH scelto.
@@ -559,7 +559,7 @@ Le migliori pratiche
 - Un browser protetto ≠ Anonimato di rete: senza **VPN**, il vostro IP rimane visibile; anche con esso, la correlazione rimane possibile.
 - Modificare troppo può rendervi **unici**. *il *RFP** standardizza; gli strumenti di randomizzazione (ad esempio Chameleon) possono... differenziarvi. Testate, confrontate, aggiustate.
 - Alternative/complementi:
- - Tor Browser: anonimato in rete tramite Tor; più lento. Consultate la nostra guida completa all'installazione e alla configurazione** :
+ - Tor Browser: anonimato in rete tramite Tor; più lento. Consultate la nostra guida completa all'installazione e alla configurazione**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; ingombro standardizzato. Scoprite come installarlo nel nostro tutorial dedicato** :
+ - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; ingombro standardizzato. Scoprite come installarlo nel nostro tutorial dedicato**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Protezione avanzata dal tracciamento](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Guida ufficiale alla protezione avanzata dal tracciamento
+- [Protezione avanzata dal tracciamento](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Guida ufficiale alla protezione avanzata dal tracciamento
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Documentazione tecnica sul partizionamento degli stati
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Riferimento completo sulla sicurezza web
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Riferimento completo sulla sicurezza web
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Suite di test completa (WebRTC, Canvas, caratteri, ecc.)
 - [BadSSL](https://badssl.com/): Test di validazione dei certificati SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Analisi avanzata di oltre 50 vettori di impronte digitali
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Verifica che Cloudflare DoH funzioni correttamente
+- [Cloudflare DNS Test](https://1.1.1.1/help): Verifica che Cloudflare DoH funzioni correttamente

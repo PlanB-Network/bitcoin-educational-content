@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Partition Manager'ı başlatın :
+- Partition Manager'ı başlatın:
 
 
 
@@ -294,7 +294,7 @@ Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Kök** bölümünü bağlayın:
 
 
 
-- BIOS üzerinde :
+- BIOS üzerinde:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- uEFI üzerinde :
+- uEFI üzerinde:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Düzenlemek için bir metin düzenleyici yükleyin :
+- Düzenlemek için bir metin düzenleyici yükleyin:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Dili ayarlayın :
+- Dili ayarlayın:
 
 
 Etc/locale.gen` dosyasını düzenleyin ve ardından `en_US.UTF-8 UTF-8` satırını kaldırın
@@ -423,7 +423,7 @@ Etc/locale.gen` dosyasını düzenleyin ve ardından `en_US.UTF-8 UTF-8` satır�
 
 
 
-- Makine adını ayarlayın :
+- Makine adını ayarlayın:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Kök parolasını ayarlayın :
+- Kök parolasını ayarlayın:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Yükleyin :
+Yükleyin:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Yeniden Başlat :
+- Yeniden Başlat:
 
 
 ```shell
@@ -581,7 +581,7 @@ EOF
 
 
 
-Varsayılan olarak, **Arch Linux** grafiksel Interface içermez. Bir tane eklemek için :
+Varsayılan olarak, **Arch Linux** grafiksel Interface içermez. Bir tane eklemek için:
 
 
 
@@ -652,7 +652,7 @@ Interface GNOME'a** girdikten sonra, daha fazla güvenlik ve daha güvenli, risk
 
 
 
-- Bir kullanıcı ekleyin :
+- Bir kullanıcı ekleyin:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Yükle **sudo** :
+- Yükle **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Ardından satırdaki yorumu kaldırın :
+- Ardından satırdaki yorumu kaldırın:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Örneğin, **nano** metin düzenleyicisini yüklemek için :
+Örneğin, **nano** metin düzenleyicisini yüklemek için:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Firefox` gibi hafif bir web tarayıcısı yüklemek için :
+Firefox` gibi hafif bir web tarayıcısı yüklemek için:
 
 
 

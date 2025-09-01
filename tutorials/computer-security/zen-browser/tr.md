@@ -53,13 +53,13 @@ Site sisteminizi otomatik olarak algılar ve uygun bağlantıyı önerir:
 
 
 
-- Windows :** Windows 10/11 için .exe yükleyici (x64 ve ARM64 sürümleri)
-- macOS :** Intel ve Apple Silicon uyumlu .dmg disk görüntüsü (macOS Monterey ve sonrası)
+- Windows:** Windows 10/11 için .exe yükleyici (x64 ve ARM64 sürümleri)
+- macOS:** Intel ve Apple Silicon uyumlu .dmg disk görüntüsü (macOS Monterey ve sonrası)
 - Linux:** Çeşitli seçenekler mevcuttur:
   - Flatpak** (önerilir): `flatpak install flathub app.zen_browser.Zen`
   - AppImage**: Taşınabilir, doğrudan çalıştırılabilir
-  - Arşiv tar.gz** : Manuel olarak çıkarılacak
-  - AUR** (Arch Linux) : Zen-browser paketi
+  - Arşiv tar.gz**: Manuel olarak çıkarılacak
+  - AUR** (Arch Linux): Zen-browser paketi
 
 
 
@@ -97,8 +97,8 @@ Site sisteminizi otomatik olarak algılar ve uygun bağlantıyı önerir:
 
 
 - Flatpak:** Paket yöneticisi aracılığıyla otomatik kurulum
-- AppImage :** `chmod +x ZenBrowser.AppImage` ardından çift tıklayın
-- tar.gz :** zen-browser çalıştırılabilir dosyasını ayıklayın ve çalıştırın
+- AppImage:** `chmod +x ZenBrowser.AppImage` ardından çift tıklayın
+- tar.gz:** zen-browser çalıştırılabilir dosyasını ayıklayın ve çalıştırın
 
 
 
@@ -320,7 +320,7 @@ Dahası, Firefox tabanlı olan Zen, tüm Firefox uzantı ekosistemiyle uyumludur
 
 
 
-Zen Browser ayarlarına erişmek için :
+Zen Browser ayarlarına erişmek için:
 
 
 
@@ -348,7 +348,7 @@ Zen Browser, en başından itibaren çoğu tarayıcıdan daha iyi performans gö
 
 
 
-- Sıkı anti-izleme koruması:** "Standart" seviye varsayılan olarak etkinleştirilmiştir, engelleme :
+- Sıkı anti-izleme koruması:** "Standart" seviye varsayılan olarak etkinleştirilmiştir, engelleme:
   - Siteler arası izleme çerezleri ve süper çerezler
   - Reklam izleyici komut dosyaları (Google Analytics, Facebook Pixel, vb.)
   - Miner kripto para birimleri için CPU'nuzu kullanan kriptominterler
@@ -416,7 +416,7 @@ Ayarlar > Gizlilik ve Güvenlik > Gelişmiş İzleme Koruması
 **2. Arama motorunu değiştirin:**
 
 
-Ayarlar > Arama > Varsayılan arama motoru :
+Ayarlar > Arama > Varsayılan arama motoru:
 
 
 
@@ -496,7 +496,7 @@ Ayarlar > Gizlilik ve güvenlik > Yalnızca HTTPS modu > **Etkin**
 **5. Varsayılan izinleri yönetin:**
 
 
-Ayarlar > Gizlilik ve Güvenlik > İzinler :
+Ayarlar > Gizlilik ve Güvenlik > İzinler:
 
 
 

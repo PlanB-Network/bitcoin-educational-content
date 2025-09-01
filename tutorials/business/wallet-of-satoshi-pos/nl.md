@@ -28,7 +28,7 @@ Om de adoptie van Bitcoin in gemeenschappen over de hele wereld te vergemakkelij
 
 
 
-De Point-of-Sale ervaring die Wallet of Satoshi biedt, onderscheidt zich van andere opties vooral door zijn eenvoud en vloeiendheid. Naast het feit dat je niets meer nodig hebt dan de mobiele app die beschikbaar is op Google Play Store en iOS, kun je de Wallet gebruiken om :
+De Point-of-Sale ervaring die Wallet of Satoshi biedt, onderscheidt zich van andere opties vooral door zijn eenvoud en vloeiendheid. Naast het feit dat je niets meer nodig hebt dan de mobiele app die beschikbaar is op Google Play Store en iOS, kun je de Wallet gebruiken om:
 
 
 

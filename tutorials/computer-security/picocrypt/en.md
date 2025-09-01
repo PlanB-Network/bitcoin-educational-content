@@ -60,10 +60,10 @@ Picocrypt** encryption software presents itself as **an alternative** to other w
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Source : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Source: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
-Picocrypt is **very lightweight**, weighing in at just **3 MB**, and doesn't need to be installed: it's a **portable application** with the advantage of not requiring administrator rights! However, it does not neglect security, since it relies on **robust and reliable algorithms** :
+Picocrypt is **very lightweight**, weighing in at just **3 MB**, and doesn't need to be installed: it's a **portable application** with the advantage of not requiring administrator rights! However, it does not neglect security, since it relies on **robust and reliable algorithms**:
 
 
 

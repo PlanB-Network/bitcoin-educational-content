@@ -51,7 +51,7 @@ La herramienta es ampliamente utilizada por un amplio abanico de usuarios, inclu
 
 
 
-El proyecto está disponible en este Address en **Github** :
+El proyecto está disponible en este Address en **Github**:
 
 
 
@@ -82,7 +82,7 @@ Este modo de instalación le permite utilizar el comando **lynis** desde cualqui
 
 
 
-Conéctese a su servidor a través de SSH e introduzca los siguientes comandos para instalar Lynis :
+Conéctese a su servidor a través de SSH e introduzca los siguientes comandos para instalar Lynis:
 
 
 
@@ -209,7 +209,7 @@ Para visualizar los comandos disponibles, basta con introducir el siguiente coma
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Esto es lo que obtienes:
 
 
 
-Si desea visualizar todas las opciones, debe introducir :
+Si desea visualizar todas las opciones, debe introducir:
 
 
 
@@ -336,7 +336,7 @@ Aquí podemos ver que Lynis recomienda instalar **fail2ban**:
 
 
 
-En la sección "**Boot y servicios**", vemos que la protección de servicios a través de *systemd* podría mejorarse. En el lado positivo, Grub2 está presente y no hay problemas con los permisos en :
+En la sección "**Boot y servicios**", vemos que la protección de servicios a través de *systemd* podría mejorarse. En el lado positivo, Grub2 está presente y no hay problemas con los permisos en:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Información sobre los paquetes instalados :
+Información sobre los paquetes instalados:
 
 
 
@@ -623,7 +623,7 @@ Echemos un vistazo a las recomendaciones SSH. Se enumeran a continuación. No te
 
 
 
-Echemos un vistazo a mi configuración actual de **SSH** en :**/etc/ssh/sshd_config**
+Echemos un vistazo a mi configuración actual de **SSH** en:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ La configuración sugerida a continuación aún puede optimizarse, pero le ofrec
 
 
 
-Vamos a :
+Vamos a:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Mantener la autenticación de contraseña :
+- Mantener la autenticación de contraseña:
 
 
 
@@ -804,7 +804,7 @@ Cabe señalar que, en algunas jurisdicciones, el envío de un mensaje antes de l
 
 
 
-En imágenes, esto da :
+En imágenes, esto da:
 
 
 

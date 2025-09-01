@@ -332,7 +332,7 @@ Para desenvolver os seus próprios plug-ins, consulte a publicação no blogue *
 
 
 
-O Jami também oferece **caraterísticas avançadas** para os utilizadores que pretendam ir mais longe na configuração e utilização da aplicação. Estas opções incluem :
+O Jami também oferece **caraterísticas avançadas** para os utilizadores que pretendam ir mais longe na configuração e utilização da aplicação. Estas opções incluem:
 
 
 

@@ -97,7 +97,7 @@ Your USB key is now ready to start installing Debian.
 ### Booting from USB key
 
 
-To launch the installation from your USB key :
+To launch the installation from your USB key:
 
 
 - Switch off** the computer completely.
@@ -109,7 +109,7 @@ To launch the installation from your USB key :
 ### Launching the installation
 
 
-Start screen :
+Start screen:
 
 
 ![starting](assets/fr/04.webp)
@@ -247,7 +247,7 @@ Enter your password when prompted (note that no characters will be displayed as 
 
 
 
-- To install available updates :
+- To install available updates:
 
 
 ```shell
@@ -282,13 +282,13 @@ The **LibreOffice** suite is installed by default on Debian.
 There are two ways to install applications on Debian:
 
 
-### Graphical method :
+### Graphical method:
 
 
 You can use the **software manager** (accessible via the graphical Interface) to easily search for and install applications.
 
 
-### Command-line method :
+### Command-line method:
 
 
 If the application you're looking for doesn't appear in the graphical Interface, or if you prefer the terminal, use the following command:
@@ -299,7 +299,7 @@ sudo apt install <name>
 ```
 
 
-Replace `<name>` with the package name. For example, to install `curl` :
+Replace `<name>` with the package name. For example, to install `curl`:
 
 
 ```shell
@@ -307,7 +307,7 @@ sudo apt install curl
 ```
 
 
-### Installing a manually downloaded package :
+### Installing a manually downloaded package:
 
 
 If you have downloaded a `.deb` file (Debian package), you can install it with the following command:
@@ -328,7 +328,7 @@ Thanks to the **GNOME** desktop environment, you can access a wide range of appl
 It's also possible to change your desktop environment (e.g. to XFCE, KDE, etc.) without having to reinstall Debian. To do this, simply use the terminal and install the new environment of your choice.
 
 
-To learn more about Debian, and more generally about GNU/Linux distributions, I recommend that you consult this course :
+To learn more about Debian, and more generally about GNU/Linux distributions, I recommend that you consult this course:
 
 
 https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -332,7 +332,7 @@ Oma pistikprogrammide arendamiseks vaadake blogipostitust **[Avasta Jami Plugin 
 
 
 
-Jami pakub ka **täiustatud funktsioone** kasutajatele, kes soovivad rakenduse konfigureerimisel ja kasutamisel kaugemale minna. Need valikud hõlmavad :
+Jami pakub ka **täiustatud funktsioone** kasutajatele, kes soovivad rakenduse konfigureerimisel ja kasutamisel kaugemale minna. Need valikud hõlmavad:
 
 
 

@@ -15,7 +15,7 @@ De oplossing is eenvoudig, licht en autonoom. Het maakt de creatie van een onlin
 
 
 
-In deze tutorial nemen we je stap voor stap mee door :
+In deze tutorial nemen we je stap voor stap mee door:
 
 
 
@@ -44,7 +44,7 @@ Voordat je be-BOP gaat installeren, moet je ervoor zorgen dat je over de volgend
 
 
 
-be-BOP gebruikt een opslagsysteem om bestanden (zoals productafbeeldingen) te beheren. Dit vereist toegang tot een S3-service, zoals :
+be-BOP gebruikt een opslagsysteem om bestanden (zoals productafbeeldingen) te beheren. Dit vereist toegang tot een S3-service, zoals:
 
 
 
@@ -302,7 +302,7 @@ Als je niet zelf een Lightning-node wilt beheren, **Swiss Bitcoin Pay** is een k
 
 
 
-Configuratiestappen :
+Configuratiestappen:
 
 
 
@@ -330,7 +330,7 @@ Naast Bitcoin kunt u met be-BOP ook contante betalingen accepteren via PayPal, e
 
 
 
-Configuratiestappen :
+Configuratiestappen:
 
 
 
@@ -467,7 +467,7 @@ Met de configuratie **Top Bar** kun je de visuele identiteit van je software per
 
 
 
-#### Configuratiestappen :
+#### Configuratiestappen:
 
 
 
@@ -491,7 +491,7 @@ Met de sectie `Links` van de Topbalk kunt u snelkoppelingen toevoegen naar belan
 
 
 
-#### Configuratiestappen :
+#### Configuratiestappen:
 
 
 
@@ -760,7 +760,7 @@ Ga naar `Admin > Merch > Producten` om een product toe te voegen of te wijzigen.
 
 - Prijsbedrag**: productprijs (bijv. `25,00`).
 - Prijsvaluta**: valuta (EUR, USD, BTC, enz.).
-- Speciale producten** :
+- Speciale producten**:
   - dit is een gratis product.
   - dit is een betaal-wat-je-wilt product.
 
@@ -773,10 +773,10 @@ Ga naar `Admin > Merch > Producten` om een product toe te voegen of te wijzigen.
 
 
 - Enkelvoudig product (`standalone`)**: slechts één toevoeging mogelijk per bestelling (bijv. donatie, toegangsbewijs).
-- Product met variaties** :
+- Product met variaties**:
   - Controleer `Standalone` niet.
   - Vink `Product heeft lichte variaties (geen voorraadverschil)` aan.
-  - Toevoegen :
+  - Toevoegen:
     - Naam** (bijv. *Grootte*),
     - Waarden** (bijv.: S, M, L, XL),
     - Prijsverschillen** indien van toepassing (bijv.: `+2 USD` voor XL).
@@ -803,7 +803,7 @@ Als je product niet in onbeperkte hoeveelheden beschikbaar is, vink dan `Het pro
 
 
 
-Het systeem beheert :
+Het systeem beheert:
 
 
 
@@ -872,7 +872,7 @@ Ga naar `Admin > Merch > CMS`. Je ziet een lijst met bestaande pagina's en kunt 
 
 
 
-CMS pagina's zijn belangrijk voor :
+CMS pagina's zijn belangrijk voor:
 
 
 
@@ -906,7 +906,7 @@ Je kunt naar wens andere pagina's toevoegen:
 
 
 
-Ga naar : `Admin > Merch > Layout`. Je kunt de visuele Elements van je site aanpassen:
+Ga naar: `Admin > Merch > Layout`. Je kunt de visuele Elements van je site aanpassen:
 
 
 
@@ -932,7 +932,7 @@ Ga naar : `Admin > Merch > Layout`. Je kunt de visuele Elements van je site aanp
 
 
 - Aanwezig in het grijze gebied onder de bovenste balk
-- Bevat snelle toegang tot : `Config`, `Betalingsinstellingen`, `Transactie`, `Node Beheer`, `Widgets`, enz.
+- Bevat snelle toegang tot: `Config`, `Betalingsinstellingen`, `Transactie`, `Node Beheer`, `Widgets`, enz.
 - Alleen bestuurders
 
 
@@ -956,7 +956,7 @@ Ga naar: `Admin > Merch > Afbeeldingen`
 
 
 
-U kunt :
+U kunt:
 
 
 
@@ -1004,7 +1004,7 @@ Voorbeelden van beschikbare widgets:
 - Uitdagingen**: uitdagingen of missies
 - Tags**: categorieën of trefwoorden
 - Schuifbalken**: afbeeldingscarrousels
-- Specificaties** : Specificaties tabellen
+- Specificaties**: Specificaties tabellen
 - Formulieren**: formulieren (contact, feedback, enz.)
 - Countdowns**: timers
 - Galerijen**: afbeeldingsgalerijen
@@ -1033,7 +1033,7 @@ Gebruik **shortcodes** in de inhoud van uw CMS pagina's:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Huidige parameters** :
+**Huidige parameters**:
 
 
 
@@ -1046,7 +1046,7 @@ Gebruik **shortcodes** in de inhoud van uw CMS pagina's:
 
 
 
-**Voordelen** :
+**Voordelen**:
 
 
 
@@ -1103,7 +1103,7 @@ Met deze filters kun je snel zoeken en gericht beheren.
 
 
 
-Door op een bestelling te klikken, krijg je toegang tot een compleet bestand met :
+Door op een bestelling te klikken, krijg je toegang tot een compleet bestand met:
 
 
 
@@ -1120,7 +1120,7 @@ Door op een bestelling te klikken, krijg je toegang tot een compleet bestand met
 
 
 
-U kunt :
+U kunt:
 
 
 
@@ -1141,7 +1141,7 @@ U kunt :
 
 
 
-Verkoop- en betalingsstatistieken bekijken :
+Verkoop- en betalingsstatistieken bekijken:
 
 
 beheerder > Instellingen > Rapportage
@@ -1176,7 +1176,7 @@ De rapporten zijn onderverdeeld in secties:
 
 
 
-Elke sectie bevat een knop **Export CSV**, waarmee je :
+Elke sectie bevat een knop **Export CSV**, waarmee je:
 
 
 
@@ -1217,7 +1217,7 @@ Het platform ondersteunt het **Nostr** protocol voor bepaalde geavanceerde funct
 
 
 
-Ga naar :
+Ga naar:
 
 
 admin > Nodebeheer > Nostr
@@ -1304,7 +1304,7 @@ Hier vindt u alle opties voor het **maken** en **configureren** van een aangepas
 
 
 
-Bij het maken of wijzigen van een thema kun je :
+Bij het maken of wijzigen van een thema kun je:
 
 
 
@@ -1328,7 +1328,7 @@ Elk deel van de site kan onafhankelijk worden aangepast:
 
 - Koptekst**: bovenste navigatiebalk
 - Body**: hoofdinhoud
-- Footer** : onderaan de pagina
+- Footer**: onderaan de pagina
 
 
 
@@ -1340,7 +1340,7 @@ Elk deel van de site kan onafhankelijk worden aangepast:
 
 
 
-Zodra het thema is geconfigureerd :
+Zodra het thema is geconfigureerd:
 
 
 
@@ -1371,7 +1371,7 @@ Met het platform kun je de e-mails personaliseren die automatisch naar gebruiker
 
 
 
-Elke e-mail (orderbevestiging, vergeten wachtwoord, enz.) heeft :
+Elke e-mail (orderbevestiging, vergeten wachtwoord, enz.) heeft:
 
 
 
@@ -1390,14 +1390,14 @@ Elke e-mail (orderbevestiging, vergeten wachtwoord, enz.) heeft :
 
 
 
-Om e-mails dynamisch te maken, voegt u variabelen in zoals :
+Om e-mails dynamisch te maken, voegt u variabelen in zoals:
 
 
 
 
 
-- `{orderNumber}}` : vervangen door het werkelijke ordernummer
-- `{invoiceLink}}` : link naar de Invoice
+- `{orderNumber}}`: vervangen door het werkelijke ordernummer
+- `{invoiceLink}}`: link naar de Invoice
 - `{websiteLink}}`: URL van uw website
 
 
@@ -1454,7 +1454,7 @@ Vul de volgende velden in:
 
 
 
-#### Beschikbare gezinnen :
+#### Beschikbare gezinnen:
 
 
 
@@ -1489,7 +1489,7 @@ Deze velden kunnen worden gebruikt om een tag te verrijken alsof het een inhouds
 
 
 
-Tags kunnen zijn :
+Tags kunnen zijn:
 
 
 
@@ -1515,7 +1515,7 @@ Om downloadbare documenten aan te bieden aan uw klanten: `Admin > Merch > Bestan
 1. Klik op **Nieuw bestand**
 
 
-2. Inform :
+2. Inform:
 
 
 
@@ -1533,7 +1533,7 @@ Om downloadbare documenten aan te bieden aan uw klanten: `Admin > Merch > Bestan
 
 
 
-Deze link kan vervolgens worden ingevoegd in :
+Deze link kan vervolgens worden ingevoegd in:
 
 
 
@@ -1557,7 +1557,7 @@ Het platform biedt geavanceerde integratie met het **Nostr** protocol, via een g
 
 
 
-Ga naar : knooppunt Beheer > Nostr
+Ga naar: knooppunt Beheer > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Ga naar : knooppunt Beheer > Nostr
 
 
 - Activeer een automatisch bericht bij **eerste gebruikersinteractie**
-- Ideaal voor :
+- Ideaal voor:
   - Je service presenteren
   - Stuur een nuttige link (bijv. FAQ, contact, bestelling)
 
@@ -1629,7 +1629,7 @@ Ga hiervoor naar: `Instellingen > Taal`
 
 
 
-Vertaalbestanden zijn in JSON. Je kunt :
+Vertaalbestanden zijn in JSON. Je kunt:
 
 
 
@@ -1641,7 +1641,7 @@ Vertaalbestanden zijn in JSON. Je kunt :
 
 
 
-Link naar originele bestanden :
+Link naar originele bestanden:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klik op **Een rol aanmaken** om een rol aan te maken (bijvoorbeeld `Super Admin`
 
 
 
-Elke rol bevat :
+Elke rol bevat:
 
 
 
@@ -1688,7 +1688,7 @@ Elke rol bevat :
 
 
 
-Voeg in hetzelfde menu `Admin > Instellingen > ARM` een gebruiker toe met :
+Voeg in hetzelfde menu `Admin > Instellingen > ARM` een gebruiker toe met:
 
 
 
@@ -1760,7 +1760,7 @@ In `/cart` kun je met een veld een product toevoegen:
 
 
 
-POS ondersteunt :
+POS ondersteunt:
 
 
 

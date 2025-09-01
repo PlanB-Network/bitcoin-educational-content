@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Windows üzerinde
 
 
-Yükleyiciyi (.exe) resmi web sitesinden indirin veya :
+Yükleyiciyi (.exe) resmi web sitesinden indirin veya:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf sayfalarınızı otomatik olarak "katı" (izleme karşıtı) modda yü
 
 
 
-LibreWolf zaten gizlilik için en iyi şekilde yapılandırılmıştır. Menü → Seçenekler → Gizlilik ve Güvenlik bölümünde LibreWolf'un Gelişmiş İzleme Koruması moduna ayarlandığını göreceksiniz: Sıkı. Bu mod engeller :
+LibreWolf zaten gizlilik için en iyi şekilde yapılandırılmıştır. Menü → Seçenekler → Gizlilik ve Güvenlik bölümünde LibreWolf'un Gelişmiş İzleme Koruması moduna ayarlandığını göreceksiniz: Sıkı. Bu mod engeller:
 
 
 

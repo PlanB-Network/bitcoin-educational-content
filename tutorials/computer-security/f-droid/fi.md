@@ -71,7 +71,7 @@ F-Droid tarjoaa kattavat tiedot jokaisesta sovelluksesta, jonka haluat asentaa.
 
 
 
-Klikkaamalla sovellusta löydät muun muassa :
+Klikkaamalla sovellusta löydät muun muassa:
 
 
 
@@ -96,7 +96,7 @@ Klikkaamalla sovellusta löydät muun muassa :
 
 
 
-Lue lisää Thunderbird-oppaastamme :
+Lue lisää Thunderbird-oppaastamme:
 
 
 
@@ -117,7 +117,7 @@ Anna F-Droidin asennusoikeudet ottamalla asetus käyttöön asetuksissa.
 
 
 
-F-Droid rohkaisee avoimen lähdekoodin ja yhteisön osallistumista, erityisesti **Near By** Exchange -vaihtoehdon kautta. Ota yhteys ympärilläsi oleviin käyttäjiin :
+F-Droid rohkaisee avoimen lähdekoodin ja yhteisön osallistumista, erityisesti **Near By** Exchange -vaihtoehdon kautta. Ota yhteys ympärilläsi oleviin käyttäjiin:
 
 
 

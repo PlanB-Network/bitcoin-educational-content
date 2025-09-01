@@ -15,7 +15,7 @@ Lösningen är enkel, lätt och autonom. Den gör det möjligt att skapa en onli
 
 
 
-I den här handledningen kommer vi att ta dig steg för steg genom :
+I den här handledningen kommer vi att ta dig steg för steg genom:
 
 
 
@@ -44,7 +44,7 @@ Innan du börjar installera be-BOP ska du se till att du har följande tekniska 
 
 
 
-be-BOP använder ett lagringssystem för att hantera filer (t.ex. produktbilder). Detta kräver tillgång till en S3-tjänst, till exempel :
+be-BOP använder ett lagringssystem för att hantera filer (t.ex. produktbilder). Detta kräver tillgång till en S3-tjänst, till exempel:
 
 
 
@@ -302,7 +302,7 @@ Om du inte vill hantera en Lightning-nod själv är **Swiss Bitcoin Pay** en fä
 
 
 
-Konfigurationssteg :
+Konfigurationssteg:
 
 
 
@@ -330,7 +330,7 @@ Förutom Bitcoin kan du med be-BOP också ta emot kontantbetalningar via PayPal,
 
 
 
-Konfigurationssteg :
+Konfigurationssteg:
 
 
 
@@ -467,7 +467,7 @@ Med konfigurationen **Top Bar** kan du anpassa din programvaras visuella identit
 
 
 
-#### Konfigurationssteg :
+#### Konfigurationssteg:
 
 
 
@@ -491,7 +491,7 @@ I Top Bars avsnitt "Länkar" kan du lägga till genvägar till viktiga sidor i d
 
 
 
-#### Konfigurationssteg :
+#### Konfigurationssteg:
 
 
 
@@ -760,7 +760,7 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 - Prisbelopp**: produktpris (t.ex. "25,00").
 - Prisvaluta**: valuta (EUR, USD, BTC, etc.).
-- Specialprodukter** :
+- Specialprodukter**:
   - detta är en gratis produkt.
   - detta är en betala-vad-du-vill-produkt.
 
@@ -773,10 +773,10 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 - Enkel produkt (`standalone`)**: endast ett tillägg möjligt per beställning (t.ex. donation, inträdesbiljett).
-- Produkt med variationer** :
+- Produkt med variationer**:
   - Kolla inte "Standalone".
   - Markera `Produkten har lätta variationer (ingen lagerskillnad)`.
-  - Lägg till :
+  - Lägg till:
     - Namn** (t.ex. *Storlek*),
     - Värden** (t.ex.: S, M, L, XL),
     - Prisskillnader** om tillämpligt (t.ex.: `+2 USD` för XL).
@@ -803,7 +803,7 @@ Om din produkt inte finns tillgänglig i obegränsade kvantiteter, markera `Prod
 
 
 
-Systemet hanterar :
+Systemet hanterar:
 
 
 
@@ -872,7 +872,7 @@ Gå till `Admin > Merch > CMS`. Du kommer att se en lista över befintliga sidor
 
 
 
-CMS-sidor är viktiga för :
+CMS-sidor är viktiga för:
 
 
 
@@ -906,7 +906,7 @@ Du kan lägga till andra sidor efter behov:
 
 
 
-Gå till : administratör > Merch > Layout. Du kan anpassa den visuella Elements på din webbplats:
+Gå till: administratör > Merch > Layout. Du kan anpassa den visuella Elements på din webbplats:
 
 
 
@@ -932,7 +932,7 @@ Gå till : administratör > Merch > Layout. Du kan anpassa den visuella Elements
 
 
 - Finns i det grå området under det övre fältet
-- Innehåller snabb åtkomst till : `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
+- Innehåller snabb åtkomst till: `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
 - Endast styrelseledamöter
 
 
@@ -956,7 +956,7 @@ Gå till: `Admin > Merch > Bilder`
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -1004,7 +1004,7 @@ Exempel på tillgängliga widgets:
 - Utmaningar**: utmaningar eller uppdrag
 - Taggar**: kategorier eller nyckelord
 - Sliders**: bildkaruseller
-- Specifikationer** : Specifikationer tabeller
+- Specifikationer**: Specifikationer tabeller
 - Formulär**: formulär (kontakt, feedback, etc.)
 - Nedräkningar**: timers
 - Gallerier**: bildgallerier
@@ -1033,7 +1033,7 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuella parametrar** :
+**Aktuella parametrar**:
 
 
 
@@ -1046,7 +1046,7 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 
 
 
-**Fördelar** :
+**Fördelar**:
 
 
 
@@ -1103,7 +1103,7 @@ Dessa filter underlättar snabba sökningar och målinriktad hantering.
 
 
 
-Genom att klicka på en order kan du få tillgång till en komplett fil som innehåller :
+Genom att klicka på en order kan du få tillgång till en komplett fil som innehåller:
 
 
 
@@ -1120,7 +1120,7 @@ Genom att klicka på en order kan du få tillgång till en komplett fil som inne
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -1141,7 +1141,7 @@ Du kan :
 
 
 
-För att få tillgång till försäljnings- och betalningsstatistik :
+För att få tillgång till försäljnings- och betalningsstatistik:
 
 
 administratör > Inställningar > Rapportering
@@ -1176,7 +1176,7 @@ Rapporterna är indelade i avsnitt:
 
 
 
-Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan :
+Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan:
 
 
 
@@ -1217,7 +1217,7 @@ Plattformen stöder **Nostr**-protokollet för vissa avancerade funktioner:
 
 
 
-Gå till :
+Gå till:
 
 
 admin > Node Management > Nostr
@@ -1304,7 +1304,7 @@ Här hittar du alla alternativ för att **skapa** och **konfigurera** ett anpass
 
 
 
-När du skapar eller ändrar ett tema kan du definiera :
+När du skapar eller ändrar ett tema kan du definiera:
 
 
 
@@ -1328,7 +1328,7 @@ Varje del av anläggningen kan justeras oberoende av varandra:
 
 - Header**: övre navigeringsfältet
 - Body**: huvudinnehåll
-- Sidfot** : längst ner på sidan
+- Sidfot**: längst ner på sidan
 
 
 
@@ -1340,7 +1340,7 @@ Varje del av anläggningen kan justeras oberoende av varandra:
 
 
 
-När temat är konfigurerat :
+När temat är konfigurerat:
 
 
 
@@ -1371,7 +1371,7 @@ Med plattformen kan du anpassa de e-postmeddelanden som skickas automatiskt till
 
 
 
-Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har :
+Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har:
 
 
 
@@ -1390,14 +1390,14 @@ Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har :
 
 
 
-För att göra e-postmeddelanden dynamiska kan du infoga variabler som :
+För att göra e-postmeddelanden dynamiska kan du infoga variabler som:
 
 
 
 
 
-- `{orderNumber}}` : ersätts av det faktiska ordernumret
-- röstlänk : länk till Invoice
+- `{orderNumber}}`: ersätts av det faktiska ordernumret
+- röstlänk: länk till Invoice
 - `{webbplatslänk}}`: URL till din webbplats
 
 
@@ -1454,7 +1454,7 @@ Fyll i följande fält:
 
 
 
-#### Tillgängliga familjer :
+#### Tillgängliga familjer:
 
 
 
@@ -1489,7 +1489,7 @@ Dessa fält kan användas för att berika en tagg som om den vore en innehållss
 
 
 
-Etiketter kan vara :
+Etiketter kan vara:
 
 
 
@@ -1515,7 +1515,7 @@ För att erbjuda nedladdningsbara dokument till dina kunder: `Admin > Merch > Fi
 1. Klicka på **Ny fil**
 
 
-2. Informera :
+2. Informera:
 
 
 
@@ -1533,7 +1533,7 @@ För att erbjuda nedladdningsbara dokument till dina kunder: `Admin > Merch > Fi
 
 
 
-Denna länk kan sedan sättas in i :
+Denna länk kan sedan sättas in i:
 
 
 
@@ -1557,7 +1557,7 @@ Plattformen erbjuder avancerad integration med **Nostr**-protokollet via en auto
 
 
 
-Gå till : nodhantering > Nostr
+Gå till: nodhantering > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Gå till : nodhantering > Nostr
 
 
 - Aktivera ett automatiskt meddelande vid **första användarinteraktionen**
-- Idealisk för :
+- Idealisk för:
   - Presentera din tjänst
   - Skicka en användbar länk (t.ex. FAQ, kontakt, beställning)
 
@@ -1629,7 +1629,7 @@ För att göra detta, gå till: `Inställningar > Språk`
 
 
 
-Översättningsfilerna är i JSON-format. Du kan :
+Översättningsfilerna är i JSON-format. Du kan:
 
 
 
@@ -1641,7 +1641,7 @@ För att göra detta, gå till: `Inställningar > Språk`
 
 
 
-Länk till originalfiler :
+Länk till originalfiler:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klicka på **Create a role** för att skapa en roll (t.ex. `Super Admin`, `POS`,
 
 
 
-Varje roll innehåller :
+Varje roll innehåller:
 
 
 
@@ -1688,7 +1688,7 @@ Varje roll innehåller :
 
 
 
-I samma meny `Admin > Inställningar > ARM` lägger du till en användare med :
+I samma meny `Admin > Inställningar > ARM` lägger du till en användare med:
 
 
 
@@ -1760,7 +1760,7 @@ I `/cart` finns ett fält där du kan lägga till en produkt:
 
 
 
-POS stöder :
+POS stöder:
 
 
 

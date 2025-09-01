@@ -62,7 +62,7 @@ Dess unika funktion? Orion är den **enda WebKit**-webbläsare som kan installer
 
 - Begränsad tillgänglighet**: För närvarande reserverat för macOS och iOS/iPadOS. En Linux-version håller på att nå milstolpar i utvecklingen (milstolpe 2 år 2025), men ingen publik version finns tillgänglig. Windows och Android är inte under utveckling på grund av resursbrist.
 - Stängd källkod**: Även om vissa komponenter har öppen källkod är Orion fortfarande till övervägande del proprietärt, vilket är en fråga som diskuteras i integritetsgemenskapen.
-- Experimentella tillägg** : Stöd för tillägg är fortfarande i betaversion, med frekventa inkompatibiliteter. Tillägg kan påverka prestandan, och vissa fungerar inte alls.
+- Experimentella tillägg**: Stöd för tillägg är fortfarande i betaversion, med frekventa inkompatibiliteter. Tillägg kan påverka prestandan, och vissa fungerar inte alls.
 - WebKit-säkerhet**: Till skillnad från Chromium erbjuder WebKit inte en lika robust processisolering per webbplats, vilket kan innebära säkerhetsrisker i vissa scenarier.
 - Blockering av tester**: Orion presterar avsiktligt dåligt i tester för onlineannonsering (26-35%), eftersom Kagi anser att dessa tester är "fundamentalt felaktiga". Den faktiska effektiviteten vid daglig användning är mycket bättre.
 
@@ -105,7 +105,7 @@ Dess unika funktion? Orion är den **enda WebKit**-webbläsare som kan installer
 
 
 
-**Alternativt hemmabygge** :
+**Alternativt hemmabygge**:
 
 
 ```bash
@@ -209,7 +209,7 @@ Dessa verktyg är alltid tillgängliga och ger dig möjlighet att kontrollera di
 
 
 
-**Orion+ (valfritt)**: För att stödja projektutveckling erbjuder Kagi Orion+ ($5/månad, $50/år, eller $150 livstid). Denna frivilliga prenumeration möjliggör :
+**Orion+ (valfritt)**: För att stödja projektutveckling erbjuder Kagi Orion+ ($5/månad, $50/år, eller $150 livstid). Denna frivilliga prenumeration möjliggör:
 
 
 
@@ -234,7 +234,7 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-Öppna inställningar via **Orion → Preferences** (eller ⌘,) :
+Öppna inställningar via **Orion → Preferences** (eller ⌘,):
 
 
 
@@ -267,18 +267,18 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-**Innehållsblockerare är aktiv som standard** :
+**Innehållsblockerare är aktiv som standard**:
 
 
 
 
-- EasyList** : 119k+ regler för annonsblockering
+- EasyList**: 119k+ regler för annonsblockering
 - EasyPrivacy**: Skydd mot spårning
 - Hantera filterlistor**: Lägg till ytterligare listor (Hagezi rekommenderas)
 
 
 
-**Privacy-alternativ** :
+**Privacy-alternativ**:
 
 
 
@@ -307,7 +307,7 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-**Snabb åtkomst**: Klicka på kugghjulet ⚙️ i Address-fältet för att justera :
+**Snabb åtkomst**: Klicka på kugghjulet ⚙️ i Address-fältet för att justera:
 
 
 
@@ -323,11 +323,11 @@ Orion+ garanterar projektets oberoende: "Ditt ekonomiska bidrag hjälper oss att
 
 
 
-**Skapa anpassade filter** (Sekretess → Hantera filterlistor → Anpassade filter) :
+**Skapa anpassade filter** (Sekretess → Hantera filterlistor → Anpassade filter):
 
 
 
-**Förenklad syntax** (Adblock Plus-kompatibel) :
+**Förenklad syntax** (Adblock Plus-kompatibel):
 
 
 
@@ -350,7 +350,7 @@ Orion stöder inbyggt Chrome och Firefox förlängningar. Installera dem direkt 
 
 
 
-**Essentials** :
+**Essentials**:
 
 
 
@@ -361,7 +361,7 @@ Orion stöder inbyggt Chrome och Firefox förlängningar. Installera dem direkt 
 
 
 
-**Optionell** :
+**Optionell**:
 
 
 
@@ -372,7 +372,7 @@ Orion stöder inbyggt Chrome och Firefox förlängningar. Installera dem direkt 
 
 
 
-För att installera en :
+För att installera en:
 
 
 
@@ -411,7 +411,7 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-**Temaalternativ** :
+**Temaalternativ**:
 
 
 
@@ -421,7 +421,7 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-**Typografisk kontroll** :
+**Typografisk kontroll**:
 
 
 
@@ -431,7 +431,7 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-**Interface rengöring** :
+**Interface rengöring**:
 
 
 
@@ -447,13 +447,13 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-**Avancerad flikhantering** :
+**Avancerad flikhantering**:
 
 
 
 
 - Vertikala flikar**: Aktivera via menyraden (funktion Flikar på sidan)
-- Kompakta flikar** : I Inställningar → Flikar → Layout "Kompakt" för att spara utrymme
+- Kompakta flikar**: I Inställningar → Flikar → Layout "Kompakt" för att spara utrymme
 - Flikgrupper**: Organisera dina sessioner efter tema
 - Flera profiler**: Skapa separata identiteter via menyraden (funktionen Profiler) med helt isolerade data
 
@@ -463,7 +463,7 @@ Orions **brush**-verktyg är en unik funktion som gör att du kan anpassa visnin
 
 
 
-**Inbyggda verktyg** (redigeringsmeny och andra) :
+**Inbyggda verktyg** (redigeringsmeny och andra):
 
 
 
@@ -507,7 +507,7 @@ För att hålla Orion snabbt och privat:
 
 
 
-- Tillägg** : Begränsa till det absoluta minimum (kan minska prestandan)
+- Tillägg**: Begränsa till det absoluta minimum (kan minska prestandan)
 - Lågeffektsläge**: Aktivera för långa sessioner (90% besparing möjlig)
 - Sekretessrapport**: Klicka på skölden 🛡️ för att se blockeringar i realtid
 - Visuell anpassning**: Använd 🖌️-penseln för att anpassa skärmen och ta bort distraherande Elements
@@ -552,7 +552,7 @@ För att hålla Orion snabbt och privat:
 
 
 
-**Ideal för** :
+**Ideal för**:
 
 
 
@@ -566,7 +566,7 @@ För att hålla Orion snabbt och privat:
 
 
 
-**Undvik om** :
+**Undvik om**:
 
 
 
@@ -645,8 +645,8 @@ Kom ihåg: att skydda din integritet beror inte bara på din webbläsare. Kombin
 - Fullständig FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
 - Gemenskapsforum**: [community.kagi.com](https://community.kagi.com)
 - Buggspårning**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenter med öppen källkod
-- Blogg Kagi** : [blog.kagi.com](https://blog.kagi.com) - Nyheter och uppdateringar
+- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponenter med öppen källkod
+- Blogg Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nyheter och uppdateringar
 
 
 
@@ -679,7 +679,7 @@ För maximalt skydd, se våra andra guider:
 
 
 
-Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Network :
+Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Network:
 
 
 

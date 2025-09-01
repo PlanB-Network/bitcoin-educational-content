@@ -28,7 +28,7 @@ Para facilitar la adopción de Bitcoin en comunidades de todo el mundo, Wallet d
 
 
 
-La experiencia de Punto de Venta que ofrece Wallet de Satoshi destaca sobre otras opciones principalmente por su sencillez y fluidez. Además de no requerir nada más que la aplicación móvil disponible en Google Play Store e iOS, puedes utilizar Wallet para :
+La experiencia de Punto de Venta que ofrece Wallet de Satoshi destaca sobre otras opciones principalmente por su sencillez y fluidez. Además de no requerir nada más que la aplicación móvil disponible en Google Play Store e iOS, puedes utilizar Wallet para:
 
 
 
@@ -176,13 +176,13 @@ Ahora dispone de una herramienta para aceptar Bitcoin en su negocio en sólo uno
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
-Y si busca un TPV completo adecuado para pequeñas y medianas empresas, también le recomiendo Swiss Bitcoin Pay :
+Y si busca un TPV completo adecuado para pequeñas y medianas empresas, también le recomiendo Swiss Bitcoin Pay:
 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Por último, encontrará nuestro curso de formación completo para aprender los conceptos básicos de Bitcoin pago y flujo de caja para las empresas :
+Por último, encontrará nuestro curso de formación completo para aprender los conceptos básicos de Bitcoin pago y flujo de caja para las empresas:
 
 
 

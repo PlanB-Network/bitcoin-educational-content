@@ -5,7 +5,7 @@ description: İleri düzey kullanıcılar için Git ile Plan ₿ Network hakkın
 ![cover](assets/cover.webp)
 
 
-Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, birkaç ön adımı tamamlamış olmanız gerekir. Henüz yapmadıysanız, lütfen önce bu giriş eğitimine bir göz atın, ardından buraya geri dönün :
+Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, birkaç ön adımı tamamlamış olmanız gerekir. Henüz yapmadıysanız, lütfen önce bu giriş eğitimine bir göz atın, ardından buraya geri dönün:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
@@ -23,13 +23,13 @@ Deneyimli Git kullanıcılarına yönelik bu eğitimde, yeni bir Plan ₿ Networ
 
 
 
-- Orta Düzey (GitHub Masaüstü) :
+- Orta Düzey (GitHub Masaüstü):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Yeni Başlayanlar (web Interface) :
+- Yeni Başlayanlar (web Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## Önerilen araçlar
 
 
-Markdown dosyalarını düzenlemek için :
+Markdown dosyalarını düzenlemek için:
 
 
 
@@ -56,7 +56,7 @@ Git için:
 - Sourcetree (Ücretsiz, açık kaynak değil)
 
 
-YAML dosyalarını düzenlemek için :
+YAML dosyalarını düzenlemek için:
 
 
 
@@ -64,7 +64,7 @@ YAML dosyalarını düzenlemek için :
 - Sublime Text (Sınırlamalarla birlikte ücretsiz, açık kaynak değil)
 
 
-Diyagramlar ve görseller oluşturmak için :
+Diyagramlar ve görseller oluşturmak için:
 
 
 
@@ -134,7 +134,7 @@ git push -u origin tuto-green-wallet-loic
 ***Not:*** [Python GUI betiğimi] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) kullanarak 3. ve 4. adımları otomatikleştirebilirsiniz. Doğrudan yerel klonunuzdaki klasöründen çalıştırın, ardından GUI'deki gerekli alanları doldurun. Nasıl kurulacağı ve kullanılacağı hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine bakın.
 
 
-Manuel olarak yapmayı tercih ederseniz, aşağıdaki adımları izleyin :
+Manuel olarak yapmayı tercih ederseniz, aşağıdaki adımları izleyin:
 
 
 
@@ -209,23 +209,23 @@ reward:
 
 
 
-- id** : Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
+- id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
 
 
 
-- project_id** : Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- etiketler** : özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- etiketler**: özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori** : Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
+- kategori**: Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
 
 
 
-- seviye** : Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
+- seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
     - `başlangıç`
     - `intermediate`
     - `gelişmiş`
@@ -233,20 +233,20 @@ reward:
 
 
 
-- professor_id** : Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- professor_id**: Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 
-- original_language** : Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
+- original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
 
 
 
-- redaksiyon** : Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
-    - dil** : Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
-    - last_contribution_date** : Günün tarihi.
-    - aciliyet** : 1
-    - contributor_names** : GitHub kimliğiniz.
-    - ödül** : 0
+- redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
+    - dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
+    - last_contribution_date**: Günün tarihi.
+    - aciliyet**: 1
+    - contributor_names**: GitHub kimliğiniz.
+    - ödül**: 0
 
 
 Öğretmen kimliğiniz hakkında daha fazla bilgi için lütfen ilgili eğitime bakın:
@@ -301,7 +301,7 @@ reward: 0
 
 - Eğitim içeriğini Markdown ile yazın:
     - İyi yapılandırılmış başlıklar (`##`), listeler ve paragraflar kullanın.
-    - Markdown sözdizimini kullanarak görseller ekleyin :
+    - Markdown sözdizimini kullanarak görseller ekleyin:
 
 
 ```
@@ -361,11 +361,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Platformda desteklenen biçimlendirme** :
+- Platformda desteklenen biçimlendirme**:
     - Klasik Markdown: listeler, bağlantılar, resimler, alıntılar, kalın, italik vb.
     - LaTeX (yalnızca blok, satır içi değil): `$$` ile sınırlandırılmıştır.
     - Satır içi kod: Tek bir backtick içeren sözdizimi.
-    - Kod blokları: Üç geri işaretli sözdizimi, örneğin :
+    - Kod blokları: Üç geri işaretli sözdizimi, örneğin:
 
 
 ```
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- Çizimler ve diyagramlar** :
+- Çizimler ve diyagramlar**:
     - Tüm görseller WebP formatında olmalıdır. Gerekirse dönüştürmek için bu ücretsiz aracı kullanın: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Görselleri 2 veya 3 rakamla adlandırın (örneğin `001.webp`, `002.webp`).
     - Mobil veya Hardware Wallet eğitimleri için maketler kullanın.
     - Yalnızca kendi oluşturduğunuz veya telifsiz görselleri kullanın.
     - İlgili ve yüksek kaliteli olduklarından emin olun.
-- Grafik tüzük** :
+- Grafik tüzük**:
     - Yazı tipi: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Renkler Plan ₿ Network :
+    - Renkler Plan ₿ Network:
         - Turuncu: `#FF5C00`
         - Siyah: `#000000`
         - Beyaz: `#FFFFFF`

@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Creare il profilo dell'insegnante
 
-Andare alla cartella `scripts/tutorial-related/data-creator/` sul clone locale. Assicurarsi di aver installato tutte le dipendenze necessarie per il software, avendo prima installato Python :
+Andare alla cartella `scripts/tutorial-related/data-creator/` sul clone locale. Assicurarsi di aver installato tutte le dipendenze necessarie per il software, avendo prima installato Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Avviare quindi il software con il comando :
+Avviare quindi il software con il comando:
 
 ```bash
 python3 main.py

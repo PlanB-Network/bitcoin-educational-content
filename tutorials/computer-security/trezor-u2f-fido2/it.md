@@ -134,7 +134,7 @@ Vi consiglio di conservare questo codice in un luogo diverso da quello in cui co
 
 
 
-Questo approccio offre due livelli di backup in caso di smarrimento del Trezor per l'autenticazione 2FA: un primo backup che utilizza la frase Mnemonic per tutti gli account e un secondo specifico per ogni account con i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza** :
+Questo approccio offre due livelli di backup in caso di smarrimento del Trezor per l'autenticazione 2FA: un primo backup che utilizza la frase Mnemonic per tutti gli account e un secondo specifico per ogni account con i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-È sufficiente sostituire `<CREDENTIAL_ID>` con uno dei propri identificatori. Ad esempio, nel mio caso, si otterrebbe :
+È sufficiente sostituire `<CREDENTIAL_ID>` con uno dei propri identificatori. Ad esempio, nel mio caso, si otterrebbe:
 
 
 

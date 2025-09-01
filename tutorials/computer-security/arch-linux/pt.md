@@ -66,7 +66,7 @@ Desde 2017, o Arch Linux já não suporta arquitecturas de 32 bits. Apenas estã
 
 
 
-Para criar uma unidade flash USB de arranque, pode utilizar uma ferramenta como **Balena Etcher** :
+Para criar uma unidade flash USB de arranque, pode utilizar uma ferramenta como **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ No ecrã de arranque, escolha a primeira opção para iniciar a instalação. No
 
 
 
-É possível visualizar as apresentações disponíveis com :
+É possível visualizar as apresentações disponíveis com:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Em seguida, carregue um esquema com :
+Em seguida, carregue um esquema com:
 
 
 
@@ -166,7 +166,7 @@ O Arch Linux usa a ferramenta `timedatectl` para gerenciar o relógio do sistema
 
 
 
-- Defina o seu fuso horário com :
+- Defina o seu fuso horário com:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Verifique se a sincronização automática está activada com :
+- Verifique se a sincronização automática está activada com:
 
 
 ```shell
@@ -208,7 +208,7 @@ Isto ativa o NTP, o protocolo para sincronização automática com servidores de
 
 
 
-- Verifique se o seu sistema arranca em **UEFI** ou **BIOS** com :
+- Verifique se o seu sistema arranca em **UEFI** ou **BIOS** com:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Iniciar o Partition Manager :
+- Iniciar o Partition Manager:
 
 
 
@@ -294,7 +294,7 @@ Selecione **Escrever**, escreva **sim** e, em seguida, **Quir**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Monte a partição **root**:
 
 
 
-- Na BIOS :
+- Na BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- no UEFI :
+- no UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Instale um editor de texto para editar o arquivo :
+- Instale um editor de texto para editar o arquivo:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Definir o idioma :
+- Definir o idioma:
 
 
 Edite `/etc/locale.gen` e descomente a linha `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Edite `/etc/locale.gen` e descomente a linha `en_US.UTF-8 UTF-8`
 
 
 
-- Definir o nome da máquina :
+- Definir o nome da máquina:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Definir a palavra-passe de raiz :
+- Definir a palavra-passe de raiz:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Instalar o :
+Instalar o:
 
 
 
@@ -472,7 +472,7 @@ Uma vez descarregado, é necessário instalá-lo de acordo com o formato da part
 
 
 
-- Para **BIOS** :
+- Para **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Para **UEFI** :
+- Para **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Reiniciar :
+- Reiniciar:
 
 
 ```shell
@@ -551,7 +551,7 @@ No arranque, inicie sessão com o seu login e palavra-passe **root**.
 
 
 
-Pode acontecer que nenhuma ligação de rede esteja ativa após o reinício. Pode listar as interfaces com :
+Pode acontecer que nenhuma ligação de rede esteja ativa após o reinício. Pode listar as interfaces com:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Por defeito, o **Arch Linux** não contém nenhum Interface gráfico. Para adicionar um :
+Por defeito, o **Arch Linux** não contém nenhum Interface gráfico. Para adicionar um:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Ativar o **gestor de sessões** :
+Ativar o **gestor de sessões**:
 
 
 
@@ -652,7 +652,7 @@ Uma vez no **Interface GNOME**, terá de criar um novo utilizador para maior seg
 
 
 
-- Adicionar um utilizador :
+- Adicionar um utilizador:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Instalar **sudo** :
+- Instalar **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Em seguida, descomente a linha :
+- Em seguida, descomente a linha:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Por exemplo, para instalar o editor de texto **nano**, pode escrever :
+Por exemplo, para instalar o editor de texto **nano**, pode escrever:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Para instalar um navegador web leve como o `firefox`, use :
+Para instalar um navegador web leve como o `firefox`, use:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Finalmente, se quiser adicionar ferramentas de rede essenciais, como `net-tools`, o comando seria :
+Finalmente, se quiser adicionar ferramentas de rede essenciais, como `net-tools`, o comando seria:
 
 
 

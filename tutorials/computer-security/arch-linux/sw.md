@@ -66,7 +66,7 @@ Tangu 2017, Arch Linux haitumii tena usanifu wa 32-bit. Matoleo ya 64-bit pekee 
 
 
 
-Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Etcher** :
+Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Etcher**:
 
 
 
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Angalia kuwa ulandanishi otomatiki umewezeshwa na :
+- Angalia kuwa ulandanishi otomatiki umewezeshwa na:
 
 
 ```shell
@@ -294,7 +294,7 @@ Chagua **Andika**, chapa **ndiyo**, kisha **Toka**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -472,7 +472,7 @@ Mara baada ya kupakuliwa, unahitaji kuiweka kulingana na muundo wa kugawanya dis
 
 
 
-- Kwa **BIOS** :
+- Kwa **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Kwa **UEFI** :
+- Kwa **UEFI**:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Washa **kidhibiti kikao** :
+Washa **kidhibiti kikao**:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Sakinisha **sudo** :
+- Sakinisha **sudo**:
 
 
 ```shell
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Kwa mfano, ili kusakinisha **nano** kihariri maandishi, unaweza kuandika :
+Kwa mfano, ili kusakinisha **nano** kihariri maandishi, unaweza kuandika:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Ili kusakinisha kivinjari chepesi cha wavuti kama vile `firefox`, tumia :
+Ili kusakinisha kivinjari chepesi cha wavuti kama vile `firefox`, tumia:
 
 
 

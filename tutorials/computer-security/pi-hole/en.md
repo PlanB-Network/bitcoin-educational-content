@@ -166,7 +166,7 @@ As there are a large number of possibilities, between the different operators' b
 Once this has been done, if any devices have been switched on before, they will have retained the old settings, so you'll need to restart the configuration request.
 
 
-On Windows workstations, with a command prompt :
+On Windows workstations, with a command prompt:
 
 
 ```
@@ -174,7 +174,7 @@ ipconfig /renew
 ```
 
 
-On a Linux workstation :
+On a Linux workstation:
 
 
 ```
@@ -193,7 +193,7 @@ ipconfig /all
 ```
 
 
-In the DNS field, you should have the address of your Pi-Hole, in my case 192.168.1.42 :
+In the DNS field, you should have the address of your Pi-Hole, in my case 192.168.1.42:
 
 
 ![Image](assets/fr/029.webp)
@@ -202,7 +202,7 @@ In the DNS field, you should have the address of your Pi-Hole, in my case 192.16
 ## IV. Using the Interface web Pi-Hole
 
 
-To facilitate administration, **Pi-Hole** benefits from a well-designed Interface web interface. User-friendly and accessible, it lets you :
+To facilitate administration, **Pi-Hole** benefits from a well-designed Interface web interface. User-friendly and accessible, it lets you:
 
 
 
@@ -219,7 +219,7 @@ For my part, I'm going to add a blocking list. As mentioned above, only one list
 To add it, first connect to the Interface admin: **http://<ip_du_PiHole>/admin**
 
 
-The administrator password has already been generated (see end-of-installation screenshot), so all you need to do is enter it to access Interface :
+The administrator password has already been generated (see end-of-installation screenshot), so all you need to do is enter it to access Interface:
 
 
 ![Image](assets/fr/030.webp)
@@ -246,7 +246,7 @@ We can see our first list "**StevenBlack**", to add ours, copy the link I gave y
 Adding a list in Pi-Hole
 
 
-All that remains is to click on "**Add**" to add it. To activate it, we need to perform an additional step to "warn" Pi-Hole to take over this list. To do this :
+All that remains is to click on "**Add**" to add it. To activate it, we need to perform an additional step to "warn" Pi-Hole to take over this list. To do this:
 
 
 

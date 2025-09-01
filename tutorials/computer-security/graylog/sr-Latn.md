@@ -71,7 +71,7 @@ Graylog je alat za analizu i nadzor koji olakšava identifikaciju sumnjivog pona
 
 
 
-Izvor : Graylog
+Izvor: Graylog
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Zatim ćemo ažurirati keš paketa i pokušati instalirati MongoDB :
+Zatim ćemo ažurirati keš paketa i pokušati instalirati MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB ne može biti instaliran jer nedostaje zavisnost: **libssl1.1**. Moraće
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Ažurirajte keš paketa :
+Ažurirajte keš paketa:
 
 
 
@@ -279,7 +279,7 @@ Ova OpenSearch konfiguracija je dizajnirana za postavljanje jednog čvora. Evo n
 
 
 
-- cluster.name: graylog** : ovaj parametar imenuje OpenSearch klaster sa imenom "**graylog**".
+- cluster.name: graylog**: ovaj parametar imenuje OpenSearch klaster sa imenom "**graylog**".
 - node.name: ${HOSTNAME}**: ime čvora se dinamički postavlja da odgovara onom lokalne Linux mašine. Čak i ako imamo samo jedan čvor, važno je pravilno ga imenovati.
 - path.data: /var/lib/opensearch**: ova putanja specificira gde OpenSearch čuva svoje podatke na lokalnom računaru, u ovom slučaju u "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: ova putanja definiše gde su OpenSearch log fajlovi sačuvani, ovde u "**/var/log/opensearch**".
@@ -327,7 +327,7 @@ Sa konfiguracijom implementiranom ovde, **OpenSearch će početi sa 4 GB dodelje
 
 
 
-Sa ovim linijama :
+Sa ovim linijama:
 
 
 
@@ -432,7 +432,7 @@ Hajde da počnemo sa konfigurisanjem ove dve opcije:
 
 
 - password_secret**: ovaj parametar se koristi za definisanje ključa koji Graylog koristi za osiguranje skladištenja korisničkih lozinki (u duhu salting ključa). Ovaj ključ mora biti **jedinstven** i **nasumičan**.
-- root_password_sha2** : ovaj parametar odgovara podrazumevanom administratorskom lozinkom u Graylog-u. Skladišti se kao Hash SHA-256.
+- root_password_sha2**: ovaj parametar odgovara podrazumevanom administratorskom lozinkom u Graylog-u. Skladišti se kao Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ U ovom direktorijumu morate koristiti brojeve za definisanje reda učitavanja, j
 
 
 
-U ovom direktorijumu, kreiraćemo fajl pod nazivom "**10-graylog.conf**" :
+U ovom direktorijumu, kreiraćemo fajl pod nazivom "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-U ovu datoteku umetnite ovu liniju :
+U ovu datoteku umetnite ovu liniju:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Ako imate nekoliko servera i želite da analizirate logove određenog servera, navedite njegovo ime dodatno :
+Ako imate nekoliko servera i želite da analizirate logove određenog servera, navedite njegovo ime dodatno:
 
 
 
@@ -939,7 +939,7 @@ Neuspešni pokušaji povezivanja dolaze sa mašine sa IP Address "**192.168.10.1
 
 
 
-U ovom slučaju, filter koji treba koristiti može biti :
+U ovom slučaju, filter koji treba koristiti može biti:
 
 
 

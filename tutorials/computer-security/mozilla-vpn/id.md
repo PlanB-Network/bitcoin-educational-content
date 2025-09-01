@@ -20,7 +20,7 @@ Sebuah ***Virtual Private Network*** (VPN) adalah sebuah sistem untuk membuat sa
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di :
+Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di:
 
 
 
@@ -39,7 +39,7 @@ Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/
 
 
 
-VPN ini tersedia di lebih dari 30 negara dan memiliki lebih dari 500 server yang bertanggung jawab untuk menyamarkan IP Address Anda untuk memindahkan Anda sambil memastikan kerahasiaan interaksi Anda di Internet. Mozilla VPN dibedakan dengan :
+VPN ini tersedia di lebih dari 30 negara dan memiliki lebih dari 500 server yang bertanggung jawab untuk menyamarkan IP Address Anda untuk memindahkan Anda sambil memastikan kerahasiaan interaksi Anda di Internet. Mozilla VPN dibedakan dengan:
 
 
 

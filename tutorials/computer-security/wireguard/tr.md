@@ -95,7 +95,7 @@ Bu örnekte, aşağıdaki duruma odaklanacağım: **Ev ağıma bağlı Windows P
 
 
 
-IP adresleri açısından bu, :
+IP adresleri açısından bu,:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Açık anahtarın değeri konsolda döndürülecektir. WireGuard yapılandırma dosyasına **özel anahtarımızın değerini** eklememiz gerekir. Bu değeri almak için aşağıdaki komutu girin ve değeri kopyalayın :
+Açık anahtarın değeri konsolda döndürülecektir. WireGuard yapılandırma dosyasına **özel anahtarımızın değerini** eklememiz gerekir. Bu değeri almak için aşağıdaki komutu girin ve değeri kopyalayın:
 
 
 
@@ -286,7 +286,7 @@ Debian 11 makinemizin **paketleri farklı ağlar arasında (bir yönlendirici gi
 
 
 
-Bu yapılandırma dosyasını değiştirin :
+Bu yapılandırma dosyasını değiştirin:
 
 
 
@@ -318,7 +318,7 @@ Sunucumuzun paketleri doğru bir şekilde yönlendirmesi ve uzak LAN'ın Windows
 
 
 
-Eğer UFW'ye sahip değilseniz ve kurmak istiyorsanız (Nftables'ı da kullanabilirsiniz), :
+Eğer UFW'ye sahip değilseniz ve kurmak istiyorsanız (Nftables'ı da kullanabilirsiniz),:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Resim gösteriyor :
+Resim gösteriyor:
 
 
 
@@ -490,7 +490,7 @@ Bu yapılandırmayı tamamlamamız, özellikle IP Address'i bu Interface (*Addre
 
 
 
-Address "**192.168.110.2**" IP'sini ekleyerek `[Interface]` bloğu ile başlayalım; sunucunun bu ağ segmentinde Address "**192.168.110.121**" IP'sine sahip olduğunu unutmayın. Bu şunu verir :
+Address "**192.168.110.2**" IP'sini ekleyerek `[Interface]` bloğu ile başlayalım; sunucunun bu ağ segmentinde Address "**192.168.110.121**" IP'sine sahip olduğunu unutmayın. Bu şunu verir:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Resimlerde :
+Resimlerde:
 
 
 
@@ -691,7 +691,7 @@ Mevcut yapılandırmayla, trafiğin bir kısmı VPN üzerinden, geri kalanı ise
 
 
 
-İlk olarak, "resolvconf" paketini :
+İlk olarak, "resolvconf" paketini:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Son olarak, Windows 10 iş istasyonundaki tünel yapılandırmasında, her şeyin tünelden geçmesi gerektiğini belirtmek için "AllowedIPs" bölümünü değiştirmeniz gerekir. Değiştirin :
+Son olarak, Windows 10 iş istasyonundaki tünel yapılandırmasında, her şeyin tünelden geçmesi gerektiğini belirtmek için "AllowedIPs" bölümünü değiştirmeniz gerekir. Değiştirin:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Tarafından :
+Tarafından:
 
 
 
@@ -772,7 +772,7 @@ WireGuard'ın konfigürasyonu oldukça basit ve anlaşılması kolaydır ve her 
 
 
 
-Ek belgeler :
+Ek belgeler:
 
 
 

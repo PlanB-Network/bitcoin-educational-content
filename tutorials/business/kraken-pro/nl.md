@@ -112,7 +112,7 @@ Bij de 2FA opties kun je ervoor kiezen om een fysieke beveiligingssleutel als tw
 ![KRAKEN](assets/fr/11.webp)
 
 
-Voor meer informatie over het gebruik van dit type apparaat, zie onze speciale handleiding :
+Voor meer informatie over het gebruik van dit type apparaat, zie onze speciale handleiding:
 
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
@@ -228,14 +228,14 @@ Je kunt ook Exchange bitcoins inruilen voor andere cryptocurrencies, zoals stabl
 Selecteer het bedrag, kies de cryptocurrency die je wilt verkrijgen en bevestig de transactie.
 
 
-Voor deze transacties kun je kiezen uit verschillende ordertypes: *Markt*, *Limiet* of *Stop-Loss* :
+Voor deze transacties kun je kiezen uit verschillende ordertypes: *Markt*, *Limiet* of *Stop-Loss*:
 
 
 
 
-- Markt* : Maakt onmiddellijke aankoop tegen de huidige marktprijs mogelijk;
+- Markt*: Maakt onmiddellijke aankoop tegen de huidige marktprijs mogelijk;
 - Limiet*: Hiermee kunt u een aankoopprijs opgeven en de order wordt alleen uitgevoerd als de marktprijs dit bedrag bereikt;
-- Stop-Loss* : Automatisch verkopen wanneer de prijs een bepaalde drempel bereikt.
+- Stop-Loss*: Automatisch verkopen wanneer de prijs een bepaalde drempel bereikt.
 
 
 ## 7 - Transactiebeheer en boekhouding

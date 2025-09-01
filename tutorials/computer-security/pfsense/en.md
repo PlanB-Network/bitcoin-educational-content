@@ -23,7 +23,7 @@ ___
 pfSense is a free, open source operating system that transforms any computer, dedicated server or hardware appliance into a high-performance, highly configurable router and firewall. Based on FreeBSD and renowned for its stable, robust network architecture, pfSense has been setting the standard for open source firewalls for businesses, local authorities and demanding home users for over fifteen years.
 
 
-Its main functions have evolved considerably over the years, and have been enhanced with each new version. To date, pfSense offers :
+Its main functions have evolved considerably over the years, and have been enhanced with each new version. To date, pfSense offers:
 
 
 
@@ -49,14 +49,14 @@ Finally, it's worth remembering that pfSense requires at least two physical netw
 ## II. Download image
 
 
-The latest stable version of pfSense, at the time of writing this tutorial, is 2.8 (released in June 2025). You can download the ISO image or the installation file adapted to your hardware environment directly from the official website :
+The latest stable version of pfSense, at the time of writing this tutorial, is 2.8 (released in June 2025). You can download the ISO image or the installation file adapted to your hardware environment directly from the official website:
 
 
 
 - [Download pfSense](https://www.pfsense.org/download/)
 
 
-The download portal allows you to select :
+The download portal allows you to select:
 
 
 
@@ -80,7 +80,7 @@ In this example, the installation is performed on a virtual machine running Virt
 ### 1. Minimum hardware requirements
 
 
-For a standard deployment, we recommend :
+For a standard deployment, we recommend:
 
 
 
@@ -167,7 +167,7 @@ The first question concerns the configuration of VLANs. At this stage, for a bas
 ### 2. WAN and LAN interface assignment
 
 
-pfSense then prompts you to define which Interface will be used for WAN (Internet access). You can choose between :
+pfSense then prompts you to define which Interface will be used for WAN (Internet access). You can choose between:
 
 
 
@@ -229,7 +229,7 @@ Connect a computer to the LAN port (or the virtual Interface LAN in your hypervi
 In your browser, go to the address indicated by the console (by default `https://192.168.1.1`). Note that pfSense requires HTTPS even for the first connection - so expect a self-signed certificate warning, which you can ignore by adding an exception.
 
 
-The login screen appears. The default credentials are :
+The login screen appears. The default credentials are:
 
 
 - User name:** `admin`
@@ -248,7 +248,7 @@ On first connection, pfSense prompts you to follow its **Setup Wizard**. We stro
 ### 1. General parameters
 
 
-You can :
+You can:
 
 
 - Specify a host name and a local domain (example: `pfsense` and `lan.local`).
@@ -264,7 +264,7 @@ Indicate your site's time zone so that logs and schedules are consistent (e.g. `
 ### 3. WAN configuration
 
 
-Configure the WAN connection :
+Configure the WAN connection:
 
 
 - Defaults to **DHCP** (sufficient if you're behind a box).
@@ -287,7 +287,7 @@ Secure your pfSense by immediately setting a strong password for the `admin` use
 ## VII. Verification and updates
 
 
-Before deploying your firewall, make sure you have the latest version of :
+Before deploying your firewall, make sure you have the latest version of:
 
 
 
@@ -317,7 +317,7 @@ For mission-critical environments, consider automatic configuration backup on an
 ## IX. Best practices after installation
 
 
-To end your deployment with peace of mind :
+To end your deployment with peace of mind:
 
 
 

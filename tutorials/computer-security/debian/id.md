@@ -144,7 +144,7 @@ Untuk meluncurkan penginstalan dari kunci USB Anda:
 
 
 
-Layar mulai :
+Layar mulai:
 
 
 
@@ -334,7 +334,7 @@ Masukkan kata sandi Anda saat diminta (perhatikan bahwa tidak ada karakter yang 
 
 
 
-- Untuk menginstal pembaruan yang tersedia :
+- Untuk menginstal pembaruan yang tersedia:
 
 
 
@@ -380,7 +380,7 @@ Ada dua cara untuk menginstal aplikasi pada Debian:
 
 
 
-### Metode grafis :
+### Metode grafis:
 
 
 
@@ -388,7 +388,7 @@ Anda dapat menggunakan **software manager** (dapat diakses melalui Interface gra
 
 
 
-### Metode baris perintah :
+### Metode baris perintah:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Ganti `<nama>` dengan nama paket. Misalnya, untuk menginstal `curl` :
+Ganti `<nama>` dengan nama paket. Misalnya, untuk menginstal `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Menginstal paket yang diunduh secara manual :
+### Menginstal paket yang diunduh secara manual:
 
 
 

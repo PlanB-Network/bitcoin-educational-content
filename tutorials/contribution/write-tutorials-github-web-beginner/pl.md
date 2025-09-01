@@ -10,7 +10,7 @@ Przed przystąpieniem do tego samouczka dotyczącego dodawania nowego samouczka 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Masz już :
+Masz już:
 
 
 
@@ -20,18 +20,18 @@ Masz już :
 - Wybierz swoje narzędzia.
 
 
-W tym samouczku przyjrzymy się, jak dodać swój samouczek do Plan ₿ Network za pomocą internetowej wersji GitHub. Jeśli opanowałeś już Git, ten bardzo szczegółowy samouczek może nie być dla ciebie konieczny. Zamiast tego zalecam zapoznanie się z jednym z dwóch pozostałych poradników, w których szczegółowo opisuję wytyczne i kroki wprowadzania zmian z lokalnego pliku :
+W tym samouczku przyjrzymy się, jak dodać swój samouczek do Plan ₿ Network za pomocą internetowej wersji GitHub. Jeśli opanowałeś już Git, ten bardzo szczegółowy samouczek może nie być dla ciebie konieczny. Zamiast tego zalecam zapoznanie się z jednym z dwóch pozostałych poradników, w których szczegółowo opisuję wytyczne i kroki wprowadzania zmian z lokalnego pliku:
 
 
 
 
-- Doświadczeni użytkownicy** :
+- Doświadczeni użytkownicy**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Średniozaawansowany (GitHub Desktop)** :
+- Średniozaawansowany (GitHub Desktop)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -39,7 +39,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## Wymagania wstępne
 
 
-Wymagania wstępne przed rozpoczęciem samouczka :
+Wymagania wstępne przed rozpoczęciem samouczka:
 
 
 
@@ -65,7 +65,7 @@ Gdy wszystko jest już gotowe i masz Fork z repozytorium Plan ₿ Network, może
 ## 1 - Utwórz nowy oddział
 
 
-Otwórz przeglądarkę i przejdź do strony Fork w repozytorium Plan ₿ Network. Jest to Fork utworzony w serwisie GitHub. Adres URL Fork powinien wyglądać następująco: `https://github.com/[twoja-nazwa-użytkownika]/Bitcoin-educational-content` :
+Otwórz przeglądarkę i przejdź do strony Fork w repozytorium Plan ₿ Network. Jest to Fork utworzony w serwisie GitHub. Adres URL Fork powinien wyglądać następująco: `https://github.com/[twoja-nazwa-użytkownika]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -151,7 +151,7 @@ bitcoin-educational-content/
 ## 3 - Wypełnienie pliku YAML
 
 
-Zacznijmy od pliku YAML. W polu tworzenia nowego pliku wpisujemy `tutorial.yml` :
+Zacznijmy od pliku YAML. W polu tworzenia nowego pliku wpisujemy `tutorial.yml`:
 
 
 ![GITHUB](assets/fr/08.webp)
@@ -193,23 +193,23 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- id** : UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
+- id**: UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
 
 
 
-- project_id** : UUID firmy lub organizacji stojącej za narzędziem prezentowanym w poradniku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w poradniku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- tagi** : 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- category** : Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
+- category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- level** : Poziom trudności samouczka, wybierany spośród:
+- level**: Poziom trudności samouczka, wybierany spośród:
     - początkujący
     - `średniozaawansowany`
     - `zaawansowany`
@@ -217,23 +217,23 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- professor_id** : Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Oryginalny język samouczka (np. `fr`, `en` itp.);
+- original_language**: Oryginalny język samouczka (np. `fr`, `en` itp.);
 
 
 
-- korekta** : Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
-    - language** : Kod języka korekty (np. `fr`, `en` itp.).
-    - last_contribution_date** : Data dnia.
-    - pilne** : 1
-    - contributor_names** : Twój identyfikator GitHub.
-    - nagroda** : 0
+- korekta**: Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
+    - language**: Kod języka korekty (np. `fr`, `en` itp.).
+    - last_contribution_date**: Data dnia.
+    - pilne**: 1
+    - contributor_names**: Twój identyfikator GitHub.
+    - nagroda**: 0
 
 
-Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem :
+Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -315,7 +315,7 @@ Sprawdź ponownie, czy jesteś na właściwej gałęzi, a następnie kliknij "*C
 ## 5 - Tworzenie pliku Markdown
 
 
-Teraz utworzymy plik, który będzie hostował tutorial, nazwany zgodnie z kodem języka, na przykład `fr.md`, jeśli piszemy po francusku. Przejdź do folderu samouczka :
+Teraz utworzymy plik, który będzie hostował tutorial, nazwany zgodnie z kodem języka, na przykład `fr.md`, jeśli piszemy po francusku. Przejdź do folderu samouczka:
 
 
 ![GITHUB](assets/fr/16.webp)
@@ -353,7 +353,7 @@ Wpisz nazwę swojego samouczka i krótki opis:
 ![GITHUB](assets/fr/20.webp)
 
 
-Następnie dodaj ścieżkę do obrazu okładki na początku samouczka. Aby to zrobić, zanotuj :
+Następnie dodaj ścieżkę do obrazu okładki na początku samouczka. Aby to zrobić, zanotuj:
 
 
 ```
@@ -409,13 +409,13 @@ Obrazy powinny pojawić się w folderze.
 ## 7 - Pisanie samouczka
 
 
-Kontynuuj pisanie samouczka, zapisując zawartość w pliku Markdown z kodem języka (w moim przykładzie, w języku francuskim, jest to plik `fr.md`). Przejdź do pliku i kliknij ikonę ołówka :
+Kontynuuj pisanie samouczka, zapisując zawartość w pliku Markdown z kodem języka (w moim przykładzie, w języku francuskim, jest to plik `fr.md`). Przejdź do pliku i kliknij ikonę ołówka:
 
 
 ![GITHUB](assets/fr/28.webp)
 
 
-Rozpocznij pisanie samouczka. Dodając podtytuł, użyj odpowiedniego formatowania Markdown, poprzedzając tekst `##` :
+Rozpocznij pisanie samouczka. Dodając podtytuł, użyj odpowiedniego formatowania Markdown, poprzedzając tekst `##`:
 
 
 ![GITHUB](assets/fr/29.webp)
@@ -480,9 +480,9 @@ Jeśli chcesz tworzyć własne schematy, pamiętaj o przestrzeganiu wytycznych g
 
 
 - Czcionka**: Użyj [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Kolory** :
+- Kolory**:
  - Pomarańczowy: #FF5C00
- - Czarny : #000000
+ - Czarny: #000000
  - Biały: #FFFFFF
 
 

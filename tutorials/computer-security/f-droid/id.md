@@ -71,7 +71,7 @@ F-Droid menyediakan informasi yang komprehensif tentang setiap aplikasi yang ing
 
 
 
-Dengan mengeklik aplikasi, Anda akan menemukan, antara lain :
+Dengan mengeklik aplikasi, Anda akan menemukan, antara lain:
 
 
 
@@ -117,7 +117,7 @@ Berikan hak instalasi F-Droid dengan mengaktifkan opsi di pengaturan Anda.
 
 
 
-F-Droid mendorong praktik open source dan kontribusi komunitas, terutama melalui opsi **Near By** Exchange. Terhubung dengan pengguna di sekitar Anda melalui :
+F-Droid mendorong praktik open source dan kontribusi komunitas, terutama melalui opsi **Near By** Exchange. Terhubung dengan pengguna di sekitar Anda melalui:
 
 
 

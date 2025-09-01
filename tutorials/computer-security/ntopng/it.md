@@ -122,7 +122,7 @@ Per la sonda, ho scelto una macchina **Debian 11** con installazione minima.
 
 
 
-Primo passo, sempre lo stesso, aggiornare il file :
+Primo passo, sempre lo stesso, aggiornare il file:
 
 
 
@@ -212,7 +212,7 @@ Ecco alcune spiegazioni di questi primi cambiamenti:
 
 
 - auto *Interface***: "avvia" automaticamente Interface all'avvio del sistema
-- iface *Interface* inet manual** : per usare il Interface senza alcun IP Address. Come la parola chiave "static" per definire un IP Address statico o "dhcp" per utilizzare un indirizzamento dinamico
+- iface *Interface* inet manual**: per usare il Interface senza alcun IP Address. Come la parola chiave "static" per definire un IP Address statico o "dhcp" per utilizzare un indirizzamento dinamico
 
 
 
@@ -286,7 +286,7 @@ Per impostazione predefinita, i sorgenti dei pacchetti contengono solo pacchetti
 
 
 
-Esempio di riga in /etc/apt/sources.list :
+Esempio di riga in /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Quindi aggiungerò la parola **contributo** a righe come queste.
 
 
 
-Il resto dei passaggi è elencato nel sito [NtopNG] (https://packages.ntop.org/apt/) dove, per Debian 11, è necessario aggiungere i sorgenti di Ntop per una futura installazione. Questa aggiunta è automatizzata utilizzando un file :
+Il resto dei passaggi è elencato nel sito [NtopNG] (https://packages.ntop.org/apt/) dove, per Debian 11, è necessario aggiungere i sorgenti di Ntop per una futura installazione. Questa aggiunta è automatizzata utilizzando un file:
 
 
 
@@ -474,7 +474,7 @@ Facendo clic su questa figura vengono visualizzati i dettagli degli avvisi. Non 
 
 
 
-Tuttavia, poiché sto usando la versione gratuita, non posso escludere i domini o gli host che sono la fonte degli avvisi, quindi dovrete tenerli d'occhio per evitare di perdere qualcosa di molto più preoccupante. NtopNG invierà generate avvisi in caso di :
+Tuttavia, poiché sto usando la versione gratuita, non posso escludere i domini o gli host che sono la fonte degli avvisi, quindi dovrete tenerli d'occhio per evitare di perdere qualcosa di molto più preoccupante. NtopNG invierà generate avvisi in caso di:
 
 
 

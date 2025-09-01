@@ -160,7 +160,7 @@ Kumbuka: kwamba programu itapakia upya kiotomatiki ikiwa utabadilisha faili zozo
 Mara ya kwanza, utahitaji kuendesha uhamishaji wa DB.
 
 
-Ili kufanya hivyo, endesha hati ya uhamiaji : `pnpm run dev:db:migrate`
+Ili kufanya hivyo, endesha hati ya uhamiaji: `pnpm run dev:db:migrate`
 
 
 ```markdown

@@ -93,7 +93,7 @@ So it's **this last mode that I'm going to use**. For practical reasons, I'll be
 For the probe, I choose a **Debian 11** machine in minimal installation.
 
 
-First step, always the same, update the :
+First step, always the same, update the:
 
 
 ```
@@ -167,7 +167,7 @@ Here are some explanations of these first changes:
 
 
 - auto *Interface***: will automatically "start" Interface on system startup
-- iface *Interface* inet manual** : to use the Interface without any IP address. Like the keyword "static" to define a static IP address or "dhcp" to use dynamic addressing
+- iface *Interface* inet manual**: to use the Interface without any IP address. Like the keyword "static" to define a static IP address or "dhcp" to use dynamic addressing
 
 
 The modifications continue:
@@ -225,7 +225,7 @@ By default, package sources contain only DFSG (*Debian Free Sotftware Guidelines
 - non-free**: contains packages that are not DFSG-compliant
 
 
-Example of a line in /etc/apt/sources.list :
+Example of a line in /etc/apt/sources.list:
 
 
 ```
@@ -236,7 +236,7 @@ deb http://deb.debian.org/debian/ bullseye main
 So I'll just add the word **contrib** to lines like these.
 
 
-The rest of the steps are listed on the [NtopNG] site (https://packages.ntop.org/apt/) where, for Debian 11, you need to add the Ntop sources for future installation. This addition is automated by using a :
+The rest of the steps are listed on the [NtopNG] site (https://packages.ntop.org/apt/) where, for Debian 11, you need to add the Ntop sources for future installation. This addition is automated by using a:
 
 
 ```
@@ -368,7 +368,7 @@ Clicking on this figure brings up the details of the alerts. There's nothing ala
 ![Image](assets/fr/020.webp)
 
 
-However, as I'm using the free version, I can't exclude domains or hosts that are the source of alerts, so you'll have to keep an eye on them to avoid missing out on something much more worrying. NtopNG will generate alerts in the event of :
+However, as I'm using the free version, I can't exclude domains or hosts that are the source of alerts, so you'll have to keep an eye on them to avoid missing out on something much more worrying. NtopNG will generate alerts in the event of:
 
 
 

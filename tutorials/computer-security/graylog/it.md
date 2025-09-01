@@ -71,7 +71,7 @@ Il **server Graylog** gira su **Debian 12**, ma l'installazione è possibile su 
 
 
 
-Fonte : Graylog
+Fonte: Graylog
 
 
 
@@ -149,8 +149,8 @@ MongoDB non può essere installato perché manca una dipendenza: **libssl1.1**. 
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Aggiornare la cache dei pacchetti :
+Aggiornare la cache dei pacchetti:
 
 
 
@@ -279,7 +279,7 @@ Questa configurazione di OpenSearch è stata progettata per configurare un singo
 
 
 
-- cluster.name: graylog** : questo parametro nomina il cluster OpenSearch con il nome "**graylog**".
+- cluster.name: graylog**: questo parametro nomina il cluster OpenSearch con il nome "**graylog**".
 - node.name: ${HOSTNAME}**: il nome del nodo viene impostato dinamicamente per corrispondere a quello della macchina Linux locale. Anche se abbiamo un solo nodo, è importante assegnargli un nome corretto.
 - path.data: /var/lib/opensearch**: questo percorso specifica dove OpenSearch memorizza i suoi dati sulla macchina locale, in questo caso in "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: questo percorso definisce dove vengono memorizzati i file di log di OpenSearch, qui in "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Con la configurazione qui implementata, **OpenSearch inizierà con 4 GB di memoria allocata e potrà crescere fino a 4 GB**, quindi non ci saranno variazioni di memoria durante il funzionamento. Qui la configurazione tiene conto del fatto che la macchina virtuale ha un totale di **8 GB di RAM**. Entrambi i parametri devono avere lo stesso valore. Ciò significa sostituire le righe :
+Con la configurazione qui implementata, **OpenSearch inizierà con 4 GB di memoria allocata e potrà crescere fino a 4 GB**, quindi non ci saranno variazioni di memoria durante il funzionamento. Qui la configurazione tiene conto del fatto che la macchina virtuale ha un totale di **8 GB di RAM**. Entrambi i parametri devono avere lo stesso valore. Ciò significa sostituire le righe:
 
 
 
@@ -327,7 +327,7 @@ Con la configurazione qui implementata, **OpenSearch inizierà con 4 GB di memor
 
 
 
-Con queste righe :
+Con queste righe:
 
 
 
@@ -408,7 +408,7 @@ Il prossimo passo: la tanto attesa installazione di Graylog!
 
 
 
-Per **installare Graylog 6.1** nella sua ultima versione, eseguire i seguenti 4 comandi per **scaricare e installare Graylog Server** :
+Per **installare Graylog 6.1** nella sua ultima versione, eseguire i seguenti 4 comandi per **scaricare e installare Graylog Server**:
 
 
 
@@ -432,7 +432,7 @@ Cominciamo a configurare queste due opzioni:
 
 
 - password_secret**: questo parametro serve a definire una chiave utilizzata da Graylog per proteggere la memorizzazione delle password degli utenti (nello spirito di una chiave di salatura). Questa chiave deve essere **unica** e **casuale**.
-- root_password_sha2** : questo parametro corrisponde alla password di amministratore predefinita in Graylog. È memorizzata come Hash SHA-256.
+- root_password_sha2**: questo parametro corrisponde alla password di amministratore predefinita in Graylog. È memorizzata come Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ In questa directory è necessario utilizzare dei numeri per definire l'ordine di
 
 
 
-In questa directory verrà creato un file chiamato "**10-graylog.conf**" :
+In questa directory verrà creato un file chiamato "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-In questo file, inserire questa riga :
+In questo file, inserire questa riga:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Se si dispone di più server e si desidera analizzare i registri di un server specifico, specificare il suo nome in aggiunta a :
+Se si dispone di più server e si desidera analizzare i registri di un server specifico, specificare il suo nome in aggiunta a:
 
 
 
@@ -939,7 +939,7 @@ I tentativi di connessione non riusciti vengono effettuati dalla macchina con IP
 
 
 
-In questo caso, il filtro da utilizzare può essere :
+In questo caso, il filtro da utilizzare può essere:
 
 
 

@@ -332,7 +332,7 @@ Jos haluat kehittää omia lisäosia, tutustu blogikirjoitukseen **[Tutustu Jami
 
 
 
-Jami tarjoaa myös **edistyneempiä ominaisuuksia** käyttäjille, jotka haluavat mennä pidemmälle sovelluksen konfiguroinnissa ja käytössä. Näihin vaihtoehtoihin kuuluvat :
+Jami tarjoaa myös **edistyneempiä ominaisuuksia** käyttäjille, jotka haluavat mennä pidemmälle sovelluksen konfiguroinnissa ja käytössä. Näihin vaihtoehtoihin kuuluvat:
 
 
 

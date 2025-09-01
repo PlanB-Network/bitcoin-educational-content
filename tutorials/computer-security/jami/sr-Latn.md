@@ -332,7 +332,7 @@ Da biste razvili sopstvene dodatke, pogledajte blog post **[Discover the Jami Pl
 
 
 
-Jami takođe nudi **napredne funkcije** za korisnike koji žele da idu dalje u konfigurisanje i korišćenje aplikacije. Ove opcije uključuju :
+Jami takođe nudi **napredne funkcije** za korisnike koji žele da idu dalje u konfigurisanje i korišćenje aplikacije. Ove opcije uključuju:
 
 
 

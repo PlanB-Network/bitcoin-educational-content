@@ -120,7 +120,7 @@ Cíl: velký přínos pro ochranu soukromí bez narušení webu. Pro 90 % uživa
 
 
 
-Chcete-li se dostat do nastavení, klikněte na nabídku ☰ vpravo nahoře a poté na **"Nastavení "** :
+Chcete-li se dostat do nastavení, klikněte na nabídku ☰ vpravo nahoře a poté na **"Nastavení "**:
 
 
 
@@ -279,7 +279,7 @@ Cíl: rozdělit činnosti a omezit únik informací ze sítě.
 
 
 - Výchozí stav**: V některých regionech (USA, Kanada, Rusko, Ukrajina) se aktivuje automaticky. Jinde je nutná ruční aktivace.
-- Konfigurace** : Nastavení → Obecné → Nastavení sítě → **Zapnout DoH** → **Cloudflare** nebo **Quad9** → **Maximální ochrana**.
+- Konfigurace**: Nastavení → Obecné → Nastavení sítě → **Zapnout DoH** → **Cloudflare** nebo **Quad9** → **Maximální ochrana**.
 - Maximální ochrana = pouze TRR** (bez zpětného přechodu na systém DNS). Pokud se firemní/hotelová síť zablokuje, přepněte zpět na **Standard** nebo vypněte DoH.
 - Zbytečnost**: Pokud již používáte důvěryhodnou síť VPN s vlastním zabezpečeným systémem DNS, může být služba DoH nadbytečná.
 - Ověřovací test**: `https://www.dnsleaktest.com/` by měl zobrazit pouze vybraného poskytovatele DoH.
@@ -559,7 +559,7 @@ Osvědčené postupy
 - Zabezpečený prohlížeč ≠ síťová anonymita: bez **VPN** zůstává vaše IP viditelná; i s ní je možná korelace.
 - Přílišné úpravy vás mohou učinit **jedinečnými**. **RFP** standardizuje; randomizační nástroje (např. Chameleon) vás mohou... odlišit. Testujte, porovnávejte, upravujte.
 - Alternativy/doplňky:
- - Prohlížeč Tor Browser: síťová anonymita přes Tor; pomalejší. Viz náš kompletní průvodce instalací a konfigurací** :
+ - Prohlížeč Tor Browser: síťová anonymita přes Tor; pomalejší. Viz náš kompletní průvodce instalací a konfigurací**:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor bez Toru", který lze kombinovat s VPN; standardizovaná stopa. Jak jej nainstalovat, se dozvíte v našem speciálním návodu** :
+ - Mullvad Browser: "Tor bez Toru", který lze kombinovat s VPN; standardizovaná stopa. Jak jej nainstalovat, se dozvíte v našem speciálním návodu**:
 
 
 
@@ -615,9 +615,9 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 
 
 
-- [Zvýšená ochrana sledování](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Oficiální průvodce rozšířenou ochranou sledování
+- [Zvýšená ochrana sledování](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Oficiální průvodce rozšířenou ochranou sledování
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Technická dokumentace k rozdělování stavů
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Kompletní reference o zabezpečení webu
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Kompletní reference o zabezpečení webu
 
 
 
@@ -652,4 +652,4 @@ https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3
 - [BrowserLeaks](https://browserleaks.com/): Kompletní sada testů (WebRTC, Canvas, písma atd.)
 - [BadSSL](https://badssl.com/): Testy ověření platnosti certifikátů SSL/TLS
 - [CreepJS](https://abrahamjuliot.github.io/creepjs/): Pokročilá analýza více než 50 vektorů otisků prstů
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Kontrola správného fungování služby Cloudflare DoH
+- [Cloudflare DNS Test](https://1.1.1.1/help): Kontrola správného fungování služby Cloudflare DoH

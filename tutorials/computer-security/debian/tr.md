@@ -128,7 +128,7 @@ USB anahtarınız artık Debian'ı yüklemeye başlamak için hazırdır.
 
 
 
-Yüklemeyi USB anahtarınızdan başlatmak için :
+Yüklemeyi USB anahtarınızdan başlatmak için:
 
 
 
@@ -144,7 +144,7 @@ Yüklemeyi USB anahtarınızdan başlatmak için :
 
 
 
-Başlangıç ekranı :
+Başlangıç ekranı:
 
 
 
@@ -334,7 +334,7 @@ Sorulduğunda şifrenizi girin (yazarken hiçbir karakterin görüntülenmeyece�
 
 
 
-- Mevcut güncellemeleri yüklemek için :
+- Mevcut güncellemeleri yüklemek için:
 
 
 
@@ -380,7 +380,7 @@ Debian'a uygulama yüklemenin iki yolu vardır:
 
 
 
-### Grafiksel yöntem :
+### Grafiksel yöntem:
 
 
 
@@ -388,7 +388,7 @@ Uygulamaları kolayca aramak ve yüklemek için **yazılım yöneticisini** (gra
 
 
 
-### Komut satırı yöntemi :
+### Komut satırı yöntemi:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-<name>` yerine paket adını yazın. Örneğin, `curl` yüklemek için :
+<name>` yerine paket adını yazın. Örneğin, `curl` yüklemek için:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Manuel olarak indirilen bir paketi yükleme :
+### Manuel olarak indirilen bir paketi yükleme:
 
 
 

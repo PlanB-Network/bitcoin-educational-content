@@ -260,7 +260,7 @@ Pre nego što počnete koristiti PureOS, važno je ažurirati vaš sistem. Ovo �
 
 
 
-- Ažuriranje putem Interface grafike** :
+- Ažuriranje putem Interface grafike**:
 
 
 Otvorite aplikaciju **Software**, zatim idite na karticu **Updates**. Dostupna ažuriranja se automatski prikazuju. Kliknite na **Download**, zatim na **Install** kada se preuzimanje završi.
@@ -269,7 +269,7 @@ Otvorite aplikaciju **Software**, zatim idite na karticu **Updates**. Dostupna a
 
 
 
-- Ažuriranje putem terminala** :
+- Ažuriranje putem terminala**:
 
 
 Otvorite terminal, zatim unesite sledeću komandu da ažurirate listu dostupnih paketa:
@@ -325,7 +325,7 @@ Aplikacije PureOS-a su dizajnirane da budu adaptivne: automatski se prilagođava
 
 
 
-PureOS takođe uključuje kancelarijski paket **LibreOffice**, koji obuhvata :
+PureOS takođe uključuje kancelarijski paket **LibreOffice**, koji obuhvata:
 
 
 

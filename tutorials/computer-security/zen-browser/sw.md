@@ -53,13 +53,13 @@ Tovuti hutambua mfumo wako kiotomatiki na kupendekeza kiungo kinachofaa:
 
 
 
-- Windows :** .exe kisakinishi cha Windows 10/11 (matoleo ya x64 na ARM64)
-- macOS :** Picha ya diski ya Intel na Apple Silicon .dmg (MacOS Monterey na baadaye)
+- Windows:** .exe kisakinishi cha Windows 10/11 (matoleo ya x64 na ARM64)
+- macOS:** Picha ya diski ya Intel na Apple Silicon .dmg (MacOS Monterey na baadaye)
 - Linux:** Chaguzi kadhaa zinapatikana:
   - Flatpak** (inapendekezwa): `flatpak sakinisha programu ya flathub.zen_browser.Zen`
   - AppImage**: Inabebeka, inayoweza kutekelezwa moja kwa moja
-  - Hifadhi tar.gz** : Itatolewa wewe mwenyewe
-  - AUR** (Arch Linux) : Kifurushi cha kivinjari cha Zen
+  - Hifadhi tar.gz**: Itatolewa wewe mwenyewe
+  - AUR** (Arch Linux): Kifurushi cha kivinjari cha Zen
 
 
 
@@ -97,8 +97,8 @@ Tovuti hutambua mfumo wako kiotomatiki na kupendekeza kiungo kinachofaa:
 
 
 - Flatpak:** Usakinishaji otomatiki kupitia kidhibiti kifurushi
-- AppImage :** `chmod +x ZenBrowser.AppImage` kisha ubofye mara mbili
-- tar.gz :** Chambua na uendeshe Zen-browser inayoweza kutekelezeka
+- AppImage:** `chmod +x ZenBrowser.AppImage` kisha ubofye mara mbili
+- tar.gz:** Chambua na uendeshe Zen-browser inayoweza kutekelezeka
 
 
 
@@ -320,7 +320,7 @@ Zaidi ya hayo, kwa kuwa msingi wa Firefox, Zen inaendana na mfumo mzima wa kiend
 
 
 
-Ili kufikia mipangilio ya Kivinjari cha Zen :
+Ili kufikia mipangilio ya Kivinjari cha Zen:
 
 
 
@@ -348,7 +348,7 @@ Tangu mwanzo, Kivinjari cha Zen kinatumia usanidi wa faragha wa hali ya juu amba
 
 
 
-- Ulinzi mkali wa kuzuia ufuatiliaji:** Kiwango cha "Kawaida" kimewashwa kwa chaguomsingi, kuzuia :
+- Ulinzi mkali wa kuzuia ufuatiliaji:** Kiwango cha "Kawaida" kimewashwa kwa chaguomsingi, kuzuia:
   - Vidakuzi vya kufuatilia tovuti mbalimbali na vidakuzi vikuu
   - Hati za kifuatiliaji cha matangazo (Google Analytics, Facebook Pixel, n.k.)
   - Cryptominters zinazotumia CPU yako hadi Miner cryptocurrencies
@@ -416,7 +416,7 @@ Mipangilio > Faragha na Usalama > Ulinzi Ulioimarishwa wa Ufuatiliaji
 **2. Badilisha injini ya utafutaji:**
 
 
-Mipangilio > Tafuta > Injini chaguomsingi ya utafutaji :
+Mipangilio > Tafuta > Injini chaguomsingi ya utafutaji:
 
 
 
@@ -496,7 +496,7 @@ Mipangilio > Faragha na usalama > Hali ya HTTPS pekee > **Imewashwa**
 **5. Dhibiti ruhusa chaguomsingi:**
 
 
-Mipangilio > Faragha na Usalama > Ruhusa :
+Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 

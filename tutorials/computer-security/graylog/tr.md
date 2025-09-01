@@ -71,7 +71,7 @@ Graylog sunucusu** **Debian 12** üzerinde çalışmaktadır, ancak Docker arac�
 
 
 
-Kaynak : Graylog
+Kaynak: Graylog
 
 
 
@@ -149,8 +149,8 @@ Bir bağımlılık eksik olduğu için MongoDB yüklenemiyor: **libssl1.1**. Deb
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Paket önbelleğinizi güncelleyin :
+Paket önbelleğinizi güncelleyin:
 
 
 
@@ -279,7 +279,7 @@ Bu OpenSearch yapılandırması tek bir düğüm kurmak için tasarlanmıştır.
 
 
 
-- cluster.name: graylog** : bu parametre OpenSearch kümesini "**graylog**" adıyla adlandırır.
+- cluster.name: graylog**: bu parametre OpenSearch kümesini "**graylog**" adıyla adlandırır.
 - node.name: ${HOSTNAME}**: düğüm adı dinamik olarak yerel Linux makinesininkiyle eşleşecek şekilde ayarlanır. Sadece bir node'umuz olsa bile, onu doğru şekilde adlandırmak önemlidir.
 - path.data: /var/lib/opensearch**: bu yol OpenSearch'ün verilerini yerel makinede nerede sakladığını belirtir, bu durumda "**/var/lib/opensearch**" içinde.
 - path.logs: /var/log/opensearch**: bu yol OpenSearch günlük dosyalarının nerede saklanacağını tanımlar, burada "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Burada dağıtılan yapılandırma ile **OpenSearch 4 GB ayrılmış bellekle başlar ve 4 GB'a kadar büyüyebilir**, böylece çalışma sırasında bellek değişimi olmaz. Burada yapılandırma, sanal makinenin toplam **8 GB RAM'e** sahip olduğu gerçeğini dikkate alır. Her iki parametre de aynı değere sahip olmalıdır. Bu, satırların değiştirilmesi anlamına gelir :
+Burada dağıtılan yapılandırma ile **OpenSearch 4 GB ayrılmış bellekle başlar ve 4 GB'a kadar büyüyebilir**, böylece çalışma sırasında bellek değişimi olmaz. Burada yapılandırma, sanal makinenin toplam **8 GB RAM'e** sahip olduğu gerçeğini dikkate alır. Her iki parametre de aynı değere sahip olmalıdır. Bu, satırların değiştirilmesi anlamına gelir:
 
 
 
@@ -432,7 +432,7 @@ Bu iki seçeneği yapılandırarak başlayalım:
 
 
 - password_secret**: bu parametre Graylog tarafından kullanıcı parolalarının saklanmasını güvence altına almak için kullanılan bir anahtar tanımlamak için kullanılır (tuzlama anahtarı ruhunda). Bu anahtar **tek** ve **rastgele** olmalıdır.
-- root_password_sha2** : bu parametre Graylog'daki varsayılan yönetici parolasına karşılık gelir. Hash SHA-256 olarak saklanır.
+- root_password_sha2**: bu parametre Graylog'daki varsayılan yönetici parolasına karşılık gelir. Hash SHA-256 olarak saklanır.
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Bu dosyaya şu satırı ekleyin :
+Bu dosyaya şu satırı ekleyin:
 
 
 

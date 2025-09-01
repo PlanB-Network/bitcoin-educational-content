@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Następnie zaktualizujemy pamięć podręczną pakietów i spróbujemy zainstalować MongoDB :
+Następnie zaktualizujemy pamięć podręczną pakietów i spróbujemy zainstalować MongoDB:
 
 
 
@@ -149,8 +149,8 @@ Nie można zainstalować MongoDB, ponieważ brakuje zależności: **libssl1.1**.
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,7 +279,7 @@ Ta konfiguracja OpenSearch jest przeznaczona do konfiguracji pojedynczego węzł
 
 
 
-- cluster.name: graylog** : ten parametr określa nazwę klastra OpenSearch o nazwie "**graylog**".
+- cluster.name: graylog**: ten parametr określa nazwę klastra OpenSearch o nazwie "**graylog**".
 - node.name: ${HOSTNAME}**: nazwa węzła jest ustawiana dynamicznie, aby pasowała do nazwy lokalnej maszyny z systemem Linux. Nawet jeśli mamy tylko jeden węzeł, ważne jest, aby nazwać go poprawnie.
 - path.data: /var/lib/opensearch**: ta ścieżka określa, gdzie OpenSearch przechowuje swoje dane na komputerze lokalnym, w tym przypadku w "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: ta ścieżka określa, gdzie przechowywane są pliki dziennika OpenSearch, tutaj w "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielonej pamięci i może wzrosnąć do 4 GB**, więc nie będzie żadnych zmian pamięci podczas pracy. W tym przypadku konfiguracja uwzględnia fakt, że maszyna wirtualna ma łącznie **8 GB pamięci RAM**. Oba parametry muszą mieć taką samą wartość. Oznacza to zastąpienie linii :
+Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielonej pamięci i może wzrosnąć do 4 GB**, więc nie będzie żadnych zmian pamięci podczas pracy. W tym przypadku konfiguracja uwzględnia fakt, że maszyna wirtualna ma łącznie **8 GB pamięci RAM**. Oba parametry muszą mieć taką samą wartość. Oznacza to zastąpienie linii:
 
 
 
@@ -327,7 +327,7 @@ Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielon
 
 
 
-Z tymi liniami :
+Z tymi liniami:
 
 
 
@@ -432,7 +432,7 @@ Zacznijmy od skonfigurowania tych dwóch opcji:
 
 
 - password_secret**: ten parametr jest używany do zdefiniowania klucza używanego przez Graylog do zabezpieczenia przechowywania haseł użytkowników (w duchu klucza solenia). Klucz ten musi być **unikalny** i **losowy**.
-- root_password_sha2** : ten parametr odpowiada domyślnemu hasłu administratora w Graylog. Jest ono przechowywane jako Hash SHA-256.
+- root_password_sha2**: ten parametr odpowiada domyślnemu hasłu administratora w Graylog. Jest ono przechowywane jako Hash SHA-256.
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-W tym pliku wstaw ten wiersz :
+W tym pliku wstaw ten wiersz:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Jeśli masz kilka serwerów i chcesz przeanalizować dzienniki określonego serwera, określ jego nazwę dodatkowo :
+Jeśli masz kilka serwerów i chcesz przeanalizować dzienniki określonego serwera, określ jego nazwę dodatkowo:
 
 
 
@@ -939,7 +939,7 @@ Nieudane próby połączenia są podejmowane z maszyny o adresie IP Address "**1
 
 
 
-W takim przypadku używany filtr może być :
+W takim przypadku używany filtr może być:
 
 
 

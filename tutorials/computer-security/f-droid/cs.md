@@ -71,7 +71,7 @@ F-Droid poskytuje komplexní informace o každé aplikaci, kterou chcete nainsta
 
 
 
-Po kliknutí na aplikaci najdete mimo jiné :
+Po kliknutí na aplikaci najdete mimo jiné:
 
 
 
@@ -96,7 +96,7 @@ Po kliknutí na aplikaci najdete mimo jiné :
 
 
 
-Další informace najdete v našem výukovém programu Thunderbird :
+Další informace najdete v našem výukovém programu Thunderbird:
 
 
 
@@ -117,7 +117,7 @@ Povolením této možnosti v nastavení udělíte instalační práva aplikaci F
 
 
 
-F-Droid podporuje používání otevřeného zdrojového kódu a přispívání komunity, zejména prostřednictvím možnosti **Near By** Exchange. Připojte se k uživatelům ve svém okolí prostřednictvím :
+F-Droid podporuje používání otevřeného zdrojového kódu a přispívání komunity, zejména prostřednictvím možnosti **Near By** Exchange. Připojte se k uživatelům ve svém okolí prostřednictvím:
 
 
 

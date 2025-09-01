@@ -149,8 +149,8 @@ MongoDB kann nicht installiert werden, da eine Abhängigkeit fehlt: **libssl1.1*
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,7 +279,7 @@ Diese OpenSearch-Konfiguration ist für die Einrichtung eines einzelnen Knotens 
 
 
 
-- cluster.name: graylog** : dieser Parameter benennt den OpenSearch-Cluster mit dem Namen "**graylog**".
+- cluster.name: graylog**: dieser Parameter benennt den OpenSearch-Cluster mit dem Namen "**graylog**".
 - node.name: ${HOSTNAME}**: Der Name des Knotens wird dynamisch auf den Namen des lokalen Linux-Rechners gesetzt. Auch wenn wir nur einen Knoten haben, ist es wichtig, ihn richtig zu benennen.
 - pfad.Daten: /var/lib/opensearch**: Dieser Pfad gibt an, wo OpenSearch seine Daten auf dem lokalen Rechner speichert, in diesem Fall in "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: Dieser Pfad definiert, wo OpenSearch-Protokolldateien gespeichert werden, hier in "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Mit der hier eingesetzten Konfiguration startet **OpenSearch mit 4 GB zugewiesenem Speicher und kann auf bis zu 4 GB** anwachsen, so dass es während des Betriebs keine Speicherschwankungen gibt. Hier berücksichtigt die Konfiguration die Tatsache, dass die virtuelle Maschine insgesamt **8 GB RAM** hat. Beide Parameter müssen den gleichen Wert haben. Das bedeutet, dass Sie die Zeilen :
+Mit der hier eingesetzten Konfiguration startet **OpenSearch mit 4 GB zugewiesenem Speicher und kann auf bis zu 4 GB** anwachsen, so dass es während des Betriebs keine Speicherschwankungen gibt. Hier berücksichtigt die Konfiguration die Tatsache, dass die virtuelle Maschine insgesamt **8 GB RAM** hat. Beide Parameter müssen den gleichen Wert haben. Das bedeutet, dass Sie die Zeilen:
 
 
 
@@ -327,7 +327,7 @@ Mit der hier eingesetzten Konfiguration startet **OpenSearch mit 4 GB zugewiesen
 
 
 
-Mit diesen Zeilen :
+Mit diesen Zeilen:
 
 
 
@@ -432,7 +432,7 @@ Beginnen wir damit, diese beiden Optionen zu konfigurieren:
 
 
 - password_secret**: Dieser Parameter wird verwendet, um einen Schlüssel zu definieren, der von Graylog verwendet wird, um die Speicherung von Benutzerpasswörtern zu sichern (im Sinne eines Salting Key). Dieser Schlüssel muss **einzigartig** und **zufällig** sein.
-- root_password_sha2** : Dieser Parameter entspricht dem Standard-Administrator-Passwort in Graylog. Es wird als Hash SHA-256 gespeichert.
+- root_password_sha2**: Dieser Parameter entspricht dem Standard-Administrator-Passwort in Graylog. Es wird als Hash SHA-256 gespeichert.
 
 
 

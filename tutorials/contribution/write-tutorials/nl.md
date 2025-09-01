@@ -125,13 +125,13 @@ Om bij te dragen aan Plan ₿ Network heb je 3 opties, afhankelijk van je niveau
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Intermediair (GitHub Desktop)** : Als je niet bekend bent met het gebruik van Git, is de eerste optie om eenvoudig je eigen lokale omgeving op te zetten om bij te dragen aan Plan ₿ Network. Deze aanpak wordt aanbevolen voor belangrijke bijdragen, zoals het schrijven van een volledige tutorial. Volg hiervoor de stap-voor-stap handleiding hieronder:
+- Intermediair (GitHub Desktop)**: Als je niet bekend bent met het gebruik van Git, is de eerste optie om eenvoudig je eigen lokale omgeving op te zetten om bij te dragen aan Plan ₿ Network. Deze aanpak wordt aanbevolen voor belangrijke bijdragen, zoals het schrijven van een volledige tutorial. Volg hiervoor de stap-voor-stap handleiding hieronder:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Beginners (web Interface)** : Je kunt er ook voor kiezen om GitHub's web Interface direct te gebruiken, zonder een complete lokale omgeving op te zetten. Deze methode kan overwogen worden voor kleine bijdragen. Maar voor grote bijdragen, zoals het toevoegen van een complete nieuwe tutorial, kan deze optie complexer blijken dan het opzetten van een lokale omgeving. In deze tutorial leg ik uit hoe je dit doet:
+- Beginners (web Interface)**: Je kunt er ook voor kiezen om GitHub's web Interface direct te gebruiken, zonder een complete lokale omgeving op te zetten. Deze methode kan overwogen worden voor kleine bijdragen. Maar voor grote bijdragen, zoals het toevoegen van een complete nieuwe tutorial, kan deze optie complexer blijken dan het opzetten van een lokale omgeving. In deze tutorial leg ik uit hoe je dit doet:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

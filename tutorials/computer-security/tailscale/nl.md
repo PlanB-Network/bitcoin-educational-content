@@ -159,7 +159,7 @@ Zodra je een account hebt aangemaakt, kun je Tailscale op je apparaten installer
 
 
 
-- Op Linux (Debian, Ubuntu, enz.):** Je hebt verschillende opties. De eenvoudigste methode is om het officiële installatiescript uit te voeren: bijvoorbeeld op Debian/Ubuntu :
+- Op Linux (Debian, Ubuntu, enz.):** Je hebt verschillende opties. De eenvoudigste methode is om het officiële installatiescript uit te voeren: bijvoorbeeld op Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Met de beheerconsole op het web kun je al je aangesloten apparaten bekijken en b
 
 
 
-- Interface Web (Admin Console)** : toegankelijk via [https://login.tailscale.com](https://login.tailscale.com), deze webconsole is het centrale dashboard voor uw Tailscale netwerk. Het geeft een overzicht van alle apparaten (*machines*), hun online/offline status, hun Tailscale IP-adressen en meer. Hier kunt u apparaten** beheren (hernoemen, sleutels verlopen, routes autoriseren, een node uitschakelen), gebruikers** beheren (in een organisatorische context) en beveiligingsregels (ACL's) definiëren. Hier configureer je ook globale opties zoals MagicDNS, tags of auth keys (pre-generate auth keys voor het automatisch toevoegen van apparaten). Interface web is erg handig om een overzicht te krijgen en wijzigingen toe te passen die via de coördinatieserver naar alle knooppunten worden verspreid. *Voorbeeld:* Het activeren van een **subnet route** of een **exit node** gebeurt met een enkele klik in de console, zodra de node in kwestie zichzelf als zodanig heeft aangekondigd.
+- Interface Web (Admin Console)**: toegankelijk via [https://login.tailscale.com](https://login.tailscale.com), deze webconsole is het centrale dashboard voor uw Tailscale netwerk. Het geeft een overzicht van alle apparaten (*machines*), hun online/offline status, hun Tailscale IP-adressen en meer. Hier kunt u apparaten** beheren (hernoemen, sleutels verlopen, routes autoriseren, een node uitschakelen), gebruikers** beheren (in een organisatorische context) en beveiligingsregels (ACL's) definiëren. Hier configureer je ook globale opties zoals MagicDNS, tags of auth keys (pre-generate auth keys voor het automatisch toevoegen van apparaten). Interface web is erg handig om een overzicht te krijgen en wijzigingen toe te passen die via de coördinatieserver naar alle knooppunten worden verspreid. *Voorbeeld:* Het activeren van een **subnet route** of een **exit node** gebeurt met een enkele klik in de console, zodra de node in kwestie zichzelf als zodanig heeft aangekondigd.
 
 
 
@@ -387,7 +387,7 @@ Toegang is opmerkelijk eenvoudig: in plaats van `umbrel.local` te gebruiken (dat
 
 
 
-**Sluit externe wallets aan op je Bitcoin of lightning nodes via Tailscale :**
+**Sluit externe wallets aan op je Bitcoin of lightning nodes via Tailscale:**
 
 
 
@@ -441,7 +441,7 @@ Raadpleeg onze gedetailleerde tutorial om Zeus te configureren met je Lightning-
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Om meer te weten te komen over de Lightning Network en hoe deze werkt op Umbrel, bezoek :
+Om meer te weten te komen over de Lightning Network en hoe deze werkt op Umbrel, bezoek:
 
 
 
@@ -608,7 +608,7 @@ Tailscale is een essentiële tool voor self-hosting, dankzij de eenvoud en effic
 
 
 - Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifieke gidsen voor zelf hosten.
-- Een Exit Node configureren** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Gedetailleerde handleiding voor het configureren van Exit Nodes.
+- Een Exit Node configureren**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Gedetailleerde handleiding voor het configureren van Exit Nodes.
 - Gebruik Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Bestanden overzetten tussen Tailscale apparaten.
 
 

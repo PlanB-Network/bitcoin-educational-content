@@ -169,7 +169,7 @@ mullvad Browser'daki uBlock Origin, tüm kullanıcıların tam olarak aynı Elem
 ### **NoScript**
 
 
-NoScript, tarayıcının **güvenlik seviyelerini** yönetmek için arka planda çalışır. Bu :
+NoScript, tarayıcının **güvenlik seviyelerini** yönetmek için arka planda çalışır. Bu:
 
 
 
@@ -328,7 +328,7 @@ Mullvad Browser Windows, macOS ve Linux için ücretsiz olarak kullanılabilir. 
 
 
 
-Linux için, dağıtımınıza bağlı olarak farklı formatlar arasından seçim yapabilirsiniz. İndirme işlemi tamamlandıktan sonra :
+Linux için, dağıtımınıza bağlı olarak farklı formatlar arasından seçim yapabilirsiniz. İndirme işlemi tamamlandıktan sonra:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser üç güvenlik seviyesi sunar:
 
 
 
-- Normal** (mevcut varsayılan seviye) : Tüm tarayıcı ve web sitesi işlevleri etkin
+- Normal** (mevcut varsayılan seviye): Tüm tarayıcı ve web sitesi işlevleri etkin
 
 
 
@@ -489,7 +489,7 @@ Yine de uzantıları yüklemeyi tercih ederseniz, sizi siteden siteye izlemek i�
 
 
 
-4. **İhtiyaçlarınıza en uygun güvenlik seviyesini seçin** :
+4. **İhtiyaçlarınıza en uygun güvenlik seviyesini seçin**:
 
 
 

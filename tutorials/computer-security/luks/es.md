@@ -30,7 +30,7 @@ Encriptar una memoria USB es una buena forma de proteger tus datos sensibles. **
 
 
 
-Para seguir este tutorial, necesitarás :
+Para seguir este tutorial, necesitarás:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Aquí, "**usbkey1**" es el nombre que le doy al montaje de la partición en mi contexto. Puedes elegir el que quieras. Luego necesitamos formatear esta partición contenida en la partición LUKS, por ejemplo, aquí como **ext4** :
+Aquí, "**usbkey1**" es el nombre que le doy al montaje de la partición en mi contexto. Puedes elegir el que quieras. Luego necesitamos formatear esta partición contenida en la partición LUKS, por ejemplo, aquí como **ext4**:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" es el "acceso directo" que hemos dado a nuestra llave USB ("**/dev/mapper**" es genérico en Linux para el mapeo). Por lo tanto, proporciona acceso a nuestra partición descifrada. Esto es lo que se supone que debes ver ahora :
+"**/dev/mapper/usbkey1**" es el "acceso directo" que hemos dado a nuestra llave USB ("**/dev/mapper**" es genérico en Linux para el mapeo). Por lo tanto, proporciona acceso a nuestra partición descifrada. Esto es lo que se supone que debes ver ahora:
 
 
 
@@ -353,7 +353,7 @@ Esto significa que podemos acceder a los datos de nuestra memoria USB de forma l
 
 
 
-Una vez completada nuestra operación, no olvides cerrar todo correctamente para asegurarte de que no corrompemos nuestro volumen. El primer paso es desmontar el archivo :
+Una vez completada nuestra operación, no olvides cerrar todo correctamente para asegurarte de que no corrompemos nuestro volumen. El primer paso es desmontar el archivo:
 
 
 

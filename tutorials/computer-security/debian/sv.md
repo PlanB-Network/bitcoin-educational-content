@@ -128,7 +128,7 @@ Ditt USB-minne är nu redo att börja installera Debian.
 
 
 
-För att starta installationen från ditt USB-minne :
+För att starta installationen från ditt USB-minne:
 
 
 
@@ -144,7 +144,7 @@ För att starta installationen från ditt USB-minne :
 
 
 
-Startskärm :
+Startskärm:
 
 
 
@@ -334,7 +334,7 @@ Ange ditt lösenord när du uppmanas att göra det (observera att inga tecken vi
 
 
 
-- För att installera tillgängliga uppdateringar :
+- För att installera tillgängliga uppdateringar:
 
 
 
@@ -380,7 +380,7 @@ Det finns två sätt att installera program på Debian:
 
 
 
-### Grafisk metod :
+### Grafisk metod:
 
 
 
@@ -388,7 +388,7 @@ Du kan använda **programvaruhanteraren** (nås via den grafiska Interface) för
 
 
 
-### Metod för kommandoraden :
+### Metod för kommandoraden:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Ersätt `<namn>` med paketnamnet. Till exempel, för att installera `curl` :
+Ersätt `<namn>` med paketnamnet. Till exempel, för att installera `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Installera ett manuellt nedladdat paket :
+### Installera ett manuellt nedladdat paket:
 
 
 
@@ -439,7 +439,7 @@ Det är också möjligt att byta skrivbordsmiljö (t.ex. till XFCE, KDE, etc.) u
 
 
 
-Om du vill lära dig mer om Debian, och mer allmänt om GNU/Linux-distributioner, rekommenderar jag att du läser den här kursen :
+Om du vill lära dig mer om Debian, och mer allmänt om GNU/Linux-distributioner, rekommenderar jag att du läser den här kursen:
 
 
 

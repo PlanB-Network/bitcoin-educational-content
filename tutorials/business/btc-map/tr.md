@@ -22,7 +22,7 @@ Btcmap.org](https://btcmap.org/) adresine gidin:
 
 
 
-Mevcut :
+Mevcut:
 
 
 
@@ -165,9 +165,9 @@ Sonunda,
 
 - 1: Sadece dosyadaki bilgilerin güncel olduğunu onaylamak istiyorsanız bu kutuyu işaretleyin (bu durumda doğrudan 4. adıma gidin)
 - 2: Varsa hangi bilgilerin yanlış olduğunu ve nasıl bir düzeltme önerdiğinizi burada belirtin
-- 3 : Bilgiyi nasıl elde ettiğinizi burada açıklayın (ziyaret, arama...)
+- 3: Bilgiyi nasıl elde ettiğinizi burada açıklayın (ziyaret, arama...)
 - 4: Captcha doğrulamasına geçin (büyük/küçük harfe duyarlı)
-- 5 : Önerinizi göndermek için "Rapor Gönder "e tıklayın
+- 5: Önerinizi göndermek için "Rapor Gönder "e tıklayın
 
 
 
@@ -287,7 +287,7 @@ BTC Map [kendi topluluğunuzu eklemenize] (https://btcmap.org/communities/add/) 
 - 1: Kuruluşun adı
 - 2: Fiziksel Address (zorunlu, bir sokak Address'ine ihtiyacınız var)
 - 3: Harita üzerinde kesin noktayı işaretleyin
-- 4 : Bitki hangi kategoriye giriyor?
+- 4: Bitki hangi kategoriye giriyor?
 - 5: Hangi Bitcoin ödeme ortamları mevcut (BTC, Lightning, temassız)?
 
 
@@ -307,9 +307,9 @@ BTC Map [kendi topluluğunuzu eklemenize] (https://btcmap.org/communities/add/) 
   - "Ben iş sahibiyim": Ben işletmenin yöneticisiyim
   - "Müşteri olarak ziyaret ettim": Bu kuruluşu müşteri olarak ziyaret ettim
   - "diğer yöntem
-- 12 : Platformun daha fazla bilgiye ihtiyaç duyması halinde e-posta adresiniz Address
+- 12: Platformun daha fazla bilgiye ihtiyaç duyması halinde e-posta adresiniz Address
 - 13: Captcha kontrolü (büyük/küçük harfe duyarlı)
-- 14 : Listenizi göndermek için "Konum Gönder "e tıklayın
+- 14: Listenizi göndermek için "Konum Gönder "e tıklayın
 
 
 

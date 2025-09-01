@@ -71,7 +71,7 @@ F-Droid fornisce informazioni complete su ogni applicazione che si desidera inst
 
 
 
-Cliccando sull'applicazione, troverete, tra le altre cose :
+Cliccando sull'applicazione, troverete, tra le altre cose:
 
 
 
@@ -117,7 +117,7 @@ Concedere i diritti di installazione di F-Droid abilitando l'opzione nelle impos
 
 
 
-F-Droid incoraggia la pratica dell'open source e il contributo della comunità, in particolare attraverso l'opzione **Near By** Exchange. Collegatevi agli utenti intorno a voi tramite :
+F-Droid incoraggia la pratica dell'open source e il contributo della comunità, in particolare attraverso l'opzione **Near By** Exchange. Collegatevi agli utenti intorno a voi tramite:
 
 
 

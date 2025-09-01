@@ -260,7 +260,7 @@ PureOS'u kullanmaya başlamadan önce sisteminizi güncellemeniz çok önemlidir
 
 
 
-- Interface grafiği aracılığıyla güncelleme** :
+- Interface grafiği aracılığıyla güncelleme**:
 
 
 Yazılım** uygulamasını açın, ardından **Güncellemeler** sekmesine gidin. Mevcut güncellemeler otomatik olarak görüntülenir. İndirme işlemi tamamlandıktan sonra **İndir** ve ardından **Yükle** seçeneğine tıklayın.
@@ -269,7 +269,7 @@ Yazılım** uygulamasını açın, ardından **Güncellemeler** sekmesine gidin.
 
 
 
-- Terminal üzerinden güncelleyin** :
+- Terminal üzerinden güncelleyin**:
 
 
 Terminali açın, ardından mevcut paketlerin listesini güncellemek için aşağıdaki komutu girin:

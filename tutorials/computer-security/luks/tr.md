@@ -30,7 +30,7 @@ Bir USB belleği şifrelemek, hassas verilerinizi korumanın iyi bir yoludur. **
 
 
 
-Bu öğreticiyi takip etmek için ihtiyacınız olacak :
+Bu öğreticiyi takip etmek için ihtiyacınız olacak:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" USB anahtarımıza verdiğimiz "kısayoldur" ("**/dev/mapper**" Linux'ta eşleme için geneldir). Bu nedenle şifresi çözülmüş bölümümüze erişim sağlar. İşte şimdi görmeniz gereken şey :
+"**/dev/mapper/usbkey1**" USB anahtarımıza verdiğimiz "kısayoldur" ("**/dev/mapper**" Linux'ta eşleme için geneldir). Bu nedenle şifresi çözülmüş bölümümüze erişim sağlar. İşte şimdi görmeniz gereken şey:
 
 
 
@@ -353,7 +353,7 @@ Bu, USB belleğimizdeki verilere özgürce ve şeffaf bir şekilde erişebilece�
 
 
 
-İşlemimiz tamamlandığında, birimimizi bozmadığımızdan emin olmak için her şeyi düzgün bir şekilde kapatmayı unutmayın. İlk adım, :
+İşlemimiz tamamlandığında, birimimizi bozmadığımızdan emin olmak için her şeyi düzgün bir şekilde kapatmayı unutmayın. İlk adım,:
 
 
 

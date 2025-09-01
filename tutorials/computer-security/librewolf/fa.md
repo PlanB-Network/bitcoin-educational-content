@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### در ویندوز
 
 
-نصب‌کننده (.exe) را از وب‌سایت رسمی دانلود کنید یا از :
+نصب‌کننده (.exe) را از وب‌سایت رسمی دانلود کنید یا از:
 
 
 
 
-- چاکلتی :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- چاکلتی:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 

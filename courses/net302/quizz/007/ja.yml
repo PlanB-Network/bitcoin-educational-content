@@ -1,0 +1,9 @@
+question: 学術界でTCP/IPプロトコルの普及を促進した大学のオペレーティングシステムは？
+answer: ビーエスディーユニックス
+wrong_answers:
+  - リナックス
+  - ソラリス
+  - ミニックス
+explanation: |
+  バークレー大学で開発されたBSD Unixは、TCP/IPプロトコルを統合した最初のシステムのひとつであり、学術界に広く普及するのに貢献した。
+reviewed: false

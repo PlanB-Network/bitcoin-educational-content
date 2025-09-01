@@ -1,0 +1,9 @@
+question: Bir Lightning Invoice'da, insan tarafından okunabilir kısımdaki lnbc öneki ne anlama gelir?
+answer: Bitcoin Blockchain üzerinde bir Lightning işlemi olduğunu gösterir
+wrong_answers:
+  - Invoice'ün yalnızca Bitcoin Testnet üzerinde geçerli olması
+  - Invoice'nın bech32'de kodlanmış olması
+  - Bunun bir On-Chain işlemi olduğu
+explanation: |
+  Lnbc öneki, Invoice'un başka bir ağda değil, Bitcoin ağındaki bir Lightning işlemi için olduğunu gösterir.
+reviewed: false

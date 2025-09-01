@@ -1,0 +1,9 @@
+question: Que sistema operativo universitário facilitou a difusão dos protocolos TCP/IP no mundo académico?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  O BSD Unix, desenvolvido pela Universidade de Berkeley, foi um dos primeiros sistemas a integrar os protocolos TCP/IP e ajudou a difundi-los amplamente no mundo académico.
+reviewed: false

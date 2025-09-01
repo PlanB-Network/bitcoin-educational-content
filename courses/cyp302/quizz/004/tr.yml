@@ -1,0 +1,9 @@
+question: Diğer Beale şifrelerinin çözülememesinin ana nedeni nedir?
+answer: Bu şifrelerin anahtarı hala bilinmiyor
+wrong_answers:
+  - Şifrelenmiş metinler çok eski
+  - Kutu deşifre edilemeden kayboldu
+  - Araştırmacılar güvenilir tarihi belgelerden yoksun
+explanation: |
+  Diğer Beale şifreleri hiçbir zaman çözülememiştir, çünkü sayısız denemeye rağmen bunları okumak için gerekli anahtar bilinmemektedir.
+reviewed: false

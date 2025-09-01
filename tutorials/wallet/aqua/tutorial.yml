@@ -119,6 +119,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.18
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.66
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.18
 tags:
   - wallets
   - layers

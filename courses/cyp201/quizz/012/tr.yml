@@ -1,0 +1,9 @@
+question: HMAC'de SHA512 tarafından kullanılan blok boyutu nedir?
+answer: 128 bayt
+wrong_answers:
+  - 64 bayt
+  - 256 bayt
+  - 1024 bayt
+explanation: |
+  SHA512, hesaplamaları için 1024 bite eşdeğer olan 128 baytlık bloklar kullanır.
+reviewed: false

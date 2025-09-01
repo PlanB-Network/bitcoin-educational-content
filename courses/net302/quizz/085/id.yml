@@ -1,0 +1,9 @@
+question: Perintah mana yang dapat digunakan untuk memeriksa Interface dan gateway mana yang akan dilewati paket ke 8.8.8.8?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - rute ss -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> menunjukkan jalur yang tepat yang akan diambil oleh sebuah paket untuk mencapai tujuan tertentu.
+reviewed: false

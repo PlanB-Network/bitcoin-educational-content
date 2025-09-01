@@ -329,7 +329,7 @@ Hongera, sasa uko kwenye kasi ya kutumia ujumbe wa Keet, njia mbadala nzuri ya W
 
 
 
-Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail :
+Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail:
 
 
 

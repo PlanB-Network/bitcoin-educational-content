@@ -2,7 +2,7 @@ question: Qual è il motivo principale per non pagare gli hacker in caso di rans
 answer: Pagare il riscatto non garantisce il recupero dei propri dati e può incoraggiare i criminali informatici a continuare le loro attività malevole.
 wrong_answers:
   - Pagare il riscatto è illegale e può incoraggiare i criminali informatici a continuare le loro attività malevole.
-  - Pagare il riscatto non garantisce il recupero dei propri dati e può incoraggiare gli hacker a chiedere più soldi dopo il pagamento iniziale.
+  - Pagare il riscatto non garantisce il recupero dei propri dati ma può incoraggiare gli hacker ad attaccare altre vittime.
   - Pagare il riscatto può incoraggiare i criminali informatici a continuare le loro attività malevole poiché il metodo di pagamento è solitamente non rintracciabile.
 explanation: |
   Pagare il riscatto non garantisce che si riavranno indietro

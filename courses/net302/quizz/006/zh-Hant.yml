@@ -1,0 +1,9 @@
+question: 哪個組織負責監督網際網路通訊協定的技術管理？
+answer: 網際網路架構董事會
+wrong_answers:
+  - 網路社群
+  - 萬維網聯盟
+  - 電機電子工程師學會
+explanation: |
+  網際網路架構委員會 (IAB) 負責監督技術管理並協調網際網路通訊協定的演進。
+reviewed: false

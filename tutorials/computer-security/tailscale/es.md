@@ -159,7 +159,7 @@ Una vez creada tu cuenta, puedes instalar Tailscale en tus dispositivos:
 
 
 
-- **En Linux (Debian, Ubuntu, etc.):** Tienes varias opciones. El método más sencillo es ejecutar el script de instalación oficial: por ejemplo, en Debian/Ubuntu :
+- **En Linux (Debian, Ubuntu, etc.):** Tienes varias opciones. El método más sencillo es ejecutar el script de instalación oficial: por ejemplo, en Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ La consola de administración web te permite ver y gestionar todos los dispositi
 
 
 
-- Interfaz Web (Admin Console)** : Accesible en [https://login.tailscale.com](https://login.tailscale.com), esta consola web es el panel central para tu red Tailscale. Lista todos los dispositivos (*Máquinas*), su estado online/offline, sus direcciones IP Tailscale, y más. Aquí puedes **gestionar dispositivos** (renombrar, expirar claves, autorizar rutas, deshabilitar un nodo), **gestionar usuarios** (en un contexto organizativo), y definir reglas de seguridad (ACLs). Aquí también se configuran opciones globales como MagicDNS, etiquetas o claves de autenticación (claves de autenticación pre-generate para la adición automática de dispositivos). La Interfaz web es muy útil para obtener una visión general y aplicar cambios que se propagarán a través del servidor de coordinación a todos los nodos. *Ejemplo:* Activar una **ruta de subred** o un **nodo de salida** se hace con un solo clic en la consola, una vez que el nodo en cuestión se ha anunciado como tal.
+- Interfaz Web (Admin Console)**: Accesible en [https://login.tailscale.com](https://login.tailscale.com), esta consola web es el panel central para tu red Tailscale. Lista todos los dispositivos (*Máquinas*), su estado online/offline, sus direcciones IP Tailscale, y más. Aquí puedes **gestionar dispositivos** (renombrar, expirar claves, autorizar rutas, deshabilitar un nodo), **gestionar usuarios** (en un contexto organizativo), y definir reglas de seguridad (ACLs). Aquí también se configuran opciones globales como MagicDNS, etiquetas o claves de autenticación (claves de autenticación pre-generate para la adición automática de dispositivos). La Interfaz web es muy útil para obtener una visión general y aplicar cambios que se propagarán a través del servidor de coordinación a todos los nodos. *Ejemplo:* Activar una **ruta de subred** o un **nodo de salida** se hace con un solo clic en la consola, una vez que el nodo en cuestión se ha anunciado como tal.
 
 
 
@@ -289,7 +289,7 @@ CLI es muy útil en servidores sin Interfaz gráfica, y para scripting de cierta
 
 
 
-Umbrel es una popular plataforma de autoalojamiento (utilizada especialmente para los nodos Bitcoin/Lightning y otros servicios autoalojados, a través de su App Store). Para instalar y configurar Umbrel, te recomendamos que sigas nuestro tutorial dedicado :
+Umbrel es una popular plataforma de autoalojamiento (utilizada especialmente para los nodos Bitcoin/Lightning y otros servicios autoalojados, a través de su App Store). Para instalar y configurar Umbrel, te recomendamos que sigas nuestro tutorial dedicado:
 
 
 
@@ -387,7 +387,7 @@ El acceso es extraordinariamente sencillo: en lugar de utilizar `umbrel.local` (
 
 
 
-**Conecta monederos externos a tus nodos Bitcoin o lightning a través de Tailscale :**
+**Conecta monederos externos a tus nodos Bitcoin o lightning a través de Tailscale:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Para configurar Zeus con tu nodo Lightning, consulta nuestro tutorial detallado :
+Para configurar Zeus con tu nodo Lightning, consulta nuestro tutorial detallado:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Para saber más sobre la Lightning Network y su funcionamiento en Umbrel, visita :
+Para saber más sobre la Lightning Network y su funcionamiento en Umbrel, visita:
 
 
 
@@ -608,7 +608,7 @@ Tailscale es una herramienta esencial para el autoalojamiento, gracias a su simp
 
 
 - **Tutoriales Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Guías específicas para el autoalojamiento.
-- **Configuración de un Nodo de Salida** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Guía detallada para configurar Nodos de Salida.
+- **Configuración de un Nodo de Salida**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Guía detallada para configurar Nodos de Salida.
 - **Utiliza Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Transfiere archivos entre dispositivos Tailscale.
 
 

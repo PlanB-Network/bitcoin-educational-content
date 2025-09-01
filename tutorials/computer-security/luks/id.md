@@ -30,7 +30,7 @@ Mengenkripsi stik USB adalah cara yang baik untuk melindungi data sensitif Anda.
 
 
 
-Untuk mengikuti tutorial ini, Anda memerlukan :
+Untuk mengikuti tutorial ini, Anda memerlukan:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih yang mana pun yang Anda suka. Kita kemudian perlu memformat partisi yang terdapat pada partisi LUKS, misalnya, di sini sebagai **ext4** :
+Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih yang mana pun yang Anda suka. Kita kemudian perlu memformat partisi yang terdapat pada partisi LUKS, misalnya, di sini sebagai **ext4**:
 
 
 
@@ -353,7 +353,7 @@ Ini berarti kita dapat mengakses data pada stik USB kita secara bebas dan transp
 
 
 
-Setelah operasi kita selesai, jangan lupa untuk menutup semuanya dengan benar untuk memastikan volume kita tidak rusak. Langkah pertama adalah melepas pemasangan file :
+Setelah operasi kita selesai, jangan lupa untuk menutup semuanya dengan benar untuk memastikan volume kita tidak rusak. Langkah pertama adalah melepas pemasangan file:
 
 
 

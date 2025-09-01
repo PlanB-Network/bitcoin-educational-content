@@ -1,0 +1,9 @@
+question: Bastiat'nın Görülen ve Görülmeyen'de karşı çıktığı temel yanılgı nedir?
+answer: Yıkım ekonomiyi canlandırır
+wrong_answers:
+  - Yıkım bir talihsizliktir
+  - Kırık camlardan sadece camcılar faydalanır
+  - Kazalardan kaçınılmalıdır
+explanation: |
+  Bastiat, yıkımın ekonomiyi canlandırarak faydalı ekonomik etkileri olacağı yanılgısını eleştirmekte, bunun yerine net bir servet kaybına yol açtığını göstermektedir.
+reviewed: false

@@ -1,0 +1,19 @@
+question: Bitcoin'ı merkez bankaları veya hükümetler tarafından kontrol edilen geleneksel para birimlerinden ayıran nedir?
+answer: Hepsi
+wrong_answers:
+  - Bitcoin madenciler, düğümler ve geliştiriciler arasında işbirliği gerektirir
+  - Bitcoin herkesin ağa katılmasına ve kilit rolleri yerine getirmesine olanak tanır
+  - Bitcoin merkezi olmayan bir mutabakat sistemine dayanır
+explanation: |
+  Bitcoin'yı geleneksel fiat para birimlerinden ayıran şey
+  üç temel rol ve topluluk arasındaki işbirliği çabası.
+  Düğümler, kapı bekçileri olarak hizmet vererek ağın bütünlüğünü ve güvenliğini sağlar.
+  Madenciler işlemlerin işlenmesinden ve Blockchain'ün bakımından sorumludur.
+  Geliştiriciler, Bitcoin topluluğunun birlikte çalışan son derece yetenekli üyeleridir
+  ağa güç veren yazılımı korumak ve geliştirmek için.
+  Toplum, Bitcoin'nın kullanımı yoluyla ona değer katan şeydir.
+  Bu rollerin her biri Bitcoin'nın bir ağ olarak işlevselliği ve başarısı için gereklidir
+  dijital para birimi. Bu önemli görevleri kilit oyunculara emanet ederek, Bitcoin şunları yapabilir
+  için merkezi olmayan, güvenli, şeffaf ve hesap verebilir bir Exchange aracı olarak faaliyet göstermektedir
+  bu da onu bugün kullandığımız merkezi para birimlerinden önemli ölçüde farklı kılıyor.
+reviewed: true

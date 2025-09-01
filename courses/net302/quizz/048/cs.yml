@@ -1,0 +1,9 @@
+question: Do které skupiny Layer modelu OSI patří MAC Address?
+answer: Datové spojení Layer
+wrong_answers:
+  - Aplikace Layer
+  - Doprava Layer
+  - Síť Layer
+explanation: |
+  MAC Address pracuje na úrovni Layer 2 modelu OSI, známé jako "datový spoj Layer", kde se používá pro hardwarové adresování rámců.
+reviewed: false

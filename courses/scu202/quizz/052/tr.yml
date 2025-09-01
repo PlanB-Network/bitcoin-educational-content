@@ -1,0 +1,9 @@
+question: Bir dosyayı çevrimiçi veya e-posta ile paylaşmadan önce hangi uygulamanın yapılması önerilir?
+answer: Tüm meta verileri temizleyin
+wrong_answers:
+  - Tüm meta verileri şifreleyin
+  - Tüm meta verileri doğrulayın
+  - Tüm meta verileri yeniden adlandırın
+explanation: |
+  Meta veri temizliği, dosya paylaşımı sırasında hassas bilgilerin yanlışlıkla ifşa edilmesini önler.
+reviewed: false

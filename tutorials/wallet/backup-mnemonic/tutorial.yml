@@ -118,6 +118,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.85
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.16
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.85
 tags:
   - keys
   - backup

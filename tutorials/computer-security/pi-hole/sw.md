@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-Katika sehemu ya DNS, unapaswa kuwa na Address ya Pi-Hole yako, kwa upande wangu 192.168.1.42 :
+Katika sehemu ya DNS, unapaswa kuwa na Address ya Pi-Hole yako, kwa upande wangu 192.168.1.42:
 
 
 
@@ -286,7 +286,7 @@ Ili kuiongeza, kwanza unganisha kwa msimamizi wa Interface: **http://<ip_du_PiHo
 
 
 
-Nenosiri la msimamizi tayari limetolewa (angalia picha ya skrini ya mwisho wa usakinishaji), kwa hivyo unachohitaji kufanya ni kuliingiza ili kufikia Interface :
+Nenosiri la msimamizi tayari limetolewa (angalia picha ya skrini ya mwisho wa usakinishaji), kwa hivyo unachohitaji kufanya ni kuliingiza ili kufikia Interface:
 
 
 

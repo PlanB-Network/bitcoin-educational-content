@@ -1,0 +1,9 @@
+question: Ni amri gani ya Linux inayoonyesha jedwali linalotumika la uelekezaji mtandao?
+answer: onyesho la njia ya ip
+wrong_answers:
+  - ifconfig -a
+  - njia ya ping
+  - netstat -s
+explanation: |
+  onyesho la njia ya ip huorodhesha njia zinazojulikana kwa kernel na njia zinazochukuliwa na pakiti za IP.
+reviewed: false

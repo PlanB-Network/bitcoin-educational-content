@@ -1,0 +1,8 @@
+question: L'Ami des hommes'da bulamayacağınız ne var?
+answer: Tarım, imalatın yerini aldıkça imalat can çekişiyor
+wrong_answers:
+  - Ulusların uyumlu çıkarları vardır
+  - Ticaret tüm halklar arasında serbest olmalıdır
+  - Güçlü, merkezi bir hükümete duyulan ihtiyaç
+explanation: |
+  L'Ami des Hommes tarıma odaklanır ve imalatın ihmal edilmesini eleştirmez. Aksine, tarımı gerçek zenginliğin tek kaynağı olarak görür.

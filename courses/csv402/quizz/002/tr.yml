@@ -1,0 +1,9 @@
+question: CAP üçlemesinde, müşteri tarafı doğrulama ve kullanılabilirlik arasındaki denge nedir?
+answer: Her katılımcı ilgili verileri yerel olarak saklamalıdır
+wrong_answers:
+  - Veriler herkese açıktır ve otomatik olarak küresel olarak çoğaltılır
+  - Kullanılabilirlik için feda edilen tutarlılık
+  - Durum geçişleri her zaman Lightning'de yayınlanır
+explanation: |
+  Client-side Validation'da, katılımcıların kendi verilerini yönetmeleri gerektiğinden, küresel kullanılabilirlik garanti edilmez.
+reviewed: false

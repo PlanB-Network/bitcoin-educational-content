@@ -565,6 +565,7 @@ V současné době je mezi společnostmi, které drží bitcoiny, nejreprezentat
 - Majitelé velmi malých podniků** : Podnikatelé v oblasti služeb, zemědělství nebo řemesel, kteří pochopili potenciál bitcoinu a vyčlenili na něj část své pokladny. Jejich hlavní motivací je diverzifikace a svoboda, kterou jim poskytuje
 - Veřejně obchodované společnosti**, jako je MicroStrategy, vytvořily precedens tím, že převedly významnou část své podnikové pokladny na bitcoiny, což ukazuje globální posun ve strategiích alokace podnikového kapitálu. Do podzimu 2024 následovala jejich příkladu řada dalších společností, což tento trend dále legitimizovalo.
 
+Objevte aktualizovaný seznam společností, které drží nejvíce bitcoinů v hotovosti, stejně jako držené částky, na webu: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Zdanění bitcoinů v držení podniků
 
 V případě podniků, které nejsou strukturovány jako samostatné právnické osoby, jako jsou živnostníci nebo jiné subjekty, které nejsou právnickými osobami, se zdanění transakcí s bitcoiny často řídí režimem uplatňovaným na fyzické osoby. V mnoha případech se uplatňují stejná pravidla upravující kapitálové zisky nebo příjmy, jako kdyby Bitcoin prodávala fyzická osoba. V některých zemích mohou být například zisky považovány za součást osobního příjmu podnikatele, na který se vztahují **zákonné sazby daně z příjmu fyzických osob**.

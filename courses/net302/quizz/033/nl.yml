@@ -1,0 +1,9 @@
+question: Met welke techniek kunnen meerdere interne machines een enkel publiek IP Address delen om toegang te krijgen tot het internet?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address Resolutieprotocol)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (klasseloze interdomeinroutering)
+explanation: |
+  NAT vertaalt privé interne adressen naar een publiek IP Address, waardoor meerdere apparaten dezelfde externe verbinding kunnen delen.
+reviewed: false

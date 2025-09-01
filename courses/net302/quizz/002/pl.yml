@@ -1,0 +1,9 @@
+question: Jaka jest główna słabość sieci pierścieniowej?
+answer: Awaria pojedynczego urządzenia może przerwać działanie całej sieci
+wrong_answers:
+  - Wymaga wielu kabli do podłączenia każdego urządzenia
+  - Trudno jest rozszerzyć
+  - Zarządzanie nim jest złożone
+explanation: |
+  W topologii pierścienia awaria jednego urządzenia przerywa pętlę i uniemożliwia przepływ danych.
+reviewed: false

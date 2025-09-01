@@ -1,0 +1,9 @@
+question: 哪一條指令用於掃描主機的開放連接埠，並識別可存取的服務？
+answer: nmap
+wrong_answers:
+  - 挖掘
+  - 電子工具
+  - ip neigh
+explanation: |
+  nmap 會偵測開啟的連接埠、暴露的服務，有時還會偵測遠端作業系統的類型。
+reviewed: false

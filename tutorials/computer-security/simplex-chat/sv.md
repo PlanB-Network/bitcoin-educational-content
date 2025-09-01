@@ -243,7 +243,7 @@ SimpleX genererar sedan en länk för engångsbruk. Du kan vidarebefordra den ti
 
 
 
-Du kan också välja vilken profil som ska kopplas till denna inbjudningslänk. För att göra det klickar du på din profil precis under QR-koden. Du kommer då att kunna :
+Du kan också välja vilken profil som ska kopplas till denna inbjudningslänk. För att göra det klickar du på din profil precis under QR-koden. Du kommer då att kunna:
 
 
 
@@ -313,7 +313,7 @@ En av SimpleX mest kraftfulla funktioner är möjligheten att hantera flera helt
 
 
 
-Du kan till exempel skapa :
+Du kan till exempel skapa:
 
 
 

@@ -1,0 +1,13 @@
+question: Bitcoin Mining bağlamında ASIC'lerin temel avantajı nedir?
+answer: Belirli bir hesaplama türünü çok verimli bir şekilde gerçekleştirebilirler
+wrong_answers:
+  - Çok sayıda farklı türde hesaplama yapabilirler
+  - CPU'lardan daha az elektrik tüketirler
+  - CPU'lardan daha ucuzdurlar
+explanation: |
+  ASIC'ler bir CPU çipi ile karşılaştırılabilir çiplerdir, ancak
+  yalnızca belirli bir türde işlem gerçekleştirmek üzere geliştirilmiştir
+  mümkün olan en verimli şekilde hesaplanması. Davada
+  gW-2 ASIC'lerin hesaplanması için tasarlanmışlardır
+  sHA256 algoritması.
+reviewed: true

@@ -459,7 +459,6 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 總之，比特幣以其分散性、程式化的稀缺性和透明度，為傳統貨幣系統提供了一個獨特的替代方案。它說明了如何利用技術來創造一種不僅有用且可驗證的貨幣，而且還透過嚴格限制其供應來保存用戶儲蓄的價值。
 
-### 第 1 節結論！
 
 # 比特幣錢包
 
@@ -713,7 +712,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 > 「我們可以在這場軍備競賽中贏得一場重大勝利，
 > 並在數年間獲得一片新的自由領域。」- 中本聰
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### 比特幣協議的誕生
 
@@ -725,7 +724,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 **您知道嗎？** 2010 年 5 月 22 日，Laszlo Hanyecz 以 10.000 BTC 的價格購買了兩個披薩，創造了歷史：這是比特幣第一次被用來購買實體商品。
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### 中本聰的消失
 

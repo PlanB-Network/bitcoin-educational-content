@@ -1,0 +1,9 @@
+question: Đơn vị dữ liệu nào được sử dụng trong Internet Layer của mô hình TCP/IP?
+answer: Datagram
+wrong_answers:
+  - Phân khúc
+  - Khung
+  - Tin nhắn
+explanation: |
+  Internet Layer xử lý các gói dữ liệu, đóng gói các phân đoạn từ Transport Layer.
+reviewed: false

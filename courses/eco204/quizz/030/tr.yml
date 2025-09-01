@@ -1,0 +1,12 @@
+question: Zimbabwe ve Weimar Cumhuriyeti örneklerinde görüldüğü gibi hiperenflasyonun ortak sonucu nedir?
+answer: Bir banknotun gerçek değeri, üzerine basıldığı kağıdın değerinden daha düşük olabilir.
+wrong_answers:
+  - Para biriminin değeri artar.
+  - Banknotlara olan talep azalır.
+  - Maddi varlıkların değeri azalır.
+explanation: |
+  Hiperenflasyon gibi belirli ekonomik koşullarda, içsel
+  bir banknotun değeri, üzerine basıldığı kağıdın değerinden daha düşük hale gelebilir.
+  Bu ciddi değer kaybı, normalde bir değer sembolü olan banknotları
+  satın alma gücü, sadece değersiz kağıt parçalarına dönüştü.
+reviewed: false

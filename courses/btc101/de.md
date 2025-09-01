@@ -442,7 +442,6 @@ Bitcoin garantiert eine solide Geldverwaltung, da seine Schöpfung von vornherei
 
 Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, seiner programmierten Knappheit und seiner Transparenz eine einzigartige Alternative zu traditionellen Geldsystemen bietet. Er veranschaulicht, wie Technologie genutzt werden kann, um eine Währung zu schaffen, die nicht nur nützlich und überprüfbar ist, sondern auch den Wert der Ersparnisse der Nutzer durch eine strikte Begrenzung des Angebots bewahrt.
 
-### Abschluss von Abschnitt 2!
 
 # Bitcoin-Wallets
 
@@ -692,7 +691,7 @@ Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er de
 ![image](assets/en/41.webp)
 
 > "Wir können eine wichtige Schlacht im Wettrüsten und ein neues Territorium der Freiheit für mehrere Jahre gewinnen" - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Das Bitcoin-Protokoll erwacht zum Leben
 
@@ -706,7 +705,7 @@ Das Forum wurde schnell zum bevorzugten Diskussionsort für Bitcoin-Nutzer, und 
 
 **Wusstest du schon?** Am 22. Mai 2010 schrieb Laszlo Hanyecz Geschichte, als er anbot, zwei Pizzen für 10.000 BTC zu kaufen: Es war das erste Mal, dass Bitcoin zum Kauf physischer Güter verwendet wurde.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Das Verschwinden von Satoshi Nakamoto
 

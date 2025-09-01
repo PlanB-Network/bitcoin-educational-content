@@ -1,0 +1,9 @@
+question: Lightning işlemlerinde LNURL'ün rolü nedir?
+answer: Düğümler ve Lightning uygulamaları arasındaki etkileşimi basitleştirmek için
+wrong_answers:
+  - Her ödeme için kanalların oluşturulmasını kolaylaştırın
+  - Ödeme bilgilerinin gizliliğini sağlamak
+  - İşlem ücretlerini otomatik olarak hesaplayın
+explanation: |
+  LNURL, düğümler ve Lightning uygulamaları arasındaki para çekme ve ödeme gibi etkileşimleri basitleştirmek için tasarlanmış bir iletişim protokolüdür.
+reviewed: false

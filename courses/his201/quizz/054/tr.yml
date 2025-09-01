@@ -1,0 +1,9 @@
+question: Hangi Amerikalı geliştirici 15 Ağustos 2010'daki değer taşması olayı sırasında garip bir blok tespit etti?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Bu blok, bir açıktan yararlanarak 184 milyardan fazla bitcoin yarattı.
+reviewed: true

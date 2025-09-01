@@ -1,0 +1,9 @@
+question: Bastiat'nın insanın doğuştan sahip olduğu doğaya ilişkin görüşü nedir?
+answer: Sahibi
+wrong_answers:
+  - Köle
+  - İyi
+  - İtaatkar
+explanation: |
+  Bastiat, insanın bir sahip olarak doğduğunu, çünkü ihtiyaçlarını karşılamak için yeteneklerini kullanma hakkına sahip olduğunu ileri sürer.
+reviewed: false

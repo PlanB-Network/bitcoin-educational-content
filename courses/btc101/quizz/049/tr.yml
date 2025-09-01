@@ -1,0 +1,9 @@
+question: Hiperenflasyon olgusunda ortaya çıkan ilk aşama nedir?
+answer: Bir para birimine olan güvenin kaybolması.
+wrong_answers:
+  - Para birimi çöküşü ve fiyat artışı.
+  - Para basmanın kısır döngüsü.
+  - Yeni bir para birimi ortaya çıkıyor.
+explanation: |
+  Hiperenflasyonun ilk aşaması bir para birimine olan güvenin kaybolmasıdır.
+reviewed: true

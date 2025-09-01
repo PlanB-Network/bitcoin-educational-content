@@ -51,7 +51,7 @@ Alat se široko koristi od strane različitih korisnika, uključujući sistemske
 
 
 
-Projekat je dostupan na ovom Address na **Github** :
+Projekat je dostupan na ovom Address na **Github**:
 
 
 
@@ -82,7 +82,7 @@ Ovaj način instalacije omogućava vam da koristite komandu **lynis** sa bilo ko
 
 
 
-Povežite se sa svojim serverom putem SSH i unesite sledeće komande da instalirate Lynis :
+Povežite se sa svojim serverom putem SSH i unesite sledeće komande da instalirate Lynis:
 
 
 
@@ -209,7 +209,7 @@ Da biste prikazali dostupne komande, jednostavno unesite sledeću komandu:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Ovo je ono što dobijaš:
 
 
 
-Ako želite prikazati sve opcije, morate uneti :
+Ako želite prikazati sve opcije, morate uneti:
 
 
 
@@ -336,7 +336,7 @@ Ovde možemo videti da Lynis preporučuje instalaciju **fail2ban**:
 
 
 
-U odeljku "**Boot and services**" vidimo da bi zaštita servisa putem *systemd*-a mogla biti poboljšana. S pozitivne strane, Grub2 je prisutan i nema problema sa dozvolama na :
+U odeljku "**Boot and services**" vidimo da bi zaštita servisa putem *systemd*-a mogla biti poboljšana. S pozitivne strane, Grub2 je prisutan i nema problema sa dozvolama na:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Neke informacije o instaliranim paketima :
+Neke informacije o instaliranim paketima:
 
 
 
@@ -623,7 +623,7 @@ Hajde da pogledamo preporuke za SSH. One su navedene ispod. Ne brinite, odmah ć
 
 
 
-Hajde da detaljnije pogledamo moju trenutnu **SSH** konfiguraciju u :**/etc/ssh/sshd_config**
+Hajde da detaljnije pogledamo moju trenutnu **SSH** konfiguraciju u:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Konfiguracija predložena u nastavku još uvek može biti optimizovana, ali vam 
 
 
 
-Mi ćemo :
+Mi ćemo:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Zadrži autentifikaciju lozinkom :
+- Zadrži autentifikaciju lozinkom:
 
 
 
@@ -804,7 +804,7 @@ Vredi napomenuti da je u nekim jurisdikcijama slanje poruke pre autentifikacije 
 
 
 
-Na slikama, ovo daje :
+Na slikama, ovo daje:
 
 
 

@@ -1,0 +1,9 @@
+question: Bir HTLC alıcısının fonları alabilmesi için hangi koşulun yerine getirilmesi gerekir?
+answer: Ödemenin kilidini açmak için bir sır (ön görüntü) sağlamaları gerekir.
+wrong_answers:
+  - Her bir aracı düğümün yönlendirme ücretlerini kabul etmelidirler.
+  - Yeni bir Commitment Transaction imzalamaları gerekiyor.
+  - Fonları almadan önce zaman kilidinin sona ermesini beklemeleri gerekir.
+explanation: |
+  Bir HTLC'deki fonları almak için, alıcının Hash tarafından güvence altına alınan ödemenin kilidini açmaya izin veren belirli bir sır vermesi gerekir.
+reviewed: false

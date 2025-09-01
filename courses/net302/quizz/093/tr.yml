@@ -1,0 +1,9 @@
+question: Hangi araç kayıtlar ve çözümleme süreci de dahil olmak üzere ayrıntılı DNS mesajlarını görüntüler?
+answer: kazmak
+wrong_answers:
+  - ev sahibi
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper), kayıt türleri de dahil olmak üzere DNS çözümlemesi hakkında ayrıntılı bilgi sağlar.
+reviewed: false

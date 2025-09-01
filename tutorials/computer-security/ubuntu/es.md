@@ -11,12 +11,12 @@ Un sistema operativo (SO) es el software principal que gestiona todos los recurs
 ### ¿Por qué Ubuntu?
 
 
-- **Mayor seguridad** : Las distribuciones Linux son famosas por su seguridad y robustez
+- **Mayor seguridad**: Las distribuciones Linux son famosas por su seguridad y robustez
 - **Coste cero**: Ubuntu y la mayoría de las distribuciones de Linux son gratuitas
 - **Gran comunidad**: Una comunidad de usuarios dispuestos a ayudar a través de foros y tutoriales
 - **Respeto de la intimidad**: Sistema de código abierto para una mayor transparencia
 - **Sencillez**: Interfaz sencilla y fácil de usar
-- **Rico ecosistema** : Amplio catálogo de software de código abierto
+- **Rico ecosistema**: Amplio catálogo de software de código abierto
 - **Asistencia periódica**: Actualizaciones seguras de Canonical
 
 ## Instalación y configuración
@@ -42,7 +42,7 @@ Un sistema operativo (SO) es el software principal que gestiona todos los recurs
 
 ### 3. Crear una llave USB de arranque
 
-Puedes utilizar varias herramientas, como Balena Etcher :
+Puedes utilizar varias herramientas, como Balena Etcher:
 
 
 - Descargar e instalar [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Introduce tu contraseña cuando se te solicite
-- Para instalar actualizaciones, escribe :
+- Para instalar actualizaciones, escribe:
 
 ```bash
 sudo apt upgrade
@@ -207,7 +207,7 @@ Puedes crear, editar y guardar documentos en diversos formatos (incluido .docx).
 
 Gestor de software (llamado "Ubuntu Software"): interfaz gráfica para buscar e instalar aplicaciones.
 
-Desde Terminal, utiliza el comando :
+Desde Terminal, utiliza el comando:
 
 ```bash
 sudo apt install nom-du-paquet

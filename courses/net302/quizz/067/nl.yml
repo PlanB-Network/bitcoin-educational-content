@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste motivatie voor het gebruik van willekeurige Interface identificaties in plaats van MAC Address in IPv6?
+answer: Privacy behouden
+wrong_answers:
+  - Pakketgrootte verkleinen
+  - DNS-resolutie versnellen
+  - ARP-compatibiliteit verbeteren
+explanation: |
+  Het gebruik van willekeurige Interface identifiers helpt beschermen tegen het volgen van apparaten gebaseerd op de MAC Address.
+reviewed: false

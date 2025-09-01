@@ -1,0 +1,9 @@
+question: Lệnh Linux nào hiển thị bảng định tuyến mạng đang hoạt động?
+answer: hiển thị tuyến đường ip
+wrong_answers:
+  - ifconfig -a
+  - tuyến đường ping
+  - netstat -s
+explanation: |
+  ip route show liệt kê các tuyến đường mà kernel biết đến và các đường dẫn mà các gói IP sử dụng.
+reviewed: false

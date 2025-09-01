@@ -1,0 +1,11 @@
+question: Kagan'ın hiperenflasyon kriteri nedir?
+answer: Aylık %50'lik bir enflasyon oranı.
+wrong_answers:
+  - Yıllık %50'lik bir enflasyon oranı.
+  - Aylık %25'lik bir enflasyon oranı.
+  - Yıllık %25'lik bir enflasyon oranı.
+explanation: |
+  Kagan'ın kriteri hiperenflasyonu %50'lik bir enflasyon oranı olarak tanımlar
+  aylık. Bu kriter bazen belirsiz yorumlara yol açabilir
+  yüksek enflasyon oranlarına sahip olan ancak hiperenflasyonun kesin tanımını karşılamayan yıllar.
+reviewed: false

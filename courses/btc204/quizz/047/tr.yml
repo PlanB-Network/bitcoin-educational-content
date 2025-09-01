@@ -1,0 +1,10 @@
+question: BIP47'de bildirim işleminin rolü nedir?
+answer: Ödeme kodunu alıcıya iletmek ve ödemelerin geldiğini bildirmek için.
+wrong_answers:
+  - Ödeme kodları aracılığıyla gelecekteki işlemler için Address alan Bitcoin'i doğrulayın.
+  - Alıcı tarafından bitcoinlerin alındığını BIP47 ile onaylayın.
+  - Bitcoinleri harcayabilmeleri için göndericinin geçici özel anahtarlarını alıcıya gönderin.
+explanation: |
+  Bildirim işlemi, ödeme kodunun göndericiden alıcıya iletilmesini sağlar, böylece alıcı bunu bilebilir ve daha sonra Wallet kurtarma durumunda yalnızca seed'lerinden bulabilir. Adından da anlaşılacağı gibi, aynı zamanda bir bildirim rolü oynar.
+  
+reviewed: false

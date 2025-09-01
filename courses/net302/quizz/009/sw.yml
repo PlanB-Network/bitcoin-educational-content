@@ -1,0 +1,9 @@
+question: Ni shirika gani la Marekani lilikuwa nyuma ya mradi wa ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Wakala wa Miradi ya Utafiti wa Juu) ilianzisha ARPANET, ambayo iliweka msingi wa uundaji wa itifaki ya TCP/IP. Mnamo 1972, wakala huo ulipewa jina la DARPA (Wakala wa Miradi ya Utafiti wa Kina wa Ulinzi).
+reviewed: false

@@ -14,13 +14,13 @@ RASPIBLITZ - Kuinka Pyörittää Lightning ja Bitcoin Full Nodea BTC sessionin t
 
 # Parmanin Raspiblitzin asennusopas
 
-Raspiblitz on erinomainen järjestelmä Bitcoin Noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja My Node -nodea useimmille käyttäjille (Ideaalitilanteessa kaksi nodea redundanssin vuoksi.) Yksi merkittävä etu on, että Raspiblitz-node on "Vapaa Avoin Lähdekoodi Ohjelmisto", toisin kuin MyNode tai Umbrel. Miksi se on tärkeää? Vlad Costa selittää. Voit myös ajaa RaspbiBlitzin WiFi-yhteydellä ethernetin sijaan – tässä on lisäopas siihen. (En ole löytänyt tapaa tehdä tätä MyNoden kanssa).
+Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costa selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
 
 Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen itse (et tarvitse näyttöä).
 
-Github-sivun opas on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat ytimekkäämmät ja toivottavasti helpommat seurata.
+[Opas GitHub-sivulla](https://github.com/rootzoll/raspiblitz) on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat tiiviimmät ja toivottavasti helpommin seurattavat.
 
-Käytännössä prosessi on hyvin samanlainen kuin MyNode-noden asettaminen Raspberry Pi 4:lle. Raspiblitzin opas ehdottaa monitorin ostamista, mutta todellisuudessa et tarvitse sitä, enkä suosittelisi. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneella samassa kotiverkossa ja käytät ssh-komentoa terminaalissa. Tämä on mahdollista Linux/Macilla (helppo) ja hieman vaikeampaa Windowsilla.
+Periaatteessa prosessi on hyvin samanlainen kuin [MyNode-solmun](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) asettaminen Raspberry Pi 4:llä. Raspiblitz-opas ehdottaa monitorin ostamista, mutta et oikeasti tarvitse sellaista, enkä suosittelisi sitä. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneelta, joka on samassa kotiverkossa, ja käytät ssh-komentoa terminaalissa. Tämä onnistuu Linuxilla/Macilla (helppoa) ja hieman vaikeampaa Windowsilla.
 
 ## Vaihe 1: Osta laitteet.
 
@@ -49,10 +49,10 @@ Tämä on nopeampi, mutta tarpeettoman kallis:
 ![kuva](assets/3.webp)
 
 ## Vaihe 2: Lataa Raspiblitz-kuva
-Siirry Raspiblitzin GitHub-sivustolle ja etsi "lataa kuva" -linkki:
+Siirry [Raspiblitzin GitHub-sivustolle](https://github.com/rootzoll/raspiblitz) ja etsi linkki ”download image”:
 ![kuva](assets/4.webp)
 
-Ladatun tiedoston sha-256-tiiviste on annettu verkkosivustolla. Se muuttuu jokaisen päivityksen yhteydessä. Jos et ymmärrä, mistä tässä on kyse, sinun pitäisi, joten kirjoitin oppaan, jonka voit lukea täältä.
+Ladatun tiedoston sha-256-hajautus on saatavilla verkkosivustolla. Se muuttuu jokaisen päivityksen myötä. Jos et ymmärrä, mistä on kyse, sinun pitäisi, joten kirjoitin [oppaan, jonka voit lukea täältä.](https://armantheparman.com/gpg/)
 
 ![kuva](assets/5.webp)
 
@@ -60,9 +60,10 @@ Ladatun tiedoston sha-256-tiiviste on annettu verkkosivustolla. Se muuttuu jokai
 
 Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on helppo oppia, ja sinun pitäisi.
 
-Tässä on hyödyllinen video Linuxille, mutta se pätee myös Maciin.
+Tässä on [hyödyllinen video Linuxille, mutta se pätee myös Maciin](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Windowsille, tässä on yksinkertainen opas.
+Windowsille tässä on [yksinkertainen opetusohjelma](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_PÄIVITYS: pgp/gpg-varmennus on nyt saatavilla. Tarvitset Openomsin julkisen avaimen. [Tässä](http://parman.org/downloadable/openoms.txt) se on (saatat tarvita incognito-tilaa, jotta linkki toimii – http, ei https)_
 Mac/Linux
 
 Odota, että tiedosto on valmis latautumaan (tärkeää!), ja avaa sitten terminaali, siirry kansioon, johon latasit tiedoston, ja kirjoita seuraava komento...
@@ -88,7 +89,7 @@ Tietokone ajattelee noin 20 sekuntia. Tarkista, että tulosteen tiiviste vastaa 
 
 ## Vaihe 4: Flashaa SD-kortti
 
-Voit käyttää tähän Balena Etcheria. Lataa se täältä.
+Voit käyttää tähän Balena Etcheriä. [Lataa se täältä](https://www.balena.io/etcher/).
 
 Etcher on itsestään selvä käyttää. Aseta micro SD -korttisi ja flashaa Raspiblitz-ohjelmisto (.img-tiedosto) SD-kortille.
 
@@ -142,7 +143,7 @@ Mac/Linuxille, terminaalissa kirjoita:
 ssh admin@Sinun_Pi:n_IP_osoite
 ```
 
-Windowsille, sinun täytyy asentaa putty, jotta voit muodostaa ssh-yhteyden Pi:hin. Kirjoita sama komento kuin yllä.
+Windowsille sinun täytyy asentaa [putty](http://putty.org/) yhdistääksesi Pi:hin ssh:n kautta. Kirjoita sama komento kuin yllä.
 
 Ensimmäisellä kerralla, tai aina kun vaihdat Pi:n käyttöjärjestelmää vaihtamalla SD-korttia, saatat saada tämän virheen...
 

@@ -1,0 +1,9 @@
+question: Tổ chức nào chỉ định số phiên bản giao thức IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Cơ quan quản lý số hiệu Internet (IANA) quản lý Assignment của số phiên bản giao thức IP và việc phân bổ phạm vi giao thức.
+reviewed: false

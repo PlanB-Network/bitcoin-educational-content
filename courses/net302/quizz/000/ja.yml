@@ -1,0 +1,9 @@
+question: ITにおけるネットワークの基本的な役割とは？
+answer: イネーブル・データ Exchange
+wrong_answers:
+  - コンピュータのメモリを増やす
+  - バックアップコピーの作成
+  - コンピュータ機器のExchangeを有効にする
+explanation: |
+  ネットワークは複数の機器を接続し、情報の流通とExchangeを可能にする。
+reviewed: false

@@ -290,7 +290,7 @@ print("Hello, Bitcoin!")
     - Assurez-vous de leur pertinence et qualité.
 
 - **Charte graphique** :
-    - Police : [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Police : [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Couleurs Plan ₿ Network :
         - Orange : `#FF5C00`
         - Noir : `#000000`

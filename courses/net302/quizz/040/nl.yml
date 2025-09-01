@@ -1,0 +1,9 @@
+question: Welk record is verplicht in elk DNS zonebestand?
+answer: SOA (Begin Autoriteit)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Het SOA-record definieert de autoriteit van de zone en is vereist in elk DNS-zonebestand.
+reviewed: false

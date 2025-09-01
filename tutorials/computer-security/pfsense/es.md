@@ -30,7 +30,7 @@ pfSense es un sistema operativo gratuito y de código abierto que transforma cua
 
 
 
-Sus principales funciones han evolucionado considerablemente a lo largo de los años y se han mejorado con cada nueva versión. Hasta la fecha, pfSense ofrece :
+Sus principales funciones han evolucionado considerablemente a lo largo de los años y se han mejorado con cada nueva versión. Hasta la fecha, pfSense ofrece:
 
 
 
@@ -63,7 +63,7 @@ Por último, conviene recordar que pfSense requiere al menos dos interfaces de r
 
 
 
-La última versión estable de pfSense, en el momento de escribir este tutorial, es la 2.8 (lanzada en junio de 2025). Puede descargar la imagen ISO o el archivo de instalación adaptado a su entorno de hardware directamente desde el sitio web oficial :
+La última versión estable de pfSense, en el momento de escribir este tutorial, es la 2.8 (lanzada en junio de 2025). Puede descargar la imagen ISO o el archivo de instalación adaptado a su entorno de hardware directamente desde el sitio web oficial:
 
 
 
@@ -73,7 +73,7 @@ La última versión estable de pfSense, en el momento de escribir este tutorial,
 
 
 
-El portal de descargas le permite seleccionar :
+El portal de descargas le permite seleccionar:
 
 
 
@@ -105,7 +105,7 @@ En este ejemplo, la instalación se realiza en una máquina virtual que ejecuta 
 
 
 
-Para una implantación estándar, recomendamos :
+Para una implantación estándar, recomendamos:
 
 
 
@@ -221,7 +221,7 @@ La primera pregunta se refiere a la configuración de las VLAN. En esta fase, pa
 
 
 
-a continuación, pfSense le pedirá que defina qué Interface se utilizará para la WAN (acceso a Internet). Puede elegir entre :
+a continuación, pfSense le pedirá que defina qué Interface se utilizará para la WAN (acceso a Internet). Puede elegir entre:
 
 
 
@@ -304,7 +304,7 @@ En su navegador, vaya al Address indicado por la consola (por defecto `https://1
 
 
 
-Aparece la pantalla de inicio de sesión. Las credenciales por defecto son :
+Aparece la pantalla de inicio de sesión. Las credenciales por defecto son:
 
 
 
@@ -330,7 +330,7 @@ En la primera conexión, pfSense le pide que siga su **Asistente de configuraci�
 
 
 
-Puede :
+Puede:
 
 
 
@@ -352,7 +352,7 @@ Indique la zona horaria de su sitio para que los registros y los horarios sean c
 
 
 
-Configurar la conexión WAN :
+Configurar la conexión WAN:
 
 
 
@@ -383,7 +383,7 @@ Asegure su pfSense estableciendo inmediatamente una contraseña segura para el u
 
 
 
-Antes de instalar el cortafuegos, asegúrese de que dispone de la última versión de :
+Antes de instalar el cortafuegos, asegúrese de que dispone de la última versión de:
 
 
 
@@ -423,7 +423,7 @@ Para entornos de misión crítica, considere la posibilidad de realizar copias d
 
 
 
-Para terminar su despliegue con tranquilidad :
+Para terminar su despliegue con tranquilidad:
 
 
 

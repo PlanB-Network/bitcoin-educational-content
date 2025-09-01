@@ -1,0 +1,9 @@
+question: Bir etki alanının IP Address'ını elde etmek için bir DNS sunucusunu sorgulamak için hangi komut kullanılabilir?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup, alan adlarını IP adreslerine çözümlemek için kullanılan bir DNS sorgulama aracıdır.
+reviewed: false

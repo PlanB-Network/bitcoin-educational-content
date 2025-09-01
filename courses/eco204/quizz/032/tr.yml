@@ -1,0 +1,11 @@
+question: Almanya'daki ekonomik kriz sırasında Notgeld'in amacı neydi?
+answer: Address ortak para birimi sıkıntısı için tasarlanmıştır.
+wrong_answers:
+  - Savaş tazminatlarını ödemek için kullanıldı.
+  - Bu, hükümete karşı bir protesto biçimiydi.
+  - Bu, ekonomiyi canlandırmanın bir yoluydu.
+explanation: |
+  Parasal ve ekonomik krizle karşı karşıya kalan Almanya, Notgeld'e başvurdu
+  (acil durum parası). Şehirler ya da belirli şirketler tarafından basılan bu banknotlar
+  gW-1'e ortak para birimi sıkıntısı.
+reviewed: false

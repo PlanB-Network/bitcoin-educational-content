@@ -218,7 +218,7 @@ Setelah ini dilakukan, jika ada perangkat yang telah dinyalakan sebelumnya, pera
 
 
 
-Pada workstation Windows, dengan prompt perintah :
+Pada workstation Windows, dengan prompt perintah:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Pada stasiun kerja Linux :
+Pada stasiun kerja Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-Pada bidang DNS, Anda harus memiliki Address dari Pi-Hole Anda, dalam kasus saya 192.168.1.42 :
+Pada bidang DNS, Anda harus memiliki Address dari Pi-Hole Anda, dalam kasus saya 192.168.1.42:
 
 
 
@@ -286,7 +286,7 @@ Untuk menambahkannya, pertama-tama sambungkan ke admin Interface: **http://<ip_d
 
 
 
-Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface :
+Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface:
 
 
 
@@ -322,7 +322,7 @@ Menambahkan daftar di Pi-Hole
 
 
 
-Yang tersisa hanyalah mengklik "**Tambahkan**" untuk menambahkannya. Untuk mengaktifkannya, kita perlu melakukan langkah tambahan untuk "memperingatkan" Pi-Hole untuk mengambil alih daftar ini. Untuk melakukan ini :
+Yang tersisa hanyalah mengklik "**Tambahkan**" untuk menambahkannya. Untuk mengaktifkannya, kita perlu melakukan langkah tambahan untuk "memperingatkan" Pi-Hole untuk mengambil alih daftar ini. Untuk melakukan ini:
 
 
 

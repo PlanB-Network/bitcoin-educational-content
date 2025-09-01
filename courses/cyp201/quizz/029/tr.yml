@@ -1,0 +1,9 @@
+question: Bitcoin'ın lansmanında hangi dijital imza algoritması kullanıldı?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin, 2021'de Schnorr imzalarının kullanılmaya başlanmasından önce başlangıçta eliptik eğrilere dayalı bir imza protokolü olan ECDSA'yı kullanmıştır.
+reviewed: false

@@ -119,19 +119,19 @@ Da biste doprineli Plan ₿ Network, imate 3 opcije u zavisnosti od vašeg nivoa
 
 
 
-- Iskusni korisnici**: Nastavite sa svojim uobičajenim metodama i jednostavno se posavetujte sa kratkim vodičem ispod koji rezimira strukturu datoteka repozitorijuma Plan ₿ Network, specifične zahteve i metod rada :
+- Iskusni korisnici**: Nastavite sa svojim uobičajenim metodama i jednostavno se posavetujte sa kratkim vodičem ispod koji rezimira strukturu datoteka repozitorijuma Plan ₿ Network, specifične zahteve i metod rada:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Intermediate (GitHub Desktop)** : Ako niste upoznati sa korišćenjem Git-a, prva opcija je da lako postavite sopstveno lokalno okruženje za doprinos Plan ₿ Network. Ovaj pristup se preporučuje za značajne doprinose, kao što je pisanje kompletnog tutorijala. Da biste to uradili, pratite korak-po-korak tutorijal ispod :
+- Intermediate (GitHub Desktop)**: Ako niste upoznati sa korišćenjem Git-a, prva opcija je da lako postavite sopstveno lokalno okruženje za doprinos Plan ₿ Network. Ovaj pristup se preporučuje za značajne doprinose, kao što je pisanje kompletnog tutorijala. Da biste to uradili, pratite korak-po-korak tutorijal ispod:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Početnici (web Interface)** : Takođe možete odlučiti da koristite GitHub-ov web Interface direktno, bez potrebe za postavljanjem kompletnog lokalnog okruženja. Ova metoda se može razmotriti za manje doprinose. Međutim, za veće doprinose, kao što je dodavanje potpuno novog tutorijala, ova opcija može biti složenija nego postavljanje lokalnog okruženja. Objasniću kako to uraditi u ovom tutorijalu:
+- Početnici (web Interface)**: Takođe možete odlučiti da koristite GitHub-ov web Interface direktno, bez potrebe za postavljanjem kompletnog lokalnog okruženja. Ova metoda se može razmotriti za manje doprinose. Međutim, za veće doprinose, kao što je dodavanje potpuno novog tutorijala, ova opcija može biti složenija nego postavljanje lokalnog okruženja. Objasniću kako to uraditi u ovom tutorijalu:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

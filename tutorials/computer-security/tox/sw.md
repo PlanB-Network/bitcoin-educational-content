@@ -58,7 +58,7 @@ Unaweza kutumia itifaki ya Tox kupitia mteja wa ujumbe wa papo hapo ambao unawez
 
 
 
-Kulingana na mfumo wako wa uendeshaji, unaweza kupakua na kusakinisha kiteja cha Tox kinacholingana :
+Kulingana na mfumo wako wa uendeshaji, unaweza kupakua na kusakinisha kiteja cha Tox kinacholingana:
 
 
 

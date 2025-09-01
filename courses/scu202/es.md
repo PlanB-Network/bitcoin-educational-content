@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Paquete ofimático
 
 
@@ -5741,6 +5742,7 @@ Firefox sigue siendo una referencia en materia de seguridad y privacidad, a pesa
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Navegador Tor
 
 
@@ -5853,6 +5855,7 @@ Orion ha sido desarrollado íntegramente por el equipo Kagi (conocido por su mot
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Navegadores sin motor de renderizado
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile es la versión móvil del popular cliente de correo electrón
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA
 Ente Auth es una solución moderna, de código abierto y multiplataforma con copias de seguridad cifradas de extremo a extremo. Te permite sincronizar tus códigos 2FA de forma segura en móvil, escritorio y web. También puede utilizarla sin conexión, sin copias de seguridad en la nube ni creación de cuentas.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, iconos personalizados para cada servicio, notas, favoritos, búsqueda integrada, compartición segura de códigos de equipo.
 
 
@@ -7606,6 +7611,7 @@ Authy ofrece sincronización 2FA a través de múltiples dispositivos, lo que pu
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Si quieres saber más sobre gestores de contraseñas, autenticación 2FA y VPN, te recomiendo que leas los capítulos dedicados en el curso SCU-101:
 
 
@@ -7999,6 +8005,7 @@ Disponible en F-Droid y totalmente de código abierto, Chrono ofrece un Interfac
 La aplicación también integra un temporizador y un cronómetro, con registro de vueltas, estadísticas, comparaciones de tiempo y gestión de varios temporizadores. Puedes configurar varias zonas horarias, personalizar el tema (colores, estilos, animaciones) e incluso organizar tus alarmas y temporizadores con etiquetas.
 
 
+Para profundizar en el tema, le recomiendo visitar el sitio [*Awesome Privacy*](https://awesome-privacy.xyz/), que recopila las mejores alternativas respetuosas con la privacidad a los programas que utiliza a diario.
 ___
 
 
@@ -8490,6 +8497,7 @@ En la práctica, el cifrado DNS y la conmutación de servidores pueden aplicarse
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - A nivel de sistema operativo: Algunos sistemas operativos integran de forma nativa soporte DNS cifrado (DoT o DoH), que asegura todas las peticiones DNS que pasan por la pila de red del sistema. Sin embargo, esto no asegura todo el ordenador o el teléfono: Las aplicaciones pueden eludir este ajuste si están configuradas para utilizar un resolver DNS o protocolo diferente.
 
 

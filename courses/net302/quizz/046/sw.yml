@@ -1,0 +1,9 @@
+question: Ni itifaki gani inatumika kuhusisha IP Address na MAC Address kwenye mtandao wa Ethaneti?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Itifaki ya Azimio la Address (ARP) hupanga anwani za IP kwa anwani za MAC kwenye mitandao ya ndani.
+reviewed: false

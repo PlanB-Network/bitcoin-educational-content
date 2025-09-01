@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelarijski paket
 
 
@@ -5741,6 +5742,7 @@ Firefox ostaje merilo za sigurnost i privatnost, uprkos tome što zaostaje malo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Pregledač
 
 
@@ -5853,6 +5855,7 @@ Orion je u potpunosti razvijen od strane Kagi tima (poznatog po svom pretraživa
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Pregledači bez renderovanja motora
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta raz
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis je sveobuhvatna aplikacija otvorenog koda. Šifrira vašu 2FA bazu podatak
 Ente Auth je moderno, open-source, multiplatformsko rešenje sa end-to-end enkriptovanim rezervnim kopijama. Omogućava vam da sigurno sinhronizujete vaše 2FA kodove na mobilnim uređajima, desktopu i webu. Takođe ga možete koristiti offline, bez rezervne kopije u oblaku ili kreiranja naloga.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisana pretraga, sigurno deljenje kodova sa timom.
 
 
@@ -7606,6 +7611,7 @@ Authy nudi sinhronizaciju 2FA na više uređaja, što može biti korisno, ali ap
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-ovima, preporučujem da pročitate posvećena poglavlja u kursu SCU-101:
 
 
@@ -7999,6 +8005,7 @@ Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan I
 Aplikacija takođe integriše tajmer i štopericu, sa snimanjem krugova, statistikom, poređenjem vremena i upravljanjem više tajmera. Možete konfigurisati više vremenskih zona, prilagoditi temu (boje, stilove, animacije), pa čak i organizovati svoje alarme i tajmere sa oznakama.
 
 
+Da biste dublje istražili temu, preporučujem da posetite sajt [*Awesome Privacy*](https://awesome-privacy.xyz/), koji navodi najbolje alternative koje poštuju privatnost za softver koji koristite svakodnevno.
 ___
 
 
@@ -8490,6 +8497,7 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na nivou operativnog sistema: Neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: Aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
 
 

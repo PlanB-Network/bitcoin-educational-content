@@ -1,0 +1,9 @@
+question: Milline konfiguratsioonifail määrab staatilise võrgu Interface RHEL-taolises süsteemis?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  RHEL, CentOS ja sarnastes süsteemides on igal Interface-l oma ifcfg-* fail, mis asub failis /etc/sysconfig/network-scripts/.
+reviewed: false

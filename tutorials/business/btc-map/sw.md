@@ -165,9 +165,9 @@ Hatimaye,
 
 - 1: Weka alama kwenye kisanduku hiki ikiwa unataka tu kuthibitisha kwamba maelezo katika faili ni ya kisasa (katika kesi hii, nenda moja kwa moja kwa hatua ya 4)
 - 2: Onyesha hapa ni taarifa gani, kama ipo, si sahihi, na ni marekebisho gani unayopendekeza
-- 3 : Eleza hapa jinsi ulivyopata taarifa (tembelea, piga simu...)
+- 3: Eleza hapa jinsi ulivyopata taarifa (tembelea, piga simu...)
 - 4: Nenda kwa uthibitishaji wa captcha (nyeti kwa kesi)
-- 5 : Bofya "Wasilisha Ripoti" ili kutuma pendekezo lako
+- 5: Bofya "Wasilisha Ripoti" ili kutuma pendekezo lako
 
 
 
@@ -287,7 +287,7 @@ Ramani ya BTC inakuruhusu [kuongeza jumuiya yako mwenyewe](https://btcmap.org/co
 - 1: Jina la shirika
 - 2: Address ya Kimwili (lazima, unahitaji barabara ya Address)
 - 3: Weka alama kwenye ramani
-- 4 : Je mmea unaangukia katika kundi gani?
+- 4: Je mmea unaangukia katika kundi gani?
 - 5: Je, ni vyombo gani vya malipo vya Bitcoin vinavyopatikana (BTC, Umeme, bila mawasiliano)?
 
 
@@ -307,9 +307,9 @@ Ramani ya BTC inakuruhusu [kuongeza jumuiya yako mwenyewe](https://btcmap.org/co
   - "Mimi ndiye mmiliki wa biashara": Mimi ndiye meneja wa biashara
   - "Nilitembelea kama mteja": Nilitembelea biashara hii kama mteja
   - "njia nyingine
-- 12 : Barua pepe yako Address iwapo jukwaa litahitaji maelezo zaidi
+- 12: Barua pepe yako Address iwapo jukwaa litahitaji maelezo zaidi
 - 13: Cheki cha Captcha (kesi nyeti)
-- 14 : Bofya kwenye "Wasilisha Eneo" ili kutuma tangazo lako
+- 14: Bofya kwenye "Wasilisha Eneo" ili kutuma tangazo lako
 
 
 

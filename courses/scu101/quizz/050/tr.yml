@@ -1,0 +1,11 @@
+question: Tek seferlik şifrelerin (HOTP ve TOTP) 2FA için SMS'e göre avantajı nedir?
+answer: Kriptografik hesaplama gerektirirler ve bellek yerine yerel olarak saklanırlar.
+wrong_answers:
+  - Kriptografik hesaplamalar gerektirirler ve yerel olarak değil bellekte saklanırlar.
+  - Kriptografik hesaplamalar gerektirmezler ve yerel olarak ve bellekte saklanırlar.
+  - Hatırlaması daha kolay ve yazması daha hızlıdır.
+explanation: |
+  Tek seferlik şifreler (HOTP ve TOTP) SMS'ten daha güvenlidir
+  çünkü kriptografik hesaplama gerektirirler ve
+  bellek yerine yerel olarak depolanır.
+reviewed: true

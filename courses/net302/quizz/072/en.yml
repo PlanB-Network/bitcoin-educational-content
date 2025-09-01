@@ -1,0 +1,9 @@
+question: What type of IPv6 block allows a company to keep its prefix even when changing ISP?
+answer: PI (Provider Independent)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Local Internet Registry)
+  - IP (Interchangeable Provider)
+explanation: |
+  A PI (Provider Independent) block is allocated directly to an organization by an RIR, independently of the Internet Service Provider.
+reviewed: false

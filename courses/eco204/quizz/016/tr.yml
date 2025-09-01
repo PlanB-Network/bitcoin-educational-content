@@ -1,0 +1,10 @@
+question: Philip Cagan'ın tanımına göre hiperenflasyon için eşik nedir?
+answer: Aylık enflasyon %50'yi aştı
+wrong_answers:
+  - Aylık enflasyon %40'ı aştı
+  - Aylık enflasyon %60'ı aştı
+  - Aylık enflasyon %70'i aştı
+explanation: |
+  Philip Cagan'ın tanımına göre hiperenflasyon, aylık enflasyon
+  enflasyon %50'yi aşıyor.
+reviewed: false

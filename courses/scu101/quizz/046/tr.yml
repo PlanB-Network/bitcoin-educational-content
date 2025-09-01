@@ -1,0 +1,11 @@
+question: Kendi kendine barındırılan bir parola yöneticisi kullanmanın ana dezavantajı nedir?
+answer: Kullanmak için daha fazla teknik bilgi gerektirir.
+wrong_answers:
+  - Üçüncü taraf hizmetlerinden daha pahalıdır.
+  - Üçüncü taraf hizmetler kadar çok özellik sunmaz.
+  - Üçüncü taraf hizmetleri kadar güvenli değildir.
+explanation: |
+  Kendi kendine barındırılan bir parola yöneticisi daha fazla teknik
+  bilgi birikimini kullanmanız gerekir, çünkü kendi bilgi birikiminizi kurmanız ve yönetmeniz gerekir
+  sunucu. Bununla birlikte, daha fazla kontrol ve güvenlik sunabilir.
+reviewed: true

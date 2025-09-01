@@ -1,0 +1,9 @@
+question: Vilken är IP-protokollets viktigaste roll i TCP/IP-modellen?
+answer: Leverera datapaket från en värd till en annan
+wrong_answers:
+  - Hantera kryptering av nätverkskommunikation
+  - Säkerställa beständiga anslutningar mellan applikationer
+  - Översätt MAC-adresser till IP-adresser
+explanation: |
+  IP-protokollet hanterar den logiska adresseringen av enheter och ser till att paket dirigeras över sammankopplade nätverk.
+reviewed: false

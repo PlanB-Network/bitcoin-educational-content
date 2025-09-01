@@ -1,0 +1,9 @@
+question: Hva er den største svakheten ved et ringnettverk?
+answer: Svikt i en enkelt enhet kan forstyrre hele nettverket
+wrong_answers:
+  - Det kreves mange kabler for å koble til hvert enkelt utstyr
+  - Det er vanskelig å utvide
+  - Håndteringen er kompleks
+explanation: |
+  I en ringtopologi vil feil på én enhet bryte sløyfen og hindre data i å sirkulere.
+reviewed: false

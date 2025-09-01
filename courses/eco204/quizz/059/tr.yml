@@ -1,0 +1,11 @@
+question: 13'üncü yüzyıl İtalya'sında paranın ilk Layer'ı neydi?
+answer: Florin ile temsil edilen altın
+wrong_answers:
+  - Exchange'in Faturaları
+  - Senetler
+  - Gümüş paralar
+explanation: |
+  13. yüzyıl İtalya'sında, özellikle Floransa'da, paranın ilk Layer'ü
+  florin ile temsil edilen gerçek altındı. Kuyumcular Exchange banknotlarını
+  Yatırılan florinler için Exchange, paranın ikinci Layer'ünü oluşturdu.
+reviewed: false

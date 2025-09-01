@@ -209,7 +209,7 @@ Untuk menampilkan perintah yang tersedia, cukup masukkan perintah berikut ini:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Inilah yang Anda dapatkan:
 
 
 
-Jika Anda ingin menampilkan semua opsi, Anda harus memasukkan :
+Jika Anda ingin menampilkan semua opsi, Anda harus memasukkan:
 
 
 
@@ -336,7 +336,7 @@ Di sini, kita bisa melihat bahwa Lynis merekomendasikan untuk menginstal **fail2
 
 
 
-Pada bagian "**Boot dan layanan**", kami melihat bahwa perlindungan layanan melalui *systemd* dapat ditingkatkan. Sisi positifnya, Grub2 hadir dan tidak ada masalah dengan izin pada :
+Pada bagian "**Boot dan layanan**", kami melihat bahwa perlindungan layanan melalui *systemd* dapat ditingkatkan. Sisi positifnya, Grub2 hadir dan tidak ada masalah dengan izin pada:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Beberapa informasi tentang paket yang diinstal :
+Beberapa informasi tentang paket yang diinstal:
 
 
 
@@ -623,7 +623,7 @@ Mari kita lihat rekomendasi SSH. Mereka tercantum di bawah ini. Jangan khawatir,
 
 
 
-Mari kita lihat lebih dekat konfigurasi **SSH** saya saat ini di :**/etc/ssh/sshd_config**
+Mari kita lihat lebih dekat konfigurasi **SSH** saya saat ini di:**/etc/ssh/sshd_config**
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Mempertahankan otentikasi kata sandi :
+- Mempertahankan otentikasi kata sandi:
 
 
 
@@ -804,7 +804,7 @@ Perlu dicatat bahwa di beberapa yurisdiksi, mengirim pesan sebelum autentikasi m
 
 
 
-Dalam gambar, ini memberikan hasil :
+Dalam gambar, ini memberikan hasil:
 
 
 

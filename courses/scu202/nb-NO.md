@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontorpakke
 
 
@@ -5741,6 +5742,7 @@ Firefox er fortsatt en referanse for sikkerhet og personvern, til tross for at d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-nettleser
 
 
@@ -5853,6 +5855,7 @@ Orion er i sin helhet utviklet av Kagi-teamet (kjent for sin reklamefrie søkemo
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Nettlesere uten gjengivelsesmotorer
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile er mobilversjonen av den populære e-postklienten med åpen k
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis er et omfattende program med åpen kildekode. Den krypterer 2FA-databasen 
 Ente Auth er en moderne løsning med åpen kildekode og flere plattformer, med ende-til-ende-krypterte sikkerhetskopier. Den lar deg synkronisere 2FA-kodene dine på en sikker måte på mobil, datamaskin og nett. Du kan også bruke den offline, uten sikkerhetskopiering i skyen eller kontoopprettelse.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede ikoner for hver tjeneste, notater, favoritter, integrert søk, sikker deling av teamkoder.
 
 
@@ -7606,6 +7611,7 @@ Authy tilbyr 2FA-synkronisering på tvers av flere enheter, noe som kan være pr
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Hvis du vil vite mer om passordadministratorer, 2FA-autentisering og VPN-er, anbefaler jeg at du leser de dedikerte kapitlene i SCU-101-kurset:
 
 
@@ -7999,6 +8005,7 @@ Chrono er tilgjengelig på F-Droid og har helt åpen kildekode, og tilbyr en mod
 Programmet integrerer også en tidtaker og stoppeklokke, med runderegistrering, statistikk, tidssammenligninger og administrasjon av flere tidtakere. Du kan konfigurere flere tidssoner, tilpasse temaet (farger, stiler, animasjoner) og til og med organisere alarmer og tidtakere med etiketter.
 
 
+For å gå dypere inn i temaet, anbefaler jeg å besøke nettstedet [*Awesome Privacy*](https://awesome-privacy.xyz/), som lister de beste personvernvennlige alternativene til programvaren du bruker daglig.
 ___
 
 
@@ -8490,6 +8497,7 @@ I praksis kan DNS-kryptering og serverbytte implementeres på ulike nivåer:
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - På operativsystemnivå: Noen operativsystemer har innebygd støtte for kryptert DNS (DoT eller DoH), noe som sikrer alle DNS-forespørsler som går gjennom systemets nettverksstack. Dette sikrer imidlertid ikke hele datamaskinen eller telefonen: Programmer kan omgå denne innstillingen hvis de er konfigurert til å bruke en annen DNS-resolver eller -protokoll.
 
 

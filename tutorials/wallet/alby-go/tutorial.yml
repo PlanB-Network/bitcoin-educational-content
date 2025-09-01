@@ -22,7 +22,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MoritzKa
-    reward: 0
+    reward: 0.24
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -119,6 +119,16 @@ proofreading:
     contributor_names:
     reward: 0.74
   - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.61
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.48
+  - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:

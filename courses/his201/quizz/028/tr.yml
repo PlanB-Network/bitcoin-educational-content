@@ -1,0 +1,9 @@
+question: Ocak 2009'da Hal Finney'in tahmin fiyatı dolar cinsinden neydi?
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  O [yazdı](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) bugün birkaç sentlik hesaplama süresiyle birim üretme olasılığının çok iyi bir bahis olabileceğini söyledi.
+reviewed: true

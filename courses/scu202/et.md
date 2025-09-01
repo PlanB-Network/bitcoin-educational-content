@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontoripakett
 
 
@@ -5741,6 +5742,7 @@ Firefox jääb turvalisuse ja privaatsuse osas endiselt eeskujuks, kuigi jääb 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor brauser
 
 
@@ -5853,6 +5855,7 @@ Orion on täielikult välja töötatud Kagi meeskonna poolt (tuntud oma reklaami
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Brauserid ilma renderdusmootoriteta
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationi poolt välja töötatud populaarse ava
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis on terviklik avatud lähtekoodiga rakendus. See krüpteerib teie 2FA-andme
 Ente Auth on kaasaegne, avatud lähtekoodiga, mitmeplatvormiline lahendus, millel on läbivalt krüpteeritud varukoopiad. See võimaldab teil sünkroonida oma 2FA-koode turvaliselt mobiilis, lauaarvutis ja veebis. Saate seda kasutada ka võrguühenduseta, ilma pilve varundamise või konto loomiseta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth pakub palju lisafunktsioone: Ente Ente pakub: organiseerimine siltide järgi, kohandatud ikoonid iga teenuse jaoks, märkmed, lemmikud, integreeritud otsing, turvaline meeskonnakoodi jagamine.
 
 
@@ -7606,6 +7611,7 @@ Authy pakub 2FA sünkroniseerimist mitme seadme vahel, mis võib olla kasulik, k
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Kui soovite rohkem teada saada paroolihalduritest, 2FA autentimisest ja VPNidest, soovitan lugeda SCU-101 kursuse vastavaid peatükke:
 
 
@@ -7999,6 +8005,7 @@ F-Droidil saadaval ja täielikult avatud lähtekoodiga, pakub Chrono kaasaegset,
 Rakendus sisaldab ka taimerit ja stopperit, ringide salvestamist, statistikat, ajavõrdlusi ja mitme ajamiga haldamist. Saate konfigureerida mitu ajavööndit, kohandada teemat (värvid, stiilid, animatsioonid) ja isegi organiseerida oma alarmid ja taimerid siltidega.
 
 
+Teema sügavamaks uurimiseks soovitan külastada lehte [*Awesome Privacy*](https://awesome-privacy.xyz/), mis loetleb parimad privaatsust austavad alternatiivid igapäevaselt kasutatavale tarkvarale.
 ___
 
 
@@ -8490,6 +8497,7 @@ Praktikas saab DNS-i krüpteerimist ja serveri vahetamist rakendada erinevatel t
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Operatsioonisüsteemi tasandil: Mõned operatsioonisüsteemid integreerivad algselt krüpteeritud DNS-toe (DoT või DoH), mis turvab kõik DNS-päringud, mis läbivad süsteemi võrgupinu. See ei taga siiski kogu arvuti või telefoni turvalisust: Rakendused võivad sellest seadistusest mööda minna, kui nad on konfigureeritud kasutama teistsugust DNS-resolverit või -protokolli.
 
 

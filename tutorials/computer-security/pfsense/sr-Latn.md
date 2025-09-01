@@ -30,7 +30,7 @@ pfSense je besplatan, open source operativni sistem koji transformiše bilo koji
 
 
 
-Njegove glavne funkcije su se značajno razvijale tokom godina i unapređivane su sa svakom novom verzijom. Do danas, pfSense nudi :
+Njegove glavne funkcije su se značajno razvijale tokom godina i unapređivane su sa svakom novom verzijom. Do danas, pfSense nudi:
 
 
 
@@ -63,7 +63,7 @@ Konačno, vredi zapamtiti da pfSense zahteva najmanje dva fizička mrežna inter
 
 
 
-Najnovija stabilna verzija pfSense, u trenutku pisanja ovog vodiča, je 2.8 (objavljena u junu 2025). Možete preuzeti ISO sliku ili instalacionu datoteku prilagođenu vašem hardverskom okruženju direktno sa zvaničnog sajta :
+Najnovija stabilna verzija pfSense, u trenutku pisanja ovog vodiča, je 2.8 (objavljena u junu 2025). Možete preuzeti ISO sliku ili instalacionu datoteku prilagođenu vašem hardverskom okruženju direktno sa zvaničnog sajta:
 
 
 
@@ -73,7 +73,7 @@ Najnovija stabilna verzija pfSense, u trenutku pisanja ovog vodiča, je 2.8 (obj
 
 
 
-Portal za preuzimanje vam omogućava da izaberete :
+Portal za preuzimanje vam omogućava da izaberete:
 
 
 
@@ -105,7 +105,7 @@ U ovom primeru, instalacija se izvodi na virtuelnoj mašini koja koristi Virtual
 
 
 
-Za standardno raspoređivanje, preporučujemo :
+Za standardno raspoređivanje, preporučujemo:
 
 
 
@@ -304,7 +304,7 @@ U vašem pregledaču, idite na Address naznačen od strane konzole (podrazumevan
 
 
 
-Pojavljuje se ekran za prijavu. Podrazumevane akreditive su :
+Pojavljuje se ekran za prijavu. Podrazumevane akreditive su:
 
 
 
@@ -352,7 +352,7 @@ Naznačite vremensku zonu vaše lokacije kako bi dnevnici i rasporedi bili dosle
 
 
 
-Konfigurišite WAN vezu :
+Konfigurišite WAN vezu:
 
 
 
@@ -423,7 +423,7 @@ Za okruženja kritična za misiju, razmotrite automatsko pravljenje rezervnih ko
 
 
 
-Da završite svoje raspoređivanje s mirom u duši :
+Da završite svoje raspoređivanje s mirom u duši:
 
 
 

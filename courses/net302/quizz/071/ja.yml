@@ -1,0 +1,9 @@
+question: IPv6 Addressのプレフィックスサイズを示すには、どのような表記が使われますか？
+answer: CIDR
+wrong_answers:
+  - ドット付き10進ネットマスク
+  - コロンで区切られた16進数
+  - アイキャン
+explanation: |
+  CIDR表記は、IPv4と同様にスラッシュの後の固定プレフィックスビット数を指定する。
+reviewed: false

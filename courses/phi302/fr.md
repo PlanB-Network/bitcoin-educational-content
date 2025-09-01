@@ -6,7 +6,7 @@ objectives:
   - Analyser les compromis fondamentaux et les décisions architecturales de Bitcoin
   - Apprendre à évaluer les changements et innovations proposés pour le protocole Bitcoin
   - Synthèse de plus d'une décennie d'histoire du développement de Bitcoin et de débats au sein de la communauté
-  - Appliquer des cadres de réflexion critique lors de l'évaluation de nouveaux PIF
+  - Appliquer des cadres de réflexion critique lors de l'évaluation de nouveaux BIPs
 
 
 ---

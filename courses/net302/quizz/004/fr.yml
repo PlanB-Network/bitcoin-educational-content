@@ -1,4 +1,4 @@
-question: À quoi correspond la notion de "topologie" dans un réseau informatique ?
+question: À quoi correspond la notion de topologie dans un réseau informatique ?
 answer: À la façon dont les équipements sont interconnectés
 wrong_answers:
   - À la rapidité de la connexion Internet

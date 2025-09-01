@@ -1,0 +1,9 @@
+question: Blok şifreleme için tipik blok boyutu nedir?
+answer: 64, 128, 192 veya 256 bit
+wrong_answers:
+  - 8, 16, 32 veya 64 bit
+  - 4, 8, 16 veya 32 bit
+  - 256, 512, 1024 veya 2048 bit
+explanation: |
+  Blok şifreler, şifrelemenin optimum güvenliğini ve bütünlüğünü sağlamak için verileri tipik olarak 64, 128, 192 veya 256 bitlik sabit boyutlu bloklar halinde işler.
+reviewed: false

@@ -4,6 +4,8 @@ subtopic: history
 level: intermediate
 hours: 8
 
+test_only: true
+
 professors_id:
   - 525947e6-1d14-43d3-bf17-693b78b3ba09
 contributor_names:

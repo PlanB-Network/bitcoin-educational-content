@@ -84,7 +84,7 @@ Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des
 
 *S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
 
-Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open-source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
+Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
 
@@ -210,7 +210,7 @@ Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le res
 
 ### Fonctionnement interne de Bitcoin Core
 
-Bitcoin Core est un logiciel écrit en C++. C'est également un projet open-source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
+Bitcoin Core est un logiciel écrit en C++. C'est également un projet open source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
 - Les **contributeurs** soumettent des propositions sous forme de _pull requests_ (PR). En principe, n'importe qui peut proposer une modification, mais celle-ci doit être testée, documentée et passer par un processus de relecture par les pairs ;
 - Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
 - Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
@@ -501,7 +501,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 ### RaspiBlitz
 
-[RaspiBlitz est un projet 100 % open-source](https://docs.raspiblitz.org/) (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un node-in-a-box fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
+[RaspiBlitz est un projet 100 % open source](https://docs.raspiblitz.org/) (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un node-in-a-box fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
 
 070
 
@@ -635,7 +635,7 @@ Quant au format, il dépendra des ports disponibles sur votre machine, mais je v
 
 Pour Bitcoin Core seul (sans surcouche Umbrel), les recommandations des développeurs indiquent un minimum de 256 Mo de RAM en ajustant les paramètres au plus bas, 512 Mo avec les paramètres par défaut, et 1 Go pour une utilisation normale.
 
-En revanche, si vous utilisez un système de node-in-a-box comme Umbrel, les besoins en RAM augmentent. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
+En revanche, si vous utilisez un système de node-in-a-box comme Umbrel ou Start9, les besoins en RAM sont bien plus grands. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
 
 #### Processeur (CPU)
 
@@ -691,15 +691,13 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 
 - Certains environnements comme Umbrel permettent ensuite d’utiliser le Wi-Fi, mais les performances seront généralement moins bonnes (notamment si vous souhaitez utiliser votre nœud Lightning à distance, cela peut avoir un impact). Si vous choisissez le Wi-Fi, assurez-vous que votre machine dispose d’une carte intégrée ou ajoutez un dongle compatible.  
 
-- Pour l’alimentation de votre machine, utilisez toujours le chargeur d’origine du constructeur. C’est essentiel pour éviter d’endommager votre matériel ou de provoquer un incendie.
+- Pour l’alimentation de votre machine, utilisez toujours celle d’origine du constructeur. C’est important pour éviter d’endommager votre matériel ou de provoquer un incendie.
 
 - Si votre machine n’a pas de batterie intégrée, investir dans un onduleur est une bonne idée afin d’éviter les extinctions brutales.
 
 - En fonction de la valeur de votre matériel et de votre situation géographique, un système parafoudre peut également être pertinent, soit directement au niveau du tableau électrique, soit sur la multiprise utilisée.  
 
-- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe.
-
-
+- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe qui entraînerait du throtthling (limitation volontaire de la vitesse de votre processeur).
 
 # Installer un nœud Bitcoin facilement
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -720,11 +718,17 @@ L’objectif d'Umbrel est donc de vous redonner le contrôle et la confidentiali
 
 Umbrel propose deux approches distinctes :
 
-- **Umbrel Home** : c'est un mini-serveur prêt à l’emploi, spécialement conçu et optimisé pour umbrelOS. Compact, silencieux, connecté en Ethernet, il est équipé d’un SSD NVMe (jusqu’à 4 To en option), de 16 Go de RAM et d’un CPU quad-core. Vous le commandez, vous le branchez, vous allez sur `umbrel.local`, et vous avez un Umbrel opérationnel en quelques minutes. C’est l'option "plug-and-play".
+- [**Umbrel Home**](https://umbrel.com/umbrel-home) : c'est un mini-serveur prêt à l’emploi, spécialement conçu et optimisé pour umbrelOS. Compact, silencieux, connecté en Ethernet, il est équipé d’un SSD NVMe (jusqu’à 4 To en option), de 16 Go de RAM et d’un CPU quad-core. Vous le commandez, vous le branchez, vous allez sur `umbrel.local`, et vous avez un Umbrel opérationnel en quelques minutes. C’est l'option "plug-and-play".
 
-- **umbrelOS** : c'est le système d’exploitation que vous pouvez installer vous-même sur votre propre matériel (mini-PC, NUC, tour, laptop dédié…). Vous avez la même interface et le même App Store que sur Umbrel Home.
+081
 
-Dans les deux cas, l’expérience utilisateur est identique côté logiciel : administration via le navigateur, mises à jour en un clic, installation d’applications à la demande... La solution DIY est souvent plus économique que l’achat d’un Umbrel Home (selon la machine utilisée). Toutefois, je ne vous recommande pas forcément de toujours privilégier cette option DIY, car acheter un Umbrel Home contribue directement à financer le développement du projet, puisque son modèle économique repose sur la vente de hardware. Et honnêtement, à 389 € pour 2 To de stockage, le tarif reste très raisonnable au regard de la qualité de la machine proposée.  
+- [**umbrelOS**](https://umbrel.com/umbrelos) : c'est le système d’exploitation que vous pouvez installer vous-même sur votre propre matériel (mini-PC, NUC, tour, laptop dédié…). Vous avez la même interface et le même App Store que sur Umbrel Home.
+
+080
+
+Dans les deux cas, l’expérience utilisateur est identique côté logiciel : administration via le navigateur, mises à jour en un clic, installation d’applications à la demande... La solution DIY est souvent plus économique que l’achat d’un Umbrel Home (selon la machine utilisée). Toutefois, je ne vous recommande pas forcément de toujours privilégier cette option DIY, car **acheter un Umbrel Home contribue directement à financer le développement du projet**, puisque son modèle économique repose sur la vente de hardware. Et honnêtement, à 389 € pour 2 To de stockage, le tarif reste très raisonnable au regard de la qualité de la machine proposée.  
+
+079
 
 Dans le prochain chapitre, nous verrons ensemble comment installer umbrelOS en DIY sur votre propre machine, mais vous pourrez tout à fait suivre ce cours BTC 202 de la même manière si vous avez opté pour un Umbrel Home.
 
@@ -732,9 +736,13 @@ Dans le prochain chapitre, nous verrons ensemble comment installer umbrelOS en D
 
 Umbrel peut rester très minimaliste et centré uniquement sur Bitcoin, ou bien évoluer en un véritable serveur personnel multifonction selon vos besoins. Voici les principaux cas d’usage possibles avec Umbrel :
 
-- **Nœud Bitcoin** : c’est l’usage fondateur sur lequel Umbrel s’est appuyé dès le départ. Vous pouvez exécuter Bitcoin Core (ou Knots), connecter vos portefeuilles directement à votre nœud, exposer un serveur Electrum, héberger votre explorateur de blocs Mempool pour visualiser la blockchain et estimer les frais... C’est cet usage que nous allons approfondir en priorité dans cette formation.
+- **Nœud Bitcoin simple** : c’est l’usage fondateur sur lequel Umbrel s’est appuyé dès le départ. Vous pouvez exécuter Bitcoin Core (ou Knots), connecter vos portefeuilles directement à votre nœud, exposer un serveur Electrum, héberger votre explorateur de blocs Mempool pour visualiser la blockchain et estimer les frais... C’est cet usage que nous allons approfondir en priorité dans cette formation.
+
+082
 
 - **Lightning Network** : Umbrel permet aussi de déployer LND ou Core Lightning, deux implémentations du Lightning Network, afin de gérer votre propre nœud Lightning. Vous pourrez ainsi ouvrir des canaux, piloter votre liquidité, faire des paiements, automatiser son équilibrage, offrir des services, connecter un portefeuille distant, ou encore profiter d’une interface de gestion avancée grâce aux nombreuses applications disponibles. Nous étudierons ce cas d'usage sépcifique dans la prochaine formation LNP 202.
+
+083
 
 - **Self-hosting généraliste** : avec Nextcloud, Immich, Jellyfin/Plex, les bloqueurs de publicité DNS-wide (Pi-hole/AdGuard), les VPN (WireGuard, Tailscale), la domotique (Home Assistant), les sauvegardes, la gestion de notes, les outils de bureautiques, les IA locales (Ollama + Open WebUI)... Umbrel peut devenir votre serveur personnel pour reprendre le contrôle de vos données. Vous hébergez vous-même les services que vous utilisez au quotidien, avec une expérience utilisateur soignée proche de celle des solutions externes, mais en conservant la maîtrise totale de vos données et de votre vie privée.
 
@@ -744,17 +752,19 @@ Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umb
 
 L’un des grands atouts d’Umbrel par rapport à ses concurrents est sa vaste communauté d’utilisateurs très active. Vous pouvez la rejoindre principalement via [leur Discord](https://discord.gg/efNtFzqtdx) et [leur forum en ligne](https://community.umbrel.com/). Vous y trouverez non seulement des conseils pratiques, mais surtout des solutions pour résoudre vos problèmes ou corriger d’éventuels bugs. C’est un formidable point d’appui pour débuter, progresser et, à terme, apporter votre aide à d’autres utilisateurs, afin de ne pas rester seul dans votre coin.
 
+084
+
 ### La licence d'umbrelOS
 
-Le code d’Umbrel est publié publiquement (vous pouvez le consulter, le forker, le modifier...), mais il n’est pas placé sous une véritable licence open-source. En effet, umbrelOS est distribué sous la licence *PolyForm Noncommercial 1.0*, même si certains outils de développement associés sont disponibles sous licence MIT.
+Le code d’Umbrel est publié publiquement (vous pouvez le consulter, le forker, le modifier...), mais il n’est pas placé sous une véritable licence open source. En effet, umbrelOS est distribué sous la licence [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), même si certains outils de développement associés sont disponibles sous licence MIT.
 
 Concrètement, vous pouvez faire à peu près tout ce que vous voulez avec umbrelOS tant que cela reste un usage personnel et non commercial : modification, redistribution à des fins non lucratives, création de dérivés pour vous-même ou pour des organisations sans but lucratif, à condition de respecter les mentions légales.
 
 En revanche, il est interdit de vendre Umbrel ou des dérivés (par exemple une machine préassemblée avec umbrelOS préinstallé), de proposer commercialement des services liés à Umbrel, ou encore d’intégrer son code dans un produit à but lucratif.
 
-Techniquement, cette licence ne limite pas l’installation, l’audit ou l’adaptation d’Umbrel pour un usage personnel. Juridiquement, elle protège le projet contre la revente ou l’hébergement commercial non autorisé, en particulier par des fournisseurs de cloud. Umbrel n’est donc pas open-source, même si son code reste accessible publiquement.
+Techniquement, cette licence ne limite pas l’installation, l’audit ou l’adaptation d’Umbrel pour un usage personnel. Juridiquement, elle protège le projet contre la revente ou l’hébergement commercial non autorisé, en particulier par des fournisseurs de cloud. Umbrel n’est donc pas open source, même si son code reste accessible publiquement.
 
-Chaque application du Store conserve toutefois sa propre licence, souvent open-source.
+Chaque application du Store conserve toutefois sa propre licence, souvent open source.
 
 
 ## Installation d’un nœud complet avec Umbrel
@@ -1033,7 +1043,11 @@ Pour vulgariser, c’est le même principe qu’un index dans un livre : si vo
 
 Dans un nœud Bitcoin comme Bitcoin Core, les données de la blockchain sont stockées sous une forme brute et chronologique. Chaque bloc contient des transactions, qui elles-mêmes contiennent des entrées et des sorties, sans aucun classement particulier par adresse, identifiant ou portefeuille. Cette organisation linéaire est optimisée pour la validation des blocs, mais très peu adaptée à des recherches ciblées. Par exemple, si vous souhaitez retrouver toutes les transactions liées à une adresse spécifique dans un nœud non indexé, vous devriez parcourir manuellement l’ensemble de la blockchain, bloc par bloc, transaction par transaction. C’est précisément là qu’intervient l'indexeur sur votre nœud Bitcoin.
 
+085
+
 Un indexeur est un logiciel spécialisé qui va analyser cette masse de données brutes (la blockchain, la mempool, l'UTXO set…) et en extraire des clés : identifiants de transaction, adresses, hauteurs de blocs... À partir de ces clés, il construit son index qui associe chaque clé à l’endroit exact où se trouve l’information dans le stockage du nœud.
+
+086
 
 L’indexation permet ainsi d’effectuer des recherches d’informations sur votre nœud de manière rapide, ciblée et efficace. Par exemple, lorsque vous connectez un portefeuille comme Sparrow à votre nœud, il peut afficher presque instantanément le solde d’une adresse. Concrètement, il interroge l’indexeur avec une requête du type : "_Quels UTXOs sont associés à ce script-hash ?_" L’indexeur répond presque aussitôt, sans avoir à relire l’ensemble de la blockchain, car cette donnée est déjà répertoriée dans sa base.
 
@@ -1071,7 +1085,9 @@ L’indexeur nécessite un certain temps de synchronisation (inférieur à celui
 
 Deux logiciels sont couramment utilisés pour construire ce type d’index d’adresses et le rendre accessible : **Electrs** et **Fulcrum**. Ces outils indexent la blockchain selon les script-hash (adresses), puis proposent une interface standardisée (le protocole Electrum), à laquelle se connectent de nombreux portefeuilles tels qu’Electrum Wallet, Sparrow ou encore Phoenix.
 
-Pour faire simple, Electrs est assez comapct : il indexe plus rapidement la blockchain et occupe moins d’espace disque, mais il est légèrement moins performant que Fulcrum lors des requêtes. À l’inverse, Fulcrum consomme davantage d’espace disque et requiert plus de temps pour l’indexation, mais il offre des performances supérieures lors des requêtes.
+087
+
+Pour faire simple, Electrs est assez compact : il indexe plus rapidement la blockchain et occupe moins d’espace disque, mais il est légèrement moins performant que Fulcrum lors des requêtes. À l’inverse, Fulcrum consomme davantage d’espace disque et requiert plus de temps pour l’indexation, mais il offre des performances supérieures lors des requêtes.
 
 Pour un usage individuel, je recommande plutôt Electrs : il consomme moins d’espace, il est bien maintenu et, malgré une légère lenteur sur certaines requêtes par rapport à Fulcrum, il reste largement suffisant pour un usage courant. Si vous disposez de temps et d’espace disque, vous pouvez également tester Fulcrum, qui sera bien plus performant notamment sur les wallets avec de nombreuses adresses à vérifier.
 
@@ -1229,7 +1245,11 @@ https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca0076
 
 https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
+088
+
 Enfin, je vous recommande l’application *Lightning Network+*, qui permet de trouver des pairs avec qui ouvrir des canaux, afin de disposer à la fois de liquidités sortantes et entrantes.
+
+089
 
 Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement simplifiée, mais elle demeure malgré tout relativement complexe. C’est pourquoi nous aborderons ce sujet en profondeur dans un prochain cours entièrement consacré à cet usage.
 
@@ -1238,6 +1258,8 @@ Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement sim
 Une autre application que j'apprécie particulièrement sur Umbrel est Tailscale. C'est une application de VPN conçue pour simplifier la création de réseaux sécurisés entre plusieurs appareils, où qu’ils se trouvent dans le monde. Contrairement aux VPN traditionnels, qui reposent sur des serveurs centralisés, Tailscale s’appuie sur le protocole WireGuard pour établir des connexions chiffrées de bout en bout entre vos différentes machines. Cela vous permet de déployer un VPN fonctionnel en quelques minutes, sans manipulations réseau compliquées.
 
 Sur Umbrel, l’installation de Tailscale permet de connecter votre nœud Bitcoin à votre propre réseau privé virtuel. Une fois configuré, votre nœud obtient une adresse IP privée Tailscale, accessible uniquement depuis vos autres appareils reliés au même réseau Tailscale (ordinateur, smartphone, tablette...). Cette connexion est chiffrée de bout en bout et ne transite pas par le réseau public non protégé, ce qui renforce considérablement la sécurité par rapport à une connexion en clair.
+
+090
 
 Concrètement, pour l'utilisation de votre Umbrel, Tailscale vous apporte plusieurs avantages :
 
@@ -1273,9 +1295,11 @@ https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 ### BTCPay Server
 
-BTCPay Server est un processeur de paiement libre et open-source permettant d’accepter des paiements via Bitcoin et le Lightning Network sans intermédiaire, en conservant la self-custody des fonds.
+BTCPay Server est un processeur de paiement libre et open source permettant d’accepter des paiements via Bitcoin et le Lightning Network sans intermédiaire, en conservant la self-custody des fonds.
 
 L’architecture de BTCPay Server repose sur un nœud Bitcoin et, pour Lightning, sur une implémentation compatible (LND, Core Lightning…), ce qui en fait une des seules solutions de PoS totalement non custodiales. C'est également le logiciel le plus complet pour le suivi et la comptabilité.
+
+091
 
 Si vous possédez un commerce et souhaitez accepter les paiements en bitcoins directement via votre nœud Umbrel, l’application BTCPay Server est idéale pour vous. Pour en savoir plus à ce sujet, je vous recommande de consulter les ressources suivantes :
 

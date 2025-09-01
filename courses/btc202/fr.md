@@ -1334,7 +1334,7 @@ Veillez également à utiliser une alimentation de qualité, car une tension ins
 
 Je vous recommande par ailleurs d’investir dans un onduleur (UPS). Celui-ci protège votre nœud des extinctions brutales, permet à Umbrel de s’arrêter proprement en cas de coupure et assure une continuité de fonctionnement lors de microcoupures ou pannes de courte durée.
 
-Sur le stockage, surveillez la tendance : si le disque approche de la saturation, pensez à libérer de l’espace (désinstallation d’apps inutilisées, purge de logs applicatifs...) ou migrez vers un SSD plus grand. L’inconvénient d’un nœud complet Bitcoin est que ses besoins en stockage augmentent continuellement, car il y a un nouveau bloc toutes les 10 minutes et les anciens blocs ne peuvent pas être supprimés (sauf nœud élagué). Je vous conseille donc de prévoir une capacité suffisamment grande dès l’achat de votre matériel.
+Sur le stockage, surveillez l'évolution : si le disque approche de la saturation, pensez à libérer de l’espace (désinstallation d’apps inutilisées, changement d'indexeur...) ou migrez vers un SSD plus grand. L’inconvénient d’un nœud complet Bitcoin est que ses besoins en stockage augmentent continuellement, car il y a un nouveau bloc toutes les 10 minutes et les anciens blocs ne peuvent pas être supprimés (sauf nœud élagué). Je vous conseille donc de prévoir une capacité suffisamment grande dès l’achat de votre matériel (2 To minimum).
 
 ### Mettre à jour
 
@@ -1386,9 +1386,13 @@ Votre nœud Bitcoin démarre sans aucune connaissance préalable de l’historiq
 
 L’IBD consiste à télécharger et à vérifier un par un chaque bloc et chaque transaction, en appliquant les règles de consensus, pour construire sa propre version de la blockchain. L’objectif n’est pas simplement de récupérer une copie de données non vérifiées, mais bien d’aboutir, de façon totalement indépendante, à la même conclusion que la majorité honnête du réseau.
 
+092
+
 ### Les grandes étapes de l’IBD
 
 La synchronisation débute par l’étape _**headers-first**_. Votre nœud demande à plusieurs pairs la suite des en-têtes de blocs et, pour chacun d’eux, vérifie la preuve de travail, l’ajustement de la difficulté, la syntaxe, ainsi que les règles relatives aux horodatages et aux numéros de version. En résumé, il s’assure que chaque en-tête reçu respecte bien les règles de consensus.
+
+093
 
 Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une liste de transactions. L’empreinte du bloc est obtenue en appliquant un double hachage SHA-256 sur cet en-tête, lequel regroupe 6 champs :
 - version
@@ -1397,6 +1401,8 @@ Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une 
 - horodatage (supérieur au temps médian des 11 blocs précédents)
 - cible de difficulté
 - nonce
+
+094
 
 Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. SegWit a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
 

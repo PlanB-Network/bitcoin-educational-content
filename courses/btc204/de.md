@@ -32,13 +32,13 @@ Willkommen im Kurs BTC204!
 
 In einer Welt, in der die Vertraulichkeit von Finanztransaktionen allmählich zum Luxus wird, ist das Verständnis und die Beherrschung der Grundsätze des Datenschutzes bei der Verwendung von Bitcoin unerlässlich. Dieser Kurs gibt Ihnen alle Schlüssel, sowohl theoretisch als auch praktisch, um dies selbstständig zu erreichen.
 
-Auf Bitcoin haben sich heute Unternehmen auf die Blockchain-Analyse spezialisiert. Ihr Kerngeschäft besteht genau darin, in Ihre Privatsphäre einzudringen, um die Vertraulichkeit Ihrer Transaktionen zu gefährden. In Wirklichkeit gibt es so etwas wie ein "Recht auf Privatsphäre" in Bitcoin nicht. Es liegt also an Ihnen, dem Nutzer, Ihre natürlichen Rechte geltend zu machen und die Vertraulichkeit Ihrer Transaktionen zu schützen, denn niemand sonst wird das für Sie tun.
+Bei Bitcoin haben sich heute Unternehmen auf die Blockchain-Analyse spezialisiert. Ihr Kerngeschäft besteht genau darin, in Ihre Privatsphäre einzudringen, um die Vertraulichkeit Ihrer Transaktionen zu gefährden. In Wirklichkeit gibt es so etwas wie ein "Recht auf Privatsphäre" in Bitcoin nicht. Es liegt also an Ihnen, dem Nutzer, Ihre natürlichen Rechte geltend zu machen und die Vertraulichkeit Ihrer Transaktionen zu schützen, denn niemand sonst wird das für Sie tun.
 
 Bei Bitcoin geht es nicht nur um "Number Go Up" und den Erhalt des Wertes von Ersparnissen. Mit seinen einzigartigen Eigenschaften und seiner Geschichte ist er in erster Linie ein Werkzeug der Gegenwirtschaft. Dank dieser großartigen Erfindung können Sie frei über Ihr Geld verfügen, es ausgeben und anhäufen, ohne dass Sie jemand daran hindern kann.
 
 Bitcoin bietet einen friedlichen Ausweg aus dem Joch des Staates und ermöglicht es Ihnen, Ihre natürlichen Rechte, die nicht durch bestehende Gesetze in Frage gestellt werden können, in vollem Umfang zu genießen. Dank der Erfindung von Satoshi Nakamoto haben Sie die Macht, die Achtung Ihres Privateigentums durchzusetzen und die Vertragsfreiheit wiederzuerlangen.
 
-Allerdings ist Bitcoin nicht standardmäßig anonym, was ein Risiko für Personen darstellen kann, die in der Gegenwirtschaft tätig sind, insbesondere in Regionen mit despotischer Herrschaft. Aber das ist nicht die einzige Gefahr. Da Bitcoin ein wertvoller und nicht zählbarer Vermögenswert ist, kann er ein Ziel für Diebe sein. Der Schutz Ihrer Privatsphäre ist also auch eine Frage der Sicherheit: Er kann Sie vor Hacking und physischen Angriffen schützen.
+Allerdings ist Bitcoin nicht standardmäßig anonym, was ein Risiko für Personen darstellen kann, die in der Gegenwirtschaft tätig sind, insbesondere in Regionen mit despotischer Herrschaft. Aber das ist nicht die einzige Gefahr. Da Bitcoin ein wertvoller und tadelloser Vermögenswert ist, kann er ein Ziel für Diebe sein. Der Schutz Ihrer Privatsphäre ist also auch eine Frage der Sicherheit: Er kann Sie vor Hacking und physischen Angriffen schützen.
 
 Wie wir noch sehen werden, bietet das Protokoll zwar an sich einen gewissen Schutz der Vertraulichkeit, doch ist der Einsatz zusätzlicher Tools zur Optimierung und zum Schutz dieser Vertraulichkeit unerlässlich.
 

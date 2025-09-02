@@ -272,7 +272,7 @@ Kugira wirinde kugwa muri uwo mutego, wama ugenzura amafaranga uriko uragura. Bi
 #### Abanyabinyoma n'abahinga b'ibinyoma
 
 
-Uko amafaranga y'amahinguriro agenda arashirwako umutima cane, ubuhinga bwo guhanahana amakuru ku mbuga ngurukanabumenyi bwarabonye uruja n'uruza rw'abagira ico bakoze, abahinga biyita, n'abitwa "*crypto gurus*". Naho bakeyi bashobora gutanga ubumenyi nyakuri bw’inyigisho, abandi benshi barakoresha akaryo ko kugaragara kwabo kugira ngo bateze imbere imigambi iteye amakenga canke ingamba z’ubudandaji ziteye akaga (kandi rimwe na rimwe zikaba ari ubuhendanyi).
+Uko amahera y'mahinguriro agenda arashirwako umutima cane, ubuhinga bwo guhanahana amakuru ku mbuga ngurukanabumeni bwarabonye uruja n'uruza rw'abagira ico bakoze, abahinga biyita, n'abitwa "*crypto gurus*". Naho bakeyi bashobora gutanga ubumenyi nyakuri bw’inyigisho, abandi benshi barakoresha akaryo ko kugaragara kwabo kugira ngo bateze imbere imigambi iteye amakenga canke ingamba z’ubudandaji ziteye akaga (kandi rimwe na rimwe zikaba ari ubuhendanyi).
 
 
 ![BTC102-Bitcoin](assets/fr/008.webp)

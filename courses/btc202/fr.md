@@ -80,7 +80,7 @@ Comme le décrit Satoshi Nakamoto, son créateur, Bitcoin se présente comme un 
 
 Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
 
-047
+![Image](assets/fr/047.webp)
 
 *S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
 
@@ -88,7 +88,7 @@ Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Co
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
 
-048
+![Image](assets/fr/048.webp)
 
 On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses pour la suite de ce cours :
 - La monnaie bitcoin : l’unité de compte utilisée pour les transactions au sein de ce système ;
@@ -114,7 +114,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://b
 
 La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un mineur, le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
 
-049
+![Image](assets/fr/049.webp)
 
 Le nœud conserve également, en local, l’ensemble des UTXOs existants à un instant donné : il s’agit de ce que l’on appelle l’**UTXO set**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
 
@@ -125,7 +125,7 @@ Le deuxième rôle d’un nœud est d’assurer la vérification et la propagati
 - la signature doit être valide, et toutes les conditions de dépense doivent être respectées (script valide) ;
 - le montant total des outputs ne doit pas dépasser celui des inputs, ce qui signifie que les frais ne peuvent être négatifs…
 
-050
+![Image](assets/fr/050.webp)
 
 Après validation, la transaction est enregistrée dans la mempool du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de diffusion et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première confirmation.
 
@@ -133,7 +133,7 @@ Après validation, la transaction est enregistrée dans la mempool du nœud, un 
 
 Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
 
-051
+![Image](assets/fr/051.webp)
 
 ## Quelle est la différence entre un nœud et un portefeuille ?
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
@@ -149,7 +149,7 @@ Un portefeuille Bitcoin, quant à lui, est un logiciel dont la vocation premièr
 
 Dans certains cas, ces deux fonctions coexistent au sein d’un même logiciel, comme c’est le cas de Bitcoin Core qui fait office à la fois de nœud complet et de portefeuille. Toutefois, beaucoup de logiciels de portefeuilles populaires (Sparrow, BlueWallet, etc.) doivent être connectés à un nœud externe (qu’il s’agisse du vôtre ou de celui d’un tiers) pour diffuser les transactions et connaitre le solde du portefeuille.
 
-052
+![Image](assets/fr/052.webp)
 
 ## Quelle est la différence entre un nœud et un mineur ?
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
@@ -160,7 +160,7 @@ Initialement, lorsque Bitcoin fut lancé par Satoshi Nakamoto en 2009, chaque ut
 
 Cependant, avec la popularisation progressive de Bitcoin et l'augmentation du nombre de mineurs, la concurrence dans le minage a radicalement changé la donne. Aujourd’hui, le minage est devenu une activité extrêmement compétitive, dominée par des acteurs industriels équipés d’infrastructures spécialisées. La puissance nécessaire pour miner un nouveau bloc est désormais si importante qu'il est pratiquement impossible pour un utilisateur particulier d'y parvenir en utilisant uniquement un ordinateur classique. Ainsi, le minage se fait désormais essentiellement à l'aide de machines spécialisées appelées ASIC (*Application Specific Integrated Circuits*). Ces puces sont optimisées exclusivement pour exécuter du double SHA-256, l'algorithme utilisé pour le minage sur Bitcoin.
 
-053
+![Image](assets/fr/053.webp)
 
 Face à cette évolution, le rôle du nœud Bitcoin et celui du mineur se sont clairement distingués. Comme vu précédemment, le rôle du nœud Bitcoin est purement informationnel et validateur. Le rôle du mineur est différent :
 - Il sélectionne les transactions en attente dans la mempool ;
@@ -172,7 +172,7 @@ Un mineur a en effet obligatoirement besoin d'un nœud Bitcoin afin d'interagir 
 
 On différencie également parfois le rôle du mineur de celui du hacheur. Un hacheur est une machine qui a pour tâche de hacher des blocs templates fournis par le serveur d'une pool, en recherchant des hachages qui satisfont la cible de difficulté définie pour les shares, et non celle de Bitcoin. Le reste du processus de minage, qui inclut la construction effective des blocs, la sélection des transactions ou la recherche de la preuve de travail selon la difficulté propre à Bitcoin, ainsi que la diffusion, est effectué directement par les pools.
 
-054
+![Image](assets/fr/054.webp)
 
 Enfin, il y a une différence importante en termes d'incitation économique entre le mineur et le nœud. Faire tourner un nœud Bitcoin ne procure aucun avantage pécuniaire direct. En revanche, participer au minage permet de percevoir des récompenses (subvention et frais de transactions) à chaque bloc trouvé.
 
@@ -187,7 +187,7 @@ Une implémentation est donc un logiciel de nœud : un programme capable de s’
 
 Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
 
-055
+![Image](assets/fr/055.webp)
 
 ### Une implémentation historique devenue référence
 
@@ -202,7 +202,7 @@ Selon [les données collectées en août 2025 par Luke Dashjr](https://luke.dash
 - **Bitcoin Knots** : 12,5 %
 - **Autres implémentations cumulées** : 0,2 % (btcsuite, Bcoin, BTCD...)
 
-056
+![Image](assets/fr/056.webp)
 
 Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le reste du réseau repose sur des clients plus marginaux (bien que la part de Knots ait fortement progressé ces derniers mois, notamment à la suite des débats concernant la limite de taille des `OP_RETURN`). Ces implémentations alternatives sont souvent maintenues par une seule personne ou une petite équipe.
 
@@ -215,7 +215,7 @@ Bitcoin Core est un logiciel écrit en C++. C'est également un projet open sour
 - Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
 - Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
 
-057
+![Image](assets/fr/057.webp)
 
 Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique, et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
 
@@ -223,7 +223,7 @@ Le développement de Bitcoin Core suit une logique de méritocratie : les nouvea
 
 Bien que marginales en termes d’adoption, d’autres clients existent. Le principal est Bitcoin Knots, développé par Luke Dashjr. Il s’agit d’un fork de Bitcoin Core qui intègre des options supplémentaires et une vision plus conservatrice du développement. Il propose notamment des restrictions renforcées en matière de format de transaction.
 
-058
+![Image](assets/fr/058.webp)
 
 On peut aussi mentionner :
 - **Libbitcoin** : une bibliothèque C++ modulaire développée par Amir Taaki et maintenue par Eric Voskuil ;
@@ -258,7 +258,7 @@ Lorsqu’un logiciel de portefeuille se connecte à un nœud externe, il transme
 
 En effet, comme souligné dans un chapitre précédent, les portefeuilles ne communiquent pas avec le réseau Bitcoin par magie : ils doivent obligatoirement se connecter à un nœud pour consulter le solde ou diffuser des transactions. Si vous n’avez jamais configuré votre propre nœud, cela signifie que votre portefeuille dépend de l’infrastructure d’un tiers (le plus souvent celle de l’entreprise à l’origine du logiciel). Or, ce tiers, surtout s’il s’agit d’une entreprise, peut observer, exploiter ou même divulguer ces données : que ce soit dans une logique commerciale, sous contrainte légale, ou à la suite d’un piratage.
 
-059
+![Image](assets/fr/059.webp)
 
 En faisant utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
@@ -274,7 +274,7 @@ Pour les mêmes raisons que précédemment évoquées, un logiciel de portefeuil
 
 Sans nœud personnel, vous demeurez tributaire d’un tiers pour accéder aux informations : solde de vos adresses, état de confirmation d’une transaction, validité d’un bloc… Cela implique une confiance implicite dans l’exactitude et l’intégrité du nœud externe.
 
-060
+![Image](assets/fr/060.webp)
 
 Faire fonctionner un nœud complet permet de vérifier soi-même l’ensemble des règles du protocole, pour chaque transaction et chaque bloc. Ainsi, le solde affiché par votre portefeuille n’est pas une donnée reçue d’un serveur distant, mais un résultat calculé localement à partir d’une copie complète de la blockchain, validée bloc après bloc. Cette démarche donne tout son sens à la maxime des bitcoiners :
 
@@ -324,7 +324,7 @@ Prenons l’exemple où vous estimez que les transactions dont les frais sont in
 
 En effet, posséder un ou plusieurs nœuds configurés avec des règles de relais spécifiques revient à déterminer quelle part du réseau accepte de propager un type donné de transaction. La diffusion d’un message dans un graphe pair-à-pair, comme c’est le cas pour les transactions sur Bitcoin, suit la logique de la théorie de la percolation. Imaginez chaque nœud comme un site qui peut être actif (`p` = il relaie) ou inactif (`1 – p`). Dès lors que la proportion `p` franchit un seuil critique (`p_c`), une composante géante émerge : la transaction parvient à traverser le réseau et a toutes les chances d’atteindre un mineur. Dans un réseau comme Bitcoin où chaque nœud entretient en moyenne 8 connexions sortantes, le seuil `p_c` s’établit généralement autour de quelques pourcents seulement, d’autant plus bas si certains nœuds disposent de connexions très nombreuses.
 
-061
+![Image](assets/fr/061.webp)
 
 Le rapport de force autour des règles de relais ne relève donc pas d’un principe "un nœud = un vote", mais bien de la capacité à faire franchir au réseau ce seuil de percolation : tant que `p` demeure inférieur à `p_c`, une transaction reste confinée à des poches isolées et n’atteint pas un mineur ; dès que ce seuil est dépassé, elle se propage presque instantanément à l’ensemble du réseau.
 
@@ -340,7 +340,7 @@ Prenons l’exemple d’un village où de nombreux commerçants acceptent l’or
 
 Cette notion est importante pour appréhender les rapports de force à l’œuvre dans le système Bitcoin. Satoshi le précise : Bitcoin est un système de cash électronique, autrement dit il rend le service de proposer une forme de monnaie, le bitcoin (ou BTC). Lorsque les règles du protocole sont modifiées de façon non rétrocompatible (hard fork), cela revient à créer un nouveau système et donc une nouvelle monnaie. Le succès ou l’échec de ce fork dépend alors de la taille de son économie, qui est elle-même déterminée par le nombre de commerçants acceptant cette nouvelle forme de monnaie.
 
-062
+![Image](assets/fr/062.webp)
 
 Prenons un exemple : supposons que Bitcoin subisse un hard fork. Il existerait alors 2 formes de monnaies distinctes : BTC-1 (la version originelle, inchangée) et BTC-2 (la nouvelle monnaie avec des règles de consensus différentes). Si l’ensemble des commerçants qui acceptaient BTC-1 continuent à le faire, mais refusent le BTC-2, alors ce dernier n’aura, en théorie, qu’une utilité monétaire très limitée. En tant qu’utilisateur, je n’aurais aucun intérêt à conserver et utiliser du BTC-2, sachant qu’aucun commerçant n’en voudra en échange de biens ou de services. À l’inverse, si 50 % des commerçants choisissent d’accepter exclusivement le BTC-2 et les 50 % restants ne prennent que le BTC-1, alors l'utilité du BTC-1 aura, en théorie, diminué de moitié. J’emploie le terme "en théorie", car l’utilité demeure subjective au niveau individuel, et dépend d’une multitude de facteurs (territoire, habitudes de consommation, etc.) difficiles à appréhender au cas par cas.
 
@@ -362,7 +362,7 @@ Un nœud Bitcoin est donc une machine sur laquelle on fait tourner une implémen
 
 Un nœud complet est simplement un nœud Bitcoin qui télécharge toute la blockchain depuis le bloc de Genèse, valide chaque bloc de manière indépendante et conserve localement l’historique de toute cette blockchain. C'est la forme "normale" d'un nœud Bitcoin, telle qu'imaginée par Satoshi Nakamoto.
 
-063
+![Image](assets/fr/063.webp)
 
 Le nœud complet n’a besoin de faire confiance à personne, car il valide et connait toutes els informations du système. C’est le type de nœud qui vous procure le plus de garanties : vous savez, sans faire appel à un tiers, si un paiement est valide, si un bloc est valide, si une réorganisation est légitime, etc.
 
@@ -374,7 +374,7 @@ Selon vos besoins, vous pouvez adjoindre à votre nœud complet un indexeur. Bit
 
 Le nœud élagué valide tout comme un nœud complet, depuis le bloc de Genèse jusqu'à la tête de chaîne disposant du plus de travail, mais il **ne conserve que la partie la plus récente des fichiers de blocs**. Une fois les anciens blocs vérifiés, il les supprime progressivement pour rester sous une limite d’espace que vous pouvez fixer. Cette configuration est idéale si vous avez des contraintes sur votre espace disque : vous gardez l’indépendance de validation des blocs, sans stocker l’archive historique complète de la blockchain. Cette option est notamment très utile si vous souhaitez simplement installer Bitcoin Core sur votre ordinateur personnel, sans utiliser une machine dédiée.
 
-064
+![Image](assets/fr/064.webp)
 
 Les implications techniques de cette option sont assez simples : le nœud élagué peut parfaitement diffuser vos transactions, participer au relais, vérifier les blocs et les transactions, et suivre la chaîne. En revanche, il ne peut pas servir de source d’historique ancien au-delà de sa limite pour d’autres applications (explorateur complet, indexeur, wallets...). Les fonctions qui exigent l’archive (ou un index global) ne seront donc pas disponibles.
 
@@ -386,7 +386,7 @@ En résumé, le suivi de votre wallet fonctionne sans problème sur un nœud él
 
 Un nœud SPV (*Simplified Payment Verification*), ou nœud léger, ne conserve que les en-têtes de blocs, pas le détail des transactions, et s’appuie sur d'autres nœuds complets pour obtenir la preuve qu’une transaction figure dans un bloc (preuves de Merkle via les arbres) dont il dispose de l'en-tête. Cette idée de la vérification de paiement simplifiée est très ancienne, puisqu’elle a été formulée par Satoshi Nakamoto lui-même dans la partie 8 du White Paper.
 
-066
+![Image](assets/fr/066.webp)
 
 *S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
 
@@ -394,7 +394,7 @@ Ce type de nœud est évidemment beaucoup plus léger en stockage et en CPU qu'u
 
 Le compromis est la confiance et la confidentialité : un client SPV ne vérifie pas lui-même les scripts ni les politiques de validation ; il suppose que la chaîne avec le plus de travail est valide, et il dépend d’un ou plusieurs nœuds complets pour les réponses. L’utilisation de ce type de nœud est donc une meilleure option que de se connecter à un nœud tiers, mais elle reste moins avantageuse que de disposer d’un nœud complet, voire même d’un nœud élagué.
 
-065
+![Image](assets/fr/065.webp)
 
 ### Quel nœud pour quel besoin ?
 
@@ -467,7 +467,7 @@ Voici maintenant un tour d’horizon des principales solutions de node-in-a-box 
 
 [Umbrel est aujourd’hui le leader des solutions de node-in-a-box](https://umbrel.com/). Son succès repose en grande partie sur la simplicité de son installation (à son lancement sur un simple Raspberry Pi), sur une interface élégante et intuitive, ainsi que sur un écosystème d’applications qui s’est rapidement développé et est désormais extrêmement vaste.
 
-067
+![Image](assets/fr/067.webp)
 
 Lancé en 2020 comme un simple nœud Bitcoin accompagné de quelques applications annexes, Umbrel a progressivement évolué pour devenir un véritable home cloud moderne et complet.
 
@@ -481,7 +481,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 Du côté de Bitcoin, StartOS permet d’installer un nœud complet, un nœud Lightning, BTCPay Server, Electrs et de nombreux autres services. Mais l’intérêt de Start9 dépasse cela : il offre la possibilité de découvrir, configurer et exposer divers logiciels (cloud de fichiers, messagerie, monitoring...) de manière unifiée, avec un contrôle total. Le projet vise donc les utilisateurs souhaitant une plateforme robuste de self-hosting, et non pas uniquement un simple nœud Bitcoin. C’est probablement l’écosystème le plus complet après celui d’Umbrel.
 
-068
+![Image](assets/fr/068.webp)
 
 La principale différence avec Umbrel réside dans l’interface. Umbrel mise sur une UX très soignée, tandis que Start9 propose une interface plus brute et fonctionnelle. L’écosystème applicatif de Start9 est moins riche que celui d’Umbrel, mais il compense par certains atouts techniques : l’accès aux paramètres avancés des applications est simplifié, là où Umbrel devient vite contraignant si l’option recherchée n’est pas prévue par l’interface. Start9 excelle également dans la gestion des sauvegardes : hormis la solution efficace d’Umbrel pour LND, il n’existe pas de mécanisme unifié, contrairement à Start9. De plus, il propose des outils de monitoring plus accessibles et une connexion à distance chiffrée (`https`), tandis que l’accès local à Umbrel se fait en `http`.
 
@@ -493,7 +493,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 [MyNode est une distribution centrée exclusivement sur Bitcoin et Lightning](https://mynodebtc.com/), qui propose une interface Web, une marketplace d’applications et des mises à jour en un clic. Vous pouvez soit acheter du matériel prêt à l’emploi (*Model Two* disponible à 549 $), soit installer gratuitement MyNode sur votre propre machine. Le projet offre également une version *Premium* du logiciel (94 $) qui inclut un support prioritaire et des fonctionnalités avancées.
 
-069
+![Image](assets/fr/069.webp)
 
 En pratique, MyNode réunit toutes les briques de base nécessaires pour exploiter un nœud complet ainsi que les applications essentielles à l’utilisateur de Bitcoin. C’est donc une solution pertinente si vous n’avez pas besoin d’applications externes à l’écosystème Bitcoin, comme par exemple des apps de self-hosting, que l’on retrouve dans les systèmes Start9 et Umbrel.
 
@@ -503,7 +503,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 [RaspiBlitz est un projet 100 % open source](https://docs.raspiblitz.org/) (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un node-in-a-box fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
 
-070
+![Image](assets/fr/070.webp)
 
 Si vous possédez un Raspberry Pi, c’est une excellente option, car les systèmes plus complets comme Umbrel deviennent de plus en plus lourds pour ce type de mini-PC.
 
@@ -515,7 +515,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 Le principe est simple : si vous utilisez Ashigaru Wallet (le fork successeur de Samourai Wallet à la suite de l’arrestation de ses développeurs) ou que vous souhaitez bénéficier d’outils de confidentialité avancés, RoninDojo est fait pour vous.
 
-071
+![Image](assets/fr/071.webp)
 
 Le projet proposait auparavant une machine préconfigurée appelée le Tanto, mais celle-ci est pour l’instant indisponible. Elle pourrait cependant revenir ultérieurement. En attendant, il est possible d’installer RoninDojo facilement sur un Rock5B+ ou un Rockpro64, voire de manière détournée sur un Raspberry Pi.
 
@@ -527,7 +527,7 @@ Une autre solution de [node-in-a-box est Nodl](https://www.nodl.eu/). Comme pour
 
 Sur le plan logiciel, Nodl intègre Bitcoin Core, LND, BTCPay Server, Electrs, Dojo et Whirlpool, Lightning Terminal, RTL, ainsi que BTC RPC Explorer, le tout avec une chaîne de mises à jour intégrées et un code ouvert sous licence MIT.
 
-072
+![Image](assets/fr/072.webp)
 
 Après avoir exploré les différentes solutions logicielles, il est désormais temps de choisir la machine qui hébergera votre nœud !
 
@@ -541,7 +541,7 @@ Maintenant que nous avons passé en revue l’ensemble des possibilités logicie
 
 Ces dernières années, une idée reçue s’est largement répandue chez les bitcoiners, notamment avec la popularisation des node-in-a-box au début des années 2020 : un nœud Bitcoin devrait forcément tourner sur une machine exclusivement dédiée à cet usage. Or, c’est faux. Vous n’avez pas nécessairement besoin d’un ordinateur dédié pour exécuter un nœud Bitcoin : Bitcoin Core peut tout à fait fonctionner sur votre PC du quotidien. Si vous disposez de suffisamment d’espace disque pour la blockchain, ou si vous activez l’élagage, vous pouvez valider la chaîne, connecter votre logiciel de portefeuille, et même fermer le programme une fois votre utilisation terminée. Cette approche présente un avantage considérable : zéro investissement initial et une complexité minimale.
 
-074
+![Image](assets/fr/074.webp)
 
 Cela dit, utiliser une machine dédiée reste souvent plus confortable. Elle peut tourner en continu (24/7), être accessible à distance à tout moment, ne pas monopoliser les ressources de votre machine principale, et surtout isoler les usages (bonne pratique de sécurité : si votre PC personnel rencontre un problème, votre nœud continue de fonctionner, et inversement). La question n’est donc pas "*faut-il obligatoirement dédier une machine ?*", mais plutôt "***ai-je besoin d’un nœud constamment en ligne, accessible par d’autres appareils et capable d’évoluer ?***" (Lightning, indexeurs, applications supplémentaires…). Si la réponse est oui, opter pour une machine à part rendra les choses bien plus simples.
 
@@ -559,7 +559,7 @@ Soyez toutefois vigilant si vous utilisez un ordinateur portable : la batterie p
 
 Le marché regorge de mini-PC d’entreprise reconditionnés tels que les *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini* ou *Dell OptiPlex Micro*. Ces machines sont solides, compactes, silencieuses et peu gourmandes en énergie. Leur prix est largement inférieur au neuf, et l’on trouve facilement des modèles équipés de processeurs i5/i7 de 6e à 10e génération avec 8 à 16 Go de RAM, le tout pour des tarifs très attractifs, généralement entre 70 € et 200 € selon la configuration. À mon sens, c’est probablement la meilleure option si vous souhaitez acquérir une nouvelle machine dédiée à votre nœud Bitcoin.
 
-075
+![Image](assets/fr/075.webp)
 
 Il est également possible de trouver en ligne des PC fixes ou portables datant de quelques années, d’occasion, avec des configurations intéressantes et un excellent rapport qualité/prix.
 
@@ -577,7 +577,7 @@ Les mini-PC constituent, selon moi, le meilleur compromis pour héberger un nœu
 
 Personnellement, j’ai une préférence pour les *Lenovo ThinkCentre Tiny* : très répandus sur le marché de l’occasion (issus de flottes d’entreprise), ils sont particulièrement robustes et faciles à modifier. Mais il existe bien sûr de nombreux équivalents chez d’autres constructeurs : *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*…
 
-001
+![Image](assets/fr/001.webp)
 
 **Points forts :** encombrement minimal, consommation modérée, bruit faible, évolutivité (selon modèle) et fiabilité.
 
@@ -587,7 +587,7 @@ Personnellement, j’ai une préférence pour les *Lenovo ThinkCentre Tiny* : tr
 
 C’est une excellente alternative low-cost au mini-PC : on trouve aujourd’hui des ordinateurs portables d’occasion ou même neufs à bas prix, équipés de processeurs corrects, de nombreux ports, ainsi que d’un écran et d’un clavier intégrés (très pratiques pour l’installation initiale). Surtout, la batterie joue le rôle d’onduleur naturel : en cas de micro-coupure électrique, le nœud ne s’éteint pas brutalement et peut même rester opérationnel plusieurs heures.
 
-076
+![Image](assets/fr/076.webp)
 
 **Points forts :** solution tout-en-un, batterie jouant le rôle d’UPS (pas de coupure), installation simplifiée grâce à l’écran et au clavier intégrés, carte Wi-Fi intégrée, vaste choix sur le marché de l’occasion comme du neuf (ce qui permet souvent de négocier les prix).  
 
@@ -601,7 +601,7 @@ Si vous choisissez cette solution, je vous recommande de surveiller attentivemen
 
 Au début des années 2020, avec l’essor des logiciels de node-in-a-box, est également apparue la mode des Raspberry Pi pour faire tourner un nœud Bitcoin. L’idée semblait séduisante : peu coûteuse, compacte et accessible.
 
-073
+![Image](assets/fr/073.webp)
 
 En pratique, si votre objectif est uniquement de faire tourner un nœud Bitcoin sans applications supplémentaires, un Raspberry Pi peut suffire. Mais dès que vous souhaitez utiliser Umbrel, Start9 ou un écosystème plus riche (explorateur de blocs, indexeur d’adresses, nœud Lightning, apps de self-hosting...), la machine atteint vite ses limites.
 
@@ -623,11 +623,11 @@ Techniquement, il est possible de faire tourner un nœud Bitcoin sur un HDD. Le 
 
 Le SSD change radicalement  votre expérience utilisateur : tout devient plus rapide et plus fluide, avec une fiabilité nettement supérieure. L’utilisation d’un SSD est donc (presque) obligatoire pour votre nœud, et vous ne le regretterez pas, d’autant plus que les modèles de grande capacité sont aujourd’hui relativement abordables.
 
-077
+![Image](assets/fr/077.webp)
 
 En termes de capacité, la capacité de 2 To s’impose progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
 
-078
+![Image](assets/fr/078.webp)
 
 Quant au format, il dépendra des ports disponibles sur votre machine, mais je vous recommande, si possible, de privilégier un SSD NVMe M.2.
 
@@ -651,7 +651,7 @@ Avant tout, il faut prévoir un SSD suffisamment grand pour accueillir la blockc
 
 À titre d’exemple, pour les besoins de ce cours, j’ai choisi le modèle suivant : *Samsung 990 EVO Plus NVMe M.2 SSD 2 To*, que l’on trouve autour de 120 € sur Amazon. Vous pouvez également opter pour d’autres marques réputées comme Crucial, Western Digital ou encore Kingston.
 
-046
+![Image](assets/fr/046.webp)
 
 #### Configuration pour petit budget
 
@@ -659,7 +659,7 @@ Avant tout, il faut prévoir un SSD suffisamment grand pour accueillir la blockc
 
 Sinon, pour un budget d’entrée de gamme, je recommande le *HP EliteDesk 800 G2 Mini*. J’en ai trouvé un modèle reconditionné à 96 € sur Amazon, équipé d’un processeur Intel Core i5 de 6e génération et de 8 Go de RAM. C’est une option particulièrement intéressante pour débuter : ce processeur et cette quantité de mémoire suffisent largement pour faire tourner Core sur Umbrel, ainsi que plusieurs applications simultanément comme un indexeur Electrs, un nœud Lightning et une instance Mempool, à condition de ne pas allouer trop de cache à Core. De plus, ce type de mini-PC permet d’augmenter facilement la RAM, par exemple à 16 Go en cas de besoin (prévoyez environ 30 à 40 € supplémentaires pour une ou deux barrettes de qualité).
 
-045
+![Image](assets/fr/045.webp)
 
 Il suffit ensuite d’ajouter le SSD au budget. En partant sur le Samsung 2 To à 120 €, on obtient un coût total de 216 € pour une machine complète et fonctionnelle.
 
@@ -667,7 +667,7 @@ Il suffit ensuite d’ajouter le SSD au budget. En partant sur le Samsung 2 To �
 
 Si vous disposez d’un budget moyen d’environ 300 € pour la machine qui hébergera votre nœud, je vous recommande par exemple un *Lenovo ThinkCentre Tiny*, équipé d’un processeur performant et d’une quantité de RAM suffisante. J’ai trouvé un modèle reconditionné sur Amazon à 180 €, doté d’un Intel Core i7 de 6e génération et de 16 Go de RAM. Avec l’ajout du SSD de 2 To à 120 €, le coût total s’élève donc à 300 €.
 
-044
+![Image](assets/fr/044.webp)
 
 Avec cette machine, vous avez une configuration confortable : une IBD rapide, et la possibilité de faire tourner sans difficulté de nombreuses applications sur votre Umbrel ou votre Start9. C’est d’ailleurs précisément la configuration que j’utilise pour ce cours BTC 202.
 
@@ -679,7 +679,7 @@ Si vous disposez d’un budget plus conséquent, les possibilités deviennent tr
 
 C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de self-hosting disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
 
-043
+![Image](assets/fr/043.webp)
 
 Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de self-hosting. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
 
@@ -720,15 +720,15 @@ Umbrel propose deux approches distinctes :
 
 - [**Umbrel Home**](https://umbrel.com/umbrel-home) : c'est un mini-serveur prêt à l’emploi, spécialement conçu et optimisé pour umbrelOS. Compact, silencieux, connecté en Ethernet, il est équipé d’un SSD NVMe (jusqu’à 4 To en option), de 16 Go de RAM et d’un CPU quad-core. Vous le commandez, vous le branchez, vous allez sur `umbrel.local`, et vous avez un Umbrel opérationnel en quelques minutes. C’est l'option "plug-and-play".
 
-081
+![Image](assets/fr/081.webp)
 
 - [**umbrelOS**](https://umbrel.com/umbrelos) : c'est le système d’exploitation que vous pouvez installer vous-même sur votre propre matériel (mini-PC, NUC, tour, laptop dédié…). Vous avez la même interface et le même App Store que sur Umbrel Home.
 
-080
+![Image](assets/fr/080.webp)
 
 Dans les deux cas, l’expérience utilisateur est identique côté logiciel : administration via le navigateur, mises à jour en un clic, installation d’applications à la demande... La solution DIY est souvent plus économique que l’achat d’un Umbrel Home (selon la machine utilisée). Toutefois, je ne vous recommande pas forcément de toujours privilégier cette option DIY, car **acheter un Umbrel Home contribue directement à financer le développement du projet**, puisque son modèle économique repose sur la vente de hardware. Et honnêtement, à 389 € pour 2 To de stockage, le tarif reste très raisonnable au regard de la qualité de la machine proposée.  
 
-079
+![Image](assets/fr/079.webp)
 
 Dans le prochain chapitre, nous verrons ensemble comment installer umbrelOS en DIY sur votre propre machine, mais vous pourrez tout à fait suivre ce cours BTC 202 de la même manière si vous avez opté pour un Umbrel Home.
 
@@ -738,11 +738,11 @@ Umbrel peut rester très minimaliste et centré uniquement sur Bitcoin, ou bien 
 
 - **Nœud Bitcoin simple** : c’est l’usage fondateur sur lequel Umbrel s’est appuyé dès le départ. Vous pouvez exécuter Bitcoin Core (ou Knots), connecter vos portefeuilles directement à votre nœud, exposer un serveur Electrum, héberger votre explorateur de blocs Mempool pour visualiser la blockchain et estimer les frais... C’est cet usage que nous allons approfondir en priorité dans cette formation.
 
-082
+![Image](assets/fr/082.webp)
 
 - **Lightning Network** : Umbrel permet aussi de déployer LND ou Core Lightning, deux implémentations du Lightning Network, afin de gérer votre propre nœud Lightning. Vous pourrez ainsi ouvrir des canaux, piloter votre liquidité, faire des paiements, automatiser son équilibrage, offrir des services, connecter un portefeuille distant, ou encore profiter d’une interface de gestion avancée grâce aux nombreuses applications disponibles. Nous étudierons ce cas d'usage sépcifique dans la prochaine formation LNP 202.
 
-083
+![Image](assets/fr/083.webp)
 
 - **Self-hosting généraliste** : avec Nextcloud, Immich, Jellyfin/Plex, les bloqueurs de publicité DNS-wide (Pi-hole/AdGuard), les VPN (WireGuard, Tailscale), la domotique (Home Assistant), les sauvegardes, la gestion de notes, les outils de bureautiques, les IA locales (Ollama + Open WebUI)... Umbrel peut devenir votre serveur personnel pour reprendre le contrôle de vos données. Vous hébergez vous-même les services que vous utilisez au quotidien, avec une expérience utilisateur soignée proche de celle des solutions externes, mais en conservant la maîtrise totale de vos données et de votre vie privée.
 
@@ -752,7 +752,7 @@ Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umb
 
 L’un des grands atouts d’Umbrel par rapport à ses concurrents est sa vaste communauté d’utilisateurs très active. Vous pouvez la rejoindre principalement via [leur Discord](https://discord.gg/efNtFzqtdx) et [leur forum en ligne](https://community.umbrel.com/). Vous y trouverez non seulement des conseils pratiques, mais surtout des solutions pour résoudre vos problèmes ou corriger d’éventuels bugs. C’est un formidable point d’appui pour débuter, progresser et, à terme, apporter votre aide à d’autres utilisateurs, afin de ne pas rester seul dans votre coin.
 
-084
+![Image](assets/fr/084.webp)
 
 ### La licence d'umbrelOS
 
@@ -782,7 +782,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 Pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un Lenovo ThinkCentre M900 Tiny équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
 
-001
+![Image](assets/fr/001.webp)
 
 J’apprécie particulièrement la gamme ThinkCentre Tiny de Lenovo, car il s’agit de machines compactes, silencieuses et très robustes. Ces ordinateurs sont très répandus dans les entreprises, et abondent donc sur le marché de l’occasion, ce qui permet de trouver des configurations intéressantes entre 70 € et 200 €.
 
@@ -808,13 +808,13 @@ Avant d’installer UmbrelOS sur votre machine, il vous faudra créer une clé U
 
 Rendez-vous sur [le site officiel d’Umbrel pour télécharger l’image ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) destinée à l’installation via une clé USB. Assurez-vous de choisir la version compatible avec l’architecture x86_64 (fichier intitulé `umbrelos-amd64-usb-installer.iso`). Le téléchargement peut être relativement long, puisque l’image est volumineuse.
 
-002
+![Image](assets/fr/002.webp)
 
 - Installez Balena Etcher :
 
 Pour créer la clé USB bootable, vous allez utiliser un outil simple et multiplateforme appelé [Balena Etcher](https://www.balena.io/etcher/). Téléchargez-le et installez-le sur votre ordinateur.
 
-003
+![Image](assets/fr/003.webp)
 
 - Insérez une clé USB vierge d’au moins 4 Go :
 
@@ -824,11 +824,11 @@ Branchez une clé USB dans votre ordinateur (celui sur lequel vous venez de tél
 
 Lancez Balena Etcher et sélectionnez le fichier ISO `umbrelos-amd64-usb-installer.iso` que vous venez de télécharger en cliquant sur le bouton "*Flash from file*". Puis, sélectionnez la clé USB comme périphérique cible et cliquez sur "*Flash!*" pour lancer l’écriture.
 
-004
+![Image](assets/fr/004.webp)
 
 Une fois l’opération terminée, vous disposerez d’une clé USB bootable contenant UmbrelOS, prête à être utilisée pour démarrer et installer Umbrel sur votre machine.
 
-005
+![Image](assets/fr/005.webp)
 
 ### Étape 3 : Démarrer l'ordinateur depuis la clé USB
 
@@ -840,7 +840,7 @@ Comme expliqué au début de ce chapitre, pour effectuer l’installation, vous 
 
 Umbrel nécessite évidemment une connexion internet. Branchez donc le câble Ethernet RJ45 entre votre appareil et votre routeur.
 
-006
+![Image](assets/fr/006.webp)
 
 Allumez votre machine. Dans la majorité des cas, celle-ci devrait automatiquement détecter la clé USB et démarrer dessus. Vous verrez alors l’interface d’installation d’UmbrelOS apparaître à l’écran.
 
@@ -852,23 +852,23 @@ Une fois que l’appareil a démarré depuis la clé USB, vous allez être accue
 
 L’écran qui s’affiche liste tous les périphériques de stockage internes détectés par l’ordinateur. Chaque disque est accompagné d’un numéro, d’un nom et d’une capacité de stockage. Repérez le disque sur lequel vous souhaitez installer Umbrel. **Attention : tous les fichiers présents sur ce disque seront définitivement effacés.**
 
-007
+![Image](assets/fr/007.webp)
 
 Une fois le bon disque identifié (généralement celui offrant la plus grande capacité, afin d’héberger la blockchain), notez le numéro qui lui est attribué. Par exemple, si le disque retenu apparaît sous le numéro `2`, il vous suffit de saisir `2`, puis d’appuyer sur la touche `Enter` du clavier.
 
-008
+![Image](assets/fr/008.webp)
 
 Le programme va formater le disque sélectionné, y installer UmbrelOS et configurer automatiquement le système. Cette étape peut durer quelques minutes. Laissez le processus se dérouler sans interruption.
 
-009
+![Image](assets/fr/009.webp)
 
 Lorsque l’installation est terminée, un message vous invite à éteindre l’appareil. Appuyez sur n’importe quelle touche pour arrêter l’ordinateur.
 
-010
+![Image](assets/fr/010.webp)
 
 Vous pouvez à présent retirer la clé USB, le clavier et l’écran ; ils ne sont plus nécessaires pour l’utilisation de votre Umbrel. Votre nœud ne doit donc rester connecté qu’à l’alimentation électrique et au câble Ethernet RJ45.
 
-011
+![Image](assets/fr/011.webp)
 
 Avant de redémarrer l’appareil, vérifiez les deux points suivants :
 
@@ -903,7 +903,7 @@ Pour identifier l’adresse IP de votre Umbrel, il y a plusieurs méthodes, de l
 
 - Utilisez un logiciel de scan réseau tel qu’Angry IP Scanner pour détecter les appareils connectés et repérer l’adresse IP de votre Umbrel.
 
-012
+![Image](assets/fr/012.webp)
 
 https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
@@ -919,7 +919,7 @@ Vous êtes maintenant prêt à utiliser Umbrel !
 
 Pour commencer la configuration de votre Umbrel, cliquez sur le bouton "*Start*".
 
-013
+![Image](assets/fr/013.webp)
 
 #### Créer un compte
 
@@ -933,11 +933,11 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Un fois le mot de passe renseigné, cliquez sur le bouton "*Create*".
 
-014
+![Image](assets/fr/014.webp)
 
 La configuration de votre Umbrel est terminée.
 
-015
+![Image](assets/fr/015.webp)
 
 #### Découverte de l'interface
 
@@ -945,15 +945,15 @@ L’interface d’Umbrel est assez intuitive :
 
 - Sur la page d’accueil, vous visualisez vos applications installées ainsi que vos widgets ;
 
-016
+![Image](assets/fr/016.webp)
 
 - L’"*App Store*" permet d’installer de nouvelles applications ;
 
-017
+![Image](assets/fr/017.webp)
 
 - Le menu "*Files*" centralise tous les documents stockés sur votre Umbrel ;
 
-018
+![Image](assets/fr/018.webp)
 
 - Le menu "*Settings*" vous permet de modifier les paramètres de votre Umbrel et d’accéder à ses informations, notamment :
     - Mettre à jour, redémarrer ou arrêter votre machine ;
@@ -961,7 +961,7 @@ L’interface d’Umbrel est assez intuitive :
     - Changer le fond d’écran ;
     - Gérer l’accès à distance via Tor, activer le Wi-Fi ou le 2FA.
 
-019
+![Image](assets/fr/019.webp)
 
 #### Paramètres de sécurité et de connexion
 
@@ -971,13 +971,13 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 Pour cela, cliquez sur la case correspondante dans les paramètres.
 
-020
+![Image](assets/fr/020.webp)
 
 Scannez ensuite le QR code affiché à l’aide de votre application d’authentification. Saisissez enfin le code dynamique à 6 chiffres dans le champs prévu à cet effet sur votre Umbrel.
 
 Désormais, chaque nouvelle connexion à votre Umbrel nécessitera à la fois le mot de passe et le code à 6 chiffres généré par votre application 2FA.
 
-021
+![Image](assets/fr/021.webp)
 
 En ce qui concerne l’accès à distance via Tor, si vous n’en avez pas l’utilité, je vous recommande de laisser cette option désactivée afin de limiter la surface d’attaque de votre Umbrel. Par défaut, votre nœud n’est accessible que depuis une machine connectée au même réseau local. Activer l’accès via Tor vous permettra néanmoins de gérer votre Umbrel en déplacement.
 
@@ -987,7 +987,7 @@ En cas d’activation de cette option, veillez à avoir le 2FA activé, un mot d
 
 Il vous suffira alors de saisir cette adresse Tor dans le navigateur Tor pour accéder à l’interface d’Umbrel depuis n’importe quel réseau.
 
-026
+![Image](assets/fr/026.webp)
 
 Enfin, sur cette page de paramètres, vous avez également la possibilité d’activer la connexion Wi-Fi. Si votre machine hébergeant Umbrel dispose d’une carte réseau Wi-Fi ou d’un dongle Wi-Fi, cela permet d’accéder à Internet sans utiliser le câble RJ45. Toutefois, selon votre configuration, cette solution risque de ralentir la connexion, ce qui peut affecter la synchronisation initiale (IBD) et l’utilisation future du nœud (par exemple pour des transactions Lightning). À titre personnel, je ne recommande pas cette option, car un nœud n’a pas vocation à être utilisé en mobilité : on y accède toujours à distance, donc autant le laisser branché.
 
@@ -995,15 +995,15 @@ Enfin, sur cette page de paramètres, vous avez également la possibilité d’a
 
 Maintenant qu’UmbrelOS est correctement installé et configuré sur votre machine, vous pouvez procéder à l’installation de votre nœud Bitcoin. Pour cela, rien de plus simple : rendez-vous dans l’App Store, ouvrez la catégorie "*Bitcoin*", puis sélectionnez l’application "*Bitcoin Node*" (il s’agit en réalité de Bitcoin Core).
 
-022
+![Image](assets/fr/022.webp)
 
 Cliquez ensuite sur le bouton "*Install*".
 
-023
+![Image](assets/fr/023.webp)
 
 Une fois l’installation achevée, votre nœud Bitcoin lancera son IBD (*Initial Block Download*) : il va télécharger et valider l’ensemble des transactions et des blocs depuis la création de Bitcoin en 2009.
 
-024
+![Image](assets/fr/024.webp)
 
 Cette étape est particulièrement longue : sa durée dépend de plusieurs facteurs, notamment la quantité de RAM allouée au cache du nœud, la rapidité du disque, la vitesse de la connexion Internet et la puissance du processeur. La fourchette de durée est donc très large en fonction des configurations. Avec un PC très performant (SSD NVMe, +32 Go de RAM, processeur puissant et bonne connexion internet) l’IBD peut s’achever en une dizaine d’heures. À l’inverse, un vieux processeur, peu de RAM ou, encore pire, un disque dur mécanique (fortement déconseillé) peuvent allonger cette opération à plusieurs semaines.
 
@@ -1011,7 +1011,7 @@ Avec un PC de configuration normale (processeur correct, 8 à 16 Go de RAM, SS
 
 Pour accélérer légèrement l’IBD, vous pouvez augmenter la RAM allouée au cache du nœud (utilisé notamment pour l’UTXO set, mais nous y reviendrons plus loin dans la formation), via le paramètre `dbcache`. Sur Umbrel, cette modification s’effectue dans les paramètres de votre nœud, dans l'onglet "*Optimization*".
 
-025
+![Image](assets/fr/025.webp)
 
 Par défaut, la valeur du paramètre `dbcache` dans Bitcoin Core est fixée à 450 MiB, soit environ 472 Mo. En augmentant cette valeur, vous pouvez accélérer légèrement l’IBD. Toutefois, je ne recommande pas forcément de pousser ce paramètre à des niveaux trop élevés : même en le réglant à 4 GiB, la synchronisation ne sera qu’environ 10 % plus rapide, et cela peut vous faire perdre du temps en cas d’interruption durant l’IBD.
 
@@ -1021,7 +1021,7 @@ Pour approfondir l’impact du paramètre `dbcache` sur la synchronisation initi
 
 Une fois l’IBD de votre nœud terminée (synchronisation à 100 %), vous disposez désormais d’un nœud complet Bitcoin pleinement opérationnel. Félicitations, vous faites désormais partie intégrante du réseau Bitcoin !
 
-027
+![Image](assets/fr/027.webp)
 
 Dans la prochaine partie, nous aborderons l’utilisation concrète de votre nouveau nœud : comment y connecter votre portefeuille et quelles applications installer pour devenir un bitcoiner souverain ?
 
@@ -1043,11 +1043,11 @@ Pour vulgariser, c’est le même principe qu’un index dans un livre : si vo
 
 Dans un nœud Bitcoin comme Bitcoin Core, les données de la blockchain sont stockées sous une forme brute et chronologique. Chaque bloc contient des transactions, qui elles-mêmes contiennent des entrées et des sorties, sans aucun classement particulier par adresse, identifiant ou portefeuille. Cette organisation linéaire est optimisée pour la validation des blocs, mais très peu adaptée à des recherches ciblées. Par exemple, si vous souhaitez retrouver toutes les transactions liées à une adresse spécifique dans un nœud non indexé, vous devriez parcourir manuellement l’ensemble de la blockchain, bloc par bloc, transaction par transaction. C’est précisément là qu’intervient l'indexeur sur votre nœud Bitcoin.
 
-085
+![Image](assets/fr/085.webp)
 
 Un indexeur est un logiciel spécialisé qui va analyser cette masse de données brutes (la blockchain, la mempool, l'UTXO set…) et en extraire des clés : identifiants de transaction, adresses, hauteurs de blocs... À partir de ces clés, il construit son index qui associe chaque clé à l’endroit exact où se trouve l’information dans le stockage du nœud.
 
-086
+![Image](assets/fr/086.webp)
 
 L’indexation permet ainsi d’effectuer des recherches d’informations sur votre nœud de manière rapide, ciblée et efficace. Par exemple, lorsque vous connectez un portefeuille comme Sparrow à votre nœud, il peut afficher presque instantanément le solde d’une adresse. Concrètement, il interroge l’indexeur avec une requête du type : "_Quels UTXOs sont associés à ce script-hash ?_" L’indexeur répond presque aussitôt, sans avoir à relire l’ensemble de la blockchain, car cette donnée est déjà répertoriée dans sa base.
 
@@ -1085,7 +1085,7 @@ L’indexeur nécessite un certain temps de synchronisation (inférieur à celui
 
 Deux logiciels sont couramment utilisés pour construire ce type d’index d’adresses et le rendre accessible : **Electrs** et **Fulcrum**. Ces outils indexent la blockchain selon les script-hash (adresses), puis proposent une interface standardisée (le protocole Electrum), à laquelle se connectent de nombreux portefeuilles tels qu’Electrum Wallet, Sparrow ou encore Phoenix.
 
-087
+![Image](assets/fr/087.webp)
 
 Pour faire simple, Electrs est assez compact : il indexe plus rapidement la blockchain et occupe moins d’espace disque, mais il est légèrement moins performant que Fulcrum lors des requêtes. À l’inverse, Fulcrum consomme davantage d’espace disque et requiert plus de temps pour l’indexation, mais il offre des performances supérieures lors des requêtes.
 
@@ -1102,11 +1102,11 @@ Pour la suite de cette formation BTC 202, j’utiliserai Electrs, mais vous po
 
 Pour installer Electrs (ou Fulcrum) sur votre Umbrel, la procédure est très simple : rendez-vous sur l’App Store, recherchez l’application concernée (elle figure dans l’onglet Bitcoin), puis cliquez sur le bouton "*Install*".
 
-028
+![Image](assets/fr/028.webp)
 
 Une fois l’installation terminée, Electrs procédera à une phase de synchronisation (indexation), qui peut durer plusieurs heures.
 
-029
+![Image](assets/fr/029.webp)
 
 Une fois la synchronisation terminée, vous pourrez connecter vos logiciels de portefeuille à votre serveur Electrum hébergé sur Umbrel.
 
@@ -1125,11 +1125,11 @@ Nous prendrons l’exemple de Sparrow dans ce chapitre, mais la procédure est i
 
 Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "Settings".
 
-030
+![Image](assets/fr/030.webp)
 
 Cliquez ensuite sur "*Server*" pour accéder aux paramètres de connexion.
 
-031
+![Image](assets/fr/031.webp)
 
 Vous découvrirez alors trois options pour relier votre logiciel à un nœud Bitcoin :
 - *Public Server* (jaune) : par défaut, si vous ne possédez pas de nœud Bitcoin, cette option vous connecte à un nœud public ne vous appartenant pas (généralement celui d'une entreprise). Cette option n’est pas pertinente ici, puisque vous avez votre propre nœud sur Umbrel ;
@@ -1140,23 +1140,23 @@ Vous découvrirez alors trois options pour relier votre logiciel à un nœud Bit
 
 Si votre nœud Umbrel ne dispose pas d’un indexeur, cette option est celle que vous devez sélectionner. Sur Sparrow, cliquez sur "*Bitcoin Core*".
 
-032
+![Image](assets/fr/032.webp)
 
 Vous devrez alors saisir plusieurs informations afin d’établir la connexion à votre nœud. Toutes ces données sont accessibles depuis l’application "*Bitcoin Node*" sur Umbrel, en cliquant sur le bouton "*Connect*" situé en haut à droite de l’interface.
 
-033
+![Image](assets/fr/033.webp)
 
 L’onglet "*RPC Details*" présente l’ensemble des informations nécessaires à la connexion. Choisissez la connexion via l'adresse Tor (en `.onion`).
 
-034
+![Image](assets/fr/034.webp)
 
 Renseignez ces éléments dans les champs correspondants sur Sparrow Wallet, puis cliquez sur le bouton "*Test Connection*".
 
-035
+![Image](assets/fr/035.webp)
 
 Si la connexion s’établit correctement, une coche verte accompagnée d’un message de confirmation apparaîtra.
 
-036
+![Image](assets/fr/036.webp)
 
 La coche située en bas à droite de l’interface Sparrow Wallet sera désormais verte (indiquant une connexion directe à Bitcoin Core).
 
@@ -1168,21 +1168,21 @@ Si votre nœud dispose d'un indexeur, il est préférable de vous y connecter pl
 
 Sur Sparrow, rendez-vous dans l’onglet "*Private Electrum*".
 
-037
+![Image](assets/fr/037.webp)
 
 Vous devrez alors saisir plusieurs informations afin d’établir la connexion avec votre indexeur. Vous trouverez ces données dans l’application "*Electrs*" (ou, le cas échéant, "*Fulcrum*") sur Umbrel.
 
 Sélectionnez l’onglet "*Tor*" pour obtenir l’adresse de connexion en `.onion`. Si vous souhaitez connecter un logiciel de portefeuille sur mobile, vous pouvez également scanner directement le QR code.
 
-038
+![Image](assets/fr/038.webp)
 
 Renseignez simplement l’adresse Tor de votre serveur Electrum dans le champ "*URL*", puis cliquez sur le bouton "*Test Connection*".
 
-039
+![Image](assets/fr/039.webp)
 
 Si la connexion s’établit correctement, une coche et un message de confirmation s’afficheront.
 
-040
+![Image](assets/fr/040.webp)
 
 La coche située en bas à droite de l’interface Sparrow Wallet deviendra bleue (couleur associée à la connexion à un serveur Electrum).
 
@@ -1223,7 +1223,7 @@ Pour ma part, j’apprécie particulièrement Mempool.space, que j’ai donc ins
 
 Une fois l’application installée, il vous suffit de l’ouvrir pour accéder à votre propre explorateur.
 
-041
+![Image](assets/fr/041.webp)
 
 Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
 
@@ -1245,11 +1245,11 @@ https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca0076
 
 https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
-088
+![Image](assets/fr/088.webp)
 
 Enfin, je vous recommande l’application *Lightning Network+*, qui permet de trouver des pairs avec qui ouvrir des canaux, afin de disposer à la fois de liquidités sortantes et entrantes.
 
-089
+![Image](assets/fr/089.webp)
 
 Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement simplifiée, mais elle demeure malgré tout relativement complexe. C’est pourquoi nous aborderons ce sujet en profondeur dans un prochain cours entièrement consacré à cet usage.
 
@@ -1259,7 +1259,7 @@ Une autre application que j'apprécie particulièrement sur Umbrel est Tailscale
 
 Sur Umbrel, l’installation de Tailscale permet de connecter votre nœud Bitcoin à votre propre réseau privé virtuel. Une fois configuré, votre nœud obtient une adresse IP privée Tailscale, accessible uniquement depuis vos autres appareils reliés au même réseau Tailscale (ordinateur, smartphone, tablette...). Cette connexion est chiffrée de bout en bout et ne transite pas par le réseau public non protégé, ce qui renforce considérablement la sécurité par rapport à une connexion en clair.
 
-090
+![Image](assets/fr/090.webp)
 
 Concrètement, pour l'utilisation de votre Umbrel, Tailscale vous apporte plusieurs avantages :
 
@@ -1299,7 +1299,7 @@ BTCPay Server est un processeur de paiement libre et open source permettant d’
 
 L’architecture de BTCPay Server repose sur un nœud Bitcoin et, pour Lightning, sur une implémentation compatible (LND, Core Lightning…), ce qui en fait une des seules solutions de PoS totalement non custodiales. C'est également le logiciel le plus complet pour le suivi et la comptabilité.
 
-091
+![Image](assets/fr/091.webp)
 
 Si vous possédez un commerce et souhaitez accepter les paiements en bitcoins directement via votre nœud Umbrel, l’application BTCPay Server est idéale pour vous. Pour en savoir plus à ce sujet, je vous recommande de consulter les ressources suivantes :
 
@@ -1342,7 +1342,7 @@ Les mises à jour de votre nœud sont importantes pour trois raisons principales
 
 - Pour mettre à jour le système : Ouvrez le menu des paramètres, puis cliquez sur le bouton "*Check for Update*" à côté du paramètre "*UmbrelOS*".
 
-042
+![Image](assets/fr/042.webp)
 
 - Pour mettre à jour les applications : Rendez-vous dans l’App Store. Si certaines de vos applications requièrent une mise à jour, un bouton accompagné d’une bulle rouge apparaîtra en haut à droite de l'interface. Cliquez simplement dessus, puis mettez à jour chaque application.
 
@@ -1386,13 +1386,13 @@ Votre nœud Bitcoin démarre sans aucune connaissance préalable de l’historiq
 
 L’IBD consiste à télécharger et à vérifier un par un chaque bloc et chaque transaction, en appliquant les règles de consensus, pour construire sa propre version de la blockchain. L’objectif n’est pas simplement de récupérer une copie de données non vérifiées, mais bien d’aboutir, de façon totalement indépendante, à la même conclusion que la majorité honnête du réseau.
 
-092
+![Image](assets/fr/092.webp)
 
 ### Les grandes étapes de l’IBD
 
 La synchronisation débute par l’étape _**headers-first**_. Votre nœud demande à plusieurs pairs la suite des en-têtes de blocs et, pour chacun d’eux, vérifie la preuve de travail, l’ajustement de la difficulté, la syntaxe, ainsi que les règles relatives aux horodatages et aux numéros de version. En résumé, il s’assure que chaque en-tête reçu respecte bien les règles de consensus.
 
-093
+![Image](assets/fr/093.webp)
 
 Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une liste de transactions. L’empreinte du bloc est obtenue en appliquant un double hachage SHA-256 sur cet en-tête, lequel regroupe 6 champs :
 - version
@@ -1402,11 +1402,11 @@ Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une 
 - cible de difficulté
 - nonce
 
-094
+![Image](assets/fr/094.webp)
 
 Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. SegWit a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
 
-095
+![Image](assets/fr/095.webp)
 
 Cette étape _**headers-first**_ permet au nœud d’identifier la branche cumulant le plus de travail (indépendamment de son nombre de blocs), qui est la branche sur laquelle les nœuds Bitcoin se synchronisent. Une fois cette branche repérée, le nœud télécharge le contenu des blocs en parallèle depuis plusieurs connexions, puis valide chaque transaction : format, validité des scripts (sauf `assumevalid=1`), montants et absence de double dépense. À chaque vérification réussie, l’état courant des pièces non dépensées (UTXO set) est mis à jour dans la base de données `chainstate/` : les sorties dépensées sont retirées, tandis que les nouvelles sorties valides sont ajoutées.
 
@@ -1434,7 +1434,7 @@ Le nœud devient ainsi rapidement opérationnel pour des usages courants (RPC, c
 
 Lors de son premier démarrage, un nœud ne connaît encore aucun pair. Pourtant, il doit impérativement trouver d’autres nœuds Bitcoin sur internet pour leur demander les en-têtes, puis les blocs, et ainsi réaliser son IBD. Pour amorcer ces connexions, Bitcoin Core suit une logique avec un ordre de priorité.
 
-096
+![Image](assets/fr/096.webp)
 
 Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par consulter son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ce fichier est vide, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
 
@@ -1451,7 +1451,7 @@ Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs
 
 Dans la grande majorité des cas, l’étape des *DNS seeds* suffit à établir les premières connexions avec d’autres nœuds. Si, exceptionnellement, ces serveurs ne répondent pas dans un délai de 60 secondes, le nœud passe à une autre méthode : [une liste statique de plus de 1 000 adresses](https://github.com/bitcoin/bitcoin/blob/master/src/chainparamsseeds.h) de _seed nodes_ est intégrée au code de Bitcoin Core et régulièrement mise à jour. Si les deux premières méthodes pour obtenir des adresses IP échouent, cette dernière solution permet d'établir une première connexion, à partir de laquelle le nœud pourra ensuite demander de nouvelles adresses IP.
 
-097
+![Image](assets/fr/097.webp)
 
 En ultime recours, il est possible de fournir manuellement des adresses IP via le fichier `peers.dat` afin de forcer des connexions spécifiques.
 
@@ -1474,7 +1474,7 @@ Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localeme
 
 Par défaut, Bitcoin Core enregistre ses données dans un répertoire de travail spécifique. Sous GNU/Linux, il se trouve généralement dans `~/.bitcoin/`, sous Windows dans `%APPDATA%\Bitcoin\`, et sous macOS dans `~/Library/Application Support/Bitcoin/`. Si vous utilisez une solution packagée (par exemple au sein d’une distribution de nœud), ce répertoire peut être monté ailleurs mais sa structure reste la même. Les sous-dossiers et fichiers importants décrits ci-dessous s’y trouvent toujours.
 
-098
+![Image](assets/fr/098.webp)
 
 ### Les blocs
 
@@ -1486,7 +1486,7 @@ La blockchain est donc un ensemble de blocs. Un nœud complet conserve ces blocs
 
 Les blocs reçus et validés sont écrits dans des conteneurs séquentiels nommés `blkNNNNN.dat`, stockés dans le dossier `blocks/`. Chaque fichier est rempli à la suite jusqu’à atteindre une taille maximale d’environ 128 Mio, puis Core ouvre le fichier suivant. À l’intérieur, chaque bloc est sérialisé en format réseau, précédé d’un identifiant magique et d’une longueur. Cette organisation permet une écriture rapide sur disque et facilite le service de blocs aux pairs qui se synchronisent.
 
-099
+![Image](assets/fr/099.webp)
 
 En mode élagué, le nœud conserve uniquement une fenêtre récente de ces fichiers pour limiter l’empreinte disque. Il supprime les plus anciens conteneurs `blk*.dat` dès que l’objectif d’espace configuré est atteint, tout en conservant suffisamment d’historique pour rester cohérent avec la meilleure chaîne connue. L’index et l’UTXO set restent normaux, ce qui permet la validation des prochaines transactions et des prochains blocs.
 
@@ -1494,13 +1494,13 @@ En mode élagué, le nœud conserve uniquement une fenêtre récente de ces fich
 
 Pour pouvoir revenir en arrière lors d’une réorganisation, Core enregistre, parallèlement à chaque fichier `blk`, un fichier `revNNNNN.dat` dans `blocks/`. Ce fichier contient les informations nécessaires pour défaire l’effet d’un bloc sur l’UTXO set : pour chaque sortie consommée par le bloc, on stocke l’état antérieur de l’UTXO correspondant (montant, script, hauteur...). En cas d’abandon de blocs, le nœud peut ainsi reconstituer l’état précédent rapidement sans rescanner toute la chaîne.
 
-100
+![Image](assets/fr/100.webp)
 
 #### Index des blocs (blocks/index)
 
 Rechercher un bloc directement dans les fichiers plats serait trop long. Core maintient donc une base de données LevelDB dans `blocks/index/` qui répertorie, pour chaque bloc connu, des métadonnées comme le hash, la hauteur, le statut de validation, le fichier `blk` et l’offset où il se trouve. Lorsqu’un pair demande un bloc, ou lorsqu’un composant interne doit accéder à un bloc précis, cet index permet un accès rapide. Sans cet index, cela demanderai bien trop d'opérations.
 
-101
+![Image](assets/fr/101.webp)
 
 #### Index facultatifs (indexes/)
 
@@ -1512,15 +1512,15 @@ Certains index sont optionnels et désactivés par défaut, car ils augmentent l
 
 Le modèle UTXO (*Unspent Transaction Output*) est la représentation comptable de Bitcoin : chaque sortie non dépensée est une "pièce" disponible qui pourra servir d’entrée à une future transaction. 
 
-102
+![Image](assets/fr/102.webp)
 
 L’ensemble de toutes ces pièces à un instant T constitue l’UTXO set : une grosse liste de toutes les pièces disponibles maintenant. C’est cet état que le nœud consulte pour décider si une transaction dépense des unités légitimes et non déjà utilisées dans une transaction antérieure (pour éviter la double dépense).
 
-103
+![Image](assets/fr/103.webp)
 
 L’UTXO set est conservé dans le dossier `chainstate/` sous la forme d’une base LevelDB compacte. Chaque pièce associe une clé dérivée du hash de la transaction et de l’index de sortie, à une valeur contenant : le montant, le `scriptPubKey` de verrouillage, la hauteur du bloc de création et un indicateur coinbase.
 
-104
+![Image](assets/fr/104.webp)
 
 Le nœud maintient un cache mémoire au-dessus de LevelDB afin d’absorber les lectures/écritures fréquentes. Le paramètre `dbcache` permet de modifier la taille de ce cache : plus il est grand, plus l’IBD et la validation courante bénéficient d’accès mémoire, au prix d’une consommation RAM plus grande. Lorsqu'un nouveau bloc est trouvé par un mineur, le nœud supprime de l'UTXO set les sorties dépensées (consommées) par les transactions incluses dans le bloc et ajoute les sorties nouvellement créées.
 
@@ -1528,7 +1528,7 @@ Théoriquement, on pourrait valider une transaction en rescannant l’historique
 
 Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du réseau : plus il y a d’utilisateurs, plus la demande en UTXOs est importante.
 
-105
+![Image](assets/fr/105.webp)
 
 La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
 
@@ -1666,11 +1666,11 @@ Comprendre cette séparation est très important : si une transaction ne respe
 Tout d’abord, il est essentiel de distinguer clairement les 2 types de connexions qu’un nœud Bitcoin peut avoir :
 - Les connexions sortantes, qui sont initiées par notre nœud vers un autre nœud ;
 
-106
+![Image](assets/fr/106.webp)
 
 - Les connexions entrantes, qui sont initiées par un autre nœud vers le nôtre.
 
-107
+![Image](assets/fr/107.webp)
 
 Ces deux types de connexions peuvent tout à fait échanger les mêmes données dans les deux sens ; il ne s’agit pas d’une limitation du sens du flux, mais uniquement d’une différence dans l’initiateur de la connexion. Du point de vue de notre nœud, les connexions sortantes sont généralement considérées comme plus sûres, car c’est nous qui en prenons l’initiative et choisissons précisément à quel nœud nous connecter, ce qui rend peu probable que cette connexion soit malveillante. Par défaut, Bitcoin Core maintient 10 connexions sortantes (8 "full-relay" + 2 "block-relay-only").
 

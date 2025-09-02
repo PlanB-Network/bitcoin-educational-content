@@ -11,7 +11,7 @@ objectives:
 ---
 # Schützen Sie Ihre Privatsphäre auf Bitcoin
 
-In einer Welt, in der die Vertraulichkeit von Finanztransaktionen allmählich zum Luxus wird, ist das Verständnis und die Beherrschung der Grundsätze des Datenschutzes bei der Verwendung von Bitcoin unerlässlich. Dieser Kurs gibt Ihnen alle Schlüssel, sowohl theoretisch als auch praktisch, um dies selbstständig zu erreichen.
+In einer Welt, in der die Vertraulichkeit von Finanztransaktionen allmählich zum Luxus wird, ist das Verständnis und die Beherrschung der Grundsätze des Datenschutzes bei der Verwendung von Bitcoin unerlässlich. Dieser Kurs gibt Ihnen alle Schlüsselkonzepte, sowohl theoretisch als auch praktisch, um dies selbstständig zu erreichen.
 
 Auf Bitcoin haben sich heute Unternehmen auf die Blockchain-Analyse spezialisiert. Ihr Kerngeschäft besteht genau darin, in Ihre Privatsphäre einzudringen, um die Vertraulichkeit Ihrer Transaktionen zu gefährden. In Wirklichkeit gibt es so etwas wie ein "Recht auf Privatsphäre" in Bitcoin nicht. Es liegt also an Ihnen, dem Nutzer, Ihre natürlichen Rechte geltend zu machen und die Vertraulichkeit Ihrer Transaktionen zu schützen, denn niemand sonst wird das für Sie tun.
 

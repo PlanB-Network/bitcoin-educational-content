@@ -90,7 +90,7 @@ Bereit, die Tiefen der Privatsphäre bei Bitcoin zu erkunden? Los geht's!
 
 Bitcoin ist in erster Linie eine Währung, aber wissen Sie eigentlich, wie BTC in dem Protokoll dargestellt werden?
 
-### UTXOs auf Bitcoin: Was sind sie?
+### UTXOs bei Bitcoin: Was ist das?
 
 Das Bitcoin-Protokoll basiert auf dem UTXO-Modell, das für "Unspent Transaction Output" steht.
 
@@ -100,15 +100,15 @@ Dieses Modell unterscheidet sich grundlegend von traditionellen Bankensystemen, 
 
 Bitcoin funktioniert anders. Das Konzept eines Kontos gibt es nicht, und die Geldeinheiten werden nicht über Guthaben, sondern über UTXOs verwaltet. Ein UTXO steht für eine bestimmte Menge an Bitcoins, die noch nicht ausgegeben wurde, und bildet somit ein "Stück Bitcoin", das groß oder klein sein kann. Ein UTXO kann zum Beispiel 500 BTC oder einfach 700 SATS wert sein.
 
-**Erinnern:** Der Satoshi, oft abgekürzt als Sat, ist die kleinste Einheit von Bitcoin, vergleichbar mit dem Centime in Fiat-Währungen.
+**Erinnerung:** Der Satoshi, oft abgekürzt als Sat, ist die kleinste Einheit von Bitcoin, vergleichbar mit dem Cent in Fiat-Währungen.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Theoretisch kann ein UTXO einen beliebigen Wert in Bitcoins repräsentieren, der von einem Sat bis zu einem theoretischen Maximum von etwa 21 Millionen BTC reicht. Es ist jedoch logisch unmöglich, alle 21 Millionen Bitcoins zu besitzen, und es gibt eine untere wirtschaftliche Schwelle, die als "Staub" bezeichnet wird und unterhalb derer ein UTXO als wirtschaftlich unrentabel angesehen wird.
+Theoretisch kann ein UTXO einen beliebigen Wert in Bitcoins repräsentieren, der von einem Sat bis zu einem theoretischen Maximum von etwa 21 Millionen BTC reicht. Es ist jedoch logisch unmöglich, alle 21 Millionen Bitcoins zu besitzen, und es gibt eine untere wirtschaftliche Schwelle, die als "Dust" (dt. Staub) bezeichnet wird und unterhalb derer ein UTXO als wirtschaftlich unrentabel angesehen wird.
 
-**Wussten Sie?** Das größte UTXO, das jemals auf Bitcoin erstellt wurde, hatte einen Wert von 500.000 BTC. Er wurde von der MtGox-Plattform während einer Konsolidierungsoperation im November 2011 erstellt: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Schon gewusst?** Das größte UTXO, das jemals auf Bitcoin erstellt wurde, hatte einen Wert von 500.000 BTC. Er wurde von der MtGox-Plattform während einer Konsolidierungsoperation im November 2011 erstellt: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs und Ausgabenbedingungen
 

@@ -1,0 +1,11 @@
+question: Ni ikihe kibazo nyamukuru co gukoresha umucungerezi w’ijambobanga yishingira?
+answer: Bisaba ubumenyi bwinshi bw’ubuhinga kugira ngo umuntu ashobore kubikoresha.
+wrong_answers:
+  - Ni ikintu gizimvye kuruta ibikorwa vy’abandi.
+  - Ntitanga ibintu vyinshi nk’ivyo abandi batanga.
+  - Ntiyitekanye nk’ibikorwa vy’abandi.
+explanation: |
+  Umucungerezi w'ijambobanga yiyakira asaba ubuhinga bwinshi
+  ubumenyi bwo gukoresha, nk’uko ukeneye gushinga no gucunga ubwawe .
+  umukozi. Ariko rero, birashobora gutuma umuntu agira ububasha bwinshi kandi akagira umutekano mwinshi.
+reviewed: true

@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Vytvoření profilu učitele
 
-Přejděte do složky `scripts/tutorial-related/data-creator/` na svém místním klonu. Ujistěte se, že jste nainstalovali všechny závislosti potřebné pro tento software, přičemž nejprve nainstalujte Python :
+Přejděte do složky `scripts/tutorial-related/data-creator/` na svém místním klonu. Ujistěte se, že jste nainstalovali všechny závislosti potřebné pro tento software, přičemž nejprve nainstalujte Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Poté spusťte software příkazem :
+Poté spusťte software příkazem:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ Poté klikněte na tlačítko "*Nový profesor*".
 
 ![Image](assets/fr/01.webp)
 
-Vyplňte požadované informace (upozorňujeme, že všechny tyto informace budou veřejné na naší platformě i na GitHubu) :
+Vyplňte požadované informace (upozorňujeme, že všechny tyto informace budou veřejné na naší platformě i na GitHubu):
 
 
 - Název souboru učitele (použijte své jméno a příjmení nebo pseudonym, malá písmena) ;
@@ -116,7 +116,7 @@ Po sloučení PR můžete pracovní větev odstranit.
 
 Pokud jste si osvojili používání systému Git, upravte svůj profil učitele vytvořením nové větve a úpravou příslušného souboru přímo ve stávající složce. Změny můžete provést buď v souboru `professor.yml`, nebo v souboru markdown, v závislosti na informacích, které je třeba opravit. Jakmile provedete změny lokálně, odešlete je do Fork a odešlete PR.
 
-Začátečníkům doporučuji provést úpravu přímo prostřednictvím webu Interface na GitHubu. Ujistěte se, že máte účet GitHub. Pokud nevíte, jak ho vytvořit, postupujte podle tohoto návodu :
+Začátečníkům doporučuji provést úpravu přímo prostřednictvím webu Interface na GitHubu. Ujistěte se, že máte účet GitHub. Pokud nevíte, jak ho vytvořit, postupujte podle tohoto návodu:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Přejděte na [úložiště GitHub Plan ₿ Network věnované datům](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

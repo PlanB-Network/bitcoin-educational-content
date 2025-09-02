@@ -100,7 +100,7 @@ Mullvad-nettleseren er utviklet med ett hovedmål i tankene: **beskytte brukerne
 
 
 
-Mullvad Browser inneholder en rekke **sikkerhets- og personvernfunksjoner** som er direkte inspirert av Tor Browser :
+Mullvad Browser inneholder en rekke **sikkerhets- og personvernfunksjoner** som er direkte inspirert av Tor Browser:
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser inkluderer **tre forhåndsinstallerte utvidelser** som utgjør k
 ### **uBlock Origin**
 
 
-Denne utvidelsen for blokkering av annonser og sporere leveres forhåndskonfigurert med **optimaliserte filterlister** for å blokkere :
+Denne utvidelsen for blokkering av annonser og sporere leveres forhåndskonfigurert med **optimaliserte filterlister** for å blokkere:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin i Mullvad Browser bruker standardiserte parametere for å sikre at
 ### **NoScript**
 
 
-NoScript kjører i bakgrunnen for å administrere nettleserens **sikkerhetsnivåer**. Dette :
+NoScript kjører i bakgrunnen for å administrere nettleserens **sikkerhetsnivåer**. Dette:
 
 
 
@@ -328,7 +328,7 @@ Klikk på **"Last ned"**-knappen som tilsvarer operativsystemet ditt.
 
 
 
-For Linux kan du velge mellom ulike formater, avhengig av distribusjonen din. Når nedlastingen er fullført :
+For Linux kan du velge mellom ulike formater, avhengig av distribusjonen din. Når nedlastingen er fullført:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser tilbyr tre sikkerhetsnivåer:
 
 
 
-- Normal** (nåværende standardnivå) : Alle nettleser- og nettstedsfunksjoner er aktivert
+- Normal** (nåværende standardnivå): Alle nettleser- og nettstedsfunksjoner er aktivert
 
 
 
@@ -489,7 +489,7 @@ Hvis du likevel velger å installere utvidelser, må du være klar over at du op
 
 
 
-4. **Velg det sikkerhetsnivået som passer best til dine behov** :
+4. **Velg det sikkerhetsnivået som passer best til dine behov**:
 
 
 

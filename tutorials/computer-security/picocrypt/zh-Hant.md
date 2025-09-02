@@ -74,7 +74,7 @@ Picocrypt** 加密軟體是其他知名解決方案的***替代方案，例如 *
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-來源 : [Github.com](https://github.com/Picocrypt/Picocrypt)
+來源: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

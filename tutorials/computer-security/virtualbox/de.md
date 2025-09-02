@@ -67,7 +67,7 @@ Die Installation von VirtualBox** ist ganz einfach und für alle Windows-Version
 
 
 
-Diese Installation ist anpassbar, aber ich empfehle Ihnen, alle Funktionen zu installieren: das ist der Fall bei der Standardauswahl. Auf dem Bild unten sehen Sie verschiedene Elements, darunter :
+Diese Installation ist anpassbar, aber ich empfehle Ihnen, alle Funktionen zu installieren: das ist der Fall bei der Standardauswahl. Auf dem Bild unten sehen Sie verschiedene Elements, darunter:
 
 
 

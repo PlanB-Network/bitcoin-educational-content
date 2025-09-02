@@ -10,7 +10,7 @@ Voordat je deze tutorial over het toevoegen van een nieuwe tutorial volgt, moet 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Je hebt al :
+Je hebt al:
 
 
 
@@ -20,18 +20,18 @@ Je hebt al :
 - Kies je bijdragehulpmiddelen.
 
 
-In deze tutorial bekijken we hoe je een tutorial aan Plan ₿ Network kunt toevoegen met de webversie van GitHub. Als je Git al onder de knie hebt, is deze zeer gedetailleerde tutorial misschien niet nodig voor je. In plaats daarvan raad ik je aan om een van deze andere 2 tutorials te bekijken, waar ik de te volgen richtlijnen en de stappen voor het maken van wijzigingen vanaf een lokale :
+In deze tutorial bekijken we hoe je een tutorial aan Plan ₿ Network kunt toevoegen met de webversie van GitHub. Als je Git al onder de knie hebt, is deze zeer gedetailleerde tutorial misschien niet nodig voor je. In plaats daarvan raad ik je aan om een van deze andere 2 tutorials te bekijken, waar ik de te volgen richtlijnen en de stappen voor het maken van wijzigingen vanaf een lokale:
 
 
 
 
-- Ervaren gebruikers** :
+- Ervaren gebruikers**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Intermediair (GitHub Desktop)** :
+- Intermediair (GitHub Desktop)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -39,7 +39,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## Vereisten
 
 
-Vereisten voordat u de zelfstudie start :
+Vereisten voordat u de zelfstudie start:
 
 
 
@@ -65,7 +65,7 @@ Als alles klaar is en je Fork van de Plan ₿ Network repository hebt, kun je be
 ## 1 - Maak een nieuwe tak
 
 
-Open je browser en navigeer naar je Fork pagina in de Plan ₿ Network repository. Dit is de Fork die je hebt aangemaakt op GitHub. De URL van je Fork zou er als volgt uit moeten zien: `https://github.com/[jouw-gebruikersnaam]/Bitcoin-onderwijsinhoud` :
+Open je browser en navigeer naar je Fork pagina in de Plan ₿ Network repository. Dit is de Fork die je hebt aangemaakt op GitHub. De URL van je Fork zou er als volgt uit moeten zien: `https://github.com/[jouw-gebruikersnaam]/Bitcoin-onderwijsinhoud`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -193,23 +193,23 @@ Dit zijn de verplichte velden:
 
 
 
-- id** : Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt het generate met behulp van [een online tool] (https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
+- id**: Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt het generate met behulp van [een online tool] (https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
 
 
 
-- project_id** : De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken op Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je zelfstudie toe te voegen, creëer je een link tussen de twee Elements;
+- project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken op Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je zelfstudie toe te voegen, creëer je een link tussen de twee Elements;
 
 
 
-- tags** : 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network tag lijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tags**: 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network tag lijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- categorie** : De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
+- categorie**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
 
 
 
-- level** : De moeilijkheidsgraad van de zelfstudie, gekozen uit:
+- level**: De moeilijkheidsgraad van de zelfstudie, gekozen uit:
     - beginner
     - gemiddeld
     - geavanceerd
@@ -217,20 +217,20 @@ Dit zijn de verplichte velden:
 
 
 
-- professor_id** : Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- oorspronkelijke_taal** : De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
+- oorspronkelijke_taal**: De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
 
 
 
-- proeflezen** : Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
-    - language** : Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
-    - last_contribution_date** : Datum van de dag.
-    - urgentie** : 1
-    - contributor_names** : Je GitHub ID.
-    - beloning** : 0
+- proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
+    - language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
+    - last_contribution_date**: Datum van de dag.
+    - urgentie**: 1
+    - contributor_names**: Je GitHub ID.
+    - beloning**: 0
 
 
 Raadpleeg de bijbehorende handleiding voor meer informatie over je leraren-ID:
@@ -315,7 +315,7 @@ Controleer nogmaals of je op de juiste branch zit en klik dan op "*Wijzigingen v
 ## 5 - Het Markdown-bestand maken
 
 
-Nu gaan we het bestand maken dat je tutorial zal hosten, met de naam van je taalcode, bijvoorbeeld `fr.md` als we in het Frans schrijven. Ga naar de tutorial map :
+Nu gaan we het bestand maken dat je tutorial zal hosten, met de naam van je taalcode, bijvoorbeeld `fr.md` als we in het Frans schrijven. Ga naar de tutorial map:
 
 
 ![GITHUB](assets/fr/16.webp)
@@ -353,7 +353,7 @@ Vul de naam van je tutorial en een korte beschrijving in:
 ![GITHUB](assets/fr/20.webp)
 
 
-Voeg dan het pad toe aan de omslagafbeelding aan het begin van je zelfstudie. Om dit te doen, noteer :
+Voeg dan het pad toe aan de omslagafbeelding aan het begin van je zelfstudie. Om dit te doen, noteer:
 
 
 ```
@@ -409,13 +409,13 @@ Je zou nu de afbeeldingen in de map moeten zien verschijnen.
 ## 7 - De zelfstudie schrijven
 
 
-Ga verder met het schrijven van je tutorial door je inhoud te noteren in het Markdown bestand met de taalcode (in mijn voorbeeld, in het Frans, is het het `fr.md` bestand). Ga naar het bestand en klik op het potloodpictogram :
+Ga verder met het schrijven van je tutorial door je inhoud te noteren in het Markdown bestand met de taalcode (in mijn voorbeeld, in het Frans, is het het `fr.md` bestand). Ga naar het bestand en klik op het potloodpictogram:
 
 
 ![GITHUB](assets/fr/28.webp)
 
 
-Begin met het schrijven van je zelfstudie. Als je een ondertitel toevoegt, gebruik dan de juiste Markdown-opmaak door de tekst vooraf te laten gaan door `##` :
+Begin met het schrijven van je zelfstudie. Als je een ondertitel toevoegt, gebruik dan de juiste Markdown-opmaak door de tekst vooraf te laten gaan door `##`:
 
 
 ![GITHUB](assets/fr/29.webp)
@@ -480,9 +480,9 @@ Als u uw eigen schema's wilt maken, zorg er dan voor dat u de grafische richtlij
 
 
 - Lettertype**: Gebruik [Rubik] (https://fonts.google.com/specimen/Rubik);
-- Kleuren** :
+- Kleuren**:
  - Oranje: #FF5C00
- - Zwart : #000000
+ - Zwart: #000000
  - Wit: #FFFFFF
 
 

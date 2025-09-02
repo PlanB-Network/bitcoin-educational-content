@@ -30,7 +30,7 @@ WireGuard ni suluhisho la hivi majuzi, ambalo limepatikana kama toleo thabiti ta
 
 
 
-Baadhi ya mambo muhimu kuhusu WireGuard :
+Baadhi ya mambo muhimu kuhusu WireGuard:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Thamani ya ufunguo wa umma itarejeshwa kwenye kiweko. Katika faili ya usanidi ya WireGuard, tunahitaji **kuongeza thamani ya ufunguo wetu wa faragha**. Ili kupata thamani hii, ingiza amri hapa chini na unakili thamani :
+Thamani ya ufunguo wa umma itarejeshwa kwenye kiweko. Katika faili ya usanidi ya WireGuard, tunahitaji **kuongeza thamani ya ufunguo wetu wa faragha**. Ili kupata thamani hii, ingiza amri hapa chini na unakili thamani:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Hatimaye, tunahitaji kuwezesha kuanzisha kiotomatiki kwa Interface wg0 WireGuard yetu :
+Hatimaye, tunahitaji kuwezesha kuanzisha kiotomatiki kwa Interface wg0 WireGuard yetu:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Ongeza maagizo yafuatayo hadi mwisho wa faili na uhifadhi :
+Ongeza maagizo yafuatayo hadi mwisho wa faili na uhifadhi:
 
 
 
@@ -691,7 +691,7 @@ Kwa usanidi wa sasa, sehemu ya trafiki hutiririka kupitia VPN, na iliyobaki kupi
 
 
 
-Kwanza, unahitaji kusanikisha kifurushi cha "resolvconf" kwenye :
+Kwanza, unahitaji kusanikisha kifurushi cha "resolvconf" kwenye:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Hifadhi faili, kisha uanze tena Interface :
+Hifadhi faili, kisha uanze tena Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Hatimaye, katika usanidi wa handaki kwenye kituo cha kazi cha Windows 10, unahitaji kurekebisha sehemu ya "AllowedIPs" ili kuonyesha kwamba kila kitu lazima kipite kwenye handaki. Badilisha :
+Hatimaye, katika usanidi wa handaki kwenye kituo cha kazi cha Windows 10, unahitaji kurekebisha sehemu ya "AllowedIPs" ili kuonyesha kwamba kila kitu lazima kipite kwenye handaki. Badilisha:
 
 
 

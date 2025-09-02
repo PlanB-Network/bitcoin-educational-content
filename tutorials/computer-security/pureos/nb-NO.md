@@ -260,7 +260,7 @@ Før du begynner å bruke PureOS, er det viktig å oppdatere systemet ditt. Da f
 
 
 
-- Oppdatering via Interface-grafikk** :
+- Oppdatering via Interface-grafikk**:
 
 
 Åpne **Programvare**, og gå deretter til fanen **Oppdateringer**. Tilgjengelige oppdateringer vises automatisk. Klikk på **Last ned** og deretter på **Installer** når nedlastingen er fullført.
@@ -269,7 +269,7 @@ Før du begynner å bruke PureOS, er det viktig å oppdatere systemet ditt. Da f
 
 
 
-- Oppdater via terminal** :
+- Oppdater via terminal**:
 
 
 Åpne terminalen, og skriv inn følgende kommando for å oppdatere listen over tilgjengelige pakker:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Skriv inn passordet ditt og bekreft. Installer deretter oppdateringene med :
+Skriv inn passordet ditt og bekreft. Installer deretter oppdateringene med:
 
 
 
@@ -325,7 +325,7 @@ PureOS-applikasjoner er utviklet for å være tilpasningsdyktige: De tilpasser s
 
 
 
-PureOS inneholder også kontorpakken **LibreOffice**, som inkluderer :
+PureOS inneholder også kontorpakken **LibreOffice**, som inkluderer:
 
 
 

@@ -1,0 +1,12 @@
+question: None Milton Friedman yari yaravuze iki mu 1999?
+answer: Gutegura amafaranga y’ubuhinga bwa none yizigirwa.
+wrong_answers:
+  - Uguhera kw’amahera y’umubiri.
+  - Ukwiyongera kwa Bitcoin.
+  - Iherezo ry’ubugenzuzi bwa Leta ku mahera.
+explanation: |
+  Milton Friedman, umuhinga mu vy’ubutunzi azwi cane, yaravuze imbere y’igihe mu 1999 .
+  ko amahera yo kwizigirwa yo kuri interineti yoca ategurwa vuba, uburyo .
+  aho kuri Internet ushobora gukura amahera kuri A ukaja kuri B,
+  ata A azi B canke ibihushanye n’ivyo.
+reviewed: true

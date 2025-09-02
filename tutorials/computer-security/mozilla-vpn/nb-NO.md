@@ -20,7 +20,7 @@ Et ***Virtual Private Network*** (VPN) er et system for å opprette en direkte f
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Basert på dette prinsippet er [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) en VPN-tjeneste med åpen kildekode som ble utviklet i 2020 av Mozilla Foundation. Den er tilgjengelig på :
+Basert på dette prinsippet er [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) en VPN-tjeneste med åpen kildekode som ble utviklet i 2020 av Mozilla Foundation. Den er tilgjengelig på:
 
 
 
@@ -39,7 +39,7 @@ Basert på dette prinsippet er [Mozilla VPN] (https://www.mozilla.org/fr/product
 
 
 
-Den er tilgjengelig i over 30 land og har over 500 servere som er ansvarlige for å maskere din IP Address for å flytte deg mens du sikrer konfidensialiteten til dine interaksjoner på Internett. Mozilla VPN kjennetegnes av :
+Den er tilgjengelig i over 30 land og har over 500 servere som er ansvarlige for å maskere din IP Address for å flytte deg mens du sikrer konfidensialiteten til dine interaksjoner på Internett. Mozilla VPN kjennetegnes av:
 
 
 

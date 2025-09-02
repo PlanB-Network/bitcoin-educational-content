@@ -51,7 +51,7 @@ Chombo hiki kinatumiwa sana na watumiaji mbalimbali, ikiwa ni pamoja na wasimami
 
 
 
-Mradi unapatikana katika Address hii kwenye **Github** :
+Mradi unapatikana katika Address hii kwenye **Github**:
 
 
 
@@ -82,7 +82,7 @@ Hali hii ya usakinishaji hukuruhusu kutumia amri ya **lynis** kutoka mahali popo
 
 
 
-Unganisha kwa seva yako kupitia SSH na uweke amri zifuatazo ili kusakinisha Lynis :
+Unganisha kwa seva yako kupitia SSH na uweke amri zifuatazo ili kusakinisha Lynis:
 
 
 
@@ -209,7 +209,7 @@ Ili kuonyesha amri zinazopatikana, ingiza tu amri ifuatayo:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Hii ndio unayopata:
 
 
 
-Ikiwa ungependa kuonyesha chaguzi zote, lazima uweke :
+Ikiwa ungependa kuonyesha chaguzi zote, lazima uweke:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Hifadhi uthibitishaji wa nenosiri :
+- Hifadhi uthibitishaji wa nenosiri:
 
 
 

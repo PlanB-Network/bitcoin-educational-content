@@ -16,12 +16,12 @@ Mfumo wa uendeshaji (OS) ni programu kuu inayosimamia rasilimali zote za kompyut
 
 
 
-- Usalama ulioimarishwa** : Usambazaji wa Linux unajulikana kwa usalama na uimara wao
+- Usalama ulioimarishwa**: Usambazaji wa Linux unajulikana kwa usalama na uimara wao
 - Gharama sifuri**: Ubuntu na usambazaji mwingi wa Linux ni bila malipo
 - Jumuiya kubwa**: Jumuiya ya watumiaji walio tayari kusaidia kupitia vikao na mafunzo
 - Kuheshimu faragha**: Mfumo wa chanzo wazi kwa uwazi zaidi
 - Urahisi**: Interface ifaayo kwa mtumiaji na urahisi wa kutumia
-- Mfumo tajiri wa ikolojia** : Katalogi pana ya programu huria
+- Mfumo tajiri wa ikolojia**: Katalogi pana ya programu huria
 - Usaidizi wa mara kwa mara**: Linda masasisho kutoka kwa Canonical
 
 
@@ -59,7 +59,7 @@ Mfumo wa uendeshaji (OS) ni programu kuu inayosimamia rasilimali zote za kompyut
 ### 3. Unda kitufe cha USB cha bootable
 
 
-Unaweza kutumia zana kadhaa, kama vile Balena Etcher :
+Unaweza kutumia zana kadhaa, kama vile Balena Etcher:
 
 
 
@@ -291,7 +291,7 @@ Vivinjari vingine (Chrome, Jasiri, n.k.) vinaweza kusakinishwa kupitia Kidhibiti
 Ubuntu inakuja na Suite ya LibreOffice (Mwandishi wa usindikaji wa maneno).
 
 
-Ili kuifungua : Shughuli > Tafuta "Mwandishi wa LibreOffice" au bonyeza kwenye ikoni ikiwa inaonekana kwenye upau.
+Ili kuifungua: Shughuli > Tafuta "Mwandishi wa LibreOffice" au bonyeza kwenye ikoni ikiwa inaonekana kwenye upau.
 
 
 Unaweza kuunda, kuhariri na kuhifadhi hati katika miundo mbalimbali (ikiwa ni pamoja na .docx).

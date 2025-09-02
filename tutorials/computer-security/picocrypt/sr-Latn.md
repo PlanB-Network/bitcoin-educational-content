@@ -74,11 +74,11 @@ Picocrypt** softver za šifrovanje predstavlja se kao **alternativa** drugim poz
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Izvor : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Izvor: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt je **veoma lagan**, teži samo **3 MB**, i ne treba da se instalira: to je **prenosiva aplikacija** sa prednošću da ne zahteva administratorska prava! Međutim, ne zanemaruje bezbednost, jer se oslanja na **robustne i pouzdane algoritme** :
+Picocrypt je **veoma lagan**, teži samo **3 MB**, i ne treba da se instalira: to je **prenosiva aplikacija** sa prednošću da ne zahteva administratorska prava! Međutim, ne zanemaruje bezbednost, jer se oslanja na **robustne i pouzdane algoritme**:
 
 
 

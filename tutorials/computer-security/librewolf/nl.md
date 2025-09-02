@@ -224,7 +224,7 @@ De installatie verschilt afhankelijk van je besturingssysteem:
 ### Op Linux
 
 
-LibreWolf biedt builds voor veel distributies. Op Debian/Ubuntu en afgeleiden is een officiële APT repository beschikbaar. Als alternatief is LibreWolf gepubliceerd in Flatpak op Flathub :
+LibreWolf biedt builds voor veel distributies. Op Debian/Ubuntu en afgeleiden is een officiële APT repository beschikbaar. Als alternatief is LibreWolf gepubliceerd in Flatpak op Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Op Windows
 
 
-Download het installatieprogramma (.exe) van de officiële website of gebruik de :
+Download het installatieprogramma (.exe) van de officiële website of gebruik de:
 
 
 
 
-- Chocolade :** `choco install librewolf`
-- WinGet :** `winget installeer librewolf`
+- Chocolade:** `choco install librewolf`
+- WinGet:** `winget installeer librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laadt uw pagina's automatisch in "strikte" (anti-tracking) modus, en d
 
 
 
-LibreWolf is al optimaal geconfigureerd voor privacy. In Menu → Opties → Privacy & Beveiliging zie je dat LibreWolf is ingesteld op de modus Verbeterde Trackingbescherming: Strict. Deze modus blokkeert :
+LibreWolf is al optimaal geconfigureerd voor privacy. In Menu → Opties → Privacy & Beveiliging zie je dat LibreWolf is ingesteld op de modus Verbeterde Trackingbescherming: Strict. Deze modus blokkeert:
 
 
 

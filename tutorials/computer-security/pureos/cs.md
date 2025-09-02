@@ -260,7 +260,7 @@ Před zahájením používání systému PureOS je nutné systém aktualizovat. 
 
 
 
-- Aktualizace prostřednictvím grafiky Interface** :
+- Aktualizace prostřednictvím grafiky Interface**:
 
 
 Otevřete aplikaci **Software** a přejděte na kartu **Aktualizace**. Automaticky se zobrazí dostupné aktualizace. Klikněte na tlačítko **Stáhnout** a po dokončení stahování na tlačítko **Instalace**.
@@ -269,7 +269,7 @@ Otevřete aplikaci **Software** a přejděte na kartu **Aktualizace**. Automatic
 
 
 
-- Aktualizace přes terminál** :
+- Aktualizace přes terminál**:
 
 
 Otevřete terminál a zadejte následující příkaz pro aktualizaci seznamu dostupných balíčků:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Zadejte heslo a potvrďte je. Poté nainstalujte aktualizace pomocí :
+Zadejte heslo a potvrďte je. Poté nainstalujte aktualizace pomocí:
 
 
 
@@ -325,7 +325,7 @@ Aplikace PureOS jsou navrženy jako adaptivní: automaticky se přizpůsobují v
 
 
 
-PureOS obsahuje také kancelářský balík **LibreOffice**, který zahrnuje :
+PureOS obsahuje také kancelářský balík **LibreOffice**, který zahrnuje:
 
 
 

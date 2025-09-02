@@ -224,7 +224,7 @@ Ufungaji hutofautiana kulingana na OS yako:
 ### Kwenye Linux
 
 
-LibreWolf inatoa hujenga kwa usambazaji wengi. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf imechapishwa katika Flatpak kwenye Flathub :
+LibreWolf inatoa hujenga kwa usambazaji wengi. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf imechapishwa katika Flatpak kwenye Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Kwenye Windows
 
 
-Pakua kisakinishi (.exe) kutoka kwa tovuti rasmi au tumia :
+Pakua kisakinishi (.exe) kutoka kwa tovuti rasmi au tumia:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 

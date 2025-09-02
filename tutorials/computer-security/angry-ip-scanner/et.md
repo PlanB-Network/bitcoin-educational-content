@@ -38,7 +38,7 @@ Siinkohal kasutame seda **Windows 11** peal, kuid seda on täiesti võimalik kas
 
 
 
-Kui soovite minna kaugemale, vaadake Nmapi õpetust :
+Kui soovite minna kaugemale, vaadake Nmapi õpetust:
 
 
 

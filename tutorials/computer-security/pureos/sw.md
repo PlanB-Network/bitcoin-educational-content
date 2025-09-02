@@ -260,7 +260,7 @@ Kabla ya kuanza kutumia PureOS, ni muhimu kusasisha mfumo wako. Hii itakuwezesha
 
 
 
-- Sasisha kupitia mchoro wa Interface** :
+- Sasisha kupitia mchoro wa Interface**:
 
 
 Fungua programu ya **Programu**, kisha uende kwenye kichupo cha **Sasisho**. Masasisho yanayopatikana yanaonyeshwa kiotomatiki. Bofya **Pakua**, kisha **Sakinisha** upakuaji utakapokamilika.
@@ -269,7 +269,7 @@ Fungua programu ya **Programu**, kisha uende kwenye kichupo cha **Sasisho**. Mas
 
 
 
-- Sasisha kupitia terminal** :
+- Sasisha kupitia terminal**:
 
 
 Fungua terminal, kisha ingiza amri ifuatayo ili kusasisha orodha ya vifurushi vinavyopatikana:

@@ -66,7 +66,7 @@ Od 2017. godine, Arch Linux više ne podržava 32-bitne arhitekture. Dostupne su
 
 
 
-Da biste kreirali USB fleš disk sa mogućnošću pokretanja, možete koristiti alat kao što je **Balena Etcher** :
+Da biste kreirali USB fleš disk sa mogućnošću pokretanja, možete koristiti alat kao što je **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Na ekranu za pokretanje, izaberite prvu opciju za pokretanje instalacije. Imajte
 
 
 
-Možete prikazati dostupne rasporede sa :
+Možete prikazati dostupne rasporede sa:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Zatim učitaj raspored sa :
+Zatim učitaj raspored sa:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux koristi alat `timedatectl` za upravljanje sistemskim satom.
 
 
 
-- Podesite svoju vremensku zonu pomoću :
+- Podesite svoju vremensku zonu pomoću:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Proverite da li je automatska sinhronizacija omogućena sa :
+- Proverite da li je automatska sinhronizacija omogućena sa:
 
 
 ```shell
@@ -208,7 +208,7 @@ Ovo aktivira NTP, protokol za automatsku sinhronizaciju sa vremenskim serverima.
 
 
 
-- Proverite da li vaš sistem pokreće u **UEFI** ili **BIOS** sa :
+- Proverite da li vaš sistem pokreće u **UEFI** ili **BIOS** sa:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Pokreni Partition Manager :
+- Pokreni Partition Manager:
 
 
 
@@ -294,7 +294,7 @@ Odaberite **Write**, upišite **yes**, zatim **Quit**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Montiraj **root** particiju:
 
 
 
-- Na BIOS-u :
+- Na BIOS-u:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- na UEFI :
+- na UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Instalirajte uređivač teksta za uređivanje :
+- Instalirajte uređivač teksta za uređivanje:
 
 
 
@@ -423,7 +423,7 @@ Izmenite `/etc/locale.gen` zatim uklonite komentar sa linije `en_US.UTF-8 UTF-8`
 
 
 
-- Postavite ime mašine :
+- Postavite ime mašine:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Postavite root lozinku :
+- Postavite root lozinku:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Instaliraj :
+Instaliraj:
 
 
 
@@ -472,7 +472,7 @@ Kada se preuzme, potrebno je instalirati ga prema formatu particije diska.
 
 
 
-- Za **BIOS** :
+- Za **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Za **UEFI** :
+- Za **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Ponovo pokreni :
+- Ponovo pokreni:
 
 
 ```shell
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktivirajte **session manager** :
+Aktivirajte **session manager**:
 
 
 
@@ -652,7 +652,7 @@ Jednom u **Interface GNOME**, trebaće da kreirate novog korisnika za veću sigu
 
 
 
-- Dodaj korisnika :
+- Dodaj korisnika:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Instaliraj **sudo** :
+- Instaliraj **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Zatim uklonite komentar sa linije :
+- Zatim uklonite komentar sa linije:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Na primer, da biste instalirali uređivač teksta **nano**, možete upisati :
+Na primer, da biste instalirali uređivač teksta **nano**, možete upisati:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Da biste instalirali lagani veb pregledač kao što je `firefox`, koristite :
+Da biste instalirali lagani veb pregledač kao što je `firefox`, koristite:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Konačno, ako želite da dodate osnovne mrežne alate kao što je `net-tools`, komanda bi bila :
+Konačno, ako želite da dodate osnovne mrežne alate kao što je `net-tools`, komanda bi bila:
 
 
 

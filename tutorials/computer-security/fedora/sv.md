@@ -34,7 +34,7 @@ Fedora innehåller också en skrivbordsmiljö, som är den Interface genom vilke
 
 
 
-Bland de många Linux-distributioner som finns tillgängliga utmärker sig Fedora särskilt för :
+Bland de många Linux-distributioner som finns tillgängliga utmärker sig Fedora särskilt för:
 
 
 
@@ -66,7 +66,7 @@ Bland de många Linux-distributioner som finns tillgängliga utmärker sig Fedor
 
 
 
-Beroende på din profil och användning erbjuder Fedora utgåvor som passar dina behov. Du kommer främst att hitta :
+Beroende på din profil och användning erbjuder Fedora utgåvor som passar dina behov. Du kommer främst att hitta:
 
 
 
@@ -205,7 +205,7 @@ Det första steget är att välja Fedoras **installationsspråk** och **tangentb
 
 
 
-- Välja installationsdiskett :
+- Välja installationsdiskett:
 
 
 
@@ -223,7 +223,7 @@ Om disken är tom kommer Fedora automatiskt att använda allt tillgängligt utry
 
 
 
-- Kryptering :
+- Kryptering:
 
 
 
@@ -415,7 +415,7 @@ En **omstart** kan krävas när uppdateringarna har installerats.
 
 
 
-- Öppna en terminal och börja med att uppdatera **repositories** för att se till att du har de senaste versionerna av :
+- Öppna en terminal och börja med att uppdatera **repositories** för att se till att du har de senaste versionerna av:
 
 
 

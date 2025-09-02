@@ -1,0 +1,16 @@
+question: Ni igiki ciyumviro c’akarusho ko kugereranya mu bijanye n’ugusangira ibikorwa?
+answer: Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe kuruta ibindi.
+wrong_answers:
+  - Umuntu afise ubushobozi bungana n’ubw’abandi bwo gukora ibikorwa vyose.
+  - Umuntu afise ubushobozi bwo gukora ibikorwa bimwebimwe biri hasi kuruta ibindi.
+  - Umuntu ku giti ciwe arafise ubushobozi bwo gukora ibikorwa vyose kuruta abandi.
+explanation: |
+  Mu bijanye n’ugusangira ibikorwa, ukugereranya .
+  akamaro yerekeza ku kuntu umuntu afise .
+  ubushobozi bwo gukora ibikorwa bimwebimwe kuruta ibindi.
+  Naho uwo muntu yoba atagira akamaro nyakuri .
+  mu guhingura ikintu ciza ico ari co cose, hazoba hakiriho ubwoko bw’
+  umusaruro umuntu ku giti ciwe ari mwiza kurusha mu .
+  abandi, kandi kubera iyo mvo, baracari n’inyungu mu .
+  kwihariza.
+reviewed: true

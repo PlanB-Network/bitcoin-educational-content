@@ -10,7 +10,7 @@ description: Comment configurer Firefox pour protéger sa vie privée ?
 On passe tous des heures en ligne, souvent sans se rendre compte de ce que notre navigateur révèle sur nous. Chaque clic, chaque recherche, chaque site visité alimente une industrie massive de collecte de données personnelles.
 
 ![Statistiques navigateurs 2024](assets/fr/01.webp)
-*Parts de marché des navigateurs web : Chrome domine avec 65% du marché, suivi de Safari et Edge. Source : [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
+*Parts de marché des navigateurs web: Chrome domine avec 65% du marché, suivi de Safari et Edge. Source: [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
 Comme le montre ce graphique, Google Chrome domine massivement avec plus de 65% d'utilisation mondiale. Cette hégémonie signifie que la majorité des internautes confient leurs données de navigation à Google, une entreprise dont le modèle économique repose sur la publicité ciblée. Firefox, avec seulement 3% du marché, représente une alternative développée par Mozilla, une organisation à but non lucratif sans intérêt commercial à exploiter vos données.
 
@@ -18,34 +18,34 @@ Mais choisir Firefox n'est que la première étape. Par défaut, même Firefox n
 
 ### Pourquoi Firefox ?
 
-- **Libre et open-source** (moteur Gecko) : code auditable et transparent
-- **Organisation à but non lucratif** : Mozilla Foundation, mission d'intérêt général
-- **Protections natives intégrées** : Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, mode HTTPS-only, DNS over HTTPS (DoH)
-- **Personnalisation poussée** : contrairement à Chrome, Firefox permet de modifier en profondeur son comportement
+- **Libre et open-source** (moteur Gecko): code auditable et transparent
+- **Organisation à but non lucratif**: Mozilla Foundation, mission d'intérêt général
+- **Protections natives intégrées**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, mode HTTPS-only, DNS over HTTPS (DoH)
+- **Personnalisation poussée**: contrairement à Chrome, Firefox permet de modifier en profondeur son comportement
 
 ### Principes importants avant de commencer
 
-- **Pas de recette universelle** : Plus vous modifiez, plus vous risquez de vous démarquer (fingerprinting). L'objectif est d'être mieux protégé sans sortir de la foule.
-- **Progression par étapes** : Changez un réglage, testez vos sites habituels, puis continuez. Inutile de tout bouleverser d'un coup.
-- **Équilibre personnel** : Trouvez VOTRE compromis entre confidentialité et confort d'utilisation.
+- **Pas de recette universelle**: Plus vous modifiez, plus vous risquez de vous démarquer (fingerprinting). L'objectif est d'être mieux protégé sans sortir de la foule.
+- **Progression par étapes**: Changez un réglage, testez vos sites habituels, puis continuez. Inutile de tout bouleverser d'un coup.
+- **Équilibre personnel**: Trouvez VOTRE compromis entre confidentialité et confort d'utilisation.
 
 ## Installation rapide
 
 ![Téléchargement Firefox](assets/fr/02.webp)
 
-**Téléchargement officiel :** Rendez-vous sur [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). Sur cette page, sélectionnez votre système d'exploitation (Windows, macOS, Linux) pour accéder à la page de téléchargement adaptée avec les instructions d'installation spécifiques.
+**Téléchargement officiel:** Rendez-vous sur [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). Sur cette page, sélectionnez votre système d'exploitation (Windows, macOS, Linux) pour accéder à la page de téléchargement adaptée avec les instructions d'installation spécifiques.
 
 - **Windows**: téléchargez l'installeur `.exe`, double-cliquez et suivez l'assistant d'installation
 - **macOS**: téléchargez le fichier `.dmg`, ouvrez-le et glissez Firefox dans le dossier Applications
 - **Linux**: plusieurs options disponibles - paquet `.deb`/`.rpm`, Flatpak (Flathub), Snap, ou via gestionnaire de paquets (apt, dnf, pacman). Préférez les sources officielles Mozilla.
 
-**Astuce :** Une fois installé, vérifiez les mises à jour via Aide → **À propos de Firefox** (important pour les correctifs de sécurité).
+**Astuce:** Une fois installé, vérifiez les mises à jour via Aide → **À propos de Firefox** (important pour les correctifs de sécurité).
 
 ![Configuration initiale Firefox](assets/fr/03.webp)
-*Premier écran au lancement de Firefox : possibilité de définir Firefox comme navigateur par défaut, l'ajouter aux raccourcis, puis cliquer sur "Enregistrer et continuer"*
+*Premier écran au lancement de Firefox: possibilité de définir Firefox comme navigateur par défaut, l'ajouter aux raccourcis, puis cliquer sur "Enregistrer et continuer"*
 
 ![Création compte Firefox](assets/fr/04.webp)
-*Étape optionnelle : création ou connexion à un compte Firefox. Vous pouvez ignorer cette étape en cliquant sur "Pas maintenant" en bas à droite*
+*Étape optionnelle: création ou connexion à un compte Firefox. Vous pouvez ignorer cette étape en cliquant sur "Pas maintenant" en bas à droite*
 
 ![Page d'accueil Firefox](assets/fr/05.webp)
 *Écran d'accueil Firefox une fois la configuration terminée. Notez le menu ☰ en haut à droite qui donne accès aux Paramètres et aux Extensions pour personnaliser Firefox*
@@ -60,7 +60,7 @@ Mais choisir Firefox n'est que la première étape. Par défaut, même Firefox n
 
 Objectif: gros gain de confidentialité sans casser le web. Pour 90% des utilisateurs.
 
-Pour accéder aux paramètres, cliquez sur le menu ☰ en haut à droite puis **"Paramètres"** :
+Pour accéder aux paramètres, cliquez sur le menu ☰ en haut à droite puis **"Paramètres"**:
 
 ![Paramètres généraux](assets/fr/07.webp)
 *Page des paramètres Firefox - onglet "Général". C'est ici que vous configurerez la plupart des options de confidentialité*
@@ -69,7 +69,7 @@ Pour accéder aux paramètres, cliquez sur le menu ☰ en haut à droite puis **
 - Passez **ETP** en **Strict**. Vous bloquez davantage de traqueurs (cookies inter‑sites, fingerprinting, cryptomineurs, widgets sociaux…).
 - Si un site casse (vidéo, bouton connexion…), désactivez la protection uniquement pour ce site via le bouclier 🛡️, puis actualisez l'onglet.
 
-Voici les différents niveau de sécurité ETP :
+Voici les différents niveau de sécurité ETP:
 - **Standard** (équilibré, compatibilité maximale)
   - Bloque: traqueurs sociaux, cookies intersites (toutes fenêtres), contenu de pistage en navigation privée, mineurs de cryptomonnaie, détecteurs d’empreinte.
   - Inclut **Total Cookie Protection** (TCP): un « bocal » par site.
@@ -128,11 +128,11 @@ Voici les différents niveau de sécurité ETP :
 Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 **DNS over HTTPS (DoH)**
-- **Statut par défaut** : Activé automatiquement dans certaines régions (États-Unis, Canada, Russie, Ukraine). Ailleurs, nécessite activation manuelle.
-- **Configuration** : Paramètres → Général → Paramètres réseau → **Activer DoH** → **Cloudflare** ou **Quad9** → **Protection maximale**.
+- **Statut par défaut**: Activé automatiquement dans certaines régions (États-Unis, Canada, Russie, Ukraine). Ailleurs, nécessite activation manuelle.
+- **Configuration**: Paramètres → Général → Paramètres réseau → **Activer DoH** → **Cloudflare** ou **Quad9** → **Protection maximale**.
 - **Protection maximale = TRR‑only** (pas de repli sur le DNS système). Si un réseau d'entreprise/hôtel bloque, revenez en **Standard** ou désactivez DoH.
-- **Redondance** : Si vous utilisez déjà un VPN de confiance avec ses propres DNS sécurisés, DoH peut être redondant.
-- **Test de vérification** : `https://www.dnsleaktest.com/` doit n'afficher que le fournisseur DoH choisi.
+- **Redondance**: Si vous utilisez déjà un VPN de confiance avec ses propres DNS sécurisés, DoH peut être redondant.
+- **Test de vérification**: `https://www.dnsleaktest.com/` doit n'afficher que le fournisseur DoH choisi.
 
 ![Sélection fournisseur DNS Cloudflare](assets/fr/10.webp)
 
@@ -158,14 +158,14 @@ Objectif: cloisonner ses activités et réduire les fuites réseau.
 
 Objectif: durcissement poussé avec compromis assumés. Recommandé sur un **profil séparé**.
 
-Choisissez une seule des deux approches suivantes :
+Choisissez une seule des deux approches suivantes:
 
-**Approche A - Modifications manuelles** : Quelques ajustements ciblés via `about:config` (plus simple, contrôle précis)
-**Approche B - Arkenfox user.js** : Configuration complète automatisée (plus complexe, protection maximale)
+**Approche A - Modifications manuelles**: Quelques ajustements ciblés via `about:config` (plus simple, contrôle précis)
+**Approche B - Arkenfox user.js**: Configuration complète automatisée (plus complexe, protection maximale)
 
 ➡️ **Arkenfox inclut déjà TOUTES les modifications about:config mentionnées ci-dessous** + des centaines d'autres. Si vous choisissez Arkenfox, ignorez la section about:config.
 
-### Approche A : Modifications manuelles via about:config
+### Approche A: Modifications manuelles via about:config
 
 Tapez `about:config` dans la barre d'adresse → Accepter le risque.
 
@@ -210,7 +210,7 @@ network.http.speculative-parallel-limit = 0
 
 Règle d’or: si quelque chose casse, revenez sur le dernier changement.
 
-### Approche B : Arkenfox user.js (Configuration complète automatisée)
+### Approche B: Arkenfox user.js (Configuration complète automatisée)
 
 Le projet **Arkenfox** fournit un fichier `user.js` maintenu par la communauté qui applique automatiquement des centaines de préférences Firefox orientées confidentialité et sécurité. Au redémarrage, Firefox lit ce fichier présent dans votre profil et applique ces réglages.
 
@@ -237,7 +237,7 @@ Mises à jour
 
 Arkenfox est volontairement restrictif par défaut. Pour adapter certains réglages à vos besoins (streaming, visio, sites spécifiques), vous pouvez créer un fichier `user-overrides.js` dans le même dossier que `user.js`. Ce fichier permet de "surcharger" certaines préférences Arkenfox sans modifier le fichier principal.
 
-Créez `user-overrides.js` et ajoutez-y vos personnalisations :
+Créez `user-overrides.js` et ajoutez-y vos personnalisations:
 ```javascript
 // DRM/streaming
 user_pref("media.eme.enabled", true);
@@ -279,11 +279,11 @@ Bonnes pratiques
 - Un navigateur durci ≠ anonymat réseau: sans **VPN**, votre IP reste visible; même avec, la corrélation reste possible.
 - Trop modifier peut vous rendre **unique**. **RFP** standardise; des outils de randomisation (ex. Chameleon) peuvent… vous distinguer. Testez, comparez, ajustez.
 - Alternatives/compléments: 
-	- **Tor Browser : anonymat réseau via Tor; plus lent. Consultez notre guide complet pour l'installation et la configuration** :
+	- **Tor Browser: anonymat réseau via Tor; plus lent. Consultez notre guide complet pour l'installation et la configuration**:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-	- **Mullvad Browser : « Tor sans Tor », à combiner avec VPN; empreinte standardisée. Découvrez son installation dans notre tutoriel dédié** : 
+	- **Mullvad Browser: « Tor sans Tor », à combiner avec VPN; empreinte standardisée. Découvrez son installation dans notre tutoriel dédié**: 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
@@ -293,35 +293,35 @@ https://planb.network/tutorials/computer-security/communication/mullvad-browser-
 
 En suivant ce guide par étapes, vous avez transformé Firefox en véritable rempart contre la surveillance numérique. Des réglages essentiels du Niveau 1 jusqu'aux configurations avancées d'Arkenfox, chaque modification renforce votre confidentialité sans compromettre votre expérience de navigation.
 
-**Votre vie privée est maintenant mieux protégée** : traqueurs publicitaires bloqués, cookies compartimentés, fuites d'adresse IP neutralisées, télémétrie désactivée. Firefox n'est plus un simple navigateur, mais un outil de résistance numérique adapté à vos besoins.
+**Votre vie privée est maintenant mieux protégée**: traqueurs publicitaires bloqués, cookies compartimentés, fuites d'adresse IP neutralisées, télémétrie désactivée. Firefox n'est plus un simple navigateur, mais un outil de résistance numérique adapté à vos besoins.
 
-**Rappelez-vous** : la confidentialité n'est jamais acquise définitivement. Testez régulièrement vos protections, mettez à jour vos paramètres, et n'hésitez pas à ajuster votre configuration selon l'évolution de vos habitudes. Votre anonymat en ligne dépend autant de vos outils que de vos pratiques.
+**Rappelez-vous**: la confidentialité n'est jamais acquise définitivement. Testez régulièrement vos protections, mettez à jour vos paramètres, et n'hésitez pas à ajuster votre configuration selon l'évolution de vos habitudes. Votre anonymat en ligne dépend autant de vos outils que de vos pratiques.
 
 ## Ressources
 
 ### Plan ₿ Network
-- **SCU 202 - Améliorer sa sécurité numérique personnelle : Pour approfondir les concepts de sécurité numérique abordés dans ce tutoriel**
+- **SCU 202 - Améliorer sa sécurité numérique personnelle: Pour approfondir les concepts de sécurité numérique abordés dans ce tutoriel**
 
 https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentation Mozilla
-- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) : Guide officiel de la protection renforcée contre le pistage
-- [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning) : Documentation technique sur le cloisonnement d'état
-- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security) : Référence complète sur la sécurité web
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Guide officiel de la protection renforcée contre le pistage
+- [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Documentation technique sur le cloisonnement d'état
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Référence complète sur la sécurité web
 
 ### Arkenfox
-- [Wiki et guide d'installation](https://github.com/arkenfox/user.js/wiki) : Documentation complète du projet Arkenfox
-- [Dépôt et releases](https://github.com/arkenfox/user.js) : Téléchargement du fichier user.js et suivi des mises à jour
+- [Wiki et guide d'installation](https://github.com/arkenfox/user.js/wiki): Documentation complète du projet Arkenfox
+- [Dépôt et releases](https://github.com/arkenfox/user.js): Téléchargement du fichier user.js et suivi des mises à jour
 
 ### Guides & communautés
-- [PrivacyGuides - Navigateurs desktop](https://www.privacyguides.org/en/desktop-browsers/) : Recommandations et comparatifs de navigateurs
-- **Reddit** : r/firefox, r/privacy pour retours d'expérience et entraide
-- **Forum PrivacyGuides** : Discussions techniques approfondies
+- [PrivacyGuides - Navigateurs desktop](https://www.privacyguides.org/en/desktop-browsers/): Recommandations et comparatifs de navigateurs
+- **Reddit**: r/firefox, r/privacy pour retours d'expérience et entraide
+- **Forum PrivacyGuides**: Discussions techniques approfondies
 
 ### Outils de test
-- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) : Test d'empreinte numérique et efficacité anti-pistage
-- [DNS Leak Test](https://www.dnsleaktest.com/) : Vérification des fuites DNS et efficacité DoH
-- [BrowserLeaks](https://browserleaks.com/) : Suite complète de tests (WebRTC, Canvas, Fonts, etc.)
-- [BadSSL](https://badssl.com/) : Tests de validation des certificats SSL/TLS
-- [CreepJS](https://abrahamjuliot.github.io/creepjs/) : Analyse poussée de 50+ vecteurs de fingerprinting
-- [Cloudflare DNS Test](https://1.1.1.1/help) : Vérification du bon fonctionnement de DoH Cloudflare
+- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/): Test d'empreinte numérique et efficacité anti-pistage
+- [DNS Leak Test](https://www.dnsleaktest.com/): Vérification des fuites DNS et efficacité DoH
+- [BrowserLeaks](https://browserleaks.com/): Suite complète de tests (WebRTC, Canvas, Fonts, etc.)
+- [BadSSL](https://badssl.com/): Tests de validation des certificats SSL/TLS
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/): Analyse poussée de 50+ vecteurs de fingerprinting
+- [Cloudflare DNS Test](https://1.1.1.1/help): Vérification du bon fonctionnement de DoH Cloudflare

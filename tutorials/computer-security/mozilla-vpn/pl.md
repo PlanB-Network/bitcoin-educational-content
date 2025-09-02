@@ -20,7 +20,7 @@ W cyfrowej erze gromadzenia danych, prywatność online stała się głównym pr
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-W oparciu o tę zasadę, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) to usługa VPN typu open source opracowana w 2020 roku przez Mozilla Foundation. Jest ona dostępna na :
+W oparciu o tę zasadę, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) to usługa VPN typu open source opracowana w 2020 roku przez Mozilla Foundation. Jest ona dostępna na:
 
 
 
@@ -39,7 +39,7 @@ W oparciu o tę zasadę, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/d
 
 
 
-Jest dostępny w ponad 30 krajach i ma ponad 500 serwerów odpowiedzialnych za maskowanie adresu IP Address w celu przeniesienia użytkownika przy jednoczesnym zapewnieniu poufności interakcji w Internecie. Mozilla VPN wyróżnia się :
+Jest dostępny w ponad 30 krajach i ma ponad 500 serwerów odpowiedzialnych za maskowanie adresu IP Address w celu przeniesienia użytkownika przy jednoczesnym zapewnieniu poufności interakcji w Internecie. Mozilla VPN wyróżnia się:
 
 
 

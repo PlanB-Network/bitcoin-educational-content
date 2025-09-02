@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Jibu hapa linaonyesha wazi kuwa kifurushi cha "nmap" kipo kwenye hazina (hapa, zile za Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux"). Kuanzia sasa na kuendelea, unaweza kusakinisha Nmap kupitia amri za kawaida za usakinishaji, hakuna kitu cha kupokonya silaha kwa sasa 🙂 :
+Jibu hapa linaonyesha wazi kuwa kifurushi cha "nmap" kipo kwenye hazina (hapa, zile za Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux"). Kuanzia sasa na kuendelea, unaweza kusakinisha Nmap kupitia amri za kawaida za usakinishaji, hakuna kitu cha kupokonya silaha kwa sasa 🙂:
 
 
 
@@ -389,7 +389,7 @@ Ili kusakinisha kwenye mfumo wa uendeshaji wa Windows, anza kwa kupakua jozi kut
 
 
 
-Kisha utahitaji kupakua binary inayoitwa `nmap-<VERSION>-setup.exe` :
+Kisha utahitaji kupakua binary inayoitwa `nmap-<VERSION>-setup.exe`:
 
 
 
@@ -562,13 +562,13 @@ Kuanzia sasa na kuendelea, kumbuka kuchanganua seva pangishi pekee katika mazing
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Hatimaye, Nmap inatufahamisha kwamba bandari 998 za TCP zilizotambuliwa kama zimefungwa hazionyeshwa kwenye :
+Hatimaye, Nmap inatufahamisha kwamba bandari 998 za TCP zilizotambuliwa kama zimefungwa hazionyeshwa kwenye:
 
 
 
@@ -715,7 +715,7 @@ Kufuatia habari hii, tunapata kinachovutia zaidi: jedwali lililopangwa kulingana
 
 
 
-Ukiangalia faili ya "/etc/services" kwenye mfumo wa Linux, utapata kiungo cha "port/protocol - service" sawa na ile iliyoonyeshwa na Nmap :
+Ukiangalia faili ya "/etc/services" kwenye mfumo wa Linux, utapata kiungo cha "port/protocol - service" sawa na ile iliyoonyeshwa na Nmap:
 
 
 
@@ -913,7 +913,7 @@ dondoo kutoka RFC 1122._
 
 
 
-Wacha tuangalie kwa karibu kunasa huku kwa Wireshark, ambayo inaonyesha ** hali tatu zinazowezekana** katika UDP :
+Wacha tuangalie kwa karibu kunasa huku kwa Wireshark, ambayo inaonyesha ** hali tatu zinazowezekana** katika UDP:
 
 
 
@@ -1030,7 +1030,7 @@ Kwa hivyo, uchanganuzi utakuwa wa haraka zaidi na Nmap itatoa tu pakiti zinazohi
 
 
 
-Kwa njia hiyo hiyo, tunaweza kutaja bandari kadhaa kwa Nmap, kwa kutumia chaguo sawa na kuunganisha bandari zilizoainishwa na koma :
+Kwa njia hiyo hiyo, tunaweza kutaja bandari kadhaa kwa Nmap, kwa kutumia chaguo sawa na kuunganisha bandari zilizoainishwa na koma:
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-Pia inawezekana, kama ilivyo kwa milango katika sehemu iliyotangulia, kubainisha wapangishi wengi, mitandao mingi, au masafa :
+Pia inawezekana, kama ilivyo kwa milango katika sehemu iliyotangulia, kubainisha wapangishi wengi, mitandao mingi, au masafa:
 
 
 
@@ -1437,7 +1437,7 @@ Kwa undani chaguzi za agizo letu la mwisho:
 
 
 
-- "`-PP` : huwezesha mwangwi wa ICMP (ping scan) kwa ugunduzi wa mwenyeji.
+- "`-PP`: huwezesha mwangwi wa ICMP (ping scan) kwa ugunduzi wa mwenyeji.
 
 
 
@@ -1547,7 +1547,7 @@ Mifano ya mara kwa mara ya mahitaji hayo ni wakati kampuni inamiliki viwanda (PL
 
 
 
-Ili kutenga anwani za IP au mitandao kutoka kwa skana yetu, tunaweza kutumia chaguo la "--exclude" la Nmap, kwa mfano :
+Ili kutenga anwani za IP au mitandao kutoka kwa skana yetu, tunaweza kutumia chaguo la "--exclude" la Nmap, kwa mfano:
 
 
 
@@ -2012,7 +2012,7 @@ Ili kufanikisha hili, Nmap inategemea hati za NSE (_Nmap Scripting Engine_), amb
 
 
 
-Kwa chaguo sahihi, tutaiuliza Nmap kutumia hati zake mbalimbali za NSE kwenye kila huduma iliyogunduliwa, na kutuwezesha kugundua :
+Kwa chaguo sahihi, tutaiuliza Nmap kutumia hati zake mbalimbali za NSE kwenye kila huduma iliyogunduliwa, na kutuwezesha kugundua:
 
 
 
@@ -2240,20 +2240,20 @@ Hati hizi zimepangwa kwa kategoria, na hati moja inaweza kuwa ya zaidi ya katego
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Kitaalam, kategoria ambazo hati ni mali zinaonyeshwa moja kwa moja kwenye msimbo wake.
@@ -2300,7 +2300,7 @@ orodha ya hati za NSE za Nmap zilizo na majina yanayoanza na `ftp-`._
 
 
 
-Nmap haitoi chaguo la kuvinjari na kuorodhesha hati zake za NSE; unaweza kutumia amri `--script-help` ikifuatiwa na jina la kategoria au neno :
+Nmap haitoi chaguo la kuvinjari na kuorodhesha hati zake za NSE; unaweza kutumia amri `--script-help` ikifuatiwa na jina la kategoria au neno:
 
 
 
@@ -2356,7 +2356,7 @@ Sasa tutajifunza jinsi ya kufanya uchanganuzi wa uwezekano wa kuathiriwa kwa kuc
 
 
 
-Kuanza, tunaweza kuchagua kutekeleza hati zote za kitengo maalum. Tunahitaji kuashiria kategoria hii au kategoria hizi kwa Nmap kwa hoja `--script <category>` :
+Kuanza, tunaweza kuchagua kutekeleza hati zote za kitengo maalum. Tunahitaji kuashiria kategoria hii au kategoria hizi kwa Nmap kwa hoja `--script <category>`:
 
 
 
@@ -2606,7 +2606,7 @@ Kwa chaguo-msingi, Nmap inatoa mwonekano wa kina wa matokeo ya skanisho na majar
 
 
 
-Ili kurahisisha mambo, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) hurahisisha sana kuhifadhi matokeo yake katika faili ya maandishi. Hii inaweza kuwa muhimu kwa kuweka kwenye kumbukumbu, kulinganisha na majaribio mengine, lakini pia kwa kuvinjari matokeo haya kwa zana maalum za kuchakata maneno au lugha za hati, kama vile maandishi ya Sublime, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, a's output, nk. tumia `-oN <filename>` chaguo ("N" katika "kawaida") :
+Ili kurahisisha mambo, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) hurahisisha sana kuhifadhi matokeo yake katika faili ya maandishi. Hii inaweza kuwa muhimu kwa kuweka kwenye kumbukumbu, kulinganisha na majaribio mengine, lakini pia kwa kuvinjari matokeo haya kwa zana maalum za kuchakata maneno au lugha za hati, kama vile maandishi ya Sublime, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, a's output, nk. tumia `-oN <filename>` chaguo ("N" katika "kawaida"):
 
 
 
@@ -2720,7 +2720,7 @@ Ndani ya Nmap, umbizo la XML linatumika kwa ripoti za kina za generate kuhusu uc
 
 
 
-Ili generate faili towe katika umbizo la XML, tunahitaji kutumia chaguo `-oX` ("O" kutoka "XML") :
+Ili generate faili towe katika umbizo la XML, tunahitaji kutumia chaguo `-oX` ("O" kutoka "XML"):
 
 
 
@@ -3457,7 +3457,7 @@ Kwa hivyo, Nmap inaweza kuonekana kama sehemu nyeti ya mfumo ambao imesakinishwa
 
 
 
-Ikiwa umechagua kutumia Nmap si kupitia kipindi kama `root`, lakini kwa kutoa haki maalum kwa mtumiaji aliyebahatika ili awe na kila kitu anachohitaji kutumia Nmap (`sudo` au _capabilities_), fahamu kuwa Nmap inaweza kutumika kama sehemu ya mwinuko kamili wa fursa :
+Ikiwa umechagua kutumia Nmap si kupitia kipindi kama `root`, lakini kwa kutoa haki maalum kwa mtumiaji aliyebahatika ili awe na kila kitu anachohitaji kutumia Nmap (`sudo` au _capabilities_), fahamu kuwa Nmap inaweza kutumika kama sehemu ya mwinuko kamili wa fursa:
 
 
 
@@ -3669,7 +3669,7 @@ kunusa mtandao wakati wa kuchanganua TCP Connect kwa mlango wazi
 
 
 
-Tunaweza kuona kwamba pakiti ya kwanza ya TCP iliyotumwa ni `TCP SYN` iliyotumwa na mteja, na seva itajibu kwa `TCP SYN/ACK`, ikionyesha kuwa mlango umefunguliwa na unapangisha huduma inayotumika. Ili kuiga mteja halali kila wakati, Nmap itatuma `TCP ACK` kwa seva. Kinyume chake, wakati wa kuchanganua mlango uliofungwa :
+Tunaweza kuona kwamba pakiti ya kwanza ya TCP iliyotumwa ni `TCP SYN` iliyotumwa na mteja, na seva itajibu kwa `TCP SYN/ACK`, ikionyesha kuwa mlango umefunguliwa na unapangisha huduma inayotumika. Ili kuiga mteja halali kila wakati, Nmap itatuma `TCP ACK` kwa seva. Kinyume chake, wakati wa kuchanganua mlango uliofungwa:
 
 
 

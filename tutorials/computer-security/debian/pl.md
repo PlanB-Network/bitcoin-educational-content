@@ -128,7 +128,7 @@ Klucz USB jest teraz gotowy do rozpoczęcia instalacji Debiana.
 
 
 
-Aby uruchomić instalację z klucza USB :
+Aby uruchomić instalację z klucza USB:
 
 
 
@@ -144,7 +144,7 @@ Aby uruchomić instalację z klucza USB :
 
 
 
-Ekran startowy :
+Ekran startowy:
 
 
 
@@ -334,7 +334,7 @@ Po wyświetleniu monitu wprowadź hasło (pamiętaj, że podczas wpisywania nie 
 
 
 
-- Aby zainstalować dostępne aktualizacje :
+- Aby zainstalować dostępne aktualizacje:
 
 
 
@@ -380,7 +380,7 @@ Istnieją dwa sposoby instalowania aplikacji na Debianie:
 
 
 
-### Metoda graficzna :
+### Metoda graficzna:
 
 
 
@@ -388,7 +388,7 @@ Możesz użyć **menedżera oprogramowania** (dostępnego za pośrednictwem graf
 
 
 
-### Metoda wiersza poleceń :
+### Metoda wiersza poleceń:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Zastąp `<nazwa>` nazwą pakietu. Na przykład, aby zainstalować `curl` :
+Zastąp `<nazwa>` nazwą pakietu. Na przykład, aby zainstalować `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Instalowanie ręcznie pobranego pakietu :
+### Instalowanie ręcznie pobranego pakietu:
 
 
 
@@ -439,7 +439,7 @@ Możliwa jest również zmiana środowiska graficznego (np. na XFCE, KDE itp.) b
 
 
 
-Aby dowiedzieć się więcej o Debianie i ogólnie o dystrybucjach GNU/Linux, polecam zapoznać się z tym kursem :
+Aby dowiedzieć się więcej o Debianie i ogólnie o dystrybucjach GNU/Linux, polecam zapoznać się z tym kursem:
 
 
 

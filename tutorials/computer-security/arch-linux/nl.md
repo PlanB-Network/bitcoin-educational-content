@@ -124,7 +124,7 @@ Kies in het opstartscherm de eerste optie om de installatie te starten. Arch Lin
 
 
 
-U kunt de beschikbare lay-outs weergeven met :
+U kunt de beschikbare lay-outs weergeven met:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Laad vervolgens een lay-out met :
+Laad vervolgens een lay-out met:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux gebruikt het hulpprogramma `timedatectl` om de systeemklok te beheren
 
 
 
-- Stel uw tijdzone in met :
+- Stel uw tijdzone in met:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Controleer of automatische synchronisatie is ingeschakeld met :
+- Controleer of automatische synchronisatie is ingeschakeld met:
 
 
 ```shell
@@ -208,7 +208,7 @@ Dit activeert NTP, het protocol voor automatische synchronisatie met tijdservers
 
 
 
-- Controleer of je systeem opstart in **UEFI** of **BIOS** met :
+- Controleer of je systeem opstart in **UEFI** of **BIOS** met:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Partition Manager starten :
+- Partition Manager starten:
 
 
 
@@ -294,7 +294,7 @@ Selecteer **Schrijven**, typ **ja** en vervolgens **Afsluiten**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Koppel de **root** partitie aan:
 
 
 
-- In het BIOS :
+- In het BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- op UEFI :
+- op UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Installeer een teksteditor om :
+- Installeer een teksteditor om:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- De taal instellen :
+- De taal instellen:
 
 
 Bewerk `/etc/locale.gen` en verwijder het commentaar uit de regel `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Bewerk `/etc/locale.gen` en verwijder het commentaar uit de regel `en_US.UTF-8 U
 
 
 
-- Stel de machinenaam in :
+- Stel de machinenaam in:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Root-wachtwoord instellen :
+- Root-wachtwoord instellen:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Installeer de :
+Installeer de:
 
 
 
@@ -472,7 +472,7 @@ Eenmaal gedownload, moet je het installeren volgens het formaat van de schijfpar
 
 
 
-- Voor **BIOS** :
+- Voor **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Voor **UEFI** :
+- Voor **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Opnieuw opstarten :
+- Opnieuw opstarten:
 
 
 ```shell
@@ -551,7 +551,7 @@ Log bij het opstarten in met uw **root** login en wachtwoord.
 
 
 
-Het kan gebeuren dat er geen netwerkverbinding actief is bij het herstarten. Je kunt de interfaces oplijsten met :
+Het kan gebeuren dat er geen netwerkverbinding actief is bij het herstarten. Je kunt de interfaces oplijsten met:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Standaard bevat **Arch Linux** geen grafische Interface. Om er een toe te voegen :
+Standaard bevat **Arch Linux** geen grafische Interface. Om er een toe te voegen:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Activeer de **sessiebeheerder** :
+Activeer de **sessiebeheerder**:
 
 
 
@@ -652,7 +652,7 @@ Eenmaal in **Interface GNOME**, moet je een nieuwe gebruiker aanmaken voor meer 
 
 
 
-- Een gebruiker toevoegen :
+- Een gebruiker toevoegen:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Installeer **sudo** :
+- Installeer **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Verwijder dan het commentaar uit de regel :
+- Verwijder dan het commentaar uit de regel:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Om bijvoorbeeld de **nano** teksteditor te installeren, typ je :
+Om bijvoorbeeld de **nano** teksteditor te installeren, typ je:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Om een lichtgewicht webbrowser zoals `firefox` te installeren, gebruik je :
+Om een lichtgewicht webbrowser zoals `firefox` te installeren, gebruik je:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Als je tenslotte essentiële netwerkgereedschappen zoals `net-tools` wilt toevoegen, is het commando :
+Als je tenslotte essentiële netwerkgereedschappen zoals `net-tools` wilt toevoegen, is het commando:
 
 
 

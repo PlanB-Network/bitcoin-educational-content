@@ -134,7 +134,7 @@ Soovitan seda koodi hoida erinevas kohas, kus te säilitate oma põhiparooli, et
 
 
 
-See lähenemisviis pakub teile 2FA-autentimise Trezori kadumise korral kahetasandilist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine varukoopia, mis on mõeldud iga konto jaoks eraldi hädaolukorra koodidega. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga** :
+See lähenemisviis pakub teile 2FA-autentimise Trezori kadumise korral kahetasandilist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine varukoopia, mis on mõeldud iga konto jaoks eraldi hädaolukorra koodidega. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Lihtsalt asendage `<CREDENTIAL_ID>` ühe oma identifikaatoriga. Näiteks minu puhul annaks see :
+Lihtsalt asendage `<CREDENTIAL_ID>` ühe oma identifikaatoriga. Näiteks minu puhul annaks see:
 
 
 

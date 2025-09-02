@@ -71,7 +71,7 @@ Graylog on analüüsi- ja jälgimisvahend, mis lihtsustab kahtlase käitumise ja
 
 
 
-Allikas : Graylog
+Allikas: Graylog
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Järgmisena uuendame pakettide vahemälu ja üritame paigaldada MongoDB :
+Järgmisena uuendame pakettide vahemälu ja üritame paigaldada MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB-d ei saa paigaldada, sest puudub sõltuvus: **libssl1.1**. Me peame sell
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Uuendage oma paketi vahemälu :
+Uuendage oma paketi vahemälu:
 
 
 
@@ -279,7 +279,7 @@ See OpenSearchi konfiguratsioon on mõeldud ühe sõlme seadistamiseks. Siin on 
 
 
 
-- cluster.name: graylog** : see parameeter annab OpenSearchi klastrile nime "**graylog**".
+- cluster.name: graylog**: see parameeter annab OpenSearchi klastrile nime "**graylog**".
 - node.name: ${HOSTNAME}**: sõlme nimi määratakse dünaamiliselt, et see vastaks kohaliku Linuxi masina nimele. Isegi kui meil on ainult üks sõlmpunkt, on oluline, et see saaks õige nime.
 - path.data: /var/lib/opensearch**: see tee määrab, kus OpenSearch salvestab oma andmeid kohalikul masinal, antud juhul "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: see tee määrab, kuhu OpenSearchi logifailid salvestatakse, siin "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Siin kasutatava konfiguratsiooni puhul **OpenSearch alustab 4 GB eraldatud mäluga ja võib kasvada kuni 4 GB**, nii et mälu ei muutu töö ajal. Siinkohal võetakse konfiguratsioonis arvesse asjaolu, et virtuaalmasinal on kokku **8 GB RAM**. Mõlemad parameetrid peavad olema sama väärtusega. See tähendab, et asendatakse read :
+Siin kasutatava konfiguratsiooni puhul **OpenSearch alustab 4 GB eraldatud mäluga ja võib kasvada kuni 4 GB**, nii et mälu ei muutu töö ajal. Siinkohal võetakse konfiguratsioonis arvesse asjaolu, et virtuaalmasinal on kokku **8 GB RAM**. Mõlemad parameetrid peavad olema sama väärtusega. See tähendab, et asendatakse read:
 
 
 
@@ -327,7 +327,7 @@ Siin kasutatava konfiguratsiooni puhul **OpenSearch alustab 4 GB eraldatud mälu
 
 
 
-Nende ridadega :
+Nende ridadega:
 
 
 
@@ -408,7 +408,7 @@ Järgmine samm: kauaoodatud Graylogi paigaldamine!
 
 
 
-Graylog 6.1** uusima versiooni **installeerimiseks käivitage järgmised 4 käsku, et **laadige alla ja installige Graylog Server** :
+Graylog 6.1** uusima versiooni **installeerimiseks käivitage järgmised 4 käsku, et **laadige alla ja installige Graylog Server**:
 
 
 
@@ -432,7 +432,7 @@ Alustame nende kahe valiku konfigureerimisest:
 
 
 - password_secret**: seda parameetrit kasutatakse võtme määratlemiseks, mida Graylog kasutab kasutajate paroolide salvestamise turvamiseks (soolamisvõtme vaimus). See võti peab olema **unikaalne** ja **juhuslik**.
-- root_password_sha2** : see parameeter vastab vaikimisi administraatori paroolile Graylogis. See on salvestatud Hash SHA-256 kujul.
+- root_password_sha2**: see parameeter vastab vaikimisi administraatori paroolile Graylogis. See on salvestatud Hash SHA-256 kujul.
 
 
 
@@ -788,7 +788,7 @@ Selles kataloogis tuleb laadimisjärjekorra määramiseks kasutada numbreid, ses
 
 
 
-Selles kataloogis loome faili nimega "**10-graylog.conf**" :
+Selles kataloogis loome faili nimega "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Sisestage sellesse faili järgmine rida :
+Sisestage sellesse faili järgmine rida:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Kui teil on mitu serverit ja soovite analüüsida konkreetse serveri logisid, siis määrake lisaks selle nimi :
+Kui teil on mitu serverit ja soovite analüüsida konkreetse serveri logisid, siis määrake lisaks selle nimi:
 
 
 
@@ -939,7 +939,7 @@ Ebaõnnestunud ühenduskatsed tehakse masinast, mille IP Address on "**192.168.1
 
 
 
-Sellisel juhul võib kasutatav filter olla :
+Sellisel juhul võib kasutatav filter olla:
 
 
 

@@ -134,7 +134,7 @@ Jag rekommenderar att du förvarar den här koden på en annan plats än där du
 
 
 
-Detta tillvägagångssätt ger dig två nivåer av säkerhetskopiering i händelse av förlust av din Trezor för 2FA-autentisering: en första säkerhetskopiering med Mnemonic-frasen för alla dina konton och en andra specifik för varje konto med nödkoderna. Det är dock viktigt att **inte förväxla Mnemonic:s roll med nödkodens** :
+Detta tillvägagångssätt ger dig två nivåer av säkerhetskopiering i händelse av förlust av din Trezor för 2FA-autentisering: en första säkerhetskopiering med Mnemonic-frasen för alla dina konton och en andra specifik för varje konto med nödkoderna. Det är dock viktigt att **inte förväxla Mnemonic:s roll med nödkodens**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Ersätt helt enkelt `<CREDENTIAL_ID>` med en av dina identifierare. I mitt fall skulle detta till exempel ge :
+Ersätt helt enkelt `<CREDENTIAL_ID>` med en av dina identifierare. I mitt fall skulle detta till exempel ge:
 
 
 

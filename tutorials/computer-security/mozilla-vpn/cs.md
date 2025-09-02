@@ -20,7 +20,7 @@ V digitálním věku shromažďování dat se soukromí online stalo pro nás, u
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Na tomto principu je založena služba [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/), kterou v roce 2020 vyvinula nadace Mozilla Foundation. Je k dispozici na webu :
+Na tomto principu je založena služba [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/), kterou v roce 2020 vyvinula nadace Mozilla Foundation. Je k dispozici na webu:
 
 
 
@@ -39,7 +39,7 @@ Na tomto principu je založena služba [Mozilla VPN](https://www.mozilla.org/fr/
 
 
 
-Je k dispozici ve více než 30 zemích a má více než 500 serverů, které jsou zodpovědné za maskování vaší IP adresy Address, aby vás mohly přemístit a zároveň zajistit důvěrnost vašich interakcí na internetu. Mozilla VPN se vyznačuje :
+Je k dispozici ve více než 30 zemích a má více než 500 serverů, které jsou zodpovědné za maskování vaší IP adresy Address, aby vás mohly přemístit a zároveň zajistit důvěrnost vašich interakcí na internetu. Mozilla VPN se vyznačuje:
 
 
 

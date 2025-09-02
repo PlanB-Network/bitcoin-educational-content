@@ -34,7 +34,7 @@ Fedora bevat ook een desktop omgeving, dat is de Interface waarmee gebruikers ta
 
 
 
-Onder de vele Linux distributies die beschikbaar zijn, valt Fedora in het bijzonder op door :
+Onder de vele Linux distributies die beschikbaar zijn, valt Fedora in het bijzonder op door:
 
 
 
@@ -66,7 +66,7 @@ Onder de vele Linux distributies die beschikbaar zijn, valt Fedora in het bijzon
 
 
 
-Afhankelijk van je profiel en gebruik, biedt Fedora edities die passen bij je behoeften. Je zult voornamelijk :
+Afhankelijk van je profiel en gebruik, biedt Fedora edities die passen bij je behoeften. Je zult voornamelijk:
 
 
 
@@ -205,7 +205,7 @@ De eerste stap is het selecteren van Fedora's **installatietaal** en **toetsenbo
 
 
 
-- De installatieschijf selecteren :
+- De installatieschijf selecteren:
 
 
 
@@ -223,7 +223,7 @@ Als de schijf leeg is, zal Fedora automatisch alle beschikbare ruimte gebruiken.
 
 
 
-- Encryptie :
+- Encryptie:
 
 
 
@@ -415,7 +415,7 @@ Een **herstart** kan nodig zijn nadat de updates zijn geïnstalleerd.
 
 
 
-- Open een terminal en begin met het bijwerken van de **repositories** om er zeker van te zijn dat je de laatste versies hebt van :
+- Open een terminal en begin met het bijwerken van de **repositories** om er zeker van te zijn dat je de laatste versies hebt van:
 
 
 

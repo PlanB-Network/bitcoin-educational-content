@@ -16,7 +16,7 @@ A ***Virtual Private Network*** (VPN) is a system for creating a direct link bet
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Based on this principle, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) is an open source VPN service developed in 2020 by the Mozilla Foundation. It is available on :
+Based on this principle, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) is an open source VPN service developed in 2020 by the Mozilla Foundation. It is available on:
 
 
 
@@ -31,7 +31,7 @@ Based on this principle, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/d
 ![download](assets/fr/01.webp)
 
 
-It is available in over 30 countries and has over 500 servers responsible for masking your IP address in order to relocate you while ensuring the confidentiality of your interactions on the Internet. Mozilla VPN is distinguished by :
+It is available in over 30 countries and has over 500 servers responsible for masking your IP address in order to relocate you while ensuring the confidentiality of your interactions on the Internet. Mozilla VPN is distinguished by:
 
 
 

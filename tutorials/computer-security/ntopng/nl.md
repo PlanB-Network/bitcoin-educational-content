@@ -122,7 +122,7 @@ Voor de sonde kies ik een **Debian 11** machine in minimale installatie.
 
 
 
-Eerste stap, altijd hetzelfde, de :
+Eerste stap, altijd hetzelfde, de:
 
 
 
@@ -212,7 +212,7 @@ Hier volgen enkele verklaringen van deze eerste wijzigingen:
 
 
 - auto *Interface***: zal automatisch Interface "starten" bij het opstarten van het systeem
-- iface *Interface* inet manual** : om de Interface zonder IP Address te gebruiken. Zoals het sleutelwoord "static" om een statische IP Address te definiëren of "dhcp" om dynamische adressering te gebruiken
+- iface *Interface* inet manual**: om de Interface zonder IP Address te gebruiken. Zoals het sleutelwoord "static" om een statische IP Address te definiëren of "dhcp" om dynamische adressering te gebruiken
 
 
 
@@ -286,7 +286,7 @@ Standaard bevatten pakketbronnen alleen pakketten die voldoen aan de DFSG (*Debi
 
 
 
-Voorbeeld van een regel in /etc/apt/sources.list :
+Voorbeeld van een regel in /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Dus voeg ik het woord **contrib** toe aan regels als deze.
 
 
 
-De rest van de stappen staat op de [NtopNG] site (https://packages.ntop.org/apt/) waar, voor Debian 11, de Ntop bronnen moeten worden toegevoegd voor toekomstige installatie. Deze toevoeging is geautomatiseerd door gebruik te maken van een :
+De rest van de stappen staat op de [NtopNG] site (https://packages.ntop.org/apt/) waar, voor Debian 11, de Ntop bronnen moeten worden toegevoegd voor toekomstige installatie. Deze toevoeging is geautomatiseerd door gebruik te maken van een:
 
 
 
@@ -474,7 +474,7 @@ Als je op deze figuur klikt, krijg je de details van de waarschuwingen te zien. 
 
 
 
-Omdat ik de gratis versie gebruik, kan ik echter geen domeinen of hosts uitsluiten die de bron zijn van waarschuwingen, dus je zult ze in de gaten moeten houden om te voorkomen dat je iets veel verontrustenders mist. NtopNG zal generate waarschuwingen geven in het geval van :
+Omdat ik de gratis versie gebruik, kan ik echter geen domeinen of hosts uitsluiten die de bron zijn van waarschuwingen, dus je zult ze in de gaten moeten houden om te voorkomen dat je iets veel verontrustenders mist. NtopNG zal generate waarschuwingen geven in het geval van:
 
 
 

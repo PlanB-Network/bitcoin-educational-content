@@ -64,7 +64,7 @@ In "*Tipo di account*", selezionare "*Azienda*". Nel mio caso, sto passando a "*
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completare i passaggi fornendo :
+Completare i passaggi fornendo:
 
 
 - Informazioni sull'azienda (nome dell'azienda, dati di contatto, settore di attività, ecc;
@@ -77,7 +77,7 @@ Una volta completata e inviata la domanda, la piattaforma potrebbe impiegare alc
 
 ## 3 - Rapida introduzione all'interfaccia di Bitfinex
 
-Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
+Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui:
 
 
 - Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);

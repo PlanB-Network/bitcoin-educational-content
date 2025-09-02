@@ -128,7 +128,7 @@ Uw USB-stick is nu klaar om Debian te installeren.
 
 
 
-Om de installatie vanaf uw USB-sleutel te starten :
+Om de installatie vanaf uw USB-sleutel te starten:
 
 
 
@@ -144,7 +144,7 @@ Om de installatie vanaf uw USB-sleutel te starten :
 
 
 
-Startscherm :
+Startscherm:
 
 
 
@@ -334,7 +334,7 @@ Voer je wachtwoord in wanneer daarom wordt gevraagd (merk op dat er geen tekens 
 
 
 
-- Beschikbare updates installeren :
+- Beschikbare updates installeren:
 
 
 
@@ -380,7 +380,7 @@ Er zijn twee manieren om applicaties te installeren op Debian:
 
 
 
-### Grafische methode :
+### Grafische methode:
 
 
 
@@ -388,7 +388,7 @@ Je kunt de **software manager** (toegankelijk via de grafische Interface) gebrui
 
 
 
-### Opdrachtregelmethode :
+### Opdrachtregelmethode:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Vervang `<name>` door de naam van het pakket. Om bijvoorbeeld `curl` te installeren :
+Vervang `<name>` door de naam van het pakket. Om bijvoorbeeld `curl` te installeren:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Een handmatig gedownload pakket installeren :
+### Een handmatig gedownload pakket installeren:
 
 
 

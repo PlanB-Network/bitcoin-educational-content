@@ -241,8 +241,8 @@ flatpak install flathub io.gitlab.librewolf-community
 
 
 
-- चॉकलेटी :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- चॉकलेटी:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 

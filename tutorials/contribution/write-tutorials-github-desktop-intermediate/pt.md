@@ -248,32 +248,32 @@ proofreading:
 
 Aqui estão os campos obrigatórios:
 
-- **id** : Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
+- **id**: Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
 
-- **project_id** : O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
+- **project_id**: O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
 
-- **tags** : 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : O nível de dificuldade do tutorial, escolhido entre:
+- **level**: O nível de dificuldade do tutorial, escolhido entre:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
+- **original_language**: O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
 
-- **proofreading** : Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
-    - **language** : Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
-    - **last_contribution_date** : Data do dia.
-    - **urgency** : 1
-    - **contributor_names** : Seu ID do GitHub.
-    - **reward** : 0
+- **proofreading**: Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
+    - **language**: Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
+    - **last_contribution_date**: Data do dia.
+    - **urgency**: 1
+    - **contributor_names**: Seu ID do GitHub.
+    - **reward**: 0
 
-Para mais informações sobre o ID do professor, consulte o tutorial correspondente :
+Para mais informações sobre o ID do professor, consulte o tutorial correspondente:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 

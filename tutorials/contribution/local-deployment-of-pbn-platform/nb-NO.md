@@ -102,7 +102,7 @@ Dette vil bygge og starte alle nødvendige containere fra dockers.
 
 **6. Få tilgang til applikasjonen**
 
-Når containerne er i gang, får du tilgang til frontend på :
+Når containerne er i gang, får du tilgang til frontend på:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
@@ -130,7 +130,7 @@ curl -X POST http://localhost:3000/api/github/sync
 
 **9. Løs problemer med tilgang til synkroniseringsvolum**
 
-Hvis du støter på tilgangsproblemer med volumene `cdn` og `sync`, kjører du :
+Hvis du støter på tilgangsproblemer med volumene `cdn` og `sync`, kjører du:
 
 ```markdown
 docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/{sync,cdn}

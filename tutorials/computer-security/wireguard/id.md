@@ -95,7 +95,7 @@ Dalam contoh ini, saya akan fokus pada kasus berikut: **dari Windows Peer 1 yang
 
 
 
-Dari segi alamat IP, ini memberikan :
+Dari segi alamat IP, ini memberikan:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Nilai dari kunci publik akan dikembalikan di konsol. Pada berkas konfigurasi WireGuard, kita perlu menambahkan nilai kunci privat kita. Untuk mengambil nilai ini, masukkan perintah di bawah ini dan salin nilainya :
+Nilai dari kunci publik akan dikembalikan di konsol. Pada berkas konfigurasi WireGuard, kita perlu menambahkan nilai kunci privat kita. Untuk mengambil nilai ini, masukkan perintah di bawah ini dan salin nilainya:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Jika Anda membuat daftar alamat IP server Debian 11 Anda, Anda akan melihat Interface baru bernama "wg0" dengan IP Address yang didefinisikan dalam berkas konfigurasi :
+Jika Anda membuat daftar alamat IP server Debian 11 Anda, Anda akan melihat Interface baru bernama "wg0" dengan IP Address yang didefinisikan dalam berkas konfigurasi:
 
 
 
@@ -286,7 +286,7 @@ Agar mesin Debian 11 kita dapat **mengalihkan paket di antara jaringan yang berb
 
 
 
-Ubah file konfigurasi ini :
+Ubah file konfigurasi ini:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Tambahkan arahan berikut ini ke akhir file dan simpan file :
+Tambahkan arahan berikut ini ke akhir file dan simpan file:
 
 
 
@@ -318,7 +318,7 @@ Agar server kita dapat merutekan paket dengan benar dan agar LAN jarak jauh dapa
 
 
 
-Jika Anda belum memiliki UFW dan ingin menyiapkannya (Anda juga bisa menggunakan Nftables), mulailah dengan menginstal :
+Jika Anda belum memiliki UFW dan ingin menyiapkannya (Anda juga bisa menggunakan Nftables), mulailah dengan menginstal:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Gambar menunjukkan :
+Gambar menunjukkan:
 
 
 
@@ -490,7 +490,7 @@ Kita perlu menyelesaikan konfigurasi ini, khususnya untuk mendeklarasikan IP Add
 
 
 
-Mari kita mulai dengan blok `[Interface]`, menambahkan IP Address "**192.168.110.2**"; ingat bahwa server memiliki IP Address "**192.168.110.121**" pada segmen jaringan ini. Hal ini akan menghasilkan alamat :
+Mari kita mulai dengan blok `[Interface]`, menambahkan IP Address "**192.168.110.2**"; ingat bahwa server memiliki IP Address "**192.168.110.121**" pada segmen jaringan ini. Hal ini akan menghasilkan alamat:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Dalam gambar :
+Dalam gambar:
 
 
 
@@ -691,7 +691,7 @@ Dengan konfigurasi saat ini, sebagian lalu lintas mengalir melalui VPN, dan sisa
 
 
 
-Pertama, Anda perlu menginstal paket "resolvconf" pada sistem operasi :
+Pertama, Anda perlu menginstal paket "resolvconf" pada sistem operasi:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Simpan file, lalu mulai ulang Interface :
+Simpan file, lalu mulai ulang Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Terakhir, dalam konfigurasi terowongan pada workstation Windows 10, Anda perlu memodifikasi bagian "AllowedIPs" untuk menunjukkan bahwa semuanya harus melewati terowongan. Menggantikan :
+Terakhir, dalam konfigurasi terowongan pada workstation Windows 10, Anda perlu memodifikasi bagian "AllowedIPs" untuk menunjukkan bahwa semuanya harus melewati terowongan. Menggantikan:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Oleh :
+Oleh:
 
 
 
@@ -772,7 +772,7 @@ Konfigurasi WireGuard cukup sederhana dan mudah dimengerti, dan di atas semua it
 
 
 
-Dokumentasi tambahan :
+Dokumentasi tambahan:
 
 
 

@@ -162,7 +162,7 @@ Ik raad je aan om deze code op een andere plaats te bewaren dan waar je je hoofd
 
 
 
-Deze aanpak biedt u twee niveaus van back-up in het geval van verlies van uw Ledger voor 2FA authenticatie: een eerste back-up met behulp van de Mnemonic zin voor al uw accounts, en een tweede account-specifieke back-up met behulp van de noodcodes. Het is echter belangrijk **de rol van de Mnemonic niet te verwarren met die van de noodcode** :
+Deze aanpak biedt u twee niveaus van back-up in het geval van verlies van uw Ledger voor 2FA authenticatie: een eerste back-up met behulp van de Mnemonic zin voor al uw accounts, en een tweede account-specifieke back-up met behulp van de noodcodes. Het is echter belangrijk **de rol van de Mnemonic niet te verwarren met die van de noodcode**:
 
 
 

@@ -1,0 +1,12 @@
+question: Intumbero y’amahera y’ugucuruza mu bikorwa vya Bitcoin ni iyihe?
+answer: Ni ikintu gitera intege abacukuzi kugira ngo bashire iyo nzira mu gice gikurikira.
+wrong_answers:
+  - Ni umusoro ushirwaho na leta.
+  - Ni amahera asabwa n’urubuga rwa Bitcoin kubera gukoresha ibikorwa vyarwo.
+  - Ni amahera asabwa n’uwutanga Wallet.
+explanation: |
+  Amafaranga y’ibikorwa mu bikorwa vya Bitcoin akora nk’
+  inkurikizi ku bacukuzi kugira ngo bashiremwo iyo nzira mu yindi
+  uruzitiro. Amafaranga atuma haba isoko ry’ubuntu ryo gushiramwo
+  ibikorwa vy’ubudandaji mu mabarabara.
+reviewed: true

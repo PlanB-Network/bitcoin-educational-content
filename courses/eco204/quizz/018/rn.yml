@@ -1,0 +1,11 @@
+question: Ni igiki nyamukuru gihagarika amameza ya kera y’ugutera imbere kw’ibiciro?
+answer: Bikuraho ibihe bimwebimwe vy’amateka vy’ugutera imbere kw’ibiciro kubera ingingo ngenderwako zikomeye zo gushikiriza .
+wrong_answers:
+  - Birimwo ibice vyinshi cane vy’ugutera imbere kw’ibiciro bidakwiriye kwitwa hyperinflation .
+  - Birashize igihe kandi ntibikoreshwa mu bukungu bwa none .
+  - Ntibazirikana ingaruka z'ugutera imbere kw'ibiciro ku bukungu .
+explanation: |
+  Imeza za kera z’ugutera imbere kw’ibiciro, nk’imeza ya Hanke-Krus, akenshi
+  gukuraho ibihe bimwe bimwe vy'amateka vy'ugutera imbere kw'ibiciro kubera gushirwa mu migwi bikomeye
+  ingingo, nk’igipimo c’ugutera imbere kw’ibiciro c’ibice 50% ku kwezi gitegekanijwe n’insobanuro ya Cagan.
+reviewed: false

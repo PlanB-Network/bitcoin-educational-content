@@ -1,0 +1,9 @@
+question: Wokora iki iyo ubonye umugera kuri mudasobwa yawe?
+answer: Uyikure kuri internet, ukore igikorwa co gupima antivirus yuzuye, hanyuma usibe amadosiye yanduye.
+wrong_answers:
+  - Bandanya ukoresha orodinateri nk’uko bisanzwe.
+  - Zima mudasobwa hanyuma uyireke izimye amasaha makeyi.
+  - Gukuraho amadosiye yose ari kuri mudasobwa.
+explanation: |
+  Niwabona umugera kuri mudasobwa yawe, uwukure kuri internet kugira ngo ntukwiragire canke ngo uvugane n’uwo munyavyaha. Hanyuma, ukore igikorwa co gupima antivirus yuzuye maze usibe amadosiye yanduye.
+reviewed: true

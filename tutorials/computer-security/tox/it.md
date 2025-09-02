@@ -58,7 +58,7 @@ La tecnologia utilizzata dal protocollo Tox è simile alle reti peer-to-peer com
 
 
 
-A seconda del sistema operativo, è possibile scaricare e installare un client Tox che corrisponda a :
+A seconda del sistema operativo, è possibile scaricare e installare un client Tox che corrisponda a:
 
 
 
@@ -224,7 +224,7 @@ Nel menu **Trasferimenti di file** si trova la cronologia dei file inviati e ric
 
 
 
-Dai dettagli di Interface, è possibile gestire le autorizzazioni concesse al destinatario per :
+Dai dettagli di Interface, è possibile gestire le autorizzazioni concesse al destinatario per:
 
 
 

@@ -4,31 +4,31 @@ description: Veiledning for avanserte brukere med opplæring i Plan ₿ Nettverk
 ---
 ![cover](assets/cover.webp)
 
-Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit :
+Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Du har allerede :
+Du har allerede:
 
 
 - Velg et tema for opplæringen din;
 - Kontaktet Plan ₿ Network-teamet via [Telegramgruppe] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Velg dine bidragsverktøy.
 
-I denne veiledningen for erfarne Git-brukere vil vi kort oppsummere de viktigste trinnene og de viktigste retningslinjene for å tilby en ny Plan ₿ Nettverksveiledning. Hvis du ikke er kjent med Git og GitHub, anbefaler jeg at du i stedet følger en av disse to andre mer detaljerte veiledningene som tar deg steg for steg :
+I denne veiledningen for erfarne Git-brukere vil vi kort oppsummere de viktigste trinnene og de viktigste retningslinjene for å tilby en ny Plan ₿ Nettverksveiledning. Hvis du ikke er kjent med Git og GitHub, anbefaler jeg at du i stedet følger en av disse to andre mer detaljerte veiledningene som tar deg steg for steg:
 
 
-- Mellomnivå (GitHub Desktop)** :
+- Mellomnivå (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Nybegynnere (webgrensesnitt)** :
+- Nybegynnere (webgrensesnitt)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Foreslåtte verktøy
 
-For redigering av Markdown-filer :
+For redigering av Markdown-filer:
 
 
 - Obsidian** (gratis, ikke åpen kildekode)
@@ -36,20 +36,20 @@ For redigering av Markdown-filer :
 - Zettlr** (gratis, åpen kildekode)
 - Typora** (betalingsprogramvare, ~€15, ikke åpen kildekode)
 
-For Git :
+For Git:
 
 
 - Git** (gratis, åpen kildekode)
 - GitHub Desktop** (gratis, åpen kildekode)
 - Sourcetree** (gratis, ikke åpen kildekode)
 
-For redigering av YAML-filer :
+For redigering av YAML-filer:
 
 
 - Visual Studio Code** (gratis, åpen kildekode)
 - Sublime Text** (gratis med begrensninger, ikke åpen kildekode)
 
-For å lage diagrammer og visualiseringer :
+For å lage diagrammer og visualiseringer:
 
 
 - Canva** (gratis med betalte alternativer, ikke åpen kildekode)
@@ -101,13 +101,13 @@ git push -u origin tuto-green-wallet-loic
 
 ***Merk: *** Du kan automatisere trinn 3 og 4 ved hjelp av [mitt Python GUI-skript] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kjør det direkte fra mappen i din lokale klone, og fyll deretter ut de nødvendige feltene i GUI-en. For mer informasjon om hvordan du installerer og bruker det, se [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-Hvis du foretrekker å gjøre det manuelt, følger du disse trinnene :
+Hvis du foretrekker å gjøre det manuelt, følger du disse trinnene:
 
 
 - Finn den aktuelle mappen i det lokale depotet (f.eks. `tututorials/wallet`).
 - Opprett en mappe dedikert til opplæringen med et tydelig navn (f.eks. `green-wallet`). Dette mappenavnet vil også bestemme URL-banen til opplæringen. Det bør skrives med små bokstaver, uten spesialtegn (bortsett fra bindestreker) og uten mellomrom.
 - Legg til følgende elementer i denne katalogen:
-    - En undermappe med navnet `assets` som inneholder :
+    - En undermappe med navnet `assets` som inneholder:
         - To `.webp`-bilder:
             - `logo.webp`: Logoen for opplæringen (kvadratisk format med bakgrunn). Denne logoen må representere programvaren eller verktøyet som presenteres. Hvis opplæringen ikke er spesifikk for et verktøy (f.eks. en generell veiledning for å generere en mnemoteknisk frase), kan du velge et passende visuelt element (f.eks. et generisk ikon).
             - `cover.webp`: Et forsidebilde som vises i starten av opplæringen.
@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,32 +164,32 @@ proofreading:
 
 Her er de obligatoriske feltene:
 
-- **id** : En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
+- **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id** : UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags** : 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Vanskelighetsnivået for veiledningen, valgt blant:
+- **level**: Vanskelighetsnivået for veiledningen, valgt blant:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
+- **original_language**: Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
 
-- **proofreading** : Informasjon om korrekturprosessen. Fullfør den første delen, da korrekturlesing av din egen veiledning regnes som en første validering:
-    - **language** : Språkkoden for korrekturlesing (f.eks. `fr`, `en`, etc.).
-    - **last_contribution_date** : Dagens dato.
-    - **urgency** : 1
-    - **contributor_names** : Din GitHub-ID.
-    - **reward** : 0
+- **proofreading**: Informasjon om korrekturprosessen. Fullfør den første delen, da korrekturlesing av din egen veiledning regnes som en første validering:
+    - **language**: Språkkoden for korrekturlesing (f.eks. `fr`, `en`, etc.).
+    - **last_contribution_date**: Dagens dato.
+    - **urgency**: 1
+    - **contributor_names**: Din GitHub-ID.
+    - **reward**: 0
 
-For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
+For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -224,7 +224,7 @@ proofreading:
 ### 5 - Skriv innholdet
 
 
-- Fullfør Markdown-filens egenskaper med :
+- Fullfør Markdown-filens egenskaper med:
     - Tittelen (`navn`).
     - En kort beskrivelse (`description`).
 - Legg til forsidebildet øverst i veiledningen ved hjelp av Markdown-syntaks (erstatt "grønn" med navnet på verktøyet som vises):
@@ -234,9 +234,9 @@ proofreading:
 ```
 
 
-- Skriv opplæringsinnholdet i Markdown :
+- Skriv opplæringsinnholdet i Markdown:
     - Bruk velstrukturerte overskrifter (`##`), lister og avsnitt.
-    - Sett inn bilder ved hjelp av Markdown-syntaks :
+    - Sett inn bilder ved hjelp av Markdown-syntaks:
 
 ```
 ![nom-image](assets/en/001.webp)
@@ -281,26 +281,26 @@ git push origin tuto-green-wallet-loic
 ## Standarder for innholdsproduksjon
 
 
-- Formatering støttes på plattformen** :
+- Formatering støttes på plattformen**:
     - Klassisk Markdown: lister, lenker, bilder, anførselstegn, fet skrift, kursiv osv.
     - LaTeX (kun blokk, ikke inline): avgrenset av `$$`.
     - Innebygd kode: Syntaks med en enkelt backtick.
-    - Kodeblokker: Syntaks med tre backticks, for eksempel :
+    - Kodeblokker: Syntaks med tre backticks, for eksempel:
 
 ```
 print("Hello, Bitcoin!")
 ```
 
 
-- Illustrasjoner og diagrammer** :
+- Illustrasjoner og diagrammer**:
     - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
     - Navngi bilder med 2 eller 3 siffer (f.eks. `001.webp`, `002.webp`).
     - Bruk mock-ups for opplæring i mobil- eller maskinvarelommebøker.
     - Bruk kun egenproduserte eller royaltyfrie bilder.
     - Sørg for at de er relevante og av høy kvalitet.
-- Grafisk charter** :
+- Grafisk charter**:
     - Skrifttype: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Farger Plan ₿ Nettverk :
+    - Farger Plan ₿ Nettverk:
         - Oransje: `#FF5C00`
         - Svart: `#000000`
         - Hvit: `#FFFFFFFF`

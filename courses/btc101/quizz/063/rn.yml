@@ -1,0 +1,12 @@
+question: Ni iciyumviro ikihe c’imibare gishingiye ku bwenge bw’umuntu kandi gikoreshwa muri Bitcoin?
+answer: Ivyiyumviro vy’urukino.
+wrong_answers:
+  - Ivyiyumviro vy’ibishoboka.
+  - Ivyiyumviro vy’imibare.
+  - Ivyiyumviro vy’Ishirahamwe.
+explanation: |
+  Ivyiyumviro vy’urukino ni iciyumviro c’imibare gishingiye ku
+  ivyiyumviro vy’umuntu. Muri Bitcoin, amahinduka y’amategeko ni
+  gukurikizwa n’abakoresha, bagahindura ivyo ari vyo vyose kuri Bitcoin.
+  protocole igoye cane.
+reviewed: true

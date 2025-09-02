@@ -20,7 +20,7 @@ Een ***Virtual Private Network*** (VPN) is een systeem om een rechtstreekse verb
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Gebaseerd op dit principe is [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) een open source VPN-service die in 2020 is ontwikkeld door de Mozilla Foundation. Het is beschikbaar op :
+Gebaseerd op dit principe is [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) een open source VPN-service die in 2020 is ontwikkeld door de Mozilla Foundation. Het is beschikbaar op:
 
 
 
@@ -39,7 +39,7 @@ Gebaseerd op dit principe is [Mozilla VPN](https://www.mozilla.org/fr/products/v
 
 
 
-Het is beschikbaar in meer dan 30 landen en heeft meer dan 500 servers die verantwoordelijk zijn voor het maskeren van uw IP Address om u te verplaatsen en tegelijkertijd de vertrouwelijkheid van uw interacties op het internet te garanderen. Mozilla VPN onderscheidt zich door :
+Het is beschikbaar in meer dan 30 landen en heeft meer dan 500 servers die verantwoordelijk zijn voor het maskeren van uw IP Address om u te verplaatsen en tegelijkertijd de vertrouwelijkheid van uw interacties op het internet te garanderen. Mozilla VPN onderscheidt zich door:
 
 
 

@@ -71,7 +71,7 @@ Graylog 是一款分析和监控工具，可以更轻松地识别可疑行为和
 
 
 
-来源 : Graylog
+来源: Graylog
 
 
 
@@ -149,8 +149,8 @@ sudo apt-get install -y mongodb-org
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 

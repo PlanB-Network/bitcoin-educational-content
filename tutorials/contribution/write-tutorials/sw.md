@@ -119,19 +119,19 @@ Ili kuchangia Plan ₿ Network, una chaguo 3 kulingana na kiwango chako cha uzoe
 
 
 
-- **Watumiaji wenye uzoefu**: Endelea na mbinu zako za kawaida na uangalie kwa urahisi mafunzo mafupi hapa chini ambayo yanafupisha muundo wa hazina wa Plan ₿ Network, mahitaji mahususi na mbinu ya kufanya kazi :
+- **Watumiaji wenye uzoefu**: Endelea na mbinu zako za kawaida na uangalie kwa urahisi mafunzo mafupi hapa chini ambayo yanafupisha muundo wa hazina wa Plan ₿ Network, mahitaji mahususi na mbinu ya kufanya kazi:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- **Ya kati (Desktop ya GitHub)** : Ikiwa hujui kutumia Git, chaguo la kwanza ni kusanidi kwa urahisi mazingira yako ya ndani ili kuchangia Plan ₿ Network. Mbinu hii inapendekezwa kwa michango muhimu, kama vile kuandika mafunzo kamili. Ili kufanya hivyo, fuata mafunzo ya hatua kwa hatua hapa chini:
+- **Ya kati (Desktop ya GitHub)**: Ikiwa hujui kutumia Git, chaguo la kwanza ni kusanidi kwa urahisi mazingira yako ya ndani ili kuchangia Plan ₿ Network. Mbinu hii inapendekezwa kwa michango muhimu, kama vile kuandika mafunzo kamili. Ili kufanya hivyo, fuata mafunzo ya hatua kwa hatua hapa chini:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- **Wanaoanza (mtandao wa Interface)** : Unaweza pia kuchagua kutumia mtandao wa GitHub Interface moja kwa moja, bila kulazimika kusanidi mazingira kamili ya ndani. Njia hii inaweza kuzingatiwa kwa michango midogo. Hata hivyo, kwa michango mikuu, kama vile kuongeza mafunzo mapya kamili, chaguo hili linaweza kuwa changamano zaidi kuliko kusanidi mazingira ya ndani. Nitaelezea jinsi ya kufanya hivyo katika somo hili:
+- **Wanaoanza (mtandao wa Interface)**: Unaweza pia kuchagua kutumia mtandao wa GitHub Interface moja kwa moja, bila kulazimika kusanidi mazingira kamili ya ndani. Njia hii inaweza kuzingatiwa kwa michango midogo. Hata hivyo, kwa michango mikuu, kama vile kuongeza mafunzo mapya kamili, chaguo hili linaweza kuwa changamano zaidi kuliko kusanidi mazingira ya ndani. Nitaelezea jinsi ya kufanya hivyo katika somo hili:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79

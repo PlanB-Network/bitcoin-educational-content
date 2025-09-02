@@ -1,0 +1,9 @@
+question: Ni iyihe protocole ya kabiri-Layer ishoboza kwishura hafi y’aho nyene?
+answer: Lightning Network.
+wrong_answers:
+  - Iminyororo yo mu ruhande
+  - RGB.
+  - Bitcoin core.
+explanation: |
+  Lightning Network ishoboza gukorana vyihuta kandi bihenda biciye mu bikorwa vya off-chain hanze ya Bitcoin Blockchain.
+reviewed: false

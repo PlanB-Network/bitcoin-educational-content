@@ -97,7 +97,7 @@ Luego necesitarás pagar 1 Sat para verificar tu dirección Lightning. En el cas
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Finalmente, tienes la opción de añadir un código de referido. Si deseas apoyarnos, puedes usar el código "*DiscoverBitcoin*" para que una porción de tus comisiones se comparta con nosotros. ¡Gracias! :)![SWISS BITCOIN PAY](assets/notext/12.webp)
+Finalmente, tienes la opción de añadir un código de referido. Si deseas apoyarnos, puedes usar el código "*DiscoverBitcoin*" para que una porción de tus comisiones se comparta con nosotros. ¡Gracias!:)![SWISS BITCOIN PAY](assets/notext/12.webp)
 Una vez que toda la información esté completada, haz clic en el botón de "*Send*".
 
 ![SWISS BITCOIN PAY](assets/notext/13.webp)

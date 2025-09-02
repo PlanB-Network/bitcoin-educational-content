@@ -460,7 +460,7 @@ LNbitsには、あらゆる種類の[オープンAPI](https://legend.lnbits.com/
 - lightning:lnurl1234xyzを追加すると、スキャン時にこの請求書のためにユーザーのウォレットを開くよう要求するQRが作成されます（iOSでは最後にインストールしたlightningアプリ、Androidでは設定）。
 - ウェブ経由でesp32をフラッシュする場合は、これらのブラウザ（TL:DR Chrome、Edge、Opera）でしか動作しません。
 - espのPIN-OUTリファレンスにご注意ください。
-- FOSSoftwareやFOSGuidesを使用する際は、必ず作者をリンクしてください。誰もが自分の赤ちゃんが成長するのを見るのが大好きで、それはまた、見ていてとても素晴らしい構築の連鎖を引き起こします :)
+- FOSSoftwareやFOSGuidesを使用する際は、必ず作者をリンクしてください。誰もが自分の赤ちゃんが成長するのを見るのが大好きで、それはまた、見ていてとても素晴らしい構築の連鎖を引き起こします:)
 
 プロジェクトで助けが必要な場合は、[Makerbits Telegram Group](https://t.me/makerbits)に来てください！
 

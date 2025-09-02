@@ -22,7 +22,7 @@ L'adozione del Bitcoin a livello mondiale si basa su casi d'uso tangibili nella 
 
 
 
-Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete :
+Speed dispone di un'ampia gamma di funzioni per coprire gli aspetti finanziari della vostra attività. Troverete:
 
 
 

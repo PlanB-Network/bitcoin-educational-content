@@ -150,7 +150,7 @@ Mullvad Browser sisältää **kolme esiasennettua laajennusta**, jotka muodostav
 ### **uBlock Origin**
 
 
-Tämä mainosten ja jäljittäjien estolaajennus on valmiiksi konfiguroitu **optimoitujen suodatinluetteloiden** avulla estämään :
+Tämä mainosten ja jäljittäjien estolaajennus on valmiiksi konfiguroitu **optimoitujen suodatinluetteloiden** avulla estämään:
 
 
 
@@ -169,7 +169,7 @@ mullvad Browserin uBlock Origin käyttää standardoituja parametreja varmistaak
 ### **NoScript**
 
 
-NoScript toimii taustalla hallinnoidakseen selaimen **suojaustasoja**. Tämä :
+NoScript toimii taustalla hallinnoidakseen selaimen **suojaustasoja**. Tämä:
 
 
 
@@ -328,7 +328,7 @@ Napsauta käyttöjärjestelmääsi vastaavaa **"Lataa "**-painiketta.
 
 
 
-Linuxissa voit valita eri formaattien välillä jakelustasi riippuen. Kun lataus on valmis :
+Linuxissa voit valita eri formaattien välillä jakelustasi riippuen. Kun lataus on valmis:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser tarjoaa kolme turvallisuustasoa:
 
 
 
-- Normaali** (nykyinen oletustaso) : Kaikki selaimen ja verkkosivuston toiminnot käytössä
+- Normaali** (nykyinen oletustaso): Kaikki selaimen ja verkkosivuston toiminnot käytössä
 
 
 
@@ -489,7 +489,7 @@ Jos päätät asentaa laajennuksia joka tapauksessa, muista, että luot yksilöl
 
 
 
-4. **Valitse tarpeisiisi parhaiten sopiva turvallisuustaso** :
+4. **Valitse tarpeisiisi parhaiten sopiva turvallisuustaso**:
 
 
 

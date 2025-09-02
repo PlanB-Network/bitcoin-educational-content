@@ -243,7 +243,7 @@ SimpleX genereert dan een link voor eenmalig gebruik. Je kunt deze op elke manie
 
 
 
-Je kunt ook kiezen welk profiel je wilt koppelen aan deze uitnodigingslink. Klik hiervoor op je profiel net onder de QR-code. Je zult dan in staat zijn om :
+Je kunt ook kiezen welk profiel je wilt koppelen aan deze uitnodigingslink. Klik hiervoor op je profiel net onder de QR-code. Je zult dan in staat zijn om:
 
 
 
@@ -313,7 +313,7 @@ Een van de krachtigste functies van SimpleX is de mogelijkheid om verschillende 
 
 
 
-U kunt bijvoorbeeld :
+U kunt bijvoorbeeld:
 
 
 

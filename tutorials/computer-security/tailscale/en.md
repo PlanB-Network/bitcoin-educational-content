@@ -117,7 +117,7 @@ Once you have created your account, you can install Tailscale on your devices:
 
 
 
-- On Linux (Debian, Ubuntu, etc.):** You have several options. The simplest method is to run the official installation script: for example, on Debian/Ubuntu :
+- On Linux (Debian, Ubuntu, etc.):** You have several options. The simplest method is to run the official installation script: for example, on Debian/Ubuntu:
 
 
 ```bash
@@ -191,7 +191,7 @@ The web administration console lets you view and manage all your connected devic
 
 
 
-- Interface Web (Admin Console)** : accessible at [https://login.tailscale.com](https://login.tailscale.com), this web console is the central dashboard for your Tailscale network. It lists all devices (*Machines*), their online/offline status, their Tailscale IP addresses, and more. Here you can **manage devices** (rename, expire keys, authorize routes, disable a node), **manage users** (in an organizational context), and define security rules (ACLs). This is also where you configure global options such as MagicDNS, tags, or auth keys (pre-generate auth keys for automated device addition). Interface web is very handy for getting an overview and applying changes that will be propagated via the coordination server to all nodes. *Example:* Activating a **subnet route** or an **exit node** is done with a single click in the console, once the node in question has announced itself as such.
+- Interface Web (Admin Console)**: accessible at [https://login.tailscale.com](https://login.tailscale.com), this web console is the central dashboard for your Tailscale network. It lists all devices (*Machines*), their online/offline status, their Tailscale IP addresses, and more. Here you can **manage devices** (rename, expire keys, authorize routes, disable a node), **manage users** (in an organizational context), and define security rules (ACLs). This is also where you configure global options such as MagicDNS, tags, or auth keys (pre-generate auth keys for automated device addition). Interface web is very handy for getting an overview and applying changes that will be propagated via the coordination server to all nodes. *Example:* Activating a **subnet route** or an **exit node** is done with a single click in the console, once the node in question has announced itself as such.
 
 
 
@@ -212,7 +212,7 @@ CLI is very useful on servers without Interface graphics, and for scripting cert
 ## 4. Using Tailscale on Umbrel
 
 
-Umbrel is a popular self-hosting platform (notably used for Bitcoin/Lightning nodes and other self-hosted services, via its App Store). To install and configure Umbrel, we recommend you follow our dedicated tutorial :
+Umbrel is a popular self-hosting platform (notably used for Bitcoin/Lightning nodes and other self-hosted services, via its App Store). To install and configure Umbrel, we recommend you follow our dedicated tutorial:
 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
@@ -285,7 +285,7 @@ Access is remarkably simple: instead of using `umbrel.local` (which only works o
 - noStrudel**: Access your Nostr services hosted on Umbrel
 
 
-**Connect external wallets to your Bitcoin or lightning nodes via Tailscale :**
+**Connect external wallets to your Bitcoin or lightning nodes via Tailscale:**
 
 
 Tailscale also enables your Bitcoin and Lightning wallets installed on other devices to connect directly to your Umbrel node:
@@ -320,12 +320,12 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 *Configuring Zeus to connect to the Lightning node via the Tailscale* IP address
 
 
-To configure Zeus with your Lightning node, see our detailed tutorial :
+To configure Zeus with your Lightning node, see our detailed tutorial:
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-To find out more about the Lightning Network and how it works on Umbrel, visit :
+To find out more about the Lightning Network and how it works on Umbrel, visit:
 
 
 https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
@@ -451,7 +451,7 @@ Tailscale is an essential tool for self-hosting, thanks to its simplicity and ef
 
 
 - Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specific guides for self-hosting.
-- Configuring an Exit Node** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detailed guide to configuring Exit Nodes.
+- Configuring an Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detailed guide to configuring Exit Nodes.
 - Use Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Transfer files between Tailscale devices.
 
 

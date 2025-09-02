@@ -1,0 +1,10 @@
+question: Ni ingingo iyihe yo hagati ishobora gufatwa kugira ngo uhishe amahuzu igihe udakoresha urudodo rwawe bwite rwa Bitcoin?
+answer: Ikoreshwa rya Tor.
+wrong_answers:
+  - Gukoresha uruhome rw’umuriro.
+  - Gukoresha Wallet yashizwemwo amakuru.
+  - Gukoresha Wallet ibiri.
+explanation: |
+  Kugira ngo ugabanye ingorane zo kwihweza, umuti wo hagati ni ugukoresha porogarama ya Wallet igufasha guhisha amahuzu yawe biciye kuri Tor.
+  
+reviewed: false

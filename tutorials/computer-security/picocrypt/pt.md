@@ -74,11 +74,11 @@ O software de encriptação Picocrypt** apresenta-se como **uma alternativa** a 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Fonte : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Fonte: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-O Picocrypt é **muito leve**, pesando apenas **3 MB**, e não precisa de ser instalado: é uma **aplicação portátil** com a vantagem de não necessitar de direitos de administrador! No entanto, não descura a segurança, uma vez que se baseia em **algoritmos robustos e fiáveis** :
+O Picocrypt é **muito leve**, pesando apenas **3 MB**, e não precisa de ser instalado: é uma **aplicação portátil** com a vantagem de não necessitar de direitos de administrador! No entanto, não descura a segurança, uma vez que se baseia em **algoritmos robustos e fiáveis**:
 
 
 

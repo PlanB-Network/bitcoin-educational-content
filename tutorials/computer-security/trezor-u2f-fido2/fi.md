@@ -134,7 +134,7 @@ Suosittelen, että säilytät tätä koodia eri paikassa kuin pääsalasanaasi, 
 
 
 
-Tämä lähestymistapa tarjoaa kaksi varmuuskopiotasoa, jos Trezor 2FA-todennuksen menetyksen sattuessa: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lausetta kaikille tileillesi, ja toinen varmuuskopio, jossa käytetään hätäkoodeja kullekin tilille. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n ja hätäkoodin roolia** :
+Tämä lähestymistapa tarjoaa kaksi varmuuskopiotasoa, jos Trezor 2FA-todennuksen menetyksen sattuessa: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lausetta kaikille tileillesi, ja toinen varmuuskopio, jossa käytetään hätäkoodeja kullekin tilille. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n ja hätäkoodin roolia**:
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Korvaa yksinkertaisesti `<CREDENTIAL_ID>` jollakin tunnuksellasi. Esimerkiksi minun tapauksessani tämä antaisi :
+Korvaa yksinkertaisesti `<CREDENTIAL_ID>` jollakin tunnuksellasi. Esimerkiksi minun tapauksessani tämä antaisi:
 
 
 

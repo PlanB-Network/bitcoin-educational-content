@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe LNURL ifise mu bikorwa vy’ubudandaji vy’umuravyo?
+answer: Kugira ngo worohereze imigenderanire hagati y'ibihimba n'ibikorwa vy'umuravyo
+wrong_answers:
+  - Kworohereza uguhingura imihora y'ukwishurwa kwose
+  - Kumenya neza ibanga ry'amakuru y'ukwishyura
+  - Guharura ubwavyo amafaranga y'ugucuruza
+explanation: |
+  LNURL ni umurongo w’itumanaho wagenewe kworohereza imigenderanire, nk’ugukura n’ukwishura, hagati y’ibice n’ibikorwa vya Lightning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Igihe ugura Bitcoin, ni ubuhe buryo bumwe bwo guhangana n’uguhinduka kw’igiciro cayo?
+answer: Buhoro buhoro, ushiremwo Bitcoin mu bihe bitandukanye kandi ugume ufise iciyumviro c’igihe kirekire.
+wrong_answers:
+  - Gerageza kumenya imbere y’igihe isoko ry’igihe gito rizoshika hejuru maze ugurishe ubwo nyene.
+  - Genda all-in n’itunga ryose ry’ishirahamwe icarimwe.
+  - Gura Bitcoin gusa ku misi igiciro cayo caduze cane.
+explanation: |
+  Gugura ubudasiba mu gihe (ugupima igiciro c’idolari) birafasha gutorera umuti uguhinduka. Igihe kirekire (nk’akarorero, imyaka 4) kigabanya ingaruka z’uguhinduka kw’ibiciro mu gihe gito.
+reviewed: false

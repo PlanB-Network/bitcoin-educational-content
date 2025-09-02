@@ -162,7 +162,7 @@ Jeg anbefaler at du oppbevarer denne koden på et annet sted enn der du lagrer h
 
 
 
-Denne tilnærmingen gir deg to nivåer av sikkerhetskopiering i tilfelle du mister Ledger for 2FA-autentisering: en første sikkerhetskopiering ved hjelp av Mnemonic-frasen for alle kontoene dine, og en andre kontospesifikk sikkerhetskopiering ved hjelp av nødkodene. Det er imidlertid viktig **ikke å forveksle rollen til Mnemonic med rollen til nødkoden** :
+Denne tilnærmingen gir deg to nivåer av sikkerhetskopiering i tilfelle du mister Ledger for 2FA-autentisering: en første sikkerhetskopiering ved hjelp av Mnemonic-frasen for alle kontoene dine, og en andre kontospesifikk sikkerhetskopiering ved hjelp av nødkodene. Det er imidlertid viktig **ikke å forveksle rollen til Mnemonic med rollen til nødkoden**:
 
 
 

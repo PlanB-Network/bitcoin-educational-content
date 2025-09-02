@@ -8,7 +8,7 @@ Bevor Sie dieses Tutorial zum Hinzufügen eines neuen Tutorials lesen, müssen S
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Sie haben bereits :
+Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
@@ -18,17 +18,17 @@ Sie haben bereits :
 In diesem Tutorial für erfahrene Git-Benutzer fassen wir kurz die wichtigsten Schritte und Richtlinien für das Anbieten eines neuen Plan ₿ Network Tutorials zusammen. Wenn Sie mit Git und GitHub nicht vertraut sind, empfehle ich Ihnen, stattdessen eines dieser beiden anderen, detaillierteren Tutorials zu besuchen, die Sie Schritt für Schritt führen:
 
 
-- Fortgeschrittene (GitHub Desktop)** :
+- Fortgeschrittene (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Anfänger (Webschnittstelle)** :
+- Anfänger (Webschnittstelle)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Empfohlene Werkzeuge
 
-Zur Bearbeitung von Markdown-Dateien :
+Zur Bearbeitung von Markdown-Dateien:
 
 
 - Obsidian** (kostenlos, nicht quelloffen)
@@ -36,20 +36,20 @@ Zur Bearbeitung von Markdown-Dateien :
 - Zettlr** (kostenlos, Open-Source)
 - Typora** (Payware, ~€15, nicht Open-Source)
 
-Für Git :
+Für Git:
 
 
 - Git** (kostenlos, Open-Source)
 - GitHub Desktop** (kostenlos, Open-Source)
 - Sourcetree** (kostenlos, nicht Open-Source)
 
-Zur Bearbeitung von YAML-Dateien :
+Zur Bearbeitung von YAML-Dateien:
 
 
 - Visual Studio Code** (kostenlos, Open-Source)
 - Sublime Text** (kostenlos mit Einschränkungen, nicht Open-Source)
 
-Erstellen von Diagrammen und visuellen Darstellungen :
+Erstellen von Diagrammen und visuellen Darstellungen:
 
 
 - Canva** (kostenlos mit kostenpflichtigen Optionen, nicht Open-Source)
@@ -107,7 +107,7 @@ Wenn Sie es lieber manuell machen möchten, folgen Sie diesen Schritten:
 - Suchen Sie den entsprechenden Ordner im lokalen Repository (z. B. `tutorials/wallet`).
 - Erstellen Sie ein Verzeichnis für das Tutorial mit einem eindeutigen Namen (z. B. `green-wallet`). Dieser Ordnername bestimmt auch den URL-Pfad des Tutorials. Er sollte in Kleinbuchstaben geschrieben sein, keine Sonderzeichen (außer Bindestrichen) und keine Leerzeichen enthalten.
 - Fügen Sie die folgenden Elemente zu diesem Verzeichnis hinzu:
-    - Ein Unterordner mit dem Namen `assets`, der :
+    - Ein Unterordner mit dem Namen `assets`, der:
         - Zwei `.webp`-Bilder:
             - logo.webp": Das Logo des Tutorials (quadratisches Format mit Hintergrund). Dieses Logo muss die vorgestellte Software oder das Werkzeug repräsentieren. Wenn das Tutorial nicht spezifisch für ein Tool ist (z.B.: ein allgemeiner Leitfaden für die Erstellung einer mnemonischen Phrase), können Sie ein geeignetes Bild auswählen (z.B.: ein allgemeines Symbol).
             - cover.webp": Ein Titelbild, das zu Beginn des Tutorials angezeigt wird.
@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,30 +164,30 @@ proofreading:
 
 Hier sind die erforderlichen Felder:
 
-- **id** : Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
+- **id**: Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
 
-- **project_id** : Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
+- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
 
-- **tags** : 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
+- **level**: Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Ihre `professor_id` (UUID), wie sie auf [Ihrem Professorenprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) angezeigt wird;
+- **professor_id**: Ihre `professor_id` (UUID), wie sie auf [Ihrem Professorenprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) angezeigt wird;
 
-- **original_language** : Die Originalsprache des Tutorials (zum Beispiel `fr`, `en`, usw.);
+- **original_language**: Die Originalsprache des Tutorials (zum Beispiel `fr`, `en`, usw.);
 
-- **proofreading** : Informationen zum Korrekturleseprozess. Füllen Sie den ersten Teil aus, da das Korrekturlesen Ihres eigenen Tutorials als erste Überprüfung zählt:
-    - **language** : Sprachcode der Korrektur (zum Beispiel `fr`, `en`, usw.).
-    - **last_contribution_date** : Datum des aktuellen Tages.
-    - **urgency** : 1
-    - **contributor_names** : Ihr GitHub-Benutzername.
-    - **reward** : 0
+- **proofreading**: Informationen zum Korrekturleseprozess. Füllen Sie den ersten Teil aus, da das Korrekturlesen Ihres eigenen Tutorials als erste Überprüfung zählt:
+    - **language**: Sprachcode der Korrektur (zum Beispiel `fr`, `en`, usw.).
+    - **last_contribution_date**: Datum des aktuellen Tages.
+    - **urgency**: 1
+    - **contributor_names**: Ihr GitHub-Benutzername.
+    - **reward**: 0
 
 Weitere Einzelheiten zu Ihrer Lehrer-ID finden Sie in der entsprechenden Anleitung:
 
@@ -224,7 +224,7 @@ proofreading:
 ### 5 - Schreiben Sie den Inhalt
 
 
-- Füllen Sie die Eigenschaften der Markdown-Datei mit :
+- Füllen Sie die Eigenschaften der Markdown-Datei mit:
     - Der Titel (`Name`).
     - Eine kurze Beschreibung (`description`).
 - Fügen Sie das Titelbild am Anfang des Tutorials mit Hilfe der Markdown-Syntax hinzu (ersetzen Sie "grün" durch den Namen des abgebildeten Tools):
@@ -236,7 +236,7 @@ proofreading:
 
 - Schreiben Sie den Inhalt des Tutorials in Markdown:
     - Verwenden Sie gut gegliederte Überschriften (`##`), Listen und Absätze.
-    - Einfügen von Bildmaterial mit der Markdown-Syntax :
+    - Einfügen von Bildmaterial mit der Markdown-Syntax:
 
 ```
 ![nom-image](assets/en/001.webp)
@@ -281,26 +281,26 @@ git push origin tuto-green-wallet-loic
 ## Standards für die Erstellung von Inhalten
 
 
-- Von der Plattform unterstützte Formatierung** :
+- Von der Plattform unterstützte Formatierung**:
     - Klassisches Markdown: Listen, Links, Bilder, Zitate, Fett- und Kursivdruck usw.
     - LaTeX (nur Block, nicht Inline): abgegrenzt durch `$$`.
     - Inline-Code: Syntax mit einem einzigen Backtick.
-    - Code-Blöcke: Syntax mit drei Backticks, zum Beispiel :
+    - Code-Blöcke: Syntax mit drei Backticks, zum Beispiel:
 
 ```
 print("Hello, Bitcoin!")
 ```
 
 
-- Illustrationen und Diagramme** :
+- Illustrationen und Diagramme**:
     - Alle Bilder müssen im WebP-Format vorliegen. Verwenden Sie dieses kostenlose Tool, um sie bei Bedarf zu konvertieren: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Benennen Sie Bildmaterial mit 2 oder 3 Ziffern (z. B. "001.webp", "002.webp").
     - Verwenden Sie für Tutorials zu mobilen oder Hardware-Geldbörsen Modelle.
     - Verwenden Sie nur selbst erstelltes oder lizenzfreies Bildmaterial.
     - Stellen Sie sicher, dass sie relevant und von hoher Qualität sind.
-- Grafische Charta** :
+- Grafische Charta**:
     - Schriftart: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Farben Plan ₿ Netzwerk :
+    - Farben Plan ₿ Netzwerk:
         - Orange: "#FF5C00"
         - Schwarz: `#000000`
         - Weiß: "#FFFFFF

@@ -1,0 +1,9 @@
+question: Ni urufunguzo uruhe rukoreshwa mu gufunga UTXOs kuri Bitcoin?
+answer: Urufunguzo rwa bose
+wrong_answers:
+  - Urufunguzo rw'ibanga
+  - seed Hash.
+  - Mnemonic ijambo
+explanation: |
+  UTXOs zikingirwa n’urufunguzo rwa bose canke Hash yayo, zigafungurwa n’urufunguzo rw’ibanga ruhuye.
+reviewed: false

@@ -74,7 +74,7 @@ Picocrypt** encryptiesoftware presenteert zichzelf als **een alternatief** voor 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Bron : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Bron: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

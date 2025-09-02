@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe node yohereza itegerezwa kumenya kugira ngo ikore ukwishyura kw’inzira y’igitunguru?
+answer: Urubuga rw'urubuga n'inzira yose ija ku wakira
+wrong_answers:
+  - Gusa urudodo rukurikira rwo hagati
+  - Ubushobozi bw'umurongo wose
+  - Umukono w'ibanga wa buri nzira iri ku nzira
+explanation: |
+  Igikoresho co kohereza kigomba kumenya topologie y’urubuga kugira ngo giharure inzira ija ku wakira, kigatuma gihitamwo inzira nziza.
+reviewed: false

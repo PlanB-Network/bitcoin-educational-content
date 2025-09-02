@@ -4,31 +4,31 @@ description: Průvodce pro pokročilé uživatele, který nabízí výukový pro
 ---
 ![cover](assets/cover.webp)
 
-Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, podívejte se nejprve na tento úvodní návod a pak se vraťte sem :
+Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, podívejte se nejprve na tento úvodní návod a pak se vraťte sem:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Již máte :
+Již máte:
 
 
 - Vyberte si téma výukového programu;
 - Kontaktoval tým sítě Plan ₿ prostřednictvím [skupiny Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo paolo@planb.network ;
 - Vyberte si nástroje pro přispívání.
 
-V tomto tutoriálu pro zkušené uživatele systému Git stručně shrneme klíčové kroky a základní pokyny pro nabídku nového tutoriálu Plan ₿ Network. Pokud se v systému Git a GitHub nevyznáte, doporučuji vám raději sledovat jeden z těchto dalších 2 podrobnějších tutoriálů, které vás provedou krok za krokem :
+V tomto tutoriálu pro zkušené uživatele systému Git stručně shrneme klíčové kroky a základní pokyny pro nabídku nového tutoriálu Plan ₿ Network. Pokud se v systému Git a GitHub nevyznáte, doporučuji vám raději sledovat jeden z těchto dalších 2 podrobnějších tutoriálů, které vás provedou krok za krokem:
 
 
-- Středně pokročilý (GitHub Desktop)** :
+- Středně pokročilý (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Začátečníci (webové rozhraní)** :
+- Začátečníci (webové rozhraní)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Navrhované nástroje
 
-Pro úpravu souborů Markdown :
+Pro úpravu souborů Markdown:
 
 
 - Obsidian** (zdarma, ne open-source)
@@ -36,20 +36,20 @@ Pro úpravu souborů Markdown :
 - Zettlr** (zdarma, open-source)
 - Typora** (Payware, ~15 EUR, není open-source)
 
-Pro Git :
+Pro Git:
 
 
 - Git** (zdarma, open-source)
 - GitHub Desktop** (zdarma, open-source)
 - Sourcetree** (zdarma, ne open-source)
 
-Pro úpravu souborů YAML :
+Pro úpravu souborů YAML:
 
 
 - Visual Studio Code** (zdarma, open-source)
 - Sublime Text** (zdarma s omezeními, není open-source)
 
-Vytváření diagramů a vizualizací :
+Vytváření diagramů a vizualizací:
 
 
 - Canva** (zdarma s placenými možnostmi, ne open-source)
@@ -101,13 +101,13 @@ git push -u origin tuto-green-wallet-loic
 
 ***Poznámka:*** Kroky 3 a 4 můžete automatizovat pomocí [mého skriptu pro grafické uživatelské rozhraní Pythonu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Spusťte jej přímo z jeho složky v místním klonu a poté vyplňte požadovaná pole v grafickém uživatelském rozhraní. Další informace o tom, jak jej nainstalovat a používat, najdete v [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-Pokud to chcete provést ručně, postupujte podle následujících kroků :
+Pokud to chcete provést ručně, postupujte podle následujících kroků:
 
 
 - Vyhledejte příslušnou složku v místním úložišti (např. `tutorials/wallet`).
 - Vytvořte adresář určený pro výukový program s jasným názvem (např. `zelená peněženka`). Tento název adresáře bude také určovat cestu URL k výukovému kurzu. Měl by být psán malými písmeny, bez speciálních znaků (kromě pomlček) a bez mezer.
 - Do tohoto adresáře přidejte následující položky:
-    - Podsložka s názvem `assets` obsahující :
+    - Podsložka s názvem `assets` obsahující:
         - Dva obrázky `.webp`:
             - `logo.webp`: Logo výukového programu (čtvercový formát s pozadím). Toto logo musí reprezentovat prezentovaný software nebo nástroj. Pokud se tutoriál netýká konkrétního nástroje (např.: obecný návod na generování mnemotechnické fráze), můžete zvolit vhodný vizuál (např.: obecnou ikonu).
             - `cover.webp`: Obrázek obálky zobrazený na začátku výukového programu.
@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,32 +164,32 @@ proofreading:
 
 Zde jsou povinná pole:
 
-- **id** : UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
+- **id**: UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- **project_id** : UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
 
-- **tags** : 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
+- **level**: Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Původní jazyk tutoriálu (například `fr`, `en`, atd.);
+- **original_language**: Původní jazyk tutoriálu (například `fr`, `en`, atd.);
 
-- **proofreading** : Informace o procesu korektury. Vyplňte první část, protože korektura vlastního tutoriálu se počítá jako první ověření:
-    - **language** : Kód jazyka korektury (například `fr`, `en`, atd.).
-    - **last_contribution_date** : Datum dne.
-    - **urgency** : 1
-    - **contributor_names** : Vaše GitHub ID.
-    - **reward** : 0
+- **proofreading**: Informace o procesu korektury. Vyplňte první část, protože korektura vlastního tutoriálu se počítá jako první ověření:
+    - **language**: Kód jazyka korektury (například `fr`, `en`, atd.).
+    - **last_contribution_date**: Datum dne.
+    - **urgency**: 1
+    - **contributor_names**: Vaše GitHub ID.
+    - **reward**: 0
 
-Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu :
+Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -224,7 +224,7 @@ proofreading:
 ### 5 - Napište obsah
 
 
-- Doplňte vlastnosti souboru Markdown pomocí :
+- Doplňte vlastnosti souboru Markdown pomocí:
     - Název (`name`).
     - Krátký popis (`description`).
 - Přidejte obrázek na obálku v horní části tutoriálu pomocí syntaxe Markdown (nahraďte slovo "green" názvem zobrazeného nástroje):
@@ -234,9 +234,9 @@ proofreading:
 ```
 
 
-- Napište obsah výukového programu v jazyce Markdown :
+- Napište obsah výukového programu v jazyce Markdown:
     - Používejte dobře strukturované nadpisy (`##`), seznamy a odstavce.
-    - Vkládání vizualizací pomocí syntaxe Markdown :
+    - Vkládání vizualizací pomocí syntaxe Markdown:
 
 ```
 ![nom-image](assets/en/001.webp)
@@ -281,26 +281,26 @@ git push origin tuto-green-wallet-loic
 ## Standardy pro tvorbu obsahu
 
 
-- Formátování podporované platformou** :
+- Formátování podporované platformou**:
     - Klasický Markdown: seznamy, odkazy, obrázky, citace, tučné písmo, kurzíva atd.
     - LaTeX (pouze blokově, ne inline): ohraničeno `$$`.
     - Řádkový kód: Syntaxe s jedním zpětným zaškrtnutím.
-    - Bloky kódu: Syntaxe se třemi zpětnými háčky, například :
+    - Bloky kódu: Syntaxe se třemi zpětnými háčky, například:
 
 ```
 print("Hello, Bitcoin!")
 ```
 
 
-- Ilustrace a schémata** :
+- Ilustrace a schémata**:
     - Všechny obrázky musí být ve formátu WebP. V případě potřeby použijte tento bezplatný nástroj pro jejich konverzi: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Pojmenujte vizuály pomocí 2 nebo 3 číslic (např. `001.webp`, `002.webp`).
     - Pro výukové programy pro mobilní nebo hardwarové peněženky používejte makety.
     - Používejte pouze vizuály vytvořené vlastními silami nebo bez nároku na honorář.
     - Ujistěte se, že jsou relevantní a kvalitní.
-- Grafická karta** :
+- Grafická karta**:
     - Písmo: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Barvy Plán ₿ Síť :
+    - Barvy Plán ₿ Síť:
         - Oranžová: `#FF5C00`
         - Černá: `#000000`
         - Bílá: `#FFFFFF`

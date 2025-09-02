@@ -22,7 +22,7 @@ Przejdź do strony [btcmap.org](https://btcmap.org/):
 
 
 
-Dostępne na :
+Dostępne na:
 
 
 
@@ -165,7 +165,7 @@ Wreszcie,
 
 - 1: Zaznacz to pole, jeśli chcesz tylko potwierdzić, że informacje w pliku są aktualne (w takim przypadku przejdź bezpośrednio do kroku 4)
 - 2: Wskaż tutaj, które informacje, jeśli w ogóle, są nieprawidłowe i jaką korektę proponujesz
-- 3 : Opisz, w jaki sposób uzyskałeś(-aś) informacje (wizyta, telefon...)
+- 3: Opisz, w jaki sposób uzyskałeś(-aś) informacje (wizyta, telefon...)
 - 4: Przejdź do weryfikacji captcha (wielkość liter ma znaczenie)
 - 5: Kliknij przycisk "Prześlij raport", aby wysłać swoją sugestię
 
@@ -309,7 +309,7 @@ BTC Map umożliwia [dodanie własnej społeczności] (https://btcmap.org/communi
   - "inna metoda
 - 12: Twój adres e-mail Address na wypadek, gdyby platforma wymagała dalszych informacji
 - 13: Sprawdzanie Captcha (wielkość liter ma znaczenie)
-- 14 : Kliknij "Prześlij lokalizację", aby wysłać swoją ofertę
+- 14: Kliknij "Prześlij lokalizację", aby wysłać swoją ofertę
 
 
 

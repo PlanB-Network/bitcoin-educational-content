@@ -30,7 +30,7 @@ pfSense to darmowy system operacyjny typu open source, który przekształca dowo
 
 
 
-Jego główne funkcje znacznie ewoluowały na przestrzeni lat i były ulepszane z każdą nową wersją. Do chwili obecnej pfSense oferuje :
+Jego główne funkcje znacznie ewoluowały na przestrzeni lat i były ulepszane z każdą nową wersją. Do chwili obecnej pfSense oferuje:
 
 
 
@@ -63,7 +63,7 @@ Na koniec warto pamiętać, że pfSense wymaga co najmniej dwóch fizycznych int
 
 
 
-Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wydana w czerwcu 2025 r.). Obraz ISO lub plik instalacyjny dostosowany do posiadanego środowiska sprzętowego można pobrać bezpośrednio z oficjalnej strony :
+Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wydana w czerwcu 2025 r.). Obraz ISO lub plik instalacyjny dostosowany do posiadanego środowiska sprzętowego można pobrać bezpośrednio z oficjalnej strony:
 
 
 
@@ -73,7 +73,7 @@ Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wy
 
 
 
-Portal pobierania umożliwia wybór :
+Portal pobierania umożliwia wybór:
 
 
 
@@ -105,7 +105,7 @@ W tym przykładzie instalacja jest wykonywana na maszynie wirtualnej z systemem 
 
 
 
-W przypadku standardowego wdrożenia zalecamy :
+W przypadku standardowego wdrożenia zalecamy:
 
 
 
@@ -221,7 +221,7 @@ Pierwsze pytanie dotyczy konfiguracji sieci VLAN. Na tym etapie, w przypadku pod
 
 
 
-następnie program pfSense wyświetli monit o określenie, który Interface będzie używany dla sieci WAN (dostęp do Internetu). Można wybrać pomiędzy :
+następnie program pfSense wyświetli monit o określenie, który Interface będzie używany dla sieci WAN (dostęp do Internetu). Można wybrać pomiędzy:
 
 
 
@@ -304,7 +304,7 @@ W przeglądarce przejdź do Address wskazanego przez konsolę (domyślnie `https
 
 
 
-Zostanie wyświetlony ekran logowania. Domyślne dane logowania to :
+Zostanie wyświetlony ekran logowania. Domyślne dane logowania to:
 
 
 
@@ -330,7 +330,7 @@ Przy pierwszym połączeniu pfSense wyświetli monit o wykonanie **Kreatora konf
 
 
 
-Możesz :
+Możesz:
 
 
 
@@ -352,7 +352,7 @@ Wskaż strefę czasową witryny, aby dzienniki i harmonogramy były spójne (np.
 
 
 
-Konfiguracja połączenia WAN :
+Konfiguracja połączenia WAN:
 
 
 
@@ -383,7 +383,7 @@ Zabezpiecz pfSense, natychmiast ustawiając silne hasło dla użytkownika `admin
 
 
 
-Przed wdrożeniem zapory sieciowej należy upewnić się, że dostępna jest najnowsza wersja :
+Przed wdrożeniem zapory sieciowej należy upewnić się, że dostępna jest najnowsza wersja:
 
 
 

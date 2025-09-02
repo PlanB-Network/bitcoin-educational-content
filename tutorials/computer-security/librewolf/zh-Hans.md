@@ -241,8 +241,8 @@ flatpak install flathub io.gitlab.librewolf-community
 
 
 
-- Chocolatey :** `choco install librewolf`.
-- WinGet :** `winget install librewolf`.
+- Chocolatey:** `choco install librewolf`.
+- WinGet:** `winget install librewolf`.
 
 
 

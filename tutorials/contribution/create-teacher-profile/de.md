@@ -61,7 +61,7 @@ Wechseln Sie in den Ordner `scripts/tutorial-related/data-creator/` auf Ihrem lo
 pip install -r requirements.txt
 ```
 
-Starten Sie dann die Software mit dem Befehl :
+Starten Sie dann die Software mit dem Befehl:
 
 ```bash
 python3 main.py

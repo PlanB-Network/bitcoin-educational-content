@@ -124,7 +124,7 @@ See on vaid ülevaade OPNsense'i pakutavatest funktsioonidest. Lisaks sellele v�
 
 
 
-Kõigepealt peate otsustama, kuhu te OPNsense'i paigaldate. On mitmeid võimalikke lahendusi, sealhulgas paigaldamine :
+Kõigepealt peate otsustama, kuhu te OPNsense'i paigaldate. On mitmeid võimalikke lahendusi, sealhulgas paigaldamine:
 
 
 
@@ -349,7 +349,7 @@ See toimib järgmiselt:
 
 
 
-Meil on nüüd :
+Meil on nüüd:
 
 
 
@@ -546,7 +546,7 @@ Seega peame looma tulemüürireeglid... Sirvige menüüd järgmiselt: **Firewall
 
 
 
-Seejärel looge kolm uut reeglit, et lubada **LAN võrgu** (st "**LAN net**") :
+Seejärel looge kolm uut reeglit, et lubada **LAN võrgu** (st "**LAN net**"):
 
 
 

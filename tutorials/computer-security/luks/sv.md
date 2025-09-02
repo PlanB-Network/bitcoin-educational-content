@@ -30,7 +30,7 @@ Att kryptera ett USB-minne är ett bra sätt att skydda känsliga data. **I den 
 
 
 
-För att följa denna handledning behöver du :
+För att följa denna handledning behöver du:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Här är "**usbkey1**" det namn som jag ger till partitionsmonteringen i mitt sammanhang. Du kan välja vilket du vill. Vi måste sedan formatera den här partitionen som finns i LUKS-partitionen, till exempel här som **ext4** :
+Här är "**usbkey1**" det namn som jag ger till partitionsmonteringen i mitt sammanhang. Du kan välja vilket du vill. Vi måste sedan formatera den här partitionen som finns i LUKS-partitionen, till exempel här som **ext4**:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" är den "genväg" vi har gett till vår USB-nyckel ("**/dev/mapper**" är en generisk mappning i Linux). Den ger därför tillgång till vår dekrypterade partition. Det här är vad du ska se nu :
+"**/dev/mapper/usbkey1**" är den "genväg" vi har gett till vår USB-nyckel ("**/dev/mapper**" är en generisk mappning i Linux). Den ger därför tillgång till vår dekrypterade partition. Det här är vad du ska se nu:
 
 
 
@@ -353,7 +353,7 @@ Detta innebär att vi kan komma åt data på vårt USB-minne fritt och transpare
 
 
 
-När vår operation är klar, glöm inte att stänga allt ordentligt för att se till att vi inte korrumperar vår volym. Det första steget är att avmontera :
+När vår operation är klar, glöm inte att stänga allt ordentligt för att se till att vi inte korrumperar vår volym. Det första steget är att avmontera:
 
 
 

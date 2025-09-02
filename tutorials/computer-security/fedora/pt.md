@@ -34,7 +34,7 @@ O Fedora também inclui um ambiente de trabalho, que é o Interface através do 
 
 
 
-Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-se em particular por :
+Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-se em particular por:
 
 
 
@@ -66,7 +66,7 @@ Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-s
 
 
 
-Dependendo do seu perfil e utilização, o Fedora oferece edições que se adaptam às suas necessidades. Encontrará principalmente :
+Dependendo do seu perfil e utilização, o Fedora oferece edições que se adaptam às suas necessidades. Encontrará principalmente:
 
 
 
@@ -205,7 +205,7 @@ O primeiro passo é selecionar o **idioma de instalação** e o **esquema do tec
 
 
 
-- Selecionar o disco de instalação :
+- Selecionar o disco de instalação:
 
 
 
@@ -223,7 +223,7 @@ Se o disco estiver vazio, o Fedora utilizará automaticamente todo o espaço dis
 
 
 
-- Encriptação :
+- Encriptação:
 
 
 
@@ -415,7 +415,7 @@ Poderá ser necessário **reiniciar** depois de as actualizações terem sido in
 
 
 
-- Abra um terminal e comece por atualizar os **repositórios** para se certificar de que tem as versões mais recentes do :
+- Abra um terminal e comece por atualizar os **repositórios** para se certificar de que tem as versões mais recentes do:
 
 
 

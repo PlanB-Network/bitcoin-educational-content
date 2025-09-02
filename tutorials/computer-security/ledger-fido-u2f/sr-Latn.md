@@ -162,7 +162,7 @@ Preporučujem da ovaj kod čuvate na drugom mestu od mesta gde čuvate svoju gla
 
 
 
-Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Ledger za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi, specifičan za nalog, koristeći hitne kodove. Međutim, važno je **ne pomešati Mnemonic ulogu sa ulogom hitnog koda** :
+Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Ledger za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi, specifičan za nalog, koristeći hitne kodove. Međutim, važno je **ne pomešati Mnemonic ulogu sa ulogom hitnog koda**:
 
 
 

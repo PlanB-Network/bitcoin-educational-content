@@ -1,0 +1,9 @@
+question: Ni iyihe RGB Contract Operation irema Leta nshasha itapfutse Seal?
+answer: State Extension.
+wrong_answers:
+  - State Transition.
+  - Genesis
+  - Valency Gukora
+explanation: |
+  State Extension ishobora kugufasha gushinga Leta nshasha canke uburenganzira bushasha (Valencias), ata Seal ihita ifunga.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni igiki gifise intumbero y’uburyo bwo kugenzura Coin muri porogarama ya Bitcoin Wallet?
+answer: Kugira ngo uhitemwo UTXOs zo gukoresha nk’ibikoresho vyo gukoresha mu bikorwa.
+wrong_answers:
+  - Gushiramwo UTXOs kugira ngo umutekano wa Wallet urushirizeho.
+  - Kumenya no guhagarika UTXOs zivuye mu bibanza biteye amakenga.
+  - Kugira ngo ushire ikimenyetso kuri UTXO yose muri Wallet.
+explanation: |
+  Coin control ni ikintu kiboneka muri porogaramu nziza ya Bitcoin Wallet, kiguha ubushobozi bwo guhitamwo n’amaboko UTXO zihariye zo gukoresha nk’inyungu igihe ukora igikorwa.
+  
+reviewed: false

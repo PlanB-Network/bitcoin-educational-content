@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’umurongo w’amabwirizwa gifata uruja n’uruza rw’urubuga kugira ngo gisesangurwe mu gihe nyaco?
+answer: tcpdump
+wrong_answers:
+  - kwimba
+  - ikarita
+  - igikoresho
+explanation: |
+  tcpdump ifata kandi ikandika amapakete agendagenda ku rubuga Interface kugira ngo asesengurwe.
+reviewed: false

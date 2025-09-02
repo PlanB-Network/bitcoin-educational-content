@@ -162,7 +162,7 @@ Installation differs depending on your OS:
 
 ### On Linux
 
-LibreWolf offers builds for many distributions. On Debian/Ubuntu and derivatives, an official APT repository is available. Alternatively, LibreWolf is published in Flatpak on Flathub :
+LibreWolf offers builds for many distributions. On Debian/Ubuntu and derivatives, an official APT repository is available. Alternatively, LibreWolf is published in Flatpak on Flathub:
 
 ```
 flatpak install flathub io.gitlab.librewolf-community
@@ -171,11 +171,11 @@ flatpak install flathub io.gitlab.librewolf-community
 
 ### On Windows
 
-Download the installer (.exe) from the official website or use the :
+Download the installer (.exe) from the official website or use the:
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 ### On macOS
@@ -201,7 +201,7 @@ LibreWolf automatically loads your pages in "strict" (anti-tracking) mode, and t
 ### Privacy settings
 
 
-LibreWolf is already optimally configured for privacy. In Menu → Options → Privacy & Security, you'll see that LibreWolf is set to Enhanced Tracking Protection mode: Strict. This mode blocks :
+LibreWolf is already optimally configured for privacy. In Menu → Options → Privacy & Security, you'll see that LibreWolf is set to Enhanced Tracking Protection mode: Strict. This mode blocks:
 
 
 - Inter-site trackers

@@ -460,7 +460,7 @@ Pokud se stavěním začínáte, začněte s tímto [MakerBits prezentace](https
 - Přidáním lightning:lnurl1234xyz se vytvoří QR, který při skenování požádá o otevření peněženky uživatele pro tuto fakturu (poslední nainstalovaná aplikace lightning v systému iOS, nastavení v systému Android)
 - Pokud flashujete esp32 přes web, bude fungovat pouze s těmito prohlížeči (TL:DR Chrome, Edge a Opera).
 - Vezměte prosím na vědomí tento odkaz PIN-OUT pro esp
-- Pokud používáte FOSSoftware nebo FOSGuides, vždy uveďte odkaz na autora. Každý rád sleduje, jak jeho dítě roste, a také to iniciuje řetězec budování, který je docela úžasné sledovat :)
+- Pokud používáte FOSSoftware nebo FOSGuides, vždy uveďte odkaz na autora. Každý rád sleduje, jak jeho dítě roste, a také to iniciuje řetězec budování, který je docela úžasné sledovat:)
 
 Pokud potřebujete pomoc s projektem, přijďte do skupiny [Makerbits Telegram Group](https://t.me/makerbits) - máme pro vás pomoc!
 

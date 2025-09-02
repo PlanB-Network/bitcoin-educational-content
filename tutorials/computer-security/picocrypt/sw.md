@@ -74,11 +74,11 @@ Programu ya usimbaji ya Picocrypt** inajiwasilisha kama **mbadala** kwa suluhu z
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Chanzo : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Chanzo: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt ni **nyepesi sana**, ina uzito wa **MB*3 tu, na haihitaji kusakinishwa: ni **programu inayobebeka** yenye manufaa ya kutohitaji haki za msimamizi! Walakini, haipuuzi usalama, kwani inategemea **algorithms thabiti na ya kuaminika** :
+Picocrypt ni **nyepesi sana**, ina uzito wa **MB*3 tu, na haihitaji kusakinishwa: ni **programu inayobebeka** yenye manufaa ya kutohitaji haki za msimamizi! Walakini, haipuuzi usalama, kwani inategemea **algorithms thabiti na ya kuaminika**:
 
 
 

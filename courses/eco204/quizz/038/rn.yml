@@ -1,0 +1,11 @@
+question: Ni irihe jambo ry’ishirahamwe rikomeza gukora ahanini biciye ku ngurane z’amahera make, naho nyene ryari ririko rirabura canke riri hafi gusenyuka mu gihe isoko risanzwe rimeze?
+answer: Ishirahamwe ry'abapfuye
+wrong_answers:
+  - Ishirahamwe ry'impwemu
+  - Ishirahamwe ry'aba Vampire
+  - Ishirahamwe ry'ibinyoma
+explanation: |
+  Ishirahamwe ry’abazombi ni ishirahamwe, mu bihe bisanzwe vy’isoko, ryoba
+  kuba umuntu ashobora guhomba canke ari hafi y’uguhomba, ariko akabandanya akora canecane biciye ku giciro gitoyi .
+  kugurana.
+reviewed: false

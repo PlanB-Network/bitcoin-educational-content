@@ -1,0 +1,9 @@
+question: Nk’uko Constant abivuga, ni ibihe bintu ububasha bwa politike butagira ico bukozeko?
+answer: Ivyo vyose twavuze haruguru (idini, ubuhinga, inganda).
+wrong_answers:
+  - Idini
+  - Siyansi
+  - Ishami
+explanation: |
+  Constant abona ko ububasha bwa politike butakwiye kwivanga mu bintu nk’idini, ubuhinga n’inganda, kugira ngo umuntu azigame umwidegemvyo w’umuntu ku giti ciwe n’ukwigenga kw’ibikorwa vya muntu bigwa mu rwego rw’abantu ku giti cabo.
+reviewed: true

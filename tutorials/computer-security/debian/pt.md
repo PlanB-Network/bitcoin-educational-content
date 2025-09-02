@@ -128,7 +128,7 @@ A sua chave USB está agora pronta para começar a instalar Debian.
 
 
 
-Para iniciar a instalação a partir da sua chave USB :
+Para iniciar a instalação a partir da sua chave USB:
 
 
 
@@ -144,7 +144,7 @@ Para iniciar a instalação a partir da sua chave USB :
 
 
 
-Ecrã inicial :
+Ecrã inicial:
 
 
 
@@ -334,7 +334,7 @@ Introduza a sua palavra-passe quando lhe for pedido (note que não serão aprese
 
 
 
-- Para instalar as actualizações disponíveis :
+- Para instalar as actualizações disponíveis:
 
 
 
@@ -380,7 +380,7 @@ Existem duas formas de instalar aplicações em Debian:
 
 
 
-### Método gráfico :
+### Método gráfico:
 
 
 
@@ -388,7 +388,7 @@ Pode utilizar o **gestor de software** (acessível através do Interface gráfic
 
 
 
-### Método da linha de comando :
+### Método da linha de comando:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Substitua `<nome>` pelo nome do pacote. Por exemplo, para instalar `curl` :
+Substitua `<nome>` pelo nome do pacote. Por exemplo, para instalar `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Instalar um pacote descarregado manualmente :
+### Instalar um pacote descarregado manualmente:
 
 
 
@@ -439,7 +439,7 @@ Também é possível mudar o seu ambiente de trabalho (e.g. para XFCE, KDE, etc.
 
 
 
-Para aprender mais sobre Debian, e mais geralmente sobre distribuições GNU/Linux, eu recomendo que você consulte este curso :
+Para aprender mais sobre Debian, e mais geralmente sobre distribuições GNU/Linux, eu recomendo que você consulte este curso:
 
 
 

@@ -249,30 +249,30 @@ proofreading:
 
 Berikut adalah bidang yang wajib diisi:
 
-- **id** : Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
+- **id**: Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- **project_id** : UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
 
-- **tags** : 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Tingkat kesulitan tutorial, dipilih dari:
+- **level**: Tingkat kesulitan tutorial, dipilih dari:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
+- **original_language**: Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
 
-- **proofreading** : Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
-    - **language** : Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
-    - **last_contribution_date** : Tanggal hari ini.
-    - **urgency** : 1
-    - **contributor_names** : ID GitHub Anda.
-    - **reward** : 0
+- **proofreading**: Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
+    - **language**: Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
+    - **last_contribution_date**: Tanggal hari ini.
+    - **urgency**: 1
+    - **contributor_names**: ID GitHub Anda.
+    - **reward**: 0
 
 Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
 

@@ -218,7 +218,7 @@ Kun tämä on tehty, jos jokin laite on kytketty päälle aiemmin, ne ovat säil
 
 
 
-Windows-työasemilla komentorivillä :
+Windows-työasemilla komentorivillä:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Linux-työasemalla :
+Linux-työasemalla:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-DNS-kentässä pitäisi olla Pi-Aukon Address, minun tapauksessani 192.168.1.42 :
+DNS-kentässä pitäisi olla Pi-Aukon Address, minun tapauksessani 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ DNS-kentässä pitäisi olla Pi-Aukon Address, minun tapauksessani 192.168.1.42 
 
 
 
-Hallinnan helpottamiseksi **Pi-Hole** hyötyy hyvin suunnitellusta Interface-verkkopalvelusta Interface. Käyttäjäystävällinen ja helppokäyttöinen, sen avulla voit :
+Hallinnan helpottamiseksi **Pi-Hole** hyötyy hyvin suunnitellusta Interface-verkkopalvelusta Interface. Käyttäjäystävällinen ja helppokäyttöinen, sen avulla voit:
 
 
 
@@ -322,7 +322,7 @@ Luettelon lisääminen Pi-Holessa
 
 
 
-Sinun tarvitsee vain klikata "**Lisää**" lisätäksesi sen. Sen aktivoimiseksi meidän on suoritettava lisävaihe "varoittaaksemme" Pi-Holea ottamaan tämän luettelon haltuunsa. Voit tehdä tämän :
+Sinun tarvitsee vain klikata "**Lisää**" lisätäksesi sen. Sen aktivoimiseksi meidän on suoritettava lisävaihe "varoittaaksemme" Pi-Holea ottamaan tämän luettelon haltuunsa. Voit tehdä tämän:
 
 
 

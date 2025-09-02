@@ -74,11 +74,11 @@ PicoCrypt je zcela **zdarma a s otevřeným zdrojovým kódem** a je k dispozici
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Zdroj : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Zdroj: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt je **velmi lehký**, váží pouhé **3 MB** a nemusí se instalovat: je to **přenosná aplikace**, jejíž výhodou je, že nevyžaduje práva správce! Nezanedbává však bezpečnost, protože se spoléhá na **odolné a spolehlivé algoritmy** :
+Picocrypt je **velmi lehký**, váží pouhé **3 MB** a nemusí se instalovat: je to **přenosná aplikace**, jejíž výhodou je, že nevyžaduje práva správce! Nezanedbává však bezpečnost, protože se spoléhá na **odolné a spolehlivé algoritmy**:
 
 
 

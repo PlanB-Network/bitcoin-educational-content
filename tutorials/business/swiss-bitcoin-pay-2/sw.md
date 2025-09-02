@@ -123,7 +123,7 @@ Kisha utahitaji kulipa sati 1 ili uthibitishe Umeme wako wa Address. Kwa upande 
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante! :)![SWISS Bitcoin PAY](mali/notext/12.webp)
+Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante!:)![SWISS Bitcoin PAY](mali/notext/12.webp)
 
 Mara tu habari yote imejazwa, bofya kitufe cha "*Tuma*".
 

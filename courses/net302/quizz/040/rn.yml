@@ -1,0 +1,9 @@
+question: Ni iyihe nyandiko itegekanijwe muri dosiye yose y’akarere ka DNS?
+answer: SOA (Intango y'ubukuru)
+wrong_answers:
+  - PTR (Ikimenyetso)
+  - AAAA (IPv6 Address)
+  - SRV (Ikigo c'Ibikorwa)
+explanation: |
+  Inyandiko ya SOA isobanura ububasha bw'akarere kandi irakenewe muri dosiye yose y'akarere ka DNS.
+reviewed: false

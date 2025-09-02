@@ -1406,6 +1406,8 @@ Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une 
 
 Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. SegWit a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
 
+095
+
 Cette étape _**headers-first**_ permet au nœud d’identifier la branche cumulant le plus de travail (indépendamment de son nombre de blocs), qui est la branche sur laquelle les nœuds Bitcoin se synchronisent. Une fois cette branche repérée, le nœud télécharge le contenu des blocs en parallèle depuis plusieurs connexions, puis valide chaque transaction : format, validité des scripts (sauf `assumevalid=1`), montants et absence de double dépense. À chaque vérification réussie, l’état courant des pièces non dépensées (UTXO set) est mis à jour dans la base de données `chainstate/` : les sorties dépensées sont retirées, tandis que les nouvelles sorties valides sont ajoutées.
 
 La mempool, quant à elle, n’intervient qu’à l’approche de la pointe de la chaîne : tant que le nœud reste en retard, il n’a aucune transaction en attente à stocker.
@@ -1432,6 +1434,8 @@ Le nœud devient ainsi rapidement opérationnel pour des usages courants (RPC, c
 
 Lors de son premier démarrage, un nœud ne connaît encore aucun pair. Pourtant, il doit impérativement trouver d’autres nœuds Bitcoin sur internet pour leur demander les en-têtes, puis les blocs, et ainsi réaliser son IBD. Pour amorcer ces connexions, Bitcoin Core suit une logique avec un ordre de priorité.
 
+096
+
 Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par consulter son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ce fichier est vide, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
 
 Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs maintenus par des développeurs reconnus de l’écosystème](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp), qui renvoient une liste d’adresses IP de nœuds présumés actifs. Ces adresses permettent au nouveau nœud d’initier ses premières connexions et de réclamer les données nécessaires à l’IBD. Voici la liste des *DNS seeds* actifs à ce jour (août 2025) :
@@ -1446,6 +1450,8 @@ Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs
 - Ava Chow : `seed.mainnet.achownodes.xyz.`
 
 Dans la grande majorité des cas, l’étape des *DNS seeds* suffit à établir les premières connexions avec d’autres nœuds. Si, exceptionnellement, ces serveurs ne répondent pas dans un délai de 60 secondes, le nœud passe à une autre méthode : [une liste statique de plus de 1 000 adresses](https://github.com/bitcoin/bitcoin/blob/master/src/chainparamsseeds.h) de _seed nodes_ est intégrée au code de Bitcoin Core et régulièrement mise à jour. Si les deux premières méthodes pour obtenir des adresses IP échouent, cette dernière solution permet d'établir une première connexion, à partir de laquelle le nœud pourra ensuite demander de nouvelles adresses IP.
+
+097
 
 En ultime recours, il est possible de fournir manuellement des adresses IP via le fichier `peers.dat` afin de forcer des connexions spécifiques.
 
@@ -1468,6 +1474,8 @@ Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localeme
 
 Par défaut, Bitcoin Core enregistre ses données dans un répertoire de travail spécifique. Sous GNU/Linux, il se trouve généralement dans `~/.bitcoin/`, sous Windows dans `%APPDATA%\Bitcoin\`, et sous macOS dans `~/Library/Application Support/Bitcoin/`. Si vous utilisez une solution packagée (par exemple au sein d’une distribution de nœud), ce répertoire peut être monté ailleurs mais sa structure reste la même. Les sous-dossiers et fichiers importants décrits ci-dessous s’y trouvent toujours.
 
+098
+
 ### Les blocs
 
 La blockchain est donc un ensemble de blocs. Un nœud complet conserve ces blocs sous forme de fichiers plats séquentiels et maintient en parallèle un index pour les retrouver rapidement. En cas de besoin (réorganisation, rescan de portefeuille, service aux pairs), ces données sont relues telles quelles.
@@ -1478,15 +1486,21 @@ La blockchain est donc un ensemble de blocs. Un nœud complet conserve ces blocs
 
 Les blocs reçus et validés sont écrits dans des conteneurs séquentiels nommés `blkNNNNN.dat`, stockés dans le dossier `blocks/`. Chaque fichier est rempli à la suite jusqu’à atteindre une taille maximale d’environ 128 Mio, puis Core ouvre le fichier suivant. À l’intérieur, chaque bloc est sérialisé en format réseau, précédé d’un identifiant magique et d’une longueur. Cette organisation permet une écriture rapide sur disque et facilite le service de blocs aux pairs qui se synchronisent.
 
+099
+
 En mode élagué, le nœud conserve uniquement une fenêtre récente de ces fichiers pour limiter l’empreinte disque. Il supprime les plus anciens conteneurs `blk*.dat` dès que l’objectif d’espace configuré est atteint, tout en conservant suffisamment d’historique pour rester cohérent avec la meilleure chaîne connue. L’index et l’UTXO set restent normaux, ce qui permet la validation des prochaines transactions et des prochains blocs.
 
 #### Fichiers rev*.dat (données d’annulation)
 
 Pour pouvoir revenir en arrière lors d’une réorganisation, Core enregistre, parallèlement à chaque fichier `blk`, un fichier `revNNNNN.dat` dans `blocks/`. Ce fichier contient les informations nécessaires pour défaire l’effet d’un bloc sur l’UTXO set : pour chaque sortie consommée par le bloc, on stocke l’état antérieur de l’UTXO correspondant (montant, script, hauteur...). En cas d’abandon de blocs, le nœud peut ainsi reconstituer l’état précédent rapidement sans rescanner toute la chaîne.
 
+100
+
 #### Index des blocs (blocks/index)
 
 Rechercher un bloc directement dans les fichiers plats serait trop long. Core maintient donc une base de données LevelDB dans `blocks/index/` qui répertorie, pour chaque bloc connu, des métadonnées comme le hash, la hauteur, le statut de validation, le fichier `blk` et l’offset où il se trouve. Lorsqu’un pair demande un bloc, ou lorsqu’un composant interne doit accéder à un bloc précis, cet index permet un accès rapide. Sans cet index, cela demanderai bien trop d'opérations.
+
+101
 
 #### Index facultatifs (indexes/)
 
@@ -1496,15 +1510,27 @@ Certains index sont optionnels et désactivés par défaut, car ils augmentent l
 
 ### L’UTXO set (chainstate)
 
-Le modèle UTXO (*Unspent Transaction Output*) est la représentation comptable de Bitcoin : chaque sortie non dépensée est une "pièce" disponible qui pourra servir d’entrée à une future transaction. L’ensemble de toutes ces pièces à un instant T constitue l’UTXO set : une grosse liste de toutes les pièces disponibles maintenant. C’est cet état que le nœud consulte pour décider si une transaction dépense des unités légitimes et non déjà utilisées dans une transaction antérieure (pour éviter la double dépense).
+Le modèle UTXO (*Unspent Transaction Output*) est la représentation comptable de Bitcoin : chaque sortie non dépensée est une "pièce" disponible qui pourra servir d’entrée à une future transaction. 
+
+102
+
+L’ensemble de toutes ces pièces à un instant T constitue l’UTXO set : une grosse liste de toutes les pièces disponibles maintenant. C’est cet état que le nœud consulte pour décider si une transaction dépense des unités légitimes et non déjà utilisées dans une transaction antérieure (pour éviter la double dépense).
+
+103
 
 L’UTXO set est conservé dans le dossier `chainstate/` sous la forme d’une base LevelDB compacte. Chaque pièce associe une clé dérivée du hash de la transaction et de l’index de sortie, à une valeur contenant : le montant, le `scriptPubKey` de verrouillage, la hauteur du bloc de création et un indicateur coinbase.
+
+104
 
 Le nœud maintient un cache mémoire au-dessus de LevelDB afin d’absorber les lectures/écritures fréquentes. Le paramètre `dbcache` permet de modifier la taille de ce cache : plus il est grand, plus l’IBD et la validation courante bénéficient d’accès mémoire, au prix d’une consommation RAM plus grande. Lorsqu'un nouveau bloc est trouvé par un mineur, le nœud supprime de l'UTXO set les sorties dépensées (consommées) par les transactions incluses dans le bloc et ajoute les sorties nouvellement créées.
 
 Théoriquement, on pourrait valider une transaction en rescannant l’historique des blocs pour vérifier qu’une sortie n’a jamais été dépensée. Mais en pratique, ce serait beaucoup trop long, car il faudrait scanner toute la blockchain à chaque nouvelle transaction. L’UTXO set fournit ainsi la vue minimale suffisante pour prouver localement, et en temps raisonnable, l’absence de double dépense.
 
-Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du réseau : plus il y a d’utilisateurs, plus la demande en UTXOs est importante. La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
+Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du réseau : plus il y a d’utilisateurs, plus la demande en UTXOs est importante.
+
+105
+
+La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -1639,7 +1665,12 @@ Comprendre cette séparation est très important : si une transaction ne respe
 
 Tout d’abord, il est essentiel de distinguer clairement les 2 types de connexions qu’un nœud Bitcoin peut avoir :
 - Les connexions sortantes, qui sont initiées par notre nœud vers un autre nœud ;
+
+106
+
 - Les connexions entrantes, qui sont initiées par un autre nœud vers le nôtre.
+
+107
 
 Ces deux types de connexions peuvent tout à fait échanger les mêmes données dans les deux sens ; il ne s’agit pas d’une limitation du sens du flux, mais uniquement d’une différence dans l’initiateur de la connexion. Du point de vue de notre nœud, les connexions sortantes sont généralement considérées comme plus sûres, car c’est nous qui en prenons l’initiative et choisissons précisément à quel nœud nous connecter, ce qui rend peu probable que cette connexion soit malveillante. Par défaut, Bitcoin Core maintient 10 connexions sortantes (8 "full-relay" + 2 "block-relay-only").
 

@@ -1,5 +1,5 @@
 ---
-name: ColdCard Q - Key Teleport
+name: COLDCARD Q - Key Teleport
 description: Qu'est-ce que la fonctionnalité Key Teleport et comment l'utiliser ?
 ---
 
@@ -11,18 +11,18 @@ description: Qu'est-ce que la fonctionnalité Key Teleport et comment l'utiliser
 
 ![video](https://www.youtube.com/watch?v=BRpBiK-F8VU)
 
-Qu'est ce que la fonctionnalité **Key Teleport** proposée par Coinkite grâce à son appareil flagship ColdCardQ ?
+Qu'est-ce que la fonctionnalité **Key Teleport** proposée par Coinkite grâce à son appareil flagship ColdCardQ ?
 
-**Key Telepor**t permet de transférer de manière sécurisée des données confidentielles entre 2 ColdCardQ. Le canal de transmission n'a même pas besoin d'être chiffré et peut être public.
+**Key Teleport** permet de transférer de manière sécurisée des données confidentielles entre 2 ColdCardQ. Le canal de transmission n'a même pas besoin d'être chiffré et peut être public.
 
 Cela peut servir à transférer:
 
 - **des seed phrases** (la master seed du ColdCard Q ou les secrets stockés dans le [Seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault) du ColdCardQ).
-- **des notes confidentielles et des mots de passe**: ça peut-être un secret quelconque ou l'entièreté du répertoire  [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) de votre ColdCardQ.
+- **des notes confidentielles et des mots de passe**: ça peut être un secret quelconque ou l'entièreté du répertoire  [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) de votre ColdCardQ.
 - **un backup de l'entièreté de votre ColdCardQ**: le ColdCardQ qui reçoit ce backup ne doit pas avoir de Master Seed pour que cela fonctionne.
-- **des PSBT ( Partially Signed Bitcoin Transactions dans le cadre d'un schéma multi signature**).
+- **des PSBT (*Partially Signed Bitcoin Transactions*) dans le cadre d'un schéma multi signature**.
 
-Cela nécessite d'avoir upgradé le [firmware de votre appareil en version v1.3.2Q]((https://coldcard.com/docs/upgrade/) minimum.
+Cela nécessite d'avoir upgradé le [firmware de votre appareil en version v1.3.2Q](https://coldcard.com/docs/upgrade/) minimum.
 
 ## Comment utiliser Key Teleport ?
 
@@ -33,7 +33,7 @@ Ici on s'intéressera au transfert de seed phrases, de notes, de mots de passe, 
 #### Préparer l'appareil qui recevra les secrets
 
 Dans le menu **"Advanced / Tools**" de votre ColdCardQ, sélectionnez **"Key Teleport (start)"**.
-Sur l'écran suivant, un mot de passe composés de 8 chiffres vous est proposé ici "20420219". il vous faudra communiquer ce mot de passe à l'envoyeur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
+Sur l'écran suivant, un mot de passe composé de 8 chiffres vous est proposé ici "20420219". il vous faudra communiquer ce mot de passe à l'émetteur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
 
 Ensuite cliquez sur le bouton **"Enter**" de votre ColdCardQ pour passer à l'étape suivante.
 
@@ -41,12 +41,15 @@ Ensuite cliquez sur le bouton **"Enter**" de votre ColdCardQ pour passer à l'é
 ![CCQ-key-teleport](assets/fr/01.webp)
 
 
-Un QR code est généré à l'écran. Vous devrez là encore communiquez ce QR code au ColdCardQ "envoyeur". Le plus simple est de le faire via un appel visio. **ATTENTION ! IL NE FAUT SURTOUT PAS COMMUNIQUER CE QR CODE A TRAVERS LE MÊME CANAL DE TRANSMISSION QUI A SERVIT A L'ENVOI DU MOT DE PASSE DE 8 CHIFFRES PRECEDENT**.
+Un QR code est généré à l'écran. Vous devrez, là encore, communiquer ce QR code au ColdCardQ "envoyeur". Le plus simple est de le faire via un appel visio.
+
+**ATTENTION ! IL NE FAUT SURTOUT PAS COMMUNIQUER CE QR CODE A TRAVERS LE MÊME CANAL DE TRANSMISSION QUI A SERVI A L'ENVOI DU MOT DE PASSE DE 8 CHIFFRES PRECEDENT**.
 
 ![CCQ-key-teleport](assets/fr/02.webp)
 
-*Pour ceux que ça intéresse, essayons de comprendre le mécanisme sous-jacent permettant ce transfert de secrets à travers des canaux non sécurisés.
-Nous sommes en fait là entrain d'initier un transfert de secrets via la méthode Diffie-Hellmann, abordée dans le cours BTC204 que je vous mets en dessous.
+*Pour ceux que ça intéresse, essayons de comprendre le mécanisme sous-jacent permettant ce transfert de secrets à travers des canaux non sécurisés.*
+
+*Nous sommes en fait là en train d'initier un transfert de secrets via la méthode Diffie-Hellman, abordée dans le cours BTC204 que je vous mets en dessous.*
 
 [Plan ₿ Network - La confidentialité sur Bitcoin - BIP47 et codes de paiements réutilisables](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bip47-et-codes-de-paiements-reutilisables-ad88e076-a04b-4aec-b3b2-7b4760175504)*
 
@@ -57,7 +60,7 @@ Nous sommes en fait là entrain d'initier un transfert de secrets via la méthod
 
 #### Préparer l'appareil qui enverra les secrets
 
-Depuis l'appareil envoyeur, cliquer sur le bouton **"QR"** pour scanner le QR code qui vous est transmis par l'appareil receveur, puis entrez le mot de passe à 8 chiffres qui vous a été communiqué à l'étape précédente par un canal séparé. Nous sommes désormais en mesure de commencer l'envoi des données à partir de l'appareil "envoyeur".
+Depuis l'appareil envoyeur, cliquez sur le bouton **"QR"** pour scanner le QR code qui vous est transmis par l'appareil receveur, puis entrez le mot de passe à 8 chiffres qui vous a été communiqué à l'étape précédente par un canal séparé. Nous sommes désormais en mesure de commencer l'envoi des données à partir de l'appareil "envoyeur".
 
 **Attention ne vous trompez pas en entrant le mot de passe à 8 chiffres car aucun message d'erreur ne sera affiché et le processus continuera. Cependant le transfert final des données échouera et il vous faudra recommencer**.
 
@@ -67,7 +70,7 @@ Depuis l'appareil envoyeur, cliquer sur le bouton **"QR"** pour scanner le QR co
 - *nous avons importé les données chiffrées en scannant le QR code de l'appareil receveur*.
 - *puis nous les avons déchiffrées en utilisant le mot de passe à 8 chiffres qui nous avait été transmis par un canal secondaire*.
 - *nous sommes donc en possession de la clé publique (Ka) générée par le receveur initialement.*
-- *Nous générons ensuite sur l'appareil envoyeur une nouvelle paire de clé éphémère (Kb/kb, avec  là encore Kb=G.kb) que nous utilisons pour appliquer ECDH sur Ka. On réalise donc l'opération kb.Ka=Ks , où Ks est appelée **"Session Key"**.* 
+- *Nous générons ensuite sur l'appareil envoyeur une nouvelle paire de clés éphémères (Kb/kb, avec  là encore Kb=G.kb) que nous utilisons pour appliquer ECDH sur Ka. On réalise donc l'opération kb.Ka=Ks , où Ks est appelée **"Session Key"**.* 
 
 
 Il vous est maintenant demandé de choisir la nature des secrets à transmettre entre les 2 ColdCardQ (notes confidentielles, mot de passe, backup complet, seeds contenues dans votre vault, master seed de l'appareil). 
@@ -116,7 +119,7 @@ Petit rappel sur ce qu'est un wallet multi signatures (multisig).
 Habituellement pour dépenser les fonds de votre wallet, une seule clé privée est nécessaire pour déverrouiller les UTXOs associés à vos adresses.
 Dans le cas d'un wallet multisig, jusqu'à 15 clés privées et donc 15 signatures peuvent être nécessaires pour dépenser les fonds. C'est ce qu'on appelle un portefeuille "M sur N", avec N compris entre 1 et 15 et M le nombre de signatures nécessaires pour que les fonds soient dépensables. Par exemple un wallet multisig 3 sur 5, nécessitera au moins 3 signatures sur les 5 possibles.
 
-L'enjeu est alors de se coordonner entre signataires pour signer une "PSBT" pour "Partially Signed Bitcoin Transaction" tour à tour. Dans ce cadre, "**Key Teleport**" peut-être utilisé pour se transmettre la PSBT entre cosignataires de manière simple et confidentielle. Un simple appel visio entre cosignataires fera l'affaire.
+L'enjeu est alors de se coordonner entre signataires pour signer une "PSBT" pour "Partially Signed Bitcoin Transaction" tour à tour. Dans ce cadre, "**Key Teleport**" peut être utilisé pour se transmettre la PSBT entre cosignataires de manière simple et confidentielle. Un simple appel visio entre cosignataires fera l'affaire.
 
 Voilà comment procéder ici dans le cadre d'un multisig 3 sur 4.
 
@@ -129,7 +132,7 @@ Le signataire 1 importe puis signe la PSBT. Enfin il clique sur **"T"** afin d'u
 
 Après avoir sélectionné le signataire 2 en cliquant sur **"ENTER"**, un "TELEPORT PASSWORD" (ici JJ YC AB 6A) est fourni, qu'il faudra transmettre au signataire 2 par un autre canal de communication. Par exemple un SMS ou un appel vocal mais **pas** en visio.
 
-Pressez à nouveau **"ENTER"** et un QR code représentant la PSBT signée par 1 puis chiffrée part le "TELEPORT PASSWORD" apparait.
+Pressez à nouveau **"ENTER"** et un QR code représentant la PSBT signée par 1 puis chiffrée par le "TELEPORT PASSWORD" apparait.
 
 ![CCQ-key-teleport](assets/fr/10.webp)
 
@@ -155,7 +158,7 @@ Le signataire 3 signe la transaction et cette fois puisque 3 signatures sur 4 on
 
 ![CCQ-key-teleport](assets/fr/13.webp)
 
-Si la fonctionnalité "Push Tx" de votre ColdCardQ est activée, il vous suffit d'apposer votre ColdCardQ au dos de n'importe quel appareil connecté à internet et supportant le NFC (smartphone / tablette), pour diffuser la transaction sur le réseau Bitcoin.
+Si la fonctionnalité "Push Tx" de votre ColdCardQ est activée, il vous suffit d'apposer votre ColdCardQ au dos de n'importe quel appareil connecté à Internet et supportant le NFC (smartphone / tablette), pour diffuser la transaction sur le réseau Bitcoin.
 
 ![CCQ-key-teleport](assets/fr/14.webp)
 
@@ -163,4 +166,4 @@ Si la fonctionnalité "Push Tx" de votre ColdCardQ est activée, il vous suffit 
 
 ![CCQ-key-teleport](assets/fr/15.webp)
 
-*Source : https://coldcard.com/*
+*Source : [Site officiel de ColdCard](https://coldcard.com/)*

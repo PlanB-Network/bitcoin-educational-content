@@ -51,7 +51,7 @@ Un QR code est généré à l'écran. Vous devrez, là encore, communiquer ce QR
 
 *Nous sommes en fait là en train d'initier un transfert de secrets via la méthode Diffie-Hellman, abordée dans le cours BTC204 que je vous mets en dessous.*
 
-[Plan ₿ Network - La confidentialité sur Bitcoin - BIP47 et codes de paiements réutilisables](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/bip47-et-codes-de-paiements-reutilisables-ad88e076-a04b-4aec-b3b2-7b4760175504)*
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Nous avons pour le moment:*
 - *généré une paire de clés éphémères (publique/privée respectivement Ka et ka avec Ka=G.ka, G étant le point générateur de ECDH), ainsi qu'un mot de passe à 8 chiffres*.
@@ -104,7 +104,7 @@ Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveu
 
 ![CCQ-key-teleport](assets/fr/08.webp)
 
-*Que s'est-il passé concrètement lors de cette dernière étape :
+*Que s'est-il passé concrètement lors de cette dernière étape :*
 - *nous avons déchiffré les données transmises par l'envoyeur en utilisant le **"Teleport Password"**.*
 - *nous sommes donc en possession de la clé publique Kb et de notre message secret chiffré par la **"Session Key"**,  "Ks". Mais comment faire puisqu'en tant que receveur on ne connait pas Ks, qui a été créée par l'envoyeur ?*
 - *Il nous faut appliquer notre clé privée "ka" de l'étape initiale **"Préparer l'appareil qui recevra les données"** à la clé publique Kb.* 
@@ -112,7 +112,7 @@ Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveu
 
 ### 2- Pour transférer des PSBT pour Multisig (avancé)
 
-Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure  de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici]([Multisig Features - COLDCARD Documentation](https://coldcard.com/docs/multisig/)) sur le site de Coinkite (en anglais).
+Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure  de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici](https://coldcard.com/docs/multisig/) sur le site de Coinkite (en anglais).
 
 Petit rappel sur ce qu'est un wallet multi signatures (multisig).
 

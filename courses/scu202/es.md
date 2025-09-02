@@ -1,5 +1,5 @@
 ---
-name: Mejorar su seguridad digital personal
+name: Mejorar tu seguridad digital personal
 goal: Establecer un entorno digital personal seguro, estable y eficiente.
 objectives: 
 
@@ -17,7 +17,7 @@ objectives:
 
 
 
-En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger su propio entorno informático es una necesidad. Ya sea su ordenador, navegador, teléfono o red doméstica, cada uno de estos elementos puede ser una potencial puerta de acceso a su información privada. Este curso le ayuda a recuperar el control de sus dispositivos digitales.
+En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger tu propio entorno informático es una necesidad. Ya sea tu ordenador, navegador, teléfono o red doméstica, cada uno de estos elementos puede ser una potencial puerta de acceso a tu información privada. Este curso le ayuda a recuperar el control de tus dispositivos digitales.
 
 
 
@@ -25,11 +25,11 @@ No se trata sólo de conocer las mejores prácticas: se trata de entender lo que
 
 
 
-A lo largo de los módulos del curso, descubrirá cómo verificar la integridad del software que instala, cifrar sus datos de forma eficaz, utilizar su navegador y su teléfono con una fuga de datos mínima y reforzar la seguridad de su red doméstica.
+A lo largo de los módulos del curso, descubrirá cómo verificar la integridad del software que instala, cifrar tus datos de forma eficaz, utilizar tu navegador y tu teléfono con una fuga de datos mínima y reforzar la seguridad de tu red doméstica.
 
 
 
-Este curso está dirigido a usuarios intermedios que quieran ir más allá en el dominio de sus herramientas digitales. Se basa en un enfoque práctico, centrado en la autonomía y la soberanía, para construir hábitos informáticos cotidianos más seguros y conscientes, siguiendo el lema "*No confíes, verifica*".
+Este curso está dirigido a usuarios intermedios que quieran ir más allá en el dominio de tus herramientas digitales. Se basa en un enfoque práctico, centrado en la autonomía y la soberanía, para construir hábitos informáticos cotidianos más seguros y conscientes, siguiendo el lema "*No confíes, verifica*".
 
 
 
@@ -49,7 +49,7 @@ Este curso está dirigido a usuarios intermedios que quieran ir más allá en el
 
 
 
-Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más lejos en su dominio de la seguridad informática haciendo hincapié en la soberanía individual, la protección de la vida privada y la gestión segura de sus datos personales. He aquí un resumen de lo que descubrirá a lo largo del curso SCU202.
+Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más lejos en tu dominio de la seguridad informática haciendo hincapié en la soberanía individual, la protección de la vida privada y la gestión segura de tus datos personales.Este es un resumen de lo que irás viendo a lo largo del curso SCU202.
 
 
 
@@ -57,7 +57,7 @@ Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más
 
 
 
-El curso comienza con un breve repaso de los conceptos tratados en SCU101, que le garantizará que está totalmente al día de los principios fundamentales necesarios para abordar correctamente lo que viene a continuación.
+El curso comienza con un breve repaso de los conceptos tratados en SCU101, que comprobará que está totalmente al día de los principios fundamentales necesarios para realizar correctamente lo que viene a continuación.
 
 
 
@@ -84,7 +84,7 @@ En esta sección, aprenderás a reforzar la seguridad de tu ordenador. Abordarem
 
 
 
-También aprenderá a verificar la integridad y autenticidad del software descargado para evitar infecciones o riesgos, así como a utilizar eficazmente el cifrado para proteger sus datos personales y copias de seguridad. Por último, descubrirá por qué y cómo limpiar los metadatos de sus archivos para proteger su privacidad en línea.
+También aprenderás a verificar la integridad y autenticidad del software descargado para evitar infecciones o riesgos, así como a utilizar eficazmente el cifrado para proteger tus datos personales y copias de seguridad. Por último, descubrirás por qué y cómo limpiar los metadatos de tus archivos para proteger tu privacidad en línea.
 
 
 

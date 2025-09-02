@@ -148,7 +148,7 @@ Jede Bitcoin-Transaktion besteht daher aus einem oder mehreren Inputs und einem 
 
 ![BTC204](assets/fr/011.webp)
 
-**Wussten Sie?** Theoretisch könnte eine Bitcoin-Transaktion eine unendliche Anzahl von Eingängen und Ausgängen haben. Die einzige Grenze ist die maximale Blockgröße.
+**Schon gewusst?** Theoretisch könnte eine Bitcoin-Transaktion eine unendliche Anzahl von Eingängen und Ausgängen haben. Die einzige Grenze ist die maximale Blockgröße.
 
 Jede Eingabe in einer Bitcoin-Transaktion bezieht sich auf einen zuvor nicht ausgegebenen UTXO. Um einen UTXO als Eingabe zu verwenden, muss sein Inhaber nachweisen, dass er der rechtmäßige Eigentümer ist, indem er das zugehörige Skript validiert, d. h. die auferlegte Ausgabebedingung erfüllt. Im Allgemeinen bedeutet dies, dass eine digitale Signatur vorgelegt werden muss, die mit dem privaten Schlüssel erstellt wurde, der dem öffentlichen Schlüssel entspricht, mit dem dieser UTXO ursprünglich gesichert wurde. Das Skript besteht also darin, zu überprüfen, ob die Unterschrift mit dem öffentlichen Schlüssel übereinstimmt, der beim Erhalt der Mittel verwendet wurde.
 
@@ -164,11 +164,11 @@ Der Vorgang einer Bitcoin-Transaktion auf UTXO kann daher mit dem Umgießen eine
 
 Dieser Mechanismus ist ähnlich wie bei einer Goldmünze. Nehmen wir an, Sie besitzen eine 2-Unzen-Münze und möchten eine Zahlung von 1 Unze leisten, vorausgesetzt, der Verkäufer kann Ihnen kein Wechselgeld geben. Sie müssten Ihre Münze einschmelzen und 2 neue Münzen zu je 1 Unze gießen.
 
-Bitcoin funktioniert auf ähnliche Weise. Stellen wir uns vor, Alice hat einen UTXO von 10.000 SATS und möchte ein Baguette kaufen, das 4.000 SATS kostet. Alice macht eine Transaktion mit einem UTXO von 10.000 SATS als Input, den sie vollständig verbraucht, und zwei UTXOs von 4.000 SATS und 6.000 SATS als Output. Der UTXO von `4.000 SATS` wird an den Bäcker als Bezahlung für das Baguette geschickt, während der UTXO von `6.000 SATS` in Form von Wechselgeld zu Alice zurückkehrt. Dieser UTXO, der zum ursprünglichen Emittenten der Transaktion zurückkehrt, wird im Bitcoin-Jargon als "Austausch" bezeichnet.
+Bitcoin funktioniert auf ähnliche Weise. Stellen wir uns vor, Alice hat einen UTXO von 10.000 SATS und möchte ein Baguette kaufen, das 4.000 SATS kostet. Alice macht eine Transaktion mit einem UTXO von 10.000 SATS als Input, den sie vollständig verbraucht, und zwei UTXOs von 4.000 SATS und 6.000 SATS als Output. Der UTXO von `4.000 SATS` wird an den Bäcker als Bezahlung für das Baguette geschickt, während der UTXO von `6.000 SATS` in Form von Wechselgeld zu Alice zurückkehrt. Dieser UTXO, der zum ursprünglichen Emittenten der Transaktion zurückkehrt, wird im Bitcoin-Jargon als "Exchange" (dt. Wechselgeld) bezeichnet.
 
 ![BTC204](assets/fr/013.webp)
 
-Stellen wir uns nun vor, dass Alice nicht über einen einzigen UTXO mit 10.000 SATS verfügt, sondern über zwei UTXOs mit je 3.000 SATS. In diesem Fall reicht keiner der beiden UTXOs aus, um die "4.000 SATS" des Zauberstabs einzustellen. Alice muss daher gleichzeitig die beiden UTXOs von 3.000 SATS als Input für ihre Transaktion verwenden. Auf diese Weise erreicht die Gesamtsumme der Inputs 6.000 SATS und ermöglicht es ihr, die Zahlung von 4.000 SATS an den Bäcker zu erfüllen. Diese Methode, bei der mehrere UTXOs als Vorleistungen für eine Transaktion zusammengefasst werden, wird oft als "Zusammenlegung" bezeichnet.
+Stellen wir uns nun vor, dass Alice nicht über einen einzigen UTXO mit 10.000 SATS verfügt, sondern über zwei UTXOs mit je 3.000 SATS. In diesem Fall reicht keiner der beiden UTXOs aus, um die "4.000 SATS" des Zauberstabs einzustellen. Alice muss daher gleichzeitig die beiden UTXOs von 3.000 SATS als Input für ihre Transaktion verwenden. Auf diese Weise erreicht die Gesamtsumme der Inputs 6.000 SATS und ermöglicht es ihr, die Zahlung von 4.000 SATS an den Bäcker zu erfüllen. Diese Methode, bei der mehrere UTXOs als Vorleistungen für eine Transaktion zusammengefasst werden, wird oft als "Merge" (dt. Zusammenlegung) bezeichnet.
 
 ![BTC204](assets/fr/014.webp)
 
@@ -177,29 +177,29 @@ Stellen wir uns nun vor, dass Alice nicht über einen einzigen UTXO mit 10.000 S
 Intuitiv könnte man meinen, dass die Transaktionskosten auch den Output einer Transaktion darstellen. In Wirklichkeit ist dies jedoch nicht der Fall. Die Transaktionskosten stellen die Differenz zwischen den gesamten Inputs und den gesamten Outputs dar. Das bedeutet, dass nach der Verwendung eines Teils des Wertes der Inputs zur Deckung der gewünschten Outputs in einer Transaktion eine bestimmte Summe der Inputs ungenutzt bleibt. Dieser Restbetrag stellt die Transaktionskosten dar.
 
 ```plaintext
-Frais = total inputs - total outputs
+Kosten = Summe der Eingaben (Inputs) – Summe der Ausgaben (Outputs)
 ```
 
 Nehmen wir das Beispiel von Alice, die einen UTXO von "10.000 SATS" hat und ein Baguette für "4.000 SATS" kaufen möchte. Alice erstellt eine Transaktion mit ihrem UTXO von `10.000 SATS` als Eingabe. Sie erzeugt dann eine Ausgabe von 4.000 SATS für den Bäcker, um das Baguette zu bezahlen. Um die Miner zu ermutigen, ihre Transaktion in einen Block zu integrieren, zahlt Alice 200 SATS an Gebühren. Dann erzeugt sie einen zweiten Output, den Austausch, der an sie zurückgegeben wird und sich auf 5.800 SATS beläuft.
 
 ![BTC204](assets/fr/015.webp)
 
-Wenn man die Gebührenformel anwendet, sieht man, dass tatsächlich 200 SATS für Minderjährige übrig sind:
+Wenn man die Gebührenformel anwendet, sieht man, dass tatsächlich 200 SATS übrig sind:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Kosten = Summe der Eingaben (Inputs) – Summe der Ausgaben (Outputs)
+Kosten = 10 000 - (4 000 + 5 800)
+Kosten = 10 000 - 9 800
+Kosten = 200
 ```
 
 Wenn es einem Miner gelingt, einen Block zu validieren, ist er berechtigt, diese Gebühren für alle in seinem Block enthaltenen Transaktionen über die so genannte "Coinbase"-Transaktion einzuziehen.
 
 ### UTXOs auf Bitcoin erstellen
 
-Wenn Sie die vorangegangenen Abschnitte aufmerksam verfolgt haben, wissen Sie jetzt, dass UTXOs nur durch den Verbrauch anderer UTXOs erzeugt werden können. Auf diese Weise bilden die Bitcoin-Münzen eine fortlaufende Kette. Vielleicht fragen Sie sich jedoch, wie die ersten UTXOs in dieser Kette zustande gekommen sind. Dies wirft ein Problem auf, das dem des Huhns und des Eies ähnelt: Woher kamen diese ursprünglichen UTXOs?
+Wenn Sie die vorangegangenen Abschnitte aufmerksam verfolgt haben, wissen Sie jetzt, dass UTXOs nur durch den Verbrauch anderer UTXOs erzeugt werden können. Auf diese Weise bilden die Bitcoin-Münzen eine fortlaufende Kette. Vielleicht fragen Sie sich jedoch, wie die ersten UTXOs in dieser Kette zustande gekommen sind. Dies wirft ein Problem auf, das dem des Huhns und des Eis ähnelt: Woher kamen diese ursprünglichen UTXOs?
 
-Die Antwort liegt in der **Transaktion coinbase**.
+Die Antwort liegt in der **Coinbase-Transaktion**.
 
 Die Coinbase ist eine spezielle Art von Bitcoin-Transaktion, die für jeden Block einzigartig ist und immer die erste ist. Sie ermöglicht es dem Miner, der einen gültigen Proof of Work gefunden hat, seine Blockbelohnung zu erhalten. Diese Belohnung setzt sich aus zwei Elementen zusammen: **Block Grant** und **Transaktionsgebühr**, die im vorherigen Abschnitt erläutert wurden.
 
@@ -211,7 +211,7 @@ Blocksubventionierte Bitcoins sind neue BTC, die nach einem in den Konsensregeln
 
 Die Transaktionsgebühren stellen zwar ebenfalls neu geschaffene BTC dar, dürfen aber die Differenz zwischen den gesamten Inputs und Outputs aller Transaktionen in einem Block nicht überschreiten. Wie wir bereits gesehen haben, stellen diese Gebühren den Teil der Inputs dar, der nicht für die Outputs der Transaktion verwendet wird. Dieser Anteil ist technisch gesehen während der Transaktion "verloren", und der Miner hat das Recht, diesen Wert in Form eines oder mehrerer neuer UTXOs wiederherzustellen. Dies ist ein Werttransfer zwischen dem Emittenten der Transaktion und dem Miner, der sie zur Blockchain hinzufügt.
 
-**Wussten Sie?** Bitcoins, die durch eine Coinbase-Transaktion erzeugt werden, unterliegen einer Laufzeit von 100 Blöcken, während der sie vom Miner nicht ausgegeben werden können. Mit dieser Regel sollen Komplikationen vermieden werden, die mit der Verwendung von neu erzeugten Bitcoins auf einer Kette verbunden sind, die später veraltet sein könnte.
+**Schon gewusst?** Bitcoins, die durch eine Coinbase-Transaktion erzeugt werden, unterliegen einer Laufzeit von 100 Blöcken, während der sie vom Miner nicht ausgegeben werden können. Mit dieser Regel sollen Komplikationen vermieden werden, die mit der Verwendung von neu erzeugten Bitcoins auf einer Kette verbunden sind, die später veraltet sein könnte.
 
 ### Die Auswirkungen des UTXO-Modells
 

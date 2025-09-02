@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’umurongo w’amabwirizwa gikenewe kugira ngo Linux ikureho amakuru yose y’imbere mu ishusho canke muri dosiye ya PDF?
+answer: igikoresho co hanze
+wrong_answers:
+  - agapapuro k'inyandiko
+  - nanoexif
+  - guhindura
+explanation: |
+  exiftool ni igikoresho gikomeye co kwerekana no gukuraho amakuru y’imbere mu madosiye atandukanye (amashusho, ama PDF, amajwi, n’ibindi).
+reviewed: false

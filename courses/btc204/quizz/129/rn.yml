@@ -1,0 +1,10 @@
+question: Ni ibihe bintu bibiri nyamukuru bitandukanye vy’amasezerano y’ubwenge akoreshwa mu guhindura amafaranga?
+answer: HTLC na PTLC
+wrong_answers:
+  - Umukono mwinshi n'umukono umwe
+  - Amasezerano y'ubwenge na DApps
+  - SegWit na Taproot.
+explanation: |
+  Kugira ngo umuntu akore igikorwa co guhindura amafaranga, arashobora gukoresha HTLCs (Amasezerano y’Igihe ca Hash) canke PTLCs (Amasezerano y’Igihe c’Ipointi).
+  
+reviewed: false

@@ -1,0 +1,13 @@
+question: Ni igiki gikenewe gukoresha Wallet igendagenda?
+answer: Kubika amahera y’umusi ku musi.
+wrong_answers:
+  - Kubika amahera y’igihe kirekire.
+  - Kubika amahera y’igihe giciye hagati.
+  - Kubika ibintu vyinshi.
+explanation: |
+  Wallet igendagenda iraremeshwa ku bijanye n’amahera akoreshwa ku musi ku musi kubera ko .
+  biroroshe gukorana na yo amasezerano. Ariko rero, ryo .
+  ntivyiza kubika ibintu vyinshi canke .
+  kuzigama igihe kirekire kubera ko bishobora gushikirwa n’ingorane
+  iterabwoba ryo kuri Internet.
+reviewed: true

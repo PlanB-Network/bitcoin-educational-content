@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bushobora gutuma umuntu ashobora gukoresha amafaranga yihuta kandi ataco atwara kuri Bitcoin?
+answer: Lightning Network.
+wrong_answers:
+  - SegWit.
+  - Urubuga rwa Ripple
+  - RGB.
+explanation: |
+  Lightning Network ni umuti wa kabiri-Layer utuma umuntu ashobora gutanga amafaranga yihuta kandi ugabanura igiciro c’amafaranga ya BTC.
+reviewed: false

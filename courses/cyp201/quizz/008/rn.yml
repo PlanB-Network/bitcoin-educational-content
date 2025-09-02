@@ -1,0 +1,9 @@
+question: Ni kuki SHA256 ikoresha ubuhinga bwo gutegura imbere y’igihe ubutumwa bwo kwinjiza?
+answer: Kugira ngo umenye neza uburebure bw'ibice 512
+wrong_answers:
+  - Kugenzura ubutungane bw'ubutumwa
+  - Gupfuka amakuru imbere yo gukora hashing
+  - Kugira ngo wongere ubunini bw'ibiharuro vyakozwe
+explanation: |
+  Ivyo bikoresho bihindura uburebure bw'ubutumwa mu kwongerako ibice vy'ugushiramwo n'uguserukira uburebure bwabwo.
+reviewed: false

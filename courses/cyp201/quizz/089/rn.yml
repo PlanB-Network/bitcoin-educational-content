@@ -1,0 +1,9 @@
+question: Ni intambwe iyihe ibanza gukoresha HASH160 mu guhingura SegWit v0 Address?
+answer: Gufatanya urufunguzo rwa bose
+wrong_answers:
+  - Kwongera umubare w'igenzura
+  - Guhindura mu buryo bwa bech32
+  - Gushiramwo amakuru muri ishingiro58
+explanation: |
+  Urufunguzo rwa bose rutegerezwa gufatwa kugira ngo rugabanye ubunini bwarwo imbere y’uko ruca mu gikorwa ca HASH160 Hash.
+reviewed: false

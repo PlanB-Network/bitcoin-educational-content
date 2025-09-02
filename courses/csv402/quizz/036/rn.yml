@@ -1,0 +1,9 @@
+question: None Stash ifise uruhara uruhe?
+answer: Bika amakuru yose yo ku ruhande rw'umukiriya mu karere
+wrong_answers:
+  - Gutangaza ubwavyo amafaranga y’ibikorwa kuri Blockchain.
+  - Gukoranya no kubika inyemezabuguzi zose zakozwe
+  - Gucungera imfunguruzo z'ibanga za Bitcoin
+explanation: |
+  Stash ni urutonde rw'amakuru y'umukiriya umukoresha abika mu karere ku masezerano amwe canke menshi ya RGB, kugira ngo akore Client-side Validation.
+reviewed: false

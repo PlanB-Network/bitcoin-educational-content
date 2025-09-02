@@ -1,0 +1,9 @@
+question: Ni uwuhe murongo ukoreshwa mu kubara umubare w’imibare yose iri munsi ya N iri coprime na N?
+answer: Ibikorwa vya Euler
+wrong_answers:
+  - Gamma ya Euler
+  - Sigma ya Euler
+  - Umurimo wa Beta wa Dirichlet
+explanation: |
+  Igikor ca Euler ca Phi kigena umubare w'imibare yose iri munsi ya N iri coprime na N, iciyumviro nyamukuru mu vyiyumviro vy'ubuhinga bwo gukingira amakuru bishingiye ku mibare y'intango.
+reviewed: false

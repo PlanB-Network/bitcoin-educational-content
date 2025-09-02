@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru kiranga igikorwa ca Hash c’ubuhinga bwa none?
+answer: Itanga igisohoka c’uburebure butahinduka ku kintu cose cinjijwe, utitaye ku bunini bwaco.
+wrong_answers:
+  - Ipfuka amakuru ikoresheje urufunguzo ruringaniye.
+  - Itanga umusaruro uhinduka bivanye n’uburebure bw’inyungu.
+  - Ifungura ubutumwa ikoresheje urufunguzo rwa bose.
+explanation: |
+  Igikor ca Hash gitanga uburebure butahinduka Hash, ataco bimaze ubunini bw'inyungu.
+reviewed: false

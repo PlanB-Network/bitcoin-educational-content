@@ -1,0 +1,9 @@
+question: Ni igiki gifise umukono wa digitale mu bijanye n’ubuhinga bwo gukora amakuru y’ibanga?
+answer: Uburyo bwo kugenzura ukuri kw'ubutumwa hakoreshejwe urufunguzo rw'ibanga
+wrong_answers:
+  - Uburyo bwo gupfuka ubutumwa bukomeye cane
+  - Urufunguzo rwa bose rw'inyongera rwo kwemeza ubutumwa bwashizwemwo
+  - Kopi y'umukono wanditswe n'ukuboko
+explanation: |
+  Umukono wa digitale ni ubuhinga bwo gukingira ubutumwa bugaragaza ko ubutumwa bwaremwe vy’ukuri na nyen’urufunguzo rw’ibanga ruhuye, gutyo bikaba bigaragaza ko ari ubw’ukuri.
+reviewed: false

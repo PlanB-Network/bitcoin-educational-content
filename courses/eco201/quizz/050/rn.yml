@@ -1,0 +1,12 @@
+question: None abahinga mu vy’ubutunzi bo muri Otirishiya babona iki ku bijanye no gushinga inyungu?
+answer: Abahinga mu vy’ubutunzi bo muri Otirishiya barashimika ku vy’uko gushinga inyungu ata co bimaze bishobora gutuma haba ingorane mu vy’ubutunzi.
+wrong_answers:
+  - Abahinga mu vy’ubutunzi bo muri Otirishiya bemera ko Leta ari yo ikwiye gushinga inyungu.
+  - Abahinga mu vy’ubutunzi bo muri Otirishiya bemera ko inyungu zikwiye kuba zidahinduka kandi zidahinduka.
+  - Abahinga mu vy’ubutunzi bo muri Otirishiya bemera ko inyungu zikwiye gushirwaho na banki nkuru.
+explanation: |
+  Abahinga mu vy’ubutunzi bo muri Otirishiya barashimika ku vy’uko gushinga inyungu ata co bimaze .
+  birashobora gutuma haba ingorane z’ubutunzi no gutuma uguharura kudashoboka mu butegetsi bw’abasosiyalisiti.
+  Bavuga ko ubucuti bwo gupima agaciro bushingiye ku muntu, rero inyungu zishobora guhinduka .
+  bivanye n’abantu ku giti cabo be n’ukuntu ibintu vyifashe.
+reviewed: true

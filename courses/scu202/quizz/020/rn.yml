@@ -1,0 +1,9 @@
+question: Ni ikihe muri ivyo bidukikije vyo ku biro ciza canecane ku mashini za kera canke zidakomeye cane?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Umutobe
+  - Ubuhinga bwa KDE
+explanation: |
+  LXQt, nka Xfce, ikoresha ibikoresho bike kandi igenewe gukora neza ku bikoresho bikora neza cane.
+reviewed: false

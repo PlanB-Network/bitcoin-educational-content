@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru gitera urujijo hagati y’amajambo block cipher na stream cipher?
+answer: Ivyiyumviro vy’amabuye rimwe na rimwe bitahurwa gusa nk’ubuhinga bukoresha uburyo bw’amabuye nka ECB canke CBC.
+wrong_answers:
+  - Ivyuma vy’uruzi vyama bifise umutekano muto kuruta ivy’amabuye.
+  - Ama ciphers y’amabuye akora kuri bit imwe ku yindi.
+  - Ivyiyumviro vy’uruzi vyama bisaba gupfuka.
+explanation: |
+  Ivyo bitera urujijo biva ku kuba bamwe babona ko ama block ciphers ari ubuhinga bwo gukoresha uburyo bwihariye bwo guhagarika, mu gihe mu vy’ukuri, ashobora gushiramwo imigambi yo gupfuka nk’uburyo bwa OFB.
+reviewed: false

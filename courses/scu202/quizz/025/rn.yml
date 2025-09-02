@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bw’amapaki Canonical yateguye kugira ngo itandukane n’ibikorwa n’ivyo bishingiyeko?
+answer: Gusama
+wrong_answers:
+  - Porogaramu ishusho
+  - Ugutwara
+  - RPM
+explanation: |
+  Uburyo bwa Snap, bwateguwe na Canonical, buratuma umuntu ashobora gushiramwo porogarama yigenga, yitandukanije na sisitemu kandi igahindurwa yigenga.
+reviewed: false

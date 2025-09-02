@@ -1,0 +1,9 @@
+question: Mu gucuruza Bitcoin, ni ubuhinga ubuhe bukoreshwa muri rusangi mu kwemeza Ownership y’amahera mu gufungura inyandiko?
+answer: Imikono ya digitale
+wrong_answers:
+  - Ivyemezo vy'ubuhinga bwa none
+  - Ububiko buhuye
+  - Ubutumwa bwo kwemeza amakode (MAC)
+explanation: |
+  Imikono ya digitale muri Bitcoin yerekana ko umuntu afise amahera mu gusinya amafaranga akoresheje urufunguzo rwiwe bwite kugira ngo afungure inyandiko icungera UTXO.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni iyihe protocole itegeko rya ping rikoresha mu kugerageza ubufatanye bw’urubuga?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Itegeko rya ping rikoresha porotokole ya ICMP kugira ngo ryohereze ibisabwa vy’ijwi no gupima igihe urubuga ruhagarara.
+reviewed: false

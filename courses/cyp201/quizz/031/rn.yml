@@ -1,0 +1,9 @@
+question: Ni igiki gihindura gishobora gufatanywa n’amabendera y’ishimikiro ya sighash?
+answer: SIGHASH_UMUNTU wese ashobora kwishura
+wrong_answers:
+  - SIGHASH_ISOHOKA
+  - SIGHASH_ABARI BOSE
+  - SIGHASH_BITARI MU RUGERO
+explanation: |
+  SIGHASH_ANYONECANPAY ihindura amabendera ya sighash kugira ngo ipfuke gusa inyinjizo imwe mu gihe isiga ibindi bishobora guhindurwa.
+reviewed: false

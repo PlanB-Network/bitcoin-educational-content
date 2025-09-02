@@ -1,0 +1,9 @@
+question: Iyi porogarama yasohowe na Mike Hearn muri Ntwarante 2011, yashize mu ngiro uburyo bwo kugenzura amahera yoroshe (SPV) yitwa gute?
+answer: BitCoinJ
+wrong_answers:
+  - Spesimilo
+  - ibiceri
+  - Libbitcoin
+explanation: |
+  Yarayisohoye mu gihe c’uruhusha rwo gukoresha ubuhinga bwa none (Apache 2.0), rwari rwashize kuri Google (umukoresha wiwe ico gihe). Ivyo vyatumye bishoboka gutanguza igikoresho ca mbere c’uburemere buke citwa Wallet gikoreshwa kuri Android.
+reviewed: true

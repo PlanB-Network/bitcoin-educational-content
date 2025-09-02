@@ -1,0 +1,10 @@
+question: Ni ingorane izihe zijanye n’ugukoresha urudodo rw’uwundi muntu?
+answer: Gucengera no gukurikirana ibikorwa.
+wrong_answers:
+  - Gutakaza amafaranga y’ibiceri.
+  - Kwongerekana kw’amahera y’ugucuruza.
+  - Ubusuma bw’ama bitcoins n’ugukurikirana.
+explanation: |
+  Iyo ukoresheje node itari iyawe, urashobora gushikirwa n’ingorane yo guhagarika amakuru yawe y’ibikorwa kandi akagenzurwa n’uwuyikoresha.
+  
+reviewed: false

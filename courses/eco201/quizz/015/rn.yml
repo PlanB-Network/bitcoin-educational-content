@@ -1,0 +1,12 @@
+question: Nk’uko Carl Menger abivuga, ni kuki Exchange y’ubushake hagati y’abantu babiri iba?
+answer: Buri muhari wizera ko uzokwongerera akamaro kabo k’ivy’ubuhinga.
+wrong_answers:
+  - Buri mugambwe wizera ko uzogabanya akamaro kabo k’ivy’ubuhinga.
+  - Buri mugambwe wemera ko uzoguma ufise akamaro kawo k’ivy’umuntu.
+  - Buri mugambwe wizera ko ataco uzogira ku ntumbero yabo.
+explanation: |
+  Menger avuga ko Exchange y’ubushake iri hagati y’ibiri .
+  abantu ku giti cabo bibera kubera ko umuhari wose wizera ko uzo
+  kwongera akamaro kavyo k’ivy’umuntu. Ivyo bisigura ko umwe wese .
+  party yizera ko bazoba neza inyuma ya Exchange.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y’inyandiko idasanzwe ya IPv4 0.0.0.0?
+answer: Kugira ngo ugaragaze interfaces zose canke Address itagenewe.
+wrong_answers:
+  - Kurungika ubutumwa ku mihora yose
+  - Kugerageza ubufatanye bw'aho hantu bw'igikoresho
+  - Kugaragaza ikosa ryo gutanga aderesi canke ryo guhuza kuri router yo mu karere
+explanation: |
+  Igiharuro ca 0.0.0.0 gikoreshwa mu karere kugira ngo kigaragaze ukutagira Address yashinzwe canke kwumviriza ku nzira zose.
+reviewed: false

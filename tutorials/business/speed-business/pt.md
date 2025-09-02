@@ -22,7 +22,7 @@ a [Speed Business] (https://www.tryspeed.com/) é uma plataforma desenvolvida pe
 
 
 
-O Speed dispõe de uma vasta gama de funcionalidades para cobrir os aspectos financeiros da sua empresa. Encontrará :
+O Speed dispõe de uma vasta gama de funcionalidades para cobrir os aspectos financeiros da sua empresa. Encontrará:
 
 
 

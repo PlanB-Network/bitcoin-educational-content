@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Chumba cha ofisi
 
 
@@ -5741,6 +5742,7 @@ Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kuwa nyuma kidogo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Kivinjari cha Tor
 
 
@@ -5853,6 +5855,7 @@ Orion imeundwa kikamilifu na timu ya Kagi (inayojulikana kwa injini yake ya utaf
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Vivinjari bila kutoa injini
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile ni toleo la rununu la mteja maarufu wa barua pepe huria iliyo
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 Ente Auth ni suluhisho la kisasa, la chanzo huria, la mifumo mingi na chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Unaweza pia kuitumia nje ya mtandao, bila kuhifadhi nakala ya wingu au kuunda akaunti.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzwa kukufaa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, kushiriki msimbo salama wa timu.
 
 
@@ -7606,6 +7611,7 @@ Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, ambavyo vinaweza kusaidia, l
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ikiwa ungependa kujua zaidi kuhusu wasimamizi wa nenosiri, uthibitishaji wa 2FA na VPNs, ninapendekeza usome sura zilizojitolea katika kozi ya SCU-101:
 
 
@@ -7999,6 +8005,7 @@ Inapatikana kwenye F-Droid na chanzo huria kabisa, Chrono inatoa Interface ya ki
 Programu pia inaunganisha kipima saa na saa, pamoja na kurekodi kwa paja, takwimu, ulinganisho wa wakati na usimamizi wa saa nyingi. Unaweza kusanidi saa nyingi za eneo, kubinafsisha mandhari (rangi, mitindo, uhuishaji), na hata kupanga kengele na vipima muda kwa lebo.
 
 
+Ili kuchunguza mada hii kwa kina zaidi, ninapendekeza utembelee tovuti ya [*Awesome Privacy*](https://awesome-privacy.xyz/), ambayo inataja mbadala bora zinazoheshimu faragha kwa programu unazotumia kila siku.
 ___
 
 
@@ -8490,6 +8497,7 @@ Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kut
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Katika kiwango cha mfumo wa uendeshaji: Baadhi ya mifumo ya uendeshaji huunganisha usaidizi wa DNS uliosimbwa kwa njia fiche (DoT au DoH), ambao hulinda maombi yote ya DNS yanayopitia mrundikano wa mtandao wa mfumo. Hii, hata hivyo, hailindi kompyuta au simu nzima: Programu zinaweza kukwepa mpangilio huu ikiwa zimesanidiwa kutumia kisuluhishi au itifaki tofauti ya DNS.
 
 

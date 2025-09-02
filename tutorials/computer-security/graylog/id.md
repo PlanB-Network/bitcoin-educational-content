@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Selanjutnya, kita akan memperbarui cache paket dan mencoba menginstal MongoDB :
+Selanjutnya, kita akan memperbarui cache paket dan mencoba menginstal MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB tidak dapat diinstal karena ketergantungan hilang: **libssl1.1**. Kita h
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Perbarui cache paket Anda :
+Perbarui cache paket Anda:
 
 
 
@@ -279,7 +279,7 @@ Konfigurasi OpenSearch ini dirancang untuk menyiapkan satu node. Berikut ini beb
 
 
 
-- cluster.name: graylog** : parameter ini memberi nama kluster OpenSearch dengan nama "**graylog**".
+- cluster.name: graylog**: parameter ini memberi nama kluster OpenSearch dengan nama "**graylog**".
 - node.name: ${HOSTNAME}**: nama simpul diatur secara dinamis agar sesuai dengan nama mesin Linux lokal. Meskipun kita hanya memiliki satu node, penting untuk menamainya dengan benar.
 - path.data: /var/lib/opensearch**: jalur ini menentukan di mana OpenSearch menyimpan datanya di mesin lokal, dalam kasus ini di "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: jalur ini mendefinisikan di mana file log OpenSearch disimpan, di sini, di "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Dengan konfigurasi yang digunakan di sini, **OpenSearch akan dimulai dengan memori yang dialokasikan sebesar 4 GB dan dapat bertambah hingga 4 GB**, sehingga tidak akan ada variasi memori selama pengoperasian. Di sini, konfigurasi memperhitungkan fakta bahwa mesin virtual memiliki total **8 GB RAM**. Kedua parameter harus memiliki nilai yang sama. Ini berarti mengganti baris :
+Dengan konfigurasi yang digunakan di sini, **OpenSearch akan dimulai dengan memori yang dialokasikan sebesar 4 GB dan dapat bertambah hingga 4 GB**, sehingga tidak akan ada variasi memori selama pengoperasian. Di sini, konfigurasi memperhitungkan fakta bahwa mesin virtual memiliki total **8 GB RAM**. Kedua parameter harus memiliki nilai yang sama. Ini berarti mengganti baris:
 
 
 
@@ -327,7 +327,7 @@ Dengan konfigurasi yang digunakan di sini, **OpenSearch akan dimulai dengan memo
 
 
 
-Dengan garis-garis ini :
+Dengan garis-garis ini:
 
 
 
@@ -432,7 +432,7 @@ Mari kita mulai dengan mengonfigurasi kedua opsi ini:
 
 
 - password_secret**: parameter ini digunakan untuk mendefinisikan kunci yang digunakan oleh Graylog untuk mengamankan penyimpanan kata sandi pengguna (dalam semangat kunci pengasinan). Kunci ini haruslah **unik** dan **acak**.
-- root_password_sha2** : parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
+- root_password_sha2**: parameter ini sesuai dengan kata sandi administrator default di Graylog. Password ini disimpan sebagai Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ Pada direktori ini, Anda harus menggunakan angka untuk menentukan urutan pemuata
 
 
 
-Dalam direktori ini, kita akan membuat berkas bernama "**10-graylog.conf**" :
+Dalam direktori ini, kita akan membuat berkas bernama "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Dalam file ini, sisipkan baris ini :
+Dalam file ini, sisipkan baris ini:
 
 
 
@@ -939,7 +939,7 @@ Upaya koneksi yang gagal dilakukan dari mesin dengan IP Address "**192.168.10.19
 
 
 
-Dalam hal ini, filter yang akan digunakan dapat berupa :
+Dalam hal ini, filter yang akan digunakan dapat berupa:
 
 
 

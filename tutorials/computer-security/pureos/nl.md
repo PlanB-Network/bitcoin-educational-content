@@ -260,7 +260,7 @@ Voordat je PureOS gaat gebruiken, is het essentieel om je systeem bij te werken.
 
 
 
-- Update via Interface grafiek** :
+- Update via Interface grafiek**:
 
 
 Open de toepassing **Software** en ga vervolgens naar het tabblad **Updates**. Beschikbare updates worden automatisch weergegeven. Klik op **Download** en vervolgens op **Installeer** zodra het downloaden is voltooid.
@@ -269,7 +269,7 @@ Open de toepassing **Software** en ga vervolgens naar het tabblad **Updates**. B
 
 
 
-- Update via terminal** :
+- Update via terminal**:
 
 
 Open de terminal en voer het volgende commando in om de lijst met beschikbare pakketten bij te werken:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Voer je wachtwoord in en bevestig. Installeer vervolgens de updates met :
+Voer je wachtwoord in en bevestig. Installeer vervolgens de updates met:
 
 
 
@@ -325,7 +325,7 @@ PureOS toepassingen zijn ontworpen om adaptief te zijn: ze passen zich automatis
 
 
 
-PureOS bevat ook de **LibreOffice** office suite, die :
+PureOS bevat ook de **LibreOffice** office suite, die:
 
 
 

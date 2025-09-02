@@ -58,7 +58,7 @@ Sie können das Tox-Protokoll über einen Instant-Messaging-Client verwenden, de
 
 
 
-Abhängig von Ihrem Betriebssystem können Sie einen Tox-Client herunterladen und installieren, der mit :
+Abhängig von Ihrem Betriebssystem können Sie einen Tox-Client herunterladen und installieren, der mit:
 
 
 
@@ -224,7 +224,7 @@ Sie können auch die Konfigurationen für die Dateifreigabe für jede Diskussion
 
 
 
-In den Interface-Details können Sie die Berechtigungen verwalten, die Sie Ihrem Empfänger für :
+In den Interface-Details können Sie die Berechtigungen verwalten, die Sie Ihrem Empfänger für:
 
 
 

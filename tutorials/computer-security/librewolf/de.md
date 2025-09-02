@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Unter Windows
 
 
-Laden Sie das Installationsprogramm (.exe) von der offiziellen Website herunter oder verwenden Sie das :
+Laden Sie das Installationsprogramm (.exe) von der offiziellen Website herunter oder verwenden Sie das:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf lädt Ihre Seiten automatisch im "Strict"-Modus (Anti-Tracking), und d
 
 
 
-LibreWolf ist bereits optimal für den Datenschutz konfiguriert. Unter Menü → Optionen → Datenschutz & Sicherheit sehen Sie, dass LibreWolf auf den Modus "Erweiterter Tracking-Schutz" eingestellt ist: Streng. Dieser Modus blockiert :
+LibreWolf ist bereits optimal für den Datenschutz konfiguriert. Unter Menü → Optionen → Datenschutz & Sicherheit sehen Sie, dass LibreWolf auf den Modus "Erweiterter Tracking-Schutz" eingestellt ist: Streng. Dieser Modus blockiert:
 
 
 

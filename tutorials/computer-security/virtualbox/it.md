@@ -67,7 +67,7 @@ L'installazione di VirtualBox** è semplice e la procedura è la stessa per tutt
 
 
 
-Questa installazione è personalizzabile, ma vi consiglio di installare tutte le funzioni: è il caso della selezione predefinita. Nell'immagine sottostante, si possono vedere vari Elements, tra cui :
+Questa installazione è personalizzabile, ma vi consiglio di installare tutte le funzioni: è il caso della selezione predefinita. Nell'immagine sottostante, si possono vedere vari Elements, tra cui:
 
 
 

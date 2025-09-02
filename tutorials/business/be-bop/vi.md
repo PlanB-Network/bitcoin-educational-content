@@ -776,7 +776,7 @@ Vào `Quản trị > Hàng hóa > Sản phẩm` để thêm hoặc sửa đổi 
 - Sản phẩm có nhiều biến thể**:
   - Không chọn `Standalone`.
   - Kiểm tra `Sản phẩm có sự thay đổi nhỏ (không có sự khác biệt về số lượng)`.
-  - Thêm vào :
+  - Thêm vào:
     - Tên** (ví dụ: *Kích thước*),
     - Giá trị** (ví dụ: S, M, L, XL),
     - Chênh lệch giá** nếu có (ví dụ: `+2 USD` cho cỡ XL).
@@ -1046,7 +1046,7 @@ Sử dụng **mã ngắn** trong nội dung trang CMS của bạn:
 
 
 
-**Thuận lợi** :
+**Thuận lợi**:
 
 
 
@@ -1396,8 +1396,8 @@ Mỗi email (xác nhận đơn hàng, quên mật khẩu, v.v.) đều có:
 
 
 
-- `{orderNumber}}` : thay thế bằng số đơn hàng thực tế
-- `{invoiceLink}}` : liên kết đến Invoice
+- `{orderNumber}}`: thay thế bằng số đơn hàng thực tế
+- `{invoiceLink}}`: liên kết đến Invoice
 - `{websiteLink}}`: URL của trang web của bạn
 
 

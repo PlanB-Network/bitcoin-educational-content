@@ -67,7 +67,7 @@ Instalacja VirtualBox** jest prosta, a proces jest taki sam dla wszystkich wersj
 
 
 
-Tę instalację można dostosować, ale zalecam zainstalowanie wszystkich funkcji: co ma miejsce w przypadku domyślnego wyboru. Na poniższym obrazku widać różne Elements, w tym :
+Tę instalację można dostosować, ale zalecam zainstalowanie wszystkich funkcji: co ma miejsce w przypadku domyślnego wyboru. Na poniższym obrazku widać różne Elements, w tym:
 
 
 

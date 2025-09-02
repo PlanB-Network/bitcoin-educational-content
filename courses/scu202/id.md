@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Paket kantor
 
 
@@ -5741,6 +5742,7 @@ Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit te
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Peramban Tor
 
 
@@ -5853,6 +5855,7 @@ Orion sepenuhnya dikembangkan oleh tim Kagi (yang dikenal dengan mesin pencari b
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browser tanpa mesin rendering
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile adalah versi mobile dari klien email sumber terbuka populer y
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis merupakan aplikasi sumber terbuka yang komprehensif. Aplikasi ini mengenkr
 Ente Auth adalah solusi multi-platform yang modern, open-source, dan multi-platform dengan pencadangan terenkripsi ujung ke ujung. Ente Auth memungkinkan Anda untuk menyinkronkan kode 2FA dengan aman di perangkat seluler, desktop, dan web. Anda juga bisa menggunakannya secara offline, tanpa pencadangan awan atau pembuatan akun.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khusus untuk setiap layanan, catatan, favorit, pencarian terintegrasi, berbagi kode tim yang aman.
 
 
@@ -7606,6 +7611,7 @@ Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, teta
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, autentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus dalam kursus SCU-101:
 
 
@@ -7999,6 +8005,7 @@ Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface yang
 Aplikasi ini juga mengintegrasikan timer dan stopwatch, dengan perekaman putaran, statistik, perbandingan waktu, dan manajemen multi-timer. Anda dapat mengonfigurasi beberapa zona waktu, menyesuaikan tema (warna, gaya, animasi), dan bahkan mengatur alarm dan pengatur waktu dengan label.
 
 
+Untuk memperdalam topik ini, saya merekomendasikan Anda mengunjungi situs [*Awesome Privacy*](https://awesome-privacy.xyz/), yang mencantumkan alternatif terbaik yang ramah privasi untuk perangkat lunak yang Anda gunakan setiap hari.
 ___
 
 
@@ -8490,6 +8497,7 @@ Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada be
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Pada tingkat sistem operasi: Beberapa OS secara bawaan mengintegrasikan dukungan DNS terenkripsi (DoT atau DoH), yang mengamankan semua permintaan DNS yang melewati tumpukan jaringan sistem. Namun, hal ini tidak mengamankan seluruh komputer atau telepon: Aplikasi dapat melewati pengaturan ini jika dikonfigurasi untuk menggunakan resolver atau protokol DNS yang berbeda.
 
 

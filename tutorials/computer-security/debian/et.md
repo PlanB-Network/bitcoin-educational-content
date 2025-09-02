@@ -128,7 +128,7 @@ Teie USB-mäluseade on nüüd valmis, et alustada Debiani installimist.
 
 
 
-Installeerimise käivitamiseks USB-mäluseadmelt :
+Installeerimise käivitamiseks USB-mäluseadmelt:
 
 
 
@@ -144,7 +144,7 @@ Installeerimise käivitamiseks USB-mäluseadmelt :
 
 
 
-Algusekraan :
+Algusekraan:
 
 
 
@@ -334,7 +334,7 @@ Sisestage küsimisel oma parool (märkige, et sisestamisel ei kuvata ühtegi mä
 
 
 
-- Kättesaadavate värskenduste installimiseks :
+- Kättesaadavate värskenduste installimiseks:
 
 
 
@@ -380,7 +380,7 @@ Rakenduste paigaldamiseks Debianis on kaks võimalust:
 
 
 
-### Graafiline meetod :
+### Graafiline meetod:
 
 
 
@@ -388,7 +388,7 @@ Rakenduste hõlpsaks otsimiseks ja installimiseks saate kasutada **tarkvara hald
 
 
 
-### Käsurea meetod :
+### Käsurea meetod:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Asendage `<nimi>` paketi nimega. Näiteks `curl` paigaldamiseks :
+Asendage `<nimi>` paketi nimega. Näiteks `curl` paigaldamiseks:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Käsitsi allalaaditud paketi paigaldamine :
+### Käsitsi allalaaditud paketi paigaldamine:
 
 
 
@@ -439,7 +439,7 @@ Samuti on võimalik töölauakeskkonda vahetada (nt XFCE, KDE jne), ilma et peak
 
 
 
-Kui soovite rohkem teada saada Debianist ja üldisemalt GNU/Linuxi distributsioonidest, soovitan teil tutvuda selle kursusega :
+Kui soovite rohkem teada saada Debianist ja üldisemalt GNU/Linuxi distributsioonidest, soovitan teil tutvuda selle kursusega:
 
 
 

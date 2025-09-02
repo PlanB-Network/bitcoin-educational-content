@@ -58,7 +58,7 @@ Du kan använda Tox-protokollet via en snabbmeddelandeklient som du kan ladda ne
 
 
 
-Beroende på ditt operativsystem kan du ladda ner och installera en Tox-klient som matchar :
+Beroende på ditt operativsystem kan du ladda ner och installera en Tox-klient som matchar:
 
 
 
@@ -224,7 +224,7 @@ Du kan också anpassa konfigurationerna för fildelning för varje diskussion du
 
 
 
-Från Interface-detaljerna kan du hantera de behörigheter som du ger din mottagare för :
+Från Interface-detaljerna kan du hantera de behörigheter som du ger din mottagare för:
 
 
 

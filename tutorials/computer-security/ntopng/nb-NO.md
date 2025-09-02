@@ -122,7 +122,7 @@ For proben valgte jeg en **Debian 11**-maskin med minimal installasjon.
 
 
 
-Første trinn, alltid det samme, oppdater :
+Første trinn, alltid det samme, oppdater:
 
 
 
@@ -212,7 +212,7 @@ Her er noen forklaringer på disse første endringene:
 
 
 - auto *Interface***: vil automatisk "starte" Interface ved oppstart av systemet
-- iface *Interface* inet manual** : for å bruke Interface uten noen IP Address. Som nøkkelordet "static" for å definere en statisk IP Address eller "dhcp" for å bruke dynamisk adressering
+- iface *Interface* inet manual**: for å bruke Interface uten noen IP Address. Som nøkkelordet "static" for å definere en statisk IP Address eller "dhcp" for å bruke dynamisk adressering
 
 
 
@@ -286,7 +286,7 @@ Som standard inneholder pakkekildene kun DFSG (*Debian Free Sotftware Guidelines
 
 
 
-Eksempel på en linje i /etc/apt/sources.list :
+Eksempel på en linje i /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Så jeg legger bare til ordet **contrib** i slike linjer.
 
 
 
-Resten av trinnene er listet opp på [NtopNG]-nettstedet (https://packages.ntop.org/apt/), der du, for Debian 11, må legge til Ntop-kildene for fremtidig installasjon. Dette tillegget er automatisert ved å bruke en :
+Resten av trinnene er listet opp på [NtopNG]-nettstedet (https://packages.ntop.org/apt/), der du, for Debian 11, må legge til Ntop-kildene for fremtidig installasjon. Dette tillegget er automatisert ved å bruke en:
 
 
 
@@ -474,7 +474,7 @@ Ved å klikke på denne figuren får du opp detaljene i varslene. Det er ikke no
 
 
 
-Men siden jeg bruker gratisversjonen, kan jeg ikke ekskludere domener eller verter som er kilden til varsler, så du må holde et øye med dem for å unngå å gå glipp av noe mye mer bekymringsfullt. NtopNG vil generate-varsler i tilfelle :
+Men siden jeg bruker gratisversjonen, kan jeg ikke ekskludere domener eller verter som er kilden til varsler, så du må holde et øye med dem for å unngå å gå glipp av noe mye mer bekymringsfullt. NtopNG vil generate-varsler i tilfelle:
 
 
 

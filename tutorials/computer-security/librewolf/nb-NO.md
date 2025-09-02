@@ -224,7 +224,7 @@ Installasjonen varierer avhengig av hvilket operativsystem du bruker:
 ### På Linux
 
 
-LibreWolf tilbyr builds for mange distribusjoner. På Debian/Ubuntu og derivater er et offisielt APT-repository tilgjengelig. Alternativt er LibreWolf publisert i Flatpak på Flathub :
+LibreWolf tilbyr builds for mange distribusjoner. På Debian/Ubuntu og derivater er et offisielt APT-repository tilgjengelig. Alternativt er LibreWolf publisert i Flatpak på Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### På Windows
 
 
-Last ned installasjonsprogrammet (.exe) fra det offisielle nettstedet, eller bruk :
+Last ned installasjonsprogrammet (.exe) fra det offisielle nettstedet, eller bruk:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laster automatisk inn sidene dine i "strict"-modus (anti-sporing), og 
 
 
 
-LibreWolf er allerede optimalt konfigurert for personvern. I Meny → Alternativer → Personvern og sikkerhet vil du se at LibreWolf er satt til modus for forbedret sporingsbeskyttelse: Strict. Denne modusen blokkerer :
+LibreWolf er allerede optimalt konfigurert for personvern. I Meny → Alternativer → Personvern og sikkerhet vil du se at LibreWolf er satt til modus for forbedret sporingsbeskyttelse: Strict. Denne modusen blokkerer:
 
 
 

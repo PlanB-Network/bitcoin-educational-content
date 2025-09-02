@@ -34,7 +34,7 @@ Fedora enthält auch eine Desktop-Umgebung, d.h. den Interface, über den die Be
 
 
 
-Unter der Vielzahl der verfügbaren Linux-Distributionen sticht Fedora vor allem durch :
+Unter der Vielzahl der verfügbaren Linux-Distributionen sticht Fedora vor allem durch:
 
 
 
@@ -66,7 +66,7 @@ Unter der Vielzahl der verfügbaren Linux-Distributionen sticht Fedora vor allem
 
 
 
-Abhängig von Ihrem Profil und Ihrer Nutzung bietet Fedora Editionen, die Ihren Bedürfnissen entsprechen. Sie finden hauptsächlich :
+Abhängig von Ihrem Profil und Ihrer Nutzung bietet Fedora Editionen, die Ihren Bedürfnissen entsprechen. Sie finden hauptsächlich:
 
 
 
@@ -205,7 +205,7 @@ Der erste Schritt besteht darin, Fedoras **Installationssprache** und **Tastatur
 
 
 
-- Auswahl der Installationsdiskette :
+- Auswahl der Installationsdiskette:
 
 
 
@@ -223,7 +223,7 @@ Wenn die Festplatte leer ist, verwendet Fedora automatisch den gesamten verfügb
 
 
 
-- Verschlüsselung :
+- Verschlüsselung:
 
 
 
@@ -415,7 +415,7 @@ Nach der Installation von Updates kann ein **Neustart** erforderlich sein.
 
 
 
-- Öffnen Sie ein Terminal und beginnen Sie mit der Aktualisierung der **Repositorien**, um sicherzustellen, dass Sie die neuesten Versionen von :
+- Öffnen Sie ein Terminal und beginnen Sie mit der Aktualisierung der **Repositorien**, um sicherzustellen, dass Sie die neuesten Versionen von:
 
 
 

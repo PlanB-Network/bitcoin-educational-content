@@ -676,7 +676,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(největší prvočíslo menší než $2^{256}$). Souřadnice $x$ je soukromý klíč a souřadnice $y$ je váš veřejný klíč.
+(které je největší prvočíslo menší než $2^{256}$).
 
 Transakce v bitcoinech obvykle zahrnují nějakým způsobem uzamčení výstupů k jednomu nebo více veřejným klíčům. Hodnotu z těchto transakcí pak lze odemknout pomocí digitálních podpisů s odpovídajícími soukromými klíči.
 

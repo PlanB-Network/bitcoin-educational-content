@@ -71,7 +71,7 @@ De **Graylog server** draait op **Debian 12**, maar installatie is mogelijk op a
 
 
 
-Bron : Graylog
+Bron: Graylog
 
 
 
@@ -149,8 +149,8 @@ MongoDB kan niet worden geïnstalleerd omdat een afhankelijkheid ontbreekt: **li
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Werk je pakketcache bij :
+Werk je pakketcache bij:
 
 
 
@@ -279,7 +279,7 @@ Deze OpenSearch configuratie is ontworpen om een enkele node in te stellen. Hier
 
 
 
-- cluster.name: graylog** : Deze parameter benoemt het OpenSearch-cluster met de naam "**graylog**".
+- cluster.name: graylog**: Deze parameter benoemt het OpenSearch-cluster met de naam "**graylog**".
 - node.name: ${HOSTNAME}**: de knooppuntnaam wordt dynamisch ingesteld om overeen te komen met die van de lokale Linux machine. Zelfs als we maar één knooppunt hebben, is het belangrijk om het de juiste naam te geven.
 - path.data: /var/lib/opensearch**: dit pad specificeert waar OpenSearch zijn gegevens opslaat op de lokale machine, in dit geval in "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: dit pad definieert waar OpenSearch logbestanden worden opgeslagen, hier in "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen geheugen en kan groeien tot 4 GB**, dus er zal geen geheugenvariatie zijn tijdens het gebruik. Hier houdt de configuratie rekening met het feit dat de virtuele machine in totaal **8 GB RAM** heeft. Beide parameters moeten dezelfde waarde hebben. Dit betekent dat de regels :
+Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen geheugen en kan groeien tot 4 GB**, dus er zal geen geheugenvariatie zijn tijdens het gebruik. Hier houdt de configuratie rekening met het feit dat de virtuele machine in totaal **8 GB RAM** heeft. Beide parameters moeten dezelfde waarde hebben. Dit betekent dat de regels:
 
 
 
@@ -327,7 +327,7 @@ Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen 
 
 
 
-Met deze regels :
+Met deze regels:
 
 
 
@@ -408,7 +408,7 @@ Volgende stap: de langverwachte installatie van Graylog!
 
 
 
-Om **Graylog 6.1** in de laatste versie te installeren, voert u de volgende 4 opdrachten uit om **Graylog Server** te downloaden en te installeren** :
+Om **Graylog 6.1** in de laatste versie te installeren, voert u de volgende 4 opdrachten uit om **Graylog Server** te downloaden en te installeren**:
 
 
 
@@ -432,7 +432,7 @@ Laten we beginnen met het configureren van deze twee opties:
 
 
 - password_secret**: deze parameter wordt gebruikt om een sleutel te definiëren die door Graylog wordt gebruikt om de opslag van gebruikerswachtwoorden te beveiligen (in de geest van een salting-sleutel). Deze sleutel moet **uniek** en **willekeurig** zijn.
-- root_password_sha2** : Deze parameter komt overeen met het standaard beheerderswachtwoord in Graylog. Het wordt opgeslagen als een Hash SHA-256.
+- root_password_sha2**: Deze parameter komt overeen met het standaard beheerderswachtwoord in Graylog. Het wordt opgeslagen als een Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ In deze map moet je nummers gebruiken om de laadvolgorde te definiëren, omdat b
 
 
 
-In deze map maken we een bestand aan met de naam "**10-graylog.conf**" :
+In deze map maken we een bestand aan met de naam "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Voeg in dit bestand deze regel in :
+Voeg in dit bestand deze regel in:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Als je meerdere servers hebt en de logboeken van een specifieke server wilt analyseren, geef dan de naam van die server op als aanvulling :
+Als je meerdere servers hebt en de logboeken van een specifieke server wilt analyseren, geef dan de naam van die server op als aanvulling:
 
 
 
@@ -939,7 +939,7 @@ Niet succesvolle verbindingspogingen worden gemaakt vanaf de machine met IP Addr
 
 
 
-In dit geval kan het te gebruiken filter :
+In dit geval kan het te gebruiken filter:
 
 
 

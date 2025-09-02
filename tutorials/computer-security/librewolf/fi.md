@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Windowsissa
 
 
-Lataa asennusohjelma (.exe) viralliselta verkkosivustolta tai käytä :
+Lataa asennusohjelma (.exe) viralliselta verkkosivustolta tai käytä:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf lataa sivusi automaattisesti "strict"-tilassa (jäljittämisen vastais
 
 
 
-LibreWolf on jo valmiiksi optimaalisesti konfiguroitu yksityisyyden suojaamiseksi. Valikko → Asetukset → Yksityisyys ja turvallisuus -kohdassa näet, että LibreWolf on asetettu Enhanced Tracking Protection -tilaan: Strict. Tämä tila estää :
+LibreWolf on jo valmiiksi optimaalisesti konfiguroitu yksityisyyden suojaamiseksi. Valikko → Asetukset → Yksityisyys ja turvallisuus -kohdassa näet, että LibreWolf on asetettu Enhanced Tracking Protection -tilaan: Strict. Tämä tila estää:
 
 
 

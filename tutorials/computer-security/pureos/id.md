@@ -269,7 +269,7 @@ Buka aplikasi **Perangkat Lunak**, lalu buka tab **Pembaruan**. Pembaruan yang t
 
 
 
-- Perbarui melalui terminal** :
+- Perbarui melalui terminal**:
 
 
 Buka terminal, lalu masukkan perintah berikut untuk memperbarui daftar paket yang tersedia:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Masukkan kata sandi Anda dan konfirmasikan. Kemudian instal pembaruan dengan file :
+Masukkan kata sandi Anda dan konfirmasikan. Kemudian instal pembaruan dengan file:
 
 
 
@@ -325,7 +325,7 @@ Aplikasi PureOS dirancang untuk menjadi adaptif: aplikasi ini secara otomatis me
 
 
 
-PureOS juga menyertakan paket perkantoran **LibreOffice**, yang mencakup :
+PureOS juga menyertakan paket perkantoran **LibreOffice**, yang mencakup:
 
 
 

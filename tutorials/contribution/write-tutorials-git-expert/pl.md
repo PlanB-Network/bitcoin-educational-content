@@ -10,7 +10,7 @@ Przed przystąpieniem do tego samouczka dotyczącego dodawania nowego samouczka 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Masz już :
+Masz już:
 
 
 
@@ -23,13 +23,13 @@ W tym samouczku dla doświadczonych użytkowników Git, krótko podsumujemy kluc
 
 
 
-- Średniozaawansowany (GitHub Desktop) :
+- Średniozaawansowany (GitHub Desktop):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Początkujący (web Interface) :
+- Początkujący (web Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## Sugerowane narzędzia
 
 
-Do edycji plików Markdown :
+Do edycji plików Markdown:
 
 
 
@@ -47,7 +47,7 @@ Do edycji plików Markdown :
 - Typora (Payware, ~15€, nie open-source)
 
 
-Dla Git :
+Dla Git:
 
 
 
@@ -56,7 +56,7 @@ Dla Git :
 - Sourcetree (bezpłatny, nie open-source)
 
 
-Do edycji plików YAML :
+Do edycji plików YAML:
 
 
 
@@ -64,7 +64,7 @@ Do edycji plików YAML :
 - Sublime Text (darmowy z ograniczeniami, nie open-source)
 
 
-Tworzenie diagramów i wizualizacji :
+Tworzenie diagramów i wizualizacji:
 
 
 
@@ -134,14 +134,14 @@ git push -u origin tuto-green-wallet-loic
 ***Uwaga:*** Kroki 3 i 4 można zautomatyzować za pomocą [mojego skryptu Python GUI](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Uruchom go bezpośrednio z folderu w lokalnym klonie, a następnie wypełnij wymagane pola w GUI. Więcej informacji na temat instalacji i użytkowania można znaleźć w [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
-Jeśli wolisz zrobić to ręcznie, wykonaj następujące kroki :
+Jeśli wolisz zrobić to ręcznie, wykonaj następujące kroki:
 
 
 
 - Zlokalizuj odpowiedni folder w lokalnym repozytorium (np. `tutorials/Wallet`).
 - Utwórz katalog dedykowany samouczkowi z wyraźną nazwą (np. `Green-Wallet`). Ta nazwa folderu określi również ścieżkę URL samouczka. Powinna być pisana małymi literami, bez znaków specjalnych (z wyjątkiem myślników) i bez spacji.
 - Dodaj następujące elementy do tego katalogu:
-    - Podfolder o nazwie `assets` zawierający :
+    - Podfolder o nazwie `assets` zawierający:
         - Dwa obrazy `.webp`:
             - `logo.webp`: Logo samouczka (kwadratowy format z tłem). To logo musi reprezentować prezentowane oprogramowanie lub narzędzie. Jeśli samouczek nie jest specyficzny dla narzędzia (np.: ogólny przewodnik po generowaniu frazy Mnemonic), możesz wybrać odpowiednią grafikę (np.: ogólną ikonę).
             - `cover.webp`: Obraz okładki wyświetlany na początku samouczka.
@@ -209,23 +209,23 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- id** : UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
+- id**: UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
 
 
 
-- project_id** : UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- tagi** : 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- category** : Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
+- category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- level** : Poziom trudności samouczka, wybierany spośród:
+- level**: Poziom trudności samouczka, wybierany spośród:
     - początkujący
     - `średniozaawansowany`
     - `zaawansowany`
@@ -233,23 +233,23 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- professor_id** : Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Oryginalny język samouczka (np. `fr`, `en` itp.);
+- original_language**: Oryginalny język samouczka (np. `fr`, `en` itp.);
 
 
 
-- korekta** : Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
-    - language** : Kod języka korekty (np. `fr`, `en` itp.).
-    - last_contribution_date** : Data dnia.
-    - pilne** : 1
-    - contributor_names** : Twój identyfikator GitHub.
-    - nagroda** : 0
+- korekta**: Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
+    - language**: Kod języka korekty (np. `fr`, `en` itp.).
+    - last_contribution_date**: Data dnia.
+    - pilne**: 1
+    - contributor_names**: Twój identyfikator GitHub.
+    - nagroda**: 0
 
 
-Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem :
+Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -287,7 +287,7 @@ reward: 0
 
 
 
-- Uzupełnij właściwości pliku Markdown za pomocą :
+- Uzupełnij właściwości pliku Markdown za pomocą:
     - Tytuł (`name`).
     - Krótki opis (`description`).
 - Dodaj obraz okładki na górze samouczka, używając składni Markdown (zastąp "Green" nazwą pokazanego narzędzia):
@@ -301,7 +301,7 @@ reward: 0
 
 - Napisz treść samouczka w Markdown:
     - Używaj dobrze skonstruowanych nagłówków (`##`), list i akapitów.
-    - Wstawianie wizualizacji przy użyciu składni Markdown :
+    - Wstawianie wizualizacji przy użyciu składni Markdown:
 
 
 ```
@@ -361,11 +361,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Formatowanie obsługiwane na platformie** :
+- Formatowanie obsługiwane na platformie**:
     - Klasyczny Markdown: listy, linki, obrazy, cytaty, pogrubienie, kursywa itp.
     - LaTeX (tylko blok, nie inline): ograniczone przez `$$`.
     - Kod wbudowany: Składnia z pojedynczym backtickiem.
-    - Bloki kodu: Składnia z trzema znakami backticks, na przykład :
+    - Bloki kodu: Składnia z trzema znakami backticks, na przykład:
 
 
 ```
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- Ilustracje i wykresy** :
+- Ilustracje i wykresy**:
     - Wszystkie obrazy muszą być w formacie WebP. Użyj tego bezpłatnego narzędzia, aby przekonwertować je w razie potrzeby: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nazwij wizualizacje za pomocą 2 lub 3 cyfr (np. `001.webp`, `002.webp`).
     - W przypadku samouczków mobilnych lub Hardware Wallet użyj makiet.
     - Używaj tylko samodzielnie stworzonych lub bezpłatnych materiałów wizualnych.
     - Upewnij się, że są one istotne i wysokiej jakości.
-- Karta graficzna** :
+- Karta graficzna**:
     - Czcionka: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Kolory Plan ₿ Network :
+    - Kolory Plan ₿ Network:
         - Pomarańczowy: `#FF5C00`
         - Czarny: `#000000`
         - Biały: `#FFFFFF`

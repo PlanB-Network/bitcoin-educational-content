@@ -675,7 +675,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(suurin alkuluku, joka on pienempi kuin $2^{256}$). $x$-koordinaatti on yksityinen avain ja $y$-koordinaatti on julkinen avaimesi.
+(joka on suurin alkuluku, joka on pienempi kuin $2^{256}$).
 
 Bitcoinissa tapahtuviin transaktioihin liittyy yleensä ulostulojen lukitseminen yhteen tai useampaan julkiseen avaimeen jollakin tavalla. Näiden transaktioiden arvo voidaan sitten avata tekemällä digitaalisia allekirjoituksia vastaavilla yksityisillä avaimilla.
 

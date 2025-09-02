@@ -150,7 +150,7 @@ Mullvad Browser enthält **drei vorinstallierte Erweiterungen**, die den Kern se
 ### **uBlock Origin**
 
 
-Diese Werbe- und Tracker-Blocker-Erweiterung kommt vorkonfiguriert mit **optimierten Filterlisten** zum Blockieren von :
+Diese Werbe- und Tracker-Blocker-Erweiterung kommt vorkonfiguriert mit **optimierten Filterlisten** zum Blockieren von:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin in Mullvad Browser verwendet standardisierte Parameter, um sicherz
 ### **NoScript**
 
 
-NoScript läuft im Hintergrund, um die **Sicherheitsstufen** des Browsers zu verwalten. Diese :
+NoScript läuft im Hintergrund, um die **Sicherheitsstufen** des Browsers zu verwalten. Diese:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser bietet drei Sicherheitsstufen:
 
 
 
-- Normal** (aktuelle Standardstufe) : Alle Browser- und Website-Funktionen aktiviert
+- Normal** (aktuelle Standardstufe): Alle Browser- und Website-Funktionen aktiviert
 
 
 

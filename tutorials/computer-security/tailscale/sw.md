@@ -159,7 +159,7 @@ Ukishafungua akaunti yako, unaweza kusakinisha Tailscale kwenye vifaa vyako:
 
 
 
-- Kwenye Linux (Debian, Ubuntu, n.k.):** Una chaguo kadhaa. Njia rahisi ni kuendesha hati rasmi ya usakinishaji: kwa mfano, kwenye Debian/Ubuntu :
+- Kwenye Linux (Debian, Ubuntu, n.k.):** Una chaguo kadhaa. Njia rahisi ni kuendesha hati rasmi ya usakinishaji: kwa mfano, kwenye Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Dashibodi ya usimamizi wa wavuti hukuruhusu kutazama na kudhibiti vifaa vyako vy
 
 
 
-- Interface Web (Dashibodi ya Msimamizi)** : inapatikana katika [https://login.tailscale.com](https://login.tailscale.com), dashibodi hii ya wavuti ndiyo dashibodi kuu ya mtandao wako wa Tailscale. Inaorodhesha vifaa vyote (*Mashine*), hali yao ya mtandaoni/nje ya mtandao, anwani zao za IP za Tailscale na zaidi. Hapa unaweza **kudhibiti vifaa** (kubadilisha jina, funguo za kuisha muda, kuidhinisha njia, kuzima nodi), **kudhibiti watumiaji** (katika muktadha wa shirika), na kufafanua sheria za usalama (ACLs). Hapa ndipo unaposanidi chaguo za kimataifa kama vile MagicDNS, lebo, au vitufe vya uthibitishaji (vifunguo vya uthibitishaji wa pre-generate kwa nyongeza ya kifaa kiotomatiki). Wavuti ya Interface ni rahisi sana kwa kupata muhtasari na kutumia mabadiliko ambayo yataenezwa kupitia seva ya uratibu kwa nodi zote. *Mfano:* Kuwasha **njia ndogo** au **nodi ya kutoka** hufanywa kwa mbofyo mmoja kwenye kiweko, mara tu nodi husika itakapojitangaza hivyo.
+- Interface Web (Dashibodi ya Msimamizi)**: inapatikana katika [https://login.tailscale.com](https://login.tailscale.com), dashibodi hii ya wavuti ndiyo dashibodi kuu ya mtandao wako wa Tailscale. Inaorodhesha vifaa vyote (*Mashine*), hali yao ya mtandaoni/nje ya mtandao, anwani zao za IP za Tailscale na zaidi. Hapa unaweza **kudhibiti vifaa** (kubadilisha jina, funguo za kuisha muda, kuidhinisha njia, kuzima nodi), **kudhibiti watumiaji** (katika muktadha wa shirika), na kufafanua sheria za usalama (ACLs). Hapa ndipo unaposanidi chaguo za kimataifa kama vile MagicDNS, lebo, au vitufe vya uthibitishaji (vifunguo vya uthibitishaji wa pre-generate kwa nyongeza ya kifaa kiotomatiki). Wavuti ya Interface ni rahisi sana kwa kupata muhtasari na kutumia mabadiliko ambayo yataenezwa kupitia seva ya uratibu kwa nodi zote. *Mfano:* Kuwasha **njia ndogo** au **nodi ya kutoka** hufanywa kwa mbofyo mmoja kwenye kiweko, mara tu nodi husika itakapojitangaza hivyo.
 
 
 
@@ -387,7 +387,7 @@ Ufikiaji ni rahisi ajabu: badala ya kutumia `umbrel.local` (ambayo inafanya kazi
 
 
 
-**Unganisha pochi za nje kwa Bitcoin yako au nodi za umeme kupitia Tailscale :**
+**Unganisha pochi za nje kwa Bitcoin yako au nodi za umeme kupitia Tailscale:**
 
 
 
@@ -608,7 +608,7 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 - Mafunzo ya Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Miongozo mahususi ya kujipangisha mwenyewe.
-- Kusanidi Njia ya Kuondoka** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Mwongozo wa kina wa kusanidi Njia za Kutoka.
+- Kusanidi Njia ya Kuondoka**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Mwongozo wa kina wa kusanidi Njia za Kutoka.
 - Tumia Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Hamisha faili kati ya vifaa vya Tailscale.
 
 

@@ -2977,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Toimistopaketti
 
 
@@ -5741,6 +5742,7 @@ Firefox on edelleen turvallisuuden ja yksityisyydensuojan vertailukohde, vaikka 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-selain
 
 
@@ -5853,6 +5855,7 @@ Orion on täysin Kagi-tiimin (joka tunnetaan mainoksettomasta hakukoneestaan) ke
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Selaimet ilman renderöintimoottoreita
 
 
@@ -7257,6 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationin kehittämän suositun avoimen lähdek
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7591,6 +7595,7 @@ Aegis on kattava avoimen lähdekoodin sovellus. Se salaa 2FA-tietokantasi salasa
 Ente Auth on nykyaikainen, avoimen lähdekoodin monialustaratkaisu, jossa on päästä päähän salatut varmuuskopiot. Sen avulla voit synkronoida 2FA-koodisi turvallisesti mobiilissa, työpöydällä ja verkossa. Voit käyttää sitä myös offline-tilassa ilman pilvivarmistusta tai tilin luomista.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tarjoaa monia lisäominaisuuksia: Muistiinpanot, suosikit, integroitu haku, turvallinen tiimikoodin jakaminen.
 
 
@@ -7606,6 +7611,7 @@ Authy tarjoaa 2FA-synkronoinnin useisiin laitteisiin, mikä voi olla kätevää,
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jos haluat lisätietoja salasanahallinnasta, 2FA-todennuksesta ja VPN:stä, suosittelen lukemaan SCU-101-kurssin omat luvut:
 
 
@@ -7999,6 +8005,7 @@ F-Droidissa saatavilla oleva ja täysin avoimen lähdekoodin Chrono tarjoaa mode
 Sovellus sisältää myös ajastimen ja sekuntikellon, jossa on kierrosten tallennus, tilastoja, aikavertailuja ja usean ajastimen hallinta. Voit määrittää useita aikavyöhykkeitä, muokata teemaa (värit, tyylit, animaatiot) ja jopa järjestää hälytykset ja ajastimet tarroilla.
 
 
+Aiheeseen perehtyäksesi suosittelen vierailemaan sivustolla [*Awesome Privacy*](https://awesome-privacy.xyz/), joka listaa parhaat yksityisyyttä kunnioittavat vaihtoehdot ohjelmistoille, joita käytät päivittäin.
 ___
 
 
@@ -8490,6 +8497,7 @@ Käytännössä DNS-salaus ja palvelimen vaihto voidaan toteuttaa eri tasoilla:
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Käyttöjärjestelmätasolla: Tämä suojaa kaikki DNS-pyynnöt, jotka kulkevat järjestelmän verkkopinon läpi. Tämä ei kuitenkaan suojaa koko tietokonetta tai puhelinta: Sovellukset voivat ohittaa tämän asetuksen, jos ne on määritetty käyttämään eri DNS-resolveria tai -protokollaa.
 
 

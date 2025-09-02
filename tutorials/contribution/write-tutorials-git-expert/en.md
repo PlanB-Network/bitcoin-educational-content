@@ -4,47 +4,47 @@ description: Guide for advanced users to offer a tutorial on Plan ₿ Network wi
 ---
 ![cover](assets/cover.webp)
 
-Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here :
+Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-You already have :
+You already have:
 
 - Choose a theme for your tutorial;
 - Contacted the Plan ₿ Network team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
 - Choose your contribution tools.
 
-In this tutorial for experienced Git users, we'll briefly summarize the key steps and essential guidelines for offering a new Plan ₿ Network tutorial. If you're unfamiliar with Git and GitHub, I recommend you instead follow one of these other 2 more detailed tutorials that will take you step by step :
+In this tutorial for experienced Git users, we'll briefly summarize the key steps and essential guidelines for offering a new Plan ₿ Network tutorial. If you're unfamiliar with Git and GitHub, I recommend you instead follow one of these other 2 more detailed tutorials that will take you step by step:
 
-- Intermediate (GitHub Desktop) :
+- Intermediate (GitHub Desktop):
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Beginners (web interface) :
+- Beginners (web interface):
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Suggested tools
 
-For editing Markdown files :
+For editing Markdown files:
 
 - Obsidian (Free, not open-source)
 - Mark Text (Free, open-source)
 - Zettlr (Free, open-source)
 - Typora (Payware, ~€15, not open-source)
 
-For Git :
+For Git:
 
 - Git (Free, open-source)
 - GitHub Desktop (Free, open-source)
 - Sourcetree (Free, not open-source)
 
-For editing YAML files :
+For editing YAML files:
 
 - Visual Studio Code (Free, open-source)
 - Sublime Text (Free with limitations, not open-source)
 
-To create diagrams and visuals :
+To create diagrams and visuals:
 
 - Canva (Free with paid options, not open-source)
 - Inkscape (Free, open-source)
@@ -100,12 +100,12 @@ git push -u origin tuto-green-wallet-loic
 
 ***Note:*** You can automate steps 3 and 4 using [my Python GUI script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Run it directly from its folder in your local clone, then fill in the required fields on the GUI. For more information on how to install and use it, see the [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-If you prefer to do it manually, follow these steps :
+If you prefer to do it manually, follow these steps:
 
 - Locate the appropriate folder in the local repository (e.g. `tutorials/wallet`).
 - Create a directory dedicated to the tutorial with a clear name (e.g. `green-wallet`). This folder name will also determine the URL path of the tutorial. It should be in lower case, with no special characters (except hyphens) and no spaces.
 - Add the following items to this directory:
-    - A subfolder named `assets` containing :
+    - A subfolder named `assets` containing:
         - Two `.webp` images:
             - `logo.webp`: The tutorial logo (square format with background). This logo must represent the software or tool presented. If the tutorial is not specific to a tool (e.g.: a general guide to generating a mnemonic phrase), you can choose a suitable visual (e.g.: a generic icon).
             - `cover.webp`: A cover image displayed at the start of the tutorial.
@@ -165,32 +165,32 @@ proofreading:
 
 Here are the required fields:
 
-- **id** : A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
+- **id**: A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- **project_id** : The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
 
-- **tags** : 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : The difficulty level of the tutorial, chosen from:
+- **level**: The difficulty level of the tutorial, chosen from:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : The original language of the tutorial (e.g., `fr`, `en`, etc.);
+- **original_language**: The original language of the tutorial (e.g., `fr`, `en`, etc.);
 
-- **proofreading** : Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
-    - **language** : Language code of the proofreading (e.g., `fr`, `en`, etc.).
-    - **last_contribution_date** : Date of the day.
-    - **urgency** : 1
-    - **contributor_names** : Your GitHub ID.
-    - **reward** : 0
+- **proofreading**: Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
+    - **language**: Language code of the proofreading (e.g., `fr`, `en`, etc.).
+    - **last_contribution_date**: Date of the day.
+    - **urgency**: 1
+    - **contributor_names**: Your GitHub ID.
+    - **reward**: 0
 
-For more details on your teacher ID, please refer to the corresponding tutorial :
+For more details on your teacher ID, please refer to the corresponding tutorial:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -224,7 +224,7 @@ proofreading:
 
 ### 5 - Write the content
 
-- Complete the Markdown file properties with :
+- Complete the Markdown file properties with:
     - The title (`name`).
     - A short description (`description`).
 - Add the cover image at the top of the tutorial using Markdown syntax (replace "green" with the name of the tool shown):
@@ -233,9 +233,9 @@ proofreading:
 ![cover-green](assets/cover.webp)
 ```
 
-- Write the tutorial content in Markdown :
+- Write the tutorial content in Markdown:
     - Use well-structured headings (`##`), lists and paragraphs.
-    - Insert visuals using Markdown syntax :
+    - Insert visuals using Markdown syntax:
 
 ```
 ![nom-image](assets/en/001.webp)
@@ -277,25 +277,25 @@ git push origin tuto-green-wallet-loic
 
 ## Content creation standards
 
-- Formatting supported on the platform** :
+- Formatting supported on the platform**:
     - Classic Markdown: lists, links, images, quotes, bold, italics, etc.
     - LaTeX (block only, not inline): delimited by `$$`.
     - Inline code: Syntax with a single backtick.
-    - Code blocks: Syntax with three backticks, for example :
+    - Code blocks: Syntax with three backticks, for example:
 
 ```
 print("Hello, Bitcoin!")
 ```
 
-- Illustrations and diagrams** :
+- Illustrations and diagrams**:
     - All images must be in WebP format. Use this free tool to convert them if required: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Name visuals with 2 or 3 digits (e.g. `001.webp`, `002.webp`).
     - For mobile or hardware wallet tutorials, use mock-ups.
     - Use only self-created or royalty-free visuals.
     - Make sure they are relevant and of high quality.
-- Graphic charter** :
+- Graphic charter**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Colors Plan ₿ Network :
+    - Colors Plan ₿ Network:
         - Orange: `#FF5C00`
         - Black: `#000000`
         - White: `#FFFFFF`

@@ -270,7 +270,7 @@ Razgovor će se zatim pojaviti na početnoj stranici. Ako osoba prihvati vaš za
 
 
 
-Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u :
+Takođe preporučujem ovaj drugi vodič, u kojem vas upoznajem sa Proton Mail-om, mnogo privatnijom alternativom Gmail-u:
 
 
 

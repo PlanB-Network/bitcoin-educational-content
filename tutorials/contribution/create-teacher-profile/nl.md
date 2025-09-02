@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 
-Start vervolgens de software met het commando :
+Start vervolgens de software met het commando:
 
 
 ```bash
@@ -96,7 +96,7 @@ Klik dan op de knop "*New Professor*".
 ![Image](assets/fr/01.webp)
 
 
-Vul de vereiste informatie in (merk op dat al deze informatie openbaar zal zijn op zowel ons platform als op GitHub) :
+Vul de vereiste informatie in (merk op dat al deze informatie openbaar zal zijn op zowel ons platform als op GitHub):
 
 
 

@@ -76,7 +76,7 @@ Nas opções 2FA, pode optar por utilizar uma chave de segurança física como s
 
 ![KRAKEN](assets/fr/11.webp)
 
-Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado :
+Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ Para ativar este método, digitalize o código QR com a aplicação da sua escol
 
 ![KRAKEN](assets/fr/13.webp)
 
-Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial :
+Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ Também pode trocar os seus bitcoins por outras criptomoedas, como stablecoins, 
 
 Selecione o montante, escolha a criptomoeda que pretende obter e, em seguida, confirme a transação.
 
-Para estas transacções, pode escolher entre diferentes tipos de ordens: *Market*, *Limit*, ou *Stop-Loss* :
+Para estas transacções, pode escolher entre diferentes tipos de ordens: *Market*, *Limit*, ou *Stop-Loss*:
 
 
-- Mercado* : Permite a compra imediata ao preço atual de mercado;
+- Mercado*: Permite a compra imediata ao preço atual de mercado;
 - Limite*: Permite especificar um preço de compra, e a ordem só será executada se o preço de mercado atingir esse valor;
-- Stop-Loss* : Vende automaticamente quando o preço atinge um determinado limite.
+- Stop-Loss*: Vende automaticamente quando o preço atinge um determinado limite.
 
 ## 7 - Gestão de transacções e contabilidade
 

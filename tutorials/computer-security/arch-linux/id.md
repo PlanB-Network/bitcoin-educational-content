@@ -66,7 +66,7 @@ Sejak 2017, Arch Linux tidak lagi mendukung arsitektur 32-bit. Hanya versi 64-bi
 
 
 
-Untuk membuat flash drive USB yang dapat di-boot, Anda dapat menggunakan alat bantu seperti **Balena Etcher** :
+Untuk membuat flash drive USB yang dapat di-boot, Anda dapat menggunakan alat bantu seperti **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Pada layar boot, pilih opsi pertama untuk meluncurkan instalasi. Perhatikan bahw
 
 
 
-Anda dapat menampilkan tata letak yang tersedia dengan :
+Anda dapat menampilkan tata letak yang tersedia dengan:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Kemudian muat tata letak dengan :
+Kemudian muat tata letak dengan:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux menggunakan alat `timedatectl` untuk mengelola jam sistem.
 
 
 
-- Atur zona waktu Anda dengan :
+- Atur zona waktu Anda dengan:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Periksa apakah sinkronisasi otomatis diaktifkan dengan :
+- Periksa apakah sinkronisasi otomatis diaktifkan dengan:
 
 
 ```shell
@@ -208,7 +208,7 @@ Ini akan mengaktifkan NTP, protokol untuk sinkronisasi otomatis dengan server wa
 
 
 
-- Periksa apakah sistem Anda melakukan booting di **UEFI** atau **BIOS** dengan file :
+- Periksa apakah sistem Anda melakukan booting di **UEFI** atau **BIOS** dengan file:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Mulai Manajer Partisi :
+- Mulai Manajer Partisi:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Pasang partisi **root**:
 
 
 
-- Pada BIOS :
+- Pada BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- di UEFI :
+- di UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Instal editor teks untuk mengedit :
+- Instal editor teks untuk mengedit:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Mengatur bahasa :
+- Mengatur bahasa:
 
 
 Edit `/etc/locale.gen` lalu hapus baris `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Edit `/etc/locale.gen` lalu hapus baris `en_US.UTF-8 UTF-8`
 
 
 
-- Mengatur nama mesin :
+- Mengatur nama mesin:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Atur kata sandi root :
+- Atur kata sandi root:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Instal file :
+Instal file:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Mulai ulang :
+- Mulai ulang:
 
 
 ```shell
@@ -551,7 +551,7 @@ Saat memulai, masuk dengan login dan kata sandi **root** Anda.
 
 
 
-Mungkin saja tidak ada koneksi jaringan yang aktif saat reboot. Anda dapat membuat daftar antarmuka dengan :
+Mungkin saja tidak ada koneksi jaringan yang aktif saat reboot. Anda dapat membuat daftar antarmuka dengan:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Secara default, **Arch Linux** tidak memiliki Interface grafis. Untuk menambahkannya :
+Secara default, **Arch Linux** tidak memiliki Interface grafis. Untuk menambahkannya:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktifkan **pengelola sesi** :
+Aktifkan **pengelola sesi**:
 
 
 
@@ -652,7 +652,7 @@ Setelah berada di **Interface GNOME**, Anda perlu membuat pengguna baru untuk ke
 
 
 
-- Menambahkan pengguna :
+- Menambahkan pengguna:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Instal **sudo** :
+- Instal **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Kemudian hapus baris tersebut :
+- Kemudian hapus baris tersebut:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Contohnya, untuk menginstal editor teks **nano**, Anda bisa mengetikkan :
+Contohnya, untuk menginstal editor teks **nano**, Anda bisa mengetikkan:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Untuk menginstal peramban web yang ringan seperti `firefox`, gunakan :
+Untuk menginstal peramban web yang ringan seperti `firefox`, gunakan:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Terakhir, jika Anda ingin menambahkan alat jaringan yang penting seperti `net-tools`, perintahnya adalah :
+Terakhir, jika Anda ingin menambahkan alat jaringan yang penting seperti `net-tools`, perintahnya adalah:
 
 
 

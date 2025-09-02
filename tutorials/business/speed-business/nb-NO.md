@@ -22,7 +22,7 @@ Den verdensomspennende adopsjonen av Bitcoin er basert på konkrete brukstilfell
 
 
 
-Speed har et bredt spekter av funksjoner for å dekke de økonomiske aspektene ved virksomheten din. Du finner :
+Speed har et bredt spekter av funksjoner for å dekke de økonomiske aspektene ved virksomheten din. Du finner:
 
 
 

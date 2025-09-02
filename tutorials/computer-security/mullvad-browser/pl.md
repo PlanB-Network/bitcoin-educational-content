@@ -150,7 +150,7 @@ Mullvad Browser zawiera **trzy preinstalowane rozszerzenia**, które stanowią r
 ### **uBlock Origin**
 
 
-To rozszerzenie do blokowania reklam i trackerów jest wstępnie skonfigurowane z **zoptymalizowanymi listami filtrów** do blokowania :
+To rozszerzenie do blokowania reklam i trackerów jest wstępnie skonfigurowane z **zoptymalizowanymi listami filtrów** do blokowania:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin w Mullvad Browser wykorzystuje standardowe parametry, aby zapewni�
 ### **NoScript**
 
 
-NoScript działa w tle, aby zarządzać **poziomami bezpieczeństwa** przeglądarki. To :
+NoScript działa w tle, aby zarządzać **poziomami bezpieczeństwa** przeglądarki. To:
 
 
 
@@ -328,7 +328,7 @@ Kliknij przycisk **"Pobierz "** odpowiadający Twojemu systemowi operacyjnemu.
 
 
 
-W przypadku systemu Linux można wybrać różne formaty w zależności od dystrybucji. Po zakończeniu pobierania :
+W przypadku systemu Linux można wybrać różne formaty w zależności od dystrybucji. Po zakończeniu pobierania:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser oferuje trzy poziomy zabezpieczeń:
 
 
 
-- Normalny** (bieżący poziom domyślny) : Wszystkie funkcje przeglądarki i strony internetowej są włączone
+- Normalny** (bieżący poziom domyślny): Wszystkie funkcje przeglądarki i strony internetowej są włączone
 
 
 

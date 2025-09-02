@@ -123,7 +123,7 @@ Du kommer sedan att behöva betala 1 sat för att verifiera din Lightning Addres
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Slutligen har du möjlighet att lägga till en hänvisningskod. Om du vill stödja oss kan du använda koden "*DiscoverBitcoin*" så att en del av dina provisioner delas med oss. Vi tackar dig! :)![SWISS Bitcoin PAY](tillgångar/notext/12.webp)
+Slutligen har du möjlighet att lägga till en hänvisningskod. Om du vill stödja oss kan du använda koden "*DiscoverBitcoin*" så att en del av dina provisioner delas med oss. Vi tackar dig!:)![SWISS Bitcoin PAY](tillgångar/notext/12.webp)
 
 När alla uppgifter är ifyllda klickar du på knappen "*Sänd*".
 

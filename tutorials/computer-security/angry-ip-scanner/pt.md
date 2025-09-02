@@ -38,7 +38,7 @@ Menos abrangente que o Nmap, o **Angry IP** Scanner continua a ser interessante 
 
 
 
-Se quiser ir mais longe, consulte o tutorial sobre o Nmap :
+Se quiser ir mais longe, consulte o tutorial sobre o Nmap:
 
 
 

@@ -27,7 +27,7 @@ Fedora also includes a desktop environment, which is the Interface through which
 ## Why choose Fedora?
 
 
-Among the multitude of Linux distributions available, Fedora stands out in particular for :
+Among the multitude of Linux distributions available, Fedora stands out in particular for:
 
 
 
@@ -49,7 +49,7 @@ Among the multitude of Linux distributions available, Fedora stands out in parti
 ## Fedora editions
 
 
-Depending on your profile and usage, Fedora offers editions to suit your needs. You'll mainly find :
+Depending on your profile and usage, Fedora offers editions to suit your needs. You'll mainly find:
 
 
 
@@ -149,7 +149,7 @@ The first step is to select Fedora's **installation language** and **keyboard la
 
 
 
-- Selecting the installation disk :
+- Selecting the installation disk:
 
 
 Choose the hard disk on which you want to install Fedora.
@@ -162,7 +162,7 @@ If the disk is empty, Fedora will automatically use all available space. Otherwi
 
 
 
-- Encryption :
+- Encryption:
 
 
 At this stage, Fedora suggests encrypting your disk to add an extra layer of security. This ensures that your data can only be read by your Fedora system.
@@ -298,7 +298,7 @@ A **restart** may be required once updates have been installed.
 ### Option 2: Via terminal
 
 
-- Open a terminal and start by updating the **repositories** to make sure you have the latest versions of :
+- Open a terminal and start by updating the **repositories** to make sure you have the latest versions of:
 
 
 ```shell

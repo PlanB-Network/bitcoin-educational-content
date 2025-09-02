@@ -51,7 +51,7 @@ Lo strumento è ampiamente utilizzato da una vasta gamma di utenti, tra cui ammi
 
 
 
-Il progetto è disponibile a questo Address su **Github** :
+Il progetto è disponibile a questo Address su **Github**:
 
 
 
@@ -82,7 +82,7 @@ Questa modalità di installazione consente di utilizzare il comando **lynis** da
 
 
 
-Collegarsi al server tramite SSH e inserire i seguenti comandi per installare Lynis :
+Collegarsi al server tramite SSH e inserire i seguenti comandi per installare Lynis:
 
 
 
@@ -209,7 +209,7 @@ Per visualizzare i comandi disponibili, basta inserire il seguente comando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Ecco cosa si ottiene:
 
 
 
-Se si desidera visualizzare tutte le opzioni, è necessario immettere :
+Se si desidera visualizzare tutte le opzioni, è necessario immettere:
 
 
 
@@ -336,7 +336,7 @@ Qui possiamo vedere che Lynis raccomanda di installare **fail2ban**:
 
 
 
-Nella sezione "**Boot e servizi**", vediamo che la protezione dei servizi tramite *systemd* potrebbe essere migliorata. Il lato positivo è che Grub2 è presente e non ci sono problemi di permessi su :
+Nella sezione "**Boot e servizi**", vediamo che la protezione dei servizi tramite *systemd* potrebbe essere migliorata. Il lato positivo è che Grub2 è presente e non ci sono problemi di permessi su:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Alcune informazioni sui pacchetti installati :
+Alcune informazioni sui pacchetti installati:
 
 
 
@@ -623,7 +623,7 @@ Diamo un'occhiata alle raccomandazioni SSH. Sono elencate di seguito. Non preocc
 
 
 
-Diamo un'occhiata più da vicino alla mia attuale configurazione **SSH** in :**/etc/ssh/sshd_config**
+Diamo un'occhiata più da vicino alla mia attuale configurazione **SSH** in:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ La configurazione suggerita di seguito può ancora essere ottimizzata, ma fornis
 
 
 
-Noi :
+Noi:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Mantenere l'autenticazione con password :
+- Mantenere l'autenticazione con password:
 
 
 
@@ -804,7 +804,7 @@ Si noti che in alcune giurisdizioni l'invio di un messaggio prima dell'autentica
 
 
 
-In immagini, questo dà :
+In immagini, questo dà:
 
 
 

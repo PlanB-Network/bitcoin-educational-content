@@ -209,7 +209,7 @@ Lynis در دستگاه ما موجود است، پس بیایید یاد بگی
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -336,7 +336,7 @@ sudo lynis audit system
 
 
 
-در بخش "**بوت و خدمات**"، می‌بینیم که حفاظت از خدمات از طریق *systemd* می‌تواند بهبود یابد. از جنبه مثبت، Grub2 حضور دارد و هیچ مشکلی با مجوزها در :
+در بخش "**بوت و خدمات**"، می‌بینیم که حفاظت از خدمات از طریق *systemd* می‌تواند بهبود یابد. از جنبه مثبت، Grub2 حضور دارد و هیچ مشکلی با مجوزها در:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-برخی اطلاعات درباره بسته‌های نصب شده :
+برخی اطلاعات درباره بسته‌های نصب شده:
 
 
 
@@ -623,7 +623,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-بیایید نگاهی دقیق‌تر به پیکربندی فعلی **SSH** من در :**/etc/ssh/sshd_config** بیندازیم.
+بیایید نگاهی دقیق‌تر به پیکربندی فعلی **SSH** من در:**/etc/ssh/sshd_config** بیندازیم.
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- احراز هویت با رمز عبور را حفظ کنید :
+- احراز هویت با رمز عبور را حفظ کنید:
 
 
 

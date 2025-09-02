@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Su Windows
 
 
-Scaricare il programma di installazione (.exe) dal sito ufficiale o utilizzare il file :
+Scaricare il programma di installazione (.exe) dal sito ufficiale o utilizzare il file:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf carica automaticamente le pagine in modalità "strict" (anti-tracciame
 
 
 
-LibreWolf è già configurato in modo ottimale per la privacy. In Menu → Opzioni → Privacy e sicurezza, vedrete che LibreWolf è impostato sulla modalità di protezione dal tracciamento avanzata: Strict. Questa modalità blocca :
+LibreWolf è già configurato in modo ottimale per la privacy. In Menu → Opzioni → Privacy e sicurezza, vedrete che LibreWolf è impostato sulla modalità di protezione dal tracciamento avanzata: Strict. Questa modalità blocca:
 
 
 

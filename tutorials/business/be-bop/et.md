@@ -15,7 +15,7 @@ Lahendus on lihtne, kerge ja autonoomne. See võimaldab luua veebipoe isegi kesk
 
 
 
-Selles õpetuses võtame teid samm-sammult läbi :
+Selles õpetuses võtame teid samm-sammult läbi:
 
 
 
@@ -44,7 +44,7 @@ Enne be-BOPi paigaldamist veenduge, et teil on olemas järgmine tehniline infras
 
 
 
-be-BOP kasutab failide (näiteks tootepiltide) haldamiseks salvestussüsteemi. Selleks on vaja juurdepääsu S3-teenusele, näiteks :
+be-BOP kasutab failide (näiteks tootepiltide) haldamiseks salvestussüsteemi. Selleks on vaja juurdepääsu S3-teenusele, näiteks:
 
 
 
@@ -302,7 +302,7 @@ Kui te ei soovi Lightning-sõlme ise hallata, siis **Swiss Bitcoin Pay** on kasu
 
 
 
-Konfigureerimise sammud :
+Konfigureerimise sammud:
 
 
 
@@ -330,7 +330,7 @@ Lisaks Bitcoin võimaldab be-BOP võtta vastu ka sularahamakseid PayPal'i kaudu,
 
 
 
-Konfigureerimise sammud :
+Konfigureerimise sammud:
 
 
 
@@ -467,7 +467,7 @@ Konfiguratsioon **Top Bar** võimaldab teil isikupärastada oma tarkvara visuaal
 
 
 
-#### Konfigureerimise sammud :
+#### Konfigureerimise sammud:
 
 
 
@@ -491,7 +491,7 @@ Kui see teave on sisestatud, kuvatakse **Topbaril** teie lahenduse selge, profes
 
 
 
-#### Konfigureerimise sammud :
+#### Konfigureerimise sammud:
 
 
 
@@ -760,7 +760,7 @@ Toote lisamiseks või muutmiseks minge menüüsse `Admin > Kaup > Tooted`. Täit
 
 - Hinnasumma**: toote hind (nt "25.00").
 - Hind Valuuta**: valuuta (EUR, USD, BTC jne).
-- Eritooted** :
+- Eritooted**:
   - see on tasuta toode.
   - see on tasuline toode.
 
@@ -773,10 +773,10 @@ Toote lisamiseks või muutmiseks minge menüüsse `Admin > Kaup > Tooted`. Täit
 
 
 - Üksiktoode (standalone)**: ühe tellimuse kohta on võimalik ainult üks lisa (nt annetus, sissepääsupilet).
-- Variatsioonidega toode** :
+- Variatsioonidega toode**:
   - Ärge kontrollige `Standalone`.
   - Kontrollida `Toode on kerge varieeruvusega (ei ole varude erinevus)`.
-  - Lisa :
+  - Lisa:
     - Nimi** (nt *Size*),
     - Väärtused** (nt: S, M, L, XL),
     - Vajaduse korral hinnavahe** (nt: "+ 2 USD" XL-i puhul).
@@ -803,7 +803,7 @@ Kui teie toode ei ole saadaval piiramatus koguses, märkige "Tootel on piiratud 
 
 
 
-Süsteem haldab :
+Süsteem haldab:
 
 
 
@@ -872,7 +872,7 @@ Mine menüüsse `Admin > Kaup > CMS`. Näete nimekirja olemasolevatest lehekülg
 
 
 
-CMS leheküljed on olulised :
+CMS leheküljed on olulised:
 
 
 
@@ -906,7 +906,7 @@ Te võite lisada muid lehekülgi vastavalt vajadusele:
 
 
 
-Mine : `Admin > Merch > Layout`. Saate kohandada oma saidi visuaalset Elements:
+Mine: `Admin > Merch > Layout`. Saate kohandada oma saidi visuaalset Elements:
 
 
 
@@ -932,7 +932,7 @@ Mine : `Admin > Merch > Layout`. Saate kohandada oma saidi visuaalset Elements:
 
 
 - Esineb halli ala ülemise tulba all
-- Sisaldab kiiret juurdepääsu : `Konfig`, `Maksmise seaded`, `Tehingud`, `Sõlmede haldamine`, `Vidinad` jne.
+- Sisaldab kiiret juurdepääsu: `Konfig`, `Maksmise seaded`, `Tehingud`, `Sõlmede haldamine`, `Vidinad` jne.
 - Ainult direktorid
 
 
@@ -956,7 +956,7 @@ Mine: `Admin > Kaup > Pildid`
 
 
 
-Saate :
+Saate:
 
 
 
@@ -1004,7 +1004,7 @@ Näiteid saadaval olevatest vidinatest:
 - Väljakutsed**: väljakutsed või missioonid
 - Sildid**: kategooriad või märksõnad
 - Liugurid**: pildikarussellid
-- Spetsifikatsioonid** : Spetsifikatsioonide tabelid
+- Spetsifikatsioonid**: Spetsifikatsioonide tabelid
 - Vormid**: vormid (kontakt, tagasiside jne.)
 - Tagasiarvamised**: taimerid
 - Galeriid**: pildigaleriid
@@ -1033,7 +1033,7 @@ Kasutage oma CMS-lehtede sisus **shortcodes**:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Parameetrid** :
+**Parameetrid**:
 
 
 
@@ -1046,7 +1046,7 @@ Kasutage oma CMS-lehtede sisus **shortcodes**:
 
 
 
-**Eelised** :
+**Eelised**:
 
 
 
@@ -1103,7 +1103,7 @@ Need filtrid hõlbustavad kiiret otsingut ja sihipärast haldamist.
 
 
 
-Klõpsates tellimusel, saate juurdepääsu täielikule failile, mis sisaldab :
+Klõpsates tellimusel, saate juurdepääsu täielikule failile, mis sisaldab:
 
 
 
@@ -1120,7 +1120,7 @@ Klõpsates tellimusel, saate juurdepääsu täielikule failile, mis sisaldab :
 
 
 
-Saate :
+Saate:
 
 
 
@@ -1141,7 +1141,7 @@ Saate :
 
 
 
-Müügi- ja maksestatistikale juurdepääsuks :
+Müügi- ja maksestatistikale juurdepääsuks:
 
 
 administraator > Seaded > Aruandlus
@@ -1176,7 +1176,7 @@ Aruanded on jagatud osadeks:
 
 
 
-Iga sektsioon sisaldab nuppu **Export CSV**, mis võimaldab teil :
+Iga sektsioon sisaldab nuppu **Export CSV**, mis võimaldab teil:
 
 
 
@@ -1217,7 +1217,7 @@ Platvorm toetab **Nostr**-protokolli teatavate täiustatud funktsioonide jaoks:
 
 
 
-Mine :
+Mine:
 
 
 admin > Node Management > Nostr
@@ -1304,7 +1304,7 @@ Siit leiate kõik võimalused kohandatud teema **loomiseks** ja **konfigureerimi
 
 
 
-Teema loomisel või muutmisel saate määrata :
+Teema loomisel või muutmisel saate määrata:
 
 
 
@@ -1328,7 +1328,7 @@ Saidi iga osa saab reguleerida iseseisvalt:
 
 - Pealkiri**: ülemine navigatsiooniriba
 - Body**: peamine sisu
-- Alumine osa** : lehekülje alumine osa
+- Alumine osa**: lehekülje alumine osa
 
 
 
@@ -1340,7 +1340,7 @@ Saidi iga osa saab reguleerida iseseisvalt:
 
 
 
-Kui teema on konfigureeritud :
+Kui teema on konfigureeritud:
 
 
 
@@ -1371,7 +1371,7 @@ Platvorm võimaldab teil personaliseerida kasutajatele automaatselt saadetavaid 
 
 
 
-Iga e-kiri (tellimuse kinnitus, unustatud parool jne) on :
+Iga e-kiri (tellimuse kinnitus, unustatud parool jne) on:
 
 
 
@@ -1390,14 +1390,14 @@ Iga e-kiri (tellimuse kinnitus, unustatud parool jne) on :
 
 
 
-E-kirjade dünaamiliseks muutmiseks sisestage muutujaid nagu :
+E-kirjade dünaamiliseks muutmiseks sisestage muutujaid nagu:
 
 
 
 
 
-- `{Tellimusnumber}}` : asendatakse tegeliku tellimuse numbriga
-- `{invoiceLink}}` : link Invoice-le
+- `{Tellimusnumber}}`: asendatakse tegeliku tellimuse numbriga
+- `{invoiceLink}}`: link Invoice-le
 - `{websiteLink}}`: Teie veebilehe URL
 
 
@@ -1454,7 +1454,7 @@ Täitke järgmised väljad:
 
 
 
-#### Olemasolevad perekonnad :
+#### Olemasolevad perekonnad:
 
 
 
@@ -1489,7 +1489,7 @@ Neid välju saab kasutada sildi rikastamiseks, nagu oleks tegemist sisulehega:
 
 
 
-Sildid võivad olla :
+Sildid võivad olla:
 
 
 
@@ -1515,7 +1515,7 @@ Et pakkuda oma klientidele allalaaditavaid dokumente: `Admin > Kaup > Failid`
 1. Klõpsake **Uue fail**
 
 
-2. Teavita :
+2. Teavita:
 
 
 
@@ -1533,7 +1533,7 @@ Et pakkuda oma klientidele allalaaditavaid dokumente: `Admin > Kaup > Failid`
 
 
 
-Selle lingi saab seejärel sisestada :
+Selle lingi saab seejärel sisestada:
 
 
 
@@ -1557,7 +1557,7 @@ Platvorm pakub täiustatud integratsiooni **Nostr**-protokolliga automaatse bot'
 
 
 
-Mine : sõlme haldamine > Nostr
+Mine: sõlme haldamine > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Mine : sõlme haldamine > Nostr
 
 
 - Aktiveeri automaatne sõnum **esimesel kasutajakontaktil**
-- Sobib ideaalselt :
+- Sobib ideaalselt:
   - Teenuse esitlemine
   - Saada kasulik link (nt KKK, kontakt, tellimus)
 
@@ -1629,7 +1629,7 @@ Selleks minge aadressile: seadistused > Keel
 
 
 
-Tõlkefailid on JSONis. Saate :
+Tõlkefailid on JSONis. Saate:
 
 
 
@@ -1641,7 +1641,7 @@ Tõlkefailid on JSONis. Saate :
 
 
 
-Link originaalfailidele :
+Link originaalfailidele:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Rolli loomiseks klõpsake **Loo roll** (nt `Superadmin`, `POS`, `Pileti kontroll
 
 
 
-Iga roll sisaldab :
+Iga roll sisaldab:
 
 
 
@@ -1688,7 +1688,7 @@ Iga roll sisaldab :
 
 
 
-Samas menüüs `Admin > Settings > ARM` lisage kasutaja :
+Samas menüüs `Admin > Settings > ARM` lisage kasutaja:
 
 
 
@@ -1760,7 +1760,7 @@ Väljal `/cart` on väli, mis võimaldab teil lisada toote:
 
 
 
-POS toetab :
+POS toetab:
 
 
 
@@ -1779,7 +1779,7 @@ Saadaval on kaks täiustatud valikut:
 
 
 
-- Käibemaksuvabastus** : kohaldatakse põhjenduse korral (valitsusvälised organisatsioonid, välismaalased...)
+- Käibemaksuvabastus**: kohaldatakse põhjenduse korral (valitsusvälised organisatsioonid, välismaalased...)
 - Kinkesoodustus**: erakorraline allahindlus koos kohustusliku märkusega
 
 

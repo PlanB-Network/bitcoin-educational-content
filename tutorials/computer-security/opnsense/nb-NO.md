@@ -124,7 +124,7 @@ Dette er bare en oversikt over funksjonene som OPNsense tilbyr. I tillegg kan du
 
 
 
-Først og fremst må du bestemme deg for hvor du skal installere OPNsense. Det finnes flere mulige løsninger, blant annet installasjon på :
+Først og fremst må du bestemme deg for hvor du skal installere OPNsense. Det finnes flere mulige løsninger, blant annet installasjon på:
 
 
 
@@ -349,7 +349,7 @@ Slik fungerer det:
 
 
 
-Vi har nå :
+Vi har nå:
 
 
 
@@ -546,7 +546,7 @@ Vi må derfor opprette brannmurregler... Bla gjennom menyen på følgende måte:
 
 
 
-Deretter oppretter du tre nye regler for å autorisere **LAN-nettverket** (dvs. "**LAN net**") til :
+Deretter oppretter du tre nye regler for å autorisere **LAN-nettverket** (dvs. "**LAN net**") til:
 
 
 

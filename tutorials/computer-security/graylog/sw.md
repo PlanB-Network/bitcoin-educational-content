@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Ifuatayo, tutasasisha kashe ya kifurushi na kujaribu kusakinisha MongoDB :
+Ifuatayo, tutasasisha kashe ya kifurushi na kujaribu kusakinisha MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB haiwezi kusakinishwa kwa sababu utegemezi haupo: **libssl1.1**. Itabidi 
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,7 +279,7 @@ Usanidi huu wa OpenSearch umeundwa ili kusanidi nodi moja. Hapa kuna baadhi ya m
 
 
 
-- cluster.name: graylog** : kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
+- cluster.name: graylog**: kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
 - node.name: ${HOSTNAME}**: jina la nodi limewekwa kwa nguvu ili lilingane na mashine ya ndani ya Linux. Hata kama tuna nodi moja tu, ni muhimu kuipa jina kwa usahihi.
 - path.data: /var/lib/opensearch**: njia hii inabainisha ambapo OpenSearch huhifadhi data yake kwenye mashine ya ndani, katika hali hii katika "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: njia hii inafafanua ambapo faili za kumbukumbu za OpenSearch zimehifadhiwa, hapa katika "**/var/log/opensearch**".
@@ -408,7 +408,7 @@ Hatua inayofuata: usakinishaji uliosubiriwa kwa muda mrefu wa Graylog!
 
 
 
-Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Seva ya Greylog** :
+Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Seva ya Greylog**:
 
 
 
@@ -432,7 +432,7 @@ Wacha tuanze kwa kusanidi chaguzi hizi mbili:
 
 
 - password_secret**: parameta hii inatumika kufafanua ufunguo unaotumiwa na Graylog ili kupata hifadhi ya nywila za mtumiaji (kwa roho ya ufunguo wa salting). Ufunguo huu lazima uwe **kipekee** na **nasibu**.
-- root_password_sha2** : parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
+- root_password_sha2**: parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ Katika saraka hii, lazima utumie nambari ili kufafanua utaratibu wa upakiaji, kw
 
 
 
-Katika saraka hii, tutaunda faili inayoitwa "**10-graylog.conf**" :
+Katika saraka hii, tutaunda faili inayoitwa "**10-graylog.conf**":
 
 
 

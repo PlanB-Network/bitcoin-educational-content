@@ -34,7 +34,7 @@ Fedora takođe uključuje radno okruženje, koje je Interface kroz koje korisnic
 
 
 
-Među mnoštvom dostupnih Linux distribucija, Fedora se posebno ističe zbog :
+Među mnoštvom dostupnih Linux distribucija, Fedora se posebno ističe zbog:
 
 
 
@@ -205,7 +205,7 @@ Prvi korak je odabir **jezika instalacije** i **rasporeda tastature** za Fedoru.
 
 
 
-- Odabir diska za instalaciju :
+- Odabir diska za instalaciju:
 
 
 
@@ -223,7 +223,7 @@ Ako je disk prazan, Fedora će automatski koristiti sav raspoloživi prostor. U 
 
 
 
-- Enkripcija :
+- Enkripcija:
 
 
 

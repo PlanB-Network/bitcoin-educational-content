@@ -241,8 +241,8 @@ Tải xuống trình cài đặt (.exe) từ trang web chính thức hoặc sử
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget cài đặt librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget cài đặt librewolf`
 
 
 

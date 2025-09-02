@@ -435,7 +435,6 @@ Bitcoin garandeert een gezond monetair management door de creatie ervan te beper
 
 Samengevat biedt Bitcoin, met zijn gedecentraliseerde aard, geprogrammeerde schaarste en transparantie, een uniek alternatief voor traditionele monetaire systemen. Het illustreert hoe technologie gebruikt kan worden om een valuta te creëren die niet alleen nuttig en controleerbaar is, maar ook de waarde van het spaargeld van gebruikers behoudt door de geldhoeveelheid strikt te beperken.
 
-### Conclusie van sectie 2!
 
 # Bitcoin Wallets (Portefeuilles)
 
@@ -688,7 +687,7 @@ Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste b
 > "We kunnen een belangrijke slag winnen in de wapenwedloop en een
 > nieuw territorium van vrijheid voor meerdere jaren verwerven." - Satoshi Nakamoto
 
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### Het Bitcoin protocol komt tot leven
 
@@ -701,7 +700,7 @@ Het forum werd al snel de favoriete plaats voor discussie onder Bitcoin gebruike
 
 **Wist je dat?** Op 22 mei 2010 schreef Laszlo Hanyecz geschiedenis door 10.000 BTC aan te bieden om twee pizza's te kopen: het was de eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### De verdwijning van Satoshi Nakamoto
 

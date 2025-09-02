@@ -34,7 +34,7 @@ Fedora juga menyertakan lingkungan desktop, yang merupakan Interface yang diguna
 
 
 
-Di antara sekian banyak distribusi Linux yang tersedia, Fedora menonjol khususnya untuk distribusi :
+Di antara sekian banyak distribusi Linux yang tersedia, Fedora menonjol khususnya untuk distribusi:
 
 
 
@@ -66,7 +66,7 @@ Di antara sekian banyak distribusi Linux yang tersedia, Fedora menonjol khususny
 
 
 
-Bergantung pada profil dan penggunaan Anda, Fedora menawarkan edisi yang sesuai dengan kebutuhan Anda. Anda terutama akan menemukan :
+Bergantung pada profil dan penggunaan Anda, Fedora menawarkan edisi yang sesuai dengan kebutuhan Anda. Anda terutama akan menemukan:
 
 
 
@@ -205,7 +205,7 @@ Langkah pertama adalah memilih **bahasa instalasi** dan **tata letak keyboard** 
 
 
 
-- Memilih disk instalasi :
+- Memilih disk instalasi:
 
 
 
@@ -223,7 +223,7 @@ Jika disk kosong, Fedora akan secara otomatis menggunakan semua ruang yang terse
 
 
 
-- Enkripsi :
+- Enkripsi:
 
 
 
@@ -415,7 +415,7 @@ Pengaktifan ulang **restart** mungkin diperlukan setelah pembaruan diinstal.
 
 
 
-- Buka terminal dan mulailah dengan memperbarui **repositori** untuk memastikan Anda memiliki versi terbaru dari :
+- Buka terminal dan mulailah dengan memperbarui **repositori** untuk memastikan Anda memiliki versi terbaru dari:
 
 
 

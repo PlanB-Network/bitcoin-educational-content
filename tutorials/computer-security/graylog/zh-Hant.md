@@ -71,7 +71,7 @@ Graylog 是一種分析和監控工具，可讓您更容易識別可疑行為和
 
 
 
-來源 : Graylog
+來源: Graylog
 
 
 
@@ -149,8 +149,8 @@ sudo apt-get install -y mongodb-org
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,7 +279,7 @@ plugins.security.disabled: true
 
 
 
-- cluster.name: graylog** : 此參數以 "**graylog**" 命名 OpenSearch 集群。
+- cluster.name: graylog**: 此參數以 "**graylog**" 命名 OpenSearch 集群。
 - node.name：${HOSTNAME}**：節點名稱是動態設定的，以符合本機 Linux 機器的名稱。即使我們只有一個節點，正確命名也是很重要的。
 - path.data：/var/lib/opensearch**：此路徑指定 OpenSearch 在本機上儲存資料的位置，在本例中為「**/var/lib/opensearch**」。
 - path.logs：/var/log/opensearch**：此路徑定義 OpenSearch 日誌檔案的儲存位置，這裡是 "**/var/log/opensearch**"。
@@ -432,7 +432,7 @@ sudo apt-get install graylog-server
 
 
 - password_secret**：這個參數用來定義 Graylog 用來確保使用者密碼儲存安全的金鑰 (如同鹽化金鑰的精神)。此密鑰必須是 ** 唯一 ** 且 ** 隨機的。
-- root_password_sha2** : 這個參數對應於 Graylog 的預設管理員密碼。它儲存為 Hash SHA-256。
+- root_password_sha2**: 這個參數對應於 Graylog 的預設管理員密碼。它儲存為 Hash SHA-256。
 
 
 

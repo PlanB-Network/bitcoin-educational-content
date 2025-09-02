@@ -460,7 +460,6 @@ Bitcoin garanterar en sund monetär hantering genom att begränsa dess skapande 
 
 Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmerade knapphet och transparens, ett unikt alternativ till traditionella monetära system. Den illustrerar hur teknik kan användas för att skapa en valuta som inte bara är användbar och verifierbar, utan också bevarar värdet på användarnas besparingar genom att strikt begränsa tillgången.
 
-### Slutsats av avsnitt 1!
 
 # Bitcoin-plånböcker
 
@@ -715,7 +714,7 @@ Den 3 januari 2009 invigde Satoshi officiellt Bitcoin-nätverket genom att skapa
 ![image](assets/en/41.webp)
 
 > "Vi kan vinna en viktig strid i kapprustningen och få nya territorium av frihet i flera år." - Satoshi Nakamoto
-![image](assets/en/42.webp)
+![image](assets/en/44.webp)
 
 ### Bitcoin-protokollet vaknar till liv
 
@@ -729,7 +728,7 @@ Forumet blev snabbt den föredragna platsen för diskussion för Bitcoin-använd
 
 **visste du det?** Den 22 maj 2010 skrev Laszlo Hanyecz historia genom att erbjuda sig att köpa två pizzor för 10 000 BTC: det var första gången som Bitcoin användes för att köpa fysiska varor.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamotos försvinnande
 

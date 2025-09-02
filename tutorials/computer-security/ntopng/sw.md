@@ -212,7 +212,7 @@ Hapa kuna baadhi ya maelezo ya mabadiliko haya ya kwanza:
 
 
 - kiotomatiki *Interface***: "itaanzisha" kiotomatiki Interface wakati wa kuwasha mfumo
-- iface *Interface* mwongozo wa inet** : kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
+- iface *Interface* mwongozo wa inet**: kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
 
 
 
@@ -286,7 +286,7 @@ Kwa chaguo-msingi, vyanzo vya kifurushi vina vifurushi vinavyotii DFSG (*Miongoz
 
 
 
-Mfano wa mstari katika /etc/apt/sources.list :
+Mfano wa mstari katika /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Kwa hivyo nitaongeza tu neno **changia** kwenye mistari kama hii.
 
 
 
-Hatua zingine zimeorodheshwa kwenye tovuti ya [NtopNG] (https://packages.ntop.org/apt/) ambapo, kwa Debian 11, unahitaji kuongeza vyanzo vya Ntop kwa usakinishaji wa siku zijazo. Nyongeza hii inajiendesha kwa kutumia :
+Hatua zingine zimeorodheshwa kwenye tovuti ya [NtopNG] (https://packages.ntop.org/apt/) ambapo, kwa Debian 11, unahitaji kuongeza vyanzo vya Ntop kwa usakinishaji wa siku zijazo. Nyongeza hii inajiendesha kwa kutumia:
 
 
 

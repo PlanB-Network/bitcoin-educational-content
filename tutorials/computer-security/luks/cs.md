@@ -30,7 +30,7 @@ ___
 
 
 
-K provedení tohoto návodu budete potřebovat :
+K provedení tohoto návodu budete potřebovat:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Zde je "**usbkey1**" název, který jsem dal připojení oddílu v mém kontextu. Můžete si zvolit, co se vám líbí. Poté musíme tento oddíl obsažený v oddílu LUKS naformátovat, například zde jako **ext4** :
+Zde je "**usbkey1**" název, který jsem dal připojení oddílu v mém kontextu. Můžete si zvolit, co se vám líbí. Poté musíme tento oddíl obsažený v oddílu LUKS naformátovat, například zde jako **ext4**:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" je "zkratka", kterou jsme přidělili našemu klíči USB ("**/dev/mapper**" je pro Linux obecný název pro mapování). Poskytuje tedy přístup k našemu dešifrovanému oddílu. Zde je to, co byste nyní měli vidět :
+"**/dev/mapper/usbkey1**" je "zkratka", kterou jsme přidělili našemu klíči USB ("**/dev/mapper**" je pro Linux obecný název pro mapování). Poskytuje tedy přístup k našemu dešifrovanému oddílu. Zde je to, co byste nyní měli vidět:
 
 
 
@@ -353,7 +353,7 @@ To znamená, že můžeme volně a transparentně přistupovat k datům na disku
 
 
 
-Po dokončení operace nezapomeňte vše řádně uzavřít, aby nedošlo k poškození svazku. Prvním krokem je odpojení souboru :
+Po dokončení operace nezapomeňte vše řádně uzavřít, aby nedošlo k poškození svazku. Prvním krokem je odpojení souboru:
 
 
 

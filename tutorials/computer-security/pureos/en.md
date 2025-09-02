@@ -192,13 +192,13 @@ Before you start using PureOS, it's essential to update your system. This will e
 
 
 
-- Update via Interface graphic** :
+- Update via Interface graphic**:
 
 Open the **Software** application, then go to the **Updates** tab. Available updates are automatically displayed. Click **Download**, then **Install** once the download is complete.
 
 
 
-- Update via terminal** :
+- Update via terminal**:
 
 Open the terminal, then enter the following command to update the list of available packages:
 
@@ -208,7 +208,7 @@ sudo apt update
 ```
 
 
-Enter your password and confirm. Then install the updates with :
+Enter your password and confirm. Then install the updates with:
 
 
 ```shell
@@ -241,7 +241,7 @@ PureOS stands out for its innovative approach to true convergence: a single oper
 PureOS applications are designed to be adaptive: they automatically adjust to screen size and input mode (touch or keyboard/mouse). For example, the GNOME Web browser dynamically adapts its Interface to provide an optimal experience on both mobile and desktop devices.
 
 
-PureOS also includes the **LibreOffice** office suite, which includes :
+PureOS also includes the **LibreOffice** office suite, which includes:
 
 
 

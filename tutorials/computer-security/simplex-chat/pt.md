@@ -243,7 +243,7 @@ O SimpleX gera então uma ligação de utilização única. Pode reencaminhá-lo
 
 
 
-Também pode escolher o perfil a associar a esta ligação de convite. Para o fazer, clique no seu perfil logo abaixo do código QR. Poderá então :
+Também pode escolher o perfil a associar a esta ligação de convite. Para o fazer, clique no seu perfil logo abaixo do código QR. Poderá então:
 
 
 
@@ -313,7 +313,7 @@ Uma das caraterísticas mais poderosas do SimpleX é a capacidade de gerir vári
 
 
 
-Por exemplo, pode criar um ficheiro :
+Por exemplo, pode criar um ficheiro:
 
 
 

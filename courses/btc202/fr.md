@@ -82,7 +82,7 @@ Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des
 
 ![Image](assets/fr/047.webp)
 
-*S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
@@ -260,7 +260,7 @@ En effet, comme souligné dans un chapitre précédent, les portefeuilles ne com
 
 ![Image](assets/fr/059.webp)
 
-En faisant utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
+En utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -364,7 +364,7 @@ Un nœud complet est simplement un nœud Bitcoin qui télécharge toute la block
 
 ![Image](assets/fr/063.webp)
 
-Le nœud complet n’a besoin de faire confiance à personne, car il valide et connait toutes els informations du système. C’est le type de nœud qui vous procure le plus de garanties : vous savez, sans faire appel à un tiers, si un paiement est valide, si un bloc est valide, si une réorganisation est légitime, etc.
+Le nœud complet n’a besoin de faire confiance à personne, car il valide et connait toutes les informations du système. C’est le type de nœud qui vous procure le plus de garanties : vous savez, sans faire appel à un tiers, si un paiement est valide, si un bloc est valide, si une réorganisation est légitime, etc.
 
 En pratique, un nœud complet nécessite des ressources non triviales : plusieurs centaines de gigaoctets pour les fichiers de blocs, un processeur capable de valider les scripts, de la RAM pour la mempool et les caches, et une bande passante stable. La première synchronisation (*IBD*) lit et vérifie l’historique complet : elle est intensive mais ne se fait qu’une fois. Un nœud complet participe activement au réseau : il relaie des blocs et transactions, et peut accepter des connexions entrantes pour aider d’autres pairs.
 
@@ -388,7 +388,7 @@ Un nœud SPV (*Simplified Payment Verification*), ou nœud léger, ne conserve q
 
 ![Image](assets/fr/066.webp)
 
-*S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009*
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 Ce type de nœud est évidemment beaucoup plus léger en stockage et en CPU qu'un nœud complet ou même qu'un nœud élagué. Le nœud SPV est donc adapté aux appareils modestes et aux connexions intermittentes. Il est d'ailleurs souvent intégré directement dans des logiciels de gestion de portefeuille, notamment mobiles, comme par exemple Blockstream App.
 
@@ -421,7 +421,7 @@ Les deux approches mènent au même but : disposer de votre propre nœud, mais e
 
 ### Les implémentations de nœud Bitcoin brutes
 
-Installer une implémentation brute consiste à utiliser directement le logiciel d’une implémentation du protocole Bitcoin (comme Core, par exemple), sans couche logicielle supplémentaire. Vous gérez vous-même la configuration, les mises à jour et les services associés (indexation, API, reverse proxy, sauvegardes…), selon vos besoins.
+Installer une implémentation brute consiste à utiliser directement le logiciel d’une implémentation du protocole Bitcoin (comme Core, par exemple), sans couche logicielle supplémentaire. Vous gérez vous-même la configuration, les mises à jour et les services associés (indexation, API, Lightning, sauvegardes…), selon vos besoins.
 
 C’est l’approche la plus souveraine et la plus flexible : vous savez exactement ce qui s’exécute, où se trouvent les données et comment tout fonctionne. En revanche, elle devient plus complexe dès que vous souhaitez aller au-delà du simple fonctionnement d’un nœud Bitcoin. Si votre objectif est uniquement de disposer d’un nœud, la complexité reste comparable à celle d’un node-in-a-box, voire moindre, puisqu’il s’agit simplement d’installer un logiciel.
 
@@ -625,7 +625,7 @@ Le SSD change radicalement  votre expérience utilisateur : tout devient plus ra
 
 ![Image](assets/fr/077.webp)
 
-En termes de capacité, la capacité de 2 To s’impose progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
+En termes de capacité, les 2 To s’imposent progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
 
 ![Image](assets/fr/078.webp)
 

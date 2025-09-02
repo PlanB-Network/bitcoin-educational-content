@@ -22,15 +22,15 @@ Cela peut servir à transférer:
 - **un backup de l'entièreté de votre ColdCardQ**: le ColdCardQ qui reçoit ce backup ne doit pas avoir de Master Seed pour que cela fonctionne.
 - **des PSBT ( Partially Signed Bitcoin Transactions dans le cadre d'un schéma multi signature**).
 
-Cela nécessite d'avoir upgradé le [firmware de votre appareil en version v1.3.2Q]((https://coldcard.com/docs/upgrade/).
+Cela nécessite d'avoir upgradé le [firmware de votre appareil en version v1.3.2Q]((https://coldcard.com/docs/upgrade/) minimum.
 
-# Comment utiliser Key Teleport ?
+## Comment utiliser Key Teleport ?
 
-## 1- Pour transférer tout type de données
+### 1- Pour transférer tout type de données
 
 Ici on s'intéressera au transfert de seed phrases, de notes, de mots de passe, ou d'un transfert entier du backup d'un ColdCardQ. Le cas des transferts de PSBT pour les transactions multi signatures sera abordé dans un second temps.
 
-### Préparer l'appareil qui recevra les secrets
+#### Préparer l'appareil qui recevra les secrets
 
 Dans le menu **"Advanced / Tools**" de votre ColdCardQ, sélectionnez **"Key Teleport (start)"**.
 Sur l'écran suivant, un mot de passe composés de 8 chiffres vous est proposé ici "20420219". il vous faudra communiquer ce mot de passe à l'envoyeur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
@@ -55,7 +55,7 @@ Nous sommes en fait là entrain d'initier un transfert de secrets via la méthod
 - *utilisé ce mot de passe pour chiffrer la clé publique (Ka) via AES-256-CTR, puis transmis ce mot de passe par un canal de communication A au ColdCardQ "envoyeur".*
 - *enfin nous avons transmis le paquet chiffré à l'envoyeur via le QR code ci-dessus, par un second canal de communication B différent du 1er*.
 
-### Préparer l'appareil qui enverra les secrets
+#### Préparer l'appareil qui enverra les secrets
 
 Depuis l'appareil envoyeur, cliquer sur le bouton **"QR"** pour scanner le QR code qui vous est transmis par l'appareil receveur, puis entrez le mot de passe à 8 chiffres qui vous a été communiqué à l'étape précédente par un canal séparé. Nous sommes désormais en mesure de commencer l'envoi des données à partir de l'appareil "envoyeur".
 
@@ -89,7 +89,7 @@ Pressez **"ENTER"** et un nouveau QR code vous sera présenté. Faites le scanne
 - *on accole en préfixe du paquet déjà chiffré par la **"Session Key"** notre clé publique Kb, puis nous rajoutons une  couche de chiffrement AES-256-CTR supplémentaire avec le **"Teleport Password"**. Le tout est ensuite encodé sous forme de QR code.*
 
 
-### Finaliser le transfert de secrets sur l'appareil receveur
+#### Finaliser le transfert de secrets sur l'appareil receveur
 
 Appuyez sur le bouton **"QR"** pour scanner le QR code présenté par l'appareil envoyeur à travers le canal visio. Il vous sera demandé de rentrer votre mot de passe **"Teleport Password"** pour nous "NE XG BT SK". 
 
@@ -107,7 +107,7 @@ Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveu
 - *Il nous faut appliquer notre clé privée "ka" de l'étape initiale **"Préparer l'appareil qui recevra les données"** à la clé publique Kb.* 
 - *En effet en effectuant le calcul ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks on retrouve Ks. Qu'on utilise enfin pour déchiffrer le message secret.*
 
-## 2- Pour transférer des PSBT pour Multisig (avancé)
+### 2- Pour transférer des PSBT pour Multisig (avancé)
 
 Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure  de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici]([Multisig Features - COLDCARD Documentation](https://coldcard.com/docs/multisig/)) sur le site de Coinkite (en anglais).
 
@@ -162,3 +162,5 @@ Si la fonctionnalité "Push Tx" de votre ColdCardQ est activée, il vous suffit 
 *Dans le cadre des transferts de PSBT d'un signataire à l'autre, "Key Teleport" est simplement utilisé via un "Teleport Password" à chaque étape qui chiffre la PSBT lors du transfert d'un signataire à l'autre. Comme les données transmises ne permettent pas de voler les fonds, pas besoin d'avoir recours à un Diffie-Hellman comme dans le cas d'envoi de secrets ultra confidentiels (seed, mot de passe etc...)*.
 
 ![CCQ-key-teleport](assets/fr/15.webp)
+
+*Source : https://coldcard.com/*

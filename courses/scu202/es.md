@@ -189,7 +189,7 @@ La navegación por Internet suele ser el principal punto de entrada de las amena
 
 
 
-Otra buena práctica tratada en el curso se refiere a las cookies, esos pequeños archivos que se almacenan en su ordenador cuando visita sitios web. Debe eliminarlos o limitarlos regularmente para proteger su privacidad.
+Otra buena práctica tratada en el curso se refiere a las cookies, esos pequeños archivos que se almacenan en tu ordenador cuando visita sitios web. Debe eliminarlos o limitarlos regularmente para proteger su privacidad.
 
 
 
@@ -229,7 +229,7 @@ La seguridad también implica conocer tu sistema operativo (SO). Has explorado l
 
 
 
-SCU101 también le advirtió que nunca conectara unidades USB desconocidas a su ordenador, ya que pueden contener malware que podría infectar su sistema.
+SCU101 también te advirtió que nunca conectara unidades USB desconocidas a su ordenador, ya que pueden contener malware que podría infectar su sistema.
 
 
 
@@ -261,7 +261,7 @@ SCU101 hizo especial hincapié en la importancia de proteger su correo electrón
 
 
 
-Ya has visto la importancia de crear direcciones de correo electrónico seguras y dedicadas. Es prudente tener una Address de correo electrónico específica reservada para la recuperación de cuentas, separada de su Address principal.
+Ya has visto la importancia de crear direcciones de correo electrónico seguras y dedicadas. Es prudente tener una dirección de correo electrónico específica reservada para la recuperación de cuentas, separada de su dirección principal.
 
 
 
@@ -293,7 +293,7 @@ Por último, SCU101 te presentó la autenticación de dos factores (2FA). El pri
 
 
 
-2FA protege sus cuentas considerablemente mejor: incluso si su contraseña se ve comprometida, el acceso sigue siendo imposible sin el segundo factor. Ten en cuenta que los códigos enviados por SMS o correo electrónico son menos seguros, ya que pueden ser interceptados o desviados.
+2FA protege tus cuentas considerablemente mejor: incluso si tu contraseña se ve comprometida, el acceso sigue siendo imposible sin el segundo factor. Ten en cuenta que los códigos enviados por SMS o correo electrónico son menos seguros, ya que pueden ser interceptados o desviados.
 
 
 
@@ -301,7 +301,7 @@ ___
 
 
 
-Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202, en el que profundizaremos mucho más en el dominio de las técnicas de ciberseguridad, para proteger mejor su soberanía individual, su intimidad y sus datos personales en general.
+Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202, en el que profundizaremos mucho más en el dominio de las técnicas de ciberseguridad, para proteger mejor tu soberanía individual, tu intimidad y tus datos personales en general.
 
 
 

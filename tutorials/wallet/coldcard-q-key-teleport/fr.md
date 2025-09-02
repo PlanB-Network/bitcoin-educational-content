@@ -6,9 +6,10 @@ description: Qu'est-ce que la fonctionnalité Key Teleport et comment l'utiliser
 ![cover](assets/cover.webp)
 
 
-https://www.youtube.com/watch?v=Bg0r0DQVcDg
+![video](https://www.youtube.com/watch?v=Bg0r0DQVcDg)
 
-https://www.youtube.com/watch?v=BRpBiK-F8VU
+
+![video](https://www.youtube.com/watch?v=BRpBiK-F8VU)
 
 Qu'est ce que la fonctionnalité **Key Teleport** proposée par Coinkite grâce à son appareil flagship ColdCardQ ?
 

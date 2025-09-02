@@ -104,7 +104,7 @@ L'ensemble des nœuds Bitcoin représente donc ce que l'on appelle le réseau Bi
 
 Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de portefeuille et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont juste des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
 
-#### Conserver la blockchain
+### Conserver la blockchain
 
 La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la double dépense sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier la non existence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont horodatées et regroupées dans des blocs, et chaque nœud stocke l’intégralité de la blockchain.
 
@@ -118,7 +118,7 @@ La blockchain est donc un registre évolutif : à chaque nouveau bloc publié 
 
 Le nœud conserve également, en local, l’ensemble des UTXOs existants à un instant donné : il s’agit de ce que l’on appelle l’**UTXO set**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
 
-#### Vérifier et diffuser les transactions
+### Vérifier et diffuser les transactions
 
 Le deuxième rôle d’un nœud est d’assurer la vérification et la propagation des transactions. Lorsqu’une nouvelle transaction parvient au nœud (soit via un logiciel de portefeuille, soit via un autre nœud), il va vérifier qu'elle respecte bien un ensemble de règles (règles de consensus et règles de relais). Par exemple :
 - les bitcoins dépensés doivent exister dans son UTXO set (la base de données des sorties non dépensées) ;
@@ -129,7 +129,7 @@ Le deuxième rôle d’un nœud est d’assurer la vérification et la propagati
 
 Après validation, la transaction est enregistrée dans la mempool du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de diffusion et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première confirmation.
 
-#### Vérifier et diffuser les blocs
+### Vérifier et diffuser les blocs
 
 Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
 

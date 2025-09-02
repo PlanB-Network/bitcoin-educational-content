@@ -312,7 +312,7 @@ Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202,
 
 
 
-## Linux, Windows, macOS: ¿cuál le conviene?
+## Linux, Windows, macOS: ¿cuál te conviene?
 
 
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
@@ -331,7 +331,7 @@ Antes de entrar en los detalles técnicos de Linux en los próximos capítulos, 
 
 
 
-Un sistema operativo es un conjunto de programas centrales que actúa como intermediario entre el usuario, las aplicaciones (que también son software) y el hardware, es decir, su ordenador. Es el software básico Layer que permite utilizar los recursos hardware de un ordenador (procesador, memoria, discos, periféricos, etc.).
+Un sistema operativo es un conjunto de programas centrales que actúa como intermediario entre el usuario, las aplicaciones (que también son software) y el hardware, es decir, tu ordenador. Es  la capa básica de software que permite utilizar los recursos hardware de un ordenador (procesador, memoria, discos, periféricos, etc.).
 
 
 
@@ -412,7 +412,7 @@ Linux también está masivamente integrado en dispositivos embebidos como router
 
 
 
-→ **Importante:** El núcleo es el componente central del sistema operativo: gestiona el acceso al hardware (procesador, memoria, periféricos), arbitra la ejecución simultánea de procesos, aplica políticas de seguridad y ofrece una Interface uniforme a los programas que enmascara la complejidad de los circuitos electrónicos. En otras palabras, actúa de puente entre el entorno de software (bibliotecas, controladores, shells, servicios, herramientas de administración, Interface gráfico, etc.) y el hardware.
+→ **Importante:** El núcleo es el componente central del sistema operativo: gestiona el acceso al hardware (procesador, memoria, periféricos), arbitra la ejecución simultánea de procesos, aplica políticas de seguridad y ofrece una interfaz uniforme a los programas que enmascara la complejidad de los circuitos electrónicos. En otras palabras, actúa de puente entre el entorno de software (bibliotecas, controladores, shells, servicios, herramientas de administración, Interface gráfico, etc.) y el hardware.
 
 
 
@@ -420,7 +420,7 @@ Linux también está masivamente integrado en dispositivos embebidos como router
 
 
 
-Windows es un sistema operativo propietario desarrollado por Microsoft. Está instalado en la mayoría de los ordenadores personales del mundo. Históricamente, ha sido apreciado por ser Interface fácil de usar e intuitivo. Sin embargo, esa ventaja es cuestionable ahora: el Interface de macOS también es muy accesible, y muchas distribuciones de Linux tienen un Interface apto para el gran público (volveremos sobre esto en los siguientes capítulos).
+Windows es un sistema operativo propietario desarrollado por Microsoft. Está instalado en la mayoría de los ordenadores personales del mundo. Históricamente, ha sido apreciado por temer una interfaz fácil de usar e intuitiva. Sin embargo, esa ventaja es cuestionable ahora: la interfaz de macOS también es muy accesible, y muchas distribuciones de Linux tienen una interfaz cómoda para el gran público (volveremos sobre esto en los siguientes capítulos).
 
 
 
@@ -448,7 +448,7 @@ En términos de seguridad, Windows es un objetivo privilegiado para el malware. 
 
 
 
-En mi opinión, Windows ocupa una posición central no afirmada: puede ser seguro, pero menos que Linux y macOS; permite cierto control, pero mucho menos que Linux; no es ni tan potente como macOS, ni tan sencillo como Chrome OS o algunos sistemas Linux aptos para principiantes. Es mediocre en todos los aspectos, sin ser realmente malo en ninguno (excepto en privacidad, por defecto).
+En mi opinión, Windows ocupa una posición central: puede ser seguro, pero menos que Linux y macOS; permite cierto control, pero mucho menos que Linux; no es ni tan potente como macOS, ni tan sencillo como Chrome OS o algunos sistemas Linux aptos para principiantes. Es mediocre en todos los aspectos, sin ser realmente malo en ninguno (excepto en privacidad, por defecto).
 
 
 
@@ -472,7 +472,7 @@ macOS es el sistema operativo desarrollado por Apple para sus ordenadores Mac. E
 
 
 
-Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los recursos y una arquitectura relativamente segura por defecto. A esto se añade un Interface gráfico especialmente pulido, diseñado para una experiencia de usuario fluida.
+Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los recursos y una arquitectura relativamente segura por defecto. A esto se añade una interfaz gráfica especialmente pulida, diseñada para una experiencia de usuario fluida.
 
 
 
@@ -480,7 +480,7 @@ Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los 
 
 
 
-Uno de los principales puntos fuertes de macOS reside en la integración vertical de hardware y software. Apple controla toda la cadena, desde el diseño del procesador hasta los más pequeños detalles de Interface. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento.
+Uno de los principales puntos fuertes de macOS reside en la integración vertical de hardware y software. Apple controla toda la cadena, desde el diseño del procesador hasta los más pequeños detalles de l interfaz. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento. 
 
 
 
@@ -496,7 +496,7 @@ En términos de privacidad, aunque macOS es menos intrusivo que Windows, sigue l
 
 
 
-macOS puede convenir a los usuarios que valoran el rendimiento, la estabilidad y la comodidad de un sistema bien integrado, sin tener que sumergirse en los detalles técnicos. Por otro lado, cuando se trata de la soberanía digital y el control de su entorno de TI, es demasiado cerrado, demasiado dependiente de una sola empresa, y no es propicio para la personalización afinada. Por eso no hablaremos más de ello en este curso SCU202.
+macOS puede convenir a los usuarios que valoran el rendimiento, la estabilidad y la comodidad de un sistema bien integrado, sin tener que sumergirse en los detalles técnicos. Por otro lado, cuando se trata de la soberanía digital y el control de su entorno de TI, es demasiado cerrado, demasiado dependiente de una sola empresa, y no es propicio para una  personalización detallada. Por eso no hablaremos más de ello en este curso SCU202.
 
 
 
@@ -524,13 +524,13 @@ Sin embargo, Linux también presenta cierta complejidad para los principiantes. 
 
 
 
-Su elección dependerá principalmente de sus necesidades y expectativas:
+Su elección dependerá principalmente de tus necesidades y expectativas:
 
 
 
 
 - Si buscas sencillez, una amplia compatibilidad de hardware y software (especialmente para videojuegos), así como un uso general, Windows puede ser una buena opción. Sin embargo, debes ser consciente de sus limitaciones en cuanto a rendimiento, seguridad y privacidad;
-- Si buscas una integración óptima entre tu hardware y tu sistema, un Interface refinado y fácil de usar y una seguridad relativamente buena sin necesidad de configuraciones avanzadas, y ya posees o deseas adoptar el ecosistema Apple, macOS es una opción natural;
+- Si buscas una integración óptima entre tu hardware y tu sistema, una interfaz refinada y fácil de usar y una seguridad relativamente buena sin necesidad de configuraciones avanzadas, y ya perteneces o deseas empezar en el ecosistema Apple, macOS es una opción natural;
 - Por último, si buscas seguridad, estabilidad y rendimiento por encima de todo y además quieres controlar en profundidad tu entorno digital, estando dispuesto a invertir tiempo en aprender a utilizar tu sistema operativo, Linux es una excelente opción, especialmente en un contexto en el que la autonomía técnica y la soberanía digital son prioritarias.
 
 

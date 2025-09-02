@@ -1736,35 +1736,7 @@ En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu
 
 [26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
 
-List of events by USD equivalent of mBTC at time of theft:
 
-1. **ici** Bitcoin Savings & Trust (1834303 $)
-2. **avant** MyBitcoin Theft (1110544 $)
-3. **avant** Allinvain Theft (502750.20 $)
-4. **ici** July 2012 Bitcoinica Theft (305200 $)
-5. **ici** Bitfloor Theft (248088 $)
-6. **ici** Linode Hacks (230468 $)
-7. **avant** Bitomat.pl Loss (236000 $)
-8. **ici** Tony Silk Road Scam (150000 $)
-9. **avant** Stefan Thomas Loss (128000 $)
-10. **après/ignoré** Just-Dice.com Incident (121000 $)
-11. **ignoré** Cdecker Theft (113894 $) Sept 2012
-12. **ici** May 2012 Bitcoinica Hack (91306.46 $)
-13. **après** BTCGuild Incident (58737 $)
-14. **après** Bit LC Theft (51000 $)
-15. **ignoré (scam?)** Bitcoin7 Hack (50000 $)
-16. **avant** June 2011 Mt. Gox Incident (46970.91 $)
-17. **ici** BTC-E Hack (42000 $) July 2012
-18. **après/ignoré: utilisateurs individuels** 2012 Trojan (38000 $) Oct. 2012
-19. **avant** Mooncoin Theft (24000 $)
-20. **ici** Betcoin Theft (15509 $)
-21. **ignoré: utilisateur individuel** Bitcoin Syndicate Theft (12134.61 $)
-22. **avant** Ubitex Scam (11668.70 $)
-23. Andrew Nollan Scam (10978 $)
-24. **après** October 2011 Mt. Gox Loss (8115.12 $) amateurisme de Mark Karpelès
-25. Bitscalper Scam (5000 $)
-
-List of Hacked Exchanges, since 2011: https://bitcointalk.org/index.php?topic=5090869.0
 
 ### Les piratages de Linode et de Betco.in
 
@@ -1782,7 +1754,7 @@ Enfin, le troisième concerné est le *Bitcoin faucet* de Gavin Andresen. Le ser
 
 Un mois plus tard, c'est au tour de la plateforme de poker en ligne Betco.in, gérée par Pavel Karoukin depuis 2010, de se faire pirater. Le 11 avril, tout l'argent conservé sur le serveur et sur l'ordinateur personnel de Pavel [est siphonné](https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855) le 11 avril : 3 171 bitcoins au total, soit près de 16 000 $. Il est par conséquent [contraint](https://bitcointalk.org/index.php?topic=82100.msg904821#msg904821) de fermer les portes de son service et de le mettre en vente, après avoir remboursé les utilisateurs au mieux.
 
-### L'arnaque de Tony76
+### L'escroquerie de Tony76
 
 https://eileenormsby.com/2012/05/30/the-great-420-scam/ https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/ https://web.archive.org/web/20150321011113/http://www.dailydot.com/crime/tony76-420-sale-silk-road/ https://gwern.net/doc/darknet-market/silk-road/1/2012-01-18-tony76reviews.maff
 
@@ -1897,7 +1869,10 @@ Zhou Tong est suspecté d'être responsable du 3e piratage, par Roberto Gutierre
 
 Liquidation, annoncée le [1er août](https://bitcointalk.org/index.php?topic=97272.msg1071263#msg1071263) ; effective en octobre : https://bitcointalk.org/index.php?topic=121474.0 ; avec l'aide de Patrick Murck : https://bitcoinmagazine.com/culture/data-series-interview-patrick-murck-general-council-bitcoin-foundation
 
+Remboursements ? https://bitcoinmagazine.com/business/bitfloor-and-bitcoinica-refunds-showing-signs-of-progress-1354740408
+
 Poursuites contre Zhou Tong et Amir Taaki https://www.theverge.com/2012/8/10/3233711/second-bitcoin-lawsuit-is-filed-in-california
+
 
 ---
 
@@ -1992,40 +1967,46 @@ Trendon sera poursuivi par la SEC en 2013 et arrêté en 2014.
 
 ### Les piratages de BTC-e et de BitFloor
 
-L'été 2012 poursuit aussi sur sa lancée en ce qui concerne les piratages...
+L'été 2012 poursuit aussi sur sa lancée en ce qui concerne les piratages. Deux incidents ont ainsi lieu.
 
-À cette débâcle, se rajoute un piratage supplémentaire : celui de de BTC-e. L'équivalent de 4 500 BTC en bitcoins, namecoins et litecoins [sont dérobés](https://web.archive.org/web/20120731215829/https://btc-e.com/news/81), ce qui représente plus de 42 000 $. https://bitcoinmagazine.com/business/btc-e-attacked-1343738085
+Il y a d'abord le piratage de BTC-e, qui [se produit](https://web.archive.org/web/20120731215829/https://btc-e.com/news/81) dans la nuit du 30 au 31 juillet, vers minuit. La clé API liée au compte Liberty Reserve de BTC-e est compromise, ce qui permet au pirate de réaliser des dépôts fictifs, avec lesquels il se procure des bitcoins, des namecoins et des litecoins, faisant exagérément monter leur prix. Il parvient à retirer \[l'équivalent de 4 500 BTC en bitcoins\], ce qui représente alors plus de 42 000 $. Les pertes sont néanmoins compensées par la plateforme. Tous les échanges réalisés après le piratage sont annulés et l'activité [reprend](https://web.archive.org/web/20121119010409/https://btc-e.com/news/82) vers 15 heures.
 
-Il y a aussi le piratage de Bitfloor qui survient en septembre. BitFloor est une plateforme de change américaine installée à New-York. Elle a été [lancée](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260) en octobre 2011 par un jeune homme de 25 ans appelé Roman Shtylman, à l'aide d'un ami (Vadim). La plateforme a réussi à attirer rapidement des utilisateurs en [récompensant](https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833) les founisseurs de liquidités (*makers*) par des « remises » (original: "rebates") créditées lorsqu'un échange a lieu. En mai 2012, BitFloor a également commencé à [accepter](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) les dépôts en espèces, fonctionnalité très attractive comme nous l'avons expliqué.
+Le piratage de Bitfloor qui survient en septembre est plus important. BitFloor est une plateforme de change américaine installée à New-York. Elle a été [lancée](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260) en octobre 2011 par un jeune homme de 25 ans appelé Roman Shtylman, à l'aide d'un ami (Vadim). La plateforme a réussi à attirer rapidement des utilisateurs en [récompensant](https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833) les founisseurs de liquidités (*makers*) par des « remises » (original: "rebates") créditées lorsqu'un échange a lieu. En mai 2012, BitFloor a également commencé à [accepter](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) les dépôts en espèces, fonctionnalité très attractive comme nous l'avons expliqué.
 
 ![Roman Shtylman en février 2012](assets/en/roman-shtylman-bitfloor-20120223-bitcoin-show.webp)
 
 Roman Shtylman en février 2012 (source : [Bitcoin Show](https://www.youtube.com/watch?v=F7SsavHX6tc) sur Youtube)
 
-À la fin de l'été 2012, BitFloor représente une plateforme montante : il [s'agit](https://web.archive.org/web/20120902173725/https://bitcoincharts.com/markets/) de la quatrième plateforme en ce qui concerne le volume d'échange avec le dollar, derrière Mt. Gox, Bitstamp et BTC-e. En août, un membre de Bitcointalk [prédit](https://bitcointalk.org/index.php?topic=93655.msg1073739#msg1073739) qu'à terme, Bitfloor « occupera la deuxième place » (original: "bitfloor will have the #2 spot in BTC trade volume"), en ajoutant que « les plateformes de change classées en deuxième position ont un bilan désastreux » (original: "exchanges at #2 have a terrible track record").
+À la fin de l'été 2012, BitFloor représente une plateforme montante : il [s'agit](https://web.archive.org/web/20120902173725/https://bitcoincharts.com/markets/) de la quatrième plateforme en ce qui concerne le volume d'échange avec le dollar, derrière BTC-e, Bitstamp et surtout Mt. Gox. En août, un membre de Bitcointalk [prédit](https://bitcointalk.org/index.php?topic=93655.msg1073739#msg1073739) qu'à terme, Bitfloor « occupera la deuxième place » (original: "bitfloor will have the #2 spot in BTC trade volume"), en ajoutant que « les plateformes de change classées en deuxième position ont un bilan désastreux » (original: "exchanges at #2 have a terrible track record").
 
 Dans la nuit du 3 au 4 septembre 2012, un piratage [accède](https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) à quelques-uns des serveur de Bitfloor et met la main sur une sauvegarde non chiffrée des clés du portefeuille. La grande majorité des bitcoins de la plateforme sont retirés : un peu plus de 24 000 BTC, soit environ 250 000 $ à ce moment-là. L'activité d'échange est suspendue en conséquence.
 
-Le 21 septembre, Bitfloor rouvre ses portes.
+Le 21 septembre, Bitfloor rouvre ses portes. Roman Shtylman [annonce](https://web.archive.org/web/20141014070427/https://plus.google.com/109620439233076225324/posts/bLJRDHApjSP) la chose sur le blog Google+ de la plateforme, où il précise qu'il s'engage à « faire en sorte que Bitfloor reste actif, solide et prospère pour l'écosystème de Bitcoin » (original: "I am committed to keeping Bitfloor alive, strong, and growing for the bitcoin ecosystem."). Les soldes en bitcoins des clients ne sont cependant pas restaurés. Le plan est de procéder à des remboursements à l'aide des revenus provenant des frais d'échange.
 
-"back in business" https://bitcoinmagazine.com/markets/bitfloor-back-in-business-1348315019 https://web.archive.org/web/20141014070427/https://plus.google.com/109620439233076225324/posts/bLJRDHApjSP
-
-Néanmoins, la plateforme fermera définitivement en 2013, sans avoir remboursé l'intégralité de ses clients ?
-
-19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
+Au fil des mois, Bitfloor reprendra du poil de la bête et [parviendra](https://bitcoinmagazine.com/markets/bitfloor-shuts-down-1366351632) à rembourser 2,7 % des bitcoins à ses créanciers. Néanmoins, la plateforme finira par fermer définitivement en avril 2013, à la suite de la clôture de son compte bancaire américain. Son piratage aura ainsi été l'un des vols d'ampleur de l'année 2012, avec les incidents liés à Bitcoinica et l'effondrement de Bitcoin Savings & Trust.
 
 ### Le déclin du Far West
 
+Bitcoin a donc bel et bien constitué une monnaie du crime, étant particulièrement utilisée dans le cas de vols en tous genres. Cela s'est manifesté dès 2011 avec le trojan d'Allinvain, le piratage de Mt. Gox, le vol de MyBitcoin et la perte de Bitomat. En 2012, les incidents marquants ont été le piratage de Linode, l'escroquerie de Tony76 sur Silk Road, les piratages de Bitcoinica, l'effondrement de Bitcoin Savings & Trust et le piratage de Bitfloor. Dans les années qui ont suivi, les plateformes ont amélioré leur sécurité et la méfiance s'est faite plus insistante, mais cela n'a pas empêché d'autres piratages et escroqueries d'avoir lieu.
+
+Les vols n'ont pas été les seuls actes répréhensibles. On peut aussi parler du [chantage](https://bitcoinmagazine.com/culture/mitt-romney-blackmailed-for-bitcoins-1346924114)  à l'encontre du candidat républicain à l'élection présidentielle, Mitt Romney, réalisé par Michael Brown (Knightmb) en septembre 2012, qui menaçait de faire fuiter certains de ses documents fiscaux.
+
+Les médias ont eu tendance à mettre ces affaires en valeur, probablement en raison de leur biais de négativité naturel et de leur conformisme avec le système financier classique. Il fallait présenter Bitcoin sous un jour spectaculaire, à l'instar d'Hollywood qui, dans les westerns, a présenté le Far West comme une contrée de gens sans foi ni loi, volant, trichant, tuant, alors même que la réalité était beaucoup plus subtile (les braquages de banque dans le Far West [étaient peu fréquents](https://fee.org/articles/the-non-existent-frontier-bank-robbery/) par exemple). La grande majorité des interactions dans la communauté des bitcoineurs n'impliquait pas un acte non volontaire : les piratages, vols et autres arnaques restaient des évènements minoritaires et ponctuels, bien que leur effet sur l'économie de Bitcoin soit parfois dévastateur.
+
+Cette image désastreuse a eu l'effet d'un repoussoir sur la population générale et, par ricochet, a encouragé l'intervention de l'État. Les activités illégales et criminelles ont excité l'intérêt des agences étatiques, et notamment celui du FBI. Dans un [rapport interne](https://cryptome.org/2012/05/fbi-bitcoin.pdf) du Bureau qui a fuité en mai 2012, on pouvait ainsi lire la considération suivante :
+
+> « Bitcoin continuera probablement d'attirer les cybercriminels qui le considèrent comme un moyen de transférer ou de voler des fonds, ainsi que comme un moyen de faire des dons à des organisations illicites. Si Bitcoin se stabilise et gagne en popularité, il deviendra un outil de plus en plus utile pour diverses activités illégales au-delà du cyberespace. »
+>
+> original: "Bitcoin will likely continue to attract cyber criminals who view it as a means to move or steal funds as well as a means of making donations to illicit groups. If Bitcoin stabilizes and grows in popularity, it will become an increasingly useful tool for various illegal activities beyond the cyber realm."
+
+L'essaim de frelons que redoutait Satoshi Nakamoto en décembre 2010 arrivait, avec la répression qui s'en suivrait. De nombreux acteurs allaient être interpelés par les autorités. La réglementation des plateformes de change, balbutiante en 2012, allait s'installer durablement en 2013. La surveillance financière allait se développer avec la généralisation de la connaissance du client et l'apparition de l'analyse de chaine.
+
+Pour remédier à tout cela, il fallait faire un effort. Il fallait que la communauté de Bitcoin redore son blason. Il fallait faire comprendre qu'il n'était pas utilisé *que* par les criminels. Que le bitcoin ne servait pas exclusivement au blanchiment d'argent et au financement du terrorisme... Retravailler le discours, faire du bitcoin un or numérique, un véhicule d'investissement. Faire du lobbying auprès des autorités afin d'éviter une interdiction complète.
+
+Ainsi, à la fin de l'année 2012, le Far West de la finance était déjà sur le déclin. La part du commerce traditionnel a rejoint celle du trafic de drogues en mars 2013, lorsque le volume de BitPay a [dépassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road. Mais surtout, l'augmentation du taux de change a augmenté considérablement la spéculation : après une première hausse qui l'a fait passer de 5 à 10 $ au cours de l'été 2012, le prix du bitcoin a connu une hausse prodigieuse à partir de janvier 2013, dépassant l'ancien sommet des 30 $ en février, atteignant 266 $ en avril et culminant à 1 240 $ à la fin de l'année.
+
+Cela a fait les affaires de Mt. Gox, mais la principale plateforme de change du marché n'était pas du tout prête à un tel succès. Et elle connaitrait un destin tragique...
+
+---
+
 "This 'wild west' situation has made it easy for governments, banks and big retailers to eschew Bitcoin as an unsafe bet; for the deeper arguments about power and the meaning of currency to be raised, Bitcoin's community first needs to resolve these concerns." [Margaret Corvid](https://bitcointalk.org/index.php?topic=369811.msg3949955#msg3949955)
-
-La tendance ne s'est pas arrêtée et a poursuivi sur sa lancée en 2013, pour culminer en février 2014 avec la faillite de Mt. Gox. Cela a poussé les plateformes a améliorer leur sécurité. Ce qui n'a pas empêcher d'autres piratages de se produire.
-
-Le rapport du FBI. https://www.wired.com/2012/05/fbi-fears-bitcoin/ https://cryptome.org/2012/05/fbi-bitcoin.pdf
-
-Le chantage de Dr. Evil (Michael Mancil Brown) à l'encontre du candidat républicain à l'élection présidentielle, Mitt Romney : menace de révéler les documents fiscaux d'une entreprise lui appartenant (PricewaterhouseCoopers LLC).
-
-Les piratages ont encouragement l'intervention de l'État et le développement de l'analyse de chaine.
-
-À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
-
-Mars 2013 : le volume de BitPay dépasse celui de Silk Road : https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315

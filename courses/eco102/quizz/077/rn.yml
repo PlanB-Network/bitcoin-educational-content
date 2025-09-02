@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru gishobora gutuma Leta igira ico ikoze nk’uko Bastiat abivuga?
+answer: Abafata ingingo ku mugaragaro si bo bashikirwa n'ingaruka .
+wrong_answers:
+  - Abafata ingingo mu ruhame bakunda amahera cane .
+  - Abafata ingingo mu ruhame ntibafise ubwenge buhagije .
+  - Abafata ingingo ku mugaragaro ntibagira umutima rugabo .
+explanation: |
+  Bastiat aranegura ukuntu Leta yinjira mu vyo bakora mu gushimika ku vy’uko abafata ingingo za bose badashikirwa n’ingaruka z’ingingo zabo bwite, ivyo bikaba bituma bahitamwo ataco bazi.
+reviewed: false

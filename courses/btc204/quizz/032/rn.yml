@@ -1,0 +1,9 @@
+question: Nimba mu bikorwa vy’ukwishura vyoroshe bibonetse ko ubwoko bumwe bw’inyandiko bukoreshwa mu kwinjiza no kuri kimwe gusa mu bisohoka 2, ni igisohoka ikihe gishobora kuba giserukira ihinduka?
+answer: Iyo ifise ubwoko bumwe bw'inyandiko n'ivyo winjiza.
+wrong_answers:
+  - Iyo ifise ubwoko bw’inyandiko bushasha.
+  - Iyo ifise ubwoko bw'inyandiko butandukanye n'ivyo winjije.
+  - Iyo ifise ubwoko bw’inyandiko butamenyerewe.
+explanation: |
+  Iyo ugusubira gukoresha verisiyo bibaye mu gihe c'ugucuruza, birabereye kwiyumvira ko uwukoresha agifise UTXO ijana. Rero, igisohoka gifise verisiyo y'inyandiko imwe n'iyinjira ni co gishobora kuba ari co gihinduka.
+reviewed: false

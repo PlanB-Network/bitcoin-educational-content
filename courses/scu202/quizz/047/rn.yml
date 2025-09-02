@@ -1,0 +1,9 @@
+question: Ni porogarama iyihe y’ubuntu, ishobora gukoreshwa mu guhingura dosiye y’ibikoresho vy’ubuhinga bwa none ishobora gushirwako nk’idisiki y’ubuhinga bwa none?
+answer: VeraIbanga
+wrong_answers:
+  - Gukomeza guca XC
+  - Guhuza
+  - IntsinziRAR
+explanation: |
+  VeraCrypt ishobora kugufasha gukora ibikoresho vy'ibanga bishobora gushikwako nk'amadisike y'ukuri ku ma OS yose akomeye.
+reviewed: false

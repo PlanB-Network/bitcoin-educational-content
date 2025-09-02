@@ -1,0 +1,14 @@
+question: Ni igiki ciyumviro c’urukoba mu rukino mu bijanye n’urukino rwa videwo?
+answer: Kugira uruhara rw’amahera mu vyo urukino ruzovamwo.
+wrong_answers:
+  - Guhindura ibiranga umuntu afise urukoba rudasanzwe rwongera urukino.
+  - Gugura ibintu vyo mu rukino n’amahera nyayo.
+  - Gucuruza inkovu z’imikino ku mahera nyayo.
+explanation: |
+  Iciyumviro c’urukoba mu rukino ni iciyumviro gifise .
+  ubu nyene yarakunzwe cane mu bijanye n’imikino ya videwo. Ico
+  mu vy’ukuri yerekeza ku ciyumviro c’uko abahinguzi n’
+  abafatanyabikorwa bafise ishoramari canke umugabane w’umuntu ku giti ciwe mu
+  ukuroranirwa kw’urukino, bihuza inyungu zabo n’
+  gutanga igicuruzwa ciza.
+reviewed: true

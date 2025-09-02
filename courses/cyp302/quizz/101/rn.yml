@@ -1,0 +1,9 @@
+question: HMAC ni iki?
+answer: Kode y'ukwemeza ubutumwa ishingiye ku gikorwa ca Hash
+wrong_answers:
+  - Ubuhinga bwo gupfuka bushingiye ku gikorwa ca Hash
+  - Uburyo bwo gushiramwo amakuru butaringaniye bushingiye kuri Diffie-Hellman
+  - Kode y'ukwemeza ubutumwa ishingiye kuri Diffie-Hellman
+explanation: |
+  HMAC ni kode y’ukwemeza ubutumwa ikoresha igikorwa ca Hash, nka SHA-256, kugira ngo ikore ikimenyetso kigenzura ubutungane n’ukuri kw’ubutumwa.
+reviewed: false

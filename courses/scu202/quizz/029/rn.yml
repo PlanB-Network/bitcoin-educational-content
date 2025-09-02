@@ -1,0 +1,9 @@
+question: Ni iyihe verisiyo ya Ubuntu iremezwa ku batangura kubera ukuntu igumaho n’igihe ishobora gukoreshwa?
+answer: LTS (Infashanyo y'igihe kirekire)
+wrong_answers:
+  - Gusohoka
+  - Verisiyo yambere
+  - Gusohoka kwa Alpha
+explanation: |
+  Verisiyo ya LTS ya Ubuntu igumaho imyaka itanu kandi itanga ugushikama kwinshi, bikaba bituma ari nziza ku bakoresha bashasha.
+reviewed: false

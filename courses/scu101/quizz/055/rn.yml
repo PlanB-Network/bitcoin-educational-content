@@ -1,0 +1,14 @@
+question: Ni intango nziza iyihe yo gutangura umwuga wo gucungera umutekano wo kuri internet uhereye ku vyigwa?
+answer: Inyigisho ikomeye mu vy’ubuhinga bwa mudasobwa, ubuhinga bwo gutanga amakuru canke ikindi kintu gifitaniye isano n’ivyo .
+wrong_answers:
+  - Impapuro z'umutsindo mu vy'ubuhinga n'ubumenyi bw'abantu
+  - Impapuro z'umutsindo mu bijanye n'uburongozi bw'ubudandaji
+  - Impapuro z'umutsindo mu vy'inyigisho z'umubiri
+explanation: |
+  Ico kigabane kivuga yuko inyigisho ikomeye yo muri orodinateri .
+  siyansi, uburyo bwo gutanga amakuru canke ikindi kintu gifitaniye isano n’ivyo akenshi .
+  intango nziza y'umwuga wo gucungera umutekano wo kuri interineti kuva
+  uburyo bwo kubona ibintu mu vy’inyigisho. systems, canke ikibanza gifitaniye isano, ni .
+  kenshi ni co kibanza ciza co gutanguriramwo akazi mu 2019.
+  umutekano wo kuri interineti.
+reviewed: true

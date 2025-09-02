@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe gikoreshwa canecane mu gufatanya urufunguzo n’ubutumwa mu ruzi rw’ibanga?
+answer: XOR
+wrong_answers:
+  - Gukubita
+  - Guhindura ibice
+  - Gusubirira urudome rwose
+explanation: |
+  Mu nzira y'ubuhinga, igikorwa ca XOR gikoreshwa muri rusangi mu gufatanya inzira y'urufunguzo n'ubutumwa kuko coroshe kandi gishobora gusubirwamwo.
+reviewed: false

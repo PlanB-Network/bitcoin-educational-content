@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe rw’amajambo y’ukuri (axiomes) mu gutekereza ku vyerekeye ubutunzi bwa Otirishiya?
+answer: Axiomes ni Elements y’ishimikiro aho umuntu ashobora gukuramwo ibintu bihuye n’ubwenge.
+wrong_answers:
+  - Ivyiyumviro vy’ukuri ntaco bimaze mu vyiyumviro vy’ubutunzi vy’i Otirishiya.
+  - Ivyiyumviro vy’ukuri bikoreshwa mu gushinga isano hagati y’ibintu bihinduka bishingiye ku makuru y’ivyashikiye abantu.
+  - Ivyiyumviro vy’ukuri bikoreshwa mu kwemeza canke guhakana ivyiyumviro biciye mu ngeragezwa z’igihe gito.
+explanation: |
+  Mu vyiyumviro vy’ubutunzi vy’i Otirishiya, ivyiyumviro vy’ukuri birafise uruhara runini. Ni
+  Elements y’ishimikiro aho umuntu ashobora gukuramwo ibintu bihuye n’ubwenge.
+reviewed: true

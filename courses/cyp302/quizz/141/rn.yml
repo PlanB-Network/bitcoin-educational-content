@@ -1,0 +1,9 @@
+question: Ni kubera iki gucapura igiharuro c’imibare ibiri myinshi cane y’intango bifatwa nk’ingorane igoye?
+answer: Kubera ko bisaba umwanya munini cane wo guharura mbere no ku ma orodinateri akomeye cane.
+wrong_answers:
+  - Kuko bisaba urufunguzo rwa bose ku kintu cose.
+  - Kubera ko birimwo gusa ibikorwa vy’ishimikiro mu kubara.
+  - Kuko bivana n’ugukubita atari ugucapura.
+explanation: |
+  Gucapura umubare munini cane, ukaba uva ku mibare ibiri minini y’intango, bisaba ububasha bwo guharura burenze ubushobozi bwa orodinateri zo muri iki gihe, ivyo bikaba bituma ico gikorwa kidashoboka.
+reviewed: false

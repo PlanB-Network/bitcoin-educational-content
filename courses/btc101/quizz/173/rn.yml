@@ -1,0 +1,8 @@
+question: Ni imwe mu mpamvu ituma Bitcoin ikwegera imigwi imwimwe?
+answer: Ubushobozi bwayo bwo gutanga inyishu nk’amahera y’ubuhinga bwa none Trustless, kunanira ugucengera, canke politike y’amahera iboneye kandi idahinduka.
+wrong_answers:
+  - Biroroshe kwigana, kandi birashobora gutuma umuntu aronka inyishu zo kuronka amahera menshi mu gukanda gusa.
+  - Igenzurwa n’ubutegetsi bukuru bugabanura umutungo ku bakoresha mu mwidegemvyo.
+  - Si izina ry’uruyeri, rero uwuriko arakoresha wese arazwi neza kandi arizigirwa.
+explanation: >-
+reviewed: true

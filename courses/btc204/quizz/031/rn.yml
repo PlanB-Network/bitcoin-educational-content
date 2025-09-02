@@ -1,0 +1,9 @@
+question: Nimba mu bikorwa vy’ukwishura vyoroshe iyo Address nyene ikoreshwa mu vyo kwinjiza no kuri kimwe mu bisohoka 2, ni igisohoka ikihe gishobora kuba giserukira ihinduka?
+answer: Uwo afise Address imwe n’iyo yinjije.
+wrong_answers:
+  - Uwo afise Address iherutse gusohoka.
+  - Uwo afise Address itandukanye n’iy’injiza.
+  - Uwo afise Address itazwi.
+explanation: |
+  Iyo Address isubiye gukoreshwa muri iyo nzira nyene, birabereye kwiyumvira ko uwuyikoresha agifise UTXO ijana. Rero, igisohoka gifise Address imwe n’iyinjira ni co gishobora kuba ari co gihinduka.
+reviewed: false

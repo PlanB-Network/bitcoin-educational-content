@@ -1,0 +1,9 @@
+question: Ni igiki kigabanya igitigiri c’amahera ataziguye yo kwishura kuri Lightning Network?
+answer: Amafaranga makeyi cane aboneka mu muyoboro w'inzira yatowe
+wrong_answers:
+  - Umubare w'ibice vy'ubuhuza birimwo
+  - Ubushobozi bwose bw’indege Lightning Network.
+  - Amafaranga y'inzira ashirwaho na buri node
+explanation: |
+  Amahera menshi cane amahera ataziguye ashobora gutanga avana n’amahera makeyi ari mu mihora ikoreshwa, kuko umurongo wose utegerezwa guhindura amahera ku ruhande rumwe rumwe.
+reviewed: false

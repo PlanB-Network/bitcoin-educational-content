@@ -1,0 +1,9 @@
+question: Ni nde ashimwa kubera yasohoye iyo nyigisho?
+answer: Tewo Mojeneti
+wrong_answers:
+  - Ivyiyumviro Bitcoin.
+  - Tewo Bolore
+  - Nta na kimwe muri ivyo biri hejuru .
+explanation: |
+  Ico kigabane kivuga ko Théo ashimirwa kubera yasohoye iyo nyigisho.
+reviewed: true

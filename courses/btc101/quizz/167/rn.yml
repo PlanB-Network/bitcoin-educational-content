@@ -1,0 +1,13 @@
+question: Ni ikihe kibazo nyamukuru kiri mu bijanye n’ubutunzi buriho ubu ku bijanye n’ibidukikije?
+answer: Biremesha gukoresha ibintu birenze urugero no kugira amadeni.
+wrong_answers:
+  - Iratera imbere gukoresha ibikoresho biva mu bikoko.
+  - Ntishiramwo amahera mu nguvu zishobora gusubirwamwo.
+  - Ntiritunganya ivy’uguhingura ibintu.
+explanation: |
+  Ubu buhinga bw’ivy’ubutunzi buranegurwa kubera buremesha .
+  gukoresha birenze urugero n’imyenda, ivyo bikaba bitera ingorane zikomeye .
+  ingorane z’ibidukikije. Ivyo biva ku kuronka vyoroshe .
+  inguzanyo, ugutanga amahera n’amabanki, be n’ugukoresha .
+  banki y’ububiko bw’imice.
+reviewed: true

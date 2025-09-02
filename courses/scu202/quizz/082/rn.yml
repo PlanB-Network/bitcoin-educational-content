@@ -1,0 +1,9 @@
+question: Ni iyihe porogaramu itanga ubuhinga bwo kwubaka bushizwe ahantu hamwe ata server nyamukuru yo gutanga ubutumwa?
+answer: Gukomeza
+wrong_answers:
+  - Itelegaramu
+  - Ikimenyetso
+  - Batatu
+explanation: |
+  Keet ishingiye ku citegererezo c’urunganwe aho ivy’itumanaho vyose bica hagati y’abakoresha, ata server nyamukuru, bikaba vyemeza ukwihangana gukomeye n’ibanga.
+reviewed: false

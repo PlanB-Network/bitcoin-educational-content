@@ -1,0 +1,12 @@
+question: None ugugura ibintu bivuye ku mutima ni iki?
+answer: Gugura Bitcoin ubwo nyene kugira ngo ubone exposition.
+wrong_answers:
+  - Gugura Bitcoin mu bihe bitandukanye.
+  - Gugura Bitcoin iyo igiciro kigabanutse gusa.
+  - Gugura Bitcoin iyo igiciro kiduze gusa.
+explanation: |
+  Ico canditswe c’inyigisho kirasigura yuko ugugura ibintu bivuye ku mutima ari .
+  ikoreshwa kugira ngo umuntu ahite abona Bitcoin. Nk'akarorero,
+  vyoshobora gusobanura kugura mu gihe c’impanuka canke kwungukira ku .
+  agashimwe.
+reviewed: true

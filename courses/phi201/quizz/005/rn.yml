@@ -1,0 +1,9 @@
+question: Ni igiki gihambaye mu vy’ububasha mu vy’ubuhinga bwa filozofiya no mu vy’amateka y’Uburengero?
+answer: Ububasha ni inguvu yonona ijana mu guhahaza .
+wrong_answers:
+  - Ububasha burakenewe kugira ngo abantu batere imbere kandi batere imbere
+  - Ububasha ni igikoresho kitagira aho kigarukira gishobora gukoreshwa mu vyiza canke mu bibi .
+  - Ivyo vyose biri hejuru
+explanation: |
+  Mu buhinga bwa filozofiya n’amateka y’Uburengero, ububasha akenshi bubonwa nk’inkomezi zishobora kwonona, zishobora gutuma umuntu ahahazwa no guhohoterwa, ivyo bikaba bigaragaza akaga ko kwibanda ku butegetsi be n’ingaruka mbi bishobora kugira ku mwidegemvyo w’umuntu ku giti ciwe.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ingorane iyihe Bastiat abona ku bijanye n’imvo yo gukingira akazi?
+answer: Izo nyishu zose ni ukuri .
+wrong_answers:
+  - Biroroshe cane kandi ntivyiyumvira ingaruka z’igihe kirekire .
+  - Bishingiye ku ciyumviro c'ikinyoma c'uguhiganwa mu vy'ubutunzi .
+  - Ikoreshwa mu gushingira intahe ingingo z'uburinzi zigirira nabi abaguzi .
+explanation: |
+  Inyishu zose ni zo. Bastiat abona ko imvo yo gukingira akazi ari yoroshe, ishingiye ku ciyumviro c’ikinyoma c’uguhiganwa, kandi ko ishingira intahe ingingo zo gukingira akazi kugira ngo zigire nabi abaguzi.
+reviewed: false

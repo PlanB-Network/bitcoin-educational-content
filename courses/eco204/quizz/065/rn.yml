@@ -1,0 +1,11 @@
+question: Ni iciyumviro nyamukuru ikihe kiri inyuma y’iciyumviro c’agaciro k’igihe k’amahera?
+answer: Igihe gifise agaciro
+wrong_answers:
+  - Amahera aratakaza agaciro uko igihe kigenda kirarenga
+  - Amahera arashobora guhindurwa n'igihe .
+  - Igihe gishobora guhindurwa n'amahera .
+explanation: |
+  Iciyumviro nyamukuru kiri inyuma y’iciyumviro c’agaciro k’igihe c’amahera ni uko .
+  igihe gifise agaciro. Iyo umuntu afashe ingingo yo kwishura igitabu c’isezerano c’amadolari 100 ukwezi kumwe imbere y’aho, .
+  barashobora kuyironka nk’akarorero ku madolari 98, bagaca baronka ayo madolari 100 ku musi bategerezwa kuyaronka.
+reviewed: false

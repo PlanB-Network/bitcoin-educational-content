@@ -1,15 +1,15 @@
 ---
 name: Aegis Authenticator
-description: Comment utiliser Aegis Authenticator pour sécuriser ses comptes avec la double authentification
+description: Comment utiliser Aegis Authenticator pour sécuriser ses comptes avec la double authentification ?
 ---
 
 ![cover](assets/cover.webp)
 
-L'authentification à deux facteurs (2FA) est aujourd'hui indispensable pour sécuriser ses comptes en ligne. En plus du mot de passe, elle ajoute un second facteur (souvent un code à 6 chiffres) qui expire après 30 secondes, ce qui complique considérablement la tâche des pirates informatiques. Utiliser une application TOTP (Time-based One-Time Password) dédiée est plus sûr que les SMS, qui peuvent être détournés par des attaques de SIM swapping.
+L'authentification à deux facteurs (2FA) est aujourd'hui indispensable pour sécuriser ses comptes en ligne. En plus du mot de passe, elle ajoute un second facteur (souvent un code à 6 chiffres) qui expire après 30 secondes, ce qui complique considérablement la tâche des pirates informatiques. Utiliser une application TOTP (*Time-based One-Time Password*) dédiée est plus sûr que les SMS, qui peuvent être détournés par des attaques de SIM swapping.
 
-Cependant, toutes les applications d'authentification ne se valent pas. De nombreuses solutions propriétaires (Google Authenticator, Authy, etc.) posent problème : elles sont à code source fermé (impossible d'auditer leur sécurité), intègrent parfois des trackers publicitaires, n'offrent pas de sauvegarde chiffrée de vos codes, et peuvent même empêcher l'export de vos comptes pour vous enfermer dans leur écosystème.
+Cependant, toutes les applications d'authentification ne se valent pas. De nombreuses solutions propriétaires (Google Authenticator, Authy, etc.) posent problème : elles sont propriétaires et à code source fermé (impossible d'auditer leur sécurité), intègrent parfois des trackers publicitaires, n'offrent pas de sauvegarde chiffrée de vos codes, et peuvent même empêcher l'export de vos comptes pour vous enfermer dans leur écosystème.
 
-Aegis Authenticator, au contraire, se présente comme une alternative libre et éthique à ces applications. Aegis est une application gratuite, sécurisée et open source qui permet de gérer vos jetons de vérification en deux étapes sur Android. Son développement met l'accent sur des fonctionnalités essentielles que d'autres apps n'offrent pas, notamment un chiffrement solide des données locales et la possibilité de sauvegardes sécurisées. En somme, Aegis offre une solution de double authentification locale et auditable, idéale pour qui souhaite garder un contrôle total sur ses codes 2FA.
+Aegis Authenticator, au contraire, se présente comme une alternative libre et éthique à ces applications. Aegis est une application gratuite, sécurisée et open source qui permet de gérer vos jetons de vérification en deux étapes sur Android. Son développement met l'accent sur des fonctionnalités essentielles que d'autres apps n'offrent pas, notamment un chiffrement robuste des données locales et la possibilité de sauvegardes sécurisées. En somme, Aegis offre une solution de double authentification locale et auditable, idéale pour qui souhaite garder un contrôle total sur ses codes 2FA.
 
 ## Présentation d'Aegis Authenticator
 
@@ -58,7 +58,7 @@ Aegis Authenticator est disponible à la fois sur le Google Play Store et sur F-
 **Google Play Store :**
 - ✅ Mise à jour automatique intégrée au système Android
 - ✅ Installation simple et familière
-- ✅ Même APK signé qu'sur les autres canaux
+- ✅ Même APK signé que sur les autres canaux
 
 **F-Droid (recommandé) :**
 - ✅ Store libre et open source
@@ -70,14 +70,15 @@ Le choix entre ces deux options dépend de vos préférences concernant l'écosy
 
 ## Première configuration
 
-Lors du premier lancement d'Aegis, une procédure de configuration initiale vous est proposée afin de sécuriser votre coffre fort de codes 2FA :
+Lors du premier lancement d'Aegis, une procédure de configuration initiale vous est proposée afin de sécuriser votre coffre-fort de codes 2FA :
 
 ![Configuration initiale Aegis](assets/fr/01.webp)
+
 *Processus de configuration initial d'Aegis : écran d'accueil, choix de sécurité, définition du mot de passe maître et finalisation*
 
 ### Définir un mot de passe maître
 
-Aegis va d'abord vous demander de choisir un mot de passe principal. Ce mot de passe servira à chiffrer l'ensemble de vos jetons d'authentification dans le coffre. Il est fortement recommandé de définir un mot de passe robuste et unique, que vous seul connaîtrez. 
+Aegis va d'abord vous demander de choisir un mot de passe principal. Ce mot de passe servira à chiffrer l'ensemble de vos jetons d'authentification stockés dans le coffre. Il est fortement recommandé de définir un mot de passe robuste et unique, que vous seul connaîtrez. 
 
 **⚠️ Attention :** n'oubliez surtout pas ce mot de passe – si vous le perdez, vos codes 2FA chiffrés deviendront inaccessibles (il n'existe pas de backdoor). Aegis vous demandera de saisir deux fois le mot de passe pour confirmation.
 
@@ -92,6 +93,7 @@ Notez que la biométrie est un confort supplémentaire : votre mot de passe maî
 Une fois dans l'application (interface principale vide au départ), familiarisez-vous avec les options de configuration disponibles. Accédez aux paramètres via le menu déroulant en haut à droite de l'écran (trois points verticaux), puis sélectionnez "Settings".
 
 ![Interface principale et paramètres](assets/fr/02.webp)
+
 *Interface principale d'Aegis vide au départ, accès au menu des paramètres et vue d'ensemble des options disponibles*
 
 Le menu des paramètres d'Aegis regroupe plusieurs sections importantes :
@@ -123,12 +125,14 @@ Depuis l'interface principale d'Aegis, appuyez sur le bouton **+** en bas à dro
 Prenons l'exemple concret de l'activation de la 2FA sur Bitwarden pour illustrer le processus :
 
 ![Exemple avec Bitwarden](assets/fr/04.webp)
+
 *Exemple d'activation de la 2FA sur Bitwarden : interface web avec options d'authentification et recommandation d'Aegis*
 
 - **Connexion et accès aux paramètres** : Connectez-vous sur votre espace Bitwarden et accédez aux paramètres, onglet "Security"
 - **Section fournisseurs** : Dirigez-vous dans la section "Providers" et cliquez sur "Manage" dans la partie "Authenticator app"
 
 ![Configuration 2FA avec QR code](assets/fr/05.webp)
+
 *Processus complet d'ajout d'un compte : QR code affiché par le service, clé secrète visible et saisie du code de vérification*
 
 - **Scan du QR code** : Une popup s'ouvre avec le QR code et la clé secrète
@@ -141,6 +145,7 @@ Prenons l'exemple concret de l'activation de la 2FA sur Bitwarden pour illustrer
 Si vous préférez ou ne pouvez pas scanner le QR code, utilisez l'option "Enter manually". Le formulaire vous permet de renseigner :
 
 ![Ajout d'un compte 2FA](assets/fr/03.webp)
+
 *Processus d'ajout d'un nouveau compte 2FA : interface vide, options d'ajout, formulaire de saisie manuel et compte ajouté avec succès*
 
 - **Name** : Le nom du service (ex: Bitwarden, GitHub...)
@@ -184,6 +189,7 @@ La sécurité étant le cœur d'Aegis, il convient de comprendre comment sont pr
 Aegis propose plusieurs stratégies de sauvegarde adaptées à différents besoins de sécurité et de commodité :
 
 ![Configuration des sauvegardes](assets/fr/06.webp)
+
 *Interface complète avec compte ajouté, alerte de sauvegarde, paramètres de sauvegarde automatique et stratégies de backup*
 
 **1. Sauvegardes locales automatiques**
@@ -193,6 +199,7 @@ Aegis propose plusieurs stratégies de sauvegarde adaptées à différents besoi
 - Compatible avec dossiers synchronisés (Nextcloud, Dropbox, etc.)
 
 ![Sélection du dossier de sauvegarde](assets/fr/07.webp)
+
 *Processus de sélection du dossier de sauvegarde : explorateur de fichiers, dossier de destination et autorisation d'accès*
 
 **2. Sauvegardes cloud Android**
@@ -255,7 +262,7 @@ Comment Aegis se positionne-t-il face aux autres applications d'authentification
 - ❌ Impossible d'exporter les codes
 - ❌ Applications desktop supprimées en mars 2024
 
-Aegis excelle pour les utilisateurs Android qui valorisent la transparence, la sécurité locale et le contrôle complet de leurs données. Les alternatives comme Authy conviennent mieux si vous avez absolument besoin de synchronisation automatique multi-appareils.
+Aegis excelle pour les utilisateurs d'Android qui valorisent la transparence, la sécurité locale et le contrôle complet de leurs données. Les alternatives comme Authy conviennent mieux si vous avez absolument besoin de synchronisation automatique multi-appareils.
 
 
 ## Conclusion

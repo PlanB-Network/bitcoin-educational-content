@@ -676,7 +676,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(die größte Primzahl kleiner als $2^{256}$). Die $x$-Koordinate ist der private Schlüssel und die $y$-Koordinate ist Ihr öffentlicher Schlüssel.
+(das die größte Primzahl kleiner als $2^{256}$ ist).
 
 Bei Bitcoin-Transaktionen werden die Ausgaben in der Regel auf irgendeine Weise an einen oder mehrere öffentliche Schlüssel gebunden. Der Wert dieser Transaktionen kann dann durch digitale Signaturen mit den entsprechenden privaten Schlüsseln entriegelt werden.
 

@@ -235,7 +235,7 @@ Aus diesem Grund verwenden wir Geld, um Werte in Raum und Zeit zu bewegen.
 ![BTC204](assets/fr/018.webp)
 
 Damit Münzen dieses Problem lösen können, muss derjenige, der eine Ware oder eine Dienstleistung anbietet, davon überzeugt sein, dass er diese Summe zu einem späteren Zeitpunkt ausgeben kann. Jeder vernünftige Mensch, der eine Münze - ob digital oder physisch - akzeptieren möchte, wird daher sicherstellen, dass sie zwei grundlegende Kriterien erfüllt:
-- **Das Stück muss integer und authentisch sein ;**
+- **Das Stück muss integer und authentisch sein;**
 - **und darf nicht doppelt ausgegeben werden.**
 
 Wenn Sie physisches Bargeld verwenden, ist das erste Merkmal am schwierigsten zu überprüfen. Zu verschiedenen Zeiten in der Geschichte wurde die Unversehrtheit von Metallmünzen oft durch Praktiken wie Beschneiden oder Durchstechen beeinträchtigt. Im alten Rom war es beispielsweise üblich, dass die Bürger die Ränder von Goldmünzen ankratzten, um ein wenig Edelmetall zu sammeln und sie für zukünftige Transaktionen aufzubewahren. Auf diese Weise wurde der innere Wert der Münze verringert, ihr Nennwert blieb jedoch gleich. Dies ist einer der Gründe, warum der Rand der Münze später geriffelt wurde.
@@ -258,9 +258,9 @@ Die einzige Möglichkeit, diese Duplizierung eines digitalen Vermögenswerts zu 
 
 ![BTC204](assets/fr/021.webp)
 
-Bei Bitcoin werden Doppelausgaben auf die gleiche Weise verhindert. Wir versuchen zu bestätigen, dass es keine Transaktion gibt, bei der die fraglichen Münzen bereits ausgegeben wurden. Wenn die Münzen noch nie verwendet wurden, können wir sicher sein, dass keine doppelten Ausgaben getätigt werden. Dieses Prinzip wurde von Satoshi Nakamoto im Weißbuch mit dem berühmten Satz beschrieben:
+Bei Bitcoin werden Doppelausgaben auf die gleiche Weise verhindert. Wir versuchen zu bestätigen, dass es keine Transaktion gibt, bei der die fraglichen Münzen bereits ausgegeben wurden. Wenn die Münzen noch nie verwendet wurden, können wir sicher sein, dass keine doppelten Ausgaben getätigt werden. Dieses Prinzip wurde von Satoshi Nakamoto im Whitepaper mit dem berühmten Satz beschrieben:
 
-**Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein
+**Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.**
 
 Aber im Gegensatz zum Bankenmodell wollen wir bei Bitcoin nicht einer zentralen Stelle vertrauen müssen. Daher müssen alle Nutzer in der Lage sein, zu bestätigen, dass es keine doppelten Ausgaben gibt, ohne sich auf eine dritte Partei zu verlassen. Jeder muss also über alle Bitcoin-Transaktionen informiert sein. Aus diesem Grund werden Bitcoin-Transaktionen auf allen Netzwerkknoten öffentlich bekannt gegeben und im Klartext in der Blockchain aufgezeichnet.
 

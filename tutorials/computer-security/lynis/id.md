@@ -251,215 +251,102 @@ Di sini juga ada hal yang harus diperbaiki: tidak ada pemindai anti-virus atau a
 
 ![Image](assets/fr/028.webp)
 
-
 Lynis selanjutnya berfokus pada pengetatan konfigurasi kernel Linux (termasuk aturan untuk stack IPv4), serta manajemen direktori "Home" pada komputer Linux.
 
 ![Image](assets/fr/035.webp)
 
-
-
-Kita telah sampai pada akhir analisis... Poin terakhir ini menunjukkan bahwa kita akan mendapatkan segalanya dengan memiliki ClamAV pada mesin ini.
-
-
+Kita telah sampai di akhir analisis... Poin terakhir ini menunjukkan bahwa kita akan mendapatkan keuntungan besar dengan memiliki ClamAV pada komputer ini.
 
 ![Image](assets/fr/030.webp)
 
-
-
 ## IV. Rekomendasi
 
+Setelah audit, saatnya untuk membaca dan menganalisis rekomendasi. Di sinilah kita mendapatkan rekomendasi dan penjelasan untuk setiap tes yang dilakukan oleh Lynis.
 
+Sebagai contoh, lihatlah rekomendasi SSH. **Untuk setiap saran, Anda akan menemukan parameter yang direkomendasikan dan tautan yang akan menjelaskan poin keamanan**. Keputusan ada pada Anda, tergantung pada konteks dan penggunaan Anda.
 
-Setelah audit, saatnya untuk membaca dan menganalisis rekomendasi. Di sinilah kami mendapatkan rekomendasi dan penjelasan untuk setiap pengujian yang dilakukan oleh Lynis.
-
-
-
-Sebagai contoh, lihatlah rekomendasi SSH. **Untuk setiap saran, Anda akan menemukan parameter yang direkomendasikan dan tautan yang akan menjelaskan poin keamanan ** Terserah Anda untuk memutuskan, tergantung pada konteks dan penggunaan Anda.
-
-
-
-Mari kita lihat beberapa contoh rekomendasi yang secara langsung menggemakan poin-poin yang disoroti selama audit...
-
-
+Mari kita lihat beberapa contoh rekomendasi yang secara langsung memaparkan poin-poin yang disoroti di seluruh audit...
 
 ### A. Contoh rekomendasi
 
-
-
-
-
-- Seperti yang kita lihat sebelumnya, NTP penting untuk log pencatatan waktu:
-
-
+- Seperti yang kita lihat sebelumnya, NTP penting untuk time stamp log:
 
 ![Image](assets/fr/043.webp)
 
-
-
-
-
-- Lynis juga menyarankan untuk menginstal paket **apt-listbugs** untuk mendapatkan informasi tentang bug kritis selama instalasi paket melalui **apt.**
-
-
+- Lynis juga menyarankan untuk memasang paket **apt-listbugs** untuk mendapatkan informasi tentang kelemahan fatal  selama pemasangan paket melalui **apt**.
 
 ![Image](assets/fr/041.webp)
 
-
-
-
-
-- Alat ini menyarankan kita untuk menginstal **needrestart untuk dapat melihat proses mana yang menggunakan versi lama dari pustaka dan perlu dimulai ulang.
-
-
+- Aplikasi ini menyarankan kita untuk memasang **needrestart** agar dapat melihat proses mana yang menggunakan versi lama dari library dan perlu restart.
 
 ![Image](assets/fr/054.webp)
 
-
-
-
-
-- Saran ini menyarankan untuk menginstal **fail2ban** untuk secara otomatis memblokir host yang gagal mengautentikasi (terutama brute force).
-
-
+- Saran ini menyarankan untuk menginstal **fail2ban** agar secara otomatis memblokir host yang gagal diautentikasi (terutama serangan brute force).
 
 ![Image](assets/fr/044.webp)
 
-
-
-
-
-- Untuk mengeraskan layanan sistem, dia merekomendasikan kita menjalankan perintah biru untuk setiap layanan pada mesin kita.
-
-
+- Untuk memperkuat layanan sistem, kita direkomendasikan menjalankan perintah yang disorot dengan warna biru untuk setiap layanan di komputer kita.
 
 ![Image](assets/fr/056.webp)
 
-
-
-
-
-- Dia menyarankan untuk menetapkan tanggal kedaluwarsa untuk semua kata sandi akun yang dilindungi.
-
-
+- Disarankan untuk menetapkan tanggal kedaluwarsa untuk semua kata sandi akun yang dilindungi.
 
 ![Image](assets/fr/031.webp)
 
-
-
-
-
-- Saran ini menyarankan untuk menetapkan nilai minimum dan maksimum untuk usia kata sandi. Di antaranya, hal ini akan memastikan bahwa kata sandi diubah secara teratur.
-
-
+- Disarankan untuk menetapkan nilai minimum dan maksimum untuk usia kata sandi. Antara lain, hal ini akan memastikan bahwa kata sandi diubah secara teratur.
 
 ![Image](assets/fr/042.webp)
 
-
-
-
-
-- Kami merekomendasikan penggunaan partisi terpisah, untuk membatasi dampak masalah ruang disk pada satu partisi.
-
-
+- Direkomendasikan untuk menggunakan partisi terpisah, untuk membatasi dampak masalah ruang disk pada satu partisi.
 
 ![Image](assets/fr/047.webp)
 
-
-
-
-
-- Rekomendasi ini menyarankan untuk menonaktifkan penyimpanan USB dan firewire untuk mencegah kebocoran data
-
-
+- Rekomendasi ini menyarankan untuk menonaktifkan penyimpanan USB dan firewire untuk mencegah kebocoran data.
 
 ![Image](assets/fr/033.webp)
 
-
-
-
-
-- Untuk memenuhi rekomendasi ini, cukup instal dan konfigurasikan **unnatended-upgrade**, misalnya.
-
-
+- Untuk memenuhi rekomendasi ini, cukup pasang dan konfigurasikan **unattended-upgrade**, sebagai contoh.
 
 ![Image](assets/fr/053.webp)
 
-
-
 ### B. Menginstal paket yang direkomendasikan
 
+Untuk meningkatkan konfigurasi sistem, kita akan memasang beberapa paket di komputer: beberapa direkomendasikan oleh Lynis, beberapa saya rekomendasikan secara pribadi.
 
-
-Untuk meningkatkan konfigurasi sistem, kita akan menginstal beberapa paket pada mesin: beberapa paket yang direkomendasikan oleh Lynis, beberapa paket yang saya rekomendasikan secara pribadi.
-
-
-
-Anda akan memiliki dasar yang baik untuk bekerja, selama Anda meluangkan sedikit waktu untuk mengonfigurasinya. Untuk melakukan hal ini, lihat situs IT-Connect, artikel lain di Web, dan dokumentasi alat.
-
-
+Anda akan memiliki dasar yang baik untuk dikerjakan, asalkan Anda meluangkan sedikit waktu untuk mengonfigurasinya. Untuk melakukan ini, lihat situs IT-Connect, artikel lain di web, dan dokumentasi aplikasi.
 
 ```
 sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban unattended-upgrades clamav clamav-daemon rkhunter
 ```
 
-
-
 Beberapa informasi tentang paket yang diinstal :
 
-
-
-
-
-- Clamav** adalah sebuah antivirus.
-- unattend-upgrades** akan memungkinkan Anda untuk mengelola pembaruan secara otomatis dan bahkan me-reboot mesin atau secara otomatis menghapus paket lama, sepenuhnya dapat dikonfigurasi.
-- rkhunter** adalah anti-rootkit yang memindai sistem file Anda.
-- Fail2ban** akan mendasarkan diri pada file log Anda sesuai dengan apa yang Anda berikan untuk dibacanya dan akan bekerja dengan **iptables**, misalnya untuk memblokir alamat IP yang mencoba untuk "memaksa" server Anda di SSH.
-
-
+- **Clamav** adalah sebuah antivirus.
+- **unattend-upgrades** akan memungkinkan Anda untuk mengelola pembaruan secara otomatis dan bahkan me-reboot komputer atau secara otomatis menghapus paket lama, sepenuhnya dapat dikonfigurasi.
+- **rkhunter** adalah anti-rootkit yang memindai sistem file Anda.
+- **Fail2ban** akan berkerja dengan sendirinya pada file log Anda sesuai dengan apa yang Anda berikan untuk dibaca dan akan bekerja dengan **iptables**, misalnya untuk memblokir alamat IP yang mencoba melakukan "brute force" server SSH Anda.
 
 ### C. Rekomendasi untuk SSH
 
-
-
-Mari kita lihat rekomendasi SSH. Mereka tercantum di bawah ini. Jangan khawatir, kami akan segera menjelaskan cara meningkatkan konfigurasinya.
-
-
+Mari kita lihat rekomendasi SSH. Rekomendasi tersebut tercantum di bawah ini. Jangan khawatir, kita akan segera menjelaskan cara meningkatkan konfigurasinya.
 
 ![Image](assets/fr/034.webp)
 
-
-
 Mari kita lihat lebih dekat konfigurasi **SSH** saya saat ini di :**/etc/ssh/sshd_config**
-
-
 
 ![Image](assets/fr/018.webp)
 
+Konfigurasi yang disarankan di bawah ini masih dapat dioptimalkan, tetapi ini sudah memberikan Anda dasar yang baik. _Harap diperhatikan bahwa saya telah menghapus sejumlah komentar agar lebih mudah dibaca_.
 
+Kita akan melakukannya:
 
-Konfigurasi yang disarankan di bawah ini masih bisa dioptimalkan, tetapi memberikan Anda dasar yang baik. *Harap diperhatikan, bahwa saya sudah menghapus sejumlah komentar agar lebih mudah dibaca*.
-
-
-
-Kami akan melakukannya:
-
-
-
-
-
-- Ubah port koneksi SSH (lupakan 22 default)
-- Meningkatkan tingkat kata kerja log, dari **INFO ke VERBOSE**
-- Tetapkan **Waktu Tenggang Masuk** ke **2 menit**
-
-
+- Ubah port koneksi SSH (lupakan port 22 default)
+- Kita akan mengatur level verbositas log, dari **INFO menjadi VERBOSE**.
+- Mengatur **LoginGraceTime** ke **2 menit**.
 
 Jika tidak ada informasi koneksi yang dimasukkan dalam waktu dua menit, koneksi akan terputus.
 
-
-
-
-
-- Aktifkan **ModeKetat**
+- Aktifkan **strictModes**
 
 
 

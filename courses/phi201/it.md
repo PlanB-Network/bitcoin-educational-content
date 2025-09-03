@@ -246,7 +246,7 @@ Mises aggiunge che il miglioramento della condizione umana è stato reso possibi
 
 > Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali richiesti per l'uso pratico delle nuove invenzioni non fossero stati realizzati dal risparmio preventivo.
 
-Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalismo e gli storici_ (University of Chicago Press, 1954) e al suo capitolo intitolato "Storia e politici". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
+Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Il capitalismo e gli storici_ (University of Chicago Press, 1954) e al suo capitolo intitolato "Storia e politici". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
 
 > La vera storia della connessione tra capitalismo e l'ascesa del proletariato è quasi l'opposto di quello che queste teorie dell'espropriazione delle masse suggeriscono.
 > Prima della Rivoluzione Industriale, la maggior parte delle persone viveva in società rurali e dipendeva dall'agricoltura per la propria sopravvivenza. Avevano poco da vendere sul mercato, il che limitava le loro opportunità e il loro tenore di vita. Tutti si aspettavano di vivere in assoluta povertà e immaginavano un destino simile per i loro discendenti. Nessuno si indignava per una situazione che sembrava inevitabile.
@@ -267,7 +267,7 @@ Successivamente, un'analisi storica più sfumata di quella di Marx ci permette d
 
 Come dice Jean Baechler, membro dell'Accademia delle Scienze Morali e Politiche, in _Le origini del capitalismo_ (1971):
 
-> "La prima condizione per la massimizzazione dell'efficienza economica è la liberazione della società civile dallo Stato (...) L'espansione del capitalismo deve la sua origine e ragion d'essere all'anarchia politica."
+> La prima condizione per la massimizzazione dell'efficienza economica è la liberazione della società civile dallo Stato (...) L'espansione del capitalismo deve la sua origine e ragion d'essere all'anarchia politica.
 
 In altre parole, il grande "non-evento" che ha dominato il destino dell'Europa è stata l'assenza di un impero egemonico, come quello che dominava la Cina.
 Questa Europa radicalmente decentralizzata ha prodotto parlamenti e Stati Generali. Ha dato vita a carte come la famosa Magna Carta degli inglesi, ma ha anche prodotto le città libere del Nord Italia e delle Fiandre: Venezia, Firenze, Genova, Amsterdam, Gand e Bruges. Infine, ha sviluppato il concetto di diritto naturale, così come il principio che anche il Principe non è al di sopra della legge, una dottrina radicata nelle università medievali di Bologna, Oxford e Parigi, estendendosi a Vienna e Cracovia. 
@@ -297,7 +297,7 @@ Per Rothbard, il principio della libertà dovrebbe applicarsi anche al denaro. S
 
 Rothbard mette in guardia dall'idea che le costituzioni scritte, di per sé, possano garantire la libertà e la limitazione del potere:
 
-> "Gli ultimi secoli sono stati un periodo in cui gli uomini hanno cercato di imporre limiti costituzionali e di altro tipo allo Stato, solo per scoprire che tali limiti, come tutti gli altri tentativi, erano falliti. Di tutte le numerose forme che i regimi hanno assunto nel corso dei secoli, di tutti i concetti e le istituzioni sperimentati, nessuno è riuscito a tenere lo Stato sotto controllo."
+> Gli ultimi secoli sono stati un periodo in cui gli uomini hanno cercato di imporre limiti costituzionali e di altro tipo allo Stato, solo per scoprire che tali limiti, come tutti gli altri tentativi, erano falliti. Di tutte le numerose forme che i regimi hanno assunto nel corso dei secoli, di tutti i concetti e le istituzioni sperimentati, nessuno è riuscito a tenere lo Stato sotto controllo.
 
 Una costituzione scritta ha certamente molti vantaggi, ma è un grave errore presumere che sarebbe sufficiente. Infatti, il partito di maggioranza, con il suo potere, può adottare un'interpretazione estensiva per aumentare il suo potere. Senza meccanismi concreti per far rispettare i diritti, e di fronte a un partito dominante determinato ad estendere il suo potere, le costituzioni rischiano di diventare strumenti inefficaci e fuorvianti.
 
@@ -321,7 +321,7 @@ Per Rothbard, l'ordine sociale può prevalere se è il prodotto della generalizz
 
 E aggiunge:
 
-> "Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
+> Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire (che significa "lasciar fare") del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
 >
 > (_Etica della Libertà_)
 
@@ -368,7 +368,7 @@ L'armonia sociale non è prodotta dall'azione intenzionale degli dei, ma dall'ob
 
 Per Aristotele, la tirannia è l'obbedienza a un uomo, e la libertà è l'obbedienza alla legge. Gli viene attribuita questa citazione:
 
-> Desiderare lo stato di diritto significa aspettarsi il regno esclusivo della ragione. Scegliere invece il governo di un uomo significa aggiungere quello di una bestia feroce, poiché il desiderio e la rabbia distorcono il giudizio dei governanti, anche se sono i migliori tra gli uomini.
+> Desiderare lo Stato di diritto significa aspettarsi il regno esclusivo della ragione. Scegliere invece il governo di un uomo significa aggiungere quello di una bestia feroce, poiché il desiderio e la rabbia distorcono il giudizio dei governanti, anche se sono i migliori tra gli uomini.
 
 Secondo lui, le leggi, essendo impersonali e permanenti, garantiscono giustizia e uguaglianza per tutti i cittadini.
 
@@ -385,7 +385,7 @@ L'idea di libertà sotto la legge si ritrova anche nel termine anglosassone "Rul
 
 Si può dire che i Greci abbiano inventato il concetto di libertà politica, in opposizione al dominio tirannico. I Greci di quell'epoca consideravano la schiavitù un'istituzione naturale e che gli schiavi non avessero lo stesso status dei cittadini. Questo può sembrare contraddittorio all'idea di libertà, ma per loro, la libertà era legata alla cittadinanza e non all'assenza di schiavitù.
 
-Erodoto, in _Historia_ e Eschilo nella sua tragedia _I Persiani_, illustrano brillantemente il contrasto tra la monarchia assoluta e tirannica di Serse e lo spirito di libertà dei Greci. Questo popolo, caratterizzato dall'assenza di padroni e dal rifiuto di sottomettersi alla schiavitù da parte dei barbari, per quanto numerosi, trova la sua forza nella legge, il "nomos", il suo vero padrone che garantisce la sua libertà. E questa legge emana dalla volontà di tutti.
+Erodoto, in _Storia_ e Eschilo nella sua tragedia _I Persiani_, illustrano brillantemente il contrasto tra la monarchia assoluta e tirannica di Serse e lo spirito di libertà dei Greci. Questo popolo, caratterizzato dall'assenza di padroni e dal rifiuto di sottomettersi alla schiavitù da parte dei barbari, per quanto numerosi, trova la sua forza nella legge, il "nomos", il suo vero padrone che garantisce la sua libertà. E questa legge emana dalla volontà di tutti.
 
 Secondo Jacqueline de Romilly:
 
@@ -410,7 +410,7 @@ Questi elementi indicano, secondo lui, che fu Talete ad originare questa nuova t
 
 L'unico mezzo che abbiamo per avvicinarci alla verità sono la critica e la discussione. Dall'antica Grecia, quindi, proviene questa tradizione:
 
-> Che consiste nel formulare congetture audaci ed esercitare una critica libera, una tradizione che fu all'origine dell'approccio razionale e scientifico e, di conseguenza, di questa cultura occidentale che è la nostra e l'unica che si fonda sulla scienza anche se, ovviamente, questa non è la sua unica base.
+> Essa consiste nel formulare congetture audaci ed esercitare una critica libera, una tradizione che fu all'origine dell'approccio razionale e scientifico e, di conseguenza, di questa cultura occidentale che è la nostra e l'unica che si fonda sulla scienza, anche se, ovviamente, questa non è la sua unica base.
 
 ## L'invenzione del diritto da parte dei Romani
 

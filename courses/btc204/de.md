@@ -1047,10 +1047,10 @@ Eine Bitcoin-Empfangsadresse ist eine Zeichenkette oder eine Kennung, die zum Em
 
 Technisch gesehen "empfängt" eine Bitcoin-Empfangsadresse keine Bitcoins im wörtlichen Sinne, sondern dient vielmehr dazu, die Bedingungen festzulegen, unter denen Bitcoins ausgegeben werden können. Konkret: Wenn eine Zahlung an Sie gesendet wird, erzeugt die Transaktion des Absenders einen neuen UTXO für Sie als Output aus den UTXOs, die er als Input verbraucht hat. An diesen Output wird ein Skript angehängt, das festlegt, wie dieser UTXO zu einem späteren Zeitpunkt ausgegeben werden kann. Dieses Skript wird als "*ScriptPubKey*" oder "*Locking Script*" bezeichnet. Ihre Empfangsadresse, genauer gesagt deren Nutzlast, ist in dieses Skript integriert. Laienhaft ausgedrückt, besagt dieses Skript im Wesentlichen:
 
-> "*Um diese neue UTXO auszugeben, müssen Sie eine digitale Signatur mit dem privaten Schlüssel, der mit dieser Empfangsadresse verknüpft ist, leisten."
+> "*Um diese neue UTXO auszugeben, müssen Sie eine digitale Signatur mit dem privaten Schlüssel, der mit dieser Empfangsadresse verknüpft ist, leisten.*"
 ![BTC204](assets/fr/067.webp)
 
-Bitcoin-Adressen gibt es in verschiedenen Ausführungen, je nach verwendetem Skripting-Modell. Die ersten Modelle, bekannt als "Legacy*", beinhalten die "P2PKH" (*Pay-to-PubKey-Hash*) und "P2SH" (*Pay-to-Script-Hash*) Adressen. P2PKH-Adressen beginnen immer mit "1", und P2SH mit "3". Obwohl diese Formate immer noch sicher sind, sind sie inzwischen überholt, da sie höhere Transaktionskosten verursachen und weniger vertraulich sind als die neuen Standards.
+Bitcoin-Adressen gibt es in verschiedenen Ausführungen, je nach verwendetem Skripting-Modell. Die ersten Modelle, bekannt als "*Legacy*", beinhalten die "P2PKH" (*Pay-to-PubKey-Hash*) und "P2SH" (*Pay-to-Script-Hash*) Adressen. P2PKH-Adressen beginnen immer mit "1", und P2SH mit "3". Obwohl diese Formate immer noch sicher sind, sind sie inzwischen überholt, da sie höhere Transaktionskosten verursachen und weniger vertraulich sind als die neuen Standards.
 
 SegWit V0 (`P2WPKH` und `P2WSH`) und Taproot / SegWit V1 (`P2TR`) Adressen sind moderne Formate. SegWit-Adressen beginnen mit "bc1q" und Taproot-Adressen, die 2021 eingeführt wurden, beginnen mit "bc1p".
 
@@ -1062,7 +1062,7 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 
 Wie der ScriptPubKey aufgebaut ist, hängt von dem von Ihnen verwendeten Standard ab:
 
-| ScriptPubKey | Skriptvorlage
+| ScriptPubKey | Skriptvorlage |
 
 | ---------------- | ----------------------------------------------------------- |
 

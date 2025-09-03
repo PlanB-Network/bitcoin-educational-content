@@ -748,7 +748,7 @@ Idealerweise sollte für diese Übungen ein professionelles Blockchain-Analyse-T
 
 Zu Beginn stelle ich Ihnen die Übungen vor. Benutzen Sie Ihren Block-Explorer, um sie auszufüllen, und notieren Sie Ihre Antworten auf einem Blatt Papier. Am Ende dieses Kapitels gebe ich Ihnen dann die Antworten, damit Sie Ihre Ergebnisse überprüfen und korrigieren können.
 
-*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen
+*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.*
 
 ### Übung 1
 
@@ -834,15 +834,15 @@ bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
 
 Welche Informationen können wir allein aus dieser Transaktion ableiten?
 
-### Lösungen üben
+### Lösungen
 
 ***Übung 1:***
 
-Das Modell für diese Transaktion ist das einfache Zahlungsmodell. Wenn wir nur seine Struktur untersuchen, können wir interpretieren, dass ein Output den Austausch und der andere Output eine tatsächliche Zahlung darstellt. Wir wissen also, dass der beobachtete Nutzer wahrscheinlich nicht mehr im Besitz eines der beiden UTXOs im Output (dem der Zahlung) ist, aber immer noch im Besitz des anderen UTXOs (dem des Austauschs) ist.
+Das Modell für diese Transaktion ist das einfache Zahlungsmodell. Wenn wir nur seine Struktur untersuchen, können wir interpretieren, dass ein Output das Wechselgeld und der andere Output eine tatsächliche Zahlung darstellt. Wir wissen also, dass der beobachtete Nutzer wahrscheinlich nicht mehr im Besitz eines der beiden UTXOs im Output (dem der Zahlung) ist, aber immer noch im Besitz des anderen UTXOs (dem des Wechselgelds) ist.
 
 ***Übung 2:***
 
-Das Modell für diese Transaktion ist das der gebündelten Ausgaben. Dieses Modell lässt wahrscheinlich auf eine groß angelegte Wirtschaftstätigkeit schließen, wie z. B. eine Tauschbörse. Daraus lässt sich ableiten, dass die Eingangs-UTXO von einem Unternehmen mit hoher wirtschaftlicher Aktivität stammen und dass die Ausgangs-UTXO verstreut sein werden. Einige werden Kunden des Unternehmens gehören, die ihre Bitcoins in selbstverwahrte Wallets eingezahlt haben. Andere können an Partnerunternehmen gehen. Und schließlich wird es zweifellos einen Teil des Austauschs geben, der an das ausgebende Unternehmen zurückfließt.
+Das Modell für diese Transaktion ist das der gebündelten Ausgaben. Dieses Modell lässt wahrscheinlich auf eine groß angelegte Wirtschaftstätigkeit schließen, wie z. B. eine Tauschbörse. Daraus lässt sich ableiten, dass die Eingangs-UTXO von einem Unternehmen mit hoher wirtschaftlicher Aktivität stammen und dass die Ausgangs-UTXO verstreut sein werden. Einige werden Kunden des Unternehmens gehören, die ihre Bitcoins in selbstverwahrte Wallets eingezahlt haben. Andere können an Partnerunternehmen gehen. Und schließlich wird es zweifellos einen Teil des Wechelgeldes geben, der an das ausgebende Unternehmen zurückfließt.
 
 ***Übung 3:***
 
@@ -851,8 +851,8 @@ Das Modell für diese Transaktion ist eine einfache Zahlung. Wir können daher i
 Ich persönlich habe mindestens zwei interne Heuristiken identifiziert, die die gleiche Hypothese unterstützen:
 
 
-- Die Wiederverwendung desselben Skripttyps ;
-- Die größte Leistung.
+- Die Wiederverwendung desselben Skripttyps;
+- Den größten Output.
 
 Die offensichtlichste Heuristik ist die Wiederverwendung des gleichen Skripttyps. In der Tat ist die Ausgabe `0` ein `P2SH`, erkennbar an der mit `3` beginnenden Empfangsadresse:
 
@@ -876,7 +876,7 @@ Wir können also davon ausgehen, dass der Ausgang "0" einer Zahlung entspricht u
 
 Um diese Hypothese zu stützen oder zu widerlegen, können wir nach anderen Heuristiken suchen, die entweder unser Denken bestätigen oder die Wahrscheinlichkeit verringern, dass unsere Hypothese richtig ist.
 
-Ich habe mindestens eine weitere Heuristik identifiziert. Es ist die größte Output-Heuristik. Output `0` misst `123.689 sats`, während Output `1` `505.839 sats` misst. Es besteht also ein erheblicher Unterschied zwischen diesen beiden Ausgaben. Die Heuristik des größten Outputs legt nahe, dass der größte Output wahrscheinlich der Devisenmarkt ist. Diese Heuristik stärkt unsere ursprüngliche Hypothese weiter.
+Ich habe mindestens eine weitere Heuristik identifiziert. Es ist die größte Output-Heuristik. Output `0` misst `123.689 sats`, während Output `1` `505.839 sats` misst. Es besteht also ein erheblicher Unterschied zwischen diesen beiden Ausgaben. Die Heuristik des größten Outputs legt nahe, dass der größte Output wahrscheinlich das Wechelgeld ist. Diese Heuristik stärkt unsere ursprüngliche Hypothese weiter.
 
 Es scheint daher wahrscheinlich, dass der Nutzer, der den UTXO als Input geliefert hat, immer noch im Besitz des Outputs "1" ist, der den Austausch der Transaktion zu verkörpern scheint.
 
@@ -887,8 +887,8 @@ Das Modell für diese Transaktion ist eine einfache Zahlung. Wir können daher i
 Ich persönlich habe mindestens zwei interne Heuristiken identifiziert, die die gleiche Hypothese unterstützen:
 
 
-- Die Wiederverwendung desselben Skripttyps ;
-- Die runde Postausgabe.
+- Die Wiederverwendung desselben Skripttyps;
+- Die runde Ausgabe.
 
 Die offensichtlichste Heuristik ist die Wiederverwendung des gleichen Skripttyps. In der Tat ist die Ausgabe `0` ein `P2SH`, erkennbar an der mit `3` beginnenden Empfangsadresse:
 
@@ -914,7 +914,7 @@ Um diese Hypothese zu stützen oder zu widerlegen, können wir nach anderen Heur
 
 Ich habe mindestens eine weitere Heuristik identifiziert. Es ist die Ausgabe der runden Beträge. Ausgang `0` misst `70.000 sats`, während Ausgang `1` `22.962 sats` misst. Wir haben also eine vollkommen runde Ausgabe in der Rechnungseinheit BTC. Die Heuristik der runden Ausgabe deutet darauf hin, dass die UTXO mit einem runden Betrag höchstwahrscheinlich die Zahlung ist und dass die andere den Austausch darstellt. Diese Heuristik stärkt unsere ursprüngliche Hypothese weiter.
 
-In diesem Beispiel könnte jedoch eine andere Heuristik unsere ursprüngliche Hypothese in Frage stellen. In der Tat ist der Output "0" größer als der Output "1". Ausgehend von der Heuristik, dass die größte Ausgabe im Allgemeinen Devisen sind, könnten wir ableiten, dass die Ausgabe "0" Devisen sind. Diese Gegenhypothese erscheint jedoch unplausibel, da die beiden anderen Heuristiken wesentlich überzeugender erscheinen als die Heuristik des größten Outputs. Daher erscheint es vernünftig, trotz dieses scheinbaren Widerspruchs an unserer ursprünglichen Hypothese festzuhalten.
+In diesem Beispiel könnte jedoch eine andere Heuristik unsere ursprüngliche Hypothese in Frage stellen. In der Tat ist der Output "0" größer als der Output "1". Ausgehend von der Heuristik, dass die größte Ausgabe im Allgemeinen Devisen sind, könnten wir ableiten, dass die Ausgabe "0" Wechelgeld ist. Diese Gegenhypothese erscheint jedoch unplausibel, da die beiden anderen Heuristiken wesentlich überzeugender erscheinen als die Heuristik des größten Outputs. Daher erscheint es vernünftig, trotz dieses scheinbaren Widerspruchs an unserer ursprünglichen Hypothese festzuhalten.
 
 Es scheint daher wahrscheinlich, dass der Nutzer, der den UTXO als Input geliefert hat, immer noch im Besitz des Outputs "1" ist, der den Austausch der Transaktion zu verkörpern scheint.
 
@@ -1017,16 +1017,16 @@ ___
 *Für die Abfassung dieses Teils 3 über die Blockchain-Analyse habe ich folgende Quellen herangezogen:*
 
 
-- Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
-- Die verschiedenen Berichte von [OXT Research] (https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist) ;*
-- Im Großen und Ganzen stammt mein Wissen aus verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- Das [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich in Begleitung von [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilnahm
+- *Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
+- *Die verschiedenen Berichte von [OXT Research] (https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist) ;*
+- *Im Großen und Ganzen stammt mein Wissen aus verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
+- *Das [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich in Begleitung von [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilnahm
 
 *Ich möchte mich bei den Autoren, Entwicklern und Produzenten bedanken. Mein Dank gilt auch den Korrekturlesern, die den Artikel, auf dem dieser Teil 3 basiert, akribisch korrigiert haben und mir ihren fachkundigen Rat gaben :*
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
-- [Ludovic Lars](https://viresinnumeris.fr/)
+- *[Gilles Cadignan](https://twitter.com/gillesCadignan);*
+- *[Ludovic Lars](https://viresinnumeris.fr/)
 
 # Bewährte Praktiken zum Schutz Ihrer Privatsphäre beherrschen
 

@@ -1063,21 +1063,13 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 Wie der ScriptPubKey aufgebaut ist, hängt von dem von Ihnen verwendeten Standard ab:
 
 | ScriptPubKey | Skriptvorlage |
-
 | ---------------- | ----------------------------------------------------------- |
-
 | P2PKH | OP_DUP OP_HASH160 `<pubKeyHash>` OP_EQUALVERIFY OP_CHECKSIG |
-
 | P2SH | OP_HASH160 `<scriptHash>` OP_EQUAL |
-
 | P2WPKH | 0 `<pubKeyHash>` |
-
 | P2WSH | 0 `<witnessScriptHash>` |
-
 | P2SH - P2WPKH | OP_HASH160 `<redeemScriptHash>` OP_EQUAL |
-
 | P2SH - P2WSH | OP_HASH160 `<redeemScriptHash>` OP_EQUAL |
-
 | P2TR | 1 `<pubKey>` |
 
 Der Aufbau der Empfangsadressen hängt auch vom gewählten Skriptmodell ab:

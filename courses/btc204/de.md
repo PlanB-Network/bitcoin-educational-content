@@ -511,7 +511,7 @@ Dank dieser Transaktionsmuster können wir bereits eine gewisse Menge an Informa
 Eine interne Heuristik ist ein spezifisches Merkmal, das wir innerhalb einer Transaktion selbst identifizieren, ohne ihre Umgebung untersuchen zu müssen, und das uns ermöglicht, Schlussfolgerungen zu ziehen. Im Gegensatz zu Mustern, die sich auf die Gesamtstruktur der Transaktion auf einer hohen Ebene konzentrieren, basieren interne Heuristiken auf der Menge der extrahierbaren Daten. Dazu gehören:
 
 
-- Die Beträge der verschiedenen UTXOs in und out;
+- Die Beträge der verschiedenen Input-UTXOs und Output-UTXOs;
 - Alles, was mit Skripten zu tun hat: Empfangsadressen, Versionierung, Sperrzeiten...
 
 Mit dieser Art von Heuristik können wir im Allgemeinen den Austausch in einer bestimmten Transaktion identifizieren. Auf diese Weise können wir die Verfolgung einer Entität über mehrere verschiedene Transaktionen hinweg fortsetzen. Wenn wir nämlich einen UTXO identifizieren, der einem Nutzer gehört, den wir verfolgen wollen, ist es von entscheidender Bedeutung, bei der Durchführung einer Transaktion festzustellen, welcher Output an einen anderen Nutzer übertragen wurde und welcher Output den Austausch darstellt, der somit in seinem Besitz bleibt.
@@ -573,9 +573,9 @@ Es ist zu betonen, dass diese Heuristik nicht immer anwendbar ist, da die meiste
 Dennoch könnte ein Analytiker versuchen, diese Umrechnung unter Berücksichtigung des Wechselkurses vorzunehmen, der zum Zeitpunkt der Übertragung der Transaktion im Netz galt. Nehmen wir das Beispiel einer Transaktion mit einem Input von 97.552 Sats und zwei Outputs, einem von 31.085 Sats und einem von 64.152 Sats. Auf den ersten Blick scheint es sich bei dieser Transaktion nicht um runde Beträge zu handeln. Wendet man jedoch den Wechselkurs von 64,339 € zum Zeitpunkt der Transaktion an, so ergibt sich folgende Umrechnung in Euro:
 
 
-- Ein Aufwand von 62,76 €;
-- Eine Leistung von 20 €;
-- Eine Leistung von 41,27 €.
+- Ein Input von 62,76 €;
+- Ein Output von 20 €;
+- Ein Output von 41,27 €.
 
 Nach der Umrechnung in Fiat-Währung kann diese Transaktion zur Anwendung der Heuristik für runde Beträge verwendet werden. Die Ausgabe von 20 € ging wahrscheinlich an einen Händler oder wechselte zumindest den Besitzer. Daraus lässt sich ableiten, dass die Ausgabe von 41,27 € wahrscheinlich im Besitz des ursprünglichen Nutzers geblieben ist.
 
@@ -595,7 +595,7 @@ Source : [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 
 ### Die größte Leistung
 
-Wenn wir bei einem einfachen Zahlungsmodell eine ausreichend große Lücke zwischen zwei Transaktionsoutputs feststellen, können wir davon ausgehen, dass der größte Output wahrscheinlich der Devisenhandel ist.
+Wenn wir bei einem einfachen Zahlungsmodell eine ausreichend große Lücke zwischen zwei Transaktionsoutputs feststellen, können wir davon ausgehen, dass der größte Output wahrscheinlich das Wechselgeld ist.
 
 ![BTC204](assets/fr/052.webp)
 

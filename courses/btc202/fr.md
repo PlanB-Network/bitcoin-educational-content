@@ -774,19 +774,19 @@ Maintenant que nous disposons de toutes les informations nécessaires, il est te
 
 ### Matériel nécessaire
 
-Dans ce tutoriel, nous allons utiliser l’image UmbrelOS x86, plus précisément la version x86_64. Vous pourrez donc suivre ce guide quelle que soit la machine choisie, à condition qu’elle ne soit pas équipée d’un processeur à architecture ARM (Apple Silicon, Raspberry Pi, etc.). Cela signifie que tout ordinateur doté d’un processeur Intel ou AMD 64 bits conviendra, sous réserve de répondre aux exigences minimales selon l’usage que vous envisagez pour votre instance Umbrel (au moins dual-core, quad-core recommandé).
+Nous allons utiliser ici l’image UmbrelOS x86 (plus précisément la version x86_64). Vous pourrez donc suivre ce guide quelle que soit la machine choisie, à condition qu’elle ne soit pas équipée d’un processeur à architecture ARM (pas d'Apple Silicon, de Raspberry Pi, etc.). Cela signifie que tout ordinateur doté d’un processeur Intel ou AMD 64 bits conviendra, sous réserve de répondre aux exigences minimales selon l’usage que vous envisagez pour votre Umbrel (au moins dual-core, quad-core recommandé).
 
 Si vous avez opté pour un Raspberry Pi 5 (option que je déconseille, comme évoqué dans la partie précédente), l’installation diffère légèrement. Vous pouvez alors suivre ce tutoriel dédié et revenir à mon cours une fois sur l’interface web `http://umbrel.local` :
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un Lenovo ThinkCentre M900 Tiny équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
+Comme évoqué dans la partie précédente, pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un *Lenovo ThinkCentre M900 Tiny* équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
 
 ![Image](assets/fr/001.webp)
 
 J’apprécie particulièrement la gamme ThinkCentre Tiny de Lenovo, car il s’agit de machines compactes, silencieuses et très robustes. Ces ordinateurs sont très répandus dans les entreprises, et abondent donc sur le marché de l’occasion, ce qui permet de trouver des configurations intéressantes entre 70 € et 200 €.
 
-Si, comme moi, vous avez opté pour un PC dépourvu d’écran, **vous devrez connecter un écran et un clavier** uniquement le temps de l’installation. Par la suite, il sera possible d’y accéder à distance depuis un autre ordinateur sur le même réseau (ou via d’autres méthodes que nous aborderons dans les prochains chapitres). Prévoyez également un câble Ethernet RJ45 pour connecter votre machine au réseau local, ainsi qu’une clé USB d’au moins 4 Go pour y graver l’image d’installation.
+Si, comme moi, vous avez opté pour un PC dépourvu d’écran, **vous devrez connecter un écran et un clavier** uniquement le temps de l’installation. Par la suite, il sera possible d’y accéder à distance depuis un autre ordinateur sur le même réseau (ou via d’autres méthodes que nous aborderons dans les prochains chapitres). Prévoyez également un câble Ethernet RJ45 pour connecter votre machine au réseau local, ainsi qu’une clé USB d’au moins 4 Go pour y mettre l’image d’installation.
 
 Pour récapituler, voici les besoins en matériel :
 - Ordinateur avec processeur x86_64 (minimum Dual-core, recommandé Quad-core) ;
@@ -891,7 +891,7 @@ Si l’adresse `http://umbrel.local` ne fonctionne pas sur votre navigateur apr�
 http://umbrel
 ```
 
-Si cela ne fonctionne toujours pas, saisissez directement l’adresse IP locale de votre Umbrel dans le navigateur. Par exemple : (remplacez `42` par le numéro de votre machine hébergeant Umbrel sur le réseau local) :
+Si cela ne fonctionne toujours pas, saisissez directement l’adresse IP locale de votre Umbrel dans le navigateur. Par exemple (remplacez `42` par le numéro de votre machine hébergeant Umbrel sur le réseau local) :
 
 ```
 http://192.168.1.42
@@ -915,7 +915,7 @@ hostname -I
 
 Vous êtes maintenant prêt à utiliser Umbrel !
 
-### Étape 5 : prise en main d'Umbrel
+### Étape 5 : Prise en main d'Umbrel
 
 Pour commencer la configuration de votre Umbrel, cliquez sur le bouton "*Start*".
 
@@ -991,7 +991,7 @@ Il vous suffira alors de saisir cette adresse Tor dans le navigateur Tor pour ac
 
 Enfin, sur cette page de paramètres, vous avez également la possibilité d’activer la connexion Wi-Fi. Si votre machine hébergeant Umbrel dispose d’une carte réseau Wi-Fi ou d’un dongle Wi-Fi, cela permet d’accéder à Internet sans utiliser le câble RJ45. Toutefois, selon votre configuration, cette solution risque de ralentir la connexion, ce qui peut affecter la synchronisation initiale (IBD) et l’utilisation future du nœud (par exemple pour des transactions Lightning). À titre personnel, je ne recommande pas cette option, car un nœud n’a pas vocation à être utilisé en mobilité : on y accède toujours à distance, donc autant le laisser branché.
 
-### Étape 6 : installer un nœud Bitcoin sur Umbrel
+### Étape 6 : Installer un nœud Bitcoin sur Umbrel
 
 Maintenant qu’UmbrelOS est correctement installé et configuré sur votre machine, vous pouvez procéder à l’installation de votre nœud Bitcoin. Pour cela, rien de plus simple : rendez-vous dans l’App Store, ouvrez la catégorie "*Bitcoin*", puis sélectionnez l’application "*Bitcoin Node*" (il s’agit en réalité de Bitcoin Core).
 
@@ -1001,11 +1001,11 @@ Cliquez ensuite sur le bouton "*Install*".
 
 ![Image](assets/fr/023.webp)
 
-Une fois l’installation achevée, votre nœud Bitcoin lancera son IBD (*Initial Block Download*) : il va télécharger et valider l’ensemble des transactions et des blocs depuis la création de Bitcoin en 2009.
+Une fois l’installation terminée, votre nœud Bitcoin lancera son IBD (*Initial Block Download*) : il va télécharger et valider l’ensemble des transactions et des blocs depuis la création de Bitcoin en 2009.
 
 ![Image](assets/fr/024.webp)
 
-Cette étape est particulièrement longue : sa durée dépend de plusieurs facteurs, notamment la quantité de RAM allouée au cache du nœud, la rapidité du disque, la vitesse de la connexion Internet et la puissance du processeur. La fourchette de durée est donc très large en fonction des configurations. Avec un PC très performant (SSD NVMe, +32 Go de RAM, processeur puissant et bonne connexion internet) l’IBD peut s’achever en une dizaine d’heures. À l’inverse, un vieux processeur, peu de RAM ou, encore pire, un disque dur mécanique (fortement déconseillé) peuvent allonger cette opération à plusieurs semaines.
+Cette étape est particulièrement longue : sa durée dépend de plusieurs facteurs, notamment la quantité de RAM allouée au cache du nœud, la rapidité du disque, la vitesse de la connexion Internet et la puissance du processeur. La fourchette de durée est donc très large en fonction des configurations. Avec un PC très performant (SSD NVMe, +32 Go de RAM, processeur puissant et bonne connexion internet) l’IBD peut se terminer en une dizaine d’heures. À l’inverse, un vieux processeur, peu de RAM ou, encore pire, un disque dur mécanique (fortement déconseillé) peuvent allonger cette opération à plusieurs semaines.
 
 Avec un PC de configuration normale (processeur correct, 8 à 16 Go de RAM, SSD), prévoyez environ 2 à 7 jours.
 
@@ -1057,7 +1057,7 @@ Sans ajout de logiciel supplémentaire, Bitcoin Core ne dispose pas, à propreme
 
 Jusqu’à la version 0.8.0 de Bitcoin Core, la validation des transactions reposait sur un index global des transactions : le fameux `txindex`. Ce dernier référençait toutes les transactions de la blockchain ainsi que leurs sorties. Lorsqu’un nœud recevait une nouvelle transaction, il consultait cet index pour vérifier que les sorties consommées (en inputs) existaient bien, et qu’elles n’avaient pas déjà été dépensées. `txindex` était donc à l’époque indispensable à la validation des transactions.
 
-Mais cette approche présentait des limites : lenteur, coût en terme de stockage, redondance d’informations. Pour y remédier, la version 0.8.0 introduit une refonte du modèle de validation appelée ***Ultraprune***. Ce changement inaugure notamment l’architecture actuelle : au lieu de tout stocker sous forme d'index de transactions, Bitcoin Core maintient une simple base de données dédiée aux seuls UTXOs, appelée `chainstate` (c'est que l'on appelle dans le langage courant "UTXO set"), et actualise au fur et à mesure sa liste en fonction des output consommés et créés.
+Mais cette approche présentait des limites : lenteur, coût en terme de stockage, redondance d’informations. Pour y remédier, la version 0.8.0 introduit une refonte du modèle de validation appelée ***Ultraprune***. Ce changement inaugure notamment l’architecture actuelle : au lieu de tout stocker sous forme d'index de transactions, Bitcoin Core maintient une simple base de données dédiée aux seuls UTXOs, appelée `chainstate` (c'est que l'on appelle dans le langage courant "UTXO set"), et actualise au fur et à mesure sa liste en fonction des outputs consommés et créés.
 
 Cette méthode est bien plus rapide, et elle permet de ne stocker que l’état actuel du registre, ce qui rend l'indexeur `txindex` inutile. Cependant, au lieu de supprimer le code de `txindex`, les développeurs ont choisi de conserver cette fonctionnalité derrière un simple paramètre (`txindex=1`). En activant cette option sur votre nœud, vous pouvez donc interroger n’importe quelle transaction à partir de son `txid`.
 
@@ -1283,7 +1283,7 @@ Les messages sont transmis à travers un réseau de relais indépendants. Cette 
 
 Ce protocole est très populaire au sein de la communauté Bitcoin, car, à l’instar de Bitcoin, Nostr répond à des enjeux de souveraineté numérique et de maîtrise des données. Son créateur, Fiatjaf, est un développeur qui était déjà reconnu dans l’écosystème pour ses nombreuses contributions.
 
-Grâce à votre Umbrel, vous pouvez optimiser votre utilisaiton de Nostr. En installant l’application ***Nostr Relay***, vous pouvez héberger votre propre relais privé directement sur votre machine, ce qui garantit que toutes vos publications et interactions sur Nostr sont sauvegardées localement, et ne peuvent pas être perdues suite à une suppression par des relais publics.
+Grâce à votre Umbrel, vous pouvez optimiser votre utilisation de Nostr. En installant l’application ***Nostr Relay***, vous pouvez héberger votre propre relais privé directement sur votre machine, ce qui garantit que toutes vos publications et interactions sur Nostr sont sauvegardées localement, et ne peuvent pas être perdues suite à une suppression par des relais publics.
 
 Les clients Nostr ***noStrudel*** ou ***Snort*** sont également disponibles sur Umbrel. Grâce à ces applications, il est possible de publier, lire, rechercher des profils et interagir avec l’écosystème Nostr directement depuis l’interface web de son Umbrel.
 
@@ -1330,7 +1330,7 @@ Un nœud fiable commence par un matériel stable. Assurez-vous que la machine qu
 
 Sur les Raspberry Pi et les mini-PC, la poussière finit par obstruer les dissipateurs et fait grimper la température, ce qui entraîne du *throttling* (limitation volontaire de l'utilisation des ressources) et donc une baisse d'efficacité de votre nœud. C'est pourquoi je vous conseille de nettoyer l’entrée d’air et le ventilateur quelques fois par an.
 
-Veillez également à utiliser une alimentation de qualité, car une tension instable peut provoquer une corruption du système, voire un risque d’incendie. L’idéal est d’utiliser l’alimentation originale du constructeur votre machine. Attention également à l’échauffement dû à l’effet Joule sur les multiprises : respectez toujours la puissance maximale admissible et ne branchez jamais plusieurs multiprises en cascade.
+Veillez également à utiliser une alimentation de qualité, car une tension instable peut provoquer une corruption du système, voire un risque d’incendie. L’idéal est d’utiliser l’alimentation originale du constructeur de votre machine. Attention également à l’échauffement dû à l’effet Joule sur les multiprises : respectez toujours la puissance maximale admissible et ne branchez jamais plusieurs multiprises en cascade.
 
 Je vous recommande par ailleurs d’investir dans un onduleur (UPS). Celui-ci protège votre nœud des extinctions brutales, permet à Umbrel de s’arrêter proprement en cas de coupure et assure une continuité de fonctionnement lors de microcoupures ou pannes de courte durée.
 
@@ -1412,7 +1412,7 @@ Cette étape _**headers-first**_ permet au nœud d’identifier la branche cumul
 
 La mempool, quant à elle, n’intervient qu’à l’approche de la pointe de la chaîne : tant que le nœud reste en retard, il n’a aucune transaction en attente à stocker.
 
-Une fois l’IBD achevée, le nœud entre en phase normale : il valide les nouveaux blocs à mesure qu’ils sont publiés, maintient sa mempool avec les transactions en attente selon ses règles de relais, relaie transactions et blocs, et gère les éventuelles réorganisations de la chaîne.
+Une fois l’IBD terminée, le nœud entre en phase normale : il valide les nouveaux blocs à mesure qu’ils sont publiés, maintient sa mempool avec les transactions en attente selon ses règles de relais, relaie transactions et blocs, et gère les éventuelles réorganisations de la chaîne.
 
 ### AssumeValid
 

@@ -510,7 +510,7 @@ Affermando che la legge non può essere ridotta ai soli statuti emanati dal legi
 
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
-Perché Roma è andata in declino e infine caduta? Molti amano pensare che l'Impero Romano sia crollato improvvisamente, sotto l'impatto delle invasioni barbariche. Tuttavia, le cause del crollo dell'Impero Romano sono da ricercarsi molto prima, nell'imperialismo e nel dirigismo economico e monetario.
+Perché Roma è andata in declino e infine caduta? Molti amano pensare che l'Impero Romano sia crollato improvvisamente, sotto l'impatto delle invasioni barbariche. Tuttavia, le cause del crollo dell'Impero Romano sono da ricercarsi molto prima, nell'imperialismo e nello statalismo economico e monetario.
 
 ![image](assets/2/img-013.webp)
 
@@ -528,7 +528,7 @@ Intorno al 140, lo storico romano Fronto scrisse:
 
 > La società romana è principalmente interessata a due cose, le sue forniture alimentari e i suoi spettacoli.
 
-Combattimenti di gladiatori, corse di carri e rappresentazioni teatrali, spesso gratuiti, attiravano enormi folle e permettevano alle élite di conquistare il favore del popolo. Il potere forniva giochi ai suoi cittadini, ma anche grano, pane, maiale e olio d'oliva. Questa strategia serviva come strategia politica per alleviare le tensioni sociali, distogliere l'attenzione dai problemi economici e rafforzare il potere degli imperatori.
+Combattimenti di gladiatori, corse di carri e rappresentazioni teatrali, spesso gratuite, attiravano enormi folle e permettevano alle élite di conquistare il favore del popolo. Il potere forniva giochi ai suoi cittadini, ma anche grano, pane, maiale e olio d'oliva. Questa strategia serviva come strategia politica per alleviare le tensioni sociali, distogliere l'attenzione dai problemi economici e rafforzare il potere degli imperatori.
 
 Sotto il regno dell'imperatore Antonino Pio (dal 138 al 161), la burocrazia romana raggiunse proporzioni gigantesche.
 Ma poiché le entrate fiscali non erano sufficienti a finanziare l'amministrazione e le guarnigioni, gli imperatori iniziarono a emettere sempre più moneta riducendo la quantità di argento in ogni moneta. Il Denario, la principale valuta di Roma, vide il suo contenuto in argento scendere dal 100% allo 0,5% tra il 235 e il 284 d.C. Con la svalutazione della moneta, i prezzi aumentarono in modo incontrollabile, portando a una diminuzione dei consumi, del commercio e della fiducia.
@@ -547,7 +547,7 @@ Le ripetute emissioni monetarie da parte dei successivi imperatori per far front
 
 Ludwig von Mises descrive questo episodio, che ben illustra gli effetti dannosi dell'interventismo:
 
-L'Imperatore Romano Diocleziano è ben noto per essere stato l'ultimo imperatore romano a perseguitare i cristiani. Gli imperatori romani, nella parte finale del terzo secolo, avevano un solo metodo finanziario, che era quello di svalutare la moneta. In questi tempi primitivi, prima dell'invenzione della stampa, anche l'inflazione era primitiva, per così dire. Coinvolgeva frodi nella coniazione delle monete, specialmente in argento, fino a quando il colore della lega cambiava e il peso veniva significativamente ridotto. Il risultato di questa svalutazione delle valute, accoppiato con l'aumento corrispondente della circolazione, fu un aumento dei prezzi, seguito da un editto di controllo dei prezzi. E gli imperatori romani non si tiravano indietro nell'applicare le leggi; non consideravano la morte una pena troppo severa per un uomo che aveva chiesto un prezzo troppo alto. Applicavano il controllo dei prezzi, ma come conseguenza, portarono alla rovina della società. Questo alla fine portò alla disintegrazione dell'Impero Romano, e anche al crollo della divisione del lavoro.
+L'Imperatore Romano Diocleziano è ben noto per essere stato l'ultimo imperatore romano a perseguitare i cristiani. Gli imperatori romani, nella parte finale del terzo secolo, avevano un solo metodo finanziario, che era quello di svalutare la moneta. In questi tempi primitivi, prima dell'invenzione della stampa, anche l'inflazione era primitiva, per così dire. Coinvolgeva frodi nella coniazione delle monete, specialmente in argento, fino a quando il colore della lega cambiava e il peso veniva significativamente ridotto. Il risultato di questa svalutazione delle valute, accoppiato con l'aumento corrispondente della circolazione, fu un aumento dei prezzi, seguito da un editto di controllo dei prezzi. E gli imperatori romani non si tiravano indietro nell'applicare le leggi; non consideravano la morte una pena troppo severa per un uomo che aveva chiesto un prezzo troppo alto. Applicavano il controllo dei prezzi, ma, come conseguenza, portarono alla rovina della società. Questo alla fine portò alla disintegrazione dell'Impero Romano, e anche al crollo della divisione del lavoro.
 ([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### Dal Liberalismo al Socialismo
@@ -562,9 +562,9 @@ Liberalismo: fiducia nell'azione degli individui, che produce un ordine spontane
 
 Socialismo: l'organizzazione da parte dello Stato della società considerata nel suo insieme, attraverso la pianificazione della produzione e del consumo.
 
-La tesi del libro di Philippe Fabry è che "la caduta dell'Impero Romano è la conseguenza dello stallo in cui il socialismo imperiale aveva condotto il mondo antico." Fu il dirigismo dello Stato imperiale romano a portare al suo crollo. La Repubblica Romana, che fu la più grande potenza liberale del mondo antico, durò dal 510 a.C. al 23 a.C., per quasi 500 anni. Tuttavia, gradualmente, la collegialità civica che caratterizzava la Repubblica Romana scomparve a favore del potere personale incarnato dagli imperatori che adottarono lo stile di governo dei potentati orientali dell'antico Egitto e della Persia. Rompendo con una politica estera precedentemente moderata, Roma sottomise improvvisamente vaste popolazioni attraverso la guerra, fornendo flussi di schiavi agli investitori romani benestanti, rovinando le classi medie. In cambio, la popolazione romana chiedeva sempre più sussidi.
+La tesi del libro di Philippe Fabry è che "la caduta dell'Impero Romano è la conseguenza dello stallo in cui il socialismo imperiale aveva condotto il mondo antico." Fu lo statalismo dell'impero romano a portare al suo crollo. La Repubblica Romana, che fu la più grande potenza liberale del mondo antico, durò dal 510 a.C. al 23 a.C., per quasi 500 anni. Tuttavia, gradualmente, la collegialità civica che caratterizzava la Repubblica Romana scomparve a favore del potere personale incarnato dagli imperatori che adottarono lo stile di governo dei potentati orientali dell'antico Egitto e della Persia. Rompendo con una politica estera precedentemente moderata, Roma sottomise improvvisamente vaste popolazioni attraverso la guerra, fornendo flussi di schiavi agli investitori romani benestanti, rovinando le classi medie. In cambio, la popolazione romana chiedeva sempre più sussidi.
 
-Nei primi giorni della sua grandezza, ogni romano si considerava come la principale fonte del proprio reddito. Quello che poteva acquisire volontariamente nel mercato era la fonte del suo sostentamento. Il declino di Roma iniziò quando un gran numero di cittadini scoprì un'altra fonte di reddito: il processo politico o lo stato redistributivo.
+Nei primi giorni della sua grandezza, ogni romano si considerava come la principale fonte del proprio reddito. Quello che poteva acquisire volontariamente nel mercato era la fonte del suo sostentamento. Il declino di Roma iniziò quando un gran numero di cittadini scoprì un'altra fonte di reddito: il processo politico o lo Stato redistributivo.
 
 I Romani poi abbandonarono la libertà e la responsabilità personale in cambio di promesse di privilegi e ricchezza distribuiti direttamente dal governo. I cittadini adottarono l'idea che fosse più vantaggioso ottenere reddito attraverso mezzi politici piuttosto che attraverso il lavoro.
 
@@ -598,7 +598,7 @@ Il peccato non può esistere senza libertà. Infatti, il Dio cristiano è un giu
 
 Se Dio ha voluto che l'uomo potesse fare il male, non è forse indirettamente responsabile del male? Perché Dio ha voluto la possibilità del male? Sant'Agostino risponde:
 
-> il libero arbitrio senza il quale nessuno può vivere bene, devi riconoscere che è un bene, e che è un dono di Dio, e che coloro che abusano di questo bene dovrebbero essere condannati piuttosto che dire di colui che lo ha dato che non avrebbe dovuto darlo.
+> il libero arbitrio senza il quale nessuno può vivere bene, devi riconoscere che è un bene, e che è un dono di Dio, e che coloro che abusano di questo bene dovrebbero essere condannati, piuttosto che dire di colui che lo ha dato che non avrebbe dovuto darlo.
 
 La risposta di Sant'Agostino al problema è dire che Dio è responsabile della possibilità del male ma non della sua realizzazione. Vuole la possibilità del male perché questa possibilità è necessaria per la libertà senza la quale non c'è responsabilità, cioè, non c'è accesso alla dignità della vita morale.
 
@@ -781,13 +781,13 @@ Pirenne osserva che queste pratiche, sebbene presenti in altre regioni d'Europa,
 
 Le Scritture condannano i prestiti a interesse, chiamati usura, considerando che prestare denaro a interesse equivaleva a sfruttare i debitori vulnerabili. Tuttavia, nella pratica, la Chiesa chiudeva un occhio sulla questione.
 
-Jacques Le Goff è uno storico francese specializzato nella cultura e nelle mentalità del Medioevo. Seguendo Pirenne, riconosce la presenza dei semi del capitalismo già nel Medioevo, in particolare nelle città italiane, dove pratiche come l'impresa individuale, la ricerca del profitto e l'uso di strumenti di credito erano già presenti. O Le Goff evidenzia in _L'usure au Moyen Âge_ (1967, ripubblicato nel 1986 sotto il titolo: _La bourse et la vie; économie et religion au moyen-age_) che già nel XIII secolo, Sant'Alberto Magno aveva teorizzato la nozione di "interesse legittimo" che fu ulteriormente sviluppata da San Tommaso d'Aquino dopo di lui. Nonostante i divieti religiosi, la pratica del prestito esisteva e soddisfaceva reali esigenze economiche. Ben prima di Adam Smith, capirono che l'interesse sui prestiti non era usura ma un modo per permettere la remunerazione del rischio per il prestatore e l'investimento per il mutuatario, che sono alla base del capitalismo.
+Jacques Le Goff è uno storico francese specializzato nella cultura e nelle mentalità del Medioevo. Seguendo Pirenne, riconosce la presenza dei semi del capitalismo già nel Medioevo, in particolare nelle città italiane, dove pratiche come l'impresa individuale, la ricerca del profitto e l'uso di strumenti di credito erano già presenti. O Le Goff evidenzia in _L'usura nel Medioevo_ (1967, ripubblicato nel 1986 sotto il titolo: _La borsa e la vita; economia e religione nel Medioevo_) che già nel XIII secolo, Sant'Alberto Magno aveva teorizzato la nozione di "interesse legittimo" che fu ulteriormente sviluppata da San Tommaso d'Aquino dopo di lui. Nonostante i divieti religiosi, la pratica del prestito esisteva e soddisfaceva reali esigenze economiche. Ben prima di Adam Smith, capirono che l'interesse sui prestiti non era usura ma un modo per permettere la remunerazione del rischio per il prestatore e l'investimento per il mutuatario, che sono alla base del capitalismo.
 
 Tuttavia, secondo lo storico francese, l'ascesa del capitalismo deve essere collocata in un contesto più ampio di trasformazioni economiche, sociali e culturali che si sono sviluppate nel corso di diversi secoli. Le Goff sottolinea in particolare l'importanza della Rivoluzione Commerciale del XV e XVI secolo, segnata dall'espansione del commercio marittimo e dalla scoperta di nuove rotte commerciali, che stimolò l'accumulo di capitale e la predominanza della logica di mercato.
 
 ### Una critica alle manipolazioni monetarie
 
-Lo studio sistematico delle leggi economiche inizia nel Medioevo avanzato. I primi economisti sono i teologi scolastici della Scuola di Parigi. Il primo tra loro a scrivere un trattato scientifico di economia è Nicolas Oresme (1325-1382). Intorno al 1360, compose il suo _Trattato sull'Origine, Natura, Legge e Alterazioni della Moneta_, che riassume e sviluppa le idee degli studiosi dell'epoca.
+Lo studio sistematico delle leggi economiche inizia nel Medioevo avanzato. I primi economisti sono i teologi scolastici della Scuola di Parigi. Il primo tra loro a scrivere un trattato scientifico di economia è Nicolas Oresme (1325-1382). Intorno al 1360, compose il suo _Trattato sull'origine, natura, legge e alterazioni della moneta_, che riassume e sviluppa le idee degli studiosi dell'epoca.
 
 Al centro della sua analisi monetaria si trova il problema delle "mutazioni" del denaro, ovvero le alterazioni nel contenuto metallico delle monete e nella loro denominazione. Queste alterazioni si verificano dall'alba dei tempi e sono ben documentate durante i periodi più antichi e del Medioevo. Il loro effetto più visibile è cambiare il potere d'acquisto dell'unità monetaria, specialmente per diminuirlo. Questa è una forma primitiva di inflazione che Oresme condanna chiaramente come un male.
 
@@ -803,7 +803,7 @@ Ma se questo è il caso, sorge ovviamente un'altra domanda: perché esistono alt
 
 Poi aggiunge questi dettagli:
 
-> Qualunque guadagno il principe ne derivi, è necessariamente a spese della comunità. Ora, qualunque cosa un principe faccia a spese della comunità è un'ingiustizia e l'atto, non di un re, ma di un tiranno, come dice Aristotele (...) Se il principe può legittimamente fare un semplice cambiamento nella valuta e trarne qualche guadagno, può, per una ragione simile, fare un cambiamento maggiore e trarne più guadagno (...) Così, il principe potrebbe alla fine attirare a sé quasi tutti i soldi o la ricchezza dei suoi sudditi e ridurli in servitù, che sarebbe dimostrare pienamente la tirannia e persino una vera e perfetta tirannia, come emerge dai filosofi e dalle storie degli antichi.
+> Qualunque guadagno il principe ne derivi, è necessariamente a spese della comunità. Ora, qualunque cosa un principe faccia a spese della comunità è un'ingiustizia e l'atto, non di un re, ma di un tiranno, come dice Aristotele (...) Se il principe può legittimamente fare un semplice cambiamento nella valuta e trarne qualche guadagno, può, per una ragione simile, fare un cambiamento maggiore e trarne più guadagno (...) Così, il principe potrebbe alla fine attirare a sé quasi tutti i soldi o la ricchezza dei suoi sudditi e ridurli in servitù, che sarebbe dimostrare una vera e propria tirannia, come emerge dai filosofi e dalle storie degli antichi.
 
 Oresme sottolinea che le alterazioni valutarie non sono semplicemente un gioco di redistribuzione a favore del potere a spese del resto della comunità. Portano a perdite complessive — il gioco è a somma negativa. Una valuta in frequente alterazione disturba il commercio e invita i falsari a trarre vantaggio dalla confusione generale.
 
@@ -825,11 +825,11 @@ Voltaire pensava lo stesso riguardo al commercio. Esso potrebbe stabilire la tol
 
 ### Il profitto come "religione pacifica"
 
-Per Voltaire, la fallibilità dell'uomo giustifica una dottrina di tolleranza e di libertà politica. Egli scrive nel suo _Dizionario Filosofico_ (1764):
+Per Voltaire, la fallibilità dell'uomo giustifica una dottrina di tolleranza e di libertà politica. Egli scrive nel suo _Dizionario filosofico_ (1764):
 
 > La tolleranza è la conseguenza necessaria della nostra consapevolezza di essere fallibili. Errare è umano, e tutti noi commettiamo costantemente errori. Perdoniamoci a vicenda le nostre follie; questa è la prima legge della natura.
 
-Ma nelle sue _Lettere Filosofiche_ (1734), Voltaire offre un altro punto di vista. Osserva che in Inghilterra, il commercio favorisce la tolleranza religiosa, che è un componente essenziale della pace civile e quindi della felicità. Scrive queste lettere per criticare le guerre religiose in Francia, alimentate da un potere politico assoluto e invadente. Questo rappresenta la prima critica radicale dell'Ancien Régime.
+Ma nelle sue _Lettere filosofiche_ (1734), Voltaire offre un altro punto di vista. Osserva che in Inghilterra, il commercio favorisce la tolleranza religiosa, che è un componente essenziale della pace civile e quindi della felicità. Scrive queste lettere per criticare le guerre religiose in Francia, alimentate da un potere politico assoluto e invadente. Questo rappresenta la prima critica radicale dell'Ancien Régime.
 
 Ciò che costituisce la felicità di un individuo o di una nazione per Voltaire è un regime in cui le persone vivono in pace l'una con l'altra, in un certo comfort materiale. Ecco perché una società è tanto più libera e felice quanto più è fondata sul commercio nel senso di scambio economico.
 
@@ -841,7 +841,7 @@ Tre punti sono da considerare secondo Voltaire:
 
 Più il commercio è valorizzato, più i pregiudizi svaniscono di fronte agli interessi economici. Nonostante le loro differenze confessionali, gli uomini che commerciano hanno tutti lo stesso oggetto al centro delle loro preoccupazioni: il profitto. La comune ricerca del profitto porta alla cooperazione e al rispetto delle opinioni altrui, specialmente delle loro credenze religiose.
 
-Nella _Sesta Lettera_, _"Sui Presbiteriani"_, Voltaire fornisce l'esempio della Borsa di Londra. In questo apice del commercio internazionale, "l'ebreo, il musulmano e il cristiano" fanno affari insieme, "come se fossero della stessa Religione". Chiamano "infedeli coloro che falliscono".
+Nella _Sesta lettera_, _"Sui presbiteriani"_, Voltaire fornisce l'esempio della Borsa di Londra. In questo apice del commercio internazionale, "l'ebreo, il musulmano e il cristiano" fanno affari insieme, "come se fossero della stessa Religione". Chiamano "infedeli coloro che falliscono".
 
 Il passaggio vale la pena di essere citato integralmente perché è molto famoso:
 
@@ -849,19 +849,19 @@ Entra nella Borsa di Londra, un luogo più rispettabile di molti tribunali; lì 
 
 Il commercio, quindi, unisce gli uomini attorno a una "stessa religione", il profitto. E permette agli individui di trascurare le differenze religiose o di classe, che sono le origini dei conflitti. In Inghilterra, il profitto è quindi una religione pacifica. Ma che dire in Francia?
 
-Nella _Decima Lettera_, "Sul Commercio", Voltaire descrive il modo di pensare francese come segue: "il commerciante spesso sente parlare della sua professione con disprezzo, al punto da essere abbastanza sciocco da vergognarsene." Al contrario, in Inghilterra, il commerciante prova un "giusto orgoglio", e si paragona "non senza motivo, a un cittadino romano". Voltaire rende omaggio alla classe media inglese, al loro commercio e alla loro società pacifica.
+Nella _Decima lettera_, "Sul commercio", Voltaire descrive il modo di pensare francese come segue: "il commerciante spesso sente parlare della sua professione con disprezzo, al punto da essere abbastanza sciocco da vergognarsene." Al contrario, in Inghilterra, il commerciante prova un "giusto orgoglio", e si paragona "non senza motivo, a un cittadino romano". Voltaire rende omaggio alla classe media inglese, al loro commercio e alla loro società pacifica.
 
 ### La verità richiede libertà
 
-Eppure, alla Francia non mancavano grandi menti. È poco noto ma Anne Robert Jacques Turgot, Barone de Laulne era prima di tutto un pensatore di spicco prima di diventare il Controllore Generale delle Finanze sotto Luigi XVI. Fu l'autore di un trattato magistrale sull'economia politica, _Riflessioni sulla Formazione e Distribuzione della Ricchezza_ (1766), che precedette _La Ricchezza delle Nazioni_ di Adam Smith (1776).
+Eppure, alla Francia non mancavano grandi menti. È poco noto ma Anne Robert Jacques Turgot, Barone de Laulne era prima di tutto un pensatore di spicco prima di diventare il Controllore Generale delle Finanze sotto Luigi XVI. Fu l'autore di un trattato magistrale sull'economia politica, _Riflessioni sulla formazione e distribuzione della ricchezza_ (1766), che precedette _La ricchezza delle nazioni_ di Adam Smith (1776).
 
 ![image](assets/4/img-074.webp)
 
-I suoi primi scritti riflettono il suo impegno nella filosofia dell'Illuminismo. Nel 1754, pubblicò le sue _Lettere sulla Tolleranza Civile_ e nel 1757, diversi articoli scritti per _L'Enciclopedia_ di Diderot e d'Alembert.
+I suoi primi scritti riflettono il suo impegno nella filosofia dell'Illuminismo. Nel 1754, pubblicò le sue _Lettere sulla tolleranza civile_ e nel 1757, diversi articoli scritti per _L'Enciclopedia_ di Diderot e d'Alembert.
 
 Nelle sue lettere, Turgot presenta una definizione di tolleranza. Tollerare significa rifiutare di usare la violenza contro l'errore. In altre parole, la tolleranza non è l'accettazione dell'errore. Si può combattere contro di esso ma con le armi della convinzione e della ragione, non con la violenza.
 
-Successivamente, Turgot si adoperò per far rimuovere a Luigi XVI la frase: "Giuro di sopprimere l'eresia" dal giuramento preso il giorno dell'incoronazione. Nel _Memoriale al Re sulla Tolleranza_ (1775), scrive:
+Successivamente, Turgot si adoperò per far rimuovere a Luigi XVI la frase: "Giuro di sopprimere l'eresia" dal giuramento preso il giorno dell'incoronazione. Nel _Memoriale al Re sulla tolleranza_ (1775), scrive:
 
 > I difensori dell'intolleranza diranno che il principe ha il diritto di comandare quando la sua religione è vera e che allora si deve obbedirgli? No, anche in quel caso, non si può e non si deve obbedirgli; perché se si deve seguire la religione che egli prescrive, non è perché lui lo comanda, ma perché è vera; e non è, né può essere, perché il principe la prescrive che essa è vera. Non c'è uomo abbastanza stolto da credere vera una religione per tale motivo. Pertanto, chi si sottomette ad essa in buona fede non obbedisce al principe, obbedisce solo alla propria coscienza; e l'ordine del principe non aggiunge peso all'obbligo che questa coscienza impone su di lui. Che il principe creda o non creda in una religione, che comandi o non comandi di seguirla, essa è né più né meno ciò che è, vera o falsa. L'opinione del principe è quindi assolutamente estranea alla verità di una religione, e di conseguenza all'obbligo di seguirla: il principe, quindi, come principe, non ha alcun diritto di giudicare, nessun diritto di comandare a questo riguardo; la sua incompetenza è assoluta in materia di questo ordine, che non rientra nelle sue competenze, e in cui la coscienza di ciascun individuo può e deve avere solo Dio come unico giudice.
 
@@ -883,7 +883,7 @@ Essi gettarono le basi dell'economia liberale. I principali rappresentanti della
 
 > L'economia politica, riassume Dupont de Nemours, è la scienza del diritto naturale applicata alle società civili. (_Corrispondenza con J.-B. Say_).
 
-Essi sostenevano il "Laissez-faire", che raccomanda che lo stato non dovrebbe intervenire nell'economia.
+Essi sostenevano il "Laissez-faire", che raccomanda che lo Stato non dovrebbe intervenire nell'economia.
 
 Da questo punto, iniziarono a emergere due concezioni molto diverse all'interno dell'Illuminismo:
 
@@ -936,7 +936,7 @@ Durante il suo breve mandato come Ministro delle Finanze (Controllore Generale),
 
 > Dovete, Sire, armare voi stessi contro la vostra bontà, con la vostra stessa bontà, considerando da dove provengono i soldi che potete distribuire ai vostri cortigiani.
 
-Nel 1774, pubblicò i suoi Sei Editti per abolire le corporazioni e maestranze (corporazioni che erano diventate monopoli e barriere all'ingresso nel mercato del lavoro), abolire i dazi interni sul commercio del grano, abolire il lavoro forzato (corvée) e stabilire la tolleranza verso i protestanti.
+Nel 1774, pubblicò i suoi "Sei editti" per abolire le corporazioni e maestranze (corporazioni che erano diventate monopoli e barriere all'ingresso nel mercato del lavoro), abolire i dazi interni sul commercio del grano, abolire il lavoro forzato (corvée) e stabilire la tolleranza verso i protestanti.
 
 Sfortunatamente, l'impennata dei prezzi del grano, a seguito di un cattivo raccolto, mise in dubbio le sue riforme. Turgot scrisse in sua difesa:
 
@@ -955,9 +955,9 @@ Dedicando un capitolo alla "Brillantezza di Turgot", Murray Rothbard nella sua s
 
 ### Il capolavoro di Condillac
 
-Nel 1776, il filosofo Étienne Bonnot de Condillac pubblicò _Commercio e Governo_, forse uno dei più magnifici appelli di quell'epoca a favore del libero scambio e della libertà individuale.
+Nel 1776, il filosofo Étienne Bonnot de Condillac pubblicò _Commercio e governo_, forse uno dei più magnifici appelli di quell'epoca a favore del libero scambio e della libertà individuale.
 
-_Commercio e Governo_ contiene quella che in seguito sarebbe stata chiamata una teoria della soggettività del valore, che gli valse tutti gli elogi degli economisti austriaci, a partire da Menger. Seguendo Turgot, ma con maggiore chiarezza, Condillac afferma che il valore non risiede nel lavoro ma nel fatto che ognuno trova un interesse nello scambio:
+_Commercio e governo_ contiene quella che in seguito sarebbe stata chiamata una teoria della soggettività del valore, che gli valse tutti gli elogi degli economisti austriaci, a partire da Menger. Seguendo Turgot, ma con maggiore chiarezza, Condillac afferma che il valore non risiede nel lavoro ma nel fatto che ognuno trova un interesse nello scambio:
 
 > Il valore delle cose, scrive, si basa sulla loro utilità, o, che equivale alla stessa cosa, sul bisogno che ne abbiamo; o, che ancora equivale alla stessa cosa, sull'uso che possiamo farne. E aggiunge: "Una cosa non ha valore perché costa, come si suppone; ma costa, perché ha un valore.
 
@@ -967,7 +967,7 @@ Così, il valore non risiede all'interno della cosa sotto forma di una quantità
 
 ### Un manifesto per la libertà in America
 
-Nel 1776, un inglese di nome Thomas Paine pubblicò in America un opuscolo che criticava aspramente la monarchia inglese e sosteneva l'indipendenza dei coloni americani: _Common Sense_.
+Nel 1776, un inglese di nome Thomas Paine pubblicò in America un opuscolo che criticava aspramente la monarchia inglese e sosteneva l'indipendenza dei coloni americani: _Buon senso_.
 
 ![immagine](assets/4/img-065.webp)
 
@@ -981,7 +981,7 @@ Paine sostiene che:
 
 L'autore si prende cura di distinguere tra società civile e Stato:
 
-> La società è il risultato delle nostre necessità, il governo è quello della nostra malvagità. \[…\] Lo stato sociale è un bene sotto tutti gli aspetti. Il governo, anche nella sua perfezione, è solo un male necessario; nella sua imperfezione, è un male insopportabile.
+> La società è il risultato delle nostre necessità, il governo è quello della nostra malvagità. \[…\] Lo Stato sociale è un bene sotto tutti gli aspetti. Il governo, anche nella sua perfezione, è solo un male necessario; nella sua imperfezione, è un male insopportabile.
 
 Il successo del libro è immenso. Vendette circa 100.000 copie in pochi mesi, in un paese di tre milioni di abitanti e contribuì a galvanizzare il sentimento americano di indipendenza.
 

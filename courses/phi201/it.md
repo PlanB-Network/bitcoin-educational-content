@@ -96,7 +96,7 @@ L'antagonismo tra queste due filosofie esiste in tutte le epoche. Ma possiamo il
 
 Coloro che difendono la prima filosofia in Francia sono i Fisiocratici, con François Quesnay alla guida. Si chiamano fisiocratici (il nome deriva dal greco Physis, che significa natura, e Kratos, che significa regola) perché sviluppano un pensiero economico e sociale basato sui diritti naturali dell'uomo. Per loro, la società, le persone e le proprietà esistono prima delle leggi. In questo sistema, Bastiat spiega:
 
-> non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. (_Proprietà e Legge_).
+> non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. (_Proprietà e legge_).
 
 Per Turgot e Say, discepoli di Quesnay, esiste una legge naturale, indipendente dai capricci dei legislatori, che è valida per tutti gli uomini e precede qualsiasi società. Questa filosofia deriva direttamente dalla scuola medievale, dagli stoici, da Aristotele e da Sofocle. Le leggi non scritte sono sia anteriori sia superiori alle leggi scritte perché derivano dalla natura umana e dalla ragione.
 
@@ -106,7 +106,7 @@ La seconda filosofia si trova tra autori come Rousseau, Robespierre o Kant, che 
 
 ![image](assets/1/img-026.webp)
 
-> "Chi osa intraprendere l'istituzione di un popolo," dice Rousseau, "deve sentirsi capace di cambiare, per così dire, la natura umana, di trasformare ogni individuo che, da solo, è un tutto perfetto e solitario, in parte di un tutto maggiore dal quale questo individuo riceve, in un certo senso, la sua vita e il suo essere." (_Contratto Sociale_)
+> "Chi osa intraprendere l'istituzione di un popolo," dice Rousseau, "deve sentirsi capace di cambiare, per così dire, la natura umana, di trasformare ogni individuo che, da solo, è un tutto perfetto e solitario, in parte di un tutto maggiore dal quale questo individuo riceve, in un certo senso, la sua vita e il suo essere." (_Contratto sociale_)
 
 Da questa prospettiva, la missione del legislatore è organizzare, modificare, persino abolire la proprietà se lo ritiene opportuno. Per Rousseau, la proprietà non è naturale ma convenzionale, come la società stessa. A sua volta, Robespierre stabilisce il principio che "La proprietà è il diritto di ogni cittadino di godere e disporre della porzione di beni garantita a lui dalla legge." Non esiste un diritto naturale alla proprietà; ci sono solo un numero indefinito di possibili e contingenti disposizioni.
 
@@ -116,7 +116,7 @@ Da questa prospettiva, la missione del legislatore è organizzare, modificare, p
 
 Quando si aprono i libri di testo, Bastiat notava, si apprende che l'umanità sarebbe condannata al nulla senza l'intervento del potere:
 
-> "Basta aprire, quasi a caso, un libro di filosofia, politica o storia per vedere quanto profondamente radicata nel nostro paese sia questa idea, nata dagli studi classici e madre del Socialismo, che l'umanità è una materia inerte che riceve dal potere vita, organizzazione, moralità e ricchezza; — o peggio, che l'umanità stessa tenda verso la sua degradazione e sia solo fermata su questa discesa dalla mano misteriosa del Legislatore." ([_La Legge_](http://bastiat.org/fr/la_loi.html)).
+> "Basta aprire, quasi a caso, un libro di filosofia, politica o storia per vedere quanto profondamente radicata nel nostro paese sia questa idea, nata dagli studi classici e madre del Socialismo, che l'umanità è una materia inerte che riceve dal potere vita, organizzazione, moralità e ricchezza; — o peggio, che l'umanità stessa tenda verso la sua degradazione e sia solo fermata su questa discesa dalla mano misteriosa del Legislatore." ([_La legge_](http://bastiat.org/fr/la_loi.html)).
 
 In altre parole, il pregiudizio culturale che domina la filosofia occidentale così come la storiografia è che dobbiamo tutto al potere: libertà, salute, educazione, sicurezza, prosperità. L'umanità è descritta come "materia inerte" che prende forma grazie al legislatore.
 
@@ -133,11 +133,11 @@ La storia è quindi una lotta tra due principi: libertà e oppressione:
 
 ![immagine](assets/1/img-025.webp)
 
-In una parola, è depredazione. Bastiat delinea i principali tipi di depredazione che provengono dalle élite dominanti: guerra, schiavitù, teocrazia e monopolio. Infatti, secondo lui: "Ci sono solo due modi per acquisire i beni necessari per la conservazione, l'abbellimento e il miglioramento della vita: PRODUZIONE e DEPREDAZIONE." ([_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
+In una parola, è depredazione. Bastiat delinea i principali tipi di depredazione che provengono dalle élite dominanti: guerra, schiavitù, teocrazia e monopolio. Infatti, secondo lui: "Ci sono solo due modi per acquisire i beni necessari per la conservazione, l'abbellimento e il miglioramento della vita: PRODUZIONE e DEPREDAZIONE." ([_La fisiologia della depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
 Qual è la differenza tra produzione e depredazione? Ecco la risposta di Bastiat:
 
-> Per produrre, bisogna dirigere tutte le proprie facoltà verso il dominio della natura; poiché è la natura che deve essere combattuta, addomesticata e schiavizzata. Ecco perché il ferro trasformato in un aratro è l'emblema della produzione. Per depredare, bisogna dirigere tutte le proprie facoltà verso il dominio degli uomini; poiché sono loro che devono essere combattuti, uccisi o schiavizzati. Ecco perché il ferro trasformato in una spada è l'emblema della depredazione. ([_Armonie Economiche_](http://bastiat.org/fr/guerre.html), Guerra).
+> Per produrre, bisogna dirigere tutte le proprie facoltà verso il dominio della natura; poiché è la natura che deve essere combattuta, addomesticata e schiavizzata. Ecco perché il ferro trasformato in un aratro è l'emblema della produzione. Per depredare, bisogna dirigere tutte le proprie facoltà verso il dominio degli uomini; poiché sono loro che devono essere combattuti, uccisi o schiavizzati. Ecco perché il ferro trasformato in una spada è l'emblema della depredazione. ([_Armonie economiche_](http://bastiat.org/fr/guerre.html), Guerra).
 
 In altre parole, la produzione è potere sulla natura. La depredazione è potere sugli uomini. Tuttavia, esistono due forme di depredazione: legale e illegale.
 La depredazione illegale è il furto o il crimine commesso da un cittadino contro un altro. È l'azione del bandito o dell'imbroglione. Tuttavia, la forma peggiore di depredazione è quella che si compie per legge: "Ci sono persone che pensano che la depredazione perda tutta la sua immoralità purché sia legale. Per quanto mi riguarda, non riesco a immaginare una circostanza più aggravante." ([_Ciò che si vede e ciò che non si vede_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
@@ -146,7 +146,7 @@ Bastiat ci dice che esistono ancora due forme di depredazione legale:
 
 > La depredazione esterna si chiama guerra, conquiste, colonie. La depredazione interna si chiama tasse, posizioni, monopoli. ([_Cobden e la Lega_](http://bastiat.org/fr/introduction_cobden_ligue.html), Introduzione).
 
-In [_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli scrive:
+In [_La Fisiologia della depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli scrive:
 
 > La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente dibattuti. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
 
@@ -154,9 +154,9 @@ In [_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_
 
 Storicamente, le élite dominanti hanno sempre vissuto di saccheggio. Bastiat osserva:
 
-> L'uso della forza applicata al saccheggio è alla base degli annali umani. Tracciarne la storia sarebbe riprodurre quasi fedelmente la storia di tutti i popoli: Assiri, Babilonesi, Medi, Persiani, Egiziani, Greci, Romani, Goti, Franchi, Unni, Turchi, Arabi, Mongoli, Tartari, per non menzionare gli Spagnoli in America, gli Inglesi in India, i Francesi in Africa, i Russi in Asia, ecc. ([_Sofismi Economici_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusione del primo volume).
+> L'uso della forza applicata al saccheggio è alla base degli annali umani. Tracciarne la storia sarebbe riprodurre quasi fedelmente la storia di tutti i popoli: Assiri, Babilonesi, Medi, Persiani, Egiziani, Greci, Romani, Goti, Franchi, Unni, Turchi, Arabi, Mongoli, Tartari, per non menzionare gli Spagnoli in America, gli Inglesi in India, i Francesi in Africa, i Russi in Asia, ecc. ([_Sofismi economici_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusione del primo volume).
 >
-> Il saccheggio, nella sua forma più brutale, armato di torcia e spada, riempie gli annali della storia umana. Quali sono i nomi che riassumono la storia? Ciro, Sesostris, Alessandro, Scipione, Cesare, Attila, Tamerlano, Maometto, Pizarro, Guglielmo il Conquistatore; questo è il saccheggio ingenuo attraverso le conquiste. Ad esso appartengono gli allori, i monumenti, le statue e gli archi trionfali. ([_Armonie Economiche_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusione dell'edizione originale).
+> Il saccheggio, nella sua forma più brutale, armato di torcia e spada, riempie gli annali della storia umana. Quali sono i nomi che riassumono la storia? Ciro, Sesostris, Alessandro, Scipione, Cesare, Attila, Tamerlano, Maometto, Pizarro, Guglielmo il Conquistatore; questo è il saccheggio ingenuo attraverso le conquiste. Ad esso appartengono gli allori, i monumenti, le statue e gli archi trionfali. ([_Armonie economiche_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusione dell'edizione originale).
 > 
 > La storia del mondo è la storia di come un gruppo di persone ha saccheggiato gli altri, spesso sistematicamente, attraverso la guerra, la schiavitù, la teocrazia. Oggi, è il monopolio, cioè i privilegi economici distribuiti dallo Stato ai suoi clienti.
 
@@ -164,7 +164,7 @@ Pochi giorni prima della sua morte a Roma nel 1850, Bastiat confidò al suo amic
 
 > Un compito importante per l'economia politica è scrivere la storia del Saccheggio. È una lunga storia in cui, fin dall'inizio, appaiono conquiste, migrazioni di popoli, invasioni e tutti gli eccessi disastrosi dell'applicazione della forza in contrasto con la giustizia. Di tutto ciò, rimangono tracce ancora vive oggi, e ciò costituisce una grande difficoltà per la soluzione delle questioni poste nel nostro secolo. Non arriveremo ad una soluzione finché non avremo stabilito chiaramente cos'è l'ingiustizia e come si è radicata nei nostri costumi e nelle nostre leggi.
 >
-> (P. Paillottet, _Nove Giorni Vicino a un Uomo Morente_)
+> (P. Paillottet, _Nove giorni vicino a un uomo morente_)
 
 ## Lord Acton: la libertà è il motore della storia
 
@@ -175,7 +175,7 @@ Come è noto, la storia è scritta dai vincitori. L'attenzione è spesso focaliz
 ![image](assets/1/img-023.webp)
 
 Questo è particolarmente vero per i libri di testo destinati alle scuole pubbliche e scritti da professori impiegati dallo Stato.
-Questo non vale per un'opera in due volumi scritta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della Libertà nell'Antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e la sua difesa della libertà e della responsabilità individuale rimane attuale ancora oggi.
+Questo non vale per un'opera in due volumi scritta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della libertà nell'antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e la sua difesa della libertà e della responsabilità individuale rimane attuale ancora oggi.
 
 Questo autore è meglio conosciuto per il suo aforisma: "Il potere tende a corrompere, e il potere assoluto corrompe assolutamente." Una formula che fa eco a quella di Montesquieu ne [_Lo spirito delle leggi_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
@@ -199,15 +199,15 @@ Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pele
 
 Ma l'idea che la libertà in Europa sia nata da lotte interne tra vari pretendenti al potere, impedendo l'instaurazione di un dominio assoluto, non è unica di Acton. Si può già trovare in pensatori come Voltaire e Condorcet.
 
-Così, Voltaire, nelle sue [_Lettere Filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E nota:
+Così, Voltaire, nelle sue [_Lettere filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E nota:
 
-> Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità. ([Sui Presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+> Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità. ([Sui presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![immagine](assets/1/img-105.webp)
 
 Condorcet, nel suo [_Abbozzo di un quadro storico dei progressi dello spirito umano_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), attribuisce la struttura di potere decentrata in Italia alla rivalità tra il papa e l'imperatore, che ha permesso a molte città-stato indipendenti di sopravvivere.
 
-Questa tesi si ritrova anche in un'opera monumentale datata 1983: _Diritto e Rivoluzione: La formazione della tradizione giuridica occidentale_, di Harold J. Berman ([traduzione francese di Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), pubblicata dalla Libreria dell'Università di Aix en Provence nel 2002). L'analisi di Berman evidenzia il ruolo cruciale del pluralismo giuridico nella storia dell'Occidente. Questo sistema, lungi dall'essere una mera fonte di complessità, è stato un motore di sviluppo, libertà e innovazione, plasmando in modo duraturo le tradizioni giuridiche occidentali.
+Questa tesi si ritrova anche in un'opera monumentale datata 1983: _Diritto e rivoluzione: La formazione della tradizione giuridica occidentale_, di Harold J. Berman ([traduzione francese di Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), pubblicata dalla Libreria dell'Università di Aix en Provence nel 2002). L'analisi di Berman evidenzia il ruolo cruciale del pluralismo giuridico nella storia dell'Occidente. Questo sistema, lungi dall'essere una mera fonte di complessità, è stato un motore di sviluppo, libertà e innovazione, plasmando in modo duraturo le tradizioni giuridiche occidentali.
 
 ## Marx: la storia come lotta di classe
 
@@ -219,7 +219,7 @@ Esiste tuttavia un'altra prospettiva sulla storia. Questa ha avuto un notevole s
 
 Spiega la straordinaria crescita dell'Europa principalmente attraverso il progresso tecnologico combinato con l'"accumulazione primitiva" di capitale, derivante dall'imperialismo, dalla schiavitù, dal commercio triangolare, dall'espropriazione dei piccoli contadini e dallo dfruttamento della classe operaia. La conclusione è chiara. Questa eccezionale crescita europea è stata ottenuta a spese di milioni e milioni di schiavi e individui oppressi.
 
-Inizialmente, Marx ha ragione su una cosa: la storia è la storia delle lotte di classe e dello sfruttamento. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del Partito Comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
+Inizialmente, Marx ha ragione su una cosa: la storia è la storia delle lotte di classe e dello sfruttamento. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del partito comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
 
 > Non mi attribuisco il merito di aver scoperto le classi e le lotte di classe nella società moderna. Ben prima di me, storici borghesi avevano descritto lo sviluppo storico di questa lotta di classe ed economisti borghesi l'anatomia economica delle classi.
 >
@@ -313,7 +313,7 @@ Secondo Rothbard, la storia non è un processo lineare, ma piuttosto un'oscillaz
 Dal XVII secolo al XIX secolo, in molti paesi occidentali, ci sono stati periodi di accelerazione del potere sociale e un corrispondente aumento della libertà, della pace e del benessere materiale. Ma Rothbard ci ricorda che il XX secolo è stato segnato da una rinascita del potere dello Stato, con gravi conseguenze: un aumento della schiavitù, della guerra e della distruzione:
 
 > Durante questo secolo, la razza umana si trova, ancora una volta, sotto il regno virulento dello Stato; lo Stato ora armato con il potere creativo dell'uomo, confiscato e pervertito per i suoi fini.
-> Cos'è, dopo tutto, una società libera? È una società senza monopolio. Nella sua opera di filosofia politica, _Etica della Libertà_ (1982), Rothbard risponde: "una società in cui non esiste la possibilità legale di aggressione coercitiva contro la persona o la proprietà di un individuo." Ecco perché, secondo lui, la filosofia politica, che deve definire i principi di una società giusta, si riduce a una sola domanda: "Chi possiede legittimamente cosa?"
+> Cos'è, dopo tutto, una società libera? È una società senza monopolio. Nella sua opera di filosofia politica, _Etica della libertà_ (1982), Rothbard risponde: "una società in cui non esiste la possibilità legale di aggressione coercitiva contro la persona o la proprietà di un individuo." Ecco perché, secondo lui, la filosofia politica, che deve definire i principi di una società giusta, si riduce a una sola domanda: "Chi possiede legittimamente cosa?"
 
 ![immagine](assets/1/img-029.webp)
 
@@ -321,9 +321,9 @@ Per Rothbard, l'ordine sociale può prevalere se è il prodotto della generalizz
 
 E aggiunge:
 
-> Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire (che significa "lasciar fare") del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
+> Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire (che significa "lasciateci fare") del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
 >
-> (_Etica della Libertà_)
+> (_Etica della libertà_)
 
 # Le origini della libertà: antichità
 
@@ -390,7 +390,7 @@ Erodoto, in _Storia_ e Eschilo nella sua tragedia _I Persiani_, illustrano brill
 Secondo Jacqueline de Romilly:
 
 Gli stessi Greci sembrano essersi misurati con questa originalità e ne sono diventati consapevoli all'inizio del V secolo, nello shock che li oppose agli invasori persiani. E il primo fatto che li colpì fu che esisteva una differenza politica tra loro e i loro avversari, che comandava tutto il resto. I Persiani obbedivano a un sovrano assoluto, che era il loro padrone, che temevano e davanti al quale si prostravano: queste pratiche non erano comuni in Grecia. C'è un dialogo sorprendente in Erodoto, che contrappone Serse a un ex re di Sparta. Questo re annuncia a Serse che i Greci non cederanno perché la Grecia combatte sempre contro la schiavitù a un padrone. Combatterà, non importa il numero dei suoi avversari. Perché, se i Greci sono liberi, "non sono liberi in tutto: hanno un padrone, la legge, che temono ancora di più di quanto i tuoi sudditi temano te."
-(_Antica Grecia alla Scoperta della Libertà, Parigi, Edizioni de Fallois, 1989_)
+(_Antica Grecia alla scoperta della libertà, Parigi, Edizioni de Fallois, 1989_)
 
 Erodoto è convinto che un popolo di uomini liberi è un popolo che obbedisce a una legge e non a un padrone, come nell'impero persiano dove solo un uomo è libero e tutti gli altri sono schiavi. Questo è vero per Atene, una democrazia, ma è vero anche per Sparta. Il re non crea la legge, non impone la sua volontà. Egli assicura il rispetto della legge, è al suo servizio e muore, se necessario, per difenderla.
 
@@ -400,7 +400,7 @@ Allontanandosi dal pensiero mitologico, Talete, Anassimandro, Anassimene e, più
 
 Il principio fondamentale posto da questi primi filosofi presocratici è che gli elementi del kosmos (l'universo) si mantengono in posizione perché sono tutti ugualmente soggetti alla stessa "legge della natura" (phusis) che può essere enunciata in modo universale e necessario. L'universo è razionale, costituisce un tutto strutturato, che l'uomo può scoprire con la sua ragione (il "logos" in opposizione al "mutos", il mito).
 
-Secondo Karl Popper, dobbiamo ai filosofi dell'antica Grecia, in particolare ai Presocratici, l'invenzione del razionalismo critico, ovvero la tradizione occidentale della discussione critica, fonte del pensiero scientifico e del pluralismo. Lo spiega in un capitolo di _Congetture e Confutazioni_ intitolato "Ritorno ai Presocratici":
+Secondo Karl Popper, dobbiamo ai filosofi dell'antica Grecia, in particolare ai Presocratici, l'invenzione del razionalismo critico, ovvero la tradizione occidentale della discussione critica, fonte del pensiero scientifico e del pluralismo. Lo spiega in un capitolo di _Congetture e confutazioni_ intitolato "Ritorno ai Presocratici":
 
 Per quanto riguarda i primi segni dell'esistenza di un atteggiamento critico, di una nuova libertà di pensiero, essi appaiono nella critica di Anassimandro a Talete. Si tratta di un fenomeno piuttosto singolare: il pensatore criticato da Anassimandro è il suo maestro, il suo connazionale, uno dei Sette Saggi, colui che fondò la Scuola Ionica. Secondo la tradizione, Anassimandro era solo quattordici anni più giovane di Talete, ed è probabile che abbia formulato le sue critiche e presentato i suoi nuovi concetti durante la vita del suo maestro, poiché i due morirono, a quanto pare, a pochi anni di distanza. Tuttavia, nelle fonti non si trova alcuna prova di dissenso, lite o scisma.
 
@@ -462,7 +462,7 @@ Inoltre, la letteratura e la filosofia romane contengono molti esempi di rifless
 
 Un modello di equilibrio nel pensiero è Seneca, un filosofo stoico romano che ha scritto sull'importanza della virtù, della ragione e dell'autocontrollo. Contemporaneo di Gesù, era allo stesso tempo un tutore di Nerone, un banchiere ricco e un famoso scrittore romano.
 
-Il Trattato sulla Vita Felice (_De Vita Beata_) è un appello alla moralità stoica. La felicità, dice Seneca, "è un'anima libera \[...\] inaccessibile alla paura \[...\] per cui l'unico male è l'indignità morale." Discepolo di Socrate, il saggio stoico non teme il male fisico, la morte o persino subire ingiustizie. Per lui, l'unico male è il male morale. Pertanto, il bene supremo risiede nella virtù.
+Il Trattato sulla Vita Felice (_De vita beata_) è un appello alla moralità stoica. La felicità, dice Seneca, "è un'anima libera \[...\] inaccessibile alla paura \[...\] per cui l'unico male è l'indignità morale." Discepolo di Socrate, il saggio stoico non teme il male fisico, la morte o persino subire ingiustizie. Per lui, l'unico male è il male morale. Pertanto, il bene supremo risiede nella virtù.
 
 Tuttavia, il piacere non è incompatibile con la virtù:
 
@@ -491,7 +491,7 @@ Quando Antigone disobbedisce a Creonte, si oppone al diritto positivo per obbedi
 
 Cicerone visse nel I secolo a.C. ed è considerato il più grande oratore della lingua latina sotto l'Impero Romano. È anche un filosofo morale e politico vicino agli Stoici. I suoi saggi sono stati letti dagli europei colti per molti secoli.
 
-Nel suo trattato _Sulle Leggi_ (_De Legibus_), riflette sul fondamento della legge. Secondo lui, la legge positiva, l'insieme delle convenzioni o leggi scritte adottate da una società, non può stabilire una giustizia degna di questo nome. Esiste una giustizia naturale, iscritta nella ragione umana: "la legge ha un fondamento nella natura stessa." Dire che giusto e ingiusto sono il risultato di una convenzione è come dire che la verità è decretata. Tuttavia, la verità non può essere decretata, nemmeno dalla maggioranza; essa guida i nostri giudizi.
+Nel suo trattato _Sulle leggi_ (_De legibus_), riflette sul fondamento della legge. Secondo lui, la legge positiva, l'insieme delle convenzioni o leggi scritte adottate da una società, non può stabilire una giustizia degna di questo nome. Esiste una giustizia naturale, iscritta nella ragione umana: "la legge ha un fondamento nella natura stessa." Dire che giusto e ingiusto sono il risultato di una convenzione è come dire che la verità è decretata. Tuttavia, la verità non può essere decretata, nemmeno dalla maggioranza; essa guida i nostri giudizi.
 
 Anche Cicerone rifiuta l'utilità come fondamento del diritto. Infatti, scrive:
 
@@ -590,7 +590,7 @@ L'idea cristiana di libertà si sviluppò nella teologia medievale di Sant'Agost
 
 ### La libertà è implicata nell'idea di peccato
 
-Fin dall'inizio, il Cristianesimo insegna che il peccato è una questione personale, non inerente al gruppo, ma che ogni individuo deve assumersi la responsabilità della propria salvezza. "Dio ha dotato la sua creatura, con il libero arbitrio, la capacità di fare il male e, quindi, la responsabilità del peccato," afferma Sant'Agostino nel suo trattato sul libero arbitrio, _De Libero Arbitrio_.
+Fin dall'inizio, il Cristianesimo insegna che il peccato è una questione personale, non inerente al gruppo, ma che ogni individuo deve assumersi la responsabilità della propria salvezza. "Dio ha dotato la sua creatura, con il libero arbitrio, la capacità di fare il male e, quindi, la responsabilità del peccato," afferma Sant'Agostino nel suo trattato sul libero arbitrio, _De libero arbitrio_.
 
 Il peccato non può esistere senza libertà. Infatti, il Dio cristiano è un giudice che premia la "virtù" e punisce il "peccato". Ma questa concezione di Dio è precisamente incompatibile con il fatalismo perché una persona non potrebbe essere colpevole e fare il proprio mea culpa se non fosse prima libera di determinare il proprio comportamento. Riconoscere la propria colpa morale, la propria colpevolezza, è riconoscere che si sarebbe potuto agire diversamente.
 
@@ -612,7 +612,7 @@ Nella teologia medievale, la provvidenza non è un intervento costante di Dio ne
 
 E più saliamo nella scala degli esseri, dal minerale all'uomo, più Dio delega alla sua creatura il potere di agire da sola. Affida all'uomo la libertà di governare se stesso e di governare il mondo con la sua ragione, secondo la virtù della prudenza.
 
-Così, San Tommaso scrive (_Summa contra Gentiles_, III, 69 e 122):
+Così, San Tommaso scrive (_Summa contra gentiles_, III, 69 e 122):
 
 > Togliere dalla perfezione delle creature significa detrarre dalla perfezione del potere divino (...) Dio è offeso da noi solo perché agiamo contro il nostro bene.
 
@@ -681,7 +681,7 @@ Ecco perché le società medievali sono caratterizzate dall'unanimismo politico-
 
 ### Sant'Agostino e la tentazione teocratica
 
-La questione del rapporto tra politica e religione prese forma con l'opera di Sant'Agostino _Civitas Dei_ (_La Città di Dio_). In essa, egli spiega che coesistono due sfere:
+La questione del rapporto tra politica e religione prese forma con l'opera di Sant'Agostino _Civitas Dei_ (_La città di Dio_). In essa, egli spiega che coesistono due sfere:
 
 "Due amori hanno dunque fatto due città: l'amore di sé fino al disprezzo di Dio, la città terrena; l'amore di Dio, fino al disprezzo di sé, la città celeste."
 

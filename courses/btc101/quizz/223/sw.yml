@@ -1,11 +1,10 @@
-question: Blockchain trilemma ni nini?
-answer: Itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili pekee kati ya ugatuaji, usalama na upanuzi.
+question: Je, Lightning Network inawezesha nini?
+answer: Kufanya shughuli kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
 wrong_answers:
-  - Itifaki kulingana na Blockchain inaweza kukidhi moja tu kati ya vigezo vya ugatuaji, usalama na upanuzi.
-  - Itifaki kulingana na Blockchain inaweza kukidhi vigezo vyote vya ugatuaji, usalama na upanuzi.
-  - Itifaki kulingana na Blockchain haiwezi kukidhi vigezo vyovyote vya ugatuaji, usalama na upanuzi.
+  - Kuunda miunganisho ya kituo cha moja kwa moja tu na ubadilishanaji wa kati.
+  - Ili kuunda miunganisho ya vituo ambayo inahitaji uthibitisho mwingi kwa ununuzi wowote.
+  - Kuanzisha miunganisho ya moja kwa moja ya vituo ambayo imezuiliwa kwa miamala mikubwa pekee.
 explanation: |
-  Trilemma ya Blockchain inarejelea changamoto ambayo a
-  itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili tu kati ya
-  ugatuaji, usalama na upanuzi.
+  Lightning Network inafanya uwezekano wa kufanya shughuli kati ya
+  watu ambao hawana muunganisho wa moja kwa moja wa kituo.
 reviewed: true

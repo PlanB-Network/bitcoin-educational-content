@@ -1,10 +1,11 @@
-question: Jaka jest pierwsza zarejestrowana transakcja Bitcoin?
-answer: Transakcja o wartości 10 BTC między Satoshi Nakamoto i Halem Finneyem.
+question: Jaki jest numer bloku pierwszej transakcji Bitcoin?
+answer: Blok 170.
 wrong_answers:
-  - Transakcja 10 000 BTC za 2 pizze.
-  - Transakcja o wartości 1 BTC między Satoshi Nakamoto i Halem Finneyem.
-  - Transakcja na kwotę 10 000 BTC pomiędzy Laszlo Hanyeczem i Halem Finneyem.
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
 explanation: |
-  Pierwszą zarejestrowaną transakcją Bitcoin była transakcja na kwotę
-  10 BTC pomiędzy Satoshi Nakamoto i Halem Finneyem.
+  Pierwsza transakcja Bitcoin, która opiewała na kwotę
+  10 BTC między Satoshi Nakamoto i Halem Finneyem, została zarejestrowana w bloku
+  w bloku 170.
 reviewed: true

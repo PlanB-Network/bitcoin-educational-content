@@ -1,12 +1,9 @@
-question: U kojoj godini će se desiti 7. Halving?
-answer: 2036.
+question: Koja od ovih opcija je netačna u vezi sa gubitkom uređaja na kojem imate svoj Bitkoin novčanik?
+answer: Možete ponovo kreirati svoj novčanik i potrošiti svoj Bitkoin resetovanjem lozinke.
 wrong_answers:
-  - 2032.
-  - 2028.
-  - 2048.
+  - Izgubićete sve svoje Bitkoine ako nemate Mnemonic frazu.
+  - Možete proveriti sa svojim javnim ključevima da vaši bitkoini nisu potrošeni.
+  - Možete ponovo kreirati svoj novčanik i potrošiti svoj Bitkoin koristeći Mnemonic frazu.
 explanation: |
-  7. Halving bi trebalo da se dogodi 2036. godine, a procenjeni
-  broj Bitkoina u opticaju će biti 20,835,937.5,
-  što će otprilike odgovarati 99.22% od ukupne
-  ponude.
+  Gubljenje uređaja na kojem imate svoj novčanik ne znači nužno gubitak vaših Bitkoina. Ono što vam omogućava da ponovo kreirate svoj novčanik i potrošite svoj Bitkoin je Mnemonic fraza.
 reviewed: true

@@ -1,12 +1,10 @@
-question: Vad är det potentiella resultatet av en plötslig värdeminskning eller en förlust av förtroende för en förvaltningsvaluta?
-answer: Hyperinflation.
+question: Hur påverkas köpkraften av en inflation på 2% under 5 år?
+answer: Du förlorar 10 procent av din köpkraft.
 wrong_answers:
-  - Deflation.
-  - En stabil ekonomi.
-  - En ökning av värdet på valutan.
+  - Du förlorar 2 procent av din köpkraft.
+  - Du förlorar 5% av din köpkraft.
+  - Du förlorar 20 procent av din köpkraft.
 explanation: |
-  En plötslig devalvering eller ett förlorat förtroende för en förtroendevaluta
-  valuta kan leda till hyperinflation. Detta är en situation
-  där priserna på varor och tjänster ökar i en extremt
-  extremt hög takt, vilket ofta leder till ekonomisk instabilitet.
+  Med 2% inflation förlorar du 2% av din köpkraft
+  årligen, vilket motsvarar 10% på 5 år.
 reviewed: true

@@ -30,7 +30,7 @@ Het versleutelen van een USB-stick is een goede manier om je gevoelige gegevens 
 
 
 
-Om deze tutorial te volgen, heb je nodig :
+Om deze tutorial te volgen, heb je nodig:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Hier is "**usbkey1**" de naam die ik geef aan de partitie mount in mijn context. Je kunt zelf kiezen wat je wilt. Vervolgens moeten we deze partitie in de LUKS-partitie formatteren, bijvoorbeeld hier als **ext4** :
+Hier is "**usbkey1**" de naam die ik geef aan de partitie mount in mijn context. Je kunt zelf kiezen wat je wilt. Vervolgens moeten we deze partitie in de LUKS-partitie formatteren, bijvoorbeeld hier als **ext4**:
 
 
 
@@ -241,7 +241,7 @@ done
 
 
 
-"**/dev/mapper/usbkey1**" is de "snelkoppeling" die we aan onze USB-sleutel hebben gegeven ("**/dev/mapper**" is algemeen voor Linux voor mapping). Het geeft daarom toegang tot onze gedecodeerde partitie. Dit is wat je nu zou moeten zien :
+"**/dev/mapper/usbkey1**" is de "snelkoppeling" die we aan onze USB-sleutel hebben gegeven ("**/dev/mapper**" is algemeen voor Linux voor mapping). Het geeft daarom toegang tot onze gedecodeerde partitie. Dit is wat je nu zou moeten zien:
 
 
 
@@ -353,7 +353,7 @@ Dit betekent dat we vrij en transparant toegang hebben tot de gegevens op onze U
 
 
 
-Zodra onze operatie is voltooid, vergeet dan niet om alles goed af te sluiten om ervoor te zorgen dat we ons volume niet beschadigen. De eerste stap is om de :
+Zodra onze operatie is voltooid, vergeet dan niet om alles goed af te sluiten om ervoor te zorgen dat we ons volume niet beschadigen. De eerste stap is om de:
 
 
 

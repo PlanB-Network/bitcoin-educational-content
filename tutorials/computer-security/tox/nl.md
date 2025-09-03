@@ -58,7 +58,7 @@ U kunt het Tox protocol gebruiken via een instant messaging client die u kunt do
 
 
 
-Afhankelijk van je besturingssysteem kun je een Tox-client downloaden en installeren die overeenkomt met :
+Afhankelijk van je besturingssysteem kun je een Tox-client downloaden en installeren die overeenkomt met:
 
 
 
@@ -224,7 +224,7 @@ U kunt ook uw configuraties voor het delen van bestanden aanpassen voor elke dis
 
 
 
-Vanuit de Interface details kunt u de autorisaties beheren die u aan uw ontvanger geeft voor :
+Vanuit de Interface details kunt u de autorisaties beheren die u aan uw ontvanger geeft voor:
 
 
 

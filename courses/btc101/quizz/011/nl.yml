@@ -1,0 +1,13 @@
+question: Wat waren de eerste vormen van valuta?
+answer: Goederen zoals graan en vee.
+wrong_answers:
+  - Goud en zilver.
+  - Aantekeningen op papier.
+  - Digitale activa.
+explanation: |
+  De eerste vormen van valuta waren vaak gekoppeld aan essentiële
+  goederen zoals graan, vee en andere grondstoffen.
+  Deze goederen hadden echter grote nadelen, zoals
+  bederfelijkheid, waardoor het moeilijk was om ze te gebruiken als
+  spaarmiddel voor de lange termijn.
+reviewed: true

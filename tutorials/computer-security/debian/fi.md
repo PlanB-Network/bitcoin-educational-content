@@ -128,7 +128,7 @@ USB-levysi on nyt valmis aloittamaan Debianin asentamisen.
 
 
 
-Asennuksen käynnistäminen USB-muistitikulta :
+Asennuksen käynnistäminen USB-muistitikulta:
 
 
 
@@ -144,7 +144,7 @@ Asennuksen käynnistäminen USB-muistitikulta :
 
 
 
-Aloitusnäyttö :
+Aloitusnäyttö:
 
 
 
@@ -334,7 +334,7 @@ Kirjoita salasanasi pyydettäessä (huomaa, että merkkejä ei näytetä, kun ki
 
 
 
-- Asenna käytettävissä olevat päivitykset :
+- Asenna käytettävissä olevat päivitykset:
 
 
 
@@ -380,7 +380,7 @@ Sovellusten asentaminen Debianiin voi tapahtua kahdella tavalla:
 
 
 
-### Graafinen menetelmä :
+### Graafinen menetelmä:
 
 
 
@@ -388,7 +388,7 @@ Voit etsiä ja asentaa sovelluksia helposti **ohjelmistohallinnan** avulla (graa
 
 
 
-### Komentorivin menetelmä :
+### Komentorivin menetelmä:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Korvaa `<nimi>` paketin nimellä. Asenna esimerkiksi `curl` :
+Korvaa `<nimi>` paketin nimellä. Asenna esimerkiksi `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Manuaalisesti ladatun paketin asentaminen :
+### Manuaalisesti ladatun paketin asentaminen:
 
 
 
@@ -439,7 +439,7 @@ On myös mahdollista vaihtaa työpöytäympäristöä (esim. XFCE:hen, KDE:hen j
 
 
 
-Jos haluat oppia lisää Debianista ja yleisemmin GNU/Linux-jakeluista, suosittelen tutustumaan tähän kurssiin :
+Jos haluat oppia lisää Debianista ja yleisemmin GNU/Linux-jakeluista, suosittelen tutustumaan tähän kurssiin:
 
 
 

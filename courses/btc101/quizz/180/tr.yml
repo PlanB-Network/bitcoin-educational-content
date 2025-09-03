@@ -1,8 +1,8 @@
-question: Finansal otoritelerin Bitcoin'ı düzenlemesini zorlaştıran bir faktör nedir?
-answer: Küresel ölçekte, günde 24 saat, haftada 7 gün faaliyet göstermektedir.
+question: Bitcoin'ı tüccar olarak kabul etmenin bir avantajı nedir?
+answer: Sansüre karşı direniş.
 wrong_answers:
-  - Merkezi bir otorite tarafından kontrol edilir.
-  - Dünyanın hiçbir yerinde kullanılmamaktadır.
-  - Sahtesini yapmak kolaydır.
+  - Artan işlem ücretleri.
+  - Deflasyona karşı koruma.
+  - Finansal kısıtlama.
 explanation: >-
 reviewed: true

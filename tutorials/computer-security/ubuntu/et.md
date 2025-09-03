@@ -11,12 +11,12 @@ Operatsioonisüsteem (OS) on peamine tarkvara, mis haldab kõiki arvuti ressurss
 ### Miks Ubuntu?
 
 
-- Tõhustatud turvalisus** : Linuxi distributsioonid on tuntud oma turvalisuse ja töökindluse poolest
+- Tõhustatud turvalisus**: Linuxi distributsioonid on tuntud oma turvalisuse ja töökindluse poolest
 - Nullkulu**: Ubuntu ja enamik Linuxi distributsioone on tasuta
 - Suur kogukond**: Kasutajate kogukond, kes on valmis aitama foorumite ja õpetuste kaudu
 - Eraelu puutumatuse austamine**: Avatud lähtekoodiga süsteem suurema läbipaistvuse tagamiseks
 - Lihtsus**: Kasutajasõbralik kasutajaliides ja kasutusmugavus
-- Rikkalik ökosüsteem** : Ulatuslik avatud lähtekoodiga tarkvara kataloog
+- Rikkalik ökosüsteem**: Ulatuslik avatud lähtekoodiga tarkvara kataloog
 - Regulaarne toetus**: Turvalised uuendused Canonicalilt
 
 ## Paigaldamine ja konfigureerimine
@@ -42,7 +42,7 @@ Operatsioonisüsteem (OS) on peamine tarkvara, mis haldab kõiki arvuti ressurss
 
 ### 3. Looge käivitatav USB-klahv
 
-Saate kasutada mitmeid vahendeid, näiteks Balena Etcher :
+Saate kasutada mitmeid vahendeid, näiteks Balena Etcher:
 
 
 - Lae alla ja paigalda [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Sisestage oma parool, kui seda küsitakse
-- Uuenduste installimiseks sisestage :
+- Uuenduste installimiseks sisestage:
 
 ```bash
 sudo apt upgrade
@@ -199,7 +199,7 @@ Teisi brausereid (Chrome, Brave jne) saab paigaldada Tarkvarahalduri või .deb-p
 
 Ubuntu tuleb koos LibreOffice'i paketiga (Writer tekstitöötluseks).
 
-Selle avamiseks : Tegevused > Otsi "LibreOffice Writer" või klõpsa ikoonil, kui see ilmub ribale.
+Selle avamiseks: Tegevused > Otsi "LibreOffice Writer" või klõpsa ikoonil, kui see ilmub ribale.
 
 Saate luua, redigeerida ja salvestada dokumente erinevates vormingutes (sh .docx).
 
@@ -207,7 +207,7 @@ Saate luua, redigeerida ja salvestada dokumente erinevates vormingutes (sh .docx
 
 Tarkvarahaldur (nimega "Ubuntu tarkvara"): graafiline kasutajaliides rakenduste otsimiseks ja installimiseks.
 
-Kasutage terminalist käsku :
+Kasutage terminalist käsku:
 
 ```bash
 sudo apt install nom-du-paquet

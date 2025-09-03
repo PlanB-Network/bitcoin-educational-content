@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye riri hagati ya PRNG na TRNG?
+answer: PRNG ni deterministic, mu gihe TRNG itanga imibare y’ukuri y’imburakimazi.
+wrong_answers:
+  - PRNG iranyaruka kuruta TRNG ku mibare myinshi.
+  - PRNG ikoreshwa gusa mu gupfuka, si TRNG.
+  - PRNG ikoresha imfunguruzo z’ibanga, TRNG ikoresha imfunguruzo za bose.
+explanation: |
+  PRNGs ni deterministic, bisobanura ko zishobora gusubiramwo urutonde kuva ku ntango, bitandukanye na TRNGs.
+reviewed: false

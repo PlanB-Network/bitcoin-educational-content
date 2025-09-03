@@ -1,14 +1,12 @@
-question: Qual é o papel do dinheiro como uma ferramenta de comunicação?
-answer: Ele permite a comunicação de valor através do espaço e do tempo e sem a necessidade de confiar em uma contraparte.
+question: Qual é a principal vantagem das moedas fiduciárias?
+answer: Elas são facilmente divisíveis.
 wrong_answers:
-  - Ele permite a comunicação de valor apenas através do espaço e sem a necessidade de confiar em uma contraparte.
-  - Ele permite a comunicação de valor apenas através do tempo e sem a necessidade de confiar em uma contraparte.
-  - Ele permite a comunicação de valor através do espaço e do tempo e com a necessidade de confiar em uma contraparte.
+  - São controladas por uma entidade central.
+  - Não são facilmente transportáveis.
+  - São eficazes para manter valor ao longo do tempo.
 explanation: |
-  O dinheiro como uma ferramenta de comunicação permite a comunicação através
-  do espaço e do tempo, à medida que transformamos nosso tempo e energia em um
-  ativo que pode ser reutilizado no futuro sem o risco de
-  desvalorização. Ele também permite a comunicação em uma linguagem comum
-  universal, possibilitando que dois estranhos troquem, negociem,
-  e concordem sobre o valor das coisas.
+  Moedas fiduciárias, como o dólar e o euro, são muito
+  líquidas e facilmente transportáveis porque agora são
+  majoritariamente digitais. No entanto, seu valor é constantemente
+  erodido pela inflação monetária.
 reviewed: true

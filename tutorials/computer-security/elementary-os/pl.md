@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Prostota i łatwość użytkowania** : Graficzny Interface systemu Elementary OS znajduje się w połowie drogi między systemami MacOs i Windows. To sprawia, że jest on łatwy w obsłudze nawet dla niedoświadczonych użytkowników.
+- Prostota i łatwość użytkowania**: Graficzny Interface systemu Elementary OS znajduje się w połowie drogi między systemami MacOs i Windows. To sprawia, że jest on łatwy w obsłudze nawet dla niedoświadczonych użytkowników.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Darmowy** : System jest całkowicie darmowy. Jednak po jego pobraniu możesz przekazać darowiznę, aby wesprzeć programistów.
+- Darmowy**: System jest całkowicie darmowy. Jednak po jego pobraniu możesz przekazać darowiznę, aby wesprzeć programistów.
 
 
 
 
 
-- Aktywna społeczność** : Społeczność skupiona wokół Elementary OS jest zróżnicowana i elastyczna. Jeśli napotkasz trudności, możesz łatwo znaleźć pomoc na forach lub w sieciach społecznościowych.
+- Aktywna społeczność**: Społeczność skupiona wokół Elementary OS jest zróżnicowana i elastyczna. Jeśli napotkasz trudności, możesz łatwo znaleźć pomoc na forach lub w sieciach społecznościowych.
 
 
 

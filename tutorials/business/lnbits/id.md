@@ -460,7 +460,7 @@ Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits] (https://
 - Menambahkan lightning:lnurl1234xyz akan membuat QR yang meminta untuk membuka dompet pengguna untuk faktur ini saat pemindaian (aplikasi lightning yang terakhir diinstal di iOS, pengaturan di Android)
 - Jika Anda mem-flash esp32 melalui web, maka hanya akan bekerja dengan browser-browser ini (TL: DR Chrome, Edge & Opera).
 - Harap perhatikan referensi PIN-KELUAR ini untuk esp
-- Ketika Anda menggunakan FOSSoftware atau FOSGuides, mohon untuk selalu menautkan penulisnya. Semua orang suka melihat bayi mereka tumbuh dan ini juga memulai sebuah rantai pembangunan yang cukup mengagumkan untuk dilihat :)
+- Ketika Anda menggunakan FOSSoftware atau FOSGuides, mohon untuk selalu menautkan penulisnya. Semua orang suka melihat bayi mereka tumbuh dan ini juga memulai sebuah rantai pembangunan yang cukup mengagumkan untuk dilihat:)
 
 Datanglah ke [Grup Telegram Makerbits](https://t.me/makerbits) jika Anda membutuhkan bantuan untuk sebuah proyek - kami siap membantu Anda!
 

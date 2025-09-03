@@ -8,27 +8,27 @@ Sebelum mengikuti tutorial menambahkan tutorial baru ini, Anda harus menyelesaik
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Anda sudah memiliki :
+Anda sudah memiliki:
 
 
 - Pilih tema untuk tutorial Anda;
 - Menghubungi tim Plan ₿ Network melalui [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network ;
 - Pilih alat kontribusi Anda.
 
-Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Network menggunakan versi web GitHub. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat salah satu dari 2 tutorial lainnya, di mana saya merinci panduan yang harus diikuti dan langkah-langkah untuk membuat perubahan dari file :
+Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Network menggunakan versi web GitHub. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat salah satu dari 2 tutorial lainnya, di mana saya merinci panduan yang harus diikuti dan langkah-langkah untuk membuat perubahan dari file:
 
 
-- Pengguna yang berpengalaman** :
+- Pengguna yang berpengalaman**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Menengah (GitHub Desktop)** :
+- Menengah (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prasyarat
 
-Prasyarat sebelum memulai tutorial :
+Prasyarat sebelum memulai tutorial:
 
 
 - Memiliki [akun GitHub](https://github.com/signup);
@@ -56,7 +56,7 @@ Pastikan Anda berada di cabang `dev` utama, lalu klik tombol "*Sinkronisasi fork
 
 ![GITHUB](assets/fr/02.webp)
 
-Klik pada cabang `dev`, lalu beri nama cabang kerja Anda sehingga judulnya dengan jelas mencerminkan tujuannya, dengan menggunakan tanda hubung untuk memisahkan kata. Sebagai contoh, jika tujuan kita adalah untuk menulis tutorial tentang penggunaan Green Wallet, maka cabang tersebut dapat dinamakan: `tuto-green-wallet-loic`. Setelah memasukkan nama yang sesuai, klik "*Buat cabang*" untuk mengonfirmasi pembuatan cabang baru berdasarkan `dev` :
+Klik pada cabang `dev`, lalu beri nama cabang kerja Anda sehingga judulnya dengan jelas mencerminkan tujuannya, dengan menggunakan tanda hubung untuk memisahkan kata. Sebagai contoh, jika tujuan kita adalah untuk menulis tutorial tentang penggunaan Green Wallet, maka cabang tersebut dapat dinamakan: `tuto-green-wallet-loic`. Setelah memasukkan nama yang sesuai, klik "*Buat cabang*" untuk mengonfirmasi pembuatan cabang baru berdasarkan `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
@@ -109,7 +109,7 @@ bitcoin-educational-content/
 
 ## 3 - Isi file YAML
 
-Mari kita mulai dengan file YAML. Pada kotak untuk membuat file baru, masukkan `tutorial.yml` :
+Mari kita mulai dengan file YAML. Pada kotak untuk membuat file baru, masukkan `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
@@ -146,30 +146,30 @@ proofreading:
 
 Berikut adalah bidang yang wajib diisi:
 
-- **id** : Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
+- **id**: Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- **project_id** : UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
 
-- **tags** : 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Tingkat kesulitan tutorial, dipilih dari:
+- **level**: Tingkat kesulitan tutorial, dipilih dari:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
+- **original_language**: Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
 
-- **proofreading** : Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
-    - **language** : Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
-    - **last_contribution_date** : Tanggal hari ini.
-    - **urgency** : 1
-    - **contributor_names** : ID GitHub Anda.
-    - **reward** : 0
+- **proofreading**: Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
+    - **language**: Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
+    - **last_contribution_date**: Tanggal hari ini.
+    - **urgency**: 1
+    - **contributor_names**: ID GitHub Anda.
+    - **reward**: 0
 
 Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
 
@@ -235,7 +235,7 @@ Periksa kembali apakah Anda berada di cabang yang benar, lalu klik "*Komit perub
 
 ## 5 - Membuat file Penurunan Harga
 
-Sekarang kita akan membuat file yang akan menjadi tempat tutorial Anda, diberi nama sesuai dengan kode bahasa Anda, misalnya `fr.md` jika kita menulis dalam bahasa Prancis. Buka folder tutorial Anda :
+Sekarang kita akan membuat file yang akan menjadi tempat tutorial Anda, diberi nama sesuai dengan kode bahasa Anda, misalnya `fr.md` jika kita menulis dalam bahasa Prancis. Buka folder tutorial Anda:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -262,7 +262,7 @@ Isi nama tutorial Anda dan deskripsi singkat:
 
 ![GITHUB](assets/fr/20.webp)
 
-Kemudian, tambahkan jalur ke gambar sampul di awal tutorial Anda. Untuk melakukan ini, perhatikan :
+Kemudian, tambahkan jalur ke gambar sampul di awal tutorial Anda. Untuk melakukan ini, perhatikan:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -300,11 +300,11 @@ Sekarang, Anda akan melihat gambar muncul dalam folder.
 
 ## 7 - Menulis tutorial
 
-Lanjutkan menulis tutorial Anda dengan mencatat konten Anda di file Markdown dengan kode bahasa (dalam contoh saya, dalam bahasa Prancis, ini adalah file `fr.md`). Buka file tersebut dan klik ikon pensil :
+Lanjutkan menulis tutorial Anda dengan mencatat konten Anda di file Markdown dengan kode bahasa (dalam contoh saya, dalam bahasa Prancis, ini adalah file `fr.md`). Buka file tersebut dan klik ikon pensil:
 
 ![GITHUB](assets/fr/28.webp)
 
-Mulailah menulis tutorial Anda. Saat menambahkan subjudul, gunakan format penurunan yang sesuai dengan mengawali teks dengan `##` :
+Mulailah menulis tutorial Anda. Saat menambahkan subjudul, gunakan format penurunan yang sesuai dengan mengawali teks dengan `##`:
 
 ![GITHUB](assets/fr/29.webp)
 

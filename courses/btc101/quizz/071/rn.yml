@@ -1,0 +1,12 @@
+question: Ni iyihe muri izo nzira ari ikinyoma ku bijanye no gutakaza igikoresho ufiseko Bitcoin Wallet yawe?
+answer: Ushobora gusubira kurema Wallet yawe maze ugakoresha Bitcoin yawe mu gusubiramwo ijambobanga ryawe.
+wrong_answers:
+  - Utakaza Bitcoins zawe zose iyo udafise ijambo Mnemonic.
+  - Ushobora kugenzura n’imfunguruzo zawe za bose ko amafaranga yawe ya bitcoins atakoreshejwe.
+  - Ushobora gusubira kurema Wallet yawe maze ugakoresha Bitcoin yawe ukoresheje ijambo Mnemonic.
+explanation: |
+  Gutakaza igikoresho ufiseko Wallet yawe ntibituma .
+  bisigura vy’ukuri gutakaza Bitcoins zawe. Ni igiki kiguha uburenganzira
+  gusubira kurema Wallet yawe no gukoresha Bitcoin yawe ni
+  Invugo ya Mnemonic.
+reviewed: true

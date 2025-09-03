@@ -12,7 +12,7 @@ description: Practical guide to monetizing your business with be-BOP
 The solution is simple, light and autonomous. It enables the creation of an online store, even in an environment where traditional financial services are limited or absent. Indeed, **be-BOP** has been designed to operate efficiently with or without access to banks, using Bitcoin as the payment infrastructure.
 
 
-In this tutorial, we will take you step by step through :
+In this tutorial, we will take you step by step through:
 
 
 
@@ -34,7 +34,7 @@ Before you start installing be-BOP, make sure you have the following technical i
 ### S3-compatible storage
 
 
-be-BOP uses a storage system to manage files (such as product images). This requires access to an S3 service, such as :
+be-BOP uses a storage system to manage files (such as product images). This requires access to an S3 service, such as:
 
 
 
@@ -229,7 +229,7 @@ You'll then need to enter **the password or token authentication** that connects
 If you don't want to manage a Lightning node yourself, **Swiss Bitcoin Pay** is a ready-to-use, easy-to-configure solution that's ideal for starting to accept Lightning payments without a complex infrastructure.
 
 
-Configuration steps :
+Configuration steps:
 
 
 
@@ -250,7 +250,7 @@ Once set up, be-BOP will automatically generate Lightning invoices for your cust
 In addition to Bitcoin, be-BOP also lets you accept cash payments via PayPal, a well-known and widely used international solution.
 
 
-Configuration steps :
+Configuration steps:
 
 
 
@@ -354,7 +354,7 @@ The software offers multi-language capability to adapt to an international audie
 The **Top Bar** configuration lets you personalize your software's visual identity by displaying key information right from the first line of the Interface. This reinforces brand recognition and provides a clear context for users.
 
 
-#### Configuration steps :
+#### Configuration steps:
 
 
 
@@ -372,7 +372,7 @@ Once this information has been entered, the **Top Bar** will display a clear, pr
 The Top Bar's `Links` section lets you add shortcuts to important pages in your application or on external sites. These links are displayed directly in the Top Bar, offering your users fast, structured access.
 
 
-#### Configuration steps :
+#### Configuration steps:
 
 
 
@@ -575,7 +575,7 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 
 - Price Amount**: product price (e.g. `25.00`).
 - Price Currency**: currency (EUR, USD, BTC, etc.).
-- Special products** :
+- Special products**:
   - this is a free product.
   - this is a pay-what-you-want product.
 
@@ -585,10 +585,10 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 
 
 - Single product (`standalone`)**: only one addition possible per order (e.g. donation, admission ticket).
-- Product with variations** :
+- Product with variations**:
   - Don't check `Standalone`.
   - Check `Product has light variations (no stock difference)`.
-  - Add :
+  - Add:
     - Name** (e.g. *Size*),
     - Values** (e.g.: S, M, L, XL),
     - Price differences** if applicable (e.g.: `+2 USD` for XL).
@@ -609,7 +609,7 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 If your product is not available in unlimited quantities, check `The product has a limited stock`. This activates automatic tracking of remaining quantities. Once this box is checked, a field appears to indicate the **available stock**.
 
 
-The system manages :
+The system manages:
 
 
 
@@ -662,7 +662,7 @@ Check only the channels you wish to use.
 Go to `Admin > Merch > CMS`. You'll see a list of existing pages and can add new ones with **Add CMS page**.
 
 
-CMS pages are important for :
+CMS pages are important for:
 
 
 
@@ -688,7 +688,7 @@ You can add other pages as required:
 ### Layout and graphic elements
 
 
-Go to : `Admin > Merch > Layout`. You can customize the visual elements of your site:
+Go to: `Admin > Merch > Layout`. You can customize the visual elements of your site:
 
 
 ![product-options](assets/fr/032.webp)
@@ -707,7 +707,7 @@ Go to : `Admin > Merch > Layout`. You can customize the visual elements of your 
 
 
 - Present in the grey area below the top bar
-- Contains quick access to : `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
+- Contains quick access to: `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
 - Directors only
 
 
@@ -725,7 +725,7 @@ Go to : `Admin > Merch > Layout`. You can customize the visual elements of your 
 Go to: `Admin > Merch > Pictures`
 
 
-You can :
+You can:
 
 
 
@@ -761,7 +761,7 @@ Examples of available widgets:
 - Challenges**: challenges or missions
 - Tags**: categories or keywords
 - Sliders**: image carousels
-- Specifications** : Specifications tables
+- Specifications**: Specifications tables
 - Forms**: forms (contact, feedback, etc.)
 - Countdowns**: timers
 - Galleries**: image galleries
@@ -786,7 +786,7 @@ Use **shortcodes** in the content of your CMS pages:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Current parameters** :
+**Current parameters**:
 
 
 
@@ -796,7 +796,7 @@ Use **shortcodes** in the content of your CMS pages:
 - autoplay=3000`: time in ms between two slides
 
 
-**Advantages** :
+**Advantages**:
 
 
 
@@ -839,7 +839,7 @@ These filters facilitate quick searches and targeted management.
 #### Details of each order
 
 
-By clicking on an order, you can access a complete file containing :
+By clicking on an order, you can access a complete file containing:
 
 
 
@@ -852,7 +852,7 @@ By clicking on an order, you can access a complete file containing :
 #### Possible actions on an order
 
 
-You can :
+You can:
 
 
 
@@ -868,7 +868,7 @@ You can :
 ### Reporting and export
 
 
-To access sales and payment statistics :
+To access sales and payment statistics:
 
 administrator > Settings > Reporting
 
@@ -894,7 +894,7 @@ The reports are divided into sections:
 #### Data export
 
 
-Each section includes a **Export CSV** button, which allows you to :
+Each section includes a **Export CSV** button, which allows you to:
 
 
 
@@ -925,7 +925,7 @@ The platform supports the **Nostr** protocol for certain advanced functions:
 ### Generating and adding the Nostr private key
 
 
-Go to :
+Go to:
 
 admin > Node Management > Nostr
 
@@ -989,7 +989,7 @@ Here you'll find all the options for **creating** and **configuring** a custom t
 ![theme](assets/fr/037.webp)
 
 
-When creating or modifying a theme, you can define :
+When creating or modifying a theme, you can define:
 
 
 
@@ -1007,7 +1007,7 @@ Each part of the site can be adjusted independently:
 
 - Header**: top navigation bar
 - Body**: main content
-- Footer** : bottom of page
+- Footer**: bottom of page
 
 
 **Note:** this granularity ensures consistency between the site's visuals and your brand's identity.
@@ -1016,7 +1016,7 @@ Each part of the site can be adjusted independently:
 ### Theme activation
 
 
-Once the theme is configured :
+Once the theme is configured:
 
 
 
@@ -1039,7 +1039,7 @@ The platform lets you personalize the emails sent automatically to users. Go to:
 ### Creating / editing templates
 
 
-Each email (order confirmation, forgotten password, etc.) has :
+Each email (order confirmation, forgotten password, etc.) has:
 
 
 
@@ -1053,12 +1053,12 @@ Each email (order confirmation, forgotten password, etc.) has :
 ### Using dynamic variables
 
 
-To make emails dynamic, insert variables such as :
+To make emails dynamic, insert variables such as:
 
 
 
-- `{orderNumber}}` : replaced by the actual order number
-- `{invoiceLink}}` : link to the invoice
+- `{orderNumber}}`: replaced by the actual order number
+- `{invoiceLink}}`: link to the invoice
 - `{websiteLink}}`: URL of your website
 
 
@@ -1101,7 +1101,7 @@ Complete the following fields:
 ![targsconfig](assets/fr/040.webp)
 
 
-#### Available families :
+#### Available families:
 
 
 
@@ -1128,7 +1128,7 @@ These fields can be used to enrich a tag as if it were a content page:
 ### Using tags
 
 
-Tags can be :
+Tags can be:
 
 
 
@@ -1147,7 +1147,7 @@ To offer downloadable documents to your customers: `Admin > Merch > Files`
 
 1. Click on **New file**
 
-2. Inform :
+2. Inform:
 
 
    - File name** (e.g. *Installation guide*)
@@ -1160,7 +1160,7 @@ To offer downloadable documents to your customers: `Admin > Merch > Files`
 ### Using the link
 
 
-This link can then be inserted into :
+This link can then be inserted into:
 
 
 
@@ -1178,7 +1178,7 @@ It's ideal for providing *user manuals, technical guides, product sheets...* wit
 The platform offers advanced integration with the **Nostr** protocol, via an automated bot.
 
 
-Go to : node Management > Nostr
+Go to: node Management > Nostr
 
 
 ### Main features
@@ -1197,7 +1197,7 @@ Go to : node Management > Nostr
 
 
 - Activate an automatic message on **first user interaction**
-- Ideal for :
+- Ideal for:
   - Presenting your service
   - Send a useful link (e.g. FAQ, contact, order)
 
@@ -1232,7 +1232,7 @@ To do this, go to: `Settings > Language`
 ### Loading and editing
 
 
-Translation files are in JSON. You can :
+Translation files are in JSON. You can:
 
 
 
@@ -1241,7 +1241,7 @@ Translation files are in JSON. You can :
 - Add** your own translations
 
 
-Link to original files :
+Link to original files:
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
@@ -1264,7 +1264,7 @@ Go to: `Admin > Settings > ARM`
 Click on **Create a role** to create a role (e.g. `Super Admin`, `POS`, `Ticket checker`).
 
 
-Each role contains :
+Each role contains:
 
 
 
@@ -1276,7 +1276,7 @@ Each role contains :
 #### User creation
 
 
-In the same menu `Admin > Settings > ARM`, add a user with :
+In the same menu `Admin > Settings > ARM`, add a user with:
 
 
 
@@ -1330,7 +1330,7 @@ In `/cart`, a field allows you to add a product:
 #### Means of payment
 
 
-POS supports :
+POS supports:
 
 
 
@@ -1344,7 +1344,7 @@ Two advanced options are available:
 
 
 
-- VAT exemption** : applicable on justification (NGOs, foreigners...)
+- VAT exemption**: applicable on justification (NGOs, foreigners...)
 - Gift discount**: exceptional discount with compulsory comment
 
 

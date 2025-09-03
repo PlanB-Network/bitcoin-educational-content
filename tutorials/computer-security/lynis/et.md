@@ -51,7 +51,7 @@ Tööriista kasutavad laialdaselt paljud kasutajad, sealhulgas süsteemiadminist
 
 
 
-Projekt on saadaval aadressil Address **Github** :
+Projekt on saadaval aadressil Address **Github**:
 
 
 
@@ -82,7 +82,7 @@ See paigaldusrežiim võimaldab teil kasutada käsku **lynis** ükskõik kust s�
 
 
 
-Ühendage oma serveriga SSH kaudu ja sisestage Lynise installimiseks järgmised käsud :
+Ühendage oma serveriga SSH kaudu ja sisestage Lynise installimiseks järgmised käsud:
 
 
 
@@ -209,7 +209,7 @@ Kättesaadavate käskude kuvamiseks sisestage lihtsalt järgmine käsk:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ See on see, mida sa saad:
 
 
 
-Kui soovite kuvada kõiki valikuid, peate sisestama :
+Kui soovite kuvada kõiki valikuid, peate sisestama:
 
 
 
@@ -336,7 +336,7 @@ Siin näeme, et Lynis soovitab paigaldada **fail2ban**:
 
 
 
-Jaotises "**Boot ja teenused**" näeme, et teenuste kaitset *systemd* kaudu võiks parandada. Positiivne on see, et Grub2 on olemas ja probleeme õiguste osas ei ole :
+Jaotises "**Boot ja teenused**" näeme, et teenuste kaitset *systemd* kaudu võiks parandada. Positiivne on see, et Grub2 on olemas ja probleeme õiguste osas ei ole:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Mõned andmed paigaldatud pakettide kohta :
+Mõned andmed paigaldatud pakettide kohta:
 
 
 
@@ -623,7 +623,7 @@ Vaatame SSH soovitusi. Need on loetletud allpool. Ärge muretsege, me selgitame 
 
 
 
-Vaatame lähemalt minu praegust **SSH** konfiguratsiooni :**/etc/ssh/sshd_config**
+Vaatame lähemalt minu praegust **SSH** konfiguratsiooni:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Allpool soovitatud konfiguratsiooni saab veel optimeerida, kuid see annab teile 
 
 
 
-Me :
+Me:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Säilitada parooliga autentimine :
+- Säilitada parooliga autentimine:
 
 
 
@@ -804,7 +804,7 @@ Tasub märkida, et mõnes jurisdiktsioonis võib sõnumi saatmine enne autentimi
 
 
 
-Piltides annab see :
+Piltides annab see:
 
 
 

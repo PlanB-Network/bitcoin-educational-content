@@ -212,7 +212,7 @@ iface ens36 inet manual
 
 
 - auto *Interface***: システム起動時にInterfaceを自動的に「起動」します。
-- iface *Interface* inet manual** : Interface を IP Address なしで使用する。キーワード "static "は静的IP Addressを定義し、"dhcp "は動的アドレッシングを使用します。
+- iface *Interface* inet manual**: Interface を IP Address なしで使用する。キーワード "static "は静的IP Addressを定義し、"dhcp "は動的アドレッシングを使用します。
 
 
 

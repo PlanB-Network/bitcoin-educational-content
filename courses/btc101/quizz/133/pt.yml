@@ -1,10 +1,9 @@
-question: Como os mineradores validam transações e as incluem em um bloco?
-answer: Através do processo de Prova de Trabalho (Proof of Work).
+question: Qual é o tamanho atual do blockchain do Bitcoin?
+answer: Cerca de 500GB.
 wrong_answers:
-  - Através do processo de Prova de Participação (Proof of Stake).
-  - Através do processo de Prova de Autoridade (Proof of Authority).
-  - Através do processo de Prova de Queima (Proof of Burn).
-explanation: >-
-  Os mineradores validam transações e as incluem em um bloco através de um processo
-  chamado prova de trabalho (proof of work). Isso envolve resolver um quebra-cabeça criptográfico.
+  - Cerca de 100GB.
+  - Cerca de 1TB.
+  - Cerca de 2TB.
+explanation: |
+  O blockchain do Bitcoin tem cerca de 500GB de tamanho em 2023.
 reviewed: true

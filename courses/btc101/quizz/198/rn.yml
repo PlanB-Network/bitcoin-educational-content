@@ -1,0 +1,8 @@
+question: Ni imwe mu mpamvu zituma ukwiye gushiramwo ama UTXO yawe mu bipapuro vyawe rimwe na rimwe?
+answer: Kugira ngo ntihagire amahera adakenewe mu gihe c’ugucuruza.
+wrong_answers:
+  - Kugira ngo wongere agaciro k’amahera yawe ya bitcoins.
+  - Kugira ngo ama bitcoins yawe ntiyibwe.
+  - Kugira ngo umenye neza ko ama bitcoins yawe yama ariho.
+explanation: >-
+reviewed: true

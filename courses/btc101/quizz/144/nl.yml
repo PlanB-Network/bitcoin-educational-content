@@ -1,8 +1,8 @@
-question: Wat is de vereiste bandbreedte voor een Bitcoin knooppunt, rekening houdend met 1 blok van 1MB elke 10 minuten?
-answer: Ongeveer 5GB per maand.
+question: Wat is de Proof of Work (POW)?
+answer: Het is de veiligheidsconsensus van het Bitcoin protocol.
 wrong_answers:
-  - Ongeveer 1GB per maand.
-  - Ongeveer 10GB per maand.
-  - Ongeveer 20 GB per maand.
+  - Het is het proces van het creëren van nieuwe bitcoins.
+  - Het is de methode om Bitcoin transacties te verifiëren.
+  - Het is het algoritme dat wordt gebruikt om bitcoins te delven.
 explanation: >-
 reviewed: true

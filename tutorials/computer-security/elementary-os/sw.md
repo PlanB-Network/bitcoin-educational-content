@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Urahisi na urahisi wa kutumia** : Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
+- Urahisi na urahisi wa kutumia**: Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Bure** : Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
+- Bure**: Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
 
 
 
 
 
-- Jumuiya inayotumika** : Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
+- Jumuiya inayotumika**: Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
 
 
 

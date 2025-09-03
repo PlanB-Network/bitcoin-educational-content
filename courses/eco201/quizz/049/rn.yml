@@ -1,0 +1,11 @@
+question: Ni uruhara uruhe ibiciro bifise mw’ishure ry’ubutunzi ryo muri Otirishiya?
+answer: Ibiciro birafise uruhara runini mu gutunganya abantu mu buryo bubereye bafise amakuru y’igice.
+wrong_answers:
+  - Ibiciro ntaco bimaze mw’ishure ry’ubutunzi ryo muri Otirishiya.
+  - Ibiciro bigenwa na leta mw’ishure ry’ubutunzi ryo muri Otirishiya.
+  - Ibiciro birashirwaho kandi ntibihinduka mw’ishure ry’ubutunzi ryo muri Otirishiya.
+explanation: |
+  Mu mashure y’ubutunzi yo muri Otirishiya, ibiciro birafise uruhara runini mu gutuma .
+  imitunganirize ibereye y’abantu ku giti cabo bafise amakuru y’igice. Bifasha gushiramwo uburinganire .
+  i Supply n’ugusaba umutungo mw’isoko, gutyo bigatuma ubutunzi butera imbere.
+reviewed: true

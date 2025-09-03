@@ -30,7 +30,7 @@ WireGuard è una soluzione relativamente recente, disponibile come versione stab
 
 
 
-Alcuni punti chiave di WireGuard :
+Alcuni punti chiave di WireGuard:
 
 
 
@@ -95,7 +95,7 @@ In questo esempio, mi concentrerò sul caso seguente: **dal mio Windows Peer 1 c
 
 
 
-In termini di indirizzi IP, questo dà :
+In termini di indirizzi IP, questo dà:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Il valore della chiave pubblica verrà restituito nella console. Nel file di configurazione di WireGuard, dobbiamo **aggiungere il valore della nostra chiave privata**. Per recuperare questo valore, inserire il comando seguente e copiare il valore :
+Il valore della chiave pubblica verrà restituito nella console. Nel file di configurazione di WireGuard, dobbiamo **aggiungere il valore della nostra chiave privata**. Per recuperare questo valore, inserire il comando seguente e copiare il valore:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Se si elencano gli indirizzi IP del server Debian 11, si vedrà un nuovo Interface chiamato "wg0" con l'IP Address definito nel file di configurazione :
+Se si elencano gli indirizzi IP del server Debian 11, si vedrà un nuovo Interface chiamato "wg0" con l'IP Address definito nel file di configurazione:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Infine, dobbiamo attivare l'avvio automatico del nostro Interface wg0 WireGuard :
+Infine, dobbiamo attivare l'avvio automatico del nostro Interface wg0 WireGuard:
 
 
 
@@ -286,7 +286,7 @@ Affinché la nostra macchina Debian 11 sia in grado di **indirizzare i pacchetti
 
 
 
-Modificare questo file di configurazione :
+Modificare questo file di configurazione:
 
 
 
@@ -318,7 +318,7 @@ Affinché il nostro server instradi correttamente i pacchetti e la LAN remota si
 
 
 
-Se non avete già UFW e volete configurarlo (potete anche usare Nftables), iniziate installando :
+Se non avete già UFW e volete configurarlo (potete anche usare Nftables), iniziate installando:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-L'immagine mostra :
+L'immagine mostra:
 
 
 
@@ -490,7 +490,7 @@ Dobbiamo completare questa configurazione, in particolare dichiarare l'IP Addres
 
 
 
-Iniziamo con il blocco `[Interface]`, aggiungendo l'IP Address "**192.168.110.2**"; ricordiamo che il server ha l'IP Address "**192.168.110.121**" su questo segmento di rete. In questo modo si ottiene :
+Iniziamo con il blocco `[Interface]`, aggiungendo l'IP Address "**192.168.110.2**"; ricordiamo che il server ha l'IP Address "**192.168.110.121**" su questo segmento di rete. In questo modo si ottiene:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-In immagini :
+In immagini:
 
 
 
@@ -691,7 +691,7 @@ Con la configurazione attuale, parte del traffico passa attraverso la VPN e il r
 
 
 
-Per prima cosa, è necessario installare il pacchetto "resolvconf" sul file :
+Per prima cosa, è necessario installare il pacchetto "resolvconf" sul file:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Salvare il file, quindi riavviare Interface :
+Salvare il file, quindi riavviare Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Infine, nella configurazione del tunnel sulla workstation Windows 10, è necessario modificare la sezione "AllowedIPs" per indicare che tutto deve passare attraverso il tunnel. Sostituire :
+Infine, nella configurazione del tunnel sulla workstation Windows 10, è necessario modificare la sezione "AllowedIPs" per indicare che tutto deve passare attraverso il tunnel. Sostituire:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Di :
+Di:
 
 
 
@@ -772,7 +772,7 @@ La configurazione di WireGuard è piuttosto semplice e facile da capire, e sopra
 
 
 
-Documentazione aggiuntiva :
+Documentazione aggiuntiva:
 
 
 

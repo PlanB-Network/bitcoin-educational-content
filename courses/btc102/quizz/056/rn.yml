@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bukoreshwa mu kurinda On-Chain gukurikirana amafaranga y’ibikorwa?
+answer: Gukoresha ubuhinga bwa CoinJoin na PayJoin
+wrong_answers:
+  - Gusubira gukoresha iyo Address nyene yakira.
+  - Gushiramwo kenshi ama UTXO
+  - Gushira mu gitabu c’ububiko Wallet.
+explanation: |
+  Coinjoins na payjoins zifasha mu gutuma ubuzima bwite bw’igikorwa ca On-Chain butera imbere.
+reviewed: false

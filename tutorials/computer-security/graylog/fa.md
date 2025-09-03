@@ -149,8 +149,8 @@ sudo apt-get install -y mongodb-org
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-حافظه پنهان بسته خود را به‌روزرسانی کنید :
+حافظه پنهان بسته خود را به‌روزرسانی کنید:
 
 
 
@@ -279,7 +279,7 @@ plugins.security.disabled: true
 
 
 
-- cluster.name: graylog** : این پارامتر نام کلاستر OpenSearch را با نام "**graylog**" تعیین می‌کند.
+- cluster.name: graylog**: این پارامتر نام کلاستر OpenSearch را با نام "**graylog**" تعیین می‌کند.
 - node.name: ${HOSTNAME}**: نام گره به صورت پویا تنظیم می‌شود تا با نام ماشین محلی لینوکس مطابقت داشته باشد. حتی اگر فقط یک گره داشته باشیم، مهم است که آن را به درستی نام‌گذاری کنیم.
 - مسیر path.data: /var/lib/opensearch**: این مسیر مشخص می‌کند که OpenSearch داده‌های خود را در کجا بر روی ماشین محلی ذخیره می‌کند، در این مورد در "**/var/lib/opensearch**".
 - مسیر path.logs: /var/log/opensearch**: این مسیر تعیین می‌کند که فایل‌های لاگ OpenSearch کجا ذخیره می‌شوند، در اینجا در "**/var/log/opensearch**".
@@ -327,7 +327,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-با این خطوط :
+با این خطوط:
 
 
 
@@ -432,7 +432,7 @@ sudo apt-get install graylog-server
 
 
 - **password_secret**: این پارامتر برای تعریف یک کلید استفاده می‌شود که توسط Graylog برای ایمن‌سازی ذخیره‌سازی رمزهای عبور کاربران استفاده می‌شود (در راستای یک کلید نمک‌گذاری). این کلید باید **منحصر به فرد** و **تصادفی** باشد.
-- root_password_sha2** : این پارامتر مربوط به رمز عبور پیش‌فرض مدیر در Graylog است. این به صورت Hash SHA-256 ذخیره می‌شود.
+- root_password_sha2**: این پارامتر مربوط به رمز عبور پیش‌فرض مدیر در Graylog است. این به صورت Hash SHA-256 ذخیره می‌شود.
 
 
 

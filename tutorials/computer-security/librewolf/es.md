@@ -224,7 +224,7 @@ La instalación varía en función del sistema operativo:
 ### En Linux
 
 
-LibreWolf ofrece compilaciones para muchas distribuciones. En Debian/Ubuntu y derivados, está disponible un repositorio oficial APT. Alternativamente, LibreWolf se publica en Flatpak en Flathub :
+LibreWolf ofrece compilaciones para muchas distribuciones. En Debian/Ubuntu y derivados, está disponible un repositorio oficial APT. Alternativamente, LibreWolf se publica en Flatpak en Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### En Windows
 
 
-Descargue el instalador (.exe) del sitio web oficial o utilice el archivo :
+Descargue el instalador (.exe) del sitio web oficial o utilice el archivo:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf carga automáticamente sus páginas en modo "estricto" (anti-seguimien
 
 
 
-LibreWolf ya está configurado de forma óptima para la privacidad. En Menú → Opciones → Privacidad y seguridad, verá que LibreWolf está configurado en el modo Protección de rastreo mejorada: Estricto. Este modo bloquea :
+LibreWolf ya está configurado de forma óptima para la privacidad. En Menú → Opciones → Privacidad y seguridad, verá que LibreWolf está configurado en el modo Protección de rastreo mejorada: Estricto. Este modo bloquea:
 
 
 

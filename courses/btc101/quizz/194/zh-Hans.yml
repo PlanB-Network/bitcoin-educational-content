@@ -1,8 +1,7 @@
-question: 对于大型结构或热情的比特币用户来说，接受比特币的一个解决方案是什么？
-answer: BTCpay Server
+question: KYC法规的目的是什么？
+answer: 为了打击恐怖主义融资、逃税和洗钱。
 wrong_answers:
-  - 比特币钱包
-  - 比特币交易所
-  - 比特币挖矿
-explanation:
-  BTCpay Server是一个为大型结构或热情的比特币用户接受比特币的解决方案。其他解决方案包括为简单在线业务的OpenNode和为业余商家的Swiss Bitcoin Pay。
+  - 提高比特币的价格。
+  - 控制比特币的供应。
+  - 阻止人们购买比特币。
+explanation: 文本解释称，了解你的客户（KYC）法规要求用户提供身份信息，以打击恐怖主义融资、逃税和洗钱。

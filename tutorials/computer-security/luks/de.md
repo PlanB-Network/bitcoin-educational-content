@@ -30,7 +30,7 @@ Die Verschlüsselung eines USB-Sticks ist ein guter Weg, um Ihre sensiblen Daten
 
 
 
-Für dieses Tutorial benötigen Sie :
+Für dieses Tutorial benötigen Sie:
 
 
 
@@ -353,7 +353,7 @@ Das bedeutet, dass wir frei und transparent auf die Daten auf unserem USB-Stick 
 
 
 
-Sobald unsere Operation abgeschlossen ist, vergessen Sie nicht, alles ordnungsgemäß zu schließen, um sicherzustellen, dass wir unser Volume nicht beschädigen. Der erste Schritt ist das Aushängen der :
+Sobald unsere Operation abgeschlossen ist, vergessen Sie nicht, alles ordnungsgemäß zu schließen, um sicherzustellen, dass wir unser Volume nicht beschädigen. Der erste Schritt ist das Aushängen der:
 
 
 

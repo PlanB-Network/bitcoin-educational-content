@@ -30,7 +30,7 @@ WireGuard on suhteellisen tuore ratkaisu, joka on ollut saatavilla vakaana versi
 
 
 
-Joitakin WireGuardia koskevia keskeisiä seikkoja :
+Joitakin WireGuardia koskevia keskeisiä seikkoja:
 
 
 
@@ -95,7 +95,7 @@ Tässä esimerkissä keskityn seuraavaan tapaukseen: **Haluan päästä kotiverk
 
 
 
-IP-osoitteiden osalta tämä antaa :
+IP-osoitteiden osalta tämä antaa:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Julkisen avaimen arvo palautetaan konsoliin. WireGuardin konfigurointitiedostoon on **lisättävä yksityisen avaimen arvo**. Voit hakea tämän arvon syöttämällä alla olevan komennon ja kopioimalla arvon :
+Julkisen avaimen arvo palautetaan konsoliin. WireGuardin konfigurointitiedostoon on **lisättävä yksityisen avaimen arvo**. Voit hakea tämän arvon syöttämällä alla olevan komennon ja kopioimalla arvon:
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Jos luetat Debian 11 -palvelimesi IP-osoitteet, näet uuden Interface:n nimeltä "wg0", jonka IP Address on määritelty konfigurointitiedostossa :
+Jos luetat Debian 11 -palvelimesi IP-osoitteet, näet uuden Interface:n nimeltä "wg0", jonka IP Address on määritelty konfigurointitiedostossa:
 
 
 
@@ -286,7 +286,7 @@ Jotta Debian 11 -koneemme voi **reitittää paketteja eri verkkojen välillä (k
 
 
 
-Muokkaa tätä asetustiedostoa :
+Muokkaa tätä asetustiedostoa:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Lisää seuraava direktiivi tiedoston loppuun ja tallenna :
+Lisää seuraava direktiivi tiedoston loppuun ja tallenna:
 
 
 
@@ -318,7 +318,7 @@ Jotta palvelimemme reitittää paketit oikein ja jotta Windows-kone pääsee et�
 
 
 
-Jos sinulla ei vielä ole UFW:tä ja haluat asentaa sen (voit käyttää myös Nftablesia), aloita asentamalla :
+Jos sinulla ei vielä ole UFW:tä ja haluat asentaa sen (voit käyttää myös Nftablesia), aloita asentamalla:
 
 
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Kuvassa näkyy :
+Kuvassa näkyy:
 
 
 
@@ -490,7 +490,7 @@ Meidän on täydennettävä tämä konfiguraatio, erityisesti ilmoitettava Inter
 
 
 
-Aloitetaan lohkosta `[Interface]` lisäämällä IP Address "**192.168.110.2**"; muista, että palvelimella on IP Address "**192.168.110.121**" tässä verkkosegmentissä. Näin saadaan :
+Aloitetaan lohkosta `[Interface]` lisäämällä IP Address "**192.168.110.2**"; muista, että palvelimella on IP Address "**192.168.110.121**" tässä verkkosegmentissä. Näin saadaan:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Kuvissa :
+Kuvissa:
 
 
 
@@ -691,7 +691,7 @@ Nykyisessä kokoonpanossa osa liikenteestä kulkee VPN:n kautta ja osa asiakkaan
 
 
 
-Ensin sinun on asennettava resolvconf-paketti :
+Ensin sinun on asennettava resolvconf-paketti:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Lopuksi Windows 10 -työaseman tunnelin kokoonpanossa sinun on muutettava "AllowedIPs"-osiota siten, että kaiken on kuljettava tunnelin läpi. Korvaa :
+Lopuksi Windows 10 -työaseman tunnelin kokoonpanossa sinun on muutettava "AllowedIPs"-osiota siten, että kaiken on kuljettava tunnelin läpi. Korvaa:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Kirjoittanut :
+Kirjoittanut:
 
 
 
@@ -772,7 +772,7 @@ WireGuardin konfigurointi on melko yksinkertainen ja helppo ymmärtää ja ennen
 
 
 
-Lisäasiakirjat :
+Lisäasiakirjat:
 
 
 

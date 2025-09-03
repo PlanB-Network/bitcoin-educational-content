@@ -1,8 +1,8 @@
-question: Koja je glavna prednost specijalizovanih SHA256 mašina, ili ASICS, u Bitkoin rudarenju?
-answer: Povećavaju Hash stopu po džulu.
+question: Značajan događaj u svetu kriptovaluta 2017. godine bio je nagli porast vrednosti Bitkoina, koji je dostigao cenu od skoro 20.000 dolara u decembru te godine.
+answer: Lansiranje hiljada početnih ponuda kovanica (ICO).
 wrong_answers:
-  - Oni smanjuju potrošnju energije.
-  - Oni povećavaju brzinu transakcija.
-  - Oni povećavaju sigurnost mreže.
+  - Zabrana Bitkoina.
+  - Kreiranje Bitkoina.
+  - Nestanak svih kriptovaluta.
 explanation: >-
 reviewed: true

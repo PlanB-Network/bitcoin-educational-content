@@ -1,0 +1,9 @@
+question: None intumbero nyamukuru ya Lightning Network ni iyihe?
+answer: Kugira ngo Bitcoin ishobore gutera imbere kugira ngo ishobore kwishura vyihuta kandi bihenda
+wrong_answers:
+  - Gukuraho amafaranga y’ugucuruza kuri Bitcoin Blockchain.
+  - Rema ubundi buryo bwo kwishura Bitcoin ku bijanye n'amahera y'agaciro kanini
+  - Kworohereza uguhinduranya hagati y'amafaranga atandukanye
+explanation: |
+  Lightning Network igamije kwongereza ubushobozi bwa Bitcoin mu gutuma habaho amafaranga yihuta kandi atari make biciye ku nzira zo kwishura za off-chain.
+reviewed: false

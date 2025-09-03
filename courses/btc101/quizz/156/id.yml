@@ -1,11 +1,10 @@
-question: Apa tujuan dari kolam penambangan?
-answer: Kolam penambangan memungkinkan penambang untuk menggabungkan sumber daya komputasi mereka dan menerima hadiah yang lebih kecil namun lebih teratur.
+question: Berapa waktu rata-rata antara pembuatan dua blok dalam protokol Bitcoin?
+answer: 10 menit
 wrong_answers:
-  - Kolam penambangan digunakan untuk meningkatkan HashRate dari jaringan Bitcoin.
-  - Kolam penambangan digunakan untuk menurunkan kesulitan penambangan.
-  - Kolam penambangan digunakan untuk meningkatkan hadiah dari penambangan.
+  - 5 menit
+  - 15 menit
+  - 20 menit
 explanation: >-
-  Kolam penambangan adalah kelompok penambang yang menggabungkan kekuatan komputasi mereka
-  untuk meningkatkan peluang mereka dalam menambang sebuah blok. Dengan menggabungkan sumber daya mereka, mereka dapat
-  menambang blok lebih sering dan menerima hadiah yang lebih kecil namun lebih teratur.
+  Rata-rata, sebuah blok dibuat setiap 10 menit dalam protokol Bitcoin.
+  Waktu ini tetap konstan tanpa memandang jumlah penambang dan kekuatan komputasi mereka.
 reviewed: false

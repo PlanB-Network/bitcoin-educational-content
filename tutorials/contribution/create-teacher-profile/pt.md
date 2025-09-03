@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Criar o seu perfil de professor
 
-Vá para a pasta `scripts/tutorial-related/data-creator/` no seu clone local. Certifique-se de ter instalado todas as dependências necessárias para o software, tendo primeiro instalado o Python :
+Vá para a pasta `scripts/tutorial-related/data-creator/` no seu clone local. Certifique-se de ter instalado todas as dependências necessárias para o software, tendo primeiro instalado o Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Em seguida, inicie o software com o comando :
+Em seguida, inicie o software com o comando:
 
 ```bash
 python3 main.py
@@ -116,7 +116,7 @@ Depois de o PR ter sido fundido, pode eliminar o seu ramo de trabalho.
 
 Se já domina a utilização do Git, modifique o seu perfil de professor criando um novo ramo e editando o ficheiro relevante diretamente na pasta existente. As alterações podem ser feitas no arquivo `professor.yml` ou no arquivo markdown, dependendo das informações a serem corrigidas. Depois de fazer suas alterações localmente, envie-as para o seu Fork e envie um PR.
 
-Para os principiantes, recomendo que façam a modificação diretamente através do Interface web do GitHub. Certifique-se de que tem uma conta GitHub. Se não sabe como criar uma, siga este tutorial :
+Para os principiantes, recomendo que façam a modificação diretamente através do Interface web do GitHub. Certifique-se de que tem uma conta GitHub. Se não sabe como criar uma, siga este tutorial:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Ir para [o repositório GitHub do Plan ₿ Network dedicado aos dados] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

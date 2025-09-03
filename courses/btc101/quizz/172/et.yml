@@ -1,12 +1,9 @@
-question: Mis on peamine erinevus Keynesi majandusteooria ja Austria majandusteooria ideede vahel seoses rahandussüsteemiga?
-answer: Keynesi majandusteooria ei võta arvesse olukordade ja ressursside ajalist ja dünaamilist aspekti.
+question: Mis on üks põhjustest, miks Bitcoin kogeb nii palju spekulatiivseid mullistumisi?
+answer: Kuna Bitcoin on valuuta, mida tegelikult kasutatakse kõikjal maailmas.
 wrong_answers:
-  - Keynesi majandusteooria soodustab ületarbimist ja võlga
-  - Keynesi majandusteooria ei kajasta ressursside nappust
-  - Keynesi majandusteooria julgustab inflatsiooni
+  - Kuna Bitcoini tegelikult ei kasutata kusagil.
+  - Kuna Bitcoin on mull, mis kaob.
+  - Kuna Bitcoin ei allu majandustsüklitele.
 explanation: >-
-  Peamine erinevus Keynesi majandusteooria ja Austria majandusteooria ideede vahel seoses
-  rahandussüsteemiga on see, et Keynesi majandusteooria ei võta arvesse olukordade ja ressursside
-  ajalist ja dünaamilist aspekti. Teisisõnu, piiramatu valuuta ei saa tõhusalt peegeldada meie planeedi
-  piiratud ressursse.
-reviewed: false
+  Bitcoin kogeb palju spekulatiivseid mullistumisi, kuna see on valuuta,
+  mida tegelikult kasutatakse kõikjal maailmas.

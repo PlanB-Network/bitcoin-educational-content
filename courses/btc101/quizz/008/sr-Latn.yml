@@ -1,9 +1,13 @@
-question: Šta znači da Bitkoin bude neutralna valuta?
-answer: Nije kontrolisano od strane bilo kog entiteta ili institucije.
+question: Šta je Deklaracija o nezavisnosti sajber prostora?
+answer: Tekst koji tvrdi da je sajberprostor poseban domen od fizičke sfere i da ne bi trebalo da bude podložan istim zakonima.
 wrong_answers:
-  - Kontroliše ga jedan entitet ili institucija.
-  - To je regulisano od strane vlade.
-  - Koristi se samo za velike transakcije.
+  - Izjava o nezavisnosti Bitkoin od tradicionalnih finansijskih sistema.
+  - Tekst koji tvrdi da sajber prostor treba da bude kontrolisan državnom regulativom.
+  - Izjava koja garantuje nezavisnost piratskog pokreta od bilo kakve regulative.
 explanation: |
-  Bitkoin je neutralna valuta, što znači da njome ne upravlja nijedan entitet ili institucija, tako da svaki korisnik ima ista prava. Ovo je ključni aspekt njene decentralizacije.
+  Deklaracija o nezavisnosti sajberprostora je
+  napisana od strane John Perry Barlow-a 1996. godine. Ovaj dokument tvrdi
+  da je sajberprostor zasebna oblast od fizičke
+  sfere, tako da industrijske vlade ne mogu nametnuti svoju
+  vlast tamo.
 reviewed: true

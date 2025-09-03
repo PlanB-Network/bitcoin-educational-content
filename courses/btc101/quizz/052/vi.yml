@@ -1,9 +1,9 @@
-question: Tác động của lạm phát 20% đến sức mua trong 3 năm là gì?
-answer: Bạn mất 50% sức mua của mình.
+question: Điều nào sau đây không phải là đặc điểm của Bitcoin?
+answer: Nó dễ bị kiểm duyệt.
 wrong_answers:
-  - Bạn mất 100% sức mua của mình.
-  - Bạn mất 60% sức mua của mình.
-  - Bạn mất 30% sức mua của mình.
+  - Nó có thể được vận chuyển tức thì.
+  - Nó có chi phí xác minh không đáng kể.
+  - Nó có một chính sách tiền tệ cố định.
 explanation: |
-  Với lạm phát 20%, bạn mất gần một nửa sức mua của mình trong 3 năm.
+  Bitcoin có tất cả các đặc điểm cần thiết để trở thành một loại tiền tệ hiệu quả và lành mạnh: có thể chia nhỏ, có thể vận chuyển tức thì, không thể kiểm duyệt, chi phí xác minh không đáng kể, và với một chính sách tiền tệ đã được thiết lập cho hàng thế kỷ tới với 21 triệu đơn vị.
 reviewed: true

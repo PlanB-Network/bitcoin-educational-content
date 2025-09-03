@@ -1,12 +1,11 @@
-question: Wat zijn de drie hoofdfuncties van een Bitcoin Wallet?
-answer: Bitcoins ontvangen, bitcoins versturen, ze beveiligen tegen hacken en diefstalpogingen.
+question: Hoe kun je de standaardbeveiliging van je Bitcoin Wallet versterken?
+answer: Door een passphrase toe te voegen aan je Bitcoin Wallet.
 wrong_answers:
-  - Bitcoins opslaan, bitcoins versturen, beveiligen tegen hacken en diefstalpogingen.
-  - Bitcoins ontvangen, bitcoins opslaan, beveiligen tegen hacken en diefstalpogingen.
-  - Bitcoins ontvangen, bitcoins versturen en bitcoins verkopen.
+  - Door een tweede privésleutel aan je Bitcoin Wallet toe te voegen.
+  - Door een tweede publieke sleutel toe te voegen aan je Bitcoin Wallet.
+  - Door een tweede Mnemonic zin toe te voegen aan je Bitcoin Wallet.
 explanation: |
-  Een Bitcoin Wallet wordt gebruikt voor interactie met het Bitcoin
-  netwerk. De drie belangrijkste functies zijn het ontvangen van
-  bitcoins te ontvangen, bitcoins te verzenden en ze te beveiligen tegen
-  hacken en diefstalpogingen.
+  Als je niet tevreden bent met de standaardbeveiliging van je
+  Bitcoin Wallet, kun je die altijd versterken door een
+  passphrase toe te voegen aan je Bitcoin Wallet.
 reviewed: true

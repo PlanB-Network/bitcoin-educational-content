@@ -1,0 +1,10 @@
+question: Ni kuki umusesanguzi atazokoresha CoinJoin ku bijanye n’ugucuruza kw’ubwoko bwa Stonewall?
+answer: Kuko hariho ibisohoka 2 vy'amahera amwe .
+wrong_answers:
+  - Kuko hariho 2 gusa vyinjizwa .
+  - Kubera ko batamenyereye iyo nzira .
+  - Kuko hariho ibisohoka vyinshi kuruta ivyo yinjira .
+explanation: |
+  Gusuzuma ibikorwa vya Stonewall bivuye hanze ntibituma hakoreshwa CoinJoin, kuko kubaho kw’ibisohoka bibiri vy’umubare umwe bivuga ko hariho uburyo bwa CoinJoin. Umuntu abona ibintu hanze, CoinJoin rero ntishobora gukoreshwa muri iki kibazo kidasanzwe.
+  
+reviewed: false

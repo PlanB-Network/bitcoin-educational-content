@@ -1,11 +1,11 @@
-question: Mining 獎勵減半的事件名稱是什麼？
-answer: Halving
+question: Mining 的獎勵多久會減半？
+answer: 每 210,000 個區塊。
 wrong_answers:
-  - 加倍
-  - 四分法
-  - 三倍
+  - 每 120,000 個區塊。
+  - 每 540,000 個區塊。
+  - 每 2,100,000 個區塊。
 explanation: |
-  Mining 獎勵減半的事件稱為
-  Halving。此事件使貨幣發行曲線呈現
-  階梯狀。
+  Mining 的獎勵設定為每 210,000 個區塊減半，大約每四年減半一次。
+  區塊減半，大約每四年一次：這個事件被稱為
+  稱為 Halving。
 reviewed: true

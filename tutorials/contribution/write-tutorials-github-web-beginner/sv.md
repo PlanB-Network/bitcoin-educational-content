@@ -10,7 +10,7 @@ Innan du följer denna handledning om hur du lägger till en ny handledning mås
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Du har redan :
+Du har redan:
 
 
 
@@ -20,18 +20,18 @@ Du har redan :
 - Välj dina bidragsverktyg.
 
 
-I den här handledningen tittar vi på hur du lägger till din handledning i Plan ₿ Network med hjälp av webbversionen av GitHub. Om du redan har behärskat Git kanske denna mycket detaljerade handledning inte är nödvändig för dig. Istället rekommenderar jag att du kollar in en av dessa andra 2 tutorials, där jag beskriver de riktlinjer som ska följas och stegen för att göra ändringar från en lokal :
+I den här handledningen tittar vi på hur du lägger till din handledning i Plan ₿ Network med hjälp av webbversionen av GitHub. Om du redan har behärskat Git kanske denna mycket detaljerade handledning inte är nödvändig för dig. Istället rekommenderar jag att du kollar in en av dessa andra 2 tutorials, där jag beskriver de riktlinjer som ska följas och stegen för att göra ändringar från en lokal:
 
 
 
 
-- Erfarna användare** :
+- Erfarna användare**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Mellanliggande (GitHub Desktop)** :
+- Mellanliggande (GitHub Desktop)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
@@ -39,7 +39,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## Förkunskapskrav
 
 
-Förutsättningar innan du påbörjar handledningen :
+Förutsättningar innan du påbörjar handledningen:
 
 
 
@@ -65,7 +65,7 @@ När allt är på plats och du har din Fork av Plan ₿ Network-repository kan d
 ## 1 - Skapa en ny filial
 
 
-Öppna din webbläsare och navigera till din Fork-sida i Plan ₿ Network-förvaret. Detta är den Fork som du etablerade på GitHub. URL:en till din Fork ska se ut så här: `https://github.com/[ditt-användarnamn]/Bitcoin-educational-content` :
+Öppna din webbläsare och navigera till din Fork-sida i Plan ₿ Network-förvaret. Detta är den Fork som du etablerade på GitHub. URL:en till din Fork ska se ut så här: `https://github.com/[ditt-användarnamn]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -77,7 +77,7 @@ Se till att du befinner dig på huvudgrenen `dev` och klicka sedan på knappen "
 ![GITHUB](assets/fr/02.webp)
 
 
-Klicka på grenen `dev` och namnge sedan din arbetsgren så att dess titel tydligt återspeglar dess syfte och använd bindestreck för att separera ord. Om vårt mål till exempel är att skriva en handledning om hur man använder Green Wallet, kan grenen kallas: `tuto-Green-Wallet-loic`. När du har angett ett lämpligt namn klickar du på "*Create branch*" för att bekräfta skapandet av din nya gren baserad på `dev` :
+Klicka på grenen `dev` och namnge sedan din arbetsgren så att dess titel tydligt återspeglar dess syfte och använd bindestreck för att separera ord. Om vårt mål till exempel är att skriva en handledning om hur man använder Green Wallet, kan grenen kallas: `tuto-Green-Wallet-loic`. När du har angett ett lämpligt namn klickar du på "*Create branch*" för att bekräfta skapandet av din nya gren baserad på `dev`:
 
 
 ![GITHUB](assets/fr/03.webp)
@@ -151,7 +151,7 @@ bitcoin-educational-content/
 ## 3 - Fyll i YAML-filen
 
 
-Låt oss börja med YAML-filen. I rutan för att skapa en ny fil skriver du in `tutorial.yml` :
+Låt oss börja med YAML-filen. I rutan för att skapa en ny fil skriver du in `tutorial.yml`:
 
 
 ![GITHUB](assets/fr/08.webp)
@@ -193,23 +193,23 @@ Här är de obligatoriska fälten:
 
 
 
-- id** : En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
+- id**: En UUID (_Universally Unique Identifier_) som identifierar handledningen på ett unikt sätt. Du kan generate det med hjälp av [ett onlineverktyg] (https://www.uuidgenerator.net/version4). Det enda kravet är att detta UUID är slumpmässigt för att undvika konflikter med ett annat UUID på plattformen;
 
 
 
-- projekt_id** : UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- taggar** : 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori** : Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: "Desktop", "Hardware", "Mobile", "Backup");
+- kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: "Desktop", "Hardware", "Mobile", "Backup");
 
 
 
-- nivå** : Handledningens svårighetsgrad, vald från:
+- nivå**: Handledningens svårighetsgrad, vald från:
     - "nybörjare
     - "mellanliggande
     - "Avancerad
@@ -217,23 +217,23 @@ Här är de obligatoriska fälten:
 
 
 
-- professor_id** : Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
+- original_language**: Handledningens originalspråk (t.ex. `fr`, `en`, etc.);
 
 
 
-- korrekturläsning** : Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
-    - språk** : Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
-    - last_contribution_date** : Datum för dagen.
-    - brådskande** : 1
-    - bidragsgivarens_namn** : Ditt GitHub-ID.
-    - belöning** : 0
+- korrekturläsning**: Information om korrekturläsningsprocessen. Slutför den första delen, eftersom korrekturläsning av din egen handledning räknas som en första validering:
+    - språk**: Språkkod för korrekturläsningen (t.ex. `fr`, `en`, etc.).
+    - last_contribution_date**: Datum för dagen.
+    - brådskande**: 1
+    - bidragsgivarens_namn**: Ditt GitHub-ID.
+    - belöning**: 0
 
 
-För mer information om ditt lärar-ID, se motsvarande handledning :
+För mer information om ditt lärar-ID, se motsvarande handledning:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -315,7 +315,7 @@ Kontrollera igen att du befinner dig på rätt gren och klicka sedan på "*Commi
 ## 5 - Skapa Markdown-filen
 
 
-Nu ska vi skapa den fil som ska vara värd för din handledning, med namn enligt din språkkod, till exempel `fr.md` om vi skriver på franska. Gå till din handledningsmapp :
+Nu ska vi skapa den fil som ska vara värd för din handledning, med namn enligt din språkkod, till exempel `fr.md` om vi skriver på franska. Gå till din handledningsmapp:
 
 
 ![GITHUB](assets/fr/16.webp)
@@ -353,7 +353,7 @@ Fyll i namnet på din handledning och en kort beskrivning:
 ![GITHUB](assets/fr/20.webp)
 
 
-Lägg sedan till sökvägen till omslagsbilden i början av din handledning. För att göra detta, notera :
+Lägg sedan till sökvägen till omslagsbilden i början av din handledning. För att göra detta, notera:
 
 
 ```
@@ -409,13 +409,13 @@ Du bör nu se att bilderna visas i mappen.
 ## 7 - Skriva handledning
 
 
-Fortsätt att skriva din handledning genom att notera ditt innehåll i Markdown-filen med språkkoden (i mitt exempel, på franska, är det filen `fr.md`). Gå till filen och klicka på pennikonen :
+Fortsätt att skriva din handledning genom att notera ditt innehåll i Markdown-filen med språkkoden (i mitt exempel, på franska, är det filen `fr.md`). Gå till filen och klicka på pennikonen:
 
 
 ![GITHUB](assets/fr/28.webp)
 
 
-Börja skriva din handledning. När du lägger till en undertitel, använd lämplig Markdown-formatering genom att prefixera texten med `##` :
+Börja skriva din handledning. När du lägger till en undertitel, använd lämplig Markdown-formatering genom att prefixera texten med `##`:
 
 
 ![GITHUB](assets/fr/29.webp)
@@ -480,9 +480,9 @@ Om du vill skapa dina egna scheman, se till att följa Plan ₿ Network:s grafis
 
 
 - Font**: Använd [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Färger** :
+- Färger**:
  - Orange: #FF5C00
- - Svart : #000000
+ - Svart: #000000
  - Vit: #FFFFFF
 
 
@@ -498,7 +498,7 @@ Om du vill skapa dina egna scheman, se till att följa Plan ₿ Network:s grafis
 När du är klar med att skriva din handledning på det språk du vill, är nästa steg att skicka in en **Pull Request**. Administratören kommer sedan att lägga till de saknade översättningarna i din handledning med hjälp av vår automatiserade översättningsmetod med mänsklig korrekturläsning.
 
 
-För att gå vidare med Pull Request, efter att ha sparat alla dina ändringar, klicka på knappen "*Contribute*" och sedan på "*Open pull request*" :
+För att gå vidare med Pull Request, efter att ha sparat alla dina ändringar, klicka på knappen "*Contribute*" och sedan på "*Open pull request*":
 
 
 ![GITHUB](assets/fr/36.webp)

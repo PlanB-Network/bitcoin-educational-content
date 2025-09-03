@@ -1,12 +1,10 @@
-question: ¿Cómo transfieren los usuarios la propiedad de su dinero en la red de Bitcoin?
-answer: Firmando digitalmente las transacciones con sus claves privadas.
+question: ¿Cuál es el requisito de ancho de banda para ejecutar un nodo de Bitcoin, considerando 1 bloque de 1MB cada 10 minutos?
+answer: Aproximadamente 5GB por mes.
 wrong_answers:
-  - Entregando físicamente sus Bitcoins.
-  - Enviando un correo electrónico al destinatario.
-  - Proporcionando su dirección de Bitcoin al destinatario.
-explanation: |
-  Los usuarios en la red de Bitcoin transfieren la propiedad de su
-  dinero firmando digitalmente las transacciones con sus
-  claves privadas. Esto verifica que son los propietarios de los
-  bitcoins que desean transferir.
+  - Aproximadamente 1GB por mes.
+  - Aproximadamente 10GB por mes.
+  - Aproximadamente 20GB por mes.
+explanation: >-
+  Considerando 1 bloque de 1MB cada 10 minutos, ejecutar un nodo de Bitcoin requiere
+  aproximadamente 5GB por mes en ancho de banda.
 reviewed: true

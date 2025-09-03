@@ -1,9 +1,10 @@
-question: Co je to zredukovaný uzel v kontextu Bitcoinu?
-answer: Uzel, který si v paměti uchovává pouze posledních N bloků.
+question: Co je Lightning Network?
+answer: Okamžitá platební síť Bitcoinu založená na blockchainu Bitcoinu.
 wrong_answers:
-  - Uzel, který ověřuje pouze transakce.
-  - Uzel, který pouze přenáší informace ostatním uzlům.
-  - Uzel, který pouze vynucuje pravidla protokolu Bitcoinu.
-explanation: >-
-  Zredukovaný uzel v kontextu Bitcoinu je uzel, který si v paměti uchovává pouze posledních N bloků.
+  - Samostatná blockchainová síť odlišná od blockchainu Bitcoinu.
+  - Síť těžařů Bitcoinu.
+  - Síť burz Bitcoinu.
+explanation: |
+  Lightning Network je okamžitá platební síť Bitcoinu,
+  která je založená na blockchainu Bitcoinu.
 reviewed: true

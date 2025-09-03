@@ -1,9 +1,10 @@
-question: Mikä on Lightning-verkko?
-answer: Maksuverkko, joka käyttää Bitcoin-protokollaa mahdollistaakseen salamannopeat transaktiot.
+question: Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein alle...?
+answer: 0,5%.
 wrong_answers:
-  - Uudenlainen kryptovaluutta.
-  - Uusi lohkoketjuteknologia, joka korvaa Bitcoinin tulevaisuudessa.
-  - Menetelmä Bitcoinin louhimiseen.
-explanation: |
-  Lightning-verkko on maksuverkko, joka käyttää Bitcoin-protokollaa nopeiden transaktioiden mahdollistamiseen. Se ei ole erillinen kryptovaluutta, eikä menetelmä Bitcoinin louhimiseen.
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein
+  alle 0,5%.
 reviewed: true

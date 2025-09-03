@@ -224,7 +224,7 @@ Instalacija se razlikuje u zavisnosti od vašeg OS-a:
 ### Na Linuxu
 
 
-LibreWolf nudi verzije za mnoge distribucije. Na Debian/Ubuntu i derivatima, dostupan je zvanični APT repozitorijum. Alternativno, LibreWolf je objavljen kao Flatpak na Flathub :
+LibreWolf nudi verzije za mnoge distribucije. Na Debian/Ubuntu i derivatima, dostupan je zvanični APT repozitorijum. Alternativno, LibreWolf je objavljen kao Flatpak na Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Na Windowsu
 
 
-Preuzmite instalacioni program (.exe) sa zvaničnog sajta ili koristite :
+Preuzmite instalacioni program (.exe) sa zvaničnog sajta ili koristite:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf automatski učitava vaše stranice u "strogi" (anti-tracking) režim, 
 
 
 
-LibreWolf je već optimalno konfigurisan za privatnost. U Meni → Opcije → Privatnost i sigurnost, videćete da je LibreWolf postavljen na režim Poboljšane zaštite od praćenja: Strogo. Ovaj režim blokira :
+LibreWolf je već optimalno konfigurisan za privatnost. U Meni → Opcije → Privatnost i sigurnost, videćete da je LibreWolf postavljen na režim Poboljšane zaštite od praćenja: Strogo. Ovaj režim blokira:
 
 
 

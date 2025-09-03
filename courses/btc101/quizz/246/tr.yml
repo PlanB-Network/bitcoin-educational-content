@@ -1,13 +1,8 @@
-question: Bitcoin'ın teknoloji ve toplumun geleceği ile bağlantısı nedir?
-answer: Bitcoin, herhangi bir güvenilir üçüncü taraf olmadan değerin Exchange'ine izin veren teknolojik bir devrimdir.
+question: Bitcoin protokolünün temel özelliklerinden biri nedir?
+answer: Tüm kullanıcılarına karşı tarafsızdır.
 wrong_answers:
-  - Bitcoin, insanların merkezi bir sunucu aracılığıyla Exchange bilgilerine ulaşmasını sağlayan bir yapay zeka teknolojisi biçimidir.
-  - Bitcoin, dünya nüfusunun kontrol altına alınması ve yoksulluğun ortadan kaldırılması için bir araçtır.
-  - Bitcoin, hükümetlerin vatandaşlarının finansal işlemlerini takip etmeleri için bir yöntemdir.
-explanation: |
-  Metin, Bitcoin'nin, internet gibi, şu anlama geldiğini açıklıyor
-  teknolojik bir devrimdir
-  yeni büyük ölçekli modlar için şans yaratır
-  organizasyonu, bize değişim imkanı getiriyor
-  herhangi bir güvenilir üçüncü taraf olmadan değer.
+  - Belirli kullanıcıları diğerlerine göre kayırır.
+  - Belirli kullanıcılara karşı önyargılıdır.
+  - Sadece seçkin bir kullanıcı grubuna fayda sağlar.
+explanation: >-
 reviewed: true

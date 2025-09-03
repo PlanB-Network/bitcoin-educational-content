@@ -1,9 +1,12 @@
-question: Varför är guld inte ett bärbart material?
-answer: Eftersom det är tätt och tungt blir det besvärligt att bära i stora mängder.
+question: Vad innebär begreppet fiduciary i valutasammanhang?
+answer: Det avser valutor som endast är värdefulla på grund av förtroendet för den centrala institution som reglerar dem.
 wrong_answers:
-  - För att den är för värdefull för att flyttas.
-  - Eftersom det inte enkelt kan formas till mindre former.
-  - För att det är en Liquid i rumstemperatur.
+  - Det avser valutor som backas upp av guld och som ges ut av små affärsbanker.
+  - Det avser valutor som endast är värdefulla för fiduciära transaktioner.
+  - Det avser valutor som endast används inom en specifik institution.
 explanation: |
-  Guld är tätt och tungt, vilket innebär att det kan vara en fysisk utmaning att bära stora mängder av det. Denna vikt gör det mindre lämpligt för transport jämfört med lättare material.
+  Fiduciära valutor backas inte upp av en fysisk råvara
+  som guld eller silver. Deras värde härrör från den tillit
+  och förtroende som människor har för de institutioner som utfärdar
+  och reglerar dem.
 reviewed: true

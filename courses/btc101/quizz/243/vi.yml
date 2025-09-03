@@ -1,12 +1,9 @@
-question: Những cơ hội kinh doanh tiềm năng nào được cung cấp bởi Lightning Network?
-
-answer: Các mô hình kinh tế mới nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
-
+question: Vấn đề chính đối với hệ thống ngân hàng có thể là gì?
+answer: Luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu với tất cả mọi người.
 wrong_answers:
-  - Các mô hình kinh tế mới nơi người tiêu dùng trả tiền bằng các loại tiền điện tử khác nhau.
-  - Các mô hình kinh tế mới nơi người tiêu dùng sử dụng blockchain cá nhân hóa.
-  - Các mô hình kinh tế mới nơi người tiêu dùng không trả tiền cho bất kỳ nội dung nào.
-
-explanation: Lightning Network mở ra một loạt các trường hợp sử dụng thú vị cho người dùng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh kết quả là rất nhiều và đa dạng, bao gồm các mô hình kinh tế mới nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
-
+  - Hệ thống ngân hàng quá dễ hiểu.
+  - Hệ thống ngân hàng quá minh bạch.
+  - Hệ thống ngân hàng quá phi tập trung.
+explanation: >-
+  Văn bản đề cập rằng câu hỏi về việc ai nên kiểm soát hệ thống ngân hàng là rất quan trọng bởi vì luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu với tất cả mọi người.
 reviewed: true

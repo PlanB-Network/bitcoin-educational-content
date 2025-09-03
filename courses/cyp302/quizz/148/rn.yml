@@ -1,0 +1,9 @@
+question: Ni uwuhe murimo ukoreshwa mu kubara umubare w’imibare y’intege nke y’umubare w’intege N?
+answer: Ibikorwa vya Euler
+wrong_answers:
+  - Umurimo wa logarithme
+  - Gamma ya Euler
+  - Umurimo wa Gauss
+explanation: |
+  Igikorwa kijanye na Euler Phi (canke igikorwa ca totient) gikoreshwa mu kubara umubare w'ibiharuro vy'umubare wose N, cane cane ku mibare yose idasanzwe.
+reviewed: false

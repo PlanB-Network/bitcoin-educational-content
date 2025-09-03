@@ -1,9 +1,9 @@
-question: Kes oli esimene inimene, kes liitus Bitcoin võrgustikuga pärast Satoshi Nakamotot?
-answer: Hal Finney
+question: Mis on Bitcoini võrgu rütm?
+answer: 10 minutit bloki kohta
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - 10 sekundit bloki kohta
+  - 10 minutit tehingu kohta
+  - 10 sekundit tehingu kohta
 explanation: |
-  Hal Finney oli esimene inimene, kes liitus Bitcoin võrgustikuga pärast Satoshi Nakamotot. Ta isegi säutsus Running Bitcoin, et seda sündmust tähistada.
+  Bitcoini võrgu rütm on 10 minutit bloki kohta. See on nagu Bitcoini rahandussüsteemi südamelöök.
 reviewed: true

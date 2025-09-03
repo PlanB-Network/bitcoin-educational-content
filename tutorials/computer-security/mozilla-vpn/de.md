@@ -20,7 +20,7 @@ Ein ***Virtuelles Privates Netzwerk*** (VPN) ist ein System zur Herstellung eine
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Basierend auf diesem Prinzip ist [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) ein Open-Source-VPN-Dienst, der 2020 von der Mozilla Foundation entwickelt wurde. Er ist verfügbar auf :
+Basierend auf diesem Prinzip ist [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) ein Open-Source-VPN-Dienst, der 2020 von der Mozilla Foundation entwickelt wurde. Er ist verfügbar auf:
 
 
 

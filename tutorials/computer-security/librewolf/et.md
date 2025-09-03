@@ -224,7 +224,7 @@ Paigaldamine erineb sõltuvalt teie operatsioonisüsteemist:
 ### Linuxis
 
 
-LibreWolf pakub koostisi paljudele distributsioonidele. Debian/Ubuntu ja derivaatide puhul on saadaval ametlik APT repositoorium. Alternatiivina on LibreWolf avaldatud Flatpak'is Flathubis :
+LibreWolf pakub koostisi paljudele distributsioonidele. Debian/Ubuntu ja derivaatide puhul on saadaval ametlik APT repositoorium. Alternatiivina on LibreWolf avaldatud Flatpak'is Flathubis:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Windowsis
 
 
-Laadige paigaldaja (.exe) alla ametlikust veebisaidist või kasutage :
+Laadige paigaldaja (.exe) alla ametlikust veebisaidist või kasutage:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget install librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laadib teie leheküljed automaatselt "ranges" (jälgimisvastases) rež
 
 
 
-LibreWolf on juba optimaalselt konfigureeritud privaatsuse tagamiseks. Menüüst → Valikud → Privaatsus ja turvalisus näete, et LibreWolf on seadistatud täiustatud jälgimiskaitse režiimi: Strict. See režiim blokeerib :
+LibreWolf on juba optimaalselt konfigureeritud privaatsuse tagamiseks. Menüüst → Valikud → Privaatsus ja turvalisus näete, et LibreWolf on seadistatud täiustatud jälgimiskaitse režiimi: Strict. See režiim blokeerib:
 
 
 

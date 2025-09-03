@@ -15,7 +15,7 @@ Løsningen er enkel, lett og autonom. Den gjør det mulig å opprette en nettbut
 
 
 
-I denne opplæringen tar vi deg steg for steg gjennom :
+I denne opplæringen tar vi deg steg for steg gjennom:
 
 
 
@@ -44,7 +44,7 @@ Før du begynner å installere be-BOP, må du sørge for at du har følgende tek
 
 
 
-be-BOP bruker et lagringssystem for å administrere filer (for eksempel produktbilder). Dette krever tilgang til en S3-tjeneste, for eksempel :
+be-BOP bruker et lagringssystem for å administrere filer (for eksempel produktbilder). Dette krever tilgang til en S3-tjeneste, for eksempel:
 
 
 
@@ -302,7 +302,7 @@ Hvis du ikke ønsker å administrere en Lightning-node selv, er **Swiss Bitcoin 
 
 
 
-Konfigurasjonstrinn :
+Konfigurasjonstrinn:
 
 
 
@@ -330,7 +330,7 @@ I tillegg til Bitcoin kan du med be-BOP også ta imot kontantbetalinger via PayP
 
 
 
-Konfigurasjonstrinn :
+Konfigurasjonstrinn:
 
 
 
@@ -467,7 +467,7 @@ Med **Top Bar**-konfigurasjonen kan du tilpasse programvarens visuelle identitet
 
 
 
-#### Konfigurasjonstrinn :
+#### Konfigurasjonstrinn:
 
 
 
@@ -491,7 +491,7 @@ I Topplinjens "Lenker"-del kan du legge til snarveier til viktige sider i applik
 
 
 
-#### Konfigurasjonstrinn :
+#### Konfigurasjonstrinn:
 
 
 
@@ -760,7 +760,7 @@ Gå til `Admin > Merch > Produkter` for å legge til eller endre et produkt. Fyl
 
 - Prisbeløp**: produktpris (f.eks. `25,00`).
 - Prisvaluta**: valuta (EUR, USD, BTC osv.).
-- Spesialprodukter** :
+- Spesialprodukter**:
   - dette er et gratis produkt.
   - dette er et betal-hva-du-vil-produkt.
 
@@ -773,10 +773,10 @@ Gå til `Admin > Merch > Produkter` for å legge til eller endre et produkt. Fyl
 
 
 - Enkeltprodukt (frittstående)**: kun ett tillegg mulig per bestilling (f.eks. donasjon, inngangsbillett).
-- Produkt med variasjoner** :
+- Produkt med variasjoner**:
   - Ikke sjekk `Standalone`.
   - Kryss av for `Produktet har lette variasjoner (ingen lagerforskjell)`.
-  - Legg til :
+  - Legg til:
     - Navn** (f.eks. *Størrelse*),
     - Verdier** (f.eks.: S, M, L, XL),
     - Eventuelle prisforskjeller** (f.eks.: `+2 USD` for XL).
@@ -803,7 +803,7 @@ Hvis produktet ikke er tilgjengelig i ubegrenset antall, merker du av for `Produ
 
 
 
-Systemet administrerer :
+Systemet administrerer:
 
 
 
@@ -872,7 +872,7 @@ Gå til `Admin > Merch > CMS`. Du vil se en liste over eksisterende sider og kan
 
 
 
-CMS-sider er viktige for :
+CMS-sider er viktige for:
 
 
 
@@ -906,7 +906,7 @@ Du kan legge til andre sider etter behov:
 
 
 
-Gå til : `Admin > Merch > Layout`. Du kan tilpasse den visuelle Elements på nettstedet ditt:
+Gå til: `Admin > Merch > Layout`. Du kan tilpasse den visuelle Elements på nettstedet ditt:
 
 
 
@@ -932,7 +932,7 @@ Gå til : `Admin > Merch > Layout`. Du kan tilpasse den visuelle Elements på ne
 
 
 - Til stede i det grå området under den øverste linjen
-- Inneholder rask tilgang til : `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
+- Inneholder rask tilgang til: `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
 - Kun for styremedlemmer
 
 
@@ -956,7 +956,7 @@ Gå til `Admin > Merch > Bilder`
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -1004,7 +1004,7 @@ Eksempler på tilgjengelige widgeter:
 - Utfordringer**: utfordringer eller oppdrag
 - Tagger**: kategorier eller nøkkelord
 - Slidere**: bildekaruseller
-- Spesifikasjoner** : Spesifikasjonstabeller
+- Spesifikasjoner**: Spesifikasjonstabeller
 - Skjemaer**: skjemaer (kontakt, tilbakemelding osv.)
 - Nedtellinger**: tidtakere
 - Gallerier**: bildegallerier
@@ -1033,7 +1033,7 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Gjeldende parametere** :
+**Gjeldende parametere**:
 
 
 
@@ -1046,7 +1046,7 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 
 
 
-**Fordeler** :
+**Fordeler**:
 
 
 
@@ -1066,7 +1066,7 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 
 
 
-For å se og administrere tidligere bestillinger, gå til : `Admin > Transaksjon > Ordrer`
+For å se og administrere tidligere bestillinger, gå til: `Admin > Transaksjon > Ordrer`
 
 
 
@@ -1103,7 +1103,7 @@ Disse filtrene gjør det enklere å gjøre raske søk og målrettet administrasj
 
 
 
-Ved å klikke på en ordre får du tilgang til en komplett fil som inneholder :
+Ved å klikke på en ordre får du tilgang til en komplett fil som inneholder:
 
 
 
@@ -1120,7 +1120,7 @@ Ved å klikke på en ordre får du tilgang til en komplett fil som inneholder :
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -1141,7 +1141,7 @@ Du kan :
 
 
 
-For å få tilgang til salgs- og betalingsstatistikk :
+For å få tilgang til salgs- og betalingsstatistikk:
 
 
 administrator > Innstillinger > Rapportering
@@ -1176,7 +1176,7 @@ Rapportene er delt inn i seksjoner:
 
 
 
-Hver seksjon inneholder en **Eksporter CSV**-knapp, som lar deg :
+Hver seksjon inneholder en **Eksporter CSV**-knapp, som lar deg:
 
 
 
@@ -1217,7 +1217,7 @@ Plattformen støtter **Nostr**-protokollen for visse avanserte funksjoner:
 
 
 
-Gå til :
+Gå til:
 
 
 admin > Nodeadministrasjon > Nostr
@@ -1304,7 +1304,7 @@ Her finner du alle alternativene for å **opprette** og **konfigurere** et egend
 
 
 
-Når du oppretter eller endrer et tema, kan du definere :
+Når du oppretter eller endrer et tema, kan du definere:
 
 
 
@@ -1328,7 +1328,7 @@ Hver del av nettstedet kan justeres uavhengig av hverandre:
 
 - Header**: øverste navigasjonslinje
 - Brødtekst**: hovedinnhold
-- Footer** : nederst på siden
+- Footer**: nederst på siden
 
 
 
@@ -1340,7 +1340,7 @@ Hver del av nettstedet kan justeres uavhengig av hverandre:
 
 
 
-Når temaet er konfigurert :
+Når temaet er konfigurert:
 
 
 
@@ -1359,7 +1359,7 @@ Når temaet er konfigurert :
 
 
 
-Plattformen lar deg tilpasse e-postene som sendes automatisk til brukerne. Gå til : `Admin > Innstillinger > Maler`
+Plattformen lar deg tilpasse e-postene som sendes automatisk til brukerne. Gå til: `Admin > Innstillinger > Maler`
 
 
 
@@ -1371,7 +1371,7 @@ Plattformen lar deg tilpasse e-postene som sendes automatisk til brukerne. Gå t
 
 
 
-Hver e-post (ordrebekreftelse, glemt passord osv.) har :
+Hver e-post (ordrebekreftelse, glemt passord osv.) har:
 
 
 
@@ -1390,14 +1390,14 @@ Hver e-post (ordrebekreftelse, glemt passord osv.) har :
 
 
 
-For å gjøre e-poster dynamiske kan du sette inn variabler som :
+For å gjøre e-poster dynamiske kan du sette inn variabler som:
 
 
 
 
 
-- `{orderNumber}}` : erstattes av det faktiske ordrenummeret
-- `{invoiceLink}}` : lenke til Invoice
+- `{orderNumber}}`: erstattes av det faktiske ordrenummeret
+- `{invoiceLink}}`: lenke til Invoice
 - `{websiteLink}}`: URL-adressen til nettstedet ditt
 
 
@@ -1454,7 +1454,7 @@ Fyll ut følgende felter:
 
 
 
-#### Tilgjengelige familier :
+#### Tilgjengelige familier:
 
 
 
@@ -1489,7 +1489,7 @@ Disse feltene kan brukes til å berike en tagg som om den var en innholdsside:
 
 
 
-Tagger kan være :
+Tagger kan være:
 
 
 
@@ -1515,7 +1515,7 @@ For å tilby nedlastbare dokumenter til kundene dine: `Admin > Merch > Files`
 1. Klikk på **Ny fil**
 
 
-2. Informer :
+2. Informer:
 
 
 
@@ -1533,7 +1533,7 @@ For å tilby nedlastbare dokumenter til kundene dine: `Admin > Merch > Files`
 
 
 
-Denne lenken kan deretter settes inn i :
+Denne lenken kan deretter settes inn i:
 
 
 
@@ -1557,7 +1557,7 @@ Plattformen tilbyr avansert integrasjon med **Nostr**-protokollen, via en automa
 
 
 
-Gå til : node Management > Nostr
+Gå til: node Management > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Gå til : node Management > Nostr
 
 
 - Aktiver en automatisk melding ved **første brukerinteraksjon**
-- Ideell for :
+- Ideell for:
   - Presentasjon av tjenesten din
   - Send en nyttig lenke (f.eks. vanlige spørsmål, kontakt, bestilling)
 
@@ -1629,7 +1629,7 @@ Dette gjør du ved å gå til `Innstillinger > Språk`
 
 
 
-Oversettelsesfilene er i JSON-format. Du kan :
+Oversettelsesfilene er i JSON-format. Du kan:
 
 
 
@@ -1641,7 +1641,7 @@ Oversettelsesfilene er i JSON-format. Du kan :
 
 
 
-Lenke til originalfiler :
+Lenke til originalfiler:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klikk på **Opprett en rolle** for å opprette en rolle (f.eks. `Superadministra
 
 
 
-Hver rolle inneholder :
+Hver rolle inneholder:
 
 
 
@@ -1688,7 +1688,7 @@ Hver rolle inneholder :
 
 
 
-I samme meny `Admin > Innstillinger > ARM`, legg til en bruker med :
+I samme meny `Admin > Innstillinger > ARM`, legg til en bruker med:
 
 
 
@@ -1721,7 +1721,7 @@ Skrivebeskyttede** brukere vil se menyene i *kursiv skrift* og vil ikke kunne en
 
 
 
-For å gi en bruker tilgang til POS, tilordner du rollen `Point of Sale (POS)` i : `Admin > Konfig > ARM`
+For å gi en bruker tilgang til POS, tilordner du rollen `Point of Sale (POS)` i: `Admin > Konfig > ARM`
 
 
 
@@ -1760,7 +1760,7 @@ I `/cart` kan du legge til et produkt i et felt:
 
 
 
-POS støtter :
+POS støtter:
 
 
 
@@ -1779,7 +1779,7 @@ To avanserte alternativer er tilgjengelige:
 
 
 
-- Fritak for merverdiavgift** : gjelder på grunnlag av begrunnelse (frivillige organisasjoner, utlendinger...)
+- Fritak for merverdiavgift**: gjelder på grunnlag av begrunnelse (frivillige organisasjoner, utlendinger...)
 - Gaverabatt**: eksepsjonell rabatt med obligatorisk kommentar
 
 

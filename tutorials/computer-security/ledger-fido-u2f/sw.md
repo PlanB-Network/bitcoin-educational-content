@@ -162,7 +162,7 @@ Ninapendekeza kwamba uweke msimbo huu mahali tofauti na unapohifadhi nenosiri la
 
 
 
-Mbinu hii hukupa viwango viwili vya uhifadhi iwapo utapoteza Ledger yako kwa uthibitishaji wa 2FA: hifadhi rudufu ya kwanza kwa kutumia maneno ya Mnemonic kwa akaunti zako zote, na chelezo ya pili ya akaunti mahususi kwa kutumia misimbo ya dharura. Hata hivyo, ni muhimu **kutochanganya jukumu la Mnemonic na lile la msimbo wa dharura** :
+Mbinu hii hukupa viwango viwili vya uhifadhi iwapo utapoteza Ledger yako kwa uthibitishaji wa 2FA: hifadhi rudufu ya kwanza kwa kutumia maneno ya Mnemonic kwa akaunti zako zote, na chelezo ya pili ya akaunti mahususi kwa kutumia misimbo ya dharura. Hata hivyo, ni muhimu **kutochanganya jukumu la Mnemonic na lile la msimbo wa dharura**:
 
 
 

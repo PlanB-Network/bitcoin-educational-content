@@ -51,7 +51,7 @@ Installing VirtualBox** is straightforward, and the process is the same for all 
 ![Image](assets/fr/026.webp)
 
 
-This installation is customizable, but I recommend that you install all features: which is the case with the default selection. In the image below, you can see various elements, including :
+This installation is customizable, but I recommend that you install all features: which is the case with the default selection. In the image below, you can see various elements, including:
 
 
 

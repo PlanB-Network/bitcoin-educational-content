@@ -243,7 +243,7 @@ SimpleX genera entonces un enlace de un solo uso. Puedes reenviarlo a tu contact
 
 
 
-También puedes elegir qué perfil deseas asociar a este enlace de invitación. Para ello, hagz clic en tu perfil justo debajo del código QR. A continuación podrás :
+También puedes elegir qué perfil deseas asociar a este enlace de invitación. Para ello, hagz clic en tu perfil justo debajo del código QR. A continuación podrás:
 
 
 
@@ -313,7 +313,7 @@ Una de las características más potentes de SimpleX es la posibilidad de gestio
 
 
 
-Por ejemplo, puedes crear un archivo :
+Por ejemplo, puedes crear un archivo:
 
 
 

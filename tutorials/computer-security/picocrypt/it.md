@@ -74,7 +74,7 @@ Il software di crittografia Picocrypt** si presenta come **un'alternativa** ad a
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Fonte : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Fonte: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

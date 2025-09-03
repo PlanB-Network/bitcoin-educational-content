@@ -150,7 +150,7 @@ Mullvad Browser include **tre estensioni preinstallate** che costituiscono il nu
 ### **Blocco Origine**
 
 
-Questa estensione per il blocco di annunci e tracker è preconfigurata con **elenchi di filtri ottimizzati** per bloccare :
+Questa estensione per il blocco di annunci e tracker è preconfigurata con **elenchi di filtri ottimizzati** per bloccare:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin in Mullvad Browser utilizza parametri standardizzati per garantire
 ### **NoScript**
 
 
-NoScript viene eseguito in background per gestire i **livelli di sicurezza** del browser. Questo :
+NoScript viene eseguito in background per gestire i **livelli di sicurezza** del browser. Questo:
 
 
 
@@ -328,7 +328,7 @@ Fare clic sul pulsante **"Download "** corrispondente al proprio sistema operati
 
 
 
-Per Linux, è possibile scegliere tra diversi formati a seconda della distribuzione. Una volta completato il download :
+Per Linux, è possibile scegliere tra diversi formati a seconda della distribuzione. Una volta completato il download:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser offre tre livelli di sicurezza:
 
 
 
-- Normale** (attuale livello predefinito) : Tutte le funzioni del browser e del sito web sono abilitate
+- Normale** (attuale livello predefinito): Tutte le funzioni del browser e del sito web sono abilitate
 
 
 
@@ -489,7 +489,7 @@ Se decidete di installare comunque delle estensioni, sappiate che state creando 
 
 
 
-4. **Scegliete il livello di sicurezza più adatto alle vostre esigenze** :
+4. **Scegliete il livello di sicurezza più adatto alle vostre esigenze**:
 
 
 

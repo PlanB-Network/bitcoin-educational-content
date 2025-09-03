@@ -1,8 +1,10 @@
-question: Ni nini nodi iliyokatwa katika muktadha wa Bitcoin?
-answer: Njia ambayo huweka tu vitalu vya N mwisho kwenye kumbukumbu.
+question: Lightning Network ni nini?
+answer: Mtandao wa malipo wa papo hapo wa Bitcoin kulingana na Bitcoin Blockchain.
 wrong_answers:
-  - Njia ambayo inathibitisha shughuli pekee.
-  - Nodi ambayo hupeleka habari kwa nodi zingine tu.
-  - Nodi ambayo inatekeleza tu sheria za itifaki ya Bitcoin.
-explanation: >-
+  - Mtandao tofauti wa Blockchain kutoka kwa Bitcoin Blockchain.
+  - Mtandao wa wachimbaji Bitcoin.
+  - Mtandao wa kubadilishana Bitcoin.
+explanation: |
+  Lightning Network ni mtandao wa malipo wa papo hapo wa Bitcoin
+  ambayo inategemea Bitcoin Blockchain.
 reviewed: true

@@ -1,8 +1,11 @@
-question: Vai trò của một công chứng viên trong bối cảnh thừa kế Bitcoin là gì?
-answer: Họ đảm bảo tuân thủ thuế.
+question: Bitcoin lần đầu tiên được giới thiệu với thế giới vào thời điểm nào?
+answer: 31 tháng 10, 2008.
 wrong_answers:
-  - Họ quản lý bitcoin của bạn sau khi bạn qua đời.
-  - Họ chỉnh sửa kế hoạch thừa kế của bạn.
-  - Họ bảo vệ bitcoin của bạn trong một két an toàn.
+  - 3 tháng 1, 2009.
+  - 22 tháng 11, 2009.
+  - 12 tháng 12, 2010.
 explanation: |
-  Trong bối cảnh thừa kế Bitcoin, việc thảo luận về việc thừa kế bitcoin với một công chứng viên để đảm bảo tuân thủ thuế là quan trọng.
+  Bitcoin lần đầu tiên được giới thiệu với thế giới vào ngày 31 tháng 10,
+  2008, khi Satoshi Nakamoto gửi một email tới danh sách gửi thư của cypherpunk
+  chứa Bản Trắng Bitcoin.
+reviewed: true

@@ -1,10 +1,11 @@
-question: ¿Cuánto es la recompensa de BTC después del cuarto halving?
-answer: 3.125 BTC.
+question: ¿Cuál es el riesgo de compartir la clave pública de una cartera de Bitcoin?
+answer: Perder la privacidad.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Destruir la cartera de Bitcoin.
+  - Perder los Bitcoins.
+  - Hackear la cartera de Bitcoin.
 explanation: |
-  Después del cuarto halving, que ocurre en la altura de bloque
-  840,000, la recompensa de BTC por minar es de 3.125 BTC.
+  Compartir la clave pública implica riesgos para la privacidad, pero no
+  para la seguridad. Esto se debe a que la clave pública se utiliza para
+  generar direcciones de Bitcoin y así recibir dinero, pero no representa la propiedad de los Bitcoins.
 reviewed: true

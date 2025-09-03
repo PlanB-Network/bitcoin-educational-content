@@ -1,11 +1,11 @@
-question: Jaka jest rola notariusza w kontekście dziedziczenia Bitcoin?
-answer: Zapewniają zgodność z przepisami podatkowymi.
+question: Kiedy Bitcoin został po raz pierwszy zaprezentowany światu?
+answer: 31 października 2008 r.
 wrong_answers:
-  - Zarządzają bitcoinami po śmierci użytkownika.
-  - Modyfikują one plan spadkowy.
-  - Zabezpieczają one bitcoiny w sejfie.
+  - 3 stycznia 2009 r.
+  - 22 listopada 2009 r.
+  - 12 grudnia 2010 r.
 explanation: |
-  W kontekście dziedziczenia Bitcoin ważne jest, aby
-  omówić kwestię dziedziczenia bitcoinów z notariuszem, aby zapewnić
-  zgodność z przepisami podatkowymi.
-reviewed: false
+  Bitcoin został po raz pierwszy zaprezentowany światu 31 października,
+  2008 r., kiedy Satoshi Nakamoto wysłał wiadomość e-mail do listy mailingowej Cypherpunk
+  zawierającą Białą Księgę Bitcoin.
+reviewed: true

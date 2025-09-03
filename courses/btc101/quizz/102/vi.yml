@@ -1,9 +1,11 @@
-question: Phương pháp nào để bảo mật bitcoin của bạn trong dài hạn?
-answer: Khắc cụm từ ghi nhớ của bạn trên một vật liệu chống chịu như thép.
+question: Tại sao trách nhiệm cá nhân lại quan trọng trong Bitcoin?
+answer: Điều này rất quan trọng vì bạn phải chịu trách nhiệm về việc sao lưu.
 wrong_answers:
-  - Lưu trữ chúng trong một ví nóng.
-  - Giữ chúng trên một nền tảng giao dịch.
-  - Chia sẻ cụm từ ghi nhớ của bạn với một đồng nghiệp.
+  - Điều này cần thiết vì bạn phải đào bitcoin.
+  - Điều này cần thiết để mua bitcoin.
+  - Điều này rất quan trọng vì bạn phải chịu trách nhiệm về giao diện ví.
 explanation: |
-  Khắc cụm từ ghi nhớ của bạn trên một vật liệu chống chịu như thép tạo ra một bản sao lưu vật lý của các khóa của bạn mà chống lại được cả hư hại do nước và lửa, do đó bảo mật bitcoin của bạn trong dài hạn.
+  Trong Bitcoin, quyền tự chủ tài chính đi đôi với
+  trách nhiệm cá nhân, bởi vì bạn phải tự quản lý
+  quỹ của mình bằng cách tuân theo các thủ tục sao lưu được khuyến nghị.
 reviewed: true

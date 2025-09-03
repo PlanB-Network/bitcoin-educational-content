@@ -209,7 +209,7 @@ Lynis 已經出現在我們的機器上，讓我們來學習如何使用它！
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -623,7 +623,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-讓我們仔細看看我目前在 :**/etc/ssh/sshd_config** 中的 **SSH** 設定
+讓我們仔細看看我目前在:**/etc/ssh/sshd_config** 中的 **SSH** 設定
 
 
 

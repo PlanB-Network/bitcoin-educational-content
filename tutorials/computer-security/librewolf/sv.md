@@ -224,7 +224,7 @@ Installationen skiljer sig åt beroende på ditt operativsystem:
 ### På Linux
 
 
-LibreWolf erbjuder builds för många distributioner. På Debian/Ubuntu och derivat finns ett officiellt APT-förvar tillgängligt. Alternativt publiceras LibreWolf i Flatpak på Flathub :
+LibreWolf erbjuder builds för många distributioner. På Debian/Ubuntu och derivat finns ett officiellt APT-förvar tillgängligt. Alternativt publiceras LibreWolf i Flatpak på Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### På Windows
 
 
-Ladda ner installationsprogrammet (.exe) från den officiella webbplatsen eller använd :
+Ladda ner installationsprogrammet (.exe) från den officiella webbplatsen eller använd:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget installera librewolf`
+- Chocolatey:** `choco install librewolf`
+- WinGet:** `winget installera librewolf`
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laddar automatiskt dina sidor i "strikt" (antispårning) läge, och st
 
 
 
-LibreWolf är redan optimalt konfigurerad för integritet. I Meny → Alternativ → Sekretess och säkerhet ser du att LibreWolf är inställd på läget Enhanced Tracking Protection: Strikt. Detta läge blockerar :
+LibreWolf är redan optimalt konfigurerad för integritet. I Meny → Alternativ → Sekretess och säkerhet ser du att LibreWolf är inställd på läget Enhanced Tracking Protection: Strikt. Detta läge blockerar:
 
 
 

@@ -1,11 +1,13 @@
-question: Cosa significa che Bitcoin è una valuta neutrale?
-answer: Non è controllato da nessuna entità o istituzione.
+question: Cos'è la Dichiarazione di Indipendenza del Cyberspazio?
+answer: Un testo che afferma che il cyberspazio è un regno distinto dalla sfera fisica e non dovrebbe essere soggetto alle stesse leggi.
 wrong_answers:
-  - È controllato da un'unica entità o istituzione.
-  - È regolato dal governo.
-  - È utilizzato solo per grandi transazioni.
+  - Una dichiarazione che afferma l'indipendenza di Bitcoin dai sistemi finanziari tradizionali.
+  - Un testo che sostiene che il cyberspazio dovrebbe essere controllato dal governo.
+  - Una dichiarazione che garantisce l'indipendenza del movimento hacker da qualsiasi regolamentazione.
 explanation: |
-  Bitcoin è una valuta neutrale, il che significa che non è controllato
-  da nessuna entità o istituzione, quindi ogni utente ha gli stessi
-  diritti. Questo è un aspetto chiave della sua decentralizzazione.
+  La Dichiarazione di Indipendenza del Cyberspazio è stata
+  scritta da John Perry Barlow nel 1996. Questo documento afferma
+  che il cyberspazio è un regno distinto dalla sfera
+  fisica, dove i governi o le grandi aziende non possono imporre la loro
+  autorità.
 reviewed: true

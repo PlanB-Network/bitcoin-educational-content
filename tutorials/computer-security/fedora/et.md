@@ -34,7 +34,7 @@ Fedora sisaldab ka töölauakeskkonda, mis on Interface, mille kaudu kasutajad t
 
 
 
-Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma :
+Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma:
 
 
 
@@ -66,7 +66,7 @@ Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma :
 
 
 
-Sõltuvalt teie profiilist ja kasutamisest pakub Fedora teie vajadustele vastavaid versioone. Peamiselt leiate :
+Sõltuvalt teie profiilist ja kasutamisest pakub Fedora teie vajadustele vastavaid versioone. Peamiselt leiate:
 
 
 
@@ -205,7 +205,7 @@ Esimene samm on valida Fedora **installeerimiskeel** ja **klaviatuuri paigutus**
 
 
 
-- Paigaldusketta valimine :
+- Paigaldusketta valimine:
 
 
 
@@ -223,7 +223,7 @@ Kui ketas on tühi, kasutab Fedora automaatselt kogu vaba ruumi. Vastasel juhul 
 
 
 
-- Krüpteerimine :
+- Krüpteerimine:
 
 
 
@@ -415,7 +415,7 @@ Pärast uuenduste paigaldamist võib olla vajalik **taaskäivitus**.
 
 
 
-- Avage terminal ja alustage **repositooriumide** uuendamisega, et veenduda, et teil on olemas uusimad versioonid :
+- Avage terminal ja alustage **repositooriumide** uuendamisega, et veenduda, et teil on olemas uusimad versioonid:
 
 
 

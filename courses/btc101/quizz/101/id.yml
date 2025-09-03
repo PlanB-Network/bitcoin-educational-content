@@ -1,11 +1,10 @@
-question: Apa metode standar untuk membackup kunci privat dalam dompet Bitcoin?
-answer: Memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun
+question: Apa tujuan dari dompet Bitcoin?
+answer: Untuk menyimpan kunci privat agar dapat melakukan transaksi bitcoin
 wrong_answers:
-  - Menyimpan frasa mnemonik Anda dalam file digital
-  - Menulis frasa mnemonik Anda di papan tulis
-  - Berbagi frasa mnemonik Anda dengan teman yang dipercaya
+  - Untuk menggunakan sumber daya perangkat untuk menambang bitcoin
+  - Untuk membeli bitcoin dengan kunci publik
+  - Untuk menyimpan bitcoin di sebuah perangkat
 explanation: |
-  Metode standar untuk membackup kunci privat dalam dompet Bitcoin
-  adalah dengan memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun. Ini memungkinkan Anda untuk
-  memulihkan dompet Anda.
+  Dompet Bitcoin adalah perangkat lunak yang memungkinkan Anda untuk menyimpan kunci privat yang
+  memungkinkan Anda untuk melakukan transaksi bitcoin Anda.
 reviewed: true

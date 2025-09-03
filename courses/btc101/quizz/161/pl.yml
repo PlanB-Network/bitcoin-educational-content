@@ -1,8 +1,8 @@
-question: Jakie są główne obawy dotyczące kosztów środowiskowych Bitcoin Mining?
-answer: Zużycie energii.
+question: W jaki sposób Bitcoin może potencjalnie pomóc w transformacji ekologicznej?
+answer: Promuje wykorzystanie energii Green.
 wrong_answers:
-  - Produkcja układów ASIC.
-  - Recykling układów ASIC.
-  - Koszt energii elektrycznej.
+  - Zmniejsza to produkcję towarów.
+  - Reguluje zużycie zasobów.
+  - Ogranicza emisję tylko gazów cieplarnianych.
 explanation: >-
 reviewed: true

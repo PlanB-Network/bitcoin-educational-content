@@ -1,10 +1,12 @@
-question: Qu'est-ce que le Lightning Network rend possible ?
-answer: Réaliser des transactions entre individus qui n'ont pas de connexion directe de canal.
+question: Comment le Lightning Network peut-il potentiellement transformer les modèles d'affaires existants dans l'industrie du jeu vidéo ?
+answer: Il permet aux joueurs de miser de très petites sommes d'argent lorsqu'ils jouent à des jeux.
 wrong_answers:
-  - Créer des connexions de canal direct uniquement avec des échanges centralisés.
-  - Créer des connexions de canal qui nécessitent plusieurs confirmations pour toute transaction.
-  - Établir des connexions de canal direct qui sont limitées uniquement aux grandes transactions.
-explanation: |
-  Le Lightning Network permet de réaliser des transactions entre
-  individus qui n'ont pas de connexion directe de canal.
+  - Il permet aux joueurs de miner du Bitcoin en jouant.
+  - Il permet aux développeurs de jeux d'accepter le Bitcoin comme moyen de paiement pour leurs jeux.
+  - Il permet aux joueurs d'acheter des objets en jeu avec du Bitcoin.
+explanation: >-
+  Le Lightning Network permet aux joueurs de miser de très petites sommes d'argent
+  lorsqu'ils jouent à des jeux, comme quelques satoshis. Cela permet d'établir
+  un enjeu qui stimule la compétition tout en augmentant significativement le coût de déploiement
+  de bots.
 reviewed: true

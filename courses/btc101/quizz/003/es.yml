@@ -1,13 +1,12 @@
-question: ¿Cuál es el propósito de este curso de Bitcoin?
-answer: Introducir algunos aspectos monetarios generales de Bitcoin, cómo usarlo y su futuro.
+question: ¿Cuál es el enfoque principal de este curso de Bitcoin?
+answer: Los aspectos monetarios de Bitcoin.
 wrong_answers:
-  - Introducir cómo minar Bitcoin.
-  - Introducir cómo regular Bitcoin.
-  - Introducir cómo crear un nuevo protocolo de Bitcoin.
+  - Los aspectos de codificación de Bitcoin.
+  - El impacto ecológico de Bitcoin.
+  - Los aspectos regulatorios de Bitcoin.
 explanation: |
-  El propósito de este curso de Bitcoin es discutir las
-  características monetarias generales de Bitcoin, incluyendo cómo
-  comprar y vender bitcoins, almacenarlos de manera segura en
-  carteras digitales y usarlos para transacciones. También tiene como objetivo
-  explorar el futuro de Bitcoin.
+  Este curso de Bitcoin se centra en los aspectos monetarios de
+  Bitcoin, incluyendo cómo comprar y vender bitcoins, almacenarlos de manera segura
+  en carteras digitales y usarlos para
+  transacciones.
 reviewed: true

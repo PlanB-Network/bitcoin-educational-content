@@ -1,11 +1,10 @@
-question: Hva er hyperinflasjon?
-answer: En drastisk økning i pengeforsyningen
+question: Hva er den andre fasen av hyperinflasjon?
+answer: Valutakollaps og prisøkning.
 wrong_answers:
-  - En subtil økning i pengeforsyningen
-  - En drastisk nedgang i pengeforsyningen
-  - En subtil nedgang i pengeforsyningen
+  - Tap av tillit.
+  - Den onde sirkelen av pengetrykking.
+  - En ny valuta dukker opp.
 explanation: |
-  Hyperinflasjon er et monetært fenomen,
-  det kjennetegnes ved en drastisk økning i inflasjonen gjennom pengetrykking av myndighetene,
-  som fører til et totalt tap av tillit til en valuta
+  Den andre fasen av hyperinflasjon er valutakollaps og prisøkning,
+  rett etter Tap av tillit-fasen.
 reviewed: true

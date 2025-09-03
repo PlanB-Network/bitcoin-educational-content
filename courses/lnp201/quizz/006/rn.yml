@@ -1,0 +1,9 @@
+question: UTXO ni iki mu bijanye na Bitcoin?
+answer: Igipande c'ama bitcoins atakoreshejwe gifitaniye isano n'inyandiko
+wrong_answers:
+  - Igikoresho cemejwe neza ku giciro ca Blockchain.
+  - Urufunguzo rwa bose rutanga aderesi za Bitcoin
+  - Igitigiri ca Bitcoin kigabanywemwo ibice vyinshi .
+explanation: |
+  UTXO, canke Igisubizo c’Ibikorwa Bitakoreshejwe, ni igisubizo c’ibikorwa bitakoreshejwe, kigereranya umubare kanaka w’ama bitcoins uwuyifise ashobora gukoresha.
+reviewed: false

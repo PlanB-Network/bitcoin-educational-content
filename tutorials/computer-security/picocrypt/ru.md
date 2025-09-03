@@ -74,7 +74,7 @@ ___
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Источник : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Источник: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

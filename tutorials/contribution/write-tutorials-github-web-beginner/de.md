@@ -8,27 +8,27 @@ Bevor Sie dieses Tutorial zum Hinzufügen eines neuen Tutorials lesen, müssen S
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Sie haben bereits :
+Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
 - Kontaktieren Sie das Plan ₿ Network Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools.
 
-In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Network hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen :
+In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Network hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen:
 
 
-- Erfahrene Benutzer** :
+- Erfahrene Benutzer**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Fortgeschrittene (GitHub Desktop)** :
+- Fortgeschrittene (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Voraussetzungen
 
-Voraussetzungen vor Beginn des Tutorials :
+Voraussetzungen vor Beginn des Tutorials:
 
 
 - Sie haben ein [GitHub-Konto] (https://github.com/signup);
@@ -48,7 +48,7 @@ Sobald alles an Ort und Stelle ist und Sie Ihren Fork des Plan ₿ Network Repos
 
 ## 1 - Einen neuen Zweig erstellen
 
-Öffnen Sie Ihren Browser und navigieren Sie zu Ihrer Fork-Seite im Plan ₿ Network Repository. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihrer Abspaltung sollte wie folgt aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content` :
+Öffnen Sie Ihren Browser und navigieren Sie zu Ihrer Fork-Seite im Plan ₿ Network Repository. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihrer Abspaltung sollte wie folgt aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -145,30 +145,30 @@ proofreading:
 
 Hier sind die erforderlichen Felder:
 
-- **id** : Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
+- **id**: Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
 
-- **project_id** : Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
+- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
 
-- **tags** : 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
+- **level**: Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Ihre `professor_id` (UUID), wie sie auf [Ihrem Professorenprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) angezeigt wird;
+- **professor_id**: Ihre `professor_id` (UUID), wie sie auf [Ihrem Professorenprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) angezeigt wird;
 
-- **original_language** : Die Originalsprache des Tutorials (zum Beispiel `fr`, `en`, usw.);
+- **original_language**: Die Originalsprache des Tutorials (zum Beispiel `fr`, `en`, usw.);
 
-- **proofreading** : Informationen zum Korrekturleseprozess. Füllen Sie den ersten Teil aus, da das Korrekturlesen Ihres eigenen Tutorials als erste Überprüfung zählt:
-    - **language** : Sprachcode der Korrektur (zum Beispiel `fr`, `en`, usw.).
-    - **last_contribution_date** : Datum des aktuellen Tages.
-    - **urgency** : 1
-    - **contributor_names** : Ihr GitHub-Benutzername.
-    - **reward** : 0
+- **proofreading**: Informationen zum Korrekturleseprozess. Füllen Sie den ersten Teil aus, da das Korrekturlesen Ihres eigenen Tutorials als erste Überprüfung zählt:
+    - **language**: Sprachcode der Korrektur (zum Beispiel `fr`, `en`, usw.).
+    - **last_contribution_date**: Datum des aktuellen Tages.
+    - **urgency**: 1
+    - **contributor_names**: Ihr GitHub-Benutzername.
+    - **reward**: 0
 
 Weitere Einzelheiten zu Ihrer Lehrer-ID finden Sie in der entsprechenden Anleitung:
 
@@ -299,7 +299,7 @@ Jetzt sollten die Bilder im Ordner erscheinen.
 
 ## 7 - Schreiben des Tutorials
 
-Fahren Sie mit dem Schreiben Ihres Tutorials fort, indem Sie Ihren Inhalt in der Markdown-Datei mit dem Sprachcode notieren (in meinem Beispiel auf Französisch ist es die Datei "fr.md"). Rufen Sie die Datei auf und klicken Sie auf das Bleistiftsymbol :
+Fahren Sie mit dem Schreiben Ihres Tutorials fort, indem Sie Ihren Inhalt in der Markdown-Datei mit dem Sprachcode notieren (in meinem Beispiel auf Französisch ist es die Datei "fr.md"). Rufen Sie die Datei auf und klicken Sie auf das Bleistiftsymbol:
 
 ![GITHUB](assets/fr/28.webp)
 
@@ -347,9 +347,9 @@ Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafi
 
 
 - Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Farben** :
+- Farben**:
  - Orange: #FF5C00
- - Schwarz : #000000
+ - Schwarz: #000000
  - Weiß: #FFFFFF
 
 **Es ist unbedingt erforderlich, dass alle in Ihre Tutorials integrierten Grafiken frei von Urheberrechten sind oder die Lizenz für die Quelldatei respektieren**. Daher werden alle Diagramme, die im Plan ₿ Network veröffentlicht werden, unter einer CC-BY-SA-Lizenz zur Verfügung gestellt, genau wie der Text.

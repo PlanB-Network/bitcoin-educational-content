@@ -20,7 +20,7 @@ Una ***Red Privada Virtual*** (VPN) es un sistema que permite crear un enlace di
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Basado en este principio, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) es un servicio VPN de código abierto desarrollado en 2020 por la Fundación Mozilla. Está disponible en :
+Basado en este principio, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) es un servicio VPN de código abierto desarrollado en 2020 por la Fundación Mozilla. Está disponible en:
 
 
 
@@ -39,7 +39,7 @@ Basado en este principio, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/
 
 
 
-Está disponible en más de 30 países y dispone de más de 500 servidores encargados de enmascarar su IP Address con el fin de deslocalizarle garantizando al mismo tiempo la confidencialidad de sus interacciones en Internet. Mozilla VPN se distingue por :
+Está disponible en más de 30 países y dispone de más de 500 servidores encargados de enmascarar su IP Address con el fin de deslocalizarle garantizando al mismo tiempo la confidencialidad de sus interacciones en Internet. Mozilla VPN se distingue por:
 
 
 

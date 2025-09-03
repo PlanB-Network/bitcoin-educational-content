@@ -1,0 +1,9 @@
+question: Ni irihe izina ry’ingorane y’uguhurizako mu mugwi w’abantu bakwiragiye?
+answer: Ikibazo c'abajenerali b'Abanyabizantine
+wrong_answers:
+  - Ingorane y'abakuru b'ingabo b'Abaroma
+  - Ikibazo c'abakoloneli b'Abalubaniya
+  - Ikibazo c'Abayapani Taishos
+explanation: |
+  Izina ry’ico kibazo (ryashizweho na Lamport, Shostak na Pease mu 1982) ryatowe kugira ngo ntibababaze umusomyi, kuko ata n’umwe yigeze yimenyekanisha ko ari Umunyabizantine.
+reviewed: true

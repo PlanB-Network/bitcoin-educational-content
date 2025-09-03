@@ -1,12 +1,11 @@
-question: Milton Friedman 在 1999 年預測了什麼？
-answer: 開發可靠的電子現金。
+question: 什麼是 Lightning Network？
+answer: 一個使用 Bitcoin 通訊協定的支付網路，可實現快如閃電的交易。
 wrong_answers:
-  - 實體貨幣的消亡。
-  - Bitcoin 的崛起。
-  - 政府對貨幣控制的終結。
+  - 一種新型的加密貨幣。
+  - 未來將取代 Bitcoin 的全新 Blockchain 技術。
+  - Mining Bitcoin 的方法。
 explanation: |
-  著名經濟學家 Milton Friedman 在 1999 年預言
-  可靠的電子現金將很快被開發出來，這種方法
-  在網際網路上，您可以將資金從 A 轉帳到 B、
-  A 不知道 B，反之亦然。
+  Lightning Network 是一個支付網路，使用
+  Bitcoin 協定來實現快速交易。它不是一種
+  獨立的加密貨幣，也不是 Mining Bitcoin 的方法。
 reviewed: true

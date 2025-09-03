@@ -1,8 +1,12 @@
-question: Waarom is het aantal bevestigingen in een Bitcoin transactie belangrijk?
-answer: Hoe meer bevestigingen een transactie heeft, hoe onveranderlijker deze wordt.
+question: Hoe maken gebruikers Ownership van hun geld over in het Bitcoin netwerk?
+answer: Door transacties digitaal te ondertekenen met hun privésleutels.
 wrong_answers:
-  - Hoe meer bevestigingen een transactie heeft, hoe waardevoller deze wordt.
-  - Hoe meer bevestigingen een transactie heeft, hoe sneller deze wordt verwerkt.
-  - Hoe meer bevestigingen een transactie heeft, hoe minder veilig deze is.
-explanation: >-
+  - Door hun Bitcoins fysiek te overhandigen.
+  - Door een e-mail te sturen naar de ontvanger.
+  - Door hun Bitcoin Address aan de ontvanger te geven.
+explanation: |
+  Gebruikers in het Bitcoin netwerk overschrijven Ownership van hun
+  geld over door transacties digitaal te ondertekenen met hun
+  sleutels. Hiermee wordt geverifieerd dat zij de eigenaar zijn van de
+  bitcoins die ze willen overmaken.
 reviewed: true

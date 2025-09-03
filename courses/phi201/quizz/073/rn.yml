@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe ry’ishimikiro riri hagati y’ubudandaji n’ubudandaji bwigenga nk’uko abahinga mu vy’umubiri babivuga?
+answer: Ubucuruzi buratunga ihanga rimwe mu gutakaza ayandi, mu gihe ubudandaji bw’ubuntu butunga amahanga yose.
+wrong_answers:
+  - Ubucuruzi ni urukino rw’amahera meza, mu gihe ubudandaji bw’ubuntu ari urukino rw’amahera ataco rumaze.
+  - Ubucuruzi buratuma haba uguhiganwa.
+  - Ubucuruzi bw’ubuntu buratera imbere uguhinduranya.
+explanation: |
+  Ku ba physiocrates, ubudandaji bushingiye ku ciyumviro c’uko ihanga ryitunga kubera abandi. Mu buryo butandukanye n’ubwo, ubudandaji bw’ubuntu buratuma umuntu ashobora kuronka inyungu, agatunganisha amahanga yose biciye mu guhanahana inyungu.
+reviewed: true

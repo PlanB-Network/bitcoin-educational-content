@@ -1,11 +1,10 @@
-question: Mitä sinun tulisi tehdä ostaessasi Bitcoinia vaihtoalustalta?
-answer: Nosta bitcoinit ja lähetä ne lompakkoosi.
+question: Mikä maa on julistanut Bitcoinin lailliseksi maksuvälineeksi?
+answer: El Salvador.
 wrong_answers:
-  - Jätä bitcoinit alustalle.
-  - Myy bitcoinit välittömästi.
-  - Siirrä bitcoinit toiselle vaihtoalustalle.
-explanation: |
-  Kurssiteksti neuvoo, että Bitcoinin ostamisen jälkeen tulee
-  välittömästi nostaa UTXO: t vaihtoalustoilta
-  minimoidakseen hakkeroinnin ja varojen jäädyttämisen riskit.
+  - Yhdysvallat.
+  - Kiina.
+  - Intia.
+explanation: >-
+  El Salvador on ottanut rohkean askeleen omaksuessaan Bitcoinin kokonaisuudessaan,
+  julistaen sen lailliseksi maksuvälineeksi.
 reviewed: true

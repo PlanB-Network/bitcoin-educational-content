@@ -243,7 +243,7 @@ SimpleX genera quindi un link monouso. È possibile inoltrarlo al proprio contat
 
 
 
-È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile :
+È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile:
 
 
 
@@ -313,7 +313,7 @@ Una delle caratteristiche più potenti di SimpleX è la possibilità di gestire 
 
 
 
-Ad esempio, si può creare un file :
+Ad esempio, si può creare un file:
 
 
 

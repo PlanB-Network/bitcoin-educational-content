@@ -22,7 +22,7 @@ De wereldwijde adoptie van Bitcoin is gebaseerd op tastbare gebruikssituaties in
 
 
 
-Speed heeft een groot aantal functies voor de financiële aspecten van je bedrijf. Je vindt :
+Speed heeft een groot aantal functies voor de financiële aspecten van je bedrijf. Je vindt:
 
 
 

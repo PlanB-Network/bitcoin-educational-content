@@ -1,0 +1,12 @@
+question: Ni ubuhe buryo bumwe budasanzwe bwo kwinjira mu bidukikije vya Bitcoin biciye mu Mining?
+answer: Mining Bitcoin mu rushana ishobora kuba uburyo bwiza bwo gushusha inzu yawe mu gihe uronka inyungu muri Bitcoin.
+wrong_answers:
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka amashanyarazi ku buntu.
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka internet ku buntu.
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka ibikoresho vy’ubuntu.
+explanation: |
+  Uburyo bumwe budasanzwe bwo kwinjira mu bidukikije vya Bitcoin
+  biciye kuri Mining ni biciye kuri Mining Bitcoin mu rushana. Ivyo birashobora
+  ube uburyo bwiza bwo gushusha inzu yawe mu gihe uriko uraronka amahera
+  mu Bitcoin.
+reviewed: true

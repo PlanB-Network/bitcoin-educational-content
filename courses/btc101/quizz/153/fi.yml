@@ -1,13 +1,13 @@
-question: Mikä on vaikeustason säätelyn tarkoitus Bitcoin-louhinnassa?
-answer: Se tasapainottaa globaalia louhintapeliä osallistujien määrän perusteella.
+question: Mitä tapahtuu, kun Bitcoin-verkkoon kohdistuu 51% hyökkäys?
+answer: Toimija omistaa yli puolet hashratesta ja voi yrittää muokata lohkoketjua.
 wrong_answers:
-  - Se lisää palkkiota louhinnasta.
-  - Se vähentää liikkeessä olevien bitcoinien määrää.
-  - Se lisää Bitcoin-verkon turvallisuutta.
-explanation: >-
-  Vaikeustason säätely Bitcoin-louhinnassa on suunniteltu varmistamaan, että
-  lohkon louhimiseen kuluva aika pysyy suunnilleen vakiona, riippumatta
-  verkon kokonaislaskentatehosta. Se säätää matemaattisen
-  ongelman vaikeustasoa, jonka louhijoiden on ratkaistava, perustuen louhijoiden määrään
-  verkossa.
+  - Toimija saa hallintaansa yli puolet liikkeellä olevista bitcoineista.
+  - Toimija saa hallintaansa yli puolet Bitcoin-verkon solmuista.
+  - Toimija saa hallintaansa yli puolet Bitcoin-verkon louhintapoolista.
+explanation: |
+  51% hyökkäyksessä toimija, jolla on yli puolet
+  verkon hashratesta, voisi potentiaalisesti manipuloida
+  lohkoketjua luomalla vaihtoehtoisen lohkoketjun.
+  Tällainen hyökkäys olisi kuitenkin erittäin kallis ja
+  epätodennäköisesti tuottoisa, mikä tekee siitä epätodennäköisen skenaarion.
 reviewed: true

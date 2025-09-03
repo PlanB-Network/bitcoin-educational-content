@@ -1,0 +1,9 @@
+question: None ugushiramwo igitunguru muri Lightning Network bikubiyemwo iki?
+answer: Bisigura ko urudodo rwo hagati rwose ruzi gusa ababanyi barwo bo hafi bari mu nzira.
+wrong_answers:
+  - Kurungika amafaranga ataco ahinduye kuva ku yindi nzira uzi uwuzoyakira
+  - Kubara amafaranga kuri buri nzira yo hagati yigenga
+  - Kurungika amafranga ku nzira zose ziri ku nzira icarimwe
+explanation: |
+  Onion routing bisigura ko urudodo rwo hagati rwose ruzi gusa urudodo rw’imbere n’urwo gukurikira, gutyo bigatuma ibanga ry’uwuzokwakira rya nyuma rizigama.
+reviewed: false

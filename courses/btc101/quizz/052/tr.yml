@@ -1,10 +1,9 @@
-question: 20'lik enflasyonun 3 yıl boyunca satın alma gücü üzerindeki etkisi nedir?
-answer: Satın alma gücünüzün %50'sini kaybedersiniz.
+question: Aşağıdakilerden hangisi Bitcoin özelliklerinden biri değildir?
+answer: Kolayca sansürleniyor.
 wrong_answers:
-  - Satın alma gücünüzün %100'ünü kaybedersiniz.
-  - Satın alma gücünüzün %60'ını kaybedersiniz.
-  - Satın alma gücünüzün %30'unu kaybedersiniz.
+  - Anında taşınabilir.
+  - İhmal edilebilir doğrulama maliyetleri vardır.
+  - Sabit bir para politikası vardır.
 explanation: |
-  20 enflasyon ile satın alma gücünüzün neredeyse yarısını kaybedersiniz
-  3 yıl içinde güç.
+  Bitcoin, verimli ve sağlıklı bir para birimi olmak için gerekli tüm özelliklere sahiptir: bölünebilir, anında taşınabilir, sansürlenemez, doğrulama için ihmal edilebilir maliyet ve 21 milyon birimle gelecek yüzyıllar için şimdiden belirlenmiş bir para politikası.
 reviewed: true

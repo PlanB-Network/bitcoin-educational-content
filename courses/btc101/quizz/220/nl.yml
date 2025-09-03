@@ -1,11 +1,11 @@
-question: Wat suggereert deze cursus over het leertempo van Bitcoin?
-answer: Het is ingewikkeld om alles in één keer te verwerken, dus neem je tijd.
+question: Wat zou er kunnen gebeuren met traditionele geldtransferdiensten zoals Western Union, centrale banken, Visa en Mastercard als ze Lightning Network niet aannemen?
+answer: Ze kunnen verdwijnen.
 wrong_answers:
-  - Het is gemakkelijk om alles in één keer te leren.
-  - Het is onmogelijk om alles over Bitcoin te weten te komen.
-  - Het is niet nodig om alles over Bitcoin te leren.
+  - Ze kunnen populairder worden.
+  - Ze zouden veiliger kunnen worden.
+  - Ze zouden meer gedecentraliseerd kunnen worden.
 explanation: |
-  De cursus suggereert dat er zoveel te ontdekken valt met
-  Bitcoin dat het ingewikkeld is om alles in één keer te verwerken
-  in één keer te verwerken, dus men moet er de tijd voor nemen.
+  Traditionele geldtransferdiensten zoals Western Union,
+  centrale banken, Visa en Mastercard zouden kunnen verdwijnen als ze
+  de Lightning Network technologie niet overnemen.
 reviewed: true

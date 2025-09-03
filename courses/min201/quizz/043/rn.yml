@@ -1,0 +1,14 @@
+question: Ni igiki gisobanura imvugo ngo Si Hashrate yawe, si impembo yawe mu bijanye na Bitcoin Mining?
+answer: Iyo utagenzura Hashrate, ntugenzura ingororano za Mining.
+wrong_answers:
+  - Iyo udafise Hashrate nini, nta ngororano uzoronka.
+  - Iyo udafise Bitcoin, nta ngororano uzoronka.
+  - Iyo udafise imashini ya Mining, nta ngororano uzoronka.
+explanation: |
+  Imvugo Si Hashrate yawe, si impembo yawe ni nk’iyo .
+  ku mvugo izwi cane mw’isi y’amahera y’amahera,
+  Si imfunguruzo zawe, si Bitcoins zawe. Bisigura ko iyo ubikoze .
+  ntugenzure Hashrate, ntugenzure Mining.
+  ingororano. Ivyo ni kubera ko ingororano zivuye kuri Mining ari .
+  bihuye ata guca ku ruhande na Hashrate.
+reviewed: true

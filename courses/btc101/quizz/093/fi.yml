@@ -1,14 +1,9 @@
-question: Mitä sinun tulee varmuuskopioida käyttäessäsi lompakkoa, jossa on salasana?
-answer: Sinun tulee varmuuskopioida sekä 12 tai 24 sanan lista että salasanasi.
+question: Mitä lompakon mnemonisen lauseen puuttuminen osoittaa?
+answer: Se osoittaa, että lompakko ei ole turvallinen pitkäaikaista Bitcoinien säilytystä varten.
 wrong_answers:
-  - Sinun tarvitsee varmuuskopioida vain 12 tai 24 sanan lista.
-  - Sinun tarvitsee varmuuskopioida vain salasanasi.
-  - Sinun ei tarvitse varmuuskopioida kumpaakaan, 12 tai 24 sanan listaa tai salasanaasi.
+  - Se osoittaa, että lompakko on täysin turvallinen eikä vaadi mitään varmuuskopiointia.
+  - Se tarkoittaa, että lompakko voi pitää sisällään monia erilaisia obligaatioita.
+  - Se vihjaa, että lompakko varmuuskopioidaan automaattisesti laitteellasi.
 explanation: |
-  Kun käytät lompakkoa, jossa on salasana, sinun tulee varmuuskopioida
-  sekä 12 tai 24 sanan lista että salasanasi,
-  koska sekä sanalista että salasana ovat molemmat
-  välttämättömiä päästäksesi käsiksi varoihisi, jos menetät
-  puhelimesi tai tietokoneesi. Ilman toista tai toista,
-  varat eivät ole saavutettavissa.
+  Mnemonisen lauseen, eli 12 tai 24 sanan listan, puuttuminen lompakosta tulisi herättää huolesi, sillä se osoittaa, että lompakko ei ole turvallinen, koska se ei noudata standardin mukaisia varmuuskopiointimenettelyjä.
 reviewed: true

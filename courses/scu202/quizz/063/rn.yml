@@ -1,0 +1,9 @@
+question: Ni uwuhe mucukumbuzi w’inyandiko, ata bishushanyo vya Interface canke ubufasha bwa JavaScript, ari wo wa kera cane ukiriho?
+answer: Inzovu
+wrong_answers:
+  - Mucukumbuzi ya Mullvad
+  - Polipane
+  - Vivaldi
+explanation: |
+  Lynx, yasohotse mu 1992, ikora mu buryo bw’inyandiko, ntishigikira JavaScript kandi iracariko irakoreshwa ku ntumbero zidasanzwe cane.
+reviewed: false

@@ -66,7 +66,7 @@ Vuodesta 2017 lähtien Arch Linux ei enää tue 32-bittisiä arkkitehtuureja. Va
 
 
 
-Voit luoda käynnistettävän USB-muistitikun käyttämällä työkalua, kuten **Balena Etcher** :
+Voit luoda käynnistettävän USB-muistitikun käyttämällä työkalua, kuten **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Valitse käynnistysnäytössä ensimmäinen vaihtoehto asennuksen käynnistämis
 
 
 
-Voit näyttää käytettävissä olevat asettelut painikkeella :
+Voit näyttää käytettävissä olevat asettelut painikkeella:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Lataa sitten asettelu :
+Lataa sitten asettelu:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux käyttää `timedatectl`-työkalua järjestelmän kellon hallintaan.
 
 
 
-- Aseta aikavyöhyke valitsemalla :
+- Aseta aikavyöhyke valitsemalla:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Tarkista, että automaattinen synkronointi on käytössä :
+- Tarkista, että automaattinen synkronointi on käytössä:
 
 
 ```shell
@@ -208,7 +208,7 @@ Tämä aktivoi NTP-protokollan, joka mahdollistaa automaattisen synkronoinnin ai
 
 
 
-- Tarkista, käynnistyykö järjestelmäsi **UEFI**- tai **BIOS**-ohjelmalla :
+- Tarkista, käynnistyykö järjestelmäsi **UEFI**- tai **BIOS**-ohjelmalla:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Käynnistä Partition Manager :
+- Käynnistä Partition Manager:
 
 
 
@@ -294,7 +294,7 @@ Valitse **Kirjoita**, kirjoita **Kyllä** ja sitten **Lopeta**.
 
 
 
-- UEFI** :
+- UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Kiinnitä **juuri-osio**:
 
 
 
-- BIOS :
+- BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- uEFI:ssä :
+- uEFI:ssä:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Asenna tekstieditori muokkaamaan :
+- Asenna tekstieditori muokkaamaan:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Aseta kieli :
+- Aseta kieli:
 
 
 Muokkaa `/etc/locale.gen` ja poista kommentti riviltä `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Muokkaa `/etc/locale.gen` ja poista kommentti riviltä `en_US.UTF-8 UTF-8`
 
 
 
-- Aseta koneen nimi :
+- Aseta koneen nimi:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Aseta pääkäyttäjän salasana :
+- Aseta pääkäyttäjän salasana:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Asenna :
+Asenna:
 
 
 
@@ -472,7 +472,7 @@ Kun olet ladannut sen, sinun on asennettava se levyosion muodon mukaan.
 
 
 
-- **BIOS** :
+- **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- **UEFI** :
+- **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Käynnistä uudelleen :
+- Käynnistä uudelleen:
 
 
 ```shell
@@ -551,7 +551,7 @@ Käynnistettäessä kirjaudu sisään **juuritunnuksellasi** ja salasanallasi.
 
 
 
-Voi käydä niin, että verkkoyhteys ei ole aktiivinen uudelleenkäynnistyksen yhteydessä. Voit luetella liitännät komennolla :
+Voi käydä niin, että verkkoyhteys ei ole aktiivinen uudelleenkäynnistyksen yhteydessä. Voit luetella liitännät komennolla:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Oletusarvoisesti **Arch Linux** ei sisällä graafista Interface:ää. Voit lisätä sellaisen :
+Oletusarvoisesti **Arch Linux** ei sisällä graafista Interface:ää. Voit lisätä sellaisen:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktivoi **session manager** :
+Aktivoi **session manager**:
 
 
 
@@ -652,7 +652,7 @@ Kun olet **Interface GNOME**:ssa, sinun on luotava uusi käyttäjä paremman tur
 
 
 
-- Lisää käyttäjä :
+- Lisää käyttäjä:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Asenna **sudo** :
+- Asenna **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Poista sitten kommentti riviltä :
+- Poista sitten kommentti riviltä:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Voit esimerkiksi asentaa **nano**-tekstieditorin kirjoittamalla :
+Voit esimerkiksi asentaa **nano**-tekstieditorin kirjoittamalla:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Jos haluat asentaa kevyen verkkoselaimen, kuten `firefox`, käytä :
+Jos haluat asentaa kevyen verkkoselaimen, kuten `firefox`, käytä:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Lopuksi, jos haluat lisätä keskeiset verkkotyökalut, kuten `net-tools`, komento on :
+Lopuksi, jos haluat lisätä keskeiset verkkotyökalut, kuten `net-tools`, komento on:
 
 
 

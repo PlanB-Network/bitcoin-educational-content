@@ -1,0 +1,9 @@
+question: Ni igitero ikihe inomero y’urutonde ishobora gukingira mu gihe co guhanahana amakuru ata nkomanzi?
+answer: Gusubiramwo no gusubiramwo ibitero
+wrong_answers:
+  - Ibitero vyo gufata umuntu ataco akora
+  - Ibitero vyo kwanka ibikorwa
+  - Ibitero vy'ubuhendanyi
+explanation: |
+  Inomero y’urutonde mu butumwa bumwe bumwe irabuza gusubiramwo no gusubiramwo ibitero, kuko bituma umuntu ashobora kugenzura urutonde n’ubudasa bw’ubutumwa.
+reviewed: false

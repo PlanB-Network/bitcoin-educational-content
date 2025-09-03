@@ -67,7 +67,7 @@ VirtualBoxi** paigaldamine on lihtne ja protsess on kõikide Windowsi versioonid
 
 
 
-See paigaldus on kohandatav, kuid ma soovitan paigaldada kõik funktsioonid: mis on vaikimisi valik. Allpool oleval pildil näete erinevaid Elements, sealhulgas :
+See paigaldus on kohandatav, kuid ma soovitan paigaldada kõik funktsioonid: mis on vaikimisi valik. Allpool oleval pildil näete erinevaid Elements, sealhulgas:
 
 
 

@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Odgovor ovde jasno ukazuje da paket "nmap" postoji u repozitorijumima (ovde, onima Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Od sada, možete instalirati Nmap putem uobičajenih komandi za instalaciju, ništa razoružavajuće za sada 🙂 :
+Odgovor ovde jasno ukazuje da paket "nmap" postoji u repozitorijumima (ovde, onima Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Od sada, možete instalirati Nmap putem uobičajenih komandi za instalaciju, ništa razoružavajuće za sada 🙂:
 
 
 
@@ -389,7 +389,7 @@ Da biste instalirali na Windows operativni sistem, počnite preuzimanjem binarne
 
 
 
-Zatim ćete morati preuzeti binarni fajl nazvan `nmap-<VERSION>-setup.exe` :
+Zatim ćete morati preuzeti binarni fajl nazvan `nmap-<VERSION>-setup.exe`:
 
 
 
@@ -562,13 +562,13 @@ Od sada, zapamtite da skenirate samo hostove u kontrolisanom okruženju za koje 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Platforma za obuku hakovanja, Hack The Box konstantno pruža ranjive sisteme koje možete napadati kako vam odgovara. Dostupno je nekoliko stotina sistema, ali obnovljeni skup od 20 mašina se nudi besplatno tokom cele godine, sa pristupom putem OpenVPN VPN-a.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platforma za obuku hakovanja, Hack The Box konstantno pruža ranjive sisteme koje možete napadati kako vam odgovara. Dostupno je nekoliko stotina sistema, ali obnovljeni skup od 20 mašina se nudi besplatno tokom cele godine, sa pristupom putem OpenVPN VPN-a.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Ova platforma nudi brojne namerno ranjive sisteme za preuzimanje, koji se mogu koristiti putem VirtualBox-a (takođe besplatno rešenje) ili na druge načine. Kada se preuzmu, nije potreban VPN - sve je lokalno.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Ova platforma nudi brojne namerno ranjive sisteme za preuzimanje, koji se mogu koristiti putem VirtualBox-a (takođe besplatno rešenje) ili na druge načine. Kada se preuzmu, nije potreban VPN - sve je lokalno.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Konačno, Nmap nas obaveštava da 998 TCP portova identifikovanih kao zatvoreni nisu prikazani u :
+Konačno, Nmap nas obaveštava da 998 TCP portova identifikovanih kao zatvoreni nisu prikazani u:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-Ovo nam štedi skoro 1.000 linija izlaza koji izgledaju kao :
+Ovo nam štedi skoro 1.000 linija izlaza koji izgledaju kao:
 
 
 
@@ -715,7 +715,7 @@ Prateći ove informacije, nalazimo ono što je najzanimljivije: tabelu organizov
 
 
 
-Ako pogledate datoteku "/etc/services" na Linux sistemu, pronaći ćete vezu "port/protokol - usluga" sličnu onoj koju prikazuje Nmap :
+Ako pogledate datoteku "/etc/services" na Linux sistemu, pronaći ćete vezu "port/protokol - usluga" sličnu onoj koju prikazuje Nmap:
 
 
 
@@ -913,7 +913,7 @@ izvod iz RFC 1122._
 
 
 
-Hajde da detaljnije pogledamo ovaj Wireshark snimak, koji prikazuje **tri moguća scenarija** u UDP :
+Hajde da detaljnije pogledamo ovaj Wireshark snimak, koji prikazuje **tri moguća scenarija** u UDP:
 
 
 
@@ -1030,7 +1030,7 @@ Kao rezultat toga, skeniranje će prirodno biti mnogo brže i Nmap će emitovati
 
 
 
-Na isti način, možemo navesti nekoliko portova za Nmap, koristeći istu opciju i spajajući navedene portove zarezom :
+Na isti način, možemo navesti nekoliko portova za Nmap, koristeći istu opciju i spajajući navedene portove zarezom:
 
 
 
@@ -1064,7 +1064,7 @@ Bez obzira na redosled, Nmap će proveriti sve ove portove, i to samo one na cil
 
 
 
-Ako je broj portova koje želite skenirati prevelik, možete ih navesti po opsegu, na primer :
+Ako je broj portova koje želite skenirati prevelik, možete ih navesti po opsegu, na primer:
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-Takođe je moguće, kao sa portovima u prethodnom odeljku, navesti više hostova, više mreža ili opseg :
+Takođe je moguće, kao sa portovima u prethodnom odeljku, navesti više hostova, više mreža ili opseg:
 
 
 
@@ -1437,7 +1437,7 @@ Da detaljno opišemo opcije naše poslednje narudžbine:
 
 
 
-- "`-PP` : omogućava ICMP echo (ping skeniranje) za otkrivanje hostova.
+- "`-PP`: omogućava ICMP echo (ping skeniranje) za otkrivanje hostova.
 
 
 
@@ -1547,7 +1547,7 @@ Jedan poslednji važan savet koji bih želeo da podelim sa vama tiče se **isklj
 
 
 
-Da bismo isključili IP adrese ili mreže iz našeg skeniranja, možemo koristiti Nmap opciju "--exclude", na primer :
+Da bismo isključili IP adrese ili mreže iz našeg skeniranja, možemo koristiti Nmap opciju "--exclude", na primer:
 
 
 
@@ -2012,7 +2012,7 @@ Da bi to postigao, Nmap se oslanja na NSE (_Nmap Scripting Engine_) skripte, koj
 
 
 
-Sa pravim opcijama, zamolićemo Nmap da koristi svoje različite NSE skripte na svakoj otkrivenoj usluzi, omogućavajući nam da otkrijemo :
+Sa pravim opcijama, zamolićemo Nmap da koristi svoje različite NSE skripte na svakoj otkrivenoj usluzi, omogućavajući nam da otkrijemo:
 
 
 
@@ -2240,20 +2240,20 @@ Ovi skripti su organizovani po kategorijama, a jedan skript može pripadati viš
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Tehnički, kategorije kojima skripta pripada su direktno naznačene u njenom kodu.
@@ -2300,7 +2300,7 @@ lista NSE Nmap skripti sa imenima koja počinju sa `ftp-`.
 
 
 
-Nmap zapravo ne nudi opciju za pregledavanje i listanje svojih NSE skripti; možete koristiti komandu `--script-help` praćenu imenom kategorije ili reči :
+Nmap zapravo ne nudi opciju za pregledavanje i listanje svojih NSE skripti; možete koristiti komandu `--script-help` praćenu imenom kategorije ili reči:
 
 
 
@@ -2356,7 +2356,7 @@ Sada ćemo naučiti kako da izvršimo skeniranje ranjivosti pažljivim odabirom 
 
 
 
-Za početak, možemo izabrati da izvršimo sve skripte koje pripadaju određenoj kategoriji. Moramo naznačiti ovu kategoriju ili ove kategorije Nmap-u sa argumentom `--script <category>` :
+Za početak, možemo izabrati da izvršimo sve skripte koje pripadaju određenoj kategoriji. Moramo naznačiti ovu kategoriju ili ove kategorije Nmap-u sa argumentom `--script <category>`:
 
 
 
@@ -2606,7 +2606,7 @@ Podrazumevano, Nmap nudi detaljan prikaz rezultata skeniranja i testova koje oba
 
 
 
-Da bi stvari bile lakše, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) omogućava vrlo jednostavno čuvanje svog izlaza u tekstualnu datoteku. Ovo može biti korisno za arhiviranje, poređenje sa drugim testovima, ali i za pregled ovog izlaza pomoću specijalizovanih alata za obradu teksta ili skript jezika, kao što su Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, itd. Da bismo sačuvali standardni izlaz Nmap-a u tekstualnu datoteku, možemo koristiti opciju `-oN <filename>` (slovo "N" u "normal") :
+Da bi stvari bile lakše, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) omogućava vrlo jednostavno čuvanje svog izlaza u tekstualnu datoteku. Ovo može biti korisno za arhiviranje, poređenje sa drugim testovima, ali i za pregled ovog izlaza pomoću specijalizovanih alata za obradu teksta ili skript jezika, kao što su Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, itd. Da bismo sačuvali standardni izlaz Nmap-a u tekstualnu datoteku, možemo koristiti opciju `-oN <filename>` (slovo "N" u "normal"):
 
 
 
@@ -2720,7 +2720,7 @@ U okviru Nmap-a, XML format se koristi za generate detaljne izveštaje o izvrše
 
 
 
-Da bismo generate dobili izlaznu datoteku u XML formatu, potrebno je koristiti opciju `-oX` ("O" od "XML") :
+Da bismo generate dobili izlaznu datoteku u XML formatu, potrebno je koristiti opciju `-oX` ("O" od "XML"):
 
 
 
@@ -2921,7 +2921,7 @@ Na skeniranju koje cilja mnoge hostove i portove, izlaz u terminalu postaje teš
 
 
 
-Da biste dodatno pratili aktivnost Nmap-a tokom skeniranja, možete koristiti opciju `--packet-trace`. Sa opcijom `-v`, dobijamo živi log svih otvorenih portova koje je Nmap otkrio, dok sa ovom opcijom dobijamo log liniju za svaki paket poslat na port. Ovo prirodno proizvodi veoma opširan izlaz, ali omogućava detaljno praćenje aktivnosti Nmap-a, evo primera :
+Da biste dodatno pratili aktivnost Nmap-a tokom skeniranja, možete koristiti opciju `--packet-trace`. Sa opcijom `-v`, dobijamo živi log svih otvorenih portova koje je Nmap otkrio, dok sa ovom opcijom dobijamo log liniju za svaki paket poslat na port. Ovo prirodno proizvodi veoma opširan izlaz, ali omogućava detaljno praćenje aktivnosti Nmap-a, evo primera:
 
 
 
@@ -3486,7 +3486,7 @@ Kao rezultat toga, Nmap se može smatrati osetljivom komponentom sistema na koje
 
 
 
-Ako ste odlučili da koristite Nmap ne putem sesije kao `root`, već dodeljivanjem specifičnih privilegija privilegovanom korisniku tako da ima sve što mu je potrebno za korišćenje Nmap-a (`sudo` ili _capabilities_), budite svesni da se Nmap može koristiti kao deo potpune eskalacije privilegija :
+Ako ste odlučili da koristite Nmap ne putem sesije kao `root`, već dodeljivanjem specifičnih privilegija privilegovanom korisniku tako da ima sve što mu je potrebno za korišćenje Nmap-a (`sudo` ili _capabilities_), budite svesni da se Nmap može koristiti kao deo potpune eskalacije privilegija:
 
 
 
@@ -3698,7 +3698,7 @@ mreža njuškanje tokom TCP Connect skeniranja za otvoreni port
 
 
 
-Možemo videti da je prvi TCP paket poslat kao `TCP SYN` od strane klijenta, a server će zatim odgovoriti sa `TCP SYN/ACK`, što ukazuje da je port otvoren i da hostuje aktivnu uslugu. Da bi simulirao legitimnog klijenta do kraja, Nmap će zatim poslati `TCP ACK` nazad serveru. Suprotno tome, kada se skenira zatvoren port :
+Možemo videti da je prvi TCP paket poslat kao `TCP SYN` od strane klijenta, a server će zatim odgovoriti sa `TCP SYN/ACK`, što ukazuje da je port otvoren i da hostuje aktivnu uslugu. Da bi simulirao legitimnog klijenta do kraja, Nmap će zatim poslati `TCP ACK` nazad serveru. Suprotno tome, kada se skenira zatvoren port:
 
 
 
@@ -3957,7 +3957,7 @@ snimanje mreže tokom TCP Null skeniranja za otvoreni port
 
 
 
-Mašina za skeniranje šalje paket bez zastavice (`[<None>]` u Wiresharku) bez ikakvog odgovora od servera. Suprotno tome, kada je ciljni port zatvoren :
+Mašina za skeniranje šalje paket bez zastavice (`[<None>]` u Wiresharku) bez ikakvog odgovora od servera. Suprotno tome, kada je ciljni port zatvoren:
 
 
 

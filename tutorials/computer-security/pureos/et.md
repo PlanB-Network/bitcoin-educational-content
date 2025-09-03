@@ -260,7 +260,7 @@ Enne PureOSi kasutamise alustamist on oluline oma süsteemi uuendada. See võima
 
 
 
-- Uuendus Interface graafiku kaudu** :
+- Uuendus Interface graafiku kaudu**:
 
 
 Avage rakendus **Tarkvara**, seejärel minge vahekaardile **Updates**. Saadaolevad uuendused kuvatakse automaatselt. Klõpsake **Laadi alla** ja seejärel **Installi**, kui allalaadimine on lõppenud.
@@ -269,7 +269,7 @@ Avage rakendus **Tarkvara**, seejärel minge vahekaardile **Updates**. Saadaolev
 
 
 
-- Uuendamine terminali kaudu** :
+- Uuendamine terminali kaudu**:
 
 
 Avage terminal ja sisestage järgmine käsk, et uuendada olemasolevate pakettide nimekirja:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Sisestage oma parool ja kinnitage. Seejärel installige uuendused :
+Sisestage oma parool ja kinnitage. Seejärel installige uuendused:
 
 
 
@@ -325,7 +325,7 @@ PureOSi rakendused on loodud kohanduvaks: nad kohanduvad automaatselt vastavalt 
 
 
 
-PureOS sisaldab ka **LibreOffice** kontoripaketti, mis sisaldab :
+PureOS sisaldab ka **LibreOffice** kontoripaketti, mis sisaldab:
 
 
 

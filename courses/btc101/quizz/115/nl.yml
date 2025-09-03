@@ -1,11 +1,9 @@
-question: Wie was de eerste persoon die lid werd van het Bitcoin netwerk na Satoshi Nakamoto?
-answer: Hal Finney.
+question: Wat is de online beschikbaarheid van Bitcoin sinds 2009?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney was de eerste persoon die zich aansloot bij het Bitcoin netwerk
-  na Satoshi Nakamoto zelf. Hij tweette zelfs Running
-  Bitcoin om de gelegenheid te markeren.
+  De online beschikbaarheid van Bitcoin is 99,988% sinds 2009.
 reviewed: true

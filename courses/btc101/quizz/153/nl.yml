@@ -1,8 +1,13 @@
-question: Wat is het doel van de moeilijkheidsaanpassing in Bitcoin Mining?
-answer: Het herbalanceert het globale Mining spel op basis van het aantal deelnemers.
+question: Wat gebeurt er bij een 51% aanval op het Bitcoin netwerk?
+answer: Een agent bezit meer dan de helft van Hashrate en kan proberen Blockchain aan te passen.
 wrong_answers:
-  - Het verhoogt de beloning voor Mining.
-  - Het vermindert het aantal bitcoins in omloop.
-  - Het verhoogt de veiligheid van het Bitcoin netwerk.
-explanation: >-
+  - Een agent krijgt controle over meer dan de helft van de bitcoins in omloop.
+  - Een agent krijgt controle over meer dan de helft van de knooppunten in het Bitcoin netwerk.
+  - Een agent krijgt controle over meer dan de helft van de Mining pools in de Bitcoin
+explanation: |
+  Bij een 51% aanval kan een agent met meer dan de helft van het
+  netwerk Hashrate kan mogelijk de
+  Blockchain manipuleren door een alternatieve keten van blokken te creëren.
+  Zo'n aanval zou echter extreem duur zijn en
+  onwaarschijnlijk winstgevend zijn, waardoor het een onwaarschijnlijk scenario is.
 reviewed: true

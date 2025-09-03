@@ -159,7 +159,7 @@ Kui olete oma konto loonud, saate Tailscale'i oma seadmetele paigaldada:
 
 
 
-- Linuxis (Debian, Ubuntu jne):** Teil on mitu võimalust. Kõige lihtsam meetod on käivitada ametlik paigaldusskript: näiteks Debian/Ubuntu :
+- Linuxis (Debian, Ubuntu jne):** Teil on mitu võimalust. Kõige lihtsam meetod on käivitada ametlik paigaldusskript: näiteks Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Veebihalduskonsool võimaldab teil vaadata ja hallata kõiki ühendatud seadmeid
 
 
 
-- Interface Web (halduskonsool)** : see veebikonsool, millele pääseb ligi aadressil [https://login.tailscale.com](https://login.tailscale.com), on teie Tailscale'i võrgu keskne armatuurlaud. Selles on loetletud kõik seadmed (*Masinad*), nende online/offline staatus, nende Tailscale'i IP-aadressid ja palju muud. Siin saate **haldada seadmeid** (ümber nimetada, võtmeid aeguda, marsruute lubada, sõlme keelata), **haldada kasutajaid** (organisatsioonilises kontekstis) ja määratleda turvanõudeid (ACL). Siin saate ka konfigureerida globaalseid valikuid, nagu MagicDNS, sildid või auth-klahvid (generate-eelsed auth-klahvid seadmete automaatseks lisamiseks). Interface veeb on väga mugav ülevaate saamiseks ja muudatuste kohaldamiseks, mida levitatakse koordineerimisserveri kaudu kõigile sõlmpunktidele. *Näide:* **allvõrgu marsruudi** või **väljumissõlme** aktiveerimine toimub ühe klõpsuga konsoolis, kui asjaomane sõlme on end selliseks kuulutanud.
+- Interface Web (halduskonsool)**: see veebikonsool, millele pääseb ligi aadressil [https://login.tailscale.com](https://login.tailscale.com), on teie Tailscale'i võrgu keskne armatuurlaud. Selles on loetletud kõik seadmed (*Masinad*), nende online/offline staatus, nende Tailscale'i IP-aadressid ja palju muud. Siin saate **haldada seadmeid** (ümber nimetada, võtmeid aeguda, marsruute lubada, sõlme keelata), **haldada kasutajaid** (organisatsioonilises kontekstis) ja määratleda turvanõudeid (ACL). Siin saate ka konfigureerida globaalseid valikuid, nagu MagicDNS, sildid või auth-klahvid (generate-eelsed auth-klahvid seadmete automaatseks lisamiseks). Interface veeb on väga mugav ülevaate saamiseks ja muudatuste kohaldamiseks, mida levitatakse koordineerimisserveri kaudu kõigile sõlmpunktidele. *Näide:* **allvõrgu marsruudi** või **väljumissõlme** aktiveerimine toimub ühe klõpsuga konsoolis, kui asjaomane sõlme on end selliseks kuulutanud.
 
 
 
@@ -289,7 +289,7 @@ CLI on väga kasulik serverites, kus puudub Interface graafika, ja teatavate teg
 
 
 
-Umbrel on populaarne isehostinguplatvorm (mida kasutatakse eelkõige Bitcoin/Lightning sõlmede ja muude isehostetavate teenuste jaoks selle App Store'i kaudu). Umbreli paigaldamiseks ja seadistamiseks soovitame teil jälgida meie spetsiaalset õpetust :
+Umbrel on populaarne isehostinguplatvorm (mida kasutatakse eelkõige Bitcoin/Lightning sõlmede ja muude isehostetavate teenuste jaoks selle App Store'i kaudu). Umbreli paigaldamiseks ja seadistamiseks soovitame teil jälgida meie spetsiaalset õpetust:
 
 
 
@@ -387,7 +387,7 @@ Juurdepääs on märkimisväärselt lihtne: selle asemel, et kasutada `umbrel.lo
 
 
 
-**Konnake välised rahakotid oma Bitcoin või välgumihklidega Tailscale'i kaudu :**
+**Konnake välised rahakotid oma Bitcoin või välgumihklidega Tailscale'i kaudu:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Zeuse konfigureerimiseks koos oma Lightning-sõlmega vt meie üksikasjalikku õpetust :
+Zeuse konfigureerimiseks koos oma Lightning-sõlmega vt meie üksikasjalikku õpetust:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Lisateavet Lightning Network ja selle tööpõhimõtete kohta Umbrelil leiate veebilehelt :
+Lisateavet Lightning Network ja selle tööpõhimõtete kohta Umbrelil leiate veebilehelt:
 
 
 
@@ -608,7 +608,7 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 - Kodulabori** õpetused: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Konkreetsed juhendid isemajutamiseks.
-- Väljumissõlme konfigureerimine** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Üksikasjalik juhend Exit Node'i konfigureerimiseks.
+- Väljumissõlme konfigureerimine**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Üksikasjalik juhend Exit Node'i konfigureerimiseks.
 - Kasutage Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Failide edastamine Tailscale'i seadmete vahel.
 
 

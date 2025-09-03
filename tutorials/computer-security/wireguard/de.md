@@ -30,7 +30,7 @@ WireGuard ist eine relativ neue Lösung, die seit März 2020 als stabile Version
 
 
 
-Einige wichtige Punkte über WireGuard :
+Einige wichtige Punkte über WireGuard:
 
 
 
@@ -95,7 +95,7 @@ In diesem Beispiel werde ich mich auf den folgenden Fall konzentrieren: **Ich m�
 
 
 
-Bezogen auf die IP-Adressen ergibt dies :
+Bezogen auf die IP-Adressen ergibt dies:
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Der Wert des öffentlichen Schlüssels wird in der Konsole zurückgegeben. In der Konfigurationsdatei des WireGuard müssen wir **den Wert unseres privaten Schlüssels** hinzufügen. Um diesen Wert abzurufen, geben Sie den folgenden Befehl ein und kopieren Sie den Wert :
+Der Wert des öffentlichen Schlüssels wird in der Konsole zurückgegeben. In der Konfigurationsdatei des WireGuard müssen wir **den Wert unseres privaten Schlüssels** hinzufügen. Um diesen Wert abzurufen, geben Sie den folgenden Befehl ein und kopieren Sie den Wert:
 
 
 
@@ -318,7 +318,7 @@ Damit unser Server die Pakete korrekt weiterleiten kann und das entfernte LAN f�
 
 
 
-Wenn Sie UFW noch nicht haben und es einrichten wollen (Sie können auch Nftables verwenden), installieren Sie zunächst :
+Wenn Sie UFW noch nicht haben und es einrichten wollen (Sie können auch Nftables verwenden), installieren Sie zunächst:
 
 
 
@@ -490,7 +490,7 @@ Wir müssen diese Konfiguration vervollständigen, insbesondere um die IP Addres
 
 
 
-Beginnen wir mit dem `[Interface]`-Block und fügen die IP Address "**192.168.110.2**" hinzu; denken Sie daran, dass der Server die IP Address "**192.168.110.121**" in diesem Netzwerksegment hat. Dies ergibt :
+Beginnen wir mit dem `[Interface]`-Block und fügen die IP Address "**192.168.110.2**" hinzu; denken Sie daran, dass der Server die IP Address "**192.168.110.121**" in diesem Netzwerksegment hat. Dies ergibt:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-In Bildern :
+In Bildern:
 
 
 
@@ -691,7 +691,7 @@ Bei der aktuellen Konfiguration fließt ein Teil des Datenverkehrs durch das VPN
 
 
 
-Zuerst müssen Sie das Paket "resolvconf" auf der :
+Zuerst müssen Sie das Paket "resolvconf" auf der:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Schließlich müssen Sie in der Tunnelkonfiguration auf der Windows 10-Arbeitsstation den Abschnitt "AllowedIPs" ändern, um anzugeben, dass alles durch den Tunnel laufen muss. Ersetzen Sie :
+Schließlich müssen Sie in der Tunnelkonfiguration auf der Windows 10-Arbeitsstation den Abschnitt "AllowedIPs" ändern, um anzugeben, dass alles durch den Tunnel laufen muss. Ersetzen Sie:
 
 
 
@@ -772,7 +772,7 @@ Die Konfiguration von WireGuard ist recht einfach und leicht zu verstehen und vo
 
 
 
-Zusätzliche Dokumentation :
+Zusätzliche Dokumentation:
 
 
 

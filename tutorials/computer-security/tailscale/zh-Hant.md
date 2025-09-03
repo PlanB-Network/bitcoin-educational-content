@@ -387,7 +387,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-**透過 Tailscale 將外部錢包連接到您的 Bitcoin 或 lightning 節點 :**
+**透過 Tailscale 將外部錢包連接到您的 Bitcoin 或 lightning 節點:**
 
 
 

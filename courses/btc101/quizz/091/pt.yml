@@ -1,13 +1,11 @@
-question: Qual é o uso recomendado de uma carteira física offline, ou fria?
-answer: Armazenar grandes quantidades.
+question: Qual é uma alternativa recomendada para armazenar sua frase mnemônica em vez de usar papel?
+answer: Gravá-la em uma placa de metal.
 wrong_answers:
-  - Armazenar despesas diárias.
-  - Armazenar pequenas quantidades.
-  - Armazenar economias de curto prazo.
+  - Armazená-la em um arquivo digital.
+  - Escrevê-la em um quadro branco.
+  - Salvá-la como um contato no seu telefone.
 explanation: |
-  Uma carteira física offline, ou fria, é recomendada para
-  armazenar grandes quantidades porque é menos vulnerável a
-  ameaças online do que as carteiras quentes. No entanto, não é
-  recomendada para despesas diárias porque é menos
-  acessível para transações diárias.
+  Uma das alternativas recomendadas ao papel para armazenar
+  sua frase mnemônica é gravá-la em uma placa de metal. Esta
+  solução é mais durável e de longa duração.
 reviewed: true

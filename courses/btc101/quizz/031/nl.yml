@@ -1,13 +1,12 @@
-question: Wat is geen voordeel van Bitcoin als valuta?
-answer: Het wordt gebruikt om belastingen te betalen.
+question: Wat is het maximale aantal Bitcoin eenheden dat ooit kan bestaan?
+answer: 21 miljoen.
 wrong_answers:
-  - Het is deelbaar.
-  - Het is vervoerbaar.
-  - Het is zonder toestemming.
+  - 3 biljoen.
+  - 100 miljoen.
+  - Er is geen limiet.
 explanation: |
-  Bitcoin, vanwege zijn eigenschappen zoals deelbaarheid,
-  verifieerbaarheid, permision-less aspect en transporteerbaarheid,
-  een uitstekende waardeopslag. Als neutrale
-  internetvaluta, vertegenwoordigt het een goed medium van Exchange
-  dat geen grenzen kent.
+  De totale Supply van Bitcoin is gemaximeerd op 21 miljoen eenheden.
+  Dit is een belangrijk kenmerk van Bitcoin dat het onderscheidt
+  van fiduciaire valuta, die in onbeperkte hoeveelheden kunnen worden gedrukt door centrale banken
+  onbeperkte hoeveelheden gedrukt kunnen worden door centrale banken.
 reviewed: true

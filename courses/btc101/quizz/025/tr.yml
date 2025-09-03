@@ -1,12 +1,11 @@
-question: Bitcoin'ın diğer para birimlerine göre temel avantajı nedir?
-answer: Kesinlikle sınırlı Supply ve tarafsızlığı nedeniyle mükemmel bir değer deposu sunar.
+question: Sağlam para nasıl yaratılır?
+answer: Sağlam para doğal olarak piyasadan ve gönüllü mutabakattan doğmalıdır.
 wrong_answers:
-  - Bölünemez ve taşınamaz.
-  - Parasal enflasyona maruz kalan para birimine harika bir örnektir.
-  - Dünyadaki tüm tüccarlar tarafından ticarette yaygın olarak kabul edilmektedir.
+  - Sağlam paranın hükümet tarafından para kanunları çıkarılarak uygulanması gerekmektedir.
+  - Sağlam para, şirketler tarafından şiddet kullanılarak dayatılmak zorundadır.
+  - Sağlam para yaratılamaz.
 explanation: |
-  Bitcoin'nin diğer para birimlerine göre temel avantajı
-  nedeniyle mükemmel bir değer deposu sunmasıdır
-  kesinlikle sınırlı Supply ve güvenilir taraf eksikliği. Bu
-  uzun vadeli tasarruflar için iyi bir seçimdir.
+  Sağlam para, ortaya çıkması gereken doğal bir sosyal olgudur
+  piyasadan ve gönüllü mutabakattan. Hiçbir insan ya da
+  bir grup insan para yaratabilir.
 reviewed: true

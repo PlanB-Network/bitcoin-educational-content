@@ -218,7 +218,7 @@ Po wykonaniu tej czynności, jeśli jakiekolwiek urządzenia zostały wcześniej
 
 
 
-Na stacjach roboczych z systemem Windows, za pomocą wiersza polecenia :
+Na stacjach roboczych z systemem Windows, za pomocą wiersza polecenia:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Na stacji roboczej z systemem Linux :
+Na stacji roboczej z systemem Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-W polu DNS powinieneś mieć Address swojego Pi-Hole, w moim przypadku 192.168.1.42 :
+W polu DNS powinieneś mieć Address swojego Pi-Hole, w moim przypadku 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ W polu DNS powinieneś mieć Address swojego Pi-Hole, w moim przypadku 192.168.1
 
 
 
-Aby ułatwić administrację, **Pi-Hole** korzysta z dobrze zaprojektowanego Interface web Interface. Przyjazny dla użytkownika i dostępny, pozwala :
+Aby ułatwić administrację, **Pi-Hole** korzysta z dobrze zaprojektowanego Interface web Interface. Przyjazny dla użytkownika i dostępny, pozwala:
 
 
 
@@ -322,7 +322,7 @@ Dodawanie listy w Pi-Hole
 
 
 
-Pozostaje tylko kliknąć "**Dodaj**", aby go dodać. Aby go aktywować, musimy wykonać dodatkowy krok, aby "ostrzec" Pi-Hole o przejęciu tej listy. Aby to zrobić :
+Pozostaje tylko kliknąć "**Dodaj**", aby go dodać. Aby go aktywować, musimy wykonać dodatkowy krok, aby "ostrzec" Pi-Hole o przejęciu tej listy. Aby to zrobić:
 
 
 

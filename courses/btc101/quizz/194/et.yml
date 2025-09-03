@@ -1,9 +1,10 @@
-question: Mis on üks lahendus suurtele struktuuridele või kirglikele bitcoinide kasutajatele, et aktsepteerida Bitcoini?
-answer: BTCpay Server
+question: Mis on KYC regulatsioonide eesmärk?
+answer: Terrorismi rahastamise, maksudest kõrvalehoidmise ja rahapesu vastu võitlemine.
 wrong_answers:
-  - Bitcoin Wallet
-  - Bitcoin Exchange
-  - Bitcoin Mining
-explanation: >
-  BTCpay Server on lahendus suurtele struktuuridele või kirglikele bitcoinide kasutajatele, et aktsepteerida Bitcoini. Teised lahendused hõlmavad OpenNode'i lihtsatele online-ettevõtetele ja Swiss Bitcoin Pay'd amatöörkauplejatele.
-reviewed: false
+  - Bitcoini hinna tõstmiseks.
+  - Bitcoini pakkumise kontrollimiseks.
+  - Inimeste takistamiseks Bitcoini ostust.
+explanation: >-
+  Tekst selgitab, et Know Your Customer (KYC) regulatsioonid nõuavad kasutajatelt
+  identifitseerimise esitamist, et võidelda terrorismi rahastamise, maksudest kõrvalehoidmise ja
+  rahapesu vastu.

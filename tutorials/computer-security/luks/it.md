@@ -30,7 +30,7 @@ La crittografia di una chiavetta USB è un buon modo per proteggere i dati sensi
 
 
 
-Per seguire questa esercitazione, è necessario :
+Per seguire questa esercitazione, è necessario:
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Qui, "**usbkey1**" è il nome che do al montaggio della partizione nel mio contesto. Potete scegliere quello che preferite. Occorre poi formattare la partizione contenuta nella partizione LUKS, ad esempio qui come **ext4** :
+Qui, "**usbkey1**" è il nome che do al montaggio della partizione nel mio contesto. Potete scegliere quello che preferite. Occorre poi formattare la partizione contenuta nella partizione LUKS, ad esempio qui come **ext4**:
 
 
 
@@ -353,7 +353,7 @@ Ciò significa che possiamo accedere ai dati della nostra chiavetta USB in modo 
 
 
 
-Una volta completata l'operazione, non dimenticate di chiudere tutto correttamente per essere sicuri di non danneggiare il volume. Il primo passo è smontare il file :
+Una volta completata l'operazione, non dimenticate di chiudere tutto correttamente per essere sicuri di non danneggiare il volume. Il primo passo è smontare il file:
 
 
 

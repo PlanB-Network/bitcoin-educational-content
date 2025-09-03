@@ -11,12 +11,12 @@ Operační systém (OS) je hlavní software, který spravuje všechny prostředk
 ### Proč Ubuntu?
 
 
-- Zvýšené zabezpečení** : Distribuce Linuxu jsou známé svým zabezpečením a odolností
+- Zvýšené zabezpečení**: Distribuce Linuxu jsou známé svým zabezpečením a odolností
 - Nulové náklady**: Ubuntu a většina linuxových distribucí jsou zdarma
 - Velká komunita**: Komunita uživatelů připravená pomoci prostřednictvím fór a výukových programů
 - Respektování soukromí**: Otevřený systém pro větší transparentnost
 - Jednoduchost**: Uživatelsky přívětivé rozhraní a snadné použití
-- Bohatý ekosystém** : Rozsáhlý katalog softwaru s otevřeným zdrojovým kódem
+- Bohatý ekosystém**: Rozsáhlý katalog softwaru s otevřeným zdrojovým kódem
 - Pravidelná podpora**: Zabezpečené aktualizace od společnosti Canonical
 
 ## Instalace a konfigurace
@@ -42,7 +42,7 @@ Operační systém (OS) je hlavní software, který spravuje všechny prostředk
 
 ### 3. Vytvoření spouštěcího klíče USB
 
-Můžete použít několik nástrojů, například Balena Etcher :
+Můžete použít několik nástrojů, například Balena Etcher:
 
 
 - Stáhněte si a nainstalujte [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Po výzvě zadejte heslo
-- Chcete-li nainstalovat aktualizace, zadejte příkaz :
+- Chcete-li nainstalovat aktualizace, zadejte příkaz:
 
 ```bash
 sudo apt upgrade
@@ -199,7 +199,7 @@ Ostatní prohlížeče (Chrome, Brave atd.) lze nainstalovat prostřednictvím S
 
 Ubuntu je dodáváno se sadou LibreOffice (Writer pro zpracování textu).
 
-Jeho otevření : Aktivity > Hledat "LibreOffice Writer" nebo klikněte na ikonu, pokud se objeví na liště.
+Jeho otevření: Aktivity > Hledat "LibreOffice Writer" nebo klikněte na ikonu, pokud se objeví na liště.
 
 Můžete vytvářet, upravovat a ukládat dokumenty v různých formátech (včetně formátu .docx).
 
@@ -207,7 +207,7 @@ Můžete vytvářet, upravovat a ukládat dokumenty v různých formátech (vče
 
 Správce softwaru (nazvaný "Ubuntu Software"): grafické rozhraní pro vyhledávání a instalaci aplikací.
 
-V Terminálu použijte příkaz :
+V Terminálu použijte příkaz:
 
 ```bash
 sudo apt install nom-du-paquet

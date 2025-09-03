@@ -100,7 +100,7 @@ El navegador Mullvad ha sido diseñado con un objetivo principal: **proteger la 
 
 
 
-Mullvad Browser incluye una serie de **características de seguridad y privacidad** directamente inspiradas en Tor Browser :
+Mullvad Browser incluye una serie de **características de seguridad y privacidad** directamente inspiradas en Tor Browser:
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser incluye **tres extensiones preinstaladas** que forman el núcleo
 ### **uBloquear origen**
 
 
-Esta extensión bloqueadora de anuncios y rastreadores viene preconfigurada con **listas de filtros optimizadas** para bloquear :
+Esta extensión bloqueadora de anuncios y rastreadores viene preconfigurada con **listas de filtros optimizadas** para bloquear:
 
 
 
@@ -169,7 +169,7 @@ uBlock Origin en Mullvad Browser utiliza parámetros estandarizados para garanti
 ### **NoScript**
 
 
-NoScript se ejecuta en segundo plano para gestionar los **niveles de seguridad** del navegador. Este :
+NoScript se ejecuta en segundo plano para gestionar los **niveles de seguridad** del navegador. Este:
 
 
 
@@ -328,7 +328,7 @@ Haga clic en el botón **"Descargar "** correspondiente a su sistema operativo.
 
 
 
-Para Linux, puede elegir entre distintos formatos en función de su distribución. Una vez finalizada la descarga :
+Para Linux, puede elegir entre distintos formatos en función de su distribución. Una vez finalizada la descarga:
 
 
 
@@ -399,7 +399,7 @@ Mullvad Browser ofrece tres niveles de seguridad:
 
 
 
-- Normal** (nivel actual por defecto) : Todas las funciones del navegador y del sitio web habilitadas
+- Normal** (nivel actual por defecto): Todas las funciones del navegador y del sitio web habilitadas
 
 
 
@@ -489,7 +489,7 @@ Si decides instalar extensiones de todos modos, ten en cuenta que estás creando
 
 
 
-4. **Elija el nivel de seguridad que mejor se adapte a sus necesidades** :
+4. **Elija el nivel de seguridad que mejor se adapte a sus necesidades**:
 
 
 

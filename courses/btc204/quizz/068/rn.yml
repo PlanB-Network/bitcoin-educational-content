@@ -1,0 +1,10 @@
+question: Ni gute twogabanya ingaruka za COIH igihe dukoranya ama UTXO?
+answer: Mu gushiramwo ama UTXO gusa ava mu nzira imwe.
+wrong_answers:
+  - Mu kohereza ama UTXO ku ma aderesi y’abandi.
+  - Mu guhitamwo mu buryo bw’impfagusa ama UTXO kugira ngo ntihagire ibigereranyo bimenyekana.
+  - Mu gukomeza ama UTXO mu bihe vy’ibikorwa bike.
+explanation: |
+  Niwaba ubona ko ukeneye gushiramwo ama bitcoins yawe, banza ushire imbere gushiramwo UTXOs zivuye ku nzira imwe.
+  
+reviewed: false

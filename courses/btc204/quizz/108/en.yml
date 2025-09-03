@@ -8,6 +8,6 @@ wrong_answers:
   - Versioning reuse
 
 explanation: |
-  When an analyst examines a payjoin transaction, they are led to believe that all the inputs come from the same person because of the CIOH. However, this perception is incorrect, as the payment recipient also contributes to the inputs alongside the actual payer. Therefore, the chain analysis is diverted towards an interpretation that turns out to be false.
+  When an analyst examines a payjoin transaction, they are led to believe that all the inputs originate from the same person due to the CIOH. However, this perception is incorrect, as the payment recipient also contributes to the inputs alongside the actual payer. Therefore, the chain analysis is diverted towards an interpretation that turns out to be false.
 
-reviewed: false
+reviewed: true

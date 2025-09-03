@@ -1,10 +1,13 @@
-question: Jedan od nedostataka zlata kao oblika novca je njegova težina i nepraktičnost za svakodnevne transakcije.
-answer: Nije lako deljivo.
+question: Koji je put evolucije današnje valute?
+answer: Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Blockchain -> Lightning mreža
 wrong_answers:
-  - Ne zadržava svoju vrednost kroz prostor.
-  - Vremenom se erodira.
-  - Lako je proizvesti.
+  - Sirov kamen -> Novčić -> Novčanica -> Blockchain -> Lightning Network
+  - Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Lightning Network
+  - Neobrađeni kamen -> Novčić -> Bankovna kartica -> Novčanica -> Blockchain -> Lightning mreža
 explanation: |
-  Jedan od glavnih nedostataka zlata kao oblika novca je
-  teškoća u deljenju na manje jedinice kada se za tim ukaže potreba, što ga čini manje praktičnim za korišćenje.
+  Valuta je tehnologija koja se razvijala tokom vremena,
+  počela je kao sirovo kamenje, zatim se promenila u
+  metalne kovanice, pa u novčanice, bankovne kartice, i
+  na kraju u peer-to-peer mreže uz korišćenje
+  Bitkoin Blockchain-a i Lightning mreže.
 reviewed: true

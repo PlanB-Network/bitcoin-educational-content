@@ -37,7 +37,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Gratis ** : Sistem ini sepenuhnya gratis. Namun, ketika Anda mengunduhnya, Anda dapat memberikan donasi untuk mendukung para pengembang.
+- Gratis **: Sistem ini sepenuhnya gratis. Namun, ketika Anda mengunduhnya, Anda dapat memberikan donasi untuk mendukung para pengembang.
 
 
 

@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe c’urufunguzo rwagutse muri HD Wallet?
+answer: Kwemera gukuraho imfunguruzo z'abana
+wrong_answers:
+  - Bika amafaranga y'ibikorwa vya Wallet
+  - Ubwo nyene generate aba UTXOs
+  - Gushiramwo imfunguruzo za bose
+explanation: |
+  Urufunguzo rwagutse rufatanya urufunguzo (rwo kwigenga canke rwa bose) n'urufunguzo rwa chain code rufatanye, ni ukuvuga, Elements zibiri zikenewe kugira ngo umuntu abone urufunguzo rw'abana.
+reviewed: false

@@ -128,7 +128,7 @@ USB-nøkkelen din er nå klar til å begynne å installere Debian.
 
 
 
-Slik starter du installasjonen fra USB-nøkkelen :
+Slik starter du installasjonen fra USB-nøkkelen:
 
 
 
@@ -144,7 +144,7 @@ Slik starter du installasjonen fra USB-nøkkelen :
 
 
 
-Startskjerm :
+Startskjerm:
 
 
 
@@ -334,7 +334,7 @@ Skriv inn passordet ditt når du blir bedt om det (merk at ingen tegn vises mens
 
 
 
-- Slik installerer du tilgjengelige oppdateringer :
+- Slik installerer du tilgjengelige oppdateringer:
 
 
 
@@ -380,7 +380,7 @@ Det er to måter å installere programmer på i Debian:
 
 
 
-### Grafisk metode :
+### Grafisk metode:
 
 
 
@@ -388,7 +388,7 @@ Du kan bruke **programvareadministratoren** (tilgjengelig via den grafiske Inter
 
 
 
-### Kommandolinjemetode :
+### Kommandolinjemetode:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Erstatt `<name>` med pakkenavnet. For eksempel, for å installere `curl` :
+Erstatt `<name>` med pakkenavnet. For eksempel, for å installere `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Installere en manuelt nedlastet pakke :
+### Installere en manuelt nedlastet pakke:
 
 
 
@@ -439,7 +439,7 @@ Det er også mulig å bytte skrivebordsmiljø (f.eks. til XFCE, KDE osv.) uten �
 
 
 
-Hvis du vil lære mer om Debian, og mer generelt om GNU/Linux-distribusjoner, anbefaler jeg at du leser dette kurset :
+Hvis du vil lære mer om Debian, og mer generelt om GNU/Linux-distribusjoner, anbefaler jeg at du leser dette kurset:
 
 
 

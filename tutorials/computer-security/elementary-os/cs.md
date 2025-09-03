@@ -19,7 +19,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Jednoduchost a snadnost použití** : Grafický systém Elementary OS Interface je na půli cesty mezi systémy MacOs a Windows. Díky této známosti si jej snadno osvojí i nezkušení uživatelé.
+- Jednoduchost a snadnost použití**: Grafický systém Elementary OS Interface je na půli cesty mezi systémy MacOs a Windows. Díky této známosti si jej snadno osvojí i nezkušení uživatelé.
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Zdarma** : Systém je zcela zdarma. Při jeho stažení však můžete přispět na podporu vývojářů.
+- Zdarma**: Systém je zcela zdarma. Při jeho stažení však můžete přispět na podporu vývojářů.
 
 
 
 
 
-- Aktivní komunita** : Komunita kolem Elementary OS je rozmanitá a vnímavá. Pokud narazíte na potíže, můžete snadno najít pomoc na fórech nebo sociálních sítích.
+- Aktivní komunita**: Komunita kolem Elementary OS je rozmanitá a vnímavá. Pokud narazíte na potíže, můžete snadno najít pomoc na fórech nebo sociálních sítích.
 
 
 

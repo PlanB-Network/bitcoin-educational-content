@@ -38,7 +38,7 @@ Her bruker vi det på **Windows 11**, men det er fullt mulig å bruke det på an
 
 
 
-Hvis du vil gå videre, kan du se veiledningen om Nmap :
+Hvis du vil gå videre, kan du se veiledningen om Nmap:
 
 
 

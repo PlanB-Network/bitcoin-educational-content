@@ -1,0 +1,14 @@
+question: Nk’uko abahinga mu vy’ubutunzi bo muri Otirishiya babivuga, ni igiki gituma abantu bagira ubufatanye?
+answer: Inyungu y’umwimbu iva mu kugabanya ibikorwa.
+wrong_answers:
+  - Icipfuzo co gukorana n’abandi no kubana n’abandi.
+  - Ivy’uko umuntu akeneye uburinzi n’umutekano.
+  - Ugukurikirana ubutunzi n’ububasha.
+explanation: |
+  Abahinga mu vy’ubutunzi bo muri Otirishiya, canecane Ludwig Von Mises, barasozera .
+  ko akamaro k’umwimbu kava mu kugabanya .
+  ubukazi ni bwo butera imbere mu bijanye n'imibano
+  ubufatanye. Ivyo ni kubera ko abantu ku giti cabo bama ari beza .
+  off iyo bize cane igikorwa cabo kandi bakifatanya n’
+  guhanahana amakuru.
+reviewed: true

@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Dále aktualizujeme mezipaměť balíčků a pokusíme se nainstalovat MongoDB :
+Dále aktualizujeme mezipaměť balíčků a pokusíme se nainstalovat MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB nelze nainstalovat, protože chybí závislost: **libssl1.1**. Než bude
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Aktualizujte mezipaměť balíčků :
+Aktualizujte mezipaměť balíčků:
 
 
 
@@ -279,7 +279,7 @@ Tato konfigurace služby OpenSearch je určena k nastavení jednoho uzlu. Zde je
 
 
 
-- cluster.name: graylog** : tento parametr pojmenovává cluster OpenSearch s názvem "**graylog**".
+- cluster.name: graylog**: tento parametr pojmenovává cluster OpenSearch s názvem "**graylog**".
 - node.name: ${HOSTNAME}**: název uzlu je nastaven dynamicky tak, aby odpovídal názvu místního počítače Linux. I když máme pouze jeden uzel, je důležité jej správně pojmenovat.
 - path.data: /var/lib/opensearch**: tato cesta určuje, kam OpenSearch ukládá svá data na lokálním počítači, v tomto případě do "**/var/lib/opensearch**".
 - path.logs: /var/log/opensearch**: tato cesta určuje, kde jsou uloženy soubory protokolu OpenSearch, zde v "**/var/log/opensearch**".
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Při zde nasazené konfiguraci **OpenSearch začne s přidělenou pamětí 4 GB a může se zvětšit až na 4 GB**, takže během provozu nedochází k žádným výkyvům paměti. Zde konfigurace zohledňuje skutečnost, že virtuální počítač má celkem **8 GB RAM**. Oba parametry musí mít stejnou hodnotu. To znamená nahradit řádky :
+Při zde nasazené konfiguraci **OpenSearch začne s přidělenou pamětí 4 GB a může se zvětšit až na 4 GB**, takže během provozu nedochází k žádným výkyvům paměti. Zde konfigurace zohledňuje skutečnost, že virtuální počítač má celkem **8 GB RAM**. Oba parametry musí mít stejnou hodnotu. To znamená nahradit řádky:
 
 
 
@@ -327,7 +327,7 @@ Při zde nasazené konfiguraci **OpenSearch začne s přidělenou pamětí 4 GB 
 
 
 
-S těmito řádky :
+S těmito řádky:
 
 
 
@@ -408,7 +408,7 @@ Další krok: dlouho očekávaná instalace Graylogu!
 
 
 
-Chcete-li **nainstalovat Graylog 6.1** v jeho nejnovější verzi, spusťte následující 4 příkazy pro **stažení a instalaci serveru Graylog** :
+Chcete-li **nainstalovat Graylog 6.1** v jeho nejnovější verzi, spusťte následující 4 příkazy pro **stažení a instalaci serveru Graylog**:
 
 
 
@@ -432,7 +432,7 @@ Začněme konfigurací těchto dvou možností:
 
 
 - password_secret**: tento parametr slouží k definici klíče, který Graylog používá k zabezpečení ukládání uživatelských hesel (v duchu solícího klíče). Tento klíč musí být **unikátní** a **náhodný**.
-- root_password_sha2** : tento parametr odpovídá výchozímu heslu správce v systému Graylog. Je uloženo ve formátu Hash SHA-256.
+- root_password_sha2**: tento parametr odpovídá výchozímu heslu správce v systému Graylog. Je uloženo ve formátu Hash SHA-256.
 
 
 
@@ -788,7 +788,7 @@ V tomto adresáři je nutné použít čísla pro určení pořadí načítání
 
 
 
-V tomto adresáři vytvoříme soubor s názvem "**10-graylog.conf**" :
+V tomto adresáři vytvoříme soubor s názvem "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Do tohoto souboru vložte tento řádek :
+Do tohoto souboru vložte tento řádek:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Pokud máte několik serverů a chcete analyzovat protokoly konkrétního serveru, zadejte kromě jeho názvu také :
+Pokud máte několik serverů a chcete analyzovat protokoly konkrétního serveru, zadejte kromě jeho názvu také:
 
 
 
@@ -939,7 +939,7 @@ Neúspěšné pokusy o připojení jsou prováděny z počítače s IP adresou A
 
 
 
-V tomto případě lze použít filtr :
+V tomto případě lze použít filtr:
 
 
 

@@ -22,7 +22,7 @@ Ga naar [btcmap.org](https://btcmap.org/):
 
 
 
-Beschikbaar op :
+Beschikbaar op:
 
 
 
@@ -165,9 +165,9 @@ Eindelijk,
 
 - 1: Vink dit vakje aan als je alleen wilt bevestigen dat de informatie in het bestand up-to-date is (ga in dit geval direct naar stap 4)
 - 2: Geef hier aan welke informatie eventueel onjuist is en welke correctie je voorstelt
-- 3 : Beschrijf hier hoe je de informatie hebt verkregen (bezoek, telefoontje...)
+- 3: Beschrijf hier hoe je de informatie hebt verkregen (bezoek, telefoontje...)
 - 4: Ga verder met captcha-verificatie (hoofdlettergevoelig)
-- 5 : Klik op "Rapport verzenden" om uw suggestie te verzenden
+- 5: Klik op "Rapport verzenden" om uw suggestie te verzenden
 
 
 
@@ -287,7 +287,7 @@ Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communit
 - 1: De naam van de vestiging
 - 2: Fysieke Address (verplicht, je hebt een Address op straat nodig)
 - 3: Markeer het exacte punt op de kaart
-- 4 : In welke categorie valt de plant?
+- 4: In welke categorie valt de plant?
 - 5: Welke Bitcoin betaalmiddelen zijn beschikbaar (BTC, Lightning, contactloos)?
 
 
@@ -307,9 +307,9 @@ Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communit
   - "Ik ben de bedrijfseigenaar": Ik ben de manager van het bedrijf
   - "Ik bezocht dit etablissement als klant": Ik bezocht deze vestiging als klant
   - "andere methode
-- 12 : Uw e-mail Address voor het geval het platform meer informatie nodig heeft
+- 12: Uw e-mail Address voor het geval het platform meer informatie nodig heeft
 - 13: Captcha-controle (hoofdlettergevoelig)
-- 14 : Klik op "Locatie indienen" om uw vermelding te verzenden
+- 14: Klik op "Locatie indienen" om uw vermelding te verzenden
 
 
 

@@ -3,209 +3,113 @@ name: Lynis
 description: Melakukan audit keamanan mesin Linux dengan Lynis
 ---
 ![cover](assets/cover.webp)
-
-
-
 ___
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Fares CHELLOUG yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
-
-
-
+*Tutorial ini didasarkan pada konten asli oleh Fares CHELLOUG yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
 ___
-
-
 
 ## I. Presentasi
 
+Dalam tutorial ini, kita akan belajar cara melakukan audit keamanan pada komputer Linux menggunakan Lynis! Bagi Anda yang belum mengenal _Lynis_, yaitu sebuah aplikasi utilitas sederhana berbasis command line yang akan menganalisis konfigurasi server Anda dan memberikan rekomendasi untuk _meningkatkan keamanan komputer Anda_.
 
+Lynis adalah aplikasi open source dari CISOFY, sebuah perusahaan yang berspesialisasi dalam _audit dan pertahanan sistem_. Jika Anda ingin membuat kemajuan dalam memperkuat Linux dan layanan populer (SSH, Apache2, dll.), Lynis adalah pilihan Anda! Lynis tidak hanya memberi tahu Anda apa yang salah, tetapi juga memberikan rekomendasi untuk mengarahkan Anda ke arah yang benar (dan menghemat waktu Anda).
 
-**Dalam tutorial ini, kita akan belajar cara melakukan audit keamanan pada mesin Linux menggunakan Lynis! Bagi Anda yang belum mengenal **Lynis,** ini adalah sebuah utilitas baris perintah kecil yang akan menganalisis konfigurasi server Anda dan membuat rekomendasi untuk **meningkatkan keamanan mesin Anda.**
+**Lynis** berfungsi pada sebagian besar distribusi Linux, termasuk: **Debian, FreeBSD, HP-UX, NetBSD, NixOS, OpenBSD, Solaris**. Lynis ditujukan untuk pengguna Linux/UNIX, tetapi juga kompatibel dengan **macOS**. Pemasangannya sangat cepat, tidak ada manajemen dependensi pada tingkat paket.
 
+Lynis digunakan untuk berbagai tujuan:
 
-
-Lynis adalah alat sumber terbuka dari CISOFY, sebuah perusahaan yang berspesialisasi dalam **audit dan pengerasan sistem**. Jika Anda ingin membuat kemajuan dalam mengeraskan Linux dan layanan populer (SSH, Apache2, dll.), Lynis adalah sekutu Anda! Lynis tidak hanya memberi tahu Anda apa yang salah, tetapi juga memberikan rekomendasi untuk mengarahkan Anda ke arah yang benar (dan menghemat waktu Anda).
-
-
-
-**Lynis** dapat digunakan pada sebagian besar distribusi Linux, termasuk: **Debian, FreeBSD, HP-UX, NetBSD, NixOS, OpenBSD, Solaris**. Lynis ditujukan untuk pengguna Linux / UNIX, tetapi juga kompatibel dengan **macOS**. Sangat cepat untuk menginstal, tidak ada manajemen ketergantungan pada tingkat paket.
-
-
-
-Ini digunakan untuk berbagai tujuan:
-
-
-
-
-
-- Audit keselamatan
+- Audit keamanan
 - Pengujian kepatuhan (PCI, HIPAA, dan SOX)
 - Konfigurasi sistem yang lebih tangguh
 - Deteksi kerentanan
 
-
-
 Alat ini digunakan secara luas oleh berbagai macam pengguna, termasuk administrator sistem, auditor TI, dan pentester. Untuk analisis, alat ini didasarkan pada standar seperti **CIS Benchmark, NIST, NSA, OpenSCAP** dan pada rekomendasi resmi dari **Debian, Gentoo, Red Hat**.
 
+Aplikasi ini banyak digunakan oleh berbagai pengguna, termasuk administrator sistem, auditor IT, dan pentesters. Untuk analisis, aplikasi ini didasarkan pada standar seperti **CIS Benchmark, NIST, NSA, OpenSCAP**, dan pada rekomendasi resmi dari **Debian, Gentoo, Red Hat**.
 
-
-Proyek ini tersedia di Address ini di **Github**:
-
-
-
-
+Proyek ini tersedia di kink ini di **Github**:
 
 - [GitHub - Lynis](https://github.com/CISOfy/lynis)
 - [Unduh Lynis dari CISOFY](https://cisofy.com/lynis/#download)
 
-
-
 Dalam tutorial langkah demi langkah ini, saya akan **menggunakan VPS yang menjalankan Debian 12** dan saya akan berkonsentrasi pada bagian SSH, karena saya ingin memeriksa konfigurasinya dan memperbaikinya.
-
-
 
 ## II. Pengunduhan dan pemasangan
 
-
-
 Ada beberapa cara untuk mengunduh dan menginstal Lynis. Pilih salah satu yang Anda sukai dari daftar di bawah ini.
-
-
 
 ### A. Instalasi dari repositori Debian
 
-
-
 Mode instalasi ini memungkinkan Anda untuk menggunakan perintah **lynis** dari mana saja pada sistem, tidak seperti instalasi dari sumber, di mana Anda harus berada di direktori.
 
-
-
 Sambungkan ke server Anda melalui SSH dan masukkan perintah berikut untuk menginstal LYNIS:
-
-
 
 ```
 sudo apt-get update
 sudo apt-get install lynis -y
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/024.webp)
 
-
-
 ### B. Unduh dari situs web resmi
 
-
-
 Anda juga dapat mengunduhnya dari situs web Cisofy:
-
-
 
 ```
 sudo wget https://downloads.cisofy.com/lynis/lynis-3.0.9.tar.gz
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/032.webp)
 
-
-
-Selanjutnya, kita akan membongkar arsip menggunakan perintah berikut:
-
-
+Selanjutnya, kita akan membuka arsip menggunakan perintah berikut:
 
 ```
 sudo tar -zxf lynis-3.0.9.tar.gz
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/020.webp)
 
-
-
 Mari kita pindah ke folder **lynis**:
-
-
 
 ```
 cd lynis
 ```
 
-
-
 Kita dapat memeriksa pembaruan dengan perintah berikut:
-
-
 
 ```
 ./lynis update info
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/023.webp)
 
-
-
 ### C. Unduh dari GitHub
 
-
-
 Kita akan mengunduh **Lynis** dari repositori resmi GitHub, menggunakan perintah berikut (*git* harus ada di komputer Anda):
-
-
 
 ```
 git clone https://github.com/CISOfy/lynis.git
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/060.webp)
 
-
-
 ## III. Menggunakan Lynis
 
-
-
-Lynis hadir di mesin kami, jadi mari kita pelajari cara menggunakannya!
-
-
+Lynis sudah terinstall di komputer kita, jadi mari kita pelajari cara menggunakannya!
 
 ### A. Kontrol dan opsi utama
 
-
-
 Untuk menampilkan perintah yang tersedia, cukup masukkan perintah berikut ini:
-
-
 
 ```
 sudo lynis
@@ -213,71 +117,39 @@ sudo lynis
 ./lynis
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/039.webp)
 
-
-
 Dan Anda juga mendapatkan opsi berikut ini:
-
-
 
 ![Image](assets/fr/040.webp)
 
-
-
 Untuk menampilkan semua perintah yang tersedia, masukkan perintah berikut:
-
-
 
 ```
 sudo lynis show
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/022.webp)
 
-
-
 Jika Anda ingin menampilkan semua opsi, Anda harus memasukkan :
-
-
 
 ```
 sudo lynis show options
 ```
 
-
-
 Inilah yang Anda dapatkan:
-
-
 
 ![Image](assets/fr/021.webp)
 
-
-
 Dalam sisa artikel ini, kita akan belajar cara menggunakan opsi tertentu.
-
-
 
 ### B. Melakukan audit sistem
 
-
-
-Kita akan meminta **Lynis** untuk mengaudit sistem kita, menyoroti apa yang telah dikonfigurasi dengan benar dan apa yang dapat ditingkatkan. Untuk melakukannya, masukkan perintah berikut:
-
-
+Kita akan meminta **Lynis** untuk mengaudit sistem kita, menyoroti apa yang telah dikonfigurasi dengan benar dan apa yang perlu ditingkatkan. Untuk melakukannya, masukkan perintah berikut:
 
 ```
 sudo lynis audit system
@@ -285,35 +157,19 @@ sudo lynis audit system
 ./lynis audit system
 ```
 
-
-
-Secara default, jika Anda tidak masuk sebagai root saat menjalankan perintah ini, alat ini akan berjalan dengan hak akses pengguna yang sedang masuk. Beberapa tes tidak akan dijalankan dalam konteks ini:
-
-
+Secara default, jika Anda tidak masuk sebagai root saat menjalankan perintah ini, aplikasi ini akan berjalan dengan hak akses pengguna yang sedang masuk. Beberapa tes tidak akan dijalankan dalam konteks ini:
 
 ![Image](assets/fr/052.webp)
 
-
-
 Berikut ini adalah pengujian yang tidak akan dilakukan dalam mode ini:
-
-
 
 ![Image](assets/fr/051.webp)
 
-
-
 Setelah perintah dijalankan, analisis dimulai. Tunggu sebentar.
-
-
 
 Pada akhir audit, Anda akan mendapatkan ini (kita dapat melihat bahwa **Lynis** telah mengidentifikasi sistem **Debian 12** dengan benar dan akan menggunakan **plugin Debian** untuk analisis):
 
-
-
 ![Image](assets/fr/017.webp)
-
-
 
 Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua yang telah dia periksa pada sistem kami. Ini disusun berdasarkan kategori, seperti yang akan kita lihat. Perlu juga dicatat bahwa kode warna digunakan untuk menyoroti rekomendasi:
 
@@ -326,127 +182,77 @@ Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua
 - Green** untuk titik-titik di mana konfigurasi server Anda sesuai
 - Putih**, bila netral
 
+Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua yang telah diperiksanya pada sistem kita. Ini disusun berdasarkan kategori, seperti yang akan kita lihat. Penting juga untuk dicatat bahwa kode warna digunakan untuk menyoroti rekomendasi:
 
+- Merah: Untuk elemen kritis atau prosedur yang tidak dilakukan (misalnya, paket yang hilang), yaitu server Anda tidak mematuhi poin ini.
+- Kuning: Untuk saran atau kepatuhan sebagian terhadap rekomendasi (bisa dibilang ini adalah nilai tambah untuk memenuhi poin yang disoroti dengan warna ini (non-prioritas)).
+- Hijau: Untuk poin di mana konfigurasi server Anda sudah sesuai.
+- Putih: Ketika netral.
 
 Di sini, kita bisa melihat bahwa Lynis merekomendasikan untuk menginstal **fail2ban**:
 
-
-
 ![Image](assets/fr/057.webp)
 
+Pada bagian "**Boot and services**", kita melihat bahwa perlindungan layanan melalui *systemd* dapat ditingkatkan. Sisi positifnya, Grub2 hadir dan tidak ada masalah dengan izin pada :
 
-
-Pada bagian "**Boot dan layanan**", kami melihat bahwa perlindungan layanan melalui *systemd* dapat ditingkatkan. Sisi positifnya, Grub2 hadir dan tidak ada masalah dengan izin pada :
-
-
+Di bagian "**Boot and services**", kita melihat bahwa perlindungan layanan melalui _systemd_ perlu ditingkatkan. Di sisi positif, Grub2 sudah ada dan tidak ada masalah dengan izin pada:
 
 ![Image](assets/fr/029.webp)
 
-
-
-Kemudian Anda memiliki bagian "**Kernel**" dan "**Memori dan Proses**":
-
-
+Kemudian Anda memiliki bagian "**Kernel**" dan "**Memory and Processes**":
 
 ![Image](assets/fr/037.webp)
 
-
-
-Selanjutnya, bagian "**Pengguna, Grup, dan Otentikasi**". Alat ini menginformasikan kepada kita tentang peringatan pada izin direktori "**/etc/sudoers.d**". Untuk saat ini, kita tidak tahu lebih banyak, tetapi kita akan dapat melihat rekomendasinya di akhir analisis.
-
-
+Selanjutnya, bagian "**Users, Groups and Authentication**". Aplikasi ini menginformasikan kepada kita tentang peringatan pada izin direktori "**/etc/sudoers.d**". Untuk saat ini, kita tidak tahu lebih banyak, tetapi kita akan dapat melihat rekomendasinya di akhir analisis.
 
 ![Image](assets/fr/049.webp)
 
-
-
-Berikut ini adalah apa yang dapat Anda temukan di bagian "**Shells", "Files Systems", dan "USB Devices "**. Di antaranya, kita dapat melihat bahwa ada saran mengenai titik pemasangan dan bahwa perangkat USB saat ini diizinkan pada mesin ini.
-
-
+Berikut ini adalah apa yang dapat Anda temukan di bagian "**Shells", "Files Systems", dan "USB Devices "**. Di antaranya, kita dapat melihat bahwa ada saran mengenai titik pemasangan dan bahwa perangkat USB saat ini diizinkan pada komputer ini.
 
 ![Image](assets/fr/048.webp)
 
-
-
-Selanjutnya, bagian: "**Layanan nama", "Port dan paket", "Jaringan".** Di sini menunjukkan bahwa paket yang tidak lagi digunakan dapat dihapus dan tidak ada utilitas yang mampu mengelola pembaruan otomatis.
-
-
+Selanjutnya, bagian: "**Name services", "Port dan packages", "Networking".** Di sini menunjukkan bahwa paket yang tidak lagi digunakan dapat dihapus dan tidak ada utilitas yang mampu mengelola pembaruan otomatis.
 
 ![Image](assets/fr/058.webp)
 
-
-
-Kita bisa melihat bahwa firewall telah diaktifkan (dan ya, ada iptables!). Selain itu, kita dapat melihat bahwa ia telah menemukan aturan yang tidak digunakan dan server web Apache telah terinstal.
-
-
+Kita dapat melihat bahwa firewall diaktifkan (dan ya, ada iptables!). Selain itu, kita dapat melihat bahwa telah ditemukan aturan yang tidak digunakan dan server web Apache sudah terinstal.
 
 ![Image](assets/fr/055.webp)
 
-
-
 Ini diikuti dengan analisis server web itu sendiri, karena layanan telah diidentifikasi.
 
-
-
-Kita dapat melihat bahwa ia telah menemukan berkas konfigurasi **Nginx**, dan untuk bagian SSL/TLS, **cipher** dikonfigurasikan dengan menggunakan protokol yang tidak aman. Di sisi lain, menurut Lynis, manajemen log sudah benar.
-
-
+Kita dapat melihat bahwa telah ditemukan file konfigurasi **Nginx**, dan untuk bagian SSL/TLS, **cipher** dikonfigurasikan dengan menggunakan protokol yang tidak aman. Di sisi lain, menurut Lynis, manajemen log sudah benar.
 
 ![Image](assets/fr/038.webp)
 
-
-
-Layanan SSH ada pada server VPS saya. Konfigurasinya dianalisis oleh Lynis. Harus dikatakan bahwa keamanan SSH dapat dengan mudah ditingkatkan! Kami akan kembali ke area ini secara mendetail setelah kami mendapatkan rekomendasinya.
-
-
+Layanan SSH ada pada server VPS saya. Konfigurasinya dianalisis oleh Lynis. Harus dikatakan bahwa keamanan SSH dapat dengan mudah ditingkatkan! Kita akan kembali ke area ini secara mendetail setelah kita mendapatkan rekomendasinya.
 
 ![Image](assets/fr/026.webp)
 
+Berikut ini adalah bagian **"Dukungan SNMP", "Database", "PHP", "Dukungan Squid", "Layanan LDAP", "Pencatatan dan file"**.
 
-
-Berikut ini adalah bagian **"Dukungan SNMP", "Database", "PHP", "Dukungan Squid", "Layanan LDAP", "Pencatatan dan file" **.
-
-
-
-Ada satu saran yang sangat penting tentang manajemen log: sangat disarankan agar Anda tidak hanya menyimpan log secara lokal pada mesin Anda. Jika mesin dirusak oleh penyerang, kemungkinan besar dia akan mencoba menghapus jejaknya... Jadi kita perlu mengeksternalisasi log.
-
-
+Ada satu saran yang sangat penting tentang manajemen log: sangat disarankan agar Anda tidak hanya menyimpan log secara lokal pada komputer Anda. Jika komputer dirusak oleh penyerang, kemungkinan besar dia akan mencoba menghapus jejaknya... Jadi kita perlu mengeksternalisasi log.
 
 ![Image](assets/fr/050.webp)
 
+Di sini, kita memiliki audit untuk layanan yang rentan, manajemen akun, tugas terjadwal, dan sinkronisasi NTP. Ditunjukkan bahwa tingkatnya rendah pada bagian banner dan identifikasi: ini dapat dimengerti, karena jika Anda menampilkan versi sistem, itu memberikan indikasi kepada penyerang sistem. Ini adalah pengaturan default.
 
-
-Di sini, kami memiliki audit layanan yang rentan, manajemen akun, tugas terjadwal, dan sinkronisasi NTP. Diindikasikan bahwa levelnya rendah pada bagian spanduk dan identifikasi: ini dapat dimengerti, jika Anda menampilkan versi sistem, ini memberikan indikasi kepada penyerang potensial. Ini adalah pengaturan default.
-
-
-
-Akan sangat menarik untuk mengaktifkan **auditd** untuk memiliki log dalam hal analisis **forensik**. **NTP** juga diperiksa, karena untuk mencari log secara efisien, lebih baik memiliki sistem yang tepat waktu, yang menyederhanakan pencarian.
-
-
+Akan menarik untuk mengaktifkan **auditd** untuk memiliki log untuk melakukan **analisis forensik**. **NTP** juga diperiksa, karena untuk mencari log secara efisien, lebih baik memiliki sistem yang tepat waktu, yang menyederhanakan pencarian.
 
 ![Image](assets/fr/036.webp)
 
+Lynis kemudian melihat elemen kriptografi, virtualisasi, kontainer, dan kerangka kerja keamanan. Beberapa bagian kosong karena tidak ada korespondensi dengan mesin yang dianalisis. Namun, kita bisa melihat bahwa saya memiliki dua sertifikat SSL yang sudah kedaluwarsa dan saya belum mengaktifkan **SELinux**.
 
-
-Lynis kemudian melihat kriptografi Elements, virtualisasi, kontainer, dan kerangka kerja keamanan. Beberapa bagian kosong karena tidak ada korespondensi dengan mesin yang dianalisis. Namun, kita bisa melihat bahwa saya memiliki dua sertifikat SSL yang sudah kedaluwarsa dan saya belum mengaktifkan **SELinux**.
-
-
+Lynis kemudian memeriksa elemen kriptografi, virtualisasi, kontainer, dan kerangka kerja keamanan. Beberapa bagian kosong karena tidak ada kesesuaian dengan komputer yang dianalisis. Namun, kita dapat melihat bahwa saya memiliki dua sertifikat SSL yang kedaluwarsa dan saya belum mengaktifkan **SELinux**.
 
 ![Image](assets/fr/027.webp)
 
-
-
-Di sini juga masih ada ruang untuk perbaikan: tidak ada pemindai anti-virus atau anti-malware, dan kami memiliki saran tentang izin file.
-
-
+Di sini juga ada hal yang harus diperbaiki: tidak ada pemindai anti-virus atau anti-malware, dan ada saran mengenai izin file.
 
 ![Image](assets/fr/028.webp)
 
 
-
-Selanjutnya, Lynis berfokus pada pengetatan konfigurasi kernel Linux (termasuk aturan untuk tumpukan IPv4), serta manajemen direktori "Home" mesin Linux.
-
-
+Lynis selanjutnya berfokus pada pengetatan konfigurasi kernel Linux (termasuk aturan untuk stack IPv4), serta manajemen direktori "Home" pada komputer Linux.
 
 ![Image](assets/fr/035.webp)
 

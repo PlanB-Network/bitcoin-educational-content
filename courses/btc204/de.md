@@ -620,11 +620,11 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 Die Untersuchung externer Heuristiken bedeutet die Analyse der Ähnlichkeiten, Muster und Merkmale bestimmter Elemente, die nicht spezifisch für die Transaktion selbst sind. Mit anderen Worten: Während wir uns früher mit den internen Heuristiken auf die Ausnutzung von Elementen beschränkt haben, die der Transaktion innewohnen, erweitern wir nun dank der externen Heuristiken unser Analysefeld auf das Umfeld der Transaktion.
 
-### Adresse Wiederverwendung
+### Wiederverwendung der Adresse
 
 Dies ist eine der bekanntesten Heuristiken von Bitcoinern. Die Wiederverwendung von Adressen ermöglicht es, eine Verbindung zwischen verschiedenen Transaktionen und verschiedenen UTXOs herzustellen. Sie tritt auf, wenn eine Bitcoin-Empfangsadresse mehrmals verwendet wird.
 
-So ist es möglich, die Wiederverwendung von Adressen innerhalb derselben Transaktion als interne Heuristik zur Identifizierung des Austauschs zu nutzen (wie wir im vorigen Kapitel gesehen haben). Die Adresswiederverwendung kann aber auch als externe Heuristik verwendet werden, um die Einzigartigkeit einer Einheit hinter mehreren Transaktionen zu erkennen.
+So ist es möglich, die Wiederverwendung von Adressen innerhalb derselben Transaktion als interne Heuristik zur Identifizierung des Wechelgelds zu nutzen (wie wir im vorigen Kapitel gesehen haben). Die Adresswiederverwendung kann aber auch als externe Heuristik verwendet werden, um die Einzigartigkeit einer Einheit hinter mehreren Transaktionen zu erkennen.
 
 Die Wiederverwendung einer Adresse wird so interpretiert, dass alle an dieser Adresse gesperrten UTXOs zu derselben Einrichtung gehören (oder gehört haben). Diese Heuristik lässt wenig Raum für Unsicherheit. Einmal erkannt, entspricht die resultierende Interpretation wahrscheinlich der Realität. Sie ermöglicht daher die Gruppierung verschiedener Onchain-Aktivitäten.
 
@@ -648,7 +648,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 Quelle: [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
-### Schriftähnlichkeit und Brieftaschenaufdrucke
+### Skript-Ähnlichkeit und Wallet-Fingerabdrücke
 
 Neben der Wiederverwendung von Adressen gibt es noch viele andere Heuristiken, die es Ihnen ermöglichen, Aktionen mit demselben Portfolio oder Adresscluster zu verknüpfen.
 
@@ -656,7 +656,7 @@ Erstens kann ein Analytiker nach Ähnlichkeiten in der Skriptverwendung suchen. 
 
 Ganz allgemein kann sich ein Analyst auch auf die charakteristischen Fingerabdrücke eines Portfolios konzentrieren. Dabei handelt es sich um nutzungsspezifische Prozesse, die identifiziert werden können, um sie als Heuristiken zur Rückverfolgung zu nutzen. Mit anderen Worten: Wenn wir eine Häufung derselben internen Merkmale bei Transaktionen beobachten, die der ermittelten Einheit zugeordnet werden, können wir versuchen, dieselben Merkmale bei anderen Transaktionen zu identifizieren.
 
-So können wir zum Beispiel feststellen, dass der verfolgte Benutzer seine Änderungen systematisch an P2TR-Adressen sendet (`bc1p...`). Wenn sich dieser Prozess wiederholt, können wir ihn als Heuristik für den Rest unserer Analyse verwenden. Wir können auch andere Fingerabdrücke verwenden, wie die Reihenfolge der UTXOs, die Stelle der Änderung in den Ausgaben, die RBF-Signalisierung (Replace-by-Fee) oder die Versionsnummer, das Feld `nSequence` und das Feld `nLockTime`.
+So können wir zum Beispiel feststellen, dass der verfolgte Benutzer sein Wechselgeld systematisch an P2TR-Adressen sendet (`bc1p...`). Wenn sich dieser Prozess wiederholt, können wir ihn als Heuristik für den Rest unserer Analyse verwenden. Wir können auch andere Fingerabdrücke verwenden, wie die Reihenfolge der UTXOs, die Stelle des Wechselgeldes in den Ausgaben, die RBF-Signalisierung (Replace-by-Fee) oder die Versionsnummer, das Feld `nSequence` und das Feld `nLockTime`.
 
 ![BTC204](assets/fr/057.webp)
 
@@ -704,7 +704,7 @@ Wenn wir beispielsweise beobachten, dass verfolgte Transaktionen systematisch vo
 
 Der Analytiker hat auch die Möglichkeit, sich auf Analysen zu stützen, die zuvor als Open Source veröffentlicht wurden, oder auf seine eigenen früheren Analysen. Vielleicht finden wir eine Ausgabe, die auf eine Gruppe von Adressen hinweist, die wir bereits identifiziert haben. Manchmal ist es auch möglich, sich auf Ergebnisse zu stützen, die auf eine Tauschbörse hinweisen, da die Adressen dieser Unternehmen allgemein bekannt sind.
 
-Auf dieselbe Weise können Sie eine Analyse durch Eliminierung durchführen. Wenn z. B. bei der Analyse einer Transaktion mit zwei Ausgängen einer sich auf ein bereits bekanntes Adresscluster bezieht, das sich jedoch von der Entität, die wir verfolgen, unterscheidet, dann können wir interpretieren, dass der andere Ausgang wahrscheinlich den Austausch darstellt.
+Auf dieselbe Weise können Sie eine Analyse durch Eliminierung durchführen. Wenn z. B. bei der Analyse einer Transaktion mit zwei Ausgängen einer sich auf ein bereits bekanntes Adresscluster bezieht, das sich jedoch von der Entität, die wir verfolgen, unterscheidet, dann können wir interpretieren, dass der andere Ausgang wahrscheinlich das Wechselgeld darstellt.
 
 Die Kanalanalyse umfasst auch eine etwas allgemeinere OSINT-Komponente (*Open Source Intelligence*), die Internetrecherchen umfasst. Aus diesem Grund raten wir davon ab, Adressen direkt in sozialen Netzwerken oder auf einer Website zu veröffentlichen, egal ob pseudonym oder nicht.
 

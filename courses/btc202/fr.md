@@ -40,7 +40,7 @@ Dans cette première partie du cours, nous allons clarifier les notions de base 
 
 ### Partie 2 - Devenir un bitcoiner souverain
 
-Dans cette deuxième partie, je vous propose d’abord de comprendre pourquoi il est essentiel de faire tourner votre propre nœud Bitcoin. Nous explorerons ensuite les différents types de nœuds existants (complet, élagué, SPV…), leur fonctionnement et leurs implications techniques.
+Dans cette deuxième partie, je vous propose d’abord de comprendre pourquoi il est important de faire tourner votre propre nœud Bitcoin. Nous explorerons ensuite les différents types de nœuds existants (complet, élagué, SPV…), leur fonctionnement et leurs implications techniques.
 
 Nous dresserons par la suite un panorama des logiciels permettant de faire tourner un nœud Bitcoin, en présentant les avantages et les inconvénients de chacun. Enfin, nous conclurons sur le choix du matériel le plus adapté en fonction de vos besoins et de votre budget, avec des recommandations très concrètes.
 
@@ -1428,7 +1428,7 @@ Vous pouvez forcer la validation intégrale de tous les scripts en désactivant 
 
 `assumeutxo` est un autre paramètre existant, mais, contrairement à `assumevalid`, il n’est pas activé par défaut. Ce mécanisme permet au logiciel de charger un instantané de l’UTXO set, accompagné de ses métadonnées, et de le considérer provisoirement comme état de référence, après avoir vérifié que les en-têtes mènent bien à la blockchain avec le plus de travail.
 
-Le nœud devient ainsi rapidement opérationnel pour des usages courants (RPC, connexion de portefeuilles, indexation externe...), tout en lançant, en arrière-plan, la reconstruction complète et vérifiée de son propre UTXO set. Une fois cette étape terminée, l’instantané initial est remplacé par l’état reconstitué localement. Cette approche dissocie la mise à disposition rapide du nœud et la vérification intégrale, sans pour autant sacrifier cette dernière.
+Le nœud devient ainsi rapidement opérationnel pour des usages courants (RPC, connexion de portefeuilles...), tout en lançant, en arrière-plan, la reconstruction complète et vérifiée de son propre UTXO set. Une fois cette étape terminée, l’instantané initial est remplacé par l’état reconstitué localement. Cette approche dissocie la mise à disposition rapide du nœud et la vérification intégrale, sans pour autant sacrifier cette dernière.
 
 ### Découverte des pairs : comment votre nœud trouve-t-il le réseau Bitcoin ?
 
@@ -1436,7 +1436,7 @@ Lors de son premier démarrage, un nœud ne connaît encore aucun pair. Pourtant
 
 ![Image](assets/fr/096.webp)
 
-Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par consulter son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ce fichier est vide, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
+Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par tenter de se reconnecter aux pairs sortants enregistrés avant l’arrêt, informations conservées dans le fichier `anchors.dat`. Puis, il consulte son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ces 2 fichiers sont vides, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
 
 Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs maintenus par des développeurs reconnus de l’écosystème](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp), qui renvoient une liste d’adresses IP de nœuds présumés actifs. Ces adresses permettent au nouveau nœud d’initier ses premières connexions et de réclamer les données nécessaires à l’IBD. Voici la liste des *DNS seeds* actifs à ce jour (août 2025) :
 - Pieter Wuille : `seed.bitcoin.sipa.be.`  
@@ -1526,7 +1526,7 @@ Le nœud maintient un cache mémoire au-dessus de LevelDB afin d’absorber les 
 
 Théoriquement, on pourrait valider une transaction en rescannant l’historique des blocs pour vérifier qu’une sortie n’a jamais été dépensée. Mais en pratique, ce serait beaucoup trop long, car il faudrait scanner toute la blockchain à chaque nouvelle transaction. L’UTXO set fournit ainsi la vue minimale suffisante pour prouver localement, et en temps raisonnable, l’absence de double dépense.
 
-Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du réseau : plus il y a d’utilisateurs, plus la demande en UTXOs est importante.
+Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisation de Bitcoin, car sa taille augmente naturellement très rapidement. Cette hausse s’explique notamment par l’augmentation du prix du bitcoin, qui encourage la fragmentation des pièces, ainsi que par l’adoption croissante du système : plus il y a d’utilisateurs, plus la demande en UTXOs est importante.
 
 ![Image](assets/fr/105.webp)
 
@@ -1543,13 +1543,13 @@ La mempool est l’ensemble local des transactions valides reçues, mais pas enc
 - les règles de mempool : elles constituent un sous-ensemble des règles de relais du nœud et définissent les caractéristiques qu’une transaction non confirmée doit respecter pour être acceptée dans la mempool ;
 - la percolation des transactions : en raison de divers facteurs, une transaction donnée peut avoir été diffusée à une partie du réseau, mais ne pas avoir encore atteint une autre partie.
 
-Il est important de noter que les mempools des nœuds n’ont aucune valeur de consensus. Bitcoin fonctionne parfaitement même si chaque nœud possède une mempool différente. Au final, ce qui fait autorité reste toujours les blocs ajoutés à la blockchain. Par exemple, même si un nœud refuse initialement une transaction donnée dans sa mempool (valide selon les règles de consensus), il sera obligé de l’accepter si celle-ci est finalement incluse dans un bloc disposant d’une preuve de travail valide. S’il ne le faisait pas et rejetait ce bloc pourtant conforme aux règles de consensus, il provoquerait un hardfork, c’est-à-dire la création d’un nouveau Bitcoin distinct sur lequel il serait seul.
+Il est important de noter que les mempools des nœuds n’ont aucune valeur de consensus. Bitcoin fonctionne parfaitement même si chaque nœud possède une mempool différente. Au final, ce qui fait autorité reste toujours les blocs ajoutés à la blockchain. Par exemple, même si un nœud refuse initialement une transaction donnée dans sa mempool (valide selon les règles de consensus), il sera obligé de l’accepter si celle-ci est finalement incluse dans un bloc disposant d’une preuve de travail valide. S’il ne le faisait pas et rejetait ce bloc pourtant conforme aux règles de consensus, il provoquerait un hard fork, c’est-à-dire la création d’un nouveau Bitcoin distinct sur lequel il serait seul.
 
 #### Politique et gestion de la mémoire
 
-À la réception d’une transaction, Core donc applique une série de vérifications des règles de consensus (syntaxe, scripts valides, pas de double dépense...) et des règles de mempool, qui sont une politique locale (RBF, seuils de frais minimaux, limite de la data dans les `OP_RETURN`...). Si la transaction respecte ces règles, elle est insérée en mémoire.
+À la réception d’une transaction, Core applique donc une série de vérifications des règles de consensus (syntaxe, scripts valides, pas de double dépense...) et des règles de mempool, qui sont une politique locale (RBF, seuils de frais minimaux, limite de la data dans les `OP_RETURN`...). Si la transaction respecte ces règles, elle est insérée en mémoire.
 
-La taille de la mempool est bornée par le paramètre `maxmempool` dans le fichier `bitcoin.conf` (nous en parlerons dans le prochain chapitre). Par défaut, la limite est de 300 Mo. Lorsqu’elle est pleine, le nœud relève dynamiquement son seuil de frais minimal et expulse en priorité les transactions les moins rémunératrices (c'est-à-dire les transactions qui devraient être minées en premières). Les transactions trop anciennes peuvent également expirer après un délai configuré.
+La taille de la mempool est bornée par le paramètre `maxmempool` dans le fichier `bitcoin.conf` (nous en parlerons dans le prochain chapitre). Par défaut, la limite est de 300 Mo. Lorsqu’elle est pleine, le nœud relève dynamiquement son seuil de frais minimal et expulse en priorité les transactions les moins rémunératrices (c'est-à-dire qu'il conserve en priorité les transactions qui devraient être minées en premières). Les transactions trop anciennes peuvent également expirer après un délai configuré.
 
 #### Persistance de la mempool sur disque
 
@@ -1654,7 +1654,7 @@ Pour segmenter la configuration par réseau, on peut utiliser des sections : `
 
 ### Ce que le bitcoin.conf peut et ne peut pas faire
 
-Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurable dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’aspects non consensuels sont paramétrables. On distingue trois classes utiles à garder en tête :
+Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurable dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’autres aspects sont paramétrables. On distingue 3 classes utiles à garder en tête :
 - Les paramètres purement locaux. Ils n’affectent que votre nœud : taille du cache (`dbcache`), mode élagué (`prune`), index optionnels... Ils influencent les performances de votre machine, mais pas le réseau ;
 - Les politiques de relais et de mempool. Elles décident de ce que votre nœud accepte, conserve et relaie avant confirmation : seuil minimal de frais (`minrelaytxfee`), taille et durée de rétention de la mempool (`maxmempool`, `mempoolexpiry`), remplacement des transactions (RBF)... Ces règles ne font pas partie du consensus, donc deux nœuds différents peuvent avoir des politiques différentes et rester pleinement compatibles. En revanche, ces paramètres vont avoir une influence sur le réseau Bitcoin (comme expliqué dans la première partie, notamment avec la théorie de la percolation) ;
 - La connectivité réseau. Ce sont les options qui déterminent comment votre nœud trouve des pairs, écoute, traverse un NAT, utilise Tor ou un proxy, ou limite sa bande passante. Elles façonnent votre topologie, mais n’altèrent pas le relai des transactions.
@@ -1663,7 +1663,7 @@ Comprendre cette séparation est très important : si une transaction ne respe
 
 ### Réseau et topologie
 
-Tout d’abord, il est essentiel de distinguer clairement les 2 types de connexions qu’un nœud Bitcoin peut avoir :
+Tout d’abord, il est important de distinguer clairement les 2 types de connexions qu’un nœud Bitcoin peut avoir :
 - Les connexions sortantes, qui sont initiées par notre nœud vers un autre nœud ;
 
 ![Image](assets/fr/106.webp)
@@ -1672,7 +1672,7 @@ Tout d’abord, il est essentiel de distinguer clairement les 2 types de connexi
 
 ![Image](assets/fr/107.webp)
 
-Ces deux types de connexions peuvent tout à fait échanger les mêmes données dans les deux sens ; il ne s’agit pas d’une limitation du sens du flux, mais uniquement d’une différence dans l’initiateur de la connexion. Du point de vue de notre nœud, les connexions sortantes sont généralement considérées comme plus sûres, car c’est nous qui en prenons l’initiative et choisissons précisément à quel nœud nous connecter, ce qui rend peu probable que cette connexion soit malveillante. Par défaut, Bitcoin Core maintient 10 connexions sortantes (8 "full-relay" + 2 "block-relay-only").
+Ces deux types de connexions peuvent tout à fait échanger les mêmes données dans les deux sens ; il ne s’agit pas d’une limitation du sens du flux, mais uniquement d’une différence dans l’initiateur de la connexion. Du point de vue de notre nœud, les connexions sortantes sont généralement considérées comme plus sûres, car c’est nous qui en prenons l’initiative et choisissons précisément à quel nœud nous connecter, ce qui rend peu probable que cette connexion soit malveillante. Par défaut, Bitcoin Core maintient 10 connexions sortantes (8 "*full-relay*" + 2 "*block-relay-only*").
 
 Un nœud complet apporte davantage de valeur au réseau lorsqu’il accepte des connexions entrantes. Le paramètre `listen=1` active l’écoute sur le port 8333 par défaut du réseau concerné, ce qui permet ainsi de recevoir ces connexions entrantes sur le clearnet. Pour que cela fonctionne, ce port doit également être ouvert sur votre routeur. S’il ne l’est pas, votre nœud continuera de fonctionner uniquement avec des connexions sortantes, ce qui n’aura aucun impact sur votre utilisation personnelle de Bitcoin. Le choix d’autoriser ou non les connexions entrantes vous appartient, il n'y a pas de "meilleur choix".
 
@@ -1690,7 +1690,7 @@ Niveau réseau, on a également :
 - `fixedseeds` : Autorise l’usage des *seed nodes* (liste d'adresses hardcodées) si les _DNS seeds_ échouent ou sont désactivés (par défaut : `1`) ;
 - `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`) ;
 
-Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI).C e n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
+Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI). Ce n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
 
 Pour être entièrement sous Tor, vous devez forcer Bitcoin Core à utiliser uniquement ce réseau et à créer un service caché pour les connexions entrantes (si vous voulez les activez). Dans le `bitcoin.conf`, il faut ajouter cette configuration : 
 - `onlynet=onion`,
@@ -1713,7 +1713,7 @@ Si vous souhaitez éviter toute résolution DNS en clair, vous pouvez ajouter `d
 
 #### Paramètres de base
 
-Voici les paramètres de base que vous pouvez modifier sur votre `bitcoin.conf` concernant la  gestion de votre mempool et le lai des transactions non confirmée :
+Voici les paramètres de base que vous pouvez modifier sur votre `bitcoin.conf` concernant la  gestion de votre mempool et le relai des transactions non confirmées :
 
 - `maxmempool=<n>` : Limite la taille maximale de la mempool locale à `<n>` mégaoctets (défaut : `300`). Lorsque la limite est atteinte, votre nœud élève dynamiquement son seuil de frais effectif et expulse en priorité les transactions les moins rémunératrices (en fonction du taux de frais, pas de la valeur absolue) pour rester sous la borne. Vous pouvez laisser ce paramètre par défaut. L’augmenter peut s’avérer utile si vous minez en solo, ou si vous souhaitez obtenir une vision plus précise de la congestion des mempools et améliorer l’estimation des frais. À l’inverse, la réduire permet d’économiser de la mémoire vive et, de manière marginale, d’autres ressources système.
 

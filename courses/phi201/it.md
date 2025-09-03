@@ -36,7 +36,7 @@ Inizieremo con una panoramica delle due principali filosofie politiche che hanno
 Qui torneremo alle radici del pensiero filosofico con i Greci, che inventarono la razionalità critica, e i Romani, che posero le basi del diritto moderno. Esamineremo anche la caduta di Roma come momento cruciale che ridefinì l'organizzazione politica e sociale attorno al concetto di libertà.
 
 **Sezione 3: le origini della libertà: il Medioevo**  
-Il Medioevo è spesso visto come un periodo oscuro, ma scopriremo che in realtà ha gettato le basi della libertà moderna. Studieremo l'affermazione della libertà umana, i dibattiti tra ragione e fede, la nascita dello stato sovrano, l'etica biblica che valorizza l'individuo e le prime tracce del capitalismo che appaiono in questo periodo.
+Il Medioevo è spesso visto come un periodo oscuro, ma scopriremo che in realtà ha gettato le basi della libertà moderna. Studieremo l'affermazione della libertà umana, i dibattiti tra ragione e fede, la nascita dello Stato sovrano, l'etica biblica che valorizza l'individuo e le prime tracce del capitalismo che appaiono in questo periodo.
 
 **Sezione 4: l'ascesa della libertà: dalla Rinascita all'Illuminismo**  
 Questa sezione si concentrerà sull'emergere della tolleranza religiosa e della libertà economica, che presero slancio durante la Rinascita e l'Illuminismo. Analizzeremo anche l'importanza dell'anno 1776, che segnò un punto di svolta fondamentale con eventi chiave per il mondo libero, prima di immergerci nell'era delle rivoluzioni che ridefinirono il concetto stesso di libertà.
@@ -63,8 +63,7 @@ Perché intitolare questo corso: una storia della libertà? Perché dobbiamo com
 
 ![image](assets/1/img-028.webp)
 
-Allo stesso tempo, Auguste Comte disse: "Non si conosce pienamente una scienza finché non se ne conosce la storia." Questa verità potrebbe essere applicata all'idea di libertà.
-Infatti, la libertà non è un'idea nuova. È un'eredità tramandata attraverso le generazioni. L'intera storia della civiltà testimonia una lotta incessante per la libertà.
+Allo stesso tempo, Auguste Comte disse: "Non si conosce pienamente una scienza finché non se ne conosce la storia." Questa verità potrebbe essere applicata all'idea di libertà. Infatti, la libertà non è un'idea nuova. È un'eredità tramandata attraverso le generazioni. L'intera storia della civiltà testimonia una lotta incessante per la libertà.
 
 ![image](assets/1/img-022.webp)
 
@@ -121,13 +120,9 @@ Quando si aprono i libri di testo, Bastiat notava, si apprende che l'umanità sa
 
 In altre parole, il pregiudizio culturale che domina la filosofia occidentale così come la storiografia è che dobbiamo tutto al potere: libertà, salute, educazione, sicurezza, prosperità. L'umanità è descritta come "materia inerte" che prende forma grazie al legislatore.
 
-Ma la realtà del potere è ben diversa secondo Bastiat. Il potere è oppressione. Scrive:
+Ma la realtà del potere è ben diversa secondo Bastiat. Il potere è oppressione. Scrive: "Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classi, nazioni e famiglie! Riceverai sempre questa risposta invariabile: dalla sete di potere." ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
-> "Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classi, nazioni e famiglie! Riceverai sempre questa risposta invariabile: dalla sete di potere." ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
-
-La sete di potere è alla radice di tutte le forme di oppressione nella storia. In una lettera a Mrs. Chevreux, datata 23 giugno 1850, Bastiat delinea le fasi dell'oppressione: 
-
-> "Tempi di lotta per stabilire chi si impadronirà dello Stato; e tempi di tregua che saranno il regno effimero dell'oppressione trionfante, foriero di una nuova lotta."
+La sete di potere è alla radice di tutte le forme di oppressione nella storia. In una lettera a Mrs. Chevreux, datata 23 giugno 1850, Bastiat delinea le fasi dell'oppressione: "Tempi di lotta per stabilire chi si impadronirà dello Stato; e tempi di tregua che saranno il regno effimero dell'oppressione trionfante, foriero di una nuova lotta."
 
 Prima, la conquista del potere attraverso la guerra, poi l'istituzione di uno Stato che subsiste depredando la ricchezza dei suoi cittadini.
 La storia è quindi una lotta tra due principi: libertà e oppressione:
@@ -153,7 +148,7 @@ Bastiat ci dice che esistono ancora due forme di depredazione legale:
 
 In [_La Fisiologia della Depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli scrive:
 
-"La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente dibattuti. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
+> La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente dibattuti. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
 
 ### Storia del saccheggio
 
@@ -171,7 +166,7 @@ Pochi giorni prima della sua morte a Roma nel 1850, Bastiat confidò al suo amic
 >
 > (P. Paillottet, _Nove Giorni Vicino a un Uomo Morente_)
 
-## Lord acton: la libertà è il motore della storia
+## Lord Acton: la libertà è il motore della storia
 
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
@@ -196,7 +191,7 @@ La sua tesi centrale è che "la libertà è stabilita dal conflitto dei poteri."
 
 > Per libertà, intendo la garanzia che ogni uomo sarà protetto, quando fa ciò che ritiene essere il suo dovere, contro l'influenza dell'autorità e delle maggioranze, del costume e dell'opinione. Lo Stato è competente a stabilire doveri e a distinguere tra bene e male solo nella sua sfera immediata. (Lord Acton)
 
-In altre parole, la libertà è il diritto degli individui di seguire la propria coscienza, e non è compito dello stato dettare la condotta di una persona in questioni filosofiche, morali e religiose.
+In altre parole, la libertà è il diritto degli individui di seguire la propria coscienza, e non è compito dello Stato dettare la condotta di una persona in questioni filosofiche, morali e religiose.
 
 Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pelerin la "Società Acton-Tocqueville", in tributo a due pensatori che ammirava profondamente: Lord Acton e Alexis de Tocqueville. Alla fine, fu scelto il nome del luogo in cui si tenne il primo incontro della Società, Mont Pelerin in Svizzera.
 
@@ -206,7 +201,7 @@ Ma l'idea che la libertà in Europa sia nata da lotte interne tra vari pretenden
 
 Così, Voltaire, nelle sue [_Lettere Filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E nota:
 
-> "Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità." ([Sui Presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+> Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità. ([Sui Presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![immagine](assets/1/img-105.webp)
 
@@ -237,20 +232,21 @@ Questa analisi riflette un'incomprensione del valore aggiunto e della natura coo
 
 ### La Rivoluzione Industriale in discussione
 
-In realtà, l'analisi marxista distorce la realtà storica della Rivoluzione Industriale. Ludwig von Mises ha chiarito tale questione nel suo trattato di economia [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vedi in particolare il capitolo intitolato [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) così come in una serie di lezioni pubblicate sotto il titolo: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Vale anche la pena leggere, The Anti-Capitalistic Mentality [qui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [qui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In realtà, l'analisi marxista distorce la realtà storica della Rivoluzione Industriale. Ludwig von Mises ha chiarito tale questione nel suo trattato di economia [_Azione umana_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (vedi in particolare il capitolo intitolato [Interpretazione popolare della rivoluzione industriale](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) così come in una serie di lezioni pubblicate sotto il titolo: [_Politica economica: riflessioni per oggi e per domani_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Vale anche la pena leggere, La mentalità anti-capitalista [qui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [qui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+
 ![immagine](assets/1/img-030.webp)
 
 Mises spiega che i lavori nelle fabbriche, sebbene miserabili secondo i nostri standard, rappresentavano la migliore opportunità possibile per i lavoratori dell'epoca.
 
-Leggiamo un estratto da _Human Action_:
+Leggiamo un estratto da _Azione umana_:
 
-> Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei laboratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Gli orari di lavoro erano lunghi e le condizioni igieniche delle officine erano deplorevoli. La capacità lavorativa dei singoli si esauriva rapidamente. Ma resta il fatto che per la popolazione in eccesso, l'appropriazione dei pascoli comunali (recinti) li aveva ridotti alla peggiore miseria. Per coloro che non trovavano posto nel sistema produttivo dominante, il lavoro in fabbrica rappresentava la salvezza. Queste persone accorrevano in massa nelle officine solo perché avevano bisogno di migliorare il proprio tenore di vita.
+> Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei laboratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Ma resta il fatto che per la popolazione in eccesso, l'appropriazione dei pascoli comunali (recinti) li aveva ridotti alla peggiore miseria. Per coloro che non trovavano posto nel sistema produttivo dominante, il lavoro in fabbrica rappresentava la salvezza. Queste persone accorrevano in massa nelle officine solo perché avevano bisogno di migliorare il proprio tenore di vita.
 
 Mises aggiunge che il miglioramento della condizione umana è stato reso possibile dall'accumulo di capitale:
 
 > Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali richiesti per l'uso pratico delle nuove invenzioni non fossero stati realizzati dal risparmio preventivo.
 
-Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) e al suo capitolo intitolato "History and Politics". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
+Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalismo e gli storici_ (University of Chicago Press, 1954) e al suo capitolo intitolato "Storia e politici". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
 
 > La vera storia della connessione tra capitalismo e l'ascesa del proletariato è quasi l'opposto di quello che queste teorie dell'espropriazione delle masse suggeriscono.
 > Prima della Rivoluzione Industriale, la maggior parte delle persone viveva in società rurali e dipendeva dall'agricoltura per la propria sopravvivenza. Avevano poco da vendere sul mercato, il che limitava le loro opportunità e il loro tenore di vita. Tutti si aspettavano di vivere in assoluta povertà e immaginavano un destino simile per i loro discendenti. Nessuno si indignava per una situazione che sembrava inevitabile.

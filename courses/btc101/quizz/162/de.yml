@@ -1,12 +1,12 @@
-question: Was ist die Rolle der Miner im Bitcoin-Protokoll?
-answer: Sie sichern das aktuelle und das historische Netzwerk.
+question: Wie belohnt das Bitcoin-Protokoll den Miner, der einen gültigen Hash für den nachfolgenden Block findet?
+answer: Mit einer durch Konsensregeln definierten Belohnung und mit den Gebühren aus allen Transaktionen, die im gültigen Block enthalten sind.
 wrong_answers:
-  - Sie regulieren den Preis von Bitcoin.
-  - Sie kontrollieren das Angebot von Bitcoin.
-  - Sie verwalten Transaktionen zwischen Benutzern.
+  - Mit einer festgelegten Menge an Bitcoins, die nicht durch Konsensregeln definiert ist.
+  - Mit einem Prozentsatz der gesamten Bitcoin-Versorgung und den Gebühren aus allen Transaktionen, die in den vorherigen Blöcken enthalten sind.
+  - Mit den Gebühren aus allen Transaktionen, die im gültigen Block enthalten sind.
 explanation: |
-  Miner im Bitcoin-Protokoll sichern sowohl das aktuelle als
-  auch das historische Netzwerk. Sie regulieren nicht den Preis
-  von Bitcoin, kontrollieren nicht dessen Angebot, noch verwalten
-  sie Transaktionen zwischen Benutzern.
+  Das Bitcoin-Protokoll belohnt den Miner, der einen gültigen
+  Hash für den nachfolgenden Block findet, mit einer Belohnung, deren Höhe
+  durch die Konsensregeln definiert ist, zusammen mit den Gebühren aus
+  allen Transaktionen, die im gültigen Block enthalten sind.
 reviewed: true

@@ -1,10 +1,9 @@
-question: Hva er én måte å skaffe bitcoins på uten å kjøpe dem?
-answer: Aksepter dem som betalingsmiddel for produktene eller tjenestene du tilbyr
+question: Hva er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle?
+answer: BTCMap
 wrong_answers:
-  - Lån dem fra en venn
-  - Vinn dem i et lotteri
-  - Finn dem på gaten
+  - Bitcoin Exchange
+  - Bitcoin Mining
+  - Bitcoin Lottery
 explanation: >-
-  En måte å skaffe bitcoins på uten å kjøpe dem er å akseptere dem som et
-  betalingsmiddel for produktene eller tjenestene du tilbyr. Dette lar deg skaffe
-  bitcoins gjennom arbeidet ditt.
+  BTCMap er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle. Det er et åpen kildekode- og samarbeidsprosjekt som lister opp alle handelsmenn som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene rundt om i verden.
+reviewed: false

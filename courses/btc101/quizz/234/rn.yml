@@ -1,8 +1,13 @@
-question: Ni ikihe kimwe mu bintu bishobora gukoreshwa na Lightning Network mu buzima bwa misi yose?
-answer: Gutanga amafaranga ubwo nyene mu bucuruzi.
+question: None urubuga rwa DCA ni iki?
+answer: Serivisi ishoboza abakoresha gushiramwo amahera atari make mu mutungo mu bihe bitandukanye.
 wrong_answers:
-  - Mining ama Bitcoins mashasha.
-  - Guhingura amafaranga mashasha y’ivy’ubuhinga bwa none.
-  - Kwongera agaciro ka Bitcoin.
-explanation: >-
+  - Ubwoko bw'amahera y'ibanga Exchange yemerera gusa gucuruza Bitcoin.
+  - Igisata c’ivy’ubutunzi gitanga inguzanyo ku bashoramari kugira ngo bashobore gucuruza ku ruhande.
+  - Igikoresho ca porogarama gikurikirana ibiciro vy’ibintu mu gihe nyaco ata bintu vy’ishoramari.
+explanation: |
+  Urubuga rwa DCA rwerekeza ku rubuga rworohereza .
+  Igiciro c'idolari (DCA), ubuhinga bwo gushora imari aho
+  umuntu ku giti ciwe ashiramwo amahera atari make mu
+  umutungo wihariye mu bihe bitandukanye, ata kuraba
+  igiciro c'umutungo.
 reviewed: true

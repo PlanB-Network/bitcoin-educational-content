@@ -1,12 +1,13 @@
-question: Quel est le nombre maximum d'unités de Bitcoin qui peuvent exister ?
-answer: 21 millions.
+question: Quelle est une caractéristique clé de Bitcoin qui le différencie des monnaies fiduciaires ?
+answer: Sa politique monétaire est appliquée par un consensus général.
 wrong_answers:
-  - 3 billions.
-  - 100 millions.
-  - Il n'y a pas de limite.
+  - Il peut être imprimé en quantités illimitées par les banques centrales.
+  - Il est soutenu par une marchandise physique comme l'or ou l'argent.
+  - Il est régulé par une banque centrale.
 explanation: |
-  L'offre totale de Bitcoin est plafonnée à 21 millions d'unités.
-  C'est une caractéristique clé du Bitcoin qui le différencie
-  des monnaies fiduciaires, qui peuvent être imprimées en
-  quantités illimitées par les banques centrales.
+  En raison de sa nature décentralisée et cryptographique,
+  Bitcoin ne peut pas être falsifié et est limité à 21 millions
+  d'unités. C'est une caractéristique clé qui le différencie
+  des monnaies fiduciaires, qui suivent une politique monétaire qui peut être
+  modifiée par les banques centrales.
 reviewed: true

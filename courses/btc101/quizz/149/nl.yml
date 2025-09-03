@@ -1,10 +1,8 @@
-question: Wat is de Lightning Network?
-answer: Een instant Bitcoin betalingsnetwerk gebaseerd op de Bitcoin Blockchain.
+question: Wat is het doel van Mining zwembaden?
+answer: Mining pools stellen mijnwerkers in staat om hun rekenkracht te bundelen en kleinere maar regelmatigere beloningen te ontvangen.
 wrong_answers:
-  - Een gescheiden Blockchain netwerk van Bitcoin Blockchain.
-  - Een netwerk van Bitcoin mijnwerkers.
-  - Een netwerk van Bitcoin uitwisselingen.
-explanation: |
-  De Lightning Network is een instant Bitcoin betalingsnetwerk
-  dat is gebaseerd op de Bitcoin Blockchain.
+  - Mining-pools worden gebruikt om de Hashrate van het totale Bitcoin-netwerk te verhogen.
+  - Mining zwembaden worden gebruikt om de moeilijkheidsgraad van Mining te verlagen.
+  - Mining pools worden gebruikt om de beloning voor Mining te verhogen.
+explanation: >-
 reviewed: true

@@ -1,9 +1,11 @@
-question: Miks Bitcoin on uus raha vorm?
-answer: Kuna see on digitaalne raha ilma keskse asutuseta
+question: Millist strateegiat kasutavad kesksed üksused fiatraha väärtuse alandamiseks?
+answer: Nad suurendavad esialgset rahamassi mõne protsendi võrra igal aastal.
 wrong_answers:
-  - Kuna see on digitaalne valuuta, mida toetab kuld
-  - Kuna see on valuuta, mis nõuab plokiahelat
-  - Kuna Föderaalreserv nii ütleb
-explanation: >-
-  Bitcoini võib vaadelda kui uut raha vormi, kuna see tekib võrdõiguslikust võrgustikust ilma keskse asutuseta.
+  - Nad vähendavad esialgset rahamassi mõne protsendi võrra igal aastal.
+  - Nad hoiavad selle rahamassi konstantsena võrreldes esialgse massiga.
+  - Nad muudavad selle rahamassi suvaliselt võrreldes esialgse massiga.
+explanation: |
+  Kesksed üksused tihti devalveerivad uut valuutat, suurendades selle rahamassi võrreldes
+  esialgsega mõne protsendi võrra igal aastal. See vaikne devalveerimine õigustatakse tihti
+  kui rahva huvides olevat.
 reviewed: true

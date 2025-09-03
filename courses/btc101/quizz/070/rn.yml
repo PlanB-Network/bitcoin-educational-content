@@ -1,10 +1,12 @@
-question: Ingororano ya BTC inyuma ya Halving ya kane ni ingahe?
-answer: 3.125 Igihugu.
+question: Ni ikihe kibazo co gusangira urufunguzo rwa bose rwa Bitcoin Wallet?
+answer: Gutakaza ubuzima bwite.
 wrong_answers:
-  - 1,5625 n'ibindi.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Gusambura Bitcoin Wallet.
+  - Gutakaza ama Bitcoins.
+  - Gutera ivyatsi Bitcoin Wallet.
 explanation: |
-  Inyuma ya Halving ya kane, iba ku burebure bw’ibarabara .
-  840.000, impembo ya BTC ku Mining ni 3.125 BTC.
+  Gusangira urufunguzo rwa bose birimwo ingorane ku buzima bwite, ariko si
+  ku mutekano. Ivyo ni kubera ko urufunguzo rwa bose rukoreshwa kugira ngo .
+  generate Bitcoin amaderesi gutyo akaronka amahera, ariko .
+  ntiserukira Ownership y’ama Bitcoins.
 reviewed: true

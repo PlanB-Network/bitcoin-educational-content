@@ -1,12 +1,11 @@
-question: Cos'è un hash valido nel contesto del mining di blocchi nella rete Bitcoin?
-answer: Un'impronta digitale unica associata al blocco, composta da 256 caratteri.
+question: Qual è il costo annuale del consumo elettrico per gestire un nodo Bitcoin su un Raspberry Pi 4 (al 2023)?
+answer: Poco meno di 10€ all'anno.
 wrong_answers:
-  - Un codice unico utilizzato per accedere al blocco.
-  - Una password unica richiesta per minare il blocco.
-  - Un identificativo unico per il miner che ha trovato il blocco.
+  - Poco più di 50€ all'anno.
+  - Poco meno di 100€ all'anno.
+  - Circa 200€ all'anno.
 explanation: |
-  Nel contesto del mining di blocchi nella rete Bitcoin, un
-  hash valido è un'impronta digitale unica associata al
-  blocco, composta da 256 caratteri. La validità di questo
-  hash dipende dalla difficoltà della rete Bitcoin.
+  Gestire un nodo Bitcoin su un Raspberry Pi 4 costa poco
+  meno di 10€ all'anno in termini di consumo elettrico
+  al 2023.
 reviewed: true

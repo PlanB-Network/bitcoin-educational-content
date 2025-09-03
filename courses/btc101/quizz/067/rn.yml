@@ -1,12 +1,12 @@
-question: Ni incuro zingahe umuntu ahindura ingorane?
-answer: Buri 2016 amabuye.
+question: None ama bitcoins abikwa hehe?
+answer: Mu Bitcoin Blockchain.
 wrong_answers:
-  - Imisi yose 1048.
-  - Imisi yose 512.
-  - Imisi yose 4032.
+  - Mu Bitcoin Wallet.
+  - Ku gikoresho aho Wallet ishizwe.
+  - Mu nzu y’ububiko bw’amahera ya Leta Zunze Ubumwe za Amerika.
 explanation: |
-  Guhindura ingorane ni uburyo bubaho .
-  buri 2016 blocks, canke nk’indwi zibiri, kugira ngo umuntu
-  block nshasha yongerwa kuri Blockchain buri minota cumi ku wa 10.00.
-  mwayeni, ata kuraba Hashrate y’isi yose.
+  Naho imfunguruzo zawe z’ibanga zibitswe muri Wallet yawe,
+  bitcoins ubwazo mu vy’ukuri zibitswe muri Bitcoin.
+  Blockchain, ari yo Ledger itangazwa na bose mu kiringo c’2019.
+  urubuga rw’urunganwe rwa Bitcoin.
 reviewed: true

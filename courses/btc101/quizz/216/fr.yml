@@ -1,12 +1,11 @@
-question: Quel est le statut du Bitcoin au Salvador ?
-answer: Monnaie légale
+question: Qu'est-ce que le trilemme de la blockchain ?
+answer: Un protocole basé sur une blockchain ne peut satisfaire que deux des critères parmi la décentralisation, la sécurité et la scalabilité.
 wrong_answers:
-  - Criminalisé
-  - Inconnu
-  - Non réglementé
+  - Un protocole basé sur une blockchain ne peut satisfaire qu'un seul des critères parmi la décentralisation, la sécurité et la scalabilité.
+  - Un protocole basé sur une blockchain peut satisfaire tous les critères de décentralisation, de sécurité et de scalabilité.
+  - Un protocole basé sur une blockchain ne peut satisfaire aucun des critères de décentralisation, de sécurité et de scalabilité.
 explanation: |
-  Certains pays ont interdit et criminalisé l'utilisation du Bitcoin, ajoutant à la
-  complexité de son adoption en fonction des cultures, des époques, et
-  des nations. Cependant, le Salvador a été assez courageux pour l'adopter
-  comme monnaie légale.
+  Le trilemme de la blockchain fait référence au défi selon lequel
+  un protocole basé sur une blockchain ne peut satisfaire que deux critères parmi
+  la décentralisation, la sécurité et la scalabilité.
 reviewed: true

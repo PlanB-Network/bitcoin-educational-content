@@ -1,9 +1,9 @@
-question: Apa salah satu manfaat potensial dari menerima teknologi baru seperti Bitcoin?
-answer: Ini bisa menghasilkan ekonomi skala besar secara global.
+question: Apa salah satu implikasi utama Bitcoin bagi sistem perbankan?
+answer: Ini memungkinkan untuk pembebasan dari sistem perbankan.
 wrong_answers:
-  - Ini bisa menyebabkan kolaps ekonomi global.
-  - Ini bisa menyebabkan penurunan kecerdasan manusia.
-  - Ini bisa menyebabkan penghapusan semua pekerjaan.
+  - Ini memungkinkan untuk kontrol sistem perbankan.
+  - Ini memungkinkan untuk penghapusan sistem perbankan.
+  - Ini memungkinkan untuk korupsi sistem perbankan.
 explanation: >-
-  Teks menyarankan bahwa menerima teknologi baru ini bisa menghasilkan ekonomi skala besar secara global.
+  Teks tersebut menyebutkan bahwa Bitcoin memungkinkan untuk pembebasan dari sistem perbankan.
 reviewed: false

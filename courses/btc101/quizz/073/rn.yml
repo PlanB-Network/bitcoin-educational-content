@@ -1,8 +1,13 @@
-question: Urufunguzo rw’ibanga ruri muri Bitcoin Wallet ni uruhe?
-answer: Urufunguzo rw’ibanga rugufasha gusinya amafaranga yawe.
+question: Ni igiki gishoboka ko umuntu yokwibaza mu mpanuka urutonde rwawe rw’amajambo 12 canke 24 mu Bitcoin Wallet?
+answer: Mu vy’inyenyeri ni hasi.
 wrong_answers:
-  - Urufunguzo rwa bose rukoreshwa ku ma aderesi ya generate Bitcoin.
-  - Urutonde rw’ibanga rw’amajambo yo gusenyura Wallet iyo bikenewe.
-  - Urufunguzo rw’ibanga rwo gupfuka amafaranga y’i Bitcoin.
-explanation: >-
+  - Hejuru.
+  - Ku rugero.
+  - Bikomeye.
+explanation: |
+  Kubera ubuhinga bwo gukingira amakuru bwakoreshejwe mu kurema Wallet,
+  Bishoboka ko umuntu yibaza urutonde rwawe rw'impanuka
+  Amajambo 12 canke 24 ni make cane mu vy’inyenyeri. Ni nk’ukuronka .
+  umubare ubereye uri hagati ya 1 na $2^256$, ni ukuvuga hafi .
+  bingana no kuronka atome isobanuwe mw’Isanzure ry’Ijuru.
 reviewed: true

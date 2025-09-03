@@ -1,10 +1,9 @@
-question: Mikä on HashRate?
-answer: Hash-laskelmien määrä, jonka louhinta-laite voi suorittaa sekunnissa ratkaistakseen Proof of Work -tehtävän.
+question: Mikä on energiankulutuksen merkitys Bitcoin-louhinnassa?
+answer: Energiankulutus on tarpeen tiedon tuottamiseksi, mutta tiedon varmentamisen kustannus on merkityksetön. Tämä epäsymmetria takaa verkon turvallisuuden.
 wrong_answers:
-  - Nopeus, jolla louhinta-laite voi ratkaista Proof of Work -tehtävän.
-  - Bitcoin-verkon louhijoiden kokonaismäärä.
-  - Louhimalla saadun bitcoinien kokonaismäärä suorittamalla tietty määrä yrityksiä sekunnissa ratkaistakseen Proof of Work -tehtävän.
+  - Energiankulutus on tarpeen ASIC-laitteiden käyttämiseksi louhinnassa, ja tiedon varmentamisen kustannukset ovat korkeat.
+  - Energiankulutus on tarpeen Bitcoin-verkon ylläpitämiseksi, ja tiedon varmentamisen kustannukset ovat muuttuvat.
+  - Energiankulutus ei ole tarpeen uusien bitcoinien luomiseksi.
 explanation: >-
-  HashRate viittaa yritysten kokonaismäärään, joita louhijat tekevät
-  sekunnissa ratkaistakseen Proof of Work -tehtävän. Se on mittari Bitcoin-verkon laskentatehosta.
-reviewed: true
+  Energiankulutus Bitcoin-louhinnassa on verkon turvallisuuden kannalta kriittinen tekijä. Korkea energiankulutus tekee louhinnasta erittäin kalliin toimenpiteen pahantahtoiselle toimijalle blockchainin manipuloimiseksi, kun taas transaktioiden varmentamisen alhainen kustannus varmistaa, että kuka tahansa voi osallistua verkkoon.
+reviewed: false

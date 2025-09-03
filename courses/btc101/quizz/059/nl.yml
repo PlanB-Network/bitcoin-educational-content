@@ -1,9 +1,12 @@
-question: Welke van de volgende is geen Bitcoin eigenschap?
-answer: Het wordt gemakkelijk gecensureerd.
+question: In welk jaar zal de aanmaak van bitcoins stoppen?
+answer: 2140
 wrong_answers:
-  - Het is onmiddellijk transporteerbaar.
-  - De verificatiekosten zijn verwaarloosbaar.
-  - Het heeft een vast monetair beleid.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin heeft alle eigenschappen die nodig zijn om een efficiënte en gezonde valuta te zijn: deelbaar, direct vervoerbaar, niet te controleren, verwaarloosbare kosten voor verificatie en met een monetair beleid dat al voor eeuwen is vastgesteld met 21 miljoen eenheden.
+  Door het Halving mechanisme kan wiskundig voorspeld worden
+  voorspeld worden dat de aanmaak van bitcoins zal stoppen in 2140,
+  wanneer het totale aantal bitcoins de grens van 21 miljoen bereikt
+  miljoen bereikt.
 reviewed: true

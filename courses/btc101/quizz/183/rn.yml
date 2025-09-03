@@ -1,8 +1,11 @@
-question: Ni imvo imwe iyihe ituma igiciro ca Bitcoin gishobora kugabanuka n’ibice 10%, 20%, canke mbere 50% mu misi mikeyi gusa?
-answer: Ivyiyumviro vy’isoko ry’ugutera imbere n’ugutera imbere.
+question: None AMF ni iki?
+answer: Ububasha bw’abahinga mu vy’amahera.
 wrong_answers:
-  - Igitigiri c’abantu bakoresha internet.
-  - Ivy’ikirere.
-  - Igiciro c’inzahabu.
-explanation: >-
+  - Ikigega c’amahera c’Abanyamerika.
+  - Ishirahamwe ry’Ibibanza vya Mining.
+  - Amahera Agenda Agenda.
+explanation: |
+  AMF, canke Ubutegetsi bw'Abakuru b'Ivy'Imari, ni igifaransa .
+  Ishirahamwe rigenzura ama platforms aho bitcoins zishobora kuba
+  yaguze.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Ni ubuhe buryo bwo kwemera Bitcoin nk’uko buvugwa muri iri shure?
-answer: Virus.
+question: Ni ryari Lightning Network yemejwe ubwa mbere kandi igashirwa mu ngiro?
+answer: 2017
 wrong_answers:
-  - Buhoro kandi ushikamye.
-  - Ivyihuta kandi bidashobora gucungera.
-  - Ivy’ibihe bimwe bimwe kandi bitamenyekana.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Ico canditswe c’amashure kidondora ukuntu Bitcoin yemerewe nk’aho ari umugera,
-  bikaba vyerekana ko ikwiragizwa ningoga kandi cane kuva ku muntu umwe .
-  umuntu ku wundi, nk’umugera, ariko ari mwiza.
+  Lightning Network ni yo yabanje kwemezwa kandi irashirwa mu ngiro .
+  muri 2017.
 reviewed: true

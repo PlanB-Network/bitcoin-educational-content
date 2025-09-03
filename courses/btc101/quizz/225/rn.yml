@@ -1,10 +1,8 @@
-question: Ni ryari Lightning Network yemejwe ubwa mbere kandi igashirwa mu ngiro?
-answer: 2017
+question: Ni bangahe ubunini bw’ibarabara riri muri porotokole ya Bitcoin?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network ni yo yabanje kwemezwa kandi irashirwa mu ngiro .
-  muri 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
 reviewed: true

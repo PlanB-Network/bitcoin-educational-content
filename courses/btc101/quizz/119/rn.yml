@@ -1,11 +1,13 @@
-question: BitcoinIkiganiro ni iki?
-answer: Ikibanza c’ibiganiro ku bakoresha Bitcoin.
+question: None igikorwa ca Bitcoin ni iki?
+answer: Ukwimurira Ownership y’ama bitcoins, hakoreshejwe ubuhinga bwo gukingira amakuru.
 wrong_answers:
-  - Porogarama ya Bitcoin Mining.
-  - A Bitcoin Wallet.
-  - Inama ya Bitcoin.
+  - Exchange y’umubiri y’ibice vy’amahera, hakoreshejwe umunyamabanga.
+  - Ukwimurira Ownership y'ama bitcoins, hakoreshejwe Address y'umubiri.
+  - Ukwimurira Ownership y'ibiceri, hakoreshejwe imeyili Address.
 explanation: |
-  Ihuriro rya BitcoinTalk ni ahantu h’ibiganiro vya Bitcoin.
-  abakoresha. Yaremwe na Satoshi Nakamoto kw’igenekerezo rya 22 Ugushyingo 2019.
-  2009.
+  Igikoresho ca Bitcoin ni ugutanga amakuru mu buryo bwa digitale
+  Ownership y’ibiceri, biciye mu gukoresha Bitcoin Address.
+  vyavuye mu gushimira ubuhinga bwo gukingira amakuru bw’ibara ry’agahama (Elliptic Curve). Ibi
+  Address ni yo yonyene kuri Wallet y’umuntu aronka .
+  ibiceri.
 reviewed: true

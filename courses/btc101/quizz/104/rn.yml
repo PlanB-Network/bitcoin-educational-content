@@ -1,12 +1,13 @@
-question: Ni igiki kitari ijambo Mnemonic mu bijanye n’ijambo Bitcoin?
-answer: Ijambobanga rya Bitcoin Wallet yawe.
+question: None KYC ihagarariye iki?
+answer: Menya Umukiriya Wawe.
 wrong_answers:
-  - Urutonde rw’amajambo 12 yo mu nkoranyamagambo yihariye.
-  - Urutonde rw’amajambo 24 yo mu nkoranyamagambo yihariye.
-  - Ibanga ryo gushika ku kigega cawe ca Bitcoin.
+  - Gumana Amahera Yawe.
+  - Ufungure Amakode Yawe.
+  - Mu Mutima mwiza Kwubahiriza Ivyagezwe.
 explanation: |
-  Invugo ya Mnemonic iri mu rwego rwa Bitcoin ni urutonde rw’ibintu 12 .
-  canke amajambo 24 atuma ushobora kugarura Wallet yawe ku .
-  Bitcoin Gukoresha Wallet. Umuntu wese afise uburenganzira bwo gushika kuri uru rutonde
-  cal kandi ushobora gushika ku bitcoins zawe.
+  KYC canke Menya Umukiriya Wawe vyerekeye uburyo bwo
+  ubucuruzi bufata kugira ngo bugenzure akaranga k’abaguzi babo.
+  Ivyo bikorwa mu bisanzwe kugira ngo umuntu yubahirize .
+  amabwirizwa no gukingira ibikorwa bitemewe n’amategeko nk’amahera .
+  gusesagura amahera canke ubuhendanyi.
 reviewed: true

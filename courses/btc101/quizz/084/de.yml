@@ -1,12 +1,13 @@
-question: Was sollte die Hauptbesorgnis sein, wenn man Bitcoin besitzt?
-answer: Die Sicherheit Ihrer Geldmittel.
+question: Was ist der empfohlene Gebrauch eines Offline- oder Cold-Physical-Wallets?
+answer: Das Aufbewahren großer Beträge.
 wrong_answers:
-  - Der Wert von Bitcoin in Dollar.
-  - Die Legalität des Besitzes von Bitcoins.
-  - Die Erlaubnis, Ihre Geldmittel auszugeben.
+  - Das Aufbewahren von täglichen Ausgaben.
+  - Das Aufbewahren kleiner Beträge.
+  - Das Aufbewahren von kurzfristigen Ersparnissen.
 explanation: |
-  Wenn man Bitcoins besitzt, ist die primäre Sorge die Sicherheit
-  Ihrer Geldmittel. Dies liegt daran, dass Bitcoin, wie jede andere
-  Form von Währung, gestohlen oder verloren gehen kann, wenn sie nicht
-  ordnungsgemäß gesichert ist.
+  Ein Offline- oder Cold-Physical-Wallet wird für
+  das Aufbewahren großer Beträge empfohlen, da es weniger anfällig für
+  Online-Bedrohungen ist als Hot Wallets. Es wird jedoch nicht
+  für tägliche Ausgaben empfohlen, da es für tägliche Transaktionen weniger
+  zugänglich ist.
 reviewed: true

@@ -1,9 +1,11 @@
-question: Milline riik on muutnud Bitcoini seaduslikuks maksevahendiks alates 2021. aastast?
-answer: El Salvador
+question: Mis on Swiss Bitcoin Pay?
+answer: Lahendus amatöörkauplejatele Bitcoin'i vastuvõtmiseks
 wrong_answers:
-  - Prantsusmaa
-  - Ameerika Ühendriigid
-  - Hiina
+  - Šveitsi pank, mis aktsepteerib Bitcoin'i
+  - Šveitsi Bitcoin'i vahetus
+  - Šveitsi Bitcoin'i kaevandamise ettevõte
 explanation: >-
-  El Salvador on muutnud Bitcoini seaduslikuks maksevahendiks alates 2021. aastast, aidates kaasa Bitcoin'i majanduse arengule piirkonnas.
+  Swiss Bitcoin Pay on lahendus amatöörkauplejatele Bitcoin'i vastuvõtmiseks.
+  Teised lahendused hõlmavad OpenNode'i lihtsatele online-äridele ja BTCpay Serverit
+  suurtele struktuuridele või kirglikele bitcoinide kasutajatele.
 reviewed: false

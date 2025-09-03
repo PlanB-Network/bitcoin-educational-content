@@ -1,13 +1,10 @@
-question: Ni kuki inzahabu idashobora gukora neza mw’isi y’isi yose n’iy’ubuhinga bwa none?
-answer: Kuko rikeneye ikintu nyamukuru kugira ngo rigabanuke kandi rihindurwe bitagoranye.
+question: Ni kuki Bitcoin ifatwa nk’uburyo bushasha bw’amahera?
+answer: Kuko ni amahera ya digitale ata n’ikigo nyamukuru.
 wrong_answers:
-  - Kuko nta gaciro bihagije bifise.
-  - Kuko si gake bihagije.
-  - Kubera ko rigenda risenyuka uko igihe kigenda kirarenga.
+  - Kuko ni amafaranga y’ubuhinga bwa none ashigikiwe n’inzahabu.
+  - Kuko ni amafaranga asaba banki Blockchain.
+  - Kuko ni ko ikigo ca Leta Zunze Ubumwe za Amerika kivuga.
 explanation: |
-  Inzahabu ntishobora gukurikirana isi y'isi yose n'iy'ubuhinga bwa none .
-  kuko rikeneye ikintu nyamukuru kugira ngo ribe rishobora kugabanywa kandi .
-  bishobora guhindurwa bitagoranye. Ivyo bituma bidashoboka cane gukoresha mu .
-  isi aho amafaranga agenda arushirizaho gukoreshwa mu buryo bwa digitale kandi
-  ry’inzego zitandukanye.
+  Bitcoin ishobora kubonwa nk’uburyo bushasha bw’amahera, uko bugenda burasohoka .
+  kuva ku rubuga rw’urunganwe rudafise ikigo nyamukuru.
 reviewed: true

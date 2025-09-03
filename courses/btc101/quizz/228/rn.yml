@@ -1,8 +1,10 @@
-question: Amafaranga y’ugucuruza kuri Lightning Network ni make cane, kenshi ni make kuruta...?
-answer: 0,5%.
+question: Ni igitigiri ikihe ca Bitcoin gikoreshwa muri Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Uruzitiro.
+  - Eteri.
+  - Litikoyini.
+explanation: |
+  Lightning Network ikoresha amasatoshi (na yo yitwa Sats), iyo .
+  icumi rya Bitcoin, kugira ngo rikore.
 reviewed: true

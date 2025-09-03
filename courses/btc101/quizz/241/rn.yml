@@ -1,13 +1,11 @@
-question: None urubuga rwa DCA ni iki?
-answer: Serivisi ishoboza abakoresha gushiramwo amahera atari make mu mutungo mu bihe bitandukanye.
+question: Ni ikihe kimwe mu bintu nyamukuru biranga Bitcoin?
+answer: Ishobora guhindurwa aho hose kw’isi ata ruhusha n’umwe ruvuye ku kigo na kimwe.
 wrong_answers:
-  - Ubwoko bw'amahera y'ibanga Exchange yemerera gusa gucuruza Bitcoin.
-  - Igisata c’ivy’ubutunzi gitanga inguzanyo ku bashoramari kugira ngo bashobore gucuruza ku ruhande.
-  - Igikoresho ca porogarama gikurikirana ibiciro vy’ibintu mu gihe nyaco ata bintu vy’ishoramari.
+  - Ishobora gukoreshwa gusa n’umugwi w’abantu batoranijwe.
+  - Bisaba uruhusha ruva ku butegetsi bukuru kugira ngo bikoreshwe.
+  - Ishobora gukoreshwa mu bihugu bimwebimwe gusa.
 explanation: |
-  Urubuga rwa DCA rwerekeza ku rubuga rworohereza .
-  Igiciro c'idolari (DCA), ubuhinga bwo gushora imari aho
-  umuntu ku giti ciwe ashiramwo amahera atari make mu
-  umutungo wihariye mu bihe bitandukanye, ata kuraba
-  igiciro c'umutungo.
+  Ico canditswe kivuga ko Bitcoin ari izina ry’uruyeri kandi ko rishobora kuba .
+  guhindurwa aho hose kw'isi ata ruhusha
+  y’ikintu ico ari co cose.
 reviewed: true

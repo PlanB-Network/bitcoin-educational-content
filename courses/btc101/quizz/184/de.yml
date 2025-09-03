@@ -1,10 +1,11 @@
-question: Was ist einer der Gründe, warum Bitcoin keine Blase ist, die verschwinden wird?
-answer: Weil es eine Währung ist, die tatsächlich überall auf der Welt verwendet wird.
+question: Was ist ein Faktor, den man berücksichtigen sollte, wenn man eine Lösung auswählt, um Bitcoin für sein Geschäft zu akzeptieren?
+answer: Das erwartete Transaktionsvolumen.
 wrong_answers:
-  - Weil sie tatsächlich nirgendwo verwendet wird.
-  - Weil sie von einer zentralen Autorität kontrolliert wird.
-  - Weil sie leicht zu fälschen ist.
+  - Die Farbe Ihres Logos.
+  - Die Anzahl der Mitarbeiter.
+  - Der Standort Ihres Hauptsitzes.
 explanation: >-
-  Bitcoin ist keine Blase, die verschwinden wird, sondern eine Währung, die tatsächlich
-  überall auf der Welt verwendet wird.
+  Bei der Auswahl einer Lösung, um Bitcoin für Ihr Geschäft zu akzeptieren, müssen mehrere
+  Faktoren berücksichtigt werden, wie das erwartete Transaktionsvolumen, das zugewiesene
+  Budget und die Art des Geschäfts (online oder physisch).
 reviewed: true

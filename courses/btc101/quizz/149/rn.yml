@@ -1,10 +1,8 @@
-question: None Lightning Network ni iki?
-answer: Urubuga rwo kwishura Bitcoin rushingiye kuri Bitcoin Blockchain.
+question: None ibidengeri vya Mining bifise intumbero iyihe?
+answer: Mining pools zituma abacukuzi bashobora gukoranya ubuhinga bwabo bwo gukoresha ubuhinga bwa none maze bakaronka impembo ntoyi ariko zidasanzwe.
 wrong_answers:
-  - Igikoresho gitandukanye ca Blockchain n'ica Bitcoin Blockchain.
-  - Ihuriro ry’abacukuzi b’amabuye y’agaciro Bitcoin.
-  - Urubuga rw’amahinguriro ya Bitcoin.
-explanation: |
-  Lightning Network ni urubuga rwo kwishura Bitcoin
-  ivyo bishingiye kuri Bitcoin Blockchain.
+  - Ivyumba vya Mining bikoreshwa mu kwongerera Hashrate y’uruzitiro rwa Bitcoin rwose.
+  - Ivyombo vya Mining bikoreshwa mu kugabanya ingorane za Mining.
+  - Ivyombo vya Mining bikoreshwa mu kwongera impembo ya Mining.
+explanation: >-
 reviewed: true

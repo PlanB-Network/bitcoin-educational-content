@@ -1,12 +1,9 @@
-question: None ingaruka z’ugutera imbere cane kw’ibiciro ni izihe?
-answer: Igabanuka rikomeye ry’agaciro k’amahera.
+question: Ni igitigiri ikihe c’ugutera imbere kw’ibiciro mu Budagi mu kwezi kwa Gitugutu 1923 igihe ugutera imbere kw’ibiciro kwari ku rugero rwo hejuru cane?
+answer: 29.500%
 wrong_answers:
-  - Igabanuka gatoyi ry’agaciro k’amahera.
-  - Ukwiyongera gukomeye kw’agaciro k’amahera.
-  - Ukwongerekana gutoyi kw’agaciro k’amahera.
+  - 5.200%
+  - 76%
+  - 110%
 explanation: |
-  Kubera ugutera imbere kw’ibiciro, abantu ku giti cabo baragira ningoga .
-  gutakaza ukwizigira burundu amafaranga, ivyo bikaba bituma .
-  kugabanya cane agaciro kayo mu kiringo gitoyi c’umwaka wa 1990.
-  umwanya.
-reviewed: true
+  Ukwezi kwari gufise inflation nyinshi cane mu Budagi ni Ukwakira 1923, gushika ku rwego rwo hejuru rwa 29.500%.
+reviewed: false

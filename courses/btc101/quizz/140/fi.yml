@@ -1,9 +1,9 @@
-question: Mikä on Bitcoin-lohkoketjun nykyinen koko?
-answer: Noin 500GB.
+question: Mitkä olisivat seuraukset Bitcoin-käyttäjille, jos lohkot olisivat 100 kertaa raskaampia?
+answer: Bitcoin-solmun pyörittäminen ei olisi tavallisen ihmisen saavutettavissa, mikä vaarantaisi protokollan hajauttamisen sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
 wrong_answers:
-  - Noin 100GB.
-  - Noin 1TB.
-  - Noin 2TB.
+  - Bitcoin-solmun pyörittäminen olisi tavalliselle ihmiselle helpommin saavutettavissa, mikä parantaisi protokollan hajauttamista sekä tapahtumien ja konsensus sääntöjen muuttumattomuutta.
+  - Verkon transaktiokapasiteetti vähenisi.
+  - Louhijoiden lohkopalkkio kasvaisi.
 explanation: |
-  Bitcoin-lohkoketju on noin 500GB: n kokoinen vuonna 2023.
+  Jos lohkot olisivat 100 kertaa raskaampia, Bitcoin-solmun pyörittäminen vaatisi 50TB kovalevyn, yli 500GB kuukausittaisen tiedonsiirron ja laitteiston, joka pystyy vahvistamaan satoja tuhansia transaktioita alle 10 minuutissa. Tämä tekisi Bitcoin-solmun pyörittämisestä tavalliselle ihmiselle saavuttamattoman, vaarantaen protokollan hajauttamisen sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
 reviewed: true

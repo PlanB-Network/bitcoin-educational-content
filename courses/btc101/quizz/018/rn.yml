@@ -1,13 +1,12 @@
-question: Ni ubuhe buryo bwa mbere bwo gukoresha amahera?
-answer: Ibintu nk’intete n’ibitungwa.
+question: Ni akamaro akahe nyamukuru Bitcoin ifise ku yindi mice y’amahera?
+answer: Itanga ububiko bwiza cane bw’agaciro kubera Supply yayo idakomeye cane n’ukutagira aho ibogamiye.
 wrong_answers:
-  - Inzahabu n’ifeza.
-  - Ivyanditswe ku mpapuro.
-  - Itunga ry’ubuhinga bwa none.
+  - Ntibigabanywa kandi ntibishobora gutwarwa.
+  - Ni akarorero kanini k’amahera agira ingorane z’ugutera imbere kw’amahera.
+  - Ni ryemerwa cane mu bucuruzi n’abadandaza bose bo kw’isi.
 explanation: |
-  Ubwoko bwa mbere bw'amahera akenshi bwari bufitaniye isano n'ivy'ingenzi
-  ibicuruzwa nk’intete, amatungo, n’ibindi bicuruzwa.
-  Ariko rero, ivyo bintu vyari bifise ingorane zikomeye, nk’akarorero .
-  gusenyuka, bikaba bigoye kubikoresha nk’ibintu .
-  uburyo bwo kuzigama igihe kirekire.
+  Inyungu nyamukuru ya Bitcoin ku yindi mice y'amahera
+  ni uko itanga ububiko bwiza cane bw’agaciro kubera .
+  Supply n’ukubura kwayo kw’umuhari wizigirwa. Ibi
+  bituma ari amahitamwo meza yo kuzigama igihe kirekire.
 reviewed: true

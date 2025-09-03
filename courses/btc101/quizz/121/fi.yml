@@ -1,9 +1,11 @@
-question: Kuinka suuren osan ajasta Bitcoin-verkko on ollut toiminnassa sen luomisesta lähtien?
-answer: 99,988 %.
+question: Mitä ei ole tarpeen sisällyttää perintösuunnitelmaan?
+answer: Yleisimmin käyttämäsi Bitcoin-lompakon nimi.
 wrong_answers:
-  - 100 %.
-  - 90,009 %.
-  - 80,17 %.
+  - Käsin kirjoitettu kirje, jossa luetellaan omaisuutesi.
+  - Kuvaus varojesi käyttöön pääsemiseksi.
+  - Luotettujen henkilöiden yhteystiedot.
 explanation: |
-  Bitcoinin verkon online-saatavuus on ollut 99,988 % vuodesta 2009 lähtien.
+  Perintösuunnitelman laatiminen on ratkaisevan tärkeää varmistettaessa, että bitcoinsi hallinnoidaan asianmukaisesti kuolemasi jälkeen.
+  Tähän suunnitelmaan voi sisältyä käsin kirjoitettu kirje, jossa luetellaan omaisuutesi,
+  niiden käyttömenetelmät ja luotettavien henkilöiden yhteystiedot, joihin tulee ottaa yhteyttä.
 reviewed: true

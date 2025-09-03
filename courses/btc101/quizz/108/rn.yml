@@ -1,11 +1,11 @@
-question: None Bitcoin Wallet ifise intumbero iyihe?
-answer: Kugira ngo ubike imfunguruzo z’ibanga kugira ngo ukoreshe amafaranga y’ibiceri.
+question: Ni nde muntu wa mbere yinjiye mu mugwi wa Bitcoin inyuma ya Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Kugira ngo ukoreshe ibikoresho vy’ibikoresho kugira ngo ucukure bitcoins.
-  - Kugura ama bitcoins biciye ku rufunguzo rwa bose.
-  - Kugira ngo ubike ama bitcoins ku gikoresho.
+  - Laszo Hanyecz.
+  - Phil Ishampani.
+  - Rogizi.
 explanation: |
-  Bitcoin wallets ni ubwoko bwa porogaramu ikoreshwa mu
-  kubika imfunguruzo z'ibanga zigufasha gukoresha
-  ibiceri.
+  Hal Finney niwe muntu wa mbere yinjiye mu mugwi wa Bitcoin .
+  inyuma ya Satoshi Nakamoto ubwiwe. Yaranashize kuri Twitter ngo Running .
+  Bitcoin kugira ngo bamenyeshe uwo musi.
 reviewed: true

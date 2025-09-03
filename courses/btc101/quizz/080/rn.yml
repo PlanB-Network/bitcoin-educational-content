@@ -1,13 +1,13 @@
-question: Ni igiki gishoboka ko umuntu yokwibaza mu mpanuka urutonde rwawe rw’amajambo 12 canke 24 mu Bitcoin Wallet?
-answer: Mu vy’inyenyeri ni hasi.
+question: Multisig Wallet ni iki?
+answer: Igitero c’amasakoshi asaba amasinyatire menshi kugira ngo umuntu akore igikorwa.
 wrong_answers:
-  - Hejuru.
-  - Ku rugero.
-  - Bikomeye.
+  - Wallet isaba umukono umwe kugira ngo umuntu akore igikorwa.
+  - Wallet isaba ko umuntu adashirako umukono kugira ngo akore igikorwa.
+  - Wallet isaba umukono w’umubiri kugira ngo umuntu akore igikorwa.
 explanation: |
-  Kubera ubuhinga bwo gukingira amakuru bwakoreshejwe mu kurema Wallet,
-  Bishoboka ko umuntu yibaza urutonde rwawe rw'impanuka
-  Amajambo 12 canke 24 ni make cane mu vy’inyenyeri. Ni nk’ukuronka .
-  umubare ubereye uri hagati ya 1 na $2^256$, ni ukuvuga hafi .
-  bingana no kuronka atome isobanuwe mw’Isanzure ry’Ijuru.
+  Multisig Wallet ni ubwoko bw’indege Bitcoin Wallet isaba .
+  imikono myinshi kugira ngo ukore igikorwa. Ivyo vyongerako
+  extra Layer y’umutekano, kuko bisigura ko umuntu umwe gusa .
+  ntishobora gukora igikorwa ata kwemererwa na
+  abandi.
 reviewed: true

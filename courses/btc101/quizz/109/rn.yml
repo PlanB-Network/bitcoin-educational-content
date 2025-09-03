@@ -1,11 +1,10 @@
-question: Ni akamaro akahe k’inshingano z’umuntu ku giti ciwe muri Bitcoin?
-answer: Ni ivy’agaciro cane kuko ni wewe ushinzwe ivy’ugucungera.
+question: Ni igiki ca mbere ca Bitcoin canditswe?
+answer: Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
 wrong_answers:
-  - Ni ngombwa kuko ubwirizwa gucukura ama bitcoins.
-  - Ni ngombwa cane kugura ama bitcoins.
-  - Ni ivy’agaciro cane kuko ni wewe ushinzwe insiguro ya Wallet.
+  - Igiciro c’amahera 10.000 BTC ku pizza 2.
+  - Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 1 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+  - Ivyo bikaba vyatumye Laszlo Hanyecz na Hal Finney bashobora gucuruza amafaranga 10.000 BTC.
 explanation: |
-  Mu Bitcoin, ubusegaba bw’ivy’ubutunzi burajana n’
-  inshingano z'umuntu ku giti ciwe, kuko ubwirizwa kwibungabunga
-  amafaranga yawe mu gukurikiza uburyo bwo kuyazigama buvugwa.
+  Igicuruzwa ca mbere ca Bitcoin canditswe cari igicuruzwa ca 1990.
+  10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
 reviewed: true

@@ -1,10 +1,11 @@
-question: Ni igiki ca mbere ca Bitcoin canditswe?
-answer: Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+question: Ni iyihe nomero y’ibarabara ry’isoko rya mbere rya Bitcoin?
+answer: Igipande ca 170.
 wrong_answers:
-  - Igiciro c’amahera 10.000 BTC ku pizza 2.
-  - Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 1 BTC hagati ya Satoshi Nakamoto na Hal Finney.
-  - Ivyo bikaba vyatumye Laszlo Hanyecz na Hal Finney bashobora gucuruza amafaranga 10.000 BTC.
+  - Igipande ca 1.
+  - Igipande ca 17.
+  - Igipande ca 1700.
 explanation: |
-  Igicuruzwa ca mbere ca Bitcoin canditswe cari igicuruzwa ca 1990.
-  10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+  Isoko rya mbere rya Bitcoin, ryari isoko ry’umwaka w’1990.
+  10 BTC hagati ya Satoshi Nakamoto na Hal Finney, ni vyo vyanditswe
+  mu gice ca 170.
 reviewed: true

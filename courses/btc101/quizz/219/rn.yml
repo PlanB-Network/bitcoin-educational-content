@@ -1,10 +1,8 @@
-question: None iyi nyigisho ivuga iki ku bijanye n’akazoza ka Bitcoin?
-answer: Ntibizozimangana.
+question: Ni uruja n’uruza uruhe Lightning Network irema?
+answer: Urubuga rw’imihora yo kwishura.
 wrong_answers:
-  - Izosubirizwa n’ubuhinga bwiza kuruta.
-  - Izobuzwa kw’isi yose.
-  - Bizotakaza agaciro kavyo.
-explanation: |
-  Ivyanditswe vy’amashure vyerekana ko Bitcoin itazoja .
-  guhunga. Ahubwo, iyo mpinduka irahejeje gutangura.
+  - Urubuga rw’ibihimba vya Mining.
+  - Urubuga rw’ibihimba vya Blockchain.
+  - Urubuga rw’amahera y’ivy’ubuhinga bwa none.
+explanation: >-
 reviewed: true

@@ -1,8 +1,8 @@
-question: None ibidengeri vya Mining bifise intumbero iyihe?
-answer: Mining pools zituma abacukuzi bashobora gukoranya ubuhinga bwabo bwo gukoresha ubuhinga bwa none maze bakaronka impembo ntoyi ariko zidasanzwe.
+question: Ni igihe kingana iki kiri hagati y’uguhingura amabuye abiri muri porotokole ya Bitcoin?
+answer: Iminota 10.
 wrong_answers:
-  - Ivyumba vya Mining bikoreshwa mu kwongerera Hashrate y’uruzitiro rwa Bitcoin rwose.
-  - Ivyombo vya Mining bikoreshwa mu kugabanya ingorane za Mining.
-  - Ivyombo vya Mining bikoreshwa mu kwongera impembo ya Mining.
+  - Iminota 5.
+  - Iminota 15.
+  - Iminota 20.
 explanation: >-
 reviewed: true

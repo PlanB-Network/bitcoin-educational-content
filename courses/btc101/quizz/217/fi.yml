@@ -1,12 +1,10 @@
-question: Millä aloilla Bitcoin herättää kysymyksiä?
-answer: Kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
+question: Mitä Lightning-verkko mahdollistaa?
+answer: Välittömät, edulliset Bitcoin-siirrot.
 wrong_answers:
-  - Vain tietojenkäsittelytiede ja taloustiede
-  - Vain kryptografia ja peliteoria.
-  - Vain filosofia ja energia.
-explanation: |
-  Bitcoin on monitieteellinen aihe, joka herättää
-  kysymyksiä liittyen useille aloille, mukaan lukien
-  kryptografia, peliteoria, taloustiede ja rahapolitiikka,
-  tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
+  - Välittömät, kalliit Bitcoin-siirrot.
+  - Viivästetyt, edulliset Bitcoin-siirrot.
+  - Viivästetyt, kalliit Bitcoin-siirrot.
+explanation: >-
+  Lightning-verkko mahdollistaa välittömät, edulliset Bitcoin-siirrot,
+  ratkaisten näin Bitcoinin skaalautuvuusongelman.
 reviewed: true

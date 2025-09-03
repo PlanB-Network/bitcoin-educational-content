@@ -1,11 +1,10 @@
-question: Ni ikihe kimwe mu bintu nyamukuru biranga Bitcoin?
-answer: Ishobora guhindurwa aho hose kw’isi ata ruhusha n’umwe ruvuye ku kigo na kimwe.
+question: Ni iyihe mpamvu nyamukuru yatumye Bitcoin iremwa?
+answer: Gutanga iciyumviro co guhindura uburyo bw’ivy’ubutunzi.
 wrong_answers:
-  - Ishobora gukoreshwa gusa n’umugwi w’abantu batoranijwe.
-  - Bisaba uruhusha ruva ku butegetsi bukuru kugira ngo bikoreshwe.
-  - Ishobora gukoreshwa mu bihugu bimwebimwe gusa.
+  - Gusaba ko amahera akurwaho.
+  - Gutanga iciyumviro co kurema uburyo bushasha bw’ubuhinga bwa none.
+  - Gutanga iciyumviro co kugenzura abantu bo kw’isi.
 explanation: |
-  Ico canditswe kivuga ko Bitcoin ari izina ry’uruyeri kandi ko rishobora kuba .
-  guhindurwa aho hose kw'isi ata ruhusha
-  y’ikintu ico ari co cose.
+  Ico canditswe kivuga ko Satoshi Nakamoto yaremye Bitcoin mu 1990.
+  2008 kugira ngo bashireho ihinduka ry’uburyo bw’ivy’ubutunzi.
 reviewed: true

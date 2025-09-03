@@ -1,13 +1,11 @@
-question: Co je to platforma DCA?
-answer: Služba, která umožňuje uživatelům investovat pevnou částku peněz do aktiva v pravidelných intervalech.
+question: Jaká je jedna z hlavních charakteristik Bitcoinu?
+answer: Může být směněn kdekoli na světě bez jakéhokoli povolení od jakékoli entity.
 wrong_answers:
-  - Typ kryptoměnové burzy, která umožňuje obchodování pouze s Bitcoinem.
-  - Finanční služba, která poskytuje půjčky investorům pro obchodování s marží.
-  - Softwarový nástroj, který sleduje ceny akcií v reálném čase bez jakýchkoli investičních funkcí.
+  - Může být použit pouze vybranou skupinou lidí.
+  - Vyžaduje povolení od centrální autority k jeho použití.
+  - Může být použit pouze v určitých zemích.
 explanation: |
-  Platforma DCA odkazuje na platformu, která usnadňuje
-  Průměrování nákladů v dolarech (DCA), investiční strategii, kde
-  jednotlivec investuje pevnou částku peněz do
-  konkrétního aktiva v pravidelných intervalech, bez ohledu na
-  cenu aktiva.
+  Text uvádí, že Bitcoin je pseudonymní a může být
+  směněn kdekoli na světě bez povolení
+  jakékoli entity.
 reviewed: true

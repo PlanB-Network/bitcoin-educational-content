@@ -1,8 +1,13 @@
-question: Bitcoin'ın benimsenme eğrisi neye benzer?
-answer: Bir S-eğrisi.
+question: El Salvador'da Bitcoin'ın durumu nedir?
+answer: Yasal ihale.
 wrong_answers:
-  - Bir U eğrisi.
-  - Bir V eğrisi.
-  - Bir W-eğrisi.
-explanation: >-
+  - Suçlu.
+  - Bilinmiyor.
+  - Düzenlenmemiş.
+explanation: |
+  Ders metninde, bazı ülkelerin aşağıdakileri yasakladığından bahsedilmektedir
+  ve Bitcoin kullanımını suç haline getirerek
+  gW-1'in benimsenmesinin kültürlere, dönemlere ve
+  uluslar. Ancak El Salvador bunu kabul edecek kadar cesurdu
+  yasal bir ihale olarak.
 reviewed: true

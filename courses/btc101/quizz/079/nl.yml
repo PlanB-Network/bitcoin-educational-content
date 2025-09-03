@@ -1,11 +1,13 @@
-question: Hoe kun je de standaardbeveiliging van je Bitcoin Wallet versterken?
-answer: Door een passphrase toe te voegen aan je Bitcoin Wallet.
+question: Wat is een Cold Wallet?
+answer: Een Wallet in een fysiek apparaat dat je sleutels opslaat en niet verbonden is met het internet.
 wrong_answers:
-  - Door een tweede privésleutel aan je Bitcoin Wallet toe te voegen.
-  - Door een tweede publieke sleutel toe te voegen aan je Bitcoin Wallet.
-  - Door een tweede Mnemonic zin toe te voegen aan je Bitcoin Wallet.
+  - Een Wallet die fysiek Cold is om aan te raken.
+  - Een Wallet die niet populair is bij Bitcoin gebruikers.
+  - Een Wallet die wordt aanbevolen voor het opslaan van kleine hoeveelheden bitcoins.
 explanation: |
-  Als je niet tevreden bent met de standaardbeveiliging van je
-  Bitcoin Wallet, kun je die altijd versterken door een
-  passphrase toe te voegen aan je Bitcoin Wallet.
+  Een Cold Wallet is een term die wordt gebruikt om een Bitcoin Wallet te beschrijven
+  die opgeslagen is op een apparaat dat niet verbonden is met het
+  internet is aangesloten. Dit maakt het minder kwetsbaar voor online bedreigingen,
+  maar het betekent ook dat de Wallet minder toegankelijk is voor
+  dagelijkse transacties.
 reviewed: true

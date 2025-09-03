@@ -1,14 +1,8 @@
-question: Ni igiki ciyumviro c’urukoba mu rukino mu bijanye n’urukino rwa videwo?
-answer: Kugira uruhara rw’amahera mu vyo urukino ruzovamwo.
+question: Ni uturyo utuhe two gukora ubudandaji dushobora gutangwa na Lightning Network?
+answer: Ivyitegererezo bishasha vy’ubutunzi aho abaguzi bariha ibirimwo bishingiye ku vyo bafungura.
 wrong_answers:
-  - Guhindura ibiranga umuntu afise urukoba rudasanzwe rwongera urukino.
-  - Gugura ibintu vyo mu rukino n’amahera nyayo.
-  - Gucuruza inkovu z’imikino ku mahera nyayo.
-explanation: |
-  Iciyumviro c’urukoba mu rukino ni iciyumviro gifise .
-  ubu nyene yarakunzwe cane mu bijanye n’imikino ya videwo. Ico
-  mu vy’ukuri yerekeza ku ciyumviro c’uko abahinguzi n’
-  abafatanyabikorwa bafise ishoramari canke umugabane w’umuntu ku giti ciwe mu
-  ukuroranirwa kw’urukino, bihuza inyungu zabo n’
-  gutanga igicuruzwa ciza.
+  - Ivyitegererezo bishasha vy’ubutunzi aho abaguzi bariha bakoresheje amafaranga atandukanye.
+  - Ivyitegererezo bishasha vy’ubutunzi aho abaguzi bakoresha blockchains zigenewe umuntu ku giti ciwe.
+  - Ivyitegererezo bishasha vy’ubutunzi aho abaguzi batishura ikintu na kimwe kirimwo.
+explanation: >-
 reviewed: true

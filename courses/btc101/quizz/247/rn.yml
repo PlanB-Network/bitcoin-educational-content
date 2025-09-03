@@ -1,8 +1,11 @@
-question: Ni kimwe mu bibazo nyamukuru vyavyuwe ku bijanye n’akazoza k’ivy’ubutunzi ni ikihe?
-answer: Ni nde akwiye gufata, kwemerera no gukurikirana amahera dukoresha?
+question: Ni ubuhe buryo ngirakamaro bwo kuronka Bitcoins?
+answer: Kubigura biciye ku mbuga zitegekanijwe canke zitategekanijwe.
 wrong_answers:
-  - None twokuraho gute amahera burundu?
-  - None twomenya gute ko bose bafise amahera angana?
-  - None twotuma gute amahera adakoreshwa?
-explanation: >-
+  - Mining bo bakoresheje laptop.
+  - Kubasanga mw’isi y’umubiri.
+  - Kubihingura hakoreshejwe porogarama idasanzwe.
+explanation: |
+  Ico canditswe kivuga ko abakoresha bashobora kuronka Bitcoins ku 2019.
+  kuvyemera kugira ngo bigurishwe canke mu kubigura biciye ku .
+  ama platforms ategekanijwe canke atategekanijwe.
 reviewed: true

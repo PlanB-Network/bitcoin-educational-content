@@ -1,10 +1,9 @@
-question: Ni ingaruka izihe inflation ya 20% ku bushobozi bwo kugura mu myaka 3?
-answer: Utakaza 50% vy’ubushobozi bwo kugura.
+question: Muri ibi bikurikira, ni ikihe kitari ikiranga Bitcoin?
+answer: Bica bicengera bitagoranye.
 wrong_answers:
-  - Utakaza 100% vy’ubushobozi bwo kugura.
-  - Utakaza 60% vy’ubushobozi bwo kugura.
-  - Utakaza 30% vy’ubushobozi bwo kugura.
+  - Ni ikintu gishobora gutwarwa ubwo nyene.
+  - Irafise amafaranga makeyi yo kugenzura.
+  - Irafise politike y’amahera idahinduka.
 explanation: |
-  Iyo ufise 20% vy’inflation, uratakaza hafi igice c’ivyo ugura
-  ububasha mu myaka 3.
+  Bitcoin ifise ibiranga vyose bikenewe kugira ngo ibe ifaranga rikora neza kandi rifise amagara meza: rishobora kugabanywa, rishobora gutwarwa ubwo nyene, ridashobora gusuzumwa, rifise igiciro gitoyi co kugenzura, kandi rifise politike y’amahera imaze gushirwaho mu binjana n’ibindi bizoza n’amamiliyoni 21 y’amafaranga.
 reviewed: true

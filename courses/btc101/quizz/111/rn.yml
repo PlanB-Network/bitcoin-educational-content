@@ -1,13 +1,12 @@
-question: None KYC ihagarariye iki?
-answer: Menya Umukiriya Wawe.
+question: Ni ubutumwa ubuhe buri mu gice ca mbere ca Bitcoin Blockchain?
+answer: 03/jan/2009 Umukuru w’igihugu ari ku ruhande rw’ugutabara ubwa kabiri amabanki.
 wrong_answers:
-  - Gumana Amahera Yawe.
-  - Ufungure Amakode Yawe.
-  - Mu Mutima mwiza Kwubahiriza Ivyagezwe.
+  - Turashobora gutsinda intambara ikomeye mu mahiganwa y’ibirwanisho maze tukaronka akarere gashasha k’umwidegemvyo mu myaka myinshi.
+  - Intwaro zirazi neza guca imitwe y’imihora igenzurwa hagati nka Napster, ariko imihora ya P2P isukuye nka Gnutella na Tor isa n’iyifise iyayo.
+  - Nta na kimwe muri ivyo bivugwa haruguru.
 explanation: |
-  KYC canke Menya Umukiriya Wawe vyerekeye uburyo bwo
-  ubucuruzi bufata kugira ngo bugenzure akaranga k’abaguzi babo.
-  Ivyo bikorwa mu bisanzwe kugira ngo umuntu yubahirize .
-  amabwirizwa no gukingira ibikorwa bitemewe n’amategeko nk’amahera .
-  gusesagura amahera canke ubuhendanyi.
+  Igipande ca mbere c’indege Bitcoin Blockchain, kizwi kandi kw’izina rya
+  igice ca Genesis, kirimwo ubutumwa 03/munyonyo/2009
+  Chancelier ari ku ruhande rw’ugufasha amabanki ubwa kabiri, ari vyo
+  umutwe w’Igihe uwo musi ku Timestamp igice ca Genesis.
 reviewed: true

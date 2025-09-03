@@ -1,11 +1,8 @@
-question: Ni igiki coba ku bikorwa vya kera vyo kohereza amahera nka Western Union, amabanki akomeye, Visa, na Mastercard iyo batafata Lightning Network?
-answer: Vyoshobora kuzimangana.
+question: Ni ikihe kimwe mu bintu bishobora gukoreshwa na Lightning Network mu buzima bwa misi yose?
+answer: Gutanga amafaranga ubwo nyene mu bucuruzi.
 wrong_answers:
-  - Bashobora kurushiriza kumenyekana.
-  - Bashobora kurushiriza kugira umutekano.
-  - Bashobora kurushiriza kwegereza abantu.
-explanation: |
-  Ibikorwa vya kera vyo kohereza amafaranga nka Western Union,
-  amabanki akomeye, Visa, na Mastercard vyoshobora kuzimangana iyo .
-  ntimukoreshe ubuhinga bwa Lightning Network.
+  - Mining ama Bitcoins mashasha.
+  - Guhingura amafaranga mashasha y’ivy’ubuhinga bwa none.
+  - Kwongera agaciro ka Bitcoin.
+explanation: >-
 reviewed: true

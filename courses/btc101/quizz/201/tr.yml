@@ -1,12 +1,10 @@
-question: KYC düzenlemelerinin amacı nedir?
-answer: Terörizmin finansmanı, vergi kaçakçılığı ve kara para aklama ile mücadele etmek.
+question: Bitcoin satın alırken ülkenizin yönetmeliklerine uymamanın olası sonuçlarından biri nedir?
+answer: Kendinizi riske atabilirsiniz.
 wrong_answers:
-  - Bitcoin'ın fiyatını artırmak ve kullanıcının daha fazla vergi ödemesini sağlamak.
-  - Bitcoin'in Supply'sini kontrol etmek için.
-  - İnsanların Bitcoin satın almasını önlemek için.
+  - Bitcoin'in fiyatını artırabilirsiniz.
+  - Bitcoin'nin Supply'ünü kontrol edebilirsiniz.
+  - Başkalarının Bitcoin satın almasını engelleyebilirsiniz.
 explanation: |
-  Kurs metni Müşterinizi Tanıyın (KYC) konusunu açıklamaktadır
-  yönetmelikler, kullanıcıların aşağıdakilere kimlik sağlamasını gerektirir
-  terörizmin finansmanı, vergi kaçakçılığı ve kara para ile mücadele
-  aklama.
+  Kurs metninde yönetmeliklere uyulmamasından bahsedilmektedir
+  gW-5'i satın alırken ülkenizdeki riskleri göz önünde bulundurmanız sizi riske atabilir.
 reviewed: true

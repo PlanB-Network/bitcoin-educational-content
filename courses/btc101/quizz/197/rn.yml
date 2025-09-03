@@ -1,11 +1,11 @@
-question: Ni ikihe kimwe mu bibazo bishobora guterwa n’ugugura Bitcoin?
-answer: Igiciro caco gishobora kugabanuka kikaja kuri 0.
+question: Ni ikihe kimwe mu bintu ukwiye kwitwararika igihe uhitamwo urubuga rwa DCA?
+answer: Kuboneka mu gihugu cawe.
 wrong_answers:
-  - Bishobora kwibwa bitagoranye.
-  - Bishobora gusubirwamwo.
-  - Bishobora gutakazwa ku mubiri.
+  - Ibara ry’ikimenyetso c’urubuga.
+  - Igitigiri c’abakoresha kuri iyo nzira.
+  - Imyaka y’ibarabara.
 explanation: |
-  Ivyanditswe vy’amashure bivuga ko Bitcoin ari ikintu gihinduka cane .
-  umutungo w’ivy’amahera, kandi igiciro cawo gishobora kugabanuka kikaja kuri 0, ari co kimwe .
-  ku bibazo bijanye no kugura Bitcoin.
+  Iki canditswe c’amashure kivuga ko iyo uhisemwo DCA .
+  urubuga, uguhitamwo kwiza kuzovana cane n’ivyo .
+  kuboneka mu gihugu cawe.
 reviewed: true

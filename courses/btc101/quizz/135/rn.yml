@@ -1,8 +1,8 @@
-question: Ni igikorwa ikihe c’uguhindura ingorane mu murongo wa Bitcoin?
-answer: Bituma habaho ububiko bwongerwako kuri Blockchain hafi buri minota cumi.
+question: Node ya pruned ni ikihe mu bijanye na Bitcoin?
+answer: Igipfukisho kigumya gusa amabuye N ya nyuma mu ciyumviro.
 wrong_answers:
-  - Ni co kigena igiciro ca Bitcoin.
-  - Igenzura umubare w’ama bitcoins ashobora gucukurwa muri Blockchain.
-  - Ni co kigena ubunini bw’ibuye.
+  - Igikoresho cemeza gusa amafaranga.
+  - Igikoresho gitanga amakuru gusa ku zindi nzira.
+  - Igikoresho gishitsa gusa amategeko y’umurongo wa Bitcoin.
 explanation: >-
 reviewed: true

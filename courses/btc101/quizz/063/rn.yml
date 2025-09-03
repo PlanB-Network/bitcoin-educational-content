@@ -1,12 +1,10 @@
-question: Ni iciyumviro ikihe c’imibare gishingiye ku bwenge bw’umuntu kandi gikoreshwa muri Bitcoin?
-answer: Ivyiyumviro vy’urukino.
+question: Ingororano ya BTC inyuma ya Halving ya kane ni ingahe?
+answer: 3.125 Igihugu.
 wrong_answers:
-  - Ivyiyumviro vy’ibishoboka.
-  - Ivyiyumviro vy’imibare.
-  - Ivyiyumviro vy’Ishirahamwe.
+  - 1,5625 n'ibindi.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Ivyiyumviro vy’urukino ni iciyumviro c’imibare gishingiye ku
-  ivyiyumviro vy’umuntu. Muri Bitcoin, amahinduka y’amategeko ni
-  gukurikizwa n’abakoresha, bagahindura ivyo ari vyo vyose kuri Bitcoin.
-  protocole igoye cane.
+  Inyuma ya Halving ya kane, iba ku burebure bw’ibarabara .
+  840.000, impembo ya BTC ku Mining ni 3.125 BTC.
 reviewed: true

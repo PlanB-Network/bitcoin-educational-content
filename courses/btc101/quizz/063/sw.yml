@@ -1,12 +1,10 @@
-question: Je, ni dhana gani ya kihisabati ambayo inategemea busara ya binadamu na inatumika katika Bitcoin?
-answer: Nadharia ya mchezo.
+question: Je! ni malipo gani ya BTC baada ya Halving ya nne?
+answer: 3.125 BTC.
 wrong_answers:
-  - Nadharia ya uwezekano.
-  - Nadharia ya nambari.
-  - Weka nadharia.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Nadharia ya mchezo ni dhana ya hisabati ambayo msingi wake ni
-  busara ya kibinadamu. Katika Bitcoin, mabadiliko ya itifaki ni
-  kutekelezwa na watumiaji, kufanya marekebisho yoyote kwa Bitcoin
-  itifaki ngumu sana.
+  Baada ya Halving ya nne, ambayo hutokea kwa urefu wa kuzuia
+  840,000, malipo ya BTC kwa Mining ni 3.125 BTC.
 reviewed: true

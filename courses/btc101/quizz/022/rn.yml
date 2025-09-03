@@ -1,13 +1,9 @@
-question: Ni kuki inzahabu yacitse igikoresho gisanzwe co gukoresha Exchange?
-answer: Kubera ukuntu ari gake, ukuramba, n’ukuntu bishobora kugabanywa.
+question: Ni kubera iki inzahabu atari ikintu co gutwara?
+answer: Kubera ko ari ryinshi kandi riremereye, ivyo bikaba bituma bigorana gutwara vyinshi.
 wrong_answers:
-  - Kubera ubwinshi bwayo, ukuramba kwayo, n’ukudashobora kugabanywa.
-  - Kubera ko ari gake, ko yononekara, kandi ko igabanywa.
-  - Kubera ubwinshi bwayo, ukubora kwayo, n’ukudashobora kugabanywa.
+  - Kubera ko ari ngirakamaro cane ku buryo udashobora kwimurirwa.
+  - Kubera ko ridashobora guhindurwa mu buryo bworoshe ngo ribe utugingo ngengabuzima dutoduto.
+  - Kuko ni Liquid mu bushuhe bwo mu cumba.
 explanation: |
-  Inzahabu yacitse igikoresho gisanzwe ca Exchange kubera .
-  ubuke, uburamba, n’ugucapura: ubuke bwavyo bwabujijwe
-  ugucika kw’agaciro bitewe n’uguhingura; uburambe bwayo
-  yarabonye ko itazosenyuka uko igihe kigenda kirarenga, be n’uko yoshobora kugabanywa .
-  yemerewe gukoreshwa mu bikorwa vy’ubudandaji vy’ubunini butandukanye.
+  Inzahabu iraremereye kandi iraremereye, ivyo bikaba bisobanura ko kuyitwara nyinshi bishobora kuba urugamba ku mubiri. Ubwo buremere butuma bidashobora gutwara neza ugereranije n’ibikoresho vyoroshe.
 reviewed: true

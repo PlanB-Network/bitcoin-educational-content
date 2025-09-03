@@ -1,10 +1,12 @@
-question: None Manifesto ya Cypherpunk ni iki?
-answer: Icanditswe canditswe na Eric Hughes cemeza ko ubuzima bwite ari uburenganzira bw’ishimikiro.
+question: Ni ibihe bintu nyamukuru biranga ifaranga rikora neza?
+answer: Ishobora guhinduka, Igabanywa, Liquid.
 wrong_answers:
-  - Igitabo canditswe na Julian Assange kivuga ku bijanye n’akazoza k’ubuhinga bwa none.
-  - Inyandiko ivuga ingingo ngenderwako za Bitcoin.
-  - Itangazo ryanditswe na David Chaum ku bijanye n’akamaro k’amahera y’ubuhinga bwa none.
+  - Ishobora guhinduka, Igabanywa, Ishobora kwonona.
+  - Ishobora guhinduka, Idashobora kugabanywa, Liquid.
+  - Ibidahinduka, Bigabanywa, Liquid.
 explanation: |
-  Ikete rya Cypherpunk ryanditswe na Eric Hughes mu 1993
-  kandi yemeza ko ubuzima bwite ari uburenganzira bw’ishimikiro.
+  Ifaranga ryiza ritegerezwa kuba rishobora guhindurwa (rishobora guhindurwa
+  ata gutakaza agaciro), bishobora kugabanywa (bigabanywamwo bitobito .
+  ibice vyo kworohereza ibikorwa vy’ubudandaji vy’ibipimo bitandukanye), na .
+  Liquid (ishobora guhindurwa bitagoranye mu bicuruzwa canke mu bikorwa).
 reviewed: true

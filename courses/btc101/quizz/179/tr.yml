@@ -1,8 +1,8 @@
-question: Bitcoin'ın bu kadar çok spekülatif balon yaşamasının nedenlerinden biri nedir?
-answer: Supply'in sınırlı olması ve yüksek talep nedeniyle.
+question: Bitcoinleri satın almadan elde etmenin bir yolu nedir?
+answer: Sunduğunuz ürün veya hizmetler için bir ödeme aracı olarak kabul edin.
 wrong_answers:
-  - Çünkü Bitcoin aslında hiçbir yerde kullanılmıyor.
-  - Çünkü Bitcoin yok olacak bir balondur.
-  - Çünkü Bitcoin ekonomik döngülere tabi değildir.
+  - Onları bir arkadaşınızdan ödünç alın ve asla geri vermeyin.
+  - Piyangodan kazan.
+  - Onları sokakta bul.
 explanation: >-
 reviewed: true

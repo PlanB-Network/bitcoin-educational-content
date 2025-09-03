@@ -1,12 +1,13 @@
-question: Was sind die drei kanonischen Funktionen des Geldes?
-answer: Wertaufbewahrungsmittel, Tauschmittel, Recheneinheit.
+question: Warum kann Gold in einer globalisierten und digitalen Welt nicht gut abschneiden?
+answer: Weil es eine zentrale Entität benötigt, um es teilbar und leicht austauschbar zu machen.
 wrong_answers:
-  - Wertaufbewahrungsmittel, Tauschmittel, Produktionsmittel.
-  - Wertaufbewahrungsmittel, Produktionsmittel, Recheneinheit.
-  - Tauschmittel, Produktionsmittel, Recheneinheit.
+  - Weil es nicht wertvoll genug ist.
+  - Weil es nicht selten genug ist.
+  - Weil es mit der Zeit erodiert.
 explanation: |
-  Nach Aristoteles erfüllt Geld drei Funktionen: Es ist
-  ein Wertaufbewahrungsmittel, ein Tauschmittel und eine
-  Recheneinheit. Heutzutage wird die Funktion als Tauschmittel
-  weitgehend als die Hauptfunktion angesehen, vor den anderen beiden.
+  Gold kann in einer globalisierten und digitalen Welt nicht mithalten,
+  weil es eine zentrale Entität benötigt, um es teilbar und
+  leicht austauschbar zu machen. Dies macht es weniger praktisch für den Einsatz in
+  einer Welt, in der Transaktionen zunehmend digital und
+  dezentralisiert sind.
 reviewed: true

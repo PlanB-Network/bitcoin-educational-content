@@ -1,13 +1,12 @@
-question: Ni igiki gikenewe gukoresha Multisig Wallet?
-answer: Kubika amahera menshi kugira ngo akoreshwe n’amashirahamwe.
+question: Wokora iki amajambo y’invugo yawe ya Mnemonic amaze kwandikwa?
+answer: Kora kopi ya kabiri maze uyibike ahantu hatandukanye.
 wrong_answers:
-  - Kubika utuntu dutoduto kugira ngo umuntu akoreshe.
-  - Kubika amafaranga ari hagati kugira ngo akoreshe ata nyungu.
-  - Kubika amahera y’umusi ku musi kugira ngo umuntu akoreshe.
+  - Ubisangize umugenzi wizigira.
+  - Uyirungikire wewe nyene.
+  - Bibike muri telefone yawe.
 explanation: |
-  Multisig Wallet ni nziza kugira ngo ubike ibintu vyinshi .
-  kandi ku bijanye n’ikoreshwa ry’amashirahamwe kuko bisaba incuro nyinshi .
-  imikono kugira ngo ukore igikorwa. Iyi nzira yongerako
-  extra Layer y’umutekano, kuko umuntu umwe ntashobora
-  gukora igikorwa c’ubudandaji ata kwemererwa n’abandi.
+  Amajambo y’interuro yawe ya Mnemonic amaze kwandikwa, ni .
+  birasabwa gukora kopi ya kabiri maze ukayibika mu .
+  ikibanza gitandukanye n’ica mbere. Ivyo bitanga ububiko mu 2019.
+  igihe co gutakaza canke gukora impanuka n’ikopi ya mbere.
 reviewed: true

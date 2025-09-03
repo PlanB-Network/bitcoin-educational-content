@@ -1,0 +1,10 @@
+question: ¿Cuándo ocurrió la guerra del tamaño de bloque?
+answer: En 2017.
+wrong_answers:
+  - En 2008.
+  - En 2010.
+  - En 2019.
+explanation: >-
+  La guerra del tamaño de bloque ocurrió en 2017. Este conflicto enfrentó a los actores que querían modificar Bitcoin aumentando el tamaño del bloque para incrementar la capacidad de transacción,
+  a aquellos que buscaban preservar la independencia y el poder de los usuarios manteniendo el tamaño en 1 MB.
+reviewed: true

@@ -1,13 +1,9 @@
-question: Merkez bankası dijital para birimlerinin (CBDC'ler) potansiyel dezavantajı nedir?
-answer: Bireylerin mali özgürlüğünü engelleyebilir ve otoriter suiistimalleri kolaylaştırabilirler.
+question: Hiperenflasyon olgusunda ortaya çıkan ilk aşama nedir?
+answer: Bir para birimine olan güvenin kaybolması.
 wrong_answers:
-  - Supply parasında bir düşüşe yol açabilirler.
-  - Bunlar Bitcoin değerinde bir düşüşe yol açabilir.
-  - Bunlar altının değerinin düşmesine yol açabilir.
+  - Para birimi çöküşü ve fiyat artışı.
+  - Para basmanın kısır döngüsü.
+  - Yeni bir para birimi ortaya çıkıyor.
 explanation: |
-  Merkez bankası dijital para birimleri (CBDC'ler) potansiyel olarak
-  bireylerin finansal özgürlüğünü engellemekte ve
-  otoriter suistimaller. Bunun nedeni, onların bir
-  merkez bankası ile daha merkezi planlı bir ekonomi
-  gW-2'nin parası üzerinde daha fazla kontrol sahibi olmak.
+  Hiperenflasyonun ilk aşaması bir para birimine olan güvenin kaybolmasıdır.
 reviewed: true

@@ -1,8 +1,8 @@
-question: Je, Lightning Network inawezaje kutumika kwa kukodisha bidhaa?
-answer: Watumiaji wanaweza kutozwa kwa dakika, au hata kwa sekunde, kwa muda wanaotumia bidhaa.
+question: Je, ni ipi mojawapo ya faida zinazoweza kutokea za kukubali teknolojia mpya kama vile Bitcoin?
+answer: Inaweza generate uchumi mkubwa wa kiwango duniani kote.
 wrong_answers:
-  - Watumiaji wanaweza kutozwa ada ya juu kwa kukodisha bidhaa.
-  - Watumiaji wanaweza kutozwa kulingana na thamani ya bidhaa.
-  - Watumiaji wanaweza kutozwa kulingana na hali ya bidhaa.
+  - Inaweza kusababisha kuporomoka kwa uchumi wa dunia.
+  - Inaweza kusababisha kupungua kwa akili ya mwanadamu.
+  - Inaweza kusababisha kuondolewa kwa kazi zote.
 explanation: >-
 reviewed: true

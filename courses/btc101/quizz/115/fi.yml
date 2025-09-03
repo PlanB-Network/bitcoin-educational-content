@@ -1,11 +1,9 @@
-question: Kuka oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon Satoshi Nakamoton jälkeen?
-answer: Hal Finney.
+question: Mikä on ollut Bitcoinin verkkosaatavuus vuodesta 2009 lähtien?
+answer: 99,988 %.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Hal Finney oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon
-  Satoshi Nakamoton jälkeen. Hän jopa twiittasi Running
-  Bitcoin merkitäkseen tilaisuutta.
+  Bitcoinin verkkosaatavuus on ollut 99,988 % vuodesta 2009 lähtien.
 reviewed: true

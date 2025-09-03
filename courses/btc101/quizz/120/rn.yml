@@ -1,11 +1,12 @@
-question: Ni ryari Bitcoin yakoreshejwe ubwa mbere mu kugura ibintu vy’umubiri?
-answer: Igihe Laszlo Hanyecz yagura pizza 2 ku bihumbi 10 vy’ama BTC.
+question: Intumbero y’amahera y’ugucuruza mu bikorwa vya Bitcoin ni iyihe?
+answer: Ni ikintu gitera intege abacukuzi kugira ngo bashire iyo nzira mu gice gikurikira.
 wrong_answers:
-  - Igihe Hal Finney yagura imodoka ku madolari 100.000 BTC.
-  - Igihe Satoshi Nakamoto yagura inzu ku mahera 1.000.000.000 BTC.
-  - Nta n’imwe mu zindi nzira.
+  - Ni umusoro ushirwaho na leta.
+  - Ni amahera asabwa n’urubuga rwa Bitcoin kubera gukoresha ibikorwa vyarwo.
+  - Ni amahera asabwa n’uwutanga Wallet.
 explanation: |
-  Igihe ca mbere Bitcoin yakoreshwa mu kugura ibintu vy’umubiri .
-  Ibicuruzwa vyari igihe Laszlo Hanyecz yagura pizza 2 ku bihumbi 10
-  BTC, ku wa 2010/05/22 ubu izwi nka umusi wa Pizza
+  Amafaranga y’ibikorwa mu bikorwa vya Bitcoin akora nk’
+  inkurikizi ku bacukuzi kugira ngo bashiremwo iyo nzira mu yindi
+  uruzitiro. Amafaranga atuma haba isoko ry’ubuntu ryo gushiramwo
+  ibikorwa vy’ubudandaji mu mabarabara.
 reviewed: true

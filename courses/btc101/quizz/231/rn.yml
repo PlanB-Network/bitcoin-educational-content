@@ -1,10 +1,8 @@
-question: Ni igihe kingana iki hagati y’uguhingura amabuye abiri muri porotokole ya Bitcoin?
-answer: Iminota 10.
+question: Ni igiki ciyumviro c’amahera agendagenda mu bijanye n’ivyo Lightning Network?
+answer: Gukora amafaranga make akomeza, mu gihe nyaco.
 wrong_answers:
-  - Iminota 5.
-  - Iminota 15.
-  - Iminota 20.
-explanation: |
-  Igihe gisanzwe kiri hagati y’iremwa ry’ibintu bibiri .
-  amabuye mu porotokole ya Bitcoin ni iminota 10.
+  - Guhindura Bitcoin mu mafaranga ahantu nyakuri hakoreshejwe ATM.
+  - Gutangaza amajwi canke amasanamu y'ibintu vya Bitcoin.
+  - Guhingura ama bitcoins mashasha biciye mu bikorwa vya Mining bishika mu gihe nyaco.
+explanation: >-
 reviewed: true

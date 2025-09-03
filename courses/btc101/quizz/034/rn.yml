@@ -1,13 +1,13 @@
-question: Ni akamaro akahe nyamukuru k’inzahabu nk’amahera?
-answer: Ni ikintu gikomeye cane.
+question: None icapa ry’amahera rigira ingaruka izihe?
+answer: Bituma haba ugutera imbere kw’ibiciro, buhoro buhoro abantu bagakena.
 wrong_answers:
-  - Biroroshe gucapura canke gutwara ku rugendo rurerure.
-  - Biroroshe kugenzura.
-  - Ntibitegekanijwe na leta.
+  - Bituma haba ugutakaza ubutunzi, buhoro buhoro abantu bagatunga.
+  - Bituma ubutunzi bushikamye ata n’ugutera imbere kw’ibiciro canke ugutera imbere kw’ibiciro.
+  - Bituma amahera Supply agabanuka.
 explanation: |
-  Naho bidashobora gucapura canke gutwarwa bitagoranye ku .
-  ingendo ndende, inzahabu ni ikintu gikomeye cane, kikaba
-  bituma iba nziza ububiko bw’agaciro. Ibiceri vy’inzahabu vyakoreshwa nk’
-  amafaranga yo mu bihe vya kera, ariko ntibari gukora kimwe .
-  intumbero mu gihe c’ubuhinga bwa none.
+  Gucapura amahera, canke kurema amahera mashasha n’ishirahamwe ry’imbere
+  amabanki, bituma habaho ugutera imbere kw’ibiciro. Ivyo ni kubera ko iyongerekana ryo mu 2012.
+  amahera Supply agabanya ubushobozi bwo kugura amahera, .
+  bituma ibiciro vyiyongera kandi agaciro k’
+  kuzigama.
 reviewed: true

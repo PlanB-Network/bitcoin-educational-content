@@ -1,8 +1,11 @@
-question: Ni igikorwa ikihe Bitcoin ihatira amashirahamwe, amashure makuru, abajejwe gucungera amategeko, n’abantu ku giti cabo gukora?
-answer: Kugira ngo babishire mu muzirikanyi.
+question: Ni ubuhe buryo bwo kwemera Bitcoin nk’uko buvugwa muri iri shure?
+answer: Virus.
 wrong_answers:
-  - Kugira ngo uvyirengagize.
-  - Kugira ngo babibuze.
-  - Kugira ngo bibe icaha.
-explanation: >-
+  - Buhoro kandi ushikamye.
+  - Ivyihuta kandi bidashobora gucungera.
+  - Ivy’ibihe bimwe bimwe kandi bitamenyekana.
+explanation: |
+  Ico canditswe c’amashure kidondora ukuntu Bitcoin yemerewe nk’aho ari umugera,
+  bikaba vyerekana ko ikwiragizwa ningoga kandi cane kuva ku muntu umwe .
+  umuntu ku wundi, nk’umugera, ariko ari mwiza.
 reviewed: true

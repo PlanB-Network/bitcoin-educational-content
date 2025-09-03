@@ -1,9 +1,9 @@
-question: Mối quan tâm chính liên quan đến chi phí môi trường của việc đào Bitcoin là gì?
-answer: Tiêu thụ năng lượng.
+question: Bitcoin có thể giúp ích như thế nào cho quá trình chuyển đổi sinh thái?
+answer: Nó thúc đẩy việc sử dụng năng lượng xanh.
 wrong_answers:
-  - Sản xuất ASIC.
-  - Tái chế ASIC.
-  - Chi phí điện.
+  - Nó giảm sản xuất hàng hóa.
+  - Nó điều tiết việc tiêu thụ tài nguyên.
+  - Nó hạn chế việc phát thải chỉ các khí nhà kính.
 explanation: >-
-  Mối quan tâm môi trường chính của việc đào Bitcoin là tiêu thụ năng lượng. Mặc dù ASIC chủ yếu được làm từ nhôm và có thể được tái chế hoặc tái sử dụng, nhưng lượng năng lượng cần thiết để vận hành những máy này là đáng kể.
+  Bitcoin thúc đẩy việc sử dụng năng lượng xanh, có thể giúp ích cho quá trình chuyển đổi sinh thái. Ví dụ, ngọn lửa ở các giếng dầu, chúng đốt cháy methane để ngăn chặn ô nhiễm, có thể được dập tắt bởi các thợ đào Bitcoin.
 reviewed: true

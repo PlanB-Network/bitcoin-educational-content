@@ -1,11 +1,10 @@
-question: None ikibazo c’ubutatu ca Blockchain ni ikihe?
-answer: Itegeko rishingiye kuri Blockchain rishobora gusa gushitsa bibiri mu bipimo vy’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+question: None Lightning Network ituma bishoboka iki?
+answer: Gukorana hagati y’abantu badafise umurongo utaziguye.
 wrong_answers:
-  - Itegeko rishingiye kuri Blockchain rishobora gusa guhazwa n’umwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
-  - Itegeko rishingiye kuri Blockchain rishobora gushitsa ibisabwa vyose vyo kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
-  - Itegeko rishingiye kuri Blockchain ntirishobora guhazwa n’imwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+  - Kugira ngo haboneke amahuzu y’imirongo ataco akora gusa n’uguhanahana amakuru hagati.
+  - Kugira ngo ureme amahuzu y’imirongo asaba kwemeza kenshi ku bijanye n’ugucuruza kwose.
+  - Gushinga amahuzu y’imirongo ataco akora agarukira ku bikorwa binini gusa.
 explanation: |
-  Ico kibazo ca Blockchain kivuga ingorane umuntu
-  protocole ishingiye kuri Blockchain ishobora gusa guhazwa n’ingingo zibiri muri
-  kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
+  Lightning Network ituma bishoboka gukorana hagati y’
+  abantu ku giti cabo badafise umurongo utaziguye.
 reviewed: true

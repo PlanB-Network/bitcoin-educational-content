@@ -1,10 +1,9 @@
-question: Quel est l'impact d'une inflation de 20% sur le pouvoir d'achat sur 3 ans ?
-answer: Vous perdez 50% de votre pouvoir d'achat.
+question: Lequel des éléments suivants n'est pas une caractéristique du Bitcoin ?
+answer: Il est facilement censurable.
 wrong_answers:
-  - Vous perdez 100% de votre pouvoir d'achat.
-  - Vous perdez 60% de votre pouvoir d'achat.
-  - Vous perdez 30% de votre pouvoir d'achat.
+  - Il est instantanément transportable.
+  - Il a des coûts de vérification négligeables.
+  - Il a une politique monétaire fixe.
 explanation: |
-  Avec une inflation de 20%, vous perdez presque la moitié de votre pouvoir
-  d'achat en 3 ans.
+  Le Bitcoin possède toutes les caractéristiques nécessaires pour être une monnaie efficace et saine : divisible, instantanément transportable, incensurable, coût de vérification négligeable, et avec une politique monétaire déjà établie pour les siècles à venir avec 21 millions d'unités.
 reviewed: true

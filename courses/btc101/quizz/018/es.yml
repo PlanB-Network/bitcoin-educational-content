@@ -1,9 +1,12 @@
-question: ¿Cuáles fueron las primeras formas de moneda?
-answer: Bienes como el grano y el ganado.
+question: ¿Cuál es la principal ventaja de Bitcoin sobre otras formas de moneda?
+answer: Ofrece un excelente resguardo de valor debido a su oferta estrictamente limitada y neutralidad.
 wrong_answers:
-  - Oro y plata.
-  - Billetes de papel.
-  - Activos digitales.
+  - Es indivisible y no transportable.
+  - Es un gran ejemplo de moneda que sufre inflación monetaria.
+  - Es ampliamente aceptado en el comercio por todos los comerciantes del mundo.
 explanation: |
-  Las primeras formas de moneda estaban a menudo vinculadas a bienes esenciales como el grano, el ganado y otras mercancías. Sin embargo, estos bienes tenían grandes inconvenientes, como la perecibilidad, lo que dificultaba su uso como medio de ahorro a largo plazo.
+  La principal ventaja de Bitcoin sobre otras formas de moneda
+  es que ofrece un excelente resguardo de valor debido a su
+  oferta estrictamente limitada y su falta de una parte de confianza. Esto
+  lo convierte en una buena opción para ahorros a largo plazo.
 reviewed: true

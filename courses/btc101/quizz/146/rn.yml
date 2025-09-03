@@ -1,11 +1,8 @@
-question: Ni kuki bihambaye ko urudodo rwa Bitcoin ruguma rushoboka kandi rushobora gushikirwa n’abarukoresha bose bashoboka?
-answer: Kuko vyorohereza ugusenyura urubuga.
+question: Ni igiki gifise intumbero y’uguhindura ingorane muri Bitcoin Mining?
+answer: Isubiramwo urukino rwa Mining rwo kw’isi yose rushingiye ku mubare w’abawugize.
 wrong_answers:
-  - Kuko vyongera ubushobozi bwo gukorana n’urubuga.
-  - Kuko bigabanya ubushobozi bwo gukorana n’urubuga.
-  - Kuko vyongera Block reward ku bacukuzi.
-explanation: |
-  Igiciro gishoboka n’uburyo bwo kuronka node ya Bitcoin ni .
-  birahambaye kuko vyorosha kwegereza ubutegetsi
-  urusobe rw’ibintu.
+  - Birongera impembo ya Mining.
+  - Bigabanya igitigiri c’ama bitcoins ariko arakoreshwa.
+  - Birongera umutekano w’urubuga rwa Bitcoin.
+explanation: >-
 reviewed: true

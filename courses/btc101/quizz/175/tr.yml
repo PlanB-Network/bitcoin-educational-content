@@ -1,8 +1,8 @@
-question: Bitcoin'ın oynaklığını azaltmanın bir yolu nedir?
-answer: Finansal korumalar (sabit paralar).
+question: Aşağıdaki özelliklerden hangisi Bitcoin'ın İpek Yolu gibi karanlık web pazarlarında kullanımının yaygınlaşmasına katkıda bulunmuştur?
+answer: Kontrol edilemez ve sahte doğası.
 wrong_answers:
-  - Tüm paranı Bitcoin'e yatırıyorsun.
-  - Pazar eğilimlerini göz ardı etmek.
-  - Fiyat düştüğünde daha fazla Bitcoin satın alacağım.
+  - Merkezi kontrol.
+  - İzlenebilir ve kontrol edilebilir olması.
+  - Takma isim eksikliği.
 explanation: >-
 reviewed: true

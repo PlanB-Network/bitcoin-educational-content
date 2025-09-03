@@ -1,13 +1,8 @@
-question: Hva er en av de potensielle anvendelsene til Lightning Network i hverdagslivet?
-answer: Øyeblikkelig fakturering i handel
+question: Hva er en av de potensielle konsekvensene av Lightning Network for brukere?
+answer: De ville bare betale for innholdet de bruker
 wrong_answers:
-  - Å utvinne nye Bitcoins
-  - Å skape nye kryptovalutaer
-  - Å øke verdien av Bitcoin
+  - De måtte betale mer for innhold
+  - De måtte betale en månedlig abonnementsavgift
+  - De måtte betale for innhold på forhånd
 explanation: >-
-  Lightning Network åpner døren for et bredt spekter av potensielle
-  anvendelser
-  for Bitcoin som tidligere var utenfor rekkevidde på grunn av begrensningene som er nødvendige for
-  å sikre sikkerheten og desentraliseringen av Bitcoin. Blant disse anvendelsene i
-  hverdagslivet, kan vi nevne øyeblikkelig fakturering i handel.
-reviewed: false
+  Med Lightning Network ville brukere kun betale for innholdet de bruker, noe som eliminerer abonnementsavgifter på forhånd.

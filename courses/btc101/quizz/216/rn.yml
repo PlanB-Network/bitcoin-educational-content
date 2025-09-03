@@ -1,13 +1,11 @@
-question: None Bitcoin muri Salvador iri gute?
-answer: Ifaranga ryemewe n’amategeko.
+question: None ikibazo c’ubutatu ca Blockchain ni ikihe?
+answer: Itegeko rishingiye kuri Blockchain rishobora gusa gushitsa bibiri mu bipimo vy’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
 wrong_answers:
-  - Yaciriwe urubanza.
-  - Atazwi.
-  - Ntibitegekanijwe.
+  - Itegeko rishingiye kuri Blockchain rishobora gusa guhazwa n’umwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+  - Itegeko rishingiye kuri Blockchain rishobora gushitsa ibisabwa vyose vyo kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
+  - Itegeko rishingiye kuri Blockchain ntirishobora guhazwa n’imwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
 explanation: |
-  Ico canditswe c’amashure kivuga yuko ibihugu bimwebimwe vyabujije .
-  kandi yashizeho icaha gukoresha Bitcoin, yongerako ku .
-  ubugoyagoye bwo kwemera Bitcoin bushingiye ku mico kama, ibihe, n’
-  amahanga. Ariko rero, Salvador yari afise umutima rugabo wo kuyifata .
-  nk’amahera yemewe n’amategeko.
+  Ico kibazo ca Blockchain kivuga ingorane umuntu
+  protocole ishingiye kuri Blockchain ishobora gusa guhazwa n’ingingo zibiri muri
+  kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
 reviewed: true

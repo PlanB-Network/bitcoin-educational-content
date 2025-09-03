@@ -1,11 +1,11 @@
-question: Co ten kurs sugeruje na temat tempa nauki o Bitcoin?
-answer: Trudno jest przyswoić wszystko na raz, więc nie spiesz się.
+question: Co mogłoby się stać z tradycyjnymi usługami przelewów pieniężnych, takimi jak Western Union, banki centralne, Visa i Mastercard, gdyby nie przyjęły Lightning Network?
+answer: Mogą zniknąć.
 wrong_answers:
-  - Łatwo jest nauczyć się wszystkiego na raz.
-  - Nie sposób dowiedzieć się wszystkiego o Bitcoin.
-  - Nie trzeba uczyć się wszystkiego o Bitcoin.
+  - Mogą stać się bardziej popularne.
+  - Mogą stać się bardziej bezpieczne.
+  - Mogą stać się bardziej zdecentralizowane.
 explanation: |
-  Kurs sugeruje, że jest tak wiele do zbadania z
-  Bitcoin, że przyswojenie wszystkiego naraz jest skomplikowane
-  więc nie należy się spieszyć.
+  Tradycyjne usługi przekazów pieniężnych, takie jak Western Union,
+  banki centralne, Visa i Mastercard mogą zniknąć, jeśli
+  nie przyjmą technologii Lightning Network.
 reviewed: true

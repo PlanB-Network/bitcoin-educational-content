@@ -1,11 +1,11 @@
-question: Vilken roll har en notarie i samband med Bitcoin-arv?
-answer: De säkerställer efterlevnad av skattereglerna.
+question: När presenterades Bitcoin för första gången för världen?
+answer: 31 oktober 2008.
 wrong_answers:
-  - De förvaltar dina bitcoins efter din död.
-  - De ändrar din arvsplan.
-  - De säkrar dina bitcoins i ett kassaskåp.
+  - 3 januari 2009.
+  - 22 november 2009.
+  - 12 december 2010.
 explanation: |
-  I samband med Bitcoin-arv är det viktigt att
-  diskutera arvet av bitcoins med en notarie för att säkerställa
-  skatteöverensstämmelse.
-reviewed: false
+  Bitcoin presenterades för första gången för världen den 31 oktober,
+  2008, då Satoshi Nakamoto skickade ett e-postmeddelande till Cypherpunk
+  e-postlistan som innehöll Bitcoin:s vitbok.
+reviewed: true

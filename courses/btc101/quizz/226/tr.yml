@@ -1,8 +1,8 @@
-question: Lightning Network ne tür bir ağ oluşturuyor?
-answer: Bir ödeme kanalları ağı.
+question: Lightning Network'ın temel amacı nedir?
+answer: Mikro işlemleri kolaylaştırmak için.
 wrong_answers:
-  - Mining düğümlerinden oluşan bir ağ.
-  - Blockchain düğümlerinden oluşan bir ağ.
-  - Kripto para borsalarından oluşan bir ağ.
+  - Bitcoin değerini artırmak için.
+  - Bitcoin protokolünü değiştirmek için.
+  - Yeni bir kripto para birimi oluşturmak için.
 explanation: >-
 reviewed: true

@@ -1,12 +1,11 @@
-question: None Milton Friedman yari yaravuze iki mu 1999?
-answer: Gutegura amafaranga y’ubuhinga bwa none yizigirwa.
+question: None Lightning Network ni iki?
+answer: Igikoresho co kwishura gikoresha umurongo wa Bitcoin kugira ngo bishobore gutanga amafaranga vyihuta nk’umuravyo.
 wrong_answers:
-  - Uguhera kw’amahera y’umubiri.
-  - Ukwiyongera kwa Bitcoin.
-  - Iherezo ry’ubugenzuzi bwa Leta ku mahera.
+  - Ubwoko bushasha bw’amahera y’ibanga.
+  - Ikoranabuhanga rishasha rya Blockchain rizosubirira Bitcoin muri kazoza.
+  - Uburyo bwo gukora Mining Bitcoin.
 explanation: |
-  Milton Friedman, umuhinga mu vy’ubutunzi azwi cane, yaravuze imbere y’igihe mu 1999 .
-  ko amahera yo kwizigirwa yo kuri interineti yoca ategurwa vuba, uburyo .
-  aho kuri Internet ushobora gukura amahera kuri A ukaja kuri B,
-  ata A azi B canke ibihushanye n’ivyo.
+  Lightning Network ni urubuga rwo kwishura rukoresha
+  Bitcoin protocole kugira ngo bishobore gukora amafaranga yihuta. Si
+  amafaranga y’ibanga atandukanye, canke uburyo bwo gukoresha Mining Bitcoin.
 reviewed: true

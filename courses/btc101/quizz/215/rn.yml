@@ -1,9 +1,8 @@
-question: None Bitcoin ifise umurongo rusangi wo kuduga bisigura iki?
-answer: Ivyiyumviro rusangi vy’ugutera imbere kwa Bitcoin bisigura ko, muri rusangi, igiciro ca Bitcoin cariko kiraduga.
+question: Ni ikihe kibazo c’ugutera imbere kwa Bitcoin?
+answer: Ingorane yo gushirwa mu ngiro uburyo bw’amahera bushobora gutanga umubare w’amahera uguma wiyongera ku segonda uko bugenda burashirwa mu ngiro.
 wrong_answers:
-  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko igiciro gishobora kuduga ubuziraherezo ata guhinduka.
-  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko Bitcoin iriko iragabanya agaciro kandi iriko iratakaza ubushobozi bwo gukwegera isoko.
-  - Ivyiyumviro rusangi vy’ugutera imbere muri Bitcoin bisigura ko ikunda gusa mu mugwi mutoyi w’abashoramari kandi nta ngaruka igira kw’isoko ryose.
-explanation: |
-  Iterambere rusangi ry’igiciro ca Bitcoin ryerekeza ku kwiyongera kw’igiciro cayo mu kiringo kinaka. Ni ngombwa kumenya ko naho iterambere ry’igiciro ryerekana inzira nziza, ntivyemeza ko igiciro kizobandanya kiduga ata guhinduka.
+  - Ingorane za Mining Bitcoins nshasha zifise agaciro kagenda karushirizaho uko igihe kigenda kirarenga.
+  - Ihinduka ry'igiciro ca Bitcoin rizokwongerekana inyuma ya Halving yose.
+  - Kubura amategeko ya Bitcoin bizotuma amafaranga y’ubudandaji ateye kubiri n’amategeko.
+explanation: >-
 reviewed: true

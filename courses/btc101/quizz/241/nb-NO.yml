@@ -1,8 +1,8 @@
-question: Hva er en av de potensielle konsekvensene av Lightning Network for brukere?
-answer: De ville bare betale for innholdet de bruker
+question: Hva er en av de viktigste egenskapene til Bitcoin?
+answer: Den kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.
 wrong_answers:
-  - De måtte betale mer for innhold
-  - De måtte betale en månedlig abonnementsavgift
-  - De måtte betale for innhold på forhånd
+  - Den kan kun brukes av en utvalgt gruppe mennesker.
+  - Den krever autorisasjon fra en sentral myndighet for å bli brukt.
+  - Den kan kun brukes i visse land.
 explanation: >-
-  Med Lightning Network ville brukere kun betale for innholdet de bruker, noe som eliminerer abonnementsavgifter på forhånd.
+  Teksten nevner at Bitcoin er pseudonymt og kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.

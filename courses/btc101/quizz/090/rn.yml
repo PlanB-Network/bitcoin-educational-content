@@ -1,13 +1,11 @@
-question: Ni igiki gikenewe gukoresha Wallet igendagenda?
-answer: Kubika amahera y’umusi ku musi.
+question: Bigenda gute iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu?
+answer: Uwugira gatatu arashobora gukoresha ama bitcoins yawe.
 wrong_answers:
-  - Kubika amahera y’igihe kirekire.
-  - Kubika amahera y’igihe giciye hagati.
-  - Kubika ibintu vyinshi.
+  - Uwundi muntu ashobora gusa kuraba amateka yawe y’ibikorwa.
+  - Uwundi muntu ashobora guhindura urufunguzo rwawe rw’ibanga.
+  - Uwundi muntu arashobora kuronka amakuru yawe bwite.
 explanation: |
-  Wallet igendagenda iraremeshwa ku bijanye n’amahera akoreshwa ku musi ku musi kubera ko .
-  biroroshe gukorana na yo amasezerano. Ariko rero, ryo .
-  ntivyiza kubika ibintu vyinshi canke .
-  kuzigama igihe kirekire kubera ko bishobora gushikirwa n’ingorane
-  iterabwoba ryo kuri Internet.
+  Iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu,
+  amafaranga ajanye n’ivyo ntagitekanye, kubera ko abakozi b’abikorera ku giti cabo .
+  urufunguzo rutuma bashobora kuronka amahera yawe.
 reviewed: true

@@ -1,12 +1,11 @@
-question: None iyo ata n’ijambo Mnemonic riri muri Wallet vyerekana iki?
-answer: Birerekana ko Wallet idashobora kubika igihe kirekire Bitcoin.
+question: Ni uruhara uruhe rw’umunyamabanga mu bijanye n’iragi rya Bitcoin?
+answer: Barabona ko imisoro yubahirizwa.
 wrong_answers:
-  - Birerekana ko Wallet itekanye neza kandi ko idasaba ko umuntu agira ico akora.
-  - Bisigura ko Wallet ishobora gufata amabondi menshi atandukanye.
-  - Birasabwa ko Wallet ihita igira backup n’igikoresho cawe.
+  - Bacungera ama bitcoins yawe inyuma y’urupfu rwawe.
+  - Bahindura umugambi wawe w’iragi.
+  - Bacungera ama bitcoins yawe mu gisanduku.
 explanation: |
-  Kubura urutonde rw’amajambo 12 canke 24, ni ukuvuga .
-  Ijambo Mnemonic, muri Wallet rikwiye kukumenyesha ko
-  Wallet ntitekanye kuko idakurikiza ububiko busanzwe
-  uburyo bwo kubikora.
-reviewed: true
+  Mu bijanye n’iragi rya Bitcoin, birahambaye ko .
+  kuganira ku bijanye n'iragi ry'ama bitcoins n'umunyamabanga kugira ngo umenye neza
+  kwubahiriza imisoro.
+reviewed: false

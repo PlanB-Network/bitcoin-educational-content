@@ -1,10 +1,8 @@
-question: None Lightning Network ituma bishoboka iki?
-answer: Gukorana hagati y’abantu badafise umurongo utaziguye.
+question: Ni gute Lightning Network ishobora guhindura uburyo bwo gukora ubudandaji buriho mu bijanye n’imikino ya videwo?
+answer: Bituma abakinyi bashobora gutera amahera make cane igihe bakina imikino.
 wrong_answers:
-  - Kugira ngo haboneke amahuzu y’imirongo ataco akora gusa n’uguhanahana amakuru hagati.
-  - Kugira ngo ureme amahuzu y’imirongo asaba kwemeza kenshi ku bijanye n’ugucuruza kwose.
-  - Gushinga amahuzu y’imirongo ataco akora agarukira ku bikorwa binini gusa.
-explanation: |
-  Lightning Network ituma bishoboka gukorana hagati y’
-  abantu ku giti cabo badafise umurongo utaziguye.
+  - Ituma abakinyi bashobora gucukura Bitcoin mu gihe bariko barakina imikino.
+  - Bituma abakora imikino bemera Bitcoin nk’amahera y’imikino yabo.
+  - Ituma abakinyi bagura ibintu vyo mu rukino bakoresheje Bitcoin.
+explanation: >-
 reviewed: true

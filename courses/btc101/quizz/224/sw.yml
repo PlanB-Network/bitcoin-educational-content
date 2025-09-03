@@ -1,8 +1,10 @@
-question: Lightning Network inaruhusu nini?
-answer: Shughuli za papo hapo za Bitcoin za gharama nafuu.
+question: Je, ni muda gani wa wastani kati ya uundaji wa vitalu viwili katika itifaki ya Bitcoin?
+answer: Dakika 10.
 wrong_answers:
-  - Shughuli za papo hapo na za gharama ya juu za Bitcoin.
-  - Shughuli za Bitcoin zilizochelewa na za gharama nafuu.
-  - Shughuli za Bitcoin zilizochelewa na za gharama ya juu.
-explanation: >-
+  - Dakika 5.
+  - Dakika 15.
+  - Dakika 20.
+explanation: |
+  Muda wa wastani kati ya uundaji wa mbili
+  vitalu katika itifaki ya Bitcoin ni dakika 10.
 reviewed: true

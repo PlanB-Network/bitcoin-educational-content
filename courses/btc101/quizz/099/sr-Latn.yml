@@ -1,9 +1,9 @@
-question: Šta treba da uradite kada su reči vaše Mnemonic fraze napisane?
-answer: Napravite drugu kopiju i sačuvajte je na posebnoj lokaciji.
+question: Zašto je preporučljivo izbegavati ostavljanje svojih Bitkoina na platformama za razmenu (menjačnicama)?
+answer: Oni mogu biti podložni hakerskim napadima.
 wrong_answers:
-  - Podeli to sa pouzdanim prijateljem.
-  - Pošalji sebi email.
-  - Sačuvaj to u svom telefonu.
+  - Platforme za razmenu naplaćuju nasumične naknade.
+  - Bitkoin gubi vrednost na platformama za razmenu.
+  - Platforme za razmenu nisu regulisana institucija.
 explanation: |
-  Kada su reči vaše Mnemonic fraze napisane, preporučuje se da napravite drugu kopiju i čuvate je na odvojenom mestu od prve. Ovo obezbeđuje rezervnu kopiju u slučaju gubitka ili nesreće sa prvom kopijom.
+  Preporučuje se da izbegavate ostavljanje svojih Bitkoina na menjačnicama jer mogu biti podložne hakerskim napadima.
 reviewed: true

@@ -1155,7 +1155,7 @@ Deshalb wird jedes Mal, wenn Sie die Schaltfläche "*Empfangen*" in Ihrer Wallet
 > *PS: Kürzlich haben einige Softwareprogramme für Geldbörsen angekündigt, keine leeren Adressen mehr zu generieren, da sie befürchten, dass dies von den Behörden als eine Form der Geldwäsche angesehen werden könnte. Wenn Ihre Software zu diesen Programmen gehört, rate ich Ihnen dringend, sie sofort zu ersetzen, da dies für den Nutzer nicht akzeptabel ist.*
 Wenn Sie eine statische Kennung benötigen, um Zahlungen zu erhalten, wie z. B. Spenden, ist es nicht ratsam, eine klassische Bitcoin-Adresse zu verwenden, da das Risiko der Wiederverwendung besteht. Verwenden Sie stattdessen eine Lightning-Adresse oder entscheiden Sie sich für eine statische Onchain-Zahlungskennung, wie BIP47 oder Silent Payments. Diese Protokolle werden in Teil 6 dieses Trainingskurses im Detail erklärt.
 
-## Beschriftung und Kontrolle der Teile
+## Labeling und Kontrolle der UTXOs
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
@@ -1166,9 +1166,9 @@ Das bedeutet, dass Sie die Herkunft Ihrer UTXOs kennen und sorgfältig auswähle
 
 In diesem Kapitel werden wir uns diese Funktionen ansehen und sehen, wie Sie sie intelligent und ohne zu viel Arbeitsaufwand nutzen können, um Ihre Privatsphäre auf Bitcoin zu optimieren.
 
-### Was ist Etikettierung?
+### Was ist Labeling?
 
-Labeling ist die Praxis, einem bestimmten UTXO in einer Bitcoin-Wallet einen Vermerk oder ein Label zuzuweisen. Diese Annotationen werden lokal von der Wallet-Software gespeichert und werden niemals über das Bitcoin-Netzwerk übertragen. Labelling ist daher ein persönliches Verwaltungsinstrument.
+Labeling (dt. Beschriftung) ist die Praxis, einem bestimmten UTXO in einer Bitcoin-Wallet einen Vermerk oder ein Label zuzuweisen. Diese Annotationen werden lokal von der Wallet-Software gespeichert und werden niemals über das Bitcoin-Netzwerk übertragen. Labelling ist daher ein persönliches Verwaltungsinstrument.
 
 Wenn ich zum Beispiel einen UTXO aus einem P2P-Kauf auf Bisq mit Charles habe, könnte ich ihn als "Non-KYC Bisq Charles" bezeichnen.
 
@@ -1193,20 +1193,20 @@ Es ist wichtig, dass Ihre Angehörigen die Herkunft der Gelder leicht identifizi
 Das Wichtigste, was Sie auf dem Etikett vermerken sollten, ist die Herkunft des UTXO. Sie sollten einfach angeben, wie die Münze in Ihr Portemonnaie gelangt ist. Ist er das Ergebnis eines Kaufs auf einer Börsenplattform? Eine Rechnungszahlung von einem Kunden? Ein Peer-to-Peer-Tausch? Oder handelt es sich um den Austausch einer Ausgabe? Sie könnten zum Beispiel angeben:
 
 
-- exchange.com" entfernen;
-- kundenzahlung David";
-- p2P Charles" kaufen;
-- sofa kaufen" ändern
+- "Abhebung Exchange.com";
+- "Kundenzahlung David";
+- "P2P Charles Kauf";
+- "Sofa kaufen Wechselgeld"
 
 ![BTC204](assets/fr/072.webp)
 
 Um Ihre UTXO-Verwaltung zu verfeinern und Ihre Strategien zur Fondstrennung innerhalb Ihres Portfolios einzuhalten, können Sie Ihre Etiketten mit einem zusätzlichen Indikator anreichern, der diese Trennungen widerspiegelt. Wenn Ihr Portfolio zwei UTXO-Kategorien enthält, die Sie nicht mischen möchten, könnten Sie eine Markierung in Ihre Etiketten einbauen, um diese Gruppen klar zu unterscheiden. Diese Unterscheidungsmerkmale hängen von Ihren eigenen Kriterien ab, wie z.B. die Unterscheidung zwischen UTXOs, die aus einem Akquisitionsprozess resultieren, der KYC beinhaltet, oder zwischen professionellen und privaten Fonds. In Anlehnung an die oben erwähnten Etikettenbeispiele könnte dies folgendermaßen aussehen:
 
 
-- kYC - Withdrawal Exchange.com";
-- kYC - Kundenzahlung David";
-- `NO KYC - P2P Charles kaufen` ;
-- nO KYC - Sofa-Kauf ändern"
+- "KYC - Withdrawal Exchange.com";
+- "KYC - Kundenzahlung David";
+- "NO KYC - P2P Charles kaufen";
+- "NO KYC - Sofa-Kauf Wechselgeld"
 
 ![BTC204](assets/fr/073.webp)
 
@@ -1214,7 +1214,7 @@ Es ist auch ratsam, die Kennzeichnung eines Teils über den Verlauf der Transakt
 
 Schließlich ist es nicht zwingend erforderlich, ein Datum auf einem Etikett anzugeben. Die meisten Wallet-Programme zeigen das Transaktionsdatum bereits an, und dank der TXID ist es immer möglich, diese Information in einem Block-Explorer zu finden.
 
-### Wie wählt man die richtigen Teile aus?
+### Wie wählt man die richtigen UTXOs aus?
 
 Wenn Sie eine Transaktion durchführen, können Sie mit der Münzsteuerung gezielt auswählen, welche UTXOs als Inputs verbraucht werden sollen, um die Zahlungsausgabe zu erfüllen. Bei dieser Auswahl gibt es zwei Aspekte:
 
@@ -1234,7 +1234,7 @@ Abgesehen von den Informationen, die dem Empfänger möglicherweise offenbart we
 
 ![BTC204](assets/fr/075.webp)
 
-Bei der Auswahl Ihrer Teile müssen Sie sich daher bewusst sein, dass die Transaktion, die Sie senden wollen, eine Verbindung zwischen allen verwendeten UTXOs herstellt. Diese Verknüpfung kann für Ihre Privatsphäre problematisch sein, insbesondere wenn die UTXOs aus verschiedenen Quellen stammen.
+Bei der Auswahl Ihrer UTXOs müssen Sie sich daher bewusst sein, dass die Transaktion, die Sie senden wollen, eine Verbindung zwischen allen verwendeten UTXOs herstellt. Diese Verknüpfung kann für Ihre Privatsphäre problematisch sein, insbesondere wenn die UTXOs aus verschiedenen Quellen stammen.
 
 ![BTC204](assets/fr/076.webp)
 
@@ -1244,17 +1244,17 @@ Nehmen wir das Beispiel meines No-KYC UTXO von Bisq; ich möchte vermeiden, ihn 
 
 Bei der Auswahl der UTXOs, die als Input für eine Transaktion verwendet werden sollen, ist es am wichtigsten, dass Sie nicht mehrere UTXOs verwenden. Wenn Sie können, wählen Sie höchstens eine einzige Münze, die groß genug ist, um Ihre Zahlung zu leisten. Auf diese Weise vermeiden Sie die mit CIOH verbundenen Risiken vollständig. Wenn jedoch kein einziger UTXO für die Zahlung ausreicht und Sie mehrere verbrauchen müssen, achten Sie darauf, dass sie aus ähnlichen Quellen stammen, um das Risiko unerwünschter Verbindungen zu minimieren. Denken Sie auch daran, dass der Empfänger die Informationen, die er über Sie besitzt, mit der Historie der für die Eingaben verwendeten Münzen in Verbindung bringen könnte.
 
-### Die automatische Teileauswahl verstehen
+### Die automatische UTXO-Auswahl verstehen
 
 In den vorherigen Abschnitten haben wir die manuelle Auswahl von UTXOs für eine Transaktion besprochen. Aber was passiert, wenn die Wallet-Software diese Auswahl automatisch vornimmt? Es gibt mehrere Methoden, um zu bestimmen, welche Münzen verbraucht werden sollen, und die Auswahl von UTXOs ist ein wahres Forschungsgebiet für Bitcoin. Das Hauptziel dieses automatischen Prozesses besteht oft darin, die Transaktionskosten für den Nutzer zu minimieren.
 
-UTXO-Auswahlmethoden wie FIFO (*First In First Out*) und LIFO (*Last In First Out*) gehören zu den einfachsten, aber auch zu den am wenigsten effizienten Methoden. Bei FIFO werden die ältesten Teile des Portfolios zuerst verwendet. Dieser Ansatz ist im Allgemeinen ineffizient, sowohl im Hinblick auf die Minimierung der Transaktionskosten als auch auf die Wahrung der Vertraulichkeit, es sei denn, es werden relative Zeitstempel verwendet, die regelmäßig erneuert werden müssen. Im Gegensatz dazu werden bei LIFO vorrangig die neuesten UTXOs verwendet. Beide Methoden sind zwar einfach, erweisen sich aber oft als unwirksam.
+UTXO-Auswahlmethoden wie FIFO (*First In First Out*) und LIFO (*Last In First Out*) gehören zu den einfachsten, aber auch zu den am wenigsten effizienten Methoden. Bei FIFO werden die ältesten UTXOs des Portfolios zuerst verwendet. Dieser Ansatz ist im Allgemeinen ineffizient, sowohl im Hinblick auf die Minimierung der Transaktionskosten als auch auf die Wahrung der Vertraulichkeit, es sei denn, es werden relative Zeitstempel verwendet, die regelmäßig erneuert werden müssen. Im Gegensatz dazu werden bei LIFO vorrangig die neuesten UTXOs verwendet. Beide Methoden sind zwar einfach, erweisen sich aber oft als unwirksam.
 
 Eine fortgeschrittenere Methode ist der *Knapsack Solver*. Dieser wurde in der Bitcoin Core Wallet bis Version 0.17 verwendet. Sie besteht darin, iterativ und zufällig UTXOs aus der Wallet auszuwählen, sie in Teilmengen zu addieren und die Lösung zu behalten, die das Transaktionsgewicht so weit wie möglich reduziert, um die Kosten für den Nutzer zu senken.
 
 Der *Branch-and-Bound* (BNB), der nach seinem Erfinder oft als "Murch-Algorithmus" bezeichnet wird, hat den *Knapsack Solver* in Bitcoin Core ab Version 0.17 ersetzt. Diese fortschrittlichere Methode zielt darauf ab, eine Menge von UTXOs zu finden, die genau dem Betrag entspricht, der benötigt wird, um die Ausgaben einer Transaktion zu befriedigen. Das Ziel von BNB ist es, sowohl den Tauschbetrag als auch die Gebühren zu minimieren, indem das so genannte Abfallkriterium reduziert wird, das sowohl die unmittelbaren Kosten als auch die erwarteten zukünftigen Kosten des Tauschs einbezieht. Diese Methode ist von dem ursprünglichen Konzept des *Branch-and-Bound* abgeleitet, das 1960 von Ailsa Land und Alison Harcourt entwickelt wurde, und bietet eine präzisere Optimierung der Gebühren als der *Knapsack Solver*.
 
-All diese automatischen UTXO-Auswahlmethoden mögen zwar die Transaktionskosten senken, sind aber oft unwirksam, wenn es um die Wahrung der Vertraulichkeit geht. Diese Algorithmen können nämlich mehrere UTXOs zu Eingaben zusammenfassen und so eine gemeinsame Eigenschaft dieser UTXOs aufgrund von CIOH aufdecken. Natürlich können diese Methoden die an den UTXOs angebrachten Kennzeichnungen nicht berücksichtigen, die jedoch für die bewusste Auswahl der Teile, die dem Transaktionsempfänger offengelegt werden sollen, entscheidend sind. Die einzige Möglichkeit, die Vertraulichkeit bei der Auswahl von Münzen zu optimieren, besteht derzeit darin, dies manuell zu tun.
+All diese automatischen UTXO-Auswahlmethoden mögen zwar die Transaktionskosten senken, sind aber oft unwirksam, wenn es um die Wahrung der Vertraulichkeit geht. Diese Algorithmen können nämlich mehrere UTXOs zu Eingaben zusammenfassen und so eine gemeinsame Eigenschaft dieser UTXOs aufgrund von CIOH aufdecken. Natürlich können diese Methoden die an den UTXOs angebrachten Kennzeichnungen nicht berücksichtigen, die jedoch für die bewusste Auswahl der UTXOs, die dem Transaktionsempfänger offengelegt werden sollen, entscheidend sind. Die einzige Möglichkeit, die Vertraulichkeit bei der Auswahl von Münzen zu optimieren, besteht derzeit darin, dies manuell zu tun.
 
 ### Tutorial zur UTXO-Beschriftung
 

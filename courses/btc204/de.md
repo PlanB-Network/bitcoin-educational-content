@@ -1086,22 +1086,17 @@ Die in Ihrer Portfoliosoftware angezeigten Adressen enthalten auch einen HRP (*H
 Schließlich werden die Adressen in ein Standardformat gebracht:
 
 
-- Base58check für alte Legacy-Adressen ;
-- Bech32 für SegWit-Adressen ;
+- Base58check für alte Legacy-Adressen;
+- Bech32 für SegWit-Adressen;
 - Bech32m für Taproot-Adressen.
 
 Hier ist die Additionsmatrix für die Formate bech32 und bech32m (SegWit und Taproot) zur Basis 10:
 
 | + | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
 | 0 | q | p | z | r | y | 9 | x | 8 |
-
 | 8 | g | f | 2 | t | v | d | w | 0 |
-
 | 16 | s | 3 | j | n | 5 | 4 | k | h |
-
 | 24 | c | e | 6 | m | u | a | 7 | l |
 
 ### Was bedeutet Adresswiederverwendung?
@@ -1132,7 +1127,7 @@ Um dies zu veranschaulichen, nehmen wir das Beispiel von Bob, einem Nutzer, der 
 Bei der String-Analyse gibt es 2 Arten der Adresswiederverwendung:
 
 
-- Externe Wiederverwendung ;
+- Externe Wiederverwendung;
 - Interne Wiederverwendung innerhalb einer Transaktion.
 
 Die erste ist, wenn eine Adresse in mehreren verschiedenen Bitcoin-Transaktionen wiederverwendet wird. Darüber haben wir bereits gesprochen: Diese Heuristik schließt daraus, dass alle UTXOs, die über diese Adresse laufen, zu einer einzigen Entität gehören.

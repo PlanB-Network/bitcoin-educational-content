@@ -391,9 +391,9 @@ Beginnen wir mit einem sehr verbreiteten Muster, da es bei den meisten Bitcoin-Z
 
 ![BTC204](assets/fr/033.webp)
 
-Wenn wir diese Transaktionsstruktur in der Blockchain entdecken, können wir bereits eine Interpretation vornehmen. Wie der Name schon sagt, zeigt dieses Modell an, dass wir uns in einer Sende- oder Zahlungstransaktion befinden. Der Nutzer hat sein eigenes UTXO als Input verbraucht, um als Output ein Zahlungs-UTXO und ein Austausch-UTXO (Geld, das an denselben Nutzer zurückgegeben wird) zu erhalten.
+Wenn wir diese Transaktionsstruktur in der Blockchain entdecken, können wir bereits eine Interpretation vornehmen. Wie der Name schon sagt, zeigt dieses Modell an, dass wir uns in einer Sende- oder Zahlungstransaktion befinden. Der Nutzer hat sein eigenes UTXO als Input verbraucht, um als Output ein Zahlungs-UTXO und ein Wechselgeld-UTXO (Geld, das an denselben Nutzer zurückgegeben wird) zu erhalten.
 
-Wir wissen also, dass der beobachtete Nutzer wahrscheinlich nicht mehr im Besitz einer der beiden Ausgangs-UTXOs (der Zahlungs-UTXO) ist, aber noch im Besitz der anderen UTXO (der Austausch-UTXO).
+Wir wissen also, dass der beobachtete Nutzer wahrscheinlich nicht mehr im Besitz einer der beiden Ausgangs-UTXOs (der Zahlungs-UTXO) ist, aber noch im Besitz der anderen UTXO (der Wechselgeld-UTXO).
 
 Im Moment können wir nicht angeben, welche Ausgabe für welches UTXO steht, da dies nicht der Zweck der Musterstudie ist. Dazu werden wir uns auf die Heuristiken stützen, die wir in den folgenden Abschnitten untersuchen werden. In diesem Stadium beschränkt sich unser Ziel darauf, die Art der fraglichen Transaktion zu identifizieren, die in diesem Fall ein einfaches Senden ist.
 
@@ -411,7 +411,7 @@ Nach diesem ersten Beispiel sollten Sie besser verstehen, was es bedeutet, ein "
 
 Da Sie nun wissen, was ein Muster ist, wollen wir uns nun den anderen bestehenden Modellen zuwenden.
 
-### Fegen
+### Sweeping
 
 Dieses zweite Modell ist gekennzeichnet durch den Verbrauch eines einzigen UTXO als Input und die Produktion eines einzigen UTXO als Output.
 
@@ -499,7 +499,7 @@ Hier ein Beispiel für eine Bitcoin-Transaktion, die nach dem Muster der Coinjoi
 
 Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
-Es gibt viele andere Protokolle mit ihren eigenen spezifischen Strukturen. Zum Beispiel gibt es Wabisabi-Transaktionen, Briefmarken-Transaktionen und Runen-Transaktionen.
+Es gibt viele andere Protokolle mit ihren eigenen spezifischen Strukturen. Zum Beispiel gibt es Wabisabi-Transaktionen, Stamps-Transaktionen und Runes-Transaktionen.
 
 Dank dieser Transaktionsmuster können wir bereits eine gewisse Menge an Informationen über eine bestimmte Transaktion interpretieren. Die Transaktionsstruktur ist jedoch nicht die einzige Informationsquelle für die Analyse. Wir können auch ihre Details untersuchen. Diese internen Details bezeichne ich gerne als "interne Heuristiken", und wir werden sie im nächsten Kapitel untersuchen.
 

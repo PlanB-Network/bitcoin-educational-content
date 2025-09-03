@@ -6,7 +6,7 @@ objectives:
   - Definition der theoretischen Konzepte, die zum Verständnis von Datenschutzfragen erforderlich sind
   - Identifizierung und Abschwächung der mit dem Verlust der Vertraulichkeit für Bitcoin-Nutzer verbundenen Risiken
   - Methoden und Tools zum Schutz Ihrer Privatsphäre auf Bitcoin
-  - Verstehen der Methoden der Kettenanalyse und Entwicklung von Verteidigungsstrategien
+  - Verstehen der Methoden der Blockchain-Analyse und Entwicklung von Verteidigungsstrategien
 
 ---
 # Schützen Sie Ihre Privatsphäre auf Bitcoin
@@ -52,9 +52,9 @@ Zunächst werden wir uns mit den grundlegenden Prinzipien der Funktionsweise von
 
 ![BTC204](assets/fr/001.webp)
 
-**Abschnitt 2: Verständnis und Schutz vor Kettenanalysen**
+**Abschnitt 2: Verständnis und Schutz vor Blockchain-Analysen**
 
-Im zweiten Abschnitt befassen wir uns mit den Techniken, die von Blockchain-Analyseunternehmen verwendet werden, um Ihre Aktivitäten auf Bitcoin zu verfolgen. Das Verständnis dieser Methoden ist entscheidend für die Stärkung des Schutzes Ihrer Privatsphäre. Das Ziel dieses Abschnitts ist es, die Strategien der Angreifer zu untersuchen, um die Risiken besser zu verstehen und den Boden für die Techniken zu bereiten, die wir in den folgenden Abschnitten untersuchen werden. Wir werden Transaktionsmuster, interne und externe Heuristiken und mögliche Interpretationen dieser Muster analysieren. Neben der Theorie werden wir anhand von praktischen Beispielen und Übungen lernen, wie man einen Block-Explorer für die Kettenanalyse verwendet.
+Im zweiten Abschnitt befassen wir uns mit den Techniken, die von Blockchain-Analyseunternehmen verwendet werden, um Ihre Aktivitäten auf Bitcoin zu verfolgen. Das Verständnis dieser Methoden ist entscheidend für die Stärkung des Schutzes Ihrer Privatsphäre. Das Ziel dieses Abschnitts ist es, die Strategien der Angreifer zu untersuchen, um die Risiken besser zu verstehen und den Boden für die Techniken zu bereiten, die wir in den folgenden Abschnitten untersuchen werden. Wir werden Transaktionsmuster, interne und externe Heuristiken und mögliche Interpretationen dieser Muster analysieren. Neben der Theorie werden wir anhand von praktischen Beispielen und Übungen lernen, wie man einen Block-Explorer für die Blockchain-Analyse verwendet.
 
 ![BTC204](assets/fr/002.webp)
 
@@ -286,24 +286,24 @@ Wenn Sie zum Beispiel ein Baguette beim Bäcker kaufen und mit BTC bezahlen, kan
 
 Da Bitcoin-Transaktionen jedoch öffentlich gemacht werden, ist es dennoch möglich, Verbindungen zwischen ihnen herzustellen, um Informationen über die beteiligten Parteien zu erhalten. Diese Tätigkeit stellt sogar ein eigenes Fachgebiet dar, das als "Blockchain-Analyse" bezeichnet wird. Im nächsten Teil des Kurses lade ich Sie ein, die Grundlagen der Blockchain-Analyse zu erforschen, damit Sie verstehen, wie Ihre Bitcoins zurückverfolgt werden, und sich besser gegen sie verteidigen können.
 
-# Verständnis und Schutz vor Kettenanalysen
+# Verständnis und Schutz vor Blockchain-Analysen
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Was ist die Bitcoin-Kettenanalyse?
+## Was ist die Bitcoin-Blockchain-Analyse?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
 
 ### Definition und Funktionsweise
 
-Bei der Blockchain-Analyse geht es darum, den Fluss von Bitcoins in der Blockchain nachzuvollziehen. Im Allgemeinen basiert die Kettenanalyse auf der Beobachtung von Merkmalen in Stichproben früherer Transaktionen. Sie besteht dann darin, dieselben Merkmale bei einer Transaktion, die wir analysieren möchten, zu identifizieren und daraus plausible Interpretationen abzuleiten. Diese Problemlösungsmethode, die auf einem praktischen Ansatz basiert, um eine ausreichend gute Lösung zu finden, wird als "Heuristik" bezeichnet.
+Bei der Blockchain-Analyse geht es darum, den Fluss von Bitcoins in der Blockchain nachzuvollziehen. Im Allgemeinen basiert die Blockchain-Analyse auf der Beobachtung von Merkmalen in Stichproben früherer Transaktionen. Sie besteht dann darin, dieselben Merkmale bei einer Transaktion, die wir analysieren möchten, zu identifizieren und daraus plausible Interpretationen abzuleiten. Diese Problemlösungsmethode, die auf einem praktischen Ansatz basiert, um eine ausreichend gute Lösung zu finden, wird als "Heuristik" bezeichnet.
 
-Laienhaft ausgedrückt, gibt es drei Hauptstufen der Kettenanalyse:
+Laienhaft ausgedrückt, gibt es drei Hauptstufen der Blockchain-Analyse:
 
-1. **Beobachtung der Blockchain ;**
+1. **Beobachtung der Blockchain;**
 
-2. **Die Identifizierung von bekannten Merkmalen ;**
+2. **Die Identifizierung von bekannten Merkmalen;**
 
 3. **Die Ableitung von Annahmen**
 
@@ -311,7 +311,7 @@ Laienhaft ausgedrückt, gibt es drei Hauptstufen der Kettenanalyse:
 
 Die Blockchain-Analyse kann von jedem durchgeführt werden. Alles, was Sie brauchen, ist der Zugang zu den öffentlichen Informationen der Blockchain über einen vollständigen Knoten, um die Bewegungen der Transaktionen zu beobachten und Hypothesen aufzustellen. Es gibt auch kostenlose Tools, die diese Analyse erleichtern, wie z. B. [OXT.me] (https://oxt.me/), auf das wir in den letzten beiden Kapiteln dieses Abschnitts näher eingehen werden. Das größte Risiko für die Vertraulichkeit geht jedoch von Unternehmen aus, die sich auf die String-Analyse spezialisiert haben. Diese Unternehmen haben die Blockchain-Analyse auf ein industrielles Niveau gebracht und verkaufen ihre Dienste an Finanzinstitute und Regierungen. Unter diesen Unternehmen ist Chainalysis sicherlich das bekannteste.
 
-### Ziele der Kettenanalyse
+### Ziele der Blockchain-Analyse
 
 Eines der Ziele der Blockchain-Analyse besteht darin, verschiedene Aktivitäten auf Bitcoin zu gruppieren, um die Einzigartigkeit des Nutzers, der sie durchgeführt hat, zu bestimmen. Anschließend kann versucht werden, diese Gruppe von Aktivitäten mit einer echten Identität zu verknüpfen.
 
@@ -331,7 +331,7 @@ Diese Einstiegspunkte sind bei der Verwendung von Bitcoin praktisch unvermeidlic
 
 ![BTC204](assets/fr/029.webp)
 
-### Sich gegen die Kettenanalyse wehren
+### Sich gegen die Blockchain-Analyse wehren
 
 Wir müssen also auch in der Lage sein, die Blockchain-Analyse bei der Nutzung von Bitcoin zu bewältigen. Auf diese Weise können wir die Aggregation unserer Aktivitäten minimieren und die Auswirkungen eines Einstiegspunkts auf unsere Privatsphäre begrenzen.
 
@@ -343,24 +343,24 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Hier können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist in erster Linie ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwickeln, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch untersuchen, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Bitcoin-Privatsphäre. Das Verständnis der Blockchain-Analysemethoden ist der Schlüssel zum Schutz vor ihnen. Deshalb habe ich einen ganzen Abschnitt über die Kettenanalyse in diesen Kurs aufgenommen.
+Hier können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist in erster Linie ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwickeln, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch untersuchen, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Bitcoin-Privatsphäre. Das Verständnis der Blockchain-Analysemethoden ist der Schlüssel zum Schutz vor ihnen. Deshalb habe ich einen ganzen Abschnitt über die Blockchain-Analyse in diesen Kurs aufgenommen.
 
-### Methoden der Kettenanalyse
+### Methoden der Blockchain-Analyse
 
-Es ist wichtig zu verstehen, dass die String-Analyse keine exakte Wissenschaft ist. Sie stützt sich auf Heuristiken, die aus früheren Beobachtungen oder logischen Interpretationen abgeleitet sind. Diese Regeln ermöglichen es uns, recht zuverlässige Ergebnisse zu erzielen, aber niemals mit absoluter Präzision. Mit anderen Worten: **Kettenanalyse beinhaltet immer eine gewisse Wahrscheinlichkeit für die erzielten Schlussfolgerungen**. So kann man beispielsweise mit mehr oder weniger großer Sicherheit davon ausgehen, dass zwei Adressen zu ein und demselben Unternehmen gehören, aber eine absolute Gewissheit wird es nie geben.
+Es ist wichtig zu verstehen, dass die String-Analyse keine exakte Wissenschaft ist. Sie stützt sich auf Heuristiken, die aus früheren Beobachtungen oder logischen Interpretationen abgeleitet sind. Diese Regeln ermöglichen es uns, recht zuverlässige Ergebnisse zu erzielen, aber niemals mit absoluter Präzision. Mit anderen Worten: **Blockchain-Analyse beinhaltet immer eine gewisse Wahrscheinlichkeit für die erzielten Schlussfolgerungen**. So kann man beispielsweise mit mehr oder weniger großer Sicherheit davon ausgehen, dass zwei Adressen zu ein und demselben Unternehmen gehören, aber eine absolute Gewissheit wird es nie geben.
 
-Der Sinn der Kettenanalyse besteht gerade darin, verschiedene Heuristiken zusammenzufassen, um das Fehlerrisiko zu minimieren. In gewisser Weise ist es eine Anhäufung von Beweisen, die uns der Realität näher bringt.
+Der Sinn der Blockchain-Analyse besteht gerade darin, verschiedene Heuristiken zusammenzufassen, um das Fehlerrisiko zu minimieren. In gewisser Weise ist es eine Anhäufung von Beweisen, die uns der Realität näher bringt.
 
 Diese berühmten Heuristiken können in verschiedene Kategorien eingeteilt werden, die wir im Folgenden näher beschreiben:
 
 
-- Transaktionsmuster ;**
-- Transaktionsinterne Heuristiken ;**
-- Heuristiken außerhalb der Transaktion.**
+- **Transaktionsmuster;**
+- **Transaktionsinterne Heuristiken;**
+- **Heuristiken außerhalb der Transaktion.**
 
-### Satoshi Nakamoto und Kettenanalyse
+### Satoshi Nakamoto und Blockchain-Analyse
 
-Die ersten beiden Kettenanalyse-Heuristiken wurden von Satoshi Nakamoto selbst entdeckt. Er spricht über sie in Teil 10 des Bitcoin-Weißbuchs. Sie sind:
+Die ersten beiden Blockchain-Analyse-Heuristiken wurden von Satoshi Nakamoto selbst entdeckt. Er spricht über sie in Teil 10 des Bitcoin-Whitepapers. Sie sind:
 
 
 - cIOH (*Common Input Ownership Heuristic*);
@@ -370,7 +370,7 @@ Die ersten beiden Kettenanalyse-Heuristiken wurden von Satoshi Nakamoto selbst e
 
 Quelle: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Welche das sind, werden wir in den folgenden Kapiteln sehen, aber es ist schon jetzt interessant festzustellen, dass diese beiden Heuristiken auch heute noch eine Vorrangstellung in der Kettenanalyse haben.
+Welche das sind, werden wir in den folgenden Kapiteln sehen, aber es ist schon jetzt interessant festzustellen, dass diese beiden Heuristiken auch heute noch eine Vorrangstellung in der Blockchain-Analyse haben.
 
 ## Transaktionsmuster
 
@@ -383,7 +383,7 @@ Mit anderen Worten, wir betrachten nur die Anzahl der UTXO in den Eingängen und
 
 ![BTC204](assets/fr/032.webp)
 
-In diesem Abschnitt werden wir gemeinsam die wichtigsten Transaktionsmodelle betrachten, die in der Kettenanalyse vorkommen, und für jedes Modell werde ich Ihnen die wahrscheinliche Interpretation dieser Struktur sowie ein konkretes Beispiel geben.
+In diesem Abschnitt werden wir gemeinsam die wichtigsten Transaktionsmodelle betrachten, die in der Blockchain-Analyse vorkommen, und für jedes Modell werde ich Ihnen die wahrscheinliche Interpretation dieser Struktur sowie ein konkretes Beispiel geben.
 
 ### Einzelsendung (oder Einzelzahlung)
 
@@ -419,7 +419,7 @@ Dieses zweite Modell ist gekennzeichnet durch den Verbrauch eines einzigen UTXO 
 
 Die Interpretation dieses Modells ist, dass es sich um einen Selbsttransfer handelt. Der Nutzer hat seine Bitcoins an sich selbst übertragen, an eine andere Adresse, die ihm gehört. Da es bei der Transaktion keinen Austausch gibt, ist es höchst unwahrscheinlich, dass es sich um eine Zahlung handelt. Bei einer Zahlung ist es nämlich fast unmöglich, dass der Zahler über einen UTXO verfügt, der genau dem vom Verkäufer geforderten Betrag entspricht, zuzüglich der Transaktionsgebühr. Im Allgemeinen ist der Zahler daher verpflichtet, einen Tauschwert zu produzieren.
 
-Wir wissen also, dass der beobachtete Nutzer wahrscheinlich noch im Besitz dieses UTXO ist. Wenn wir im Rahmen einer Kettenanalyse wissen, dass der UTXO, der als Input für die Transaktion verwendet wird, Alice gehört, können wir davon ausgehen, dass der UTXO, der als Output verwendet wird, ebenfalls ihr gehört. Später wird es interessant sein, transaktionsinterne Heuristiken zu finden, die diese Annahme bekräftigen könnten (wir werden uns diese Heuristiken in Kapitel 3.3 ansehen).
+Wir wissen also, dass der beobachtete Nutzer wahrscheinlich noch im Besitz dieses UTXO ist. Wenn wir im Rahmen einer Blockchain-Analyse wissen, dass der UTXO, der als Input für die Transaktion verwendet wird, Alice gehört, können wir davon ausgehen, dass der UTXO, der als Output verwendet wird, ebenfalls ihr gehört. Später wird es interessant sein, transaktionsinterne Heuristiken zu finden, die diese Annahme bekräftigen könnten (wir werden uns diese Heuristiken in Kapitel 3.3 ansehen).
 
 Hier ein Beispiel für eine Bitcoin-Transaktion, die nach dem Sweep-Muster abläuft:
 
@@ -457,7 +457,7 @@ Hier ist zum Beispiel eine Bitcoin-Transaktion, die dem Konsolidierungsmuster fo
 
 Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Bei einer Kettenanalyse kann dieses Modell eine Vielzahl von Informationen offenbaren. Wenn wir beispielsweise wissen, dass einer der Inputs zu Alice gehört, können wir davon ausgehen, dass alle anderen Inputs und der Output dieser Transaktion ebenfalls zu ihr gehören. Diese Annahme würde es dann ermöglichen, die Kette früherer Transaktionen zurückzuverfolgen, um andere Transaktionen zu entdecken und zu analysieren, die wahrscheinlich mit Alice in Verbindung stehen.
+Bei einer Blockchain-Analyse kann dieses Modell eine Vielzahl von Informationen offenbaren. Wenn wir beispielsweise wissen, dass einer der Inputs zu Alice gehört, können wir davon ausgehen, dass alle anderen Inputs und der Output dieser Transaktion ebenfalls zu ihr gehören. Diese Annahme würde es dann ermöglichen, die Kette früherer Transaktionen zurückzuverfolgen, um andere Transaktionen zu entdecken und zu analysieren, die wahrscheinlich mit Alice in Verbindung stehen.
 
 ![BTC204](assets/fr/039.webp)
 
@@ -630,7 +630,7 @@ Die Wiederverwendung einer Adresse wird so interpretiert, dass alle an dieser Ad
 
 ![BTC204](assets/fr/054.webp)
 
-Wie in der Einleitung zu Teil 3 erläutert, wurde diese Heuristik von Satoshi Nakamoto selbst entdeckt. Im Weißbuch erwähnt er eine Lösung, die den Nutzern helfen soll, die Generierung dieser Heuristik zu vermeiden, nämlich die Verwendung einer leeren Adresse für jede neue Transaktion:
+Wie in der Einleitung zu Teil 3 erläutert, wurde diese Heuristik von Satoshi Nakamoto selbst entdeckt. Im Whitepaper erwähnt er eine Lösung, die den Nutzern helfen soll, die Generierung dieser Heuristik zu vermeiden, nämlich die Verwendung einer leeren Adresse für jede neue Transaktion:
 
 "Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind."
 
@@ -660,7 +660,7 @@ So können wir zum Beispiel feststellen, dass der verfolgte Benutzer seine Ände
 
 ![BTC204](assets/fr/057.webp)
 
-Wie [@LaurentMT](https://twitter.com/LaurentMT) in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (einem französischsprachigen Podcast) darlegt, nimmt der Nutzen von Portfolio-Fingerprints bei der Kettenanalyse im Laufe der Zeit erheblich zu. Die wachsende Zahl von Skripttypen und die immer weiter fortschreitende Einführung dieser neuen Funktionen durch Portfoliosoftware verstärken die Unterschiede in der Tat. In einigen Fällen ist es sogar möglich, die genaue Software zu identifizieren, die von dem zu verfolgenden Unternehmen verwendet wird. Es ist daher wichtig zu verstehen, dass die Untersuchung von Portfolio-Footprints vor allem für neuere Transaktionen relevant ist und nicht für solche, die in den frühen 2010er Jahren initiiert wurden.
+Wie [@LaurentMT](https://twitter.com/LaurentMT) in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (einem französischsprachigen Podcast) darlegt, nimmt der Nutzen von Portfolio-Fingerprints bei der Blockchain-Analyse im Laufe der Zeit erheblich zu. Die wachsende Zahl von Skripttypen und die immer weiter fortschreitende Einführung dieser neuen Funktionen durch Portfoliosoftware verstärken die Unterschiede in der Tat. In einigen Fällen ist es sogar möglich, die genaue Software zu identifizieren, die von dem zu verfolgenden Unternehmen verwendet wird. Es ist daher wichtig zu verstehen, dass die Untersuchung von Portfolio-Footprints vor allem für neuere Transaktionen relevant ist und nicht für solche, die in den frühen 2010er Jahren initiiert wurden.
 
 Zusammenfassend lässt sich sagen, dass ein Fußabdruck jede spezifische Praxis sein kann, die automatisch von der Brieftasche oder manuell vom Benutzer durchgeführt wird und die wir bei anderen Transaktionen finden können, um uns bei unserer Analyse zu helfen.
 
@@ -678,7 +678,7 @@ Passt die Transaktion hingegen in kein bekanntes kollaboratives Transaktionsmode
 
 ![BTC204](assets/fr/060.webp)
 
-CIOH wurde von Satoshi Nakamoto entdeckt. Er spricht darüber in Teil 10 des Weißbuchs:
+CIOH wurde von Satoshi Nakamoto entdeckt. Er spricht darüber in Teil 10 des Whitepapers:
 
 "_[...] Verknüpfungen sind unvermeidlich bei Transaktionen mit mehreren Einträgen, die zwangsläufig zeigen, dass ihre Einträge vom selben Eigentümer gehalten wurden. Das Risiko besteht darin, dass, wenn der Eigentümer eines Schlüssels aufgedeckt wird, die Verknüpfungen andere Transaktionen aufdecken können, die demselben Eigentümer gehörten._"
 
@@ -698,7 +698,7 @@ Source : [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8
 
 ### Off-Chain-Daten
 
-Natürlich ist die Kettenanalyse nicht ausschließlich auf Onchain-Daten beschränkt. Alle Daten, die aus einer früheren Analyse stammen oder im Internet verfügbar sind, können ebenfalls zur Verfeinerung einer Analyse verwendet werden.
+Natürlich ist die Blockchain-Analyse nicht ausschließlich auf Onchain-Daten beschränkt. Alle Daten, die aus einer früheren Analyse stammen oder im Internet verfügbar sind, können ebenfalls zur Verfeinerung einer Analyse verwendet werden.
 
 Wenn wir beispielsweise beobachten, dass verfolgte Transaktionen systematisch von ein und demselben Bitcoin-Knoten gesendet werden, und es uns gelingt, dessen IP-Adresse zu ermitteln, können wir möglicherweise andere Transaktionen von derselben Einheit identifizieren und einen Teil der Identität des Emittenten feststellen. Obwohl dieses Verfahren nicht ohne Weiteres durchführbar ist, da es den Betrieb zahlreicher Knotenpunkte erfordert, kann es von einigen auf die Blockchain-Analyse spezialisierten Unternehmen eingesetzt werden.
 
@@ -744,7 +744,7 @@ Eine Zeitanalyse dieser Art führte auch zu der Hypothese, dass Satoshi Nakamoto
 
 In diesem letzten Kapitel werden wir die Konzepte, die wir bis jetzt studiert haben, in die Praxis umsetzen. Ich werde Ihnen Beispiele für echte Bitcoin-Transaktionen zeigen, und Sie müssen die Informationen extrahieren, nach denen ich Sie frage.
 
-Idealerweise sollte für diese Übungen ein professionelles Kettenanalyse-Tool verwendet werden. Seit der Verhaftung der Macher von Samourai Wallet ist das einzige kostenlose Analysetool OXT.me jedoch nicht mehr verfügbar. Wir werden uns daher für einen klassischen Block-Explorer für diese Übungen entscheiden. Ich empfehle die Verwendung von [Mempool.space](https://mempool.space/) wegen seiner vielen Funktionen und der Bandbreite an Kettenanalyse-Tools, aber Sie können sich auch für einen anderen Explorer wie [Bitcoin Explorer](https://bitcoinexplorer.org/) entscheiden.
+Idealerweise sollte für diese Übungen ein professionelles Blockchain-Analyse-Tool verwendet werden. Seit der Verhaftung der Macher von Samourai Wallet ist das einzige kostenlose Analysetool OXT.me jedoch nicht mehr verfügbar. Wir werden uns daher für einen klassischen Block-Explorer für diese Übungen entscheiden. Ich empfehle die Verwendung von [Mempool.space](https://mempool.space/) wegen seiner vielen Funktionen und der Bandbreite an Blockchain-Analyse-Tools, aber Sie können sich auch für einen anderen Explorer wie [Bitcoin Explorer](https://bitcoinexplorer.org/) entscheiden.
 
 Zu Beginn stelle ich Ihnen die Übungen vor. Benutzen Sie Ihren Block-Explorer, um sie auszufüllen, und notieren Sie Ihre Antworten auf einem Blatt Papier. Am Ende dieses Kapitels gebe ich Ihnen dann die Antworten, damit Sie Ihre Ergebnisse überprüfen und korrigieren können.
 
@@ -1014,7 +1014,7 @@ Die Analyse dieser Transaktion zeigt 5 Eingänge und einen einzigen Ausgang, was
 
 ___
 
-*Für die Abfassung dieses Teils 3 über die Kettenanalyse habe ich folgende Quellen herangezogen:*
+*Für die Abfassung dieses Teils 3 über die Blockchain-Analyse habe ich folgende Quellen herangezogen:*
 
 
 - Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
@@ -1122,7 +1122,7 @@ Wenn verschiedene ScriptPubKeys dieselbe Empfangsadresse enthalten, wird dies al
 
 ### Warum ist die Wiederverwendung von Adressen ein Problem?
 
-Da die Blockchain öffentlich ist, ist es einfach zu sehen, welche Adressen welche UTXO und wie viele Bitcoins sperren. Wenn dieselbe Adresse für mehrere Transaktionen verwendet wird, kann man daraus schließen, dass alle Bitcoins, die mit dieser Adresse verbunden sind, ein und derselben Person gehören. Diese Praxis gefährdet die Privatsphäre der Nutzer, da sie es ermöglicht, deterministische Verbindungen zwischen verschiedenen Transaktionen herzustellen und Bitcoins in der Blockchain zurückzuverfolgen. Satoshi Nakamoto selbst hat bereits im Weißbuch von Bitcoin auf dieses Problem hingewiesen:
+Da die Blockchain öffentlich ist, ist es einfach zu sehen, welche Adressen welche UTXO und wie viele Bitcoins sperren. Wenn dieselbe Adresse für mehrere Transaktionen verwendet wird, kann man daraus schließen, dass alle Bitcoins, die mit dieser Adresse verbunden sind, ein und derselben Person gehören. Diese Praxis gefährdet die Privatsphäre der Nutzer, da sie es ermöglicht, deterministische Verbindungen zwischen verschiedenen Transaktionen herzustellen und Bitcoins in der Blockchain zurückzuverfolgen. Satoshi Nakamoto selbst hat bereits im Whitepaper von Bitcoin auf dieses Problem hingewiesen:
 
 > *Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind*
 ![BTC204](assets/fr/055.webp)
@@ -1338,7 +1338,7 @@ Neben den spezifischen Risiken, die mit Bitcoin verbunden sind, gibt es auch die
 
 Es ist wichtig, einige der vorgefassten Meinungen über KYC zu dekonstruieren, auf die wir häufig auf Twitter oder in unserem Austausch zwischen Bitcoinern stoßen.
 
-Zunächst einmal ist es falsch zu denken, dass der Schutz Ihrer Privatsphäre für Bitcoins, die Sie über KYC erworben haben, sinnlos ist. Die Tools und Methoden zum Schutz der Privatsphäre bei Bitcoin sind vielfältig und dienen unterschiedlichen Zwecken. Die Verwendung von Coinjoin-Transaktionen für Bitcoins, die über KYC erworben wurden, ist zum Beispiel keine schlechte Idee. Natürlich muss man bei regulierten Tauschplattformen vorsichtig sein, um zu vermeiden, dass das eigene Konto eingefroren oder gesperrt wird, aber aus rein technischer Sicht sind diese Praktiken nicht unvereinbar. Coinjoin unterbricht die Historie einer Münze und hilft Ihnen so, bestimmte Risiken der Kettenanalyse im Zusammenhang mit KYC zu umgehen. Auch wenn dadurch nicht alle Risiken beseitigt werden, stellt es doch einen erheblichen Vorteil dar.
+Zunächst einmal ist es falsch zu denken, dass der Schutz Ihrer Privatsphäre für Bitcoins, die Sie über KYC erworben haben, sinnlos ist. Die Tools und Methoden zum Schutz der Privatsphäre bei Bitcoin sind vielfältig und dienen unterschiedlichen Zwecken. Die Verwendung von Coinjoin-Transaktionen für Bitcoins, die über KYC erworben wurden, ist zum Beispiel keine schlechte Idee. Natürlich muss man bei regulierten Tauschplattformen vorsichtig sein, um zu vermeiden, dass das eigene Konto eingefroren oder gesperrt wird, aber aus rein technischer Sicht sind diese Praktiken nicht unvereinbar. Coinjoin unterbricht die Historie einer Münze und hilft Ihnen so, bestimmte Risiken der Blockchain-Analyse im Zusammenhang mit KYC zu umgehen. Auch wenn dadurch nicht alle Risiken beseitigt werden, stellt es doch einen erheblichen Vorteil dar.
 
 ![BTC204](assets/fr/080.webp)
 
@@ -1658,7 +1658,7 @@ Wie wir in den ersten Teilen dieses Kurses gesehen haben, sind Bitcoin-Transakti
 
 Die Vertraulichkeit von Bitcoin wird untergraben, wenn außenstehende Beobachter in der Lage sind, bestimmte UTXOs mit identifizierten Nutzern in Verbindung zu bringen. Sobald diese Verbindung hergestellt ist, ist es möglich, ihre Transaktionen zu verfolgen und ihre Bitcoin-Historie zu analysieren. Coinjoin ist eine Technik, die entwickelt wurde, um die Rückverfolgbarkeit von UTXOs zu umgehen und Bitcoin-Nutzern eine gewisse Vertraulichkeit auf Transaktionsebene zu bieten.
 
-Coinjoins verstärken die Vertraulichkeit der Bitcoin-Nutzer, indem sie die Kettenanalyse für externe Beobachter komplexer machen. Ihre Struktur ermöglicht es, mehrere Coins von verschiedenen Nutzern in einer einzigen Transaktion zusammenzufassen, wodurch die Grenzen verwischt werden und es schwierig wird, die Verbindungen zwischen Eingabe- und Ausgabeadressen zu bestimmen.
+Coinjoins verstärken die Vertraulichkeit der Bitcoin-Nutzer, indem sie die Blockchain-Analyse für externe Beobachter komplexer machen. Ihre Struktur ermöglicht es, mehrere Coins von verschiedenen Nutzern in einer einzigen Transaktion zusammenzufassen, wodurch die Grenzen verwischt werden und es schwierig wird, die Verbindungen zwischen Eingabe- und Ausgabeadressen zu bestimmen.
 
 Es ist wichtig zu verstehen, dass das Ziel einer Coinjoin-Transaktion darin besteht, die Geschichte einer Münze zu unterbrechen. Diese Technik verleiht keine dauerhafte Anonymität und verhindert auch nicht endgültig die Rückverfolgung von Bitcoins, anders als Sie vielleicht denken. Coinjoin zielt nur darauf ab, die Historie an dem Punkt zu brechen, an dem die Coinjoin-Transaktion durchgeführt wird. Vor und nach diesem Vorgang unterliegt die Münze jedoch weiterhin denselben Risiken in Bezug auf die Vertraulichkeit.
 
@@ -1731,7 +1731,7 @@ Auf der anderen Seite ist es wichtig, coinjoin von Shufflern zu unterscheiden. E
 
 
 - Sie verlangen von den Nutzern, dass sie während des Mischvorgangs auf die Verwahrung ihrer Gelder verzichten, was sie dem Risiko des Diebstahls aussetzt;
-- Es gibt keine Garantie dafür, dass der Mischer keine Transaktionsdetails aufzeichnet oder diese Informationen sogar an Kettenanalyseunternehmen verkauft.
+- Es gibt keine Garantie dafür, dass der Mischer keine Transaktionsdetails aufzeichnet oder diese Informationen sogar an Blockchain-Analyseunternehmen verkauft.
 
 ![BTC204](assets/fr/115.webp)
 
@@ -1832,7 +1832,7 @@ Im gleichen Thread finden wir [eine Nachricht von hashcoin als Antwort auf Dunca
 
 ### Zerolink
 
-Zerolink ist ein umfassendes Mischprotokoll, das Chaumian-Coinjoins und verschiedene Strategien zum Schutz der Anonymität der Nutzer vor verschiedenen Formen der Kettenanalyse umfasst, insbesondere durch die Minimierung von Fehlern im Zusammenhang mit der Portfolioverwaltung. Dieses Protokoll [wurde von nopara73 und TDevD im Jahr 2017 vorgestellt] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink ist ein umfassendes Mischprotokoll, das Chaumian-Coinjoins und verschiedene Strategien zum Schutz der Anonymität der Nutzer vor verschiedenen Formen der Blockchain-Analyse umfasst, insbesondere durch die Minimierung von Fehlern im Zusammenhang mit der Portfolioverwaltung. Dieses Protokoll [wurde von nopara73 und TDevD im Jahr 2017 vorgestellt] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/fr/126.webp)
 
@@ -2138,7 +2138,7 @@ Es ist auch nicht ratsam, Ihre Postmix-UTXOs auf eine Geldbörse zu übertragen,
 
 Wie bei jeder Bitcoin-Transaktion ist es auch hier wichtig, die Empfängeradresse nicht wieder zu verwenden. Jede neue Transaktion muss über eine neue, leere Adresse empfangen werden.
 
-Die einfachste und sicherste Lösung besteht darin, Ihre gemischten UTXOs in ihrem **Postmix**-Konto ruhen zu lassen, sie neu zu mischen und sie nur zum Ausgeben anzufassen. Samurai- und Sparrow-Geldbörsen bieten zusätzlichen Schutz gegen all diese Risiken der Kettenanalyse. Diese Schutzmaßnahmen helfen Ihnen, Fehler zu vermeiden.
+Die einfachste und sicherste Lösung besteht darin, Ihre gemischten UTXOs in ihrem **Postmix**-Konto ruhen zu lassen, sie neu zu mischen und sie nur zum Ausgeben anzufassen. Samurai- und Sparrow-Geldbörsen bieten zusätzlichen Schutz gegen all diese Risiken der Blockchain-Analyse. Diese Schutzmaßnahmen helfen Ihnen, Fehler zu vermeiden.
 
 ### Wie bewältigen Sie den Austausch von Giftstoffen?
 
@@ -2513,11 +2513,11 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 
-Coinjoin ist derzeit die effektivste Methode, um Unsicherheit in die Verfolgung von Teilen in einer Kettenanalyse einzubringen. Wie wir in den vorangegangenen Kapiteln gesehen haben, müssen die Inputs und Outputs so homogen wie möglich sein, um einen leistungsstarken Mix zu erhalten. Darüber hinaus ist es wichtig, dass die Teile in eine möglichst große Gruppe integriert werden, um die Anonsets zu maximieren. Damit Coinjoins effektiv sind, müssen sie also eine große Anzahl einheitlicher Teile umfassen. Diese Vielzahl von Anforderungen bedeutet, dass Coinjoin-Transaktionen eine sehr starre Struktur haben: Die Beträge werden im Voraus festgelegt, und alle Teilnehmer müssen sich daran halten, um die Einheitlichkeit des Prozesses zu gewährleisten. Darüber hinaus erfordern Coinjoin-Transaktionen eine Synchronisation zwischen allen Teilnehmern und dem Koordinator während der Transaktionserstellung.
+Coinjoin ist derzeit die effektivste Methode, um Unsicherheit in die Verfolgung von Teilen in einer Blockchain-Analyse einzubringen. Wie wir in den vorangegangenen Kapiteln gesehen haben, müssen die Inputs und Outputs so homogen wie möglich sein, um einen leistungsstarken Mix zu erhalten. Darüber hinaus ist es wichtig, dass die Teile in eine möglichst große Gruppe integriert werden, um die Anonsets zu maximieren. Damit Coinjoins effektiv sind, müssen sie also eine große Anzahl einheitlicher Teile umfassen. Diese Vielzahl von Anforderungen bedeutet, dass Coinjoin-Transaktionen eine sehr starre Struktur haben: Die Beträge werden im Voraus festgelegt, und alle Teilnehmer müssen sich daran halten, um die Einheitlichkeit des Prozesses zu gewährleisten. Darüber hinaus erfordern Coinjoin-Transaktionen eine Synchronisation zwischen allen Teilnehmern und dem Koordinator während der Transaktionserstellung.
 
 Diese Anforderungen machen Coinjoin für direkte Zahlungen ungeeignet. Wenn Sie zum Beispiel eine 1-Millionen-Sats-Münze in einem Coinjoin-Pool haben, wäre es kompliziert, diese direkt als Zahlung zu verwenden. Es würde eine Synchronisierung mit den anderen Teilnehmern und dem Koordinator erfordern, um die gemeinsame Transaktion genau in dem Moment zu erstellen, in dem Sie eine Zahlung leisten müssen, und der Kaufbetrag müsste genau dem Wert Ihrer Münze entsprechen, was praktisch nicht machbar ist. Die Coinjoin-Transaktion ist daher von Natur aus eine kollaborative Sweep-Transaktion, d.h. es sind in der Regel die gleichen Eigentümer der Inputs, die wir auch in den Outputs wiederfinden.
 
-Es wäre jedoch interessant, über Transaktionsstrukturen zu verfügen, die es ermöglichen, Zahlungen auf praktische Weise vorzunehmen und gleichzeitig Zweifel in die Kettenanalyse einzubringen. Genau damit werden wir uns in diesem und im nächsten Kapitel befassen.
+Es wäre jedoch interessant, über Transaktionsstrukturen zu verfügen, die es ermöglichen, Zahlungen auf praktische Weise vorzunehmen und gleichzeitig Zweifel in die Blockchain-Analyse einzubringen. Genau damit werden wir uns in diesem und im nächsten Kapitel befassen.
 
 ### Was ist eine Payjoin-Transaktion?
 
@@ -2542,9 +2542,9 @@ In diesem Beispiel gibt Bob, der Bäcker, 15.000 Sats ein und erhält 19.000 Sat
 
 Die payjoin-Transaktion erfüllt zwei Ziele und ermöglicht es den Nutzern, die Vertraulichkeit ihrer Zahlung zu erhöhen.
 
-Erstens zielt payjoin darauf ab, einen außenstehenden Beobachter in die Irre zu führen, indem es in der Kettenanalyse einen Köder auslegt. Dies wird durch die CIOH-Heuristik (*Common Input Ownership Heuristic*) ermöglicht. Wie wir in Teil 3 gesehen haben, wird normalerweise, wenn eine Transaktion auf der Blockchain mehrere Eingaben hat, davon ausgegangen, dass alle diese Eingaben der gleichen Entität oder dem gleichen Nutzer gehören.
+Erstens zielt payjoin darauf ab, einen außenstehenden Beobachter in die Irre zu führen, indem es in der Blockchain-Analyse einen Köder auslegt. Dies wird durch die CIOH-Heuristik (*Common Input Ownership Heuristic*) ermöglicht. Wie wir in Teil 3 gesehen haben, wird normalerweise, wenn eine Transaktion auf der Blockchain mehrere Eingaben hat, davon ausgegangen, dass alle diese Eingaben der gleichen Entität oder dem gleichen Nutzer gehören.
 
-Wenn ein Analyst also eine Payjoin-Transaktion untersucht, wird er oder sie zu der Annahme verleitet, dass alle Eingaben von derselben Person stammen. Diese Annahme ist jedoch falsch, denn neben dem eigentlichen Zahler trägt auch der Zahlungsempfänger zu den Eingaben bei. Die Kettenanalyse wird also auf eine Interpretation gelenkt, die sich als falsch herausstellt.
+Wenn ein Analyst also eine Payjoin-Transaktion untersucht, wird er oder sie zu der Annahme verleitet, dass alle Eingaben von derselben Person stammen. Diese Annahme ist jedoch falsch, denn neben dem eigentlichen Zahler trägt auch der Zahlungsempfänger zu den Eingaben bei. Die Blockchain-Analyse wird also auf eine Interpretation gelenkt, die sich als falsch herausstellt.
 
 Nehmen wir unser Beispiel einer Payjoin-Transaktion für die Bezahlung eines Baguettes:
 
@@ -2592,7 +2592,7 @@ Die am weitesten fortgeschrittene Payjoin-Implementierung war nur Stowaway auf S
 
 Die Schwierigkeit bei der Nutzung von payjoin liegt in der Abhängigkeit von der Beteiligung des Händlers. Als Kunde können Sie kein Payjoin nutzen, wenn der Händler es nicht unterstützt. Dies erschwert den Kaufprozess zusätzlich: Es ist nicht nur schwierig, Händler zu finden, die Bitcoin akzeptieren, sondern wenn man auch noch nach solchen sucht, die Payjoin unterstützen, wird es noch komplizierter.
 
-Eine Lösung wäre die Verwendung von Transaktionsstrukturen, die Mehrdeutigkeit in die Kettenanalyse bringen, ohne dass der Empfänger mitarbeiten muss. Auf diese Weise könnten wir die Vertraulichkeit unserer Zahlungen verbessern, ohne auf die aktive Beteiligung der Händler angewiesen zu sein. Genau damit werden wir uns im nächsten Kapitel befassen.
+Eine Lösung wäre die Verwendung von Transaktionsstrukturen, die Mehrdeutigkeit in die Blockchain-Analyse bringen, ohne dass der Empfänger mitarbeiten muss. Auf diese Weise könnten wir die Vertraulichkeit unserer Zahlungen verbessern, ohne auf die aktive Beteiligung der Händler angewiesen zu sein. Genau damit werden wir uns im nächsten Kapitel befassen.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
@@ -2627,13 +2627,13 @@ In diesem Beispiel habe ich die Mining-Gebühren absichtlich vernachlässigt, um
 
 ### Was sind die Ziele einer Stonewall-Transaktion?
 
-Die Stonewall-Struktur fügt der Transaktion eine enorme Menge an Entropie hinzu und verwischt die Grenzen der Kettenanalyse. Von außen betrachtet, könnte eine solche Transaktion als Mini-Münzverknüpfung zwischen zwei Personen interpretiert werden. In Wirklichkeit handelt es sich aber um eine Zahlung. Diese Methode führt daher zu Unsicherheiten bei der Kettenanalyse oder sogar zu falschen Hinweisen.
+Die Stonewall-Struktur fügt der Transaktion eine enorme Menge an Entropie hinzu und verwischt die Grenzen der Blockchain-Analyse. Von außen betrachtet, könnte eine solche Transaktion als Mini-Münzverknüpfung zwischen zwei Personen interpretiert werden. In Wirklichkeit handelt es sich aber um eine Zahlung. Diese Methode führt daher zu Unsicherheiten bei der Blockchain-Analyse oder sogar zu falschen Hinweisen.
 
 Nehmen wir das Beispiel von Alice bei Bob, dem Bäcker. Die Transaktion auf der Blockchain würde wie folgt aussehen:
 
 ![BTC204](assets/fr/174.webp)
 
-Ein außenstehender Beobachter, der sich auf die übliche Heuristik der Kettenanalyse verlässt, könnte fälschlicherweise zu dem Schluss kommen, dass "*zwei Personen einen kleinen Coinjoin mit je einem UTXO als Input und zwei UTXOs als Output durchgeführt haben*". Eine Analyse dieser Transaktion von außen führt nicht zur Anwendung der CIOH, da das Vorhandensein von zwei gleich hohen Outputs auf ein Coinjoin-Muster schließen lässt. Aus externer Sicht ist die CIOH in diesem speziellen Fall also nicht anwendbar.
+Ein außenstehender Beobachter, der sich auf die übliche Heuristik der Blockchain-Analyse verlässt, könnte fälschlicherweise zu dem Schluss kommen, dass "*zwei Personen einen kleinen Coinjoin mit je einem UTXO als Input und zwei UTXOs als Output durchgeführt haben*". Eine Analyse dieser Transaktion von außen führt nicht zur Anwendung der CIOH, da das Vorhandensein von zwei gleich hohen Outputs auf ein Coinjoin-Muster schließen lässt. Aus externer Sicht ist die CIOH in diesem speziellen Fall also nicht anwendbar.
 
 ![BTC204](assets/fr/175.webp)
 
@@ -2666,13 +2666,13 @@ In diesem Beispiel habe ich die Gebühren absichtlich weggelassen, um es leichte
 
 ### Was sind die Ziele einer Stonewall x2-Transaktion?
 
-Wie die Stonewall-Struktur fügt auch die Stonewall-x2-Struktur der Transaktion eine große Entropie hinzu und verwirrt die Kettenanalyse. Von außen betrachtet, kann eine solche Transaktion als eine kleine Münzverknüpfung zwischen zwei Personen interpretiert werden. In Wirklichkeit handelt es sich aber um eine Zahlung. Diese Methode führt daher zu Unsicherheiten in der Kettenanalyse oder sogar zu falschen Hinweisen.
+Wie die Stonewall-Struktur fügt auch die Stonewall-x2-Struktur der Transaktion eine große Entropie hinzu und verwirrt die Blockchain-Analyse. Von außen betrachtet, kann eine solche Transaktion als eine kleine Münzverknüpfung zwischen zwei Personen interpretiert werden. In Wirklichkeit handelt es sich aber um eine Zahlung. Diese Methode führt daher zu Unsicherheiten in der Blockchain-Analyse oder sogar zu falschen Hinweisen.
 
 Nehmen wir das Beispiel von Alice, Bob dem Bäcker und Charles. Die Transaktion auf der Blockchain würde wie folgt aussehen:
 
 ![BTC204](assets/fr/178.webp)
 
-Ein außenstehender Beobachter, der sich auf die üblichen Heuristiken der Kettenanalyse verlässt, könnte fälschlicherweise zu dem Schluss kommen: "*Alice und Charles haben einen kleinen Coinjoin durchgeführt, mit je einem UTXO als Input und zwei UTXOs als Output*". Auch hier führt eine Analyse dieser Transaktion von außen nicht zur Anwendung des ICOH, da das Vorhandensein von zwei Ausgaben in gleicher Höhe auf ein Coinjoin-Muster schließen lässt. Aus externer Sicht ist das CIOH daher in diesem speziellen Fall nicht anwendbar.
+Ein außenstehender Beobachter, der sich auf die üblichen Heuristiken der Blockchain-Analyse verlässt, könnte fälschlicherweise zu dem Schluss kommen: "*Alice und Charles haben einen kleinen Coinjoin durchgeführt, mit je einem UTXO als Input und zwei UTXOs als Output*". Auch hier führt eine Analyse dieser Transaktion von außen nicht zur Anwendung des ICOH, da das Vorhandensein von zwei Ausgaben in gleicher Höhe auf ein Coinjoin-Muster schließen lässt. Aus externer Sicht ist das CIOH daher in diesem speziellen Fall nicht anwendbar.
 
 ![BTC204](assets/fr/179.webp)
 
@@ -2728,7 +2728,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 Die Verwendung von Bitcoin-Transaktionsstrukturen, die die Analyse der Kette mehrdeutig machen, wie z. B. Coinjoin, ist besonders vorteilhaft für den Schutz der Privatsphäre. Wie wir jedoch im Kapitel über Payjoins besprochen haben, sind Coinjoin-Transaktionen natürlich auf der Kette identifizierbar. Erinnern Sie sich an die Analogie, die wir zwischen Verschlüsselung und Coinjoin gezogen haben: Wenn eine Datei verschlüsselt ist, kann ein Dritter, der die verschlüsselte Datei entdeckt, nicht auf ihren Inhalt zugreifen, aber er kann eindeutig erkennen, dass die Datei verändert wurde, um ihren Inhalt zu verbergen. Dasselbe gilt für Coinjoin: Wenn ein Analytiker eine Coinjoin-Transaktion untersucht, kann er zwar keine direkten Verbindungen zwischen Inputs und Outputs (und umgekehrt) herstellen, aber er kann dennoch erkennen, dass es sich bei der beobachteten Transaktion um ein Coinjoin handelt.
 
-Je nachdem, wie Sie Ihren Teil nach den Coinjoin-Zyklen verwenden wollen, kann die Tatsache, dass er diesen Prozess durchlaufen hat, problematisch sein. Wenn Sie beispielsweise planen, Ihren Coin auf einer regulierten Börsenplattform zu verkaufen, er aber vor kurzem einen Coinjoin durchlaufen hat, wird das Kettenanalysetool der Plattform diese Tatsache feststellen. Die Plattform kann sich dann weigern, Ihren coinjoined UTXO zu akzeptieren, oder sogar eine Erklärung von Ihnen verlangen, mit dem Risiko, dass Ihr Konto gesperrt oder Ihr Geld eingefroren wird. In einigen Fällen kann die Plattform Ihr Verhalten auch den staatlichen Behörden melden (dies ist beispielsweise das, was TRACFIN von PSANs in Frankreich verlangt).
+Je nachdem, wie Sie Ihren Teil nach den Coinjoin-Zyklen verwenden wollen, kann die Tatsache, dass er diesen Prozess durchlaufen hat, problematisch sein. Wenn Sie beispielsweise planen, Ihren Coin auf einer regulierten Börsenplattform zu verkaufen, er aber vor kurzem einen Coinjoin durchlaufen hat, wird das Blockchain-Analysetool der Plattform diese Tatsache feststellen. Die Plattform kann sich dann weigern, Ihren coinjoined UTXO zu akzeptieren, oder sogar eine Erklärung von Ihnen verlangen, mit dem Risiko, dass Ihr Konto gesperrt oder Ihr Geld eingefroren wird. In einigen Fällen kann die Plattform Ihr Verhalten auch den staatlichen Behörden melden (dies ist beispielsweise das, was TRACFIN von PSANs in Frankreich verlangt).
 
 ![BTC204](assets/fr/184.webp)
 
@@ -2748,13 +2748,13 @@ Nach dieser Abfolge von Transaktionen leitet das Ricochet-Tool die Bitcoins schl
 
 ![BTC204](assets/fr/187.webp)
 
-Ziel ist es, einen Abstand zu schaffen, der die Fungibilität der Münze beeinflusst, wie z. B. eine Coinjoin-Transaktion, und den endgültigen Ausgabeakt, der diese Münze aufgrund ihrer Vergangenheit ablehnen könnte. So könnten Kettenanalysetools zu dem Schluss kommen, dass es wahrscheinlich einen nachträglichen Eigentümerwechsel gegeben hat, und diese Münze als fungibel einstufen. Im Falle eines Coinjoin könnten Blockchain-Analysetools dann davon ausgehen, dass es nicht dieselbe Person war, die die Bitcoins verschickt und den Coinjoin durchgeführt hat, und dass es daher keinen Sinn macht, gegen den Absender vorzugehen.
+Ziel ist es, einen Abstand zu schaffen, der die Fungibilität der Münze beeinflusst, wie z. B. eine Coinjoin-Transaktion, und den endgültigen Ausgabeakt, der diese Münze aufgrund ihrer Vergangenheit ablehnen könnte. So könnten Blockchain-Analysetools zu dem Schluss kommen, dass es wahrscheinlich einen nachträglichen Eigentümerwechsel gegeben hat, und diese Münze als fungibel einstufen. Im Falle eines Coinjoin könnten Blockchain-Analysetools dann davon ausgehen, dass es nicht dieselbe Person war, die die Bitcoins verschickt und den Coinjoin durchgeführt hat, und dass es daher keinen Sinn macht, gegen den Absender vorzugehen.
 
 ![BTC204](assets/fr/188.webp)
 
 ### Warum funktioniert es?
 
-Angesichts dieser Querschläger-Methode könnte man annehmen, dass eine Software zur Kettenanalyse ihre Untersuchung über vier Abpraller hinaus vertiefen würde. Allerdings stehen diese Plattformen bei der Optimierung der Erkennungsschwelle vor einem Dilemma. Sie müssen eine Grenze für die Anzahl der Sprünge festlegen, nach der sie akzeptieren, dass wahrscheinlich eine Eigenschaftsänderung stattgefunden hat und dass die Verbindung zu einem früheren Ereignis (z. B. einem Coinjoin) ignoriert werden sollte.
+Angesichts dieser Querschläger-Methode könnte man annehmen, dass eine Software zur Blockchain-Analyse ihre Untersuchung über vier Abpraller hinaus vertiefen würde. Allerdings stehen diese Plattformen bei der Optimierung der Erkennungsschwelle vor einem Dilemma. Sie müssen eine Grenze für die Anzahl der Sprünge festlegen, nach der sie akzeptieren, dass wahrscheinlich eine Eigenschaftsänderung stattgefunden hat und dass die Verbindung zu einem früheren Ereignis (z. B. einem Coinjoin) ignoriert werden sollte.
 
 ![BTC204](assets/fr/189.webp)
 
@@ -2779,7 +2779,7 @@ Die Idee für diese Abprallmethode stammt ursprünglich von den Samourai-Wallet-
 Die Samurai-Anwendung bietet zwei Abprallvarianten:
 
 
-- Verstärkter Querschläger oder "gestaffelte Zustellung", die den Vorteil bietet, dass die Samurai-Servicegebühr auf die fünf aufeinander folgenden Transaktionen verteilt wird. Diese Option gewährleistet auch, dass jede Transaktion zu einem separaten Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, wodurch das Verhalten eines Eigentümerwechsels so genau wie möglich nachgeahmt wird. Obwohl diese Methode langsamer ist, ist sie für diejenigen, die es nicht eilig haben, vorzuziehen, da sie die Effizienz des Abprallers maximiert, indem sie seine Widerstandsfähigkeit gegen Kettenanalysen verstärkt;
+- Verstärkter Querschläger oder "gestaffelte Zustellung", die den Vorteil bietet, dass die Samurai-Servicegebühr auf die fünf aufeinander folgenden Transaktionen verteilt wird. Diese Option gewährleistet auch, dass jede Transaktion zu einem separaten Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, wodurch das Verhalten eines Eigentümerwechsels so genau wie möglich nachgeahmt wird. Obwohl diese Methode langsamer ist, ist sie für diejenigen, die es nicht eilig haben, vorzuziehen, da sie die Effizienz des Abprallers maximiert, indem sie seine Widerstandsfähigkeit gegen Blockchain-Analysen verstärkt;
 
 ![BTC204](assets/fr/191.webp)
 
@@ -2894,9 +2894,9 @@ Wenn ein atomarer Swap schließlich Onchain-Bitcoins und Bitcoins im Lightning-N
 
 ### Ist sie wirklich nützlich?
 
-Geheime Eigentumsübertragungen wie Coinswaps und Atomic Swaps haben den Vorteil, dass sie die Heuristik der Kettenanalyse täuschen. Diese Methoden können den Eindruck erwecken, dass es sich bei den Transaktionen um denselben Nutzer handelt, während der tatsächliche Eigentümer den Besitzer gewechselt hat. Der größte Nachteil dieser Methoden ist jedoch, dass sie ohne den Einsatz einer zusätzlichen Technik zum Aufbrechen der Münzgeschichte sehr riskant sind.
+Geheime Eigentumsübertragungen wie Coinswaps und Atomic Swaps haben den Vorteil, dass sie die Heuristik der Blockchain-Analyse täuschen. Diese Methoden können den Eindruck erwecken, dass es sich bei den Transaktionen um denselben Nutzer handelt, während der tatsächliche Eigentümer den Besitzer gewechselt hat. Der größte Nachteil dieser Methoden ist jedoch, dass sie ohne den Einsatz einer zusätzlichen Technik zum Aufbrechen der Münzgeschichte sehr riskant sind.
 
-Wenn Alice nämlich einen Coinswap oder Atomic Swap mit Bob durchführt, tauscht sie den Besitz ihrer Bitcoins mit denen von Bob. Im Falle eines atomaren Swaps umfasst der Tausch auch einen Altcoin, aber das Prinzip bleibt dasselbe. Am Ende besitzt Alice also die $B$-Münze und Bob die $A$-Münze. Dadurch wird die Kettenanalyse in Frage gestellt, aber die Geschichte der Münzen bleibt nachvollziehbar. Wenn ein Analyst Teil $A$ untersucht, kann er Alices frühere Aktivitäten zurückverfolgen, und umgekehrt für Teil $B$.
+Wenn Alice nämlich einen Coinswap oder Atomic Swap mit Bob durchführt, tauscht sie den Besitz ihrer Bitcoins mit denen von Bob. Im Falle eines atomaren Swaps umfasst der Tausch auch einen Altcoin, aber das Prinzip bleibt dasselbe. Am Ende besitzt Alice also die $B$-Münze und Bob die $A$-Münze. Dadurch wird die Blockchain-Analyse in Frage gestellt, aber die Geschichte der Münzen bleibt nachvollziehbar. Wenn ein Analyst Teil $A$ untersucht, kann er Alices frühere Aktivitäten zurückverfolgen, und umgekehrt für Teil $B$.
 
 ![BTC204](assets/fr/199.webp)
 
@@ -2927,7 +2927,7 @@ In Teil 4 haben wir besprochen, wie wichtig es ist, einen vollständigen Knoten 
 
 Eine Möglichkeit, die verschiedenen Anonymisierungsangriffe zu vermeiden, ist die Verwendung des Dandelion-Vorschlags. Dieses Broadcast-Protokoll wurde in BIP156 formalisiert, wurde aber nie auf Bitcoin implementiert.
 
-Die Idee hinter Dandelion ist es, die Vertraulichkeit des Transaktionsroutings im Bitcoin-Netzwerk zu verbessern, um verschiedenen Formen von Angriffen zu begegnen. Sein Hauptziel ist es, den Quellknoten zu verbergen, der eine Transaktion ursprünglich im Netzwerk verbreitet hat. Die Offenlegung dieses Knotens könnte es ermöglichen, eine Bitcoin-Transaktion mit einer bestimmten IP-Adresse zu verknüpfen (wenn der Knoten im Clearnetz arbeitet), was einen Einstiegspunkt für eine Kettenanalyse bieten könnte.
+Die Idee hinter Dandelion ist es, die Vertraulichkeit des Transaktionsroutings im Bitcoin-Netzwerk zu verbessern, um verschiedenen Formen von Angriffen zu begegnen. Sein Hauptziel ist es, den Quellknoten zu verbergen, der eine Transaktion ursprünglich im Netzwerk verbreitet hat. Die Offenlegung dieses Knotens könnte es ermöglichen, eine Bitcoin-Transaktion mit einer bestimmten IP-Adresse zu verknüpfen (wenn der Knoten im Clearnetz arbeitet), was einen Einstiegspunkt für eine Blockchain-Analyse bieten könnte.
 
 Diese Verbindung zwischen Aktivitäten auf Bitcoin und einer IP-Adresse stellt ein erhebliches Risiko für die Vertraulichkeit der Nutzer dar. In der Tat sind viele Einrichtungen in der Lage, eine IP-Adresse leicht mit einer persönlichen Identität zu verknüpfen. Dazu gehören Regierungen und Internetdienstleister. Darüber hinaus können diese Informationen öffentlich zugänglich werden, wenn beispielsweise Ihre IP-Adresse und Ihre persönlichen Daten durch einen Hack der Datenbank einer Website bekannt werden.
 
@@ -3006,7 +3006,7 @@ Im traditionellen Bankensystem sind wir zum Beispiel daran gewöhnt, unsere IBAN
 
 ![BTC204](assets/fr/211.webp)
 
-Bitcoin funktioniert jedoch anders: Für jede eingehende Transaktion muss eine neue Empfängeradresse generiert werden. Dieser Kompromiss zwischen Benutzerfreundlichkeit und Vertraulichkeit geht auf die Ursprünge des Weißbuchs von Bitcoin zurück. Bereits bei der Veröffentlichung der ersten Version seines Dokuments Ende 2008 warnte Satoshi Nakamoto vor diesem Risiko:
+Bitcoin funktioniert jedoch anders: Für jede eingehende Transaktion muss eine neue Empfängeradresse generiert werden. Dieser Kompromiss zwischen Benutzerfreundlichkeit und Vertraulichkeit geht auf die Ursprünge des Whitepapers von Bitcoin zurück. Bereits bei der Veröffentlichung der ersten Version seines Dokuments Ende 2008 warnte Satoshi Nakamoto vor diesem Risiko:
 
 **Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, damit sie nicht mit einem gemeinsamen Eigentümer verknüpft sind
 
@@ -3333,7 +3333,7 @@ Der Zahlungscode selbst stellt kein unmittelbares Risiko für die Vertraulichkei
 
 Dies liegt daran, dass der Zahlungscode nicht direkt zur Ableitung der Adressen verwendet wird, die BIP47-Zahlungen erhalten. Stattdessen werden diese Adressen über die ECDH-Anwendung zwischen den aus den Zahlungscodes der beiden beteiligten Parteien abgeleiteten Schlüsseln generiert.
 
-Ein Zahlungscode an sich führt also nicht direkt zu einem Verlust der Vertraulichkeit, da von ihm nur die Meldeadresse abgeleitet wird. Diese Adresse kann zwar bestimmte Informationen preisgeben, lässt aber normalerweise nicht erkennen, mit wem Sie Transaktionen durchführen, es sei denn, es wird eine gründliche Kettenanalyse durchgeführt. Wenn der Absender nämlich UTXOs verwendet, die mit seiner Identität in Verbindung gebracht werden können, um die Meldungstransaktion durchzuführen, kann man daraus schließen, dass seine Identität wahrscheinlich mit BIP47-Zahlungen an Ihren Zahlungscode verbunden ist. Dadurch werden die zugrundeliegenden Transaktionen nicht aufgedeckt, aber es wird auf ihre wahrscheinliche Existenz hingewiesen.
+Ein Zahlungscode an sich führt also nicht direkt zu einem Verlust der Vertraulichkeit, da von ihm nur die Meldeadresse abgeleitet wird. Diese Adresse kann zwar bestimmte Informationen preisgeben, lässt aber normalerweise nicht erkennen, mit wem Sie Transaktionen durchführen, es sei denn, es wird eine gründliche Blockchain-Analyse durchgeführt. Wenn der Absender nämlich UTXOs verwendet, die mit seiner Identität in Verbindung gebracht werden können, um die Meldungstransaktion durchzuführen, kann man daraus schließen, dass seine Identität wahrscheinlich mit BIP47-Zahlungen an Ihren Zahlungscode verbunden ist. Dadurch werden die zugrundeliegenden Transaktionen nicht aufgedeckt, aber es wird auf ihre wahrscheinliche Existenz hingewiesen.
 
 Es ist daher unerlässlich, diese strikte Trennung zwischen den Zahlungscodes der Nutzer aufrechtzuerhalten. In diesem Sinne ist die erste Übermittlung des Codes ein kritischer Moment für die Vertraulichkeit der Zahlung, der jedoch für das korrekte Funktionieren des Protokolls unerlässlich ist. Wenn einer der Zahlungscodes öffentlich zugänglich ist (z. B. auf einer Website), darf der zweite Code, der des Absenders, unter keinen Umständen mit dem ersten in Verbindung gebracht werden.
 
@@ -3864,7 +3864,7 @@ Für die Entscheidung, Silent Payments ausschließlich auf Taproot zu beschränk
 
 
 - Erstens werden die Implementierung und künftige Upgrades der Portfoliosoftware erheblich erleichtert, da nur eine Norm eingehalten werden muss;
-- Zweitens trägt dieser Ansatz dazu bei, dass sich die Nutzer besser zurechtfinden, indem sie dazu angehalten werden, sich nicht zwischen verschiedenen Arten von Skripten aufzuteilen, die bei der Kettenanalyse unterschiedliche Portfolio-Fingerabdrücke erzeugen (weitere Informationen zu diesem Konzept finden Sie in Kapitel 4 von Teil 2).
+- Zweitens trägt dieser Ansatz dazu bei, dass sich die Nutzer besser zurechtfinden, indem sie dazu angehalten werden, sich nicht zwischen verschiedenen Arten von Skripten aufzuteilen, die bei der Blockchain-Analyse unterschiedliche Portfolio-Fingerabdrücke erzeugen (weitere Informationen zu diesem Konzept finden Sie in Kapitel 4 von Teil 2).
 
 ### Naive Ableitung eines öffentlichen Schlüssels von Silent Payments
 

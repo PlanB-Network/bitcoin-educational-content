@@ -1,0 +1,9 @@
+question: Doların altına çevrilebilirliğinin sonunu getiren büyük olay hangisidir?
+answer: Nixon Şoku
+wrong_answers:
+  - Büyük Buhran
+  - Petrol şoku
+  - İkinci Dünya Savaşı
+explanation: |
+  1971'deki Nixon Şoku, doların altına çevrilebilirliğini sona erdirerek Bretton Woods sisteminin sonunu ve dalgalı para birimlerinin başlangıcını işaret etti, zira ABD artık dolar karşılığında altının Exchange'ını destekleyemiyordu.
+reviewed: true

@@ -582,6 +582,7 @@ Actualmente, el escenario en el que un propietario mayoritario toma la decisión
 
 
 
+Descubra la lista actualizada de empresas que poseen la mayor cantidad de bitcoins en tesorería, así como los montos retenidos, en el sitio: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Fiscalidad del bitcoin en manos de empresas
 
 Para las empresas que no están estructuradas como entidades jurídicas separadas -como las empresas unipersonales u otras entidades no constituidas en sociedad- la fiscalidad de las transacciones de Bitcoin a menudo refleja el tratamiento aplicado a las personas físicas. En muchos casos, se aplican las mismas normas que rigen las ganancias de capital o ingresos, al igual que lo harían si un individuo estuviera vendiendo Bitcoin. Por ejemplo, en algunos países, los beneficios pueden considerarse parte de la renta personal del empresario, sujeta a **tramos del impuesto sobre la renta de las personas físicas**.
@@ -885,7 +886,7 @@ Para obtener tutoriales detallados sobre los monederos recomendados y la configu
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1386,6 +1387,7 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

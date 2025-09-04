@@ -1,0 +1,9 @@
+question: Berapa ukuran awalan jaringan yang biasa digunakan dalam IPv6 Address pada jaringan lokal?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bit
+  - 8 bit
+explanation: |
+  64 bit pertama dari IPv6 Address umumnya dicadangkan untuk awalan subnet.
+reviewed: false

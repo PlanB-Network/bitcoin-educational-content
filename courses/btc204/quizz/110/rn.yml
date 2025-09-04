@@ -1,0 +1,10 @@
+question: None ugucuruza kw’Ibuye ni iki?
+answer: Igurisha ryigana mini-CoinJoin ataco ribaye
+wrong_answers:
+  - Igikoresho co kwishura mu buryo bwa mini-CoinJoin.
+  - Ibikorwa vy'ubufatanye birimwo abantu batatu
+  - Ibikorwa vy'ugucuruza birimwo uwuvyakira mu vyinjijwe
+explanation: |
+  Stonewall ni uburyo bwihariye bwo gukoresha Bitcoin bugamije kwongerera ubuzima bwite bw’abakoresha mu gihe c’ugukoresha amahera mu kwigana mini-CoinJoin hagati y’abantu babiri, ataco mu vy’ukuri ari umwe.
+  
+reviewed: false

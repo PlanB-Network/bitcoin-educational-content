@@ -1,0 +1,9 @@
+question: Quale meccanismo consente a un servizio interno di accedere all'esterno tramite NAT?
+answer: Inoltro delle porte
+wrong_answers:
+  - Frammentazione dei pacchetti
+  - Routing RIP
+  - Compressione NAT
+explanation: |
+  Il port forwarding consente di inoltrare una connessione esterna a un host interno specifico tramite il gateway NAT.
+reviewed: false

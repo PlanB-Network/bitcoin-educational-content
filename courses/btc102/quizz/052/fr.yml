@@ -6,4 +6,4 @@ wrong_answers:
   - Rapidité
 explanation: |
   Monter son propre nœud garantit une indépendance vis-à-vis des tiers et protège la confidentialité des transactions.
-reviewed: false
+reviewed: true 

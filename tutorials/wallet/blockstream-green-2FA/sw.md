@@ -4,12 +4,15 @@ description: Kuweka 2/2 Multisig kwenye Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Kumbuka:** Kuanzia Mei 2025, haitakuwa tena inawezekana kuanzisha akaunti mpya zilizo na ulinzi wa uthibitishaji wa hatua mbili (2FA). Kipengele hiki kinapatikana tu kwa watumiaji waliokuwa tayari wamewasha aina hii ya akaunti awali.*
+
+___
 
 Software Wallet ni programu iliyosakinishwa kwenye kompyuta, simu mahiri au kifaa kingine kilichounganishwa kwenye Mtandao, kukuwezesha kudhibiti na kulinda funguo zako za Bitcoin Wallet. Tofauti na pochi za vifaa, ambazo hutenga funguo za kibinafsi, pochi za "Hot" kwa hivyo hufanya kazi katika mazingira ambayo yanaweza kukabiliwa na mashambulizi ya mtandao, na hivyo kuongeza hatari ya uharamia na wizi.
 
-
 Pochi za programu zinapaswa kutumiwa kudhibiti viwango vya kuridhisha vya bitcoins, haswa kwa shughuli za kila siku. Wanaweza pia kuwa chaguo la kuvutia kwa watu walio na mali chache za Bitcoin, ambao uwekezaji wao katika Hardware Wallet unaweza kuonekana usio na uwiano. Hata hivyo, utumiaji wao wa mara kwa mara kwenye Mtandao huwafanya wasiwe na usalama mdogo wa kuhifadhi akiba yako ya muda mrefu au pesa nyingi. Kwa hili la mwisho, ni bora kuchagua suluhu zilizo salama zaidi, kama vile pochi za maunzi.
-
 
 Katika somo hili, nitakuonyesha jinsi ya kuboresha usalama wa Hot Wallet kwa kutumia chaguo la "*2FA*" kwenye Blockstream Green.
 
@@ -29,7 +32,7 @@ Green ni programu ambayo ni rahisi kutumia, ambayo inafanya kuvutia kwa wanaoanz
 Blockstream Green pia inasaidia Liquid Network, Bitcoin Sidechain iliyotengenezwa na Blockstream kwa haraka, Confidential Transactions nje ya Blockchain kuu. Katika somo hili, tunaangazia Bitcoin pekee, lakini pia nimefanya mafunzo mengine ya kujifunza jinsi ya kutumia Liquid kwenye Green :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Chaguo 2/2 Multisig (2FA)
 
@@ -58,7 +61,7 @@ Ubaya mwingine wa njia hii ya usalama ni kwamba itabidi utumie violezo vya hati 
 Iwapo unapendelea kutotumia chaguo la 2FA na ungependa tu kusanidi "*singlesig*" Wallet kwenye Green, ninakualika kushauriana na mafunzo haya mengine :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Inasakinisha na kusanidi programu ya Blockstream Green
 
@@ -393,4 +396,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gu
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina juu ya programu ya simu ya Blockstream Green ili kusanidi Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -1062,7 +1062,7 @@ Ubuntu 由 Canonical 開發，於 2004 年推出，是全球最受歡迎的發�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint 於 2006 年推出，是源自 Ubuntu 的發行版，旨在提供更�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 以其簡單、預設的多媒體編解碼器和設計良好的更新工具脫穎而出。另一方面，Mint 嚴重依賴 Ubuntu 的基礎架構，使得它必須依賴 Ubuntu 的技術選擇 (尤其是在核心與儲存庫層級)。Mint 特別適合非技術性使用者，或是想要一個不需要太多學習、即開即用的系統的人。
 
@@ -1246,7 +1246,7 @@ Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **註：** Live 發行版是可以直接從 USB 隨身碟或 CD 使用的 Linux 作業系統，無須在 Hard 磁碟上安裝。
 
@@ -1300,9 +1300,9 @@ PureOS 是 Purism 所開發的 Debian 衍生發行版，完全免費 (FSF 核准
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**：
-
-
 
 Raspberry Pi OS（前身為 Raspbian）是專為 Raspberry Pi 微型電腦最佳化的發行版。它以 Debian 為基礎，並針對 ARM 架構重新編譯套件。它可用於教育專案、電子測試或小型個人伺服器。
 
@@ -1326,36 +1326,23 @@ Whonix 以雙虛擬機器架構 (閘道 + 工作站) 結合 Debian 與 Tor 網�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 這個全景圖讓您對目前的 Linux 發行版生態系統有一個概觀的了解，讓您能夠選擇最適合您的技術規格和目標的發行版。
-
-
 
 在 SCU202 的下一章，我們將進一步了解實際的 Linux 環境，從構成您與系統日常互動基礎的圖形環境開始。
 
-
-
 ## Linux 桌面環境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 在 GNU/Linux 系統中，桌面環境在使用者體驗中扮演最重要的角色之一。它是圖形化的 Layer，能與系統互動，以熟悉的視覺表示為基礎：視窗、功能表、圖示、面板和預先安裝的應用程式。
-
-
 
 在本章中，我將探討桌面環境的結構與角色、其典型元件、可用的主要系列、選擇標準以及它們與最流行 Linux 發行版本的整合。
 
-
-
 ### 什麼是辦公室環境？
 
-
-
 桌面環境 (或「*DE*」，代表 *Desktop Environment*)，是指構成作業系統完整圖形化 Interface 的程式集。在 Windows 和 macOS 上，預設會提供單一的桌面環境，並整合到系統中，無法完全修改（只有某些 shell 可以部分修改 Interface）。另一方面，Linux 系統的模組化程度要高得多，將桌面環境視為可自由更換的獨立元件。
-
-
 
 在 Linux 中，清楚區分所有層級是很重要的：核心 (負責管理與硬體的互動)、顯示伺服器 (透過核心作為應用程式、繪圖驅動程式與硬體之間的中介)，以及最後的桌面環境本身 (依賴這些基礎架構來提供連貫的圖形 Interface 給使用者)。這個區別有時可能不太明確，因為許多 Linux 發行版都預先安裝了桌面環境，有時還會包含自己的 Wayland 合成器，然後再作為顯示伺服器。
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### 辦公室套件
 
 
@@ -5754,6 +5742,7 @@ Firefox 儘管在某些效能領域稍稍落後於以 Blink 為基礎的瀏覽�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 瀏覽器
 
 
@@ -5774,15 +5763,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvad 瀏覽器
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) 是 Tor 基金會與 Mullvad VPN 合作的成果。它以 Tor 瀏覽器為基礎，而 Tor 瀏覽器本身則源自 Firefox ESR。Mullvad 瀏覽器的設計旨在最大化使用者隱私。在預設情況下，它包含了針對指紋、追蹤者和第三方腳本的進階保護。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它具有 Tor 瀏覽器提供的大部分安全和隱私功能，但有一點不同：它不會透過 Tor 網路重定向流量。為了避免 IP Address 洩漏，您可以將它與 VPN（最好是 Mullvad VPN）結合使用。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen 瀏覽器
-
-
 
 [Zen Browser](https://zen-browser.app/) 是基於 Firefox (Gecko 引擎) 的免費開放原始碼瀏覽器，於 2024 年推出。它的目標是提供現代、優雅、高度自訂且最重要的是以隱私為中心的瀏覽體驗，而不需依賴 Chromium。
 
-
-
 Zen 因其激進的 Interface 方法和可用性而脫穎而出，其主要靈感來自 Arc 瀏覽器，但又因其開放源碼特性和 Gecko 引擎而從 Arc 瀏覽器中解放出來。它包括 ：
-
-
-
 
 - 簡約、模組化的 Interface，具有垂直側邊欄標籤、分割檢視，以及按專案分組標籤集的*工作區*系統；
 - 可自訂的 Interface 模版系統 (*Zen Mods*)，可用來深度修改瀏覽器的外觀；
 - 稱為 *Glance* 的原始功能，可在輕量級的臨時視窗中開啟連結，避免標籤頁的雜亂...
 
-
-
 Zen 也支援 Firefox 擴充套件，以及透過 Mozilla 帳戶進行同步處理。
-
-
 
 從安全性與隱私權的角度來看，Zen 具備本機封鎖第三方追蹤者的功能。瀏覽器本身不會收集任何資料，也允許停用 Mozilla 的遙測功能。它也會自動拒絕過時或不符合規定的 SSL 證書。
 
-
-
 如果您正在尋找一個免費、創新、不雜亂且尊重您隱私的 Gecko 瀏覽環境，Zen Browser 是一個有趣的選擇。
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基於 WebKit 的瀏覽器
 
-
-
 #### 野生動物園
-
-
 
 仍在使用 WebKit 渲染引擎（而非 Blink 之類的 Fork）的主要瀏覽器是 Safari。[Safari](https://www.apple.com/safari/)是 Apple 專為 macOS 設計的瀏覽器。它提供了與 Apple 生態系統的絕佳整合、高效能，現在還包括更強大的防追蹤和指紋保護。
 
-
-
 然而，Safari 仍然是封閉的，其桌面版本僅限於 macOS，並且依賴於 Apple 生態系統。雖然 Apple 擁有強大的隱私權政策，其商業模式主要以硬體銷售而非廣告為基礎，但對於某些內部作法仍不清楚。
-
-
 
 在此，我們將焦點放在桌上型電腦瀏覽器上，但必須注意的是，在 iOS 上，Apple 要求所有瀏覽器都必須使用 WebKit 渲染引擎 (不過，由於某些歐洲法規的規定，這項限制可能很快就會改變)。這表示 Chrome、Firefox 或 Brave 等瀏覽器必須在 iOS 上提供以 WebKit 為基礎的應用程式，而不是以其慣用的渲染引擎為基礎。
 
@@ -5889,6 +5855,7 @@ Orion 完全由 Kagi 團隊 (以其無廣告搜尋引擎而聞名) 所開發。�
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 無渲染引擎的瀏覽器
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS 沒有整合任何專屬元件。您可以自由添加或不添加 Go
 Graphene 僅與最近的 Google Pixels (Pixel 6、7、8 和 9) 相容。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile 是 Mozilla 基金會開發的流行開放原始碼電子郵�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis 是一款全面的開放原始碼應用程式。它用密碼加密您的 2
 Ente Auth 是一個現代化、開放源碼、多平台的解決方案，具有端對端加密備份功能。它能讓您在行動裝置、桌上型電腦和網頁上安全地同步您的 2FA 代碼。您也可以離線使用，無需雲端備份或建立帳戶。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 提供許多附加功能：依標籤組織、每項服務的自訂圖示、備註、我的最愛、整合搜尋、安全的團隊程式碼分享。
 
 
@@ -7642,6 +7611,7 @@ Authy 提供跨多個裝置的 2FA 同步功能，非常方便，但此應用程
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想瞭解更多關於密碼管理器、2FA 認證和 VPN 的資訊，我建議您閱讀 SCU-101 課程中的專門章節：
 
 
@@ -8035,6 +8005,7 @@ Chrono 可在 F-Droid 上使用，完全開放原始碼，提供現代、簡潔�
 本應用程式還整合了計時器和秒錶，並具備圈數記錄、統計、時間比較和多計時器管理功能。您可以設定多個時區、自訂主題 (顏色、樣式、動畫)，甚至用標籤來組織您的鬧鈴和計時器。
 
 
+為了更深入了解這個主題，我建議您造訪網站 [*Awesome Privacy*](https://awesome-privacy.xyz/)，該網站收錄了您日常使用的軟體的最佳隱私友好型替代方案。
 ___
 
 
@@ -8526,6 +8497,7 @@ DNS (*Domain Name System*) 是一種網際網路服務，可將人類可理解�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 在作業系統層級：有些作業系統原生整合了加密 DNS 支援 (DoT 或 DoH)，可保護所有通過系統網路堆疊的 DNS 請求。不過，這並不能確保整個電腦或電話的安全：如果應用程式設定為使用不同的 DNS 解析器或通訊協定，就可以繞過此設定。
 
 
@@ -8626,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

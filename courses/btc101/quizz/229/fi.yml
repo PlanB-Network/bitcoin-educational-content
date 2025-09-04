@@ -1,9 +1,14 @@
-question: Kuinka Lightning Networkin transaktiot turvataan?
-answer: Kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
+question: Mikä on käsite skin in the game videopelialan kontekstissa?
+answer: Taloudellisen panoksen omaaminen pelin lopputulokseen.
 wrong_answers:
-  - Vain yksityisten avainten käytön kautta.
-  - Vain julkisten avainten käytön kautta.
-  - Vain yksityisten ja julkisten avainten yhteiskäytön kautta.
-explanation: >-
-  Lightning Networkin transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
+  - Hahmojen mukauttaminen ainutlaatuisilla skineillä, jotka parantavat pelikokemusta.
+  - Pelin sisäisten esineiden ostaminen oikealla rahalla.
+  - Peliskinien myyminen oikeasta rahasta.
+explanation: |
+  Käsite skin in the game on idea, joka on
+  viime aikoina saavuttanut suosiota videopelialalla. Se
+  viittaa pohjimmiltaan ajatukseen, että kehittäjillä ja
+  sidosryhmillä on henkilökohtainen sijoitus tai panos pelin
+  menestyksessä, mikä yhdistää heidän intressinsä
+  laadukkaan tuotteen toimittamiseen.
 reviewed: true

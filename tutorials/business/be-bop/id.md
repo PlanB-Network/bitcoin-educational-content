@@ -15,7 +15,7 @@ Solusinya sederhana, ringan, dan mandiri. Solusi ini memungkinkan pembuatan toko
 
 
 
-Dalam tutorial ini, kami akan memandu Anda langkah demi langkah melalui :
+Dalam tutorial ini, kami akan memandu Anda langkah demi langkah melalui:
 
 
 
@@ -44,7 +44,7 @@ Sebelum Anda mulai menginstal be-BOP, pastikan Anda memiliki infrastruktur tekni
 
 
 
-be-BOP menggunakan sistem penyimpanan untuk mengelola file (seperti gambar produk). Hal ini memerlukan akses ke layanan S3, seperti file :
+be-BOP menggunakan sistem penyimpanan untuk mengelola file (seperti gambar produk). Hal ini memerlukan akses ke layanan S3, seperti file:
 
 
 
@@ -302,7 +302,7 @@ Jika Anda tidak ingin mengelola node Lightning sendiri, **Swiss Bitcoin Pay** ad
 
 
 
-Langkah-langkah konfigurasi :
+Langkah-langkah konfigurasi:
 
 
 
@@ -330,7 +330,7 @@ Selain Bitcoin, be-BOP juga memungkinkan Anda menerima pembayaran tunai melalui 
 
 
 
-Langkah-langkah konfigurasi :
+Langkah-langkah konfigurasi:
 
 
 
@@ -467,7 +467,7 @@ Konfigurasi **Top Bar** memungkinkan Anda mempersonalisasi identitas visual pera
 
 
 
-#### Langkah-langkah konfigurasi :
+#### Langkah-langkah konfigurasi:
 
 
 
@@ -491,7 +491,7 @@ Bagian `Tautan` pada Bilah Atas memungkinkan Anda menambahkan pintasan ke halama
 
 
 
-#### Langkah-langkah konfigurasi :
+#### Langkah-langkah konfigurasi:
 
 
 
@@ -776,7 +776,7 @@ Buka `Admin > Merch > Produk` untuk menambah atau mengubah produk. Isi kolom ber
 - Produk dengan variasi**:
   - Jangan centang `Standalone`.
   - Centang `Produk memiliki variasi ringan (tidak ada perbedaan stok)`.
-  - Menambahkan :
+  - Menambahkan:
     - Nama** (mis. *Ukuran*),
     - Nilai** (contoh: S, M, L, XL),
     - Perbedaan harga** jika ada (contoh: `+2 USD` untuk XL).
@@ -803,7 +803,7 @@ Jika produk Anda tidak tersedia dalam jumlah yang tidak terbatas, centang `Produ
 
 
 
-Sistem mengelola :
+Sistem mengelola:
 
 
 
@@ -872,7 +872,7 @@ Buka `Admin > Merch > CMS`. Anda akan melihat daftar halaman yang sudah ada dan 
 
 
 
-Halaman CMS penting untuk :
+Halaman CMS penting untuk:
 
 
 
@@ -906,7 +906,7 @@ Anda dapat menambahkan halaman lain sesuai kebutuhan:
 
 
 
-Pergi ke : `Admin > Merch > Tata Letak`. Anda dapat menyesuaikan visual Elements situs Anda:
+Pergi ke: `Admin > Merch > Tata Letak`. Anda dapat menyesuaikan visual Elements situs Anda:
 
 
 
@@ -932,7 +932,7 @@ Pergi ke : `Admin > Merch > Tata Letak`. Anda dapat menyesuaikan visual Elements
 
 
 - Hadir di area abu-abu di bawah bilah atas
-- Berisi akses cepat ke : `Konfigurasi`, `Pengaturan Pembayaran`, `Transaksi`, `Manajemen Simpul`, `Widget`, dll.
+- Berisi akses cepat ke: `Konfigurasi`, `Pengaturan Pembayaran`, `Transaksi`, `Manajemen Simpul`, `Widget`, dll.
 - Hanya untuk direksi
 
 
@@ -956,7 +956,7 @@ Pergi ke: `Admin > Merch > Gambar`
 
 
 
-Anda bisa :
+Anda bisa:
 
 
 
@@ -1033,7 +1033,7 @@ Gunakan **kode pendek** dalam konten halaman CMS Anda:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Parameter saat ini** :
+**Parameter saat ini**:
 
 
 
@@ -1103,7 +1103,7 @@ Filter ini memfasilitasi pencarian cepat dan manajemen yang ditargetkan.
 
 
 
-Dengan mengklik pesanan, Anda dapat mengakses file lengkap yang berisi file :
+Dengan mengklik pesanan, Anda dapat mengakses file lengkap yang berisi file:
 
 
 
@@ -1120,7 +1120,7 @@ Dengan mengklik pesanan, Anda dapat mengakses file lengkap yang berisi file :
 
 
 
-Anda bisa :
+Anda bisa:
 
 
 
@@ -1141,7 +1141,7 @@ Anda bisa :
 
 
 
-Untuk mengakses statistik penjualan dan pembayaran :
+Untuk mengakses statistik penjualan dan pembayaran:
 
 
 administrator > Pengaturan > Pelaporan
@@ -1176,7 +1176,7 @@ Laporan-laporan tersebut dibagi menjadi beberapa bagian:
 
 
 
-Tiap bagian menyertakan tombol **Export CSV**, yang memungkinkan Anda untuk :
+Tiap bagian menyertakan tombol **Export CSV**, yang memungkinkan Anda untuk:
 
 
 
@@ -1217,7 +1217,7 @@ Platform ini mendukung protokol **Nostr** untuk fungsi-fungsi canggih tertentu:
 
 
 
-Pergi ke :
+Pergi ke:
 
 
 admin > Manajemen Simpul > Nostr
@@ -1304,7 +1304,7 @@ Di sini Anda akan menemukan semua opsi untuk **membuat** dan **mengkonfigurasi**
 
 
 
-Ketika membuat atau memodifikasi tema, Anda dapat menentukan file :
+Ketika membuat atau memodifikasi tema, Anda dapat menentukan file:
 
 
 
@@ -1340,7 +1340,7 @@ Setiap bagian dari situs ini dapat disesuaikan secara independen:
 
 
 
-Setelah tema dikonfigurasi :
+Setelah tema dikonfigurasi:
 
 
 
@@ -1371,7 +1371,7 @@ Platform ini memungkinkan Anda mempersonalisasi email yang dikirim secara otomat
 
 
 
-Setiap email (konfirmasi pesanan, kata sandi yang terlupa, dll.) memiliki :
+Setiap email (konfirmasi pesanan, kata sandi yang terlupa, dll.) memiliki:
 
 
 
@@ -1390,14 +1390,14 @@ Setiap email (konfirmasi pesanan, kata sandi yang terlupa, dll.) memiliki :
 
 
 
-Untuk membuat email dinamis, sisipkan variabel seperti :
+Untuk membuat email dinamis, sisipkan variabel seperti:
 
 
 
 
 
-- `{orderNumber}}` : diganti dengan nomor pesanan yang sebenarnya
-- `{invoiceLink}}` : tautan ke Invoice
+- `{orderNumber}}`: diganti dengan nomor pesanan yang sebenarnya
+- `{invoiceLink}}`: tautan ke Invoice
 - `{websiteLink}}`: URL situs web Anda
 
 
@@ -1454,7 +1454,7 @@ Lengkapi kolom-kolom berikut ini:
 
 
 
-#### Keluarga yang tersedia :
+#### Keluarga yang tersedia:
 
 
 
@@ -1489,7 +1489,7 @@ Bidang-bidang ini dapat digunakan untuk memperkaya tag seolah-olah itu adalah ha
 
 
 
-Tag dapat berupa :
+Tag dapat berupa:
 
 
 
@@ -1515,7 +1515,7 @@ Untuk menawarkan dokumen yang dapat diunduh kepada pelanggan Anda: `Admin > Merc
 1. Klik **File baru**
 
 
-2. Menginformasikan :
+2. Menginformasikan:
 
 
 
@@ -1533,7 +1533,7 @@ Untuk menawarkan dokumen yang dapat diunduh kepada pelanggan Anda: `Admin > Merc
 
 
 
-Tautan ini kemudian dapat disisipkan ke dalam file :
+Tautan ini kemudian dapat disisipkan ke dalam file:
 
 
 
@@ -1583,7 +1583,7 @@ Buka: Manajemen simpul > Nostr
 
 
 - Mengaktifkan pesan otomatis pada **interaksi pengguna pertama**
-- Ideal untuk :
+- Ideal untuk:
   - Mempresentasikan layanan Anda
   - Kirim tautan yang berguna (misalnya FAQ, kontak, pesanan)
 
@@ -1629,7 +1629,7 @@ Untuk melakukan ini, buka: `Pengaturan > Bahasa`
 
 
 
-File terjemahan dalam bentuk JSON. Anda dapat :
+File terjemahan dalam bentuk JSON. Anda dapat:
 
 
 
@@ -1641,7 +1641,7 @@ File terjemahan dalam bentuk JSON. Anda dapat :
 
 
 
-Tautan ke file asli :
+Tautan ke file asli:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klik **Buat peran** untuk membuat peran (misalnya `Super Admin`, `POS`, `Pemerik
 
 
 
-Setiap peran berisi :
+Setiap peran berisi:
 
 
 
@@ -1688,7 +1688,7 @@ Setiap peran berisi :
 
 
 
-Dalam menu yang sama `Admin > Settings > ARM`, tambahkan pengguna dengan nama :
+Dalam menu yang sama `Admin > Settings > ARM`, tambahkan pengguna dengan nama:
 
 
 

@@ -1,13 +1,11 @@
-question: Wat is de status van Bitcoin in El Salvador?
-answer: Wettig betaalmiddel.
+question: Wat is het Blockchain trilemma?
+answer: Een protocol gebaseerd op een Blockchain kan slechts aan twee van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
 wrong_answers:
-  - Gecriminaliseerd.
-  - Onbekend.
-  - Ongereguleerd.
+  - Een protocol gebaseerd op een Blockchain kan slechts aan één van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
+  - Een protocol gebaseerd op Blockchain kan voldoen aan alle criteria van decentralisatie, veiligheid en schaalbaarheid.
+  - Een protocol dat gebaseerd is op een Blockchain kan aan geen van de criteria van decentralisatie, veiligheid en schaalbaarheid voldoen.
 explanation: |
-  De cursustekst vermeldt dat sommige landen het gebruik van Bitcoin hebben verboden en strafbaar hebben gesteld
-  en het gebruik van Bitcoin hebben gecriminaliseerd, wat de adoptie van
-  complexiteit van de adoptie van Bitcoin, gebaseerd op culturen, tijdperken en
-  landen. El Salvador was echter moedig genoeg om het in te voeren
-  als wettig betaalmiddel.
+  Het Blockchain trilemma verwijst naar de uitdaging dat een
+  protocol gebaseerd op Blockchain slechts aan twee criteria kan voldoen van
+  decentralisatie, veiligheid en schaalbaarheid.
 reviewed: true

@@ -1,0 +1,14 @@
+question: Bitcoin ağındaki mevcut Mining ödülü nedir?
+answer: Yeni bitcoinlerin yaratılması ve işlem ücretleri
+wrong_answers:
+  - Yeni bitcoinlerin yaratılması sadece
+  - Yalnızca işlem ücretleri
+  - Yeni bitcoinlerin oluşturulması, işlem ücretleri ve en hızlı Miner için bir bonus
+explanation: |
+  Bitcoin ağındaki mevcut Mining ödülü şöyledir
+  iki yönlüdür. Yeni bitcoinlerin yaratılmasını içerir
+  başlangıçta her on dakikada bir 50 bitcoinden
+  bugün (2023) 6,25 bitcoin'e yükselmiştir. İşlemleri de içerir
+  ücretleri veya Mining ücretleri, Miner'in gerçekleştirdiği işlemlerden
+  bloklarına dahil etmeyi seçer.
+reviewed: true

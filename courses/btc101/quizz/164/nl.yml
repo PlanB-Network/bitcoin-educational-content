@@ -1,8 +1,13 @@
-question: Wat is het belangrijkste voordeel van Bitcoin voor mensen die leven onder financiële onderdrukking of dictatoriale regimes?
-answer: Een kans om te ontsnappen aan censuur en bankbeperkingen.
+question: Hoe zorgt het Bitcoin protocol ervoor dat het bestand is tegen censuur en veerkrachtig is?
+answer: Elke component van het protocol is geografisch verspreid over de hele wereld.
 wrong_answers:
-  - Een stabiele valuta gebruiken die een vaste waarde heeft.
-  - Anonieme transacties toestaan.
-  - Een hoog rendement op investeringen krijgen.
-explanation: >-
+  - Het maakt gebruik van een lokaal netwerk van nodes verspreid over Europa.
+  - Het gebruikt een complex algoritme om transacties te valideren.
+  - Het gebruikt een hoog niveau van versleuteling.
+explanation: |
+  Het Bitcoin protocol garandeert zijn censuurbestendigheid en
+  en veerkracht omdat elk onderdeel van het protocol
+  geografisch verdeeld is over de hele wereld. Bijvoorbeeld,
+  zijn er ongeveer 40.000 Bitcoin knooppunten verspreid over alle
+  continenten.
 reviewed: true

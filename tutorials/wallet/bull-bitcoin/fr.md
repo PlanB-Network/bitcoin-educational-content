@@ -463,7 +463,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 **Plus d'info :**
 - [Glossaire](https://planb.network/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions Payjoin](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-transactions-payjoin-c1e90b95-f709-4574-837b-2ec26b11286f)
+- Chapitre [Les transactions Payjoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 ### A2. Explication de Replace-by-Fee (RBF)
@@ -484,7 +484,7 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 
 * **Sécurisez votre phrase de récupération** :
 	* Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
-	* Cours [La phrase mnémonique](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
+	* Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
 
 * **Utilisez l’authentification sécurisée** : 
 	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.

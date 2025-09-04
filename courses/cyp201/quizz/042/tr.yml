@@ -1,0 +1,9 @@
+question: Bir PRNG ile bir TRNG arasındaki temel fark nedir?
+answer: PRNG deterministiktir, TRNG ise gerçek rastgele sayılar üretir.
+wrong_answers:
+  - PRNG, büyük sayılar için TRNG'den daha hızlıdır.
+  - PRNG yalnızca şifreleme için kullanılır, TRNG için kullanılmaz.
+  - PRNG özel anahtarları, TRNG ise açık anahtarları kullanır.
+explanation: |
+  PRNG'ler deterministiktir, yani TRNG'lerin aksine dizileri bir başlangıç durumundan itibaren yeniden üretebilirler.
+reviewed: false

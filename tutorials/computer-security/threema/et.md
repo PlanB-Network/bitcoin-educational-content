@@ -436,7 +436,7 @@ Palju õnne, sa oled nüüd kursis Threema sõnumite kasutamisega, mis on suurep
 
 
 
-Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile :
+Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile:
 
 
 

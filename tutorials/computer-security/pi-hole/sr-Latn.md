@@ -218,7 +218,7 @@ Jednom kada je ovo urađeno, ako su neki uređaji bili uključeni ranije, zadrž
 
 
 
-Na Windows radnim stanicama, sa komandnom linijom :
+Na Windows radnim stanicama, sa komandnom linijom:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Na Linux radnoj stanici :
+Na Linux radnoj stanici:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-U DNS polju, trebalo bi da imate Address vašeg Pi-Hole, u mom slučaju 192.168.1.42 :
+U DNS polju, trebalo bi da imate Address vašeg Pi-Hole, u mom slučaju 192.168.1.42:
 
 
 
@@ -286,7 +286,7 @@ Da biste ga dodali, prvo se povežite na Interface admin: **http://<ip_du_PiHole
 
 
 
-Lozinka administratora je već generisana (pogledajte snimak ekrana na kraju instalacije), tako da je sve što treba da uradite da je unesete kako biste pristupili Interface :
+Lozinka administratora je već generisana (pogledajte snimak ekrana na kraju instalacije), tako da je sve što treba da uradite da je unesete kako biste pristupili Interface:
 
 
 

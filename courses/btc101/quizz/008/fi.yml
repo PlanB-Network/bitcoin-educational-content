@@ -1,11 +1,11 @@
-question: Mitä tarkoittaa, että Bitcoin on neutraali valuutta?
-answer: Sitä ei kontrolloi mikään taho tai instituutio.
+question: Mikä on Kyberavaruuden itsenäisyysjulistus?
+answer: Teksti, joka väittää kyberavaruuden olevan erillinen alue fyysisestä maailmasta ja sen ei tulisi olla samojen lakien alainen.
 wrong_answers:
-  - Sitä kontrolloi yksittäinen taho tai instituutio.
-  - Sitä säätelee hallitus.
-  - Sitä käytetään vain suurissa transaktioissa.
+  - Julistus, joka toteaa Bitcoinin itsenäisyyden perinteisistä rahoitusjärjestelmistä.
+  - Teksti, joka väittää kyberavaruuden tulisi olla hallituksen sääntelyn alainen.
+  - Julistus, joka vakuuttaa merirosvoliikkeen itsenäisyyden mistä tahansa sääntelystä.
 explanation: |
-  Bitcoin on neutraali valuutta, mikä tarkoittaa, että sitä ei kontrolloi
-  mikään taho tai instituutio, joten jokaisella käyttäjällä on samat
-  oikeudet. Tämä on keskeinen osa sen hajauttamista.
+  Kyberavaruuden itsenäisyysjulistus kirjoitettiin John Perry Barlown toimesta vuonna 1996. Tämä asiakirja väittää,
+  että kyberavaruus on erillinen alue fyysisestä maailmasta, joten teollisuusvaltioiden hallitukset eivät voi
+  pakottaa valtaansa sinne.
 reviewed: true

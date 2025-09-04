@@ -1,9 +1,13 @@
-question: Vad är innebörden av fiat-pengar?
-answer: Fiatpengar är en valuta som har ett värde eftersom en regering upprätthåller den och människor tror på dess värde, snarare än att backas upp av en fysisk vara som guld.
+question: Vilka är de potentiella nackdelarna med digitala centralbanksvalutor (CBDC)?
+answer: De kan hindra individers ekonomiska frihet och underlätta auktoritära övergrepp.
 wrong_answers:
-  - Fiatpengar är valuta som backas upp av en fysisk vara, t.ex. guld eller silver, vilket innebär att dess värde är direkt knutet till värdet på den varan.
-  - Fiat-pengar är en typ av kryptovaluta som fungerar på ett decentraliserat nätverk, vilket möjliggör peer-to-peer-transaktioner utan behov av en central myndighet.
-  - Fiatpengar är valuta som inte har något egentligt värde och som inte kan användas för transaktioner, vilket gör den i princip värdelös i ekonomin.
+  - De kan leda till en minskning av pengarna Supply.
+  - De skulle kunna leda till en minskning av värdet på Bitcoin.
+  - De kan leda till att guldets värde sjunker.
 explanation: |
-  Fiatpengar fastställs som lagligt betalningsmedel genom ett regeringsdekret och dess värde härleds inte från någon fysisk vara.
+  Digitala centralbanksvalutor (CBDC) kan potentiellt
+  hindra individers ekonomiska frihet och underlätta
+  auktoritära övergrepp. Detta beror på att de skulle erbjuda en
+  mer centralt planerad ekonomi, med centralbanken som
+  har ännu mer kontroll över pengarna Supply.
 reviewed: true

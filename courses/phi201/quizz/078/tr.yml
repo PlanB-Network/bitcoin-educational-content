@@ -1,0 +1,9 @@
+question: Adam Smith'in ekonomi bilimine en bilinen katkısı nedir?
+answer: Görünmez el teorisini geliştirdi.
+wrong_answers:
+  - Görünür parmak teorisini geliştirdi.
+  - Görünmez parmak teorisini geliştirdi.
+  - Görünür el teorisini geliştirdi.
+explanation: |
+  Adam Smith, kendi çıkarları doğrultusunda hareket eden bireysel eylemlerin istemeden de olsa toplumun genel ekonomik refahına katkıda bulunduğunu öne süren görünmez el teorisiyle tanınır.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji algoritam ili dokument upravlja izborom između IPv4 i IPv6 kada ime ima obe vrste Address?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 definiše algoritam koji se koristi za odlučivanje da li koristiti IPv4 ili IPv6 Address kada su oba dostupna za isto ime hosta.
+reviewed: false

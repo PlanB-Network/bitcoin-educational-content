@@ -67,7 +67,7 @@ Hii ni fursa ya kuwakumbusha wale ambao wangependa kulipia kadi zao za zawadi ka
 
 
 
-Uteuzi wa mafunzo kwenye jalada kuu la Lightning (Phoenix, Breez, BitKit, Zeus...) unaweza kupatikana hapa: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Uteuzi wa mafunzo kwenye jalada kuu la Lightning (Phoenix, Breez, BitKit, Zeus...) unaweza kupatikana hapa: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

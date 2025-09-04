@@ -1,12 +1,9 @@
-question: Quel est le but des réglementations KYC ?
-answer: Combattre le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent.
+question: Quelle est l'une des conséquences potentielles de ne pas suivre les réglementations de votre pays lors de l'achat de Bitcoin ?
+answer: Vous pourriez vous mettre en danger.
 wrong_answers:
-  - Augmenter le prix du Bitcoin et faire payer plus d'impôts aux utilisateurs.
-  - Contrôler l'offre de Bitcoin.
-  - Empêcher les gens d'acheter du Bitcoin.
+  - Vous pourriez augmenter le prix du Bitcoin.
+  - Vous pourriez contrôler l'offre de Bitcoin.
+  - Vous pourriez empêcher les autres d'acheter du Bitcoin.
 explanation: |
-  Le texte du cours explique que les réglementations Connaître Votre Client (KYC)
-  exigent que les utilisateurs fournissent une identification pour
-  combattre le financement du terrorisme, l'évasion fiscale et le
-  blanchiment d'argent.
+  Ne pas suivre les réglementations de votre pays lors de l'achat de Bitcoin peut vous mettre en danger.
 reviewed: true

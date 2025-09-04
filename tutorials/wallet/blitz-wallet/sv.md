@@ -108,7 +108,7 @@ En av de speciella egenskaperna hos Blitz Wallet är att den stöder olika nätv
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Som standard kommer alla dina transaktioner att ske på Liquid Network, men med Blitz kan du definiera det nätverk som du vill ta emot satoshis på genom att klicka på knappen **Välj format**.
 

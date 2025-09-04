@@ -1,0 +1,9 @@
+question: Mesaj Kimlik Doğrulama Kodu (MAC) bir kriptografik şemada neyi garanti eder?
+answer: Mesajın bütünlüğü ve gerçekliği
+wrong_answers:
+  - Mesajın gizliliği
+  - Mesajın sıkıştırılması
+  - Mesajın ikiliye dönüştürülmesi
+explanation: |
+  Mesaj Kimlik Doğrulama Kodu (MAC), mesajın değiştirilmediğinden ve gerçekten gönderildiği varsayılan göndericiden geldiğinden emin olmak için kullanılır.
+reviewed: false

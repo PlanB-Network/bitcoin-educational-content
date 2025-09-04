@@ -11,12 +11,12 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 ### Hvorfor Ubuntu?
 
 
-- Forbedret sikkerhet** : Linux-distribusjoner er kjent for sin sikkerhet og robusthet
+- Forbedret sikkerhet**: Linux-distribusjoner er kjent for sin sikkerhet og robusthet
 - Ingen kostnader**: Ubuntu og de fleste Linux-distribusjoner er gratis
 - Stort fellesskap**: Et fellesskap av brukere som står klare til å hjelpe deg via forum og opplæringsprogrammer
 - Respekt for personvernet**: Åpen kildekode for større åpenhet
 - Enkelhet**: Brukervennlig grensesnitt og enkel bruk
-- Rikt økosystem** : Omfattende katalog med programvare med åpen kildekode
+- Rikt økosystem**: Omfattende katalog med programvare med åpen kildekode
 - Regelmessig støtte**: Sikre oppdateringer fra Canonical
 
 ## Installasjon og konfigurasjon
@@ -42,7 +42,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 
 ### 3. Opprett en oppstartbar USB-nøkkel
 
-Du kan bruke flere verktøy, for eksempel Balena Etcher :
+Du kan bruke flere verktøy, for eksempel Balena Etcher:
 
 
 - Last ned og installer [Balena Etcher] (https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Skriv inn passordet ditt når du blir bedt om det
-- For å installere oppdateringer, skriv inn :
+- For å installere oppdateringer, skriv inn:
 
 ```bash
 sudo apt upgrade
@@ -207,7 +207,7 @@ Du kan opprette, redigere og lagre dokumenter i en rekke ulike formater (inklude
 
 Programvarebehandling (kalt "Ubuntu Software"): grafisk grensesnitt for å søke etter og installere programmer.
 
-Fra Terminal bruker du kommandoen :
+Fra Terminal bruker du kommandoen:
 
 ```bash
 sudo apt install nom-du-paquet

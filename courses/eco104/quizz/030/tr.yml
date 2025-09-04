@@ -1,0 +1,11 @@
+question: Bir stablecoin'e güvenmeden önce kapsamlı bir araştırma yapmanın önemli olmasının bir nedeni nedir?
+answer: Bazı sabit coinlerde şeffaflık ve özen eksik
+wrong_answers:
+  - Stablecoin'lerin kendileriyle ilişkili hiçbir riski yoktur
+  - Stablecoin'ler her zaman tamamen rezervlerle desteklenir
+  - Bazı sabit coinler hükümet tarafından düzenlenir
+explanation: |
+  Tüm sabit coinler aynı düzeyde şeffaflık sunmaz.
+  Bu nedenle, kapsamlı bir araştırma yapmak önemlidir
+  önemli bir serveti herhangi bir sabit coine emanet etmeden önce.
+reviewed: true

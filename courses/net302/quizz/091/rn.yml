@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rikoreshwa mu gupima ivyuho vyuguruye vy’umushitsi no kumenya ibikorwa bishobora gushikwako?
+answer: ikarita
+wrong_answers:
+  - kwimba
+  - igikoresho
+  - ip umubanyi
+explanation: |
+  nmap imenya ivyuho vyuguruye, ibikorwa vyerekanwa rimwe na rimwe ubwoko bw'uburyo bwo gukoresha kure.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat için ekonomi politik nedir?
+answer: Exchange teorisi
+wrong_answers:
+  - Değer teorisi
+  - Zenginlik teorisi
+  - Satın alma gücü teorisi
+explanation: |
+  Bastiat politik ekonomiyi Exchange teorisi olarak tanımlar.
+reviewed: false

@@ -67,7 +67,7 @@ Esta é uma oportunidade para lembrar a todos aqueles que gostariam de pagar os 
 
 
 
-Uma seleção de tutoriais sobre as principais carteiras Lightning (Phoenix, Breez, BitKit, Zeus...) pode ser encontrada aqui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Uma seleção de tutoriais sobre as principais carteiras Lightning (Phoenix, Breez, BitKit, Zeus...) pode ser encontrada aqui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

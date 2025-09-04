@@ -1,0 +1,10 @@
+question: Ni akamaro akahe kanini ka Silent Payments ugereranyije na BIP47?
+answer: Ntibisaba ko umuntu atanga amakuru.
+wrong_answers:
+  - Batanga ubuzima bwite bwose bw’ugucuruza.
+  - Biremera ko uwuvyakiriye asubizwa amahera.
+  - Bituma bihuye n’amasakoshi yose.
+explanation: |
+  Ivyishyurwa bicereje bikora ata n’imenyekanisha ry’ugucuruza, ivyo bikaba bizigama amafaranga y’ugucuruza kandi bikarinda gukoresha cane Blockchain.
+  
+reviewed: false

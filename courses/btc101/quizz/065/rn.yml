@@ -1,0 +1,12 @@
+question: Ni ibihe bikorwa bitatu nyamukuru Bitcoin Wallet ikora?
+answer: Kwakira ama bitcoins, kohereza ama bitcoins, kuyakingira ubusuma n’ubusuma.
+wrong_answers:
+  - Bika ama bitcoins, wohereze ama bitcoins, uyakingire ku bijanye n’ugutera n’ugushaka kwiba.
+  - Kwemera kwakira ama bitcoins, kubika ama bitcoins, kuyakingira ubusuma n’ukugerageza kwiba.
+  - Kwemera kwakira ama bitcoins, kwemera kohereza ama bitcoins, kugurisha ama bitcoins.
+explanation: |
+  Igikoresho ca Bitcoin Wallet gikoreshwa mu gukorana n’igikoresho ca Bitcoin.
+  umuhora. Inshingano zayo zitatu nyamukuru ni ugutuma umuntu ashobora kwakira .
+  bitcoins, kwemera kohereza bitcoins, no kuzikingira
+  gutera ivyatsi n’ukugerageza kwiba.
+reviewed: true

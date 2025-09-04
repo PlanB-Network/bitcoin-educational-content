@@ -1,0 +1,13 @@
+question: Siber Uzayın Bağımsızlık Bildirgesi nedir?
+answer: Siber alanın fiziksel alandan farklı bir alan olduğunu ve aynı yasalara tabi olmaması gerektiğini savunan bir metin.
+wrong_answers:
+  - Bitcoin'ın geleneksel finansal sistemlerden bağımsızlığını belirten bir deklarasyon.
+  - Siber uzayın hükümet düzenlemeleri ile kontrol edilmesi gerektiğini savunan bir metin.
+  - Korsan hareketinin herhangi bir düzenlemeden bağımsızlığını garanti eden bir deklarasyon.
+explanation: |
+  Siber Uzayın Bağımsızlık Bildirgesi
+  john Perry Barlow tarafından 1996 yılında yazılmıştır. Bu belge şunları iddia etmektedir
+  siber uzayın fiziksel dünyadan farklı bir alan olduğu
+  bu yüzden endüstriyel hükümetler kendi
+  oradaki otorite.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Lợi ích chính của Bitcoin đối với những người sống dưới chế độ đàn áp tài chính hoặc chế độ độc tài là gì?
-answer: Có cơ hội thoát khỏi kiểm duyệt và các hạn chế ngân hàng.
+question: Làm thế nào mà giao thức Bitcoin đảm bảo khả năng chống kiểm duyệt và khả năng phục hồi của mình?
+answer: Mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới.
 wrong_answers:
-  - Sử dụng một đồng tiền ổn định có giá trị cố định.
-  - Cho phép giao dịch ẩn danh.
-  - Đạt được lợi nhuận cao từ việc đầu tư.
-explanation: >-
-  Bitcoin cung cấp một hình thức tự do tài chính bằng cách thoát khỏi kiểm duyệt và các hạn chế ngân hàng. Điều này đặc biệt có lợi cho những người sống dưới chế độ đàn áp tài chính hoặc chế độ độc tài.
+  - Nó sử dụng một mạng lưới nút địa phương phân bố ở Châu Âu.
+  - Nó sử dụng một thuật toán phức tạp để xác thực các giao dịch.
+  - Nó sử dụng một mức độ mã hóa cao.
+explanation: |
+  Giao thức Bitcoin đảm bảo khả năng chống kiểm duyệt và khả năng phục hồi của mình bởi vì mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới. Ví dụ, có khoảng 40,000 nút Bitcoin trên tất cả các lục địa.
 reviewed: true

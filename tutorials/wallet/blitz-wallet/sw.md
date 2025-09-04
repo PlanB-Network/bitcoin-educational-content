@@ -109,7 +109,7 @@ Mojawapo ya sifa maalum za Blitz Wallet ni kwamba inasaidia mitandao na chaneli 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Kwa chaguo-msingi, miamala yako yote itakuwa kwenye Liquid Network, lakini Blitz hukuruhusu kufafanua mtandao ambao ungependa kupokea satoshi kwa kubofya kitufe cha **Chagua umbizo**.
 
@@ -270,3 +270,4 @@ Ikiwa somo hili lilikusaidia kuelewa Blitz, tuna uhakika kwamba utafurahia mafun
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

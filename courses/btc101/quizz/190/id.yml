@@ -1,10 +1,10 @@
-question: Apa itu AMF?
-answer: Autorité des Marchés Financiers
+question: Apa salah satu risiko yang terkait dengan pembelian Bitcoin?
+answer: Harganya bisa turun menjadi 0.
 wrong_answers:
-  - Dana Moneter Amerika
-  - Asosiasi Fasilitas Pertambangan
-  - Aliran Uang Otomatis
+  - Dapat dengan mudah dicuri.
+  - Dapat diduplikasi.
+  - Dapat hilang secara fisik.
 explanation: >-
-  AMF, atau Autorité des Marchés Financiers, adalah sebuah organisasi Prancis
-  yang mengatur platform tempat bitcoin dapat dibeli.
+  Teks tersebut menyebutkan bahwa Bitcoin adalah aset keuangan yang sangat fluktuatif dan
+  harganya bisa turun menjadi 0. Ini adalah salah satu risiko yang terkait dengan pembelian Bitcoin.
 reviewed: false

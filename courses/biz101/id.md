@@ -568,6 +568,7 @@ Saat ini, skenario pemilik mayoritas yang mengambil keputusan adalah yang paling
 - Pemilik bisnis yang sangat kecil**: Pengusaha di bidang jasa, pertanian, atau industri kerajinan yang telah memahami potensi Bitcoin dan mengalokasikan sebagian harta mereka untuk Bitcoin. Motivasi utama mereka terletak pada diversifikasi dan kebebasan yang diberikannya
 - Perusahaan publik** seperti MicroStrategy telah menjadi preseden dengan mengubah sebagian besar harta perusahaan mereka menjadi Bitcoin, menunjukkan pergeseran global dalam strategi alokasi modal perusahaan. Pada musim gugur tahun 2024, banyak perusahaan lain yang mengikutinya, yang semakin melegitimasi tren ini.
 
+Temukan daftar terbaru perusahaan yang memegang bitcoin terbanyak dalam kas, serta jumlah yang dimiliki, di situs: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Perpajakan bitcoin yang dimiliki oleh bisnis
 
 Untuk bisnis yang tidak terstruktur sebagai badan hukum yang terpisah - seperti kepemilikan perseorangan atau entitas tidak berbadan hukum lainnya - perpajakan transaksi Bitcoin sering kali mencerminkan perlakuan yang diterapkan pada individu. Dalam banyak kasus, aturan yang sama yang mengatur keuntungan modal atau pendapatan berlaku, seperti halnya jika seseorang menjual Bitcoin. Misalnya, di beberapa negara, keuntungan dapat dianggap sebagai bagian dari penghasilan pribadi pengusaha, yang dikenakan **pajak penghasilan pribadi**.
@@ -873,7 +874,7 @@ Untuk tutorial terperinci mengenai wallet yang direkomendasikan dan pengaturan d
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1374,6 +1375,7 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

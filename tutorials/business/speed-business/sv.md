@@ -22,7 +22,7 @@ Den världsomspännande användningen av Bitcoin baseras på konkreta användnin
 
 
 
-Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta :
+Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta:
 
 
 
@@ -94,7 +94,7 @@ När du avaktiverar testläget måste du konfigurera din Wallet i uttaget.
 
 
 
-Om du ännu inte äger en Bitcoin och/eller Lightning Wallet rekommenderar vi att du tar en titt på våra [mobila plånböcker] tutorials(https://planb.network/tutorials/Wallet).
+Om du ännu inte äger en Bitcoin och/eller Lightning Wallet rekommenderar vi att du tar en titt på våra [mobila plånböcker] tutorials(https://planb.network/tutorials/wallet).
 
 
 

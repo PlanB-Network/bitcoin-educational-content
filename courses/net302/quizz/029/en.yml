@@ -1,0 +1,9 @@
+question: What is the purpose of service primitives in the TCP/IP model?
+answer: Manage exchanges between layers
+wrong_answers:
+  - Automatically encrypt network messages
+  - Distribute IP addresses to remote hosts
+  - Check the total length of IP packets
+explanation: |
+  Service primitives define the communication interface between the different layers, enabling network exchanges to be established, maintained, or terminated.
+reviewed: false

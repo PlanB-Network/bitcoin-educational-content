@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun Aralık 2010'da aniden ayrılmasına ne sebep oldu?
+answer: Bitcoin ve WikiLeaks arasında bağlantı kuran bir makalenin yayınlanması
+wrong_answers:
+  - Bitcoin'nin WikiLeaks tarafından kabul edilmesi
+  - Gavin Andresen kodun kontrolünü ele alıyor
+  - Bitcoin'ün birim fiyatındaki artış
+explanation: |
+  "Wikileaks Skandalı Yeni Sanal Para Birimine Yol Açabilir mi?" başlıklı bu [makale] (https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html), Amerika'nın en büyük bilgisayar web sitelerinden biri olan PC World'de yayınlanmıştır.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Mis on fiat-valuutade peamine puudus?
-answer: Nende väärtust kahandab pidevalt rahapoliitiline inflatsioon
+question: Millised neist ei ole Bitcoini eelis valuutana?
+answer: Seda kasutatakse maksude tasumiseks
 wrong_answers:
-  - Neid ei ole kerge transportida
-  - Nende väärtus kasvab pidevalt rahapoliitilise inflatsiooni tõttu
-  - Neid ei saa jagada
-explanation: |
-  Fiat-valuutade, nagu dollar ja euro, peamine puudus on see, et nende väärtust kahandab pidevalt rahapoliitiline inflatsioon. See on tingitud nende kontrollivatest üksustest (kuningas, keskpank, keiser, diktaator), kes neid pidevalt devalveerivad.
+  - See on jagatav
+  - See on transporditav
+  - See on loata raha
+explanation: >
+  Bitcoin, tänu oma omadustele nagu jagatavus, kontrollitavus, loata olemus ja transporditavus, pakub
+  suurepärast väärtuse säilitamise vahendit. Lisaks, kui neutraalne interneti valuuta, esindab see
+  head vahetusvahendit, mis ei tunne piire.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Ni igiki gishasha nyamukuru mu nyandiko za P2WPKH ugereranyije na P2PKH?
+answer: Imikono irajanwa mu kibanza c’Ivyabona.
+wrong_answers:
+  - Amaderesi akoreshwa muri base58check.
+  - scriptPubKey irimwo Hash y'urufunguzo rw'ibanga.
+  - P2WPKH ntihuye na SegWit.
+explanation: |
+  P2WPKH, yashizweho na SegWit, yimurira imikono mu gice gitandukanye citwa Icabona kugira ngo ntihagire ubucuruzi bushobora guhinduka.

@@ -1,0 +1,9 @@
+question: Çoğu sistemde ARP önbelleğine başvurmak için hangi tarihsel komut kullanılabilir?
+answer: arp
+wrong_answers:
+  - kazmak
+  - nslookup
+  - ping
+explanation: |
+  Arp komutu, IP/MAC eşlemelerini yerel olarak depolayan ARP önbelleğini görüntülemenizi veya değiştirmenizi sağlar.
+reviewed: false

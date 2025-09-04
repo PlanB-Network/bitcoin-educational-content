@@ -58,7 +58,7 @@ Anda dapat menggunakan protokol Tox melalui klien pesan instan yang dapat Anda u
 
 
 
-Tergantung pada sistem operasi Anda, Anda dapat mengunduh dan menginstal klien Tox yang cocok dengan :
+Tergantung pada sistem operasi Anda, Anda dapat mengunduh dan menginstal klien Tox yang cocok dengan:
 
 
 
@@ -224,7 +224,7 @@ Anda juga dapat menyesuaikan konfigurasi berbagi file untuk setiap diskusi yang 
 
 
 
-Dari detail Interface, Anda dapat mengelola otorisasi yang Anda berikan kepada penerima untuk file :
+Dari detail Interface, Anda dapat mengelola otorisasi yang Anda berikan kepada penerima untuk file:
 
 
 

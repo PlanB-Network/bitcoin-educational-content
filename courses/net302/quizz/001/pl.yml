@@ -1,0 +1,9 @@
+question: Jaka topologia łączy wszystkie urządzenia z jednym centralnym punktem?
+answer: Gwiazda
+wrong_answers:
+  - Pierścień
+  - Autobus
+  - Siatka
+explanation: |
+  W topologii gwiazdy każde urządzenie jest połączone z urządzeniem centralnym, co ułatwia zarządzanie i konserwację.
+reviewed: false

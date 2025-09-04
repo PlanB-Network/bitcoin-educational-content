@@ -1062,7 +1062,7 @@ Canonicalによって開発され、2004年に発売されたUbuntuは、世界�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint はそのシンプルさ、デフォルトのマルチメディアコーデックの存在、よく設計され たアップデートツールで際立っています。一方で、Ubuntu のインフラに大きく依存しているため、Ubuntu の技術的な選択(特にカーネルとリポジトリレベル)に依存しています。Mint は技術的なバックグラウンドを持たないユーザや、すぐに使えるシス テムを求めているユーザに特に適しています。
 
@@ -1246,7 +1246,7 @@ TailsはDebianベースのプライバシー重視のライブディストリビ
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **注意:** ライブディストリビューションとは、Hardディスクにインストールすることなく、USBメモリやCDから直接使用できるLinuxオペレーティングシステムのことです。
 
@@ -1300,9 +1300,9 @@ PureOS は Purism によって開発された Debian 由来のディストリビ
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**：
-
-
 
 Raspberry Pi OS（旧Raspbian）は、Raspberry Piマイクロコンピュータ用に最適化されたディストリビューションです。Debianをベースに、ARMアーキテクチャ向けに再コンパイルされたパッケージが含まれています。教育プロジェクトや電子テスト、小規模な個人サーバーなどに利用できます。
 
@@ -1326,36 +1326,23 @@ Whonix は、Debian と Tor ネットワークを 2VM アーキテクチャ (ゲ
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 このパノラマは、現在のLinuxディストリビューションのエコシステムの概要を提供し、あなたの技術的プロファイルと目的に最も適したディストリビューションを選択できるようにします。
-
-
 
 SCU202 の次の章では、実用的な Linux 環境について、システムとの日常的なインタラクションの基礎となるグラフィカル環境から詳しく見ていきます。
 
-
-
 ## Linuxデスクトップ環境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linuxシステムでは、デスクトップ環境がユーザーエクスペリエンスにおいて最も重要な役割を果たします。ウィンドウ、メニュー、アイコン、パネル、プレインストールされたアプリケーショ ンなど、使い慣れた視覚的表現に基づいて、システムとのインタラクションを可能にす るグラフィカルなLayerです。
-
-
 
 この章では、デスクトップ環境の構造と役割、その典型的なコンポーネント、利用可能な主なファミリー、選択基準、そして最も人気のあるLinuxディストリビューションへの統合について説明する。
 
-
-
 ### オフィス環境とは？
 
-
-
 デスクトップ環境（または "*DE*"は*Desktop Environment*の略）とは、オペレーティングシステムの完全なグラフィカルInterfaceを構成するプログラムの集合を指す。WindowsとmacOSでは、デフォルトで単一のデスクトップ環境が提供され、システムに統合されており、それを完全に変更することはできない（Interfaceを部分的に変更する特定のシェルだけが存在する）。一方、Linuxシステムははるかにモジュール化されており、デスクトップ環境を自由に交換できる独立したコンポーネントとして扱っている。
-
-
 
 Linuxでは、すべてのレイヤーを明確に区別することが重要です：カーネル（ハードウェアとのインタラクションを管理する）、ディスプレイ・サーバー（アプリケーション、グラフィックス・ドライバ、およびカーネルを介したハードウェア間の仲介役として機能する）、そして最後にデスクトップ環境そのものであり、ユーザーに首尾一貫したグラフィカルInterfaceを提供するためにこのインフラに依存しています。多くのLinuxディストリビューションには、独自のWaylandコンポジターを含むデスクトップ環境がプリインストールされており、それがディスプレイ・サーバーとして機能することもあるため、この区別はあまり明確でないことがある。
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### オフィススイート
 
 
@@ -5754,6 +5742,7 @@ Firefoxは、Blinkベースのブラウザにパフォーマンス面で若干�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Torブラウザ
 
 
@@ -5774,15 +5763,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvadブラウザ
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser)はTor FoundationとMullvad VPNのコラボレーションの成果です。Firefox ESRから派生したTorブラウザをベースにしています。Mullvad Browserはユーザーのプライバシーを最大化するように設計されています。デフォルトでは、フィンガープリンティング、トラッカー、サードパーティスクリプトに対する高度な保護が含まれています。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tor Browserが提供するセキュリティとプライバシー機能のほとんどを備えていますが、1つ違う点があります: Torネットワーク経由でトラフィックをリダイレクトしないことです。IP Addressのリークを避けるには、VPN（理想的にはMullvad VPN）と組み合わせて使用することができます。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Mullvad Browserは、あなたが初心者であろうと上級者であろう�
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### 禅ブラウザ
-
-
 
 [Zen Browser](https://zen-browser.app/)は、Firefox（Geckoエンジン）をベースに2024年に発表されたフリーでオープンソースのブラウザです。Chromiumに依存することなく、モダンでエレガント、高度にカスタマイズ可能で、何よりもプライバシーを重視したブラウジング体験を提供することを目的としています。
 
-
-
 Zenは、Interfaceとユーザビリティに対する先鋭的なアプローチで際立っており、その大部分はArcブラウザにインスパイアされているが、オープンソースの性質とGeckoエンジンによってInterfaceから解放されている。これには以下が含まれる：
-
-
-
 
 - タブ用の垂直サイドバー、スプリットビュー、プロジェクトごとにタブのセットをグループ化するための*ワークスペース*システムを備えた、ミニマリストでモジュール式のInterface；
 - カスタマイズ可能なInterfaceテンプレート（*Zen Mods*）のシステムで、ブラウザの外観を深く変更することができます；
 - タブの乱雑さを避け、リンク先を軽量の一時ウィンドウで開く*Glance*と呼ばれるオリジナル機能...
 
-
-
 ZenはFirefoxの拡張機能もサポートしており、Mozillaアカウントによる同期も可能だ。
-
-
 
 セキュリティとプライバシーの観点から、Zenはサードパーティのトラッカーをネイティブでブロックします。また、Mozillaテレメトリーを無効にすることもできます。また、旧式のSSL証明書や非準拠のSSL証明書は自動的に拒否されます。
 
-
-
 Zen Browserは、自由で、革新的で、すっきりしていて、プライバシーを尊重するGeckoブラウジング環境を探しているなら、興味深い選択肢です。
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKitベースのブラウザ
 
-
-
 #### サファリ
-
-
 
 現在もWebKitレンダリングエンジン（BlinkのようなForkではない）を使用している主なブラウザはSafariだ。[Safari](https://www.apple.com/safari/)はアップルのmacOS専用ブラウザだ。アップルのエコシステムとの優れた統合、高いパフォーマンス、そしてトラッキングやフィンガープリンティングに対するより強力な保護機能を備えている。
 
-
-
 しかし、サファリは依然として閉鎖的で、デスクトップ版はmacOSに限られ、アップルのエコシステムに依存している。アップルは広告よりもハードウェアの販売を主なビジネスモデルとしており、強力なプライバシーポリシーを掲げているが、特定の内部慣行については不明確なままだ。
-
-
 
 ここではデスクトップブラウザに焦点を当てているが、iOSではアップルがすべてのブラウザにWebKitレンダリングエンジンの使用を義務付けていることに注意する必要がある（ただし、欧州のある規制の結果、この制約はすぐに変更される可能性がある）。つまり、Chrome、Firefox、Braveなどのブラウザは、iOS上で、通常のレンダリングエンジンではなく、WebKitベースのアプリケーションを提供しなければならない。
 
@@ -5889,6 +5855,7 @@ Orionは、広告のない検索エンジンで知られるKagiチームによ�
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### レンダリングエンジンを持たないブラウザ
 
 
@@ -6659,7 +6626,7 @@ GrapheneOSはプロプライエタリなコンポーネントを一切統合し�
 Grapheneは最近のGoogle Pixel（Pixel 6、7、8、9）のみに対応している。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### カリュコス
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobileは、Mozilla Foundationによって開発された人気の�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [ツタ](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegisは包括的なオープンソースのアプリケーションです。パ
 Ente Authは、エンドツーエンドで暗号化されたバックアップを持つ、最新のオープンソース、マルチプラットフォームソリューションです。モバイル、デスクトップ、ウェブ上で安全に2FAコードを同期することができます。また、クラウドバックアップやアカウント作成なしでオフラインで使用することもできます。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Authは多くの追加機能を提供します：タグによる整理、各サービスのカスタマイズアイコン、メモ、お気に入り、統合検索、安全なチームコード共有。
 
 
@@ -7642,6 +7611,7 @@ Authyは複数のデバイス間で2FAの同期が可能で便利だが、アプ
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 パスワードマネージャー、2FA認証、VPNについてもっと知りたい方は、SCU-101コースの専用章を読むことをお勧めします：
 
 
@@ -8035,6 +8005,7 @@ F-Droidで利用可能で、完全にオープンソースであるChronoは、�
 このアプリケーションはタイマーとストップウォッチも統合しており、ラップ記録、統計、時間比較、マルチタイマー管理も可能です。複数のタイムゾーンを設定したり、テーマ（色、スタイル、アニメーション）をカスタマイズしたり、ラベルを使ってアラームやタイマーを整理することもできます。
 
 
+このテーマをさらに深く理解するために、[*Awesome Privacy*](https://awesome-privacy.xyz/) のサイトを訪れることをお勧めします。そこでは、日常的に使用しているソフトウェアに対するプライバシーに配慮した最良の代替案が紹介されています。
 ___
 
 
@@ -8526,6 +8497,7 @@ DNS (*Domain Name System*) は、人間が理解できるウェブアドレス (
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - オペレーティングシステムレベル：一部のOSは、暗号化DNSサポート（DoTまたはDoH）をネイティブに統合しており、システムのネットワークスタックを通過するすべてのDNSリクエストを保護します。しかし、これはコンピュータや電話全体を保護するものではありません：アプリケーションは、別のDNSリゾルバやプロトコルを使うように設定されていれば、この設定をバイパスすることができる。
 
 
@@ -8626,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

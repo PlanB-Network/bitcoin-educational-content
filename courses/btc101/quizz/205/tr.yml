@@ -1,0 +1,12 @@
+question: Bu kurs Bitcoin'ı nasıl tanımlıyor?
+answer: Multidisipliner bir konu.
+wrong_answers:
+  - Basit bir konu.
+  - Fiziksel bir konu.
+  - Tek disiplinli bir konu.
+explanation: |
+  Bitcoin multidisipliner bir konu olarak tanımlanmaktadır çünkü
+  aşağıdakiler de dahil olmak üzere çeşitli alanlarla ilgili soruları gündeme getirmektedir
+  kriptografi, oyun teorisi, ekonomi ve para politikası,
+  bilgisayar bilimi, felsefe, enerji, kanunlar ve yönetmelikler.
+reviewed: true

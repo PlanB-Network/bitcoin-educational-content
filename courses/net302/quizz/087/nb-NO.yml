@@ -1,0 +1,9 @@
+question: Hvilken kommando viser hvilken vei pakkene tar for å nå en IP-destinasjon?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute viser hver mellomliggende ruter mellom avsender og mål, ved hjelp av TTL.
+reviewed: false

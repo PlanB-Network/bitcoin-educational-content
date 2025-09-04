@@ -67,7 +67,7 @@ Questa è l'occasione per ricordare a coloro che desiderano pagare le carte rega
 
 
 
-Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

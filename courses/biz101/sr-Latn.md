@@ -562,6 +562,7 @@ Trenutno, scenario u kojem većinski vlasnik donosi odluku je najreprezentativni
 - **Vlasnici veoma malih preduzeća** : Preduzetnici u uslužnim delatnostima, poljoprivredi ili zanatskim industrijama koji su razumeli potencijal Bitkoina i izdvajaju deo svojih sredstava za to. Njihova primarna motivacija leži u diverzifikaciji i slobodi koju pruža.
 - **Kompanije čijim se akcijama trguje na berzi** poput MicroStrategy postavile su presedan konvertovanjem značajnog dela svoje korporativne imovine u bitkoin, pokazujući globalnu promenu u strategijama alokacije korporativnog kapitala. Do jeseni 2024. godine, brojne druge kompanije su sledile njihov primer, dodatno legitimizujući ovaj trend.
 
+Pogledajte ažuriranu listu kompanija koje drže najviše bitkoina u trezoru, kao i iznose, na sajtu: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Oporezivanje bitkoina koji drže preduzeća
 
 Za preduzeća koja nisu strukturirana kao zasebni pravni subjekti—kao što su samostalne delatnosti ili drugi neinkorporirani subjekti—oporezivanje bitkoin transakcija često odražava tretman koji se primenjuje na pojedince. U mnogim slučajevima, ista pravila koja regulišu kapitalne dobitke ili prihod se primenjuju, baš kao što bi se primenila da pojedinac prodaje bitkoin. Na primer, u nekim zemljama, profiti bi mogli biti smatrani delom ličnog prihoda preduzetnika, podložnog **ličnim poreskim razredima**.
@@ -859,7 +860,7 @@ Za detaljne tutorijale o preporučenim novčanicima i osnovnom podešavanju, mol
 **Samostalni LN novčanici/čvorovi:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
@@ -1347,6 +1348,7 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

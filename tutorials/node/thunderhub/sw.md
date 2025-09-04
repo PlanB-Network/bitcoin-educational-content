@@ -19,10 +19,10 @@ ThunderHub ni **kidhibiti chanzo huria cha nodi za Radi (LND)**, inayotoa Interf
 
 
 
-- Ufuatiliaji**: Mtazamo wa kimataifa wa salio, chaneli, miamala, takwimu za uelekezaji
-- Usimamizi**: Fungua/funga chaneli, malipo yanayoingia/yanayotoka, kusawazisha chaneli
-- Miunganisho**: Usaidizi wa LNURL, hubadilishana kupitia Boltz, chelezo ya Amboss
-- Interface inayoitikia**: Inaoana na vifaa vya mkononi, kompyuta ya mkononi na kompyuta ya mezani vilivyo na mandhari meusi/nyepesi
+- **Ufuatiliaji**: Mtazamo wa kimataifa wa salio, chaneli, miamala, takwimu za uelekezaji
+- **Usimamizi**: Fungua/funga chaneli, malipo yanayoingia/yanayotoka, kusawazisha chaneli
+- **Miunganisho**: Usaidizi wa LNURL, hubadilishana kupitia Boltz, chelezo ya Amboss
+- **Interface inayoitikia**: Inaoana na vifaa vya mkononi, kompyuta ya mkononi na kompyuta ya mezani vilivyo na mandhari meusi/nyepesi
 
 
 
@@ -30,7 +30,7 @@ ThunderHub inaunganishwa kwa urahisi na **Mwavuli**, **Voltage**, **RaspiBlitz**
 
 
 
-**ThunderHub inafaa hasa kwa waendeshaji wanaotafuta Interface ergonomic ili kudhibiti chaneli zao, kudhibiti ukwasi (kusawazisha upya), kufuatilia miamala na kuunganisha huduma za watu wengine kama vile Amboss. Usalama umehakikishwa kupitia muunganisho wa ndani au Tor.
+**ThunderHub inafaa hasa kwa waendeshaji wanaotafuta Interface ergonomic ili kudhibiti chaneli zao, kudhibiti ukwasi (kusawazisha upya)**, kufuatilia miamala na kuunganisha huduma za watu wengine kama vile Amboss. Usalama umehakikishwa kupitia muunganisho wa ndani au Tor.
 
 
 
@@ -58,8 +58,8 @@ Mwavuli huunganisha ThunderHub kwenye **Duka la Programu**, na kufanya usakinish
 
 
 
-- Fungua dashibodi ya Umbrel**: Unganisha kwenye wavuti ya Interface ya nodi yako ya Umbrel (k.m. `http://umbrel.local` kwenye mtandao wako wa karibu, au kupitia `.onion` yake Address ikiwa unatumia Tor).
-- Fikia Duka la Programu**: Katika menyu kuu ya Umbrel, bofya "Duka la Programu" (au "Programu"). Tafuta **ThunderHub** katika orodha ya programu zinazopatikana.
+- **Fungua dashibodi ya Umbrel**: Unganisha kwenye wavuti ya Interface ya nodi yako ya Umbrel (k.m. `http://umbrel.local` kwenye mtandao wako wa karibu, au kupitia `.onion` yake Address ikiwa unatumia Tor).
+- **Fikia Duka la Programu**: Katika menyu kuu ya Umbrel, bofya "Duka la Programu" (au "Programu"). Tafuta **ThunderHub** katika orodha ya programu zinazopatikana.
 
 
 
@@ -69,13 +69,13 @@ Mwavuli huunganisha ThunderHub kwenye **Duka la Programu**, na kufanya usakinish
 
 
 
-- Sakinisha ThunderHub**: Bofya kwenye programu ya ThunderHub, kisha kwenye kitufe cha kusakinisha. Thibitisha ikiwa ni lazima. Umbrel itapakua kiotomatiki na kupeleka ThunderHub kwenye nodi yako.
+- **Sakinisha ThunderHub**: Bofya kwenye programu ya ThunderHub, kisha kwenye kitufe cha kusakinisha. Thibitisha ikiwa ni lazima. Umbrel itapakua kiotomatiki na kupeleka ThunderHub kwenye nodi yako.
 
 
 
 
 
-- Fungua programu**: Mara usakinishaji utakapokamilika (makumi kadhaa ya sekunde), ThunderHub inaonekana kwenye ukurasa wako wa nyumbani. Bofya kwenye ikoni ili kuifungua. ThunderHub inazinduliwa kwenye kivinjari chako.
+- **Fungua programu**: Mara usakinishaji utakapokamilika (makumi kadhaa ya sekunde), ThunderHub inaonekana kwenye ukurasa wako wa nyumbani. Bofya kwenye ikoni ili kuifungua. ThunderHub inazinduliwa kwenye kivinjari chako.
 
 
 
@@ -88,9 +88,9 @@ Mwavuli huunganisha ThunderHub kwenye **Duka la Programu**, na kufanya usakinish
 
 
 
-- Hifadhi nenosiri hili mara moja** katika kidhibiti chako cha nenosiri
-- Nakili** kwa matumizi katika hatua inayofuata
-- Angalia "Usionyeshe hii tena" mara tu nenosiri limehifadhiwa
+- **Hifadhi nenosiri hili mara moja** katika kidhibiti chako cha nenosiri
+- **Nakili** kwa matumizi katika hatua inayofuata
+- **Angalia** "Usionyeshe hii tena" mara tu nenosiri limehifadhiwa
 
 
 
@@ -127,7 +127,7 @@ Kwa watumiaji walio nje ya Umbrel (k.m. kwenye seva ya kibinafsi, Raspberry Pi i
 
 
 
-- Node.js** toleo la 18 au la juu zaidi
+- **Node.js** toleo la 18 au la juu zaidi
 - npm** imewekwa
 - Ufikiaji wa faili za uthibitishaji za LND :
   - Cheti cha LND TLS (`tls.cert`)
@@ -327,18 +327,18 @@ Interface ThunderHub imeundwa kuzunguka menyu kuu (kawaida huonyeshwa kwenye saf
 
 
 
-- Nyumbani** - Kichupo cha Nyumbani chenye dashibodi ya jumla (muhtasari wa nodi yako na vitendo vya haraka).
-- Dashibodi** - Dashibodi inayoweza kubinafsishwa yenye wijeti na vipimo vya hali ya juu.
-- Wenzake** - Udhibiti wa rika wa umeme (viunganisho kwa nodi zingine).
-- Vituo** - Udhibiti wa kina wa chaneli za Umeme.
-- Usawazishaji** - Chombo cha kusawazisha chaneli (malipo ya mduara).
-- Shughuli ** - Historia ya malipo ya umeme (shughuli za LN).
-- Wasambazaji** - Takwimu za uelekezaji (malipo yanayotumwa na nodi yako).
-- Mlolongo** - kwingineko ya On-Chain ya Node (On-Chain BTC: UTXOs, shughuli).
-- Amboss** - Ushirikiano na Amboss (ufuatiliaji wa nodi, chelezo, nk).
-- Zana** - Zana Nyingine (chelezo, ujumbe uliotiwa sahihi, macaroons, ripoti, n.k.).
-- Badili** - On-Chain/vitendaji vya kubadilisha umeme kupitia Boltz.
-- Takwimu** - Takwimu za kina na vipimo vya utendaji wa nodi.
+- **Nyumbani** - Kichupo cha Nyumbani chenye dashibodi ya jumla (muhtasari wa nodi yako na vitendo vya haraka).
+- **Dashibodi** - Dashibodi inayoweza kubinafsishwa yenye wijeti na vipimo vya hali ya juu.
+- **Wenzake** - Udhibiti wa rika wa umeme (viunganisho kwa nodi zingine).
+- **Vituo** - Udhibiti wa kina wa chaneli za Umeme.
+- **Usawazishaji** - Chombo cha kusawazisha chaneli (malipo ya mduara).
+- **Shughuli** - Historia ya malipo ya umeme (shughuli za LN).
+- **Wasambazaji** - Takwimu za uelekezaji (malipo yanayotumwa na nodi yako).
+- **Mlolongo** - kwingineko ya On-Chain ya Node (On-Chain BTC: UTXOs, shughuli).
+- **Amboss** - Ushirikiano na Amboss (ufuatiliaji wa nodi, chelezo, nk).
+- **Zana** - Zana Nyingine (chelezo, ujumbe uliotiwa sahihi, macaroons, ripoti, n.k.).
+- **Badili** - On-Chain/vitendaji vya kubadilisha umeme kupitia Boltz.
+- **Takwimu** - Takwimu za kina na vipimo vya utendaji wa nodi.
 
 
 
@@ -360,32 +360,32 @@ Kichupo cha **Nyumbani** cha ThunderHub ni ukurasa wa nyumbani unaoonekana baada
 
 
 
-- Salio na uwezo:** Katika sehemu ya juu ya ukurasa, ThunderHub huonyesha salio lako linalopatikana. Hapa kwa kawaida utaona salio la On-Chain (Bitcoin On-Chain katika nodi ya Wallet, inayoashiriwa na Anchor ⚓) na salio la Radi (uwezo wa mikondo yako, inayoashiriwa na Bolt ⚡). Hii inakupa wazo la haraka la pesa ulizo nazo katika On-Chain na Umeme. Iwapo una akaunti au vituo kadhaa, hakikisha kuwa uko kwenye njia sahihi (k.m. Mainnet vs Testnet).
+- **Salio na uwezo:** Katika sehemu ya juu ya ukurasa, ThunderHub huonyesha salio lako linalopatikana. Hapa kwa kawaida utaona salio la On-Chain (Bitcoin On-Chain katika nodi ya Wallet, inayoashiriwa na Anchor ⚓) na salio la Radi (uwezo wa mikondo yako, inayoashiriwa na Bolt ⚡). Hii inakupa wazo la haraka la pesa ulizo nazo katika On-Chain na Umeme. Iwapo una akaunti au vituo kadhaa, hakikisha kuwa uko kwenye njia sahihi (k.m. Mainnet vs Testnet).
 
 
 
 
 
-- Takwimu muhimu:** Dashibodi inaweza kuonyesha baadhi ya vipimo vya kimataifa vya nodi yako - kwa mfano, idadi ya vituo vilivyofunguliwa, idadi ya programu zingine zilizounganishwa, ada za uelekezaji zilizopatikana (ikiwa zinatumika), n.k. Ni muhtasari wa shughuli na afya ya hivi majuzi ya nodi.
+- **Takwimu muhimu:** Dashibodi inaweza kuonyesha baadhi ya vipimo vya kimataifa vya nodi yako - kwa mfano, idadi ya vituo vilivyofunguliwa, idadi ya programu zingine zilizounganishwa, ada za uelekezaji zilizopatikana (ikiwa zinatumika), n.k. Ni muhtasari wa shughuli na afya ya hivi majuzi ya nodi.
 
 
 
 
 
-- Vitendo vya Haraka:** Dashibodi ina vitufe vya kutekeleza kwa haraka kazi zinazojulikana zaidi, bila kulazimika kupitia menyu. Hatua hizi za haraka ni pamoja na:
+- **Vitendo vya Haraka:** Dashibodi ina vitufe vya kutekeleza kwa haraka kazi zinazojulikana zaidi, bila kulazimika kupitia menyu. Hatua hizi za haraka ni pamoja na:
 
 
 
 
 
-  - Ghost**: Sanidi Umeme maalum wa Address kupitia Amboss.
-  - Changia**: Toa mchango kupitia Umeme.
-  - Ingia/Nenda kwa**: Unganisha kwenye akaunti yako ya Amboss (Unganisha Haraka) na uende moja kwa moja kwa Amboss.space ili kuona maelezo ya nodi yako.
-  - Address** : Weka Umeme Address ili kufanya malipo.
-  - Fungua**: Fungua chaneli mpya ya Umeme. Kubofya kunafungua fomu ya kuingiza URI ya nodi ya mbali ambayo itafungua chaneli, kiasi na, ikiwezekana, ada ya juu zaidi ya On-Chain itatumika.
-  - Simbua**: Simbua Umeme Invoice au LNURL ili kuona maelezo kabla ya malipo.
-  - LNURL**: Mchakato wa LNURL kwa malipo ya umeme au uondoaji.
-  - Kuingia kwa LnMarkets**: Ingia kwa LnMarkets kwa biashara.
+  - **Ghost**: Sanidi Umeme maalum wa Address kupitia Amboss.
+  - **Changia**: Toa mchango kupitia Umeme.
+  - **Ingia/Nenda kwa**: Unganisha kwenye akaunti yako ya Amboss (Unganisha Haraka) na uende moja kwa moja kwa Amboss.space ili kuona maelezo ya nodi yako.
+  - **Address** : Weka Address ya umeme ili kufanya malipo.
+  - **Fungua**: Fungua chaneli mpya ya Umeme. Kubofya kunafungua fomu ya kuingiza URI ya nodi ya mbali ambayo itafungua chaneli, kiasi na, ikiwezekana, ada ya juu zaidi ya On-Chain itatumika.
+  - **Simbua**: Simbua Umeme Invoice au LNURL ili kuona maelezo kabla ya malipo.
+  - **LNURL**: Mchakato wa LNURL kwa malipo ya umeme au uondoaji.
+  - **Kuingia kwa LnMarkets**: Ingia kwa LnMarkets kwa biashara.
 
 
 
@@ -407,7 +407,7 @@ Sehemu ya **Dashibodi** ni tofauti na kichupo cha Nyumbani na inatoa dashibodi y
 
 
 
-- Wijeti zinazoweza kugeuzwa kukufaa:** Tofauti na ukurasa wa Nyumbani, ambao una mpangilio usiobadilika, Dashibodi hukuruhusu kuchagua ni Elements ipi hasa ya kuonyesha na jinsi ya kuzipanga.
+- **Wijeti zinazoweza kugeuzwa kukufaa:** Tofauti na ukurasa wa Nyumbani, ambao una mpangilio usiobadilika, Dashibodi hukuruhusu kuchagua ni Elements ipi hasa ya kuonyesha na jinsi ya kuzipanga.
 
 
 
@@ -445,19 +445,19 @@ Baada ya kusanidiwa, dashibodi yako inaweza kuonyesha grafu na vipimo mbalimbali
 
 
 
-- Vipimo vya hali ya juu:** Fikia takwimu za kina zaidi za utendakazi wa nodi yako, kwa kutumia grafu na data ya wakati halisi.
+- **Vipimo vya hali ya juu:** Fikia takwimu za kina zaidi za utendakazi wa nodi yako, kwa kutumia grafu na data ya wakati halisi.
 
 
 
 
 
-- Muhtasari unaoweza kusanidiwa:** Tengeneza onyesho likufae kama wewe ni mtumiaji wa kawaida au opereta mtaalamu anayedhibiti chaneli nyingi za kuelekeza.
+- **Muhtasari unaoweza kusanidiwa:** Tengeneza onyesho likufae kama wewe ni mtumiaji wa kawaida au opereta mtaalamu anayedhibiti chaneli nyingi za kuelekeza.
 
 
 
 
 
-- Interface ya kawaida:** Ongeza au uondoe wijeti inavyohitajika: chati za mbele, vipimo vya ukwasi, arifa za afya za nodi, n.k.
+- **Interface ya kawaida:** Ongeza au uondoe wijeti inavyohitajika: chati za mbele, vipimo vya ukwasi, arifa za afya za nodi, n.k.
 
 
 
@@ -469,7 +469,7 @@ Sehemu hii ni muhimu sana kwa watumiaji wa hali ya juu wanaotaka kufuatilia vipi
 
 
 
-Sehemu ya **Rika** huorodhesha sehemu zote za Mwangaza ambazo kwa sasa zimeunganishwa na zako kama programu zingine. ** rika** ni muunganisho wa moja kwa moja wa nodi hadi nodi kwenye Lightning Network. Nodi yako inaweza kuunganishwa kwa wenzao hata bila chaneli iliyo wazi (kwa mfano, tu kwa taarifa za uvumi za Exchange kwenye mtandao), au bila shaka kila chaneli iliyo wazi inaashiria kiotomatiki rika lililounganishwa.
+Sehemu ya **Rika** huorodhesha sehemu zote za Mwangaza ambazo kwa sasa zimeunganishwa na zako kama programu zingine. **rika** ni muunganisho wa moja kwa moja wa nodi hadi nodi kwenye Lightning Network. Nodi yako inaweza kuunganishwa kwa wenzao hata bila chaneli iliyo wazi (kwa mfano, tu kwa taarifa za uvumi za Exchange kwenye mtandao), au bila shaka kila chaneli iliyo wazi inaashiria kiotomatiki rika lililounganishwa.
 
 
 
@@ -483,8 +483,8 @@ Katika kichupo cha Rika, utaona:
 
 
 
-- Safu wima za taarifa:** Interface inaonyesha maelezo muhimu kama vile hali ya ulandanishi, aina ya muunganisho (clearnet au Tor), ping, satoshis zilizopokelewa/kutumwa na kiasi cha data iliyobadilishwa.
-- Ongeza programu rika:** ThunderHub hukuruhusu kuunganishwa na mwenzi mwingine mwenyewe kupitia kitufe cha **"Ongeza "** katika kona ya juu kulia. Utahitaji kuingiza URI ya nodi (umbizo `<public_key>@<socket>`). Baada ya kuthibitishwa, ThunderHub hutuma amri inayolingana ya `lncli connect`. Ikiwa nodi iko mtandaoni na inapatikana, itaongezwa kwenye orodha ya wenzako.
+- **Safu wima za taarifa:** Interface inaonyesha maelezo muhimu kama vile hali ya ulandanishi, aina ya muunganisho (clearnet au Tor), ping, satoshis zilizopokelewa/kutumwa na kiasi cha data iliyobadilishwa.
+- **Ongeza programu rika:** ThunderHub hukuruhusu kuunganishwa na mwenzi mwingine mwenyewe kupitia kitufe cha **"Ongeza "** katika kona ya juu kulia. Utahitaji kuingiza URI ya nodi (umbizo `<public_key>@<socket>`). Baada ya kuthibitishwa, ThunderHub hutuma amri inayolingana ya `lncli connect`. Ikiwa nodi iko mtandaoni na inapatikana, itaongezwa kwenye orodha ya wenzako.
 
 
 
@@ -506,31 +506,31 @@ Hivi ndivyo utakavyopata kwenye ukurasa wa Vituo:
 
 
 
-- Mwonekano wa orodha ya idhaa:** Kila chaneli iliyofunguliwa (au inayofungua/kufunga) imeorodheshwa, kwa kawaida na lakabu ya nodi ya mbali, jumla ya uwezo wa kituo, na upau wa rangi unaoonyesha usambazaji wa ukwasi wa ndani dhidi ya kijijini. ThunderHub hutumia msimbo wa rangi (mara nyingi bluu/Green) au asilimia ili kuonyesha salio la kituo: kwa mfano, bluu kwa sehemu yako ya ndani, Green kwa sehemu ya mbali. Ikiwa kituo kina usawa (50/50), bar itakuwa nusu ya kila rangi. Hii hukuruhusu kutambua mara moja ni njia zipi hazina usawa (zote za bluu = karibu zote za ndani, zote Green = karibu zote za mbali).
+- **Mwonekano wa orodha ya idhaa:** Kila chaneli iliyofunguliwa (au inayofungua/kufunga) imeorodheshwa, kwa kawaida na lakabu ya nodi ya mbali, jumla ya uwezo wa kituo, na upau wa rangi unaoonyesha usambazaji wa ukwasi wa ndani dhidi ya kijijini. ThunderHub hutumia msimbo wa rangi (mara nyingi bluu/Green) au asilimia ili kuonyesha salio la kituo: kwa mfano, bluu kwa sehemu yako ya ndani, Green kwa sehemu ya mbali. Ikiwa kituo kina usawa (50/50), bar itakuwa nusu ya kila rangi. Hii hukuruhusu kutambua mara moja ni njia zipi hazina usawa (zote za bluu = karibu zote za ndani, zote Green = karibu zote za mbali).
 
 
 
 
 
-- Safu wima za taarifa:** Interface inaonyesha safu wima za kina ikijumuisha Hali, Vitendo Vinavyopatikana, Maelezo ya Rika, Kitambulisho cha Kituo, Uwezo, Shughuli, Ada na Salio zenye onyesho la mchoro la ukwasi.
+- **Safu wima za taarifa:** Interface inaonyesha safu wima za kina ikijumuisha Hali, Vitendo Vinavyopatikana, Maelezo ya Rika, Kitambulisho cha Kituo, Uwezo, Shughuli, Ada na Salio zenye onyesho la mchoro la ukwasi.
 
 
 
 
 
-- Usanidi wa onyesho:** Gurudumu la gombo katika kona ya juu kulia hukuruhusu kubinafsisha onyesho la kituo ili kukidhi mapendeleo yako.
+- **Usanidi wa onyesho:** Gurudumu la gombo katika kona ya juu kulia hukuruhusu kubinafsisha onyesho la kituo ili kukidhi mapendeleo yako.
 
 
 
 
 
-- Hali:** Pia utaona viashirio vya hali - k.m. `Inatumika` (kituo kimefunguliwa na kinafanya kazi), `Nje ya Mtandao` (kishirika kimetenganishwa, kwa hivyo chaneli haiwezi kutumika kwa muda), `Inasubiri` (kwa fursa au kufungwa kunangoja uthibitisho wa On-Chain).
+- **Hali:** Pia utaona viashirio vya hali - k.m. `Inatumika` (kituo kimefunguliwa na kinafanya kazi), `Nje ya Mtandao` (kishirika kimetenganishwa, kwa hivyo chaneli haiwezi kutumika kwa muda), `Inasubiri` (kwa fursa au kufungwa kunangoja uthibitisho wa On-Chain).
 
 
 
 
 
-- Vitendo kwenye kituo:** Kwa kila kituo, ThunderHub hutoa vitufe vya kutenda (mara nyingi katika mfumo wa aikoni):
+- **Vitendo kwenye kituo:** Kwa kila kituo, ThunderHub hutoa vitufe vya kutenda (mara nyingi katika mfumo wa aikoni):
 
 
 
@@ -540,9 +540,9 @@ Hivi ndivyo utakavyopata kwenye ukurasa wa Vituo:
 
 
 
-  - Ada za kubadilisha:** "Sera ya Kusasisha Kituo" ya Interface hukuwezesha kurekebisha vigezo vyote vya kituo: Ada ya Msingi, Kiwango cha Ada (katika ppm), CLTV Delta, Max HTLC na Min HTLC. Hii hukuruhusu kurekebisha sera zako za ada kibinafsi kwa kila kituo, kwa lengo la kuvutia (au kukatisha tamaa) trafiki ya uelekezaji. *(Kumbuka: ThunderHub si mbadala wa zana ya kiotomatiki ya kudhibiti ada, lakini kwa urekebishaji wa mikono ni mzuri sana)*
-  - Funga Kituo (*Funga*)**: "Mkondo wa Kufunga" wa Interface hukupa chaguo kati ya **kufunga kwa ushirika** (chaguo-msingi) au **kufunga kwa lazima** (*Lazimisha Kufunga*) kwa kufafanua gharama (katika Sats/vByte). **Muhimu:** kila mara hupendelea ushirika wa karibu inapowezekana, ili kuepuka ucheleweshaji wa makazi wa On-Chain na ada za juu. ThunderHub itakuambia ikiwa mwenzi huyo yuko mtandaoni (ushirikiano unawezekana) au la. Katika tukio la kufungwa kwa nguvu, hakikisha umethibitisha kwa kuwa hii haiwezi kutenduliwa na itaanzisha muamala mkubwa kwa kufunga saa (kwa ujumla vitalu 144 au ~ siku 1 kwenye Bitcoin Mainnet).
-  - Fungua kituo kipya:** Ili kufungua chaneli mpya, bofya kwenye cogwheel iliyo upande wa juu kulia wa ukurasa wa Vituo, kisha uchague "Fungua". Kisha unaweza kuanzisha kituo kwa programu rika mpya au iliyopo. Faida ya kutumia ukurasa huu ni kwamba una orodha ya chaneli zako zilizopo mbele yako, ambayo inaweza kukusaidia kuamua mahali pa kufungua kituo kipya.
+  - **Ada za kubadilisha:** "Sera ya Kusasisha Kituo" ya Interface hukuwezesha kurekebisha vigezo vyote vya kituo: Ada ya Msingi, Kiwango cha Ada (katika ppm), CLTV Delta, Max HTLC na Min HTLC. Hii hukuruhusu kurekebisha sera zako za ada kibinafsi kwa kila kituo, kwa lengo la kuvutia (au kukatisha tamaa) trafiki ya uelekezaji. *(Kumbuka: ThunderHub si mbadala wa zana ya kiotomatiki ya kudhibiti ada, lakini kwa urekebishaji wa mikono ni mzuri sana)*
+  - **Funga Kituo (*Funga*)**: "Mkondo wa Kufunga" wa Interface hukupa chaguo kati ya **kufunga kwa ushirika** (chaguo-msingi) au **kufunga kwa lazima** (*Lazimisha Kufunga*) kwa kufafanua gharama (katika Sats/vByte). **Muhimu:** kila mara hupendelea ushirika wa karibu inapowezekana, ili kuepuka ucheleweshaji wa makazi wa On-Chain na ada za juu. ThunderHub itakuambia ikiwa mwenzi huyo yuko mtandaoni (ushirikiano unawezekana) au la. Katika tukio la kufungwa kwa nguvu, hakikisha umethibitisha kwa kuwa hii haiwezi kutenduliwa na itaanzisha muamala mkubwa kwa kufunga saa (kwa ujumla vitalu 144 au ~ siku 1 kwenye Bitcoin Mainnet).
+  - **Fungua kituo kipya:** Ili kufungua chaneli mpya, bofya kwenye cogwheel iliyo upande wa juu kulia wa ukurasa wa Vituo, kisha uchague "Fungua". Kisha unaweza kuanzisha kituo kwa programu rika mpya au iliyopo. Faida ya kutumia ukurasa huu ni kwamba una orodha ya chaneli zako zilizopo mbele yako, ambayo inaweza kukusaidia kuamua mahali pa kufungua kituo kipya.
 
 
 
@@ -554,7 +554,7 @@ Kwa kifupi, sehemu ya Vituo hukupa **udhibiti mzuri wa kila kituo**. Hapa ndipo 
 
 
 
-Kichupo cha **Rebalance** kimejitolea kwa **kusawazisha kituo**. Kusawazisha (au *kusawazisha upya*) kunahusisha kurekebisha mgawanyo wa fedha kati ya chaneli zako zinazotoka na zinazoingia, kwa kufanya **malipo ya mduara** kutoka kwa mojawapo ya vituo vyako hadi nyingine ya vituo vyako, kupitia Lightning Network. Hii hukuruhusu, bila kuleta pesa mpya, kuhamisha ukwasi kutoka kwa chaneli iliyojaa kupita kiasi hadi kwa ambayo haina chochote, na kufanya vituo vyako kuwa muhimu zaidi (kituo kilichosawazishwa kinaweza kutuma na kupokea malipo).
+Kichupo cha **Rebalance** kimejitolea kwa **kusawazisha kituo**. Kusawazisha (au *kusawazisha upya*) kunahusisha kurekebisha mgawanyo wa fedha kati ya chaneli zako zinazotoka na zinazoingia, kwa kufanya **malipo ya mduara** kutoka kwa mojawapo ya vituo vyako hadi vingine vya vituo vyako, kupitia Lightning Network. Hii hukuruhusu, bila kuleta pesa mpya, kuhamisha ukwasi kutoka kwa chaneli iliyojaa kupita kiasi hadi kwa ambayo haina chochote, na kufanya vituo vyako kuwa muhimu zaidi (kituo kilichosawazishwa kinaweza kutuma na kupokea malipo).
 
 
 
@@ -568,23 +568,23 @@ ThunderHub inawezesha sana operesheni hii, ambayo ingekuwa ya kuchosha kwenye sa
 
 
 
-- Mwonekano wa awali wa kituo:** Unapoingiza Usawazishaji, ThunderHub huonyesha orodha ya chaneli zako, ikiwa na kiashirio cha usawa kwa kila moja (sawa na ile iliyo kwenye ukurasa wa Vituo). Unaweza kuona mara moja ni njia zipi ambazo hazijasawazishwa. ThunderHub inaweza kupanga chaneli ili kuongeza usawa, ili chaneli zisizo na usawa zitokee juu ya orodha (0.0 ikimaanisha ya ndani au ya mbali kabisa).
+- **Mwonekano wa awali wa kituo:** Unapoingiza Usawazishaji, ThunderHub huonyesha orodha ya chaneli zako, ikiwa na kiashirio cha usawa kwa kila moja (sawa na ile iliyo kwenye ukurasa wa Vituo). Unaweza kuona mara moja ni njia zipi ambazo hazijasawazishwa. ThunderHub inaweza kupanga chaneli ili kuongeza usawa, ili chaneli zisizo na usawa zitokee juu ya orodha (0.0 ikimaanisha ya ndani au ya mbali kabisa).
 
 
 
 
 
-- Uchaguzi wa rika:** Interface hurahisisha kuchagua wenzao wanaotoka na wanaoingia ili kusawazisha upya.
+- **Uchaguzi wa rika:** Interface hurahisisha kuchagua wenzao wanaotoka na wanaoingia ili kusawazisha upya.
 
 
 
 
 
-- Mipangilio ya kigezo:** Unaweza kuweka :
-  - ** ada ya juu zaidi** (katika Sats na ppm) ambayo uko tayari kulipa
+- **Mipangilio ya kigezo:** Unaweza kuweka :
+  - **ada ya juu zaidi** (katika Sats na ppm) ambayo uko tayari kulipa
   - **kiasi cha kusawazisha** na chaguo la "Zisizohamishika" au "Lengo".
-  - Nodi za kuepuka** wakati wa kuelekeza
-  - Muda wa juu zaidi wa majaribio** wa kutafuta njia
+  - **Nodi za kuepuka** wakati wa kuelekeza
+  - **Muda wa juu zaidi wa majaribio** wa kutafuta njia
 
 
 
@@ -602,7 +602,7 @@ ThunderHub inawezesha sana operesheni hii, ambayo ingekuwa ya kuchosha kwenye sa
 
 
 
-- Weka kiasi cha ada na uvumilivu:** Fomu hukuruhusu kuingiza :
+- **Weka kiasi cha ada na uvumilivu:** Fomu hukuruhusu kuingiza :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub inawezesha sana operesheni hii, ambayo ingekuwa ya kuchosha kwenye sa
 
 
 
-- Tafuta Njia:** Bofya kitufe ili kupata njia. ThunderHub inaulizia LND ili kukokotoa njia kutoka kwa chanzo cha chanzo kupitia mtandao hadi kwenye kituo chako unacholenga. Ikipata njia inayowezekana ambayo inakidhi vigezo vya ada yako, huionyesha ikiwa na maelezo ya humle na gharama ya ada. Kwa mfano, inaweza kuonyesha kuwa imepata njia ya 3-hop yenye jumla ya 2 Sats katika malipo.
+- **Tafuta Njia:** Bofya kitufe ili kupata njia. ThunderHub inaulizia LND ili kukokotoa njia kutoka kwa chanzo cha chanzo kupitia mtandao hadi kwenye kituo chako unacholenga. Ikipata njia inayowezekana ambayo inakidhi vigezo vya ada yako, huionyesha ikiwa na maelezo ya humle na gharama ya ada. Kwa mfano, inaweza kuonyesha kuwa imepata njia ya 3-hop yenye jumla ya 2 Sats katika malipo.
 
 
 
 
 
-- Anza kusawazisha:** Iwapo umefurahishwa na njia inayopendekezwa, bofya kwenye **Mkondo wa Salio**. Kisha ThunderHub itaanzisha malipo ya mduara kupitia LND. Malipo yakifanikiwa, utaona arifa ya kufaulu, na salio A na B zitarekebishwa kwa wakati halisi. ThunderHub itasasisha kiashirio cha usawa cha chaneli hizi (ikiwezekana zitakuwa kijani kibichi zaidi kuliko hapo awali, ikionyesha usawa bora).
+- **Anza kusawazisha:** Iwapo umefurahishwa na njia inayopendekezwa, bofya kwenye **Mkondo wa Salio**. Kisha ThunderHub itaanzisha malipo ya mduara kupitia LND. Malipo yakifanikiwa, utaona arifa ya kufaulu, na salio A na B zitarekebishwa kwa wakati halisi. ThunderHub itasasisha kiashirio cha usawa cha chaneli hizi (ikiwezekana zitakuwa kijani kibichi zaidi kuliko hapo awali, ikionyesha usawa bora).
 
 
 
 
 
-- Marekebisho na marudio:** Ikiwa hakuna njia inayopatikana kwenye jaribio la kwanza (au ikiwa ni ghali sana), unaweza kurekebisha vigezo :
+- **Marekebisho na marudio:** Ikiwa hakuna njia inayopatikana kwenye jaribio la kwanza (au ikiwa ni ghali sana), unaweza kurekebisha vigezo :
 
 
 
@@ -640,7 +640,7 @@ ThunderHub inawezesha sana operesheni hii, ambayo ingekuwa ya kuchosha kwenye sa
 
 
 
-ThunderHub hufanya mchakato kuwa ** angavu na wa kuona** sana. Katika hatua 4 tu (chagua chaneli inayotoka, chagua chaneli inayoingia, kiasi, dhibitisha), unaweza kufanya kile kilichotumika kuhitaji amri ngumu za mwongozo. Zana hii ni muhimu sana kwa kudumisha hali iliyosawazishwa vizuri, kuboresha utendakazi wako wa uelekezaji na matumizi (rahisi kutuma na kupokea malipo kwenye vituo vyako vyote).
+ThunderHub hufanya mchakato kuwa **angavu na wa kuona** sana. Katika hatua 4 tu (chagua chaneli inayotoka, chagua chaneli inayoingia, kiasi, dhibitisha), unaweza kufanya kile kilichotumika kuhitaji amri ngumu za mwongozo. Zana hii ni muhimu sana kwa kudumisha hali iliyosawazishwa vizuri, kuboresha utendakazi wako wa uelekezaji na matumizi (rahisi kutuma na kupokea malipo kwenye vituo vyako vyote).
 
 
 
@@ -666,7 +666,7 @@ Katika tabo hii utapata:
 
 
 
-- Grafu ya Invoice:** Katika kona ya juu upande wa kulia, grafu inaonyesha mabadiliko ya ankara zilizopokelewa kwa muda, hivyo kukuruhusu kuibua shughuli za nodi yako.
+- **Grafu ya Invoice:** Katika kona ya juu upande wa kulia, grafu inaonyesha mabadiliko ya ankara zilizopokelewa kwa muda, hivyo kukuruhusu kuibua shughuli za nodi yako.
 
 
 
@@ -708,13 +708,13 @@ Katika Forwards, ThunderHub inatoa:
 
 
 
-- Vichujio na chaguo za kuonyesha:** Katika sehemu ya juu kulia, vichujio hukuruhusu kupanga data kwa siku/wiki/mwezi/mwaka, na uchague kati ya onyesho la mchoro au la jedwali.
+- **Vichujio na chaguo za kuonyesha:** Katika sehemu ya juu kulia, vichujio hukuruhusu kupanga data kwa siku/wiki/mwezi/mwaka, na uchague kati ya onyesho la mchoro au la jedwali.
 
 
 
 
 
-- Ujumbe wa shughuli:** Ikiwa hakuna uelekezaji umefanywa katika kipindi kilichochaguliwa, Interface itaonyesha "Hakuna mbele kwa kipindi hiki", kama inavyoonyeshwa katika mfano huu.
+- **Ujumbe wa shughuli:** Ikiwa hakuna uelekezaji umefanywa katika kipindi kilichochaguliwa, Interface itaonyesha "Hakuna mbele kwa kipindi hiki", kama inavyoonyeshwa katika mfano huu.
 
 
 
@@ -736,7 +736,7 @@ Katika Forwards, ThunderHub inatoa:
 
 
 
-- Takwimu zilizojumlishwa**: ThunderHub hukokotoa na kuonyeshwa juu ya jumla ya ukurasa na takwimu katika kipindi fulani (k.m. saa 24 zilizopita, au siku 7, n.k., wakati mwingine zinaweza kusanidiwa).
+- **Takwimu zilizojumlishwa**: ThunderHub hukokotoa na kuonyeshwa juu ya jumla ya ukurasa na takwimu katika kipindi fulani (k.m. saa 24 zilizopita, au siku 7, n.k., wakati mwingine zinaweza kusanidiwa).
 
 
 
@@ -762,19 +762,19 @@ Katika Chain, utapata:
 
 
 
-- Salio On-Chain :** Huonyesha jumla ya salio la BTC linalopatikana katika Wallet LND.
+- **Salio On-Chain :** Huonyesha jumla ya salio la BTC linalopatikana katika Wallet LND.
 
 
 
 
 
-- Orodha ya UTXO:** Tazama matokeo yote ambayo hayajatumika (UTXO) yenye kiasi, uthibitisho, Address na umbizo la kila towe.
+- **Orodha ya UTXO:** Tazama matokeo yote ambayo hayajatumika (UTXO) yenye kiasi, uthibitisho, Address na umbizo la kila towe.
 
 
 
 
 
-- Historia ya muamala:** Jedwali la kina la miamala yote ya Bitcoin yenye aina ya (kuingia/kutoka), tarehe, kiasi, gharama, uthibitisho, kizuizi cha kujumuishwa, anwani na txid.
+- **Historia ya muamala:** Jedwali la kina la miamala yote ya Bitcoin yenye aina ya (kuingia/kutoka), tarehe, kiasi, gharama, uthibitisho, kizuizi cha kujumuishwa, anwani na txid.
 
 
 
@@ -796,25 +796,25 @@ Katika ThunderHub, sehemu ya Amboss hukuruhusu **kuunganisha** nodi yako kwa aka
 
 
 
-- Ghost Address:** Sanidi **Umeme uliobinafsishwa wa Address** kwa nodi yako, kuwezesha malipo yanayokuja.
+- **Ghost Address:** Sanidi **Umeme uliobinafsishwa wa Address** kwa nodi yako, kuwezesha malipo yanayokuja.
 
 
 
 
 
-- Hifadhi rudufu za kiotomatiki:** Kipengele kinachoangazia kwa chelezo zilizosimbwa kwa njia fiche** (faili za SCB) kwenye Amboss. Washa **Hifadhi Nakala Kiotomatiki ya Amboss = Ndiyo** katika mipangilio ili kutuma kiotomatiki masasisho ya nakala rudufu yaliyosimbwa kwa njia fiche kila unapobadilisha chaneli. Ikitokea kushindwa, utaweza kurejesha pesa zako kutokana na hifadhi hii ya nje.
+- **Hifadhi rudufu za kiotomatiki:** Kipengele kinachoangazia kwa chelezo zilizosimbwa kwa njia fiche** (faili za SCB) kwenye Amboss. Washa **Hifadhi Nakala Kiotomatiki ya Amboss = Ndiyo** katika mipangilio ili kutuma kiotomatiki masasisho ya nakala rudufu yaliyosimbwa kwa njia fiche kila unapobadilisha chaneli. Ikitokea kushindwa, utaweza kurejesha pesa zako kutokana na hifadhi hii ya nje.
 
 
 
 
 
-- Ukaguzi wa Afya:** Washa **Amboss Healthcheck = Ndiyo** ili nodi yako itume pings za kawaida kwa Amboss. Utapokea arifa ikiwa nodi yako itaonekana kuwa nje ya mtandao.
+- **Ukaguzi wa Afya:** Washa **Amboss Healthcheck = Ndiyo** ili nodi yako itume pings za kawaida kwa Amboss. Utapokea arifa ikiwa nodi yako itaonekana kuwa nje ya mtandao.
 
 
 
 
 
-- Vipengele vingine:** Kushinikiza kusawazisha kiotomatiki, muunganisho wa **Magma/Hydro** (soko la ukwasi), na ufikiaji wa takwimu za kina za utendakazi.
+- **Vipengele vingine:** Kushinikiza kusawazisha kiotomatiki, muunganisho wa **Magma/Hydro** (soko la ukwasi), na ufikiaji wa takwimu za kina za utendakazi.
 
 
 
@@ -836,16 +836,16 @@ Sehemu ya **Zana** hukusanya pamoja zana mbalimbali za kina za kudhibiti nodi ya
 
 
 
-- Hifadhi rudufu:** Dhibiti wewe mwenyewe hifadhi rudufu za kituo chako (SCB). ThunderHub hukuruhusu **kupakua faili kamili ya chelezo** ya vituo vyako (chaguo "Hifadhi nakala za vituo vyote -> Pakua"). Weka faili hii ya `channel-all.bak` mahali salama - ni muhimu ili kurejesha pesa zako iwapo kutatokea ajali. Unaweza pia **kuagiza** faili chelezo wakati wa kupeleka upya nodi.
+- **Hifadhi rudufu:** Dhibiti wewe mwenyewe hifadhi rudufu za kituo chako (SCB). ThunderHub hukuruhusu **kupakua faili kamili ya chelezo** ya vituo vyako (chaguo "Hifadhi nakala za vituo vyote -> Pakua"). Weka faili hii ya `channel-all.bak` mahali salama - ni muhimu ili kurejesha pesa zako iwapo kutatokea ajali. Unaweza pia **kuagiza** faili chelezo wakati wa kupeleka upya nodi.
 
 
 
 
 
-- Uhasibu:** Zana ya kuuza nje ya ripoti za fedha ikiwa ni pamoja na ada zinazopatikana/kulipwa na kiasi kilichopitishwa kwa muda fulani.
-- Ujumbe uliotiwa saini:** **Weka au uthibitishe ujumbe** ukitumia nodi yako ili kuthibitisha Ownership ya nodi yako ya Umeme kupitia sahihi ya kriptografia.
-- Makaroni (sehemu ya mkate):** Dhibiti macaroons ya LND** ili kuunda ufikiaji uliobinafsishwa. Interface "Bakery" hukuruhusu kuchagua kila ruhusa kwa usahihi: "Ongeza au ondoa Wenzake", "Unda Anwani za Msururu", "Unda Ankara", "Unda Macaroons", "Funguo za Pata", "Pata Vifunguo vya Ufikiaji", "Pata Miamala", "Pata Ankara", "Pata GW-Pat Info" Ankara", "Batilisha Vitambulisho vya Ufikiaji", "Tuma kwa Anwani za Msururu", "Baiti za Saini", "Ujumbe wa Saini", "Acha daemon", "Thibitisha saini ya baiti", "Thibitisha ujumbe", na kadhalika. Kila ruhusa inaweza kuamilishwa kibinafsi kwa vitufe vya "Ndiyo/Hapana" ili kuunda macaroon iliyoundwa iliyoundwa maalum.
-- Taarifa ya mfumo:** Onyesho la toleo la Wallet na RPC zilizoamilishwa.
+- **Uhasibu:** Zana ya kuuza nje ya ripoti za fedha ikiwa ni pamoja na ada zinazopatikana/kulipwa na kiasi kilichopitishwa kwa muda fulani.
+- **Ujumbe uliotiwa saini:** **Weka au uthibitishe ujumbe** ukitumia nodi yako ili kuthibitisha Ownership ya nodi yako ya Umeme kupitia sahihi ya kriptografia.
+- **Makaroni (sehemu ya mkate):** Dhibiti macaroons ya LND** ili kuunda ufikiaji uliobinafsishwa. Interface "Bakery" hukuruhusu kuchagua kila ruhusa kwa usahihi: "Ongeza au ondoa Wenzake", "Unda Anwani za Msururu", "Unda Ankara", "Unda Macaroons", "Funguo za Pata", "Pata Vifunguo vya Ufikiaji", "Pata Miamala", "Pata Ankara", "Pata GW-Pat Info" Ankara", "Batilisha Vitambulisho vya Ufikiaji", "Tuma kwa Anwani za Msururu", "Baiti za Saini", "Ujumbe wa Saini", "Acha daemon", "Thibitisha saini ya baiti", "Thibitisha ujumbe", na kadhalika. Kila ruhusa inaweza kuamilishwa kibinafsi kwa vitufe vya "Ndiyo/Hapana" ili kuunda macaroon iliyoundwa iliyoundwa maalum.
+- **Taarifa ya mfumo:** Onyesho la toleo la Wallet na RPC zilizoamilishwa.
 
 
 
@@ -871,9 +871,9 @@ Mchakato ni rahisi:
 
 
 
-- Kiasi**: Bainisha kiasi kitakachobadilishwa
-- Address** : Ingiza Bitcoin mapokezi Address
-- Utekelezaji**: ThunderHub huwasiliana na Boltz ili kuchakata kiotomatiki Exchange
+- **Kiasi**: Bainisha kiasi kitakachobadilishwa
+- **Address** : Ingiza Bitcoin mapokezi Address
+- **Utekelezaji**: ThunderHub huwasiliana na Boltz ili kuchakata kiotomatiki Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub huweka kidemokrasia usimamizi wa hali ya juu wa nodi ya Umeme, na kuf
 
 
 
-- Tovuti rasmi:** [thunderhub.io](https://thunderhub.io)
-- Hati:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- Msimbo wa chanzo wa GitHub:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Tovuti rasmi:** [thunderhub.io](https://thunderhub.io)
+- **Hati:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **Msimbo wa chanzo wa GitHub:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

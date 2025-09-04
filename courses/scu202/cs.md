@@ -1062,7 +1062,7 @@ Ubuntu, vyvinuté společností Canonical a uvedené na trh v roce 2004, je jedn
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint je distribuce odvozená od Ubuntu, která byla uvedena na trh v roce 
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint vyniká svou jednoduchostí, výchozí přítomností multimediálních kodeků a dobře navrženým aktualizačním nástrojem. Na druhou stranu se do značné míry spoléhá na infrastrukturu Ubuntu, takže je závislý na technických rozhodnutích Ubuntu (zejména na úrovni jádra a repozitářů). Mint je vhodný zejména pro netechnické uživatele nebo pro ty, kteří chtějí systém připravený k použití, který nevyžaduje příliš mnoho učení.
 
@@ -1246,7 +1246,7 @@ Tails je live distribuce založená na Debianu a zaměřená na ochranu soukrom�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Poznámka:** Live distribuce je operační systém Linux, který lze používat přímo z USB flash disku nebo CD bez instalace na disk Hard.
 
@@ -1300,9 +1300,9 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Operační systém Raspberry Pi**:
-
-
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 
@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian se sítí Tor v architektuře dvou virtuálních počít
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toto panorama vám poskytne přehled o současném ekosystému linuxových distribucí a umožní vám vybrat si distribuci, která nejlépe vyhovuje vašemu technickému profilu a cílům.
-
-
 
 V další kapitole SCU202 se blíže podíváme na praktické prostředí systému Linux, počínaje grafickými prostředími, která tvoří základ každodenní interakce se systémem.
 
-
-
 ## Prostředí Linuxu
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 V systému GNU/Linux hraje prostředí pracovní plochy jednu z nejdůležitějších rolí v uživatelském prostředí. Je to grafické prostředí Layer, které umožňuje interakci se systémem na základě známých vizuálních reprezentací: oken, nabídek, ikon, panelů a předinstalovaných aplikací.
-
-
 
 V této kapitole se budu zabývat strukturou a úlohou desktopového prostředí, jeho typickými součástmi, hlavními dostupnými rodinami, kritérii výběru a jejich integrací do nejoblíbenějších linuxových distribucí.
 
-
-
 ### Co je to kancelářské prostředí?
 
-
-
 Prostředí pracovní plochy (nebo "*DE*" jako *Prostředí pracovní plochy*) označuje sadu programů, které tvoří kompletní grafické prostředí Interface operačního systému. V systémech Windows a macOS je ve výchozím nastavení nabízeno jediné desktopové prostředí integrované do systému bez možnosti jej zcela upravit (existují pouze určité shelly, které umožňují částečnou úpravu Interface). Naproti tomu systémy Linux jsou mnohem modulárnější a považují desktopové prostředí za nezávislou součást, kterou lze libovolně vyměňovat.
-
-
 
 V Linuxu je důležité jasně rozlišovat mezi všemi vrstvami: jádrem (které spravuje interakci s hardwarem), zobrazovacím serverem (který funguje jako prostředník mezi aplikacemi, grafickými ovladači a hardwarem prostřednictvím jádra) a nakonec samotným grafickým prostředím, které se spoléhá na tuto infrastrukturu a poskytuje uživateli ucelenou grafickou aplikaci Interface. Toto rozlišení může být někdy méně jasné, protože mnoho linuxových distribucí je dodáváno s předinstalovaným desktopovým prostředím, které někdy obsahuje vlastní kompozitor Wayland, který pak funguje jako zobrazovací server.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelářský balík
 
 
@@ -5754,6 +5742,7 @@ Firefox zůstává měřítkem bezpečnosti a ochrany soukromí, přestože v n�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Prohlížeč Tor
 
 
@@ -5774,15 +5763,11 @@ Nevýhodou je výrazné snížení výkonu (vysoká latence) a omezená kompatib
 
 #### Prohlížeč Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je výsledkem spolupráce mezi Tor Foundation a Mullvad VPN. Je založen na prohlížeči Tor, který je sám odvozen od Firefoxu ESR. Mullvad Browser je navržen tak, aby maximalizoval soukromí uživatelů. Ve výchozím nastavení obsahuje pokročilou ochranu proti otiskům prstů, sledovacím zařízením a skriptům třetích stran.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Má většinu funkcí zabezpečení a ochrany soukromí, které nabízí Tor Browser, s jedním rozdílem: nepřesměrovává provoz přes síť Tor. Chcete-li se vyhnout únikům IP Address, můžete jej používat v kombinaci s VPN (ideálně Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Ve výchozím nastavení LibreWolf aktivuje pokročilá nastavení zabezpečení
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Prohlížeč Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je svobodný prohlížeč s otevřeným zdrojovým kódem založený na prohlížeči Firefox (engine Gecko), který byl uveden na trh v roce 2024. Jeho cílem je nabídnout moderní, elegantní, vysoce přizpůsobitelné a především na soukromí zaměřené prohlížení bez závislosti na Chromu.
 
-
-
 Zen vyniká svým radikálním přístupem k Interface a použitelnosti, který je do značné míry inspirován prohlížečem Arc, od něhož se však osvobozuje díky své otevřenosti a enginu Gecko. Obsahuje :
-
-
-
 
 - Minimalistický modulární nástroj Interface se svislým postranním panelem pro karty, rozděleným zobrazením a systémem *workspace* pro seskupování sad karet podle projektů;
 - Systém přizpůsobitelných šablon Interface (*Zen Mods*), které lze použít k hlubokým úpravám vzhledu prohlížeče;
 - Originální funkce *Glance*, která otevře odkaz v lehkém dočasném okně, čímž se vyhne nepřehledným záložkám...
 
-
-
 Zen podporuje také rozšíření Firefoxu a synchronizaci prostřednictvím účtu Mozilla.
-
-
 
 Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování sledovacích zařízení třetích stran. Prohlížeč sám neshromažďuje žádná data a umožňuje také vypnout telemetrii Mozilla. Automaticky také odmítá zastaralé nebo nevyhovující certifikáty SSL.
 
-
-
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Prohlížeče založené na WebKitu
 
-
-
 #### Safari
-
-
 
 Hlavním prohlížečem, který stále používá vykreslovací jádro WebKit (nikoli Fork jako Blink), je Safari. [Safari](https://www.apple.com/safari/) je exkluzivní prohlížeč společnosti Apple pro systém macOS. Nabízí vynikající integraci s ekosystémem Apple, vysoký výkon a nyní obsahuje silnější ochranu proti sledování a snímání otisků prstů.
 
-
-
 Safari však zůstává uzavřený, omezený na macOS pro desktopovou verzi a závislý na ekosystému Apple. Ačkoli společnost Apple uplatňuje přísnou politiku ochrany osobních údajů a její obchodní model je založen především na prodeji hardwaru, nikoli na reklamě, zůstávají některé interní postupy nejasné.
-
-
 
 Zde se zaměřujeme na prohlížeče pro stolní počítače, ale je důležité poznamenat, že v systému iOS vyžaduje společnost Apple, aby všechny prohlížeče používaly vykreslovací jádro WebKit (toto omezení se však může brzy změnit v důsledku určitých evropských předpisů). To znamená, že prohlížeče jako Chrome, Firefox nebo Brave musí v systému iOS nabízet aplikaci založenou na WebKitu, a nikoli na svém obvyklém vykreslovacím jádře.
 
@@ -5889,6 +5855,7 @@ Orion je kompletně vyvinutý týmem Kagi (známým pro svůj vyhledávač bez r
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Prohlížeče bez vykreslovacích motorů
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS neobsahuje žádné proprietární komponenty. Služby Google si mů�
 Graphene je kompatibilní pouze s nejnovějšími Pixely Google (Pixel 6, 7, 8 a 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile je mobilní verze oblíbeného e-mailového klienta s otevře
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis je komplexní open-source aplikace. Šifruje databázi 2FA pomocí hesla, 
 Ente Auth je moderní multiplatformní řešení s otevřeným zdrojovým kódem a end-to-end šifrovaným zálohováním. Umožňuje bezpečnou synchronizaci kódů 2FA na mobilních zařízeních, počítačích a webu. Můžete jej používat i offline, bez cloudového zálohování nebo vytváření účtu.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nabízí mnoho dalších funkcí: Ente Ente nabízí: uspořádání podle značek, vlastní ikony pro každou službu, poznámky, oblíbené položky, integrované vyhledávání, bezpečné sdílení týmového kódu.
 
 
@@ -7642,6 +7611,7 @@ Authy nabízí synchronizaci 2FA mezi více zařízeními, což může být uži
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Pokud se chcete dozvědět více o správcích hesel, ověřování 2FA a VPN, doporučuji vám přečíst si kapitoly věnované kurzu SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Aplikace Chrono, která je k dispozici na platformě F-Droid a je zcela otevřen
 Aplikace také integruje časovač a stopky se záznamem kol, statistikami, porovnáváním časů a správou více časovačů. Můžete konfigurovat více časových pásem, přizpůsobit téma (barvy, styly, animace) a dokonce uspořádat budíky a časovače pomocí štítků.
 
 
+Pro hlubší pochopení tématu vám doporučuji navštívit stránku [*Awesome Privacy*](https://awesome-privacy.xyz/), která uvádí nejlepší alternativy šetrné k ochraně soukromí k softwaru, který používáte každý den.
 ___
 
 
@@ -8526,6 +8497,7 @@ V praxi lze šifrování DNS a přepínání serverů realizovat na různých ú
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na úrovni operačního systému: Některé operační systémy mají nativně integrovanou podporu šifrovaného DNS (DoT nebo DoH), která zabezpečuje všechny požadavky DNS procházející síťovým zásobníkem systému. Tím však není zabezpečen celý počítač nebo telefon: Aplikace mohou toto nastavení obejít, pokud jsou nakonfigurovány tak, aby používaly jiný resolver DNS nebo protokol.
 
 
@@ -8626,3 +8598,4 @@ Dodržením těchto několika kroků vytvoříte robustní a bezpečné síťov�
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

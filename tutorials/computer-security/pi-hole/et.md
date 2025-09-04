@@ -218,7 +218,7 @@ Kui see on tehtud, siis kui mõni seade on varem sisse lülitatud, on need säil
 
 
 
-Windowsi tööjaamades, käsureaga :
+Windowsi tööjaamades, käsureaga:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Linuxi tööjaamas :
+Linuxi tööjaamas:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-DNS-väljal peaks olema teie Pi-Augu Address, minu puhul 192.168.1.42 :
+DNS-väljal peaks olema teie Pi-Augu Address, minu puhul 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ DNS-väljal peaks olema teie Pi-Augu Address, minu puhul 192.168.1.42 :
 
 
 
-Haldamise hõlbustamiseks on **Pi-Hole** hästi kavandatud Interface veebi Interface. Kasutajasõbralik ja juurdepääsetav, see võimaldab teil :
+Haldamise hõlbustamiseks on **Pi-Hole** hästi kavandatud Interface veebi Interface. Kasutajasõbralik ja juurdepääsetav, see võimaldab teil:
 
 
 
@@ -322,7 +322,7 @@ Loetelu lisamine Pi-Hole'is
 
 
 
-Selle lisamiseks tuleb vaid klõpsata "**Lisata**". Selle aktiveerimiseks peame tegema täiendava sammu, et "hoiatada" Pi-Hole'i, et ta võtaks selle nimekirja üle. Selleks :
+Selle lisamiseks tuleb vaid klõpsata "**Lisata**". Selle aktiveerimiseks peame tegema täiendava sammu, et "hoiatada" Pi-Hole'i, et ta võtaks selle nimekirja üle. Selleks:
 
 
 

@@ -1,0 +1,9 @@
+question: Ni igiki co gutangura guharura umukono wa ECDSA?
+answer: Ubutumwa Hash.
+wrong_answers:
+  - Urufunguzo rwa bose
+  - Nonce idahinduka.
+  - Umugongo w'umugongo
+explanation: |
+  Umukono wa ECDSA utangura no kubara Hash y'ubutumwa buzoshirwako umukono, kenshi na SHA256.
+reviewed: false

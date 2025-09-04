@@ -1,0 +1,9 @@
+question: Descriptor'da `wpkh` öneki ne anlama gelir?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Tanık Senaryosu Hash
+explanation: |
+  Wpkh` öneki Pay-to-Witness-Public-Key-Hash adreslerini kullanan bir SegWit v0 betiğini gösterir.
+reviewed: false

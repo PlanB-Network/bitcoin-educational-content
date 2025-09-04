@@ -1,0 +1,9 @@
+question: Who says that "man is not an empire within an empire"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  It was Spinoza who asserted that "man is not an empire within an empire". This phrase expresses the idea that man is not separate from nature, but an integral part of it, subject to the same laws.
+reviewed: false

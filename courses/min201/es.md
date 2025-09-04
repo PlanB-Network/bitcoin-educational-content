@@ -80,7 +80,7 @@ Los ASIC son chips, similares a los chips de una CPU, sin embargo, están diseñ
 
 En la actualidad, los mineros utilizan exclusivamente ASICs dedicados a esta operación, optimizados para probar el mayor número posible de combinaciones con el menor consumo de energía y la mayor rapidez posible. Estas computadoras, incapaces de realizar tareas distintas a la minería de Bitcoin, son un testimonio tangible de la continua evolución y especialización de la industria minera de Bitcoin. Esta evolución constante refleja la dinámica intrínseca de Bitcoin, donde un ajuste de la dificultad garantiza la producción de un bloque cada diez minutos a pesar del aumento exponencial de la capacidad de minería.
 
-Para ilustrar la intensidad de este proceso, consideremos un minero típico capaz de realizar 14 TeraHash por segundo, es decir, 14 mil millones de intentos cada segundo para encontrar el hash correcto. A escala de la red de Bitcoin, actualmente se alcanzan aproximadamente 300 HexaHash por segundo, lo que destaca la potencia colectiva movilizada en la minería de Bitcoin.
+Para ilustrar la intensidad de este proceso, consideremos un minero típico capaz de realizar 14 TeraHash por segundo, es decir, 14 mil millones de intentos cada segundo para encontrar el hash correcto. A escala de la red de Bitcoin, actualmente se alcanzan aproximadamente 300 ExaHash por segundo, lo que destaca la potencia colectiva movilizada en la minería de Bitcoin.
 
 ### Ajuste de la dificultad:
 

@@ -1,10 +1,9 @@
-question: Mitä Lightning-verkko mahdollistaa?
-answer: Välittömät, edulliset Bitcoin-siirrot.
+question: Mikä on keskimääräinen aikaväli kahden lohkon luomisen välillä Bitcoin-protokollassa?
+answer: 10 minuuttia.
 wrong_answers:
-  - Välittömät, kalliit Bitcoin-siirrot.
-  - Viivästetyt, edulliset Bitcoin-siirrot.
-  - Viivästetyt, kalliit Bitcoin-siirrot.
-explanation: >-
-  Lightning-verkko mahdollistaa välittömät, edulliset Bitcoin-siirrot,
-  ratkaisten näin Bitcoinin skaalautuvuusongelman.
+  - 5 minuuttia.
+  - 15 minuuttia.
+  - 20 minuuttia.
+explanation: |
+  Keskimääräinen aikaväli kahden lohkon luomisen välillä Bitcoin-protokollassa on 10 minuuttia.
 reviewed: true

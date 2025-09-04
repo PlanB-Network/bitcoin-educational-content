@@ -167,7 +167,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 如需安裝和設定 Blockstream Green 應用程式的說明，請參閱本其他教學的第一部分：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 進入 Blockstream Green 應用程式後，按一下「*設定新的 Wallet*」按鈕。
 
@@ -420,3 +420,5 @@ Green 會顯示接收 Address，但在使用之前，必須先在 Jade 上檢查
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

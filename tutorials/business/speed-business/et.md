@@ -22,7 +22,7 @@ Bitcoin ülemaailmne kasutuselevõtt põhineb käegakatsutavatel kasutusjuhtudel
 
 
 
-Speedil on lai valik funktsioone, mis katavad teie ettevõtte finantsaspekte. Leiad :
+Speedil on lai valik funktsioone, mis katavad teie ettevõtte finantsaspekte. Leiad:
 
 
 

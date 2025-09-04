@@ -1062,7 +1062,7 @@ Razvijen od strane Canonical-a i lansiran 2004. godine, Ubuntu je jedna od najpo
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnir
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po defaultu i dobro dizajniranim alatom za ažuriranje. S druge strane, u velikoj meri se oslanja na Ubuntu infrastrukturu, što ga čini zavisnim od Ubuntu-ovih tehničkih izbora (posebno na nivou kernela i repozitorijuma). Mint je posebno pogodan za netehničke korisnike, ili one koji žele sistem spreman za upotrebu koji ne zahteva previše učenja.
 
@@ -1246,7 +1246,7 @@ Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolaz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na Hard disk.
 
@@ -1300,9 +1300,9 @@ PureOS je distribucija izvedena iz Debiana koju razvija Purism, potpuno besplatn
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi mikroračunare. Bazirana je na Debianu, sa paketima rekompajliranim za ARM arhitekturu. Može se koristiti za obrazovne projekte, elektronsko testiranje ili male lične servere.
 
@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workst
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ova panorama vam daje pregled trenutnog ekosistema Linux distribucija, omogućavajući vam da odaberete distribuciju koja najbolje odgovara vašem tehničkom profilu i ciljevima.
-
-
 
 U sledećem poglavlju SCU202, detaljnije ćemo razmotriti praktično Linux okruženje, počevši od grafičkih okruženja koja čine osnovu vaših svakodnevnih interakcija sa sistemom.
 
-
-
 ## Linux desktop okruženja
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički Layer koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
-
-
 
 U ovom poglavlju istražujem strukturu i ulogu desktop okruženja, njegove tipične komponente, glavne dostupne porodice, kriterijume za odabir i njihovu integraciju u najpopularnije Linux distribucije.
 
-
-
 ### Šta je kancelarijsko okruženje?
 
-
-
 Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički Interface operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske za delimičnu modifikaciju Interface). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
-
-
 
 U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera preko kernela), i na kraju sam desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički Interface. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelarijski paket
 
 
@@ -5754,6 +5742,7 @@ Firefox ostaje merilo za sigurnost i privatnost, uprkos tome što zaostaje malo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Pregledač
 
 
@@ -5774,15 +5763,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Podrazumevano, LibreWolf aktivira napredna sigurnosna podešavanja Firefoxa (kao
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je besplatan i otvoren izvorni pregledač zasnovan na Firefoxu (Gecko engine), pokrenut 2024. godine. Njegov cilj je da ponudi moderno, elegantno, visoko prilagodljivo i pre svega iskustvo pregledanja usmereno na privatnost, bez oslanjanja na Chromium.
 
-
-
 Zen se ističe svojim radikalnim pristupom Interface i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko endžinom. Uključuje :
-
-
-
 
 - Minimalistički, modularni Interface, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
 - Sistem prilagodljivih Interface šablona (*Zen Mods*) koji se mogu koristiti za duboku izmenu izgleda pregledača;
 - Originalna funkcija pod nazivom *Glance*, koja otvara link u laganom privremenom prozoru, izbegavajući nered sa karticama...
 
-
-
 Zen takođe podržava ekstenzije za Firefox, kao i sinhronizaciju putem Mozilla naloga.
-
-
 
 Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih strana koje prate korisnike. Pregledač sam po sebi ne prikuplja nikakve podatke, a takođe omogućava da se onemogući Mozilla telemetrija. Takođe automatski odbacuje zastarele ili neusklađene SSL sertifikate.
 
-
-
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Pregledači zasnovani na WebKit-u
 
-
-
 #### Safari
-
-
 
 Glavni pregledač koji još uvek koristi WebKit rendering engine (nije Fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
 
-
-
 Međutim, Safari ostaje zatvoren, ograničen na macOS za svoju desktop verziju, i zavisan od Apple ekosistema. Iako Apple ima snažnu politiku privatnosti, sa poslovnim modelom koji se prvenstveno zasniva na prodaji hardvera, a ne na oglašavanju, ostaje nejasno u vezi sa određenim internim praksama.
-
-
 
 Ovde se fokusiramo na desktop pregledače, ali je važno napomenuti da na iOS-u, Apple zahteva da svi pregledači koriste WebKit rendering engine (ograničenje koje bi se, međutim, uskoro moglo promeniti kao rezultat određenih evropskih regulativa). To znači da pregledači kao što su Chrome, Firefox ili Brave moraju, na iOS-u, ponuditi aplikaciju zasnovanu na WebKit-u, a ne na njihovom uobičajenom rendering engine-u.
 
@@ -5889,6 +5855,7 @@ Orion je u potpunosti razvijen od strane Kagi tima (poznatog po svom pretraživa
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Pregledači bez renderovanja motora
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS integriše bez vlasničkih komponenti. Slobodni ste da dodate Google 
 Grafen je kompatibilan samo sa novijim Google Pixelima (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta raz
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis je sveobuhvatna aplikacija otvorenog koda. Šifrira vašu 2FA bazu podatak
 Ente Auth je moderno, open-source, multiplatformsko rešenje sa end-to-end enkriptovanim rezervnim kopijama. Omogućava vam da sigurno sinhronizujete vaše 2FA kodove na mobilnim uređajima, desktopu i webu. Takođe ga možete koristiti offline, bez rezervne kopije u oblaku ili kreiranja naloga.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisana pretraga, sigurno deljenje kodova sa timom.
 
 
@@ -7642,6 +7611,7 @@ Authy nudi sinhronizaciju 2FA na više uređaja, što može biti korisno, ali ap
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-ovima, preporučujem da pročitate posvećena poglavlja u kursu SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan I
 Aplikacija takođe integriše tajmer i štopericu, sa snimanjem krugova, statistikom, poređenjem vremena i upravljanjem više tajmera. Možete konfigurisati više vremenskih zona, prilagoditi temu (boje, stilove, animacije), pa čak i organizovati svoje alarme i tajmere sa oznakama.
 
 
+Da biste dublje istražili temu, preporučujem da posetite sajt [*Awesome Privacy*](https://awesome-privacy.xyz/), koji navodi najbolje alternative koje poštuju privatnost za softver koji koristite svakodnevno.
 ___
 
 
@@ -8526,6 +8497,7 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na nivou operativnog sistema: Neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: Aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
 
 
@@ -8626,3 +8598,4 @@ Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

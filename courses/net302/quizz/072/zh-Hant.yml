@@ -1,0 +1,9 @@
+question: 哪一種 IPv6 區塊可讓公司在變更 ISP 時仍保留其前綴？
+answer: PI（獨立供應商）
+wrong_answers:
+  - PA（提供商可匯總）
+  - LIR (本地網際網路註冊處)
+  - IP（互換式供應商）
+explanation: |
+  PI (Provider Independent) 區塊由 RIR 直接分配給組織，獨立於網際網路服務供應商。
+reviewed: false

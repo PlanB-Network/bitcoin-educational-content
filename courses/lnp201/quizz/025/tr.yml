@@ -1,0 +1,9 @@
+question: Lightning Network'da bir kanalı kapatmanın üç yöntemi nedir?
+answer: İşbirliğine dayalı kapatma, zorla kapatma, hile ile kapatma
+wrong_answers:
+  - Hızlı kapatma, yavaş kapatma, çift imzalı kapatma
+  - Güvenli kapatma, otomatik kapatma, fon kaybı ile kapatma
+  - Doğrudan kapatma, dolaylı kapatma, talep ile kapatma
+explanation: |
+  Üç yöntem vardır: tarafların anlaştığı işbirlikçi kapatma, bir tarafın yanıtı olmadan zorla kapatma ve bir tarafın eski bir işlemi yayınlamaya çalıştığı hileli kapatma.
+reviewed: false

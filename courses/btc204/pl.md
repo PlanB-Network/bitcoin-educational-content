@@ -147,7 +147,7 @@ Model ten znacznie różni się od tradycyjnych systemów bankowych, które opie
 Bitcoin działa inaczej. Koncepcja konta nie istnieje, a jednostki pieniężne nie są zarządzane poprzez salda, ale poprzez UTXO. UTXO reprezentuje określoną ilość bitcoinów, które nie zostały jeszcze wydane, tworząc w ten sposób "kawałek Bitcoin", który może być duży lub mały. Na przykład, jeden UTXO może być wart `500 BTC` lub po prostu `700 Sats`.
 
 
-**> Satoshi, często skracana do sat, jest najmniejszą jednostką Bitcoin, porównywalną z centymem w walutach fiducjarnych.
+**Przypomnieć:** Satoshi, często skracana do sat, jest najmniejszą jednostką Bitcoin, porównywalną z centymem w walutach fiducjarnych.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin działa inaczej. Koncepcja konta nie istnieje, a jednostki pieniężne n
 Teoretycznie jeden UTXO może reprezentować dowolną wartość w bitcoinach, od jednego do teoretycznego maksimum wynoszącego około 21 milionów BTC. Jednak logicznie niemożliwe jest posiadanie wszystkich 21 milionów bitcoinów i istnieje niższy próg ekonomiczny zwany "Dust", poniżej którego UTXO jest uważany za ekonomicznie nieopłacalny do wydania.
 
 
-**> Największy UTXO kiedykolwiek utworzony na Bitcoin miał wartość `500 000 BTC`. Został on utworzony przez platformę MtGox podczas operacji konsolidacji w listopadzie 2011 roku: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Czy wiesz?** Największy UTXO kiedykolwiek utworzony na Bitcoin miał wartość `500 000 BTC`. Został on utworzony przez platformę MtGox podczas operacji konsolidacji w listopadzie 2011 roku: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO i warunki wydatków
@@ -215,7 +215,7 @@ Każda transakcja Bitcoin składa się z jednego lub więcej wejść i jednego l
 ![BTC204](assets/fr/011.webp)
 
 
-**> Teoretycznie transakcja Bitcoin może mieć nieskończoną liczbę wejść i wyjść. Jedynym ograniczeniem jest maksymalny rozmiar bloku.
+**Czy wiesz?** Teoretycznie transakcja Bitcoin może mieć nieskończoną liczbę wejść i wyjść. Jedynym ograniczeniem jest maksymalny rozmiar bloku.
 
 
 Każde wejście w transakcji Bitcoin odnosi się do poprzedniego niewydanego UTXO. Aby użyć UTXO jako danych wejściowych, jego posiadacz musi wykazać, że jest jego prawowitym właścicielem poprzez walidację powiązanego skryptu, tj. poprzez spełnienie nałożonego warunku wydatkowania. Ogólnie rzecz biorąc, oznacza to dostarczenie podpisu cyfrowego złożonego za pomocą klucza prywatnego odpowiadającego kluczowi publicznemu, który pierwotnie zabezpieczył ten UTXO. Skrypt polega zatem na sprawdzeniu, czy podpis odpowiada kluczowi publicznemu użytemu w momencie otrzymania środków.
@@ -306,7 +306,7 @@ Bitcoiny subsydiowane blokowo to nowe BTC tworzone od podstaw, zgodnie z wcześn
 Jeśli chodzi o opłaty transakcyjne, to chociaż one również reprezentują nowo utworzone BTC, nie mogą one przekraczać różnicy między całkowitymi danymi wejściowymi i wyjściowymi wszystkich transakcji w bloku. Widzieliśmy wcześniej, że opłaty te reprezentują część wejść, która nie jest wykorzystywana w wyjściach transakcji. Ta część jest technicznie "tracona" podczas transakcji, a Miner ma prawo do odtworzenia tej wartości w postaci jednego lub więcej nowych UTXO. Jest to transfer wartości między wystawcą transakcji a Miner, który dodaje ją do Blockchain.
 
 
-**> Bitcoiny wygenerowane przez Coinbase Transaction podlegają okresowi zapadalności wynoszącemu 100 bloków, podczas którego nie mogą zostać wydane przez Miner. Zasada ta ma na celu uniknięcie komplikacji związanych z wykorzystaniem nowo utworzonych bitcoinów w łańcuchu, który później może stać się przestarzały.
+**Czy wiesz?** Bitcoiny wygenerowane przez Coinbase Transaction podlegają okresowi zapadalności wynoszącemu 100 bloków, podczas którego nie mogą zostać wydane przez Miner. Zasada ta ma na celu uniknięcie komplikacji związanych z wykorzystaniem nowo utworzonych bitcoinów w łańcuchu, który później może stać się przestarzały.
 
 
 ### Implikacje modelu UTXO
@@ -341,12 +341,8 @@ Dlatego używamy pieniędzy do przenoszenia wartości zarówno w czasie, jak i p
 
 
 Aby monety mogły rozwiązać ten problem, konieczne jest, aby strona dostarczająca towar lub usługę była przekonana o swojej zdolności do wydania tej kwoty w późniejszym terminie. Tak więc każda racjonalna osoba, która chce zaakceptować monetę, cyfrową lub fizyczną, upewni się, że spełnia ona dwa podstawowe kryteria:
-
-
-
-
-- Utwór musi charakteryzować się integralnością i autentycznością ;**
-- i nie mogą być wydawane podwójnie**
+- **Utwór musi charakteryzować się integralnością i autentycznością ;**
+- **i nie mogą być wydawane podwójnie**
 
 
 Jeśli korzystasz z fizycznej waluty, jest to pierwsza cecha, która jest najbardziej złożona do potwierdzenia. W różnych okresach historii integralność metalowych monet była często naruszana przez praktyki takie jak przycinanie lub przekłuwanie. Na przykład w starożytnym Rzymie powszechną praktyką obywateli było zdrapywanie krawędzi złotych monet w celu zebrania odrobiny cennego metalu, zachowując je na przyszłe transakcje. Wewnętrzna wartość monety została w ten sposób zmniejszona, ale jej wartość nominalna pozostała taka sama. Jest to jeden z powodów, dla których krawędź monety została później karbowana.
@@ -441,15 +437,9 @@ Analiza Blockchain to praktyka śledzenia przepływu bitcoinów na Blockchain. O
 
 
 Mówiąc prościej, istnieją trzy główne etapy analizy łańcucha:
-
-
 1. **Obserwacja Blockchain ;**
-
-
 2. **Identyfikacja znanych cech ;**
-
-
-3. **Odliczenie założeń **
+3. **Odliczenie założeń**
 
 
 ![BTC204](assets/fr/026.webp)

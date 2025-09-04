@@ -1,11 +1,11 @@
-question: Worum ging es im Blockkrieg im Jahr 2017?
-answer: Ein Konflikt darüber, ob die Blockgröße erhöht werden sollte, um die Transaktionskapazität zu erweitern.
+question: Was ist die HashRate?
+answer: Die Anzahl der Hash-Berechnungen, die ein Mining-Gerät pro Sekunde durchführen kann, um den Proof of Work zu lösen.
 wrong_answers:
-  - Ein Konflikt darüber, ob die Blockgröße verringert werden sollte, um die Transaktionskapazität zu reduzieren.
-  - Ein Konflikt darüber, ob die Blockbelohnung erhöht werden sollte, um Miner zu incentivieren.
-  - Ein Konflikt darüber, ob die Blockbelohnung verringert werden sollte, um Miner zu disincentivieren.
-explanation: |
-  Der Blockkrieg im Jahr 2017 war ein Konflikt darüber, ob
-  Bitcoin durch Erhöhung der Blockgröße modifiziert werden sollte,
-  um die Transaktionskapazität zu erweitern.
+  - Die Geschwindigkeit, mit der ein Mining-Gerät den Proof of Work lösen kann.
+  - Die Gesamtzahl der Miner im Bitcoin-Netzwerk.
+  - Die Gesamtmenge an Bitcoins, die durch eine bestimmte Anzahl von Versuchen pro Sekunde abgebaut wird, um den Proof of Work zu lösen.
+explanation: >-
+  Die HashRate bezieht sich auf die Gesamtzahl der Versuche, die Miner
+  pro Sekunde unternehmen, um den Proof of Work zu lösen. Sie ist ein Maß für die Rechenleistung
+  des Bitcoin-Netzwerks.
 reviewed: true

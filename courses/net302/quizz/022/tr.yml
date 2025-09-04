@@ -1,0 +1,9 @@
+question: Bir TCP segmentindeki "ACK" bayrağının amacı nedir?
+answer: Segmentlerin alındığını onaylamak için
+wrong_answers:
+  - Bağlantı kapatmayı başlatmak için
+  - Değiş tokuş edilen veri akışını şifrelemek için
+  - Kullanılan servis portunu tanımlamak için
+explanation: |
+  ACK bayrağı ayarlandığında, bir segmentin başarıyla alındığını onaylar ve bir sonraki beklenen sıra numarasını belirtir.
+reviewed: false

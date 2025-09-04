@@ -1,0 +1,12 @@
+question: Avusturyacı analiz ile monetarist ve Keynesyenlerin analizi arasındaki temel fark nedir?
+answer: Parasalcılar ve Keynesyenler istihdam seviyeleri, GSYİH veya tüketici fiyat endeksi gibi toplu değişkenlerle yetinirken, Avusturyalı analiz üretimin çeşitli aşamalarına ve göreli fiyatların yapısına özellikle dikkat etmektedir.
+wrong_answers:
+  - Avusturyalı analiz istihdam seviyeleri, GSYİH veya tüketici fiyat endeksi gibi toplu değişkenler üzerinde dururken, monetaristler ve Keynesyenler üretimin çeşitli aşamalarına ve göreli fiyatların yapısına özellikle dikkat etmektedir.
+  - Avusturya analizi ile monetarist ve Keynesyenlerin analizi temelde aynıdır.
+  - Avusturyalı analiz dışsal olaylara ve hayvan ruhlarına odaklanırken, parasalcılar ve Keynesyenler kısmi rezerv bankacılık sisteminin içsel dinamiklerine odaklanmaktadır.
+explanation: |
+  Avusturya analizi ile monetaristlerin analizi arasındaki temel fark
+  keynesyenler arasındaki fark, ilkinin çeşitli aşamalara özel önem vermesidir
+  üretim ve göreli fiyatların yapısı üzerinde dururken, ikincisi
+  istihdam seviyeleri, GSYİH veya tüketici fiyat endeksi gibi toplu değişkenler.
+reviewed: true

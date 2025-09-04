@@ -1,0 +1,9 @@
+question: ¿Qué técnica permite que varias máquinas internas compartan una única IP Address pública para acceder a Internet?
+answer: NAT (Traducción Address de red)
+wrong_answers:
+  - ARP (Protocolo de resolución Address)
+  - DHCP (Protocolo de configuración dinámica de host)
+  - CIDR (Enrutamiento entre dominios sin clases)
+explanation: |
+  NAT traduce las direcciones internas privadas en una IP pública Address, lo que permite a varios dispositivos compartir la misma conexión externa.
+reviewed: false

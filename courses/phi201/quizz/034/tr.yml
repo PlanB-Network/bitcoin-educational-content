@@ -1,0 +1,9 @@
+question: Roma düşüncesine göre doğal hukuk ile pozitif hukuk arasındaki fark nedir?
+answer: Doğal hukuk evrensel ve değişmezdir, pozitif hukuk ise değişkendir ve insan yasalarına bağlıdır.
+wrong_answers:
+  - Doğal hukuk güçlülerin hukuku iken, pozitif hukuk zayıfların hukukudur.
+  - Doğal hukuk dine, pozitif hukuk ise akla dayanır.
+  - Doğal hukuk sadece Roma vatandaşları için geçerliyken, pozitif hukuk İmparatorluğun tüm sakinleri için geçerlidir.
+explanation: |
+  Roma düşüncesinde doğal hukuk, değişmez ilkelerden kaynaklanan evrensel ve değiştirilemez olarak kabul edilir. Buna karşılık pozitif hukuk, insanlar tarafından oluşturulan ve sosyal ve siyasi bağlamlara göre değişime tabi olan bir dizi kuralı ifade eder.
+reviewed: true

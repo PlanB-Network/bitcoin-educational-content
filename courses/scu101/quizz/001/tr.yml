@@ -1,0 +1,13 @@
+question: Tarayıcınızda yüklü uzantıların sayısını sınırlamanız neden önerilir?
+answer: Olası güvenlik ve performans sorunlarını önlemek için.
+wrong_answers:
+  - Cihazınızda depolama alanından tasarruf etmek için.
+  - Tarayıcının çökmesini önlemek için.
+  - Üçüncü taraf siteler tarafından izlenmekten kaçınmak için.
+explanation: |
+  Tarayıcı uzantıları yararlı olabilirken
+  işlevsellikler, aynı zamanda güvenlik riskleri de oluşturabilirler
+  verilerinize ve tarama etkinliğinize erişebilir. Ayrıca,
+  çok fazla uzantıya sahip olmak tarayıcınızı yavaşlatabilir ve
+  performansını etkiler.
+reviewed: true

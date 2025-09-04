@@ -209,7 +209,7 @@ git clone https://github.com/CISOfy/lynis.git
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -623,7 +623,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-让我们仔细看看我当前在 :**/etc/ssh/sshd_config** 中的**SSH**配置
+让我们仔细看看我当前在:**/etc/ssh/sshd_config** 中的**SSH**配置
 
 
 

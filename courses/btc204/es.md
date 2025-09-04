@@ -100,7 +100,7 @@ Este modelo difiere profundamente de los sistemas bancarios tradicionales, que s
 
 Bitcoin funciona de forma diferente. El concepto de cuenta no existe, y las unidades monetarias no se gestionan mediante saldos, sino a través de UTXOs. Un UTXO representa una cantidad específica de bitcoins que aún no se ha gastado, formando así una "pieza de bitcoin", que puede ser grande o pequeña. Por ejemplo, un UTXO puede valer `500 BTC` o simplemente `700 SATS`.
 
-**> El satoshi, a menudo abreviado como sat, es la unidad más pequeña de Bitcoin, comparable al céntimo de las monedas fiduciarias.
+**Recordar:** El satoshi, a menudo abreviado como sat, es la unidad más pequeña de Bitcoin, comparable al céntimo de las monedas fiduciarias.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin funciona de forma diferente. El concepto de cuenta no existe, y las unid
 
 Teóricamente, un UTXO puede representar cualquier valor en bitcoins, desde un sat hasta un máximo teórico de unos 21 millones de BTC. Sin embargo, es lógicamente imposible poseer los 21 millones de bitcoins, y existe un umbral económico inferior denominado "polvo", por debajo del cual se considera económicamente poco rentable gastar un UTXO.
 
-**> El mayor UTXO jamás creado en Bitcoin tenía un valor de `500.000 BTC`. Fue creado por la plataforma MtGox durante una operación de consolidación en noviembre de 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**¿Sabías?** El mayor UTXO jamás creado en Bitcoin tenía un valor de `500.000 BTC`. Fue creado por la plataforma MtGox durante una operación de consolidación en noviembre de 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs y condiciones de gasto
 
@@ -148,7 +148,7 @@ Por lo tanto, cada transacción Bitcoin consiste en una o más entradas y una o 
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teóricamente, una transacción bitcoin podría tener un número infinito de entradas y salidas. El único límite es el tamaño máximo del bloque.
+**¿Sabías?** Teóricamente, una transacción bitcoin podría tener un número infinito de entradas y salidas. El único límite es el tamaño máximo del bloque.
 
 Cada entrada en una transacción Bitcoin hace referencia a un UTXO previo no gastado. Para utilizar un UTXO como entrada, su titular debe demostrar que es el propietario legítimo validando la escritura asociada, es decir, satisfaciendo la condición de gasto impuesta. En términos generales, esto significa proporcionar una firma digital producida con la clave privada correspondiente a la clave pública que garantizó inicialmente este UTXO. El script consiste por tanto en verificar que la firma corresponde a la clave pública utilizada cuando se recibieron los fondos.
 
@@ -211,7 +211,7 @@ Los bitcoins subvencionados por bloques son nuevos BTC creados desde cero, segú
 
 En cuanto a las comisiones por transacción, aunque también representan BTC de nueva creación, no deben superar la diferencia entre el total de entradas y salidas de todas las transacciones de un bloque. Hemos visto antes que estas comisiones representan la parte de las entradas que no se utiliza en las salidas de las transacciones. Esta parte se "pierde" técnicamente durante la transacción, y el minero tiene derecho a recrear este valor en forma de uno o más nuevos UTXOs. Se trata de una transferencia de valor entre el emisor de la transacción y el minero que la añade a la blockchain.
 
-**> Los bitcoins generados por una transacción coinbase están sujetos a un periodo de maduración de 100 bloques, durante el cual no pueden ser gastados por el minero. Esta norma está pensada para evitar complicaciones vinculadas al uso de bitcoins recién creados en una cadena que más tarde podría quedar obsoleta.
+**¿Sabías?** Los bitcoins generados por una transacción coinbase están sujetos a un periodo de maduración de 100 bloques, durante el cual no pueden ser gastados por el minero. Esta norma está pensada para evitar complicaciones vinculadas al uso de bitcoins recién creados en una cadena que más tarde podría quedar obsoleta.
 
 ### Implicaciones del modelo UTXO
 
@@ -235,10 +235,8 @@ Por eso utilizamos el dinero para mover valor tanto en el espacio como en el tie
 ![BTC204](assets/fr/018.webp)
 
 Para que la moneda solucione este problema, es esencial que la parte que proporciona un bien o servicio esté convencida de su capacidad para gastar esa suma en una fecha posterior. Así, cualquier individuo racional que desee aceptar una moneda, ya sea digital o física, se asegurará de que cumple dos criterios fundamentales:
-
-
-- La pieza debe tener integridad y autenticidad ;**
-- y no debe gastarse dos veces.**
+- **La pieza debe tener integridad y autenticidad ;**
+- **y no debe gastarse dos veces.**
 
 Si se utiliza moneda física, la primera característica es la más compleja de afirmar. En distintos periodos de la historia, la integridad de las monedas metálicas se ha visto a menudo afectada por prácticas como el recorte o la perforación. En la antigua Roma, por ejemplo, era práctica habitual que los ciudadanos rasparan los bordes de las monedas de oro para recoger un poco del metal precioso y guardarlas para futuras transacciones. De este modo se reducía el valor intrínseco de la moneda, pero su valor nominal seguía siendo el mismo. Esta es una de las razones por las que posteriormente se estrió el canto de la moneda.
 
@@ -307,7 +305,7 @@ En términos sencillos, el análisis de la cadena consta de tres etapas principa
 
 2. **La identificación de rasgos conocidos ;**
 
-3. **La deducción de supuestos **
+3. **La deducción de supuestos**
 
 ![BTC204](assets/fr/026.webp)
 

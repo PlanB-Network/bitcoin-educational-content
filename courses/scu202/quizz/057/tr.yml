@@ -1,0 +1,9 @@
+question: Hangi tarayıcı 1995 yılında JavaScript'i tanıttı?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator, web sayfalarında dinamik etkileşim sağlamak için 1995 yılında Brendan Eich tarafından geliştirilen JavaScript dilini entegre etti.
+reviewed: false

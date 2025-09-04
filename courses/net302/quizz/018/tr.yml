@@ -1,0 +1,9 @@
+question: IP protokolü bağlamında bir datagram nedir?
+answer: Ağ üzerinden taşınan bağımsız bir veri bloğu
+wrong_answers:
+  - Tek bir cihaza yönelik şifrelenmiş bir mesaj
+  - UDP içinde kapsüllenmiş bir TCP segmenti
+  - Ağ Erişimi Layer'dan gelen fiziksel bir sinyal
+explanation: |
+  IP verileri, teslimat için gereken tüm bilgileri içeren bağımsız bloklar olan datagramlar şeklinde iletilir.
+reviewed: false

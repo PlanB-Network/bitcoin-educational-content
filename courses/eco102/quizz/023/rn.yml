@@ -1,0 +1,9 @@
+question: Ni ibihe bice biri mu ntambara nk’uko Comte na Dunoyer babivuga?
+answer: Abariha imisoro n’abayibeshaho .
+wrong_answers:
+  - Abakozi n'abakoresha .
+  - Abanyagihugu n'abanyagihugu
+  - Abacuruzi n’abahinguzi b’ibintu .
+explanation: |
+  Comte na Dunoyer babona amakimbirane y’imigwi hagati y’abahingura, abatanga amahera biciye ku misoro, n’abatari abahingura, bakavyungukirako.
+reviewed: false

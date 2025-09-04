@@ -1,0 +1,9 @@
+question: Ni iciyumviro ikihe c’ubutunzi Bastiat ashira ahabona mu gusuzuma igiciro c’ugusambura?
+answer: Igiciro c'amahirwe
+wrong_answers:
+  - Igiciro co ku ruhande
+  - Umwimbu wo ku ruhande
+  - Igiciro c'umusaruro
+explanation: |
+  Bastiat ashimika ku kamaro k’igiciro c’amahirwe, yerekana ko ubutunzi bwakoreshejwe mu gusanura ivyo vyasambutse bwari gushobora gukoreshwa mu kurema ubutunzi ahandi.
+reviewed: false

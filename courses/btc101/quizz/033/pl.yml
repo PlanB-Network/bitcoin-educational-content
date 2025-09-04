@@ -1,10 +1,12 @@
-question: Dlaczego Bitcoin jest uważany za nową formę pieniądza?
-answer: Ponieważ jest to pieniądz cyfrowy bez podmiotu centralnego.
+question: Jaka jest strategia stosowana przez podmioty centralne w celu dewaluacji waluty fiducjarnej?
+answer: Zwiększają one masę pieniężną o kilka procent każdego roku.
 wrong_answers:
-  - Ponieważ jest to waluta cyfrowa wspierana przez złoto.
-  - Ponieważ jest to waluta, która wymaga banku Blockchain.
-  - Ponieważ Rezerwa Federalna tak twierdzi.
+  - Zmniejszają one masę monetarną o kilka procent każdego roku.
+  - Utrzymują one stałą masę pieniężną w porównaniu do masy początkowej.
+  - Ich masa pieniężna losowo zmienia się w porównaniu do masy początkowej.
 explanation: |
-  Bitcoin może być postrzegany jako nowa forma pieniądza, ponieważ wyłania się
-  z sieci peer-to-peer bez centralnego podmiotu.
+  Podmioty centralne często dewaluują walutę, zwiększając jej masę
+  masę monetarną w porównaniu do początkowej o kilka procent rocznie
+  każdego roku. Ta cicha dewaluacja jest często uzasadniana
+  w interesie ludzi.
 reviewed: true

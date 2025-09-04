@@ -1,0 +1,9 @@
+question: Ni insobanuro iyihe y’umwidegemvyo yatanzwe na Lord Acton?
+answer: Ububasha bwo gukora ivyo ijwi ryo mu mutima ryiwe rimubwira, mbere n’ukurwanya iciyumviro ca benshi .
+wrong_answers:
+  - Ubushobozi bwo gukora ivyo umuntu ashaka vyose .
+  - Kubura inzitizi iyo ari yo yose
+  - Uburinzi ku bitero biva hanze
+explanation: |
+  Lord Acton asobanura umwidegemvyo nk’ububasha bwo gukora ivyo ijwi ryo mu mutima ryiwe rimubwira, agashimika ku kamaro k’ubushobozi umuntu afise bwo gufata ingingo yiwe bwite, mbere n’igihe izo ngingo ziteye kubiri n’ivyiyumviro vy’abantu benshi.
+reviewed: true

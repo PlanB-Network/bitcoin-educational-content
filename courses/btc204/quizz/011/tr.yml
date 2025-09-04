@@ -1,0 +1,9 @@
+question: Bitcoin gibi bir dijital para birimi ile elde edilmesi en zor özellik nedir?
+answer: Çifte harcamanın olmaması
+wrong_answers:
+  - Bütünlük
+  - Özgünlük
+  - Veracity
+explanation: |
+  Dijital para birimleri için, çifte harcamanın olmamasını sağlamak daha karmaşıktır, çünkü herhangi bir dijital mal esasen bilgidir. Fiziksel malların aksine, bilgi değiş tokuş sırasında bölünmez ancak çoğalarak yayılır.
+reviewed: false

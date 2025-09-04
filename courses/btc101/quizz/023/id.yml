@@ -1,12 +1,10 @@
-question: Apa peran uang sebagai alat komunikasi?
-answer: Ini memungkinkan komunikasi nilai melintasi ruang dan waktu tanpa perlu mempercayai pihak lawan
+question: Apa keuntungan utama dari mata uang fiat?
+answer: Mereka mudah dibagi
 wrong_answers:
-  - Ini memungkinkan komunikasi nilai melintasi ruang saja tanpa perlu mempercayai pihak lawan
-  - Ini memungkinkan komunikasi nilai melintasi waktu saja tanpa perlu mempercayai pihak lawan
-  - Ini memungkinkan komunikasi nilai melintasi ruang dan waktu dengan perlu mempercayai pihak lawan
+  - Mereka dikendalikan oleh pihak pusat
+  - Mereka tidak mudah dibawa
+  - Mereka efektif untuk menjaga nilai sepanjang waktu
 explanation: |
-  Uang sebagai alat komunikasi memungkinkan komunikasi melintasi ruang dan waktu, saat kita mengubah waktu dan energi kita menjadi aset yang dapat digunakan kembali
-  di masa depan tanpa risiko devaluasi. Ini juga memungkinkan komunikasi dalam
-  bahasa umum universal, memungkinkan dua orang asing untuk bertukar, berdagang, dan setuju
-  pada nilai suatu hal.
-reviewed: true
+  Mata uang fiat, seperti dolar dan euro, sangat likuid dan
+  mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
+  terkikis oleh inflasi moneter.

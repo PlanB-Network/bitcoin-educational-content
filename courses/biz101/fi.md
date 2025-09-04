@@ -565,6 +565,7 @@ Tällä hetkellä skenaario, jossa enemmistöomistaja tekee päätöksen, on edu
 - Hyvin pienten yritysten omistajat** : Palvelu-, maatalous- tai käsityöalan yrittäjät, jotka ovat ymmärtäneet Bitcoinin potentiaalin ja sijoittavat osan kassavaroistaan siihen. Heidän ensisijainen motivaationsa on monipuolistaminen ja sen tarjoama vapaus
 - Julkisesti noteeratut yritykset**, kuten MicroStrategy, ovat luoneet ennakkotapauksen muuntamalla merkittävän osan yritysvaroistaan Bitcoiniksi, mikä on osoitus maailmanlaajuisesta muutoksesta yritysten pääomanjakostrategioissa. Syksyyn 2024 mennessä lukuisat muut yritykset olivat seuranneet esimerkkiä, mikä legitimoi tätä suuntausta entisestään.
 
+Tutustu päivitettyyn luetteloon yrityksistä, jotka pitävät eniten bitcoineja kassassa, sekä pidettyihin summiin, sivustolla: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Yritysten hallussa olevien bitcoinien verotus
 
 Yrityksissä, jotka eivät ole erillisiä oikeushenkilöitä - kuten yksityisyrittäjiä tai muita yhtiöimättömiä yhteisöjä - Bitcoin-transaktioiden verotus vastaa usein yksityishenkilöihin sovellettavaa kohtelua. Monissa tapauksissa sovelletaan samoja myyntivoittoja tai tuloja koskevia sääntöjä kuin jos yksityishenkilö myisi Bitcoinia. Esimerkiksi joissakin maissa voittoja saatetaan pitää osana yrittäjän henkilökohtaisia tuloja, joihin sovelletaan **yksilöllisiä tuloveroluokkia**.
@@ -865,7 +866,7 @@ Yksityiskohtaiset oppaat suositelluista lompakoista ja perusasetuksista löydät
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1366,5 +1367,6 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

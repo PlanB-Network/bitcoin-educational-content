@@ -15,7 +15,7 @@ Ratkaisu on yksinkertainen, kevyt ja itsenäinen. Se mahdollistaa verkkokaupan p
 
 
 
-Tässä opetusohjelmassa käymme askel askeleelta läpi :
+Tässä opetusohjelmassa käymme askel askeleelta läpi:
 
 
 
@@ -44,7 +44,7 @@ Ennen kuin aloitat be-BOP:n asentamisen, varmista, että sinulla on seuraava tek
 
 
 
-be-BOP käyttää tallennusjärjestelmää tiedostojen (kuten tuotekuvien) hallintaan. Tämä edellyttää pääsyä S3-palveluun, kuten :
+be-BOP käyttää tallennusjärjestelmää tiedostojen (kuten tuotekuvien) hallintaan. Tämä edellyttää pääsyä S3-palveluun, kuten:
 
 
 
@@ -302,7 +302,7 @@ Jos et halua hallita Lightning-solmua itse, **Swiss Bitcoin Pay** on käyttöval
 
 
 
-Konfigurointivaiheet :
+Konfigurointivaiheet:
 
 
 
@@ -330,7 +330,7 @@ Bitcoin:n lisäksi be-BOP:n avulla voit hyväksyä käteismaksuja myös PayPalin
 
 
 
-Konfigurointivaiheet :
+Konfigurointivaiheet:
 
 
 
@@ -467,7 +467,7 @@ Ohjelmistossa on monikielisyysominaisuudet, jotta se soveltuu kansainväliselle 
 
 
 
-#### Konfigurointivaiheet :
+#### Konfigurointivaiheet:
 
 
 
@@ -491,7 +491,7 @@ Yläpalkin Linkit-osiossa voit lisätä pikakuvakkeita tärkeille sivuille sovel
 
 
 
-#### Konfigurointivaiheet :
+#### Konfigurointivaiheet:
 
 
 
@@ -760,7 +760,7 @@ Mene kohtaan `Admin > Merch > Tuotteet` lisätäksesi tai muuttaaksesi tuotetta.
 
 - Hintamäärä**: tuotteen hinta (esim. `25.00`).
 - Hintavaluutta**: valuutta (EUR, USD, BTC jne.).
-- Erikoistuotteet** :
+- Erikoistuotteet**:
   - tämä on ilmainen tuote.
   - tämä on maksullinen tuote.
 
@@ -773,10 +773,10 @@ Mene kohtaan `Admin > Merch > Tuotteet` lisätäksesi tai muuttaaksesi tuotetta.
 
 
 - Yksittäinen tuote (standalone-tuote)**: vain yksi lisäys mahdollista tilausta kohti (esim. lahjoitus, pääsylippu).
-- Tuote vaihteluineen** :
+- Tuote vaihteluineen**:
   - Älä tarkista `Standalone`.
   - Tarkista `Tuotteessa on lieviä vaihteluita (ei varastoeroja)`.
-  - Lisää :
+  - Lisää:
     - Nimi** (esim. *Koko*),
     - Arvot** (esim. S, M, L, XL),
     - Hintaerot** tarvittaessa (esim.: `+2 USD` XL:lle).
@@ -803,7 +803,7 @@ Jos tuotetta ei ole saatavana rajoittamattomia määriä, tarkista `Tuotetta on 
 
 
 
-Järjestelmä hallinnoi :
+Järjestelmä hallinnoi:
 
 
 
@@ -872,7 +872,7 @@ Siirry kohtaan `Admin > Merch > CMS`. Näet luettelon olemassa olevista sivuista
 
 
 
-CMS-sivut ovat tärkeitä :
+CMS-sivut ovat tärkeitä:
 
 
 
@@ -906,7 +906,7 @@ Voit lisätä muita sivuja tarpeen mukaan:
 
 
 
-Siirry osoitteeseen : `Admin > Merch > Layout`. Voit muokata sivustosi visuaalista Elements:ää:
+Siirry osoitteeseen: `Admin > Merch > Layout`. Voit muokata sivustosi visuaalista Elements:ää:
 
 
 
@@ -932,7 +932,7 @@ Siirry osoitteeseen : `Admin > Merch > Layout`. Voit muokata sivustosi visuaalis
 
 
 - Läsnä harmaalla alueella yläpalkin alapuolella
-- Sisältää nopean pääsyn : `Config`, `Maksuasetukset`, `Transaktio`, `Solmujen hallinta`, `Widgetit`, jne.
+- Sisältää nopean pääsyn: `Config`, `Maksuasetukset`, `Transaktio`, `Solmujen hallinta`, `Widgetit`, jne.
 - Vain johtajat
 
 
@@ -956,7 +956,7 @@ Mene osoitteeseen: `Admin > Merch > Kuvat`
 
 
 
-Voit :
+Voit:
 
 
 
@@ -1004,7 +1004,7 @@ Esimerkkejä käytettävissä olevista widgeteistä:
 - Haasteet**: haasteet tai tehtävät
 - Tunnisteet**: luokat tai avainsanat
 - Sliders**: kuvakarusellit
-- Tekniset tiedot** : Tekniset tiedot taulukot
+- Tekniset tiedot**: Tekniset tiedot taulukot
 - Lomakkeet**: lomakkeet (yhteydenotto, palaute jne.)
 - Lähtölaskenta**: ajastimet
 - Galleriat**: Kuvagalleriat
@@ -1033,7 +1033,7 @@ Käytä CMS-sivujesi sisällössä **lyhytkoodeja**:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Tämänhetkiset parametrit** :
+**Tämänhetkiset parametrit**:
 
 
 
@@ -1046,7 +1046,7 @@ Käytä CMS-sivujesi sisällössä **lyhytkoodeja**:
 
 
 
-**Hyötyjä** :
+**Hyötyjä**:
 
 
 
@@ -1103,7 +1103,7 @@ Nämä suodattimet helpottavat nopeita hakuja ja kohdennettua hallintaa.
 
 
 
-Klikkaamalla tilausta pääset käsiksi täydelliseen tiedostoon, joka sisältää :
+Klikkaamalla tilausta pääset käsiksi täydelliseen tiedostoon, joka sisältää:
 
 
 
@@ -1120,7 +1120,7 @@ Klikkaamalla tilausta pääset käsiksi täydelliseen tiedostoon, joka sisältä
 
 
 
-Voit :
+Voit:
 
 
 
@@ -1141,7 +1141,7 @@ Voit :
 
 
 
-Myynti- ja maksutilastojen käyttö :
+Myynti- ja maksutilastojen käyttö:
 
 
 järjestelmänvalvoja > Asetukset > Raportointi
@@ -1176,7 +1176,7 @@ Kertomukset on jaettu osiin:
 
 
 
-Jokaisessa osiossa on **Export CSV** -painike, jonka avulla voit :
+Jokaisessa osiossa on **Export CSV** -painike, jonka avulla voit:
 
 
 
@@ -1217,7 +1217,7 @@ Alusta tukee **Nostr**-protokollaa tiettyjä kehittyneitä toimintoja varten:
 
 
 
-Siirry osoitteeseen :
+Siirry osoitteeseen:
 
 
 admin > Solmujen hallinta > Nostr
@@ -1304,7 +1304,7 @@ Täältä löydät kaikki vaihtoehdot, joilla voit **luoda** ja **määrittää*
 
 
 
-Kun luot tai muokkaat teemaa, voit määrittää :
+Kun luot tai muokkaat teemaa, voit määrittää:
 
 
 
@@ -1328,7 +1328,7 @@ Sivuston jokainen osa voidaan säätää itsenäisesti:
 
 - Otsikko**: ylänavigointipalkki
 - Runko**: pääsisältö
-- Alatunniste** : sivun alareuna
+- Alatunniste**: sivun alareuna
 
 
 
@@ -1340,7 +1340,7 @@ Sivuston jokainen osa voidaan säätää itsenäisesti:
 
 
 
-Kun teema on määritetty :
+Kun teema on määritetty:
 
 
 
@@ -1371,7 +1371,7 @@ Alustan avulla voit muokata käyttäjille automaattisesti lähetettäviä sähk�
 
 
 
-Jokaisessa sähköpostiviestissä (tilausvahvistus, unohtunut salasana jne.) on :
+Jokaisessa sähköpostiviestissä (tilausvahvistus, unohtunut salasana jne.) on:
 
 
 
@@ -1390,14 +1390,14 @@ Jokaisessa sähköpostiviestissä (tilausvahvistus, unohtunut salasana jne.) on 
 
 
 
-Jos haluat tehdä sähköposteista dynaamisia, lisää muuttujia kuten :
+Jos haluat tehdä sähköposteista dynaamisia, lisää muuttujia kuten:
 
 
 
 
 
-- `{Tilausnumero}}` : korvataan todellisella tilausnumerolla
-- `{invoiceLink}}}` : linkki Invoice:een
+- `{Tilausnumero}}`: korvataan todellisella tilausnumerolla
+- `{invoiceLink}}}`: linkki Invoice:een
 - `{websiteLink}}`: Verkkosivustosi URL-osoite
 
 
@@ -1454,7 +1454,7 @@ Täytä seuraavat kentät:
 
 
 
-#### Saatavilla olevat perheet :
+#### Saatavilla olevat perheet:
 
 
 
@@ -1489,7 +1489,7 @@ Näitä kenttiä voidaan käyttää tunnisteen rikastamiseen ikään kuin se oli
 
 
 
-Tunnisteet voivat olla :
+Tunnisteet voivat olla:
 
 
 
@@ -1515,7 +1515,7 @@ Voit tarjota asiakkaillesi ladattavia asiakirjoja: `Admin > Merch > Tiedostot`
 1. Napsauta **Uusi tiedosto**
 
 
-2. Ilmoita :
+2. Ilmoita:
 
 
 
@@ -1533,7 +1533,7 @@ Voit tarjota asiakkaillesi ladattavia asiakirjoja: `Admin > Merch > Tiedostot`
 
 
 
-Tämä linkki voidaan sitten lisätä :
+Tämä linkki voidaan sitten lisätä:
 
 
 
@@ -1557,7 +1557,7 @@ Alusta tarjoaa kehittyneen integraation **Nostr**-protokollaan automaattisen bot
 
 
 
-Siirry osoitteeseen : node Management > Nostr
+Siirry osoitteeseen: node Management > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Siirry osoitteeseen : node Management > Nostr
 
 
 - Aktivoi automaattinen viesti **ensimmäisen käyttäjän vuorovaikutuksen yhteydessä**
-- Ihanteellinen :
+- Ihanteellinen:
   - Palvelun esittely
   - Lähetä hyödyllinen linkki (esim. UKK, yhteystiedot, tilaus)
 
@@ -1629,7 +1629,7 @@ Voit tehdä tämän osoitteessa: asetukset > Kieli
 
 
 
-Käännöstiedostot ovat JSON-muodossa. Voit :
+Käännöstiedostot ovat JSON-muodossa. Voit:
 
 
 
@@ -1641,7 +1641,7 @@ Käännöstiedostot ovat JSON-muodossa. Voit :
 
 
 
-Linkki alkuperäisiin tiedostoihin :
+Linkki alkuperäisiin tiedostoihin:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klikkaa **Luo rooli** luodaksesi roolin (esim. `Super Admin`, `POS`, `Ticket che
 
 
 
-Jokainen rooli sisältää :
+Jokainen rooli sisältää:
 
 
 
@@ -1688,7 +1688,7 @@ Jokainen rooli sisältää :
 
 
 
-Lisää samassa valikossa `Admin > Asetukset > ARM` käyttäjä, jolla on :
+Lisää samassa valikossa `Admin > Asetukset > ARM` käyttäjä, jolla on:
 
 
 
@@ -1760,7 +1760,7 @@ Be-BOP tarjoaa Interface:n, joka on tarkoitettu fyysiseen myyntiin (myymälä, t
 
 
 
-POS tukee :
+POS tukee:
 
 
 
@@ -1779,7 +1779,7 @@ Käytettävissä on kaksi edistynyttä vaihtoehtoa:
 
 
 
-- ALV-vapautus** : sovelletaan perusteluihin (kansalaisjärjestöt, ulkomaalaiset...)
+- ALV-vapautus**: sovelletaan perusteluihin (kansalaisjärjestöt, ulkomaalaiset...)
 - Lahja-alennus**: poikkeuksellinen alennus, johon on pakollinen huomautus
 
 

@@ -795,7 +795,7 @@ Developed by Canonical and launched in 2004, Ubuntu is one of the world's most p
 ![Image](assets/fr/020.webp)
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Linux Mint**:
@@ -804,7 +804,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 Launched in 2006, Linux Mint is a distribution derived from Ubuntu, designed to offer a more intuitive alternative, closer to the ergonomics of Windows. It offers several desktop environments, including Cinnamon, a Fork of GNOME designed specifically by the Mint team, which provides a clear, classic and immediately familiar interface.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint stands out for its simplicity, the presence by default of multimedia codecs and a well-designed update tool. On the other hand, it relies heavily on Ubuntu's infrastructure, making it dependent on Ubuntu's technical choices (particularly at kernel and repository level). Mint is particularly well-suited to non-technical users, or those who want a ready-to-use system that doesn't require too much learning.
 
@@ -931,7 +931,7 @@ Parrot OS is also derived from Debian. It offers an environment for pentesting, 
 Tails is a Debian-based, privacy-focused live distribution. Everything passes through the Tor network, and nothing is stored between user sessions. It's an ideal distribution for sensitive one-off uses (journalism, activism, seed Bitcoin generation...).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Note:** A live distribution is a Linux operating system that can be used directly from a USB stick or CD, without installation on the hard disk.
 
@@ -970,8 +970,9 @@ PureOS is a Debian-derived distribution developed by Purism, totally free (FSF a
 
 
 
-- **Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (formerly Raspbian) is a distribution optimized for Raspberry Pi microcomputers. It is based on Debian, with packages recompiled for the ARM architecture. It can be used for educational projects, electronic testing or small personal servers.
 
@@ -989,28 +990,23 @@ Whonix combines Debian with the Tor network in a two-VM architecture (gateway + 
 ![Image](assets/fr/037.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 This panorama gives you an overview of the current Linux distribution ecosystem, enabling you to select the distribution best suited to your technical profile and objectives.
 
-
 In the next chapter of SCU202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
-
 
 ## Linux desktop environments
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
 In a GNU/Linux system, the desktop environment plays one of the most important roles in your user experience. It is the graphical layer that enables interaction with the system, based on familiar visual representations: windows, menus, icons, panels and pre-installed applications.
-
 
 In this chapter, I'll be exploring the structure and role of a desktop environment, its typical components, the main families available, selection criteria and their integration into the most popular Linux distributions.
 
-
 ### What's an office environment?
 
-
 A desktop environment (or "*DE*" for *Desktop Environment*) refers to the set of programs that make up the complete graphical interface of an operating system. On Windows and macOS, a single desktop environment is offered by default, integrated into the system, with no possibility of modifying it entirely (only certain shells exist to partially modify the interface). Linux systems, on the other hand, are far more modular, treating the desktop environment as an independent component that can be freely replaced.
-
 
 In Linux, it's important to clearly distinguish between all the layers: the kernel (which manages interaction with the hardware), the display server (which acts as an intermediary between applications, graphics drivers, and hardware via the kernel), and finally the desktop environment itself, which relies on this infrastructure to deliver a coherent graphical interface to the user. This distinction can sometimes be less clear, as many Linux distributions come with a pre-installed desktop environment that sometimes includes its own Wayland compositor, which then acts as a display server.
 
@@ -2239,6 +2235,7 @@ sudo apt install thunderbird
 ```
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office suite
 
 
@@ -4352,6 +4349,7 @@ Firefox is an open source browser, distributed under the MPL (*Mozilla Public Li
 Firefox remains a benchmark for security and privacy, despite lagging slightly behind Blink-based browsers in certain performance areas. It can be a very good browser, as long as it is configured properly.
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Browser
 
 
@@ -4368,12 +4366,11 @@ The downside is a significant reduction in performance (high latency) and limite
 
 #### Mullvad Browser
 
-
 [Mullvad Browser](https://mullvad.net/en/browser) is the result of collaboration between the Tor Foundation and Mullvad VPN. It is based on the Tor browser, which is itself derived from Firefox ESR. Mullvad Browser is designed to maximize user privacy. By default, it includes advanced protection against fingerprinting, trackers and third-party scripts.
 
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 It has most of the security and privacy features offered by Tor Browser, with one difference: it doesn't redirect traffic via the Tor network. To avoid IP address leaks, you can use it in combination with a VPN (ideally, Mullvad VPN).
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -4395,40 +4392,33 @@ By default, LibreWolf activates Firefox's advanced security settings (such as st
 ![Image](assets/fr/115.webp)
 
 
-#### Zen Browser
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
+#### Zen Browser
 
 [Zen Browser](https://zen-browser.app/) is a free and open source browser based on Firefox (Gecko engine), launched in 2024. Its aim is to offer a modern, elegant, highly customizable and above all privacy-centric browsing experience, without dependence on Chromium.
 
-
 Zen stands out for its radical approach to interface and usability, largely inspired by the Arc browser, yet emancipated from it by its open-source nature and Gecko engine. It includes :
-
 
 - A minimalist, modular interface, with a vertical sidebar for tabs, a split view, and a *workspace* system for grouping sets of tabs by project;
 - A system of customizable interface templates (*Zen Mods*) that can be used to deeply modify the browser's appearance;
 - An original function called *Glance*, which opens a link in a lightweight temporary window, avoiding the clutter of tabs...
 
-
 Zen also supports Firefox extensions, as well as synchronization via a Mozilla account.
-
 
 From a security and privacy point of view, Zen features native blocking of third-party trackers. The browser does not collect any data itself, and it also allows Mozilla telemetry to be disabled. It also automatically rejects obsolete or non-compliant SSL certificates.
 
-
 Zen Browser is an interesting alternative if you're looking for a Gecko browsing environment that's free, innovative, uncluttered and respectful of your privacy.
 
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-based browsers
 
-
 #### Safari
-
 
 The main browser still using the WebKit rendering engine (not a fork like Blink) is Safari. [Safari](https://www.apple.com/safari/) is Apple's exclusive browser for macOS. It offers excellent integration with the Apple ecosystem, high performance, and now includes stronger protections against tracking and fingerprinting.
 
-
 However, Safari remains closed, limited to macOS for its desktop version, and dependent on the Apple ecosystem. While Apple has a strong privacy policy, with its business model based primarily on hardware sales rather than advertising, it remains unclear about certain internal practices.
-
 
 Here, we're focusing on desktop browsers, but it's important to note that on iOS, Apple requires all browsers to use the WebKit rendering engine (a constraint that may soon change, however, as a result of certain European regulations). This means that browsers such as Chrome, Firefox or Brave must, on iOS, offer an application based on WebKit, and not on their usual rendering engine.
 
@@ -4454,6 +4444,7 @@ Orion differs from Safari in several technical respects:
 Orion is entirely developed by the Kagi team (known for its ad-free search engine). Its development is funded solely by its users via the *Orion+* subscription, which gives access to a number of advantages.
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers without rendering engines
 
 
@@ -5021,7 +5012,7 @@ GrapheneOS integrates no proprietary components. You are free to add Google serv
 
 Graphene is only compatible with recent Google Pixels (Pixel 6, 7, 8 and 9).
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -5459,6 +5450,7 @@ Thunderbird Mobile is the mobile version of the popular open-source e-mail clien
 
 ![Image](assets/fr/157.webp)
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 Tuta (formerly "*Tutanota*") offers a complete end-to-end encrypted email solution, but its mobile client only supports Tuta accounts. It does not work with other providers. interface is modern and uncluttered, and registration requires no personal data.
@@ -5671,6 +5663,7 @@ Aegis is a comprehensive open-source application. It encrypts your 2FA database 
 
 Ente Auth is a modern, open-source, multi-platform solution with end-to-end encrypted backups. It enables you to synchronize your 2FA codes securely on mobile, desktop and web. You can also use it offline, without cloud backup or account creation.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth offers many additional features: Organization by tags, customized icons for each service, notes, favorites, integrated search, secure team code sharing.
 
 ![Image](assets/fr/176.webp)
@@ -5681,6 +5674,7 @@ Authy offers 2FA synchronization across multiple devices, which can be handy, bu
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 If you'd like to find out more about password managers, 2FA authentication and VPNs, I recommend you read the dedicated chapters in the SCU-101 course:
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -5925,6 +5919,7 @@ Available on F-Droid and entirely open-source, Chrono offers a modern, unclutter
 
 The application also integrates a timer and stopwatch, with lap recording, statistics, time comparisons and multi-timer management. You can configure multiple time zones, customize the theme (colors, styles, animations), and even organize your alarms and timers with labels.
 
+To explore the topic further, I recommend visiting the website [*Awesome Privacy*](https://awesome-privacy.xyz/), which lists the best privacy-friendly alternatives to the software you use daily.
 ___
 
 ⚠️ ***Caution**: Although the alternatives presented in this chapter are mostly open-source and privacy-oriented, they are not without their limitations or risks. Some may cease to be maintained, have unpatched vulnerabilities, become proprietary or even, potentially, be malware. Some may also be illegal in your local jurisdiction. I have written this chapter in June 2025, but the situation for these applications may have changed since then.*
@@ -6245,6 +6240,7 @@ In practical terms, DNS encryption and server switching can be implemented at va
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - At operating system level: Some OSes natively integrate encrypted DNS support (DoT or DoH), which secures all DNS requests passing through the system's network stack. This does not, however, secure the entire computer or telephone: Applications can bypass this setting if they are configured to use a different DNS resolver or protocol.
 
 - At network level: DNS encryption can be applied to the entire local network via router configuration. Once again, a router configured for DoH/DoT only sees traffic that is actually sent to it. So a browser configured to contact a remote resolver directly escapes this control. To reduce these loopholes, you need to block port 53 in clear text and restrict unauthorized DoH/DoT destinations via the router's firewall.
@@ -6338,3 +6334,5 @@ By following these few steps, you'll build a robust, secure network environment 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+

@@ -15,7 +15,7 @@ Die Lösung ist einfach, leicht und eigenständig. Sie ermöglicht die Einrichtu
 
 
 
-In diesem Tutorial werden wir Sie Schritt für Schritt durch :
+In diesem Tutorial werden wir Sie Schritt für Schritt durch:
 
 
 
@@ -44,7 +44,7 @@ Bevor Sie mit der Installation von be-BOP beginnen, stellen Sie sicher, dass Sie
 
 
 
-be-BOP verwendet ein Speichersystem, um Dateien (z. B. Produktbilder) zu verwalten. Dies erfordert den Zugang zu einem S3-Dienst, wie z. B. :
+be-BOP verwendet ein Speichersystem, um Dateien (z. B. Produktbilder) zu verwalten. Dies erfordert den Zugang zu einem S3-Dienst, wie z. B.:
 
 
 
@@ -302,7 +302,7 @@ Wenn Sie einen Lightning-Knoten nicht selbst verwalten möchten, ist **Swiss Bit
 
 
 
-Konfigurationsschritte :
+Konfigurationsschritte:
 
 
 
@@ -330,7 +330,7 @@ Neben Bitcoin können Sie mit be-BOP auch Barzahlungen über PayPal akzeptieren,
 
 
 
-Konfigurationsschritte :
+Konfigurationsschritte:
 
 
 
@@ -467,7 +467,7 @@ Mit der Konfiguration **Top Bar** können Sie die visuelle Identität Ihrer Soft
 
 
 
-#### Konfigurationsschritte :
+#### Konfigurationsschritte:
 
 
 
@@ -491,7 +491,7 @@ Mit dem Abschnitt "Links" in der Top-Leiste können Sie Verknüpfungen zu wichti
 
 
 
-#### Konfigurationsschritte :
+#### Konfigurationsschritte:
 
 
 
@@ -760,7 +760,7 @@ Gehen Sie zu `Admin > Merch > Produkte`, um ein Produkt hinzuzufügen oder zu ä
 
 - Preisbetrag**: Produktpreis (z. B. "25,00").
 - Preiswährung**: Währung (EUR, USD, BTC, usw.).
-- Besondere Produkte** :
+- Besondere Produkte**:
   - dies ist ein kostenloses Produkt.
   - dies ist ein "Pay-what-you-want"-Produkt.
 
@@ -773,7 +773,7 @@ Gehen Sie zu `Admin > Merch > Produkte`, um ein Produkt hinzuzufügen oder zu ä
 
 
 - Einzelprodukt (`standalone`)**: nur ein Zusatz pro Bestellung möglich (z.B. Spende, Eintrittskarte).
-- Produkt mit Variationen** :
+- Produkt mit Variationen**:
   - Kontrollieren Sie nicht `Standalone`.
   - Prüfen Sie "Das Produkt hat leichte Abweichungen (kein Bestandsunterschied)".
   - Hinzufügen:
@@ -803,7 +803,7 @@ Wenn Ihr Produkt nicht in unbegrenzten Mengen verfügbar ist, markieren Sie "Das
 
 
 
-Das System verwaltet :
+Das System verwaltet:
 
 
 
@@ -872,7 +872,7 @@ Gehen Sie zu `Admin > Merch > CMS`. Sie sehen eine Liste der vorhandenen Seiten 
 
 
 
-CMS-Seiten sind wichtig für :
+CMS-Seiten sind wichtig für:
 
 
 
@@ -956,7 +956,7 @@ Gehe zu: `Admin > Merch > Bilder`
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -1004,7 +1004,7 @@ Beispiele für verfügbare Widgets:
 - Herausforderungen**: Herausforderungen oder Missionen
 - Tags**: Kategorien oder Schlüsselwörter
 - Schieberegler**: Bildkarussells
-- Spezifikationen** : Tabellen mit Spezifikationen
+- Spezifikationen**: Tabellen mit Spezifikationen
 - Formulare**: Formulare (Kontakt, Feedback, usw.)
 - Countdowns**: Zeitschaltuhren
 - Galerien**: Bildergalerien
@@ -1033,7 +1033,7 @@ Verwenden Sie **Shortcodes** im Inhalt Ihrer CMS-Seiten:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuelle Parameter** :
+**Aktuelle Parameter**:
 
 
 
@@ -1046,7 +1046,7 @@ Verwenden Sie **Shortcodes** im Inhalt Ihrer CMS-Seiten:
 
 
 
-**Vorteile** :
+**Vorteile**:
 
 
 
@@ -1103,7 +1103,7 @@ Diese Filter erleichtern die schnelle Suche und die gezielte Verwaltung.
 
 
 
-Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit :
+Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit:
 
 
 
@@ -1120,7 +1120,7 @@ Wenn Sie auf eine Bestellung klicken, können Sie eine vollständige Datei mit :
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -1141,7 +1141,7 @@ Sie können :
 
 
 
-Zugriff auf Verkaufs- und Zahlungsstatistiken :
+Zugriff auf Verkaufs- und Zahlungsstatistiken:
 
 
 administrator > Einstellungen > Berichte
@@ -1176,7 +1176,7 @@ Die Berichte sind in Abschnitte unterteilt:
 
 
 
-Jeder Abschnitt enthält eine Schaltfläche **Export CSV**, mit der Sie :
+Jeder Abschnitt enthält eine Schaltfläche **Export CSV**, mit der Sie:
 
 
 
@@ -1217,7 +1217,7 @@ Die Plattform unterstützt das **Nostr**-Protokoll für bestimmte erweiterte Fun
 
 
 
-Gehen Sie zu :
+Gehen Sie zu:
 
 
 verwaltung > Knotenverwaltung > Nostr
@@ -1304,7 +1304,7 @@ Hier finden Sie alle Optionen zum **Erstellen** und **Konfigurieren** eines benu
 
 
 
-Wenn Sie ein Thema erstellen oder ändern, können Sie :
+Wenn Sie ein Thema erstellen oder ändern, können Sie:
 
 
 
@@ -1328,7 +1328,7 @@ Jeder Teil der Website kann unabhängig eingestellt werden:
 
 - Kopfzeile**: obere Navigationsleiste
 - Körper**: Hauptinhalt
-- Fußzeile** : unten auf der Seite
+- Fußzeile**: unten auf der Seite
 
 
 
@@ -1371,7 +1371,7 @@ Mit der Plattform können Sie die E-Mails, die automatisch an die Benutzer gesen
 
 
 
-Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat :
+Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat:
 
 
 
@@ -1390,14 +1390,14 @@ Jede E-Mail (Bestellungsbestätigung, vergessenes Passwort, etc.) hat :
 
 
 
-Um E-Mails dynamisch zu gestalten, fügen Sie Variablen wie :
+Um E-Mails dynamisch zu gestalten, fügen Sie Variablen wie:
 
 
 
 
 
-- `{Bestellnummer}}` : ersetzt durch die aktuelle Bestellnummer
-- `{invoiceLink}}` : Link zum Invoice
+- `{Bestellnummer}}`: ersetzt durch die aktuelle Bestellnummer
+- `{invoiceLink}}`: Link zum Invoice
 - `{websiteLink}}`: URL Ihrer Website
 
 
@@ -1454,7 +1454,7 @@ Füllen Sie die folgenden Felder aus:
 
 
 
-#### Verfügbare Familien :
+#### Verfügbare Familien:
 
 
 
@@ -1515,7 +1515,7 @@ Um Ihren Kunden Dokumente zum Herunterladen anzubieten: `Admin > Merch > Files`
 1. Klicken Sie auf **Neue Datei**
 
 
-2. Informieren :
+2. Informieren:
 
 
 
@@ -1533,7 +1533,7 @@ Um Ihren Kunden Dokumente zum Herunterladen anzubieten: `Admin > Merch > Files`
 
 
 
-Dieser Link kann dann in :
+Dieser Link kann dann in:
 
 
 
@@ -1583,7 +1583,7 @@ Gehen Sie zu: Knoten Management > Nostr
 
 
 - Aktivieren Sie eine automatische Nachricht bei der **ersten Benutzerinteraktion**
-- Ideal für :
+- Ideal für:
   - Präsentation Ihrer Dienstleistung
   - Senden Sie einen nützlichen Link (z.B. FAQ, Kontakt, Bestellung)
 
@@ -1629,7 +1629,7 @@ Gehen Sie dazu zu: "Einstellungen > Sprache"
 
 
 
-Die Übersetzungsdateien sind in JSON. Sie können :
+Die Übersetzungsdateien sind in JSON. Sie können:
 
 
 
@@ -1641,7 +1641,7 @@ Die Übersetzungsdateien sind in JSON. Sie können :
 
 
 
-Link zu den Originaldateien :
+Link zu den Originaldateien:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Klicken Sie auf **Rolle erstellen**, um eine Rolle zu erstellen (z.B. `Super Adm
 
 
 
-Jede Rolle enthält :
+Jede Rolle enthält:
 
 
 
@@ -1688,7 +1688,7 @@ Jede Rolle enthält :
 
 
 
-Fügen Sie im gleichen Menü `Admin > Einstellungen > ARM` einen Benutzer mit :
+Fügen Sie im gleichen Menü `Admin > Einstellungen > ARM` einen Benutzer mit:
 
 
 
@@ -1760,7 +1760,7 @@ In `/cart` können Sie über ein Feld ein Produkt hinzufügen:
 
 
 
-POS unterstützt :
+POS unterstützt:
 
 
 
@@ -1779,7 +1779,7 @@ Es stehen zwei erweiterte Optionen zur Verfügung:
 
 
 
-- MwSt.-Befreiung** : gilt für Begründungen (NGOs, Ausländer...)
+- MwSt.-Befreiung**: gilt für Begründungen (NGOs, Ausländer...)
 - Geschenkrabatt**: außergewöhnlicher Rabatt mit obligatorischem Kommentar
 
 

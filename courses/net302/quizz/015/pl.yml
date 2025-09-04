@@ -1,0 +1,9 @@
+question: Jaki jest maksymalny teoretyczny rozmiar datagramu IP?
+answer: 65 536 bajtów
+wrong_answers:
+  - 1 500 bajtów
+  - 512 bajtów
+  - 255 bajtów
+explanation: |
+  Maksymalny rozmiar datagramu IP wynosi 65 536 bajtów i jest określony przez limit pola całkowitej długości w nagłówku IP.
+reviewed: false

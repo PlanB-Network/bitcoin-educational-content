@@ -122,7 +122,7 @@ För proben väljer jag en **Debian 11**-maskin med minimal installation.
 
 
 
-Första steget, alltid samma sak, uppdatera :
+Första steget, alltid samma sak, uppdatera:
 
 
 
@@ -212,7 +212,7 @@ Här följer några förklaringar till dessa första förändringar:
 
 
 - auto *Interface***: "startar" Interface automatiskt vid systemstart
-- iface *Interface* inet manual** : för att använda Interface utan någon IP Address. Som nyckelordet "static" för att definiera en statisk IP Address eller "dhcp" för att använda dynamisk adressering
+- iface *Interface* inet manual**: för att använda Interface utan någon IP Address. Som nyckelordet "static" för att definiera en statisk IP Address eller "dhcp" för att använda dynamisk adressering
 
 
 
@@ -286,7 +286,7 @@ Som standard innehåller paketkällor endast paket som följer DFSG (*Debian Fre
 
 
 
-Exempel på en rad i /etc/apt/sources.list :
+Exempel på en rad i /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Så jag kommer bara att lägga till ordet **contrib** till rader som dessa.
 
 
 
-Resten av stegen finns listade på [NtopNG]-webbplatsen (https://packages.ntop.org/apt/) där du, för Debian 11, måste lägga till Ntop-källorna för framtida installation. Detta tillägg automatiseras genom att använda en :
+Resten av stegen finns listade på [NtopNG]-webbplatsen (https://packages.ntop.org/apt/) där du, för Debian 11, måste lägga till Ntop-källorna för framtida installation. Detta tillägg automatiseras genom att använda en:
 
 
 
@@ -474,7 +474,7 @@ Om du klickar på den här figuren får du upp detaljerna i varningarna. Det fin
 
 
 
-Men eftersom jag använder gratisversionen kan jag inte utesluta domäner eller värdar som är källan till varningar, så du måste hålla ett öga på dem för att undvika att missa något mycket mer oroande. NtopNG kommer att generate varningar i händelse av :
+Men eftersom jag använder gratisversionen kan jag inte utesluta domäner eller värdar som är källan till varningar, så du måste hålla ett öga på dem för att undvika att missa något mycket mer oroande. NtopNG kommer att generate varningar i händelse av:
 
 
 

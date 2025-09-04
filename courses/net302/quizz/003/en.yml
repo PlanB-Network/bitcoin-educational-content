@@ -1,0 +1,9 @@
+question: In a bus topology, what's the main advantage?
+answer: Low installation cost
+wrong_answers:
+  - High redundancy
+  - Low latency
+  - High availability
+explanation: |
+  The bus relies on a single physical medium, which lowers installation costs but also introduces a single point of failure.
+reviewed: false

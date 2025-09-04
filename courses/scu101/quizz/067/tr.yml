@@ -1,0 +1,13 @@
+question: İnternet devleri tarafından sunulan Tek Oturum Açma (SSO) ile ilgili temel endişe nedir?
+answer: Erişilebilirlik ve sansür riski açısından sorun teşkil etmektedir.
+wrong_answers:
+  - Kullanımı zordur.
+  - Çok fazla depolama alanı gerektirir.
+  - Tüm web siteleri ile uyumlu değildir.
+explanation: |
+  İnternet devleri tarafından sunulan Tek Oturum Açma (SSO)
+  erişilebilirlik ve sansür riskleri açısından sorunlar.
+  Bunun nedeni, SSO sağlayıcısının bir kesinti yaşaması durumunda
+  veya bir kullanıcıyı engellemeye karar verirse, kullanıcı
+  kimlik doğrulama için bu SSO'yu kullanan tüm hizmetler.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego IPv5 nigdy nie został powszechnie wdrożony?
+answer: Pozostał on eksperymentalny
+wrong_answers:
+  - Jego wdrożenie było zbyt kosztowne
+  - Nie był on kompatybilny z protokołem IPv6
+  - Miał on poważne luki w zabezpieczeniach
+explanation: |
+  Protokół IPv5 został wdrożony jedynie eksperymentalnie. Nigdy nie został ustandaryzowany ani powszechnie przyjęty i ostatecznie został porzucony na rzecz IPv6.
+reviewed: false

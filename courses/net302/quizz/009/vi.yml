@@ -1,0 +1,9 @@
+question: Cơ quan nào của Hoa Kỳ đứng sau dự án ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Cơ quan Dự án Nghiên cứu Tiên tiến) khởi xướng ARPANET, đặt nền móng cho sự phát triển của giao thức TCP/IP. Năm 1972, cơ quan này được đổi tên thành DARPA (Cơ quan Dự án Nghiên cứu Tiên tiến Quốc phòng).
+reviewed: false

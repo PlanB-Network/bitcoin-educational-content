@@ -67,7 +67,7 @@ Dette er en anledning til å minne de som ønsker å betale for gavekortene sine
 
 
 
-Et utvalg av veiledninger om de viktigste Lightning-porteføljene (Phoenix, Breez, BitKit, Zeus...) finner du her: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Et utvalg av veiledninger om de viktigste Lightning-porteføljene (Phoenix, Breez, BitKit, Zeus...) finner du her: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

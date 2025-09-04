@@ -122,7 +122,7 @@ Für die Sonde habe ich einen **Debian 11**-Rechner mit Minimalinstallation gew�
 
 
 
-Der erste Schritt ist immer derselbe: Aktualisieren Sie die :
+Der erste Schritt ist immer derselbe: Aktualisieren Sie die:
 
 
 
@@ -212,7 +212,7 @@ Im Folgenden finden Sie einige Erläuterungen zu diesen ersten Änderungen:
 
 
 - auto *Interface***: startet automatisch Interface beim Systemstart
-- iface *Interface* inet manual** : um den Interface ohne IP Address zu verwenden. Wie das Schlüsselwort "static", um eine statische IP Address zu definieren oder "dhcp", um eine dynamische Adressierung zu verwenden
+- iface *Interface* inet manual**: um den Interface ohne IP Address zu verwenden. Wie das Schlüsselwort "static", um eine statische IP Address zu definieren oder "dhcp", um eine dynamische Adressierung zu verwenden
 
 
 
@@ -286,7 +286,7 @@ Standardmäßig enthalten die Paketquellen nur DFSG (*Debian Free Sotftware Guid
 
 
 
-Beispiel für eine Zeile in /etc/apt/sources.list :
+Beispiel für eine Zeile in /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Ich füge also einfach das Wort **contrib** zu Zeilen wie diesen hinzu.
 
 
 
-Der Rest der Schritte ist auf der [NtopNG]-Seite (https://packages.ntop.org/apt/) aufgeführt, wo Sie für Debian 11 die Ntop-Quellen für die zukünftige Installation hinzufügen müssen. Diese Hinzufügung erfolgt automatisch durch die Verwendung einer :
+Der Rest der Schritte ist auf der [NtopNG]-Seite (https://packages.ntop.org/apt/) aufgeführt, wo Sie für Debian 11 die Ntop-Quellen für die zukünftige Installation hinzufügen müssen. Diese Hinzufügung erfolgt automatisch durch die Verwendung einer:
 
 
 
@@ -474,7 +474,7 @@ Wenn Sie auf diese Zahl klicken, werden die Details der Warnungen angezeigt. Hie
 
 
 
-Da ich jedoch die kostenlose Version verwende, kann ich keine Domänen oder Hosts ausschließen, die die Quelle von Alarmen sind, so dass Sie diese im Auge behalten müssen, um nicht etwas viel Besorgniserregenderes zu verpassen. NtopNG wird generate-Warnungen im Falle von :
+Da ich jedoch die kostenlose Version verwende, kann ich keine Domänen oder Hosts ausschließen, die die Quelle von Alarmen sind, so dass Sie diese im Auge behalten müssen, um nicht etwas viel Besorgniserregenderes zu verpassen. NtopNG wird generate-Warnungen im Falle von:
 
 
 

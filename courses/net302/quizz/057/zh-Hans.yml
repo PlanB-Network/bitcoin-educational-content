@@ -1,0 +1,9 @@
+question: ifcfg-eth0 文件中的哪个参数表示 DHCP 配置？
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  BOOTPROTO=dhcp "参数指定 Interface 通过 DHCP 协议获取配置。
+reviewed: false

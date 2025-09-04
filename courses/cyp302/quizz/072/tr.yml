@@ -1,0 +1,9 @@
+question: Kaydırmalı şifreleme neden simetrik şifreleme olarak kabul edilir?
+answer: Çünkü aynı anahtar hem şifreleme hem de şifre çözme için kullanılır
+wrong_answers:
+  - Çünkü genel ve özel olmak üzere iki anahtar kullanır
+  - Çünkü anahtar kullanmadan şifre çözer
+  - Anahtar her şifrelemede değiştiği için
+explanation: |
+  Kaydırmalı şifreleme simetrik şifreleme olarak kabul edilir çünkü bir mesajı şifrelemek ve şifresini çözmek için aynı anahtarı kullanır, böylece bu anahtarı paylaşan taraflar arasında gizliliği sağlar.
+reviewed: false

@@ -1,10 +1,12 @@
-question: ¿Por qué se considera a Bitcoin una nueva forma de dinero?
-answer: Porque es un dinero digital sin entidad central.
+question: ¿Cuál es la estrategia utilizada por las entidades centrales para devaluar una moneda fiduciaria?
+answer: Aumentan la masa monetaria en un porcentaje cada año.
 wrong_answers:
-  - Porque es una moneda digital respaldada por oro.
-  - Porque es una moneda que requiere la blockchain del banco.
-  - Porque lo dice la Reserva Federal.
+  - Disminuyen la masa monetaria en un porcentaje cada año.
+  - Mantienen su masa monetaria constante en comparación con la masa inicial.
+  - Hacen que su masa monetaria fluctúe aleatoriamente en comparación con la masa inicial.
 explanation: |
-  Bitcoin puede ser visto como una nueva forma de dinero, ya que surge
-  de una red de pares sin entidad central.
+  Las entidades centrales a menudo devalúan una moneda aumentando su
+  masa monetaria en comparación con la inicial en un porcentaje
+  cada año. Esta devaluación silenciosa a menudo se justifica como
+  siendo en interés del pueblo.
 reviewed: true

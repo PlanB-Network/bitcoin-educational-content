@@ -167,7 +167,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 Kwa maagizo ya kusakinisha na kusanidi programu ya Blockstream Green, tafadhali tazama sehemu ya kwanza ya mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Mara tu kwenye programu ya Blockstream Green, bofya kitufe cha "*Sanidi Wallet* mpya".
 
@@ -420,3 +420,5 @@ Ili kuchukua hatua zaidi, ninapendekeza mafunzo haya kwenye Jade Plus, ambapo tu
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

@@ -1,0 +1,9 @@
+question: Koja komanda prikazuje detaljan status svih mrežnih interfejsa u Linuxu?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  Komanda "ip addr show" prikazuje sve mrežne interfejse, zajedno sa njihovim statusom, adresama i povezanim parametrima.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la dimensione massima teorica di un datagramma IP?
+answer: 65.536 byte
+wrong_answers:
+  - 1.500 byte
+  - 512 byte
+  - 255 byte
+explanation: |
+  La dimensione massima di un datagramma IP è di 65.536 byte, determinata dal limite del campo di lunghezza totale dell'intestazione IP.
+reviewed: false

@@ -124,7 +124,7 @@ Tämä on vain yleiskatsaus OPNsensen tarjoamista ominaisuuksista. Lisäksi OPNs
 
 
 
-Ensinnäkin sinun on päätettävä, mihin asennat OPNsensen. Mahdollisia ratkaisuja on useita, kuten asennus :
+Ensinnäkin sinun on päätettävä, mihin asennat OPNsensen. Mahdollisia ratkaisuja on useita, kuten asennus:
 
 
 
@@ -349,7 +349,7 @@ Näin se toimii:
 
 
 
-Meillä on nyt :
+Meillä on nyt:
 
 
 
@@ -546,7 +546,7 @@ Meidän on siis luotava palomuurisäännöt... Selaa valikkoa seuraavasti: **Pal
 
 
 
-Luo sitten kolme uutta sääntöä, joilla **LAN-verkko** (eli "**LAN-verkko**") valtuutetaan :
+Luo sitten kolme uutta sääntöä, joilla **LAN-verkko** (eli "**LAN-verkko**") valtuutetaan:
 
 
 

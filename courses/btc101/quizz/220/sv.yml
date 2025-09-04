@@ -1,11 +1,11 @@
-question: Vad säger den här kursen om takten i lärandet om Bitcoin?
-answer: Det är komplicerat att ta till sig allt på en gång, så ta god tid på dig.
+question: Vad skulle hända med traditionella penningöverföringstjänster som Western Union, centralbanker, Visa och Mastercard om de inte införde Lightning Network?
+answer: De kan försvinna.
 wrong_answers:
-  - Det är lätt att lära sig allt på en gång.
-  - Det är omöjligt att lära sig allt om Bitcoin.
-  - Det är onödigt att lära sig allt om Bitcoin.
+  - De kan bli mer populära.
+  - De kan bli säkrare.
+  - De kan bli mer decentraliserade.
 explanation: |
-  Kursen tyder på att det finns så mycket att utforska med
-  Bitcoin att det är komplicerat att ta till sig allt på en gång
-  på en gång, så man bör ta sin tid.
+  Traditionella penningöverföringstjänster som Western Union,
+  centralbanker, Visa och Mastercard kan försvinna om de inte
+  om de inte tar till sig Lightning Network-tekniken.
 reviewed: true

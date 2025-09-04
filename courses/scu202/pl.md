@@ -1062,7 +1062,7 @@ Opracowany przez Canonical i wprowadzony na rynek w 2004 roku, Ubuntu jest jedn�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Wprowadzony na rynek w 2006 roku Linux Mint to dystrybucja wywodząca się z Ubu
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint wyróżnia się prostotą, domyślną obecnością kodeków multimedialnych i dobrze zaprojektowanym narzędziem do aktualizacji. Z drugiej strony, w dużym stopniu opiera się na infrastrukturze Ubuntu, co czyni ją zależną od technicznych wyborów Ubuntu (szczególnie na poziomie jądra i repozytorium). Mint jest szczególnie odpowiedni dla użytkowników nietechnicznych lub tych, którzy chcą gotowego do użycia systemu, który nie wymaga zbyt wiele nauki.
 
@@ -1246,7 +1246,7 @@ Tails to oparta na Debianie dystrybucja live skoncentrowana na prywatności. Wsz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → Uwaga:** Dystrybucja Live to system operacyjny Linux, który może być używany bezpośrednio z pamięci USB lub płyty CD, bez instalacji na dysku Hard.
 
@@ -1300,9 +1300,9 @@ PureOS to dystrybucja wywodząca się z Debiana, opracowana przez Purism, całko
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (dawniej Raspbian) to dystrybucja zoptymalizowana dla mikrokomputerów Raspberry Pi. Opiera się na Debianie, z pakietami przekompilowanymi dla architektury ARM. Może być używana do projektów edukacyjnych, testów elektronicznych lub małych serwerów osobistych.
 
@@ -1326,36 +1326,23 @@ Whonix łączy Debiana z siecią Tor w architekturze dwóch maszyn wirtualnych (
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ta panorama daje przegląd obecnego ekosystemu dystrybucji Linuksa, umożliwiając wybór dystrybucji najlepiej dopasowanej do profilu technicznego i celów.
-
-
 
 W następnym rozdziale SCU202 przyjrzymy się bliżej praktycznemu środowisku Linuksa, zaczynając od środowisk graficznych, które stanowią podstawę codziennych interakcji z systemem.
 
-
-
 ## Środowiska graficzne Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 W systemie GNU/Linux środowisko graficzne odgrywa jedną z najważniejszych ról w doświadczeniu użytkownika. Jest to graficzny Layer, który umożliwia interakcję z systemem, w oparciu o znane wizualne reprezentacje: okna, menu, ikony, panele i preinstalowane aplikacje.
-
-
 
 W tym rozdziale zbadam strukturę i rolę środowiska graficznego, jego typowe komponenty, główne dostępne rodziny, kryteria wyboru i ich integrację z najpopularniejszymi dystrybucjami Linuksa.
 
-
-
 ### Co to jest środowisko biurowe?
 
-
-
 Środowisko graficzne (lub "*DE*" od *Desktop Environment*) odnosi się do zestawu programów, które tworzą kompletny graficzny Interface systemu operacyjnego. W systemach Windows i macOS domyślnie oferowane jest jedno środowisko graficzne, zintegrowane z systemem, bez możliwości jego całkowitej modyfikacji (istnieją tylko niektóre powłoki do częściowej modyfikacji Interface). Z drugiej strony systemy Linux są znacznie bardziej modułowe, traktując środowisko graficzne jako niezależny komponent, który można dowolnie wymieniać.
-
-
 
 W Linuksie ważne jest wyraźne rozróżnienie między wszystkimi warstwami: jądrem (które zarządza interakcją ze sprzętem), serwerem wyświetlania (który działa jako pośrednik między aplikacjami, sterownikami graficznymi i sprzętem za pośrednictwem jądra), a wreszcie samym środowiskiem graficznym, które opiera się na tej infrastrukturze, aby zapewnić użytkownikowi spójny graficzny Interface. Rozróżnienie to może być czasami mniej wyraźne, ponieważ wiele dystrybucji Linuksa jest dostarczanych z preinstalowanym środowiskiem graficznym, które czasami zawiera własny kompozytor Wayland, który następnie działa jako serwer wyświetlania.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Pakiet biurowy
 
 
@@ -5754,6 +5742,7 @@ Firefox pozostaje punktem odniesienia dla bezpieczeństwa i prywatności, mimo �
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Przeglądarka Tor
 
 
@@ -5774,15 +5763,11 @@ Wadą jest znaczny spadek wydajności (duże opóźnienia) i ograniczona kompaty
 
 #### Przeglądarka Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) jest wynikiem współpracy pomiędzy Tor Foundation i Mullvad VPN. Opiera się na przeglądarce Tor, która sama wywodzi się z Firefoksa ESR. Mullvad Browser został zaprojektowany w celu maksymalizacji prywatności użytkownika. Domyślnie zawiera zaawansowaną ochronę przed odciskami palców, trackerami i skryptami stron trzecich.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Posiada większość funkcji bezpieczeństwa i prywatności oferowanych przez Tor Browser, z jedną różnicą: nie przekierowuje ruchu przez sieć Tor. Aby uniknąć wycieków IP Address, można go używać w połączeniu z VPN (najlepiej Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Domyślnie LibreWolf aktywuje zaawansowane ustawienia bezpieczeństwa Firefoksa 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Przeglądarka Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) to darmowa i otwarta przeglądarka oparta na Firefoksie (silnik Gecko), uruchomiona w 2024 roku. Jej celem jest oferowanie nowoczesnego, eleganckiego, wysoce konfigurowalnego, a przede wszystkim zorientowanego na prywatność przeglądania, bez zależności od Chromium.
 
-
-
 Zen wyróżnia się radykalnym podejściem do Interface i użyteczności, w dużej mierze inspirowanym przeglądarką Arc, ale wyemancypowanym z niej dzięki otwartemu oprogramowaniu i silnikowi Gecko. Zawiera :
-
-
-
 
 - Minimalistyczny, modułowy Interface, z pionowym paskiem bocznym dla zakładek, podzielonym widokiem i systemem *workspace* do grupowania zestawów zakładek według projektów;
 - System konfigurowalnych szablonów Interface (*Zen Mods*), które można wykorzystać do głębokiej modyfikacji wyglądu przeglądarki;
 - Oryginalna funkcja o nazwie *Glance*, która otwiera link w lekkim oknie tymczasowym, unikając bałaganu zakładek...
 
-
-
 Zen obsługuje również rozszerzenia Firefoksa, a także synchronizację za pośrednictwem konta Mozilla.
-
-
 
 Z punktu widzenia bezpieczeństwa i prywatności, Zen oferuje natywne blokowanie trackerów stron trzecich. Przeglądarka sama nie gromadzi żadnych danych, a także umożliwia wyłączenie telemetrii Mozilli. Automatycznie odrzuca również przestarzałe lub niezgodne certyfikaty SSL.
 
-
-
 Zen Browser to interesująca alternatywa, jeśli szukasz środowiska przeglądania Gecko, które jest bezpłatne, innowacyjne, przejrzyste i szanuje Twoją prywatność.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Przeglądarki oparte na WebKit
 
-
-
 #### Safari
-
-
 
 Główną przeglądarką nadal korzystającą z silnika renderującego WebKit (nie Fork jak Blink) jest Safari. [Safari](https://www.apple.com/safari/) jest wyłączną przeglądarką Apple dla macOS. Oferuje doskonałą integrację z ekosystemem Apple, wysoką wydajność, a teraz zawiera silniejsze zabezpieczenia przed śledzeniem i odciskami palców.
 
-
-
 Safari pozostaje jednak zamknięte, ograniczone do macOS w wersji na komputery stacjonarne i zależne od ekosystemu Apple. Chociaż Apple ma silną politykę prywatności, a jego model biznesowy opiera się głównie na sprzedaży sprzętu, a nie na reklamach, pozostaje niejasny co do niektórych wewnętrznych praktyk.
-
-
 
 Tutaj skupiamy się na przeglądarkach desktopowych, ale ważne jest, aby pamiętać, że na iOS Apple wymaga, aby wszystkie przeglądarki korzystały z silnika renderującego WebKit (ograniczenie, które może jednak wkrótce ulec zmianie w wyniku pewnych europejskich przepisów). Oznacza to, że przeglądarki takie jak Chrome, Firefox czy Brave muszą na iOS oferować aplikację opartą na WebKit, a nie na ich zwykłym silniku renderującym.
 
@@ -5889,6 +5855,7 @@ Orion jest w całości rozwijany przez zespół Kagi (znany z wyszukiwarki bez r
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Przeglądarki bez silników renderujących
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS nie zawiera żadnych zastrzeżonych komponentów. Możesz dodawać us
 Graphene jest kompatybilny tylko z najnowszymi Google Pixel (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile to mobilna wersja popularnego klienta poczty e-mail o otwarty
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis to kompleksowa aplikacja typu open source. Szyfruje bazę danych 2FA za po
 Ente Auth to nowoczesne, wieloplatformowe rozwiązanie o otwartym kodzie źródłowym z szyfrowanymi kopiami zapasowymi end-to-end. Umożliwia bezpieczną synchronizację kodów 2FA na urządzeniach mobilnych, komputerach stacjonarnych i w Internecie. Można go również używać w trybie offline, bez tworzenia kopii zapasowych w chmurze lub tworzenia konta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth oferuje wiele dodatkowych funkcji: Organizacja według tagów, niestandardowe ikony dla każdej usługi, notatki, ulubione, zintegrowane wyszukiwanie, bezpieczne udostępnianie kodu zespołu.
 
 
@@ -7642,6 +7611,7 @@ Authy oferuje synchronizację 2FA na wielu urządzeniach, co może być przydatn
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jeśli chcesz dowiedzieć się więcej o menedżerach haseł, uwierzytelnianiu 2FA i VPN, polecam przeczytać dedykowane rozdziały w kursie SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Dostępny na F-Droid i całkowicie open-source, Chrono oferuje nowoczesny, przej
 Aplikacja integruje również minutnik i stoper, z możliwością rejestrowania okrążeń, statystykami, porównywaniem czasu i zarządzaniem wieloma minutnikami. Możesz skonfigurować wiele stref czasowych, dostosować motyw (kolory, style, animacje), a nawet organizować alarmy i timery za pomocą etykiet.
 
 
+Aby zgłębić temat, polecam odwiedzenie strony [*Awesome Privacy*](https://awesome-privacy.xyz/), która przedstawia najlepsze alternatywy dbające o prywatność dla oprogramowania używanego na co dzień.
 ___
 
 
@@ -8526,6 +8497,7 @@ W praktyce szyfrowanie DNS i przełączanie serwerów może być realizowane na 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na poziomie systemu operacyjnego: Niektóre systemy operacyjne natywnie integrują szyfrowaną obsługę DNS (DoT lub DoH), która zabezpiecza wszystkie żądania DNS przechodzące przez stos sieciowy systemu. Nie zabezpiecza to jednak całego komputera lub telefonu: Aplikacje mogą ominąć to ustawienie, jeśli są skonfigurowane do korzystania z innego resolwera DNS lub protokołu.
 
 
@@ -8626,3 +8598,4 @@ Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środ
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

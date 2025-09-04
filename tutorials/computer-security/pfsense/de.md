@@ -30,7 +30,7 @@ pfSense ist ein freies Open-Source-Betriebssystem, das jeden Computer, dediziert
 
 
 
-Seine Hauptfunktionen haben sich im Laufe der Jahre erheblich weiterentwickelt und sind mit jeder neuen Version verbessert worden. Bis heute bietet pfSense :
+Seine Hauptfunktionen haben sich im Laufe der Jahre erheblich weiterentwickelt und sind mit jeder neuen Version verbessert worden. Bis heute bietet pfSense:
 
 
 
@@ -73,7 +73,7 @@ Die letzte stabile Version von pfSense, zum Zeitpunkt der Erstellung dieses Tuto
 
 
 
-Das Download-Portal ermöglicht Ihnen die Auswahl von :
+Das Download-Portal ermöglicht Ihnen die Auswahl von:
 
 
 
@@ -105,7 +105,7 @@ In diesem Beispiel wird die Installation auf einer virtuellen Maschine mit Virtu
 
 
 
-Für einen Standardeinsatz empfehlen wir :
+Für einen Standardeinsatz empfehlen wir:
 
 
 
@@ -221,7 +221,7 @@ Die erste Frage betrifft die Konfiguration von VLANs. In diesem Stadium werden w
 
 
 
-pfSense fordert Sie dann auf, zu definieren, welcher Interface für den WAN (Internetzugang) verwendet werden soll. Sie können wählen zwischen :
+pfSense fordert Sie dann auf, zu definieren, welcher Interface für den WAN (Internetzugang) verwendet werden soll. Sie können wählen zwischen:
 
 
 
@@ -330,7 +330,7 @@ Bei der ersten Verbindung fordert pfSense Sie auf, dem **Setup Wizard** zu folge
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -352,7 +352,7 @@ Geben Sie die Zeitzone Ihres Standorts an, damit Protokolle und Zeitpläne konsi
 
 
 
-Konfigurieren Sie die WAN-Verbindung :
+Konfigurieren Sie die WAN-Verbindung:
 
 
 
@@ -383,7 +383,7 @@ Sichern Sie Ihre pfSense, indem Sie sofort ein sicheres Passwort für den Benutz
 
 
 
-Vergewissern Sie sich vor dem Einsatz Ihrer Firewall, dass Sie die neueste Version von :
+Vergewissern Sie sich vor dem Einsatz Ihrer Firewall, dass Sie die neueste Version von:
 
 
 

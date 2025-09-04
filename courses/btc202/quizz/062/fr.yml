@@ -1,0 +1,9 @@
+question: Quelle application sur Umbrel permet de gérer son nœud Lightning avec une interface avancée ?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr Relay
+  - Bitfeed
+explanation: |
+  Ride The Lightning et ThunderHub offrent une interface web complète pour administrer un nœud Lightning.
+reviewed: false

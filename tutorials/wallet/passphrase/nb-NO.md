@@ -28,6 +28,10 @@ Til slutt er det interessant å bruke en passordfrase når man ønsker å kontro
 
 ## Hvordan velge en god passordfrase?
 
+Ifølge [en studie utført av Trezor i 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) kunne en angriper med tilgang til din seed og som bruker et høykvalitets GPU leid fra AWS (NVIDIA Tesla V100), teste nesten 620 millioner passfraser for 1 dollar. For å sette det i perspektiv: Med kapasiteten i 2019 ville det i gjennomsnitt koste **77 millioner dollar** å knekke en passfrase bestående av 12 tilfeldige små bokstaver.
+
+Jeg anbefaler likevel ikke å begrense deg til 12 tegn. Sikt heller mot dagens standarder for sterke passord: i 2025 bør du minst bruke 13 tilfeldige tegn som inkluderer tall, små og store bokstaver samt symboler; eller 14 tegn dersom du kun bruker små og store bokstaver. Selvfølgelig anbefaler jeg å gå enda lenger, for eksempel ved å bruke en passfrase på 20 tegn med symboler, for å forutse fremtidige utviklinger og ta høyde for menneskelige risikoer som ikke dekkes i disse studiene.
+
 For at passordfrasen skal være effektiv, må den være tilstrekkelig lang og tilfeldig. Akkurat som med et sterkt passord, anbefaler jeg at du velger en passordfrase som er så lang og tilfeldig som mulig, med en rekke bokstaver, tall og symboler som gjør det umulig å utføre et brute force-angrep.
 
 Det er også viktig å lagre denne passordfrasen på riktig måte, på samme måte som minnefrasen. **Hvis du mister den, mister du tilgangen til bitcoinsene dine**. Jeg fraråder på det sterkeste å huske den utelukkende i hodet, da dette øker risikoen for tap urimelig mye. Det ideelle er å skrive den ned på et fysisk medium (papir eller metall) adskilt fra huskeregelen. Denne sikkerhetskopien må selvsagt oppbevares på et annet sted enn huskeregelen, for å unngå at begge blir kompromittert samtidig.

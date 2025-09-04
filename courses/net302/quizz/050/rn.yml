@@ -1,0 +1,9 @@
+question: Ni igiki kigomba kwongerwa kuri NAT kugira ngo urubuga rukingirwe neza?
+answer: Uruhome rw'umuriro
+wrong_answers:
+  - Serveri ya DNS yo mu karere
+  - Uwuserukira HTTP
+  - Igikoresho co kurwanya umugera
+explanation: |
+  NAT yonyene ntihagije kugira ngo icungurure uruja n’uruza rw’ibintu bibi: itegerezwa kwuzuzwa n’amategeko y’uruhome rw’umuriro kugira ngo igenzure neza uruja n’uruza rw’ibintu.
+reviewed: false

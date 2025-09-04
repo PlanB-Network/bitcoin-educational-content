@@ -1,0 +1,12 @@
+question: Ni mu bikorwa ibihe Bitcoin ivyura ibibazo?
+answer: Ivy’ugushiramwo amakuru, inyigisho y’imikino, ubutunzi n’ivy’amahera, ubuhinga bwa mudasobwa, filozofiya, inguvu, amategeko n’amabwirizwa.
+wrong_answers:
+  - Ubuhinga bwa mudasobwa n'ubutunzi gusa
+  - Ivy’ubuhinga bwo gukingira amakuru n’ivy’imikino gusa.
+  - Filozofiya n’inguvu gusa.
+explanation: |
+  Bitcoin ni isomo ry’inzego nyinshi rivyura .
+  ibibazo bijanye n’ibintu bitandukanye, harimwo n’ivyo .
+  ubuhinga bwo gukingira amakuru, inyigisho y'imikino, ubutunzi n'ingingo ngenderwako y'amahera,
+  ubuhinga bwa mudasobwa, filozofiya, inguvu, amategeko n’amabwirizwa.
+reviewed: true

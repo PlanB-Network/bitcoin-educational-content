@@ -1,10 +1,9 @@
-question: Mis on multisig rahakoti kasutamise risk?
-answer: Mitte omada piisavalt erinevaid osi multisig varukoopiast
+question: Mis on standardne meetod privaatvõtme varundamiseks Bitcoin'i rahakotis?
+answer: Oma mnemoonilise fraasi sisestamine ükskõik millisesse rahakotitarkvarasse
 wrong_answers:
-  - Omada piisavalt erinevaid osi multisig varukoopiast
-  - Jagada võtmeid teiste osapooltega
-  - Mitte jagada võtmeid teiste osapooltega
+  - Oma mnemoonilise fraasi salvestamine digitaalsesse faili
+  - Oma mnemoonilise fraasi kirjutamine tahvlile
+  - Oma mnemoonilise fraasi jagamine usaldusväärse sõbraga
 explanation: |
-  Multisig rahakoti kasutamisel tuleks iga multisigi osa hoida erinevates asukohtades. See on seetõttu, et multisig nõuab tehingu sooritamiseks mitme allkirja olemasolu, seega on vajalik teatud arv rahakotte, ja iga osa hoidmine erinevas asukohas lisab
-  lisaturvalisuse kihi.
+  Standardne meetod privaatvõtme varundamiseks Bitcoin'i rahakotis on oma mnemoonilise fraasi sisestamine ükskõik millisesse rahakotitarkvarasse. See võimaldab sul oma rahakotti taastada.
 reviewed: true

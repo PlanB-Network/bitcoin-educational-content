@@ -117,7 +117,7 @@ In the Transaction menu, you can view recent transactions without having access 
 ![transactions](assets/fr/07.webp)
 
 
-And it doesn't stop there. You can also consult, in the **Treasury** menu, the cash position in CFA Francs (with payment aggregators) and the balance of the Bitcoin portfolio used by Banxaas. This approach is a first in the West African sub-region, and enables users to assess the state of the platform's finances.
+And it doesn't stop there. You can also consult, in the **Treasury** menu, the cash position in CFA Francs (with payment aggregators) and the balance of the Bitcoin wallet used by Banxaas. This approach is a first in the West African sub-region, and enables users to assess the state of the platform's finances.
 
 
 ![tresorerie](assets/fr/08.webp)

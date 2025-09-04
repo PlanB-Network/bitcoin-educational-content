@@ -1062,7 +1062,7 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, y
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, kehadiran codec multimedia secara default dan alat pembaruan yang dirancang dengan baik. Di sisi lain, Mint sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak membutuhkan banyak pembelajaran.
 
@@ -1246,7 +1246,7 @@ Tails adalah distribusi langsung berbasis Debian yang berfokus pada privasi. Sem
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan:** Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari stik USB atau CD, tanpa instalasi pada disk Hard.
 
@@ -1300,9 +1300,9 @@ PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, benar-ben
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini didasarkan pada Debian, dengan paket-paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek pendidikan, pengujian elektronik, atau server pribadi kecil.
 
@@ -1326,36 +1326,23 @@ Whonix menggabungkan Debian dengan jaringan Tor dalam arsitektur dua-VM (gateway
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Panorama ini memberikan gambaran umum tentang ekosistem distribusi Linux saat ini, sehingga Anda dapat memilih distribusi yang paling sesuai dengan profil teknis dan tujuan Anda.
-
-
 
 Pada bab berikutnya dari SCU202, kita akan melihat lebih dekat pada lingkungan Linux yang praktis, dimulai dengan lingkungan grafis yang menjadi dasar interaksi Anda sehari-hari dengan sistem.
 
-
-
 ## Lingkungan desktop Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Dalam sistem GNU/Linux, lingkungan desktop memainkan salah satu peran terpenting dalam pengalaman pengguna Anda. Ini adalah Layer grafis yang memungkinkan interaksi dengan sistem, berdasarkan representasi visual yang sudah dikenal: jendela, menu, ikon, panel, dan aplikasi yang sudah terinstal.
-
-
 
 Pada bab ini, saya akan menjelajahi struktur dan peran lingkungan desktop, komponen-komponennya yang khas, keluarga utama yang tersedia, kriteria pemilihan, dan integrasinya ke dalam distribusi Linux yang paling populer.
 
-
-
 ### Apa yang dimaksud dengan lingkungan kantor?
 
-
-
 Lingkungan desktop (atau "*DE*" untuk *Desktop Environment*) mengacu pada sekumpulan program yang membentuk Interface grafis lengkap dari sebuah sistem operasi. Pada Windows dan macOS, satu lingkungan desktop ditawarkan secara default, terintegrasi ke dalam sistem, tanpa kemungkinan untuk memodifikasinya secara keseluruhan (hanya shell tertentu yang dapat memodifikasi sebagian Interface). Sistem Linux, di sisi lain, jauh lebih modular, memperlakukan lingkungan desktop sebagai komponen independen yang dapat diganti secara bebas.
-
-
 
 Di Linux, penting untuk membedakan dengan jelas antara semua lapisan: kernel (yang mengelola interaksi dengan perangkat keras), server tampilan (yang bertindak sebagai perantara antara aplikasi, driver grafis, dan perangkat keras melalui kernel), dan akhirnya lingkungan desktop itu sendiri, yang mengandalkan infrastruktur ini untuk memberikan Interface grafis yang koheren kepada pengguna. Perbedaan ini terkadang kurang jelas, karena banyak distribusi Linux yang dilengkapi dengan lingkungan desktop yang sudah terinstal yang terkadang menyertakan komposer Wayland-nya sendiri, yang kemudian bertindak sebagai server tampilan.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Paket kantor
 
 
@@ -5754,6 +5742,7 @@ Firefox tetap menjadi tolok ukur untuk keamanan dan privasi, meskipun sedikit te
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Peramban Tor
 
 
@@ -5774,15 +5763,11 @@ Kelemahannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompa
 
 #### Browser Mullvad
 
-
-
 [Mullvad Browser] (https://mullvad.net/en/browser) merupakan hasil kolaborasi antara Tor Foundation dan Mullvad VPN. Peramban ini didasarkan pada peramban Tor, yang merupakan turunan dari Firefox ESR. Peramban Mullvad dirancang untuk memaksimalkan privasi pengguna. Secara default, ini mencakup proteksi tingkat lanjut terhadap sidik jari, pelacak, dan skrip pihak ketiga.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 VPN ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: VPN ini tidak mengalihkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran IP Address, Anda bisa menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Secara default, LibreWolf mengaktifkan pengaturan keamanan tingkat lanjut Firefo
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Browser Zen
-
-
 
 [Zen Browser] (https://zen-browser.app/) adalah peramban sumber terbuka dan gratis yang berbasiskan Firefox (mesin Gecko), diluncurkan pada tahun 2024. Tujuannya adalah untuk menawarkan pengalaman menjelajah yang modern, elegan, sangat mudah disesuaikan, dan yang terpenting adalah pengalaman menjelajah yang berpusat pada privasi, tanpa ketergantungan pada Chromium.
 
-
-
 Zen menonjol karena pendekatan radikal terhadap Interface dan kegunaannya, sebagian besar terinspirasi oleh peramban Arc, namun dibebaskan darinya dengan sifat sumber terbuka dan mesin Gecko. Ini termasuk :
-
-
-
 
 - Interface modular yang minimalis, dengan bilah sisi vertikal untuk tab, tampilan terpisah, dan sistem *ruang kerja* untuk mengelompokkan kumpulan tab berdasarkan proyek;
 - Sistem templat Interface yang dapat disesuaikan (*Zen Mods*) yang dapat digunakan untuk memodifikasi tampilan browser secara mendalam;
 - Fungsi orisinal yang disebut *Glance*, yang membuka tautan di jendela sementara yang ringan, menghindari kekacauan tab...
 
-
-
 Zen juga mendukung ekstensi Firefox, serta sinkronisasi melalui akun Mozilla.
-
-
 
 Dari sudut pandang keamanan dan privasi, Zen memiliki fitur pemblokiran asli pelacak pihak ketiga. Peramban ini tidak mengumpulkan data apa pun, dan juga memungkinkan telemetri Mozilla dinonaktifkan. Peramban ini juga secara otomatis menolak sertifikat SSL yang sudah usang atau tidak sesuai.
 
-
-
 Zen Browser adalah alternatif yang menarik jika Anda mencari lingkungan penjelajahan Gecko yang gratis, inovatif, rapi, dan menghormati privasi Anda.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Browser berbasis WebKit
 
-
-
 #### Safari
-
-
 
 Peramban utama yang masih menggunakan mesin rendering WebKit (bukan Fork seperti Blink) adalah Safari. [Safari] (https://www.apple.com/safari/) adalah peramban eksklusif Apple untuk macOS. Browser ini menawarkan integrasi yang sangat baik dengan ekosistem Apple, kinerja tinggi, dan sekarang menyertakan perlindungan yang lebih kuat terhadap pelacakan dan sidik jari.
 
-
-
 Namun, Safari tetap tertutup, terbatas pada macOS untuk versi desktopnya, dan bergantung pada ekosistem Apple. Meskipun Apple memiliki kebijakan privasi yang kuat, dengan model bisnisnya yang terutama didasarkan pada penjualan perangkat keras dan bukannya iklan, namun masih belum jelas tentang praktik internal tertentu.
-
-
 
 Di sini, kami berfokus pada peramban desktop, tetapi penting untuk dicatat bahwa di iOS, Apple mewajibkan semua peramban untuk menggunakan mesin rendering WebKit (sebuah kendala yang mungkin segera berubah, sebagai akibat dari peraturan tertentu di Eropa). Ini berarti bahwa browser seperti Chrome, Firefox atau Brave harus, di iOS, menawarkan aplikasi berdasarkan WebKit, dan bukan pada mesin rendering mereka yang biasa.
 
@@ -5889,6 +5855,7 @@ Orion sepenuhnya dikembangkan oleh tim Kagi (yang dikenal dengan mesin pencari b
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browser tanpa mesin rendering
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS tidak mengintegrasikan komponen berpemilik. Anda bebas untuk menambah
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile adalah versi mobile dari klien email sumber terbuka populer y
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis merupakan aplikasi sumber terbuka yang komprehensif. Aplikasi ini mengenkr
 Ente Auth adalah solusi multi-platform yang modern, open-source, dan multi-platform dengan pencadangan terenkripsi ujung ke ujung. Ente Auth memungkinkan Anda untuk menyinkronkan kode 2FA dengan aman di perangkat seluler, desktop, dan web. Anda juga bisa menggunakannya secara offline, tanpa pencadangan awan atau pembuatan akun.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khusus untuk setiap layanan, catatan, favorit, pencarian terintegrasi, berbagi kode tim yang aman.
 
 
@@ -7642,6 +7611,7 @@ Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, teta
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, autentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus dalam kursus SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface yang
 Aplikasi ini juga mengintegrasikan timer dan stopwatch, dengan perekaman putaran, statistik, perbandingan waktu, dan manajemen multi-timer. Anda dapat mengonfigurasi beberapa zona waktu, menyesuaikan tema (warna, gaya, animasi), dan bahkan mengatur alarm dan pengatur waktu dengan label.
 
 
+Untuk memperdalam topik ini, saya merekomendasikan Anda mengunjungi situs [*Awesome Privacy*](https://awesome-privacy.xyz/), yang mencantumkan alternatif terbaik yang ramah privasi untuk perangkat lunak yang Anda gunakan setiap hari.
 ___
 
 
@@ -8526,6 +8497,7 @@ Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada be
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Pada tingkat sistem operasi: Beberapa OS secara bawaan mengintegrasikan dukungan DNS terenkripsi (DoT atau DoH), yang mengamankan semua permintaan DNS yang melewati tumpukan jaringan sistem. Namun, hal ini tidak mengamankan seluruh komputer atau telepon: Aplikasi dapat melewati pengaturan ini jika dikonfigurasi untuk menggunakan resolver atau protokol DNS yang berbeda.
 
 
@@ -8626,3 +8598,4 @@ Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan ja
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

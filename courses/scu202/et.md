@@ -1062,7 +1062,7 @@ Canonicali poolt välja töötatud ja 2004. aastal käivitatud Ubuntu on üks ma
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint paistab silma oma lihtsuse, multimeediakoodekite vaikimisi olemasolu ja hästi kujundatud uuendustööriista poolest. Teisest küljest tugineb see suuresti Ubuntu infrastruktuurile, mistõttu sõltub see Ubuntu tehnilistest valikutest (eriti tuuma ja repositooriumi tasandil). Mint sobib eriti hästi mitte-tehnilistele kasutajatele või neile, kes soovivad kasutusvalmis süsteemi, mis ei nõua liiga palju õppimist.
 
@@ -1246,7 +1246,7 @@ Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Märkus:** Live-distributsioon on Linuxi operatsioonisüsteem, mida saab kasutada otse USB-pulgalt või CD-lt, ilma Hard kettale installeerimata.
 
@@ -1300,9 +1300,9 @@ PureOS on Debianist tuletatud jaotus, mille on välja töötanud Purism ja mis o
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (varem Raspbian) on Raspberry Pi mikroarvutite jaoks optimeeritud distributsioon. See põhineb Debianil, mille paketid on ümber kompileeritud ARM-arhitektuuri jaoks. Seda saab kasutada haridusprojektide, elektrooniliste testide või väikeste isiklike serverite jaoks.
 
@@ -1326,36 +1326,23 @@ Whonix kombineerib Debianit ja Tor-võrku kahe VM-i arhitektuuris (värav + tö�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 See panoraam annab teile ülevaate praegusest Linuxi distributsioonide ökosüsteemist, mis võimaldab teil valida oma tehnilisele profiilile ja eesmärkidele kõige paremini sobivaima distributsiooni.
-
-
 
 SCU202 järgmises peatükis vaatleme lähemalt praktilist Linuxi keskkonda, alustades graafilistest keskkondadest, mis on teie igapäevase suhtluse aluseks.
 
-
-
 ## Linuxi töölauakeskkonnad
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linuxi süsteemis mängib töölauakeskkond kasutajakogemuses üht kõige olulisemat rolli. See on graafiline Layer, mis võimaldab süsteemiga suhtlemist, mis põhineb tuttavatel visuaalsetel kujutistel: aknad, menüüd, ikoonid, paneelid ja eelinstalleeritud rakendused.
-
-
 
 Selles peatükis uurin töölauakeskkonna struktuuri ja rolli, selle tüüpilisi komponente, peamisi olemasolevaid perekondi, valikukriteeriume ja nende integreerimist kõige populaarsematesse Linuxi distributsioonidesse.
 
-
-
 ### Mis on kontorikeskkond?
 
-
-
 Töölauakeskkond (või "*DE*" nagu *Desktop Environment*) viitab programmide kogumile, mis moodustab operatsioonisüsteemi täieliku graafilise Interface. Windowsis ja macOSis pakutakse vaikimisi ühte töölauakeskkonda, mis on integreeritud süsteemi, ilma et seda saaks täielikult muuta (ainult teatud kestad on olemas Interface osaliseks muutmiseks). Linuxi süsteemid seevastu on palju modulaarsemad, käsitledes töölauakeskkonda iseseisva komponendina, mida saab vabalt asendada.
-
-
 
 Linuxi puhul on oluline selgelt eristada kõiki kihte: tuuma (mis haldab suhtlust riistvaraga), kuvaserverit (mis toimib vahendajana rakenduste, graafikadraiverite ja riistvara vahel tuuma kaudu) ja lõpuks töölaua keskkonda ennast, mis tugineb sellele infrastruktuurile, et pakkuda kasutajale ühtset graafilist Interface. See eristamine võib mõnikord olla vähem selge, kuna paljud Linuxi distributsioonid tulevad koos eelinstalleeritud töölauakeskkonnaga, mis mõnikord sisaldab oma Wayland kompositori, mis siis tegutseb kuvaserverina.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontoripakett
 
 
@@ -5754,6 +5742,7 @@ Firefox jääb turvalisuse ja privaatsuse osas endiselt eeskujuks, kuigi jääb 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor brauser
 
 
@@ -5774,15 +5763,11 @@ Miinuseks on jõudluse märkimisväärne vähenemine (suur latentsus) ja piiratu
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor Foundationi ja Mullvad VPN-i koostöö tulemus. See põhineb Tori brauseril, mis omakorda on tuletatud Firefox ESRist. Mullvad Browser on loodud selleks, et maksimeerida kasutaja privaatsust. Vaikimisi sisaldab see täiustatud kaitset sõrmejälgede, jälgijate ja kolmandate osapoolte skriptide vastu.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Sellel on enamik Tor Browser'i pakutavaid turva- ja privaatsusfunktsioone, ühe erinevusega: see ei suunata liiklust Tor-võrgu kaudu ümber. IP Address lekete vältimiseks saate seda kasutada koos VPNiga (ideaalis Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ LibreWolf aktiveerib vaikimisi Firefoxi täiustatud turvasätted (näiteks range
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen brauser
-
-
 
 [Zen Browser] (https://zen-browser.app/) on 2024. aastal turule toodud tasuta ja avatud lähtekoodiga brauser, mis põhineb Firefoxil (Gecko mootor). Selle eesmärk on pakkuda moodsat, elegantset, väga hästi kohandatavat ja eelkõige privaatsusele suunatud sirvimiskogemust, sõltumata Chromiumist.
 
-
-
 Zen paistab silma oma radikaalse lähenemise poolest Interface-le ja kasutatavusele, mis on suuresti inspireeritud Arc-brauserist, kuid mis on sellest vabanenud tänu avatud lähtekoodile ja Gecko mootorile. See sisaldab :
-
-
-
 
 - Minimalistlik, modulaarne Interface, millel on vertikaalne küljeriba vahekaartide jaoks, jagatud vaade ja *tööruumide* süsteem vahekaartide rühmitamiseks projektide kaupa;
 - Kohandatavate Interface mallide süsteem (*Zen Mods*), mida saab kasutada brauseri välimuse põhjalikuks muutmiseks;
 - Originaalfunktsioon nimega *Glance*, mis avab lingi kerges ajutises aknas, vältides vahekaartide segadust...
 
-
-
 Zen toetab ka Firefoxi laiendusi ning sünkroniseerimist Mozilla konto kaudu.
-
-
 
 Turvalisuse ja privaatsuse seisukohalt on Zenil võimalik blokeerida kolmandate osapoolte jälgimisseadmeid. Brauser ei kogu ise mingeid andmeid ja võimaldab ka Mozilla telemetria välja lülitada. Samuti lükkab see automaatselt tagasi vananenud või nõuetele mittevastavad SSL-sertifikaadid.
 
-
-
 Zen Browser on huvitav alternatiiv, kui otsite Gecko sirvimiskeskkonda, mis on tasuta, uuenduslik, puhas ja teie privaatsust austav.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-põhised brauserid
 
-
-
 #### Safari
-
-
 
 Peamine brauser, mis kasutab endiselt WebKit renderdusmootorit (mitte Fork nagu Blink), on Safari. [Safari] (https://www.apple.com/safari/) on Apple'i eksklusiivne brauser macOSi jaoks. See pakub suurepärast integratsiooni Apple'i ökosüsteemiga, suurt jõudlust ja sisaldab nüüd tugevamat kaitset jälgimise ja sõrmejälgede võtmise vastu.
 
-
-
 Safari on siiski endiselt suletud, selle töölauaversioon on piiratud macOSiga ja sõltub Apple'i ökosüsteemist. Kuigi Apple'il on tugev privaatsuspoliitika, mille ärimudel põhineb peamiselt riistvara müügil, mitte reklaamil, on teatud sisemised tavad endiselt ebaselged.
-
-
 
 Siinkohal keskendume töölaua brauseritele, kuid on oluline märkida, et iOS-i puhul nõuab Apple, et kõik brauserid kasutaksid WebKit-redastusmootorit (piirang, mis võib siiski peagi muutuda teatud Euroopa määruste tõttu). See tähendab, et sellised brauserid nagu Chrome, Firefox või Brave peavad iOSi puhul pakkuma WebKitil põhinevat rakendust, mitte oma tavapärast renderdusmootorit.
 
@@ -5889,6 +5855,7 @@ Orion on täielikult välja töötatud Kagi meeskonna poolt (tuntud oma reklaami
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Brauserid ilma renderdusmootoriteta
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS ei sisalda ühtegi patenteeritud komponenti. Te võite vabalt lisada 
 Graphene ühildub ainult hiljutiste Google Pixeli mudelitega (Pixel 6, 7, 8 ja 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationi poolt välja töötatud populaarse ava
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis on terviklik avatud lähtekoodiga rakendus. See krüpteerib teie 2FA-andme
 Ente Auth on kaasaegne, avatud lähtekoodiga, mitmeplatvormiline lahendus, millel on läbivalt krüpteeritud varukoopiad. See võimaldab teil sünkroonida oma 2FA-koode turvaliselt mobiilis, lauaarvutis ja veebis. Saate seda kasutada ka võrguühenduseta, ilma pilve varundamise või konto loomiseta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth pakub palju lisafunktsioone: Ente Ente pakub: organiseerimine siltide järgi, kohandatud ikoonid iga teenuse jaoks, märkmed, lemmikud, integreeritud otsing, turvaline meeskonnakoodi jagamine.
 
 
@@ -7642,6 +7611,7 @@ Authy pakub 2FA sünkroniseerimist mitme seadme vahel, mis võib olla kasulik, k
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Kui soovite rohkem teada saada paroolihalduritest, 2FA autentimisest ja VPNidest, soovitan lugeda SCU-101 kursuse vastavaid peatükke:
 
 
@@ -8035,6 +8005,7 @@ F-Droidil saadaval ja täielikult avatud lähtekoodiga, pakub Chrono kaasaegset,
 Rakendus sisaldab ka taimerit ja stopperit, ringide salvestamist, statistikat, ajavõrdlusi ja mitme ajamiga haldamist. Saate konfigureerida mitu ajavööndit, kohandada teemat (värvid, stiilid, animatsioonid) ja isegi organiseerida oma alarmid ja taimerid siltidega.
 
 
+Teema sügavamaks uurimiseks soovitan külastada lehte [*Awesome Privacy*](https://awesome-privacy.xyz/), mis loetleb parimad privaatsust austavad alternatiivid igapäevaselt kasutatavale tarkvarale.
 ___
 
 
@@ -8526,6 +8497,7 @@ Praktikas saab DNS-i krüpteerimist ja serveri vahetamist rakendada erinevatel t
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Operatsioonisüsteemi tasandil: Mõned operatsioonisüsteemid integreerivad algselt krüpteeritud DNS-toe (DoT või DoH), mis turvab kõik DNS-päringud, mis läbivad süsteemi võrgupinu. See ei taga siiski kogu arvuti või telefoni turvalisust: Rakendused võivad sellest seadistusest mööda minna, kui nad on konfigureeritud kasutama teistsugust DNS-resolverit või -protokolli.
 
 
@@ -8626,3 +8598,4 @@ Järgides neid mõningaid samme, saate luua tugeva ja turvalise võrgukeskkonna,
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

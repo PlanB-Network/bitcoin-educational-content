@@ -1,0 +1,9 @@
+question: Oltalama girişimlerinin amacı nedir?
+answer: Kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmek için.
+wrong_answers:
+  - Size spam e-postalar göndermek için.
+  - Size ürün veya hizmet satmak için.
+  - Sizi etkinliklere veya web seminerlerine davet etmek için.
+explanation: |
+  Kimlik avı girişimleri, kimlik bilgileriniz ve parolalarınız gibi hassas bilgileri elde etmeyi amaçlar. Bilgisayar korsanları, bilgilerinizi ifşa etmeniz için sizi kandırmak amacıyla sahte e-postalar gibi çeşitli taktikler kullanır.
+reviewed: true

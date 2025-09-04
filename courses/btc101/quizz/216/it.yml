@@ -1,13 +1,11 @@
-question: Qual è lo stato di Bitcoin in El Salvador?
-answer: Moneta a corso legale.
+question: Cos'è il trilemma della blockchain?
+answer: Un protocollo basato su una blockchain può soddisfare solo due dei criteri tra decentralizzazione, sicurezza e scalabilità.
 wrong_answers:
-  - Criminalizzato.
-  - Sconosciuto.
-  - Non regolamentato.
+  - Un protocollo basato su una blockchain può soddisfare solo uno dei criteri tra decentralizzazione, sicurezza e scalabilità.
+  - Un protocollo basato su una blockchain può soddisfare tutti i criteri di decentralizzazione, sicurezza e scalabilità.
+  - Un protocollo basato su una blockchain non può soddisfare nessuno dei criteri di decentralizzazione, sicurezza e scalabilità.
 explanation: |
-  Il testo del corso menziona che alcuni paesi hanno vietato
-  e criminalizzato l'uso di Bitcoin, aggiungendo alla
-  complessità dell'adozione basata su culture, epoche e
-  nazioni. Tuttavia, El Salvador è stato abbastanza coraggioso da adottarlo
-  come moneta a corso legale.
+  Il trilemma della blockchain si riferisce alla sfida secondo cui un
+  protocollo basato su una blockchain può soddisfare solo due criteri su
+  tre: decentralizzazione, sicurezza e scalabilità.
 reviewed: true

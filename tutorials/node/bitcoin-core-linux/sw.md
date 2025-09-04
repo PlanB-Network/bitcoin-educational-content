@@ -15,7 +15,7 @@ Utangulizi wa Bitcoin na dhana ya nodi, inayokamilishwa na mwongozo wa kina wa u
 Moja ya mapendekezo ya kusisimua zaidi ya Bitcoin ni uwezo wa kuendesha programu mwenyewe, na hivyo kushiriki katika ngazi ya punjepunje katika mtandao na uthibitishaji wa shughuli za umma Ledger.
 
 
-Bitcoin, mradi wa chanzo huria, umesambazwa hadharani na unapatikana bila malipo tangu 2009. Takriban miaka 15 baada ya kuanzishwa, Bitcoin sasa ni mtandao thabiti na usiozuilika wa fedha wa kidijitali, unaonufaika na athari kubwa ya mtandao wa kikaboni. Kwa juhudi na maono yao, Satoshi Nakamoto inastahili shukrani zetu. Kwa njia, tunakaribisha karatasi nyeupe ya Bitcoin hapa kwenye Agora 256 (kumbuka: pia kwenye chuo kikuu).
+Bitcoin, mradi wa chanzo huria, umesambazwa hadharani na unapatikana bila malipo tangu 2009. Takriban miaka 15 baada ya kuanzishwa, Bitcoin sasa ni mtandao thabiti na usiozuilika wa fedha za kidijitali, unaonufaika na athari kubwa ya mtandao wa kikaboni. Kwa juhudi na maono yao, Satoshi Nakamoto anastahili shukrani zetu. Kwa njia, tunakaribisha karatasi nyeupe ya Bitcoin hapa kwenye Agora 256 (kumbuka: pia kwenye chuo kikuu).
 
 
 ## Kuwa benki yako mwenyewe
@@ -117,7 +117,7 @@ Hata hivyo, kuendesha na kusawazisha nodi yako mara kwa mara, hata kuthibitisha 
 ## Kufunga na kusanidi Tor kwa Bitcoin Core
 
 
-Kwanza, tunahitaji kusakinisha huduma ya Tor (Njia ya Vitunguu), mtandao unaotumiwa kwa mawasiliano yasiyojulikana, ambayo itatuwezesha kuficha maingiliano yetu na mtandao wa Bitcoin. Kwa utangulizi wa zana za ulinzi wa faragha mtandaoni, ikiwa ni pamoja na Tor, rejelea makala yetu kuhusu mada hii.
+Kwanza, tunahitaji kusakinisha huduma ya Tor (Njia ya Vitunguu), mtandao unaotumiwa kwa mawasiliano yasiyojulikana, ambayo itatuwezesha kuficha mwingiliano wetu na mtandao wa Bitcoin. Kwa utangulizi wa zana za ulinzi wa faragha mtandaoni, ikiwa ni pamoja na Tor, rejelea makala yetu kuhusu mada hii.
 
 
 Ili kusakinisha Tor, fungua terminal na uingize sudo apt -y install tor. Mara usakinishaji ukamilika, huduma kwa kawaida itazinduliwa kiotomatiki chinichini. Angalia ikiwa inaendesha kwa usahihi na amri sudo systemctl status tor. Jibu linapaswa kuonyesha Imetumika: hai (imetoka). Bonyeza Ctrl+C ili kuondoka kwenye chaguo hili la kukokotoa.

@@ -1,0 +1,9 @@
+question: Kimliği doğrulanmış bir şifreleme şeması bir iletişim oturumunda neden tek başına yetersizdir?
+answer: Mesajın oturum sırasında gönderen tarafından gönderildiğini garanti etmez.
+wrong_answers:
+  - Çok kısa tuşlar kullanıyor.
+  - Oturum sırasında gönderilen mesajları şifrelemez.
+  - Oturum sırasında göndericinin kimlik doğrulamasına izin vermez.
+explanation: |
+  Kimliği doğrulanmış bir şifreleme şeması, tanımlayıcılar ve sıra numaraları gibi göstergeler eklenmeden tekrar oynatma, yeniden sıralama ve yansıtma gibi saldırılara karşı koruma sağlamaz.
+reviewed: false

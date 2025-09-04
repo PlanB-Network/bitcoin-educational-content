@@ -1,0 +1,9 @@
+question: Bitcoin protokolünde hangi eliptik eğri kullanılır?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin, kriptografik işlemleri için y² = x³ + 7 denklemiyle tanımlanan secp256k1 eğrisini kullanır.
+reviewed: false

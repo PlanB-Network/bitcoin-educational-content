@@ -1062,7 +1062,7 @@ Ubuntu, ontwikkeld door Canonical en gelanceerd in 2004, is een van de populairs
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint werd gelanceerd in 2006 en is een van Ubuntu afgeleide distributie, o
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint onderscheidt zich door zijn eenvoud, de standaard aanwezigheid van multimediacodecs en een goed ontworpen updatetool. Aan de andere kant leunt het zwaar op de infrastructuur van Ubuntu, waardoor het afhankelijk is van Ubuntu's technische keuzes (met name op kernel- en repository-niveau). Mint is vooral geschikt voor niet-technische gebruikers, of mensen die een kant-en-klaar systeem willen dat niet te veel hoeft te leren.
 
@@ -1246,7 +1246,7 @@ Tails is een Debian-gebaseerde, privacy-gerichte live-distributie. Alles gaat do
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Noot:** Een live distributie is een Linux besturingssysteem dat direct vanaf een USB-stick of CD kan worden gebruikt, zonder installatie op de Hard schijf.
 
@@ -1300,9 +1300,9 @@ PureOS is een van Debian afgeleide distributie ontwikkeld door Purism, volledig 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+
 - Raspberry Pi OS**:
-
-
 
 Raspberry Pi OS (voorheen Raspbian) is een distributie geoptimaliseerd voor Raspberry Pi microcomputers. Het is gebaseerd op Debian, met pakketten opnieuw gecompileerd voor de ARM-architectuur. Het kan worden gebruikt voor educatieve projecten, elektronisch testen of kleine persoonlijke servers.
 
@@ -1326,36 +1326,23 @@ Whonix combineert Debian met het Tor netwerk in een twee-VM architectuur (gatewa
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Dit panorama geeft je een overzicht van het huidige ecosysteem van Linux-distributies, zodat je de distributie kunt kiezen die het beste past bij je technische profiel en doelstellingen.
-
-
 
 In het volgende hoofdstuk van SCU202 gaan we dieper in op de praktische Linux-omgeving, te beginnen met de grafische omgevingen die de basis vormen van je dagelijkse interacties met het systeem.
 
-
-
 ## Linux bureaubladomgevingen
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 In een GNU/Linux systeem speelt de bureaubladomgeving een van de belangrijkste rollen in je gebruikerservaring. Het is de grafische Layer die interactie met het systeem mogelijk maakt, gebaseerd op bekende visuele representaties: vensters, menu's, pictogrammen, panelen en voorgeïnstalleerde applicaties.
-
-
 
 In dit hoofdstuk verken ik de structuur en rol van een desktopomgeving, de typische componenten, de belangrijkste beschikbare families, selectiecriteria en hun integratie in de populairste Linux distributies.
 
-
-
 ### Wat is een kantooromgeving?
 
-
-
 Een desktopomgeving (of "*DE*" voor *Desktop Environment*) verwijst naar de verzameling programma's die de volledige grafische Interface van een besturingssysteem vormen. Op Windows en macOS wordt standaard een enkele desktopomgeving aangeboden, geïntegreerd in het systeem, zonder mogelijkheid om deze volledig aan te passen (alleen bepaalde shells bestaan om de Interface gedeeltelijk aan te passen). Linux systemen zijn daarentegen veel modulairder en behandelen de desktopomgeving als een onafhankelijke component die vrij kan worden vervangen.
-
-
 
 In Linux is het belangrijk om een duidelijk onderscheid te maken tussen alle lagen: de kernel (die de interactie met de hardware beheert), de displayserver (die als tussenpersoon fungeert tussen applicaties, grafische stuurprogramma's en hardware via de kernel) en tot slot de desktopomgeving zelf, die op deze infrastructuur vertrouwt om een samenhangende grafische Interface aan de gebruiker te leveren. Dit onderscheid kan soms minder duidelijk zijn, omdat veel Linux distributies geleverd worden met een voorgeïnstalleerde desktop omgeving die soms zijn eigen Wayland compositor bevat, die dan als een display server fungeert.
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kantoorpakket
 
 
@@ -5754,6 +5742,7 @@ Firefox blijft een benchmark voor beveiliging en privacy, ondanks het feit dat h
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-browser
 
 
@@ -5774,15 +5763,11 @@ Het nadeel is een aanzienlijke prestatievermindering (hoge latentie) en beperkte
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) is het resultaat van de samenwerking tussen de Tor Foundation en Mullvad VPN. Het is gebaseerd op de Tor browser, die zelf is afgeleid van Firefox ESR. Mullvad Browser is ontworpen om de privacy van de gebruiker te maximaliseren. Standaard bevat het geavanceerde bescherming tegen fingerprinting, trackers en scripts van derden.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Het heeft de meeste beveiligings- en privacyfuncties van Tor Browser, met één verschil: het leidt het verkeer niet om via het Tor netwerk. Om IP Address lekken te voorkomen, kun je het gebruiken in combinatie met een VPN (idealiter Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Standaard activeert LibreWolf de geavanceerde beveiligingsinstellingen van Firef
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-browser
-
-
 
 [Zen Browser](https://zen-browser.app/) is een gratis en open source browser gebaseerd op Firefox (Gecko engine), gelanceerd in 2024. Het doel is om een moderne, elegante, zeer aanpasbare en vooral privacy-gerichte browse-ervaring te bieden, zonder afhankelijk te zijn van Chromium.
 
-
-
 Zen onderscheidt zich door zijn radicale benadering van Interface en bruikbaarheid, grotendeels geïnspireerd door de Arc browser, maar er toch van geëmancipeerd door zijn open-source karakter en Gecko engine. Het bevat :
-
-
-
 
 - Een minimalistische, modulaire Interface, met een verticale zijbalk voor tabbladen, een gesplitste weergave en een *werkruimte* systeem voor het groeperen van sets tabbladen per project;
 - Een systeem van aanpasbare Interface sjablonen (*Zen Mods*) die gebruikt kunnen worden om het uiterlijk van de browser diepgaand te wijzigen;
 - Een originele functie genaamd *Glance*, die een link opent in een lichtgewicht tijdelijk venster, waardoor de rommel van tabbladen wordt vermeden...
 
-
-
 Zen ondersteunt ook Firefox-extensies en synchronisatie via een Mozilla-account.
-
-
 
 Vanuit het oogpunt van beveiliging en privacy beschikt Zen over een ingebouwde blokkering van trackers van derden. De browser verzamelt zelf geen gegevens en het is ook mogelijk om Mozilla telemetrie uit te schakelen. Ook worden verouderde of niet-conforme SSL-certificaten automatisch geweigerd.
 
-
-
 Zen Browser is een interessant alternatief als je op zoek bent naar een Gecko-browseromgeving die gratis, innovatief, overzichtelijk en privacyvriendelijk is.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-gebaseerde browsers
 
-
-
 #### Safari
-
-
 
 De belangrijkste browser die nog steeds de WebKit rendering engine gebruikt (geen Fork zoals Blink) is Safari. [Safari](https://www.apple.com/safari/) is de exclusieve browser van Apple voor macOS. Het biedt uitstekende integratie met het Apple ecosysteem, hoge prestaties en bevat nu sterkere bescherming tegen tracking en fingerprinting.
 
-
-
 Safari blijft echter gesloten, beperkt tot macOS voor de desktopversie en afhankelijk van het Apple ecosysteem. Hoewel Apple een sterk privacybeleid heeft en zijn bedrijfsmodel voornamelijk is gebaseerd op de verkoop van hardware in plaats van reclame, blijft het onduidelijk over bepaalde interne praktijken.
-
-
 
 Hier richten we ons op desktopbrowsers, maar het is belangrijk om op te merken dat Apple op iOS vereist dat alle browsers de WebKit rendering engine gebruiken (een beperking die echter binnenkort kan veranderen als gevolg van bepaalde Europese regelgeving). Dit betekent dat browsers zoals Chrome, Firefox of Brave op iOS een toepassing moeten aanbieden die is gebaseerd op WebKit, en niet op hun gebruikelijke rendering engine.
 
@@ -5889,6 +5855,7 @@ Orion is volledig ontwikkeld door het Kagi-team (bekend van de reclamevrije zoek
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers zonder rendering engines
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS integreert geen propriëtaire componenten. Je bent vrij om Google-die
 Graphene is alleen compatibel met recente Google Pixels (Pixel 6, 7, 8 en 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile is de mobiele versie van de populaire open-source e-mailclien
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogrammen voor elke dienst, notities, favorieten, geïntegreerd zoeken, veilig delen van teamcode.
 
 
@@ -7642,6 +7611,7 @@ Authy biedt 2FA synchronisatie op meerdere apparaten, wat handig kan zijn, maar 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Als u meer wilt weten over wachtwoordmanagers, 2FA-authenticatie en VPN's, raad ik u aan de hoofdstukken in de SCU-101-cursus te lezen:
 
 
@@ -8035,6 +8005,7 @@ Chrono is beschikbaar op F-Droid en volledig open-source. Het biedt een moderne,
 De applicatie integreert ook een timer en stopwatch, met rondeopname, statistieken, tijdvergelijkingen en beheer van meerdere timers. Je kunt meerdere tijdzones instellen, het thema aanpassen (kleuren, stijlen, animaties) en zelfs je alarmen en timers organiseren met labels.
 
 
+Om dieper op het onderwerp in te gaan, raad ik u aan de website [*Awesome Privacy*](https://awesome-privacy.xyz/) te bezoeken, die de beste privacyvriendelijke alternatieven opsomt voor de software die u dagelijks gebruikt.
 ___
 
 
@@ -8526,6 +8497,7 @@ In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveau
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Op het niveau van het besturingssysteem: Sommige besturingssystemen integreren standaard versleutelde DNS-ondersteuning (DoT of DoH), waardoor alle DNS-verzoeken die door de netwerkstack van het systeem gaan beveiligd worden. Dit beveiligt echter niet de hele computer of telefoon: Toepassingen kunnen deze instelling omzeilen als ze geconfigureerd zijn om een andere DNS-resolver of een ander protocol te gebruiken.
 
 
@@ -8626,3 +8598,4 @@ Door deze paar stappen te volgen, bouw je een robuuste, veilige netwerkomgeving 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

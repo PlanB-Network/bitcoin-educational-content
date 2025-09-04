@@ -109,7 +109,7 @@ En av de spesielle egenskapene til Blitz Wallet er at den støtter forskjellige 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Som standard vil alle transaksjonene dine være på Liquid Network, men med Blitz kan du velge hvilket nettverk du ønsker å motta satoshier på ved å klikke på knappen **Velg format**.
 
@@ -270,3 +270,4 @@ Hvis denne veiledningen hjalp deg med å få grep om Blitz, er vi sikre på at d
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

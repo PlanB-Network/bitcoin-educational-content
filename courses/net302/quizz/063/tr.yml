@@ -1,0 +1,9 @@
+question: IPv6'yı tanıtmanın temel amacı nedir?
+answer: Neredeyse sınırsız bir Address alanı sağlayın
+wrong_answers:
+  - Ethernet verimini 4 kat artırın
+  - TCP'yi kademeli olarak UDP ile değiştirin
+  - Paket başına bayt sayısını azaltın
+explanation: |
+  IPv6'nın temel amacı, Address alanını büyük ölçüde genişleterek IP adresi sıkıntısını çözmektir.
+reviewed: false

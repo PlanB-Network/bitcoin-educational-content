@@ -1,9 +1,11 @@
-question: Apa satuan Bitcoin yang digunakan di Jaringan Lightning?
-answer: Sats
+question: Bagaimana Lightning Network berpotensi digunakan untuk menyewakan barang?
+answer: Pengguna bisa dikenakan biaya per menit, atau bahkan per detik, untuk waktu mereka menggunakan barang tersebut
 wrong_answers:
-  - Bitcoin
-  - Ether
-  - Litecoin
+  - Pengguna bisa dikenakan biaya tetap untuk menyewa barang tersebut
+  - Pengguna bisa dikenakan biaya berdasarkan nilai dari barang tersebut
+  - Pengguna bisa dikenakan biaya berdasarkan kondisi dari barang tersebut
 explanation: >-
-  Jaringan Lightning menggunakan sats (desimal dari bitcoin) untuk berfungsi.
+  Dengan Lightning Network, dapat dibayangkan untuk menggunakan sistem ini
+  untuk menyewakan barang. Pengguna bisa dikenakan biaya per menit, atau bahkan per detik, untuk waktu
+  mereka menggunakan barang tersebut.
 reviewed: false

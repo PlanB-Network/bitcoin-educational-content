@@ -1890,7 +1890,7 @@ Il descriptor include anche la chiave pubblica estesa utilizzata in questo walle
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Successivamente, la notazione `/<0;1>/*` specifica che il descriptor può generare indirizzi dalla chain esterna (`0`) o da quella interna (`1`), con un carattere jolly (`*`) che consente la derivazione sequenziale di più indirizzi in modo configurabile, simile alla gestione di un "gap limit" sui software wallet tradizionali.
+La notazione `/<0;1>/*` indica che il descrittore può generare indirizzi sia dalla catena esterna (`0`) sia da quella interna (`1`). Il carattere jolly (`*`) alla fine del percorso significa che, in sequenza, è possibile derivare tutte le chiavi figlie non rinforzate (“*unhardened*”) da questa posizione, siano esse indirizzi esterni o interni. Questa sintassi non implica direttamente il concetto di *gap limit*, che appartiene a un meccanismo specifico dei portafogli per il rilevamento degli indirizzi, ma serve qui unicamente a indicare che tutte le derivazioni possibili in questa posizione sono prese in considerazione.
 
 Infine, `#jy0l7nr4` rappresenta il checksum per verificare l'integrità del descriptor.
 

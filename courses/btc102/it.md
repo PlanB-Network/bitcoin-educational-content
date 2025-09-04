@@ -1598,7 +1598,7 @@ Alcune buone pratiche:
 
 Per monitorare il tuo saldo senza compromettere le chiavi private, prendi in considerazione l'utilizzo di un wallet watch-only. Questo strumento consente di monitorare i saldi e le transazioni utilizzando esclusivamente le chiavi pubbliche.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 La strategia di un Hodler è semplice ma potente: acquistare, proteggere e dimenticarsi di averlo. La vera sfida non è tecnica, ma psicologica. La parte più difficile è resistere all'impulso di vendere troppo presto o di farsi prendere dal panico durante i cali di prezzo. Ma se si rimane disciplinati e si pensa a lungo termine, l'hodling si è dimostrato un modo affidabile per preservare il valore e costruire ricchezza nel tempo.
 
@@ -1658,11 +1658,11 @@ Uno stacker ha bisogno di un setup che bilanci la facilità d'uso con la sicurez
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -1751,7 +1751,7 @@ Abitudini chiave:
 
 Per facilitare il monitoraggio senza compromettere la sicurezza, imposta un Watch-only per visualizzare i saldi, utilizzando la chiave pubblica.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Valuta il tuo profilo da stacker
 
@@ -1836,13 +1836,13 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
@@ -2545,3 +2545,8 @@ Ancora una volta, complimenti per i progressi fatti. E ricorda: il mio obiettivo
 
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+
+
+

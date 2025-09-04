@@ -1,0 +1,8 @@
+question: Bitcoin Mining'de özel SHA256 makinelerinin veya ASICS'in ana avantajı nedir?
+answer: Joule başına Hash oranını artırırlar.
+wrong_answers:
+  - Enerji tüketimini azaltırlar.
+  - İşlemlerin hızını artırırlar.
+  - Ağın güvenliğini artırırlar.
+explanation: >-
+reviewed: true

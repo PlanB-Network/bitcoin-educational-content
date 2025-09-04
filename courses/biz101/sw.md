@@ -560,6 +560,7 @@ Hivi sasa, hali ya mmiliki wengi anayefanya uamuzi ndiye mwakilishi zaidi kati y
 - **Wamiliki wa biashara ndogo sana** : Wajasiriamali katika huduma, kilimo, au tasnia ya ufundi ambao wameelewa uwezo wa Bitcoin na kuitengea sehemu ya hazina yao. Motisha yao kuu iko katika utofauti na uhuru unaotoa
 - **Kampuni zinazouzwa hadharani** kama vile MicroStrategy zimeweka kielelezo kwa kubadilisha sehemu kubwa ya hazina yao ya shirika kuwa Bitcoin, kuonyesha mabadiliko ya kimataifa katika mikakati ya ugawaji wa mtaji wa shirika. Kufikia msimu wa 2024, kampuni zingine nyingi zilifuata mkondo huo, na kuhalalisha zaidi mwelekeo huu.
 
+Gundua orodha iliyosasishwa ya kampuni zinazoshikilia bitcoins nyingi zaidi kwenye hazina, pamoja na kiasi kilichoshikiliwa, kwenye tovuti: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Ushuru wa Bitcoin unaoshikiliwa na wafanyabiashara
 
 Kwa biashara ambazo hazijaundwa kama huluki tofauti za kisheria—kama vile umilikaji pekee au huluki nyingine zisizojumuishwa—ushuru wa miamala ya Bitcoin mara nyingi huakisi jinsi inavyotumika kwa watu binafsi. Mara nyingi, sheria zilezile zinazosimamia faida ya mtaji au mapato hutumika, kama vile zingetumika ikiwa mtu binafsi alikuwa akiuza Bitcoin. Kwa mfano, katika baadhi ya nchi, faida inaweza kuchukuliwa kuwa sehemu ya mapato ya kibinafsi ya mjasiriamali, kulingana na **mabano ya kodi ya mapato ya kibinafsi**.
@@ -849,7 +850,7 @@ Kwa mafunzo ya kina kuhusu pochi zinazopendekezwa na usanidi msingi, tafadhali s
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1341,6 +1342,7 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

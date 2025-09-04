@@ -1,197 +1,449 @@
 ---
 name: Proton Mail
-description: Turvalise e-posti kasti seadistamine
+description: Turvalise postkasti seadistamine
 ---
-![kaas](assets/cover.webp)
+![cover](assets/cover.webp)
 
-E-posti kast on teie veebitegevuse keskne element ja mängib sageli olulist rolli teie arvuti turvalisuses. Kui ründaja suudab teie e-posti kasti kompromiteerida, saavad nad hõlpsasti juurdepääsu teie teistele kontodele läbi "*unustasin parooli*" funktsiooni. See võib võimaldada neil kontrollida teie sotsiaalvõrgustikke, pangakontosid ja muid veebiteenuseid, sest tänapäeval kasutatakse e-posti aadressi sageli teie veebiidentiteedi ainulaadse identifikaatorina. Seetõttu on oma e-posti kasti turvamine väga oluline enda kaitsmiseks rünnakute eest.
 
-E-posti kasti turvalisuse tagamiseks on oluline omaks võtta mõned lihtsad head tavad, mida me käesolevas arvutialgajatele suunatud õpetuses uurime. Samuti on oluline valida turvaline e-posti teenuse pakkuja, kes pakub arenenud kaitsevõimalusi ja tugevat privaatsuskaitse poliitikat. Seetõttu soovitan selles õpetuses tutvuda ProtonMailiga. Isegi kui eelistate mitte kasutada seda teenusepakkujat, saab siin esitatud häid tavasid rakendada mis tahes e-posti kasti turvalisuse suurendamiseks.
+
+Postkast on teie veebitegevuse keskne osa ja mängib sageli olulist rolli teie IT-turvalisuses. Kui ründajal õnnestub teie postkasti rikkuda, saab ta "*Unustatud parool*" funktsiooni kaudu hõlpsasti ligipääsu teie teistele kontodele. See võib võimaldada tal kontrollida teie sotsiaalvõrgustikke, pangakontosid ja muid võrguteenuseid, sest tänapäeval kasutatakse e-posti Address sageli teie veebiidentiteedi unikaalse identifikaatorina. Seetõttu on oma postkasti turvamine väga oluline, et kaitsta end rünnakute eest.
+
+
+
+Oma postkasti turvalisuse tagamiseks on oluline võtta kasutusele mõned lihtsad parimad tavad, mida uurime selles algajatele mõeldud õpetuses. Samuti on oluline valida turvaline e-posti teenusepakkuja, mis pakub täiustatud kaitsevõimalusi ja tugevat privaatsuspoliitikat. Seepärast soovitan ma selles õpetuses ProtonMaili. Isegi kui te ei soovi seda teenusepakkujat kasutada, saab siin esitatud parimaid tavasid rakendada mis tahes postkasti puhul, et suurendada selle turvalisust.
+
+
 
 ## Miks kasutada ProtonMaili?
 
-ProtonMail on üsna turvaline sõnumside lahendus tänu mitmele omadusele. Esiteks tagab ProtonMail sinu e-kirjade otsast lõpuni krüpteerimise, mis tähendab, et nende sisu saavad lugeda ainult saatja ja saaja. Teoreetiliselt ei pääse isegi ProtonMail oma kasutajate e-kirjadele ligi. See krüpteerimine rakendub automaatselt, ilma et kasutajatelt nõutaks erilisi tehnilisi oskusi.
 
-Lisaks integreerib ProtonMail arenenud tehnoloogiaid sinu privaatsuse kaitsmiseks, sealhulgas teatud jälgimissüsteemide blokeerimine ja sinu IP-aadressi maskeerimine. Kuna Proton on asutatud Šveitsis, saab Protoni ettevõte kasu mõningatest andmekaitse seadustest, mida teistes riikides ei leidu. Lisaks on ProtonMail avatud lähtekoodiga, mis võimaldab sõltumatutel ekspertidel tarkvara koodi vabalt auditeerida.
 
-Protoni ärimudel põhineb tellimussüsteemil, mis on julgustav, kuna see näitab, et ettevõte finantseeritakse ilma tingimata oma kasutajate andmeid ära kasutamata. Selles õpetuses uurime, kuidas kasutada ProtonMaili tasuta versiooni, kuid on olemas ka mitu tellimustaset, mis pakuvad rohkem funktsioone. See ärimudel on eelistatav täiesti tasuta süsteemile, mis võiks tekitada muret selle üle, kas meie isikuandmeid kasutatakse kasumi teenimiseks. Õnneks ei tundu see ProtonMaili puhul olevat nii.
+ProtonMail on üsna turvaline e-posti lahendus tänu mitmetele funktsioonidele. Esiteks pakub ProtonMail teie e-kirjade otsekohalduse krüpteerimist, mis tähendab, et ainult saatja ja saaja saavad nende sisu lugeda. Teoreetiliselt ei pääse isegi ProtonMaili kasutajate e-kirjadele ligi. See krüpteerimine toimub automaatselt, mis ei nõua kasutajatelt mingeid erilisi tehnilisi oskusi.
 
-## Protoni konto loomine
 
-Külasta ametlikku Protoni lehte: https://proton.me/
+
+Veelgi enam, ProtonMail sisaldab täiustatud tehnoloogiaid teie privaatsuse kaitsmiseks, sealhulgas teatud jälgimissüsteemide blokeerimist ja IP Address maskeerimist. Kuna Proton asub Šveitsis, siis saab ta kasu mõnest andmekaitseseadusest, mida teistes riikides ei ole. Veelgi enam, ProtonMail on avatud lähtekoodiga, mis võimaldab sõltumatutel ekspertidel tarkvara koodi vabalt auditeerida.
+
+
+
+Protoni ärimudel põhineb tellimissüsteemil, mis on rahustav, sest see näitab, et ettevõte rahastab ennast ilma kasutajate andmeid tingimata ära kasutamata. Selles õpetuses uurime, kuidas kasutada ProtonMaili tasuta versiooni, kuid on olemas ka mitu tellimustaset, mis pakuvad rohkem funktsioone. Selline ärimudel on eelistatav täiesti tasuta süsteemile, mis võib panna mõtlema, kas meie isiklikke andmeid kasutatakse kasumi saamiseks. Õnneks ei tundu see ProtonMaili puhul nii olevat.
+
+
+
+## Looge Proton konto
+
+
+
+Külastage protoni ametlikku veebisaiti: https://proton.me/
+
+
 
 ![proton](assets/notext/01.webp)
 
-Klõpsa nupul "*Loo konto*":
-Sul on võimalus valida erinevate plaanide vahel vastavalt oma vajadustele. Alguseks võid valida tasuta konto, mis võimaldab sul testida ProtonMaili põhiteenuseid. Hiljem, kui soovid juurdepääsu lisafunktsioonidele ja muule Protoni tarkvarale nagu Kalender, VPN või Paroolihaldur, võid kaaluda tasulise plaani tellimist.
 
-Seejärel jõuad konto loomise lehele.
 
-Saad valida eelistatud domeeninime oma e-posti aadressile, klõpsates väikesel noolel. See valik ei mõjuta järgnevat.
+Vajutage nupule "*Loo konto*":
 
-Samuti vali oma e-posti aadressile kasutajanimi.
 
-Seejärel palutakse sul seada parool. Selles etapis on oluline valida tugev parool, kuna see võimaldab juurdepääsu sinu postkastile. Tugev parool peaks olema võimalikult pikk, kasutama laia valikut tähemärke ja olema valitud juhuslikult. 2024. aasta minimaalsed soovitused turvalise parooli jaoks on 13 tähemärki, sealhulgas numbrid, väiketähed ja suurtähed ning sümbolid, eeldusel, et parool on tõeliselt juhuslik. Siiski soovitan valida vähemalt 20-tähemärgilise parooli, mis sisaldab kõiki võimalikke tähemärkide tüüpe, et tagada selle turvalisus pikemaks ajaks.
-Paroolihalduri kasutamine on suurepärane praktika. See mitte ainult ei võimalda teil oma paroole turvaliselt salvestada, ilma et peaksite neid meelde jätma, vaid see võib teie jaoks genereerida ka pikki ja juhuslikke paroole. Inimesed on tõepoolest väga halvad juhuslike jadade loomisel ja piisavalt juhuslik mitteolev parool võib olla haavatav jõuga murdmise rünnakutele. Soovitan samuti tutvuda meie täieliku juhendiga paroolihalduri seadistamise kohta, et saada sellel teemal rohkem üksikasju:
+
+![proton](assets/notext/02.webp)
+
+
+
+Saate valida erinevate pakettide vahel, mis sobivad teie vajadustele. Alustamiseks võite valida tasuta konto, mis võimaldab teil testida ProtonMaili põhiteenuseid. Hiljem, kui soovite juurdepääsu lisafunktsioonidele ja muule Proton-tarkvarale, näiteks kalendrile, VPNile või paroolihaldurile, võite kaaluda tasulise paketi tellimist.
+
+
+
+![proton](assets/notext/03.webp)
+
+
+
+Seejärel viiakse teid konto loomise lehele.
+
+
+
+![proton](assets/notext/04.webp)
+
+
+
+Saate valida domeeninime, mida soovite oma e-posti Address jaoks, klõpsates väikesel noolega. See valik ei mõjuta järgmist.
+
+
+
+![proton](assets/notext/05.webp)
+
+
+
+Valige ka oma e-posti Address identifikaator.
+
+
+
+![proton](assets/notext/06.webp)
+
+
+
+Seejärel palutakse teil määrata parool. Selles etapis on oluline valida tugev parool, sest see võimaldab juurdepääsu teie postkastile. Tugev salasõna peaks olema võimalikult pikk, sisaldama mitmesuguseid sümboleid ja olema valitud juhuslikult. Aastal 2024 on turvalise salasõna minimaalsed soovitused 13 märki, sealhulgas numbrid, suur- ja väiketähed ning sümbolid, tingimusel, et salasõna on tõesti juhuslik. Soovitan siiski valida vähemalt 20 tähemärki sisaldava salasõna, mis sisaldab kõiki võimalikke tähemärgiliike, et tagada selle turvalisus pikemaks ajaks.
+
+
+
+Paroolihalduri kasutamine on suurepärane tava. See ei võimalda teil mitte ainult oma paroole turvaliselt salvestada, ilma et peaksite neid meelde jätma, vaid võib ka generate pikki, juhuslikke paroole teie eest kasutada. Inimesed on tõepoolest väga halvad juhuslike jadade loomisel ja ebapiisavalt juhuslik parool võib olla haavatav brute force'i rünnakutele. Soovitan teil tutvuda ka meie põhjaliku õpetusega paroolihalduri seadistamise kohta, et saada selle teema kohta rohkem üksikasju:
+
+
+
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Klõpsake nupul "*Loo konto*".
+![proton](assets/notext/07.webp)
+
+
+
+Vajutage nupule "*Loo konto*".
+
+
+
+![proton](assets/notext/08.webp)
+
+
 
 Lahendage CAPTCHA.
 
-Valige kuvatav nimi. See on nimi, mis kuvatakse teie saajale, kui saadate e-kirja. Valige oma pärisnimi või hüüdnimi.
-Proton pakub teile ka võimalust seadistada meetod oma konto taastamiseks, kasutades selleks kas oma telefoninumbrit või alternatiivset e-posti aadressi. On oluline mõista, et see võimalus võib suurendada teie e-posti sisendkausta ründepinda. Teie jaoks on see lisaturvameede, et taastada juurdepääs oma kontole, kui unustate oma parooli, kuid häkkeri jaoks on see lisavõimalus proovida teie kontole sisse murda. Te ei ole kohustatud seda taastamisvõimalust valima, kuid kui otsustate seda mitte teha, veenduge, et hoiaksite oma paroolist turvalist koopiat. Ilma selleta, kui kaotate oma parooli, ei saa te taastada juurdepääsu oma e-posti sisendkaustale.
+
+
+![proton](assets/notext/09.webp)
+
+
+
+Valige kuvamisnimi. See on nimi, mida näidatakse teie vastuvõtjale e-kirja saatmisel. Valige oma tegelik nimi või pseudonüüm.
+
+
+
+![proton](assets/notext/10.webp)
+
+
+
+Proton pakub teile ka võimalust määrata oma konto taastamise meetod, kas teie telefoninumbri või teise e-posti Address kaudu. Oluline on mõista, et see võimalus võib suurendada teie postkasti ründepinda. Teie jaoks on see lisaturvalisus, et taastada juurdepääs oma kontole, kui te unustate oma parooli, kuid häkkerile on see lisavõimalus, et üritada teie kontole sisse murda. Te ei pea seda taastamisvõimalust valima, kuid kui te otsustate seda mitte teha, siis veenduge, et te säilitate oma parooli turvalist koopiat. Vastasel juhul, kui kaotate oma salasõna, ei saa te oma postkastile juurdepääsu taastada.
+
+
+
 ![proton](assets/notext/11.webp)
 
-## Teie Protoni postkasti seadistamine
 
-Palju õnne, teie Protoni postkast on nüüd loodud! Alustage oma postkasti teema värvide valimisega.
+
+## Proton postkasti konfigureerimine
+
+
+
+Palju õnne, teie Proton-postkast on nüüd loodud! Alustage postkasti teemavärvide valimisega.
+
+
 
 ![proton](assets/notext/12.webp)
 
-Soovi korral võite seadistada ka oma vanast Gmaili kontost uude ProtonMaili kontosse e-kirjade edasisuunamise.
+
+
+Soovi korral saate luua ka posti edastamise oma vanast Gmaili postkastist uude ProtonMaili postkasti.
+
+
 
 ![proton](assets/notext/13.webp)
 
-Kui olete oma postkasti liidesel, soovitan teil vaadata seadeid, et neid kohandada. Klõpsake paremas ülanurgas asuval hammasrattaikoonil.
+
+
+Kui olete oma Interface postkastis, soovitan teil minna seadistustesse, et seda kohandada. Klõpsake hammasratta ikoonil üleval paremas nurgas.
+
+
 
 ![proton](assets/notext/14.webp)
 
-Seejärel klõpsake nupul "*Kõik seaded*".
+
+
+Seejärel klõpsake nupule "*Kõik seaded*".
+
+
 
 ![proton](assets/notext/15.webp)
 
-Vahekaardil "*Töölaud*" leiate oma konto kohta käivat teavet. Selle jaotise all kerides on teil võimalus valida, millist tüüpi e-kirju soovite Protonilt saada. Kui eelistate mitte saada reklaami- või informatiivseid teateid, võite kõik valikud tühistada.
+
+
+Vahekaardil "*Dashboard*" leiate oma konto andmed. Liikudes selles jaotises edasi, saate valida, millist tüüpi e-kirju olete nõus saama Protonilt. Kui eelistate mitte saada reklaami- või teavitusteateid, võite valida, et te jätate kõik märkimata.
+
+
 
 ![proton](assets/notext/16.webp)
 
-Vahekaardil "*Uuenda plaani*" saate valida tasulise plaani uute funktsioonidega.
+
+
+Vahekaardil "*Upgrade plan*" saate valida uute funktsioonidega tasulise paketi.
+
+
 
 ![proton](assets/notext/17.webp)
 
-Vahekaardil "*Taastamine*" saate lisada või muuta oma taastamismeetodeid.
+
+
+Vahekaardil "*Recovery*" saate lisada või muuta oma taastamismeetodeid.
+
+
 
 ![proton](assets/notext/18.webp)
 
-Vahekaardil "*Konto ja parool*" saate muuta oma kasutajanimesid, samuti meetodeid oma konto turvamiseks.
+
+
+Vahekaardil "*Konto ja parool*" saate muuta oma kasutajanimesid ja konto turvameetodeid.
+
+
 
 ![proton](assets/notext/19.webp)
 
-Praegu on teie postkast turvatud ainult parooliga. Soovitan teil vähemalt lisada kahefaktoriline autentimine kaitse rakendusega. Selleks klõpsake märkeruudul.
+
+
+Praegu on teie postkast kaitstud ainult parooliga. Soovitan teil vähemalt lisada kahefaktorilise autentimise kaitse rakenduse abil. Selleks klõpsake kontrollmärgile.
+
+
 
 ![proton](assets/notext/20.webp)
 
+
+
 Kinnitage oma parool.
+
+
 
 ![proton](assets/notext/21.webp)
 
-Seejärel skannige QR-koodi, kasutades oma 2FA rakendust.
+
+
+Seejärel skaneerige QR-kood oma 2FA-rakendusega.
+
+
 
 ![proton](assets/notext/22.webp)
 
-Rohkem informatsiooni saamiseks soovitan teil tutvuda meie juhendiga, kuidas kasutada 2FA rakendust.
-Vahekaardil "*Keel ja aeg*" saate muuta liidese keelt ning ajavööndit.
+
+
+Lisateabe saamiseks vaadake meie õpetust 2FA-rakenduse kasutamise kohta.
+
+
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Vahekaardil "*Keel ja aeg*" saate muuta Interface keelt ja ajavööndit.
+
+
+
 ![proton](assets/notext/23.webp)
-"*Appearance*" vahekaardil saate muuta oma liidese värve.
+
+
+
+Vahekaardil "*Erinägemine*" saate muuta oma Interface värve.
+
+
 
 ![proton](assets/notext/24.webp)
 
-"*Security and privacy*" vahekaardil on teil juurdepääs erinevatele turvavalikutele. Mõned neist valikutest on saadaval ainult tasulise plaani korral. Teil on ka võimalus keelata Protonil oma andmete kogumine, mida kasutatakse diagnostika ja vigade lahendamise eesmärgil.
+
+
+Vahekaardil "*Turvalisus ja privaatsus*" on teil juurdepääs erinevatele turvavalikutele. Mõned neist valikutest on saadaval ainult tasulise paketi puhul. Teil on ka võimalus keelata oma andmete kogumine ettevõtte Proton poolt, kes kasutab seda teavet diagnostika ja vea lahendamise eesmärgil.
+
+
 
 ![proton](assets/notext/25.webp)
 
-"*Import*" vahekaardil on teil võimalus hallata oma vanade e-kirjade migreerimist uude ProtonMaili kontosse. Kui eelistate alustada täiesti uue postkastiga ilma vanu e-kirju importimata, võite selle valiku tähelepanuta jätta.
+
+
+Vahekaardil "*Import*" saate hallata oma vanade e-kirjade migratsiooni uude ProtonMaili postkasti. Kui eelistate alustada täiesti uue postkastiga, ilma vanu kirju importimata, võite seda valikut ignoreerida.
+
+
 
 ![proton](assets/notext/26.webp)
 
-"*Get the apps*" vahekaart võimaldab teil alla laadida Protoni mobiilirakendused ja lauaarvutitarkvara, et hallata oma postkasti nendel platvormidel. Kui eelistate, võite jätkata ainult veebiversiooni kasutamist oma postkastist, millel on samad funktsioonid ja mida te praegu kasutate.
+
+
+Vahekaart "*Rakendused*" võimaldab teil alla laadida Protoni mobiilirakendusi ja töölaua tarkvara, et hallata oma postkasti nendel platvormidel. Kui soovite, võite jätkuvalt kasutada ainult oma postkasti veebiversiooni, mida praegu kasutate, sest see pakub sama funktsionaalsust.
+
+
 
 ![proton](assets/notext/27.webp)
 
-"*Messages and composing*" vahekaardil on teil hulgaliselt kohandamisvõimalusi oma postkasti jaoks.
+
+
+Vahekaardil "*Sõnumid ja koostamine*" on teil hulgaliselt võimalusi oma postkasti isikupärastamiseks.
+
+
 
 ![proton](assets/notext/28.webp)
 
-"*Email privacy*" vahekaardil saate valida e-kirjade privaatsusega seotud valikuid.
+
+
+Vahekaardil "*Emaili privaatsus*" saate valida oma e-posti privaatsusvalikud.
+
+
 
 ![proton](assets/notext/29.webp)
 
-"*Identity and addresses*" vahekaardil on teil võimalus kohandada oma e-kirja allkirja. Kui teil on tasuline konto, saate luua ka mitu erinevat e-posti aadressi, mida kõiki hallatakse samast kontost. See võib olla väga kasulik oma erinevate kasutusviiside eraldamiseks.
+
+
+Vahekaardil "*Identiteet ja aadressid*" saate kohandada oma e-posti allkirja. Kui teil on tasuline konto, saate luua ka mitu erinevat e-posti aadressi, mida kõiki hallatakse samalt kontolt. See võib olla väga kasulik teie erinevate kasutusalade eristamiseks.
+
+
 
 ![proton](assets/notext/30.webp)
 
-"*Folders and labels*" vahekaardil saate luua kaustu ja silte oma postkasti korraldamiseks.
+
+
+Vahekaardil "*Kaustad ja sildid*" saate luua kaustu ja silte oma postkasti korrastamiseks.
+
+
 
 ![proton](assets/notext/31.webp)
 
-"*Filters*" vahekaart võimaldab teil hallata e-kirjadele rakendatavaid filtreid.
+
+
+Vahekaart "*Filtrid*" võimaldab teil hallata saadud e-kirjade filtreid.
+
+
 
 ![proton](assets/notext/32.webp)
 
-"*Forward and auto-reply*" vahekaart võimaldab teil hallata oma e-kirjade edasisaatmist ja automaatvastuseid.
+
+
+Vahekaart "Edasi saatmine ja automaatne vastus*" võimaldab teil hallata oma e-kirjade edastamist ja automaatseid vastuseid.
+
+
 
 ![proton](assets/notext/33.webp)
 
-"*Domain names*" vahekaardil on teil võimalus seadistada e-posti aadress oma domeeni kasutades, mis võib olla kasulik, kui omate veebisaiti. Isiklikuks kasutamiseks ei pruugi selle funktsiooni kasutamine olla vajalik.
+
+
+Vahekaardil "*Domeeninimed*" on teil võimalus konfigureerida e-posti Address, kasutades oma domeeni, mis võib olla kasulik, kui teil on oma veebisait. Isiklikuks kasutamiseks ei ole selle funktsiooni kasutamine tingimata vajalik.
+
+
 
 ![proton](assets/notext/34.webp)
 
-"*Encryption and keys*" vahekaart võimaldab teil hallata oma e-kirjade krüpteerimisvalikuid. Algajatele kasutajatele ei ole tavaliselt vajalik selles jaotises seadeid muuta.
+
+
+Vahekaart "*Krüpteerimine ja võtmed*" võimaldab teil hallata oma e-posti krüpteerimisvalikuid. Algaja kasutaja jaoks ei ole tavaliselt vaja selles jaotises olevaid seadeid muuta.
+
+
+
 ![proton](assets/notext/35.webp)
-Lõpuks, "*IMAP/SMTP*" vahekaart pakub teile võimalust seadistada sild, et kasutada ProtonMaili e-posti tarkvaraga nagu Outlook või Apple Mail.
+
+
+
+Ja lõpuks, vahekaart "*IMAP/SMTP*" võimaldab teil luua silla, et kasutada ProtonMaili koos selliste e-posti programmidega nagu Outlook või Apple Mail.
+
+
 
 ![proton](assets/notext/36.webp)
 
-Et naasta oma postkasti avalehele, klõpsake vasakus ülanurgas asuval "*Inbox*" nupul.
+
+
+Postkasti avalehele naasmiseks klõpsake vasakus ülanurgas oleval nupul "*Postkast*".
+
+
 
 ![proton](assets/notext/37.webp)
 
-## Oma Proton Maili postkasti kasutamine
 
-E-kirja saatmiseks on see väga lihtne, lihtsalt klõpsake vasakus ülanurgas asuval "*New Message*" nupul.
+
+## Proton postkasti kasutamine
+
+
+
+E-kirja saatmine on väga lihtne: klõpsake lihtsalt vasakus ülanurgas oleval nupul "*Uus sõnum*".
+
+
 
 ![proton](assets/notext/38.webp)
 
-"*To*" väljale sisestage saaja e-posti aadress.
+
+
+Sisestage lahtrisse "*To*" oma saaja e-posti aadress Address.
+
+
 
 ![proton](assets/notext/39.webp)
 
-"*Subject*" väljale sisestage oma e-kirja teema.
+
+
+Sisestage lahtrisse "*Subjekt*" oma e-kirja teema.
+
+
 
 ![proton](assets/notext/40.webp)
 
+
+
 Kirjutage oma sõnum.
+
+
+
 ![proton](assets/notext/41.webp)
-Lõpuks vajutage "*Saada*" nupule, et saata oma e-kiri.
+
+
+
+Lõpuks klõpsake oma e-kirja saatmiseks nupule "*Send*".
+
+
 
 ![proton](assets/notext/42.webp)
 
-Seejärel leiate oma saadetud sõnumid "*Saadetud*" kaustast.
+
+
+Seejärel leiate oma saadetud sõnumid vahekaardilt "*saadetud*".
+
+
 
 ![proton](assets/notext/43.webp)
 
-"*Postkast*" kaust sisaldab teile saabunud e-kirju.
+
+
+Vahekaart "*Postkast*" sisaldab teie saadud e-kirju.
+
+
 
 ![proton](assets/notext/44.webp)
 
-E-kirjade lugemiseks klõpsake neil ning seejärel saate neid organiseerida loodud kaustadesse.
+
+
+Saate oma e-kirju lugeda, klõpsates nendele, ja seejärel korrastada need erinevatesse loodud kaustadesse.
+
+
 
 ![proton](assets/notext/45.webp)
 
-## ProtonMaili postkasti sisselogimine
 
-Nagu varem mainitud, on teil võimalus kasutada oma ProtonMaili postkasti kas veebiversiooni kaudu, laadides alla lauaarvuti tarkvara või kasutades mobiilirakendust. Tarkvara allalaadimiseks külastage ametlikku lehte: https://proton.me/mail/download
 
-Kui eelistate kasutada ainult ProtonMaili veebiversiooni, kaaluge lehe lisamist oma brauseri järjehoidjatesse, et tulevikus oleks lihtsam ligi pääseda ja vältida õngitsuskatseid.
+## Ühendage oma Proton postkastiga
 
-Sellele juurdepääsemiseks minge järgmisele URLile: https://account.proton.me/mail
+
+
+Nagu eespool mainitud, saate oma ProtonMaili postkasti kasutada kas veebiversiooni, lae alla lauaarvuti tarkvara või mobiilirakenduse kaudu. Tarkvara allalaadimiseks külastage ametlikku veebisaiti: https://proton.me/mail/download
+
+
+
+Kui eelistate kasutada ainult ProtonMaili veebiversiooni, siis ärge unustage, et panna veebileht oma brauseris järjehoidjale, et tulevikus lihtsamalt ligi pääseda ja vältida andmepüügikatsetusi.
+
+
+
+Sellele juurdepääsemiseks minge järgmisele URL-ile: https://account.proton.me/mail
+
+
 
 ![proton](assets/notext/46.webp)
 
-Sisestage oma kasutajanimi ja parool, seejärel klõpsake "*Logi sisse*" nuppu. Kui olete lubanud kahefaktorilise autentimise (2FA), palutakse teil sisestada ka teie rakenduse poolt genereeritud 6 dünaamilist numbrit.
+
+
+Sisestage oma kasutajanimi ja parool, seejärel klõpsake nupule "*Sign in*". Kui olete aktiveerinud kahefaktorilise autentimise (2FA), palutakse teil sisestada ka 6 dünaamilist numbrit, mille teie rakendus genereerib.
+
+
 
 ![proton](assets/notext/47.webp)
 
-Seejärel jõuate tagasi oma ProtonMaili postkasti.
+
+
+Te naasete oma ProtonMaili postkasti.
+
+
 
 ![proton](assets/notext/48.webp)

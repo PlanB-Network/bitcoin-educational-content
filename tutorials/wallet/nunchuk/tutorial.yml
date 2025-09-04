@@ -23,7 +23,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - f205sats
-    reward: 0.51
+    reward: 2.35
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -120,6 +120,16 @@ proofreading:
     contributor_names:
     reward: 7.76
   - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.22
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.69
+  - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:

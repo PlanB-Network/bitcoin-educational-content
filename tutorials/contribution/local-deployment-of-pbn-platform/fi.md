@@ -114,7 +114,7 @@ Huomaa: sovellus latautuu automaattisesti uudelleen, jos muutat lähdetiedostoja
 
 Ensimmäisellä ajokerralla sinun on suoritettava tietokantojen siirrot.
 
-Suorita migraatioskripti : `pnpm run dev:db:migrate`
+Suorita migraatioskripti: `pnpm run dev:db:migrate`
 
 ```markdown
 pnpm run dev:db:migrate

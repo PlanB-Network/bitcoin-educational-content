@@ -2,7 +2,7 @@ question: Koji je primarni razlog za neplaćanje hakerima u slučaju ransomware 
 answer: Plaćanje otkupnine ne garantuje oporavak vaših podataka i može ohrabriti sajber kriminalce da nastave svoje zlonamerne aktivnosti.
 wrong_answers:
   - Plaćanje otkupnine je nezakonito i može podstaći sajber kriminalce da nastave svoje zlonamerne aktivnosti.
-  - Plaćanje otkupnine ne garantuje povratak vaših podataka i može ohrabriti hakere da traže više novca nakon početne uplate.
+  - Plaćanje otkupnine ne garantuje povraćaj vaših podataka, ali može podstaći hakere da napadnu druge žrtve.
   - Plaćanje otkupnine može ohrabriti sajber kriminalce da nastave svoje zlonamerne aktivnosti, jer je način plaćanja obično nemoguće pratiti.
 explanation: |
   Plaćanje otkupnine ne garantuje da ćete dobiti svoje

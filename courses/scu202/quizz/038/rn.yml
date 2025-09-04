@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rishobora gukoreshwa mu guhindura amapaki yose ari ku gukwiragiza Ubuntu?
+answer: sudo apt ivugurura && sudo apt ivugurura
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf kuvugurura
+  - sudo ivugurura-vyose
+explanation: |
+  Kuri Ubuntu (na Debian), itegeko rya "sudo apt update && sudo apt upgrade" rihuza urutonde rw'amapaki maze rikashiramwo ivyagezwe vyose biriho.
+reviewed: false

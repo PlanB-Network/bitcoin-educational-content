@@ -1,0 +1,9 @@
+question: Je, ni kitengo gani cha data kinatumika kwenye Layer ya mtandao ya TCP/IP?
+answer: Datagramu
+wrong_answers:
+  - Sehemu
+  - Fremu
+  - Ujumbe
+explanation: |
+  Mtandao wa Layer hubadilisha datagramu, ikijumuisha sehemu kutoka kwa Usafiri Layer.
+reviewed: false

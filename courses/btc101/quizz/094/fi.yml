@@ -1,13 +1,11 @@
-question: Mikä on riski käyttäessä moniallekirjoituslompakkoa?
-answer: Ei ole pääsyä tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
+question: Mikä on standardimenetelmä lompakkosi palauttamiseen?
+answer: Mnemonisen fraasin syöttäminen mihin tahansa lompakko-ohjelmistoon.
 wrong_answers:
-  - Pääsy tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
-  - Yksityisavaintesi jakaminen muiden osapuolten kanssa.
-  - Julkisten avaintesi jakaminen muiden osapuolten kanssa.
+  - Mnemonisen fraasin tallentaminen digitaaliseen tiedostoon.
+  - Mnemonisen fraasin kirjoittaminen valkotaululle.
+  - Mnemonisen fraasin jakaminen luotetun ystävän kanssa.
 explanation: |
-  Kun käytät moniallekirjoituslompakkoa, jokainen yksityisavain
-  moniallekirjoituksesta tulisi säilyttää eri paikoissa. Tämä johtuu siitä,
-  että moniallekirjoitus vaatii useita allekirjoituksia suorittaakseen
-  transaktion, joten tarvitaan tietty määrä lompakoita. Näin ollen,
-  jokaisen osan säilyttäminen eri paikassa lisää ylimääräisen turvallisuustason.
-reviewed: true
+  Standardimenetelmä yksityisen avaimen varmuuskopioimiseksi
+  Bitcoin-lompakossa on syöttämällä mnemoninen fraasisi mihin tahansa
+  lompakko-ohjelmistoon. Tämä mahdollistaa lompakkosi palauttamisen.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Çevrimiçi tarama bağlamında çerezler nedir?
+answer: Cihazınızda bilgi depolamak için web siteleri tarafından oluşturulan dosyalar.
+wrong_answers:
+  - Bir web sitesinden gönderilen ve kullanıcının web tarayıcısı tarafından kullanıcının bilgisayarında depolanan küçük veri parçaları.
+  - Çevrimiçi aktivitelerinizi takip eden programlar.
+  - Cihazınıza zarar verebilecek virüsler.
+explanation: |
+  Çevrimiçi tarama bağlamında, çerezler dosyalardır
+  cihazınızda bilgi depolamak için web siteleri tarafından oluşturulur.
+  Tercihlerinizi, oturum açma bilgilerinizi hatırlamak için kullanılırlar
+  bilgiler ve diğer verilerle taramanızı iyileştirmek için
+  deneyim.
+reviewed: true

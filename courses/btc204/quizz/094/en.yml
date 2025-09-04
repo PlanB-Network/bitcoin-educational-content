@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   It is advised against merging doxxic UTXOs together because it allows for a connection to be made between the different entries of the user in Whirlpool.
 
-reviewed: false
+reviewed: true

@@ -63,7 +63,7 @@ Mwishowe, inafaa kukumbuka kuwa pfSense inahitaji angalau miingiliano miwili ya 
 
 
 
-Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 (lililotolewa Juni 2025). Unaweza kupakua picha ya ISO au faili ya usakinishaji iliyorekebishwa kwa mazingira ya maunzi yako moja kwa moja kutoka kwa tovuti rasmi :
+Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 (lililotolewa Juni 2025). Unaweza kupakua picha ya ISO au faili ya usakinishaji iliyorekebishwa kwa mazingira ya maunzi yako moja kwa moja kutoka kwa tovuti rasmi:
 
 
 
@@ -73,7 +73,7 @@ Toleo la hivi punde thabiti la pfSense, wakati wa kuandika mafunzo haya, ni 2.8 
 
 
 
-Lango la upakuaji hukuruhusu kuchagua :
+Lango la upakuaji hukuruhusu kuchagua:
 
 
 
@@ -352,7 +352,7 @@ Onyesha saa za eneo la tovuti yako ili kumbukumbu na ratiba zilingane (k.m. `Ula
 
 
 
-Sanidi muunganisho wa WAN :
+Sanidi muunganisho wa WAN:
 
 
 

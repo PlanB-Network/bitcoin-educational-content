@@ -75,7 +75,7 @@ Tässä oppaassa valitsen maksujen vastaanottamisen Lightningin kautta. Koulutus
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Sinun on sitten maksettava 1 sat Lightning-osoitteesi vahvistamiseksi. Bitcoin-osoitteen tapauksessa sinun on annettava allekirjoitus yksityisellä avaimella, joka vastaa kyseistä osoitetta.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Lopuksi sinulla on mahdollisuus lisätä suosittelukoodi. Jos haluat tukea meitä, voit käyttää koodia "*DiscoverBitcoin*", jotta osa komissioistasi jaetaan kanssamme. Kiitos! :)
+Lopuksi sinulla on mahdollisuus lisätä suosittelukoodi. Jos haluat tukea meitä, voit käyttää koodia "*DiscoverBitcoin*", jotta osa komissioistasi jaetaan kanssamme. Kiitos!:)
 ![SWISS BITCOIN PAY](assets/notext/12.webp)
 Kun kaikki tiedot on täytetty, napsauta "*Lähetä*" -painiketta.
 ![SWISS BITCOIN PAY](assets/notext/13.webp)

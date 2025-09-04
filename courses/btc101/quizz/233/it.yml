@@ -1,12 +1,13 @@
-question: Qual è lo scopo principale di Lightning Network?
-answer: Facilitare i micro-pagamenti.
+question: Qual è uno dei potenziali benefici che Lightning Network può dare ai creatori di contenuti?
+answer: Sarebbero incentivati a produrre contenuti di buona qualità per mantenere l'attenzione degli utenti.
 wrong_answers:
-  - Aumentare il valore di Bitcoin.
-  - Sostituire il protocollo Bitcoin.
-  - Creare una nuova criptovaluta.
-explanation: >-
-  Lightning Network è una soluzione di secondo livello al protocollo Bitcoin
-  che mira a facilitare i micro-pagamenti, ovvero transazioni di valore molto basso
-  che altrimenti sarebbero impraticabili a causa delle alte commissioni e dei lunghi tempi di conferma
-  sulla blockchain di Bitcoin.
-reviewed: vero
+  - Sarebbero in grado di chiedere di più per i loro contenuti.
+  - Sarebbero in grado di raggiungere un pubblico più ampio.
+  - Sarebbero in grado di produrre contenuti più rapidamente per mantenere l'attenzione degli utenti.
+explanation: |
+  Con Lightning Network i creatori di contenuti sarebbero
+  incentivati a produrre contenuti di buona qualità, per mantenere
+  l'attenzione degli utenti. Gli utenti, a loro volta, pagherebbero solo per i
+  contenuti che consumano, eliminando così le tariffe di abbonamento
+  anticipato.
+reviewed: true

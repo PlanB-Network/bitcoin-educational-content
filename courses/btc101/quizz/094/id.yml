@@ -1,12 +1,11 @@
-question: Apa risiko menggunakan dompet multisig?
-answer: Tidak memiliki akses ke cukup bagian terpisah dari cadangan multisig
+question: Apa metode standar untuk membackup kunci privat dalam dompet Bitcoin?
+answer: Memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun
 wrong_answers:
-  - Memiliki akses ke cukup bagian terpisah dari cadangan multisig
-  - Berbagi kunci dengan pihak lain
-  - Tidak berbagi kunci dengan pihak lain
+  - Menyimpan frasa mnemonik Anda dalam file digital
+  - Menulis frasa mnemonik Anda di papan tulis
+  - Berbagi frasa mnemonik Anda dengan teman yang dipercaya
 explanation: |
-  Ketika Anda menggunakan dompet multisig, setiap bagian dari multisig harus disimpan
-  di lokasi yang berbeda. Ini karena multisig memerlukan beberapa tanda tangan
-  untuk melakukan transaksi sehingga sejumlah dompet diperlukan, dan menyimpan setiap bagian di lokasi yang berbeda menambahkan
-  lapisan keamanan tambahan.
+  Metode standar untuk membackup kunci privat dalam dompet Bitcoin
+  adalah dengan memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun. Ini memungkinkan Anda untuk
+  memulihkan dompet Anda.
 reviewed: true

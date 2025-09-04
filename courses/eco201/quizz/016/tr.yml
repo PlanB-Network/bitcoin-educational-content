@@ -1,0 +1,13 @@
+question: Azalan marjinal fayda kavramı nedir?
+answer: Bir malın her ilave birimi bir öncekinden daha az arzulanır.
+wrong_answers:
+  - Bir malın her ilave birimi bir öncekinden daha fazla arzulanır.
+  - Bir malın her bir ek birimi, bir öncekiyle eşit derecede arzulanır.
+  - Bir malın her bir ek birimi için duyulan arzu öngörülemeyen bir şekilde dalgalanmaktadır.
+explanation: |
+  Azalan marjinal fayda kavramı, her bir marjinal faydanın
+  bir malın ilave birimi, bir malın ilave biriminden daha az arzu edilir
+  önceki. Bunun nedeni, bir birey daha fazlasını elde ettikçe
+  bir malın her bir ek biriminin faydası o kadar az olur
+  iyi sağlar.
+reviewed: true

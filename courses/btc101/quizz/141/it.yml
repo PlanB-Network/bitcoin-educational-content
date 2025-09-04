@@ -1,11 +1,8 @@
-question: Qual è il costo annuale del consumo elettrico per gestire un nodo Bitcoin su un Raspberry Pi 4 (al 2023)?
-answer: Poco meno di 10€ all'anno.
+question: Qual è stato l'esito della guerra dei blocchi nel 2017?
+answer: Gli utenti e i nodi hanno rifiutato la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
 wrong_answers:
-  - Poco più di 50€ all'anno.
-  - Poco meno di 100€ all'anno.
-  - Circa 200€ all'anno.
-explanation: |
-  Gestire un nodo Bitcoin su un Raspberry Pi 4 costa poco
-  meno di 10€ all'anno in termini di consumo elettrico
-  al 2023.
-reviewed: true
+  - Gli utenti e i nodi hanno accettato la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
+  - Gli utenti e i nodi hanno rifiutato la proposta di cambiamento per aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
+  - Gli utenti e i nodi hanno accettato la proposta di cambiamento per aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
+explanation: Nella guerra dei blocchi nel 2017, gli utenti e i nodi hanno trionfato rifiutando la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
+reviewed: vero

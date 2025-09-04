@@ -1,0 +1,12 @@
+question: Bugün bir ev satın almak neden 1980'lere göre çok daha zor?
+answer: Bastırılmış faiz oranları borcu daha cazip hale getirir ve enflasyon
+wrong_answers:
+  - Enflasyon ve kira oranları
+  - Artan hayat pahalılığı ve nüfus artışı
+  - Mülk eksikliği ve bastırılmış faiz oranlarının borcu daha cazip hale getirmesi
+explanation: |
+  Enflasyon paramızın satın alma gücünü düşürürken, onu
+  tasarruf etmek zorlaşıyor, bastırılmış faiz oranları borç tüketimini artırıyor
+  daha caziptir. Sermaye maliyeti bu kadar ucuz olduğunda, insanlar
+  varlıklara daha fazla sermaye akıtmakta ve fiyatları yükseltmektedir.
+reviewed: true

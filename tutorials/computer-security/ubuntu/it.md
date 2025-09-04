@@ -11,12 +11,12 @@ Un sistema operativo (OS) è il software principale che gestisce tutte le risors
 ### Perché Ubuntu?
 
 
-- Sicurezza migliorata** : Le distribuzioni Linux sono rinomate per la loro sicurezza e robustezza
+- Sicurezza migliorata**: Le distribuzioni Linux sono rinomate per la loro sicurezza e robustezza
 - Costo zero**: Ubuntu e la maggior parte delle distribuzioni Linux sono gratuite
 - Grande comunità**: Una comunità di utenti pronti ad aiutare tramite forum e tutorial
 - Rispetto della privacy**: Sistema open source per una maggiore trasparenza
 - Semplicità**: Interfaccia intuitiva e facilità d'uso
-- Ricco ecosistema** : Ampio catalogo di software open source
+- Ricco ecosistema**: Ampio catalogo di software open source
 - Supporto regolare**: Aggiornamenti sicuri da parte di Canonical
 
 ## Installazione e configurazione
@@ -42,7 +42,7 @@ Un sistema operativo (OS) è il software principale che gestisce tutte le risors
 
 ### 3. Creare una chiave USB avviabile
 
-È possibile utilizzare diversi strumenti, come Balena Etcher :
+È possibile utilizzare diversi strumenti, come Balena Etcher:
 
 
 - Scaricare e installare [Balena Etcher](https://etcher.balena.io/)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Inserire la password quando richiesto
-- Per installare gli aggiornamenti, digitare :
+- Per installare gli aggiornamenti, digitare:
 
 ```bash
 sudo apt upgrade
@@ -207,7 +207,7 @@ Per aprirlo: Attività > Cercare "LibreOffice Writer" o fare clic sull'icona se 
 
 Gestore software (chiamato "Ubuntu Software"): interfaccia grafica per la ricerca e l'installazione di applicazioni.
 
-Da Terminale, utilizzare il comando :
+Da Terminale, utilizzare il comando:
 
 ```bash
 sudo apt install nom-du-paquet

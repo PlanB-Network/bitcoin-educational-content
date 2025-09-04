@@ -271,7 +271,7 @@ Bestäm transaktionens prioritet. För ett avgiftsfritt uttag väljer du "*Stand
 ![Image](assets/fr/32.webp)
 
 
-Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Network i avsnittet "*Wallet*"] (https://planb.network/tutorials/Wallet).
+Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Network i avsnittet "*Wallet*"] (https://planb.network/tutorials/wallet).
 
 
 ## Säljer Bitcoin

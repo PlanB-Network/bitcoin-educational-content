@@ -1,11 +1,12 @@
-question: Kiwango cha mfumuko wa bei nchini Hungaria Julai 1946 kilikuwa kipi?
-answer: 41,900,000,000,000,000%
+question: Je, ni dhana gani ya kihisabati ambayo inategemea busara ya binadamu na inatumika katika Bitcoin?
+answer: Nadharia ya mchezo.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Nadharia ya uwezekano.
+  - Nadharia ya nambari.
+  - Weka nadharia.
 explanation: |
-  Mwezi wenye mfumuko wa bei wa juu zaidi nchini Hungaria ulikuwa Julai
-  1946, na rekodi ya mfumuko wa bei wa
-  41,900,000,000,000,000%.
+  Nadharia ya mchezo ni dhana ya hisabati ambayo msingi wake ni
+  busara ya kibinadamu. Katika Bitcoin, mabadiliko ya itifaki ni
+  kutekelezwa na watumiaji, kufanya marekebisho yoyote kwa Bitcoin
+  itifaki ngumu sana.
 reviewed: true

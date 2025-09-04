@@ -1,0 +1,11 @@
+question: Bitcoin'ın temel özelliklerinden biri nedir?
+answer: Herhangi bir kuruluştan izin alınmaksızın dünyanın herhangi bir yerinde takas edilebilir.
+wrong_answers:
+  - Sadece seçilmiş bir grup insan tarafından kullanılabilir.
+  - Kullanılabilmesi için merkezi bir otoriteden yetki alınması gerekir.
+  - Sadece belirli ülkelerde kullanılabilir.
+explanation: |
+  Metinde Bitcoin'in takma isimli olduğu ve
+  yetkisi olmadan dünyanın herhangi bir yerinde değiştirilebilir
+  herhangi bir kuruluşun.
+reviewed: true

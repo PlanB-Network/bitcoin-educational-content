@@ -67,7 +67,7 @@ Dies ist eine Gelegenheit, diejenigen, die ihre Geschenkkarten in Bitcoin bezahl
 
 
 
-Eine Auswahl von Tutorials zu den wichtigsten Lightning-Portfolios (Phoenix, Breez, BitKit, Zeus...) finden Sie hier: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Eine Auswahl von Tutorials zu den wichtigsten Lightning-Portfolios (Phoenix, Breez, BitKit, Zeus...) finden Sie hier: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

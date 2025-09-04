@@ -1,0 +1,9 @@
+question: Koja komanda se može koristiti za dodavanje statičkog IP Address na Interface na Linuxu?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Komanda "ip addr add" je savremeni metod za dodelu statičke IP adrese Address mreži Interface na Linuxu.
+reviewed: false

@@ -4,6 +4,12 @@ description: Configurar un multisig 2/2 en Monedero Verde
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Nota:** A partir de mayo de 2025, ya no será posible activar nuevas cuentas protegidas con autenticación de dos factores (2FA). Esta funcionalidad solo está disponible para los usuarios que ya habían activado este tipo de cuenta anteriormente.*
+
+___
+
 Un monedero software es una aplicación instalada en un ordenador, smartphone u otro dispositivo conectado a Internet, que le permite gestionar y proteger las claves de su monedero Bitcoin. A diferencia de los monederos hardware, que aíslan las claves privadas, los monederos "calientes" operan por tanto en un entorno potencialmente expuesto a ciberataques, lo que aumenta el riesgo de piratería y robo.
 
 Los monederos software deberían utilizarse para gestionar cantidades razonables de bitcoins, especialmente para las transacciones cotidianas. También pueden ser una opción interesante para personas con activos limitados en bitcoins, para quienes la inversión en un monedero físico puede parecer desproporcionada. Sin embargo, su exposición constante a Internet las hace menos seguras para almacenar tus ahorros a largo plazo o grandes fondos. Para esto último, es mejor optar por soluciones más seguras, como los monederos físicos.
@@ -20,7 +26,7 @@ Green es una aplicación particularmente fácil de usar, lo que la hace interesa
 
 Blockstream Green también soporta la red Liquid, una sidechain de Bitcoin desarrollada por Blockstream para transacciones rápidas y confidenciales fuera de la blockchain principal. En este tutorial, nos centramos exclusivamente en Bitcoin, pero también he hecho otro tutorial para aprender a utilizar Liquid en Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## opción multisig 2/2 (2FA)
 
@@ -40,7 +46,7 @@ Otra desventaja de este método de seguridad es que tendrás que utilizar planti
 
 Si prefieres no utilizar la opción 2FA y simplemente deseas configurar un monedero "*singlesig*" en Green, te invito a consultar este otro tutorial :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instalación y configuración del software Blockstream Green
 
@@ -264,4 +270,5 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que consultes este otro completo tutorial sobre la aplicación móvil Blockstream Green para configurar un monedero Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

@@ -1,0 +1,17 @@
+question: Ni ingaruka izihe gucapura amahera menshi ku bushobozi bw’amahera bwo kugura?
+answer: Ugusenyuka kw'ubushobozi bwo kugura bw'amafaranga
+wrong_answers:
+  - Ukwiyongera kw'ubushobozi bwo kugura bw'amafaranga
+  - Nta ngaruka
+  - Amahera menshi = ubushobozi bwo kugura bwinshi
+explanation: |
+  Iyo amabanki akomeye afashe ingingo yo gucapura amahera, ntashobora gusa gutuma haba agaciro kanini. 
+  Kugira ngo ayo mahera aherutse gucapwa agire agaciro, agaciro kayo gategerezwa kuva ku . 
+  abafise amafaranga y’imbere.
+  Iyumvire amahera Supply nk’i pizza, maze wiyumvire ko yaciwemwo ibice bine. 
+  Gukubita kabiri amahera Supply ntivyoba bingana no gukubita kabiri igitigiri ca pizza. 
+  Ahubwo, vyoba bingana no guca ivyo bipande bine mu bice bibiri kugira ngo ureme . 
+  ibice umunani. Nta pizza y’inyongera twaronse. Turafise gusa ibindi bice, 
+  kimwe cose kikaba ari gitoyi mu bunini. Ku bw’ivyo, iyo ducapye amahera menshi, turagabanya agaciro k’ayo mahera . 
+  ivyo bikaba bimaze kubaho.
+reviewed: true

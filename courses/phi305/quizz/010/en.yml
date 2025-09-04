@@ -1,0 +1,9 @@
+question: Has Ethics been published?
+answer: Posthumously.
+wrong_answers:
+  - When he was alive.
+  - Is a collection of press articles.
+  - With the author's correspondence.
+explanation: |
+  The Ethics, Spinoza's major work, was published posthumously in 1677, a few months after his death. The work was too controversial to be published during his lifetime without risking persecution.
+reviewed: false

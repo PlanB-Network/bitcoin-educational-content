@@ -1,0 +1,9 @@
+question: Ku Coin, ni ibihe bintu 3 vy’ishimikiro bituma umuntu ashobora kuyikoresha mu nyuma?
+answer: Coin itegerezwa kuba idakomeretse, ari iyo ukuri, kandi ntitegerezwa gukoreshwa kabiri.
+wrong_answers:
+  - Coin itegerezwa kuba ari iya kera, idasanzwe kandi iri mu mimerere myiza.
+  - Coin itegerezwa kwemerwa kw’isi yose, yemewe n’amategeko, kandi ikabikwa muri banki.
+  - Coin itegerezwa kwemezwa na Leta, yanditswe, kandi ikamara igihe kirekire.
+explanation: |
+  Umuntu wese afise ivyiyumviro vyiza ashaka kwemera Coin, yaba iyo mu buryo bwa digitale canke iyo mu mubiri, araba neza ko itahinduwe, ko ari Coin nyayo vy’ukuri, kandi ko idashobora gusubira gukoreshwa n’uwayitanze.
+reviewed: false

@@ -4,12 +4,15 @@ description: Ställer upp en 2/2 Multisig på Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Observera:** Från och med maj 2025 kommer det inte längre vara möjligt att aktivera nya konton skyddade med tvåfaktorsautentisering (2FA). Denna funktion är endast tillgänglig för användare som tidigare har aktiverat denna typ av konto.*
+
+___
 
 En Software Wallet är en applikation som installeras på en dator, smartphone eller annan internetansluten enhet och som gör att du kan hantera och säkra dina Bitcoin Wallet-nycklar. Till skillnad från hårdvaruplånböcker, som isolerar privata nycklar, fungerar "Hot"-plånböcker därför i en miljö som potentiellt är utsatt för cyberattacker, vilket ökar risken för piratkopiering och stöld.
 
-
 Mjukvaruplånböcker bör användas för att hantera rimliga mängder bitcoins, särskilt för vardagliga transaktioner. De kan också vara ett intressant alternativ för personer med begränsade Bitcoin-tillgångar, för vilka en investering i en Hardware Wallet kan verka oproportionerlig. Deras ständiga exponering mot internet gör dem dock mindre säkra för att lagra dina långsiktiga besparingar eller stora fonder. För det senare är det bäst att välja säkrare lösningar, till exempel hårdvaruplånböcker.
-
 
 I den här handledningen visar jag hur du kan förbättra säkerheten för en Hot Wallet med hjälp av alternativet "*2FA*" på Blockstream Green.
 
@@ -29,7 +32,7 @@ Green är en särskilt lättanvänd applikation, vilket gör den intressant för
 Blockstream Green stöder också Liquid Network, en Bitcoin Sidechain utvecklad av Blockstream för snabb, Confidential Transactions utanför huvud Blockchain. I den här handledningen fokuserar vi uteslutande på Bitcoin, men jag har också gjort en annan handledning för att lära mig hur man använder Liquid på Green :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig tillval (2FA)
 
@@ -58,7 +61,7 @@ En annan nackdel med den här säkerhetsmetoden är att du måste använda skrip
 Om du föredrar att inte använda 2FA-alternativet och helt enkelt vill ställa in en "*singlesig*" Wallet på Green, inbjuder jag dig att konsultera denna andra handledning :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installera och konfigurera Blockstream Green-programvara
 
@@ -393,4 +396,4 @@ Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du 
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen om mobilapplikationen Blockstream Green för att konfigurera en Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

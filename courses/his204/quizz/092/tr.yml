@@ -1,0 +1,8 @@
+question: Condorcet hangi konuda yazmamıştır?
+answer: Bankalar
+wrong_answers:
+  - Tahıl ticareti özgürlüğü
+  - Ev İşleri
+  - Kölelik
+explanation: |
+  Condorcet tahıl ticareti özgürlüğü, corvée ve kölelik hakkında yazdı ama bankalar hakkında yazmadı.

@@ -1,0 +1,9 @@
+question: Który tryb NAT pozwala dziesiątkom urządzeń współdzielić pojedynczy publiczny adres IP Address poprzez modyfikację portów?
+answer: PAT
+wrong_answers:
+  - Statyczny NAT
+  - Dynamiczny NAT
+  - Routing statyczny
+explanation: |
+  PAT, znany również jako przeciążenie NAT lub maskarada IP, zmienia numery portów w celu rozróżnienia sesji, umożliwiając wielu urządzeniom korzystanie z tego samego publicznego Address.
+reviewed: false

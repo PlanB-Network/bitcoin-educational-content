@@ -22,7 +22,7 @@ Si estás en **Linux**, GPG está preinstalado en la mayoría de las distribucio
 sudo apt install gnupg
 ```
 
-Para **macOS**, si aún no has instalado el gestor de paquetes Homebrew, hazlo con los siguientes comandos:
+Para **MacOS**, si aún no has instalado el gestor de paquetes Homebrew, hazlo con los siguientes comandos:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -76,7 +76,7 @@ curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 
 ## Verificando la Firma
 
-El proceso de verificación de la firma es el mismo en **Windows**, **macOS** y **Linux**. Normalmente, ya habrás importado la llave pública durante el paso anterior, pero si no, hazlo con el comando:
+El proceso de verificación de la firma es el mismo en **Windows**, **MacOS** y **Linux**. Normalmente, ya habrás importado la llave pública durante el paso anterior, pero si no, hazlo con el comando:
 
 ```bash
 gpg --import [ruta de la llave]
@@ -123,11 +123,11 @@ Luego compara el resultado con el valor correspondiente en el archivo "*sparrow-
 
 ![GnuPG](assets/notext/13.webp)
 
-En mi caso, vemos que los dos hashes coinciden perfectamente.
+En este caso, vemos que los dos hashes coinciden perfectamente.
 
-En **macOS** y **Linux**, el proceso de verificación del hash es automatizado. No es necesario verificar manualmente la coincidencia entre los dos hashes como en Windows.
+En **MacOS** y **Linux**, el proceso de verificación del hash es automatizado. No es necesario verificar manualmente la coincidencia entre los dos hashes como en Windows.
 
-Simplemente ejecuta este comando en **macOS**:
+Simplemente ejecuta este comando en **MacOS**:
 
 ```bash
 shasum --check [nombre del archivo] --ignore-missing
@@ -157,8 +157,8 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 Ahora puedes estar seguro de que el software que has descargado es auténtico e íntegro. Puedes proceder con su instalación en tu máquina.
 
-Si encontraste útil este tutorial, agradecería mucho un pulgar arriba abajo. No dudes en compartir este artículo en tus redes sociales. ¡Muchas gracias!
+Si encontraste útil este tutorial, agradeceríamos mucho un pulgar arriba abajo. No dudes en compartir este artículo en tus redes sociales. ¡Muchas gracias!
 
-También recomiendo revisar este otro tutorial sobre VeraCrypt, un software que te permite cifrar y descifrar dispositivos de almacenamiento.
+También te recomiendamos revisar este otro tutorial sobre VeraCrypt, un software que te permite cifrar y descifrar dispositivos de almacenamiento.
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

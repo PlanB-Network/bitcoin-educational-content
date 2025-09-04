@@ -1,9 +1,9 @@
-question: Mikä on ollut Bitcoinin verkkosaatavuus vuodesta 2009 lähtien?
-answer: 99,988 %.
+question: Mikä on Bitcoin-lohkoketju?
+answer: Julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
 wrong_answers:
-  - 100 %.
-  - 90,009 %.
-  - 80,17 %.
-explanation: |
-  Bitcoinin verkkosaatavuus on ollut 99,988 % vuodesta 2009 lähtien.
+  - Yksityinen ja muutettavissa oleva kaikkien Bitcoin-siirtojen kirjanpito.
+  - Julkinen ja muutettavissa oleva kaikkien Bitcoin-siirtojen kirjanpito.
+  - Yksityinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
+explanation: >-
+  Bitcoin-lohkoketju on julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito. Se on yhteinen kirjanpito kaikille Bitcoin-käyttäjille.
 reviewed: true

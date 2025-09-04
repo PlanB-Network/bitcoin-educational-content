@@ -1,0 +1,9 @@
+question: Grup kavramını 19. yüzyılda hangi Fransız matematikçi ortaya atmıştır?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois, beşten yüksek dereceli polinom denklemlerinin çözümlerini incelemek için grup teorisini geliştirdi.
+reviewed: false

@@ -565,6 +565,7 @@ Praegu on enamusomaniku stsenaarium, mille kohaselt teeb otsuse enamusomanik, k�
 - Väga väikeste ettevõtete omanikud** : Ettevõtjad teenuste, põllumajanduse või käsitöö valdkonnas, kes on mõistnud Bitcoini potentsiaali ja eraldavad osa oma riigikassast sellele. Nende peamine motivatsioon seisneb mitmekesistamises ja sellega kaasnevas vabaduses
 - Börsil noteeritud ettevõtted**, nagu MicroStrategy, on loonud pretsedendi, konverteerides märkimisväärse osa oma ettevõtte varadest Bitcoiniks, näidates ülemaailmset muutust ettevõtete kapitali jaotamise strateegiates. 2024. aasta sügiseks olid paljud teised ettevõtted järginud oma eeskuju, mis seadustab seda suundumust veelgi.
 
+Avastage ajakohastatud nimekiri ettevõtetest, kes hoiavad kõige rohkem bitcoine kassas, samuti hoitavad summad, saidil: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Ettevõtete valduses olevate bitcoinide maksustamine
 
 Ettevõtete puhul, mis ei ole struktureeritud eraldi juriidiliste isikutena - näiteks füüsilisest isikust ettevõtjad või muud juriidilise isiku staatuseta isikud - peegeldab Bitcoini tehingute maksustamine sageli üksikisikute suhtes kohaldatavat kohtlemist. Paljudel juhtudel kohaldatakse samu eeskirju, mis kehtivad kapitalikasumi või tulu suhtes, nagu siis, kui üksikisik müüb Bitcoini. Näiteks mõnes riigis võidakse kasumit käsitleda osana ettevõtja isiklikust sissetulekust, mille suhtes kohaldatakse **isiku tulumaksu astmestikku**.
@@ -865,7 +866,7 @@ Soovitatavate rahakottide ja põhiliste seadistuste üksikasjalikud õpetused le
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -1366,5 +1367,6 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

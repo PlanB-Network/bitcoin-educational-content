@@ -1,11 +1,12 @@
-question: ¿Qué sucede si tu clave privada es revelada a un tercero?
-answer: El tercero puede gastar tus bitcoins.
+question: ¿Qué no es una frase mnemotécnica en el contexto de Bitcoin?
+answer: Una contraseña para tu monedero de Bitcoin.
 wrong_answers:
-  - El tercero solo puede ver tu historial de transacciones.
-  - El tercero puede cambiar tu clave privada.
-  - El tercero puede acceder a tu información personal.
+  - Una lista de 12 palabras de un diccionario específico.
+  - Una lista de 24 palabras de un diccionario específico.
+  - El secreto para acceder a tus fondos de bitcoin.
 explanation: |
-  Si tu clave privada es revelada a un tercero, los
-  fondos asociados ya no están seguros, porque la clave
-  privada les permite acceder a tus fondos.
+  Una frase mnemotécnica en el contexto de Bitcoin es una lista de 12
+  o 24 palabras que te permite restaurar tu monedero en cualquier
+  aplicación de monedero de Bitcoin. Cualquiera con acceso a esta lista
+  también puede acceder a tus bitcoins.
 reviewed: true

@@ -1,0 +1,9 @@
+question: What is a datagram in the context of the IP protocol?
+answer: A self-contained block of data carried over the network
+wrong_answers:
+  - An encrypted message destined for a single device
+  - A TCP segment encapsulated in UDP
+  - A physical signal from the Network Access layer
+explanation: |
+  IP data is transmitted in the form of datagrams, independent blocks that contain all the information needed for delivery.
+reviewed: false

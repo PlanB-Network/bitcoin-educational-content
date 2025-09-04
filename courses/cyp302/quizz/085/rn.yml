@@ -1,0 +1,9 @@
+question: Ni igiki cipher y’amabuye mu vy’ubuhinga bwo gukingira amakuru?
+answer: Ubuhinga buhindura urudodo rw'uburebure butahinduka mu rundi rudodo rw'uburebure bumwe
+wrong_answers:
+  - Ububiko butaringaniye bushingiye ku mfunguruzo z'ibanga rya bose n'iry'ibanga
+  - Sisitemu ipfuka amakuru y'uburebure buhinduka hakurikijwe umugezi
+  - Ububiko budasaba urufunguzo rw'ibanga
+explanation: |
+  Block cipher ni ubuhinga bukoresha ihinduka ku rudodo rw'ibice rw'uburebure butahinduka rufise urufunguzo kugira ngo ruvemwo uwundi murongo w'uburebure nk'ubwo.
+reviewed: false

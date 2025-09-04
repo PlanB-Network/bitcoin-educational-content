@@ -83,15 +83,15 @@ paolo@planb.network
 Para contribuir para o Plan ₿ Network, tem 3 opções, dependendo do seu nível de experiência com o GitHub:
 
 
-- Utilizadores experientes**: Continue com os seus métodos habituais e consulte simplesmente o pequeno tutorial abaixo que resume a estrutura de ficheiros do repositório Plan ₿ Network, os requisitos específicos e o método de trabalho :
+- Utilizadores experientes**: Continue com os seus métodos habituais e consulte simplesmente o pequeno tutorial abaixo que resume a estrutura de ficheiros do repositório Plan ₿ Network, os requisitos específicos e o método de trabalho:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Intermediário (GitHub Desktop)** : Se não estiver familiarizado com a utilização do Git, a primeira opção é configurar facilmente o seu próprio ambiente local para contribuir para o Plan ₿ Network. Esta abordagem é recomendada para contribuições significativas, como escrever um tutorial completo. Para o fazer, siga o tutorial passo-a-passo abaixo :
+- Intermediário (GitHub Desktop)**: Se não estiver familiarizado com a utilização do Git, a primeira opção é configurar facilmente o seu próprio ambiente local para contribuir para o Plan ₿ Network. Esta abordagem é recomendada para contribuições significativas, como escrever um tutorial completo. Para o fazer, siga o tutorial passo-a-passo abaixo:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Iniciantes (interface web)** : Também pode optar por utilizar diretamente a interface Web do GitHub, sem ter de configurar um ambiente local completo. Este método pode ser considerado para pequenas contribuições. No entanto, para grandes contribuições, como adicionar um novo tutorial completo, esta opção pode ser mais complexa do que configurar um ambiente local. Eu explicarei como fazer isso neste tutorial:
+- Iniciantes (interface web)**: Também pode optar por utilizar diretamente a interface Web do GitHub, sem ter de configurar um ambiente local completo. Este método pode ser considerado para pequenas contribuições. No entanto, para grandes contribuições, como adicionar um novo tutorial completo, esta opção pode ser mais complexa do que configurar um ambiente local. Eu explicarei como fazer isso neste tutorial:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

@@ -1,12 +1,9 @@
-question: Mua hàng tự phát là gì?
-answer: Mua Bitcoin ngay lập tức để tăng cường tiếp xúc.
+question: Một trong những rủi ro tiềm ẩn khi để Bitcoin của bạn trên một nền tảng giao dịch là gì?
+answer: Rủi ro bị hack và bị chặn quỹ.
 wrong_answers:
-  - Mua Bitcoin theo các khoảng thời gian đều đặn.
-  - Chỉ mua Bitcoin khi giá giảm.
-  - Chỉ mua Bitcoin khi giá tăng.
-explanation: |
-  Văn bản khóa học giải thích rằng mua hàng tự phát được
-  sử dụng để ngay lập tức tăng cường tiếp xúc với Bitcoin. Ví dụ,
-  nó có thể có nghĩa là mua trong một đợt sụt giảm hoặc tận dụng
-  một ưu đãi.
+  - Rủi ro của việc nền tảng tăng giá Bitcoin.
+  - Rủi ro của việc nền tảng kiểm soát nguồn cung Bitcoin.
+  - Rủi ro của việc Bitcoin bị một loại tiền mã hóa khác vượt qua về giá.
+explanation: >-
+  Văn bản đề cập rằng để Bitcoin của bạn trên một nền tảng giao dịch có thể phơi bày bạn trước rủi ro bị hack và bị chặn quỹ.
 reviewed: true

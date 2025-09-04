@@ -1,197 +1,449 @@
 ---
 name: Proton Mail
-description: Nastavení bezpečné e-mailové schránky
+description: Nastavení zabezpečené poštovní schránky
 ---
 ![cover](assets/cover.webp)
 
-E-mailová schránka je klíčovým prvkem vaší online aktivity a často hraje zásadní roli ve vaší počítačové bezpečnosti. Pokud útočník dokáže kompromitovat vaši e-mailovou schránku, získá snadný přístup k vašim dalším účtům prostřednictvím funkce "*zapomenuté heslo*". To jim může umožnit ovládnout vaše sociální sítě, bankovní účty a další online služby, protože dnes je e-mailová adresa často používána jako unikátní identifikátor vaší online identity. Proto je zabezpečení vaší e-mailové schránky velmi důležité pro ochranu před útoky.
 
-Pro zajištění bezpečnosti vaší e-mailové schránky je důležité přijmout některé jednoduché dobré praktiky, které prozkoumáme v tomto tutoriálu určeném pro začátečníky v počítačové technice. Je také důležité vybrat si bezpečného poskytovatele e-mailu, který nabízí pokročilé možnosti ochrany a robustní politiku ochrany soukromí. Proto v tomto tutoriálu doporučuji objevit ProtonMail. I když dáváte přednost jinému poskytovateli, dobré praktiky prezentované zde lze aplikovat na jakoukoli e-mailovou schránku pro zvýšení její bezpečnosti.
+
+Poštovní schránka je ústředním prvkem vaší online aktivity a často hraje klíčovou roli v zabezpečení IT. Pokud se útočníkovi podaří kompromitovat vaši poštovní schránku, získá prostřednictvím funkce "*zapomenuté heslo*" snadný přístup k vašim dalším účtům. To mu může umožnit ovládnout vaše sociální sítě, bankovní účty a další online služby, protože e-mail Address se dnes často používá jako jedinečný identifikátor vaší online identity. Zabezpečení e-mailové schránky je proto velmi důležité pro ochranu před útoky.
+
+
+
+Abyste zajistili bezpečnost své poštovní schránky, je důležité přijmout několik jednoduchých osvědčených postupů, kterým se věnujeme v tomto návodu pro počítačové začátečníky. Důležité je také vybrat si bezpečného poskytovatele e-mailových služeb, který nabízí pokročilé možnosti ochrany a důkladné zásady ochrany osobních údajů. Proto v tomto návodu doporučuji ProtonMail. I když tohoto poskytovatele raději nepoužíváte, zde uvedené osvědčené postupy lze aplikovat na jakoukoli poštovní schránku a zvýšit tak její zabezpečení.
+
+
 
 ## Proč používat ProtonMail?
 
-ProtonMail je poměrně bezpečné řešení zpráv díky několika funkcím. Za prvé, ProtonMail zajišťuje šifrování zpráv od konce ke konci, což znamená, že jejich obsah mohou číst pouze odesílatel a příjemce. Teoreticky ani ProtonMail nemůže přistupovat k e-mailům svých uživatelů. Toto šifrování je aplikováno automaticky, bez nutnosti jakýchkoli specifických technických dovedností od uživatelů.
 
-Navíc ProtonMail integruje pokročilé technologie pro ochranu vašeho soukromí, včetně blokování určitých sledovacích systémů a maskování vaší IP adresy. Protože je založen ve Švýcarsku, společnost Proton těží z některých zákonů o ochraně dat, které nejsou k nalezení v jiných zemích. Kromě toho je ProtonMail open-source, což umožňuje nezávislým expertům volně auditovat kód softwaru.
 
-Obchodní model Protonu je založen na systému předplatného, což je uklidňující, protože to naznačuje, že společnost je financována bez nutnosti nutně využívat data svých uživatelů. V tomto tutoriálu prozkoumáme, jak používat bezplatnou verzi ProtonMailu, ale jsou k dispozici také různé úrovně předplatného nabízející více funkcí. Tento obchodní model je preferován před zcela bezplatným systémem, který by mohl vyvolávat obavy, zda nejsou naše osobní údaje využívány pro zisk. Naštěstí se to u ProtonMailu zdá být nepravděpodobné.
+ProtonMail je poměrně bezpečné e-mailové řešení díky několika funkcím. Za prvé, ProtonMail poskytuje end-to-end šifrování vašich e-mailů, což znamená, že jejich obsah může číst pouze odesílatel a příjemce. Teoreticky ani ProtonMail nemá přístup k e-mailům svých uživatelů. Toto šifrování je aplikováno automaticky a nevyžaduje od uživatelů žádné specifické technické dovednosti.
+
+
+
+ProtonMail navíc využívá pokročilé technologie na ochranu vašeho soukromí, včetně blokování některých sledovacích systémů a maskování vaší IP adresy Address. Vzhledem k tomu, že Proton sídlí ve Švýcarsku, těží z některých zákonů na ochranu osobních údajů, které se v jiných zemích nevyskytují. A co víc, ProtonMail je open-source, což umožňuje nezávislým odborníkům volně kontrolovat softwarový kód.
+
+
+
+Obchodní model společnosti Proton je založen na systému předplatného, což je uklidňující, protože to naznačuje, že se společnost financuje sama, aniž by nutně využívala data svých uživatelů. V tomto návodu prozkoumáme, jak používat bezplatnou verzi služby ProtonMail, ale existuje také několik úrovní předplatného, které nabízejí více funkcí. Tento obchodní model je výhodnější než zcela bezplatný systém, který by mohl vést k zamyšlení, zda naše osobní údaje nejsou využívány za účelem zisku. Naštěstí se zdá, že v případě služby ProtonMail tomu tak není.
+
+
 
 ## Vytvoření účtu Proton
 
-Navštivte oficiální stránku proton: https://proton.me/
+
+
+Navštivte oficiální webové stránky společnosti proton: https://proton.me/
+
+
 
 ![proton](assets/notext/01.webp)
 
+
+
 Klikněte na tlačítko "*Vytvořit účet*":
-Máte možnost vybrat si z různých plánů podle vašich potřeb. Na začátek můžete zvolit bezplatný účet, který vám umožní otestovat základní služby ProtonMailu. Později, pokud si přejete přístup k dalším funkcím a dalšímu softwaru Proton, jako je Kalendář, VPN nebo Správce hesel, můžete zvážit předplatné placeného plánu.
 
-Poté přijdete na stránku pro vytvoření účtu.
 
-Můžete si vybrat preferovanou doménu pro vaši e-mailovou adresu kliknutím na malou šipku. Tento výběr nemá vliv na následující kroky.
 
-Také si vyberte uživatelské jméno pro vaši e-mailovou adresu.
+![proton](assets/notext/02.webp)
 
-Poté vás bude požádáno o nastavení hesla. Je důležité vybrat na této fázi silné heslo, protože to umožní přístup k vaší schránce. Robustní heslo by mělo být co nejdelší, používat širokou škálu znaků a být vybráno náhodně. V roce 2024 jsou minimální doporučení pro bezpečné heslo 13 znaků včetně čísel, malých a velkých písmen, stejně jako symbolů, za předpokladu, že je heslo skutečně náhodné. Nicméně doporučuji zvolit heslo o délce alespoň 20 znaků, včetně všech možných typů znaků, aby byla jeho bezpečnost zajištěna na delší dobu.
-Používání správce hesel je vynikající praxe. Nejenže vám umožní bezpečně ukládat vaše hesla, aniž byste je museli pamatovat, ale také za vás může generovat dlouhá a náhodná hesla. Lidé jsou skutečně velmi špatní v tvorbě náhodných sekvencí a heslo, které není dostatečně náhodné, může být zranitelné vůči útokům hrubou silou. Doporučuji také konzultovat náš kompletní tutoriál o nastavení správce hesel pro více detailů na toto téma:
+
+
+Můžete si vybrat z různých balíčků podle svých potřeb. Pro začátek si můžete vybrat bezplatný účet, který vám umožní vyzkoušet základní služby ProtonMailu. Později, pokud budete chtít získat přístup k dalším funkcím a dalšímu softwaru Proton, jako je Kalendář, VPN nebo Správce hesel, můžete zvážit předplatné placeného balíčku.
+
+
+
+![proton](assets/notext/03.webp)
+
+
+
+Poté budete přesměrováni na stránku pro vytvoření účtu.
+
+
+
+![proton](assets/notext/04.webp)
+
+
+
+Kliknutím na malou šipku můžete vybrat název domény, který chcete mít v e-mailu Address. Tato volba nemá žádný vliv na to, co se bude dít dále.
+
+
+
+![proton](assets/notext/05.webp)
+
+
+
+Vyberte také svůj e-mailový identifikátor Address.
+
+
+
+![proton](assets/notext/06.webp)
+
+
+
+Poté budete vyzváni k nastavení hesla. V této fázi je důležité zvolit silné heslo, protože umožní přístup k vaší poštovní schránce. Silné heslo by mělo být co nejdelší, mělo by používat širokou škálu znaků a mělo by být zvoleno náhodně. V roce 2024 je minimální doporučení pro bezpečné heslo 13 znaků, včetně číslic, velkých a malých písmen a symbolů, za předpokladu, že heslo je skutečně náhodné. Doporučuji však zvolit heslo o délce alespoň 20 znaků, včetně všech možných typů znaků, aby byla zaručena jeho bezpečnost po delší dobu.
+
+
+
+Používání správce hesel je vynikajícím postupem. Nejenže vám umožní bezpečně ukládat hesla, aniž byste si je museli pamatovat, ale může za vás také generate dlouhá a náhodná hesla. Lidé jsou skutečně velmi špatní ve vytváření náhodných sekvencí a nedostatečně náhodné heslo může být zranitelné vůči útokům hrubou silou. Doporučuji vám také prostudovat náš obsáhlý návod na nastavení správce hesel, kde najdete další podrobnosti k tomuto tématu:
+
+
+
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+![proton](assets/notext/07.webp)
+
+
 
 Klikněte na tlačítko "*Vytvořit účet*".
 
+
+
+![proton](assets/notext/08.webp)
+
+
+
 Vyřešte CAPTCHA.
 
-Vyberte si zobrazované jméno. To je jméno, které bude zobrazeno vašemu příjemci, když pošlete email. Vyberte si své skutečné jméno nebo přezdívku.
-Proton vám také nabízí možnost nastavit metodu pro obnovu vašeho účtu, buď prostřednictvím vašeho telefonního čísla nebo s alternativní emailovou adresou. Je důležité pochopit, že tato možnost může zvýšit útočnou plochu vaší emailové schránky. Pro vás je to dodatečné bezpečnostní opatření pro znovuzískání přístupu k vašemu účtu v případě, že zapomenete heslo, ale pro hackera je to další příležitost pokusit se dostat do vašeho účtu. Není nutné vybrat tuto možnost obnovy, ale pokud se rozhodnete to neudělat, ujistěte se, že si uchováte bezpečnou kopii vašeho hesla. Bez něj, pokud ztratíte heslo, nebudete moci obnovit přístup k vaší emailové schránce.
+
+
+![proton](assets/notext/09.webp)
+
+
+
+Zvolte zobrazovací název. Toto jméno se zobrazí příjemci při odesílání e-mailu. Zvolte své skutečné jméno nebo pseudonym.
+
+
+
+![proton](assets/notext/10.webp)
+
+
+
+Proton vám také nabízí možnost nastavit způsob obnovení účtu, a to buď prostřednictvím telefonního čísla, nebo jiného e-mailu Address. Je důležité si uvědomit, že tato možnost může zvýšit plochu útoku na vaši poštovní schránku. Pro vás je to dodatečné zabezpečení pro obnovení přístupu k účtu, pokud zapomenete heslo, ale pro hackera je to další příležitost k pokusu o proniknutí do vašeho účtu. Tuto možnost obnovení nemusíte zvolit, ale pokud se rozhodnete ji nezvolit, ujistěte se, že máte bezpečnou kopii hesla. V opačném případě, pokud heslo ztratíte, nebudete moci obnovit přístup do své poštovní schránky.
+
+
+
 ![proton](assets/notext/11.webp)
 
-## Nastavení vaší Proton Mail schránky
 
-Gratulujeme, vaše Proton mailová schránka je nyní vytvořena! Začněte výběrem barev pro téma vaší schránky.
+
+## Konfigurace poštovní schránky Proton
+
+
+
+Gratulujeme, vaše poštovní schránka Proton je nyní vytvořena! Začněte výběrem barevného motivu poštovní schránky.
+
+
 
 ![proton](assets/notext/12.webp)
 
-Pokud chcete, můžete také nastavit přeposílání vašich emailů ze starého účtu Gmail na váš nový účet ProtonMail.
+
+
+Pokud chcete, můžete si také nastavit přeposílání pošty ze staré schránky Gmail do nové schránky ProtonMail.
+
+
 
 ![proton](assets/notext/13.webp)
 
-Jakmile se ocitnete na rozhraní vaší schránky, doporučuji se podívat na nastavení a přizpůsobit je. Klikněte na ikonu ozubeného kola v pravém horním rohu.
+
+
+Jakmile se dostanete do poštovní schránky Interface, doporučuji přejít do nastavení a přizpůsobit si ji. Klepněte na ikonu ozubeného kolečka v pravém horním rohu.
+
+
 
 ![proton](assets/notext/14.webp)
 
+
+
 Poté klikněte na tlačítko "*Všechna nastavení*".
+
+
 
 ![proton](assets/notext/15.webp)
 
-Na záložce "*Dashboard*" najdete informace související s vaším účtem. Při posouvání v této sekci máte možnost vybrat typy emailů, které jste ochotni od Protonu přijímat. Pokud dáváte přednost tomu, abyste nedostávali propagační nebo informační oznámení, můžete si vybrat, že vše odznačíte.
+
+
+Na kartě "*Dashboard*" najdete informace o svém účtu. Přejdete-li dále do této části, můžete si vybrat typy e-mailů, které souhlasíte dostávat od společnosti Proton. Pokud si nepřejete dostávat propagační nebo informační oznámení, můžete zrušit zaškrtnutí všeho.
+
+
 
 ![proton](assets/notext/16.webp)
 
-Na záložce "*Upgrade plan*" si můžete vybrat placený plán s novými funkcemi.
+
+
+Na kartě "*Upgrade plan*" si můžete vybrat placený balíček s novými funkcemi.
+
+
 
 ![proton](assets/notext/17.webp)
 
-Na záložce "*Recovery*" můžete přidat nebo změnit vaše metody obnovy.
+
+
+Na kartě "*Obnovení*" můžete přidat nebo upravit metody obnovení.
+
+
 
 ![proton](assets/notext/18.webp)
 
-Na záložce "*Account and password*" můžete změnit vaše uživatelská jména, stejně jako metody zabezpečení vašeho účtu.
+
+
+Na kartě "*Účet a heslo*" můžete změnit uživatelská jména a způsoby zabezpečení účtu.
+
+
 
 ![proton](assets/notext/19.webp)
 
-Zatím je vaše schránka zabezpečena pouze heslem. Doporučuji vám alespoň přidat ochranu dvoufaktorové autentizace pomocí aplikace. K tomu klikněte na zaškrtávací políčko.
+
+
+V současné době je vaše poštovní schránka chráněna pouze heslem. Doporučuji vám alespoň přidat ochranu dvoufaktorovým ověřováním pomocí aplikace. Chcete-li tak učinit, klikněte na zaškrtávací políčko.
+
+
 
 ![proton](assets/notext/20.webp)
 
+
+
 Potvrďte své heslo.
+
+
 
 ![proton](assets/notext/21.webp)
 
-Poté naskenujte QR kód pomocí vaší aplikace pro 2FA.
+
+
+Poté naskenujte kód QR pomocí aplikace 2FA.
+
+
 
 ![proton](assets/notext/22.webp)
 
-Pro více informací doporučuji zkontrolovat náš tutoriál, jak používat aplikaci pro 2FA.
-Na záložce "*Language and time*" můžete změnit jazyk rozhraní, stejně jako časovou zónu.
+
+
+Další informace najdete v našem návodu, jak používat aplikaci 2FA.
+
+
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Na kartě "*Jazyk a čas*" můžete změnit jazyk a časové pásmo zařízení Interface.
+
+
+
 ![proton](assets/notext/23.webp)
-Na kartě "*Vzhled*" můžete upravit barvy vašeho rozhraní.
+
+
+
+Na kartě "*Zvnějšek*" můžete změnit barvy Interface.
+
+
 
 ![proton](assets/notext/24.webp)
 
-Na kartě "*Bezpečnost a soukromí*" máte přístup k různým bezpečnostním možnostem. Některé z těchto možností jsou dostupné pouze s placeným plánem. Máte také možnost zakázat sběr vašich dat společností Proton, která tuto informaci využívá pro diagnostiku a řešení chyb.
+
+
+Na kartě "*Zabezpečení a soukromí*" máte přístup k různým možnostem zabezpečení. Některé z těchto možností jsou k dispozici pouze s placeným balíčkem. Máte také možnost zakázat shromažďování vašich údajů společností Proton, která tyto informace používá pro diagnostiku a řešení chyb.
+
+
 
 ![proton](assets/notext/25.webp)
 
-Na kartě "*Import*" máte možnost spravovat migraci vašich starých emailů do vašeho nového účtu ProtonMail. Pokud dáváte přednost začít s úplně novou schránkou bez importu starých emailů, můžete tuto možnost ignorovat.
+
+
+Na kartě "*Import*" můžete spravovat migraci starých e-mailů do nové schránky ProtonMail. Pokud dáváte přednost tomu, abyste začali se zcela novou schránkou bez importu starých e-mailů, můžete tuto možnost ignorovat.
+
+
 
 ![proton](assets/notext/26.webp)
 
-Karta "*Stáhnout aplikace*" vám umožňuje stáhnout mobilní aplikace a desktopový software Protonu pro správu vaší schránky na těchto platformách. Pokud preferujete, můžete nadále používat pouze webovou verzi vaší schránky, na které se právě nacházíte, jelikož nabízí stejné funkce.
+
+
+Na kartě "*Získat aplikace*" si můžete stáhnout mobilní aplikace Proton a software pro stolní počítače a spravovat svou poštovní schránku na těchto platformách. Pokud chcete, můžete nadále používat pouze webovou verzi své poštovní schránky, kterou právě používáte, protože nabízí stejné funkce.
+
+
 
 ![proton](assets/notext/27.webp)
 
-Na kartě "*Zprávy a psaní*" máte mnoho možností, jak přizpůsobit vaši schránku.
+
+
+Na kartě "*Zprávy a psaní*" máte k dispozici nesčetné možnosti personalizace poštovní schránky.
+
+
 
 ![proton](assets/notext/28.webp)
 
-Na kartě "*Soukromí emailu*" můžete vybrat možnosti týkající se soukromí vašich emailů.
+
+
+Na kartě "*Soukromí e-mailu*" můžete zvolit možnosti ochrany soukromí e-mailu.
+
+
 
 ![proton](assets/notext/29.webp)
 
-Na kartě "*Identita a adresy*" máte možnost přizpůsobit si svůj emailový podpis. Pokud máte placený účet, můžete také vytvořit několik různých emailových adres, které budou všechny spravovány z jednoho účtu. To může být velmi užitečné pro oddělení vašich různých použití.
+
+
+Na kartě "*Identita a adresy*" můžete přizpůsobit svůj e-mailový podpis. Pokud máte placený účet, můžete si také vytvořit několik různých e-mailových adres, které můžete spravovat ze stejného účtu. To může být velmi užitečné pro oddělení různých způsobů použití.
+
+
 
 ![proton](assets/notext/30.webp)
 
-Na kartě "*Složky a štítky*" můžete vytvářet složky a štítky pro organizaci vaší schránky.
+
+
+Na kartě "*Složky a štítky*" můžete vytvářet složky a štítky pro uspořádání poštovní schránky.
+
+
 
 ![proton](assets/notext/31.webp)
 
-Karta "*Filtry*" vám umožňuje spravovat filtry pro emaily, které přijímáte.
+
+
+Na kartě "*Filtry*" můžete spravovat filtry pro přijímané e-maily.
+
+
 
 ![proton](assets/notext/32.webp)
 
-Karta "*Přeposílání a automatické odpovědi*" vám umožňuje spravovat přeposílání a automatické odpovědi pro vaše emaily.
+
+
+Karta "Přeposílání a automatická odpověď*" umožňuje spravovat přeposílání a automatickou odpověď na e-maily.
+
+
 
 ![proton](assets/notext/33.webp)
 
-Na kartě "*Doménová jména*" máte možnost nastavit emailovou adresu s využitím vaší vlastní domény, což může být užitečné, pokud vlastníte webovou stránku. Pro osobní použití není nutné tuto funkci využívat.
+
+
+Na kartě "*Názvy domén*" máte možnost nakonfigurovat e-mailovou adresu Address pomocí vlastní domény, což může být užitečné, pokud vlastníte webové stránky. Pro osobní použití není nezbytně nutné tuto funkci používat.
+
+
 
 ![proton](assets/notext/34.webp)
 
-Karta "*Šifrování a klíče*" vám umožňuje spravovat možnosti šifrování pro vaše emaily. Pro začínající uživatele obvykle není nutné nastavení v této sekci upravovat.
+
+
+Na kartě "*Šifrování a klíče*" můžete spravovat možnosti šifrování e-mailu. Pro začínající uživatele zpravidla není nutné měnit nastavení v této části.
+
+
+
 ![proton](assets/notext/35.webp)
-A nakonec, karta "*IMAP/SMTP*" vám nabízí možnost konfigurovat most pro použití ProtonMailu s emailovým softwarem, jako je Outlook nebo Apple Mail.
+
+
+
+A konečně karta "*IMAP/SMTP*" umožňuje nastavit most pro použití ProtonMailu s e-mailovými programy, jako je Outlook nebo Apple Mail.
+
+
 
 ![proton](assets/notext/36.webp)
 
-Pro návrat na domovskou stránku vaší schránky klikněte na tlačítko "*Doručená pošta*" v levém horním rohu.
+
+
+Chcete-li se vrátit na domovskou stránku své poštovní schránky, klikněte na tlačítko "*Inbox*" v levém horním rohu.
+
+
 
 ![proton](assets/notext/37.webp)
 
-## Používání vaší schránky Proton Mail
 
-Odeslání emailu je velmi jednoduché, stačí kliknout na tlačítko "*Nová zpráva*" v levém horním rohu.
+
+## Používání poštovní schránky Proton
+
+
+
+Odeslání e-mailu je velmi jednoduché: stačí kliknout na tlačítko "*Nová zpráva*" v levém horním rohu.
+
+
 
 ![proton](assets/notext/38.webp)
 
-Do pole "*Komu*" zadejte emailovou adresu příjemce.
+
+
+Do pole "*Komu*" zadejte e-mail příjemce Address.
+
+
 
 ![proton](assets/notext/39.webp)
 
-Do pole "*Předmět*" zadejte předmět vašeho emailu.
+
+
+Do pole "*Předmět*" zadejte předmět e-mailu.
+
+
 
 ![proton](assets/notext/40.webp)
 
-Napište svou zprávu.
+
+
+Napište svůj vzkaz.
+
+
+
 ![proton](assets/notext/41.webp)
-Nakonec klikněte na tlačítko "*Odeslat*" pro odeslání vašeho emailu.
+
+
+
+Nakonec klikněte na tlačítko "*Odeslat*" a odešlete e-mail.
+
+
 
 ![proton](assets/notext/42.webp)
 
-Poté najdete vaše odeslané zprávy na záložce "*Odeslané*".
+
+
+Odeslané zprávy pak najdete na kartě "*Odeslané*".
+
+
 
 ![proton](assets/notext/43.webp)
 
-Záložka "*Doručené*" obsahuje emaily, které jste obdrželi.
+
+
+Karta "*Doručená pošta*" obsahuje přijaté e-maily.
+
+
 
 ![proton](assets/notext/44.webp)
 
-Své emaily můžete číst kliknutím na ně, a poté je organizovat do různých složek, které jste vytvořili.
+
+
+E-maily si můžete přečíst kliknutím na ně a poté je uspořádat do různých složek, které jste si vytvořili.
+
+
 
 ![proton](assets/notext/45.webp)
 
-## Přihlášení do vaší Proton Mail schránky
 
-Jak bylo zmíněno dříve, máte možnost používat vaši ProtonMail schránku buď přes webovou verzi, stažením desktopového softwaru, nebo prostřednictvím mobilní aplikace. Pro stažení softwaru můžete navštívit oficiální stránku: https://proton.me/mail/download
 
-Pokud dáváte přednost používání pouze webové verze ProtonMail, zvažte přidání stránky do oblíbených ve vašem prohlížeči pro snazší přístup v budoucnu a aby se předešlo pokusům o phishing.
+## Připojení k poštovní schránce Proton
 
-Pro přístup jděte na následující URL: https://account.proton.me/mail
+
+
+Jak bylo uvedeno výše, schránku ProtonMail můžete používat buď prostřednictvím webové verze, stažením softwaru pro stolní počítače, nebo prostřednictvím mobilní aplikace. Chcete-li si stáhnout software, navštivte oficiální webové stránky: https://proton.me/mail/download
+
+
+
+Pokud raději používáte pouze webovou verzi ProtonMailu, nezapomeňte si stránku v prohlížeči přidat do záložek, abyste k ní měli v budoucnu snadnější přístup a vyhnuli se pokusům o phishing.
+
+
+
+Chcete-li se k němu dostat, přejděte na následující adresu URL: https://account.proton.me/mail
+
+
 
 ![proton](assets/notext/46.webp)
 
-Zadejte své uživatelské jméno a heslo, poté klikněte na tlačítko "*Přihlásit se*". Pokud máte povoleno dvoufaktorové ověření (2FA), budete také vyzváni k zadání 6 dynamických číslic generovaných vaší aplikací.
+
+
+Zadejte své přihlašovací jméno a heslo a klikněte na tlačítko "*Přihlásit se*". Pokud jste aktivovali dvoufaktorové ověřování (2FA), budete rovněž vyzváni k zadání 6 dynamických číslic vygenerovaných aplikací.
+
+
 
 ![proton](assets/notext/47.webp)
 
-Dostanete se zpět do vaší ProtonMail doručené pošty.
+
+
+Vrátíte se do své schránky ProtonMail.
+
+
 
 ![proton](assets/notext/48.webp)

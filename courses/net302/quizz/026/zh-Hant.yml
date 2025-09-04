@@ -1,0 +1,9 @@
+question: 在 TCP/IP 模型的 Internet Layer 中使用哪個資料單位？
+answer: 資料傳送
+wrong_answers:
+  - 區段
+  - 框架
+  - 訊息
+explanation: |
+  網際網路 Layer 會處理資料報，封裝來自傳輸 Layer 的網段。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Güncellenmemiş bir akıllı telefonun ana riski nedir?
+answer: Bilinen güvenlik açıklarına karşı savunmasız hale gelir
+wrong_answers:
+  - Daha fazla pil gücü kullanır
+  - Wi-Fi bağlantısını kaybediyor
+  - Kimlik avına karşı daha savunmasız hale gelir
+explanation: |
+  Güncellenmemiş bir akıllı telefon, saldırganlar tarafından kolayca istismar edilebilecek halka açık olarak düzeltilmiş güvenlik açıklarına maruz kalır.
+reviewed: false

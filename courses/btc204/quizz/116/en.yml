@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The goal of a ricochet is to simulate a change of ownership of a Bitcoin coin in order to restore its fungibility by blurring its past marks.
 
-reviewed: false
+reviewed: true

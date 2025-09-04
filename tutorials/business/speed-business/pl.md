@@ -22,7 +22,7 @@ Przyjęcie Bitcoin na całym świecie opiera się na konkretnych przypadkach uż
 
 
 
-Speed posiada szeroki zakres funkcji obejmujących finansowe aspekty działalności. Znajdziesz tu :
+Speed posiada szeroki zakres funkcji obejmujących finansowe aspekty działalności. Znajdziesz tu:
 
 
 

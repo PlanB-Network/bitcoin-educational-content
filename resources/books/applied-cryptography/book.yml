@@ -109,6 +109,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.46
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.37
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.46
 tags:
   - cypherpunk
   - deep-dive

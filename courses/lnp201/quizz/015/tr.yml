@@ -1,0 +1,9 @@
+question: Yıldırım kanalındaki bir Commitment Transaction neyi yansıtır?
+answer: Fonların iki taraf arasında yeni dağılımı
+wrong_answers:
+  - Yapılan toplam işlem sayısı
+  - İşlem için ödenecek ücret tutarı
+  - Yeni bir ödeme kanalının açılması
+explanation: |
+  Commitment Transaction, her Lightning işleminden sonra kanaldaki mevcut fon dağılımını temsil eder, ancak kanal açık kaldığı sürece Blockchain'de yayınlanmaz.
+reviewed: false

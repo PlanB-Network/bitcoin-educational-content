@@ -1,8 +1,12 @@
-question: Jaka jest jedna zaleta akceptowania Bitcoin jako sprzedawcy?
-answer: Opór przed cenzurą.
+question: Jakie jest jedno narzędzie do akceptacji Bitcoin dla dużych organizacji lub pasjonatów Bitcoin?
+answer: Serwer BTCpay.
 wrong_answers:
-  - Zwiększone opłaty transakcyjne.
-  - Ochrona przed deflacją.
-  - Ograniczenie finansowe.
-explanation: >-
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server to narzędzie do akceptowania Bitcoin dla dużych
+  struktur lub pasjonatów bitcoinów. Inne rozwiązania
+  obejmują OpenNode dla prostych firm internetowych i Swiss
+  Bitcoin Pay dla amatorskich sprzedawców.
 reviewed: true

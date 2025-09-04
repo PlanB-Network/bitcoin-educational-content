@@ -1,10 +1,9 @@
-question: Hva er den siste fasen av hyperinflasjon?
-answer: En ny valuta dukker opp
+question: Hva var inflasjonsraten i Zimbabwe i november 2008?
+answer: 79,600,000,000%
 wrong_answers:
-  - Tap av tillit
-  - Valutakollaps & prisøkning
-  - Den onde sirkelen av pengetrykking
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
 explanation: |
-  Den siste fasen av hyperinflasjon er når en ny valuta introduseres
-  for å erstatte den gamle.
+  I november 2008 nådde inflasjonsraten for Zimbabwes valuta en topp på 79,600,000,000%, noe som fullstendig knuste verdien av den zimbabwiske dollaren.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on TCP/IP-mudeli teenuste primitiivide eesmärk?
+answer: Kihtide vaheliste vahetuste haldamine
+wrong_answers:
+  - Krüpteerib automaatselt võrgusõnumeid
+  - IP-aadresside jagamine kaugkasutajatele
+  - Kontrollida IP-pakettide kogupikkust
+explanation: |
+  Teenuse algtõed määratlevad Interface side eri kihtide vahel, mis võimaldab võrguvahetust luua, säilitada või lõpetada.
+reviewed: false

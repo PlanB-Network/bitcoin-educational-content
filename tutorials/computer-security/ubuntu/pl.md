@@ -16,12 +16,12 @@ System operacyjny (OS) to główne oprogramowanie, które zarządza wszystkimi z
 
 
 
-- Zwiększone bezpieczeństwo** : Dystrybucje Linuksa są znane ze swojego bezpieczeństwa i solidności
+- Zwiększone bezpieczeństwo**: Dystrybucje Linuksa są znane ze swojego bezpieczeństwa i solidności
 - Zero kosztów**: Ubuntu i większość dystrybucji Linuksa są bezpłatne
 - Duża społeczność**: Społeczność użytkowników gotowych do pomocy za pośrednictwem forów i samouczków
 - Poszanowanie prywatności**: System open source zapewniający większą przejrzystość
 - Prostota**: Przyjazny dla użytkownika Interface i łatwość użytkowania
-- Bogaty ekosystem** : Obszerny katalog oprogramowania open source
+- Bogaty ekosystem**: Obszerny katalog oprogramowania open source
 - Regularne wsparcie**: Bezpieczne aktualizacje od Canonical
 
 
@@ -59,7 +59,7 @@ System operacyjny (OS) to główne oprogramowanie, które zarządza wszystkimi z
 ### 3. Utwórz bootowalny klucz USB
 
 
-Możesz użyć kilku narzędzi, takich jak Balena Etcher :
+Możesz użyć kilku narzędzi, takich jak Balena Etcher:
 
 
 
@@ -257,7 +257,7 @@ sudo apt update
 
 
 - Po wyświetleniu monitu wprowadź hasło
-- Aby zainstalować aktualizacje, wpisz :
+- Aby zainstalować aktualizacje, wpisz:
 
 
 ```bash
@@ -303,7 +303,7 @@ Możesz tworzyć, edytować i zapisywać dokumenty w różnych formatach (w tym 
 Menedżer oprogramowania (nazywany "Ubuntu Software"): graficzny Interface do wyszukiwania i instalowania aplikacji.
 
 
-W terminalu użyj polecenia :
+W terminalu użyj polecenia:
 
 
 ```bash

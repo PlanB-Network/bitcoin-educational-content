@@ -302,7 +302,7 @@ Their ideas, profoundly innovative, would forever mark Frédéric Bastiat, who w
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
-It is 1838, in Manchester, a small number of men, little known until then, gather to find a way to overthrow the monopoly of the wheat landowners through legal means and to accomplish, as Bastiat would later recount,
+It is 1838, in Manchester, a small number of men, little known until then, gathered to find a way to overthrow the monopoly of the wheat landowners through legal means and to accomplish, as Bastiat would later recount,
 
 ![image](assets/en/037.webp)
 
@@ -316,19 +316,19 @@ This economic battle for free trade would occupy all of England until 1846. In F
 
 ![image](assets/en/039.webp)
 
-It was this campaign of agitation for free trade, throughout the kingdom, with tens of thousands of members, that set Bastiat's pen on fire and radically and definitively changed the course of his life.
+It was this campaign for free trade—spanning the entire kingdom and backed by tens of thousands of members—that ignited Bastiat’s passion and permanently changed the course of his life.
 
-The League can be compared to a traveling university, educating economically those who attended its meetings across the country—common folk, industrialists, cultivators, and farmers, all of whom the League had taken under its wing and whose interests the grain laws oppressed. Richard Cobden was the soul of the movement and an outstanding agitator.
+The League functioned like a traveling university, teaching economic principles to audiences across the country: common people, industrialists, farmers, and cultivators—all suffering under the grain laws. Richard Cobden was the heart of the movement and a brilliant organizer.
 
 ![image](assets/en/040.webp)
 
-A fascinating and formidable speaker, he had a prodigious gift for inventing striking and concise phrases, far from the abstract discourses of economists.
+A captivating and powerful speaker, he had a remarkable talent for crafting sharp, memorable phrases—far removed from the abstract language of most economists.
 
-> What is the bread monopoly? he exclaimed. It's the scarcity of bread. You are surprised to learn that the legislation of this country, on this matter, has no other purpose than to produce the greatest possible scarcity of bread. And yet it is nothing else. The legislation can only achieve its goal through scarcity.  
+> “What is the bread monopoly?” he exclaimed. “It’s the scarcity of bread. You may be surprised to learn that the legislation of this country exists for no other purpose than to create the greatest possible scarcity of bread. And yet that is exactly what it does. The law can achieve its aim only through scarcity.”
 
 ![image](assets/en/041.webp)
 
-In 1845, Bastiat published in Paris his book Cobden and the League, with his translations accompanied by comments. The book opens with an introduction on the economic situation of England, on the history of the origin and progress of the League. Since 1815, protectionism was very developed in England. There were, in particular, laws limiting grain imports which had very harsh consequences for the people. Indeed, wheat was necessary for making bread, a vital commodity at the time. Moreover, this system favored the aristocracy, that is, the large landowners, who derived rents from it.
+In 1845, Bastiat published *Cobden and the League* in Paris, offering translations of speeches accompanied by his commentary. The book began with an introduction describing England’s economic situation and the history and progress of the League. Since 1815, protectionism had been firmly entrenched in England, with laws restricting grain imports. These laws had severe consequences for ordinary people because wheat was essential for bread, a staple food. The system also enriched the aristocracy—large landowners who profited from high grain prices.
 
 ![image](assets/en/042.webp)
 
@@ -345,18 +345,24 @@ The goal of the League was to mobilize public opinion to pressure parliament to 
 ![image](assets/en/043.webp)
 _(Jeremy Bentham)_
 
-A disciple of Bentham's utilitarianism, Cobden's conviction was that the freedom of labor and trade directly served the interest of the most numerous, poorest, and most suffering masses of society. On the contrary, customs as an instrument of arbitrary prohibitions and privileges could only benefit certain most powerful industries.
+A disciple of Bentham’s utilitarianism, Cobden believed that the freedom of labor and trade directly served the interests of the largest, poorest, and most oppressed segments of society. In contrast, tariffs and trade barriers—tools of arbitrary privilege—benefited only a few powerful industries.
 
-In the 1841 elections, five members of the league, including Cobden, were elected to parliament. On May 26, 1846, unilateral free trade became the law of the kingdom. From then on, the United Kingdom would experience a brilliant period of freedom and prosperity.
-What's interesting is that Bastiat appropriated a part of their method; he assimilated their language and transposed it into the French context. The book on Cobden and the League quickly became a success, and Bastiat made a sensational entry into the world of economists. He founded an association in Bordeaux in favor of free trade and then moved it to Paris. He was offered the leadership of the Journal des Économistes. The movement was born, and it continued until 1848.
+In the 1841 elections, five members of the League, including Cobden, won seats in Parliament. On May 26, 1846, unilateral free trade became the law of the land. From that moment, the United Kingdom entered a remarkable era of freedom and prosperity.
+
+Bastiat was deeply inspired by the League. He adopted its methods, absorbed its language, and adapted its ideas to the French context. *Cobden and the League* quickly became a success, marking Bastiat’s sensational debut in economic circles. He founded a free-trade association in Bordeaux, later moved it to Paris, and was eventually offered leadership of the *Journal des Économistes*. The movement flourished until 1848.
+
 ![image](assets/en/044.webp)
 
-It was only after Bastiat's death, in 1866, that Napoleon III would sign a free trade treaty with England, a sort of posthumous victory for the man who had dedicated the last six years of his short life to this great idea.
+It was only after Bastiat’s death, in 1866, that Napoleon III signed a free-trade treaty with England—a posthumous victory for the man who devoted the final six years of his short life to this great cause.
 
 ![image](assets/en/045.webp)
 _(Michel Chevalier)_
 
-The question of free trade continues to be relevant today. Geography textbooks in schools claim that globalization is to blame and that poor countries need Western aid to get by. Yet, extreme poverty has been halved in 20 years. By choosing openness, countries like India, China, or Taiwan have been able to escape poverty, while stagnation characterizes closed countries like North Korea or Venezuela. According to the UN, 36% of humanity lived in total destitution in 1990. They are now "only" 18% in 2010. Extreme poverty remains a major challenge, but it is receding.
+The question of free trade remains as relevant today as ever. School geography textbooks often claim that globalization is to blame for global inequality and that poor countries depend on Western aid for survival. Yet in reality, extreme poverty has been cut in half over the past 20 years.
+
+By embracing openness, countries like India, China, and Taiwan have lifted millions out of poverty, while closed economies like North Korea and Venezuela remain stagnant. According to the UN, 36% of the world’s population lived in extreme poverty in 1990; by 2010, that number had fallen to just 18%.
+
+Extreme poverty remains a serious challenge—but it is steadily declining.
 
 # The Opponents
 
@@ -366,20 +372,20 @@ The question of free trade continues to be relevant today. Geography textbooks i
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-Frédéric Bastiat, who expressed himself in the 1840s, is the heir to a generation of Enlightenment philosophers who fought against censorship and for the freedom to debate. Think of Montesquieu, Diderot, Voltaire, Condorcet, but also Rousseau.
+Frédéric Bastiat, writing in the 1840s, was the intellectual heir of Enlightenment philosophers who fought censorship and championed freedom of expression—think of Montesquieu, Diderot, Voltaire, Condorcet, and Rousseau.
 
-For them, the idea was simple: the more ideas are allowed to be expressed, the more truth progresses and the more easily errors are refuted. Science always progresses in this way.
+For these thinkers, the principle was simple: the freer the exchange of ideas, the faster truth advances and the more easily errors are exposed. Science progresses in exactly this way.
 
 ![image](assets/en/046.webp)
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
-On the contrary, few have understood that what was true for ideas was also true for goods and services. The freedom to trade with others indeed has two virtues: being efficient and leading to a fairer distribution. Not only did Rousseau not understand this, but he also fought against this freedom in the name of a false idea of law and right. One of the major sources of socialism, Bastiat notes, is Rousseau's opinion that the entire social order stems from the law.
+Yet few recognized that the same principle applies to goods and services. Free trade has two virtues: it is efficient and leads to fairer distribution. Rousseau, however, opposed this freedom, invoking a mistaken view of law and rights. Bastiat argued that Rousseau’s belief—that the entire social order must be built on law—became one of the main roots of socialism.
 
-Bastiat indeed considers Rousseau to be the true precursor of socialism and collectivism. In the author of The Social Contract, there's a phrase that quite well summarizes his philosophy: "we only begin to become men after having been citizens."
+Indeed, Bastiat considered Rousseau the true precursor of socialism and collectivism. A line from *The Social Contract* captures Rousseau’s philosophy well: “We only begin to become men after having been citizens.”
 
 ![image](assets/en/047.webp)
 
-Initially, man is merely a bourgeois. But the bourgeois is a calculator; he wants his immediate pleasure, he is enslaved to his senses, to his desires, to his particular interest. In short, he is not rational, therefore he is not free. He needs to be educated, to understand that his true interest is the general interest. This is why Rousseau wrote in The Social Contract:
+At first, man is simply a bourgeois. The bourgeois is calculating; he seeks immediate pleasure, driven by his senses, desires, and self-interest. In short, he is not rational—and therefore not free. He must be educated to recognize that his true interest lies in the general interest. This is why Rousseau wrote in *The Social Contract*:
 
 ![image](assets/en/048.webp)
 
@@ -390,62 +396,70 @@ Initially, man is merely a bourgeois. But the bourgeois is a calculator; he want
 
 ---
 
-According to this doctrine, man has two wills within him: a will that tends towards personal interest, that of the bourgeois, and a will that tends towards the general interest, that of the citizen. Leading men, even by force, to want a rational end, the general interest, is leading men to become free. What they truly want is a rational end, even if they do not know it.
+According to Rousseau’s doctrine, man harbors two wills: one driven by personal interest—the bourgeois will—and another directed toward the general interest—the citizen’s will. To lead men, even by force, toward the rational goal of the general interest is, in Rousseau’s view, to lead them to freedom. For what they truly desire, even if unknowingly, is this rational end.
 
-It is therefore perfectly legitimate, according to Rousseau, to constrain men in the name of an end that they themselves, had they been more enlightened, would have pursued, but which they do not pursue because they are blind, ignorant, or corrupt. Society is founded to force them to do what they should spontaneously desire if they were enlightened. And by doing so, one does not do violence to them since one leads them to be "free," that is, to make the right choices, choices that are in line with their true self.
+Thus, Rousseau argued, it is entirely legitimate to compel people in the name of goals that, if they were enlightened, they would willingly choose themselves. Society exists to force individuals to do what they would spontaneously want if they were free of ignorance, blindness, or corruption. By doing so, Rousseau claimed, one does not commit violence against them; rather, one leads them to be “free,” that is, to make the right choices—the ones aligned with their true selves.
 
 ![image](assets/en/049.webp)
 
-Convinced that the good society is a creation of the law, Rousseau thus grants unlimited power to the legislator. It is up to him to transform individuals into accomplished men, into citizens.
-But, it is also up to the law to make property exist. According to Rousseau, property can only be legitimate if it is regulated by the legislator. Indeed, the evil lies in inequality and servitude, both of which stem from property. It is an invention of the strong that has led to bad society, to bourgeois society, to relations of domination. In his Discourse on the Origin and Foundations of Inequality, he writes this famous passage:
+Convinced that a good society is the product of law, Rousseau grants unlimited power to the legislator. It is the legislator’s role to transform individuals into fully realized human beings—into citizens.
+
+Moreover, Rousseau claims that even property itself depends on the legislator. Property, he argues, is legitimate only if regulated by law. Inequality and servitude both arise from property; it is the invention of the strong, leading to domination and the corruption of society. In his *Discourse on the Origin and Foundations of Inequality*, Rousseau famously writes:
 
 > The first person who, having fenced in a piece of land, said: This is mine, and found people simple enough to believe him, was the true founder of civil society. How many crimes, wars, murders, how much misery and horror would have been spared the human race by the one who, pulling up the stakes or filling in the ditch, had cried out to his fellows: "Beware of listening to this impostor; you are lost if you forget that the fruits belong to all and the earth belongs to no one!"  
 
 ![image](assets/en/050.webp)
 
-Therefore, natural property is the source of evil. And Marx, a great reader of Rousseau, would remember this. How to combat this evil? Through the social contract, Rousseau replies. Indeed, the good society is one that results from a contract that stipulates the alienation of the individual with all his rights to the community. From then on, it is up to the community to grant rights to the individual through the law.
+Therefore, Rousseau concludes that natural property is the source of society’s ills—a point Marx, an avid reader of Rousseau, would later adopt. How can this evil be overcome? Through the **social contract**, Rousseau answers. The good society, he argues, emerges from a contract in which the individual surrenders all rights to the community, and it is then the community, through the law, that grants rights back to individuals.
 
-Contrary to Rousseau, Frédéric Bastiat says that "man is born a property owner." For him, property is a necessary consequence of the nature of man, of his constitution. He writes that "man is born a property owner, because he is born with needs whose satisfaction is indispensable to life, with organs and faculties whose exercise is indispensable to the satisfaction of these needs". But faculties are only the extension of the person, and property is only the extension of the faculties. In other words, it is the use of our faculties in work that legitimizes property.
+Frédéric Bastiat, however, takes the opposite view: “Man is born a property owner,” he writes. For Bastiat, property flows naturally from human existence. “Man is born a property owner,” he says, “because he is born with needs whose satisfaction is indispensable to life, with organs and faculties whose exercise is indispensable to the satisfaction of these needs.” Our faculties are simply an extension of ourselves, and property is the extension of those faculties. In other words, by applying our abilities through work, we legitimize property.
 
 ![image](assets/en/051.webp)
 
-According to Bastiat, society, people, and properties exist before laws, and he has this famous phrase: "It is not because there are laws that there are properties, but because there are properties that there are laws". That is why the law must be negative: it must prevent encroachment on people and their goods. Property is the _raison d'être_ of the law and not the other way around.
+Bastiat argues that **society, individuals, and property predate law**, not the other way around. As he famously put it: “It is not because there are laws that there are properties, but because there are properties that there are laws.”
+
+For this reason, the law must be **negative**: its role is to prevent violations against persons and their property. Property gives rise to law—not the other way around.
 
 ## Classical Education
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-On February 24, 1848, after three days of riots in Paris, King Louis-Philippe I abdicated his power. This marked the birth of the Second Republic.
+On February 24, 1848, after three days of rioting in Paris, King Louis-Philippe I abdicated the throne, marking the birth of the **Second Republic**.
 
 ![image](assets/en/052.webp)
 
-Bastiat was in Paris, witnessing the events firsthand. Later, he would write:
+Bastiat was in Paris, witnessing the events firsthand. He later wrote:
 
-> On February 24, I, like many others, feared that the nation was not prepared to govern itself. I must admit, I dreaded the influence of Greek and Roman ideas that are imposed on us all by the academic monopoly.  
+> “On February 24, I, like many others, feared that the nation was not prepared to govern itself. I must admit, I dreaded the influence of Greek and Roman ideas that are imposed on us all by the academic monopoly.”
 
-This passage is surprising. What do Greek and Roman antiquity have to do with it?
+This passage is striking. What do Greek and Roman antiquity have to do with it?
 
 ![image](assets/en/053.webp)
 
-Bastiat refers to Plato's Republic and his theory of the philosopher-king, but also to Sparta, which Rousseau so admired, to the Roman Empire, for which Napoleon was so nostalgic. Unfortunately, according to Bastiat, these Greek and Roman ideas are based on a false premise: the idea of the omnipotence of the legislator, of the absolute sovereignty of the law.
+Bastiat was referring to **Plato’s Republic** and its theory of the philosopher-king, to Sparta, which Rousseau so admired, and to the Roman Empire, whose glory Napoleon longed to revive. According to Bastiat, these Greek and Roman traditions share a dangerous idea: the belief in the *omnipotence of the legislator* and the *absolute sovereignty of the law*.
 
-It's enough to open almost any book on philosophy, politics, or history at random to find this idea, rooted in our culture, that humanity is an inert matter receiving life, organization, morality, and prosperity from political power. Left to its own devices, humanity would tend towards anarchy and would only be saved from this disaster by the mysterious and omnipotent hand of the Legislator. However, Bastiat says, this idea has been long matured and prepared by centuries of classical education.
+Open almost any book on philosophy, politics, or history, Bastiat notes, and you will find this notion: that humanity is passive, needing political power to give it life, organization, morality, and prosperity. Left to itself, it would collapse into anarchy—rescued only by the mysterious, all-powerful hand of the Legislator.
+
+For Bastiat, this idea persisted because centuries of classical education had cultivated and entrenched it in our culture.
 
 ![image](assets/en/054.webp)
 
-Firstly, he says, the Romans regarded property as a purely conventional fact, as an artificial creation of written law. Why? Simply, Bastiat explains, because they lived off slavery and plunder. For them, all properties were the fruit of spoilation. Therefore, they could not introduce into legislation the idea that the foundation of legitimate property was labor without destroying the foundations of their society.
-They indeed had an empirical definition of property, "jus utendi et abutendi" (the right to use and abuse). However, this definition only concerned the effects and not the causes, in other words, the ethical origins of property. To properly establish property, one must go back to the very constitution of man, and understand the relationship and necessary linkage that exist between needs, faculties, labor, and property. The Romans, who were slave owners, could they conceive the idea that "every man owns himself, and therefore his labor, and, consequently, the product of his labor"? Bastiat wonders.
+Bastiat explains that the Romans viewed property as purely conventional—an artificial creation of written law. Why? Because their society depended on slavery and plunder. For them, all property originated in spoliation. As a result, they could not acknowledge labor as the foundation of legitimate property without undermining the very basis of their civilization.
 
-> Therefore, let us not be surprised, Bastiat concludes, to see the Roman idea that property is a conventional fact and of legal institution reemerge in the eighteenth century; that, far from the Law being a corollary of Property, it is Property that is a corollary of the Law.  
+The Romans defined property empirically as *jus utendi et abutendi*—the right to use and abuse—but this definition concerned only its effects, not its causes or ethical foundations. To truly ground property, one must look to human nature itself and grasp the inherent connection between needs, faculties, labor, and property. Could a slave-owning people ever embrace the principle that *every man owns himself, and therefore his labor, and thus the product of his labor*? Bastiat doubts it, concluding: 
 
-Indeed, Rousseau shares this common legal idea of basing property on the law. Rousseau attributes to the law, and consequently to the people, absolute power over individuals and properties. And in this conception, which constitutes the very idea of the republic since the French Revolution, the legislator must organize society, like a social architect, like a mechanic who invents a machine from inert matter, or like a potter who shapes clay. The legislator thus places himself outside of humanity, above it, to arrange it at will, according to plans conceived by his luminous intelligence.
+> “Let us not be surprised to see the Roman idea that property is a conventional fact reappear in the eighteenth century: that, far from law being a corollary of property, it is property that is a corollary of law.”
+
+Indeed, Rousseau inherits this legal tradition, grounding property in law itself. He grants the law—and by extension, the people—absolute power over individuals and their property. In this conception, which shaped republican thought after the French Revolution, the legislator becomes a kind of **social architect**, a mechanic designing a machine from inert matter, or a potter molding clay. Placing himself above humanity, he claims the right to arrange society at will, following the designs of his “enlightened” intelligence.
 
 ![image](assets/en/055.webp)
 
-On the contrary, for Bastiat, the right of property is prior to the law. This is what he calls the principle of economists, as opposed to the principle of jurists. While "the principle of jurists virtually contains slavery, says Bastiat, that of economists contains freedom.
+On the contrary, Bastiat argues, the **right to property precedes the law**. This is what he calls the *principle of economists*, in opposition to the *principle of jurists*. As Bastiat puts it,
 
-What then is freedom? It is property, the right to enjoy the fruits of one's labor, the right to work, to develop, to exercise one's faculties, as one sees fit, without the State intervening otherwise than by its protective action.
+> “The principle of jurists virtually contains slavery; that of economists contains freedom.”
 
-It is sad to think that our social and political philosophy has remained stuck on the idea that the solution to all our problems had to come from above, from the law, from the State. But this is explainable. These ideas are instilled every day in the youth in schools and universities, through the monopoly of education.
+And what is freedom? It is *property*—the right to enjoy the fruits of one’s labor, to work, to develop, to use one’s faculties as one chooses, with the State intervening only to protect, never to control.
+
+It is unfortunate, Bastiat laments, that social and political thought has remained trapped in the belief that solutions to all problems must come from above—from the law, from the State. Yet this is understandable, he adds, because such ideas are ingrained in the minds of the young through state-controlled education and the academic monopoly.
 
 ![image](assets/en/056.webp)
 _an example of such a monopolistic agent could be a government institution_
@@ -459,54 +473,48 @@ However, as Bastiat reminds us, monopoly excludes progress.
 ![image](assets/en/057.webp)
 _(Richard Cobden)_
 
-As we have already seen, it was first and foremost Cobden's fight against protectionism with the English league for the abolition of the Corn Laws that led Bastiat to write articles and then books.
+As we have seen, it was above all Cobden’s fight against protectionism—led by the English League for the abolition of the Corn Laws—that inspired Bastiat to begin writing articles and later books.
 
-Protectionism is, in reality, a form of economic nationalism. It aims to eliminate foreign competition while pretending to "defend national interests." They then try to get the public authorities to accept a set of purely demagogic untruths, presented as virtuous: the defense of jobs, competitiveness, etc. Of course, elected officials yield to the pressure of producers, because it is for them a golden opportunity to consolidate their clientele and expand their power.
+Protectionism, Bastiat explains, is simply a form of economic nationalism. It seeks to eliminate foreign competition under the pretense of “defending national interests.” Advocates present a series of purely demagogic falsehoods as if they were noble causes: protecting jobs, ensuring competitiveness, and so on. Naturally, politicians give in to pressure from producers because it offers them a golden opportunity to strengthen their political base and expand their power.
 
-![image](assets/en/058.webp)
-_an example of promotional advertising of a blender produced in France_
+The argument for protecting jobs, Bastiat says, is nothing more than a fallacy. In reality, protectionism acts like a tax: it raises prices for consumers.
 
----
+Bastiat illustrates this with a simple example:
 
->Our meeting with Arnaud Montebourg  
->Made in France,  
->he believes in it, we tested it
+Imagine an English knife selling for €2, while the same knife made in France costs €3. If consumers are free to choose, they will buy the English knife and save €1—money they can then spend elsewhere, perhaps on a book or a pencil.
 
----
-
-The argument for job protection is what Bastiat calls a fallacy. Because in reality, it is equivalent to a tax. It has the effect of making products more expensive. Let's take the example given by Bastiat himself.
-
-Imagine an English knife that sells in our country for 2 euros, and a knife made in France costs € 3. If we let the consumer freely buy the knife he wants, he saves 1 euro, which he can invest elsewhere (in a book, or a pencil).
-
-If we ban the English product, the consumer will pay one more unit for his knife. Protectionism thus results in a profit for a national industry and two losses, one for another industry (that of pencils) and the other for the consumer. On the contrary, free trade makes two happy winners.
+But if the English knife is banned, the consumer is forced to pay €3 for the French knife. Protectionism benefits one national industry but causes **two losses**: one for another industry (the book or pencil seller) and one for the consumer who pays more. Free trade, by contrast, creates **two winners**: the consumer and the industries where the savings are spent.
 
 ![image](assets/en/059.webp)
 
-Protectionism is also a form of class struggle. According to Bastiat, it is a system based on the selfishness and greed of producers. To increase their remuneration, farmers or industrialists demand taxes to close the market to foreign products, thus forcing consumers to pay more for their products.
+Protectionism, Bastiat argues, is also a form of class struggle. It rests on the selfishness and greed of producers. Farmers and industrialists, seeking higher profits, demand taxes and trade barriers to shut out foreign competition—forcing consumers to pay more for their products.
 
 ![image](assets/en/060.webp)
 
-Bastiat firmly sides with consumers. Against class interest, he posits the general interest, which is the interest of the consumer, that is, the interest of everyone. It is always from the consumer's point of view that the State should position itself when acting.
+Bastiat firmly sides with **consumers**. Against class interests, he defends the *general interest*—the interest of the consumer, which is ultimately the interest of everyone. The State, he insists, must always act from the consumer’s point of view.
 
-With the February 1848 revolution and its barricades, a more formidable enemy than protectionism would emerge, one with which it shares many affinities: socialism.
+After the February 1848 Revolution and its barricades, an enemy even more dangerous than protectionism emerged—one sharing many of its traits: **socialism**.
 
 ![image](assets/en/061.webp)
 
-What is it? It's a political movement that demands the organization of labor by law, the nationalization of industries and banks, and the redistribution of wealth through taxation. Bastiat would now devote all his energy, talent, and writings against this new doctrine, which could only lead to the exponential growth of power and perpetual class struggle. Thus, from the first days of the revolution, he contributed to a short-lived newspaper named "La République Française," which quickly became known as a counter-revolutionary journal. This was the time when he wrote his pamphlets on property, the state, plunder, and the law.
+What was socialism? It was a political movement calling for the **organization of labor by law**, the **nationalization of industries and banks**, and the **redistribution of wealth through taxation**. Bastiat would dedicate his remaining energy, talent, and writings to opposing this doctrine, convinced it would only expand state power and perpetuate class struggle.
 
-On June 27, 1848, the day after a bloody new insurrection in Paris, in a lengthy letter to Richard Cobden, he dwelled on the causes that could have led to these events.
+From the first days of the Revolution, he contributed to a short-lived newspaper, *La République Française*, soon labeled “counter-revolutionary.” During this time, he wrote his famous pamphlets on property, the state, plunder, and the law.
 
-- 1° The first of these causes is economic ignorance. It is this that prepares minds to embrace the utopias of socialism and false republicanism. I refer to the previous video on the tendencies of classical and university education on this point.
+On June 27, 1848, the day after a bloody insurrection in Paris, Bastiat wrote a long letter to Richard Cobden analyzing the causes behind these events:
 
-- 2° The nation became enamored with the idea that fraternity and solidarity could be introduced into law. That is, it demanded that the state directly create happiness for its citizens. Here Bastiat sees the beginnings of the welfare state.
+1. **Economic ignorance** – This, he argued, made people receptive to socialist utopias and false republican ideals. (We discussed this earlier regarding classical and state-controlled education.)
+2. **The belief that fraternity could be legislated** – The nation fell in love with the idea that the State could directly create happiness for its citizens. Bastiat saw in this the first signs of the modern welfare state.
 
 ![image](assets/en/062.webp)
 
-And he would continue to analyze its perverse effects thereafter. Here is one example, cited in the letter to Cobden:
+Bastiat continued to analyze these perverse effects in his letter to Cobden. He wrote:
 
-> By virtue of the natural inclinations of the human heart, everyone began to demand from the state, for themselves, a greater share of well-being. That is, the state or the public treasury was put to plunder. All classes demanded from the state, as if by right, the means of existence. The efforts made in this direction by the state only led to taxes and obstacles, and to the increase of misery.  
+> “By virtue of the natural inclinations of the human heart, everyone began to demand from the state, for themselves, a greater share of well-being. That is, the state or the public treasury was put to plunder. All classes demanded from the state, as if by right, the means of existence. The efforts made in this direction by the state only led to taxes and obstacles, and to the increase of misery.”
 
-- 3° Bastiat adds that in his view, protectionism was the first manifestation of this disorder. The capitalists began by asking for the law's intervention to increase their share of wealth. Inevitably, the workers wanted to do the same.
+He then added a third point:
+
+3. **Protectionism was the first sign of this disorder.** Capitalists were the first to demand the law’s intervention to enlarge their share of wealth. Inevitably, workers followed suit, asking for the same privileges.
 
 ![image](assets/en/063.webp)
 
@@ -517,7 +525,9 @@ And he would continue to analyze its perverse effects thereafter. Here is one ex
 
 ---
 
-To conclude, protectionists and socialists share a common point, according to Bastiat: what they seek from the law is not to ensure everyone the free exercise of their faculties and the fair reward for their efforts, but rather to favor the more or less complete exploitation of one class of citizens by another. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
+To conclude, Bastiat argues that **protectionists and socialists share the same fundamental flaw**: they do not seek laws that guarantee everyone the free use of their faculties or the fair reward for their labor. Instead, they demand laws that enable one class of citizens to exploit another.
+
+Under protectionism, the **minority exploits the majority**; under socialism, the **majority exploits the minority**. In both cases, justice is undermined, and the general interest is sacrificed. Bastiat places the two doctrines in opposition but condemns them both for violating liberty and fairness.
 
 > The state is the great fiction through which everyone endeavors to live at the expense of everyone else.  
 
@@ -525,53 +535,65 @@ To conclude, protectionists and socialists share a common point, according to Ba
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-Pierre-Joseph Proudhon is one of the major representatives of French socialism in the mid-19th century. He is especially famous for this statement: "Property is theft" in "What is Property?" in 1840.
+Pierre-Joseph Proudhon was one of the leading figures of French socialism in the mid-19th century. He is best known for his provocative claim in his 1840 work *What Is Property?*:
+
+> “Property is theft.”
 
 ![image](assets/en/064.webp)
 ![image](assets/en/065.webp)
 
-There is something logically absurd in this assertion. For if there were no legitimately acquired property, logically there could not be an act such as theft. That's why Proudhon would later clarify that it is the actual distribution of property he considers theft, not property itself, which he describes as a revolutionary force foundational to anarchist society.
+There is a logical flaw in Proudhon’s claim. If no property were legitimately acquired, then the concept of theft itself would make no sense. Proudhon later clarified that he was criticizing the existing distribution of property, not the institution of property itself. In fact, he described property as a revolutionary force and a foundation for anarchist society.
 
 ![image](assets/en/066.webp)
 
-But Proudhon is an individualist anarchist. He does not see the proletariat, nor the state, as legitimate sources of power. He harshly criticizes communism and advocates for worker mutualism, a form of structured cooperative solidarity, which would rely on the voluntary pooling of resources for mutual aid. It is less known but Bastiat was not at all opposed to this idea in principle. He simply feared that the state would turn it into a de facto monopolistic public service. History would prove him right.
+Proudhon was an individualist anarchist. He rejected both the proletariat and the state as legitimate sources of power. He fiercely criticized communism and advocated for worker mutualism—a system of voluntary cooperation where resources were pooled for mutual aid.
+
+Bastiat, though critical of socialism, was not opposed to this idea in principle. He simply feared that the state might turn it into a monopolistic public service—something history later confirmed.
 
 ![image](assets/en/067.webp)
 
-On the other hand, it is well known that in "The Poverty of Philosophy," Marx would violently attack Proudhon and his socialism, which he called "utopian," in favor of a so-called "scientific" socialism.
+Marx, on the other hand, launched a harsh attack on Proudhon’s ideas in *The Poverty of Philosophy*, dismissing his socialism as “utopian” and contrasting it with what Marx called “scientific socialism.”
 
 ![image](assets/en/068.webp)
-In June 1848, Proudhon was elected to the National Assembly, alongside Bastiat. They were acquaintances and held each other in high regard. However, in 1849, in a resounding controversy, Bastiat exchanged fourteen letters with him in the columns of La Voix du Peuple. In this vigorous exchange, he clarified his stance on monetary and banking issues. The dispute boiled down to the following alternative: free credit or freedom of credit?
+
+In June 1848, Proudhon was elected to the National Assembly alongside Bastiat. The two respected each other personally, but in 1849 they engaged in a major public debate through fourteen letters published in *La Voix du Peuple*. The controversy centered on one key issue: free credit or freedom of credit?
 
 ![image](assets/en/069.webp)
 
-Proudhon saw the interest on capital as the initial cause of pauperism and inequality of conditions. He advocated for unlimited monetary creation by a state bank (the Exchange Bank or People's Bank), and saw in the "free credit" the solution to the social problem. On the other hand, Bastiat was a proponent of the freedom of banks, meaning the regulation of monetary circulation through the freedom of access to the profession, coupled with a necessary responsibility over one's own funds, and the freedom of competition.
+Proudhon saw interest on capital as the main cause of poverty and inequality. He argued for unlimited monetary creation by a state-run Exchange Bank or People’s Bank and believed that “free credit” was the solution to social problems. Bastiat, by contrast, supported the freedom of banks: open access to banking as a profession, competition among institutions, and full responsibility for one’s own funds.
 
 ![image](assets/en/070.webp)
 
-Bastiat refuted his opponent in several stages. First, he analyzed the perverse effects of free credit and monetary creation. Such a system could only encourage the riskiest and most reckless actions by banks and private actors because they know they are covered by the state, that is, by taxpayer money: "It is a serious matter to place all men in a situation where they say: Let's try our luck with someone else's property; if I succeed, so much the better for me; if I fail, too bad for others." A prescient statement as it could apply to our era.
+Bastiat countered Proudhon’s ideas in several steps. First, he examined the harmful effects of free credit and unlimited money creation. Such a system, he argued, would only encourage reckless speculation by banks and private actors, since they would be shielded by the state—meaning by taxpayers. As he put it:
+
+> “It is a serious matter to place all men in a situation where they say: Let’s try our luck with someone else’s property; if I succeed, so much the better for me; if I fail, too bad for others.”
+
+A remarkably prescient warning, as it applies even to our own era.
 
 ![image](assets/en/071.webp)
 
-The policy of low interest rates practiced by central banks is a way to artificially create money. And the successive crises of the financial system over the last century, with the indebtedness of states, are its direct consequences.
+Bastiat noted that low interest rate policies by central banks also create money artificially, leading to repeated financial crises and massive public debt throughout the last century.
 
-Then Bastiat shows that it is possible to improve the purchasing power of the working classes, but by other means, more just and more effective. For him, the reduction of interest rates is also the goal of a liberal policy. But it is through the liberation and accumulation of capital that this is achieved, not by the abolition of interest, that is, free credit.
+He argued that improving workers’ purchasing power was indeed possible—but through fairer, more effective means. Lower interest rates should come from the **liberation and accumulation of capital**, not from abolishing interest altogether through schemes like free credit.
 
 ![image](assets/en/072.webp)
 
-Indeed, according to Bastiat, the progress of humanity coincides with the formation of capital. In his pamphlet titled Capital and Rent, Bastiat makes us understand this with Robinson Crusoe on his island.
+According to Bastiat, human progress goes hand in hand with the accumulation of capital. In his pamphlet *Capital and Rent*, he illustrates this with the example of Robinson Crusoe on his island.
 
 ![image](assets/en/073.webp)
-Without accumulated capital or materials, Robinson would be doomed to death. He then explains that capital enriches the worker in two ways:
 
-- It increases production, thus decreasing the price of goods for consumption;
-- which has the effect of increasing wages.
+Without accumulated capital or tools, Robinson would be doomed. Bastiat explains that capital benefits workers in two main ways:
 
-In modern society, capital acts as an equalizing force. Indeed, Bastiat says:
+- It boosts production, lowering the price of goods;
+- This, in turn, raises wages.
 
-> When capital increases, it competes with itself; its remuneration decreases, or, in other words, the interest rate falls.  
+In modern society, capital acts as an equalizing force. As Bastiat puts it:
 
-In conclusion, both Proudhon and Bastiat recognized the importance of capital accumulation and the tendency of some men to exploit others. However, they did not draw the same conclusions. Proudhon, like Marx, anticipated an increasing impoverishment of the masses in capitalist countries. Bastiat believed that capitalism would lead to unprecedented prosperity across all classes, and the development of an increasingly significant middle class. This is indeed what happened.
+> “When capital increases, it competes with itself; its remuneration decreases, or, in other words, the interest rate falls.”
+
+In the end, both Proudhon and Bastiat recognized the importance of capital accumulation and the risk of exploitation. But their conclusions diverged sharply. Proudhon, like Marx, predicted growing poverty among the masses in capitalist societies. Bastiat believed capitalism would bring unprecedented prosperity to all classes and foster the rise of a strong middle class.
+
+History, Bastiat noted, proved him right.
 
 # Economic Sophisms
 
@@ -581,53 +603,63 @@ In conclusion, both Proudhon and Bastiat recognized the importance of capital ac
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-In this chapter, I will unveil a brand-new technology, a revolutionary technology. A researcher has developed a pair of bionic glasses with an ultra-powerful mini-camera embedded in the front. This technology allows seeing details impossible to see with the naked eye. In the arms, there is an electronic chip that transmits images directly to the cloud via my smartphone.
+In this chapter, I shall introduce a groundbreaking technology: a pair of bionic glasses equipped with an ultra-powerful mini-camera on the front. This device allows the wearer to see details invisible to the naked eye. 
 
 ![image](assets/en/074.webp)
 
-The inventor of the first prototype of these glasses was Frédéric Bastiat in 1850 in a famous pamphlet: _Ce qu’on voit et ce qu’on ne voit pas_. These glasses are those of the economist. They allow measuring the consequences of decisions made by the authorities on our lives. They are the glasses that "allow us to see what we do not see": the destruction caused by clientelist policies and false economic theories. Often we do not see their victims, nor their beneficiaries, in short, their real effects as opposed to the claims made in official speeches, what Bastiat calls "Economic Sophisms."
-The good economist, according to Bastiat, must describe the effects of political decisions on society. However, they must be attentive, not to their short-term effects on a particular group, but rather to their long-term consequences for society as a whole. Who are the victims and who are the beneficiaries of these policies? What are the hidden costs of a certain law or political decision? What would taxpayers have done instead of the government with the money that was taken from them in taxes? These are the questions posed by the good economist according to Bastiat.
+The first prototype of these glasses, at least in a metaphorical sense, was invented by Frédéric Bastiat in 1850 in his famous pamphlet *Ce qu’on voit et ce qu’on ne voit pas* (*What Is Seen and What Is Not Seen*). These were the **economist’s glasses**. They allow us to see the consequences of government decisions—especially the hidden ones—on our lives. They reveal what is often invisible: the damage caused by political favoritism and false economic theories. The victims, the beneficiaries, and the true effects of policies often remain hidden behind official rhetoric, what Bastiat called “Economic Sophisms.”
 
-Thus, in Public Works, Bastiat writes:
+A good economist, Bastiat argued, must examine the effects of political decisions on society as a whole. They must look beyond the immediate impact on a single group and focus on the long-term consequences for everyone. Who suffers? Who benefits? What are the hidden costs? What would taxpayers have done with the money if the government hadn’t taken it?
 
-> The State opens a road, builds a palace, straightens a street, digs a canal; by this, it gives work to certain workers, that's what is seen; but it deprives work from certain others, that's what is not seen.  
+Bastiat illustrated this point in *Public Works*:
 
-One of the most well-known sophisms is the broken window fallacy. Some claim that the breaking of a window in a house does not harm the economy since it benefits the glazier. But Bastiat will show that destruction is not in our interest because it does not create wealth. It costs more than it yields. The young boy who breaks a neighbor's window gives work to the glazier. But here is how his friends console him:
+> “The State opens a road, builds a palace, straightens a street, digs a canal; by this, it gives work to certain workers—that’s what is seen; but it deprives work from certain others—that’s what is not seen.”
 
-> Every cloud has a silver lining. Such accidents keep the industry going. Everyone needs to live. What would become of glaziers if windows were never broken?  
+One of his most famous examples is the **broken window fallacy**. Some argue that breaking a window benefits the economy because it gives work to the glazier. Bastiat shows this is false: destruction does not create wealth—it costs more than it brings in. When a young boy breaks a neighbor’s window, his friends console him:
 
-Thus, according to Keynes, the destruction of property, by forcing expenditure, would stimulate the economy and have a "multiplier effect" invigorating on production and employment. This is only what is seen.
+> “Every cloud has a silver lining. Such accidents keep the industry going. Everyone needs to live. What would become of glaziers if windows were never broken?”
 
-But what is not seen is what the owner would have bought with that money, but which he now has to do without, with what he has to spend to repair his window. What is not seen is the lost opportunity of the owner of the broken window. He could have allocated the sum given to the glazier to something else. If he had not had to spend to repair the window, he could have spent the money for his own consumption, thus employing people for production.
+Later, Keynes would claim that such destruction, by forcing spending, could stimulate the economy through a “multiplier effect,” boosting production and employment.
 
-Thus, there will be no more "stimulation" of the economy with the breaking of the window than without. However, there will have been a net loss in the first case: the value of the window.
+But this is only *what is seen*.
+
+What is *not* seen is what the homeowner would have done with that money if the window had never been broken. Perhaps he would have bought shoes, books, or furniture—supporting other industries and creating wealth without any destruction. Instead, the money must go toward replacing what already existed, leaving society poorer overall.
+
+Breaking the window does not “stimulate” the economy—it simply creates a net loss equal to the value of the window itself.
 
 ![image](assets/en/075.webp)
-The first lesson to learn is that a "good" decision or a "good" policy is one that costs society less than what another allocation of resources could have cost. The effectiveness of a policy should be judged not only based on its effects but also on the basis of the alternatives that could have occurred. This is the concept of "opportunity cost," dear to Bastiat.
+The first lesson, Bastiat teaches, is that a “good” decision or policy is one that costs society less than alternative uses of the same resources. A policy should be evaluated not only by its effects but also by what could have been achieved if those resources had been used differently. This is the idea of *opportunity cost*, central to Bastiat’s thinking.
 
-The second lesson is that destruction does not stimulate the economy as Keynesians think but leads to impoverishment. The destruction of material goods does not have a positive effect on the economy, contrary to popular belief. To use the concluding words of Frédéric Bastiat's text: "society loses the value of the objects unnecessarily destroyed."
+The second lesson is that destruction does not stimulate the economy, despite what Keynesians claim. Destroying material goods makes society poorer, not richer. As Bastiat concludes in *What Is Seen and What Is Not Seen*:
 
-Let's take a current example. As soon as the automotive industry is struggling, policymakers imagine scrappage schemes to "relaunch" it. What we see is the increase in sales of Renault and Peugeot. What we do not see is the loss for other economic sectors and that cars in perfect working order are destroyed.
+> “Society loses the value of the objects unnecessarily destroyed.”
 
-But there are other ways to boost the economy. If the State engages in major projects or invests funds in certain industrial sectors to support employment, isn't that good news for growth? Not any more, Bastiat would answer. Because by what would public spending be financed? By raising taxes or by debt, that is, by invisible but very real costs, which will impact growth. Moreover, the government produces nothing; it simply diverts resources from their private use. And what we do not see are the many things that could have been produced if the capital had not been withdrawn from the private sector to finance government programs.
+Take a modern example: when the car industry struggles, governments often launch scrappage programs to “revive” it. What we see is rising sales for manufacturers like Renault and Peugeot. What we do not see is the loss for other sectors—and the waste from destroying perfectly good cars.
 
-Finally, nearly a century before Keynes, we can say that Bastiat refuted the Keynesian sophisms that claim that state indebtedness encourages the economy and that public spending produces growth.
+Policymakers often argue that public works or government investment in certain industries create growth and jobs. But Bastiat asks: **where does the money come from?** Higher taxes or more public debt—both invisible but very real costs that weigh on growth.
+
+The government itself produces nothing. It only diverts resources from private uses to public ones. What we do not see are all the goods and services that could have been created if this capital had remained in the private sector.
+
+Nearly a century before Keynes, Bastiat had already dismantled the illusion that public spending and government debt automatically stimulate the economy.
 
 ![image](assets/en/076.webp)
 
-The great lesson from this series of texts is that state intervention has perverse effects that are not seen. Only a good economist is capable of foreseeing them. Politics is what we see. The economy is what we do not see.
+The key lesson from these texts is that state intervention often produces hidden, unintended consequences. Only a good economist can anticipate them.
+**Politics shows us what is seen.**
+**Economics reveals what is not seen.**
 
 ## The Petition of the Candle Makers
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-In 1840, the Chamber of Deputies voted for a law increasing import taxes to protect the French industry. This is the famous economic patriotism, which we still encounter today.
+In 1840, the Chamber of Deputies passed a law raising import taxes to “protect” French industry—a form of economic patriotism that still appears today.
 
 ![image](assets/en/077.webp)
-_above: Marine Le Pen, a French politician_
+*above: Marine Le Pen, a French politician*
+
 ![image](assets/en/078.webp)
 
-Bastiat then composed a satirical text that later became one of his most famous works: "the petition of the candle makers". It illustrates how certain well-organized pressure groups of producers obtain undue privileges from the state, to the detriment of the citizens. At the same time, it demonstrates the absurd and destructive nature of protectionist legislation.
+In response, Bastiat wrote a satirical piece that became one of his most famous works: *The Petition of the Candle Makers*. It exposes how well-organized producer groups secure unfair privileges from the state at the expense of ordinary citizens, while highlighting the absurd and destructive logic behind protectionist laws.
 
 ![image](assets/en/079.webp)
 
@@ -637,82 +669,98 @@ Bastiat then composed a satirical text that later became one of his most famous 
 
 ---
 
-In this petition, the candle makers ask the deputies for legal protection against a dangerous rival:
+In this petition, the candle makers plead with the deputies for legal protection against a dangerous rival:
 
-> We suffer from the intolerable competition of a foreign rival who, it seems, is in such superior conditions for producing light that he floods our national market at a fabulously reduced price.  
+> “We suffer from the intolerable competition of a foreign rival who, it seems, is in such superior conditions for producing light that he floods our national market at a fabulously reduced price.”
 
-So, who is this unfair foreign competitor? It is none other than the sun. The producers then highlight the opportunity there would be in reserving "the national market for national labor", by ordering through a law to close "all windows, skylights, shades, shutters, blinds, curtains, fanlights, in a word all openings, holes, slits, and cracks through which the sunlight is accustomed to enter houses".
+And who is this unfair foreign competitor? None other than **the sun**.
 
-In other words, the candle makers attempt to demonstrate the harmful effects of a "foreign competitor" (the sun) on the economy of France. Because not only can the sun provide the same "product" as candles, but it does so for free. Two hundred years later, this story remains incredibly relevant. Consider the taxi drivers who ask for the law to ban VTCs and Uber. Think of the bookstores that want to ban Amazon.
+The candle makers argue that the government should “reserve the national market for national labor” by passing a law to close “all windows, skylights, shades, shutters, blinds, curtains, fanlights—in a word, all openings, holes, slits, and cracks through which the sunlight enters houses.”
+
+Their point was simple: if lawmakers truly wished to protect producers from competition, then logically they should block out the sun, the most powerful competitor of all, since it provides light for free.
+
+Two centuries later, Bastiat’s satire remains just as relevant. Consider taxi drivers demanding laws to block Uber or bookstores seeking bans on Amazon. The logic is the same—and just as absurd.
 
 ![image](assets/en/080.webp)
 
-Bastiat's real adversary in this fiction is political and electoral protectionism, one that relies solely on the greed of producers and the naivety of consumers. He unveils the collusion between the bad capitalist of the time and the State. Instead of innovating and adapting to the market, the bad capitalist is the one who seeks to gain a political advantage through protectionism. This always results in spoliation for the consumer, that is, an injustice.
-In short, protectionism is a deliberate policy in favor of producers against consumers. However, according to Bastiat, the true representatives of the general interest are the consumers, because we are all consumers.
+Bastiat’s real target in this satire is **political and electoral protectionism**, driven by the greed of producers and the naivety of consumers. He exposes the collusion between the self-serving capitalist and the state. Instead of innovating or adapting to market demands, the “bad” capitalist seeks political favors through protectionism—always at the expense of consumers. For Bastiat, this is nothing less than legalized spoliation.
 
-Protectionism is also based on a hidden syllogism that turns out to be a fallacy:
+Ultimately, protectionism is a policy favoring producers over consumers. Yet Bastiat insists the true representatives of the general interest are consumers—because we are all consumers.
 
-- The more we work, the richer we are;
-- The more difficulties we have to overcome, the more we work;
-- Therefore, the more difficulties we have to overcome, the richer we are.
+Protectionism also rests on a hidden syllogism that turns out to be false:
 
-Let's illustrate this absurdity with a few short stories told by Bastiat. In Chapter III of the second series of Economic Sophisms, he imagines a carpenter who writes to the minister a petition asking for protectionist legislation. The carpenter thus formulates his request: Mr. Minister, make a law that stipulates that "No one will be able to use anything but beams and joists produced from blunt axes." In other words, make a law that prohibits the use of sharp axes in France. Thus, where one normally gives 100 axe blows, it will be necessary to give 300. Carpenters will be in high demand and therefore better paid.
+* The more we work, the richer we are;
+* The more difficulties we have to overcome, the more we work;
+* Therefore, the more difficulties we have to overcome, the richer we are.
+
+To highlight the absurdity, Bastiat offers several satirical examples. In Chapter III of the *Economic Sophisms* (second series), he imagines a carpenter petitioning the minister:
+
+> “Make a law stipulating that no one may use anything but beams and joists produced with blunt axes.”
+
+With sharp axes banned, three times as many blows would be needed to complete the same job. Carpenters would be busier—and better paid.
 
 ![image](assets/en/081.webp)
 
-In Chapter XVI, there is another very ironic text, titled: The Right Hand and the Left Hand. Following an investigation, a royal envoy drafts a report in which he proposes to the king to cut off, or at least tie up, all the right hands of the workers. Thus, he continues, work and consequently wealth will increase. Production will become much more difficult, which will necessitate the massive hiring of additional labor and an increase in wages. Pauperism will disappear from the country.
+In Chapter XVI, *The Right Hand and the Left Hand*, a royal envoy even suggests cutting off—or at least tying up—the right hands of workers. Production would become far more difficult, requiring more laborers, driving up wages, and supposedly eliminating poverty.
 
-Following this logic of creating jobs at all costs, why not also replace trucks with wheelbarrows and shovels with teaspoons? All these sophisms have one thing in common: they confuse the means with the end. For Bastiat, the goal of the economy is not the preservation of jobs. We should not judge the utility of work by its duration and intensity but by its results: the satisfaction of needs, utility.
+By this logic, why not replace trucks with wheelbarrows or shovels with teaspoons?
 
-This confusion of means and end is found in the slogan "money is wealth."
-This is the axiom that governs the monetary policy of most states. Indeed, the artificial increase in the quantity of money allows banks to lend money to individuals and states to easily repay their debt, this is "what we see". But "what we do not see" is that this creation of money, not based on any real wealth creation, will lead to inflation and the ruin of savers.
+All these sophisms share the same error: **they confuse the means with the end**. For Bastiat, the goal of the economy is not to preserve jobs but to satisfy needs and create real utility. Work should be judged by its results, not by the effort or time it takes.
+
+This confusion also underlies the claim that “money is wealth.” Governments often inflate the money supply so banks can lend more and states can repay debts more easily. That is *what is seen*.
+
+What is *not* seen is the inflation and the erosion of savings caused by money creation without any corresponding increase in real wealth.
 
 ![image](assets/en/082.webp)
 
-True wealth, according to Bastiat, is therefore the set of useful things that we produce through work to satisfy our needs. Money is thus only a commonly used means of exchange, it only plays the role of an intermediary.
+According to Bastiat, true wealth consists of the useful goods and services produced through work to meet human needs. Money, by contrast, is merely a tool—a common medium of exchange that serves only as an intermediary, not as wealth itself.
 
 ## Plunder Through Taxation
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-> When the rich lose weight, the poor die.  
+> “When the rich lose weight, the poor die.”
 
 ![image](assets/en/083.webp)
 
-This quote, attributed to Lao-Tzu, describes the inevitable consequence of a taxation system that aims to hit the rich harder than others.
+This saying, attributed to Lao-Tzu, captures the danger of a tax system aimed at heavily targeting the rich.
 
-Yet, have you ever heard it said:
+And yet, people still claim:
 
-> Taxation is the best investment: it's a fertilizing dew! See how many families it supports, and follow, in thought, its ricochets on industry: it's infinite, it's life.  
+> “Taxation is the best investment: it’s a fertilizing dew! See how many families it supports, and imagine its ripple effects across industry: it’s infinite, it’s life.”
 
-In France, where public spending is considered a benefit, taxes are higher than in other countries. But Bastiat warns us right away: "In every public expenditure, behind the apparent good there is a more difficult to discern evil."
+In France, where public spending is often seen as a public good, taxes are higher than in many other countries. But Bastiat warns:
 
-What is it about?
+> “In every public expenditure, behind the apparent good, there is a hidden evil.”
 
-The economy describes the good or bad effects of political decisions on our lives. However, according to Bastiat, the economist must be attentive, not only to their short-term effects on a particular group but rather to their long-term consequences for society as a whole.
+What does he mean?
 
-> What we see is the labor and profit allowed by social contribution. What we do not see are the works that would be generated by this same contribution if it were left to the taxpayers. What we see is the labor and profit allowed by social contribution. What we do not see are the works that would be generated by this same contribution if it were left to the taxpayers.  
->  
-> F.Bastiat  
+Economics, Bastiat says, must look beyond the immediate effects of political decisions on certain groups to their long-term consequences for society as a whole.
+
+> “What we see is the labor and profit generated by public spending.
+> What we do not see are the jobs and wealth that would have been created if those funds had remained with the taxpayers.”
+>
+> — Frédéric Bastiat
 
 ![image](assets/en/084.webp)
-From the outset, he refutes the still prevalent argument that public spending funded by taxes creates jobs. Indeed, taxes create nothing since what is spent by the state is no longer spent by taxpayers.
 
-Moreover, the state is more wasteful than individuals. Indeed, he reminds us, the state owns nothing; it produces no wealth. Public spending is often a source of waste because the immense sums confiscated from individuals escape the responsibility of their owners and are spent in their stead by bureaucrats, subject to pressure groups.
+Bastiat thus refutes the still-common claim that government spending funded by taxes creates wealth. In reality, the state produces nothing on its own; every euro it spends comes directly from taxpayers.
+
+Worse, the state is often far more wasteful than individuals. Vast sums confiscated from citizens escape the careful responsibility of private owners and end up in the hands of bureaucrats, who are easily influenced by political pressures and special interests.
 
 ![image](assets/en/085.webp)
 
-Of course, as payment for an equivalent public service received in exchange, taxation is entirely defensible. But in France, the state has assigned several roles to taxes.
+Of course, taxation is perfectly legitimate when it pays for genuine public services in return. But in France, the state gradually assigned taxes several new roles.
 
-Initially, it was supposed to cover common expenses. Then, taxes were also given a role in regulating the economy. In this case, politicians and bureaucrats have power that is only limited by their goodwill. Engrossed in their artificial constructs, they shape the economy by taxing and regulating sectors more or less according to their whims to favor or disfavor them.
+Initially, taxes were meant to cover common expenses. Then they were used to regulate the economy, giving politicians and bureaucrats nearly unlimited power to shape industries—favoring some, punishing others—based on political motives rather than economic logic.
 
-Finally, a social role was assigned to taxes. They were made an instrument of social justice. Thus, taxes should not hit everyone in the same way. Taxes must be redistributive, from those "who have more" to those "who have less."
+Finally, taxes were assigned a social role: they became instruments of so-called “social justice.” The idea was that taxes should be redistributive, taking from those “who have more” to give to those “who have less.”
 
 ![image](assets/en/086.webp)
 
-The problem is that taxes, as conceived, are subject to the arbitrariness of those in power. They favor or disfavor certain social categories depending on whether the power expects votes from them or not. Moreover, progressive rates yield little to the public treasury. However, they allow the majority to expropriate a minority and naturally become confiscatory.
+The problem, Bastiat warned, is that taxation in practice always reflects the interests of those in power. Certain groups are favored, others punished, depending on where politicians expect votes or influence. Progressive taxation in particular often yields little revenue but allows the majority to expropriate a minority—eventually becoming outright confiscatory.
 
-That's why Bastiat had already understood the Laffer curve. Arthur Laffer is an American economist known for his famous "curve" (an ellipse), published in 1974, which shows that the yield from taxes increases with the lowering of the tax rate. This is the theory of the diminishing return of excessive taxation.
+Bastiat had, in essence, anticipated the **Laffer Curve**—formulated more than a century later by American economist Arthur Laffer in 1974—which shows that beyond a certain point, raising tax rates actually reduces total revenue. Excessive taxation destroys the very wealth it seeks to capture.
 
 ![image](assets/en/087.webp)
 
@@ -720,13 +768,13 @@ That's why Bastiat had already understood the Laffer curve. Arthur Laffer is an 
 >  
 > Arthur Laffer  
 
-Politicians naively assume there is an automatic and fixed relationship between tax rates and tax revenues. They think they can double tax revenues by doubling the tax rate. According to Laffer, such an approach overlooks the fact that taxpayers may change their behavior in response to new incentives.
+Politicians often assume there is a simple, fixed link between tax rates and tax revenues. They believe doubling the tax rate will double the revenue. But as Laffer pointed out, this view ignores how taxpayers change their behavior when faced with higher taxes.
 
 ![image](assets/en/088.webp)
 
-The Laffer curve shows that the government collects no revenue when tax rates are at 100%. Conversely, any reduction in taxes serves to stimulate economic activity and thus state revenues. Indeed, reducing marginal tax rates stimulates investment, work, creativity, and thus promotes economic growth. A sufficient reduction could produce enough economic stimulus to increase public revenues by significantly broadening the tax base.
+The **Laffer Curve** shows that at a 100% tax rate, the government collects no revenue—since no one would work if all income were taken away. Conversely, lowering tax rates can stimulate economic activity, investment, and innovation, potentially increasing total tax revenue by expanding the tax base.
 
-Bastiat might add that as much importance should be placed on reducing state expenditures as on reducing taxes. Nonetheless, as Margaret Thatcher, a disciple of Frédéric Bastiat, so aptly put it:
+Bastiat would likely add that reducing **government spending** is just as important as lowering taxes. Or, as Margaret Thatcher—herself a disciple of Bastiat—famously put it:
 
 ![image](assets/en/089.webp)
 
@@ -738,52 +786,41 @@ And she said this while addressing socialists.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
-Many people know "Tartuffe or the Impostor", the comedy by Molière in which a cunning devotee attempts to seduce Elmire and swindle her husband Orgon. How can one protect oneself against the deceptions of such a hypocrite who pretends to do you good while plotting against you?
-
-![image](assets/en/090.webp)
-
-Bastiat notes that there are two ways to put an end to this kind of imposture: correct Tartuffe or enlighten Orgon. Of course, there will always be Tartuffes, but their power to harm would be much reduced if there were fewer Orgons to listen to them.
-
-The weakness of human reason is at the root of the misuse of freedom. It is the main limitation of humans and the cause of many evils. Therefore, it is necessary to enlighten consciences about the useful or harmful, and thus just or unjust, nature of human acts, whether individual or collective.
-
-However, there are two complementary ways to enlighten the judgment of citizens, as Bastiat outlines in a chapter of the second series of Economic Sophisms titled "The Two Moralities".
-
+Bastiat explains that there are two complementary ways to educate citizens’ judgment in a chapter from the second series of *Economic Sophisms* titled *The Two Moralities*.
 ![image](assets/en/091.webp)
 
-- First, there is a "philosophical or religious morality" that acts by purifying and correcting human action (the man as an agent);
-- then, there is an "economic morality", which acts by showing man "the necessary consequences of his acts" (the man as a patient).
+* First, there is a *philosophical or religious morality* that works by purifying and guiding human actions (man as an agent).
+* Then, there is an *economic morality* that works by showing people “the necessary consequences of their acts” (man as a recipient).
 
-In fact, these are two perfectly complementary moral frameworks.
+Bastiat sees these as two perfectly complementary moral frameworks.
 
-1. The first addresses the heart and encourages individuals to do good; it is the religious or philosophical morality. It is the most noble. It roots in the heart of man the consciousness of his duty. It tells him:
+1. The first speaks to the heart. It encourages individuals to do good and avoid evil. This is the religious or philosophical morality—the noblest one. It instills in people a sense of duty and calls them to:
 
-> Improve yourself; purify yourself; stop doing evil; do good, tame your passions; sacrifice your interests; do not oppress your neighbor whom it is your duty to love and relieve; be just first and charitable afterwards.  
+> “Improve yourself; purify yourself; stop doing evil; do good; tame your passions; sacrifice your interests; do not oppress your neighbor, whom you must love and help; be just first, and charitable afterward.”
 
-In short, it teaches virtue, the selfless act. This morality, Bastiat says, will eternally be the most beautiful and touching, for it shows what is best in man.
+This morality teaches virtue and selflessness. Bastiat calls it the most beautiful and moving morality because it reflects the best of human nature.
 
 ![image](assets/en/092.webp)
 
-2. The other helps to denounce and combat evil through the knowledge of its effects, it is the economic morality. It addresses the intellect and not the heart, aiming to enlighten the victim about the negative effects of a behavior. It reinforces the lessons of experience. It strives to spread common sense, knowledge, and mistrust to the oppressed masses, making oppression more difficult.
+2. The second morality exposes and combats evil by revealing its consequences. This is the *economic morality*. It speaks to the intellect rather than the heart, enlightening victims about the harm caused by certain behaviors. It strengthens the lessons of experience, spreading knowledge and common sense so that oppression becomes harder to impose.
 
-This economic morality aspires to the same result as the religious morality, but starting from the effects of human actions. It teaches us to react against unjust or harmful actions and to defend those that are just or useful.
+This economic morality seeks the same goal as the religious one but approaches it through the lens of cause and effect. It teaches people to resist harmful or unjust actions and to defend those that are beneficial and just.
 
 ![image](assets/en/093.webp)
 
-Bastiat here highlights the role of science, and in particular of economic science. Although different from that of traditional morality, its role is nonetheless necessary to combat spoliation in all its forms. Morality attacks vice in its intention, it educates the will. On the other hand, science attacks vice by understanding its effects, thus facilitating the triumph of virtue.
+Bastiat highlights the essential role of science—especially economic science—in combating spoliation. While its approach differs from traditional morality, it is no less important.
 
-Concretely, economic science, described by Bastiat as defensive morality, consists of refuting economic sophisms in order to completely discredit them, and thus strip the plundering class of its justification and power.
+Morality attacks vice at its source: the will and the intention behind human actions. Science, by contrast, exposes vice through its consequences, helping truth and virtue to prevail.
 
-Political Economy, therefore, has an obvious practical utility. It reveals spoliation in hidden costs, obstacles to competition, and all forms of protectionism.
+For Bastiat, economic science serves as a form of *defensive morality*. Its goal is to dismantle economic sophisms, discredit false arguments, and deprive the plundering class of any justification for its power.
 
-Once again, there would be fewer Tartuffes if there were fewer Orgons to listen to them. Here is what Bastiat has to say on this matter:
+Political economy, therefore, has a clear practical purpose: to uncover hidden costs, expose obstacles to competition, and challenge every form of protectionism.
 
 ![image](assets/en/094.webp)
 
-> Let religious morality therefore touch the hearts of Tartuffes if it can. The task of political economy is to enlighten their dupes. Of these two approaches, which one works most effectively for social progress? Must it be said? I believe it is the second. I fear that humanity cannot escape the necessity of first learning defensive morality.  
+Bastiat notes that political economy is not a universal science. It does not exclude philosophical or religious approaches, nor does it claim to replace them. “Who,” he asks, “has ever made such an exorbitant claim in its name?”
 
-Of course, political economy is not the universal science; it does not exclude philosophical and religious approaches. "But who has ever displayed such an exorbitant claim in its name?" Bastiat wonders.
-
-One thing is certain, it is not the politics which can change the course of things and perfect man. On the contrary, it is necessary to limit the politics and confine to its strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
+What is certain, he argues, is that politics cannot perfect humanity or change the course of history for the better. Its role should be strictly limited to ensuring safety and protecting rights. Real moral and social progress comes instead through culture, family, religion, associations, education, and civil society—the realms where responsibility and solidarity truly grow.
 
 # Economic Harmonies
 

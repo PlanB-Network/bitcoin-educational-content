@@ -1,0 +1,9 @@
+question: Selon Eric Voskuil dans le livre Cryptoeconomics, sur quoi repose la sécurité de Bitcoin ?
+answer: Sur les individus
+wrong_answers:
+  - Sur la blockchain
+  - Sur la puissance de hachage
+  - Sur la cryptographie
+explanation: |
+  Eric Voskuil explique que la sécurité de Bitcoin repose avant tout sur les personnes qui prennent des risques pour maintenir le système.
+reviewed: false

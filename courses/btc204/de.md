@@ -1267,7 +1267,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
 
-KYC steht für "Kenne deinen Kunden". Es handelt sich dabei um ein regulatorisches Verfahren, das von bestimmten im Bitcoin-Sektor tätigen Unternehmen angewendet wird. Das Ziel dieses Verfahrens ist es, die Identität ihrer Kunden zu überprüfen und zu registrieren, mit dem erklärten Ziel, Geldwäsche und Terrorismusfinanzierung zu bekämpfen.
+KYC steht für "Know your customer" (dt. "Kenne deinen Kunden"). Es handelt sich dabei um ein regulatorisches Verfahren, das von bestimmten im Bitcoin-Sektor tätigen Unternehmen angewendet wird. Das Ziel dieses Verfahrens ist es, die Identität ihrer Kunden zu überprüfen und zu registrieren, mit dem erklärten Ziel, Geldwäsche und Terrorismusfinanzierung zu bekämpfen.
 
 In der Praxis bedeutet KYC die Erfassung verschiedener persönlicher Daten des Kunden, die je nach Land variieren können, aber im Allgemeinen Ausweis, Foto und Adressnachweis umfassen. Diese Informationen werden dann überprüft und für die zukünftige Verwendung gespeichert.
 

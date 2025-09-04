@@ -1484,7 +1484,7 @@ Eine weitere Möglichkeit, Bitcoins zu erwerben und gleichzeitig Ihre Privatsph�
 
 Eine andere Methode ist die Arbeit im Tausch gegen Bitcoins. Diese Art des Erwerbs kann interessant sein, aber der Grad der Identifizierung, der erforderlich ist, variiert je nach den Umständen erheblich.
 
-*Um dieses Kapitel zu schreiben, habe ich den BTC205-Schulungskurs von [@pivi___](https://x.com/pivi___) im Plan ₿ Network benutzt (derzeit nur auf Französisch verfügbar)
+*Um dieses Kapitel zu schreiben, habe ich den BTC205-Schulungskurs von [@pivi___](https://x.com/pivi___) im Plan ₿ Network benutzt (derzeit nur auf Französisch verfügbar)*
 
 ## Konsolidierung, UTXO-Management und CIOH
 
@@ -1497,7 +1497,7 @@ Einer der kompliziertesten Aspekte bei der Verwaltung eines selbstverwalteten Po
 
 Bitcoin funktioniert wie ein Auktionsmarkt, wobei die Miner Transaktionen mit den niedrigsten Gebühren den Vorzug geben. Allerdings hat jeder Block ein maximales Gewicht, das die Anzahl der Transaktionen, die aufgenommen werden können, begrenzt. Da im Durchschnitt alle 10 Minuten ein Block erstellt wird, ist der in jedem Block verfügbare Platz eine knappe Ressource.
 
-Bergbauunternehmen, deren Aktivitäten erhebliche Kosten in Form von Strom, Anlagevermögen und Wartung verursachen, sind natürlich bestrebt, ihre Rentabilität zu maximieren. Sie neigen daher dazu, Transaktionen zu bevorzugen, die im Verhältnis zu ihrem Gewicht die höchsten Gebühren einbringen.
+Miner, deren Aktivitäten erhebliche Kosten in Form von Strom, Anlagevermögen und Wartung verursachen, sind natürlich bestrebt, ihre Rentabilität zu maximieren. Sie neigen daher dazu, Transaktionen zu bevorzugen, die im Verhältnis zu ihrem Gewicht die höchsten Gebühren einbringen.
 
 Nicht alle Bitcoin-Transaktionen haben das gleiche Gewicht. Diejenigen, die mehr Inputs und Outputs haben, wiegen mehr. Stellen wir uns zum Beispiel 2 Transaktionen vor:
 
@@ -1524,7 +1524,7 @@ Das Prinzip der Konsolidierung besteht genau darin, Zeiten mit niedrigen Bitcoin
 
 ![BTC204](assets/fr/096.webp)
 
-Neben der Einsparung von Transaktionskosten trägt die Konsolidierung von UTXOs dazu bei, die Entstehung von "Staub" zu verhindern. Staub" bezieht sich auf UTXOs, deren Wert in Sats so niedrig ist, dass er nicht ausreicht, um die Transaktionskosten zu decken, die für ihre Ausgabe erforderlich sind. Daher ist es wirtschaftlich unvernünftig, diese UTXOs zu verwenden, solange die Transaktionskosten hoch bleiben. Indem Sie Ihre UTXOs proaktiv zusammenlegen, verhindern Sie, dass sie zu Staub werden, und stellen sicher, dass alle Ihre Mittel nutzbar bleiben.
+Neben der Einsparung von Transaktionskosten trägt die Konsolidierung von UTXOs dazu bei, die Entstehung von "Staub" zu verhindern. "Staub" bezieht sich auf UTXOs, deren Wert in Sats so niedrig ist, dass er nicht ausreicht, um die Transaktionskosten zu decken, die für ihre Ausgabe erforderlich sind. Daher ist es wirtschaftlich unvernünftig, diese UTXOs zu verwenden, solange die Transaktionskosten hoch bleiben. Indem Sie Ihre UTXOs proaktiv zusammenlegen, verhindern Sie, dass sie zu Staub werden, und stellen sicher, dass alle Ihre Mittel nutzbar bleiben.
 
 ### Was ist die Mindestgröße für Ihre UTXOs?
 
@@ -1537,10 +1537,10 @@ $$
 Wo:
 
 
-- p$ ist das Transaktionsgewicht;
+- $p$ ist das Transaktionsgewicht;
 - $F$ steht für die maximale Gebührenrate in Satoshis pro Vbyte (sats/vB), gegen die Sie sich absichern;
-- t$ ist der Prozentsatz der Transaktionsgebühr, den Sie im Verhältnis zum Gesamtwert des UTXO zu zahlen bereit sind;
-- m$ ist der Mindestbetrag in Satoshis für jeden UTXO.
+- $t$ ist der Prozentsatz der Transaktionsgebühr, den Sie im Verhältnis zum Gesamtwert des UTXO zu zahlen bereit sind;
+- $m$ ist der Mindestbetrag in Satoshis für jeden UTXO.
 
 Nehmen wir an, Sie planen, die Gebühren für eine Standard-SegWit-Transaktion mit 1 Eingang und 2 Ausgängen und einem Gewicht von 141 vB zu decken. Wenn Sie bis zu 800 sats/vB absichern und bereit sind, maximal 12 % des UTXO-Wertes an Gebühren auszugeben, dann würde die Berechnung lauten:
 
@@ -1577,16 +1577,16 @@ Vergessen Sie auf keinen Fall, dass jede Konsolidierung unweigerlich einen Verlu
 
 Werfen wir einen Blick auf ein paar andere bewährte Praktiken zur Optimierung Ihrer Privatsphäre auf Bitcoin.
 
-### Der vollständige Knoten
+### Die Full Node
 
-Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen kompletten Knotens ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
+Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen Full Node ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
 
 
-- Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;
-- Unabhängigkeit von Drittparteien**: Sie sind nicht mehr von einem externen Dienst abhängig, um Blockchain-Daten zu überprüfen;
-- Aktive Teilnahme**: Sie können Ihre eigenen Validierungsregeln festlegen und sich direkt am Konsens beteiligen;
-- Beitrag zum Netzwerk**: Indem Sie einen Knoten betreiben, helfen Sie, das Bitcoin-Netzwerk zu stärken und zu verbreiten;
-- Technische Ausbildung**: Die Verwaltung eines kompletten Knotens ist eine gute Möglichkeit, Ihr technisches Wissen über Bitcoin zu vertiefen.
+- **Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;
+- **Unabhängigkeit von Drittparteien**: Sie sind nicht mehr von einem externen Dienst abhängig, um Blockchain-Daten zu überprüfen;
+- **Aktive Teilnahme**: Sie können Ihre eigenen Validierungsregeln festlegen und sich direkt am Konsens beteiligen;
+- **Beitrag zum Netzwerk**: Indem Sie einen Knoten betreiben, helfen Sie, das Bitcoin-Netzwerk zu stärken und zu verbreiten;
+- **Technische Ausbildung**: Die Verwaltung eines kompletten Knotens ist eine gute Möglichkeit, Ihr technisches Wissen über Bitcoin zu vertiefen.
 
 Zusätzlich zu diesen Vorteilen verbessert die Verwendung eines vollständigen Knotens auch die Vertraulichkeit bei der Übermittlung Ihrer Transaktionen. Wenn Sie eine Transaktion ausstellen, wird diese zunächst über Ihre Wallet erstellt und signiert. Um sie im Bitcoin-Netzwerk zu verbreiten, muss sie mindestens einem Knoten bekannt sein. Durch die Verwendung Ihres eigenen Knotens haben Sie die direkte Kontrolle über diese Verteilung, wodurch Ihre Vertraulichkeit gestärkt und das Risiko von Datenlecks begrenzt wird.
 
@@ -1614,7 +1614,7 @@ Im Allgemeinen ist es klüger, sich für den neuesten Skripting-Standard zu ents
 
 Quelle : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
-Ein weiterer Tipp zur Wahrung der Vertraulichkeit besteht darin, interne Transaktionsheuristiken zu umgehen. Wenn Sie zum Beispiel eine Zahlung vornehmen, können Sie versuchen, eine Ausgabe mit einem runden Betrag zu vermeiden, da dies signalisieren könnte, dass die andere Ausgabe Devisen darstellt. Wenn Sie einem Freund 100 000 Sats schicken müssen, sollten Sie einen etwas höheren Betrag überweisen, um diese Heuristik zu umgehen. Versuchen Sie auch, keine Devisenausgaben zu erstellen, die im Verhältnis zur geleisteten Zahlung unverhältnismäßig hoch sind, da dies ebenfalls verraten könnte, welche der Ausgaben Devisen darstellen.
+Ein weiterer Tipp zur Wahrung der Vertraulichkeit besteht darin, interne Transaktionsheuristiken zu umgehen. Wenn Sie zum Beispiel eine Zahlung vornehmen, können Sie versuchen, eine Ausgabe mit einem runden Betrag zu vermeiden, da dies signalisieren könnte, dass die andere Ausgabe Wechselgeld darstellt. Wenn Sie einem Freund 100 000 Sats schicken müssen, sollten Sie einen etwas höheren Betrag überweisen, um diese Heuristik zu umgehen. Versuchen Sie auch, keine Devisenausgaben zu erstellen, die im Verhältnis zur geleisteten Zahlung unverhältnismäßig hoch sind, da dies ebenfalls verraten könnte, welche der Ausgaben Wechselgeld darstellen.
 
 ![BTC204](assets/fr/102.webp)
 

@@ -76,7 +76,7 @@ Nel risultato finale (immagine sotto) il link non è visualizzato e la parola di
 
 ![REVIEW](assets/en/5.webp)
 
-Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.network/en/resources/glossary/UTXO`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
+Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.network/en/resources/glossary/utxo`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
 
 I contenuti del repository sono pieni di link come questi. Ora che sai cosa significano, **accertati di non cancellarne nessuno** inserito dall'autore originale, durante il tuo proofreading.
 

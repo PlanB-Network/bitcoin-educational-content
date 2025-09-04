@@ -421,7 +421,7 @@ Więcej zasobów w załącznikach.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [fraza seed](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

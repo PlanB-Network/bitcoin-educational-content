@@ -247,7 +247,7 @@ Als je geïnteresseerd bent in de Lightning Network, hebben we ook een complete 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/Wallet).
+Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/wallet).
 
 
 ## 6 - Bitcoins kopen en verkopen op Bitfinex

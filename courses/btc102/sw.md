@@ -2106,7 +2106,7 @@ Kununua Bitcoin bila kufichua utambulisho wako ni chaguo kwa wale wanaotanguliza
 - **P2P Platforms**: Mifumo kama vile Bisq, RoboSats na Peach huwezesha ubadilishanaji kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, kwa kutumia mifumo ya escrow kupata miamala. Mitandao hii bado ina hatari ya wizi ikiwa mhusika mwingine hatatoa ushirikiano, lakini hatari hiyo hupunguzwa na huduma za escrow.
 - **Mashine Zinazojiendesha za Bitcoin (ATM)**: Baadhi ya ATM (vioski) hukuruhusu kununua Bitcoin kwa pesa taslimu, ingawa ada huwa kubwa, na zingine zinahitaji uthibitishaji wa kitambulisho kwa miamala mikubwa.
 - **Mifumo ya Exchange isiyo na KYC**: Baadhi ya mifumo, hasa nchini Uswisi, inakuwezesha kununua kiasi kidogo cha Bitcoin bila kuhitaji uthibitishaji wa kitambulisho.
-- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.network/tutorials/Mining).
+- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.network/tutorials/mining).
 - **Malipo / Mshahara katika bitcoins**: Ikiwa unafanya biashara, unaweza kukubali Bitcoin kama malipo. Ikiwa umeajiriwa, kulingana na eneo la mamlaka lako, unaweza kuomba ulipwe katika Bitcoin. Njia hizi hukuruhusu kupata Bitcoin bila KYC.
 
 

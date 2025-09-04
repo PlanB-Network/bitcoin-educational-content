@@ -131,7 +131,7 @@ Nihai sonuçta (aşağıdaki resim) tüm bağlantıyı görselleştirmeyeceksini
 
 
 
-Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.network/en/resources/glossary/UTXO``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
+Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.network/en/resources/glossary/utxo``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
 
 
 Depodaki içerik yukarıdaki gibi köprülerle doludur. Artık ne anlama geldiklerini bildiğinize göre, **orijinal yazar tarafından eklenen hiçbir bağlantıyı** silmediğinizden emin olun.

@@ -94,7 +94,7 @@ Test modunu devre dışı bıraktığınızda, çekilen Wallet'inizi yapılandı
 
 
 
-Henüz bir Bitcoin ve/veya Lightning Wallet sahibi değilseniz, [mobil cüzdanlar] eğitimlerimize göz atmanızı öneririz (https://planb.network/tutorials/Wallet).
+Henüz bir Bitcoin ve/veya Lightning Wallet sahibi değilseniz, [mobil cüzdanlar] eğitimlerimize göz atmanızı öneririz (https://planb.network/tutorials/wallet).
 
 
 

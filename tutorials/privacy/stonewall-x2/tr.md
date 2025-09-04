@@ -73,7 +73,7 @@ Bu nedenle, bir Samourai harcama aracı kullanılırken mantık aşağıdaki gib
 Bir Stonewall X2 işleminde size yardımcı olmak isteyen bir işbirlikçi bulmak istiyorsanız, göndericileri ve işbirlikçileri birbirine bağlamak için Samourai kullanıcıları tarafından sürdürülen bu Telegram grubunu (resmi olmayan) da ziyaret edebilirsiniz: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Stonewall işlemleri hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Stonewall işlemleri hakkında daha fazla bilgi edinin**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Stonewall x2 işleminin amacı nedir?

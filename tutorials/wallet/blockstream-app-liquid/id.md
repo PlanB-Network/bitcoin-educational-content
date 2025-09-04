@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network**:
- - [Glosarium](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [Glosarium](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

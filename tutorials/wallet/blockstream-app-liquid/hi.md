@@ -642,7 +642,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - जीडब्ल्यू-144** :
- - [शब्दावली](https://planb.network/fr/resources/glossary/Liquid-network)**
+ - [शब्दावली](https://planb.network/fr/resources/glossary/liquid-network)**
 
 
 

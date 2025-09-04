@@ -41,7 +41,7 @@ Boltz uses atomic swaps. This technology enables bitcoins to be exchanged betwee
 In this way, you retain permanent self-custody of your bitcoins, and the exchange is not based on any trust in the counterparty: either the exchange succeeds or fails, but neither party can steal the other's funds.
 
 
-An atomic exchange works with smart contracts [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
+An atomic exchange works with smart contracts [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
 
 
 ## Your first exchanges with Boltz

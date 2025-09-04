@@ -54,7 +54,7 @@ Na ovaj način, zadržavate trajno samostalno staranje nad svojim bitcoinima, a 
 
 
 
-An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
+An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
 
 
 

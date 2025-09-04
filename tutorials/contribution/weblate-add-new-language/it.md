@@ -62,10 +62,11 @@ Se la tua lingua non è presente, segui invece il tutorial sottostante per aggiu
 
 Per essere guidato nel processo di traduzione, consulta il nostro tutorial dedicato qui sotto:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295ù
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 Congratulazioni, hai iniziato il processo di traduzione degli elementi statici del sito web di Plan ₿ Network!
 
 Questi ultimi comprendono tutte le stringhe del sito web, ad eccezione dei contenuti didattici (corsi, tutorial...) per i quali utilizziamo un altro metodo semi-automatico (traduzione AI + revisione dei collaboratori).
 
 Un grande ringraziamento per il tuo prezioso aiuto!
+

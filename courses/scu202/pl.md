@@ -5813,7 +5813,7 @@ Z punktu widzenia bezpieczeństwa i prywatności, Zen oferuje natywne blokowanie
 
 Zen Browser to interesująca alternatywa, jeśli szukasz środowiska przeglądania Gecko, które jest bezpłatne, innowacyjne, przejrzyste i szanuje Twoją prywatność.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Przeglądarki oparte na WebKit
 
@@ -8598,3 +8598,4 @@ Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środ
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

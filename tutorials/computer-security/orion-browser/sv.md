@@ -673,9 +673,9 @@ För maximalt skydd, se våra andra guider:
 
 
 
-- [Firefox-härdad] (https://planb.network/tutorials/computer-security/firefox) - Avancerad konfiguration för flera plattformar
-- [Tor Browser] (https://planb.network/tutorials/computer-security/tor-browser) - Fullständig anonymitet på nätet
-- [Mullvad Browser] (https://planb.network/tutorials/computer-security/mullvad-browser) - Maximalt skydd för fingeravtryck
+- [Firefox-härdad] (https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
+- [Tor Browser] (https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
+- [Mullvad Browser] (https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
 
 
 

@@ -673,9 +673,9 @@ Jos haluat parhaan mahdollisen suojan, tutustu muihin oppaisiin:
 
 
 
-- [Firefox kovetettu](https://planb.network/tutorials/computer-security/firefox) - Kehittynyt monialustakokoonpano
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Täydellinen verkon anonymiteetti
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Suurin sormenjälkien suojaus
+- [Firefox kovetettu](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Kehittynyt monialustakokoonpano
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Täydellinen verkon anonymiteetti
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Suurin sormenjälkien suojaus
 
 
 

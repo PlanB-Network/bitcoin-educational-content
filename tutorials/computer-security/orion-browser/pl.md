@@ -673,9 +673,9 @@ Aby uzyskać maksymalną ochronę, zapoznaj się z naszymi innymi przewodnikami:
 
 
 
-- [Firefox hardened](https://planb.network/tutorials/computer-security/firefox) - Zaawansowana konfiguracja wieloplatformowa
-- [Tor Browser](https://planb.network/tutorials/computer-security/tor-browser) - Pełna anonimowość w sieci
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/mullvad-browser) - Maksymalna ochrona przed odciskami palców
+- [Firefox hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Zaawansowana konfiguracja wieloplatformowa
+- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Pełna anonimowość w sieci
+- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksymalna ochrona przed odciskami palców
 
 
 

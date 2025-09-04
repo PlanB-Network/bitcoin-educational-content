@@ -764,7 +764,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2
 Bitcoin biriktirmek için bir DCA platformu.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 Bu tür bir profil, elbette, bir hodler gibi bir kerede büyük bir satın alma yapmak için bir komisyoncu da kullanabilir, ancak genellikle istifleme, Sat'larını düzenli olarak cüzdan'a ekleme kavramıdır. Daha yaygın bir yaklaşım, Bitcoin'ın eşler arası bir şekilde nasıl kullanılacağını öğrenmek ve böylece Bitcoin'ı doğrudan arkadaşlarla veya Bitcoin topluluğunun üyeleriyle nakit olarak satın almak olacaktır.
 
 ### Senin için mi?
@@ -822,7 +822,7 @@ Kendilerini Bitcoin'a vermek için bu tür bir profilin çeşitli seçenekleri o
 Hot Wallet LN
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 Cold Wallet
 
@@ -1160,4 +1160,5 @@ Her durumda, tüm derslerimiz ücretsizdir ve platformumuzda size eşlik edecek 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
 

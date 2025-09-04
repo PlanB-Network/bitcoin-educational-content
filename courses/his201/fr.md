@@ -589,7 +589,7 @@ Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévéranc
 ## La présentation au monde
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
 
-![video](https://www.youtube.com/watch?v=2hh2IIXeynU)
+![video](https://youtu.be/uE6lT2nUAkI)
 
 Après avoir étudié comment Bitcoin a été conçu et démarré par Satoshi Nakamoto, concentrons-nous sur la façon dont il a été présenté publiquement. Suite à son lancement au début de l'année 2009, le réseau fonctionnait mais les nœuds générateurs étaient peu nombreux (Satoshi minait la grande majorité des blocs) et l'activité était pour ainsi dire inexistante (32 transactions effectives ont eu lieu durant le mois de janvier). Le projet ne disposait que d'un site web rudimentaire et d'une page SourceForge où télécharger le logiciel. En outre, la communication à propos de Bitcoin s'était limitée à la *Metzdowd Cryptography mailing list*, suivie au mieux par quelques centaines de personnes passionnées par la cryptographie.
 
@@ -1157,7 +1157,7 @@ Durant les mois qui ont suivi, les améliorations techniques, économiques et mi
 ## La ruée vers l'or numérique
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
-![video](https://www.youtube.com/watch?v=IAQuhBlSTKg)
+![video](https://youtu.be/4a5DJsWsYZM)
 
 Dans la partie précédente, nous avons étudié l'effet qu'a eu la publication de la présentation de Bitcoin sur Slashdot (*slashdotting*) et la façon dont les premiers ennuis techniques ont été gérés par Satoshi et ses auxiliaires. À la fin de l'été, le projet avait tenu le choc et était prêt à accueillir un nombre croissant de personnes. L'automne 2010 a ainsi constitué une période de succès pour Bitcoin.
 

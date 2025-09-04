@@ -1,6 +1,6 @@
 ---
 name: passphrase BIP39 Trezor
-description: Bagaimana cara menambahkan passphrase ke portofolio Trezor saya?
+description: Bagaimana cara menambahkan passphrase ke wallet Trezor?
 ---
 ![cover](assets/cover.webp)
 

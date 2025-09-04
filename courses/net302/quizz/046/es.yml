@@ -1,0 +1,9 @@
+question: ¿Qué protocolo se utiliza para asociar un Address IP con un Address MAC en una red Ethernet?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  El Protocolo de Resolución Address (ARP) asigna direcciones IP a direcciones MAC en redes locales.
+reviewed: false

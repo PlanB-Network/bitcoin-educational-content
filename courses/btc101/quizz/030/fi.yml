@@ -1,12 +1,12 @@
-question: Mikä on fiat-valuuttojen pääetu?
-answer: Ne ovat helposti jaettavissa.
+question: Mitkä tahot ovat vastuussa luottamusvaluuttojen liikkeeseenlaskusta?
+answer: Keskuspankit.
 wrong_answers:
-  - Ne ovat keskitetyn tahon hallinnassa.
-  - Niitä ei ole helppo kuljettaa.
-  - Ne ovat tehokkaita säilyttämään arvoa ajan myötä.
+  - Kaupalliset pankit.
+  - Hallitukset.
+  - Yksityiset laitokset.
 explanation: |
-  Fiat-valuutat, kuten dollari ja euro, ovat erittäin
-  likvidejä ja helposti kuljetettavia, koska ne ovat nykyään pääasiassa
-  digitaalisia. Niiden arvo kuitenkin hupenee jatkuvasti
-  rahapoliittisen inflaation myötä.
+  Keskuspankit ovat tahoja, jotka ovat vastuussa luottamusvaluutan
+  liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja
+  määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai
+  painaa.
 reviewed: true

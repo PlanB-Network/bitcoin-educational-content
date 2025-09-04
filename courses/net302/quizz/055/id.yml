@@ -1,0 +1,9 @@
+question: Perintah mana yang menampilkan status terperinci dari semua antarmuka jaringan di Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - pertunjukan rute ip
+explanation: |
+  perintah "ip addr show" mencantumkan daftar semua antarmuka jaringan, bersama dengan status, alamat, dan parameter terkait.
+reviewed: false

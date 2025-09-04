@@ -1,0 +1,9 @@
+question: Ni igiki gitandukanya umugambi wo gupfuka amakuru wo muri iki gihe n’umugambi woroshe wo gupfuka amakuru?
+answer: Ivyemezo vy'ubutungane n'ukuri kw'ubutumwa
+wrong_answers:
+  - Gukoresha urufunguzo rumwe rw'ibanga
+  - Ukwegereza ubutegetsi urufunguzo
+  - Ugutuma ubutumwa butamenyekana
+explanation: |
+  Ivy’ubuhinga bwa none vy’ugushiramwo amakuru y’ibanga birimwo imigambi irenga ibanga kugira ngo umuntu abone ko ari ubunyankamugayo n’ukuri, be n’ukudahakana, bitandukanye n’imigambi yoroshe yo gushiramwo amakuru y’ibanga.
+reviewed: false

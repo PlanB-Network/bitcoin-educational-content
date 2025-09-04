@@ -1,0 +1,9 @@
+question: Met welk historisch commando kan de ARP-cache op de meeste systemen worden geraadpleegd?
+answer: arp
+wrong_answers:
+  - graven
+  - nslookup
+  - ping
+explanation: |
+  Met het commando arp kun je de ARP-cache bekijken of wijzigen, waarin IP/MAC-toewijzingen lokaal worden opgeslagen.
+reviewed: false

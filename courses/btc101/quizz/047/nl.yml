@@ -1,12 +1,10 @@
-question: Wat is hyperinflatie?
-answer: Een drastische toename van de monetaire massa.
+question: Wat is de tweede fase van het hyperinflatieverschijnsel?
+answer: Valuta stort in en prijzen stijgen.
 wrong_answers:
-  - Een kleine toename in de monetaire massa.
-  - Een drastische afname van de monetaire massa.
-  - Een kleine afname in de monetaire massa.
+  - Verlies van vertrouwen.
+  - De vicieuze cirkel van het bijdrukken van geld.
+  - Er ontstaat een nieuwe valuta.
 explanation: |
-  Hyperinflatie is een monetair verschijnsel dat wordt gekenmerkt door een
-  drastische toename van de inflatie door het drukken van geld
-  door de autoriteiten, wat leidt tot een volledig verlies van
-  vertrouwen in een munt.
+  De tweede fase van hyperinflatie is het ineenstorten van de valuta &
+  prijsstijging, net na de fase van verlies van vertrouwen.
 reviewed: true

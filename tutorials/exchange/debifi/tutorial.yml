@@ -1,0 +1,24 @@
+id: f99dd1ed-c171-458c-b735-52cd9ba9968f
+
+project_id: 26d603ee-4b5a-4695-86c1-fe7658294413
+
+category: peer-to-peer
+
+level: intermediate
+
+professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-20
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+tags:
+  - investment
+  - finance
+  - regulation

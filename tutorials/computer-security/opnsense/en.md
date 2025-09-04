@@ -89,7 +89,7 @@ This is just an overview of the features offered by OPNsense. In addition, the *
 ## III. OPNsense prerequisites
 
 
-First of all, you need to decide where you're going to install OPNsense. There are several possible solutions, including installation on :
+First of all, you need to decide where you're going to install OPNsense. There are several possible solutions, including installation on:
 
 
 
@@ -259,7 +259,7 @@ Here's how it works:
 ![Image](assets/fr/023.webp)
 
 
-We now have :
+We now have:
 
 
 
@@ -408,7 +408,7 @@ So we need to create firewall rules... Browse the menu as follows: **Firewall > 
 **By default, there are two rules to authorize all outgoing LAN traffic, in IPv4 and IPv6**. Deactivate these two rules by clicking on the green arrow on the far left, at the beginning of each line.
 
 
-Then create three new rules to authorize the **LAN network** (i.e. "**LAN net**") to :
+Then create three new rules to authorize the **LAN network** (i.e. "**LAN net**") to:
 
 
 

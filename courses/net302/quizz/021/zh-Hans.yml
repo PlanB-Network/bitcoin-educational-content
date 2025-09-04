@@ -1,0 +1,9 @@
+question: 哪种 TCP 功能可通过调整不立即确认的段落发送数量来优化吞吐量？
+answer: 滑动窗口
+wrong_answers:
+  - 动态分片
+  - 数据包交换
+  - 静态路由
+explanation: |
+  滑动窗口 "允许连续发送多个片段，然后在每次确认时移动范围，以优化流量。
+reviewed: false

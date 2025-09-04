@@ -1,0 +1,11 @@
+question: Bigenda gute iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu?
+answer: Uwugira gatatu arashobora gukoresha ama bitcoins yawe.
+wrong_answers:
+  - Uwundi muntu ashobora gusa kuraba amateka yawe y’ibikorwa.
+  - Uwundi muntu ashobora guhindura urufunguzo rwawe rw’ibanga.
+  - Uwundi muntu arashobora kuronka amakuru yawe bwite.
+explanation: |
+  Iyo urufunguzo rwawe rw’ibanga ruhishuriwe uwundi muntu,
+  amafaranga ajanye n’ivyo ntagitekanye, kubera ko abakozi b’abikorera ku giti cabo .
+  urufunguzo rutuma bashobora kuronka amahera yawe.
+reviewed: true

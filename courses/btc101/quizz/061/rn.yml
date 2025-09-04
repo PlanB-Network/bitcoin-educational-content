@@ -1,0 +1,11 @@
+question: Ni kangahe impembo ya Mining igabanywa igice?
+answer: Imisi yose y’amabarabara 210.000.
+wrong_answers:
+  - Inyuma y’amabarabara 120.000.
+  - Igihe cose amabarabara 540.000.
+  - Igihe cose habaye amabarabara 2.100.000.
+explanation: |
+  Ingororano ya Mining itegekanijwe guca igice c’abantu 210.000 bose .
+  amabuye, ni ukuvuga nk’imyaka ine yose: ikintu
+  izwi kw’izina rya Halving.
+reviewed: true

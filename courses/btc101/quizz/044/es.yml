@@ -1,12 +1,10 @@
-question: ¿Cuál es el resultado potencial de una depreciación repentina o una pérdida de confianza en una moneda fiduciaria?
-answer: Hiperinflación.
+question: ¿Cuál es el impacto de una inflación del 2% en el poder adquisitivo a lo largo de 5 años?
+answer: Pierdes el 10% de tu poder adquisitivo.
 wrong_answers:
-  - Deflación.
-  - Una economía estable.
-  - Un aumento en el valor de la moneda.
+  - Pierdes el 2% de tu poder adquisitivo.
+  - Pierdes el 5% de tu poder adquisitivo.
+  - Pierdes el 20% de tu poder adquisitivo.
 explanation: |
-  Una devaluación repentina o una pérdida de confianza en una moneda
-  fiduciaria puede llevar a la hiperinflación. Esta es una situación
-  donde los precios de bienes y servicios aumentan a una tasa
-  extremadamente alta, a menudo llevando a inestabilidad económica.
+  Con una inflación del 2%, pierdes el 2% de tu poder adquisitivo
+  anualmente, lo que suma un 10% a lo largo de 5 años.
 reviewed: true

@@ -64,7 +64,7 @@ Di bawah "*Jenis Akun*", pilih "*Perusahaan*". Dalam kasus saya, saya meningkatk
 
 ![BITFINEX](assets/fr/09.webp)
 
-Selesaikan langkah-langkah dengan memberikan :
+Selesaikan langkah-langkah dengan memberikan:
 
 
 - Informasi perusahaan (nama perusahaan, detail kontak, sektor bisnis, dll.) ;

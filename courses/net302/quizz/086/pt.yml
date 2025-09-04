@@ -1,0 +1,9 @@
+question: Qual comando é recomendado para analisar conexões TCP e UDP ativas em um sistema Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ligação ip
+  - seup
+explanation: |
+  O comando ss substitui o netstat para apresentar rapidamente todas as ligações de rede activas.
+reviewed: false

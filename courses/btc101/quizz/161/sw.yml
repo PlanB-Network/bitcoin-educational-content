@@ -1,8 +1,8 @@
-question: Je, ni wasiwasi gani mkuu kuhusu gharama ya mazingira ya Bitcoin Mining?
-answer: Matumizi ya nishati.
+question: Je, Bitcoin inawezaje kusaidia katika mpito wa ikolojia?
+answer: Inakuza matumizi ya nishati ya Green.
 wrong_answers:
-  - Uzalishaji wa ASICs.
-  - Urejelezaji wa ASICs.
-  - Gharama ya umeme.
+  - Inapunguza uzalishaji wa bidhaa.
+  - Inadhibiti matumizi ya rasilimali.
+  - Inapunguza utoaji wa gesi chafu pekee.
 explanation: >-
 reviewed: true

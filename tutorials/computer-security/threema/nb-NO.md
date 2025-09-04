@@ -436,7 +436,7 @@ Gratulerer, du er nå i gang med å bruke Threema messaging, et flott alternativ
 
 
 
-Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail :
+Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail:
 
 
 

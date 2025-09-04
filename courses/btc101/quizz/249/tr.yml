@@ -1,8 +1,8 @@
-question: Bitcoin gibi yeni teknolojileri kabul etmenin potansiyel faydalarından biri nedir?
-answer: generate dünya çapında büyük ölçek ekonomileri yaratabilir.
+question: Bitcoin'ın bankacılık sistemi üzerindeki temel sonuçlarından biri nedir?
+answer: Bankacılık sisteminden özgürleşmeyi sağlar.
 wrong_answers:
-  - Bu durum küresel bir ekonomik çöküşe yol açabilir.
-  - İnsan zekasının azalmasına neden olabilir.
-  - Tüm işlerin ortadan kaldırılmasına yol açabilir.
+  - Bankacılık sisteminin kontrol edilmesini sağlar.
+  - Bankacılık sisteminin ortadan kaldırılmasını sağlar.
+  - Bankacılık sisteminin yozlaşmasına izin verir.
 explanation: >-
 reviewed: true

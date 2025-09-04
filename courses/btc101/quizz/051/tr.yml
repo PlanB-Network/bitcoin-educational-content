@@ -1,10 +1,11 @@
-question: 2'lik enflasyonun 5 yıl boyunca satın alma gücü üzerindeki etkisi nedir?
-answer: Satın alma gücünüzün %10'unu kaybedersiniz.
+question: Nisan 2009'da Zimbabve dolarına ne oldu?
+answer: Maliye Bakanı Zimbabve dolarının askıya alındığını açıkladı ve ticaret için farklı yabancı para birimlerinin kullanılmasına izin verdi.
 wrong_answers:
-  - Satın alma gücünüzün %2'sini kaybedersiniz.
-  - Satın alma gücünüzün %5'ini kaybedersiniz.
-  - Satın alma gücünüzün %20'sini kaybedersiniz.
+  - Zimbabve doları %72'nin üzerinde değer kaybetti.
+  - Hükümet savaş gazilerine 450 milyon ABD doları tutarında tazminat ödemeyi kabul etti.
+  - Hükümet matbaa işletmeye başvurmak zorunda kaldı.
 explanation: |
-  2 enflasyon ile satın alma gücünüzün %2'sini kaybedersiniz
-  bu da 5 yılda %10'a denk gelmektedir.
+  Nisan 2009'da Maliye Bakanı tarafından
+  zimbabve dolarının askıya alınması ve kullanımına izin verilmesi
+  ticaret için farklı yabancı para birimleri.
 reviewed: true

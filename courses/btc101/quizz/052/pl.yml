@@ -1,10 +1,9 @@
-question: Jaki jest wpływ 20% inflacji na siłę nabywczą w ciągu 3 lat?
-answer: Tracisz 50% swojej siły nabywczej.
+question: Które z poniższych nie jest cechą Bitcoin?
+answer: Łatwo ją ocenzurować.
 wrong_answers:
-  - Tracisz 100% swojej siły nabywczej.
-  - Tracisz 60% swojej siły nabywczej.
-  - Tracisz 30% swojej siły nabywczej.
+  - Można go natychmiast przetransportować.
+  - Ma znikome koszty weryfikacji.
+  - Prowadzi stałą politykę pieniężną.
 explanation: |
-  Przy 20% inflacji tracisz prawie połowę swojej siły nabywczej w ciągu 3 lat
-  w ciągu 3 lat.
+  Bitcoin ma wszystkie niezbędne cechy, aby być wydajną i zdrową walutą: podzielną, natychmiast transportowalną, nieocenzurowaną, o znikomym koszcie weryfikacji i z polityką pieniężną już ustaloną na wieki z 21 milionami jednostek.
 reviewed: true

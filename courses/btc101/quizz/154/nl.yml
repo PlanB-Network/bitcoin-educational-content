@@ -1,13 +1,8 @@
-question: Wat is de rol van ASIC's in Bitcoin Mining?
-answer: ASIC's zijn machines die alleen ontworpen zijn voor het toepassen van het SHA256-algoritme in het Mining proces.
+question: Wat is de grootste zorg met betrekking tot de milieukosten van Bitcoin Mining?
+answer: Het energieverbruik.
 wrong_answers:
-  - ASIC's worden gebruikt om Bitcoin transacties te verifiëren door het SHA256 algoritme toe te passen in het verificatieproces.
-  - ASIC's worden gebruikt om willekeurig nieuwe bitcoins te maken.
-  - ASIC's worden gebruikt om het Bitcoin netwerk te beveiligen.
-explanation: |
-  ASIC's (Application-Specific Integrated Circuits) zijn
-  gespecialiseerde hardware die speciaal ontworpen is voor Bitcoin
-  Mining. Ze zijn geoptimaliseerd om de SHA256 hashingfunctie uit te voeren
-  functie uit te voeren, wat het wiskundige probleem is dat mijnwerkers
-  moeten oplossen in het Proof of Work proces.
+  - De productie van ASIC's.
+  - Het recyclen van ASIC's.
+  - De kosten van elektriciteit.
+explanation: >-
 reviewed: true

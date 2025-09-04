@@ -1,0 +1,9 @@
+question: Notasi apa yang digunakan untuk menyisipkan IPv6 Address dalam URL?
+answer: IPv6 Address diapit oleh tanda kurung siku
+wrong_answers:
+  - IPv6 Address diapit oleh tanda kurung
+  - IPv6 Address diapit oleh tanda kutip
+  - IPv6 Address ditulis secara mentah
+explanation: |
+  Tanda kurung siku digunakan untuk membedakan IPv6 Address dari port dalam URL, untuk menghindari ambiguitas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki umutekano wo kuri internet ari ngirakamaro ku bakoresha Bitcoin?
+answer: Kuko gutera ivyatsi bituma umuntu atakaza amafaranga y’ama bitcoins .
+wrong_answers:
+  - Kubera ko amabanki atanga ubwishingizi bw’amahera iyo umuntu atakaje Bitcoin yose hamwe .
+  - Kuko umuntu ashobora kuja mu munyororo kubera gutakaza ama bitcoins .
+  - Kuko ibitero bituma haba imitwaro iremereye cane y’ubutegetsi .
+explanation: |
+  Ata bahuza, hack bisigura gutakaza ata gukeka ama bitcoins.
+reviewed: false

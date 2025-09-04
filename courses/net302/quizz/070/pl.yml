@@ -1,0 +1,9 @@
+question: Kto może fragmentować pakiet IPv6?
+answer: Tylko host źródłowy
+wrong_answers:
+  - Tylko pierwszy router pośredni
+  - Tylko router docelowy
+  - Wszystkie routery
+explanation: |
+  W IPv6 fragmentacja jest wykonywana wyłącznie przez host źródłowy, nigdy przez routery pośrednie.
+reviewed: false

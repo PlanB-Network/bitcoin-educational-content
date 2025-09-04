@@ -1,0 +1,9 @@
+question: Vilket protokoll används för att associera en IP Address med en MAC Address i ett Ethernet-nätverk?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) mappar IP-adresser till MAC-adresser i lokala nätverk.
+reviewed: false

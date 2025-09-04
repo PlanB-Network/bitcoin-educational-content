@@ -1,10 +1,8 @@
-question: Lightning Network ni nini?
-answer: Mtandao wa malipo wa papo hapo wa Bitcoin kulingana na Bitcoin Blockchain.
+question: Madhumuni ya mabwawa ya Mining ni nini?
+answer: Mabwawa ya Mining huruhusu wachimbaji kukusanya rasilimali zao za kompyuta na kupokea zawadi ndogo lakini za kawaida zaidi.
 wrong_answers:
-  - Mtandao tofauti wa Blockchain kutoka kwa Bitcoin Blockchain.
-  - Mtandao wa wachimbaji Bitcoin.
-  - Mtandao wa kubadilishana Bitcoin.
-explanation: |
-  Lightning Network ni mtandao wa malipo wa papo hapo wa Bitcoin
-  ambayo inategemea Bitcoin Blockchain.
+  - Mabwawa ya Mining hutumiwa kuongeza Hashrate ya mtandao wa jumla wa Bitcoin.
+  - Mabwawa ya Mining hutumiwa kupunguza ugumu wa Mining.
+  - Madimbwi ya maji ya Mining hutumika kuongeza thawabu kwa Mining.
+explanation: >-
 reviewed: true

@@ -73,7 +73,7 @@ Pro tento tutoriál si vyberu přijímat moje platby přes Lightning. Pro vzděl
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Poté budete muset zaplatit 1 sat, abyste ověřili vaši Lightning adresu. V případě bitcoinové adresy budete muset poskytnout podpis s privátním klíčem odpovídajícím této adrese.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Nakonec máte možnost přidat referenční kód. Pokud nás chcete podpořit, můžete použít kód "*DiscoverBitcoin*", aby byla část vašich provizí sdílena s námi. Děkujeme! :)![SWISS BITCOIN PAY](assets/notext/12.webp)
+Nakonec máte možnost přidat referenční kód. Pokud nás chcete podpořit, můžete použít kód "*DiscoverBitcoin*", aby byla část vašich provizí sdílena s námi. Děkujeme!:)![SWISS BITCOIN PAY](assets/notext/12.webp)
 Jakmile jsou všechny informace vyplněny, klikněte na tlačítko "*Send*".
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 A to je vše! Váš účet Swiss Bitcoin Pay je nyní připraven. Nyní můžete začít přijímat platby v Bitcoinu za vaše služby!

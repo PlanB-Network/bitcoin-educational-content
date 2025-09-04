@@ -162,7 +162,7 @@ Soovitan seda koodi hoida erinevas kohas, kus te säilitate oma põhiparooli, et
 
 
 
-See lähenemisviis pakub teile 2FA-autentimise Ledger kadumise korral kahetasemelist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine kontospetsiifiline varukoopia, milles kasutatakse hädaolukorra koode. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga** :
+See lähenemisviis pakub teile 2FA-autentimise Ledger kadumise korral kahetasemelist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine kontospetsiifiline varukoopia, milles kasutatakse hädaolukorra koode. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga**:
 
 
 

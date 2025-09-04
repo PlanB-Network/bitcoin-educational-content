@@ -1,11 +1,11 @@
-question: Quelle est la fréquence de l'ajustement de la difficulté ?
-answer: Tous les 2016 blocs.
+question: Où sont stockés les bitcoins ?
+answer: Dans la blockchain Bitcoin.
 wrong_answers:
-  - Tous les 1048 blocs.
-  - Tous les 512 blocs.
-  - Tous les 4032 blocs.
+  - Dans le portefeuille Bitcoin.
+  - Sur l'appareil où le portefeuille est installé.
+  - Dans le coffre de la Réserve Fédérale.
 explanation: |
-  L'ajustement de la difficulté est un mécanisme qui a lieu
-  tous les 2016 blocs, soit environ toutes les deux semaines, pour garantir qu'un
-  nouveau bloc soit ajouté à la blockchain toutes les dix minutes en moyenne, indépendamment du hashrate global.
+  Bien que vos clés privées soient stockées dans votre portefeuille, les
+  bitcoins eux-mêmes sont en réalité stockés dans la blockchain Bitcoin, qui est le registre public distribué au sein
+  du réseau pair-à-pair Bitcoin.
 reviewed: true

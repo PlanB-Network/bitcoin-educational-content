@@ -1,0 +1,9 @@
+question: وضع یک ورودی در حافظه نهان ip neigh زمانی که نگاشت IP/MAC معتبر و اخیر است، چیست؟
+answer: قابل دسترسی
+wrong_answers:
+  - متصل
+  - معتبر
+  - بیات
+explanation: |
+  وضعیت REACHABLE به این معناست که نگاشت IP/MAC در حافظه نهان همسایگی شناخته شده و کاربردی است.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva var den første formen for valuta ofte knyttet til?
+answer: Viktige varer som korn, husdyr og andre råvarer
+wrong_answers:
+  - Gull og sølv
+  - Papirsedler
+  - Digitale eiendeler
+explanation: |
+  Den første formen for valuta var ofte knyttet til viktige varer som
+  korn, husdyr og andre råvarer. Disse varene hadde imidlertid store ulemper,
+  som for eksempel at de var lettfordervelige, noe som gjorde det vanskelig å bruke dem som et langsiktig sparemedium.
+reviewed: true

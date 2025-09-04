@@ -1,0 +1,9 @@
+question: Di mana server DNS biasanya dikonfigurasi pada sistem Linux?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/jaringan/interfaces
+  - /etc/hosts.allow
+explanation: |
+  File /etc/resolv.conf menentukan server DNS dan domain pencarian untuk resolusi nama.
+reviewed: false

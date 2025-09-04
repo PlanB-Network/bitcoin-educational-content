@@ -1,0 +1,8 @@
+question: Ni ikihe kimwe mu bibazo bishobora gushika iyo usize Bitcoin yawe ku rubuga rwa Exchange?
+answer: Ivyago vyo gutera amakuru n’uguhagarika amafaranga.
+wrong_answers:
+  - Icoba ari ikibazo co kwongera igiciro ca Bitcoin.
+  - Icoba ari ikibazo c'urubuga rugenzura Supply ya Bitcoin.
+  - Ico kibazo ca Bitcoin co kurenga igiciro n’amahera y’ibanga.
+explanation: >-
+reviewed: true

@@ -1,10 +1,9 @@
-question: Jaká byla významná událost ve světě kryptoměn v roce 2017?
-answer: Spuštění tisíců počátečních nabídek mincí (ICOs).
+question: Jaký je jeden z důvodů, proč Bitcoin není bublina, která zmizí?
+answer: Protože je to měna, která se skutečně používá po celém světě.
 wrong_answers:
-  - Zákaz Bitcoinu.
-  - Vytvoření Bitcoinu.
-  - Zmizení všech kryptoměn.
+  - Protože se ve skutečnosti nikde nepoužívá.
+  - Protože je kontrolován centrální autoritou.
+  - Protože je snadno padělatelný.
 explanation: >-
-  Rok 2017 byl poznamenán významnou spekulativní bublinou ve světě kryptoměn,
-  zejména spuštěním tisíců počátečních nabídek mincí (ICOs).
+  Bitcoin není bublina, která zmizí, ale měna, která se skutečně používá po celém světě.
 reviewed: true

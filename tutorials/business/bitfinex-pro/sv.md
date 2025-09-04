@@ -34,12 +34,12 @@ Fyll i den information som krävs: ange din e-postadress Address och ditt föret
 ![BITFINEX](assets/fr/02.webp)
 
 
-För tips om hur du använder och skyddar starka, unika lösenord, se även denna handledning :
+För tips om hur du använder och skyddar starka, unika lösenord, se även denna handledning:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Vi ska nu konfigurera 2FA för att säkra kontot. Använd en autentiseringsapplikation på din smartphone, som till exempel Google Authenticator eller Authy. Du hittar en handledning om detta verktyg här :
+Vi ska nu konfigurera 2FA för att säkra kontot. Använd en autentiseringsapplikation på din smartphone, som till exempel Google Authenticator eller Authy. Du hittar en handledning om detta verktyg här:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -92,7 +92,7 @@ Under "*Account Type*" väljer du "*Corporate*". I mitt fall uppgraderar jag til
 ![BITFINEX](assets/fr/09.webp)
 
 
-Slutför stegen genom att tillhandahålla :
+Slutför stegen genom att tillhandahålla:
 
 
 
@@ -111,7 +111,7 @@ När din ansökan har slutförts och skickats in kan det ta flera dagar för pla
 ## 3 - Snabb introduktion till Bitfinex Interface
 
 
-När du är inloggad ser du ett navigeringsfält högst upp på Interface med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex erbjuder ett brett utbud av funktioner, inklusive :
+När du är inloggad ser du ett navigeringsfält högst upp på Interface med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex erbjuder ett brett utbud av funktioner, inklusive:
 
 
 
@@ -349,7 +349,7 @@ Beroende på ditt företags mål och struktur kan användningen av Bitfinex vari
 - Exportera transaktionshistorik efter behov.
 
 
-För en mer djupgående titt på detta ämne rekommenderar jag den här omfattande utbildningskursen om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning :
+För en mer djupgående titt på detta ämne rekommenderar jag den här omfattande utbildningskursen om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

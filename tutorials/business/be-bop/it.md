@@ -15,7 +15,7 @@ La soluzione è semplice, leggera e autonoma. Permette di creare un negozio onli
 
 
 
-In questo tutorial, vi guideremo passo dopo passo attraverso :
+In questo tutorial, vi guideremo passo dopo passo attraverso:
 
 
 
@@ -44,7 +44,7 @@ Prima di iniziare l'installazione di be-BOP, assicurarsi di disporre della segue
 
 
 
-be-BOP utilizza un sistema di archiviazione per gestire i file (come le immagini dei prodotti). Ciò richiede l'accesso a un servizio S3, come :
+be-BOP utilizza un sistema di archiviazione per gestire i file (come le immagini dei prodotti). Ciò richiede l'accesso a un servizio S3, come:
 
 
 
@@ -302,7 +302,7 @@ Se non volete gestire un nodo Lightning da soli, **Swiss Bitcoin Pay** è una so
 
 
 
-Fasi di configurazione :
+Fasi di configurazione:
 
 
 
@@ -330,7 +330,7 @@ Oltre a Bitcoin, be-BOP consente anche di accettare pagamenti in contanti tramit
 
 
 
-Fasi di configurazione :
+Fasi di configurazione:
 
 
 
@@ -467,7 +467,7 @@ La configurazione **Top Bar** consente di personalizzare l'identità visiva del 
 
 
 
-#### Fasi di configurazione :
+#### Fasi di configurazione:
 
 
 
@@ -491,7 +491,7 @@ La sezione `Links` della barra superiore consente di aggiungere collegamenti a p
 
 
 
-#### Fasi di configurazione :
+#### Fasi di configurazione:
 
 
 
@@ -760,7 +760,7 @@ Andare su `Admin > Merch > Products` per aggiungere o modificare un prodotto. Co
 
 - Importo del prezzo**: prezzo del prodotto (ad esempio, `25,00`).
 - Prezzo Valuta**: valuta (EUR, USD, BTC, ecc.).
-- Prodotti speciali** :
+- Prodotti speciali**:
   - questo è un prodotto gratuito.
   - questo è un prodotto a pagamento.
 
@@ -773,10 +773,10 @@ Andare su `Admin > Merch > Products` per aggiungere o modificare un prodotto. Co
 
 
 - Prodotto singolo (`standalone`)**: è possibile una sola aggiunta per ordine (ad es. donazione, biglietto d'ingresso).
-- Prodotto con variazioni** :
+- Prodotto con variazioni**:
   - Non controllare "Standalone".
   - Controllare `Il prodotto presenta leggere variazioni (nessuna differenza di stock)`.
-  - Aggiungi :
+  - Aggiungi:
     - Nome** (ad es. *Dimensione*),
     - Valori** (ad esempio: S, M, L, XL),
     - Differenze di prezzo** se applicabili (ad esempio: `+2 USD` per XL).
@@ -803,7 +803,7 @@ Se il prodotto non è disponibile in quantità illimitate, selezionare `Il prodo
 
 
 
-Il sistema gestisce :
+Il sistema gestisce:
 
 
 
@@ -872,7 +872,7 @@ Andare in `Admin > Merch > CMS`. Vedrete un elenco delle pagine esistenti e potr
 
 
 
-Le pagine CMS sono importanti per :
+Le pagine CMS sono importanti per:
 
 
 
@@ -906,7 +906,7 @@ Le pagine CMS sono importanti per :
 
 
 
-Andare a : `Admin > Merch > Layout`. È possibile personalizzare il Elements visivo del sito:
+Andare a: `Admin > Merch > Layout`. È possibile personalizzare il Elements visivo del sito:
 
 
 
@@ -932,7 +932,7 @@ Andare a : `Admin > Merch > Layout`. È possibile personalizzare il Elements vis
 
 
 - Presente nell'area grigia sotto la barra superiore
-- Contiene un accesso rapido a : `Config`, `Impostazioni di pagamento`, `Transazioni`, `Gestione dei nodi`, `Widget`, ecc.
+- Contiene un accesso rapido a: `Config`, `Impostazioni di pagamento`, `Transazioni`, `Gestione dei nodi`, `Widget`, ecc.
 - Solo per i direttori
 
 
@@ -956,7 +956,7 @@ Vai a: `Admin > Merch > Immagini`
 
 
 
-È possibile :
+È possibile:
 
 
 
@@ -1004,7 +1004,7 @@ Esempi di widget disponibili:
 - Sfide**: sfide o missioni
 - Tag**: categorie o parole chiave
 - Slider**: caroselli di immagini
-- Specifiche** : Tabelle delle specifiche
+- Specifiche**: Tabelle delle specifiche
 - Moduli**: moduli (di contatto, di feedback, ecc.)
 - Conto alla rovescia**: timer
 - Gallerie**: gallerie di immagini
@@ -1033,7 +1033,7 @@ Utilizzate gli **shortcode** nel contenuto delle vostre pagine CMS:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Parametri attuali** :
+**Parametri attuali**:
 
 
 
@@ -1046,7 +1046,7 @@ Utilizzate gli **shortcode** nel contenuto delle vostre pagine CMS:
 
 
 
-**Vantaggi** :
+**Vantaggi**:
 
 
 
@@ -1103,7 +1103,7 @@ Questi filtri facilitano la ricerca rapida e la gestione mirata.
 
 
 
-Facendo clic su un ordine, è possibile accedere a un file completo contenente :
+Facendo clic su un ordine, è possibile accedere a un file completo contenente:
 
 
 
@@ -1120,7 +1120,7 @@ Facendo clic su un ordine, è possibile accedere a un file completo contenente :
 
 
 
-È possibile :
+È possibile:
 
 
 
@@ -1141,7 +1141,7 @@ Facendo clic su un ordine, è possibile accedere a un file completo contenente :
 
 
 
-Per accedere alle statistiche di vendita e di pagamento :
+Per accedere alle statistiche di vendita e di pagamento:
 
 
 amministratore > Impostazioni > Reporting
@@ -1176,7 +1176,7 @@ I rapporti sono suddivisi in sezioni:
 
 
 
-Ogni sezione comprende un pulsante **Esporta CSV**, che consente di :
+Ogni sezione comprende un pulsante **Esporta CSV**, che consente di:
 
 
 
@@ -1217,7 +1217,7 @@ La piattaforma supporta il protocollo **Nostr** per alcune funzioni avanzate:
 
 
 
-Vai a :
+Vai a:
 
 
 admin > Gestione dei nodi > Nostr
@@ -1304,7 +1304,7 @@ Qui si trovano tutte le opzioni per **creare** e **configurare** un tema persona
 
 
 
-Quando si crea o si modifica un tema, è possibile definire :
+Quando si crea o si modifica un tema, è possibile definire:
 
 
 
@@ -1328,7 +1328,7 @@ Ogni parte del sito può essere regolata in modo indipendente:
 
 - Intestazione**: barra di navigazione superiore
 - Corpo**: contenuto principale
-- Piè di pagina** : fondo pagina
+- Piè di pagina**: fondo pagina
 
 
 
@@ -1340,7 +1340,7 @@ Ogni parte del sito può essere regolata in modo indipendente:
 
 
 
-Una volta configurato il tema :
+Una volta configurato il tema:
 
 
 
@@ -1371,7 +1371,7 @@ La piattaforma consente di personalizzare le e-mail inviate automaticamente agli
 
 
 
-Ogni e-mail (conferma dell'ordine, password dimenticata, ecc.) ha :
+Ogni e-mail (conferma dell'ordine, password dimenticata, ecc.) ha:
 
 
 
@@ -1390,14 +1390,14 @@ Ogni e-mail (conferma dell'ordine, password dimenticata, ecc.) ha :
 
 
 
-Per rendere le e-mail dinamiche, inserire variabili come :
+Per rendere le e-mail dinamiche, inserire variabili come:
 
 
 
 
 
-- `{numero d'ordine}}` : sostituito dal numero d'ordine effettivo
-- `{fatturaLink}}` : collegamento al Invoice
+- `{numero d'ordine}}`: sostituito dal numero d'ordine effettivo
+- `{fatturaLink}}`: collegamento al Invoice
 - `{sitoLink}}`: URL del sito web
 
 
@@ -1454,7 +1454,7 @@ Compilare i seguenti campi:
 
 
 
-#### Famiglie disponibili :
+#### Famiglie disponibili:
 
 
 
@@ -1489,7 +1489,7 @@ Questi campi possono essere utilizzati per arricchire un tag come se fosse una p
 
 
 
-I tag possono essere :
+I tag possono essere:
 
 
 
@@ -1515,7 +1515,7 @@ Per offrire documenti scaricabili ai clienti: `Admin > Merch > Files`
 1. Fare clic su **Nuovo file**
 
 
-2. Informare :
+2. Informare:
 
 
 
@@ -1533,7 +1533,7 @@ Per offrire documenti scaricabili ai clienti: `Admin > Merch > Files`
 
 
 
-Questo link può essere inserito in :
+Questo link può essere inserito in:
 
 
 
@@ -1583,7 +1583,7 @@ Andare a: gestione dei nodi > Nostr
 
 
 - Attivare un messaggio automatico alla **prima interazione con l'utente**
-- Ideale per :
+- Ideale per:
   - Presentare il servizio
   - Inviare un link utile (ad es. FAQ, contatto, ordine)
 
@@ -1629,7 +1629,7 @@ Per farlo, andare a: `Impostazioni > Lingua`
 
 
 
-I file di traduzione sono in JSON. È possibile :
+I file di traduzione sono in JSON. È possibile:
 
 
 
@@ -1641,7 +1641,7 @@ I file di traduzione sono in JSON. È possibile :
 
 
 
-Link ai file originali :
+Link ai file originali:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,7 +1672,7 @@ Fare clic su **Crea un ruolo** per creare un ruolo (ad esempio, `Super Admin`, `
 
 
 
-Ogni ruolo contiene :
+Ogni ruolo contiene:
 
 
 
@@ -1688,7 +1688,7 @@ Ogni ruolo contiene :
 
 
 
-Nello stesso menu `Admin > Impostazioni > ARM`, aggiungere un utente con :
+Nello stesso menu `Admin > Impostazioni > ARM`, aggiungere un utente con:
 
 
 
@@ -1760,7 +1760,7 @@ In `/cart`, un campo consente di aggiungere un prodotto:
 
 
 
-Il POS supporta :
+Il POS supporta:
 
 
 
@@ -1779,7 +1779,7 @@ Sono disponibili due opzioni avanzate:
 
 
 
-- Esenzione IVA** : applicabile su giustificazione (ONG, stranieri...)
+- Esenzione IVA**: applicabile su giustificazione (ONG, stranieri...)
 - Sconto regalo**: sconto eccezionale con commento obbligatorio
 
 

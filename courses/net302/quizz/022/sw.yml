@@ -1,0 +1,9 @@
+question: Madhumuni ya bendera ya "ACK" katika sehemu ya TCP ni nini?
+answer: Ili kukiri kupokea sehemu
+wrong_answers:
+  - Kuanzisha kufungwa kwa muunganisho
+  - Ili kusimba kwa njia fiche mtiririko wa data uliobadilishwa
+  - Ili kutambua bandari ya huduma iliyotumiwa
+explanation: |
+  Inapowekwa, alama ya ACK inathibitisha kuwa sehemu imepokelewa kwa ufanisi na kubainisha nambari inayofuata ya mfuatano inayotarajiwa.
+reviewed: false

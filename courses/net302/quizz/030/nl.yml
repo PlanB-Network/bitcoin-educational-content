@@ -1,0 +1,9 @@
+question: Welk protocol wijst dynamisch een IP Address toe aan een apparaat?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Het DHCP-protocol wijst automatisch IP-adressen toe aan apparaten op een netwerk, wat het beheer van Address vereenvoudigt.
+reviewed: false

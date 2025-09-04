@@ -247,7 +247,7 @@ Grattis, du har nu kommit igång med att använda Olvid messaging, ett bra alter
 
 
 
-Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail :
+Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail:
 
 
 

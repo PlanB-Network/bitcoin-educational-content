@@ -1,12 +1,12 @@
-question: Jaka jest strategia stosowana przez podmioty centralne w celu dewaluacji waluty fiducjarnej?
-answer: Zwiększają one masę pieniężną o kilka procent każdego roku.
+question: Czym jest hiperinflacja?
+answer: Drastyczny wzrost masy pieniężnej.
 wrong_answers:
-  - Zmniejszają one masę monetarną o kilka procent każdego roku.
-  - Utrzymują one stałą masę pieniężną w porównaniu do masy początkowej.
-  - Ich masa pieniężna losowo zmienia się w porównaniu do masy początkowej.
+  - Niewielki wzrost masy pieniężnej.
+  - Drastyczny spadek masy pieniężnej.
+  - Niewielki spadek masy pieniężnej.
 explanation: |
-  Podmioty centralne często dewaluują walutę, zwiększając jej masę
-  masę monetarną w porównaniu do początkowej o kilka procent rocznie
-  każdego roku. Ta cicha dewaluacja jest często uzasadniana
-  w interesie ludzi.
+  Hiperinflacja to zjawisko monetarne charakteryzujące się
+  drastycznym wzrostem inflacji poprzez dodruk pieniądza
+  przez władze, co prowadzi do całkowitej utraty
+  zaufania do waluty.
 reviewed: true

@@ -1,0 +1,9 @@
+question: 哪种解析方法需要将反向区域 IPv6 Address 的每个十六进制数字颠倒过来？
+answer: 反向分辨率
+wrong_answers:
+  - 相反决议
+  - 一级分辨率
+  - 二级分辨率
+explanation: |
+  反向解析时，完整 IPv6 Address 的每个字节都要反转，并用点分隔，然后以 ip6.arpa 为后缀。
+reviewed: false

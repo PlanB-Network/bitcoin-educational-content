@@ -1,0 +1,9 @@
+question: Bastiat asobanura gute inshingano mu bijanye n’umwidegemvyo w’umuntu ku giti ciwe?
+answer: Inshingano ni inshingano yo kwikorera ingaruka z’ivyo umuntu akora, vyaba vyiza canke bibi.
+wrong_answers:
+  - Inshingano ni Commitment yo kwama ukora ku neza y’abandi.
+  - Inshingano irimwo gushinga ingingo zimwezimwe ubuyobozi bubifitiye ububasha.
+  - Inshingano ni inshingano yo gukurikiza amategeko yashizweho n’ikibano.
+explanation: |
+  Bastiat abona ko inshingano ari co kintu ciza co mu mwidegemvyo, kikaba gitegeka umuntu wese kwitwararika bimwe bishitse ingaruka z’amahitamwo yiwe n’ibikorwa vyiwe.
+reviewed: false

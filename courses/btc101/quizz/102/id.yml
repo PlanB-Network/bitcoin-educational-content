@@ -1,11 +1,9 @@
-question: Apa salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang?
-answer: Ukir frasa mnemonik Anda pada material yang tahan seperti baja
+question: Apa pentingnya tanggung jawab individu dalam Bitcoin?
+answer: Sangat penting karena Anda bertanggung jawab atas cadangan
 wrong_answers:
-  - Simpan di dalam dompet digital
-  - Simpan di platform pertukaran
-  - Bagikan frasa mnemonik Anda dengan teman yang dipercaya
+  - Sangat penting karena Anda harus menambang bitcoin
+  - Sangat penting untuk membeli bitcoin
+  - Sangat penting karena Anda bertanggung jawab atas tema dompet
 explanation: |
-  Mengukir frasa mnemonik Anda pada material yang tahan seperti baja menciptakan
-  cadangan fisik dari kunci Anda yang tahan terhadap kerusakan air dan api,
-  sehingga mengamankan bitcoin Anda dalam jangka panjang.
+  Dalam Bitcoin, kedaulatan finansial berjalan beriringan dengan tanggung jawab individu, karena Anda harus menjaga dana Anda sendiri dengan mengikuti prosedur cadangan yang direkomendasikan.
 reviewed: true

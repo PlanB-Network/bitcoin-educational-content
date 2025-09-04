@@ -1,0 +1,8 @@
+question: Ni imvo iyihe Condorcet yatanze yatumye Turgot ananirwa?
+answer: Yari umuntu atagira agasembwa cane mu ngingo ngenderwako ziwe .
+wrong_answers:
+  - Yari atagira ubuhinga bwinshi cane mu bijanye no gukoresha politike .
+  - Itegeko nshinga ryiwe ry'umubiri ryari rigoyagoya cane .
+  - Yari muto cane
+explanation: |
+  Condorcet yumvise ko Turgot yari akomeye cane mu ngingo ngenderwako ziwe kandi ko atashaka gusenyuka.

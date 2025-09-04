@@ -1,0 +1,9 @@
+question: Koja je glavna slabost prstenaste mreže?
+answer: Kvar jednog uređaja može prekinuti celu mrežu
+wrong_answers:
+  - Potrebno je mnogo kablova da se poveže svaki deo opreme.
+  - Teško je produžiti
+  - Njegovo upravljanje je složeno
+explanation: |
+  U prstenastoj topologiji, kvar jednog uređaja prekida petlju i sprečava cirkulaciju podataka.
+reviewed: false

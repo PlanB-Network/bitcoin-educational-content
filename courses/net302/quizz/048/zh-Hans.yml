@@ -1,0 +1,9 @@
+question: MAC Address 属于 OSI 模型的哪个 Layer？
+answer: 数据链路 Layer
+wrong_answers:
+  - 应用 Layer
+  - 运输 Layer
+  - 网络 Layer
+explanation: |
+  MAC Address 在 OSI 模型的 Layer 2 上运行，被称为 "数据链路 Layer"，用于对帧进行硬件寻址。
+reviewed: false

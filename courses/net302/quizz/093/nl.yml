@@ -1,0 +1,9 @@
+question: Welke tool geeft gedetailleerde DNS-berichten weer, inclusief records en het resolutieproces?
+answer: graven
+wrong_answers:
+  - host
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) geeft gedetailleerde informatie over DNS-resolutie, inclusief recordtypes.
+reviewed: false

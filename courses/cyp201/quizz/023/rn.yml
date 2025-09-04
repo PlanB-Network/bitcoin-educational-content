@@ -1,0 +1,9 @@
+question: Ni ikihe ciyumviro rusangi abaje mu nama bose bakoresha mu kubara urufunguzo rwa bose muri Bitcoin?
+answer: Igikoresho ca jeneratore G
+wrong_answers:
+  - Igitabu SHA256 Hash.
+  - Invugo ya Mnemonic
+  - Urufunguzo rwa bose rwashizwemwo
+explanation: |
+  Igiharuro c’umuyagankuba G c’umurongo w’uruzitiro secp256k1 gikoreshwa mu kubara imfunguruzo za bose zivuye ku mfunguruzo z’abantu ku giti cabo.
+reviewed: false

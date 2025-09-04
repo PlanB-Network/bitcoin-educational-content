@@ -1,11 +1,13 @@
-question: Vad bör vara den största oron när du äger Bitcoin?
-answer: Säkerheten för dina medel.
+question: Vad är den rekommenderade användningen av en offline, eller Cold, fysisk Wallet?
+answer: Förvaring av stora mängder.
 wrong_answers:
-  - Värdet av Bitcoin i dollar.
-  - Lagligheten i att äga bitcoins.
-  - Tillstånd att använda dina medel.
+  - Förvaring av dagliga utgifter.
+  - Förvaring av små mängder.
+  - Förvaring av kortsiktigt sparande.
 explanation: |
-  När du äger bitcoins är det främsta problemet säkerheten
-  av dina medel. Detta beror på att Bitcoin, som alla andra former
-  valuta, kan stjälas eller förloras om den inte är ordentligt säkrad.
+  En offline, eller Cold, fysisk Wallet rekommenderas för
+  förvaring av stora belopp eftersom den är mindre sårbar för
+  online-hot än Hot-plånböcker. Den är dock inte
+  rekommenderas dock inte för dagliga utgifter eftersom den är mindre
+  tillgänglig för dagliga transaktioner.
 reviewed: true

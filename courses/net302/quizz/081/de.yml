@@ -1,0 +1,9 @@
+question: Welches Befehlszeilentool erfasst den Netzwerkverkehr zur Echtzeitanalyse?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump erfasst und protokolliert Pakete, die in einem Interface-Netz zirkulieren, zur Analyse.
+reviewed: false

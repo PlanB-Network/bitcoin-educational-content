@@ -82,7 +82,7 @@ Ten tryb instalacji pozwala na użycie polecenia **lynis** z dowolnego miejsca w
 
 
 
-Połącz się z serwerem przez SSH i wprowadź następujące polecenia, aby zainstalować Lynis :
+Połącz się z serwerem przez SSH i wprowadź następujące polecenia, aby zainstalować Lynis:
 
 
 
@@ -209,7 +209,7 @@ Aby wyświetlić dostępne polecenia, wystarczy wpisać następującą komendę:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ To jest to, co otrzymujesz:
 
 
 
-Aby wyświetlić wszystkie opcje, należy wprowadzić :
+Aby wyświetlić wszystkie opcje, należy wprowadzić:
 
 
 
@@ -336,7 +336,7 @@ Tutaj widzimy, że Lynis zaleca zainstalowanie **fail2ban**:
 
 
 
-W sekcji "**Boot i usługi**" widzimy, że ochrona usług przez *systemd* mogłaby zostać poprawiona. Z drugiej strony, Grub2 jest obecny i nie ma problemów z uprawnieniami na :
+W sekcji "**Boot i usługi**" widzimy, że ochrona usług przez *systemd* mogłaby zostać poprawiona. Z drugiej strony, Grub2 jest obecny i nie ma problemów z uprawnieniami na:
 
 
 
@@ -598,7 +598,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Niektóre informacje o zainstalowanych pakietach :
+Niektóre informacje o zainstalowanych pakietach:
 
 
 
@@ -623,7 +623,7 @@ Przyjrzyjmy się zaleceniom SSH. Są one wymienione poniżej. Nie martw się, za
 
 
 
-Przyjrzyjmy się bliżej mojej obecnej konfiguracji **SSH** w :**/etc/ssh/sshd_config**
+Przyjrzyjmy się bliżej mojej obecnej konfiguracji **SSH** w:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Sugerowana poniżej konfiguracja może być jeszcze zoptymalizowana, ale daje do
 
 
 
-Będziemy :
+Będziemy:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Zachowanie uwierzytelniania hasłem :
+- Zachowanie uwierzytelniania hasłem:
 
 
 
@@ -804,7 +804,7 @@ Warto zauważyć, że w niektórych jurysdykcjach wysłanie wiadomości przed uw
 
 
 
-W obrazach daje to :
+W obrazach daje to:
 
 
 

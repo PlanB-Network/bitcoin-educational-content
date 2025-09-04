@@ -2235,6 +2235,7 @@ sudo apt install thunderbird
 ```
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office suite
 
 
@@ -4348,6 +4349,7 @@ Firefox is an open source browser, distributed under the MPL (*Mozilla Public Li
 Firefox remains a benchmark for security and privacy, despite lagging slightly behind Blink-based browsers in certain performance areas. It can be a very good browser, as long as it is configured properly.
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Browser
 
 
@@ -4442,6 +4444,7 @@ Orion differs from Safari in several technical respects:
 Orion is entirely developed by the Kagi team (known for its ad-free search engine). Its development is funded solely by its users via the *Orion+* subscription, which gives access to a number of advantages.
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers without rendering engines
 
 
@@ -5447,6 +5450,7 @@ Thunderbird Mobile is the mobile version of the popular open-source e-mail clien
 
 ![Image](assets/fr/157.webp)
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 Tuta (formerly "*Tutanota*") offers a complete end-to-end encrypted email solution, but its mobile client only supports Tuta accounts. It does not work with other providers. interface is modern and uncluttered, and registration requires no personal data.
@@ -5659,6 +5663,7 @@ Aegis is a comprehensive open-source application. It encrypts your 2FA database 
 
 Ente Auth is a modern, open-source, multi-platform solution with end-to-end encrypted backups. It enables you to synchronize your 2FA codes securely on mobile, desktop and web. You can also use it offline, without cloud backup or account creation.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth offers many additional features: Organization by tags, customized icons for each service, notes, favorites, integrated search, secure team code sharing.
 
 ![Image](assets/fr/176.webp)
@@ -5669,6 +5674,7 @@ Authy offers 2FA synchronization across multiple devices, which can be handy, bu
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 If you'd like to find out more about password managers, 2FA authentication and VPNs, I recommend you read the dedicated chapters in the SCU-101 course:
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -5913,6 +5919,7 @@ Available on F-Droid and entirely open-source, Chrono offers a modern, unclutter
 
 The application also integrates a timer and stopwatch, with lap recording, statistics, time comparisons and multi-timer management. You can configure multiple time zones, customize the theme (colors, styles, animations), and even organize your alarms and timers with labels.
 
+To explore the topic further, I recommend visiting the website [*Awesome Privacy*](https://awesome-privacy.xyz/), which lists the best privacy-friendly alternatives to the software you use daily.
 ___
 
 ⚠️ ***Caution**: Although the alternatives presented in this chapter are mostly open-source and privacy-oriented, they are not without their limitations or risks. Some may cease to be maintained, have unpatched vulnerabilities, become proprietary or even, potentially, be malware. Some may also be illegal in your local jurisdiction. I have written this chapter in June 2025, but the situation for these applications may have changed since then.*
@@ -6233,6 +6240,7 @@ In practical terms, DNS encryption and server switching can be implemented at va
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - At operating system level: Some OSes natively integrate encrypted DNS support (DoT or DoH), which secures all DNS requests passing through the system's network stack. This does not, however, secure the entire computer or telephone: Applications can bypass this setting if they are configured to use a different DNS resolver or protocol.
 
 - At network level: DNS encryption can be applied to the entire local network via router configuration. Once again, a router configured for DoH/DoT only sees traffic that is actually sent to it. So a browser configured to contact a remote resolver directly escapes this control. To reduce these loopholes, you need to block port 53 in clear text and restrict unauthorized DoH/DoT destinations via the router's firewall.

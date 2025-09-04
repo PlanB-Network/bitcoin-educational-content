@@ -134,7 +134,7 @@ Preporučujem da ovaj kod čuvate na drugom mestu od mesta gde čuvate svoju gla
 
 
 
-Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic fraze sa ulogom hitnog koda** :
+Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic fraze sa ulogom hitnog koda**:
 
 
 

@@ -1,0 +1,9 @@
+question: 什么是 IPv6 中的任播 Address？
+answer: 分配给多个节点的 Address
+wrong_answers:
+  - 专用于全球组播的 Address
+  - 每次重启都会更改的 Address
+  - 为技术文件预留的 Address
+explanation: |
+  任播 Address 被分配给多个设备，路由会将数据包传送到拓扑结构上最近的设备。
+reviewed: false

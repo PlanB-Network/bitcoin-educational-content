@@ -1,9 +1,9 @@
-question: Comment les mineurs valident-ils les transactions et les incluent-ils dans un bloc ?
-answer: Par le processus de Preuve de travail (Proof of work).
+question: Quelle est la taille actuelle de la blockchain Bitcoin ?
+answer: Environ 660Go
 wrong_answers:
-  - Par le processus de Preuve d'enjeu (Proof of stake).
-  - Par le processus de Preuve d'autorité (Proof of authority).
-  - Par le processus de Preuve de destruction (Proof of burn).
-explanation: >-
-  Les mineurs valident les transactions et les incluent dans un bloc à travers un processus appelé preuve de travail (proof of work). Cela implique de résoudre une énigme cryptographique.
+  - Environ 110Go
+  - Environ 1To
+  - Environ 2To
+explanation: |
+  La blockchain Bitcoin est d'environ 660Go en 2025.
 reviewed: true

@@ -1,12 +1,8 @@
-question: Koji je značaj geografske distribucije Bitkoin čvorova?
-answer: To praktično onemogućava uništavanje svih kopija Blockchain-a.
+question: Koliki je približan broj čvorova raspoređenih širom sveta do septembra 2023.?
+answer: 45.000 čvorova.
 wrong_answers:
-  - Određuje cenu Bitkoina u različitim regionima.
-  - To utiče na brzinu Bitkoin transakcija.
-  - Određuje broj bitkoina koji se mogu iskopati u nekom regionu.
-explanation: |
-  Geografska distribucija Bitkoin čvorova čini
-  praktično nemogućim uništavanje svih kopija
-  Blockchain-a. Pošto su čvorovi rasprostranjeni, teško ih je
-  fizički sve zapleniti.
+  - 10.000 čvorova.
+  - 100.000 čvorova.
+  - 500.000 čvorova.
+explanation: >-
 reviewed: true

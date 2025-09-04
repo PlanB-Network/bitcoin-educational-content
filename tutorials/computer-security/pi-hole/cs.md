@@ -218,7 +218,7 @@ Pokud byla některá zařízení zapnuta dříve, zachovala si stará nastavení
 
 
 
-Na pracovních stanicích se systémem Windows můžete pomocí příkazového řádku :
+Na pracovních stanicích se systémem Windows můžete pomocí příkazového řádku:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Na pracovní stanici se systémem Linux :
+Na pracovní stanici se systémem Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-V poli DNS byste měli zadat číslo Address svého počítače Pi-Hole, v mém případě 192.168.1.42 :
+V poli DNS byste měli zadat číslo Address svého počítače Pi-Hole, v mém případě 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ V poli DNS byste měli zadat číslo Address svého počítače Pi-Hole, v mém 
 
 
 
-Pro usnadnění správy využívá **Pi-Hole** dobře navržený web Interface. Je uživatelsky přívětivý a přístupný a umožňuje vám :
+Pro usnadnění správy využívá **Pi-Hole** dobře navržený web Interface. Je uživatelsky přívětivý a přístupný a umožňuje vám:
 
 
 
@@ -322,7 +322,7 @@ Přidání seznamu v aplikaci Pi-Hole
 
 
 
-Zbývá jen kliknout na tlačítko "**Přidat**" a přidat ji. Pro aktivaci musíme provést další krok, abychom Pi-Hole "upozornili" na převzetí tohoto seznamu. Chcete-li to provést :
+Zbývá jen kliknout na tlačítko "**Přidat**" a přidat ji. Pro aktivaci musíme provést další krok, abychom Pi-Hole "upozornili" na převzetí tohoto seznamu. Chcete-li to provést:
 
 
 

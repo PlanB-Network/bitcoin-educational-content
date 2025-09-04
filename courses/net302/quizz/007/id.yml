@@ -1,0 +1,9 @@
+question: Sistem operasi universitas mana yang memfasilitasi penyebaran protokol TCP/IP di dunia akademis?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, yang dikembangkan Universitas Berkeley, merupakan salah satu sistem pertama yang mengintegrasikan protokol TCP/IP dan membantu menyebarkannya secara luas di dunia akademis.
+reviewed: false

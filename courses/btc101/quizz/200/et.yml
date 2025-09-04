@@ -1,9 +1,9 @@
-question: Mis on spontaanne ost?
-answer: Bitcoini kohe ostmine, et saada sellest kohest kasu.
+question: Mis on üks potentsiaalsetest riskidest, kui jätta oma Bitcoin vahetusplatvormile?
+answer: Häkkimise ja vahendite blokeerimise riskid.
 wrong_answers:
-  - Bitcoini ostmine regulaarsete intervallidega.
-  - Bitcoini ostmine ainult siis, kui hind langeb.
-  - Bitcoini ostmine ainult siis, kui hind tõuseb.
+  - Risk, et platvorm tõstab Bitcoini hinda.
+  - Risk, et platvorm kontrollib Bitcoini pakkumist.
+  - Risk, et platvorm takistab sul rohkem Bitcoini ostma.
 explanation: >-
-  Tekst selgitab, et spontaanne ost on kasutatud selleks, et kohe saada kasu Bitcoinist. See võib tähendada ostmist languse ajal või boonuse ärakasutamist.
-reviewed: false
+  Tekst mainib, et oma Bitcoini jätmine vahetusplatvormile võib sind
+  avada häkkimise ja vahendite blokeerimise riskidele.

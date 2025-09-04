@@ -1,0 +1,9 @@
+question: Ni gute ukuza kwa kaminuza zo mu kinjana ca mbere kwatumye abantu bazirikana ku bijanye n’isano riri hagati y’ubwenge n’ukwizera?
+answer: Amashure yisumbuye yarafashije mu guhangana n’ivyiyumviro bitandukanye no kuvuka kw’impaka z’ubwenge ku bijanye n’ukwizera n’ubwenge.
+wrong_answers:
+  - Amashure yisumbuye yarashigikiye ko habaho iciyumviro kimwe, gishingiye ku nyigisho z’idini, gishingiye ku bubasha bwa Ekleziya.
+  - Amashure yisumbuye yibanze ku nyigisho z’ibikorwa n’iz’umwuga, zirengagiza ivyiyumviro vy’ubuhinga bwa filozofiya n’ivy’idini.
+  - Amashure yisumbuye nta ruhara runini yagize mu gutekereza ku bijanye n’isano riri hagati y’ubwenge n’ukwizera.
+explanation: |
+  Ukwiyongera kwa kaminuza zo mu kinjana ca mbere kwatumye haba ikibanza co guhangana n’ivyiyumviro n’impaka ku vyerekeye ukwizera n’ubwenge, bituma habaho ivyiyumviro vyimbitse vy’ubuhinga bwa filozofiya no kubana kw’ivyiyumviro bitandukanye ku bijanye n’isano riri hagati y’izo nzira zibiri.
+reviewed: true

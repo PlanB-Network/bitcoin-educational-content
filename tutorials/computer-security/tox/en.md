@@ -49,7 +49,7 @@ You can use the Tox protocol through an instant messaging client that you can do
 ![download](assets/fr/01.webp)
 
 
-Depending on your operating system, you can download and install a Tox client that matches :
+Depending on your operating system, you can download and install a Tox client that matches:
 
 
 
@@ -170,7 +170,7 @@ You can also customize your file-sharing configurations for each discussion you 
 ![details](assets/fr/14.webp)
 
 
-From the Interface details, you can manage the authorizations you grant to your recipient for :
+From the Interface details, you can manage the authorizations you grant to your recipient for:
 
 
 

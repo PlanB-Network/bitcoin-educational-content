@@ -1,0 +1,9 @@
+question: Vad är längden, i bitar, på en standard IPv4 Address?
+answer: 32-bitars
+wrong_answers:
+  - 8 bitar
+  - 128-bitars
+  - 16 bitar
+explanation: |
+  En IPv4 Address är kodad på 32 bitar, uppdelad i fyra byte med 8 bitar vardera.
+reviewed: false

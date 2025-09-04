@@ -1,10 +1,11 @@
-question: Hva var utfallet av blokk-krigen i 2017?
-answer: Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
+question: Hvordan blir gruvearbeidere kompensert for sitt arbeid?
+answer: Gruvearbeidere blir kompensert gjennom belønningen inkludert i blokken og gjennom transaksjonsgebyrer.
 wrong_answers:
-  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
-  - Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
-  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
+  - Gruvearbeidere blir betalt av Bitcoin-nettverket.
+  - Gruvearbeidere mottar en fast lønn for sitt arbeid.
+  - Gruvearbeidere blir kompensert med nye bitcoins.
 explanation: >-
-  I blokk-krigen i 2017, triumferte brukere og noder ved å avvise det
-  foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit.
+  Når en gruvearbeider lykkes med å utvinne en blokk, mottar de en belønning i
+  form av nye bitcoins. Denne belønningen er inkludert i blokken de utvant. I tillegg
+  mottar gruvearbeidere også transaksjonsgebyrer fra transaksjonene som er inkludert i blokken.
 reviewed: false

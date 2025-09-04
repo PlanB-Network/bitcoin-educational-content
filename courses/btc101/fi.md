@@ -440,7 +440,6 @@ Bitcoin takaa terveen rahanhallinnan rajoittamalla sen luomista, mikä tekee sii
 
 Yhteenvetona voidaan todeta, että Bitcoin tarjoaa hajautetun luonteensa, ohjelmoidun niukkuutensa ja avoimuutensa ansiosta ainutlaatuisen vaihtoehdon perinteisille rahajärjestelmille. Se osoittaa, miten teknologiaa voidaan käyttää sellaisen valuutan luomiseen, joka ei ole vain hyödyllinen ja todennettavissa, vaan myös säilyttää käyttäjien säästöjen arvon rajoittamalla tiukasti niiden tarjontaa.
 
-### Jakson 1 päätelmät!
 
 # Bitcoin-lompakot
 
@@ -692,7 +691,7 @@ Tammikuun 3. päivänä 2009 Satoshi avasi virallisesti Bitcoin-verkon luomalla 
 
 > "Voimme voittaa merkittävän taistelun asevarustelukilpailussa ja saavuttaa
 > vapauden uudella alueella useiden vuosien ajan." - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
+> ![image](assets/en/44.webp)
 
 ### Bitcoin-protokolla herää henkiin
 
@@ -706,7 +705,7 @@ Foorumista tuli nopeasti Bitcoin-käyttäjien suosima keskustelupaikka, ja se sy
 
 **Tiesitkö?** 22. toukokuuta 2010 Laszlo Hanyecz teki historiaa tarjoutumalla ostamaan kaksi pizzaa 10 000 BTC:llä: se oli ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen.
 
-![image](assets/en/44.webp)
+![image](assets/en/42.webp)
 
 ### Satoshi Nakamoton katoaminen
 

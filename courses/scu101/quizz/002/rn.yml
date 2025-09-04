@@ -1,0 +1,12 @@
+question: Ni kubera iki ari vyiza gukura porogarama ku rubuga rwemewe rw’uwasohoye aho gukura ku mbuga rusangi?
+answer: Kugira ngo umenye neza ko iyo porogarama idafise porogarama mbi.
+wrong_answers:
+  - Kugira ngo uwo mwamamaji afashe mu vy’amahera.
+  - Kuko iyo porogarama akenshi irahenda cane ku rubuga rwemewe.
+  - Kuko porogarama ziri ku mbuga rusangi akenshi zirashaje.
+explanation: |
+  Gukuraho porogarama ku rubuga rwemewe rwa
+  umumenyeshamakuru araba neza ko uriko uronka ivyemewe
+  verisiyo ya porogaramu, idafise ikintu kibi cose
+  porogarama zishobora gutuma igikoresho cawe gihungabana canke zikiba amakuru yawe.
+reviewed: true

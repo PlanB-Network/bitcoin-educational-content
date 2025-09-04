@@ -1,0 +1,9 @@
+question: SLAAC
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 eksplicitno upravlja životnim ciklusima putem zakupa, dok ih NDP objavljuje u svojim porukama konfiguracije rutera.
+reviewed: false

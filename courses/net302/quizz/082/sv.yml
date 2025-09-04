@@ -1,0 +1,9 @@
+question: Vilket modernt verktyg ersätter arp på de senaste Linux-distributionerna?
+answer: ip grann
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - rutt
+explanation: |
+  ip neigh, från iproute2-sviten, ersätter arp för hantering av IP/MAC-associationer på moderna Linux.
+reviewed: false

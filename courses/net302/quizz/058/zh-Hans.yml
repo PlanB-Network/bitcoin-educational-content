@@ -1,0 +1,9 @@
+question: 哪个配置文件定义了 RHEL-like 系统上的静态网络 Interface？
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  在 RHEL、CentOS 和类似系统中，每个 Interface 都有自己的 ifcfg-* 文件，位于 /etc/sysconfig/network-scripts/ 中。
+reviewed: false

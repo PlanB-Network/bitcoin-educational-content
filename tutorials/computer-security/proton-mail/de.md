@@ -1,163 +1,449 @@
 ---
 name: Proton Mail
-description: Einrichtung eines sicheren E-Mail-Postfachs
+description: Einrichten einer sicheren Mailbox
 ---
 ![cover](assets/cover.webp)
 
-Das E-Mail-Postfach ist ein zentrales Element Ihrer Online-Aktivitäten und spielt oft eine entscheidende Rolle für Ihre Computersicherheit. Wenn es einem Angreifer gelingt, Ihr E-Mail-Postfach zu kompromittieren, erhalten sie leicht Zugang zu Ihren anderen Konten über die Funktion "*Passwort vergessen*". Dies kann es ihnen ermöglichen, Ihre sozialen Netzwerke, Ihre Bankkonten und andere Online-Dienste zu kontrollieren, denn heute wird die E-Mail-Adresse oft als einzigartiger Identifikator Ihrer Online-Identität verwendet. Daher ist es sehr wichtig, Ihr E-Mail-Postfach zu sichern, um sich vor Angriffen zu schützen.
 
-Um die Sicherheit Ihres E-Mail-Postfachs zu gewährleisten, ist es wichtig, einige einfache gute Praktiken zu adoptieren, die wir in diesem Tutorial für Anfänger in der Informatik studieren. Es ist auch wichtig, einen sicheren E-Mail-Anbieter zu wählen, der fortgeschrittene Schutzoptionen und eine robuste Datenschutzrichtlinie bietet. Deshalb empfehle ich in diesem Tutorial, ProtonMail zu entdecken. Selbst wenn Sie diesen Anbieter nicht nutzen möchten, können die hier vorgestellten guten Praktiken auf jedes E-Mail-Postfach angewendet werden, um dessen Sicherheit zu erhöhen.
+
+Das Postfach ist ein zentraler Bestandteil Ihrer Online-Aktivitäten und spielt oft eine entscheidende Rolle für Ihre IT-Sicherheit. Wenn es einem Angreifer gelingt, Ihre Mailbox zu kompromittieren, erhält er über die Funktion "*Passwort vergessen*" leichten Zugang zu Ihren anderen Konten. Dies kann ihm die Kontrolle über Ihre sozialen Netzwerke, Bankkonten und andere Online-Dienste ermöglichen, da heutzutage die E-Mail Address oft als eindeutige Kennung Ihrer Online-Identität verwendet wird. Daher ist die Sicherung Ihres Postfachs sehr wichtig, um sich vor Angriffen zu schützen.
+
+
+
+Um die Sicherheit Ihres E-Mail-Postfachs zu gewährleisten, sollten Sie einige einfache Best Practices anwenden, die wir in diesem Tutorial für Computeranfänger vorstellen. Außerdem ist es wichtig, einen sicheren E-Mail-Anbieter zu wählen, der erweiterte Schutzoptionen und eine solide Datenschutzpolitik bietet. Aus diesem Grund empfehle ich in diesem Tutorial ProtonMail. Auch wenn Sie diesen Anbieter nicht verwenden möchten, können die hier vorgestellten bewährten Verfahren auf jedes Postfach angewendet werden, um dessen Sicherheit zu erhöhen.
+
+
 
 ## Warum ProtonMail verwenden?
 
-ProtonMail ist eine ziemlich sichere Messaging-Lösung dank mehrerer Funktionen. Erstens gewährleistet ProtonMail die Ende-zu-Ende-Verschlüsselung Ihrer E-Mails, was bedeutet, dass nur der Absender und der Empfänger ihren Inhalt lesen können. Theoretisch kann selbst ProtonMail nicht auf die E-Mails seiner Nutzer zugreifen. Diese Verschlüsselung wird automatisch angewendet, ohne dass von den Nutzern spezifische technische Fähigkeiten erforderlich sind.
 
-Darüber hinaus integriert ProtonMail fortschrittliche Technologien zum Schutz Ihrer Privatsphäre, einschließlich der Blockierung bestimmter Tracking-Systeme und der Maskierung Ihrer IP-Adresse. Da das Unternehmen in der Schweiz ansässig ist, profitiert Proton von einigen Datenschutzgesetzen, die in anderen Ländern nicht zu finden sind. Zusätzlich ist ProtonMail Open-Source, was unabhängigen Experten erlaubt, den Softwarecode frei zu prüfen.
 
-Das Geschäftsmodell von Proton basiert auf einem Abonnement-System, was beruhigend ist, da es darauf hinweist, dass das Unternehmen finanziert wird, ohne notwendigerweise die Daten seiner Nutzer auszubeuten. In diesem Tutorial werden wir untersuchen, wie man die kostenlose Version von ProtonMail verwendet, aber es gibt auch mehrere Abonnementstufen, die mehr Funktionen bieten. Dieses Geschäftsmodell ist einem völlig kostenlosen System vorzuziehen, das Bedenken aufwerfen könnte, ob unsere persönlichen Daten zum Profit verwendet werden. Glücklicherweise scheint dies bei ProtonMail nicht der Fall zu sein.
+ProtonMail ist eine ziemlich sichere E-Mail-Lösung, dank mehrerer Funktionen. Erstens bietet ProtonMail eine Ende-zu-Ende-Verschlüsselung Ihrer E-Mails, was bedeutet, dass nur der Absender und der Empfänger ihren Inhalt lesen können. Theoretisch kann nicht einmal ProtonMail auf die E-Mails seiner Benutzer zugreifen. Diese Verschlüsselung erfolgt automatisch und erfordert keine besonderen technischen Kenntnisse seitens der Benutzer.
+
+
+
+Darüber hinaus verfügt ProtonMail über fortschrittliche Technologien zum Schutz Ihrer Privatsphäre, einschließlich der Blockierung bestimmter Tracking-Systeme und der Maskierung Ihrer IP Address. Da Proton in der Schweiz ansässig ist, profitiert es von einigen Datenschutzgesetzen, die es in anderen Ländern nicht gibt. Darüber hinaus ist ProtonMail quelloffen, so dass unabhängige Experten den Softwarecode frei prüfen können.
+
+
+
+Das Geschäftsmodell von Proton basiert auf einem Abonnementsystem, was beruhigend ist, da es darauf hindeutet, dass das Unternehmen sich selbst finanziert, ohne notwendigerweise die Daten seiner Nutzer auszunutzen. In diesem Tutorial werden wir uns mit der Nutzung der kostenlosen Version von ProtonMail befassen, aber es gibt auch mehrere Abonnementstufen mit mehr Funktionen. Dieses Geschäftsmodell ist einem völlig kostenlosen System vorzuziehen, bei dem man sich fragen könnte, ob unsere persönlichen Daten zu Profitzwecken verwendet werden. Glücklicherweise scheint dies bei ProtonMail nicht der Fall zu sein.
+
+
 
 ## Ein Proton-Konto erstellen
 
+
+
 Besuchen Sie die offizielle Proton-Website: https://proton.me/
+
+
 
 ![proton](assets/notext/01.webp)
 
-Klicken Sie auf den Button "*Konto erstellen*":
-Sie haben die Möglichkeit, aus verschiedenen Plänen gemäß Ihren Bedürfnissen zu wählen. Um zu beginnen, können Sie sich für ein kostenloses Konto entscheiden, das es Ihnen ermöglicht, die grundlegenden Dienste von ProtonMail zu testen. Später, wenn Sie auf zusätzliche Funktionen und andere Proton-Software wie Kalender, VPN oder Passwort-Manager zugreifen möchten, können Sie in Erwägung ziehen, ein kostenpflichtiges Abonnement abzuschließen.
 
-Sie gelangen dann auf die Seite zur Kontoerstellung.
 
-Sie können den Domainnamen, den Sie für Ihre E-Mail-Adresse bevorzugen, durch Klicken auf den kleinen Pfeil wählen. Diese Wahl hat keinen Einfluss auf das Folgende.
+Klicken Sie auf die Schaltfläche "*Konto erstellen*":
 
-Wählen Sie auch den Benutzernamen für Ihre E-Mail-Adresse.
 
-Dann werden Sie aufgefordert, ein Passwort festzulegen. Es ist wichtig, in diesem Stadium ein starkes Passwort zu wählen, da es den Zugang zu Ihrem Postfach ermöglicht. Ein robustes Passwort sollte so lang wie möglich sein, eine breite Vielfalt von Zeichen verwenden und zufällig gewählt werden. Im Jahr 2024 sind die Mindestempfehlungen für ein sicheres Passwort 13 Zeichen, einschließlich Zahlen, Klein- und Großbuchstaben sowie Symbole, vorausgesetzt, das Passwort ist wirklich zufällig. Ich empfehle jedoch, ein Passwort von mindestens 20 Zeichen zu wählen, das alle möglichen Arten von Zeichen enthält, um seine Sicherheit länger zu gewährleisten.
-Die Verwendung eines Passwort-Managers ist eine ausgezeichnete Praxis. Er ermöglicht es Ihnen nicht nur, Ihre Passwörter sicher zu speichern, ohne sie sich merken zu müssen, sondern er kann auch lange und zufällige Passwörter für Sie generieren. Menschen sind tatsächlich sehr schlecht darin, zufällige Sequenzen zu erstellen, und ein Passwort, das nicht zufällig genug ist, kann anfällig für Brute-Force-Angriffe sein. Ich empfehle auch, unser vollständiges Tutorial zur Einrichtung eines Passwort-Managers für weitere Details zu diesem Thema zu konsultieren:
+
+![proton](assets/notext/02.webp)
+
+
+
+Sie können aus verschiedenen Paketen wählen, die Ihren Bedürfnissen entsprechen. Für den Anfang können Sie sich für ein kostenloses Konto entscheiden, mit dem Sie die grundlegenden Dienste von ProtonMail testen können. Wenn Sie später auf zusätzliche Funktionen und andere Proton-Software wie Kalender, VPN oder Passwort-Manager zugreifen möchten, können Sie ein kostenpflichtiges Paket abonnieren.
+
+
+
+![proton](assets/notext/03.webp)
+
+
+
+Sie werden dann zur Seite für die Erstellung Ihres Kontos weitergeleitet.
+
+
+
+![proton](assets/notext/04.webp)
+
+
+
+Durch Klicken auf den kleinen Pfeil können Sie den Domänennamen auswählen, den Sie in Ihrem E-Mail Address haben möchten. Diese Auswahl hat keinen Einfluss auf das weitere Vorgehen.
+
+
+
+![proton](assets/notext/05.webp)
+
+
+
+Wählen Sie auch Ihre Address-E-Mail-Kennung.
+
+
+
+![proton](assets/notext/06.webp)
+
+
+
+Sie werden dann aufgefordert, ein Passwort festzulegen. Es ist wichtig, jetzt ein sicheres Passwort zu wählen, da es den Zugang zu Ihrer Mailbox ermöglicht. Ein sicheres Passwort sollte so lang wie möglich sein, eine Vielzahl von Zeichen enthalten und nach dem Zufallsprinzip gewählt werden. Im Jahr 2024 werden für ein sicheres Passwort mindestens 13 Zeichen empfohlen, darunter Zahlen, Groß- und Kleinbuchstaben und Symbole, vorausgesetzt, das Passwort ist wirklich zufällig. Ich empfehle jedoch, ein Passwort mit mindestens 20 Zeichen zu wählen, das alle möglichen Arten von Zeichen enthält, um seine Sicherheit länger zu gewährleisten.
+
+
+
+Die Verwendung eines Passwortmanagers ist eine ausgezeichnete Methode. Er ermöglicht es Ihnen nicht nur, Ihre Passwörter sicher zu speichern, ohne sie auswendig lernen zu müssen, sondern er kann auch generate lange, zufällige Passwörter für Sie erstellen. Menschen sind in der Tat sehr schlecht darin, Zufallsfolgen zu erstellen, und ein unzureichend zufälliges Passwort kann für Brute-Force-Angriffe anfällig sein. Weitere Einzelheiten zu diesem Thema finden Sie in unserer umfassenden Anleitung zur Einrichtung eines Passwortmanagers:
+
+
+
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Klicken Sie auf den Button "*Konto erstellen*".
+![proton](assets/notext/07.webp)
+
+
+
+Klicken Sie auf die Schaltfläche "*Konto erstellen*".
+
+
+
+![proton](assets/notext/08.webp)
+
+
 
 Lösen Sie das CAPTCHA.
 
-Wählen Sie einen Anzeigenamen. Dies ist der Name, der Ihrem Empfänger angezeigt wird, wenn Sie eine E-Mail senden. Wählen Sie Ihren echten Namen oder einen Spitznamen.
-Proton bietet Ihnen auch die Möglichkeit, eine Methode zur Wiederherstellung Ihres Kontos einzurichten, entweder über Ihre Telefonnummer oder mit einer alternativen E-Mail-Adresse. Es ist wichtig zu verstehen, dass diese Option die Angriffsfläche Ihres E-Mail-Posteingangs erhöhen kann. Für Sie ist es eine zusätzliche Sicherheitsmaßnahme, um Zugang zu Ihrem Konto wiederzuerlangen, falls Sie Ihr Passwort vergessen, aber für einen Hacker ist es eine zusätzliche Gelegenheit, einen Einbruchsversuch in Ihr Konto zu starten. Sie sind nicht verpflichtet, diese Wiederherstellungsoption zu wählen, aber wenn Sie sich dagegen entscheiden, stellen Sie sicher, dass Sie eine sichere Kopie Ihres Passworts aufbewahren. Ohne dieses, wenn Sie Ihr Passwort verlieren, werden Sie keinen Zugang zu Ihrem E-Mail-Posteingang wiederherstellen können.
+
+
+![proton](assets/notext/09.webp)
+
+
+
+Wählen Sie einen Anzeigenamen. Dies ist der Name, der dem Empfänger angezeigt wird, wenn Sie eine E-Mail senden. Wählen Sie Ihren echten Namen oder ein Pseudonym.
+
+
+
+![proton](assets/notext/10.webp)
+
+
+
+Proton bietet Ihnen auch die Möglichkeit, eine Methode zur Wiederherstellung Ihres Kontos einzurichten, entweder über Ihre Telefonnummer oder mit einer anderen E-Mail Address. Es ist wichtig zu verstehen, dass diese Option die Angriffsfläche Ihrer Mailbox vergrößern kann. Für Sie ist es eine zusätzliche Sicherheit, wieder Zugang zu Ihrem Konto zu erhalten, wenn Sie Ihr Kennwort vergessen haben, aber für einen Hacker ist es eine zusätzliche Gelegenheit, in Ihr Konto einzubrechen. Sie müssen diese Wiederherstellungsoption nicht wählen, aber wenn Sie sich dagegen entscheiden, stellen Sie sicher, dass Sie eine sichere Kopie Ihres Passworts aufbewahren. Wenn Sie Ihr Kennwort verlieren, können Sie den Zugriff auf Ihr Postfach nicht wiederherstellen.
+
+
+
 ![proton](assets/notext/11.webp)
 
-## Einrichtung Ihres Proton-Postfachs
 
-Herzlichen Glückwunsch, Ihr Proton-Postfach ist jetzt erstellt! Beginnen Sie damit, die Farben für das Thema Ihres Postfachs zu wählen.
+
+## Konfigurieren Ihres Proton-Postfachs
+
+
+
+Herzlichen Glückwunsch, Ihr Proton-Briefkasten ist nun erstellt! Beginnen Sie mit der Auswahl der Farben für Ihr Postfach.
+
+
 
 ![proton](assets/notext/12.webp)
 
-Wenn Sie möchten, können Sie auch die Weiterleitung Ihrer E-Mails von Ihrem alten Gmail-Konto zu Ihrem neuen ProtonMail-Konto einrichten.
+
+
+Wenn Sie möchten, können Sie auch einen Mailforwarder von Ihrem alten Gmail-Postfach zu Ihrem neuen ProtonMail-Postfach einrichten.
+
+
 
 ![proton](assets/notext/13.webp)
 
-Sobald Sie sich in der Oberfläche Ihres Postfachs befinden, rate ich Ihnen, einen Blick in die Einstellungen zu werfen, um diese anzupassen. Klicken Sie auf das Zahnrad-Symbol in der oberen rechten Ecke.
+
+
+Sobald Sie sich in Ihrem Interface-Postfach befinden, sollten Sie die Einstellungen aufrufen, um es anzupassen. Klicken Sie auf das Zahnradsymbol in der oberen rechten Ecke.
+
+
 
 ![proton](assets/notext/14.webp)
 
-Dann klicken Sie auf den Button "*Alle Einstellungen*".
+
+
+Klicken Sie dann auf die Schaltfläche "*Alle Einstellungen*".
+
+
 
 ![proton](assets/notext/15.webp)
 
-Im Tab "*Dashboard*" finden Sie Informationen zu Ihrem Konto. Wenn Sie in diesem Abschnitt nach unten scrollen, haben Sie die Möglichkeit, die Arten von E-Mails auszuwählen, die Sie von Proton erhalten möchten. Wenn Sie es vorziehen, keine Werbe- oder Informationsbenachrichtigungen zu erhalten, können Sie alle abwählen.
+
+
+Auf der Registerkarte "*Dashboard*" finden Sie Ihre Kontoinformationen. Wenn Sie weiter unten in diesem Abschnitt navigieren, können Sie die Arten von E-Mails auswählen, die Sie von Proton erhalten möchten. Wenn Sie es vorziehen, keine Werbe- oder Informationsmitteilungen zu erhalten, können Sie alles abwählen.
+
+
 
 ![proton](assets/notext/16.webp)
 
-Im Tab "*Upgrade plan*" können Sie einen kostenpflichtigen Tarif mit neuen Funktionen wählen.
+
+
+Auf der Registerkarte "*Upgrade-Plan*" können Sie ein kostenpflichtiges Paket mit neuen Funktionen auswählen.
+
+
 
 ![proton](assets/notext/17.webp)
 
-Im Tab "*Recovery*" können Sie Ihre Wiederherstellungsmethoden hinzufügen oder ändern.
+
+
+Auf der Registerkarte "*Wiederherstellung*" können Sie Ihre Wiederherstellungsmethoden hinzufügen oder ändern.
+
+
 
 ![proton](assets/notext/18.webp)
 
-Im Tab "*Account and password*" können Sie Ihre Benutzernamen sowie die Methoden zur Sicherung Ihres Kontos ändern.
+
+
+Auf der Registerkarte "*Konto und Passwort*" können Sie Ihre Benutzernamen sowie die Sicherheitsmethoden für Ihr Konto ändern.
+
+
 
 ![proton](assets/notext/19.webp)
 
-Bis jetzt ist Ihr Postfach nur mit einem Passwort gesichert. Ich rate Ihnen mindestens, den Schutz durch eine Zwei-Faktor-Authentifizierung mit einer App hinzuzufügen. Um dies zu tun, klicken Sie auf das Kontrollkästchen.
+
+
+Im Moment ist Ihr Postfach nur durch ein Passwort geschützt. Ich empfehle Ihnen, zumindest den Schutz durch eine Zwei-Faktor-Authentifizierung mit einer Anwendung hinzuzufügen. Klicken Sie dazu auf das Kontrollkästchen.
+
+
 
 ![proton](assets/notext/20.webp)
 
+
+
 Bestätigen Sie Ihr Passwort.
+
+
 
 ![proton](assets/notext/21.webp)
 
-Scannen Sie dann den QR-Code mit Ihrer 2FA-App.
+
+
+Scannen Sie dann den QR-Code mit Ihrer 2FA-Anwendung.
+
+
 
 ![proton](assets/notext/22.webp)
 
-Für weitere Informationen empfehle ich Ihnen, unser Tutorial zur Verwendung einer 2FA-App zu lesen.
-Im Tab "*Language and time*" können Sie die Sprache der Oberfläche sowie die Zeitzone ändern.
-Im Tab "*Appearance*" können Sie die Farben Ihrer Benutzeroberfläche anpassen.
 
-Im Tab "*Security and privacy*" haben Sie Zugriff auf verschiedene Sicherheitsoptionen. Einige dieser Optionen sind nur mit einem kostenpflichtigen Plan verfügbar. Sie haben auch die Möglichkeit, die Sammlung Ihrer Daten durch Proton zu deaktivieren, welche diese Informationen für Diagnosen und Fehlerbehebungen verwendet.
 
-Im Tab "*Import*" haben Sie die Möglichkeit, die Migration Ihrer alten E-Mails zu Ihrem neuen ProtonMail-Konto zu verwalten. Wenn Sie es vorziehen, mit einem völlig neuen Postfach zu beginnen, ohne Ihre alten E-Mails zu importieren, können Sie diese Option ignorieren.
+Weitere Informationen finden Sie in unserer Anleitung zur Verwendung einer 2FA-Anwendung.
 
-Der Tab "*Get the apps*" ermöglicht es Ihnen, Protons mobile Anwendungen und Desktop-Software herunterzuladen, um Ihr Postfach auf diesen Plattformen zu verwalten. Wenn Sie möchten, können Sie weiterhin nur die Webversion Ihres Postfachs verwenden, auf der Sie sich derzeit befinden, da sie die gleichen Funktionen bietet.
 
-Im Tab "*Messages and composing*" haben Sie eine Vielzahl von Anpassungsoptionen für Ihr Postfach.
 
-Im Tab "*Email privacy*" können Sie Optionen bezüglich der Privatsphäre Ihrer E-Mails wählen.
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Im Tab "*Identity and addresses*" haben Sie die Möglichkeit, Ihre E-Mail-Signatur anzupassen. Wenn Sie ein kostenpflichtiges Konto haben, können Sie auch mehrere verschiedene E-Mail-Adressen erstellen, die alle von demselben Konto verwaltet werden. Dies kann sehr nützlich sein, um Ihre verschiedenen Verwendungen zu trennen.
+Auf der Registerkarte "*Sprache und Zeit*" können Sie die Sprache und Zeitzone des Interface ändern.
 
-Im Tab "*Folders and labels*" können Sie Ordner und Labels erstellen, um Ihr Postfach zu organisieren.
 
-Der Tab "*Filters*" ermöglicht es Ihnen, Filter für die E-Mails, die Sie erhalten, zu verwalten.
 
-Der Tab "*Forward and auto-reply*" ermöglicht es Ihnen, die Weiterleitung und automatische Antworten für Ihre E-Mails zu verwalten.
+![proton](assets/notext/23.webp)
 
-Im Tab "*Domain names*" haben Sie die Möglichkeit, eine E-Mail-Adresse mit Ihrer eigenen Domain einzurichten, was nützlich sein kann, wenn Sie eine Website besitzen. Für den persönlichen Gebrauch ist es nicht unbedingt erforderlich, diese Funktion zu nutzen.
 
-Der Tab "*Encryption and keys*" ermöglicht es Ihnen, die Verschlüsselungsoptionen für Ihre E-Mails zu verwalten. Für Anfänger ist es im Allgemeinen nicht notwendig, die Einstellungen in diesem Abschnitt zu ändern.
 
-Und schließlich bietet der Tab "*IMAP/SMTP*" Ihnen die Möglichkeit, eine Brücke zu konfigurieren, um ProtonMail mit E-Mail-Software wie Outlook oder Apple Mail zu verwenden.
+Auf der Registerkarte "*Auftritt*" können Sie die Farben Ihres Interface ändern.
 
-Um zur Startseite Ihres Postfachs zurückzukehren, klicken Sie auf den Button "*Inbox*" oben links.
 
-## Nutzung Ihres Proton-Postfachs
 
-Um eine E-Mail zu senden, ist es ganz einfach, klicken Sie einfach auf den Button "*New Message*" oben links.
+![proton](assets/notext/24.webp)
 
-Im Feld "*To*" geben Sie die E-Mail-Adresse Ihres Empfängers ein.
 
-Im Feld "*Subject*" geben Sie den Betreff Ihrer E-Mail ein.
+
+Auf der Registerkarte "*Sicherheit und Datenschutz*" haben Sie Zugriff auf verschiedene Sicherheitsoptionen. Einige dieser Optionen sind nur mit einem kostenpflichtigen Paket verfügbar. Sie haben auch die Möglichkeit, die Erfassung Ihrer Daten durch die Firma Proton zu deaktivieren, die diese Informationen zur Diagnose und Fehlerbehebung verwendet.
+
+
+
+![proton](assets/notext/25.webp)
+
+
+
+Auf der Registerkarte "*Import*" können Sie die Migration Ihrer alten E-Mails in Ihr neues ProtonMail-Postfach verwalten. Wenn Sie es vorziehen, mit einem komplett neuen Postfach zu beginnen, ohne Ihre alten E-Mails zu importieren, können Sie diese Option ignorieren.
+
+
+
+![proton](assets/notext/26.webp)
+
+
+
+Über die Registerkarte "*Get the apps*" können Sie die mobilen Anwendungen und die Desktop-Software von Proton herunterladen, um Ihre Mailbox auf diesen Plattformen zu verwalten. Wenn Sie es vorziehen, können Sie auch weiterhin nur die Webversion Ihres Postfachs verwenden, da diese die gleichen Funktionen bietet.
+
+
+
+![proton](assets/notext/27.webp)
+
+
+
+Auf der Registerkarte "*Nachrichten und Verfassen*" haben Sie unzählige Möglichkeiten zur Personalisierung Ihres Postfachs.
+
+
+
+![proton](assets/notext/28.webp)
+
+
+
+Auf der Registerkarte "*E-Mail-Datenschutz*" können Sie Ihre E-Mail-Datenschutzoptionen auswählen.
+
+
+
+![proton](assets/notext/29.webp)
+
+
+
+Auf der Registerkarte "*Identität und Adressen*" können Sie Ihre E-Mail-Signatur anpassen. Wenn Sie ein kostenpflichtiges Konto haben, können Sie auch mehrere verschiedene E-Mail-Adressen erstellen, die alle über dasselbe Konto verwaltet werden. Dies kann sehr nützlich sein, um Ihre verschiedenen Verwendungen zu trennen.
+
+
+
+![proton](assets/notext/30.webp)
+
+
+
+Auf der Registerkarte "*Ordner und Etiketten*" können Sie Ordner und Etiketten erstellen, um Ihre Mailbox zu organisieren.
+
+
+
+![proton](assets/notext/31.webp)
+
+
+
+Auf der Registerkarte "*Filter*" können Sie Filter für die von Ihnen empfangenen E-Mails verwalten.
+
+
+
+![proton](assets/notext/32.webp)
+
+
+
+Auf der Registerkarte "Weiterleitung und automatische Antwort*" können Sie die Weiterleitung und automatische Antwort für Ihre E-Mails verwalten.
+
+
+
+![proton](assets/notext/33.webp)
+
+
+
+Auf der Registerkarte "*Domainnamen*" haben Sie die Möglichkeit, eine E-Mail Address mit Ihrer eigenen Domain zu konfigurieren, was nützlich sein kann, wenn Sie eine Website besitzen. Für den persönlichen Gebrauch ist es nicht unbedingt notwendig, diese Funktion zu nutzen.
+
+
+
+![proton](assets/notext/34.webp)
+
+
+
+Auf der Registerkarte "*Verschlüsselung und Schlüssel*" können Sie Ihre E-Mail-Verschlüsselungsoptionen verwalten. Für unerfahrene Benutzer ist es im Allgemeinen nicht notwendig, die Einstellungen in diesem Bereich zu ändern.
+
+
+
+![proton](assets/notext/35.webp)
+
+
+
+Und schließlich können Sie auf der Registerkarte "*IMAP/SMTP*" eine Brücke für die Verwendung von ProtonMail mit E-Mail-Programmen wie Outlook oder Apple Mail einrichten.
+
+
+
+![proton](assets/notext/36.webp)
+
+
+
+Um zur Startseite Ihrer Mailbox zurückzukehren, klicken Sie auf die Schaltfläche "*Posteingang*" in der oberen linken Ecke.
+
+
+
+![proton](assets/notext/37.webp)
+
+
+
+## Verwendung Ihres Proton-Briefkastens
+
+
+
+Das Versenden einer E-Mail ist sehr einfach: Klicken Sie einfach auf die Schaltfläche "*Neue Nachricht*" in der oberen linken Ecke.
+
+
+
+![proton](assets/notext/38.webp)
+
+
+
+Geben Sie in das Feld "*An*" die E-Mail-Adresse des Empfängers Address ein.
+
+
+
+![proton](assets/notext/39.webp)
+
+
+
+Geben Sie in das Feld "*Betreff*" den Betreff Ihrer E-Mail ein.
+
+
+
+![proton](assets/notext/40.webp)
+
+
 
 Schreiben Sie Ihre Nachricht.
-Klicken Sie abschließend auf den "*Senden*" Button, um Ihre E-Mail zu versenden.
+
+
 
 ![proton](assets/notext/41.webp)
 
-Sie finden dann Ihre gesendeten Nachrichten im "*Gesendet*" Tab.
+
+
+Klicken Sie abschließend auf die Schaltfläche "*Senden*", um Ihre E-Mail zu versenden.
+
+
 
 ![proton](assets/notext/42.webp)
 
-Der "*Posteingang*" Tab enthält die E-Mails, die Sie erhalten haben.
+
+
+Sie können Ihre gesendeten Nachrichten dann auf der Registerkarte "*Gesendet*" finden.
+
+
 
 ![proton](assets/notext/43.webp)
 
-Sie können Ihre E-Mails lesen, indem Sie auf sie klicken, und sie dann in die verschiedenen Ordner, die Sie erstellt haben, organisieren.
+
+
+Die Registerkarte "*Posteingang*" enthält die E-Mails, die Sie erhalten haben.
+
+
 
 ![proton](assets/notext/44.webp)
 
-## Anmelden bei Ihrem Proton Mail-Postfach
 
-Wie bereits erwähnt, haben Sie die Möglichkeit, Ihr ProtonMail-Postfach entweder über die Webversion, durch Herunterladen der Desktop-Software oder über die mobile App zu nutzen. Um die Software herunterzuladen, können Sie die offizielle Seite besuchen: https://proton.me/mail/download
 
-Wenn Sie es vorziehen, nur die Webversion von ProtonMail zu nutzen, sollten Sie die Seite zu Ihren Browser-Favoriten hinzufügen, um in Zukunft leichter darauf zugreifen zu können und Phishing-Versuche zu vermeiden.
+Sie können Ihre E-Mails lesen, indem Sie sie anklicken, und sie dann in den verschiedenen von Ihnen erstellten Ordnern anordnen.
 
-Um darauf zuzugreifen, gehen Sie zur folgenden URL: https://account.proton.me/mail
+
 
 ![proton](assets/notext/45.webp)
 
-Geben Sie Ihren Benutzernamen und Ihr Passwort ein, dann klicken Sie auf den "*Anmelden*" Button. Wenn Sie die Zwei-Faktor-Authentifizierung (2FA) aktiviert haben, werden Sie auch aufgefordert, die 6 dynamischen Ziffern einzugeben, die von Ihrer App generiert wurden.
+
+
+## Verbindung zu Ihrem Proton-Postfach
+
+
+
+Wie bereits erwähnt, können Sie Ihr ProtonMail-Postfach entweder über die Webversion, durch Herunterladen der Desktop-Software oder über die mobile Anwendung nutzen. Um die Software herunterzuladen, besuchen Sie bitte die offizielle Website: https://proton.me/mail/download
+
+
+
+Wenn Sie es vorziehen, nur die Webversion von ProtonMail zu verwenden, denken Sie daran, die Seite in Ihrem Browser als Lesezeichen zu speichern, um in Zukunft leichter darauf zugreifen zu können und um Phishing-Versuche zu vermeiden.
+
+
+
+Sie können sie unter folgender URL aufrufen: https://account.proton.me/mail
+
+
 
 ![proton](assets/notext/46.webp)
 
-Sie gelangen zurück zu Ihrem ProtonMail-Posteingang.
+
+
+Geben Sie Ihren Benutzernamen und Ihr Passwort ein und klicken Sie dann auf die Schaltfläche "*Anmelden*". Wenn Sie die Zwei-Faktor-Authentifizierung (2FA) aktiviert haben, werden Sie außerdem aufgefordert, die 6 dynamischen Ziffern einzugeben, die von Ihrer Anwendung generiert werden.
+
+
 
 ![proton](assets/notext/47.webp)
+
+
+
+Sie kehren zu Ihrem ProtonMail-Posteingang zurück.
+
+
+
+![proton](assets/notext/48.webp)

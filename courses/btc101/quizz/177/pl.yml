@@ -1,8 +1,8 @@
-question: Jakie było ważne wydarzenie w świecie kryptowalut w 2017 roku?
-answer: Uruchomienie tysięcy początkowych ofert monet (ICO).
+question: Jaki jest jeden z powodów, dla których Bitcoin nie jest bańką, która zniknie?
+answer: Ponieważ jest to waluta używana na całym świecie.
 wrong_answers:
-  - Zakaz Bitcoin.
-  - Utworzenie Bitcoin.
-  - Zniknięcie wszystkich kryptowalut.
+  - Ponieważ w rzeczywistości nie jest nigdzie używany.
+  - Ponieważ jest kontrolowany przez władze centralne.
+  - Ponieważ jest łatwy do podrobienia.
 explanation: >-
 reviewed: true

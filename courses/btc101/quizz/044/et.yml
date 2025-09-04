@@ -1,11 +1,10 @@
-question: Mis võib olla liiga kiire devalveerimise või usalduse kaotuse tagajärg füüsilises valuutas?
-answer: See võib viia hüperinflatsioonini.
+question: Mis on 2% inflatsiooni mõju ostujõule viie aasta jooksul?
+answer: Kaotate 10% oma ostujõust.
 wrong_answers:
-  - See võib viia deflatsioonini.
-  - See võib viia stabiilse majanduseni.
-  - See võib viia valuuta väärtuse tõusuni.
+  - Kaotate 2% oma ostujõust.
+  - Kaotate 5% oma ostujõust.
+  - Kaotate 20% oma ostujõust.
 explanation: |
-  Liiga kiire devalveerimine või usalduse kaotus füüsilises valuutas
-  võib viia hüperinflatsioonini. See on olukord, kus kaupade ja teenuste hinnad
-  tõusevad äärmiselt kiiresti, tihti viies majandusliku ebastabiilsuseni.
+  2% inflatsiooni korral kaotate igal aastal 2% oma ostujõust, mis
+  viie aasta peale kokku teeb 10%.
 reviewed: true

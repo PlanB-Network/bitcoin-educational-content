@@ -22,7 +22,7 @@ Kunjungi [btcmap.org](https://btcmap.org/):
 
 
 
-Tersedia di :
+Tersedia di:
 
 
 
@@ -165,9 +165,9 @@ Akhirnya,
 
 - 1: Centang kotak ini jika Anda hanya ingin mengonfirmasi bahwa informasi dalam file tersebut adalah yang terbaru (dalam hal ini, langsung ke langkah 4)
 - 2: Tunjukkan di sini informasi apa, jika ada, yang tidak benar, dan koreksi apa yang Anda usulkan
-- 3 : Jelaskan di sini bagaimana Anda memperoleh informasi tersebut (mengunjungi, menelepon...)
+- 3: Jelaskan di sini bagaimana Anda memperoleh informasi tersebut (mengunjungi, menelepon...)
 - 4: Lanjutkan ke verifikasi captcha (peka huruf besar/kecil)
-- 5 : Klik "Kirim Laporan" untuk mengirimkan saran Anda
+- 5: Klik "Kirim Laporan" untuk mengirimkan saran Anda
 
 
 
@@ -307,9 +307,9 @@ BTC Map memungkinkan Anda untuk [menambahkan komunitas Anda sendiri] (https://bt
   - "Saya adalah pemilik bisnis": Saya adalah manajer bisnis
   - "Saya berkunjung sebagai pelanggan": Saya mengunjungi tempat ini sebagai pelanggan
   - "metode lain
-- 12 : Email Anda Address jika platform memerlukan informasi lebih lanjut
+- 12: Email Anda Address jika platform memerlukan informasi lebih lanjut
 - 13: Pemeriksaan captcha (peka terhadap huruf besar/kecil)
-- 14 : Klik "Kirim Lokasi" untuk mengirim daftar Anda
+- 14: Klik "Kirim Lokasi" untuk mengirim daftar Anda
 
 
 

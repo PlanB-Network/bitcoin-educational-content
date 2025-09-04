@@ -1,0 +1,9 @@
+question: Mikä on verkon perustehtävä tietotekniikassa?
+answer: Tietojen käyttöönotto Exchange
+wrong_answers:
+  - Tietokoneen muistin lisääminen
+  - Luo varmuuskopioita
+  - Tietokonelaitteiden Exchange:n käyttöönotto
+explanation: |
+  Verkko yhdistää useita laitteita ja mahdollistaa tiedon liikkumisen ja Exchange:n.
+reviewed: false

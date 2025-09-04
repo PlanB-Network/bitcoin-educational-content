@@ -1,0 +1,9 @@
+question: Ni igiki Bastiat anegura ku bijanye n’ingene Leta igira ico ikoze birenze umutekano n’ubutungane?
+answer: Bitera imbere uduteka kandi bikagirira nabi sosiyete sivile .
+wrong_answers:
+  - Bituma habaho ugusangira neza ubutunzi .
+  - Bituma haba amahoro mu kibano kandi bikagabanya amakimbirane .
+  - Bitanga icemezo co gusangira ubutunzi mu buryo bubereye .
+explanation: |
+  Bastiat abona ko kwivanga mu vyo Leta ikora birenze urugero bituma umuntu agira uduteka kandi bikagirira nabi sosiyete sivile mu kugabanya imigambi y’abikorera ku giti cabo.
+reviewed: false

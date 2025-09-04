@@ -1,0 +1,9 @@
+question: 建议使用哪条命令来分析 Linux 系统上的活动 TCP 和 UDP 连接？
+answer: ss
+wrong_answers:
+  - arp
+  - IP 链接
+  - 如果
+explanation: |
+  ss 命令可替代 netstat 快速显示所有活动网络连接。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa tujuan dari flag "ACK" dalam segmen TCP?
+answer: Untuk mengakui penerimaan segmen
+wrong_answers:
+  - Untuk memulai penutupan koneksi
+  - Untuk mengenkripsi aliran data yang dipertukarkan
+  - Untuk mengidentifikasi port layanan yang digunakan
+explanation: |
+  Ketika diset, flag ACK mengonfirmasi bahwa segmen telah berhasil diterima dan menentukan nomor urut yang diharapkan berikutnya.
+reviewed: false

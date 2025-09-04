@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y’ibikorwa vy’intango mu citegererezo ca TCP/IP?
+answer: Gucungera ubuhana hagati y'ibice
+wrong_answers:
+  - Gushiramwo ubutumwa bw'urubuga ubwabwo
+  - Gukwiragiza aderesi za IP ku bashitsi bari kure
+  - Suzuma uburebure bwose bw'amapakete ya IP
+explanation: |
+  Ivy’intango vy’ibikorwa bisobanura ubutumwa Interface hagati y’ibice bitandukanye, bikaba bishoboza guhanahana amakuru ku mbuga ngurukanabumenyi gushingwa, kubungabungwa canke guhagarara.
+reviewed: false

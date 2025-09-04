@@ -1,11 +1,10 @@
-question: Jaký je význam individuální odpovědnosti v Bitcoinu?
-answer: Je to klíčové, protože máte na starosti zálohy.
+question: Jaká byla první zaznamenaná transakce Bitcoinu?
+answer: Transakce 10 BTC mezi Satoshi Nakamoto a Hal Finney.
 wrong_answers:
-  - Je to zásadní, protože musíte těžit bitcoiny.
-  - Je to zásadní pro nákup bitcoinů.
-  - Je to klíčové, protože máte na starosti téma peněženky.
+  - Transakce 10 000 BTC za 2 pizzy.
+  - Transakce 1 BTC mezi Satoshi Nakamoto a Hal Finney.
+  - Transakce 10 000 BTC mezi Laszlo Hanyecz a Hal Finney.
 explanation: |
-  V Bitcoinu jde finanční suverenita ruku v ruce s
-  individuální odpovědností, protože musíte sami zajistit
-  opatrování svých prostředků tím, že budete dodržovat doporučené postupy pro zálohování.
+  První zaznamenaná transakce Bitcoinu byla transakce
+  10 BTC mezi Satoshi Nakamoto a Hal Finney.
 reviewed: true

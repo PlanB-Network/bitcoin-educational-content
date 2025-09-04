@@ -1,0 +1,9 @@
+question: Hva er TCP-protokollens hovedrolle i TCP/IP-modellen?
+answer: Sikre pålitelig og ryddig dataoverføring
+wrong_answers:
+  - Krypter nettverkskommunikasjon
+  - Tilordne IP-adresser til maskiner
+  - Fragmentering av datagrammer på fysisk nivå
+explanation: |
+  TCP sikrer pålitelig dataoverføring ved å verifisere integritet, opprettholde orden og håndtere gjenoppretting i tilfelle tap.
+reviewed: false

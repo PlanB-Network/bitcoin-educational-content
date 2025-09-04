@@ -380,4 +380,4 @@ GrapheneOS - это кроличья нора, в которую можно ле
 - [Мастер-класс по настройкам GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Видео от 'The Privacy Wayfinder'
 - [Общий подкаст GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Подкаст от 'Watchman Privacy'
 
-полное признание : https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+полное признание: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md

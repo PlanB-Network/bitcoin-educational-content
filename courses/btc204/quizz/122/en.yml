@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   P2P transport V2 incorporates a layer of opportunistic encryption to enhance the privacy and security of communications between nodes.
 
-reviewed: false
+reviewed: true

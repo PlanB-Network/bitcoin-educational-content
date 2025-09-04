@@ -1,0 +1,9 @@
+question: Perintah mana yang dapat digunakan untuk meminta server DNS untuk mendapatkan IP Address dari sebuah domain?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup adalah alat bantu kueri DNS untuk menyelesaikan nama domain menjadi alamat IP.
+reviewed: false

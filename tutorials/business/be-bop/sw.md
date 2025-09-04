@@ -760,7 +760,7 @@ Nenda kwa `Msimamizi > Bidhaa > Bidhaa` ili kuongeza au kurekebisha bidhaa. Jaza
 
 - Bei Kiasi**: bei ya bidhaa (k.m. `25.00`).
 - Sarafu ya Bei**: sarafu (EUR, USD, BTC, n.k.).
-- Bidhaa maalum** :
+- Bidhaa maalum**:
   - hii ni bidhaa ya bure.
   - hii ni bidhaa ya kulipa-unachotaka.
 
@@ -773,7 +773,7 @@ Nenda kwa `Msimamizi > Bidhaa > Bidhaa` ili kuongeza au kurekebisha bidhaa. Jaza
 
 
 - Bidhaa moja (`iliyojitegemea`)**: nyongeza moja tu inawezekana kwa kila agizo (k.m. mchango, tikiti ya kuingia).
-- Bidhaa zenye tofauti** :
+- Bidhaa zenye tofauti**:
   - Usiangalie `Inayojitegemea`.
   - Angalia `Bidhaa ina tofauti nyepesi (hakuna tofauti ya hisa)`.
   - Ongeza:
@@ -906,7 +906,7 @@ Unaweza kuongeza kurasa zingine kama inavyohitajika:
 
 
 
-Nenda kwa : `Msimamizi > Bidhaa > Muundo`. Unaweza kubinafsisha taswira ya Elements ya tovuti yako:
+Nenda kwa: `Msimamizi > Bidhaa > Muundo`. Unaweza kubinafsisha taswira ya Elements ya tovuti yako:
 
 
 
@@ -932,7 +932,7 @@ Nenda kwa : `Msimamizi > Bidhaa > Muundo`. Unaweza kubinafsisha taswira ya Eleme
 
 
 - Wasilisha katika eneo la kijivu chini ya bar ya juu
-- Ina ufikiaji wa haraka wa : `Config`, `Mipangilio ya Malipo`, `Muamala`, `Udhibiti wa Njia`, `Wijeti`, n.k.
+- Ina ufikiaji wa haraka wa: `Config`, `Mipangilio ya Malipo`, `Muamala`, `Udhibiti wa Njia`, `Wijeti`, n.k.
 - Wakurugenzi pekee
 
 
@@ -1004,7 +1004,7 @@ Mifano ya wijeti zinazopatikana:
 - Changamoto**: changamoto au misheni
 - Lebo**: kategoria au maneno muhimu
 - Vitelezi**: majukwaa ya picha
-- Specifications** : Specifications tables
+- Specifications**: Specifications tables
 - Fomu**: fomu (mawasiliano, maoni, n.k.)
 - Muda uliosalia**: vipima muda
 - Matunzio**: matunzio ya picha
@@ -1033,7 +1033,7 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Vigezo vya sasa** :
+**Vigezo vya sasa**:
 
 
 
@@ -1046,7 +1046,7 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 
 
 
-**Faida** :
+**Faida**:
 
 
 
@@ -1103,7 +1103,7 @@ Vichujio hivi hurahisisha utafutaji wa haraka na usimamizi unaolengwa.
 
 
 
-Kwa kubofya agizo, unaweza kufikia faili kamili iliyo na :
+Kwa kubofya agizo, unaweza kufikia faili kamili iliyo na:
 
 
 
@@ -1328,7 +1328,7 @@ Kila sehemu ya tovuti inaweza kubadilishwa kwa kujitegemea:
 
 - Kichwa**: upau wa kusogeza wa juu
 - Mwili**: maudhui kuu
-- Kijachini** : chini ya ukurasa
+- Kijachini**: chini ya ukurasa
 
 
 
@@ -1396,8 +1396,8 @@ Ili kufanya barua pepe ziwe na nguvu, weka vigeu kama vile:
 
 
 
-- `{orderNumber}}` : nafasi yake kuchukuliwa na nambari halisi ya agizo
-- `{invoiceLink}}` : kiungo cha Invoice
+- `{orderNumber}}`: nafasi yake kuchukuliwa na nambari halisi ya agizo
+- `{invoiceLink}}`: kiungo cha Invoice
 - `{websiteLink}}`: URL ya tovuti yako
 
 
@@ -1688,7 +1688,7 @@ Kila jukumu lina:
 
 
 
-Katika menyu ile ile `Msimamizi > Mipangilio > ARM`, ongeza mtumiaji na :
+Katika menyu ile ile `Msimamizi > Mipangilio > ARM`, ongeza mtumiaji na:
 
 
 
@@ -1779,7 +1779,7 @@ Chaguzi mbili za hali ya juu zinapatikana:
 
 
 
-- Msamaha wa VAT** : unatumika kwa uhalalishaji (NGOs, wageni...)
+- Msamaha wa VAT**: unatumika kwa uhalalishaji (NGOs, wageni...)
 - Punguzo la zawadi**: punguzo la kipekee kwa maoni ya lazima
 
 

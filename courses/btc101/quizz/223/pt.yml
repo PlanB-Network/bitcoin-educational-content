@@ -1,11 +1,10 @@
-question: O que é o trilema da blockchain?
-answer: Um protocolo baseado em blockchain só pode satisfazer dois dos critérios de descentralização, segurança e escalabilidade.
+question: O que a Lightning Network torna possível?
+answer: Realizar transações entre indivíduos que não possuem uma conexão direta de canal.
 wrong_answers:
-  - Um protocolo baseado em blockchain só pode satisfazer um dos critérios de descentralização, segurança e escalabilidade.
-  - Um protocolo baseado em blockchain pode satisfazer todos os critérios de descentralização, segurança e escalabilidade.
-  - Um protocolo baseado em blockchain não pode satisfazer nenhum dos critérios de descentralização, segurança e escalabilidade.
+  - Criar conexões de canal diretas apenas com exchanges centralizadas.
+  - Criar conexões de canal que requerem múltiplas confirmações para qualquer transação.
+  - Estabelecer conexões de canal diretas que são limitadas apenas a grandes transações.
 explanation: |
-  O trilema da blockchain refere-se ao desafio de que um
-  protocolo baseado em blockchain só pode satisfazer dois critérios entre
-  descentralização, segurança e escalabilidade.
+  A Lightning Network torna possível realizar transações entre
+  indivíduos que não possuem uma conexão direta de canal.
 reviewed: true

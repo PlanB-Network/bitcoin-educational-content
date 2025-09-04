@@ -1,0 +1,9 @@
+question: Was ist die Einheit der Daten, die durch den Transport Layer für TCP fließen?
+answer: Segment
+wrong_answers:
+  - Datagramm
+  - Rahmen
+  - Stream
+explanation: |
+  Beim Transport Layer mit TCP wird die Dateneinheit als Segment bezeichnet, während UDP den Begriff Paket verwendet.
+reviewed: false

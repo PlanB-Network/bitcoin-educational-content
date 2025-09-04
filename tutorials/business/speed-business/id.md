@@ -22,7 +22,7 @@ Adopsi Bitcoin di seluruh dunia didasarkan pada kasus penggunaan yang nyata dala
 
 
 
-Speed memiliki berbagai fitur untuk mencakup aspek keuangan bisnis Anda. Anda akan menemukan :
+Speed memiliki berbagai fitur untuk mencakup aspek keuangan bisnis Anda. Anda akan menemukan:
 
 
 

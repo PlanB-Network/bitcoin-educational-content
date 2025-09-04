@@ -1,9 +1,9 @@
-question: Hva er prosessen der gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk?
-answer: Proof of work
+question: Hva er størrelsen på Bitcoin-blockchainen?
+answer: Omtrent 500GB
 wrong_answers:
-  - Proof of stake
-  - Proof of authority
-  - Proof of burn
+  - Omtrent 100GB
+  - Omtrent 1TB
+  - Omtrent 2TB
 explanation: >-
-  Gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk gjennom en prosess kalt proof of work. Dette innebærer å løse et kryptografisk puslespill.
+  Bitcoin-blockchainen er omtrent 500GB stor.
 reviewed: false

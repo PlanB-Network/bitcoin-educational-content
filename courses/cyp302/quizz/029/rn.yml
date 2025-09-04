@@ -1,0 +1,9 @@
+question: None igikorwa ca XOR gisobanura iki iyo gikoreshejwe hagati y’ibice bibiri?
+answer: Igarura 1 iyo ibice bitandukanye, ahandi ho igarura 0
+wrong_answers:
+  - Igarura 1 gusa iyo ibice vyose bibiri ari 1
+  - Yongerako ibice maze igasubiza umubare
+  - Igihe cose igarura 0 utitaye ku gisubizo
+explanation: |
+  Igikor ca XOR (canke exclusive canke) kizana 1 iyo izo bits zibiri zitandukanye (0 na 1 canke 1 na 0) na 0 iyo zimwe.
+reviewed: false

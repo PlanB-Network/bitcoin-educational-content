@@ -1,0 +1,9 @@
+question: Ni kuki ama bitcoins agurwa biciye ku masoko ya P2P akenshi azimvye kuruta ayo agurwa ku mbuga zitegekanijwe?
+answer: Ibindi bibazo, amahera yo gucuruza, n’amahera y’ubuzima bwite.
+wrong_answers:
+  - Guhinduka kw'isoko, ingorane zo gukoresha amahera kabiri, no kwubahiriza amategeko.
+  - Amafaranga yo kwiyandikisha, amahitamwo make, n’igihe kirekire co kwemeza.
+  - Amafaranga yo kwiyandikisha, amabwirizwa akomeye, n'umutekano muto.
+explanation: |
+  Bitcoins zigurishwa ku mbuga za P2P muri rusangi zirazimvye kuruta izo zivuye ku mbuga zitegekanijwe. Ivyo bihembo biterwa n’ibintu vyinshi: uwugurisha afata ingingo nyinshi, na bo nyene bategerezwa kwishura ibindi, kandi Exchange itanga urugero rwo hejuru rw’ubuzima bwite ku muguzi.
+reviewed: false

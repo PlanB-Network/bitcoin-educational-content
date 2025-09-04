@@ -1,0 +1,8 @@
+question: Ni igikorwa ikihe Bitcoin ihatira amashirahamwe, amashure makuru, abajejwe gucungera amategeko, n’abantu ku giti cabo gukora?
+answer: Kugira ngo babishire mu muzirikanyi.
+wrong_answers:
+  - Kugira ngo uvyirengagize.
+  - Kugira ngo babibuze.
+  - Kugira ngo bibe icaha.
+explanation: >-
+reviewed: true

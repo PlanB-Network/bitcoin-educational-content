@@ -39,7 +39,7 @@ It is used for a variety of purposes:
 The tool is widely used by a wide range of users, including system administrators, IT auditors and pentesters. For analyses, the tool is based on standards such as **CIS Benchmark, NIST, NSA, OpenSCAP** and on official recommendations from **Debian, Gentoo, Red Hat**.
 
 
-The project is available at this address on **Github** :
+The project is available at this address on **Github**:
 
 
 
@@ -62,7 +62,7 @@ There are several ways to download and install Lynis. Choose the one you prefer 
 This installation mode allows you to use the **lynis** command from anywhere on the system, unlike installation from source, where you need to be located in the directory.
 
 
-Connect to your server via SSH and enter the following commands to install Lynis :
+Connect to your server via SSH and enter the following commands to install Lynis:
 
 
 ```
@@ -161,7 +161,7 @@ To display the available commands, simply enter the following command:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -192,7 +192,7 @@ This is what you get:
 ![Image](assets/fr/022.webp)
 
 
-If you wish to display all the options, you must enter :
+If you wish to display all the options, you must enter:
 
 
 ```
@@ -259,7 +259,7 @@ Here, we can see that Lynis recommends installing **fail2ban**:
 ![Image](assets/fr/057.webp)
 
 
-In the "**Boot and services**" section, we see that service protection via *systemd* could be improved. On the positive side, Grub2 is present and there are no problems with permissions on :
+In the "**Boot and services**" section, we see that service protection via *systemd* could be improved. On the positive side, Grub2 is present and there are no problems with permissions on:
 
 
 ![Image](assets/fr/029.webp)
@@ -451,7 +451,7 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 ```
 
 
-Some information about the installed packages :
+Some information about the installed packages:
 
 
 
@@ -470,7 +470,7 @@ Let's take a look at the SSH recommendations. They are listed below. Don't worry
 ![Image](assets/fr/034.webp)
 
 
-Let's take a closer look at my current **SSH** configuration in :**/etc/ssh/sshd_config**
+Let's take a closer look at my current **SSH** configuration in:**/etc/ssh/sshd_config**
 
 
 ![Image](assets/fr/018.webp)
@@ -479,7 +479,7 @@ Let's take a closer look at my current **SSH** configuration in :**/etc/ssh/sshd
 The configuration suggested below can still be optimized, but gives you a good base. *Please note that I've removed a number of comments for greater readability*.
 
 
-We will :
+We will:
 
 
 
@@ -522,7 +522,7 @@ PubkeyAuthentication yes
 
 
 
-- Retain password authentication :
+- Retain password authentication:
 
 
 ```
@@ -606,7 +606,7 @@ Banner none
 It is worth noting that in some jurisdictions, sending a message prior to authentication may be a prerequisite for legal protection. The contents of the specified file are transmitted to the remote user before connection authorization is given. This option needs to be configured, as by default no message will be displayed.
 
 
-In images, this gives :
+In images, this gives:
 
 
 ![Image](assets/fr/019.webp)

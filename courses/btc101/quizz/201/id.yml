@@ -1,10 +1,9 @@
-question: Apa tujuan dari regulasi KYC?
-answer: Untuk memerangi pendanaan terorisme, penghindaran pajak, dan pencucian uang.
+question: Apa salah satu konsekuensi potensial dari tidak mengikuti peraturan negara Anda saat membeli Bitcoin?
+answer: Anda mungkin menempatkan diri Anda dalam risiko.
 wrong_answers:
-  - Untuk meningkatkan harga Bitcoin.
-  - Untuk mengontrol suplai Bitcoin.
-  - Untuk mencegah orang membeli Bitcoin.
+  - Anda mungkin meningkatkan harga Bitcoin.
+  - Anda mungkin mengontrol pasokan Bitcoin.
+  - Anda mungkin mencegah orang lain membeli Bitcoin.
 explanation: >-
-  Teks menjelaskan bahwa regulasi Know Your Customer (KYC) mengharuskan pengguna
-  untuk menyediakan identifikasi guna memerangi pendanaan terorisme, penghindaran pajak, dan pencucian
-  uang.
+  Teks menyebutkan bahwa tidak mengikuti peraturan negara Anda
+  saat membeli Bitcoin dapat menempatkan Anda dalam risiko.

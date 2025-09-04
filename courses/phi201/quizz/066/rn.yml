@@ -1,0 +1,9 @@
+question: Ni igiki Voltaire avuga ku bijanye n’isano riri hagati y’ubudandaji n’ukwihanganira idini?
+answer: Ubudandaji buraremesha abantu gukorana no kwubahiriza ivyiyumviro vyabo, harimwo n’ivyo bemera mw’idini, biciye mu gukurikirana inyungu rusangi.
+wrong_answers:
+  - Ubudandaji buhuza abantu biciye mu kubona isi basangiye bishingiye ku buryo bwa siyansi.
+  - Ubudandaji buratuma umuntu agira ubutunzi n’ubunebwe.
+  - Ibindi bisubizo vyose ni ukuri.
+explanation: |
+  Voltaire avuga ko ubudandaji butera imbere mu kwihanganira idini mu guhimiriza abantu b’imyizere itandukanye gukorana no kwubahiriza ivyiyumviro vyabo mu gukurikirana inyungu z’ubutunzi basangiye.
+reviewed: true

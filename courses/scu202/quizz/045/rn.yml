@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe ca macOS gishoboza gushiramwo amakuru yuzuye kuri disiki?
+answer: Ububiko bwa dosiye
+wrong_answers:
+  - Ubuhinga bwa disiki
+  - Urufunguzo rwa iCloud
+  - BitLocker
+explanation: |
+  FileVault ni umuti w'ububiko bwa disiki kavukire winjijwe muri macOS.
+reviewed: false

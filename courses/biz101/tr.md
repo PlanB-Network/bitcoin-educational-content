@@ -807,6 +807,7 @@ Bu ikinci senaryoda, büyük ölçüde **her bir paydaşın Bitcoin varlığına
 - MicroStrategy gibi halka açık şirketler** kurumsal hazinelerinin önemli bir kısmını Bitcoin'ya dönüştürerek emsal teşkil etmiş ve kurumsal sermaye tahsis stratejilerinde küresel bir değişim olduğunu göstermiştir. 2024 sonbaharında, çok sayıda başka şirket de bu eğilimi takip ederek daha da meşrulaştırdı.
 
 
+Hazinede en fazla bitcoine sahip şirketlerin güncellenmiş listesini ve tutarlarını sitede keşfedin: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### İşletmeler tarafından tutulan Bitcoin'nin vergilendirilmesi
 
 

@@ -1,0 +1,9 @@
+question: DNS سرورها معمولاً در یک سیستم لینوکس کجا پیکربندی می‌شوند؟
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  فایل /etc/resolv.conf سرورهای DNS و دامنه‌های جستجو برای حل نام را مشخص می‌کند.
+reviewed: false

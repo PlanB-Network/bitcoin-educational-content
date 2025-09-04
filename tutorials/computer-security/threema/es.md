@@ -436,7 +436,7 @@ Enhorabuena, ya estás al día en el uso de la mensajería Threema, ¡una gran a
 
 
 
-También te recomendamos este otro tutorial, en el que te presentamos Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presentamos Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail:
 
 
 

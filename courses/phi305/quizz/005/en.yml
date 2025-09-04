@@ -1,0 +1,9 @@
+question: Which scientist believes that mathematics is the language of the universe?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo is famous for his assertion that "the book of nature is written in mathematical language". This vision has had a profound influence on modern science and rationalist philosophy, including that of Spinoza.
+reviewed: false

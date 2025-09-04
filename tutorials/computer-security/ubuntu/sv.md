@@ -16,12 +16,12 @@ Ett operativsystem (OS) är den huvudsakliga programvaran som hanterar alla dato
 
 
 
-- Förbättrad säkerhet** : Linux-distributioner är välkända för sin säkerhet och robusthet
+- Förbättrad säkerhet**: Linux-distributioner är välkända för sin säkerhet och robusthet
 - Ingen kostnad**: Ubuntu och de flesta Linux-distributioner är kostnadsfria
 - Stor gemenskap**: En grupp användare som är redo att hjälpa till via forum och handledning
 - Respekt för den personliga integriteten**: System med öppen källkod för ökad transparens
 - Enkelhet**: Användarvänlig Interface och enkel användning
-- Rikt ekosystem** : Omfattande katalog med programvara med öppen källkod
+- Rikt ekosystem**: Omfattande katalog med programvara med öppen källkod
 - Regelbunden support**: Säkra uppdateringar från Canonical
 
 
@@ -59,7 +59,7 @@ Ett operativsystem (OS) är den huvudsakliga programvaran som hanterar alla dato
 ### 3. Skapa en startbar USB-nyckel
 
 
-Du kan använda flera verktyg, till exempel Balena Etcher :
+Du kan använda flera verktyg, till exempel Balena Etcher:
 
 
 
@@ -257,7 +257,7 @@ sudo apt update
 
 
 - Ange ditt lösenord när du uppmanas att göra det
-- För att installera uppdateringar, skriv :
+- För att installera uppdateringar, skriv:
 
 
 ```bash
@@ -291,7 +291,7 @@ Andra webbläsare (Chrome, Brave, etc.) kan installeras via Software Manager ell
 Ubuntu levereras med LibreOffice-paketet (Writer för ordbehandling).
 
 
-Så här öppnar du den : Aktiviteter > Sök efter "LibreOffice Writer" eller klicka på ikonen om den visas i fältet.
+Så här öppnar du den: Aktiviteter > Sök efter "LibreOffice Writer" eller klicka på ikonen om den visas i fältet.
 
 
 Du kan skapa, redigera och spara dokument i en mängd olika format (inklusive .docx).
@@ -303,7 +303,7 @@ Du kan skapa, redigera och spara dokument i en mängd olika format (inklusive .d
 Programvaruhanterare (kallas "Ubuntu Software"): grafisk Interface för sökning och installation av program.
 
 
-Använd kommandot från Terminal :
+Använd kommandot från Terminal:
 
 
 ```bash

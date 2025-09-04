@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe gikora nk’urubibi hagati ya Internet n’urubuga rwawe rw’imbere mu nzu?
+answer: Modem-umurongozi
+wrong_answers:
+  - Ihindura rya Ethernet
+  - Serveri ya NAS
+  - Ubuhinga bwa USB
+explanation: |
+  Router ya modem ihuza urubuga rwa ISP n’urubuga rwawe rwo mu karere kandi igacungera ugutanga amaderesi IP yo mu karere.
+reviewed: false

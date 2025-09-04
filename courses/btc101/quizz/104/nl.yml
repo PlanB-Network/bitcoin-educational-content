@@ -1,12 +1,13 @@
-question: Wat is geen Mnemonic zin in de context van Bitcoin?
-answer: Een wachtwoord voor je Bitcoin Wallet.
+question: Waar staat KYC voor?
+answer: Ken uw klant.
 wrong_answers:
-  - Een lijst van 12 woorden uit een specifiek woordenboek.
-  - Een lijst van 24 woorden uit een specifiek woordenboek.
-  - Het geheim om toegang te krijgen tot je Bitcoin fonds.
+  - Bewaar je geld.
+  - Toets uw codes.
+  - Graag nakoming.
 explanation: |
-  Een Mnemonic zin in de context van Bitcoin is een lijst van 12
-  of 24 woorden waarmee je je Wallet kunt herstellen op elke
-  Bitcoin Wallet toepassing. Iedereen met toegang tot deze lijst
-  heeft ook toegang tot je bitcoins.
+  KYC of Know Your Customer verwijst naar de procedure die
+  bedrijven hanteren om de identiteit van hun klanten te verifiëren.
+  Dit wordt meestal gedaan om naleving van
+  regelgeving en om illegale activiteiten zoals
+  witwassen of fraude te voorkomen.
 reviewed: true

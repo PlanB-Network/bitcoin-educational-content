@@ -1,12 +1,11 @@
-question: Hva er problemet med de bysantinske generalene og hvordan løser Bitcoin det?
-answer: Det er et problem med å koordinere informasjon i et system der de ulike aktørene ikke kan stoles på. Bitcoin løser dette gjennom bruk av en blokkjede basert på Proof of Work med en flytende vanskelighetsgrad.
+question: Hva er den største fordelen med Bitcoin for personer som lever under finansiell undertrykkelse eller et diktatorisk regime?
+answer: Den tilbyr en form for finansiell frihet ved å unnslippe sensur og bankrestriksjoner
 wrong_answers:
-  - Det er et problem med å verifisere transaksjoner i et desentralisert nettverk. Bitcoin løser dette gjennom bruk av digitale signaturer.
-  - Det er et problem med å forhindre dobbeltutgifter i en digital valuta. Bitcoin løser dette gjennom bruk av en offentlig hovedbok.
-  - Det er et problem med å opprettholde konsensus i et desentralisert nettverk. Bitcoin løser dette gjennom bruk av en Proof of Stake-algoritme.
-explanation: |
-  Problemet med de bysantinske generalene er et klassisk problem innen distribuert databehandling,
-  som involverer å oppnå konsensus i et nettverk der noen av nodene kan være feilaktige
-  eller ondsinnede. Bitcoin løser dette problemet gjennom bruk av en blokkjede basert
-  på Proof of Work, som sikrer at alle noder er enige om tilstanden til transaksjonshistorikken.
+  - Den gir en stabil valuta
+  - Den muliggjør anonyme transaksjoner
+  - Den tilbyr høye avkastninger på investering
+explanation: >-
+  Bitcoin tilbyr en form for finansiell frihet ved å unnslippe sensur og
+  bankrestriksjoner. Dette er spesielt gunstig for personer som lever under
+  finansiell undertrykkelse eller et diktatorisk regime.
 reviewed: false

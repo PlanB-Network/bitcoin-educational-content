@@ -4,31 +4,31 @@ description: Täydellinen opas suunnitelmaan ₿ Verkko-oppaat GitHub Webin avul
 ---
 ![cover](assets/cover.webp)
 
-Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne :
+Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Sinulla on jo :
+Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
 - Ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
-Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon GitHubin verkkoversion avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Sen sijaan suosittelen, että tutustut johonkin näistä kahdesta muusta opetusohjelmasta, joissa kerron yksityiskohtaisesti noudatettavista ohjeista ja muutosten tekemisen vaiheista paikallisesta :
+Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon GitHubin verkkoversion avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Sen sijaan suosittelen, että tutustut johonkin näistä kahdesta muusta opetusohjelmasta, joissa kerron yksityiskohtaisesti noudatettavista ohjeista ja muutosten tekemisen vaiheista paikallisesta:
 
 
-- Kokeneet käyttäjät** :
+- Kokeneet käyttäjät**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Keskitason (GitHub Desktop)** :
+- Keskitason (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Edellytykset
 
-Edellytykset ennen opetusohjelman aloittamista :
+Edellytykset ennen opetusohjelman aloittamista:
 
 
 - Sinulla on [GitHub-tili](https://github.com/signup);
@@ -48,7 +48,7 @@ Kun kaikki on kunnossa ja sinulla on haarautunut Plan ₿ Network -arkisto, voit
 
 ## 1 - Luo uusi haara
 
-Avaa selaimesi ja siirry Plan ₿ Network -arkiston haarukointisivulle. Tämä on GitHubiin perustamasi haarautuminen. Haarautumisesi URL-osoitteen pitäisi näyttää tältä: `https://github.com/[käyttäjätunnuksesi]/bitcoin-educational-content` :
+Avaa selaimesi ja siirry Plan ₿ Network -arkiston haarukointisivulle. Tämä on GitHubiin perustamasi haarautuminen. Haarautumisesi URL-osoitteen pitäisi näyttää tältä: `https://github.com/[käyttäjätunnuksesi]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -78,7 +78,7 @@ Sinun on löydettävä haaran tiedostoista sopiva alikansio opetusohjelmasi sijo
 
 ![GITHUB](assets/fr/05.webp)
 
-Luo `wallet`-kansioon uusi hakemisto, joka on varattu nimenomaan opetusohjelmallesi. Tämän kansion nimessä tulisi olla selvästi esittelyssä käsiteltävä ohjelmisto, ja sanojen välissä tulisi käyttää väliviivoja. Esimerkissäni kansio on nimeltään `green-wallet`. Napsauta "*Add File*" ja sitten "*Create new file*" :
+Luo `wallet`-kansioon uusi hakemisto, joka on varattu nimenomaan opetusohjelmallesi. Tämän kansion nimessä tulisi olla selvästi esittelyssä käsiteltävä ohjelmisto, ja sanojen välissä tulisi käyttää väliviivoja. Esimerkissäni kansio on nimeltään `green-wallet`. Napsauta "*Add File*" ja sitten "*Create new file*":
 
 ![GITHUB](assets/fr/06.webp)
 
@@ -109,7 +109,7 @@ bitcoin-educational-content/
 
 ## 3 - Täytä YAML-tiedosto
 
-Aloitetaan YAML-tiedostosta. Kirjoita uuden tiedoston luomista koskevaan kenttään `tutorial.yml` :
+Aloitetaan YAML-tiedostosta. Kirjoita uuden tiedoston luomista koskevaan kenttään `tutorial.yml`:
 
 ![GITHUB](assets/fr/08.webp)
 
@@ -146,32 +146,32 @@ proofreading:
 
 Tässä ovat pakolliset kentät:
 
-- **id** : UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
+- **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id** : Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
-- **tags** : 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Tutoriaalin vaikeustaso, valittavissa seuraavista:
+- **level**: Tutoriaalin vaikeustaso, valittavissa seuraavista:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
+- **original_language**: Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
 
-- **proofreading** : Tietoja oikolukuprosessista. Täytä ensimmäinen osa, koska oman oppaan oikoluku lasketaan ensimmäiseksi tarkistukseksi:
-    - **language** : Oikoluvun kielikoodi (esimerkiksi `fr`, `en`, jne.).
-    - **last_contribution_date** : Tämän päivän päivämäärä.
-    - **urgency** : 1
-    - **contributor_names** : Sinun GitHub ID.
-    - **reward** : 0
+- **proofreading**: Tietoja oikolukuprosessista. Täytä ensimmäinen osa, koska oman oppaan oikoluku lasketaan ensimmäiseksi tarkistukseksi:
+    - **language**: Oikoluvun kielikoodi (esimerkiksi `fr`, `en`, jne.).
+    - **last_contribution_date**: Tämän päivän päivämäärä.
+    - **urgency**: 1
+    - **contributor_names**: Sinun GitHub ID.
+    - **reward**: 0
 
-Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta :
+Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -214,7 +214,7 @@ Lisää otsikko ja kuvaus ja varmista, että toimitus tehdään haaraan, jonka l
 
 ## 4 - Alikansioiden luominen kuvia varten
 
-Napsauta uudelleen "*Add File*" ja sitten "*Create new file*" :
+Napsauta uudelleen "*Add File*" ja sitten "*Create new file*":
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -236,7 +236,7 @@ Tarkista uudelleen, että olet oikeassa haarassa, ja napsauta sitten "*Commit ch
 
 ## 5 - Markdown-tiedoston luominen
 
-Nyt luodaan tiedosto, joka isännöi opetusohjelmaasi, ja nimetään kielikoodin mukaan, esimerkiksi `fr.md`, jos kirjoitamme ranskaksi. Siirry opetusohjelmasi kansioon :
+Nyt luodaan tiedosto, joka isännöi opetusohjelmaasi, ja nimetään kielikoodin mukaan, esimerkiksi `fr.md`, jos kirjoitamme ranskaksi. Siirry opetusohjelmasi kansioon:
 
 ![GITHUB](assets/fr/16.webp)
 
@@ -263,7 +263,7 @@ Täytä opetusohjelmasi nimi ja lyhyt kuvaus:
 
 ![GITHUB](assets/fr/20.webp)
 
-Lisää sitten polku kansikuvaan opetusohjelmasi alussa. Tee tämä merkitsemällä :
+Lisää sitten polku kansikuvaan opetusohjelmasi alussa. Tee tämä merkitsemällä:
 
 ```
 ![cover-green](assets/cover.webp)
@@ -301,11 +301,11 @@ Kuvien pitäisi nyt ilmestyä kansioon.
 
 ## 7 - Ohjeen kirjoittaminen
 
-Jatka oppaasi kirjoittamista merkitsemällä sisältösi Markdown-tiedostoon kielikoodilla (esimerkissäni ranskankielinen tiedosto on `fr.md`). Siirry tiedostoon ja napsauta kynäkuvaketta :
+Jatka oppaasi kirjoittamista merkitsemällä sisältösi Markdown-tiedostoon kielikoodilla (esimerkissäni ranskankielinen tiedosto on `fr.md`). Siirry tiedostoon ja napsauta kynäkuvaketta:
 
 ![GITHUB](assets/fr/28.webp)
 
-Aloita opetusohjelmasi kirjoittaminen. Kun lisäät alaotsikkoa, käytä sopivaa Markdown-muotoilua ja liitä tekstin eteen `##` :
+Aloita opetusohjelmasi kirjoittaminen. Kun lisäät alaotsikkoa, käytä sopivaa Markdown-muotoilua ja liitä tekstin eteen `##`:
 
 ![GITHUB](assets/fr/29.webp)
 
@@ -349,9 +349,9 @@ Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Network -ohjelman gra
 
 
 - Fontti**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värit** :
+- Värit**:
  - Oranssi: #FF5C00
- - Musta : #000000
+ - Musta: #000000
  - Valkoinen: #FFFFFF
 
 **On ehdottoman tärkeää, että kaikki opetusohjelmiin sisällytetty visuaalinen materiaali on tekijänoikeudetonta tai noudattaa lähdetiedostojen lisenssiä**. Siksi kaikki Plan ₿ Networkissa julkaistut kaaviot ovat saatavilla CC-BY-SA -lisenssillä samalla tavalla kuin teksti.
@@ -362,7 +362,7 @@ Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Network -ohjelman gra
 
 Kun olet kirjoittanut opetusohjelmasi haluamallasi kielellä, seuraava vaihe on lähettää **Pull Request**. Järjestelmänvalvoja lisää puuttuvat käännökset opetusohjelmaasi käyttämällä automaattista käännösmenetelmäämme, jossa on ihmisen suorittama oikoluku.
 
-Jatka Pull Requestia tallentamalla kaikki muutokset ja klikkaa "*Contribute*"-painiketta ja sitten "*Open pull request*" :
+Jatka Pull Requestia tallentamalla kaikki muutokset ja klikkaa "*Contribute*"-painiketta ja sitten "*Open pull request*":
 
 ![GITHUB](assets/fr/36.webp)
 

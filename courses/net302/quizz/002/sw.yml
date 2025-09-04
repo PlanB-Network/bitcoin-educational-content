@@ -1,0 +1,9 @@
+question: Ni udhaifu gani kuu wa mtandao wa pete?
+answer: Kushindwa kwa kifaa kimoja kunaweza kukatiza mtandao mzima
+wrong_answers:
+  - Inahitaji nyaya nyingi ili kuunganisha kila kipande cha vifaa
+  - Ni vigumu kupanua
+  - Usimamizi wake ni mgumu
+explanation: |
+  Katika topolojia ya pete, kushindwa kwa kifaa kimoja huvunja kitanzi na kuzuia data kutoka kwa mzunguko.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký prvek doménového jména představuje doménu nejvyšší úrovně (TLD)?
+answer: Nejpravější prvek
+wrong_answers:
+  - Nejlevější prvek
+  - Druhá úroveň za hostitelem
+  - Název hlavního hostitele
+explanation: |
+  TLD je vždy nejpravějším prvkem FQDN, například .com, .org nebo .fr.
+reviewed: false

@@ -1,11 +1,11 @@
-question: Wat is een standaardmethode om je Wallet te herstellen?
-answer: Uw Mnemonic zin invoeren in Wallet software.
+question: Wat is het doel van een Bitcoin Wallet?
+answer: Om privésleutels op te slaan om bitcoins te kunnen verhandelen.
 wrong_answers:
-  - Je Mnemonic zin opslaan in een digitaal bestand.
-  - Schrijf je Mnemonic zin op een whiteboard.
-  - Je Mnemonic zin delen met een vertrouwde vriend.
+  - Apparaatbronnen gebruiken om bitcoins te delven.
+  - Om bitcoins te kopen via de publieke sleutel.
+  - Bitcoins opslaan op een apparaat.
 explanation: |
-  De standaardmethode om een back-up te maken van de private sleutel in een
-  Bitcoin Wallet is door uw Mnemonic zinsdeel in te voeren in elke
-  Wallet software. Hiermee kun je je Wallet herstellen.
-reviewed: false
+  Bitcoin wallets zijn een soort software die worden gebruikt om
+  de privé-sleutels op te slaan waarmee u uw
+  bitcoins kunt verhandelen.
+reviewed: true

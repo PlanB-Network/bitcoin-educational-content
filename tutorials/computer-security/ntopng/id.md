@@ -122,7 +122,7 @@ Untuk probe, saya memilih mesin **Debian 11** dengan instalasi minimal.
 
 
 
-Langkah pertama, selalu sama, perbarui file :
+Langkah pertama, selalu sama, perbarui file:
 
 
 
@@ -286,7 +286,7 @@ Secara default, sumber paket hanya berisi paket yang sesuai dengan DFSG (*Debian
 
 
 
-Contoh baris di /etc/apt/sources.list :
+Contoh baris di /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Jadi, saya hanya akan menambahkan kata **contrib** pada baris seperti ini.
 
 
 
-Langkah-langkah selanjutnya terdapat pada situs [NtopNG] (https://packages.ntop.org/apt/) di mana, untuk Debian 11, Anda perlu menambahkan sumber Ntop untuk instalasi di masa mendatang. Penambahan ini dilakukan secara otomatis dengan menggunakan file :
+Langkah-langkah selanjutnya terdapat pada situs [NtopNG] (https://packages.ntop.org/apt/) di mana, untuk Debian 11, Anda perlu menambahkan sumber Ntop untuk instalasi di masa mendatang. Penambahan ini dilakukan secara otomatis dengan menggunakan file:
 
 
 
@@ -474,7 +474,7 @@ Mengklik gambar ini akan memunculkan detail peringatan. Tidak ada yang mengkhawa
 
 
 
-Namun, karena saya menggunakan versi gratis, saya tidak bisa mengecualikan domain atau host yang menjadi sumber peringatan, jadi Anda harus terus mengawasinya agar tidak melewatkan sesuatu yang lebih mengkhawatirkan. NtopNG akan memberikan peringatan generate jika ada file :
+Namun, karena saya menggunakan versi gratis, saya tidak bisa mengecualikan domain atau host yang menjadi sumber peringatan, jadi Anda harus terus mengawasinya agar tidak melewatkan sesuatu yang lebih mengkhawatirkan. NtopNG akan memberikan peringatan generate jika ada file:
 
 
 

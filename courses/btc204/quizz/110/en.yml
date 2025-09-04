@@ -8,6 +8,6 @@ wrong_answers:
   - A transaction that involves the recipient in the inputs
 
 explanation: |
-  Stonewall is a specific form of Bitcoin transaction aimed at increasing user privacy during a spend by imitating a mini-coinjoin between two people, without actually being one.
+  Stonewall is a specific form of Bitcoin transaction designed to enhance user privacy during a spend by simulating a mini-coinjoin between two parties, without actually being one.
 
-reviewed: false
+reviewed: true

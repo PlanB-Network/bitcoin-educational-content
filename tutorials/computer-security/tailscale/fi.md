@@ -159,7 +159,7 @@ Kun olet luonut tilisi, voit asentaa Tailscalen laitteillesi:
 
 
 
-- Linuxissa (Debian, Ubuntu jne.):** Sinulla on useita vaihtoehtoja. Yksinkertaisin tapa on ajaa virallinen asennusskripti: esimerkiksi Debian/Ubuntussa :
+- Linuxissa (Debian, Ubuntu jne.):** Sinulla on useita vaihtoehtoja. Yksinkertaisin tapa on ajaa virallinen asennusskripti: esimerkiksi Debian/Ubuntussa:
 
 
 
@@ -261,7 +261,7 @@ Verkkohallintakonsolin avulla voit tarkastella ja hallita kaikkia liitettyjä la
 
 
 
-- Interface Web (hallintakonsoli)** : Tämä verkkokonsoli, johon pääsee osoitteesta [https://login.tailscale.com](https://login.tailscale.com), on Tailscale-verkkosi keskeinen kojelauta. Siinä luetellaan kaikki laitteet (*Koneet*), niiden online/offline-tila, niiden Tailscale IP-osoitteet ja paljon muuta. Täällä voit **hallita laitteita** (nimetä uudelleen, vanhentuneita avaimia, valtuuttaa reittejä, poistaa solmun käytöstä), **hallita käyttäjiä** (organisaatiokontekstissa) ja määritellä suojaussääntöjä (ACL). Täällä voit myös määrittää yleisiä asetuksia, kuten MagicDNS:n, tunnisteet tai auth-avaimet (ennen generate:ää auth-avaimet laitteiden automaattista lisäämistä varten). Interface-verkkopalvelin on erittäin kätevä yleiskatsauksen saamiseksi ja sellaisten muutosten soveltamiseksi, jotka siirretään koordinointipalvelimen kautta kaikkiin solmuihin. *Esimerkki:* **aliverkon reitin** tai **poistumissolmun** aktivointi tapahtuu yhdellä napsautuksella konsolissa, kun kyseinen solmu on ilmoittanut itsensä sellaiseksi.
+- Interface Web (hallintakonsoli)**: Tämä verkkokonsoli, johon pääsee osoitteesta [https://login.tailscale.com](https://login.tailscale.com), on Tailscale-verkkosi keskeinen kojelauta. Siinä luetellaan kaikki laitteet (*Koneet*), niiden online/offline-tila, niiden Tailscale IP-osoitteet ja paljon muuta. Täällä voit **hallita laitteita** (nimetä uudelleen, vanhentuneita avaimia, valtuuttaa reittejä, poistaa solmun käytöstä), **hallita käyttäjiä** (organisaatiokontekstissa) ja määritellä suojaussääntöjä (ACL). Täällä voit myös määrittää yleisiä asetuksia, kuten MagicDNS:n, tunnisteet tai auth-avaimet (ennen generate:ää auth-avaimet laitteiden automaattista lisäämistä varten). Interface-verkkopalvelin on erittäin kätevä yleiskatsauksen saamiseksi ja sellaisten muutosten soveltamiseksi, jotka siirretään koordinointipalvelimen kautta kaikkiin solmuihin. *Esimerkki:* **aliverkon reitin** tai **poistumissolmun** aktivointi tapahtuu yhdellä napsautuksella konsolissa, kun kyseinen solmu on ilmoittanut itsensä sellaiseksi.
 
 
 
@@ -289,7 +289,7 @@ CLI on erittäin hyödyllinen palvelimilla, joilla ei ole Interface-grafiikkaa, 
 
 
 
-Umbrel on suosittu itsepalvelualusta (jota käytetään erityisesti Bitcoin/Lightning-solmujen ja muiden itsepalveluiden osalta sen App Storen kautta). Umbrelin asentamista ja konfigurointia varten suosittelemme seuraamaan omaa opetusohjelmaamme :
+Umbrel on suosittu itsepalvelualusta (jota käytetään erityisesti Bitcoin/Lightning-solmujen ja muiden itsepalveluiden osalta sen App Storen kautta). Umbrelin asentamista ja konfigurointia varten suosittelemme seuraamaan omaa opetusohjelmaamme:
 
 
 
@@ -387,7 +387,7 @@ Pääsy on huomattavan yksinkertaista: sen sijaan, että käyttäisit `umbrel.lo
 
 
 
-**Kytke ulkoiset lompakot Bitcoin- tai salamasolmuihin Tailscalen kautta :**
+**Kytke ulkoiset lompakot Bitcoin- tai salamasolmuihin Tailscalen kautta:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Jos haluat määrittää Zeuksen Lightning-solmun kanssa, katso yksityiskohtainen ohjeemme :
+Jos haluat määrittää Zeuksen Lightning-solmun kanssa, katso yksityiskohtainen ohjeemme:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Lisätietoja Lightning Network:stä ja sen toiminnasta Umbrelissa saat osoitteesta :
+Lisätietoja Lightning Network:stä ja sen toiminnasta Umbrelissa saat osoitteesta:
 
 
 
@@ -608,7 +608,7 @@ Tailscale on yksinkertainen ja tehokas väline, joka on olennainen väline itsep
 
 
 - Kotilaboratorio** opetusohjelmat: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Erityisoppaat itsehostausta varten.
-- Poistumissolmun määrittäminen** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Yksityiskohtainen opas Exit-solmujen konfiguroinnista.
+- Poistumissolmun määrittäminen**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Yksityiskohtainen opas Exit-solmujen konfiguroinnista.
 - Käytä Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Siirrä tiedostoja Tailscale-laitteiden välillä.
 
 

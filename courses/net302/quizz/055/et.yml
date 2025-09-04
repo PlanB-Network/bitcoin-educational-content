@@ -1,0 +1,9 @@
+question: Milline käsk kuvab Linuxis kõigi võrguliideste üksikasjalikku olekut?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show" käsk loetleb kõik võrguliidesed koos nende staatuse, aadresside ja nendega seotud parameetritega.
+reviewed: false

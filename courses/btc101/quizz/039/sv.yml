@@ -1,13 +1,13 @@
-question: Vad är huvudsyftet bakom skapandet av Bitcoin?
-answer: Att skilja staten från pengar.
+question: Vilken inverkan kan det nuvarande finansiella systemet ha på politiska aktörer?
+answer: De har inga incitament att göra radikala förändringar, vilket gör att systemet kan fortsätta sin bana fram till en eventuell implosion.
 wrong_answers:
-  - Att avskaffa guldmyntfoten.
-  - För att göra transaktioner snabbare och billigare.
-  - Att göra alla rika.
+  - De är motiverade att göra radikala förändringar för att förhindra en eventuell implosion.
+  - De är inte motiverade att upprätthålla status quo för att säkerställa sin egen rikedom.
+  - De uppmuntras att tänka långsiktigt.
 explanation: |
-  Bitcoin skapades i syfte att skilja staten från pengar
-  från pengar. Det är ett svar på de systemiska utmaningarna i
-  nuvarande finansiella systemet, där staten har full
-  kontroll över pengarna Supply och kan manipulera dem till sin egen
-  egen fördel.
+  Eftersom politiska aktörer gynnas av det nuvarande finansiella
+  finansiella systemet har de inget incitament att göra radikala förändringar.
+  Detta gör att systemet kan fortsätta sin bana fram till en
+  till en eventuell implosion, eftersom systemet är reglerat och
+  begränsas för att undvika sin egen kollaps.
 reviewed: true

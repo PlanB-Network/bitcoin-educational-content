@@ -1,10 +1,12 @@
-question: Ile wynosi nagroda BTC po czwartym Halving?
-answer: 3.125 BTC.
+question: Jakie jest ryzyko udostępnienia klucza publicznego Bitcoin Wallet?
+answer: Utrata prywatności.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Zniszczenie Bitcoin Wallet.
+  - Utrata Bitcoinów.
+  - Hakowanie Bitcoin Wallet.
 explanation: |
-  Po czwartym Halving, który ma miejsce na wysokości bloku
-  840 000, nagroda w BTC za Mining wynosi 3,125 BTC.
+  Udostępnianie klucza publicznego wiąże się z ryzykiem dla prywatności, ale nie
+  dla bezpieczeństwa. Dzieje się tak, ponieważ klucz publiczny jest używany do
+  generate Bitcoin adresów, a tym samym otrzymywania pieniędzy, ale nie
+  nie reprezentuje Ownership Bitcoinów.
 reviewed: true

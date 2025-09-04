@@ -34,12 +34,12 @@ Popunite potrebne informacije: unesite svoju poslovnu email adresu Address i zem
 ![BITFINEX](assets/fr/02.webp)
 
 
-Za savete o korišćenju i zaštiti jakih, jedinstvenih lozinki, pogledajte i ovaj vodič :
+Za savete o korišćenju i zaštiti jakih, jedinstvenih lozinki, pogledajte i ovaj vodič:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Sada ćemo konfigurisati 2FA da osiguramo nalog. Koristite aplikaciju za autentifikaciju na svom pametnom telefonu, kao što su Google Authenticator ili Authy na primer. Pronaći ćete vodič za ovaj alat ovde :
+Sada ćemo konfigurisati 2FA da osiguramo nalog. Koristite aplikaciju za autentifikaciju na svom pametnom telefonu, kao što su Google Authenticator ili Authy na primer. Pronaći ćete vodič za ovaj alat ovde:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -111,7 +111,7 @@ Kada vaša prijava bude završena i poslata, može proći nekoliko dana da platf
 ## 3 - Brzi uvod u Bitfinex Interface
 
 
-Kada se prijavite, videćete navigacionu traku na vrhu Interface sa: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", itd. Bitfinex nudi širok spektar funkcionalnosti, uključujući :
+Kada se prijavite, videćete navigacionu traku na vrhu Interface sa: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", itd. Bitfinex nudi širok spektar funkcionalnosti, uključujući:
 
 
 
@@ -349,7 +349,7 @@ U zavisnosti od ciljeva i strukture vaše kompanije, korišćenje Bitfinex-a mo�
 - Izvezite istorije transakcija po potrebi.
 
 
-Za detaljniji uvid u ovu temu, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo :
+Za detaljniji uvid u ovu temu, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

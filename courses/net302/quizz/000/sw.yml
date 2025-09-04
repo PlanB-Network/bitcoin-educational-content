@@ -1,0 +1,9 @@
+question: Ni nini jukumu la msingi la mtandao katika IT?
+answer: Washa data Exchange
+wrong_answers:
+  - Kuongeza kumbukumbu ya kompyuta
+  - Unda nakala za chelezo
+  - Washa Exchange ya vifaa vya kompyuta
+explanation: |
+  Mtandao huunganisha vifaa vingi ili kuruhusu mzunguko na Exchange ya habari.
+reviewed: false

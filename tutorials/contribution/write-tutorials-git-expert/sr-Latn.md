@@ -5,12 +5,12 @@ description: Vodič za napredne korisnike za pružanje tutorijala o Plan ₿ Net
 ![cover](assets/cover.webp)
 
 
-Pre nego što pratite ovaj vodič o dodavanju novog vodiča, potrebno je da završite nekoliko preliminarnih koraka. Ako to već niste učinili, molimo vas da prvo pogledate ovaj uvodni vodič, a zatim se vratite ovde :
+Pre nego što pratite ovaj vodič o dodavanju novog vodiča, potrebno je da završite nekoliko preliminarnih koraka. Ako to već niste učinili, molimo vas da prvo pogledate ovaj uvodni vodič, a zatim se vratite ovde:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Već imate :
+Već imate:
 
 
 
@@ -19,17 +19,17 @@ Već imate :
 - Izaberite svoje alate za doprinos.
 
 
-U ovom vodiču za iskusne korisnike Git-a, ukratko ćemo rezimirati ključne korake i osnovne smernice za ponudu novog Plan ₿ Network vodiča. Ako niste upoznati sa Git-om i GitHub-om, preporučujem da umesto toga pratite jedan od ova 2 detaljnija vodiča koji će vas voditi korak po korak :
+U ovom vodiču za iskusne korisnike Git-a, ukratko ćemo rezimirati ključne korake i osnovne smernice za ponudu novog Plan ₿ Network vodiča. Ako niste upoznati sa Git-om i GitHub-om, preporučujem da umesto toga pratite jedan od ova 2 detaljnija vodiča koji će vas voditi korak po korak:
 
 
 
-- Srednji nivo (GitHub Desktop) :
+- Srednji nivo (GitHub Desktop):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Početnici (web Interface) :
+- Početnici (web Interface):
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## Predloženi alati
 
 
-Za uređivanje Markdown datoteka :
+Za uređivanje Markdown datoteka:
 
 
 
@@ -47,7 +47,7 @@ Za uređivanje Markdown datoteka :
 - Typora (komercijalni softver, ~€15, nije otvorenog koda)
 
 
-Za Git :
+Za Git:
 
 
 
@@ -56,7 +56,7 @@ Za Git :
 - Sourcetree (Besplatno, nije otvorenog koda)
 
 
-Za uređivanje YAML datoteka :
+Za uređivanje YAML datoteka:
 
 
 
@@ -64,7 +64,7 @@ Za uređivanje YAML datoteka :
 - Sublime Text (Besplatan sa ograničenjima, nije otvorenog koda)
 
 
-Da biste kreirali dijagrame i vizuale :
+Da biste kreirali dijagrame i vizuale:
 
 
 
@@ -134,14 +134,14 @@ git push -u origin tuto-green-wallet-loic
 ***Napomena:*** Možete automatizovati korake 3 i 4 koristeći [moj Python GUI skript](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Pokrenite ga direktno iz njegove fascikle u vašoj lokalnoj kloniranoj verziji, zatim popunite potrebna polja na GUI. Za više informacija o tome kako ga instalirati i koristiti, pogledajte [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
-Ako više volite da to uradite ručno, pratite ove korake :
+Ako više volite da to uradite ručno, pratite ove korake:
 
 
 
 - Pronađite odgovarajući folder u lokalnom repozitorijumu (npr. `tutorials/Wallet`).
 - Kreirajte direktorijum posvećen vodiču sa jasnim imenom (npr. `gw-14-gw-13`). Ovo ime foldera će takođe odrediti URL putanju vodiča. Trebalo bi da bude u malim slovima, bez specijalnih karaktera (osim crtica) i bez razmaka.
 - Dodajte sledeće stavke u ovaj direktorijum:
-    - Poddirektorijum pod nazivom `assets` koji sadrži :
+    - Poddirektorijum pod nazivom `assets` koji sadrži:
         - Dve `.webp` slike:
             - `logo.webp`: Logo za tutorijal (kvadratni format sa pozadinom). Ovaj logo mora predstavljati softver ili alat koji se prezentuje. Ako tutorijal nije specifičan za neki alat (npr.: opšti vodič za generisanje Mnemonic fraze), možete izabrati odgovarajući vizual (npr.: generička ikonica).
             - `cover.webp`: Naslovna slika prikazana na početku tutorijala.
@@ -209,23 +209,23 @@ Evo potrebna polja:
 
 
 
-- id** : A UUID (_Universally Unique Identifier_) koji jedinstveno identifikuje tutorijal. Možete ga generate koristiti pomoću [online alata](https://www.uuidgenerator.net/version4). Jedini zahtev je da ovaj UUID bude nasumičan kako bi se izbegli konflikti sa drugim UUID-om na platformi;
+- id**: A UUID (_Universally Unique Identifier_) koji jedinstveno identifikuje tutorijal. Možete ga generate koristiti pomoću [online alata](https://www.uuidgenerator.net/version4). Jedini zahtev je da ovaj UUID bude nasumičan kako bi se izbegli konflikti sa drugim UUID-om na platformi;
 
 
 
-- project_id** : UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
+- project_id**: UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
 
 
 
-- tagovi** : 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategorija** : Podkategorija koja odgovara sadržaju tutorijala, prema strukturi sajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
+- kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi sajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- nivo** : Nivo težine tutorijala, izabran iz:
+- nivo**: Nivo težine tutorijala, izabran iz:
     - `početnik`
     - `srednji`
     - `napredan`
@@ -233,23 +233,23 @@ Evo potrebna polja:
 
 
 
-- professor_id** : Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language** : Originalni jezik tutorijala (npr. `fr`, `en`, itd.);
+- original_language**: Originalni jezik tutorijala (npr. `fr`, `en`, itd.);
 
 
 
-- lektura** : Informacije o procesu lekture. Završite prvi deo, jer lektura sopstvenog tutorijala se računa kao prva validacija:
-    - jezik** : Jezički kod za lekturu (npr., `fr`, `en`, itd.).
-    - last_contribution_date** : Datum dana.
-    - hitnost** : 1
-    - contributor_names** : Your GitHub ID.
-    - nagrada** : 0
+- lektura**: Informacije o procesu lekture. Završite prvi deo, jer lektura sopstvenog tutorijala se računa kao prva validacija:
+    - jezik**: Jezički kod za lekturu (npr., `fr`, `en`, itd.).
+    - last_contribution_date**: Datum dana.
+    - hitnost**: 1
+    - contributor_names**: Your GitHub ID.
+    - nagrada**: 0
 
 
-Za više detalja o vašem ID-u nastavnika, molimo vas da pogledate odgovarajući vodič :
+Za više detalja o vašem ID-u nastavnika, molimo vas da pogledate odgovarajući vodič:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -365,11 +365,11 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Formatiranje podržano na platformi** :
+- Formatiranje podržano na platformi**:
     - Klasični Markdown: liste, linkovi, slike, citati, **bold**, *italik*, itd.
     - LaTeX (blok samo, ne inline): ograničeno sa `$$`.
     - Umetnuti kod: Sintaksa sa jednim obrnutim apostrofom.
-    - Blokovi koda: Sintaksa sa tri obrnutih navodnika, na primer :
+    - Blokovi koda: Sintaksa sa tri obrnutih navodnika, na primer:
 
 
 ```
@@ -378,15 +378,15 @@ print("Hello, Bitcoin!")
 
 
 
-- Ilustracije i dijagrami** :
+- Ilustracije i dijagrami**:
     - Sve slike moraju biti u WebP formatu. Koristite ovaj besplatni alat za konvertovanje ako je potrebno: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Imenujte vizuale sa 2 ili 3 cifre (npr. `001.webp`, `002.webp`).
     - Za mobilne ili Hardware Wallet tutorijale, koristite makete.
     - Koristite samo vizuale koje ste sami kreirali ili one koji su oslobođeni autorskih prava.
     - Uverite se da su relevantni i visokog kvaliteta.
-- Grafička povelja** :
+- Grafička povelja**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Boje Plan ₿ Network :
+    - Boje Plan ₿ Network:
         - Narandžasta: `#FF5C00`
         - Crna: `#000000`
         - Bela: `#FFFFFF`

@@ -3,7 +3,7 @@ answer: Star
 wrong_answers:
   - Ring
   - Bus
-  - Maillé
+  - Mesh
 explanation: |
-  In a star topology, each peripheral is connected to a central device, facilitating management and maintenance.
+  In a star topology, each device is connected to a central device, facilitating management and maintenance.
 reviewed: false

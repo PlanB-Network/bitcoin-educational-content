@@ -1,0 +1,9 @@
+question: Mengapa migrasi ke IPv6 menjadi penting?
+answer: Kelelahan IPv4 Address
+wrong_answers:
+  - Kegagalan protokol NAT pada IPv4
+  - Ketidakcocokan subnet mask
+  - Berakhirnya dukungan DHCP
+explanation: |
+  Habisnya alamat IPv4 mendorong transisi ke IPv6, yang menyediakan ruang Address yang jauh lebih besar.
+reviewed: false

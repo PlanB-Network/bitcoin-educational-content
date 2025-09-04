@@ -975,7 +975,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-(największa liczba pierwsza mniejsza niż $2^{256}$). Współrzędna $x$ to klucz prywatny, a współrzędna $y$ to klucz publiczny.
+(które jest największą liczbą pierwszą mniejszą niż $2^{256}$).
 
 
 Transakcje w Bitcoin zazwyczaj obejmują blokowanie danych wyjściowych do jednego lub więcej kluczy publicznych w jakiś sposób. Wartość z tych transakcji można następnie odblokować, wykonując podpisy cyfrowe za pomocą odpowiednich kluczy prywatnych.

@@ -22,7 +22,7 @@ La adopción mundial de Bitcoin se basa en casos de uso tangibles en la vida cot
 
 
 
-Speed dispone de una amplia gama de funciones para cubrir los aspectos financieros de su empresa. Encontrará :
+Speed dispone de una amplia gama de funciones para cubrir los aspectos financieros de su empresa. Encontrará:
 
 
 

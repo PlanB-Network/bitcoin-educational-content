@@ -1,11 +1,10 @@
-question: How could the Lightning Network potentially be used for renting goods?
-answer: Users could be charged per minute, or even per second, for the time they use the goods.
+question: What is one of the potential benefits of accepting new technologies like Bitcoin?
+answer: It could generate massive economies of scale worldwide.
 wrong_answers:
-  - Users could be charged a high fee for renting the goods.
-  - Users could be charged based on the value of the goods.
-  - Users could be charged based on the condition of the goods.
+  - It could lead to a global economic collapse.
+  - It could cause a decrease in human intelligence.
+  - It could lead to the elimination of all jobs.
 explanation: >-
-  With the Lightning Network, it is conceivable to use this system for
-  renting goods. Users could be charged per minute, or even per second, for the time
-  they use the goods.
+  The text suggests that accepting these new technologies could generate
+  massive economies of scale worldwide.
 reviewed: true

@@ -159,7 +159,7 @@ När du har skapat ditt konto kan du installera Tailscale på dina enheter:
 
 
 
-- På Linux (Debian, Ubuntu, etc.):** Du har flera alternativ. Den enklaste metoden är att köra det officiella installationsskriptet: till exempel på Debian/Ubuntu :
+- På Linux (Debian, Ubuntu, etc.):** Du har flera alternativ. Den enklaste metoden är att köra det officiella installationsskriptet: till exempel på Debian/Ubuntu:
 
 
 
@@ -261,7 +261,7 @@ Med webbadministrationskonsolen kan du visa och hantera alla dina anslutna enhet
 
 
 
-- Interface Web (Admin Console)** : tillgänglig på [https://login.tailscale.com](https://login.tailscale.com), är denna webbkonsol den centrala instrumentpanelen för ditt Tailscale-nätverk. Den listar alla enheter (*Maskiner*), deras online-/offlinestatus, deras Tailscale-IP-adresser med mera. Här kan du **hantera enheter** (byta namn, utgångna nycklar, auktorisera rutter, inaktivera en nod), **hantera användare** (i ett organisatoriskt sammanhang) och definiera säkerhetsregler (ACL). Det är också här du konfigurerar globala alternativ som MagicDNS, taggar eller auth-nycklar (auth-nycklar före generate för automatiserat tillägg av enheter). Interface web är mycket praktiskt för att få en överblick och tillämpa ändringar som kommer att spridas via samordningsservern till alla noder. *Exempel:* Aktivering av en **subnet route** eller en **exit node** görs med ett enda klick i konsolen, när noden i fråga har meddelat sig själv som sådan.
+- Interface Web (Admin Console)**: tillgänglig på [https://login.tailscale.com](https://login.tailscale.com), är denna webbkonsol den centrala instrumentpanelen för ditt Tailscale-nätverk. Den listar alla enheter (*Maskiner*), deras online-/offlinestatus, deras Tailscale-IP-adresser med mera. Här kan du **hantera enheter** (byta namn, utgångna nycklar, auktorisera rutter, inaktivera en nod), **hantera användare** (i ett organisatoriskt sammanhang) och definiera säkerhetsregler (ACL). Det är också här du konfigurerar globala alternativ som MagicDNS, taggar eller auth-nycklar (auth-nycklar före generate för automatiserat tillägg av enheter). Interface web är mycket praktiskt för att få en överblick och tillämpa ändringar som kommer att spridas via samordningsservern till alla noder. *Exempel:* Aktivering av en **subnet route** eller en **exit node** görs med ett enda klick i konsolen, när noden i fråga har meddelat sig själv som sådan.
 
 
 
@@ -289,7 +289,7 @@ CLI är mycket användbart på servrar utan Interface-grafik och för skriptning
 
 
 
-Umbrel är en populär plattform för självhosting (används särskilt för Bitcoin/Lightning-noder och andra självhosting-tjänster, via dess App Store). För att installera och konfigurera Umbrel rekommenderar vi att du följer vår dedikerade handledning :
+Umbrel är en populär plattform för självhosting (används särskilt för Bitcoin/Lightning-noder och andra självhosting-tjänster, via dess App Store). För att installera och konfigurera Umbrel rekommenderar vi att du följer vår dedikerade handledning:
 
 
 
@@ -387,7 +387,7 @@ När Umbrel är ansluten till Tailscale kan du komma åt Interface Umbrel och de
 
 
 
-** Anslut externa plånböcker till dina Bitcoin- eller blixtnoder via Tailscale :**
+** Anslut externa plånböcker till dina Bitcoin- eller blixtnoder via Tailscale:**
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-För att konfigurera Zeus med din Lightning-nod, se vår detaljerade handledning :
+För att konfigurera Zeus med din Lightning-nod, se vår detaljerade handledning:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-För att ta reda på mer om Lightning Network och hur den fungerar på Umbrel, besök :
+För att ta reda på mer om Lightning Network och hur den fungerar på Umbrel, besök:
 
 
 
@@ -608,7 +608,7 @@ Tailscale är ett viktigt verktyg för självhosting tack vare sin enkelhet och 
 
 
 - Homelab** handledning: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifika guider för självhosting.
-- Konfigurera en Exit Node** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljerad guide till konfiguration av Exit-noder.
+- Konfigurera en Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljerad guide till konfiguration av Exit-noder.
 - Använd Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Överför filer mellan Tailscale-enheter.
 
 

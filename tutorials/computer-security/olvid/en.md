@@ -189,7 +189,7 @@ You can also create group discussions.
 Congratulations, you're now up to speed on using Olvid messaging, a great alternative to WathsApp! If you found this tutorial useful, I'd be very grateful if you'd leave a green thumb below. Please feel free to share this tutorial on your social networks. Thank you very much!
 
 
-I also recommend this other tutorial, in which I introduce you to Proton Mail, a much more privacy-friendly alternative to Gmail :
+I also recommend this other tutorial, in which I introduce you to Proton Mail, a much more privacy-friendly alternative to Gmail:
 
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

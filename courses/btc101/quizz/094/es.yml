@@ -1,14 +1,11 @@
-question: ¿Cuál es el riesgo de usar una cartera multisig?
-answer: No tener acceso a suficientes claves privadas individuales o componentes de respaldo.
+question: ¿Cuál es el método estándar para restaurar tu billetera?
+answer: Ingresar tu frase mnemotécnica en cualquier software de billetera.
 wrong_answers:
-  - Tener acceso a suficientes claves privadas individuales o componentes de respaldo.
-  - Compartir tus claves privadas con otras partes.
-  - Compartir tus claves públicas con otras partes.
+  - Guardar tu frase mnemotécnica en un archivo digital.
+  - Escribir tu frase mnemotécnica en una pizarra blanca.
+  - Compartir tu frase mnemotécnica con un amigo de confianza.
 explanation: |
-  Cuando usas una cartera multisig, cada clave privada del
-  multisig debe almacenarse en diferentes ubicaciones. Esto es
-  porque el multisig requiere múltiples firmas para llevar a cabo
-  una transacción, por lo que se necesitan cierto número de carteras.
-  Por lo tanto, almacenar cada parte en una ubicación diferente
-  añade una capa extra de seguridad.
-reviewed: true
+  El método estándar para respaldar la clave privada en una
+  billetera de Bitcoin es ingresando tu frase mnemotécnica en cualquier
+  software de billetera. Esto te permite restaurar tu billetera.
+reviewed: false

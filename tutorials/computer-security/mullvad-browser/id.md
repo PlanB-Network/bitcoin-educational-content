@@ -5,48 +5,26 @@ description: Cara menggunakan Peramban Mullvad untuk privasi
 
 ![cover](assets/cover.webp)
 
+Di dunia di mana pengawasan digital menjadi merajalela, melindungi privasi online Anda adalah yang terpenting. Perusahaan-perusahaan menggunakan teknik canggih untuk melacak Anda:
 
+- **Third-party cookies**: file kecil yang ditempatkan oleh situs eksternal untuk melacak Anda dari satu situs ke situs lain.
+- **Fingerprinting**: mengumpulkan karakteristik unik browser dan perangkat Anda (resolusi layar, font yang terpasang, plugin, dll.) untuk mengidentifikasi Anda tanpa cookies.
+- **Tracking scripts**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, scrolling, waktu yang dihabiskan).
+- **Analisis alamat IP**: lokasi geografis dan identifikasi penyedia layanan Internet Anda.
 
-Di dunia di mana pengawasan digital menjadi sangat umum, melindungi privasi online Anda tidak pernah menjadi lebih penting. Perusahaan-perusahaan menggunakan teknik-teknik canggih untuk melacak Anda:
+Data ini kemudian digabungkan untuk membuat profil terperinci dari perilaku online Anda dan dimonetisasi, sering kali tanpa sepengetahuan Anda. Realitas ini memunculkan pertanyaan mendasar: bagaimana Anda bisa menjelajah Internet sambil menjaga anonimitas dan kerahasiaan Anda?
 
-
-
-
-
-- Cookie pihak ketiga**: file kecil yang disimpan oleh situs eksternal untuk mengikuti Anda dari satu situs ke situs lainnya
-- Sidik jari**: mengumpulkan karakteristik unik dari browser dan perangkat Anda (resolusi layar, font yang diinstal, plugin, dll.) untuk mengidentifikasi Anda tanpa cookie
-- Skrip pelacakan**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, gulir, waktu yang dihabiskan)
-- Analisis IP Address**: lokasi geografis dan identifikasi penyedia layanan Internet Anda
-
-
-
-Data ini kemudian digabungkan untuk membuat profil terperinci tentang perilaku online Anda dan menghasilkan uang, seringkali tanpa sepengetahuan Anda. Kenyataan ini menimbulkan pertanyaan mendasar: bagaimana Anda dapat menjelajahi Internet sambil menjaga anonimitas dan kerahasiaan Anda?
-
-
-
-Jawabannya sebagian besar terletak pada pilihan peramban web Anda. Alat yang kita gunakan setiap hari untuk mengakses informasi, melakukan pembelian, atau berkomunikasi ini memainkan peran penting dalam melindungi data pribadi kita. Sayangnya, peramban populer seperti Google Chrome (yang menguasai sekitar 65% pasar global) dirancang dengan model bisnis yang didasarkan pada pengumpulan data pengguna secara besar-besaran.
-
-
+Jawabannya sebagian besar terletak pada pilihan browser web Anda. Aplikasi ini, yang kita gunakan setiap hari untuk mengakses informasi, melakukan pembelian, atau berkomunikasi, memainkan peran yang menentukan dalam melindungi data pribadi kita. Sayangnya, browser populer seperti Google Chrome (yang memegang sekitar 65% dari pasar global) dirancang di sekitar model bisnis yang didasarkan pada pengumpulan data pengguna secara besar-besaran.
 
 ![MULLVAD BROWSER](assets/fr/01.webp)
 
+*Mullvad Browser menonjol karena pemblokiran pelacaknya yang sangat efektif, jauh melampaui browser lainnya*
 
-*Mullvad Browser menonjol karena pemblokiran pelacaknya yang sangat efektif, jauh melampaui peramban konsumen*
+Menghadapi tantangan ini, pemain baru muncul dengan filosofi yang berbeda: menempatkan privasi sebagai inti dari desain mereka. Di antara mereka, Mullvad Browser muncul sebagai solusi inovatif yang menggabungkan perlindungan privasi terbaik dengan pengalaman menjelajah yang lancar dan mudah diakses.
 
+Berbeda dengan browser tradisional yang berusaha mempersonalisasi pengalaman Anda dengan mengumpulkan data Anda, Mullvad Browser mengambil pendekatan yang berlawanan: membuat semua penggunanya terlihat identik di mata situs web, sehingga membuat pelacakan individual hampir tidak mungkin.
 
-
-Menghadapi tantangan ini, para pemain baru bermunculan dengan filosofi yang berbeda: yaitu menempatkan privasi sebagai inti dari desain mereka. Di antara mereka, Mullvad Browser menonjol sebagai solusi inovatif yang menggabungkan perlindungan privasi terbaik dengan pengalaman penjelajahan yang lancar dan mudah diakses.
-
-
-
-Tidak seperti peramban tradisional yang berusaha mempersonalisasi pengalaman Anda dengan mengumpulkan data Anda, Mullvad Browser mengambil pendekatan yang berlawanan: membuat semua penggunanya tampak identik dengan situs web, sehingga membuat pelacakan individual hampir tidak mungkin dilakukan.
-
-
-
-Dalam tutorial ini, kita akan bersama-sama mengetahui bagaimana Mullvad Browser dapat mengubah cara Anda menjelajahi Internet, menawarkan perlindungan yang kuat terhadap pengawasan tanpa mengorbankan kemudahan penggunaan.
-
-
-
+Dalam tutorial ini, kita akan menemukan bersama bagaimana Mullvad Browser dapat mengubah cara Anda menjelajah Internet, menawarkan Anda perlindungan yang kuat terhadap pengawasan tanpa mengorbankan kemudahan penggunaan.
 
 ## Memperkenalkan Browser Mullvad
 

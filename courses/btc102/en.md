@@ -1370,7 +1370,7 @@ We don't recommend custodial services even for beginners. It's much better to ta
 
 The choice of wallet and security method depends on how much you're storing, your level of expertise, and the potential risks you perceive. However, a hybrid approach can be a smart option:
 
-- Use a Hot Walleton phone or a Lightning wallet for daily transactions;
+- Use a Hot Wallet on phone or a Lightning wallet for daily transactions;
 - Use a hardware wallet for securing the majority of your bitcoins, which are intended for long-term savings.
 
 If your hot wallet accumulates too many bitcoins, you can transfer some to your cold storage. On the other hand, if you need more bitcoins for daily spending, you can withdraw from your cold wallet.
@@ -2311,7 +2311,7 @@ Use a table to structure this inventory. The idea is not to store this document 
 | General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Bitfinex | BTC & Euros | Accessible online | None (custodial platform) | | Bitwarden & 2FA password manager with Authy app on my phone | I bought my BTC here. Funds must be withdrawn after purchase |
-| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
+| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
 | Green Wallet | BTC | On my Iphone 15 | Copy of the seed in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
 
 At this stage, you might feel the urge to immediately adjust your fund distribution, improve your security, or even buy or sell more bitcoins. Don't act yet! The goal here is not to take action but to establish a snapshot of your current situation. You can always improve your plan later, but for now, stay focused on completing the inventory as thoroughly as possible.
@@ -2476,7 +2476,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
--  Business owners interested in integrating Bitcoin into their company strategy shouldn't miss::
+-  Business owners interested in integrating Bitcoin into their company strategy shouldn't miss:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 

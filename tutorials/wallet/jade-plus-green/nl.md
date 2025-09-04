@@ -286,7 +286,7 @@ Kies "*Standaard*" als u een klassieke single-sig Wallet wilt maken.
 Voor meer informatie over de "*2FA*" optie kun je deze andere tutorial volgen:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Je account is aangemaakt.
 

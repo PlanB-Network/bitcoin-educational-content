@@ -207,7 +207,7 @@ PIN-код разблокирует ваш нефрит. Таким образо
 
 Для получения дополнительной информации об опции "*2FA*" вы можете прочесть это руководство:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ваша учетная запись создана.
 
@@ -300,4 +300,5 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 Чтобы сделать еще один шаг вперед, я рекомендую этот учебник по Jade Plus, где мы настраиваем его с помощью программного обеспечения Sparrow Wallet в режиме QR. Вы также узнаете, как использовать расширенные настройки аппаратного кошелька:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

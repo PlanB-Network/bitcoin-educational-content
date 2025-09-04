@@ -207,7 +207,7 @@ Velg "*Standard*" hvis du ønsker å opprette en klassisk portefølje med én si
 
 Hvis du vil ha mer informasjon om "*2FA*"-alternativet, kan du følge denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Kontoen din er opprettet.
 
@@ -300,4 +300,5 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Jade Plus med Blockstre
 For å ta ting et skritt videre, anbefaler jeg denne veiledningen om Jade Plus, der vi konfigurerer den med Sparrow Wallet-programvaren i QR-modus. Du lærer også hvordan du bruker de avanserte innstillingene til maskinvarelommeboken din:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

@@ -283,7 +283,7 @@ PIN 碼可為您的 Jade 解鎖。因此，它可以防止未經授權的實體�
 如需「*2FA*」選項的詳細資訊，您可以參考其他教學：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 您的帳戶已建立。
 
@@ -420,3 +420,4 @@ Green 會顯示接收 Address，但在使用之前，必須先在 Jade 上檢查
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

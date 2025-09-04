@@ -207,7 +207,7 @@ Valige "*Standard*", kui soovite luua klassikalise ühe sümboliga portfelli.
 
 Lisateavet "*2FA*" valiku kohta saate sellest juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Teie konto on loodud.
 
@@ -300,4 +300,5 @@ Palju õnne, te teate nüüd, kuidas seadistada ja kasutada Jade Plus'i koos Blo
 Et minna sammu võrra kaugemale, soovitan seda Jade Plus'i õpetust, kus me seadistame selle koos Sparrow Wallet'i tarkvaraga QR-režiimis. Samuti saate teada, kuidas kasutada oma riistvaralise rahakoti täiustatud seadeid:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

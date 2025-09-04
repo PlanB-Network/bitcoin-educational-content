@@ -200,7 +200,7 @@ PIN码可以解锁您的Jade。因此，它可以防止未经授权的访问。�
 
 为了了解与"*2FA*"选项有关的更多信息，请参阅本教程：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 您的账户已创建。
 
@@ -293,4 +293,5 @@ Green钱包显示的是一个接收地址，但在使用之前，您需要在Jad
 如果您想要进一步前进，我向您推荐这篇关于Jade Plus的教程，我们将在二维码模式下使用Sparrow钱包软件对其进行配置。您还将学习如何使用硬件钱包的高级设置：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

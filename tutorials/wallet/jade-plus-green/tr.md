@@ -286,7 +286,7 @@ Klasik bir single-sig Wallet oluşturmak istiyorsanız "*Standard*" seçeneğini
 "*2FA*" seçeneği hakkında daha fazla bilgi için bu diğer öğreticiyi takip edebilirsiniz:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Hesabınız oluşturuldu.
 

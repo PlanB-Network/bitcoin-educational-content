@@ -207,7 +207,7 @@ Wählen Sie "*Standard*", wenn Sie ein klassisches Single-Sig-Portfolio erstelle
 
 Weitere Informationen zur Option "*2FA*" finden Sie in diesem anderen Tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ihr Konto wurde erstellt.
 
@@ -300,5 +300,6 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie den Jade Plus mit der mobilen
 Um einen Schritt weiter zu gehen, empfehle ich dieses Tutorial über den Jade Plus, in dem wir ihn mit der Sparrow Wallet-Software im QR-Modus konfigurieren. Sie erfahren auch, wie Sie die erweiterten Einstellungen Ihrer Hardware-Wallet nutzen können:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 
 

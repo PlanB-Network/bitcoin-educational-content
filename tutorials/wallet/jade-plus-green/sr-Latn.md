@@ -283,7 +283,7 @@ Izaberite "*Standard*" ako želite da kreirate klasični single-sig Wallet.
 Za više informacija o opciji "*2FA*", možete pratiti ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Vaš nalog je kreiran.
 
@@ -420,4 +420,5 @@ Da biste stvari podigli na viši nivo, preporučujem ovaj vodič o Jade Plus, gd
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

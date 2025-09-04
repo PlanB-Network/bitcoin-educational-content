@@ -207,7 +207,7 @@ Elija "*Estándar*" si desea crear una cartera clásica de una sola firma.
 
 Para más información sobre la opción "*2FA*", puedes seguir este otro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Su cuenta ha sido creada.
 
@@ -300,5 +300,6 @@ Enhorabuena, ahora ya sabes cómo configurar y utilizar el Jade Plus con la apli
 Para ir un paso más allá, te recomiendo este tutorial sobre el Jade Plus, donde lo configuramos con el software Sparrow Wallet en modo QR. También aprenderás a utilizar la configuración avanzada de tu hardware wallet:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 
 

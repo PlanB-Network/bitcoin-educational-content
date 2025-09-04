@@ -283,7 +283,7 @@ Chagua "*Standard*" ikiwa ungependa kuunda Wallet ya kawaida ya sig moja.
 Kwa maelezo zaidi juu ya chaguo la "*2FA*", unaweza kufuata mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Akaunti yako imeundwa.
 
@@ -420,4 +420,5 @@ Ili kuchukua hatua zaidi, ninapendekeza mafunzo haya kwenye Jade Plus, ambapo tu
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

@@ -207,7 +207,7 @@ Valitse "*Standardi*", jos haluat luoda klassisen yhden tunnuksen salkun.
 
 Jos haluat lisätietoja "*2FA*"-vaihtoehdosta, voit seurata tätä ohjetta:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Tilisi on luotu.
 
@@ -300,5 +300,6 @@ Onneksi olkoon, tiedät nyt, miten Jade Plus -laite asetetaan ja käytetään Bl
 Jos haluat edetä askeleen pidemmälle, suosittelen tätä Jade Plus -ohjetta, jossa konfiguroimme sen Sparrow Wallet -ohjelmiston kanssa QR-tilassa. Opit myös käyttämään laitteiston lompakon lisäasetuksia:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 
 

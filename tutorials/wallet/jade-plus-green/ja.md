@@ -207,7 +207,7 @@ PINコードはジェイドのロックを解除します。したがって、�
 
 2FA*」オプションの詳細については、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 アカウントが作成されました。
 
@@ -300,5 +300,6 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 このチュートリアルでは、Jade PlusをQRモードのSparrow Walletソフトウェアで設定します。また、ハードウェアウォレットの高度な設定の使い方も学ぶことができます：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 
 

@@ -286,7 +286,7 @@ Välj "*Standard*" om du vill skapa en klassisk Wallet med en enda signering.
 För mer information om alternativet "*2FA*" kan du följa denna andra handledning:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ditt konto har skapats.
 
@@ -423,4 +423,5 @@ För att ta saker ett steg längre rekommenderar jag denna handledning om Jade P
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

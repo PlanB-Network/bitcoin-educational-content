@@ -161,6 +161,7 @@ En conclusion, Qubes OS n'est pas un système d'exploitation ordinaire, mais une
 
 Que ce soit pour naviguer sur Internet de façon sécurisée, protéger vos informations sensibles ou travailler avec différents niveaux de confiance, Qubes OS fournit un cadre résilient et transparent. En adoptant de bonnes pratiques et en exploitant pleinement ses fonctionnalités, vous disposerez d’une **forteresse numérique** adaptée aux menaces modernes. Découvrez notre cursus sur la protection de ses données et de sa confidentialité.
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+
 
 

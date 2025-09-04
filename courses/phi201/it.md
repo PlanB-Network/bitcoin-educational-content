@@ -1007,7 +1007,7 @@ Nel 1789, fu ancora La Fayette, con Jefferson, a porre le prime fondamenta della
 
 ### La ricchezza delle Nazioni
 
-Adam Smith pubblicò nel 1776 _Un'indagine sulla natura e le cause della Ricchezza delle Nazioni_. Un'opera prolifica che spesso lo categorizza come economista anche se insegnava filosofia morale all'Università di Glasgow. In modo caricaturale, è ricordato come il padre dell'economia moderna.
+Adam Smith pubblicò nel 1776 _Un'indagine sulla natura e le cause della ricchezza delle nazioni_. Un'opera prolifica che spesso lo categorizza come economista anche se insegnava filosofia morale all'Università di Glasgow. In modo caricaturale, è ricordato come il padre dell'economia moderna.
 
 ![immagine](assets/4/img-070.webp)
 
@@ -1015,7 +1015,7 @@ In realtà, Smith doveva molto agli economisti Quesnay e Turgot che incontrò du
 
 Ecco il passaggio più famoso:
 
-> Favorire il successo dell'industria nazionale rispetto a quella straniera, l'individuo pensa solo a garantirsi una maggiore sicurezza; e dirigendo questa industria in modo che il suo prodotto sia del massimo valore possibile, pensa solo al proprio guadagno; in questo, come in molti altri casi, è condotto da una mano invisibile a raggiungere un fine che non fa affatto parte delle sue intenzioni; e non è sempre la cosa peggiore per la società che questo fine non faccia parte delle sue intenzioni. (_La Ricchezza delle Nazioni_)
+> Favorire il successo dell'industria nazionale rispetto a quella straniera, l'individuo pensa solo a garantirsi una maggiore sicurezza; e dirigendo questa industria in modo che il suo prodotto sia del massimo valore possibile, pensa solo al proprio guadagno; in questo, come in molti altri casi, è condotto da una mano invisibile a raggiungere un fine che non fa affatto parte delle sue intenzioni; e non è sempre la cosa peggiore per la società che questo fine non faccia parte delle sue intenzioni. (_La ricchezza delle nazioni_)
 
 Questa famosa mano invisibile illustra l'idea che la libera concorrenza in un mercato libero porta a un'allocazione efficiente delle risorse e a una massimizzazione del benessere generale.
 
@@ -1023,7 +1023,7 @@ Il contributo più importante di Smith alla libertà fu chiarire l'idea di ordin
 
 Questa idea di ordine spontaneo diventerà un concetto chiave nel lavoro di Friedrich Hayek, che riconoscerà il suo debito verso l'Illuminismo scozzese e in particolare verso Adam Smith.
 
-## L'Età delle rivoluzioni
+## L'età delle rivoluzioni
 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
@@ -1043,7 +1043,7 @@ L'idea fu ispirata da Locke nel XVII secolo e poi ripresa da Rousseau. Il potere
 
 Rousseau concepisce il popolo come un individuo autonomo capace di sottomettersi alle leggi che stabilisce. La libera volontà del popolo costituisce l'unica fondazione giusta della sovranità. Rousseau avrebbe sviluppato questo umanesimo legale, caratteristico della Modernità, alle sue ultime conseguenze concependo il popolo come un individuo capace di autodeterminarsi liberamente o come una volontà generale. Così, il contratto comporta la sottomissione a leggi che l'uomo come volontà generale dà a sé stesso come volontà particolare. La teoria della volontà generale o della sovranità del popolo consente quindi la riconciliazione di libertà e sottomissione. L'auto-istituzione della legge o l'autonomia politica è stata infatti un componente essenziale della democrazia sin da Rousseau.
 
-Ma la questione dell'origine della sovranità non è l'unica. La riflessione può prendere una nuova direzione, quella del modo di esercizio della sovranità. La volontà generale è sempre giusta? E soprattutto, è autorizzata a intervenire nella società civile e entro quali limiti?
+Ma la questione dell'origine della sovranità non è l'unica. La riflessione può prendere una nuova direzione, quella del modo di esercizio della sovranità. La volontà generale è sempre giusta? E soprattutto, è autorizzata a intervenire nella società civile ed entro quali limiti?
 
 ### La teoria del potere limitato
 
@@ -1051,7 +1051,7 @@ Uno dei filosofi dell'Illuminismo la cui influenza è stata molto forte in Franc
 
 Tutti i sistemi precedenti avevano considerato che le libertà sono solo privilegi concessi dal potere in virtù di un'autorizzazione che può essere revocata in qualsiasi momento. Per Locke, la vita di un uomo gli appartiene di diritto in virtù di un diritto naturale (significato: in virtù di un principio morale insito nella natura umana) e che l'unico scopo morale di un governo è la protezione dei diritti individuali.
 
-Locke assegna allo stato la missione di difendere la proprietà individuale, intendendo "vita, libertà e proprietà":
+Locke assegna allo Stato la missione di difendere la proprietà individuale, intendendo "vita, libertà e proprietà":
 
 > Il grande e principale fine, quindi, per cui gli uomini si uniscono in comunità e si sottomettono al governo, è la conservazione della loro proprietà. (Due trattati sul governo, § 87).
 
@@ -1065,10 +1065,10 @@ Inoltre, l'articolo 2 della Dichiarazione dei Diritti del 1789 si ispira anche a
 
 ### Due rivoluzioni a confronto
 
-La Rivoluzione Americana fu guidata da uomini che parlavano di diritti fondamentali inalienabili. Portò alla formazione di uno stato di diritto decentralizzato e limitato. Dall'altro lato dell'Atlantico, si svolse un altro esperimento politico: la Rivoluzione Francese, che iniziò come un coraggioso sollevamento del popolo, terminò in una serie di massacri, sanguinosi conflitti interni e spianò la strada alla dittatura militare di Napoleone Bonaparte. Perché una tale differenza?
+La Rivoluzione Americana fu guidata da uomini che parlavano di diritti fondamentali inalienabili. Portò alla formazione di uno Stato di diritto decentralizzato e limitato. Dall'altro lato dell'Atlantico, si svolse un altro esperimento politico: la Rivoluzione Francese, che iniziò come un coraggioso sollevamento del popolo, terminò in una serie di massacri, sanguinosi conflitti interni e spianò la strada alla dittatura militare di Napoleone Bonaparte. Perché una tale differenza?
 Nel XIX secolo, Alexis de Tocqueville, un filosofo politico francese, tentò di individuare queste differenze tra le due rivoluzioni sorelle. Attribuisce il successo della Rivoluzione Americana a diversi fattori.
 
-Primo, nel modo di definire la repubblica. La Repubblica Francese è una e indivisibile. La Repubblica Americana è composta da stati sovrani, ognuno dei quali possiede la propria giurisdizione e interessi locali. Il federalismo è considerato tradimento in Francia. In America, il tradimento consisterebbe nel voler imporre l'unità. Almeno fino alla Guerra Civile Americana, l'Unione nella diversità degli Stati era la forza della Federazione.
+Primo, nel modo di definire la Repubblica. La Repubblica Francese è una e indivisibile. La Repubblica Americana è composta da Stati sovrani, ognuno dei quali possiede la propria giurisdizione e interessi locali. Il federalismo è considerato tradimento in Francia. In America, il tradimento consisterebbe nel voler imporre l'unità. Almeno fino alla Guerra Civile Americana, l'Unione nella diversità degli Stati era la forza della Federazione.
 
 Sostiene anche che la fede dell'America in una legge superiore ha giocato un ruolo decisivo. La Dichiarazione d'Indipendenza proclama che tutti gli uomini sono creati uguali, che sono dotati di certi diritti inalienabili (vita, libertà, proprietà e ricerca della felicità) e che lo scopo di un governo è unicamente quello di garantire questi diritti. Si trattava di ripristinare principi e ideali che erano stati calpestati dalla corona britannica.
 
@@ -1090,13 +1090,13 @@ La notte del 4 agosto 1789 è l'evento fondativo della Rivoluzione Francese, anc
 
 In Francia, alla fine del 1791, la carestia esacerbò il malcontento popolare. Le rivolte paralizzarono il commercio del grano e il pane era scarso. Un vasto movimento richiedeva la legge agraria, ovvero la distribuzione da parte dello Stato della produzione di grano. L'Assemblea, tuttavia, resistette a questo tentativo di collettivizzazione. Inizialmente, votò per la confisca dei beni della Chiesa e, in un secondo momento, la Costituzione Civile del Clero. La confisca dei beni della Chiesa mirava ad evitare la crisi finanziaria; era intesa a servire come garanzia per gli Assignat (Certificati di credito sostitutivi della moneta), significando un'emissione massiccia di moneta cartacea. Inoltre, come Dupont de Nemours aveva previsto, l'emissione di valuta falsa peggiorò solo la crisi, causando un'inflazione diffusa e un forte calo del valore degli Assignat. Ad agosto 1792, le rivolte della fame a loro volta portarono all'insurrezione di Parigi, all'esecuzione di Luigi XVI nel gennaio 1793 e poi al Regno del Terrore.
 
-Nel 1795, cinque anni dopo la prima emissione, la moneta cartacea aveva perso il 99% del suo valore. La Rivoluzione Francese continuò sotto il Direttorio fino al 1799, quando Napoleone prese il potere attraverso un colpo di stato. Divenne il Primo Console della Repubblica Francese prima di essere incoronato Imperatore nel 1804. Questa fu una delle prime evidenti contraddizioni con la Dichiarazione dei Diritti dell'Uomo, che proclamava che la proprietà privata era inviolabile.
+Nel 1795, cinque anni dopo la prima emissione, la moneta cartacea aveva perso il 99% del suo valore. La Rivoluzione Francese continuò sotto il Direttorio fino al 1799, quando Napoleone prese il potere attraverso un colpo di Stato. Divenne il Primo Console della Repubblica Francese prima di essere incoronato Imperatore nel 1804. Questa fu una delle prime evidenti contraddizioni con la Dichiarazione dei Diritti dell'Uomo, che proclamava che la proprietà privata era inviolabile.
 
-In America, non c'era un dirigismo economico, né un fallimento monetario come quello degli Assignat. E soprattutto, non c'erano proscrizioni, nessuna emigrazione di massa, nessuna ghigliottina, nessun massacro e nessun Regno del Terrore. Immediatamente, si può vedere la differenza nei mezzi d'azione che separa la Rivoluzione Americana dalla Rivoluzione Francese.
+In America, non c'era uno statalismo economico, né un fallimento monetario come quello degli Assignat. E soprattutto, non c'erano proscrizioni, nessuna emigrazione di massa, nessuna ghigliottina, nessun massacro e nessun Regno del Terrore. Immediatamente, si può vedere la differenza nei mezzi d'azione che separa la Rivoluzione Americana dalla Rivoluzione Francese.
 
 Con Rousseau e Robespierre, i francesi volevano credere che la Nazione o la volontà generale avessero un potere illimitato e giustificassero tutto. Dal fatto che il popolo governava, si concludeva che avesse tutti i diritti. C'era chiaramente una contraddizione tra i grandi principi della Rivoluzione e i mezzi impiegati per farli trionfare.
 
-Questo è, peraltro, il senso dell'osservazione di Friedrich Hayek nel suo libro _La Costituzione della Libertà_:
+Questo è, peraltro, il senso dell'osservazione di Friedrich Hayek nel suo libro _La costituzione della libertà_:
 
 > Il fattore decisivo che rese vani gli sforzi della Rivoluzione a favore della promozione della libertà individuale fu che creò l'illusione che, in quanto tutto il potere era stato consegnato al popolo, tutte le precauzioni contro l'abuso di questo potere fossero diventate inutili.
 
@@ -1121,7 +1121,7 @@ Questa definizione di libertà si trova in John Stuart Mill:
 
 > L'unica libertà che merita questo nome è quella di perseguire il nostro bene a modo nostro, purché non tentiamo di privare gli altri del loro o di ostacolare i loro sforzi per ottenerlo. (...) L'umanità guadagna di più lasciando che ciascuno viva come ritiene opportuno piuttosto che costringendolo a vivere come gli altri ritengono giusto (_Sulla libertà_, 1859).
 
-Mill delinea i limiti della sovranità statale: si ferma dove inizia la sovranità dell'individuo. Se un'azione individuale non ha conseguenze dannose per gli altri, allora l'individuo è completamente libero di compierla. Lo Stato deve regolare le relazioni interindividuali, ma non può andare oltre, interferendo nella vita privata degli individui. Se l'individuo si danneggia, lo Stato non può fare altro che "rimproverare" o cercare di "ragionare" o "persuadere": non può costringere o punire. Poiché Mill aggiunge: "L'unica ragione legittima per cui uno stato può usare la forza contro uno dei suoi membri, contro la loro volontà, è per prevenire che venga fatto del male ad altri."
+Mill delinea i limiti della sovranità statale: si ferma dove inizia la sovranità dell'individuo. Se un'azione individuale non ha conseguenze dannose per gli altri, allora l'individuo è completamente libero di compierla. Lo Stato deve regolare le relazioni interindividuali, ma non può andare oltre, interferendo nella vita privata degli individui. Se l'individuo si danneggia, lo Stato non può fare altro che "rimproverare" o cercare di "ragionare" o "persuadere": non può costringere o punire. Poiché Mill aggiunge: "L'unica ragione legittima per cui uno Stato può usare la forza contro uno dei suoi membri, contro la loro volontà, è per prevenire che venga fatto del male ad altri."
 
 Il potere politico corrispondente alla libertà dei Moderni è quindi un potere limitato: "Lasciate che l'autorità si limiti ad essere giusta, ci prenderemo cura della nostra felicità," proclama Benjamin Constant. Non spetta allo Stato dirci come essere felici.
 
@@ -1131,10 +1131,10 @@ Secondo Constant, "la confusione di questi due tipi di libertà è stata, tra no
 
 Ma ciò non significa sacrificare la libertà politica, la partecipazione al potere. Constant specifica che se la libertà moderna differisce dalla libertà antica, è minacciata da un pericolo di tipo diverso. Il pericolo della libertà degli antichi era l'arbitrio. Il pericolo della libertà dei Moderni sarebbe quello di rinunciare alle garanzie politiche di questa libertà attraverso una sorta di indifferenza al bene pubblico. In altre parole, spetta ai cittadini esercitare una vigilanza permanente sui loro rappresentanti.
 
-Infatti, nei suoi _Principi di Politica_, Benjamin Constant afferma:
+Infatti, nei suoi _Principi di politica_, Benjamin Constant afferma:
 
 > La sovranità del popolo non è illimitata, è circoscritta entro i confini tracciati dalla giustizia e dai diritti degli individui. La volontà di un intero popolo non può rendere giusto ciò che è ingiusto.
-> Questa è una nuova critica di Rousseau e del _Contratto Sociale_: anche una volontà generale è soggetta a limiti e non può cambiare ciò che rientra nella legge naturale. Esiste un diritto anteriore e superiore all'autorità politica: è la legge naturale. Questo diritto stabilisce i confini del potere politico e limita le libertà individuali.
+> Questa è una nuova critica di Rousseau e del _Contratto sociale_: anche una volontà generale è soggetta a limiti e non può cambiare ciò che rientra nella legge naturale. Esiste un diritto anteriore e superiore all'autorità politica: è la legge naturale. Questo diritto stabilisce i confini del potere politico e limita le libertà individuali.
 > Dire che tutto il potere legittimo deve essere fondato sulla volontà generale non significa che tutto ciò che la volontà generale decide sia legittimo. Constant si allinea così alla Dichiarazione dei Diritti dell'Uomo del 1789, Articolo II, che stabilisce che lo Stato è istituito solo per preservare i diritti naturali, ovvero la libertà, la responsabilità e la proprietà. Ci sono quindi ambiti in cui il potere politico non ha influenza: la morale e la religione, ma anche le scienze che rientrano nell'autorità della conoscenza e infine l'industria, aggiunge Constant.
 
 ### Libertà politica e libertà economica
@@ -1153,7 +1153,7 @@ Alexis de Tocqueville è stato un acuto osservatore della democrazia e un critic
 
 ![image](assets/5/img-095.webp)
 
-L'analisi della democrazia di Tocqueville estende essenzialmente la distinzione fatta da Constant tra la libertà degli Antichi e quella dei Moderni. Nel suo articolo del 1836 (_Stato Sociale e Politico della Francia Prima e Dopo il 1789_), Tocqueville confronta metodicamente la libertà aristocratica con la libertà democratica. La prima è definita come "Il godimento di un privilegio," e Tocqueville cita l'esempio del cittadino romano che ottiene la sua libertà non dalla natura ma dal suo appartenere a Roma.
+L'analisi della democrazia di Tocqueville estende essenzialmente la distinzione fatta da Constant tra la libertà degli Antichi e quella dei Moderni. Nel suo articolo del 1836 (_Stato sociale e politico della Francia prima e dopo il 1789_), Tocqueville confronta metodicamente la libertà aristocratica con la libertà democratica. La prima è definita come "Il godimento di un privilegio," e Tocqueville cita l'esempio del cittadino romano che ottiene la sua libertà non dalla natura ma dal suo appartenere a Roma.
 Il secondo concetto, che è "la nozione corretta di libertà," consiste in un "diritto uguale e inalienabile di vivere indipendentemente dai propri pari." Questa nozione moderna di libertà non è quindi come la prima una nozione politica; si basa sulla legge naturale ed è "corretta" perché si estende ugualmente a ogni uomo. È scritto:
 
 > Secondo la nozione moderna, la nozione democratica, e oserei dire la nozione corretta di libertà, ogni uomo, presumendo di aver ricevuto dalla natura l'illuminazione necessaria per condurre se stesso, porta alla nascita un diritto uguale e inalienabile di vivere indipendentemente dai suoi simili, in tutto ciò che riguarda solo se stesso, e di regolare come crede opportuno il proprio destino. Tocqueville è attento a identificare tutti gli effetti politici e culturali di questo nuovo modo di essere, tipicamente moderno. Ammiratore di Pascal, mira a dipingere la grandezza e le miserie della democrazia.
@@ -1190,7 +1190,7 @@ In questo discorso, Tocqueville confronta il socialismo all'Ancien Régime, per 
 
 Cosa pensava Frédéric Bastiat della democrazia? Rispose già nel 1846:
 
-> Sono per la democrazia, se con questa parola intendete: A ciascuno la proprietà del suo lavoro, libertà per tutti, uguaglianza per tutti, giustizia per tutti, e pace tra tutti. (_Libero Scambio_).
+> Sono per la democrazia, se con questa parola intendete: A ciascuno la proprietà del suo lavoro, libertà per tutti, uguaglianza per tutti, giustizia per tutti, e pace tra tutti. (_Libero scambio_).
 
 ![image](assets/5/img-088.webp)
 
@@ -1198,12 +1198,12 @@ Ma nel 1848, dopo la rivoluzione di febbraio, Bastiat fu eletto deputato delle L
 
 Sotto il regno delle idee socialiste, Bastiat osservò che la macchina elettorale veniva utilizzata per saccheggiare i soldi pubblici, così il cittadino:
 
-> Le finanze pubbliche non tarderanno a cadere in completo disordine. Come potrebbe essere altrimenti quando lo Stato è incaricato di fornire tutto per tutti? Il popolo sarà schiacciato dalle tasse, un prestito seguirà l'altro; dopo aver esaurito il presente, il futuro sarà divorato. Infine, poiché sarà accettato in principio che lo Stato è responsabile della creazione della fraternità a favore dei cittadini, l'intero popolo sarà trasformato in supplicanti. Proprietà terriera, agricoltura, industria, commercio, marina, imprese industriali, tutto si agiterà per reclamare i favori dello Stato. Il tesoro pubblico sarà letteralmente saccheggiato. ([_Giustizia e Fraternità_](http://bastiat.org/fr/justice_fraternite.html))
+> Le finanze pubbliche non tarderanno a cadere in completo disordine. Come potrebbe essere altrimenti quando lo Stato è incaricato di fornire tutto per tutti? Il popolo sarà schiacciato dalle tasse, un prestito seguirà l'altro; dopo aver esaurito il presente, il futuro sarà divorato. Infine, poiché sarà accettato in principio che lo Stato è responsabile della creazione della fraternità a favore dei cittadini, l'intero popolo sarà trasformato in supplicanti. Proprietà terriera, agricoltura, industria, commercio, marina, imprese industriali, tutto si agiterà per reclamare i favori dello Stato. Il tesoro pubblico sarà letteralmente saccheggiato. ([_Giustizia e fraternità_](http://bastiat.org/fr/justice_fraternite.html))
 
 Lo Stato diventa quindi, secondo le parole di Bastiat,
 
 > la grande finzione attraverso la quale tutti cercano di vivere a spese di tutti gli altri. ([_Lo Stato_](http://bastiat.org/fr/l_etat.html))
-> Bastiat sviluppa anche l'idea che il conflitto nasca quando la legge si allontana dal suo ruolo legittimo. Nel suo famoso opuscolo [_La Legge_](http://bastiat.org/fr/la_loi.html), dimostra perché e come la legge sia diventata "il campo di battaglia di tutte le avidità", intendendo una fonte di privilegi, rendite situazionali e tassazione arbitraria. Non appena si ammette in principio che la legge possa essere deviata dalla sua vera missione, che possa violare le proprietà invece di garantirle, segue necessariamente una lotta di classe, sia per difendersi dalla spoliazione sia per organizzarla a proprio vantaggio.
+> Bastiat sviluppa anche l'idea che il conflitto nasca quando la legge si allontana dal suo ruolo legittimo. Nel suo famoso opuscolo [_La legge_](http://bastiat.org/fr/la_loi.html), dimostra perché e come la legge sia diventata "il campo di battaglia di tutte le avidità", intendendo una fonte di privilegi, rendite situazionali e tassazione arbitraria. Non appena si ammette in principio che la legge possa essere deviata dalla sua vera missione, che possa violare le proprietà invece di garantirle, segue necessariamente una lotta di classe, sia per difendersi dalla spoliazione sia per organizzarla a proprio vantaggio.
 > ![image](assets/5/img-098.webp)
 
 Nei casi in cui la legge si limita a far rispettare i diritti di ogni individuo e garantisce _"l'organizzazione collettiva del diritto individuale alla legittima difesa"_, nessuno è in grado di sfruttarla a proprio vantaggio a spese di tutti, a tal punto che la stessa forma di governo diventa una questione secondaria.
@@ -1212,11 +1212,11 @@ Nei casi in cui la legge si limita a far rispettare i diritti di ogni individuo 
 
 Secondo Bastiat, la democrazia socialista porta a un deficit permanente nei bilanci e, in ultima analisi, alla violenza. Infatti, moltiplicando senza sosta le promesse e non essendo in grado di mantenerle, la macchina elettorale sviluppa un'amarezza che pone le basi per le rivoluzioni. Egli scrive:
 
-> Ma se il governo si assume il compito di aumentare e regolare i salari e non può farlo; se si assume il compito di assistere tutte le sfortune e non può farlo; se si assume il compito di fornire pensioni a tutti i lavoratori e non può farlo... non lo vediamo, ahimè, alla fine di ogni delusione? più che probabile, c'è una rivoluzione altrettanto inevitabile. ([_La Legge_](http://bastiat.org/fr/la_loi.html))
+> Ma se il governo si assume il compito di aumentare e regolare i salari e non può farlo; se si assume il compito di assistere tutte le sfortune e non può farlo; se si assume il compito di fornire pensioni a tutti i lavoratori e non può farlo... non lo vediamo, ahimè, alla fine di ogni delusione? più che probabile, c'è una rivoluzione altrettanto inevitabile. ([_La legge_](http://bastiat.org/fr/la_loi.html))
 
 La conclusione di Bastiat:
 
-> Guardate il globo. Quali sono i popoli più felici, più morali e più pacifici? Quelli dove la Legge interviene meno nell'attività privata; dove il governo si fa sentire di meno; dove l'individualità ha più resilienza e l'opinione pubblica più influenza; dove i meccanismi amministrativi sono meno numerosi e meno complicati; le tasse meno onerose e meno diseguali; il malcontento popolare meno provocato e meno giustificabile; dove la responsabilità degli individui e delle classi è più attiva, e dove, di conseguenza, se la moralità non è perfetta, tende inesorabilmente a correggersi; dove le transazioni, gli accordi, le associazioni sono meno ostacolati; dove il lavoro, il capitale e la popolazione soffron0 meno i spostamenti artificiali ([_La Legge_](http://bastiat.org/fr/la_loi.html))
+> Guardate il globo. Quali sono i popoli più felici, più morali e più pacifici? Quelli dove la Legge interviene meno nell'attività privata; dove il governo si fa sentire di meno; dove l'individualità ha più resilienza e l'opinione pubblica più influenza; dove i meccanismi amministrativi sono meno numerosi e meno complicati; le tasse meno onerose e meno diseguali; il malcontento popolare meno provocato e meno giustificabile; dove la responsabilità degli individui e delle classi è più attiva, e dove, di conseguenza, se la moralità non è perfetta, tende inesorabilmente a correggersi; dove le transazioni, gli accordi, le associazioni sono meno ostacolati; dove il lavoro, il capitale e la popolazione soffrono meno gli spostamenti artificiali ([_La legge_](http://bastiat.org/fr/la_loi.html))
 
 ## La critica marxista al capitalismo
 
@@ -1226,13 +1226,13 @@ Fu durante il XIX secolo che emerse la critica al capitalismo, e in particolare 
 
 ![image](assets/5/img-089.webp)
 
-Che senso ha il diritto di parlare, scrivere e votare, esclamava Marx, se la vita quotidiana è una lotta per la sopravvivenza? Oltre una certa soglia, la povertà equivale a servitù. L'ordine sociale quindi giova a tutti solo se viene applicato il principio di una giusta distribuzione dei beni. Fu questa critica al liberalismo che portò Marx a considerare la necessità di un controllo razionale e pianificato dell'ordine sociale. Da qui in poi, lo stato minimo dei liberali deve essere succeduto da uno stato forte capace di stabilire una vera eguaglianza, che, secondo Marx, arriva fino all'abolizione della proprietà privata e alla sua collettivizzazione. In una versione più mitigata, la "democrazia sociale", si chiede allo stato di garantire non solo i diritti astratti dell'uomo ma i diritti concreti dell'uomo. Vengono creati nuovi diritti, diritti sociali ed economici, garantiti dallo stato: il diritto al lavoro, il diritto all'abitazione, il diritto alla salute (gratuita), il diritto all'istruzione (gratuita).
+Che senso ha il diritto di parlare, scrivere e votare, esclamava Marx, se la vita quotidiana è una lotta per la sopravvivenza? Oltre una certa soglia, la povertà equivale a servitù. L'ordine sociale quindi giova a tutti solo se viene applicato il principio di una giusta distribuzione dei beni. Fu questa critica al liberalismo che portò Marx a considerare la necessità di un controllo razionale e pianificato dell'ordine sociale. Da qui in poi, lo Stato minimo dei liberali deve essere succeduto da uno Stato forte capace di stabilire una vera eguaglianza, che, secondo Marx, arriva fino all'abolizione della proprietà privata e alla sua collettivizzazione. In una versione più mitigata, la "democrazia sociale", si chiede allo Stato di garantire non solo i diritti astratti dell'uomo ma i diritti concreti dell'uomo. Vengono creati nuovi diritti, diritti sociali ed economici, garantiti dallo Stato: il diritto al lavoro, il diritto all'abitazione, il diritto alla salute (gratuita), il diritto all'istruzione (gratuita).
 
-### Il mito dello stato imparziale
+### Il mito dello Stato imparziale
 
-La critica fondamentale che Marx fa al liberalismo politico, in particolare nei suoi scritti giovanili (_Critica della filosofia del diritto di Hegel_ e _Sulla questione ebraica_), si concentra sulla separazione tra società civile e stato. Questa critica deve essere compresa all'interno del quadro generale della sua interpretazione della "Rivoluzione Borghese". È questa rivoluzione che porta alla formazione di uno stato separato dalla società civile, che si suppone miri all'universale, intendendo l'interesse comune, svolgendo il ruolo di arbitro imparziale.
+La critica fondamentale che Marx fa al liberalismo politico, in particolare nei suoi scritti giovanili (_Critica della filosofia del diritto di Hegel_ e _Sulla questione ebraica_), si concentra sulla separazione tra società civile e Stato. Questa critica deve essere compresa all'interno del quadro generale della sua interpretazione della "Rivoluzione Borghese". È questa rivoluzione che porta alla formazione di uno Stato separato dalla società civile, che si suppone miri all'universale, intendendo l'interesse comune, svolgendo il ruolo di arbitro imparziale.
 
-Tuttavia, tutto ciò è, per Marx, solo un'apparenza ingannevole. In realtà, lo stato non è altro che uno strumento destinato a servire gli interessi particolari della classe dominante. In altre parole, lo stato non è imparziale; non è separato dalla società civile. Infatti, lo stato liberale è il luogo di una doppia illusione. L'illusione dell'universale, come abbiamo appena visto, e di conseguenza, l'illusione dell'emancipazione. Infatti, la Rivoluzione ha emancipato il cittadino istituendo la sovranità popolare e l'uguaglianza davanti alla legge, ma questa libertà e uguaglianza rimangono puramente ideali e astratte. È falso, dice Marx, pensare, come Rousseau o Hegel, che l'uomo realizzi pienamente la sua natura razionale diventando cittadino. In realtà, si può diventare cittadini e rimanere sfruttati, schiavizzati, abbandonati ai capricci dei desideri, all'anarchia dell'egoismo e alla legge del più forte.
+Tuttavia, tutto ciò è, per Marx, solo un'apparenza ingannevole. In realtà, lo Stato non è altro che uno strumento destinato a servire gli interessi particolari della classe dominante. In altre parole, lo Stato non è imparziale; non è separato dalla società civile. Infatti, lo Stato liberale è il luogo di una doppia illusione. L'illusione dell'universale, come abbiamo appena visto, e di conseguenza, l'illusione dell'emancipazione. Infatti, la Rivoluzione ha emancipato il cittadino istituendo la sovranità popolare e l'uguaglianza davanti alla legge, ma questa libertà e uguaglianza rimangono puramente ideali e astratte. È falso, dice Marx, pensare, come Rousseau o Hegel, che l'uomo realizzi pienamente la sua natura razionale diventando cittadino. In realtà, si può diventare cittadini e rimanere sfruttati, schiavizzati, abbandonati ai capricci dei desideri, all'anarchia dell'egoismo e alla legge del più forte.
 
 L'emancipazione del cittadino, secondo Marx, non significa affatto l'emancipazione dell'uomo, come suggerisce la Dichiarazione del 1789, ma piuttosto il trionfo dell'individualismo distruttivo e quindi della disuguaglianza. La libertà come il potere di fare qualsiasi cosa che non danneggi gli altri, un pilastro dei diritti umani, è una libertà puramente negativa che non stabilisce una relazione tra gli uomini ma, al contrario, promuove la loro separazione, il loro antagonismo e, in ultima analisi, la loro servitù. La libertà dei diritti umani è una libertà formale.
 
@@ -1264,7 +1264,7 @@ Ad esempio, un datore di lavoro assume un lavoratore perché ha bisogno delle su
 Ludwig von Mises evidenzia che Marx non è riuscito a distinguere tra ciò che appartiene all'ideologia borghese nei diritti umani e ciò che significano nella pratica, i cambiamenti che comportano nella vita sociale. Molti pensatori critici dei diritti umani hanno commesso lo stesso errore. Questo è stato anche il caso per i controrivoluzionari, come Joseph de Maistre o Louis de Bonald.
 
 In _L'etica della libertà_ e _Anatomia dello Stato_, Murray Rothbard ha spiegato che lo sfruttamento ha senso solo come un'aggressione contro la proprietà privata e che solo lo Stato ottiene le sue entrate attraverso l'aggressione, cioè attraverso la tassazione, il debito, la stampa di moneta, e quindi attraverso l'inflazione. In realtà, è l'intervento dello Stato, e non la lotta di classe, che è la fonte di violenza e conflitti nella società. Lo Stato, appropriandosi delle risorse e regolando l'economia, crea distorsioni e ingiustizie che portano a conflitti e repressione. Porre fine allo sfruttamento richiede quindi di ridurre i poteri della casta predatrice: lo Stato.
-Su questo punto, si veda anche: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Autunno 1990. [Traduzione di François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Incluso come Capitolo 4 di _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+Su questo punto, si veda anche: _Analisi di classe marxista e austriaca_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Autunno 1990. [Traduzione di François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Incluso come Capitolo 4 di _L'economia e l'etica della proprietà privata_ (Boston: Kluwer Academic Publishers, 1993).
 
 ### Polilogismo
 
@@ -1278,7 +1278,7 @@ Eppure, fino alla metà del XIX secolo, nessuno osò contestare il fatto che la 
 
 Mises scrive:
 
-> Marx e i marxisti (...) hanno insegnato che il pensiero è determinato dalla situazione di classe del pensatore. Ciò che il pensiero produce non è la verità, ma ideologie. Nel contesto della filosofia marxista, questa parola significa un travestimento dell'interesse egoistico della classe di appartenenza dell'individuo pensante. Ecco perché è inutile discutere di qualsiasi cosa con persone di un'altra classe sociale. Le ideologie non devono essere confutate con il ragionamento deduttivo; devono essere smascherate denunciando la situazione di classe, il contesto sociale dei loro autori. Così, i marxisti non discutono i meriti delle teorie fisiche; semplicemente rivelano l'origine borghese dei fisici. (_The Omnipotent Government_).
+> Marx e i marxisti (...) hanno insegnato che il pensiero è determinato dalla situazione di classe del pensatore. Ciò che il pensiero produce non è la verità, ma ideologie. Nel contesto della filosofia marxista, questa parola significa un travestimento dell'interesse egoistico della classe di appartenenza dell'individuo pensante. Ecco perché è inutile discutere di qualsiasi cosa con persone di un'altra classe sociale. Le ideologie non devono essere confutate con il ragionamento deduttivo; devono essere smascherate denunciando la situazione di classe, il contesto sociale dei loro autori. Così, i marxisti non discutono i meriti delle teorie fisiche; semplicemente rivelano l'origine borghese dei fisici. (_Il governo onnipotente_).
 
 A giudizio dei marxisti, Ricardo, Freud, Bergson ed Einstein sbagliano perché sono borghesi. Così, i marxisti sostengono che la struttura logica della mente sarebbe diversa a seconda dell'appartenenza di classe. Ogni classe avrebbe la propria logica e quindi la propria economia, matematica, fisica, e così via. L'unica logica e l'unica scienza esatta, corretta ed eterna sarebbero quelle dei marxisti.
 
@@ -1290,7 +1290,7 @@ Gli austriaci affermano che la teoria del valore-lavoro di Marx, secondo cui il 
 
 ![immagine](assets/5/img-087.webp)
 
-Eugen von Böhm-Bawerk, uno dei primi economisti austriaci, criticò la teoria del valore del lavoro di Marx nella sua opera _Wert, Kapital und Zins_ (1886). Böhm-Bawerk sosteneva che la teoria di Marx si basasse su un errore fondamentale, ovvero che tutte le unità di lavoro siano identiche. In realtà, argomentava, alcuni lavori sono più ardui o più produttivi di altri, e questo è ciò che determina il valore di una merce. Riguardo alla teoria del profitto, Marx sosteneva che il profitto è una forma di furto. È il concetto di sfruttamento, secondo il quale i capitalisti estraggono un valore in eccesso ingiusto dal lavoro dei lavoratori. Gli austriaci confutano questa idea sostenendo che i salari sono determinati dal valore che i lavoratori apportano alle aziende, e che i profitti sono la ricompensa per gli imprenditori che assumono rischi e investono in modo efficiente. Il profitto è quindi una ricompensa per l'imprenditore che assume rischi e investe in nuovi prodotti e processi.
+Eugen von Böhm-Bawerk, uno dei primi economisti austriaci, criticò la teoria del valore del lavoro di Marx nella sua opera _Valore, capitale e interesse_ (1886). Böhm-Bawerk sosteneva che la teoria di Marx si basasse su un errore fondamentale, ovvero che tutte le unità di lavoro siano identiche. In realtà, argomentava, alcuni lavori sono più ardui o più produttivi di altri, e questo è ciò che determina il valore di una merce. Riguardo alla teoria del profitto, Marx sosteneva che il profitto è una forma di furto. È il concetto di sfruttamento, secondo il quale i capitalisti estraggono un valore in eccesso ingiusto dal lavoro dei lavoratori. Gli austriaci confutano questa idea sostenendo che i salari sono determinati dal valore che i lavoratori apportano alle aziende, e che i profitti sono la ricompensa per gli imprenditori che assumono rischi e investono in modo efficiente. Il profitto è quindi una ricompensa per l'imprenditore che assume rischi e investe in nuovi prodotti e processi.
 Friedrich Hayek sviluppò una teoria del profitto basata sul concetto di incertezza, che affonda le radici nell'opera di Jean-Baptiste Say. Secondo Hayek, gli imprenditori guadagnano un profitto perché sono in grado di prevedere meglio le future esigenze dei consumatori rispetto ad altri attori economici.
 
 ### L'Impossibilità del calcolo economico
@@ -1305,16 +1305,16 @@ Già nel 1922, nel suo libro _Socialismo,_ Ludwig von Mises dimostrò che il soc
 
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
-Allarmato dalla crescita dell'interventismo governativo nelle economie delle democrazie occidentali, Hayek scrisse _La Strada della Servitù_ come critica filosofica del collettivismo, sia di destra che di sinistra. Pubblicato in diversi milioni di copie, grazie al _Reader’s Digest_, questo libro ha contribuito enormemente alla fama di Hayek negli Stati Uniti.
+Allarmato dalla crescita dell'interventismo governativo nelle economie delle democrazie occidentali, Hayek scrisse _La Strada della servitù_ come critica filosofica del collettivismo, sia di destra che di sinistra. Pubblicato in diversi milioni di copie, grazie al _Reader’s Digest_, questo libro ha contribuito enormemente alla fama di Hayek negli Stati Uniti.
 
 ![immagine](assets/5/img-100.webp)
 
 ### Il fascino del collettivismo
 
-Scritto tra il 1940 e il 1943, questo breve saggio mira a fornire una valutazione iniziale degli esperimenti dirigisti tentati nella seconda metà degli anni '30: le nazionalizzazioni e la gestione keynesiana della domanda che hanno preso piede nell'Europa socialdemocratica e nella Nuova America del Deal. Dedicato ai "socialisti di tutti i partiti", cerca di dimostrare che "l'Occidente ha gradualmente abbandonato il principio della libertà economica senza il quale nessuna libertà individuale o politica è stata precedentemente possibile."
-Infatti, lo stesso processo di centralizzazione politica e lo stesso desiderio di sostituire un'organizzazione dirigista con i meccanismi tradizionali del mercato si trovano ovunque. In Gran Bretagna come negli Stati Uniti, si afferma che il potere pubblico deve pianificare tutto e può risolvere tutto.
+Scritto tra il 1940 e il 1943, questo breve saggio mira a fornire una valutazione iniziale degli esperimenti statalisti tentati nella seconda metà degli anni '30: le nazionalizzazioni e la gestione keynesiana della domanda che hanno preso piede nell'Europa socialdemocratica e nella Nuova America del Deal. Dedicato ai "socialisti di tutti i partiti", cerca di dimostrare che "l'Occidente ha gradualmente abbandonato il principio della libertà economica senza il quale nessuna libertà individuale o politica è stata precedentemente possibile."
+Infatti, lo stesso processo di centralizzazione politica e lo stesso desiderio di sostituire un'organizzazione statalista con i meccanismi tradizionali del mercato si trovano ovunque. In Gran Bretagna come negli Stati Uniti, si afferma che il potere pubblico deve pianificare tutto e può risolvere tutto.
 
-Per quanto riguarda il liberalismo autentico, esso si preoccupa della giustizia. Ma Hayek ci ricorda che spetta alla società civile e non allo Stato organizzare questa solidarietà. Ciò che differenzia il liberalismo dal socialismo non sono i fini, ma i mezzi. Secondo Hayek,
+Per quanto riguarda il liberalismo autentico, esso si preoccupa della giustizia. Ma Hayek ci ricorda che spetta alla società civile e non allo Stato organizzare questa solidarietà. Ciò che differenzia il liberalismo dal socialismo non sono i fini, ma i mezzi. Secondo Hayek:
 
 > Il liberalismo vuole che facciamo il miglior uso possibile delle forze della concorrenza come mezzo per coordinare gli sforzi umani; non vuole che lasciamo le cose come stanno.
 
@@ -1356,7 +1356,7 @@ Il capitalismo è spesso accusato di essere la fonte dell'iniziativa: "dobbiamo 
 
 ### L'analisi della crisi del 1929
 
-Pubblicato nel 1936, il libro di John Maynard Keynes: _La Teoria Generale dell'Occupazione, dell'Interesse e della Moneta_, ha spazzato via tutto sul suo cammino. Interrogandosi sulle cause della Grande Depressione e sui mezzi per uscirne, descrive un nuovo paradigma economico, che avrebbe convertito generazioni di economisti e politici.
+Pubblicato nel 1936, il libro di John Maynard Keynes: _La teoria generale dell'occupazione, dell'interesse e della moneta_, ha spazzato via tutto sul suo cammino. Interrogandosi sulle cause della Grande Depressione e sui mezzi per uscirne, descrive un nuovo paradigma economico, che avrebbe convertito generazioni di economisti e politici.
 
 ![image](assets/6/img-005.webp)
 
@@ -1374,7 +1374,7 @@ Con Keynes, il XX secolo è diventato il secolo della fiducia negli esperti e ne
 
 ### L'eredità controversa di Keynes
 
-Per Keynes, l'intervento dello stato è necessario per stimolare la domanda e riavviare il motore economico. Questa dottrina ha trionfato nelle università e nei libri di testo. Eppure, l'intervento dello Stato ha i suoi difetti e può esacerbare le crisi a lungo termine invece di risolverle.
+Per Keynes, l'intervento dello Stato è necessario per stimolare la domanda e riavviare il motore economico. Questa dottrina ha trionfato nelle università e nei libri di testo. Eppure, l'intervento dello Stato ha i suoi difetti e può esacerbare le crisi a lungo termine invece di risolverle.
 
 ![image](assets/6/img-010.webp)
 
@@ -1386,22 +1386,22 @@ Insieme ad altri, ha anche evidenziato il pericolo della centralizzazione e mani
 
 Diplomatosi all'École Polytechnique nel 1919, Rueff ha avuto una carriera come alto funzionario e consulente economico per numerosi governi negli anni '20 e '30. La sua opera principale è apparsa nel 1945: _L’ordre social_ (L'Ordine Sociale), in cui sviluppa un potente argomento a favore del libero mercato, da punti di vista economico, filosofico e morale.
 
-Questo libro include un capitolo chiave intitolato: "Moneta sana o Stato totalitario". In questo capitolo, sviluppa due proposizioni. La prima: "La moneta falsa genera disordine sociale". La seconda proposizione deriva dalla prima: "Il disordine sociale genera schiavitù sociale". La moneta falsa è la valuta cartacea, scollegata da qualsiasi realtà fisica e manipolata dal potere dominante. Il disordine sociale è l'inflazione e il consumismo che ne derivano. La schiavitù sociale è la dipendenza della società dallo stato, la perdita di tutta l'autonomia finanziaria, morale e politica.
+Questo libro include un capitolo chiave intitolato: "Moneta sana o Stato totalitario". In questo capitolo, sviluppa due proposizioni. La prima: "La moneta falsa genera disordine sociale". La seconda proposizione deriva dalla prima: "Il disordine sociale genera schiavitù sociale". La moneta falsa è la valuta cartacea, scollegata da qualsiasi realtà fisica e manipolata dal potere dominante. Il disordine sociale è l'inflazione e il consumismo che ne derivano. La schiavitù sociale è la dipendenza della società dallo Stato, la perdita di tutta l'autonomia finanziaria, morale e politica.
 
-Nel 1947, cinque anni dopo la traduzione francese della _Teoria Generale_, pubblicò un articolo intitolato: _Gli errori della Teoria Generale di Lord Keynes_. Espone i seguenti avvertimenti:
+Nel 1947, cinque anni dopo la traduzione francese della _Teoria generale_, pubblicò un articolo intitolato: _Gli errori della teoria generale di Lord Keynes_. Espone i seguenti avvertimenti:
 
 > È probabile che il prossimo periodo di depressione porterà alla diffusa applicazione della politica suggerita da Lord Keynes in tutto il mondo. Non ho paura di sbagliarmi affermando che questa politica ridurrà solo in piccola parte la disoccupazione, ma avrà profonde conseguenze sull'evoluzione dei paesi in cui sarà applicata. (...) A causa di Lord Keynes, il prossimo ciclo sarà un'opportunità per profondi cambiamenti politici, che alcuni sperano, mentre altri temono. In ogni caso, basandosi su una teoria falsa, i rimedi che saranno implementati avranno ripercussioni profondamente diverse da quelle che erano intese promuovere. La loro inefficacia sarà, per una grande parte dell'opinione pubblica, un nuovo motivo per richiedere la sostituzione di un regime che, negando se stesso, si sarà distrutto.
 
 A partire dal 1958, una politica per rettificare l'economia francese, ispirata da Jacques Rueff, sarà condotta sotto l'autorità del Generale de Gaulle. Porterà alle famose "Trente Glorieuses" (Trent'anni Gloriosi).
 
-Nel _Peccato Monetario dell'Occidente_, nel 1971, Rueff scrive:
+Nel _Peccato monetario dell'Occidente_, nel 1971, Rueff scrive:
 
 > È attraverso il deficit di bilancio che gli uomini perdono la loro libertà.
 
 Aggiunge: "L'inflazione consiste nel sovvenzionare spese che non fruttano nulla con denaro che non esiste." Secondo lui: "Si potrebbe pensare, osservando l'evoluzione del sistema monetario internazionale, che l'Occidente stia applicando il consiglio di Lenin, secondo il quale: Per distruggere il regime borghese, basta corrompere la sua moneta.
 
 Nel 1976, attacca una ultima volta il Keynesismo in un articolo per il giornale _Le Monde_.
-Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occupazione. Spinta dal ricordo delle tragedie della disoccupazione che hanno devastato l'Inghilterra e la Germania durante gli anni '20, è diventata il principio fondamentale, espresso o implicito, della politica economica in quasi ogni paese del mondo. Nascondendo il suo scopo sotto l'astuto e specioso travestimento della "teoria generale", elevata da discepoli entusiasti e ciechi davanti all'azione governativa, ha mascherato il vero volto delle politiche inflazionistiche che copriva. Attraverso questo deviazione, ha dato una buona coscienza ai governi che, avendo esaurito le loro possibilità di tasse e prestiti, hanno fatto ricorso ai piaceri ingannevoli della creazione monetaria. (_La fine dell'era Keynesiana o: Quando il lungo periodo è scaduto_, Euromoney, aprile 1976, pp.70-7.)
+Nessuna religione si è diffusa nel mondo così rapidamente come quella dell'occupazione. Spinta dal ricordo delle tragedie della disoccupazione che hanno devastato l'Inghilterra e la Germania durante gli anni '20, è diventata il principio fondamentale, espresso o implicito, della politica economica in quasi ogni paese del mondo. Nascondendo il suo scopo sotto l'astuto e specioso travestimento della "teoria generale", elevata da discepoli entusiasti e ciechi davanti all'azione governativa, ha mascherato il vero volto delle politiche inflazionistiche che copriva. Attraverso questo deviazione, ha dato una buona coscienza ai governi che, avendo esaurito le loro possibilità di tasse e prestiti, hanno fatto ricorso ai piaceri ingannevoli della creazione monetaria. (_La fine dell'era Keynesiana: quando il lungo periodo è scaduto_, Euromoney, aprile 1976, pp.70-7.)
 
 ## L'abbandono del gold standard
 
@@ -1417,10 +1417,10 @@ E si scopre che una particolare forma di denaro si è gradualmente distinta dagl
 
 Infatti, l'oro è una valuta solida, difficile da produrre, costosa da contraffare. Il mercato ha scelto l'oro come la valuta più affidabile, più duratura e meno manipolabile. La storia mostra che quando gli individui possono scegliere la valuta che usano, tendono a scegliere l'oro.
 
-Ecco perché, in _Azione Umana_, Ludwig von Mises scrive:
+Ecco perché, in _Azione umana_, Ludwig von Mises scrive:
 
 > Lo standard oro era lo standard mondiale dell'era capitalista, di crescente prosperità, libertà e democrazia \[…\] Era lo standard internazionale di cui il commercio internazionale e i mercati mondiali del capitale avevano bisogno \[…\] Ha portato industria, capitale e civiltà occidentale nei più remoti angoli del pianeta, creando una ricchezza precedentemente sconosciuta.
-> Ma il gold standard costringe i governi a finanziare le loro spese tramite tasse piuttosto che inflazione, il che spiega una certa ostilità da parte delle élite politiche ed economiche verso questo sistema. Perché collegare la valuta a un metallo prezioso limita la capacità delle banche centrali di finanziare la crescita dello stato sociale attraverso la tassa indiretta che è l'inflazione.
+> Ma il gold standard costringe i governi a finanziare le loro spese tramite tasse piuttosto che inflazione, il che spiega una certa ostilità da parte delle élite politiche ed economiche verso questo sistema. Perché collegare la valuta a un metallo prezioso limita la capacità delle banche centrali di finanziare la crescita dello Stato sociale attraverso la tassa indiretta che è l'inflazione.
 
 Ecco perché già nel 1923, Keynes dichiarava:
 
@@ -1440,9 +1440,9 @@ Infatti, per molti economisti keynesiani, l'abbandono del gold standard diede ai
 
 ![immagine](assets/6/img-009.webp)
 
-Secondo Alan Greenspan, ex presidente della FED (banca centrale americana) il gold standard è incompatibile con il debito statale e il finanziamento dello stato sociale:
+Secondo Alan Greenspan, ex presidente della FED (banca centrale americana) il gold standard è incompatibile con il debito statale e il finanziamento dello Stato sociale:
 
-> Ho sempre nutrito nostalgia per la stabilità dei prezzi intrinseca al gold standard; un obiettivo primario era una valuta stabile. Ma da tempo ho ammesso che il gold standard non si adatta facilmente al predominio di un governo, in particolare il dovere di garantire un sistema di sicurezza sociale. \[…\] La maggior parte degli americani ha tollerato l'inflazione come prezzo da pagare per avere uno stato sociale moderno. Non ci sono più sostenitori del gold standard, e vedo poche possibilità del suo ritorno. (_The Age of Turbulence_).
+> Ho sempre nutrito nostalgia per la stabilità dei prezzi intrinseca al gold standard; un obiettivo primario era una valuta stabile. Ma da tempo ho ammesso che il gold standard non si adatta facilmente al predominio di un governo, in particolare il dovere di garantire un sistema di sicurezza sociale. \[…\] La maggior parte degli americani ha tollerato l'inflazione come prezzo da pagare per avere uno Stato sociale moderno. Non ci sono più sostenitori del gold standard, e vedo poche possibilità del suo ritorno. (_L'era della turbolenza_).
 > Al contrario, per persone come Jacques Rueff, abbandonare il metallo prezioso è un errore che può solo portare a una continua diminuzione del potere d'acquisto, accompagnata da una diminuzione della qualità di vita, un aumento della disuguaglianza dei redditi e una crescente instabilità economica.
 > 
 > ![immagine](assets/6/img-008.webp)
@@ -1482,13 +1482,13 @@ Questa situazione è in realtà la conseguenza di un cambiamento intellettuale r
 
 Nel 1941, George Orwell fece questa valutazione:
 
-> È chiaro che l'epoca del capitalismo libero sta giungendo al termine e che un paese dopo l'altro sta adottando un'economia centralizzata che può essere chiamata socialismo o capitalismo di stato, come preferite. In questo sistema, la libertà economica dell'individuo e, in larga misura, la sua libertà in generale - libertà di agire, di scegliere il proprio lavoro, di spostarsi - scompaiono. Solo molto recentemente abbiamo iniziato a intravedere le implicazioni di questo fenomeno. In precedenza, non era mai stato immaginato che la scomparsa della libertà economica potesse influenzare la libertà intellettuale. Si pensava solitamente che il socialismo fosse una sorta di liberalismo arricchito con una morale. Lo Stato si sarebbe preso carico della tua vita economica e ti avrebbe liberato dalla paura della povertà, della disoccupazione, ecc., ma non avrebbe avuto bisogno di interferire nella tua vita intellettuale privata. Ora è stato dimostrato che queste visioni erano false.
+> È chiaro che l'epoca del capitalismo libero sta giungendo al termine e che un paese dopo l'altro sta adottando un'economia centralizzata che può essere chiamata socialismo o capitalismo di Stato, come preferite. In questo sistema, la libertà economica dell'individuo e, in larga misura, la sua libertà in generale - libertà di agire, di scegliere il proprio lavoro, di spostarsi - scompaiono. Solo molto recentemente abbiamo iniziato a intravedere le implicazioni di questo fenomeno. In precedenza, non era mai stato immaginato che la scomparsa della libertà economica potesse influenzare la libertà intellettuale. Si pensava solitamente che il socialismo fosse una sorta di liberalismo arricchito con una morale. Lo Stato si sarebbe preso carico della tua vita economica e ti avrebbe liberato dalla paura della povertà, della disoccupazione, ecc., ma non avrebbe avuto bisogno di interferire nella tua vita intellettuale privata. Ora è stato dimostrato che queste visioni erano false.
 
 Ma contrariamente a quanto annunciano i profeti di sventura, la civiltà occidentale non è destinata a scomparire nel XXI secolo. Non ha esaurito le sue potenzialità. La libertà deve ancora venire.
 
 Questo è ciò che Murray Rothbard suggeriva nel 1982:
 
-> Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. Ovunque nel mondo occidentale all'inizio del XX secolo, leader aziendali, politici e intellettuali avevano iniziato a chiamare per un sistema di economia mista "nuovo", di dominazione statale, in luogo del relativo laissez-faire del secolo precedente. Nuove panacee, attraenti a prima vista, come il socialismo, lo Stato corporativo, lo Stato del Benessere-Guerra, ecc., sono state provate e tutte hanno evidentemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come suppliche per un sistema vecchio, esausto e fallito. Cosa resta da provare se non la libertà?
+> Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. Ovunque nel mondo occidentale all'inizio del XX secolo, leader aziendali, politici e intellettuali avevano iniziato a richiedere un "nuovo" sistema di economia mista, di dominazione statale, in luogo del relativo laissez-faire del secolo precedente. Nuove panacee, attraenti a prima vista, come il socialismo, lo Stato corporativo, lo Stato del Benessere-Guerra, ecc., sono state provate e tutte hanno chiaramente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come suppliche per un sistema vecchio, esausto e fallito. Cosa resta da provare se non la libertà?
 
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
 

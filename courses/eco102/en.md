@@ -830,148 +830,158 @@ What is certain, he argues, is that politics cannot perfect humanity or change t
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-Can a harmonious society do without written laws, rules, repressive measures? If men are left free, won't we witness disorder, anarchy, disorganization? How to avoid creating a mere juxtaposition of individuals acting outside of any concert, if not through laws and a centralized political organization?
-
-This is the argument often invoked by those who demand market regulation or society alone capable of coordinating individuals into a coherent and harmonious whole.
+Can a harmonious society exist without written laws, rules, or repressive measures? If people are left free, won’t this lead to disorder, anarchy, and disorganization? How can we avoid ending up with nothing more than a collection of individuals acting without coordination unless we rely on laws and centralized political authority?
 
 ![image](assets/en/095.webp)
 
-This is not Bastiat's view. According to him, the social mechanism, like the celestial mechanism or the mechanism of the human body, obeys general laws. In other words, it is already a harmoniously organized whole. And the engine of this organization is the free market.
+This is the usual argument made by those who call for state regulation of markets and insist that only the state can coordinate individuals into a coherent, harmonious whole.
 
-The miracle of the free market, he tells us, is that it uses knowledge that no one person can possess alone and that it provides satisfactions far superior to anything an artificial organization could do.
+Bastiat disagrees. He argues that the social mechanism—like the movement of the planets or the functioning of the human body—already follows natural laws. It is, by itself, a harmoniously organized whole. And its engine, he insists, is the free market.
 
-Bastiat gives a few examples to illustrate the benefits of this market. We have become so accustomed to this phenomenon that we no longer pay attention to it.
-Let's consider a carpenter in a village, he says, and observe all the services he provides to society and all those he receives:
+The miracle of the free market, Bastiat explains, is that it draws on knowledge no single individual could ever possess and produces outcomes far superior to anything an artificial organization could design.
 
-> Every day, upon waking up, he dresses, and he personally made none of his clothes. Yet, for these clothes to be available to him, an enormous amount of work, industry, transportation, and ingenious inventions had to be accomplished worldwide.  
->  
-> Then he has breakfast. For the bread he eats to arrive on his table every morning, lands had to be cleared, plowed; iron, steel, wood, stone had to be converted into work tools; all things that each, taken separately, assume an incalculable mass of work put into play, not only in space but in time.  
->  
-> This man will send his son to school, to receive an education that presupposes research, many years of prior study.  
-> He goes outside: he finds a paved and lit street.  
->  
-> His property is contested: he will find lawyers to defend his rights, judges to maintain them, justice officers to execute the sentence; all things that still presuppose acquired knowledge, hence enlightenment and means of existence.  
+To illustrate this, Bastiat asks us to consider a village carpenter and observe all the services he receives and provides:
 
-Bastiat describes the market as a decentralized and invisible tool of cooperation. Through the price system, it transmits information about everyone's needs and skills, it connects people who want to cooperate to improve their existence.
+> “Every morning, when he gets dressed, he has made none of his clothes himself. Yet, to provide him with those clothes, vast amounts of labor, skill, transportation, and ingenious invention had to be coordinated worldwide.
+>
+> Then he eats breakfast. For the bread on his table to be there, lands had to be cleared and plowed; iron, steel, wood, and stone transformed into tools—all requiring immense amounts of labor across space and time.
+>
+> He sends his son to school, where he receives an education built on years of prior study and research.
+>
+> He walks outside on paved, well-lit streets.
+>
+> If his property is contested, lawyers, judges, and officers of justice stand ready to defend his rights—services that, again, require knowledge, learning, and resources accumulated over centuries.”
 
-What is striking, Bastiat concludes, is the immense disproportion that exists between the benefits this man draws from society and those he would provide to himself if he were reduced to his own resources. In a single day, he consumes goods that he could not produce himself.
+The market, Bastiat concludes, is a vast, decentralized system of cooperation. Through the price mechanism, it spreads information about needs, resources, and skills, connecting people who want to collaborate to improve each other’s lives.
+
+What is most striking, Bastiat notes, is the enormous gap between all the goods and services this man consumes in a single day and what he could produce on his own if he relied solely on his own resources.
 
 ![image](assets/en/096.webp)
 
-In 1958, American writer Leonard Read (Foundation for Economic Education) published a short essay in The Freeman magazine, written in the manner of Bastiat, which became very famous: "I, Pencil". This text is a metaphor for what a free market is. It begins like this:
+In 1958, American writer Leonard Read of the Foundation for Economic Education published a short essay in *The Freeman* magazine, written in Bastiat’s spirit, that became world-famous: *I, Pencil*. The essay begins:
 
-> I am a lead pencil, an ordinary wooden pencil familiar to all boys and girls and adults who can read and write. It is one of the simplest objects in human civilization. And yet not a single person on this earth knows how to produce me.  
+> “I am a lead pencil, an ordinary wooden pencil familiar to all boys and girls and adults who can read and write. It is one of the simplest objects in human civilization. And yet not a single person on this earth knows how to produce me.”
 
 ![image](assets/en/097.webp)
-It revisits Bastiat's idea of an invisible cooperation among millions of individuals who do not know each other, leading to the construction of something as mundane as a pencil. No one knows how to make a pencil on their own. Yet, millions of human beings unknowingly participate in the creation of this simple pencil, exchanging and coordinating their knowledge and skills within a price system without any superior authority dictating their conduct. This story demonstrates that free individuals working in pursuit of their legitimate interest act more for the benefit of society than any planned and centralized economic strategy.
 
-The 1976 Nobel Prize in Economics, Milton Friedman, also revisited this pencil story to explain to the general public how the market economy works.
+The story captures Bastiat’s idea of invisible cooperation among millions of people who do not know each other but collectively produce even the simplest of objects. No single person knows how to make a pencil on their own. Yet millions of individuals, pursuing their own interests, unknowingly work together through voluntary exchange and the price system—without any central authority directing them. This, Read shows, benefits society far more than any centralized plan could.
 
-In an episode of his television series Free to Choose, he analyzes the various components of something as mundane and simple as a pencil and highlights the miracle of spontaneous order, generated by thousands of economic interactions across the world. People who do not know each other, who do not share the same religion or customs, still manage to coordinate to produce this object. He concludes that the free market is essential to ensure not only prosperity but also harmony and peace.
+The 1976 Nobel laureate Milton Friedman later used the pencil story in his television series *Free to Choose*. He broke down the pencil’s components—wood, graphite, rubber, metal—and showed how people from different continents, faiths, and customs, without ever meeting, coordinate to produce this simple object. He concluded that the free market is essential not only for prosperity but also for harmony and peace.
 
 ![image](assets/en/098.webp)
 
-Friedrich Hayek, in his essay "The Use of Knowledge in Society" in 1945, already explained why the market economy and the decentralization of decisions are vital for prosperity. According to Hayek, no central planner or bureaucrat could ever have sufficient knowledge to successfully guide the entirety of economic actions. Only the price system in a free market allows millions of independent actors to decide for themselves how to efficiently allocate resources.
+Similarly, Friedrich Hayek, in his 1945 essay *The Use of Knowledge in Society*, explained why decentralization and the price system are indispensable for prosperity. No central planner or bureaucrat can ever possess the vast, dispersed knowledge required to guide all economic decisions. Only the free market, through prices, allows millions of individuals to allocate resources efficiently.
 
 ![image](assets/en/099.webp)
 
-Economic planning, which claims to do better than the market, leads not only to a poor allocation of resources but also to the hegemony of one class over another. That is why socialism is not only an intellectual mistake but a mistake that ultimately generates immense injustice.
+Economic planning that claims to outperform the market inevitably leads to waste, misallocation of resources, and, ultimately, domination by one class over another. That is why, Hayek argued, socialism is not only an intellectual error but also a path to profound injustice.
 
 ## Freedom and Responsibility are the Key to the Social Problem
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-In a letter to Alphonse de Lamartine in 1845, Bastiat wrote that his entire philosophy is contained in a single principle:
+In a letter to Alphonse de Lamartine in 1845, Bastiat wrote that his entire philosophy rested on a single principle:
 
-> Freedom is the best form of social organization.  
+> “Freedom is the best form of social organization.”
 
 ![image](assets/en/100.webp)
-However, he adds a condition:
 
-> That the law should not eliminate the consequences, positive or negative, of everyone's actions. This is the corollary principle of responsibility.  
+But he immediately added a crucial condition:
 
-In other words, freedom and responsibility cannot be separated; they are inseparable. For him, liberalism is distinguished from socialism by the belief that freedom cannot exist without responsibility. But what realities do the words freedom and responsibility exactly cover?
+> “The law should not eliminate the consequences, positive or negative, of everyone’s actions.”
 
-Freedom is essentially defined in a negative way: to be free is to act without external coercion in the exercise of one's own rights. However, this does not mean the absence of all constraints. Because freedom calls for reciprocity: it also imposes on us to act without infringing on the property of others and thus to repair any harm done, if necessary. This is responsibility.
+This is what he called the *principle of responsibility*.
 
-Therefore, responsibility represents, in a way, the positive aspect of freedom: insofar as one acts freely, one must bear the consequences of one's own actions, good or bad.
+For Bastiat, freedom and responsibility are inseparable. Liberalism differs from socialism precisely because it recognizes that freedom cannot exist without personal responsibility.
 
-Individual responsibility is both a major vector of creativity and an incentive for caution and foresight.
+Freedom, he explained, is defined negatively: to be free means acting without external coercion in exercising one’s own rights. But this does not mean the absence of all constraints. Freedom requires reciprocity: it obliges us to respect the rights and property of others and, when necessary, to repair any harm we cause. This is the essence of responsibility.
+
+Responsibility, then, is the positive side of freedom: if one acts freely, one must bear the consequences of one’s actions, whether good or bad. It is also a powerful source of creativity as well as a strong incentive for prudence and foresight.
 
 ![image](assets/en/101.webp)
 
-When one spends their own money, one is careful not to get too indebted, to check the quality of products, the reliability of suppliers, at the risk of being heavily penalized. Such is the power of responsibility, allied with freedom it is the true engine of social progress.
+When people spend their own money, they are careful: they avoid excessive debt, check product quality, and verify supplier reliability—because mistakes cost them directly. This is the power of responsibility. Combined with freedom, it becomes the true engine of social progress.
 
-But where does the phenomenon of irresponsibility or desponsibilization come from? Frédéric Bastiat gives us an answer to this question, a political answer. He says, I quote:
+But where does irresponsibility—or what Bastiat calls *desponsibilization*—come from? He gives a clear political answer:
 
-> The intervention of the State takes away the governance of ourselves.  
+> “The intervention of the State takes away the governance of ourselves.”
 
-Indeed, statism continuously reduces private initiative and the free choice of people. It does for them what they could do themselves and better. It thus subtracts individuals from the consequences of their acts. It destroys responsibility.
+Indeed, statism steadily reduces private initiative and free choice. It does for people what they could do themselves—often better. By removing individuals from the consequences of their own actions, it destroys responsibility.
 
 ![image](assets/en/102.webp)
 
-According to Bastiat, the hypertrophy of laws and the excessive intervention of the State have the consequence of engendering the struggle for power, spoliation, privileges, monopolies, wars, in short, everything that obstructs the progress of civilization.
-The risk of overly favoring the path of law or bureaucratic control is that it discourages all motivation by imposing a deluge of constraints, thus depriving us of the multiple advancements that private initiative and free choice allow.
+For Bastiat, the hypertrophy of laws and the constant expansion of state power inevitably lead to privilege-seeking, plunder, monopolies, wars, and all the obstacles to civilization’s progress. The more we rely on bureaucratic control, the more we drown under constraints, discouraging initiative and suppressing the very creativity and innovation that drive advancement.
 
-Let's illustrate this issue with a few major current topics. First example, the 2008 crisis.
+He illustrates this point with contemporary examples, starting with the 2008 financial crisis.
 
 ![image](assets/en/103.webp)
-_(Alan Greenspan, Chairman of the FED, the American central bank, from 1987 to 2006)_
+*(Alan Greenspan, Chairman of the Federal Reserve, 1987–2006)*
 
-For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly. They thus precipitated finance into the crisis we experienced.
+For years, monetary policymakers made it clear: when times are good, profits are privatized; when times are bad, losses are socialized through bailouts, rescue plans, interest rate manipulation, and money printing. This created *moral hazard*, encouraged reckless risk-taking, and led directly to the financial crisis.
 
 ![image](assets/en/104.webp)
 
-And the phenomenon will repeat indefinitely as long as banks remain under the domination of central authorities supposed to protect them by removing all autonomy of decision and operation.
+And this phenomenon, Bastiat warns, will continue indefinitely as long as banks remain under the control of central authorities that claim to protect them while stripping them of all autonomy in decision-making and operation.
 
-Another example: public services
+Another example he gives is public services:
 
 ![image](assets/en/105.webp)
 
-Each public service imposes the preferences of a bureaucratic elite, to the detriment of individual free choice. This leads to two consequences according to Bastiat: The citizen "stops exercising free control over his own satisfactions, and, no longer having the responsibility, naturally he ceases to have the intelligence." The reason is simple: every written law is coercive and it is the same for everyone, it takes no account of the particular situations, needs, and preferences of the citizens.
+Each public service imposes the preferences of a bureaucratic elite at the expense of individual free choice. This leads to two main consequences, according to Bastiat:
 
-Finally, the public service is a cause of immobility. Indeed, when private services become public, they escape competition. Consequently, says Bastiat, I quote: "the official is devoid of that stimulus which pushes towards progress."
+* Citizens “stop exercising free control over their own satisfactions, and, no longer having the responsibility, naturally they cease to have the intelligence.”
+
+The reason is simple: every law is coercive and uniform. It takes no account of individual needs, preferences, or circumstances.
+
+Moreover, public services breed stagnation. When private services become public, they escape competition. As Bastiat put it:
+
+> “The official is devoid of that stimulus which pushes toward progress.”
 
 ![image](assets/en/106.webp)
 
-When we observe the public service of national education, we understand what Bastiat means. It relieves the vast majority of parents of the burden of educating their children, reducing school to a daycare. It does not encourage teachers to innovate and take risks because in such a system they are merely executors of a program designed without them, by bureaucrats. Finally, it ignores the reality of the particular needs of each individual.
+Look, for example, at the public education system. Bastiat observes that it relieves most parents of their responsibility to educate their children, turning school into little more than a daycare. Teachers, bound by rigid programs designed by bureaucrats, have little incentive to innovate or adapt to individual needs.
 
 ![image](assets/en/107.webp)
-We will see in another course, according to Bastiat, the only legitimate public services of a state are threefold: the military, the police, and the judiciary. But to conclude on responsibility, the problem with state intervention is that those who make decisions are not the ones who suffer the consequences.
-In other words, collective choices are not responsible choices since, on one hand, they entail no risk-taking for the decision-makers, and on the other hand, they force others to suffer certain consequences, which is as disastrous as it is immoral.
+
+As we will see in another course, Bastiat argued that the only legitimate public services of the state are the military, the police, and the judiciary.
+
+To conclude on responsibility: the core problem with state intervention is that those who make decisions do not bear the consequences. Collective decisions often impose risks and costs on others while shielding the decision-makers themselves—a system Bastiat regarded as both disastrous and immoral.
 
 ## The Power of Responsibility
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-In the previous course, we saw why freedom and responsibility are key to the social problem. We will now delve deeper into this point by showing how Frédéric Bastiat views the evils that afflict societies and their solution.
+In the previous chapter, we saw why freedom and responsibility are essential to solving the social problem. Now, we will look more closely at how Frédéric Bastiat views the evils that afflict societies and the solutions he proposes.
 
-Liberals have sometimes been criticized for ignoring evil and constructing the utopia of pure and perfect freedom in an ideal world. This criticism is absolutely unfounded regarding our author.
+Liberals are sometimes accused of ignoring evil and imagining a utopia of perfect freedom in an ideal world. Bastiat proves this criticism unfounded.
 
-No one can ignore the evil that reigns in the history of human societies: injustices, wars, and suffering. We would like to be able to eliminate these evils. This is, moreover, the object of a large part of modern philosophies, from Rousseau to Heidegger, through Hegel and Marx.
+No one can deny the presence of evil throughout human history: injustices, wars, and suffering. We would like to eliminate these evils entirely. Modern philosophers from Rousseau to Hegel, Marx, and even Heidegger have all tried to do so in theory.
 
-Evil is not only a definitive reality but it also has a role to play in history and in human action, says Frédéric Bastiat. It can be reduced but certainly not completely eradicated because that would mean killing freedom and responsibility. So where does evil come from, what is its role, and how can it be prevented?
+But Bastiat argues that evil not only exists—it also plays a role in history and human action. It can be reduced but never fully eradicated because doing so would mean destroying freedom and responsibility themselves.
 
-To answer these questions, Bastiat will proceed to analyze human action. This, indeed, can lead to both good and evil.
+So where does evil come from? What role does it play? And how can we prevent it?
+
+To answer these questions, Bastiat analyzes human action, which can lead to both good and evil outcomes.
 
 ![image](assets/en/108.webp)
 
-Evil first stems from our imperfection. To choose freely is to run the risk of making a bad choice, says Bastiat. Indeed, we can be deceived in many ways, even about our own needs and interests. Man is fallible, he is prone to err in understanding the play of economic laws or to divert them from their end.
+Evil, he explains, first stems from our imperfection. To choose freely is to risk making bad choices. People can be wrong about their needs, interests, or the consequences of their actions. Human beings are fallible, often misunderstanding or even misusing economic laws.
 
-Therefore, it is the imperfection of reason that is the main limit of men and which remains at the origin of our sufferings.
-If evil stems from human weakness and not from freedom itself, nor from free trade, the remedy is not in the suppression of freedom or exchange but in responsibility itself, since it is the source of all experience. This principle of responsibility is as follows, I quote Bastiat:
+Therefore, it is the imperfection of reason—not freedom or free trade—that causes suffering. And since evil stems from human weakness, the solution is not to suppress freedom but to embrace responsibility, because responsibility is the source of all learning and experience.
 
-> Every man who acts receives the reward or punishment of his actions.  
+As Bastiat puts it:
 
-Through this natural sanction, man learns, discovers, corrects himself, progresses, and improves. In other words, responsibility is a principle of perfectibility and progress as we have seen in the previous course.
+> Every man who acts receives the reward or punishment of his actions.
+
+Through this natural consequence, people learn, correct mistakes, and make progress. Responsibility, therefore, becomes the foundation of human improvement and social advancement.
 
 ![image](assets/en/109.webp)
 
-If a man bears the consequences, good or bad, of his decisions, he will tend to improve by learning from experience. Therefore, individual responsibility, which is the great educator of peoples according to Bastiat, the fundamental principle of all regulation of behaviors and societies, must be allowed to act.
+If a man bears the consequences—good or bad—of his decisions, he will naturally learn from experience and improve over time. For Bastiat, this is why individual responsibility is the greatest educator of humanity and the fundamental principle guiding behavior and society. It must be allowed to operate freely.
 
-Evil generates suffering, and suffering makes us understand the fault or error, it brings us back to the right path. It is through the knowledge of evil that we progress.
+Evil leads to suffering, and suffering teaches us to recognize our mistakes, guiding us back to the right path. It is through confronting the effects of error that we make progress.
 
-It is because man risks making mistakes or acting wrongly and suffering the consequences, that he is encouraged to be responsible. He will then strive to anticipate the hazards that could strike him in order to protect himself.
+Because man risks making mistakes and enduring their consequences, he is motivated to act responsibly. He learns to anticipate potential dangers and protect himself against them.
 
 ![image](assets/en/110.webp)
 
@@ -981,17 +991,19 @@ It is because man risks making mistakes or acting wrongly and suffering the cons
 
 ---
 
-Thus, it is clear that Bastiat is far from being blind. He does not deny the existence of evil. Man is weak, prone to error and fault. Nowhere will one see Bastiat deny the fact that the exercise of individual freedom is associated with the possibility of error, the possibility of an unreasonable or senseless choice.
+Thus, it is clear that Bastiat is far from naïve. He does not deny the existence of evil. Man is weak, prone to error and fault. Nowhere does Bastiat claim that individual freedom comes without the possibility of mistakes, poor judgment, or irrational choices.
 
-He simply asserts that if the source of evil lies in the absence of freedom, the remedy is in freedom itself, and more specifically in the full and entire exercise of personal responsibility.
+He simply argues that if the absence of freedom creates the conditions for evil, the remedy lies in freedom itself—more precisely, in the full and consistent exercise of personal responsibility.
 
 ![image](assets/en/111.webp)
 
-But if the misuse of freedom is at the origin of our woes, its proper use is the remedy, that is, the full and entire exercise of personal responsibility, based on the right of property. Social regulation, therefore, passes through responsibility, not through the intervention of the State in all areas, which is one of the great sources of spoliation and thus of evils.
+If the misuse of freedom gives rise to our woes, its proper use provides the cure. That cure is the responsible exercise of individual liberty, rooted in the right to property. Social order, therefore, depends on responsibility rather than on state intervention in all areas, which Bastiat sees as one of the main sources of plunder and social ills.
 
 ![image](assets/en/112.webp)
-Contrary to Rousseau, who seeks to eradicate evil through collective institutions, Frédéric Bastiat defends the possibility of evil and error, without which there is no freedom or individual responsibility. For it is this that alone allows, through a process of discovery, to progress and reduce social evils.
-It must be clarified that this development of progress through responsibility is by no means automatic. It is not at all, as with Hegel or Marx, a sort of natural or historical determinism, which would miraculously or mechanically lead to harmony and progress. It is about a gradual and indefinite reduction of evil and never about its definitive elimination.
+
+Contrary to Rousseau, who seeks to eradicate evil through collective institutions, Bastiat defends the necessity of freedom and the possibility of error. Without them, there is no responsibility, no discovery, and no progress. Only through this process of trial and error can societies reduce injustice and suffering over time.
+
+However, this progress is neither automatic nor inevitable. It is not, as in Hegel or Marx, the result of some historical or metaphysical determinism leading inevitably to harmony. For Bastiat, it is a gradual, ongoing effort—capable of reducing evil but never fully eradicating it.
 
 ## True and False Solidarity
 
@@ -999,19 +1011,17 @@ It must be clarified that this development of progress through responsibility is
 
 ![image](assets/en/113.webp)
 
-Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, what we would call today "social justice" or solidarity.
+Frédéric Bastiat, in his famous pamphlet *The Law,* denounces the perversion of law that consists of legalizing, under the name of "solidarity," what is in fact plunder. He points out the contradiction in trying to impose fraternity through law—what we might today call "social justice" or "solidarity."
 
 ![image](assets/en/114.webp)
 
-For morality is defined as voluntary behavior. When an individual is forced to give something they do not want to give, they are always the victim of theft.
+Morality, Bastiat argues, is defined by voluntary action. When someone is forced to give what they do not wish to give, they become the victim of legalized theft.
 
 ![image](assets/en/115.webp)
 
-Indeed, when a donation is made mandatory by law, it is no longer a moral attitude. The moral attitude of giving is replaced by the claim "to rights," which are claims on the labor of others. False solidarity is the call to live at the expense of others.
+Once a donation is made compulsory by law, it ceases to be a moral act. The virtue of giving is replaced by a supposed "right" to live at the expense of others. This is what Bastiat calls *the sophism of legal fraternity.* As he writes:
 
-This is what Bastiat calls "the sophism of legal fraternity." Let's quote him on this point:
-
-> Fraternity is spontaneous, or it is not. To decree it is to destroy it.  
+> Fraternity is spontaneous, or it is not. To decree it is to destroy it.
 
 And again:
 
@@ -1028,11 +1038,11 @@ And again:
 
 ---
 
-However, according to Bastiat, there is an alternative to mandatory state solidarity: "mutual aid society", the mutual and spontaneous assistance of men among themselves thanks to mutual aid societies. But he also foresaw that the State would eventually seize these mutuals to make them a unique and centralized body, encouraging spending and waste.
+However, Bastiat saw an alternative to compulsory state-run solidarity: *mutual aid societies*—the voluntary, spontaneous cooperation of individuals to support one another. Yet he also warned that the State would eventually absorb these societies, turning them into a centralized system marked by waste and excessive spending.
 
 ![image](assets/en/117.webp)
 
-In a pamphlet named "Justice and Fraternity", Bastiat also explores the idea of a simplified and fair tax system for financing collective needs (police, justice, army): incomes and profits would be subject to a single and proportional tax rate. This is what is known today as the "Flat Tax".
+In his pamphlet *Justice and Fraternity,* Bastiat also proposed a simplified and fair tax system to fund essential public services—police, justice, and the military. His idea was that all incomes and profits should be taxed at a single, proportional rate. Today, we know this as the *Flat Tax.*
 
 ![image](assets/en/118.webp)
 
@@ -1046,18 +1056,17 @@ In a pamphlet named "Justice and Fraternity", Bastiat also explores the idea of 
 
 ---
 
-Indeed, intra-family solidarity, local solidarity, or organized philanthropy are much more developed in countries that have a light tax system and a relatively high degree of economic freedom, such as Switzerland and the United States, whereas it is largely stifled in countries where the State has largely replaced individual responsibility, like France or Germany.
+Indeed, intra-family solidarity, local support networks, and organized philanthropy thrive in countries with low taxes and high economic freedom—such as Switzerland and the United States—while in countries where the state has replaced individual responsibility, like France or Germany, such solidarity is largely stifled.
 
-It is often fashionable to lament the "selfishness" that would prevail in liberal societies. But the exact opposite is true. When a society is burdened with taxes and individuals no longer own their property, they are not encouraged to give but rather to withdraw into themselves.
+It is often claimed that "selfishness" dominates liberal societies. In reality, the opposite is true. When heavy taxation strips individuals of their property, they are not inspired to give—they retreat into themselves.
 
 ![image](assets/en/119.webp)
 
-In reality, a free civil society does not rest on selfishness: the market economy operates on the basis of service to one's neighbor and reciprocity. One can only serve one's own interest by serving the interest of another, by offering the other a counterpart that leads to a mutually beneficial exchange. In other words, it is voluntary exchange that creates true solidarity.
+A free civil society does not run on selfishness. The market economy rests on service and reciprocity: one serves their own interests only by serving the interests of others, through mutually beneficial exchange. True solidarity arises from voluntary cooperation, not forced redistribution.
 
-Forced redistribution has nothing to do with authentic human solidarity, which is of a private or voluntary nature and which is seen within families, or between members of an association.
+Compulsory redistribution has nothing in common with authentic human solidarity, which is private, voluntary, and often rooted in families or associations.
 
-It is thus on the role of the law that Bastiat here opposes the socialists. He writes:
-Law can compel a man to be just, but it cannot force him to be devoted. The false solidarity of socialists eliminates devotion in favor of pure state coercion, which forms the basis of totalitarianism.
+On this point, Bastiat directly challenges the socialists. He writes that law can compel justice, but it cannot compel devotion. Forced solidarity replaces generosity with state coercion—and for Bastiat, this paves the way toward totalitarianism.
 
 # The Law
 
@@ -1067,51 +1076,50 @@ Law can compel a man to be just, but it cannot force him to be devoted. The fals
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-By property, we should not understand land here. It means "the right of a worker over the value he has created through his labor." Bastiat specifies:
+Here, property does not simply mean land. It means *the right of a worker over the value created by their labor.* Bastiat clarifies:
 
-> I consider that the right to property consists in the freedom to first dispose of one's own person, then of one's labor, and finally, of the products of one's labor - which proves, moreover, that, from a certain point of view, freedom and the right to property cannot be distinguished from one another.  
+> I consider that the right to property consists in the freedom to first dispose of one's own person, then of one's labor, and finally, of the products of one's labor—which proves, moreover, that, from a certain point of view, freedom and the right to property cannot be distinguished from one another.
 
-Having established this point, to understand the moral foundation of property, Bastiat starts from a simple anthropological principle that from the beginning, man must work to live and that the fruit of his labor is an extension of his faculties, that is, of his person.
+To establish the moral foundation of property, Bastiat starts with a simple anthropological principle: from the beginning, man has had to work to live, and the fruit of his labor is an extension of his faculties—indeed, of his very person.
 
-> Personality, Freedom, Property, — that is man. It is of these three things that one can say, without any demagogic subtlety, that they are prior to and superior to any human legislation.  
+> Personality, Freedom, Property—that is man. It is of these three things that one can say, without any demagogic subtlety, that they are prior to and superior to any human legislation.
 
-Understood in this sense, the right to Property is among those rights that do not derive from positive law but precede it and are its raison d'être. Indeed,
+Understood in this sense, the right to property does not come from positive law but instead precedes it and is its very reason for existence. As Bastiat writes:
 
-> The law is the collective organization of the individual right of legitimate defense.  
-> The Law  
+> The law is the collective organization of the individual right of legitimate defense.
 
-Its mission is to defend the person and his property.
+The law's mission is to defend the person and their property.
 
 ![image](assets/en/120.webp)
 _(François Quesnay, leader of the Physiocrats)_
 
-Therefore, the right is not the same thing as the law. The right is not identified with the sovereign's word, nor does it depend exclusively on his legitimacy. It is the product of a tradition, a legal order prior to and superior to the law, which imposes itself on the legislator as much as on any of the ordinary citizens.
+Therefore, right and law are not the same. Right is not defined by the word of the sovereign, nor does it depend solely on his legitimacy. It comes from a legal and moral order prior to and above the law itself—an order that binds the legislator just as much as ordinary citizens.
 
-The right "is not created". It is not invented from an ideal vision of what the laws of society should be; it is discovered in the nature of man and in the rules of civility, transmitted by the wisdom of customs.
-Individuals have natural rights that preexist the law: Property, Liberty, Personality. The role of the Law should be to preserve these natural rights of the individual. Consequently, the State must be limited. Today, we would say that Bastiat is an advocate of the minimal state.
+Right “is not created.” It is not invented from abstract theories about how society should be organized. It is discovered in human nature and in the traditions and customs shaped by experience over centuries.
+
+Individuals have natural rights that exist before the law: Property, Liberty, and Personality. The role of law is to protect these rights. As a result, Bastiat argues, the power of the state must be limited. Today, we would call this the idea of the *minimal state.*
 
 ![image](assets/en/121.webp)
 
-In Rousseau's system, which we discussed in a previous course, the legislator's mission is to organize, modify, even abolish property if deemed appropriate. For Rousseau, property is not natural but conventional, just like society itself. This idea stems from Roman law, with which Rousseau was deeply familiar.
+This contrasts sharply with Rousseau’s system, discussed earlier, where the legislator’s mission is to organize, reshape, or even abolish property if considered necessary. For Rousseau, property is not natural but conventional—just like society itself. This view comes directly from Roman law, with which Rousseau was very familiar.
 
 ![image](assets/en/122.webp)
 
-Robespierre, in turn, posits the principle that "Property is the right of every citizen to enjoy and dispose of the portion of goods guaranteed to him by law."
+Robespierre even asserted that “Property is the right of every citizen to enjoy and dispose of the portion of goods guaranteed to him by law.”
 
-For Rousseau, property is not prior to law; it is merely a convention established by the general will and within the limits it decides. As a result, there is no freedom or right independently of society and the goodwill of the legislators. But if one dissociates the right to property, it easily justifies false rights, which are only acquired by violating the rights of others.
-
-For example: the right to work or the right to housing.
+For Rousseau, property does not precede law; it is a convention established by the general will and limited by it. But separating property rights from natural law opens the door to so-called “rights” that only exist by violating the rights of others—such as the right to work or the right to housing.
 
 ![image](assets/en/123.webp)
 
-For me to acquire something for free, someone must pay on my behalf. And if it’s the State that pays, since it does not produce wealth, it can only do so by taking a home from someone, or its equivalent, to give it to me.
+For me to acquire something for free, someone else must pay for it. And if the State provides it, since the State produces no wealth of its own, it can only do so by taking someone’s property—or its equivalent—to give it to me.
 
-This idea that the right to property is a creation of the law thus leads, according to Bastiat, to opening an unlimited field to utopians who wish to model society according to their plans.
+This idea that property rights are created by law, Bastiat argues, opens the door for utopians who want to reshape society according to their own designs.
 
-In the system of natural freedom, there exists a natural law, independent of the whims of legislators. It is valid for all men and predates any society. And it is the government's duty to ensure the natural rights of each individual. A just society is one in which property rights are fully respected, meaning protected against any interference from others.
+In the system of natural freedom, there exists a natural law, independent of legislators’ whims. It applies to all people and predates any political organization. The government’s duty is to protect these natural rights for every individual. A just society is one where property rights are fully respected and shielded from interference by others.
 
 ![image](assets/en/120.webp)
-Here, Bastiat aligns himself with the legacy of the Physiocrats, and beyond that, with the tradition of the philosophy of law of Cicero and Aristotle. The law does not create rights. Its mission is to defend them and thus to defend property, both the property of oneself, the integrity of the person, and the property of the fruits of one's labor.
+
+Here, Bastiat draws on the legacy of the Physiocrats and, more broadly, on the legal philosophy of Cicero and Aristotle. The law does not create rights; its mission is to defend them—defending both the property of the person and the property that comes from one’s labor.
 
 ![image](assets/en/124.webp)
 _(Cicero)_
@@ -1120,103 +1128,110 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-The main idea of Bastiat in "The Law", his famous pamphlet dated 1850, is to show why and how the law has become plundering, that is, a source of privileges, situational rents, and fiscal arbitrariness.
+The central idea of Bastiat’s *The Law* (1850) is to explain why and how the law has been transformed into a tool of plunder—a source of privileges, rents, and fiscal arbitrariness.
 
 ![image](assets/en/125.webp)
 
-What is the true nature of the law?
+Bastiat begins by asking: what is the true nature of the law?
 
-Bastiat begins by laying the natural anthropological foundations of the law: life, liberty, and property.
+He grounds the law in three natural rights: life, liberty, and property.
 
-The institutional system of natural freedom is the one for which society, individuals, and properties exist prior to laws. In this system, Bastiat adds:
+In the institutional system of natural freedom, society, individuals, and property exist before laws. As Bastiat puts it:
 
-> It is not because there are laws that there are properties, but because there are properties that there are laws.  
-> Property and Law  
+> It is not because there are laws that there are properties, but because there are properties that there are laws.
 
 ![image](assets/en/126.webp)
 
-Every man is allowed to defend his life and to use his faculties. And the law is the collective organization of this legitimate defense. The law defends justice. Not a positive justice that would organize fraternity and solidarity, but a negative justice that limits itself to preventing one person's rights from usurping another's.
+Every person has the right to defend their life and use their faculties. The law, therefore, is simply the collective organization of this legitimate defense. It protects justice—not a positive justice that organizes fraternity or solidarity, but a negative justice that prevents anyone’s rights from being violated by others.
 
-However, when the law ceases to be negative and becomes positive, the feeling of inequality increases in society and generates conflicts. If we indefinitely expand the domain of the Law, that is, the responsibility of the government, we open the door to "an endless series of complaints, hatreds, disturbances, and revolts," he writes.
+However, once the law stops being negative and becomes positive—trying to organize society and redistribute wealth—it fuels resentment, inequality, and conflict. Expanding the scope of government endlessly, Bastiat warns, opens the door to “an endless series of complaints, hatreds, disturbances, and revolts.”
 
-False philanthropy, Bastiat says, is one of the major causes of the perversion of the law. Some men consider themselves above the rest of humanity and capable of making better choices than others.
+One major cause of this perversion of the law, Bastiat says, is false philanthropy: the idea that some people, claiming superior wisdom, should make choices on behalf of everyone else.
 
 ![image](assets/en/127.webp)
-They know better what is good for others and will impose their conception of good on everyone; these are the philanthropists. They have created false rights that are today called social rights. Social rights are nothing more than rights over the labor of others, rights to dispose of one's property, the fruit of one's labor: the right to housing, the right to health, to education, to work, to minimum wage, etc.
 
-What is plunder? It is the exact opposite of property, Bastiat tells us. To plunder comes from the Latin _spoliare_, which means to strip. We have seen that man can only live by appropriating things, by applying his faculties to things, that is, by working. Alas, he can also appropriate the product of the faculties of his fellow man, that is, to plunder him.
+They believe they know what is best for others and impose their vision of the good on everyone—these are the "philanthropists." They have created what Bastiat calls "false rights," now commonly referred to as "social rights." These include "rights" over the labor or property of others: the "right" to housing, health care, education, work, a minimum wage, and so on.
+
+What is plunder? Bastiat explains that it is the exact opposite of property. The word comes from the Latin *spoliare*, meaning “to strip.” Man can live only by appropriating things through his labor. But he can also appropriate the products of others’ labor—that is, he can plunder.
 
 ![image](assets/en/128.webp)
 
-The entire mission of the law is to prevent this extra-legal plunder, that is, to defend property and freedom, two inseparable things.
+The entire purpose of law, for Bastiat, is to prevent this extra-legal plunder—to defend property and liberty, which are inseparable.
 
-As soon as it is admitted in principle that the law can be diverted from its true mission, that it can violate properties instead of guaranteeing them, it necessarily follows a class struggle, either to defend against plunder or to organize it also to one's advantage.
+But once it is accepted that law may violate property instead of protecting it, society inevitably falls into class conflict—some seeking to defend themselves against plunder, others trying to organize it to their own advantage.
 
 ![image](assets/en/129.webp)
 
-Instead of defending natural rights, the law transforms into protection of corporate and categorical interests. Plunder is organized by the law, for the benefit of the classes that make it and their friends or clients. Bastiat thus anticipates the public choice school in the 20th century for which the law is the result of a "political market" by which groups of individuals seek to satisfy their interests at the expense of others.
+The law then ceases to defend natural rights and becomes a tool to protect special interests. It is transformed into an instrument of legal plunder, serving the classes and groups who make the laws and their political allies. In this way, Bastiat anticipates the 20th-century public choice school, which views lawmaking as a “political market” where organized groups seek to benefit themselves at the expense of others.
 
 ![image](assets/en/130.webp)
 
-For him, the purpose of the Law must simply be to "put an end to all plunders." If the State does not intervene in private life, individuals are effectively owners and responsible for their lives. They make their own happiness. They bear the good or bad consequences of their actions.
+To Bastiat, the sole purpose of the law must be to “put an end to all plunder.” When the State refrains from intervening in private life, individuals remain true owners of their lives and fully responsible for their choices. They pursue their own happiness and bear the good or bad consequences of their actions.
 
-They are certain that their natural rights are guaranteed and untouchable. Secure property rights give people the ability to make long-term plans because they know their assets are safe from plunder.
+With secure property rights, people can make long-term plans, confident that what they own will not be taken from them.
 
-> Absence of Plunder, — it is the principle of justice, peace, order, stability, conciliation, common sense that I will proclaim with all the force, alas! insufficient, of my lungs, until my last breath
+> Absence of Plunder — it is the principle of justice, peace, order, stability, conciliation, and common sense that I will proclaim with all the force, alas! insufficient, of my lungs, until my last breath.
 
-Bastiat wrote the above sentence in The Law, some time before he died.
+Bastiat wrote this line in *The Law* shortly before his death.
 
 ![image](assets/en/131.webp)
 
-A century after the death of Frédéric Bastiat, legal plunder is clearly evident in the Universal Declaration of Human Rights of 1948, notably in its articles 22 ("everyone has the right to social security"), 23 ("everyone has the right to work"), 24 ("everyone has the right to rest and leisure"), 25 ("everyone has the right to a standard of living adequate for the health and well-being"), 26 ("everyone has the right to education").
+Yet a century later, legal plunder reappears in the *Universal Declaration of Human Rights* (1948), particularly in articles such as:
+
+* Article 22: “Everyone has the right to social security.”
+* Article 23: “Everyone has the right to work.”
+* Article 24: “Everyone has the right to rest and leisure.”
+* Article 25: “Everyone has the right to a standard of living adequate for health and well-being.”
+* Article 26: “Everyone has the right to education.”
 
 ## The Role of Law and the State
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-In 1848, Bastiat was a deputy. He was appointed vice-president of the finance commission. He was, therefore, particularly well-placed to answer this question: what is the State? We turn to the State to ensure our well-being. But Bastiat reminds us that the State cannot give anything to the citizens that it hasn't first taken from them.
+In 1848, while serving as a deputy and vice-president of the finance commission, Bastiat was in a prime position to address a fundamental question: What is the State? People often turn to the State for their well-being, but Bastiat reminds us that the State cannot give anything to citizens without first taking it from them.
 
-Bastiat begins by overturning a commonly accepted equation: it’s the State that sustains the nation. However, the State cannot sustain the citizens because it does not produce wealth; it merely moves it around, redistributes it. On the contrary, it is the citizens who sustain the State through the creation of wealth.
+He challenges the widely accepted belief that the State sustains the nation. In reality, the State produces no wealth—it merely redistributes what already exists. It is citizens, through their work and wealth creation, who sustain the State, not the other way around.
 
 ![image](assets/en/132.webp)
 
-Furthermore, the State in itself does not exist; there are only men who constitute the State, who govern, administer, who live off the State directly or indirectly. Therefore, the men who administer the State are like others; they seek to satisfy their personal interests.
+Moreover, the State itself is nothing abstract; it consists only of the men who govern, administer, and live off it directly or indirectly. Like all men, they pursue their personal interests.
 
 ![image](assets/en/133.webp)
 
-And since the action of the State is purely redistributive, it is subject to the pressure of special interest groups. Indeed, certain special interest groups have understood that it was easier to make money through political engagement than through productive behaviors. They seek to steal the money of others under the guise of the State, undermining the market's production capacity through the multiplication of laws, taxes, and bureaucratic constraints.
+Because the State’s action is purely redistributive, it is highly vulnerable to pressure from special interest groups. Many of these groups realize it is easier to enrich themselves through political influence than through productive work. They exploit the State to seize others’ wealth while burdening the economy with laws, taxes, and regulations that stifle production.
 
 ![image](assets/en/134.webp)
 
-In other words, the State only pursues clientelist objectives, and the notion of the general interest is devoid of meaning. Any gain obtained by some is at the expense of others: it is not a zero-sum game but a negative-sum game.
-Bastiat thus anticipates, a century in advance, the analyses of the political market's functioning that would emerge at the end of the 1950s with the so-called Public Choice school of James Buchanan, Nobel Prize in Economics, and his colleague Gordon Tullock.
+In this way, the State serves clientelist interests rather than the general interest. Any benefit for one group comes at the expense of others, creating not a zero-sum game but a negative-sum game.
+
+Here, Bastiat anticipates by a century the insights of the Public Choice school of James Buchanan and Gordon Tullock, who in the late 1950s analyzed politics as a “market” where actors pursue their own interests rather than the common good.
 ![image](assets/en/135.webp)
 ![image](assets/en/136.webp)
 
-Moreover, Bastiat asserts, the State has no rights that do not first preexist in the individual. Why does the State have the right to guarantee, even by force, the property of each individual? Simply because this right preexists in the individual. One cannot deny individuals the right to self-defense, the right to use force if necessary to repel attacks against their persons, their faculties, and their properties. This natural right of self-defense, which resides in all citizens, can take a collective form and legitimize common force.
+Moreover, Bastiat argues that the State possesses no rights that do not first exist in the individual. Why does the State have the right to protect each person’s property, even by force if necessary? Simply because this right already belongs to the individual. No one can deny individuals the right to self-defense—the right to repel attacks against their person, faculties, or property. This natural right of self-defense, inherent in every citizen, can take collective form and legitimize common force.
 
-Therefore, to know if the State is legitimately vested with a right, one must ask if this right resides in the individual by virtue of their organization and in the absence of any government.
+Therefore, to determine whether the State is legitimately vested with a right, one must first ask whether this right exists naturally in the individual, even in the absence of government.
 
-That is why the State cannot in any case infringe upon natural rights; it must, on the contrary, guarantee them.
+For this reason, the State must never violate natural rights; rather, it must protect them.
 
 ![image](assets/en/137.webp)
 
-It ensures Security, both internal and external, and Justice. It can be strong and effective in its domain. But the law cannot step outside this very strict role because it then becomes an instrument of plunder from some for the benefit of others. When the Law is perverted, it acts as an instrument of injustice. The perversion of the law always leads to plunder, as we have seen in the previous course. It is immediate, automatic, inevitable, and certain. Taking the law out of its domain can only infringe upon natural rights. Civil society is then stripped of its power (natural institutions, contracts, exchanges, associations) in favor of state management, that is, technocratic and bureaucratic.
+The State ensures security, both internal and external, and justice. Within this role, it can be strong and effective. But the law must never go beyond this strict mission; otherwise, it becomes a tool of plunder for the benefit of some at the expense of others. When the law is perverted, it becomes an instrument of injustice. Bastiat emphasizes that such perversion inevitably leads to plunder—it is immediate, automatic, and certain. When the law oversteps its bounds, it infringes upon natural rights. Civil society then loses its vitality—its natural institutions, contracts, exchanges, and associations—handed over instead to state control, with its technocratic and bureaucratic management.
 
 ![image](assets/en/107.webp)
 
-As a result, the only legitimate public services of a State according to Bastiat are three in number: the military, the police, and the judiciary. In other words, the State must ensure the internal and external protection of individuals, their freedom, and their property. It is therefore normal that everyone contributes to this protection. However, beyond these legitimate functions, any other contribution to another service provided by the State is subject to scrutiny. Outside of this circle, Bastiat writes:
+For Bastiat, the only legitimate public services of the State are threefold: the military, the police, and the judiciary. In other words, the State must ensure internal security, external defense, individual liberty, and the protection of property. It is therefore normal for everyone to contribute to this protection. But beyond these essential functions, any additional state service must be viewed critically. Outside this narrow scope, Bastiat writes:
 
 > Religion, education, association, labor, exchanges, everything belongs to the domain of private activity, under the eye of public authority, which should only have a mission of surveillance and repression.
 
-Regarding public services, he states a simple principle:
-If you want to create a function, prove its utility. Demonstrate that it is worth the services it provides, equivalent to what it costs. Hence, he concludes, it is reasonable to entrust to the public sector only what the private sector absolutely cannot accomplish.
+Regarding public services, Bastiat states a simple principle:
+If you want to create a government function, prove its utility. Show that the services provided are worth their cost. From this, he concludes that the public sector should only handle what the private sector is truly incapable of doing.
 
-In summary, when a government oversteps its mission of defending people and property, it encourages interest groups to seek privileges and influence power to obtain benefits at the expense of taxpayers and consumers.
+In short, when a government exceeds its mission of protecting people and property, it opens the door for interest groups to demand privileges and manipulate power for benefits at the expense of taxpayers and consumers.
 
-> The State is the great fiction through which everyone endeavors to live at the expense of everyone else.  
+> The State is the great fiction through which everyone endeavors to live at the expense of everyone else.
 
-Wrote Frédéric Bastiat in a short pamphlet titled The State.
+This is how Frédéric Bastiat summarized it in his short pamphlet *The State*.
 
 ![image](assets/en/138.webp)
 
@@ -1224,14 +1239,16 @@ Wrote Frédéric Bastiat in a short pamphlet titled The State.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-Bastiat's influence began to decline towards the end of the 19th century, with the rise of socialism and particularly Marxism within universities and research institutes, funded by public money.
+Bastiat's influence began to wane toward the end of the 19th century with the rise of socialism, and especially Marxism, in universities and research institutes funded by public money.
 
-With the 20th century, the knowledge and popularity of Bastiat disappeared. He was no longer mentioned in economics textbooks. It would not be until the end of World War II that a renewed interest in the ideas of freedom, so evidently forgotten with Roosevelt and the totalitarian regimes in Europe, would emerge. One of the architects of this revival was the Austrian economist Ludwig von Mises, one of the many European intellectuals who fled Europe through Spain and Portugal to reach America.
+By the 20th century, Bastiat had all but disappeared from economics textbooks. His ideas were largely forgotten until the end of World War II, when interest in freedom—so badly neglected during Roosevelt’s era and by Europe’s totalitarian regimes—began to reemerge.
 
-Settled in New York in 1943, Mises organized seminars that attracted remarkable minds: George Stigler, Milton Friedman, both future Nobel Prize winners, and Murray Rothbard, then a student at Columbia. It was during these seminars that he spoke of Bastiat for the first time as one of the major references of classical liberalism. He presented to his listeners Bastiat's pamphlets, The Law, and The State, not yet translated into English. In 1953, one of the seminar participants, Leonard Read, would have "The Law" by Bastiat translated into English and would take on the task of distributing the book throughout the country through his foundation: the Foundation for Economic Education.
+One of the leading figures in this revival was Austrian economist Ludwig von Mises, who fled Europe via Spain and Portugal before settling in New York in 1943. There, Mises organized seminars that drew some of the brightest minds of the time, including future Nobel laureates George Stigler and Milton Friedman, as well as Murray Rothbard, then a student at Columbia. It was in these seminars that Mises first introduced Bastiat as one of the great thinkers of classical liberalism.
+
+He presented Bastiat’s pamphlets *The Law* and *The State,* which at the time had not yet been translated into English. In 1953, seminar participant Leonard Read arranged for *The Law* to be translated into English and distributed nationwide through his Foundation for Economic Education.
 
 ![image](assets/en/139.webp)
-But the one who would also popularize the theses of Frédéric Bastiat was an economic columnist for the New York Times, Henry Hazlitt, in a small book named: "Economics in One Lesson," published in 1946. Explicitly drawing from Bastiat's ideas, he aims to demonstrate that the problem with statist economic solutions is their failure to consider their disastrous long-term consequences.
+But the one who would also popularize the theses of Frédéric Bastiat was an economic columnist for the New York Times, Henry Hazlitt, in a small book named: *Economics in One Lesson,* published in 1946. Explicitly drawing from Bastiat's ideas, he aimed to demonstrate that the problem with statist economic solutions is their failure to consider their disastrous long-term consequences.
 ![image](assets/en/140.webp)
 
 Hazlitt begins his book by recounting Bastiat's story of the broken window. He summarizes the story in a simple and singular lesson:
@@ -1240,20 +1257,23 @@ Hazlitt begins his book by recounting Bastiat's story of the broken window. He s
 
 Hazlitt then applies this lesson to a wide variety of economic problems: rent control, minimum wage laws, the presumed benefits of war, public works and the budget deficit, monetary inflation, tariffs, and finally savings.
 
-Bastiat was one of Ronald Reagan's favorite economists, long before he was elected president. It is less known, but for eight years, Reagan worked for the General Electric company as the host of its television show on CBS, and as responsible for the company's staff training. His training program was built around introductory texts to the market economy. The chosen works were those of two Austrians, Hayek and Mises, two Englishmen, Cobden and Bright, and one Frenchman, Frédéric Bastiat.
+Bastiat was one of Ronald Reagan's favorite economists, long before Reagan became president. Less well known is that for eight years, Reagan worked for General Electric as the host of its television show on CBS and as the person in charge of staff training. His training program focused on introductory texts about the market economy. Among the authors selected were two Austrians, Hayek and Mises, two Englishmen, Cobden and Bright, and one Frenchman, Frédéric Bastiat.
 
-The lesson that Reagan taught his employees, following Bastiat, is that there is no greater myth than that of stimulating growth and employment through public spending.
+The lesson Reagan taught his employees, following Bastiat, was that no myth is greater than the belief that public spending stimulates growth and employment.
+
 ![image](assets/en/141.webp)
 
-It was notably John Maynard Keynes who suggested that public spending increased production due to a multiplier: if the government builds a bridge, the workers of that bridge will be able to buy bread, then the baker can buy shoes, and so on. If private industry is in decline, it can be remedied by major works. If there is unemployment, the State can create public jobs.
+It was John Maynard Keynes who argued that public spending boosts production through a multiplier effect: if the government builds a bridge, the workers who build it will buy bread, the baker will buy shoes, and so on. If private industry is in decline, public works can supposedly fix it. If there is unemployment, the State can supposedly create public jobs.
 
-But as Bastiat aptly demonstrated, state intervention has perverse effects that are not seen. Only a good economist is capable of foreseeing them. Let's take an example: It is an illusion to believe that the government can "create jobs" because for every public job created, it destroys a job in the market. Indeed, public jobs are paid for by taxes. Public jobs are not created; they are perceived. Every penny spent by the State must necessarily be obtained through a penny of tax or debt.
+But as Bastiat clearly demonstrated, state intervention has unseen and harmful effects. Only a good economist can anticipate them. For example, believing that the government can "create jobs" is an illusion. Every public job created comes at the cost of a job destroyed in the private sector because public jobs are paid for with taxes. Public jobs are not truly created; they are transferred. Every penny the State spends must first be taken from taxpayers or borrowed as debt.
+
 ![image](assets/en/142.webp)
 
-If we look at things from this angle, Reagan explained to GE employees, the so-called miracles of state spending appear in a completely different light. Because taxes discourage production, and the wealth created by public spending cannot fully compensate for those that were prevented from being born by the taxes levied to pay for these expenses.
+If we look at things from this perspective, Reagan explained to GE employees, the so-called miracles of state spending take on a very different meaning. Taxes discourage production, and the wealth generated by public spending never fully compensates for the wealth that could have been created if those taxes had remained in the private sector.
 
 ![image](assets/en/138.webp)
-In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
+
+In essence, Reagan drew from Bastiat several core elements of a liberal vision of society and the individual: the primacy of civil society over the State, the value of choice and personal responsibility, the central role of entrepreneurs in wealth creation, the need for a minimal and flexible legal framework that fosters trust and contract enforcement, the principle that wealth must be created before it can be distributed, and the goal of giving everyone a fair chance in competitive markets.
 
 # Final Section
 

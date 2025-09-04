@@ -15,7 +15,7 @@ objectives:
 # Podróż do drugiej warstwy Bitcoina
 
 
-Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transakcji Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.
+Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transakcji w sieci Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności w sieci Bitcoin były szybkie, ekonomiczne i skalowalne.
 
 
 Dzięki sieci kanałów płatności sieć Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
@@ -42,7 +42,7 @@ Miłego odkrywania!
 Witamy na kursie LNP201!
 
 
-Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sieci Lightning, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
+Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sieci Lightning, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji w sieci Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
 
 
 **Sekcja 1: Podstawy**
@@ -62,7 +62,7 @@ Sieć Lightning nie ogranicza się do pojedynczych kanałów; to prawdziwa sieć
 
 **Sekcja 4: Narzędzia wykorzystywane w sieci Lightning**
 
-W tej sekcji przedstawiono praktyczne narzędzia wykorzystywane w sieci Lightning, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynne płatności i maksymalizującym wydajność transakcji w sieci Lightning.
+W tej sekcji przedstawiono praktyczne narzędzia wykorzystywane w sieci Lightning, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynność płatności i maksymalizującym wydajność transakcji w sieci Lightning.
 
 
 **Sekcja 5: Dalej**

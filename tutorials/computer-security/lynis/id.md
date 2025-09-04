@@ -348,162 +348,84 @@ Jika tidak ada informasi koneksi yang dimasukkan dalam waktu dua menit, koneksi 
 
 - Aktifkan **strictModes**
 
-
-
-Menentukan apakah "sshd" harus memeriksa mode dan pemilik berkas pengguna serta direktori home pengguna sebelum memvalidasi sambungan. Hal ini biasanya diinginkan, karena terkadang pemula secara tidak sengaja membiarkan direktori atau berkas mereka dapat diakses oleh semua orang. Standarnya adalah "ya".
-
-
-
-
+Menentukan apakah "sshd" harus memeriksa mode dan pemilik file pengguna serta direktori Home pengguna sebelum memvalidasi koneksi. Ini sangat dianjurkan, karena terkadang pemula secara tidak sengaja membiarkan direktori atau file mereka dapat diakses sepenuhnya oleh semua orang. Nilai bawaannya adalah "yes".
 
 - Tetapkan **MaxAuthtries** ke 3
 
-
-
 Ini menunjukkan jumlah upaya autentikasi yang gagal sebelum komunikasi ditutup.
-
-
-
-
 
 - Tetapkan **MaxSessions** ke 2
 
-
-
 Ini merupakan jumlah maksimum sesi simultan.
 
-
-
-
-
-- Mengaktifkan autentikasi kunci publik
-
-
+- Mengaktifkan autentikasi public key
 
 ```
 PubkeyAuthentication yes
 ```
 
-
-
-
-
 - Mempertahankan otentikasi kata sandi :
-
-
 
 ```
 PasswordAuthentication yes
 ```
 
-
-
 Melarang kata sandi kosong dan autentikasi **Kerberos**, serta **autentikasi root langsung**
-
-
 
 ```
 PermitEmptyPasswords no
 PermitRootLogin no
 ```
 
-
-
-Pastikan Anda memiliki "**PermitRootLogin no", jika sama dengan "yes", itu adalah "absolute evil".
-
-
-
-
+Pastikan Anda memiliki "**PermitRootLogin no**", jika sama dengan "yes", itu adalah "**kesalahan fatal**".
 
 - Melarang pengalihan koneksi TCP
-
-
 
 ```
 AllowTcpForwarding no
 ```
 
-
-
-Menunjukkan apakah pengalihan TCP diizinkan, dengan "ya" sebagai pengaturan default. Harap diperhatikan: menonaktifkan pengalihan TCP tidak meningkatkan keamanan jika pengguna memiliki akses ke shell, karena mereka masih dapat menyiapkan alat pengalihan mereka sendiri.
-
-
-
-
+Menunjukkan apakah pengalihan TCP diizinkan, dengan nilai bawaan "yes". Perlu diketahui: menonaktifkan pengalihan TCP tidak meningkatkan keamanan jika pengguna memiliki akses ke shell, karena mereka masih dapat mengatur program pengalihan mereka sendiri.
 
 - Melarang pengalihan X11
-
-
 
 ```
 X11Forwarding no
 ```
 
-
-
-Menunjukkan apakah pengalihan X11 diterima, dengan "tidak" sebagai pengaturan default. Harap diperhatikan: meskipun pengalihan X11 dinonaktifkan, hal ini tidak meningkatkan keamanan, karena pengguna masih dapat mengatur pengalihan mereka sendiri. Pengalihan X11 secara otomatis dinonaktifkan jika **UseLogin** dipilih.
-
-
-
-
+Menunjukkan apakah pengalihan X11 diterima, dengan nilai bawaan "no". Perlu diketahui: bahkan jika pengalihan X11 dinonaktifkan, ini tidak meningkatkan keamanan, karena pengguna masih dapat mengatur program pengalih mereka sendiri. Pengalihan X11 secara otomatis dinonaktifkan jika **UseLogin** dipilih.
 
 - Mengatur batas waktu komunikasi antara klien dan sshd
-
-
 
 ```
 ClientAliveInterval  300
 ```
 
-
-
-Menentukan batas waktu dalam hitungan detik, setelah itu, jika tidak ada data yang diterima dari klien, layanan sshd akan mengirim pesan yang meminta respons dari klien. Secara default, opsi ini diatur ke "0", yang berarti bahwa pesan-pesan ini tidak dikirim ke klien. Hanya protokol SSH versi 2 yang mendukung opsi ini.
-
-
+Menentukan batas waktu hitungan dalam detik, setelah itu, jika tidak ada data yang diterima dari klien, layanan sshd akan mengirimkan pesan yang meminta tanggapan dari klien. Secara bawaan, opsi ini diatur ke "0", yang berarti bahwa pesan-pesan ini tidak dikirim ke klien. Hanya protokol SSH versi 2 yang mendukung opsi ini.
 
 ```
 ClientAliveCountMax 0
 ```
 
-
-
-Menurut [dokumentasi (*man page*) untuk sshd] (https://www.delafond.org/traducmanfr/man/man5/sshd_config.5.html), inilah arti dari opsi ini: "Mengatur jumlah pesan penahanan (lihat di atas) yang akan dikirim tanpa respons dari klien untuk **sshd**. Jika ambang batas ini tercapai saat pesan hold telah dikirim, **sshd** akan memutuskan sambungan klien dan mengakhiri sesi. Penting untuk dicatat bahwa pesan-pesan penahanan ini sangat berbeda dengan opsi **KeepAlive** (di bawah). Pesan penahanan koneksi dikirim melalui terowongan terenkripsi, dan oleh karena itu tidak dapat dipalsukan. Penahanan koneksi tingkat TCP yang diaktifkan oleh **KeepAlive** dapat dipalsukan. Mekanisme penahanan koneksi menjadi menarik ketika klien atau server perlu mengetahui apakah koneksi tidak aktif."
-
-
-
-
+Menurut [dokumentasi (*man page*) untuk sshd](https://www.delafond.org/traducmanfr/man/man5/sshd_config.5.html), inilah arti opsi ini: "Mengatur jumlah pesan tertahan (lihat di atas) yang akan dikirim tanpa tanggapan dari klien untuk **sshd**. Jika ambang batas ini tercapai saat pesan hold telah dikirim, **sshd** akan memutuskan sambungan klien dan mengakhiri sesi. Penting untuk dicatat bahwa pesan hold ini sangat berbeda dari opsi KeepAlive (di bawah). Pesan hold koneksi dikirim melalui terowongan terenkripsi, dan oleh karena itu tidak dapat dipalsukan. Hold koneksi tingkat TCP yang diaktifkan oleh **KeepAlive** dapat dipalsukan. Mekanisme hold koneksi diperlukan ketika klien atau server perlu tahu apakah koneksi sedang tidak aktif."
 
 - Mencegah pengungkapan informasi dengan menonaktifkan **motd, banner, lastlog**
-
-
 
 ```
 PrintMotd no
 ```
 
-
-
-Menentukan apakah sshd akan menampilkan isi berkas "/etc/motd" saat pengguna masuk dalam modus interaktif. Pada beberapa sistem, konten ini juga dapat ditampilkan oleh shell, melalui /etc/profile atau berkas serupa. Nilai defaultnya adalah "yes".
-
-
+Menentukan apakah sshd harus menampilkan isi file /etc/motd saat pengguna masuk dalam mode interaktif. Pada beberapa sistem, konten ini juga dapat ditampilkan oleh shell, melalui /etc/profile atau file serupa. Nilai bawaannya adalah "yes".
 
 ```
 Banner none
 ```
 
+Perlu dicatat bahwa di beberapa yurisdiksi, pengiriman pesan sebelum autentikasi mungkin merupakan prasyarat untuk perlindungan hukum. Isi file yang ditentukan akan dikirimkan ke pengguna jarak jauh sebelum otorisasi koneksi diberikan. Opsi ini perlu dikonfigurasi, karena secara bawaan tidak ada pesan yang akan ditampilkan.
 
-
-Perlu dicatat bahwa di beberapa yurisdiksi, mengirim pesan sebelum autentikasi mungkin merupakan prasyarat untuk perlindungan hukum. Isi dari file yang ditentukan akan dikirim ke pengguna jarak jauh sebelum otorisasi koneksi diberikan. Opsi ini perlu dikonfigurasi, karena secara default tidak ada pesan yang akan ditampilkan.
-
-
-
-Dalam gambar, ini memberikan hasil :
-
-
+Tampak pada gambar, ini menghasilkan:
 
 ![Image](assets/fr/019.webp)
-
-
 
 ### D. Skor audit
 
@@ -511,31 +433,18 @@ Dalam gambar, ini memberikan hasil :
 
 Terakhir, jangan lupa untuk memeriksa **skor audit Lynis**! Kita melihat bahwa **skor Hardening saya adalah 63** dan file laporannya dapat dilihat di "**/var/log/lynis-report.dat**". Ada juga file "**/var/log/lynis.log**".
 
-
-
-**Dengan kata lain, semakin tinggi skornya, semakin baik! Oleh karena itu, Anda perlu memperbaiki konfigurasi Anda untuk mencapai skor setinggi mungkin, sekaligus memungkinkan mesin dan layanan yang di-host berfungsi secara normal (yang berarti melakukan pengujian fungsional).
-
-
+**Dengan kata lain, semakin tinggi skornya, semakin baik!** Oleh karena itu, Anda perlu memperbaiki konfigurasi Anda untuk mencapai skor setinggi mungkin, sambil tetap memungkinkan komputer dan layanan yang di-hosting berfungsi normal (yang berarti melakukan uji fungsional).
 
 ![Image](assets/fr/046.webp)
 
 
-
-Mari kita lihat hasilnya di server kedua saya, di mana saya menghabiskan lebih banyak waktu untuk melakukan hardening! Jadi wajar jika skornya lebih tinggi (**76**).
-
-
+Mari kita lihat hasilnya di server kedua saya, di mana saya menghabiskan lebih banyak waktu untuk memperkuatnya! Jadi wajar jika skornya lebih tinggi (**76**).
 
 ![Image](assets/fr/045.webp)
 
+## V. Perencanaan otomatisasi Lynis
 
-
-## V. Perencanaan otomatis Lynis
-
-
-
-**Lynis** juga menawarkan opsi untuk menjalankan pemeriksaan melalui tugas terjadwal. Sebenarnya ada opsi **"--cronjob "**, yang akan menjalankan semua tes Lynis tanpa perlu validasi atau tindakan pengguna. Anda kemudian dapat dengan mudah membuat skrip yang akan menjalankan **Lynis** dan meletakkan hasilnya dalam berkas yang diberi cap waktu dengan nama server yang bersangkutan. Berikut ini adalah file jenis ini yang dapat Anda letakkan di folder */etc/cron.daily*:
-
-
+**Lynis** juga menawarkan opsi untuk menjalankan pemeriksaannya melalui tugas terjadwal. Ada opsi **"--cronjob "**, yang akan menjalankan semua tes Lynis tanpa perlu validasi atau tindakan pengguna. Anda kemudian dapat dengan mudah membuat skrip yang akan menjalankan **Lynis** dan menempatkan keluarannya dalam file dengan timestamp dan nama server yang bersangkutan. Berikut adalah contoh file semacam ini yang dapat Anda letakkan di folder */etc/cron.daily*:
 
 ```
 #!/bin/sh
@@ -551,42 +460,22 @@ cd /root/Lynis./Lynis -c --auditor "${NOM_AUDITEUR}" --cronjob > ${RAPPORT}
 mv /var/log/lynis-report.dat ${DATA}
 ```
 
-
-
 Variabel **"AUDITOR_NAME "** hanyalah sebuah variabel yang akan kita atur dalam opsi **"--auditor "** dari **Lynis** sehingga nama ini akan ditampilkan dalam laporan:
-
-
 
 ![Image](assets/fr/059.webp)
 
-
-
-Kita juga akan membuat beberapa variabel kontekstual yang akan membantu kita mengatur diri kita dengan lebih baik, seperti nama host dan tanggal untuk menamai laporan dan memberi stempel waktu, dan jalur ke folder tempat kita ingin menaruh laporan kita.
-
-
+Kita juga akan membuat beberapa variabel kontekstual yang akan membantu kita mengaturnya dengan lebih baik, seperti nama host dan tanggal untuk menamai laporan dan memberikan timestamp, serta jalur ke folder tempat kita ingin menempatkan laporan kita.
 
 ## VI. Kesimpulan
 
+Lynis adalah aplo yang sangat praktis yang akan membantu Anda menghemat waktu dan menjadi lebih efisien ketika Anda ingin tahu lebih banyak tentang keadaan konfigurasi server Linux, terutama dalam hal keamanan. Namun, jangan lupa bahwa setiap modifikasi harus diuji sebelum diterapkan dalam role production, dengan mempertimbangkan penggunaan dan konteks Anda sendiri.
 
+Anda mungkin tidak akan menerapkan konfigurasi yang sama untuk VPS yang tersambung ke Net, di mana Anda hanya membutuhkan satu koneksi SSH (karena Anda adalah satu-satunya orang yang terhubung), tidak seperti **bastion** atau **scheduler** yang akan membutuhkan koneksi **SSH** yang berlipat ganda.
 
-Lynis adalah alat yang sangat praktis yang akan membantu Anda menghemat waktu dan menjadi lebih efisien ketika Anda ingin mengetahui lebih banyak tentang keadaan konfigurasi server Linux, terutama dalam hal keamanan. Namun, jangan lupa bahwa setiap modifikasi harus diuji sebelum diterapkan dalam produksi, dengan mempertimbangkan penggunaan dan konteks Anda sendiri.
+Setelah Anda mendapatkan konfigurasi yang cocok untuk Anda bisa memperkuatnya, disarankan untuk menggunakan aplikasi otomatisasi agar Anda tidak perlu mengulang tugas secara manual, karena ini akan memakan waktu dan rawan kesalahan. Misalnya, Anda dapat menggunakan: **Puppet, Chef, Ansible, dll.**
 
+Jangan lupa untuk berkomunikasi dengan tim Anda sebelum implementasi: Anda perlu membuat mereka memahami mengapa Anda membuat perubahan ini, bukan hanya memberi tahu mereka bahwa Anda membuatnya. Pada akhirnya, tujuannya adalah untuk menyampaikan kebiasan-kebiasaan yang baik, dan ini akan meningkatkan peluang keberhasilan Anda.
 
+Terakhir, Anda juga dapat membandingkan **Lynis** dengan aplikasi lain, yang ada beberapa di antaranya. Jika Anda ingin bergerak menuju manajemen terpusat sambil tetap open source, saya merekomendasikan aplikasi [Wazuh](https://wazuh.com/).
 
-Anda mungkin tidak akan menerapkan konfigurasi yang sama untuk VPS yang terpapar ke Net, di mana Anda hanya membutuhkan satu koneksi SSH (karena Anda satu-satunya orang yang terhubung), tidak seperti **bastion** atau **scheduler** yang perlu memperbanyak koneksi **SSH.**
-
-
-
-Setelah Anda mendapatkan konfigurasi yang cocok untuk Anda dalam hal pengerasan, disarankan untuk mengadopsi alat otomatisasi sehingga Anda tidak perlu mengulang tugas-tugas secara manual, karena hal ini akan memakan waktu dan rentan terhadap kesalahan. Sebagai contoh, Anda dapat menggunakan **: Puppet, Chef, Ansible, dll...**
-
-
-
-Jangan lupa untuk berkomunikasi dengan tim Anda sebelum implementasi: Anda perlu membuat mereka memahami mengapa Anda membuat perubahan ini, bukan hanya mengatakan bahwa Anda akan melakukannya. Pada akhirnya, tujuannya adalah untuk meneruskan praktik-praktik yang baik, dan ini akan meningkatkan peluang keberhasilan Anda.
-
-
-
-Terakhir, Anda juga bisa membandingkan **Lynis** dengan alat lain, yang mana ada beberapa di antaranya. Jika Anda ingin beralih ke manajemen terpusat namun tetap open source, saya merekomendasikan alat [Wazuh] (https://wazuh.com/).
-
-
-
-**Tutorial ini sudah selesai, selamat bersenang-senang dengan Lynis!
+**Tutorial ini sudah selesai, selamat bersenang-senang dengan Lynis!**
